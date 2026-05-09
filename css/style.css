@@ -728,7 +728,29 @@ nav {
   width: 260px;
   height: 36px;
   border-radius: 6px;
-  filter: invert(1);
+  color-scheme: light;
+  background: #fff;
+}
+
+.audio-mini audio::-webkit-media-controls-panel {
+  background-color: #fff;
+}
+
+.audio-mini audio::-webkit-media-controls-current-time-display,
+.audio-mini audio::-webkit-media-controls-time-remaining-display {
+  color: #111;
+}
+
+.audio-mini audio::-webkit-media-controls-play-button,
+.audio-mini audio::-webkit-media-controls-mute-button {
+  filter: invert(0);
+}
+
+.audio-mini-player {
+  display: inline-flex;
+  background: #fff;
+  border-radius: 6px;
+  padding: 2px;
 }
 
 /* gear tags */
