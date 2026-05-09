@@ -378,7 +378,7 @@ const guides = [
     title: "Essential Accessories Every Musician Needs (2026)",
     title_es: "Accesorios Esenciales Que Todo Músico Necesita (2026)",
     category: "accessories",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    image: "https://k584otvs.cdn.imgeng.in/sites/ymlv5.19/productimages/900x900/YBCF300-PACK.jpg?1701265849",
     badge: "recommended",
     intro: "Gear isn't just about guitars and microphones. After 20+ years on stage and in the studio, I've learned the hard way that cheap accessories cost more in the long run. A bad cable fails during the best take. A flimsy stand drops your mic mid-show. A soft case means a broken headstock at baggage claim. These are the accessories that protect your investment and keep your sound clean — the ones I actually trust on tour.",
     intro_es: "El equipo no es solo guitarras y micrófonos. Después de más de 20 años en el escenario y en el estudio, he aprendido por las malas que los accesorios baratos cuestan más a largo plazo. Un cable malo falla durante la mejor toma. Un soporte endeble deja caer tu micrófono en medio del show. Una funda blanda significa un clavijero roto en el reclamo de equipaje. Estos son los accesorios que protegen tu inversión y mantienen tu sonido limpio — en los que realmente confío en gira.",
