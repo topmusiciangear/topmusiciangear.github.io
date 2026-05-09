@@ -273,7 +273,7 @@ const guides = [
     id: "beat-making",
     title: "Desktop Beat-Making Studio: From Idea to Track",
     title_es: "Estudio de Creación de Beats: De la Idea al Track",
-    category: "percussion",
+    category: "interfaces",
     image: "https://cdn11.bigcommerce.com/s-7659a/images/stencil/1280x1280/products/43730/135246/1.MPC_Key_37_Top_Down_View-LowRes__36828.1703861245.jpg?c=2",
     badge: "recommended",
     intro: "Can't stop making beats? Good. A dedicated beat-making setup is different from a general recording studio — it's about workflow, immediacy, and inspiration. Here's how I'd build a beat-making rig that lets you go from idea to track without breaking flow.",
