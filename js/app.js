@@ -39,7 +39,7 @@ function translatePage() {
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
-  const discBar = document.querySelector(".disclosure");
+  const discBar = document.querySelector(".footer-disclosure-text");
   if (discBar) {
     const discText = discBar.childNodes[0];
     if (discText) discText.textContent = t("disclosureBar") + " ";

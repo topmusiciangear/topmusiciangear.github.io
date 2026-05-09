@@ -57,13 +57,6 @@ img { max-width: 100%; display: block; }
 ::-webkit-scrollbar-thumb { background: var(--surface-light); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--border-light); }
 
-/* Disclosure */
-.disclosure {
-  display: none;
-}
-
-.disclosure a { color: var(--accent); text-decoration: underline; cursor: pointer; }
-
 /* Header */
 header {
   background: rgba(13,13,13,.92);
