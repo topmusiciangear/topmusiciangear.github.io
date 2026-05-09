@@ -96,10 +96,6 @@ function renderGuideCats() {
     document.querySelectorAll(".cat-card").forEach(c => c.classList.remove("active"));
     card.classList.add("active");
     renderGuideGrid();
-    setTimeout(() => {
-      const el = document.getElementById("guideGrid");
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 100);
   });
 }
 
@@ -212,6 +208,7 @@ function renderGuideGrid() {
       location.hash = card.dataset.guide;
     });
   });
+  grid.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function renderGuideDetail(id) {
