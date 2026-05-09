@@ -270,6 +270,12 @@ function renderGuideDetail(id) {
   });
 }
 
+function renderAudioMini() {
+  const el = document.getElementById("audioMini");
+  if (!el) return;
+  el.innerHTML = '<div class="audio-mini-inner"><span class="audio-mini-label">Grabado con mi gear</span><audio controls preload="auto"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></div>';
+}
+
 function renderMySetup() {
   const container = document.getElementById("setupGrid");
   if (!container) return;
@@ -345,6 +351,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initLangSwitcher();
   renderGuideCats();
   renderGuideGrid();
+  renderAudioMini();
   renderMySetup();
   renderAbout();
   translatePage();
