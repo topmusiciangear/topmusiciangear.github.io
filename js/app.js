@@ -167,7 +167,6 @@ function renderProductCard(id) {
 
 function renderGuideGrid() {
   currentGuideId = null;
-  history.replaceState({ guide: null }, '', window.location.pathname);
   const grid = document.getElementById("guideGrid");
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
@@ -371,6 +370,7 @@ function handleNavClick(target) {
 
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
+  history.replaceState({ guide: null }, '', window.location.pathname);
   initLangSwitcher();
   renderGuideCats();
   renderGuideGrid();
