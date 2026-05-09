@@ -270,20 +270,6 @@ function renderGuideDetail(id) {
   });
 }
 
-function renderAudioDemos() {
-  const container = document.getElementById("audioGrid");
-  if (!container) return;
-  container.innerHTML = `
-    <div class="audio-card audio-card-solo">
-      <div class="audio-player-wrapper">
-        <audio controls preload="auto">
-          <source src="audio/solo-tres.mp3" type="audio/mpeg">
-        </audio>
-      </div>
-    </div>
-  `;
-}
-
 function renderMySetup() {
   const container = document.getElementById("setupGrid");
   if (!container) return;
@@ -359,7 +345,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initLangSwitcher();
   renderGuideCats();
   renderGuideGrid();
-  renderAudioDemos();
   renderMySetup();
   renderAbout();
   translatePage();
