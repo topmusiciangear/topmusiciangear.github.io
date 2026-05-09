@@ -276,7 +276,7 @@ function renderAudioDemos() {
   container.innerHTML = `
     <div class="audio-card audio-card-solo">
       <div class="audio-player-wrapper">
-        <audio controls preload="none">
+        <audio controls preload="auto">
           <source src="audio/solo-tres.mp3" type="audio/mpeg">
         </audio>
       </div>
