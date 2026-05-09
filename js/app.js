@@ -275,8 +275,6 @@ function renderAudioDemos() {
   if (!container) return;
   container.innerHTML = `
     <div class="audio-card audio-card-solo">
-      <div class="audio-card-title">Solo Tres</div>
-      <div class="audio-card-desc">Original track — Daniel Rodriguez</div>
       <div class="audio-player-wrapper">
         <audio controls preload="none">
           <source src="audio/solo-tres.wav" type="audio/wav">
