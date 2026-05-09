@@ -96,10 +96,10 @@ function renderGuideCats() {
     document.querySelectorAll(".cat-card").forEach(c => c.classList.remove("active"));
     card.classList.add("active");
     renderGuideGrid();
-    requestAnimationFrame(() => {
-      const el = document.getElementById("guides");
-      if (el) window.scrollTo({ top: el.offsetTop - 80, behavior: "smooth" });
-    });
+    setTimeout(() => {
+      const el = document.getElementById("guideGrid");
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
   });
 }
 
@@ -293,10 +293,10 @@ function renderGuideDetail(id) {
   document.getElementById("guideBackBtn").addEventListener("click", () => {
     location.hash = '';
   });
-  requestAnimationFrame(() => {
-    const el = document.getElementById("guides");
-    if (el) window.scrollTo({ top: el.offsetTop - 80, behavior: "smooth" });
-  });
+  setTimeout(() => {
+    const el = document.getElementById("guideGrid");
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 100);
 }
 
 function renderAudioMini() {
