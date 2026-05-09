@@ -167,6 +167,7 @@ function renderProductCard(id) {
 
 function renderGuideGrid() {
   currentGuideId = null;
+  history.replaceState({ guide: null }, '', window.location.pathname);
   const grid = document.getElementById("guideGrid");
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
@@ -204,7 +205,10 @@ function renderGuideGrid() {
     `;
   }).join("");
   grid.querySelectorAll(".guide-card").forEach(card => {
-    card.addEventListener("click", () => renderGuideDetail(card.dataset.guide));
+    card.addEventListener("click", () => {
+      history.pushState({ guide: card.dataset.guide }, '', '#' + card.dataset.guide);
+      renderGuideDetail(card.dataset.guide);
+    });
   });
 }
 
@@ -285,8 +289,7 @@ function renderGuideDetail(id) {
     </div>
   `;
   document.getElementById("guideBackBtn").addEventListener("click", () => {
-    renderGuideGrid();
-    document.getElementById("guides").scrollIntoView({ behavior: "smooth" });
+    history.back();
   });
 }
 
@@ -407,4 +410,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("guides").scrollIntoView({ behavior: "smooth" });
     renderGuideGrid();
   };
+
+  window.addEventListener("popstate", e => {
+    if (e.state && e.state.guide) {
+      renderGuideDetail(e.state.guide);
+    } else {
+      renderGuideGrid();
+    }
+  });
 });
