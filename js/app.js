@@ -205,8 +205,7 @@ function renderGuideGrid() {
   }).join("");
   grid.querySelectorAll(".guide-card").forEach(card => {
     card.addEventListener("click", () => {
-      history.pushState({ guide: card.dataset.guide }, '', '#' + card.dataset.guide);
-      renderGuideDetail(card.dataset.guide);
+      location.hash = card.dataset.guide;
     });
   });
 }
@@ -288,7 +287,7 @@ function renderGuideDetail(id) {
     </div>
   `;
   document.getElementById("guideBackBtn").addEventListener("click", () => {
-    history.back();
+    location.hash = '';
   });
 }
 
@@ -370,10 +369,14 @@ function handleNavClick(target) {
 
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
-  history.replaceState({ guide: null }, '', window.location.pathname);
   initLangSwitcher();
   renderGuideCats();
-  renderGuideGrid();
+  const hashId = location.hash.slice(1);
+  if (hashId && guides.find(g => g.id === hashId)) {
+    renderGuideDetail(hashId);
+  } else {
+    renderGuideGrid();
+  }
   renderAudioMini();
   renderMySetup();
   renderAbout();
@@ -411,9 +414,10 @@ document.addEventListener("DOMContentLoaded", () => {
     renderGuideGrid();
   };
 
-  window.addEventListener("popstate", e => {
-    if (e.state && e.state.guide) {
-      renderGuideDetail(e.state.guide);
+  window.addEventListener("hashchange", () => {
+    const id = location.hash.slice(1);
+    if (id && guides.find(g => g.id === id)) {
+      renderGuideDetail(id);
     } else {
       renderGuideGrid();
     }
