@@ -96,6 +96,7 @@ function renderGuideCats() {
     document.querySelectorAll(".cat-card").forEach(c => c.classList.remove("active"));
     card.classList.add("active");
     renderGuideGrid();
+    document.getElementById("guides").scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 
