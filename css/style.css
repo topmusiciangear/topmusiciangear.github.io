@@ -1054,6 +1054,12 @@ footer ul li a:hover { color: var(--accent); }
 
 .footer-bottom strong { color: var(--text-secondary); }
 
+.footer-bottom #disclosureLink {
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* Toast */
 .toast {
   position: fixed;
