@@ -3,12 +3,14 @@ const products = [
   {
     id: 1,
     title: "Shure SM7B",
+    title_es: "Shure SM7B",
     category: "microphones",
     price: 399,
     rating: 4.8,
     reviews: 18453,
     badge: "legend",
     desc: "The industry-standard dynamic microphone for broadcast, podcasting, and vocal recording. Warm, smooth sound with excellent rejection.",
+    desc_es: "El micrófono dinámico estándar de la industria para transmisión, podcasting y grabación vocal. Sonido cálido y suave con excelente rechazo.",
     img: "https://media.sweetwater.com/m/products/image/6d2c512a92Rov0eryrfK2jdkFSLhFkOUiy3nNCLK.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=6d2c512a928017f5",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM7B--shure-sm7b-cardioid-dynamic-vocal-microphone",
@@ -19,12 +21,14 @@ const products = [
   {
     id: 2,
     title: "Neumann U 87 Ai",
+    title_es: "Neumann U 87 Ai",
     category: "microphones",
     price: 3599,
     rating: 4.9,
     reviews: 3456,
     badge: "premium",
     desc: "The world's most famous studio condenser microphone. Used on countless hit records. Three polar patterns, 10dB pad, and legendary Neumann sound.",
+    desc_es: "El micrófono de condensador de estudio más famoso del mundo. Usado en innumerables éxitos discográficos. Tres patrones polares, pad de 10dB y legendario sonido Neumann.",
     img: "https://media.sweetwater.com/m/products/image/f759b6ae09I6HOqlkPqK2z6BNiVZitPMA6qDgFfQ.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=f759b6ae09fda8c7",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/U87Ai--neumann-u-87-ai-large-diaphragm-condenser-microphone-nickel",
@@ -35,12 +39,14 @@ const products = [
   {
     id: 3,
     title: "Rode NT1-A",
+    title_es: "Rode NT1-A",
     category: "microphones",
     price: 269,
     rating: 4.6,
     reviews: 21345,
     badge: "bestSeller",
     desc: "The world's quietest studio condenser microphone. Pristine audio quality with a warm, smooth character. Includes shock mount and pop filter.",
+    desc_es: "El micrófono de condensador de estudio más silencioso del mundo. Calidad de audio impecable con un carácter cálido y suave. Incluye soporte antigolpes y filtro antipop.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/235937.jpg",
     stores: {
       thomann: "https://www.thomann.de/intl/rode_nt1_a.htm",
@@ -50,12 +56,14 @@ const products = [
   {
     id: 4,
     title: "AKG C414 XLII",
+    title_es: "AKG C414 XLII",
     category: "microphones",
     price: 1099,
     rating: 4.7,
     reviews: 5678,
     badge: "topQuality",
     desc: "Versatile large-diaphragm condenser with 5 polar patterns. From vocals to piano, the C414 handles it all with breathtaking detail.",
+    desc_es: "Condensador versátil de diafragma grande con 5 patrones polares. Desde voces hasta piano, el C414 lo maneja todo con un detalle impresionante.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/240602.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/C414XLII--akg-c414-xlii-large-diaphragm-condenser-microphone",
@@ -66,12 +74,14 @@ const products = [
   {
     id: 5,
     title: "Shure SM57",
+    title_es: "Shure SM57",
     category: "microphones",
     price: 99,
     rating: 4.7,
     reviews: 45210,
     badge: "legend",
     desc: "The most recorded instrument microphone in history. Indestructible, affordable, and incredible on guitar cabs, snares, and horns.",
+    desc_es: "El micrófono de instrumento más grabado de la historia. Indestructible, asequible e increíble en gabinetes de guitarra, cajas y trompetas.",
     img: "https://media.sweetwater.com/m/products/image/8cc557164ei09SdpOiJJ8j2UgW5tRIRPcRVVipe6.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=8cc557164e165612",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM57--shure-sm57-cardioid-dynamic-instrument-microphone",
@@ -84,12 +94,14 @@ const products = [
   {
     id: 6,
     title: "Fender American Professional II Stratocaster",
+    title_es: "Fender American Professional II Stratocaster",
     category: "guitars",
     price: 1799,
     rating: 4.8,
     reviews: 7890,
     badge: "bestSeller",
     desc: "The iconic Stratocaster, refined. V-Mod II pickups, Deep C neck profile, and a sleek satin finish. From blues to pop, it's the sound of modern music.",
+    desc_es: "La icónica Stratocaster, refinada. Pastillas V-Mod II, perfil de mástil Deep C y un elegante acabado satinado. Del blues al pop, es el sonido de la música moderna.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StratAP2MMB--fender-american-professional-ii-stratocaster-miami-blue-with-maple-fingerboard",
@@ -100,12 +112,14 @@ const products = [
   {
     id: 7,
     title: "Gibson Les Paul Standard '60s",
+    title_es: "Gibson Les Paul Standard '60s",
     category: "guitars",
     price: 2699,
     rating: 4.9,
     reviews: 4567,
     badge: "premium",
     desc: "The ultimate rock machine. Burstbucker pickups, mahogany body with maple top, and that unmistakable Les Paul sustain.",
+    desc_es: "La máquina de rock definitiva. Pastillas Burstbucker, cuerpo de caoba con tapa de arce y ese inconfundible sustain Les Paul.",
     img: "https://media.sweetwater.com/m/products/image/7f6aefa01649sOZjanoDlBOmYlvvPxgDS7FfbIng.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=7f6aefa01626914a",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/LPS6ITNH--gibson-les-paul-standard-60s-iced-tea",
@@ -116,12 +130,14 @@ const products = [
   {
     id: 8,
     title: "Taylor 314ce",
+    title_es: "Taylor 314ce",
     category: "guitars",
     price: 1899,
     rating: 4.7,
     reviews: 3456,
     badge: "topQuality",
     desc: "A masterpiece of acoustic craftsmanship. Solid Sitka spruce top, Tasmanian blackwood back and sides, and Taylor's legendary playability.",
+    desc_es: "Una obra maestra de artesanía acústica. Tapa de abeto Sitka macizo, fondo y aros de palo negro de Tasmania, y la legendaria tocabilidad de Taylor.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/314ceVClNMB--taylor-314ce-v-class-grand-auditorium-acoustic-electric-guitar-natural",
@@ -132,12 +148,14 @@ const products = [
   {
     id: 9,
     title: "Ibanez RG550 Genesis",
+    title_es: "Ibanez RG550 Genesis",
     category: "guitars",
     price: 999,
     rating: 4.6,
     reviews: 6789,
     badge: "recommended",
     desc: "The original shred machine. Super Wizard neck, Edge tremolo, and DiMarzio pickups. Made for speed and precision.",
+    desc_es: "La máquina de shred original. Mástil Super Wizard, trémolo Edge y pastillas DiMarzio. Hecha para velocidad y precisión.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429087.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/RG550EB--ibanez-genesis-collection-rg550-electric-guitar-electric-blue",
@@ -148,12 +166,14 @@ const products = [
   {
     id: 10,
     title: "PRS McCarty 594",
+    title_es: "PRS McCarty 594",
     category: "guitars",
     price: 4299,
     rating: 4.9,
     reviews: 2345,
     badge: "premium",
     desc: "Paul Reed Smith's tribute to the golden era of electric guitars. 58/15 LT pickups, pattern vintage neck, and impeccable build quality.",
+    desc_es: "El tributo de Paul Reed Smith a la era dorada de las guitarras eléctricas. Pastillas 58/15 LT, mástil pattern vintage y calidad de construcción impecable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/581957.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MC59410BGWBst--prs-mccarty-594-10-top-electric-guitar-black-gold-wraparound-burst",
@@ -166,12 +186,14 @@ const products = [
   {
     id: 11,
     title: "Nord Stage 4 88",
+    title_es: "Nord Stage 4 88",
     category: "keyboards",
     price: 4999,
     rating: 4.9,
     reviews: 1890,
     badge: "premium",
     desc: "The ultimate stage piano. Triple Sensor keybed, seamless transitions, and Nord's legendary piano, organ, and synth engines in one instrument.",
+    desc_es: "El piano de escenario definitivo. Teclado Triple Sensor, transiciones perfectas y los legendarios motores de piano, órgano y sintetizador de Nord en un solo instrumento.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/560977.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Stage4-88--nord-stage-4-88-stage-keyboard",
@@ -182,12 +204,14 @@ const products = [
   {
     id: 12,
     title: "Yamaha Montage M8x",
+    title_es: "Yamaha Montage M8x",
     category: "keyboards",
     price: 4699,
     rating: 4.8,
     reviews: 1567,
     badge: "premium",
     desc: "Flagship synthesizer with AN-X and FM-X engines. 88-key weighted action, motion control, and seamless DAW integration.",
+    desc_es: "Sintetizador insignia con motores AN-X y FM-X. 88 teclas de acción con peso, control de movimiento e integración perfecta con DAW.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/629663.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
@@ -198,12 +222,14 @@ const products = [
   {
     id: 13,
     title: "Arturia KeyLab Essential 61 MkIII",
+    title_es: "Arturia KeyLab Essential 61 MkIII",
     category: "keyboards",
     price: 299,
     rating: 4.5,
     reviews: 12345,
     badge: "bestSeller",
     desc: "The ultimate DAW controller. Deep integration with Analog Lab, Ableton Live, and Logic. 61 velocity-sensitive keys with polyphonic aftertouch.",
+    desc_es: "El controlador DAW definitivo. Integración profunda con Analog Lab, Ableton Live y Logic. 61 teclas sensibles a la velocidad con aftertouch polifónico.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567153.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KeyLabEss3-61--arturia-keylab-essential-mk3-61-key-keyboard-controller-white",
@@ -214,12 +240,14 @@ const products = [
   {
     id: 14,
     title: "Native Instruments Komplete Kontrol S61",
+    title_es: "Native Instruments Komplete Kontrol S61",
     category: "keyboards",
     price: 599,
     rating: 4.6,
     reviews: 6789,
     badge: "recommended",
     desc: "Smart keyboard controller with NI ecosystem integration. Light guide, NKS browsing, and premium Fatar keybed.",
+    desc_es: "Controlador de teclado inteligente con integración al ecosistema NI. Guía de luz, navegación NKS y teclado Fatar premium.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/570926.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KontS3-61--native-instruments-kontrol-s61-mk3-61-key-smart-keyboard-controller",
@@ -232,12 +260,14 @@ const products = [
   {
     id: 15,
     title: "Focusrite Scarlett 2i2 4th Gen",
+    title_es: "Focusrite Scarlett 2i2 4ª Gen",
     category: "interfaces",
     price: 199,
     rating: 4.7,
     reviews: 34567,
     badge: "bestSeller",
     desc: "The world's best-selling audio interface just got better. 120dB dynamic range, Air mode, and Loopback for streaming. Studio-grade conversion.",
+    desc_es: "La interfaz de audio más vendida del mundo acaba de mejorar. 120dB de rango dinámico, modo Air y Loopback para streaming. Conversión de grado estudio.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Scar2i2G4--focusrite-scarlett-2i2-4th-gen-usb-audio-interface",
@@ -248,12 +278,14 @@ const products = [
   {
     id: 16,
     title: "Universal Audio Apollo Twin X",
+    title_es: "Universal Audio Apollo Twin X",
     category: "interfaces",
     price: 899,
     rating: 4.8,
     reviews: 5678,
     badge: "premium",
     desc: "Professional-grade Thunderbolt interface with UAD DSP processing. Real-time UAD plugins with near-zero latency. Unison preamps.",
+    desc_es: "Interfaz Thunderbolt de grado profesional con procesamiento UAD DSP. Plugins UAD en tiempo real con latencia casi nula. Preamplificadores Unison.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/571436.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
@@ -264,12 +296,14 @@ const products = [
   {
     id: 17,
     title: "RME Babyface Pro FS",
+    title_es: "RME Babyface Pro FS",
     category: "interfaces",
     price: 949,
     rating: 4.9,
     reviews: 3456,
     badge: "topQuality",
     desc: "The gold standard for portable recording. Legendary RME drivers, SteadyClock FS jitter suppression, and pristine AD/DA conversion.",
+    desc_es: "El estándar de oro para grabación portátil. Legendarios drivers RME, supresión de jitter SteadyClock FS y conversión AD/DA impecable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/476426.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BabyfaceProFS--rme-babyface-pro-fs-24-channel-usb-audio-interface",
@@ -280,12 +314,14 @@ const products = [
   {
     id: 18,
     title: "SSL 2+",
+    title_es: "SSL 2+",
     category: "interfaces",
     price: 299,
     rating: 4.7,
     reviews: 8901,
     badge: "recommended",
     desc: "Solid State Logic in an interface. Legendary SSL 4K preamps, Legacy 4K analogue channel strip, and professional monitoring features.",
+    desc_es: "Solid State Logic en una interfaz. Legendarios preamplificadores SSL 4K, channel strip analógico Legacy 4K y funciones profesionales de monitoreo.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/601306.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SSL2Plus--solid-state-logic-ssl2-usb-audio-interface",
@@ -298,12 +334,14 @@ const products = [
   {
     id: 19,
     title: "Yamaha HS8",
+    title_es: "Yamaha HS8",
     category: "monitors",
     price: 698,
     rating: 4.7,
     reviews: 12345,
     badge: "bestSeller",
     desc: "The industry standard for mixing. 8-inch cone woofer with Kevlar coating, 1-inch dome tweeter, and room control for accurate monitoring.",
+    desc_es: "El estándar de la industria para mezcla. Woofer de cono de 8 pulgadas con revestimiento de Kevlar, tweeter de domo de 1 pulgada y control de sala para monitoreo preciso.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/315822.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HS8pr--yamaha-hs8-8-inch-powered-studio-monitor-pair-black",
@@ -314,12 +352,14 @@ const products = [
   {
     id: 20,
     title: "KRK Rokit 7 G4",
+    title_es: "KRK Rokit 7 G4",
     category: "monitors",
     price: 498,
     rating: 4.5,
     reviews: 18907,
     badge: "recommended",
     desc: "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port ideal for smaller studios.",
+    desc_es: "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal ideal para estudios pequeños.",
     img: "https://images.unsplash.com/photo-1589003077984-c0ce2b4ee964?w=400&h=300&fit=crop",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
@@ -330,12 +370,14 @@ const products = [
   {
     id: 21,
     title: "Adam Audio A7V",
+    title_es: "Adam Audio A7V",
     category: "monitors",
     price: 799,
     rating: 4.8,
     reviews: 4567,
     badge: "premium",
     desc: "Cutting-edge 2-way monitor with S-ART folded ribbon tweeter. Unmatched transient response, deep bass, and 3D imaging.",
+    desc_es: "Monitor de 2 vías de vanguardia con tweeter de cinta plegada S-ART. Respuesta transitoria inigualable, graves profundos e imagen 3D.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/A7V--adam-audio-a7v-7-inch-powered-studio-monitor",
@@ -346,12 +388,14 @@ const products = [
   {
     id: 22,
     title: "Genelec 8040B",
+    title_es: "Genelec 8040B",
     category: "monitors",
     price: 1198,
     rating: 4.9,
     reviews: 2345,
     badge: "premium",
     desc: "Finnish precision at its finest. 6.5-inch woofer, metal dome tweeter, and Genelec's renowned Directivity Control waveguide.",
+    desc_es: "Precisión finlandesa en su máxima expresión. Woofer de 6.5 pulgadas, tweeter de domo metálico y la reconocida guía de onda Directivity Control de Genelec.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/311111.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/8040BPM--genelec-8040b-6.5-inch-powered-studio-monitor",
@@ -364,12 +408,14 @@ const products = [
   {
     id: 23,
     title: "Beyerdynamic DT 770 Pro",
+    title_es: "Beyerdynamic DT 770 Pro",
     category: "headphones",
     price: 159,
     rating: 4.7,
     reviews: 32109,
     badge: "legend",
     desc: "The studio standard for closed-back monitoring. 250 Ohm drivers, velour ear pads, and exceptional comfort for marathon sessions.",
+    desc_es: "El estándar de estudio para monitoreo cerrado. Drivers de 250 Ohm, almohadillas de velour y comodidad excepcional para sesiones maratonianas.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/109340.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DT770pro80--beyerdynamic-dt-770-pro-80-ohm-closed-back-studio-mixing-headphones",
@@ -380,12 +426,14 @@ const products = [
   {
     id: 24,
     title: "Sennheiser HD 600",
+    title_es: "Sennheiser HD 600",
     category: "headphones",
     price: 399,
     rating: 4.8,
     reviews: 18907,
     badge: "legend",
     desc: "Audiophile open-back reference headphones. Natural, neutral sound with incredible detail. The mixing engineer's choice for critical listening.",
+    desc_es: "Auriculares de referencia abiertos audiófilos. Sonido natural y neutro con detalle increíble. La elección del ingeniero de mezcla para escucha crítica.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/471751.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HD600--sennheiser-hd-600-open-back-audiophile-professional-headphones",
@@ -396,12 +444,14 @@ const products = [
   {
     id: 25,
     title: "Audio-Technica ATH-M50x",
+    title_es: "Audio-Technica ATH-M50x",
     category: "headphones",
     price: 169,
     rating: 4.6,
     reviews: 45678,
     badge: "bestSeller",
     desc: "The most popular studio headphones in the world. Critically acclaimed clarity, deep bass, and collapsible design for portability.",
+    desc_es: "Los auriculares de estudio más populares del mundo. Claridad aclamada por la crítica, graves profundos y diseño plegable para portabilidad.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/331905.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ATHM50x--audio-technica-ath-m50x-closed-back-studio-monitoring-headphones",
@@ -412,12 +462,14 @@ const products = [
   {
     id: 26,
     title: "Sony MDR-7506",
+    title_es: "Sony MDR-7506",
     category: "headphones",
     price: 99,
     rating: 4.5,
     reviews: 56789,
     badge: "legend",
     desc: "The broadcast standard since 1991. Closed-back, collapsible, and incredibly reliable. Trusted by professionals worldwide.",
+    desc_es: "El estándar de transmisión desde 1991. Cerrados, plegables e increíblemente confiables. Usados por profesionales en todo el mundo.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/135709.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MDR7506--sony-mdr-7506-closed-back-professional-headphones",
@@ -430,12 +482,14 @@ const products = [
   {
     id: 27,
     title: "Xfer Serum 2",
+    title_es: "Xfer Serum 2",
     category: "plugins",
     price: 249,
     rating: 4.9,
     reviews: 23456,
     badge: "bestSeller",
     desc: "The legendary wavetable synthesizer, reborn. Five oscillator types, granular synthesis, spectral resynthesis, and a rebuilt engine. Free lifetime updates.",
+    desc_es: "El legendario sintetizador de tabla de ondas, renacido. Cinco tipos de oscilador, síntesis granular, resíntesis espectral y un motor reconstruido. Actualizaciones gratuitas de por vida.",
     img: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=400&h=300&fit=crop",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/search?q=serum",
@@ -445,12 +499,14 @@ const products = [
   {
     id: 28,
     title: "Native Instruments Kontakt 7",
+    title_es: "Native Instruments Kontakt 7",
     category: "plugins",
     price: 399,
     rating: 4.8,
     reviews: 18907,
     badge: "premium",
     desc: "The world's leading sampler platform. 900+ instruments, revamped factory library from Orchestral Tools, and powerful sound design engine.",
+    desc_es: "La plataforma de sampler líder mundial. Más de 900 instrumentos, biblioteca de fábrica renovada de Orchestral Tools y potente motor de diseño de sonido.",
     img: "https://images.unsplash.com/photo-1493219686142-5a8641badc78?w=400&h=300&fit=crop",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11439-Kontakt-7-Crossgrade-from-Komplete-Select-10-14",
@@ -460,12 +516,14 @@ const products = [
   {
     id: 29,
     title: "FabFilter Total Bundle",
+    title_es: "FabFilter Total Bundle",
     category: "plugins",
     price: 1069,
     rating: 4.9,
     reviews: 12345,
     badge: "premium",
     desc: "The ultimate mixing and mastering toolkit. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, and more.",
+    desc_es: "El kit definitivo de mezcla y masterización. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/340870.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
@@ -477,12 +535,14 @@ const products = [
   {
     id: 30,
     title: "iZotope Ozone 12 Advanced",
+    title_es: "iZotope Ozone 12 Advanced",
     category: "plugins",
     price: 499,
     rating: 4.7,
     reviews: 8901,
     badge: "topQuality",
     desc: "Next-gen AI-powered mastering suite. 20 pro modules including Stem EQ, Clarity, Stabilizer, and improved stem splitting with neural networks.",
+    desc_es: "Suite de masterización de nueva generación impulsada por IA. 20 módulos profesionales incluyendo Stem EQ, Clarity, Stabilizer y separación de stems mejorada con redes neuronales.",
     img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Ozone12Ad--izotope-ozone-12-advanced-mastering-software-suite",
@@ -493,12 +553,14 @@ const products = [
   {
     id: 31,
     title: "ValhallaDSP ValhallaRoom",
+    title_es: "ValhallaDSP ValhallaRoom",
     category: "plugins",
     price: 50,
     rating: 4.8,
     reviews: 15678,
     badge: "recommended",
     desc: "World-class algorithmic reverb at an unbeatable price. 12 original algorithms from tight ambiences to vast modulated spaces.",
+    desc_es: "Reverb algorítmico de clase mundial a un precio inmejorable. 12 algoritmos originales, desde ambientes ajustados hasta vastos espacios modulados.",
     img: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop",
     stores: {
       pluginboutique: "https://valhalladsp.com/shop/reverb/valhalla-room/",
@@ -508,12 +570,14 @@ const products = [
   {
     id: 32,
     title: "Soundtoys 5.5 Bundle",
+    title_es: "Soundtoys 5.5 Bundle",
     category: "plugins",
     price: 599,
     rating: 4.8,
     reviews: 6789,
     badge: "topQuality",
     desc: "23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack. The creative producer's toolbox.",
+    desc_es: "23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. La caja de herramientas del productor creativo.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/271867.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Soundtoys5--soundtoys-5-plug-in-bundle-download",
@@ -526,12 +590,14 @@ const products = [
   {
     id: 33,
     title: "Roland TR-8S",
+    title_es: "Roland TR-8S",
     category: "percussion",
     price: 749,
     rating: 4.7,
     reviews: 4567,
     badge: "topQuality",
     desc: "The ultimate rhythm machine. Authentic 808, 909, and 707 sounds combined with sample import and advanced sequencing.",
+    desc_es: "La máquina de ritmo definitiva. Sonidos auténticos de 808, 909 y 707 combinados con importación de samples y secuenciación avanzada.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/434284.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/TR8S--roland-tr-8s-rhythm-performer",
@@ -542,12 +608,14 @@ const products = [
   {
     id: 34,
     title: "Akai MPC One+",
+    title_es: "Akai MPC One+",
     category: "percussion",
     price: 499,
     rating: 4.6,
     reviews: 5678,
     badge: "bestSeller",
     desc: "Beat-making powerhouse with Wi-Fi and Bluetooth. 7-inch touchscreen, 16 velocity-sensitive pads, and the legendary MPC workflow.",
+    desc_es: "Potencia de creación de beats con Wi-Fi y Bluetooth. Pantalla táctil de 7 pulgadas, 16 pads sensibles a la velocidad y el legendario flujo de trabajo MPC.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567619.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MPCOnePlus--akai-professional-mpc-one-plus-standalone-sampler-and-sequencer",
@@ -558,12 +626,14 @@ const products = [
   {
     id: 35,
     title: "Zildjian K Custom Dark Pack",
+    title_es: "Zildjian K Custom Dark Pack",
     category: "percussion",
     price: 1499,
     rating: 4.8,
     reviews: 2345,
     badge: "premium",
     desc: "Hand-hammered Turkish cymbals with warm, complex tones. Includes 14-inch hi-hats, 16-inch + 18-inch crashes, and 20-inch ride.",
+    desc_es: "Platillos turcos martillados a mano con tonos cálidos y complejos. Incluye hi-hats de 14 pulgadas, crashes de 16 + 18 pulgadas y ride de 20 pulgadas.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/374175.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack",
@@ -574,12 +644,14 @@ const products = [
   {
     id: 36,
     title: "Tama Starclassic Walnut/Birch",
+    title_es: "Tama Starclassic Nogal/Abedul",
     category: "percussion",
     price: 2499,
     rating: 4.9,
     reviews: 1234,
     badge: "premium",
     desc: "Professional-grade drum kit with walnut/birch shells. Incredible depth, attack, and resonance. Perfect for studio and stage.",
+    desc_es: "Batería de grado profesional con cascos de nogal/abedul. Profundidad, ataque y resonancia increíbles. Perfecta para estudio y escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/361976.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst",
@@ -592,12 +664,14 @@ const products = [
   {
     id: 37,
     title: "König & Meyer 210/2 Mic Stand",
+    title_es: "Soporte de Micrófono König & Meyer 210/2",
     category: "accessories",
     price: 49,
     rating: 4.6,
     reviews: 12345,
     badge: "recommended",
     desc: "German-engineered tripod mic stand with telescopic boom arm. Heavy-duty zinc die-cast base for rock-solid stability.",
+    desc_es: "Soporte de micrófono trípode con ingeniería alemana y brazo telescópico. Base de zinc fundido a presión de alta resistencia para estabilidad sólida como roca.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/104941.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KM21020BK--k-and-m-210-2-microphone-stand-with-fixed-boom-black",
@@ -608,12 +682,14 @@ const products = [
   {
     id: 38,
     title: "Mogami Gold Studio XLR Cable (3m)",
+    title_es: "Cable XLR Mogami Gold Studio (3m)",
     category: "accessories",
     price: 39,
     rating: 4.7,
     reviews: 8901,
     badge: "topQuality",
     desc: "The industry standard for studio cabling. Neglex OFC conductors, REAN connectors, and legendary Mogami reliability.",
+    desc_es: "El estándar de la industria para cableado de estudio. Conductores Neglex OFC, conectores REAN y la legendaria fiabilidad Mogami.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/117500.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
@@ -624,12 +700,14 @@ const products = [
   {
     id: 39,
     title: "Stedman Proscreen XL Pop Filter",
+    title_es: "Filtro Antipop Stedman Proscreen XL",
     category: "accessories",
     price: 49,
     rating: 4.5,
     reviews: 5678,
     badge: null,
     desc: "Professional metal mesh pop filter. Dual-layer screen eliminates plosives without high-frequency loss. Adjustable goose-neck stand.",
+    desc_es: "Filtro antipop profesional de malla metálica. Pantalla de doble capa elimina oclusivas sin pérdida de altas frecuencias. Soporte de cuello de ganso ajustable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/561297.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StedmanXL--stedman-corporation-proscreen-xl-black",
@@ -640,12 +718,14 @@ const products = [
   {
     id: 40,
     title: "Auralex Studiofoam Wedges (12pk)",
+    title_es: "Cuñas Acústicas Auralex Studiofoam (12pk)",
     category: "accessories",
     price: 199,
     rating: 4.4,
     reviews: 4321,
     badge: null,
     desc: "Professional acoustic treatment. 2-inch wedge foam panels reduce flutter echo and improve room acoustics. Includes adhesive.",
+    desc_es: "Tratamiento acústico profesional. Paneles de espuma en cuña de 2 pulgadas reducen el eco de aleteo y mejoran la acústica de la sala. Incluye adhesivo.",
     img: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400&h=300&fit=crop",
     stores: {
       thomann: "https://www.thomann.de/intl/auralex_studiofoam_wedges.htm",
@@ -655,12 +735,14 @@ const products = [
   {
     id: 41,
     title: "Gator Cases 61-Key Keyboard Case",
+    title_es: "Estuche para Teclado 61 Teclas Gator",
     category: "accessories",
     price: 179,
     rating: 4.6,
     reviews: 3456,
     badge: null,
     desc: "ATA-approved molded case with EPS foam interior. Heavy-duty hardware, recessed latches, and wheels for easy transport.",
+    desc_es: "Estuche moldeado aprobado ATA con interior de espuma EPS. Herrajes de alta resistencia, pestillos empotrados y ruedas para fácil transporte.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/409664.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GK61--gator-gk-61-semi-rigid-keyboard-case",
@@ -671,12 +753,14 @@ const products = [
   {
     id: 42,
     title: "SSL UF8 DAW Controller",
+    title_es: "Controlador DAW SSL UF8",
     category: "accessories",
     price: 1199,
     rating: 4.7,
     reviews: 2345,
     badge: "premium",
     desc: "8-channel motorized fader controller with SSL's legendary console workflow. Touch-sensitive faders, MCU/HUI protocol, and premium build.",
+    desc_es: "Controlador de faders motorizados de 8 canales con el legendario flujo de trabajo de consola SSL. Faders sensibles al tacto, protocolo MCU/HUI y construcción premium.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/508557.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/UF8control--solid-state-logic-uf8-advanced-daw-controller",
@@ -687,12 +771,14 @@ const products = [
   {
     id: 43,
     title: "Shure A25D Mic Clip",
+    title_es: "Clip de Micrófono Shure A25D",
     category: "accessories",
     price: 12,
     rating: 4.7,
     reviews: 9800,
     badge: null,
     desc: "The go-to clip for SM57 and SM58. Break-resistant shockmount clip that fits all standard mic stands. Essential spare for any gig bag.",
+    desc_es: "El clip de referencia para SM57 y SM58. Clip antigolpes resistente a roturas compatible con todos los soportes de micrófono estándar. Repuesto esencial para cualquier bolsa de conciertos.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/111585.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/A25D--shure-a25d-microphone-clip",
@@ -703,12 +789,14 @@ const products = [
   {
     id: 44,
     title: "Mogami Gold Instrument Cable (3m)",
+    title_es: "Cable de Instrumento Mogami Gold (3m)",
     category: "accessories",
     price: 45,
     rating: 4.7,
     reviews: 7800,
     badge: "topQuality",
     desc: "Premium Neglex OFC cable with REAN connectors. Ultra-low capacitance for transparent signal with zero hum or handling noise.",
+    desc_es: "Cable Neglex OFC premium con conectores REAN. Capacitancia ultra baja para señal transparente sin zumbidos ni ruido de manejo.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/117502.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GoldInstr10--mogami-gold-instrument-cable-10-foot-straight-straight",
@@ -719,12 +807,14 @@ const products = [
   {
     id: 45,
     title: "Gator GBE-ELECTRIC Guitar Bag",
+    title_es: "Funda de Guitarra Eléctrica Gator GBE",
     category: "accessories",
     price: 39,
     rating: 4.5,
     reviews: 6500,
     badge: null,
     desc: "Padded gig bag for electric guitars. Rip-resistant nylon with 10mm foam padding, accessory pocket, and backpack straps.",
+    desc_es: "Funda acolchada para guitarras eléctricas. Nylon resistente a desgarros con acolchado de espuma de 10mm, bolsillo para accesorios y correas de mochila.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/266736.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GBEElec--gator-gbe-elec-gig-bag-for-electric-guitar",
@@ -735,12 +825,14 @@ const products = [
   {
     id: 46,
     title: "Gator GBE-BASS Bass Guitar Bag",
+    title_es: "Funda de Bajo Gator GBE-BASS",
     category: "accessories",
     price: 45,
     rating: 4.5,
     reviews: 4500,
     badge: null,
     desc: "Heavy-duty padded gig bag for bass guitars. Extra-long to fit full-scale basses with 15mm foam padding and reinforced headstock area.",
+    desc_es: "Funda acolchada de alta resistencia para bajos. Extra larga para adaptarse a bajos de escala completa con acolchado de espuma de 15mm y área de clavijero reforzada.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/266738.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GBEBass--gator-gbe-bass-gig-bag-for-bass-guitar",
@@ -751,12 +843,14 @@ const products = [
   {
     id: 47,
     title: "Gator GWE-Acou Hard Shell Acoustic Case",
+    title_es: "Estuche Rígido Acústico Gator GWE",
     category: "accessories",
     price: 129,
     rating: 4.6,
     reviews: 3200,
     badge: "recommended",
     desc: "Deluxe ABS hard shell case for acoustic guitars. TSA-approved latches, plush interior, and storage compartment. ATA-ready for air travel.",
+    desc_es: "Estuche rígido ABS de lujo para guitarras acústicas. Pestillos aprobados TSA, interior afelpado y compartimento de almacenamiento. Listo ATA para viajes aéreos.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/296591.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GWAcoustic--gator-gwe-acoustic-hardshell-case-for-acoustic-guitar",
@@ -767,12 +861,14 @@ const products = [
   {
     id: 48,
     title: "König & Meyer 26725 Monitor Stand",
+    title_es: "Soporte de Monitor König & Meyer 26725",
     category: "accessories",
     price: 89,
     rating: 4.5,
     reviews: 5400,
     badge: null,
     desc: "Heavy-duty steel monitor stands (pair). Height-adjustable with adjustable spikes for decoupling. Supports up to 35 kg per stand.",
+    desc_es: "Soportes de monitor de acero de alta resistencia (par). Altura ajustable con puntas ajustables para desacoplamiento. Soporta hasta 35 kg por soporte.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/121296.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KM26725--konig-and-meyer-26725-monitor-stand-with-floor-spikes-pair",

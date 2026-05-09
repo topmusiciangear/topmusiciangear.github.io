@@ -73,11 +73,11 @@
         </div>
       </a>
       <nav>
-        <button class="nav-link" data-nav="guides">Guides</button>
-        <button class="nav-link" data-nav="mysetup">My Setup</button>
-        <button class="nav-link" data-nav="about">About Me</button>
+        <button class="nav-link" data-nav="guides" data-i18n="navGuides">Guides</button>
+        <button class="nav-link" data-nav="mysetup" data-i18n="navSetup">My Setup</button>
+        <button class="nav-link" data-nav="about" data-i18n="navAbout">About Me</button>
       </nav>
-      <span class="logo-tagline">Compare the best prices here</span>
+      <span class="logo-tagline" data-i18n="tagline">Compare the best prices here</span>
       <div class="header-social">
         <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
         <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener" class="header-social-link" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
@@ -94,9 +94,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <button class="nav-link" data-nav="guides">Guides</button>
-    <button class="nav-link" data-nav="mysetup">My Setup</button>
-    <button class="nav-link" data-nav="about">About Me</button>
+    <button class="nav-link" data-nav="guides" data-i18n="navGuides">Guides</button>
+    <button class="nav-link" data-nav="mysetup" data-i18n="navSetup">My Setup</button>
+    <button class="nav-link" data-nav="about" data-i18n="navAbout">About Me</button>
   </div>
 
   <!-- Hero -->
@@ -205,24 +205,24 @@
       <div>
         <h3>TopMusicianGear</h3>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="#" id="footerDisclosure">Affiliate Disclosure</a></li>
-          <li><a href="#about">About Me</a></li>
+          <li><a href="/" data-i18n="footerHome">Home</a></li>
+          <li><a href="#" id="footerDisclosure" data-i18n="footerDisclosure">Affiliate Disclosure</a></li>
+          <li><a href="#about" data-i18n="footerAbout">About Me</a></li>
         </ul>
       </div>
       <div>
-        <h3>Categories</h3>
+        <h3 data-i18n="footerCategories">Categories</h3>
         <ul>
-          <li><a href="#" onclick="window.filterCategory('microphones')">Microphones</a></li>
-          <li><a href="#" onclick="window.filterCategory('strings')">Strings</a></li>
-          <li><a href="#" onclick="window.filterCategory('interfaces')">Interfaces</a></li>
-          <li><a href="#" onclick="window.filterCategory('headphones')">Headphones</a></li>
-          <li><a href="#" onclick="window.filterCategory('monitors')">Monitors</a></li>
-          <li><a href="#" onclick="window.filterCategory('plugins')">Plugins</a></li>
+          <li><a href="#" onclick="window.filterCategory('microphones')" data-i18n="navMicrophones">Microphones</a></li>
+          <li><a href="#" onclick="window.filterCategory('strings')" data-i18n="navStrings">Strings</a></li>
+          <li><a href="#" onclick="window.filterCategory('interfaces')" data-i18n="navInterfaces">Interfaces</a></li>
+          <li><a href="#" onclick="window.filterCategory('headphones')" data-i18n="navHeadphones">Headphones</a></li>
+          <li><a href="#" onclick="window.filterCategory('monitors')" data-i18n="navMonitors">Monitors</a></li>
+          <li><a href="#" onclick="window.filterCategory('plugins')" data-i18n="navPlugins">Plugins</a></li>
         </ul>
       </div>
       <div>
-        <h3>Shop At</h3>
+        <h3 data-i18n="footerShopAt">Shop At</h3>
         <ul>
           <li><a href="https://www.thomann.de/intl/index.html" target="_blank" rel="noopener noreferrer sponsored">Thomann</a></li>
           <li><a href="https://www.pluginboutique.com/" target="_blank" rel="noopener noreferrer sponsored">Plugin Boutique</a></li>
@@ -232,17 +232,17 @@
         </ul>
       </div>
       <div>
-        <h3>Legal</h3>
+        <h3 data-i18n="footerLegal">Legal</h3>
         <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#" data-i18n="footerPrivacy">Privacy Policy</a></li>
+          <li><a href="#" data-i18n="footerTerms">Terms of Service</a></li>
+          <li><a href="#" data-i18n="footerCookies">Cookie Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <p><strong>TopMusicianGear</strong> is a participant in affiliate programs including Thomann, Plugin Boutique, Loopmasters, Gear4Music, and Sweetwater. As an affiliate, we earn from qualifying purchases at no additional cost to you.</p>
-      <p style="margin-top:8px;">&copy; 2026 TopMusicianGear. All rights reserved. Built by a musician, for musicians.</p>
+      <p style="margin-top:8px;">&copy; 2026 TopMusicianGear. All rights reserved. <span data-i18n="footerTagline">Built by a musician, for musicians.</span></p>
     </div>
   </footer>
 
@@ -252,12 +252,9 @@
   <!-- Disclosure Modal -->
   <div id="disclosureModal">
     <div class="modal-content">
-      <h3>Affiliate Disclosure</h3>
-      <p>TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Thomann, Plugin Boutique, Loopmasters, Gear4Music, and Sweetwater.</p>
-      <p style="margin-top:12px;">When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations.</p>
-      <p style="margin-top:12px;">As a Gear4Music affiliate, we earn from qualifying purchases. As a Thomann, Plugin Boutique, Loopmasters, and Sweetwater affiliate, we earn from qualifying purchases made through our links.</p>
-      <p style="margin-top:12px;">All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.</p>
-      <button onclick="document.getElementById('disclosureModal').style.display='none'">Got it</button>
+      <h3 data-i18n="disclosureTitle">Affiliate Disclosure</h3>
+      <p data-i18n="disclosureText">TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Thomann, Plugin Boutique, Loopmasters, Gear4Music, and Sweetwater. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. As a Gear4Music affiliate, we earn from qualifying purchases. As a Thomann, Plugin Boutique, Loopmasters, and Sweetwater affiliate, we earn from qualifying purchases made through our links. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.</p>
+      <button onclick="document.getElementById('disclosureModal').style.display='none'" data-i18n="disclosureGotIt">Got it</button>
     </div>
   </div>
 
