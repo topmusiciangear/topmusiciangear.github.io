@@ -96,7 +96,10 @@ function renderGuideCats() {
     document.querySelectorAll(".cat-card").forEach(c => c.classList.remove("active"));
     card.classList.add("active");
     renderGuideGrid();
-    document.getElementById("guides").scrollIntoView({ behavior: "smooth", block: "start" });
+    requestAnimationFrame(() => {
+      const el = document.getElementById("guides");
+      if (el) window.scrollTo({ top: el.offsetTop - 80, behavior: "smooth" });
+    });
   });
 }
 
@@ -290,7 +293,10 @@ function renderGuideDetail(id) {
   document.getElementById("guideBackBtn").addEventListener("click", () => {
     location.hash = '';
   });
-  document.getElementById("guides").scrollIntoView({ behavior: "smooth", block: "start" });
+  requestAnimationFrame(() => {
+    const el = document.getElementById("guides");
+    if (el) window.scrollTo({ top: el.offsetTop - 80, behavior: "smooth" });
+  });
 }
 
 function renderAudioMini() {
