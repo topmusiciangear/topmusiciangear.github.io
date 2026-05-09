@@ -41,8 +41,11 @@ function updateLangSwitcher() {
   document.querySelectorAll(".lang-btn").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.lang === currentLang);
   });
-  document.querySelectorAll("#mobileNav .nav-link, nav .nav-link").forEach((btn, i) => {
-    const keys = ["navGuides", "navSetup", "navAbout"];
+  const keys = ["navGuides", "navSetup", "navAbout"];
+  document.querySelectorAll("nav .nav-link").forEach((btn, i) => {
+    if (keys[i]) btn.textContent = t(keys[i]);
+  });
+  document.querySelectorAll("#mobileNav .nav-link").forEach((btn, i) => {
     if (keys[i]) btn.textContent = t(keys[i]);
   });
 }
@@ -153,6 +156,9 @@ function renderGuideGrid() {
   const container = document.getElementById("guideContainer");
   if (!grid) return;
   container.classList.remove("guide-detail-open");
+  document.getElementById("guideCats").style.display = "";
+  const sortBar = document.querySelector(".sort-bar");
+  if (sortBar) sortBar.style.display = "";
   const filtered = getFilteredGuides();
   count.textContent = `${filtered.length} ${t("guides")}`;
   if (filtered.length === 0) {
@@ -193,6 +199,9 @@ function renderGuideDetail(id) {
   const grid = document.getElementById("guideGrid");
   const container = document.getElementById("guideContainer");
   container.classList.add("guide-detail-open");
+  document.getElementById("guideCats").style.display = "none";
+  const sortBar = document.querySelector(".sort-bar");
+  if (sortBar) sortBar.style.display = "none";
 
   const catName = categoryInfo[guide.category]?.name || guide.category;
   const badgeText = guide.badge ? guide.badge.replace(/([A-Z])/g, ' $1').replace(/^./, s => s.toUpperCase()).trim() : null;

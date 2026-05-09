@@ -791,6 +791,7 @@ const categoryInfo = {
   monitors: { name: "Monitors", icon: '<i class="fa-solid fa-volume-high"></i>', desc: "Hear the truth with professional studio monitoring." },
   headphones: { name: "Headphones", icon: '<i class="fa-solid fa-headphones"></i>', desc: "Critical listening and mixing on the go." },
   plugins: { name: "Plugins", icon: '<i class="fa-solid fa-sliders"></i>', desc: "Virtual instruments and effects for your DAW." },
+  percussion: { name: "Percussion", icon: '<i class="fa-solid fa-drum"></i>', desc: "Drum machines, electronic percussion, and acoustic drums." },
   accessories: { name: "Accessories", icon: '<i class="fa-solid fa-wrench"></i>', desc: "Cables, stands, cases, and studio treatment." }
 };
 
