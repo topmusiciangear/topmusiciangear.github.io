@@ -289,6 +289,7 @@ function renderGuideDetail(id) {
   document.getElementById("guideBackBtn").addEventListener("click", () => {
     location.hash = '';
   });
+  document.getElementById("guides").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function renderAudioMini() {
