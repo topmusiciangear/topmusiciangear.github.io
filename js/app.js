@@ -268,7 +268,8 @@ function renderGuideDetail(id) {
   document.getElementById("guideBackBtn").addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const el = document.getElementById("guides");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
   });
   if (!initialLoad) {
     setTimeout(() => {
@@ -422,7 +423,8 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideDetail(q);
     } else {
       renderGuideGrid();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      const el = document.getElementById("guides");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
     }
   });
 
