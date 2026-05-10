@@ -15,7 +15,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM7B--shure-sm7b-cardioid-dynamic-vocal-microphone",
       thomann: "https://www.thomann.de/intl/shure_sm7b.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X"
     }
   },
   {
