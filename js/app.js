@@ -375,12 +375,8 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => window.scrollTo(0, 0), 300);
   initLangSwitcher();
   renderGuideCats();
-  const hashId = location.hash.slice(1);
-  if (hashId && guides.find(g => g.id === hashId)) {
-    renderGuideDetail(hashId);
-  } else {
-    renderGuideGrid();
-  }
+  location.hash = '';
+  renderGuideGrid();
   renderAudioMini();
   renderMySetup();
   renderAbout();
