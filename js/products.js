@@ -611,8 +611,7 @@ const products = [
     desc_es: "Batería de grado profesional con cascos de nogal/abedul. Profundidad, ataque y resonancia increíbles. Perfecta para estudio y escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/361976.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst",
-      gear4music: "https://www.gear4music.com/search"
+      sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst"
     }
   },
 
