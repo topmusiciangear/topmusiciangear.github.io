@@ -305,7 +305,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/476426.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BabyfaceProFS--rme-babyface-pro-fs-24-channel-usb-audio-interface",
-      thomann: "https://www.thomann.de/intl/rme_babyface_pro_fs.htm",
+      thomann: "https://www.thomann.co.uk/rme_babyface_pro_fs.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM"
     }
   },
