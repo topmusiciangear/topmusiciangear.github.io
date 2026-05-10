@@ -33,7 +33,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/U87Ai--neumann-u-87-ai-large-diaphragm-condenser-microphone-nickel",
       thomann: "https://www.thomann.co.uk/neumann_u87_ai.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED"
     }
   },
   {
