@@ -600,7 +600,6 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/374175.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack",
-      thomann: "https://www.thomann.de/intl/zildjian_k_custom_dark_pack.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
