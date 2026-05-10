@@ -675,7 +675,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/104941.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KM21020BK--k-and-m-210-2-microphone-stand-with-fixed-boom-black",
-      thomann: "https://www.thomann.de/intl/k&m_210_2.htm",
+      thomann: "https://www.thomann.co.uk/km_210-2.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
