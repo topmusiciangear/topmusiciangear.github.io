@@ -1398,29 +1398,28 @@ footer ul li a:hover { color: var(--accent); }
   margin-bottom: 40px;
   padding: 0 0 32px;
   border-bottom: 1px solid var(--border);
+  width: 100%;
 }
 
-.guide-detail-intro p { max-width: 100%; }
+.guide-detail-intro p {
+  width: 100%;
+  max-width: none;
+}
 
 /* Guide Sections */
 .guide-section {
   margin-bottom: 40px;
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(255,255,255,.04);
-}
-
-.guide-section-heading {
-  font-size: 22px;
-  font-weight: 800;
-  color: var(--white);
-  margin-bottom: 14px;
-  letter-spacing: -.3px;
+  width: 100%;
 }
 
 .guide-section-content {
   font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.8;
+  width: 100%;
+  max-width: none;
 }
 
 
@@ -1835,8 +1834,12 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-products-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+}
+
+.guide-products-cards .guide-product-card-img {
+  aspect-ratio: 3/2;
 }
 
 @media (max-width: 1200px) {
