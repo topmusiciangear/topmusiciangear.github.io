@@ -797,16 +797,9 @@ const guides = [
     category: "plugins",
     image: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=600&h=400&fit=crop",
     badge: "bestSeller",
-    intro: "Software instruments have reached a point where they rival — and in some cases surpass — their hardware counterparts. The flexibility, recall, and cost savings are undeniable. Here are my top picks for synth and instrument plugins, from a legendary wavetable synth to a hardware keyboard that bridges both worlds.",
-    intro_es: "Los instrumentos de software han llegado a un punto donde rivalizan — y en algunos casos superan — a sus contrapartes de hardware. La flexibilidad, la capacidad de recuperar configuraciones y el ahorro de costos son innegables. Aquí están mis principales selecciones de plugins de sintetizador e instrumentos, desde un legendario sintetizador de tabla de ondas hasta un teclado de hardware que une ambos mundos.",
+    intro: "Hardware keyboards offer an immediacy and tactile connection that software can't fully replicate. The feel of real keys, instant access to controls, and the inspiration of a dedicated instrument make them essential studio companions. Here's the flagship keyboard that represents the pinnacle of professional stage and studio instruments.",
+    intro_es: "Los teclados de hardware ofrecen una inmediatez y conexión táctil que el software no puede replicar completamente. La sensación de las teclas reales, el acceso instantáneo a los controles y la inspiración de un instrumento dedicado los convierten en compañeros de estudio esenciales. Aquí está el teclado insignia que representa la cima de los instrumentos profesionales de escenario y estudio.",
     sections: [
-      {
-        heading: "The Wavetable Revolution: Xfer Serum",
-        heading_es: "La Revolución de Tabla de Ondas: Xfer Serum",
-        content: "Serum is the most beloved wavetable synth of the last decade. Its intuitive visual workflow, pristine sound engine, and unmatched modulation system make it essential for everything from pop leads to cinematic sound design. The wavetable editor lets you import any audio and turn it into a playable instrument. At $189 with free lifetime updates, the best value in synthesis.",
-        content_es: "Serum es el sintetizador de tabla de ondas más querido de la última década. Su flujo de trabajo visual intuitivo, motor de sonido impecable y sistema de modulación incomparable lo hacen esencial para todo, desde leads pop hasta diseño de sonido cinematográfico. El editor de tabla de ondas te permite importar cualquier audio y convertirlo en un instrumento reproducible. A $189 con actualizaciones gratuitas de por vida, el mejor valor en síntesis.",
-        products: [27]
-      },
       {
         heading: "Hardware That Inspires: Nord Stage 4 88",
         heading_es: "Hardware Que Inspira: Nord Stage 4 88",
@@ -815,11 +808,11 @@ const guides = [
         products: [11]
       }
     ],
-    conclusion: "Serum is the soft synth every producer should own — versatile, affordable, and inspiring. The Nord Stage 4 88 is the hardware companion for when you need to step away from the screen and connect physically with an instrument. Together, software and hardware give you the best of both worlds: unlimited sound design and immediate musical expression.",
-    conclusion_es: "Serum es el sintetizador de software que todo productor debería tener — versátil, asequible e inspirador. El Nord Stage 4 88 es el compañero de hardware para cuando necesitas alejarte de la pantalla y conectar físicamente con un instrumento. Juntos, software y hardware te dan lo mejor de ambos mundos: diseño de sonido ilimitado y expresión musical inmediata.",
-    verdict: "Serum for software, Nord Stage 4 for hardware",
-    verdict_es: "Serum 2 para software, Nord Stage 4 para hardware",
-    featuredProducts: [27, 11]
+    conclusion: "The Nord Stage 4 88 is the ultimate studio and stage keyboard — premium build quality, unmatched sounds, and the tactile inspiration that only hardware provides. If your budget allows, this is the one keyboard that replaces an entire room of gear.",
+    conclusion_es: "El Nord Stage 4 88 es el teclado definitivo de estudio y escenario — calidad de construcción premium, sonidos incomparables y la inspiración táctil que solo el hardware puede proporcionar. Si tu presupuesto lo permite, este es el único teclado que reemplaza una sala entera de equipo.",
+    verdict: "Nord Stage 4 — the keyboard that does it all",
+    verdict_es: "Nord Stage 4 — el teclado que lo hace todo",
+    featuredProducts: [11]
   },
   {
     id: "mixing-plugins",

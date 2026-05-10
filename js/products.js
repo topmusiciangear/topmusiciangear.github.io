@@ -480,23 +480,6 @@ const products = [
 
   // ===== PLUGINS =====
   {
-    id: 27,
-    title: "Xfer Serum",
-    title_es: "Xfer Serum",
-    category: "plugins",
-    price: 189,
-    rating: 4.8,
-    reviews: 23456,
-    badge: "bestSeller",
-    desc: "The legendary wavetable synthesizer. Unmatched modulation system, pristine sound quality, and drag-and-drop workflow. Free lifetime updates.",
-    desc_es: "El legendario sintetizador de tabla de ondas. Sistema de modulación incomparable, calidad de sonido impecable y flujo de trabajo arrastrar y soltar. Actualizaciones gratuitas de por vida.",
-    img: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=400&h=300&fit=crop",
-    stores: {
-      pluginboutique: "https://www.pluginboutique.com/search?q=serum",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
     id: 28,
     title: "Native Instruments Kontakt 8",
     title_es: "Native Instruments Kontakt 8",
