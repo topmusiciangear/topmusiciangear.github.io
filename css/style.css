@@ -1798,3 +1798,14 @@ footer ul li a:hover { color: var(--accent); }
 @media (min-width: 769px) {
   .audio-mini-mobile { display: none; }
 }
+
+.mobile-social { display: none; }
+
+@media (max-width: 768px) {
+  .mobile-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 24px 16px;
+  }
+}
