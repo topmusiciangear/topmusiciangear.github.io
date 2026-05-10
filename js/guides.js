@@ -791,30 +791,6 @@ const guides = [
     featuredProducts: [19]
   },
   {
-    id: "synth-plugins",
-    title: "Best Synth & Instrument Plugins (2026)",
-    title_es: "Mejores Plugins de Sintetizador e Instrumentos (2026)",
-    category: "plugins",
-    image: "img/synth-plugins.jpg",
-    badge: "bestSeller",
-    intro: "Hardware keyboards offer an immediacy and tactile connection that software can't fully replicate. The feel of real keys, instant access to controls, and the inspiration of a dedicated instrument make them essential studio companions. Here's the flagship keyboard that represents the pinnacle of professional stage and studio instruments.",
-    intro_es: "Los teclados de hardware ofrecen una inmediatez y conexión táctil que el software no puede replicar completamente. La sensación de las teclas reales, el acceso instantáneo a los controles y la inspiración de un instrumento dedicado los convierten en compañeros de estudio esenciales. Aquí está el teclado insignia que representa la cima de los instrumentos profesionales de escenario y estudio.",
-    sections: [
-      {
-        heading: "Hardware That Inspires: Nord Stage 4 88",
-        heading_es: "Hardware Que Inspira: Nord Stage 4 88",
-        content: "The Nord Stage 4 88 isn't a plugin — it's a flagship stage keyboard that belongs in this conversation because it represents what software still can't replicate: the immediacy of dedicated hardware. Triple Sensor keybed, seamless transitions between piano, organ, and synth engines, and Nord's legendary build quality. When I need to write without looking at a screen, the Nord is where I go. The sounds are so good they've become the reference that plugin developers try to match. At $4,999, it's a professional investment — but one that inspires every time you touch it.",
-        content_es: "El Nord Stage 4 88 no es un plugin — es un teclado de escenario insignia que pertenece a esta conversación porque representa lo que el software aún no puede replicar: la inmediatez del hardware dedicado. Teclado Triple Sensor, transiciones perfectas entre motores de piano, órgano y sintetizador, y la legendaria calidad de construcción de Nord. Cuando necesito escribir sin mirar una pantalla, el Nord es a donde voy. Los sonidos son tan buenos que se han convertido en la referencia que los desarrolladores de plugins intentan igualar. A $4,999, es una inversión profesional — pero una que inspira cada vez que la tocas.",
-        products: [11]
-      }
-    ],
-    conclusion: "The Nord Stage 4 88 is the ultimate studio and stage keyboard — premium build quality, unmatched sounds, and the tactile inspiration that only hardware provides. If your budget allows, this is the one keyboard that replaces an entire room of gear.",
-    conclusion_es: "El Nord Stage 4 88 es el teclado definitivo de estudio y escenario — calidad de construcción premium, sonidos incomparables y la inspiración táctil que solo el hardware puede proporcionar. Si tu presupuesto lo permite, este es el único teclado que reemplaza una sala entera de equipo.",
-    verdict: "Nord Stage 4 — the keyboard that does it all",
-    verdict_es: "Nord Stage 4 — el teclado que lo hace todo",
-    featuredProducts: [11]
-  },
-  {
     id: "mixing-plugins",
     title: "Best Mixing & Mastering Plugins (2026)",
     title_es: "Mejores Plugins de Mezcla y Masterización (2026)",
