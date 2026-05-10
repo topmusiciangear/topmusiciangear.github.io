@@ -1430,6 +1430,12 @@ footer ul li a:hover { color: var(--accent); }
   margin-top: 20px;
 }
 
+.guide-detail-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
 /* Guide Product Cards */
 .guide-product-card {
   background: var(--bg-card);
@@ -1829,21 +1835,44 @@ footer ul li a:hover { color: var(--accent); }
   }
 }
 
-.guide-detail-layout {
-  display: block;
-}
 
 .guide-detail-layout .guide-detail-sections {
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
 
 .guide-detail-layout .guide-all-products {
-  margin-top: 32px;
+  flex: 0 0 340px;
+  position: sticky;
+  top: 80px;
 }
 
 .guide-detail-layout .guide-all-products-title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
   color: var(--white);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.guide-detail-layout .guide-section-products {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .guide-detail-layout {
+    flex-direction: column;
+  }
+  .guide-detail-layout .guide-all-products {
+    flex: none;
+    position: static;
+    width: 100%;
+  }
+  .guide-detail-layout .guide-section-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
 }
