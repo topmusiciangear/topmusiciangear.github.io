@@ -974,10 +974,11 @@ nav {
 }
 
 .stores-logos {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -992,6 +993,10 @@ nav {
   color: var(--text-secondary);
   font-size: 14px;
   font-weight: 700;
+  text-decoration: none;
+  transition: var(--transition);
+  justify-content: center;
+}
   text-decoration: none;
   transition: var(--transition);
 }
