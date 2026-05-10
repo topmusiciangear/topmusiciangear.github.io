@@ -933,7 +933,7 @@ const guides = [
     title: "Best MIDI Controllers for Studio (2026)",
     title_es: "Mejores Controladores MIDI para Estudio (2026)",
     category: "accessories",
-    image: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&h=400&fit=crop",
+    image: "img/midi-controllers.jpg",
     badge: "recommended",
     intro: "A great MIDI controller becomes an extension of your hands. It should disappear between you and the music, letting you focus on performance instead of mousing around your DAW. Here are the controllers I trust for studio work, from keys to faders.",
     intro_es: "Un gran controlador MIDI se convierte en una extensión de tus manos. Debe desaparecer entre tú y la música, permitiéndote concentrarte en la interpretación en lugar de hacer clics en tu DAW. Aquí están los controladores en los que confío para trabajo de estudio, desde teclas hasta faders.",
