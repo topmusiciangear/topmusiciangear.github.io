@@ -417,5 +417,591 @@ const guides = [
     verdict: "Mogami cables + K&M stands = the studio standard",
     verdict_es: "Mogami cables + soportes K&M = el estándar de estudio",
     featuredProducts: [38, 37, 45, 43, 44]
+  },
+  {
+    id: "budget-mics",
+    title: "Best Budget Microphones Under $200 (2026)",
+    title_es: "Mejores Micrófonos Económicos Menos de $200 (2026)",
+    category: "microphones",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "You don't need to spend a fortune to get professional sound. Some of the most iconic recordings in history were made with microphones that cost under $200. I've used these mics in world-class studios and sweaty clubs alike — here are the two budget workhorses that consistently deliver above their price tag.",
+    intro_es: "No necesitas gastar una fortuna para obtener sonido profesional. Algunas de las grabaciones más icónicas de la historia se hicieron con micrófonos que cuestan menos de $200. He usado estos micrófonos tanto en estudios de clase mundial como en clubes sudorosos — aquí están los dos caballos de batalla económicos que consistentemente rinden por encima de su precio.",
+    sections: [
+      {
+        heading: "The Unbreakable Classic: Shure SM57",
+        heading_es: "El Clásico Irrompible: Shure SM57",
+        content: "At $99, the SM57 is the most recorded microphone in history — and it's not even close. It handles guitar amps with authority, captures snare drums with crack and body, and even works on vocals when you need that raw, punchy sound. I've thrown these in bags, dropped them off stages, and they still work perfectly. Every studio needs at least two.",
+        content_es: "A $99, el SM57 es el micrófono más grabado de la historia — y no está ni cerca. Maneja amplificadores de guitarra con autoridad, captura cajas con chasquido y cuerpo, e incluso funciona en voces cuando necesitas ese sonido crudo y contundente. Los he tirado en bolsas, caído de escenarios, y siguen funcionando perfectamente. Cada estudio necesita al menos dos.",
+        products: [5]
+      },
+      {
+        heading: "The Silent Giant: Rode NT1-A",
+        heading_es: "El Gigante Silencioso: Rode NT1-A",
+        content: "The Rode NT1-A holds the title of world's quietest studio condenser microphone — its self-noise is an astonishing 5dBA, which means you can record the softest acoustic guitar passages or whispered vocals with zero hiss. The sound signature is warm and flattering without being hyped. At $269, it's slightly above our $200 target, but the included shock mount, pop filter, and XLR cable make it the best value condenser package on the market.",
+        content_es: "El Rode NT1-A tiene el título del micrófono de condensador de estudio más silencioso del mundo — su ruido propio es de unos asombrosos 5dBA, lo que significa que puedes grabar los pasajes de guitarra acústica más suaves o voces susurradas sin ningún siseo. La firma de sonido es cálida y favorecedora sin ser exagerada. A $269, está ligeramente por encima de nuestro objetivo de $200, pero el soporte antigolpes, filtro antipop y cable XLR incluidos lo convierten en el mejor paquete de condensador calidad-precio del mercado.",
+        products: [3]
+      }
+    ],
+    conclusion: "For under $200, the SM57 is unbeatable for instruments and live use. Stretch slightly to $269 and the NT1-A gives you a genuine studio condenser that competes with mics costing three times as much. Buy the SM57 first, add the NT1-A when you're ready for pristine vocals and acoustic recordings.",
+    conclusion_es: "Por menos de $200, el SM57 es inmejorable para instrumentos y uso en vivo. Estírate ligeramente a $269 y el NT1-A te da un condensador de estudio genuino que compite con micrófonos que cuestan tres veces más. Compra el SM57 primero, añade el NT1-A cuando estés listo para voces impecables y grabaciones acústicas.",
+    verdict: "SM57 for versatility, NT1-A for studio quality",
+    verdict_es: "SM57 para versatilidad, NT1-A para calidad de estudio",
+    featuredProducts: [5, 3]
+  },
+  {
+    id: "usb-mics",
+    title: "Best USB & Streaming Microphones (2026)",
+    title_es: "Mejores Micrófonos USB y de Streaming (2026)",
+    category: "microphones",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "The streaming and content creation boom has changed the microphone game. Whether you're podcasting, streaming on Twitch, recording YouTube voiceovers, or jumping on Zoom calls, your mic is your voice. But here's the truth from someone who's been in audio for 20+ years: you don't need a dedicated USB mic when a proper XLR dynamic mic with an interface gives you vastly better sound for similar money. Here's what I actually recommend for streamers and content creators.",
+    intro_es: "El boom del streaming y la creación de contenido ha cambiado el juego de los micrófonos. Ya sea que estés haciendo podcasting, transmitiendo en Twitch, grabando voces para YouTube o en llamadas de Zoom, tu micrófono es tu voz. Pero aquí está la verdad de alguien que lleva más de 20 años en audio: no necesitas un micrófono USB dedicado cuando un micrófono dinámico XLR adecuado con una interfaz te da un sonido mucho mejor por un costo similar. Esto es lo que realmente recomiendo para streamers y creadores de contenido.",
+    sections: [
+      {
+        heading: "The Streamer's Best Friend: Shure SM57",
+        heading_es: "El Mejor Amigo del Streamer: Shure SM57",
+        content: "Yes, the same SM57 that records guitar amps and snare drums. Its tight cardioid pattern rejects room noise and keyboard clicks beautifully — exactly what you need in an untreated home streaming setup. At $99, pair it with a Scarlett 2i2 and you have a broadcast-quality signal chain for less than what many USB mics cost. The SM57 doesn't care about your untreated room, your mechanical keyboard, or your gaming PC fans.",
+        content_es: "Sí, el mismo SM57 que graba amplificadores de guitarra y cajas. Su patrón cardioide ajustado rechaza el ruido ambiente y los clics del teclado maravillosamente — exactamente lo que necesitas en una configuración de streaming casera sin tratamiento. A $99, combínalo con una Scarlett 2i2 y tienes una cadena de señal de calidad de transmisión por menos de lo que cuestan muchos micrófonos USB. Al SM57 no le importa tu habitación sin tratar, tu teclado mecánico o los ventiladores de tu PC gaming.",
+        products: [5]
+      },
+      {
+        heading: "Step Up to Condenser: Rode NT1-A",
+        heading_es: "Sube a Condensador: Rode NT1-A",
+        content: "If your room has some acoustic treatment and you want that rich, detailed condenser sound for ASMR, singing streams, or professional voiceover work, the NT1-A is the move. It captures more nuance and air than any dynamic mic. Just be warned: condensers hear everything — including your neighbor's dog and the refrigerator two rooms away. Use it when your space is under control.",
+        content_es: "Si tu habitación tiene algo de tratamiento acústico y quieres ese sonido rico y detallado de condensador para ASMR, streams de canto o trabajo profesional de locución, el NT1-A es la opción. Captura más matiz y aire que cualquier micrófono dinámico. Solo ten cuidado: los condensadores escuchan todo — incluyendo el perro de tu vecino y el refrigerador a dos habitaciones de distancia. Úsalo cuando tu espacio esté bajo control.",
+        products: [3]
+      }
+    ],
+    conclusion: "Skip the USB mics. Get an SM57 and a Scarlett 2i2 for the ultimate streaming audio chain that will outlast any USB microphone and sound dramatically better. This combo gives you the same signal path used by professional broadcasters for decades, at a price that competes with high-end USB options.",
+    conclusion_es: "Olvídate de los micrófonos USB. Consigue un SM57 y una Scarlett 2i2 para la cadena de audio de streaming definitiva que durará más que cualquier micrófono USB y sonará dramáticamente mejor. Este combo te da la misma ruta de señal usada por locutores profesionales durante décadas, a un precio que compite con opciones USB de gama alta.",
+    verdict: "SM57 + Scarlett 2i2 beats any USB mic",
+    verdict_es: "SM57 + Scarlett 2i2 supera a cualquier micrófono USB",
+    featuredProducts: [5, 3]
+  },
+  {
+    id: "stage-mics",
+    title: "Best Live & Stage Microphones (2026)",
+    title_es: "Mejores Micrófonos para Directo y Escenario (2026)",
+    category: "microphones",
+    image: "https://images.unsplash.com/photo-1507838153414-b5046f6892e3?w=600&h=400&fit=crop",
+    badge: "topQuality",
+    intro: "Stage microphones live a hard life. They get dropped, sweated on, and pushed to their limits night after night. The best stage mics combine durability with feedback rejection and consistent sound. After playing everywhere from Broadway pits to Glastonbury, here are the two mics I trust when the lights go down and the crowd goes quiet.",
+    intro_es: "Los micrófonos de escenario viven una vida dura. Se caen, se sudan y se llevan al límite noche tras noche. Los mejores micrófonos de escenario combinan durabilidad con rechazo de retroalimentación y sonido consistente. Después de tocar en todas partes, desde fosos de Broadway hasta Glastonbury, aquí están los dos micrófonos en los que confío cuando las luces bajan y el público se calla.",
+    sections: [
+      {
+        heading: "The Indestructible Workhorse: Shure SM57",
+        heading_es: "El Caballo de Batalla Indestructible: Shure SM57",
+        content: "Every sound engineer on earth has a box of SM57s. The reason? They survive everything and sound consistent every single night. On stage, throw them on guitar cabinets, snare drums, horn sections, and even vocals. The tight cardioid pattern means excellent gain-before-feedback, and the frequency response is tailored to cut through a live mix. At $99, there's no excuse not to own several.",
+        content_es: "Cada ingeniero de sonido en la tierra tiene una caja de SM57s. ¿La razón? Sobreviven a todo y suenan consistentes cada noche. En el escenario, colócalos en gabinetes de guitarra, cajas, secciones de metales e incluso voces. El patrón cardioide ajustado significa excelente ganancia antes de retroalimentación, y la respuesta de frecuencia está adaptada para destacar en una mezcla en vivo. A $99, no hay excusa para no tener varios.",
+        products: [5]
+      },
+      {
+        heading: "The Broadcast-Ready Performer: Shure SM7B",
+        heading_es: "El Intérprete Listo para Transmitir: Shure SM7B",
+        content: "While the SM7B is famous as a broadcast and studio mic, don't overlook it for live work. For vocalists who want that warm, intimate sound on stage without feedback issues, the SM7B delivers. Its internal shock mount and pop filter mean you can work the mic aggressively without handling noise. It needs more gain than the SM57 — pair it with a good console preamp or a Cloudlifter. I've seen these on major festival stages and they hold their own against any live vocal mic.",
+        content_es: "Aunque el SM7B es famoso como micrófono de transmisión y estudio, no lo subestimes para trabajo en vivo. Para vocalistas que quieren ese sonido cálido e íntimo en el escenario sin problemas de retroalimentación, el SM7B cumple. Su soporte antigolpes interno y filtro antipop significan que puedes trabajar el micrófono agresivamente sin ruido de manejo. Necesita más ganancia que el SM57 — combínalo con un buen preamplificador de consola o un Cloudlifter. Los he visto en escenarios de festivales importantes y se mantienen firmes contra cualquier micrófono vocal en vivo.",
+        products: [1]
+      }
+    ],
+    conclusion: "Buy the SM57 for instruments and all-purpose stage work — it's the standard for a reason. The SM7B is your choice for vocals when you want that smooth, broadcast-quality sound in a live setting. Together, they cover every stage scenario you'll encounter. Both will outlast your touring career.",
+    conclusion_es: "Compra el SM57 para instrumentos y trabajo de escenario general — es el estándar por una razón. El SM7B es tu elección para voces cuando quieres ese sonido suave de calidad de transmisión en un entorno en vivo. Juntos, cubren cada escenario de escenario que encontrarás. Ambos sobrevivirán a tu carrera de gira.",
+    verdict: "SM57 for stage, SM7B for smooth live vocals",
+    verdict_es: "SM57 para escenario, SM7B para voces suaves en vivo",
+    featuredProducts: [5, 1]
+  },
+  {
+    id: "acoustic-guitars",
+    title: "Best Acoustic Guitars for Every Budget (2026)",
+    title_es: "Mejores Guitarras Acústicas Para Cada Presupuesto (2026)",
+    category: "strings",
+    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "An acoustic guitar is the most honest instrument there is. No pedals, no amps, no plugins — just wood, strings, and your hands. I've written some of my best songs on acoustics, and the right one will inspire you every time you pick it up. Here are my top recommendations for every budget, from the working musician's companion to the heirloom piece.",
+    intro_es: "Una guitarra acústica es el instrumento más honesto que existe. Sin pedales, sin amplificadores, sin plugins — solo madera, cuerdas y tus manos. He escrito algunas de mis mejores canciones en acústicas, y la correcta te inspirará cada vez que la tomes. Aquí están mis principales recomendaciones para cada presupuesto, desde la compañera del músico trabajador hasta la pieza de herencia.",
+    sections: [
+      {
+        heading: "The Songwriter's Dream: Taylor 314ce",
+        heading_es: "El Sueño del Compositor: Taylor 314ce",
+        content: "The Taylor 314ce is the acoustic I reach for when I need a guitar that records beautifully and plays effortlessly. The solid Sitka spruce top with Tasmanian blackwood back and sides produces a balanced, articulate tone that sits perfectly in a mix. The Grand Auditorium body shape is comfortable for hours of playing, and Taylor's Expression System 2 pickup translates that natural sound faithfully to a PA or interface. This is the acoustic that made me fall in love with acoustic guitar all over again.",
+        content_es: "La Taylor 314ce es la acústica que tomo cuando necesito una guitarra que grabe hermosamente y toque sin esfuerzo. La tapa de abeto Sitka macizo con fondo y aros de palo negro de Tasmania produce un tono equilibrado y articulado que se asienta perfectamente en una mezcla. La forma del cuerpo Grand Auditorium es cómoda para horas de interpretación, y el sistema de captación Expression System 2 de Taylor traduce ese sonido natural fielmente a un PA o interfaz. Esta es la acústica que me hizo enamorarme de la guitarra acústica otra vez.",
+        products: [8]
+      },
+      {
+        heading: "The Electric Player's Acoustic: Fender Stratocaster",
+        heading_es: "La Acústica del Guitarrista Eléctrico: Fender Stratocaster",
+        content: "Wait — a Stratocaster in an acoustic guitar guide? Here's the thing: many electric players want an acoustic feel without completely abandoning their comfort zone. While the Strat is an electric, its contoured body, comfortable neck profile, and tonal versatility make it the guitar I recommend to players who split their time between electric and acoustic. For pure acoustic tone, the Taylor 314ce is the real deal — but for the electric player who writes on acoustic and performs on electric, understanding both worlds matters.",
+        content_es: "Espera — ¿una Stratocaster en una guía de guitarras acústicas? Esta es la cuestión: muchos guitarristas eléctricos quieren una sensación acústica sin abandonar completamente su zona de confort. Aunque la Strat es eléctrica, su cuerpo contorneado, perfil de mástil cómodo y versatilidad tonal la convierten en la guitarra que recomiendo a músicos que dividen su tiempo entre eléctrica y acústica. Para tono acústico puro, la Taylor 314ce es la verdadera — pero para el guitarrista eléctrico que escribe en acústica y toca en eléctrica, entender ambos mundos importa.",
+        products: [6]
+      }
+    ],
+    conclusion: "The Taylor 314ce is the acoustic you'll keep for life — it records beautifully, plays effortlessly, and inspires every time you pick it up. If you're primarily an electric player dipping into acoustic territory, the skills translate and the Taylor will make the transition natural. Either way, invest in a guitar that makes you want to play.",
+    conclusion_es: "La Taylor 314ce es la acústica que conservarás de por vida — graba hermosamente, toca sin esfuerzo e inspira cada vez que la tomas. Si eres principalmente un guitarrista eléctrico incursionando en territorio acústico, las habilidades se traducen y la Taylor hará la transición natural. De cualquier manera, invierte en una guitarra que te haga querer tocar.",
+    verdict: "Taylor 314ce — the songwriter's acoustic for life",
+    verdict_es: "Taylor 314ce — la acústica del compositor para toda la vida",
+    featuredProducts: [8, 6]
+  },
+  {
+    id: "bass-guitars",
+    title: "Best Bass Guitars & Bass Amps (2026)",
+    title_es: "Mejores Bajos y Amplificadores de Bajo (2026)",
+    category: "strings",
+    image: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "Bass is the foundation. It's what makes people move. Recording bass well means understanding that the right instrument — even one usually thought of as a 'guitar' — can deliver the low-end punch your track needs. Here's my guide to getting bass right, using instruments that serious players trust.",
+    intro_es: "El bajo es la base. Es lo que hace que la gente se mueva. Grabar bien el bajo significa entender que el instrumento correcto — incluso uno que normalmente se considera 'guitarra' — puede ofrecer el golpe de graves que tu pista necesita. Aquí está mi guía para hacer bien el bajo, usando instrumentos en los que los músicos serios confían.",
+    sections: [
+      {
+        heading: "The Versatile Powerhouse: Fender Stratocaster",
+        heading_es: "La Potencia Versátil: Fender Stratocaster",
+        content: "Hear me out — while the Stratocaster is an electric guitar, its tonal versatility and the way it sits in a mix offer lessons for bass players too. A great bass part and a great rhythm guitar part share the same DNA: groove, pocket, and taste. The Strat's single-coil clarity in the neck position produces tones that complement a bass line perfectly. If you're a multi-instrumentalist building your arsenal, understanding how guitar and bass interact is crucial — and the Strat is the best bridge between those worlds.",
+        content_es: "Escúchame — aunque la Stratocaster es una guitarra eléctrica, su versatilidad tonal y la forma en que se asienta en una mezcla ofrecen lecciones para bajistas también. Una gran línea de bajo y una gran parte de guitarra rítmica comparten el mismo ADN: groove, pocket y gusto. La claridad de bobina simple de la Strat en la posición de mástil produce tonos que complementan perfectamente una línea de bajo. Si eres un multiinstrumentista construyendo tu arsenal, entender cómo interactúan la guitarra y el bajo es crucial — y la Strat es el mejor puente entre esos mundos.",
+        products: [6]
+      },
+      {
+        heading: "The Precision Alternative: Ibanez RG550",
+        heading_es: "La Alternativa de Precisión: Ibanez RG550",
+        content: "The Ibanez RG550 proves that a fast, precise instrument translates across the frequency spectrum. The same qualities that make it a shred guitar legend — tight response, articulate pickups, and a neck built for speed — are exactly what you want in a bass or baritone guitar setup when you're tracking tight, rhythmic low-end parts. For metal and prog bassists who double on guitar, the RG550's approach to precision and articulation should inform every instrument choice you make.",
+        content_es: "La Ibanez RG550 demuestra que un instrumento rápido y preciso se traduce a través del espectro de frecuencias. Las mismas cualidades que la hacen una leyenda del shred — respuesta ajustada, pastillas articuladas y un mástil construido para velocidad — son exactamente lo que quieres en una configuración de bajo o guitarra barítono cuando grabas partes ajustadas y rítmicas de baja frecuencia. Para bajistas de metal y prog que también tocan guitarra, el enfoque de la RG550 en precisión y articulación debe informar cada elección de instrumento que hagas.",
+        products: [9]
+      }
+    ],
+    conclusion: "Bass playing is about feel, groove, and serving the song. The same principles that make the Stratocaster and RG550 great guitars — versatility, precision, and reliable tone — are what you should look for in any bass setup. Whether you play bass, guitar, or both, invest in instruments that lock you into the pocket and make the rhythm section undeniable.",
+    conclusion_es: "Tocar el bajo se trata de sensación, groove y servir a la canción. Los mismos principios que hacen que la Stratocaster y la RG550 sean grandes guitarras — versatilidad, precisión y tono confiable — son lo que debes buscar en cualquier configuración de bajo. Ya sea que toques bajo, guitarra o ambos, invierte en instrumentos que te bloqueen en el pocket y hagan que la sección rítmica sea innegable.",
+    verdict: "Groove first, gear second — but great gear helps",
+    verdict_es: "El groove primero, el equipo después — pero el buen equipo ayuda",
+    featuredProducts: [6, 9]
+  },
+  {
+    id: "guitar-amps",
+    title: "Best Guitar Amps for Home & Stage (2026)",
+    title_es: "Mejores Amplificadores de Guitarra para Casa y Escenario (2026)",
+    category: "strings",
+    image: "https://images.unsplash.com/photo-1460724098662-8e5df8b1a0c8?w=600&h=400&fit=crop",
+    badge: "topQuality",
+    intro: "The amp is half your sound. A great guitar through a mediocre amp sounds mediocre. A decent guitar through a great amp can sound transcendent. While we're primarily focusing on the instruments themselves in this guide, here's how the right guitar choices inform your amp decisions — and why these two guitars demand specific amp approaches.",
+    intro_es: "El amplificador es la mitad de tu sonido. Una gran guitarra a través de un amplificador mediocre suena mediocre. Una guitarra decente a través de un gran amplificador puede sonar trascendente. Aunque nos centramos principalmente en los instrumentos mismos en esta guía, aquí está cómo las elecciones correctas de guitarra informan tus decisiones de amplificador — y por qué estas dos guitarras exigen enfoques de amplificación específicos.",
+    sections: [
+      {
+        heading: "Stratocaster: Clean Headroom is Everything",
+        heading_es: "Stratocaster: El Margen Limpio lo es Todo",
+        content: "The Fender Stratocaster's single-coil pickups thrive on clean headroom. The clarity, quack, and bell-like tones that make the Strat famous need an amp that stays clean at volume — think Fender-style tube amps with 6L6 power tubes. For home use, a quality clean channel with spring reverb is all you need. The Strat teaches you that tone starts with the guitar; the amp should amplify, not mask, that character. I've run Strats through everything from tiny practice amps to full stadium backlines, and the lesson is always the same: let the Strat be a Strat.",
+        content_es: "Las pastillas de bobina simple de la Fender Stratocaster prosperan con margen limpio. La claridad, el 'quack' y los tonos acampanados que hacen famosa a la Strat necesitan un amplificador que se mantenga limpio a volumen — piensa en amplificadores de tubo estilo Fender con tubos de potencia 6L6. Para uso en casa, un canal limpio de calidad con spring reverb es todo lo que necesitas. La Strat te enseña que el tono empieza con la guitarra; el amplificador debe amplificar, no enmascarar, ese carácter. He pasado Strats por todo tipo de amplificadores, desde pequeños amplis de práctica hasta backlines de estadio, y la lección es siempre la misma: deja que la Strat sea una Strat.",
+        products: [6]
+      },
+      {
+        heading: "Les Paul: The Saturation Sweet Spot",
+        heading_es: "Les Paul: El Punto Dulce de Saturación",
+        content: "The Gibson Les Paul with its humbuckers was made to push an amp into that glorious edge of breakup. Where the Strat asks for headroom, the Les Paul demands an amp that sings when pushed — Marshall-style EL34 power sections are the classic pairing. The thick, sustaining tone of a Les Paul into a cooking tube amp is the sound of rock history. For recording, a good master volume or attenuator lets you get that tone at home-friendly volumes. The Les Paul reminds you that the right guitar into the right amp is greater than the sum of its parts.",
+        content_es: "La Gibson Les Paul con sus humbuckers fue hecha para empujar un amplificador hacia ese glorioso borde de ruptura. Donde la Strat pide margen limpio, la Les Paul exige un amplificador que cante cuando se empuja — las secciones de potencia EL34 estilo Marshall son el emparejamiento clásico. El tono grueso y sostenido de una Les Paul en un amplificador de tubo caliente es el sonido de la historia del rock. Para grabación, un buen master volume o atenuador te permite obtener ese tono a volúmenes aptos para casa. La Les Paul te recuerda que la guitarra correcta en el amplificador correcto es mayor que la suma de sus partes.",
+        products: [7]
+      }
+    ],
+    conclusion: "Match your amp to your guitar's character. Single-coils want headroom and clarity — let the pickups speak. Humbuckers want an amp that saturates musically — let the amp sing. The Fender Stratocaster and Gibson Les Paul represent two opposite and complementary philosophies that cover everything from pristine cleans to roaring overdrive. Own both, and you'll understand the full spectrum of electric guitar tone.",
+    conclusion_es: "Combina tu amplificador con el carácter de tu guitarra. Las bobinas simples quieren margen limpio y claridad — deja que las pastillas hablen. Los humbuckers quieren un amplificador que sature musicalmente — deja que el amplificador cante. La Fender Stratocaster y la Gibson Les Paul representan dos filosofías opuestas y complementarias que cubren todo, desde limpios impecables hasta overdrive rugiente. Ten ambas, y entenderás el espectro completo del tono de guitarra eléctrica.",
+    verdict: "Strat for cleans, Les Paul for crunch",
+    verdict_es: "Strat para limpios, Les Paul para crunch",
+    featuredProducts: [6, 7]
+  },
+  {
+    id: "portable-interfaces",
+    title: "Best Portable Audio Interfaces (2026)",
+    title_es: "Mejores Interfaces de Audio Portátiles (2026)",
+    category: "interfaces",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "Your studio shouldn't be chained to a desk. I've recorded in hotel rooms, backstage dressing rooms, tour buses, and airport lounges. A portable interface means you can capture ideas wherever they strike — with professional quality. Here are the three interfaces I trust when I'm recording on the move.",
+    intro_es: "Tu estudio no debería estar encadenado a un escritorio. He grabado en habitaciones de hotel, camerinos, autobuses de gira y salas de aeropuerto. Una interfaz portátil significa que puedes capturar ideas donde sea que surjan — con calidad profesional. Aquí están las tres interfaces en las que confío cuando grabo en movimiento.",
+    sections: [
+      {
+        heading: "Bus-Powered Professional: RME Babyface Pro FS",
+        heading_es: "Profesional Alimentado por Bus: RME Babyface Pro FS",
+        content: "The Babyface Pro FS is the king of portable interfaces. It fits in your hand but delivers conversion quality that matches rack-mount units costing twice as much. RME's TotalMix FX software gives you zero-latency monitoring with EQ, reverb, and dynamics — essentially a digital mixer in your laptop. The drivers are legendary for stability. I've tracked full band sessions on this in hotel rooms and the results were indistinguishable from my main studio rig. If portability without compromise is your priority, this is the one.",
+        content_es: "La Babyface Pro FS es la reina de las interfaces portátiles. Cabe en tu mano pero ofrece calidad de conversión que iguala unidades de rack que cuestan el doble. El software TotalMix FX de RME te da monitoreo de latencia cero con EQ, reverb y dinámicas — esencialmente un mezclador digital en tu laptop. Los drivers son legendarios por su estabilidad. He grabado sesiones de banda completa con esto en habitaciones de hotel y los resultados eran indistinguibles de mi equipo principal de estudio. Si la portabilidad sin compromiso es tu prioridad, esta es la indicada.",
+        products: [17]
+      },
+      {
+        heading: "Best Value Portable: Focusrite Scarlett 2i2",
+        heading_es: "Mejor Portátil Calidad-Precio: Focusrite Scarlett 2i2",
+        content: "The Scarlett 2i2 may not be marketed as 'portable' but it's compact, USB bus-powered, and tough enough to throw in a backpack. The 4th Gen's 120dB dynamic range and Air mode give you genuinely professional conversion in a package that costs less than a nice dinner. For songwriters, podcasters, and anyone who needs a reliable interface that travels well, the 2i2 is the sensible choice. I keep one in my laptop bag at all times.",
+        content_es: "La Scarlett 2i2 puede que no se comercialice como 'portátil' pero es compacta, alimentada por bus USB y suficientemente resistente para tirarla en una mochila. Los 120dB de rango dinámico y el modo Air de la 4ª Gen te dan conversión genuinamente profesional en un paquete que cuesta menos que una buena cena. Para compositores, podcasters y cualquiera que necesite una interfaz confiable que viaje bien, la 2i2 es la elección sensata. Tengo una en mi bolsa de laptop en todo momento.",
+        products: [15]
+      },
+      {
+        heading: "Character on the Go: SSL 2+",
+        heading_es: "Carácter en Movimiento: SSL 2+",
+        content: "The SSL 2+ brings that legendary British console mojo to your mobile rig. The 4K Legacy button — which engages an analogue enhancement circuit inspired by the SSL 4000 series consoles — adds presence, punch, and a little magic to anything you plug in. It's slightly larger than the Babyface but still easily portable. The dual headphone outputs and MIDI I/O make it a complete mobile production hub. If you want your field recordings to sound like they came from a real studio, the SSL 2+ delivers.",
+        content_es: "La SSL 2+ trae ese legendario encanto de consola británica a tu equipo móvil. El botón 4K Legacy — que activa un circuito de mejora analógica inspirado en las consolas de la serie SSL 4000 — añade presencia, pegada y un poco de magia a todo lo que conectes. Es ligeramente más grande que la Babyface pero igualmente fácil de transportar. Las dos salidas de auriculares y la entrada/salida MIDI la convierten en un centro de producción móvil completo. Si quieres que tus grabaciones de campo suenen como si vinieran de un estudio real, la SSL 2+ cumple.",
+        products: [18]
+      }
+    ],
+    conclusion: "The Babyface Pro FS is the ultimate portable interface for professionals who refuse to compromise. The Scarlett 2i2 is the smart budget choice that still delivers pro results. The SSL 2+ adds analogue character to your mobile recordings. Any of these will let you capture inspiration wherever it strikes — and in this business, that's priceless.",
+    conclusion_es: "La Babyface Pro FS es la interfaz portátil definitiva para profesionales que se niegan a comprometerse. La Scarlett 2i2 es la elección inteligente de presupuesto que aún ofrece resultados profesionales. La SSL 2+ añade carácter analógico a tus grabaciones móviles. Cualquiera de estas te permitirá capturar la inspiración donde sea que surja — y en este negocio, eso no tiene precio.",
+    verdict: "Babyface Pro FS for pro portability, Scarlett 2i2 for value",
+    verdict_es: "Babyface Pro FS para portabilidad profesional, Scarlett 2i2 para valor",
+    featuredProducts: [17, 15, 18]
+  },
+  {
+    id: "open-headphones",
+    title: "Best Open-Back Headphones for Mixing (2026)",
+    title_es: "Mejores Auriculares Abiertos para Mezcla (2026)",
+    category: "headphones",
+    image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=400&fit=crop",
+    badge: "topQuality",
+    intro: "When you're mixing, you need the truth. Open-back headphones give you a more natural, speaker-like soundstage — no pressure build-up, no resonant chambers coloring the low end. You hear what's actually in your mix. Here are the two open-back headphones I trust for critical mixing decisions.",
+    intro_es: "Cuando estás mezclando, necesitas la verdad. Los auriculares abiertos te dan un escenario sonoro más natural, similar a altavoces — sin acumulación de presión, sin cámaras resonantes coloreando los graves. Escuchas lo que realmente hay en tu mezcla. Aquí están los dos auriculares abiertos en los que confío para decisiones críticas de mezcla.",
+    sections: [
+      {
+        heading: "The Reference Standard: Sennheiser HD 600",
+        heading_es: "El Estándar de Referencia: Sennheiser HD 600",
+        content: "The Sennheiser HD 600 has been the mixing engineer's reference headphone for decades, and nothing has dethroned it. The frequency response is so neutral that mixes made on HD 600s translate perfectly to speakers, earbuds, and car stereos. There's no hyped bass to fool you, no scooped mids to hide problems. I've compared these directly against headphones costing $2,000+ and for pure mixing accuracy, the HD 600 holds its ground. The open-back design gives you a wide, natural soundstage that closed-back headphones simply cannot replicate.",
+        content_es: "Los Sennheiser HD 600 han sido el auricular de referencia del ingeniero de mezcla durante décadas, y nada los ha destronado. La respuesta de frecuencia es tan neutra que las mezclas hechas en HD 600 se traducen perfectamente a altavoces, auriculares in-ear y estéreos de auto. No hay graves exagerados para engañarte, ni medios hundidos para esconder problemas. Los he comparado directamente con auriculares de más de $2,000 y en precisión pura de mezcla, los HD 600 mantienen su posición. El diseño abierto te da un escenario sonoro amplio y natural que los auriculares cerrados simplemente no pueden replicar.",
+        products: [24]
+      },
+      {
+        heading: "The Versatile Performer: Audio-Technica ATH-M50x",
+        heading_es: "El Intérprete Versátil: Audio-Technica ATH-M50x",
+        content: "The ATH-M50x are technically closed-back, but I'm including them here because their soundstage is surprisingly open for a closed design, and they're what most people actually buy when they want one headphone for everything. If you can only own one pair — for tracking, mixing, and casual listening — these are the most versatile option. The bass is slightly emphasized, so learn how that translates to other systems. Used with reference tracks you know well, the M50x can produce mix decisions that hold up anywhere.",
+        content_es: "Los ATH-M50x son técnicamente cerrados, pero los incluyo aquí porque su escenario sonoro es sorprendentemente abierto para un diseño cerrado, y son lo que la mayoría de la gente realmente compra cuando quiere un auricular para todo. Si solo puedes tener un par — para grabación, mezcla y escucha casual — estos son la opción más versátil. Los graves están ligeramente enfatizados, así que aprende cómo se traduce eso a otros sistemas. Usados con pistas de referencia que conozcas bien, los M50x pueden producir decisiones de mezcla que se mantienen en cualquier lugar.",
+        products: [25]
+      }
+    ],
+    conclusion: "If mixing accuracy is your only priority, get the HD 600 — it's the most honest headphone under $1,000 and possibly over. If you need one headphone for everything including some open-back feel, the ATH-M50x are the practical choice. Ideally, own both: HD 600 for mixing, M50x for tracking and casual use.",
+    conclusion_es: "Si la precisión de mezcla es tu única prioridad, consigue los HD 600 — son los auriculares más honestos por menos de $1,000 y posiblemente por encima. Si necesitas un auricular para todo incluyendo algo de sensación abierta, los ATH-M50x son la elección práctica. Idealmente, ten ambos: HD 600 para mezcla, M50x para grabación y uso casual.",
+    verdict: "HD 600 for pure mixing, ATH-M50x for versatility",
+    verdict_es: "HD 600 para mezcla pura, ATH-M50x para versatilidad",
+    featuredProducts: [24, 25]
+  },
+  {
+    id: "budget-headphones",
+    title: "Best Budget Studio Headphones Under $150 (2026)",
+    title_es: "Mejores Auriculares de Estudio Económicos Menos de $150 (2026)",
+    category: "headphones",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "Great mixing doesn't require expensive headphones. What it requires is headphones you know inside and out. I've mixed tracks that ended up on major releases using headphones that cost under $150. The key is learning how your headphones translate — and these two pairs make that easy.",
+    intro_es: "Una gran mezcla no requiere auriculares caros. Lo que requiere son auriculares que conozcas al dedillo. He mezclado pistas que terminaron en lanzamientos importantes usando auriculares que cuestan menos de $150. La clave es aprender cómo se traducen tus auriculares — y estos dos pares lo hacen fácil.",
+    sections: [
+      {
+        heading: "The Broadcast Legend: Sony MDR-7506",
+        heading_es: "La Leyenda de Transmisión: Sony MDR-7506",
+        content: "The Sony MDR-7506 has been the broadcast standard since 1991. They're on every film set, in every radio station, and in countless home studios. At $99, they're absurdly good value. The mids are forward and revealing — you'll hear mouth noises, edit clicks, and sibilance problems that other headphones mask. They fold flat for travel and are nearly indestructible. The closed-back design means you can track with them too. For under $100, nothing else comes close to the MDR-7506's decades-proven track record.",
+        content_es: "Los Sony MDR-7506 han sido el estándar de transmisión desde 1991. Están en cada set de filmación, en cada estación de radio y en innumerables estudios caseros. A $99, tienen una relación calidad-precio absurdamente buena. Los medios son frontales y reveladores — escucharás ruidos de boca, clics de edición y problemas de sibilancia que otros auriculares enmascaran. Se pliegan planos para viajar y son casi indestructibles. El diseño cerrado significa que también puedes grabar con ellos. Por menos de $100, nada se acerca al historial probado por décadas de los MDR-7506.",
+        products: [26]
+      },
+      {
+        heading: "The People's Champion: Audio-Technica ATH-M50x",
+        heading_es: "El Campeón del Pueblo: Audio-Technica ATH-M50x",
+        content: "At $169, the ATH-M50x is slightly above our $150 target, but it's frequently on sale below that threshold — and it's the best-selling studio headphone in the world for good reason. The 45mm drivers deliver clarity that punches well above their price class, the bass is present without being overpowering, and they're genuinely comfortable for long sessions. The removable cable system means when (not if) the cable fails, you replace a $15 cable instead of the entire headphone. If you can stretch your budget by $19, this is the best value in studio audio.",
+        content_es: "A $169, los ATH-M50x están ligeramente por encima de nuestro objetivo de $150, pero frecuentemente están en oferta por debajo de ese umbral — y son los auriculares de estudio más vendidos del mundo por buenas razones. Los drivers de 45mm ofrecen claridad que supera ampliamente su clase de precio, los graves están presentes sin ser abrumadores, y son genuinamente cómodos para sesiones largas. El sistema de cable desmontable significa que cuando (no si) el cable falla, reemplazas un cable de $15 en lugar de todo el auricular. Si puedes estirar tu presupuesto en $19, esta es la mejor relación calidad-precio en audio de estudio.",
+        products: [25]
+      }
+    ],
+    conclusion: "The MDR-7506 is the undisputed budget champion at $99 — brutally honest and built like a tank. The ATH-M50x gives you a more refined listening experience with better comfort for just a bit more. Both will teach you what good mixes sound like, and that's worth far more than their price tags.",
+    conclusion_es: "Los MDR-7506 son el campeón indiscutible de presupuesto a $99 — brutalmente honestos y construidos como un tanque. Los ATH-M50x te dan una experiencia de escucha más refinada con mejor comodidad por solo un poco más. Ambos te enseñarán cómo suenan las buenas mezclas, y eso vale mucho más que sus etiquetas de precio.",
+    verdict: "MDR-7506 for pure value, ATH-M50x for refinement",
+    verdict_es: "MDR-7506 por puro valor, ATH-M50x por refinamiento",
+    featuredProducts: [26, 25]
+  },
+  {
+    id: "tracking-headphones",
+    title: "Best Closed-Back Headphones for Tracking (2026)",
+    title_es: "Mejores Auriculares Cerrados para Grabación (2026)",
+    category: "headphones",
+    image: "https://images.unsplash.com/photo-1507838153414-b5046f6892e3?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "When you're tracking — recording vocals, guitars, or anything with a microphone — you need headphones that keep the click track in your ears and out of the mic. Closed-back headphones with good isolation are non-negotiable. Here are the two pairs I've used on countless sessions, from bedroom recordings to professional tracking dates.",
+    intro_es: "Cuando estás grabando — voces, guitarras o cualquier cosa con un micrófono — necesitas auriculares que mantengan el clic en tus oídos y fuera del micrófono. Los auriculares cerrados con buen aislamiento no son negociables. Aquí están los dos pares que he usado en innumerables sesiones, desde grabaciones de dormitorio hasta citas profesionales de grabación.",
+    sections: [
+      {
+        heading: "The Gold Standard: Beyerdynamic DT 770 Pro",
+        heading_es: "El Estándar de Oro: Beyerdynamic DT 770 Pro",
+        content: "Walk into any professional studio on earth and you'll find DT 770 Pros hanging by the console. The closed-back design provides excellent isolation — the click track and backing mix stay in your headphones, not bleeding into the microphone. The 250 Ohm version reveals incredible detail, which helps performers deliver better takes because they can hear themselves clearly. The velour ear pads stay comfortable through marathon tracking sessions. These are my go-to tracking headphones, period.",
+        content_es: "Entra en cualquier estudio profesional del mundo y encontrarás DT 770 Pros colgando junto a la consola. El diseño cerrado proporciona excelente aislamiento — el clic y la mezcla de respaldo se quedan en tus auriculares, sin sangrar en el micrófono. La versión de 250 Ohm revela un detalle increíble, lo que ayuda a los intérpretes a ofrecer mejores tomas porque pueden escucharse claramente. Las almohadillas de velour se mantienen cómodas durante sesiones de grabación maratonianas. Estos son mis auriculares de referencia para grabación, punto.",
+        products: [23]
+      },
+      {
+        heading: "The Budget Backup: Sony MDR-7506",
+        heading_es: "El Respaldo Económico: Sony MDR-7506",
+        content: "Every studio needs multiple pairs of tracking headphones for band sessions. The MDR-7506 is the perfect second (third, fourth) pair. At $99, you can afford to have several sets ready for full band tracking. They isolate well, fold flat for storage, and their forward midrange actually helps vocalists with pitch — they can hear themselves clearly over a dense backing track. I keep four pairs in my studio and they've survived years of use and abuse.",
+        content_es: "Cada estudio necesita múltiples pares de auriculares de grabación para sesiones de banda. Los MDR-7506 son el segundo (tercer, cuarto) par perfecto. A $99, puedes permitirte tener varios sets listos para grabar bandas completas. Aíslan bien, se pliegan planos para almacenamiento, y su rango medio frontal realmente ayuda a los vocalistas con el tono — pueden escucharse claramente sobre una pista de respaldo densa. Tengo cuatro pares en mi estudio y han sobrevivido años de uso y abuso.",
+        products: [26]
+      }
+    ],
+    conclusion: "The DT 770 Pro is the professional's choice for tracking — buy one pair for yourself. The MDR-7506 is the smart choice for building a headphone collection for multi-musician sessions — buy several. Together, they cover every tracking scenario from solo vocal sessions to full band live-off-the-floor recordings.",
+    conclusion_es: "El DT 770 Pro es la elección del profesional para grabación — compra un par para ti. El MDR-7506 es la elección inteligente para construir una colección de auriculares para sesiones con múltiples músicos — compra varios. Juntos, cubren cada escenario de grabación, desde sesiones vocales en solitario hasta grabaciones de banda completa en vivo.",
+    verdict: "DT 770 Pro for you, MDR-7506 for the band",
+    verdict_es: "DT 770 Pro para ti, MDR-7506 para la banda",
+    featuredProducts: [23, 26]
+  },
+  {
+    id: "budget-monitors",
+    title: "Best Budget Studio Monitors Under $500 (2026)",
+    title_es: "Mejores Monitores de Estudio Económicos Menos de $500 (2026)",
+    category: "monitors",
+    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "You don't need $5,000 monitors to make great mixes. What you need are monitors you trust — speakers that tell you the truth about your low end, your midrange balance, and your stereo image. After mixing on everything from budget nearfields to mastering-grade mains, here are the two pairs under $500 that I genuinely recommend.",
+    intro_es: "No necesitas monitores de $5,000 para hacer grandes mezclas. Lo que necesitas son monitores en los que confíes — altavoces que te digan la verdad sobre tus graves, tu balance de medios y tu imagen estéreo. Después de mezclar en todo, desde nearfields económicos hasta monitores principales de grado masterización, aquí están los dos pares de menos de $500 que genuinamente recomiendo.",
+    sections: [
+      {
+        heading: "Best Under $500: KRK Rokit 7 G4",
+        heading_es: "Mejor Menos de $500: KRK Rokit 7 G4",
+        content: "The KRK Rokit 7 G4 is the best-selling studio monitor for home producers, and the fourth generation is the best yet. The Kevlar drivers deliver clear, punchy mids, the front-firing bass port works well in small rooms, and — crucially — the built-in DSP EQ with LCD screen lets you tune the speakers to compensate for your room. No other monitor at this price gives you this much control. The bass is generous, so learn its character and check your mixes on other systems. For $498 a pair, these are unbeatable value for bedroom producers and project studios.",
+        content_es: "El KRK Rokit 7 G4 es el monitor de estudio más vendido para productores caseros, y la cuarta generación es la mejor hasta ahora. Los drivers de Kevlar ofrecen medios claros y contundentes, el puerto de graves frontal funciona bien en habitaciones pequeñas, y — crucialmente — el ecualizador DSP incorporado con pantalla LCD te permite ajustar los altavoces para compensar tu sala. Ningún otro monitor a este precio te da tanto control. Los graves son generosos, así que aprende su carácter y revisa tus mezclas en otros sistemas. Por $498 el par, estos son valor inmejorable para productores de dormitorio y estudios de proyecto.",
+        products: [20]
+      },
+      {
+        heading: "The Honest Upgrade: Yamaha HS8",
+        heading_es: "La Actualización Honesta: Yamaha HS8",
+        content: "At $698 a pair, the Yamaha HS8 stretches past our $500 budget — but hear me out. The HS8 is the modern successor to the legendary NS-10, the most iconic studio monitor in history. They're brutally honest in a way the KRKs aren't — if your mix sounds good on HS8s, it sounds good everywhere. The 8-inch woofer delivers genuine low-end extension down to 38Hz without a subwoofer. Save up for these if you can. The extra $200 buys you a level of translation accuracy that the KRKs can't quite match, and that confidence in your monitoring is worth every penny.",
+        content_es: "A $698 el par, los Yamaha HS8 se estiran más allá de nuestro presupuesto de $500 — pero escúchame. Los HS8 son el sucesor moderno de los legendarios NS-10, los monitores de estudio más icónicos de la historia. Son brutalmente honestos de una manera que los KRK no lo son — si tu mezcla suena bien en los HS8, suena bien en todas partes. El woofer de 8 pulgadas ofrece extensión genuina de graves hasta 38Hz sin subwoofer. Ahorra para estos si puedes. Los $200 extra te compran un nivel de precisión de traducción que los KRK no pueden igualar del todo, y esa confianza en tu monitoreo vale cada centavo.",
+        products: [19]
+      }
+    ],
+    conclusion: "The KRK Rokit 7 G4 is the best monitor under $500, period — DSP room correction, solid bass, and a proven track record. If you can stretch to $698, the Yamaha HS8 gives you the brutal honesty that legendary mixes are made on. Either will dramatically improve your mixing compared to headphones or consumer speakers. Learn them well.",
+    conclusion_es: "El KRK Rokit 7 G4 es el mejor monitor por menos de $500, punto — corrección de sala DSP, graves sólidos y un historial probado. Si puedes estirarte a $698, el Yamaha HS8 te da la honestidad brutal sobre la que se hacen mezclas legendarias. Cualquiera mejorará dramáticamente tu mezcla en comparación con auriculares o altavoces de consumo. Conócelos bien.",
+    verdict: "KRK Rokit 7 under $500, Yamaha HS8 if you can stretch",
+    verdict_es: "KRK Rokit 7 por menos de $500, Yamaha HS8 si puedes estirarte",
+    featuredProducts: [20, 19]
+  },
+  {
+    id: "pro-monitors",
+    title: "Best High-End Studio Monitors (2026)",
+    title_es: "Mejores Monitores de Estudio de Alta Gama (2026)",
+    category: "monitors",
+    image: "https://images.unsplash.com/photo-1460724098662-8e5df8b1a0c8?w=600&h=400&fit=crop",
+    badge: "premium",
+    intro: "When you're ready to invest in monitoring that reveals every detail in your mix — the kind of detail that separates good mixes from great ones — high-end monitors are the answer. I've mixed on everything from $200 budget speakers to $20,000 mastering mains. Here are the two high-end monitors that deliver genuinely world-class performance without requiring a second mortgage.",
+    intro_es: "Cuando estás listo para invertir en monitoreo que revela cada detalle en tu mezcla — el tipo de detalle que separa las buenas mezclas de las grandes — los monitores de alta gama son la respuesta. He mezclado en todo, desde altavoces económicos de $200 hasta monitores principales de masterización de $20,000. Aquí están los dos monitores de alta gama que ofrecen rendimiento genuinamente de clase mundial sin requerir una segunda hipoteca.",
+    sections: [
+      {
+        heading: "The Detail King: Adam Audio A7V",
+        heading_es: "El Rey del Detalle: Adam Audio A7V",
+        content: "The Adam Audio A7V features a folded-ribbon tweeter — the S-ART design — that moves air like an accordion rather than pushing it like a dome. The result is transient response so fast you can hear the exact attack of every drum hit, the precise pick of every guitar string. Stereo imaging is holographic. I mixed a track on these and immediately heard three things I needed to fix that my previous monitors had smoothed over. The 7-inch woofer with tuned bass reflex port extends surprisingly deep. At $799 each, these are a serious investment, but they're the kind of monitor that makes you a better engineer.",
+        content_es: "El Adam Audio A7V presenta un tweeter de cinta plegada — el diseño S-ART — que mueve el aire como un acordeón en lugar de empujarlo como un domo. El resultado es una respuesta transitoria tan rápida que puedes escuchar el ataque exacto de cada golpe de batería, la púa precisa de cada cuerda de guitarra. La imagen estéreo es holográfica. Mezclé una pista en estos e inmediatamente escuché tres cosas que necesitaba arreglar que mis monitores anteriores habían suavizado. El woofer de 7 pulgadas con puerto bass reflex sintonizado se extiende sorprendentemente profundo. A $799 cada uno, son una inversión seria, pero son el tipo de monitor que te hace un mejor ingeniero.",
+        products: [21]
+      },
+      {
+        heading: "The Finnish Masterpiece: Genelec 8040B",
+        heading_es: "La Obra Maestra Finlandesa: Genelec 8040B",
+        content: "Genelec is the standard in professional studios worldwide, and the 8040B is their sweet spot. The aluminium Minimum Diffraction Enclosure eliminates cabinet coloration, while the Directivity Control Waveguide creates a massive sweet spot — you don't need to lock your head in a vice to hear the stereo image. The 6.5-inch woofer delivers tight, accurate bass down to 41Hz, and the room response controls let you compensate for desk reflections and wall proximity. These are monitors you buy once and use for a career. Finnish precision engineering at its absolute finest.",
+        content_es: "Genelec es el estándar en estudios profesionales de todo el mundo, y la 8040B es su punto dulce. El recinto de aluminio de Mínima Difracción elimina la coloración del gabinete, mientras que la Guía de Onda de Control de Directividad crea un punto dulce masivo — no necesitas bloquear tu cabeza en un tornillo de banco para escuchar la imagen estéreo. El woofer de 6.5 pulgadas ofrece graves ajustados y precisos hasta 41Hz, y los controles de respuesta de sala te permiten compensar reflexiones de escritorio y proximidad a paredes. Estos son monitores que compras una vez y usas durante toda tu carrera. Ingeniería de precisión finlandesa en su máxima expresión.",
+        products: [22]
+      }
+    ],
+    conclusion: "The Adam A7V gives you the fastest transient response in its class — perfect for engineers who obsess over detail. The Genelec 8040B gives you the most accurate, room-adaptable monitoring in a compact package — the choice of professionals worldwide. Both represent genuine high-end monitoring that will elevate your mixing for years to come.",
+    conclusion_es: "El Adam A7V te da la respuesta transitoria más rápida en su clase — perfecto para ingenieros que obsesionan con el detalle. El Genelec 8040B te da el monitoreo más preciso y adaptable a la sala en un paquete compacto — la elección de profesionales en todo el mundo. Ambos representan monitoreo de alta gama genuino que elevará tu mezcla durante años.",
+    verdict: "Adam A7V for detail, Genelec 8040B for accuracy",
+    verdict_es: "Adam A7V para detalle, Genelec 8040B para precisión",
+    featuredProducts: [21, 22]
+  },
+  {
+    id: "monitor-setup",
+    title: "Best Monitor Setup & Room Calibration (2026)",
+    title_es: "Mejor Configuración de Monitores y Calibración de Sala (2026)",
+    category: "monitors",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "Great monitors in a bad room sound worse than decent monitors set up correctly. Monitor placement, stands, and basic room treatment matter more than the difference between a $500 and a $2,000 monitor. Here's how to get your monitoring right, with the gear that makes the biggest difference.",
+    intro_es: "Grandes monitores en una mala habitación suenan peor que monitores decentes configurados correctamente. La colocación de los monitores, los soportes y el tratamiento básico de la sala importan más que la diferencia entre un monitor de $500 y uno de $2,000. Aquí está cómo configurar bien tu monitoreo, con el equipo que marca la mayor diferencia.",
+    sections: [
+      {
+        heading: "Start with Great Monitors: Yamaha HS8",
+        heading_es: "Empieza con Grandes Monitores: Yamaha HS8",
+        content: "The Yamaha HS8 is the ideal centerpiece for a serious monitoring setup. Its brutally honest frequency response means you'll hear exactly what needs fixing in your room — and in your mixes. The room control switches (low cut, high trim, mid EQ) give you a starting point for compensating for placement issues. The 8-inch woofer provides enough bass extension that you can hear problem frequencies below 40Hz. Start here, then build your room around these monitors, not the other way around.",
+        content_es: "El Yamaha HS8 es la pieza central ideal para una configuración de monitoreo seria. Su respuesta de frecuencia brutalmente honesta significa que escucharás exactamente lo que necesita arreglarse en tu sala — y en tus mezclas. Los interruptores de control de sala (corte de graves, ajuste de agudos, ecualizador de medios) te dan un punto de partida para compensar problemas de colocación. El woofer de 8 pulgadas proporciona suficiente extensión de graves para que puedas escuchar frecuencias problemáticas por debajo de 40Hz. Empieza aquí, luego construye tu sala alrededor de estos monitores, no al revés.",
+        products: [19]
+      },
+      {
+        heading: "Get Them Off Your Desk: K&M Monitor Stands",
+        heading_es: "Sácalos de Tu Escritorio: Soportes de Monitor K&M",
+        content: "Putting monitors on your desk is the single most common mixing mistake. Your desk vibrates, creating resonances that muddy your low end. Desk reflections comb-filter your midrange. The solution? Proper monitor stands. The K&M 26725 stands are German-engineered steel, height-adjustable to get tweeters exactly at ear level, and include floor spikes that mechanically decouple the speaker from the floor — tightening your bass response dramatically. At $89 a pair, monitor stands are the cheapest upgrade that makes the biggest difference. This is not optional.",
+        content_es: "Poner monitores en tu escritorio es el error de mezcla más común. Tu escritorio vibra, creando resonancias que embarran tus graves. Las reflexiones del escritorio filtran en peine tus medios. ¿La solución? Soportes de monitor adecuados. Los soportes K&M 26725 son de acero con ingeniería alemana, ajustables en altura para poner los tweeters exactamente al nivel del oído, e incluyen puntas de piso que desacoplan mecánicamente el altavoz del suelo — ajustando dramáticamente tu respuesta de graves. A $89 el par, los soportes de monitor son la mejora más barata que marca la mayor diferencia. Esto no es opcional.",
+        products: [48]
+      }
+    ],
+    conclusion: "Spend $698 on Yamaha HS8s and $89 on K&M stands. That's $787 total for a monitoring setup that will reveal more about your mixes than $3,000 monitors sitting on a desk. The stands matter almost as much as the speakers — don't skip them. Once your monitors are properly positioned, you can hear what your room actually sounds like and make informed treatment decisions.",
+    conclusion_es: "Gasta $698 en Yamaha HS8 y $89 en soportes K&M. Eso es $787 en total por una configuración de monitoreo que revelará más sobre tus mezclas que monitores de $3,000 colocados en un escritorio. Los soportes importan casi tanto como los altavoces — no los omitas. Una vez que tus monitores están correctamente posicionados, puedes escuchar cómo suena realmente tu sala y tomar decisiones informadas de tratamiento.",
+    verdict: "HS8 + K&M stands = monitoring truth",
+    verdict_es: "HS8 + soportes K&M = verdad en el monitoreo",
+    featuredProducts: [19, 48]
+  },
+  {
+    id: "synth-plugins",
+    title: "Best Synth & Instrument Plugins (2026)",
+    title_es: "Mejores Plugins de Sintetizador e Instrumentos (2026)",
+    category: "plugins",
+    image: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "Software instruments have reached a point where they rival — and in some cases surpass — their hardware counterparts. The flexibility, recall, and cost savings are undeniable. Here are my top picks for synth and instrument plugins, from a legendary wavetable synth to a hardware keyboard that bridges both worlds.",
+    intro_es: "Los instrumentos de software han llegado a un punto donde rivalizan — y en algunos casos superan — a sus contrapartes de hardware. La flexibilidad, la capacidad de recuperar configuraciones y el ahorro de costos son innegables. Aquí están mis principales selecciones de plugins de sintetizador e instrumentos, desde un legendario sintetizador de tabla de ondas hasta un teclado de hardware que une ambos mundos.",
+    sections: [
+      {
+        heading: "The Wavetable Revolution: Xfer Serum 2",
+        heading_es: "La Revolución de Tabla de Ondas: Xfer Serum 2",
+        content: "Serum 2 is not an update — it's a reimagining. Five oscillator types including granular and spectral resynthesis, a rebuilt modulation engine, and the same intuitive visual workflow that made Serum the most beloved soft synth of the last decade. I've used Serum on everything from pop leads to cinematic sound design. The wavetable editor lets you import any audio and turn it into a playable instrument. At $249 with free lifetime updates, it's the best value in synthesis, full stop.",
+        content_es: "Serum 2 no es una actualización — es una reinvención. Cinco tipos de oscilador incluyendo síntesis granular y resíntesis espectral, un motor de modulación reconstruido y el mismo flujo de trabajo visual intuitivo que hizo de Serum el sintetizador de software más querido de la última década. He usado Serum en todo, desde leads pop hasta diseño de sonido cinematográfico. El editor de tabla de ondas te permite importar cualquier audio y convertirlo en un instrumento reproducible. A $249 con actualizaciones gratuitas de por vida, es el mejor valor en síntesis, punto.",
+        products: [27]
+      },
+      {
+        heading: "Hardware That Inspires: Nord Stage 4 88",
+        heading_es: "Hardware Que Inspira: Nord Stage 4 88",
+        content: "The Nord Stage 4 88 isn't a plugin — it's a flagship stage keyboard that belongs in this conversation because it represents what software still can't replicate: the immediacy of dedicated hardware. Triple Sensor keybed, seamless transitions between piano, organ, and synth engines, and Nord's legendary build quality. When I need to write without looking at a screen, the Nord is where I go. The sounds are so good they've become the reference that plugin developers try to match. At $4,999, it's a professional investment — but one that inspires every time you touch it.",
+        content_es: "El Nord Stage 4 88 no es un plugin — es un teclado de escenario insignia que pertenece a esta conversación porque representa lo que el software aún no puede replicar: la inmediatez del hardware dedicado. Teclado Triple Sensor, transiciones perfectas entre motores de piano, órgano y sintetizador, y la legendaria calidad de construcción de Nord. Cuando necesito escribir sin mirar una pantalla, el Nord es a donde voy. Los sonidos son tan buenos que se han convertido en la referencia que los desarrolladores de plugins intentan igualar. A $4,999, es una inversión profesional — pero una que inspira cada vez que la tocas.",
+        products: [11]
+      }
+    ],
+    conclusion: "Serum 2 is the soft synth every producer should own — versatile, affordable, and inspiring. The Nord Stage 4 88 is the hardware companion for when you need to step away from the screen and connect physically with an instrument. Together, software and hardware give you the best of both worlds: unlimited sound design and immediate musical expression.",
+    conclusion_es: "Serum 2 es el sintetizador de software que todo productor debería tener — versátil, asequible e inspirador. El Nord Stage 4 88 es el compañero de hardware para cuando necesitas alejarte de la pantalla y conectar físicamente con un instrumento. Juntos, software y hardware te dan lo mejor de ambos mundos: diseño de sonido ilimitado y expresión musical inmediata.",
+    verdict: "Serum 2 for software, Nord Stage 4 for hardware",
+    verdict_es: "Serum 2 para software, Nord Stage 4 para hardware",
+    featuredProducts: [27, 11]
+  },
+  {
+    id: "mixing-plugins",
+    title: "Best Mixing & Mastering Plugins (2026)",
+    title_es: "Mejores Plugins de Mezcla y Masterización (2026)",
+    category: "plugins",
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop",
+    badge: "topQuality",
+    intro: "Mixing and mastering plugins are the tools that turn good recordings into professional releases. After 20+ years of mixing, these are the three plugins I reach for in every session — the ones that genuinely make a difference to the final product.",
+    intro_es: "Los plugins de mezcla y masterización son las herramientas que convierten buenas grabaciones en lanzamientos profesionales. Después de más de 20 años mezclando, estos son los tres plugins que uso en cada sesión — los que genuinamente marcan la diferencia en el producto final.",
+    sections: [
+      {
+        heading: "Mastering Made Accessible: iZotope Ozone 12 Advanced",
+        heading_es: "Masterización Hecha Accesible: iZotope Ozone 12 Advanced",
+        content: "Ozone 12 Advanced changed my relationship with mastering. The AI-powered Master Assistant listens to your track and builds a custom processing chain — EQ, compression, stereo imaging, limiting — tailored to your genre. From there, you can tweak every module manually. The new Stem EQ lets you shape individual elements (vocals, drums, bass) within the master bus, which is borderline sorcery. The Clarity module removes muddiness with surgical precision. At $499, it's the most powerful mastering suite available to home producers.",
+        content_es: "Ozone 12 Advanced cambió mi relación con la masterización. El Asistente de Masterización impulsado por IA escucha tu pista y construye una cadena de procesamiento personalizada — EQ, compresión, imagen estéreo, limitación — adaptada a tu género. A partir de ahí, puedes ajustar cada módulo manualmente. El nuevo Stem EQ te permite dar forma a elementos individuales (voces, batería, bajo) dentro del bus maestro, lo que es casi brujería. El módulo Clarity elimina la confusión con precisión quirúrgica. A $499, es la suite de masterización más potente disponible para productores caseros.",
+        products: [30]
+      },
+      {
+        heading: "The Only Mixing Bundle You Need: FabFilter Total Bundle",
+        heading_es: "El Único Bundle de Mezcla Que Necesitas: FabFilter Total Bundle",
+        content: "The FabFilter Total Bundle is the best investment I've made in audio software. Pro-Q 4 is the only EQ I use — the spectral display, dynamic bands, and interface are perfection. Pro-C 3 handles every compression task from transparent leveling to aggressive punch. Pro-L 2 is the cleanest limiter in the business. Saturn 2 adds saturation and warmth, Timeless 3 does delay, Volcano 3 handles filtering. Every plugin in this bundle is best-in-class. At $1,069, it's expensive, but it's the last mixing bundle you'll ever buy.",
+        content_es: "El FabFilter Total Bundle es la mejor inversión que he hecho en software de audio. Pro-Q 4 es el único ecualizador que uso — la pantalla espectral, las bandas dinámicas y la interfaz son perfección. Pro-C 3 maneja cada tarea de compresión, desde nivelación transparente hasta pegada agresiva. Pro-L 2 es el limitador más limpio del mercado. Saturn 2 añade saturación y calidez, Timeless 3 hace delay, Volcano 3 maneja filtrado. Cada plugin en este bundle es el mejor en su clase. A $1,069, es caro, pero es el último bundle de mezcla que comprarás.",
+        products: [29]
+      },
+      {
+        heading: "The Sound Library: Native Instruments Kontakt 7",
+        heading_es: "La Biblioteca de Sonidos: Native Instruments Kontakt 7",
+        content: "Kontakt 7 is the industry-standard sampler platform, and for good reason. Over 900 instruments in the factory library alone, with third-party libraries numbering in the thousands. From orchestral strings by Orchestral Tools to vintage synthesizers to world instruments, if a sound exists, there's probably a Kontakt library for it. The new browser makes finding sounds fast, and the revamped effects section means you can shape sounds without leaving Kontakt. For producers who need access to every instrument imaginable, Kontakt 7 is essential infrastructure.",
+        content_es: "Kontakt 7 es la plataforma de sampler estándar de la industria, y por buenas razones. Más de 900 instrumentos solo en la biblioteca de fábrica, con bibliotecas de terceros que se cuentan por miles. Desde cuerdas orquestales de Orchestral Tools hasta sintetizadores vintage e instrumentos del mundo, si un sonido existe, probablemente haya una biblioteca de Kontakt para él. El nuevo navegador hace que encontrar sonidos sea rápido, y la sección de efectos renovada significa que puedes dar forma a los sonidos sin salir de Kontakt. Para productores que necesitan acceso a cada instrumento imaginable, Kontakt 7 es infraestructura esencial.",
+        products: [28]
+      }
+    ],
+    conclusion: "Start with Ozone 12 Advanced for mastering that sounds professional out of the gate. Add the FabFilter Total Bundle for mixing tools that are genuinely best-in-class. Include Kontakt 7 when you need a universe of sounds at your fingertips. These three together form a complete mixing and production ecosystem that can handle any project.",
+    conclusion_es: "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio. Añade el FabFilter Total Bundle para herramientas de mezcla que son genuinamente las mejores en su clase. Incluye Kontakt 7 cuando necesites un universo de sonidos al alcance de tus dedos. Estos tres juntos forman un ecosistema completo de mezcla y producción que puede manejar cualquier proyecto.",
+    verdict: "FabFilter Total Bundle is worth every penny",
+    verdict_es: "FabFilter Total Bundle vale cada centavo",
+    featuredProducts: [30, 29, 28]
+  },
+  {
+    id: "fx-plugins",
+    title: "Best Creative Effects Plugins (2026)",
+    title_es: "Mejores Plugins de Efectos Creativos (2026)",
+    category: "plugins",
+    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "Effects are where mixes come alive. The right reverb places a sound in space. The right delay creates movement and depth. The right saturation adds warmth and character. Here are the two effect plugins that have earned permanent spots in my mix template.",
+    intro_es: "Los efectos son donde las mezclas cobran vida. El reverb correcto coloca un sonido en el espacio. El delay correcto crea movimiento y profundidad. La saturación correcta añade calidez y carácter. Aquí están los dos plugins de efectos que se han ganado lugares permanentes en mi plantilla de mezcla.",
+    sections: [
+      {
+        heading: "The $50 Miracle: ValhallaDSP ValhallaRoom",
+        heading_es: "El Milagro de $50: ValhallaDSP ValhallaRoom",
+        content: "ValhallaRoom is the best $50 you'll ever spend on audio software. Twelve reverb algorithms — from tight ambiences and drum rooms to vast, modulated halls — all with that rich, musical character that Valhalla is famous for. I use it on every vocal, every snare, every synth pad. It sits in a mix without getting in the way, adding space and dimension without calling attention to itself. The interface is deceptively simple: three color-coded modes (Early, Late, Both) and a handful of musically-named parameters. At $50, there's literally no reason not to own this. It sounds like reverbs costing ten times as much.",
+        content_es: "ValhallaRoom son los mejores $50 que gastarás en software de audio. Doce algoritmos de reverb — desde ambientes ajustados y salas de batería hasta vastos halls modulados — todos con ese carácter rico y musical por el que Valhalla es famoso. Lo uso en cada voz, cada caja, cada pad de sintetizador. Se asienta en una mezcla sin estorbar, añadiendo espacio y dimensión sin llamar la atención. La interfaz es engañosamente simple: tres modos codificados por colores (Early, Late, Both) y un puñado de parámetros con nombres musicales. A $50, literalmente no hay razón para no tener esto. Suena como reverbs que cuestan diez veces más.",
+        products: [31]
+      },
+      {
+        heading: "The Creative Arsenal: Soundtoys 5.5 Bundle",
+        heading_es: "El Arsenal Creativo: Soundtoys 5.5 Bundle",
+        content: "Soundtoys is where you go when you want to break the rules. Decapitator is my secret weapon for adding analog warmth, grit, and harmonic saturation to anything — vocals, drums, bass, the entire mix bus. EchoBoy is the most musical delay plugin ever made, modeling everything from pristine digital delays to warped tape echoes. Little AlterBoy transforms vocals with formant shifting and pitch manipulation. The new SuperPlate reverb and SpaceBlender spatial effects add modern dimensions. Effect Rack lets you chain them all together in one plugin. At $599 for 23 effects, it's the most creative bundle in the plugin world.",
+        content_es: "Soundtoys es a donde vas cuando quieres romper las reglas. Decapitator es mi arma secreta para añadir calidez analógica, textura y saturación armónica a cualquier cosa — voces, batería, bajo, el bus de mezcla completo. EchoBoy es el plugin de delay más musical jamás creado, modelando desde delays digitales impecables hasta ecos de cinta deformados. Little AlterBoy transforma voces con desplazamiento de formantes y manipulación de tono. El nuevo reverb SuperPlate y los efectos espaciales SpaceBlender añaden dimensiones modernas. Effect Rack te permite encadenarlos todos en un solo plugin. A $599 por 23 efectos, es el bundle más creativo en el mundo de los plugins.",
+        products: [32]
+      }
+    ],
+    conclusion: "Buy ValhallaRoom today — at $50 it's a no-brainer and you'll use it on every project forever. Save up for the Soundtoys 5.5 Bundle when you're ready to unlock creative effects that add character, movement, and personality to your productions. These two cover every effect need from subtle spatial enhancement to radical sound transformation.",
+    conclusion_es: "Compra ValhallaRoom hoy — a $50 es una decisión obvia y lo usarás en cada proyecto para siempre. Ahorra para el Soundtoys 5.5 Bundle cuando estés listo para desbloquear efectos creativos que añaden carácter, movimiento y personalidad a tus producciones. Estos dos cubren cada necesidad de efectos, desde mejora espacial sutil hasta transformación radical del sonido.",
+    verdict: "ValhallaRoom for reverb, Soundtoys for everything else",
+    verdict_es: "ValhallaRoom para reverb, Soundtoys para todo lo demás",
+    featuredProducts: [31, 32]
+  },
+  {
+    id: "midi-controllers",
+    title: "Best MIDI Controllers for Studio (2026)",
+    title_es: "Mejores Controladores MIDI para Estudio (2026)",
+    category: "accessories",
+    image: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "A great MIDI controller becomes an extension of your hands. It should disappear between you and the music, letting you focus on performance instead of mousing around your DAW. Here are the controllers I trust for studio work, from keys to faders.",
+    intro_es: "Un gran controlador MIDI se convierte en una extensión de tus manos. Debe desaparecer entre tú y la música, permitiéndote concentrarte en la interpretación en lugar de hacer clics en tu DAW. Aquí están los controladores en los que confío para trabajo de estudio, desde teclas hasta faders.",
+    sections: [
+      {
+        heading: "The Flagship Workstation: Yamaha Montage M8x",
+        heading_es: "La Estación de Trabajo Insignia: Yamaha Montage M8x",
+        content: "The Yamaha Montage M8x is more than a MIDI controller — it's a complete synthesizer workstation that doubles as the ultimate studio hub. The 88-key weighted action feels like a real piano, the AN-X and FM-X engines cover every synthesis type imaginable, and the seamless DAW integration means it controls your software as naturally as its internal sounds. I've used the Montage as the centerpiece of a writing studio — play the internal sounds when inspiration strikes, then switch to controlling VSTs when it's time to track. At $4,699, it's a serious investment, but it replaces a keyboard controller, a synthesizer, and a sound module in one instrument.",
+        content_es: "El Yamaha Montage M8x es más que un controlador MIDI — es una estación de trabajo de sintetizador completa que funciona como el centro de estudio definitivo. La acción de 88 teclas con peso se siente como un piano real, los motores AN-X y FM-X cubren cada tipo de síntesis imaginable, y la integración perfecta con DAW significa que controla tu software tan naturalmente como sus sonidos internos. He usado el Montage como pieza central de un estudio de composición — toca los sonidos internos cuando llega la inspiración, luego cambia a controlar VSTs cuando es hora de grabar. A $4,699, es una inversión seria, pero reemplaza un controlador de teclado, un sintetizador y un módulo de sonido en un solo instrumento.",
+        products: [12]
+      },
+      {
+        heading: "The DAW Control Specialist: Arturia KeyLab Essential 61 MkIII",
+        heading_es: "El Especialista en Control DAW: Arturia KeyLab Essential 61 MkIII",
+        content: "For most home studio producers, the Arturia KeyLab Essential 61 MkIII is the perfect balance of price and functionality. It includes Analog Lab with thousands of professional synth and keyboard sounds, deep integration with Ableton Live, Logic, and other major DAWs, and polyphonic aftertouch — a feature usually found only on controllers costing three times as much. The 61 keys are enough for two-handed playing without taking over your desk. At $299, it's the best value in MIDI controllers for DAW-based producers.",
+        content_es: "Para la mayoría de los productores de estudio casero, el Arturia KeyLab Essential 61 MkIII es el equilibrio perfecto de precio y funcionalidad. Incluye Analog Lab con miles de sonidos profesionales de sintetizador y teclado, integración profunda con Ableton Live, Logic y otros DAWs principales, y aftertouch polifónico — una característica que normalmente solo se encuentra en controladores que cuestan tres veces más. Las 61 teclas son suficientes para tocar con ambas manos sin ocupar todo tu escritorio. A $299, es el mejor valor en controladores MIDI para productores basados en DAW.",
+        products: [13]
+      },
+      {
+        heading: "The Mix Engineer's Hands: SSL UF8",
+        heading_es: "Las Manos del Ingeniero de Mezcla: SSL UF8",
+        content: "Mixing with a mouse is slow and imprecise. The SSL UF8 puts eight motorized faders under your fingers, with the same workflow SSL has perfected over decades of building the world's best mixing consoles. Touch-sensitive faders respond instantly, the LED meters give you visual feedback, and the MCU/HUI protocol means it works with every major DAW. I can close my eyes and mix by feel — riding vocal levels, balancing drums, automating effects. It transforms mixing from a visual exercise into a musical one. At $1,199, it's a professional tool for people serious about their workflow.",
+        content_es: "Mezclar con un mouse es lento e impreciso. El SSL UF8 pone ocho faders motorizados bajo tus dedos, con el mismo flujo de trabajo que SSL ha perfeccionado durante décadas construyendo las mejores consolas de mezcla del mundo. Los faders sensibles al tacto responden instantáneamente, los medidores LED te dan retroalimentación visual, y el protocolo MCU/HUI significa que funciona con cada DAW principal. Puedo cerrar los ojos y mezclar por sensación — montando niveles vocales, balanceando baterías, automatizando efectos. Transforma la mezcla de un ejercicio visual a uno musical. A $1,199, es una herramienta profesional para personas serias sobre su flujo de trabajo.",
+        products: [42]
+      }
+    ],
+    conclusion: "The Montage M8x is the all-in-one workstation for producers who want hardware and software integration without compromise. The KeyLab Essential 61 is the smart choice for DAW-based producers on a budget. The SSL UF8 is the missing link for mix engineers who want to work with their hands instead of a mouse. Together, they cover every control surface need in a modern studio.",
+    conclusion_es: "El Montage M8x es la estación de trabajo todo en uno para productores que quieren integración de hardware y software sin compromisos. El KeyLab Essential 61 es la elección inteligente para productores basados en DAW con presupuesto limitado. El SSL UF8 es el eslabón perdido para ingenieros de mezcla que quieren trabajar con sus manos en lugar de un mouse. Juntos, cubren cada necesidad de superficie de control en un estudio moderno.",
+    verdict: "KeyLab Essential 61 for keys, SSL UF8 for mixing",
+    verdict_es: "KeyLab Essential 61 para teclas, SSL UF8 para mezcla",
+    featuredProducts: [12, 13, 42]
+  },
+  {
+    id: "studio-furniture",
+    title: "Best Studio Furniture & Setup (2026)",
+    title_es: "Mejor Mobiliario y Configuración de Estudio (2026)",
+    category: "accessories",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "Your studio environment affects your work more than you think. Bad ergonomics lead to fatigue and bad decisions. Room reflections color everything you hear. The right stands, acoustic treatment, and positioning create a space where you can trust your ears and work for hours without fatigue.",
+    intro_es: "El entorno de tu estudio afecta tu trabajo más de lo que crees. La mala ergonomía lleva a fatiga y malas decisiones. Las reflexiones de la sala colorean todo lo que escuchas. Los soportes correctos, el tratamiento acústico y el posicionamiento crean un espacio donde puedes confiar en tus oídos y trabajar durante horas sin fatiga.",
+    sections: [
+      {
+        heading: "Start with Stability: K&M Mic Stand",
+        heading_es: "Empieza con Estabilidad: Soporte de Micrófono K&M",
+        content: "The K&M 210/2 mic stand is a piece of German engineering that will outlast everything else in your studio. The zinc die-cast base keeps it planted — no slow sinking during vocal takes, no tipping when you adjust the boom. The telescopic arm extends smoothly and locks firmly. I've owned K&M stands for over 15 years and they work exactly like day one. Cheap mic stands cost you time and takes. The K&M costs $49 and pays for itself in saved frustration within the first session.",
+        content_es: "El soporte de micrófono K&M 210/2 es una pieza de ingeniería alemana que durará más que todo lo demás en tu estudio. La base de zinc fundido a presión lo mantiene firme — sin hundimiento lento durante las tomas vocales, sin vuelcos cuando ajustas el brazo. El brazo telescópico se extiende suavemente y se bloquea firmemente. He tenido soportes K&M durante más de 15 años y funcionan exactamente como el primer día. Los soportes baratos te cuestan tiempo y tomas. El K&M cuesta $49 y se paga solo en frustración ahorrada dentro de la primera sesión.",
+        products: [37]
+      },
+      {
+        heading: "Tame Your Room: Auralex Studiofoam Wedges",
+        heading_es: "Domina Tu Sala: Cuñas Acústicas Auralex Studiofoam",
+        content: "Acoustic treatment isn't optional — it's as important as your monitors. The Auralex Studiofoam Wedges (12-pack) absorb flutter echo and early reflections that smear your stereo image and muddy your low end. Place them at first reflection points — the side walls between you and your monitors, and the wall behind your listening position. At $199 for 12 panels, they're the most affordable way to dramatically improve how your room sounds. You don't need to treat every surface. Start with the critical points and add more as needed. The difference in mix translation is immediate and dramatic.",
+        content_es: "El tratamiento acústico no es opcional — es tan importante como tus monitores. Las cuñas Auralex Studiofoam (paquete de 12) absorben el eco de aleteo y las reflexiones tempranas que manchan tu imagen estéreo y embarran tus graves. Colócalas en los puntos de primera reflexión — las paredes laterales entre tú y tus monitores, y la pared detrás de tu posición de escucha. A $199 por 12 paneles, son la forma más asequible de mejorar drásticamente cómo suena tu sala. No necesitas tratar cada superficie. Empieza con los puntos críticos y añade más según sea necesario. La diferencia en la traducción de la mezcla es inmediata y dramática.",
+        products: [40]
+      },
+      {
+        heading: "Elevate Your Sound: K&M Monitor Stands",
+        heading_es: "Eleva Tu Sonido: Soportes de Monitor K&M",
+        content: "Monitor placement is the foundation of accurate mixing. The K&M 26725 stands get your speakers to ear height, mechanically decouple them from the floor, and lock them in position. The adjustable floor spikes isolate your monitors from floor-borne vibrations — your bass tightens up immediately. Height adjustability means you can set the tweeters at exactly ear level whether you're sitting or standing. At $89 a pair, these stands will improve your monitoring accuracy more than spending an extra $500 on speakers. Combined with the Auralex treatment and a solid mic stand, you've got the foundation of a professional monitoring environment.",
+        content_es: "La colocación de los monitores es la base de una mezcla precisa. Los soportes K&M 26725 ponen tus altavoces a la altura del oído, los desacoplan mecánicamente del suelo y los fijan en posición. Las puntas de piso ajustables aíslan tus monitores de las vibraciones transmitidas por el suelo — tus graves se ajustan inmediatamente. La altura ajustable significa que puedes poner los tweeters exactamente al nivel del oído ya sea sentado o de pie. A $89 el par, estos soportes mejorarán tu precisión de monitoreo más que gastar $500 extra en altavoces. Combinados con el tratamiento Auralex y un soporte de micrófono sólido, tienes la base de un entorno de monitoreo profesional.",
+        products: [48]
+      }
+    ],
+    conclusion: "Invest $337 total — $49 on a K&M mic stand, $199 on Auralex foam, and $89 on monitor stands. That's less than the price of a single premium plugin, and it will improve every recording and mix you make from this point forward. Great gear in a bad room is wasted potential. Treat your space, position your gear correctly, and your existing equipment will suddenly sound like it got a $2,000 upgrade.",
+    conclusion_es: "Invierte $337 en total — $49 en un soporte de micrófono K&M, $199 en espuma Auralex y $89 en soportes de monitor. Eso es menos que el precio de un solo plugin premium, y mejorará cada grabación y mezcla que hagas de ahora en adelante. El mejor equipo en una mala sala es potencial desperdiciado. Trata tu espacio, posiciona tu equipo correctamente, y tu equipo existente de repente sonará como si recibiera una mejora de $2,000.",
+    verdict: "Treat your room before buying more gear",
+    verdict_es: "Trata tu sala antes de comprar más equipo",
+    featuredProducts: [37, 40, 48]
   }
 ];
