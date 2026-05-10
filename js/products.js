@@ -141,7 +141,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/314ceVClNMB--taylor-314ce-v-class-grand-auditorium-acoustic-electric-guitar-natural",
-      thomann: "https://www.thomann.de/intl/taylor_314ce.htm",
+      thomann: "https://www.thomann.co.uk/taylor_314ce_next_generation.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6"
     }
   },
