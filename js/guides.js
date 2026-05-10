@@ -709,7 +709,7 @@ const guides = [
     title: "Best Closed-Back Headphones for Tracking (2026)",
     title_es: "Mejores Auriculares Cerrados para Grabación (2026)",
     category: "headphones",
-    image: "https://images.unsplash.com/photo-1507838153414-b5046f6892e3?w=600&h=400&fit=crop",
+    image: "img/tracking-headphones.jpg",
     badge: "recommended",
     intro: "When you're tracking — recording vocals, guitars, or anything with a microphone — you need headphones that keep the click track in your ears and out of the mic. Closed-back headphones with good isolation are non-negotiable. Here are the two pairs I've used on countless sessions, from bedroom recordings to professional tracking dates.",
     intro_es: "Cuando estás grabando — voces, guitarras o cualquier cosa con un micrófono — necesitas auriculares que mantengan el clic en tus oídos y fuera del micrófono. Los auriculares cerrados con buen aislamiento no son negociables. Aquí están los dos pares que he usado en innumerables sesiones, desde grabaciones de dormitorio hasta citas profesionales de grabación.",
