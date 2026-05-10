@@ -105,7 +105,6 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StratAP2MMB--fender-american-professional-ii-stratocaster-miami-blue-with-maple-fingerboard",
-      thomann: "https://www.thomann.de/intl/fender_american_pro_ii_strat.htm",
       gear4music: "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW"
     }
   },
