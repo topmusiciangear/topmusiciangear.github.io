@@ -1947,3 +1947,6 @@ header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-
 
 @media (max-width: 768px) {
 }
+
+html[lang="en"] .lang-show-es { display: none; }
+html[lang="es"] .lang-show-en { display: none; }
