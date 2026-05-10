@@ -1760,6 +1760,11 @@ footer ul li a:hover { color: var(--accent); }
   .newsletter-form { flex-direction: column; }
   .newsletter-form button { width: 100%; }
   footer { padding: 40px 16px 20px; }
+  .footer-grid { gap: 20px; justify-content: center; }
+  .footer-col { min-width: auto; flex: 1; min-width: 90px; }
+  footer h3 { font-size: 11px; }
+  footer ul li { margin-bottom: 5px; }
+  footer ul li a { font-size: 11px; }
   .sort-bar .result-count { margin-left: 0; width: 100%; }
 }
 
