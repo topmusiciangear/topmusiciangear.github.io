@@ -49,7 +49,7 @@ const products = [
     desc_es: "El micrófono de condensador de estudio más silencioso del mundo. Calidad de audio impecable con un carácter cálido y suave. Incluye soporte antigolpes y filtro antipop.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/235937.jpg",
     stores: {
-      thomann: "https://www.thomann.de/intl/rode_nt1_a.htm",
+      thomann: "https://www.thomann.co.uk/rode_nt1a_complete_vocal_recording.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
