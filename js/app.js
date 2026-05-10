@@ -27,7 +27,7 @@ function setLang(lang) {
     renderGuideGrid();
   }
   renderAbout();
-  renderAudioMini();
+  updateAudioLabel();
   renderMySetup();
   updateLangSwitcher();
 }
@@ -295,6 +295,12 @@ function renderAudioMini() {
     const a = document.querySelector('#audioMini audio, #audioMiniMobile audio');
     if (a) a.play().catch(() => {});
   }, 500);
+}
+
+function updateAudioLabel() {
+  document.querySelectorAll('.audio-mini-label').forEach(el => {
+    el.textContent = t("audioLabel");
+  });
 }
 
 function renderMySetup() {
