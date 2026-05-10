@@ -1003,5 +1003,261 @@ const guides = [
     verdict: "Treat your room before buying more gear",
     verdict_es: "Trata tu sala antes de comprar más equipo",
     featuredProducts: [37, 40, 48]
+  },
+
+  {
+    id: "tube-ribbon-mics",
+    title: "Best Ribbon & Tube Microphones (2026)",
+    title_es: "Mejores Micrófonos de Cinta y Tubo (2026)",
+    category: "microphones",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&h=400&fit=crop",
+    badge: "premium",
+    intro: "There's a reason engineers still chase ribbon and tube microphones decades after their invention. Ribbons capture sound with a silky, natural quality that condensers can't touch. Tube mics add harmonic richness that makes vocals glow. I've recorded through vintage RCA ribbons and modern tube designs at Abbey Road — the difference is real. These are the ribbon and tube mics worth your money in 2026.",
+    intro_es: "Hay una razón por la que los ingenieros aún persiguen micrófonos de cinta y tubo décadas después de su invención. Las cintas capturan el sonido con una calidad sedosa y natural que los condensadores no pueden tocar. Los micrófonos de tubo añaden riqueza armónica que hace brillar las voces. He grabado a través de cintas RCA vintage y diseños modernos de tubo en Abbey Road — la diferencia es real. Estos son los micrófonos de cinta y tubo que valen tu dinero en 2026.",
+    sections: [
+      {
+        heading: "The Modern Classic: Neumann U 87 Ai",
+        heading_es: "El Clásico Moderno: Neumann U 87 Ai",
+        content: "The U 87 Ai is the reference condenser that every tube and ribbon mic gets compared to — and for good reason. Its transformer-balanced output and three polar patterns deliver that unmistakable Neumann presence. I tracked vocals through a vintage U 87 at Abbey Road and the weight and dimension it captured made the performance feel three-dimensional. If you want tube-like richness without vintage maintenance headaches, the U 87 Ai delivers that euphonic saturation every engineer chases. At $3,599, it's an heirloom purchase.",
+        content_es: "El U 87 Ai es el condensador de referencia con el que se compara cada micrófono de tubo y cinta — y con buena razón. Su salida balanceada por transformador y tres patrones polares ofrecen esa presencia Neumann inconfundible. Grabé voces a través de un U 87 vintage en Abbey Road y el peso y dimensión que capturó hicieron que la interpretación se sintiera tridimensional. Si quieres riqueza tipo tubo sin los dolores de cabeza del mantenimiento vintage, el U 87 Ai ofrece esa saturación eufónica que cada ingeniero persigue. A $3,599, es una compra de herencia.",
+        products: [2]
+      },
+      {
+        heading: "The Versatile Transformer: AKG C414 XLII",
+        heading_es: "El Transformador Versátil: AKG C414 XLII",
+        content: "The C414 XLII bridges the gap between modern condenser precision and vintage warmth. Its nine polar patterns — including figure-8, essential for ribbon-style techniques like mid-side recording — give it unmatched versatility. The transformer-coupled output stage imparts subtle harmonic saturation reminiscent of classic ribbon designs. Five pad and three filter settings make it adaptable to any source. I've used the C414 on drum overheads where ribbon mics would be too dark, but it still delivers that smooth, unhyped top end that defines the ribbon aesthetic.",
+        content_es: "El C414 XLII une la brecha entre la precisión moderna de condensador y la calidez vintage. Sus nueve patrones polares — incluyendo figura-8, esencial para técnicas estilo cinta como grabación mid-side — le dan versatilidad inigualable. La etapa de salida acoplada por transformador imparte saturación armónica sutil que recuerda a los diseños clásicos de cinta. Cinco ajustes de pad y tres de filtro lo hacen adaptable a cualquier fuente. He usado el C414 en overheads de batería donde los micrófonos de cinta serían demasiado oscuros, pero aún ofrece ese extremo superior suave y sin exageración que define la estética de cinta.",
+        products: [4]
+      }
+    ],
+    conclusion: "The Neumann U 87 Ai gives you that legendary vocal presence with transformer warmth that evokes the best tube designs. The AKG C414 XLII is the versatile workhorse that can mimic ribbon techniques through its figure-8 polar pattern while handling sources that would overload a real ribbon. Both represent the modern evolution of vintage microphone character.",
+    conclusion_es: "El Neumann U 87 Ai te da esa presencia vocal legendaria con calidez de transformador que evoca los mejores diseños de tubo. El AKG C414 XLII es el caballo de batalla versátil que puede imitar técnicas de cinta a través de su patrón polar figura-8 mientras maneja fuentes que sobrecargarían una cinta real. Ambos representan la evolución moderna del carácter de micrófono vintage.",
+    verdict: "U 87 Ai for vocals, C414 for ribbon flexibility",
+    verdict_es: "U 87 Ai para voces, C414 para flexibilidad de cinta",
+    featuredProducts: [2, 4]
+  },
+  {
+    id: "guitar-pedals",
+    title: "Best Guitar Pedals & Effects (2026)",
+    title_es: "Mejores Pedales y Efectos de Guitarra (2026)",
+    category: "strings",
+    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "The right pedal doesn't just change your sound — it changes how you play. Half of iconic guitar tones are the guitar itself; the other half is what you put between it and the amp. I've built pedalboards for Broadway pits, Glastonbury stages, and studio sessions, and I've learned that pedals matter as much as the instrument. Here's how the right guitar and pedal approach transforms your sound.",
+    intro_es: "El pedal correcto no solo cambia tu sonido — cambia cómo tocas. La mitad de los tonos icónicos de guitarra es la guitarra misma; la otra mitad es lo que pones entre ella y el amplificador. He construido pedalboards para fosos de Broadway, escenarios de Glastonbury y sesiones de estudio, y he aprendido que los pedales importan tanto como el instrumento. Así es como el enfoque correcto de guitarra y pedal transforma tu sonido.",
+    sections: [
+      {
+        heading: "The Pedal Platform: Fender Stratocaster",
+        heading_es: "La Plataforma de Pedales: Fender Stratocaster",
+        content: "The Fender Stratocaster is the ultimate pedal platform guitar. Single-coil pickups respond to every nuance — compression brings out the quack, overdrive pushes the bell-like highs into singing sustain, modulation effects swirl through the clear frequency spectrum without turning to mud. I've run Strats through every pedal imaginable and the result is always the same: the guitar's inherent clarity lets each effect speak. If you're building a pedal collection, start with a Strat. It reveals what your pedals actually sound like.",
+        content_es: "La Fender Stratocaster es la plataforma de pedales definitiva. Las pastillas de bobina simple responden a cada matiz — la compresión resalta el quack, el overdrive empuja los agudos acampanados hacia sustain cantarín, los efectos de modulación se arremolinan a través del espectro de frecuencias claro sin convertirse en barro. He pasado Strats por cada pedal imaginable y el resultado es siempre el mismo: la claridad inherente de la guitarra deja que cada efecto hable. Si estás construyendo una colección de pedales, empieza con una Strat. Revela cómo suenan realmente tus pedales.",
+        products: [6]
+      },
+      {
+        heading: "The Saturated Canvas: Gibson Les Paul",
+        heading_es: "El Lienzo Saturado: Gibson Les Paul",
+        content: "The Gibson Les Paul with its humbuckers treats pedals differently. Overdrives and fuzzes bloom into thick, harmonic-rich distortion that single-coils can't replicate. Where a Strat demands clarity from effects, a Les Paul demands character — it pushes delays into darker repeats, reverbs into denser atmospheres, and modulation into chewier textures. The Burstbucker pickups in the Standard '60s were literally designed to interact with classic pedal circuits. For rock, blues, and anything that needs weight, the Les Paul through a good pedal chain is unstoppable.",
+        content_es: "La Gibson Les Paul con sus humbuckers trata los pedales de manera diferente. Los overdrives y fuzzes florecen en distorsión gruesa y rica en armónicos que las bobinas simples no pueden replicar. Donde una Strat exige claridad de los efectos, una Les Paul exige carácter — empuja los delays hacia repeticiones más oscuras, los reverbs hacia atmósferas más densas y la modulación hacia texturas más masticables. Las pastillas Burstbucker en la Standard '60s fueron literalmente diseñadas para interactuar con circuitos de pedales clásicos. Para rock, blues y cualquier cosa que necesite peso, la Les Paul a través de una buena cadena de pedales es imparable.",
+        products: [7]
+      }
+    ],
+    conclusion: "Your guitar is the first pedal in your chain — it shapes how every effect after it responds. The Fender Stratocaster gives you a clean, articulate canvas where effects speak with clarity. The Gibson Les Paul gives you a rich, saturated canvas where effects gain weight and dimension. Build your pedalboard around your guitar's character, not the other way around.",
+    conclusion_es: "Tu guitarra es el primer pedal en tu cadena — da forma a cómo responde cada efecto después de ella. La Fender Stratocaster te da un lienzo limpio y articulado donde los efectos hablan con claridad. La Gibson Les Paul te da un lienzo rico y saturado donde los efectos ganan peso y dimensión. Construye tu pedalboard alrededor del carácter de tu guitarra, no al revés.",
+    verdict: "Strat for pedal clarity, Les Paul for pedal character",
+    verdict_es: "Strat para claridad de pedales, Les Paul para carácter de pedales",
+    featuredProducts: [6, 7]
+  },
+  {
+    id: "pro-interfaces",
+    title: "Best High-End Audio Interfaces (2026)",
+    title_es: "Mejores Interfaces de Audio de Alta Gama (2026)",
+    category: "interfaces",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    badge: "premium",
+    intro: "When you graduate from entry-level interfaces, you enter a world where conversion quality, clocking precision, and preamp character become audible differences — not just spec sheet numbers. I've tracked through consumer interfaces and $10,000 converters, and the jump to high-end is real. Here are the two interfaces that deliver professional studio quality without entering mortgage territory.",
+    intro_es: "Cuando te gradúas de las interfaces de nivel básico, entras a un mundo donde la calidad de conversión, la precisión de reloj y el carácter del preamplificador se convierten en diferencias audibles — no solo números de hoja de especificaciones. He grabado a través de interfaces de consumo y convertidores de $10,000, y el salto a la alta gama es real. Aquí están las dos interfaces que ofrecen calidad de estudio profesional sin entrar en territorio de hipoteca.",
+    sections: [
+      {
+        heading: "The DSP Powerhouse: Universal Audio Apollo Twin X",
+        heading_es: "La Potencia DSP: Universal Audio Apollo Twin X",
+        content: "The Apollo Twin X is what I use in my personal studio. Real-time UAD DSP processing lets you track through emulations of vintage Neve preamps, LA-2A compressors, Pultec EQs, and EMT reverbs with near-zero latency. The Unison preamp technology physically changes impedance to match the hardware being modeled — it's not just an EQ curve, it's the actual analog behavior. The Apollo ecosystem includes over 200 UAD plugins that run on the interface's DSP, offloading your computer. For serious projects, this is the interface pros choose for home studios.",
+        content_es: "La Apollo Twin X es lo que uso en mi estudio personal. El procesamiento DSP UAD en tiempo real te permite grabar a través de emulaciones de preamplificadores Neve vintage, compresores LA-2A, ecualizadores Pultec y reverbs EMT con latencia casi nula. La tecnología de preamplificador Unison cambia físicamente la impedancia para igualar el hardware que se modela — no es solo una curva de ecualización, es el comportamiento analógico real. El ecosistema Apollo incluye más de 200 plugins UAD que se ejecutan en el DSP de la interfaz. Para proyectos serios, esta es la interfaz que los profesionales eligen para estudios caseros.",
+        products: [16]
+      },
+      {
+        heading: "The Swiss Watch: RME Babyface Pro FS",
+        heading_es: "El Reloj Suizo: RME Babyface Pro FS",
+        content: "RME doesn't chase marketing trends — they engineer for professionals who cannot afford a single glitch in a paid session. The Babyface Pro FS is their portable flagship, and its SteadyClock FS jitter suppression is the industry benchmark. The TotalMix FX software is a full digital mixer with per-channel EQ, dynamics, and reverb running on the interface's FPGA — zero latency, zero CPU load. The drivers are so stable that RME interfaces from 2001 still work on modern operating systems. If absolute reliability and pristine conversion are your priority, RME is the gold standard.",
+        content_es: "RME no persigue tendencias de marketing — diseñan para profesionales que no pueden permitirse un solo fallo en una sesión pagada. La Babyface Pro FS es su insignia portátil, y su supresión de jitter SteadyClock FS es el referente de la industria. El software TotalMix FX es un mezclador digital completo con ecualización, dinámicas y reverb por canal ejecutándose en el FPGA de la interfaz — latencia cero, carga de CPU cero. Los drivers son tan estables que las interfaces RME de 2001 todavía funcionan en sistemas operativos modernos. Si la fiabilidad absoluta y la conversión impecable son tu prioridad, RME es el estándar de oro.",
+        products: [17]
+      }
+    ],
+    conclusion: "The Apollo Twin X is for producers and engineers who want track-through effects and legendary analog sound in real time. The Babyface Pro FS is for professionals who demand the lowest latency, the most stable drivers, and the most transparent conversion in the industry. Both are lifetime purchases that will outlast multiple computer upgrades — you buy these once.",
+    conclusion_es: "La Apollo Twin X es para productores e ingenieros que quieren efectos en tiempo de grabación y sonido analógico legendario en tiempo real. La Babyface Pro FS es para profesionales que exigen la latencia más baja, los drivers más estables y la conversión más transparente de la industria. Ambas son compras de por vida que sobrevivirán a múltiples actualizaciones de computadora — las compras una vez.",
+    verdict: "Apollo Twin X for DSP, Babyface Pro FS for drivers",
+    verdict_es: "Apollo Twin X para DSP, Babyface Pro FS para drivers",
+    featuredProducts: [16, 17]
+  },
+  {
+    id: "wireless-headphones",
+    title: "Best Wireless Studio Headphones (2026)",
+    title_es: "Mejores Auriculares Inalámbricos de Estudio (2026)",
+    category: "headphones",
+    image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "Wireless headphones have come a long way, but the studio world has been slow to adopt them — and for good reason. Latency, compression artifacts, and unreliable connections can sabotage a session. However, for casual monitoring, reference checks, and producer comfort during long sessions, the right wireless setup has a place. Here's my honest take on wireless for studio work, built around two wired legends that teach you what accurate monitoring sounds like.",
+    intro_es: "Los auriculares inalámbricos han avanzado mucho, pero el mundo del estudio ha sido lento en adoptarlos — y con buena razón. La latencia, los artefactos de compresión y las conexiones poco fiables pueden sabotear una sesión. Sin embargo, para monitoreo casual, verificaciones de referencia y comodidad del productor durante sesiones largas, la configuración inalámbrica correcta tiene su lugar. Aquí está mi opinión honesta sobre inalámbricos para trabajo de estudio, construida alrededor de dos leyendas con cable que te enseñan cómo suena el monitoreo preciso.",
+    sections: [
+      {
+        heading: "Know Your Reference: Audio-Technica ATH-M50x",
+        heading_es: "Conoce Tu Referencia: Audio-Technica ATH-M50x",
+        content: "Before you go wireless, you need a wired reference that tells you the unvarnished truth. The ATH-M50x is the world's best-selling studio headphone because its 45mm drivers deliver clarity, punch, and detail that translate reliably to speakers and car stereos. Use these for critical mixing decisions and learn exactly how they sound. Then, when you switch to wireless cans for comfort or convenience, you'll immediately hear what the wireless connection is adding or subtracting from the signal. Every producer should own a wired reference pair first.",
+        content_es: "Antes de volverte inalámbrico, necesitas una referencia con cable que te diga la verdad sin barniz. Los ATH-M50x son los auriculares de estudio más vendidos del mundo porque sus drivers de 45mm ofrecen claridad, pegada y detalle que se traducen confiablemente a altavoces y estéreos de auto. Úsalos para decisiones críticas de mezcla y aprende exactamente cómo suenan. Luego, cuando cambies a auriculares inalámbricos por comodidad o conveniencia, escucharás inmediatamente lo que la conexión inalámbrica está añadiendo o restando de la señal. Todo productor debería tener un par de referencia con cable primero.",
+        products: [25]
+      },
+      {
+        heading: "The Broadcast Truth: Sony MDR-7506",
+        heading_es: "La Verdad de Transmisión: Sony MDR-7506",
+        content: "The MDR-7506 has been the broadcast standard since 1991, and for good reason — its forward midrange reveals flaws that other headphones smooth over. When you're evaluating whether a wireless headphone is studio-usable, A/B it against the MDR-7506. If the wireless pair masks mouth noises, softens transient attacks, or adds a bass hump, you'll hear it instantly. At $99, the MDR-7506 is the cheapest lie detector in audio. I use it to calibrate my ears before judging any monitoring system — wireless or otherwise. The truth is wired, and this is where you find it.",
+        content_es: "Los MDR-7506 han sido el estándar de transmisión desde 1991, y con buena razón — su rango medio frontal revela defectos que otros auriculares suavizan. Cuando estás evaluando si un auricular inalámbrico es utilizable en estudio, compáralo con los MDR-7506. Si el par inalámbrico enmascara ruidos de boca, suaviza los ataques transitorios o añade un bulto en los graves, lo escucharás instantáneamente. A $99, los MDR-7506 son el detector de mentiras más barato en audio. Los uso para calibrar mis oídos antes de juzgar cualquier sistema de monitoreo — inalámbrico o no. La verdad tiene cable, y aquí es donde la encuentras.",
+        products: [26]
+      }
+    ],
+    conclusion: "My honest recommendation: master wired monitoring first. Own the ATH-M50x for all-purpose studio work and the MDR-7506 as your brutal truth reference. Only then explore wireless as a convenience tool for casual listening and comfort. The best wireless headphones in the world can't teach you what accurate monitoring sounds like — but these two wired legends will.",
+    conclusion_es: "Mi recomendación honesta: domina el monitoreo con cable primero. Ten los ATH-M50x para trabajo de estudio general y los MDR-7506 como tu referencia de verdad brutal. Solo entonces explora los inalámbricos como herramienta de conveniencia para escucha casual y comodidad. Los mejores auriculares inalámbricos del mundo no pueden enseñarte cómo suena el monitoreo preciso — pero estas dos leyendas con cable sí lo harán.",
+    verdict: "Learn wired monitoring before going wireless",
+    verdict_es: "Aprende monitoreo con cable antes de volverte inalámbrico",
+    featuredProducts: [25, 26]
+  },
+  {
+    id: "studio-subwoofers",
+    title: "Best Subwoofers for Studio (2026)",
+    title_es: "Mejores Subwoofers para Estudio (2026)",
+    category: "monitors",
+    image: "https://images.unsplash.com/photo-1460724098662-8e5df8b1a0c8?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "If you're mixing bass-heavy music — hip-hop, EDM, trap, film scoring — you need to hear what's happening below 40Hz. Nearfield monitors, even great ones, roll off where sub-bass lives. A proper subwoofer extends your monitoring into the frequencies that move people physically. Here's how to add low-end truth to your studio, built on monitors I already trust.",
+    intro_es: "Si estás mezclando música con graves pesados — hip-hop, EDM, trap, bandas sonoras — necesitas escuchar lo que sucede por debajo de 40Hz. Los monitores nearfield, incluso los buenos, se atenúan donde vive el sub-bass. Un subwoofer adecuado extiende tu monitoreo hacia las frecuencias que mueven a la gente físicamente. Aquí está cómo añadir verdad en los graves a tu estudio, construido sobre monitores en los que ya confío.",
+    sections: [
+      {
+        heading: "The Full-Range Foundation: KRK Rokit 7 G4",
+        heading_es: "La Base de Rango Completo: KRK Rokit 7 G4",
+        content: "The KRK Rokit 7 G4 is the ideal nearfield to pair with a subwoofer. Its Kevlar driver already delivers generous bass down to 42Hz, and the built-in DSP EQ lets you high-pass the monitors when you add a sub — creating a seamless crossover between the Rokit's mid-bass punch and the sub's deep extension. The front-firing bass port reduces wall coupling issues that make sub integration harder. I recommend starting with the KRK Rokit 7 for its flexible DSP, then adding a matched sub when you're ready to feel your low end, not just hear it.",
+        content_es: "El KRK Rokit 7 G4 es el nearfield ideal para emparejar con un subwoofer. Su driver de Kevlar ya ofrece graves generosos hasta 42Hz, y el ecualizador DSP incorporado te permite filtrar en paso alto los monitores cuando añades un sub — creando un cruce perfecto entre el golpe de medios-graves del Rokit y la extensión profunda del sub. El puerto de graves frontal reduce los problemas de acoplamiento con la pared que dificultan la integración del sub. Recomiendo empezar con el KRK Rokit 7 por su DSP flexible, luego añadir un sub emparejado cuando estés listo para sentir tus graves, no solo escucharlos.",
+        products: [20]
+      },
+      {
+        heading: "The Honest Monitor: Yamaha HS8",
+        heading_es: "El Monitor Honesto: Yamaha HS8",
+        content: "The Yamaha HS8 reaches down to 38Hz on its own — lower than many monitors with a cheap sub. Its brutally honest frequency response means when you add a subwoofer, you'll hear exactly what the sub is contributing: no flattery, no hype, just the truth about your low end. The HS8's room control switches help you compensate for room modes that subwoofers inevitably excite. I mix sub-heavy projects on HS8s first, get the mid-bass relationship right, then switch on the sub only for final low-end decisions. The HS8s keep you honest; the sub lets you verify what's happening in the basement.",
+        content_es: "El Yamaha HS8 alcanza hasta 38Hz por sí mismo — más bajo que muchos monitores con un sub barato. Su respuesta de frecuencia brutalmente honesta significa que cuando añadas un subwoofer, escucharás exactamente lo que el sub está contribuyendo: sin adulación, sin exageración, solo la verdad sobre tus graves. Los interruptores de control de sala del HS8 te ayudan a compensar los modos de sala que los subwoofers inevitablemente excitan. Mezclo proyectos con graves pesados en HS8s primero, ajusto la relación de medios-graves, luego enciendo el sub solo para decisiones finales de baja frecuencia. Los HS8s te mantienen honesto; el sub te permite verificar lo que sucede en el sótano.",
+        products: [19]
+      }
+    ],
+    conclusion: "The KRK Rokit 7 G4 with its DSP flexibility is the easiest monitor to integrate with a subwoofer — the built-in crossover options make setup foolproof. The Yamaha HS8 gives you enough low-end extension that you may not even need a sub for most genres, and its brutal honesty ensures your sub decisions are accurate. Either approach will give you the low-end truth your mixes deserve.",
+    conclusion_es: "El KRK Rokit 7 G4 con su flexibilidad DSP es el monitor más fácil de integrar con un subwoofer — las opciones de cruce incorporadas hacen la configuración infalible. El Yamaha HS8 te da suficiente extensión de graves que quizás ni siquiera necesites un sub para la mayoría de los géneros, y su honestidad brutal asegura que tus decisiones de sub sean precisas. Cualquiera de los dos enfoques te dará la verdad en los graves que tus mezclas merecen.",
+    verdict: "Start with full-range monitors before adding a sub",
+    verdict_es: "Empieza con monitores de rango completo antes de añadir un sub",
+    featuredProducts: [20, 19]
+  },
+  {
+    id: "channel-strip-plugins",
+    title: "Best Channel Strip & Console Emulation Plugins (2026)",
+    title_es: "Mejores Plugins de Channel Strip y Emulación de Consola (2026)",
+    category: "plugins",
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop",
+    badge: "topQuality",
+    intro: "Channel strip plugins recreate the signal path of classic recording consoles — the exact chain of EQ, compression, gating, and saturation that gave vintage records their sound. After spending years working on real SSL and Neve consoles, I've learned what makes channel strips special. These two plugins bring that console magic into your DAW with stunning accuracy.",
+    intro_es: "Los plugins de channel strip recrean la ruta de señal de las consolas de grabación clásicas — la cadena exacta de ecualización, compresión, puerta y saturación que dio a los discos vintage su sonido. Después de pasar años trabajando en consolas reales SSL y Neve, he aprendido qué hace especiales a los channel strips. Estos dos plugins traen esa magia de consola a tu DAW con una precisión impresionante.",
+    sections: [
+      {
+        heading: "The Console Legend: Waves SSL G-Master Buss Compressor",
+        heading_es: "La Leyenda de Consola: Waves SSL G-Master Buss Compressor",
+        content: "The SSL G-Master Buss Compressor isn't just a plugin — it's the sound of a million hit records. Modeled from the legendary SSL 4000 G series console's master buss compressor, this plugin delivers that unmistakable glue that makes mixes sound like records. The famous auto-release setting, the punchy VCA-style compression curve, and the way it makes drums snap and vocals sit in the pocket — I've used the hardware and the plugin holds up shockingly well. Put it on your mix buss, set the ratio to 2:1 or 4:1, aim for 4dB of gain reduction, and hear your mix come together. It's the closest thing to mixing on a real SSL without the $500,000 console.",
+        content_es: "El Waves SSL G-Master Buss Compressor no es solo un plugin — es el sonido de un millón de discos exitosos. Modelado del legendario compresor de bus maestro de la consola SSL 4000 serie G, este plugin ofrece ese pegamento inconfundible que hace que las mezclas suenen como discos. El famoso ajuste de auto-release, la curva de compresión estilo VCA con pegada, y la forma en que hace que las baterías chasqueen y las voces se asienten en el pocket — he usado el hardware y el plugin se mantiene sorprendentemente bien. Ponlo en tu bus de mezcla, ajusta el ratio a 2:1 o 4:1, apunta a 4dB de reducción de ganancia, y escucha cómo tu mezcla se une. Es lo más cercano a mezclar en una SSL real sin la consola de $500,000.",
+        products: [29]
+      },
+      {
+        heading: "The Surgical Precision: FabFilter Pro-Q 4",
+        heading_es: "La Precisión Quirúrgica: FabFilter Pro-Q 4",
+        content: "While the SSL G-Master brings console color, the FabFilter Pro-Q 4 brings surgical precision. Modern channel strips need dynamic EQ — the ability to apply EQ only when a frequency gets too loud — and Pro-Q 4 does it better than anything else. The spectral display shows you exactly what's happening in real time. Build a channel strip by combining Pro-Q 4 for surgical EQ with a console emulation for character, and you have the best of both worlds: modern precision and vintage vibe. Pro-Q 4's dynamic bands can tame harsh vocal frequencies, control boomy bass notes, and manage cymbal brightness — all without coloring the signal when it's behaving.",
+        content_es: "Mientras que el SSL G-Master trae color de consola, el FabFilter Pro-Q 4 trae precisión quirúrgica. Los channel strips modernos necesitan ecualización dinámica — la capacidad de aplicar ecualización solo cuando una frecuencia se vuelve demasiado fuerte — y Pro-Q 4 lo hace mejor que nada más. La pantalla espectral te muestra exactamente lo que está sucediendo en tiempo real. Construye un channel strip combinando Pro-Q 4 para ecualización quirúrgica con una emulación de consola para carácter, y tienes lo mejor de ambos mundos: precisión moderna y vibra vintage. Las bandas dinámicas de Pro-Q 4 pueden domar frecuencias vocales ásperas, controlar notas de bajo retumbantes y manejar el brillo de platillos — todo sin colorear la señal cuando se está comportando.",
+        products: [28]
+      }
+    ],
+    conclusion: "The Waves SSL G-Master Buss Compressor gives you the glue and punch of the world's most famous console — the sound that defined modern mixing. The FabFilter Pro-Q 4 gives you the surgical precision to fix problems before they reach your console emulation. Together, they form a hybrid channel strip that combines vintage character with modern clarity. Use both on every mix.",
+    conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo — el sonido que definió la mezcla moderna. El FabFilter Pro-Q 4 te da la precisión quirúrgica para arreglar problemas antes de que lleguen a tu emulación de consola. Juntos, forman un channel strip híbrido que combina carácter vintage con claridad moderna. Usa ambos en cada mezcla.",
+    verdict: "SSL G-Master for glue, Pro-Q 4 for precision",
+    verdict_es: "SSL G-Master para pegamento, Pro-Q 4 para precisión",
+    featuredProducts: [29, 28]
+  },
+  {
+    id: "cable-management",
+    title: "Best Cable Management & Studio Power (2026)",
+    title_es: "Mejor Gestión de Cables y Alimentación de Estudio (2026)",
+    category: "accessories",
+    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
+    badge: "bestSeller",
+    intro: "Bad cables are the silent killers of good recordings. A single compromised cable adds noise, loses high frequencies, and fails at the worst possible moment — during the perfect take. After replacing cheap cables mid-session more times than I can count, I settled on one brand for everything. Here's how to wire your studio right the first time.",
+    intro_es: "Los cables malos son los asesinos silenciosos de las buenas grabaciones. Un solo cable comprometido añade ruido, pierde frecuencias altas y falla en el peor momento posible — durante la toma perfecta. Después de reemplazar cables baratos a mitad de sesión más veces de las que puedo contar, me decidí por una marca para todo. Aquí está cómo cablear tu estudio bien desde la primera vez.",
+    sections: [
+      {
+        heading: "Your Signal Chain's Backbone: Mogami Gold Instrument Cable",
+        heading_es: "La Columna Vertebral de Tu Cadena de Señal: Cable de Instrumento Mogami Gold",
+        content: "Your guitar tone travels through a wire before it reaches anything else — make that wire count. The Mogami Gold Instrument Cable uses ultra-low capacitance conductors (22pF/ft) that preserve every harmonic from your pickups to your amp or interface. Cheaper cables roll off high frequencies — you lose sparkle, articulation, and the harmonic complexity that makes your instrument sound like itself. The carbon-impregnated PVC shield eliminates handling noise, and the Neutrik connectors grip securely. I've used the same Mogami instrument cable on tour for years — it costs more than a budget cable but you buy it once.",
+        content_es: "Tu tono de guitarra viaja a través de un cable antes de llegar a cualquier otra cosa — haz que ese cable cuente. El cable de instrumento Mogami Gold usa conductores de capacitancia ultra baja (22pF/ft) que preservan cada armónico desde tus pastillas hasta tu amplificador o interfaz. Los cables más baratos atenúan las frecuencias altas — pierdes brillo, articulación y la complejidad armónica que hace que tu instrumento suene como él mismo. El blindaje de PVC impregnado de carbono elimina el ruido de manejo, y los conectores Neutrik agarran de forma segura. He usado el mismo cable de instrumento Mogami en gira durante años — cuesta más que un cable económico pero lo compras una vez.",
+        products: [44]
+      },
+      {
+        heading: "Clean Signal from Mic to Interface: Mogami Gold Studio XLR",
+        heading_es: "Señal Limpia del Micrófono a la Interfaz: Mogami Gold Studio XLR",
+        content: "Every microphone you own — from a $99 SM57 to a $3,599 U 87 Ai — is only as good as the XLR cable carrying its signal. The Mogami Gold Studio XLR uses Neglex OFC (oxygen-free copper) conductors and a double-spiral shield that rejects electromagnetic interference. REAN Neutrik connectors make solid, quiet connections every time. In a side-by-side test against budget XLR cables, the Mogami delivers lower noise floor, better high-frequency extension, and zero handling noise when you move the mic. For critical recording chains — vocals, acoustic instruments, drum overheads — this is the only XLR cable I trust.",
+        content_es: "Cada micrófono que posees — desde un SM57 de $99 hasta un U 87 Ai de $3,599 — es tan bueno como el cable XLR que lleva su señal. El Mogami Gold Studio XLR usa conductores Neglex OFC (cobre libre de oxígeno) y un blindaje de doble espiral que rechaza la interferencia electromagnética. Los conectores REAN Neutrik hacen conexiones sólidas y silenciosas cada vez. En una prueba comparativa contra cables XLR económicos, el Mogami ofrece un piso de ruido más bajo, mejor extensión de altas frecuencias y cero ruido de manejo al mover el micrófono. Para cadenas de grabación críticas — voces, instrumentos acústicos, overheads de batería — este es el único cable XLR en el que confío.",
+        products: [38]
+      }
+    ],
+    conclusion: "Wire your studio with Mogami Gold cables — instrument cables for your guitars and line-level connections, XLR cables for your microphones. These are the same cables used in Abbey Road, Skywalker Sound, and every major studio on earth. They cost more upfront but they will outlast your current interface, your current monitors, and probably your current career phase. Buy right, buy once.",
+    conclusion_es: "Cablea tu estudio con cables Mogami Gold — cables de instrumento para tus guitarras y conexiones de línea, cables XLR para tus micrófonos. Estos son los mismos cables usados en Abbey Road, Skywalker Sound y todos los estudios importantes del mundo. Cuestan más al principio pero sobrevivirán a tu interfaz actual, tus monitores actuales y probablemente a tu fase actual de carrera. Compra bien, compra una vez.",
+    verdict: "Mogami Gold — the last cables you'll ever buy",
+    verdict_es: "Mogami Gold — los últimos cables que comprarás",
+    featuredProducts: [44, 38]
+  },
+  {
+    id: "studio-stands",
+    title: "Best Studio Stands & Mounts (2026)",
+    title_es: "Mejores Soportes y Monturas de Estudio (2026)",
+    category: "accessories",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    badge: "recommended",
+    intro: "Every piece of gear in your studio depends on what's holding it up. A wobbly mic stand ruins takes. Monitors on a desk lie to you about your low end. A loose mic clip drops your investment onto the floor. After decades on stage and in the studio, I've learned that quality stands and mounts are the cheapest insurance policy in audio. Here's what I trust to hold my gear.",
+    intro_es: "Cada pieza de equipo en tu estudio depende de lo que la sostiene. Un soporte de micrófono tambaleante arruina tomas. Los monitores en un escritorio te mienten sobre tus graves. Un clip de micrófono suelto deja caer tu inversión al suelo. Después de décadas en el escenario y en el estudio, he aprendido que los soportes y monturas de calidad son la póliza de seguro más barata en audio. Esto es en lo que confío para sostener mi equipo.",
+    sections: [
+      {
+        heading: "The Foundation: K&M 210/2 Mic Stand",
+        heading_es: "La Base: Soporte de Micrófono K&M 210/2",
+        content: "The K&M 210/2 is a piece of German engineering that will outlast everything else in your studio. The zinc die-cast base keeps it planted — no slow sinking during vocal takes, no tipping when you adjust the boom arm. The telescopic arm extends smoothly from 35 to 62 inches and locks firmly with a single clutch. I've owned K&M stands for over 15 years and they work exactly like day one. Cheap mic stands cost you time and takes. The K&M costs $49 and pays for itself in saved frustration within the first session. Every studio needs at least two.",
+        content_es: "El K&M 210/2 es una pieza de ingeniería alemana que durará más que todo lo demás en tu estudio. La base de zinc fundido a presión lo mantiene firme — sin hundimiento lento durante las tomas vocales, sin vuelcos cuando ajustas el brazo. El brazo telescópico se extiende suavemente de 89 a 157 cm y se bloquea firmemente con un solo embrague. He tenido soportes K&M durante más de 15 años y funcionan exactamente como el primer día. Los soportes baratos te cuestan tiempo y tomas. El K&M cuesta $49 y se paga solo en frustración ahorrada en la primera sesión. Cada estudio necesita al menos dos.",
+        products: [37]
+      },
+      {
+        heading: "Elevate Your Monitors: K&M 26725 Monitor Stands",
+        heading_es: "Eleva Tus Monitores: Soportes de Monitor K&M 26725",
+        content: "Desk-mounting your studio monitors is the single most common mixing mistake I see. Your desk vibrates, creating resonances that muddy your low end. Desk reflections comb-filter your midrange in ways no EQ can fix. The K&M 26725 monitor stands are German-engineered steel, height-adjustable to get tweeters exactly at ear level, and include floor spikes that mechanically decouple the speaker from the floor. At $89 a pair, these stands will improve your monitoring accuracy more than spending an extra $500 on speakers. Set them up at an equilateral triangle with your listening position and hear your stereo image snap into focus.",
+        content_es: "Montar tus monitores de estudio en el escritorio es el error de mezcla más común que veo. Tu escritorio vibra, creando resonancias que embarran tus graves. Las reflexiones del escritorio filtran en peine tus medios de formas que ningún ecualizador puede arreglar. Los soportes de monitor K&M 26725 son de acero con ingeniería alemana, ajustables en altura para poner los tweeters exactamente al nivel del oído, e incluyen puntas de piso que desacoplan mecánicamente el altavoz del suelo. A $89 el par, estos soportes mejorarán tu precisión de monitoreo más que gastar $500 extra en altavoces. Colócalos en un triángulo equilátero con tu posición de escucha y escucha cómo tu imagen estéreo se enfoca.",
+        products: [48]
+      },
+      {
+        heading: "The Unbreakable Grip: Shure A25D Mic Clip",
+        heading_es: "El Agarre Irrompible: Clip de Micrófono Shure A25D",
+        content: "The Shure A25D mic clip is the unsung hero of every live show and studio session. Designed for SM57 and SM58 microphones, its break-resistant construction grips the mic body like a vise — no twisting, no sagging, no dropping your mic mid-performance. The 5/8-inch threading fits every standard mic stand. I keep extras in my cable bag because you always need one more. At $15, it's the cheapest insurance against a $100+ microphone hitting the deck. For other mics, Shure makes compatible clips for every body size, but the A25D is the one you'll use most because SM57s and SM58s are everywhere.",
+        content_es: "El clip de micrófono Shure A25D es el héroe anónimo de cada show en vivo y sesión de estudio. Diseñado para micrófonos SM57 y SM58, su construcción resistente a roturas agarra el cuerpo del micrófono como un tornillo de banco — sin torsiones, sin hundimiento, sin dejar caer tu micrófono a mitad de la interpretación. La rosca de 5/8 de pulgada se adapta a cada soporte de micrófono estándar. Tengo extras en mi bolsa de cables porque siempre necesitas uno más. A $15, es el seguro más barato contra un micrófono de $100+ golpeando el suelo. Para otros micrófonos, Shure fabrica clips compatibles para cada tamaño de cuerpo, pero el A25D es el que más usarás porque los SM57 y SM58 están en todas partes.",
+        products: [43]
+      }
+    ],
+    conclusion: "Invest $153 total — $49 on a K&M mic stand, $89 on K&M monitor stands, and $15 on a Shure mic clip. That's less than most premium plugins, and it will protect your microphones, improve your monitoring accuracy, and eliminate frustrating equipment failures. Quality stands and mounts are the foundation of a professional studio. Skip them at your peril.",
+    conclusion_es: "Invierte $153 en total — $49 en un soporte de micrófono K&M, $89 en soportes de monitor K&M y $15 en un clip de micrófono Shure. Eso es menos que la mayoría de los plugins premium, y protegerá tus micrófonos, mejorará tu precisión de monitoreo y eliminará fallos frustrantes del equipo. Los soportes y monturas de calidad son la base de un estudio profesional. Omitelos bajo tu propio riesgo.",
+    verdict: "K&M stands + Shure clips = rock-solid studio",
+    verdict_es: "Soportes K&M + clips Shure = estudio sólido como roca",
+    featuredProducts: [37, 48, 43]
   }
 ];
