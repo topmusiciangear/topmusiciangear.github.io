@@ -680,8 +680,7 @@ const products = [
     desc_es: "Estuche moldeado aprobado ATA con interior de espuma EPS. Herrajes de alta resistencia, pestillos empotrados y ruedas para fácil transporte.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/409664.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GK61--gator-gk-61-semi-rigid-keyboard-case",
-      gear4music: "https://www.gear4music.com/search"
+      sweetwater: "https://www.sweetwater.com/store/detail/GK61--gator-gk-61-semi-rigid-keyboard-case"
     }
   },
   {
