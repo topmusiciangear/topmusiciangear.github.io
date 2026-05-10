@@ -1339,7 +1339,13 @@ footer ul li a:hover { color: var(--accent); }
   font-family: inherit;
   cursor: pointer;
   transition: var(--transition);
-  margin-bottom: 32px;
+  margin-bottom: 12px;
+}
+
+.guide-detail .guide-card-cat {
+  display: inline-block;
+  margin-left: 12px;
+  vertical-align: middle;
 }
 
 .guide-back-btn:hover {

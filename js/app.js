@@ -247,11 +247,8 @@ function renderGuideDetail(id) {
   grid.innerHTML = `
     <div class="guide-detail">
       <button class="guide-back-btn" id="guideBackBtn"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
+      <span class="guide-card-cat">${catName}</span>
       <div class="guide-detail-header">
-        <div class="guide-detail-meta">
-          <span class="guide-card-cat">${catName}</span>
-          ${badgeText ? `<span class="guide-card-badge ${badgeClass}">${badgeText}</span>` : ""}
-        </div>
         <h1 class="guide-detail-title">${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</h1>
       </div>
       <div class="guide-detail-img"><img src="${guide.image}" alt="${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}"></div>
