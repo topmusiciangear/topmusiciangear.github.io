@@ -393,8 +393,11 @@ function handleNav(target) {
   }
   setTimeout(() => {
     const el = document.getElementById(target);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  }, 200);
+    if (el) {
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 80;
+      window.scrollTo({ top, behavior: "smooth" });
+    }
+  }, 300);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
