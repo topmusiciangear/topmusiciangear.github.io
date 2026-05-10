@@ -1881,7 +1881,6 @@ footer ul li a:hover { color: var(--accent); }
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  opacity: 0.3;
   pointer-events: none;
 }
 
@@ -1889,12 +1888,12 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: var(--bg);
+  background: rgba(0,0,0,0.6);
   z-index: 1;
   pointer-events: none;
 }
 
-header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, #disclosureModal {
+header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, #disclosureModal, body > *:not(.bg-video) {
   position: relative;
   z-index: 2;
 }
