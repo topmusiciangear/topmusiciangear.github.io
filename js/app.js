@@ -2,6 +2,7 @@ let currentLang = localStorage.getItem("lang") || "en";
 let currentCategory = "all";
 let searchQuery = "";
 let currentGuideId = null;
+let initialLoad = true;
 
 function t(key) {
   return translations[currentLang]?.[key] || translations.en[key] || key;
@@ -284,10 +285,12 @@ function renderGuideDetail(id) {
   document.getElementById("guideBackBtn").addEventListener("click", () => {
     location.hash = '';
   });
-  setTimeout(() => {
-    const el = document.getElementById("guideGrid");
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, 100);
+  if (!initialLoad) {
+    setTimeout(() => {
+      const el = document.getElementById("guideGrid");
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+  }
 }
 
 function renderAudioMini() {
@@ -369,14 +372,15 @@ function handleNavClick(target) {
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
-  window.scrollTo(0, 0);
-  setTimeout(() => window.scrollTo(0, 0), 0);
-  setTimeout(() => window.scrollTo(0, 0), 100);
-  setTimeout(() => window.scrollTo(0, 0), 300);
   initLangSwitcher();
   renderGuideCats();
-  location.hash = '';
-  renderGuideGrid();
+  const hashId = location.hash.slice(1);
+  if (hashId && guides.find(g => g.id === hashId)) {
+    renderGuideDetail(hashId);
+  } else {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    renderGuideGrid();
+  }
   renderAudioMini();
   renderMySetup();
   renderAbout();
@@ -423,4 +427,6 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideGrid();
     }
   });
+
+  initialLoad = false;
 });
