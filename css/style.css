@@ -1873,3 +1873,28 @@ footer ul li a:hover { color: var(--accent); }
 @media (max-width: 600px) {
   .guide-products-cards { grid-template-columns: 1fr; }
 }
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  z-index: 1;
+  pointer-events: none;
+}
+
+header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, #disclosureModal {
+  position: relative;
+  z-index: 2;
+}
