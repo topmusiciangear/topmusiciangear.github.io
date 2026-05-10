@@ -1410,8 +1410,8 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-detail-sections {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
   margin-bottom: 20px;
 }
 
@@ -1420,17 +1420,21 @@ footer ul li a:hover { color: var(--accent); }
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
+.guide-section-heading {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+  letter-spacing: -.3px;
+}
+
 .guide-section-content {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.7;
 }
 
-@media (max-width: 1000px) {
-  .guide-detail-sections { grid-template-columns: repeat(2, 1fr); }
-}
-
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .guide-detail-sections { grid-template-columns: 1fr; }
 }
 
