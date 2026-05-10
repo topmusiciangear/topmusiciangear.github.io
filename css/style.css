@@ -1325,6 +1325,14 @@ footer ul li a:hover { color: var(--accent); }
 .guide-card:hover .guide-card-btn { color: #60a5fa; }
 
 /* Guide Detail */
+.guide-back-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
 .guide-back-btn {
   display: inline-flex;
   align-items: center;
@@ -1339,13 +1347,7 @@ footer ul li a:hover { color: var(--accent); }
   font-family: inherit;
   cursor: pointer;
   transition: var(--transition);
-  margin-bottom: 12px;
-}
-
-.guide-detail .guide-card-cat {
-  display: inline-block;
-  margin-left: 12px;
-  vertical-align: middle;
+  white-space: nowrap;
 }
 
 .guide-back-btn:hover {
