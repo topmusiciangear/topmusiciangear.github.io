@@ -445,9 +445,9 @@ const guides = [
   {
     id: "usb-mics",
     title: "Best USB & Streaming Microphones (2026)",
-    title_es: "Mejores Micrófonos USB y de Streaming (2026)",
+    title_es: "Mejores Micrófonos USB y Streaming (2026)",
     category: "microphones",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+    image: "img/usb-mics.jpg",
     badge: "bestSeller",
     intro: "The streaming and content creation boom has changed the microphone game. Whether you're podcasting, streaming on Twitch, recording YouTube voiceovers, or jumping on Zoom calls, your mic is your voice. But here's the truth from someone who's been in audio for 20+ years: you don't need a dedicated USB mic when a proper XLR dynamic mic with an interface gives you vastly better sound for similar money. Here's what I actually recommend for streamers and content creators.",
     intro_es: "El boom del streaming y la creación de contenido ha cambiado el juego de los micrófonos. Ya sea que estés haciendo podcasting, transmitiendo en Twitch, grabando voces para YouTube o en llamadas de Zoom, tu micrófono es tu voz. Pero aquí está la verdad de alguien que lleva más de 20 años en audio: no necesitas un micrófono USB dedicado cuando un micrófono dinámico XLR adecuado con una interfaz te da un sonido mucho mejor por un costo similar. Esto es lo que realmente recomiendo para streamers y creadores de contenido.",
