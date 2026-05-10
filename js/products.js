@@ -595,8 +595,7 @@ const products = [
     desc_es: "Platillos turcos martillados a mano con tonos cálidos y complejos. Incluye hi-hats de 14 pulgadas, crashes de 16 + 18 pulgadas y ride de 20 pulgadas.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/374175.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack",
-      gear4music: "https://www.gear4music.com/search"
+      sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack"
     }
   },
   {
