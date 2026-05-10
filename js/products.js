@@ -705,7 +705,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/508557.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/UF8control--solid-state-logic-uf8-advanced-daw-controller",
-      thomann: "https://www.thomann.de/intl/ssl_uf8.htm",
+      thomann: "https://www.thomann.co.uk/ssl_uf8.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK"
     }
   },
