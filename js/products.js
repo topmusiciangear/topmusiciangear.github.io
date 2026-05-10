@@ -399,7 +399,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/311111.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/8040BPM--genelec-8040b-6.5-inch-powered-studio-monitor",
-      thomann: "https://www.thomann.de/intl/genelec_8040b_pair.htm",
+      thomann: "https://www.thomann.co.uk/genelec_8040_bpm.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
