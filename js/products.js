@@ -455,8 +455,8 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/331905.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ATHM50x--audio-technica-ath-m50x-closed-back-studio-monitoring-headphones",
-      thomann: "https://www.thomann.de/intl/audio_technica_ath_m50x.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/search.html?sw=audio-technica%20ath-m50x",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G"
     }
   },
   {
