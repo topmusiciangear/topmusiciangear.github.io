@@ -408,13 +408,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
     renderGuideGrid();
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        const el = document.getElementById("guideGrid");
-        if (el) {
-          const top = el.getBoundingClientRect().top + window.pageYOffset - 80;
-          window.scrollTo({ top, behavior: "smooth" });
-        }
-      });
+      const el = document.getElementById("guides");
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   };
 
