@@ -289,7 +289,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/571436.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
-      thomann: "https://www.thomann.de/intl/universal_audio_apollo_twin_x.htm",
+      thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_duo_gen2_ess.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
