@@ -1952,19 +1952,6 @@ header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-
   transition: box-shadow 0.3s;
 }
 
-.hero-tagline {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-muted);
-  letter-spacing: .5px;
-  text-align: center;
-  padding: 16px 0 4px;
-}
-@media (max-width: 768px) {
-  .hero-tagline { font-size: 12px; padding: 12px 16px 8px; }
-}
-
-
 @media (max-width: 768px) {
 }
 
