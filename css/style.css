@@ -1016,23 +1016,26 @@ footer {
 }
 
 .footer-grid {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
   margin-bottom: 40px;
+}
+
+footer .footer-col {
+  min-width: 140px;
 }
 
 footer h3 {
   color: var(--white);
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 14px;
 }
 
 footer ul { list-style: none; }
-footer ul li { margin-bottom: 10px; }
+footer ul li { margin-bottom: 8px; }
 
 footer ul li a {
   color: var(--text-muted);
@@ -1044,8 +1047,6 @@ footer ul li a {
 footer ul li a:hover { color: var(--accent); }
 
 .footer-bottom {
-  max-width: 1280px;
-  margin: 0 auto;
   padding-top: 24px;
   border-top: 1px solid var(--border);
   font-size: 13px;
