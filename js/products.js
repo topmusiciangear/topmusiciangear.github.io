@@ -617,7 +617,6 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/361976.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst",
-      thomann: "https://www.thomann.de/intl/tama_starclassic_walnut_birch.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
