@@ -1936,8 +1936,11 @@ header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-
   font-size: 14px;
   font-weight: 500;
   color: var(--text-muted);
-  margin-top: 16px;
+  margin-top: 24px;
   letter-spacing: .5px;
+}
+@media (max-width: 768px) {
+  .hero-tagline { display: none; }
 }
 
 .logo-tagline-mobile { display: none; }
@@ -1951,7 +1954,7 @@ header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-
     color: var(--text-muted);
     letter-spacing: .5px;
     text-transform: uppercase;
-    text-align: right;
-    padding: 0 16px 8px 0;
+    text-align: center;
+    padding: 0 16px 8px;
   }
 }
