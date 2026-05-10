@@ -395,7 +395,7 @@ const guides = [
         heading_es: "Soportes de Mic y Clips: Soporte Sólido Como Roca",
         content: "Nothing worse than a mic stand slowly sinking during a vocal take or a loose clip dropping your mic. I use K&M stands exclusively — German engineering, zinc die-cast bases, and they last decades. The 210/2 is the standard for good reason. Pair it with a Shure A25D mic clip for SM57/SM58 mics — it's break-resistant and grips the mic like a vise. For studio monitors, the K&M 26725 stands get your speakers to ear height with decoupling spikes for cleaner low end.",
         content_es: "Nada peor que un soporte de micrófono hundiéndose lentamente durante una toma vocal o un clip suelto dejando caer tu micrófono. Uso soportes K&M exclusivamente — ingeniería alemana, bases de zinc fundido a presión, y duran décadas. El 210/2 es el estándar por buenas razones. Combínalo con un clip de micrófono Shure A25D para micrófonos SM57/SM58 — es resistente a roturas y agarra el micrófono como un tornillo de banco. Para monitores de estudio, los soportes K&M 26725 ponen tus altavoces a la altura del oído con puntas de desacoplamiento para graves más limpios.",
-        products: [37, 43, 48]
+        products: [37, 43]
       },
       {
         heading: "Guitar & Bass Cases: Protect Your Instrument",
@@ -819,14 +819,14 @@ const guides = [
         heading_es: "Sácalos de Tu Escritorio: Soportes de Monitor K&M",
         content: "Putting monitors on your desk is the single most common mixing mistake. Your desk vibrates, creating resonances that muddy your low end. Desk reflections comb-filter your midrange. The solution? Proper monitor stands. The K&M 26725 stands are German-engineered steel, height-adjustable to get tweeters exactly at ear level, and include floor spikes that mechanically decouple the speaker from the floor — tightening your bass response dramatically. At $89 a pair, monitor stands are the cheapest upgrade that makes the biggest difference. This is not optional.",
         content_es: "Poner monitores en tu escritorio es el error de mezcla más común. Tu escritorio vibra, creando resonancias que embarran tus graves. Las reflexiones del escritorio filtran en peine tus medios. ¿La solución? Soportes de monitor adecuados. Los soportes K&M 26725 son de acero con ingeniería alemana, ajustables en altura para poner los tweeters exactamente al nivel del oído, e incluyen puntas de piso que desacoplan mecánicamente el altavoz del suelo — ajustando dramáticamente tu respuesta de graves. A $89 el par, los soportes de monitor son la mejora más barata que marca la mayor diferencia. Esto no es opcional.",
-        products: [48]
+        products: [37]
       }
     ],
     conclusion: "Spend $698 on Yamaha HS8s and $89 on K&M stands. That's $787 total for a monitoring setup that will reveal more about your mixes than $3,000 monitors sitting on a desk. The stands matter almost as much as the speakers — don't skip them. Once your monitors are properly positioned, you can hear what your room actually sounds like and make informed treatment decisions.",
     conclusion_es: "Gasta $698 en Yamaha HS8 y $89 en soportes K&M. Eso es $787 en total por una configuración de monitoreo que revelará más sobre tus mezclas que monitores de $3,000 colocados en un escritorio. Los soportes importan casi tanto como los altavoces — no los omitas. Una vez que tus monitores están correctamente posicionados, puedes escuchar cómo suena realmente tu sala y tomar decisiones informadas de tratamiento.",
     verdict: "HS8 + K&M stands = monitoring truth",
     verdict_es: "HS8 + soportes K&M = verdad en el monitoreo",
-    featuredProducts: [19, 48]
+    featuredProducts: [19]
   },
   {
     id: "synth-plugins",
@@ -995,14 +995,14 @@ const guides = [
         heading_es: "Eleva Tu Sonido: Soportes de Monitor K&M",
         content: "Monitor placement is the foundation of accurate mixing. The K&M 26725 stands get your speakers to ear height, mechanically decouple them from the floor, and lock them in position. The adjustable floor spikes isolate your monitors from floor-borne vibrations — your bass tightens up immediately. Height adjustability means you can set the tweeters at exactly ear level whether you're sitting or standing. At $89 a pair, these stands will improve your monitoring accuracy more than spending an extra $500 on speakers. Combined with the Auralex treatment and a solid mic stand, you've got the foundation of a professional monitoring environment.",
         content_es: "La colocación de los monitores es la base de una mezcla precisa. Los soportes K&M 26725 ponen tus altavoces a la altura del oído, los desacoplan mecánicamente del suelo y los fijan en posición. Las puntas de piso ajustables aíslan tus monitores de las vibraciones transmitidas por el suelo — tus graves se ajustan inmediatamente. La altura ajustable significa que puedes poner los tweeters exactamente al nivel del oído ya sea sentado o de pie. A $89 el par, estos soportes mejorarán tu precisión de monitoreo más que gastar $500 extra en altavoces. Combinados con el tratamiento Auralex y un soporte de micrófono sólido, tienes la base de un entorno de monitoreo profesional.",
-        products: [48]
+        products: [37]
       }
     ],
     conclusion: "Invest $337 total — $49 on a K&M mic stand, $199 on Auralex foam, and $89 on monitor stands. That's less than the price of a single premium plugin, and it will improve every recording and mix you make from this point forward. Great gear in a bad room is wasted potential. Treat your space, position your gear correctly, and your existing equipment will suddenly sound like it got a $2,000 upgrade.",
     conclusion_es: "Invierte $337 en total — $49 en un soporte de micrófono K&M, $199 en espuma Auralex y $89 en soportes de monitor. Eso es menos que el precio de un solo plugin premium, y mejorará cada grabación y mezcla que hagas de ahora en adelante. El mejor equipo en una mala sala es potencial desperdiciado. Trata tu espacio, posiciona tu equipo correctamente, y tu equipo existente de repente sonará como si recibiera una mejora de $2,000.",
     verdict: "Treat your room before buying more gear",
     verdict_es: "Trata tu sala antes de comprar más equipo",
-    featuredProducts: [37, 40, 48]
+    featuredProducts: [37, 40]
   },
 
   {
@@ -1134,7 +1134,7 @@ const guides = [
     title: "Best Subwoofers for Studio (2026)",
     title_es: "Mejores Subwoofers para Estudio (2026)",
     category: "monitors",
-    image: "https://images.unsplash.com/photo-1460724098662-8e5df8b1a0c8?w=600&h=400&fit=crop",
+    image: "img/studio-subwoofers.jpg",
     badge: "recommended",
     intro: "If you're mixing bass-heavy music — hip-hop, EDM, trap, film scoring — you need to hear what's happening below 40Hz. Nearfield monitors, even great ones, roll off where sub-bass lives. A proper subwoofer extends your monitoring into the frequencies that move people physically. Here's how to add low-end truth to your studio, built on monitors I already trust.",
     intro_es: "Si estás mezclando música con graves pesados — hip-hop, EDM, trap, bandas sonoras — necesitas escuchar lo que sucede por debajo de 40Hz. Los monitores nearfield, incluso los buenos, se atenúan donde vive el sub-bass. Un subwoofer adecuado extiende tu monitoreo hacia las frecuencias que mueven a la gente físicamente. Aquí está cómo añadir verdad en los graves a tu estudio, construido sobre monitores en los que ya confío.",
@@ -1244,7 +1244,7 @@ const guides = [
         heading_es: "Eleva Tus Monitores: Soportes de Monitor K&M 26725",
         content: "Desk-mounting your studio monitors is the single most common mixing mistake I see. Your desk vibrates, creating resonances that muddy your low end. Desk reflections comb-filter your midrange in ways no EQ can fix. The K&M 26725 monitor stands are German-engineered steel, height-adjustable to get tweeters exactly at ear level, and include floor spikes that mechanically decouple the speaker from the floor. At $89 a pair, these stands will improve your monitoring accuracy more than spending an extra $500 on speakers. Set them up at an equilateral triangle with your listening position and hear your stereo image snap into focus.",
         content_es: "Montar tus monitores de estudio en el escritorio es el error de mezcla más común que veo. Tu escritorio vibra, creando resonancias que embarran tus graves. Las reflexiones del escritorio filtran en peine tus medios de formas que ningún ecualizador puede arreglar. Los soportes de monitor K&M 26725 son de acero con ingeniería alemana, ajustables en altura para poner los tweeters exactamente al nivel del oído, e incluyen puntas de piso que desacoplan mecánicamente el altavoz del suelo. A $89 el par, estos soportes mejorarán tu precisión de monitoreo más que gastar $500 extra en altavoces. Colócalos en un triángulo equilátero con tu posición de escucha y escucha cómo tu imagen estéreo se enfoca.",
-        products: [48]
+        products: [37]
       },
       {
         heading: "The Unbreakable Grip: Shure A25D Mic Clip",
@@ -1258,6 +1258,6 @@ const guides = [
     conclusion_es: "Invierte $153 en total — $49 en un soporte de micrófono K&M, $89 en soportes de monitor K&M y $15 en un clip de micrófono Shure. Eso es menos que la mayoría de los plugins premium, y protegerá tus micrófonos, mejorará tu precisión de monitoreo y eliminará fallos frustrantes del equipo. Los soportes y monturas de calidad son la base de un estudio profesional. Omitelos bajo tu propio riesgo.",
     verdict: "K&M stands + Shure clips = rock-solid studio",
     verdict_es: "Soportes K&M + clips Shure = estudio sólido como roca",
-    featuredProducts: [37, 48, 43]
+    featuredProducts: [37, 43]
   }
 ];
