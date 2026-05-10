@@ -740,7 +740,7 @@ const guides = [
     title: "Best Budget Studio Monitors Under $500 (2026)",
     title_es: "Mejores Monitores de Estudio Económicos Menos de $500 (2026)",
     category: "monitors",
-    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
+    image: "img/budget-monitors.jpg",
     badge: "bestSeller",
     intro: "You don't need $5,000 monitors to make great mixes. What you need are monitors you trust — speakers that tell you the truth about your low end, your midrange balance, and your stereo image. After mixing on everything from budget nearfields to mastering-grade mains, here are the two pairs under $500 that I genuinely recommend.",
     intro_es: "No necesitas monitores de $5,000 para hacer grandes mezclas. Lo que necesitas son monitores en los que confíes — altavoces que te digan la verdad sobre tus graves, tu balance de medios y tu imagen estéreo. Después de mezclar en todo, desde nearfields económicos hasta monitores principales de grado masterización, aquí están los dos pares de menos de $500 que genuinamente recomiendo.",
