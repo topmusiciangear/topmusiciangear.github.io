@@ -1754,7 +1754,7 @@ footer ul li a:hover { color: var(--accent); }
 @media (max-width: 768px) {
   .guides-section,
   .my-setup,
-  .about-section { scroll-margin-top: 44px; }
+  .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
   nav { display: none; }
   .audio-mini { display: none; }
