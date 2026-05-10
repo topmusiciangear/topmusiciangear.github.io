@@ -167,6 +167,7 @@ function renderGuideGrid() {
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
   if (!grid) return;
+  grid.style.display = "";
   container.classList.remove("guide-detail-open");
   document.getElementById("guideCats").style.display = "";
   const sortBar = document.querySelector(".sort-bar");
@@ -213,6 +214,7 @@ function renderGuideDetail(id) {
   if (!guide) return;
   currentGuideId = guide.id;
   const grid = document.getElementById("guideGrid");
+  grid.style.display = "block";
   const container = document.getElementById("guideContainer");
   container.classList.add("guide-detail-open");
   document.getElementById("guideCats").style.display = "none";
