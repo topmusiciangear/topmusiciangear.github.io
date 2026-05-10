@@ -400,7 +400,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/8040BPM--genelec-8040b-6.5-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/genelec_8040_bpm.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L"
     }
   },
 
