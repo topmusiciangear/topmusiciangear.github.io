@@ -1425,8 +1425,8 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-section-products {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 20px;
   margin-top: 16px;
 }
 
@@ -1697,6 +1697,7 @@ footer ul li a:hover { color: var(--accent); }
 /* Responsive */
 @media (max-width: 1200px) {
   .guide-section-products { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .guide-product-card-img { aspect-ratio: auto; max-height: 200px; }
 }
 
 @media (max-width: 768px) {
