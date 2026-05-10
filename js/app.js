@@ -406,8 +406,9 @@ document.addEventListener("DOMContentLoaded", () => {
   window.filterCategory = function(cat) {
     currentCategory = cat;
     document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
-    document.getElementById("guides").scrollIntoView({ behavior: "smooth" });
     renderGuideGrid();
+    const guideEl = document.getElementById("guideGrid");
+    if (guideEl) guideEl.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   window.addEventListener("hashchange", () => {
