@@ -602,7 +602,7 @@ const guides = [
     title: "Best Portable Audio Interfaces (2026)",
     title_es: "Mejores Interfaces de Audio Portátiles (2026)",
     category: "interfaces",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    image: "img/portable-interfaces.jpg",
     badge: "recommended",
     intro: "Your studio shouldn't be chained to a desk. I've recorded in hotel rooms, backstage dressing rooms, tour buses, and airport lounges. A portable interface means you can capture ideas wherever they strike — with professional quality. Here are the three interfaces I trust when I'm recording on the move.",
     intro_es: "Tu estudio no debería estar encadenado a un escritorio. He grabado en habitaciones de hotel, camerinos, autobuses de gira y salas de aeropuerto. Una interfaz portátil significa que puedes capturar ideas donde sea que surjan — con calidad profesional. Aquí están las tres interfaces en las que confío cuando grabo en movimiento.",
