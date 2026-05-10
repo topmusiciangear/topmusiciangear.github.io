@@ -197,7 +197,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/560977.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Stage4-88--nord-stage-4-88-stage-keyboard",
-      thomann: "https://www.thomann.de/intl/nord_stage_4_88.htm",
+      thomann: "https://www.thomann.co.uk/clavia_nord_stage_4_88.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
