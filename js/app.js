@@ -385,6 +385,18 @@ function handleNavClick(target) {
   }
 }
 
+function handleNav(target) {
+  document.getElementById("mobileNav").classList.remove("open");
+  if (target === "guides") {
+    currentGuideId = null;
+    renderGuideGrid();
+  }
+  setTimeout(() => {
+    const el = document.getElementById(target);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }, 200);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
