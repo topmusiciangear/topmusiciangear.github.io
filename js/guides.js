@@ -509,7 +509,7 @@ const guides = [
     title: "Best Acoustic Guitars for Every Budget (2026)",
     title_es: "Mejores Guitarras Acústicas Para Cada Presupuesto (2026)",
     category: "strings",
-    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
+    image: "img/acoustic-guitars.jpg",
     badge: "bestSeller",
     intro: "An acoustic guitar is the most honest instrument there is. No pedals, no amps, no plugins — just wood, strings, and your hands. I've written some of my best songs on acoustics, and the right one will inspire you every time you pick it up. Here are my top recommendations for every budget, from the working musician's companion to the heirloom piece.",
     intro_es: "Una guitarra acústica es el instrumento más honesto que existe. Sin pedales, sin amplificadores, sin plugins — solo madera, cuerdas y tus manos. He escrito algunas de mis mejores canciones en acústicas, y la correcta te inspirará cada vez que la tomes. Aquí están mis principales recomendaciones para cada presupuesto, desde la compañera del músico trabajador hasta la pieza de herencia.",
