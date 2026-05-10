@@ -1721,6 +1721,9 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 768px) {
+  .guides-section,
+  .my-setup,
+  .about-section { scroll-margin-top: 100px; }
   .header-inner { padding: 0 16px; gap: 12px; }
   nav { display: none; }
   .hamburger { display: flex; }
