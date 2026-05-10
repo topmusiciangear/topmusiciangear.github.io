@@ -795,7 +795,7 @@ const guides = [
     title: "Best Synth & Instrument Plugins (2026)",
     title_es: "Mejores Plugins de Sintetizador e Instrumentos (2026)",
     category: "plugins",
-    image: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=600&h=400&fit=crop",
+    image: "img/synth-plugins.jpg",
     badge: "bestSeller",
     intro: "Hardware keyboards offer an immediacy and tactile connection that software can't fully replicate. The feel of real keys, instant access to controls, and the inspiration of a dedicated instrument make them essential studio companions. Here's the flagship keyboard that represents the pinnacle of professional stage and studio instruments.",
     intro_es: "Los teclados de hardware ofrecen una inmediatez y conexión táctil que el software no puede replicar completamente. La sensación de las teclas reales, el acceso instantáneo a los controles y la inspiración de un instrumento dedicado los convierten en compañeros de estudio esenciales. Aquí está el teclado insignia que representa la cima de los instrumentos profesionales de escenario y estudio.",
