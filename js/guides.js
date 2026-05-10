@@ -678,7 +678,7 @@ const guides = [
     title: "Best Budget Studio Headphones Under $150 (2026)",
     title_es: "Mejores Auriculares de Estudio Económicos Menos de $150 (2026)",
     category: "headphones",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+    image: "img/budget-headphones.jpg",
     badge: "bestSeller",
     intro: "Great mixing doesn't require expensive headphones. What it requires is headphones you know inside and out. I've mixed tracks that ended up on major releases using headphones that cost under $150. The key is learning how your headphones translate — and these two pairs make that easy.",
     intro_es: "Una gran mezcla no requiere auriculares caros. Lo que requiere son auriculares que conozcas al dedillo. He mezclado pistas que terminaron en lanzamientos importantes usando auriculares que cuestan menos de $150. La clave es aprender cómo se traducen tus auriculares — y estos dos pares lo hacen fácil.",
