@@ -160,7 +160,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/RG550EB--ibanez-genesis-collection-rg550-electric-guitar-electric-blue",
       thomann: "https://www.thomann.de/intl/ibanez_rg550_genesis.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ"
     }
   },
   {
