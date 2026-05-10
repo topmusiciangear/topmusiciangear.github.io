@@ -416,7 +416,7 @@ const products = [
     badge: "legend",
     desc: "The studio standard for closed-back monitoring. 250 Ohm drivers, velour ear pads, and exceptional comfort for marathon sessions.",
     desc_es: "El estándar de estudio para monitoreo cerrado. Drivers de 250 Ohm, almohadillas de velour y comodidad excepcional para sesiones maratonianas.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/109340.jpg",
+    img: "img/dt770pro.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DT770pro80--beyerdynamic-dt-770-pro-80-ohm-closed-back-studio-mixing-headphones",
       thomann: "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
