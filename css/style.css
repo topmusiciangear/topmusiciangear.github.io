@@ -142,10 +142,13 @@ header {
 .logo-icon {
   width: 36px;
   height: 36px;
-  background: linear-gradient(135deg, var(--accent), #60a5fa);
+  background: #fff;
   border-radius: 8px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
   justify-content: center;
   font-size: 16px;
   font-weight: 800;
