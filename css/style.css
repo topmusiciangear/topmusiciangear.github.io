@@ -722,23 +722,23 @@ nav {
 
 /* Audio Mini */
 .audio-mini {
-  text-align: center;
-  padding: 32px 32px 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .audio-mini-inner {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  white-space: nowrap;
 }
 
 .audio-mini-label {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 500;
   color: var(--text-muted);
-  letter-spacing: .5px;
-  text-transform: uppercase;
+  letter-spacing: .3px;
 }
 
 .audio-mini audio {
@@ -768,6 +768,10 @@ nav {
   background: #fff;
   border-radius: 6px;
   padding: 2px;
+}
+
+@media (max-width: 768px) {
+  .audio-mini { display: none; }
 }
 
 /* gear tags */
@@ -1744,7 +1748,6 @@ footer ul li a:hover { color: var(--accent); }
   .product-card { max-width: 100%; }
   .store-buttons { flex-wrap: wrap; }
   .store-btn { font-size: 10px; padding: 6px 10px; }
-  .audio-mini { padding: 24px 16px 0; }
   .my-setup { padding: 40px 16px; }
   .about-section { padding: 56px 16px; }
   .newsletter-section { padding: 0 16px 40px; }
