@@ -654,7 +654,6 @@ const products = [
     img: "img/mogami-xlr.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
-      thomann: "https://www.thomann.de/intl/mogami_gold_studio_xlr.htm",
       gear4music: "https://www.gear4music.com/G4M/Studiospares-Pro-Neutrik-XLR-Mogami-Cable-5m-Black-with-Gold-Plated-Pins/6URJ"
     }
   },
