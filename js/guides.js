@@ -567,37 +567,6 @@ const guides = [
     featuredProducts: [6, 9]
   },
   {
-    id: "guitar-amps",
-    title: "Best Guitar Amps for Home & Stage (2026)",
-    title_es: "Mejores Amplificadores de Guitarra para Casa y Escenario (2026)",
-    category: "strings",
-    image: "https://images.unsplash.com/photo-1460724098662-8e5df8b1a0c8?w=600&h=400&fit=crop",
-    badge: "topQuality",
-    intro: "The amp is half your sound. A great guitar through a mediocre amp sounds mediocre. A decent guitar through a great amp can sound transcendent. While we're primarily focusing on the instruments themselves in this guide, here's how the right guitar choices inform your amp decisions — and why these two guitars demand specific amp approaches.",
-    intro_es: "El amplificador es la mitad de tu sonido. Una gran guitarra a través de un amplificador mediocre suena mediocre. Una guitarra decente a través de un gran amplificador puede sonar trascendente. Aunque nos centramos principalmente en los instrumentos mismos en esta guía, aquí está cómo las elecciones correctas de guitarra informan tus decisiones de amplificador — y por qué estas dos guitarras exigen enfoques de amplificación específicos.",
-    sections: [
-      {
-        heading: "Stratocaster: Clean Headroom is Everything",
-        heading_es: "Stratocaster: El Margen Limpio lo es Todo",
-        content: "The Fender Stratocaster's single-coil pickups thrive on clean headroom. The clarity, quack, and bell-like tones that make the Strat famous need an amp that stays clean at volume — think Fender-style tube amps with 6L6 power tubes. For home use, a quality clean channel with spring reverb is all you need. The Strat teaches you that tone starts with the guitar; the amp should amplify, not mask, that character. I've run Strats through everything from tiny practice amps to full stadium backlines, and the lesson is always the same: let the Strat be a Strat.",
-        content_es: "Las pastillas de bobina simple de la Fender Stratocaster prosperan con margen limpio. La claridad, el 'quack' y los tonos acampanados que hacen famosa a la Strat necesitan un amplificador que se mantenga limpio a volumen — piensa en amplificadores de tubo estilo Fender con tubos de potencia 6L6. Para uso en casa, un canal limpio de calidad con spring reverb es todo lo que necesitas. La Strat te enseña que el tono empieza con la guitarra; el amplificador debe amplificar, no enmascarar, ese carácter. He pasado Strats por todo tipo de amplificadores, desde pequeños amplis de práctica hasta backlines de estadio, y la lección es siempre la misma: deja que la Strat sea una Strat.",
-        products: [6]
-      },
-      {
-        heading: "Les Paul: The Saturation Sweet Spot",
-        heading_es: "Les Paul: El Punto Dulce de Saturación",
-        content: "The Gibson Les Paul with its humbuckers was made to push an amp into that glorious edge of breakup. Where the Strat asks for headroom, the Les Paul demands an amp that sings when pushed — Marshall-style EL34 power sections are the classic pairing. The thick, sustaining tone of a Les Paul into a cooking tube amp is the sound of rock history. For recording, a good master volume or attenuator lets you get that tone at home-friendly volumes. The Les Paul reminds you that the right guitar into the right amp is greater than the sum of its parts.",
-        content_es: "La Gibson Les Paul con sus humbuckers fue hecha para empujar un amplificador hacia ese glorioso borde de ruptura. Donde la Strat pide margen limpio, la Les Paul exige un amplificador que cante cuando se empuja — las secciones de potencia EL34 estilo Marshall son el emparejamiento clásico. El tono grueso y sostenido de una Les Paul en un amplificador de tubo caliente es el sonido de la historia del rock. Para grabación, un buen master volume o atenuador te permite obtener ese tono a volúmenes aptos para casa. La Les Paul te recuerda que la guitarra correcta en el amplificador correcto es mayor que la suma de sus partes.",
-        products: [7]
-      }
-    ],
-    conclusion: "Match your amp to your guitar's character. Single-coils want headroom and clarity — let the pickups speak. Humbuckers want an amp that saturates musically — let the amp sing. The Fender Stratocaster and Gibson Les Paul represent two opposite and complementary philosophies that cover everything from pristine cleans to roaring overdrive. Own both, and you'll understand the full spectrum of electric guitar tone.",
-    conclusion_es: "Combina tu amplificador con el carácter de tu guitarra. Las bobinas simples quieren margen limpio y claridad — deja que las pastillas hablen. Los humbuckers quieren un amplificador que sature musicalmente — deja que el amplificador cante. La Fender Stratocaster y la Gibson Les Paul representan dos filosofías opuestas y complementarias que cubren todo, desde limpios impecables hasta overdrive rugiente. Ten ambas, y entenderás el espectro completo del tono de guitarra eléctrica.",
-    verdict: "Strat for cleans, Les Paul for crunch",
-    verdict_es: "Strat para limpios, Les Paul para crunch",
-    featuredProducts: [6, 7]
-  },
-  {
     id: "portable-interfaces",
     title: "Best Portable Audio Interfaces (2026)",
     title_es: "Mejores Interfaces de Audio Portátiles (2026)",
