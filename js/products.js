@@ -578,7 +578,7 @@ const products = [
     badge: "topQuality",
     desc: "23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack. The creative producer's toolbox.",
     desc_es: "23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. La caja de herramientas del productor creativo.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/271867.jpg",
+    img: "img/soundtoys5.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Soundtoys5--soundtoys-5-plug-in-bundle-download",
       pluginboutique: "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5",
