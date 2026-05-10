@@ -249,7 +249,6 @@ function renderGuideDetail(id) {
           ${badgeText ? `<span class="guide-card-badge ${badgeClass}">${badgeText}</span>` : ""}
         </div>
         <h1 class="guide-detail-title">${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</h1>
-        <div class="guide-detail-author">${t("guideAuthors")}</div>
       </div>
       <div class="guide-detail-img"><img src="${guide.image}" alt="${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}"></div>
       <div class="guide-detail-intro"><p>${currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
