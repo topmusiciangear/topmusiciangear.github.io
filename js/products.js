@@ -377,7 +377,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/A7V--adam-audio-a7v-7-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/adam_a7v.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ"
     }
   },
   {
