@@ -125,8 +125,6 @@ function getResolvedStores(product) {
   Object.entries(product.stores).forEach(([key, url]) => {
     if (key === 'gear4music' && url === 'https://www.gear4music.com/search') {
       s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
-    } else if (key === 'pluginboutique' && url.includes('search?q=serum')) {
-      s[key] = 'https://www.pluginboutique.com/product/2-Effects/25-Wavetable/15536-Serum-2';
     } else {
       s[key] = url;
     }
