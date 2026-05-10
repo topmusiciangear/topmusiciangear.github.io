@@ -474,7 +474,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MDR7506--sony-mdr-7506-closed-back-professional-headphones",
       thomann: "https://www.thomann.co.uk/sony_mdr7506_kopfhoerer.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8"
     }
   },
 
