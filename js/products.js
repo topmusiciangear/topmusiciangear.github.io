@@ -363,7 +363,7 @@ const products = [
     img: "https://images.unsplash.com/photo-1589003077984-c0ce2b4ee964?w=400&h=300&fit=crop",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
-      thomann: "https://www.thomann.de/intl/krk_rokit_7_g4_pair.htm",
+      thomann: "https://www.thomann.co.uk/krk_rokit_rp7_g5_stand_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW"
     }
   },
