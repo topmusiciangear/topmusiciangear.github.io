@@ -735,10 +735,14 @@ nav {
 }
 
 .audio-mini-label {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 500;
   color: var(--text-muted);
   letter-spacing: .3px;
+  max-width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .audio-mini audio {
@@ -1773,7 +1777,22 @@ footer ul li a:hover { color: var(--accent); }
   .audio-mini-mobile {
     display: flex;
     justify-content: center;
-    padding: 16px 16px 0;
+    padding: 24px 16px 0;
+  }
+  .audio-mini-mobile .audio-mini-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .audio-mini-mobile .audio-mini-label {
+    font-size: 10px;
+    text-align: center;
+    white-space: normal;
+    max-width: 280px;
+  }
+  .audio-mini-mobile audio {
+    width: 220px;
+    height: 32px;
   }
 }
 
