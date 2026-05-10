@@ -368,6 +368,7 @@ function handleNavClick(target) {
 
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   window.scrollTo(0, 0);
   initLangSwitcher();
   renderGuideCats();
