@@ -96,9 +96,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <button class="nav-link" data-nav="guides" data-i18n="navGuides" onclick="var e=document.getElementById('guides');if(e)e.scrollIntoView();document.getElementById('mobileNav').classList.remove('open')">Guides</button>
-    <button class="nav-link" data-nav="mysetup" data-i18n="navSetup" onclick="var e=document.getElementById('mysetup');if(e)e.scrollIntoView();document.getElementById('mobileNav').classList.remove('open')">My Setup</button>
-    <button class="nav-link" data-nav="about" data-i18n="navAbout" onclick="var e=document.getElementById('about');if(e)e.scrollIntoView();document.getElementById('mobileNav').classList.remove('open')">About Me</button>
+    <button class="nav-link" data-nav="guides" data-i18n="navGuides" onclick="document.getElementById('mobileNav').classList.remove('open');location.hash='#guides';location.hash=''">Guides</button>
+    <button class="nav-link" data-nav="mysetup" data-i18n="navSetup" onclick="document.getElementById('mobileNav').classList.remove('open');location.hash='#mysetup';location.hash=''">My Setup</button>
+    <button class="nav-link" data-nav="about" data-i18n="navAbout" onclick="document.getElementById('mobileNav').classList.remove('open');location.hash='#about';location.hash=''">About Me</button>
   </div>
 
   <!-- Hero -->
