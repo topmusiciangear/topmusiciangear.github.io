@@ -737,10 +737,6 @@ nav {
   font-weight: 500;
   color: var(--text-muted);
   letter-spacing: .3px;
-  max-width: 320px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .audio-mini audio {
