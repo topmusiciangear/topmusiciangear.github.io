@@ -345,8 +345,8 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/315822.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HS8pr--yamaha-hs8-8-inch-powered-studio-monitor-pair-black",
-      thomann: "https://www.thomann.de/intl/yamaha_hs8_pair.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/yamaha_hs_8_bundle.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J"
     }
   },
   {
@@ -360,7 +360,7 @@ const products = [
     badge: "recommended",
     desc: "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port ideal for smaller studios.",
     desc_es: "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal ideal para estudios pequeños.",
-    img: "https://images.unsplash.com/photo-1589003077984-c0ce2b4ee964?w=400&h=300&fit=crop",
+    img: "img/krk-rokit7.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
       thomann: "https://www.thomann.co.uk/krk_rokit_rp7_g5_stand_bundle.htm",
