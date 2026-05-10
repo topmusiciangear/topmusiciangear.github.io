@@ -402,7 +402,7 @@ const guides = [
         heading_es: "Extra: Esenciales de Estudio Que Valen Cada Centavo",
         content: "Pop filters aren't sexy but they're the difference between a broadcast-ready vocal and one full of plosive pops. The Stedman Proscreen XL is a metal mesh design that doesn't dull your high end like foam filters do. And if you're recording in a reflective room, Auralex Studiofoam Wedges tame flutter echo without turning your space into an anechoic chamber. These small investments make a massive difference in your final product.",
         content_es: "Los filtros antipop no son sexys pero son la diferencia entre una voz lista para transmitir y una llena de explosiones oclusivas. El Stedman Proscreen XL es un diseño de malla metálica que no opaca tus agudos como lo hacen los filtros de espuma. Y si estás grabando en una habitación reflectante, las cuñas Auralex Studiofoam doman el eco de aleteo sin convertir tu espacio en una cámara anecoica. Estas pequeñas inversiones hacen una diferencia masiva en tu producto final.",
-        products: [39, 40]
+        products: [39]
       }
     ],
     conclusion: "Accessories are the unsung heroes of every great recording and live show. Invest in quality cables (Mogami), solid stands (K&M), protective cases (Gator), and trusty mic clips (Shure). These are the things you'll still be using ten years from now when the fancy preamp has been sold and the latest synth is collecting dust. Buy right, buy once, and focus on making music.",
@@ -970,13 +970,6 @@ const guides = [
         products: [37]
       },
       {
-        heading: "Tame Your Room: Auralex Studiofoam Wedges",
-        heading_es: "Domina Tu Sala: Cuñas Acústicas Auralex Studiofoam",
-        content: "Acoustic treatment isn't optional — it's as important as your monitors. The Auralex Studiofoam Wedges (12-pack) absorb flutter echo and early reflections that smear your stereo image and muddy your low end. Place them at first reflection points — the side walls between you and your monitors, and the wall behind your listening position. At $199 for 12 panels, they're the most affordable way to dramatically improve how your room sounds. You don't need to treat every surface. Start with the critical points and add more as needed. The difference in mix translation is immediate and dramatic.",
-        content_es: "El tratamiento acústico no es opcional — es tan importante como tus monitores. Las cuñas Auralex Studiofoam (paquete de 12) absorben el eco de aleteo y las reflexiones tempranas que manchan tu imagen estéreo y embarran tus graves. Colócalas en los puntos de primera reflexión — las paredes laterales entre tú y tus monitores, y la pared detrás de tu posición de escucha. A $199 por 12 paneles, son la forma más asequible de mejorar drásticamente cómo suena tu sala. No necesitas tratar cada superficie. Empieza con los puntos críticos y añade más según sea necesario. La diferencia en la traducción de la mezcla es inmediata y dramática.",
-        products: [40]
-      },
-      {
         heading: "Elevate Your Sound: K&M Monitor Stands",
         heading_es: "Eleva Tu Sonido: Soportes de Monitor K&M",
         content: "Monitor placement is the foundation of accurate mixing. The K&M 26725 stands get your speakers to ear height, mechanically decouple them from the floor, and lock them in position. The adjustable floor spikes isolate your monitors from floor-borne vibrations — your bass tightens up immediately. Height adjustability means you can set the tweeters at exactly ear level whether you're sitting or standing. At $89 a pair, these stands will improve your monitoring accuracy more than spending an extra $500 on speakers. Combined with the Auralex treatment and a solid mic stand, you've got the foundation of a professional monitoring environment.",
@@ -984,11 +977,10 @@ const guides = [
         products: [37]
       }
     ],
-    conclusion: "Invest $337 total — $49 on a K&M mic stand, $199 on Auralex foam, and $89 on monitor stands. That's less than the price of a single premium plugin, and it will improve every recording and mix you make from this point forward. Great gear in a bad room is wasted potential. Treat your space, position your gear correctly, and your existing equipment will suddenly sound like it got a $2,000 upgrade.",
-    conclusion_es: "Invierte $337 en total — $49 en un soporte de micrófono K&M, $199 en espuma Auralex y $89 en soportes de monitor. Eso es menos que el precio de un solo plugin premium, y mejorará cada grabación y mezcla que hagas de ahora en adelante. El mejor equipo en una mala sala es potencial desperdiciado. Trata tu espacio, posiciona tu equipo correctamente, y tu equipo existente de repente sonará como si recibiera una mejora de $2,000.",
+    conclusion: "Invest $138 total — $49 on a K&M mic stand and $89 on monitor stands. That's less than the price of a single plugin, and it will improve every recording and mix you make from this point forward. Great gear in a bad room is wasted potential. Position your gear correctly, and your existing equipment will suddenly sound like it got a $1,000 upgrade.",
+    conclusion_es: "Invierte $138 en total — $49 en un soporte de micrófono K&M y $89 en soportes de monitor. Eso es menos que el precio de un solo plugin, y mejorará cada grabación y mezcla que hagas de ahora en adelante. El mejor equipo en una mala sala es potencial desperdiciado. Posiciona tu equipo correctamente, y tu equipo existente de repente sonará como si recibiera una mejora de $1,000.",
     verdict: "Treat your room before buying more gear",
-    verdict_es: "Trata tu sala antes de comprar más equipo",
-    featuredProducts: [37, 40]
+    featuredProducts: [37]
   },
 
   {

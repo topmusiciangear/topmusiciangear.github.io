@@ -699,23 +699,6 @@ const products = [
     }
   },
   {
-    id: 40,
-    title: "Auralex Studiofoam Wedges (12pk)",
-    title_es: "Cuñas Acústicas Auralex Studiofoam (12pk)",
-    category: "accessories",
-    price: 199,
-    rating: 4.4,
-    reviews: 4321,
-    badge: null,
-    desc: "Professional acoustic treatment. 2-inch wedge foam panels reduce flutter echo and improve room acoustics. Includes adhesive.",
-    desc_es: "Tratamiento acústico profesional. Paneles de espuma en cuña de 2 pulgadas reducen el eco de aleteo y mejoran la acústica de la sala. Incluye adhesivo.",
-    img: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400&h=300&fit=crop",
-    stores: {
-      thomann: "https://www.thomann.de/intl/auralex_studiofoam_wedges.htm",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
     id: 41,
     title: "Gator Cases 61-Key Keyboard Case",
     title_es: "Estuche para Teclado 61 Teclas Gator",
