@@ -288,9 +288,16 @@ function renderGuideDetail(id) {
 
 function renderAudioMini() {
   const el = document.getElementById("audioMini");
-  if (el) el.innerHTML = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="auto"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
+  if (el) el.innerHTML = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="auto"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
   const elm = document.getElementById("audioMiniMobile");
-  if (elm) elm.innerHTML = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="auto"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
+  if (elm) elm.innerHTML = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="auto"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
+  setTimeout(() => {
+    document.querySelectorAll('#audioMini audio, #audioMiniMobile audio').forEach(audio => {
+      audio.addEventListener('play', () => audio.closest('.audio-mini-inner').classList.add('playing'));
+      audio.addEventListener('pause', () => audio.closest('.audio-mini-inner').classList.remove('playing'));
+      audio.addEventListener('ended', () => audio.closest('.audio-mini-inner').classList.remove('playing'));
+    });
+  }, 100);
 }
 
 function updateAudioLabel() {
