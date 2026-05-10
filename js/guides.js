@@ -771,7 +771,7 @@ const guides = [
     title: "Best High-End Studio Monitors (2026)",
     title_es: "Mejores Monitores de Estudio de Alta Gama (2026)",
     category: "monitors",
-    image: "https://images.unsplash.com/photo-1460724098662-8e5df8b1a0c8?w=600&h=400&fit=crop",
+    image: "img/pro-monitors.jpg",
     badge: "premium",
     intro: "When you're ready to invest in monitoring that reveals every detail in your mix — the kind of detail that separates good mixes from great ones — high-end monitors are the answer. I've mixed on everything from $200 budget speakers to $20,000 mastering mains. Here are the two high-end monitors that deliver genuinely world-class performance without requiring a second mortgage.",
     intro_es: "Cuando estás listo para invertir en monitoreo que revela cada detalle en tu mezcla — el tipo de detalle que separa las buenas mezclas de las grandes — los monitores de alta gama son la respuesta. He mezclado en todo, desde altavoces económicos de $200 hasta monitores principales de masterización de $20,000. Aquí están los dos monitores de alta gama que ofrecen rendimiento genuinamente de clase mundial sin requerir una segunda hipoteca.",
