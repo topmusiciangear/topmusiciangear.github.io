@@ -407,8 +407,15 @@ document.addEventListener("DOMContentLoaded", () => {
     currentCategory = cat;
     document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
     renderGuideGrid();
-    const guideEl = document.getElementById("guideGrid");
-    if (guideEl) guideEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const el = document.getElementById("guideGrid");
+        if (el) {
+          const top = el.getBoundingClientRect().top + window.pageYOffset - 80;
+          window.scrollTo({ top, behavior: "smooth" });
+        }
+      });
+    });
   };
 
   window.addEventListener("hashchange", () => {
