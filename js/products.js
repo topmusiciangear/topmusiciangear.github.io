@@ -715,8 +715,7 @@ const products = [
     desc_es: "Estuche rígido ABS de lujo para guitarras acústicas. Pestillos aprobados TSA, interior afelpado y compartimento de almacenamiento. Listo ATA para viajes aéreos.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/296591.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GWAcoustic--gator-gwe-acoustic-hardshell-case-for-acoustic-guitar",
-      gear4music: "https://www.gear4music.com/search"
+      sweetwater: "https://www.sweetwater.com/store/detail/GWAcoustic--gator-gwe-acoustic-hardshell-case-for-acoustic-guitar"
     }
   }
 ];
