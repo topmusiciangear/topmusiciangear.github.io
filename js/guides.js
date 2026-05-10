@@ -839,10 +839,10 @@ const guides = [
     intro_es: "Los instrumentos de software han llegado a un punto donde rivalizan — y en algunos casos superan — a sus contrapartes de hardware. La flexibilidad, la capacidad de recuperar configuraciones y el ahorro de costos son innegables. Aquí están mis principales selecciones de plugins de sintetizador e instrumentos, desde un legendario sintetizador de tabla de ondas hasta un teclado de hardware que une ambos mundos.",
     sections: [
       {
-        heading: "The Wavetable Revolution: Xfer Serum 2",
-        heading_es: "La Revolución de Tabla de Ondas: Xfer Serum 2",
-        content: "Serum 2 is not an update — it's a reimagining. Five oscillator types including granular and spectral resynthesis, a rebuilt modulation engine, and the same intuitive visual workflow that made Serum the most beloved soft synth of the last decade. I've used Serum on everything from pop leads to cinematic sound design. The wavetable editor lets you import any audio and turn it into a playable instrument. At $249 with free lifetime updates, it's the best value in synthesis, full stop.",
-        content_es: "Serum 2 no es una actualización — es una reinvención. Cinco tipos de oscilador incluyendo síntesis granular y resíntesis espectral, un motor de modulación reconstruido y el mismo flujo de trabajo visual intuitivo que hizo de Serum el sintetizador de software más querido de la última década. He usado Serum en todo, desde leads pop hasta diseño de sonido cinematográfico. El editor de tabla de ondas te permite importar cualquier audio y convertirlo en un instrumento reproducible. A $249 con actualizaciones gratuitas de por vida, es el mejor valor en síntesis, punto.",
+        heading: "The Wavetable Revolution: Xfer Serum",
+        heading_es: "La Revolución de Tabla de Ondas: Xfer Serum",
+        content: "Serum is the most beloved wavetable synth of the last decade. Its intuitive visual workflow, pristine sound engine, and unmatched modulation system make it essential for everything from pop leads to cinematic sound design. The wavetable editor lets you import any audio and turn it into a playable instrument. At $189 with free lifetime updates, the best value in synthesis.",
+        content_es: "Serum es el sintetizador de tabla de ondas más querido de la última década. Su flujo de trabajo visual intuitivo, motor de sonido impecable y sistema de modulación incomparable lo hacen esencial para todo, desde leads pop hasta diseño de sonido cinematográfico. El editor de tabla de ondas te permite importar cualquier audio y convertirlo en un instrumento reproducible. A $189 con actualizaciones gratuitas de por vida, el mejor valor en síntesis.",
         products: [27]
       },
       {
@@ -853,9 +853,9 @@ const guides = [
         products: [11]
       }
     ],
-    conclusion: "Serum 2 is the soft synth every producer should own — versatile, affordable, and inspiring. The Nord Stage 4 88 is the hardware companion for when you need to step away from the screen and connect physically with an instrument. Together, software and hardware give you the best of both worlds: unlimited sound design and immediate musical expression.",
-    conclusion_es: "Serum 2 es el sintetizador de software que todo productor debería tener — versátil, asequible e inspirador. El Nord Stage 4 88 es el compañero de hardware para cuando necesitas alejarte de la pantalla y conectar físicamente con un instrumento. Juntos, software y hardware te dan lo mejor de ambos mundos: diseño de sonido ilimitado y expresión musical inmediata.",
-    verdict: "Serum 2 for software, Nord Stage 4 for hardware",
+    conclusion: "Serum is the soft synth every producer should own — versatile, affordable, and inspiring. The Nord Stage 4 88 is the hardware companion for when you need to step away from the screen and connect physically with an instrument. Together, software and hardware give you the best of both worlds: unlimited sound design and immediate musical expression.",
+    conclusion_es: "Serum es el sintetizador de software que todo productor debería tener — versátil, asequible e inspirador. El Nord Stage 4 88 es el compañero de hardware para cuando necesitas alejarte de la pantalla y conectar físicamente con un instrumento. Juntos, software y hardware te dan lo mejor de ambos mundos: diseño de sonido ilimitado y expresión musical inmediata.",
+    verdict: "Serum for software, Nord Stage 4 for hardware",
     verdict_es: "Serum 2 para software, Nord Stage 4 para hardware",
     featuredProducts: [27, 11]
   },

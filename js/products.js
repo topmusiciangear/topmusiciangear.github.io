@@ -481,15 +481,15 @@ const products = [
   // ===== PLUGINS =====
   {
     id: 27,
-    title: "Xfer Serum 2",
-    title_es: "Xfer Serum 2",
+    title: "Xfer Serum",
+    title_es: "Xfer Serum",
     category: "plugins",
-    price: 249,
-    rating: 4.9,
+    price: 189,
+    rating: 4.8,
     reviews: 23456,
     badge: "bestSeller",
-    desc: "The legendary wavetable synthesizer, reborn. Five oscillator types, granular synthesis, spectral resynthesis, and a rebuilt engine. Free lifetime updates.",
-    desc_es: "El legendario sintetizador de tabla de ondas, renacido. Cinco tipos de oscilador, síntesis granular, resíntesis espectral y un motor reconstruido. Actualizaciones gratuitas de por vida.",
+    desc: "The legendary wavetable synthesizer. Unmatched modulation system, pristine sound quality, and drag-and-drop workflow. Free lifetime updates.",
+    desc_es: "El legendario sintetizador de tabla de ondas. Sistema de modulación incomparable, calidad de sonido impecable y flujo de trabajo arrastrar y soltar. Actualizaciones gratuitas de por vida.",
     img: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=400&h=300&fit=crop",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/search?q=serum",
@@ -498,18 +498,18 @@ const products = [
   },
   {
     id: 28,
-    title: "Native Instruments Kontakt 7",
-    title_es: "Native Instruments Kontakt 7",
+    title: "Native Instruments Kontakt 8",
+    title_es: "Native Instruments Kontakt 8",
     category: "plugins",
     price: 399,
     rating: 4.8,
     reviews: 18907,
     badge: "premium",
-    desc: "The world's leading sampler platform. 900+ instruments, revamped factory library from Orchestral Tools, and powerful sound design engine.",
-    desc_es: "La plataforma de sampler líder mundial. Más de 900 instrumentos, biblioteca de fábrica renovada de Orchestral Tools y potente motor de diseño de sonido.",
+    desc: "The world's leading sampler platform. Kontakt 8 with new browser, wavetable module, MIDI tools, and 900+ instruments. The industry standard for sampled instruments.",
+    desc_es: "La plataforma de sampler líder mundial. Kontakt 8 con nuevo navegador, módulo wavetable, herramientas MIDI y más de 900 instrumentos. El estándar de la industria para instrumentos sampleados.",
     img: "https://images.unsplash.com/photo-1493219686142-5a8641badc78?w=400&h=300&fit=crop",
     stores: {
-      pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11439-Kontakt-7-Crossgrade-from-Komplete-Select-10-14",
+      pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8",
       gear4music: "https://www.gear4music.com/search"
     }
   },
