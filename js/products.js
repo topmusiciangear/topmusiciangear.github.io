@@ -690,7 +690,7 @@ const products = [
     badge: "topQuality",
     desc: "The industry standard for studio cabling. Neglex OFC conductors, REAN connectors, and legendary Mogami reliability.",
     desc_es: "El estándar de la industria para cableado de estudio. Conductores Neglex OFC, conectores REAN y la legendaria fiabilidad Mogami.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/117500.jpg",
+    img: "img/mogami-xlr.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
       thomann: "https://www.thomann.de/intl/mogami_gold_studio_xlr.htm",
