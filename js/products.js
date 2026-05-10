@@ -432,8 +432,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/471751.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HD600--sennheiser-hd-600-open-back-audiophile-professional-headphones",
-      thomann: "https://www.thomann.co.uk/sennheiser_hd_600_new_version_2019.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/sennheiser_hd_600_new_version_2019.htm"
     }
   },
   {
