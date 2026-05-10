@@ -395,10 +395,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("mobileNav").classList.toggle("open");
   });
 
-  document.getElementById("footerDisclosure").addEventListener("click", e => {
-    e.preventDefault();
-    document.getElementById("disclosureModal").style.display = "flex";
-  });
   document.getElementById("disclosureLink").addEventListener("click", e => {
     e.preventDefault();
     document.getElementById("disclosureModal").style.display = "flex";
