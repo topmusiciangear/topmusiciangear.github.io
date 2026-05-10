@@ -1423,18 +1423,7 @@ footer ul li a:hover { color: var(--accent); }
   line-height: 1.8;
 }
 
-.guide-section-products {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-top: 20px;
-}
 
-.guide-detail-layout {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-}
 
 /* Guide Product Cards */
 .guide-product-card {
@@ -1701,12 +1690,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 /* Responsive */
-@media (max-width: 1200px) {
-  .guide-section-products { grid-template-columns: repeat(3, 1fr); }
-}
-
 @media (max-width: 768px) {
-  .guide-section-products { grid-template-columns: repeat(2, 1fr); }
   .guides-section { padding: 40px 16px; }
   .guide-grid { grid-template-columns: 1fr; gap: 16px; }
   .guide-card-title { font-size: 16px; }
@@ -1778,7 +1762,6 @@ footer ul li a:hover { color: var(--accent); }
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-inner { gap: 4px; }
   .stat-number { font-size: 20px; }
-  .guide-section-products { grid-template-columns: 1fr; }
 }
 
 .lang-section { display: none; }
@@ -1836,43 +1819,34 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 
-.guide-detail-layout .guide-detail-sections {
-  flex: 1;
-  min-width: 0;
+
+.guide-products-grid {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
 }
 
-.guide-detail-layout .guide-all-products {
-  flex: 0 0 340px;
-  position: sticky;
-  top: 80px;
-}
-
-.guide-detail-layout .guide-all-products-title {
-  font-size: 16px;
+.guide-products-title {
+  font-size: 22px;
   font-weight: 800;
   color: var(--white);
-  margin-bottom: 16px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border);
+  margin-bottom: 24px;
 }
 
-.guide-detail-layout .guide-section-products {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.guide-products-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1200px) {
+  .guide-products-cards { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (max-width: 900px) {
-  .guide-detail-layout {
-    flex-direction: column;
-  }
-  .guide-detail-layout .guide-all-products {
-    flex: none;
-    position: static;
-    width: 100%;
-  }
-  .guide-detail-layout .guide-section-products {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  }
+  .guide-products-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .guide-products-cards { grid-template-columns: 1fr; }
 }
