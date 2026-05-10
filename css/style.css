@@ -1827,3 +1827,44 @@ footer ul li a:hover { color: var(--accent); }
     padding: 8px 16px 24px;
   }
 }
+
+.guide-detail-layout {
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.guide-detail-layout .guide-detail-sections {
+  flex: 1;
+  min-width: 0;
+}
+
+.guide-detail-layout .guide-all-products {
+  flex: 0 0 420px;
+  max-width: 420px;
+}
+
+.guide-detail-layout .guide-all-products-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.guide-detail-layout .guide-section-products {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .guide-detail-layout {
+    flex-direction: column;
+  }
+  .guide-detail-layout .guide-all-products {
+    flex: none;
+    max-width: none;
+  }
+  .guide-detail-layout .guide-section-products {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
