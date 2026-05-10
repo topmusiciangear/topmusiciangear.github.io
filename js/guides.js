@@ -476,9 +476,9 @@ const guides = [
   {
     id: "stage-mics",
     title: "Best Live & Stage Microphones (2026)",
-    title_es: "Mejores Micrófonos para Directo y Escenario (2026)",
+    title_es: "Mejores Micrófonos de Escenario y Directo (2026)",
     category: "microphones",
-    image: "https://images.unsplash.com/photo-1507838153414-b5046f6892e3?w=600&h=400&fit=crop",
+    image: "img/stage-mics.jpg",
     badge: "topQuality",
     intro: "Stage microphones live a hard life. They get dropped, sweated on, and pushed to their limits night after night. The best stage mics combine durability with feedback rejection and consistent sound. After playing everywhere from Broadway pits to Glastonbury, here are the two mics I trust when the lights go down and the crowd goes quiet.",
     intro_es: "Los micrófonos de escenario viven una vida dura. Se caen, se sudan y se llevan al límite noche tras noche. Los mejores micrófonos de escenario combinan durabilidad con rechazo de retroalimentación y sonido consistente. Después de tocar en todas partes, desde fosos de Broadway hasta Glastonbury, aquí están los dos micrófonos en los que confío cuando las luces bajan y el público se calla.",
