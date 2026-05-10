@@ -749,27 +749,20 @@ nav {
   width: 260px;
   height: 36px;
   border-radius: 6px;
-  color-scheme: light;
-  background: #fff;
 }
 
 .audio-mini audio::-webkit-media-controls-panel {
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.06);
 }
 
 .audio-mini audio::-webkit-media-controls-current-time-display,
 .audio-mini audio::-webkit-media-controls-time-remaining-display {
-  color: #111;
-}
-
-.audio-mini audio::-webkit-media-controls-play-button,
-.audio-mini audio::-webkit-media-controls-mute-button {
-  filter: invert(0);
+  color: var(--text-muted);
 }
 
 .audio-mini-player {
   display: inline-flex;
-  background: #fff;
+  background: rgba(255,255,255,0.06);
   border-radius: 6px;
   padding: 2px;
 }
