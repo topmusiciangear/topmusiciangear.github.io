@@ -123,7 +123,7 @@ const products = [
     img: "https://media.sweetwater.com/m/products/image/7f6aefa01649sOZjanoDlBOmYlvvPxgDS7FfbIng.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=7f6aefa01626914a",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/LPS6ITNH--gibson-les-paul-standard-60s-iced-tea",
-      thomann: "https://www.thomann.de/intl/gibson_les_paul_standard_60s.htm",
+      thomann: "https://www.thomann.co.uk/gibson_les_paul_standard_60s_bb.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
