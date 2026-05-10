@@ -487,7 +487,7 @@ const products = [
     img: "img/kontakt8.jpg",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI"
     }
   },
   {
