@@ -172,6 +172,8 @@ function renderGuideGrid() {
   document.getElementById("guideCats").style.display = "";
   const sortBar = document.querySelector(".sort-bar");
   if (sortBar) sortBar.style.display = "";
+  const sectionHeader = document.querySelector("#guides .section-header");
+  if (sectionHeader) sectionHeader.style.display = "";
   const filtered = getFilteredGuides();
   count.textContent = `${filtered.length} ${t("guides")}`;
   if (filtered.length === 0) {
@@ -220,6 +222,8 @@ function renderGuideDetail(id) {
   document.getElementById("guideCats").style.display = "none";
   const sortBar = document.querySelector(".sort-bar");
   if (sortBar) sortBar.style.display = "none";
+  const sectionHeader = document.querySelector("#guides .section-header");
+  if (sectionHeader) sectionHeader.style.display = "none";
 
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
