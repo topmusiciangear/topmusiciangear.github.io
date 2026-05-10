@@ -381,7 +381,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/A7V--adam-audio-a7v-7-inch-powered-studio-monitor",
-      thomann: "https://www.thomann.de/intl/adam_audio_a7v.htm",
+      thomann: "https://www.thomann.co.uk/adam_a7v.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
