@@ -509,7 +509,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle",
-      thomann: "https://www.thomann.de/intl/fabfilter_total_bundle.htm",
+      thomann: "https://www.thomann.co.uk/fabfilter_total_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP"
     }
   },
