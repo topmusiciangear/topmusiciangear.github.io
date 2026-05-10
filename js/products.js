@@ -214,7 +214,6 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/629663.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
-      thomann: "https://www.thomann.de/intl/yamaha_montage_m8x.htm",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C"
     }
   },
