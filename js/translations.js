@@ -234,6 +234,6 @@ const translations = {
 };
 
 const languageNames = {
-  en: "EN",
-  es: "ES"
+  en: "🇬🇧 EN",
+  es: "🇪🇸 ES"
 };
