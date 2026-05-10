@@ -473,7 +473,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/135709.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MDR7506--sony-mdr-7506-closed-back-professional-headphones",
-      thomann: "https://www.thomann.de/intl/sony_mdr_7506.htm",
+      thomann: "https://www.thomann.co.uk/sony_mdr7506_kopfhoerer.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
