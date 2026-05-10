@@ -565,7 +565,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/434284.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/TR8S--roland-tr-8s-rhythm-performer",
-      thomann: "https://www.thomann.de/intl/roland_tr_8s.htm",
+      thomann: "https://www.thomann.co.uk/roland_tr_8s.htm",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82"
     }
   },
