@@ -203,7 +203,6 @@ function renderGuideGrid() {
       location.hash = card.dataset.guide;
     });
   });
-  grid.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function renderGuideDetail(id) {
@@ -369,6 +368,7 @@ function handleNavClick(target) {
 
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
+  window.scrollTo(0, 0);
   initLangSwitcher();
   renderGuideCats();
   const hashId = location.hash.slice(1);
