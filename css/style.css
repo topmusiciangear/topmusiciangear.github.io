@@ -1755,11 +1755,11 @@ footer ul li a:hover { color: var(--accent); }
   .guides-section,
   .my-setup,
   .about-section { scroll-margin-top: 100px; }
-  .header-inner { padding: 0 20px 0 16px; gap: 12px; }
+  .header-inner { padding: 0 16px; gap: 12px; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
-  .hero { padding: 48px 20px 56px; }
+  .hero { padding: 64px 20px 56px; }
   .hero h1 { font-size: 30px; }
   .hero-instruments { gap: 14px; font-size: 17px; }
   .bass-icon { font-size: 24px; }
