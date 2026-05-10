@@ -368,18 +368,20 @@ function handleNavClick(target) {
   if (target === "guides") {
     currentGuideId = null;
     renderGuideGrid();
-    requestAnimationFrame(() => {
+    setTimeout(() => {
       const el = document.querySelector("#guides .section-header") || document.getElementById("guides");
-      el.scrollIntoView({ behavior: "smooth" });
-    });
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }, 200);
   } else if (target === "mysetup") {
-    requestAnimationFrame(() => {
-      document.getElementById("mysetup").scrollIntoView({ behavior: "smooth" });
-    });
+    setTimeout(() => {
+      const el = document.getElementById("mysetup");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }, 200);
   } else if (target === "about") {
-    requestAnimationFrame(() => {
-      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
-    });
+    setTimeout(() => {
+      const el = document.getElementById("about");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }, 200);
   }
 }
 
