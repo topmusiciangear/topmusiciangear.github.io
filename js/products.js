@@ -289,7 +289,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/571436.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
-      thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_duo_gen2_ess.htm",
+      thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   },
@@ -308,7 +308,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BabyfaceProFS--rme-babyface-pro-fs-24-channel-usb-audio-interface",
       thomann: "https://www.thomann.de/intl/rme_babyface_pro_fs.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM"
     }
   },
   {
