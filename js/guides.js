@@ -320,7 +320,7 @@ const guides = [
     title_es: "Mejores Guitarras y Bajos Para Cada Músico (2026)",
     category: "strings",
     image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
-    badge: "bestSeller",
+    badge: "legend",
     intro: "Whether you play guitar, bass, or both, your instrument is your voice. I've toured the world with Fenders and Gibsons, recorded at Abbey Road, and played everything from Broadway pits to Glastonbury fields. Here are the stringed instruments I trust most, for every budget and style.",
     intro_es: "Ya sea que toques guitarra, bajo o ambos, tu instrumento es tu voz. He girado por el mundo con Fenders y Gibsons, grabado en Abbey Road, y tocado en todo, desde fosos de Broadway hasta los campos de Glastonbury. Aquí están los instrumentos de cuerda en los que más confío, para cada presupuesto y estilo.",
     sections: [
@@ -1042,7 +1042,7 @@ const guides = [
     title_es: "Mejores Pedales y Efectos de Guitarra (2026)",
     category: "strings",
     image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
-    badge: "bestSeller",
+    badge: "recommended",
     intro: "The right pedal doesn't just change your sound — it changes how you play. Half of iconic guitar tones are the guitar itself; the other half is what you put between it and the amp. I've built pedalboards for Broadway pits, Glastonbury stages, and studio sessions, and I've learned that pedals matter as much as the instrument. Here's how the right guitar and pedal approach transforms your sound.",
     intro_es: "El pedal correcto no solo cambia tu sonido — cambia cómo tocas. La mitad de los tonos icónicos de guitarra es la guitarra misma; la otra mitad es lo que pones entre ella y el amplificador. He construido pedalboards para fosos de Broadway, escenarios de Glastonbury y sesiones de estudio, y he aprendido que los pedales importan tanto como el instrumento. Así es como el enfoque correcto de guitarra y pedal transforma tu sonido.",
     sections: [
