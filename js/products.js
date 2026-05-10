@@ -216,7 +216,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
       thomann: "https://www.thomann.de/intl/yamaha_montage_m8x.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C"
     }
   },
   {
@@ -765,7 +765,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/UF8control--solid-state-logic-uf8-advanced-daw-controller",
       thomann: "https://www.thomann.de/intl/ssl_uf8.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK"
     }
   },
   {
