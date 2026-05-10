@@ -237,26 +237,6 @@ function renderGuideDetail(id) {
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
   const allProductsHtml = allProductIds.map(id => renderProductCard(id)).join("");
 
-  let featuredHtml = guide.featuredProducts.map(id => {
-    const p = products.find(x => x.id === id);
-    if (!p) return "";
-    const stars = "★".repeat(Math.floor(p.rating)) + (p.rating % 1 >= 0.5 ? "½" : "");
-    const stores = Object.entries(getResolvedStores(p)).map(([key, url]) =>
-      `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="store-btn" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
-    ).join("");
-    return `
-      <div class="guide-featured-card">
-        <div class="guide-featured-img"><img src="${p.img}" alt="${currentLang === 'es' && p.title_es ? p.title_es : p.title}" loading="lazy"></div>
-        <div class="guide-featured-body">
-          <div class="guide-featured-title">${currentLang === 'es' && p.title_es ? p.title_es : p.title}</div>
-          <div class="guide-featured-price">${formatPrice(p.price)} <small>USD</small></div>
-          <div class="guide-featured-rating">${stars} <span>${p.reviews.toLocaleString()}</span></div>
-          <div class="guide-featured-desc">${currentLang === 'es' && p.desc_es ? p.desc_es : p.desc}</div>
-          <div class="guide-featured-stores">${stores}</div>
-        </div>
-      </div>
-    `;
-  }).join("");
 
   grid.innerHTML = `
     <div class="guide-detail">
@@ -276,7 +256,6 @@ function renderGuideDetail(id) {
         <span class="verdict-label">${t("verdict")}</span>
         <span class="verdict-text">${currentLang === 'es' && guide.verdict_es ? guide.verdict_es : guide.verdict}</span>
       </div>
-      ${featuredHtml ? `<div class="guide-featured"><h3 class="guide-featured-label">${t("relatedGear")}</h3><p class="guide-featured-sub" style="color:var(--text-secondary);font-size:13px;margin-bottom:12px;">${t("relatedGearSub")}</p><div class="guide-featured-grid">${featuredHtml}</div></div>` : ""}
       ${allProductsHtml ? `<div class="guide-all-products"><h3 class="guide-all-products-title">${t("productsInGuide")}</h3><div class="guide-section-products">${allProductsHtml}</div></div>` : ""}
       <div class="guide-conclusion">
         <h3>${t("finalThoughts")}</h3>
