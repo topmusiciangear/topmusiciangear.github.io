@@ -176,8 +176,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/581957.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MC59410BGWBst--prs-mccarty-594-10-top-electric-guitar-black-gold-wraparound-burst",
-      thomann: "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm"
     }
   },
 
