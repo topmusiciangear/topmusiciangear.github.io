@@ -234,6 +234,6 @@ const translations = {
 };
 
 const languageNames = {
-  en: "🇬🇧 EN",
-  es: "🇪🇸 ES"
+  en: '<img src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="EN" style="vertical-align:middle;margin-right:3px">EN',
+  es: '<img src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="ES" style="vertical-align:middle;margin-right:3px">ES'
 };
