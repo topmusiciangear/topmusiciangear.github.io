@@ -420,7 +420,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DT770pro80--beyerdynamic-dt-770-pro-80-ohm-closed-back-studio-mixing-headphones",
       thomann: "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU"
     }
   },
   {
