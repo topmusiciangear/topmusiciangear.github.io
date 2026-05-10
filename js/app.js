@@ -251,12 +251,12 @@ function renderGuideDetail(id) {
       </div>
       <div class="guide-detail-img"><img src="${guide.image}" alt="${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}"></div>
       <div class="guide-detail-intro"><p>${currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
+      ${allProductsHtml ? `<div class="guide-all-products"><h3 class="guide-all-products-title">${t("productsInGuide")}</h3><div class="guide-section-products">${allProductsHtml}</div></div>` : ""}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-verdict">
         <span class="verdict-label">${t("verdict")}</span>
         <span class="verdict-text">${currentLang === 'es' && guide.verdict_es ? guide.verdict_es : guide.verdict}</span>
       </div>
-      ${allProductsHtml ? `<div class="guide-all-products"><h3 class="guide-all-products-title">${t("productsInGuide")}</h3><div class="guide-section-products">${allProductsHtml}</div></div>` : ""}
       <div class="guide-conclusion">
         <h3>${t("finalThoughts")}</h3>
         <p>${currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion}</p>
