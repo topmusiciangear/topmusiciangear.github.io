@@ -86,7 +86,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM57--shure-sm57-cardioid-dynamic-instrument-microphone",
       thomann: "https://www.thomann.de/intl/shure_sm57.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV"
     }
   },
 
