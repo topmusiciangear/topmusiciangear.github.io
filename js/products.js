@@ -529,7 +529,7 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle",
       thomann: "https://www.thomann.de/intl/fabfilter_total_bundle.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP"
     }
   },
   {
@@ -766,78 +766,6 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/UF8control--solid-state-logic-uf8-advanced-daw-controller",
       thomann: "https://www.thomann.de/intl/ssl_uf8.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK"
-    }
-  },
-  {
-    id: 43,
-    title: "Shure A25D Mic Clip",
-    title_es: "Clip de Micrófono Shure A25D",
-    category: "accessories",
-    price: 12,
-    rating: 4.7,
-    reviews: 9800,
-    badge: null,
-    desc: "The go-to clip for SM57 and SM58. Break-resistant shockmount clip that fits all standard mic stands. Essential spare for any gig bag.",
-    desc_es: "El clip de referencia para SM57 y SM58. Clip antigolpes resistente a roturas compatible con todos los soportes de micrófono estándar. Repuesto esencial para cualquier bolsa de conciertos.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/111585.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/A25D--shure-a25d-microphone-clip",
-      thomann: "https://www.thomann.de/intl/shure_a25d.htm",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
-    id: 44,
-    title: "Mogami Gold Instrument Cable (3m)",
-    title_es: "Cable de Instrumento Mogami Gold (3m)",
-    category: "accessories",
-    price: 45,
-    rating: 4.7,
-    reviews: 7800,
-    badge: "topQuality",
-    desc: "Premium Neglex OFC cable with REAN connectors. Ultra-low capacitance for transparent signal with zero hum or handling noise.",
-    desc_es: "Cable Neglex OFC premium con conectores REAN. Capacitancia ultra baja para señal transparente sin zumbidos ni ruido de manejo.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/117502.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GoldInstr10--mogami-gold-instrument-cable-10-foot-straight-straight",
-      thomann: "https://www.thomann.de/intl/mogami_gold_instrument.htm",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
-    id: 45,
-    title: "Gator GBE-ELECTRIC Guitar Bag",
-    title_es: "Funda de Guitarra Eléctrica Gator GBE",
-    category: "accessories",
-    price: 39,
-    rating: 4.5,
-    reviews: 6500,
-    badge: null,
-    desc: "Padded gig bag for electric guitars. Rip-resistant nylon with 10mm foam padding, accessory pocket, and backpack straps.",
-    desc_es: "Funda acolchada para guitarras eléctricas. Nylon resistente a desgarros con acolchado de espuma de 10mm, bolsillo para accesorios y correas de mochila.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/266736.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GBEElec--gator-gbe-elec-gig-bag-for-electric-guitar",
-      thomann: "https://www.thomann.de/intl/gator_gbe_electric.htm",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
-    id: 46,
-    title: "Gator GBE-BASS Bass Guitar Bag",
-    title_es: "Funda de Bajo Gator GBE-BASS",
-    category: "accessories",
-    price: 45,
-    rating: 4.5,
-    reviews: 4500,
-    badge: null,
-    desc: "Heavy-duty padded gig bag for bass guitars. Extra-long to fit full-scale basses with 15mm foam padding and reinforced headstock area.",
-    desc_es: "Funda acolchada de alta resistencia para bajos. Extra larga para adaptarse a bajos de escala completa con acolchado de espuma de 15mm y área de clavijero reforzada.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/266738.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GBEBass--gator-gbe-bass-gig-bag-for-bass-guitar",
-      thomann: "https://www.thomann.de/intl/gator_gbe_bass.htm",
-      gear4music: "https://www.gear4music.com/search"
     }
   },
   {

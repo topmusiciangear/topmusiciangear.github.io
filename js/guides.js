@@ -388,21 +388,21 @@ const guides = [
         heading_es: "Cables XLR y de Instrumento: No Escatimes",
         content: "Your entire signal chain is only as good as your weakest cable. After years of dealing with crackling, interference, and mid-session cable swaps, I only use Mogami. The Gold Studio XLR uses Neglex OFC conductors and REAN connectors — dead quiet, no handling noise, and a lifetime of reliability. For guitars, the Gold Instrument cable has ultra-low capacitance that preserves your tone from guitar to amp. Buy these once and you're done.",
         content_es: "Toda tu cadena de señal es tan buena como tu cable más débil. Después de años lidiando con crujidos, interferencias y cambios de cable a mitad de sesión, solo uso Mogami. El Gold Studio XLR usa conductores Neglex OFC y conectores REAN — silencio absoluto, sin ruido de manejo y una vida de fiabilidad. Para guitarras, el cable Gold Instrument tiene capacitancia ultra baja que preserva tu tono de la guitarra al amplificador. Cómpralos una vez y listo.",
-        products: [38, 44]
+        products: [38]
       },
       {
         heading: "Mic Stands & Clips: Rock-Solid Support",
         heading_es: "Soportes de Mic y Clips: Soporte Sólido Como Roca",
         content: "Nothing worse than a mic stand slowly sinking during a vocal take or a loose clip dropping your mic. I use K&M stands exclusively — German engineering, zinc die-cast bases, and they last decades. The 210/2 is the standard for good reason. Pair it with a Shure A25D mic clip for SM57/SM58 mics — it's break-resistant and grips the mic like a vise. For studio monitors, the K&M 26725 stands get your speakers to ear height with decoupling spikes for cleaner low end.",
         content_es: "Nada peor que un soporte de micrófono hundiéndose lentamente durante una toma vocal o un clip suelto dejando caer tu micrófono. Uso soportes K&M exclusivamente — ingeniería alemana, bases de zinc fundido a presión, y duran décadas. El 210/2 es el estándar por buenas razones. Combínalo con un clip de micrófono Shure A25D para micrófonos SM57/SM58 — es resistente a roturas y agarra el micrófono como un tornillo de banco. Para monitores de estudio, los soportes K&M 26725 ponen tus altavoces a la altura del oído con puntas de desacoplamiento para graves más limpios.",
-        products: [37, 43]
+        products: [37]
       },
       {
         heading: "Guitar & Bass Cases: Protect Your Instrument",
         heading_es: "Fundas de Guitarra y Bajo: Protege Tu Instrumento",
         content: "Your instrument deserves better than leaning against the wall. For everyday transport, the Gator GBE gig bags are padded, rip-resistant, and have backpack straps — the ELECTRIC fits every Strat, Tele, and Les Paul, while the BASS version accommodates full-scale 34' basses. Flying to a gig? The Gator GWE hard shell acoustic case is ATA-approved with TSA latches. After losing a guitar to a baggage handler in Miami, I never tour without a proper case.",
         content_es: "Tu instrumento merece algo mejor que apoyarse contra la pared. Para transporte diario, las fundas Gator GBE están acolchadas, son resistentes a desgarros y tienen correas de mochila — la ELECTRIC se adapta a cada Strat, Tele y Les Paul, mientras que la versión BASS acomoda bajos de escala completa de 34'. ¿Volando a un concierto? El estuche rígido acústico Gator GWE está aprobado por ATA con pestillos TSA. Después de perder una guitarra por un maletero en Miami, nunca salgo de gira sin un estuche adecuado.",
-        products: [45, 46, 47]
+        products: [47]
       },
       {
         heading: "Bonus: Studio Essentials Worth Every Penny",
@@ -416,7 +416,7 @@ const guides = [
     conclusion_es: "Los accesorios son los héroes anónimos de cada gran grabación y show en vivo. Invierte en cables de calidad (Mogami), soportes sólidos (K&M), estuches protectores (Gator) y clips de micrófono confiables (Shure). Estas son las cosas que seguirás usando dentro de diez años, cuando el preamplificador de lujo ya se haya vendido y el último sintetizador esté acumulando polvo. Compra bien, compra una vez, y concéntrate en hacer música.",
     verdict: "Mogami cables + K&M stands = the studio standard",
     verdict_es: "Mogami cables + soportes K&M = el estándar de estudio",
-    featuredProducts: [38, 37, 45, 43, 44]
+    featuredProducts: [38, 37]
   },
   {
     id: "budget-mics",
