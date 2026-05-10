@@ -864,7 +864,7 @@ const guides = [
     title: "Best Creative Effects Plugins (2026)",
     title_es: "Mejores Plugins de Efectos Creativos (2026)",
     category: "plugins",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
+    image: "img/fx-plugins.jpg",
     badge: "recommended",
     intro: "Effects are where mixes come alive. The right delay creates movement and depth. The right saturation adds warmth and character. Here's the effect plugin that has earned a permanent spot in my mix template.",
     intro_es: "Los efectos son donde las mezclas cobran vida. El delay correcto crea movimiento y profundidad. La saturación correcta añade calidez y carácter. Aquí está el plugin de efectos que se ha ganado un lugar permanente en mi plantilla de mezcla.",
