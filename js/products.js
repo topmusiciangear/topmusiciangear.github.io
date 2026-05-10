@@ -507,7 +507,7 @@ const products = [
     badge: "premium",
     desc: "The world's leading sampler platform. Kontakt 8 with new browser, wavetable module, MIDI tools, and 900+ instruments. The industry standard for sampled instruments.",
     desc_es: "La plataforma de sampler líder mundial. Kontakt 8 con nuevo navegador, módulo wavetable, herramientas MIDI y más de 900 instrumentos. El estándar de la industria para instrumentos sampleados.",
-    img: "https://images.unsplash.com/photo-1493219686142-5a8641badc78?w=400&h=300&fit=crop",
+    img: "img/kontakt8.jpg",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8",
       gear4music: "https://www.gear4music.com/search"
