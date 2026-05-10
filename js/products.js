@@ -82,7 +82,7 @@ const products = [
     badge: "legend",
     desc: "The industry standard for live vocals. Tailored frequency response, built-in spherical pop filter, and break-resistant construction. The most trusted vocal mic on the planet.",
     desc_es: "El estándar de la industria para voces en vivo. Respuesta de frecuencia adaptada, filtro pop esférico incorporado y construcción resistente a roturas. El micrófono vocal más confiable del planeta.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/111585.jpg",
+    img: "img/sm58.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM58--shure-sm58-cardioid-dynamic-vocal-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm_58_s.htm",
