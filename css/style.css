@@ -1759,7 +1759,7 @@ footer ul li a:hover { color: var(--accent); }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
-  .hero { padding: 12px 20px 56px; }
+  .hero { padding: 4px 20px 56px; }
   .hero h1 { font-size: 30px; }
   .hero-instruments { gap: 14px; font-size: 17px; }
   .bass-icon { font-size: 24px; }
