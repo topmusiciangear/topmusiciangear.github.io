@@ -201,7 +201,9 @@ function renderGuideGrid() {
   }).join("");
   grid.querySelectorAll(".guide-card").forEach(card => {
     card.addEventListener("click", () => {
-      location.hash = card.dataset.guide;
+      const id = card.dataset.guide;
+      history.pushState({}, '', '/?g=' + id);
+      renderGuideDetail(id);
     });
   });
 }
@@ -283,7 +285,9 @@ function renderGuideDetail(id) {
     </div>
   `;
   document.getElementById("guideBackBtn").addEventListener("click", () => {
-    location.hash = '';
+    history.pushState({}, '', '/');
+    renderGuideGrid();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
   if (!initialLoad) {
     setTimeout(() => {
@@ -374,9 +378,20 @@ document.addEventListener("DOMContentLoaded", () => {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   renderGuideCats();
-  const hashId = location.hash.slice(1);
-  if (hashId && guides.find(g => g.id === hashId)) {
-    renderGuideDetail(hashId);
+  const q = new URLSearchParams(window.location.search).get('g');
+  if (q && guides.find(g => g.id === q)) {
+    history.replaceState({}, '', '/?g=' + q);
+    renderGuideDetail(q);
+  } else if (location.hash) {
+    const h = location.hash.slice(1);
+    const guide = guides.find(g => g.id === h);
+    if (guide) {
+      history.replaceState({}, '', '/?g=' + h);
+      renderGuideDetail(h);
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      renderGuideGrid();
+    }
   } else {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     renderGuideGrid();
@@ -419,12 +434,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  window.addEventListener("hashchange", () => {
-    const id = location.hash.slice(1);
-    if (id && guides.find(g => g.id === id)) {
-      renderGuideDetail(id);
+  window.addEventListener("popstate", () => {
+    const q = new URLSearchParams(window.location.search).get('g');
+    if (q && guides.find(g => g.id === q)) {
+      renderGuideDetail(q);
     } else {
       renderGuideGrid();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   });
 
