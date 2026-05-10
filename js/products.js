@@ -723,7 +723,6 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/296591.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GWAcoustic--gator-gwe-acoustic-hardshell-case-for-acoustic-guitar",
-      thomann: "https://www.thomann.de/intl/gator_gwe_acou.htm",
       gear4music: "https://www.gear4music.com/search"
     }
   }
