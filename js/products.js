@@ -551,23 +551,6 @@ const products = [
     }
   },
   {
-    id: 31,
-    title: "ValhallaDSP ValhallaRoom",
-    title_es: "ValhallaDSP ValhallaRoom",
-    category: "plugins",
-    price: 50,
-    rating: 4.8,
-    reviews: 15678,
-    badge: "recommended",
-    desc: "World-class algorithmic reverb at an unbeatable price. 12 original algorithms from tight ambiences to vast modulated spaces.",
-    desc_es: "Reverb algorítmico de clase mundial a un precio inmejorable. 12 algoritmos originales, desde ambientes ajustados hasta vastos espacios modulados.",
-    img: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop",
-    stores: {
-      pluginboutique: "https://valhalladsp.com/shop/reverb/valhalla-room/",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
     id: 32,
     title: "Soundtoys 5.5 Bundle",
     title_es: "Soundtoys 5.5 Bundle",

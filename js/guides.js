@@ -249,13 +249,6 @@ const guides = [
         products: [30]
       },
       {
-        heading: "Best Value: ValhallaDSP ValhallaRoom",
-        heading_es: "Mejor Relación Calidad-Precio: ValhallaDSP ValhallaRoom",
-        content: "ValhallaRoom is $50 and competes with reverbs costing ten times as much. Twelve algorithms from tight rooms to vast halls, all with that rich, musical character that Valhalla is known for. I use it on everything — vocals, drums, synths, guitars. At this price, there's no reason not to own it.",
-        content_es: "ValhallaRoom cuesta $50 y compite con reverbs que cuestan diez veces más. Doce algoritmos, desde salas ajustadas hasta vastos halls, todos con ese carácter rico y musical por el que Valhalla es conocido. Lo uso en todo — voces, baterías, sintetizadores, guitarras. A este precio, no hay razón para no tenerlo.",
-        products: [31]
-      },
-      {
         heading: "The Creative Toolkit: Soundtoys 5.5 Bundle",
         heading_es: "El Kit Creativo: Soundtoys 5.5 Bundle",
         content: "Soundtoys is where you go when you want to break the rules. Decapitator is my secret weapon for adding analog warmth and grit. EchoBoy does delay like nothing else — from pristine digital to warped tape. Little AlterBoy is great for vocal effects. The new SuperPlate reverb and SpaceBlender add modern spatial effects. It's the most creative bundle in my arsenal.",
@@ -263,11 +256,11 @@ const guides = [
         products: [32]
       }
     ],
-    conclusion: "Start with ValhallaRoom ($50) and FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. These four cover everything from surgical mixing to experimental sound design. I use at least one of them in every session.",
-    conclusion_es: "Empieza con ValhallaRoom ($50) y FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Estos cuatro cubren todo, desde mezcla quirúrgica hasta diseño de sonido experimental. Uso al menos uno de ellos en cada sesión.",
+    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. These three cover everything from surgical mixing to experimental sound design. I use at least one of them in every session.",
+    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Estos tres cubren todo, desde mezcla quirúrgica hasta diseño de sonido experimental. Uso al menos uno de ellos en cada sesión.",
     verdict: "FabFilter Total Bundle if you can only buy one",
     verdict_es: "FabFilter Total Bundle si solo puedes comprar uno",
-    featuredProducts: [29, 30, 31, 32]
+    featuredProducts: [29, 30, 32]
   },
   {
     id: "beat-making",
@@ -904,16 +897,9 @@ const guides = [
     category: "plugins",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
     badge: "recommended",
-    intro: "Effects are where mixes come alive. The right reverb places a sound in space. The right delay creates movement and depth. The right saturation adds warmth and character. Here are the two effect plugins that have earned permanent spots in my mix template.",
-    intro_es: "Los efectos son donde las mezclas cobran vida. El reverb correcto coloca un sonido en el espacio. El delay correcto crea movimiento y profundidad. La saturación correcta añade calidez y carácter. Aquí están los dos plugins de efectos que se han ganado lugares permanentes en mi plantilla de mezcla.",
+    intro: "Effects are where mixes come alive. The right delay creates movement and depth. The right saturation adds warmth and character. Here's the effect plugin that has earned a permanent spot in my mix template.",
+    intro_es: "Los efectos son donde las mezclas cobran vida. El delay correcto crea movimiento y profundidad. La saturación correcta añade calidez y carácter. Aquí está el plugin de efectos que se ha ganado un lugar permanente en mi plantilla de mezcla.",
     sections: [
-      {
-        heading: "The $50 Miracle: ValhallaDSP ValhallaRoom",
-        heading_es: "El Milagro de $50: ValhallaDSP ValhallaRoom",
-        content: "ValhallaRoom is the best $50 you'll ever spend on audio software. Twelve reverb algorithms — from tight ambiences and drum rooms to vast, modulated halls — all with that rich, musical character that Valhalla is famous for. I use it on every vocal, every snare, every synth pad. It sits in a mix without getting in the way, adding space and dimension without calling attention to itself. The interface is deceptively simple: three color-coded modes (Early, Late, Both) and a handful of musically-named parameters. At $50, there's literally no reason not to own this. It sounds like reverbs costing ten times as much.",
-        content_es: "ValhallaRoom son los mejores $50 que gastarás en software de audio. Doce algoritmos de reverb — desde ambientes ajustados y salas de batería hasta vastos halls modulados — todos con ese carácter rico y musical por el que Valhalla es famoso. Lo uso en cada voz, cada caja, cada pad de sintetizador. Se asienta en una mezcla sin estorbar, añadiendo espacio y dimensión sin llamar la atención. La interfaz es engañosamente simple: tres modos codificados por colores (Early, Late, Both) y un puñado de parámetros con nombres musicales. A $50, literalmente no hay razón para no tener esto. Suena como reverbs que cuestan diez veces más.",
-        products: [31]
-      },
       {
         heading: "The Creative Arsenal: Soundtoys 5.5 Bundle",
         heading_es: "El Arsenal Creativo: Soundtoys 5.5 Bundle",
@@ -922,11 +908,11 @@ const guides = [
         products: [32]
       }
     ],
-    conclusion: "Buy ValhallaRoom today — at $50 it's a no-brainer and you'll use it on every project forever. Save up for the Soundtoys 5.5 Bundle when you're ready to unlock creative effects that add character, movement, and personality to your productions. These two cover every effect need from subtle spatial enhancement to radical sound transformation.",
-    conclusion_es: "Compra ValhallaRoom hoy — a $50 es una decisión obvia y lo usarás en cada proyecto para siempre. Ahorra para el Soundtoys 5.5 Bundle cuando estés listo para desbloquear efectos creativos que añaden carácter, movimiento y personalidad a tus producciones. Estos dos cubren cada necesidad de efectos, desde mejora espacial sutil hasta transformación radical del sonido.",
-    verdict: "ValhallaRoom for reverb, Soundtoys for everything else",
-    verdict_es: "ValhallaRoom para reverb, Soundtoys para todo lo demás",
-    featuredProducts: [31, 32]
+    conclusion: "The Soundtoys 5.5 Bundle is the only effects suite you need for creative mixing. Decapitator, EchoBoy, and the full collection of 23 effects add character, movement, and personality to your productions. Start here and you won't need another effects plugin for years.",
+    conclusion_es: "El Soundtoys 5.5 Bundle es la única suite de efectos que necesitas para mezcla creativa. Decapitator, EchoBoy y la colección completa de 23 efectos añaden carácter, movimiento y personalidad a tus producciones. Empieza aquí y no necesitarás otro plugin de efectos en años.",
+    verdict: "Soundtoys 5.5 is the only creative effects bundle that matters",
+    verdict_es: "Soundtoys 5.5 es el único bundle de efectos creativos que importa",
+    featuredProducts: [32]
   },
   {
     id: "midi-controllers",
