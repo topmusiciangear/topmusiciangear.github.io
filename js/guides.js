@@ -540,7 +540,7 @@ const guides = [
     title: "Best Bass Guitars & Bass Amps (2026)",
     title_es: "Mejores Bajos y Amplificadores de Bajo (2026)",
     category: "strings",
-    image: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&h=400&fit=crop",
+    image: "img/bass-guitars.jpg",
     badge: "recommended",
     intro: "Bass is the foundation. It's what makes people move. Recording bass well means understanding that the right instrument — even one usually thought of as a 'guitar' — can deliver the low-end punch your track needs. Here's my guide to getting bass right, using instruments that serious players trust.",
     intro_es: "El bajo es la base. Es lo que hace que la gente se mueva. Grabar bien el bajo significa entender que el instrumento correcto — incluso uno que normalmente se considera 'guitarra' — puede ofrecer el golpe de graves que tu pista necesita. Aquí está mi guía para hacer bien el bajo, usando instrumentos en los que los músicos serios confían.",
