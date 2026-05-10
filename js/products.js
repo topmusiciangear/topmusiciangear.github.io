@@ -248,8 +248,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/570926.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KontS3-61--native-instruments-kontrol-s61-mk3-61-key-smart-keyboard-controller",
-      thomann: "https://www.thomann.co.uk/native_instruments_kontrol_s61_mk3_komplete_15.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/native_instruments_kontrol_s61_mk3_komplete_15.htm"
     }
   },
 
