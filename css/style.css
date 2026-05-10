@@ -1162,14 +1162,14 @@ footer ul li a:hover { color: var(--accent); }
 .mobile-nav {
   display: none;
   position: fixed;
-  top: 64px;
+  top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   background: rgba(13,13,13,.98);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--border);
-  padding: 16px;
-  z-index: 99;
+  padding: 80px 16px 16px;
+  z-index: 101;
   flex-direction: column;
   gap: 4px;
 }
