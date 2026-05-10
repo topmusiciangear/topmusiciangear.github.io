@@ -676,7 +676,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KM21020BK--k-and-m-210-2-microphone-stand-with-fixed-boom-black",
       thomann: "https://www.thomann.co.uk/km_210-2.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/KandM-210-6-Microphone-Stand-Black/1Z55"
     }
   },
   {
