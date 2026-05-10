@@ -234,7 +234,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KeyLabEss3-61--arturia-keylab-essential-mk3-61-key-keyboard-controller-white",
       thomann: "https://www.thomann.co.uk/arturia_keylab_essential_61_mk3_white.htm",
-      gear4music: "https://www.gear4music.com/search"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI"
     }
   },
   {
