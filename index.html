@@ -96,9 +96,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <button class="nav-link" data-nav="guides" data-i18n="navGuides" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('guides').scrollIntoView({behavior:'smooth'})">Guides</button>
-    <button class="nav-link" data-nav="mysetup" data-i18n="navSetup" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('mysetup').scrollIntoView({behavior:'smooth'})">My Setup</button>
-    <button class="nav-link" data-nav="about" data-i18n="navAbout" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('about').scrollIntoView({behavior:'smooth'})">About Me</button>
+    <button class="nav-link" data-nav="guides" data-i18n="navGuides" onclick="var m=document.getElementById('mobileNav');m.classList.remove('open');var e=document.getElementById('guides');if(e){var r=e.getBoundingClientRect();window.scrollTo(0,r.top+window.pageYOffset-80)}">Guides</button>
+    <button class="nav-link" data-nav="mysetup" data-i18n="navSetup" onclick="var m=document.getElementById('mobileNav');m.classList.remove('open');var e=document.getElementById('mysetup');if(e){var r=e.getBoundingClientRect();window.scrollTo(0,r.top+window.pageYOffset-80)}">My Setup</button>
+    <button class="nav-link" data-nav="about" data-i18n="navAbout" onclick="var m=document.getElementById('mobileNav');m.classList.remove('open');var e=document.getElementById('about');if(e){var r=e.getBoundingClientRect();window.scrollTo(0,r.top+window.pageYOffset-80)}">About Me</button>
   </div>
 
   <!-- Hero -->
