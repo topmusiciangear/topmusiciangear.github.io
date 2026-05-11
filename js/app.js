@@ -482,6 +482,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target.tagName === 'VIDEO') {
       document.querySelectorAll('audio').forEach(a => { a.pause(); });
     }
+    if (e.target.tagName === 'AUDIO') {
+      document.querySelectorAll('video').forEach(v => { v.pause(); });
+    }
   }, true);
 
   initialLoad = false;

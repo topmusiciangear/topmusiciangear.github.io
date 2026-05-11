@@ -1977,6 +1977,8 @@ html[lang="es"] .lang-show-en { display: none; }
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 5;
 }
 
 .about-video video {
@@ -1985,6 +1987,8 @@ html[lang="es"] .lang-show-en { display: none; }
   aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: var(--radius-lg);
+  position: relative;
+  z-index: 1;
 }
 
 .about-video video::-webkit-media-controls-panel {
