@@ -898,17 +898,13 @@ nav {
   gap: 6px;
   margin-top: 14px;
   font-size: 13px;
-  color: var(--text-muted);
+  color: var(--accent);
   text-decoration: none;
-  transition: color 0.2s;
+  transition: opacity 0.2s;
 }
 
 .about-email-link:hover {
-  color: var(--accent);
-}
-
-.about-email-link i {
-  font-size: 12px;
+  opacity: 0.8;
 }
 
 .about-content h2 {
@@ -2070,4 +2066,11 @@ html[lang="es"] .lang-show-en { display: none; }
   width: 100%;
   display: block;
   background: #000;
+}
+
+.about-photo-col {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

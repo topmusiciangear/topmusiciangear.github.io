@@ -330,8 +330,10 @@ function renderAbout() {
   const container = document.getElementById("aboutContent");
   if (!container) return;
   container.innerHTML = `
-    <div class="about-photo-wrapper">
-      <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
+    <div class="about-photo-col">
+      <div class="about-photo-wrapper">
+        <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
+      </div>
       <a href="mailto:danielcarnago@gmail.com" class="about-email-link"><i class="fa-solid fa-envelope"></i> danielcarnago@gmail.com</a>
     </div>
     <div class="about-content">
