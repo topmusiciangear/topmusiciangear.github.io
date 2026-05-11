@@ -1409,23 +1409,23 @@ footer ul li a:hover { color: var(--accent); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 10px 20px;
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  color: var(--text-secondary);
-  font-size: 13px;
-  font-weight: 600;
-  font-family: inherit;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--accent);
+  border: none;
+  color: white;
   cursor: pointer;
-  transition: var(--transition);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s;
   white-space: nowrap;
 }
 
 .guide-back-btn:hover {
-  border-color: var(--accent);
-  color: var(--white);
-  background: rgba(59,130,246,.08);
+  background: #2563eb;
+  color: white;
 }
 
 .guide-detail-header {

@@ -270,9 +270,17 @@ function renderGuideDetail(id) {
         <h3>${t("finalThoughts")}</h3>
         <p>${currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion}</p>
       </div>
+      <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
   document.getElementById("guideBackBtn").addEventListener("click", () => {
+    history.pushState({}, '', '/');
+    renderGuideGrid();
+    const el = document.getElementById("guides");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  });
+  const btn2 = document.getElementById("guideBackBtn2");
+  if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
     const el = document.getElementById("guides");
