@@ -235,7 +235,7 @@ nav {
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: var(--transition);
+  transition: color 0.2s, background 0.2s, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
   white-space: nowrap;
   background: transparent;
   border: none;
@@ -246,6 +246,7 @@ nav {
 .nav-link:hover {
   color: var(--white);
   background: rgba(255,255,255,.05);
+  transform: scale(1.1);
 }
 
 .nav-link.active {
@@ -1988,36 +1989,4 @@ html[lang="es"] .lang-show-en { display: none; }
 .about-video video::-webkit-media-controls-current-time-display,
 .about-video video::-webkit-media-controls-time-remaining-display {
   color: var(--text);
-}
-
-.desktop-quick-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 16px 32px 0;
-}
-
-.desktop-quick-nav a {
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s;
-  display: inline-block;
-}
-
-.desktop-quick-nav a:hover {
-  transform: scale(1.15);
-  color: var(--white);
-}
-
-.nav-dot {
-  color: var(--text-muted);
-  opacity: 0.3;
-  font-size: 14px;
-}
-
-@media (max-width: 768px) {
-  .desktop-quick-nav { display: none; }
 }
