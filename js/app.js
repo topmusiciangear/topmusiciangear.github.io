@@ -465,7 +465,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll('audio').forEach(a => { a.pause(); });
     }
     if (e.target.tagName === 'AUDIO') {
-      document.querySelectorAll('video').forEach(v => { v.pause(); });
+      document.querySelectorAll('video:not(.bg-video)').forEach(v => { v.pause(); });
     }
   }, true);
 
