@@ -682,22 +682,6 @@ const products = [
       thomann: "https://www.thomann.co.uk/ssl_uf8.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK"
     }
-  },
-  {
-    id: 47,
-    title: "Gator GWE-Acou Hard Shell Acoustic Case",
-    title_es: "Estuche Rígido Acústico Gator GWE",
-    category: "accessories",
-    price: 129,
-    rating: 4.6,
-    reviews: 3200,
-    badge: "recommended",
-    desc: "Deluxe ABS hard shell case for acoustic guitars. TSA-approved latches, plush interior, and storage compartment. ATA-ready for air travel.",
-    desc_es: "Estuche rígido ABS de lujo para guitarras acústicas. Pestillos aprobados TSA, interior afelpado y compartimento de almacenamiento. Listo ATA para viajes aéreos.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/296591.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GWAcoustic--gator-gwe-acoustic-hardshell-case-for-acoustic-guitar"
-    }
   }
 ];
 

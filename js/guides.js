@@ -334,9 +334,8 @@ const guides = [
       {
         heading: "Guitar & Bass Cases: Protect Your Instrument",
         heading_es: "Fundas de Guitarra y Bajo: Protege Tu Instrumento",
-        content: "Your instrument deserves better than leaning against the wall. For everyday transport, the Gator GBE gig bags are padded, rip-resistant, and have backpack straps — the ELECTRIC fits every Strat, Tele, and Les Paul, while the BASS version accommodates full-scale 34' basses. Flying to a gig? The Gator GWE hard shell acoustic case is ATA-approved with TSA latches. After losing a guitar to a baggage handler in Miami, I never tour without a proper case.",
-        content_es: "Tu instrumento merece algo mejor que apoyarse contra la pared. Para transporte diario, las fundas Gator GBE están acolchadas, son resistentes a desgarros y tienen correas de mochila — la ELECTRIC se adapta a cada Strat, Tele y Les Paul, mientras que la versión BASS acomoda bajos de escala completa de 34'. ¿Volando a un concierto? El estuche rígido acústico Gator GWE está aprobado por ATA con pestillos TSA. Después de perder una guitarra por un maletero en Miami, nunca salgo de gira sin un estuche adecuado.",
-        products: [47]
+        content: "Your instrument deserves better than leaning against the wall. For everyday transport, the Gator GBE gig bags are padded, rip-resistant, and have backpack straps — the ELECTRIC fits every Strat, Tele, and Les Paul, while the BASS version accommodates full-scale 34' basses. After losing a guitar to a baggage handler in Miami, I never tour without a proper case.",
+        content_es: "Tu instrumento merece algo mejor que apoyarse contra la pared. Para transporte diario, las fundas Gator GBE están acolchadas, son resistentes a desgarros y tienen correas de mochila — la ELECTRIC se adapta a cada Strat, Tele y Les Paul, mientras que la versión BASS acomoda bajos de escala completa de 34'. Después de perder una guitarra por un maletero en Miami, nunca salgo de gira sin un estuche adecuado."
       },
       {
         heading: "Bonus: Studio Essentials Worth Every Penny",
