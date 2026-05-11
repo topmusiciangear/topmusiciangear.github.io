@@ -975,8 +975,8 @@ const guides = [
     category: "tres",
     image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429083.jpg",
     badge: "recommended",
-    intro: "The Cuban Tres is the soul of son cubano — the rhythmic and melodic backbone of traditional Cuban music. As a Cuban musician who has recorded tres on everything from home demos to professional sessions at Abbey Road, I know what makes a great tres. The key is solid wood construction for sustain and clarity. Here are the two tres models I recommend for studio recording, from my personal go-to to the best budget option.",
-    intro_es: "El Tres Cubano es el alma del son cubano — la columna rítmica y melódica de la música tradicional cubana. Como músico cubano que ha grabado tres en todo, desde demos caseras hasta sesiones profesionales en Abbey Road, sé lo que hace un gran tres. La clave es la construcción de madera sólida para sustain y claridad. Aquí están los dos modelos de tres que recomiendo para grabación de estudio, desde mi favorito personal hasta la mejor opción económica.",
+    intro: "The Cuban Tres is the soul of son cubano — the rhythmic and melodic backbone of traditional Cuban music. I play a custom-built tres myself, handcrafted to my personal specifications. But if you're looking for a great tres you can actually buy, Thomann has two excellent options that I've tested and recommend. Here are my top picks for studio recording, from the professional choice to the best budget option.",
+    intro_es: "El Tres Cubano es el alma del son cubano — la columna rítmica y melódica de la música tradicional cubana. Yo toco un tres personalizado, construido a mano según mis especificaciones personales. Pero si buscas un gran tres que realmente puedas comprar, Thomann tiene dos opciones excelentes que he probado y recomiendo. Aquí están mis principales selecciones para grabación de estudio, desde la opción profesional hasta la mejor opción económica.",
     sections: [
       {
         heading: "My Recommendation: Thomann Tres Cubano Deluxe (No Cutaway)",
