@@ -193,8 +193,8 @@ const guides = [
     category: "monitors",
     image: "https://higherhertz.com/wp-content/uploads/2021/06/yamaha-hs5-studio-monitors-review.jpg",
     badge: "topQuality",
-    intro: "Your monitors are the window into your mix. Bad monitors hide problems. Great monitors reveal them. I've mixed on everything from cheap bookshelf speakers to $20,000 ATCs. Here are the three pairs under $1,000 that I trust most.",
-    intro_es: "Tus monitores son la ventana a tu mezcla. Los malos monitores esconden problemas. Los buenos monitores los revelan. He mezclado en todo, desde altavoces baratos de estantería hasta ATCs de $20,000. Aquí están los tres pares de menos de $1,000 en los que más confío.",
+    intro: "Your monitors are the window into your mix. Bad monitors hide problems. Great monitors reveal them. Here are the three pairs under $1,000 that I trust most.",
+    intro_es: "Tus monitores son la ventana a tu mezcla. Los malos monitores esconden problemas. Los buenos monitores los revelan. Aquí están los tres pares de menos de $1,000 en los que más confío.",
     sections: [
       {
         heading: "Best Budget: KRK Rokit 7 G4",
