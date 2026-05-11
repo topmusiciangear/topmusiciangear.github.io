@@ -419,6 +419,13 @@ function initVideoIntro() {
 
   video.addEventListener("ended", () => {
     overlay.classList.remove("outro", "show");
+    video.volume = 0;
+  });
+
+  video.addEventListener("seeked", () => {
+    if (video.currentTime < video.duration - 3) {
+      video.volume = 1;
+    }
   });
 }
 
