@@ -2099,6 +2099,8 @@ html[lang="es"] .lang-show-en { display: none; }
   justify-content: center;
   gap: 20px;
   z-index: 5;
+  opacity: 0;
+  pointer-events: none;
   transition: opacity 0.8s ease;
   border-radius: var(--radius);
 }
@@ -2115,26 +2117,6 @@ html[lang="es"] .lang-show-en { display: none; }
 
 .video-intro-overlay.outro.show {
   opacity: 1;
-}
-
-.video-intro-play {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background: var(--accent);
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.2s, background 0.2s;
-}
-
-.video-intro-play:hover {
-  transform: scale(1.08);
-  background: #2563eb;
 }
 
 .video-intro-logo {

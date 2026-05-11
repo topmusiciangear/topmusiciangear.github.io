@@ -399,46 +399,23 @@ function handleNavClick(target) {
 function initVideoIntro() {
   const video = document.getElementById("aboutVideo");
   const overlay = document.getElementById("videoIntroOverlay");
-  const playBtn = document.getElementById("videoPlayBtn");
   if (!video || !overlay) return;
-
-  playBtn.addEventListener("click", () => {
-    video.play();
-  });
-
-  overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) video.play();
-  });
-
-  video.addEventListener("play", () => {
-    overlay.classList.add("hidden");
-    overlay.classList.remove("outro", "show");
-  });
-
-  video.addEventListener("pause", () => {
-    if (video.currentTime < 0.5 && !video.ended) {
-      overlay.classList.remove("hidden");
-      overlay.classList.remove("outro", "show");
-    }
-  });
 
   video.addEventListener("timeupdate", () => {
     const remaining = video.duration - video.currentTime;
     if (remaining < 3 && remaining > 0 && !video.paused) {
       overlay.classList.add("outro");
-      overlay.classList.remove("hidden");
       requestAnimationFrame(() => {
         overlay.classList.add("show");
       });
     }
     if (remaining >= 3 && overlay.classList.contains("outro")) {
       overlay.classList.remove("outro", "show");
-      if (!video.paused) overlay.classList.add("hidden");
     }
   });
 
   video.addEventListener("ended", () => {
-    overlay.classList.remove("hidden", "outro", "show");
+    overlay.classList.remove("outro", "show");
   });
 }
 
