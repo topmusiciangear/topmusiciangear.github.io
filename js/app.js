@@ -501,5 +501,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, true);
 
+  document.addEventListener('keydown', e => {
+    if (e.code === 'Space' && document.activeElement === document.body) {
+      const video = document.getElementById('aboutVideo');
+      if (video && (video.paused ? video.currentTime > 0 : true)) {
+        e.preventDefault();
+        video.paused ? video.play() : video.pause();
+      }
+    }
+  });
+
   initialLoad = false;
 });
