@@ -395,9 +395,17 @@ function initVideoIntro() {
   const video = document.getElementById("aboutVideo");
   const overlay = document.getElementById("videoIntroOverlay");
   if (!video || !overlay) return;
+  video.volume = 0;
+
+  video.addEventListener("play", () => {
+    fadeVideoAudio(video, 1, 600);
+  });
 
   video.addEventListener("timeupdate", () => {
     const remaining = video.duration - video.currentTime;
+    if (remaining < 1.5 && remaining > 0 && !video.paused && video.volume > 0.05) {
+      fadeVideoAudio(video, 0, 500);
+    }
     if (remaining < 3 && remaining > 0 && !video.paused) {
       overlay.classList.add("outro");
       requestAnimationFrame(() => {
@@ -412,6 +420,18 @@ function initVideoIntro() {
   video.addEventListener("ended", () => {
     overlay.classList.remove("outro", "show");
   });
+}
+
+function fadeVideoAudio(video, target, duration) {
+  const start = video.volume;
+  const startTime = performance.now();
+  function step(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    video.volume = start + (target - start) * progress;
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
