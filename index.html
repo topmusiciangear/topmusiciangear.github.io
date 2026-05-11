@@ -99,9 +99,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" href="#guides" onclick="document.getElementById('mobileNav').classList.remove('open')"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
-    <a class="nav-link" href="#mysetup" onclick="document.getElementById('mobileNav').classList.remove('open')"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
-    <a class="nav-link" href="#about" onclick="document.getElementById('mobileNav').classList.remove('open')"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
+    <a class="nav-link" href="#guides" onclick="var e=document.getElementById('guides');document.getElementById('mobileNav').classList.remove('open');if(e)e.scrollIntoView({behavior:'smooth'})"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+    <a class="nav-link" href="#mysetup" onclick="var e=document.getElementById('mysetup');document.getElementById('mobileNav').classList.remove('open');if(e)e.scrollIntoView({behavior:'smooth'})"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
+    <a class="nav-link" href="#about" onclick="var e=document.getElementById('about');document.getElementById('mobileNav').classList.remove('open');if(e)e.scrollIntoView({behavior:'smooth'})"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
   </div>
 
   <!-- Hero -->
