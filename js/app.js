@@ -350,7 +350,7 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
       </div>
       <div class="about-video-circle">
-        <video controls preload="none" controlsList="nofullscreen" disablePictureInPicture>
+        <video controls preload="none" controlslist="nofullscreen">
           <source src="video/about-video.mp4" type="video/mp4">
         </video>
       </div>
