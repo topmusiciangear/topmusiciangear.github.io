@@ -618,20 +618,20 @@ const products = [
   // ===== ACCESSORIES =====
   {
     id: 37,
-    title: "König & Meyer 210/2 Mic Stand",
-    title_es: "Soporte de Micrófono König & Meyer 210/2",
+    title: "König & Meyer 26725 Monitor Stand",
+    title_es: "Soporte de Monitor König & Meyer 26725",
     category: "accessories",
-    price: 49,
-    rating: 4.6,
-    reviews: 12345,
-    badge: "recommended",
-    desc: "German-engineered tripod mic stand with telescopic boom arm. Heavy-duty zinc die-cast base for rock-solid stability.",
-    desc_es: "Soporte de micrófono trípode con ingeniería alemana y brazo telescópico. Base de zinc fundido a presión de alta resistencia para estabilidad sólida como roca.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/104941.jpg",
+    price: 89,
+    rating: 4.5,
+    reviews: 5400,
+    badge: null,
+    desc: "Heavy-duty steel monitor stands (pair). Height-adjustable with adjustable spikes for decoupling. Supports up to 35 kg per stand.",
+    desc_es: "Soportes de monitor de acero de alta resistencia (par). Altura ajustable con puntas ajustables para desacoplamiento. Soporta hasta 35 kg por soporte.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/121296.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/KM21020BK--k-and-m-210-2-microphone-stand-with-fixed-boom-black",
-      thomann: "https://www.thomann.co.uk/km_210-2.htm",
-      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/KandM-210-6-Microphone-Stand-Black/1Z55"
+      sweetwater: "https://www.sweetwater.com/store/detail/KM26725--konig-and-meyer-26725-monitor-stand-with-floor-spikes-pair",
+      thomann: "https://www.thomann.de/intl/km_26725.htm",
+      gear4music: "https://www.gear4music.com/search"
     }
   },
   {
