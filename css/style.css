@@ -187,8 +187,13 @@ nav {
   border-radius: 50%;
   color: var(--text-muted);
   font-size: 15px;
-  transition: var(--transition);
+  transition: color 0.2s, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
   text-decoration: none;
+}
+
+.header-social-link:hover {
+  color: var(--white);
+  transform: scale(1.2);
 }
 
 .header-social-link:hover {
