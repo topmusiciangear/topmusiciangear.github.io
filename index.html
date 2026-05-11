@@ -114,7 +114,7 @@
       <p data-i18n="heroDesc">Trusted by a musician with over 20 years of experience on the world's biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.</p>
       <div class="hero-actions">
         <a href="#guides" class="btn-primary" data-i18n="heroCta">Browse Gear →</a>
-        <a href="#about" class="btn-secondary" data-i18n="heroStory">My Story</a>
+        <a href="#about" onclick="event.preventDefault();document.getElementById('about').scrollIntoView({behavior:'smooth',block:'start'})" class="btn-secondary" data-i18n="heroStory">My Story</a>
       </div>
     </div>
   </section>
