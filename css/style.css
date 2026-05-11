@@ -1759,10 +1759,11 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Guide Conclusion */
 .guide-conclusion {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 32px;
+  background: rgba(59,130,246,.08);
+  border: 1px solid rgba(59,130,246,.2);
+  border-radius: var(--radius);
+  padding: 14px 22px;
+  margin-bottom: 20px;
 }
 
 .guide-conclusion h3 {
@@ -2082,6 +2083,7 @@ html[lang="es"] .lang-show-en { display: none; }
   width: 100%;
   display: block;
   background: #000;
+  transition: opacity 0.4s ease;
 }
 
 /* Video intro/outro overlay */
