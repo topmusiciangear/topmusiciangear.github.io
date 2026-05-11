@@ -169,6 +169,8 @@ function renderProductCard(id) {
 
 function renderGuideGrid() {
   currentGuideId = null;
+  const btn = document.getElementById("backToGuidesBtn");
+  if (btn) btn.style.display = "";
   const grid = document.getElementById("guideGrid");
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
@@ -221,6 +223,8 @@ function renderGuideDetail(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
   currentGuideId = guide.id;
+  const btn = document.getElementById("backToGuidesBtn");
+  if (btn) btn.style.display = "none";
   const grid = document.getElementById("guideGrid");
   grid.style.display = "block";
   const container = document.getElementById("guideContainer");
