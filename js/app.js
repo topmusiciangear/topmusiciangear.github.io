@@ -488,11 +488,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }, true);
 
   initialLoad = false;
-
-  const btt = document.getElementById('backToTop');
-  if (btt) {
-    window.addEventListener('scroll', () => {
-      btt.classList.toggle('visible', window.scrollY > 500);
-    });
-  }
 });
