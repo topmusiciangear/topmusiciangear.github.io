@@ -6,7 +6,7 @@ const guides = [
     category: "interfaces",
     image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
     badge: "bestSeller",
-    intro: "Building your first home studio doesn't have to break the bank. After 20+ years of recording everywhere from a cramped Havana bedroom to Abbey Road" → "Santiago de Cuba bedroom to Abbey Road", I've learned one thing: you don't need expensive gear to make professional recordings. What you need is the right gear. Here's the exact starter kit I recommend to anyone asking me how to begin.",
+    intro: "Building your first home studio doesn't have to break the bank. After 20+ years of recording everywhere from a cramped Santiago de Cuba bedroom to Abbey Road, I've learned one thing: you don't need expensive gear to make professional recordings. What you need is the right gear. Here's the exact starter kit I recommend to anyone asking me how to begin.",
     intro_es: "Montar tu primer home studio no tiene que arruinarte. Después de más de 20 años grabando en todas partes, desde un cuarto diminuto en Santiago de Cuba hasta Abbey Road, he aprendido una cosa: no necesitas equipo caro para hacer grabaciones profesionales. Lo que necesitas es el equipo correcto. Este es el kit exacto que recomiendo a cualquiera que me pregunte cómo empezar.",
     sections: [
       {
