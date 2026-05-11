@@ -67,7 +67,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/240602.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/C414XLII--akg-c414-xlii-large-diaphragm-condenser-microphone",
-      thomann: "https://www.thomann.ro/akg_c414_xlii.htm",
+      thomann: "https://www.thomann.co.uk/akg_c414_xlii.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV"
     }
   },
