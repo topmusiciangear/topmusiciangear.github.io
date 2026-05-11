@@ -150,7 +150,6 @@ header {
   color: var(--text-muted);
   letter-spacing: .3px;
   padding: 6px 16px;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
 }
 
 @media (max-width: 768px) {
@@ -258,7 +257,7 @@ nav {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 8px 32px 80px;
+  padding: 0 32px 80px;
 }
 
 .hero::before {
