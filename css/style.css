@@ -2074,3 +2074,16 @@ html[lang="es"] .lang-show-en { display: none; }
   flex-direction: column;
   align-items: center;
 }
+
+.stores-video {
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.stores-video .about-video-circle {
+  max-width: 600px;
+  width: 100%;
+  margin: 0;
+}
