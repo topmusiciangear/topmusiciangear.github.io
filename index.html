@@ -99,9 +99,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" href="#guides" onclick="document.getElementById('mobileNav').classList.remove('open');setTimeout(function(){var e=document.getElementById('guides');if(e)e.scrollIntoView({behavior:'smooth'})},250)"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
-    <a class="nav-link" href="#mysetup" onclick="document.getElementById('mobileNav').classList.remove('open');setTimeout(function(){var e=document.getElementById('mysetup');if(e)e.scrollIntoView({behavior:'smooth'})},250)"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
-    <a class="nav-link" href="#about" onclick="document.getElementById('mobileNav').classList.remove('open');setTimeout(function(){var e=document.getElementById('about');if(e)e.scrollIntoView({behavior:'smooth'})},250)"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
+    <a class="nav-link" href="#guides" onclick="var m=document.getElementById('mobileNav');m.classList.remove('open');setTimeout(function(){var e=document.getElementById('guides');if(e){var t=e.getBoundingClientRect().top+window.pageYOffset-60;window.scrollTo({top:t,behavior:'smooth'})}},300)"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+    <a class="nav-link" href="#mysetup" onclick="var m=document.getElementById('mobileNav');m.classList.remove('open');setTimeout(function(){var e=document.getElementById('mysetup');if(e){var t=e.getBoundingClientRect().top+window.pageYOffset-60;window.scrollTo({top:t,behavior:'smooth'})}},300)"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
+    <a class="nav-link" href="#about" onclick="var m=document.getElementById('mobileNav');m.classList.remove('open');setTimeout(function(){var e=document.getElementById('about');if(e){var t=e.getBoundingClientRect().top+window.pageYOffset-60;window.scrollTo({top:t,behavior:'smooth'})}},300)"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
   </div>
 
   <!-- Hero -->
