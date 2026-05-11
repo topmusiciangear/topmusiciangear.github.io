@@ -967,5 +967,36 @@ const guides = [
     verdict: "SSL G-Master for glue, Pro-Q 4 for precision",
     verdict_es: "SSL G-Master para pegamento, Pro-Q 4 para precisión",
     featuredProducts: [29]
+  },
+  {
+    id: "cuban-tres",
+    title: "Best Cuban Tres Guitar for Recording (2026)",
+    title_es: "Mejor Tres Cubano para Grabación (2026)",
+    category: "tres",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429083.jpg",
+    badge: "recommended",
+    intro: "The Cuban Tres is the soul of son cubano — the rhythmic and melodic backbone of traditional Cuban music. As a Cuban musician who has recorded tres on everything from home demos to professional sessions at Abbey Road, I know what makes a great tres. The key is solid wood construction for sustain and clarity. Here are the two tres models I recommend for studio recording, from my personal go-to to the best budget option.",
+    intro_es: "El Tres Cubano es el alma del son cubano — la columna rítmica y melódica de la música tradicional cubana. Como músico cubano que ha grabado tres en todo, desde demos caseras hasta sesiones profesionales en Abbey Road, sé lo que hace un gran tres. La clave es la construcción de madera sólida para sustain y claridad. Aquí están los dos modelos de tres que recomiendo para grabación de estudio, desde mi favorito personal hasta la mejor opción económica.",
+    sections: [
+      {
+        heading: "My Recommendation: Thomann Tres Cubano Deluxe (No Cutaway)",
+        heading_es: "Mi Recomendación: Thomann Tres Cubano Deluxe (Sin Cutaway)",
+        content: "For professional recordings, I recommend the Deluxe without a cutaway. The solid spruce top gives this tres exceptional clarity, sustain, and definition across all three courses of strings. Without the cutaway, the body produces fuller resonance — critical for capturing that authentic Cuban tone in the studio. The mother of pearl inlays around the sound hole add traditional elegance, and the mahogany neck with acacia fingerboard feels fast and responsive. I record with a tres similar to this, and the solid spruce top is what separates it from budget models. At $469, it's an investment that delivers professional results.",
+        content_es: "Para grabaciones profesionales, recomiendo el Deluxe sin cutaway. La tapa sólida de abeto le da a este tres una claridad, sustain y definición excepcionales en los tres órdenes de cuerdas. Sin el cutaway, el cuerpo produce una resonancia más completa — crítico para capturar ese tono cubano auténtico en el estudio. Las incrustaciones de nácar alrededor de la boca añaden elegancia tradicional, y el mástil de caoba con diapasón de acacia se siente rápido y responsivo. Grabo con un tres similar a este, y la tapa sólida de abeto es lo que lo separa de los modelos económicos. A $469, es una inversión que entrega resultados profesionales.",
+        products: [43]
+      },
+      {
+        heading: "Best Budget Option: Thomann Tres Cubano Standard Acacia",
+        heading_es: "Mejor Opción Económica: Thomann Tres Cubano Standard Acacia",
+        content: "If you're just getting into Cuban music or need a reliable backup tres, the Standard Acacia is unbeatable for the price. The solid acacia top still gives you that woody, percussive tone that defines the tres sound, and the built-in pickup system means you can plug straight into an interface or PA without needing an external mic. At $279, it's an incredible value for students, touring musicians, or anyone building their first Cuban music setup. The tuning (G-B-E or G-C-E) is standard, and the 544mm scale length feels natural under the fingers.",
+        content_es: "Si apenas estás entrando en la música cubana o necesitas un tres de respaldo confiable, el Standard Acacia es inmejorable por el precio. La tapa sólida de acacia aún te da ese tono amaderado y percusivo que define el sonido del tres, y el sistema de pastilla incorporado significa que puedes conectarte directamente a una interfaz o PA sin necesidad de un micrófono externo. A $279, es un valor increíble para estudiantes, músicos de gira, o cualquiera construyendo su primer setup de música cubana.",
+        products: [44]
+      }
+    ],
+    conclusion: "Start with the Deluxe if you're serious about recording — the solid spruce top and no-cutaway design give you the richest, most authentic Cuban tone. Go with the Standard Acacia if you're learning or need a solid instrument that won't break the bank. Either way, a real Cuban Tres opens up a world of rhythmic and melodic possibilities that no other instrument can replicate.",
+    conclusion_es: "Empieza con el Deluxe si hablas en serio sobre grabación — la tapa sólida de abeto y el diseño sin cutaway te dan el tono cubano más rico y auténtico. Ve con el Standard Acacia si estás aprendiendo o necesitas un instrumento sólido que no arruine tu presupuesto. De cualquier manera, un Tres Cubano real abre un mundo de posibilidades rítmicas y melódicas que ningún otro instrumento puede replicar.",
+    verdict: "Deluxe for the studio, Standard Acacia for the road",
+    verdict_es: "Deluxe para el estudio, Standard Acacia para la carretera",
+    featuredProducts: [43, 44]
   }
 ];

@@ -682,6 +682,40 @@ const products = [
       thomann: "https://www.thomann.co.uk/ssl_uf8.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK"
     }
+  },
+  {
+    id: 43,
+    title: "Thomann Tres Cubano Deluxe",
+    title_es: "Tres Cubano Deluxe Thomann",
+    category: "tres",
+    price: 469,
+    rating: 4.5,
+    reviews: 789,
+    badge: "recommended",
+    desc: "Professional-grade Cuban Tres with solid spruce top for exceptional clarity, sustain, and definition. No cutaway for maximum resonance. Mother of pearl inlays, mahogany neck. The studio standard for authentic Cuban sound.",
+    desc_es: "Tres Cubano de grado profesional con tapa sólida de abeto para claridad, sustain y definición excepcionales. Sin cutaway para máxima resonancia. Incrustaciones de nácar, mástil de caoba. El estándar de estudio para sonido cubano auténtico.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429083.jpg",
+    stores: {
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe.htm",
+      gear4music: "https://www.gear4music.com/search"
+    }
+  },
+  {
+    id: 44,
+    title: "Thomann Tres Cubano Standard Acacia",
+    title_es: "Tres Cubano Standard Acacia Thomann",
+    category: "tres",
+    price: 279,
+    rating: 4.3,
+    reviews: 456,
+    badge: null,
+    desc: "Solid acacia top Cuban Tres with built-in pickup system. Maple neck, acacia fingerboard and bridge. Tuning: G-B-E or G-C-E. Excellent value for students and touring musicians.",
+    desc_es: "Tres Cubano con tapa sólida de acacia y sistema de pastilla incorporado. Mástil de arce, diapasón y puente de acacia. Afinación: G-B-E o G-C-E. Excelente relación calidad-precio para estudiantes y músicos de gira.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
+    stores: {
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_acacia.htm",
+      gear4music: "https://www.gear4music.com/search"
+    }
   }
 ];
 
@@ -695,6 +729,7 @@ const categoryInfo = {
   headphones: { name: "Headphones", icon: '<i class="fa-solid fa-headphones"></i>', desc: "Critical listening and mixing on the go." },
   plugins: { name: "Plugins", icon: '<i class="fa-solid fa-sliders"></i>', desc: "Virtual instruments and effects for your DAW." },
   percussion: { name: "Percussion", icon: '<i class="fa-solid fa-drum"></i>', desc: "Drum machines, electronic percussion, and acoustic drums." },
+  tres: { name: "Cuban Tres", icon: '<i class="fa-solid fa-guitar"></i>', desc: "The heartbeat of Cuban music. Authentic tres guitars for studio and stage." },
   accessories: { name: "Accessories", icon: '<i class="fa-solid fa-wrench"></i>', desc: "Cables, stands, cases, and studio treatment." }
 };
 
