@@ -2015,9 +2015,9 @@ html[lang="es"] .lang-show-en { display: none; }
   margin-top: 12px;
   padding: 8px 16px;
   border-radius: 20px;
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text-muted);
+  background: var(--accent);
+  border: none;
+  color: white;
   cursor: pointer;
   font-family: inherit;
   font-size: 12px;
@@ -2026,9 +2026,8 @@ html[lang="es"] .lang-show-en { display: none; }
 }
 
 .back-to-top:hover {
-  background: var(--accent);
+  background: #2563eb;
   color: white;
-  border-color: var(--accent);
 }
 
 
