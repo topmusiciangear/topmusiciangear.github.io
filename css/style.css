@@ -196,6 +196,11 @@ nav {
   transform: scale(1.2);
 }
 
+.header-social-link:hover img {
+  opacity: 1;
+  filter: brightness(0) invert(1);
+}
+
 .header-social-link:hover {
   color: var(--white);
   background: rgba(255,255,255,.08);
