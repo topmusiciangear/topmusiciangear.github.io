@@ -1798,6 +1798,9 @@ footer ul li a:hover { color: var(--accent); }
     width: 200px;
     height: 200px;
   }
+  .about-photo-wrapper img {
+    height: 100%;
+  }
   .about-credits { justify-content: center; }
 }
 
