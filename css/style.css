@@ -898,7 +898,7 @@ nav {
   gap: 6px;
   margin-top: 14px;
   font-size: 13px;
-  color: var(--accent);
+  color: var(--white);
   text-decoration: none;
   transition: opacity 0.2s;
 }
