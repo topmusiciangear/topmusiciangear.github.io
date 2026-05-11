@@ -2037,9 +2037,11 @@ html[lang="es"] .lang-show-en { display: none; }
 .about-video-circle {
   margin: 24px auto 0;
   max-width: 480px;
+  width: 100%;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
+  display: block;
 }
 
 .about-video-circle video {
