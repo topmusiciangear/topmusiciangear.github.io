@@ -342,7 +342,6 @@ function renderAbout() {
       <p>${t("aboutP3")}</p>
       <div class="about-credits">
         <span class="credit-badge"><i class="fa-solid fa-film"></i> ${t("credit_jamesbond")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-building"></i> ${t("credit_broadway")}</span>
         <span class="credit-badge"><i class="fa-solid fa-globe"></i> ${t("credit_festivals")}</span>
         <span class="credit-badge"><i class="fa-solid fa-landmark"></i> ${t("credit_abbeyroad")}</span>
         <span class="credit-badge"><i class="fa-solid fa-film"></i> ${t("credit_universal")}</span>
