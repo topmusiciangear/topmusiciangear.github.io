@@ -973,7 +973,7 @@ const guides = [
     title: "Best Cuban Tres Guitar for Recording (2026)",
     title_es: "Mejor Tres Cubano para Grabación (2026)",
     category: "tres",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429083.jpg",
+    image: "img/tres-guia.jpg",
     badge: "recommended",
     intro: "The Cuban Tres is the soul of son cubano — the rhythmic and melodic backbone of traditional Cuban music. I play a custom-built tres myself, handcrafted to my personal specifications. But if you don't have access to a luthier who can build one for you and you need to buy from a store, online retailers like Thomann offer several quality options. Here are my top picks for studio recording, from the professional choice to the best budget option.",
     intro_es: "El Tres Cubano es el alma del son cubano — la columna rítmica y melódica de la música tradicional cubana. Yo toco un tres personalizado, construido a mano según mis especificaciones personales. Pero si no tienes acceso a un luthier que te construya uno y necesitas comprarlo en una tienda, minoristas online como Thomann ofrecen varias opciones de calidad. Aquí están mis principales selecciones para grabación de estudio, desde la opción profesional hasta la mejor opción económica.",
@@ -1002,8 +1002,8 @@ const guides = [
       {
         heading: "Best Budget Option: Thomann Tres Cubano Standard Acacia",
         heading_es: "Mejor Opción Económica: Thomann Tres Cubano Standard Acacia",
-        content: "If you're just getting into Cuban music or need a reliable backup tres, the Standard Acacia is unbeatable for the price. The solid acacia top still gives you that woody, percussive tone that defines the tres sound, and the built-in pickup system means you can plug straight into an interface or PA without needing an external mic. At $279, it's an incredible value for students, touring musicians, or anyone building their first Cuban music setup. The tuning (G-B-E or G-C-E) is standard, and the 544mm scale length feels natural under the fingers.",
-        content_es: "Si apenas estás entrando en la música cubana o necesitas un tres de respaldo confiable, el Standard Acacia es inmejorable por el precio. La tapa sólida de acacia aún te da ese tono amaderado y percusivo que define el sonido del tres, y el sistema de pastilla incorporado significa que puedes conectarte directamente a una interfaz o PA sin necesidad de un micrófono externo. A $279, es un valor increíble para estudiantes, músicos de gira, o cualquiera construyendo su primer setup de música cubana.",
+        content: "If you're just getting into Cuban music or need a reliable backup tres, the Standard Acacia is unbeatable for the price. The solid acacia top still gives you that woody, percussive tone that defines the tres sound. At £219, it's an incredible value for students, touring musicians, or anyone building their first Cuban music setup. Includes a gig bag. The tuning (G-B-E or G-C-E) is standard, and the 544mm scale length feels natural under the fingers.",
+        content_es: "Si apenas estás entrando en la música cubana o necesitas un tres de respaldo confiable, el Standard Acacia es inmejorable por el precio. La tapa sólida de acacia aún te da ese tono amaderado y percusivo que define el sonido del tres. A £219, es un valor increíble para estudiantes, músicos de gira, o cualquiera construyendo su primer setup de música cubana. Incluye funda de transporte. La afinación (G-B-E o G-C-E) es estándar, y la escala de 544mm se siente natural bajo los dedos.",
         products: [44]
       },
       {
