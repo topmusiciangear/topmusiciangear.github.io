@@ -694,7 +694,7 @@ const products = [
     badge: "recommended",
     desc: "Professional-grade Cuban Tres with solid spruce top for exceptional clarity, sustain, and definition. No cutaway for maximum resonance. Mother of pearl inlays around sound hole, mahogany neck, walnut back and sides. The studio standard for authentic Cuban sound.",
     desc_es: "Tres Cubano de grado profesional con tapa sólida de abeto para claridad, sustain y definición excepcionales. Sin cutaway para máxima resonancia. Incrustaciones de nácar alrededor de la boca, mástil de caoba, fondo y aros de nogal. El estándar de estudio para sonido cubano auténtico.",
-    img: "img/tres-guia.jpg",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/336551.jpg",
     stores: {
       thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe.htm",
       gear4music: "https://www.gear4music.com/search"
