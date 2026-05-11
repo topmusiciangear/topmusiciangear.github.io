@@ -350,10 +350,11 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
       </div>
       <div class="about-video-circle">
-        <video controls preload="none">
+        <video controls preload="none" controlsList="nofullscreen" disablePictureInPicture>
           <source src="video/about-video.mp4" type="video/mp4">
         </video>
       </div>
+      <p class="about-email"><i class="fa-solid fa-envelope"></i> danielcarnago@gmail.com</p>
     </div>
   `;
 }

@@ -881,6 +881,7 @@ nav {
   box-shadow: 0 0 40px rgba(59,130,246,.15);
   flex-shrink: 0;
   background: var(--bg-secondary);
+  margin-left: -16px;
 }
 
 .about-photo-wrapper img {
@@ -2048,4 +2049,17 @@ html[lang="es"] .lang-show-en { display: none; }
   width: 100%;
   display: block;
   background: #000;
+}
+.about-email {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.about-email i {
+  color: var(--accent);
 }
