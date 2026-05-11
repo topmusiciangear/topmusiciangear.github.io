@@ -396,6 +396,42 @@ function handleNavClick(target) {
   }
 }
 
+function initVideoIntro() {
+  const video = document.getElementById("aboutVideo");
+  const overlay = document.getElementById("videoIntroOverlay");
+  if (!video || !overlay) return;
+
+  video.addEventListener("play", () => {
+    overlay.classList.add("hidden");
+    overlay.classList.remove("outro", "show");
+  });
+
+  video.addEventListener("pause", () => {
+    if (video.currentTime < 0.5) {
+      overlay.classList.remove("hidden");
+      overlay.classList.remove("outro", "show");
+    }
+  });
+
+  video.addEventListener("timeupdate", () => {
+    const remaining = video.duration - video.currentTime;
+    if (remaining < 3 && remaining > 0) {
+      overlay.classList.add("outro");
+      overlay.classList.remove("hidden");
+      requestAnimationFrame(() => {
+        overlay.classList.add("show");
+      });
+    }
+    if (remaining >= 3 && overlay.classList.contains("outro")) {
+      overlay.classList.remove("outro", "show");
+    }
+  });
+
+  video.addEventListener("ended", () => {
+    overlay.classList.remove("hidden", "outro");
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
@@ -422,6 +458,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderAudioMini();
   renderMySetup();
   renderAbout();
+  initVideoIntro();
   translatePage();
 
   document.getElementById("searchInput").addEventListener("input", e => {

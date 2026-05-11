@@ -184,8 +184,14 @@
   </section>
 
   <div class="stores-video">
-    <div class="about-video-circle">
-      <video controls preload="none" controlslist="nodownload nofullscreen">
+    <div class="about-video-circle" id="aboutVideoContainer">
+      <div class="video-intro-overlay" id="videoIntroOverlay">
+        <div class="video-intro-logo">
+          <img src="img/favicon.svg" alt="TG" class="video-intro-icon">
+          <span class="video-intro-brand"><span class="txt-blue">Top</span>MusicianGear</span>
+        </div>
+      </div>
+      <video id="aboutVideo" controls preload="none" controlslist="nodownload nofullscreen">
         <source src="video/about-video.mp4" type="video/mp4">
       </video>
     </div>
