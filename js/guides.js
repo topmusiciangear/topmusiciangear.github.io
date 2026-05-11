@@ -774,7 +774,7 @@ const guides = [
     title: "Best Studio Furniture & Setup (2026)",
     title_es: "Mejor Mobiliario y Configuración de Estudio (2026)",
     category: "accessories",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/508557.jpg",
     badge: "bestSeller",
     intro: "Your studio environment affects your work more than you think. Bad ergonomics lead to fatigue and bad decisions. Room reflections color everything you hear. The right stands, acoustic treatment, and positioning create a space where you can trust your ears and work for hours without fatigue.",
     intro_es: "El entorno de tu estudio afecta tu trabajo más de lo que crees. La mala ergonomía lleva a fatiga y malas decisiones. Las reflexiones de la sala colorean todo lo que escuchas. Los soportes correctos, el tratamiento acústico y el posicionamiento crean un espacio donde puedes confiar en tus oídos y trabajar durante horas sin fatiga.",
