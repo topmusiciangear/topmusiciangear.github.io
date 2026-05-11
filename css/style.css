@@ -1176,8 +1176,9 @@ footer ul li a:hover { color: var(--accent); }
   flex-direction: column;
   gap: 0;
   position: fixed;
-  top: 64px;
-  right: 12px;
+  top: 0;
+  right: 16px;
+  padding-top: 60px;
   z-index: 101;
   opacity: 0;
   pointer-events: none;
