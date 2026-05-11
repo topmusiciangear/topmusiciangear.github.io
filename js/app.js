@@ -478,5 +478,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  document.addEventListener('play', e => {
+    if (e.target.tagName === 'VIDEO') {
+      document.querySelectorAll('audio').forEach(a => { a.pause(); });
+    }
+  }, true);
+
   initialLoad = false;
 });
