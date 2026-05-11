@@ -867,8 +867,8 @@ nav {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 48px;
+  grid-template-columns: 240px 1fr auto;
+  gap: 32px;
   align-items: start;
 }
 
@@ -2043,10 +2043,15 @@ html[lang="es"] .lang-show-en { display: none; }
 .about-video-col {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   flex-shrink: 0;
 }
 
+.about-video-col video {
+  max-width: 280px;
+  border-radius: var(--radius);
+}
+
 @media (max-width: 900px) {
-  .about-video-col { justify-content: center; }
+  .about-video-col video { max-width: 100%; }
 }
