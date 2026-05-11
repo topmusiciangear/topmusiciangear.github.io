@@ -1827,8 +1827,9 @@ footer ul li a:hover { color: var(--accent); }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
   .hero { padding: 20px 20px 56px; }
-  .hero h1 { font-size: 30px; margin-bottom: 8px; }
-  .hero p { margin-bottom: 20px; }
+  .hero h1 { font-size: 30px; margin-bottom: 4px; }
+  .hero p { margin-bottom: 16px; }
+  .hero-badge { margin-bottom: 8px; }
   .hero-instruments { gap: 14px; font-size: 17px; }
   .bass-icon { font-size: 24px; }
   .hero-actions { flex-direction: column; align-items: center; }
