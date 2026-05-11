@@ -339,6 +339,11 @@ function renderAbout() {
       <p>${t("aboutP1")}</p>
       <p>${t("aboutP2")}</p>
       <p>${t("aboutP3")}</p>
+      <div class="about-video">
+        <video controls preload="none" poster="img/me.jpg">
+          <source src="video/about-video.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="about-credits">
         <span class="credit-badge"><i class="fa-solid fa-film"></i> ${t("credit_jamesbond")}</span>
         <span class="credit-badge"><i class="fa-solid fa-building"></i> ${t("credit_broadway")}</span>

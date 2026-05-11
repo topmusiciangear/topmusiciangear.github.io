@@ -1966,3 +1966,26 @@ header, .hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-
 
 html[lang="en"] .lang-show-es { display: none; }
 html[lang="es"] .lang-show-en { display: none; }
+.about-video {
+  margin: 24px 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.about-video video {
+  width: 100%;
+  display: block;
+  max-height: 500px;
+  background: #000;
+}
+
+.about-video video::-webkit-media-controls-panel {
+  background: var(--surface);
+}
+
+.about-video video::-webkit-media-controls-current-time-display,
+.about-video video::-webkit-media-controls-time-remaining-display {
+  color: var(--text);
+}
