@@ -73,20 +73,20 @@ const products = [
   },
   {
     id: 5,
-    title: "Shure SM58",
-    title_es: "Shure SM58",
+    title: "Shure SM57",
+    title_es: "Shure SM57",
     category: "microphones",
     price: 99,
     rating: 4.7,
     reviews: 45210,
     badge: "legend",
-    desc: "The industry standard for live vocals. Tailored frequency response, built-in spherical pop filter, and break-resistant construction. The most trusted vocal mic on the planet.",
-    desc_es: "El estándar de la industria para voces en vivo. Respuesta de frecuencia adaptada, filtro pop esférico incorporado y construcción resistente a roturas. El micrófono vocal más confiable del planeta.",
-    img: "img/sm58.jpg",
+    desc: "The most recorded instrument microphone in history. Indestructible, affordable, and incredible on guitar cabs, snares, and horns. Every musician should own one.",
+    desc_es: "El micrófono de instrumento más grabado de la historia. Indestructible, asequible e increíble en gabinetes de guitarra, cajas y trompetas. Todo músico debería tener uno.",
+    img: "https://media.sweetwater.com/m/products/image/8cc557164ei09SdpOiJJ8j2UgW5tRIRPcRVVipe6.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=8cc557164e165612",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/SM58--shure-sm58-cardioid-dynamic-vocal-microphone",
-      thomann: "https://www.thomann.co.uk/shure_sm_58_s.htm",
-      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Dynamic-Cardioid-Vocal-Microphone/4ZW"
+      sweetwater: "https://www.sweetwater.com/store/detail/SM57--shure-sm57-cardioid-dynamic-instrument-microphone",
+      thomann: "https://www.thomann.co.uk/shure_sm57_lc.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV"
     }
   },
 
