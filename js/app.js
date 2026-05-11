@@ -349,11 +349,11 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-compact-disc"></i> ${t("credit_warner")}</span>
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
       </div>
-    </div>
-    <div class="about-video-col">
-      <video controls preload="none" poster="img/me.jpg" style="width:100%;max-width:320px;display:block;border-radius:8px;">
-        <source src="video/about-video.mp4" type="video/mp4">
-      </video>
+      <div class="about-video-circle">
+        <video controls preload="none" poster="img/me.jpg">
+          <source src="video/about-video.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   `;
 }
