@@ -143,6 +143,15 @@ header {
   flex-shrink: 0;
 }
 
+.logo-desc {
+  font-size: 9px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: .3px;
+  white-space: nowrap;
+  margin-top: 1px;
+}
+
 .logo span { color: var(--accent); }
 
 nav {
