@@ -332,6 +332,7 @@ function renderAbout() {
   container.innerHTML = `
     <div class="about-photo-wrapper">
       <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
+      <a href="mailto:danielcarnago@gmail.com" class="about-email-link"><i class="fa-solid fa-envelope"></i> danielcarnago@gmail.com</a>
     </div>
     <div class="about-content">
       <h2>${t("aboutTitle")}<span>${t("aboutName")}</span></h2>
@@ -350,11 +351,10 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
       </div>
       <div class="about-video-circle">
-        <video controls preload="none" controlslist="nofullscreen">
+        <video controls preload="none" controlslist="nodownload nofullscreen">
           <source src="video/about-video.mp4" type="video/mp4">
         </video>
       </div>
-      <p class="about-email"><i class="fa-solid fa-envelope"></i> danielcarnago@gmail.com</p>
     </div>
   `;
 }
