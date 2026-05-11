@@ -308,65 +308,6 @@ const guides = [
     featuredProducts: [34, 33, 13, 15, 23]
   },
   {
-    id: "best-strings",
-    title: "Best Guitars & Basses for Every Player (2026)",
-    title_es: "Mejores Guitarras y Bajos Para Cada Músico (2026)",
-    category: "strings",
-    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
-    badge: "legend",
-    intro: "Whether you play guitar, bass, or both, your instrument is your voice. I've toured the world with Fenders and Gibsons, recorded at Abbey Road, and played everything from Broadway pits to Glastonbury fields. Here are the stringed instruments I trust most, for every budget and style.",
-    intro_es: "Ya sea que toques guitarra, bajo o ambos, tu instrumento es tu voz. He girado por el mundo con Fenders y Gibsons, grabado en Abbey Road, y tocado en todo, desde fosos de Broadway hasta los campos de Glastonbury. Aquí están los instrumentos de cuerda en los que más confío, para cada presupuesto y estilo.",
-    sections: [
-      {
-        heading: "Best All-Rounder Electric: Fender American Professional II Stratocaster",
-        heading_es: "Mejor Eléctrica Todo-Terreno: Fender American Professional II Stratocaster",
-        content: "The Stratocaster is the most versatile electric guitar ever designed. The American Pro II series refines everything — V-Mod II pickups that sound incredible clean or driven, a Deep C neck that feels broken-in from day one, and a satin finish that's smooth on your hand. I've used Strats on every tour and session. It works for blues, pop, rock, funk — everything. If you can only own one electric guitar, make it a Strat.",
-        content_es: "La Stratocaster es la guitarra eléctrica más versátil jamás diseñada. La serie American Pro II refina todo — pastillas V-Mod II que suenan increíbles limpias o saturadas, un mástil Deep C que se siente usado desde el primer día, y un acabado satinado suave al tacto. He usado Strats en cada gira y sesión. Funciona para blues, pop, rock, funk — todo. Si solo puedes tener una guitarra eléctrica, que sea una Strat.",
-        products: [6]
-      },
-      {
-        heading: "Best for Rock: Gibson Les Paul Standard '60s",
-        heading_es: "Mejor para Rock: Gibson Les Paul Standard '60s",
-        content: "Nothing sounds like a Les Paul. The '60s Standard has Burstbucker pickups that deliver that thick, singing sustain rock was built on. The mahogany body with maple top gives it weight (literally and sonically). I've seen these on Broadway stages and in London studios — it's the sound of rock history. If you play rock, you need a Les Paul.",
-        content_es: "Nada suena como una Les Paul. La Standard de los '60 tiene pastillas Burstbucker que entregan ese sustain grueso y cantarín sobre el que se construyó el rock. El cuerpo de caoba con tapa de arce le da peso (literal y sonoramente). Las he visto en escenarios de Broadway y en estudios de Londres — es el sonido de la historia del rock. Si tocas rock, necesitas una Les Paul.",
-        products: [7]
-      },
-      {
-        heading: "Best Acoustic: Taylor 314ce",
-        heading_es: "Mejor Acústica: Taylor 314ce",
-        content: "A great acoustic needs to feel good in your hands and sound good in the room. The Taylor 314ce delivers both. Solid Sitka spruce top with Tasmanian blackwood back and sides gives it a balanced, articulate tone. The Grand Auditorium body shape is comfortable for hours of playing. I've written some of my best ideas on this guitar — it just inspires you to play.",
-        content_es: "Una gran acústica necesita sentirse bien en tus manos y sonar bien en la sala. La Taylor 314ce ofrece ambas cosas. Tapa de abeto Sitka macizo con fondo y aros de palo negro de Tasmania le da un tono equilibrado y articulado. La forma del cuerpo Grand Auditorium es cómoda para horas de interpretación. He escrito algunas de mis mejores ideas en esta guitarra — simplemente te inspira a tocar.",
-        products: [8]
-      },
-      {
-        heading: "Best for Speed & Shred: Ibanez RG550 Genesis",
-        heading_es: "Mejor para Velocidad y Shred: Ibanez RG550 Genesis",
-        content: "The RG550 is a shred legend reborn. The Super Wizard neck is paper-thin, the Edge tremolo stays in tune through the wildest dive bombs, and the DiMarzio pickups scream. If you play metal, prog, or anything that requires speed, this is your weapon. And at $999, it's the best value in the shred guitar world.",
-        content_es: "La RG550 es una leyenda del shred renacida. El mástil Super Wizard es delgado como el papel, el trémolo Edge se mantiene afinado a través de los dive bombs más salvajes, y las pastillas DiMarzio gritan. Si tocas metal, prog o cualquier cosa que requiera velocidad, esta es tu arma. Y a $999, es la mejor relación calidad-precio en el mundo del shred.",
-        products: [9]
-      },
-      {
-        heading: "Best Premium: PRS McCarty 594",
-        heading_es: "Mejor Premium: PRS McCarty 594",
-        content: "The PRS McCarty 594 is Paul Reed Smith's tribute to the golden era of electric guitars. It combines vintage vibe with modern precision — 58/15 LT pickups, a Pattern Vintage neck, and impeccable fit and finish. I've played McCartys on high-profile sessions where every note had to be perfect, and they delivered. If you want a lifetime instrument, this is it.",
-        content_es: "La PRS McCarty 594 es el tributo de Paul Reed Smith a la era dorada de las guitarras eléctricas. Combina vibra vintage con precisión moderna — pastillas 58/15 LT, un mástil Pattern Vintage, y ajuste y acabado impecables. He tocado McCartys en sesiones de alto perfil donde cada nota debía ser perfecta, y cumplieron. Si quieres un instrumento para toda la vida, esta es.",
-        products: [10]
-      },
-      {
-        heading: "For Bass Players",
-        heading_es: "Para Bajistas",
-        content: "While this guide focuses on guitars, every bass player I know swears by Fender Precision and Jazz Basses, Music Man Stingrays, and Ibanez Soundgears. The amps, effects, and recording tips throughout this site apply equally to bass. The right bass is about feel — find one that inspires you and never let it go.",
-        content_es: "Aunque esta guía se centra en guitarras, cada bajista que conozco jura por los Fender Precision y Jazz Bass, Music Man Stingray e Ibanez Soundgear. Los amplificadores, efectos y consejos de grabación en este sitio aplican igualmente al bajo. El bajo correcto se trata de sensación — encuentra uno que te inspire y nunca lo sueltes.",
-        products: [6]
-      }
-    ],
-    conclusion: "The best guitar is the one that makes you want to play. The Stratocaster is the safest bet for versatility. The Les Paul is iconic for rock. The Taylor 314ce is the acoustic you'll keep forever. And the PRS McCarty 594 is an heirloom-quality instrument. Try them if you can, but you can't go wrong with any of these.",
-    conclusion_es: "La mejor guitarra es la que te hace querer tocar. La Stratocaster es la apuesta más segura por versatilidad. La Les Paul es icónica para el rock. La Taylor 314ce es la acústica que conservarás para siempre. Y la PRS McCarty 594 es un instrumento de calidad de herencia. Pruébalas si puedes, pero no puedes equivocarte con ninguna de estas.",
-    verdict: "Fender Stratocaster for versatility, Les Paul for rock",
-    verdict_es: "Fender Stratocaster para versatilidad, Les Paul para rock",
-    featuredProducts: [6, 7, 8, 9, 10]
-  },
-  {
     id: "best-accessories",
     title: "Essential Accessories Every Musician Needs (2026)",
     title_es: "Accesorios Esenciales Que Todo Músico Necesita (2026)",
@@ -503,68 +444,6 @@ const guides = [
     verdict: "SM57 for stage, SM7B for smooth live vocals",
     verdict_es: "SM57 para escenario, SM7B para voces suaves en vivo",
     featuredProducts: [5, 1]
-  },
-  {
-    id: "acoustic-guitars",
-    title: "Best Acoustic Guitars for Every Budget (2026)",
-    title_es: "Mejores Guitarras Acústicas Para Cada Presupuesto (2026)",
-    category: "strings",
-    image: "img/acoustic-guitars.jpg",
-    badge: "bestSeller",
-    intro: "An acoustic guitar is the most honest instrument there is. No pedals, no amps, no plugins — just wood, strings, and your hands. I've written some of my best songs on acoustics, and the right one will inspire you every time you pick it up. Here are my top recommendations for every budget, from the working musician's companion to the heirloom piece.",
-    intro_es: "Una guitarra acústica es el instrumento más honesto que existe. Sin pedales, sin amplificadores, sin plugins — solo madera, cuerdas y tus manos. He escrito algunas de mis mejores canciones en acústicas, y la correcta te inspirará cada vez que la tomes. Aquí están mis principales recomendaciones para cada presupuesto, desde la compañera del músico trabajador hasta la pieza de herencia.",
-    sections: [
-      {
-        heading: "The Songwriter's Dream: Taylor 314ce",
-        heading_es: "El Sueño del Compositor: Taylor 314ce",
-        content: "The Taylor 314ce is the acoustic I reach for when I need a guitar that records beautifully and plays effortlessly. The solid Sitka spruce top with Tasmanian blackwood back and sides produces a balanced, articulate tone that sits perfectly in a mix. The Grand Auditorium body shape is comfortable for hours of playing, and Taylor's Expression System 2 pickup translates that natural sound faithfully to a PA or interface. This is the acoustic that made me fall in love with acoustic guitar all over again.",
-        content_es: "La Taylor 314ce es la acústica que tomo cuando necesito una guitarra que grabe hermosamente y toque sin esfuerzo. La tapa de abeto Sitka macizo con fondo y aros de palo negro de Tasmania produce un tono equilibrado y articulado que se asienta perfectamente en una mezcla. La forma del cuerpo Grand Auditorium es cómoda para horas de interpretación, y el sistema de captación Expression System 2 de Taylor traduce ese sonido natural fielmente a un PA o interfaz. Esta es la acústica que me hizo enamorarme de la guitarra acústica otra vez.",
-        products: [8]
-      },
-      {
-        heading: "The Electric Player's Acoustic: Fender Stratocaster",
-        heading_es: "La Acústica del Guitarrista Eléctrico: Fender Stratocaster",
-        content: "Wait — a Stratocaster in an acoustic guitar guide? Here's the thing: many electric players want an acoustic feel without completely abandoning their comfort zone. While the Strat is an electric, its contoured body, comfortable neck profile, and tonal versatility make it the guitar I recommend to players who split their time between electric and acoustic. For pure acoustic tone, the Taylor 314ce is the real deal — but for the electric player who writes on acoustic and performs on electric, understanding both worlds matters.",
-        content_es: "Espera — ¿una Stratocaster en una guía de guitarras acústicas? Esta es la cuestión: muchos guitarristas eléctricos quieren una sensación acústica sin abandonar completamente su zona de confort. Aunque la Strat es eléctrica, su cuerpo contorneado, perfil de mástil cómodo y versatilidad tonal la convierten en la guitarra que recomiendo a músicos que dividen su tiempo entre eléctrica y acústica. Para tono acústico puro, la Taylor 314ce es la verdadera — pero para el guitarrista eléctrico que escribe en acústica y toca en eléctrica, entender ambos mundos importa.",
-        products: [6]
-      }
-    ],
-    conclusion: "The Taylor 314ce is the acoustic you'll keep for life — it records beautifully, plays effortlessly, and inspires every time you pick it up. If you're primarily an electric player dipping into acoustic territory, the skills translate and the Taylor will make the transition natural. Either way, invest in a guitar that makes you want to play.",
-    conclusion_es: "La Taylor 314ce es la acústica que conservarás de por vida — graba hermosamente, toca sin esfuerzo e inspira cada vez que la tomas. Si eres principalmente un guitarrista eléctrico incursionando en territorio acústico, las habilidades se traducen y la Taylor hará la transición natural. De cualquier manera, invierte en una guitarra que te haga querer tocar.",
-    verdict: "Taylor 314ce — the songwriter's acoustic for life",
-    verdict_es: "Taylor 314ce — la acústica del compositor para toda la vida",
-    featuredProducts: [8, 6]
-  },
-  {
-    id: "bass-guitars",
-    title: "Best Bass Guitars & Bass Amps (2026)",
-    title_es: "Mejores Bajos y Amplificadores de Bajo (2026)",
-    category: "strings",
-    image: "img/bass-guitars.jpg",
-    badge: "recommended",
-    intro: "Bass is the foundation. It's what makes people move. Recording bass well means understanding that the right instrument — even one usually thought of as a 'guitar' — can deliver the low-end punch your track needs. Here's my guide to getting bass right, using instruments that serious players trust.",
-    intro_es: "El bajo es la base. Es lo que hace que la gente se mueva. Grabar bien el bajo significa entender que el instrumento correcto — incluso uno que normalmente se considera 'guitarra' — puede ofrecer el golpe de graves que tu pista necesita. Aquí está mi guía para hacer bien el bajo, usando instrumentos en los que los músicos serios confían.",
-    sections: [
-      {
-        heading: "The Versatile Powerhouse: Fender Stratocaster",
-        heading_es: "La Potencia Versátil: Fender Stratocaster",
-        content: "Hear me out — while the Stratocaster is an electric guitar, its tonal versatility and the way it sits in a mix offer lessons for bass players too. A great bass part and a great rhythm guitar part share the same DNA: groove, pocket, and taste. The Strat's single-coil clarity in the neck position produces tones that complement a bass line perfectly. If you're a multi-instrumentalist building your arsenal, understanding how guitar and bass interact is crucial — and the Strat is the best bridge between those worlds.",
-        content_es: "Escúchame — aunque la Stratocaster es una guitarra eléctrica, su versatilidad tonal y la forma en que se asienta en una mezcla ofrecen lecciones para bajistas también. Una gran línea de bajo y una gran parte de guitarra rítmica comparten el mismo ADN: groove, pocket y gusto. La claridad de bobina simple de la Strat en la posición de mástil produce tonos que complementan perfectamente una línea de bajo. Si eres un multiinstrumentista construyendo tu arsenal, entender cómo interactúan la guitarra y el bajo es crucial — y la Strat es el mejor puente entre esos mundos.",
-        products: [6]
-      },
-      {
-        heading: "The Precision Alternative: Ibanez RG550",
-        heading_es: "La Alternativa de Precisión: Ibanez RG550",
-        content: "The Ibanez RG550 proves that a fast, precise instrument translates across the frequency spectrum. The same qualities that make it a shred guitar legend — tight response, articulate pickups, and a neck built for speed — are exactly what you want in a bass or baritone guitar setup when you're tracking tight, rhythmic low-end parts. For metal and prog bassists who double on guitar, the RG550's approach to precision and articulation should inform every instrument choice you make.",
-        content_es: "La Ibanez RG550 demuestra que un instrumento rápido y preciso se traduce a través del espectro de frecuencias. Las mismas cualidades que la hacen una leyenda del shred — respuesta ajustada, pastillas articuladas y un mástil construido para velocidad — son exactamente lo que quieres en una configuración de bajo o guitarra barítono cuando grabas partes ajustadas y rítmicas de baja frecuencia. Para bajistas de metal y prog que también tocan guitarra, el enfoque de la RG550 en precisión y articulación debe informar cada elección de instrumento que hagas.",
-        products: [9]
-      }
-    ],
-    conclusion: "Bass playing is about feel, groove, and serving the song. The same principles that make the Stratocaster and RG550 great guitars — versatility, precision, and reliable tone — are what you should look for in any bass setup. Whether you play bass, guitar, or both, invest in instruments that lock you into the pocket and make the rhythm section undeniable.",
-    conclusion_es: "Tocar el bajo se trata de sensación, groove y servir a la canción. Los mismos principios que hacen que la Stratocaster y la RG550 sean grandes guitarras — versatilidad, precisión y tono confiable — son lo que debes buscar en cualquier configuración de bajo. Ya sea que toques bajo, guitarra o ambos, invierte en instrumentos que te bloqueen en el pocket y hagan que la sección rítmica sea innegable.",
-    verdict: "Groove first, gear second — but great gear helps",
-    verdict_es: "El groove primero, el equipo después — pero el buen equipo ayuda",
-    featuredProducts: [6, 9]
   },
   {
     id: "portable-interfaces",
@@ -951,37 +830,6 @@ const guides = [
     verdict: "U 87 Ai for vocals, C414 for ribbon flexibility",
     verdict_es: "U 87 Ai para voces, C414 para flexibilidad de cinta",
     featuredProducts: [2, 4]
-  },
-  {
-    id: "guitar-pedals",
-    title: "Best Guitar Pedals & Effects (2026)",
-    title_es: "Mejores Pedales y Efectos de Guitarra (2026)",
-    category: "strings",
-    image: "https://images.unsplash.com/photo-1550985616-10810253b84d?w=600&h=400&fit=crop",
-    badge: "recommended",
-    intro: "The right pedal doesn't just change your sound — it changes how you play. Half of iconic guitar tones are the guitar itself; the other half is what you put between it and the amp. I've built pedalboards for Broadway pits, Glastonbury stages, and studio sessions, and I've learned that pedals matter as much as the instrument. Here's how the right guitar and pedal approach transforms your sound.",
-    intro_es: "El pedal correcto no solo cambia tu sonido — cambia cómo tocas. La mitad de los tonos icónicos de guitarra es la guitarra misma; la otra mitad es lo que pones entre ella y el amplificador. He construido pedalboards para fosos de Broadway, escenarios de Glastonbury y sesiones de estudio, y he aprendido que los pedales importan tanto como el instrumento. Así es como el enfoque correcto de guitarra y pedal transforma tu sonido.",
-    sections: [
-      {
-        heading: "The Pedal Platform: Fender Stratocaster",
-        heading_es: "La Plataforma de Pedales: Fender Stratocaster",
-        content: "The Fender Stratocaster is the ultimate pedal platform guitar. Single-coil pickups respond to every nuance — compression brings out the quack, overdrive pushes the bell-like highs into singing sustain, modulation effects swirl through the clear frequency spectrum without turning to mud. I've run Strats through every pedal imaginable and the result is always the same: the guitar's inherent clarity lets each effect speak. If you're building a pedal collection, start with a Strat. It reveals what your pedals actually sound like.",
-        content_es: "La Fender Stratocaster es la plataforma de pedales definitiva. Las pastillas de bobina simple responden a cada matiz — la compresión resalta el quack, el overdrive empuja los agudos acampanados hacia sustain cantarín, los efectos de modulación se arremolinan a través del espectro de frecuencias claro sin convertirse en barro. He pasado Strats por cada pedal imaginable y el resultado es siempre el mismo: la claridad inherente de la guitarra deja que cada efecto hable. Si estás construyendo una colección de pedales, empieza con una Strat. Revela cómo suenan realmente tus pedales.",
-        products: [6]
-      },
-      {
-        heading: "The Saturated Canvas: Gibson Les Paul",
-        heading_es: "El Lienzo Saturado: Gibson Les Paul",
-        content: "The Gibson Les Paul with its humbuckers treats pedals differently. Overdrives and fuzzes bloom into thick, harmonic-rich distortion that single-coils can't replicate. Where a Strat demands clarity from effects, a Les Paul demands character — it pushes delays into darker repeats, reverbs into denser atmospheres, and modulation into chewier textures. The Burstbucker pickups in the Standard '60s were literally designed to interact with classic pedal circuits. For rock, blues, and anything that needs weight, the Les Paul through a good pedal chain is unstoppable.",
-        content_es: "La Gibson Les Paul con sus humbuckers trata los pedales de manera diferente. Los overdrives y fuzzes florecen en distorsión gruesa y rica en armónicos que las bobinas simples no pueden replicar. Donde una Strat exige claridad de los efectos, una Les Paul exige carácter — empuja los delays hacia repeticiones más oscuras, los reverbs hacia atmósferas más densas y la modulación hacia texturas más masticables. Las pastillas Burstbucker en la Standard '60s fueron literalmente diseñadas para interactuar con circuitos de pedales clásicos. Para rock, blues y cualquier cosa que necesite peso, la Les Paul a través de una buena cadena de pedales es imparable.",
-        products: [7]
-      }
-    ],
-    conclusion: "Your guitar is the first pedal in your chain — it shapes how every effect after it responds. The Fender Stratocaster gives you a clean, articulate canvas where effects speak with clarity. The Gibson Les Paul gives you a rich, saturated canvas where effects gain weight and dimension. Build your pedalboard around your guitar's character, not the other way around.",
-    conclusion_es: "Tu guitarra es el primer pedal en tu cadena — da forma a cómo responde cada efecto después de ella. La Fender Stratocaster te da un lienzo limpio y articulado donde los efectos hablan con claridad. La Gibson Les Paul te da un lienzo rico y saturado donde los efectos ganan peso y dimensión. Construye tu pedalboard alrededor del carácter de tu guitarra, no al revés.",
-    verdict: "Strat for pedal clarity, Les Paul for pedal character",
-    verdict_es: "Strat para claridad de pedales, Les Paul para carácter de pedales",
-    featuredProducts: [6, 7]
   },
   {
     id: "pro-interfaces",
