@@ -973,7 +973,7 @@ const guides = [
     title: "Best Cuban Tres Guitar for Recording (2026)",
     title_es: "Mejor Tres Cubano para Grabación (2026)",
     category: "tres",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/336551.jpg",
+    image: "img/tres-guia.jpg",
     badge: "recommended",
     intro: "The Cuban Tres is the soul of son cubano — the rhythmic and melodic backbone of traditional Cuban music. I play a custom-built tres myself, handcrafted to my personal specifications. But if you don't have access to a luthier who can build one for you and you need to buy from a store, online retailers like Thomann offer several quality options. Here are my top picks for studio recording, from the professional choice to the best budget option.",
     intro_es: "El Tres Cubano es el alma del son cubano — la columna rítmica y melódica de la música tradicional cubana. Yo toco un tres personalizado, construido a mano según mis especificaciones personales. Pero si no tienes acceso a un luthier que te construya uno y necesitas comprarlo en una tienda, Thomann ofrece varias opciones de calidad. Aquí están mis principales selecciones para grabación de estudio, desde la opción profesional hasta la mejor opción económica.",
