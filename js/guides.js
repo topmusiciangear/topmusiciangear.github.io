@@ -35,14 +35,14 @@ const guides = [
         heading_es: "Accesorios Que Realmente Necesitas",
         content: "Don't waste money on things you don't need. Get a solid mic stand — the K&M 210/2 is German-engineered and will outlast everything else in your studio. A Mogami Gold XLR cable ensures clean signal from day one. That's it. You can add acoustic treatment and pop filters later.",
         content_es: "No gastes dinero en cosas que no necesitas. Consigue un soporte de micrófono sólido — el K&M 210/2 tiene ingeniería alemana y durará más que todo lo demás en tu estudio. Un cable Mogami Gold XLR asegura señal limpia desde el primer día. Eso es todo. Puedes añadir tratamiento acústico y filtros antipop más adelante.",
-        products: [37, 38]
+        products: [38]
       }
     ],
     conclusion: "With this setup — Scarlett 2i2, SM57, ATH-M50x, a K&M stand, and a Mogami cable — you can record, mix, and release professional music for under $700. I've tracked sessions with exactly this chain and the results are broadcast-ready. Start here, learn your craft, and upgrade only when your skill outgrows your gear.",
     conclusion_es: "Con esta configuración — Scarlett 2i2, SM57, ATH-M50x, un soporte K&M y un cable Mogami — puedes grabar, mezclar y publicar música profesional por menos de $700. He grabado sesiones exactamente con esta cadena y los resultados están listos para transmitir. Empieza aquí, aprende tu oficio y actualiza solo cuando tu habilidad supere a tu equipo.",
     verdict: "Best overall starter studio",
     verdict_es: "Mejor estudio inicial completo",
-    featuredProducts: [15, 5, 25, 37, 38]
+    featuredProducts: [15, 5, 25, 38]
   },
   {
     id: "best-interface",
@@ -312,7 +312,7 @@ const guides = [
     title: "Essential Accessories Every Musician Needs (2026)",
     title_es: "Accesorios Esenciales Que Todo Músico Necesita (2026)",
     category: "accessories",
-    image: "https://k584otvs.cdn.imgeng.in/sites/ymlv5.19/productimages/900x900/YBCF300-PACK.jpg?1701265849",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/561297.jpg",
     badge: "recommended",
     intro: "Gear isn't just about guitars and microphones. After 20+ years on stage and in the studio, I've learned the hard way that cheap accessories cost more in the long run. A bad cable fails during the best take. A flimsy stand drops your mic mid-show. A soft case means a broken headstock at baggage claim. These are the accessories that protect your investment and keep your sound clean — the ones I actually trust on tour.",
     intro_es: "El equipo no es solo guitarras y micrófonos. Después de más de 20 años en el escenario y en el estudio, he aprendido por las malas que los accesorios baratos cuestan más a largo plazo. Un cable malo falla durante la mejor toma. Un soporte endeble deja caer tu micrófono en medio del show. Una funda blanda significa un clavijero roto en el reclamo de equipaje. Estos son los accesorios que protegen tu inversión y mantienen tu sonido limpio — en los que realmente confío en gira.",
@@ -329,7 +329,7 @@ const guides = [
         heading_es: "Soportes de Mic y Clips: Soporte Sólido Como Roca",
         content: "Nothing worse than a mic stand slowly sinking during a vocal take or a loose clip dropping your mic. I use K&M stands exclusively — German engineering, zinc die-cast bases, and they last decades. The 210/2 is the standard for good reason. Pair it with a Shure A25D mic clip for SM57/SM58 mics — it's break-resistant and grips the mic like a vise. For studio monitors, the K&M 26725 stands get your speakers to ear height with decoupling spikes for cleaner low end.",
         content_es: "Nada peor que un soporte de micrófono hundiéndose lentamente durante una toma vocal o un clip suelto dejando caer tu micrófono. Uso soportes K&M exclusivamente — ingeniería alemana, bases de zinc fundido a presión, y duran décadas. El 210/2 es el estándar por buenas razones. Combínalo con un clip de micrófono Shure A25D para micrófonos SM57/SM58 — es resistente a roturas y agarra el micrófono como un tornillo de banco. Para monitores de estudio, los soportes K&M 26725 ponen tus altavoces a la altura del oído con puntas de desacoplamiento para graves más limpios.",
-        products: [37]
+        products: [38]
       },
       {
         heading: "Guitar & Bass Cases: Protect Your Instrument",
@@ -350,7 +350,7 @@ const guides = [
     conclusion_es: "Los accesorios son los héroes anónimos de cada gran grabación y show en vivo. Invierte en cables de calidad (Mogami), soportes sólidos (K&M), estuches protectores (Gator) y clips de micrófono confiables (Shure). Estas son las cosas que seguirás usando dentro de diez años, cuando el preamplificador de lujo ya se haya vendido y el último sintetizador esté acumulando polvo. Compra bien, compra una vez, y concéntrate en hacer música.",
     verdict: "Mogami cables + K&M stands = the studio standard",
     verdict_es: "Mogami cables + soportes K&M = el estándar de estudio",
-    featuredProducts: [38, 37]
+    featuredProducts: [38]
   },
   {
     id: "budget-mics",
@@ -660,7 +660,7 @@ const guides = [
         heading_es: "Sácalos de Tu Escritorio: Soportes de Monitor K&M",
         content: "Putting monitors on your desk is the single most common mixing mistake. Your desk vibrates, creating resonances that muddy your low end. Desk reflections comb-filter your midrange. The solution? Proper monitor stands. The K&M 26725 stands are German-engineered steel, height-adjustable to get tweeters exactly at ear level, and include floor spikes that mechanically decouple the speaker from the floor — tightening your bass response dramatically. At $89 a pair, monitor stands are the cheapest upgrade that makes the biggest difference. This is not optional.",
         content_es: "Poner monitores en tu escritorio es el error de mezcla más común. Tu escritorio vibra, creando resonancias que embarran tus graves. Las reflexiones del escritorio filtran en peine tus medios. ¿La solución? Soportes de monitor adecuados. Los soportes K&M 26725 son de acero con ingeniería alemana, ajustables en altura para poner los tweeters exactamente al nivel del oído, e incluyen puntas de piso que desacoplan mecánicamente el altavoz del suelo — ajustando dramáticamente tu respuesta de graves. A $89 el par, los soportes de monitor son la mejora más barata que marca la mayor diferencia. Esto no es opcional.",
-        products: [37]
+        products: [38]
       }
     ],
     conclusion: "Spend $698 on Yamaha HS8s and $89 on K&M stands. That's $787 total for a monitoring setup that will reveal more about your mixes than $3,000 monitors sitting on a desk. The stands matter almost as much as the speakers — don't skip them. Once your monitors are properly positioned, you can hear what your room actually sounds like and make informed treatment decisions.",
@@ -784,14 +784,14 @@ const guides = [
         heading_es: "Empieza con Estabilidad: Soporte de Micrófono K&M",
         content: "The K&M 210/2 mic stand is a piece of German engineering that will outlast everything else in your studio. The zinc die-cast base keeps it planted — no slow sinking during vocal takes, no tipping when you adjust the boom. The telescopic arm extends smoothly and locks firmly. I've owned K&M stands for over 15 years and they work exactly like day one. Cheap mic stands cost you time and takes. The K&M costs $49 and pays for itself in saved frustration within the first session.",
         content_es: "El soporte de micrófono K&M 210/2 es una pieza de ingeniería alemana que durará más que todo lo demás en tu estudio. La base de zinc fundido a presión lo mantiene firme — sin hundimiento lento durante las tomas vocales, sin vuelcos cuando ajustas el brazo. El brazo telescópico se extiende suavemente y se bloquea firmemente. He tenido soportes K&M durante más de 15 años y funcionan exactamente como el primer día. Los soportes baratos te cuestan tiempo y tomas. El K&M cuesta $49 y se paga solo en frustración ahorrada dentro de la primera sesión.",
-        products: [37]
+        products: [38]
       },
       {
         heading: "Elevate Your Sound: K&M Monitor Stands",
         heading_es: "Eleva Tu Sonido: Soportes de Monitor K&M",
         content: "Monitor placement is the foundation of accurate mixing. Desk-mounting your monitors creates resonances that muddy your low end and reflections that smear your stereo image. The K&M 26725 stands get your speakers to ear height, mechanically decouple them from the floor with adjustable spikes, and lock them in position. Height adjustability means you can set the tweeters at exactly ear level whether you're sitting or standing. At $89 a pair, these stands will improve your monitoring accuracy more than spending an extra $500 on speakers.",
         content_es: "La colocación de los monitores es la base de una mezcla precisa. Montar los monitores en el escritorio crea resonancias que embarran los graves y reflexiones que manchan la imagen estéreo. Los soportes K&M 26725 ponen tus altavoces a la altura del oído, los desacoplan mecánicamente del suelo con puntas ajustables y los fijan en posición. La altura ajustable significa que puedes poner los tweeters exactamente al nivel del oído. A $89 el par, estos soportes mejorarán tu precisión de monitoreo más que gastar $500 extra en altavoces.",
-        products: [37]
+        products: [38]
       },
       {
         heading: "Clean Up Your Cables: Mogami Gold XLR",
@@ -811,7 +811,7 @@ const guides = [
     conclusion: "Build your studio foundation right. Start with a K&M mic stand ($49) and monitor stands ($89) to position your gear correctly. Add a Mogami XLR cable ($39) for clean, reliable signal. When you're ready to level up your workflow, the SSL UF8 ($1,199) transforms mixing from a screen task into a musical experience. The right furniture and setup isn't an expense — it's the foundation everything else depends on.",
     conclusion_es: "Construye bien la base de tu estudio. Empieza con un soporte de micrófono K&M ($49) y soportes de monitor ($89) para posicionar tu equipo correctamente. Añade un cable Mogami XLR ($39) para señal limpia y confiable. Cuando estés listo para subir de nivel tu flujo de trabajo, el SSL UF8 ($1,199) transforma la mezcla de una tarea de pantalla a una experiencia musical. El mobiliario y la configuración correctos no son un gasto — son la base de la que todo lo demás depende.",
     verdict: "Build your foundation before buying more gear",
-    featuredProducts: [37, 38, 42]
+    featuredProducts: [38, 42]
   },
 
   {

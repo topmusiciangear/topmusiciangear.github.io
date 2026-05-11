@@ -617,24 +617,6 @@ const products = [
 
   // ===== ACCESSORIES =====
   {
-    id: 37,
-    title: "König & Meyer 26725 Monitor Stand",
-    title_es: "Soporte de Monitor König & Meyer 26725",
-    category: "accessories",
-    price: 89,
-    rating: 4.5,
-    reviews: 5400,
-    badge: null,
-    desc: "Heavy-duty steel monitor stands (pair). Height-adjustable with adjustable spikes for decoupling. Supports up to 35 kg per stand.",
-    desc_es: "Soportes de monitor de acero de alta resistencia (par). Altura ajustable con puntas ajustables para desacoplamiento. Soporta hasta 35 kg por soporte.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/121296.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/KM26725--konig-and-meyer-26725-monitor-stand-with-floor-spikes-pair",
-      thomann: "https://www.thomann.de/intl/km_26725.htm",
-      gear4music: "https://www.gear4music.com/search"
-    }
-  },
-  {
     id: 38,
     title: "Mogami Gold Studio XLR Cable (3m)",
     title_es: "Cable XLR Mogami Gold Studio (3m)",
