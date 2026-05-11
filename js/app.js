@@ -3,6 +3,7 @@ let currentCategory = "all";
 let searchQuery = "";
 let currentGuideId = null;
 let initialLoad = true;
+let skipDetailScroll = false;
 
 function t(key) {
   return translations[currentLang]?.[key] || translations.en[key] || key;
@@ -22,6 +23,7 @@ function setLang(lang) {
   translatePage();
   renderGuideCats();
   if (currentGuideId) {
+    skipDetailScroll = true;
     renderGuideDetail(currentGuideId);
   } else {
     renderGuideGrid();
@@ -276,12 +278,13 @@ function renderGuideDetail(id) {
     const el = document.getElementById("guides");
     if (el) el.scrollIntoView({ behavior: "smooth" });
   });
-  if (!initialLoad) {
+  if (!initialLoad && !skipDetailScroll) {
     setTimeout(() => {
       const el = document.getElementById("guideGrid");
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
   }
+  skipDetailScroll = false;
 }
 
 function renderAudioMini() {
