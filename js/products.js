@@ -716,6 +716,40 @@ const products = [
       thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_acacia.htm",
       gear4music: "https://www.gear4music.com/search"
     }
+  },
+  {
+    id: 45,
+    title: "Thomann Tres Cubano Standard CCW",
+    title_es: "Tres Cubano Standard CCW Thomann",
+    category: "tres",
+    price: 339,
+    rating: 4.3,
+    reviews: 654,
+    badge: null,
+    desc: "Cuban Tres with cutaway for upper fret access. Cedar top, sapele back and sides, maple neck with acacia fingerboard. Built-in pickup system. Tuning: G-B-E or G-C-E. Great mid-range option with stage-ready electronics.",
+    desc_es: "Tres Cubano con cutaway para acceso a trastes superiores. Tapa de cedro, fondo y aros de sapeli, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado. Afinación: G-B-E o G-C-E. Excelente opción de gama media con electrónica lista para el escenario.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/357834.jpg",
+    stores: {
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_ccw.htm",
+      gear4music: "https://www.gear4music.com/search"
+    }
+  },
+  {
+    id: 46,
+    title: "Thomann Tres Cubano Deluxe CCW",
+    title_es: "Tres Cubano Deluxe CCW Thomann",
+    category: "tres",
+    price: 499,
+    rating: 4.5,
+    reviews: 345,
+    badge: "premium",
+    desc: "Premium Cuban Tres with cutaway. Cedar top, walnut back and sides, maple neck with acacia fingerboard. Built-in pickup system and elegant appointments. The top-tier Thomann tres for players who need cutaway access.",
+    desc_es: "Tres Cubano premium con cutaway. Tapa de cedro, fondo y aros de nogal, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado y acabados elegantes. El tres Thomann de más alta gama para músicos que necesitan acceso al cutaway.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429087.jpg",
+    stores: {
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe_ccw.htm",
+      gear4music: "https://www.gear4music.com/search"
+    }
   }
 ];
 

@@ -986,6 +986,20 @@ const guides = [
         products: [43]
       },
       {
+        heading: "Premium with Cutaway: Thomann Tres Cubano Deluxe CCW",
+        heading_es: "Premium con Cutaway: Thomann Tres Cubano Deluxe CCW",
+        content: "For players who need upper fret access without sacrificing tone, the Deluxe CCW combines a cedar top with walnut back and sides for a warmer, slightly darker character than the spruce-top model. The cutaway gives you full access to the highest notes — essential for melodic lead work and modern Cuban styles. At $499, it's the most expensive Thomann tres but delivers premium materials and electronics that justify the price. Ideal for professional players who need stage-ready versatility.",
+        content_es: "Para músicos que necesitan acceso a los trastes superiores sin sacrificar el tono, el Deluxe CCW combina una tapa de cedro con fondo y aros de nogal para un carácter más cálido y ligeramente más oscuro que el modelo con tapa de abeto. El cutaway te da acceso completo a las notas más altas — esencial para trabajo melódico principal y estilos cubanos modernos. A $499, es el tres Thomann más caro pero ofrece materiales y electrónica premium que justifican el precio. Ideal para músicos profesionales que necesitan versatilidad lista para el escenario.",
+        products: [46]
+      },
+      {
+        heading: "Mid-Range Performer: Thomann Tres Cubano Standard CCW",
+        heading_es: "Artista de Gama Media: Thomann Tres Cubano Standard CCW",
+        content: "The Standard CCW hits the sweet spot between affordability and features. The cedar top with sapele back and sides produces a warm, balanced tone, while the cutaway and built-in pickup make it stage-ready out of the box. At $339, it's the best choice for gigging musicians who want one tres that does it all — rehearsal, recording, and live performance — without breaking the bank.",
+        content_es: "El Standard CCW da en el punto justo entre asequibilidad y características. La tapa de cedro con fondo y aros de sapeli produce un tono cálido y equilibrado, mientras que el cutaway y la pastilla incorporada lo hacen estar listo para el escenario desde el primer momento. A $339, es la mejor opción para músicos que tocan en vivo y quieren un tres que lo haga todo — ensayo, grabación y presentaciones en vivo — sin arruinarse.",
+        products: [45]
+      },
+      {
         heading: "Best Budget Option: Thomann Tres Cubano Standard Acacia",
         heading_es: "Mejor Opción Económica: Thomann Tres Cubano Standard Acacia",
         content: "If you're just getting into Cuban music or need a reliable backup tres, the Standard Acacia is unbeatable for the price. The solid acacia top still gives you that woody, percussive tone that defines the tres sound, and the built-in pickup system means you can plug straight into an interface or PA without needing an external mic. At $279, it's an incredible value for students, touring musicians, or anyone building their first Cuban music setup. The tuning (G-B-E or G-C-E) is standard, and the 544mm scale length feels natural under the fingers.",
@@ -1000,10 +1014,10 @@ const guides = [
         products: []
       }
     ],
-    conclusion: "Start with the Deluxe if you're serious about recording — the solid spruce top and no-cutaway design give you the richest, most authentic Cuban tone. Go with the Standard Acacia if you're learning or need a solid instrument that won't break the bank. And if you're taking it to the stage, invest in a quality pickup — the K&K Pure Mini, LR Baggs Anthem, or Fishman Rare Earth Blend will make your tres roar. Either way, a real Cuban Tres opens up a world of rhythmic and melodic possibilities that no other instrument can replicate.",
-    conclusion_es: "Empieza con el Deluxe si hablas en serio sobre grabación — la tapa sólida de abeto y el diseño sin cutaway te dan el tono cubano más rico y auténtico. Ve con el Standard Acacia si estás aprendiendo o necesitas un instrumento sólido que no arruine tu presupuesto. Y si lo llevas al escenario, invierte en una pastilla de calidad — la K&K Pure Mini, LR Baggs Anthem o Fishman Rare Earth Blend harán rugir tu tres. De cualquier manera, un Tres Cubano real abre un mundo de posibilidades rítmicas y melódicas que ningún otro instrumento puede replicar.",
-    verdict: "Deluxe for the studio, Standard Acacia for the road, K&K Pure Mini for the stage",
-    verdict_es: "Deluxe para el estudio, Standard Acacia para la carretera, K&K Pure Mini para el escenario",
-    featuredProducts: [43, 44]
+    conclusion: "For pure studio tone, the Deluxe without cutaway is unbeatable — the solid spruce top delivers clarity and sustain that no other model matches. If you play lead lines and need upper fret access, step up to the Deluxe CCW. The Standard CCW is the smart choice for gigging musicians, and the Standard Acacia is the best value for beginners. And whichever tres you choose, invest in a quality pickup — the K&K Pure Mini, LR Baggs Anthem, or Fishman Rare Earth Blend will make your instrument stage-ready.",
+    conclusion_es: "Para tono de estudio puro, el Deluxe sin cutaway es inmejorable — la tapa sólida de abeto ofrece claridad y sustain que ningún otro modelo iguala. Si tocas líneas melódicas y necesitas acceso a trastes superiores, sube al Deluxe CCW. El Standard CCW es la elección inteligente para músicos de directo, y el Standard Acacia es el mejor valor para principiantes. Y sea cual sea el tres que elijas, invierte en una pastilla de calidad — la K&K Pure Mini, LR Baggs Anthem o Fishman Rare Earth Blend harán tu instrumento listo para el escenario.",
+    verdict: "Deluxe for the studio, Standard CCW for gigging, K&K Pure Mini for the stage",
+    verdict_es: "Deluxe para el estudio, Standard CCW para directo, K&K Pure Mini para el escenario",
+    featuredProducts: [43, 46, 45, 44]
   }
 ];
