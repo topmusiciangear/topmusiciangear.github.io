@@ -398,13 +398,13 @@ function initVideoIntro() {
   video.volume = 0;
 
   video.addEventListener("play", () => {
-    fadeVideoAudio(video, 1, 600);
+    fadeVideoAudio(video, 1, 1500);
   });
 
   video.addEventListener("timeupdate", () => {
     const remaining = video.duration - video.currentTime;
-    if (remaining < 1.5 && remaining > 0 && !video.paused && video.volume > 0.05) {
-      fadeVideoAudio(video, 0, 500);
+    if (remaining < 3 && remaining > 0 && !video.paused && video.volume > 0.05) {
+      fadeVideoAudio(video, 0, 1500);
     }
     if (remaining < 3 && remaining > 0 && !video.paused) {
       overlay.classList.add("outro");
