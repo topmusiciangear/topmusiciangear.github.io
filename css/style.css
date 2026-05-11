@@ -1211,11 +1211,11 @@ footer ul li a:hover { color: var(--accent); }
 .mobile-nav {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
   position: fixed;
   top: 0;
   right: 16px;
-  padding-top: 8px;
+  padding-top: 4px;
   z-index: 101;
   opacity: 0;
   pointer-events: none;
