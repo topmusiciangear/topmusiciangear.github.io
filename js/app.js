@@ -396,9 +396,12 @@ function initVideoIntro() {
   const overlay = document.getElementById("videoIntroOverlay");
   if (!video || !overlay) return;
   video.volume = 0;
+  video.style.opacity = 0;
 
   video.addEventListener("play", () => {
     fadeVideoAudio(video, 1, 1500);
+    video.style.transition = "opacity 1.5s ease";
+    video.style.opacity = 1;
   });
 
   video.addEventListener("timeupdate", () => {
