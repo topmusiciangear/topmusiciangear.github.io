@@ -388,21 +388,6 @@ function handleNavClick(target) {
   }
 }
 
-function handleNav(target) {
-  document.getElementById("mobileNav").classList.remove("open");
-  if (target === "guides") {
-    currentGuideId = null;
-    renderGuideGrid();
-  }
-  setTimeout(() => {
-    const el = document.getElementById(target);
-    if (el) {
-      const top = el.getBoundingClientRect().top + window.pageYOffset - 80;
-      window.scrollTo({ top, behavior: "smooth" });
-    }
-  }, 300);
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
