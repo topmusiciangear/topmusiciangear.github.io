@@ -2,6 +2,7 @@ const translations = {
   en: {
     disclosureBar: "This site contains affiliate links. We earn a commission if you buy through them at no extra cost to you.",
     disclosureLink: "More info",
+    footerDisclosureText: '<strong>TopMusicianGear</strong> is a participant in affiliate programs including Thomann, Plugin Boutique, Loopmasters, Gear4Music, and Sweetwater. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="#" id="disclosureLink">More info</a>',
     heroBadge: "Trusted by musicians worldwide",
     heroTitle: "From Studio To Stage — <span>Gear Reviewed By A Pro</span>",
     heroDesc: "Trusted by a musician with over 20 years of experience on the world's biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.",
@@ -32,6 +33,7 @@ const translations = {
     storesTitle: "Shop With Confidence",
     storesDesc: "We compare prices across the most trusted music gear retailers so you always get the best deal.",
     footerTagline: "Built by a musician, for musicians.",
+    backToTop: '<i class="fa-solid fa-arrow-up"></i> Back to top',
     navGuides: "Guides",
     navSetup: "My Setup",
     navAbout: "About Me",
@@ -119,6 +121,7 @@ const translations = {
   es: {
     disclosureBar: "Este sitio contiene enlaces de afiliado. Ganamos una comisión si compras a través de ellos sin costo extra para ti.",
     disclosureLink: "Más info",
+    footerDisclosureText: '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Thomann, Plugin Boutique, Loopmasters, Gear4Music, y Sweetwater. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="#" id="disclosureLink">Más info</a>',
     heroBadge: "Confiado por músicos de todo el mundo",
     heroTitle: "Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>",
     heroDesc: "Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.",
@@ -149,6 +152,7 @@ const translations = {
     storesTitle: "Compra con Confianza",
     storesDesc: "Comparamos precios en las tiendas de equipo musical más confiables para que siempre consigas la mejor oferta.",
     footerTagline: "Hecho por un músico, para músicos.",
+    backToTop: '<i class="fa-solid fa-arrow-up"></i> Volver arriba',
     navGuides: "Guías",
     navSetup: "Mi Equipo",
     navAbout: "Sobre Mí",
