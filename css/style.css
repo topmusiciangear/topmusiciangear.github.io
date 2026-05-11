@@ -241,9 +241,9 @@ nav {
 }
 
 .lang-btn.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: white;
+  background: rgba(255,255,255,0.1);
+  border-color: var(--white);
+  color: var(--white);
 }
 
 .nav-link {
