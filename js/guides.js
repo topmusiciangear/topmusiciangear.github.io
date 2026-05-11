@@ -818,7 +818,7 @@ const guides = [
     title: "Best Ribbon & Tube Microphones (2026)",
     title_es: "Mejores Micrófonos de Cinta y Tubo (2026)",
     category: "microphones",
-    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&h=400&fit=crop",
+    image: "https://media.sweetwater.com/m/products/image/f759b6ae09I6HOqlkPqK2z6BNiVZitPMA6qDgFfQ.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=f759b6ae09fda8c7",
     badge: "premium",
     intro: "There's a reason engineers still chase ribbon and tube microphones decades after their invention. Ribbons capture sound with a silky, natural quality that condensers can't touch. Tube mics add harmonic richness that makes vocals glow. I've recorded through vintage RCA ribbons and modern tube designs at Abbey Road — the difference is real. These are the ribbon and tube mics worth your money in 2026.",
     intro_es: "Hay una razón por la que los ingenieros aún persiguen micrófonos de cinta y tubo décadas después de su invención. Las cintas capturan el sonido con una calidad sedosa y natural que los condensadores no pueden tocar. Los micrófonos de tubo añaden riqueza armónica que hace brillar las voces. He grabado a través de cintas RCA vintage y diseños modernos de tubo en Abbey Road — la diferencia es real. Estos son los micrófonos de cinta y tubo que valen tu dinero en 2026.",
