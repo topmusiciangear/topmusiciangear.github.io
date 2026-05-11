@@ -252,9 +252,6 @@ function renderGuideDetail(id) {
 
   grid.innerHTML = `
     <div class="guide-detail">
-      <div class="guide-back-row">
-        <button class="guide-back-btn" id="guideBackBtn"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
-      </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</h1>
       </div>
@@ -273,12 +270,6 @@ function renderGuideDetail(id) {
       <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
-  document.getElementById("guideBackBtn").addEventListener("click", () => {
-    history.pushState({}, '', '/');
-    renderGuideGrid();
-    const el = document.getElementById("guides");
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  });
   const btn2 = document.getElementById("guideBackBtn2");
   if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
