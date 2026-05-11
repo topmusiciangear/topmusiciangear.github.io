@@ -339,11 +339,6 @@ function renderAbout() {
       <p>${t("aboutP1")}</p>
       <p>${t("aboutP2")}</p>
       <p>${t("aboutP3")}</p>
-      <div class="about-video">
-        <video controls preload="none" poster="img/me.jpg">
-          <source src="video/about-video.mp4" type="video/mp4">
-        </video>
-      </div>
       <div class="about-credits">
         <span class="credit-badge"><i class="fa-solid fa-film"></i> ${t("credit_jamesbond")}</span>
         <span class="credit-badge"><i class="fa-solid fa-building"></i> ${t("credit_broadway")}</span>
@@ -354,6 +349,11 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-compact-disc"></i> ${t("credit_warner")}</span>
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
       </div>
+    </div>
+    <div class="about-video-col">
+      <video controls preload="none" poster="img/me.jpg" style="width:100%;max-width:320px;display:block;border-radius:8px;">
+        <source src="video/about-video.mp4" type="video/mp4">
+      </video>
     </div>
   `;
 }
@@ -488,4 +488,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }, true);
 
   initialLoad = false;
+
+  const btt = document.getElementById('backToTop');
+  if (btt) {
+    window.addEventListener('scroll', () => {
+      btt.classList.toggle('visible', window.scrollY > 500);
+    });
+  }
 });
