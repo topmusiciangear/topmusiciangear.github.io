@@ -143,16 +143,18 @@ header {
   flex-shrink: 0;
 }
 
-.hero-desc-tagline {
-  font-size: 20px;
+.header-tagline-bar {
+  text-align: center;
+  font-size: 17px;
   font-weight: 500;
   color: var(--text-muted);
-  letter-spacing: .5px;
-  margin-bottom: 24px;
+  letter-spacing: .3px;
+  padding: 6px 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
 }
 
 @media (max-width: 768px) {
-  .hero-desc-tagline { font-size: 16px; }
+  .header-tagline-bar { font-size: 13px; padding: 5px 12px; }
 }
 
 .logo span { color: var(--accent); }
