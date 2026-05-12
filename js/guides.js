@@ -730,7 +730,7 @@ const guides = [
         heading_es: "Sácalos de Tu Escritorio: Soportes de Monitor K&M",
         content: "Putting monitors on your desk is the single most common mixing mistake. Your desk vibrates, creating resonances that muddy your low end. Desk reflections comb-filter your midrange. The solution? Proper monitor stands. The K&M 26725 stands are German-engineered steel, height-adjustable to get tweeters exactly at ear level, and include floor spikes that mechanically decouple the speaker from the floor — tightening your bass response dramatically. At $89 a pair, monitor stands are the cheapest upgrade that makes the biggest difference. This is not optional.",
         content_es: "Poner monitores en tu escritorio es el error de mezcla más común. Tu escritorio vibra, creando resonancias que embarran tus graves. Las reflexiones del escritorio filtran en peine tus medios. ¿La solución? Soportes de monitor adecuados. Los soportes K&M 26725 son de acero con ingeniería alemana, ajustables en altura para poner los tweeters exactamente al nivel del oído, e incluyen puntas de piso que desacoplan mecánicamente el altavoz del suelo — ajustando dramáticamente tu respuesta de graves. A $89 el par, los soportes de monitor son la mejora más barata que marca la mayor diferencia. Esto no es opcional.",
-        products: [38]
+        products: []
       }
     ],
     conclusion: "Spend $698 on Yamaha HS8s and $89 on K&M stands. That's $787 total for a monitoring setup that will reveal more about your mixes than $3,000 monitors sitting on a desk. The stands matter almost as much as the speakers — don't skip them. Once your monitors are properly positioned, you can hear what your room actually sounds like and make informed treatment decisions.",
