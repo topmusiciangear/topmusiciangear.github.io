@@ -1987,7 +1987,7 @@ body::before {
   pointer-events: none;
 }
 
-.hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, body > *:not(header):not(.bg-video):not(#disclosureModal):not(#toast) {
+.hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, header, body > *:not(header):not(.bg-video):not(#disclosureModal):not(#toast) {
   position: relative;
   z-index: 2;
 }
