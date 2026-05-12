@@ -224,7 +224,7 @@ nav {
 .header-social-col {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 2px;
 }
 
