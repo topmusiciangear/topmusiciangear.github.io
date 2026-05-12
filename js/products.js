@@ -670,7 +670,7 @@ const products = [
     badge: "recommended",
     desc: "Harman-target tuned for the most natural closed-back sound under $200. Foldable design, detachable cables, and the flattest frequency response in its class.",
     desc_es: "Sintonizado al objetivo Harman para el sonido cerrado más natural por menos de $200. Diseño plegable, cables desmontables y la respuesta de frecuencia más plana en su clase.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/474682.jpg",
+    img: "img/akg-k371.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/K371--akg-k371-closed-back-professional-studio-headphones",
       thomann: "https://www.thomann.co.uk/akg_k371.htm",
