@@ -133,6 +133,7 @@ function getResolvedStores(product) {
       s[key] = url;
     }
   });
+  s.amazon = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
   return s;
 }
 
