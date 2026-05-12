@@ -1849,6 +1849,7 @@ footer ul li a:hover { color: var(--accent); }
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
   body { background-attachment: scroll; }
+  .bg-video { display: none; }
   html { scroll-behavior: auto; -webkit-overflow-scrolling: touch; }
   html, body { overflow-x: hidden !important; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
