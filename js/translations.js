@@ -75,6 +75,7 @@ const translations = {
     footerTerms: "Terms of Service",
     footerCookies: "Cookie Policy",
     footerAffiliate: "Affiliate Disclosure",
+    footerContact: "Contact:",
     disclosureTitle: "Affiliate Disclosure",
     disclosureGotIt: "Got it",
     disclosureText: "TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, and Sweetwater. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. As a Thomann, Musik Produktiv, Gear4Music, Plugin Boutique, and Sweetwater affiliate, we earn from qualifying purchases made through our links. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.",
