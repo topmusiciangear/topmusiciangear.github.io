@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     results.style.display = "block";
-    results.innerHTML = '<div class="guide-products-cards">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
+    results.innerHTML = '<div class="product-search-grid">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
     results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
   });
 

@@ -1970,8 +1970,14 @@ footer ul li a:hover { color: var(--accent); }
   .guide-products-cards { grid-template-columns: repeat(2, 1fr); }
 }
 
+.product-search-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
 @media (max-width: 600px) {
-  .guide-products-cards { grid-template-columns: 1fr; }
+  .product-search-grid { grid-template-columns: 1fr; }
 }
 .bg-video {
   position: fixed;
