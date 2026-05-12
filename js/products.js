@@ -1021,5 +1021,5 @@ const storeIcons = {
   sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
   musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px">',
   amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
-  reverb: '<i class="fa-solid fa-guitar"></i>'
+  reverb: '<i class="fa-solid fa-guitar" style="font-size:15px;"></i>'
 };
