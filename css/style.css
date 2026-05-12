@@ -436,6 +436,7 @@ nav {
 
 /* Stats Bar */
 .stats-bar {
+  width: 100%;
   background: rgba(10,10,10,0.5);
   border-bottom: 1px solid rgba(255,255,255,0.05);
   padding: 28px 32px;
@@ -1858,7 +1859,7 @@ footer ul li a:hover { color: var(--accent); }
   .hero-instruments { gap: 14px; font-size: 17px; }
   .bass-icon { font-size: 24px; }
   .hero-actions { flex-direction: column; align-items: center; }
-  .stats-bar { padding: 20px 16px; }
+  .stats-bar { width: 100%; padding: 20px 16px; }
   .stats-inner { grid-template-columns: repeat(3, 1fr); gap: 8px; }
   .stat-number { font-size: 24px; }
   .stat-label { font-size: 11px; }
