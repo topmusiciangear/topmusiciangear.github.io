@@ -1972,12 +1972,13 @@ footer ul li a:hover { color: var(--accent); }
 
 .product-search-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
 }
 
-@media (max-width: 600px) {
-  .product-search-grid { grid-template-columns: 1fr; }
+@media (max-width: 768px) {
+  .product-search-grid { grid-template-columns: 1fr; gap: 16px; }
 }
 .bg-video {
   position: fixed;
