@@ -1810,6 +1810,8 @@ footer ul li a:hover { color: var(--accent); }
   display: none;
 }
 
+.guide-detail { scroll-margin-top: 64px; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .guides-section { padding: 40px 16px; }
