@@ -110,7 +110,7 @@ const products = [
     badge: "legend",
     desc: "The world's most popular vocal microphone. Used by presidents, pop stars, and pub singers alike. Built like a tank with a tailored frequency response for vocals that cut through any mix.",
     desc_es: "El micrófono vocal más popular del mundo. Usado por presidentes, estrellas pop y cantantes de bar por igual. Construido como un tanque con respuesta de frecuencia adaptada para voces que cortan cualquier mezcla.",
-    img: "https://media.sweetwater.com/m/products/image/9b8f3c2a15UxPqWqPoGiK8fVuBjLkFQSwYqNaHh.jpg?quality=82&width=1080",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/150977.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM58--shure-sm58-cardioid-dynamic-vocal-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm_58_lce.htm",
