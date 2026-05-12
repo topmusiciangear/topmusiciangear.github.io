@@ -1001,29 +1001,30 @@ nav {
 }
 
 .stores-logos {
-  display: flex;
-  gap: 10px;
-  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  max-width: 360px;
   margin: 0 auto;
-  justify-content: center;
-  flex-wrap: wrap;
   position: relative;
 }
 
 .store-logo {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 10px 16px;
+  gap: 4px;
+  padding: 8px 10px;
   border-radius: var(--radius);
   background: var(--bg-card);
   border: 1px solid var(--border);
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
   text-decoration: none;
   transition: var(--transition);
   justify-content: center;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .store-logo:hover {
@@ -1035,8 +1036,11 @@ nav {
 
 @media (min-width: 769px) {
   .stores-logos {
+    display: flex;
     gap: 16px;
     max-width: none;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .store-logo {
     padding: 14px 24px;
