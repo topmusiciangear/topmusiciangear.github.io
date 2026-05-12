@@ -133,7 +133,7 @@ function getResolvedStores(product) {
       s[key] = url;
     }
   });
-  if (product.category !== 'plugins') {
+  if (product.category !== 'plugins' && product.category !== 'tres') {
     s.amazon = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
     if (product.stores.amazon && product.stores.amazon.startsWith('https://www.amazon.com/dp/')) {
       s.amazon = product.stores.amazon + '?tag=topmusicg-20';
