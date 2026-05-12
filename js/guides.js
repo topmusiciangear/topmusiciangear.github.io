@@ -174,7 +174,7 @@ const guides = [
     title: "Best Microphone for Vocals & Home Recording (2026)",
     title_es: "Mejor Micrófono para Voces y Grabación Casera (2026)",
     category: "microphones",
-    image: "img/sm58.jpg",
+    image: "img/mic-guide.jpg",
     badge: "legend",
     intro: "I've sung through everything. From $50 mics in sweaty clubs to $10,000 vintage tube condensers in world-class studios. The good news? You don't need to spend big to sound great. Here are the mics I recommend most, based on what you actually need.",
     intro_es: "He cantado a través de todo. Desde micrófonos de $50 en clubes sudorosos hasta condensadores de tubo vintage de $10,000 en estudios de clase mundial. ¿La buena noticia? No necesitas gastar mucho para sonar genial. Aquí están los micrófonos que más recomiendo, basado en lo que realmente necesitas.",
