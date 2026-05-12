@@ -1000,7 +1000,8 @@ const storeNames = {
   gear4music: "Gear4Music",
   sweetwater: "Sweetwater",
   musikproduktiv: "Musik Produktiv",
-  amazon: "Amazon"
+  amazon: "Amazon",
+  reverb: "Reverb"
 };
 
 const storeColors = {
@@ -1009,7 +1010,8 @@ const storeColors = {
   gear4music: "#8b5cf6",
   sweetwater: "#6b7280",
   musikproduktiv: "#78716c",
-  amazon: "#ff9900"
+  amazon: "#ff9900",
+  reverb: "#e83e35"
 };
 
 const storeIcons = {
@@ -1018,5 +1020,6 @@ const storeIcons = {
   gear4music: '<img src="img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img">',
   sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
   musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px">',
-  amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>'
+  amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
+  reverb: '<i class="fa-solid fa-guitar"></i>'
 };
