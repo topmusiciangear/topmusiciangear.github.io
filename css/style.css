@@ -76,7 +76,7 @@ header {
 .header-inner {
   padding: 0 12px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   height: 64px;
   gap: 16px;
