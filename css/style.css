@@ -39,7 +39,9 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--text);
-  background: #0d0d0d;
+  background: fixed
+    linear-gradient(rgba(10,10,10,0.72), rgba(10,10,10,0.68)),
+    url('https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=1920&q=80') center center / cover no-repeat;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -66,14 +68,6 @@ header {
   z-index: 100;
 }
 
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: var(--text);
-  background: #0d0d0d;
-  padding-top: 64px;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
 
 .header-inner {
   max-width: 100%;
@@ -1854,7 +1848,6 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  body { padding-top: 56px; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
@@ -1994,6 +1987,15 @@ footer ul li a:hover { color: var(--accent); }
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  pointer-events: none;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
   pointer-events: none;
 }
 
