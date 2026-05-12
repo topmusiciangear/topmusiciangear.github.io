@@ -332,12 +332,6 @@ const guides = [
         products: [38]
       },
       {
-        heading: "Guitar & Bass Cases: Protect Your Instrument",
-        heading_es: "Fundas de Guitarra y Bajo: Protege Tu Instrumento",
-        content: "Your instrument deserves better than leaning against the wall. For everyday transport, the Gator GBE gig bags are padded, rip-resistant, and have backpack straps — the ELECTRIC fits every Strat, Tele, and Les Paul, while the BASS version accommodates full-scale 34' basses. After losing a guitar to a baggage handler in Miami, I never tour without a proper case.",
-        content_es: "Tu instrumento merece algo mejor que apoyarse contra la pared. Para transporte diario, las fundas Gator GBE están acolchadas, son resistentes a desgarros y tienen correas de mochila — la ELECTRIC se adapta a cada Strat, Tele y Les Paul, mientras que la versión BASS acomoda bajos de escala completa de 34'. Después de perder una guitarra por un maletero en Miami, nunca salgo de gira sin un estuche adecuado."
-      },
-      {
         heading: "Bonus: Studio Essentials Worth Every Penny",
         heading_es: "Extra: Esenciales de Estudio Que Valen Cada Centavo",
         content: "Pop filters aren't sexy but they're the difference between a broadcast-ready vocal and one full of plosive pops. The Stedman Proscreen XL is a metal mesh design that doesn't dull your high end like foam filters do. And if you're recording in a reflective room, Auralex Studiofoam Wedges tame flutter echo without turning your space into an anechoic chamber. These small investments make a massive difference in your final product.",
