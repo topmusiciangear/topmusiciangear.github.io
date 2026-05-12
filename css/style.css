@@ -41,6 +41,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--text);
+  overflow-x: hidden;
   background: fixed
     linear-gradient(rgba(10,10,10,0.72), rgba(10,10,10,0.68)),
     url('https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=1920&q=80') center center / cover no-repeat;
@@ -1000,24 +1001,25 @@ nav {
 }
 
 .stores-logos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  display: flex;
+  gap: 10px;
   max-width: 500px;
   margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
   position: relative;
 }
 
 .store-logo {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 14px 24px;
+  gap: 6px;
+  padding: 10px 16px;
   border-radius: var(--radius);
   background: var(--bg-card);
   border: 1px solid var(--border);
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   text-decoration: none;
   transition: var(--transition);
@@ -1033,11 +1035,13 @@ nav {
 
 @media (min-width: 769px) {
   .stores-logos {
-    display: flex;
     gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
     max-width: none;
+  }
+  .store-logo {
+    padding: 14px 24px;
+    font-size: 14px;
+    gap: 8px;
   }
 }
 
