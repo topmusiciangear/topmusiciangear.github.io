@@ -192,14 +192,11 @@ function renderGuideGrid() {
   }
   grid.innerHTML = filtered.map(g => {
     const catName = getCatName(g.category);
-    const badgeText = g.badge ? t("badge_" + g.badge) : null;
-    const badgeClass = g.badge ? getBadgeClass(g.badge) : "";
     return `
       <div class="guide-card" data-guide="${g.id}">
         <div class="guide-card-img">
           <img src="${g.image}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
           <span class="guide-card-cat">${catName}</span>
-          ${badgeText ? `<span class="guide-card-badge ${badgeClass}">${badgeText}</span>` : ""}
         </div>
         <div class="guide-card-body">
           <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
