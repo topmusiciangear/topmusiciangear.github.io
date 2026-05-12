@@ -138,6 +138,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C",
 
       musikproduktiv: "https://www.musik-produktiv.de/gibson-les-paul-standard-60s-iced-tea.html"
+    }
+  },
+  {
+    id: 8,
     title: "Taylor 314ce",
     title_es: "Taylor 314ce",
     category: "guitars",
@@ -154,6 +158,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6",
 
       musikproduktiv: "https://www.musik-produktiv.de/taylor-314ce-next-generation.html"
+    }
+  },
+  {
+    id: 9,
     title: "Ibanez RG550 Genesis",
     title_es: "Ibanez RG550 Genesis",
     category: "guitars",
@@ -170,6 +178,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
 
       musikproduktiv: "https://www.musik-produktiv.de/ibanez-rg550-bk-genesis-collection.html"
+    }
+  },
+  {
+    id: 10,
     title: "PRS McCarty 594",
     title_es: "PRS McCarty 594",
     category: "guitars",
@@ -185,6 +197,10 @@ const products = [
       thomann: "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm",
 
       musikproduktiv: "https://www.musik-produktiv.de/prs-mccarty-594-10-top.html"
+    }
+  },
+
+  // ===== KEYBOARDS =====
   {
     id: 11,
     title: "Nord Stage 4 88",
@@ -203,6 +219,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3",
 
       musikproduktiv: "https://www.musik-produktiv.de/clavia-nord-stage-4-88.html"
+    }
+  },
+  {
+    id: 12,
     title: "Yamaha Montage M8x",
     title_es: "Yamaha Montage M8x",
     category: "keyboards",
@@ -298,6 +318,10 @@ const products = [
       thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
 
       musikproduktiv: "https://www.musik-produktiv.de/universal-audio-apollo-twin-x-duo-usb-he.html"
+    }
+  },
+  {
+    id: 17,
     title: "RME Babyface Pro FS",
     title_es: "RME Babyface Pro FS",
     category: "interfaces",
@@ -314,6 +338,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
 
       musikproduktiv: "https://www.musik-produktiv.de/rme-babyface-pro-fs.html"
+    }
+  },
+  {
+    id: 18,
     title: "SSL 2+",
     title_es: "SSL 2+",
     category: "interfaces",
@@ -392,6 +420,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
 
       musikproduktiv: "https://www.musik-produktiv.de/adam-audio-a7v.html"
+    }
+  },
+  {
+    id: 22,
     title: "Genelec 8040B",
     title_es: "Genelec 8040B",
     category: "monitors",
@@ -408,6 +440,10 @@ const products = [
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
 
       musikproduktiv: "https://www.musik-produktiv.de/genelec-8040bmm-black.html"
+    }
+  },
+
+  // ===== HEADPHONES =====
   {
     id: 23,
     title: "Beyerdynamic DT 770 Pro",
@@ -626,6 +662,10 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack",
 
       musikproduktiv: "https://www.musik-produktiv.de/zildjian-k-custom-dark-kcd900-box-14-16-18-20.html"
+    }
+  },
+  {
+    id: 36,
     title: "Tama Starclassic Walnut/Birch",
     title_es: "Tama Starclassic Nogal/Abedul",
     category: "percussion",
@@ -640,6 +680,10 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst",
 
       musikproduktiv: "https://www.musik-produktiv.de/tama-starclassic-walnut-birch-wbs42s-pbk-4pc-piano-black.html"
+    }
+  },
+
+  // ===== ACCESSORIES =====
   {
     id: 38,
     title: "Mogami Gold Studio XLR Cable (3m)",
@@ -657,6 +701,10 @@ const products = [
       gear4music: "https://www.gear4music.com/G4M/Studiospares-Pro-Neutrik-XLR-Mogami-Cable-5m-Black-with-Gold-Plated-Pins/6URJ",
 
       musikproduktiv: "https://www.musik-produktiv.de/mogami-gold-edition-trsxlrm0300bl.html"
+    }
+  },
+  {
+    id: 39,
     title: "Stedman Proscreen XL Pop Filter",
     title_es: "Filtro Antipop Stedman Proscreen XL",
     category: "accessories",
