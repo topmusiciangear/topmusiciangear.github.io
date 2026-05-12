@@ -129,7 +129,7 @@ const products = [
     badge: "topQuality",
     desc: "The tom-tom king and guitar cab legend. Five-position bass roll-off switch, handles SPLs up to 160dB. The industry standard dynamic for instruments since 1960.",
     desc_es: "El rey de los toms y leyenda de gabinetes de guitarra. Interruptor de corte de graves de cinco posiciones, maneja SPLs de hasta 160dB. El dinámico estándar de la industria para instrumentos desde 1960.",
-    img: "https://m.media-amazon.com/images/I/81ZdORfHReL._AC_SL1500_.jpg",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/140826.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MD421II--sennheiser-md-421-ii-cardioid-dynamic-microphone",
       thomann: "https://www.thomann.co.uk/sennheiser_md_421_ii.htm",
@@ -148,7 +148,7 @@ const products = [
     badge: "legend",
     desc: "The broadcast standard. Variable-D technology eliminates proximity effect. The definitive choice for podcasting, voiceover, and kick drums.",
     desc_es: "El estándar de transmisión. La tecnología Variable-D elimina el efecto de proximidad. La elección definitiva para podcasting, locución y bombos.",
-    img: "https://m.media-amazon.com/images/I/71dFJ5VnxKL._AC_SL1500_.jpg",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/161294.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/RE20--electro-voice-re20-broadcast-microphone",
       thomann: "https://www.thomann.co.uk/electro_voice_re20.htm",
