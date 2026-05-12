@@ -1814,17 +1814,9 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .guides-section { padding: 40px 16px; }
-  .guide-grid { grid-template-columns: 1fr; gap: 16px; }
-  .guide-card-title { font-size: 16px; }
-  .guide-detail-title { font-size: 26px; }
-  .guide-detail-img img { aspect-ratio: 16/9; }
-  .guide-detail-intro { font-size: 16px; }
-  .guide-section-heading { font-size: 19px; }
-  .guide-detail-img, .guide-detail-img img { max-height: 300px; }
-  .guide-featured-grid { grid-template-columns: 1fr; }
-  .guide-conclusion { padding: 24px 20px; }
-  .guide-verdict { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .product-search-wrap { max-width: 180px !important; }
+  .product-search-wrap input { font-size: 11px !important; padding: 6px 10px 6px 28px !important; }
+  .product-search-wrap i { font-size: 11px !important; left: 10px !important; }
 }
 
 /* ===== EXISTING RULES BELOW ===== */
