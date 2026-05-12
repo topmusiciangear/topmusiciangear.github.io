@@ -814,7 +814,8 @@ const storeColors = {
   pluginboutique: "#6366f1",
   loopmasters: "#475569",
   gear4music: "#8b5cf6",
-  sweetwater: "#6b7280"
+  sweetwater: "#6b7280",
+  musikproduktiv: "#22c55e"
 };
 
 const storeIcons = {
@@ -822,5 +823,6 @@ const storeIcons = {
   pluginboutique: '<img src="img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-icon-img">',
   loopmasters: '<i class="fa-solid fa-arrows-rotate"></i>',
   gear4music: '<img src="img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img">',
-  sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">'
+  sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
+  musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img">'
 };
