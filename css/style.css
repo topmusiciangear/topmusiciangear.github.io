@@ -1240,7 +1240,7 @@ footer ul li a:hover { color: var(--accent); }
   position: fixed;
   top: 0;
   right: 16px;
-  padding-top: 64px;
+  padding-top: 52px;
   z-index: 101;
   opacity: 0;
   pointer-events: none;
