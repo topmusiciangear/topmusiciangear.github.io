@@ -431,7 +431,7 @@ const products = [
     badge: "topQuality",
     desc: "Console-grade preamps in a compact interface. The same Class-A mic pres found in Audient's $50,000 ASP8024 console. Dual headphone outputs and JFET DI input for instruments.",
     desc_es: "Preamplificadores de grado consola en una interfaz compacta. Los mismos previos de micrófono Clase A que se encuentran en la consola ASP8024 de $50,000 de Audient. Salidas de auriculares duales y entrada DI JFET para instrumentos.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/493368.jpg",
+    img: "img/audient-id14.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/iD14mkII--audient-id14-mkii-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/audient_id14_mkii.htm",
@@ -450,7 +450,7 @@ const products = [
     badge: "recommended",
     desc: "The best value in its class. Full-color LCD metering, ESS Sabre32 Ultra DAC, and loopback for streaming. The only interface under $200 with real-time level monitoring.",
     desc_es: "El mejor valor en su clase. Medición LCD a todo color, DAC ESS Sabre32 Ultra y loopback para streaming. La única interfaz por menos de $200 con monitoreo de nivel en tiempo real.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/490943.jpg",
+    img: "img/motu-m2.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/M2--motu-m2-2x2-usb-c-audio-interface",
       thomann: "https://www.thomann.co.uk/motu_m2.htm",
@@ -469,7 +469,7 @@ const products = [
     badge: "bestSeller",
     desc: "UA quality at an entry-level price. Vintage Mic Preamp mode emulates the classic UA 610 tube preamp. MIDI I/O and solid build quality with a retro design that stands out.",
     desc_es: "Calidad UA a precio de entrada. El modo Vintage Mic Preamp emula el clásico previo de tubo UA 610. MIDI I/O y construcción sólida con diseño retro que destaca.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/552116.jpg",
+    img: "img/ua-volt2.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Volt2--universal-audio-volt-2-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/universal_audio_volt_2.htm",

@@ -49,7 +49,7 @@ const guides = [
     title: "Best Audio Interface for Home Recording (2026)",
     title_es: "Mejor Interfaz de Audio para Grabación Casera (2026)",
     category: "interfaces",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
+    image: "img/audient-id14.jpg",
     badge: "topQuality",
     intro: "I've recorded through more interfaces than I can count — from budget USB boxes to pro rigs at Abbey Road. The interface is the one piece of gear that touches every single recording you make, so it matters. Here are the four interfaces I trust most, at every price point.",
     intro_es: "He grabado a través de más interfaces de las que puedo contar — desde cajas USB económicas hasta equipos profesionales en Abbey Road. La interfaz es la pieza de equipo que toca cada una de tus grabaciones, así que importa. Aquí están las cuatro interfaces en las que más confío, en cada nivel de precio.",
