@@ -220,23 +220,6 @@ nav {
   }
 }
 
-.header-social-col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-}
-
-.header-contact {
-  display: none;
-  text-decoration: none;
-}
-@media (min-width: 769px) {
-  .header-contact {
-    display: block;
-  }
-}
-
 .lang-btn {
   padding: 5px 9px;
   border-radius: 5px;
