@@ -133,9 +133,11 @@ function getResolvedStores(product) {
       s[key] = url;
     }
   });
-  s.amazon = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
-  if (product.stores.amazon && product.stores.amazon.startsWith('https://www.amazon.com/dp/')) {
-    s.amazon = product.stores.amazon + '?tag=topmusicg-20';
+  if (product.category !== 'plugins') {
+    s.amazon = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
+    if (product.stores.amazon && product.stores.amazon.startsWith('https://www.amazon.com/dp/')) {
+      s.amazon = product.stores.amazon + '?tag=topmusicg-20';
+    }
   }
   return s;
 }
