@@ -1854,6 +1854,7 @@ footer ul li a:hover { color: var(--accent); }
   html, body { overflow-x: hidden !important; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { -ms-overflow-style: none; scrollbar-width: none; }
+  header { position: fixed; top: 0; left: 0; right: 0; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
