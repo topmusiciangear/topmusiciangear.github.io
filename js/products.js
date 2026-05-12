@@ -110,7 +110,7 @@ const products = [
     badge: "legend",
     desc: "The world's most popular vocal microphone. Used by presidents, pop stars, and pub singers alike. Built like a tank with a tailored frequency response for vocals that cut through any mix.",
     desc_es: "El micrófono vocal más popular del mundo. Usado por presidentes, estrellas pop y cantantes de bar por igual. Construido como un tanque con respuesta de frecuencia adaptada para voces que cortan cualquier mezcla.",
-    img: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000CZ0R42&Format=_SL500_&ID=AsinImage",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/150977.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM58--shure-sm58-cardioid-dynamic-vocal-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm_58_lce.htm",
@@ -130,7 +130,7 @@ const products = [
     badge: "topQuality",
     desc: "The tom-tom king and guitar cab legend. Five-position bass roll-off switch, handles SPLs up to 160dB. The industry standard dynamic for instruments since 1960.",
     desc_es: "El rey de los toms y leyenda de gabinetes de guitarra. Interruptor de corte de graves de cinco posiciones, maneja SPLs de hasta 160dB. El dinámico estándar de la industria para instrumentos desde 1960.",
-    img: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002H0RBS&Format=_SL500_&ID=AsinImage",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/140826.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MD421II--sennheiser-md-421-ii-cardioid-dynamic-microphone",
       thomann: "https://www.thomann.co.uk/sennheiser_md_421_ii.htm",
@@ -150,7 +150,7 @@ const products = [
     badge: "legend",
     desc: "The broadcast standard. Variable-D technology eliminates proximity effect. The definitive choice for podcasting, voiceover, and kick drums.",
     desc_es: "El estándar de transmisión. La tecnología Variable-D elimina el efecto de proximidad. La elección definitiva para podcasting, locución y bombos.",
-    img: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08P7QTZM5&Format=_SL500_&ID=AsinImage",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/161294.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/RE20--electro-voice-re20-broadcast-microphone",
       thomann: "https://www.thomann.co.uk/electro_voice_re20.htm",
