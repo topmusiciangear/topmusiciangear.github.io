@@ -502,7 +502,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const te = (p.title_es || "").toLowerCase();
       const d = p.desc.toLowerCase();
       const de = (p.desc_es || "").toLowerCase();
-      return t.includes(q) || te.includes(q) || d.includes(q) || de.includes(q);
+      const c = p.category.toLowerCase();
+      return t.includes(q) || te.includes(q) || d.includes(q) || de.includes(q) || c.includes(q);
     });
     if (filtered.length === 0) {
       results.style.display = "block";
