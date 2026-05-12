@@ -1829,7 +1829,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
+  html { scroll-behavior: auto; overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
