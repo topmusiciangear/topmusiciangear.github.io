@@ -220,6 +220,17 @@ nav {
   }
 }
 
+.header-contact {
+  display: none;
+  align-items: center;
+  text-decoration: none;
+}
+@media (min-width: 769px) {
+  .header-contact {
+    display: inline-flex;
+  }
+}
+
 .lang-btn {
   padding: 5px 9px;
   border-radius: 5px;
