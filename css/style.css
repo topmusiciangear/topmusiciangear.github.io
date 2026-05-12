@@ -60,6 +60,7 @@ img { max-width: 100%; display: block; }
 /* Header */
 header {
   display: block;
+  margin-top: 0;
   background: rgba(13,13,13,.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
