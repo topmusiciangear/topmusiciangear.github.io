@@ -1815,8 +1815,8 @@ footer ul li a:hover { color: var(--accent); }
 /* Responsive */
 @media (max-width: 768px) {
   .product-search-wrap { max-width: 180px !important; }
-  .product-search-wrap input { font-size: 11px !important; padding: 6px 10px 6px 28px !important; }
-  .product-search-wrap i { font-size: 11px !important; left: 10px !important; }
+  .product-search-wrap input { font-size: 13px !important; padding: 8px 10px 8px 30px !important; }
+  .product-search-wrap i { font-size: 12px !important; left: 10px !important; }
 }
 
 /* ===== EXISTING RULES BELOW ===== */
