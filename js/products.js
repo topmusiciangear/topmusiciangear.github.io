@@ -806,7 +806,8 @@ const storeNames = {
   pluginboutique: "Plugin Boutique",
   loopmasters: "Loopmasters",
   gear4music: "Gear4Music",
-  sweetwater: "Sweetwater"
+  sweetwater: "Sweetwater",
+  musikproduktiv: "Musik Produktiv"
 };
 
 const storeColors = {
@@ -815,7 +816,7 @@ const storeColors = {
   loopmasters: "#475569",
   gear4music: "#8b5cf6",
   sweetwater: "#6b7280",
-  musikproduktiv: "#22c55e"
+  musikproduktiv: "#78716c"
 };
 
 const storeIcons = {
