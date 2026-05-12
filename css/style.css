@@ -1847,6 +1847,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
+  body { overflow-x: hidden; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
