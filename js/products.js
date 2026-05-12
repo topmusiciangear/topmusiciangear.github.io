@@ -10,13 +10,14 @@ const products = [
     reviews: 18453,
     badge: "legend",
     desc: "The industry-standard dynamic microphone for broadcast, podcasting, and vocal recording. Warm, smooth sound with excellent rejection.",
-    desc_es: "El micrÃ³fono dinÃ¡mico estÃ¡ndar de la industria para transmisiÃ³n, podcasting y grabaciÃ³n vocal. Sonido cÃ¡lido y suave con excelente rechazo.",
+    desc_es: "El micrófono dinámico estándar de la industria para transmisión, podcasting y grabación vocal. Sonido cálido y suave con excelente rechazo.",
     img: "https://media.sweetwater.com/m/products/image/6d2c512a92Rov0eryrfK2jdkFSLhFkOUiy3nNCLK.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=6d2c512a928017f5",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM7B--shure-sm7b-cardioid-dynamic-vocal-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm_7_db.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+
+      musikproduktiv: "https://www.musik-produktiv.de/shure-sm7b.html"
     }
   },
   {
@@ -29,12 +30,13 @@ const products = [
     reviews: 3456,
     badge: "premium",
     desc: "The world's most famous studio condenser microphone. Used on countless hit records. Three polar patterns, 10dB pad, and legendary Neumann sound.",
-    desc_es: "El micrÃ³fono de condensador de estudio mÃ¡s famoso del mundo. Usado en innumerables Ã©xitos discogrÃ¡ficos. Tres patrones polares, pad de 10dB y legendario sonido Neumann.",
+    desc_es: "El micrófono de condensador de estudio más famoso del mundo. Usado en innumerables éxitos discográficos. Tres patrones polares, pad de 10dB y legendario sonido Neumann.",
     img: "https://media.sweetwater.com/m/products/image/f759b6ae09I6HOqlkPqK2z6BNiVZitPMA6qDgFfQ.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=f759b6ae09fda8c7",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/U87Ai--neumann-u-87-ai-large-diaphragm-condenser-microphone-nickel",
       thomann: "https://www.thomann.co.uk/neumann_u87_ai.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -48,11 +50,12 @@ const products = [
     reviews: 21345,
     badge: "bestSeller",
     desc: "The world's quietest studio condenser microphone. Pristine audio quality with a warm, smooth character. Includes shock mount and pop filter.",
-    desc_es: "El micrÃ³fono de condensador de estudio mÃ¡s silencioso del mundo. Calidad de audio impecable con un carÃ¡cter cÃ¡lido y suave. Incluye soporte antigolpes y filtro antipop.",
+    desc_es: "El micrófono de condensador de estudio más silencioso del mundo. Calidad de audio impecable con un carácter cálido y suave. Incluye soporte antigolpes y filtro antipop.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/235937.jpg",
     stores: {
       thomann: "https://www.thomann.co.uk/rode_nt1a_complete_vocal_recording.htm",
       gear4music: "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -66,12 +69,13 @@ const products = [
     reviews: 5678,
     badge: "topQuality",
     desc: "Versatile large-diaphragm condenser with 5 polar patterns. From vocals to piano, the C414 handles it all with breathtaking detail.",
-    desc_es: "Condensador versÃ¡til de diafragma grande con 5 patrones polares. Desde voces hasta piano, el C414 lo maneja todo con un detalle impresionante.",
+    desc_es: "Condensador versátil de diafragma grande con 5 patrones polares. Desde voces hasta piano, el C414 lo maneja todo con un detalle impresionante.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/240602.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/C414XLII--akg-c414-xlii-large-diaphragm-condenser-microphone",
       thomann: "https://www.thomann.co.uk/akg_c414_xlii.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -85,13 +89,14 @@ const products = [
     reviews: 45210,
     badge: "legend",
     desc: "The most recorded instrument microphone in history. Indestructible, affordable, and incredible on guitar cabs, snares, and horns. Every musician should own one.",
-    desc_es: "El micrÃ³fono de instrumento mÃ¡s grabado de la historia. Indestructible, asequible e increÃ­ble en gabinetes de guitarra, cajas y trompetas. Todo mÃºsico deberÃ­a tener uno.",
+    desc_es: "El micrófono de instrumento más grabado de la historia. Indestructible, asequible e increíble en gabinetes de guitarra, cajas y trompetas. Todo músico debería tener uno.",
     img: "https://media.sweetwater.com/m/products/image/8cc557164ei09SdpOiJJ8j2UgW5tRIRPcRVVipe6.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=8cc557164e165612",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM57--shure-sm57-cardioid-dynamic-instrument-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm57_lc.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+
+      musikproduktiv: "https://www.musik-produktiv.de/shure-sm57.html"
     }
   },
 
@@ -106,11 +111,12 @@ const products = [
     reviews: 7890,
     badge: "bestSeller",
     desc: "The iconic Stratocaster, refined. V-Mod II pickups, Deep C neck profile, and a sleek satin finish. From blues to pop, it's the sound of modern music.",
-    desc_es: "La icÃ³nica Stratocaster, refinada. Pastillas V-Mod II, perfil de mÃ¡stil Deep C y un elegante acabado satinado. Del blues al pop, es el sonido de la mÃºsica moderna.",
+    desc_es: "La icónica Stratocaster, refinada. Pastillas V-Mod II, perfil de mástil Deep C y un elegante acabado satinado. Del blues al pop, es el sonido de la música moderna.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StratAP2MMB--fender-american-professional-ii-stratocaster-miami-blue-with-maple-fingerboard",
       gear4music: "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -124,12 +130,13 @@ const products = [
     reviews: 4567,
     badge: "premium",
     desc: "The ultimate rock machine. Burstbucker pickups, mahogany body with maple top, and that unmistakable Les Paul sustain.",
-    desc_es: "La mÃ¡quina de rock definitiva. Pastillas Burstbucker, cuerpo de caoba con tapa de arce y ese inconfundible sustain Les Paul.",
+    desc_es: "La máquina de rock definitiva. Pastillas Burstbucker, cuerpo de caoba con tapa de arce y ese inconfundible sustain Les Paul.",
     img: "https://media.sweetwater.com/m/products/image/7f6aefa01649sOZjanoDlBOmYlvvPxgDS7FfbIng.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=7f6aefa01626914a",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/LPS6ITNH--gibson-les-paul-standard-60s-iced-tea",
       thomann: "https://www.thomann.co.uk/gibson_les_paul_standard_60s_bb.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -143,12 +150,13 @@ const products = [
     reviews: 3456,
     badge: "topQuality",
     desc: "A masterpiece of acoustic craftsmanship. Solid Sitka spruce top, Tasmanian blackwood back and sides, and Taylor's legendary playability.",
-    desc_es: "Una obra maestra de artesanÃ­a acÃºstica. Tapa de abeto Sitka macizo, fondo y aros de palo negro de Tasmania, y la legendaria tocabilidad de Taylor.",
+    desc_es: "Una obra maestra de artesanía acústica. Tapa de abeto Sitka macizo, fondo y aros de palo negro de Tasmania, y la legendaria tocabilidad de Taylor.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/314ceVClNMB--taylor-314ce-v-class-grand-auditorium-acoustic-electric-guitar-natural",
       thomann: "https://www.thomann.co.uk/taylor_314ce_next_generation.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -162,12 +170,13 @@ const products = [
     reviews: 6789,
     badge: "recommended",
     desc: "The original shred machine. Super Wizard neck, Edge tremolo, and DiMarzio pickups. Made for speed and precision.",
-    desc_es: "La mÃ¡quina de shred original. MÃ¡stil Super Wizard, trÃ©molo Edge y pastillas DiMarzio. Hecha para velocidad y precisiÃ³n.",
+    desc_es: "La máquina de shred original. Mástil Super Wizard, trémolo Edge y pastillas DiMarzio. Hecha para velocidad y precisión.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429087.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/RG550EB--ibanez-genesis-collection-rg550-electric-guitar-electric-blue",
       thomann: "https://www.thomann.co.uk/ibanez_rg550_pn.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -181,11 +190,12 @@ const products = [
     reviews: 2345,
     badge: "premium",
     desc: "Paul Reed Smith's tribute to the golden era of electric guitars. 58/15 LT pickups, pattern vintage neck, and impeccable build quality.",
-    desc_es: "El tributo de Paul Reed Smith a la era dorada de las guitarras elÃ©ctricas. Pastillas 58/15 LT, mÃ¡stil pattern vintage y calidad de construcciÃ³n impecable.",
+    desc_es: "El tributo de Paul Reed Smith a la era dorada de las guitarras eléctricas. Pastillas 58/15 LT, mástil pattern vintage y calidad de construcción impecable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/581957.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MC59410BGWBst--prs-mccarty-594-10-top-electric-guitar-black-gold-wraparound-burst",
       thomann: "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -201,12 +211,13 @@ const products = [
     reviews: 1890,
     badge: "premium",
     desc: "The ultimate stage piano. Triple Sensor keybed, seamless transitions, and Nord's legendary piano, organ, and synth engines in one instrument.",
-    desc_es: "El piano de escenario definitivo. Teclado Triple Sensor, transiciones perfectas y los legendarios motores de piano, Ã³rgano y sintetizador de Nord en un solo instrumento.",
+    desc_es: "El piano de escenario definitivo. Teclado Triple Sensor, transiciones perfectas y los legendarios motores de piano, órgano y sintetizador de Nord en un solo instrumento.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/560977.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Stage4-88--nord-stage-4-88-stage-keyboard",
       thomann: "https://www.thomann.co.uk/clavia_nord_stage_4_88.htm",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -220,11 +231,12 @@ const products = [
     reviews: 1567,
     badge: "premium",
     desc: "Flagship synthesizer with AN-X and FM-X engines. 88-key weighted action, motion control, and seamless DAW integration.",
-    desc_es: "Sintetizador insignia con motores AN-X y FM-X. 88 teclas de acciÃ³n con peso, control de movimiento e integraciÃ³n perfecta con DAW.",
+    desc_es: "Sintetizador insignia con motores AN-X y FM-X. 88 teclas de acción con peso, control de movimiento e integración perfecta con DAW.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/629663.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -238,12 +250,13 @@ const products = [
     reviews: 12345,
     badge: "bestSeller",
     desc: "The ultimate DAW controller. Deep integration with Analog Lab, Ableton Live, and Logic. 61 velocity-sensitive keys with polyphonic aftertouch.",
-    desc_es: "El controlador DAW definitivo. IntegraciÃ³n profunda con Analog Lab, Ableton Live y Logic. 61 teclas sensibles a la velocidad con aftertouch polifÃ³nico.",
+    desc_es: "El controlador DAW definitivo. Integración profunda con Analog Lab, Ableton Live y Logic. 61 teclas sensibles a la velocidad con aftertouch polifónico.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567153.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KeyLabEss3-61--arturia-keylab-essential-mk3-61-key-keyboard-controller-white",
       thomann: "https://www.thomann.co.uk/arturia_keylab_essential_61_mk3_white.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -257,11 +270,12 @@ const products = [
     reviews: 6789,
     badge: "recommended",
     desc: "Smart keyboard controller with NI ecosystem integration. Light guide, NKS browsing, and premium Fatar keybed.",
-    desc_es: "Controlador de teclado inteligente con integraciÃ³n al ecosistema NI. GuÃ­a de luz, navegaciÃ³n NKS y teclado Fatar premium.",
+    desc_es: "Controlador de teclado inteligente con integración al ecosistema NI. Guía de luz, navegación NKS y teclado Fatar premium.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/570926.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KontS3-61--native-instruments-kontrol-s61-mk3-61-key-smart-keyboard-controller",
       thomann: "https://www.thomann.co.uk/native_instruments_kontrol_s61_mk3_komplete_15.htm",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -270,20 +284,21 @@ const products = [
   {
     id: 15,
     title: "Focusrite Scarlett 2i2 4th Gen",
-    title_es: "Focusrite Scarlett 2i2 4Âª Gen",
+    title_es: "Focusrite Scarlett 2i2 4ª Gen",
     category: "interfaces",
     price: 199,
     rating: 4.7,
     reviews: 34567,
     badge: "bestSeller",
     desc: "The world's best-selling audio interface just got better. 120dB dynamic range, Air mode, and Loopback for streaming. Studio-grade conversion.",
-    desc_es: "La interfaz de audio mÃ¡s vendida del mundo acaba de mejorar. 120dB de rango dinÃ¡mico, modo Air y Loopback para streaming. ConversiÃ³n de grado estudio.",
+    desc_es: "La interfaz de audio más vendida del mundo acaba de mejorar. 120dB de rango dinámico, modo Air y Loopback para streaming. Conversión de grado estudio.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Scar2i2G4--focusrite-scarlett-2i2-4th-gen-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/focusrite_scarlett_2i2_studio_4th_gen.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+
+      musikproduktiv: "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html"
     }
   },
   {
@@ -301,6 +316,7 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
       thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -314,12 +330,13 @@ const products = [
     reviews: 3456,
     badge: "topQuality",
     desc: "The gold standard for portable recording. Legendary RME drivers, SteadyClock FS jitter suppression, and pristine AD/DA conversion.",
-    desc_es: "El estÃ¡ndar de oro para grabaciÃ³n portÃ¡til. Legendarios drivers RME, supresiÃ³n de jitter SteadyClock FS y conversiÃ³n AD/DA impecable.",
+    desc_es: "El estándar de oro para grabación portátil. Legendarios drivers RME, supresión de jitter SteadyClock FS y conversión AD/DA impecable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/476426.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BabyfaceProFS--rme-babyface-pro-fs-24-channel-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/rme_babyface_pro_fs.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -333,12 +350,13 @@ const products = [
     reviews: 8901,
     badge: "recommended",
     desc: "Solid State Logic in an interface. Legendary SSL 4K preamps, Legacy 4K analogue channel strip, and professional monitoring features.",
-    desc_es: "Solid State Logic en una interfaz. Legendarios preamplificadores SSL 4K, channel strip analÃ³gico Legacy 4K y funciones profesionales de monitoreo.",
+    desc_es: "Solid State Logic en una interfaz. Legendarios preamplificadores SSL 4K, channel strip analógico Legacy 4K y funciones profesionales de monitoreo.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/601306.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SSL2Plus--solid-state-logic-ssl2-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/ssl_2_mkii_601306.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -354,13 +372,14 @@ const products = [
     reviews: 12345,
     badge: "bestSeller",
     desc: "The industry standard for mixing. 8-inch cone woofer with Kevlar coating, 1-inch dome tweeter, and room control for accurate monitoring.",
-    desc_es: "El estÃ¡ndar de la industria para mezcla. Woofer de cono de 8 pulgadas con revestimiento de Kevlar, tweeter de domo de 1 pulgada y control de sala para monitoreo preciso.",
+    desc_es: "El estándar de la industria para mezcla. Woofer de cono de 8 pulgadas con revestimiento de Kevlar, tweeter de domo de 1 pulgada y control de sala para monitoreo preciso.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/315822.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HS8pr--yamaha-hs8-8-inch-powered-studio-monitor-pair-black",
       thomann: "https://www.thomann.co.uk/yamaha_hs_8_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+
+      musikproduktiv: "https://www.musik-produktiv.de/yamaha-hs-8.html"
     }
   },
   {
@@ -373,12 +392,13 @@ const products = [
     reviews: 18907,
     badge: "recommended",
     desc: "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port ideal for smaller studios.",
-    desc_es: "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal ideal para estudios pequeÃ±os.",
+    desc_es: "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal ideal para estudios pequeños.",
     img: "img/krk-rokit7.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
       thomann: "https://www.thomann.co.uk/krk_rokit_rp7_g5_stand_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -392,12 +412,13 @@ const products = [
     reviews: 4567,
     badge: "premium",
     desc: "Cutting-edge 2-way monitor with S-ART folded ribbon tweeter. Unmatched transient response, deep bass, and 3D imaging.",
-    desc_es: "Monitor de 2 vÃ­as de vanguardia con tweeter de cinta plegada S-ART. Respuesta transitoria inigualable, graves profundos e imagen 3D.",
+    desc_es: "Monitor de 2 vías de vanguardia con tweeter de cinta plegada S-ART. Respuesta transitoria inigualable, graves profundos e imagen 3D.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/A7V--adam-audio-a7v-7-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/adam_a7v.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -411,12 +432,13 @@ const products = [
     reviews: 2345,
     badge: "premium",
     desc: "Finnish precision at its finest. 6.5-inch woofer, metal dome tweeter, and Genelec's renowned Directivity Control waveguide.",
-    desc_es: "PrecisiÃ³n finlandesa en su mÃ¡xima expresiÃ³n. Woofer de 6.5 pulgadas, tweeter de domo metÃ¡lico y la reconocida guÃ­a de onda Directivity Control de Genelec.",
+    desc_es: "Precisión finlandesa en su máxima expresión. Woofer de 6.5 pulgadas, tweeter de domo metálico y la reconocida guía de onda Directivity Control de Genelec.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/311111.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/8040BPM--genelec-8040b-6.5-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/genelec_8040_bpm.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -432,13 +454,14 @@ const products = [
     reviews: 32109,
     badge: "legend",
     desc: "The studio standard for closed-back monitoring. 250 Ohm drivers, velour ear pads, and exceptional comfort for marathon sessions.",
-    desc_es: "El estÃ¡ndar de estudio para monitoreo cerrado. Drivers de 250 Ohm, almohadillas de velour y comodidad excepcional para sesiones maratonianas.",
+    desc_es: "El estándar de estudio para monitoreo cerrado. Drivers de 250 Ohm, almohadillas de velour y comodidad excepcional para sesiones maratonianas.",
     img: "img/dt770pro.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DT770pro80--beyerdynamic-dt-770-pro-80-ohm-closed-back-studio-mixing-headphones",
       thomann: "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+
+      musikproduktiv: "https://www.musik-produktiv.de/beyerdynamic-dt-770-pro-250-ohm.html"
     }
   },
   {
@@ -451,11 +474,12 @@ const products = [
     reviews: 18907,
     badge: "legend",
     desc: "Audiophile open-back reference headphones. Natural, neutral sound with incredible detail. The mixing engineer's choice for critical listening.",
-    desc_es: "Auriculares de referencia abiertos audiÃ³filos. Sonido natural y neutro con detalle increÃ­ble. La elecciÃ³n del ingeniero de mezcla para escucha crÃ­tica.",
+    desc_es: "Auriculares de referencia abiertos audiófilos. Sonido natural y neutro con detalle increíble. La elección del ingeniero de mezcla para escucha crítica.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/471751.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HD600--sennheiser-hd-600-open-back-audiophile-professional-headphones",
       thomann: "https://www.thomann.co.uk/sennheiser_hd_600_new_version_2019.htm",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -469,12 +493,13 @@ const products = [
     reviews: 45678,
     badge: "bestSeller",
     desc: "The most popular studio headphones in the world. Critically acclaimed clarity, deep bass, and collapsible design for portability.",
-    desc_es: "Los auriculares de estudio mÃ¡s populares del mundo. Claridad aclamada por la crÃ­tica, graves profundos y diseÃ±o plegable para portabilidad.",
+    desc_es: "Los auriculares de estudio más populares del mundo. Claridad aclamada por la crítica, graves profundos y diseño plegable para portabilidad.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/331905.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ATHM50x--audio-technica-ath-m50x-closed-back-studio-monitoring-headphones",
       thomann: "https://www.thomann.co.uk/audio_technica_ath_m50_x.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -488,13 +513,14 @@ const products = [
     reviews: 56789,
     badge: "legend",
     desc: "The broadcast standard since 1991. Closed-back, collapsible, and incredibly reliable. Trusted by professionals worldwide.",
-    desc_es: "El estÃ¡ndar de transmisiÃ³n desde 1991. Cerrados, plegables e increÃ­blemente confiables. Usados por profesionales en todo el mundo.",
+    desc_es: "El estándar de transmisión desde 1991. Cerrados, plegables e increíblemente confiables. Usados por profesionales en todo el mundo.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/135709.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MDR7506--sony-mdr-7506-closed-back-professional-headphones",
       thomann: "https://www.thomann.co.uk/sony_mdr7506_kopfhoerer.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+
+      musikproduktiv: "https://www.musik-produktiv.de/sony-mdr-7506.html"
     }
   },
 
@@ -509,11 +535,12 @@ const products = [
     reviews: 18907,
     badge: "premium",
     desc: "The world's leading sampler platform. Kontakt 8 with new browser, wavetable module, MIDI tools, and 900+ instruments. The industry standard for sampled instruments.",
-    desc_es: "La plataforma de sampler lÃ­der mundial. Kontakt 8 con nuevo navegador, mÃ³dulo wavetable, herramientas MIDI y mÃ¡s de 900 instrumentos. El estÃ¡ndar de la industria para instrumentos sampleados.",
+    desc_es: "La plataforma de sampler líder mundial. Kontakt 8 con nuevo navegador, módulo wavetable, herramientas MIDI y más de 900 instrumentos. El estándar de la industria para instrumentos sampleados.",
     img: "img/kontakt8.jpg",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -527,13 +554,14 @@ const products = [
     reviews: 12345,
     badge: "premium",
     desc: "The ultimate mixing and mastering toolkit. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, and more.",
-    desc_es: "El kit definitivo de mezcla y masterizaciÃ³n. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y mÃ¡s.",
+    desc_es: "El kit definitivo de mezcla y masterización. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más.",
     img: "img/fabfilter-total.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle",
       thomann: "https://www.thomann.co.uk/fabfilter_total_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -547,12 +575,13 @@ const products = [
     reviews: 8901,
     badge: "topQuality",
     desc: "Next-gen AI-powered mastering suite. 20 pro modules including Stem EQ, Clarity, Stabilizer, and improved stem splitting with neural networks.",
-    desc_es: "Suite de masterizaciÃ³n de nueva generaciÃ³n impulsada por IA. 20 mÃ³dulos profesionales incluyendo Stem EQ, Clarity, Stabilizer y separaciÃ³n de stems mejorada con redes neuronales.",
+    desc_es: "Suite de masterización de nueva generación impulsada por IA. 20 módulos profesionales incluyendo Stem EQ, Clarity, Stabilizer y separación de stems mejorada con redes neuronales.",
     img: "img/ozone12.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Ozone12Ad--izotope-ozone-12-advanced-mastering-software-suite",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15503-Ozone-12-Advanced",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -566,12 +595,13 @@ const products = [
     reviews: 6789,
     badge: "topQuality",
     desc: "23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack. The creative producer's toolbox.",
-    desc_es: "23 efectos icÃ³nicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. La caja de herramientas del productor creativo.",
+    desc_es: "23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. La caja de herramientas del productor creativo.",
     img: "img/soundtoys5.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Soundtoys5--soundtoys-5-plug-in-bundle-download",
       pluginboutique: "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -587,12 +617,13 @@ const products = [
     reviews: 4567,
     badge: "topQuality",
     desc: "The ultimate rhythm machine. Authentic 808, 909, and 707 sounds combined with sample import and advanced sequencing.",
-    desc_es: "La mÃ¡quina de ritmo definitiva. Sonidos autÃ©nticos de 808, 909 y 707 combinados con importaciÃ³n de samples y secuenciaciÃ³n avanzada.",
+    desc_es: "La máquina de ritmo definitiva. Sonidos auténticos de 808, 909 y 707 combinados con importación de samples y secuenciación avanzada.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/434284.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/TR8S--roland-tr-8s-rhythm-performer",
       thomann: "https://www.thomann.co.uk/roland_tr_8s.htm",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -606,11 +637,12 @@ const products = [
     reviews: 5678,
     badge: "bestSeller",
     desc: "Beat-making powerhouse with Wi-Fi and Bluetooth. 7-inch touchscreen, 16 velocity-sensitive pads, and the legendary MPC workflow.",
-    desc_es: "Potencia de creaciÃ³n de beats con Wi-Fi y Bluetooth. Pantalla tÃ¡ctil de 7 pulgadas, 16 pads sensibles a la velocidad y el legendario flujo de trabajo MPC.",
+    desc_es: "Potencia de creación de beats con Wi-Fi y Bluetooth. Pantalla táctil de 7 pulgadas, 16 pads sensibles a la velocidad y el legendario flujo de trabajo MPC.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567619.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MPCOnePlus--akai-professional-mpc-one-plus-standalone-sampler-and-sequencer",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -624,10 +656,11 @@ const products = [
     reviews: 2345,
     badge: "premium",
     desc: "Hand-hammered Turkish cymbals with warm, complex tones. Includes 14-inch hi-hats, 16-inch + 18-inch crashes, and 20-inch ride.",
-    desc_es: "Platillos turcos martillados a mano con tonos cÃ¡lidos y complejos. Incluye hi-hats de 14 pulgadas, crashes de 16 + 18 pulgadas y ride de 20 pulgadas.",
+    desc_es: "Platillos turcos martillados a mano con tonos cálidos y complejos. Incluye hi-hats de 14 pulgadas, crashes de 16 + 18 pulgadas y ride de 20 pulgadas.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/374175.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -641,10 +674,11 @@ const products = [
     reviews: 1234,
     badge: "premium",
     desc: "Professional-grade drum kit with walnut/birch shells. Incredible depth, attack, and resonance. Perfect for studio and stage.",
-    desc_es: "BaterÃ­a de grado profesional con cascos de nogal/abedul. Profundidad, ataque y resonancia increÃ­bles. Perfecta para estudio y escenario.",
+    desc_es: "Batería de grado profesional con cascos de nogal/abedul. Profundidad, ataque y resonancia increíbles. Perfecta para estudio y escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/361976.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -660,11 +694,12 @@ const products = [
     reviews: 8901,
     badge: "topQuality",
     desc: "The industry standard for studio cabling. Neglex OFC conductors, REAN connectors, and legendary Mogami reliability.",
-    desc_es: "El estÃ¡ndar de la industria para cableado de estudio. Conductores Neglex OFC, conectores REAN y la legendaria fiabilidad Mogami.",
+    desc_es: "El estándar de la industria para cableado de estudio. Conductores Neglex OFC, conectores REAN y la legendaria fiabilidad Mogami.",
     img: "img/mogami-xlr.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
       gear4music: "https://www.gear4music.com/G4M/Studiospares-Pro-Neutrik-XLR-Mogami-Cable-5m-Black-with-Gold-Plated-Pins/6URJ",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -678,10 +713,11 @@ const products = [
     reviews: 5678,
     badge: null,
     desc: "Professional metal mesh pop filter. Dual-layer screen eliminates plosives without high-frequency loss. Adjustable goose-neck stand.",
-    desc_es: "Filtro antipop profesional de malla metÃ¡lica. Pantalla de doble capa elimina oclusivas sin pÃ©rdida de altas frecuencias. Soporte de cuello de ganso ajustable.",
+    desc_es: "Filtro antipop profesional de malla metálica. Pantalla de doble capa elimina oclusivas sin pérdida de altas frecuencias. Soporte de cuello de ganso ajustable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/561297.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StedmanXL--stedman-corporation-proscreen-xl-black",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -695,10 +731,11 @@ const products = [
     reviews: 3456,
     badge: null,
     desc: "ATA-approved molded case with EPS foam interior. Heavy-duty hardware, recessed latches, and wheels for easy transport.",
-    desc_es: "Estuche moldeado aprobado ATA con interior de espuma EPS. Herrajes de alta resistencia, pestillos empotrados y ruedas para fÃ¡cil transporte.",
+    desc_es: "Estuche moldeado aprobado ATA con interior de espuma EPS. Herrajes de alta resistencia, pestillos empotrados y ruedas para fácil transporte.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/409664.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GK61--gator-gk-61-semi-rigid-keyboard-case",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -712,12 +749,13 @@ const products = [
     reviews: 2345,
     badge: "premium",
     desc: "8-channel motorized fader controller with SSL's legendary console workflow. Touch-sensitive faders, MCU/HUI protocol, and premium build.",
-    desc_es: "Controlador de faders motorizados de 8 canales con el legendario flujo de trabajo de consola SSL. Faders sensibles al tacto, protocolo MCU/HUI y construcciÃ³n premium.",
+    desc_es: "Controlador de faders motorizados de 8 canales con el legendario flujo de trabajo de consola SSL. Faders sensibles al tacto, protocolo MCU/HUI y construcción premium.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/508557.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/UF8control--solid-state-logic-uf8-advanced-daw-controller",
       thomann: "https://www.thomann.co.uk/ssl_uf8.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK",
+
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -731,10 +769,12 @@ const products = [
     reviews: 7,
     badge: "recommended",
     desc: "Professional-grade Cuban Tres with solid spruce top for exceptional clarity, sustain, and definition. No cutaway for maximum resonance. Mother of pearl inlays around sound hole, mahogany neck, walnut back and sides. The studio standard for authentic Cuban sound.",
-    desc_es: "Tres Cubano de grado profesional con tapa sÃ³lida de abeto para claridad, sustain y definiciÃ³n excepcionales. Sin cutaway para mÃ¡xima resonancia. Incrustaciones de nÃ¡car alrededor de la boca, mÃ¡stil de caoba, fondo y aros de nogal. El estÃ¡ndar de estudio para sonido cubano autÃ©ntico.",
+    desc_es: "Tres Cubano de grado profesional con tapa sólida de abeto para claridad, sustain y definición excepcionales. Sin cutaway para máxima resonancia. Incrustaciones de nácar alrededor de la boca, mástil de caoba, fondo y aros de nogal. El estándar de estudio para sonido cubano auténtico.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/336551.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe.htm"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -747,10 +787,12 @@ const products = [
     reviews: 6,
     badge: null,
     desc: "Solid acacia top Cuban Tres. Maple neck, acacia fingerboard and bridge. Includes gig bag. Tuning: G-B-E or G-C-E. Excellent value for students and touring musicians.",
-    desc_es: "Tres Cubano con tapa sÃ³lida de acacia. MÃ¡stil de arce, diapasÃ³n y puente de acacia. Incluye funda de transporte. AfinaciÃ³n: G-B-E o G-C-E. Excelente relaciÃ³n calidad-precio para estudiantes y mÃºsicos de gira.",
+    desc_es: "Tres Cubano con tapa sólida de acacia. Mástil de arce, diapasón y puente de acacia. Incluye funda de transporte. Afinación: G-B-E o G-C-E. Excelente relación calidad-precio para estudiantes y músicos de gira.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/415715.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_acacia.htm"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_acacia.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -763,10 +805,12 @@ const products = [
     reviews: 654,
     badge: null,
     desc: "Cuban Tres with cutaway for upper fret access. Cedar top, sapele back and sides, maple neck with acacia fingerboard. Built-in pickup system. Tuning: G-B-E or G-C-E. Great mid-range option with stage-ready electronics.",
-    desc_es: "Tres Cubano con cutaway para acceso a trastes superiores. Tapa de cedro, fondo y aros de sapeli, mÃ¡stil de arce con diapasÃ³n de acacia. Sistema de pastilla incorporado. AfinaciÃ³n: G-B-E o G-C-E. Excelente opciÃ³n de gama media con electrÃ³nica lista para el escenario.",
+    desc_es: "Tres Cubano con cutaway para acceso a trastes superiores. Tapa de cedro, fondo y aros de sapeli, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado. Afinación: G-B-E o G-C-E. Excelente opción de gama media con electrónica lista para el escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/357834.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_ccw.htm"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_ccw.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -779,10 +823,12 @@ const products = [
     reviews: 25,
     badge: null,
     desc: "Premium Cuban Tres with cutaway. Cedar top, walnut back and sides, maple neck with acacia fingerboard. Built-in pickup system. The top-tier Thomann tres for players who need cutaway access and stage-ready electronics.",
-    desc_es: "Tres Cubano premium con cutaway. Tapa de cedro, fondo y aros de nogal, mÃ¡stil de arce con diapasÃ³n de acacia. Sistema de pastilla incorporado. El tres Thomann de mÃ¡s alta gama para mÃºsicos que necesitan acceso al cutaway y electrÃ³nica lista para el escenario.",
+    desc_es: "Tres Cubano premium con cutaway. Tapa de cedro, fondo y aros de nogal, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado. El tres Thomann de más alta gama para músicos que necesitan acceso al cutaway y electrónica lista para el escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/357835.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe_ccw.htm"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe_ccw.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   }
 ];
@@ -804,23 +850,23 @@ const categoryInfo = {
 const storeNames = {
   thomann: "Thomann",
   pluginboutique: "Plugin Boutique",
+  loopmasters: "Loopmasters",
   gear4music: "Gear4Music",
-  sweetwater: "Sweetwater",
-  musikproduktiv: "Musik Produktiv"
+  sweetwater: "Sweetwater"
 };
 
 const storeColors = {
   thomann: "#3b82f6",
   pluginboutique: "#6366f1",
+  loopmasters: "#475569",
   gear4music: "#8b5cf6",
-  sweetwater: "#6b7280",
-  musikproduktiv: "#78716c"
+  sweetwater: "#6b7280"
 };
 
 const storeIcons = {
   thomann: '<img src="img/thomann-icon.png" alt="Thomann" class="store-icon-img">',
   pluginboutique: '<img src="img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-icon-img">',
+  loopmasters: '<i class="fa-solid fa-arrows-rotate"></i>',
   gear4music: '<img src="img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img">',
-  sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
-  musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px">'
+  sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">'
 };
