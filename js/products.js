@@ -651,7 +651,7 @@ const products = [
     badge: "legend",
     desc: "Open-back mixing headphones with legendary bass extension. The spacious soundstage reveals reverb tails and stereo placement with surgical precision. The DT 770's open-back sibling.",
     desc_es: "Auriculares de mezcla abiertos con legendaria extensión de graves. El escenario sonoro espacioso revela colas de reverb y colocación estéreo con precisión quirúrgica. El hermano abierto del DT 770.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/209708.jpg",
+    img: "img/dt990pro.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DT990Pro--beyerdynamic-dt-990-pro-250-ohm-open-back-studio-headphones",
       thomann: "https://www.thomann.co.uk/beyerdynamic_dt990pro.htm",
