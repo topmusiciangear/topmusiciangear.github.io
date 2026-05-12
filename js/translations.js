@@ -4,7 +4,7 @@ const translations = {
     disclosureLink: "More info",
     footerDisclosureText: '<strong>TopMusicianGear</strong> is a participant in affiliate programs including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, and Sweetwater. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="#" id="disclosureLink">More info</a>',
     heroBadge: "Trusted by musicians worldwide",
-    heroTitle: "From Studio To Stage — <span>Gear Reviewed By A Pro</span>",
+    heroTitle: "From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span>",
     heroDesc: "Trusted by a musician with over 20 years of experience on the world's biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.",
     heroCta: "Browse Gear →",
     heroStory: "My Story",
