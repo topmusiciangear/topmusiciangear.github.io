@@ -487,6 +487,30 @@ document.addEventListener("DOMContentLoaded", () => {
     renderGuideGrid();
   });
 
+  document.getElementById("productSearchInput").addEventListener("input", e => {
+    const q = e.target.value.toLowerCase().trim();
+    const results = document.getElementById("productSearchResults");
+    if (!q) {
+      results.style.display = "none";
+      return;
+    }
+    const filtered = products.filter(p => {
+      const t = p.title.toLowerCase();
+      const te = (p.title_es || "").toLowerCase();
+      const d = p.desc.toLowerCase();
+      const de = (p.desc_es || "").toLowerCase();
+      return t.includes(q) || te.includes(q) || d.includes(q) || de.includes(q);
+    });
+    if (filtered.length === 0) {
+      results.style.display = "block";
+      results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">No products found</p>';
+      return;
+    }
+    results.style.display = "block";
+    results.innerHTML = '<div class="guide-products-cards">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
+    results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
+  });
+
   document.querySelectorAll(".nav-link[data-nav]").forEach(btn => {
     btn.addEventListener("click", () => handleNavClick(btn.dataset.nav));
   });
