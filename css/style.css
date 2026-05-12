@@ -1829,9 +1829,9 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; }
+  html { overflow-x: hidden; overscroll-behavior-x: none; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
-  body { -ms-overflow-style: none; scrollbar-width: none; }
+  body { overscroll-behavior-x: none; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
