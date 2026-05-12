@@ -365,6 +365,7 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-microphone"></i> ${t("credit_topaz")}</span>
         <span class="credit-badge"><i class="fa-solid fa-compact-disc"></i> ${t("credit_warner")}</span>
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
+        <span class="credit-badge"><i class="fa-solid fa-flag-usa"></i> ${t("credit_usatours")}</span>
       </div>
     </div>
   `;
