@@ -162,7 +162,7 @@ function renderProductCard(id) {
     `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
   ).join("");
   return `
-    <div class="guide-product-card">
+    <div class="guide-product-card" data-product-id="${p.id}">
       <div class="guide-product-card-img"><img src="${p.img}" alt="${title}" loading="lazy"></div>
       <div class="guide-product-card-body">
         <div class="guide-product-card-title">${title}</div>
@@ -513,6 +513,21 @@ document.addEventListener("DOMContentLoaded", () => {
     results.style.display = "block";
     results.innerHTML = '<div class="product-search-grid">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
     results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
+    results.querySelectorAll(".guide-product-card").forEach(card => {
+      card.style.cursor = "pointer";
+      card.addEventListener("click", () => {
+        const productId = parseInt(card.dataset.productId);
+        const guide = guides.find(g => g.sections.some(s => (s.products || []).includes(productId)));
+        if (guide) {
+          history.pushState({}, '', '/?g=' + guide.id);
+          renderGuideDetail(guide.id);
+          setTimeout(() => {
+            const el = document.getElementById("guideGrid");
+            if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+          }, 100);
+        }
+      });
+    });
   });
 
   document.querySelectorAll(".nav-link[data-nav]").forEach(btn => {
