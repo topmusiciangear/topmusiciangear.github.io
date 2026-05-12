@@ -147,8 +147,8 @@ const guides = [
       {
         heading: "Best All-Rounder Dynamic: Shure SM57",
         heading_es: "Mejor Dinámico Todo-Terreno: Shure SM57",
-        content: "The SM57 is the most recorded instrument in history. Not hyperbole — it's a fact. It's $99, takes a beating, and sounds fantastic on guitar amps, snares, horns, and vocals. I've used SM57s on Broadway pit orchestras, Glastonbury stages, and studio sessions. Every musician should own one.",
-        content_es: "El SM57 es el instrumento más grabado de la historia. No es exageración — es un hecho. Cuesta $99, aguanta golpes y suena fantástico en amplificadores de guitarra, cajas, trompetas y voces. He usado SM57s en orquestas de foso de Broadway, escenarios de Glastonbury y sesiones de estudio. Todo músico debería tener uno.",
+        content: "The SM57 is the most recorded microphone in history. Not hyperbole — it's a fact. It's $99, takes a beating, and sounds fantastic on guitar amps, snares, horns, and vocals. I've used SM57s on Broadway pit orchestras, Glastonbury stages, and studio sessions. Every musician should own one.",
+        content_es: "El SM57 es el micrófono más grabado de la historia. No es exageración — es un hecho. Cuesta $99, aguanta golpes y suena fantástico en amplificadores de guitarra, cajas, trompetas y voces. He usado SM57s en orquestas de foso de Broadway, escenarios de Glastonbury y sesiones de estudio. Todo músico debería tener uno.",
         products: [5]
       },
       {
