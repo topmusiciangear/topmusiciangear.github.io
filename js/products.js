@@ -1001,7 +1001,10 @@ const storeNames = {
   sweetwater: "Sweetwater",
   musikproduktiv: "Musik Produktiv",
   amazon: "Amazon",
-  reverb: "Reverb"
+  reverb: "Reverb",
+  andertons: "Andertons",
+  baxmusic: "Bax Music",
+  musicstore: "Music Store"
 };
 
 const storeColors = {
@@ -1011,7 +1014,10 @@ const storeColors = {
   sweetwater: "#6b7280",
   musikproduktiv: "#78716c",
   amazon: "#ff9900",
-  reverb: "#d6562b"
+  reverb: "#d6562b",
+  andertons: "#00a8b0",
+  baxmusic: "#e03e2d",
+  musicstore: "#1a3a5c"
 };
 
 const storeIcons = {
@@ -1021,5 +1027,8 @@ const storeIcons = {
   sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
   musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px">',
   amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
-  reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>"
+  reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>",
+  andertons: '<i class="fa-solid fa-guitar" style="font-size:15px;"></i>',
+  baxmusic: '<i class="fa-solid fa-drum" style="font-size:15px;"></i>',
+  musicstore: '<i class="fa-solid fa-store" style="font-size:15px;"></i>'
 };

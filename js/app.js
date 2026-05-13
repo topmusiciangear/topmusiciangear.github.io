@@ -140,6 +140,9 @@ function getResolvedStores(product) {
     }
   }
   s.reverb = `https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`;
+  s.andertons = `https://www.andertons.co.uk/search?q=${encodeURIComponent(product.title)}`;
+  s.baxmusic = `https://www.bax-shop.co.uk/search?q=${encodeURIComponent(product.title)}`;
+  s.musicstore = `https://www.dv247.com/en/search?q=${encodeURIComponent(product.title)}`;
   return s;
 }
 
