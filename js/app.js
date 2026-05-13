@@ -393,7 +393,7 @@ function handleNavClick(target) {
     renderGuideGrid();
     setTimeout(() => {
       const el = document.querySelector("#guides .section-header") || document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 200);
   } else if (target === "mysetup") {
     setTimeout(() => {
