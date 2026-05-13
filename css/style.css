@@ -1863,7 +1863,7 @@ footer ul li a:hover { color: var(--accent); }
   .newsletter-form { flex-direction: column; }
   .newsletter-form button { width: 100%; }
   footer { padding: 40px 16px 0; }
-  .footer-bottom { padding-top: 16px; line-height: 1; }
+  .footer-bottom { padding: 12px 0 0; line-height: 1; }
   .footer-grid { gap: 12px; justify-content: center; flex-wrap: nowrap; }
   .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; }
   footer h3 { font-size: 11px; margin-bottom: 10px; }
@@ -2069,8 +2069,7 @@ html[lang="es"] .lang-show-en { display: none; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin-top: 12px;
-  margin-bottom: 0;
+  margin: 8px 0 0;
   padding: 8px 16px;
   border-radius: 20px;
   background: var(--accent);
