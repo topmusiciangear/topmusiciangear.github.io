@@ -2069,6 +2069,7 @@ html[lang="es"] .lang-show-en { display: none; }
   align-items: center;
   gap: 6px;
   margin-top: 12px;
+  margin-bottom: 0;
   padding: 8px 16px;
   border-radius: 20px;
   background: var(--accent);
@@ -2078,6 +2079,7 @@ html[lang="es"] .lang-show-en { display: none; }
   font-family: inherit;
   font-size: 12px;
   font-weight: 500;
+  line-height: 1;
   transition: all 0.2s;
 }
 
