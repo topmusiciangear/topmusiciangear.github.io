@@ -1024,5 +1024,5 @@ const storeIcons = {
   musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px">',
   amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
   reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>",
-  ebay: '<i class="fa-brands fa-ebay" style="font-size:15px;"></i>'
+  ebay: '<img src="img/ebay-icon.png" alt="eBay" class="store-icon-img">'
 };
