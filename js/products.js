@@ -1013,7 +1013,7 @@ const storeColors = {
   musikproduktiv: "#78716c",
   amazon: "#ff9900",
   reverb: "#d6562b",
-  ebay: "#e53238"
+  ebay: "#ffffff"
 };
 
 const storeIcons = {
