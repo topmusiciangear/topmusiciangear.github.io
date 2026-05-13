@@ -1830,10 +1830,9 @@ footer ul li a:hover { color: var(--accent); }
 
 @media (max-width: 768px) {
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { scroll-behavior: auto; max-width: 100%; overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
+  html { scroll-behavior: auto; max-width: 100%; overflow-x: hidden; overscroll-behavior-x: none; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; display: none !important; }
-  body { max-width: 100%; overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
-  *, *::before, *::after { max-width: 100vw; }
+  body { max-width: 100%; overflow-x: hidden; overscroll-behavior-x: none; -ms-overflow-style: none; scrollbar-width: none; touch-action: manipulation; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
