@@ -1830,7 +1830,7 @@ footer ul li a:hover { color: var(--accent); }
 
 @media (max-width: 768px) {
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; overflow-y: scroll; scroll-behavior: auto; }
+  html { overflow-x: hidden; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; display: none !important; }
   body { overscroll-behavior-x: none; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
