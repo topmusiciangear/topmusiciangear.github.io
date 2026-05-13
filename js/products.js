@@ -358,7 +358,10 @@ const products = [
       thomann: "https://www.thomann.co.uk/focusrite_scarlett_2i2_studio_4th_gen.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
 
-      musikproduktiv: "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html"
+      musikproduktiv: "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html",
+      andertons: "https://www.andertons.co.uk/focusrite-scarlett-2i2-4th-gen/",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/focusrite-scarlett-2i2-4th-gen-audio-interface",
+      musicstore: "https://www.musicstore.com/en_GB/GBP/Focusrite-Scarlett-2i2-4th-Gen/art-PCM0017719-000"
     }
   },
   {
@@ -377,7 +380,10 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
       thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/universal-audio-apollo-twin-x-quad-gen-2-studio-edition-audio-interface",
+      andertons: "https://www.andertons.co.uk/refurb-apollo-twin-x-duo-usb-heritage-edition-desktopwin/",
+      musicstore: "https://www.musicstore.com/en_GB/GBP/Universal-Audio-Apollo-Twin-X-DUO-USB-HE/art-PCM0017740-000"
     }
   },
   {
@@ -417,7 +423,10 @@ const products = [
       thomann: "https://www.thomann.co.uk/ssl_2_mkii_601306.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      andertons: "https://www.andertons.co.uk/ssl-2-v2-recording-pack-with-mic-headphones--pop-filter/",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/solid-state-logic-ssl-2-mkii-audio-interface",
+      musicstore: "https://www.musicstore.com/en_GB/GBP/SSL-Solid-State-Logic-SSL2-MKII/art-PCM0018224-000"
     }
   },
   {
