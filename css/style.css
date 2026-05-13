@@ -1865,7 +1865,8 @@ footer ul li a:hover { color: var(--accent); }
   .newsletter-form { flex-direction: column; }
   .newsletter-form button { width: 100%; }
   footer { padding: 40px 16px 0; }
-  .footer-bottom { padding: 12px 0 0; line-height: 1; }
+  .footer-bottom { padding: 8px 0 0; line-height: 1; border-top: none; }
+  .back-to-top { margin-top: 4px; }
   .footer-grid { gap: 12px; justify-content: center; flex-wrap: nowrap; }
   .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; }
   footer h3 { font-size: 11px; margin-bottom: 10px; }
