@@ -1649,7 +1649,7 @@ footer ul li a:hover { color: var(--accent); }
 
 .chip-store:hover { opacity: .85; }
 .chip-store:active { transform: scale(0.9); opacity: 0.6; filter: brightness(1.4); transition: none !important; }
-.chip-store[style*="background:#ffffff"], .chip-store[style*="background: #ffffff"] { color: #333; border: 1px solid #ddd; }
+.chip-store[style*="background:#ffffff"], .chip-store[style*="background: #ffffff"], .chip-store[style*="background:rgb(255"] { color: #333; border: 1px solid #ddd; font-weight: 700; }
 
 .chip-store .icon { display: flex; align-items: center; }
 
