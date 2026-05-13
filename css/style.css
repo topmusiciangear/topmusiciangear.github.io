@@ -1829,7 +1829,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { scroll-behavior: auto; overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
+  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
@@ -1859,7 +1859,7 @@ footer ul li a:hover { color: var(--accent); }
   .newsletter-card { padding: 32px 20px; }
   .newsletter-form { flex-direction: column; }
   .newsletter-form button { width: 100%; }
-  footer { padding: 40px 16px 6px; }
+  footer { padding: 40px 16px 0px; }
   .footer-grid { gap: 12px; justify-content: center; flex-wrap: nowrap; }
   .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; }
   footer h3 { font-size: 11px; margin-bottom: 10px; }
