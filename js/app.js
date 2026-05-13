@@ -481,11 +481,14 @@ document.addEventListener("DOMContentLoaded", () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     renderGuideGrid();
   }
-  renderAudioMini();
-  renderMySetup();
-  renderAbout();
-  initVideoIntro();
-  translatePage();
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      renderAudioMini();
+      renderMySetup();
+      renderAbout();
+      translatePage();
+    }, 100);
+  });
 
   document.getElementById("searchInput").addEventListener("input", e => {
     searchQuery = e.target.value;
