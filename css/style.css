@@ -1832,7 +1832,8 @@ footer ul li a:hover { color: var(--accent); }
   .header-inner { padding: 0 16px; gap: 12px; }
   html { overflow-x: hidden; overflow-y: scroll; scroll-behavior: auto; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; display: none !important; }
-  body { overflow-x: hidden; overscroll-behavior-x: none; -ms-overflow-style: none; scrollbar-width: none; touch-action: manipulation; }
+  body { overscroll-behavior-x: none; -ms-overflow-style: none; scrollbar-width: none; }
+  nav { display: none; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
