@@ -127,10 +127,25 @@ function getResolvedStores(product) {
   Object.entries(product.stores).forEach(([key, url]) => {
     if (key === 'gear4music' && url === 'https://www.gear4music.com/search') {
       s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
+    } else if (key === 'musikproduktiv' && url === 'https://www.musik-produktiv.de/search') {
+      s[key] = `https://www.musik-produktiv.de/`;
     } else {
       s[key] = url;
     }
+    if (key === 'andertons' && !url.includes('irpid')) {
+      s[key] = url + (url.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
+    }
   });
+  if (product.category !== 'plugins' && product.category !== 'tres') {
+    s.amazon = `https://www.amazon.co.uk/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
+    if (product.stores.amazon && product.stores.amazon.includes('/dp/')) {
+      s.amazon = product.stores.amazon.replace('https://www.amazon.com/', 'https://www.amazon.co.uk/') + '?tag=topmusicg-20';
+    }
+  }
+  s.reverb = `https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`;
+  if (!product.stores.andertons) s.andertons = `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(product.title)}&irgwc=1&irpid=7292297`;
+  if (!product.stores.baxmusic) s.baxmusic = `https://www.bax-shop.co.uk/catalogsearch/result/?q=${encodeURIComponent(product.title)}`;
+  if (!product.stores.musicstore) s.musicstore = `https://www.musicstore.com/en_GB/GBP/search?SearchTerm=${encodeURIComponent(product.title)}`;
   return s;
 }
 
@@ -169,6 +184,8 @@ function renderProductCard(id) {
 
 function renderGuideGrid() {
   currentGuideId = null;
+  const btn = document.getElementById("backToGuidesBtn");
+  if (btn) btn.style.display = "";
   const grid = document.getElementById("guideGrid");
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
@@ -188,14 +205,11 @@ function renderGuideGrid() {
   }
   grid.innerHTML = filtered.map(g => {
     const catName = getCatName(g.category);
-    const badgeText = g.badge ? t("badge_" + g.badge) : null;
-    const badgeClass = g.badge ? getBadgeClass(g.badge) : "";
     return `
       <div class="guide-card" data-guide="${g.id}">
         <div class="guide-card-img">
           <img src="${g.image}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
           <span class="guide-card-cat">${catName}</span>
-          ${badgeText ? `<span class="guide-card-badge ${badgeClass}">${badgeText}</span>` : ""}
         </div>
         <div class="guide-card-body">
           <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
@@ -221,6 +235,8 @@ function renderGuideDetail(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
   currentGuideId = guide.id;
+  const btn = document.getElementById("backToGuidesBtn");
+  if (btn) btn.style.display = "none";
   const grid = document.getElementById("guideGrid");
   grid.style.display = "block";
   const container = document.getElementById("guideContainer");
@@ -253,7 +269,7 @@ function renderGuideDetail(id) {
   grid.innerHTML = `
     <div class="guide-detail">
       <div class="guide-back-row">
-        <button class="guide-back-btn" id="guideBackBtn"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
+        <button class="guide-back-btn" id="guideBackBtn1"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</h1>
@@ -270,9 +286,18 @@ function renderGuideDetail(id) {
         <h3>${t("finalThoughts")}</h3>
         <p>${currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion}</p>
       </div>
+      <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
-  document.getElementById("guideBackBtn").addEventListener("click", () => {
+  const btn1 = document.getElementById("guideBackBtn1");
+  if (btn1) btn1.addEventListener("click", () => {
+    history.pushState({}, '', '/');
+    renderGuideGrid();
+    const el = document.getElementById("guides");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  });
+  const btn2 = document.getElementById("guideBackBtn2");
+  if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
     const el = document.getElementById("guides");
@@ -334,7 +359,6 @@ function renderAbout() {
       <div class="about-photo-wrapper">
         <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
       </div>
-      <a href="mailto:danielcarnago@gmail.com" class="about-email-link"><i class="fa-solid fa-envelope"></i> danielcarnago@gmail.com</a>
     </div>
     <div class="about-content">
       <h2>${t("aboutTitle")}<span>${t("aboutName")}</span></h2>
@@ -350,6 +374,7 @@ function renderAbout() {
         <span class="credit-badge"><i class="fa-solid fa-microphone"></i> ${t("credit_topaz")}</span>
         <span class="credit-badge"><i class="fa-solid fa-compact-disc"></i> ${t("credit_warner")}</span>
         <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
+        <span class="credit-badge"><i class="fa-solid fa-flag-usa"></i> ${t("credit_usatours")}</span>
       </div>
     </div>
   `;
@@ -373,7 +398,7 @@ function handleNavClick(target) {
     renderGuideGrid();
     setTimeout(() => {
       const el = document.querySelector("#guides .section-header") || document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 200);
   } else if (target === "mysetup") {
     setTimeout(() => {
@@ -388,37 +413,114 @@ function handleNavClick(target) {
   }
 }
 
+function initVideoIntro() {
+  const video = document.getElementById("aboutVideo");
+  const overlay = document.getElementById("videoIntroOverlay");
+  if (!video || !overlay) return;
+  video.volume = 0;
+
+  video.addEventListener("play", () => {
+    fadeVideoAudio(video, 1, 1500);
+  });
+
+  video.addEventListener("timeupdate", () => {
+    const remaining = video.duration - video.currentTime;
+    if (remaining < 3 && remaining > 0 && !video.paused && video.volume > 0.05) {
+      fadeVideoAudio(video, 0, 1500);
+    }
+    if (remaining < 3 && remaining > 0 && !video.paused) {
+      overlay.classList.add("outro");
+      requestAnimationFrame(() => {
+        overlay.classList.add("show");
+      });
+    }
+    if (remaining >= 3 && overlay.classList.contains("outro")) {
+      overlay.classList.remove("outro", "show");
+    }
+  });
+
+  video.addEventListener("ended", () => {
+    overlay.classList.remove("outro", "show");
+    video.volume = 0;
+  });
+
+  video.addEventListener("seeked", () => {
+    if (video.currentTime < video.duration - 3) {
+      video.volume = 1;
+    }
+  });
+}
+
+function fadeVideoAudio(video, target, duration) {
+  const start = video.volume;
+  const startTime = performance.now();
+  function step(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    video.volume = start + (target - start) * progress;
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
-  renderGuideCats();
-  const q = new URLSearchParams(window.location.search).get('g');
-  if (q && guides.find(g => g.id === q)) {
-    history.replaceState({}, '', '/?g=' + q);
-    renderGuideDetail(q);
-  } else if (location.hash) {
-    const h = location.hash.slice(1);
-    const guide = guides.find(g => g.id === h);
-    if (guide) {
-      history.replaceState({}, '', '/?g=' + h);
-      renderGuideDetail(h);
+  setTimeout(() => {
+    renderGuideCats();
+    const q = new URLSearchParams(window.location.search).get('g');
+    if (q && guides.find(g => g.id === q)) {
+      history.replaceState({}, '', '/?g=' + q);
+      renderGuideDetail(q);
+    } else if (location.hash) {
+      const h = location.hash.slice(1);
+      const guide = guides.find(g => g.id === h);
+      if (guide) {
+        history.replaceState({}, '', '/?g=' + h);
+        renderGuideDetail(h);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+        renderGuideGrid();
+      }
     } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'auto' });
       renderGuideGrid();
     }
-  } else {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    renderGuideGrid();
-  }
-  renderAudioMini();
-  renderMySetup();
-  renderAbout();
-  translatePage();
+    renderAudioMini();
+    renderMySetup();
+    renderAbout();
+    translatePage();
+  }, 300);
 
   document.getElementById("searchInput").addEventListener("input", e => {
     searchQuery = e.target.value;
     renderGuideGrid();
+  });
+
+  document.getElementById("productSearchInput").addEventListener("input", e => {
+    const q = e.target.value.toLowerCase().trim();
+    const results = document.getElementById("productSearchResults");
+    if (!q) {
+      results.style.display = "none";
+      return;
+    }
+    const filtered = products.filter(p => {
+      const t = p.title.toLowerCase();
+      const te = (p.title_es || "").toLowerCase();
+      const d = p.desc.toLowerCase();
+      const de = (p.desc_es || "").toLowerCase();
+      const c = p.category.toLowerCase();
+      return t.includes(q) || te.includes(q) || d.includes(q) || de.includes(q) || c.includes(q);
+    });
+    if (filtered.length === 0) {
+      results.style.display = "block";
+      results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">No products found</p>';
+      return;
+    }
+    results.style.display = "block";
+    results.innerHTML = '<div class="product-search-grid">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
+    results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
   });
 
   document.querySelectorAll(".nav-link[data-nav]").forEach(btn => {
@@ -461,13 +563,32 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener('play', e => {
-    if (e.target.tagName === 'VIDEO') {
+    if (e.target.tagName === 'VIDEO' && !e.target.classList.contains('bg-video')) {
       document.querySelectorAll('audio').forEach(a => { a.pause(); });
+      const bg = document.querySelector('.bg-video');
+      if (bg) bg.pause();
     }
     if (e.target.tagName === 'AUDIO') {
       document.querySelectorAll('video:not(.bg-video)').forEach(v => { v.pause(); });
     }
   }, true);
+
+  document.addEventListener('pause', e => {
+    if (e.target.tagName === 'VIDEO' && !e.target.classList.contains('bg-video')) {
+      const bg = document.querySelector('.bg-video');
+      if (bg && bg.paused) bg.play();
+    }
+  }, true);
+
+  document.addEventListener('keydown', e => {
+    if (e.code === 'Space' && document.activeElement === document.body) {
+      const video = document.getElementById('aboutVideo');
+      if (video && (video.paused ? video.currentTime > 0 : true)) {
+        e.preventDefault();
+        video.paused ? video.play() : video.pause();
+      }
+    }
+  });
 
   initialLoad = false;
 });

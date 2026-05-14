@@ -15,7 +15,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM7B--shure-sm7b-cardioid-dynamic-vocal-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm_7_db.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X",
+
+      musikproduktiv: "https://www.musik-produktiv.de/shure-sm7b.html",
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm7b-dynamic-vocal-studio-microphone"
     }
   },
   {
@@ -33,7 +36,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/U87Ai--neumann-u-87-ai-large-diaphragm-condenser-microphone-nickel",
       thomann: "https://www.thomann.co.uk/neumann_u87_ai.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/neumann-u-87-ai-studio-set-large-diaphragm-condenser-microphone"
     }
   },
   {
@@ -50,7 +56,10 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/235937.jpg",
     stores: {
       thomann: "https://www.thomann.co.uk/rode_nt1a_complete_vocal_recording.htm",
-      gear4music: "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK"
+      gear4music: "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-signature-series-black-large-diaphragm-condenser-microphone"
     }
   },
   {
@@ -68,7 +77,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/C414XLII--akg-c414-xlii-large-diaphragm-condenser-microphone",
       thomann: "https://www.thomann.co.uk/akg_c414_xlii.htm",
-      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV"
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/akg-c-414-xlii-studio-condenser-microphone"
     }
   },
   {
@@ -86,7 +98,71 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SM57--shure-sm57-cardioid-dynamic-instrument-microphone",
       thomann: "https://www.thomann.co.uk/shure_sm57_lc.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
+
+      musikproduktiv: "https://www.musik-produktiv.de/shure-sm57.html",
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone"
+    }
+  },
+  {
+    id: 50,
+    title: "Shure SM58",
+    title_es: "Shure SM58",
+    category: "microphones",
+    price: 99,
+    rating: 4.8,
+    reviews: 35678,
+    badge: "legend",
+    desc: "The world's most popular vocal microphone. Used by presidents, pop stars, and pub singers alike. Built like a tank with a tailored frequency response for vocals that cut through any mix.",
+    desc_es: "El micrófono vocal más popular del mundo. Usado por presidentes, estrellas pop y cantantes de bar por igual. Construido como un tanque con respuesta de frecuencia adaptada para voces que cortan cualquier mezcla.",
+    img: "img/sm58.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/SM58--shure-sm58-cardioid-dynamic-vocal-microphone",
+      thomann: "https://www.thomann.co.uk/shure_sm_58_lce.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Vocal-Microphone/G5D",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      amazon: "https://www.amazon.com/dp/B000CZ0R42",
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm-58-dynamic-vocal-microphone"
+    }
+  },
+  {
+    id: 51,
+    title: "Sennheiser MD 421",
+    title_es: "Sennheiser MD 421",
+    category: "microphones",
+    price: 399,
+    rating: 4.7,
+    reviews: 8765,
+    badge: "topQuality",
+    desc: "The tom-tom king and guitar cab legend. Five-position bass roll-off switch, handles SPLs up to 160dB. The industry standard dynamic for instruments since 1960.",
+    desc_es: "El rey de los toms y leyenda de gabinetes de guitarra. Interruptor de corte de graves de cinco posiciones, maneja SPLs de hasta 160dB. El dinámico estándar de la industria para instrumentos desde 1960.",
+    img: "img/md421.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/MD421II--sennheiser-md-421-ii-cardioid-dynamic-microphone",
+      thomann: "https://www.thomann.co.uk/sennheiser_md_421_ii.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD421-II/1ZX",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      amazon: "https://www.amazon.com/dp/B0002H0RBS"
+    }
+  },
+  {
+    id: 52,
+    title: "Electro-Voice RE20",
+    title_es: "Electro-Voice RE20",
+    category: "microphones",
+    price: 449,
+    rating: 4.8,
+    reviews: 6543,
+    badge: "legend",
+    desc: "The broadcast standard. Variable-D technology eliminates proximity effect. The definitive choice for podcasting, voiceover, and kick drums.",
+    desc_es: "El estándar de transmisión. La tecnología Variable-D elimina el efecto de proximidad. La elección definitiva para podcasting, locución y bombos.",
+    img: "img/re20.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/RE20--electro-voice-re20-broadcast-microphone",
+      thomann: "https://www.thomann.co.uk/electro_voice_re20.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-RE20/2KVR",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      amazon: "https://www.amazon.com/dp/B08P7QTZM5"
     }
   },
 
@@ -105,7 +181,9 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StratAP2MMB--fender-american-professional-ii-stratocaster-miami-blue-with-maple-fingerboard",
-      gear4music: "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW"
+      gear4music: "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -123,7 +201,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/LPS6ITNH--gibson-les-paul-standard-60s-iced-tea",
       thomann: "https://www.thomann.co.uk/gibson_les_paul_standard_60s_bb.htm",
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -141,7 +221,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/314ceVClNMB--taylor-314ce-v-class-grand-auditorium-acoustic-electric-guitar-natural",
       thomann: "https://www.thomann.co.uk/taylor_314ce_next_generation.htm",
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -159,7 +241,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/RG550EB--ibanez-genesis-collection-rg550-electric-guitar-electric-blue",
       thomann: "https://www.thomann.co.uk/ibanez_rg550_pn.htm",
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -176,7 +260,9 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/581957.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MC59410BGWBst--prs-mccarty-594-10-top-electric-guitar-black-gold-wraparound-burst",
-      thomann: "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm"
+      thomann: "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
 
@@ -196,7 +282,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Stage4-88--nord-stage-4-88-stage-keyboard",
       thomann: "https://www.thomann.co.uk/clavia_nord_stage_4_88.htm",
-      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3"
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -213,7 +301,9 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/629663.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
-      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C"
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -231,7 +321,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KeyLabEss3-61--arturia-keylab-essential-mk3-61-key-keyboard-controller-white",
       thomann: "https://www.thomann.co.uk/arturia_keylab_essential_61_mk3_white.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -248,7 +340,9 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/570926.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KontS3-61--native-instruments-kontrol-s61-mk3-61-key-smart-keyboard-controller",
-      thomann: "https://www.thomann.co.uk/native_instruments_kontrol_s61_mk3_komplete_15.htm"
+      thomann: "https://www.thomann.co.uk/native_instruments_kontrol_s61_mk3_komplete_15.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
 
@@ -268,7 +362,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Scar2i2G4--focusrite-scarlett-2i2-4th-gen-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/focusrite_scarlett_2i2_studio_4th_gen.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
+
+      musikproduktiv: "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/focusrite-scarlett-2i2-4th-gen-audio-interface"
     }
   },
   {
@@ -285,7 +382,10 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/571436.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
-      thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm"
+      thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/universal-audio-apollo-twin-x-quad-gen-2-studio-edition-audio-interface"
     }
   },
   {
@@ -303,7 +403,11 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BabyfaceProFS--rme-babyface-pro-fs-24-channel-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/rme_babyface_pro_fs.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      andertons: "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interface/rme-babyface-pro-fs-audio-interface"
     }
   },
   {
@@ -321,7 +425,69 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/SSL2Plus--solid-state-logic-ssl2-usb-audio-interface",
       thomann: "https://www.thomann.co.uk/ssl_2_mkii_601306.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/solid-state-logic-ssl-2-mkii-audio-interface"
+    }
+  },
+  {
+    id: 53,
+    title: "Audient iD14 MkII",
+    title_es: "Audient iD14 MkII",
+    category: "interfaces",
+    price: 299,
+    rating: 4.7,
+    reviews: 3456,
+    badge: "topQuality",
+    desc: "Console-grade preamps in a compact interface. The same Class-A mic pres found in Audient's $50,000 ASP8024 console. Dual headphone outputs and JFET DI input for instruments.",
+    desc_es: "Preamplificadores de grado consola en una interfaz compacta. Los mismos previos de micrófono Clase A que se encuentran en la consola ASP8024 de $50,000 de Audient. Salidas de auriculares duales y entrada DI JFET para instrumentos.",
+    img: "img/audient-id14.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/iD14mkII--audient-id14-mkii-usb-audio-interface",
+      thomann: "https://www.thomann.co.uk/audient_id14_mkii.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audient-iD14-MKII-USB-Audio-Interface/3L4B",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interface/audient-id14-mkii-usb-c-audio-interface"
+    }
+  },
+  {
+    id: 54,
+    title: "MOTU M2",
+    title_es: "MOTU M2",
+    category: "interfaces",
+    price: 199,
+    rating: 4.6,
+    reviews: 4567,
+    badge: "recommended",
+    desc: "The best value in its class. Full-color LCD metering, ESS Sabre32 Ultra DAC, and loopback for streaming. The only interface under $200 with real-time level monitoring.",
+    desc_es: "El mejor valor en su clase. Medición LCD a todo color, DAC ESS Sabre32 Ultra y loopback para streaming. La única interfaz por menos de $200 con monitoreo de nivel en tiempo real.",
+    img: "img/motu-m2.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/M2--motu-m2-2x2-usb-c-audio-interface",
+      thomann: "https://www.thomann.co.uk/motu_m2.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/MOTU-M2-2x2-USB-C-Audio-Interface/3GRT",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interface/motu-m2-audio-interface"
+    }
+  },
+  {
+    id: 55,
+    title: "Universal Audio Volt 2",
+    title_es: "Universal Audio Volt 2",
+    category: "interfaces",
+    price: 189,
+    rating: 4.5,
+    reviews: 2345,
+    badge: "bestSeller",
+    desc: "UA quality at an entry-level price. Vintage Mic Preamp mode emulates the classic UA 610 tube preamp. MIDI I/O and solid build quality with a retro design that stands out.",
+    desc_es: "Calidad UA a precio de entrada. El modo Vintage Mic Preamp emula el clásico previo de tubo UA 610. MIDI I/O y construcción sólida con diseño retro que destaca.",
+    img: "img/ua-volt2.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/Volt2--universal-audio-volt-2-usb-audio-interface",
+      thomann: "https://www.thomann.co.uk/universal_audio_volt_2.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-2-USB-Audio-Interface/5N5B",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
 
@@ -341,7 +507,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HS8pr--yamaha-hs8-8-inch-powered-studio-monitor-pair-black",
       thomann: "https://www.thomann.co.uk/yamaha_hs_8_bundle.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J",
+
+      musikproduktiv: "https://www.musik-produktiv.de/yamaha-hs-8.html",
+      baxmusic: "https://www.bax-shop.co.uk/studio-monitor/yamaha-hs8-mp-matched-pair-active-studio-monitors-set-of-2-black"
     }
   },
   {
@@ -359,7 +528,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
       thomann: "https://www.thomann.co.uk/krk_rokit_rp7_g5_stand_bundle.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -377,7 +548,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/A7V--adam-audio-a7v-7-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/adam_a7v.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/studio-monitor/adam-a7v-active-studio-monitor-single-unit"
     }
   },
   {
@@ -395,7 +569,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/8040BPM--genelec-8040b-6.5-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/genelec_8040_bpm.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
 
@@ -415,7 +591,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DT770pro80--beyerdynamic-dt-770-pro-80-ohm-closed-back-studio-mixing-headphones",
       thomann: "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU",
+
+      musikproduktiv: "https://www.musik-produktiv.de/beyerdynamic-dt-770-pro-250-ohm.html",
+      baxmusic: "https://www.bax-shop.co.uk/studio-headphones/beyerdynamic-dt770-pro-80-ohm"
     }
   },
   {
@@ -432,7 +611,9 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/471751.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/HD600--sennheiser-hd-600-open-back-audiophile-professional-headphones",
-      thomann: "https://www.thomann.co.uk/sennheiser_hd_600_new_version_2019.htm"
+      thomann: "https://www.thomann.co.uk/sennheiser_hd_600_new_version_2019.htm",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -450,7 +631,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ATHM50x--audio-technica-ath-m50x-closed-back-studio-monitoring-headphones",
       thomann: "https://www.thomann.co.uk/audio_technica_ath_m50_x.htm",
-      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G"
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -468,7 +651,49 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MDR7506--sony-mdr-7506-closed-back-professional-headphones",
       thomann: "https://www.thomann.co.uk/sony_mdr7506_kopfhoerer.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
+
+      musikproduktiv: "https://www.musik-produktiv.de/sony-mdr-7506.html",
+      baxmusic: "https://www.bax-shop.co.uk/studio-headphones/sony-mdr-7506-headphones"
+    }
+  },
+  {
+    id: 56,
+    title: "Beyerdynamic DT 990 Pro",
+    title_es: "Beyerdynamic DT 990 Pro",
+    category: "headphones",
+    price: 169,
+    rating: 4.7,
+    reviews: 28901,
+    badge: "legend",
+    desc: "Open-back mixing headphones with legendary bass extension. The spacious soundstage reveals reverb tails and stereo placement with surgical precision. The DT 770's open-back sibling.",
+    desc_es: "Auriculares de mezcla abiertos con legendaria extensión de graves. El escenario sonoro espacioso revela colas de reverb y colocación estéreo con precisión quirúrgica. El hermano abierto del DT 770.",
+    img: "img/dt990pro.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/DT990Pro--beyerdynamic-dt-990-pro-250-ohm-open-back-studio-headphones",
+      thomann: "https://www.thomann.co.uk/beyerdynamic_dt990pro.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/8GW",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 57,
+    title: "AKG K371",
+    title_es: "AKG K371",
+    category: "headphones",
+    price: 155,
+    rating: 4.5,
+    reviews: 12340,
+    badge: "recommended",
+    desc: "Harman-target tuned for the most natural closed-back sound under $200. Foldable design, detachable cables, and the flattest frequency response in its class.",
+    desc_es: "Sintonizado al objetivo Harman para el sonido cerrado más natural por menos de $200. Diseño plegable, cables desmontables y la respuesta de frecuencia más plana en su clase.",
+    img: "img/akg-k371.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/K371--akg-k371-closed-back-professional-studio-headphones",
+      thomann: "https://www.thomann.co.uk/akg_k371.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Studio-Headphones/4Q7C",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/studio-headphones/akg-k371-closed-folding-studio-headphones"
     }
   },
 
@@ -487,7 +712,10 @@ const products = [
     img: "img/kontakt8.jpg",
     stores: {
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/instrument-plugins/native-instruments-kontakt-8-download"
     }
   },
   {
@@ -506,7 +734,9 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
       pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle",
       thomann: "https://www.thomann.co.uk/fabfilter_total_bundle.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -524,7 +754,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Ozone12Ad--izotope-ozone-12-advanced-mastering-software-suite",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15503-Ozone-12-Advanced",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -542,7 +774,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Soundtoys5--soundtoys-5-plug-in-bundle-download",
       pluginboutique: "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
 
@@ -562,7 +796,9 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/TR8S--roland-tr-8s-rhythm-performer",
       thomann: "https://www.thomann.co.uk/roland_tr_8s.htm",
-      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82"
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -579,7 +815,9 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567619.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/MPCOnePlus--akai-professional-mpc-one-plus-standalone-sampler-and-sequencer",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -595,7 +833,9 @@ const products = [
     desc_es: "Platillos turcos martillados a mano con tonos cálidos y complejos. Incluye hi-hats de 14 pulgadas, crashes de 16 + 18 pulgadas y ride de 20 pulgadas.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/374175.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack"
+      sweetwater: "https://www.sweetwater.com/store/detail/KCD900--zildjian-k-custom-dark-4-piece-cymbal-pack",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -611,7 +851,9 @@ const products = [
     desc_es: "Batería de grado profesional con cascos de nogal/abedul. Profundidad, ataque y resonancia increíbles. Perfecta para estudio y escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/361976.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst"
+      sweetwater: "https://www.sweetwater.com/store/detail/WBS42SMBR--tama-starclassic-walnut-birch-lacquer-4-piece-shell-pack-molten-brown-burst",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
 
@@ -630,7 +872,9 @@ const products = [
     img: "img/mogami-xlr.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
-      gear4music: "https://www.gear4music.com/G4M/Studiospares-Pro-Neutrik-XLR-Mogami-Cable-5m-Black-with-Gold-Plated-Pins/6URJ"
+      gear4music: "https://www.gear4music.com/G4M/Studiospares-Pro-Neutrik-XLR-Mogami-Cable-5m-Black-with-Gold-Plated-Pins/6URJ",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -646,7 +890,9 @@ const products = [
     desc_es: "Filtro antipop profesional de malla metálica. Pantalla de doble capa elimina oclusivas sin pérdida de altas frecuencias. Soporte de cuello de ganso ajustable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/561297.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/StedmanXL--stedman-corporation-proscreen-xl-black"
+      sweetwater: "https://www.sweetwater.com/store/detail/StedmanXL--stedman-corporation-proscreen-xl-black",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -662,7 +908,9 @@ const products = [
     desc_es: "Estuche moldeado aprobado ATA con interior de espuma EPS. Herrajes de alta resistencia, pestillos empotrados y ruedas para fácil transporte.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/409664.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/GK61--gator-gk-61-semi-rigid-keyboard-case"
+      sweetwater: "https://www.sweetwater.com/store/detail/GK61--gator-gk-61-semi-rigid-keyboard-case",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
@@ -680,7 +928,10 @@ const products = [
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/UF8control--solid-state-logic-uf8-advanced-daw-controller",
       thomann: "https://www.thomann.co.uk/ssl_uf8.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK",
+
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/midi-studio-controllers/solid-state-logic-uf8-daw-controller"
     }
   },
   {
@@ -689,15 +940,14 @@ const products = [
     title_es: "Tres Cubano Deluxe Thomann",
     category: "tres",
     price: 469,
-    rating: 4.5,
-    reviews: 789,
+    rating: 4.6,
+    reviews: 7,
     badge: "recommended",
-    desc: "Professional-grade Cuban Tres with solid spruce top for exceptional clarity, sustain, and definition. No cutaway for maximum resonance. Mother of pearl inlays, mahogany neck. The studio standard for authentic Cuban sound.",
-    desc_es: "Tres Cubano de grado profesional con tapa sólida de abeto para claridad, sustain y definición excepcionales. Sin cutaway para máxima resonancia. Incrustaciones de nácar, mástil de caoba. El estándar de estudio para sonido cubano auténtico.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429083.jpg",
+    desc: "Professional-grade Cuban Tres with solid spruce top for exceptional clarity, sustain, and definition. No cutaway for maximum resonance. Mother of pearl inlays around sound hole, mahogany neck, walnut back and sides. The studio standard for authentic Cuban sound.",
+    desc_es: "Tres Cubano de grado profesional con tapa sólida de abeto para claridad, sustain y definición excepcionales. Sin cutaway para máxima resonancia. Incrustaciones de nácar alrededor de la boca, mástil de caoba, fondo y aros de nogal. El estándar de estudio para sonido cubano auténtico.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/336551.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe.htm"
     }
   },
   {
@@ -706,15 +956,14 @@ const products = [
     title_es: "Tres Cubano Standard Acacia Thomann",
     category: "tres",
     price: 279,
-    rating: 4.3,
-    reviews: 456,
+    rating: 4.7,
+    reviews: 6,
     badge: null,
-    desc: "Solid acacia top Cuban Tres with built-in pickup system. Maple neck, acacia fingerboard and bridge. Tuning: G-B-E or G-C-E. Excellent value for students and touring musicians.",
-    desc_es: "Tres Cubano con tapa sólida de acacia y sistema de pastilla incorporado. Mástil de arce, diapasón y puente de acacia. Afinación: G-B-E o G-C-E. Excelente relación calidad-precio para estudiantes y músicos de gira.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
+    desc: "Solid acacia top Cuban Tres. Maple neck, acacia fingerboard and bridge. Includes gig bag. Tuning: G-B-E or G-C-E. Excellent value for students and touring musicians.",
+    desc_es: "Tres Cubano con tapa sólida de acacia. Mástil de arce, diapasón y puente de acacia. Incluye funda de transporte. Afinación: G-B-E o G-C-E. Excelente relación calidad-precio para estudiantes y músicos de gira.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/415715.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_acacia.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_acacia.htm"
     }
   },
   {
@@ -730,8 +979,7 @@ const products = [
     desc_es: "Tres Cubano con cutaway para acceso a trastes superiores. Tapa de cedro, fondo y aros de sapeli, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado. Afinación: G-B-E o G-C-E. Excelente opción de gama media con electrónica lista para el escenario.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/357834.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_ccw.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_standard_ccw.htm"
     }
   },
   {
@@ -740,22 +988,201 @@ const products = [
     title_es: "Tres Cubano Deluxe CCW Thomann",
     category: "tres",
     price: 502,
-    rating: 4.5,
-    reviews: 345,
-    badge: "premium",
-    desc: "Premium Cuban Tres with cutaway. Cedar top, walnut back and sides, maple neck with acacia fingerboard. Built-in pickup system and elegant appointments. The top-tier Thomann tres for players who need cutaway access.",
-    desc_es: "Tres Cubano premium con cutaway. Tapa de cedro, fondo y aros de nogal, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado y acabados elegantes. El tres Thomann de más alta gama para músicos que necesitan acceso al cutaway.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429087.jpg",
+    rating: 4.0,
+    reviews: 25,
+    badge: null,
+    desc: "Premium Cuban Tres with cutaway. Cedar top, walnut back and sides, maple neck with acacia fingerboard. Built-in pickup system. The top-tier Thomann tres for players who need cutaway access and stage-ready electronics.",
+    desc_es: "Tres Cubano premium con cutaway. Tapa de cedro, fondo y aros de nogal, mástil de arce con diapasón de acacia. Sistema de pastilla incorporado. El tres Thomann de más alta gama para músicos que necesitan acceso al cutaway y electrónica lista para el escenario.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/357835.jpg",
     stores: {
-      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe_ccw.htm",
-      gear4music: "https://www.gear4music.com/search"
+      thomann: "https://www.thomann.co.uk/thomann_tres_cubano_deluxe_ccw.htm"
+    }
+  },
+  {
+    id: 61,
+    title: "Fender Player Stratocaster",
+    title_es: "Fender Player Stratocaster",
+    category: "guitars",
+    price: 849,
+    rating: 4.6,
+    reviews: 6789,
+    badge: "bestSeller",
+    desc: "The gateway to Fender's iconic sound. Alder body, maple neck with 9.5-inch radius fingerboard, and three Player Series pickups. The Strat that launched a thousand bands — from indie rock to Latin pop, this is the most versatile guitar money can buy.",
+    desc_es: "La puerta de entrada al sonido icónico de Fender. Cuerpo de aliso, mástil de arce con diapasón de radio 9.5 pulgadas y tres pastillas Player Series. La Strat que lanzó mil bandas — desde indie rock hasta pop latino, esta es la guitarra más versátil que el dinero puede comprar.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517168.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/StratPlayerMNBL--fender-player-stratocaster-maple-black",
+      thomann: "https://www.thomann.co.uk/fender_player_stratocaster_mn_blk.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Stratocaster-Olympic-White/27HN",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20Player%20Stratocaster"
+    }
+  },
+  {
+    id: 62,
+    title: "Fender Player Telecaster",
+    title_es: "Fender Player Telecaster",
+    category: "guitars",
+    price: 849,
+    rating: 4.6,
+    reviews: 5432,
+    badge: "bestSeller",
+    desc: "The working musician's guitar. Two Player Series single-coils deliver that unmistakable Tele twang — from Nashville to Havana, the Telecaster has defined country, rock, blues, and Latin music for over 70 years. Simple, rugged, and absolutely timeless.",
+    desc_es: "La guitarra del músico trabajador. Dos pastillas single-coil Player Series ofrecen ese inconfundible twang de Telecaster — desde Nashville hasta La Habana, la Telecaster ha definido el country, rock, blues y la música latina por más de 70 años. Simple, robusta y absolutamente atemporal.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517173.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/TelePlayerMNBL--fender-player-telecaster-maple-black",
+      thomann: "https://www.thomann.co.uk/fender_player_telecaster_mn_blk.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Telecaster-Black/27HR",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20Player%20Telecaster"
+    }
+  },
+  {
+    id: 63,
+    title: "Fender American Professional II Telecaster",
+    title_es: "Fender American Professional II Telecaster",
+    category: "guitars",
+    price: 1799,
+    rating: 4.7,
+    reviews: 3456,
+    badge: "premium",
+    desc: "Professional-grade Telecaster with V-Mod II pickups for enhanced clarity and punch. Deep C neck profile fits your hand like a glove. The Tele that bridges vintage soul with modern performance — ideal for session players and touring musicians.",
+    desc_es: "Telecaster de grado profesional con pastillas V-Mod II para claridad y potencia mejoradas. Perfil de mástil Deep C que se adapta a tu mano como un guante. La Tele que une el alma vintage con el rendimiento moderno — ideal para músicos de sesión y giras.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500466.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/TeleAP2BCH--fender-american-professional-ii-telecaster-butterscotch-blonde",
+      thomann: "https://www.thomann.co.uk/fender_american_professional_ii_telecaster.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Telecaster-Butterscotch-Blonde/5M4A",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20American%20Professional%20II%20Telecaster"
+    }
+  },
+  {
+    id: 64,
+    title: "Fender American Ultra Stratocaster",
+    title_es: "Fender American Ultra Stratocaster",
+    category: "guitars",
+    price: 2299,
+    rating: 4.8,
+    reviews: 2345,
+    badge: "premium",
+    desc: "Fender's most advanced Stratocaster. Ultra Noiseless pickups, sculpted neck heel for upper fret access, and a compound-radius fingerboard. From delicate jazz chords to screaming Latin rock leads, this is the ultimate Strat for the discerning professional.",
+    desc_es: "La Stratocaster más avanzada de Fender. Pastillas Ultra Noiseless, talón esculpido para acceso a trastes superiores y diapasón de radio compuesto. Desde delicados acordes de jazz hasta desgarradores leads de rock latino, esta es la Strat definitiva para el profesional exigente.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/574158.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/UltraStratCSB--fender-american-ultra-stratocaster-cosmic-sapphire",
+      thomann: "https://www.thomann.co.uk/fender_american_ultra_stratocaster_csb.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-Stratocaster-Cosmic-Sapphire-Rosewood/6XIU",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20American%20Ultra%20Stratocaster"
+    }
+  },
+  {
+    id: 65,
+    title: "Fender Player II Jazzmaster",
+    title_es: "Fender Player II Jazzmaster",
+    category: "guitars",
+    price: 949,
+    rating: 4.5,
+    reviews: 1890,
+    badge: "recommended",
+    desc: "The offset icon reborn. Player II pickups with the distinctive Jazzmaster tone — warm, round, and complex. The floating vibrato adds shimmer and depth. Loved by surf, indie, and alternative players worldwide. A cult classic that became a legend.",
+    desc_es: "El icono offset renacido. Pastillas Player II con el distintivo tono Jazzmaster — cálido, redondo y complejo. El vibrato flotante añade brillo y profundidad. Amado por músicos de surf, indie y alternativa mundialmente. Un clásico de culto que se convirtió en leyenda.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566033.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/JazzmasterP2MN--fender-player-ii-jazzmaster-maple-3-color-sunburst",
+      thomann: "https://www.thomann.co.uk/fender_player_ii_jazzmaster_3cs.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Jazzmaster-3-Color-Sunburst-Maple/65A3",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20Player%20II%20Jazzmaster"
+    }
+  },
+  {
+    id: 66,
+    title: "Fender Player Precision Bass",
+    title_es: "Fender Player Precision Bass",
+    category: "guitars",
+    price: 899,
+    rating: 4.6,
+    reviews: 4567,
+    badge: "legend",
+    desc: "The bass that invented modern music. The P-Bass delivers that punchy, authoritative low-end that drives salsa, funk, rock, and Latin jazz. Split-coil pickup for rich, balanced tone. The foundation of every great rhythm section — from James Brown to Buena Vista.",
+    desc_es: "El bajo que inventó la música moderna. El P-Bass ofrece ese golpe grave y autoritario que impulsa la salsa, el funk, el rock y el jazz latino. Pastilla split-coil para un tono rico y equilibrado. La base de cada gran sección rítmica — desde James Brown hasta Buena Vista.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517174.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/PBassPlayerMNBL--fender-player-precision-bass-maple-black",
+      thomann: "https://www.thomann.co.uk/fender_player_precision_bass_mn_blk.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-Black/27HL",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20Player%20Precision%20Bass"
+    }
+  },
+  {
+    id: 67,
+    title: "Fender Player Jazz Bass",
+    title_es: "Fender Player Jazz Bass",
+    category: "guitars",
+    price: 899,
+    rating: 4.6,
+    reviews: 4321,
+    badge: "legend",
+    desc: "The voice of modern bass. Two single-coil pickups deliver that punchy, articulate tone that cuts through any mix. The slim neck profile makes complex Latin bass lines and jazz walking lines effortless. From Jaco to today, the Jazz Bass defines bass tone.",
+    desc_es: "La voz del bajo moderno. Dos pastillas single-coil ofrecen ese tono golpeado y articulado que corta cualquier mezcla. El perfil de mástil delgado hace que las líneas de bajo latino complejas y las líneas de walking jazz sean sin esfuerzo. Desde Jaco hasta hoy, el Jazz Bass define el tono del bajo.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517175.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/JBassPlayerMNBL--fender-player-jazz-bass-maple-black",
+      thomann: "https://www.thomann.co.uk/fender_player_jazz_bass_mn_blk.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-Black/27HQ",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20Player%20Jazz%20Bass"
+    }
+  },
+  {
+    id: 68,
+    title: "Fender CD-60S Acoustic",
+    title_es: "Fender CD-60S Acústica",
+    category: "guitars",
+    price: 219,
+    rating: 4.4,
+    reviews: 18907,
+    badge: "bestSeller",
+    desc: "The acoustic that started it all for millions of players. Solid spruce top with mahogany back and sides delivers warm, balanced tone. Easy-playing neck profile makes it the ideal first acoustic or reliable campfire companion. Fender quality at an unbeatable price.",
+    desc_es: "La acústica que lo empezó todo para millones de músicos. Tapa sólida de abeto con fondo y aros de caoba ofrece un tono cálido y equilibrado. El perfil de mástil fácil de tocar la convierte en la acústica ideal para principiantes o compañera de fogata. Calidad Fender a un precio imbatible.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/515157.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/CD60S--fender-cd-60s-dreadnought-acoustic-guitar-natural",
+      thomann: "https://www.thomann.co.uk/fender_cd_60s_dreadnought_nat.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-CD-60S-Dreadnought-Acoustic-Natural/17FJ",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20CD-60S%20Acoustic"
+    }
+  },
+  {
+    id: 69,
+    title: "Fender Paramount OM-78E Acoustic-Electric",
+    title_es: "Fender Paramount OM-78E Acústico-Eléctrica",
+    category: "guitars",
+    price: 749,
+    rating: 4.6,
+    reviews: 1234,
+    badge: "topQuality",
+    desc: "Fender's premium acoustic series. Solid mahogany top with mahogany back and sides delivers rich, complex tone. Orchestra Model body shape is perfect for fingerstyle and Latin guitar techniques. Fishman electronics for stage-ready amplified sound.",
+    desc_es: "La serie acústica premium de Fender. Tapa maciza de caoba con fondo y aros de caoba ofrece un tono rico y complejo. La forma de cuerpo Orchestra Model es perfecta para fingerstyle y técnicas de guitarra latina. Electrónica Fishman para sonido amplificado listo para el escenario.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/574163.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/ParamountOM78E--fender-paramount-om-78e-acoustic-electric-guitar",
+      thomann: "https://www.thomann.co.uk/fender_paramount_om_78e.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Paramount-OM-78E-Acoustic-Electric-Guitar-Natural/4YN4",
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://www.fender.com/search?type=product&q=Fender%20Paramount%20OM-78E%20Acoustic-Electric"
     }
   }
 ];
 
 const categoryInfo = {
   microphones: { name: "Microphones", icon: '<i class="fa-solid fa-microphone"></i>', desc: "Capture every nuance with the best microphones for studio, broadcast, and stage." },
-  guitars: { name: "Guitars", icon: '<i class="fa-solid fa-guitar"></i>', desc: "From strats to acoustics, find your perfect axe." },
+  guitars: { name: "Guitars & Basses", icon: '<i class="fa-solid fa-guitar"></i>', desc: "From strats to acoustics, find your perfect axe." },
   strings: { name: "Strings", icon: '<i class="fa-solid fa-guitar"></i>', desc: "Guitars, basses, and everything with strings." },
   keyboards: { name: "Keyboards", icon: '<i class="fa-solid fa-keyboard"></i>', desc: "Pianos, synths, and controllers for every player." },
   interfaces: { name: "Interfaces", icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', desc: "Connect your sound with pristine audio conversion." },
@@ -770,23 +1197,41 @@ const categoryInfo = {
 const storeNames = {
   thomann: "Thomann",
   pluginboutique: "Plugin Boutique",
-  loopmasters: "Loopmasters",
   gear4music: "Gear4Music",
-  sweetwater: "Sweetwater"
+  sweetwater: "Sweetwater",
+  musikproduktiv: "Musik Produktiv",
+  amazon: "Amazon",
+  reverb: "Reverb",
+  andertons: "Andertons",
+  baxmusic: "Bax Music",
+  musicstore: "Music Store",
+  fender: "Fender"
 };
 
 const storeColors = {
   thomann: "#3b82f6",
   pluginboutique: "#6366f1",
-  loopmasters: "#475569",
   gear4music: "#8b5cf6",
-  sweetwater: "#6b7280"
+  sweetwater: "#6b7280",
+  musikproduktiv: "#78716c",
+  amazon: "#ff9900",
+  reverb: "#d6562b",
+  andertons: "#000000",
+  baxmusic: "#c30067",
+  musicstore: "#1a3a5c",
+  fender: "#000000"
 };
 
 const storeIcons = {
   thomann: '<img src="img/thomann-icon.png" alt="Thomann" class="store-icon-img">',
   pluginboutique: '<img src="img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-icon-img">',
-  loopmasters: '<i class="fa-solid fa-arrows-rotate"></i>',
   gear4music: '<img src="img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img">',
-  sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">'
+  sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
+  musikproduktiv: '<img src="img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px">',
+  amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
+  reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>",
+  andertons: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#000;color:#fff;border-radius:2px;vertical-align:middle;'>A</span>",
+  baxmusic: "<span style='display:inline-flex;align-items:center;justify-content:center;gap:2px;width:16px;height:16px;background:#c30067;color:#000;border-radius:2px;overflow:hidden;vertical-align:middle;'><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span></span>",
+  musicstore: '<img src="img/musicstore-icon.png" alt="Music Store" class="store-icon-img">',
+  fender: '<img src="img/fender-icon.svg" alt="Fender" class="store-icon-img">'
 };
