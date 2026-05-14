@@ -1049,7 +1049,7 @@ const products = [
     badge: "premium",
     desc: "Professional-grade Telecaster with V-Mod II pickups for enhanced clarity and punch. Deep C neck profile fits your hand like a glove. The Tele that bridges vintage soul with modern performance — ideal for session players and touring musicians.",
     desc_es: "Telecaster de grado profesional con pastillas V-Mod II para claridad y potencia mejoradas. Perfil de mástil Deep C que se adapta a tu mano como un guante. La Tele que une el alma vintage con el rendimiento moderno — ideal para músicos de sesión y giras.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500466.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10001/0113942763_fen_ins_frt_1_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/TeleAP2BCH--fender-american-professional-ii-telecaster-butterscotch-blonde",
       thomann: "https://www.thomann.co.uk/fender_american_professional_ii_telecaster.htm",
