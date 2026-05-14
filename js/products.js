@@ -692,7 +692,8 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/K371--akg-k371-closed-back-professional-studio-headphones",
       thomann: "https://www.thomann.co.uk/akg_k371.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Studio-Headphones/4Q7C",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/studio-headphones/akg-k371-closed-folding-studio-headphones"
     }
   },
 
