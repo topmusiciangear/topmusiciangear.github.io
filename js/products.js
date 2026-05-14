@@ -1269,7 +1269,8 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/Rumble500V3--fender-rumble-500-v3-500-watt-2x10-bass-combo-amp",
       thomann: "https://www.thomann.co.uk/fender_rumble_500_v3.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://uk.fender.com/products/rumble-500?variant=49502340251935"
     }
   }
 ];
