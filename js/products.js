@@ -96,7 +96,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/shure_sm57_lc.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
 
-      musikproduktiv: "https://www.musik-produktiv.de/shure-sm57.html"
+      musikproduktiv: "https://www.musik-produktiv.de/shure-sm57.html",
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone"
     }
   },
   {
@@ -358,10 +359,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/focusrite_scarlett_2i2_studio_4th_gen.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
 
-      musikproduktiv: "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html",
-      andertons: "https://www.andertons.co.uk/focusrite-scarlett-2i2-4th-gen/",
-      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/focusrite-scarlett-2i2-4th-gen-audio-interface",
-      musicstore: "https://www.musicstore.com/en_GB/GBP/Focusrite-Scarlett-2i2-4th-Gen/art-PCM0017719-000"
+      musikproduktiv: "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html"
     }
   },
   {
@@ -381,9 +379,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
 
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/universal-audio-apollo-twin-x-quad-gen-2-studio-edition-audio-interface",
-      andertons: "https://www.andertons.co.uk/refurb-apollo-twin-x-duo-usb-heritage-edition-desktopwin/",
-      musicstore: "https://www.musicstore.com/en_GB/GBP/Universal-Audio-Apollo-Twin-X-DUO-USB-HE/art-PCM0017740-000"
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/universal-audio-apollo-twin-x-quad-gen-2-studio-edition-audio-interface"
     }
   },
   {
@@ -403,7 +399,9 @@ const products = [
       thomann: "https://www.thomann.co.uk/rme_babyface_pro_fs.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      andertons: "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/",
+      baxmusic: "https://www.bax-shop.co.uk/external-audio-interface/rme-babyface-pro-fs-audio-interface"
     }
   },
   {
@@ -423,10 +421,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/ssl_2_mkii_601306.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search",
-      andertons: "https://www.andertons.co.uk/ssl-2-v2-recording-pack-with-mic-headphones--pop-filter/",
-      baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/solid-state-logic-ssl-2-mkii-audio-interface",
-      musicstore: "https://www.musicstore.com/en_GB/GBP/SSL-Solid-State-Logic-SSL2-MKII/art-PCM0018224-000"
+      musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
   {
