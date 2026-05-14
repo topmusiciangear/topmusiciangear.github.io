@@ -56,7 +56,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/rode_nt1a_complete_vocal_recording.htm",
       gear4music: "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-signature-series-black-large-diaphragm-condenser-microphone"
     }
   },
   {
