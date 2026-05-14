@@ -1840,7 +1840,6 @@ footer ul li a:hover { color: var(--accent); }
 @media (max-width: 768px) {
   .header-inner { padding: 0 16px; gap: 12px; }
   nav { display: none; }
-  nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: flex; }
   .hero { padding: 8px 20px 40px; }
@@ -1924,20 +1923,6 @@ footer ul li a:hover { color: var(--accent); }
     padding: 8px 16px 24px;
   }
 }
-@media (min-width: 769px) {
-  .audio-mini-mobile { display: none; }
-}
-
-@media (max-width: 768px) {
-  .mobile-social {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 8px 16px 24px;
-  }
-}
-
-
 
 .guide-products-grid {
   margin-top: 48px;

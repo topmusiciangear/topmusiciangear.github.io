@@ -743,15 +743,15 @@ const guides = [
         products: [29]
       },
       {
-        heading: "The Sound Library: Native Instruments Kontakt 7",
-        heading_es: "La Biblioteca de Sonidos: Native Instruments Kontakt 7",
-        content: "Kontakt 7 is the industry-standard sampler platform, and for good reason. Over 900 instruments in the factory library alone, with third-party libraries numbering in the thousands. From orchestral strings by Orchestral Tools to vintage synthesizers to world instruments, if a sound exists, there's probably a Kontakt library for it. The new browser makes finding sounds fast, and the revamped effects section means you can shape sounds without leaving Kontakt. For producers who need access to every instrument imaginable, Kontakt 7 is essential infrastructure.",
-        content_es: "Kontakt 7 es la plataforma de sampler estándar de la industria, y por buenas razones. Más de 900 instrumentos solo en la biblioteca de fábrica, con bibliotecas de terceros que se cuentan por miles. Desde cuerdas orquestales de Orchestral Tools hasta sintetizadores vintage e instrumentos del mundo, si un sonido existe, probablemente haya una biblioteca de Kontakt para él. El nuevo navegador hace que encontrar sonidos sea rápido, y la sección de efectos renovada significa que puedes dar forma a los sonidos sin salir de Kontakt. Para productores que necesitan acceso a cada instrumento imaginable, Kontakt 7 es infraestructura esencial.",
+        heading: "The Sound Library: Native Instruments Kontakt 8",
+        heading_es: "La Biblioteca de Sonidos: Native Instruments Kontakt 8",
+        content: "Kontakt 8 is the industry-standard sampler platform, and for good reason. Over 900 instruments in the factory library alone, with third-party libraries numbering in the thousands. From orchestral strings by Orchestral Tools to vintage synthesizers to world instruments, if a sound exists, there's probably a Kontakt library for it. The new browser makes finding sounds fast, and the revamped effects section means you can shape sounds without leaving Kontakt. For producers who need access to every instrument imaginable, Kontakt 8 is essential infrastructure.",
+        content_es: "Kontakt 8 es la plataforma de sampler estándar de la industria, y por buenas razones. Más de 900 instrumentos solo en la biblioteca de fábrica, con bibliotecas de terceros que se cuentan por miles. Desde cuerdas orquestales de Orchestral Tools hasta sintetizadores vintage e instrumentos del mundo, si un sonido existe, probablemente haya una biblioteca de Kontakt para él. El nuevo navegador hace que encontrar sonidos sea rápido, y la sección de efectos renovada significa que puedes dar forma a los sonidos sin salir de Kontakt. Para productores que necesitan acceso a cada instrumento imaginable, Kontakt 8 es infraestructura esencial.",
         products: [28]
       }
     ],
-    conclusion: "Start with Ozone 12 Advanced for mastering that sounds professional out of the gate. Add the FabFilter Total Bundle for mixing tools that are genuinely best-in-class. Include Kontakt 7 when you need a universe of sounds at your fingertips. These three together form a complete mixing and production ecosystem that can handle any project.",
-    conclusion_es: "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio. Añade el FabFilter Total Bundle para herramientas de mezcla que son genuinamente las mejores en su clase. Incluye Kontakt 7 cuando necesites un universo de sonidos al alcance de tus dedos. Estos tres juntos forman un ecosistema completo de mezcla y producción que puede manejar cualquier proyecto.",
+    conclusion: "Start with Ozone 12 Advanced for mastering that sounds professional out of the gate. Add the FabFilter Total Bundle for mixing tools that are genuinely best-in-class. Include Kontakt 8 when you need a universe of sounds at your fingertips. These three together form a complete mixing and production ecosystem that can handle any project.",
+    conclusion_es: "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio. Añade el FabFilter Total Bundle para herramientas de mezcla que son genuinamente las mejores en su clase. Incluye Kontakt 8 cuando necesites un universo de sonidos al alcance de tus dedos. Estos tres juntos forman un ecosistema completo de mezcla y producción que puede manejar cualquier proyecto.",
     verdict: "FabFilter Total Bundle is worth every penny",
     verdict_es: "FabFilter Total Bundle vale cada centavo",
     featuredProducts: [30, 29, 28]
@@ -860,6 +860,7 @@ const guides = [
     conclusion: "Build your studio foundation right. Start with a K&M mic stand ($49) and monitor stands ($89) to position your gear correctly. Add a Mogami XLR cable ($39) for clean, reliable signal. When you're ready to level up your workflow, the SSL UF8 ($1,199) transforms mixing from a screen task into a musical experience. The right furniture and setup isn't an expense — it's the foundation everything else depends on.",
     conclusion_es: "Construye bien la base de tu estudio. Empieza con un soporte de micrófono K&M ($49) y soportes de monitor ($89) para posicionar tu equipo correctamente. Añade un cable Mogami XLR ($39) para señal limpia y confiable. Cuando estés listo para subir de nivel tu flujo de trabajo, el SSL UF8 ($1,199) transforma la mezcla de una tarea de pantalla a una experiencia musical. El mobiliario y la configuración correctos no son un gasto — son la base de la que todo lo demás depende.",
     verdict: "Build your foundation before buying more gear",
+    verdict_es: "Construye tu base antes de comprar más equipo",
     featuredProducts: [38, 42]
   },
 

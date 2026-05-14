@@ -97,7 +97,6 @@ const translations = {
     credit_warner: "Warner Music Sweden",
     credit_columbia: "Columbia Artists",
     credit_usatours: "USA Tours (CAMI Music)",
-    credit_topaz: "Topaz Sound",
     tagline: "Pro Gear Reviews · Honest Comparisons · Best Prices",
     siteTagline: "Find the Best Deals Across Top Music Stores",
     navMicrophones: "Microphones",
@@ -122,6 +121,7 @@ const translations = {
     catName_headphones: "Headphones",
     catName_plugins: "Plugins",
     catName_percussion: "Percussion",
+    catName_tres: "Cuban Tres",
     catName_accessories: "Accessories"
   },
   es: {
@@ -245,6 +245,7 @@ const translations = {
     catName_headphones: "Auriculares",
     catName_plugins: "Plugins",
     catName_percussion: "Percusión",
+    catName_tres: "Tres Cubano",
     catName_accessories: "Accesorios"
   }
 };
