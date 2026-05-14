@@ -1029,7 +1029,7 @@ const products = [
     badge: "bestSeller",
     desc: "The working musician's guitar. Two Player Series single-coils deliver that unmistakable Tele twang — from Nashville to Havana, the Telecaster has defined country, rock, blues, and Latin music for over 70 years. Simple, rugged, and absolutely timeless.",
     desc_es: "La guitarra del músico trabajador. Dos pastillas single-coil Player Series ofrecen ese inconfundible twang de Telecaster — desde Nashville hasta La Habana, la Telecaster ha definido el country, rock, blues y la música latina por más de 70 años. Simple, robusta y absolutamente atemporal.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517173.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10059/0140820592_fen_ins_frt_1_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/TelePlayerMNBL--fender-player-telecaster-maple-black",
       thomann: "https://www.thomann.co.uk/fender_player_telecaster_mn_blk.htm",
