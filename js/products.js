@@ -103,7 +103,7 @@ const products = [
 
       musikproduktiv: "https://www.musik-produktiv.de/shure-sm57.html",
       baxmusic: "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone",
-      musicstore: "https://www.musicstore.de/de_DE/EUR/Shure-SM57-LCE-Mikrofon-dynamisch/art-PAH0000162-000"
+      musicstore: "https://www.musicstore.com/en_GB/GBP/Shure-SM-57-LCE-dynamic-Microphone/art-PAH0000162-000"
     }
   },
   {
