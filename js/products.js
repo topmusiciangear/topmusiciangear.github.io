@@ -1019,7 +1019,7 @@ const storeColors = {
   musikproduktiv: "#78716c",
   amazon: "#ff9900",
   reverb: "#d6562b",
-  andertons: "#00a8b0",
+  andertons: "#000000",
   baxmusic: "#c30067",
   musicstore: "#1a3a5c"
 };
