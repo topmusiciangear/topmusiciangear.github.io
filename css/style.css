@@ -213,7 +213,7 @@ nav {
     display: none;
   }
   .header-social-col {
-    display: none;
+    display: none !important;
   }
 }
 
