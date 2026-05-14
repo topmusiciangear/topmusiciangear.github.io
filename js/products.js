@@ -1174,7 +1174,8 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/BluesJuniorIV--fender-blues-junior-iv-1x12-15-watt-tube-combo-amp",
       thomann: "https://www.thomann.co.uk/fender_blues_junior_iv.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-15-Watt-Guitar-Combo-Amp/4ZGB",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      fender: "https://uk.fender.com/products/blues-junior-iv"
     }
   },
   {
