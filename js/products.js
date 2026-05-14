@@ -59,7 +59,8 @@ const products = [
       gear4music: "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK",
 
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-signature-series-black-large-diaphragm-condenser-microphone"
+      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-signature-series-black-large-diaphragm-condenser-microphone",
+      musicstore: "https://www.musicstore.de/de_DE/EUR/Rode-NT1-AI1-Complete-Studio-Kit/art-REC0013538-000"
     }
   },
   {
@@ -101,7 +102,8 @@ const products = [
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
 
       musikproduktiv: "https://www.musik-produktiv.de/shure-sm57.html",
-      baxmusic: "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone"
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone",
+      musicstore: "https://www.musicstore.de/de_DE/EUR/Shure-SM57-LCE-Mikrofon-dynamisch/art-PAH0000162-000"
     }
   },
   {
