@@ -1121,5 +1121,64 @@ const guides = [
     verdict: "Stratocaster for Latin, Telecaster for rock, Precision Bass for everything",
     verdict_es: "Stratocaster para latino, Telecaster para rock, Precision Bass para todo",
     featuredProducts: [61, 62, 63, 64, 65, 66, 67, 68]
+  },
+  {
+    id: "guitar-bass-amps",
+    title: "Best Guitar & Bass Amps for Every Player (2026)",
+    title_es: "Los Mejores Amplificadores de Guitarra y Bajo para Cada Músico (2026)",
+    category: "amps",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/498863.jpg",
+    badge: "bestSeller",
+    intro: "Your amp is half your sound. After 20+ years on stages worldwide — from Broadway to Latin jazz clubs — I've learned that the right amp makes everything easier. Here are the guitar and bass amps I trust most, from practice to the professional stage.",
+    intro_es: "Tu amplificador es la mitad de tu sonido. Después de más de 20 años en escenarios mundiales — desde Broadway hasta clubes de jazz latino — he aprendido que el amplificador correcto lo hace todo más fácil. Estos son los amplificadores de guitarra y bajo en los que más confío, desde práctica hasta el escenario profesional.",
+    sections: [
+      {
+        heading: "Best All-Around Guitar Combo: Fender Blues Junior IV",
+        heading_es: "Mejor Combo de Guitarra Versátil: Fender Blues Junior IV",
+        content: "The Blues Junior IV is the most versatile small amp on the market. 15 watts of all-tube power is the sweet spot — loud enough for clubs and rehearsals, quiet enough for home practice. The single 12-inch Jensen speaker delivers warm, articulate tone across every genre. I've used this amp on Broadway pits, Latin jazz gigs, and rock clubs. The spring reverb is musical and the fat boost pushes solos without muddiness. At $699, it's the best investment a working guitarist can make.",
+        content_es: "El Blues Junior IV es el amplificador pequeño más versátil del mercado. 15 vatios de potencia todo-válvulas es el punto ideal — suficientemente fuerte para clubes y ensayos, suficientemente suave para práctica en casa. El altavoz Jensen de 12 pulgadas ofrece un tono cálido y articulado en todos los géneros. He usado este amplificador en fosos de Broadway, conciertos de jazz latino y clubes de rock. El reverb de resorte es musical y el fat boost impulsa los solos sin turbidez. A $699, es la mejor inversión que un guitarrista profesional puede hacer.",
+        products: [71]
+      },
+      {
+        heading: "Best Budget Modeling Amp: Boss Katana 50 MkII",
+        heading_es: "Mejor Amplificador de Modelado Económico: Boss Katana 50 MkII",
+        content: "The Katana 50 MkII is the amp that changed the game for budget players. Five amp voicings cover everything from pristine clean to high-gain metal. The built-in effects are genuinely usable — delay, reverb, chorus, flanger, tremolo, and more. At 50 watts, it's loud enough for gigs but the built-in power attenuator lets you crank the tone at bedroom volume. The USB connection makes recording effortless. At $259, this is the best value in amplification — period.",
+        content_es: "El Katana 50 MkII es el amplificador que cambió el juego para los músicos con presupuesto limitado. Cinco voces de amplificador cubren todo, desde limpio prístino hasta metal de alta ganancia. Los efectos incorporados son genuinamente utilizables — delay, reverb, chorus, flanger, tremolo y más. Con 50 vatios, es suficientemente fuerte para conciertos pero el atenuador de potencia incorporado te permite subir el tono a volumen de habitación. La conexión USB facilita la grabación. A $259, esta es la mejor relación calidad-precio en amplificación — punto.",
+        products: [72]
+      },
+      {
+        heading: "The Legendary British Sound: Vox AC30",
+        heading_es: "El Sonido Británico Legendario: Vox AC30",
+        content: "The Vox AC30 is one of the most recorded amps in history. Its unique top-boost circuit delivers a chiming, jangly clean tone that cuts through any mix. The two 12-inch Celestion speakers produce a full, three-dimensional sound that fills any room. From Beatles jangle to Queen's layered harmonies, the AC30 is essential for indie, rock, and alternative players. At $1,099, it's an investment in the sound that defined modern rock music.",
+        content_es: "El Vox AC30 es uno de los amplificadores más grabados de la historia. Su circuito único top-boost entrega un tono limpio brillante y tintineante que corta cualquier mezcla. Los dos altavoces Celestion de 12 pulgadas producen un sonido lleno y tridimensional que llena cualquier sala. Desde el brillo de The Beatles hasta las armonías superpuestas de Queen, el AC30 es esencial para músicos de indie, rock y alternativa. A $1,099, es una inversión en el sonido que definió la música rock moderna.",
+        products: [73]
+      },
+      {
+        heading: "Classic Rock Power: Marshall DSL40CR",
+        heading_es: "Potencia de Rock Clásico: Marshall DSL40CR",
+        content: "If rock is your language, the Marshall DSL40CR is your amp. The two channels give you classic gain for blues-rock crunch and ultra gain for hard rock and metal. The 40-watt all-tube power section has that unmistakable Marshall punch — tight lows, pronounced mids, and singing highs. The built-in power reduction switches to 20 watts for smaller venues. At $999, the DSL40CR delivers the sound that built rock and roll.",
+        content_es: "Si el rock es tu idioma, el Marshall DSL40CR es tu amplificador. Los dos canales te dan ganancia clásica para crunch de blues-rock y ultraganancia para hard rock y metal. La sección de potencia todo-válvulas de 40 vatios tiene ese inconfundible golpe Marshall — graves ajustados, medios pronunciados y agudos cantarines. La reducción de potencia incorporada cambia a 20 vatios para lugares más pequeños. A $999, el DSL40CR entrega el sonido que construyó el rock and roll.",
+        products: [74]
+      },
+      {
+        heading: "Legendary Bass Tone: Ampeg PF-500 Portaflex",
+        heading_es: "Tono de Bajo Legendario: Ampeg PF-500 Portaflex",
+        content: "Ampeg defined the sound of electric bass. The PF-500 Portaflex delivers that authoritative low-end in a lightweight, portable package. The 3-band EQ with ultra-mid frequency selector lets you dial in everything from Motown thump to modern rock punch. The built-in compressor smooths out your dynamics without killing your feel. At 500 watts through any quality cab, the PF-500 gives you the foundation that drives Latin salsa, rock, and funk. The sound you've heard on thousands of records.",
+        content_es: "Ampeg definió el sonido del bajo eléctrico. El PF-500 Portaflex entrega ese autoritario extremo grave en un paquete ligero y portátil. El EQ de 3 bandas con selector de frecuencia ultra-media te permite marcar desde el golpe de Motown hasta el puñetazo del rock moderno. El compresor incorporado suaviza tu dinámica sin matar tu sensación. Con 500 vatios a través de cualquier gabinete de calidad, el PF-500 te da la base que impulsa la salsa latina, el rock y el funk. El sonido que has escuchado en miles de discos.",
+        products: [75]
+      },
+      {
+        heading: "The Modern Bass Standard: Fender Rumble 500 V3",
+        heading_es: "El Estándar Moderno del Bajo: Fender Rumble 500 V3",
+        content: "The Rumble 500 V3 redefined what a bass combo could be. Two 10-inch Eminence speakers deliver punchy, articulate tone that sits perfectly in any mix. The 9-band EQ gives you surgical control over your sound. The built-in overdrive adds grit when you need it. And at just 28 pounds, it's the lightest 500-watt combo on the market. For Latin bass players, the mid-range control is essential for cutting through horn sections. For rock players, the overdrive channel delivers growl that competes with any guitar amp.",
+        content_es: "El Rumble 500 V3 redefinió lo que un combo de bajo podía ser. Dos altavoces Eminence de 10 pulgadas ofrecen un tono contundente y articulado que se asienta perfectamente en cualquier mezcla. El EQ de 9 bandas te da control quirúrgico sobre tu sonido. El overdrive incorporado añade garra cuando la necesitas. Y con solo 12.7 kg, es el combo de 500 vatios más ligero del mercado. Para bajistas latinos, el control de medios es esencial para cortar a través de las secciones de viento. Para roqueros, el canal de overdrive ofrece un growl que compite con cualquier amplificador de guitarra.",
+        products: [76]
+      }
+    ],
+    conclusion: "The Fender Blues Junior IV is the most versatile guitar amp for working musicians — it goes from studio to stage without compromise. If budget is tight, the Boss Katana 50 MkII gives you incredible value. For bass players, the Fender Rumble 500 V3 is the portable powerhouse that delivers pro tone. And for that legendary rock sound, the Marshall DSL40CR or Vox AC30 will never let you down.",
+    conclusion_es: "El Fender Blues Junior IV es el amplificador de guitarra más versátil para músicos profesionales — va del estudio al escenario sin compromisos. Si el presupuesto es ajustado, el Boss Katana 50 MkII te da un valor increíble. Para bajistas, el Fender Rumble 500 V3 es la potencia portátil que entrega tono profesional. Y para ese sonido de rock legendario, el Marshall DSL40CR o el Vox AC30 nunca te defraudarán.",
+    verdict: "Fender Blues Junior for versatility, Katana for value, Rumble for bass",
+    verdict_es: "Blues Junior para versatilidad, Katana para presupuesto, Rumble para bajo",
+    featuredProducts: [71, 72, 73, 74, 75, 76]
   }
 ];

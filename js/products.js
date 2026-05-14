@@ -1158,12 +1158,126 @@ const products = [
       fender: "https://uk.fender.com/search?q=Fender+CD-60S+Acoustic"
     }
   },
+  {
+    id: 71,
+    title: "Fender Blues Junior IV",
+    title_es: "Fender Blues Junior IV",
+    category: "amps",
+    price: 699,
+    rating: 4.7,
+    reviews: 5678,
+    badge: "legend",
+    desc: "The quintessential boutique-style combo amp. 15 watts of all-tube power through a single 12-inch Jensen speaker. Three-band EQ, spring reverb, and fat boost make this the most recorded small amp in history. From blues clubs to Latin jazz cafes, the Blues Junior delivers warm, responsive tone that makes every guitarist sound better.",
+    desc_es: "El amplificador combo boutique por excelencia. 15 vatios de potencia todo-válvulas a través de un altavoz Jensen de 12 pulgadas. EQ de tres bandas, reverb de resorte y fat boost lo convierten en el pequeño amplificador más grabado de la historia. Desde clubes de blues hasta cafés de jazz latino, el Blues Junior ofrece un tono cálido y responsivo que hace sonar mejor a todo guitarrista.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/498863.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/BluesJuniorIV--fender-blues-junior-iv-1x12-15-watt-tube-combo-amp",
+      thomann: "https://www.thomann.co.uk/fender_blues_junior_iv.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-15-Watt-Guitar-Combo-Amp/4ZGB",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 72,
+    title: "Boss Katana 50 MkII",
+    title_es: "Boss Katana 50 MkII",
+    category: "amps",
+    price: 259,
+    rating: 4.6,
+    reviews: 12345,
+    badge: "bestSeller",
+    desc: "The best-selling modeling amp in the world. 50 watts of power with five amp voicings — clean, crunch, lead, brown, and acoustic. Built-in effects including delay, reverb, chorus, and more. The Katana 50 is the ultimate practice and small-gig amp for guitarists who want versatility without complexity or cost.",
+    desc_es: "El amplificador de modelado más vendido del mundo. 50 vatios de potencia con cinco voces de amplificador — clean, crunch, lead, brown y acústico. Efectos incorporados incluyendo delay, reverb, chorus y más. El Katana 50 es el amplificador definitivo para práctica y pequeños conciertos para guitarristas que quieren versatilidad sin complejidad ni costo.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567477.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/KTN50MK2--boss-katana-50-mkii-50-watt-1x12-guitar-combo-amp",
+      thomann: "https://www.thomann.co.uk/boss_katana_50_mkii.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-Katana-50-MkII-Guitar-Combo-Amp/5GMG",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 73,
+    title: "Vox AC30",
+    title_es: "Vox AC30",
+    category: "amps",
+    price: 1099,
+    rating: 4.8,
+    reviews: 6789,
+    badge: "legend",
+    desc: "The sound of British rock. 30 watts of all-tube power through two 12-inch Celestion speakers. The iconic chime and jangle that defined The Beatles, Queen, and countless Brit-rock bands. Top Boost channel delivers that unmistakable cutting presence. For guitarists who want the sound of rock history.",
+    desc_es: "El sonido del rock británico. 30 vatios de potencia todo-válvulas a través de dos altavoces Celestion de 12 pulgadas. El icónico brillo que definió a The Beatles, Queen e innumerables bandas de rock británico. El canal Top Boost ofrece esa presencia cortante inconfundible. Para guitarristas que quieren el sonido de la historia del rock.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/563484.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/AC30C2X--vox-ac30-custom-30-watt-2x12-tube-combo-amp",
+      thomann: "https://www.thomann.co.uk/vox_ac30_custom.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-2x12-Tube-Combo-Amp/2PO",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 74,
+    title: "Marshall DSL40CR",
+    title_es: "Marshall DSL40CR",
+    category: "amps",
+    price: 999,
+    rating: 4.7,
+    reviews: 4321,
+    badge: "topQuality",
+    desc: "The classic rock amplifier reimagined. 40 watts of all-tube power through a 12-inch Celestion V-type speaker. Two channels with classic gain and ultra gain for everything from clean blues to heavy rock. The DSL40CR is the quintessential Marshall sound — punchy mids, crunch, and that unmistakable British roar.",
+    desc_es: "El amplificador de rock clásico reimaginado. 40 vatios de potencia todo-válvulas a través de un altavoz Celestion V-type de 12 pulgadas. Dos canales con ganancia clásica y ultraganancia para todo, desde blues limpio hasta rock pesado. El DSL40CR es el sonido Marshall por excelencia — medios contundentes, crunch y ese rugido británico inconfundible.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/585431.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/DSL40CR--marshall-dsl40cr-40-watt-1x12-tube-combo-amp",
+      thomann: "https://www.thomann.co.uk/marshall_dsl_40_cr.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40-Watt-Combo-Amp/3Y2X",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 75,
+    title: "Ampeg PF-500 Portaflex",
+    title_es: "Ampeg PF-500 Portaflex",
+    category: "amps",
+    price: 649,
+    rating: 4.6,
+    reviews: 2345,
+    badge: "legend",
+    desc: "The bass amp that defined rock and roll. 500 watts of Class-D power in a lightweight, portable head. Legendary Ampeg tone with 3-band EQ, ultra-mid frequency selector, and built-in compressor. The PF-500 delivers that thundering low-end that drove Motown, rock, and Latin music for decades. Pair it with any cab for instant classic bass tone.",
+    desc_es: "El amplificador de bajo que definió el rock and roll. 500 vatios de potencia Clase D en un cabezal ligero y portátil. Legendario tono Ampeg con EQ de 3 bandas, selector de frecuencia ultra-media y compresor incorporado. El PF-500 entrega ese retumbante extremo grave que impulsó Motown, el rock y la música latina durante décadas. Combínalo con cualquier gabinete para obtener un tono de bajo clásico instantáneo.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/523626.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/PF500--ampeg-pf-500-portaflex-500-watt-bass-amp-head",
+      thomann: "https://www.thomann.co.uk/ampeg_pf_500_portaflex.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ampeg-PF-500-Portaflex-500W-Bass-Amp-Head/4GKK",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 76,
+    title: "Fender Rumble 500 V3",
+    title_es: "Fender Rumble 500 V3",
+    category: "amps",
+    price: 799,
+    rating: 4.7,
+    reviews: 3456,
+    badge: "bestSeller",
+    desc: "The modern bass standard. 500 watts of power through two 10-inch Eminence speakers. Lightweight design at just 28 pounds. Clean, punchy tone with built-in overdrive, 9-band EQ, and XLR direct out. From Latin salsa to rock to jazz, the Rumble 500 delivers professional bass tone in a package you can carry with one hand.",
+    desc_es: "El estándar moderno del bajo. 500 vatios de potencia a través de dos altavoces Eminence de 10 pulgadas. Diseño ligero de solo 12.7 kg. Tono limpio y contundente con overdrive incorporado, EQ de 9 bandas y salida directa XLR. Desde salsa latina hasta rock y jazz, el Rumble 500 ofrece un tono de bajo profesional en un paquete que puedes llevar con una mano.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/596302.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/Rumble500V3--fender-rumble-500-v3-500-watt-2x10-bass-combo-amp",
+      thomann: "https://www.thomann.co.uk/fender_rumble_500_v3.htm",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
   }
 ];
 
 const categoryInfo = {
   microphones: { name: "Microphones", icon: '<i class="fa-solid fa-microphone"></i>', desc: "Capture every nuance with the best microphones for studio, broadcast, and stage." },
   guitars: { name: "Guitars & Basses", icon: '<i class="fa-solid fa-guitar"></i>', desc: "From strats to acoustics, find your perfect axe." },
+  amps: { name: "Amps", icon: '<i class="fa-solid fa-volume-high"></i>', desc: "Guitar and bass amplifiers for stage and studio." },
   strings: { name: "Strings", icon: '<i class="fa-solid fa-guitar"></i>', desc: "Guitars, basses, and everything with strings." },
   keyboards: { name: "Keyboards", icon: '<i class="fa-solid fa-keyboard"></i>', desc: "Pianos, synths, and controllers for every player." },
   interfaces: { name: "Interfaces", icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', desc: "Connect your sound with pristine audio conversion." },
