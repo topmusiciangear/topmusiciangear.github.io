@@ -114,7 +114,7 @@ const translations = {
     setupItem5Desc: "Professional monitor speakers",
     catName_microphones: "Microphones",
     catName_strings: "Strings",
-    catName_guitars: "Guitars & Basses",
+    catName_guitars: "Fender Guitars & Basses",
     catName_keyboards: "Keyboards",
     catName_interfaces: "Interfaces",
     catName_monitors: "Monitors",
