@@ -1009,7 +1009,7 @@ const products = [
     badge: "bestSeller",
     desc: "The gateway to Fender's iconic sound. Alder body, maple neck with 9.5-inch radius fingerboard, and three Player Series pickups. The Strat that launched a thousand bands — from indie rock to Latin pop, this is the most versatile guitar money can buy.",
     desc_es: "La puerta de entrada al sonido icónico de Fender. Cuerpo de aliso, mástil de arce con diapasón de radio 9.5 pulgadas y tres pastillas Player Series. La Strat que lanzó mil bandas — desde indie rock hasta pop latino, esta es la guitarra más versátil que el dinero puede comprar.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517168.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto/https://www.fmicassets.com/Damroot/eCommPNG/10107/0141510506_fen_ins_frt_1_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StratPlayerMNBL--fender-player-stratocaster-maple-black",
       thomann: "https://www.thomann.co.uk/fender_player_stratocaster_mn_blk.htm",
