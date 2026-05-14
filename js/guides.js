@@ -723,7 +723,7 @@ const guides = [
     title: "Best Mixing & Mastering Plugins (2026)",
     title_es: "Mejores Plugins de Mezcla y Masterización (2026)",
     category: "plugins",
-    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop",
+    image: "img/ozone12.jpg",
     badge: "topQuality",
     intro: "Mixing and mastering plugins are the tools that turn good recordings into professional releases. After 20+ years of mixing, these are the three plugins I reach for in every session — the ones that genuinely make a difference to the final product.",
     intro_es: "Los plugins de mezcla y masterización son las herramientas que convierten buenas grabaciones en lanzamientos profesionales. Después de más de 20 años mezclando, estos son los tres plugins que uso en cada sesión — los que genuinamente marcan la diferencia en el producto final.",
