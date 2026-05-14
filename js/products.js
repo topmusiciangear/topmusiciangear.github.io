@@ -1149,7 +1149,7 @@ const products = [
     badge: "bestSeller",
     desc: "The acoustic that started it all for millions of players. Solid spruce top with mahogany back and sides delivers warm, balanced tone. Easy-playing neck profile makes it the ideal first acoustic or reliable campfire companion. Fender quality at an unbeatable price.",
     desc_es: "La acústica que lo empezó todo para millones de músicos. Tapa sólida de abeto con fondo y aros de caoba ofrece un tono cálido y equilibrado. El perfil de mástil fácil de tocar la convierte en la acústica ideal para principiantes o compañera de fogata. Calidad Fender a un precio imbatible.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/515157.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10001/0970110021_gtr_frt_001_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/CD60S--fender-cd-60s-dreadnought-acoustic-guitar-natural",
       thomann: "https://www.thomann.co.uk/fender_cd_60s_dreadnought_nat.htm",
