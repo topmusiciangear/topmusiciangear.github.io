@@ -1231,7 +1231,7 @@ const storeIcons = {
   amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
   reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>",
   andertons: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#000;color:#fff;border-radius:2px;vertical-align:middle;'>A</span>",
-  baxmusic: "<span style='display:inline-flex;align-items:center;justify-content:center;gap:2px;width:16px;height:16px;background:#c30067;color:#000;border-radius:2px;overflow:hidden;vertical-align:middle;'><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span><span style='display:block;width:2px;height:10px;background:#000;border-radius:1px;'></span></span>",
+  baxmusic: '<img src="img/baxmusic-icon.svg" alt="Bax Music" class="store-icon-img">',
   musicstore: '<img src="img/musicstore-icon.png" alt="Music Store" class="store-icon-img">',
   fender: '<img src="img/fender-icon.svg" alt="Fender" class="store-icon-img" style="width:32px;height:32px">'
 };
