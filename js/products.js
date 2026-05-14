@@ -1208,7 +1208,7 @@ const products = [
     badge: "legend",
     desc: "The sound of British rock. 30 watts of all-tube power through two 12-inch Celestion speakers. The iconic chime and jangle that defined The Beatles, Queen, and countless Brit-rock bands. Top Boost channel delivers that unmistakable cutting presence. For guitarists who want the sound of rock history.",
     desc_es: "El sonido del rock británico. 30 vatios de potencia todo-válvulas a través de dos altavoces Celestion de 12 pulgadas. El icónico brillo que definió a The Beatles, Queen e innumerables bandas de rock británico. El canal Top Boost ofrece esa presencia cortante inconfundible. Para guitarristas que quieren el sonido de la historia del rock.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/563484.jpg",
+    img: "https://www.voxamps.co.uk/cdn/shop/files/AC30C2-Front-Flat-No-Shadow-White-BG.jpg?v=1692886042&width=800",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/AC30C2X--vox-ac30-custom-30-watt-2x12-tube-combo-amp",
       thomann: "https://www.thomann.co.uk/vox_ac30_custom.htm",
