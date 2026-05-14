@@ -1231,7 +1231,7 @@ const products = [
     img: "img/marshall-dsl40.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DSL40CR--marshall-dsl40cr-40-watt-1x12-tube-combo-amp",
-      thomann: "https://www.thomann.co.uk/marshall_dsl_40_cr.htm",
+      thomann: "https://www.thomann.co.uk/search.html?sw=marshall%20dsl40cr",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40-Watt-Combo-Amp/3Y2X",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
