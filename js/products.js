@@ -121,7 +121,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/shure_sm_58_lce.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Vocal-Microphone/G5D",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      amazon: "https://www.amazon.com/dp/B000CZ0R42"
+      amazon: "https://www.amazon.com/dp/B000CZ0R42",
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm-58-dynamic-vocal-microphone"
     }
   },
   {
