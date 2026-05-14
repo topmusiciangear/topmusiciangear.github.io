@@ -1250,7 +1250,7 @@ const products = [
     desc_es: "El amplificador de bajo que definió el rock and roll. 500 vatios de potencia Clase D en un cabezal ligero y portátil. Legendario tono Ampeg con EQ de 3 bandas, selector de frecuencia ultra-media y compresor incorporado. El PF-500 entrega ese retumbante extremo grave que impulsó Motown, el rock y la música latina durante décadas. Combínalo con cualquier gabinete para obtener un tono de bajo clásico instantáneo.",
     img: "https://muzikercdn.com/uploads/product_gallery/1100/110065/thumb_large_d_gallery_base_7a8a60c3.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/PF500--ampeg-pf-500-portaflex-500-watt-bass-amp-head",
+      sweetwater: "https://www.sweetwater.com/store/search?s=ampeg+pf-500+portaflex",
       thomann: "https://www.thomann.co.uk/ampeg_pf_500_portaflex.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ampeg-PF-500-Portaflex-500W-Bass-Amp-Head/4GKK",
       musikproduktiv: "https://www.musik-produktiv.de/search"
