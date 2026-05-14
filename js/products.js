@@ -17,7 +17,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/shure_sm_7_db.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X",
 
-      musikproduktiv: "https://www.musik-produktiv.de/shure-sm7b.html"
+      musikproduktiv: "https://www.musik-produktiv.de/shure-sm7b.html",
+      baxmusic: "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm7b-dynamic-vocal-studio-microphone"
     }
   },
   {
