@@ -1211,7 +1211,7 @@ const products = [
     img: "https://www.voxamps.co.uk/cdn/shop/files/AC30C2-Front-Flat-No-Shadow-White-BG.jpg?v=1692886042&width=800",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/AC30C2X--vox-ac30-custom-30-watt-2x12-tube-combo-amp",
-      thomann: "https://www.thomann.co.uk/vox_ac30_custom.htm",
+      thomann: "https://www.thomann.co.uk/search.html?sw=vox%20ac30",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-2x12-Tube-Combo-Amp/2PO",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
