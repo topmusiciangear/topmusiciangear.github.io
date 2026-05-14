@@ -236,7 +236,7 @@ const translations = {
     setupItem5Desc: "Altavoces de monitor profesional",
     catName_microphones: "Micrófonos",
     catName_strings: "Cuerdas",
-    catName_guitars: "Guitarra y Bajos Fender",
+    catName_guitars: "Guitarras y Bajos Fender",
     catName_keyboards: "Teclados",
     catName_interfaces: "Interfaces",
     catName_monitors: "Monitores",
