@@ -1069,7 +1069,7 @@ const products = [
     badge: "premium",
     desc: "Fender's most advanced Stratocaster. Ultra Noiseless pickups, sculpted neck heel for upper fret access, and a compound-radius fingerboard. From delicate jazz chords to screaming Latin rock leads, this is the ultimate Strat for the discerning professional.",
     desc_es: "La Stratocaster más avanzada de Fender. Pastillas Ultra Noiseless, talón esculpido para acceso a trastes superiores y diapasón de radio compuesto. Desde delicados acordes de jazz hasta desgarradores leads de rock latino, esta es la Strat definitiva para el profesional exigente.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/574158.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10019/0118010771_fen_ins_frt_1_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/UltraStratCSB--fender-american-ultra-stratocaster-cosmic-sapphire",
       thomann: "https://www.thomann.co.uk/fender_american_ultra_stratocaster_csb.htm",
