@@ -653,7 +653,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/sony_mdr7506_kopfhoerer.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
 
-      musikproduktiv: "https://www.musik-produktiv.de/sony-mdr-7506.html"
+      musikproduktiv: "https://www.musik-produktiv.de/sony-mdr-7506.html",
+      baxmusic: "https://www.bax-shop.co.uk/studio-headphones/sony-mdr-7506-headphones"
     }
   },
   {
