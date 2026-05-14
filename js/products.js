@@ -1089,7 +1089,7 @@ const products = [
     badge: "recommended",
     desc: "The offset icon reborn. Player II pickups with the distinctive Jazzmaster tone — warm, round, and complex. The floating vibrato adds shimmer and depth. Loved by surf, indie, and alternative players worldwide. A cult classic that became a legend.",
     desc_es: "El icono offset renacido. Pastillas Player II con el distintivo tono Jazzmaster — cálido, redondo y complejo. El vibrato flotante añade brillo y profundidad. Amado por músicos de surf, indie y alternativa mundialmente. Un clásico de culto que se convirtió en leyenda.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566033.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10071/0140590592_fen_ins_frt_1_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/JazzmasterP2MN--fender-player-ii-jazzmaster-maple-3-color-sunburst",
       thomann: "https://www.thomann.co.uk/fender_player_ii_jazzmaster_3cs.htm",
