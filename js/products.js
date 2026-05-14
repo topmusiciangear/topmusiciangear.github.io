@@ -1265,10 +1265,10 @@ const products = [
     badge: "bestSeller",
     desc: "The modern bass standard. 500 watts of power through two 10-inch Eminence speakers. Lightweight design at just 28 pounds. Clean, punchy tone with built-in overdrive, 9-band EQ, and XLR direct out. From Latin salsa to rock to jazz, the Rumble 500 delivers professional bass tone in a package you can carry with one hand.",
     desc_es: "El estándar moderno del bajo. 500 vatios de potencia a través de dos altavoces Eminence de 10 pulgadas. Diseño ligero de solo 12.7 kg. Tono limpio y contundente con overdrive incorporado, EQ de 9 bandas y salida directa XLR. Desde salsa latina hasta rock y jazz, el Rumble 500 ofrece un tono de bajo profesional en un paquete que puedes llevar con una mano.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/596302.jpg",
+    img: "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_33/331990/9905921_800.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rumble500V3--fender-rumble-500-v3-500-watt-2x10-bass-combo-amp",
-      thomann: "https://www.thomann.co.uk/fender_rumble_500_v3.htm",
+      thomann: "https://www.thomann.co.uk/fender_rumble_500.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
       musikproduktiv: "https://www.musik-produktiv.de/search",
       fender: "https://www.fender.com/en-GB/amplifiers/bass-amps/rumble-500/2370600000.html"
