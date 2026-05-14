@@ -930,7 +930,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/ssl_uf8.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/midi-studio-controllers/solid-state-logic-uf8-daw-controller"
     }
   },
   {
