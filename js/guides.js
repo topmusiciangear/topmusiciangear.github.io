@@ -1127,7 +1127,7 @@ const guides = [
     title: "Best Guitar & Bass Amps for Every Player (2026)",
     title_es: "Los Mejores Amplificadores de Guitarra y Bajo para Cada Músico (2026)",
     category: "amps",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/498863.jpg",
+    image: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10036/2231504000_amp_frt_1_nr.png",
     badge: "bestSeller",
     intro: "Your amp is half your sound. After 20+ years on stages worldwide — from Broadway to Latin jazz clubs — I've learned that the right amp makes everything easier. Here are the guitar and bass amps I trust most, from practice to the professional stage.",
     intro_es: "Tu amplificador es la mitad de tu sonido. Después de más de 20 años en escenarios mundiales — desde Broadway hasta clubes de jazz latino — he aprendido que el amplificador correcto lo hace todo más fácil. Estos son los amplificadores de guitarra y bajo en los que más confío, desde práctica hasta el escenario profesional.",

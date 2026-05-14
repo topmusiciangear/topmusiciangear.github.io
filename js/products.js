@@ -1169,7 +1169,7 @@ const products = [
     badge: "legend",
     desc: "The quintessential boutique-style combo amp. 15 watts of all-tube power through a single 12-inch Jensen speaker. Three-band EQ, spring reverb, and fat boost make this the most recorded small amp in history. From blues clubs to Latin jazz cafes, the Blues Junior delivers warm, responsive tone that makes every guitarist sound better.",
     desc_es: "El amplificador combo boutique por excelencia. 15 vatios de potencia todo-válvulas a través de un altavoz Jensen de 12 pulgadas. EQ de tres bandas, reverb de resorte y fat boost lo convierten en el pequeño amplificador más grabado de la historia. Desde clubes de blues hasta cafés de jazz latino, el Blues Junior ofrece un tono cálido y responsivo que hace sonar mejor a todo guitarrista.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/498863.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10036/2231504000_amp_frt_1_nr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BluesJuniorIV--fender-blues-junior-iv-1x12-15-watt-tube-combo-amp",
       thomann: "https://www.thomann.co.uk/fender_blues_junior_iv.htm",
