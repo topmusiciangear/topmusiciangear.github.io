@@ -1213,7 +1213,8 @@ const products = [
       sweetwater: "https://www.sweetwater.com/store/detail/AC30C2X--vox-ac30-custom-30-watt-2x12-tube-combo-amp",
       thomann: "https://www.thomann.co.uk/search.html?sw=vox%20ac30",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-2x12-Tube-Combo-Amp/2PO",
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/complete-assortment?keyword=Vox%20AC30"
     }
   },
   {
