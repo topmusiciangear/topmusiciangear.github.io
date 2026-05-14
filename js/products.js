@@ -1129,7 +1129,7 @@ const products = [
     badge: "legend",
     desc: "The voice of modern bass. Two single-coil pickups deliver that punchy, articulate tone that cuts through any mix. The slim neck profile makes complex Latin bass lines and jazz walking lines effortless. From Jaco to today, the Jazz Bass defines bass tone.",
     desc_es: "La voz del bajo moderno. Dos pastillas single-coil ofrecen ese tono golpeado y articulado que corta cualquier mezcla. El perfil de mástil delgado hace que las líneas de bajo latino complejas y las líneas de walking jazz sean sin esfuerzo. Desde Jaco hasta hoy, el Jazz Bass define el tono del bajo.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517175.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10002/0149953515_gtr_frt_001_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/JBassPlayerMNBL--fender-player-jazz-bass-maple-black",
       thomann: "https://www.thomann.co.uk/fender_player_jazz_bass_mn_blk.htm",
