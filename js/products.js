@@ -1033,6 +1033,6 @@ const storeIcons = {
   amazon: '<i class="fa-brands fa-amazon" style="font-size:15px;"></i>',
   reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>",
   andertons: '<img src="img/andertons-icon.png" alt="Andertons" class="store-icon-img">',
-  baxmusic: '<img src="img/baxmusic-icon.png" alt="Bax Music" class="store-icon-img">',
+  baxmusic: '<img src="img/baxmusic-icon.png" alt="Bax Music" class="store-icon-img" style="width:28px">',
   musicstore: '<img src="img/musicstore-icon.png" alt="Music Store" class="store-icon-img">'
 };
