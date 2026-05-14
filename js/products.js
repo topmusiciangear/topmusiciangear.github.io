@@ -1109,7 +1109,7 @@ const products = [
     badge: "legend",
     desc: "The bass that invented modern music. The P-Bass delivers that punchy, authoritative low-end that drives salsa, funk, rock, and Latin jazz. Split-coil pickup for rich, balanced tone. The foundation of every great rhythm section — from James Brown to Buena Vista.",
     desc_es: "El bajo que inventó la música moderna. El P-Bass ofrece ese golpe grave y autoritario que impulsa la salsa, el funk, el rock y el jazz latino. Pastilla split-coil para un tono rico y equilibrado. La base de cada gran sección rítmica — desde James Brown hasta Buena Vista.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/517174.jpg",
+    img: "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10043/0140472506_fen_ins_frt_1_rr.png",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/PBassPlayerMNBL--fender-player-precision-bass-maple-black",
       thomann: "https://www.thomann.co.uk/fender_player_precision_bass_mn_blk.htm",
