@@ -1158,25 +1158,6 @@ const products = [
       fender: "https://uk.fender.com/search?q=Fender+CD-60S+Acoustic"
     }
   },
-  {
-    id: 69,
-    title: "Fender Paramount OM-78E Acoustic-Electric",
-    title_es: "Fender Paramount OM-78E Acústico-Eléctrica",
-    category: "guitars",
-    price: 749,
-    rating: 4.6,
-    reviews: 1234,
-    badge: "topQuality",
-    desc: "Fender's premium acoustic series. Solid mahogany top with mahogany back and sides delivers rich, complex tone. Orchestra Model body shape is perfect for fingerstyle and Latin guitar techniques. Fishman electronics for stage-ready amplified sound.",
-    desc_es: "La serie acústica premium de Fender. Tapa maciza de caoba con fondo y aros de caoba ofrece un tono rico y complejo. La forma de cuerpo Orchestra Model es perfecta para fingerstyle y técnicas de guitarra latina. Electrónica Fishman para sonido amplificado listo para el escenario.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/574163.jpg",
-    stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/ParamountOM78E--fender-paramount-om-78e-acoustic-electric-guitar",
-      thomann: "https://www.thomann.co.uk/fender_paramount_om_78e.htm",
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Paramount-OM-78E-Acoustic-Electric-Guitar-Natural/4YN4",
-      musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Paramount+OM-78E+Acoustic-Electric"
-    }
   }
 ];
 
