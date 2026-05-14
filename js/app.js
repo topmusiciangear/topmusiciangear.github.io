@@ -336,11 +336,11 @@ function renderMySetup() {
   const container = document.getElementById("setupGrid");
   if (!container) return;
   const gear = [
-    { icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', title: "Focusrite Scarlett 2i2 4th Gen", descKey: "setupItem1Desc" },
-    { icon: '<i class="fa-solid fa-headphones"></i>', title: "Beyerdynamic DT 770 Pro", descKey: "setupItem2Desc" },
-    { icon: '<i class="fa-solid fa-microphone"></i>', title: "Rode NT1-A", descKey: "setupItem3Desc" },
-    { icon: '<i class="fa-solid fa-keyboard"></i>', title: "Akai MPK249", descKey: "setupItem4Desc" },
-    { icon: '<i class="fa-solid fa-volume-high"></i>', title: "Yamaha HS8", descKey: "setupItem5Desc" }
+    { icon: '<svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', title: "Focusrite Scarlett 2i2 4th Gen", descKey: "setupItem1Desc" },
+    { icon: '<i class="fa-solid fa-headphones" style="font-size:32px"></i>', title: "Beyerdynamic DT 770 Pro", descKey: "setupItem2Desc" },
+    { icon: '<i class="fa-solid fa-microphone" style="font-size:32px"></i>', title: "Rode NT1-A", descKey: "setupItem3Desc" },
+    { icon: '<i class="fa-solid fa-keyboard" style="font-size:32px"></i>', title: "Akai MPK249", descKey: "setupItem4Desc" },
+    { icon: '<i class="fa-solid fa-volume-high" style="font-size:32px"></i>', title: "Yamaha HS8", descKey: "setupItem5Desc" }
   ];
   container.innerHTML = gear.map(g => `
     <div class="setup-item">
