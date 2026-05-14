@@ -1227,7 +1227,7 @@ const products = [
     badge: "topQuality",
     desc: "The classic rock amplifier reimagined. 40 watts of all-tube power through a 12-inch Celestion V-type speaker. Two channels with classic gain and ultra gain for everything from clean blues to heavy rock. The DSL40CR is the quintessential Marshall sound — punchy mids, crunch, and that unmistakable British roar.",
     desc_es: "El amplificador de rock clásico reimaginado. 40 vatios de potencia todo-válvulas a través de un altavoz Celestion V-type de 12 pulgadas. Dos canales con ganancia clásica y ultraganancia para todo, desde blues limpio hasta rock pesado. El DSL40CR es el sonido Marshall por excelencia — medios contundentes, crunch y ese rugido británico inconfundible.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/585431.jpg",
+    img: "img/marshall-dsl40.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DSL40CR--marshall-dsl40cr-40-watt-1x12-tube-combo-amp",
       thomann: "https://www.thomann.co.uk/marshall_dsl_40_cr.htm",
