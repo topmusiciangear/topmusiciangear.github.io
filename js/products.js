@@ -591,7 +591,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU",
 
-      musikproduktiv: "https://www.musik-produktiv.de/beyerdynamic-dt-770-pro-250-ohm.html"
+      musikproduktiv: "https://www.musik-produktiv.de/beyerdynamic-dt-770-pro-250-ohm.html",
+      baxmusic: "https://www.bax-shop.co.uk/studio-headphones/beyerdynamic-dt770-pro-80-ohm"
     }
   },
   {
