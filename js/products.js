@@ -1273,7 +1273,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_rumble_500.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://www.fender.com/en-GB/amplifiers/bass-amps/rumble-500/2370600000.html"
+      fender: "https://uk.fender.com/search?q=Fender+Rumble+500+V3"
     }
   }
 ];
