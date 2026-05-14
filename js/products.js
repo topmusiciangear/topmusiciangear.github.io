@@ -1189,7 +1189,7 @@ const products = [
     badge: "bestSeller",
     desc: "The best-selling modeling amp in the world. 50 watts of power with five amp voicings — clean, crunch, lead, brown, and acoustic. Built-in effects including delay, reverb, chorus, and more. The Katana 50 is the ultimate practice and small-gig amp for guitarists who want versatility without complexity or cost.",
     desc_es: "El amplificador de modelado más vendido del mundo. 50 vatios de potencia con cinco voces de amplificador — clean, crunch, lead, brown y acústico. Efectos incorporados incluyendo delay, reverb, chorus y más. El Katana 50 es el amplificador definitivo para práctica y pequeños conciertos para guitarristas que quieren versatilidad sin complejidad ni costo.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567477.jpg",
+    img: "img/boss-katana.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/KTN50MK2--boss-katana-50-mkii-50-watt-1x12-guitar-combo-amp",
       thomann: "https://www.thomann.co.uk/boss_katana_50_mkii.htm",
@@ -1246,7 +1246,7 @@ const products = [
     badge: "legend",
     desc: "The bass amp that defined rock and roll. 500 watts of Class-D power in a lightweight, portable head. Legendary Ampeg tone with 3-band EQ, ultra-mid frequency selector, and built-in compressor. The PF-500 delivers that thundering low-end that drove Motown, rock, and Latin music for decades. Pair it with any cab for instant classic bass tone.",
     desc_es: "El amplificador de bajo que definió el rock and roll. 500 vatios de potencia Clase D en un cabezal ligero y portátil. Legendario tono Ampeg con EQ de 3 bandas, selector de frecuencia ultra-media y compresor incorporado. El PF-500 entrega ese retumbante extremo grave que impulsó Motown, el rock y la música latina durante décadas. Combínalo con cualquier gabinete para obtener un tono de bajo clásico instantáneo.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/523626.jpg",
+    img: "https://muzikercdn.com/uploads/product_gallery/1100/110065/thumb_large_d_gallery_base_7a8a60c3.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/PF500--ampeg-pf-500-portaflex-500-watt-bass-amp-head",
       thomann: "https://www.thomann.co.uk/ampeg_pf_500_portaflex.htm",
