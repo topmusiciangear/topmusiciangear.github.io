@@ -1191,7 +1191,7 @@ const products = [
     desc_es: "El amplificador de modelado más vendido del mundo. 50 vatios de potencia con cinco voces de amplificador — clean, crunch, lead, brown y acústico. Efectos incorporados incluyendo delay, reverb, chorus y más. El Katana 50 es el amplificador definitivo para práctica y pequeños conciertos para guitarristas que quieren versatilidad sin complejidad ni costo.",
     img: "img/boss-katana.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/KTN50MK2--boss-katana-50-mkii-50-watt-1x12-guitar-combo-amp",
+      sweetwater: "https://www.sweetwater.com/store/search?s=boss+katana+50+mkii",
       thomann: "https://www.thomann.co.uk/boss_katana_50_mkii.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-Katana-50-MkII-Guitar-Combo-Amp/5GMG",
       musikproduktiv: "https://www.musik-produktiv.de/search"
