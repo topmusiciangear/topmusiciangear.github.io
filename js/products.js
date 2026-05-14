@@ -509,7 +509,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/yamaha_hs_8_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J",
 
-      musikproduktiv: "https://www.musik-produktiv.de/yamaha-hs-8.html"
+      musikproduktiv: "https://www.musik-produktiv.de/yamaha-hs-8.html",
+      baxmusic: "https://www.bax-shop.co.uk/studio-monitor/yamaha-hs8-mp-matched-pair-active-studio-monitors-set-of-2-black"
     }
   },
   {
@@ -549,7 +550,8 @@ const products = [
       thomann: "https://www.thomann.co.uk/adam_a7v.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
 
-      musikproduktiv: "https://www.musik-produktiv.de/search"
+      musikproduktiv: "https://www.musik-produktiv.de/search",
+      baxmusic: "https://www.bax-shop.co.uk/studio-monitor/adam-a7v-active-studio-monitor-single-unit"
     }
   },
   {
