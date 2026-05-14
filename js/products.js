@@ -1015,7 +1015,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_player_stratocaster_mn_blk.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Stratocaster-Olympic-White/27HN",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Player+Stratocaster"
+      fender: "https://www.fender.com/en-GB/electric-guitars/stratocaster/player-stratocaster/0144502500.html"
     }
   },
   {
@@ -1035,7 +1035,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_player_telecaster_mn_blk.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Telecaster-Black/27HR",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Player+Telecaster"
+      fender: "https://www.fender.com/en-GB/electric-guitars/telecaster/player-telecaster/0145212500.html"
     }
   },
   {
@@ -1055,7 +1055,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_american_professional_ii_telecaster.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Telecaster-Butterscotch-Blonde/5M4A",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+American+Professional+II+Telecaster"
+      fender: "https://www.fender.com/en-GB/electric-guitars/telecaster/american-professional-ii-telecaster/0113942700.html"
     }
   },
   {
@@ -1075,7 +1075,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_american_ultra_stratocaster_csb.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-Stratocaster-Cosmic-Sapphire-Rosewood/6XIU",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+American+Ultra+Stratocaster"
+      fender: "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-ultra-stratocaster/0118010712.html"
     }
   },
   {
@@ -1095,7 +1095,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_player_ii_jazzmaster_3cs.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Jazzmaster-3-Color-Sunburst-Maple/65A3",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Player+II+Jazzmaster"
+      fender: "https://www.fender.com/en-GB/electric-guitars/jazzmaster/player-ii-jazzmaster/0140590558.html"
     }
   },
   {
@@ -1115,7 +1115,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_player_precision_bass_mn_blk.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-Black/27HL",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Player+Precision+Bass"
+      fender: "https://www.fender.com/en-GB/electric-basses/precision-bass/player-precision-bass/0149803515.html"
     }
   },
   {
@@ -1135,7 +1135,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_player_jazz_bass_mn_blk.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-Black/27HQ",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Player+Jazz+Bass"
+      fender: "https://www.fender.com/en-GB/electric-basses/jazz-bass/player-jazz-bass/0149903500.html"
     }
   },
   {
@@ -1155,7 +1155,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_cd_60s_dreadnought_nat.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-CD-60S-Dreadnought-Acoustic-Natural/17FJ",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+CD-60S+Acoustic"
+      fender: "https://www.fender.com/en-GB/acoustic-guitars/dreadnought/cd-60s-dreadnought/0970110006.html"
     }
   },
   {
@@ -1175,7 +1175,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_blues_junior_iv.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-15-Watt-Guitar-Combo-Amp/4ZGB",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/products/blues-junior-iv"
+      fender: "https://www.fender.com/en-GB/amplifiers/guitar-amps/blues-junior-iv/2231504000.html"
     }
   },
   {
@@ -1271,7 +1271,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_rumble_500_v3.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/products/rumble-500?variant=49502340251935"
+      fender: "https://www.fender.com/en-GB/amplifiers/bass-amps/rumble-500/2370600000.html"
     }
   }
 ];
