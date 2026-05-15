@@ -1187,7 +1187,7 @@ const guides = [
     title: "Best Wireless Microphone Systems for Stage (2026)",
     title_es: "Mejores Sistemas de Micrófonos Inalámbricos para el Escenario (2026)",
     category: "microphones",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/379902.jpg",
+    image: "https://media.sweetwater.com/m/products/image/217e4fcc44g0No4jjGRA9c2Sz3TG7D6Pi30vjKLN.jpg?ha=217e4fcc440eb90bd7395f6c054e18fc0ed14ef2&quality=82&width=750",
     badge: "bestSeller",
     intro: "Wireless microphones are essential for any live performer. After 20+ years of touring and performing on stages worldwide — from Broadway to Latin jazz clubs — I've learned that a reliable wireless system is non-negotiable. Here are the wireless mics I trust most for live vocals, ranked by reliability and value.",
     intro_es: "Los micrófonos inalámbricos son esenciales para cualquier artista en vivo. Después de 20+ años de giras y presentaciones en escenarios mundiales, he aprendido que un sistema inalámbrico confiable es innegociable. Estos son los inalámbricos en los que más confío para voces en vivo, clasificados por fiabilidad y valor.",
