@@ -1239,7 +1239,7 @@ const guides = [
     title: "Best Guitar Effects Pedals for Every Guitarist (2026)",
     title_es: "Mejores Pedales de Efectos para Guitarra para Cada Guitarrista (2026)",
     category: "pedals",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/115066.jpg",
+    image: "https://media.sweetwater.com/m/products/image/29a2414665T6pyenFpcASI7sBWwbVbS9ucJiSa6v.jpg?quality=82&height=750&ha=29a2414665765b37",
     badge: "bestSeller",
     intro: "Pedals are how you shape your sound. After 20+ years of touring and recording, I know which pedals earn their spot on the board. These are the effects I trust most — from essential basics to creative tools.",
     intro_es: "Los pedales son cómo moldeas tu sonido. Después de 20+ años de giras y grabaciones, sé qué pedales se ganan su lugar en el tablero. Estos son los efectos en los que más confío.",
