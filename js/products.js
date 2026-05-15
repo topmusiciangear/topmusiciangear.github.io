@@ -1411,7 +1411,7 @@ const products = [
     badge: "legend",
     desc: "The industry standard pedal tuner. Accurate chromatic tuning with a bright display. True bypass, power output for daisy-chaining, and built to survive the road.",
     desc_es: "El afinador de pedal estándar de la industria. Afinación cromática precisa con pantalla brillante. True bypass, salida de corriente y construido para sobrevivir la carretera.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/154775.jpg",
+    img: "https://media.sweetwater.com/m/products/image/526813dcf1IJEhm77HMlCeYLXyc8ZBocKvg9s2aw.jpg?quality=82&height=750&ha=526813dcf11bd5e8",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/TU3--boss-tu-3-chromatic-tuner-pedal", thomann: "https://www.thomann.co.uk/boss_tu3_tuner.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Chromatic-Tuner-Pedal/1G3", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
