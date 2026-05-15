@@ -1495,7 +1495,7 @@ const products = [
     badge: "legend",
     desc: "The acoustic guitar that defined modern music. Solid Sitka spruce top, East Indian rosewood back and sides. The standard by which all other acoustic guitars are measured.",
     desc_es: "La guitarra acústica que definió la música moderna. Tapa sólida de abeto Sitka, fondo y aros de palo rosa de la India. El estándar con el que se miden todas las demás guitarras acústicas.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
+    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/23980/86512/282556-1530186278494__96392.1736787229.jpg?c=1",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/D28--martin-d-28-dreadnought-acoustic-guitar", thomann: "https://www.thomann.co.uk/martin_d28_dreadnought.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28-Standard-Series-Dreadnought-Acoustic-Guitar/39F1", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {

@@ -1298,7 +1298,7 @@ const guides = [
     title: "Best Acoustic Guitars for Every Player (2026)",
     title_es: "Mejores Guitarras Acústicas para Cada Músico (2026)",
     category: "guitars",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
+    image: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/23980/86512/282556-1530186278494__96392.1736787229.jpg?c=1",
     badge: "bestSeller",
     intro: "The right acoustic guitar is a lifelong companion. After playing everything from campfire strummers to $10,000 vintage Martins on Broadway and beyond, I know what matters — tone, playability, and build quality at every price point.",
     intro_es: "La guitarra acústica correcta es una compañera de por vida. Después de tocar todo, desde guitarras de fogata hasta Martins vintage de $10,000, sé lo que importa.",
