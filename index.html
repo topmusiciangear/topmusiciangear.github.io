@@ -176,15 +176,31 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/style.css?v=7">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543" crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543" crossorigin="anonymous" id="adsense-script"></script>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L" id="ga-script"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-0752B4SE9L');
+  gtag('config', 'G-0752B4SE9L', { 'anonymize_ip': true });
+  // Pause gtag until consent if not yet given
+  if (!localStorage.getItem('cookieConsent')) {
+    window['gtag'] = function(){dataLayer.push(arguments);};
+  }
 </script>
+<style>
+#cookie-consent-banner{position:fixed;bottom:0;left:0;right:0;background:#1a1a2e;color:#f0f0f0;padding:16px 24px;z-index:99999;display:none;flex-wrap:wrap;align-items:center;gap:12px;border-top:2px solid #3b82f6;font-size:14px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5)}
+#cookie-consent-banner.show{display:flex}
+#cookie-consent-banner p{margin:0;flex:1;min-width:200px}
+#cookie-consent-banner .cc-buttons{display:flex;gap:8px;flex-shrink:0}
+#cookie-consent-banner button{padding:8px 20px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;transition:opacity .2s}
+#cookie-consent-banner .cc-accept{background:#3b82f6;color:#fff}
+#cookie-consent-banner .cc-reject{background:#444;color:#f0f0f0}
+#cookie-consent-banner .cc-link{color:#60a5fa;text-decoration:underline;font-size:13px}
+#cookie-consent-banner button:hover{opacity:.85}
+@media(max-width:600px){#cookie-consent-banner{padding:12px 16px}}
+</style>
 </head>
 <body style="margin:0;padding:0;">
   <noscript>
@@ -461,6 +477,15 @@
   <script src="js/products.js?v=4"></script>
   <script src="js/guides.js?v=4"></script>
   <script src="js/app.js?v=4"></script>
-<script type="text/javascript">(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');</script>
+<script>
+(function(){var c=localStorage.getItem('cookieConsent');var b=document.getElementById('cookie-consent-banner');if(!c){b.classList.add('show')}else{if(c==='accepted'){loadTracking()}}function loadTracking(){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}function accept(){localStorage.setItem('cookieConsent','accepted');b.classList.remove('show');loadTracking();window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-0752B4SE9L',{'anonymize_ip':true})}function reject(){localStorage.setItem('cookieConsent','rejected');b.classList.remove('show')}window.cookieAccept=accept;window.cookieReject=reject})();
+</script>
+<div id="cookie-consent-banner">
+  <p>We use cookies for analytics, personalized ads, and affiliate tracking. <a href="cookie-policy.html" class="cc-link">Learn more</a></p>
+  <div class="cc-buttons">
+    <button class="cc-reject" onclick="cookieReject()">Reject all</button>
+    <button class="cc-accept" onclick="cookieAccept()">Accept all</button>
+  </div>
+</div>
 </body>
 </html>
