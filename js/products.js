@@ -892,7 +892,7 @@ const products = [
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/561297.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/StedmanXL--stedman-corporation-proscreen-xl-black",
-
+      thomann: "https://www.thomann.co.uk/stedman_proscreen_ps100.htm",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
