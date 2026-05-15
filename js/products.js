@@ -1649,7 +1649,7 @@ const products = [
     badge: "topQuality",
     desc: "The fastest workflow in a DAW. Drag-and-drop everything, intuitive arranging, built-in Melodyne integration, and powerful mixing tools. Smart Templates for quick starts. Growing rapidly in popularity.",
     desc_es: "El flujo de trabajo más rápido en un DAW. Arrastra y suelta todo, integración Melodyne incorporada. Plantillas inteligentes para inicio rápido.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://static.bax-shop.es/image/product/1331845/5477289/91cd9b1f/1728051805presonus_studio-one-pro-7.jpg",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/StudioOne7Pro--presonus-studio-one-pro-7-music-production-software", thomann: "https://www.thomann.co.uk/presonus_studio_one_pro_7.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Studio-One-Pro-7/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
