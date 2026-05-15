@@ -1439,7 +1439,7 @@ const products = [
     badge: "bestSeller",
     desc: "The most versatile reverb pedal. 8 reverb algorithms plus TonePrint custom slots. From subtle room to ethereal ambient washes. Studio-quality reverb in a pedal.",
     desc_es: "El pedal de reverb más versátil. 8 algoritmos más ranuras TonePrint personalizables. De sala sutil a lavados ambientales etéreos. Reverb de calidad de estudio en un pedal.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/570579.jpg",
+    img: "https://m.media-amazon.com/images/I/614VhzaqysL._AC_SX679_.jpg",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/HOF2--tc-electronic-hall-of-fame-2-reverb-pedal", thomann: "https://www.thomann.co.uk/tc_electronic_hall_of_fame_2.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Hall-of-Fame-2-Reverb-Pedal/4D33", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
