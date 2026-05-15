@@ -1467,7 +1467,7 @@ const products = [
     badge: "bestSeller",
     desc: "The best value acoustic guitar. Solid spruce top, rosewood back and sides. Rich, full tone that rivals guitars costing twice as much. Perfect for beginners and experienced players alike.",
     desc_es: "La guitarra acústica de mejor valor. Tapa sólida de abeto, fondo y aros de palo rosa. Tono rico y lleno que rivaliza con guitarras del doble de precio.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
+    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/38647/181269/GFG800NTII%201__28499.1742922167.jpg?c=1",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/FG800--yamaha-fg800-acoustic-guitar-natural", thomann: "https://www.thomann.co.uk/yamaha_fg_800.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-FG800-Acoustic-Guitar/27B4", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
