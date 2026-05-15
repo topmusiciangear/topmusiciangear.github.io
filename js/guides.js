@@ -1387,7 +1387,7 @@ const guides = [
     id: "daw-guide",
     title: "Best DAW Software for Music Production (2026)",
     title_es: "Mejor Software DAW para Producción Musical (2026)",
-    category: "plugins",
+    category: "daw",
     image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
     badge: "premium",
     intro: "Your DAW is the heart of your studio. After 20+ years producing music — from bedroom beats to Broadway — I've used them all. Here are the DAWs I recommend based on what you actually need, not what the marketing says.",

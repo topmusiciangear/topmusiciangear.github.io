@@ -122,6 +122,7 @@ const translations = {
     catName_monitors: "Monitors",
     catName_headphones: "Headphones",
     catName_plugins: "Plugins",
+    catName_daw: "DAW",
     catName_percussion: "Percussion",
     catName_tres: "Cuban Tres",
     catName_accessories: "Accessories"
@@ -249,6 +250,7 @@ const translations = {
     catName_monitors: "Monitores",
     catName_headphones: "Auriculares",
     catName_plugins: "Plugins",
+    catName_daw: "DAW",
     catName_percussion: "Percusión",
     catName_tres: "Tres Cubano",
     catName_accessories: "Accesorios"
