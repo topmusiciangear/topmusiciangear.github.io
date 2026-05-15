@@ -1193,10 +1193,10 @@ const guides = [
     intro_es: "Los micrófonos inalámbricos son esenciales para cualquier artista en vivo. Después de 20+ años de giras y presentaciones en escenarios mundiales, he aprendido que un sistema inalámbrico confiable es innegociable. Estos son los inalámbricos en los que más confío para voces en vivo, clasificados por fiabilidad y valor.",
     sections: [
       {
-        heading: "Best Budget Wireless: AKG WMS40",
-        heading_es: "Mejor Inalámbrico Económico: AKG WMS40",
-        content: "The AKG WMS40 is the most affordable way to go wireless without sacrificing quality. At $299, it delivers 30 hours of battery life from just 2 AA batteries — that's a full festival weekend on one set. The cardioid dynamic capsule is clear and reliable. 8 selectable UHF frequencies give you flexibility to avoid interference. For small venues, churches, and first-time wireless users, this is the perfect entry point.",
-        content_es: "El AKG WMS40 es la forma más asequible de pasar a inalámbrico sin sacrificar calidad. A $299, ofrece 30 horas de batería con solo 2 pilas AA — un fin de semana completo de festival con un solo juego. La cápsula cardioide dinámica es clara y confiable. 8 frecuencias UHF seleccionables te dan flexibilidad para evitar interferencias. Para lugares pequeños, iglesias y usuarios primerizos, este es el punto de entrada perfecto.",
+        heading: "Best Budget Wireless: AKG WMS420 Vocal Set",
+        heading_es: "Mejor Inalámbrico Económico: AKG WMS420 Set Vocal",
+        content: "The AKG WMS420 Vocal Set is a professional multi-channel wireless system that delivers exceptional value. The D5 dynamic capsule offers legendary AKG sound with excellent feedback rejection and reduced handling noise. Both transmitters feature charging contacts for rechargeable batteries. Eight hours of operation from a single AA battery dramatically reduces running costs. Detachable antennas allow professional upgrades. At $499, it's the best value pro wireless system on the market.",
+        content_es: "El AKG WMS420 Set Vocal es un sistema inalámbrico multicanal profesional que ofrece un valor excepcional. La cápsula dinámica D5 ofrece el sonido legendario AKG con excelente rechazo a la retroalimentación y reducción de ruido de manejo. Ambos transmisores tienen contactos de carga para baterías recargables. Ocho horas de funcionamiento con una sola pila AA reduce drásticamente los costos. A $499, es el mejor sistema inalámbrico profesional calidad-precio del mercado.",
         products: [95]
       },
       {
@@ -1228,8 +1228,8 @@ const guides = [
         products: [93]
       }
     ],
-    conclusion: "For most musicians, the Shure BLX288/PG58 is the perfect balance of price and performance. If budget is tight, the AKG WMS40 delivers incredible value. For touring professionals, the Sennheiser EW 100 G4-935 is the reliable choice. And if you need the absolute best digital performance, the Shure ULXD24/SM58 is the gold standard.",
-    conclusion_es: "Para la mayoría de los músicos, el Shure BLX288/PG58 es el equilibrio perfecto entre precio y rendimiento. Si el presupuesto es ajustado, el AKG WMS40 ofrece un valor increíble. Para profesionales de gira, el Sennheiser EW 100 G4-935 es la elección confiable. Y si necesitas el mejor rendimiento digital, el Shure ULXD24/SM58 es el estándar de oro.",
+    conclusion: "For most musicians, the Shure BLX288/PG58 is the perfect balance of price and performance. If budget is tight, the AKG WMS420 delivers incredible value. For touring professionals, the Sennheiser EW 100 G4-935 is the reliable choice. And if you need the absolute best digital performance, the Shure ULXD24/SM58 is the gold standard.",
+    conclusion_es: "Para la mayoría de los músicos, el Shure BLX288/PG58 es el equilibrio perfecto entre precio y rendimiento. Si el presupuesto es ajustado, el AKG WMS420 ofrece un valor increíble. Para profesionales de gira, el Sennheiser EW 100 G4-935 es la elección confiable. Y si necesitas el mejor rendimiento digital, el Shure ULXD24/SM58 es el estándar de oro.",
     verdict: "Shure BLX288 for value, Sennheiser EW 100 for touring",
     verdict_es: "Shure BLX288 para valor, Sennheiser EW 100 para gira",
     featuredProducts: [91, 92, 93, 94, 95]
