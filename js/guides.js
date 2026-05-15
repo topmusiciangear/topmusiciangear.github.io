@@ -1422,8 +1422,8 @@ const guides = [
         products: [113]
       },
       {
-        heading: "Best All-Rounder: Steinberg Cubase Pro 13",
-        heading_es: "Mejor Todo-Terreno: Steinberg Cubase Pro 13",
+        heading: "Best All-Rounder: Steinberg Cubase Pro 14",
+        heading_es: "Mejor Todo-Terreno: Steinberg Cubase Pro 14",
         content: "Cubase is the complete package. Powerful MIDI editing with the innovative Key Editor, VariAudio for pitch correction, and professional scoring/notation tools. The MixConsole is hands-down the best DAW mixer. Excellent for composers, producers, and engineers who want everything in one box.",
         content_es: "Cubase es el paquete completo. Edición MIDI potente, corrección de tono VariAudio y herramientas profesionales de notación. Excelente para compositores, productores e ingenieros.",
         products: [114]

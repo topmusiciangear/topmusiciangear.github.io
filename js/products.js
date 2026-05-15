@@ -1624,8 +1624,8 @@ const products = [
   },
   {
     id: 114,
-    title: "Steinberg Cubase Pro 13",
-    title_es: "Steinberg Cubase Pro 13",
+    title: "Steinberg Cubase Pro 14",
+    title_es: "Steinberg Cubase Pro 14",
     category: "daw",
     price: 579,
     rating: 4.6,
@@ -1634,7 +1634,7 @@ const products = [
     desc: "The complete music production system. Powerful MIDI editing, VariAudio pitch correction, advanced scoring and notation. MixConsole for professional mixing. Trusted by composers and producers.",
     desc_es: "El sistema completo de producción musical. Edición MIDI potente, corrección de tono VariAudio, notación avanzada. Confiado por compositores y productores.",
     img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/2289/8194/CUBASE13ED-Cubase_Pro_13_Logo__08039.1714742077.jpg?c=1",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/CubasePro13--steinberg-cubase-pro-13-music-production-software", thomann: "https://www.thomann.co.uk/steinberg_cubase_pro_13.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Steinberg-Cubase-Pro-13/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/Cubase14P--steinberg-cubase-pro-14-full-version", thomann: "https://www.thomann.co.uk/steinberg_cubase_pro_14.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Cubase-Pro-14/6SXV", musikproduktiv: "https://www.musik-produktiv.de/search", reverb: "https://reverb.com/uk/item/97132845-steinberg-cubase-14-pro" }
   },
   {
     id: 115,
