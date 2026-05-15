@@ -1307,7 +1307,7 @@ const products = [
     badge: "topQuality",
     desc: "Professional wireless trusted by touring acts worldwide. True Diversity reception for dropout-free performance. 42 MHz tuning bandwidth with 1680 frequencies. e935 capsule delivers broadcast-quality vocal clarity. Rugged metal construction, rack-mountable.",
     desc_es: "Inalámbrico profesional usado por artistas de gira mundialmente. Recepción True Diversity para rendimiento sin cortes. 42 MHz de ancho de banda. Cápsula e935 con claridad vocal de calidad broadcast. Construcción metálica robusta.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/614928.jpg",
+    img: "https://www.simplysoundandlighting.co.uk/cdn/shop/files/01850fac-7d3e-4c6d-bff4-48371db65f7f.jpg?v=1688089260",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/EW100G4935S--sennheiser-ew-100-g4-935-s-handheld-wireless-system",
       thomann: "https://www.thomann.co.uk/sennheiser_ew_100_g4_935_s.htm",
