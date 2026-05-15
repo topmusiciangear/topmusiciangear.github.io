@@ -1356,17 +1356,24 @@ const guides = [
         products: [106]
       },
       {
-        heading: "Essential Vocal Mic: Shure SM58",
-        heading_es: "Micrófono Vocal Esencial: Shure SM58",
-        content: "No PA system is complete without an SM58. The most reliable, best-sounding live vocal microphone ever made. Cardioid pattern rejects stage noise. Built-in pop filter and indestructible construction. Every venue in the world has at least one.",
-        content_es: "Ningún sistema PA está completo sin un SM58. El micrófono vocal en vivo más confiable y mejor sonido jamás creado. Cada venue del mundo tiene al menos uno.",
-        products: [50]
+        heading: "All-Rounder: JBL EON712",
+        heading_es: "Todo-Terreno: JBL EON712",
+        content: "The EON712 is JBL's most versatile portable PA speaker. The built-in 3-channel mixer means you can plug mics and instruments directly in without a separate mixer. Bluetooth streaming for background music between sets. At 1200W and 32 lbs, it's powerful enough for clubs but light enough to carry with one hand.",
+        content_es: "El EON712 es el altavoz PA portátil más versátil de JBL. El mezclador de 3 canales incorporado te permite conectar micrófonos directamente. Bluetooth para música entre sets. Potente para clubes pero ligero.",
+        products: [109]
+      },
+      {
+        heading: "Premium Mid-Range: Yamaha DXR12mkII",
+        heading_es: "Premium Gama Media: Yamaha DXR12mkII",
+        content: "The DXR12mkII bridges the gap between budget and pro. Yamaha's FIR-X tuning delivers phase-coherent sound that rivals speakers costing twice as much. The 1100W Class-D amplifier drives crystal-clear highs and punchy lows. Perfect for bands who want pro sound without the pro price tag.",
+        content_es: "El DXR12mkII une el espacio entre presupuesto y profesional. El tuning FIR-X de Yamaha ofrece sonido coherente en fase que rivaliza con altavoces del doble de precio.",
+        products: [108]
       }
     ],
-    conclusion: "Start with a pair of EV ZLX-12P speakers and an SM58. For larger venues, step up to the QSC K12.2. The SM58 remains the vocal standard for a reason — invest in one, it will last a lifetime.",
-    conclusion_es: "Empieza con un par de EV ZLX-12P y un SM58. Para lugares más grandes, sube al QSC K12.2. El SM58 sigue siendo el estándar vocal por una razón.",
+    conclusion: "Start with a pair of EV ZLX-12P speakers on a tight budget. Step up to the JBL EON712 for Bluetooth convenience and onboard mixing. The Yamaha DXR12mkII delivers pro-level sound for serious bands. And the QSC K12.2 remains the industry standard for touring professionals.",
+    conclusion_es: "Empieza con un par de EV ZLX-12P si el presupuesto es ajustado. Sube al JBL EON712 por su Bluetooth y mezclador incorporado. El Yamaha DXR12mkII ofrece sonido profesional para bandas serias. Y el QSC K12.2 sigue siendo el estándar de la industria.",
     verdict: "EV ZLX-12P for budget, QSC K12.2 for pro",
     verdict_es: "EV ZLX-12P para presupuesto, QSC K12.2 para profesional",
-    featuredProducts: [105, 106, 50]
+    featuredProducts: [105, 106, 108, 109]
   }
 ];
