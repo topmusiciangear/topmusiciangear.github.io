@@ -236,7 +236,7 @@ const guides = [
         products: [52]
       }
     ],
-    conclusion: "Start with an SM57 — every musician needs one. Add the NT1-A when you want cleaner vocal recordings. The SM7B is perfect if you do a lot of spoken word or want that broadcast sound. The C414 and U87 are pro-level investments. I own all of these and each has its place in my mic locker.",
+    conclusion: "Start with an SM57 — every musician needs one. Add the NT1-A when you want cleaner vocal recordings. The SM7B is perfect if you do a lot of spoken word or want that broadcast sound. The C414 and U87 are pro-level investments.",
     conclusion_es: "Empieza con un SM57 — todo músico necesita uno. Añade el NT1-A cuando quieras grabaciones vocales más limpias. El SM7B es perfecto si haces mucho contenido hablado o quieres ese sonido de transmisión. El C414 y el U87 son inversiones de nivel profesional.",
     verdict: "SM57 for versatility, SM7B for vocals",
     verdict_es: "SM57 para versatilidad, SM7B para voces",
