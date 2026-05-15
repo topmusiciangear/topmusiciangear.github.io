@@ -1523,7 +1523,7 @@ const products = [
     badge: "topQuality",
     desc: "The industry standard for live sound reinforcement. 2000W peak power, 12-inch woofer. Deep bass extension, pristine highs. Rugged build, road-ready design. The choice of professionals worldwide.",
     desc_es: "El estándar de la industria para refuerzo de sonido en vivo. 2000W de potencia pico. Extensión de graves profunda, agudos impecables. Construcción robusta, lista para la carretera.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://media.sweetwater.com/m/products/image/6c9d9ecdf8KxbYZ66Y2FbzDnGWRM90iaN4Xlc84X.jpg?quality=82&height=750&ha=6c9d9ecdf885f2f5",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/K122--qsc-k12-2-powered-speaker", thomann: "https://www.thomann.co.uk/qsc_k12_2.htm", gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-K12-2-Powered-Loudspeaker/6DM", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
