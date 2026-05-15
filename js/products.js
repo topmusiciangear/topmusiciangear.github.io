@@ -1288,7 +1288,7 @@ const products = [
     badge: "bestSeller",
     desc: "The industry standard for affordable wireless. Dual-channel handheld system with PG58 microphone capsules. Simple setup with one-touch frequency scanning and automatic pairing. Up to 14 hours of battery life. Reliable UHF performance for churches, clubs, and schools.",
     desc_es: "El estándar de la industria para inalámbricos asequibles. Sistema de doble canal con cápsulas PG58. Configuración simple con escaneo de frecuencia de un toque. Hasta 14 horas de batería. Rendimiento UHF confiable.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/379902.jpg",
+    img: "https://media.sweetwater.com/m/products/image/217e4fcc44g0No4jjGRA9c2Sz3TG7D6Pi30vjKLN.jpg?ha=217e4fcc440eb90bd7395f6c054e18fc0ed14ef2&quality=82&width=750",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BLX288PG58-H10--shure-blx288-pg58-dual-channel-wireless-handheld-microphone-system-h10-band",
       thomann: "https://www.thomann.co.uk/shure_blx288_pg58_h8e.htm",
