@@ -31,6 +31,7 @@
     .social-links-contact a:hover { border-color: var(--store-color, var(--accent)); color: var(--white); transform: translateY(-2px); }
     .back-home { display: inline-flex; align-items: center; gap: 6px; margin-top: 32px; color: var(--text-muted); font-size: 14px; text-decoration: none; }
     .back-home:hover { color: var(--accent); }
+    @media (max-width: 600px) { .legal-page { padding: 60px 16px 40px; } .contact-grid { grid-template-columns: 1fr !important; } .social-links-contact { justify-content: center; } .social-links-contact a { flex: 1 1 100%; justify-content: center; } }
     .lang-show-es { display: none; }
     html[lang="es"] .lang-show-es { display: block; }
     html[lang="es"] .lang-show-en { display: none; }
@@ -45,7 +46,7 @@
     <p class="updated lang-show-en">Get in touch — I'd love to hear from you</p>
     <p class="updated lang-show-es">Ponte en contacto — me encantaría saber de ti</p>
 
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+    <div class="contact-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
       <div class="contact-card">
         <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
         <h3 class="lang-show-en">Email</h3>
