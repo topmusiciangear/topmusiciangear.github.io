@@ -1276,6 +1276,101 @@ const products = [
       musikproduktiv: "https://www.musik-produktiv.de/search",
       fender: "https://uk.fender.com/search?q=Fender+Rumble+500+V3"
     }
+  },
+  {
+    id: 91,
+    title: "Shure BLX288/PG58",
+    title_es: "Shure BLX288/PG58",
+    category: "microphones",
+    price: 599,
+    rating: 4.5,
+    reviews: 4567,
+    badge: "bestSeller",
+    desc: "The industry standard for affordable wireless. Dual-channel handheld system with PG58 microphone capsules. Simple setup with one-touch frequency scanning and automatic pairing. Up to 14 hours of battery life. Reliable UHF performance for churches, clubs, and schools.",
+    desc_es: "El estándar de la industria para inalámbricos asequibles. Sistema de doble canal con cápsulas PG58. Configuración simple con escaneo de frecuencia de un toque. Hasta 14 horas de batería. Rendimiento UHF confiable.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/379902.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/BLX288PG58--shure-blx288-pg58-dual-channel-handheld-wireless-system",
+      thomann: "https://www.thomann.co.uk/shure_blx288_pg58_h8e.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX288-PG58-H8E-Dual-Wireless-Microphone-System/38GC",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 92,
+    title: "Sennheiser EW 100 G4-935",
+    title_es: "Sennheiser EW 100 G4-935",
+    category: "microphones",
+    price: 849,
+    rating: 4.7,
+    reviews: 3456,
+    badge: "topQuality",
+    desc: "Professional wireless trusted by touring acts worldwide. True Diversity reception for dropout-free performance. 42 MHz tuning bandwidth with 1680 frequencies. e935 capsule delivers broadcast-quality vocal clarity. Rugged metal construction, rack-mountable.",
+    desc_es: "Inalámbrico profesional usado por artistas de gira mundialmente. Recepción True Diversity para rendimiento sin cortes. 42 MHz de ancho de banda. Cápsula e935 con claridad vocal de calidad broadcast. Construcción metálica robusta.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/614928.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/EW100G4935S--sennheiser-ew-100-g4-935-s-handheld-wireless-system",
+      thomann: "https://www.thomann.co.uk/sennheiser_ew_100_g4_935_s.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-935-S-Wireless-Vocal-Microphone-System/62BX",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 93,
+    title: "Shure ULXD24/SM58",
+    title_es: "Shure ULXD24/SM58",
+    category: "microphones",
+    price: 1359,
+    rating: 4.8,
+    reviews: 2345,
+    badge: "premium",
+    desc: "Digital wireless for the professional stage. 20 Hz-20 kHz response with no audio compression. Patented digital transmission eliminates interference. SM58 capsule is legendary for live vocals. Dante networking for Broadway, TV, and major tours.",
+    desc_es: "Inalámbrico digital para el escenario profesional. Respuesta 20 Hz-20 kHz sin compresión. Transmisión digital patentada. Cápsula SM58 legendaria para voces en vivo. Dante networking para Broadway, TV y giras.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/610191.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/ULXD2SM58--shure-ulxd24-sm58-digital-wireless-handheld-system",
+      thomann: "https://www.thomann.co.uk/shure_ulxd24_sm58_j50.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-ULXD24-SM58-J50-Digital-Wireless-Microphone-System/5E80",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 94,
+    title: "Sennheiser XSW 2-825",
+    title_es: "Sennheiser XSW 2-825",
+    category: "microphones",
+    price: 549,
+    rating: 4.4,
+    reviews: 5678,
+    badge: "recommended",
+    desc: "Entry-level professional wireless from Sennheiser. Automatic frequency management and pairing. e825 capsule with clear vocal sound. 10-hour battery life. Perfect for small venues and houses of worship.",
+    desc_es: "Inalámbrico profesional nivel básico de Sennheiser. Gestión automática de frecuencia. Cápsula e825 con sonido vocal claro. 10 horas de batería. Perfecto para lugares pequeños e iglesias.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/544087.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/XSW2825--sennheiser-xsw-2-825-handheld-wireless-system",
+      thomann: "https://www.thomann.co.uk/sennheiser_xsw_2_825_ae.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-XSW-2-825-AE-Wireless-Vocal-Microphone-System/6918",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 95,
+    title: "AKG WMS40",
+    title_es: "AKG WMS40",
+    category: "microphones",
+    price: 299,
+    rating: 4.3,
+    reviews: 7890,
+    badge: "bestSeller",
+    desc: "Most affordable pro wireless system. Single-channel UHF with 8 selectable frequencies. Up to 30 hours battery life. Cardioid dynamic capsule for clear vocal reproduction. Perfect for budget-conscious venues.",
+    desc_es: "Sistema inalámbrico pro más asequible. UHF de un canal con 8 frecuencias. Hasta 30 horas de batería. Cápsula cardioide dinámica. Perfecto para presupuestos limitados.",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/283773.jpg",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/WMS40--akg-wms40-digital-handheld-wireless-system",
+      thomann: "https://www.thomann.co.uk/akg_wms_40_pro2_vocal_set.htm",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-WMS40-Pro2-Vocal-Set/IAX",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
   }
 ];
 
