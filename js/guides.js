@@ -993,7 +993,7 @@ const guides = [
     title: "Best Channel Strip & Console Emulation Plugins (2026)",
     title_es: "Mejores Plugins de Channel Strip y Emulación de Consola (2026)",
     category: "plugins",
-    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop",
+    image: "img/fabfilter-total.jpg",
     badge: "topQuality",
     intro: "Channel strip plugins recreate the signal path of classic recording consoles — the exact chain of EQ, compression, gating, and saturation that gave vintage records their sound. After spending years working on real SSL and Neve consoles, I've learned what makes channel strips special. These two plugins bring that console magic into your DAW with stunning accuracy.",
     intro_es: "Los plugins de channel strip recrean la ruta de señal de las consolas de grabación clásicas — la cadena exacta de ecualización, compresión, puerta y saturación que dio a los discos vintage su sonido. Después de pasar años trabajando en consolas reales SSL y Neve, he aprendido qué hace especiales a los channel strips. Estos dos plugins traen esa magia de consola a tu DAW con una precisión impresionante.",
