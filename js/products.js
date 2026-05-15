@@ -1551,7 +1551,7 @@ const products = [
     badge: "topQuality",
     desc: "Professional powered speaker with Yamaha's legendary DSP. 1100W of power, 12-inch woofer with 1.75-inch compression driver. Advanced FIR-X tuning for linear phase response. Lightweight at 38 lbs. Ideal for bands and DJs.",
     desc_es: "Altavoz activo profesional con el legendario DSP de Yamaha. 1100W de potencia, woofer de 12 pulgadas. Tuning FIR-X avanzado. Ideal para bandas y DJs.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://media.sweetwater.com/m/products/image/a45452a155ELQGX8WSNhRwd0U70pxuq37jKMKYcF.jpg?ha=a45452a155b72d2cf9be61c3789210a40c22e552&quality=82&width=750",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/DXR12MKII--yamaha-dxr12mkii-powered-speaker", thomann: "https://www.thomann.co.uk/yamaha_dxr12_mkii.htm", gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXR12mkII-Powered-Loudspeaker/6DM", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
@@ -1565,7 +1565,7 @@ const products = [
     badge: "premium",
     desc: "The ultimate all-in-one column array PA system. 2000W peak power with 12-inch subwoofer and 7-channel digital mixer. 130dB SPL. Bluetooth streaming. Perfect for bands and DJs.",
     desc_es: "El sistema PA column array todo-en-uno definitivo. 2000W con subwoofer de 12 pulgadas y mezclador digital de 7 canales. 130dB SPL. Perfecto para bandas y DJs.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://media.sweetwater.com/m/products/image/e03ddeb29dyG4r4RIqmH1HQ9anm8MBq85wi4ueTy.jpg?quality=82&height=750&ha=e03ddeb29d9fed72",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/PRXONE--jbl-prx-one-active-column-speaker-system", thomann: "https://www.thomann.co.uk/jbl_prx_one.htm", gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/6DM", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
