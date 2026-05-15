@@ -1290,7 +1290,7 @@ const products = [
     desc_es: "El estándar de la industria para inalámbricos asequibles. Sistema de doble canal con cápsulas PG58. Configuración simple con escaneo de frecuencia de un toque. Hasta 14 horas de batería. Rendimiento UHF confiable.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/379902.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/BLX288PG58--shure-blx288-pg58-dual-channel-handheld-wireless-system",
+      sweetwater: "https://www.sweetwater.com/store/detail/BLX288PG58-H10--shure-blx288-pg58-dual-channel-wireless-handheld-microphone-system-h10-band",
       thomann: "https://www.thomann.co.uk/shure_blx288_pg58_h8e.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX288-PG58-H8E-Dual-Wireless-Microphone-System/38GC",
       musikproduktiv: "https://www.musik-produktiv.de/search"
@@ -1364,7 +1364,7 @@ const products = [
     badge: "bestSeller",
     desc: "Professional multi-channel wireless system from AKG. The WMS420 includes the SR420 receiver, HT420 handheld with D5 capsule, and PT420 bodypack transmitter. Exceptional 8-hour battery life from a single AA battery. Detachable antennas for professional accessories. Up to 8 simultaneous channels.",
     desc_es: "Sistema inalámbrico multicanal profesional de AKG. Incluye receptor SR420, transmisor de mano HT420 con cápsula D5 y transmisor de petaca PT420. Excepcional duración de batería de 8 horas con una sola pila AA. Antenas desmontables para accesorios profesionales. Hasta 8 canales simultáneos.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/283773.jpg",
+    img: "https://media.sweetwater.com/m/products/image/64b630817eqPKV1QEf4AKiQgMavL5q7bL25ba59K.jpg?quality=82&width=750&ha=64b630817ed544dd",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/WMS420V-A--akg-wms420-vocal-set-wireless-handheld-microphone-system-band-a",
       thomann: "https://www.thomann.co.uk/akg_wms_40_pro2_vocal_set.htm",
