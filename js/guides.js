@@ -1233,5 +1233,140 @@ const guides = [
     verdict: "Shure BLX288 for value, Sennheiser EW 100 for touring",
     verdict_es: "Shure BLX288 para valor, Sennheiser EW 100 para gira",
     featuredProducts: [91, 92, 93, 94, 95]
+  },
+  {
+    id: "guitar-pedals",
+    title: "Best Guitar Effects Pedals for Every Guitarist (2026)",
+    title_es: "Mejores Pedales de Efectos para Guitarra para Cada Guitarrista (2026)",
+    category: "pedals",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/115066.jpg",
+    badge: "bestSeller",
+    intro: "Pedals are how you shape your sound. After 20+ years of touring and recording, I know which pedals earn their spot on the board. These are the effects I trust most — from essential basics to creative tools.",
+    intro_es: "Los pedales son cómo moldeas tu sonido. Después de 20+ años de giras y grabaciones, sé qué pedales se ganan su lugar en el tablero. Estos son los efectos en los que más confío.",
+    sections: [
+      {
+        heading: "The Essential Overdrive: Ibanez TS9 Tube Screamer",
+        heading_es: "El Overdrive Esencial: Ibanez TS9 Tube Screamer",
+        content: "The Tube Screamer is the most recorded overdrive pedal in history. Its mid-boosted tone pushes any amp into singing overdrive. Use it as a boost, a standalone drive, or a tone shaper. Stevie Ray Vaughan, John Mayer, and thousands of others built their sound around this pedal.",
+        content_es: "El Tube Screamer es el pedal de overdrive más grabado de la historia. Su tono con realzada en medios empuja cualquier amplificador a un overdrive cantarín.",
+        products: [96]
+      },
+      {
+        heading: "Delay & Looping: Boss DD-8",
+        heading_es: "Delay y Loop: Boss DD-8",
+        content: "The DD-8 is the most versatile compact delay ever made. 11 modes cover everything from pristine digital to warm analog and warped tape delay. The 40-second looper is a bonus — perfect for practicing live loops. Built like a tank, sounds like a dream.",
+        content_es: "El DD-8 es el delay compacto más versátil jamás creado. 11 modos cubren todo, desde digital impecable hasta analógico cálido y delay de cinta distorsionado.",
+        products: [97]
+      },
+      {
+        heading: "Stay in Tune: Boss TU-3",
+        heading_es: "Mantén la Afinación: Boss TU-3",
+        content: "Every pedalboard starts with a tuner. The TU-3 is the industry standard for good reason — fast, accurate, and visible even on bright stages. The power output lets you daisy-chain your other pedals. It's the most important pedal you'll ever buy.",
+        content_es: "Todo tablero de pedales empieza con un afinador. El TU-3 es el estándar de la industria por buenas razones — rápido, preciso y visible incluso en escenarios brillantes.",
+        products: [98]
+      },
+      {
+        heading: "The Iconic Wah: Dunlop Crybaby GCB95",
+        heading_es: "El Wah Icónico: Dunlop Crybaby GCB95",
+        content: "No pedalboard is complete without a wah. The Crybaby's sweeping filter is the sound of rock guitar — from Hendrix's psychedelic swoops to Kirk Hammett's searing leads. Simple, expressive, irreplaceable.",
+        content_es: "Ningún tablero está completo sin un wah. El filtro barrido del Crybaby es el sonido de la guitarra rock — desde los barridos psicodélicos de Hendrix hasta los leads ardientes de Kirk Hammett.",
+        products: [99]
+      },
+      {
+        heading: "Reverb for Any Space: TC Hall of Fame 2",
+        heading_es: "Reverb para Cualquier Espacio: TC Hall of Fame 2",
+        content: "Great reverb makes everything sound better. The Hall of Fame 2 delivers studio-quality ambience in a compact pedal. The TonePrint feature lets you download signature sounds from your favorite guitarists. From subtle room to massive cathedral.",
+        content_es: "Un buen reverb hace que todo suene mejor. El Hall of Fame 2 ofrece ambiente de calidad de estudio en un pedal compacto. La función TonePrint te permite descargar sonidos de tus guitarristas favoritos.",
+        products: [100]
+      },
+      {
+        heading: "Classic Modulation: EHX Small Stone",
+        heading_es: "Modulación Clásica: EHX Small Stone",
+        content: "The Small Stone is one of the most beloved phasers ever. One knob controls the rate, and the effect ranges from a subtle swirl to a deep, psychedelic sweep. Heard on Smashing Pumpkins, Nirvana, and countless alternative classics.",
+        content_es: "El Small Stone es uno de los phasers más queridos. Una perilla controla la velocidad, y el efecto va de un remolino sutil a un barrido psicodélico profundo.",
+        products: [101]
+      }
+    ],
+    conclusion: "Start with the Boss TU-3 tuner — every board needs one. Add the Ibanez TS9 for overdrive and the Boss DD-8 for delay. From there, build your sound with wah, reverb, and modulation. These six pedals cover everything from blues to experimental.",
+    conclusion_es: "Empieza con el Boss TU-3 — todo tablero necesita uno. Añade el Ibanez TS9 para overdrive y el Boss DD-8 para delay. Estos seis pedales cubren todo, desde blues hasta experimental.",
+    verdict: "TS9 for overdrive, DD-8 for delay, TU-3 for tuning",
+    verdict_es: "TS9 para overdrive, DD-8 para delay, TU-3 para afinación",
+    featuredProducts: [96, 97, 98, 99, 100, 101]
+  },
+  {
+    id: "acoustic-guitars-guide",
+    title: "Best Acoustic Guitars for Every Player (2026)",
+    title_es: "Mejores Guitarras Acústicas para Cada Músico (2026)",
+    category: "guitars",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/443306.jpg",
+    badge: "bestSeller",
+    intro: "The right acoustic guitar is a lifelong companion. After playing everything from campfire strummers to $10,000 vintage Martins on Broadway and beyond, I know what matters — tone, playability, and build quality at every price point.",
+    intro_es: "La guitarra acústica correcta es una compañera de por vida. Después de tocar todo, desde guitarras de fogata hasta Martins vintage de $10,000, sé lo que importa.",
+    sections: [
+      {
+        heading: "Best Budget Acoustic: Yamaha FG800",
+        heading_es: "Mejor Acústica Económica: Yamaha FG800",
+        content: "The Yamaha FG800 is the best acoustic guitar under $300. Solid spruce top gives it a tone that improves with age. The dreadnought body produces full, balanced sound. It's playable right out of the box — no setup needed. I've recommended this guitar more than any other.",
+        content_es: "La Yamaha FG800 es la mejor guitarra acústica por menos de $300. La tapa sólida de abeto le da un tono que mejora con la edad.",
+        products: [102]
+      },
+      {
+        heading: "Best Dreadnought: Martin D-28",
+        heading_es: "Mejor Dreadnought: Martin D-28",
+        content: "The Martin D-28 is the acoustic guitar that defined recorded music. Solid Sitka spruce and East Indian rosewood deliver rich, complex tone with projection that fills any room. From bluegrass to folk to country, this is the standard. An investment that appreciates over time.",
+        content_es: "La Martin D-28 es la guitarra acústica que definió la música grabada. Abeto Sitka macizo y palo rosa de la India entregan un tono rico y complejo.",
+        products: [104]
+      },
+      {
+        heading: "Best Value: Fender CD-60S",
+        heading_es: "Mejor Valor: Fender CD-60S",
+        content: "The CD-60S is the ideal first acoustic. Solid spruce top with mahogany back and sides delivers warm, balanced tone that's forgiving for beginners. The easy-to-play neck makes learning comfortable. At $219, it's unbeatable for students.",
+        content_es: "La CD-60S es la acústica ideal para principiantes. Tapa sólida de abeto con fondo y aros de caoba ofrece un tono cálido y equilibrado.",
+        products: [68]
+      }
+    ],
+    conclusion: "Start with the Yamaha FG800 — it's the best value in acoustic guitars. The Martin D-28 is the lifetime investment for serious players. And the Fender CD-60S is perfect for beginners or as a travel guitar.",
+    conclusion_es: "Empieza con la Yamaha FG800 — es el mejor valor en guitarras acústicas. La Martin D-28 es la inversión de por vida. Y la Fender CD-60S es perfecta para principiantes.",
+    verdict: "Yamaha FG800 for best value, Martin D-28 for the standard",
+    verdict_es: "Yamaha FG800 para mejor valor, Martin D-28 para el estándar",
+    featuredProducts: [102, 104, 68]
+  },
+  {
+    id: "live-sound-pa",
+    title: "Best PA Systems & Live Sound Gear for Bands (2026)",
+    title_es: "Mejores Sistemas PA y Equipo de Sonido en Vivo para Bandas (2026)",
+    category: "live_sound",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    badge: "bestSeller",
+    intro: "Your PA system is your voice on stage. After running sound for hundreds of shows — from clubs to festivals — I know which gear delivers professional results without breaking the bank. Here are the PA components I trust most.",
+    intro_es: "Tu sistema PA es tu voz en el escenario. Después de manejar el sonido de cientos de shows, sé qué equipo ofrece resultados profesionales sin arruinarte.",
+    sections: [
+      {
+        heading: "Best Budget PA Speaker: EV ZLX-12P",
+        heading_es: "Mejor Altavoz PA Económico: EV ZLX-12P",
+        content: "The ZLX-12P revolutionized affordable PA speakers. 1000W peak power delivers clear, powerful sound that fills medium venues. The built-in DSP includes presets for music, speech, and DJ use. At just 30 lbs, it's easy to transport. The best value in live sound.",
+        content_es: "El ZLX-12P revolucionó los altavoces PA asequibles. 1000W de potencia pico ofrecen sonido claro y potente que llena lugares medianos.",
+        products: [105]
+      },
+      {
+        heading: "Pro Standard: QSC K12.2",
+        heading_es: "Estándar Profesional: QSC K12.2",
+        content: "The K12.2 is the most popular powered speaker in live sound. 2000W of power with deep bass extension and crystal-clear highs. The rugged enclosure handles years of touring. Found in clubs, churches, and concert halls worldwide. This is the pro standard.",
+        content_es: "El K12.2 es el altavoz activo más popular en sonido en vivo. 2000W de potencia con extensión de graves profunda y aguas cristalinas.",
+        products: [106]
+      },
+      {
+        heading: "Essential Vocal Mic: Shure SM58",
+        heading_es: "Micrófono Vocal Esencial: Shure SM58",
+        content: "No PA system is complete without an SM58. The most reliable, best-sounding live vocal microphone ever made. Cardioid pattern rejects stage noise. Built-in pop filter and indestructible construction. Every venue in the world has at least one.",
+        content_es: "Ningún sistema PA está completo sin un SM58. El micrófono vocal en vivo más confiable y mejor sonido jamás creado. Cada venue del mundo tiene al menos uno.",
+        products: [50]
+      }
+    ],
+    conclusion: "Start with a pair of EV ZLX-12P speakers and an SM58. For larger venues, step up to the QSC K12.2. The SM58 remains the vocal standard for a reason — invest in one, it will last a lifetime.",
+    conclusion_es: "Empieza con un par de EV ZLX-12P y un SM58. Para lugares más grandes, sube al QSC K12.2. El SM58 sigue siendo el estándar vocal por una razón.",
+    verdict: "EV ZLX-12P for budget, QSC K12.2 for pro",
+    verdict_es: "EV ZLX-12P para presupuesto, QSC K12.2 para profesional",
+    featuredProducts: [105, 106, 50]
   }
 ];
