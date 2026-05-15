@@ -1509,7 +1509,7 @@ const products = [
     badge: "bestSeller",
     desc: "Professional powered PA speaker. 1000W peak power, 12-inch woofer with titanium tweeter. Lightweight design at just 30 lbs. Built-in DSP with presets for any application.",
     desc_es: "Altavoz PA activo profesional. 1000W de potencia pico, woofer de 12 pulgadas con tweeter de titanio. Diseño ligero de solo 13.6 kg. DSP incorporado con preajustes.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://media.sweetwater.com/m/products/image/1f3676cd0e8h4xfV5bCjFOUlRmMQYLNUuUuBekaI.wm-dh.jpg?quality=82&height=750&ha=1f3676cd0e0bca53",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/ZLX12P--electro-voice-zlx-12p-powered-speaker", thomann: "https://www.thomann.co.uk/ev_zlx_12p.htm", gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-Powered-Speaker/6ZK", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
