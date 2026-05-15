@@ -1291,7 +1291,7 @@ const products = [
     img: "https://media.sweetwater.com/m/products/image/217e4fcc44g0No4jjGRA9c2Sz3TG7D6Pi30vjKLN.jpg?ha=217e4fcc440eb90bd7395f6c054e18fc0ed14ef2&quality=82&width=750",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/BLX288PG58-H10--shure-blx288-pg58-dual-channel-wireless-handheld-microphone-system-h10-band",
-      thomann: "https://www.thomann.co.uk/shure_blx288_pg58_h8e.htm",
+      thomann: "https://www.thomann.co.uk/shure_blx288_pg58_combo_h8e.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX288-PG58-H8E-Dual-Wireless-Microphone-System/38GC",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
@@ -1310,7 +1310,7 @@ const products = [
     img: "https://www.simplysoundandlighting.co.uk/cdn/shop/files/01850fac-7d3e-4c6d-bff4-48371db65f7f.jpg?v=1688089260",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/EW100G4935S--sennheiser-ew-100-g4-935-s-handheld-wireless-system",
-      thomann: "https://www.thomann.co.uk/sennheiser_ew_100_g4_935_s.htm",
+      thomann: "https://www.thomann.co.uk/search.html?sw=sennheiser+ew+100+g4+935",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-935-S-Wireless-Vocal-Microphone-System/62BX",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
@@ -1329,7 +1329,7 @@ const products = [
     img: "https://stagesupply.co.uk/wp-content/uploads/2026/01/SHUULXD2SM58K51_Shure_ULXD2SM58-K51_Image_1.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ULXD2SM58--shure-ulxd24-sm58-digital-wireless-handheld-system",
-      thomann: "https://www.thomann.co.uk/shure_ulxd24_sm58_j50.htm",
+      thomann: "https://www.thomann.co.uk/search.html?sw=shure+ulxd24+sm58",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-ULXD24-SM58-J50-Digital-Wireless-Microphone-System/5E80",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
@@ -1348,7 +1348,7 @@ const products = [
     img: "https://media.sweetwater.com/m/products/image/3453a6960fGNfgVsy5mCWAU7kgzJhtz3TzXuM7wD.jpg?quality=82&width=750&ha=3453a6960ff656b1",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/XSW2825--sennheiser-xsw-2-825-handheld-wireless-system",
-      thomann: "https://www.thomann.co.uk/sennheiser_xsw_2_825_ae.htm",
+      thomann: "https://www.thomann.co.uk/search.html?sw=sennheiser+xsw+2+825",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-XSW-2-825-AE-Wireless-Vocal-Microphone-System/6918",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
@@ -1367,7 +1367,7 @@ const products = [
     img: "https://media.sweetwater.com/m/products/image/64b630817eqPKV1QEf4AKiQgMavL5q7bL25ba59K.jpg?quality=82&width=750&ha=64b630817ed544dd",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/WMS420V-A--akg-wms420-vocal-set-wireless-handheld-microphone-system-band-a",
-      thomann: "https://www.thomann.co.uk/akg_wms_40_pro2_vocal_set.htm",
+      thomann: "https://www.thomann.co.uk/search.html?sw=akg+wms420",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-WMS40-Pro2-Vocal-Set/IAX",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
