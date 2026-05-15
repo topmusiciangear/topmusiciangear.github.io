@@ -1388,7 +1388,7 @@ const guides = [
     title: "Best DAW Software for Music Production (2026)",
     title_es: "Mejor Software DAW para Producción Musical (2026)",
     category: "daw",
-    image: "https://media.sweetwater.com/m/products/image/6c9d9ecdf8KxbYZ66Y2FbzDnGWRM90iaN4Xlc84X.jpg?quality=82&height=750&ha=6c9d9ecdf885f2f5",
+    image: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/32956/143300/89145-Ableton_Live_12_Suite__07771.1741689653.jpg?c=1",
     badge: "premium",
     intro: "Your DAW is the heart of your studio. After 20+ years producing music — from bedroom beats to Broadway — I've used them all. Here are the DAWs I recommend based on what you actually need, not what the marketing says.",
     intro_es: "Tu DAW es el corazón de tu estudio. Después de 20+ años produciendo música, los he usado todos. Estos son los DAWs que recomiendo según lo que realmente necesitas.",

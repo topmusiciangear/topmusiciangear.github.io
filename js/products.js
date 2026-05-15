@@ -1579,7 +1579,7 @@ const products = [
     badge: "premium",
     desc: "The industry standard for electronic music production and live performance. Warp engine, Max for Live integration, advanced MIDI editing. Unmatched workflow for beat-making, recording, and DJing. Used by pros worldwide from studio to stage.",
     desc_es: "El estándar de la industria para producción de música electrónica y performance en vivo. Motor warp, integración Max for Live. Flujo de trabajo inigualable.",
-    img: "https://media.sweetwater.com/m/products/image/6c9d9ecdf8KxbYZ66Y2FbzDnGWRM90iaN4Xlc84X.jpg?quality=82&height=750&ha=6c9d9ecdf885f2f5",
+    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/32956/143300/89145-Ableton_Live_12_Suite__07771.1741689653.jpg?c=1",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/Live12Suite--ableton-live-12-suite-music-production-software", thomann: "https://www.thomann.co.uk/ableton_live_12_suite.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search", andertons: "https://www.andertons.co.uk/ableton-live-12-suite-upg-from-live-111-standard/" }
   },
   {
