@@ -1635,7 +1635,7 @@ const products = [
     badge: "topQuality",
     desc: "The complete music production system. Powerful MIDI editing, VariAudio pitch correction, advanced scoring and notation. MixConsole for professional mixing. Trusted by composers and producers.",
     desc_es: "El sistema completo de producción musical. Edición MIDI potente, corrección de tono VariAudio, notación avanzada. Confiado por compositores y productores.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/2289/8194/CUBASE13ED-Cubase_Pro_13_Logo__08039.1714742077.jpg?c=1",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/CubasePro13--steinberg-cubase-pro-13-music-production-software", thomann: "https://www.thomann.co.uk/steinberg_cubase_pro_13.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Steinberg-Cubase-Pro-13/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
