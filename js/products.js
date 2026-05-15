@@ -1453,7 +1453,7 @@ const products = [
     badge: "legend",
     desc: "The classic phaser pedal. Rich, swirling phase tones from subtle movement to dramatic sweeps. Used on countless records. Simple controls, legendary sound.",
     desc_es: "El pedal phaser clásico. Tonos de fase ricos y giratorios desde movimiento sutil hasta barridos dramáticos. Usado en innumerables discos.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/101850.jpg",
+    img: "https://media.sweetwater.com/m/products/image/b143a7a866hP6EfKFhyV1kKLtVqsldw8M4Ny9ag6.jpg?quality=82&height=750&ha=b143a7a8662a7a47",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/SmallStone--electro-harmonix-small-stone-phase-shifter-pedal", thomann: "https://www.thomann.co.uk/electro_harmonix_small_stone.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Phase-Shifter-Pedal/1SQ", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
