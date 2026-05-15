@@ -1546,7 +1546,7 @@ const categoryInfo = {
   microphones: { name: "Microphones", icon: '<i class="fa-solid fa-microphone"></i>', desc: "Capture every nuance with the best microphones for studio, broadcast, and stage." },
   guitars: { name: "Guitars & Basses", icon: '<i class="fa-solid fa-guitar"></i>', desc: "From strats to acoustics, find your perfect axe." },
   amps: { name: "Amps", icon: '<i class="fa-solid fa-volume-high"></i>', desc: "Guitar and bass amplifiers for stage and studio." },
-  pedals: { name: "Pedals", icon: '<i class="fa-solid fa-circle-nodes"></i>', desc: "Guitar effects pedals for every style and budget." },
+  pedals: { name: "Pedals", icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="12" rx="3"/><circle cx="8" cy="13" r="1.2" fill="currentColor"/><circle cx="12" cy="13" r="1.2" fill="currentColor"/><circle cx="16" cy="13" r="1.2" fill="currentColor"/><path d="M6 7V4h12v3"/></svg>', desc: "Guitar effects pedals for every style and budget." },
   live_sound: { name: "Live Sound", icon: '<i class="fa-solid fa-bullhorn"></i>', desc: "PA systems, mixers, and live audio gear for stages." },
   strings: { name: "Strings", icon: '<i class="fa-solid fa-guitar"></i>', desc: "Guitars, basses, and everything with strings." },
   keyboards: { name: "Keyboards", icon: '<i class="fa-solid fa-keyboard"></i>', desc: "Pianos, synths, and controllers for every player." },
