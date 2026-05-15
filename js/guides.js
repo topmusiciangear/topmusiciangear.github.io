@@ -312,8 +312,8 @@ const guides = [
         products: [32]
       },
     ],
-    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. These three cover everything from surgical mixing to experimental sound design. I use at least one of them in every session.",
-    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Estos tres cubren todo, desde mezcla quirúrgica hasta diseño de sonido experimental. Uso al menos uno de ellos en cada sesión.",
+    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. These three cover everything from surgical mixing to experimental sound design.",
+    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Estos tres cubren todo, desde mezcla quirúrgica hasta diseño de sonido experimental.",
     verdict: "FabFilter Total Bundle if you can only buy one",
     verdict_es: "FabFilter Total Bundle si solo puedes comprar uno",
     featuredProducts: [29, 30, 32]
