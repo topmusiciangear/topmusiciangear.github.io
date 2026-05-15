@@ -1593,7 +1593,7 @@ const products = [
     badge: "topQuality",
     desc: "Apple's professional DAW for Mac. Comprehensive recording, MIDI sequencing, and mixing. Includes Alchemy synth, Drum Kit Designer, and producer packs. Best value pro DAW at $199 with lifetime updates.",
     desc_es: "El DAW profesional de Apple para Mac. Grabación completa, secuenciación MIDI y mezcla. Incluye sintetizador Alchemy y packs de producción.",
-    img: "https://media.sweetwater.com/m/products/image/6c9d9ecdf8KxbYZ66Y2FbzDnGWRM90iaN4Xlc84X.jpg?quality=82&height=750&ha=6c9d9ecdf885f2f5",
+    img: "https://rvb-img.reverb.com/i/s--SbW3E7b---/quality=medium-low,height=800,width=800,fit=contain/065c47d5-d731-4929-99d3-050db69a6dae.jpg",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/LogicPro--apple-logic-pro-music-production-software", thomann: "https://www.thomann.co.uk/apple_logic_pro.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Apple-Logic-Pro/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
@@ -1607,7 +1607,7 @@ const products = [
     badge: "bestSeller",
     desc: "The beat-maker's choice. Pattern-based workflow, intuitive piano roll, and lifetime free updates. Includes synths, samplers, and effects. Used by hip-hop, EDM, and pop producers worldwide.",
     desc_es: "La elección de los creadores de beats. Flujo de trabajo basado en patrones, piano roll intuitivo y actualizaciones gratuitas de por vida.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://rvb-img.reverb.com/i/s--CMEj8Em6--/quality=medium-low,height=800,width=800,fit=contain/l9catbr2tinjd0xh0jel.jpg",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/FLStudioPro--image-line-fl-studio-producer-edition", thomann: "https://www.thomann.co.uk/image_line_fl_studio_producer_edition.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/FL-Studio-Producer-Edition/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
@@ -1621,7 +1621,7 @@ const products = [
     badge: "premium",
     desc: "The recording industry standard. Used in professional studios worldwide for tracking, editing, and mixing. Advanced MIDI, surround sound up to 7.1, and collaboration features. Essential for audio post-production.",
     desc_es: "El estándar de la industria de grabación. Usado en estudios profesionales mundialmente para tracking, edición y mezcla. Esencial para post-producción de audio.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/2437/8698/360442-96514-Prp-Tools-w-Annual-Upgrade-Plan_3D__82902.1772123168.jpg?c=1",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/PTStudio--avid-pro-tools-studio-annual-subscription", thomann: "https://www.thomann.co.uk/avid_pro_tools_studio.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Avid-Pro-Tools-Studio/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
