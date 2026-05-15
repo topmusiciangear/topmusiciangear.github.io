@@ -1345,7 +1345,7 @@ const products = [
     badge: "recommended",
     desc: "Entry-level professional wireless from Sennheiser. Automatic frequency management and pairing. e825 capsule with clear vocal sound. 10-hour battery life. Perfect for small venues and houses of worship.",
     desc_es: "Inalámbrico profesional nivel básico de Sennheiser. Gestión automática de frecuencia. Cápsula e825 con sonido vocal claro. 10 horas de batería. Perfecto para lugares pequeños e iglesias.",
-    img: "https://media.sweetwater.com/m/products/image/217e4fcc44g0No4jjGRA9c2Sz3TG7D6Pi30vjKLN.jpg?ha=217e4fcc440eb90bd7395f6c054e18fc0ed14ef2&quality=82&width=750",
+    img: "https://media.sweetwater.com/m/products/image/3453a6960fGNfgVsy5mCWAU7kgzJhtz3TzXuM7wD.jpg?quality=82&width=750&ha=3453a6960ff656b1",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/XSW2825--sennheiser-xsw-2-825-handheld-wireless-system",
       thomann: "https://www.thomann.co.uk/sennheiser_xsw_2_825_ae.htm",
