@@ -712,7 +712,7 @@ const products = [
     desc_es: "La plataforma de sampler líder mundial. Kontakt 8 con nuevo navegador, módulo wavetable, herramientas MIDI y más de 900 instrumentos. El estándar de la industria para instrumentos sampleados.",
     img: "img/kontakt8.jpg",
     stores: {
-      pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8",
+      pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13633-Kontakt-8?a_aid=6a01e859cbe1a",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI",
 
       musikproduktiv: "https://www.musik-produktiv.de/search",
@@ -733,7 +733,7 @@ const products = [
     img: "img/fabfilter-total.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
-      pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle",
+      pluginboutique: "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle?a_aid=6a01e859cbe1a",
       thomann: "https://www.thomann.co.uk/fabfilter_total_bundle.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP",
 
@@ -754,7 +754,7 @@ const products = [
     img: "img/ozone12.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Ozone12Ad--izotope-ozone-12-advanced-mastering-software-suite",
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15503-Ozone-12-Advanced",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15503-Ozone-12-Advanced?a_aid=6a01e859cbe1a",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5",
 
       musikproduktiv: "https://www.musik-produktiv.de/search"
@@ -774,7 +774,7 @@ const products = [
     img: "img/soundtoys5.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Soundtoys5--soundtoys-5-plug-in-bundle-download",
-      pluginboutique: "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5",
+      pluginboutique: "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5?a_aid=6a01e859cbe1a",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S",
 
       musikproduktiv: "https://www.musik-produktiv.de/search"
