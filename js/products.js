@@ -1383,7 +1383,7 @@ const products = [
     badge: "legend",
     desc: "The most famous overdrive pedal ever made. From blues to rock, the Tube Screamer's mid-boosted growl has shaped guitar tone for decades. Used by SRV, John Mayer, and countless others.",
     desc_es: "El pedal de overdrive más famoso jamás creado. Del blues al rock, el growl con medios realzados ha moldeado el tono de la guitarra por décadas.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/115066.jpg",
+    img: "https://media.sweetwater.com/m/products/image/29a2414665T6pyenFpcASI7sBWwbVbS9ucJiSa6v.jpg?quality=82&height=750&ha=29a2414665765b37",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/TS9--ibanez-ts9-tube-screamer-overdrive-pedal", thomann: "https://www.thomann.co.uk/ibanez_ts9_tube_screamer.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer-Overdrive-Pedal/1W2", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
