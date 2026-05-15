@@ -406,7 +406,7 @@ const guides = [
     title: "Best Budget Microphones Under $200 (2026)",
     title_es: "Mejores Micrófonos Económicos Menos de $200 (2026)",
     category: "microphones",
-    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&h=400&fit=crop",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/235937.jpg",
     badge: "recommended",
     intro: "You don't need to spend a fortune to get professional sound. Some of the most iconic recordings in history were made with microphones that cost under $200. I've used these mics in world-class studios and sweaty clubs alike — here are the two budget workhorses that consistently deliver above their price tag.",
     intro_es: "No necesitas gastar una fortuna para obtener sonido profesional. Algunas de las grabaciones más icónicas de la historia se hicieron con micrófonos que cuestan menos de $200. He usado estos micrófonos tanto en estudios de clase mundial como en clubes sudorosos — aquí están los dos caballos de batalla económicos que consistentemente rinden por encima de su precio.",
