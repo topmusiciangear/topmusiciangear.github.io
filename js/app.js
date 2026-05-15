@@ -138,8 +138,14 @@ function getResolvedStores(product) {
   });
   if (product.category !== 'plugins' && product.category !== 'tres') {
     s.amazon = `https://www.amazon.co.uk/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
-    if (product.stores.amazon && product.stores.amazon.includes('/dp/')) {
-      s.amazon = product.stores.amazon.replace('https://www.amazon.com/', 'https://www.amazon.co.uk/') + '?tag=topmusicg-20';
+    s.amazon_us = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
+    if (product.stores.amazon) {
+      if (product.stores.amazon.includes('/dp/')) {
+        s.amazon = product.stores.amazon.replace('https://www.amazon.com/', 'https://www.amazon.co.uk/') + '?tag=topmusicg-20';
+        s.amazon_us = product.stores.amazon.includes('?') ? product.stores.amazon + '&tag=topmusicg-20' : product.stores.amazon + '?tag=topmusicg-20';
+      } else if (product.stores.amazon.includes('amazon.co.uk')) {
+        s.amazon = product.stores.amazon + (product.stores.amazon.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
+      }
     }
     if (product.stores.reverb) {
       s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&p=${encodeURIComponent(product.stores.reverb)}`;
@@ -190,6 +196,10 @@ function renderGuideGrid() {
   currentGuideId = null;
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "";
+  const hero = document.getElementById("hero");
+  if (hero) hero.style.display = "";
+  const schemaEl = document.getElementById("productSchemas");
+  if (schemaEl) schemaEl.remove();
   const grid = document.getElementById("guideGrid");
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
@@ -250,6 +260,8 @@ function renderGuideDetail(id) {
   if (sortBar) sortBar.style.display = "none";
   const sectionHeader = document.querySelector("#guides .section-header");
   if (sectionHeader) sectionHeader.style.display = "none";
+  const hero = document.getElementById("hero");
+  if (hero) hero.style.display = "none";
 
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
@@ -268,6 +280,13 @@ function renderGuideDetail(id) {
 
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
   const allProductsHtml = allProductIds.map(id => renderProductCard(id)).join("");
+  const productSchemas = allProductIds.map(id => {
+    const p = products.find(x => x.id === id);
+    if (!p) return "";
+    const name = currentLang === 'es' && p.title_es ? p.title_es : p.title;
+    const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
+    return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"${name.replace(/"/g,'\\"')}","description":"${desc.replace(/"/g,'\\"').replace(/\n/g,' ')}","image":"${p.img}","offers":{"@type":"Offer","price":${p.price},"priceCurrency":"USD","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":${p.rating},"reviewCount":${p.reviews}}}</` + `script>`;
+  }).join("");
 
 
   grid.innerHTML = `
@@ -293,6 +312,12 @@ function renderGuideDetail(id) {
       <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
+  const existingSchemas = document.getElementById("productSchemas");
+  if (existingSchemas) existingSchemas.remove();
+  const schemaWrapper = document.createElement("div");
+  schemaWrapper.id = "productSchemas";
+  schemaWrapper.innerHTML = productSchemas;
+  grid.appendChild(schemaWrapper);
   const btn1 = document.getElementById("guideBackBtn1");
   if (btn1) btn1.addEventListener("click", () => {
     history.pushState({}, '', '/');
