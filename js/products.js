@@ -1190,7 +1190,7 @@ const products = [
     desc_es: "El amplificador de modelado mÃ¡s vendido del mundo. 50 vatios de potencia con cinco voces de amplificador â€” clean, crunch, lead, brown y acÃºstico. Efectos incorporados incluyendo delay, reverb, chorus y mÃ¡s. El Katana 50 es el amplificador definitivo para prÃ¡ctica y pequeÃ±os conciertos para guitarristas que quieren versatilidad sin complejidad ni costo.",
     img: "img/boss-katana.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/search?s=boss+katana+50+mkii",
+      sweetwater: "https://www.sweetwater.com/store/detail/Kata50mk2--boss-katana-50-mk2-50-25-0.5-watt-1x12-inch-cosm-combo-amp",
       thomann: "https://www.thomann.co.uk/boss_katana_50_mkii.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-Katana-50-MkII-Guitar-Combo-Amp/5GMG",
       musikproduktiv: "https://www.musik-produktiv.de/search"
@@ -1210,7 +1210,7 @@ const products = [
     img: "https://www.voxamps.co.uk/cdn/shop/files/AC30C2-Front-Flat-No-Shadow-White-BG.jpg?v=1692886042&width=800",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/AC30C2X--vox-ac30-custom-30-watt-2x12-tube-combo-amp",
-      thomann: "https://www.thomann.co.uk/search.html?sw=vox%20ac30",
+      thomann: "https://www.thomann.co.uk/vox_ac30_c2_gitarrencombo.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-2x12-Tube-Combo-Amp/2PO",
       musikproduktiv: "https://www.musik-produktiv.de/search",
       baxmusic: "https://www.bax-shop.co.uk/complete-assortment?keyword=Vox%20AC30"
@@ -1230,10 +1230,10 @@ const products = [
     img: "img/marshall-dsl40.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/DSL40CR--marshall-dsl40cr-40-watt-1x12-tube-combo-amp",
-      thomann: "https://www.thomann.co.uk/search.html?sw=marshall%20dsl40cr",
+      thomann: "https://www.thomann.co.uk/marshall_dsl40cr.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40-Watt-Combo-Amp/3Y2X",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      baxmusic: "https://www.bax-shop.co.uk/complete-assortment?keyword=Marshall%20DSL40CR"
+      baxmusic: "https://www.bax-shop.co.uk/combo-amp/marshall-dsl40cr-tube-combo-guitar-amp"
     }
   },
   {
@@ -1249,7 +1249,7 @@ const products = [
     desc_es: "El amplificador de bajo que definiÃ³ el rock and roll. 500 vatios de potencia Clase D en un cabezal ligero y portÃ¡til. Legendario tono Ampeg con EQ de 3 bandas, selector de frecuencia ultra-media y compresor incorporado. El PF-500 entrega ese retumbante extremo grave que impulsÃ³ Motown, el rock y la mÃºsica latina durante dÃ©cadas. CombÃ­nalo con cualquier gabinete para obtener un tono de bajo clÃ¡sico instantÃ¡neo.",
     img: "https://muzikercdn.com/uploads/product_gallery/1100/110065/thumb_large_d_gallery_base_7a8a60c3.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/search?s=ampeg+pf-500+portaflex",
+      sweetwater: "https://www.sweetwater.com/store/detail/PF500BH--ampeg-pf-500-500-watt-portaflex-bass-head",
       thomann: "https://www.thomann.co.uk/ampeg_pf_500_portaflex.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ampeg-PF-500-Portaflex-500W-Bass-Amp-Head/4GKK",
       musikproduktiv: "https://www.musik-produktiv.de/search"
@@ -1272,7 +1272,7 @@ const products = [
       thomann: "https://www.thomann.co.uk/fender_rumble_500.htm",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      fender: "https://uk.fender.com/search?q=Fender+Rumble+500+V3"
+      fender: "https://uk.fender.com/products/rumble-500"
     }
   },
   {
@@ -1365,7 +1365,7 @@ const products = [
     img: "https://media.sweetwater.com/m/products/image/64b630817eqPKV1QEf4AKiQgMavL5q7bL25ba59K.jpg?quality=82&width=750&ha=64b630817ed544dd",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/WMS420V-A--akg-wms420-vocal-set-wireless-handheld-microphone-system-band-a",
-      thomann: "https://www.thomann.co.uk/search.html?sw=akg+wms420",
+      thomann: "https://www.thomann.co.uk/akg_wms_420_vocal_set_band_m.htm",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-WMS40-Pro2-Vocal-Set/IAX",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
