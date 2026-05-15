@@ -1336,7 +1336,7 @@ const guides = [
     title: "Best PA Systems & Live Sound Gear for Bands (2026)",
     title_es: "Mejores Sistemas PA y Equipo de Sonido en Vivo para Bandas (2026)",
     category: "live_sound",
-    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
+    image: "https://media.sweetwater.com/m/products/image/845fb136f35ZiI3AQAhenlpHooA67GUR8S9yfuAW.png?quality=82&height=750&ha=845fb136f3f42723",
     badge: "bestSeller",
     intro: "Your PA system is your voice on stage. After performing hundreds of shows — from clubs to festivals — I know which gear delivers professional results without breaking the bank. Here are the PA components I trust most.",
     intro_es: "Tu sistema PA es tu voz en el escenario. Después de tocar cientos de shows — desde clubes hasta festivales — sé qué equipo ofrece resultados profesionales sin arruinarte.",
