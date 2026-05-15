@@ -59,7 +59,7 @@ const products = [
       gear4music: "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK",
 
       musikproduktiv: "https://www.musik-produktiv.de/search",
-      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-signature-series-black-large-diaphragm-condenser-microphone"
+      baxmusic: "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-a-studio-microphone-set-with-fishing-pole-stand"
     }
   },
   {
@@ -413,21 +413,20 @@ const products = [
   },
   {
     id: 18,
-    title: "SSL 2+",
-    title_es: "SSL 2+",
+    title: "SSL 2+ MKII",
+    title_es: "SSL 2+ MKII",
     category: "interfaces",
     price: 299,
     rating: 4.7,
     reviews: 8901,
     badge: "recommended",
-    desc: "Solid State Logic in an interface. Legendary SSL 4K preamps, Legacy 4K analogue channel strip, and professional monitoring features.",
-    desc_es: "Solid State Logic en una interfaz. Legendarios preamplificadores SSL 4K, channel strip analÃ³gico Legacy 4K y funciones profesionales de monitoreo.",
+    desc: "Solid State Logic in an interface. Legendary SSL 4K preamps, Legacy 4K analogue channel strip, and professional monitoring features. Updated MKII with 32-bit/192kHz converters.",
+    desc_es: "Solid State Logic en una interfaz. Legendarios preamplificadores SSL 4K, channel strip analÃ³gico Legacy 4K y funciones profesionales de monitoreo. MKII actualizado con convertidores 32-bit/192kHz.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/601306.jpg",
     stores: {
-      sweetwater: "https://www.sweetwater.com/store/detail/SSL2Plus--solid-state-logic-ssl2-usb-audio-interface",
+      sweetwater: "https://www.sweetwater.com/store/detail/SSL2Pmk2--solid-state-logic-ssl-2-mkii-2-by-4-usb-c-audio-interface",
       thomann: "https://www.thomann.co.uk/ssl_2_mkii_601306.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
-
       musikproduktiv: "https://www.musik-produktiv.de/search",
       baxmusic: "https://www.bax-shop.co.uk/external-audio-interfaces/solid-state-logic-ssl-2-mkii-audio-interface"
     }
@@ -516,21 +515,20 @@ const products = [
   },
   {
     id: 20,
-    title: "KRK Rokit 7 G4",
-    title_es: "KRK Rokit 7 G4",
+    title: "KRK Rokit 7 G5",
+    title_es: "KRK Rokit 7 G5",
     category: "monitors",
     price: 498,
     rating: 4.5,
     reviews: 18907,
     badge: "recommended",
-    desc: "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port ideal for smaller studios.",
-    desc_es: "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal ideal para estudios pequeÃ±os.",
+    desc: "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port. G5 features 32-bit processing and enhanced room correction.",
+    desc_es: "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal. G5 con procesamiento 32-bit y correcciÃ³n de sala mejorada.",
     img: "img/krk-rokit7.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
-      thomann: "https://www.thomann.co.uk/krk_rokit_rp7_g5_stand_bundle.htm",
+      thomann: "https://www.thomann.co.uk/krk_rokit_rp7_g5.htm",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW",
-
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },

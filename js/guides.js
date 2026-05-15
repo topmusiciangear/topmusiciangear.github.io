@@ -12,8 +12,8 @@ const guides = [
       {
         heading: "Start Here: The Audio Interface",
         heading_es: "Empieza Aquí: La Interfaz de Audio",
-        content: "Your interface is the command center. It converts your microphone and instrument signals into digital audio your computer can work with. For a starter studio, you want something reliable, low-latency, and easy to use. I've personally used the Focusrite Scarlett 2i2 for years — it's the best-selling interface on the planet for good reason. Clean preamps, solid build, and it just works. If you want a bit more character, the SSL 2+ brings that legendary British console sound to your home studio for not much more.",
-        content_es: "Tu interfaz es el centro de comando. Convierte las señales de tu micrófono e instrumentos en audio digital con el que tu computadora puede trabajar. Para un estudio inicial, necesitas algo confiable, de baja latencia y fácil de usar. He usado personalmente la Focusrite Scarlett 2i2 durante años — es la interfaz más vendida del planeta por buenas razones. Preamplificadores limpios, construcción sólida, y simplemente funciona. Si quieres un poco más de carácter, la SSL 2+ trae ese legendario sonido de consola británica a tu home studio por no mucho más.",
+        content: "Your interface is the command center. It converts your microphone and instrument signals into digital audio your computer can work with. For a starter studio, you want something reliable, low-latency, and easy to use. I've personally used the Focusrite Scarlett 2i2 for years — it's the best-selling interface on the planet for good reason. Clean preamps, solid build, and it just works. If you want a bit more character, the SSL 2+ MKII brings that legendary British console sound to your home studio for not much more.",
+        content_es: "Tu interfaz es el centro de comando. Convierte las señales de tu micrófono e instrumentos en audio digital con el que tu computadora puede trabajar. Para un estudio inicial, necesitas algo confiable, de baja latencia y fácil de usar. He usado personalmente la Focusrite Scarlett 2i2 durante años — es la interfaz más vendida del planeta por buenas razones. Preamplificadores limpios, construcción sólida, y simplemente funciona. Si quieres un poco más de carácter, la SSL 2+ MKII trae ese legendario sonido de consola británica a tu home studio por no mucho más.",
         products: [15, 18]
       },
       {
@@ -62,10 +62,10 @@ const guides = [
         products: [15]
       },
       {
-        heading: "Best Character: SSL 2+",
-        heading_es: "Mejor Carácter: SSL 2+",
-        content: "SSL made their name with the world's best console preamps. The SSL 2+ gives you that same 4K Legacy channel strip — a switchable analogue EQ that adds presence and punch. The vocals sit in the mix with zero effort. The built-in talkback mic is a bonus for directing sessions.",
-        content_es: "SSL se hizo un nombre con los mejores preamplificadores de consola del mundo. La SSL 2+ te da ese mismo channel strip 4K Legacy — un ecualizador analógico conmutable que añade presencia y pegada. La usé en una sesión reciente y las voces se asentaron en la mezcla sin esfuerzo. El micrófono talkback incorporado es un extra para dirigir sesiones.",
+        heading: "Best Character: SSL 2+ MKII",
+        heading_es: "Mejor Carácter: SSL 2+ MKII",
+        content: "SSL made their name with the world's best console preamps. The SSL 2+ MKII gives you that same 4K Legacy channel strip — a switchable analogue EQ that adds presence and punch. The vocals sit in the mix with zero effort. The built-in talkback mic is a bonus for directing sessions.",
+        content_es: "SSL se hizo un nombre con los mejores preamplificadores de consola del mundo. La SSL 2+ MKII te da ese mismo channel strip 4K Legacy — un ecualizador analógico conmutable que añade presencia y pegada. La usé en una sesión reciente y las voces se asentaron en la mezcla sin esfuerzo. El micrófono talkback incorporado es un extra para dirigir sesiones.",
         products: [18]
       },
       {
@@ -104,8 +104,8 @@ const guides = [
         products: [55]
       }
     ],
-    conclusion: "Buy the Scarlett 2i2 if you're starting out. Get the SSL 2+ if you want character. Invest in the Apollo Twin X if you're ready to go pro. And if portability is your priority, the Babyface Pro FS is unbeatable. You can't go wrong with any of these — I've used them all professionally.",
-    conclusion_es: "Compra la Scarlett 2i2 si estás empezando. Consigue la SSL 2+ si quieres carácter. Invierte en la Apollo Twin X si estás listo para ir a nivel profesional. Y si la portabilidad es tu prioridad, la Babyface Pro FS es inmejorable. No puedes equivocarte con ninguna de estas — las he usado todas profesionalmente.",
+    conclusion: "Buy the Scarlett 2i2 if you're starting out. Get the SSL 2+ MKII if you want character. Invest in the Apollo Twin X if you're ready to go pro. And if portability is your priority, the Babyface Pro FS is unbeatable. You can't go wrong with any of these — I've used them all professionally.",
+    conclusion_es: "Compra la Scarlett 2i2 si estás empezando. Consigue la SSL 2+ MKII si quieres carácter. Invierte en la Apollo Twin X si estás listo para ir a nivel profesional. Y si la portabilidad es tu prioridad, la Babyface Pro FS es inmejorable. No puedes equivocarte con ninguna de estas — las he usado todas profesionalmente.",
     verdict: "Scarlett 2i2 for budget, Apollo Twin X for pro",
     verdict_es: "Scarlett 2i2 para presupuesto, Apollo Twin X para profesional",
     featuredProducts: [15, 18, 16, 17]
@@ -253,10 +253,10 @@ const guides = [
     intro_es: "Tus monitores son la ventana a tu mezcla. Los malos monitores esconden problemas. Los buenos monitores los revelan. Aquí están los tres pares de menos de $1,000 en los que más confío.",
     sections: [
       {
-        heading: "Best Budget: KRK Rokit 7 G4",
-        heading_es: "Mejor Económico: KRK Rokit 7 G4",
-        content: "The Rokit 7 G4 is everywhere for a reason. Kevlar drivers deliver clear mids, the front-firing bass port works well in small rooms, and the DSP-driven EQ lets you tune the speakers to your space. The bass response is generous — learn how it translates and you'll make consistently good mixes. I recommend these for bedroom producers and home studios.",
-        content_es: "El Rokit 7 G4 está en todas partes por una razón. Los drivers de Kevlar ofrecen medios claros, el puerto de graves frontal funciona bien en habitaciones pequeñas, y el ecualizador DSP te permite ajustar los altavoces a tu espacio. La respuesta de graves es generosa — aprende cómo se traduce y harás mezclas consistentemente buenas. Los recomiendo para productores de dormitorio y home studios.",
+        heading: "Best Budget: KRK Rokit 7 G5",
+        heading_es: "Mejor Económico: KRK Rokit 7 G5",
+        content: "The Rokit 7 G5 is everywhere for a reason. Kevlar drivers deliver clear mids, the front-firing bass port works well in small rooms, and the DSP-driven EQ lets you tune the speakers to your space. The bass response is generous — learn how it translates and you'll make consistently good mixes. I recommend these for bedroom producers and home studios.",
+        content_es: "El Rokit 7 G5 está en todas partes por una razón. Los drivers de Kevlar ofrecen medios claros, el puerto de graves frontal funciona bien en habitaciones pequeñas, y el ecualizador DSP te permite ajustar los altavoces a tu espacio. La respuesta de graves es generosa — aprende cómo se traduce y harás mezclas consistentemente buenas. Los recomiendo para productores de dormitorio y home studios.",
         products: [20]
       },
       {
@@ -274,8 +274,8 @@ const guides = [
         products: [21]
       }
     ],
-    conclusion: "On a tight budget? The Rokit 7 G4 will serve you well. Want the industry standard? HS8s are the safe bet. Ready for something special? The A7V's ribbon tweeter is a genuine step up. Any of these will help you make better mixes — the most important thing is to learn your monitors inside out.",
-    conclusion_es: "¿Presupuesto ajustado? El Rokit 7 G4 te servirá bien. ¿Quieres el estándar de la industria? Los HS8 son la apuesta segura. ¿Listo para algo especial? El tweeter de cinta del A7V es un verdadero salto de calidad. Cualquiera de estos te ayudará a hacer mejores mezclas — lo más importante es conocer tus monitores al dedillo.",
+    conclusion: "On a tight budget? The Rokit 7 G5 will serve you well. Want the industry standard? HS8s are the safe bet. Ready for something special? The A7V's ribbon tweeter is a genuine step up. Any of these will help you make better mixes — the most important thing is to learn your monitors inside out.",
+    conclusion_es: "¿Presupuesto ajustado? El Rokit 7 G5 te servirá bien. ¿Quieres el estándar de la industria? Los HS8 son la apuesta segura. ¿Listo para algo especial? El tweeter de cinta del A7V es un verdadero salto de calidad. Cualquiera de estos te ayudará a hacer mejores mezclas — lo más importante es conocer tus monitores al dedillo.",
     verdict: "Yamaha HS8 for reliability, Adam A7V for detail",
     verdict_es: "Yamaha HS8 para fiabilidad, Adam A7V para detalle",
     featuredProducts: [20, 19, 21]
@@ -519,15 +519,15 @@ const guides = [
         products: [15]
       },
       {
-        heading: "Character on the Go: SSL 2+",
-        heading_es: "Carácter en Movimiento: SSL 2+",
-        content: "The SSL 2+ brings that legendary British console mojo to your mobile rig. The 4K Legacy button — which engages an analogue enhancement circuit inspired by the SSL 4000 series consoles — adds presence, punch, and a little magic to anything you plug in. It's slightly larger than the Babyface but still easily portable. The dual headphone outputs and MIDI I/O make it a complete mobile production hub. If you want your field recordings to sound like they came from a real studio, the SSL 2+ delivers.",
-        content_es: "La SSL 2+ trae ese legendario encanto de consola británica a tu equipo móvil. El botón 4K Legacy — que activa un circuito de mejora analógica inspirado en las consolas de la serie SSL 4000 — añade presencia, pegada y un poco de magia a todo lo que conectes. Es ligeramente más grande que la Babyface pero igualmente fácil de transportar. Las dos salidas de auriculares y la entrada/salida MIDI la convierten en un centro de producción móvil completo. Si quieres que tus grabaciones de campo suenen como si vinieran de un estudio real, la SSL 2+ cumple.",
+        heading: "Character on the Go: SSL 2+ MKII",
+        heading_es: "Carácter en Movimiento: SSL 2+ MKII",
+        content: "The SSL 2+ MKII brings that legendary British console mojo to your mobile rig. The 4K Legacy button — which engages an analogue enhancement circuit inspired by the SSL 4000 series consoles — adds presence, punch, and a little magic to anything you plug in. It's slightly larger than the Babyface but still easily portable. The dual headphone outputs and MIDI I/O make it a complete mobile production hub. If you want your field recordings to sound like they came from a real studio, the SSL 2+ MKII delivers.",
+        content_es: "La SSL 2+ MKII trae ese legendario encanto de consola británica a tu equipo móvil. El botón 4K Legacy — que activa un circuito de mejora analógica inspirado en las consolas de la serie SSL 4000 — añade presencia, pegada y un poco de magia a todo lo que conectes. Es ligeramente más grande que la Babyface pero igualmente fácil de transportar. Las dos salidas de auriculares y la entrada/salida MIDI la convierten en un centro de producción móvil completo. Si quieres que tus grabaciones de campo suenen como si vinieran de un estudio real, la SSL 2+ MKII cumple.",
         products: [18]
       }
     ],
-    conclusion: "The Babyface Pro FS is the ultimate portable interface for professionals who refuse to compromise. The Scarlett 2i2 is the smart budget choice that still delivers pro results. The SSL 2+ adds analogue character to your mobile recordings. Any of these will let you capture inspiration wherever it strikes — and in this business, that's priceless.",
-    conclusion_es: "La Babyface Pro FS es la interfaz portátil definitiva para profesionales que se niegan a comprometerse. La Scarlett 2i2 es la elección inteligente de presupuesto que aún ofrece resultados profesionales. La SSL 2+ añade carácter analógico a tus grabaciones móviles. Cualquiera de estas te permitirá capturar la inspiración donde sea que surja — y en este negocio, eso no tiene precio.",
+    conclusion: "The Babyface Pro FS is the ultimate portable interface for professionals who refuse to compromise. The Scarlett 2i2 is the smart budget choice that still delivers pro results. The SSL 2+ MKII adds analogue character to your mobile recordings. Any of these will let you capture inspiration wherever it strikes — and in this business, that's priceless.",
+    conclusion_es: "La Babyface Pro FS es la interfaz portátil definitiva para profesionales que se niegan a comprometerse. La Scarlett 2i2 es la elección inteligente de presupuesto que aún ofrece resultados profesionales. La SSL 2+ MKII añade carácter analógico a tus grabaciones móviles. Cualquiera de estas te permitirá capturar la inspiración donde sea que surja — y en este negocio, eso no tiene precio.",
     verdict: "Babyface Pro FS for pro portability, Scarlett 2i2 for value",
     verdict_es: "Babyface Pro FS para portabilidad profesional, Scarlett 2i2 para valor",
     featuredProducts: [17, 15, 18]
@@ -636,10 +636,10 @@ const guides = [
     intro_es: "No necesitas monitores de $5,000 para hacer grandes mezclas. Lo que necesitas son monitores en los que confíes — altavoces que te digan la verdad sobre tus graves, tu balance de medios y tu imagen estéreo. Después de mezclar en todo, desde nearfields económicos hasta monitores principales de grado masterización, aquí están los dos pares de menos de $500 que genuinamente recomiendo.",
     sections: [
       {
-        heading: "Best Under $500: KRK Rokit 7 G4",
-        heading_es: "Mejor Menos de $500: KRK Rokit 7 G4",
-        content: "The KRK Rokit 7 G4 is the best-selling studio monitor for home producers, and the fourth generation is the best yet. The Kevlar drivers deliver clear, punchy mids, the front-firing bass port works well in small rooms, and — crucially — the built-in DSP EQ with LCD screen lets you tune the speakers to compensate for your room. No other monitor at this price gives you this much control. The bass is generous, so learn its character and check your mixes on other systems. For $498 a pair, these are unbeatable value for bedroom producers and project studios.",
-        content_es: "El KRK Rokit 7 G4 es el monitor de estudio más vendido para productores caseros, y la cuarta generación es la mejor hasta ahora. Los drivers de Kevlar ofrecen medios claros y contundentes, el puerto de graves frontal funciona bien en habitaciones pequeñas, y — crucialmente — el ecualizador DSP incorporado con pantalla LCD te permite ajustar los altavoces para compensar tu sala. Ningún otro monitor a este precio te da tanto control. Los graves son generosos, así que aprende su carácter y revisa tus mezclas en otros sistemas. Por $498 el par, estos son valor inmejorable para productores de dormitorio y estudios de proyecto.",
+        heading: "Best Under $500: KRK Rokit 7 G5",
+        heading_es: "Mejor Menos de $500: KRK Rokit 7 G5",
+        content: "The KRK Rokit 7 G5 is the best-selling studio monitor for home producers, and the fifth generation is the best yet. The Kevlar drivers deliver clear, punchy mids, the front-firing bass port works well in small rooms, and — crucially — the built-in DSP EQ with LCD screen lets you tune the speakers to compensate for your room. No other monitor at this price gives you this much control. The bass is generous, so learn its character and check your mixes on other systems. For $498 a pair, these are unbeatable value for bedroom producers and project studios.",
+        content_es: "El KRK Rokit 7 G5 es el monitor de estudio más vendido para productores caseros, y la quinta generación es la mejor hasta ahora. Los drivers de Kevlar ofrecen medios claros y contundentes, el puerto de graves frontal funciona bien en habitaciones pequeñas, y — crucialmente — el ecualizador DSP incorporado con pantalla LCD te permite ajustar los altavoces para compensar tu sala. Ningún otro monitor a este precio te da tanto control. Los graves son generosos, así que aprende su carácter y revisa tus mezclas en otros sistemas. Por $498 el par, estos son valor inmejorable para productores de dormitorio y estudios de proyecto.",
         products: [20]
       },
       {
@@ -650,8 +650,8 @@ const guides = [
         products: [19]
       }
     ],
-    conclusion: "The KRK Rokit 7 G4 is the best monitor under $500, period — DSP room correction, solid bass, and a proven track record. If you can stretch to $698, the Yamaha HS8 gives you the brutal honesty that legendary mixes are made on. Either will dramatically improve your mixing compared to headphones or consumer speakers. Learn them well.",
-    conclusion_es: "El KRK Rokit 7 G4 es el mejor monitor por menos de $500, punto — corrección de sala DSP, graves sólidos y un historial probado. Si puedes estirarte a $698, el Yamaha HS8 te da la honestidad brutal sobre la que se hacen mezclas legendarias. Cualquiera mejorará dramáticamente tu mezcla en comparación con auriculares o altavoces de consumo. Conócelos bien.",
+    conclusion: "The KRK Rokit 7 G5 is the best monitor under $500, period — DSP room correction, solid bass, and a proven track record. If you can stretch to $698, the Yamaha HS8 gives you the brutal honesty that legendary mixes are made on. Either will dramatically improve your mixing compared to headphones or consumer speakers. Learn them well.",
+    conclusion_es: "El KRK Rokit 7 G5 es el mejor monitor por menos de $500, punto — corrección de sala DSP, graves sólidos y un historial probado. Si puedes estirarte a $698, el Yamaha HS8 te da la honestidad brutal sobre la que se hacen mezclas legendarias. Cualquiera mejorará dramáticamente tu mezcla en comparación con auriculares o altavoces de consumo. Conócelos bien.",
     verdict: "KRK Rokit 7 under $500, Yamaha HS8 if you can stretch",
     verdict_es: "KRK Rokit 7 por menos de $500, Yamaha HS8 si puedes estirarte",
     featuredProducts: [20, 19]
@@ -968,10 +968,10 @@ const guides = [
     intro_es: "Si estás mezclando música con graves pesados — hip-hop, EDM, trap, bandas sonoras — necesitas escuchar lo que sucede por debajo de 40Hz. Los monitores nearfield, incluso los buenos, se atenúan donde vive el sub-bass. Un subwoofer adecuado extiende tu monitoreo hacia las frecuencias que mueven a la gente físicamente. Aquí está cómo añadir verdad en los graves a tu estudio, construido sobre monitores en los que ya confío.",
     sections: [
       {
-        heading: "The Full-Range Foundation: KRK Rokit 7 G4",
-        heading_es: "La Base de Rango Completo: KRK Rokit 7 G4",
-        content: "The KRK Rokit 7 G4 is the ideal nearfield to pair with a subwoofer. Its Kevlar driver already delivers generous bass down to 42Hz, and the built-in DSP EQ lets you high-pass the monitors when you add a sub — creating a seamless crossover between the Rokit's mid-bass punch and the sub's deep extension. The front-firing bass port reduces wall coupling issues that make sub integration harder. I recommend starting with the KRK Rokit 7 for its flexible DSP, then adding a matched sub when you're ready to feel your low end, not just hear it.",
-        content_es: "El KRK Rokit 7 G4 es el nearfield ideal para emparejar con un subwoofer. Su driver de Kevlar ya ofrece graves generosos hasta 42Hz, y el ecualizador DSP incorporado te permite filtrar en paso alto los monitores cuando añades un sub — creando un cruce perfecto entre el golpe de medios-graves del Rokit y la extensión profunda del sub. El puerto de graves frontal reduce los problemas de acoplamiento con la pared que dificultan la integración del sub. Recomiendo empezar con el KRK Rokit 7 por su DSP flexible, luego añadir un sub emparejado cuando estés listo para sentir tus graves, no solo escucharlos.",
+        heading: "The Full-Range Foundation: KRK Rokit 7 G5",
+        heading_es: "La Base de Rango Completo: KRK Rokit 7 G5",
+        content: "The KRK Rokit 7 G5 is the ideal nearfield to pair with a subwoofer. Its Kevlar driver already delivers generous bass down to 42Hz, and the built-in DSP EQ lets you high-pass the monitors when you add a sub — creating a seamless crossover between the Rokit's mid-bass punch and the sub's deep extension. The front-firing bass port reduces wall coupling issues that make sub integration harder. I recommend starting with the KRK Rokit 7 for its flexible DSP, then adding a matched sub when you're ready to feel your low end, not just hear it.",
+        content_es: "El KRK Rokit 7 G5 es el nearfield ideal para emparejar con un subwoofer. Su driver de Kevlar ya ofrece graves generosos hasta 42Hz, y el ecualizador DSP incorporado te permite filtrar en paso alto los monitores cuando añades un sub — creando un cruce perfecto entre el golpe de medios-graves del Rokit y la extensión profunda del sub. El puerto de graves frontal reduce los problemas de acoplamiento con la pared que dificultan la integración del sub. Recomiendo empezar con el KRK Rokit 7 por su DSP flexible, luego añadir un sub emparejado cuando estés listo para sentir tus graves, no solo escucharlos.",
         products: [20]
       },
       {
@@ -982,8 +982,8 @@ const guides = [
         products: [19]
       }
     ],
-    conclusion: "The KRK Rokit 7 G4 with its DSP flexibility is the easiest monitor to integrate with a subwoofer — the built-in crossover options make setup foolproof. The Yamaha HS8 gives you enough low-end extension that you may not even need a sub for most genres, and its brutal honesty ensures your sub decisions are accurate. Either approach will give you the low-end truth your mixes deserve.",
-    conclusion_es: "El KRK Rokit 7 G4 con su flexibilidad DSP es el monitor más fácil de integrar con un subwoofer — las opciones de cruce incorporadas hacen la configuración infalible. El Yamaha HS8 te da suficiente extensión de graves que quizás ni siquiera necesites un sub para la mayoría de los géneros, y su honestidad brutal asegura que tus decisiones de sub sean precisas. Cualquiera de los dos enfoques te dará la verdad en los graves que tus mezclas merecen.",
+    conclusion: "The KRK Rokit 7 G5 with its DSP flexibility is the easiest monitor to integrate with a subwoofer — the built-in crossover options make setup foolproof. The Yamaha HS8 gives you enough low-end extension that you may not even need a sub for most genres, and its brutal honesty ensures your sub decisions are accurate. Either approach will give you the low-end truth your mixes deserve.",
+    conclusion_es: "El KRK Rokit 7 G5 con su flexibilidad DSP es el monitor más fácil de integrar con un subwoofer — las opciones de cruce incorporadas hacen la configuración infalible. El Yamaha HS8 te da suficiente extensión de graves que quizás ni siquiera necesites un sub para la mayoría de los géneros, y su honestidad brutal asegura que tus decisiones de sub sean precisas. Cualquiera de los dos enfoques te dará la verdad en los graves que tus mezclas merecen.",
     verdict: "Start with full-range monitors before adding a sub",
     verdict_es: "Empieza con monitores de rango completo antes de añadir un sub",
     featuredProducts: [20, 19]
