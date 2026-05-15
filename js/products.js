@@ -1397,7 +1397,7 @@ const products = [
     badge: "bestSeller",
     desc: "The ultimate compact delay pedal. 11 delay modes including analog, tape, reverse, and loop. Up to 40 seconds of looper. Boss durability and pristine sound quality.",
     desc_es: "El pedal de delay compacto definitivo. 11 modos incluyendo analógico, cinta, reverso y loop. Hasta 40 segundos de looper. Durabilidad Boss y calidad de sonido impecable.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/570571.jpg",
+    img: "https://media.sweetwater.com/m/products/image/592951a349JbXkOCjp3TZl1RZss2Y8NpZ8yFAjIV.jpg?ha=592951a349b8fb95a1a0e942d5a9c935b27cb967&quality=82&width=750",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/DD8--boss-dd-8-digital-delay-pedal", thomann: "https://www.thomann.co.uk/boss_dd8_digital_delay.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/4VW6", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
