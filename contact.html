@@ -31,30 +31,41 @@
     .social-links-contact a:hover { border-color: var(--store-color, var(--accent)); color: var(--white); transform: translateY(-2px); }
     .back-home { display: inline-flex; align-items: center; gap: 6px; margin-top: 32px; color: var(--text-muted); font-size: 14px; text-decoration: none; }
     .back-home:hover { color: var(--accent); }
+    .lang-show-es { display: none; }
+    html[lang="es"] .lang-show-es { display: block; }
+    html[lang="es"] .lang-show-en { display: none; }
   </style>
 </head>
 <body style="background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased;">
   <div class="legal-page">
-    <a href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
-    <h1>Contact Us</h1>
-    <p class="updated">Get in touch — I'd love to hear from you</p>
+    <a href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back to Home</span><span class="lang-show-es">Volver al Inicio</span></a>
+
+    <h1 class="lang-show-en">Contact Us</h1>
+    <h1 class="lang-show-es">Contáctanos</h1>
+    <p class="updated lang-show-en">Get in touch — I'd love to hear from you</p>
+    <p class="updated lang-show-es">Ponte en contacto — me encantaría saber de ti</p>
 
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
       <div class="contact-card">
         <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
-        <h3>Email</h3>
-        <p>For gear review inquiries, business opportunities, or questions.</p>
+        <h3 class="lang-show-en">Email</h3>
+        <h3 class="lang-show-es">Correo</h3>
+        <p class="lang-show-en">For gear review inquiries, business opportunities, or questions.</p>
+        <p class="lang-show-es">Para consultas de reseñas, oportunidades de negocio o preguntas.</p>
         <a href="mailto:danielcarnago@gmail.com">danielcarnago@gmail.com</a>
       </div>
       <div class="contact-card">
         <span class="contact-icon"><i class="fa-solid fa-music"></i></span>
         <h3>SoundBetter</h3>
-        <p>Hire me for session work, production, or mixing.</p>
-        <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank">View Profile</a>
+        <p class="lang-show-en">Hire me for session work, production, or mixing.</p>
+        <p class="lang-show-es">Contrátame para sesiones, producción o mezcla.</p>
+        <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" class="lang-show-en">View Profile</a>
+        <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" class="lang-show-es">Ver Perfil</a>
       </div>
     </div>
 
-    <h2>Social Media</h2>
+    <h2 class="lang-show-en">Social Media</h2>
+    <h2 class="lang-show-es">Redes Sociales</h2>
     <div class="social-links-contact">
       <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" style="--store-color:#ff0000"><i class="fa-brands fa-youtube"></i> YouTube</a>
       <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" style="--store-color:#1db954"><i class="fa-brands fa-spotify"></i> Spotify</a>
@@ -63,15 +74,23 @@
       <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" style="--store-color:#1877f2"><i class="fa-brands fa-facebook"></i> Facebook</a>
     </div>
 
-    <h2>About This Site</h2>
-    <p>TopMusicianGear is run by Daniel Carnago, a touring musician with 20+ years of experience performing on the world's biggest stages. Every product reviewed on this site has been personally tested or thoroughly researched.</p>
-    <p>For affiliate, partnership, or press inquiries, please use the email above.</p>
+    <h2 class="lang-show-en">About This Site</h2>
+    <h2 class="lang-show-es">Sobre Este Sitio</h2>
+    <p class="lang-show-en">TopMusicianGear is run by Daniel Carnago, a touring musician with 20+ years of experience performing on the world's biggest stages. Every product reviewed on this site has been personally tested or thoroughly researched.</p>
+    <p class="lang-show-es">TopMusicianGear es dirigido por Daniel Carnago, un músico de gira con más de 20 años de experiencia actuando en los escenarios más importantes del mundo. Cada producto reseñado en este sitio ha sido probado personalmente o investigado a fondo.</p>
+    <p class="lang-show-en">For affiliate, partnership, or press inquiries, please use the email above.</p>
+    <p class="lang-show-es">Para consultas de afiliados, asociaciones o prensa, usa el correo de arriba.</p>
 
-    <a href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> Back to TopMusicianGear</a>
+    <a href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back to TopMusicianGear</span><span class="lang-show-es">Volver a TopMusicianGear</span></a>
   </div>
 
   <footer style="padding: 32px; text-align: center; border-top: 1px solid var(--border);">
     <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. All rights reserved.</p>
   </footer>
+
+  <script>
+    const lang = localStorage.getItem("lang") || "en";
+    document.documentElement.lang = lang;
+  </script>
 </body>
 </html>
