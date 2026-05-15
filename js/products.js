@@ -223,17 +223,17 @@ const products = [
   },
   {
     id: 109,
-    title: "JBL EON712",
-    title_es: "JBL EON712",
+    title: "JBL PRX ONE",
+    title_es: "JBL PRX ONE",
     category: "live_sound",
-    price: 699,
-    rating: 4.5,
-    reviews: 8901,
-    badge: "bestSeller",
-    desc: "JBL's iconic portable PA speaker reimagined. 1200W peak power, 12-inch woofer with JBL's patented Image Control waveguide. Bluetooth streaming, built-in 3-channel mixer. Lightweight at just 32 lbs.",
-    desc_es: "El icónico altavoz PA portátil de JBL reimaginado. 1200W de potencia pico. Guía de onda Image Control patentada. Bluetooth, mezclador de 3 canales incorporado.",
+    price: 1499,
+    rating: 4.8,
+    reviews: 3456,
+    badge: "premium",
+    desc: "The ultimate all-in-one column array PA system. 2000W peak power with 12-inch subwoofer and 7-channel digital mixer. 130dB SPL fills medium to large venues. Bluetooth streaming, EQ presets, and professional DSP. Perfect for bands, DJs, and large events.",
+    desc_es: "El sistema PA column array todo-en-uno definitivo. 2000W de potencia pico con subwoofer de 12 pulgadas y mezclador digital de 7 canales. 130dB SPL llena lugares medianos y grandes.",
     img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/EON712--jbl-eon712-powered-speaker", thomann: "https://www.thomann.co.uk/jbl_eon712.htm", gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-EON712-Powered-Loudspeaker/6DM", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/PRXONE--jbl-prx-one-active-column-speaker-system", thomann: "https://www.thomann.co.uk/jbl_prx_one.htm", gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/6DM", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
 
