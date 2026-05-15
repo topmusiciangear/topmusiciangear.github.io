@@ -1425,7 +1425,7 @@ const products = [
     badge: "legend",
     desc: "The wah pedal that defined rock guitar. Classic Crybaby circuit with legendary sweeping filter tone. From Hendrix to Kirk Hammett, this is the sound of wah.",
     desc_es: "El pedal wah que definió la guitarra rock. Circuito Crybaby clásico con legendario tono de filtro barrido. De Hendrix a Kirk Hammett, este es el sonido del wah.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/101776.jpg",
+    img: "https://media.sweetwater.com/m/products/image/d6585f7b06ZnJAXFjvmZFIbe9nHCvFIVWhaPe7Zi.jpg?ha=d6585f7b06b6564717903f3022edfc5077428a1d&quality=82&width=750",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/GCB95--dunlop-crybaby-gcb95-wah-pedal", thomann: "https://www.thomann.co.uk/dunlop_crybaby_gcb95.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Dunlop-Crybaby-GCB95-Wah-Pedal/1X3", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
