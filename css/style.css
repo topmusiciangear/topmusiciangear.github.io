@@ -530,6 +530,7 @@ nav {
   margin-bottom: 8px;
   display: block;
 }
+.cat-card .icon svg { width: 28px; height: 28px; display: block; margin: 0 auto; }
 
 
 .cat-card .name {
