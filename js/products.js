@@ -1326,7 +1326,7 @@ const products = [
     badge: "premium",
     desc: "Digital wireless for the professional stage. 20 Hz-20 kHz response with no audio compression. Patented digital transmission eliminates interference. SM58 capsule is legendary for live vocals. Dante networking for Broadway, TV, and major tours.",
     desc_es: "Inalámbrico digital para el escenario profesional. Respuesta 20 Hz-20 kHz sin compresión. Transmisión digital patentada. Cápsula SM58 legendaria para voces en vivo. Dante networking para Broadway, TV y giras.",
-    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/610191.jpg",
+    img: "https://stagesupply.co.uk/wp-content/uploads/2026/01/SHUULXD2SM58K51_Shure_ULXD2SM58-K51_Image_1.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/ULXD2SM58--shure-ulxd24-sm58-digital-wireless-handheld-system",
       thomann: "https://www.thomann.co.uk/shure_ulxd24_sm58_j50.htm",
