@@ -247,7 +247,7 @@ const guides = [
     title: "Best Studio Monitors Under $1,000 (2026)",
     title_es: "Mejores Monitores de Estudio Menos de $1,000 (2026)",
     category: "monitors",
-    image: "https://higherhertz.com/wp-content/uploads/2021/06/yamaha-hs5-studio-monitors-review.jpg",
+    image: "https://m.media-amazon.com/images/I/61++me2TalL._AC_SX679_.jpg",
     badge: "topQuality",
     intro: "Your monitors are the window into your mix. Bad monitors hide problems. Great monitors reveal them. Here are the three pairs under $1,000 that I trust most.",
     intro_es: "Tus monitores son la ventana a tu mezcla. Los malos monitores esconden problemas. Los buenos monitores los revelan. Aquí están los tres pares de menos de $1,000 en los que más confío.",

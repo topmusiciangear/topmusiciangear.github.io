@@ -1398,7 +1398,7 @@ const products = [
     desc: "The ultimate compact delay pedal. 11 delay modes including analog, tape, reverse, and loop. Up to 40 seconds of looper. Boss durability and pristine sound quality.",
     desc_es: "El pedal de delay compacto definitivo. 11 modos incluyendo analÃ³gico, cinta, reverso y loop. Hasta 40 segundos de looper. Durabilidad Boss y calidad de sonido impecable.",
     img: "https://media.sweetwater.com/m/products/image/592951a349JbXkOCjp3TZl1RZss2Y8NpZ8yFAjIV.jpg?ha=592951a349b8fb95a1a0e942d5a9c935b27cb967&quality=82&width=750",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/DD8--boss-dd-8-digital-delay-pedal", thomann: "https://www.thomann.co.uk/boss_dd8_digital_delay.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/4VW6", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/DD8--boss-dd-8-digital-delay-pedal", thomann: "https://www.thomann.co.uk/boss_dd_8_digital_delay.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/4VW6", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 98,
@@ -1412,7 +1412,7 @@ const products = [
     desc: "The industry standard pedal tuner. Accurate chromatic tuning with a bright display. True bypass, power output for daisy-chaining, and built to survive the road.",
     desc_es: "El afinador de pedal estÃ¡ndar de la industria. AfinaciÃ³n cromÃ¡tica precisa con pantalla brillante. True bypass, salida de corriente y construido para sobrevivir la carretera.",
     img: "https://media.sweetwater.com/m/products/image/526813dcf1IJEhm77HMlCeYLXyc8ZBocKvg9s2aw.jpg?quality=82&height=750&ha=526813dcf11bd5e8",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/TU3--boss-tu-3-chromatic-tuner-pedal", thomann: "https://www.thomann.co.uk/boss_tu3_tuner.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Chromatic-Tuner-Pedal/1G3", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/TU3--boss-tu-3-chromatic-tuner-pedal", thomann: "https://www.thomann.co.uk/boss_tu3.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Chromatic-Tuner-Pedal/1G3", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 99,
@@ -1426,7 +1426,7 @@ const products = [
     desc: "The wah pedal that defined rock guitar. Classic Crybaby circuit with legendary sweeping filter tone. From Hendrix to Kirk Hammett, this is the sound of wah.",
     desc_es: "El pedal wah que definiÃ³ la guitarra rock. Circuito Crybaby clÃ¡sico con legendario tono de filtro barrido. De Hendrix a Kirk Hammett, este es el sonido del wah.",
     img: "https://media.sweetwater.com/m/products/image/d6585f7b06ZnJAXFjvmZFIbe9nHCvFIVWhaPe7Zi.jpg?ha=d6585f7b06b6564717903f3022edfc5077428a1d&quality=82&width=750",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/GCB95--dunlop-crybaby-gcb95-wah-pedal", thomann: "https://www.thomann.co.uk/dunlop_crybaby_gcb95.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Dunlop-Crybaby-GCB95-Wah-Pedal/1X3", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/GCB95--dunlop-crybaby-gcb95-wah-pedal", thomann: "https://www.thomann.co.uk/dunlop_cry_baby_gcb95.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Dunlop-Crybaby-GCB95-Wah-Pedal/1X3", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 100,
@@ -1454,7 +1454,7 @@ const products = [
     desc: "The classic phaser pedal. Rich, swirling phase tones from subtle movement to dramatic sweeps. Used on countless records. Simple controls, legendary sound.",
     desc_es: "El pedal phaser clÃ¡sico. Tonos de fase ricos y giratorios desde movimiento sutil hasta barridos dramÃ¡ticos. Usado en innumerables discos.",
     img: "https://media.sweetwater.com/m/products/image/b143a7a866hP6EfKFhyV1kKLtVqsldw8M4Ny9ag6.jpg?quality=82&height=750&ha=b143a7a8662a7a47",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/SmallStone--electro-harmonix-small-stone-phase-shifter-pedal", thomann: "https://www.thomann.co.uk/electro_harmonix_small_stone.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Phase-Shifter-Pedal/1SQ", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/SmallStone--electro-harmonix-small-stone-phase-shifter-pedal", thomann: "https://www.thomann.co.uk/electro_harmonix_nano_small_stone.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Phase-Shifter-Pedal/1SQ", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 102,
@@ -1468,7 +1468,7 @@ const products = [
     desc: "The best value acoustic guitar. Solid spruce top, rosewood back and sides. Rich, full tone that rivals guitars costing twice as much. Perfect for beginners and experienced players alike.",
     desc_es: "La guitarra acÃºstica de mejor valor. Tapa sÃ³lida de abeto, fondo y aros de palo rosa. Tono rico y lleno que rivaliza con guitarras del doble de precio.",
     img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/38647/181269/GFG800NTII%201__28499.1742922167.jpg?c=1",
-    stores: { sweetwater: "https://www.sweetwater.com/store/detail/FG800--yamaha-fg800-acoustic-guitar-natural", thomann: "https://www.thomann.co.uk/yamaha_fg_800.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-FG800-Acoustic-Guitar/27B4", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { sweetwater: "https://www.sweetwater.com/store/detail/FG800--yamaha-fg800-acoustic-guitar-natural", thomann: "https://www.thomann.co.uk/yamaha_fg800_nt_467748.htm", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-FG800-Acoustic-Guitar/27B4", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 103,
