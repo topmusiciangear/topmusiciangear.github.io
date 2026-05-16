@@ -159,6 +159,12 @@ function getResolvedStores(product) {
   return s;
 }
 
+function getReadTime(guide) {
+  const text = (guide.intro || '') + ' ' + (guide.conclusion || '') + ' ' + guide.sections.map(s => s.content || '').join(' ');
+  const words = text.split(/\s+/).length;
+  return Math.max(1, Math.round(words / 200));
+}
+
 function formatPrice(price) {
   if (price >= 1000) return `$${(price / 1000).toFixed(1)}k`;
   return `$${price}`;
@@ -229,7 +235,7 @@ function renderGuideGrid() {
           <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
           <p class="guide-card-intro">${(() => { const i = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro; return i.length > 150 ? i.slice(0, 150) + '…' : i; })()}</p>
           <div class="guide-card-footer">
-            <span class="guide-card-meta"><i class="fa-regular fa-clock"></i> 6 ${t("minRead")}</span>
+            <span class="guide-card-meta"><i class="fa-regular fa-clock"></i> ${getReadTime(g)} ${t("minRead")}</span>
             <span class="guide-card-btn">${t("readGuide")}</span>
           </div>
         </div>
@@ -263,6 +269,10 @@ function renderGuideDetail(id) {
   const hero = document.getElementById("hero");
   if (hero) hero.style.display = "none";
 
+  // Set canonical URL for this guide
+  const existingCanonical = document.querySelector('link[rel="canonical"]');
+  if (existingCanonical) existingCanonical.href = 'https://topmusiciangear.com/?g=' + guide.id;
+
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
   const badgeClass = guide.badge ? getBadgeClass(guide.badge) : "";
@@ -290,6 +300,7 @@ function renderGuideDetail(id) {
 
 
   grid.innerHTML = `
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${title.replace(/"/g,'\\"')}","description":"${(currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro).replace(/"/g,'\\"').substring(0,200)}","image":"${guide.image}","author":{"@type":"Person","name":"Daniel"},"datePublished":"2026-01-15","dateModified":"2026-05-15"}</` + `script>
     <div class="guide-detail">
       <div class="guide-back-row">
         <button class="guide-back-btn" id="guideBackBtn1"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
@@ -544,7 +555,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     if (filtered.length === 0) {
       results.style.display = "block";
-      results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">No products found</p>';
+      results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">' + t("noProducts") + '</p>';
       return;
     }
     results.style.display = "block";
