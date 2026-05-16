@@ -339,12 +339,19 @@ const guides = [
         content_es: "Soundtoys es a donde vas cuando quieres romper las reglas. Decapitator es mi arma secreta para añadir calidez analógica y textura. EchoBoy hace delay como nada más — desde digital impecable hasta cinta deformada. Little AlterBoy es genial para efectos vocales. El nuevo reverb SuperPlate y SpaceBlender añaden efectos espaciales modernos. Es el bundle más creativo en mi arsenal.",
         products: [32]
       },
+      {
+        heading: "Vocal Magic: Celemony Melodyne 5",
+        heading_es: "Magia Vocal: Celemony Melodyne 5",
+        content: "Melodyne 5 is the tool that changed vocal production forever. Unlike auto-tune, Melodyne lets you edit individual notes within a vocal performance — fix pitch, adjust timing, change formants, and even modify individual notes within polyphonic audio. It's surgical, transparent, and used on virtually every professional vocal production. I use it to tighten harmonies, fix slight pitch drifts, and creatively re-pitch vocal layers. At $99 for the essentials version, it's the best investment you can make in your vocal chain. Once you hear what it can do, you'll never mix vocals without it.",
+        content_es: "Melodyne 5 es la herramienta que cambió la producción vocal para siempre. A diferencia del auto-tune, Melodyne te permite editar notas individuales dentro de una interpretación vocal — corrige tono, ajusta tiempo, cambia formantes e incluso modifica notas individuales dentro de audio polifónico. Es quirúrgico, transparente, y se usa en prácticamente cada producción vocal profesional. Lo uso para ajustar armonías, corregir pequeñas desviaciones de tono y re-afinar capas vocales creativamente. A $99 para la versión essentials, es la mejor inversión que puedes hacer en tu cadena vocal. Una vez que escuches lo que puede hacer, nunca mezclarás voces sin él.",
+        products: [120]
+      }
     ],
-    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. These three cover everything from surgical mixing to experimental sound design.",
-    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Estos tres cubren todo, desde mezcla quirúrgica hasta diseño de sonido experimental.",
-    verdict: "FabFilter Total Bundle if you can only buy one",
-    verdict_es: "FabFilter Total Bundle si solo puedes comprar uno",
-    featuredProducts: [29, 30, 32]
+    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. Add Melodyne 5 when you're working with vocals. These four cover everything from surgical mixing to professional vocal production.",
+    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Añade Melodyne 5 cuando trabajes con voces. Estos cuatro cubren todo, desde mezcla quirúrgica hasta producción vocal profesional.",
+    verdict: "FabFilter Total Bundle if you can only buy one, Melodyne 5 for vocals",
+    verdict_es: "FabFilter Total Bundle si solo puedes comprar uno, Melodyne 5 para voces",
+    featuredProducts: [29, 30, 32, 120]
   },
   {
     id: "beat-making",
@@ -820,10 +827,7 @@ const guides = [
         heading_es: "El Especialista en Reverb: ValhallaDSP VintageVerb",
         content: "ValhallaDSP VintageVerb is the best reverb plugin under $200, and I will die on that hill. Created by Sean Costello, a legend in the DSP world, VintageVerb models the classic digital reverb units from the 1970s and 1980s — the Lexicon 224, the EMT 250, the Quantec QRS — with stunning authenticity that makes your mixes sound like they were tracked in a world-class room. The hallmark of VintageVerb is its simplicity: you get a handful of algorithms (Hall, Plate, Room, Spring, Inverse, and more), a few essential controls (Decay, Size, Pre-Delay, Diffusion), and the magic happens instantly without menu-diving. The modulation section adds that subtle pitch warble that made vintage digital reverbs sound so musical and three-dimensional. I use VintageVerb on everything: vocals get a medium hall with 2.2-second decay, drums get a plate with short attack, lead guitars get a room with high diffusion. At $50, VintageVerb sounds better than reverbs that cost ten times as much. It's the most cost-effective upgrade to your mix that money can buy.",
         content_es: "ValhallaDSP VintageVerb es el mejor plugin de reverb por menos de $200, y defenderé esa opinión hasta el final. Creado por Sean Costello, una leyenda en el mundo DSP, VintageVerb modela las unidades clásicas de reverb digital de los años 70 y 80 — el Lexicon 224, el EMT 250, el Quantec QRS — con una autenticidad impresionante que hace que tus mezclas suenen como si se hubieran grabado en una sala de clase mundial. La característica principal de VintageVerb es su simplicidad: tienes un puñado de algoritmos (Hall, Plate, Room, Spring, Inverse y más), algunos controles esenciales (Decay, Size, Pre-Delay, Diffusion), y la magia sucede instantáneamente sin tener que navegar menús. La sección de modulación añade ese vacilación de tono sutil que hizo que las reverberaciones digitales vintage sonaran tan musicales y tridimensionales. Uso VintageVerb en todo: las voces reciben un hall mediano con 2.2 segundos de decay, la batería recibe una placa con ataque corto, las guitarras principales reciben una sala con difusión alta. A $50, VintageVerb suena mejor que reverberaciones que cuestan diez veces más. Es la mejora más rentable para tu mezcla que el dinero puede comprar.",
-        products: [32]
-      },
-      {
-        heading: "Next-Level Saturation: Wavesfactory Spectre",
+        products: [118]
         heading_es: "Saturación de Siguiente Nivel: Wavesfactory Spectre",
         content: "Spectre is not your typical saturation plugin. Instead of just adding harmonics, it lets you draw the exact saturation curve you want across the frequency spectrum. You create nodes on a visual graph — boost 2kHz by 3dB of distortion to make vocals cut through, add 100Hz of tape-style saturation to warm up the bass, or apply gentle tube harmonic saturation to the entire high end at 8kHz for air and openness. Each frequency band can use a different saturation type: tape, tube, transistor, digital, or console. The result is surgical harmonic control that no other plugin offers. I use Spectre to add presence to dull vocal tracks, to give acoustic guitars a vintage warmth without EQ, and to make synth pads sound thicker and more three-dimensional. The mix knob lets you blend the saturated signal with the dry, which means you can apply extreme settings and blend them subtly. At $99, Spectre is a secret weapon that most engineers haven't discovered yet. It's the most innovative saturation tool I've added to my arsenal in years.",
         content_es: "Spectre no es tu plugin de saturación típico. En lugar de solo añadir armónicos, te permite dibujar la curva de saturación exacta que quieras a través del espectro de frecuencia. Creas nodos en un gráfico visual — aumenta 2kHz en 3dB de distorsión para que las voces corten, añade 100Hz de saturación tipo cinta para calentar el bajo, o aplica saturación armónica suave de tubo a todo el extremo agudo a 8kHz para aire y apertura. Cada banda de frecuencia puede usar un tipo diferente de saturación: cinta, tubo, transistor, digital o consola. El resultado es control armónico quirúrgico que ningún otro plugin ofrece. Uso Spectre para añadir presencia a pistas vocales opacas, para darle a guitarras acústicas una calidez vintage sin EQ, y para hacer que los pads de sintetizador suenen más gruesos y tridimensionales. La perilla de mezcla te permite combinar la señal saturada con la seca, lo que significa que puedes aplicar ajustes extremos y mezclarlos sutilmente. A $99, Spectre es un arma secreta que la mayoría de los ingenieros aún no han descubierto. Es la herramienta de saturación más innovadora que he añadido a mi arsenal en años.",
@@ -834,7 +838,7 @@ const guides = [
     conclusion_es: "Empieza con el Soundtoys 5.5 Bundle — Decapitator, EchoBoy y la colección completa de veintitrés efectos añaden carácter, movimiento y personalidad a tus producciones que nada más puede igualar. Añade ValhallaDSP VintageVerb para reverb de clase mundial a un precio económico que hará que tus mezclas suenen como si se hubieran grabado en una sala real. Y cuando estés listo para control armónico quirúrgico, añade Wavesfactory Spectre para moldear tu saturación con precisión a través de todo el espectro de frecuencia. Estos tres cubren todo, desde diseño de sonido creativo hasta pulido de mezcla, y todos se ganaron su lugar en mi plantilla de mezcla durante muchos años de uso real.",
     verdict: "Soundtoys 5.5 is the only creative effects bundle that matters",
     verdict_es: "Soundtoys 5.5 es el único bundle de efectos creativos que importa",
-    featuredProducts: [32]
+    featuredProducts: [32, 118]
   },
   {
     id: "midi-controllers",
@@ -1059,7 +1063,7 @@ const guides = [
         heading_es: "La Leyenda de Consola: Waves SSL G-Master Buss Compressor",
         content: "The SSL G-Master Buss Compressor isn't just a plugin — it's the sound of a million hit records. Modeled from the legendary SSL 4000 G series console's master buss compressor, this plugin delivers that unmistakable glue that makes mixes sound like records. The famous auto-release setting, the punchy VCA-style compression curve, and the way it makes drums snap and vocals sit in the pocket — I've used the hardware and the plugin holds up shockingly well. Put it on your mix buss, set the ratio to 2:1 or 4:1, aim for 4dB of gain reduction, and hear your mix come together. It's the closest thing to mixing on a real SSL without the $500,000 console.",
         content_es: "El Waves SSL G-Master Buss Compressor no es solo un plugin — es el sonido de un millón de discos exitosos. Modelado del legendario compresor de bus maestro de la consola SSL 4000 serie G, este plugin ofrece ese pegamento inconfundible que hace que las mezclas suenen como discos. El famoso ajuste de auto-release, la curva de compresión estilo VCA con pegada, y la forma en que hace que las baterías chasqueen y las voces se asienten en el pocket — he usado el hardware y el plugin se mantiene sorprendentemente bien. Ponlo en tu bus de mezcla, ajusta el ratio a 2:1 o 4:1, apunta a 4dB de reducción de ganancia, y escucha cómo tu mezcla se une. Es lo más cercano a mezclar en una SSL real sin la consola de $500,000.",
-        products: [29]
+        products: [119]
       },
       {
         heading: "The Surgical Precision: FabFilter Pro-Q 4",
@@ -1073,7 +1077,7 @@ const guides = [
     conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo — el sonido que definió la mezcla moderna. El FabFilter Pro-Q 4 te da la precisión quirúrgica para arreglar problemas antes de que lleguen a tu emulación de consola. Juntos, forman un channel strip híbrido que combina carácter vintage con claridad moderna. Usa ambos en cada mezcla.",
     verdict: "SSL G-Master for glue, Pro-Q 4 for precision",
     verdict_es: "SSL G-Master para pegamento, Pro-Q 4 para precisión",
-    featuredProducts: [29]
+    featuredProducts: [119, 29]
   },
   {
     id: "cuban-tres",

@@ -1686,6 +1686,48 @@ const products = [
       gear4music: "https://www.gear4music.com/search/?q=Kali+Audio+LP-6+V2",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
+  },
+  {
+    id: 118,
+    title: "ValhallaDSP VintageVerb",
+    title_es: "ValhallaDSP VintageVerb",
+    category: "plugins",
+    price: 50,
+    rating: 4.9,
+    reviews: 8920,
+    badge: "topQuality",
+    desc: "The best reverb plugin under $200. Models classic digital reverb units from the 70s and 80s with stunning authenticity. Simple, musical, and sounds better than reverbs costing ten times as much.",
+    desc_es: "El mejor plugin de reverb por menos de $200. Modela unidades clásicas de reverb digital de los 70s y 80s con una autenticidad impresionante. Simple, musical, y suena mejor que reverbs que cuestan diez veces más.",
+    img: "https://valhalladsp.com/wp-content/uploads/2021/02/VintageVerb-screenshot-1.png",
+    stores: { pluginboutique: "https://www.pluginboutique.com/product/2-Effects/17-Reverb/1067-Valhalla-VintageVerb?a_aid=6a01e859cbe1a" }
+  },
+  {
+    id: 119,
+    title: "Waves SSL G-Master Buss Compressor",
+    title_es: "Waves SSL G-Master Buss Compressor",
+    category: "plugins",
+    price: 39,
+    rating: 4.7,
+    reviews: 15670,
+    badge: "legend",
+    desc: "The sound of a million hit records. Modeled from the SSL 4000 G console's master buss compressor. Delivers that unmistakable glue and punch that makes mixes sound like records.",
+    desc_es: "El sonido de un millón de discos exitosos. Modelado del compresor de bus maestro de la consola SSL 4000 G. Ofrece ese pegamento y pegada inconfundibles que hacen que las mezclas suenen como discos.",
+    img: "https://www.waves.com/1lib/images/products/plugins/ssl-g-master-buss-compressor/ssl-g-master-buss-compressor-main.jpg",
+    stores: { pluginboutique: "https://www.pluginboutique.com/product/2-Effects/9-Compressor/1141-Waves-SSL-G-Master-Buss-Compressor?a_aid=6a01e859cbe1a" }
+  },
+  {
+    id: 120,
+    title: "Celemony Melodyne 5",
+    title_es: "Celemony Melodyne 5",
+    category: "plugins",
+    price: 99,
+    rating: 4.8,
+    reviews: 12340,
+    badge: "premium",
+    desc: "The industry standard for pitch correction and vocal tuning. Edit individual notes within polyphonic audio — fix timing, pitch, and formants with surgical precision. Used on virtually every professional vocal production.",
+    desc_es: "El estándar de la industria para corrección de tono y afinación vocal. Edita notas individuales dentro de audio polifónico — corrige tiempo, tono y formantes con precisión quirúrgica. Usado en prácticamente cada producción vocal profesional.",
+    img: "https://www.pluginboutique.com//uploads/Image7a33ec0a8fa2e457aea7e11987960a62.jpg",
+    stores: { pluginboutique: "https://www.pluginboutique.com/product/2-Effects/43-Pitch-Shifter/5448-Melodyne-5-essentials?a_aid=6a01e859cbe1a" }
   }
 ];
 
