@@ -473,28 +473,6 @@
   <script src="js/products.js?v=5"></script>
   <script src="js/guides.js?v=5"></script>
   <script src="js/app.js?v=5"></script>
-<script>
-(function(){
-var c=JSON.parse(localStorage.getItem('cookiePrefs')||'null');
-var b=document.getElementById('cookie-consent-banner');
-var m=document.getElementById('cookie-modal');
-if(!c){b.classList.add('show')}else{applyPrefs(c)}
-
-function loadAnalytics(){if(!document.getElementById('ga-script')){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L';s.id='ga-script';s.async=true;document.head.appendChild(s);s.onload=function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})}}}
-
-function loadAds(){if(!document.getElementById('adsense-script')){var s=document.createElement('script');s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543';s.id='adsense-script';s.async=true;s.crossOrigin='anonymous';document.head.appendChild(s)}}
-
-function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
-
-function applyPrefs(p){if(p.analytics)loadAnalytics();if(p.ads)loadAds();if(p.affiliate)loadAffiliate()}
-
-window.cookieAccept=function(){var p={essential:true,analytics:true,ads:true,affiliate:true};localStorage.setItem('cookiePrefs',JSON.stringify(p));b.classList.remove('show');applyPrefs(p)}
-
-window.cookiePrefs=function(){m.classList.add('show');var saved=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,ads:true,affiliate:true};document.getElementById('cm-analytics').checked=saved.analytics;document.getElementById('cm-ads').checked=saved.ads;document.getElementById('cm-affiliate').checked=saved.affiliate}
-
-window.cookieSave=function(){var p={essential:true,analytics:document.getElementById('cm-analytics').checked,ads:document.getElementById('cm-ads').checked,affiliate:document.getElementById('cm-affiliate').checked};localStorage.setItem('cookiePrefs',JSON.stringify(p));b.classList.remove('show');m.classList.remove('show');applyPrefs(p)}
-})();
-</script>
 <div id="cookie-consent-banner">
   <p>We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalise content, and analyse website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website's cookie use as described in our <a href="cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</p>
   <div class="cc-buttons">
@@ -539,5 +517,27 @@ window.cookieSave=function(){var p={essential:true,analytics:document.getElement
     </div>
   </div>
 </div>
+<script>
+(function(){
+var c=JSON.parse(localStorage.getItem('cookiePrefs')||'null');
+var b=document.getElementById('cookie-consent-banner');
+var m=document.getElementById('cookie-modal');
+if(!c){b.classList.add('show')}else{applyPrefs(c)}
+
+function loadAnalytics(){if(!document.getElementById('ga-script')){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L';s.id='ga-script';s.async=true;document.head.appendChild(s);s.onload=function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})}}}
+
+function loadAds(){if(!document.getElementById('adsense-script')){var s=document.createElement('script');s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543';s.id='adsense-script';s.async=true;s.crossOrigin='anonymous';document.head.appendChild(s)}}
+
+function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
+
+function applyPrefs(p){if(p.analytics)loadAnalytics();if(p.ads)loadAds();if(p.affiliate)loadAffiliate()}
+
+window.cookieAccept=function(){var p={essential:true,analytics:true,ads:true,affiliate:true};localStorage.setItem('cookiePrefs',JSON.stringify(p));b.classList.remove('show');applyPrefs(p)}
+
+window.cookiePrefs=function(){m.classList.add('show');var saved=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,ads:true,affiliate:true};document.getElementById('cm-analytics').checked=saved.analytics;document.getElementById('cm-ads').checked=saved.ads;document.getElementById('cm-affiliate').checked=saved.affiliate}
+
+window.cookieSave=function(){var p={essential:true,analytics:document.getElementById('cm-analytics').checked,ads:document.getElementById('cm-ads').checked,affiliate:document.getElementById('cm-affiliate').checked};localStorage.setItem('cookiePrefs',JSON.stringify(p));b.classList.remove('show');m.classList.remove('show');applyPrefs(p)}
+})();
+</script>
 </body>
 </html>
