@@ -1759,17 +1759,17 @@ const products = [
   },
   {
     id: 123,
-    title: "Spectrasonics Omnisphere 2",
-    title_es: "Spectrasonics Omnisphere 2",
+    title: "Native Instruments Komplete 15 Ultimate",
+    title_es: "Native Instruments Komplete 15 Ultimate",
     category: "plugins",
-    price: 499,
-    rating: 4.9,
-    reviews: 8920,
+    price: 1199,
+    rating: 4.8,
+    reviews: 7650,
     badge: "premium",
-    desc: "The most powerful virtual synthesizer ever created. Over 14,000 sounds, advanced synthesis engine, granular synthesis, and hardware synth integration. The go-to instrument for film composers, producers, and sound designers worldwide.",
-    desc_es: "El sintetizador virtual más potente jamás creado. Más de 14,000 sonidos, motor de síntesis avanzado, síntesis granular e integración con hardware. El instrumento de referencia para compositores de cine, productores y diseñadores de sonido en todo el mundo.",
-    img: "https://media.sweetwater.com/m/products/image/771fab56b7IUFdTigZ8EjQkThHvddtksCNm84z0D.jpg?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
-    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Spectrasonics+Omnisphere+2&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Omnisphere2--spectrasonics-omnisphere-2-virtual-instrument", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Spectrasonics+Omnisphere+2", gear4music: "https://www.gear4music.com/search/?q=Spectrasonics+Omnisphere+2", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    desc: "The ultimate Native Instruments collection. Over 150 instruments and effects — Kontakt 8, Massive X, Guitar Rig 7, Session Strings, Cremona Quartet, and cinematic scoring tools. The definitive toolkit for producers, composers, and sound designers.",
+    desc_es: "La colección definitiva de Native Instruments. Más de 150 instrumentos y efectos — Kontakt 8, Massive X, Guitar Rig 7, Session Strings, Cremona Quartet y herramientas de scoring cinematográfico. El kit de herramientas definitivo para productores, compositores y diseñadores de sonido.",
+    img: "https://media.sweetwater.com/m/products/image/54fbb5acc9oXJ5j9xHZCI3TXq7rHQm2GqyLSGAAi.jpg?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Komplete+15+Ultimate&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Komp15Ult--native-instruments-komplete-15-ultimate", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Komplete+15+Ultimate", gear4music: "https://www.gear4music.com/search/?q=Komplete+15+Ultimate", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
 
