@@ -31,6 +31,13 @@ const guides = [
         products: [25, 26]
       },
       {
+        heading: "Studio Monitors: Hear the Truth",
+        heading_es: "Monitores de Estudio: Escucha la Verdad",
+        content: "Headphones are great for tracking and late-night mixing, but you need real speakers to hear how your mix translates to the physical world. The KRK Rokit 7 G5 is the best-selling monitor for beginners — punchy, detailed, and the built-in DSP EQ lets you tune them to your room. Working with a tighter budget? The KRK Rokit 5 G5 gives you the same DSP magic in a smaller package for $189 each. If you can stretch a bit, the Yamaha HS8 is the brutally honest industry standard that reveals every flaw in your mix — perfect for learning what a great mix actually sounds like.",
+        content_es: "Los auriculares son geniales para grabar y mezclar de noche, pero necesitas altavoces reales para escuchar cómo se traduce tu mezcla al mundo físico. El KRK Rokit 7 G5 es el monitor más vendido para principiantes — contundente, detallado, y el ecualizador DSP incorporado te permite ajustarlos a tu habitación. ¿Presupuesto más ajustado? El KRK Rokit 5 G5 te da la misma magia DSP en un paquete más pequeño por $189 cada uno. Si puedes estirarte un poco, el Yamaha HS8 es el estándar de la industria brutalmente honesto que revela cada defecto en tu mezcla — perfecto para aprender cómo suena realmente una gran mezcla.",
+        products: [20, 19]
+      },
+      {
         heading: "Accessories You Actually Need",
         heading_es: "Accesorios Que Realmente Necesitas",
         content: "Don't waste money on things you don't need. Get a solid mic stand — the K&M 210/2 is German-engineered and will outlast everything else in your studio. A Mogami Gold XLR cable ensures clean signal from day one. That's it. You can add acoustic treatment and pop filters later.",
@@ -38,11 +45,11 @@ const guides = [
         products: [38]
       }
     ],
-    conclusion: "With this setup — Scarlett 2i2, SM57, ATH-M50x, a K&M stand, and a Mogami cable — you can record, mix, and release professional music for under $700. I've tracked sessions with exactly this chain and the results are broadcast-ready. Start here, learn your craft, and upgrade only when your skill outgrows your gear.",
-    conclusion_es: "Con esta configuración — Scarlett 2i2, SM57, ATH-M50x, un soporte K&M y un cable Mogami — puedes grabar, mezclar y publicar música profesional por menos de $700. He grabado sesiones exactamente con esta cadena y los resultados están listos para transmitir. Empieza aquí, aprende tu oficio y actualiza solo cuando tu habilidad supere a tu equipo.",
+    conclusion: "With this setup — Scarlett 2i2, SM57, ATH-M50x, KRK Rokit 7 G5, a K&M stand, and a Mogami cable — you can record, mix, and release professional music for under $1,000. I've tracked sessions with exactly this chain and the results are broadcast-ready. Start here, learn your craft, and upgrade only when your skill outgrows your gear.",
+    conclusion_es: "Con esta configuración — Scarlett 2i2, SM57, ATH-M50x, KRK Rokit 7 G5, un soporte K&M y un cable Mogami — puedes grabar, mezclar y publicar música profesional por menos de $1,000. He grabado sesiones exactamente con esta cadena y los resultados están listos para transmitir. Empieza aquí, aprende tu oficio y actualiza solo cuando tu habilidad supere a tu equipo.",
     verdict: "Best overall starter studio",
     verdict_es: "Mejor estudio inicial completo",
-    featuredProducts: [15, 5, 25, 38]
+    featuredProducts: [15, 5, 25, 20, 38]
   },
   {
     id: "best-interface",
