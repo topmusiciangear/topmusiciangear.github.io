@@ -1768,7 +1768,7 @@ const products = [
     badge: "premium",
     desc: "The ultimate Native Instruments collection. Over 150 instruments and effects — Kontakt 8, Massive X, Guitar Rig 7, Session Strings, Cremona Quartet, and cinematic scoring tools. The definitive toolkit for producers, composers, and sound designers.",
     desc_es: "La colección definitiva de Native Instruments. Más de 150 instrumentos y efectos — Kontakt 8, Massive X, Guitar Rig 7, Session Strings, Cremona Quartet y herramientas de scoring cinematográfico. El kit de herramientas definitivo para productores, compositores y diseñadores de sonido.",
-    img: "https://media.sweetwater.com/m/products/image/54fbb5acc9oXJ5j9xHZCI3TXq7rHQm2GqyLSGAAi.jpg?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
+    img: "https://banners.pluginboutique.com/u0c1lkgagfi2wptdzez20sjrgtcb",
     stores: { pluginboutique: "https://www.pluginboutique.com/product/81-Bundles/97-Various-Category/17259-Komplete-26-Ultimate?a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Komp26Ult--native-instruments-komplete-26-ultimate", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Komplete+26+Ultimate", gear4music: "https://www.gear4music.com/search/?q=Komplete+26+Ultimate", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
