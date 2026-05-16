@@ -1713,7 +1713,7 @@ const products = [
     desc: "The sound of a million hit records. Modeled from the SSL 4000 G console's master buss compressor. Delivers that unmistakable glue and punch that makes mixes sound like records.",
     desc_es: "El sonido de un millón de discos exitosos. Modelado del compresor de bus maestro de la consola SSL 4000 G. Ofrece ese pegamento y pegada inconfundibles que hacen que las mezclas suenen como discos.",
     img: "https://www.waves.com/1lib/images/products/plugins/ssl-g-master-buss-compressor/ssl-g-master-buss-compressor-main.jpg",
-    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Waves+SSL+G+Master+Buss+Compressor&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/SSLGMBussComp--waves-ssl-g-master-buss-compressor", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Waves+SSL+G+Master+Buss+Compressor", gear4music: "https://www.gear4music.com/search/?q=Waves+SSL+G+Master+Buss+Compressor", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Waves+SSL+G-Master+Buss+Compressor&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/SSLGMBussComp--waves-ssl-g-master-buss-compressor", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Waves+SSL+G+Master+Buss+Compressor", gear4music: "https://www.gear4music.com/search/?q=Waves+SSL+G+Master+Buss+Compressor", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 120,
