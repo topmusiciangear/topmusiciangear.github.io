@@ -1648,6 +1648,44 @@ const products = [
     desc_es: "El flujo de trabajo más rápido en un DAW. Arrastra y suelta todo, integración Melodyne incorporada. Plantillas inteligentes para inicio rápido.",
     img: "https://static.bax-shop.es/image/product/1331845/5477289/91cd9b1f/1728051805presonus_studio-one-pro-7.jpg",
     stores: { sweetwater: "https://www.sweetwater.com/store/detail/StudioOne7Pro--presonus-studio-one-pro-7-music-production-software", thomann: "https://www.thomann.co.uk/presonus_studio_one_pro_7.htm", gear4music: "https://www.gear4music.com/Recording-and-Computers/Studio-One-Pro-7/6OZA", musikproduktiv: "https://www.musik-produktiv.de/search" }
+  },
+  {
+    id: 116,
+    title: "JBL 305P MkII",
+    title_es: "JBL 305P MkII",
+    category: "monitors",
+    price: 149,
+    rating: 4.6,
+    reviews: 12340,
+    badge: "bestSeller",
+    desc: "The legendary budget monitor with JBL's Image Control Waveguide for a massive sweet spot and stunning stereo imaging. 5-inch woofer with patented Slip Stream port delivers tight, accurate bass in any room.",
+    desc_es: "El legendario monitor económico con la guía de onda Image Control de JBL para un punto dulce masivo y una imagen estéreo impresionante. Woofer de 5 pulgadas con puerto Slip Stream patentado ofrece graves ajustados y precisos.",
+    img: "https://media.sweetwater.com/m/products/image/440a94a9d1nBAW67EGiBcAx4qU7UCyN8s9DhGRMW.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=440a94a9d1e20f28",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/305PMkII--jbl-305p-mkii-5-inch-powered-studio-monitor",
+      thomann: "https://www.thomann.co.uk/jbl_305p_mkii.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/JBL-305P-MKII-5-Inch-Powered-Studio-Monitor-Single/2RTQ",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
+  },
+  {
+    id: 117,
+    title: "Kali Audio LP-6 V2",
+    title_es: "Kali Audio LP-6 V2",
+    category: "monitors",
+    price: 199,
+    rating: 4.7,
+    reviews: 3890,
+    badge: "recommended",
+    desc: "The best value studio monitor with boundary EQ compensation for perfect sound in any room. 6.5-inch woofer with large voice coil delivers exceptional bass extension and clarity.",
+    desc_es: "El mejor monitor de estudio calidad-precio con compensación de ecualización de límites para un sonido perfecto en cualquier habitación. Woofer de 6.5 pulgadas con bobina grande ofrece una extensión de graves y claridad excepcionales.",
+    img: "https://media.sweetwater.com/m/products/image/6a9117c94dsFyCi87P0FcPBqJXJ2DoMw7NkyhwoX.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=6a9117c94d1637d7",
+    stores: {
+      sweetwater: "https://www.sweetwater.com/store/detail/LP6V2--kali-audio-lp-6-v2-6.5-inch-powered-studio-monitor",
+      thomann: "https://www.thomann.co.uk/kali_audio_lp_6_v2.htm",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-6-V2-6-5-Inch-Studio-Monitor-Single/3H5P",
+      musikproduktiv: "https://www.musik-produktiv.de/search"
+    }
   }
 ];
 

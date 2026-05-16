@@ -256,9 +256,23 @@ const guides = [
     category: "monitors",
     image: "https://m.media-amazon.com/images/I/61++me2TalL._AC_SX679_.jpg",
     badge: "topQuality",
-    intro: "Your monitors are the window into your mix. Bad monitors hide problems. Great monitors reveal them. Here are the three pairs under $1,000 that I trust most.",
-    intro_es: "Tus monitores son la ventana a tu mezcla. Los malos monitores esconden problemas. Los buenos monitores los revelan. Aquí están los tres pares de menos de $1,000 en los que más confío.",
+    intro: "Your monitors are the window into your mix. Bad monitors hide problems. Great monitors reveal them. Here are the six pairs under $1,000 that I trust most, from ultra-budget to professional reference.",
+    intro_es: "Tus monitores son la ventana a tu mezcla. Los malos monitores esconden problemas. Los buenos monitores los revelan. Aquí están los seis pares de menos de $1,000 en los que más confío, desde ultra-económicos hasta referencia profesional.",
     sections: [
+      {
+        heading: "Best Ultra-Budget: JBL 305P MkII",
+        heading_es: "Mejor Ultra-Económico: JBL 305P MkII",
+        content: "The JBL 305P MkII is the most popular budget studio monitor on the planet — and for good reason. JBL's patented Image Control Waveguide creates an incredibly wide sweet spot, so you don't need to lock your head in place to hear the stereo image. The 5-inch woofer with Slip Stream port delivers tight, accurate bass that belies its modest size. At $149 each, they're unbeatable for beginners and small rooms. I've recommended these more times than I can count — they're the safest budget bet in studio audio.",
+        content_es: "El JBL 305P MkII es el monitor de estudio económico más popular del planeta — y por buenas razones. La guía de onda Image Control patentada de JBL crea un punto dulce increíblemente amplio, así que no necesitas bloquear tu cabeza para escuchar la imagen estéreo. El woofer de 5 pulgadas con puerto Slip Stream ofrece graves ajustados y precisos que desmienten su tamaño modesto. A $149 cada uno, son inmejorables para principiantes y habitaciones pequeñas. Los he recomendado más veces de las que puedo contar — son la apuesta económica más segura en audio de estudio.",
+        products: [116]
+      },
+      {
+        heading: "Best Value: Kali Audio LP-6 V2",
+        heading_es: "Mejor Calidad-Precio: Kali Audio LP-6 V2",
+        content: "Kali Audio was founded by former JBL engineers who wanted to push budget monitoring even further. The LP-6 V2 is the result — a 6.5-inch monitor with boundary EQ compensation that actually corrects for your room's bass problems. Dip switches on the back let you tell the speaker where it's placed (on a desk, near a wall, in a corner) and the DSP adjusts accordingly. No other monitor under $500 offers this level of room correction. The bass extension goes surprisingly deep for a 6.5-inch driver, and the overall balance is natural and unhyped. At $199 each, these are the monitors that made me rethink what 'budget' even means.",
+        content_es: "Kali Audio fue fundada por antiguos ingenieros de JBL que querían llevar el monitoreo económico aún más lejos. El LP-6 V2 es el resultado — un monitor de 6.5 pulgadas con compensación de ecualización de límites que realmente corrige los problemas de graves de tu habitación. Los interruptores DIP en la parte trasera te permiten decirle al altavoz dónde está colocado (en un escritorio, cerca de una pared, en una esquina) y el DSP se ajusta en consecuencia. Ningún otro monitor por menos de $500 ofrece este nivel de corrección de sala. La extensión de graves es sorprendentemente profunda para un driver de 6.5 pulgadas, y el balance general es natural y sin exageraciones. A $199 cada uno, estos son los monitores que me hicieron repensar lo que significa 'económico'.",
+        products: [117]
+      },
       {
         heading: "Best Budget: KRK Rokit 7 G5",
         heading_es: "Mejor Económico: KRK Rokit 7 G5",
@@ -279,13 +293,20 @@ const guides = [
         content: "The A7V features Adam's S-ART folded ribbon tweeter — it's not a dome, it's a folded ribbon that moves air like an accordion. The result is stunning transient response and stereo imaging. I mixed a track on A7Vs and heard details I'd missed on my main monitors. The bass extension is impressive for a 7-inch woofer, thanks to the tuned port.",
         content_es: "El A7V presenta el tweeter de cinta plegada S-ART de Adam — no es un domo, es una cinta plegada que mueve el aire como un acordeón. El resultado es una respuesta transitoria e imagen estéreo impresionantes. Mezclé una pista en los A7V y escuché detalles que había pasado por alto en mis monitores principales. La extensión de graves es impresionante para un woofer de 7 pulgadas, gracias al puerto sintonizado.",
         products: [21]
+      },
+      {
+        heading: "Reference Accuracy: Genelec 8040B",
+        heading_es: "Precisión de Referencia: Genelec 8040B",
+        content: "Genelec is the standard in professional studios worldwide, and the 8040B is their sweet spot. The aluminium Minimum Diffraction Enclosure eliminates cabinet coloration entirely — what you hear is the driver, not the box. The Directivity Control Waveguide creates an enormous sweet spot that makes long mixing sessions less fatiguing. Room response controls let you compensate for desk reflections and wall proximity. At $1,150 each they stretch the budget, but these are monitors you buy once and use for a career. Finnish precision engineering at its absolute finest.",
+        content_es: "Genelec es el estándar en estudios profesionales de todo el mundo, y la 8040B es su punto dulce. El recinto de aluminio de Mínima Difracción elimina la coloración del gabinete por completo — lo que escuchas es el driver, no la caja. La Guía de Onda de Control de Directividad crea un punto dulce enorme que hace que las sesiones largas de mezcla sean menos fatigantes. Los controles de respuesta de sala te permiten compensar reflexiones de escritorio y proximidad a paredes. A $1,150 cada uno estiran el presupuesto, pero estos son monitores que compras una vez y usas durante toda tu carrera. Ingeniería de precisión finlandesa en su máxima expresión.",
+        products: [22]
       }
     ],
-    conclusion: "On a tight budget? The Rokit 7 G5 will serve you well. Want the industry standard? HS8s are the safe bet. Ready for something special? The A7V's ribbon tweeter is a genuine step up. Any of these will help you make better mixes — the most important thing is to learn your monitors inside out.",
-    conclusion_es: "¿Presupuesto ajustado? El Rokit 7 G5 te servirá bien. ¿Quieres el estándar de la industria? Los HS8 son la apuesta segura. ¿Listo para algo especial? El tweeter de cinta del A7V es un verdadero salto de calidad. Cualquiera de estos te ayudará a hacer mejores mezclas — lo más importante es conocer tus monitores al dedillo.",
-    verdict: "Yamaha HS8 for reliability, Adam A7V for detail",
-    verdict_es: "Yamaha HS8 para fiabilidad, Adam A7V para detalle",
-    featuredProducts: [20, 19, 21]
+    conclusion: "Ultra-budget? JBL 305P MkII at $149 each beats everything at its price. Best value? The Kali LP-6 V2 with boundary EQ is the smartest $199 you'll spend. The KRK Rokit 7 G5 is the do-it-all workhorse with DSP room correction. The Yamaha HS8 is the brutally honest industry standard. Want detail? The Adam A7V's ribbon tweeter reveals every transient. And for reference accuracy, the Genelec 8040B is a lifetime investment. Six monitors, six different strengths — pick the one that matches your room, your budget, and your ears.",
+    conclusion_es: "¿Ultra-económico? El JBL 305P MkII a $149 cada uno supera a todo en su precio. ¿Mejor calidad-precio? El Kali LP-6 V2 con ecualización de límites es el mejor dinero que gastarás. El KRK Rokit 7 G5 es el caballo de batalla todo-terreno con corrección de sala DSP. El Yamaha HS8 es el estándar de la industria brutalmente honesto. ¿Quieres detalle? El tweeter de cinta del Adam A7V revela cada transitorio. Y para precisión de referencia, el Genelec 8040B es una inversión de por vida. Seis monitores, seis fortalezas diferentes — elige el que coincida con tu sala, tu presupuesto y tus oídos.",
+    verdict: "JBL 305P for budget, Yamaha HS8 for mixing, Adam A7V for detail",
+    verdict_es: "JBL 305P para presupuesto, Yamaha HS8 para mezcla, Adam A7V para detalle",
+    featuredProducts: [116, 117, 20, 19, 21, 22]
   },
   {
     id: "best-plugins",
