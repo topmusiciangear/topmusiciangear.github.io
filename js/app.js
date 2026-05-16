@@ -224,7 +224,7 @@ function renderGuideGrid() {
   grid.innerHTML = filtered.map(g => {
     const catName = getCatName(g.category);
     return `
-      <div class="guide-card" data-guide="${g.id}">
+      <a href="/guides/${g.id}.html" class="guide-card" data-guide="${g.id}">
         <div class="guide-card-img">
           <img src="${g.image}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
           <span class="guide-card-cat">${catName}</span>
@@ -237,11 +237,12 @@ function renderGuideGrid() {
             <span class="guide-card-btn">${t("readGuide")}</span>
           </div>
         </div>
-      </div>
+      </a>
     `;
   }).join("");
   grid.querySelectorAll(".guide-card").forEach(card => {
-    card.addEventListener("click", () => {
+    card.addEventListener("click", e => {
+      e.preventDefault();
       const id = card.dataset.guide;
       history.pushState({}, '', '/?g=' + id);
       renderGuideDetail(id);
@@ -344,6 +345,17 @@ function renderGuideDetail(id) {
     const el = document.getElementById("guides");
     if (el) el.scrollIntoView({ behavior: "smooth" });
   });
+  document.querySelectorAll(".related-guide-card").forEach(card => {
+    card.addEventListener("click", e => {
+      e.preventDefault();
+      const id = card.dataset.guide;
+      if (id) {
+        history.pushState({}, '', '/?g=' + id);
+        skipDetailScroll = true;
+        renderGuideDetail(id);
+      }
+    });
+  });
   if (!initialLoad && !skipDetailScroll) {
     setTimeout(() => {
       const el = document.getElementById("guideGrid");
@@ -359,7 +371,7 @@ function renderRelatedGuides(relatedIds) {
   const title = t("relatedGuidesTitle");
   const cards = related.map(g => {
     const title = currentLang === 'es' && g.title_es ? g.title_es : g.title;
-    return `<a href="/?g=${g.id}" class="related-guide-card" onclick="event.preventDefault();skipDetailScroll=true;renderGuideDetail('${g.id}');history.pushState({},'','/?g=${g.id}')">
+    return `<a href="/guides/${g.id}.html" class="related-guide-card" data-guide="${g.id}">
       <div class="related-guide-img"><img src="${g.image}" alt="${title}" loading="lazy"></div>
       <div class="related-guide-title">${title}</div>
     </a>`;

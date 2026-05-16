@@ -1312,6 +1312,8 @@ footer ul li a:hover { color: var(--accent); }
   border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: inherit;
 }
 
 .guide-card:hover {

@@ -64,7 +64,7 @@ guides.forEach(g => {
   <link rel="alternate" hreflang="en" href="https://topmusiciangear.com/guides/${g.id}.html">
   <link rel="alternate" hreflang="es" href="https://topmusiciangear.com/guides/${g.id}.html">
   <link rel="alternate" hreflang="x-default" href="https://topmusiciangear.com/guides/${g.id}.html">
-  <link rel="stylesheet" href="../css/style.css?v=9">
+  <link rel="stylesheet" href="../css/style.css?v=10">
   <link rel="icon" type="image/png" sizes="48x48" href="../img/favicon.png?v=2">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -132,10 +132,10 @@ guides.forEach(g => {
       </div>
     </footer>
   </div>
-  <script src="../js/translations.js?v=8"></script>
-  <script src="../js/products.js?v=8"></script>
-  <script src="../js/guides.js?v=8"></script>
-  <script src="../js/app.js?v=8"></script>
+  <script src="../js/translations.js?v=9"></script>
+  <script src="../js/products.js?v=9"></script>
+  <script src="../js/guides.js?v=9"></script>
+  <script src="../js/app.js?v=9"></script>
 </body>
 </html>`;
 
@@ -165,4 +165,21 @@ ${guideUrls}
 fs.writeFileSync(sitemapPath, sitemap, 'utf8');
 console.log(`Generated: sitemap.xml (${guides.length + 6} URLs)`);
 
-console.log(`\nDone! Generated ${total} guide pages + sitemap.`);
+// Generate footer guide links snippet for Google crawlability
+const footerLinks = guides.map(g => {
+  const title = g.title;
+  return `          <li><a href="/guides/${g.id}.html">${esc(title)}</a></li>`;
+}).join('\n');
+const footerHtml = `<!-- GUIDE LINKS FOR GOOGLE CRAWLABILITY - Generated -->
+<div id="guide-links" style="display:none" aria-hidden="true">
+  <ul>
+${footerLinks}
+  </ul>
+</div>
+<!-- END GUIDE LINKS -->`;
+
+const footerPath = path.join(__dirname, '..', 'guides-links-snippet.html');
+fs.writeFileSync(footerPath, footerHtml, 'utf8');
+console.log('Generated: guides-links-snippet.html (paste this into index.html before </body>)');
+
+console.log(`\nDone! Generated ${total} guide pages + sitemap + snippet.`);
