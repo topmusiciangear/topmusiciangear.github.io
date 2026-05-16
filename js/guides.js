@@ -49,7 +49,8 @@ const guides = [
     conclusion_es: "Con esta configuración — Scarlett 2i2, SM57, ATH-M50x, KRK Rokit 7 G5, un soporte K&M y un cable Mogami — puedes grabar, mezclar y publicar música profesional por menos de $1,000. He grabado sesiones exactamente con esta cadena y los resultados están listos para transmitir. Empieza aquí, aprende tu oficio y actualiza solo cuando tu habilidad supere a tu equipo.",
     verdict: "Best overall starter studio",
     verdict_es: "Mejor estudio inicial completo",
-    featuredProducts: [15, 5, 25, 20, 38]
+    featuredProducts: [15, 5, 25, 20, 38],
+    relatedGuides: ["best-interface", "best-microphone", "best-headphones", "best-monitors", "best-accessories"]
   },
   {
     id: "best-interface",
@@ -115,7 +116,8 @@ const guides = [
     conclusion_es: "Compra la Scarlett 2i2 si estás empezando. Consigue la SSL 2+ MKII si quieres carácter. Invierte en la Apollo Twin X si estás listo para ir a nivel profesional. Y si la portabilidad es tu prioridad, la Babyface Pro FS es inmejorable. No puedes equivocarte con ninguna de estas — las he usado todas profesionalmente.",
     verdict: "Scarlett 2i2 for budget, Apollo Twin X for pro",
     verdict_es: "Scarlett 2i2 para presupuesto, Apollo Twin X para profesional",
-    featuredProducts: [15, 18, 16, 17]
+    featuredProducts: [15, 18, 16, 17],
+    relatedGuides: ["starter-studio", "portable-interfaces", "pro-interfaces"]
   },
   {
     id: "best-headphones",
@@ -174,7 +176,8 @@ const guides = [
     conclusion_es: "¿Necesitas un par para todo? Consigue los DT 770 Pro. ¿Solo mezcla? HD 600. ¿Empezando? ATH-M50x. ¿Presupuesto? MDR-7506. Tengo los cuatro y uso diferentes según el trabajo. Si solo pudiera quedarme con uno, sería el HD 600 — pero es porque mezclo más de lo que grabo.",
     verdict: "DT 770 Pro for versatility, HD 600 for mixing",
     verdict_es: "DT 770 Pro para versatilidad, HD 600 para mezcla",
-    featuredProducts: [23, 24, 25, 26]
+    featuredProducts: [23, 24, 25, 26],
+    relatedGuides: ["budget-headphones", "open-headphones", "tracking-headphones", "wireless-headphones"]
   },
   {
     id: "best-microphone",
@@ -247,7 +250,8 @@ const guides = [
     conclusion_es: "Empieza con un SM57 — todo músico necesita uno. Añade el NT1-A cuando quieras grabaciones vocales más limpias. El SM7B es perfecto si haces mucho contenido hablado o quieres ese sonido de transmisión. El C414 y el U87 son inversiones de nivel profesional.",
     verdict: "SM57 for versatility, SM7B for vocals",
     verdict_es: "SM57 para versatilidad, SM7B para voces",
-    featuredProducts: [5, 3, 1, 4, 2]
+    featuredProducts: [5, 3, 1, 4, 2],
+    relatedGuides: ["budget-mics", "usb-mics", "stage-mics", "tube-ribbon-mics"]
   },
   {
     id: "best-monitors",
@@ -306,7 +310,8 @@ const guides = [
     conclusion_es: "¿Ultra-económico? El JBL 305P MkII a $149 cada uno supera a todo en su precio. ¿Mejor calidad-precio? El Kali LP-6 V2 con ecualización de límites es el mejor dinero que gastarás. El KRK Rokit 7 G5 es el caballo de batalla todo-terreno con corrección de sala DSP. El Yamaha HS8 es el estándar de la industria brutalmente honesto. ¿Quieres detalle? El tweeter de cinta del Adam A7V revela cada transitorio. Y para precisión de referencia, el Genelec 8040B es una inversión de por vida. Seis monitores, seis fortalezas diferentes — elige el que coincida con tu sala, tu presupuesto y tus oídos.",
     verdict: "JBL 305P for budget, Yamaha HS8 for mixing, Adam A7V for detail",
     verdict_es: "JBL 305P para presupuesto, Yamaha HS8 para mezcla, Adam A7V para detalle",
-    featuredProducts: [116, 117, 20, 19, 21, 22]
+    featuredProducts: [116, 117, 20, 19, 21, 22],
+    relatedGuides: ["budget-monitors", "pro-monitors", "monitor-setup", "studio-subwoofers"]
   },
   {
     id: "best-plugins",
@@ -358,7 +363,8 @@ const guides = [
     conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Añade Melodyne 5 cuando trabajes con voces. Consigue Komplete 26 Ultimate cuando necesites el kit de producción completo. Estos cinco cubren todo, desde mezcla quirúrgica hasta producción musical completa.",
     verdict: "FabFilter Total Bundle if you can only buy one, Komplete 26 for production, Melodyne 5 for vocals",
     verdict_es: "FabFilter Total Bundle si solo puedes comprar uno, Komplete 26 para producción, Melodyne 5 para voces",
-    featuredProducts: [29, 30, 32, 120, 123]
+    featuredProducts: [29, 30, 32, 120, 123],
+    relatedGuides: ["mixing-plugins", "fx-plugins", "channel-strip-plugins"]
   },
   {
     id: "beat-making",
@@ -403,7 +409,8 @@ const guides = [
     conclusion_es: "Empieza con el MPC One+ — es la herramienta de creación de beats más completa del mercado. Añade el TR-8S cuando quieras control práctico de batería. El KeyLab Essential 61 cubre teclas y control de DAW. Y no escatimes en la interfaz y los auriculares — son cómo escucharás tus beats. Esta es la configuración exacta que compraría si estuviera montando un estudio de beats hoy.",
     verdict: "MPC One+ is the heart of any beat studio",
     verdict_es: "MPC One+ es el corazón de cualquier estudio de beats",
-    featuredProducts: [34, 33, 13, 15, 23]
+    featuredProducts: [34, 33, 13, 15, 23],
+    relatedGuides: ["midi-controllers", "best-plugins", "daw-guide"]
   },
   {
     id: "best-accessories",
@@ -441,7 +448,8 @@ const guides = [
     conclusion_es: "Los accesorios son los héroes anónimos de cada gran grabación y show en vivo. Invierte en cables de calidad (Mogami), soportes sólidos (K&M), estuches protectores (Gator) y clips de micrófono confiables (Shure). Estas son las cosas que seguirás usando dentro de diez años, cuando el preamplificador de lujo ya se haya vendido y el último sintetizador esté acumulando polvo. Compra bien, compra una vez, y concéntrate en hacer música.",
     verdict: "Mogami cables + K&M stands = the studio standard",
     verdict_es: "Mogami cables + soportes K&M = el estándar de estudio",
-    featuredProducts: [38]
+    featuredProducts: [38],
+    relatedGuides: ["studio-furniture"]
   },
   {
     id: "budget-mics",
@@ -472,7 +480,8 @@ const guides = [
     conclusion_es: "Por menos de $200, el SM57 es inmejorable para instrumentos y uso en vivo — es el micrófono más versátil, duradero y esencial jamás creado. Estírate ligeramente a $269 y el NT1-A te da un condensador de estudio genuino con rendimiento de ruido de clase mundial que compite con micrófonos que cuestan tres veces más. Compra el SM57 primero — debería ser el primer micrófono que todo músico posea. Añade el NT1-A cuando estés listo para voces impecables, instrumentos acústicos y cualquier fuente que necesite detalle y silencio. Estos dos micrófonos juntos cubren el 90% de cualquier escenario de grabación que enfrentarás.",
     verdict: "SM57 for versatility, NT1-A for studio quality",
     verdict_es: "SM57 para versatilidad, NT1-A para calidad de estudio",
-    featuredProducts: [5, 3]
+    featuredProducts: [5, 3],
+    relatedGuides: ["best-microphone", "usb-mics", "stage-mics", "tube-ribbon-mics"]
   },
   {
     id: "usb-mics",
@@ -503,7 +512,8 @@ const guides = [
     conclusion_es: "Olvídate de los micrófonos USB por completo. Consigue un SM57 y una Scarlett 2i2 para la cadena de audio de streaming definitiva que durará más que cualquier micrófono USB y sonará dramáticamente mejor desde el primer día. Este combo te da la misma ruta de señal exacta usada por locutores profesionales durante décadas — los mismos micrófonos usados en NPR, BBC y noticieros de grandes cadenas — a un precio que compite con opciones USB de gama alta. Añade el NT1-A cuando tu sala esté tratada y quieras detalle de condensador. Pero empieza con el SM57 y la interfaz. Nunca volverás a USB.",
     verdict: "SM57 + Scarlett 2i2 beats any USB mic",
     verdict_es: "SM57 + Scarlett 2i2 supera a cualquier micrófono USB",
-    featuredProducts: [5, 3]
+    featuredProducts: [5, 3],
+    relatedGuides: ["best-microphone", "budget-mics", "tube-ribbon-mics"]
   },
   {
     id: "stage-mics",
@@ -534,7 +544,8 @@ const guides = [
     conclusion_es: "Compra el SM57 para instrumentos y trabajo de escenario general — es el estándar por una razón y pertenece a todo equipo en vivo. Úsalo en amplificadores de guitarra, cajas, metales e incluso voces cuando la respuesta a 'qué micrófono va aquí' necesita ser 'el que siempre funciona'. El SM7B es tu elección para voces principales cuando quieres ese sonido suave de calidad de transmisión en un entorno en vivo sin sacrificar rechazo de retroalimentación o durabilidad. Juntos, el SM57 y el SM7B cubren cada escenario de escenario que encontrarás — desde el club más pequeño hasta el festival más grande. Ambos sobrevivirán a tu carrera de gira y probablemente a la siguiente también.",
     verdict: "SM57 for stage, SM7B for smooth live vocals",
     verdict_es: "SM57 para escenario, SM7B para voces suaves en vivo",
-    featuredProducts: [5, 1]
+    featuredProducts: [5, 1],
+    relatedGuides: ["best-microphone", "live-sound-pa"]
   },
   {
     id: "portable-interfaces",
@@ -572,7 +583,8 @@ const guides = [
     conclusion_es: "La Babyface Pro FS es la interfaz portátil definitiva para profesionales que se niegan a comprometerse. La Scarlett 2i2 es la elección inteligente de presupuesto que aún ofrece resultados profesionales. La SSL 2+ MKII añade carácter analógico a tus grabaciones móviles. Cualquiera de estas te permitirá capturar la inspiración donde sea que surja — y en este negocio, eso no tiene precio.",
     verdict: "Babyface Pro FS for pro portability, Scarlett 2i2 for value",
     verdict_es: "Babyface Pro FS para portabilidad profesional, Scarlett 2i2 para valor",
-    featuredProducts: [17, 15, 18]
+    featuredProducts: [17, 15, 18],
+    relatedGuides: ["best-interface", "pro-interfaces"]
   },
   {
     id: "open-headphones",
@@ -603,7 +615,8 @@ const guides = [
     conclusion_es: "Si la precisión de mezcla es tu única prioridad, consigue los HD 600 — son los auriculares más honestos por menos de $1,000 y posiblemente por encima. He hecho decisiones finales de mezcla en los HD 600 que se tradujeron impecablemente a monitores de grado masterización, y ese es el mayor cumplido que puedo dar. Si necesitas un auricular para todo, incluyendo algo de sensación abierta y la versatilidad para grabar, mezclar y viajar, los ATH-M50x son la elección práctica que nunca me ha decepcionado. Idealmente, ten ambos: HD 600 para mezcla crítica, M50x para grabación y uso diario. Esa es la configuración de estudio que uso y nunca he mirado atrás.",
     verdict: "HD 600 for pure mixing, ATH-M50x for versatility",
     verdict_es: "HD 600 para mezcla pura, ATH-M50x para versatilidad",
-    featuredProducts: [24, 25]
+    featuredProducts: [24, 25],
+    relatedGuides: ["best-headphones", "budget-headphones", "tracking-headphones"]
   },
   {
     id: "budget-headphones",
@@ -634,7 +647,8 @@ const guides = [
     conclusion_es: "Los MDR-7506 son el campeón indiscutible de presupuesto a $99 — brutalmente honestos, plegables y construidos como un tanque. Siempre tengo un par en mi bolsa de viaje porque me dicen la verdad sobre cualquier mezcla en la que esté trabajando. Los ATH-M50x te dan una experiencia de escucha más refinada con mejor comodidad y calidad de construcción por solo un poco más de dinero. Ambos te enseñarán cómo suenan las buenas mezclas, y esa educación vale mucho más que sus etiquetas de precio. Compra los MDR-7506 si necesitas una herramienta de presupuesto sin compromisos. Compra los ATH-M50x si quieres el mejor todoterreno por menos de $200.",
     verdict: "MDR-7506 for pure value, ATH-M50x for refinement",
     verdict_es: "MDR-7506 por puro valor, ATH-M50x por refinamiento",
-    featuredProducts: [26, 25]
+    featuredProducts: [26, 25],
+    relatedGuides: ["best-headphones", "open-headphones", "tracking-headphones"]
   },
   {
     id: "tracking-headphones",
@@ -665,7 +679,8 @@ const guides = [
     conclusion_es: "El DT 770 Pro es la elección del profesional para grabación — compra un par para ti y nunca necesitarás otro auricular de grabación. La comodidad del velour, el aislamiento y el sonido detallado lo convierten en el rey indiscutible del monitoreo cerrado para grabación. El MDR-7506 es la elección inteligente para construir una colección de auriculares para sesiones con múltiples músicos — compra varios pares y tus invitados del estudio te lo agradecerán. Juntos, estos dos pares cubren cada escenario de grabación, desde sesiones vocales en solitario hasta grabaciones de banda completa en vivo. No dirigiría un estudio sin ambos.",
     verdict: "DT 770 Pro for you, MDR-7506 for the band",
     verdict_es: "DT 770 Pro para ti, MDR-7506 para la banda",
-    featuredProducts: [23, 26]
+    featuredProducts: [23, 26],
+    relatedGuides: ["best-headphones", "budget-headphones", "open-headphones"]
   },
   {
     id: "budget-monitors",
@@ -710,7 +725,8 @@ const guides = [
     conclusion_es: "¿Presupuesto ultra-ajustado? El JBL 305P MkII a $149 cada uno supera a todo cerca de su precio. ¿Mejor calidad-precio? El Kali LP-6 V2 a $199 cada uno añade corrección de sala con ecualización de límites que ningún otro monitor económico ofrece. El KRK Rokit 7 G5 a $249 cada uno es el caballo de batalla DSP con afinación incorporada. Y si puedes estirarte a $349 cada uno, el Yamaha HS8 te da la honestidad brutal sobre la que se hacen mezclas legendarias. Cuatro monitores, cuatro niveles de precio — cada uno mejorará dramáticamente tu mezcla en comparación con auriculares o altavoces de consumo. Conócelos bien.",
     verdict: "JBL 305P for ultra-budget, Kali LP-6 for value, KRK Rokit 7 for DSP",
     verdict_es: "JBL 305P para ultra-económico, Kali LP-6 para valor, KRK Rokit 7 para DSP",
-    featuredProducts: [116, 117, 20, 19]
+    featuredProducts: [116, 117, 20, 19],
+    relatedGuides: ["best-monitors", "budget-monitors", "monitor-setup"]
   },
   {
     id: "pro-monitors",
@@ -741,7 +757,8 @@ const guides = [
     conclusion_es: "El Adam A7V te da la respuesta transitoria más rápida en su clase — perfecto para ingenieros que obsesionan con el detalle. El Genelec 8040B te da el monitoreo más preciso y adaptable a la sala en un paquete compacto — la elección de profesionales en todo el mundo. Ambos representan monitoreo de alta gama genuino que elevará tu mezcla durante años.",
     verdict: "Adam A7V for detail, Genelec 8040B for accuracy",
     verdict_es: "Adam A7V para detalle, Genelec 8040B para precisión",
-    featuredProducts: [21, 22]
+    featuredProducts: [21, 22],
+    relatedGuides: ["best-monitors", "budget-monitors", "monitor-setup"]
   },
   {
     id: "monitor-setup",
@@ -772,7 +789,8 @@ const guides = [
     conclusion_es: "Gasta $698 en Yamaha HS8 y $89 en soportes K&M. Eso es $787 en total por una configuración de monitoreo que revelará más sobre tus mezclas que monitores de $3,000 colocados en un escritorio. Los soportes importan casi tanto como los altavoces — no los omitas. Una vez que tus monitores están correctamente posicionados, puedes escuchar cómo suena realmente tu sala y tomar decisiones informadas de tratamiento.",
     verdict: "HS8 + K&M stands = monitoring truth",
     verdict_es: "HS8 + soportes K&M = verdad en el monitoreo",
-    featuredProducts: [19]
+    featuredProducts: [19],
+    relatedGuides: ["best-monitors", "budget-monitors", "pro-monitors", "studio-subwoofers"]
   },
   {
     id: "mixing-plugins",
@@ -817,7 +835,8 @@ const guides = [
     conclusion_es: "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio. Añade el FabFilter Total Bundle para herramientas de mezcla que son genuinamente las mejores en su clase. Incluye Kontakt 8 cuando necesites un universo de sonidos. Añade Waves Mercury para más de 180 plugins que cubren cada necesidad de producción. Estos cuatro juntos forman un ecosistema completo de mezcla y producción que puede manejar cualquier proyecto.",
     verdict: "FabFilter Total Bundle for precision, Waves Mercury for creative arsenal",
     verdict_es: "FabFilter Total Bundle para precisión, Waves Mercury para arsenal creativo",
-    featuredProducts: [30, 29, 28, 118]
+    featuredProducts: [30, 29, 28, 118],
+    relatedGuides: ["best-plugins", "mixing-plugins", "channel-strip-plugins"]
   },
   {
     id: "fx-plugins",
@@ -848,7 +867,8 @@ const guides = [
     conclusion_es: "Empieza con el Soundtoys 5.5 Bundle — Decapitator, EchoBoy y la colección completa de veintitrés efectos añaden carácter, movimiento y personalidad a tus producciones que nada más puede igualar. Añade ValhallaDSP VintageVerb para reverb de clase mundial a un precio económico que hará que tus mezclas suenen como si se hubieran grabado en una sala real. Y cuando estés listo para control armónico quirúrgico, añade Wavesfactory Spectre para moldear tu saturación con precisión a través de todo el espectro de frecuencia. Estos tres cubren todo, desde diseño de sonido creativo hasta pulido de mezcla, y todos se ganaron su lugar en mi plantilla de mezcla durante muchos años de uso real.",
     verdict: "Soundtoys 5.5 is the only creative effects bundle that matters",
     verdict_es: "Soundtoys 5.5 es el único bundle de efectos creativos que importa",
-    featuredProducts: [32]
+    featuredProducts: [32],
+    relatedGuides: ["best-plugins", "mixing-plugins", "channel-strip-plugins"]
   },
   {
     id: "midi-controllers",
@@ -886,7 +906,8 @@ const guides = [
     conclusion_es: "El Montage M8x es la estación de trabajo todo en uno para productores que quieren integración de hardware y software sin compromisos. El KeyLab Essential 61 es la elección inteligente para productores basados en DAW con presupuesto limitado. El SSL UF8 es el eslabón perdido para ingenieros de mezcla que quieren trabajar con sus manos en lugar de un mouse. Juntos, cubren cada necesidad de superficie de control en un estudio moderno.",
     verdict: "KeyLab Essential 61 for keys, SSL UF8 for mixing",
     verdict_es: "KeyLab Essential 61 para teclas, SSL UF8 para mezcla",
-    featuredProducts: [12, 13, 42]
+    featuredProducts: [12, 13, 42],
+    relatedGuides: ["beat-making", "daw-guide", "best-plugins"]
   },
   {
     id: "studio-furniture",
@@ -931,7 +952,8 @@ const guides = [
     conclusion_es: "Construye bien la base de tu estudio. Empieza con un soporte de micrófono K&M ($49) y soportes de monitor ($89) para posicionar tu equipo correctamente. Añade un cable Mogami XLR ($39) para señal limpia y confiable. Cuando estés listo para subir de nivel tu flujo de trabajo, el SSL UF8 ($1,199) transforma la mezcla de una tarea de pantalla a una experiencia musical. El mobiliario y la configuración correctos no son un gasto — son la base de la que todo lo demás depende.",
     verdict: "Build your foundation before buying more gear",
     verdict_es: "Construye tu base antes de comprar más equipo",
-    featuredProducts: [38, 42]
+    featuredProducts: [38, 42],
+    relatedGuides: ["best-accessories", "monitor-setup"]
   },
 
   {
@@ -963,7 +985,8 @@ const guides = [
     conclusion_es: "El Neumann U 87 Ai te da esa presencia vocal legendaria con calidez de transformador que evoca los mejores diseños de tubo. El AKG C414 XLII es el caballo de batalla versátil que puede imitar técnicas de cinta a través de su patrón polar figura-8 mientras maneja fuentes que sobrecargarían una cinta real. Ambos representan la evolución moderna del carácter de micrófono vintage.",
     verdict: "U 87 Ai for vocals, C414 for ribbon flexibility",
     verdict_es: "U 87 Ai para voces, C414 para flexibilidad de cinta",
-    featuredProducts: [2, 4]
+    featuredProducts: [2, 4],
+    relatedGuides: ["best-microphone", "stage-mics"]
   },
   {
     id: "pro-interfaces",
@@ -994,7 +1017,8 @@ const guides = [
     conclusion_es: "La Apollo Twin X es para productores e ingenieros que quieren efectos en tiempo de grabación y sonido analógico legendario en tiempo real. La Babyface Pro FS es para profesionales que exigen la latencia más baja, los drivers más estables y la conversión más transparente de la industria. Ambas son compras de por vida que sobrevivirán a múltiples actualizaciones de computadora — las compras una vez.",
     verdict: "Apollo Twin X for DSP, Babyface Pro FS for drivers",
     verdict_es: "Apollo Twin X para DSP, Babyface Pro FS para drivers",
-    featuredProducts: [16, 17]
+    featuredProducts: [16, 17],
+    relatedGuides: ["best-interface", "portable-interfaces"]
   },
   {
     id: "wireless-headphones",
@@ -1025,7 +1049,8 @@ const guides = [
     conclusion_es: "Mi recomendación honesta: domina el monitoreo con cable primero. Ten los ATH-M50x para trabajo de estudio general y los MDR-7506 como tu referencia de verdad brutal. Solo entonces explora los inalámbricos como herramienta de conveniencia para escucha casual y comodidad. Los mejores auriculares inalámbricos del mundo no pueden enseñarte cómo suena el monitoreo preciso — pero estas dos leyendas con cable sí lo harán.",
     verdict: "Learn wired monitoring before going wireless",
     verdict_es: "Aprende monitoreo con cable antes de volverte inalámbrico",
-    featuredProducts: [25, 26]
+    featuredProducts: [25, 26],
+    relatedGuides: ["best-headphones", "tracking-headphones"]
   },
   {
     id: "studio-subwoofers",
@@ -1056,7 +1081,8 @@ const guides = [
     conclusion_es: "El KRK Rokit 7 G5 con su flexibilidad DSP es el monitor más fácil de integrar con un subwoofer — las opciones de cruce incorporadas hacen la configuración infalible. El Yamaha HS8 te da suficiente extensión de graves que quizás ni siquiera necesites un sub para la mayoría de los géneros, y su honestidad brutal asegura que tus decisiones de sub sean precisas. Cualquiera de los dos enfoques te dará la verdad en los graves que tus mezclas merecen.",
     verdict: "Start with full-range monitors before adding a sub",
     verdict_es: "Empieza con monitores de rango completo antes de añadir un sub",
-    featuredProducts: [20, 19]
+    featuredProducts: [20, 19],
+    relatedGuides: ["best-monitors", "monitor-setup"]
   },
   {
     id: "channel-strip-plugins",
@@ -1094,7 +1120,8 @@ const guides = [
     conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo. El FabFilter Pro-Q 4 te da la precisión quirúrgica. UAD Ultimate 14 te da el estudio analógico completo en tu DAW. Juntos, cubren cada necesidad de procesamiento de consola y outboard.",
     verdict: "SSL G-Master for glue, UAD Ultimate for analog, Pro-Q 4 for precision",
     verdict_es: "SSL G-Master para pegamento, UAD Ultimate para analógico, Pro-Q 4 para precisión",
-    featuredProducts: [119, 29, 121]
+    featuredProducts: [119, 29, 121],
+    relatedGuides: ["best-plugins", "mixing-plugins", "fx-plugins"]
   },
   {
     id: "cuban-tres",
@@ -1146,7 +1173,8 @@ const guides = [
     conclusion_es: "Para tono de estudio puro, el Deluxe sin cutaway es inmejorable — la tapa sólida de abeto ofrece claridad y sustain que ningún otro modelo iguala. Si tocas líneas melódicas y necesitas acceso a trastes superiores, sube al Deluxe CCW. El Standard CCW es la elección inteligente para músicos de directo, y el Standard Acacia es el mejor valor para principiantes. Y sea cual sea el tres que elijas, invierte en una pastilla de calidad — la K&K Pure Mini, LR Baggs Anthem o Fishman Rare Earth Blend harán tu instrumento listo para el escenario.",
     verdict: "Deluxe for the studio, Standard CCW for gigging, K&K Pure Mini for the stage",
     verdict_es: "Deluxe para el estudio, Standard CCW para directo, K&K Pure Mini para el escenario",
-    featuredProducts: [43, 46, 45, 44]
+    featuredProducts: [43, 46, 45, 44],
+    relatedGuides: ["acoustic-guitars-guide", "fender-guide"]
   },
   {
     id: "fender-guide",
@@ -1198,7 +1226,8 @@ const guides = [
     conclusion_es: "Los instrumentos Fender son las herramientas más versátiles que un músico puede tener. Para música latina, nada supera una Stratocaster — la Player Strat es tu entrada, la Ultra Strat es tu destino. Para rock, blues y country, una Telecaster es esencial — la Player Tele te da el tono, la American Pro II te da la refinación. Para jazz y alternativa, la voz única de la Jazzmaster es irremplazable. En bajo, el Precision y Jazz Bass cubren todos los géneros desde salsa hasta rock. Y no pases por alto la CD-60S — la mejor guitarra acústica para principiantes en precio-calidad.",
     verdict: "Stratocaster for Latin, Telecaster for rock, Precision Bass for everything",
     verdict_es: "Stratocaster para latino, Telecaster para rock, Precision Bass para todo",
-    featuredProducts: [61, 62, 63, 64, 65, 66, 67, 68]
+    featuredProducts: [61, 62, 63, 64, 65, 66, 67, 68],
+    relatedGuides: ["acoustic-guitars-guide", "cuban-tres"]
   },
   {
     id: "guitar-bass-amps",
@@ -1257,7 +1286,8 @@ const guides = [
     conclusion_es: "El Fender Blues Junior IV es el amplificador de guitarra más versátil para músicos profesionales — va del estudio al escenario sin compromisos. Si el presupuesto es ajustado, el Boss Katana 50 MkII te da un valor increíble. Para bajistas, el Fender Rumble 500 V3 es la potencia portátil que entrega tono profesional. Y para ese sonido de rock legendario, el Marshall DSL40CR o el Vox AC30 nunca te defraudarán.",
     verdict: "Fender Blues Junior for versatility, Katana for value, Rumble for bass",
     verdict_es: "Blues Junior para versatilidad, Katana para presupuesto, Rumble para bajo",
-    featuredProducts: [71, 72, 73, 74, 75, 76]
+    featuredProducts: [71, 72, 73, 74, 75, 76],
+    relatedGuides: ["guitar-pedals", "fender-guide", "live-sound-pa"]
   },
   {
     id: "stage-wireless",
@@ -1309,7 +1339,8 @@ const guides = [
     conclusion_es: "Para la mayoría de los músicos, el Shure BLX288/PG58 es el equilibrio perfecto entre precio y rendimiento. Si el presupuesto es ajustado, el AKG WMS420 ofrece un valor increíble. Para profesionales de gira, el Sennheiser EW 100 G4-935 es la elección confiable. Y si necesitas el mejor rendimiento digital, el Shure ULXD24/SM58 es el estándar de oro.",
     verdict: "Shure BLX288 for value, Sennheiser EW 100 for touring",
     verdict_es: "Shure BLX288 para valor, Sennheiser EW 100 para gira",
-    featuredProducts: [91, 92, 93, 94, 95]
+    featuredProducts: [91, 92, 93, 94, 95],
+    relatedGuides: ["live-sound-pa", "stage-mics"]
   },
   {
     id: "guitar-pedals",
@@ -1406,7 +1437,8 @@ const guides = [
     conclusion_es: "Empieza con la Yamaha FG800 — es el mejor valor en guitarras acústicas. La Martin D-28 es la inversión de por vida. Y la Fender CD-60S es perfecta para principiantes.",
     verdict: "Yamaha FG800 for best value, Martin D-28 for the standard",
     verdict_es: "Yamaha FG800 para mejor valor, Martin D-28 para el estándar",
-    featuredProducts: [102, 104, 68]
+    featuredProducts: [102, 104, 68],
+    relatedGuides: ["cuban-tres", "fender-guide"]
   },
   {
     id: "live-sound-pa",
@@ -1458,7 +1490,8 @@ const guides = [
     conclusion_es: "Empieza con un par de EV ZLX-12P para presupuesto. El JBL PRX ONE es el sistema todo-en-uno definitivo. El Yamaha DXR12mkII ofrece sonido profesional. El QSC K12.2 es el estándar de gira. Y ningún PA está completo sin un SM58.",
     verdict: "EV ZLX-12P for budget, QSC K12.2 for pro",
     verdict_es: "EV ZLX-12P para presupuesto, QSC K12.2 para profesional",
-    featuredProducts: [105, 106, 108, 109, 50]
+    featuredProducts: [105, 106, 108, 109, 50],
+    relatedGuides: ["guitar-bass-amps", "stage-wireless", "stage-mics"]
   },
   {
     id: "daw-guide",
@@ -1517,6 +1550,7 @@ const guides = [
     conclusion_es: "Para música electrónica y en vivo, elige Ableton Live. Para mejor valor en Mac, Logic Pro. Para beats, FL Studio. Para grabación profesional, Pro Tools. Cubase es el mejor todo-terreno y Studio One es el futuro.",
     verdict: "Ableton Live for electronic, Logic Pro for value, Pro Tools for recording",
     verdict_es: "Ableton Live para electrónica, Logic Pro para valor, Pro Tools para grabación",
-    featuredProducts: [110, 111, 112, 113, 114, 115]
+    featuredProducts: [110, 111, 112, 113, 114, 115],
+    relatedGuides: ["best-plugins", "beat-making", "best-interface"]
   }
 ];

@@ -319,6 +319,7 @@ function renderGuideDetail(id) {
         <h3>${t("finalThoughts")}</h3>
         <p>${currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion}</p>
       </div>
+      ${guide.relatedGuides ? renderRelatedGuides(guide.relatedGuides) : ""}
       <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
@@ -349,6 +350,20 @@ function renderGuideDetail(id) {
     }, 100);
   }
   skipDetailScroll = false;
+}
+
+function renderRelatedGuides(relatedIds) {
+  const related = guides.filter(g => relatedIds.includes(g.id));
+  if (!related.length) return "";
+  const title = t("relatedGuidesTitle");
+  const cards = related.map(g => {
+    const title = currentLang === 'es' && g.title_es ? g.title_es : g.title;
+    return `<a href="/?g=${g.id}" class="related-guide-card" onclick="event.preventDefault();skipDetailScroll=true;renderGuideDetail('${g.id}');history.pushState({},'','/?g=${g.id}')">
+      <div class="related-guide-img"><img src="${g.image}" alt="${title}" loading="lazy"></div>
+      <div class="related-guide-title">${title}</div>
+    </a>`;
+  }).join("");
+  return `<div class="related-guides-section"><h3 class="related-guides-title">${title}</h3><div class="related-guides-grid">${cards}</div></div>`;
 }
 
 function renderAudioMini() {
