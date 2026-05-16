@@ -1663,8 +1663,8 @@ const products = [
     img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/23718/84829/252105-1510329561115__83787.1715329923.jpg?c=1",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/305PMkII--jbl-305p-mkii-5-inch-powered-studio-monitor",
-      thomann: "https://www.thomann.co.uk/jbl_305p_mkii.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/JBL-305P-MKII-5-Inch-Powered-Studio-Monitor-Single/2RTQ",
+      thomann: "https://www.thomann.co.uk/search_dir.html?sw=JBL+305P+MkII",
+      gear4music: "https://www.gear4music.com/search/?q=JBL+305P+MkII",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   },
@@ -1682,8 +1682,8 @@ const products = [
     img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/19172/64304/_BUN-KALILP6V2-STAND-485034-1641556295631__17584.1715327137.jpg?c=1",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/LP6V2--kali-audio-lp-6-v2-6.5-inch-powered-studio-monitor",
-      thomann: "https://www.thomann.co.uk/kali_audio_lp_6_v2.htm",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-6-V2-6-5-Inch-Studio-Monitor-Single/3H5P",
+      thomann: "https://www.thomann.co.uk/search_dir.html?sw=Kali+Audio+LP-6+V2",
+      gear4music: "https://www.gear4music.com/search/?q=Kali+Audio+LP-6+V2",
       musikproduktiv: "https://www.musik-produktiv.de/search"
     }
   }
