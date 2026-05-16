@@ -178,7 +178,7 @@ function renderProductCard(id) {
   if (!p) return "";
   const title = currentLang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
-  const stars = "Ôÿà".repeat(Math.floor(p.rating)) + (p.rating % 1 >= 0.5 ? "┬¢" : "");
+  const stars = "★".repeat(Math.floor(p.rating)) + (p.rating % 1 >= 0.5 ? "½" : "");
   const stores = Object.entries(getResolvedStores(p)).map(([key, url]) =>
     `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
   ).join("");
@@ -231,7 +231,7 @@ function renderGuideGrid() {
         </div>
         <div class="guide-card-body">
           <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
-          <p class="guide-card-intro">${(() => { const i = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro; return i.length > 150 ? i.slice(0, 150) + 'ÔÇª' : i; })()}</p>
+          <p class="guide-card-intro">${(() => { const i = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro; return i.length > 150 ? i.slice(0, 150) + '…' : i; })()}</p>
           <div class="guide-card-footer">
             <span class="guide-card-meta"><i class="fa-regular fa-clock"></i> ${getReadTime(g)} ${t("minRead")}</span>
             <span class="guide-card-btn">${t("readGuide")}</span>
@@ -395,7 +395,7 @@ function renderAbout() {
   container.innerHTML = `
     <div class="about-photo-col">
       <div class="about-photo-wrapper">
-        <img src="img/me.jpg" alt="Top Musician Gear ÔÇö Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>­ƒÄÁ</div>'">
+        <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
       </div>
     </div>
     <div class="about-content">
