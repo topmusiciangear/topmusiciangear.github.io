@@ -1840,3 +1840,4 @@ const storeIcons = {
   musicstore: '<img src="img/musicstore-icon.png" alt="Music Store" class="store-icon-img">',
   fender: '<img src="img/fender-icon.svg" alt="Fender" class="store-icon-img" style="width:32px;height:32px">'
 };
+if (typeof module !== 'undefined' && module.exports) module.exports = { products, categoryInfo, storeNames, storeColors, storeIcons };

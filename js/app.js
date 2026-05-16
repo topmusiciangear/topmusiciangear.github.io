@@ -256,10 +256,11 @@ function renderGuideDetail(id) {
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "none";
   const grid = document.getElementById("guideGrid");
-  grid.style.display = "block";
+  if (grid) grid.style.display = "block";
   const container = document.getElementById("guideContainer");
-  container.classList.add("guide-detail-open");
-  document.getElementById("guideCats").style.display = "none";
+  if (container) container.classList.add("guide-detail-open");
+  const guideCatsEl = document.getElementById("guideCats");
+  if (guideCatsEl) guideCatsEl.style.display = "none";
   const sortBar = document.querySelector(".sort-bar");
   if (sortBar) sortBar.style.display = "none";
   const sectionHeader = document.querySelector("#guides .section-header");
@@ -522,6 +523,16 @@ document.addEventListener("DOMContentLoaded", () => {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   setTimeout(() => {
+    // Check if we're on a static guide page (/guides/<id>.html)
+    const pathMatch = window.location.pathname.match(/^\/guides\/(.+)\.html$/);
+    if (pathMatch) {
+      const guide = guides.find(g => g.id === pathMatch[1]);
+      if (guide) {
+        history.replaceState({}, '', '/?g=' + guide.id);
+        renderGuideDetail(guide.id);
+        return;
+      }
+    }
     renderGuideCats();
     const q = new URLSearchParams(window.location.search).get('g');
     if (q && guides.find(g => g.id === q)) {

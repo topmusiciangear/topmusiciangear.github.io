@@ -1554,3 +1554,4 @@ const guides = [
     relatedGuides: ["best-plugins", "beat-making", "best-interface"]
   }
 ];
+if (typeof module !== 'undefined' && module.exports) module.exports = { guides };
