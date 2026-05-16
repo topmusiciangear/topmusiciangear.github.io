@@ -660,9 +660,23 @@ const guides = [
     category: "monitors",
     image: "img/budget-monitors.jpg",
     badge: "bestSeller",
-    intro: "You don't need $5,000 monitors to make great mixes. What you need are monitors you trust — speakers that tell you the truth about your low end, your midrange balance, and your stereo image. After mixing on everything from budget nearfields to mastering-grade mains, here are the two pairs under $500 that I genuinely recommend.",
-    intro_es: "No necesitas monitores de $5,000 para hacer grandes mezclas. Lo que necesitas son monitores en los que confíes — altavoces que te digan la verdad sobre tus graves, tu balance de medios y tu imagen estéreo. Después de mezclar en todo, desde nearfields económicos hasta monitores principales de grado masterización, aquí están los dos pares de menos de $500 que genuinamente recomiendo.",
+    intro: "You don't need $5,000 monitors to make great mixes. What you need are monitors you trust — speakers that tell you the truth about your low end, your midrange balance, and your stereo image. After mixing on everything from budget nearfields to mastering-grade mains, here are the four pairs under $500 that I genuinely recommend, starting at just $149 each.",
+    intro_es: "No necesitas monitores de $5,000 para hacer grandes mezclas. Lo que necesitas son monitores en los que confíes — altavoces que te digan la verdad sobre tus graves, tu balance de medios y tu imagen estéreo. Después de mezclar en todo, desde nearfields económicos hasta monitores principales de grado masterización, aquí están los cuatro pares de menos de $500 que genuinamente recomiendo, empezando desde solo $149 cada uno.",
     sections: [
+      {
+        heading: "Best Ultra-Budget: JBL 305P MkII",
+        heading_es: "Mejor Ultra-Económico: JBL 305P MkII",
+        content: "At $149 each ($298 a pair), the JBL 305P MkII is the monitor I recommend when someone says 'I want great sound but I'm on a shoestring budget.' JBL's Image Control Waveguide creates an incredibly wide sweet spot — no need to lock your head in a vice. The 5-inch woofer delivers tight, accurate bass that belies its modest size. I've mixed on these in hotel rooms and the results translated perfectly to my main monitors. For the price of a single high-end monitor, you get a stereo pair that will teach you what good monitoring sounds like.",
+        content_es: "A $149 cada uno ($298 el par), el JBL 305P MkII es el monitor que recomiendo cuando alguien dice 'quiero un gran sonido pero tengo un presupuesto muy ajustado.' La guía de onda Image Control de JBL crea un punto dulce increíblemente amplio — sin necesidad de bloquear tu cabeza en un tornillo. El woofer de 5 pulgadas ofrece graves ajustados y precisos. He mezclado con estos en habitaciones de hotel y los resultados se tradujeron perfectamente a mis monitores principales. Por el precio de un solo monitor de gama alta, obtienes un par estéreo que te enseñará cómo suena un buen monitoreo.",
+        products: [116]
+      },
+      {
+        heading: "Best Value: Kali Audio LP-6 V2",
+        heading_es: "Mejor Calidad-Precio: Kali Audio LP-6 V2",
+        content: "Kali Audio was founded by former JBL engineers, and the LP-6 V2 shows they learned exactly what budget monitors were missing. The 6.5-inch woofer goes deeper than the JBL, and the boundary EQ dip switches actually compensate for your room — tell the speaker if it's on a desk, near a wall, or in a corner, and the DSP adjusts. No other monitor under $400 offers real room correction. At $199 each ($398 a pair), these are the monitors that made me rethink what 'budget' even means. The bass is surprisingly deep, the midrange is natural, and the overall balance competes with monitors costing twice as much.",
+        content_es: "Kali Audio fue fundada por antiguos ingenieros de JBL, y el LP-6 V2 demuestra que aprendieron exactamente lo que les faltaba a los monitores económicos. El woofer de 6.5 pulgadas llega más profundo que el JBL, y los interruptores DIP de ecualización de límites compensan tu habitación — dile al altavoz si está en un escritorio, cerca de una pared o en una esquina, y el DSP se ajusta. Ningún otro monitor por menos de $400 ofrece corrección de sala real. A $199 cada uno ($398 el par), estos son los monitores que me hicieron repensar lo que significa 'económico'. Los graves son sorprendentemente profundos, los medios naturales, y el balance general compite con monitores del doble de precio.",
+        products: [117]
+      },
       {
         heading: "Best Under $500: KRK Rokit 7 G5",
         heading_es: "Mejor Menos de $500: KRK Rokit 7 G5",
@@ -678,11 +692,11 @@ const guides = [
         products: [19]
       }
     ],
-    conclusion: "The KRK Rokit 7 G5 is the best monitor under $500, period — DSP room correction, solid bass, and a proven track record. If you can stretch to $698, the Yamaha HS8 gives you the brutal honesty that legendary mixes are made on. Either will dramatically improve your mixing compared to headphones or consumer speakers. Learn them well.",
-    conclusion_es: "El KRK Rokit 7 G5 es el mejor monitor por menos de $500, punto — corrección de sala DSP, graves sólidos y un historial probado. Si puedes estirarte a $698, el Yamaha HS8 te da la honestidad brutal sobre la que se hacen mezclas legendarias. Cualquiera mejorará dramáticamente tu mezcla en comparación con auriculares o altavoces de consumo. Conócelos bien.",
-    verdict: "KRK Rokit 7 under $500, Yamaha HS8 if you can stretch",
-    verdict_es: "KRK Rokit 7 por menos de $500, Yamaha HS8 si puedes estirarte",
-    featuredProducts: [20, 19]
+    conclusion: "Ultra-tight budget? The JBL 305P MkII at $149 each beats everything near its price. Best value? The Kali LP-6 V2 at $199 each adds boundary EQ room correction that no other budget monitor offers. The KRK Rokit 7 G5 at $249 each is the DSP workhorse with built-in tuning. And if you can stretch to $349 each, the Yamaha HS8 gives you the brutal honesty that legendary mixes are made on. Four monitors, four price points — every one will dramatically improve your mixing compared to headphones or consumer speakers. Learn them well.",
+    conclusion_es: "¿Presupuesto ultra-ajustado? El JBL 305P MkII a $149 cada uno supera a todo cerca de su precio. ¿Mejor calidad-precio? El Kali LP-6 V2 a $199 cada uno añade corrección de sala con ecualización de límites que ningún otro monitor económico ofrece. El KRK Rokit 7 G5 a $249 cada uno es el caballo de batalla DSP con afinación incorporada. Y si puedes estirarte a $349 cada uno, el Yamaha HS8 te da la honestidad brutal sobre la que se hacen mezclas legendarias. Cuatro monitores, cuatro niveles de precio — cada uno mejorará dramáticamente tu mezcla en comparación con auriculares o altavoces de consumo. Conócelos bien.",
+    verdict: "JBL 305P for ultra-budget, Kali LP-6 for value, KRK Rokit 7 for DSP",
+    verdict_es: "JBL 305P para ultra-económico, Kali LP-6 para valor, KRK Rokit 7 para DSP",
+    featuredProducts: [116, 117, 20, 19]
   },
   {
     id: "pro-monitors",
