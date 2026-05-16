@@ -2037,6 +2037,7 @@ body::before {
 
 html[lang="en"] .lang-show-es { display: none; }
 html[lang="es"] .lang-show-en { display: none; }
+.cookie-lang-es{display:none}html[lang="es"] .cookie-lang-es{display:inline}html[lang="es"] .cookie-lang-en{display:none}
 .about-video {
   margin: 24px auto;
   border-radius: var(--radius-lg);
