@@ -530,6 +530,9 @@ document.addEventListener("DOMContentLoaded", () => {
           renderGuideGrid();
         }
       }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+      renderGuideGrid();
     }
     renderAudioMini();
     renderMySetup();
