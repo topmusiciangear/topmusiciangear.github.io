@@ -1660,7 +1660,7 @@ const products = [
     badge: "bestSeller",
     desc: "The legendary budget monitor with JBL's Image Control Waveguide for a massive sweet spot and stunning stereo imaging. 5-inch woofer with patented Slip Stream port delivers tight, accurate bass in any room.",
     desc_es: "El legendario monitor económico con la guía de onda Image Control de JBL para un punto dulce masivo y una imagen estéreo impresionante. Woofer de 5 pulgadas con puerto Slip Stream patentado ofrece graves ajustados y precisos.",
-    img: "https://media.sweetwater.com/m/products/image/440a94a9d1nBAW67EGiBcAx4qU7UCyN8s9DhGRMW.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=440a94a9d1e20f28",
+    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/23718/84829/252105-1510329561115__83787.1715329923.jpg?c=1",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/305PMkII--jbl-305p-mkii-5-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/jbl_305p_mkii.htm",
