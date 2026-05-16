@@ -1679,7 +1679,7 @@ const products = [
     badge: "recommended",
     desc: "The best value studio monitor with boundary EQ compensation for perfect sound in any room. 6.5-inch woofer with large voice coil delivers exceptional bass extension and clarity.",
     desc_es: "El mejor monitor de estudio calidad-precio con compensación de ecualización de límites para un sonido perfecto en cualquier habitación. Woofer de 6.5 pulgadas con bobina grande ofrece una extensión de graves y claridad excepcionales.",
-    img: "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/18987/63646/_BUN-KALILP6V2-FOAM-BUN-KALILP6V2-FOAM-__06925.1715151195.jpg?c=1",
+    img: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/510834.jpg",
     stores: {
       sweetwater: "https://www.sweetwater.com/store/detail/LP6V2--kali-audio-lp-6-v2-6.5-inch-powered-studio-monitor",
       thomann: "https://www.thomann.co.uk/kali_audio_lp_6_v2.htm",
