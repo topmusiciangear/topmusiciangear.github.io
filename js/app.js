@@ -125,10 +125,10 @@ function getFilteredGuides() {
 function getResolvedStores(product) {
   const s = {};
   Object.entries(product.stores).forEach(([key, url]) => {
-    if (key === 'gear4music' && url === 'https:
-      s[key] = `https:
-    } else if (key === 'musikproduktiv' && url === 'https:
-      s[key] = `https:
+    if (key === 'gear4music' && url === 'https://www.gear4music.com/search') {
+      s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
+    } else if (key === 'musikproduktiv' && url === 'https://www.musik-produktiv.de/search') {
+      s[key] = `https://www.musik-produktiv.de/search?q=${encodeURIComponent(product.title)}`;
     } else {
       s[key] = url;
     }
@@ -137,22 +137,22 @@ function getResolvedStores(product) {
     }
   });
   if (product.category !== 'plugins' && product.category !== 'tres') {
-    s.amazon = `https:
+    s.amazon = `https://www.amazon.co.uk/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
     if (product.stores.amazon) {
       if (product.stores.amazon.includes('/dp/')) {
-        s.amazon = product.stores.amazon.replace('https:
+        s.amazon = product.stores.amazon.replace('https://www.amazon.com/', 'https://www.amazon.co.uk/') + '?tag=topmusicg-20';
       } else if (product.stores.amazon.includes('amazon.co.uk')) {
         s.amazon = product.stores.amazon + (product.stores.amazon.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       }
     }
     if (product.stores.reverb) {
-      s.reverb = `https:
+      s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&p=${encodeURIComponent(product.stores.reverb)}`;
     } else {
-      s.reverb = `https:
+      s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&p=${encodeURIComponent(`https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`)}`;
     }
-    if (!product.stores.andertons) s.andertons = `https:
-    if (!product.stores.baxmusic) s.baxmusic = `https:
-    if (!product.stores.musicstore) s.musicstore = `https:
+    if (!product.stores.andertons) s.andertons = `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(product.title)}&irgwc=1&irpid=7292297`;
+    if (!product.stores.baxmusic) s.baxmusic = `https://www.bax-shop.co.uk/catalogsearch/result/?q=${encodeURIComponent(product.title)}`;
+    if (!product.stores.musicstore) s.musicstore = `https://www.musicstore.com/en_GB/GBP/search?SearchTerm=${encodeURIComponent(product.title)}`;
   }
   return s;
 }
@@ -269,8 +269,9 @@ function renderGuideDetail(id) {
   const hero = document.getElementById("hero");
   if (hero) hero.style.display = "none";
 
+  // Set canonical URL for this guide
   const existingCanonical = document.querySelector('link[rel="canonical"]');
-  if (existingCanonical) existingCanonical.href = 'https:
+  if (existingCanonical) existingCanonical.href = 'https://topmusiciangear.com/?g=' + guide.id;
 
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
@@ -294,13 +295,13 @@ function renderGuideDetail(id) {
     if (!p) return "";
     const name = currentLang === 'es' && p.title_es ? p.title_es : p.title;
     const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
-    return `<script type="application/ld+json">{"@context":"https:
+    return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"${name.replace(/"/g,'\\"')}","description":"${desc.replace(/"/g,'\\"').replace(/\n/g,' ')}","image":"${p.img}","offers":{"@type":"Offer","price":${p.price},"priceCurrency":"USD","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":${p.rating},"reviewCount":${p.reviews}}}</` + `script>`;
   }).join("");
 
   const title = currentLang === 'es' && guide.title_es ? guide.title_es : guide.title;
 
   grid.innerHTML = `
-    <script type="application/ld+json">{"@context":"https:
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${title.replace(/"/g,'\\"')}","description":"${(currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro).replace(/"/g,'\\"').substring(0,200)}","image":"${guide.image}","author":{"@type":"Person","name":"Daniel"},"datePublished":"2026-01-15","dateModified":"2026-05-15"}</` + `script>
     <div class="guide-detail">
       <div class="guide-back-row">
         <button class="guide-back-btn" id="guideBackBtn1"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
@@ -534,7 +535,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   setTimeout(() => {
-    
+    // Check if we're on a static guide page (/guides/<id>.html)
     const pathMatch = window.location.pathname.match(/^\/guides\/(.+)\.html$/);
     if (pathMatch) {
       const guide = guides.find(g => g.id === pathMatch[1]);
