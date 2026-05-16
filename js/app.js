@@ -650,7 +650,7 @@ window.goToSection = function(sectionId) {
   setTimeout(() => {
     const el = sectionId === 'about' ? document.getElementById('aboutPhoto') : document.getElementById(sectionId);
     if (el) {
-      const offset = sectionId === 'guides' ? 64 : 80;
+      const offset = sectionId === 'guides' ? 0 : 80;
       const top = el.getBoundingClientRect().top + window.pageYOffset - offset;
       window.scrollTo({ top: top, behavior: 'smooth' });
     }
