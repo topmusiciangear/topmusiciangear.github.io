@@ -345,13 +345,20 @@ const guides = [
         content: "Melodyne 5 is the tool that changed vocal production forever. Unlike auto-tune, Melodyne lets you edit individual notes within a vocal performance — fix pitch, adjust timing, change formants, and even modify individual notes within polyphonic audio. It's surgical, transparent, and used on virtually every professional vocal production. I use it to tighten harmonies, fix slight pitch drifts, and creatively re-pitch vocal layers. At $99 for the essentials version, it's the best investment you can make in your vocal chain. Once you hear what it can do, you'll never mix vocals without it.",
         content_es: "Melodyne 5 es la herramienta que cambió la producción vocal para siempre. A diferencia del auto-tune, Melodyne te permite editar notas individuales dentro de una interpretación vocal — corrige tono, ajusta tiempo, cambia formantes e incluso modifica notas individuales dentro de audio polifónico. Es quirúrgico, transparente, y se usa en prácticamente cada producción vocal profesional. Lo uso para ajustar armonías, corregir pequeñas desviaciones de tono y re-afinar capas vocales creativamente. A $99 para la versión essentials, es la mejor inversión que puedes hacer en tu cadena vocal. Una vez que escuches lo que puede hacer, nunca mezclarás voces sin él.",
         products: [120]
+      },
+      {
+        heading: "The Synth Universe: Spectrasonics Omnisphere 2",
+        heading_es: "El Universo de Sintetizadores: Spectrasonics Omnisphere 2",
+        content: "Omnisphere 2 is the most powerful virtual synthesizer ever created. Over 14,000 sounds spanning every genre and style — from lush orchestral pads to gritty EDM basses, from world instruments to sound design textures. The synthesis engine combines wavetable, granular, sample-based, and Harmonia synthesis, while the hardware synth integration lets you use over 65 hardware synths as controllers. The built-in effects rack is studio-quality, and the Sound Lock feature lets you swap sounds while keeping effects and arpeggiator settings. At $499, it's the synth that film composers, producers, and sound designers reach for first. Once you experience Omnisphere, you understand why it's the industry standard for creative synthesis.",
+        content_es: "Omnisphere 2 es el sintetizador virtual más potente jamás creado. Más de 14,000 sonidos que abarcan cada género y estilo — desde exuberantes pads orquestales hasta contundentes bajos EDM, desde instrumentos del mundo hasta texturas de diseño sonoro. El motor de síntesis combina wavetable, granular, basado en samples y síntesis Harmonia, mientras que la integración de hardware te permite usar más de 65 sintetizadores hardware como controladores. El rack de efectos incorporado es de calidad estudio, y la función Sound Lock te permite intercambiar sonidos manteniendo los efectos y arpegiadores. A $499, es el sintetizador al que primero recurren compositores de cine, productores y diseñadores de sonido. Una vez que experimentas Omnisphere, entiendes por qué es el estándar de la industria para síntesis creativa.",
+        products: [123]
       }
     ],
-    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. Add Melodyne 5 when you're working with vocals. These four cover everything from surgical mixing to professional vocal production.",
-    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Añade Melodyne 5 cuando trabajes con voces. Estos cuatro cubren todo, desde mezcla quirúrgica hasta producción vocal profesional.",
-    verdict: "FabFilter Total Bundle if you can only buy one, Melodyne 5 for vocals",
-    verdict_es: "FabFilter Total Bundle si solo puedes comprar uno, Melodyne 5 para voces",
-    featuredProducts: [29, 30, 32, 120]
+    conclusion: "Start with FabFilter Pro-Q 4 (part of the Total Bundle). Add Ozone 12 when you need mastering tools. Get Soundtoys when you want to get creative. Add Melodyne 5 when working with vocals. Get Omnisphere 2 when you need the ultimate synthesizer. These five cover everything from surgical mixing to creative sound design.",
+    conclusion_es: "Empieza con FabFilter Pro-Q 4 (parte del Total Bundle). Añade Ozone 12 cuando necesites herramientas de masterización. Consigue Soundtoys cuando quieras ser creativo. Añade Melodyne 5 cuando trabajes con voces. Consigue Omnisphere 2 cuando necesites el sintetizador definitivo. Estos cinco cubren todo, desde mezcla quirúrgica hasta diseño de sonido creativo.",
+    verdict: "FabFilter Total Bundle if you can only buy one, Omnisphere 2 for synthesis, Melodyne 5 for vocals",
+    verdict_es: "FabFilter Total Bundle si solo puedes comprar uno, Omnisphere 2 para síntesis, Melodyne 5 para voces",
+    featuredProducts: [29, 30, 32, 120, 123]
   },
   {
     id: "beat-making",
@@ -797,13 +804,20 @@ const guides = [
         content: "Kontakt 8 is the industry-standard sampler platform, and for good reason. Over 900 instruments in the factory library alone, with third-party libraries numbering in the thousands. From orchestral strings by Orchestral Tools to vintage synthesizers to world instruments, if a sound exists, there's probably a Kontakt library for it. The new browser makes finding sounds fast, and the revamped effects section means you can shape sounds without leaving Kontakt. For producers who need access to every instrument imaginable, Kontakt 8 is essential infrastructure.",
         content_es: "Kontakt 8 es la plataforma de sampler estándar de la industria, y por buenas razones. Más de 900 instrumentos solo en la biblioteca de fábrica, con bibliotecas de terceros que se cuentan por miles. Desde cuerdas orquestales de Orchestral Tools hasta sintetizadores vintage e instrumentos del mundo, si un sonido existe, probablemente haya una biblioteca de Kontakt para él. El nuevo navegador hace que encontrar sonidos sea rápido, y la sección de efectos renovada significa que puedes dar forma a los sonidos sin salir de Kontakt. Para productores que necesitan acceso a cada instrumento imaginable, Kontakt 8 es infraestructura esencial.",
         products: [28]
+      },
+      {
+        heading: "The Complete Arsenal: Waves Mercury Bundle",
+        heading_es: "El Arsenal Completo: Waves Mercury Bundle",
+        content: "If FabFilter is the precision toolkit, Waves Mercury is the creative arsenal. 180+ plugins covering every era of audio processing — SSL, Neve, and API console emulations, legendary Abbey Road chambers, the Renaissance series for pro-level dynamics and EQ, and specialty tools like Vocal Rider, Bass Rider, and the JJP analog legends series. The Mercury bundle is what you buy when you want to stop shopping for plugins and start having every tool you'll ever need. At $1,499, it's the industry standard bundle found in professional studios worldwide. Combined with FabFilter for surgical precision, you have the ultimate mixing toolkit.",
+        content_es: "Si FabFilter es el kit de herramientas de precisión, Waves Mercury es el arsenal creativo. Más de 180 plugins que cubren cada era del procesamiento de audio — emulaciones de consola SSL, Neve y API, legendarias cámaras Abbey Road, la serie Renaissance para dinámicas y ecualización de nivel profesional, y herramientas especializadas como Vocal Rider, Bass Rider y la serie de leyendas analógicas JJP. El bundle Mercury es lo que compras cuando quieres dejar de buscar plugins y empezar a tener cada herramienta que necesitarás. A $1,499, es el bundle estándar de la industria encontrado en estudios profesionales de todo el mundo. Combinado con FabFilter para precisión quirúrgica, tienes el kit de mezcla definitivo.",
+        products: [118]
       }
     ],
-    conclusion: "Start with Ozone 12 Advanced for mastering that sounds professional out of the gate. Add the FabFilter Total Bundle for mixing tools that are genuinely best-in-class. Include Kontakt 8 when you need a universe of sounds at your fingertips. These three together form a complete mixing and production ecosystem that can handle any project.",
-    conclusion_es: "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio. Añade el FabFilter Total Bundle para herramientas de mezcla que son genuinamente las mejores en su clase. Incluye Kontakt 8 cuando necesites un universo de sonidos al alcance de tus dedos. Estos tres juntos forman un ecosistema completo de mezcla y producción que puede manejar cualquier proyecto.",
-    verdict: "FabFilter Total Bundle is worth every penny",
-    verdict_es: "FabFilter Total Bundle vale cada centavo",
-    featuredProducts: [30, 29, 28]
+    conclusion: "Start with Ozone 12 Advanced for mastering that sounds professional out of the gate. Add the FabFilter Total Bundle for mixing tools that are genuinely best-in-class. Include Kontakt 8 when you need a universe of sounds. Add Waves Mercury for 180+ plugins covering every production need. These four together form a complete mixing and production ecosystem that can handle any project.",
+    conclusion_es: "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio. Añade el FabFilter Total Bundle para herramientas de mezcla que son genuinamente las mejores en su clase. Incluye Kontakt 8 cuando necesites un universo de sonidos. Añade Waves Mercury para más de 180 plugins que cubren cada necesidad de producción. Estos cuatro juntos forman un ecosistema completo de mezcla y producción que puede manejar cualquier proyecto.",
+    verdict: "FabFilter Total Bundle for precision, Waves Mercury for creative arsenal",
+    verdict_es: "FabFilter Total Bundle para precisión, Waves Mercury para arsenal creativo",
+    featuredProducts: [30, 29, 28, 118]
   },
   {
     id: "fx-plugins",
@@ -823,13 +837,6 @@ const guides = [
         products: [32]
       },
       {
-        heading: "The Reverb Specialist: ValhallaDSP VintageVerb",
-        heading_es: "El Especialista en Reverb: ValhallaDSP VintageVerb",
-        content: "ValhallaDSP VintageVerb is the best reverb plugin under $200, and I will die on that hill. Created by Sean Costello, a legend in the DSP world, VintageVerb models the classic digital reverb units from the 1970s and 1980s — the Lexicon 224, the EMT 250, the Quantec QRS — with stunning authenticity that makes your mixes sound like they were tracked in a world-class room. The hallmark of VintageVerb is its simplicity: you get a handful of algorithms (Hall, Plate, Room, Spring, Inverse, and more), a few essential controls (Decay, Size, Pre-Delay, Diffusion), and the magic happens instantly without menu-diving. The modulation section adds that subtle pitch warble that made vintage digital reverbs sound so musical and three-dimensional. I use VintageVerb on everything: vocals get a medium hall with 2.2-second decay, drums get a plate with short attack, lead guitars get a room with high diffusion. At $50, VintageVerb sounds better than reverbs that cost ten times as much. It's the most cost-effective upgrade to your mix that money can buy.",
-        content_es: "ValhallaDSP VintageVerb es el mejor plugin de reverb por menos de $200, y defenderé esa opinión hasta el final. Creado por Sean Costello, una leyenda en el mundo DSP, VintageVerb modela las unidades clásicas de reverb digital de los años 70 y 80 — el Lexicon 224, el EMT 250, el Quantec QRS — con una autenticidad impresionante que hace que tus mezclas suenen como si se hubieran grabado en una sala de clase mundial. La característica principal de VintageVerb es su simplicidad: tienes un puñado de algoritmos (Hall, Plate, Room, Spring, Inverse y más), algunos controles esenciales (Decay, Size, Pre-Delay, Diffusion), y la magia sucede instantáneamente sin tener que navegar menús. La sección de modulación añade ese vacilación de tono sutil que hizo que las reverberaciones digitales vintage sonaran tan musicales y tridimensionales. Uso VintageVerb en todo: las voces reciben un hall mediano con 2.2 segundos de decay, la batería recibe una placa con ataque corto, las guitarras principales reciben una sala con difusión alta. A $50, VintageVerb suena mejor que reverberaciones que cuestan diez veces más. Es la mejora más rentable para tu mezcla que el dinero puede comprar.",
-        products: [118]
-      },
-      {
         heading: "Next-Level Saturation: Wavesfactory Spectre",
         heading_es: "Saturación de Siguiente Nivel: Wavesfactory Spectre",
         content: "Spectre is not your typical saturation plugin. Instead of just adding harmonics, it lets you draw the exact saturation curve you want across the frequency spectrum. You create nodes on a visual graph — boost 2kHz by 3dB of distortion to make vocals cut through, add 100Hz of tape-style saturation to warm up the bass, or apply gentle tube harmonic saturation to the entire high end at 8kHz for air and openness. Each frequency band can use a different saturation type: tape, tube, transistor, digital, or console. The result is surgical harmonic control that no other plugin offers. I use Spectre to add presence to dull vocal tracks, to give acoustic guitars a vintage warmth without EQ, and to make synth pads sound thicker and more three-dimensional. The mix knob lets you blend the saturated signal with the dry, which means you can apply extreme settings and blend them subtly. At $99, Spectre is a secret weapon that most engineers haven't discovered yet. It's the most innovative saturation tool I've added to my arsenal in years.",
@@ -841,7 +848,7 @@ const guides = [
     conclusion_es: "Empieza con el Soundtoys 5.5 Bundle — Decapitator, EchoBoy y la colección completa de veintitrés efectos añaden carácter, movimiento y personalidad a tus producciones que nada más puede igualar. Añade ValhallaDSP VintageVerb para reverb de clase mundial a un precio económico que hará que tus mezclas suenen como si se hubieran grabado en una sala real. Y cuando estés listo para control armónico quirúrgico, añade Wavesfactory Spectre para moldear tu saturación con precisión a través de todo el espectro de frecuencia. Estos tres cubren todo, desde diseño de sonido creativo hasta pulido de mezcla, y todos se ganaron su lugar en mi plantilla de mezcla durante muchos años de uso real.",
     verdict: "Soundtoys 5.5 is the only creative effects bundle that matters",
     verdict_es: "Soundtoys 5.5 es el único bundle de efectos creativos que importa",
-    featuredProducts: [32, 118]
+    featuredProducts: [32]
   },
   {
     id: "midi-controllers",
@@ -1074,13 +1081,20 @@ const guides = [
         content: "While console emulation brings character, the FabFilter Pro-Q 4 brings surgical precision. Modern channel strips need dynamic EQ — the ability to apply EQ only when a frequency gets too loud — and Pro-Q 4 does it better than anything else. The spectral display shows you exactly what's happening in real time. Build a channel strip by combining Pro-Q 4 for surgical EQ with a console emulation for character, and you have the best of both worlds: modern precision and vintage vibe. Pro-Q 4's dynamic bands can tame harsh vocal frequencies, control boomy bass notes, and manage cymbal brightness — all without coloring the signal when it's behaving.",
         content_es: "Mientras que la emulación de consola trae carácter, el FabFilter Pro-Q 4 trae precisión quirúrgica. Los channel strips modernos necesitan ecualización dinámica — la capacidad de aplicar ecualización solo cuando una frecuencia se vuelve demasiado fuerte — y Pro-Q 4 lo hace mejor que nada más. La pantalla espectral te muestra exactamente lo que está sucediendo en tiempo real. Construye un channel strip combinando Pro-Q 4 para ecualización quirúrgica con una emulación de consola para carácter, y tienes lo mejor de ambos mundos: precisión moderna y vibra vintage. Las bandas dinámicas de Pro-Q 4 pueden domar frecuencias vocales ásperas, controlar notas de bajo retumbantes y manejar el brillo de platillos — todo sin colorear la señal cuando se está comportando.",
         products: [29]
+      },
+      {
+        heading: "The Analog Vault: Universal Audio UAD Ultimate 12",
+        heading_es: "La Bóveda Analógica: Universal Audio UAD Ultimate 12",
+        content: "UAD Ultimate 12 is the complete collection of Universal Audio's legendary analog emulations — over 100 plugins covering every piece of vintage hardware that shaped recorded music. Neve 1073 preamps and EQs, API 2500 bus compressor, SSL 4000 E channel strip, Manley Variable Mu and Massive Passive, Ampex ATR-102 and Studer A800 tape machines, EMT 140 and 250 reverbs, and the complete Teletronix LA-2A and 1176 collections. These aren't approximations — UAD models every circuit, every transformer, every tube stage down to the component level. The Unison preamp technology actually changes impedance to match the hardware. This is the sound of Abbey Road, Sunset Sound, and Electric Lady in your laptop. At $999, it's the most authentic analog experience in the plugin world.",
+        content_es: "UAD Ultimate 12 es la colección completa de las legendarias emulaciones analógicas de Universal Audio — más de 100 plugins que cubren cada pieza de hardware vintage que dio forma a la música grabada. Preamplificadores y ecualizadores Neve 1073, compresor de bus API 2500, channel strip SSL 4000 E, Manley Variable Mu y Massive Passive, máquinas de cinta Ampex ATR-102 y Studer A800, reverbs EMT 140 y 250, y las colecciones completas Teletronix LA-2A y 1176. No son aproximaciones — UAD modela cada circuito, cada transformador, cada etapa de tubo a nivel de componente. La tecnología de preamplificador Unison realmente cambia la impedancia para igualar el hardware. Este es el sonido de Abbey Road, Sunset Sound y Electric Lady en tu laptop. A $999, es la experiencia analógica más auténtica en el mundo de los plugins.",
+        products: [121]
       }
     ],
-    conclusion: "The Waves SSL G-Master Buss Compressor gives you the glue and punch of the world's most famous console — the sound that defined modern mixing. The FabFilter Pro-Q 4 gives you the surgical precision to fix problems before they reach your console emulation. Together, they form a hybrid channel strip that combines vintage character with modern clarity. Use both on every mix.",
-    conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo — el sonido que definió la mezcla moderna. El FabFilter Pro-Q 4 te da la precisión quirúrgica para arreglar problemas antes de que lleguen a tu emulación de consola. Juntos, forman un channel strip híbrido que combina carácter vintage con claridad moderna. Usa ambos en cada mezcla.",
-    verdict: "SSL G-Master for glue, Pro-Q 4 for precision",
-    verdict_es: "SSL G-Master para pegamento, Pro-Q 4 para precisión",
-    featuredProducts: [119, 29]
+    conclusion: "The Waves SSL G-Master Buss Compressor gives you the glue and punch of the world's most famous console — the sound that defined modern mixing. The FabFilter Pro-Q 4 gives you the surgical precision to fix problems. UAD Ultimate 12 gives you the complete analog studio in your DAW. Together, they cover every console and outboard processing need.",
+    conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo. El FabFilter Pro-Q 4 te da la precisión quirúrgica. UAD Ultimate 12 te da el estudio analógico completo en tu DAW. Juntos, cubren cada necesidad de procesamiento de consola y outboard.",
+    verdict: "SSL G-Master for glue, UAD Ultimate for analog, Pro-Q 4 for precision",
+    verdict_es: "SSL G-Master para pegamento, UAD Ultimate para analógico, Pro-Q 4 para precisión",
+    featuredProducts: [119, 29, 121]
   },
   {
     id: "cuban-tres",

@@ -1689,17 +1689,17 @@ const products = [
   },
   {
     id: 118,
-    title: "ValhallaDSP VintageVerb",
-    title_es: "ValhallaDSP VintageVerb",
+    title: "Waves Mercury Bundle",
+    title_es: "Waves Mercury Bundle",
     category: "plugins",
-    price: 50,
-    rating: 4.9,
-    reviews: 8920,
-    badge: "topQuality",
-    desc: "The best reverb plugin under $200. Models classic digital reverb units from the 70s and 80s with stunning authenticity. Simple, musical, and sounds better than reverbs costing ten times as much.",
-    desc_es: "El mejor plugin de reverb por menos de $200. Modela unidades clásicas de reverb digital de los 70s y 80s con una autenticidad impresionante. Simple, musical, y suena mejor que reverbs que cuestan diez veces más.",
-    img: "https://valhalladsp.com/wp-content/uploads/2021/02/VintageVerb-screenshot-1.png",
-    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=ValhallaDSP+VintageVerb&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/VintageVerb--valhalladsp-vintageverb-reverb-plugin", thomann: "https://www.thomann.co.uk/search_dir.html?sw=ValhallaDSP+VintageVerb", gear4music: "https://www.gear4music.com/search/?q=ValhallaDSP+VintageVerb", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    price: 1499,
+    rating: 4.8,
+    reviews: 5670,
+    badge: "premium",
+    desc: "The ultimate Waves collection. 180+ plugins covering every mixing, mastering, and production task imaginable. From SSL console emulations to Abbey Road chambers, vocal tuning to bass enhancement. The industry standard plugin bundle for professional studios worldwide.",
+    desc_es: "La colección definitiva de Waves. Más de 180 plugins que cubren cada tarea de mezcla, masterización y producción imaginable. Desde emulaciones de consola SSL hasta cámaras Abbey Road, afinación vocal hasta mejora de graves. El bundle de plugins estándar de la industria para estudios profesionales en todo el mundo.",
+    img: "https://www.waves.com/1lib/images/products/bundles/mercury/mercury-main.jpg",
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Waves+Mercury+Bundle&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Mercury--waves-mercury-plug-in-bundle", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Waves+Mercury+Bundle", gear4music: "https://www.gear4music.com/search/?q=Waves+Mercury+Bundle", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 119,
@@ -1726,8 +1726,50 @@ const products = [
     badge: "premium",
     desc: "The industry standard for pitch correction and vocal tuning. Edit individual notes within polyphonic audio — fix timing, pitch, and formants with surgical precision. Used on virtually every professional vocal production.",
     desc_es: "El estándar de la industria para corrección de tono y afinación vocal. Edita notas individuales dentro de audio polifónico — corrige tiempo, tono y formantes con precisión quirúrgica. Usado en prácticamente cada producción vocal profesional.",
-    img: "https://www.pluginboutique.com//uploads/Image7a33ec0a8fa2e457aea7e11987960a62.jpg",
+    img: "https://r2.gear4music.com/media/61/619956/1200/preview.jpg",
     stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Celemony+Melodyne+5&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Melodyne5Ess--celemony-melodyne-5-essentials-pitch-correction-software", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Celemony+Melodyne+5", gear4music: "https://www.gear4music.com/search/?q=Celemony+Melodyne+5", musikproduktiv: "https://www.musik-produktiv.de/search" }
+  },
+  {
+    id: 121,
+    title: "Universal Audio UAD Ultimate 12",
+    title_es: "Universal Audio UAD Ultimate 12",
+    category: "plugins",
+    price: 999,
+    rating: 4.9,
+    reviews: 4320,
+    badge: "premium",
+    desc: "The complete UAD plugin collection. Over 100 authentic emulations of vintage analog hardware — Neve, API, SSL, Manley, Ampex, Studer — running on UAD DSP with near-zero latency. The sound of classic records, inside your DAW.",
+    desc_es: "La colección completa de plugins UAD. Más de 100 emulaciones auténticas de hardware analógico vintage — Neve, API, SSL, Manley, Ampex, Studer — ejecutándose en DSP UAD con latencia casi nula. El sonido de los discos clásicos, dentro de tu DAW.",
+    img: "https://media.sweetwater.com/m/products/image/bd3d8a14b9d7OclBDo4DYpIzm8b1X0uK8AK0QOMK.jpg?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=UAD+Ultimate+12&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/UADUltimate12--universal-audio-uad-ultimate-12-plug-in-bundle", thomann: "https://www.thomann.co.uk/search_dir.html?sw=UAD+Ultimate+12", gear4music: "https://www.gear4music.com/search/?q=UAD+Ultimate+12", musikproduktiv: "https://www.musik-produktiv.de/search" }
+  },
+  {
+    id: 122,
+    title: "iZotope RX 11 Advanced",
+    title_es: "iZotope RX 11 Advanced",
+    category: "plugins",
+    price: 1199,
+    rating: 4.9,
+    reviews: 3450,
+    badge: "premium",
+    desc: "The industry standard for audio repair and restoration. Remove noise, hum, clicks, and distortion with surgical precision. Used by major film studios, broadcast networks, and mastering engineers worldwide.",
+    desc_es: "El estándar de la industria para reparación y restauración de audio. Elimina ruido, zumbido, clics y distorsión con precisión quirúrgica. Usado por grandes estudios de cine, cadenas de televisión e ingenieros de masterización en todo el mundo.",
+    img: "https://media.sweetwater.com/m/products/image/cc52d339feHvpNYkzTehTg0bkpH9ovX1hMYH4VMR.png?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=iZotope+RX+11+Advanced&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/RX11Adv--izotope-rx-11-advanced-audio-repair-suite", thomann: "https://www.thomann.co.uk/search_dir.html?sw=iZotope+RX+11+Advanced", gear4music: "https://www.gear4music.com/search/?q=iZotope+RX+11+Advanced", musikproduktiv: "https://www.musik-produktiv.de/search" }
+  },
+  {
+    id: 123,
+    title: "Spectrasonics Omnisphere 2",
+    title_es: "Spectrasonics Omnisphere 2",
+    category: "plugins",
+    price: 499,
+    rating: 4.9,
+    reviews: 8920,
+    badge: "premium",
+    desc: "The most powerful virtual synthesizer ever created. Over 14,000 sounds, advanced synthesis engine, granular synthesis, and hardware synth integration. The go-to instrument for film composers, producers, and sound designers worldwide.",
+    desc_es: "El sintetizador virtual más potente jamás creado. Más de 14,000 sonidos, motor de síntesis avanzado, síntesis granular e integración con hardware. El instrumento de referencia para compositores de cine, productores y diseñadores de sonido en todo el mundo.",
+    img: "https://media.sweetwater.com/m/products/image/771fab56b7IUFdTigZ8EjQkThHvddtksCNm84z0D.jpg?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Spectrasonics+Omnisphere+2&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Omnisphere2--spectrasonics-omnisphere-2-virtual-instrument", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Spectrasonics+Omnisphere+2", gear4music: "https://www.gear4music.com/search/?q=Spectrasonics+Omnisphere+2", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
 
