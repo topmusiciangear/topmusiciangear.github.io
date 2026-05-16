@@ -720,7 +720,7 @@ const guides = [
     title: "Best Monitor Setup & Room Calibration (2026)",
     title_es: "Mejor Configuración de Monitores y Calibración de Sala (2026)",
     category: "monitors",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/315822.jpg",
     badge: "recommended",
     intro: "Great monitors in a bad room sound worse than decent monitors set up correctly. Monitor placement, stands, and basic room treatment matter more than the difference between a $500 and a $2,000 monitor. Here's how to get your monitoring right, with the gear that makes the biggest difference.",
     intro_es: "Grandes monitores en una mala habitación suenan peor que monitores decentes configurados correctamente. La colocación de los monitores, los soportes y el tratamiento básico de la sala importan más que la diferencia entre un monitor de $500 y uno de $2,000. Aquí está cómo configurar bien tu monitoreo, con el equipo que marca la mayor diferencia.",
