@@ -649,6 +649,9 @@ window.goToSection = function(sectionId) {
   history.pushState({}, '', '/');
   setTimeout(() => {
     const el = document.getElementById(sectionId);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (el) {
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 64;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    }
   }, 200);
 };
