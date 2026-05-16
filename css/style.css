@@ -1087,9 +1087,9 @@ footer {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
-  gap: 4px 20px;
+  gap: 4px 16px;
   max-width: 500px;
   margin: 0 auto 40px;
 }
