@@ -641,3 +641,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   initialLoad = false;
 });
+
+window.goToSection = function(sectionId) {
+  if (currentGuideId) {
+    renderGuideGrid();
+  }
+  history.pushState({}, '', '/');
+  setTimeout(() => {
+    const el = document.getElementById(sectionId);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 200);
+};
