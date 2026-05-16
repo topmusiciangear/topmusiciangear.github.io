@@ -494,8 +494,10 @@
    <!-- Footer -->
   <footer id="footer">
     <div class="footer-grid">
+      <div class="footer-col" style="grid-column:1/-1">
+        <h3 data-i18n="footerCategories" style="font-size:18px;margin-bottom:16px">Categories</h3>
+      </div>
       <div class="footer-col">
-        <h3 data-i18n="footerCategories">Categories</h3>
         <ul>
           <li><a href="#" onclick="window.filterCategory('microphones')" data-i18n="navMicrophones">Microphones</a></li>
           <li><a href="#" onclick="window.filterCategory('guitars')" data-i18n="navStrings">Guitars &amp; Basses</a></li>
@@ -506,8 +508,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h3>&nbsp;</h3>
-        <ul>
+        <ul style="margin-top:0">
           <li><a href="#" onclick="window.filterCategory('monitors')" data-i18n="navMonitors">Monitors</a></li>
           <li><a href="#" onclick="window.filterCategory('live_sound')" data-i18n="navLiveSound">Live Sound</a></li>
           <li><a href="#" onclick="window.filterCategory('plugins')" data-i18n="navPlugins">Plugins</a></li>

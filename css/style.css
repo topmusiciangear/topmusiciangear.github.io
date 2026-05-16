@@ -1086,10 +1086,9 @@ footer {
 }
 
 .footer-grid {
-  display: flex;
-  justify-content: center;
-  gap: 48px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 40px;
   margin-bottom: 40px;
 }
 
@@ -1870,8 +1869,8 @@ footer ul li a:hover { color: var(--accent); }
   footer { padding: 40px 16px 0; }
   .footer-bottom { padding: 8px 0 0; line-height: 1; border-top: none; }
   .back-to-top { margin-top: 4px; }
-  .footer-grid { gap: 12px; justify-content: center; flex-wrap: nowrap; }
-  .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .footer-col { text-align: center; overflow-wrap: break-word; }
   footer h3 { font-size: 11px; margin-bottom: 10px; }
   footer ul li { margin-bottom: 4px; }
   footer ul li a { font-size: 10px; }
