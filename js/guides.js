@@ -117,7 +117,7 @@ const guides = [
     verdict: "Scarlett 2i2 for budget, Apollo Twin X for pro",
     verdict_es: "Scarlett 2i2 para presupuesto, Apollo Twin X para profesional",
     featuredProducts: [15, 18, 16, 17],
-    relatedGuides: ["starter-studio", "portable-interfaces", "pro-interfaces"]
+    relatedGuides: ["starter-studio", "portable-interfaces", "pro-interfaces", "budget-interfaces"]
   },
   {
     id: "best-headphones",
@@ -311,7 +311,7 @@ const guides = [
     verdict: "JBL 305P for budget, Yamaha HS8 for mixing, Adam A7V for detail",
     verdict_es: "JBL 305P para presupuesto, Yamaha HS8 para mezcla, Adam A7V para detalle",
     featuredProducts: [116, 117, 20, 19, 21, 22],
-    relatedGuides: ["budget-monitors", "pro-monitors", "monitor-setup", "studio-subwoofers"]
+    relatedGuides: ["budget-monitors", "pro-monitors", "monitor-setup", "studio-subwoofers", "small-room-monitors"]
   },
   {
     id: "best-plugins",
@@ -364,7 +364,7 @@ const guides = [
     verdict: "FabFilter Total Bundle if you can only buy one, Komplete 26 for production, Melodyne 5 for vocals",
     verdict_es: "FabFilter Total Bundle si solo puedes comprar uno, Komplete 26 para producción, Melodyne 5 para voces",
     featuredProducts: [29, 30, 32, 120, 123],
-    relatedGuides: ["mixing-plugins", "fx-plugins", "channel-strip-plugins"]
+    relatedGuides: ["mixing-plugins", "fx-plugins", "channel-strip-plugins", "vocal-plugins"]
   },
   {
     id: "beat-making",
@@ -1227,7 +1227,7 @@ const guides = [
     verdict: "Stratocaster for Latin, Telecaster for rock, Precision Bass for everything",
     verdict_es: "Stratocaster para latino, Telecaster para rock, Precision Bass para todo",
     featuredProducts: [61, 62, 63, 64, 65, 66, 67, 68],
-    relatedGuides: ["acoustic-guitars-guide", "cuban-tres"]
+    relatedGuides: ["acoustic-guitars-guide", "cuban-tres", "beginner-guitar"]
   },
   {
     id: "guitar-bass-amps",
@@ -1438,7 +1438,7 @@ const guides = [
     verdict: "Yamaha FG800 for best value, Martin D-28 for the standard",
     verdict_es: "Yamaha FG800 para mejor valor, Martin D-28 para el estándar",
     featuredProducts: [102, 104, 68],
-    relatedGuides: ["cuban-tres", "fender-guide"]
+    relatedGuides: ["cuban-tres", "fender-guide", "beginner-guitar"]
   },
   {
     id: "live-sound-pa",
@@ -1552,6 +1552,257 @@ const guides = [
     verdict_es: "Ableton Live para electrónica, Logic Pro para valor, Pro Tools para grabación",
     featuredProducts: [110, 111, 112, 113, 114, 115],
     relatedGuides: ["best-plugins", "beat-making", "best-interface"]
+  },
+  {
+    id: "midi-keyboards",
+    title: "Best MIDI Keyboards & Controllers for Home Studio (2026)",
+    title_es: "Mejores Teclados y Controladores MIDI para Home Studio (2026)",
+    category: "keyboards",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/567153.jpg",
+    badge: "bestSeller",
+    intro: "A good MIDI controller is the difference between pointing and clicking your way through a DAW and actually playing your music. After years of using everything from $100 mini-keys to flagship workstations, I've narrowed down the controllers that actually improve your workflow — whether you're producing beats, scoring film, or performing live.",
+    intro_es: "Un buen controlador MIDI es la diferencia entre hacer clic en un DAW y realmente tocar tu música. Después de años usando desde miniteclados de $100 hasta workstations insignia, he reducido los controladores que realmente mejoran tu flujo de trabajo.",
+    sections: [
+      {
+        heading: "Best Value DAW Controller: Arturia KeyLab Essential 61 MkIII",
+        heading_es: "Mejor Controlador DAW en Relación Calidad-Precio: Arturia KeyLab Essential 61 MkIII",
+        content: "The KeyLab Essential 61 MkIII is the smartest controller for its price. It integrates deeply with Analog Lab Pro (included), Ableton Live, and Logic Pro — you can browse, preview, and load sounds without touching your mouse. The 61 velocity-sensitive keys have polyphonic aftertouch, and the OLED screen shows parameter names as you tweak. The chord mode and arpeggiator are genuinely useful for songwriting. At $299, it's the best bang-for-buck controller on the market.",
+        content_es: "El KeyLab Essential 61 MkIII es el controlador más inteligente por su precio. Se integra profundamente con Analog Lab Pro (incluido), Ableton Live y Logic Pro. Las 61 teclas sensibles a la velocidad tienen aftertouch polifónico, y la pantalla OLED muestra nombres de parámetros mientras ajustas. A $299, es el controlador con mejor relación calidad-precio del mercado.",
+        products: [13]
+      },
+      {
+        heading: "Best Premium Workstation: Nord Stage 4 88",
+        heading_es: "Mejor Workstation Premium: Nord Stage 4 88",
+        content: "The Nord Stage 4 88 is the ultimate stage piano for performing musicians who also record. The Triple Sensor keybed delivers the most expressive piano feel outside of a real grand. Seamless transitions let you switch between programs without audio dropouts — critical for live performance. The newly redesigned Piano, Organ, and Synth engines are all world-class. With 1GB of memory for Nord Piano Library sounds, this is the instrument that professional keyboardists dream about. At $4,999, it's an investment, but nothing else combines playability, portability, and sound quality like this.",
+        content_es: "El Nord Stage 4 88 es el piano de escenario definitivo para músicos que también graban. El teclado Triple Sensor ofrece la sensación de piano más expresiva fuera de un piano de cola real. Transiciones perfectas sin cortes de audio. Los motores de Piano, Órgano y Sintetizador rediseñados son de clase mundial. A $4,999, es una inversión, pero nada combina tacto, portabilidad y calidad de sonido como esto.",
+        products: [11]
+      },
+      {
+        heading: "Flagship Synthesizer: Yamaha Montage M8x",
+        heading_es: "Sintetizador Insignia: Yamaha Montage M8x",
+        content: "The Yamaha Montage M8x is a synthesizer powerhouse with the new AN-X engine (analog modeling) alongside the legendary FM-X engine. The 88-key weighted action is one of the best keybeds Yamaha has ever made. Motion Control lets you layer, crossfade, and modulate sounds in real-time using the Super Knob. The seamless DAW integration makes it a centerpiece for both studio and stage. If you want one instrument that does everything — acoustic emulations, vintage synth tones, and futuristic sound design — the Montage M8x delivers.",
+        content_es: "El Yamaha Montage M8x es un potente sintetizador con el nuevo motor AN-X junto al legendario FM-X. La acción ponderada de 88 teclas es uno de los mejores teclados que Yamaha ha fabricado. El Motion Control te permite superponer y modular sonidos en tiempo real. Si quieres un instrumento que lo haga todo, el Montage M8x lo ofrece.",
+        products: [12]
+      },
+      {
+        heading: "Best NI Ecosystem Integration: Komplete Kontrol S61",
+        heading_es: "Mejor Integración con Ecosistema NI: Komplete Kontrol S61",
+        content: "The Komplete Kontrol S61 is the controller for anyone using Native Instruments software. The Light Guide — RGB LEDs above each key — shows you key zones, drum mappings, and scale highlighting. The Fatar keybed is premium-grade with excellent feel. NKS browsing means every Komplete instrument and hundreds of third-party plugins are instantly browsable from the keyboard. The built-in audio interface lets you connect headphones and monitors directly. At $599, it's the smart choice if you're building a production setup around the NI ecosystem.",
+        content_es: "El Komplete Kontrol S61 es el controlador para quien usa software Native Instruments. La Light Guide muestra zonas de teclas, mapeos de batería y escalas. El teclado Fatar es de grado premium. La navegación NKS significa que todos los instrumentos Komplete se pueden explorar desde el teclado. A $599, es la opción inteligente si construyes tu setup alrededor del ecosistema NI.",
+        products: [14]
+      }
+    ],
+    conclusion: "For most home studio producers, the Arturia KeyLab Essential 61 MkIII offers the best balance of features and price. If you're deep in the NI ecosystem, the Komplete Kontrol S61 is worth the upgrade. Nord Stage 4 and Yamaha Montage M8x are pro-level instruments for serious performers who also record. The right controller isn't about the most features — it's about how it fits your workflow.",
+    conclusion_es: "Para la mayoría de los productores de home studio, el Arturia KeyLab Essential 61 MkIII ofrece el mejor equilibrio entre características y precio. Si estás metido en el ecosistema NI, el Komplete Kontrol S61 vale la pena. El controlador correcto no se trata de más características — se trata de cómo encaja en tu flujo de trabajo.",
+    verdict: "KeyLab Essential 61 MkIII for value, Komplete Kontrol S61 for NI ecosystem",
+    verdict_es: "KeyLab Essential 61 MkIII para valor, Komplete Kontrol S61 para ecosistema NI",
+    featuredProducts: [13, 11, 12, 14],
+    relatedGuides: ["beat-making", "midi-controllers", "best-plugins", "daw-guide"]
+  },
+  {
+    id: "budget-interfaces",
+    title: "Best Audio Interface Under $300 for Home Recording (2026)",
+    title_es: "Mejor Interfaz de Audio por Menos de $300 para Grabación Casera (2026)",
+    category: "interfaces",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
+    badge: "recommended",
+    intro: "You don't need to spend a fortune for pro-quality recording. Under $300, there are five interfaces that genuinely deliver clean preamps, low latency, and reliable drivers. I've recorded demos and released tracks with every one of these — here's who each one is for.",
+    intro_es: "No necesitas gastar una fortuna para grabación de calidad profesional. Por menos de $300, hay cinco interfaces que realmente ofrecen preamplificadores limpios, baja latencia y drivers confiables. He grabado demos y lanzado canciones con cada una de estas.",
+    sections: [
+      {
+        heading: "The People's Champion: Focusrite Scarlett 2i2 (4th Gen)",
+        heading_es: "La Campeona del Pueblo: Focusrite Scarlett 2i2 (4ª Gen)",
+        content: "The Scarlett 2i2 is the best-selling audio interface on the planet, and the 4th Gen is the best version yet. 120dB dynamic range, Air mode for vocal presence, and loopback for streaming. The gain halo turns from green to red so you never clip. I've recorded full demos on this and the results are broadcast-ready. At $199, it's the safest recommendation you can make to anyone starting out.",
+        content_es: "La Scarlett 2i2 es la interfaz de audio más vendida del planeta, y la 4ª Gen es la mejor versión hasta ahora. 120dB de rango dinámico, modo Air para presencia vocal y loopback para streaming. He grabado demos completas con esto. A $199, es la recomendación más segura para cualquiera que empiece.",
+        products: [15]
+      },
+      {
+        heading: "Best Value: MOTU M2",
+        heading_es: "Mejor Valor: MOTU M2",
+        content: "The MOTU M2 gives you features you'd expect at twice the price. The full-color LCD screen shows real-time metering — no more guessing your gain staging. The ESS Sabre32 Ultra DAC delivers conversion quality found in $500+ interfaces. Loopback makes it ideal for streamers and podcasters. At $199, the M2 is a spec-sheet killer that sounds as good as it measures.",
+        content_es: "El MOTU M2 te da características que esperarías al doble del precio. La pantalla LCD a todo color muestra niveles en tiempo real. El DAC ESS Sabre32 Ultra ofrece calidad de conversión de interfaces de $500+. A $199, el M2 suena tan bien como se mide.",
+        products: [54]
+      },
+      {
+        heading: "Most Characterful: Universal Audio Volt 2",
+        heading_es: "Más Carácter: Universal Audio Volt 2",
+        content: "The Volt 2 brings UA quality to an entry-level price. The Vintage Mic Preamp mode physically changes the circuit to emulate the classic UA 610 tube preamp — it's actual analog coloration, not a plugin. The built-in 76 compressor (modeled after the iconic UA 1176) adds instant punch to vocals and instruments. MIDI I/O and solid metal construction round out the package. At $189, it's the most musical-sounding interface in this price range.",
+        content_es: "El Volt 2 trae calidad UA a un precio de entrada. El modo Vintage Mic Preamp cambia físicamente el circuito para emular el previo de tubo UA 610 — es coloración analógica real. El compresor 76 incorporado añade pegada instantánea a voces e instrumentos. A $189, es la interfaz con sonido más musical en este rango de precio.",
+        products: [55]
+      },
+      {
+        heading: "Best Console Sound: SSL 2+ MKII",
+        heading_es: "Mejor Sonido de Consola: SSL 2+ MKII",
+        content: "SSL made their name with the world's best console preamps. The SSL 2+ MKII gives you that same 4K Legacy channel strip — a switchable analogue EQ that adds presence and punch that makes vocals sit in the mix effortlessly. The built-in talkback mic is a bonus for directing sessions. Dual headphone outs with independent mixes make it great for recording duos. At $299, you're getting SSL console sound in a compact desktop interface.",
+        content_es: "SSL se hizo un nombre con los mejores preamplificadores de consola. La SSL 2+ MKII te da ese channel strip 4K Legacy — un ecualizador analógico conmutable que añade presencia. El micrófono talkback incorporado es un extra para dirigir sesiones. A $299, obtienes sonido de consola SSL en una interfaz compacta.",
+        products: [18]
+      },
+      {
+        heading: "Console-Grade Preamps: Audient iD14 MkII",
+        heading_es: "Preamps de Grado Consola: Audient iD14 MkII",
+        content: "Audient makes $50,000 recording consoles. The iD14 MkII puts those same Class-A mic preamps in a compact interface. The JFET DI input gives your guitar or bass the warmth of a valve amp before it hits your DAW. Dual headphone outputs with independent level control make it perfect for recording sessions or teaching. At $299, you're getting console-grade analog components in a portable package that sounds significantly more expensive than it is.",
+        content_es: "Audient fabrica consolas de $50,000. El iD14 MkII pone esos mismos previos de micrófono Clase A en una interfaz compacta. La entrada DI JFET le da a tu guitarra el calor de un amplificador de válvulas. A $299, obtienes componentes analógicos de grado consola en un paquete portátil.",
+        products: [53]
+      }
+    ],
+    conclusion: "At $199, the Scarlett 2i2 is the safest bet for beginners. The MOTU M2 offers the best specs. The UA Volt 2 has the most character. The SSL 2+ MKII and Audient iD14 MkII ($299 each) deliver console-quality preamps that compete with interfaces costing far more. You can't go wrong with any of these — I've used them all and they all deliver pro results.",
+    conclusion_es: "A $199, la Scarlett 2i2 es la apuesta más segura para principiantes. El MOTU M2 ofrece las mejores especificaciones. La UA Volt 2 tiene más carácter. La SSL 2+ MKII y Audient iD14 MkII entregan previos de calidad consola. No puedes equivocarte con ninguna.",
+    verdict: "Scarlett 2i2 for beginners, UA Volt 2 for character, SSL 2+ for console sound",
+    verdict_es: "Scarlett 2i2 para principiantes, UA Volt 2 para carácter, SSL 2+ para sonido de consola",
+    featuredProducts: [15, 54, 55, 18, 53],
+    relatedGuides: ["best-interface", "starter-studio", "portable-interfaces", "pro-interfaces"]
+  },
+  {
+    id: "vocal-plugins",
+    title: "Best Vocal Mixing Plugins [Full Processing Chain] (2026)",
+    title_es: "Mejores Plugins de Mezcla Vocal [Cadena Completa] (2026)",
+    category: "plugins",
+    image: "https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=600&h=400&fit=crop",
+    badge: "topQuality",
+    intro: "Vocals make or break a record. After two decades of recording vocals — from bedroom demos to professional studios — I've learned that the plugin chain matters more than the mic. These five plugins cover the entire vocal processing chain: EQ, compression, tuning, effects, and bus processing. Here's the exact chain I use and recommend.",
+    intro_es: "Las vocales hacen o rompen un disco. Después de dos décadas grabando voces, he aprendido que la cadena de plugins importa más que el micrófono. Estos cinco plugins cubren toda la cadena de procesamiento vocal: EQ, compresión, afinación, efectos y procesamiento de bus.",
+    sections: [
+      {
+        heading: "EQ & Dynamics: FabFilter Total Bundle",
+        heading_es: "EQ y Dinámica: FabFilter Total Bundle",
+        content: "FabFilter is the gold standard for mixing plugins. Pro-Q 3 is the best EQ ever made — the dynamic EQ mode lets you cut or boost frequencies only when they cross a threshold, which is a game-changer for fixing resonant vocals without affecting the good parts. Pro-C 2 is a transparent compressor with multiple algorithms (vocal mode is beautiful). Pro-DS catches sibilance naturally. Pro-MB gives you multiband control for de-essing or body control. The Total Bundle is $1,069, but if you can only invest in one set of plugins, make it this one.",
+        content_es: "FabFilter es el estándar de oro para plugins de mezcla. Pro-Q 3 es el mejor EQ jamás creado — el modo EQ dinámico corta frecuencias solo cuando cruzan un umbral. Pro-C 2 es un compresor transparente con múltiples algoritmos. El Total Bundle cuesta $1,069, pero si solo puedes invertir en un conjunto de plugins, que sea este.",
+        products: [29]
+      },
+      {
+        heading: "Vocal Tuning: Celemony Melodyne 5",
+        heading_es: "Afinación Vocal: Celemony Melodyne 5",
+        content: "Melodyne 5 isn't just pitch correction — it's the most transparent, musical tuning tool in existence. The DNA (Direct Note Access) technology lets you adjust individual notes within a chord, correct pitch drift on sustained notes, and even change the timing of specific syllables. The Melodic algorithm sounds natural even on heavy corrections. At $99, it's an absolute steal for the quality. Pro Tools, Logic, Cubase, and Studio One users can use ARA integration for instant, seamless editing inside their DAW.",
+        content_es: "Melodyne 5 no es solo corrección de tono — es la herramienta de afinación más transparente y musical que existe. La tecnología DNA te permite ajustar notas individuales dentro de un acorde. El algoritmo Melodic suena natural incluso en correcciones fuertes. A $99, es una ganga absoluta.",
+        products: [120]
+      },
+      {
+        heading: "Mastering & Finish: iZotope Ozone 12 Advanced",
+        heading_es: "Masterización y Acabado: iZotope Ozone 12 Advanced",
+        content: "Ozone 12 Advanced is the complete vocal finishing suite. The Tonal Balance Control 2 visually shows you how your vocal fits against reference tracks. The Maximizer gives you transparent loudness without pumping. The new Clarity module reduces reverb and ambience — perfect for cleaning up vocal takes recorded in untreated rooms. The Stabilizer module automatically detects and fixes tonal imbalances. These tools are essential for getting vocals to sit perfectly in a dense mix.",
+        content_es: "Ozone 12 Advanced es la suite completa de acabado vocal. El Tonal Balance Control 2 muestra visualmente cómo encaja tu voz contra pistas de referencia. El Maximizer da volumen transparente. El módulo Clarity reduce reverb y ambiente — perfecto para limpiar voces grabadas en habitaciones no tratadas.",
+        products: [30]
+      },
+      {
+        heading: "Creative Effects: Soundtoys 5.5",
+        heading_es: "Efectos Creativos: Soundtoys 5.5",
+        content: "Soundtoys 5.5 is the creative Swiss Army knife for vocal production. EchoBoy is the most musical delay plugin ever made — 30+ models from classic tape echoes to digital delays. Decapitator adds analog-style saturation and warmth that makes vocals cut through a mix. Little AlterBoy lets you pitch-shift and formant-shift vocals for creative effects. The bundle also includes Crystallizer, FilterFreak, and more. At $599, it's the bundle that keeps on giving — every session I find new uses for these plugins.",
+        content_es: "Soundtoys 5.5 es la navaja suiza creativa para producción vocal. EchoBoy es el delay más musical jamás creado. Decapitator añade saturación al estilo analógico que hace que las voces destaquen. Little AlterBoy permite cambiar tono y formante para efectos creativos. A $599, cada sesión encuentro nuevos usos para estos plugins.",
+        products: [32]
+      },
+      {
+        heading: "Vocal Bus: Waves SSL G-Master Buss Compressor",
+        heading_es: "Bus Vocal: Waves SSL G-Master Buss Compressor",
+        content: "The secret to modern, radio-ready vocals is gentle bus compression. The Waves SSL G-Master Buss Compressor emulates the legendary SSL G-Series console compressor that's been used on countless hit records. Set it to ratio 2:1, attack 30ms, release auto, and give it 2-3dB of gain reduction — it glues your vocal tracks together, smooths out dynamics, and adds that polished, professional sheen. At $39, it's one of the best values in all of audio plugins.",
+        content_es: "El secreto de las vocales modernas y listas para radio es la compresión suave de bus. El Waves SSL G-Master Buss Compressor emula el legendario compresor de consola SSL G-Series. A $39, es uno de los mejores valores en plugins de audio.",
+        products: [119]
+      }
+    ],
+    conclusion: "The FabFilter Total Bundle handles EQ and dynamics at a world-class level. Melodyne 5 is essential for vocal tuning. Ozone 12 Advanced finishes and polishes. Soundtoys 5.5 adds creative character. The Waves SSL G-Master glues everything together on the vocal bus. This five-plugin chain — Pro-Q 3 to Pro-C 2 to Melodyne to Decapitator to EchoBoy to Ozone Maximizer to SSL G-Master — is the exact processing path I use for professional vocal production.",
+    conclusion_es: "El FabFilter Total Bundle maneja EQ y dinámica a nivel mundial. Melodyne 5 es esencial para afinación vocal. Ozone 12 Advanced pule y finaliza. Soundtoys 5.5 añade carácter creativo. El Waves SSL G-Master pega todo en el bus vocal. Esta cadena de cinco plugins es el camino de procesamiento exacto que uso para producción vocal profesional.",
+    verdict: "FabFilter Total Bundle for EQ/dynamics, Melodyne 5 for tuning, Ozone 12 for finishing",
+    verdict_es: "FabFilter Total Bundle para EQ/dinámica, Melodyne 5 para afinación, Ozone 12 para acabado",
+    featuredProducts: [29, 120, 30, 32, 119],
+    relatedGuides: ["best-plugins", "mixing-plugins", "channel-strip-plugins", "fx-plugins"]
+  },
+  {
+    id: "small-room-monitors",
+    title: "Best Studio Monitors for Small Rooms & Home Studios (2026)",
+    title_es: "Mejores Monitores de Estudio para Habitaciones Pequeñas y Home Studios (2026)",
+    category: "monitors",
+    image: "https://m.media-amazon.com/images/I/61++me2TalL._AC_SX679_.jpg",
+    badge: "recommended",
+    intro: "Small rooms present unique challenges — bass build-up, early reflections, and limited listening position options. After years of mixing in tiny apartments, hotel rooms, and cramped home studios, I know which monitors work in tight spaces and which ones just make problems worse. These four pairs are specifically chosen for small room performance.",
+    intro_es: "Las habitaciones pequeñas presentan desafíos únicos — acumulación de graves, reflexiones tempranas y opciones limitadas de posición de escucha. Estos cuatro pares están específicamente elegidos para rendimiento en espacios pequeños.",
+    sections: [
+      {
+        heading: "Best Budget Nearfield: JBL 305P MkII",
+        heading_es: "Mejor Nearfield Económico: JBL 305P MkII",
+        content: "The JBL 305P MkII is the best monitor under $200 for small rooms. The 5-inch woofer and Image Control Waveguide deliver a wide, precise stereo image even when you're sitting close — perfect for cramped desk setups. The low-frequency trim (-3dB, 0dB, +3dB) helps you compensate for room-induced bass buildup. At $149 each, they're the most affordable way to get JBL's professional monitoring into a small space. The balanced, slightly relaxed top end means less ear fatigue during long sessions.",
+        content_es: "El JBL 305P MkII es el mejor monitor por menos de $200 para habitaciones pequeñas. El woofer de 5 pulgadas y la Image Control Waveguide ofrecen una imagen estéreo amplia y precisa incluso sentado cerca. El ajuste de graves ayuda a compensar la acumulación de bajos. A $149 cada uno, son la forma más asequible de tener monitoreo profesional JBL en un espacio pequeño.",
+        products: [116]
+      },
+      {
+        heading: "Best Bang for Buck: Kali Audio LP-6 V2",
+        heading_es: "Mejor Relación Calidad-Precio: Kali Audio LP-6 V2",
+        content: "The Kali Audio LP-6 V2 is engineered specifically for challenging room environments. The 3D Imaging Waveguide creates a wider sweet spot than almost any monitor in its class — you don't have to sit perfectly still to get an accurate stereo image. The LF and HF trims offer extensive room compensation. The bass response is surprisingly deep and controlled for a 6.5-inch woofer. At $199 each, the LP-6 V2 outperforms monitors costing twice as much, especially in imperfect rooms.",
+        content_es: "El Kali Audio LP-6 V2 está diseñado específicamente para entornos de sala desafiantes. La 3D Imaging Waveguide crea un punto dulce más amplio que casi cualquier monitor en su clase. Los ajustes LF y HF ofrecen compensación extensa de sala. Los graves son sorprendentemente profundos y controlados para un woofer de 6.5 pulgadas.",
+        products: [117]
+      },
+      {
+        heading: "Best DSP-Equipped: KRK Rokit 7 G5",
+        heading_es: "Mejor con DSP: KRK Rokit 7 G5",
+        content: "The KRK Rokit 7 G5 is the best-selling monitor for home studios for good reason — the built-in DSP EQ lets you tune your monitors to your specific room. 25 different EQ settings (4-band parametric with graphic presets) mean you can dial out problem frequencies without external treatment. The 7-inch woofer delivers more low-end extension than 5-inch or 6.5-inch alternatives. The Kevlar driver resists breakup at high SPL. At $249 each, the onboard DSP makes these the most adaptable monitors for challenging small rooms.",
+        content_es: "El KRK Rokit 7 G5 es el monitor más vendido para home studios por buenas razones — el DSP EQ incorporado te permite ajustar los monitores a tu sala específica. 25 configuraciones de EQ diferentes significan que puedes eliminar frecuencias problema sin tratamiento externo. A $249 cada uno, el DSP integrado los hace los monitores más adaptables para salas pequeñas difíciles.",
+        products: [20]
+      },
+      {
+        heading: "Industry Standard: Yamaha HS8",
+        heading_es: "Estándar de la Industria: Yamaha HS8",
+        content: "The Yamaha HS8 is the brutally honest industry standard that reveals every flaw in your mix. The 8-inch cone woofer delivers tight, accurate bass that translates perfectly to other systems — what you hear is what you get. The white cone and twisted-pair bass reflex port are iconic for good reason: these monitors don't flatter, they tell the truth. For small rooms, the HS8's front porting (vs. rear porting on many competitors) means you can place them closer to walls without muddy bass. The Room Control and High Trim switches give you basic room compensation. At $349 each, they're the reference standard for a reason.",
+        content_es: "El Yamaha HS8 es el estándar de la industria brutalmente honesto que revela cada defecto en tu mezcla. El cono de 8 pulgadas ofrece graves ajustados y precisos que se traducen perfectamente a otros sistemas. El puerto frontal significa que puedes colocarlos cerca de paredes sin graves embarrados. A $349 cada uno, son el estándar de referencia por una razón.",
+        products: [19]
+      }
+    ],
+    conclusion: "For very small rooms, the JBL 305P MkII or Kali LP-6 V2 are your best bets — their waveguides and small woofers minimize room interaction. If you have moderate space and need room correction, the KRK Rokit 7 G5's DSP is invaluable. For a true reference that forces you to mix better, the Yamaha HS8 is the long-term investment that professional engineers trust. All four are excellent choices for small rooms — the key is matching the monitor to your specific space and budget.",
+    conclusion_es: "Para habitaciones muy pequeñas, el JBL 305P MkII o Kali LP-6 V2 son tus mejores opciones. Si tienes espacio moderado y necesitas corrección de sala, el DSP del KRK Rokit 7 G5 es invaluable. Para una referencia verdadera, el Yamaha HS8 es la inversión a largo plazo. El truco es elegir el monitor adecuado para tu espacio y presupuesto específicos.",
+    verdict: "JBL 305P for tight budgets, Kali LP-6 V2 for best value, KRK Rokit 7 G5 for DSP",
+    verdict_es: "JBL 305P para presupuesto ajustado, Kali LP-6 V2 para mejor valor, KRK Rokit 7 G5 para DSP",
+    featuredProducts: [116, 117, 20, 19],
+    relatedGuides: ["best-monitors", "budget-monitors", "monitor-setup", "studio-subwoofers"]
+  },
+  {
+    id: "beginner-guitar",
+    title: "Best Electric & Acoustic Guitars for Beginners and Songwriting (2026)",
+    title_es: "Mejores Guitarras Eléctricas y Acústicas para Principiantes y Composición (2026)",
+    category: "guitars",
+    image: "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
+    badge: "bestSeller",
+    intro: "The right first guitar or songwriting instrument makes everything easier. After 20+ years of playing everything from $100 beaters to vintage Martins on Broadway, I know what matters at the start: playability, versatility, and value. These five guitars — both acoustic and electric — are the ones I recommend most for beginners and songwriters.",
+    intro_es: "La guitarra correcta para empezar lo hace todo más fácil. Después de 20+ años tocando todo, sé lo que importa al principio: tocabilidad, versatilidad y valor. Estas cinco guitarras son las que más recomiendo para principiantes y compositores.",
+    sections: [
+      {
+        heading: "Best Budget Acoustic: Yamaha FG800",
+        heading_es: "Mejor Acústica Económica: Yamaha FG800",
+        content: "The Yamaha FG800 is the best acoustic guitar under $300 — period. The solid spruce top gives you rich, resonant tone that improves as you play it. The traditional dreadnought body delivers full projection whether you're strumming chords or fingerpicking. The neck profile is comfortable for beginners, and the build quality is legendary Yamaha reliability. At $229, it sounds and plays like guitars costing twice as much.",
+        content_es: "La Yamaha FG800 es la mejor guitarra acústica por menos de $300, punto. La tapa sólida de abeto te da un tono rico y resonante que mejora cuanto más tocas. El cuerpo dreadnought tradicional ofrece proyección completa. A $229, suena y se toca como guitarras que cuestan el doble.",
+        products: [102]
+      },
+      {
+        heading: "Best Budget Electric: Yamaha Pacifica 112V",
+        heading_es: "Mejor Eléctrica Económica: Yamaha Pacifica 112V",
+        content: "The Yamaha Pacifica 112V is the most recommended beginner electric guitar by educators worldwide. The HSS pickup configuration gives you a humbucker for thick lead tones and single coils for bright cleans. The tremolo bridge is functional and stable. The C-shaped neck is comfortable for small and large hands alike. At $349, it's the electric guitar that beginner guitarists should buy — versatile, reliable, and genuinely well-made.",
+        content_es: "La Yamaha Pacifica 112V es la guitarra eléctrica para principiantes más recomendada por educadores mundialmente. La configuración HSS te da una humbucker para tonos gruesos y single coils para limpios brillantes. A $349, es la guitarra eléctrica que los principiantes deberían comprar.",
+        products: [103]
+      },
+      {
+        heading: "Best Value Acoustic: Fender CD-60S",
+        heading_es: "Mejor Acústica en Relación Calidad-Precio: Fender CD-60S",
+        content: "The Fender CD-60S is the acoustic guitar that proves Fender does more than electrics. Solid spruce top with scalloped X-bracing delivers balanced, projecting tone. The easy-to-play neck profile is ideal for beginners learning chords and transitions. The gloss body and chrome tuning machines give it a premium look that belies its $219 price. If the Yamaha FG800 isn't available, the CD-60S is an equally excellent choice at a similar price point.",
+        content_es: "La Fender CD-60S es la guitarra acústica que demuestra que Fender hace más que eléctricas. Tapa sólida de abeto con refuerzo X scalloped ofrece tono equilibrado y proyectado. El perfil de mástil fácil de tocar es ideal para principiantes. A $219, es una elección excelente al mismo nivel que la Yamaha FG800.",
+        products: [68]
+      },
+      {
+        heading: "Songwriter's Choice: Fender Player Stratocaster",
+        heading_es: "Elección del Compositor: Fender Player Stratocaster",
+        content: "The Player Stratocaster is the quintessential songwriting instrument. Three Player-series single-coil pickups cover everything from sparkling cleans to bluesy grit. The 2-point tremolo adds expression to your playing. The comfortable double-cutaway body and modern C neck make it easy to play for hours. At $849, it's the step-up guitar that will carry you from beginner to advanced. This is the guitar I've used to write songs on Broadway tours and in home studios alike.",
+        content_es: "La Player Stratocaster es el instrumento de composición por excelencia. Tres pastillas single-coil Player cubren desde limpios brillantes hasta blues. El tremolo de 2 puntos añade expresión. A $849, es la guitarra de siguiente nivel que te llevará de principiante a avanzado.",
+        products: [61]
+      },
+      {
+        heading: "Songwriter's Alternative: Fender Player Telecaster",
+        heading_es: "Alternativa del Compositor: Fender Player Telecaster",
+        content: "The Player Telecaster offers the other half of the Fender sound — twang, punch, and rock-solid tuning stability. Two Player-series single-coil pickups deliver that unmistakable Telecaster bite that sits perfectly in any mix. The string-through-body bridge gives you excellent sustain and resonance. The simple, no-nonsense design means fewer things to go wrong. Songwriters love the Telecaster because its sound cuts through a dense arrangement without needing pedals or processing. At $849, it's the perfect complement to the Stratocaster or a standalone workhorse for any genre.",
+        content_es: "La Player Telecaster ofrece la otra mitad del sonido Fender — twang, pegada y estabilidad de afinación sólida. Dos pastillas single-coil Player entregan ese mordisco inconfundible de Telecaster. Los compositores aman la Telecaster porque su corte suena en arreglos densos sin necesidad de pedales. A $849, es el complemento perfecto para la Stratocaster.",
+        products: [62]
+      }
+    ],
+    conclusion: "Start with the Yamaha FG800 or Fender CD-60S for acoustic, or the Yamaha Pacifica 112V for electric. When you're ready to level up, the Fender Player Stratocaster and Telecaster are the professional workhorses that will serve you for life. The right first guitar isn't about the price tag — it's about finding one that makes you want to pick it up and play every day.",
+    conclusion_es: "Empieza con la Yamaha FG800 o Fender CD-60S para acústica, o la Yamaha Pacifica 112V para eléctrica. Cuando estés listo para avanzar, la Fender Player Stratocaster y Telecaster son caballos de batalla profesionales. La guitarra correcta no es cuestión de precio — es encontrar una que te haga querer tocarla cada día.",
+    verdict: "Yamaha FG800 for budget acoustic, Pacifica 112V for budget electric, Player Strat for life",
+    verdict_es: "Yamaha FG800 para acústica económica, Pacifica 112V para eléctrica económica, Player Strat para toda la vida",
+    featuredProducts: [102, 103, 68, 61, 62],
+    relatedGuides: ["fender-guide", "acoustic-guitars-guide", "guitar-pedals", "guitar-bass-amps"]
   }
 ];
 if (typeof module !== 'undefined' && module.exports) module.exports = { guides };

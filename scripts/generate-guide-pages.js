@@ -25,6 +25,76 @@ function renderProductCard(p) {
   </div>`;
 }
 
+function generateSchema(g, allProductIds, products) {
+  const url = `https://topmusiciangear.com/guides/${g.id}.html`;
+  const imgUrl = g.image || '';
+  const desc = (g.intro || '').substring(0, 300);
+
+  const article = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": url + "#article",
+    "headline": g.title,
+    "description": desc,
+    "image": imgUrl,
+    "author": { "@type": "Person", "name": "Daniel Carnago", "url": "https://topmusiciangear.com" },
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-05-18",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+  };
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": url + "#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://topmusiciangear.com/" },
+      { "@type": "ListItem", "position": 3, "name": g.title, "item": url }
+    ]
+  };
+
+  const productSchemas = allProductIds.map(id => {
+    const p = products.find(x => x.id === id);
+    if (!p) return null;
+    return {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": url + "#product-" + p.id,
+      "name": p.title,
+      "image": p.img || imgUrl,
+      "description": (p.desc || '').substring(0, 300),
+      "offers": {
+        "@type": "Offer",
+        "price": String(p.price),
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": p.rating ? {
+        "@type": "AggregateRating",
+        "ratingValue": String(p.rating),
+        "reviewCount": p.reviews || 0,
+        "bestRating": "5"
+      } : undefined
+    };
+  }).filter(Boolean);
+
+  const faqItems = g.sections.map(s => ({
+    "@type": "Question",
+    "name": s.heading,
+    "acceptedAnswer": { "@type": "Answer", "text": s.content.substring(0, 500) }
+  }));
+
+  const faq = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": url + "#faq",
+    "mainEntity": faqItems
+  };
+
+  return { article, breadcrumb, productSchemas, faq };
+}
+
 let total = 0;
 
 guides.forEach(g => {
@@ -37,11 +107,13 @@ guides.forEach(g => {
     return p ? renderProductCard(p) : '';
   }).filter(Boolean).join('');
 
+  const schema = generateSchema(g, allProductIds, products);
+
   const sectionsHtml = g.sections.map(s => {
     const heading = s.heading;
     const content = s.content;
     return `<div class="guide-section">
-      <h3 class="guide-section-heading">${esc(heading)}</h3>
+      <h2 class="guide-section-heading">${esc(heading)}</h2>
       <div class="guide-section-content">${content}</div>
     </div>`;
   }).join('');
@@ -60,7 +132,7 @@ guides.forEach(g => {
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="TopMusicianGear">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://topmusiciangear.com/?g=${g.id}">
+  <link rel="canonical" href="https://topmusiciangear.com/guides/${g.id}.html">
   <link rel="alternate" hreflang="en" href="https://topmusiciangear.com/guides/${g.id}.html">
   <link rel="alternate" hreflang="es" href="https://topmusiciangear.com/guides/${g.id}.html">
   <link rel="alternate" hreflang="x-default" href="https://topmusiciangear.com/guides/${g.id}.html">
@@ -93,6 +165,10 @@ guides.forEach(g => {
     .guide-conclusion h3 { font-size: 18px; color: var(--text-primary); margin-bottom: 8px; }
     .guide-conclusion p { font-size: 14px; color: var(--text-secondary); line-height: 1.8; }
   </style>
+  <script type="application/ld+json">${JSON.stringify(schema.article)}</script>
+  <script type="application/ld+json">${JSON.stringify(schema.breadcrumb)}</script>
+  <script type="application/ld+json">${JSON.stringify(schema.faq)}</script>
+  ${schema.productSchemas.map(ps => `<script type="application/ld+json">${JSON.stringify(ps)}</script>`).join('\n  ')}
 </head>
 <body>
   <div id="app">
