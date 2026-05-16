@@ -1698,7 +1698,7 @@ const products = [
     badge: "premium",
     desc: "The ultimate Waves collection. 180+ plugins covering every mixing, mastering, and production task imaginable. From SSL console emulations to Abbey Road chambers, vocal tuning to bass enhancement. The industry standard plugin bundle for professional studios worldwide.",
     desc_es: "La colección definitiva de Waves. Más de 180 plugins que cubren cada tarea de mezcla, masterización y producción imaginable. Desde emulaciones de consola SSL hasta cámaras Abbey Road, afinación vocal hasta mejora de graves. El bundle de plugins estándar de la industria para estudios profesionales en todo el mundo.",
-    img: "https://www.waves.com/1lib/images/products/bundles/mercury/mercury-main.jpg",
+    img: "https://banners.pluginboutique.com/n985g956wufd2vwp42sia5fys0n0",
     stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Waves+Mercury+Bundle&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Mercury--waves-mercury-plug-in-bundle", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Waves+Mercury+Bundle", gear4music: "https://www.gear4music.com/search/?q=Waves+Mercury+Bundle", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
