@@ -1065,8 +1065,8 @@ const guides = [
     category: "plugins",
     image: "img/fabfilter-total.jpg",
     badge: "topQuality",
-    intro: "Channel strip plugins recreate the signal path of classic recording consoles — the exact chain of EQ, compression, gating, and saturation that gave vintage records their sound. After spending years working on real SSL and Neve consoles, I've learned what makes channel strips special. These two plugins bring that console magic into your DAW with stunning accuracy.",
-    intro_es: "Los plugins de channel strip recrean la ruta de señal de las consolas de grabación clásicas — la cadena exacta de ecualización, compresión, puerta y saturación que dio a los discos vintage su sonido. Después de pasar años trabajando en consolas reales SSL y Neve, he aprendido qué hace especiales a los channel strips. Estos dos plugins traen esa magia de consola a tu DAW con una precisión impresionante.",
+    intro: "Channel strip plugins recreate the signal path of classic recording consoles — the exact chain of EQ, compression, gating, and saturation that gave vintage records their sound. After spending years working on real SSL and Neve consoles, I've learned what makes channel strips special. These three plugins bring that console magic into your DAW with stunning accuracy.",
+    intro_es: "Los plugins de channel strip recrean la ruta de señal de las consolas de grabación clásicas — la cadena exacta de ecualización, compresión, puerta y saturación que dio a los discos vintage su sonido. Después de pasar años trabajando en consolas reales SSL y Neve, he aprendido qué hace especiales a los channel strips. Estos tres plugins traen esa magia de consola a tu DAW con una precisión impresionante.",
     sections: [
       {
         heading: "The Console Legend: Waves SSL G-Master Buss Compressor",
@@ -1083,15 +1083,15 @@ const guides = [
         products: [29]
       },
       {
-        heading: "The Analog Vault: Universal Audio UAD Ultimate 12",
-        heading_es: "La Bóveda Analógica: Universal Audio UAD Ultimate 12",
+        heading: "The Analog Vault: Universal Audio UAD Ultimate 14",
+        heading_es: "La Bóveda Analógica: Universal Audio UAD Ultimate 14",
         content: "UAD Ultimate 12 is the complete collection of Universal Audio's legendary analog emulations — over 100 plugins covering every piece of vintage hardware that shaped recorded music. Neve 1073 preamps and EQs, API 2500 bus compressor, SSL 4000 E channel strip, Manley Variable Mu and Massive Passive, Ampex ATR-102 and Studer A800 tape machines, EMT 140 and 250 reverbs, and the complete Teletronix LA-2A and 1176 collections. These aren't approximations — UAD models every circuit, every transformer, every tube stage down to the component level. The Unison preamp technology actually changes impedance to match the hardware. This is the sound of Abbey Road, Sunset Sound, and Electric Lady in your laptop. At $999, it's the most authentic analog experience in the plugin world.",
         content_es: "UAD Ultimate 12 es la colección completa de las legendarias emulaciones analógicas de Universal Audio — más de 100 plugins que cubren cada pieza de hardware vintage que dio forma a la música grabada. Preamplificadores y ecualizadores Neve 1073, compresor de bus API 2500, channel strip SSL 4000 E, Manley Variable Mu y Massive Passive, máquinas de cinta Ampex ATR-102 y Studer A800, reverbs EMT 140 y 250, y las colecciones completas Teletronix LA-2A y 1176. No son aproximaciones — UAD modela cada circuito, cada transformador, cada etapa de tubo a nivel de componente. La tecnología de preamplificador Unison realmente cambia la impedancia para igualar el hardware. Este es el sonido de Abbey Road, Sunset Sound y Electric Lady en tu laptop. A $999, es la experiencia analógica más auténtica en el mundo de los plugins.",
         products: [121]
       }
     ],
-    conclusion: "The Waves SSL G-Master Buss Compressor gives you the glue and punch of the world's most famous console — the sound that defined modern mixing. The FabFilter Pro-Q 4 gives you the surgical precision to fix problems. UAD Ultimate 12 gives you the complete analog studio in your DAW. Together, they cover every console and outboard processing need.",
-    conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo. El FabFilter Pro-Q 4 te da la precisión quirúrgica. UAD Ultimate 12 te da el estudio analógico completo en tu DAW. Juntos, cubren cada necesidad de procesamiento de consola y outboard.",
+    conclusion: "The Waves SSL G-Master Buss Compressor gives you the glue and punch of the world's most famous console — the sound that defined modern mixing. The FabFilter Pro-Q 4 gives you the surgical precision to fix problems. UAD Ultimate 14 gives you the complete analog studio in your DAW. Together, they cover every console and outboard processing need.",
+    conclusion_es: "El Waves SSL G-Master Buss Compressor te da el pegamento y la pegada de la consola más famosa del mundo. El FabFilter Pro-Q 4 te da la precisión quirúrgica. UAD Ultimate 14 te da el estudio analógico completo en tu DAW. Juntos, cubren cada necesidad de procesamiento de consola y outboard.",
     verdict: "SSL G-Master for glue, UAD Ultimate for analog, Pro-Q 4 for precision",
     verdict_es: "SSL G-Master para pegamento, UAD Ultimate para analógico, Pro-Q 4 para precisión",
     featuredProducts: [119, 29, 121]

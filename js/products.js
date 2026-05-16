@@ -1731,8 +1731,8 @@ const products = [
   },
   {
     id: 121,
-    title: "Universal Audio UAD Ultimate 12",
-    title_es: "Universal Audio UAD Ultimate 12",
+    title: "Universal Audio UAD Ultimate 14",
+    title_es: "Universal Audio UAD Ultimate 14",
     category: "plugins",
     price: 999,
     rating: 4.9,
@@ -1740,8 +1740,8 @@ const products = [
     badge: "premium",
     desc: "The complete UAD plugin collection. Over 100 authentic emulations of vintage analog hardware — Neve, API, SSL, Manley, Ampex, Studer — running on UAD DSP with near-zero latency. The sound of classic records, inside your DAW.",
     desc_es: "La colección completa de plugins UAD. Más de 100 emulaciones auténticas de hardware analógico vintage — Neve, API, SSL, Manley, Ampex, Studer — ejecutándose en DSP UAD con latencia casi nula. El sonido de los discos clásicos, dentro de tu DAW.",
-    img: "https://media.sweetwater.com/m/products/image/bd3d8a14b9d7OclBDo4DYpIzm8b1X0uK8AK0QOMK.jpg?width=1080&height=1080&fit=bounds&canvas=1080%2C1080",
-    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=UAD+Ultimate+12&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/UADUltimate12--universal-audio-uad-ultimate-12-plug-in-bundle", thomann: "https://www.thomann.co.uk/search_dir.html?sw=UAD+Ultimate+12", gear4music: "https://www.gear4music.com/search/?q=UAD+Ultimate+12", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    img: "https://banners.pluginboutique.com/1n2478qfzd4viw6qm2ibswbhj7f3",
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=UAD+Ultimate+14&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/UADUltimate14--universal-audio-uad-ultimate-14-plug-in-bundle", thomann: "https://www.thomann.co.uk/search_dir.html?sw=UAD+Ultimate+14", gear4music: "https://www.gear4music.com/search/?q=UAD+Ultimate+14", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 122,
