@@ -395,7 +395,7 @@ function renderAbout() {
   if (!container) return;
   container.innerHTML = `
     <div class="about-photo-col">
-      <div class="about-photo-wrapper">
+      <div class="about-photo-wrapper" id="aboutPhoto">
         <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
       </div>
     </div>
@@ -648,10 +648,10 @@ window.goToSection = function(sectionId) {
   }
   history.pushState({}, '', '/');
   setTimeout(() => {
-    const el = document.getElementById(sectionId);
+    const el = sectionId === 'about' ? document.getElementById('aboutPhoto') : document.getElementById(sectionId);
     if (el) {
-      const top = el.getBoundingClientRect().top + window.pageYOffset - 64;
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 80;
       window.scrollTo({ top: top, behavior: 'smooth' });
     }
-  }, 200);
+  }, 250);
 };
