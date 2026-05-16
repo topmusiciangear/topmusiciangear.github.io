@@ -186,8 +186,9 @@
 </div>
 </div>
 <div id="cookie-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.85);align-items:center;justify-content:center;font-family:'Inter',sans-serif;transform:none!important">
-<div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0">
-<h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff">Cookie Preferences</h3>
+<div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0;position:relative">
+<button onclick="document.getElementById('cookie-modal').style.display='none'" style="position:absolute;top:16px;right:16px;background:none;border:none;color:#aaa;font-size:20px;cursor:pointer;line-height:1;padding:4px 8px">&times;</button>
+<h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px">Cookie Preferences</h3>
 <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6">We use different types of cookies to optimise your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</p>
 <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
 <div style="display:flex;align-items:flex-start;gap:10px">
@@ -225,9 +226,9 @@
 </div>
 </div>
 </div>
-<div style="display:flex;gap:10px;margin-top:20px;justify-content:flex-end;flex-wrap:wrap">
-<button onclick="cookieDecline()" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0">Decline All</button>
-<button onclick="cookieAccept()" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff">Allow All</button>
+<div style="display:flex;gap:10px;margin-top:20px;justify-content:space-between;flex-wrap:wrap">
+<button onclick="cookieDecline()" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap">Decline All</button>
+<button onclick="cookieAccept()" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap">Allow All</button>
 </div>
 </div>
 </div>
