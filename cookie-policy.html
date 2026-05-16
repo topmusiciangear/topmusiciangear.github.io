@@ -156,7 +156,7 @@
       document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.toggle('active', btn.textContent.toLowerCase() === lang));
     }
   </script>
-  <div style="text-align:center;padding:20px 32px 60px;">
+  <style>.lang-show-es{display:none}html[lang="es"] .lang-show-es{display:inline}html[lang="es"] .lang-show-en{display:none}</style>`n  <div style="text-align:center;padding:20px 32px 60px;">
     <a href="/#footer" style="display:inline-flex;align-items:center;gap:6px;color:var(--text-muted);font-size:14px;text-decoration:none;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
   </div>
 </body>
