@@ -514,17 +514,22 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideDetail(q);
     } else if (location.hash) {
       const h = location.hash.slice(1);
-      const guide = guides.find(g => g.id === h);
-      if (guide) {
-        history.replaceState({}, '', '/?g=' + h);
-        renderGuideDetail(h);
-      } else {
-        window.scrollTo({ top: 0, behavior: 'auto' });
+      if (h === 'footer') {
         renderGuideGrid();
+        setTimeout(() => {
+          const el = document.getElementById('footer');
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }, 400);
+      } else {
+        const guide = guides.find(g => g.id === h);
+        if (guide) {
+          history.replaceState({}, '', '/?g=' + h);
+          renderGuideDetail(h);
+        } else {
+          window.scrollTo({ top: 0, behavior: 'auto' });
+          renderGuideGrid();
+        }
       }
-    } else {
-      window.scrollTo({ top: 0, behavior: 'auto' });
-      renderGuideGrid();
     }
     renderAudioMini();
     renderMySetup();
