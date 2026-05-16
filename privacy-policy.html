@@ -27,6 +27,10 @@
     .legal-page a:hover { text-decoration: underline; }
     .legal-page .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-top: 24px; }
     .legal-page .card p { margin: 0; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-size: 14px; text-decoration: none; margin-bottom: 24px; }
+    .back-link:hover { text-decoration: underline; }
+    .back-link-bottom { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-size: 14px; text-decoration: none; margin-top: 40px; }
+    .back-link-bottom:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -63,6 +67,8 @@
   </header>
 
   <div class="legal-page">
+
+    <a href="/#footer" class="back-link"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
 
     <div id="lang-en" class="lang-section active">
       <h1>Privacy Policy</h1>
@@ -176,7 +182,7 @@
   </script>
   <style>.lang-show-es{display:none}html[lang="es"] .lang-show-es{display:inline}html[lang="es"] .lang-show-en{display:none}</style>
   <div style="text-align:center;padding:20px 32px 60px;">
-    <a href="/#footer" style="display:inline-flex;align-items:center;gap:6px;color:var(--text-muted);font-size:14px;text-decoration:none;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
+    <a href="/#footer" class="back-link-bottom"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
   </div>
 </body>
 </html>
