@@ -296,6 +296,7 @@ function renderGuideDetail(id) {
     return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"${name.replace(/"/g,'\\"')}","description":"${desc.replace(/"/g,'\\"').replace(/\n/g,' ')}","image":"${p.img}","offers":{"@type":"Offer","price":${p.price},"priceCurrency":"USD","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":${p.rating},"reviewCount":${p.reviews}}}</` + `script>`;
   }).join("");
 
+  const title = currentLang === 'es' && guide.title_es ? guide.title_es : guide.title;
 
   grid.innerHTML = `
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${title.replace(/"/g,'\\"')}","description":"${(currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro).replace(/"/g,'\\"').substring(0,200)}","image":"${guide.image}","author":{"@type":"Person","name":"Daniel"},"datePublished":"2026-01-15","dateModified":"2026-05-15"}</` + `script>
