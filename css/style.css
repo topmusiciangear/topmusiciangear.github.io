@@ -1088,7 +1088,7 @@ footer {
 .footer-grid {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 48px;
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
