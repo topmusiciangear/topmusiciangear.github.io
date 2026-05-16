@@ -128,19 +128,39 @@ function getResolvedStores(product) {
     if (key === 'gear4music' && url === 'https://www.gear4music.com/search') {
       s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
     } else if (key === 'musikproduktiv' && url === 'https://www.musik-produktiv.de/search') {
-      s[key] = `https://www.musik-produktiv.de/`;
+      s[key] = `https://www.musik-produktiv.de/search?q=${encodeURIComponent(product.title)}`;
     } else {
       s[key] = url;
     }
+    if (key === 'andertons' && !url.includes('irpid')) {
+      s[key] = url + (url.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
+    }
   });
   if (product.category !== 'plugins' && product.category !== 'tres') {
-    s.amazon = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
-    if (product.stores.amazon && product.stores.amazon.startsWith('https://www.amazon.com/dp/')) {
-      s.amazon = product.stores.amazon + '?tag=topmusicg-20';
+    s.amazon = `https://www.amazon.co.uk/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
+    if (product.stores.amazon) {
+      if (product.stores.amazon.includes('/dp/')) {
+        s.amazon = product.stores.amazon.replace('https://www.amazon.com/', 'https://www.amazon.co.uk/') + '?tag=topmusicg-20';
+      } else if (product.stores.amazon.includes('amazon.co.uk')) {
+        s.amazon = product.stores.amazon + (product.stores.amazon.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
+      }
     }
+    if (product.stores.reverb) {
+      s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&p=${encodeURIComponent(product.stores.reverb)}`;
+    } else {
+      s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&p=${encodeURIComponent(`https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`)}`;
+    }
+    if (!product.stores.andertons) s.andertons = `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(product.title)}&irgwc=1&irpid=7292297`;
+    if (!product.stores.baxmusic) s.baxmusic = `https://www.bax-shop.co.uk/catalogsearch/result/?q=${encodeURIComponent(product.title)}`;
+    if (!product.stores.musicstore) s.musicstore = `https://www.musicstore.com/en_GB/GBP/search?SearchTerm=${encodeURIComponent(product.title)}`;
   }
-  s.reverb = `https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`;
   return s;
+}
+
+function getReadTime(guide) {
+  const text = (guide.intro || '') + ' ' + (guide.conclusion || '') + ' ' + guide.sections.map(s => s.content || '').join(' ');
+  const words = text.split(/\s+/).length;
+  return Math.max(1, Math.round(words / 200));
 }
 
 function formatPrice(price) {
@@ -158,7 +178,7 @@ function renderProductCard(id) {
   if (!p) return "";
   const title = currentLang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
-  const stars = "★".repeat(Math.floor(p.rating)) + (p.rating % 1 >= 0.5 ? "½" : "");
+  const stars = "Ôÿà".repeat(Math.floor(p.rating)) + (p.rating % 1 >= 0.5 ? "┬¢" : "");
   const stores = Object.entries(getResolvedStores(p)).map(([key, url]) =>
     `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
   ).join("");
@@ -180,6 +200,10 @@ function renderGuideGrid() {
   currentGuideId = null;
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "";
+  const hero = document.getElementById("hero");
+  if (hero) hero.style.display = "";
+  const schemaEl = document.getElementById("productSchemas");
+  if (schemaEl) schemaEl.remove();
   const grid = document.getElementById("guideGrid");
   const count = document.getElementById("guideCount");
   const container = document.getElementById("guideContainer");
@@ -207,9 +231,9 @@ function renderGuideGrid() {
         </div>
         <div class="guide-card-body">
           <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
-          <p class="guide-card-intro">${(() => { const i = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro; return i.length > 150 ? i.slice(0, 150) + '…' : i; })()}</p>
+          <p class="guide-card-intro">${(() => { const i = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro; return i.length > 150 ? i.slice(0, 150) + 'ÔÇª' : i; })()}</p>
           <div class="guide-card-footer">
-            <span class="guide-card-meta"><i class="fa-regular fa-clock"></i> 6 ${t("minRead")}</span>
+            <span class="guide-card-meta"><i class="fa-regular fa-clock"></i> ${getReadTime(g)} ${t("minRead")}</span>
             <span class="guide-card-btn">${t("readGuide")}</span>
           </div>
         </div>
@@ -240,6 +264,12 @@ function renderGuideDetail(id) {
   if (sortBar) sortBar.style.display = "none";
   const sectionHeader = document.querySelector("#guides .section-header");
   if (sectionHeader) sectionHeader.style.display = "none";
+  const hero = document.getElementById("hero");
+  if (hero) hero.style.display = "none";
+
+  // Set canonical URL for this guide
+  const existingCanonical = document.querySelector('link[rel="canonical"]');
+  if (existingCanonical) existingCanonical.href = 'https://topmusiciangear.com/?g=' + guide.id;
 
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
@@ -258,9 +288,17 @@ function renderGuideDetail(id) {
 
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
   const allProductsHtml = allProductIds.map(id => renderProductCard(id)).join("");
+  const productSchemas = allProductIds.map(id => {
+    const p = products.find(x => x.id === id);
+    if (!p) return "";
+    const name = currentLang === 'es' && p.title_es ? p.title_es : p.title;
+    const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
+    return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"${name.replace(/"/g,'\\"')}","description":"${desc.replace(/"/g,'\\"').replace(/\n/g,' ')}","image":"${p.img}","offers":{"@type":"Offer","price":${p.price},"priceCurrency":"USD","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":${p.rating},"reviewCount":${p.reviews}}}</` + `script>`;
+  }).join("");
 
 
   grid.innerHTML = `
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${title.replace(/"/g,'\\"')}","description":"${(currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro).replace(/"/g,'\\"').substring(0,200)}","image":"${guide.image}","author":{"@type":"Person","name":"Daniel"},"datePublished":"2026-01-15","dateModified":"2026-05-15"}</` + `script>
     <div class="guide-detail">
       <div class="guide-back-row">
         <button class="guide-back-btn" id="guideBackBtn1"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
@@ -283,6 +321,12 @@ function renderGuideDetail(id) {
       <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
+  const existingSchemas = document.getElementById("productSchemas");
+  if (existingSchemas) existingSchemas.remove();
+  const schemaWrapper = document.createElement("div");
+  schemaWrapper.id = "productSchemas";
+  schemaWrapper.innerHTML = productSchemas;
+  grid.appendChild(schemaWrapper);
   const btn1 = document.getElementById("guideBackBtn1");
   if (btn1) btn1.addEventListener("click", () => {
     history.pushState({}, '', '/');
@@ -330,11 +374,11 @@ function renderMySetup() {
   const container = document.getElementById("setupGrid");
   if (!container) return;
   const gear = [
-    { icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', title: "Focusrite Scarlett 2i2 4th Gen", descKey: "setupItem1Desc" },
-    { icon: '<i class="fa-solid fa-headphones"></i>', title: "Beyerdynamic DT 770 Pro", descKey: "setupItem2Desc" },
-    { icon: '<i class="fa-solid fa-microphone"></i>', title: "Rode NT1-A", descKey: "setupItem3Desc" },
-    { icon: '<i class="fa-solid fa-keyboard"></i>', title: "Akai MPK249", descKey: "setupItem4Desc" },
-    { icon: '<i class="fa-solid fa-volume-high"></i>', title: "Yamaha HS8", descKey: "setupItem5Desc" }
+    { icon: '<svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', title: "Focusrite Scarlett 2i2 4th Gen", descKey: "setupItem1Desc" },
+    { icon: '<i class="fa-solid fa-headphones" style="font-size:32px"></i>', title: "Beyerdynamic DT 770 Pro", descKey: "setupItem2Desc" },
+    { icon: '<i class="fa-solid fa-microphone" style="font-size:32px"></i>', title: "Rode NT1-A", descKey: "setupItem3Desc" },
+    { icon: '<i class="fa-solid fa-keyboard" style="font-size:32px"></i>', title: "Akai MPK249", descKey: "setupItem4Desc" },
+    { icon: '<i class="fa-solid fa-volume-high" style="font-size:32px"></i>', title: "Yamaha HS8", descKey: "setupItem5Desc" }
   ];
   container.innerHTML = gear.map(g => `
     <div class="setup-item">
@@ -351,7 +395,7 @@ function renderAbout() {
   container.innerHTML = `
     <div class="about-photo-col">
       <div class="about-photo-wrapper">
-        <img src="img/me.jpg" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
+        <img src="img/me.jpg" alt="Top Musician Gear ÔÇö Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>­ƒÄÁ</div>'">
       </div>
     </div>
     <div class="about-content">
@@ -392,7 +436,7 @@ function handleNavClick(target) {
     renderGuideGrid();
     setTimeout(() => {
       const el = document.querySelector("#guides .section-header") || document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 200);
   } else if (target === "mysetup") {
     setTimeout(() => {
@@ -461,30 +505,31 @@ document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = currentLang;
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
-  renderGuideCats();
-  const q = new URLSearchParams(window.location.search).get('g');
-  if (q && guides.find(g => g.id === q)) {
-    history.replaceState({}, '', '/?g=' + q);
-    renderGuideDetail(q);
-  } else if (location.hash) {
-    const h = location.hash.slice(1);
-    const guide = guides.find(g => g.id === h);
-    if (guide) {
-      history.replaceState({}, '', '/?g=' + h);
-      renderGuideDetail(h);
+  setTimeout(() => {
+    renderGuideCats();
+    const q = new URLSearchParams(window.location.search).get('g');
+    if (q && guides.find(g => g.id === q)) {
+      history.replaceState({}, '', '/?g=' + q);
+      renderGuideDetail(q);
+    } else if (location.hash) {
+      const h = location.hash.slice(1);
+      const guide = guides.find(g => g.id === h);
+      if (guide) {
+        history.replaceState({}, '', '/?g=' + h);
+        renderGuideDetail(h);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+        renderGuideGrid();
+      }
     } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'auto' });
       renderGuideGrid();
     }
-  } else {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    renderGuideGrid();
-  }
-  renderAudioMini();
-  renderMySetup();
-  renderAbout();
-  initVideoIntro();
-  translatePage();
+    renderAudioMini();
+    renderMySetup();
+    renderAbout();
+    translatePage();
+  }, 300);
 
   document.getElementById("searchInput").addEventListener("input", e => {
     searchQuery = e.target.value;
@@ -508,7 +553,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     if (filtered.length === 0) {
       results.style.display = "block";
-      results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">No products found</p>';
+      results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">' + t("noProducts") + '</p>';
       return;
     }
     results.style.display = "block";
@@ -524,9 +569,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("mobileNav").classList.toggle("open");
   });
 
-  document.getElementById("disclosureLink").addEventListener("click", e => {
-    e.preventDefault();
-    document.getElementById("disclosureModal").style.display = "flex";
+  document.addEventListener("click", e => {
+    if (e.target.id === "disclosureLink") {
+      e.preventDefault();
+      document.getElementById("disclosureModal").style.display = "flex";
+    }
   });
   document.getElementById("disclosureModal").addEventListener("click", e => {
     if (e.target === e.currentTarget) e.target.style.display = "none";
