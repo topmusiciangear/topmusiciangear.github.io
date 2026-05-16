@@ -1699,7 +1699,7 @@ const products = [
     desc: "The best reverb plugin under $200. Models classic digital reverb units from the 70s and 80s with stunning authenticity. Simple, musical, and sounds better than reverbs costing ten times as much.",
     desc_es: "El mejor plugin de reverb por menos de $200. Modela unidades clásicas de reverb digital de los 70s y 80s con una autenticidad impresionante. Simple, musical, y suena mejor que reverbs que cuestan diez veces más.",
     img: "https://valhalladsp.com/wp-content/uploads/2021/02/VintageVerb-screenshot-1.png",
-    stores: { pluginboutique: "https://www.pluginboutique.com/product/2-Effects/17-Reverb/1067-Valhalla-VintageVerb?a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/VintageVerb--valhalladsp-vintageverb-reverb-plugin", thomann: "https://www.thomann.co.uk/search_dir.html?sw=ValhallaDSP+VintageVerb", gear4music: "https://www.gear4music.com/search/?q=ValhallaDSP+VintageVerb", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=ValhallaDSP+VintageVerb&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/VintageVerb--valhalladsp-vintageverb-reverb-plugin", thomann: "https://www.thomann.co.uk/search_dir.html?sw=ValhallaDSP+VintageVerb", gear4music: "https://www.gear4music.com/search/?q=ValhallaDSP+VintageVerb", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 119,
@@ -1713,7 +1713,7 @@ const products = [
     desc: "The sound of a million hit records. Modeled from the SSL 4000 G console's master buss compressor. Delivers that unmistakable glue and punch that makes mixes sound like records.",
     desc_es: "El sonido de un millón de discos exitosos. Modelado del compresor de bus maestro de la consola SSL 4000 G. Ofrece ese pegamento y pegada inconfundibles que hacen que las mezclas suenen como discos.",
     img: "https://www.waves.com/1lib/images/products/plugins/ssl-g-master-buss-compressor/ssl-g-master-buss-compressor-main.jpg",
-    stores: { pluginboutique: "https://www.pluginboutique.com/product/2-Effects/9-Compressor/1141-Waves-SSL-G-Master-Buss-Compressor?a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/SSLGMBussComp--waves-ssl-g-master-buss-compressor", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Waves+SSL+G+Master+Buss+Compressor", gear4music: "https://www.gear4music.com/search/?q=Waves+SSL+G+Master+Buss+Compressor", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Waves+SSL+G+Master+Buss+Compressor&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/SSLGMBussComp--waves-ssl-g-master-buss-compressor", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Waves+SSL+G+Master+Buss+Compressor", gear4music: "https://www.gear4music.com/search/?q=Waves+SSL+G+Master+Buss+Compressor", musikproduktiv: "https://www.musik-produktiv.de/search" }
   },
   {
     id: 120,
@@ -1727,7 +1727,7 @@ const products = [
     desc: "The industry standard for pitch correction and vocal tuning. Edit individual notes within polyphonic audio — fix timing, pitch, and formants with surgical precision. Used on virtually every professional vocal production.",
     desc_es: "El estándar de la industria para corrección de tono y afinación vocal. Edita notas individuales dentro de audio polifónico — corrige tiempo, tono y formantes con precisión quirúrgica. Usado en prácticamente cada producción vocal profesional.",
     img: "https://www.pluginboutique.com//uploads/Image7a33ec0a8fa2e457aea7e11987960a62.jpg",
-    stores: { pluginboutique: "https://www.pluginboutique.com/product/2-Effects/43-Pitch-Shifter/5448-Melodyne-5-essentials?a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Melodyne5Ess--celemony-melodyne-5-essentials-pitch-correction-software", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Celemony+Melodyne+5", gear4music: "https://www.gear4music.com/search/?q=Celemony+Melodyne+5", musikproduktiv: "https://www.musik-produktiv.de/search" }
+    stores: { pluginboutique: "https://www.pluginboutique.com/search?q=Celemony+Melodyne+5&a_aid=6a01e859cbe1a", sweetwater: "https://www.sweetwater.com/store/detail/Melodyne5Ess--celemony-melodyne-5-essentials-pitch-correction-software", thomann: "https://www.thomann.co.uk/search_dir.html?sw=Celemony+Melodyne+5", gear4music: "https://www.gear4music.com/search/?q=Celemony+Melodyne+5", musikproduktiv: "https://www.musik-produktiv.de/search" }
   }
 ];
 
