@@ -98,16 +98,14 @@ function renderGuideCats() {
       <div class="count">${c.count} ${t("guides")}</div>
     </div>`
   ).join("");
-  container.addEventListener("click", e => {
-    const card = e.target.closest(".cat-card");
+  container.addEventListener("click", function(e) {
+    var card = e.target.closest(".cat-card");
     if (!card) return;
     currentCategory = card.dataset.cat;
-    document.querySelectorAll(".cat-card").forEach(c => c.classList.remove("active"));
+    document.querySelectorAll(".cat-card").forEach(function(c) { c.classList.remove("active"); });
     card.classList.add("active");
     renderGuideGrid();
-    if (window.innerWidth <= 768) {
-      setTimeout(function() { scrollToSection("guides"); }, 200);
-    }
+    scrollToSection("guides");
   });
 }
 
@@ -433,7 +431,7 @@ function showToast(msg) {
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  var headerH = (document.querySelector('header')?.offsetHeight || 64) + 16;
+  var headerH = (document.querySelector('header').offsetHeight || 64) + 24;
   var rect = el.getBoundingClientRect();
   var top = rect.top + window.pageYOffset - headerH;
   window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
