@@ -166,6 +166,9 @@ function getResolvedStores(product) {
       s[key] = searchUrls[key](product.title);
     }
   });
+  if (s.reverb) {
+    s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
+  }
   return s;
 }
 
