@@ -338,6 +338,7 @@ function renderGuideDetail(id) {
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
   }
+  var lang = currentLang;
   document.title = (lang === 'es' && guide.title_es ? guide.title_es : guide.title) + ' | TopMusicianGear';
   var metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
