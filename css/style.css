@@ -98,7 +98,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 64px;
   gap: 16px;
 }
 
@@ -127,7 +127,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 64px;
   gap: 16px;
 }
 
@@ -152,23 +152,21 @@ header {
 }
 
 .logo {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 900;
   color: var(--white);
   text-decoration: none;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1px;
-  letter-spacing: -.2px;
-  line-height: 1.15;
-  text-align: center;
+  gap: 10px;
+  letter-spacing: -.5px;
+  white-space: nowrap;
 }
 
 .logo-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  line-height: 1.2;
 }
 
 .logo-tagline {
@@ -1940,7 +1938,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 74px; }
+  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 70px; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
