@@ -438,29 +438,29 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove("show"), 3000);
 }
 
+function scrollToSection(id) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var headerH = 64;
+  var rect = el.getBoundingClientRect();
+  var top = rect.top + window.pageYOffset - headerH;
+  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+}
+
 function handleNavClick(target) {
   document.querySelectorAll(".nav-link").forEach(n => n.classList.remove("active"));
-  const navBtn = document.querySelector(`.nav-link[data-nav="${target}"]`);
+  var navBtn = document.querySelector(`.nav-link[data-nav="${target}"]`);
   if (navBtn) navBtn.classList.add("active");
   document.getElementById("mobileNav").classList.remove("open");
 
   if (target === "guides") {
     currentGuideId = null;
     renderGuideGrid();
-    setTimeout(() => {
-      const el = document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    setTimeout(function() { scrollToSection("guides"); }, 200);
   } else if (target === "mysetup") {
-    setTimeout(() => {
-      const el = document.getElementById("mysetup");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    setTimeout(function() { scrollToSection("mysetup"); }, 200);
   } else if (target === "about") {
-    setTimeout(() => {
-      const el = document.getElementById("about");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    setTimeout(function() { scrollToSection("about"); }, 200);
   }
 }
 

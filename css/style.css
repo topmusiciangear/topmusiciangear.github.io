@@ -864,7 +864,6 @@ nav {
 /* My Setup Section */
 .my-setup {
   padding: 64px 32px;
-  scroll-margin-top: 64px;
 }
 
 .setup-grid {
@@ -911,7 +910,6 @@ nav {
   padding: 80px 32px;
   position: relative;
   overflow: hidden;
-  scroll-margin-top: 64px;
 }
 
 .about-section::before {
@@ -1336,7 +1334,6 @@ footer ul li a:hover { color: var(--accent); }
 /* ===== GUIDES SECTION ===== */
 .guides-section {
   padding: 64px 32px;
-  scroll-margin-top: 64px;
 }
 
 .guides-inner {
@@ -1901,7 +1898,7 @@ footer ul li a:hover { color: var(--accent); }
   display: none;
 }
 
-.guide-detail { scroll-margin-top: 64px; }
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -1936,7 +1933,7 @@ footer ul li a:hover { color: var(--accent); }
 @media (max-width: 768px) {
   .guides-section,
   .my-setup,
-  .about-section { scroll-margin-top: 42px; }
+  .about-section { }
   .header-inner { padding: 0 16px; gap: 12px; }
   html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 70px; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
