@@ -1897,6 +1897,10 @@ footer ul li a:hover { color: var(--accent); }
   display: none;
 }
 
+#guideGrid {
+  scroll-margin-top: 80px;
+}
+
 
 
 /* Responsive */

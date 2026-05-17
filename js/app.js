@@ -329,7 +329,7 @@ function renderGuideDetail(id) {
     const el = document.getElementById("guides");
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   });
-  if (!initialLoad && !skipDetailScroll) {
+  if (!skipDetailScroll) {
     setTimeout(() => {
       const el = document.getElementById("guideGrid");
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
