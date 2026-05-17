@@ -107,8 +107,7 @@ function renderGuideCats() {
     renderGuideGrid();
     if (window.innerWidth <= 768) {
       requestAnimationFrame(() => {
-        const el = document.querySelector(".sort-bar") || document.getElementById("guides");
-        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollToSection("guides");
       });
     }
   });
@@ -319,15 +318,13 @@ function renderGuideDetail(id) {
   if (btn1) btn1.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    const el = document.getElementById("guides");
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToSection("guides");
   });
   const btn2 = document.getElementById("guideBackBtn2");
   if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    const el = document.getElementById("guides");
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToSection("guides");
   });
   if (!skipDetailScroll) {
     setTimeout(() => {
@@ -743,8 +740,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderGuideGrid();
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        const el = document.getElementById("guides");
-        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollToSection("guides");
       });
     });
   };
@@ -755,8 +751,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideDetail(q);
     } else {
       renderGuideGrid();
-      const el = document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      scrollToSection("guides");
     }
   });
 
