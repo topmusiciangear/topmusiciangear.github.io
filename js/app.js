@@ -318,13 +318,13 @@ function renderGuideDetail(id) {
   if (btn1) btn1.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    scrollToSection("guides");
+    setTimeout(function() { scrollToSection("guides"); }, 200);
   });
   const btn2 = document.getElementById("guideBackBtn2");
   if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    scrollToSection("guides");
+    setTimeout(function() { scrollToSection("guides"); }, 200);
   });
   if (!skipDetailScroll) {
     setTimeout(() => {
@@ -751,7 +751,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideDetail(q);
     } else {
       renderGuideGrid();
-      scrollToSection("guides");
+      setTimeout(function() { scrollToSection("guides"); }, 200);
     }
   });
 
