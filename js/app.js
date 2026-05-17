@@ -438,7 +438,7 @@ function showToast(msg) {
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  var headerH = 64;
+  var headerH = (document.querySelector('header')?.offsetHeight || 64) + 16;
   var rect = el.getBoundingClientRect();
   var top = rect.top + window.pageYOffset - headerH;
   window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
@@ -449,14 +449,16 @@ function handleNavClick(target) {
   var navBtn = document.querySelector(`.nav-link[data-nav="${target}"]`);
   if (navBtn) navBtn.classList.add("active");
   document.getElementById("mobileNav").classList.remove("open");
+  currentGuideId = null;
 
   if (target === "guides") {
-    currentGuideId = null;
     renderGuideGrid();
     setTimeout(function() { scrollToSection("guides"); }, 200);
   } else if (target === "mysetup") {
+    renderGuideGrid();
     setTimeout(function() { scrollToSection("mysetup"); }, 200);
   } else if (target === "about") {
+    renderGuideGrid();
     setTimeout(function() { scrollToSection("about"); }, 200);
   }
 }

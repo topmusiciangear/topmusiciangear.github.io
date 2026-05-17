@@ -163,7 +163,7 @@
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="css/style.css?v=14">
+  <link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body style="margin:0;padding:0;">
   <!-- Cookie Consent Banner -->
@@ -271,9 +271,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" href="#guides" onclick="document.getElementById('mobileNav').classList.remove('open');location.hash='#guides'"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
-    <a class="nav-link" href="#mysetup" onclick="document.getElementById('mobileNav').classList.remove('open');location.hash='#mysetup'"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
-    <a class="nav-link" href="#about" onclick="document.getElementById('mobileNav').classList.remove('open');location.hash='#about'"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
+    <a class="nav-link" data-nav="guides" href="javascript:void(0)" onclick="handleNavClick('guides')"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+    <a class="nav-link" data-nav="mysetup" href="javascript:void(0)" onclick="handleNavClick('mysetup')"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
+    <a class="nav-link" data-nav="about" href="javascript:void(0)" onclick="handleNavClick('about')"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
   </div>
 
   <main id="mainContent">
