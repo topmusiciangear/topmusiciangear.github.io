@@ -1,0 +1,8 @@
+[api shell.run]
+[Config] ACE-Step API confirmed on port 42003 (from env)
+Running SQLite database migrations...
+Migrations completed successfully!
+ACE-Step UI Server running on http://localhost:3001
+Environment: development
+ACE-Step API: http://127.0.0.1:42003
+LAN access: http://192.168.1.100:3001

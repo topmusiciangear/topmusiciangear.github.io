@@ -166,6 +166,9 @@ function getResolvedStores(product) {
       s[key] = searchUrls[key](product.title);
     }
   });
+  if (s.reverb) {
+    s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
+  }
   return s;
 }
 
@@ -311,7 +314,6 @@ function renderGuideDetail(id) {
       <div class="guide-author-box">
         <img src="img/me.jpg" alt="Daniel — TopMusicianGear" class="guide-author-photo" loading="lazy">
         <div class="guide-author-info">
-          <strong>${t("aboutTitle")}Daniel</strong>
           <p>${currentLang === 'es' ? 'Músico profesional con más de 20 años de experiencia en los escenarios más grandes del mundo — desde Abbey Road hasta Glastonbury. Esta guía está basada en equipo que he usado personalmente e investigado profundamente.' : 'Professional musician with 20+ years of experience on the world\'s biggest stages. This guide is based on gear I\'ve personally used and thoroughly researched.'}</p>
         </div>
       </div>
@@ -446,20 +448,19 @@ function handleNavClick(target) {
   if (target === "guides") {
     currentGuideId = null;
     renderGuideGrid();
-    setTimeout(() => {
-      const el = document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    setTimeout(function() { scrollToSection("guides"); }, 200);
   } else if (target === "mysetup") {
-    setTimeout(() => {
-      const el = document.getElementById("mysetup");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    currentGuideId = null;
+    renderGuideGrid();
+    renderMySetup();
+    renderAbout();
+    setTimeout(function() { scrollToSection("mysetup"); }, 200);
   } else if (target === "about") {
-    setTimeout(() => {
-      const el = document.getElementById("about");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    currentGuideId = null;
+    renderGuideGrid();
+    renderMySetup();
+    renderAbout();
+    setTimeout(function() { scrollToSection("about"); }, 200);
   }
 }
 

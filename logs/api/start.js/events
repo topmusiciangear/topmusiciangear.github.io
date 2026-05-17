@@ -1,0 +1,657 @@
+2026-05-03T17:13:03.643Z [memory] {"ts":1777828383642,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:13:03.643Z [memory] 
+2026-05-03T17:13:03.643Z [memory] {"ts":1777828383642,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:13:03.643Z [memory] 
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] ===================================================
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] # local variables
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] ===================================================
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] 
+2026-05-03T17:13:03.650Z [api local.set] {
+2026-05-03T17:13:03.650Z [api local.set]   "api_port": 42003
+2026-05-03T17:13:03.650Z [api local.set] }
+2026-05-03T17:13:03.672Z [memory] {"ts":1777828383671,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-03T17:13:03.672Z [memory] 
+2026-05-03T17:43:50.922Z [memory] {"ts":1777830230919,"step":2,"input":{"id":"8e2d496e-892c-4efc-9e21-d518352e9417","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-03T17:43:50.922Z [memory] 
+2026-05-03T17:43:59.500Z [memory] {"ts":1777830239499,"step":3,"input":{"id":"c5934fb3-cd1f-4f20-b18a-5bdd5447ee8f","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-03T17:43:59.500Z [memory] 
+2026-05-03T17:43:59.920Z [api local.set] # local variables
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.920Z [api local.set] ===================================================
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.920Z [api local.set] {
+2026-05-03T17:43:59.920Z [api local.set]   "api_port": 42003,
+2026-05-03T17:43:59.920Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-03T17:43:59.920Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-03T17:43:59.920Z [api local.set] }
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.920Z [api local.set] ===================================================
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.920Z [api local.set] 
+2026-05-03T17:43:59.960Z [memory] {"ts":1777830239959,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-03T17:43:59.960Z [memory] 
+2026-05-03T18:07:17.878Z [memory] {"ts":1777831637877,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T18:07:17.878Z [memory] 
+2026-05-03T18:07:17.878Z [memory] {"ts":1777831637877,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T18:07:17.878Z [memory] 
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.002Z [api local.set] ===================================================
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.002Z [api local.set] # local variables
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.002Z [api local.set] {
+2026-05-03T18:07:18.002Z [api local.set]   "api_port": 42003
+2026-05-03T18:07:18.002Z [api local.set] }
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.002Z [api local.set] ===================================================
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.002Z [api local.set] 
+2026-05-03T18:07:18.027Z [memory] {"ts":1777831638027,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-03T18:07:18.027Z [memory] 
+2026-05-03T18:08:13.383Z [memory] {"ts":1777831693381,"step":2,"input":{"id":"1e7b8dd8-f99f-4bd1-a403-90e625dddddf","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-03T18:08:13.383Z [memory] 
+2026-05-03T18:08:19.170Z [memory] {"ts":1777831699168,"step":3,"input":{"id":"5ff207e3-bd43-45fd-9198-d51a8b209fae","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-03T18:08:19.170Z [memory] 
+2026-05-03T18:08:19.332Z [api local.set] # local variables
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] ===================================================
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] ===================================================
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] 
+2026-05-03T18:08:19.332Z [api local.set] {
+2026-05-03T18:08:19.332Z [api local.set]   "api_port": 42003,
+2026-05-03T18:08:19.332Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-03T18:08:19.332Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-03T18:08:19.332Z [api local.set] }
+2026-05-03T18:08:19.364Z [memory] {"ts":1777831699363,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-03T18:08:19.364Z [memory] 
+2026-05-04T05:21:51.435Z [memory] {"ts":1777872111433,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T05:21:51.435Z [memory] 
+2026-05-04T05:21:51.435Z [memory] {"ts":1777872111433,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T05:21:51.435Z [memory] 
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.446Z [api local.set] ===================================================
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.446Z [api local.set] {
+2026-05-04T05:21:51.446Z [api local.set]   "api_port": 42003
+2026-05-04T05:21:51.446Z [api local.set] }
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.446Z [api local.set] ===================================================
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.446Z [api local.set] # local variables
+2026-05-04T05:21:51.446Z [api local.set] 
+2026-05-04T05:21:51.461Z [memory] {"ts":1777872111461,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T05:21:51.461Z [memory] 
+2026-05-04T05:23:18.663Z [memory] {"ts":1777872198657,"step":2,"input":{"id":"00b3f220-4159-45d3-94f3-087c763e4101","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T05:23:18.663Z [memory] 
+2026-05-04T05:23:26.963Z [memory] {"ts":1777872206963,"step":3,"input":{"id":"51784ff8-1576-427f-8821-abfbc98d9731","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T05:23:26.963Z [memory] 
+2026-05-04T05:23:27.104Z [api local.set] 
+2026-05-04T05:23:27.104Z [api local.set] 
+2026-05-04T05:23:27.104Z [api local.set] ===================================================
+2026-05-04T05:23:27.104Z [api local.set] 
+2026-05-04T05:23:27.105Z [api local.set] # local variables
+2026-05-04T05:23:27.105Z [api local.set] 
+2026-05-04T05:23:27.105Z [api local.set] {
+2026-05-04T05:23:27.105Z [api local.set]   "api_port": 42003,
+2026-05-04T05:23:27.105Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T05:23:27.105Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T05:23:27.105Z [api local.set] }
+2026-05-04T05:23:27.105Z [api local.set] 
+2026-05-04T05:23:27.105Z [api local.set] ===================================================
+2026-05-04T05:23:27.105Z [api local.set] 
+2026-05-04T05:23:27.105Z [api local.set] 
+2026-05-04T05:23:27.125Z [memory] {"ts":1777872207125,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T05:23:27.125Z [memory] 
+2026-05-04T05:32:30.297Z [memory] {"ts":1777872750296,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T05:32:30.297Z [memory] 
+2026-05-04T05:32:30.298Z [memory] {"ts":1777872750296,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T05:32:30.298Z [memory] 
+2026-05-04T05:32:30.308Z [api local.set] # local variables
+2026-05-04T05:32:30.308Z [api local.set] 
+2026-05-04T05:32:30.308Z [api local.set] 
+2026-05-04T05:32:30.308Z [api local.set] 
+2026-05-04T05:32:30.308Z [api local.set] ===================================================
+2026-05-04T05:32:30.308Z [api local.set] 
+2026-05-04T05:32:30.308Z [api local.set] {
+2026-05-04T05:32:30.308Z [api local.set]   "api_port": 42003
+2026-05-04T05:32:30.308Z [api local.set] }
+2026-05-04T05:32:30.309Z [api local.set] 
+2026-05-04T05:32:30.309Z [api local.set] ===================================================
+2026-05-04T05:32:30.309Z [api local.set] 
+2026-05-04T05:32:30.309Z [api local.set] 
+2026-05-04T05:32:30.339Z [memory] {"ts":1777872750338,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T05:32:30.339Z [memory] 
+2026-05-04T05:33:27.669Z [memory] {"ts":1777872807668,"step":2,"input":{"id":"45a27832-1048-4844-a614-98414447d963","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T05:33:27.669Z [memory] 
+2026-05-04T05:33:33.440Z [memory] {"ts":1777872813438,"step":3,"input":{"id":"a9b287db-e93d-48a8-b4de-b1c17dbcd5fb","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T05:33:33.440Z [memory] 
+2026-05-04T05:33:33.564Z [api local.set] 
+2026-05-04T05:33:33.564Z [api local.set] 
+2026-05-04T05:33:33.564Z [api local.set] ===================================================
+2026-05-04T05:33:33.564Z [api local.set] 
+2026-05-04T05:33:33.565Z [api local.set] # local variables
+2026-05-04T05:33:33.565Z [api local.set] 
+2026-05-04T05:33:33.564Z [api local.set] {
+2026-05-04T05:33:33.564Z [api local.set]   "api_port": 42003,
+2026-05-04T05:33:33.564Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T05:33:33.564Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T05:33:33.564Z [api local.set] }
+2026-05-04T05:33:33.565Z [api local.set] 
+2026-05-04T05:33:33.565Z [api local.set] ===================================================
+2026-05-04T05:33:33.565Z [api local.set] 
+2026-05-04T05:33:33.565Z [api local.set] 
+2026-05-04T05:33:33.600Z [memory] {"ts":1777872813600,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T05:33:33.600Z [memory] 
+2026-05-04T06:48:25.431Z [memory] {"ts":1777877305430,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T06:48:25.431Z [memory] 
+2026-05-04T06:48:25.431Z [memory] {"ts":1777877305430,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T06:48:25.431Z [memory] 
+2026-05-04T06:48:25.790Z [api local.set] # local variables
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.790Z [api local.set] ===================================================
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.790Z [api local.set] {
+2026-05-04T06:48:25.790Z [api local.set]   "api_port": 42003
+2026-05-04T06:48:25.790Z [api local.set] }
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.790Z [api local.set] ===================================================
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.790Z [api local.set] 
+2026-05-04T06:48:25.808Z [memory] {"ts":1777877305808,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T06:48:25.808Z [memory] 
+2026-05-04T06:49:50.598Z [memory] {"ts":1777877390597,"step":2,"input":{"id":"1f44cda8-79b9-4a8f-bf0a-a03d807eb4fb","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T06:49:50.598Z [memory] 
+2026-05-04T06:49:59.260Z [memory] {"ts":1777877399260,"step":3,"input":{"id":"15c4e8ba-4263-429b-b324-ee5201296462","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T06:49:59.260Z [memory] 
+2026-05-04T06:49:59.398Z [api local.set] 
+2026-05-04T06:49:59.398Z [api local.set] 
+2026-05-04T06:49:59.398Z [api local.set] ===================================================
+2026-05-04T06:49:59.398Z [api local.set] 
+2026-05-04T06:49:59.398Z [api local.set] {
+2026-05-04T06:49:59.398Z [api local.set]   "api_port": 42003,
+2026-05-04T06:49:59.398Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T06:49:59.398Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T06:49:59.398Z [api local.set] }
+2026-05-04T06:49:59.398Z [api local.set] # local variables
+2026-05-04T06:49:59.398Z [api local.set] 
+2026-05-04T06:49:59.399Z [api local.set] 
+2026-05-04T06:49:59.399Z [api local.set] ===================================================
+2026-05-04T06:49:59.399Z [api local.set] 
+2026-05-04T06:49:59.399Z [api local.set] 
+2026-05-04T06:49:59.422Z [memory] {"ts":1777877399422,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T06:49:59.422Z [memory] 
+2026-05-04T07:05:58.167Z [memory] {"ts":1777878358165,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T07:05:58.167Z [memory] 
+2026-05-04T07:05:58.167Z [memory] {"ts":1777878358165,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T07:05:58.167Z [memory] 
+2026-05-04T07:05:58.176Z [api local.set] 
+2026-05-04T07:05:58.176Z [api local.set] 
+2026-05-04T07:05:58.176Z [api local.set] ===================================================
+2026-05-04T07:05:58.176Z [api local.set] 
+2026-05-04T07:05:58.176Z [api local.set] # local variables
+2026-05-04T07:05:58.176Z [api local.set] 
+2026-05-04T07:05:58.176Z [api local.set] {
+2026-05-04T07:05:58.176Z [api local.set]   "api_port": 42003
+2026-05-04T07:05:58.176Z [api local.set] }
+2026-05-04T07:05:58.177Z [api local.set] 
+2026-05-04T07:05:58.177Z [api local.set] ===================================================
+2026-05-04T07:05:58.177Z [api local.set] 
+2026-05-04T07:05:58.177Z [api local.set] 
+2026-05-04T07:05:58.195Z [memory] {"ts":1777878358194,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T07:05:58.195Z [memory] 
+2026-05-04T07:07:18.508Z [memory] {"ts":1777878438506,"step":2,"input":{"id":"47fe7825-2f79-4e4f-9968-56bc1c454235","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T07:07:18.508Z [memory] 
+2026-05-04T07:07:26.118Z [memory] {"ts":1777878446117,"step":3,"input":{"id":"89dd3fb7-6df4-4e02-8b39-2989c8e1d3ed","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T07:07:26.118Z [memory] 
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.261Z [api local.set] ===================================================
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.261Z [api local.set] # local variables
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.261Z [api local.set] {
+2026-05-04T07:07:26.261Z [api local.set]   "api_port": 42003,
+2026-05-04T07:07:26.261Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T07:07:26.261Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T07:07:26.261Z [api local.set] }
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.261Z [api local.set] ===================================================
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.261Z [api local.set] 
+2026-05-04T07:07:26.284Z [memory] {"ts":1777878446283,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T07:07:26.284Z [memory] 
+2026-05-04T07:23:19.111Z [memory] {"ts":1777879399109,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T07:23:19.111Z [memory] 
+2026-05-04T07:23:19.111Z [memory] {"ts":1777879399109,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T07:23:19.111Z [memory] 
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.119Z [api local.set] ===================================================
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.119Z [api local.set] # local variables
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.119Z [api local.set] ===================================================
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.119Z [api local.set] 
+2026-05-04T07:23:19.120Z [api local.set] {
+2026-05-04T07:23:19.120Z [api local.set]   "api_port": 42003
+2026-05-04T07:23:19.120Z [api local.set] }
+2026-05-04T07:23:19.138Z [memory] {"ts":1777879399137,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T07:23:19.138Z [memory] 
+2026-05-04T07:24:15.132Z [memory] {"ts":1777879455131,"step":2,"input":{"id":"302f3f64-9677-4701-8f2c-68eb29cb6a43","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T07:24:15.132Z [memory] 
+2026-05-04T07:24:20.741Z [memory] {"ts":1777879460740,"step":3,"input":{"id":"b797db94-0fd7-4e32-a24d-9b56c81d7e1d","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T07:24:20.741Z [memory] 
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.871Z [api local.set] ===================================================
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.871Z [api local.set] # local variables
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.871Z [api local.set] {
+2026-05-04T07:24:20.871Z [api local.set]   "api_port": 42003,
+2026-05-04T07:24:20.871Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T07:24:20.871Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T07:24:20.871Z [api local.set] }
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.871Z [api local.set] ===================================================
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.871Z [api local.set] 
+2026-05-04T07:24:20.904Z [memory] {"ts":1777879460903,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T07:24:20.904Z [memory] 
+2026-05-04T07:45:28.800Z [memory] {"ts":1777880728798,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T07:45:28.800Z [memory] 
+2026-05-04T07:45:28.800Z [memory] {"ts":1777880728798,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T07:45:28.800Z [memory] 
+2026-05-04T07:45:28.810Z [api local.set] # local variables
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.810Z [api local.set] ===================================================
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.810Z [api local.set] {
+2026-05-04T07:45:28.810Z [api local.set]   "api_port": 42003
+2026-05-04T07:45:28.810Z [api local.set] }
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.810Z [api local.set] ===================================================
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.810Z [api local.set] 
+2026-05-04T07:45:28.829Z [memory] {"ts":1777880728828,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T07:45:28.829Z [memory] 
+2026-05-04T07:46:26.887Z [memory] {"ts":1777880786886,"step":2,"input":{"id":"a20b6851-d8dc-467c-b453-b350349cff1e","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T07:46:26.887Z [memory] 
+2026-05-04T07:46:32.163Z [memory] {"ts":1777880792161,"step":3,"input":{"id":"bf91aaaf-ed7c-42fb-a391-ede94a015061","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T07:46:32.163Z [memory] 
+2026-05-04T07:46:32.323Z [api local.set] 
+2026-05-04T07:46:32.323Z [api local.set] 
+2026-05-04T07:46:32.323Z [api local.set] ===================================================
+2026-05-04T07:46:32.323Z [api local.set] 
+2026-05-04T07:46:32.324Z [api local.set] {
+2026-05-04T07:46:32.324Z [api local.set]   "api_port": 42003,
+2026-05-04T07:46:32.324Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T07:46:32.324Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T07:46:32.324Z [api local.set] }
+2026-05-04T07:46:32.324Z [api local.set] # local variables
+2026-05-04T07:46:32.324Z [api local.set] 
+2026-05-04T07:46:32.324Z [api local.set] 
+2026-05-04T07:46:32.324Z [api local.set] ===================================================
+2026-05-04T07:46:32.324Z [api local.set] 
+2026-05-04T07:46:32.324Z [api local.set] 
+2026-05-04T07:46:32.354Z [memory] {"ts":1777880792353,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T07:46:32.354Z [memory] 
+2026-05-04T09:00:16.944Z [memory] {"ts":1777885216942,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:00:16.944Z [memory] 
+2026-05-04T09:00:16.944Z [memory] {"ts":1777885216942,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:00:16.944Z [memory] 
+2026-05-04T09:00:16.954Z [api local.set] 
+2026-05-04T09:00:16.954Z [api local.set] 
+2026-05-04T09:00:16.954Z [api local.set] ===================================================
+2026-05-04T09:00:16.954Z [api local.set] 
+2026-05-04T09:00:16.954Z [api local.set] # local variables
+2026-05-04T09:00:16.954Z [api local.set] 
+2026-05-04T09:00:16.955Z [api local.set] {
+2026-05-04T09:00:16.955Z [api local.set]   "api_port": 42003
+2026-05-04T09:00:16.955Z [api local.set] }
+2026-05-04T09:00:16.955Z [api local.set] 
+2026-05-04T09:00:16.955Z [api local.set] ===================================================
+2026-05-04T09:00:16.955Z [api local.set] 
+2026-05-04T09:00:16.955Z [api local.set] 
+2026-05-04T09:00:16.970Z [memory] {"ts":1777885216969,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T09:00:16.970Z [memory] 
+2026-05-04T09:01:11.245Z [memory] {"ts":1777885271243,"step":2,"input":{"id":"048ad571-ae1f-4487-9206-e38bb39a0508","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T09:01:11.245Z [memory] 
+2026-05-04T09:01:16.542Z [memory] {"ts":1777885276541,"step":3,"input":{"id":"620e2858-b7ed-44c8-b8ef-86811946ef19","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T09:01:16.542Z [memory] 
+2026-05-04T09:01:16.697Z [api local.set] 
+2026-05-04T09:01:16.697Z [api local.set] 
+2026-05-04T09:01:16.697Z [api local.set] ===================================================
+2026-05-04T09:01:16.697Z [api local.set] 
+2026-05-04T09:01:16.698Z [api local.set] 
+2026-05-04T09:01:16.698Z [api local.set] ===================================================
+2026-05-04T09:01:16.698Z [api local.set] 
+2026-05-04T09:01:16.698Z [api local.set] 
+2026-05-04T09:01:16.698Z [api local.set] # local variables
+2026-05-04T09:01:16.698Z [api local.set] 
+2026-05-04T09:01:16.698Z [api local.set] {
+2026-05-04T09:01:16.698Z [api local.set]   "api_port": 42003,
+2026-05-04T09:01:16.698Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T09:01:16.698Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T09:01:16.698Z [api local.set] }
+2026-05-04T09:01:16.734Z [memory] {"ts":1777885276733,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T09:01:16.734Z [memory] 
+2026-05-04T09:34:23.893Z [memory] {"ts":1777887263892,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:34:23.893Z [memory] 
+2026-05-04T09:34:23.893Z [memory] {"ts":1777887263892,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:34:23.893Z [memory] 
+2026-05-04T09:34:23.902Z [api local.set] 
+2026-05-04T09:34:23.902Z [api local.set] 
+2026-05-04T09:34:23.902Z [api local.set] ===================================================
+2026-05-04T09:34:23.902Z [api local.set] 
+2026-05-04T09:34:23.903Z [api local.set] # local variables
+2026-05-04T09:34:23.903Z [api local.set] 
+2026-05-04T09:34:23.903Z [api local.set] {
+2026-05-04T09:34:23.903Z [api local.set]   "api_port": 42003
+2026-05-04T09:34:23.903Z [api local.set] }
+2026-05-04T09:34:23.903Z [api local.set] 
+2026-05-04T09:34:23.903Z [api local.set] ===================================================
+2026-05-04T09:34:23.903Z [api local.set] 
+2026-05-04T09:34:23.903Z [api local.set] 
+2026-05-04T09:34:23.920Z [memory] {"ts":1777887263920,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T09:34:23.920Z [memory] 
+2026-05-04T09:35:22.342Z [memory] {"ts":1777887322341,"step":2,"input":{"id":"869ce570-2e62-4b54-96a7-0042b9cefc01","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T09:35:22.342Z [memory] 
+2026-05-04T09:35:27.777Z [memory] {"ts":1777887327776,"step":3,"input":{"id":"a8e81e69-e5c2-4060-bc0f-3d1026be9949","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T09:35:27.777Z [memory] 
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.892Z [api local.set] ===================================================
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.892Z [api local.set] # local variables
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.892Z [api local.set] {
+2026-05-04T09:35:27.892Z [api local.set]   "api_port": 42003,
+2026-05-04T09:35:27.892Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T09:35:27.892Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T09:35:27.892Z [api local.set] }
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.892Z [api local.set] ===================================================
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.892Z [api local.set] 
+2026-05-04T09:35:27.914Z [memory] {"ts":1777887327914,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T09:35:27.914Z [memory] 
+2026-05-04T09:48:21.100Z [memory] {"ts":1777888101097,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:48:21.100Z [memory] 
+2026-05-04T09:48:21.100Z [memory] {"ts":1777888101097,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:48:21.100Z [memory] 
+2026-05-04T09:48:21.115Z [api local.set] # local variables
+2026-05-04T09:48:21.115Z [api local.set] 
+2026-05-04T09:48:21.116Z [api local.set] 
+2026-05-04T09:48:21.116Z [api local.set] 
+2026-05-04T09:48:21.116Z [api local.set] ===================================================
+2026-05-04T09:48:21.116Z [api local.set] 
+2026-05-04T09:48:21.116Z [api local.set] {
+2026-05-04T09:48:21.116Z [api local.set]   "api_port": 42003
+2026-05-04T09:48:21.116Z [api local.set] }
+2026-05-04T09:48:21.116Z [api local.set] 
+2026-05-04T09:48:21.116Z [api local.set] ===================================================
+2026-05-04T09:48:21.116Z [api local.set] 
+2026-05-04T09:48:21.116Z [api local.set] 
+2026-05-04T09:48:21.144Z [memory] {"ts":1777888101143,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T09:48:21.144Z [memory] 
+2026-05-04T09:49:18.493Z [memory] {"ts":1777888158492,"step":2,"input":{"id":"8d87549f-ed45-4ba7-b674-8e19d5a3d7e0","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T09:49:18.493Z [memory] 
+2026-05-04T09:49:24.247Z [memory] {"ts":1777888164246,"step":3,"input":{"id":"d1c6646c-f776-4616-9867-9bcf65e1c0de","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T09:49:24.247Z [memory] 
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.377Z [api local.set] ===================================================
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.377Z [api local.set] # local variables
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.377Z [api local.set] ===================================================
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.377Z [api local.set] 
+2026-05-04T09:49:24.378Z [api local.set] {
+2026-05-04T09:49:24.378Z [api local.set]   "api_port": 42003,
+2026-05-04T09:49:24.378Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T09:49:24.378Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T09:49:24.378Z [api local.set] }
+2026-05-04T09:49:24.405Z [memory] {"ts":1777888164404,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T09:49:24.405Z [memory] 
+2026-05-04T09:53:12.876Z [memory] {"ts":1777888392875,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:53:12.876Z [memory] 
+2026-05-04T09:53:12.876Z [memory] {"ts":1777888392875,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:53:12.876Z [memory] 
+2026-05-04T09:53:13.077Z [api local.set] 
+2026-05-04T09:53:13.077Z [api local.set] 
+2026-05-04T09:53:13.077Z [api local.set] ===================================================
+2026-05-04T09:53:13.077Z [api local.set] 
+2026-05-04T09:53:13.079Z [api local.set] # local variables
+2026-05-04T09:53:13.079Z [api local.set] 
+2026-05-04T09:53:13.079Z [api local.set] {
+2026-05-04T09:53:13.079Z [api local.set]   "api_port": 42003
+2026-05-04T09:53:13.079Z [api local.set] }
+2026-05-04T09:53:13.079Z [api local.set] 
+2026-05-04T09:53:13.079Z [api local.set] ===================================================
+2026-05-04T09:53:13.079Z [api local.set] 
+2026-05-04T09:53:13.079Z [api local.set] 
+2026-05-04T09:53:13.098Z [memory] {"ts":1777888393097,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T09:53:13.098Z [memory] 
+2026-05-04T09:54:49.944Z [memory] {"ts":1777888489942,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:54:49.944Z [memory] 
+2026-05-04T09:54:49.944Z [memory] {"ts":1777888489942,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T09:54:49.944Z [memory] 
+2026-05-04T09:54:50.038Z [api local.set] 
+2026-05-04T09:54:50.038Z [api local.set] 
+2026-05-04T09:54:50.038Z [api local.set] ===================================================
+2026-05-04T09:54:50.038Z [api local.set] 
+2026-05-04T09:54:50.039Z [api local.set] # local variables
+2026-05-04T09:54:50.039Z [api local.set] 
+2026-05-04T09:54:50.039Z [api local.set] {
+2026-05-04T09:54:50.039Z [api local.set]   "api_port": 42003
+2026-05-04T09:54:50.039Z [api local.set] }
+2026-05-04T09:54:50.039Z [api local.set] 
+2026-05-04T09:54:50.039Z [api local.set] ===================================================
+2026-05-04T09:54:50.039Z [api local.set] 
+2026-05-04T09:54:50.039Z [api local.set] 
+2026-05-04T09:54:50.055Z [memory] {"ts":1777888490054,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T09:54:50.055Z [memory] 
+2026-05-04T09:55:43.964Z [memory] {"ts":1777888543954,"step":2,"input":{"id":"4cf73056-701d-4c55-bbd5-e914e822027d","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T09:55:43.964Z [memory] 
+2026-05-04T09:55:49.485Z [memory] {"ts":1777888549484,"step":3,"input":{"id":"cc3581e1-2903-420c-b927-d1e78a1ed24e","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T09:55:49.485Z [memory] 
+2026-05-04T09:55:49.664Z [api local.set] # local variables
+2026-05-04T09:55:49.664Z [api local.set] 
+2026-05-04T09:55:49.663Z [api local.set] 
+2026-05-04T09:55:49.663Z [api local.set] 
+2026-05-04T09:55:49.663Z [api local.set] ===================================================
+2026-05-04T09:55:49.663Z [api local.set] 
+2026-05-04T09:55:49.664Z [api local.set] {
+2026-05-04T09:55:49.664Z [api local.set]   "api_port": 42003,
+2026-05-04T09:55:49.664Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T09:55:49.664Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T09:55:49.664Z [api local.set] }
+2026-05-04T09:55:49.664Z [api local.set] 
+2026-05-04T09:55:49.664Z [api local.set] ===================================================
+2026-05-04T09:55:49.664Z [api local.set] 
+2026-05-04T09:55:49.664Z [api local.set] 
+2026-05-04T09:55:49.696Z [memory] {"ts":1777888549695,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T09:55:49.696Z [memory] 
+2026-05-04T10:05:28.863Z [memory] {"ts":1777889128861,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T10:05:28.863Z [memory] 
+2026-05-04T10:05:28.864Z [memory] {"ts":1777889128861,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T10:05:28.864Z [memory] 
+2026-05-04T10:05:28.874Z [api local.set] {
+2026-05-04T10:05:28.874Z [api local.set]   "api_port": 42003
+2026-05-04T10:05:28.874Z [api local.set] }
+2026-05-04T10:05:28.874Z [api local.set] # local variables
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.874Z [api local.set] ===================================================
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.874Z [api local.set] ===================================================
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.874Z [api local.set] 
+2026-05-04T10:05:28.893Z [memory] {"ts":1777889128893,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T10:05:28.893Z [memory] 
+2026-05-04T10:06:19.884Z [memory] {"ts":1777889179883,"step":2,"input":{"id":"e05e58f3-8f3d-4c55-996b-50c322ec2952","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T10:06:19.884Z [memory] 
+2026-05-04T10:06:25.825Z [memory] {"ts":1777889185825,"step":3,"input":{"id":"bda1522e-f217-4d74-ae3b-bd6cc3b796f7","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T10:06:25.825Z [memory] 
+2026-05-04T10:06:25.953Z [api local.set] 
+2026-05-04T10:06:25.953Z [api local.set] 
+2026-05-04T10:06:25.953Z [api local.set] ===================================================
+2026-05-04T10:06:25.953Z [api local.set] 
+2026-05-04T10:06:25.953Z [api local.set] # local variables
+2026-05-04T10:06:25.953Z [api local.set] 
+2026-05-04T10:06:25.954Z [api local.set] {
+2026-05-04T10:06:25.954Z [api local.set]   "api_port": 42003,
+2026-05-04T10:06:25.954Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T10:06:25.954Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T10:06:25.954Z [api local.set] }
+2026-05-04T10:06:25.954Z [api local.set] 
+2026-05-04T10:06:25.954Z [api local.set] ===================================================
+2026-05-04T10:06:25.954Z [api local.set] 
+2026-05-04T10:06:25.954Z [api local.set] 
+2026-05-04T10:06:25.980Z [memory] {"ts":1777889185980,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T10:06:25.980Z [memory] 
+2026-05-04T10:10:21.183Z [memory] {"ts":1777889421180,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T10:10:21.183Z [memory] 
+2026-05-04T10:10:21.183Z [memory] {"ts":1777889421180,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T10:10:21.183Z [memory] 
+2026-05-04T10:10:21.197Z [api local.set] 
+2026-05-04T10:10:21.197Z [api local.set] 
+2026-05-04T10:10:21.197Z [api local.set] ===================================================
+2026-05-04T10:10:21.197Z [api local.set] 
+2026-05-04T10:10:21.198Z [api local.set] # local variables
+2026-05-04T10:10:21.198Z [api local.set] 
+2026-05-04T10:10:21.198Z [api local.set] {
+2026-05-04T10:10:21.198Z [api local.set]   "api_port": 42003
+2026-05-04T10:10:21.198Z [api local.set] }
+2026-05-04T10:10:21.198Z [api local.set] 
+2026-05-04T10:10:21.198Z [api local.set] ===================================================
+2026-05-04T10:10:21.198Z [api local.set] 
+2026-05-04T10:10:21.198Z [api local.set] 
+2026-05-04T10:10:21.221Z [memory] {"ts":1777889421220,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T10:10:21.221Z [memory] 
+2026-05-04T10:28:20.860Z [memory] {"ts":1777890500859,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T10:28:20.860Z [memory] 
+2026-05-04T10:28:20.860Z [memory] {"ts":1777890500859,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T10:28:20.860Z [memory] 
+2026-05-04T10:28:20.929Z [api local.set] 
+2026-05-04T10:28:20.929Z [api local.set] 
+2026-05-04T10:28:20.929Z [api local.set] ===================================================
+2026-05-04T10:28:20.929Z [api local.set] 
+2026-05-04T10:28:20.930Z [api local.set] # local variables
+2026-05-04T10:28:20.930Z [api local.set] 
+2026-05-04T10:28:20.930Z [api local.set] {
+2026-05-04T10:28:20.930Z [api local.set]   "api_port": 42003
+2026-05-04T10:28:20.930Z [api local.set] }
+2026-05-04T10:28:20.930Z [api local.set] 
+2026-05-04T10:28:20.930Z [api local.set] ===================================================
+2026-05-04T10:28:20.930Z [api local.set] 
+2026-05-04T10:28:20.930Z [api local.set] 
+2026-05-04T10:28:20.953Z [memory] {"ts":1777890500952,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T10:28:20.953Z [memory] 
+2026-05-04T10:29:23.815Z [memory] {"ts":1777890563814,"step":2,"input":{"id":"ab8444db-0a54-4578-86dc-7b9b1b38a6ec","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T10:29:23.815Z [memory] 
+2026-05-04T10:29:29.755Z [memory] {"ts":1777890569754,"step":3,"input":{"id":"20b63dfa-a190-471e-bf70-9228a91ceafe","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T10:29:29.755Z [memory] 
+2026-05-04T10:29:29.897Z [api local.set] 
+2026-05-04T10:29:29.897Z [api local.set] 
+2026-05-04T10:29:29.897Z [api local.set] ===================================================
+2026-05-04T10:29:29.897Z [api local.set] 
+2026-05-04T10:29:29.898Z [api local.set] 
+2026-05-04T10:29:29.898Z [api local.set] ===================================================
+2026-05-04T10:29:29.898Z [api local.set] 
+2026-05-04T10:29:29.898Z [api local.set] 
+2026-05-04T10:29:29.898Z [api local.set] {
+2026-05-04T10:29:29.898Z [api local.set]   "api_port": 42003,
+2026-05-04T10:29:29.898Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T10:29:29.898Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T10:29:29.898Z [api local.set] }
+2026-05-04T10:29:29.898Z [api local.set] # local variables
+2026-05-04T10:29:29.898Z [api local.set] 
+2026-05-04T10:29:29.932Z [memory] {"ts":1777890569931,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T10:29:29.932Z [memory] 
+2026-05-04T17:17:31.533Z [memory] {"ts":1777915051532,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T17:17:31.533Z [memory] 
+2026-05-04T17:17:31.533Z [memory] {"ts":1777915051532,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-04T17:17:31.533Z [memory] 
+2026-05-04T17:17:31.717Z [api local.set] # local variables
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] ===================================================
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] ===================================================
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] 
+2026-05-04T17:17:31.717Z [api local.set] {
+2026-05-04T17:17:31.717Z [api local.set]   "api_port": 42003
+2026-05-04T17:17:31.717Z [api local.set] }
+2026-05-04T17:17:31.733Z [memory] {"ts":1777915051732,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-04T17:17:31.733Z [memory] 
+2026-05-04T17:19:02.756Z [memory] {"ts":1777915142751,"step":2,"input":{"id":"601e242e-feae-4366-9339-5a14663c25fa","event":["API endpoints enabled"]},"args":{},"global":{},"local":{"api_port":42003},"port":42004}
+2026-05-04T17:19:02.756Z [memory] 
+2026-05-04T17:19:11.208Z [memory] {"ts":1777915151208,"step":3,"input":{"id":"a3e0f4cf-f927-421a-a44b-fa83e3db6425","event":["http://127.0.0.1:42004","http://127.0.0.1:42004"]},"args":{},"global":{},"local":{"api_port":42003},"port":42005}
+2026-05-04T17:19:11.208Z [memory] 
+2026-05-04T17:19:11.321Z [api local.set] 
+2026-05-04T17:19:11.321Z [api local.set] 
+2026-05-04T17:19:11.321Z [api local.set] ===================================================
+2026-05-04T17:19:11.321Z [api local.set] 
+2026-05-04T17:19:11.322Z [api local.set] {
+2026-05-04T17:19:11.322Z [api local.set]   "api_port": 42003,
+2026-05-04T17:19:11.322Z [api local.set]   "url": "http://127.0.0.1:42004",
+2026-05-04T17:19:11.322Z [api local.set]   "frontend_url": "http://127.0.0.1:42004"
+2026-05-04T17:19:11.322Z [api local.set] }
+2026-05-04T17:19:11.322Z [api local.set] 
+2026-05-04T17:19:11.322Z [api local.set] ===================================================
+2026-05-04T17:19:11.322Z [api local.set] 
+2026-05-04T17:19:11.322Z [api local.set] 
+2026-05-04T17:19:11.322Z [api local.set] # local variables
+2026-05-04T17:19:11.322Z [api local.set] 
+2026-05-04T17:19:11.338Z [memory] {"ts":1777915151338,"step":4,"args":{},"global":{},"local":{"api_port":42003,"url":"http://127.0.0.1:42004","frontend_url":"http://127.0.0.1:42004"},"port":42005}
+2026-05-04T17:19:11.338Z [memory] 
+2026-05-09T17:09:31.675Z [memory] {"ts":1778346571673,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-09T17:09:31.675Z [memory] 
+2026-05-09T17:09:31.675Z [memory] {"ts":1778346571673,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-09T17:09:31.675Z [memory] 
+2026-05-09T17:09:31.683Z [api local.set] 
+2026-05-09T17:09:31.683Z [api local.set] 
+2026-05-09T17:09:31.683Z [api local.set] ===================================================
+2026-05-09T17:09:31.683Z [api local.set] 
+2026-05-09T17:09:31.684Z [api local.set] {
+2026-05-09T17:09:31.684Z [api local.set]   "api_port": 42003
+2026-05-09T17:09:31.684Z [api local.set] }
+2026-05-09T17:09:31.684Z [api local.set] # local variables
+2026-05-09T17:09:31.684Z [api local.set] 
+2026-05-09T17:09:31.684Z [api local.set] 
+2026-05-09T17:09:31.684Z [api local.set] ===================================================
+2026-05-09T17:09:31.684Z [api local.set] 
+2026-05-09T17:09:31.684Z [api local.set] 
+2026-05-09T17:09:31.697Z [memory] {"ts":1778346571696,"step":1,"args":{},"global":{},"local":{"api_port":42003},"port":42003}
+2026-05-09T17:09:31.697Z [memory] 

@@ -1,0 +1,16 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git pull
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 25 (delta 20), reused 24 (delta 20), pack-reused 0 (from 0)
+Unpacking objects: 100% (25/25), 6.18 KiB | 154.00 KiB/s, done.
+From https://github.com/ace-step/ACE-Step-1.5
+   ddb014d..6cb15d1  codex/clean-session-repaint -> origin/codex/clean-session-repaint
+ * [new branch]      copilot/fix-acestep-dtype-checks -> origin/copilot/fix-acestep-dtype-checks
+Already up to date.
+
+(base) C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>

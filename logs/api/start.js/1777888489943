@@ -1,0 +1,81 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && npm run dev -- --host 127.0.0.1 --port 42004 --strictPort
+
+> ace-step-ui@1.0.0 dev
+> vite --host 127.0.0.1 --port 42004 --strictPort
+
+
+  VITE v6.4.1  ready in 935 ms
+
+  ➜  Local:   http://127.0.0.1:42004/
+  ➜  press h + enter to show help
+12:58:30 [vite] (client) hmr update /components/CreatePanel.tsx
+12:59:05 [vite] (client) hmr update /components/CreatePanel.tsx (x2)
+12:59:17 [vite] (client) hmr update /components/CreatePanel.tsx (x3)
+12:59:36 [vite] (client) hmr update /components/CreatePanel.tsx (x4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

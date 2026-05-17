@@ -1,0 +1,14 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Scripts\activate C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env && uv pip install --upgrade --force-reinstall "torchao<0.16"
+Using Python 3.11.15 environment at: env
+Resolved 1 package in 352ms
+Prepared 1 package in 554ms
+Uninstalled 1 package in 59ms                                                                                                                                                                                                         
+Installed 1 package in 87ms
+ - torchao==0.16.0
+ + torchao==0.15.0
+
+(env) (base) C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>

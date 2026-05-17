@@ -1,0 +1,6 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Scripts\activate C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env && acestep --port 42003 --enable-api --backend pt --server-name 127.0.0.1
+Loaded configuration from C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\.env

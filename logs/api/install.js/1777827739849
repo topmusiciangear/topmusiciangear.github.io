@@ -1,0 +1,13 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app\server>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && npm run db:migrate
+
+> ace-step-ui-server@1.0.0 db:migrate
+> tsx src/db/migrate.ts
+
+Running SQLite database migrations...
+Migrations completed successfully!
+
+(base) C:\pinokio\api\ace-step-ui.pinokio.git\app\server>

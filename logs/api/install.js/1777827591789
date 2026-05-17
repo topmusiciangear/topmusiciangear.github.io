@@ -1,0 +1,14 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git clone https://github.com/fspecii/ace-step-ui app
+Cloning into 'app'...
+remote: Enumerating objects: 605, done.
+remote: Counting objects: 100% (352/352), done.
+remote: Compressing objects: 100% (119/119), done.
+remote: Total 605 (delta 289), reused 233 (delta 233), pack-reused 253 (from 1)
+Receiving objects: 100% (605/605), 20.60 MiB | 560.00 KiB/s, done.
+Resolving deltas: 100% (347/347), done.
+
+(base) C:\pinokio\api\ace-step-ui.pinokio.git>

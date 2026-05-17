@@ -1,0 +1,8 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git pull
+Already up to date.
+
+(base) C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>

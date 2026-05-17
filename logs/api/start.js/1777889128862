@@ -1,0 +1,74 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base & C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Scripts\activate C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env && acestep --port 42003 --enable-api --backend pt --server-name 127.0.0.1
+Loaded configuration from C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\.env
+Skipping import of cpp extensions due to incompatible torch version 2.7.1+cu128 for torchao version 0.15.0             Please see https://github.com/pytorch/ao/issues/2919 for more info
+W0504 13:05:39.282000 9272 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2026-05-04 13:05:41.089 | WARNING  | acestep.training.trainer:<module>:40 - bitsandbytes not installed. Using standard AdamW.
+2026-05-04 13:05:42.832 | INFO     | acestep.gpu_config:get_gpu_memory_gb:578 - CUDA GPU detected: NVIDIA GeForce RTX 4070 (12.0 GB)
+
+============================================================
+GPU Configuration Detected:
+============================================================
+  GPU Memory: 11.99 GB
+  Configuration Tier: tier4
+  Max Duration (with LM): 480s (8 min)
+  Max Duration (without LM): 600s (10 min)
+  Max Batch Size (with LM): 2
+  Max Batch Size (without LM): 4
+  Default LM Init: True
+  Available LM Models: ['acestep-5Hz-lm-0.6B']
+============================================================
+
+Auto-enabling CPU offload (GPU 12.0GB < 20.0GB threshold)
+Output directory: C:/pinokio/api/ace-step-ui.pinokio.git/app/ACE-Step-1.5/gradio_outputs
+Using quantization from ACESTEP_QUANTIZATION: none
+Initializing service from command line...
+Initializing DiT model: acestep-v15-sft on auto...
+2026-05-04 13:05:42.945 | INFO     | acestep.core.generation.handler.init_service_loader:_load_main_model_from_checkpoint:174 - [initialize_service] Attempting to load model with attention implementation: flash_attention_2
+2026-05-04 13:05:47.994 | INFO     | acestep.core.generation.handler.init_service_loader:_apply_dit_quantization:113 - [initialize_service] DiT quantized with: int8_weight_only
+DiT model initialized successfully
+Auto-setting init_llm to True based on GPU configuration
+Initializing 5Hz LM: acestep-5Hz-lm-1.7B on auto...
+2026-05-04 13:05:51.827 | INFO     | acestep.llm_inference:initialize:598 - loading 5Hz LM tokenizer... it may take 80~90s
+2026-05-04 13:06:06.696 | INFO     | acestep.llm_inference:initialize:602 - 5Hz LM tokenizer loaded successfully in 14.87 seconds
+2026-05-04 13:06:06.696 | INFO     | acestep.llm_inference:initialize:607 - Initializing constrained decoding processor...
+2026-05-04 13:06:06.696 | INFO     | acestep.llm_inference:initialize:613 - Setting constrained decoding max_duration to 480s based on GPU config (tier: tier4)
+2026-05-04 13:06:07.615 | DEBUG    | acestep.constrained_logits_processor:_precompute_audio_code_tokens:577 - Found 1535 audio code tokens with values outside valid range [0, 63999]
+2026-05-04 13:06:09.656 | INFO     | acestep.llm_inference:initialize:621 - Constrained processor initialized in 2.96 seconds
+2026-05-04 13:06:18.087 | INFO     | acestep.llm_inference:_load_pytorch_model:410 - 5Hz LM initialized successfully using PyTorch backend on cuda
+5Hz LM initialized successfully
+Service initialization completed successfully!
+Creating Gradio interface with language: en...
+Enabling queue for multi-user support...
+Launching server on 127.0.0.1:42003...
+Enabling API endpoints...
+* Running on local URL:  http://127.0.0.1:42003
+* To create a public link, set `share=True` in `launch()`.
+API endpoints enabled: /health, /v1/models, /release_task, /query_result, /create_random_sample, /format_lyrics
+2026-05-04 13:06:43.225 | INFO     | acestep.ui.gradio.api.api_routes:list_models:220 - [v1/models] dit_handler=ok, dit_handler.model=ok, loaded_model_name=acestep-v15-sft
+2026-05-04 13:06:43.227 | INFO     | acestep.ui.gradio.api.api_routes:list_models:247 - [v1/models] Returning 12 models, loaded=acestep-v15-sft
+2026-05-04 13:06:44.549 | INFO     | acestep.ui.gradio.api.api_routes:list_models:220 - [v1/models] dit_handler=ok, dit_handler.model=ok, loaded_model_name=acestep-v15-sft
+2026-05-04 13:06:44.553 | INFO     | acestep.ui.gradio.api.api_routes:list_models:247 - [v1/models] Returning 12 models, loaded=acestep-v15-sft
+Traceback (most recent call last):
+  File "C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Lib\site-packages\gradio\queueing.py", line 766, in process_events
+    response = await route_utils.call_process_api(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Lib\site-packages\gradio\route_utils.py", line 355, in call_process_api
+    output = await app.get_blocks().process_api(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Lib\site-packages\gradio\blocks.py", line 2143, in process_api
+    inputs = await self.preprocess_data(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Lib\site-packages\gradio\blocks.py", line 1790, in preprocess_data
+    processed_value = block.preprocess(inputs_cached)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Lib\site-packages\gradio\components\slider.py", line 155, in preprocess
+    Number.raise_if_out_of_bounds(payload, self.minimum, self.maximum)
+  File "C:\pinokio\api\ace-step-ui.pinokio.git\app\ACE-Step-1.5\env\Lib\site-packages\gradio\components\number.py", line 136, in raise_if_out_of_bounds
+    raise Error(f"Value {num} is greater than maximum value {maximum}.")
+gradio.exceptions.Error: 'Value 3 is greater than maximum value 1.0.'
+2026-05-04 13:07:31.543 | INFO     | acestep.ui.gradio.api.api_routes:list_models:220 - [v1/models] dit_handler=ok, dit_handler.model=ok, loaded_model_name=acestep-v15-sft
+2026-05-04 13:07:31.547 | INFO     | acestep.ui.gradio.api.api_routes:list_models:247 - [v1/models] Returning 12 models, loaded=acestep-v15-sft

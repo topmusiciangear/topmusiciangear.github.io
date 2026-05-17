@@ -39,7 +39,6 @@ html {
   background: #0d0d0d;
   margin: 0 !important;
   padding: 0 !important;
-  scroll-padding-top: 80px;
 }
 
 body {
@@ -80,11 +79,12 @@ html, body {
 header {
   background: #0d0d0d;
   border-bottom: 1px solid var(--border);
-  z-index: 100;
+  z-index: 1000;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .top-nav {
@@ -1492,11 +1492,6 @@ footer ul li a:hover { color: var(--accent); }
   object-fit: cover;
   flex-shrink: 0;
 }
-.guide-author-info strong {
-  display: block;
-  margin-bottom: 6px;
-  font-size: 15px;
-}
 .guide-author-info p {
   margin: 0;
   font-size: 13px;
@@ -1938,7 +1933,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { scroll-margin-top: 42px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 70px; }
+  body { overflow-x: hidden; } html { overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 0; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }

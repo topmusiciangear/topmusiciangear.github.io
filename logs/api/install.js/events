@@ -1,0 +1,27 @@
+2026-05-03T16:59:51.794Z [memory] {"ts":1777827591789,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T16:59:51.794Z [memory] 
+2026-05-03T16:59:51.794Z [memory] {"ts":1777827591789,"step":0,"input":{},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T16:59:51.794Z [memory] 
+2026-05-03T17:00:40.303Z [memory] {"ts":1777827640302,"step":1,"input":{"id":"a0eb906f-ba76-486f-8687-b2bf9da0fb55"},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:00:40.303Z [memory] 
+2026-05-03T17:01:10.393Z [memory] {"ts":1777827670392,"step":2,"input":{"id":"20fce0f2-0652-477b-b0c1-96031ab0d7fd"},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:01:10.393Z [memory] 
+2026-05-03T17:01:50.708Z [memory] {"ts":1777827710707,"step":3,"input":{"id":"fcd9da5c-a674-477a-a5c7-a2be1c0d9f65"},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:01:50.708Z [memory] 
+2026-05-03T17:02:25.975Z [memory] {"ts":1777827745974,"step":4,"input":{"id":"1ba85a89-ce1a-4612-bdf4-b7e47373e699"},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:02:25.975Z [memory] 
+2026-05-03T17:13:02.626Z [memory] {"ts":1777828382624,"step":5,"input":{"id":"9cc14c8a-fca6-4886-8844-2197411040d8"},"args":{},"global":{},"local":{},"port":42003}
+2026-05-03T17:13:02.626Z [memory] 
+2026-05-03T17:13:02.661Z [api fs.link] 
+2026-05-03T17:13:02.661Z [api fs.link] creating a shared drive:
+2026-05-03T17:13:02.661Z [api fs.link] {
+2026-05-03T17:13:02.661Z [api fs.link]   "drive": {
+2026-05-03T17:13:02.661Z [api fs.link]     "checkpoints": "app/ACE-Step-1.5/checkpoints"
+2026-05-03T17:13:02.661Z [api fs.link]   },
+2026-05-03T17:13:02.661Z [api fs.link]   "peers": [
+2026-05-03T17:13:02.661Z [api fs.link]     "https://github.com/cocktailpeanut/ace-step.pinokio.git",
+2026-05-03T17:13:02.661Z [api fs.link]     "https://github.com/cocktailpeanut/ace-step-ui.pinokio.git"
+2026-05-03T17:13:02.661Z [api fs.link]   ]
+2026-05-03T17:13:02.661Z [api fs.link] }
+2026-05-03T17:13:02.675Z [api fs.link] 
+2026-05-03T17:13:02.675Z [api fs.link] Done!

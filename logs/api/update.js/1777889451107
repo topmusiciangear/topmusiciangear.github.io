@@ -1,0 +1,19 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\ace-step-ui.pinokio.git\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && npm install
+
+up to date, audited 151 packages in 13s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (2 moderate, 4 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+(base) C:\pinokio\api\ace-step-ui.pinokio.git\app>

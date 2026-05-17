@@ -1,0 +1,18 @@
+[memory]
+{"ts":1777828382624,"step":5,"input":{"id":"9cc14c8a-fca6-4886-8844-2197411040d8"},"args":{},"global":{},"local":{},"port":42003}
+
+[api fs.link]
+
+creating a shared drive:
+{
+  "drive": {
+    "checkpoints": "app/ACE-Step-1.5/checkpoints"
+  },
+  "peers": [
+    "https://github.com/cocktailpeanut/ace-step.pinokio.git",
+    "https://github.com/cocktailpeanut/ace-step-ui.pinokio.git"
+  ]
+}
+[api fs.link]
+
+Done!
