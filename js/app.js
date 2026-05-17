@@ -108,10 +108,7 @@ function renderGuideCats() {
     if (window.innerWidth <= 768) {
       requestAnimationFrame(() => {
         const el = document.querySelector(".sort-bar") || document.getElementById("guides");
-        if (el) {
-          var hdrH = (document.querySelector('header')?.offsetHeight || 64) + 16;
-          window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - hdrH, behavior: "smooth" });
-        }
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     }
   });
@@ -323,20 +320,14 @@ function renderGuideDetail(id) {
     history.pushState({}, '', '/');
     renderGuideGrid();
     const el = document.getElementById("guides");
-    if (el) {
-      const headerH = (document.querySelector('header')?.offsetHeight || 64) + 16;
-      window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - headerH, behavior: "smooth" });
-    }
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   const btn2 = document.getElementById("guideBackBtn2");
   if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
     const el = document.getElementById("guides");
-    if (el) {
-      const headerH = (document.querySelector('header')?.offsetHeight || 64) + 16;
-      window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - headerH, behavior: "smooth" });
-    }
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   if (!initialLoad && !skipDetailScroll) {
     setTimeout(() => {
@@ -751,10 +742,7 @@ document.addEventListener("DOMContentLoaded", () => {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         const el = document.getElementById("guides");
-        if (el) {
-          var hdrH = (document.querySelector('header')?.offsetHeight || 64) + 16;
-          window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - hdrH, behavior: "smooth" });
-        }
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
   };
@@ -766,10 +754,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       renderGuideGrid();
       const el = document.getElementById("guides");
-      if (el) {
-        var headerH = (document.querySelector('header')?.offsetHeight || 64) + 16;
-        window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - headerH, behavior: "smooth" });
-      }
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   });
 
