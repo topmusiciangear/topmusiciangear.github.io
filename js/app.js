@@ -311,13 +311,7 @@ function renderGuideDetail(id) {
           ${(() => { var related = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!related.length) related = guides.filter(g => g.id !== guide.id); return related.slice(0, 4).map(g => { var gt = currentLang === 'es' && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (currentLang === 'es' ? '_es' : '') + '.html" class="guide-related-link" data-guide="' + g.id + '" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},\'\',\'/?g=\'+id); renderGuideDetail(id);">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
-      <div class="guide-author-box">
-        <img src="img/me.jpg" alt="Daniel — TopMusicianGear" class="guide-author-photo" loading="lazy">
-        <div class="guide-author-info">
-          <strong>${t("aboutTitle")}Daniel</strong>
-          <p>${currentLang === 'es' ? 'Músico profesional con más de 20 años de experiencia en los escenarios más grandes del mundo — desde Abbey Road hasta Glastonbury. Esta guía está basada en equipo que he usado personalmente e investigado profundamente.' : 'Professional musician with 20+ years of experience on the world\'s biggest stages. This guide is based on gear I\'ve personally used and thoroughly researched.'}</p>
-        </div>
-      </div>
+
       <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
