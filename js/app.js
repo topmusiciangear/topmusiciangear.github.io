@@ -106,9 +106,7 @@ function renderGuideCats() {
     card.classList.add("active");
     renderGuideGrid();
     if (window.innerWidth <= 768) {
-      requestAnimationFrame(() => {
-        scrollToSection("guides");
-      });
+      setTimeout(function() { scrollToSection("guides"); }, 200);
     }
   });
 }
