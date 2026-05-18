@@ -35,9 +35,9 @@ function criticalCss() {
     '.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 80px;min-height:80vh;box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
     '.hero-inner{max-width:900px;margin:0 auto;position:relative;z-index:1;text-align:center}',
     '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase}',
-    '.hero h1{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px}',
+    '.hero h1{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}',
     '.hero h1 span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
-    '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7}',
+    '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}',
     '.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}',
     '.btn-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;padding:14px 32px;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none}',
     '.btn-secondary{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.06);color:var(--white);padding:14px 32px;border-radius:50px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid rgba(255,255,255,.1)}',
@@ -326,8 +326,8 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
   <style>${criticalCss()}</style>
-  <link rel="preload" as="style" href="/css/style.css?v=19" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/style.css?v=19"></noscript>
+  <link rel="preload" as="style" href="/css/style.css?v=20" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.css?v=20"></noscript>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
