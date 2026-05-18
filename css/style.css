@@ -79,7 +79,8 @@ html {
 }
 
 header {
-  background: #0d0d0d;
+  background: rgba(13,13,13,.8);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   z-index: 100;
   position: sticky;
