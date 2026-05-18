@@ -34,6 +34,10 @@ function getResolvedStores(product) {
     }
   }
   s.reverb = `https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`;
+  if (!s.musicstore) {
+    var searchUrl = `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(product.title)}`;
+    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(searchUrl)}`;
+  }
   return s;
 }
 

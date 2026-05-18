@@ -167,6 +167,9 @@ function getResolvedStores(product) {
   if (s.reverb) {
     s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
+  if (s.musicstore && !product.stores.musicstore) {
+    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
+  }
   return s;
 }
 
