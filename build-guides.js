@@ -4,6 +4,7 @@ const { icon } = require('./js/icons.js');
 
 function criticalCss() {
   return [
+    '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:swap;font-weight:400 900;font-style:normal}',
     '*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}',
     ':root{--accent:#3b82f6;--accent-dark:#2563eb;--accent-light:#dbeafe;--accent-glow:rgba(59,130,246,0.2);--accent-glow-strong:rgba(59,130,246,0.35);--bg:#0d0d0d;--bg-secondary:#141414;--bg-card:#1a1a1a;--bg-card-hover:#222;--surface:#1e1e1e;--surface-light:#2a2a2a;--border:#2a2a2a;--border-light:#333;--text:#f0f0f0;--text-secondary:#a0a0a0;--text-muted:#909090;--white:#fff;--shadow-sm:0 1px 3px rgba(0,0,0,.3);--shadow:0 4px 12px rgba(0,0,0,.4);--shadow-md:0 8px 24px rgba(0,0,0,.5);--shadow-lg:0 16px 40px rgba(0,0,0,.5);--shadow-xl:0 24px 60px rgba(0,0,0,.6);--radius-sm:6px;--radius:10px;--radius-lg:14px;--radius-xl:18px;--transition:.25s cubic-bezier(.4,0,.2,1)}',
     'html{scroll-behavior:smooth;background:#0d0d0d;margin:0!important;padding:0!important}',
@@ -315,6 +316,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0d0d0d">
+  <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
@@ -325,8 +327,6 @@ ${ogMeta}
   <style>${criticalCss()}</style>
   <link rel="preload" as="style" href="/css/style.css?v=19" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.css?v=19"></noscript>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=optional" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=optional"></noscript>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
