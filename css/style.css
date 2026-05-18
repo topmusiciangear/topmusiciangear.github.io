@@ -1011,7 +1011,7 @@ footer ul li a:hover { color: var(--accent); }
   display: flex;
   flex-direction: column;
   gap: 4px;
-  position: fixed;
+  position: fixed !important;
   top: 0;
   right: 16px;
   padding-top: 16px;
