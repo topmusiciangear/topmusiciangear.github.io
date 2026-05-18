@@ -49,8 +49,9 @@ function translatePage() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
     const translated = t(key);
-    if (el.innerHTML !== translated) {
+    if (el.dataset.i18nVal !== translated) {
       el.innerHTML = translated;
+      el.dataset.i18nVal = translated;
     }
   });
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
@@ -109,7 +110,7 @@ function renderGuideCats() {
     card.classList.add("active");
     renderGuideGrid();
     var sortBar = document.querySelector(".sort-bar");
-    if (sortBar) sortBar.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (sortBar) sortBar.scrollIntoView({ block: "start" });
   });
 }
 
@@ -334,7 +335,7 @@ function renderGuideDetail(id) {
   if (!skipDetailScroll) {
     setTimeout(() => {
       const el = document.getElementById("guideGrid");
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (el) el.scrollIntoView({ block: "start" });
     }, 100);
   }
   var lang = currentLang;
@@ -438,13 +439,14 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove("show"), 3000);
 }
 
+var _headerH = 0;
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  var headerH = (document.querySelector('header').offsetHeight || 64) + 24;
+  if (!_headerH) _headerH = (document.querySelector('header').offsetHeight || 64) + 24;
   var rect = el.getBoundingClientRect();
-  var top = rect.top + window.pageYOffset - headerH;
-  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  var top = rect.top + window.pageYOffset - _headerH;
+  window.scrollTo({ top: Math.max(0, top) });
 }
 
 function handleNavClick(target) {
