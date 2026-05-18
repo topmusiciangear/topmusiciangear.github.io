@@ -235,7 +235,7 @@ function renderGuideGrid() {
     return `
       <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},'','/?g='+id); renderGuideDetail(id);">
         <div class="guide-card-img">
-          <img src="${g.image}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
+          <img src="${g.image.replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
           <span class="guide-card-cat">${catName}</span>
         </div>
         <div class="guide-card-body">
