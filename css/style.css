@@ -71,9 +71,9 @@ img { max-width: 100%; display: block; }
 ::-webkit-scrollbar-thumb:hover { background: var(--border-light); }
 
 /* Header */
-html, body {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+html {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 header {
