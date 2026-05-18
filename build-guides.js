@@ -184,7 +184,7 @@ function buildGuidePage(guide, lang, idx) {
 
   const sectionsHtml = guide.sections.map(s => {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
-    const c = esText(isEs && s.content_es, s.content);
+    const c = s.content;
     const secProductIds = s.products || [];
     const secCards = secProductIds.map(pid => {
       const p = products.find(pr => pr.id === pid);
