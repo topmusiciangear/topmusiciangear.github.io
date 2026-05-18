@@ -47,14 +47,21 @@ function setLang(lang) {
 }
 
 function showModal() {
-  var m = document.getElementById("disclosureModal");
-  m.style.display = "";
-  m.classList.add("open");
+  if (document.getElementById("disclosureModal")) return;
+  var title = t("disclosureTitle");
+  var text = t("disclosureText");
+  var btn = t("disclosureGotIt");
+  var html = '<div class="modal-content"><h3>' + title + '</h3><p>' + text + '</p><button onclick="hideModal()">' + btn + '</button></div>';
+  var m = document.createElement("div");
+  m.id = "disclosureModal";
+  m.innerHTML = html;
+  m.style.cssText = "display:flex;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)";
+  m.addEventListener("click", function(e) { if (e.target === e.currentTarget) hideModal(); });
+  document.body.appendChild(m);
 }
 function hideModal() {
   var m = document.getElementById("disclosureModal");
-  m.classList.remove("open");
-  m.style.display = "";
+  if (m) m.remove();
 }
 function bindDisclosureLink() {
   if (disclosureBound) return;
