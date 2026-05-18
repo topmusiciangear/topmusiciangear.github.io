@@ -764,9 +764,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   bindDisclosureLink();
-  document.getElementById("disclosureModal").addEventListener("click", e => {
-    if (e.target === e.currentTarget) hideModal();
-  });
 
   window.filterCategory = function(cat) {
     currentCategory = cat;
