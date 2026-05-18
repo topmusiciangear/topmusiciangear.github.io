@@ -363,7 +363,7 @@ function renderGuideDetail(id) {
 }
 
 function renderAudioMini() {
-  const isMobile = window.innerWidth < 768;
+  const isMobile = window.matchMedia('(max-width:767px)').matches;
   const targetId = isMobile ? 'audioMiniMobile' : 'audioMini';
   const audioHtml = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="none"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
   const el = document.getElementById(targetId);
