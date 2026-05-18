@@ -46,13 +46,23 @@ function setLang(lang) {
   updateLangSwitcher();
 }
 
+function showModal() {
+  var m = document.getElementById("disclosureModal");
+  m.style.display = "";
+  m.classList.add("open");
+}
+function hideModal() {
+  var m = document.getElementById("disclosureModal");
+  m.classList.remove("open");
+  m.style.display = "";
+}
 function bindDisclosureLink() {
   if (disclosureBound) return;
   disclosureBound = true;
   document.addEventListener("click", function(e) {
     if (e.target.id === "disclosureLink" || (e.target.closest && e.target.closest("#disclosureLink"))) {
       e.preventDefault();
-      document.getElementById("disclosureModal").classList.add("open");
+      showModal();
     }
   });
 }
@@ -748,7 +758,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   bindDisclosureLink();
   document.getElementById("disclosureModal").addEventListener("click", e => {
-    if (e.target === e.currentTarget) e.target.classList.remove("open");
+    if (e.target === e.currentTarget) hideModal();
   });
 
   window.filterCategory = function(cat) {

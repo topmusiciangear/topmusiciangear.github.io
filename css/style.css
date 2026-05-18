@@ -955,6 +955,8 @@ footer ul li a:hover { color: var(--accent); }
   padding: 36px;
   box-shadow: var(--shadow-xl);
   border: 1px solid var(--border);
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 .modal-content h3 {
