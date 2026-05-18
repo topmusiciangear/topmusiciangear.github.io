@@ -686,11 +686,13 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     renderGuideGrid();
   }
-  renderAudioMini();
-  renderMySetup();
-  renderAbout();
-  initVideoIntro();
-  translatePage();
+  (window.requestIdleCallback || setTimeout)(() => {
+    renderAudioMini();
+    renderMySetup();
+    renderAbout();
+    initVideoIntro();
+    translatePage();
+  }, 1);
 
   document.getElementById("searchInput").addEventListener("input", e => {
     searchQuery = e.target.value;
