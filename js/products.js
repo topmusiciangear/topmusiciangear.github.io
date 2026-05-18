@@ -1943,7 +1943,7 @@ const products = [
     "badge": "premium",
     "desc": "The industry standard for pitch correction and vocal tuning. Edit individual notes within polyphonic audio — fix timing, pitch, and formants with surgical precision. Used on virtually every professional vocal production.",
     "desc_es": "El estándar de la industria para corrección de tono y afinación vocal. Edita notas individuales dentro de audio polifónico — corrige tiempo, tono y formantes con precisión quirúrgica. Usado en prácticamente cada producción vocal profesional.",
-    "img": "https://r2.gear4music.com/media/61/619956/1200/preview.jpg",
+    "img": "https://thumbs.static-thomann.de/thumb//bdbmagic/pics/prod/494667.jpg",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/search?q=Celemony+Melodyne+5&a_aid=6a01e859cbe1a",
       "sweetwater": "https://www.sweetwater.com/store/detail/Melodyne5Ess--celemony-melodyne-5-essentials-pitch-correction-software",
