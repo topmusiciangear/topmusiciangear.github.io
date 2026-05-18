@@ -159,12 +159,16 @@ function guideDates(guide, idx) {
   return { published: pub, modified: mod };
 }
 
+function esText(esVal, enVal) {
+  return esVal && esVal.length > enVal.length * 0.5 ? esVal : enVal;
+}
+
 function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const title = isEs && guide.title_es ? guide.title_es : guide.title;
-  const intro = isEs && guide.intro_es ? guide.intro_es : guide.intro;
-  const conclusion = isEs && guide.conclusion_es ? guide.conclusion_es : guide.conclusion;
-  const verdict = isEs && guide.verdict_es ? guide.verdict_es : guide.verdict;
+  const intro = esText(isEs && guide.intro_es, guide.intro);
+  const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
+  const verdict = esText(isEs && guide.verdict_es, guide.verdict);
   const image = guide.image || '../img/og-image.png';
   const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.png');
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
@@ -180,7 +184,7 @@ function buildGuidePage(guide, lang, idx) {
 
   const sectionsHtml = guide.sections.map(s => {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
-    const c = isEs && s.content_es ? s.content_es : s.content;
+    const c = esText(isEs && s.content_es, s.content);
     const secProductIds = s.products || [];
     const secCards = secProductIds.map(pid => {
       const p = products.find(pr => pr.id === pid);
@@ -415,7 +419,7 @@ ${ogMeta}
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">
-          ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
+          ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
 
