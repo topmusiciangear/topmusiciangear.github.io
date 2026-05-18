@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://topmusiciangear.com/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <image:image>
+      <image:loc>https://topmusiciangear.com/img/me-600.webp</image:loc>
+      <image:title>TopMusicianGear - Music Production Gear Reviews &amp; Guides</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://topmusiciangear.com/img/favicon.png</image:loc>
+      <image:title>TopMusicianGear Logo</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://topmusiciangear.com/guides/starter-studio.html</loc>
     <lastmod>2026-05-18</lastmod>
     <image:image>
