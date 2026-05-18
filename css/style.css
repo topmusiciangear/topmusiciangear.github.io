@@ -857,7 +857,6 @@ nav {
 footer {
   color: var(--text-muted);
   padding: 56px 32px 24px;
-  border-top: 1px solid rgba(255,255,255,0.05);
 }
 
 .footer-grid {
