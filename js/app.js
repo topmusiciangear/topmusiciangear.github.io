@@ -670,23 +670,23 @@ document.addEventListener("DOMContentLoaded", () => {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   renderGuideCats();
-  const q = new URLSearchParams(window.location.search).get('g');
-  if (q && guides.find(g => g.id === q)) {
-    history.replaceState({}, '', '/?g=' + q);
-    renderGuideDetail(q);
-  } else if (location.hash) {
-    const h = location.hash.slice(1);
-    const guide = guides.find(g => g.id === h);
-    if (guide) {
-      history.replaceState({}, '', '/?g=' + h);
-      renderGuideDetail(h);
+  window.addEventListener("load", () => {
+    const q = new URLSearchParams(window.location.search).get('g');
+    if (q && guides.find(g => g.id === q)) {
+      history.replaceState({}, '', '/?g=' + q);
+      renderGuideDetail(q);
+    } else if (location.hash) {
+      const h = location.hash.slice(1);
+      const guide = guides.find(g => g.id === h);
+      if (guide) {
+        history.replaceState({}, '', '/?g=' + h);
+        renderGuideDetail(h);
+      } else {
+        renderGuideGrid();
+      }
     } else {
       renderGuideGrid();
     }
-  } else {
-    renderGuideGrid();
-  }
-  window.addEventListener("load", () => {
     renderAudioMini();
     renderMySetup();
     renderAbout();
