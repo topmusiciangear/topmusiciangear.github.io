@@ -243,9 +243,9 @@
           </div>
         </a>
         <nav aria-label="Main navigation">
-          <button class="nav-link" data-nav="guides" data-i18n="navGuides">Guides</button>
-          <button class="nav-link" data-nav="mysetup" data-i18n="navSetup">My Setup</button>
-          <button class="nav-link" data-nav="about" data-i18n="navAbout">About Me</button>
+          <a class="nav-link" data-nav="guides" data-i18n="navGuides" href="#guides" onclick="handleNavClick('guides');return false">Guides</a>
+          <a class="nav-link" data-nav="mysetup" data-i18n="navSetup" href="#mysetup" onclick="handleNavClick('mysetup');return false">My Setup</a>
+          <a class="nav-link" data-nav="about" data-i18n="navAbout" href="#about" onclick="handleNavClick('about');return false">About Me</a>
         </nav>
       </div>
       <div class="audio-mini" id="audioMini"></div>
@@ -270,9 +270,9 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" data-nav="guides" href="javascript:void(0)" onclick="handleNavClick('guides')"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
-    <a class="nav-link" data-nav="mysetup" href="javascript:void(0)" onclick="handleNavClick('mysetup')"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
-    <a class="nav-link" data-nav="about" href="javascript:void(0)" onclick="handleNavClick('about')"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
+    <a class="nav-link" data-nav="guides" href="#guides" onclick="handleNavClick('guides');return false"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+    <a class="nav-link" data-nav="mysetup" href="#mysetup" onclick="handleNavClick('mysetup');return false"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
+    <a class="nav-link" data-nav="about" href="#about" onclick="handleNavClick('about');return false"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
   </div>
 
   <main id="mainContent">
