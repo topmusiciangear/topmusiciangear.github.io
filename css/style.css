@@ -344,12 +344,6 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: textShine 2.5s ease-in-out 0.3s;
-}
-
-@keyframes textShine {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
 }
 
 .hero h1 span {
