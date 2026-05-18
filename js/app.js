@@ -758,10 +758,6 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => handleNavClick(btn.dataset.nav));
   });
 
-  document.getElementById("hamburger").addEventListener("click", () => {
-    document.getElementById("mobileNav").classList.toggle("open");
-  });
-
   bindDisclosureLink();
 
   window.filterCategory = function(cat) {
