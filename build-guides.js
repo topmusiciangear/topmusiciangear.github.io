@@ -144,7 +144,7 @@ function buildGuidePage(guide, lang) {
           "brand": { "@type": "Brand", "name": p.brand || "" },
           "mpn": p.mpn || "",
           "description": (isEs && p.desc_es ? p.desc_es : p.desc).substring(0, 200),
-          "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+          "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
         }
@@ -333,12 +333,7 @@ ${ogMeta}
           ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
-      <div class="guide-author-box">
-        <img src="../img/me.jpg" alt="Daniel — TopMusicianGear" class="guide-author-photo" loading="lazy">
-        <div class="guide-author-info">
-          <p>${isEs ? 'Músico profesional con más de 20 años de experiencia en los escenarios más grandes del mundo — desde Abbey Road hasta Glastonbury. Esta guía está basada en equipo que he usado personalmente e investigado profundamente.' : "Professional musician with 20+ years of experience on the world's biggest stages. This guide is based on gear I've personally used and thoroughly researched."}</p>
-        </div>
-      </div>
+
     </div>
   </main>
 

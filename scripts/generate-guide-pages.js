@@ -235,11 +235,11 @@ function renderGuidePage(g, lang) {
   <link rel="alternate" hreflang="en" href="https://topmusiciangear.com/guides/${g.id}.html">
   <link rel="alternate" hreflang="es" href="https://topmusiciangear.com/guides/${g.id}_es.html">
   <link rel="alternate" hreflang="x-default" href="https://topmusiciangear.com/guides/${g.id}.html">
-  <link rel="stylesheet" href="../css/style.css?v=12">
+  <link rel="stylesheet" href="../css/style.css?v=13">
   <link rel="icon" type="image/png" sizes="48x48" href="../img/favicon.png?v=2">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    *, html, body, header { margin:0; padding:0; }
+    *, html, body, header { margin:0; padding:0; background:#0d0d0d; }
     .guide-detail-static { padding: 20px 0; }
     .guide-detail-static .guide-back-row { margin-bottom: 20px; }
     .guide-detail-static .guide-detail-header h1 { font-size: 28px; margin-bottom: 16px; }

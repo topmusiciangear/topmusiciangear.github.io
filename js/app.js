@@ -98,19 +98,15 @@ function renderGuideCats() {
       <div class="count">${c.count} ${t("guides")}</div>
     </div>`
   ).join("");
-  container.addEventListener("click", e => {
-    const card = e.target.closest(".cat-card");
+  container.addEventListener("click", function(e) {
+    var card = e.target.closest(".cat-card");
     if (!card) return;
     currentCategory = card.dataset.cat;
-    document.querySelectorAll(".cat-card").forEach(c => c.classList.remove("active"));
+    document.querySelectorAll(".cat-card").forEach(function(c) { c.classList.remove("active"); });
     card.classList.add("active");
     renderGuideGrid();
-    if (window.innerWidth <= 768) {
-      requestAnimationFrame(() => {
-        const el = document.querySelector(".sort-bar") || document.getElementById("guides");
-        if (el) el.scrollIntoView({ behavior: "smooth" });
-      });
-    }
+    var sortBar = document.querySelector(".sort-bar");
+    if (sortBar) sortBar.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 
@@ -311,12 +307,7 @@ function renderGuideDetail(id) {
           ${(() => { var related = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!related.length) related = guides.filter(g => g.id !== guide.id); return related.slice(0, 4).map(g => { var gt = currentLang === 'es' && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (currentLang === 'es' ? '_es' : '') + '.html" class="guide-related-link" data-guide="' + g.id + '" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},\'\',\'/?g=\'+id); renderGuideDetail(id);">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
-      <div class="guide-author-box">
-        <img src="img/me.jpg" alt="Daniel — TopMusicianGear" class="guide-author-photo" loading="lazy">
-        <div class="guide-author-info">
-          <p>${currentLang === 'es' ? 'Músico profesional con más de 20 años de experiencia en los escenarios más grandes del mundo — desde Abbey Road hasta Glastonbury. Esta guía está basada en equipo que he usado personalmente e investigado profundamente.' : 'Professional musician with 20+ years of experience on the world\'s biggest stages. This guide is based on gear I\'ve personally used and thoroughly researched.'}</p>
-        </div>
-      </div>
+
       <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
     </div>
   `;
@@ -324,22 +315,21 @@ function renderGuideDetail(id) {
   if (btn1) btn1.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    const el = document.getElementById("guides");
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    setTimeout(function() { scrollToSection("guides"); }, 200);
   });
   const btn2 = document.getElementById("guideBackBtn2");
   if (btn2) btn2.addEventListener("click", () => {
     history.pushState({}, '', '/');
     renderGuideGrid();
-    const el = document.getElementById("guides");
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    setTimeout(function() { scrollToSection("guides"); }, 200);
   });
-  if (!initialLoad && !skipDetailScroll) {
+  if (!skipDetailScroll) {
     setTimeout(() => {
       const el = document.getElementById("guideGrid");
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
   }
+  var lang = currentLang;
   document.title = (lang === 'es' && guide.title_es ? guide.title_es : guide.title) + ' | TopMusicianGear';
   var metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
@@ -439,27 +429,30 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove("show"), 3000);
 }
 
+function scrollToSection(id) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var headerH = (document.querySelector('header').offsetHeight || 64) + 24;
+  var rect = el.getBoundingClientRect();
+  var top = rect.top + window.pageYOffset - headerH;
+  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+}
+
 function handleNavClick(target) {
   document.querySelectorAll(".nav-link").forEach(n => n.classList.remove("active"));
-  const navBtn = document.querySelector(`.nav-link[data-nav="${target}"]`);
+  var navBtn = document.querySelector(`.nav-link[data-nav="${target}"]`);
   if (navBtn) navBtn.classList.add("active");
   document.getElementById("mobileNav").classList.remove("open");
+  currentGuideId = null;
 
   if (target === "guides") {
-    currentGuideId = null;
     renderGuideGrid();
     setTimeout(function() { scrollToSection("guides"); }, 200);
   } else if (target === "mysetup") {
-    currentGuideId = null;
     renderGuideGrid();
-    renderMySetup();
-    renderAbout();
     setTimeout(function() { scrollToSection("mysetup"); }, 200);
   } else if (target === "about") {
-    currentGuideId = null;
     renderGuideGrid();
-    renderMySetup();
-    renderAbout();
     setTimeout(function() { scrollToSection("about"); }, 200);
   }
 }
@@ -744,8 +737,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderGuideGrid();
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        const el = document.getElementById("guides");
-        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollToSection("guides");
       });
     });
   };
@@ -756,8 +748,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideDetail(q);
     } else {
       renderGuideGrid();
-      const el = document.getElementById("guides");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
+      setTimeout(function() { scrollToSection("guides"); }, 200);
     }
   });
 

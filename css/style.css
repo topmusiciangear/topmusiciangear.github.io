@@ -79,10 +79,9 @@ html, body {
 header {
   background: #0d0d0d;
   border-bottom: 1px solid var(--border);
-  z-index: 1000;
-  position: -webkit-sticky;
+  z-index: 100;
   position: sticky;
-  top: 0;
+  top: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -864,7 +863,7 @@ nav {
 /* My Setup Section */
 .my-setup {
   padding: 64px 32px;
-  scroll-margin-top: 64px;
+  scroll-margin-top: 80px;
 }
 
 .setup-grid {
@@ -911,7 +910,7 @@ nav {
   padding: 80px 32px;
   position: relative;
   overflow: hidden;
-  scroll-margin-top: 64px;
+  scroll-margin-top: 80px;
 }
 
 .about-section::before {
@@ -1336,7 +1335,7 @@ footer ul li a:hover { color: var(--accent); }
 /* ===== GUIDES SECTION ===== */
 .guides-section {
   padding: 64px 32px;
-  scroll-margin-top: 64px;
+  scroll-margin-top: 80px;
 }
 
 .guides-inner {
@@ -1491,6 +1490,11 @@ footer ul li a:hover { color: var(--accent); }
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
+}
+.guide-author-info strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
 }
 .guide-author-info p {
   margin: 0;
@@ -1896,7 +1900,11 @@ footer ul li a:hover { color: var(--accent); }
   display: none;
 }
 
-.guide-detail { scroll-margin-top: 64px; }
+#guideGrid {
+  scroll-margin-top: 80px;
+}
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -1931,9 +1939,9 @@ footer ul li a:hover { color: var(--accent); }
 @media (max-width: 768px) {
   .guides-section,
   .my-setup,
-  .about-section { scroll-margin-top: 42px; }
+  .about-section { }
   .header-inner { padding: 0 16px; gap: 12px; }
-  body { overflow-x: hidden; } html { overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 0; }
+  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 70px; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
@@ -2088,7 +2096,7 @@ footer ul li a:hover { color: var(--accent); }
   opacity: 0.25;
 }
 
-.hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, body > *:not(header):not(.bg-video):not(#disclosureModal):not(#toast) {
+.hero, .stats-bar, .featured-cats, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .disclosure, .toast, body > *:not(header):not(.bg-video):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
   position: relative;
   z-index: 2;
 }
