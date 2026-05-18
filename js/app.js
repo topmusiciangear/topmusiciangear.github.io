@@ -734,9 +734,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("mobileNav").classList.toggle("open");
   });
 
-  document.getElementById("disclosureLink").addEventListener("click", e => {
-    e.preventDefault();
-    document.getElementById("disclosureModal").style.display = "flex";
+  document.addEventListener("click", e => {
+    if (e.target.id === "disclosureLink" || e.target.closest("#disclosureLink")) {
+      e.preventDefault();
+      document.getElementById("disclosureModal").style.display = "flex";
+    }
   });
   document.getElementById("disclosureModal").addEventListener("click", e => {
     if (e.target === e.currentTarget) e.target.style.display = "none";
