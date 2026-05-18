@@ -267,7 +267,7 @@ function renderGuidePage(g, lang) {
     .product-card-body { padding: 12px; display: flex; flex-direction: column; }
     .product-card-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
     .guide-product-card-stores { display: flex; gap: 4px; margin-top: auto; padding-top: 8px; flex-wrap: wrap; }
-    .chip-store { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 120px; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; color: white; text-decoration: none; transition: all 0.1s ease; -webkit-tap-highlight-color: transparent; }
+    .chip-store { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 120px; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; color: white; text-decoration: none; transition: opacity 0.1s ease; -webkit-tap-highlight-color: transparent; }
     .chip-store:hover { opacity: .85; }
     .chip-store:active { transform: scale(0.9); opacity: 0.6; filter: brightness(1.4); transition: none !important; }
     .chip-store .icon { display: flex; align-items: center; }
