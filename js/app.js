@@ -86,7 +86,7 @@ function renderGuideCats() {
   const catMap = {};
   guides.forEach(g => { catMap[g.category] = (catMap[g.category] || 0) + 1; });
   const cats = [
-    { id: "all", name: t("allGuides"), icon: '<i class="fa-solid fa-music"></i>', count: guides.length },
+    { id: "all", name: t("allGuides"), icon: '<svg data-fa="music" class="icon fa-solid fa-music" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg>', count: guides.length },
     ...Object.entries(categoryInfo).filter(([id]) => catMap[id]).map(([id, info]) => {
       return { id, name: getCatName(id), icon: info.icon, count: catMap[id] };
     })
@@ -224,7 +224,7 @@ function renderGuideGrid() {
   const filtered = getFilteredGuides();
   count.textContent = `${filtered.length} ${t("guides")}`;
   if (filtered.length === 0) {
-    grid.innerHTML = `<div class="no-results"><h3><i class="fa-solid fa-music"></i> ${t("noGuides")}</h3><p>${t("noGuidesDesc")}</p></div>`;
+    grid.innerHTML = `<div class="no-results"><h3><svg data-fa="music" class="icon fa-solid fa-music" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> ${t("noGuides")}</h3><p>${t("noGuidesDesc")}</p></div>`;
     return;
   }
   grid.innerHTML = filtered.map(g => {
@@ -239,7 +239,7 @@ function renderGuideGrid() {
           <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
           <p class="guide-card-intro">${(() => { const i = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro; return i.length > 150 ? i.slice(0, 150) + '…' : i; })()}</p>
           <div class="guide-card-footer">
-            <span class="guide-card-meta"><i class="fa-regular fa-clock"></i> 6 ${t("minRead")}</span>
+            <span class="guide-card-meta"><svg data-fa="clock" class="icon fa-regular fa-clock" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> 6 ${t("minRead")}</span>
             <span class="guide-card-btn">${t("readGuide")}</span>
           </div>
         </div>
@@ -289,7 +289,7 @@ function renderGuideDetail(id) {
         <a href="/">Home</a> / <a href="/#guides">${t("navGuides")}</a> / <span>${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</span>
       </nav>
       <div class="guide-back-row">
-        <button class="guide-back-btn" id="guideBackBtn1"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
+        <button class="guide-back-btn" id="guideBackBtn1"><svg data-fa="arrow-left" class="icon fa-solid fa-arrow-left" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> ${t("backToGuides")}</button>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</h1>
@@ -313,7 +313,7 @@ function renderGuideDetail(id) {
         </div>
       </div>
 
-      <button class="guide-back-btn" id="guideBackBtn2"><i class="fa-solid fa-arrow-left"></i> ${t("backToGuides")}</button>
+      <button class="guide-back-btn" id="guideBackBtn2"><svg data-fa="arrow-left" class="icon fa-solid fa-arrow-left" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> ${t("backToGuides")}</button>
     </div>
   `;
   const btn1 = document.getElementById("guideBackBtn1");
@@ -384,10 +384,10 @@ function renderMySetup() {
   if (!container) return;
   const gear = [
     { icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="2"/><rect x="4" y="9" width="3" height="6" rx="0.8" fill="currentColor" opacity="0.6"/><circle cx="14" cy="12" r="3"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><rect x="19" y="10" width="1.5" height="4" rx="0.5" fill="currentColor" opacity="0.6"/></svg>', title: "Focusrite Scarlett 2i2 4th Gen", descKey: "setupItem1Desc" },
-    { icon: '<i class="fa-solid fa-headphones"></i>', title: "Beyerdynamic DT 770 Pro", descKey: "setupItem2Desc" },
-    { icon: '<i class="fa-solid fa-microphone"></i>', title: "Rode NT1-A", descKey: "setupItem3Desc" },
-    { icon: '<i class="fa-solid fa-keyboard"></i>', title: "Akai MPK249", descKey: "setupItem4Desc" },
-    { icon: '<i class="fa-solid fa-volume-high"></i>', title: "Yamaha HS8", descKey: "setupItem5Desc" }
+    { icon: '<svg data-fa="headphones" class="icon fa-solid fa-headphones" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/></svg>', title: "Beyerdynamic DT 770 Pro", descKey: "setupItem2Desc" },
+    { icon: '<svg data-fa="microphone" class="icon fa-solid fa-microphone" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"/></svg>', title: "Rode NT1-A", descKey: "setupItem3Desc" },
+    { icon: '<svg data-fa="keyboard" class="icon fa-solid fa-keyboard" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm16 64h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm80-176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V144zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zM160 336c0-8.8 7.2-16 16-16H400c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V336zM272 128h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM256 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM368 128h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM352 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V240zM464 128h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM448 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V240zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16z"/></svg>', title: "Akai MPK249", descKey: "setupItem4Desc" },
+    { icon: '<svg data-fa="volume-high" class="icon fa-solid fa-volume-high" viewBox="0 0 640 512" width="1em" height="1em" fill="currentColor"><path d="M533.6 32.5C598.5 85.2 640 165.8 640 256s-41.5 170.7-106.4 223.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C557.5 398.2 592 331.2 592 256s-34.5-142.2-88.7-186.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM473.1 107c43.2 35.2 70.9 88.9 70.9 149s-27.7 113.8-70.9 149c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C475.3 341.3 496 301.1 496 256s-20.7-85.3-53.2-111.8c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zm-60.5 74.5C434.1 199.1 448 225.9 448 256s-13.9 56.9-35.4 74.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C393.1 284.4 400 271 400 256s-6.9-28.4-17.7-37.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM301.1 34.8C312.6 40 320 51.4 320 64V448c0 12.6-7.4 24-18.9 29.2s-25 3.1-34.4-5.3L131.8 352H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h67.8L266.7 40.1c9.4-8.4 22.9-10.4 34.4-5.3z"/></svg>', title: "Yamaha HS8", descKey: "setupItem5Desc" }
   ];
   container.innerHTML = gear.map(g => `
     <div class="setup-item">
@@ -414,14 +414,14 @@ function renderAbout() {
       <p>${t("aboutP2")}</p>
       <p>${t("aboutP3")}</p>
       <div class="about-credits">
-        <span class="credit-badge"><i class="fa-solid fa-film"></i> ${t("credit_jamesbond")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-globe"></i> ${t("credit_festivals")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-landmark"></i> ${t("credit_abbeyroad")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-film"></i> ${t("credit_universal")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-microphone"></i> ${t("credit_topaz")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-compact-disc"></i> ${t("credit_warner")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-star"></i> ${t("credit_columbia")}</span>
-        <span class="credit-badge"><i class="fa-solid fa-flag-usa"></i> ${t("credit_usatours")}</span>
+        <span class="credit-badge"><svg data-fa="film" class="icon fa-solid fa-film" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"/></svg> ${t("credit_jamesbond")}</span>
+        <span class="credit-badge"><svg data-fa="globe" class="icon fa-solid fa-globe" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg> ${t("credit_festivals")}</span>
+        <span class="credit-badge"><svg data-fa="landmark" class="icon fa-solid fa-landmark" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"/></svg> ${t("credit_abbeyroad")}</span>
+        <span class="credit-badge"><svg data-fa="film" class="icon fa-solid fa-film" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"/></svg> ${t("credit_universal")}</span>
+        <span class="credit-badge"><svg data-fa="microphone" class="icon fa-solid fa-microphone" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"/></svg> ${t("credit_topaz")}</span>
+        <span class="credit-badge"><svg data-fa="compact-disc" class="icon fa-solid fa-compact-disc" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm-96-32a96 96 0 1 0 192 0 96 96 0 1 0 -192 0zM96 240c0-35 17.5-71.1 45.2-98.8S205 96 240 96c8.8 0 16-7.2 16-16s-7.2-16-16-16c-45.4 0-89.2 22.3-121.5 54.5S64 194.6 64 240c0 8.8 7.2 16 16 16s16-7.2 16-16z"/></svg> ${t("credit_warner")}</span>
+        <span class="credit-badge"><svg data-fa="star" class="icon fa-solid fa-star" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg> ${t("credit_columbia")}</span>
+        <span class="credit-badge"><svg data-fa="flag-usa" class="icon fa-solid fa-flag-usa" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M32 0C49.7 0 64 14.3 64 32V48l69-17.2c38.1-9.5 78.3-5.1 113.5 12.5c46.3 23.2 100.8 23.2 147.1 0l9.6-4.8C423.8 28.1 448 43.1 448 66.1v36.1l-44.7 16.2c-42.8 15.6-90 13.9-131.6-4.6l-16.1-7.2c-20.3-9-41.8-14.7-63.6-16.9v32.2c17.4 2.1 34.4 6.7 50.6 13.9l16.1 7.2c49.2 21.9 105 23.8 155.6 5.4L448 136.3v62l-44.7 16.2c-42.8 15.6-90 13.9-131.6-4.6l-16.1-7.2c-40.2-17.9-85-22.5-128.1-13.3L64 203.1v32.7l70.2-15.1c36.4-7.8 74.3-3.9 108.4 11.3l16.1 7.2c49.2 21.9 105 23.8 155.6 5.4L448 232.3v62l-44.7 16.2c-42.8 15.6-90 13.9-131.6-4.6l-16.1-7.2c-40.2-17.9-85-22.5-128.1-13.3L64 299.1v32.7l70.2-15.1c36.4-7.8 74.3-3.9 108.4 11.3l16.1 7.2c49.2 21.9 105 23.8 155.6 5.4L448 328.3v33.5c0 13.3-8.3 25.3-20.8 30l-34.7 13c-46.2 17.3-97.6 14.6-141.7-7.4c-37.9-19-81.3-23.7-122.5-13.4L64 400v80c0 17.7-14.3 32-32 32s-32-14.3-32-32V416 345.5 312.8 249.5 216.8 153.5 120.8 64 32C0 14.3 14.3 0 32 0zm80 96A16 16 0 1 0 80 96a16 16 0 1 0 32 0zm32 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-32 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm32 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"/></svg> ${t("credit_usatours")}</span>
       </div>
     </div>
   `;
@@ -429,7 +429,7 @@ function renderAbout() {
 
 function showToast(msg) {
   const toast = document.getElementById("toast");
-  toast.innerHTML = '<i class="fa-solid fa-circle-check" style="margin-right:6px;"></i> ' + msg;
+  toast.innerHTML = '<svg data-fa="circle-check" style="margin-right:6px;" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> ' + msg;
   toast.classList.add("show");
   setTimeout(() => toast.classList.remove("show"), 3000);
 }
@@ -677,11 +677,11 @@ document.addEventListener("DOMContentLoaded", () => {
       history.replaceState({}, '', '/?g=' + h);
       renderGuideDetail(h);
     } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
       renderGuideGrid();
     }
   } else {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
     renderGuideGrid();
   }
   renderAudioMini();
@@ -758,21 +758,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener('play', e => {
-    if (e.target.tagName === 'VIDEO' && !e.target.classList.contains('bg-video')) {
+    if (e.target.tagName === 'VIDEO') {
       document.querySelectorAll('audio').forEach(a => { a.pause(); });
-      const bg = document.querySelector('.bg-video');
-      if (bg) bg.pause();
     }
     if (e.target.tagName === 'AUDIO') {
-      document.querySelectorAll('video:not(.bg-video)').forEach(v => { v.pause(); });
+      document.querySelectorAll('video').forEach(v => { v.pause(); });
     }
   }, true);
 
   document.addEventListener('pause', e => {
-    if (e.target.tagName === 'VIDEO' && !e.target.classList.contains('bg-video')) {
-      const bg = document.querySelector('.bg-video');
-      if (bg && bg.paused) bg.play();
-    }
+    // bg video was replaced with static image
   }, true);
 
   document.addEventListener('keydown', e => {

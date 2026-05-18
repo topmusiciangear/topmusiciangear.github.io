@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { icon } = require('./js/icons.js');
 
 // ===== LOAD DATA =====
 const dir = __dirname;
@@ -66,7 +67,7 @@ function productCard(p, lang) {
     else if (key === 'gear4music') iconHtml = '<span class="icon"><img src="../img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img"></span>';
     else if (key === 'pluginboutique') iconHtml = '<span class="icon"><img src="../img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-icon-img"></span>';
     else if (key === 'musikproduktiv') iconHtml = '<span class="icon"><img src="../img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px"></span>';
-    else if (key === 'amazon') iconHtml = '<span class="icon"><i class="fa-brands fa-amazon" style="font-size:15px;"></i></span>';
+    else if (key === 'amazon') iconHtml = '<span class="icon" style="font-size:15px;">' + icon('amazon', 'fa-brands') + '</span>';
     else if (key === 'reverb') iconHtml = '<span class="icon"><span style="font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;">R</span></span>';
     else if (key === 'musicstore') iconHtml = '<span class="icon"><img src="../img/musicstore-icon.png" alt="Music Store" class="store-icon-img"></span>';
     else if (key === 'baxmusic') iconHtml = '<span class="icon"><img src="../img/baxmusic-icon.svg" alt="Bax Music" class="store-icon-img"></span>';
@@ -267,8 +268,7 @@ ${ogMeta}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://media.sweetwater.com">
-  <link rel="stylesheet" href="/css/style.css?v=18">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/style.css?v=19">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
@@ -308,7 +308,10 @@ ${ogMeta}
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
-  <img class="bg-video" src="/img/me.jpg" alt="" fetchpriority="low">
+  <picture>
+    <source srcset="/img/me-600.webp 600w, /img/me-900.webp 900w, /img/me.webp 1455w" sizes="100vw" type="image/webp">
+    <img class="bg-hero" src="/img/me.jpg" alt="" fetchpriority="low" width="1455" height="1806">
+  </picture>
 
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
@@ -327,11 +330,11 @@ ${ogMeta}
       </div>
       <div class="header-right">
         <div class="header-social">
-          <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener" class="header-social-link" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
-          <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
-          <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener" class="header-social-link" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
+          <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
+          <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="TikTok">${icon('tiktok', 'fa-brands')}</a>
+          <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener" class="header-social-link" title="Facebook">${icon('facebook-f', 'fa-brands')}</a>
+          <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
           <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
         </div>
         <div class="lang-switcher">
@@ -361,7 +364,7 @@ ${ogMeta}
       <nav class="guide-breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a> / <a href="/">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
-      <a href="/" class="guide-back-link"><i class="fa-solid fa-arrow-left"></i> ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
+      <a href="/" class="guide-back-link">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
       <h1>${title}</h1>
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
