@@ -23,6 +23,7 @@
   <meta name="twitter:image" content="https://media.sweetwater.com/m/products/image/f759b6ae09I6HOqlkPqK2z6BNiVZitPMA6qDgFfQ.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=f759b6ae09fda8c7">
   <link rel="stylesheet" href="/css/style.css?v=8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
@@ -186,6 +187,53 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Neumann U 87 Ai",
+      "brand": {
+        "@type": "Brand",
+        "name": "Neumann"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 3599,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": 3456
+      },
+      "image": "https://media.sweetwater.com/m/products/image/f759b6ae09I6HOqlkPqK2z6BNiVZitPMA6qDgFfQ.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=f759b6ae09fda8c7"
+    },
+    {
+      "@type": "Product",
+      "name": "AKG C414 XLII",
+      "brand": {
+        "@type": "Brand",
+        "name": "AKG"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 1099,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 5678
+      },
+      "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/240602.jpg"
+    }
+  ]
+}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
     {
@@ -277,7 +325,7 @@
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
-  <video class="bg-video" autoplay muted loop playsinline poster="/img/favicon.png"><source src="/video/bg.mp4" type="video/mp4"></video>
+  <video class="bg-video" autoplay muted loop playsinline poster="/img/favicon.png" fetchpriority="low"><source src="/video/bg.mp4" type="video/mp4"></video>
 
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">

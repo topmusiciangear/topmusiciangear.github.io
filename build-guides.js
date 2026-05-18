@@ -105,8 +105,8 @@ function buildGuidePage(guide, lang, idx) {
   const intro = isEs && guide.intro_es ? guide.intro_es : guide.intro;
   const conclusion = isEs && guide.conclusion_es ? guide.conclusion_es : guide.conclusion;
   const verdict = isEs && guide.verdict_es ? guide.verdict_es : guide.verdict;
-  const image = guide.image || '../img/og-image.svg';
-  const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.svg');
+  const image = guide.image || '../img/og-image.png';
+  const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.png');
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
   const canonical = `https://topmusiciangear.com/guides/${isEs ? guide.id + '_es' : guide.id}.html`;
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
@@ -158,15 +158,17 @@ function buildGuidePage(guide, lang, idx) {
   };
 
   const items = [];
+  const productSchemas = [];
   guide.featuredProducts.forEach((pid, idx) => {
     const p = products.find(pr => pr.id === pid);
     if (p) {
       const generatedSku = "TMG-" + (p.category || "gear").toUpperCase() + "-" + String(p.id).padStart(3, "0");
+      const title = isEs && p.title_es ? p.title_es : p.title;
       items.push({
         "@type": "ListItem", "position": idx + 1,
         "item": {
           "@type": "Product",
-          "name": isEs && p.title_es ? p.title_es : p.title,
+          "name": title,
           "brand": { "@type": "Brand", "name": p.brand || "" },
           "mpn": p.mpn || generatedSku,
           "sku": generatedSku,
@@ -175,6 +177,14 @@ function buildGuidePage(guide, lang, idx) {
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
         }
+      });
+      productSchemas.push({
+        "@type": "Product",
+        "name": title,
+        "brand": { "@type": "Brand", "name": p.brand || "" },
+        "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
+        "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
       });
     }
   });
@@ -251,12 +261,14 @@ function buildGuidePage(guide, lang, idx) {
 ${ogMeta}
   <link rel="stylesheet" href="/css/style.css?v=8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
   ${jsonLdScript(ldArticle)}
   ${items.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "ItemList", "itemListElement": items }) : ''}
+  ${productSchemas.length ? jsonLdScript({ "@context": "https://schema.org", "@graph": productSchemas }) : ''}
   ${jsonLdScript({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/" },
     { "@type": "ListItem", "position": 2, "name": title, "item": canonical }
@@ -288,7 +300,7 @@ ${ogMeta}
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
-  <video class="bg-video" autoplay muted loop playsinline poster="/img/favicon.png"><source src="/video/bg.mp4" type="video/mp4"></video>
+  <video class="bg-video" autoplay muted loop playsinline poster="/img/favicon.png" fetchpriority="low"><source src="/video/bg.mp4" type="video/mp4"></video>
 
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
