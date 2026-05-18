@@ -120,7 +120,7 @@ const products = [
     "badge": "legend",
     "desc": "The world's most popular vocal microphone. Used by presidents, pop stars, and pub singers alike. Built like a tank with a tailored frequency response for vocals that cut through any mix.",
     "desc_es": "El micrófono vocal más popular del mundo. Usado por presidentes, estrellas pop y cantantes de bar por igual. Construido como un tanque con respuesta de frecuencia adaptada para voces que cortan cualquier mezcla.",
-    "img": "img/sm58.jpg",
+    "img": "img/sm58.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/SM58--shure-sm58-cardioid-dynamic-vocal-microphone",
       "thomann": "https://www.thomann.co.uk/shure_sm_58_lce.htm",
@@ -143,7 +143,7 @@ const products = [
     "badge": "topQuality",
     "desc": "The tom-tom king and guitar cab legend. Five-position bass roll-off switch, handles SPLs up to 160dB. The industry standard dynamic for instruments since 1960.",
     "desc_es": "El rey de los toms y leyenda de gabinetes de guitarra. Interruptor de corte de graves de cinco posiciones, maneja SPLs de hasta 160dB. El dinámico estándar de la industria para instrumentos desde 1960.",
-    "img": "img/md421.jpg",
+    "img": "img/md421.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/MD421II--sennheiser-md-421-ii-cardioid-dynamic-microphone",
       "thomann": "https://www.thomann.co.uk/sennheiser_md_421_ii.htm",
@@ -165,7 +165,7 @@ const products = [
     "badge": "legend",
     "desc": "The broadcast standard. Variable-D technology eliminates proximity effect. The definitive choice for podcasting, voiceover, and kick drums.",
     "desc_es": "El estándar de transmisión. La tecnología Variable-D elimina el efecto de proximidad. La elección definitiva para podcasting, locución y bombos.",
-    "img": "img/re20.jpg",
+    "img": "img/re20.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/RE20--electro-voice-re20-broadcast-microphone",
       "thomann": "https://www.thomann.co.uk/electro_voice_re20.htm",
@@ -462,7 +462,7 @@ const products = [
     "badge": "topQuality",
     "desc": "Console-grade preamps in a compact interface. The same Class-A mic pres found in Audient's $50,000 ASP8024 console. Dual headphone outputs and JFET DI input for instruments.",
     "desc_es": "Preamplificadores de grado consola en una interfaz compacta. Los mismos previos de micrófono Clase A que se encuentran en la consola ASP8024 de $50,000 de Audient. Salidas de auriculares duales y entrada DI JFET para instrumentos.",
-    "img": "img/audient-id14.jpg",
+    "img": "img/audient-id14.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/iD14mkII--audient-id14-mkii-usb-audio-interface",
       "thomann": "https://www.thomann.co.uk/audient_id14_mkii.htm",
@@ -484,7 +484,7 @@ const products = [
     "badge": "recommended",
     "desc": "The best value in its class. Full-color LCD metering, ESS Sabre32 Ultra DAC, and loopback for streaming. The only interface under $200 with real-time level monitoring.",
     "desc_es": "El mejor valor en su clase. Medición LCD a todo color, DAC ESS Sabre32 Ultra y loopback para streaming. La única interfaz por menos de $200 con monitoreo de nivel en tiempo real.",
-    "img": "img/motu-m2.jpg",
+    "img": "img/motu-m2.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/M2--motu-m2-2x2-usb-c-audio-interface",
       "thomann": "https://www.thomann.co.uk/motu_m2.htm",
@@ -506,7 +506,7 @@ const products = [
     "badge": "bestSeller",
     "desc": "UA quality at an entry-level price. Vintage Mic Preamp mode emulates the classic UA 610 tube preamp. MIDI I/O and solid build quality with a retro design that stands out.",
     "desc_es": "Calidad UA a precio de entrada. El modo Vintage Mic Preamp emula el clásico previo de tubo UA 610. MIDI I/O y construcción sólida con diseño retro que destaca.",
-    "img": "img/ua-volt2.jpg",
+    "img": "img/ua-volt2.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/Volt2--universal-audio-volt-2-usb-audio-interface",
       "thomann": "https://www.thomann.co.uk/universal_audio_volt_2.htm",
@@ -549,7 +549,7 @@ const products = [
     "badge": "recommended",
     "desc": "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port. G5 features 32-bit processing and enhanced room correction.",
     "desc_es": "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal. G5 con procesamiento 32-bit y corrección de sala mejorada.",
-    "img": "img/krk-rokit7.jpg",
+    "img": "img/krk-rokit7.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
       "thomann": "https://www.thomann.co.uk/krk_rokit_rp7_g5.htm",
@@ -613,7 +613,7 @@ const products = [
     "badge": "legend",
     "desc": "The studio standard for closed-back monitoring. 250 Ohm drivers, velour ear pads, and exceptional comfort for marathon sessions.",
     "desc_es": "El estándar de estudio para monitoreo cerrado. Drivers de 250 Ohm, almohadillas de velour y comodidad excepcional para sesiones maratonianas.",
-    "img": "img/dt770pro.jpg",
+    "img": "img/dt770pro.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/DT770pro80--beyerdynamic-dt-770-pro-80-ohm-closed-back-studio-mixing-headphones",
       "thomann": "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
@@ -698,7 +698,7 @@ const products = [
     "badge": "legend",
     "desc": "Open-back mixing headphones with legendary bass extension. The spacious soundstage reveals reverb tails and stereo placement with surgical precision. The DT 770's open-back sibling.",
     "desc_es": "Auriculares de mezcla abiertos con legendaria extensión de graves. El escenario sonoro espacioso revela colas de reverb y colocación estéreo con precisión quirúrgica. El hermano abierto del DT 770.",
-    "img": "img/dt990pro.jpg",
+    "img": "img/dt990pro.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/DT990Pro--beyerdynamic-dt-990-pro-250-ohm-open-back-studio-headphones",
       "thomann": "https://www.thomann.co.uk/beyerdynamic_dt990pro.htm",
@@ -719,7 +719,7 @@ const products = [
     "badge": "recommended",
     "desc": "Harman-target tuned for the most natural closed-back sound under $200. Foldable design, detachable cables, and the flattest frequency response in its class.",
     "desc_es": "Sintonizado al objetivo Harman para el sonido cerrado más natural por menos de $200. Diseño plegable, cables desmontables y la respuesta de frecuencia más plana en su clase.",
-    "img": "img/akg-k371.jpg",
+    "img": "img/akg-k371.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/K371--akg-k371-closed-back-professional-studio-headphones",
       "thomann": "https://www.thomann.co.uk/akg_k371.htm",
@@ -741,7 +741,7 @@ const products = [
     "badge": "premium",
     "desc": "The world's leading sampler platform. Kontakt 8 with new browser, wavetable module, MIDI tools, and 900+ instruments. The industry standard for sampled instruments.",
     "desc_es": "La plataforma de sampler líder mundial. Kontakt 8 con nuevo navegador, módulo wavetable, herramientas MIDI y más de 900 instrumentos. El estándar de la industria para instrumentos sampleados.",
-    "img": "img/kontakt8.jpg",
+    "img": "img/kontakt8.webp",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/search?q=Native+Instruments+Kontakt+8&a_aid=6a01e859cbe1a",
       "sweetwater": "https://www.sweetwater.com/store/detail/Kontakt8--native-instruments-kontakt-8-sampler",
@@ -765,7 +765,7 @@ const products = [
     "badge": "premium",
     "desc": "The ultimate mixing and mastering toolkit. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, and more.",
     "desc_es": "El kit definitivo de mezcla y masterización. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más.",
-    "img": "img/fabfilter-total.jpg",
+    "img": "img/fabfilter-total.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/FFTotalBun--fabfilter-total-plug-in-bundle",
       "pluginboutique": "https://www.pluginboutique.com/search?q=FabFilter+Total+Bundle&a_aid=6a01e859cbe1a",
@@ -788,7 +788,7 @@ const products = [
     "badge": "topQuality",
     "desc": "Next-gen AI-powered mastering suite. 20 pro modules including Stem EQ, Clarity, Stabilizer, and improved stem splitting with neural networks.",
     "desc_es": "Suite de masterización de nueva generación impulsada por IA. 20 módulos profesionales incluyendo Stem EQ, Clarity, Stabilizer y separación de stems mejorada con redes neuronales.",
-    "img": "img/ozone12.jpg",
+    "img": "img/ozone12.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/Ozone12Ad--izotope-ozone-12-advanced-mastering-software-suite",
       "pluginboutique": "https://www.pluginboutique.com/search?q=iZotope+Ozone+12+Advanced&a_aid=6a01e859cbe1a",
@@ -811,7 +811,7 @@ const products = [
     "badge": "topQuality",
     "desc": "23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack. The creative producer's toolbox.",
     "desc_es": "23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. La caja de herramientas del productor creativo.",
-    "img": "img/soundtoys5.jpg",
+    "img": "img/soundtoys5.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/Soundtoys5--soundtoys-5-plug-in-bundle-download",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Soundtoys+5.5+Bundle&a_aid=6a01e859cbe1a",
@@ -875,7 +875,7 @@ const products = [
     "badge": "topQuality",
     "desc": "The industry standard for studio cabling. Neglex OFC conductors, REAN connectors, and legendary Mogami reliability.",
     "desc_es": "El estándar de la industria para cableado de estudio. Conductores Neglex OFC, conectores REAN y la legendaria fiabilidad Mogami.",
-    "img": "img/mogami-xlr.jpg",
+    "img": "img/mogami-xlr.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Mogami-XLRF-XLRM-Mic-Cable-3m/2L91",
@@ -1221,7 +1221,7 @@ const products = [
     "badge": "bestSeller",
     "desc": "The best-selling modeling amp in the world. 50 watts of power with five amp voicings  —  clean, crunch, lead, brown, and acoustic. Built-in effects including delay, reverb, chorus, and more. The Katana 50 is the ultimate practice and small-gig amp for guitarists who want versatility without complexity or cost.",
     "desc_es": "El amplificador de modelado más vendido del mundo. 50 vatios de potencia con cinco voces de amplificador  —  clean, crunch, lead, brown y acústico. Efectos incorporados incluyendo delay, reverb, chorus y más. El Katana 50 es el amplificador definitivo para práctica y pequeños conciertos para guitarristas que quieren versatilidad sin complejidad ni costo.",
-    "img": "img/boss-katana.jpg",
+    "img": "img/boss-katana.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/Kata50mk2--boss-katana-50-mk2-50-25-0.5-watt-1x12-inch-cosm-combo-amp",
       "thomann": "https://www.thomann.co.uk/boss_katana_50_mkii.htm",
@@ -1264,7 +1264,7 @@ const products = [
     "badge": "topQuality",
     "desc": "The classic rock amplifier reimagined. 40 watts of all-tube power through a 12-inch Celestion V-type speaker. Two channels with classic gain and ultra gain for everything from clean blues to heavy rock. The DSL40CR is the quintessential Marshall sound  —  punchy mids, crunch, and that unmistakable British roar.",
     "desc_es": "El amplificador de rock clásico reimaginado. 40 vatios de potencia todo-válvulas a través de un altavoz Celestion V-type de 12 pulgadas. Dos canales con ganancia clásica y ultraganancia para todo, desde blues limpio hasta rock pesado. El DSL40CR es el sonido Marshall por excelencia  —  medios contundentes, crunch y ese rugido británico inconfundible.",
-    "img": "img/marshall-dsl40.jpg",
+    "img": "img/marshall-dsl40.webp",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/DSL40CR--marshall-dsl40cr-40-watt-1x12-tube-combo-amp",
       "thomann": "https://www.thomann.co.uk/marshall_dsl40cr.htm",

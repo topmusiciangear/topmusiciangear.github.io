@@ -325,8 +325,8 @@ ${ogMeta}
   <style>${criticalCss()}</style>
   <link rel="preload" as="style" href="/css/style.css?v=19" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.css?v=19"></noscript>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=optional" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=optional"></noscript>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
