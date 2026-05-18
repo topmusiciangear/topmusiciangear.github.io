@@ -136,13 +136,15 @@ function buildGuidePage(guide, lang) {
   guide.featuredProducts.forEach((pid, idx) => {
     const p = products.find(pr => pr.id === pid);
     if (p) {
+      const generatedSku = "TMG-" + (p.category || "gear").toUpperCase() + "-" + String(p.id).padStart(3, "0");
       items.push({
         "@type": "ListItem", "position": idx + 1,
         "item": {
           "@type": "Product",
           "name": isEs && p.title_es ? p.title_es : p.title,
           "brand": { "@type": "Brand", "name": p.brand || "" },
-          "mpn": p.mpn || "",
+          "mpn": p.mpn || generatedSku,
+          "sku": generatedSku,
           "description": (isEs && p.desc_es ? p.desc_es : p.desc).substring(0, 200),
           "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
