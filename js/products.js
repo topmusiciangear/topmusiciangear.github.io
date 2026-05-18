@@ -17,7 +17,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/shure_sm_7b_studiomikro.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X",
       "musikproduktiv": "https://www.musik-produktiv.de/shure-sm7b.html",
-      "baxmusic": "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm7b-dynamic-vocal-studio-microphone"
+      "baxmusic": "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm7b-dynamic-vocal-studio-microphone",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FSM7B%2520dyn.%2520Gro%25c3%259fmembranmikrofon%2Fart-REC0000211-000V000306270"
     }
   },
   {
@@ -38,7 +39,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/neumann_u87_ai.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/neumann-u-87-ai-studio-set-large-diaphragm-condenser-microphone"
+      "baxmusic": "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/neumann-u-87-ai-studio-set-large-diaphragm-condenser-microphone",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FU87%2520Ai%2520Studio%2520Set%2Fart-REC0009533-000"
     }
   },
   {
@@ -58,7 +60,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/rode_nt1a_complete_vocal_recording.htm",
       "gear4music": "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-a-studio-microphone-set-with-fishing-pole-stand"
+      "baxmusic": "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/rode-nt1-a-studio-microphone-set-with-fishing-pole-stand",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FNT1%2FAI1%2520Complete%2520Studio%2520Kit%2Fart-REC0013538-000"
     }
   },
   {
@@ -79,7 +82,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/akg_c414_xlii.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/akg-c-414-xlii-studio-condenser-microphone"
+      "baxmusic": "https://www.bax-shop.co.uk/large-diaphragm-condenser-microphones/akg-c-414-xlii-studio-condenser-microphone",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FC414%2520XLII%2520Multipattern%2520Gro%25c3%259fmembran%2520Kondensatormikrofon%2Fart-REC0007446-000"
     }
   },
   {
@@ -100,7 +104,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/shure_sm57_lc.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
       "musikproduktiv": "https://www.musik-produktiv.de/shure-sm57.html",
-      "baxmusic": "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone"
+      "baxmusic": "https://www.bax-shop.co.uk/dynamic-instrument-microphones/shure-sm-57-dynamic-instrument-microphone",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FSM57-LCE%2520Mikrofon%2520dynamisch%2Fart-PAH0000162-000"
     }
   },
   {
@@ -122,7 +127,8 @@ const products = [
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Vocal-Microphone/G5D",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
       "amazon": "https://www.amazon.com/dp/B000CZ0R42",
-      "baxmusic": "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm-58-dynamic-vocal-microphone"
+      "baxmusic": "https://www.bax-shop.co.uk/dynamic-vocal-microphones/shure-sm-58-dynamic-vocal-microphone",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FBLX288E%2FSM58%2520S8%252c%2520823-832MHz%2520Dual%2520Handsenderfunkanlage%2Fart-PAH0014327-000"
     }
   },
   {
@@ -143,7 +149,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/sennheiser_md_421_ii.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD421-II/1ZX",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "amazon": "https://www.amazon.com/dp/B0002H0RBS"
+      "amazon": "https://www.amazon.com/dp/B0002H0RBS",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FMD%2520421%2520KOMPAKT%2Fart-REC0016760-000"
     }
   },
   {
@@ -164,7 +171,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/electro_voice_re20.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-RE20/2KVR",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "amazon": "https://www.amazon.com/dp/B08P7QTZM5"
+      "amazon": "https://www.amazon.com/dp/B08P7QTZM5",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRE%252020%2520Black%2Fart-REC0016738-000"
     }
   },
   {
@@ -185,7 +193,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_american_professional_ii_stratocaster.htm",
       "gear4music": "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-professional-ii-stratocaster/0113940761.html"
+      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-professional-ii-stratocaster/0113940761.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FAmerican%2520Professional%2520II%2520Stratocaster%2520Lefthand%2520RW%25203-Color%2520Sunburst%2Fart-GIT0054177-000"
     }
   },
   {
@@ -205,7 +214,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/LPS6ITNH--gibson-les-paul-standard-60s-iced-tea",
       "thomann": "https://www.thomann.co.uk/gibson_les_paul_standard_60s_bb.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FLes%2520Paul%2520Standard%2520%252760s%2520Unburst%2Fart-GIT0049496-000"
     }
   },
   {
@@ -225,7 +235,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/314ceVClNMB--taylor-314ce-v-class-grand-auditorium-acoustic-electric-guitar-natural",
       "thomann": "https://www.thomann.co.uk/taylor_314ce_next_generation.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2F314ce%2520Next%2520Generation%2Fart-GIT0064435-000"
     }
   },
   {
@@ -245,7 +256,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/RG550EB--ibanez-genesis-collection-rg550-electric-guitar-electric-blue",
       "thomann": "https://www.thomann.co.uk/ibanez_rg550_pn.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FGenesis%2520RG550-BK%2520Black%2Fart-GIT0062189-000"
     }
   },
   {
@@ -264,7 +276,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/MC59410BGWBst--prs-mccarty-594-10-top-electric-guitar-black-gold-wraparound-burst",
       "thomann": "https://www.thomann.co.uk/prs_mccarty_sc594_yellow_tiger_602869.htm",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FMcCarty%2520594%2520McCarty%2520Sunburst%2Fart-GIT0063401-010"
     }
   },
   {
@@ -284,7 +297,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/Stage4-88--nord-stage-4-88-stage-keyboard",
       "thomann": "https://www.thomann.co.uk/clavia_nord_stage_4_88.htm",
       "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FNord%2520Stage%25204%252088%2Fart-KEY0005756-000"
     }
   },
   {
@@ -303,7 +317,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
       "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FMontage%2520M8x%2Fart-SYN0008831-000"
     }
   },
   {
@@ -323,7 +338,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/KeyLabEss3-61--arturia-keylab-essential-mk3-61-key-keyboard-controller-white",
       "thomann": "https://www.thomann.co.uk/arturia_keylab_essential_61_mk3_white.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FKeyLab%2520Essential%252061%2520Mk3%2520White%2Fart-SYN0008709-001"
     }
   },
   {
@@ -342,7 +358,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/KontS3-61--native-instruments-kontrol-s61-mk3-61-key-smart-keyboard-controller",
       "thomann": "https://www.thomann.co.uk/native_instruments_kontrol_s61_mk3_komplete_15.htm",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRS-Case%2520Native%2520Instruments%2520KOMPLETE%2520KONTROL%2520S88%2Fart-SYN0005298-000"
     }
   },
   {
@@ -363,7 +380,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/focusrite_scarlett_2i2_studio_4th_gen.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
       "musikproduktiv": "https://www.musik-produktiv.de/focusrite-scarlett-2i2-4th-gen.html",
-      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interfaces/focusrite-scarlett-2i2-4th-gen-audio-interface"
+      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interfaces/focusrite-scarlett-2i2-4th-gen-audio-interface",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FScarlett%25202i2%25204th%2520Gen%2Fart-PCM0017719-000"
     }
   },
   {
@@ -383,7 +401,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/ApolloTXDHE--universal-audio-apollo-twin-by-duo-heritage-edition-10x6-thunderbolt-audio-interface-with-uad-dsp",
       "thomann": "https://www.thomann.co.uk/universal_audio_apollo_twin_x_usb_heritage.htm",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interfaces/universal-audio-apollo-twin-x-quad-gen-2-studio-edition-audio-interface"
+      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interfaces/universal-audio-apollo-twin-x-quad-gen-2-studio-edition-audio-interface",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FApollo%2520Twin%2520X%2520DUO%2520Gen2%2520Essential%252b%2Fart-PCM0018199-000"
     }
   },
   {
@@ -405,7 +424,8 @@ const products = [
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
       "andertons": "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/",
-      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/rme-babyface-pro-fs-audio-interface"
+      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/rme-babyface-pro-fs-audio-interface",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FBabyface%2520Pro%2520FS%2Fart-PCM0016147-000"
     }
   },
   {
@@ -426,7 +446,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/ssl_2_mkii_601306.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interfaces/solid-state-logic-ssl-2-mkii-audio-interface"
+      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interfaces/solid-state-logic-ssl-2-mkii-audio-interface",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FSSL2%252b%2520MKII%2Fart-PCM0018224-000"
     }
   },
   {
@@ -447,7 +468,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/audient_id14_mkii.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audient-iD14-MKII-USB-Audio-Interface/3L4B",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/audient-id14-mkii-usb-c-audio-interface"
+      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/audient-id14-mkii-usb-c-audio-interface",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FiD14%2520MkII%2520Mixing%2520Set%2Fart-REC231"
     }
   },
   {
@@ -468,7 +490,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/motu_m2.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/MOTU-M2-2x2-USB-C-Audio-Interface/3GRT",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/motu-m2-audio-interface"
+      "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/motu-m2-audio-interface",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FM2%2Fart-PCM0016100-000"
     }
   },
   {
@@ -488,7 +511,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/Volt2--universal-audio-volt-2-usb-audio-interface",
       "thomann": "https://www.thomann.co.uk/universal_audio_volt_2.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-2-USB-Audio-Interface/5N5B",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FVOLT%25202%2Fart-PCM0017063-000"
     }
   },
   {
@@ -509,7 +533,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/yamaha_hs_8_bundle.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J",
       "musikproduktiv": "https://www.musik-produktiv.de/yamaha-hs-8.html",
-      "baxmusic": "https://www.bax-shop.co.uk/studio-monitor/yamaha-hs8-mp-matched-pair-active-studio-monitors-set-of-2-black"
+      "baxmusic": "https://www.bax-shop.co.uk/studio-monitor/yamaha-hs8-mp-matched-pair-active-studio-monitors-set-of-2-black",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FHS%25208S%2Fart-REC0010560-000"
     }
   },
   {
@@ -529,7 +554,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/Rokit7G5Pr--krk-rokit-7-g5-7-inch-powered-studio-monitor-pair-black",
       "thomann": "https://www.thomann.co.uk/krk_rokit_rp7_g5.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRokit%2520RP7%2520G5%2Fart-REC0016600-000"
     }
   },
   {
@@ -550,7 +576,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/adam_a7v.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/studio-monitor/adam-a7v-active-studio-monitor-single-unit"
+      "baxmusic": "https://www.bax-shop.co.uk/studio-monitor/adam-a7v-active-studio-monitor-single-unit",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FA7V%2Fart-REC0015972-000"
     }
   },
   {
@@ -570,7 +597,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/8040BPM--genelec-8040b-6.5-inch-powered-studio-monitor",
       "thomann": "https://www.thomann.co.uk/genelec_8040_bpm.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2F8040%2520BMM%2Fart-REC0016882-000"
     }
   },
   {
@@ -591,7 +619,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/beyerdynamic_dt770pro.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU",
       "musikproduktiv": "https://www.musik-produktiv.de/beyerdynamic-dt-770-pro-250-ohm.html",
-      "baxmusic": "https://www.bax-shop.co.uk/studio-headphones/beyerdynamic-dt770-pro-80-ohm"
+      "baxmusic": "https://www.bax-shop.co.uk/studio-headphones/beyerdynamic-dt770-pro-80-ohm",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FDT%2520770%2520PRO%252080%2520Ohm%2Fart-REC0003047-000"
     }
   },
   {
@@ -610,7 +639,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/HD600--sennheiser-hd-600-open-back-audiophile-professional-headphones",
       "thomann": "https://www.thomann.co.uk/sennheiser_hd_600_new_version_2019.htm",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FFrame%2520Drum%2520HD-8516-00%252c%252016%2522x2%252c5%2522%252c%2520Fiberskyn%25203%2Fart-DRU0028121-000"
     }
   },
   {
@@ -630,7 +660,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/ATHM50x--audio-technica-ath-m50x-closed-back-studio-monitoring-headphones",
       "thomann": "https://www.thomann.co.uk/audio_technica_ath_m50_x.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FATH%2520M50X%2Fart-REC0011129-000"
     }
   },
   {
@@ -651,7 +682,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/sony_mdr7506_kopfhoerer.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
       "musikproduktiv": "https://www.musik-produktiv.de/sony-mdr-7506.html",
-      "baxmusic": "https://www.bax-shop.co.uk/studio-headphones/sony-mdr-7506-headphones"
+      "baxmusic": "https://www.bax-shop.co.uk/studio-headphones/sony-mdr-7506-headphones",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FMDR-7506%2Fart-REC0000388-000"
     }
   },
   {
@@ -671,7 +703,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/DT990Pro--beyerdynamic-dt-990-pro-250-ohm-open-back-studio-headphones",
       "thomann": "https://www.thomann.co.uk/beyerdynamic_dt990pro.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/8GW",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FDT%2520990%2520Pro%2520X%2Fart-REC0016961-000"
     }
   },
   {
@@ -692,7 +725,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/akg_k371.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Studio-Headphones/4Q7C",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/studio-headphones/akg-k371-closed-folding-studio-headphones"
+      "baxmusic": "https://www.bax-shop.co.uk/studio-headphones/akg-k371-closed-folding-studio-headphones",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FK361%2Fart-REC0014405-000"
     }
   },
   {
@@ -715,7 +749,8 @@ const products = [
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
       "baxmusic": "https://www.bax-shop.co.uk/instrument-plugins/native-instruments-kontakt-8-download",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Native+Instruments+Kontakt+8&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Native+Instruments+Kontakt+8&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FKontakt%25208%2Fart-PCM0018134-000"
     }
   },
   {
@@ -737,7 +772,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fabfilter_total_bundle.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=FabFilter+Total+Bundle&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=FabFilter+Total+Bundle&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FFabFilter%2520Total%2520Bundle%2Fart-PCM0014088-000"
     }
   },
   {
@@ -759,7 +795,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=iZotope+Ozone+12+Advanced",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=iZotope+Ozone+12+Advanced&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=iZotope+Ozone+12+Advanced&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FOzone%252012%2520Advanced%2520Update%2520from%2520any%2520pevious%2520Version%2520of%2520Ozone%2520Advanced%2520License%2520Code%2Fart-PCM0018598-000"
     }
   },
   {
@@ -781,7 +818,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Soundtoys+5+Bundle",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Soundtoys+5.5+Bundle&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Soundtoys+5.5+Bundle&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FStylosette%2Fart-SYN0009206-000"
     }
   },
   {
@@ -801,7 +839,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/TR8S--roland-tr-8s-rhythm-performer",
       "thomann": "https://www.thomann.co.uk/roland_tr_8s.htm",
       "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FTR-8S%2Fart-SYN0006408-000"
     }
   },
   {
@@ -820,7 +859,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/MPCOnePlus--akai-professional-mpc-one-plus-standalone-sampler-and-sequencer",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FAkai%2520MPC%2520One%2520Cover%2Fart-KEY0005315-000"
     }
   },
   {
@@ -839,7 +879,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/GoldStu10--mogami-gold-studio-microphone-cable-10-foot-xlr-xlr",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Mogami-XLRF-XLRM-Mic-Cable-3m/2L91",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FE-Bow%2520Plus%2520MK%2520II%2520Sustainer%2Fart-ACC0000967-000"
     }
   },
   {
@@ -876,7 +917,8 @@ const products = [
     "img": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/409664.jpg",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/GTSA61Key--gator-gtsa-key61-tsa-series-keyboard-case",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FTSA%2520ATA%2520Molded%2520Case%252061%2520Tasten%2Fart-KEY0006190-000"
     }
   },
   {
@@ -897,7 +939,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/ssl_uf8.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/midi-studio-controllers/solid-state-logic-uf8-daw-controller"
+      "baxmusic": "https://www.bax-shop.co.uk/midi-studio-controllers/solid-state-logic-uf8-daw-controller",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FUF8%2Fart-PCM0016763-000"
     }
   },
   {
@@ -986,7 +1029,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_stratocaster_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Stratocaster-Olympic-White/27HN",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/player-stratocaster/0144502500.html"
+      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/player-stratocaster/0144502500.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FPlayer%2520Stratocaster%2520MN%2520Surf%2520Green%2Fart-GIT0048523-000"
     }
   },
   {
@@ -1007,7 +1051,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_telecaster_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Telecaster-Black/27HR",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/telecaster/player-telecaster/0145212500.html"
+      "fender": "https://www.fender.com/en-GB/electric-guitars/telecaster/player-telecaster/0145212500.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FLimited%2520Edition%2520Player%2520Telecaster%2520PF%2520Daphne%2520Blue%2Fart-GIT0054055-000"
     }
   },
   {
@@ -1028,7 +1073,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_american_professional_ii_telecaster.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Telecaster-Butterscotch-Blonde/5M4A",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/telecaster/american-professional-ii-telecaster/0113942700.html"
+      "fender": "https://www.fender.com/en-GB/electric-guitars/telecaster/american-professional-ii-telecaster/0113942700.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FAmerican%2520Professional%2520II%2520Telecaster%2520RW%2520Dark%2520Night%2Fart-GIT0054159-000"
     }
   },
   {
@@ -1049,7 +1095,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_american_ultra_stratocaster_csb.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-Stratocaster-Cosmic-Sapphire-Rosewood/6XIU",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-ultra-stratocaster/0118010712.html"
+      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-ultra-stratocaster/0118010712.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FAmerican%2520Ultra%2520II%2520Stratocaster%2520EB%2520Ultraburst%2Fart-GIT0061889-001"
     }
   },
   {
@@ -1070,7 +1117,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_ii_jazzmaster_3cs.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Jazzmaster-3-Color-Sunburst-Maple/65A3",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/jazzmaster/player-ii-jazzmaster/0140590558.html"
+      "fender": "https://www.fender.com/en-GB/electric-guitars/jazzmaster/player-ii-jazzmaster/0140590558.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FPlayer%2520II%2520Jazzmaster%2520RW%25203-Color%2520Sunburst%2Fart-GIT0061908-001"
     }
   },
   {
@@ -1091,7 +1139,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_precision_bass_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-Black/27HL",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-basses/precision-bass/player-precision-bass/0149803515.html"
+      "fender": "https://www.fender.com/en-GB/electric-basses/precision-bass/player-precision-bass/0149803515.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FPlayer%2520II%2520Modified%2520Precision%2520Bass%2520MN%2520Dusk%2Fart-BAS0012911-004"
     }
   },
   {
@@ -1112,7 +1161,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_jazz_bass_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-Black/27HQ",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-basses/jazz-bass/player-jazz-bass/0149903500.html"
+      "fender": "https://www.fender.com/en-GB/electric-basses/jazz-bass/player-jazz-bass/0149903500.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FNeck%2520Player%2520II%2520Jazz%2520Bass%2520RW%2Fart-BAS0013169-000"
     }
   },
   {
@@ -1133,7 +1183,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_cd_60s_dreadnought_nat.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-CD-60S-Dreadnought-Acoustic-Natural/17FJ",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/acoustic-guitars/dreadnought/cd-60s-dreadnought/0970110006.html"
+      "fender": "https://www.fender.com/en-GB/acoustic-guitars/dreadnought/cd-60s-dreadnought/0970110006.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FCD-60SCE%2520Black%2Fart-GIT0059150-000"
     }
   },
   {
@@ -1154,7 +1205,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_blues_junior_iv.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/amplifiers/guitar-amps/blues-junior-iv/2231504000.html"
+      "fender": "https://www.fender.com/en-GB/amplifiers/guitar-amps/blues-junior-iv/2231504000.html",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FBlues%2520Junior%2520IV%2520MUSIC%2520STORE%2520Edition%2Fart-GIT0056659-000"
     }
   },
   {
@@ -1174,7 +1226,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/Kata50mk2--boss-katana-50-mk2-50-25-0.5-watt-1x12-inch-cosm-combo-amp",
       "thomann": "https://www.thomann.co.uk/boss_katana_50_mkii.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-Katana-50-MkII-Guitar-Combo-Amp/5GMG",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FKatana-50%2520Gen%25203%2520Combo%2Fart-GIT0061742-000"
     }
   },
   {
@@ -1195,7 +1248,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/vox_ac30_c2_gitarrencombo.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-2x12-Tube-Combo-Amp/2PO",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/complete-assortment?keyword=Vox%20AC30"
+      "baxmusic": "https://www.bax-shop.co.uk/complete-assortment?keyword=Vox%20AC30",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FamPlug%25203%2520AC30%2Fart-GIT0061500-000"
     }
   },
   {
@@ -1216,7 +1270,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/marshall_dsl40cr.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40-Watt-Combo-Amp/3Y2X",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "baxmusic": "https://www.bax-shop.co.uk/combo-amp/marshall-dsl40cr-tube-combo-guitar-amp"
+      "baxmusic": "https://www.bax-shop.co.uk/combo-amp/marshall-dsl40cr-tube-combo-guitar-amp",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FDSL40CR%2520Combo%2Fart-GIT0043112-000V000304747"
     }
   },
   {
@@ -1236,7 +1291,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/PF500BH--ampeg-pf-500-500-watt-portaflex-bass-head",
       "thomann": "https://www.thomann.co.uk/ampeg_pf_500_portaflex.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ampeg-PF-500-Portaflex-500W-Bass-Amp-Head/4GKK",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FSVT-410HLF%2Fart-BAS0001030-000"
     }
   },
   {
@@ -1257,7 +1313,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_rumble_500.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://uk.fender.com/products/rumble-500"
+      "fender": "https://uk.fender.com/products/rumble-500",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRumble%2520500%2520V3%2520Combo%2Fart-BAS0007196-000"
     }
   },
   {
@@ -1277,7 +1334,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/BLX288PG58-H10--shure-blx288-pg58-dual-channel-wireless-handheld-microphone-system-h10-band",
       "thomann": "https://www.thomann.co.uk/shure_blx288_pg58_combo_h8e.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX288-PG58-H8E-Dual-Wireless-Microphone-System/38GC",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FBLX288E%2FPG58%2520S8%252c%2520823-832MHz%2520Dual%2520Handsenderfunkanlage%2Fart-PAH0014213-000"
     }
   },
   {
@@ -1297,7 +1355,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/EW100G4935S--sennheiser-ew-100-g4-935-s-handheld-wireless-system",
       "thomann": "https://www.thomann.co.uk/search.html?sw=sennheiser+ew+100+g4+935",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-935-S-Wireless-Vocal-Microphone-System/62BX",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRundschlinge%2520WSL%252010%252c%2520schwarz%25201000kg%252c%25204m%2520Umf.%253d2m%2520Nutzl%25c3%25a4nge%2Fart-LIG0013203-000"
     }
   },
   {
@@ -1317,7 +1376,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/ULXD2SM58--shure-ulxd24-sm58-digital-wireless-handheld-system",
       "thomann": "https://www.thomann.co.uk/search.html?sw=shure+ulxd24+sm58",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-ULXD24-SM58-J50-Digital-Wireless-Microphone-System/5E80",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FSLXD25%2FSM58%2520S50%2520%2528823-832%2520MHz%2529%2Fart-PAH0023700-006"
     }
   },
   {
@@ -1337,7 +1397,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/XSW2825--sennheiser-xsw-2-825-handheld-wireless-system",
       "thomann": "https://www.thomann.co.uk/search.html?sw=sennheiser+xsw+2+825",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-XSW-2-825-AE-Wireless-Vocal-Microphone-System/6918",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FXSW%25201-825-A%2520Vocal%2520Set%2Fart-PAH0018711-000"
     }
   },
   {
@@ -1356,7 +1417,8 @@ const products = [
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/WMS420V-A--akg-wms420-vocal-set-wireless-handheld-microphone-system-band-a",
       "thomann": "https://www.thomann.co.uk/akg_wms_420_vocal_set_band_m.htm",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FWMS%2520420%2520BD%2520Vocal%2520Set%2520D5%2520863-865%2520MHz%2Fart-PAH0015577-000"
     }
   },
   {
@@ -1376,7 +1438,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/TS9--ibanez-ts9-tube-screamer-overdrive-pedal",
       "thomann": "https://www.thomann.co.uk/ibanez_ts9_tube_screamer.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer-Overdrive-Pedal/1W2",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FTS%2520Tube%2520Screamer%2520Mini%2Fart-GIT0034243-000"
     }
   },
   {
@@ -1396,7 +1459,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/DD8--boss-dd-8-digital-delay-pedal",
       "thomann": "https://www.thomann.co.uk/boss_dd_8_digital_delay.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/4VW6",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FDD-8%2520Digital%2520Delay%2Fart-GIT0051369-000"
     }
   },
   {
@@ -1416,7 +1480,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/TU3--boss-tu-3-chromatic-tuner-pedal",
       "thomann": "https://www.thomann.co.uk/boss_tu3.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Chromatic-Tuner-Pedal/1G3",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FTU-3S%2520Chromatic%2520Tuner%2Fart-GIT0038834-000"
     }
   },
   {
@@ -1436,7 +1501,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/GCB95--dunlop-crybaby-gcb95-wah-pedal",
       "thomann": "https://www.thomann.co.uk/dunlop_cry_baby_gcb95.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Dunlop-Crybaby-GCB95-Wah-Pedal/1X3",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FCry%2520Baby%2520GCB95F%2520Classic%2520Wah%2Fart-GIT0012057-000"
     }
   },
   {
@@ -1456,7 +1522,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/HOF2--tc-electronic-hall-of-fame-2-reverb-pedal",
       "thomann": "https://www.thomann.co.uk/tc_electronic_hall_of_fame_2.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Hall-of-Fame-2-Reverb-Pedal/4D33",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FHall%2520of%2520Fame%25202%2520Reverb%2Fart-GIT0042338-000"
     }
   },
   {
@@ -1476,7 +1543,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/SmallStone--electro-harmonix-small-stone-phase-shifter-pedal",
       "thomann": "https://www.thomann.co.uk/electro_harmonix_nano_small_stone.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Phase-Shifter-Pedal/1SQ",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FNano%2520Small%2520Stone%2Fart-GIT0009646-000"
     }
   },
   {
@@ -1496,7 +1564,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/FG800--yamaha-fg800-acoustic-guitar-natural",
       "thomann": "https://www.thomann.co.uk/yamaha_fg800_nt_467748.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-FG800-Acoustic-Guitar/27B4",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FFG%2520800%2520M%2520Natural%2520Matte%2Fart-GIT0050334-000"
     }
   },
   {
@@ -1516,7 +1585,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/Pac112V--yamaha-pacifica-112v-electric-guitar",
       "thomann": "https://www.thomann.co.uk/yamaha_pacifica_112v.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Pacifica-112-V-Black/842",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FPacifica%2520112V%2520RL%2520Old%2520Violin%2520Sunburst%2Fart-GIT0056355-000"
     }
   },
   {
@@ -1536,7 +1606,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/D28--martin-d-28-dreadnought-acoustic-guitar",
       "thomann": "https://www.thomann.co.uk/martin_d28_dreadnought.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28-Standard-Series-Dreadnought-Acoustic-Guitar/39F1",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FD-28%2520Satin%2520New%2Fart-GIT0062673-000"
     }
   },
   {
@@ -1556,7 +1627,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/ZLX12P--electro-voice-zlx-12p-powered-speaker",
       "thomann": "https://www.thomann.co.uk/ev_zlx_12p.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-Powered-Speaker/6ZK",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FEV%2520ZLX%252012P%2520G2%2520mit%2520Stativ%2Fart-PAH463"
     }
   },
   {
@@ -1576,7 +1648,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/K122--qsc-k12-2-powered-speaker",
       "thomann": "https://www.thomann.co.uk/qsc_k12_2.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-K12-2-Powered-Loudspeaker/6DM",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FK12.2%2Fart-PAH0019051-000"
     }
   },
   {
@@ -1596,7 +1669,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/SM58Wire--shure-sm58-s-wireless-handheld-microphone",
       "thomann": "https://www.thomann.co.uk/shure_sm58s_wireless.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-S-Wireless-Handheld-Microphone/36G",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FBLX24E%2FSM58%2520S8%252c%2520823-832MHz%2520Handsenderfunkanlage%2Fart-PAH0014285-000"
     }
   },
   {
@@ -1616,7 +1690,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/DXR12MKII--yamaha-dxr12mkii-powered-speaker",
       "thomann": "https://www.thomann.co.uk/yamaha_dxr12_mkii.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXR12mkII-Powered-Loudspeaker/6DM",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FDXR12mkII%252012%25e2%2580%259cLF%2520%2F%25201.75%25e2%2580%259c%2520VC%2520HF%252c%25201100W%2Fart-PAH0021280-000"
     }
   },
   {
@@ -1636,7 +1711,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/PRXONE--jbl-prx-one-active-column-speaker-system",
       "thomann": "https://www.thomann.co.uk/jbl_prx_one.htm",
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/6DM",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FPRX%2520ONE%2Fart-PAH0022538-000"
     }
   },
   {
@@ -1657,7 +1733,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/ableton_live_12_suite.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6OZA",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/ableton-live-12-suite-esd/"
+      "andertons": "https://www.andertons.co.uk/ableton-live-12-suite-esd/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FLive%252012%2520Suite%2520Upgrade%2520from%2520Live%25207-11%2520Suite%2520License%2520Code%2Fart-PCM0018290-000"
     }
   },
   {
@@ -1677,7 +1754,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/LogicPro--apple-logic-pro-music-production-software",
       "thomann": "https://www.thomann.co.uk/apple_logic_pro.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Apple-Logic-Pro/6OZA",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FLogic%2520Pro%2520X%2520Astra%25202%2520DE%2520%2528Mac%2529%2520Logic%2520Pro%2520X%2520Tastatur%2520deutsch%2Fart-PCM0017695-000"
     }
   },
   {
@@ -1697,7 +1775,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/FLStudioPro--image-line-fl-studio-producer-edition",
       "thomann": "https://www.thomann.co.uk/image_line_fl_studio_producer_edition.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/FL-Studio-Producer-Edition/6OZA",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FFL%2520Studio%2520Producer%2520Edition%2520License%2520Code%2Fart-PCM0015006-000"
     }
   },
   {
@@ -1717,7 +1796,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/PTStudio--avid-pro-tools-studio-annual-subscription",
       "thomann": "https://www.thomann.co.uk/avid_pro_tools_studio.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Avid-Pro-Tools-Studio/6OZA",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FPro%2520Tools%2520Studio%2520Subscription%2Fart-PCM0015652-000"
     }
   },
   {
@@ -1738,7 +1818,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/steinberg_cubase_pro_14.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Cubase-Pro-14/6SXV",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "reverb": "https://reverb.com/uk/item/97132845-steinberg-cubase-14-pro"
+      "reverb": "https://reverb.com/uk/item/97132845-steinberg-cubase-14-pro",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FSteinberg%2520Cubase%2FNuendo%2520Titan%2520UK%2520WIN%2Fart-PCM0018344-000"
     }
   },
   {
@@ -1758,7 +1839,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/StudioOne7Pro--presonus-studio-one-pro-7-music-production-software",
       "thomann": "https://www.thomann.co.uk/presonus_studio_one_pro_7.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Studio-One-Pro-7/6OZA",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FHD%25207%2520Studio%2520Kopfh%25c3%25b6rer%252c%2520halboffen%2Fart-REC0008629-000"
     }
   },
   {
@@ -1778,7 +1860,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/305PMkII--jbl-305p-mkii-5-inch-powered-studio-monitor",
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=JBL+305P+MkII",
       "gear4music": "https://www.gear4music.com/search/?q=JBL+305P+MkII",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2F305P%2520MKII%2Fart-REC0013911-000"
     }
   },
   {
@@ -1798,7 +1881,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/LP6V2--kali-audio-lp-6-v2-6.5-inch-powered-studio-monitor",
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Kali+Audio+LP-6+V2",
       "gear4music": "https://www.gear4music.com/search/?q=Kali+Audio+LP-6+V2",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FLP972%2520Lug%252c%2520Gold%252c%2520f.%2520Galaxy%2Fart-DRU0021897-000"
     }
   },
   {
@@ -1820,7 +1904,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Waves+Mercury+Bundle",
       "gear4music": "https://www.gear4music.com/search/?q=Waves+Mercury+Bundle",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+Mercury+Bundle&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+Mercury+Bundle&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FMercury%2520Black%2Fart-REC0014735-000"
     }
   },
   {
@@ -1842,7 +1927,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Waves+SSL+G+Master+Buss+Compressor",
       "gear4music": "https://www.gear4music.com/search/?q=Waves+SSL+G+Master+Buss+Compressor",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+SSL+G-Master+Buss+Compressor&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+SSL+G-Master+Buss+Compressor&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2F%2520Studio%2520Classics%2520Collection%2520%2528DOWNLOAD%2529%2Fart-PCM0007709-000"
     }
   },
   {
@@ -1864,7 +1950,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Celemony+Melodyne+5",
       "gear4music": "https://www.gear4music.com/search/?q=Celemony+Melodyne+5",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Celemony+Melodyne+5&irgwd=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Celemony+Melodyne+5&irgwd=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FMelodyne%25205%2520Assistant%2520Upgrade%2520from%25205%2520Essential%2Fart-PCM0016506-000"
     }
   },
   {
@@ -1886,7 +1973,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=UAD+Ultimate+14",
       "gear4music": "https://www.gear4music.com/search/?q=UAD+Ultimate+14",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=UAD+Ultimate+14&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=UAD+Ultimate+14&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FUAD-2%2520OCTO%2520Ultimate%25203%2520%252b%252b%252bEinzelst%25c3%25bcck%252b%252b%252b%2Fart-PCM0013386-000"
     }
   },
   {
@@ -1908,7 +1996,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=iZotope+RX+11+Advanced",
       "gear4music": "https://www.gear4music.com/search/?q=iZotope+RX+11+Advanced",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=iZotope+RX+11+Advanced&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=iZotope+RX+11+Advanced&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRX%252012%2520Advanced%253a%2520Update%2520from%2520RX%252011%2520Advanced%2Fart-PCM0018860-000"
     }
   },
   {
@@ -1930,7 +2019,8 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Komplete+26+Ultimate",
       "gear4music": "https://www.gear4music.com/search/?q=Komplete+26+Ultimate",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Komplete+26+Ultimate&irgwc=1&irpid=7292297"
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Komplete+26+Ultimate&irgwc=1&irpid=7292297",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FKomplete%252026%2520Ultimate%2520Update%2520for%2520Ultimate%252014%2Fart-PCM0018831-000"
     }
   },
   {
@@ -1951,7 +2041,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/MicStand--k-and-m-210-2-black-mic-stand",
       "thomann": "https://www.thomann.co.uk/km_210_2.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/KM-2102-Microphone-Stand/2QNV",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2F21312%2520Tragetasche%2520Pro%2Fart-ACC0004642-000"
     }
   },
   {
@@ -1972,7 +2063,8 @@ const products = [
       "sweetwater": "https://www.sweetwater.com/store/detail/26725-000-55--k-and-m-26725-speaker-stand-pair-black",
       "thomann": "https://www.thomann.co.uk/km_26725.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/KM-26725-Speaker-Stand-Black-Pair/3P7V",
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FE-Bow%2520Plus%2520MK%2520II%2520Sustainer%2Fart-ACC0000967-000"
     }
   }
 ];

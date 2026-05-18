@@ -10,7 +10,8 @@ eval(fs.readFileSync(path.join(dir, 'js', 'guides.js'), 'utf8').replace(/^const 
 
 const storeColorsBuild = {
   thomann: "#3b82f6", pluginboutique: "#6366f1", gear4music: "#8b5cf6",
-  sweetwater: "#6b7280", musikproduktiv: "#78716c", amazon: "#ff9900", reverb: "#d6562b"
+  sweetwater: "#6b7280", musikproduktiv: "#78716c", amazon: "#ff9900", reverb: "#d6562b",
+  baxmusic: "#c30067", musicstore: "#1a3a5c", fender: "#000000", andertons: "#000000"
 };
 
 function getResolvedStores(product) {
@@ -55,6 +56,10 @@ function productCard(p, lang) {
     else if (key === 'musikproduktiv') iconHtml = '<span class="icon"><img src="../img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px"></span>';
     else if (key === 'amazon') iconHtml = '<span class="icon"><i class="fa-brands fa-amazon" style="font-size:15px;"></i></span>';
     else if (key === 'reverb') iconHtml = '<span class="icon"><span style="font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;">R</span></span>';
+    else if (key === 'musicstore') iconHtml = '<span class="icon"><img src="../img/musicstore-icon.png" alt="Music Store" class="store-icon-img"></span>';
+    else if (key === 'baxmusic') iconHtml = '<span class="icon"><img src="../img/baxmusic-icon.svg" alt="Bax Music" class="store-icon-img"></span>';
+    else if (key === 'fender') iconHtml = '<span class="icon"><img src="../img/fender-icon.svg" alt="Fender" class="store-icon-img" style="width:16px;height:16px"></span>';
+    else if (key === 'andertons') iconHtml = '<span class="icon"><span style="font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#000;color:#fff;border-radius:2px;vertical-align:middle;">A</span></span>';
     const name = key.charAt(0).toUpperCase() + key.slice(1);
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColorsBuild[key] || '#555'}">${iconHtml} ${name}</a>`;
   }).join("");
