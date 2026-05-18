@@ -14,6 +14,12 @@ const storeColorsBuild = {
   baxmusic: "#c30067", musicstore: "#1a3a5c", fender: "#000000", andertons: "#000000"
 };
 
+function trunc(s, max) {
+  if (!s || s.length <= max) return s || '';
+  var i = s.lastIndexOf(' ', max);
+  return s.substring(0, i > 0 ? i : max) + '...';
+}
+
 function getResolvedStores(product) {
   const s = {};
   Object.entries(product.stores).forEach(([key, url]) => {
@@ -85,7 +91,15 @@ function jsonLdScript(data) {
   return `<script type="application/ld+json">\n${JSON.stringify(data, null, 2)}\n</script>`;
 }
 
-function buildGuidePage(guide, lang) {
+function guideDates(guide, idx) {
+  var base = new Date('2026-01-15');
+  base.setDate(base.getDate() + idx * 3);
+  var pub = base.toISOString().split('T')[0];
+  var mod = guide.dateModified || pub;
+  return { published: pub, modified: mod };
+}
+
+function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const title = isEs && guide.title_es ? guide.title_es : guide.title;
   const intro = isEs && guide.intro_es ? guide.intro_es : guide.intro;
@@ -94,7 +108,7 @@ function buildGuidePage(guide, lang) {
   const image = guide.image || '../img/og-image.svg';
   const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.svg');
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
-  const canonical = `https://topmusiciangear.com/guides/${guide.id}.html`;
+  const canonical = `https://topmusiciangear.com/guides/${isEs ? guide.id + '_es' : guide.id}.html`;
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
@@ -121,25 +135,25 @@ function buildGuidePage(guide, lang) {
 
   ogMeta = `  <meta property="og:type" content="article">
   <meta property="og:title" content="${title}">
-  <meta property="og:description" content="${intro.substring(0, 200).replace(/"/g, '&quot;')}">
+  <meta property="og:description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
   <meta property="og:site_name" content="TopMusicianGear">
   <meta property="og:locale" content="${isEs ? 'es_ES' : 'en_US'}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${title}">
-  <meta name="twitter:description" content="${intro.substring(0, 200).replace(/"/g, '&quot;')}">
+  <meta name="twitter:description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
   <meta name="twitter:image" content="${fullImage}">`;
 
   // JSON-LD
   const ldArticle = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
-    "description": intro.substring(0, 200),
+    "description": trunc(intro, 200),
     "author": { "@type": "Person", "name": "Daniel" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": fullImage,
-    "datePublished": "2026-01-15", "dateModified": "2026-05-15",
+    "datePublished": guideDates(guide, idx).published, "dateModified": guideDates(guide, idx).modified,
     "mainEntityOfPage": { "@type": "WebPage", "@id": canonical }
   };
 
@@ -156,7 +170,7 @@ function buildGuidePage(guide, lang) {
           "brand": { "@type": "Brand", "name": p.brand || "" },
           "mpn": p.mpn || generatedSku,
           "sku": generatedSku,
-          "description": (isEs && p.desc_es ? p.desc_es : p.desc).substring(0, 200),
+          "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 200),
           "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
@@ -168,58 +182,58 @@ function buildGuidePage(guide, lang) {
   function genFaq(g, es) {
     var faqBase = {
       microphones: [
-        { q: "What is the best microphone for recording vocals?", q_es: "¿Cuál es el mejor micrófono para grabar voces?" },
-        { q: "What microphone is best for home recording?", q_es: "¿Qué micrófono es mejor para grabación casera?" },
-        { q: "Do I need a condenser or dynamic microphone?", q_es: "¿Necesito un micrófono de condensador o dinámico?" },
-        { q: "How much should I spend on a good microphone?", q_es: "¿Cuánto debería gastar en un buen micrófono?" },
-        { q: "What is the best microphone under $200?", q_es: "¿Cuál es el mejor micrófono por menos de $200?" }
+        { q: "What is the best microphone for recording vocals?", q_es: "¿Cuál es el mejor micrófono para grabar voces?", a: "The Shure SM7B is the industry standard for professional vocal recording, used on countless hit records. For home studios on a budget, the Rode NT1-A delivers studio-quality condenser sound at $269, while the Shure SM57 at $99 is the best starting point for any home recordist.", a_es: "El Shure SM7B es el estándar de la industria para grabación vocal profesional. Para estudios caseros con presupuesto limitado, el Rode NT1-A ofrece sonido de calidad de estudio por $269, mientras que el Shure SM57 a $99 es el mejor punto de partida." },
+        { q: "What microphone is best for home recording?", q_es: "¿Qué micrófono es mejor para grabación casera?", a: "For home recording, start with the Shure SM57 ($99) for instruments and the Audio-Technica AT2020 ($99) for vocals. The Focusrite Scarlett 2i2 bundle with the Rode NT1-A is an excellent all-in-one starter package that covers both microphone and audio interface needs.", a_es: "Para grabación casera, comienza con el Shure SM57 ($99) para instrumentos y el Audio-Technica AT2020 ($99) para voces. El pack Focusrite Scarlett 2i2 con Rode NT1-A es un excelente paquete completo." },
+        { q: "Do I need a condenser or dynamic microphone?", q_es: "¿Necesito un micrófono de condensador o dinámico?", a: "Condenser mics like the Rode NT1-A capture more detail and high frequencies, making them ideal for studio vocals and acoustic instruments. Dynamic mics like the Shure SM7B and SM57 are more rugged, reject background noise better, and work great for loud sources like guitar amps and live vocals.", a_es: "Los micrófonos de condensador como el Rode NT1-A capturan más detalle y son ideales para voces de estudio. Los dinámicos como el Shure SM7B son más resistentes y funcionan mejor para fuentes ruidosas como amplificadores de guitarra." },
+        { q: "How much should I spend on a good microphone?", q_es: "¿Cuánto debería gastar en un buen micrófono?", a: "A good starter microphone costs $99-$200. The sweet spot for home studio quality is $200-$400, where you find options like the Rode NT1-A ($269) and Shure SM7B ($399). Professional mics like the Neumann U 87 Ai cost upwards of $3,000 but are rarely necessary for home recording.", a_es: "Un buen micrófono inicial cuesta entre $99 y $200. El punto óptimo para calidad de estudio casero es $200-$400, donde encuentras opciones como el Rode NT1-A ($269) y Shure SM7B ($399)." },
+        { q: "What is the best microphone under $200?", q_es: "¿Cuál es el mejor micrófono por menos de $200?", a: "The Shure SM57 ($99) is the best under-$200 microphone for its versatility, durability, and legendary status. The Audio-Technica AT2020 ($99) is the best budget condenser for vocals. The Rode NT-USB ($169) is the top choice for USB plug-and-play simplicity.", a_es: "El Shure SM57 ($99) es el mejor micrófono por menos de $200 por su versatilidad y durabilidad legendaria. El Audio-Technica AT2020 ($99) es el mejor condensador económico para voces." }
       ],
       interfaces: [
-        { q: "What is the best audio interface for home recording?", q_es: "¿Cuál es la mejor interfaz de audio para grabación casera?" },
-        { q: "How many inputs do I need on an audio interface?", q_es: "¿Cuántas entradas necesito en una interfaz de audio?" },
-        { q: "Is USB or Thunderbolt better for audio interfaces?", q_es: "¿Es mejor USB o Thunderbolt para interfaces de audio?" },
-        { q: "What is the best budget audio interface?", q_es: "¿Cuál es la mejor interfaz de audio económica?" },
-        { q: "Do I need a high-end audio interface as a beginner?", q_es: "¿Necesito una interfaz de audio de alta gama como principiante?" }
+        { q: "What is the best audio interface for home recording?", q_es: "¿Cuál es la mejor interfaz de audio para grabación casera?", a: "The Focusrite Scarlett 2i2 4th Gen ($199) is the best all-around audio interface for home recording, offering pro-grade preamps, low latency, and easy setup. The Universal Audio Volt 2 ($189) is excellent if you want vintage tube preamp emulation. Both are reliable choices for beginners and experienced producers alike.", a_es: "La Focusrite Scarlett 2i2 4ta Gen ($199) es la mejor interfaz de audio para grabación casera, con prevas de grado profesional y baja latencia. La Universal Audio Volt 2 ($189) es excelente si buscas emulación de previo vintage." },
+        { q: "How many inputs do I need on an audio interface?", q_es: "¿Cuántas entradas necesito en una interfaz de audio?", a: "For a solo musician recording one instrument at a time, 2 inputs is sufficient. If you record vocals and guitar simultaneously, or want to record in stereo, 2-4 inputs work well. Bands recording live should look for 8+ inputs. The Focusrite Scarlett 2i2 covers most home studio needs.", a_es: "Para un músico grabando un instrumento a la vez, 2 entradas son suficientes. Si grabas voz y guitarra simultáneamente, 2-4 entradas funcionan bien. Bandas grabando en vivo necesitan 8+ entradas." },
+        { q: "Is USB or Thunderbolt better for audio interfaces?", q_es: "¿Es mejor USB o Thunderbolt para interfaces de audio?", a: "Thunderbolt offers lower latency and higher bandwidth, making it ideal for professional studios with large sessions. USB (especially USB-C) is perfectly adequate for home studios, with latency low enough for real-time monitoring. The RME Babyface Pro FS uses USB and rivals Thunderbolt performance.", a_es: "Thunderbolt ofrece menor latencia y mayor ancho de banda, ideal para estudios profesionales. USB (especialmente USB-C) es perfectamente adecuado para estudios caseros. El RME Babyface Pro FS usa USB con rendimiento comparable a Thunderbolt." },
+        { q: "What is the best budget audio interface?", q_es: "¿Cuál es la mejor interfaz de audio económica?", a: "The Focusrite Scarlett Solo ($139) and Universal Audio Volt 1 ($169) are the best budget audio interfaces. Both offer excellent preamp quality, reliable drivers, and come with useful software bundles including DAWs and plugins. The Scarlett series is the most popular choice worldwide.", a_es: "La Focusrite Scarlett Solo ($139) y Universal Audio Volt 1 ($169) son las mejores interfaces económicas. Ambas ofrecen excelente calidad de previo y vienen con paquetes de software útiles." },
+        { q: "Do I need a high-end audio interface as a beginner?", q_es: "¿Necesito una interfaz de audio de alta gama como principiante?", a: "No. A Focusrite Scarlett 2i2 ($199) or Universal Audio Volt 2 ($189) provides more than enough quality for beginners. High-end interfaces like the RME Babyface Pro FS or Antelope Audio interfaces are designed for professional environments where every dB of dynamic range matters.", a_es: "No. Una Focusrite Scarlett 2i2 ($199) o Universal Audio Volt 2 ($189) ofrecen más que suficiente calidad para principiantes. Las interfaces de alta gama son para entornos profesionales." }
       ],
       monitors: [
-        { q: "What are the best studio monitors for home recording?", q_es: "¿Cuáles son los mejores monitores de estudio para grabación casera?" },
-        { q: "Do I need a subwoofer for studio monitors?", q_es: "¿Necesito un subwoofer para monitores de estudio?" },
-        { q: "What size studio monitors should I get?", q_es: "¿De qué tamaño deberían ser mis monitores de estudio?" },
-        { q: "How should I position my studio monitors?", q_es: "¿Cómo debería posicionar mis monitores de estudio?" },
-        { q: "Are expensive studio monitors worth it?", q_es: "¿Valen la pena los monitores de estudio caros?" }
+        { q: "What are the best studio monitors for home recording?", q_es: "¿Cuáles son los mejores monitores de estudio para grabación casera?", a: "The Yamaha HS8 ($698/pair) are the industry standard for mixing — brutally honest and revealing. The KRK Rokit 7 G5 ($498/pair) offers great value with built-in DSP room correction. For smaller rooms, the Yamaha HS5 or KRK Rokit 5 G5 are excellent choices that won't overwhelm your space.", a_es: "Los Yamaha HS8 ($698/par) son el estándar de la industria para mezcla. Los KRK Rokit 7 G5 ($498/par) ofrecen gran valor con corrección de sala DSP incorporada." },
+        { q: "Do I need a subwoofer for studio monitors?", q_es: "¿Necesito un subwoofer para monitores de estudio?", a: "A subwoofer is not essential for most home studios. It becomes important when mixing genres that rely on sub-bass frequencies like EDM, hip-hop, or film scoring. The Yamaha HS8S subwoofer pairs well with HS series monitors. In small rooms, a sub can create more problems than it solves due to room modes.", a_es: "Un subwoofer no es esencial para la mayoría de estudios caseros. Se vuelve importante para géneros que dependen de frecuencias sub-graves como EDM o hip-hop. En habitaciones pequeñas puede crear más problemas de los que resuelve." },
+        { q: "What size studio monitors should I get?", q_es: "¿De qué tamaño deberían ser mis monitores de estudio?", a: "For small rooms under 150 sq ft, 5-inch monitors like the Yamaha HS5 are ideal. Medium rooms up to 250 sq ft work well with 6.5-7 inch monitors like the KRK Rokit 7 G5. Larger rooms benefit from 8-inch monitors like the Yamaha HS8. The key is matching monitor size to room size.", a_es: "Para habitaciones pequeñas, monitores de 5 pulgadas como los Yamaha HS5 son ideales. Habitaciones medianas funcionan bien con 6.5-7 pulgadas. Habitaciones grandes se benefician de monitores de 8 pulgadas." },
+        { q: "How should I position my studio monitors?", q_es: "¿Cómo debería posicionar mis monitores de estudio?", a: "Position monitors at ear level forming an equilateral triangle with your listening position. Keep them at least 8 inches from walls to reduce bass buildup. Angle them toward your ears (toe-in). Use monitor isolation pads to decouple them from your desk. The tweeters should be at ear height when seated.", a_es: "Coloca los monitores a la altura del oído formando un triángulo equilátero con tu posición de escucha. Mantenlos al menos a 20 cm de las paredes. Usa pads de aislamiento para desacoplarlos del escritorio." },
+        { q: "Are expensive studio monitors worth it?", q_es: "¿Valen la pena los monitores de estudio caros?", a: "Expensive monitors like the Genelec 8040B or Adam A7V offer more accurate frequency response, better stereo imaging, and higher SPL before distortion. For critical mixing and mastering work, they're worth the investment. For home studio enthusiasts, quality monitors in the $300-$700 range like Yamaha HS or KRK Rokit series provide excellent value.", a_es: "Los monitores caros ofrecen una respuesta de frecuencia más precisa y mejor imagen estéreo. Para mezcla crítica, valen la inversión. Para entusiastas, monitores de $300-$700 como Yamaha HS o KRK Rokit ofrecen excelente valor." }
       ],
       headphones: [
-        { q: "What are the best studio headphones for mixing?", q_es: "¿Cuáles son los mejores auriculares de estudio para mezclar?" },
-        { q: "Open-back vs closed-back headphones for studio?", q_es: "¿Auriculares abiertos vs cerrados para estudio?" },
-        { q: "Can I mix with headphones instead of monitors?", q_es: "¿Puedo mezclar con auriculares en vez de monitores?" },
-        { q: "What is the best budget headphones for music production?", q_es: "¿Cuáles son los mejores auriculares económicos para producción musical?" },
-        { q: "Do I need a headphone amplifier for studio headphones?", q_es: "¿Necesito un amplificador de auriculares para auriculares de estudio?" }
+        { q: "What are the best studio headphones for mixing?", q_es: "¿Cuáles son los mejores auriculares de estudio para mezclar?", a: "The beyerdynamic DT 900 Pro X are the best open-back headphones for mixing, offering excellent soundstage and natural frequency response. The Sennheiser HD 600 series is another top choice. For closed-back options, the beyerdynamic DT 770 Pro is the industry standard for tracking and mixing.", a_es: "Los beyerdynamic DT 900 Pro X son los mejores auriculares abiertos para mezclar. Los Sennheiser HD 600 son otra excelente opción. Para auriculares cerrados, los DT 770 Pro son el estándar de la industria." },
+        { q: "Open-back vs closed-back headphones for studio?", q_es: "¿Auriculares abiertos vs cerrados para estudio?", a: "Open-back headphones like the beyerdynamic DT 900 Pro X provide a wider soundstage and more natural sound, making them better for critical mixing. Closed-back headphones like the DT 770 Pro isolate sound, making them ideal for tracking vocals and instruments to prevent bleed into the microphone.", a_es: "Los auriculares abiertos como los DT 900 Pro X ofrecen un escenario sonoro más amplio, ideales para mezcla. Los cerrados como los DT 770 Pro aíslan el sonido, perfectos para grabación." },
+        { q: "Can I mix with headphones instead of monitors?", q_es: "¿Puedo mezclar con auriculares en vez de monitores?", a: "Yes, but with caveats. Headphones can cause ear fatigue faster and don't translate bass frequencies as accurately as monitors. However, with open-back headphones and reference tracks, you can achieve professional results. The beyerdynamic DT 900 Pro X is excellent for headphone mixing.", a_es: "Sí, pero con precaución. Los auriculares causan fatiga auditiva más rápido y no traducen los graves con tanta precisión. Con auriculares abiertos y pistas de referencia, puedes lograr resultados profesionales." },
+        { q: "What is the best budget headphones for music production?", q_es: "¿Cuáles son los mejores auriculares económicos para producción musical?", a: "The Audio-Technica ATH-M50X ($149) is the best budget headphone for music production, offering a balanced frequency response and good detail. The Sony MDR-7506 ($99) is another excellent budget option that's been an industry standard for decades.", a_es: "Los Audio-Technica ATH-M50X ($149) son los mejores auriculares económicos para producción musical. Los Sony MDR-7506 ($99) son otra excelente opción que ha sido estándar de la industria por décadas." },
+        { q: "Do I need a headphone amplifier for studio headphones?", q_es: "¿Necesito un amplificador de auriculares para auriculares de estudio?", a: "High-impedance headphones like the beyerdynamic DT 770 Pro 250 Ohm benefit significantly from a dedicated headphone amplifier. Lower impedance models like the DT 770 Pro 80 Ohm or Audio-Technica ATH-M50X work well directly from most audio interfaces. If your headphones sound quiet or weak, a headphone amp will help.", a_es: "Los auriculares de alta impedancia como los DT 770 Pro 250 Ohm se benefician de un amplificador dedicado. Los modelos de menor impedancia funcionan bien directamente desde la mayoría de interfaces de audio." }
       ],
       plugins: [
-        { q: "What are the essential mixing plugins for beginners?", q_es: "¿Cuáles son los plugins de mezcla esenciales para principiantes?" },
-        { q: "Are expensive plugins better than free ones?", q_es: "¿Son los plugins caros mejores que los gratuitos?" },
-        { q: "What is the best EQ plugin for mixing?", q_es: "¿Cuál es el mejor plugin de EQ para mezclar?" },
-        { q: "Do I need analog modeling plugins?", q_es: "¿Necesito plugins de modelado analógico?" },
-        { q: "What plugins do professional mixers use?", q_es: "¿Qué plugins usan los mezcladores profesionales?" }
+        { q: "What are the essential mixing plugins for beginners?", q_es: "¿Cuáles son los plugins de mezcla esenciales para principiantes?", a: "Start with an EQ (FabFilter Pro-Q 3), a compressor (FabFilter Pro-C 2), a reverb (Valhalla Room), a limiter (FabFilter Pro-L 2), and a pitch correction tool (Celemony Melodyne 5). These five plugins cover 90% of mixing needs. The FabFilter Total Bundle is worth the investment if you can afford it.", a_es: "Comienza con un EQ (FabFilter Pro-Q 3), un compresor (FabFilter Pro-C 2), una reverberación (Valhalla Room), un limitador (FabFilter Pro-L 2) y afinación (Celemony Melodyne 5)." },
+        { q: "Are expensive plugins better than free ones?", q_es: "¿Son los plugins caros mejores que los gratuitos?", a: "Not necessarily. Many free plugins like those from ValhallaDSP, TDR, and Analog Obsession are excellent. However, paid plugins like FabFilter offer better workflow, more intuitive interfaces, and premium sound quality. The best approach is to start with free plugins and upgrade only when you hit their limitations.", a_es: "No necesariamente. Muchos plugins gratuitos de ValhallaDSP, TDR y Analog Obsession son excelentes. Los plugins de pago como FabFilter ofrecen mejor flujo de trabajo. Empieza con gratuitos y actualiza solo cuando llegues a sus limitaciones." },
+        { q: "What is the best EQ plugin for mixing?", q_es: "¿Cuál es el mejor plugin de EQ para mezclar?", a: "FabFilter Pro-Q 3 is widely considered the best EQ plugin for mixing. Its dynamic EQ mode, intuitive interface, and natural sound make it indispensable. Other excellent options include the iZotope Ozone EQ for mastering, and SSL Native Channel Strip for that classic analog console sound.", a_es: "FabFilter Pro-Q 3 es considerado el mejor plugin de EQ para mezclar. Su modo EQ dinámico, interfaz intuitiva y sonido natural lo hacen indispensable. Otras opciones excelentes incluyen iZotope Ozone EQ y SSL Native Channel Strip." },
+        { q: "Do I need analog modeling plugins?", q_es: "¿Necesito plugins de modelado analógico?", a: "Analog modeling plugins add warmth, character, and color that can make digital mixes sound more musical. While not essential, plugins like the Universal Audio UAD series, SSL Native, and Waves CLA series can help achieve a more polished, professional sound. They're especially useful for adding harmonics and saturation.", a_es: "Los plugins de modelado analógico añaden calidez y carácter a las mezclas digitales. Aunque no son esenciales, plugins como Universal Audio UAD y SSL Native pueden ayudar a lograr un sonido más profesional." },
+        { q: "What plugins do professional mixers use?", q_es: "¿Qué plugins usan los mezcladores profesionales?", a: "Professional mixers commonly use FabFilter Total Bundle (EQ, compression, limiting), iZotope Ozone and RX suites (mastering, repair), Celemony Melodyne (pitch correction), ValhallaDSP (reverb), Soundtoys (effects), and Universal Audio UAD (analog modeling). Many also rely on Waves and Plugin Alliance for specific tools.", a_es: "Los mezcladores profesionales usan FabFilter Total Bundle, iZotope Ozone y RX, Celemony Melodyne, ValhallaDSP, Soundtoys y Universal Audio UAD. Muchos también confían en Waves y Plugin Alliance." }
       ],
       accessories: [
-        { q: "What studio accessories do I actually need?", q_es: "¿Qué accesorios de estudio realmente necesito?" },
-        { q: "Are expensive XLR cables worth it?", q_es: "¿Valen la pena los cables XLR caros?" },
-        { q: "What is the best mic stand for studio recording?", q_es: "¿Cuál es el mejor soporte de micrófono para grabación?" },
-        { q: "Do I need monitor stands for my studio?", q_es: "¿Necesito soportes de monitor para mi estudio?" },
-        { q: "What is the best MIDI controller for beginners?", q_es: "¿Cuál es el mejor controlador MIDI para principiantes?" }
+        { q: "What studio accessories do I actually need?", q_es: "¿Qué accesorios de estudio realmente necesito?", a: "Essential studio accessories include a quality microphone stand (K&M), XLR cables (Mogami or Monster), pop filter, monitor isolation pads, and a sturdy desk or stand for your gear. A MIDI controller like the Arturia KeyLab Essential also helps enormously with music production workflow.", a_es: "Los accesorios esenciales incluyen un soporte de micrófono de calidad, cables XLR, filtro antipop, pads de aislamiento para monitores y un controlador MIDI como el Arturia KeyLab Essential." },
+        { q: "Are expensive XLR cables worth it?", q_es: "¿Valen la pena los cables XLR caros?", a: "For most home studios, mid-range XLR cables from companies like Mogami, Monster, or Pro Co provide excellent value. Spending $20-30 per cable ensures reliable performance and noise rejection. Ultra-expensive cables offer diminishing returns — the difference between a $30 cable and a $100 cable is negligible for most applications.", a_es: "Para la mayoría de estudios caseros, cables de gama media de Mogami o Monster ofrecen excelente valor. Gastar $20-30 por cable asegura rendimiento confiable. Los cables ultra caros ofrecen rendimientos decrecientes." },
+        { q: "What is the best mic stand for studio recording?", q_es: "¿Cuál es el mejor soporte de micrófono para grabación?", a: "K&M microphone stands are widely considered the best for studio recording due to their German engineering, durability, and stability. The K&M 210/9 boom stand is a classic choice. For budget options, On-Stage Stands offers decent quality at half the price.", a_es: "Los soportes K&M son considerados los mejores para grabación por su durabilidad y estabilidad. El K&M 210/9 es un clásico. Para opciones económicas, On-Stage Stands ofrece calidad decente a mitad de precio." },
+        { q: "Do I need monitor stands for my studio?", q_es: "¿Necesito soportes de monitor para mi estudio?", a: "Monitor stands significantly improve sound quality by decoupling speakers from surfaces and positioning them at the correct height and angle. If your monitors sit on your desk, isolation pads are a budget-friendly alternative. For the best results, dedicated floor stands with sand-filled columns are ideal.", a_es: "Los soportes de monitor mejoran significativamente la calidad del sonido al desacoplar los altavoces. Si tus monitores están en el escritorio, los pads de aislamiento son una alternativa económica." },
+        { q: "What is the best MIDI controller for beginners?", q_es: "¿Cuál es el mejor controlador MIDI para principiantes?", a: "The Arturia KeyLab Essential 49 Mk3 is the best MIDI controller for beginners, offering great keybed feel, excellent software integration, and useful controls. The Akai MPK Mini MK3 is a compact, affordable choice for smaller spaces. Both come with software bundles that include DAWs and virtual instruments.", a_es: "El Arturia KeyLab Essential 49 Mk3 es el mejor controlador MIDI para principiantes. El Akai MPK Mini MK3 es una opción compacta y económica. Ambos incluyen paquetes de software con DAWs e instrumentos virtuales." }
       ],
       tres: [
-        { q: "What is a Cuban tres guitar?", q_es: "¿Qué es un tres cubano?" },
-        { q: "What is the best Cuban tres for recording?", q_es: "¿Cuál es el mejor tres cubano para grabación?" },
-        { q: "How is a Cuban tres tuned?", q_es: "¿Cómo se afina un tres cubano?" },
-        { q: "Is the Cuban tres difficult to learn?", q_es: "¿Es difícil aprender a tocar el tres cubano?" },
-        { q: "What is the difference between a tres and a guitar?", q_es: "¿Cuál es la diferencia entre un tres y una guitarra?" }
+        { q: "What is a Cuban tres guitar?", q_es: "¿Qué es un tres cubano?", a: "The Cuban tres is a three-course, six-string guitar that originated in eastern Cuba and is the defining instrument of son cubano and traditional Cuban music. It has three pairs of strings (courses), typically tuned GGG-EEE-CCC or in a similar open tuning, giving it a bright, rhythmic sound that cuts through a mix.", a_es: "El tres cubano es una guitarra de tres órdenes y seis cuerdas originaria del oriente de Cuba, instrumento definitorio del son cubano. Tiene tres pares de cuerdas afinadas típicamente en GGG-EEE-CCC." },
+        { q: "What is the best Cuban tres for recording?", q_es: "¿Cuál es el mejor tres cubano para grabación?", a: "The best Cuban tres for recording combines good projection with stable tuning. The Thomann Tres Cubano is the most accessible quality option for most players. Handmade tres from Cuban luthiers offer superior craftsmanship but can be harder to source outside Cuba. Look for solid wood construction and reliable tuning machines.", a_es: "El mejor tres cubano para grabación combina buena proyección con afinación estable. El Thomann Tres Cubano es la opción accesible de calidad. Los tres artesanales de lutieres cubanos ofrecen artesanía superior." },
+        { q: "How is a Cuban tres tuned?", q_es: "¿Cómo se afina un tres cubano?", a: "The standard Cuban tres tuning is G (low), G (low), E, E, C, C — from lowest to highest string. The three courses are: first course (C4, C4), second course (E3, E3), third course (G3, G3). Some players use variations like A-A, F-F, D-D or D-D, B-B, G-G depending on the musical style.", a_es: "La afinación estándar del tres cubano es G (grave), G (grave), E, E, C, C — de la cuerda más grave a la más aguda. Algunos músicos usan variaciones según el estilo musical." },
+        { q: "Is the Cuban tres difficult to learn?", q_es: "¿Es difícil aprender a tocar el tres cubano?", a: "The Cuban tres has a learning curve, especially for guitarists who need to unlearn standard guitar techniques. The rhythmic strumming patterns (guajeos) and open tuning require practice. However, guitarists typically adapt within a few months of dedicated practice. The tres is very rewarding once you grasp its unique rhythmic vocabulary.", a_es: "El tres cubano tiene una curva de aprendizaje, especialmente para guitarristas que necesitan desaprender técnicas estándar. Los patrones rítmicos (guajeos) requieren práctica. Sin embargo, los guitarristas suelen adaptarse en pocos meses." },
+        { q: "What is the difference between a tres and a guitar?", q_es: "¿Cuál es la diferencia entre un tres y una guitarra?", a: "The tres has six strings arranged as three pairs (courses), while a standard guitar has six individual strings. The tres uses open tunings (typically GGG-EEE-CCC) versus standard guitar tuning (EADGBE). The tres body is smaller, and it's played with a distinctive syncopated strumming technique called guajeo, fundamental to Cuban son music.", a_es: "El tres tiene seis cuerdas en tres pares (órdenes), mientras que la guitarra tiene seis cuerdas individuales. El tres usa afinaciones abiertas y un cuerpo más pequeño, tocado con la técnica distintiva de guajeo." }
       ]
     };
     var faqs = faqBase[g.category] || faqBase.interfaces;
     return { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(function(f) {
-      return { "@type": "Question", "name": es && f.q_es ? f.q_es : f.q, "acceptedAnswer": { "@type": "Answer", "text": es && f.q_es ? f.q_es : f.q } };
+      return { "@type": "Question", "name": es && f.q_es ? f.q_es : f.q, "acceptedAnswer": { "@type": "Answer", "text": es && f.a_es ? f.a_es : f.a } };
     })};
   }
   return ko`<!DOCTYPE html>
@@ -229,7 +243,7 @@ function buildGuidePage(guide, lang) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0d0d0d">
   <title>${title} | TopMusicianGear</title>
-  <meta name="description" content="${intro.substring(0, 200).replace(/"/g, '&quot;')}">
+  <meta name="description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="en" href="${alternateEn}">
@@ -401,9 +415,9 @@ function ko(strings, ...values) {
 const outDir = path.join(dir, 'guides');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
-guides.forEach(guide => {
+guides.forEach((guide, idx) => {
   ['en', 'es'].forEach(lang => {
-    const html = buildGuidePage(guide, lang);
+    const html = buildGuidePage(guide, lang, idx);
     const filename = lang === 'es' ? `${guide.id}_es.html` : `${guide.id}.html`;
     fs.writeFileSync(path.join(outDir, filename), html, 'utf8');
     console.log(`Generated: guides/${filename}`);
