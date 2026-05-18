@@ -54,6 +54,8 @@ body {
 .skip-link:focus { left: 0; }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -922,7 +924,7 @@ footer ul li a:hover { color: var(--accent); }
   border: 1px solid var(--border);
   transform: translateY(100px);
   opacity: 0;
-  transition: all .4s cubic-bezier(.4,0,.2,1);
+  transition: transform .4s cubic-bezier(.4,0,.2,1), opacity .4s cubic-bezier(.4,0,.2,1);
   z-index: 999;
 }
 
@@ -1040,7 +1042,7 @@ footer ul li a:hover { color: var(--accent); }
   margin-left: auto;
   transform: translateX(30px);
   opacity: 0;
-  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease, background 0.2s, border-color 0.2s;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
 }
 
 .mobile-nav.open .nav-link {
@@ -1418,7 +1420,7 @@ footer ul li a:hover { color: var(--accent); }
   font-weight: 700;
   color: white;
   text-decoration: none;
-  transition: all 0.1s ease;
+  transition: opacity 0.1s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -1674,7 +1676,7 @@ footer ul li a:hover { color: var(--accent); }
   .bg-hero { background-image: url('../img/me.webp'); }
 }
 
-.hero, .stats-bar, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .toast, body > *:not(header):not(.bg-hero):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
+.hero, .stats-bar, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .toast, body > *:not(header):not(.skip-link):not(.bg-hero):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
   position: relative;
   z-index: 2;
 }
