@@ -4,6 +4,7 @@ let searchQuery = "";
 let currentGuideId = null;
 let initialLoad = true;
 let skipDetailScroll = false;
+let disclosureBound = false;
 
 function t(key) {
   return translations[currentLang]?.[key] || translations.en[key] || key;
@@ -46,10 +47,14 @@ function setLang(lang) {
 }
 
 function bindDisclosureLink() {
-  var a = document.getElementById("disclosureLink");
-  if (a) {
-    a.onclick = function(e) { e.preventDefault(); document.getElementById("disclosureModal").style.display = "flex"; };
-  }
+  if (disclosureBound) return;
+  disclosureBound = true;
+  document.addEventListener("click", function(e) {
+    if (e.target.id === "disclosureLink" || (e.target.closest && e.target.closest("#disclosureLink"))) {
+      e.preventDefault();
+      document.getElementById("disclosureModal").style.display = "flex";
+    }
+  });
 }
 function translatePage() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
