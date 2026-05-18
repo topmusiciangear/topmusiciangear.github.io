@@ -423,7 +423,7 @@ const products = [
       "thomann": "https://www.thomann.co.uk/rme_babyface_pro_fs.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/",
+      "andertons": "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/?irgwc=1&irpid=7292297",
       "baxmusic": "https://www.bax-shop.co.uk/external-audio-interface/rme-babyface-pro-fs-audio-interface",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FRME-Babyface-Pro-FS%2Fart-PCM0016147-000"
     }
@@ -1733,7 +1733,7 @@ const products = [
       "thomann": "https://www.thomann.co.uk/ableton_live_12_suite.htm",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6OZA",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/ableton-live-12-suite-esd/",
+      "andertons": "https://www.andertons.co.uk/ableton-live-12-suite-esd/?irgwc=1&irpid=7292297",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FAbleton-Live-12-Suite-Upgrade-from-Live-7-11-Suite-License-Code%2Fart-PCM0018290-000"
     }
   },
@@ -1950,7 +1950,7 @@ const products = [
       "thomann": "https://www.thomann.co.uk/search_dir.html?sw=Celemony+Melodyne+5",
       "gear4music": "https://www.gear4music.com/search/?q=Celemony+Melodyne+5",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Celemony+Melodyne+5&irgwd=1&irpid=7292297",
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Celemony+Melodyne+5&irgwc=1&irpid=7292297",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FCelemony-Software-Melodyne-5-Assistant-Upgrade-from-5-Essential%2Fart-PCM0016506-000"
     }
   },
