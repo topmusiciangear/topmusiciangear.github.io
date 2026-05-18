@@ -57,6 +57,7 @@ function criticalCss() {
     '.static-guide .lang-toggle a{color:var(--accent);text-decoration:none;font-weight:500}',
     '.static-guide .lang-toggle a:hover{text-decoration:underline}',
     '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:flex}}',
+    '#cookie-banner.cookie-visible{transform:translateY(0)}',
   ].join('');
 }
 

@@ -43,6 +43,7 @@ var parts = [
   '.mobile-nav{display:flex;flex-direction:column;gap:4px;position:fixed;top:0;right:16px;padding-top:16px;z-index:101;opacity:0;pointer-events:none}',
   '.mobile-nav.open{opacity:1;pointer-events:auto}',
   '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:flex}}',
+  '#cookie-banner.cookie-visible{transform:translateY(0)}',
 ];
 
 var critical = parts.join('');

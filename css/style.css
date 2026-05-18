@@ -1744,6 +1744,10 @@ html[lang="es"] .lang-show-en { display: none; }
   color: white;
 }
 
+#cookie-banner.cookie-visible {
+  transform: translateY(0);
+}
+
 
 
 
