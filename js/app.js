@@ -677,11 +677,9 @@ document.addEventListener("DOMContentLoaded", () => {
       history.replaceState({}, '', '/?g=' + h);
       renderGuideDetail(h);
     } else {
-      requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
       renderGuideGrid();
     }
   } else {
-    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
     renderGuideGrid();
   }
   renderAudioMini();
