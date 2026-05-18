@@ -48,7 +48,10 @@ function setLang(lang) {
 function translatePage() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
-    el.innerHTML = t(key);
+    const translated = t(key);
+    if (el.innerHTML !== translated) {
+      el.innerHTML = translated;
+    }
   });
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     el.placeholder = t(el.dataset.i18nPlaceholder);
