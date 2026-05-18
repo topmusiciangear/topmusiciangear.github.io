@@ -133,13 +133,18 @@ function buildGuidePage(guide, lang, idx) {
     </div>`;
   }).join('');
 
+  var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   ogMeta = `  <meta property="og:type" content="article">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="400">
   <meta property="og:site_name" content="TopMusicianGear">
   <meta property="og:locale" content="${isEs ? 'es_ES' : 'en_US'}">
+  <meta property="article:published_time" content="${dPub}">
+  <meta property="article:modified_time" content="${dMod}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
