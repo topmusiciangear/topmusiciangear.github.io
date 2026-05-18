@@ -45,6 +45,12 @@ function setLang(lang) {
   updateLangSwitcher();
 }
 
+function bindDisclosureLink() {
+  var a = document.getElementById("disclosureLink");
+  if (a) {
+    a.onclick = function(e) { e.preventDefault(); document.getElementById("disclosureModal").style.display = "flex"; };
+  }
+}
 function translatePage() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
@@ -54,6 +60,7 @@ function translatePage() {
       el.dataset.i18nVal = translated;
     }
   });
+  bindDisclosureLink();
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
@@ -734,12 +741,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("mobileNav").classList.toggle("open");
   });
 
-  document.addEventListener("click", e => {
-    if (e.target.id === "disclosureLink" || e.target.closest("#disclosureLink")) {
-      e.preventDefault();
-      document.getElementById("disclosureModal").style.display = "flex";
-    }
-  });
+  bindDisclosureLink();
   document.getElementById("disclosureModal").addEventListener("click", e => {
     if (e.target === e.currentTarget) e.target.style.display = "none";
   });
