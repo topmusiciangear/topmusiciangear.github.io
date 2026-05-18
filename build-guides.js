@@ -30,7 +30,8 @@ function criticalCss() {
     '.lang-btn.active{background:rgba(255,255,255,.1);border-color:var(--white);color:var(--white)}',
     '.nav-link{padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
     '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
-    'body>*:not(header):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
+    'body>*:not(header):not(.bg-hero):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
+    '.bg-hero{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;background-image:url("img/me-600.webp");background-size:cover;background-position:center;opacity:.12}',
     '.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 80px;min-height:80vh;box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
     '.hero-inner{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:0 auto;position:relative;z-index:1;text-align:center}',
     '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase}',
@@ -331,6 +332,7 @@ ${ogMeta}
   <style>${criticalCss()}</style>
   <link rel="preload" as="style" href="/css/style.css?v=20" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.css?v=20"></noscript>
+  <link rel="preload" as="image" href="/img/me-600.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
@@ -345,6 +347,7 @@ ${ogMeta}
 </head>
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <div class="bg-hero" role="presentation"></div>
 
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
