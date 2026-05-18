@@ -844,6 +844,7 @@ nav {
   height: 20px;
   border-radius: 4px;
   object-fit: contain;
+  object-position: center;
   flex-shrink: 0;
 }
 
@@ -1658,16 +1659,16 @@ footer ul li a:hover { color: var(--accent); }
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  background-image: url('img/me-600.webp');
+  background-image: url('../img/me-600.webp');
   background-size: cover;
   background-position: center;
   opacity: .12;
 }
 @media (min-width: 900px) {
-  .bg-hero { background-image: url('img/me-900.webp'); }
+  .bg-hero { background-image: url('../img/me-900.webp'); }
 }
 @media (min-width: 1455px) {
-  .bg-hero { background-image: url('img/me.webp'); }
+  .bg-hero { background-image: url('../img/me.webp'); }
 }
 
 .hero, .stats-bar, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .toast, body > *:not(header):not(.bg-hero):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
