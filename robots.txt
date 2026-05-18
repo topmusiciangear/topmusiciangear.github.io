@@ -5,6 +5,7 @@ Disallow: /css/
 Disallow: /video/
 Disallow: /audio/
 Sitemap: https://topmusiciangear.com/sitemap.xml
+Sitemap: https://topmusiciangear.com/sitemap-images.xml
 
 User-agent: Googlebot
 Allow: /
