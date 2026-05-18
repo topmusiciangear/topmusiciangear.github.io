@@ -1,4 +1,4 @@
-const products = [
+﻿const products = [
   {
     "id": 1,
     "title": "Shure SM7B",
@@ -193,7 +193,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_american_professional_ii_stratocaster.htm",
       "gear4music": "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-professional-ii-stratocaster/0113940761.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Professional-II-Stratocaster-RW-3-Color-Sunburst%2Fart-GIT0054130-000"
     }
   },
@@ -1029,7 +1028,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_stratocaster_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Stratocaster-Olympic-White/27HN",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/player-stratocaster/0144502500.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-Stratocaster-MN-Surf-Green%2Fart-GIT0048523-000"
     }
   },
@@ -1051,7 +1049,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_telecaster_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Telecaster-Black/27HR",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/telecaster/player-telecaster/0145212500.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Limited-Edition-Player-Telecaster-PF-Daphne-Blue%2Fart-GIT0054055-000"
     }
   },
@@ -1073,7 +1070,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_american_professional_ii_telecaster.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Telecaster-Butterscotch-Blonde/5M4A",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/telecaster/american-professional-ii-telecaster/0113942700.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Professional-II-Telecaster-RW-Dark-Night%2Fart-GIT0054159-000"
     }
   },
@@ -1095,7 +1091,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_american_ultra_stratocaster_csb.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-Stratocaster-Cosmic-Sapphire-Rosewood/6XIU",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/stratocaster/american-ultra-stratocaster/0118010712.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Ultra-II-Stratocaster-EB-Ultraburst%2Fart-GIT0061889-001"
     }
   },
@@ -1117,7 +1112,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_ii_jazzmaster_3cs.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Jazzmaster-3-Color-Sunburst-Maple/65A3",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-guitars/jazzmaster/player-ii-jazzmaster/0140590558.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-II-Jazzmaster-RW-3-Color-Sunburst%2Fart-GIT0061908-001"
     }
   },
@@ -1139,7 +1133,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_precision_bass_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-Black/27HL",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-basses/precision-bass/player-precision-bass/0149803515.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-II-Modified-Precision-Bass-MN-Sunshine-Yellow%2Fart-BAS0012911-005"
     }
   },
@@ -1161,7 +1154,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_player_jazz_bass_mn_blk.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-Black/27HQ",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/electric-basses/jazz-bass/player-jazz-bass/0149903500.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Neck-Player-II-Jazz-Bass-RW%2Fart-BAS0013169-000"
     }
   },
@@ -1183,7 +1175,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_cd_60s_dreadnought_nat.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-CD-60S-Dreadnought-Acoustic-Natural/17FJ",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/acoustic-guitars/dreadnought/cd-60s-dreadnought/0970110006.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-CD-60SCE-Natural%2Fart-GIT0049161-000"
     }
   },
@@ -1205,7 +1196,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_blues_junior_iv.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://www.fender.com/en-GB/amplifiers/guitar-amps/blues-junior-iv/2231504000.html",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Blues-Junior-IV%2Fart-GIT0044445-000"
     }
   },
@@ -1313,7 +1303,6 @@ const products = [
       "thomann": "https://www.thomann.co.uk/fender_rumble_500.htm",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-Bass-Amp/4XB3",
       "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "fender": "https://uk.fender.com/products/rumble-500",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Rumble-500-V3-Combo%2Fart-BAS0007196-000"
     }
   },
@@ -2093,8 +2082,7 @@ const storeNames = {
   reverb: "Reverb",
   andertons: "Andertons",
   baxmusic: "Bax Music",
-  musicstore: "Music Store",
-  fender: "Fender"
+  musicstore: "Music Store"
 };
 
 const storeColors = {
@@ -2107,8 +2095,7 @@ const storeColors = {
   reverb: "#d6562b",
   andertons: "#000000",
   baxmusic: "#c30067",
-  musicstore: "#1a3a5c",
-  fender: "#000000"
+  musicstore: "#1a3a5c"
 };
 
 const storeIcons = {
@@ -2121,6 +2108,5 @@ const storeIcons = {
   reverb: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;'>R</span>",
   andertons: "<span style='font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#000;color:#fff;border-radius:2px;vertical-align:middle;'>A</span>",
   baxmusic: '<img src="img/baxmusic-icon.svg" alt="Bax Music" class="store-icon-img">',
-  musicstore: '<img src="img/musicstore-icon.png" alt="Music Store" class="store-icon-img">',
-  fender: '<img src="img/fender-icon.svg" alt="Fender" class="store-icon-img" style="width:16px;height:16px">'
+  musicstore: '<img src="img/musicstore-icon.png" alt="Music Store" class="store-icon-img">'
 };
