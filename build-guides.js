@@ -21,6 +21,8 @@ function getResolvedStores(product) {
       s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
     } else if (key === 'musikproduktiv' && url === 'https://www.musik-produktiv.de/search') {
       s[key] = `https://www.musik-produktiv.de/`;
+    } else if (key === 'andertons' && !url.includes('irgwc=')) {
+      s[key] = url + (url.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
     } else {
       s[key] = url;
     }
