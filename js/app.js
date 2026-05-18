@@ -52,7 +52,7 @@ function bindDisclosureLink() {
   document.addEventListener("click", function(e) {
     if (e.target.id === "disclosureLink" || (e.target.closest && e.target.closest("#disclosureLink"))) {
       e.preventDefault();
-      document.getElementById("disclosureModal").style.display = "flex";
+      document.getElementById("disclosureModal").classList.add("open");
     }
   });
 }
@@ -748,7 +748,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   bindDisclosureLink();
   document.getElementById("disclosureModal").addEventListener("click", e => {
-    if (e.target === e.currentTarget) e.target.style.display = "none";
+    if (e.target === e.currentTarget) e.target.classList.remove("open");
   });
 
   window.filterCategory = function(cat) {
