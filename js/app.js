@@ -21,7 +21,6 @@ function setLang(lang) {
   document.documentElement.lang = lang;
   document.documentElement.classList.remove("lang-en", "lang-es");
   document.documentElement.classList.add("lang-" + lang);
-  document.querySelector('meta[name="description"]').content = t("metaDescription");
   translatePage();
   renderGuideCats();
   if (currentGuideId) {
@@ -37,6 +36,7 @@ function setLang(lang) {
     skipDetailScroll = true;
     renderGuideDetail(currentGuideId);
   } else {
+    document.querySelector('meta[name="description"]').content = t("metaDescription");
     renderGuideGrid();
     var hl = document.querySelectorAll('link[rel="alternate"][hreflang]');
     hl.forEach(function(el) {
@@ -572,6 +572,12 @@ function injectGuideJsonLd(guide) {
   const url = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
   const image = guide.image || 'https://topmusiciangear.com/img/og-image.svg';
 
+  var gi = guides.indexOf(guide);
+  var base = new Date('2026-01-15');
+  base.setDate(base.getDate() + Math.max(0, gi) * 3);
+  var dPub = base.toISOString().split('T')[0];
+  var dMod = guide.dateModified || dPub;
+
   const article = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
@@ -579,7 +585,7 @@ function injectGuideJsonLd(guide) {
     "author": { "@type": "Person", "name": "Daniel" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": image,
-    "datePublished": "2026-01-15", "dateModified": "2026-05-15",
+    "datePublished": dPub, "dateModified": dMod,
     "mainEntityOfPage": { "@type": "WebPage", "@id": url }
   };
 
