@@ -363,13 +363,8 @@ function renderGuideDetail(id) {
   if (!skipDetailScroll) {
     setTimeout(() => {
       const el = document.getElementById("guideBackBtn1") || document.getElementById("guideGrid");
-      if (el) {
-        if (!_headerH) _headerH = (document.querySelector('header').offsetHeight || 64) + 8;
-        const rect = el.getBoundingClientRect();
-        const top = rect.top + window.pageYOffset - _headerH;
-        window.scrollTo({ top: Math.max(0, top) });
-      }
-    }, 100);
+      if (el) el.scrollIntoView({ block: "start", behavior: "auto" });
+    }, 200);
   }
   var lang = currentLang;
   document.title = (lang === 'es' && guide.title_es ? guide.title_es : guide.title) + ' | TopMusicianGear';
@@ -477,10 +472,7 @@ function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
   var target = el.querySelector('.section-header, .section-title') || el;
-  if (!_headerH) _headerH = (document.querySelector('header').offsetHeight || 64) + 8;
-  var rect = target.getBoundingClientRect();
-  var top = rect.top + window.pageYOffset - _headerH;
-  window.scrollTo({ top: Math.max(0, top) });
+  target.scrollIntoView({ block: "start", behavior: "auto" });
 }
 
 function handleNavClick(target) {
