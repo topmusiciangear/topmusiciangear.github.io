@@ -167,7 +167,7 @@
         </div>
         <div class="product-search-wrap" style="position:relative;max-width:260px;width:100%;min-width:160px;">
           <svg data-fa="magnifying-glass" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:13px;z-index:1;" class="icon fa-solid fa-magnifying-glass" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-          <input type="text" id="productSearchInput" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 14px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);outline:none;font-family:inherit;">
+          <input type="text" id="productSearchInput" aria-label="Search products" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 14px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);outline:none;font-family:inherit;">
         </div>
       </div>
       <div id="productSearchResults" style="display:none;margin:16px 0 32px;"></div>
@@ -176,7 +176,7 @@
 
       <div class="sort-bar">
         <div class="search-bar" style="flex:1;max-width:300px;position:relative;margin-left:0;">
-          <input type="text" id="searchInput" placeholder="Search guides..." autocomplete="off" data-i18n-placeholder="searchPlaceholder" style="width:100%;padding:8px 14px;border:1.5px solid var(--border);border-radius:6px;font-size:13px;background:var(--surface);color:var(--text);outline:none;font-family:inherit;">
+          <input type="text" id="searchInput" aria-label="Search guides" placeholder="Search guides..." autocomplete="off" data-i18n-placeholder="searchPlaceholder" style="width:100%;padding:8px 14px;border:1.5px solid var(--border);border-radius:6px;font-size:13px;background:var(--surface);color:var(--text);outline:none;font-family:inherit;">
         </div>
         <span class="result-count" id="guideCount"></span>
       </div>
@@ -356,7 +356,7 @@
     </div>
     <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
       <div style="display:flex;align-items:flex-start;gap:10px">
-        <input type="checkbox" id="cm-analytics" checked style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <input type="checkbox" id="cm-analytics" checked aria-label="Enable analytics cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
         <div style="flex:1">
           <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span><span class="cookie-lang-es">Analíticas</span></strong>
           <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalised site experience for you.</span><span class="cookie-lang-es">Estas cookies recopilan información que nos ayuda a entender cómo se utilizan nuestros sitios web. También pueden usarse para medir la efectividad de nuestras campañas o para ofrecer una experiencia personalizada.</span></p>
@@ -365,7 +365,7 @@
     </div>
     <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
       <div style="display:flex;align-items:flex-start;gap:10px">
-        <input type="checkbox" id="cm-ads" checked style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <input type="checkbox" id="cm-ads" checked aria-label="Enable advertising cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
         <div style="flex:1">
           <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Advertising</span><span class="cookie-lang-es">Publicidad</span></strong>
           <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are used to make advertising messages more relevant to you. They prevent the same ad from continuously reappearing, ensure that ads are properly displayed for advertisers, and in some cases select advertisements that are based on your interests.</span><span class="cookie-lang-es">Estas cookies se utilizan para hacer que los mensajes publicitarios sean más relevantes. Evitan que el mismo anuncio aparezca repetidamente, aseguran que los anuncios se muestren correctamente y, en algunos casos, seleccionan anuncios basados en tus intereses.</span></p>
@@ -374,7 +374,7 @@
     </div>
     <div style="padding:14px 0">
       <div style="display:flex;align-items:flex-start;gap:10px">
-        <input type="checkbox" id="cm-affiliate" checked style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <input type="checkbox" id="cm-affiliate" checked aria-label="Enable affiliate tracking cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
         <div style="flex:1">
           <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span><span class="cookie-lang-es">Seguimiento de Afiliados</span></strong>
           <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span><span class="cookie-lang-es">Estas cookies rastrean referencias a tiendas asociadas para que podamos ganar comisiones en compras.</span></p>
