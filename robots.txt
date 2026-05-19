@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /node_modules/
+Disallow: /logs/
+Disallow: /cache/
+Disallow: /scripts/
+Disallow: /app/
 Disallow: /video/
 Disallow: /audio/
 Sitemap: https://topmusiciangear.com/sitemap.xml

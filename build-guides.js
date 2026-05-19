@@ -25,7 +25,7 @@ function criticalCss() {
     '.logo span{color:var(--accent)}',
     'nav{display:flex;gap:4px;flex:1}',
     '.lang-switcher{display:flex;gap:3px;flex-shrink:0;margin-left:8px}',
-    '.header-social-link{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;color:var(--text-muted);font-size:15px;text-decoration:none}',
+    '.header-social-link{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;color:var(--text-muted);font-size:15px;text-decoration:none}',
 '.lang-btn{display:flex;align-items:center;justify-content:center;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
 '.lang-btn:hover{border-color:var(--accent)}',
 '.lang-btn.active{background:rgba(255,255,255,0.1);border-color:var(--white);color:var(--white)}',
@@ -37,8 +37,8 @@ function criticalCss() {
 '.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:calc(100vh - 64px);box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
 '.hero-inner{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:0 auto;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:calc(100vh - 64px)}',
     '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase}',
-    '.hero h1{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
-    '.hero h1 span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
+    '.hero h2{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
+    '.hero h2 span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
     '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
     '.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}',
     '.btn-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;padding:14px 32px;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none}',
@@ -326,6 +326,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
+  <link rel="alternate" hreflang="x-default" href="${canonical}">
   <link rel="alternate" hreflang="en" href="${alternateEn}">
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
@@ -406,7 +407,7 @@ ${ogMeta}
     <section class="hero">
       <div class="hero-inner">
         <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> ${isEs ? 'Confiado por músicos de todo el mundo' : 'Trusted by musicians worldwide'}</div>
-        <h1>${isEs ? 'Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>' : 'From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span>'}</h1>
+        <h2>${isEs ? 'Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>' : 'From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span>'}</h2>
         <p>${isEs ? 'Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.' : 'Trusted by a musician with over 20 years of experience on the world\'s biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.'}</p>
         <div class="hero-actions">
           <a href="/#guides" class="btn-primary">${isEs ? 'Ver Equipo →' : 'Browse Gear →'}</a>
