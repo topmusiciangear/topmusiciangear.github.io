@@ -362,8 +362,13 @@ function renderGuideDetail(id) {
   });
   if (!skipDetailScroll) {
     setTimeout(() => {
-      const el = document.getElementById("guideGrid");
-      if (el) el.scrollIntoView({ block: "start" });
+      const el = document.getElementById("guideBackBtn1") || document.getElementById("guideGrid");
+      if (el) {
+        if (!_headerH) _headerH = (document.querySelector('header').offsetHeight || 64) + 8;
+        const rect = el.getBoundingClientRect();
+        const top = rect.top + window.pageYOffset - _headerH;
+        window.scrollTo({ top: Math.max(0, top) });
+      }
     }, 100);
   }
   var lang = currentLang;
@@ -471,8 +476,9 @@ var _headerH = 0;
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  if (!_headerH) _headerH = (document.querySelector('header').offsetHeight || 64) + 24;
-  var rect = el.getBoundingClientRect();
+  var target = el.querySelector('.section-header, .section-title') || el;
+  if (!_headerH) _headerH = (document.querySelector('header').offsetHeight || 64) + 8;
+  var rect = target.getBoundingClientRect();
   var top = rect.top + window.pageYOffset - _headerH;
   window.scrollTo({ top: Math.max(0, top) });
 }
