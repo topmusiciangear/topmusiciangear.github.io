@@ -363,13 +363,8 @@ function renderGuideDetail(id) {
   if (!skipDetailScroll) {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        var el = document.getElementById("guideBackBtn1") || document.getElementById("guideGrid");
-        if (el) {
-          var rect = el.getBoundingClientRect();
-          var headerH = document.querySelector('header').offsetHeight || 64;
-          var top = rect.top + window.pageYOffset - headerH;
-          window.scrollTo({ top: Math.max(0, top) });
-        }
+        var el = document.getElementById("guideGrid");
+        if (el) el.scrollIntoView({ block: "start" });
       });
     });
   }
@@ -478,10 +473,7 @@ function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
   var heading = el.querySelector('.section-title') || el;
-  var rect = heading.getBoundingClientRect();
-  var headerH = document.querySelector('header').offsetHeight || 64;
-  var top = rect.top + window.pageYOffset - headerH;
-  window.scrollTo({ top: Math.max(0, top) });
+  heading.scrollIntoView({ block: "start", behavior: "auto" });
 }
 
 function handleNavClick(target) {
