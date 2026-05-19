@@ -57,7 +57,7 @@ function criticalCss() {
     '.stat-number{font-size:clamp(28px,4vw,38px);font-weight:900;background:linear-gradient(135deg,var(--accent),#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1}',
     '.stat-label{font-size:14px;color:var(--text-secondary);font-weight:500;margin-top:4px}',
     '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:flex}.stats-bar{padding:20px 16px}.stats-inner{grid-template-columns:repeat(3,1fr);gap:8px}.stat-number{font-size:24px}.stat-label{font-size:11px}}',
-    '#cookie-banner.cookie-visible{transform:translateY(0)}',
+    '.audio-eq{display:flex;align-items:flex-end;gap:2px;height:20px;opacity:0.3;transition:opacity 0.3s}.playing .audio-eq{opacity:1}.audio-eq i{display:block;width:3px;height:100%;background:var(--accent);border-radius:2px;transform-origin:bottom;animation:eq .8s ease-in-out infinite}.audio-eq i:nth-child(1){transform:scaleY(0.6);animation-delay:0s}.audio-eq i:nth-child(2){transform:scaleY(1);animation-delay:.2s}.audio-eq i:nth-child(3){transform:scaleY(0.4);animation-delay:.4s}.audio-eq i:nth-child(4){transform:scaleY(0.8);animation-delay:.6s}@keyframes eq{0%,100%{transform:scaleY(0.4)}50%{transform:scaleY(1)}}.playing .audio-mini-player{box-shadow:0 0 12px rgba(59,130,246,0.3);transition:box-shadow 0.3s}.audio-mini-player{transition:box-shadow 0.3s}html[lang="en"] .cookie-lang-es{display:none}html[lang="es"] .cookie-lang-en{display:none}#cookie-banner.cookie-visible{transform:translateY(0)}',
   ].join('');
 }
 
@@ -362,7 +362,15 @@ ${ogMeta}
           <a href="/#about" class="nav-link">${isEs ? 'Sobre Mí' : 'About Me'}</a>
         </nav>
       </div>
+      <div class="audio-mini" id="audioMini">
+        <div class="audio-mini-inner">
+          <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+          <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+          <span class="audio-mini-label">${isEs ? 'Tres Cubano, Bajo y Guitarra - tocados y grabados con mi equipo personal' : 'Cuban Tres, Bass & Guitar - played and recorded with my personal gear'}</span>
+        </div>
+      </div>
       <div class="header-right">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
         <div class="header-social">
           <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
           <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
@@ -370,6 +378,8 @@ ${ogMeta}
           <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener" class="header-social-link" title="Facebook">${icon('facebook-f', 'fa-brands')}</a>
           <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
           <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
+        </div>
+        <button onclick="if(window.innerWidth<=768)document.getElementById('mobileSocial').scrollIntoView({behavior:'smooth'})" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;cursor:pointer;background:none;border:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</button>
         </div>
         <div class="lang-switcher">
           <a href="${isEs ? `/guides/${guide.id}.html` : '#'}" class="lang-btn ${isEs ? '' : 'active'}">EN</a>
@@ -418,6 +428,15 @@ ${ogMeta}
         </div>
       </div>
     </div>
+
+    <div class="audio-mini-mobile" id="audioMiniMobile">
+      <div class="audio-mini-inner">
+        <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+        <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+        <span class="audio-mini-label">${isEs ? 'Tres Cubano, Bajo y Guitarra - tocados y grabados con mi equipo personal' : 'Cuban Tres, Bass & Guitar - played and recorded with my personal gear'}</span>
+      </div>
+    </div>
+
     <div class="guide-detail">
       <div class="lang-toggle">
         <a href="${isEs ? `/guides/${guide.id}.html` : `/guides/${guide.id}_es.html`}">${isEs ? 'English' : 'Español'}</a>
@@ -519,6 +538,20 @@ ${ogMeta}
       </div>
     </section>
 
+    <div class="stores-video">
+      <div class="about-video-circle" id="aboutVideoContainer">
+        <div class="video-intro-overlay" id="videoIntroOverlay">
+          <div class="video-intro-logo">
+            <img src="/img/favicon.svg" alt="TG" class="video-intro-icon">
+            <span class="video-intro-brand"><span class="txt-blue">Top</span>MusicianGear</span>
+          </div>
+        </div>
+        <video id="aboutVideo" controls preload="none" playsinline controlslist="nodownload nofullscreen">
+          <source src="/video/about-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
     <div class="stores-section">
       <div class="stores-card">
         <h2><svg data-fa="store" class="icon fa-solid fa-store" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0H109.6C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9l-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3V384v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V384 252.6c-4 1-8 1.8-12.3 2.3z"/></svg> ${isEs ? 'Compra con Confianza' : 'Shop With Confidence'}</h2>
@@ -587,6 +620,64 @@ ${ogMeta}
       <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
     </div>
   </footer>
+
+  <!-- Cookie Consent Banner -->
+<div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(100%);transition:transform .3s ease">
+  <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalise content, and analyse website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website&#39;s cookie use as described in our <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span><span class="cookie-lang-es">Usamos cookies esenciales para que nuestro sitio funcione. Con tu consentimiento, tambi&eacute;n podemos usar cookies no esenciales para mejorar la experiencia, personalizar contenido y analizar el tr&aacute;fico. Por estas razones, podemos compartir tus datos de uso con nuestros socios de an&aacute;lisis. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies como se describe en nuestra <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Pol&iacute;tica de Cookies</a>. Puedes cambiar tu configuraci&oacute;n en cualquier momento haciendo clic en <strong>Preferencias</strong>.</span></p>
+  <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap">
+    <button onclick="cookiePrefs()" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span><span class="cookie-lang-es">Preferencias</span></button>
+    <button onclick="cookieAccept()" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#2563eb;color:#fff"><span class="cookie-lang-en">Accept</span><span class="cookie-lang-es">Aceptar</span></button>
+  </div>
+</div>
+
+<!-- Cookie Preferences Modal -->
+<div id="cookie-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.85);align-items:center;justify-content:center;font-family:'Inter',sans-serif;transform:none!important">
+  <div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0;position:relative">
+    <button onclick="document.getElementById('cookie-modal').style.display='none'" style="position:absolute;top:16px;right:16px;background:none;border:none;color:#aaa;font-size:20px;cursor:pointer;line-height:1;padding:4px 8px">&times;</button>
+    <h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px"><span class="cookie-lang-en">Cookie Preferences</span><span class="cookie-lang-es">Preferencias de Cookies</span></h3>
+    <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6"><span class="cookie-lang-en">We use different types of cookies to optimise your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="/cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</span><span class="cookie-lang-es">Usamos diferentes tipos de cookies para optimizar tu experiencia. Haz clic en las categor&iacute;as para conocer sus prop&oacute;sitos. Puedes elegir qu&eacute; tipos de cookies permitir y cambiar tus preferencias en cualquier momento. Recuerda que deshabilitar cookies puede afectar tu experiencia. Puedes obtener m&aacute;s informaci&oacute;n visitando nuestra <a href="/cookie-policy.html" style="color:#60a5fa">Pol&iacute;tica de Cookies</a>.</span></p>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" checked disabled style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Essential</span><span class="cookie-lang-es">Esenciales</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are necessary for the core functionality of our website and some of its features, such as access to secure areas.</span><span class="cookie-lang-es">Estas cookies son necesarias para la funcionalidad principal de nuestro sitio web y algunas de sus caracter&iacute;sticas, como el acceso a &aacute;reas seguras.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-analytics" checked aria-label="Enable analytics cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span><span class="cookie-lang-es">Anal&iacute;ticas</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalised site experience for you.</span><span class="cookie-lang-es">Estas cookies recopilan informaci&oacute;n que nos ayuda a entender c&oacute;mo se utilizan nuestros sitios web. Tambi&eacute;n pueden usarse para medir la efectividad de nuestras campa&ntilde;as o para ofrecer una experiencia personalizada.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-ads" checked aria-label="Enable advertising cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Advertising</span><span class="cookie-lang-es">Publicidad</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are used to make advertising messages more relevant to you. They prevent the same ad from continuously reappearing, ensure that ads are properly displayed for advertisers, and in some cases select advertisements that are based on your interests.</span><span class="cookie-lang-es">Estas cookies se utilizan para hacer que los mensajes publicitarios sean m&aacute;s relevantes. Evitan que el mismo anuncio aparezca repetidamente, aseguran que los anuncios se muestren correctamente y, en algunos casos, seleccionan anuncios basados en tus intereses.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="padding:14px 0">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-affiliate" checked aria-label="Enable affiliate tracking cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span><span class="cookie-lang-es">Seguimiento de Afiliados</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span><span class="cookie-lang-es">Estas cookies rastrean referencias a tiendas asociadas para que podamos ganar comisiones en compras.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:space-between;flex-wrap:wrap">
+      <button onclick="cookieDecline()" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap"><span class="cookie-lang-en">Decline All</span><span class="cookie-lang-es">Rechazar Todas</span></button>
+      <button onclick="cookieAccept()" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap"><span class="cookie-lang-en">Allow All</span><span class="cookie-lang-es">Permitir Todas</span></button>
+    </div>
+  </div>
+</div>
 
   <script defer src="/js/translations.js?v=4"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;if(!c){b.style.display='flex'}else{b.style.display='none'}function loadAnalytics(){if(!document.getElementById('ga-script')){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L';s.id='ga-script';s.async=true;document.head.appendChild(s);s.onload=function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})}}}function loadAds(){if(!document.getElementById('adsense-script')){var s=document.createElement('script');s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543';s.id='adsense-script';s.async=true;s.crossOrigin='anonymous';document.head.appendChild(s)}}
