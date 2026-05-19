@@ -327,7 +327,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
-  <link rel="alternate" hreflang="x-default" href="${canonical}">
+  <link rel="alternate" hreflang="x-default" href="${alternateEn}">
   <link rel="alternate" hreflang="en" href="${alternateEn}">
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
