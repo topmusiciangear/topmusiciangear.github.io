@@ -1512,7 +1512,7 @@ footer ul li a:hover { color: var(--accent); }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: none; }
-  .hero { padding: 0 20px 40px; min-height: 50vh; }
+  .hero { padding: 12px 20px 40px; min-height: 50vh; }
   .hero h1 { font-size: 28px; margin-bottom: 2px; }
   .hero p { margin-bottom: 12px; }
   .hero-badge { margin-bottom: 4px; }
