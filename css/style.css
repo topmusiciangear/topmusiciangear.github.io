@@ -1507,7 +1507,7 @@ footer ul li a:hover { color: var(--accent); }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
   .audio-mini { display: none; }
-  .hamburger { display: flex; }
+  .hamburger { display: none; }
   .hero { padding: 20px 20px 56px; min-height: 60vh; }
   .hero h1 { font-size: 30px; margin-bottom: 4px; }
   .hero p { margin-bottom: 16px; }
