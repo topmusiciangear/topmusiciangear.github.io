@@ -550,13 +550,13 @@ function injectGuideJsonLd(guide) {
   document.querySelectorAll('script[data-guide-jsonld]').forEach(el => el.remove());
   var canon = document.querySelector('link[rel="canonical"]');
   if (canon) {
-    canon.href = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
+    canon.href = 'https://topmusiciangear.com/?g=' + guide.id;
   }
   var hreflangs = document.querySelectorAll('link[rel="alternate"][hreflang]');
   if (hreflangs.length) {
     hreflangs.forEach(function(el) {
-      if (el.getAttribute('hreflang') === 'en') el.href = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
-      if (el.getAttribute('hreflang') === 'es') el.href = 'https://topmusiciangear.com/guides/' + guide.id + '_es.html';
+      if (el.getAttribute('hreflang') === 'en') el.href = 'https://topmusiciangear.com/?g=' + guide.id;
+      if (el.getAttribute('hreflang') === 'es') el.href = 'https://topmusiciangear.com/?g=' + guide.id + '_es';
     });
   }
   const lang = currentLang;
