@@ -277,6 +277,6 @@ const translations = {
 };
 
 const languageNames = {
-  en: '<svg class="lang-flag" viewBox="0 0 640 480" width="16" height="12" style="vertical-align:middle"><rect width="640" height="480" fill="#fff"/><rect width="80" height="480" x="280" fill="#ce1124"/><rect width="640" height="80" y="200" fill="#ce1124"/></svg>',
-  es: '<svg class="lang-flag" viewBox="0 0 640 480" width="16" height="12" style="vertical-align:middle"><path fill="#c60b1e" d="M0 0h640v480H0"/><path fill="#ffc400" d="M0 90h640v300H0"/><path fill="#c60b1e" d="M0 0h640v60H0m0 420h640v60H0"/></svg>'
+  en: '<img class="lang-flag" src="img/flag-en.svg" alt="EN" width="16" height="12" style="vertical-align:middle">',
+  es: '<img class="lang-flag" src="img/flag-es.svg" alt="ES" width="16" height="12" style="vertical-align:middle">'
 };
