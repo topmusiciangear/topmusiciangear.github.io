@@ -277,6 +277,6 @@ const translations = {
 };
 
 const languageNames = {
-  en: '<svg class="lang-flag" viewBox="0 0 640 480" width="16" height="12" style="vertical-align:middle"><path fill="#bd3d44" d="M0 0h640v480H0"/><path stroke="#fff" stroke-width="37" d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 424.6h640"/><path fill="#192f5d" d="M0 0h364.8v258.5H0"/><path fill="#fff" d="M0 0h296.4v258.5H0"/><path fill="#192f5d" d="M0 0h222.3v258.5H0"/><path fill="#fff" d="M0 0h148.2v258.5H0"/><path fill="#192f5d" d="M0 0h74.1v258.5H0"/><path fill="#fff" d="M0 129h640M0 351h640"/></svg>',
+  en: '<svg class="lang-flag" viewBox="0 0 640 480" width="16" height="12" style="vertical-align:middle"><rect width="640" height="480" fill="#fff"/><rect width="80" height="480" x="280" fill="#ce1124"/><rect width="640" height="80" y="200" fill="#ce1124"/></svg>',
   es: '<svg class="lang-flag" viewBox="0 0 640 480" width="16" height="12" style="vertical-align:middle"><path fill="#c60b1e" d="M0 0h640v480H0"/><path fill="#ffc400" d="M0 90h640v300H0"/><path fill="#c60b1e" d="M0 0h640v60H0m0 420h640v60H0"/></svg>'
 };
