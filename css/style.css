@@ -1469,12 +1469,6 @@ footer ul li a:hover { color: var(--accent); }
 .guide-related-list { display: flex; flex-wrap: wrap; gap: 8px; }
 .guide-related-link { display: inline-block; padding: 8px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--accent); font-size: 0.9rem; text-decoration: none; transition: var(--transition); }
 .guide-related-link:hover { background: var(--bg-card-hover); border-color: var(--accent); transform: translateY(-1px); }
-
-#guideGrid {
-}
-
-
-
 /* Responsive */
 @media (max-width: 768px) {
   .product-search-wrap { max-width: 180px !important; }
@@ -1539,7 +1533,7 @@ footer ul li a:hover { color: var(--accent); }
   .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; }
   footer h3 { font-size: 11px; margin-bottom: 10px; }
   footer ul li { margin-bottom: 4px; }
-  footer ul li a { font-size: 10px; }
+  footer ul li a { font-size: 12px; }
   .sort-bar .result-count { margin-left: 0; width: 100%; }
 }
 
@@ -1707,8 +1701,6 @@ footer ul li a:hover { color: var(--accent); }
   transition: box-shadow 0.3s;
 }
 
-@media (max-width: 768px) {
-}
 
 html[lang="en"] .lang-show-es { display: none; }
 html[lang="es"] .lang-show-en { display: none; }
