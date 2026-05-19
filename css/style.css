@@ -448,6 +448,7 @@ nav {
   margin-bottom: 32px;
   flex-wrap: wrap;
   gap: 16px;
+  scroll-margin-top: 80px;
 }
 
 .section-title {
