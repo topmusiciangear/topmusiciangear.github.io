@@ -36,6 +36,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
   background: #0d0d0d;
   margin: 0 !important;
   padding: 0 !important;
@@ -448,7 +449,6 @@ nav {
   margin-bottom: 32px;
   flex-wrap: wrap;
   gap: 16px;
-  scroll-margin-top: 80px;
 }
 
 .section-title {
@@ -456,7 +456,6 @@ nav {
   font-weight: 800;
   letter-spacing: -.5px;
   color: var(--white);
-  scroll-margin-top: 80px;
 }
 
 .cat-grid {
@@ -611,7 +610,6 @@ nav {
 /* My Setup Section */
 .my-setup {
   padding: 64px 32px;
-  scroll-margin-top: 80px;
 }
 
 .setup-grid {
@@ -658,7 +656,6 @@ nav {
   padding: 80px 32px;
   position: relative;
   overflow: hidden;
-  scroll-margin-top: 80px;
 }
 
 .about-section::before {
@@ -1056,7 +1053,6 @@ footer ul li a:hover { color: var(--accent); }
 /* ===== GUIDES SECTION ===== */
 .guides-section {
   padding: 64px 32px;
-  scroll-margin-top: 80px;
 }
 
 .guides-inner {
@@ -1219,7 +1215,6 @@ footer ul li a:hover { color: var(--accent); }
   font-weight: 500;
   transition: opacity 0.2s;
   white-space: nowrap;
-  scroll-margin-top: 72px;
 }
 
 .guide-back-btn:hover {
@@ -1476,7 +1471,6 @@ footer ul li a:hover { color: var(--accent); }
 .guide-related-link:hover { background: var(--bg-card-hover); border-color: var(--accent); transform: translateY(-1px); }
 
 #guideGrid {
-  scroll-margin-top: 80px;
 }
 
 
