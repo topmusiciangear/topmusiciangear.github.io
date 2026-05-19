@@ -2,7 +2,6 @@ let currentLang = localStorage.getItem("lang") || "en";
 let currentCategory = "all";
 let searchQuery = "";
 let currentGuideId = null;
-let initialLoad = true;
 let skipDetailScroll = false;
 let disclosureBound = false;
 
@@ -797,10 +796,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, true);
 
-  document.addEventListener('pause', e => {
-    // bg video was replaced with static image
-  }, true);
-
   document.addEventListener('keydown', e => {
     if (e.code === 'Space' && document.activeElement === document.body) {
       const video = document.getElementById('aboutVideo');
@@ -810,6 +805,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-
-  initialLoad = false;
 });

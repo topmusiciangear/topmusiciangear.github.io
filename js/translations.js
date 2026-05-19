@@ -214,6 +214,7 @@ const translations = {
     footerTerms: "Términos de Servicio",
     footerCookies: "Política de Cookies",
     footerAffiliate: "Divulgación de Afiliados",
+    footerContact: "Contacto:",
     disclosureTitle: "Divulgación de Afiliados",
     disclosureGotIt: "Entendido",
     disclosureText: "TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Como afiliados de Thomann, Musik Produktiv, Gear4Music, Plugin Boutique, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store, ganamos con compras que califican realizadas a través de nuestros enlaces. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.",

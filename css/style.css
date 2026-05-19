@@ -115,12 +115,6 @@ header {
   flex-shrink: 0;
 }
 
-.header-social {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
 .logo {
   font-size: 20px;
   font-weight: 900;
@@ -1777,11 +1771,6 @@ html[lang="es"] .lang-show-en { display: none; }
   pointer-events: none;
   transition: opacity 0.8s ease;
   border-radius: var(--radius);
-}
-
-.video-intro-overlay.hidden {
-  opacity: 0;
-  pointer-events: none;
 }
 
 .video-intro-overlay.outro {
