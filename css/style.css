@@ -1851,3 +1851,6 @@ html.lang-es .cookie-lang-en { display: none !important; }
 main:has(> .static-guide) {
   padding-top: 80px;
 }
+
+/* Hide any store chip linking to fender.com */
+a.chip-store[href*="fender.com"] { display: none !important; }
