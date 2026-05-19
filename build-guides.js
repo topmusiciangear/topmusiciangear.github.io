@@ -184,15 +184,9 @@ function buildGuidePage(guide, lang, idx) {
   const sectionsHtml = guide.sections.map(s => {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
     const c = esText(isEs && s.content_es, s.content);
-    const secProductIds = s.products || [];
-    const secCards = secProductIds.map(pid => {
-      const p = products.find(pr => pr.id === pid);
-      return p ? productCard(p, lang) : '';
-    }).join('');
     return `<div class="guide-section">
       <h2 class="guide-section-heading">${h}</h2>
       <div class="guide-section-content">${c}</div>
-      ${secCards ? `<div class="guide-products-inline">${secCards}</div>` : ''}
     </div>`;
   }).join('');
 
