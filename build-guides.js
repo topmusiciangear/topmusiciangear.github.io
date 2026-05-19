@@ -45,7 +45,7 @@ function criticalCss() {
     '.hamburger span{width:22px;height:2px;background:var(--text-secondary);border-radius:2px}',
     '.mobile-nav{display:flex;flex-direction:column;gap:4px;position:fixed;top:0;right:16px;padding-top:16px;z-index:101;opacity:0;pointer-events:none}',
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
-    '.guide-detail{max-width:900px;margin:0 auto;padding:100px 24px 60px}',
+    '.guide-detail{padding:64px 32px 60px}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
     '.guide-detail .lang-toggle{text-align:right;margin-bottom:16px}',
