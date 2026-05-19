@@ -332,8 +332,8 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
   <style>${criticalCss()}</style>
-  <link rel="preload" as="style" href="/css/style.css?v=29" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/style.css?v=29"></noscript>
+  <link rel="preload" as="style" href="/css/style.css?v=30" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.css?v=30"></noscript>
   <link rel="preload" as="image" href="/img/me-600.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
