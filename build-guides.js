@@ -34,12 +34,12 @@ function criticalCss() {
     '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
     'body>*:not(header):not(.bg-hero):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
     '.bg-hero{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;background-image:url("../img/me-600.webp");background-size:cover;background-position:center;opacity:.12}',
-'.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:80vh;box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
-'.hero-inner{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:0 auto;position:relative;z-index:1;text-align:center;display:flex;flex-direction:column;justify-content:center;min-height:80vh}',
-    '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase;align-self:flex-end}',
-    '.hero h1{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}',
+'.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:calc(100vh - 64px);box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
+'.hero-inner{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:0 auto;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:calc(100vh - 64px)}',
+    '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase}',
+    '.hero h1{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
     '.hero h1 span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
-    '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}',
+    '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
     '.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}',
     '.btn-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;padding:14px 32px;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none}',
     '.btn-secondary{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.06);color:var(--white);padding:14px 32px;border-radius:50px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid rgba(255,255,255,.1)}',
@@ -330,8 +330,8 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
   <style>${criticalCss()}</style>
-  <link rel="preload" as="style" href="/css/style.css?v=20" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/style.css?v=20"></noscript>
+  <link rel="preload" as="style" href="/css/style.css?v=27" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.css?v=27"></noscript>
   <link rel="preload" as="image" href="/img/me-600.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
@@ -617,11 +617,21 @@ ${ogMeta}
       </div>
     </div>
     <div class="footer-bottom">
-      <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="/affiliate-disclosure.html" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
+      <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
       <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
       <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
     </div>
   </footer>
+
+  <!-- Affiliate Disclosure Modal -->
+  <div id="affiliate-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)">
+    <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:32px;max-width:600px;width:100%;max-height:80vh;overflow-y:auto;position:relative;color:var(--text)">
+      <button onclick="hideAffiliateDisclosure()" style="position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text);font-size:24px;cursor:pointer;line-height:1;padding:4px 8px;opacity:.5">&times;</button>
+      <h3 style="font-size:20px;font-weight:700;margin:0 0 16px;padding-right:30px">${isEs ? 'Divulgación de Afiliados' : 'Affiliate Disclosure'}</h3>
+      <p style="font-size:14px;line-height:1.7;color:var(--text-secondary)">${isEs ? 'TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Como afiliados de Thomann, Musik Produktiv, Gear4Music, Plugin Boutique, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store, ganamos con compras que califican realizadas a través de nuestros enlaces. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.' : 'TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. As a Thomann, Musik Produktiv, Gear4Music, Plugin Boutique, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store affiliate, we earn from qualifying purchases made through our links. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.'}</p>
+      <button onclick="hideAffiliateDisclosure()" style="margin-top:20px;padding:10px 28px;border:none;border-radius:8px;cursor:pointer;font-weight:600;font-size:14px;background:var(--accent);color:#fff">${isEs ? 'Entendido' : 'Got it'}</button>
+    </div>
+  </div>
 
   <!-- Cookie Consent Banner -->
 <div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(100%);transition:transform .3s ease">
@@ -689,6 +699,8 @@ window.cookieAccept=function(){try{var p={essential:true,analytics:true,ads:true
 window.cookieDecline=function(){try{var p={essential:true,analytics:false,ads:false,affiliate:false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}if(b)b.style.display='none';if(m)m.style.display='none'}
 window.cookiePrefs=function(){if(m)m.style.display='flex';try{var s=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,ads:true,affiliate:true};var ca=document.getElementById('cm-analytics');if(ca)ca.checked=s.analytics;var ca2=document.getElementById('cm-ads');if(ca2)ca2.checked=s.ads;var ca3=document.getElementById('cm-affiliate');if(ca3)ca3.checked=s.affiliate}catch(e){}}
 window.cookieSave=function(){try{var p={essential:true,analytics:document.getElementById('cm-analytics')?.checked??false,ads:document.getElementById('cm-ads')?.checked??false,affiliate:document.getElementById('cm-affiliate')?.checked??false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}if(b)b.style.display='none';if(m)m.style.display='none';applyPrefs(p)}})();
+window.showAffiliateDisclosure=function(){var d=document.getElementById('affiliate-modal');if(d)d.style.display='flex'};
+window.hideAffiliateDisclosure=function(){var d=document.getElementById('affiliate-modal');if(d)d.style.display='none'};
 </script>
 </body>
 </html>`;
