@@ -26,8 +26,9 @@ function criticalCss() {
     'nav{display:flex;gap:4px;flex:1}',
     '.lang-switcher{display:flex;gap:3px;flex-shrink:0;margin-left:8px}',
     '.header-social-link{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;color:var(--text-muted);font-size:15px;text-decoration:none}',
-    '.lang-btn{padding:5px 9px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:11px;font-weight:700;font-family:inherit;cursor:pointer;letter-spacing:.3px;text-transform:uppercase}',
-    '.lang-btn.active{background:rgba(255,255,255,.1);border-color:var(--white);color:var(--white)}',
+'.lang-btn{padding:8px 12px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;letter-spacing:.3px;text-transform:uppercase;transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
+'.lang-btn:hover{border-color:var(--accent);color:var(--text)}',
+'.lang-btn.active{background:rgba(255,255,255,0.1);border-color:var(--white);color:var(--white)}',
     '.nav-link{padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
     '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
     'body>*:not(header):not(.bg-hero):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
@@ -382,8 +383,8 @@ ${ogMeta}
         <button onclick="if(window.innerWidth<=768)document.getElementById('mobileSocial').scrollIntoView({behavior:'smooth'})" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;cursor:pointer;background:none;border:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</button>
         </div>
         <div class="lang-switcher">
-          <a href="${isEs ? `/guides/${guide.id}.html` : '#'}" class="lang-btn ${isEs ? '' : 'active'}">EN</a>
-          <a href="${isEs ? '#' : `/guides/${guide.id}_es.html`}" class="lang-btn ${isEs ? 'active' : ''}">ES</a>
+          <button class="lang-btn ${isEs ? '' : 'active'}" onclick="location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'">EN</button>
+          <button class="lang-btn ${isEs ? 'active' : ''}" onclick="location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'">ES</button>
         </div>
         <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
           <span></span><span></span><span></span>
