@@ -51,7 +51,12 @@ function criticalCss() {
     '.guide-detail .lang-toggle{text-align:right;margin-bottom:16px}',
     '.guide-detail .lang-toggle a{color:var(--accent);text-decoration:none;font-weight:500}',
     '.guide-detail .lang-toggle a:hover{text-decoration:underline}',
-    '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:flex}}',
+    '.stats-bar{background:rgba(10,10,10,0.5);border-bottom:1px solid rgba(255,255,255,0.05);padding:28px 32px}',
+    '.stats-inner{max-width:none;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}',
+    '.stat-item{text-align:center;padding:8px}',
+    '.stat-number{font-size:clamp(28px,4vw,38px);font-weight:900;background:linear-gradient(135deg,var(--accent),#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1}',
+    '.stat-label{font-size:14px;color:var(--text-secondary);font-weight:500;margin-top:4px}',
+    '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:flex}.stats-bar{padding:20px 16px}.stats-inner{grid-template-columns:repeat(3,1fr);gap:8px}.stat-number{font-size:24px}.stat-label{font-size:11px}}',
     '#cookie-banner.cookie-visible{transform:translateY(0)}',
   ].join('');
 }
@@ -386,6 +391,33 @@ ${ogMeta}
   </div>
 
   <main id="mainContent">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> ${isEs ? 'Confiado por músicos de todo el mundo' : 'Trusted by musicians worldwide'}</div>
+        <h1>${isEs ? 'Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>' : 'From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span>'}</h1>
+        <p>${isEs ? 'Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.' : 'Trusted by a musician with over 20 years of experience on the world\'s biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.'}</p>
+        <div class="hero-actions">
+          <a href="/#guides" class="btn-primary">${isEs ? 'Ver Equipo →' : 'Browse Gear →'}</a>
+          <a href="/#about" class="btn-secondary">${isEs ? 'Mi Historia' : 'My Story'}</a>
+        </div>
+      </div>
+    </section>
+    <div class="stats-bar">
+      <div class="stats-inner">
+        <div class="stat-item">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">${isEs ? 'Productos Probados' : 'Products Tested'}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">10</div>
+          <div class="stat-label">${isEs ? 'Tiendas Confiables' : 'Trusted Stores'}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">${isEs ? 'Años de Experiencia' : 'Years Experience'}</div>
+        </div>
+      </div>
+    </div>
     <div class="guide-detail">
       <div class="lang-toggle">
         <a href="${isEs ? `/guides/${guide.id}.html` : `/guides/${guide.id}_es.html`}">${isEs ? 'English' : 'Español'}</a>
