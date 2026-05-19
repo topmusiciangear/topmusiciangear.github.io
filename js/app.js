@@ -32,13 +32,21 @@ function setLang(lang) {
       var metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
         var descText = lang === 'es' && guide.intro_es ? guide.intro_es : guide.intro;
-        metaDesc.content = descText.substring(0, 200);
+        metaDesc.content = descText.substring(0, 155);
       }
     }
     skipDetailScroll = true;
     renderGuideDetail(currentGuideId);
   } else {
     renderGuideGrid();
+    var hl = document.querySelectorAll('link[rel="alternate"][hreflang]');
+    hl.forEach(function(el) {
+      if (el.getAttribute('hreflang') === 'en') el.href = 'https://topmusiciangear.com';
+      if (el.getAttribute('hreflang') === 'es') el.href = 'https://topmusiciangear.com';
+      if (el.getAttribute('hreflang') === 'x-default') el.href = 'https://topmusiciangear.com';
+    });
+    var canon = document.querySelector('link[rel="canonical"]');
+    if (canon) canon.href = 'https://topmusiciangear.com';
   }
   renderAbout();
   updateAudioLabel();
@@ -373,12 +381,12 @@ function renderGuideDetail(id) {
   var metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     var descText = lang === 'es' && guide.intro_es ? guide.intro_es : guide.intro;
-    metaDesc.content = descText.substring(0, 200);
+    metaDesc.content = descText.substring(0, 155);
   }
   var ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) ogTitle.content = (lang === 'es' && guide.title_es ? guide.title_es : guide.title);
   var ogDesc = document.querySelector('meta[property="og:description"]');
-  if (ogDesc) ogDesc.content = descText.substring(0, 200);
+  if (ogDesc) ogDesc.content = descText.substring(0, 155);
   var ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.content = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
   var ogImage = document.querySelector('meta[property="og:image"]');
@@ -549,13 +557,13 @@ function injectGuideJsonLd(guide) {
   document.querySelectorAll('script[data-guide-jsonld]').forEach(el => el.remove());
   var canon = document.querySelector('link[rel="canonical"]');
   if (canon) {
-    canon.href = 'https://topmusiciangear.com/?g=' + guide.id;
+    canon.href = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
   }
   var hreflangs = document.querySelectorAll('link[rel="alternate"][hreflang]');
   if (hreflangs.length) {
     hreflangs.forEach(function(el) {
-      if (el.getAttribute('hreflang') === 'en') el.href = 'https://topmusiciangear.com/?g=' + guide.id;
-      if (el.getAttribute('hreflang') === 'es') el.href = 'https://topmusiciangear.com/?g=' + guide.id + '_es';
+      if (el.getAttribute('hreflang') === 'en') el.href = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
+      if (el.getAttribute('hreflang') === 'es') el.href = 'https://topmusiciangear.com/guides/' + guide.id + '_es.html';
     });
   }
   const lang = currentLang;
@@ -568,7 +576,7 @@ function injectGuideJsonLd(guide) {
   const article = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
-    "description": intro.substring(0, 200),
+    "description": intro.substring(0, 155),
     "author": { "@type": "Person", "name": "Daniel" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": image,
@@ -588,7 +596,7 @@ function injectGuideJsonLd(guide) {
           "name": lang === 'es' && p.title_es ? p.title_es : p.title,
           "brand": { "@type": "Brand", "name": p.brand || "" },
           "mpn": p.mpn || "",
-          "description": (lang === 'es' && p.desc_es ? p.desc_es : p.desc).substring(0, 200),
+          "description": (lang === 'es' && p.desc_es ? p.desc_es : p.desc).substring(0, 155),
           "offers": {
             "@type": "Offer",
             "price": p.price,

@@ -4,7 +4,7 @@ const { icon } = require('./js/icons.js');
 
 function criticalCss() {
   return [
-    '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:optional;font-weight:400 900;font-style:normal}',
+    '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:swap;font-weight:400 900;font-style:normal}',
     '*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}',
     ':root{--accent:#3b82f6;--accent-dark:#2563eb;--accent-light:#dbeafe;--accent-glow:rgba(59,130,246,0.2);--accent-glow-strong:rgba(59,130,246,0.35);--bg:#0d0d0d;--bg-secondary:#141414;--bg-card:#1a1a1a;--bg-card-hover:#222;--surface:#1e1e1e;--surface-light:#2a2a2a;--border:#2a2a2a;--border-light:#333;--text:#f0f0f0;--text-secondary:#a0a0a0;--text-muted:#909090;--white:#fff;--shadow-sm:0 1px 3px rgba(0,0,0,.3);--shadow:0 4px 12px rgba(0,0,0,.4);--shadow-md:0 8px 24px rgba(0,0,0,.5);--shadow-lg:0 16px 40px rgba(0,0,0,.5);--shadow-xl:0 24px 60px rgba(0,0,0,.6);--radius-sm:6px;--radius:10px;--radius-lg:14px;--radius-xl:18px;--transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
     'html{scroll-behavior:smooth;background:#0d0d0d;margin:0!important;padding:0!important}',
@@ -45,17 +45,12 @@ function criticalCss() {
     '.hamburger span{width:22px;height:2px;background:var(--text-secondary);border-radius:2px}',
     '.mobile-nav{display:flex;flex-direction:column;gap:4px;position:fixed;top:0;right:16px;padding-top:16px;z-index:101;opacity:0;pointer-events:none}',
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
-    '.static-guide{max-width:900px;margin:0 auto;padding:100px 24px 60px}',
-    '.static-guide h1{font-size:2rem;margin-bottom:24px;color:var(--text)}',
-    '.static-guide .guide-detail-img{margin-bottom:32px}',
-    '.static-guide .guide-detail-img img{width:100%;max-height:400px;object-fit:cover;border-radius:var(--radius-lg)}',
-    '.static-guide .guide-detail-intro{font-size:1.1rem;line-height:1.7;color:var(--text-secondary);margin-bottom:40px}',
-    '.static-guide .guide-section{margin-bottom:40px}',
-    '.static-guide .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
-    '.static-guide .guide-back-link:hover{text-decoration:underline}',
-    '.static-guide .lang-toggle{text-align:right;margin-bottom:16px}',
-    '.static-guide .lang-toggle a{color:var(--accent);text-decoration:none;font-weight:500}',
-    '.static-guide .lang-toggle a:hover{text-decoration:underline}',
+    '.guide-detail{max-width:900px;margin:0 auto;padding:100px 24px 60px}',
+    '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
+    '.guide-detail .guide-back-link:hover{text-decoration:underline}',
+    '.guide-detail .lang-toggle{text-align:right;margin-bottom:16px}',
+    '.guide-detail .lang-toggle a{color:var(--accent);text-decoration:none;font-weight:500}',
+    '.guide-detail .lang-toggle a:hover{text-decoration:underline}',
     '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:flex}}',
     '#cookie-banner.cookie-visible{transform:translateY(0)}',
   ].join('');
@@ -65,14 +60,10 @@ function criticalCss() {
 const dir = __dirname;
 
 // Eval-import products.js and guides.js
-eval(fs.readFileSync(path.join(dir, 'js', 'products.js'), 'utf8').replace(/^const /gm, 'var '));
-eval(fs.readFileSync(path.join(dir, 'js', 'guides.js'), 'utf8').replace(/^const /gm, 'var '));
+eval(fs.readFileSync(path.join(dir, 'js', 'products.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
+eval(fs.readFileSync(path.join(dir, 'js', 'guides.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
 
-const storeColorsBuild = {
-  thomann: "#3b82f6", pluginboutique: "#6366f1", gear4music: "#8b5cf6",
-  sweetwater: "#6b7280", musikproduktiv: "#78716c", amazon: "#ff9900", reverb: "#d6562b",
-  baxmusic: "#c30067", musicstore: "#1a3a5c", fender: "#000000", andertons: "#000000"
-};
+
 
 function trunc(s, max) {
   if (!s || s.length <= max) return s || '';
@@ -81,28 +72,44 @@ function trunc(s, max) {
 }
 
 function getResolvedStores(product) {
+  const allStoreKeys = ['thomann','pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore'];
+  const searchUrls = {
+    thomann: (t) => `https://www.thomann.co.uk/search?q=${encodeURIComponent(t)}`,
+    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
+    gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
+    sweetwater: (t) => `https://www.sweetwater.com/store/search.php?s=${encodeURIComponent(t)}`,
+    musikproduktiv: (t) => `https://www.musik-produktiv.de/`,
+    amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
+    reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
+    andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
+    baxmusic: (t) => `https://www.bax-shop.co.uk/complete-assortment?keyword=${encodeURIComponent(t)}`,
+    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`
+  };
   const s = {};
-  Object.entries(product.stores).forEach(([key, url]) => {
-    if (key === 'gear4music' && url === 'https://www.gear4music.com/search') {
-      s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
-    } else if (key === 'musikproduktiv' && url === 'https://www.musik-produktiv.de/search') {
-      s[key] = `https://www.musik-produktiv.de/`;
-    } else if (key === 'andertons' && !url.includes('irgwc=')) {
-      s[key] = url + (url.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
+  allStoreKeys.forEach(key => {
+    if (key === 'amazon' && (product.category === 'plugins' || product.category === 'tres')) return;
+    const specificUrl = product.stores[key];
+    if (specificUrl) {
+      if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
+        s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
+      } else if (key === 'musikproduktiv' && specificUrl === 'https://www.musik-produktiv.de/search') {
+        s[key] = searchUrls.musikproduktiv(product.title);
+      } else if (key === 'amazon' && specificUrl.startsWith('https://www.amazon.com/dp/')) {
+        s[key] = specificUrl + '?tag=topmusicg-20';
+      } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
+        s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
+      } else {
+        s[key] = specificUrl;
+      }
     } else {
-      s[key] = url;
+      s[key] = searchUrls[key](product.title);
     }
   });
-  if (product.category !== 'plugins' && product.category !== 'tres') {
-    s.amazon = `https://www.amazon.com/s?k=${encodeURIComponent(product.title)}&tag=topmusicg-20`;
-    if (product.stores.amazon && product.stores.amazon.startsWith('https://www.amazon.com/dp/')) {
-      s.amazon = product.stores.amazon + '?tag=topmusicg-20';
-    }
+  if (s.reverb) {
+    s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
-  s.reverb = `https://reverb.com/marketplace?query=${encodeURIComponent(product.title)}`;
-  if (!s.musicstore) {
-    var searchUrl = `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(product.title)}`;
-    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(searchUrl)}`;
+  if (s.musicstore && !product.stores.musicstore) {
+    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
   }
   return s;
 }
@@ -116,24 +123,16 @@ function stars(rating) {
   return "★".repeat(Math.floor(rating)) + (rating % 1 >= 0.5 ? "½" : "");
 }
 
+function fixIconPath(html) {
+  return html.replace(/src="img\//g, 'src="../img/');
+}
+
 function productCard(p, lang) {
   const title = lang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = Object.entries(getResolvedStores(p)).map(([key, url]) => {
-    let iconHtml = '';
-    if (key === 'thomann') iconHtml = '<span class="icon"><img src="../img/thomann-icon.png" alt="Thomann" class="store-icon-img"></span>';
-    else if (key === 'sweetwater') iconHtml = '<span class="icon"><img src="../img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img"></span>';
-    else if (key === 'gear4music') iconHtml = '<span class="icon"><img src="../img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img"></span>';
-    else if (key === 'pluginboutique') iconHtml = '<span class="icon"><img src="../img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-icon-img"></span>';
-    else if (key === 'musikproduktiv') iconHtml = '<span class="icon"><img src="../img/musikproduktiv-icon.png" alt="Musik Produktiv" class="store-icon-img" style="width:28px"></span>';
-    else if (key === 'amazon') iconHtml = '<span class="icon" style="font-size:15px;">' + icon('amazon', 'fa-brands') + '</span>';
-    else if (key === 'reverb') iconHtml = '<span class="icon"><span style="font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#d6562b;color:#fff;border-radius:2px;vertical-align:middle;">R</span></span>';
-    else if (key === 'musicstore') iconHtml = '<span class="icon"><img src="../img/musicstore-icon.png" alt="Music Store" class="store-icon-img"></span>';
-    else if (key === 'baxmusic') iconHtml = '<span class="icon"><img src="../img/baxmusic-icon.svg" alt="Bax Music" class="store-icon-img"></span>';
-    else if (key === 'fender') iconHtml = '<span class="icon"><img src="../img/fender-icon.svg" alt="Fender" class="store-icon-img" style="width:16px;height:16px"></span>';
-    else if (key === 'andertons') iconHtml = '<span class="icon"><span style="font-weight:900;font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;background:#000;color:#fff;border-radius:2px;vertical-align:middle;">A</span></span>';
-    const name = key.charAt(0).toUpperCase() + key.slice(1);
-    return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColorsBuild[key] || '#555'}">${iconHtml} ${name}</a>`;
+    const iconHtml = storeIcons[key] ? '<span class="icon">' + fixIconPath(storeIcons[key]) + '</span>' : '';
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
   }).join("");
   return `<div class="guide-product-card">
     <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy"></div>
@@ -200,7 +199,7 @@ function buildGuidePage(guide, lang, idx) {
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   ogMeta = `  <meta property="og:type" content="article">
   <meta property="og:title" content="${title}">
-  <meta property="og:description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
+  <meta property="og:description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
   <meta property="og:image:width" content="600">
@@ -211,14 +210,14 @@ function buildGuidePage(guide, lang, idx) {
   <meta property="article:modified_time" content="${dMod}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${title}">
-  <meta name="twitter:description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
+  <meta name="twitter:description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
   <meta name="twitter:image" content="${fullImage}">`;
 
   // JSON-LD
   const ldArticle = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
-    "description": trunc(intro, 200),
+    "description": trunc(intro, 155),
     "author": { "@type": "Person", "name": "Daniel" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": fullImage,
@@ -241,7 +240,7 @@ function buildGuidePage(guide, lang, idx) {
           "brand": { "@type": "Brand", "name": p.brand || "" },
           "mpn": p.mpn || generatedSku,
           "sku": generatedSku,
-          "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 200),
+          "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 155),
           "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
@@ -317,13 +316,13 @@ function buildGuidePage(guide, lang, idx) {
   }
   return ko`<!DOCTYPE html>
 <html lang="${lang}">
-<head>${isEs ? `\n  <script>location.href="/?g=${guide.id}&lang=es";</script>` : ''}
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0d0d0d">
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
   <title>${title} | TopMusicianGear</title>
-  <meta name="description" content="${trunc(intro, 200).replace(/"/g, '&quot;')}">
+  <meta name="description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="en" href="${alternateEn}">
@@ -393,22 +392,27 @@ ${ogMeta}
   </div>
 
   <main id="mainContent">
-    <div class="static-guide">
+    <div class="guide-detail">
       <div class="lang-toggle">
         <a href="${isEs ? `/guides/${guide.id}.html` : `/guides/${guide.id}_es.html`}">${isEs ? 'English' : 'Español'}</a>
       </div>
       <nav class="guide-breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a> / <a href="/">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
+        <a href="/">Home</a> / <a href="/#guides">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
-      <a href="/" class="guide-back-link">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
-      <h1>${title}</h1>
+      <div class="guide-back-row">
+        <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
+      </div>
+      <div class="guide-detail-header">
+        <h1 class="guide-detail-title">${title}</h1>
+      </div>
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-verdict">
-        <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}: </span>
+        <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
         <span class="verdict-text">${verdict}</span>
       </div>
+      ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? 'Productos en esta Guía' : 'Products in this Guide'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       <div class="guide-conclusion">
         <h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Final Thoughts'}</h2>
         <p>${conclusion}</p>
@@ -419,7 +423,9 @@ ${ogMeta}
           ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
-
+      <div class="guide-back-row">
+        <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
+      </div>
     </div>
   </main>
 
