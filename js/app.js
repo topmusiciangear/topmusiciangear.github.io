@@ -724,7 +724,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   renderGuideCats();
-  window.addEventListener("load", () => {
+  function onPageLoaded() {
     const q = new URLSearchParams(window.location.search).get('g');
     if (q && guides.find(g => g.id === q)) {
       history.replaceState({}, '', '/?g=' + q);
@@ -746,7 +746,9 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAbout();
     initVideoIntro();
     translatePage();
-  });
+  }
+  if (document.readyState === 'complete') { onPageLoaded(); }
+  else { window.addEventListener("load", onPageLoaded); }
 
   document.getElementById("searchInput").addEventListener("input", e => {
     searchQuery = e.target.value;
