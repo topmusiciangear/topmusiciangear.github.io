@@ -337,6 +337,7 @@ nav {
   margin-bottom: 16px;
   letter-spacing: .5px;
   text-transform: uppercase;
+  align-self: flex-end;
 }
 
 .hero h1 {
