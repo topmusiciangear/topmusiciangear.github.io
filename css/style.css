@@ -1836,10 +1836,7 @@ html[lang="es"] .lang-show-en { display: none; }
 html.lang-en .cookie-lang-es { display: none !important; }
 html.lang-es .cookie-lang-en { display: none !important; }
 
-/* Guide pages: offset sticky header so breadcrumb/title isn't hidden under 80px bar */
-main:has(> .static-guide) {
-  padding-top: 80px;
-}
+
 
 /* Hide any store chip linking to fender.com */
 a.chip-store[href*="fender.com"] { display: none !important; }
