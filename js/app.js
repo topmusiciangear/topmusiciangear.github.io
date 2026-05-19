@@ -4,6 +4,13 @@ let searchQuery = "";
 let currentGuideId = null;
 let skipDetailScroll = false;
 let disclosureBound = false;
+let guides = [];
+let products = [];
+
+const dataPromise = Promise.all([
+  fetch('data/guides.json').then(function(r) { if (!r.ok) throw new Error('Failed to load guides'); return r.json(); }).then(function(d) { guides = d; }),
+  fetch('data/products.json').then(function(r) { if (!r.ok) throw new Error('Failed to load products'); return r.json(); }).then(function(d) { products = d; })
+]);
 
 function t(key) {
   return translations[currentLang]?.[key] || translations.en[key] || key;
@@ -702,6 +709,7 @@ function injectGuideJsonLd(guide) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  dataPromise.then(function() {
   var langParam = new URLSearchParams(window.location.search).get('lang');
   if (langParam === 'es' || langParam === 'en') {
     currentLang = langParam;
@@ -810,5 +818,6 @@ document.addEventListener("DOMContentLoaded", () => {
         video.paused ? video.play() : video.pause();
       }
     }
+  });
   });
 });

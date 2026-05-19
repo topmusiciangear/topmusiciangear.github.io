@@ -66,9 +66,10 @@ function criticalCss() {
 // ===== LOAD DATA =====
 const dir = __dirname;
 
-// Eval-import products.js and guides.js
-eval(fs.readFileSync(path.join(dir, 'js', 'products.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
-eval(fs.readFileSync(path.join(dir, 'js', 'guides.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
+// Load guide/product data from JSON, store meta from constants
+const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8'));
+const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
+eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
 
 
 
