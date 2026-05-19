@@ -317,6 +317,10 @@ nav {
   position: relative;
   z-index: 1;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
 }
 
 .hero-badge {
