@@ -15,7 +15,7 @@ if (storeNamesMatch) eval(storeNamesMatch[0].replace('const storeNames', 'var st
 if (storeColorsMatch) eval(storeColorsMatch[0].replace('const storeColors', 'var storeColors'));
 if (storeIconsMatch) eval(storeIconsMatch[0].replace('const storeIcons', 'var storeIcons'));
 
-const allStoreKeys = ['thomann','pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore','fender'];
+const allStoreKeys = ['thomann','pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore'];
 
 function getResolvedStores(product) {
   const searchUrls = {
@@ -28,8 +28,7 @@ function getResolvedStores(product) {
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
     andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
     baxmusic: (t) => `https://www.bax-shop.co.uk/complete-assortment?keyword=${encodeURIComponent(t)}`,
-    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`,
-    fender: (t) => `https://www.fender.com/en-GB/search?q=${encodeURIComponent(t)}`
+    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`
   };
   const s = {};
   allStoreKeys.forEach(key => {
