@@ -36,7 +36,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
   background: #0d0d0d;
   margin: 0 !important;
   padding: 0 !important;
@@ -452,6 +451,7 @@ nav {
 }
 
 .section-title {
+  scroll-margin-top: 80px;
   font-size: clamp(24px, 3vw, 32px);
   font-weight: 800;
   letter-spacing: -.5px;
@@ -609,6 +609,7 @@ nav {
 
 /* My Setup Section */
 .my-setup {
+  scroll-margin-top: 80px;
   padding: 64px 32px;
 }
 
@@ -653,6 +654,7 @@ nav {
 
 /* About Section */
 .about-section {
+  scroll-margin-top: 80px;
   padding: 80px 32px;
   position: relative;
   overflow: hidden;
@@ -1052,6 +1054,7 @@ footer ul li a:hover { color: var(--accent); }
 /* Responsive */
 /* ===== GUIDES SECTION ===== */
 .guides-section {
+  scroll-margin-top: 80px;
   padding: 64px 32px;
 }
 
@@ -1060,6 +1063,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .guide-grid {
+  scroll-margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 24px;
@@ -1502,7 +1506,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; scroll-padding-top: 70px; }
+  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
