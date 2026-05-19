@@ -361,10 +361,17 @@ function renderGuideDetail(id) {
     setTimeout(function() { scrollToSection("guides"); }, 200);
   });
   if (!skipDetailScroll) {
-    setTimeout(() => {
-      const el = document.getElementById("guideBackBtn1") || document.getElementById("guideGrid");
-      if (el) el.scrollIntoView({ block: "start", behavior: "auto" });
-    }, 200);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        var el = document.getElementById("guideBackBtn1") || document.getElementById("guideGrid");
+        if (el) {
+          var rect = el.getBoundingClientRect();
+          var headerH = document.querySelector('header').offsetHeight || 64;
+          var top = rect.top + window.pageYOffset - headerH;
+          window.scrollTo({ top: Math.max(0, top) });
+        }
+      });
+    });
   }
   var lang = currentLang;
   document.title = (lang === 'es' && guide.title_es ? guide.title_es : guide.title) + ' | TopMusicianGear';
@@ -467,12 +474,14 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove("show"), 3000);
 }
 
-var _headerH = 0;
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  var target = el.querySelector('.section-header, .section-title') || el;
-  target.scrollIntoView({ block: "start", behavior: "auto" });
+  var heading = el.querySelector('.section-title') || el;
+  var rect = heading.getBoundingClientRect();
+  var headerH = document.querySelector('header').offsetHeight || 64;
+  var top = rect.top + window.pageYOffset - headerH;
+  window.scrollTo({ top: Math.max(0, top) });
 }
 
 function handleNavClick(target) {
