@@ -29,6 +29,7 @@ function criticalCss() {
 '.lang-btn{display:flex;align-items:center;justify-content:center;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
 '.lang-btn:hover{border-color:var(--accent)}',
 '.lang-btn.active{background:rgba(255,255,255,0.1);border-color:var(--white);color:var(--white)}',
+'.lang-flag{display:block;border-radius:2px;flex-shrink:0}',
     '.nav-link{padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
     '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
     'body>*:not(header):not(.bg-hero):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
@@ -383,8 +384,8 @@ ${ogMeta}
         <button onclick="if(window.innerWidth<=768)document.getElementById('mobileSocial').scrollIntoView({behavior:'smooth'})" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;cursor:pointer;background:none;border:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</button>
         </div>
         <div class="lang-switcher">
-          <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img src="https://flagcdn.com/us.svg" alt="EN" width="20" height="15" style="display:block;border-radius:2px"></button>
-          <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'"><img src="https://flagcdn.com/es.svg" alt="ES" width="20" height="15" style="display:block;border-radius:2px"></button>
+          <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><svg class="lang-flag" viewBox="0 0 640 480" width="20" height="15"><path fill="#bd3d44" d="M0 0h640v480H0"/><path stroke="#fff" stroke-width="37" d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 424.6h640"/><path fill="#192f5d" d="M0 0h364.8v258.5H0"/><path fill="#fff" d="M0 0h296.4v258.5H0"/><path fill="#192f5d" d="M0 0h222.3v258.5H0"/><path fill="#fff" d="M0 0h148.2v258.5H0"/><path fill="#192f5d" d="M0 0h74.1v258.5H0"/><path fill="#fff" d="M0 129h640M0 351h640"/></svg></button>
+          <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'"><svg class="lang-flag" viewBox="0 0 640 480" width="20" height="15"><path fill="#c60b1e" d="M0 0h640v480H0"/><path fill="#ffc400" d="M0 90h640v300H0"/><path fill="#c60b1e" d="M0 0h640v60H0m0 420h640v60H0"/></svg></button>
         </div>
         <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
           <span></span><span></span><span></span>
