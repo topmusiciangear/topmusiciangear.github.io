@@ -106,6 +106,15 @@ const translations = {
     navHeadphones: "Headphones",
     navMonitors: "Monitors",
     navPlugins: "Plugins",
+    navGuitars: "Guitars",
+    navKeyboards: "Keyboards",
+    navDrumMachine: "Drum Machines",
+    navTres: "Cuban Tres",
+    navAccessories: "Accessories",
+    navAmps: "Amps",
+    navPedals: "Pedals",
+    navLive: "Live Sound",
+    navDaw: "DAW",
     metaDescription: "Honest, hands-on reviews of professional music gear. Microphones, guitars, keyboards, interfaces, monitors, plugins, and more. Tested by a touring Cuban musician.",
     setupItem1Desc: "Latest gen audio interface",
     setupItem2Desc: "Professional monitoring headphones",
@@ -122,7 +131,11 @@ const translations = {
     catName_guitars: "Guitars",
     catName_tres: "Cuban Tres",
     catName_plugins: "Plugins",
-    catName_accessories: "Accessories"
+    catName_accessories: "Accessories",
+    catName_amps: "Amps",
+    catName_pedals: "Pedals",
+    catName_live_sound: "Live Sound",
+    catName_daw: "DAW"
   },
   es: {
     disclosureBar: "Este sitio contiene enlaces de afiliado. Ganamos una comisión si compras a través de ellos sin costo extra para ti.",
@@ -230,6 +243,15 @@ const translations = {
     navHeadphones: "Auriculares",
     navMonitors: "Monitores",
     navPlugins: "Plugins",
+    navGuitars: "Guitarras",
+    navKeyboards: "Teclados",
+    navDrumMachine: "Máquina de Batería",
+    navTres: "Tres Cubano",
+    navAccessories: "Accesorios",
+    navAmps: "Amplificadores",
+    navPedals: "Pedales",
+    navLive: "Sonido en Vivo",
+    navDaw: "DAW",
     metaDescription: "Reseñas honestas y prácticas de equipo musical profesional. Micrófonos, guitarras, teclados, interfaces, monitores, plugins y más. Probado por un músico cubano de gira.",
     setupItem1Desc: "Interfaz de audio de última generación",
     setupItem2Desc: "Auriculares de monitoreo profesional",
@@ -246,7 +268,11 @@ const translations = {
     catName_guitars: "Guitarras",
     catName_tres: "Tres Cubano",
     catName_plugins: "Plugins",
-    catName_accessories: "Accesorios"
+    catName_accessories: "Accesorios",
+    catName_amps: "Amplificadores",
+    catName_pedals: "Pedales",
+    catName_live_sound: "Sonido en Vivo",
+    catName_daw: "DAW"
   }
 };
 
