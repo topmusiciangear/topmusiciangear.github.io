@@ -37,8 +37,8 @@ function criticalCss() {
 '.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:calc(100vh - 64px);box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
 '.hero-inner{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:0 auto;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:calc(100vh - 64px)}',
     '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase}',
-    '.hero h2{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
-    '.hero h2 span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
+    '.hero-subtitle{font-size:clamp(34px,6vw,64px);font-weight:900;line-height:1.05;color:var(--white);margin-bottom:20px;letter-spacing:-1.5px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
+    '.hero-subtitle span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
     '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
     '.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}',
     '.btn-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;padding:14px 32px;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none}',
@@ -70,6 +70,11 @@ const dir = __dirname;
 const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8'));
 const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
 eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
+
+// Auto-increment cache busters from file modification times
+const cacheVerJs = Math.floor(fs.statSync(path.join(dir, 'js', 'app.js')).mtimeMs).toString(36);
+const cacheVerCss = Math.floor(fs.statSync(path.join(dir, 'css', 'style.css')).mtimeMs).toString(36);
+const today = new Date().toISOString().split('T')[0];
 
 
 
@@ -145,7 +150,7 @@ function productCard(p, lang) {
   return `<div class="guide-product-card">
     <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy"></div>
     <div class="guide-product-card-body">
-      <div class="guide-product-card-title">${title}</div>
+      <h3 class="guide-product-card-title">${title}</h3>
       <div class="guide-product-card-rating">${stars(p.rating)} <span>${p.reviews.toLocaleString()}</span></div>
       <div class="guide-product-card-price">${formatPrice(p.price)} <small>USD</small></div>
       <div class="guide-product-card-desc">${desc}</div>
@@ -228,7 +233,6 @@ function buildGuidePage(guide, lang, idx) {
   };
 
   const items = [];
-  const productSchemas = [];
   guide.featuredProducts.forEach((pid, idx) => {
     const p = products.find(pr => pr.id === pid);
     if (p) {
@@ -247,14 +251,6 @@ function buildGuidePage(guide, lang, idx) {
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
         }
-      });
-      productSchemas.push({
-        "@type": "Product",
-        "name": title,
-        "brand": { "@type": "Brand", "name": p.brand || "" },
-        "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-        "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
-        "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
       });
     }
   });
@@ -326,15 +322,14 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
   <style>${criticalCss()}</style>
-  <link rel="preload" as="style" href="/css/style.css?v=31" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/style.css?v=31"></noscript>
+  <link rel="preload" as="style" href="/css/style.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.css?v=${cacheVerCss}"></noscript>
   <link rel="preload" as="image" href="/img/me-600.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
   ${jsonLdScript(ldArticle)}
   ${items.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "ItemList", "itemListElement": items }) : ''}
-  ${productSchemas.length ? jsonLdScript({ "@context": "https://schema.org", "@graph": productSchemas }) : ''}
   ${jsonLdScript({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/" },
     { "@type": "ListItem", "position": 2, "name": title, "item": canonical }
@@ -402,7 +397,7 @@ ${ogMeta}
     <section class="hero">
       <div class="hero-inner">
         <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> ${isEs ? 'Confiado por músicos de todo el mundo' : 'Trusted by musicians worldwide'}</div>
-        <h2>${isEs ? 'Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>' : 'From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span>'}</h2>
+        <p class="hero-subtitle">${isEs ? 'Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>' : 'From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span>'}</p>
         <p>${isEs ? 'Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.' : 'Trusted by a musician with over 20 years of experience on the world\'s biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.'}</p>
         <div class="hero-actions">
           <a href="/#guides" class="btn-primary">${isEs ? 'Ver Equipo →' : 'Browse Gear →'}</a>
@@ -689,7 +684,7 @@ ${ogMeta}
 
   <script defer src="/js/translations.js?v=7"></script>
   <script defer src="/js/constants.js?v=1"></script>
-  <script defer src="/js/app.js?v=19"></script>
+  <script defer src="/js/app.js?v=${cacheVerJs}"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;if(!c){b.style.display='flex'}else{b.style.display='none'}function loadAnalytics(){if(!document.getElementById('ga-script')){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L';s.id='ga-script';s.async=true;document.head.appendChild(s);s.onload=function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})}}}function loadAds(){if(!document.getElementById('adsense-script')){var s=document.createElement('script');s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543';s.id='adsense-script';s.async=true;s.crossOrigin='anonymous';document.head.appendChild(s)}}
 function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
 function applyPrefs(p){if(p.analytics)loadAnalytics();if(p.ads)loadAds();if(p.affiliate)loadAffiliate()}
@@ -720,5 +715,61 @@ guides.forEach((guide, idx) => {
     console.log(`Generated: guides/${filename}`);
   });
 });
+
+// ===== GENERATE SITEMAP =====
+function buildSitemap() {
+  const site = 'https://topmusiciangear.com';
+  const staticPages = [
+    { loc: '/', priority: '1.0', changefreq: 'weekly' },
+    { loc: '/contact.html', priority: '0.5', changefreq: 'monthly' },
+    { loc: '/affiliate-disclosure.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/cookie-policy.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/terms.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/privacy-policy.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/404.html', priority: '0.1', changefreq: 'monthly' },
+  ];
+  var urls = staticPages.map(p => `<url><lastmod>${today}</lastmod><loc>${site}${p.loc}</loc><changefreq>${p.changefreq}</changefreq><priority>${p.priority}</priority></url>`);
+  guides.forEach((guide, idx) => {
+    var d = guideDates(guide, idx).modified;
+    ['', '_es'].forEach(sfx => {
+      urls.push(`<url><lastmod>${d}</lastmod><loc>${site}/guides/${guide.id}${sfx}.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
+    });
+  });
+  var xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>';
+  fs.writeFileSync(path.join(dir, 'sitemap.xml'), xml, 'utf8');
+  console.log('Generated: sitemap.xml (' + (urls.length) + ' URLs)');
+}
+buildSitemap();
+
+// ===== GENERATE IMAGE SITEMAP =====
+// Only include self-hosted images, skip external CDN (Thomann, Amazon etc.)
+function buildImageSitemap() {
+  const site = 'https://topmusiciangear.com';
+  var imgUrls = [];
+  var seen = new Set();
+  // guide images that are self-hosted
+  guides.forEach(g => {
+    if (g.image && !g.image.startsWith('http')) {
+      var imgPath = site + '/' + g.image;
+      if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
+    }
+  });
+  // product images that are self-hosted
+  products.forEach(p => {
+    if (p.img && !p.img.startsWith('http')) {
+      var imgPath = site + '/' + p.img;
+      if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
+    }
+  });
+  // always include the main hero image
+  var heroImg = site + '/img/me-600.webp';
+  if (!seen.has(heroImg)) { imgUrls.unshift(heroImg); }
+  var xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  imgUrls.forEach(u => { xml += '\n  <url><loc>' + u + '</loc><lastmod>' + today + '</lastmod></url>'; });
+  xml += '\n</urlset>';
+  fs.writeFileSync(path.join(dir, 'sitemap-images.xml'), xml, 'utf8');
+  console.log('Generated: sitemap-images.xml (' + imgUrls.length + ' images)');
+}
+buildImageSitemap();
 
 console.log(`\nDone! Generated ${guides.length * 2} guide pages.`);
