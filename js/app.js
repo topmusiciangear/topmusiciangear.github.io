@@ -195,7 +195,8 @@ function getResolvedStores(product) {
   };
   const s = {};
   allStoreKeys.forEach(key => {
-    if (key === 'amazon' && (product.category === 'plugins' || product.category === 'tres')) return;
+    if (key === 'amazon' && product.category === 'plugins') return;
+    if (key === 'pluginboutique' && product.category !== 'plugins') return;
     const specificUrl = product.stores[key];
     if (specificUrl) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
