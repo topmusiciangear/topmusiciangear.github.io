@@ -175,6 +175,10 @@ function esText(esVal, enVal) {
   return esVal && esVal.length > enVal.length * 0.5 ? esVal : enVal;
 }
 
+function normImg(path) {
+  return path && path.startsWith('../') ? path.substring(3) : path;
+}
+
 function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const title = isEs && guide.title_es ? guide.title_es : guide.title;
@@ -182,7 +186,7 @@ function buildGuidePage(guide, lang, idx) {
   const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
   const verdict = esText(isEs && guide.verdict_es, guide.verdict);
   const image = guide.image || '../img/og-image.png';
-  const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.png');
+  const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (normImg(guide.image) || 'img/og-image.png');
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
   const canonical = `https://topmusiciangear.com/guides/${isEs ? guide.id + '_es' : guide.id}.html`;
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
@@ -750,14 +754,14 @@ function buildImageSitemap() {
   // guide images that are self-hosted
   guides.forEach(g => {
     if (g.image && !g.image.startsWith('http')) {
-      var imgPath = site + '/' + g.image;
+      var imgPath = site + '/' + normImg(g.image);
       if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
     }
   });
   // product images that are self-hosted
   products.forEach(p => {
     if (p.img && !p.img.startsWith('http')) {
-      var imgPath = site + '/' + p.img;
+      var imgPath = site + '/' + normImg(p.img);
       if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
     }
   });
