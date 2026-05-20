@@ -441,6 +441,7 @@ nav {
 .stat-item {
   text-align: center;
   padding: 8px;
+  contain: layout style;
 }
 
 .stat-number {
@@ -494,6 +495,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  contain: layout style;
   text-align: center;
 }
 
@@ -878,6 +880,8 @@ nav {
 footer {
   color: var(--text-muted);
   padding: 56px 32px 24px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 200px;
 }
 
 .footer-grid {
@@ -1309,6 +1313,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255,255,255,.08);
+  contain: layout style;
 }
 
 .guide-section-heading {
@@ -1333,6 +1338,7 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Guide Product Cards */
 .guide-product-card {
+  contain: layout style;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -1449,6 +1455,7 @@ footer ul li a:hover { color: var(--accent); }
   border-radius: var(--radius);
   padding: 14px 22px;
   margin-bottom: 40px;
+  contain: layout style;
 }
 
 .verdict-label {
@@ -1472,6 +1479,7 @@ footer ul li a:hover { color: var(--accent); }
   border-radius: var(--radius);
   padding: 14px 22px;
   margin-bottom: 20px;
+  contain: layout style;
 }
 
 .guide-conclusion-title {
@@ -1625,6 +1633,8 @@ footer ul li a:hover { color: var(--accent); }
   margin-top: 48px;
   padding-top: 32px;
   border-top: 1px solid var(--border);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
 }
 
 .guide-products-title {
