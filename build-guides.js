@@ -80,9 +80,8 @@ function trunc(s, max) {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['thomann','pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore'];
+  const allStoreKeys = ['pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore'];
   const searchUrls = {
-    thomann: (t) => `https://www.thomann.co.uk/search?q=${encodeURIComponent(t)}`,
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
     sweetwater: (t) => `https://www.sweetwater.com/store/search.php?s=${encodeURIComponent(t)}`,
@@ -423,7 +422,7 @@ ${ogMeta}
           <div class="stat-label">${isEs ? 'Productos Probados' : 'Products Tested'}</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">10</div>
+          <div class="stat-number">9</div>
           <div class="stat-label">${isEs ? 'Tiendas Confiables' : 'Trusted Stores'}</div>
         </div>
         <div class="stat-item">
@@ -561,7 +560,7 @@ ${ogMeta}
         <h2><svg data-fa="store" class="icon fa-solid fa-store" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0H109.6C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9l-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3V384v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V384 252.6c-4 1-8 1.8-12.3 2.3z"/></svg> ${isEs ? 'Compra con Confianza' : 'Shop With Confidence'}</h2>
         <p>${isEs ? 'Comparamos precios en las tiendas de equipo musical más confiables para que siempre consigas la mejor oferta.' : 'We compare prices across the most trusted music gear retailers so you always get the best deal.'}</p>
         <div class="stores-logos">
-          <a href="https://www.thomann.de/intl/index.html" target="_blank" rel="noopener noreferrer sponsored" class="store-logo" style="--store-color:#3b82f6"><img src="/img/thomann-icon.png" alt="Thomann" class="store-logo-img"><span>Thomann</span></a>
+
           <a href="https://www.sweetwater.com/" target="_blank" rel="noopener noreferrer sponsored" class="store-logo" style="--store-color:#6b7280"><img src="/img/sweetwater-icon.png" alt="Sweetwater" class="store-logo-img"><span>Sweetwater</span></a>
           <a href="https://www.pluginboutique.com/?a_aid=6a01e859cbe1a" target="_blank" rel="noopener noreferrer sponsored" class="store-logo" style="--store-color:#6366f1"><img src="/img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-logo-img"><span>Plugin Boutique</span></a>
           <a href="https://www.gear4music.com/" target="_blank" rel="noopener noreferrer sponsored" class="store-logo" style="--store-color:#8b5cf6"><img src="/img/gear4music-icon.png" alt="Gear4Music" class="store-logo-img"><span>Gear4Music</span></a>
@@ -619,7 +618,7 @@ ${ogMeta}
       </div>
     </div>
     <div class="footer-bottom">
-      <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
+      <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
       <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
       <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
     </div>
@@ -630,7 +629,7 @@ ${ogMeta}
     <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:32px;max-width:600px;width:100%;max-height:80vh;overflow-y:auto;position:relative;color:var(--text)">
       <button onclick="hideAffiliateDisclosure()" style="position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text);font-size:24px;cursor:pointer;line-height:1;padding:4px 8px;opacity:.5">&times;</button>
       <h3 style="font-size:20px;font-weight:700;margin:0 0 16px;padding-right:30px">${isEs ? 'Divulgación de Afiliados' : 'Affiliate Disclosure'}</h3>
-      <p style="font-size:14px;line-height:1.7;color:var(--text-secondary)">${isEs ? 'TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Como afiliados de Thomann, Musik Produktiv, Gear4Music, Plugin Boutique, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store, ganamos con compras que califican realizadas a través de nuestros enlaces. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.' : 'TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Thomann, Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. As a Thomann, Musik Produktiv, Gear4Music, Plugin Boutique, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store affiliate, we earn from qualifying purchases made through our links. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.'}</p>
+      <p style="font-size:14px;line-height:1.7;color:var(--text-secondary)">${isEs ? 'TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.' : 'TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Plugin Boutique, Musik Produktiv, Gear4Music, Amazon, Reverb, Sweetwater, Andertons, Bax Music, and Music Store. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.'}</p>
       <button onclick="hideAffiliateDisclosure()" style="margin-top:20px;padding:10px 28px;border:none;border-radius:8px;cursor:pointer;font-weight:600;font-size:14px;background:var(--accent);color:#fff">${isEs ? 'Entendido' : 'Got it'}</button>
     </div>
   </div>
@@ -693,9 +692,9 @@ ${ogMeta}
   </div>
 </div>
 
-  <script defer src="/js/translations.js?v=6"></script>
+  <script defer src="/js/translations.js?v=7"></script>
   <script defer src="/js/constants.js?v=1"></script>
-  <script defer src="/js/app.js?v=17"></script>
+  <script defer src="/js/app.js?v=18"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;if(!c){b.style.display='flex'}else{b.style.display='none'}function loadAnalytics(){if(!document.getElementById('ga-script')){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L';s.id='ga-script';s.async=true;document.head.appendChild(s);s.onload=function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})}}}function loadAds(){if(!document.getElementById('adsense-script')){var s=document.createElement('script');s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217554001389543';s.id='adsense-script';s.async=true;s.crossOrigin='anonymous';document.head.appendChild(s)}}
 function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
 function applyPrefs(p){if(p.analytics)loadAnalytics();if(p.ads)loadAds();if(p.affiliate)loadAffiliate()}

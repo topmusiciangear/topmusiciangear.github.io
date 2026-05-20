@@ -181,9 +181,8 @@ function getFilteredGuides() {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['thomann','pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore'];
+  const allStoreKeys = ['pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','baxmusic','musicstore'];
   const searchUrls = {
-    thomann: (t) => `https://www.thomann.co.uk/search?q=${encodeURIComponent(t)}`,
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
     sweetwater: (t) => `https://www.sweetwater.com/store/search.php?s=${encodeURIComponent(t)}`,

@@ -17,7 +17,6 @@
 };
 
 const storeNames = {
-  thomann: "Thomann",
   pluginboutique: "Plugin Boutique",
   gear4music: "Gear4Music",
   sweetwater: "Sweetwater",
@@ -30,7 +29,6 @@ const storeNames = {
 };
 
 const storeColors = {
-  thomann: "#3b82f6",
   pluginboutique: "#6366f1",
   gear4music: "#8b5cf6",
   sweetwater: "#6b7280",
@@ -43,7 +41,6 @@ const storeColors = {
 };
 
 const storeIcons = {
-  thomann: '<img src="img/thomann-icon.png" alt="Thomann" class="store-icon-img">',
   pluginboutique: '<img src="img/pluginboutique-icon.png" alt="Plugin Boutique" class="store-icon-img">',
   gear4music: '<img src="img/gear4music-icon.png" alt="Gear4Music" class="store-icon-img">',
   sweetwater: '<img src="img/sweetwater-icon.png" alt="Sweetwater" class="store-icon-img">',
