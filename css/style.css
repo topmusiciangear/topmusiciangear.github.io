@@ -351,14 +351,15 @@ nav {
 }
 
 .hero .hero-subtitle {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(48px, 8vw, 80px);
   font-weight: 900;
   line-height: 1.1;
   color: var(--white);
   margin-bottom: 20px;
   letter-spacing: -1px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   text-align: center;
+  max-width: none;
 }
 
 .hero .hero-subtitle span {
