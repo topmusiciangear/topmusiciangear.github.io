@@ -50,9 +50,7 @@ function criticalCss() {
     '.guide-detail{padding:64px 32px 60px}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
-    '.guide-detail .lang-toggle{text-align:right;margin-bottom:16px}',
-    '.guide-detail .lang-toggle a{color:var(--accent);text-decoration:none;font-weight:500}',
-    '.guide-detail .lang-toggle a:hover{text-decoration:underline}',
+
     '.stats-bar{background:rgba(10,10,10,0.5);border-bottom:1px solid rgba(255,255,255,0.05);padding:28px 32px}',
     '.stats-inner{max-width:none;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}',
     '.stat-item{text-align:center;padding:8px}',
@@ -435,9 +433,6 @@ ${ogMeta}
     </div>
 
     <div class="guide-detail">
-      <div class="lang-toggle">
-        <a href="${isEs ? `/guides/${guide.id}.html` : `/guides/${guide.id}_es.html`}">${isEs ? 'English' : 'Español'}</a>
-      </div>
       <nav class="guide-breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a> / <a href="/#guides">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
