@@ -1533,6 +1533,7 @@ footer ul li a:hover { color: var(--accent); }
   .hamburger { display: none; }
   .hero { padding: 12px 20px 40px; min-height: 50vh; }
   .hero h1 { font-size: 32px; margin-bottom: 2px; }
+  .hero .hero-subtitle { font-size: 32px; }
   .hero p { margin-bottom: 12px; }
   .hero-badge { margin-bottom: 4px; }
   .hero-inner { gap: 4px; min-height: auto; justify-content: flex-start; padding-top: 8px; }
