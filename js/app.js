@@ -717,8 +717,10 @@ document.addEventListener("DOMContentLoaded", () => {
   var langParam = new URLSearchParams(window.location.search).get('lang');
   if (langParam === 'es' || langParam === 'en') {
     currentLang = langParam;
-    localStorage.setItem("lang", langParam);
+  } else {
+    currentLang = document.documentElement.lang || "en";
   }
+  localStorage.setItem("lang", currentLang);
   document.documentElement.lang = currentLang;
   document.documentElement.classList.add("lang-" + currentLang);
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
