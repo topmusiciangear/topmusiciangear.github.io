@@ -1764,7 +1764,7 @@ html[lang="es"] .lang-show-en { display: none; }
 }
 
 #cookie-banner.cookie-visible {
-  transform: translateY(0);
+  transform: translateY(0) !important;
 }
 
 
