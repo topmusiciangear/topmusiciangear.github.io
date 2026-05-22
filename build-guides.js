@@ -168,8 +168,14 @@ function guideDates(guide, idx) {
   var base = new Date('2026-01-15');
   base.setDate(base.getDate() + idx * 3);
   var pub = base.toISOString().split('T')[0];
+  if (pub > today) pub = today;
   var mod = guide.dateModified || pub;
+  if (mod > today) mod = today;
   return { published: pub, modified: mod };
+}
+
+function guideDesc(guide, introFallback) {
+  return guide.description || trunc(introFallback, 155);
 }
 
 function esText(esVal, enVal) {
@@ -209,9 +215,10 @@ function buildGuidePage(guide, lang, idx) {
   }).join('');
 
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
+  var d = guideDesc(guide, intro).replace(/"/g, '&quot;');
   ogMeta = `  <meta property="og:type" content="article">
   <meta property="og:title" content="${title}">
-  <meta property="og:description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
+  <meta property="og:description" content="${d}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
   <meta property="og:image:width" content="600">
@@ -222,14 +229,14 @@ function buildGuidePage(guide, lang, idx) {
   <meta property="article:modified_time" content="${dMod}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${title}">
-  <meta name="twitter:description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
+  <meta name="twitter:description" content="${d}">
   <meta name="twitter:image" content="${fullImage}">`;
 
   // JSON-LD
   const ldArticle = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
-    "description": trunc(intro, 155),
+    "description": guideDesc(guide, intro),
     "author": { "@type": "Person", "name": "Daniel" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": fullImage,
@@ -238,6 +245,7 @@ function buildGuidePage(guide, lang, idx) {
   };
 
   const items = [];
+  const productSchemas = [];
   guide.featuredProducts.forEach((pid, idx) => {
     const p = products.find(pr => pr.id === pid);
     if (p) {
@@ -256,6 +264,14 @@ function buildGuidePage(guide, lang, idx) {
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
         }
+      });
+      productSchemas.push({
+        "@type": "Product",
+        "name": title,
+        "brand": { "@type": "Brand", "name": p.brand || "" },
+        "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
+        "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
       });
     }
   });
@@ -319,7 +335,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="theme-color" content="#0d0d0d">
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
   <title>${title} | TopMusicianGear</title>
-  <meta name="description" content="${trunc(intro, 155).replace(/"/g, '&quot;')}">
+  <meta name="description" content="${guideDesc(guide, intro).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="x-default" href="${alternateEn}">
@@ -335,6 +351,7 @@ ${ogMeta}
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
   ${jsonLdScript(ldArticle)}
   ${items.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "ItemList", "itemListElement": items }) : ''}
+  ${productSchemas.length ? jsonLdScript({ "@context": "https://schema.org", "@graph": productSchemas }) : ''}
   ${jsonLdScript({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/" },
     { "@type": "ListItem", "position": 2, "name": title, "item": canonical }
@@ -460,9 +477,10 @@ ${ogMeta}
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">
-          ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
+          ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 6).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
+      ${(function(){ var pidSet = new Set(guide.featuredProducts || []); var comps = guides.filter(g => g.id !== guide.id && g.id.includes('vs') && (g.featuredProducts || []).some(p => pidSet.has(p))); if (!comps.length) return ''; return '<div class="guide-related"><h2 class="guide-related-title">' + (isEs ? 'Comparativas' : 'Comparisons') + '</h2><div class="guide-related-list">' + comps.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join('') + '</div></div>'; })()}
       <div class="guide-back-row">
         <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
       </div>
@@ -742,6 +760,32 @@ function buildSitemap() {
   console.log('Generated: sitemap.xml (' + (urls.length) + ' URLs)');
 }
 buildSitemap();
+
+// ===== INJECT CRAWLABLE GUIDE LINKS INTO INDEX.HTML =====
+(function injectGuideLinks() {
+  var indexFile = path.join(dir, 'index.html');
+  var html = fs.readFileSync(indexFile, 'utf8');
+  var links = guides.map(function(g) {
+    var enUrl = '/guides/' + g.id + '.html';
+    var esUrl = '/guides/' + g.id + '_es.html';
+    var title = g.title;
+    var titleEs = g.title_es || g.title;
+    return '<a href="' + enUrl + '" hreflang="en">' + title.replace(/"/g, '&quot;') + '</a>\n<a href="' + esUrl + '" hreflang="es">' + titleEs.replace(/"/g, '&quot;') + '</a>';
+  }).join('\n');
+  var marker = '<!-- CRAWLABLE_GUIDE_LINKS -->';
+  if (html.indexOf(marker) !== -1) {
+    html = html.replace(marker, '\n' + links + '\n');
+    // Ensure CSS class exists
+    var css = '.crawl-guides{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:1px;width:1px;margin:-1px;padding:0;border:0}';
+    if (html.indexOf('.crawl-guides') === -1) {
+      html = html.replace('</style>', css + '\n</style>');
+    }
+    fs.writeFileSync(indexFile, html, 'utf8');
+    console.log('Injected ' + (guides.length * 2) + ' crawlable guide links into index.html');
+  } else {
+    console.log('Warning: <!-- CRAWLABLE_GUIDE_LINKS --> marker not found in index.html');
+  }
+})();
 
 // ===== GENERATE IMAGE SITEMAP =====
 // Only include self-hosted images, skip external CDN (Thomann, Amazon etc.)
