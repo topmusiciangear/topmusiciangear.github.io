@@ -174,7 +174,10 @@ function guideDates(guide, idx) {
   return { published: pub, modified: mod };
 }
 
-function guideDesc(guide, introFallback) {
+function guideDesc(guide, introFallback, isEs) {
+  if (isEs) {
+    return guide.description_es || trunc(introFallback, 155);
+  }
   return guide.description || trunc(introFallback, 155);
 }
 
@@ -215,7 +218,7 @@ function buildGuidePage(guide, lang, idx) {
   }).join('');
 
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
-  var d = guideDesc(guide, intro).replace(/"/g, '&quot;');
+  var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
   ogMeta = `  <meta property="og:type" content="article">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${d}">
@@ -236,7 +239,7 @@ function buildGuidePage(guide, lang, idx) {
   const ldArticle = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
-    "description": guideDesc(guide, intro),
+    "description": guideDesc(guide, intro, isEs),
     "author": { "@type": "Person", "name": "Daniel" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": fullImage,
@@ -335,7 +338,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="theme-color" content="#0d0d0d">
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
   <title>${title} | TopMusicianGear</title>
-  <meta name="description" content="${guideDesc(guide, intro).replace(/"/g, '&quot;')}">
+  <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="x-default" href="${alternateEn}">
