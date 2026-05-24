@@ -1470,10 +1470,8 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Guide Verdict */
 .guide-verdict {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   gap: 10px;
-  align-items: center;
   background: rgba(59,130,246,.08);
   border: 1px solid rgba(59,130,246,.2);
   border-radius: var(--radius);
@@ -1487,6 +1485,7 @@ footer ul li a:hover { color: var(--accent); }
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--accent);
+  flex-shrink: 0;
   white-space: nowrap;
 }
 
@@ -1495,7 +1494,6 @@ footer ul li a:hover { color: var(--accent); }
   font-weight: 700;
   color: var(--white);
   min-width: 0;
-  overflow-wrap: break-word;
 }
 
 /* Guide Conclusion */
