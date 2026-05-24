@@ -1546,7 +1546,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup,
   .about-section { }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overscroll-behavior-x: none; touch-action: pan-y; }
+  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
@@ -1595,6 +1595,7 @@ footer ul li a:hover { color: var(--accent); }
   .lang-flag { width: 14px; height: 10px; }
   .footer-grid { flex-wrap: wrap; }
   .footer-col { min-width: 100px; flex: 1 1 45%; }
+  .guide-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 768px) {
