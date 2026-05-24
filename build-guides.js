@@ -480,7 +480,7 @@ ${ogMeta}
           <li><a href="/#guides" data-cat="headphones">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
           <li><a href="/#guides" data-cat="monitors">${isEs ? 'Monitores' : 'Monitors'}</a></li>
           <li><a href="/#guides" data-cat="plugins">${isEs ? 'Plugins' : 'Plugins'}</a></li>
-          <li><a href="/#guides" data-cat="strings">${isEs ? 'Cuerdas' : 'Strings'}</a></li>
+          <li><a href="/#guides" data-cat="guitars">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
         </ul>
       </div>
       <div class="footer-col">
