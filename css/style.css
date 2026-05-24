@@ -1586,7 +1586,7 @@ footer ul li a:hover { color: var(--accent); }
   footer { padding: 40px 16px 0; }
   .footer-bottom { padding: 12px 0 0; line-height: 1; }
   .footer-grid { gap: 12px; justify-content: center; flex-wrap: wrap; }
-  .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; }
+  footer .footer-col { flex: 1 1 33%; text-align: center; overflow-wrap: break-word; min-width: 0; }
   footer h3 { font-size: 11px; margin-bottom: 10px; }
   footer ul li { margin-bottom: 4px; }
   footer ul li a { font-size: 12px; }
@@ -1615,7 +1615,7 @@ footer ul li a:hover { color: var(--accent); }
   .store-logo i { font-size: 14px; }
   .store-logo-img { width: 14px; height: 14px; }
   .footer-grid { flex-wrap: wrap; }
-  .footer-col { flex: 1; min-width: 0; text-align: center; }
+  footer .footer-col { flex: 1; min-width: 0; text-align: center; }
   .guide-grid { grid-template-columns: 1fr; }
 }
 
@@ -1636,7 +1636,7 @@ footer ul li a:hover { color: var(--accent); }
   .stat-label { font-size: 10px; }
   .cat-card { padding: 8px; }
   .cat-card .name { font-size: 11px; }
-  .footer-col { flex: 1; min-width: 0; text-align: center; }
+  footer .footer-col { flex: 1; min-width: 0; text-align: center; }
   footer { padding: 32px 12px 0; }
   header { position: sticky !important; }
   .header-inner { gap: 4px; padding: 0 4px; }
