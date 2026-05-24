@@ -55,6 +55,7 @@ body {
   overflow-x: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  hyphens: auto;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -1555,9 +1556,9 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 768px) {
-  .guides-section,
-  .my-setup,
-  .about-section { }
+  .guides-section { padding: 48px 20px; }
+  .my-setup { padding: 48px 20px; }
+  .about-section { padding: 48px 20px; }
   .header-inner { padding: 0 16px; gap: 12px; }
   html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
@@ -1580,8 +1581,6 @@ footer ul li a:hover { color: var(--accent); }
 
   .cat-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
 
-  .my-setup { padding: 40px 16px; }
-  .about-section { padding: 56px 16px; }
   .stores-section { padding: 0 20px 48px; }
   .newsletter-section { padding: 0 16px 40px; }
   .newsletter-card { padding: 32px 20px; }
@@ -1607,6 +1606,11 @@ footer ul li a:hover { color: var(--accent); }
   .logo-icon { width: 28px; height: 28px; }
   .lang-btn { padding: 5px 7px; }
   .lang-flag { width: 14px; height: 10px; }
+  .guides-section { padding: 40px 16px; }
+  .my-setup { padding: 40px 16px; }
+  .about-section { padding: 40px 16px; }
+  .newsletter-section { padding: 0 16px 32px; }
+  .newsletter-card { padding: 24px 16px; }
   .stores-section { padding: 0 16px 48px; }
   .stores-card { padding: 32px 20px; }
   .stores-logos { gap: 4px; }
@@ -1616,6 +1620,33 @@ footer ul li a:hover { color: var(--accent); }
   .footer-grid { flex-wrap: wrap; }
   .footer-col { min-width: 100px; flex: 1 1 45%; }
   .guide-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 360px) {
+  .guides-section { padding: 32px 12px; }
+  .my-setup { padding: 32px 12px; }
+  .about-section { padding: 32px 12px; }
+  .stores-section { padding: 0 12px 32px; }
+  .stores-card { padding: 24px 12px; }
+  .guide-card-body { padding: 14px 14px 18px; }
+  .guide-card-title { font-size: 14px; }
+  .guide-card-intro { font-size: 12px; }
+  .guide-card .store-logo { padding: 4px 4px; font-size: 9px; }
+  .hero { padding: 8px 12px 32px; }
+  .hero h1 { font-size: 32px; }
+  .hero p { font-size: 14px; }
+  .stat-number { font-size: 16px; }
+  .stat-label { font-size: 10px; }
+  .cat-card { padding: 8px; }
+  .cat-card .name { font-size: 11px; }
+  .footer-col { min-width: 80px; flex: 1 1 40%; }
+  footer { padding: 32px 12px 0; }
+  header { position: sticky !important; }
+  .header-inner { gap: 4px; padding: 0 4px; }
+  .logo { font-size: 14px; gap: 4px; }
+  .logo-icon { width: 24px; height: 24px; }
+  .lang-btn { padding: 3px 5px; font-size: 9px; }
+  .lang-flag { width: 12px; height: 8px; }
 }
 
 @media (max-width: 768px) {
