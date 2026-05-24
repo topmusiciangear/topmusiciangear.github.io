@@ -1473,6 +1473,7 @@ footer ul li a:hover { color: var(--accent); }
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
+  align-items: center;
   background: rgba(59,130,246,.08);
   border: 1px solid rgba(59,130,246,.2);
   border-radius: var(--radius);
