@@ -633,6 +633,7 @@ buildSitemap();
     var titleEs = g.title_es || g.title;
     return '<a href="' + enUrl + '" hreflang="en">' + title.replace(/"/g, '&quot;') + '</a>\n<a href="' + esUrl + '" hreflang="es">' + titleEs.replace(/"/g, '&quot;') + '</a>';
   }).join('\n');
+  // Always write index.html (cache busters may have changed)
   var marker = '<!-- CRAWLABLE_GUIDE_LINKS -->';
   if (html.indexOf(marker) !== -1) {
     html = html.replace(marker, '\n' + links + '\n');
@@ -641,11 +642,8 @@ buildSitemap();
     if (html.indexOf('.crawl-guides') === -1) {
       html = html.replace('</style>', css + '\n</style>');
     }
-    fs.writeFileSync(indexFile, html, 'utf8');
-    console.log('Injected ' + (guides.length * 2) + ' crawlable guide links into index.html');
-  } else {
-    console.log('Warning: <!-- CRAWLABLE_GUIDE_LINKS --> marker not found in index.html');
   }
+  fs.writeFileSync(indexFile, html, 'utf8');
 })();
 
 // ===== GENERATE IMAGE SITEMAP =====
