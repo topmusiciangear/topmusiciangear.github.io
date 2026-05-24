@@ -618,10 +618,14 @@ function buildSitemap() {
 }
 buildSitemap();
 
-// ===== INJECT CRAWLABLE GUIDE LINKS INTO INDEX.HTML =====
-(function injectGuideLinks() {
+// ===== UPDATE CACHE BUSTERS & INJECT CRAWLABLE GUIDE LINKS INTO INDEX.HTML =====
+(function updateIndexHtml() {
   var indexFile = path.join(dir, 'index.html');
   var html = fs.readFileSync(indexFile, 'utf8');
+  // Update CSS cache buster
+  html = html.replace(/(css\/style\.css\?v=)[a-z0-9]+/g, '$1' + cacheVerCss);
+  // Update JS cache buster
+  html = html.replace(/(js\/app\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJs);
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
     var esUrl = '/guides/' + g.id + '_es.html';
