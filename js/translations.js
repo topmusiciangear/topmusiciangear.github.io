@@ -135,7 +135,10 @@ const translations = {
     catName_amps: "Amps",
     catName_pedals: "Pedals",
     catName_live_sound: "Live Sound",
-    catName_daw: "DAW"
+    catName_daw: "DAW",
+    heroTelegram: "Join us on Telegram — daily sales & deals on music gear",
+    footerTelegramTitle: "Join us on Telegram",
+    footerTelegramDesc: "Every day we post if there are sales on music gear"
   },
   es: {
     disclosureBar: "Este sitio contiene enlaces de afiliado. Ganamos una comisión si compras a través de ellos sin costo extra para ti.",
@@ -273,7 +276,10 @@ const translations = {
     catName_amps: "Amplificadores",
     catName_pedals: "Pedales",
     catName_live_sound: "Sonido en Vivo",
-    catName_daw: "DAW"
+    catName_daw: "DAW",
+    heroTelegram: "Únete a Telegram — ofertas diarias en equipo musical",
+    footerTelegramTitle: "Únete a Telegram",
+    footerTelegramDesc: "Cada día publicamos si hay ofertas en equipo musical"
   }
 };
 
