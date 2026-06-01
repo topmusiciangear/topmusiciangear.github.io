@@ -742,10 +742,6 @@ document.addEventListener("DOMContentLoaded", () => {
         renderGuideDetail(h);
       } else {
         renderGuideGrid();
-        const knownSections = ['guides', 'mysetup', 'about'];
-        if (knownSections.includes(h)) {
-          scrollToSection(h);
-        }
       }
     } else {
       renderGuideGrid();
@@ -755,6 +751,14 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAbout();
     initVideoIntro();
     translatePage();
+
+    // scroll after everything is rendered (fixes layout-shift after renderGuideGrid etc.)
+    if (location.hash) {
+      var h2 = location.hash.slice(1);
+      if (['guides','mysetup','about'].indexOf(h2) !== -1) {
+        setTimeout(function() { scrollToSection(h2); }, 100);
+      }
+    }
   }
   if (document.readyState === 'complete') { onPageLoaded(); }
   else { window.addEventListener("load", onPageLoaded); }
