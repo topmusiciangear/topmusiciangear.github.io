@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -32,6 +32,7 @@
 <body>
 
   <header>
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
     <div class="header-inner">
       <div class="header-left">
         <a href="/" class="logo">
@@ -40,7 +41,7 @@
             <span>Top</span>MusicianGear
           </div>
         </a>
-        <nav>
+        <nav aria-label="Main navigation">
           <a href="/#guides" class="nav-link">Guides</a>
           <a href="/#mysetup" class="nav-link">My Setup</a>
           <a href="/#about" class="nav-link">About Me</a>
@@ -55,14 +56,14 @@
           <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <div class="lang-switcher">
-          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" style="vertical-align:middle"></button>
-          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" style="vertical-align:middle"></button>
+          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" alt="English" style="vertical-align:middle"></button>
+          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" alt="Español" style="vertical-align:middle"></button>
         </div>
       </div>
     </div>
   </header>
 
-  <div class="legal-page">
+  <main id="mainContent" class="legal-page">
 
     <a onclick="history.back();return false" href="/" class="back-link"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
 
@@ -156,7 +157,7 @@
       </div>
     </div>
 
-  </div>
+  </main>
 
   <footer>
     <div class="footer-bottom">

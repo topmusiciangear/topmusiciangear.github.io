@@ -45,9 +45,9 @@
   </style>
 </head>
 <body>
-
-  <header>
-    <div class="header-inner">
+  <header>
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
+    <div class="header-inner">
       <div class="header-left">
         <a href="/" class="logo">
           <span class="logo-icon"><img src="img/favicon.png?v=2" alt="TMG" style="width:36px;height:36px;border-radius:8px"></span>
@@ -55,11 +55,15 @@
             <span>Top</span>MusicianGear
           </div>
         </a>
-        <nav>
-          <a href="/#guides" class="nav-link">Guides</a>
-          <a href="/#mysetup" class="nav-link">My Setup</a>
-          <a href="/#about" class="nav-link">About Me</a>
-        </nav>
+        <nav aria-label="Main navigation">
+
+          <a href="/#guides" class="nav-link">Guides</a>
+
+          <a href="/#mysetup" class="nav-link">My Setup</a>
+
+          <a href="/#about" class="nav-link">About Me</a>
+
+        </nav>
       </div>
       <div class="header-right">
         <div class="header-social">
@@ -70,15 +74,15 @@
           <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <div class="lang-switcher">
-          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" style="vertical-align:middle"></button>
-          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" style="vertical-align:middle"></button>
+          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" alt="English" style="vertical-align:middle"></button>
+          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" alt="Español" style="vertical-align:middle"></button>
         </div>
       </div>
     </div>
   </header>
-
-  <div class="legal-page">
-    <a onclick="history.back();return false" href="/" class="back-link"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
+  <main id="mainContent" class="legal-page">
+
+    <a onclick="history.back();return false" href="/" class="back-link"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
     <div id="lang-en" class="lang-section active">
       <h1>Cookie Policy</h1>
       <p class="updated">Last updated: May 2026</p>

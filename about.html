@@ -54,6 +54,7 @@
 <body style="background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased;">
 
   <header>
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
     <div class="header-inner">
       <div class="header-left">
         <a href="/" class="logo">
@@ -62,21 +63,21 @@
             <span>Top</span>MusicianGear
           </div>
         </a>
-        <nav>
+        <nav aria-label="Main navigation">
           <a href="/#guides" class="nav-link">Guides</a>
           <a href="/" class="nav-link">Home</a>
         </nav>
       </div>
       <div class="header-right">
         <div class="lang-switcher">
-          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" style="vertical-align:middle"></button>
-          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" style="vertical-align:middle"></button>
+          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" alt="English" style="vertical-align:middle"></button>
+          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" alt="Español" style="vertical-align:middle"></button>
         </div>
       </div>
     </div>
   </header>
 
-  <div class="legal-page">
+  <main id="mainContent" class="legal-page">
     <h1 class="lang-show-en">About Me</h1>
     <h1 class="lang-show-es">Sobre Mí</h1>
     <p class="updated lang-show-en">Touring musician, producer, and the gear-obsessed mind behind TopMusicianGear</p>
@@ -143,7 +144,7 @@
       </div>
     </div>
 
-  </div>
+  </main>
 
   <footer style="padding: 32px; text-align: center; border-top: 1px solid var(--border);">
     <div style="display:flex;justify-content:center;gap:20px;margin-bottom:12px;flex-wrap:wrap">
