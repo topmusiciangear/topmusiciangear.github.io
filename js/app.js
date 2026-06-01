@@ -742,6 +742,10 @@ document.addEventListener("DOMContentLoaded", () => {
         renderGuideDetail(h);
       } else {
         renderGuideGrid();
+        const knownSections = ['guides', 'mysetup', 'about'];
+        if (knownSections.includes(h)) {
+          setTimeout(function() { scrollToSection(h); }, 300);
+        }
       }
     } else {
       renderGuideGrid();
