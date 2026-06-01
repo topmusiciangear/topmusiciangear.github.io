@@ -601,6 +601,7 @@ function buildSitemap() {
   const site = 'https://topmusiciangear.com';
   const staticPages = [
     { loc: '/', priority: '1.0', changefreq: 'weekly' },
+    { loc: '/about.html', priority: '0.7', changefreq: 'monthly' },
     { loc: '/contact.html', priority: '0.5', changefreq: 'monthly' },
     { loc: '/affiliate-disclosure.html', priority: '0.4', changefreq: 'monthly' },
     { loc: '/cookie-policy.html', priority: '0.4', changefreq: 'monthly' },
