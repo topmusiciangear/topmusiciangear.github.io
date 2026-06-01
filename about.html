@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me — Daniel Carnago | TopMusicianGear</title>
   <meta name="description" content="Daniel Carnago is a touring musician with 20+ years on the world's biggest stages. Learn about the experience behind TopMusicianGear's gear reviews and buying guides.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="About Me — Daniel Carnago | TopMusicianGear">
+  <meta property="og:description" content="Daniel Carnago is a touring musician with 20+ years on the world's biggest stages. Learn about the experience behind TopMusicianGear's gear reviews and buying guides.">
+  <meta property="og:url" content="https://topmusiciangear.com/about.html">
+  <meta property="og:site_name" content="TopMusicianGear">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:image" content="https://topmusiciangear.com/img/me-600.webp">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Me — Daniel Carnago | TopMusicianGear">
+  <meta name="twitter:description" content="Daniel Carnago is a touring musician with 20+ years on the world's biggest stages. Learn about the experience behind TopMusicianGear's gear reviews and buying guides.">
+  <meta name="twitter:image" content="https://topmusiciangear.com/img/me-600.webp">
   <link rel="canonical" href="https://topmusiciangear.com/about.html">
   <link rel="alternate" hreflang="x-default" href="https://topmusiciangear.com/about.html">
   <link rel="alternate" hreflang="en" href="https://topmusiciangear.com/about.html">
@@ -152,6 +167,9 @@
       });
     }
     setLang(lang);
+    document.querySelectorAll('h1.lang-show-es, h1.lang-show-en').forEach(function(el) {
+      if (el.offsetParent === null) el.remove();
+    });
   </script>
 </body>
 </html>

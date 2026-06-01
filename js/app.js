@@ -761,7 +761,10 @@ document.addEventListener("DOMContentLoaded", () => {
     renderGuideGrid();
   });
 
+  var productSearchTimer;
   document.getElementById("productSearchInput").addEventListener("input", e => {
+    clearTimeout(productSearchTimer);
+    productSearchTimer = setTimeout(function() {
     const q = e.target.value.toLowerCase().trim();
     const results = document.getElementById("productSearchResults");
     if (!q) {
@@ -784,6 +787,7 @@ document.addEventListener("DOMContentLoaded", () => {
     results.style.display = "block";
     results.innerHTML = '<div class="product-search-grid">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
     results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
+    }, 250);
   });
 
   document.querySelectorAll(".nav-link[data-nav]").forEach(btn => {
