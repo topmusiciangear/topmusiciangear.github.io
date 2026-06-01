@@ -717,10 +717,13 @@ function injectGuideJsonLd(guide) {
 document.addEventListener("DOMContentLoaded", () => {
   dataPromise.then(function() {
   var langParam = new URLSearchParams(window.location.search).get('lang');
+  var storedLang = localStorage.getItem("lang");
   if (langParam === 'es' || langParam === 'en') {
     currentLang = langParam;
+  } else if (storedLang === 'es' || storedLang === 'en') {
+    currentLang = storedLang;
   } else {
-    currentLang = document.documentElement.lang || "en";
+    currentLang = "en";
   }
   localStorage.setItem("lang", currentLang);
   document.documentElement.lang = currentLang;
