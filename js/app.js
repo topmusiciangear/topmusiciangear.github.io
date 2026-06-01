@@ -725,7 +725,7 @@ document.addEventListener("DOMContentLoaded", () => {
   localStorage.setItem("lang", currentLang);
   document.documentElement.lang = currentLang;
   document.documentElement.classList.add("lang-" + currentLang);
-  if ('scrollRestoration' in history) history.scrollRestoration = 'auto';
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   renderGuideCats();
   function onPageLoaded() {
@@ -755,8 +755,12 @@ document.addEventListener("DOMContentLoaded", () => {
     var sec = new URLSearchParams(window.location.search).get('section');
     if (sec && ['guides','mysetup','about'].indexOf(sec) !== -1) {
       setTimeout(function() {
-        location.hash = sec;
-      }, 200);
+        var el = document.getElementById(sec);
+        if (el) {
+          var y = el.getBoundingClientRect().top + window.pageYOffset - 72;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 800);
     }
   }
   if (document.readyState === 'complete') { onPageLoaded(); }
