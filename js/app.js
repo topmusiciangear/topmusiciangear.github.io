@@ -725,7 +725,7 @@ document.addEventListener("DOMContentLoaded", () => {
   localStorage.setItem("lang", currentLang);
   document.documentElement.lang = currentLang;
   document.documentElement.classList.add("lang-" + currentLang);
-  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if ('scrollRestoration' in history) history.scrollRestoration = 'auto';
   initLangSwitcher();
   renderGuideCats();
   function onPageLoaded() {
@@ -751,10 +751,12 @@ document.addEventListener("DOMContentLoaded", () => {
     initVideoIntro();
     translatePage();
 
-    // ?section=mysetup|about|guides → scroll after everything is rendered
+    // scroll to section param after rendering
     var sec = new URLSearchParams(window.location.search).get('section');
     if (sec && ['guides','mysetup','about'].indexOf(sec) !== -1) {
-      setTimeout(function() { scrollToSection(sec); }, 600);
+      setTimeout(function() {
+        location.hash = sec;
+      }, 200);
     }
   }
   if (document.readyState === 'complete') { onPageLoaded(); }
