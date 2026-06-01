@@ -595,7 +595,7 @@ function injectGuideJsonLd(guide) {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
     "description": intro.substring(0, 155),
-    "author": { "@type": "Person", "name": "Daniel" },
+    "author": { "@type": "Person", "name": "Daniel Carnago", "url": "https://topmusiciangear.com/about.html" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": image,
     "datePublished": dPub, "dateModified": dMod,

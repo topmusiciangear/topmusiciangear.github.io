@@ -65,13 +65,13 @@ function criticalCss() {
 const dir = __dirname;
 
 // Load guide/product data from JSON, store meta from constants
-const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8'));
+const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8').replace(/^\ufeff/, ''));
 const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
 eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
 
 // Auto-increment cache busters from file modification times
 const cacheVerJs = Math.floor(fs.statSync(path.join(dir, 'js', 'app.js')).mtimeMs).toString(36);
-const cacheVerCss = Math.floor(fs.statSync(path.join(dir, 'css', 'style.css')).mtimeMs).toString(36);
+const cacheVerCss = Math.floor(fs.statSync(path.join(dir, 'css', 'style.min.css')).mtimeMs).toString(36);
 const today = new Date().toISOString().split('T')[0];
 
 
@@ -228,19 +228,22 @@ function buildGuidePage(guide, lang, idx) {
   <meta property="og:image:height" content="400">
   <meta property="og:site_name" content="TopMusicianGear">
   <meta property="og:locale" content="${isEs ? 'es_ES' : 'en_US'}">
+  <meta property="og:locale:alternate" content="${isEs ? 'en_US' : 'es_ES'}">
   <meta property="article:published_time" content="${dPub}">
   <meta property="article:modified_time" content="${dMod}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${d}">
-  <meta name="twitter:image" content="${fullImage}">`;
+  <meta name="twitter:image" content="${fullImage}">
+  <meta name="twitter:site" content="@Cuban3Beats">
+  <meta name="twitter:creator" content="@Cuban3Beats">`;
 
   // JSON-LD
   const ldArticle = {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
     "description": guideDesc(guide, intro, isEs),
-    "author": { "@type": "Person", "name": "Daniel" },
+    "author": { "@type": "Person", "name": "Daniel Carnago", "url": "https://topmusiciangear.com/about.html" },
     "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
     "image": fullImage,
     "datePublished": guideDates(guide, idx).published, "dateModified": guideDates(guide, idx).modified,
@@ -346,8 +349,8 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
   <style>${criticalCss()}</style>
-  <link rel="preload" as="style" href="/css/style.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/style.css?v=${cacheVerCss}"></noscript>
+  <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
   <link rel="preload" as="image" href="/img/me-600.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
