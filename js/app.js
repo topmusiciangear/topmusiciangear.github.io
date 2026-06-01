@@ -749,13 +749,6 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAbout();
     initVideoIntro();
     translatePage();
-    setTimeout(function() {
-      var h = window.location.hash;
-      if (h && ['#guides','#mysetup','#about'].indexOf(h) !== -1) {
-        var el = document.getElementById(h.slice(1));
-        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, 300);
   }
   if (document.readyState === 'complete') { onPageLoaded(); }
   else { window.addEventListener("load", onPageLoaded); }
