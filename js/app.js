@@ -751,12 +751,10 @@ document.addEventListener("DOMContentLoaded", () => {
     initVideoIntro();
     translatePage();
 
-    // scroll after everything is rendered (fixes layout-shift after renderGuideGrid etc.)
-    if (location.hash) {
-      var h2 = location.hash.slice(1);
-      if (['guides','mysetup','about'].indexOf(h2) !== -1) {
-        setTimeout(function() { scrollToSection(h2); }, 500);
-      }
+    // ?section=mysetup|about|guides → scroll after everything is rendered
+    var sec = new URLSearchParams(window.location.search).get('section');
+    if (sec && ['guides','mysetup','about'].indexOf(sec) !== -1) {
+      setTimeout(function() { scrollToSection(sec); }, 600);
     }
   }
   if (document.readyState === 'complete') { onPageLoaded(); }
