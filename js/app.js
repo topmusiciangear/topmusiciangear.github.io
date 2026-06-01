@@ -726,7 +726,7 @@ document.addEventListener("DOMContentLoaded", () => {
   localStorage.setItem("lang", currentLang);
   document.documentElement.lang = currentLang;
   document.documentElement.classList.add("lang-" + currentLang);
-  if ('scrollRestoration' in history) history.scrollRestoration = 'auto';
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   initLangSwitcher();
   renderGuideCats();
   function onPageLoaded() {
@@ -742,6 +742,10 @@ document.addEventListener("DOMContentLoaded", () => {
         renderGuideDetail(h);
       } else {
         renderGuideGrid();
+        const knownSections = ['guides', 'mysetup', 'about'];
+        if (knownSections.includes(h)) {
+          scrollToSection(h);
+        }
       }
     } else {
       renderGuideGrid();
