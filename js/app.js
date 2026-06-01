@@ -493,8 +493,7 @@ function showToast(msg) {
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  var heading = el.querySelector('.section-title') || el;
-  heading.scrollIntoView({ block: "start", behavior: "auto" });
+  el.scrollIntoView({ block: "start", behavior: "auto" });
 }
 
 function handleNavClick(target) {
@@ -756,7 +755,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (location.hash) {
       var h2 = location.hash.slice(1);
       if (['guides','mysetup','about'].indexOf(h2) !== -1) {
-        setTimeout(function() { scrollToSection(h2); }, 100);
+        setTimeout(function() { scrollToSection(h2); }, 500);
       }
     }
   }
