@@ -494,7 +494,9 @@ function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
   var heading = el.querySelector('.section-title') || el;
-  heading.scrollIntoView({ block: "start", behavior: "auto" });
+  var headerH = 64;
+  var rect = heading.getBoundingClientRect();
+  window.scrollBy({ top: rect.top - headerH, behavior: "smooth" });
 }
 
 function handleNavClick(target) {
@@ -744,7 +746,7 @@ document.addEventListener("DOMContentLoaded", () => {
         renderGuideGrid();
         const knownSections = ['guides', 'mysetup', 'about'];
         if (knownSections.includes(h)) {
-          setTimeout(function() { scrollToSection(h); }, 300);
+          setTimeout(function() { scrollToSection(h); }, 500);
         }
       }
     } else {
