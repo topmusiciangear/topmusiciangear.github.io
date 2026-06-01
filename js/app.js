@@ -750,18 +750,6 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAbout();
     initVideoIntro();
     translatePage();
-
-    // scroll to section param after rendering
-    var sec = new URLSearchParams(window.location.search).get('section');
-    if (sec && ['guides','mysetup','about'].indexOf(sec) !== -1) {
-      setTimeout(function() {
-        var el = document.getElementById(sec);
-        if (el) {
-          var y = el.getBoundingClientRect().top + window.pageYOffset - 72;
-          window.scrollTo({ top: y, behavior: 'smooth' });
-        }
-      }, 800);
-    }
   }
   if (document.readyState === 'complete') { onPageLoaded(); }
   else { window.addEventListener("load", onPageLoaded); }
