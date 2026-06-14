@@ -351,7 +351,6 @@ ${ogMeta}
   <style>${criticalCss()}</style>
   <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
-  <link rel="preload" as="image" href="/img/me-600.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
@@ -368,7 +367,6 @@ ${ogMeta}
 </head>
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
-  <div class="bg-hero" role="presentation"></div>
 
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
