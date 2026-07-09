@@ -763,8 +763,28 @@ nav {
   margin-bottom: 16px;
 }
 
-.about-content a:hover {
-  filter: brightness(1.4);
+.about-content a,
+.about-content a:link,
+.about-content a:visited {
+  filter: none;
+  transform: none;
+  scale: none;
+}
+.about-content a:hover,
+.about-content a:focus,
+.about-content a:active,
+.about-content a:focus-visible {
+  filter: none !important;
+  transform: none !important;
+  scale: none !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  letter-spacing: normal !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
+  outline: none !important;
+  transition: none !important;
+  box-shadow: none !important;
 }
 
 .about-credits {
