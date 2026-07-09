@@ -781,7 +781,7 @@ nav {
   font-weight: inherit !important;
   letter-spacing: normal !important;
   text-shadow: none !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
   outline: none !important;
   transition: none !important;
   box-shadow: none !important;
