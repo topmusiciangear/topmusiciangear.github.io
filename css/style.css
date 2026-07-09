@@ -764,7 +764,6 @@ nav {
 }
 
 .about-content a:hover {
-  text-decoration: underline;
   transform: scale(1.06);
   display: inline-block;
 }
