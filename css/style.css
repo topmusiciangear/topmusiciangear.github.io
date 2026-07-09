@@ -186,7 +186,7 @@ nav {
 .header-social {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 2px;
 }
 
 .header-social-link {
@@ -216,6 +216,19 @@ nav {
 }
 
 .header-social-link:hover .sb-icon {
+  opacity: 1;
+  filter: brightness(0) invert(1);
+}
+
+.header-social-link .fiverr-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.55;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.2s, filter 0.2s;
+}
+
+.header-social-link:hover .fiverr-icon {
   opacity: 1;
   filter: brightness(0) invert(1);
 }
