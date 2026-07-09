@@ -765,7 +765,8 @@ nav {
 
 .about-content a:hover {
   text-decoration: underline;
-  transform: scale(1.04);
+  transform: scale(1.06);
+  display: inline-block;
 }
 
 .about-credits {
