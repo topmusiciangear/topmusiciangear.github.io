@@ -764,8 +764,7 @@ nav {
 }
 
 .about-content a:hover {
-  transform: scale(1.02);
-  display: inline-block;
+  filter: brightness(1.4);
 }
 
 .about-credits {
