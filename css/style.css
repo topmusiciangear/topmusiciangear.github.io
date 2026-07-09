@@ -763,6 +763,11 @@ nav {
   margin-bottom: 16px;
 }
 
+.about-content a:hover {
+  text-decoration: underline;
+  transform: scale(1.04);
+}
+
 .about-credits {
   display: flex;
   flex-wrap: wrap;
