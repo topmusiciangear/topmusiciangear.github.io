@@ -1344,9 +1344,16 @@ footer ul li a:hover { color: var(--accent); }
   font-size: 18px;
   color: var(--text);
   line-height: 1.8;
-  margin-bottom: 40px;
-  padding: 0 0 32px;
+  margin-bottom: 12px;
+  padding: 0 0 8px;
   border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+  .guide-detail-intro {
+    margin-bottom: 8px;
+    padding: 0 0 6px;
+  }
 }
 
 .guide-section-heading {
