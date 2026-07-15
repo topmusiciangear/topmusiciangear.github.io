@@ -301,10 +301,37 @@ function renderGuideGrid() {
   }).join("");
 }
 
+function injectFaqSchema(id) {
+  const guide = guides.find(g => g.id === id);
+  if (!guide || !guide.featuredSnippet) return;
+  const fs = guide.featuredSnippet;
+  const oldScript = document.getElementById("faq-schema");
+  if (oldScript) oldScript.remove();
+  const isEs = currentLang === 'es';
+  const q1 = isEs && fs.faq_q1_es ? fs.faq_q1_es : fs.faq_q1_en;
+  const a1 = isEs && fs.faq_a1_es ? fs.faq_a1_es : fs.faq_a1_en;
+  const q2 = isEs && fs.faq_q2_es ? fs.faq_q2_es : fs.faq_q2_en;
+  const a2 = isEs && fs.faq_a2_es ? fs.faq_a2_es : fs.faq_a2_en;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": q1, "acceptedAnswer": { "@type": "Answer", "text": a1 } },
+      { "@type": "Question", "name": q2, "acceptedAnswer": { "@type": "Answer", "text": a2 } }
+    ]
+  };
+  const script = document.createElement("script");
+  script.id = "faq-schema";
+  script.type = "application/ld+json";
+  script.textContent = JSON.stringify(schema);
+  document.head.appendChild(script);
+}
+
 function renderGuideDetail(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
   currentGuideId = guide.id;
+  injectFaqSchema(id);
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "none";
   const grid = document.getElementById("guideGrid");

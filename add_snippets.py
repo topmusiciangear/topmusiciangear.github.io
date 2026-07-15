@@ -15,6 +15,8 @@ for fname in files:
     html = re.sub(r'\s*<div class="guide-featured-snippet">.*?</div>\s*', '', html, count=1, flags=re.DOTALL)
     html = re.sub(r'\s*<div class="featured-snippet">.*?</div>\s*', '', html, count=1, flags=re.DOTALL)
     html = re.sub(r'\s*<div class="featured-direct-answer">.*?</div>\s*', '', html, count=1, flags=re.DOTALL)
+    # Strip any existing FAQPage schema to avoid duplicates
+    html = re.sub(r'\s*<script type="application/ld\+json">.*?"@type"\s*:\s*"FAQPage".*?</script>\s*', '', html, flags=re.DOTALL)
     
     names = re.findall(r'guide-product-card-title">([^<]+)<', html)
     prices_text = re.findall(r'guide-product-card-price">\$?([0-9,.]+(?:k|K|m|M)?)', html)
@@ -297,6 +299,7 @@ for fname in files:
     best2 = make_best_for(name2, desc2, short2, type2)
     
     is_es = fname.endswith("_es.html")
+    guide_id = fname.replace('.html', '').replace('_es', '')
     
     if is_es:
         es_map_old = {
@@ -370,6 +373,49 @@ for fname in files:
         '      </div>'
     )
     
+    # Build FAQPage JSON-LD for position-zero optimization
+    if guide_id not in snippet_data:
+        snippet_data[guide_id] = {}
+    if is_es:
+        faq_q1 = short1 + " vs " + short2 + ": \u00bfCu\u00e1l deber\u00edas elegir?"
+        faq_a1 = snippet_text
+        faq_q2 = "\u00bfCu\u00e1l es la diferencia entre " + short1 + " y " + short2 + "?"
+        faq_a2 = "El " + short1 + " ($" + price1 + ") es ideal para " + best1_final.lower() + ". El " + short2 + " ($" + price2 + ") est\u00e1 dise\u00f1ado para " + best2_final.lower() + "."
+    else:
+        faq_q1 = short1 + " vs " + short2 + ": Which one should you choose?"
+        faq_a1 = snippet_text
+        faq_q2 = "What is the difference between the " + short1 + " and the " + short2 + "?"
+        faq_a2 = "The " + short1 + " ($" + price1 + ") is best for " + best1_final.lower() + ". The " + short2 + " ($" + price2 + ") is designed for " + best2_final.lower() + "."
+    
+    faq_data_obj = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": faq_q1,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": faq_a1
+                }
+            },
+            {
+                "@type": "Question",
+                "name": faq_q2,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": faq_a2
+                }
+            }
+        ]
+    }
+    
+    faq_json = json.dumps(faq_data_obj, ensure_ascii=False, indent=2)
+    faq_block = '\n<script type="application/ld+json">\n' + faq_json + '\n</script>\n'
+    
+    # Insert FAQ schema before </head>
+    html = re.sub(r'(</head>)', faq_block + r'\1', html)
+    
     # Insert snippet right after guide-detail-intro for consistent spacing
     pattern = r'(<div class="guide-detail-intro">.*?</div>)\s*'
     replacement = r'\1\n' + snippet + r'\n'
@@ -394,6 +440,10 @@ for fname in files:
         snippet_data[guide_id]['best2_es'] = best2_final
         snippet_data[guide_id]['key1_es'] = key1_short
         snippet_data[guide_id]['key2_es'] = key2_short
+        snippet_data[guide_id]['faq_q1_es'] = faq_q1
+        snippet_data[guide_id]['faq_a1_es'] = faq_a1
+        snippet_data[guide_id]['faq_q2_es'] = faq_q2
+        snippet_data[guide_id]['faq_a2_es'] = faq_a2
     else:
         snippet_data[guide_id]['title_en'] = title
         snippet_data[guide_id]['text_en'] = snippet_text
@@ -407,6 +457,10 @@ for fname in files:
         snippet_data[guide_id]['key2'] = key2_short
         snippet_data[guide_id]['best1_en'] = best1_final
         snippet_data[guide_id]['best2_en'] = best2_final
+        snippet_data[guide_id]['faq_q1_en'] = faq_q1
+        snippet_data[guide_id]['faq_a1_en'] = faq_a1
+        snippet_data[guide_id]['faq_q2_en'] = faq_q2
+        snippet_data[guide_id]['faq_a2_en'] = faq_a2
 
 print("\nDone!")
 
