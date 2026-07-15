@@ -58,7 +58,7 @@ function criticalCss() {
     '.guide-comp-table td.val{color:var(--text-secondary)}',
     '.guide-comp-title{font-size:22px;font-weight:700;margin:40px 0 16px;text-align:center}',
     '.guide-comp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}',
-    '@media(max-width:768px){.guide-comp-table{font-size:11px}.guide-comp-table th,.guide-comp-table td{padding:6px 4px}.guide-comp-title{font-size:17px;margin:24px 0 12px}}',
+    '@media(max-width:768px){.guide-comp-table{font-size:11px}.guide-comp-table th,.guide-comp-table td{padding:6px 4px}.guide-comp-table th,.guide-comp-table td.label{white-space:normal;word-break:break-word}.guide-comp-title{font-size:17px;margin:24px 0 12px;text-align:left}}',
 
     '.stats-bar{background:rgba(10,10,10,0.5);border-bottom:1px solid rgba(255,255,255,0.05);padding:28px 32px}',
     '.stats-inner{max-width:none;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}',
