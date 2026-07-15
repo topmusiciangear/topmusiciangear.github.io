@@ -627,6 +627,11 @@ function fadeVideoAudio(video, target, duration) {
 
 function injectGuideJsonLd(guide) {
   document.querySelectorAll('script[data-guide-jsonld]').forEach(el => el.remove());
+  // Remove static schemas (added by add_snippets.py) to avoid duplicates
+  ['schema-article', 'schema-itemlist', 'schema-breadcrumb'].forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) el.remove();
+  });
   var canon = document.querySelector('link[rel="canonical"]');
   if (canon) {
     canon.href = 'https://topmusiciangear.com/guides/' + guide.id + '.html';

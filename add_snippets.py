@@ -96,8 +96,11 @@ for fname in files:
     html = re.sub(r'\s*<div class="guide-featured-snippet">.*?</div>\s*', '', html, count=1, flags=re.DOTALL)
     html = re.sub(r'\s*<div class="featured-snippet">.*?</div>\s*', '', html, count=1, flags=re.DOTALL)
     html = re.sub(r'\s*<div class="featured-direct-answer">.*?</div>\s*', '', html, count=1, flags=re.DOTALL)
-    # Strip any existing FAQPage schema to avoid duplicates
+    # Strip any existing FAQPage, Article, ItemList, Product, BreadcrumbList schemas
     html = re.sub(r'\s*<script type="application/ld\+json">.*?"@type"\s*:\s*"FAQPage".*?</script>\s*', '', html, flags=re.DOTALL)
+    html = re.sub(r'\s*<script type="application/ld\+json">.*?"@type"\s*:\s*"Article".*?</script>\s*', '', html, flags=re.DOTALL)
+    html = re.sub(r'\s*<script type="application/ld\+json">.*?"@type"\s*:\s*"ItemList".*?</script>\s*', '', html, flags=re.DOTALL)
+    html = re.sub(r'\s*<script type="application/ld\+json">.*?"@type"\s*:\s*"BreadcrumbList".*?</script>\s*', '', html, flags=re.DOTALL)
     
     names = re.findall(r'guide-product-card-title">([^<]+)<', html)
     prices_text = re.findall(r'guide-product-card-price">\$?([0-9,.]+(?:k|K|m|M)?)', html)
@@ -547,10 +550,116 @@ for fname in files:
     }
     
     faq_json = json.dumps(faq_data_obj, ensure_ascii=False, indent=2)
-    faq_block = '\n<script type="application/ld+json">\n' + faq_json + '\n</script>\n'
+    faq_block = '\n<script type="application/ld+json" id="faq-schema">\n' + faq_json + '\n</script>\n'
     
-    # Insert FAQ schema before </head>
-    html = re.sub(r'(</head>)', faq_block + r'\1', html)
+    # Build additional structured data for SEO
+    # Extract existing meta from HTML
+    canonical = re.search(r'<link rel="canonical" href="([^"]+)"', html)
+    canonical = canonical.group(1) if canonical else ("https://topmusiciangear.com/guides/" + fname)
+    og_image = re.search(r'<meta property="og:image" content="([^"]+)"', html)
+    og_image = og_image.group(1) if og_image else ""
+    meta_desc = re.search(r'<meta name="description" content="([^"]+)"', html)
+    meta_desc = meta_desc.group(1) if meta_desc else ""
+    pub_date = re.search(r'<meta property="article:published_time" content="([^"]+)"', html)
+    pub_date = pub_date.group(1) if pub_date else "2026-06-14"
+    mod_date = re.search(r'<meta property="article:modified_time" content="([^"]+)"', html)
+    mod_date = mod_date.group(1) if mod_date else "2026-06-14"
+    
+    # Helper to parse price strings like "1.5k" or "199"
+    def parse_price(s):
+        s = s.replace(',', '').replace('$', '').strip()
+        if s.endswith('k') or s.endswith('K'):
+            return str(int(float(s[:-1]) * 1000))
+        try:
+            return str(int(float(s)))
+        except:
+            return s
+    
+    def safe_str(v, default=""):
+        return v if v else default
+    
+    # Category name for breadcrumb
+    cat_breadcrumb = current_type + "s" if current_type else "Products"
+    
+    # Product data from loaded JSON
+    b1 = p1["brand"] if p1 else ""
+    b2 = p2["brand"] if p2 else ""
+    r1 = p1["rating"] if p1 else 0
+    r2 = p2["rating"] if p2 else 0
+    rev1 = p1.get("reviews", 0) if p1 else 0
+    rev2 = p2.get("reviews", 0) if p2 else 0
+    img1 = p1["img"] if p1 and p1.get("img") else ""
+    img2 = p2["img"] if p2 and p2.get("img") else ""
+    
+    # Article schema
+    article_obj = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": meta_desc or snippet_text,
+        "author": {"@type": "Person", "name": "Daniel Carnago", "url": "https://topmusiciangear.com/about.html"},
+        "publisher": {"@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com",
+            "logo": {"@type": "ImageObject", "url": "https://topmusiciangear.com/img/favicon.png"}},
+        "datePublished": pub_date,
+        "dateModified": mod_date,
+        "image": og_image,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}
+    }
+    
+    # ItemList with Product items
+    item_list_obj = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1,
+             "item": {"@type": "Product", "name": name1,
+                      "brand": {"@type": "Brand", "name": b1},
+                      "description": safe_str(desc1),
+                      "image": img1,
+                      "offers": {"@type": "Offer", "price": parse_price(price1), "priceCurrency": "USD"},
+                      "aggregateRating": {"@type": "AggregateRating", "ratingValue": r1, "reviewCount": rev1}
+                      if r1 else {"@type": "AggregateRating", "ratingValue": r1}}},
+            {"@type": "ListItem", "position": 2,
+             "item": {"@type": "Product", "name": name2,
+                      "brand": {"@type": "Brand", "name": b2},
+                      "description": safe_str(desc2),
+                      "image": img2,
+                      "offers": {"@type": "Offer", "price": parse_price(price2), "priceCurrency": "USD"},
+                      "aggregateRating": {"@type": "AggregateRating", "ratingValue": r2, "reviewCount": rev2}
+                      if r2 else {"@type": "AggregateRating", "ratingValue": r2}}}
+        ]
+    }
+    
+    # BreadcrumbList schema
+    bc_title = title.split(' \\u2014 ')[0] if ' \\u2014 ' in title else title
+    breadcrumb_obj = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://topmusiciangear.com/#guides"},
+            {"@type": "ListItem", "position": 3, "name": cat_breadcrumb, "item": canonical},
+            {"@type": "ListItem", "position": 4, "name": bc_title, "item": canonical}
+        ]
+    }
+    
+    schema_ids = ["schema-article", "schema-itemlist", "schema-breadcrumb"]
+    extra_schemas = ""
+    for i, obj in enumerate([article_obj, item_list_obj, breadcrumb_obj]):
+        extra_schemas += '\n<script type="application/ld+json" id="' + schema_ids[i] + '">\n' + json.dumps(obj, ensure_ascii=False, indent=2) + '\n</script>\n'
+    
+    # Additional meta tags
+    image_alt = title.split(' \u2014 ')[0] if ' \u2014 ' in title else title
+    meta_block = ''
+    if not re.search(r'<meta name="author"', html):
+        meta_block += '\n  <meta name="author" content="Daniel Carnago">'
+    if not re.search(r'<meta property="og:image:alt"', html):
+        meta_block += '\n  <meta property="og:image:alt" content="' + image_alt.replace('"', '&quot;') + '">'
+    if not re.search(r'<meta name="twitter:image:alt"', html):
+        meta_block += '\n  <meta name="twitter:image:alt" content="' + image_alt.replace('"', '&quot;') + '">'
+
+    # Insert all schemas and meta before </head>
+    html = re.sub(r'(</head>)', faq_block + extra_schemas + meta_block + '\n' + r'\1', html)
     
     # Insert snippet right after guide-detail-intro for consistent spacing
     pattern = r'(<div class="guide-detail-intro">.*?</div>)\s*'

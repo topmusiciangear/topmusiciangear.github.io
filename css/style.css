@@ -2022,3 +2022,14 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   background: var(--bg-card-hover);
 }
 
+@media print {
+  body { background: #fff !important; color: #000 !important; }
+  header, .header-tagline-bar, .hero, .bg-hero, .hamburger, .mobile-nav, .lang-switcher, .header-social,
+  .sort-bar, #guideCats, .back-to-guides, .footer-telegram, .skip-link,
+  #cookie-banner, #disclosureModal,
+  .guide-card, .cat-card, nav, .hero-actions, .btn-primary, .btn-secondary,
+  .featured-snippet-table tbody tr:hover td { background: transparent !important; }
+  .featured-snippet, .guide-detail, .guide-section, .guide-product-card { break-inside: avoid; }
+  a { color: #000 !important; text-decoration: underline; }
+}
+
