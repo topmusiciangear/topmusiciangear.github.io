@@ -51,6 +51,13 @@ function criticalCss() {
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
+    '.guide-comp-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;contain:layout style}',
+    '.guide-comp-table th,.guide-comp-table td{padding:12px 16px;border:1px solid var(--border);text-align:left}',
+    '.guide-comp-table th{background:var(--surface);font-weight:700;color:var(--text);white-space:nowrap}',
+    '.guide-comp-table td.label{font-weight:600;color:var(--accent);white-space:nowrap;width:1%}',
+    '.guide-comp-table td.val{color:var(--text-secondary)}',
+    '.guide-comp-title{font-size:22px;font-weight:700;margin:40px 0 16px;text-align:center}',
+
     '.stats-bar{background:rgba(10,10,10,0.5);border-bottom:1px solid rgba(255,255,255,0.05);padding:28px 32px}',
     '.stats-inner{max-width:none;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}',
     '.stat-item{text-align:center;padding:8px;contain:layout style}',
@@ -437,6 +444,13 @@ ${ogMeta}
       </div>
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
+      ${guide.comparison ? `<div class="guide-comp-wrap">
+        <h2 class="guide-comp-title">${isEs ? 'Comparación Rápida' : 'Quick Comparison'}</h2>
+        <div class="guide-comp-scroll"><table class="guide-comp-table">
+          <thead><tr><th></th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name1_es || guide.featuredSnippet.name1_en : (guide.featuredSnippet ? guide.featuredSnippet.name1_en : '')}</th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name2_es || guide.featuredSnippet.name2_en : (guide.featuredSnippet ? guide.featuredSnippet.name2_en : '')}</th></tr></thead>
+          <tbody>${guide.comparison.rows.map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
+        </table></div>
+      </div>` : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-verdict">
         <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
