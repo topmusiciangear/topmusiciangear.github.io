@@ -381,9 +381,14 @@ function renderGuideDetail(id) {
           </thead>
           <tbody>
             <tr><td class="fs-label">${isEs ? "Precio" : "Price"}</td><td>$${fs.price1}${isEs ? " USD" : ""}</td><td>$${fs.price2}${isEs ? " USD" : ""}</td></tr>
-            <tr><td class="fs-label">${isEs ? "Tipo" : "Type"}</td><td>${fs.type1}</td><td>${fs.type2}</td></tr>
             <tr><td class="fs-label">${isEs ? "Característica Clave" : "Key Feature"}</td><td>${isEs && fs.key1_es ? fs.key1_es : fs.key1}</td><td>${isEs && fs.key2_es ? fs.key2_es : fs.key2}</td></tr>
             <tr><td class="fs-label">${isEs ? "Ideal Para" : "Best For"}</td><td>${isEs && fs.best1_es ? fs.best1_es : fs.best1_en}</td><td>${isEs && fs.best2_es ? fs.best2_es : fs.best2_en}</td></tr>
+            <tr><td class="fs-label">${isEs ? "Marca" : "Brand"}</td><td>${fs.brand1 || ''}</td><td>${fs.brand2 || ''}</td></tr>
+            <tr><td class="fs-label">${isEs ? "Puntuación" : "Rating"}</td><td>${fs.rating1 ? fs.rating1 + '/5' : ''}</td><td>${fs.rating2 ? fs.rating2 + '/5' : ''}</td></tr>
+            ${fs.specs && fs.specs.length ? fs.specs.map(function(spec) {
+              var label = isEs && spec.label_es ? spec.label_es : spec.label_en;
+              return '<tr><td class="fs-label">' + label + '</td><td>' + (spec.val1 || '') + '</td><td>' + (spec.val2 || '') + '</td></tr>';
+            }).join('') : ''}
           </tbody>
         </table>
       </div>

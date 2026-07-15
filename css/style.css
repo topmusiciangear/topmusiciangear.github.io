@@ -1972,3 +1972,53 @@ html.lang-es .cookie-lang-en { display: none !important; }
 
 /* Hide any store chip linking to fender.com */
 a.chip-store[href*="fender.com"] { display: none !important; }
+
+/* Featured Snippet */
+.featured-snippet {
+  background: var(--bg-card);
+  border: 1px solid var(--text);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin: 24px 0;
+}
+.featured-snippet-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+.featured-snippet-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  padding: 16px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+}
+.featured-snippet-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.featured-snippet-table thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--bg-secondary);
+  border-bottom: 2px solid var(--text);
+}
+.featured-snippet-table tbody td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+.featured-snippet-table tbody td.fs-label {
+  font-weight: 600;
+  color: var(--text);
+}
+.featured-snippet-table tbody tr:hover td {
+  background: var(--bg-card-hover);
+}
+

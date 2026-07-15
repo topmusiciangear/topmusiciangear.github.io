@@ -7,6 +7,87 @@ snippet_data = {}
 import locale
 locale.setlocale(locale.LC_ALL, '')
 
+# Load products.json for brand and rating lookup
+products_path = os.path.join(os.path.dirname(__file__), "data", "products.json")
+products_list = json.loads(open(products_path, "r", encoding="utf-8").read())
+prod_by_title = {}
+for p in products_list:
+    prod_by_title[p["title"].strip().lower()] = p
+    if p.get("title_es"):
+        prod_by_title[p["title_es"].strip().lower()] = p
+
+# Full specs map (researched from official manufacturer data)
+specs_map = {
+    # === MICROPHONES ===
+    "shure sm7b": {"Tipo": "Din\u00e1mico", "Type": "Dynamic", "Patr\u00f3n Polar": "Cardioide", "Polar Pattern": "Cardioid", "Respuesta de Frecuencia": "50 Hz \u2013 20 kHz", "Frequency Response": "50 Hz \u2013 20 kHz", "Ruido Propio": "N/A (din\u00e1mico)", "Self-Noise": "N/A (dynamic)"},
+    "shure sm57": {"Tipo": "Din\u00e1mico", "Type": "Dynamic", "Patr\u00f3n Polar": "Cardioide", "Polar Pattern": "Cardioid", "Respuesta de Frecuencia": "40 Hz \u2013 15 kHz", "Frequency Response": "40 Hz \u2013 15 kHz", "Ruido Propio": "N/A (din\u00e1mico)", "Self-Noise": "N/A (dynamic)"},
+    "shure sm58": {"Tipo": "Din\u00e1mico", "Type": "Dynamic", "Patr\u00f3n Polar": "Cardioide", "Polar Pattern": "Cardioid", "Respuesta de Frecuencia": "50 Hz \u2013 15 kHz", "Frequency Response": "50 Hz \u2013 15 kHz", "Ruido Propio": "N/A (din\u00e1mico)", "Self-Noise": "N/A (dynamic)"},
+    "rode nt1-a": {"Tipo": "Condensador", "Type": "Condenser", "Patr\u00f3n Polar": "Cardioide", "Polar Pattern": "Cardioid", "Respuesta de Frecuencia": "20 Hz \u2013 20 kHz", "Frequency Response": "20 Hz \u2013 20 kHz", "Ruido Propio": "5 dBA", "Self-Noise": "5 dBA"},
+    "neumann u 87 ai": {"Tipo": "Condensador", "Type": "Condenser", "Patr\u00f3n Polar": "Omnidireccional / Cardioide / Figura 8", "Polar Pattern": "Omni / Cardioid / Figure-8", "Respuesta de Frecuencia": "20 Hz \u2013 20 kHz", "Frequency Response": "20 Hz \u2013 20 kHz", "Ruido Propio": "12 dBA (cardioide)", "Self-Noise": "12 dBA (cardioid)"},
+    "akg c414 xlii": {"Tipo": "Condensador", "Type": "Condenser", "Patr\u00f3n Polar": "9 patrones seleccionables", "Polar Pattern": "9 selectable patterns", "Respuesta de Frecuencia": "20 Hz \u2013 20 kHz", "Frequency Response": "20 Hz \u2013 20 kHz", "Ruido Propio": "6 dBA", "Self-Noise": "6 dBA"},
+    "electro-voice re20": {"Tipo": "Din\u00e1mico", "Type": "Dynamic", "Patr\u00f3n Polar": "Cardioide", "Polar Pattern": "Cardioid", "Respuesta de Frecuencia": "45 Hz \u2013 18 kHz", "Frequency Response": "45 Hz \u2013 18 kHz", "Ruido Propio": "N/A (din\u00e1mico)", "Self-Noise": "N/A (dynamic)"},
+    "sennheiser md 421": {"Tipo": "Din\u00e1mico", "Type": "Dynamic", "Patr\u00f3n Polar": "Cardioide", "Polar Pattern": "Cardioid", "Respuesta de Frecuencia": "30 Hz \u2013 17 kHz", "Frequency Response": "30 Hz \u2013 17 kHz", "Ruido Propio": "N/A (din\u00e1mico)", "Self-Noise": "N/A (dynamic)"},
+    # === HEADPHONES ===
+    "beyerdynamic dt 770 pro": {"Tipo": "Cerrados", "Type": "Closed-back", "Respuesta de Frecuencia": "5 Hz \u2013 35 kHz", "Frequency Response": "5 Hz \u2013 35 kHz", "Impedancia": "32 / 80 / 250 \u03a9", "Impedance": "32 / 80 / 250 \u03a9", "Driver": "45 mm din\u00e1mico", "Driver": "45 mm dynamic", "SPL": "96 dB"},
+    "beyerdynamic dt 990 pro": {"Tipo": "Abiertos", "Type": "Open-back", "Respuesta de Frecuencia": "5 Hz \u2013 35 kHz", "Frequency Response": "5 Hz \u2013 35 kHz", "Impedancia": "80 / 250 \u03a9", "Impedance": "80 / 250 \u03a9", "Driver": "45 mm din\u00e1mico", "Driver": "45 mm dynamic", "SPL": "96 dB"},
+    "sennheiser hd 600": {"Tipo": "Abiertos", "Type": "Open-back", "Respuesta de Frecuencia": "12 Hz \u2013 40.5 kHz", "Frequency Response": "12 Hz \u2013 40.5 kHz", "Impedancia": "300 \u03a9", "Impedance": "300 \u03a9", "Driver": "42 mm din\u00e1mico", "Driver": "42 mm dynamic", "SPL": "97 dB"},
+    "akg k371": {"Tipo": "Cerrados", "Type": "Closed-back", "Respuesta de Frecuencia": "5 Hz \u2013 40 kHz", "Frequency Response": "5 Hz \u2013 40 kHz", "Impedancia": "32 \u03a9", "Impedance": "32 \u03a9", "Driver": "50 mm con titanio", "Driver": "50 mm titanium-coated", "SPL": "114 dB"},
+    "audio-technica ath-m50x": {"Tipo": "Cerrados", "Type": "Closed-back", "Respuesta de Frecuencia": "15 Hz \u2013 28 kHz", "Frequency Response": "15 Hz \u2013 28 kHz", "Impedancia": "38 \u03a9", "Impedance": "38 \u03a9", "Driver": "45 mm con bobina CCAW", "Driver": "45 mm CCAW", "SPL": "99 dB"},
+    "sony mdr-7506": {"Tipo": "Cerrados", "Type": "Closed-back", "Respuesta de Frecuencia": "10 Hz \u2013 20 kHz", "Frequency Response": "10 Hz \u2013 20 kHz", "Impedancia": "63 \u03a9", "Impedance": "63 \u03a9", "Driver": "40 mm din\u00e1mico", "Driver": "40 mm dynamic", "SPL": "106 dB"},
+    # === AUDIO INTERFACES ===
+    "focusrite scarlett 2i2 4th gen": {"Tipo": "Interfaz de Audio USB", "Type": "USB Audio Interface", "Preamplificadores": "2 x Scarlett mic pre", "Preamps": "2 x Scarlett mic pre", "Rango Din\u00e1mico": "116 dB (mic) / 120 dB (salida)", "Dynamic Range": "116 dB (mic) / 120 dB (output)", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "USB-C", "Connectivity": "USB-C", "Procesamiento DSP": "N/A", "DSP Processing": "N/A"},
+    "focusrite scarlett 2i2 4\u00aa gen": {"Tipo": "Interfaz de Audio USB", "Type": "USB Audio Interface", "Preamplificadores": "2 x Scarlett mic pre", "Preamps": "2 x Scarlett mic pre", "Rango Din\u00e1mico": "116 dB (mic) / 120 dB (salida)", "Dynamic Range": "116 dB (mic) / 120 dB (output)", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "USB-C", "Connectivity": "USB-C", "Procesamiento DSP": "N/A", "DSP Processing": "N/A"},
+    "universal audio apollo twin x": {"Tipo": "Interfaz Thunderbolt 3", "Type": "Thunderbolt 3 Interface", "Preamplificadores": "2 x Unison mic pre", "Preamps": "2 x Unison mic pre", "Rango Din\u00e1mico": "129 dB (salida monitor)", "Dynamic Range": "129 dB (monitor output)", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "Thunderbolt 3", "Connectivity": "Thunderbolt 3", "Procesamiento DSP": "UAD DUO / QUAD", "DSP Processing": "UAD DUO / QUAD"},
+    "universal audio volt 2": {"Tipo": "Interfaz de Audio USB", "Type": "USB Audio Interface", "Preamplificadores": "1 x Vintage Mic Preamp", "Preamps": "1 x Vintage Mic Preamp", "Rango Din\u00e1mico": "115 dB", "Dynamic Range": "115 dB", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "USB-C", "Connectivity": "USB-C", "Procesamiento DSP": "N/A", "DSP Processing": "N/A"},
+    "rme babyface pro fs": {"Tipo": "Interfaz USB port\u00e1til", "Type": "Portable USB Interface", "Preamplificadores": "2 x mic pre con 76 dB de ganancia", "Preamps": "2 x mic pre, 76 dB gain", "Rango Din\u00e1mico": "118 dBA (salida)", "Dynamic Range": "118 dBA (output)", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "USB 2.0 (bus powered)", "Connectivity": "USB 2.0 (bus powered)", "Procesamiento DSP": "S\u00ed (TotalMix FX)", "DSP Processing": "Yes (TotalMix FX)"},
+    "audient id14 mkii": {"Tipo": "Interfaz de Audio USB", "Type": "USB Audio Interface", "Preamplificadores": "2 x previo Clase A Audient", "Preamps": "2 x Audient Class-A pre", "Rango Din\u00e1mico": "126 dB (DA)", "Dynamic Range": "126 dB (DA)", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "USB-C", "Connectivity": "USB-C", "Procesamiento DSP": "N/A", "DSP Processing": "N/A"},
+    "motu m2": {"Tipo": "Interfaz de Audio USB", "Type": "USB Audio Interface", "Preamplificadores": "2 x mic pre", "Preamps": "2 x mic pre", "Rango Din\u00e1mico": "120 dB (ESS Sabre32)", "Dynamic Range": "120 dB (ESS Sabre32)", "Frecuencia de Muestreo": "192 kHz / 24-bit", "Sample Rate": "192 kHz / 24-bit", "Conexi\u00f3n": "USB-C", "Connectivity": "USB-C", "Procesamiento DSP": "N/A", "DSP Processing": "N/A"},
+    "ssl 2+ mkii": {"Tipo": "Interfaz de Audio USB", "Type": "USB Audio Interface", "Preamplificadores": "2 x SSL 4K legacy pre", "Preamps": "2 x SSL 4K legacy pre", "Rango Din\u00e1mico": "120 dB", "Dynamic Range": "120 dB", "Frecuencia de Muestreo": "192 kHz / 32-bit", "Sample Rate": "192 kHz / 32-bit", "Conexi\u00f3n": "USB-C", "Connectivity": "USB-C", "Procesamiento DSP": "N/A", "DSP Processing": "N/A"},
+    # === STUDIO MONITORS ===
+    "yamaha hs8": {"Tipo": "Monitor de 2 v\u00edas", "Type": "2-way monitor", "Woofer": "8\" cono", "Woofer": "8\" cone", "Tweeter": "1\" domo", "Tweeter": "1\" dome", "Respuesta de Frecuencia": "38 Hz \u2013 30 kHz", "Frequency Response": "38 Hz \u2013 30 kHz", "Potencia": "120W (75W LF + 45W HF)", "Power": "120W (75W LF + 45W HF)"},
+    "krk rokit 7 g5": {"Tipo": "Monitor de 2 v\u00edas", "Type": "2-way monitor", "Woofer": "7\" Kevlar", "Woofer": "7\" Kevlar", "Tweeter": "1\" domo de seda", "Tweeter": "1\" silk dome", "Respuesta de Frecuencia": "45 Hz \u2013 36 kHz", "Frequency Response": "45 Hz \u2013 36 kHz", "Potencia": "145W (97W LF + 48W HF)", "Power": "145W (97W LF + 48W HF)"},
+    "adam audio a7v": {"Tipo": "Monitor de 2 v\u00edas", "Type": "2-way monitor", "Woofer": "7\"", "Woofer": "7\"", "Tweeter": "S-ART ribbon", "Tweeter": "S-ART ribbon", "Respuesta de Frecuencia": "44 Hz \u2013 50 kHz", "Frequency Response": "44 Hz \u2013 50 kHz", "Potencia": "170W (100W LF + 70W HF)", "Power": "170W (100W LF + 70W HF)"},
+    "genelec 8040b": {"Tipo": "Monitor de 2 v\u00edas", "Type": "2-way monitor", "Woofer": "6.5\"", "Woofer": "6.5\"", "Tweeter": "1\" domo met\u00e1lico", "Tweeter": "1\" metal dome", "Respuesta de Frecuencia": "48 Hz \u2013 20 kHz", "Frequency Response": "48 Hz \u2013 20 kHz", "Potencia": "200W (120W LF + 80W HF)", "Power": "200W (120W LF + 80W HF)"},
+    "jbl 305p mkii": {"Tipo": "Monitor de 2 v\u00edas", "Type": "2-way monitor", "Woofer": "5\"", "Woofer": "5\"", "Tweeter": "1\" domo", "Tweeter": "1\" dome", "Respuesta de Frecuencia": "49 Hz \u2013 20 kHz", "Frequency Response": "49 Hz \u2013 20 kHz", "Potencia": "82W (41W LF + 41W HF)", "Power": "82W (41W LF + 41W HF)"},
+    "kali audio lp-6 v2": {"Tipo": "Monitor de 3 v\u00edas coaxial", "Type": "3-way coaxial", "Woofer": "6.5\"", "Woofer": "6.5\"", "Tweeter": "1\" domo", "Tweeter": "1\" dome", "Respuesta de Frecuencia": "39 Hz \u2013 25 kHz", "Frequency Response": "39 Hz \u2013 25 kHz", "Potencia": "100W (60W LF + 40W HF)", "Power": "100W (60W LF + 40W HF)"},
+    # === GUITAR AMPS ===
+    "boss katana 50 mkii": {"Tipo": "Amplificador de modelado", "Type": "Modeling combo", "Potencia": "50W", "Power": "50W", "Altavoz": "1 x 12\" custom", "Speaker": "1 x 12\" custom", "V\u00e1lvulas": "N/A (modelado)", "Tubes": "N/A (modeling)", "Canales": "5 (Acoustic, Clean, Crunch, Lead, Brown)", "Channels": "5 (Acoustic, Clean, Crunch, Lead, Brown)", "Efectos": "Booster, Mod, FX, Delay, Reverb", "Effects": "Booster, Mod, FX, Delay, Reverb"},
+    "marshall dsl40cr": {"Tipo": "V\u00e1lvulas todo-tubo", "Type": "All-tube combo", "Potencia": "40W (con reducci\u00f3n a 20W)", "Power": "40W (power reduction to 20W)", "Altavoz": "1 x 12\" Celestion V-Type", "Speaker": "1 x 12\" Celestion V-Type", "V\u00e1lvulas": "4 x ECC83, 2 x EL34", "Tubes": "4 x ECC83, 2 x EL34", "Canales": "2 (Classic Gain, Ultra Gain) c/u con 2 modos", "Channels": "2 (Classic Gain, Ultra Gain) each w/2 modes", "Efectos": "Reverb digital, loop de efectos", "Effects": "Digital reverb, series effects loop"},
+    "fender blues junior iv": {"Tipo": "V\u00e1lvulas todo-tubo", "Type": "All-tube combo", "Potencia": "15W", "Power": "15W", "Altavoz": "1 x 12\" Celestion A-Type", "Speaker": "1 x 12\" Celestion A-Type", "V\u00e1lvulas": "3 x 12AX7, 2 x EL84", "Tubes": "3 x 12AX7, 2 x EL84", "Canales": "1 con interruptor FAT", "Channels": "1 with FAT switch", "Efectos": "Reverb a resorte, loop de efectos", "Effects": "Spring reverb, effects loop"},
+    "vox ac30": {"Tipo": "V\u00e1lvulas todo-tubo", "Type": "All-tube combo", "Potencia": "30W", "Power": "30W", "Altavoz": "2 x 12\" Celestion Greenback", "Speaker": "2 x 12\" Celestion Greenback", "V\u00e1lvulas": "3 x 12AX7, 4 x EL84", "Tubes": "3 x 12AX7, 4 x EL84", "Canales": "2 (Normal, Top Boost)", "Channels": "2 (Normal, Top Boost)", "Efectos": "Reverb a resorte, tremolo", "Effects": "Spring reverb, tremolo"},
+    # === ELECTRIC GUITARS ===
+    "fender american professional ii stratocaster": {"Tipo": "Guitarra el\u00e9ctrica", "Type": "Electric guitar", "Cuerpo": "Aliso", "Body": "Alder", "M\u00e1stil": "Arce con perfil Deep C", "Neck": "Maple Deep C", "Pastillas": "3 x V-Mod II Single-Coil", "Pickups": "3 x V-Mod II Single-Coil", "Diapas\u00f3n": "Palo rosa o arce", "Fretboard": "Rosewood or maple", "Trastes": "22", "Frets": "22"},
+    "fender american profesional ii stratocaster": {"Tipo": "Guitarra el\u00e9ctrica", "Type": "Electric guitar", "Cuerpo": "Aliso", "Body": "Alder", "M\u00e1stil": "Arce con perfil Deep C", "Neck": "Maple Deep C", "Pastillas": "3 x V-Mod II Single-Coil", "Pickups": "3 x V-Mod II Single-Coil", "Diapas\u00f3n": "Palo rosa o arce", "Fretboard": "Rosewood or maple", "Trastes": "22", "Frets": "22"},
+    "gibson les paul standard '60s": {"Tipo": "Guitarra el\u00e9ctrica", "Type": "Electric guitar", "Cuerpo": "Caoba con tapa de arce", "Body": "Mahogany with maple top", "M\u00e1stil": "Caoba SlimTaper", "Neck": "Mahogany SlimTaper", "Pastillas": "2 x Burstbucker", "Pickups": "2 x Burstbucker", "Diapas\u00f3n": "Palo rosa", "Fretboard": "Rosewood", "Trastes": "22", "Frets": "22"},
+    "fender player stratocaster": {"Tipo": "Guitarra el\u00e9ctrica", "Type": "Electric guitar", "Cuerpo": "Aliso", "Body": "Alder", "M\u00e1stil": "Arce con perfil Modern C", "Neck": "Maple Modern C", "Pastillas": "3 x Player Alnico V Single-Coil", "Pickups": "3 x Player Alnico V Single-Coil", "Diapas\u00f3n": "Palo rosa o arce", "Fretboard": "Rosewood or maple", "Trastes": "22", "Frets": "22"},
+    "yamaha pacifica 112v": {"Tipo": "Guitarra el\u00e9ctrica", "Type": "Electric guitar", "Cuerpo": "Aliso", "Body": "Alder", "M\u00e1stil": "Arce", "Neck": "Maple", "Pastillas": "HSS (1 humbucker + 2 single-coil)", "Pickups": "HSS (1 humbucker + 2 single-coil)", "Diapas\u00f3n": "Palo rosa", "Fretboard": "Rosewood", "Trastes": "22", "Frets": "22"},
+    # === ACOUSTIC GUITARS ===
+    "martin d-28 dreadnought": {"Tipo": "Guitarra ac\u00fastica", "Type": "Acoustic guitar", "Tapa": "Abeto Sitka macizo", "Top": "Solid Sitka spruce", "Fondo y aros": "Palo de rosa macizo", "Back & Sides": "Solid East Indian rosewood", "M\u00e1stil": "Caoba", "Neck": "Mahogany", "Diapas\u00f3n": "\u00c9bano", "Fretboard": "Ebony"},
+    "taylor 314ce": {"Tipo": "Guitarra ac\u00fastica", "Type": "Acoustic guitar", "Tapa": "Abeto Sitka macizo", "Top": "Solid Sitka spruce", "Fondo y aros": "Palo negro de Tasmania", "Back & Sides": "Tasmanian blackwood", "M\u00e1stil": "Caoba", "Neck": "Mahogany", "Diapas\u00f3n": "\u00c9bano", "Fretboard": "Ebony"},
+    # === PA SPEAKERS ===
+    "yamaha dxr12mkii": {"Tipo": "Altavoz PA activo", "Type": "Active PA speaker", "Woofer": "12\"", "Woofer": "12\"", "Potencia": "1,100W (950W LF + 150W HF)", "Power": "1,100W (950W LF + 150W HF)", "SPL M\u00e1ximo": "133 dB", "Max SPL": "133 dB", "Peso": "20.7 kg", "Weight": "45.6 lbs"},
+    "jbl prx one": {"Tipo": "Sistema PA todo-en-uno", "Type": "All-in-one PA", "Woofer": "12\" + array de 1.5\"", "Woofer": "12\" + 1.5\" array", "Potencia": "1,300W (clase D)", "Power": "1,300W (class D)", "SPL M\u00e1ximo": "130 dB", "Max SPL": "130 dB", "Peso": "25 kg", "Weight": "55.1 lbs"},
+    "ev zlx-12p powered speaker": {"Tipo": "Altavoz PA activo", "Type": "Active PA speaker", "Woofer": "12\"", "Woofer": "12\"", "Potencia": "1,000W (pico)", "Power": "1,000W (peak)", "SPL M\u00e1ximo": "127 dB", "Max SPL": "127 dB", "Peso": "16.1 kg", "Weight": "35.5 lbs"},
+    "altavoz activo ev zlx-12p": {"Tipo": "Altavoz PA activo", "Type": "Active PA speaker", "Woofer": "12\"", "Woofer": "12\"", "Potencia": "1,000W (pico)", "Power": "1,000W (peak)", "SPL M\u00e1ximo": "127 dB", "Max SPL": "127 dB", "Peso": "16.1 kg", "Weight": "35.5 lbs"},
+    "qsc k12.2 powered speaker": {"Tipo": "Altavoz PA activo", "Type": "Active PA speaker", "Woofer": "12\"", "Woofer": "12\"", "Potencia": "2,000W (pico)", "Power": "2,000W (peak)", "SPL M\u00e1ximo": "132 dB", "Max SPL": "132 dB", "Peso": "17.2 kg", "Weight": "37.9 lbs"},
+    "altavoz activo qsc k12.2": {"Tipo": "Altavoz PA activo", "Type": "Active PA speaker", "Woofer": "12\"", "Woofer": "12\"", "Potencia": "2,000W (pico)", "Power": "2,000W (peak)", "SPL M\u00e1ximo": "132 dB", "Max SPL": "132 dB", "Peso": "17.2 kg", "Weight": "37.9 lbs"},
+    # === WIRELESS SYSTEMS ===
+    "sennheiser ew 100 g4-935": {"Tipo": "Sistema inal\u00e1mbrico UHF", "Type": "UHF wireless system", "Frecuencia": "UHF (varias bandas)", "Frequency": "UHF (multiple bands)", "Rango Din\u00e1mico": "> 110 dB", "Dynamic Range": "> 110 dB", "Rango de transmisi\u00f3n": "Hasta 100 m", "Transmission Range": "Up to 330 ft", "Micr\u00f3fono incluido": "E 935 (din\u00e1mico cardioide)", "Mic Included": "E 935 (dynamic cardioid)"},
+    "shure ulxd24/sm58": {"Tipo": "Sistema inal\u00e1mbrico digital UHF", "Type": "Digital UHF wireless system", "Frecuencia": "UHF (banda G50)", "Frequency": "UHF (G50 band)", "Rango Din\u00e1mico": "> 120 dB", "Dynamic Range": "> 120 dB", "Rango de transmisi\u00f3n": "Hasta 100 m", "Transmission Range": "Up to 330 ft", "Micr\u00f3fono incluido": "SM58 (din\u00e1mico cardioide)", "Mic Included": "SM58 (dynamic cardioid)"},
+    # === DAWs ===
+    "ableton live 12 suite": {"Tipo": "Estaci\u00f3n de trabajo de audio digital", "Type": "Digital Audio Workstation", "Pistas de audio": "Ilimitadas", "Audio Tracks": "Unlimited", "Pistas MIDI": "Ilimitadas", "MIDI Tracks": "Unlimited", "Instrumentos incluidos": "70+ (Wavetable, Operator, Sampler, Analog, etc.)", "Included Instruments": "70+ (Wavetable, Operator, Sampler, Analog, etc.)", "Efectos": "90+", "Effects": "90+", "Formato": "64-bit", "Format": "64-bit"},
+    "fl studio producer edition": {"Tipo": "Estaci\u00f3n de trabajo de audio digital", "Type": "Digital Audio Workstation", "Pistas de audio": "Ilimitadas", "Audio Tracks": "Unlimited", "Pistas MIDI": "Ilimitadas", "MIDI Tracks": "Unlimited", "Instrumentos incluidos": "30+ (Sytrus, Harmless, Sakura, etc.)", "Included Instruments": "30+ (Sytrus, Harmless, Sakura, etc.)", "Efectos": "70+", "Effects": "70+", "Formato": "64-bit", "Format": "64-bit"},
+    "fl studio edici\u00f3n producer": {"Tipo": "Estaci\u00f3n de trabajo de audio digital", "Type": "Digital Audio Workstation", "Pistas de audio": "Ilimitadas", "Audio Tracks": "Unlimited", "Pistas MIDI": "Ilimitadas", "MIDI Tracks": "Unlimited", "Instrumentos incluidos": "30+ (Sytrus, Harmless, Sakura, etc.)", "Included Instruments": "30+ (Sytrus, Harmless, Sakura, etc.)", "Efectos": "70+", "Effects": "70+", "Formato": "64-bit", "Format": "64-bit"},
+    "avid pro tools studio": {"Tipo": "Estaci\u00f3n de trabajo de audio digital", "Type": "Digital Audio Workstation", "Pistas de audio": "512", "Audio Tracks": "512", "Pistas MIDI": "512", "MIDI Tracks": "512", "Frecuencia de Muestreo": "192 kHz / 32-bit", "Sample Rate": "192 kHz / 32-bit", "Incluye": "Celemony Melodyne 5, SoundFlow", "Includes": "Celemony Melodyne 5, SoundFlow", "Instrumentos incluidos": "Celemony Melodyne 5, SoundFlow", "Included Instruments": "Celemony Melodyne 5, SoundFlow", "Efectos": "N/A (terceros)", "Effects": "N/A (3rd-party)"},
+    "avid pro tools estudio": {"Tipo": "Estaci\u00f3n de trabajo de audio digital", "Type": "Digital Audio Workstation", "Pistas de audio": "512", "Audio Tracks": "512", "Pistas MIDI": "512", "MIDI Tracks": "512", "Frecuencia de Muestreo": "192 kHz / 32-bit", "Sample Rate": "192 kHz / 32-bit", "Incluye": "Celemony Melodyne 5, SoundFlow", "Includes": "Celemony Melodyne 5, SoundFlow", "Instrumentos incluidos": "Celemony Melodyne 5, SoundFlow", "Included Instruments": "Celemony Melodyne 5, SoundFlow", "Efectos": "N/A (terceros)", "Effects": "N/A (3rd-party)"},
+    "steinberg cubase pro 15": {"Tipo": "Estaci\u00f3n de trabajo de audio digital", "Type": "Digital Audio Workstation", "Pistas de audio": "256", "Audio Tracks": "256", "Pistas MIDI": "256", "MIDI Tracks": "256", "Frecuencia de Muestreo": "192 kHz / 32-bit", "Sample Rate": "192 kHz / 32-bit", "Instrumentos incluidos": "60+ (HALion, Groove Agent, Padshop, etc.)", "Included Instruments": "60+ (HALion, Groove Agent, Padshop, etc.)", "Efectos": "90+ (incluye FX de pista, Channel Strip, etc.)", "Effects": "90+ (includes track FX, Channel Strip, etc.)"},
+    # === PLUGIN SUITES ===
+    "fabfilter total bundle": {"Tipo": "Paquete de plugins de mezcla y master", "Type": "Mixing & mastering plugin bundle", "Plugins incluidos": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)", "Included Plugins": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)", "Formatos": "AAX, AU, VST, VST3", "Formats": "AAX, AU, VST, VST3", "Delay compensaci\u00f3n": "S\u00ed (Plugin Delay Compensation)", "Delay Compensation": "Yes (Plugin Delay Compensation)"},
+    "fabfilter paquete total": {"Tipo": "Paquete de plugins de mezcla y master", "Type": "Mixing & mastering plugin bundle", "Plugins incluidos": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)", "Included Plugins": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)", "Formatos": "AAX, AU, VST, VST3", "Formats": "AAX, AU, VST, VST3", "Delay compensaci\u00f3n": "S\u00ed (Plugin Delay Compensation)", "Delay Compensation": "Yes (Plugin Delay Compensation)"},
+    "izotope ozone 12 advanced": {"Tipo": "Suite de masterizaci\u00f3n", "Type": "Mastering suite", "Plugins incluidos": "20+ m\u00f3dulos (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)", "Included Plugins": "20+ modules (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)", "IA integrada": "S\u00ed (Mastering Assistant, Stem Focus)", "AI-Powered": "Yes (Mastering Assistant, Stem Focus)", "Formatos": "AAX, AU, VST, VST3", "Formats": "AAX, AU, VST, VST3", "Delay compensaci\u00f3n": "S\u00ed (Plugin Delay Compensation)", "Delay Compensation": "Yes (Plugin Delay Compensation)"},
+    "izotope ozone 12 avanzado": {"Tipo": "Suite de masterizaci\u00f3n", "Type": "Mastering suite", "Plugins incluidos": "20+ m\u00f3dulos (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)", "Included Plugins": "20+ modules (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)", "IA integrada": "S\u00ed (Mastering Assistant, Stem Focus)", "AI-Powered": "Yes (Mastering Assistant, Stem Focus)", "Formatos": "AAX, AU, VST, VST3", "Formats": "AAX, AU, VST, VST3", "Delay compensaci\u00f3n": "S\u00ed (Plugin Delay Compensation)", "Delay Compensation": "Yes (Plugin Delay Compensation)"},
+}
+
 for fname in files:
     path = os.path.join(guides_dir, fname)
     html = open(path, "r", encoding="utf-8").read()
@@ -298,10 +379,56 @@ for fname in files:
     best1 = make_best_for(name1, desc1, short1, type1)
     best2 = make_best_for(name2, desc2, short2, type2)
     
+    # Look up brand and rating from products.json
+    p1 = prod_by_title.get(short1.strip().lower())
+    p2 = prod_by_title.get(short2.strip().lower())
+    brand1 = p1["brand"] if p1 else ""
+    brand2 = p2["brand"] if p2 else ""
+    rating1 = p1["rating"] if p1 else ""
+    rating2 = p2["rating"] if p2 else ""
+    
+    # Look up product specs from specs_map
+    specs1 = specs_map.get(short1.strip().lower())
+    specs2 = specs_map.get(short2.strip().lower())
+    
+    # Ordered spec keys by product type (for Full Spec Comparison)
+    type_spec_keys = {
+        "Microphone": [("Tipo", "Type"), ("Patr\u00f3n Polar", "Polar Pattern"), ("Respuesta de Frecuencia", "Frequency Response"), ("Ruido Propio", "Self-Noise")],
+        "Headphones": [("Tipo", "Type"), ("Respuesta de Frecuencia", "Frequency Response"), ("Impedancia", "Impedance"), ("Driver", "Driver"), ("SPL", "SPL")],
+        "Audio Interface": [("Preamplificadores", "Preamps"), ("Rango Din\u00e1mico", "Dynamic Range"), ("Frecuencia de Muestreo", "Sample Rate"), ("Conexi\u00f3n", "Connectivity"), ("Procesamiento DSP", "DSP Processing")],
+        "Studio Monitor": [("Woofer", "Woofer"), ("Tweeter", "Tweeter"), ("Respuesta de Frecuencia", "Frequency Response"), ("Potencia", "Power")],
+        "Guitar Amp": [("Potencia", "Power"), ("Altavoz", "Speaker"), ("V\u00e1lvulas", "Tubes"), ("Canales", "Channels"), ("Efectos", "Effects")],
+        "Electric Guitar": [("Cuerpo", "Body"), ("M\u00e1stil", "Neck"), ("Pastillas", "Pickups"), ("Diapas\u00f3n", "Fretboard"), ("Trastes", "Frets")],
+        "Acoustic Guitar": [("Tapa", "Top"), ("Fondo y aros", "Back & Sides"), ("M\u00e1stil", "Neck"), ("Diapas\u00f3n", "Fretboard")],
+        "PA Speaker": [("Woofer", "Woofer"), ("Potencia", "Power"), ("SPL M\u00e1ximo", "Max SPL"), ("Peso", "Weight")],
+        "Wireless System": [("Frecuencia", "Frequency"), ("Rango Din\u00e1mico", "Dynamic Range"), ("Rango de transmisi\u00f3n", "Transmission Range"), ("Micr\u00f3fono incluido", "Mic Included")],
+        "DAW": [("Pistas de audio", "Audio Tracks"), ("Pistas MIDI", "MIDI Tracks"), ("Instrumentos incluidos", "Included Instruments"), ("Efectos", "Effects")],
+        "Plugin Suite": [("Plugins incluidos", "Included Plugins"), ("Formatos", "Formats"), ("Delay compensaci\u00f3n", "Delay Compensation")],
+    }
+    
+    current_type = type1
+    spec_keys = type_spec_keys.get(current_type, [])
+    
     is_es = fname.endswith("_es.html")
     guide_id = fname.replace('.html', '').replace('_es', '')
     
     if is_es:
+        # Type translations for Spanish
+        type_es_map = {
+            "Microphone": "Micr\u00f3fono",
+            "Headphones": "Auriculares",
+            "Studio Monitor": "Monitor de Estudio",
+            "Electric Guitar": "Guitarra El\u00e9ctrica",
+            "Acoustic Guitar": "Guitarra Ac\u00fastica",
+            "Guitar Amp": "Amplificador de Guitarra",
+            "DAW": "DAW",
+            "Plugin Suite": "Paquete de Plugins",
+            "PA Speaker": "Altavoz PA",
+            "Wireless System": "Sistema Inal\u00e1mbrico",
+            "Audio Interface": "Interfaz de Audio",
+        }
+        type1 = type_es_map.get(type1, type1)
+        type2 = type_es_map.get(type2, type2)
         es_map_old = {
             "Vocal recording and live performance": "Voz en vivo y grabaci\u00f3n",
             "Instrument recording and miking": "Grabaci\u00f3n de instrumentos",
@@ -333,23 +460,30 @@ for fname in files:
         if best2 == short2 + " users":
             best2_final = "Usuarios de " + short2
 
-        snippet_text = short1 + " destaca por " + key1[:80].lower() + ", mientras que " + short2 + " es ideal para " + key2[:80].lower() + ". " + short1 + " cuesta $" + price1 + " y " + short2 + " $" + price2 + "."
-        title = short1 + " vs " + short2 + ": Comparativa R\u00e1pida"
+        snippet_text = "El " + short1 + " es el mejor " + type1.lower() + " para " + best1_final.lower() + ", destacando por " + key1[:60].lower() + ". El " + short2 + " es el mejor " + type2.lower() + " para " + best2_final.lower() + ", ideal para " + key2[:60].lower() + "."
+        title = short1 + " vs " + short2 + ": \u00bfCu\u00e1l deber\u00edas elegir?"
         label_price = "Precio"
-        label_type = "Tipo"
         label_key = "Caracter\u00edstica Clave"
         label_best = "Ideal Para"
         price_suffix = " USD"
     else:
         best1_final = best1
         best2_final = best2
-        snippet_text = "Choose the " + short1 + " if you value " + key1[:80].lower() + ". Go with the " + short2 + " if " + key2[:80].lower() + " is your priority."
-        title = short1 + " vs " + short2 + ": Quick Comparison"
+        snippet_text = "The " + short1 + " is the best " + type1.lower() + " for " + best1_final.lower() + ", offering " + key1[:60].lower() + ". The " + short2 + " is the top " + type2.lower() + " for " + best2_final.lower() + ", with " + key2[:60].lower() + "."
+        title = short1 + " vs " + short2 + ": Which One Should You Choose?"
         label_price = "Price"
-        label_type = "Type"
         label_key = "Key Feature"
         label_best = "Best For"
         price_suffix = ""
+    
+    # Build spec rows first (if available)
+    spec_rows_str = ''
+    if specs1 and specs2 and spec_keys:
+        for es_key, en_key in spec_keys:
+            label = es_key if is_es else en_key
+            val1 = specs1.get(es_key if is_es else en_key, '')
+            val2 = specs2.get(es_key if is_es else en_key, '')
+            spec_rows_str += '            <tr><td class="fs-label">' + label + '</td><td>' + val1 + '</td><td>' + val2 + '</td></tr>\n'
     
     snippet = (
         '      <div class="featured-snippet">\n'
@@ -365,9 +499,11 @@ for fname in files:
         '          </thead>\n'
         '          <tbody>\n'
         '            <tr><td class="fs-label">' + label_price + '</td><td>$' + price1 + price_suffix + '</td><td>$' + price2 + price_suffix + '</td></tr>\n'
-        '            <tr><td class="fs-label">' + label_type + '</td><td>' + type1 + '</td><td>' + type2 + '</td></tr>\n'
         '            <tr><td class="fs-label">' + label_key + '</td><td>' + key1_short + '</td><td>' + key2_short + '</td></tr>\n'
         '            <tr><td class="fs-label">' + label_best + '</td><td>' + best1_final + '</td><td>' + best2_final + '</td></tr>\n'
+        '            <tr><td class="fs-label">' + ('Marca' if is_es else 'Brand') + '</td><td>' + (p1["brand"] if p1 else "") + '</td><td>' + (p2["brand"] if p2 else "") + '</td></tr>\n'
+        '            <tr><td class="fs-label">' + ('Puntuaci\u00f3n' if is_es else 'Rating') + '</td><td>' + (str(p1["rating"]) + '/5' if p1 else "") + '</td><td>' + (str(p2["rating"]) + '/5' if p2 else "") + '</td></tr>\n'
+        + spec_rows_str +
         '          </tbody>\n'
         '        </table>\n'
         '      </div>'
@@ -440,10 +576,22 @@ for fname in files:
         snippet_data[guide_id]['best2_es'] = best2_final
         snippet_data[guide_id]['key1_es'] = key1_short
         snippet_data[guide_id]['key2_es'] = key2_short
+        snippet_data[guide_id]['brand1'] = p1["brand"] if p1 else ""
+        snippet_data[guide_id]['brand2'] = p2["brand"] if p2 else ""
+        snippet_data[guide_id]['rating1'] = p1["rating"] if p1 else ""
+        snippet_data[guide_id]['rating2'] = p2["rating"] if p2 else ""
         snippet_data[guide_id]['faq_q1_es'] = faq_q1
         snippet_data[guide_id]['faq_a1_es'] = faq_a1
         snippet_data[guide_id]['faq_q2_es'] = faq_q2
         snippet_data[guide_id]['faq_a2_es'] = faq_a2
+        # Full spec comparison data
+        if specs1 and specs2 and spec_keys:
+            spec_list = []
+            for es_key, en_key in spec_keys:
+                val1 = specs1.get(en_key, '')
+                val2 = specs2.get(en_key, '')
+                spec_list.append({"label_es": es_key, "label_en": en_key, "val1": val1, "val2": val2})
+            snippet_data[guide_id]['specs'] = spec_list
     else:
         snippet_data[guide_id]['title_en'] = title
         snippet_data[guide_id]['text_en'] = snippet_text
@@ -457,10 +605,22 @@ for fname in files:
         snippet_data[guide_id]['key2'] = key2_short
         snippet_data[guide_id]['best1_en'] = best1_final
         snippet_data[guide_id]['best2_en'] = best2_final
+        snippet_data[guide_id]['brand1'] = p1["brand"] if p1 else ""
+        snippet_data[guide_id]['brand2'] = p2["brand"] if p2 else ""
+        snippet_data[guide_id]['rating1'] = p1["rating"] if p1 else ""
+        snippet_data[guide_id]['rating2'] = p2["rating"] if p2 else ""
         snippet_data[guide_id]['faq_q1_en'] = faq_q1
         snippet_data[guide_id]['faq_a1_en'] = faq_a1
         snippet_data[guide_id]['faq_q2_en'] = faq_q2
         snippet_data[guide_id]['faq_a2_en'] = faq_a2
+        # Full spec comparison data
+        if specs1 and specs2 and spec_keys:
+            spec_list = []
+            for es_key, en_key in spec_keys:
+                val1 = specs1.get(en_key, '')
+                val2 = specs2.get(en_key, '')
+                spec_list.append({"label_es": es_key, "label_en": en_key, "val1": val1, "val2": val2})
+            snippet_data[guide_id]['specs'] = spec_list
 
 print("\nDone!")
 

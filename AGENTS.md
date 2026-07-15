@@ -553,3 +553,18 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 3. **Follow Conventions:** Match existing project patterns
 4. **Test Thoroughly:** Use CLI to verify launcher functionality
 5. **Document Changes:** Update relevant metadata and documentation
+
+## Anchored Summary
+
+### Objective
+- Optimize all 56 "vs" pages (EN + ES) for featured snippets: FAQPage schema, question-formatted H2, direct answer text, comparison table with Brand/Rating rows
+
+### Done
+- FAQPage JSON-LD schema injected in all 56 pages (2 Q&A per guide)
+- SPA `app.js` / `app.min.js` injects FAQ schema dynamically via `injectFaqSchema(id)`
+- H2 changed to question format (EN: "Which One Should You Choose?" / ES: "¿Cuál deberías elegir?")
+- Answer text front-loaded with direct recommendation (EN: "The X is the best Y for Z..." / ES: "El X es el mejor Y para Z...")
+- Comparison table expanded: added Brand (from products.json) + Rating/5 rows
+- Spanish product types translated (Micrófono, Auriculares, Interfaz de Audio, etc.)
+- Cache buster bumped to `v=tablas1`
+- All pages regenerated, guides.json updated
