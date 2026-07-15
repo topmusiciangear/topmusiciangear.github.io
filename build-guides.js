@@ -401,7 +401,7 @@ ${ogMeta}
           <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="X">${icon('x-twitter', 'fa-brands')}</a>
           <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
         </div>
-        <button onclick="if(window.innerWidth<=768)document.getElementById('mobileSocial').scrollIntoView({behavior:'smooth'})" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;cursor:pointer;background:none;border:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</button>
+        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
         <div class="lang-switcher">
           <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
