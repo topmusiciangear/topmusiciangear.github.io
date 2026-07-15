@@ -2768,13 +2768,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$99 USD",
-          "val2": "$99 USD"
+          "val2": "$99 USD",
+          "val1_es": "$99 USD",
+          "val2_es": "$99 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Instrument Standard",
-          "val2": "The Vocal Workhorse"
+          "val2": "The Vocal Workhorse",
+          "val1_es": "El Estándar Instrumental",
+          "val2_es": "El Caballo de Batalla Vocal"
         },
         {
           "label": "Best For",
@@ -2794,31 +2798,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.8/5"
+          "val2": "4.8/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Dynamic",
-          "val2": "Dynamic"
+          "val2": "Dynamic",
+          "val1_es": "Dinámico",
+          "val2_es": "Dinámico"
         },
         {
           "label": "Polar Pattern",
           "label_es": "Patrón Polar",
           "val1": "Cardioid",
-          "val2": "Cardioid"
+          "val2": "Cardioid",
+          "val1_es": "Cardioide",
+          "val2_es": "Cardioide"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "40 Hz – 15 kHz",
-          "val2": "50 Hz – 15 kHz"
+          "val2": "50 Hz – 15 kHz",
+          "val1_es": "40 Hz – 15 kHz",
+          "val2_es": "50 Hz – 15 kHz"
         },
         {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
-          "val2": "N/A (dynamic)"
+          "val2": "N/A (dynamic)",
+          "val1_es": "N/D (dinámico)",
+          "val2_es": "N/D (dinámico)"
         }
       ]
     }
@@ -2988,7 +3002,9 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$199 USD",
-          "val2": "$299 USD"
+          "val2": "$299 USD",
+          "val1_es": "$199 USD",
+          "val2_es": "$299 USD"
         },
         {
           "label": "Key Feature",
@@ -3016,37 +3032,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Preamps",
           "label_es": "Preamplificadores",
           "val1": "2 x Scarlett mic pre",
-          "val2": "2 x SSL 4K legacy pre"
+          "val2": "2 x SSL 4K legacy pre",
+          "val1_es": "2 x preamp Scarlett",
+          "val2_es": "2 x preamp SSL 4K legacy"
         },
         {
           "label": "Dynamic Range",
           "label_es": "Rango Dinámico",
           "val1": "116 dB (mic) / 120 dB (output)",
-          "val2": "120 dB"
+          "val2": "120 dB",
+          "val1_es": "116 dB (mic) / 120 dB (salida)",
+          "val2_es": "120 dB"
         },
         {
           "label": "Sample Rate",
           "label_es": "Frecuencia de Muestreo",
           "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 32-bit"
+          "val2": "192 kHz / 32-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 32-bit"
         },
         {
           "label": "Connection",
           "label_es": "Conexión",
           "val1": "USB-C",
-          "val2": "USB-C"
+          "val2": "USB-C",
+          "val1_es": "USB-C",
+          "val2_es": "USB-C"
         },
         {
           "label": "DSP Processing",
           "label_es": "Procesamiento DSP",
           "val1": "N/A",
-          "val2": "N/A"
+          "val2": "N/A",
+          "val1_es": "N/D",
+          "val2_es": "N/D"
         }
       ]
     },
@@ -3182,13 +3210,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$159 USD",
-          "val2": "$169 USD"
+          "val2": "$169 USD",
+          "val1_es": "$159 USD",
+          "val2_es": "$169 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Tracking King",
-          "val2": "The Mixing Master"
+          "val2": "The Mixing Master",
+          "val1_es": "El Rey del Seguimiento",
+          "val2_es": "El Maestro de la Mezcla"
         },
         {
           "label": "Best For",
@@ -3208,19 +3240,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
-          "val2": "Open-back"
+          "val2": "Open-back",
+          "val1_es": "Cerrados",
+          "val2_es": "Abiertos"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "5 Hz – 35 kHz",
-          "val2": "5 Hz – 35 kHz"
+          "val2": "5 Hz – 35 kHz",
+          "val1_es": "5 Hz – 35 kHz",
+          "val2_es": "5 Hz – 35 kHz"
         },
         {
           "label": "Impedance",
@@ -3232,13 +3270,17 @@
           "label": "Driver",
           "label_es": "Driver",
           "val1": "45 mm dynamic",
-          "val2": "45 mm dynamic"
+          "val2": "45 mm dynamic",
+          "val1_es": "45 mm dinámico",
+          "val2_es": "45 mm dinámico"
         },
         {
           "label": "SPL",
           "label_es": "SPL",
           "val1": "96 dB",
-          "val2": "96 dB"
+          "val2": "96 dB",
+          "val1_es": "96 dB",
+          "val2_es": "96 dB"
         }
       ]
     }
@@ -3373,13 +3415,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$698 USD",
-          "val2": "$498 USD"
+          "val2": "$498 USD",
+          "val1_es": "$698 USD",
+          "val2_es": "$498 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Truth-Teller",
-          "val2": "The Flatterer"
+          "val2": "The Flatterer",
+          "val1_es": "El Que Dice la Verdad",
+          "val2_es": "El Adulador"
         },
         {
           "label": "Best For",
@@ -3399,25 +3445,33 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.5/5"
+          "val2": "4.5/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Woofer",
           "label_es": "Woofer",
           "val1": "8\" cone",
-          "val2": "7\" Kevlar"
+          "val2": "7\" Kevlar",
+          "val1_es": "8\" cono",
+          "val2_es": "7\" Kevlar"
         },
         {
           "label": "Tweeter",
           "label_es": "Tweeter",
           "val1": "1\" dome",
-          "val2": "1\" silk dome"
+          "val2": "1\" silk dome",
+          "val1_es": "1\" domo",
+          "val2_es": "1\" domo de seda"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "38 Hz – 30 kHz",
-          "val2": "45 Hz – 36 kHz"
+          "val2": "45 Hz – 36 kHz",
+          "val1_es": "38 Hz – 30 kHz",
+          "val2_es": "45 Hz – 36 kHz"
         },
         {
           "label": "Power",
@@ -3564,13 +3618,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$169 USD",
-          "val2": "$99 USD"
+          "val2": "$99 USD",
+          "val1_es": "$169 USD",
+          "val2_es": "$99 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Producer's Favorite",
-          "val2": "The Broadcast Standard"
+          "val2": "The Broadcast Standard",
+          "val1_es": "El Favorito de los Productores",
+          "val2_es": "El Estándar de Radiodifusión"
         },
         {
           "label": "Best For",
@@ -3590,19 +3648,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.6/5",
-          "val2": "4.5/5"
+          "val2": "4.5/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
-          "val2": "Closed-back"
+          "val2": "Closed-back",
+          "val1_es": "Cerrados",
+          "val2_es": "Cerrados"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "15 Hz – 28 kHz",
-          "val2": "10 Hz – 20 kHz"
+          "val2": "10 Hz – 20 kHz",
+          "val1_es": "15 Hz – 28 kHz",
+          "val2_es": "10 Hz – 20 kHz"
         },
         {
           "label": "Impedance",
@@ -3614,13 +3678,17 @@
           "label": "Driver",
           "label_es": "Driver",
           "val1": "45 mm CCAW",
-          "val2": "40 mm dynamic"
+          "val2": "40 mm dynamic",
+          "val1_es": "45 mm CCAW",
+          "val2_es": "40 mm dinámico"
         },
         {
           "label": "SPL",
           "label_es": "SPL",
           "val1": "99 dB",
-          "val2": "106 dB"
+          "val2": "106 dB",
+          "val1_es": "99 dB",
+          "val2_es": "106 dB"
         }
       ]
     }
@@ -3924,13 +3992,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$899 USD",
-          "val2": "$949 USD"
+          "val2": "$949 USD",
+          "val1_es": "$899 USD",
+          "val2_es": "$949 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Power of Unison Preamps and Real-Time UAD Processing",
-          "val2": "Rock-Solid Stability, TotalMix FX, and Unmatched Driver Performance"
+          "val2": "Rock-Solid Stability, TotalMix FX, and Unmatched Driver Performance",
+          "val1_es": "El Poder de los Preamplificadores Unison y el Procesamiento UAD en Tiempo Real",
+          "val2_es": "Estabilidad Sólida, TotalMix FX y Rendimiento de Driver Inigualable"
         },
         {
           "label": "Best For",
@@ -3950,37 +4022,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.9/5"
+          "val2": "4.9/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.9/5"
         },
         {
           "label": "Preamps",
           "label_es": "Preamplificadores",
           "val1": "2 x Unison mic pre",
-          "val2": "2 x mic pre, 76 dB gain"
+          "val2": "2 x mic pre, 76 dB gain",
+          "val1_es": "2 x preamp Unison",
+          "val2_es": "2 x preamp mic, 76 dB de ganancia"
         },
         {
           "label": "Dynamic Range",
           "label_es": "Rango Dinámico",
           "val1": "129 dB (monitor output)",
-          "val2": "118 dBA (output)"
+          "val2": "118 dBA (output)",
+          "val1_es": "129 dB (salida monitor)",
+          "val2_es": "118 dBA (salida)"
         },
         {
           "label": "Sample Rate",
           "label_es": "Frecuencia de Muestreo",
           "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit"
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
         },
         {
           "label": "Connectivity",
           "label_es": "Conexión",
           "val1": "Thunderbolt 3",
-          "val2": "USB 2.0 (bus powered)"
+          "val2": "USB 2.0 (bus powered)",
+          "val1_es": "Thunderbolt 3",
+          "val2_es": "USB 2.0 (alimentado por bus)"
         },
         {
           "label": "DSP Processing",
           "label_es": "Procesamiento DSP",
           "val1": "UAD DUO / QUAD",
-          "val2": "Yes (TotalMix FX)"
+          "val2": "Yes (TotalMix FX)",
+          "val1_es": "UAD DUO / QUAD",
+          "val2_es": "Sí (TotalMix FX)"
         }
       ]
     }
@@ -4117,13 +4201,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$199 USD",
-          "val2": "$189 USD"
+          "val2": "$189 USD",
+          "val1_es": "$199 USD",
+          "val2_es": "$189 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Refined All-Rounder with Air Mode",
-          "val2": "Vintage Analog Character with the Vintage Mic Pre Mode"
+          "val2": "Vintage Analog Character with the Vintage Mic Pre Mode",
+          "val1_es": "El Todo Terreno Refinado con Modo Air",
+          "val2_es": "Carácter Analógico Vintage con el Modo Vintage Mic Pre"
         },
         {
           "label": "Best For",
@@ -4143,37 +4231,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.5/5"
+          "val2": "4.5/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Preamps",
           "label_es": "Preamplificadores",
           "val1": "2 x Scarlett mic pre",
-          "val2": "1 x Vintage Mic Preamp"
+          "val2": "1 x Vintage Mic Preamp",
+          "val1_es": "2 x preamp Scarlett",
+          "val2_es": "1 x Preamp Vintage"
         },
         {
           "label": "Dynamic Range",
           "label_es": "Rango Dinámico",
           "val1": "116 dB (mic) / 120 dB (output)",
-          "val2": "115 dB"
+          "val2": "115 dB",
+          "val1_es": "116 dB (mic) / 120 dB (salida)",
+          "val2_es": "115 dB"
         },
         {
           "label": "Sample Rate",
           "label_es": "Frecuencia de Muestreo",
           "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit"
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
         },
         {
           "label": "Connectivity",
           "label_es": "Conexión",
           "val1": "USB-C",
-          "val2": "USB-C"
+          "val2": "USB-C",
+          "val1_es": "USB-C",
+          "val2_es": "USB-C"
         },
         {
           "label": "DSP Processing",
           "label_es": "Procesamiento DSP",
           "val1": "N/A",
-          "val2": "N/A"
+          "val2": "N/A",
+          "val1_es": "N/D",
+          "val2_es": "N/D"
         }
       ]
     }
@@ -4310,13 +4410,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$299 USD",
-          "val2": "$199 USD"
+          "val2": "$199 USD",
+          "val1_es": "$299 USD",
+          "val2_es": "$199 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Console-Quality Preamps and Advanced Monitoring",
-          "val2": "Benchmark Converters and Hardware Loopback"
+          "val2": "Benchmark Converters and Hardware Loopback",
+          "val1_es": "Preamplificadores de Calidad de Consola y Monitoreo Avanzado",
+          "val2_es": "Convertidores de Referencia y Loopback por Hardware"
         },
         {
           "label": "Best For",
@@ -4336,37 +4440,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.6/5"
+          "val2": "4.6/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Preamps",
           "label_es": "Preamplificadores",
           "val1": "2 x Audient Class-A pre",
-          "val2": "2 x mic pre"
+          "val2": "2 x mic pre",
+          "val1_es": "2 x preamp Clase A Audient",
+          "val2_es": "2 x preamp mic"
         },
         {
           "label": "Dynamic Range",
           "label_es": "Rango Dinámico",
           "val1": "126 dB (DA)",
-          "val2": "120 dB (ESS Sabre32)"
+          "val2": "120 dB (ESS Sabre32)",
+          "val1_es": "126 dB (DA)",
+          "val2_es": "120 dB (ESS Sabre32)"
         },
         {
           "label": "Sample Rate",
           "label_es": "Frecuencia de Muestreo",
           "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit"
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
         },
         {
           "label": "Connectivity",
           "label_es": "Conexión",
           "val1": "USB-C",
-          "val2": "USB-C"
+          "val2": "USB-C",
+          "val1_es": "USB-C",
+          "val2_es": "USB-C"
         },
         {
           "label": "DSP Processing",
           "label_es": "Procesamiento DSP",
           "val1": "N/A",
-          "val2": "N/A"
+          "val2": "N/A",
+          "val1_es": "N/D",
+          "val2_es": "N/D"
         }
       ]
     }
@@ -4497,13 +4613,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$799 USD",
-          "val2": "$1.2k USD"
+          "val2": "$1.2k USD",
+          "val1_es": "$799 USD",
+          "val2_es": "$1.2k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Air Motion Transformer Tweeter and Modern Precision",
-          "val2": "The Finnish Metal Dome and Uncompromising Accuracy"
+          "val2": "The Finnish Metal Dome and Uncompromising Accuracy",
+          "val1_es": "El Tweeter de Transformador de Movimiento de Aire y Precisión Moderna",
+          "val2_es": "El Domo Metálico Finlandés y Precisión Sin Compromisos"
         },
         {
           "label": "Best For",
@@ -4523,7 +4643,9 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.9/5"
+          "val2": "4.9/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.9/5"
         },
         {
           "label": "Woofer",
@@ -4535,13 +4657,17 @@
           "label": "Tweeter",
           "label_es": "Tweeter",
           "val1": "S-ART ribbon",
-          "val2": "1\" metal dome"
+          "val2": "1\" metal dome",
+          "val1_es": "S-ART cinta",
+          "val2_es": "1\" domo metálico"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "44 Hz – 50 kHz",
-          "val2": "48 Hz – 20 kHz"
+          "val2": "48 Hz – 20 kHz",
+          "val1_es": "44 Hz – 50 kHz",
+          "val2_es": "48 Hz – 20 kHz"
         },
         {
           "label": "Power",
@@ -4678,13 +4804,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$149 USD",
-          "val2": "$199 USD"
+          "val2": "$199 USD",
+          "val1_es": "$149 USD",
+          "val2_es": "$199 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Cinema-Proven Workhorse with Image Control Waveguide",
-          "val2": "Boundary EQ and the Three-Dimensional Soundstage"
+          "val2": "Boundary EQ and the Three-Dimensional Soundstage",
+          "val1_es": "Caballo de Batalla Probado en Cine con Waveguide de Control de Imagen",
+          "val2_es": "EQ de Límite y el Escenario Sonoro Tridimensional"
         },
         {
           "label": "Best For",
@@ -4704,7 +4834,9 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.6/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Woofer",
@@ -4716,13 +4848,17 @@
           "label": "Tweeter",
           "label_es": "Tweeter",
           "val1": "1\" dome",
-          "val2": "1\" dome"
+          "val2": "1\" dome",
+          "val1_es": "1\" domo",
+          "val2_es": "1\" domo"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "49 Hz – 20 kHz",
-          "val2": "39 Hz – 25 kHz"
+          "val2": "39 Hz – 25 kHz",
+          "val1_es": "49 Hz – 20 kHz",
+          "val2_es": "39 Hz – 25 kHz"
         },
         {
           "label": "Power",
@@ -4865,13 +5001,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$399 USD",
-          "val2": "$169 USD"
+          "val2": "$169 USD",
+          "val1_es": "$399 USD",
+          "val2_es": "$169 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Reference Standard for Natural Frequency Response",
-          "val2": "The Exciting V-Shape with Treble Energy"
+          "val2": "The Exciting V-Shape with Treble Energy",
+          "val1_es": "El Estándar de Referencia para Respuesta de Frecuencia Natural",
+          "val2_es": "La Emocionante Forma de V con Energía en Agudos"
         },
         {
           "label": "Best For",
@@ -4891,19 +5031,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Open-back",
-          "val2": "Open-back"
+          "val2": "Open-back",
+          "val1_es": "Abiertos",
+          "val2_es": "Abiertos"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "12 Hz – 40.5 kHz",
-          "val2": "5 Hz – 35 kHz"
+          "val2": "5 Hz – 35 kHz",
+          "val1_es": "12 Hz – 40.5 kHz",
+          "val2_es": "5 Hz – 35 kHz"
         },
         {
           "label": "Impedance",
@@ -4915,13 +5061,17 @@
           "label": "Driver",
           "label_es": "Driver",
           "val1": "42 mm dynamic",
-          "val2": "45 mm dynamic"
+          "val2": "45 mm dynamic",
+          "val1_es": "42 mm dinámico",
+          "val2_es": "45 mm dinámico"
         },
         {
           "label": "SPL",
           "label_es": "SPL",
           "val1": "97 dB",
-          "val2": "96 dB"
+          "val2": "96 dB",
+          "val1_es": "97 dB",
+          "val2_es": "96 dB"
         }
       ]
     }
@@ -5058,13 +5208,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$169 USD",
-          "val2": "$159 USD"
+          "val2": "$159 USD",
+          "val1_es": "$169 USD",
+          "val2_es": "$159 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Detailed and Fun Response for Production",
-          "val2": "Comfortable Workhorse for Long Sessions"
+          "val2": "Comfortable Workhorse for Long Sessions",
+          "val1_es": "Respuesta Detallada y Divertida para Producción",
+          "val2_es": "Caballo de Batalla Cómodo para Sesiones Largas"
         },
         {
           "label": "Best For",
@@ -5084,19 +5238,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.6/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
-          "val2": "Closed-back"
+          "val2": "Closed-back",
+          "val1_es": "Cerrados",
+          "val2_es": "Cerrados"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "15 Hz – 28 kHz",
-          "val2": "5 Hz – 35 kHz"
+          "val2": "5 Hz – 35 kHz",
+          "val1_es": "15 Hz – 28 kHz",
+          "val2_es": "5 Hz – 35 kHz"
         },
         {
           "label": "Impedance",
@@ -5108,13 +5268,17 @@
           "label": "Driver",
           "label_es": "Driver",
           "val1": "45 mm CCAW",
-          "val2": "45 mm dynamic"
+          "val2": "45 mm dynamic",
+          "val1_es": "45 mm CCAW",
+          "val2_es": "45 mm dinámico"
         },
         {
           "label": "SPL",
           "label_es": "SPL",
           "val1": "99 dB",
-          "val2": "96 dB"
+          "val2": "96 dB",
+          "val1_es": "99 dB",
+          "val2_es": "96 dB"
         }
       ]
     }
@@ -5251,13 +5415,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$155 USD",
-          "val2": "$99 USD"
+          "val2": "$99 USD",
+          "val1_es": "$155 USD",
+          "val2_es": "$99 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Harman-Tuned Modern Reference for Accurate Mixing",
-          "val2": "The 30-Year Industry Standard for Critical Listening"
+          "val2": "The 30-Year Industry Standard for Critical Listening",
+          "val1_es": "La Referencia Moderna Sintonizada por Harman para Mezclas Precisas",
+          "val2_es": "El Estándar de la Industria por 30 Años para Escucha Crítica"
         },
         {
           "label": "Best For",
@@ -5277,19 +5445,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.5/5",
-          "val2": "4.5/5"
+          "val2": "4.5/5",
+          "val1_es": "4.5/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
-          "val2": "Closed-back"
+          "val2": "Closed-back",
+          "val1_es": "Cerrados",
+          "val2_es": "Cerrados"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "5 Hz – 40 kHz",
-          "val2": "10 Hz – 20 kHz"
+          "val2": "10 Hz – 20 kHz",
+          "val1_es": "5 Hz – 40 kHz",
+          "val2_es": "10 Hz – 20 kHz"
         },
         {
           "label": "Impedance",
@@ -5301,13 +5475,17 @@
           "label": "Driver",
           "label_es": "Driver",
           "val1": "50 mm titanium-coated",
-          "val2": "40 mm dynamic"
+          "val2": "40 mm dynamic",
+          "val1_es": "50 mm recubierto de titanio",
+          "val2_es": "40 mm dinámico"
         },
         {
           "label": "SPL",
           "label_es": "SPL",
           "val1": "114 dB",
-          "val2": "106 dB"
+          "val2": "106 dB",
+          "val1_es": "114 dB",
+          "val2_es": "106 dB"
         }
       ]
     }
@@ -5438,13 +5616,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$399 USD",
-          "val2": "$269 USD"
+          "val2": "$269 USD",
+          "val1_es": "$399 USD",
+          "val2_es": "$269 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Broadcast Legend with Smooth, Forgiving Capture",
-          "val2": "The Ultra-Low Noise Condenser for Detailed Vocal Capture"
+          "val2": "The Ultra-Low Noise Condenser for Detailed Vocal Capture",
+          "val1_es": "La Leyenda de la Radiodifusión con Captura Suave y Tolerante",
+          "val2_es": "El Condensador de Ultra Bajo Ruido para Captura Vocal Detallada"
         },
         {
           "label": "Best For",
@@ -5464,31 +5646,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.6/5"
+          "val2": "4.6/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Dynamic",
-          "val2": "Condenser"
+          "val2": "Condenser",
+          "val1_es": "Dinámico",
+          "val2_es": "Condensador"
         },
         {
           "label": "Polar Pattern",
           "label_es": "Patrón Polar",
           "val1": "Cardioid",
-          "val2": "Cardioid"
+          "val2": "Cardioid",
+          "val1_es": "Cardioide",
+          "val2_es": "Cardioide"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "50 Hz – 20 kHz",
-          "val2": "20 Hz – 20 kHz"
+          "val2": "20 Hz – 20 kHz",
+          "val1_es": "50 Hz – 20 kHz",
+          "val2_es": "20 Hz – 20 kHz"
         },
         {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
-          "val2": "5 dBA"
+          "val2": "5 dBA",
+          "val1_es": "N/D (dinámico)",
+          "val2_es": "5 dBA"
         }
       ]
     }
@@ -5619,13 +5811,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$99 USD",
-          "val2": "$399 USD"
+          "val2": "$399 USD",
+          "val1_es": "$99 USD",
+          "val2_es": "$399 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Indestructible Workhorse for Every Instrument",
-          "val2": "The Legendary Rock Guitar and Kick Drum Specialist"
+          "val2": "The Legendary Rock Guitar and Kick Drum Specialist",
+          "val1_es": "El Caballo de Batalla Indestructible para Cada Instrumento",
+          "val2_es": "El Especialista Legendario en Guitarra Rock y Bombo"
         },
         {
           "label": "Best For",
@@ -5645,31 +5841,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Dynamic",
-          "val2": "Dynamic"
+          "val2": "Dynamic",
+          "val1_es": "Dinámico",
+          "val2_es": "Dinámico"
         },
         {
           "label": "Polar Pattern",
           "label_es": "Patrón Polar",
           "val1": "Cardioid",
-          "val2": "Cardioid"
+          "val2": "Cardioid",
+          "val1_es": "Cardioide",
+          "val2_es": "Cardioide"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "40 Hz – 15 kHz",
-          "val2": "30 Hz – 17 kHz"
+          "val2": "30 Hz – 17 kHz",
+          "val1_es": "40 Hz – 15 kHz",
+          "val2_es": "30 Hz – 17 kHz"
         },
         {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
-          "val2": "N/A (dynamic)"
+          "val2": "N/A (dynamic)",
+          "val1_es": "N/D (dinámico)",
+          "val2_es": "N/D (dinámico)"
         }
       ]
     }
@@ -5800,13 +6006,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$1.1k USD",
-          "val2": "$3.6k USD"
+          "val2": "$3.6k USD",
+          "val1_es": "$1.1k USD",
+          "val2_es": "$3.6k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Gold Standard of Studio Vocal Recording",
-          "val2": "The Versatile Precision Instrument"
+          "val2": "The Versatile Precision Instrument",
+          "val1_es": "El Estándar de Oro de la Grabación Vocal de Estudio",
+          "val2_es": "El Instrumento de Precisión Versátil"
         },
         {
           "label": "Best For",
@@ -5826,31 +6036,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.9/5"
+          "val2": "4.9/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.9/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Condenser",
-          "val2": "Condenser"
+          "val2": "Condenser",
+          "val1_es": "Condensador",
+          "val2_es": "Condensador"
         },
         {
           "label": "Polar Pattern",
           "label_es": "Patrón Polar",
           "val1": "9 selectable patterns",
-          "val2": "Omni / Cardioid / Figure-8"
+          "val2": "Omni / Cardioid / Figure-8",
+          "val1_es": "9 patrones seleccionables",
+          "val2_es": "Omni / Cardioide / Figura-8"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "20 Hz – 20 kHz",
-          "val2": "20 Hz – 20 kHz"
+          "val2": "20 Hz – 20 kHz",
+          "val1_es": "20 Hz – 20 kHz",
+          "val2_es": "20 Hz – 20 kHz"
         },
         {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "6 dBA",
-          "val2": "12 dBA (cardioid)"
+          "val2": "12 dBA (cardioid)",
+          "val1_es": "6 dBA",
+          "val2_es": "12 dBA (cardioide)"
         }
       ]
     }
@@ -5981,13 +6201,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$449 USD",
-          "val2": "$399 USD"
+          "val2": "$399 USD",
+          "val1_es": "$449 USD",
+          "val2_es": "$399 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Variable-D Broadcast Standard",
-          "val2": "The Intimate, Warm Voice of Modern Broadcast"
+          "val2": "The Intimate, Warm Voice of Modern Broadcast",
+          "val1_es": "El Estándar de Radiodifusión Variable-D",
+          "val2_es": "La Voz Íntima y Cálida de la Radiodifusión Moderna"
         },
         {
           "label": "Best For",
@@ -6007,31 +6231,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.8/5"
+          "val2": "4.8/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Dynamic",
-          "val2": "Dynamic"
+          "val2": "Dynamic",
+          "val1_es": "Dinámico",
+          "val2_es": "Dinámico"
         },
         {
           "label": "Polar Pattern",
           "label_es": "Patrón Polar",
           "val1": "Cardioid",
-          "val2": "Cardioid"
+          "val2": "Cardioid",
+          "val1_es": "Cardioide",
+          "val2_es": "Cardioide"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "45 Hz – 18 kHz",
-          "val2": "50 Hz – 20 kHz"
+          "val2": "50 Hz – 20 kHz",
+          "val1_es": "45 Hz – 18 kHz",
+          "val2_es": "50 Hz – 20 kHz"
         },
         {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
-          "val2": "N/A (dynamic)"
+          "val2": "N/A (dynamic)",
+          "val1_es": "N/D (dinámico)",
+          "val2_es": "N/D (dinámico)"
         }
       ]
     }
@@ -6162,13 +6396,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$849 USD",
-          "val2": "$1.4k USD"
+          "val2": "$1.4k USD",
+          "val1_es": "$849 USD",
+          "val2_es": "$1.4k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The RF King with Superior Range",
-          "val2": "Digital Clarity and Wireless Workbench"
+          "val2": "Digital Clarity and Wireless Workbench",
+          "val1_es": "El Rey de RF con Alcance Superior",
+          "val2_es": "Claridad Digital y Wireless Workbench"
         },
         {
           "label": "Best For",
@@ -6188,19 +6426,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.8/5"
+          "val2": "4.8/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Frequency",
           "label_es": "Frecuencia",
           "val1": "UHF (multiple bands)",
-          "val2": "UHF (G50 band)"
+          "val2": "UHF (G50 band)",
+          "val1_es": "UHF (múltiples bandas)",
+          "val2_es": "UHF (banda G50)"
         },
         {
           "label": "Dynamic Range",
           "label_es": "Rango Dinámico",
           "val1": "> 110 dB",
-          "val2": "> 120 dB"
+          "val2": "> 120 dB",
+          "val1_es": "> 110 dB",
+          "val2_es": "> 120 dB"
         },
         {
           "label": "Transmission Range",
@@ -6212,7 +6456,9 @@
           "label": "Mic Included",
           "label_es": "Micrófono incluido",
           "val1": "E 935 (dynamic cardioid)",
-          "val2": "SM58 (dynamic cardioid)"
+          "val2": "SM58 (dynamic cardioid)",
+          "val1_es": "E 935 (dinámico cardioide)",
+          "val2_es": "SM58 (dinámico cardioide)"
         }
       ]
     }
@@ -6343,13 +6589,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$599 USD",
-          "val2": "$999 USD"
+          "val2": "$999 USD",
+          "val1_es": "$599 USD",
+          "val2_es": "$999 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Budget Champion with DSP Versatility",
-          "val2": "The Professional Standard with Class-D Power"
+          "val2": "The Professional Standard with Class-D Power",
+          "val1_es": "El Campeón de Presupuesto con Versatilidad DSP",
+          "val2_es": "El Estándar Profesional con Potencia Clase D"
         },
         {
           "label": "Best For",
@@ -6369,31 +6619,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.6/5",
-          "val2": "4.8/5"
+          "val2": "4.8/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Woofer",
           "label_es": "Woofer",
           "val1": "12\"",
-          "val2": "12\""
+          "val2": "12\"",
+          "val1_es": "12\"",
+          "val2_es": "12\""
         },
         {
           "label": "Power",
           "label_es": "Potencia",
           "val1": "1,000W (peak)",
-          "val2": "2,000W (peak)"
+          "val2": "2,000W (peak)",
+          "val1_es": "1,000W (pico)",
+          "val2_es": "2,000W (pico)"
         },
         {
           "label": "Max SPL",
           "label_es": "SPL Máximo",
           "val1": "127 dB",
-          "val2": "132 dB"
+          "val2": "132 dB",
+          "val1_es": "127 dB",
+          "val2_es": "132 dB"
         },
         {
           "label": "Weight",
           "label_es": "Peso",
           "val1": "35.5 lbs",
-          "val2": "37.9 lbs"
+          "val2": "37.9 lbs",
+          "val1_es": "16.1 kg",
+          "val2_es": "17.2 kg"
         }
       ]
     }
@@ -6524,13 +6784,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$899 USD",
-          "val2": "$1.5k USD"
+          "val2": "$1.5k USD",
+          "val1_es": "$899 USD",
+          "val2_es": "$1.5k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Powered Speaker with Legendary Reliability",
-          "val2": "All-In-One Column Array with Built-In Mixer"
+          "val2": "All-In-One Column Array with Built-In Mixer",
+          "val1_es": "Altavoz Amplificado con Fiabilidad Legendaria",
+          "val2_es": "Sistema de Columna Todo en Uno con Mezclador Integrado"
         },
         {
           "label": "Best For",
@@ -6550,31 +6814,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.8/5"
+          "val2": "4.8/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Woofer",
           "label_es": "Woofer",
           "val1": "12\"",
-          "val2": "12\" + 1.5\" array"
+          "val2": "12\" + 1.5\" array",
+          "val1_es": "12\"",
+          "val2_es": "12\" + array de 1.5\""
         },
         {
           "label": "Power",
           "label_es": "Potencia",
           "val1": "1,100W (950W LF + 150W HF)",
-          "val2": "1,300W (class D)"
+          "val2": "1,300W (class D)",
+          "val1_es": "1,100W (950W LF + 150W HF)",
+          "val2_es": "1,300W (clase D)"
         },
         {
           "label": "Max SPL",
           "label_es": "SPL Máximo",
           "val1": "133 dB",
-          "val2": "130 dB"
+          "val2": "130 dB",
+          "val1_es": "133 dB",
+          "val2_es": "130 dB"
         },
         {
           "label": "Weight",
           "label_es": "Peso",
           "val1": "45.6 lbs",
-          "val2": "55.1 lbs"
+          "val2": "55.1 lbs",
+          "val1_es": "20.7 kg",
+          "val2_es": "25 kg"
         }
       ]
     }
@@ -6711,13 +6985,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$849 USD",
-          "val2": "$349 USD"
+          "val2": "$349 USD",
+          "val1_es": "$849 USD",
+          "val2_es": "$349 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Iconic Design with Modern Playability",
-          "val2": "The Budget Guitar That Beats Its Price"
+          "val2": "The Budget Guitar That Beats Its Price",
+          "val1_es": "Diseño Icónico con Tocabilidad Moderna",
+          "val2_es": "La Guitarra Económica que Supera Su Precio"
         },
         {
           "label": "Best For",
@@ -6737,37 +7015,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.6/5",
-          "val2": "4.5/5"
+          "val2": "4.5/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Body",
           "label_es": "Cuerpo",
           "val1": "Alder",
-          "val2": "Alder"
+          "val2": "Alder",
+          "val1_es": "Aliso",
+          "val2_es": "Aliso"
         },
         {
           "label": "Neck",
           "label_es": "Mástil",
           "val1": "Maple Modern C",
-          "val2": "Maple"
+          "val2": "Maple",
+          "val1_es": "Arce Moderno C",
+          "val2_es": "Arce"
         },
         {
           "label": "Pickups",
           "label_es": "Pastillas",
           "val1": "3 x Player Alnico V Single-Coil",
-          "val2": "HSS (1 humbucker + 2 single-coil)"
+          "val2": "HSS (1 humbucker + 2 single-coil)",
+          "val1_es": "3 x Single-Coil Alnico V Player",
+          "val2_es": "HSS (1 humbucker + 2 single-coil)"
         },
         {
           "label": "Fretboard",
           "label_es": "Diapasón",
           "val1": "Rosewood or maple",
-          "val2": "Rosewood"
+          "val2": "Rosewood",
+          "val1_es": "Palo de rosa o arce",
+          "val2_es": "Palo de rosa"
         },
         {
           "label": "Frets",
           "label_es": "Trastes",
           "val1": "22",
-          "val2": "22"
+          "val2": "22",
+          "val1_es": "22",
+          "val2_es": "22"
         }
       ]
     }
@@ -6904,13 +7194,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$1.8k USD",
-          "val2": "$2.7k USD"
+          "val2": "$2.7k USD",
+          "val1_es": "$1.8k USD",
+          "val2_es": "$2.7k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Versatility and Modern Refinement",
-          "val2": "Power, Sustain, and Legendary Humbucker Tone"
+          "val2": "Power, Sustain, and Legendary Humbucker Tone",
+          "val1_es": "Versatilidad y Refinamiento Moderno",
+          "val2_es": "Potencia, Sustain y el Sonido Legendario de Humbucker"
         },
         {
           "label": "Best For",
@@ -6930,37 +7224,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.9/5"
+          "val2": "4.9/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.9/5"
         },
         {
           "label": "Body",
           "label_es": "Cuerpo",
           "val1": "Alder",
-          "val2": "Mahogany with maple top"
+          "val2": "Mahogany with maple top",
+          "val1_es": "Aliso",
+          "val2_es": "Caoba con tapa de arce"
         },
         {
           "label": "Neck",
           "label_es": "Mástil",
           "val1": "Maple Deep C",
-          "val2": "Mahogany SlimTaper"
+          "val2": "Mahogany SlimTaper",
+          "val1_es": "Arce Deep C",
+          "val2_es": "Caoba SlimTaper"
         },
         {
           "label": "Pickups",
           "label_es": "Pastillas",
           "val1": "3 x V-Mod II Single-Coil",
-          "val2": "2 x Burstbucker"
+          "val2": "2 x Burstbucker",
+          "val1_es": "3 x Single-Coil V-Mod II",
+          "val2_es": "2 x Burstbucker"
         },
         {
           "label": "Fretboard",
           "label_es": "Diapasón",
           "val1": "Rosewood or maple",
-          "val2": "Rosewood"
+          "val2": "Rosewood",
+          "val1_es": "Palo de rosa o arce",
+          "val2_es": "Palo de rosa"
         },
         {
           "label": "Frets",
           "label_es": "Trastes",
           "val1": "22",
-          "val2": "22"
+          "val2": "22",
+          "val1_es": "22",
+          "val2_es": "22"
         }
       ]
     }
@@ -7091,13 +7397,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$3.0k USD",
-          "val2": "$1.9k USD"
+          "val2": "$1.9k USD",
+          "val1_es": "$3.0k USD",
+          "val2_es": "$1.9k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Dreadnought That Defined Acoustic Music",
-          "val2": "Modern Grand Auditorium with Expression System"
+          "val2": "Modern Grand Auditorium with Expression System",
+          "val1_es": "El Dreadnought que Definió la Música Acústica",
+          "val2_es": "Grand Auditorium Moderno con Expression System"
         },
         {
           "label": "Best For",
@@ -7117,31 +7427,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.9/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.9/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Top",
           "label_es": "Tapa",
           "val1": "Solid Sitka spruce",
-          "val2": "Solid Sitka spruce"
+          "val2": "Solid Sitka spruce",
+          "val1_es": "Pícea sólida de Sitka",
+          "val2_es": "Pícea sólida de Sitka"
         },
         {
           "label": "Back & Sides",
           "label_es": "Fondo y aros",
           "val1": "Solid East Indian rosewood",
-          "val2": "Tasmanian blackwood"
+          "val2": "Tasmanian blackwood",
+          "val1_es": "Palo de rosa sólido de la India Oriental",
+          "val2_es": "Madera negra de Tasmania"
         },
         {
           "label": "Neck",
           "label_es": "Mástil",
           "val1": "Mahogany",
-          "val2": "Mahogany"
+          "val2": "Mahogany",
+          "val1_es": "Caoba",
+          "val2_es": "Caoba"
         },
         {
           "label": "Fretboard",
           "label_es": "Diapasón",
           "val1": "Ebony",
-          "val2": "Ebony"
+          "val2": "Ebony",
+          "val1_es": "Ébano",
+          "val2_es": "Ébano"
         }
       ]
     }
@@ -7272,13 +7592,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$799 USD",
-          "val2": "$199 USD"
+          "val2": "$199 USD",
+          "val1_es": "$799 USD",
+          "val2_es": "$199 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Session View and Performance Powerhouse",
-          "val2": "Pattern-Based Workflow and Lifetime Updates"
+          "val2": "Pattern-Based Workflow and Lifetime Updates",
+          "val1_es": "La Vista de Sesión y Potencia en Vivo",
+          "val2_es": "Flujo de Trabajo Basado en Patrones y Actualizaciones de por Vida"
         },
         {
           "label": "Best For",
@@ -7298,25 +7622,33 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.8/5",
-          "val2": "4.6/5"
+          "val2": "4.6/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Audio Tracks",
           "label_es": "Pistas de audio",
           "val1": "Unlimited",
-          "val2": "Unlimited"
+          "val2": "Unlimited",
+          "val1_es": "Ilimitadas",
+          "val2_es": "Ilimitadas"
         },
         {
           "label": "MIDI Tracks",
           "label_es": "Pistas MIDI",
           "val1": "Unlimited",
-          "val2": "Unlimited"
+          "val2": "Unlimited",
+          "val1_es": "Ilimitadas",
+          "val2_es": "Ilimitadas"
         },
         {
           "label": "Included Instruments",
           "label_es": "Instrumentos incluidos",
           "val1": "70+ (Wavetable, Operator, Sampler, Analog, etc.)",
-          "val2": "30+ (Sytrus, Harmless, Sakura, etc.)"
+          "val2": "30+ (Sytrus, Harmless, Sakura, etc.)",
+          "val1_es": "70+ (Wavetable, Operator, Sampler, Analog, etc.)",
+          "val2_es": "30+ (Sytrus, Harmless, Sakura, etc.)"
         },
         {
           "label": "Effects",
@@ -7453,13 +7785,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$599 USD",
-          "val2": "$579 USD"
+          "val2": "$579 USD",
+          "val1_es": "$599 USD",
+          "val2_es": "$579 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Industry Standard for Recording and Mixing",
-          "val2": "The Composer's Powerhouse with Integrated Scoring"
+          "val2": "The Composer's Powerhouse with Integrated Scoring",
+          "val1_es": "El Estándar de la Industria para Grabación y Mezcla",
+          "val2_es": "La Potencia del Compositor con Partituras Integradas"
         },
         {
           "label": "Best For",
@@ -7479,31 +7815,41 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.6/5"
+          "val2": "4.6/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Audio Tracks",
           "label_es": "Pistas de audio",
           "val1": "512",
-          "val2": "256"
+          "val2": "256",
+          "val1_es": "512",
+          "val2_es": "256"
         },
         {
           "label": "MIDI Tracks",
           "label_es": "Pistas MIDI",
           "val1": "512",
-          "val2": "256"
+          "val2": "256",
+          "val1_es": "512",
+          "val2_es": "256"
         },
         {
           "label": "Included Instruments",
           "label_es": "Instrumentos incluidos",
           "val1": "Celemony Melodyne 5, SoundFlow",
-          "val2": "60+ (HALion, Groove Agent, Padshop, etc.)"
+          "val2": "60+ (HALion, Groove Agent, Padshop, etc.)",
+          "val1_es": "Celemony Melodyne 5, SoundFlow",
+          "val2_es": "60+ (HALion, Groove Agent, Padshop, etc.)"
         },
         {
           "label": "Effects",
           "label_es": "Efectos",
           "val1": "N/A (3rd-party)",
-          "val2": "90+ (includes track FX, Channel Strip, etc.)"
+          "val2": "90+ (includes track FX, Channel Strip, etc.)",
+          "val1_es": "N/D (terceros)",
+          "val2_es": "90+ (incluye FX de pista, Channel Strip, etc.)"
         }
       ]
     }
@@ -7640,13 +7986,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$699 USD",
-          "val2": "$1.1k USD"
+          "val2": "$1.1k USD",
+          "val1_es": "$699 USD",
+          "val2_es": "$1.1k USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "Affordable All-Tube American Tone",
-          "val2": "The British Invasion Sound with Chime and Top-Boost"
+          "val2": "The British Invasion Sound with Chime and Top-Boost",
+          "val1_es": "Sonido Americano Todo-Válvulas Asequible",
+          "val2_es": "El Sonido de la Invasión Británica con Brillantez y Top-Boost"
         },
         {
           "label": "Best For",
@@ -7666,19 +8016,25 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.7/5",
-          "val2": "4.8/5"
+          "val2": "4.8/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Power",
           "label_es": "Potencia",
           "val1": "15W",
-          "val2": "30W"
+          "val2": "30W",
+          "val1_es": "15W",
+          "val2_es": "30W"
         },
         {
           "label": "Speaker",
           "label_es": "Altavoz",
           "val1": "1 x 12\" Celestion A-Type",
-          "val2": "2 x 12\" Celestion Greenback"
+          "val2": "2 x 12\" Celestion Greenback",
+          "val1_es": "1 x 12\" Celestion A-Type",
+          "val2_es": "2 x 12\" Celestion Greenback"
         },
         {
           "label": "Tubes",
@@ -7690,13 +8046,17 @@
           "label": "Channels",
           "label_es": "Canales",
           "val1": "1 with FAT switch",
-          "val2": "2 (Normal, Top Boost)"
+          "val2": "2 (Normal, Top Boost)",
+          "val1_es": "1 con interruptor FAT",
+          "val2_es": "2 (Normal, Top Boost)"
         },
         {
           "label": "Effects",
           "label_es": "Efectos",
           "val1": "Spring reverb, effects loop",
-          "val2": "Spring reverb, tremolo"
+          "val2": "Spring reverb, tremolo",
+          "val1_es": "Reverb de muelle, bucle de efectos",
+          "val2_es": "Reverb de muelle, trémolo"
         }
       ]
     }
@@ -7833,13 +8193,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$259 USD",
-          "val2": "$999 USD"
+          "val2": "$999 USD",
+          "val1_es": "$259 USD",
+          "val2_es": "$999 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Versatile Modeling Amp",
-          "val2": "Authentic All-Tube Marshall Tone"
+          "val2": "Authentic All-Tube Marshall Tone",
+          "val1_es": "El Amplificador de Modelado Versátil",
+          "val2_es": "Sonido Marshall Auténtico Todo-Válvulas"
         },
         {
           "label": "Best For",
@@ -7859,37 +8223,49 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.6/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Power",
           "label_es": "Potencia",
           "val1": "50W",
-          "val2": "40W (power reduction to 20W)"
+          "val2": "40W (power reduction to 20W)",
+          "val1_es": "50W",
+          "val2_es": "40W (reducción de potencia a 20W)"
         },
         {
           "label": "Speaker",
           "label_es": "Altavoz",
           "val1": "1 x 12\" custom",
-          "val2": "1 x 12\" Celestion V-Type"
+          "val2": "1 x 12\" Celestion V-Type",
+          "val1_es": "1 x 12\" personalizado",
+          "val2_es": "1 x 12\" Celestion V-Type"
         },
         {
           "label": "Tubes",
           "label_es": "Válvulas",
           "val1": "N/A (modeling)",
-          "val2": "4 x ECC83, 2 x EL34"
+          "val2": "4 x ECC83, 2 x EL34",
+          "val1_es": "N/D (modelado)",
+          "val2_es": "4 x ECC83, 2 x EL34"
         },
         {
           "label": "Channels",
           "label_es": "Canales",
           "val1": "5 (Acoustic, Clean, Crunch, Lead, Brown)",
-          "val2": "2 (Classic Gain, Ultra Gain) each w/2 modes"
+          "val2": "2 (Classic Gain, Ultra Gain) each w/2 modes",
+          "val1_es": "5 (Acoustic, Clean, Crunch, Lead, Brown)",
+          "val2_es": "2 (Classic Gain, Ultra Gain) c/u con 2 modos"
         },
         {
           "label": "Effects",
           "label_es": "Efectos",
           "val1": "Booster, Mod, FX, Delay, Reverb",
-          "val2": "Digital reverb, series effects loop"
+          "val2": "Digital reverb, series effects loop",
+          "val1_es": "Booster, Mod, FX, Delay, Reverb",
+          "val2_es": "Reverb digital, bucle de efectos en serie"
         }
       ]
     }
@@ -8014,13 +8390,17 @@
           "label": "Price",
           "label_es": "Precio",
           "val1": "$1.1k USD",
-          "val2": "$499 USD"
+          "val2": "$499 USD",
+          "val1_es": "$1.1k USD",
+          "val2_es": "$499 USD"
         },
         {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "The Gold Standard for Surgical Mixing",
-          "val2": "AI-Assisted Mastering Suite"
+          "val2": "AI-Assisted Mastering Suite",
+          "val1_es": "El Estándar de Oro para Mezcla Quirúrgica",
+          "val2_es": "Suite de Masterización Asistida por IA"
         },
         {
           "label": "Best For",
@@ -8040,25 +8420,33 @@
           "label": "Rating",
           "label_es": "Puntuación",
           "val1": "4.9/5",
-          "val2": "4.7/5"
+          "val2": "4.7/5",
+          "val1_es": "4.9/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Included Plugins",
           "label_es": "Plugins incluidos",
           "val1": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)",
-          "val2": "20+ modules (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)"
+          "val2": "20+ modules (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)",
+          "val1_es": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)",
+          "val2_es": "20+ módulos (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)"
         },
         {
           "label": "Formats",
           "label_es": "Formatos",
           "val1": "AAX, AU, VST, VST3",
-          "val2": "AAX, AU, VST, VST3"
+          "val2": "AAX, AU, VST, VST3",
+          "val1_es": "AAX, AU, VST, VST3",
+          "val2_es": "AAX, AU, VST, VST3"
         },
         {
           "label": "Delay Compensation",
           "label_es": "Delay compensación",
           "val1": "Yes (Plugin Delay Compensation)",
-          "val2": "Yes (Plugin Delay Compensation)"
+          "val2": "Yes (Plugin Delay Compensation)",
+          "val1_es": "Sí (Compensación de Delay)",
+          "val2_es": "Sí (Compensación de Delay)"
         }
       ]
     }
