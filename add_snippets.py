@@ -392,6 +392,8 @@ for fname in files:
         snippet_data[guide_id]['name2_es'] = short2
         snippet_data[guide_id]['best1_es'] = best1_final
         snippet_data[guide_id]['best2_es'] = best2_final
+        snippet_data[guide_id]['key1_es'] = key1_short
+        snippet_data[guide_id]['key2_es'] = key2_short
     else:
         snippet_data[guide_id]['title_en'] = title
         snippet_data[guide_id]['text_en'] = snippet_text
