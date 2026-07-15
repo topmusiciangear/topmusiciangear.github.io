@@ -1,7 +1,8 @@
-import re, os
+import re, os, json
 
 guides_dir = r"C:\Users\Daniel\projects\topmusiciangear\guides"
 files = sorted(f for f in os.listdir(guides_dir) if "-vs-" in f and f.endswith(".html"))
+snippet_data = {}
 
 import locale
 locale.setlocale(locale.LC_ALL, '')
@@ -379,5 +380,39 @@ for fname in files:
         print(f"OK   {fname}")
     else:
         print(f"FAIL {fname}")
+    
+    # Accumulate featuredSnippet data for guides.json
+    guide_id = fname.replace('.html', '').replace('_es', '')
+    if guide_id not in snippet_data:
+        snippet_data[guide_id] = {}
+    if is_es:
+        snippet_data[guide_id]['title_es'] = title
+        snippet_data[guide_id]['text_es'] = snippet_text
+        snippet_data[guide_id]['name1_es'] = short1
+        snippet_data[guide_id]['name2_es'] = short2
+        snippet_data[guide_id]['best1_es'] = best1_final
+        snippet_data[guide_id]['best2_es'] = best2_final
+    else:
+        snippet_data[guide_id]['title_en'] = title
+        snippet_data[guide_id]['text_en'] = snippet_text
+        snippet_data[guide_id]['name1_en'] = short1
+        snippet_data[guide_id]['name2_en'] = short2
+        snippet_data[guide_id]['price1'] = price1
+        snippet_data[guide_id]['price2'] = price2
+        snippet_data[guide_id]['type1'] = type1
+        snippet_data[guide_id]['type2'] = type2
+        snippet_data[guide_id]['key1'] = key1_short
+        snippet_data[guide_id]['key2'] = key2_short
+        snippet_data[guide_id]['best1_en'] = best1_final
+        snippet_data[guide_id]['best2_en'] = best2_final
 
 print("\nDone!")
+
+# Update guides.json with featuredSnippet data
+data_path = r"C:\Users\Daniel\projects\topmusiciangear\data\guides.json"
+guides = json.loads(open(data_path, "r", encoding="utf-8-sig").read())
+for guide in guides:
+    if guide["id"] in snippet_data:
+        guide["featuredSnippet"] = snippet_data[guide["id"]]
+open(data_path, "w", encoding="utf-8").write(json.dumps(guides, ensure_ascii=False))
+print("Updated guides.json")

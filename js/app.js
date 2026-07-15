@@ -336,19 +336,47 @@ function renderGuideDetail(id) {
   const allProductsHtml = allProductIds.map(id => renderProductCard(id)).join("");
 
 
+  const isEs = currentLang === 'es';
+  let snippetHtml = '';
+  if (guide.featuredSnippet) {
+    const fs = guide.featuredSnippet;
+    snippetHtml = `
+      <div class="featured-snippet">
+        <h2 class="featured-snippet-title">${isEs && fs.title_es ? fs.title_es : fs.title_en}</h2>
+        <p class="featured-snippet-text">${isEs && fs.text_es ? fs.text_es : fs.text_en}</p>
+        <table class="featured-snippet-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>${isEs && fs.name1_es ? fs.name1_es : fs.name1_en}</th>
+              <th>${isEs && fs.name2_es ? fs.name2_es : fs.name2_en}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="fs-label">${isEs ? "Precio" : "Price"}</td><td>$${fs.price1}${isEs ? " USD" : ""}</td><td>$${fs.price2}${isEs ? " USD" : ""}</td></tr>
+            <tr><td class="fs-label">${isEs ? "Tipo" : "Type"}</td><td>${fs.type1}</td><td>${fs.type2}</td></tr>
+            <tr><td class="fs-label">${isEs ? "Característica Clave" : "Key Feature"}</td><td>${fs.key1}</td><td>${fs.key2}</td></tr>
+            <tr><td class="fs-label">${isEs ? "Ideal Para" : "Best For"}</td><td>${isEs && fs.best1_es ? fs.best1_es : fs.best1_en}</td><td>${isEs && fs.best2_es ? fs.best2_es : fs.best2_en}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
   grid.innerHTML = `
     <div class="guide-detail">
       <nav class="guide-breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a> / <a href="/#guides">${t("navGuides")}</a> / <span>${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</span>
+        <a href="/">Home</a> / <a href="/#guides">${t("navGuides")}</a> / <span>${isEs && guide.title_es ? guide.title_es : guide.title}</span>
       </nav>
       <div class="guide-back-row">
         <button class="guide-back-btn" id="guideBackBtn1"><svg data-fa="arrow-left" class="icon fa-solid fa-arrow-left" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> ${t("backToGuides")}</button>
       </div>
       <div class="guide-detail-header">
-        <h1 class="guide-detail-title">${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}</h1>
+        <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
       </div>
-      <div class="guide-detail-img"><img src="${guide.image}" alt="${currentLang === 'es' && guide.title_es ? guide.title_es : guide.title}" loading="lazy"></div>
-      <div class="guide-detail-intro"><p>${currentLang === 'es' && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
+      <div class="guide-detail-img"><img src="${guide.image}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy"></div>
+      <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
+      ${snippetHtml}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-verdict">
         <span class="verdict-label">${t("verdict")}</span>
