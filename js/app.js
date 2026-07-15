@@ -363,7 +363,13 @@ function renderGuideDetail(id) {
   const allProductsHtml = allProductIds.map(id => renderProductCard(id)).join("");
 
 
-  let snippetHtml = '';
+  let snippetHtml = guide.comparison ? `<div class="guide-comp-wrap">
+    <h2 class="guide-comp-title">${isEs ? 'Comparación Rápida' : 'Quick Comparison'}</h2>
+    <div class="guide-comp-scroll"><table class="guide-comp-table">
+      <thead><tr><th></th><th>${isEs && guide.featuredSnippet ? (guide.featuredSnippet.name1_es || guide.featuredSnippet.name1_en) : (guide.featuredSnippet ? guide.featuredSnippet.name1_en : '')}</th><th>${isEs && guide.featuredSnippet ? (guide.featuredSnippet.name2_es || guide.featuredSnippet.name2_en) : (guide.featuredSnippet ? guide.featuredSnippet.name2_en : '')}</th></tr></thead>
+      <tbody>${guide.comparison.rows.map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
+    </table></div>
+  </div>` : '';
 
   grid.innerHTML = `
     <div class="guide-detail">
