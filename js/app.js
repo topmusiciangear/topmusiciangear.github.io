@@ -758,7 +758,23 @@ document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.classList.add("lang-" + currentLang);
   initLangSwitcher();
   renderGuideCats();
+
+  window.filterCategory = function(cat) {
+    currentCategory = cat;
+    document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
+    renderGuideGrid();
+    if (currentGuideId) {
+      history.replaceState({}, '', '/');
+    }
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        scrollToSection("guides");
+      });
+    });
+  };
+
   function onPageLoaded() {
+    const catParam = new URLSearchParams(window.location.search).get('cat');
     const q = new URLSearchParams(window.location.search).get('g');
     if (q && guides.find(g => g.id === q)) {
       history.replaceState({}, '', '/?g=' + q);
@@ -774,6 +790,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     } else {
       renderGuideGrid();
+    }
+    if (catParam) {
+      history.replaceState({}, '', '/');
+      window.filterCategory(catParam);
     }
     renderAudioMini();
     renderMySetup();
@@ -823,17 +843,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   bindDisclosureLink();
-
-  window.filterCategory = function(cat) {
-    currentCategory = cat;
-    document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
-    renderGuideGrid();
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        scrollToSection("guides");
-      });
-    });
-  };
 
   window.addEventListener("popstate", () => {
     const q = new URLSearchParams(window.location.search).get('g');
