@@ -46,6 +46,7 @@ function setLang(lang) {
     }
     skipDetailScroll = true;
     renderGuideDetail(currentGuideId);
+    history.replaceState({}, '', '/guides/' + currentGuideId + (lang === 'es' ? '_es' : '') + '.html');
   } else {
     document.querySelector('meta[name="description"]').content = t("metaDescription");
     renderGuideGrid();
@@ -283,7 +284,7 @@ function renderGuideGrid() {
   grid.innerHTML = filtered.map(g => {
     const catName = getCatName(g.category);
     return `
-      <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},'','/?g='+id); renderGuideDetail(id);">
+      <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},'','/guides/'+id+(currentLang==='es'?'_es':'')+'.html'); renderGuideDetail(id);">
         <div class="guide-card-img">
           <img src="${g.image.replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
           <span class="guide-card-cat">${catName}</span>
@@ -398,7 +399,7 @@ function renderGuideDetail(id) {
       <div class="guide-related">
         <h2 class="guide-related-title">${t("relatedGuides")}</h2>
         <div class="guide-related-list">
-          ${(() => { var related = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!related.length) related = guides.filter(g => g.id !== guide.id); return related.slice(0, 4).map(g => { var gt = currentLang === 'es' && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (currentLang === 'es' ? '_es' : '') + '.html" class="guide-related-link" data-guide="' + g.id + '" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},\'\',\'/?g=\'+id); renderGuideDetail(id);">' + gt + '</a>'; }).join(''); })()}
+          ${(() => { var related = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!related.length) related = guides.filter(g => g.id !== guide.id); return related.slice(0, 4).map(g => { var gt = currentLang === 'es' && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (currentLang === 'es' ? '_es' : '') + '.html" class="guide-related-link" data-guide="' + g.id + '" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},\'\',\'/guides/\'+id+(currentLang===\'es\'?\'_es\':\'\')+\'.html\'); renderGuideDetail(id);">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
 
@@ -437,7 +438,7 @@ function renderGuideDetail(id) {
   var ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) ogDesc.content = descText.substring(0, 155);
   var ogUrl = document.querySelector('meta[property="og:url"]');
-  if (ogUrl) ogUrl.content = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
+  if (ogUrl) ogUrl.content = 'https://topmusiciangear.com/guides/' + guide.id + (currentLang === 'es' ? '_es' : '') + '.html';
   var ogImage = document.querySelector('meta[property="og:image"]');
   if (ogImage) ogImage.content = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.svg');
   var twTitle = document.querySelector('meta[name="twitter:title"]');
@@ -610,7 +611,7 @@ function injectGuideJsonLd(guide) {
   });
   var canon = document.querySelector('link[rel="canonical"]');
   if (canon) {
-    canon.href = 'https://topmusiciangear.com/guides/' + guide.id + '.html';
+    canon.href = 'https://topmusiciangear.com/guides/' + guide.id + (currentLang === 'es' ? '_es' : '') + '.html';
   }
   var hreflangs = document.querySelectorAll('link[rel="alternate"][hreflang]');
   if (hreflangs.length) {
@@ -788,15 +789,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function onPageLoaded() {
     const catParam = new URLSearchParams(window.location.search).get('cat');
-    const q = new URLSearchParams(window.location.search).get('g');
+    const match = window.location.pathname.match(/\/guides\/(.+?)\.html/);
+    const q = match ? match[1].replace('_es', '') : null;
     if (q && guides.find(g => g.id === q)) {
-      history.replaceState({}, '', '/?g=' + q);
       renderGuideDetail(q);
     } else if (location.hash) {
       const h = location.hash.slice(1);
       const guide = guides.find(g => g.id === h);
       if (guide) {
-        history.replaceState({}, '', '/?g=' + h);
+        history.replaceState({}, '', '/guides/' + h + '.html');
         renderGuideDetail(h);
       } else {
         renderGuideGrid();
@@ -858,7 +859,8 @@ document.addEventListener("DOMContentLoaded", () => {
   bindDisclosureLink();
 
   window.addEventListener("popstate", () => {
-    const q = new URLSearchParams(window.location.search).get('g');
+    const match = window.location.pathname.match(/\/guides\/(.+?)\.html/);
+    const q = match ? match[1].replace('_es', '') : null;
     if (q && guides.find(g => g.id === q)) {
       renderGuideDetail(q);
     } else {
