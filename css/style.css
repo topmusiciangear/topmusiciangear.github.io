@@ -1394,6 +1394,13 @@ footer ul li a:hover { color: var(--accent); }
   color: var(--white);
 }
 
+.guide-byline {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 8px;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .guide-detail-sections { grid-template-columns: 1fr; }
 }

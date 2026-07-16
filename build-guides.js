@@ -49,6 +49,7 @@ function criticalCss() {
     '.mobile-nav{display:flex;flex-direction:column;gap:4px;position:fixed;top:0;right:16px;padding-top:16px;z-index:101;opacity:0;pointer-events:none}',
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
     '.guide-detail{content-visibility:auto;contain-intrinsic-size:auto 500px;padding:64px 32px 60px}',
+    '.guide-byline{font-size:14px;color:var(--text-muted);margin-top:8px;font-weight:500}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
@@ -470,6 +471,7 @@ ${ogMeta}
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
+        <div class="guide-byline">${isEs ? 'Por Daniel Carnago' : 'By Daniel Carnago'}</div>
       </div>
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
