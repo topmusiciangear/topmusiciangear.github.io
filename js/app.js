@@ -348,6 +348,7 @@ function renderGuideDetail(id) {
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
   const badgeClass = guide.badge ? getBadgeClass(guide.badge) : "";
+  const imgUrl = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.svg');
 
   let sectionsHtml = guide.sections.map(s => {
     const heading = currentLang === 'es' && s.heading_es ? s.heading_es : s.heading;
@@ -383,7 +384,7 @@ function renderGuideDetail(id) {
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
       </div>
-      <div class="guide-detail-img"><img src="${guide.image}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy"></div>
+      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy"></div>
       <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
       ${snippetHtml}
       <div class="guide-detail-sections">${sectionsHtml}</div>

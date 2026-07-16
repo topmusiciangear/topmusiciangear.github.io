@@ -43,5 +43,11 @@ js = js.replace(
   'b.content="https://topmusiciangear.com/guides/"+a.id+(currentLang===\'es\'?\'_es\':\'\')+".html")'
 );
 
+// 8. guide detail image: make relative paths absolute (SPA runs under /guides/)
+js = js.replace(
+  'guide-detail-img"><img src="${a.image}"',
+  'guide-detail-img"><img src="${a.image&&a.image.startsWith(\'http\')?a.image:\'https://topmusiciangear.com/\'+(a.image||\'img/og-image.svg\')}"'
+);
+
 console.log('app.min.js updated');
 fs.writeFileSync('js/app.min.js', js, 'utf8');
