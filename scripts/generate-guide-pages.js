@@ -255,7 +255,8 @@ function renderGuidePage(g, lang) {
     .guide-section-heading::after { content: ' ▾'; font-size: 11px; margin-left: 6px; }
     .guide-section.collapsed .guide-section-heading::after { content: ' ▸'; }
     .guide-section.collapsed .guide-section-content { display: none; }
-    .guide-detail-static .guide-section-content { font-size: 14px; line-height: 1.8; color: var(--white); }
+    .guide-detail-static .guide-section-content { font-size: 14px; line-height: 1.8; color: var(--text-secondary); }
+    .guide-detail-static .guide-section-content strong { color: var(--white); }
     .guide-products-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 20px 0; }
     .product-card { background: var(--card-bg); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
     .product-card-img { width: 100%; aspect-ratio: 1; overflow: hidden; }

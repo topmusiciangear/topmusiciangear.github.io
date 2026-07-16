@@ -1387,8 +1387,11 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-section-content {
   font-size: 15px;
-  color: var(--white);
+  color: var(--text-secondary);
   line-height: 1.7;
+}
+.guide-section-content strong {
+  color: var(--white);
 }
 
 @media (max-width: 768px) {
