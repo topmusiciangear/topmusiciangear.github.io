@@ -65,7 +65,7 @@ function guideDates(guide, idx) {
   var pub = base.toISOString().split('T')[0];
   var today = new Date().toISOString().split('T')[0];
   if (pub > today) pub = today;
-  var mod = guide.dateModified || pub;
+  var mod = guide.dateModified || today;
   if (mod > today) mod = today;
   return { published: pub, modified: mod };
 }
