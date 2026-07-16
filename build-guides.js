@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { icon } = require('./js/icons.js');
 
 function criticalCss() {
@@ -87,10 +88,10 @@ guides.forEach(g => {
   });
 });
 
-// Auto-increment cache busters from file modification times
-const cacheVerJs = Math.floor(fs.statSync(path.join(dir, 'js', 'app.js')).mtimeMs).toString(36);
-const cacheVerJsMin = Math.floor(fs.statSync(path.join(dir, 'js', 'app.min.js')).mtimeMs).toString(36);
-const cacheVerCss = Math.floor(fs.statSync(path.join(dir, 'css', 'style.min.css')).mtimeMs).toString(36);
+// Auto-increment cache busters from file content hash
+const cacheVerJs = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.js'))).digest('hex').slice(0, 8);
+const cacheVerJsMin = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.min.js'))).digest('hex').slice(0, 8);
+const cacheVerCss = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'css', 'style.min.css'))).digest('hex').slice(0, 8);
 const today = new Date().toISOString().split('T')[0];
 
 
