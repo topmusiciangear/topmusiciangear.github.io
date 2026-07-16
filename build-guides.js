@@ -476,7 +476,7 @@ ${ogMeta}
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
       ${guide.comparison ? `<div class="guide-comp-wrap">
-        <h2 class="guide-comp-title">${isEs ? 'Comparación Rápida' : 'Quick Comparison'}</h2>
+        <h2 class="guide-comp-title">${isEs ? '¿Cómo se Comparan?' : 'How Do They Compare?'}</h2>
         <div class="guide-comp-scroll"><table class="guide-comp-table">
           <thead><tr><th></th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name1_es || guide.featuredSnippet.name1_en : (guide.featuredSnippet ? guide.featuredSnippet.name1_en : '')}</th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name2_es || guide.featuredSnippet.name2_en : (guide.featuredSnippet ? guide.featuredSnippet.name2_en : '')}</th></tr></thead>
           <tbody>${guide.comparison.rows.map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
@@ -487,9 +487,9 @@ ${ogMeta}
         <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
         <span class="verdict-text">${verdict}</span>
       </div>
-      ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? 'Productos en esta Guía' : 'Products in this Guide'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
+      ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       <div class="guide-conclusion">
-        <h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Final Thoughts'}</h2>
+        <h2 class="guide-conclusion-title">${isEs ? '¿Cuál es la Conclusión?' : 'What\'s the Bottom Line?'}</h2>
         <p>${conclusion}</p>
       </div>
       <div class="guide-related">
@@ -498,7 +498,7 @@ ${ogMeta}
           ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 6).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
-      ${(function(){ var pidSet = new Set(guide.featuredProducts || []); var comps = guides.filter(g => g.id !== guide.id && g.id.includes('vs') && (g.featuredProducts || []).some(p => pidSet.has(p))); if (!comps.length) return ''; return '<div class="guide-related"><h2 class="guide-related-title">' + (isEs ? 'Comparativas' : 'Comparisons') + '</h2><div class="guide-related-list">' + comps.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join('') + '</div></div>'; })()}
+      ${(function(){ var pidSet = new Set(guide.featuredProducts || []); var comps = guides.filter(g => g.id !== guide.id && g.id.includes('vs') && (g.featuredProducts || []).some(p => pidSet.has(p))); if (!comps.length) return ''; return '<div class="guide-related"><h2 class="guide-related-title">' + (isEs ? '¿Qué Comparativas Importan?' : 'Which Comparisons Matter?') + '</h2><div class="guide-related-list">' + comps.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join('') + '</div></div>'; })()}
       <div class="guide-back-row">
         <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
       </div>
