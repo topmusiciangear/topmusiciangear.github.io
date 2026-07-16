@@ -136,6 +136,7 @@ const translations = {
     catName_pedals: "Pedals",
     catName_live_sound: "Live Sound",
     catName_daw: "DAW",
+    catName_production: "Production",
     heroTelegram: "Join us on Telegram — daily sales & deals on music gear",
     footerTelegramTitle: "Join us on Telegram",
     footerTelegramDesc: "Every day we post if there are sales on music gear"
@@ -277,6 +278,7 @@ const translations = {
     catName_pedals: "Pedales",
     catName_live_sound: "Sonido en Vivo",
     catName_daw: "DAW",
+    catName_production: "Producción",
     heroTelegram: "Únete a Telegram — ofertas diarias en equipo musical",
     footerTelegramTitle: "Únete a Telegram",
     footerTelegramDesc: "Cada día publicamos si hay ofertas en equipo musical"
