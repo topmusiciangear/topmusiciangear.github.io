@@ -1798,8 +1798,10 @@ footer ul li a:hover { color: var(--accent); }
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  object-fit: cover;
-  object-position: center;
+  background-color: #0d0d0d;
+  background-image: url(img/me-600.webp);
+  background-size: cover;
+  background-position: center;
   opacity: .12;
 }
 
