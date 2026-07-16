@@ -55,5 +55,11 @@ js = js.replace(
   'guide-product-card-img"><img src="${a.img&&a.img.startsWith(\'http\')?a.img:\'https://topmusiciangear.com/\'+(a.img||\'img/og-image.svg\')}"'
 );
 
+// 10. ?g= fallback: redirect to /guides/slug.html (users/bookmarks from old URLs)
+js = js.replace(
+  'function s(){const e=new URLSearchParams(window.location.search).get("cat"),a=(',
+  'function s(){const n=new URLSearchParams(window.location.search).get("g");if(n&&guides.find(t=>t.id===n)){window.location.replace("/guides/"+n+".html");return}const e=new URLSearchParams(window.location.search).get("cat"),a=('
+);
+
 console.log('app.min.js updated');
 fs.writeFileSync('js/app.min.js', js, 'utf8');

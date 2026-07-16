@@ -790,6 +790,11 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function onPageLoaded() {
+    const gParam = new URLSearchParams(window.location.search).get('g');
+    if (gParam && guides.find(g => g.id === gParam)) {
+      window.location.replace('/guides/' + gParam + '.html');
+      return;
+    }
     const catParam = new URLSearchParams(window.location.search).get('cat');
     const match = window.location.pathname.match(/\/guides\/(.+?)\.html/);
     const q = match ? match[1].replace('_es', '') : null;
