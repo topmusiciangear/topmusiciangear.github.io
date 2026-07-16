@@ -246,9 +246,10 @@ function renderProductCard(id) {
   const stores = Object.entries(getResolvedStores(p)).map(([key, url]) =>
     `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
   ).join("");
+  const prodImgUrl = p.img && p.img.startsWith('http') ? p.img : 'https://topmusiciangear.com/' + (p.img || 'img/og-image.svg');
   return `
     <div class="guide-product-card">
-      <div class="guide-product-card-img"><img src="${p.img}" alt="${title}" loading="lazy"></div>
+      <div class="guide-product-card-img"><img src="${prodImgUrl}" alt="${title}" loading="lazy"></div>
       <div class="guide-product-card-body">
         <div class="guide-product-card-title">${title}</div>
         <div class="guide-product-card-rating">${stars} <span>${p.reviews.toLocaleString()}</span></div>

@@ -49,5 +49,11 @@ js = js.replace(
   'guide-detail-img"><img src="${a.image&&a.image.startsWith(\'http\')?a.image:\'https://topmusiciangear.com/\'+(a.image||\'img/og-image.svg\')}"'
 );
 
+// 9. product card image: make relative paths absolute (SPA runs under /guides/)
+js = js.replace(
+  'guide-product-card-img"><img src="${a.img}"',
+  'guide-product-card-img"><img src="${a.img&&a.img.startsWith(\'http\')?a.img:\'https://topmusiciangear.com/\'+(a.img||\'img/og-image.svg\')}"'
+);
+
 console.log('app.min.js updated');
 fs.writeFileSync('js/app.min.js', js, 'utf8');
