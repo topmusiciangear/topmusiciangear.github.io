@@ -1798,16 +1798,9 @@ footer ul li a:hover { color: var(--accent); }
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  background-image: url('../img/me-600.webp');
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
   opacity: .12;
-}
-@media (min-width: 900px) {
-  .bg-hero { background-image: url('../img/me-900.webp'); }
-}
-@media (min-width: 1455px) {
-  .bg-hero { background-image: url('../img/me.webp'); }
 }
 
 .hero, .stats-bar, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .toast, body > *:not(header):not(.skip-link):not(.bg-hero):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
@@ -2041,11 +2034,12 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 
 @media print {
   body { background: #fff !important; color: #000 !important; }
-  header, .header-tagline-bar, .hero, .bg-hero, .hamburger, .mobile-nav, .lang-switcher, .header-social,
+  header, .header-tagline-bar, .hero, .hamburger, .mobile-nav, .lang-switcher, .header-social,
   .sort-bar, #guideCats, .back-to-guides, .footer-telegram, .skip-link,
   #cookie-banner, #disclosureModal,
   .guide-card, .cat-card, nav, .hero-actions, .btn-primary, .btn-secondary,
   .featured-snippet-table tbody tr:hover td { background: transparent !important; }
+  .bg-hero { display: none !important; }
   .featured-snippet, .guide-detail, .guide-section, .guide-product-card { break-inside: avoid; }
   a { color: #000 !important; text-decoration: underline; }
 }
