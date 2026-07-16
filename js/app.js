@@ -678,7 +678,8 @@ function showToast(msg) {
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  el.scrollIntoView({ block: "start", behavior: "auto" });
+  var y = el.getBoundingClientRect().top + window.pageYOffset - 72;
+  window.scrollTo({ top: y, behavior: "smooth" });
 }
 
 function handleNavClick(target) {

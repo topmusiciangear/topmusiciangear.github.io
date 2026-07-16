@@ -151,8 +151,8 @@
       <h1 data-i18n="heroTitle">From Studio To Stage — <span>Gear Reviewed By A Pro Musician</span></h1>
       <p data-i18n="heroDesc">Trusted by a musician with over 20 years of experience on the world's biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.</p>
       <div class="hero-actions">
-        <a href="#mysetup" class="btn-primary" onclick="event.preventDefault();scrollToSection('mysetup')" data-i18n="heroCta">Browse Gear →</a>
-        <a href="#about" class="btn-secondary" onclick="event.preventDefault();scrollToSection('about')" data-i18n="heroStory">My Story</a>
+        <a href="#mysetup" class="btn-primary" onclick="event.preventDefault();handleNavClick('mysetup')" data-i18n="heroCta">Browse Gear →</a>
+        <a href="#about" class="btn-secondary" onclick="event.preventDefault();handleNavClick('about')" data-i18n="heroStory">My Story</a>
       </div>
     </div>
   </section>
@@ -352,7 +352,7 @@
 
 <script defer src="js/translations.v4.min.js"></script>
   <script defer src="js/constants.min.js?v=2"></script>
-  <script defer src="js/app.min.js?v=3916367d"></script>
+  <script defer src="js/app.min.js?v=c0090456"></script>
 <script>
 (function(){function f(){var e=document.getElementById('aboutContent');if(e&&e.innerHTML.indexOf('file:///')>-1){e.innerHTML=e.innerHTML.replace(/file:\/\/\/C:\/Users\/Daniel\/Downloads\/James%20Bond%20007%20\(Cuba%20Spectre%20Party\)\.mp4/g,'https://www.youtube.com/watch?v=uTbyWcaoPGw')}}if(document.getElementById('aboutContent')){f();new MutationObserver(f).observe(document.getElementById('aboutContent'),{childList:true,subtree:true,characterData:true})}else{var i=setInterval(function(){var e=document.getElementById('aboutContent');if(e){f();new MutationObserver(f).observe(e,{childList:true,subtree:true,characterData:true});clearInterval(i)}},200)}})();
 </script>
