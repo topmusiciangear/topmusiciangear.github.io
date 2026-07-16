@@ -8,8 +8,8 @@ let guides = [];
 let products = [];
 
 const dataPromise = Promise.all([
-  fetch('data/guides.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load guides'); return r.json(); }).then(function(d) { guides = d; }),
-  fetch('data/products.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load products'); return r.json(); }).then(function(d) { products = d; })
+  fetch('https://topmusiciangear.com/data/guides.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load guides'); return r.json(); }).then(function(d) { guides = d; }),
+  fetch('https://topmusiciangear.com/data/products.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load products'); return r.json(); }).then(function(d) { products = d; })
 ]).catch(function(err) {
   console.error('Data error:', err);
   var grid = document.getElementById('guideGrid');
@@ -456,7 +456,7 @@ function renderGuideDetail(id) {
 function renderAudioMini() {
   const isMobile = window.matchMedia('(max-width:767px)').matches;
   const targetId = isMobile ? 'audioMiniMobile' : 'audioMini';
-  const audioHtml = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="none"><source src="audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
+  const audioHtml = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="none"><source src="https://topmusiciangear.com/audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
   const el = document.getElementById(targetId);
   if (el) el.innerHTML = audioHtml;
   setTimeout(() => {
@@ -499,7 +499,7 @@ function renderAbout() {
   container.innerHTML = `
     <div class="about-photo-col">
       <div class="about-photo-wrapper">
-        <img src="img/me-600.webp" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
+        <img src="https://topmusiciangear.com/img/me-600.webp" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
       </div>
     </div>
     <div class="about-content">
