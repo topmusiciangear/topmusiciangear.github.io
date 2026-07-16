@@ -800,6 +800,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const q = match ? match[1].replace('_es', '') : null;
     if (q && guides.find(g => g.id === q)) {
       renderGuideDetail(q);
+      history.replaceState({}, '', '/guides/' + q + (currentLang === 'es' ? '_es' : '') + '.html');
     } else if (location.hash) {
       const h = location.hash.slice(1);
       const guide = guides.find(g => g.id === h);
