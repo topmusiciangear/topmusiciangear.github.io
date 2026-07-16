@@ -417,7 +417,7 @@ function renderGuideDetail(id) {
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
       </div>
-      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy"></div>
+      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9"></div>
       <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
       ${snippetHtml}
       <div class="guide-detail-sections">${sectionsHtml}</div>
