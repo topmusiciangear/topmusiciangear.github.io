@@ -409,6 +409,7 @@ function renderGuideDetailFromData(id) {
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
+        <div class="guide-byline">${isEs ? 'Por Daniel Carnago' : 'By Daniel Carnago'}</div>
       </div>
       <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9"></div>
       <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
