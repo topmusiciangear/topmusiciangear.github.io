@@ -678,7 +678,20 @@ function showToast(msg) {
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  el.scrollIntoView({ behavior: "smooth", block: "start" });
+  var targetY = el.getBoundingClientRect().top + window.pageYOffset - 78;
+  var startY = window.pageYOffset;
+  var dist = targetY - startY;
+  if (Math.abs(dist) < 5) return;
+  var dur = Math.min(150 + Math.abs(dist) * 0.2, 700);
+  var t0;
+  function step(ts) {
+    if (!t0) t0 = ts;
+    var p = Math.min((ts - t0) / dur, 1);
+    var e = 1 - Math.pow(1 - p, 3);
+    window.scrollTo(0, startY + dist * e);
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
 }
 
 function handleNavClick(target) {
