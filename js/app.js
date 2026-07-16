@@ -329,6 +329,36 @@ function injectFaqSchema(id) {
   document.head.appendChild(script);
 }
 
+function boldFirstSentence(html) {
+  var t = html.trim();
+  if (/^(<p>\s*)?<strong/i.test(t)) return html;
+  var prefix = '', suffix = '';
+  var pOpen = t.match(/^(<p[^>]*>)/i);
+  if (pOpen) {
+    prefix = pOpen[1];
+    t = t.slice(pOpen[1].length);
+    var pClose = t.match(/(<\/p>)$/i);
+    if (pClose) { suffix = pClose[1]; t = t.slice(0, -pClose[1].length); }
+  }
+  t = t.replace(/^([^\.]+\.(\s|$)?)/, '<strong>$1</strong>');
+  return prefix + t + suffix;
+}
+
+function sectionAffiliateCta(section) {
+  if (!section.products || !section.products.length) return '';
+  var pid = section.products[0];
+  var p = products.find(function(pr) { return pr.id === pid; });
+  if (!p) return '';
+  var title = currentLang === 'es' && p.title_es ? p.title_es : p.title;
+  var stores = getResolvedStores(p);
+  var amazonUrl = stores.amazon;
+  if (!amazonUrl) return '';
+  var cta = currentLang === 'es'
+    ? '\u2794 Puedes revisar el precio actual de ' + title + ' y sus opiniones en <a href="' + amazonUrl + '" target="_blank" rel="noopener noreferrer sponsored">Amazon aqu\u00ED</a>.'
+    : '\u2794 Check the current price of ' + title + ' and reviews on <a href="' + amazonUrl + '" target="_blank" rel="noopener noreferrer sponsored">Amazon here</a>.';
+  return '<p class="guide-affiliate-cta">' + cta + '</p>';
+}
+
 function renderGuideDetail(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
@@ -354,10 +384,12 @@ function renderGuideDetail(id) {
   let sectionsHtml = guide.sections.map(s => {
     const heading = currentLang === 'es' && s.heading_es ? s.heading_es : s.heading;
     const content = currentLang === 'es' && s.content_es ? s.content_es : s.content;
+    const boldedC = boldFirstSentence(content);
+    const cta = sectionAffiliateCta(s);
     return `
       <div class="guide-section">
         <h2 class="guide-section-heading">${heading}</h2>
-        <div class="guide-section-content">${content}</div>
+        <div class="guide-section-content">${boldedC}${cta}</div>
       </div>
     `;
   }).join("");
