@@ -1,6 +1,5 @@
-/*
+/index.html
   Cache-Control: no-cache, no-store, must-revalidate
-  Pragma: no-cache
 
 /js/app.min.js
   Cache-Control: public, max-age=31536000, immutable
@@ -8,14 +7,5 @@
 /js/constants.min.js
   Cache-Control: public, max-age=31536000, immutable
 
-/js/translations.v4.min.js
-  Cache-Control: public, max-age=31536000, immutable
-
 /css/style.min.css
-  Cache-Control: public, max-age=31536000, immutable
-
-/img/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/fonts/*
   Cache-Control: public, max-age=31536000, immutable
