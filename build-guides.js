@@ -51,7 +51,7 @@ function criticalCss() {
     '.guide-detail{content-visibility:auto;contain-intrinsic-size:auto 500px;padding:64px 32px 60px}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
-    '.guide-affiliate-cta{margin-top:16px;color:var(--text-muted);font-size:14px;font-weight:400}.guide-affiliate-cta a{color:var(--accent);text-decoration:none}.guide-affiliate-cta a:hover{text-decoration:underline}',
+
 
     '.guide-comp-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;contain:layout style}',
     '.guide-comp-table th,.guide-comp-table td{padding:12px 16px;border:1px solid var(--border);text-align:left}',
@@ -220,21 +220,6 @@ function boldFirstSentence(html) {
   return prefix + t + suffix;
 }
 
-function sectionAffiliateCta(section, lang) {
-  if (!section.products || !section.products.length) return '';
-  const pid = section.products[0];
-  const p = products.find(pr => pr.id === pid);
-  if (!p) return '';
-  const title = (lang === 'es' && p.title_es) ? p.title_es : p.title;
-  const stores = getResolvedStores(p);
-  const amazonUrl = stores.amazon;
-  if (!amazonUrl) return '';
-  const cta = lang === 'es'
-    ? `\u2794 Puedes revisar el precio actual de ${title} y sus opiniones en <a href="${amazonUrl}" target="_blank" rel="noopener noreferrer sponsored">Amazon aquí</a>.`
-    : `\u2794 Check the current price of ${title} and reviews on <a href="${amazonUrl}" target="_blank" rel="noopener noreferrer sponsored">Amazon here</a>.`;
-  return `<p class="guide-affiliate-cta">${cta}</p>`;
-}
-
 function normImg(path) {
   return path && path.startsWith('../') ? path.substring(3) : path;
 }
@@ -262,10 +247,9 @@ function buildGuidePage(guide, lang, idx) {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
-    const cta = sectionAffiliateCta(s, isEs ? 'es' : 'en');
     return `<div class="guide-section">
       <h2 class="guide-section-heading">${h}</h2>
-      <div class="guide-section-content">${boldedC}${cta}</div>
+      <div class="guide-section-content">${boldedC}</div>
     </div>`;
   }).join('');
 
