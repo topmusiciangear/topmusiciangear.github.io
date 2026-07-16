@@ -343,6 +343,16 @@ function boldFirstSentence(html) {
 }
 
 function renderGuideDetail(id) {
+  fetch('https://topmusiciangear.com/data/guides.json?v=' + Date.now()).then(function(r) {
+    if (!r.ok) throw new Error('Failed to load guides');
+    return r.json();
+  }).then(function(d) {
+    guides = d;
+    renderGuideDetailFromData(id);
+  });
+}
+
+function renderGuideDetailFromData(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
   currentGuideId = guide.id;
