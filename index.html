@@ -354,80 +354,9 @@
 (function(){function f(){var e=document.getElementById('aboutContent');if(e&&e.innerHTML.indexOf('file:///')>-1){e.innerHTML=e.innerHTML.replace(/file:\/\/\/C:\/Users\/Daniel\/Downloads\/James%20Bond%20007%20\(Cuba%20Spectre%20Party\)\.mp4/g,'https://www.youtube.com/watch?v=uTbyWcaoPGw')}}if(document.getElementById('aboutContent')){f();new MutationObserver(f).observe(document.getElementById('aboutContent'),{childList:true,subtree:true,characterData:true})}else{var i=setInterval(function(){var e=document.getElementById('aboutContent');if(e){f();new MutationObserver(f).observe(e,{childList:true,subtree:true,characterData:true});clearInterval(i)}},200)}})();
 </script>
 <style>.cookie-visible{transform:translateY(0)!important}</style>
+<style>.crawl-guides{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:1px;width:1px;margin:-1px;padding:0;border:0}</style>
 <div class="bg-hero" role="presentation"></div>
-<!-- crawl-guides removed for SEO safety -->
-<!-- Cookie Consent Banner -->
-<div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(100%);transition:transform .3s ease">
-  <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalise content, and analyse website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website's cookie use as described in our <a href="cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span><span class="cookie-lang-es">Usamos cookies esenciales para que nuestro sitio funcione. Con tu consentimiento, también podemos usar cookies no esenciales para mejorar la experiencia, personalizar contenido y analizar el tráfico. Por estas razones, podemos compartir tus datos de uso con nuestros socios de análisis. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies como se describe en nuestra <a href="cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Política de Cookies</a>. Puedes cambiar tu configuración en cualquier momento haciendo clic en <strong>Preferencias</strong>.</span></p>
-  <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap">
-    <button id="cb-prefs" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span><span class="cookie-lang-es">Preferencias</span></button>
-    <button id="cb-accept" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#2563eb;color:#fff"><span class="cookie-lang-en">Accept</span><span class="cookie-lang-es">Aceptar</span></button>
-  </div>
-</div>
-
-<!-- Cookie Preferences Modal -->
-<div id="cookie-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.85);align-items:center;justify-content:center;font-family:'Inter',sans-serif;transform:none!important">
-  <div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0;position:relative">
-    <button id="cm-close" style="position:absolute;top:16px;right:16px;background:none;border:none;color:#aaa;font-size:20px;cursor:pointer;line-height:1;padding:4px 8px">&times;</button>
-    <h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px"><span class="cookie-lang-en">Cookie Preferences</span><span class="cookie-lang-es">Preferencias de Cookies</span></h3>
-    <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6"><span class="cookie-lang-en">We use different types of cookies to optimise your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</span><span class="cookie-lang-es">Usamos diferentes tipos de cookies para optimizar tu experiencia. Haz clic en las categorías para conocer sus propósitos. Puedes elegir qué tipos de cookies permitir y cambiar tus preferencias en cualquier momento. Recuerda que deshabilitar cookies puede afectar tu experiencia. Puedes obtener más información visitando nuestra <a href="cookie-policy.html" style="color:#60a5fa">Política de Cookies</a>.</span></p>
-    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
-      <div style="display:flex;align-items:flex-start;gap:10px">
-        <input type="checkbox" checked disabled style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
-        <div style="flex:1">
-          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Essential</span><span class="cookie-lang-es">Esenciales</span></strong>
-          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are necessary for the core functionality of our website and some of its features, such as access to secure areas.</span><span class="cookie-lang-es">Estas cookies son necesarias para la funcionalidad principal de nuestro sitio web y algunas de sus características, como el acceso a áreas seguras.</span></p>
-        </div>
-      </div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
-      <div style="display:flex;align-items:flex-start;gap:10px">
-        <input type="checkbox" id="cm-analytics" checked aria-label="Enable analytics cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
-        <div style="flex:1">
-          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span><span class="cookie-lang-es">Analíticas</span></strong>
-          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalised site experience for you.</span><span class="cookie-lang-es">Estas cookies recopilan información que nos ayuda a entender cómo se utilizan nuestros sitios web. También pueden usarse para medir la efectividad de nuestras campañas o para ofrecer una experiencia personalizada.</span></p>
-        </div>
-      </div>
-    </div>
-    
-    <div style="padding:14px 0">
-      <div style="display:flex;align-items:flex-start;gap:10px">
-        <input type="checkbox" id="cm-affiliate" checked aria-label="Enable affiliate tracking cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
-        <div style="flex:1">
-          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span><span class="cookie-lang-es">Seguimiento de Afiliados</span></strong>
-          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span><span class="cookie-lang-es">Estas cookies rastrean referencias a tiendas asociadas para que podamos ganar comisiones en compras.</span></p>
-        </div>
-      </div>
-    </div>
-    <div style="display:flex;gap:10px;margin-top:20px;justify-content:space-between;flex-wrap:wrap">
-      <button id="cm-decline" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap"><span class="cookie-lang-en">Decline All</span><span class="cookie-lang-es">Rechazar Todas</span></button>
-      <button id="cm-allow" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap"><span class="cookie-lang-en">Allow All</span><span class="cookie-lang-es">Permitir Todas</span></button>
-    </div>
-  </div>
-</div>
-<script>
-!function(){var b=document.getElementById('cookie-banner'),m=document.getElementById('cookie-modal');var c=null;try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}if(c){gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}else{setTimeout(function(){if(b)b.classList.add('cookie-visible')},500)}window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.classList.remove('cookie-visible');if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};window.cookieDecline=function(){try{localStorage.setItem('cookiePrefs',JSON.stringify({essential:true,analytics:false,affiliate:false,_ts:Date.now()}))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.classList.remove('cookie-visible');if(m)m.style.display='none'};window.cookiePrefs=function(){if(m)m.style.display='flex';try{var s=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,affiliate:true};var ca=document.getElementById('cm-analytics');if(ca)ca.checked=s.analytics;var ca3=document.getElementById('cm-affiliate');if(ca3)ca3.checked=s.affiliate}catch(e){}};window.cookieSave=function(){try{var p={essential:true,analytics:document.getElementById('cm-analytics')?.checked??false,affiliate:document.getElementById('cm-affiliate')?.checked??false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':p.analytics?'granted':'denied'});if(b)b.classList.remove('cookie-visible');if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};document.getElementById('cb-accept')?.addEventListener('click',window.cookieAccept);document.getElementById('cb-prefs')?.addEventListener('click',window.cookiePrefs);document.getElementById('cm-close')?.addEventListener('click',function(){if(m)m.style.display='none'});document.getElementById('cm-decline')?.addEventListener('click',window.cookieDecline);document.getElementById('cm-allow')?.addEventListener('click',window.cookieAccept)}();
-</script>
-<script>
-(function(){
-  var h = window.location.hash.slice(1);
-  if (h === 'mysetup' || h === 'about') {
-    var tries = 30;
-    (function poll(){
-      var el = document.getElementById(h);
-      if (el) {
-        var y = el.getBoundingClientRect().top + window.scrollY - 72;
-        var cur = window.scrollY;
-        if (Math.abs(cur - y) > 30) {
-          window.scrollTo({top: y, behavior: 'smooth'});
-        }
-      }
-      if (--tries) setTimeout(poll, 500);
-    })();
-  }
-})();
-</script>
-
+<div class="crawl-guides">
 <a href="/guides/starter-studio.html" hreflang="en">Home Studio Starter Kit: Everything You Need (Under $1,000)</a>
 <a href="/guides/starter-studio_es.html" hreflang="es">Kit de Home Studio por Menos de $1,000 (2026)</a>
 <a href="/guides/best-interface.html" hreflang="en">Best Audio Interface for Home Recording (2026)</a>
@@ -572,6 +501,80 @@
 <a href="/guides/fabfilter-vs-ozone_es.html" hreflang="es">FabFilter vs iZotope Ozone: Mejor Suite de Mezcla (2026)</a>
 <a href="/guides/best-guitar-home-office.html" hreflang="en">Best Guitar for Home Office & Remote Workers (2026)</a>
 <a href="/guides/best-guitar-home-office_es.html" hreflang="es">Mejor Guitarra para Home Office y Trabajo Remoto (2026)</a>
+</div>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(100%);transition:transform .3s ease">
+  <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalise content, and analyse website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website's cookie use as described in our <a href="cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span><span class="cookie-lang-es">Usamos cookies esenciales para que nuestro sitio funcione. Con tu consentimiento, también podemos usar cookies no esenciales para mejorar la experiencia, personalizar contenido y analizar el tráfico. Por estas razones, podemos compartir tus datos de uso con nuestros socios de análisis. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies como se describe en nuestra <a href="cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Política de Cookies</a>. Puedes cambiar tu configuración en cualquier momento haciendo clic en <strong>Preferencias</strong>.</span></p>
+  <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap">
+    <button id="cb-prefs" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span><span class="cookie-lang-es">Preferencias</span></button>
+    <button id="cb-accept" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#2563eb;color:#fff"><span class="cookie-lang-en">Accept</span><span class="cookie-lang-es">Aceptar</span></button>
+  </div>
+</div>
+
+<!-- Cookie Preferences Modal -->
+<div id="cookie-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.85);align-items:center;justify-content:center;font-family:'Inter',sans-serif;transform:none!important">
+  <div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0;position:relative">
+    <button id="cm-close" style="position:absolute;top:16px;right:16px;background:none;border:none;color:#aaa;font-size:20px;cursor:pointer;line-height:1;padding:4px 8px">&times;</button>
+    <h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px"><span class="cookie-lang-en">Cookie Preferences</span><span class="cookie-lang-es">Preferencias de Cookies</span></h3>
+    <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6"><span class="cookie-lang-en">We use different types of cookies to optimise your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</span><span class="cookie-lang-es">Usamos diferentes tipos de cookies para optimizar tu experiencia. Haz clic en las categorías para conocer sus propósitos. Puedes elegir qué tipos de cookies permitir y cambiar tus preferencias en cualquier momento. Recuerda que deshabilitar cookies puede afectar tu experiencia. Puedes obtener más información visitando nuestra <a href="cookie-policy.html" style="color:#60a5fa">Política de Cookies</a>.</span></p>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" checked disabled style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Essential</span><span class="cookie-lang-es">Esenciales</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are necessary for the core functionality of our website and some of its features, such as access to secure areas.</span><span class="cookie-lang-es">Estas cookies son necesarias para la funcionalidad principal de nuestro sitio web y algunas de sus características, como el acceso a áreas seguras.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-analytics" checked aria-label="Enable analytics cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span><span class="cookie-lang-es">Analíticas</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalised site experience for you.</span><span class="cookie-lang-es">Estas cookies recopilan información que nos ayuda a entender cómo se utilizan nuestros sitios web. También pueden usarse para medir la efectividad de nuestras campañas o para ofrecer una experiencia personalizada.</span></p>
+        </div>
+      </div>
+    </div>
+    
+    <div style="padding:14px 0">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-affiliate" checked aria-label="Enable affiliate tracking cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span><span class="cookie-lang-es">Seguimiento de Afiliados</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span><span class="cookie-lang-es">Estas cookies rastrean referencias a tiendas asociadas para que podamos ganar comisiones en compras.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:space-between;flex-wrap:wrap">
+      <button id="cm-decline" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap"><span class="cookie-lang-en">Decline All</span><span class="cookie-lang-es">Rechazar Todas</span></button>
+      <button id="cm-allow" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap"><span class="cookie-lang-en">Allow All</span><span class="cookie-lang-es">Permitir Todas</span></button>
+    </div>
+  </div>
+</div>
+<script>
+!function(){var b=document.getElementById('cookie-banner'),m=document.getElementById('cookie-modal');var c=null;try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}if(c){gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}else{setTimeout(function(){if(b)b.classList.add('cookie-visible')},500)}window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.classList.remove('cookie-visible');if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};window.cookieDecline=function(){try{localStorage.setItem('cookiePrefs',JSON.stringify({essential:true,analytics:false,affiliate:false,_ts:Date.now()}))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.classList.remove('cookie-visible');if(m)m.style.display='none'};window.cookiePrefs=function(){if(m)m.style.display='flex';try{var s=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,affiliate:true};var ca=document.getElementById('cm-analytics');if(ca)ca.checked=s.analytics;var ca3=document.getElementById('cm-affiliate');if(ca3)ca3.checked=s.affiliate}catch(e){}};window.cookieSave=function(){try{var p={essential:true,analytics:document.getElementById('cm-analytics')?.checked??false,affiliate:document.getElementById('cm-affiliate')?.checked??false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':p.analytics?'granted':'denied'});if(b)b.classList.remove('cookie-visible');if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};document.getElementById('cb-accept')?.addEventListener('click',window.cookieAccept);document.getElementById('cb-prefs')?.addEventListener('click',window.cookiePrefs);document.getElementById('cm-close')?.addEventListener('click',function(){if(m)m.style.display='none'});document.getElementById('cm-decline')?.addEventListener('click',window.cookieDecline);document.getElementById('cm-allow')?.addEventListener('click',window.cookieAccept)}();
+</script>
+<script>
+(function(){
+  var h = window.location.hash.slice(1);
+  if (h === 'mysetup' || h === 'about') {
+    var tries = 30;
+    (function poll(){
+      var el = document.getElementById(h);
+      if (el) {
+        var y = el.getBoundingClientRect().top + window.scrollY - 72;
+        var cur = window.scrollY;
+        if (Math.abs(cur - y) > 30) {
+          window.scrollTo({top: y, behavior: 'smooth'});
+        }
+      }
+      if (--tries) setTimeout(poll, 500);
+    })();
+  }
+})();
+</script>
+
+
 
 </body>
 </html>
