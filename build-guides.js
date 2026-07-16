@@ -79,8 +79,17 @@ const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'),
 const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
 eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
 
+// Pre-bake bold first sentence into guides.json so SPA gets bold regardless of app.js version
+guides.forEach(g => {
+  g.sections.forEach(s => {
+    if (s.content) s.content = boldFirstSentence(s.content);
+    if (s.content_es) s.content_es = boldFirstSentence(s.content_es);
+  });
+});
+
 // Auto-increment cache busters from file modification times
 const cacheVerJs = Math.floor(fs.statSync(path.join(dir, 'js', 'app.js')).mtimeMs).toString(36);
+const cacheVerJsMin = Math.floor(fs.statSync(path.join(dir, 'js', 'app.min.js')).mtimeMs).toString(36);
 const cacheVerCss = Math.floor(fs.statSync(path.join(dir, 'css', 'style.min.css')).mtimeMs).toString(36);
 const today = new Date().toISOString().split('T')[0];
 
@@ -675,7 +684,8 @@ buildSitemap();
   var html = fs.readFileSync(indexFile, 'utf8');
   // Update CSS cache buster
   html = html.replace(/(css\/style\.css\?v=)[a-z0-9]+/g, '$1' + cacheVerCss);
-  // Update JS cache buster
+  // Update JS cache buster (min.js first to avoid partial match by app.js regex)
+  html = html.replace(/(js\/app\.min\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJsMin);
   html = html.replace(/(js\/app\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJs);
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
@@ -727,5 +737,9 @@ function buildImageSitemap() {
   console.log('Generated: sitemap-images.xml (' + imgUrls.length + ' images)');
 }
 buildImageSitemap();
+
+// Write back pre-bolded data/guides.json for SPA consumption
+fs.writeFileSync(path.join(dir, 'data', 'guides.json'), JSON.stringify(guides, null, 2), 'utf8');
+console.log('Updated: data/guides.json with pre-bolded content');
 
 console.log(`\nDone! Generated ${guides.length * 2} guide pages.`);
