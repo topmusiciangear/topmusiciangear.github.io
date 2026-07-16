@@ -363,6 +363,7 @@ function renderGuideDetail(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
   currentGuideId = guide.id;
+  const isEs = currentLang === 'es';
   injectFaqSchema(id);
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "none";
