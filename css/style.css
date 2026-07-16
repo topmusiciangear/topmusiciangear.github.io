@@ -1387,7 +1387,7 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-section-content {
   font-size: 15px;
-  color: var(--text-secondary);
+  color: var(--white);
   line-height: 1.7;
 }
 
