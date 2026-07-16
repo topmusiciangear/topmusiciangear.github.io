@@ -3,7 +3,7 @@
     "id": "starter-studio",
     "title": "Home Studio Starter Kit: Everything You Need (Under $1,000)",
     "title_es": "Kit de Home Studio por Menos de $1,000 (2026)",
-    "category": "production",
+    "category": "interfaces",
     "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
     "badge": "bestSeller",
     "intro": "Building your first home studio doesn't have to break the bank. After 20+ years of recording everywhere from a cramped Santiago de Cuba bedroom to Abbey Road, I've learned one thing: you don't need expensive gear to make professional recordings. What you need is the right gear. Here's the exact starter kit I recommend to anyone asking me how to begin.",
@@ -603,6 +603,24 @@
           15,
           23
         ]
+      },
+      {
+        "heading": "Record Vocals: Shure SM7B",
+        "heading_es": "Graba Voces: Shure SM7B",
+        "content": "Even beat producers need vocals. The Shure SM7B is the mic I trust for tracking vocals over beats — it rejects room noise, handles loud performances effortlessly, and sits perfectly in a mix. The built-in presence boost adds clarity without EQ. Pair it with the Scarlett 2i2 and you'll get broadcast-quality vocal takes every time.",
+        "content_es": "Incluso los productores de beats necesitan voces. El Shure SM7B es el micrófono en el que confío para grabar voces sobre beats — rechaza el ruido de la sala, maneja interpretaciones fuertes sin esfuerzo y se asienta perfectamente en la mezcla. El refuerzo de presencia integrado añade claridad sin EQ. Combínalo con la Scarlett 2i2 y obtendrás tomas vocales de calidad de transmisión cada vez.",
+        "products": [
+          1
+        ]
+      },
+      {
+        "heading": "Your DAW: Ableton Live 12 Suite",
+        "heading_es": "Tu DAW: Ableton Live 12 Suite",
+        "content": "Ableton Live is the gold standard for beat-making. The Session View lets you launch clips and experiment with arrangements in real time — it's designed for the way beat-makers actually work. The built-in instruments, effects, and Max for Live integration give you a complete production studio inside your laptop. If you're serious about making beats, this is the DAW to learn.",
+        "content_es": "Ableton Live es el estándar de oro para hacer beats. La Vista Session te permite lanzar clips y experimentar con arreglos en tiempo real — está diseñado para la forma en que los productores de beats realmente trabajan. Los instrumentos, efectos e integración Max for Live incorporados te dan un estudio de producción completo dentro de tu laptop. Si hablas en serio de hacer beats, este es el DAW que debes aprender.",
+        "products": [
+          110
+        ]
       }
     ],
     "conclusion": "Start with the MPC One+ — it's the most complete beat-making tool on the market. Add the TR-8S when you want hands-on drum control. The KeyLab Essential 61 covers keys and DAW control. And don't skimp on the interface and headphones — they're how you'll hear your beats. This is the exact setup I'd buy if I were building a beat studio today.",
@@ -614,7 +632,9 @@
       33,
       13,
       15,
-      23
+      23,
+      1,
+      110
     ],
     "relatedGuides": [
       "midi-controllers",
@@ -3825,7 +3845,7 @@
     "id": "best-drum-machine",
     "title": "Best Drum Machines & Beat Production (2026)",
     "title_es": "Mejores Máquinas de Batería y Producción de Beats (2026)",
-    "category": "production",
+    "category": "drum-machine",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/434284.jpg",
     "badge": null,
     "intro": "I've used and deeply researched every drum machine here. Whether you make hip-hop, electronic, or beat-driven music, these are the tools I recommend after 20 years of beat-making and stage performance.",
