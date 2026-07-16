@@ -492,21 +492,7 @@ function updateAudioLabel() {
 }
 
 function getAmazonDomain() {
-  var lang = (navigator.language || navigator.languages?.[0] || '').toLowerCase();
-  var langs = (navigator.languages || []).map(function(l) { return l.toLowerCase(); });
-  var tz = ''
-  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch(e) {}
-  tz = tz.toLowerCase();
-  var all = [lang].concat(langs).concat([tz]).filter(Boolean);
-  function has(k) { return all.some(function(v) { return v.indexOf(k) !== -1; }); }
-  if (has('gb') || has('london') || has('dublin') || has('europe/london') || has('europe/dublin') || has('europe/lisbon')) return 'co.uk';
-  if (has('de') || has('europe/berlin') || has('europe/vienna') || has('europe/zurich')) return 'de';
-  if (has('fr') || has('europe/paris') || has('europe/brussels')) return 'fr';
-  if (has('it') || has('europe/rome')) return 'it';
-  if (has('es') || has('europe/madrid')) return 'es';
-  if (has('jp') || has('tokyo') || has('asia/tokyo')) return 'co.jp';
-  if (has('ca') || has('toronto') || has('vancouver')) return 'ca';
-  if (has('au') || has('sydney') || has('australia')) return 'com.au';
+  try { var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '').toLowerCase(); if (tz.indexOf('london') !== -1 || tz.indexOf('dublin') !== -1) return 'co.uk'; } catch(e) {}
   return 'com';
 }
 function renderMySetup() {
