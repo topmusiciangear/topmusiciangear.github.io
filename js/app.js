@@ -191,29 +191,17 @@ function openLightbox(src) {
   var wrap = document.createElement("div");
   wrap.style.cssText = "position:relative;width:100%;height:100%;overflow:hidden;touch-action:none";
   var img = document.createElement("img");
-  img.src = src;
   img.style.cssText = "display:block;position:absolute;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default;user-select:none;-webkit-user-select:none;transform-origin:0 0";
   img.draggable = false;
-  img.onclick = function(e) { e.stopPropagation(); };
-  var close = document.createElement("button");
-  close.innerHTML = "&times;";
-  close.setAttribute("aria-label", "Close");
-  close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
-  close.onclick = function() { lb.remove(); };
 
-  var W, H, scale = 1, minScale = 1, maxScale = 8, vw, vh;
-  var tx = 0, ty = 0, ox = 0, oy = 0;
-  var pinching = false, panning = false;
-  var lastDist = 0, startX = 0, startY = 0, lastTap = 0, loaded = false;
+  var W, H, scale = 1, minScale = 1, maxScale = 8, vw, vh, tx = 0, ty = 0, ox = 0, oy = 0, pinching = false, panning = false, lastDist = 0, startX = 0, startY = 0, lastTap = 0, loaded = false;
 
   function fit() {
     if (!loaded) return;
     var s = Math.min(vw / W, vh / H);
-    ox = (vw - W * s) / 2;
-    oy = (vh - H * s) / 2;
+    ox = (vw - W * s) / 2; oy = (vh - H * s) / 2;
     scale = 1; tx = 0; ty = 0;
-    img.style.width = W + "px";
-    img.style.height = H + "px";
+    img.style.width = W + "px"; img.style.height = H + "px";
     apply(true);
   }
   function apply(anim) {
@@ -229,6 +217,14 @@ function openLightbox(src) {
     vw = rect.width; vh = rect.height;
     fit();
   };
+  img.src = src;
+  img.onclick = function(e) { e.stopPropagation(); };
+  var close = document.createElement("button");
+  close.innerHTML = "&times;";
+  close.setAttribute("aria-label", "Close");
+  close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
+  close.onclick = function() { lb.remove(); };
+
   function dist(a, b) {
     var dx = a.clientX - b.clientX, dy = a.clientY - b.clientY;
     return Math.sqrt(dx * dx + dy * dy);
