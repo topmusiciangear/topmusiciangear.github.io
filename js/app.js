@@ -476,6 +476,7 @@ function renderGuideDetailFromData(id) {
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "none";
   const grid = document.getElementById("guideGrid");
+  if (!grid) { translatePage(); return; }
   grid.style.display = "block";
   const container = document.getElementById("guideContainer");
   container.classList.add("guide-detail-open");
@@ -992,7 +993,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("popstate", () => {
     const match = window.location.pathname.match(/\/guides\/(.+?)\.html/);
     const q = match ? match[1].replace('_es', '') : null;
-    if (q && guides.find(g => g.id === q)) {
+    if (q && guides.find(g => g.id === q) && document.getElementById("guideGrid")) {
       renderGuideDetail(q);
     } else {
       renderGuideGrid();
