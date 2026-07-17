@@ -199,6 +199,12 @@ function openLightbox(src) {
 document.addEventListener("keydown", function(e) {
   if (e.key === "Escape") { var el = document.getElementById("lightbox"); if (el) el.remove(); }
 });
+document.addEventListener("click", function(e) {
+  var t = e.target;
+  if (t.classList && t.classList.contains("lb-img")) {
+    openLightbox(t.src);
+  }
+});
 function bindDisclosureLink() {
   if (disclosureBound) return;
   disclosureBound = true;
@@ -366,7 +372,7 @@ function renderProductCard(id) {
   const prodImgUrl = p.img && p.img.startsWith('http') ? p.img : 'https://topmusiciangear.com/' + (p.img || 'img/og-image.svg');
   return `
     <div class="guide-product-card">
-      <div class="guide-product-card-img"><img src="${prodImgUrl}" alt="${title}" loading="lazy" onclick="event.stopPropagation();openLightbox(this.src)" style="cursor:zoom-in"></div>
+      <div class="guide-product-card-img"><img src="${prodImgUrl}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"></div>
       <div class="guide-product-card-body">
         <div class="guide-product-card-title">${title}</div>
         <div class="guide-product-card-rating">${stars} <span>${p.reviews.toLocaleString()}</span></div>
@@ -544,7 +550,7 @@ function renderGuideDetailFromData(id) {
         <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
         <div class="guide-byline">${isEs ? 'Por Daniel Carnago' : 'By Daniel Carnago'} · ${(function(d){var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return mo[new Date(d).getMonth()]+' '+new Date(d).getFullYear()})(guideDates(guide, guides.indexOf(guide)).modified)}</div>
       </div>
-      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" onclick="event.stopPropagation();openLightbox(this.src)" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9;cursor:zoom-in"></div>
+      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" class="lb-img" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9;cursor:zoom-in"></div>
       <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
       ${snippetHtml}
       <div class="guide-detail-sections">${sectionsHtml}</div>
