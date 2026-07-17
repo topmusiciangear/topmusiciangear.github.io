@@ -189,30 +189,91 @@ function openLightbox(src) {
   lb.id = "lightbox";
   lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92)";
   var wrap = document.createElement("div");
-  wrap.style.cssText = "display:flex;align-items:center;justify-content:center;width:100%;height:100%;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pinch-zoom";
+  wrap.style.cssText = "position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default;transition:max-width .2s,max-height .2s;touch-action:pinch-zoom";
+  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default;user-select:none;-webkit-user-select:none";
+  img.draggable = false;
   img.onclick = function(e) { e.stopPropagation(); };
-  var zoomed = false;
-  img.ondblclick = function(e) {
-    e.preventDefault();
-    zoomed = !zoomed;
-    if (zoomed) {
-      img.style.maxWidth = img.naturalWidth + "px";
-      img.style.maxHeight = img.naturalHeight + "px";
-      img.style.objectFit = "none";
-    } else {
-      img.style.maxWidth = "100%";
-      img.style.maxHeight = "100%";
-      img.style.objectFit = "contain";
-    }
-  };
   var close = document.createElement("button");
   close.innerHTML = "&times;";
   close.setAttribute("aria-label", "Close");
   close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
   close.onclick = function() { lb.remove(); };
+
+  var scale = 1, minScale = 1, maxScale = 5;
+  var tx = 0, ty = 0;
+  var pinching = false, panning = false;
+  var lastDist = 0, startX = 0, startY = 0;
+  var lastTap = 0;
+
+  function apply() {
+    img.style.transform = "translate(" + tx + "px," + ty + "px) scale(" + scale + ")";
+  }
+  function dist(a, b) {
+    var dx = a.clientX - b.clientX, dy = a.clientY - b.clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  wrap.addEventListener("touchstart", function(e) {
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      pinching = true;
+      panning = false;
+      lastDist = dist(e.touches[0], e.touches[1]);
+      img.style.transition = "none";
+    } else if (e.touches.length === 1 && scale > 1) {
+      panning = true;
+      pinching = false;
+      startX = e.touches[0].clientX - tx;
+      startY = e.touches[0].clientY - ty;
+      img.style.transition = "none";
+    }
+  });
+
+  wrap.addEventListener("touchmove", function(e) {
+    if (e.touches.length === 2 && pinching) {
+      e.preventDefault();
+      var d = dist(e.touches[0], e.touches[1]);
+      var s = d / lastDist;
+      var newScale = scale * s;
+      newScale = Math.max(minScale, Math.min(maxScale, newScale));
+      var midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      var midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      var rect = wrap.getBoundingClientRect();
+      var cx = midX - rect.left, cy = midY - rect.top;
+      tx += (cx - tx) * (1 - newScale / scale);
+      ty += (cy - ty) * (1 - newScale / scale);
+      scale = newScale;
+      lastDist = d;
+      apply();
+    } else if (e.touches.length === 1 && panning) {
+      e.preventDefault();
+      tx = e.touches[0].clientX - startX;
+      ty = e.touches[0].clientY - startY;
+      apply();
+    }
+  });
+
+  wrap.addEventListener("touchend", function(e) {
+    if (pinching || panning) {
+      if (scale < 1) { scale = 1; tx = 0; ty = 0; }
+      img.style.transition = "transform .2s";
+      apply();
+      pinching = false;
+      panning = false;
+    }
+    var now = Date.now();
+    if (now - lastTap < 300 && e.changedTouches.length === 1 && !pinching) {
+      e.preventDefault();
+      if (scale > 1.5) { scale = 1; tx = 0; ty = 0; }
+      else { scale = 2.5; }
+      img.style.transition = "transform .2s";
+      apply();
+    }
+    lastTap = now;
+  });
+
   lb.appendChild(close);
   wrap.appendChild(img);
   lb.appendChild(wrap);
