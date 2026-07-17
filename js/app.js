@@ -216,8 +216,8 @@ function openLightbox(src) {
   }
 
   wrap.addEventListener("touchstart", function(e) {
+    e.preventDefault();
     if (e.touches.length === 2) {
-      e.preventDefault();
       pinching = true;
       panning = false;
       lastDist = dist(e.touches[0], e.touches[1]);
@@ -229,11 +229,11 @@ function openLightbox(src) {
       startY = e.touches[0].clientY - ty;
       img.style.transition = "none";
     }
-  });
+  }, { passive: false });
 
   wrap.addEventListener("touchmove", function(e) {
+    e.preventDefault();
     if (e.touches.length === 2 && pinching) {
-      e.preventDefault();
       var d = dist(e.touches[0], e.touches[1]);
       var s = d / lastDist;
       var newScale = scale * s;
@@ -248,14 +248,14 @@ function openLightbox(src) {
       lastDist = d;
       apply();
     } else if (e.touches.length === 1 && panning) {
-      e.preventDefault();
       tx = e.touches[0].clientX - startX;
       ty = e.touches[0].clientY - startY;
       apply();
     }
-  });
+  }, { passive: false });
 
   wrap.addEventListener("touchend", function(e) {
+    e.preventDefault();
     if (pinching || panning) {
       if (scale < 1) { scale = 1; tx = 0; ty = 0; }
       img.style.transition = "transform .2s";
@@ -265,14 +265,13 @@ function openLightbox(src) {
     }
     var now = Date.now();
     if (now - lastTap < 300 && e.changedTouches.length === 1 && !pinching) {
-      e.preventDefault();
       if (scale > 1.5) { scale = 1; tx = 0; ty = 0; }
       else { scale = 2.5; }
       img.style.transition = "transform .2s";
       apply();
     }
     lastTap = now;
-  });
+  }, { passive: false });
 
   lb.appendChild(close);
   wrap.appendChild(img);
