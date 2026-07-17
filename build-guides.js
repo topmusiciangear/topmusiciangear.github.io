@@ -409,8 +409,17 @@ function buildGuidePage(guide, lang, idx) {
     }
   });
 
+  function guideFaqs(guide) {
+    if (guide.faq) return guide.faq;
+    if (guide.featuredSnippet && guide.featuredSnippet.faq_q1_en) {
+      return [1,2,3,4,5].map(function(i) {
+        return { q: guide.featuredSnippet['faq_q' + i + '_en'], q_es: guide.featuredSnippet['faq_q' + i + '_es'], a: guide.featuredSnippet['faq_a' + i + '_en'], a_es: guide.featuredSnippet['faq_a' + i + '_es'] };
+      }).filter(function(f) { return f.q; });
+    }
+    return faqBase[guide.category] || faqBase.interfaces;
+  }
   function genFaq(g, es) {
-    var faqs = faqBase[g.category] || faqBase.interfaces;
+    var faqs = guideFaqs(g);
     return { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(function(f) {
       return { "@type": "Question", "name": es && f.q_es ? f.q_es : f.q, "acceptedAnswer": { "@type": "Answer", "text": es && f.a_es ? f.a_es : f.a } };
     })};
@@ -537,7 +546,7 @@ ${ogMeta}
         <h2 class="guide-conclusion-title">${isEs ? '¿Cuál es la Conclusión?' : 'What\'s the Bottom Line?'}</h2>
         <p>${conclusion}</p>
       </div>
-      ${(function(){ var faqs = faqBase[guide.category] || faqBase.interfaces; if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="this.classList.toggle(\'open\');var a=this.nextElementSibling;if(a.style.maxHeight){a.style.maxHeight=null}else{a.style.maxHeight=\'2000px\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div>'; }).join('') + '</div></div>'; })()}
+      ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="this.classList.toggle(\'open\');var a=this.nextElementSibling;if(a.style.maxHeight){a.style.maxHeight=null}else{a.style.maxHeight=\'2000px\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div>'; }).join('') + '</div></div>'; })()}
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">
