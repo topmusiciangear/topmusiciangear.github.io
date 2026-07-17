@@ -176,7 +176,7 @@ function productCard(p, lang) {
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
   }).join("");
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy"></div>
+    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" onclick="event.stopPropagation();openLightbox(this.src)" style="cursor:zoom-in"></div>
     <div class="guide-product-card-body">
       <h3 class="guide-product-card-title">${title}</h3>
       <div class="guide-product-card-rating">${stars(p.rating)} <span>${p.reviews.toLocaleString()}</span></div>
@@ -534,7 +534,7 @@ ${ogMeta}
         <h1 class="guide-detail-title">${title}</h1>
         <div class="guide-byline">${isEs ? 'Por Daniel Carnago' : 'By Daniel Carnago'} · ${(function(d){var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return mo[new Date(d).getMonth()]+' '+new Date(d).getFullYear()})(guideDates(guide, idx).modified)}</div>
       </div>
-      <div class="guide-detail-img"><img src="${fullImage}" alt="${title}"></div>
+      <div class="guide-detail-img"><img src="${fullImage}" alt="${title}" onclick="event.stopPropagation();openLightbox(this.src)" style="cursor:zoom-in"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
       ${guide.comparison ? `<div class="guide-comp-wrap">
         <h2 class="guide-comp-title">${isEs ? '¿Cómo se Comparan?' : 'How Do They Compare?'}</h2>

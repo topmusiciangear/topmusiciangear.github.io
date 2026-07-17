@@ -182,6 +182,23 @@ function hideModal() {
   var m = document.getElementById("disclosureModal");
   if (m) m.remove();
 }
+function openLightbox(src) {
+  var existing = document.getElementById("lightbox");
+  if (existing) existing.remove();
+  var lb = document.createElement("div");
+  lb.id = "lightbox";
+  lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92);cursor:zoom-out";
+  var img = document.createElement("img");
+  img.src = src;
+  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
+  img.onclick = function(e) { e.stopPropagation(); };
+  lb.appendChild(img);
+  lb.addEventListener("click", function() { lb.remove(); });
+  document.body.appendChild(lb);
+}
+document.addEventListener("keydown", function(e) {
+  if (e.key === "Escape") { var el = document.getElementById("lightbox"); if (el) el.remove(); }
+});
 function bindDisclosureLink() {
   if (disclosureBound) return;
   disclosureBound = true;
@@ -349,7 +366,7 @@ function renderProductCard(id) {
   const prodImgUrl = p.img && p.img.startsWith('http') ? p.img : 'https://topmusiciangear.com/' + (p.img || 'img/og-image.svg');
   return `
     <div class="guide-product-card">
-      <div class="guide-product-card-img"><img src="${prodImgUrl}" alt="${title}" loading="lazy"></div>
+      <div class="guide-product-card-img"><img src="${prodImgUrl}" alt="${title}" loading="lazy" onclick="event.stopPropagation();openLightbox(this.src)" style="cursor:zoom-in"></div>
       <div class="guide-product-card-body">
         <div class="guide-product-card-title">${title}</div>
         <div class="guide-product-card-rating">${stars} <span>${p.reviews.toLocaleString()}</span></div>
@@ -527,7 +544,7 @@ function renderGuideDetailFromData(id) {
         <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
         <div class="guide-byline">${isEs ? 'Por Daniel Carnago' : 'By Daniel Carnago'} · ${(function(d){var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return mo[new Date(d).getMonth()]+' '+new Date(d).getFullYear()})(guideDates(guide, guides.indexOf(guide)).modified)}</div>
       </div>
-      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9"></div>
+      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" onclick="event.stopPropagation();openLightbox(this.src)" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9;cursor:zoom-in"></div>
       <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
       ${snippetHtml}
       <div class="guide-detail-sections">${sectionsHtml}</div>

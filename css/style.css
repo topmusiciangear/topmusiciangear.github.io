@@ -2055,4 +2055,5 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   .featured-snippet, .guide-detail, .guide-section, .guide-product-card { break-inside: avoid; }
   a { color: #000 !important; text-decoration: underline; }
 }
+#lightbox{animation:fadeIn .2s ease}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
 

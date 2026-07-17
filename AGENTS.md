@@ -557,33 +557,84 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 ## Anchored Summary
 
 ### Objective
-- Maintain the site and fix grammar issues across all FAQ questions and answers in both English and Spanish
+- FAQ toggle animation working correctly in both SPA (app.js) and static guide pages (build-guides.js)
 
-### Done
-- Fixed FAQ toggle JS in app.js: changed `maxHeight='9999px'` to `maxHeight=a.scrollHeight+'px'` so the transition completes at exact content height (fixes answer cut off on refresh)
-- Updated index.html CSS version hash from `90415fa4` to `bb3e0d05` and rebuilt version.txt to trigger SPA hard reload for cache invalidation (fixes missing FAQ CSS on SPA first visit)
-- Added missing .guide-faq CSS rules to style.css and rebuilt style.min.css (FAQ CSS was only in critical CSS, not in external stylesheet)
-- Committed as fad57b98 and pushed
-- Video caption added below homepage video using `<span class="cookie-lang-en/es">` pattern (CSS lang toggle, not data-i18n)
-- Removed `videoCaption` keys from `js/translations.v4.min.js`
-- Spanish video caption: "Tocando en vivo con el Tres Cubano" (capitalized)
-- English video caption: "Playing live with the Cuban Tres Guitar"
-- Fixed JBL 305P MkII Spanish grammar: "Se recomienda... es" → "Se recomienda... porque es" (2 guides)
-- Applied 21 comprehensive Spanish grammar fixes across all FAQ `faq_a*_es` fields: lowercase-after-period (×10), brand caps (×4), broken text fixes (×2), subject-verb agreement (×2), `canídas`→`caídas`, `De la`→`La`, space-before-period, `el mismo cápsula`→`la misma cápsula`
-- Fixed English `clea` typo → `clean` (3 occurrences: best-microphone faq3, guitar-bass-amps faq4, beginner-guitar faq2)
-- Fixed space-after-dollar in "Priced at $" patterns across ~31 English FAQ answers
-- Fixed incomplete English sentences: "K12." fragment in live-sound-pa faq2, "Soundtoys 5." fragment in vocal-plugins faq4, lowercase "cubase" capitalization in daw-guide faq4
-- Rebuilt all 144 guide pages
-- All changes committed and pushed (commits: `107b4eec`, `8c5af9d1`, `5f7787a`)
+### FAQ Toggle — Current Working Implementation (commit 60c32803)
+
+**HTML structure:**
+```html
+<button class="guide-faq-question" onclick="...">Question<span class="guide-faq-icon">+</span></button>
+<div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden">
+  <div class="guide-faq-answer-inner">Answer content</div>
+</div>
+```
+
+**CSS:**
+```css
+.guide-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease;
+}
+.guide-faq-answer-inner {
+  padding: 0 20px 16px;
+}
+```
+
+**JS toggle (inline onclick):**
+```javascript
+var a = this.nextElementSibling;
+if (a.dataset.open) {
+  // Close
+  a.style.maxHeight = '0px';
+  a.dataset.open = '';
+  this.classList.remove('open');
+  setTimeout(function(){
+    if (!a.dataset.open) {
+      a.style.display = 'none';
+    }
+  }, 300);
+} else {
+  // Open
+  this.classList.add('open');
+  a.style.display = 'block';
+  void a.offsetHeight;
+  a.style.maxHeight = a.firstElementChild.scrollHeight + 'px';
+  a.dataset.open = '1';
+}
+```
+
+**Key design decisions (why this works):**
+- Padding is on `.guide-faq-answer-inner` (NOT on `.guide-faq-answer`) so outer maxHeight=0 clips everything — no close jump
+- Open measures `firstElementChild.scrollHeight` directly WITHOUT ever setting outer `maxHeight='none'` — no layout shift, no flash, no `visibility:hidden` needed
+- No padding animation needed (padding is stable on inner wrapper, clipped by outer)
+- `void a.offsetHeight` forces a reflow so the transition recognizes the new max-height value
+- `setTimeout(300)` matches the CSS transition duration before setting `display:none`
+
+**Locations (all identical code):**
+- `js/app.js:543` — SPA dynamic rendering
+- `build-guides.js:556` — static page generation
+- `css/style.css:1790` — outer + inner wrapper CSS
+- `css/style.min.css` — minified version
+- All 144 generated `guides/*.html`
+
+**Build cycle:**
+```
+npx terser js/app.js -o js/app.min.js --compress --mangle
+node _build_min.js
+node build-guides.js
+```
+Then update `js/app.min.js` hash in `index.html` and `version.txt` is auto-updated.
+
+### Previously Fixed
+- Close jump: padding moved to inner wrapper so outer maxHeight=0 clips everything
+- Open flash: measured `firstElementChild.scrollHeight` without ever setting `maxHeight='none'`
+- Static pages couldn't open: missing outer `}else{` in build-guides.js restored
+- SPA content cut off on refresh: changed from `maxHeight='9999px'` to exact scrollHeight measurement
+- Missing FAQ CSS on SPA first visit: added `.guide-faq` rules to external stylesheet
 
 ### Blocked
 - (none)
 
 ### Next Move
-- User-driven (site is clean)
-
-### Relevant Files
-- `data/guides.json`: source for all FAQ questions and answers
-- `index.html`: homepage — video caption uses `<span class="cookie-lang-en/es">` pattern
-- `js/translations.v4.min.js`: translation key-value pairs (videoCaption keys removed)
-- `guides/*.html`: 144 generated guide pages (72 EN + 72 ES)
+- User-driven
