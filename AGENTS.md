@@ -560,6 +560,10 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 - Maintain the site and fix grammar issues across all FAQ questions and answers in both English and Spanish
 
 ### Done
+- Fixed FAQ toggle JS in app.js: changed `maxHeight='9999px'` to `maxHeight=a.scrollHeight+'px'` so the transition completes at exact content height (fixes answer cut off on refresh)
+- Updated index.html CSS version hash from `90415fa4` to `bb3e0d05` and rebuilt version.txt to trigger SPA hard reload for cache invalidation (fixes missing FAQ CSS on SPA first visit)
+- Added missing .guide-faq CSS rules to style.css and rebuilt style.min.css (FAQ CSS was only in critical CSS, not in external stylesheet)
+- Committed as fad57b98 and pushed
 - Video caption added below homepage video using `<span class="cookie-lang-en/es">` pattern (CSS lang toggle, not data-i18n)
 - Removed `videoCaption` keys from `js/translations.v4.min.js`
 - Spanish video caption: "Tocando en vivo con el Tres Cubano" (capitalized)
@@ -571,9 +575,6 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 - Fixed incomplete English sentences: "K12." fragment in live-sound-pa faq2, "Soundtoys 5." fragment in vocal-plugins faq4, lowercase "cubase" capitalization in daw-guide faq4
 - Rebuilt all 144 guide pages
 - All changes committed and pushed (commits: `107b4eec`, `8c5af9d1`, `5f7787a`)
-
-### Active
-- (none)
 
 ### Blocked
 - (none)
