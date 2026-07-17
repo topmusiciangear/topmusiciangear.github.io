@@ -3,88 +3,49 @@ const guides = JSON.parse(fs.readFileSync('data/guides.json', 'utf8').replace(/^
 
 function strip(s) { return (s || '').replace(/<[^>]+>/g, '').trim(); }
 
-function getSectionTexts(g) {
-  const en = [], es = [];
-  (g.sections || []).forEach(s => {
-    if (s.heading) en.push(strip(s.heading));
-    if (s.content) en.push(strip(s.content));
-    if (s.heading_es) es.push(strip(s.heading_es));
-    if (s.content_es) es.push(strip(s.content_es));
-  });
-  return { en, es };
-}
-
-function bodyOverlapsSections(body, sectionTexts) {
-  const b = body.toLowerCase();
-  for (const st of sectionTexts) {
-    const s = st.toLowerCase();
-    if (b.length < 25) continue;
-    let best = 0;
-    for (let i = 0; i + 25 <= b.length && i < 200; i++) {
-      for (let j = i + 25; j <= Math.min(i + 100, b.length); j++) {
-        const sub = b.substring(i, j);
-        if (s.includes(sub) && sub.length > best) best = sub.length;
-      }
-    }
-    if (best > Math.min(b.length * 0.35, 50)) return true;
-  }
-  return false;
-}
-
-function getProductsInGuide(g) {
-  const names = [];
-  if (g.featuredSnippet) {
-    const keys = Object.keys(g.featuredSnippet).filter(k => /^faq_q\d+_en$/.test(k)).sort();
-    keys.forEach(k => {
-      const q = g.featuredSnippet[k] || '';
-      let m;
-      if ((m = /^Should you choose the (.+?)(?: as a| for |\?|$)/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^What makes the (.+?) a great/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^Why is the (.+?) recommended/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^Would you recommend the (.+?)(?: as a| for |\?|$)/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^Would the (.+?) be a good choice/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^How does the (.+?) compare/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^Is the (.+?)(?: a good| worth| the| \?|$)/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^Are the (.+?) the /i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^Does the (.+?) require/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^What kind of .+? benefits most from the (.+?)\?/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^(.+?): Which one should/i.exec(q))) names.push(m[1].trim());
-      else if ((m = /^(.+?) vs (.+?): Which/i.exec(q))) { names.push(m[1].trim()); names.push(m[2].trim()); }
-      else if ((m = /^What is the difference between the (.+?) and the (.+?)/i.exec(q))) { names.push(m[1].trim()); names.push(m[2].trim()); }
-      else if ((m = /^Which is better for .+? — the (.+?) or the (.+?)/i.exec(q))) { names.push(m[1].trim()); names.push(m[2].trim()); }
-    });
-  }
-  return [...new Set(names)];
-}
-
-function findAltInSection(currentProd, g, isES) {
-  const currentLower = cleanProdName(currentProd).toLowerCase();
-  if (!currentLower) return null;
-
-  // Find which section's heading contains this product name
-  let targetSection = null;
-  for (const section of (g.sections || [])) {
-    const h = isES ? section.heading_es : section.heading;
-    if (h && h.toLowerCase().includes(currentLower)) {
-      targetSection = section;
-      break;
-    }
-  }
-  if (!targetSection) return null;
-
-  // Find other FAQ products that appear in the same section heading
-  const allProds = getProductsInGuide(g);
-  const sameSectionProds = allProds.filter(p => {
-    const pLower = cleanProdName(p).toLowerCase();
-    const h = isES ? targetSection.heading_es : targetSection.heading;
-    return pLower !== currentLower && h && h.toLowerCase().includes(pLower);
-  });
-  return sameSectionProds.length > 0 ? sameSectionProds[0] : null;
-}
-
 function cleanProdName(name) {
   if (!name) return name;
   return name.replace(/\s+All-Rounder\s+Guitar\s*$/i, '').trim();
+}
+
+function normESArticle(a) {
+  if (!a) return a;
+  const map = { del: 'el', 'de la': 'la', 'de los': 'los', 'de las': 'las' };
+  return map[a.toLowerCase()] || a;
+}
+
+function getProd(q) {
+  let m;
+  if ((m = /^Should you choose the (.+?)(?: as a| for |\?|$)/i.exec(q))) return m[1].trim();
+  if ((m = /^Would you recommend the (.+?)(?: as a| for |\?|$)/i.exec(q))) return m[1].trim();
+  if ((m = /^(Would|Is) the (.+?)(?: be a| a good| worth| \?|$)/i.exec(q))) return (m[2] || '').trim();
+  if ((m = /^Are the (.+?)(?: the| for| \?|$)/i.exec(q))) return m[1].trim();
+  if ((m = /^What makes the (.+?) a great/i.exec(q))) return m[1].trim();
+  if ((m = /^Why is the (.+?) recommended/i.exec(q))) return m[1].trim();
+  if ((m = /^Why has the (.+?) remained/i.exec(q))) return m[1].trim();
+  if ((m = /^How does the (.+?) compare/i.exec(q))) return m[1].trim();
+  if ((m = /^Does the (.+?) require/i.exec(q))) return m[1].trim();
+  if ((m = /^What kind of .+? benefits most from the (.+?)\?/i.exec(q))) return m[1].trim();
+  if ((m = /^(.+?) vs (.+?): Which/i.exec(q))) return m[1].trim();
+  if ((m = /^(.+?): Which one should/i.exec(q))) return m[1].trim();
+  if ((m = /^What is the difference between the (.+?) and the (.+?)/i.exec(q))) return m[1].trim();
+  if ((m = /^Which is better for .+? — the (.+?) or the (.+?)/i.exec(q))) return m[1].trim();
+  if ((m = /^Do you need a (.+?) for/i.exec(q))) return m[1].trim();
+  if ((m = /^How important is (.+?) for/i.exec(q))) return m[1].trim();
+  if ((m = /^What should (I|you) look for in a (.+?)\?/i.exec(q))) return m[2].trim();
+  if ((m = /^How many .+? does the (.+?) offer/i.exec(q))) return m[1].trim();
+  if ((m = /^¿(?:Deberías elegir|Recomendarías) (el|la|los|las) (.+?)(?: como| para| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿(?:Sería|Funcionaría) (el|la|los|las) (.+?)(?: como| una| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Es (el|la|los|las) (.+?)(?: una| el| la| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Son (los|las) (.+?)(?: los| las| para| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Qué hace (del?|de la|de los|de las) (.+?) una/i.exec(q))) return normESArticle(m[1]) + ' ' + m[2].trim();
+  if ((m = /^¿Por qué se recomienda (el|la|los|las) (.+?) para/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Cómo se compara (el|la|los|las) (.+?) con/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Requiere (el|la|los|las) (.+?)(?: equipo|algún)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Qué tipo de .+? se beneficia más de (el|la|los|las) (.+?)(?:\?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Cuántos .+? ofrece (el|la|los|las) (.+?)(?:\?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  if ((m = /^¿Sigue (el|la|los|las) (.+?) Siendo/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
+  return '';
 }
 
 function getQType(q) {
@@ -125,45 +86,30 @@ function getQTypeES(q) {
   return 'OTHER';
 }
 
-function normESArticle(a) {
-  if (!a) return a;
-  const map = { del: 'el', 'de la': 'la', 'de los': 'los', 'de las': 'las' };
-  return map[a.toLowerCase()] || a;
-}
-
-function getProd(q) {
-  let m;
-  if ((m = /^Should you choose the (.+?)(?: as a| for |\?|$)/i.exec(q))) return m[1].trim();
-  if ((m = /^Would you recommend the (.+?)(?: as a| for |\?|$)/i.exec(q))) return m[1].trim();
-  if ((m = /^(Would|Is) the (.+?)(?: be a| a good| worth| \?|$)/i.exec(q))) return (m[2] || '').trim();
-  if ((m = /^Are the (.+?)(?: the| for| \?|$)/i.exec(q))) return m[1].trim();
-  if ((m = /^What makes the (.+?) a great/i.exec(q))) return m[1].trim();
-  if ((m = /^Why is the (.+?) recommended/i.exec(q))) return m[1].trim();
-  if ((m = /^Why has the (.+?) remained/i.exec(q))) return m[1].trim();
-  if ((m = /^How does the (.+?) compare/i.exec(q))) return m[1].trim();
-  if ((m = /^Does the (.+?) require/i.exec(q))) return m[1].trim();
-  if ((m = /^What kind of .+? benefits most from the (.+?)\?/i.exec(q))) return m[1].trim();
-  if ((m = /^(.+?) vs (.+?): Which/i.exec(q))) return m[1].trim();
-  if ((m = /^(.+?): Which one should/i.exec(q))) return m[1].trim();
-  if ((m = /^What is the difference between the (.+?) and the (.+?)/i.exec(q))) return m[1].trim();
-  if ((m = /^Which is better for .+? — the (.+?) or the (.+?)/i.exec(q))) return m[1].trim();
-  if ((m = /^Do you need a (.+?) for/i.exec(q))) return m[1].trim();
-  if ((m = /^How important is (.+?) for/i.exec(q))) return m[1].trim();
-  if ((m = /^What should (I|you) look for in a (.+?)\?/i.exec(q))) return m[2].trim();
-  if ((m = /^How many .+? does the (.+?) offer/i.exec(q))) return m[1].trim();
-  // Spanish: include article in product name (matches fix-answers.js extractProduct)
-  if ((m = /^¿(?:Deberías elegir|Recomendarías) (el|la|los|las) (.+?)(?: como| para| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿(?:Sería|Funcionaría) (el|la|los|las) (.+?)(?: como| una| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Es (el|la|los|las) (.+?)(?: una| el| la| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Son (los|las) (.+?)(?: los| las| para| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Qué hace (del?|de la|de los|de las) (.+?) una/i.exec(q))) return normESArticle(m[1]) + ' ' + m[2].trim();
-  if ((m = /^¿Por qué se recomienda (el|la|los|las) (.+?) para/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Cómo se compara (el|la|los|las) (.+?) con/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Requiere (el|la|los|las) (.+?)(?: equipo|algún)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Qué tipo de .+? se beneficia más de (el|la|los|las) (.+?)(?:\?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Cuántos .+? ofrece (el|la|los|las) (.+?)(?:\?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Sigue (el|la|los|las) (.+?) Siendo/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  return '';
+function getProductsInGuide(g) {
+  const names = [];
+  if (g.featuredSnippet) {
+    const keys = Object.keys(g.featuredSnippet).filter(k => /^faq_q\d+_en$/.test(k)).sort();
+    keys.forEach(k => {
+      const q = g.featuredSnippet[k] || '';
+      let m;
+      if ((m = /^Should you choose the (.+?)(?: as a| for |\?|$)/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^What makes the (.+?) a great/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^Why is the (.+?) recommended/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^Would you recommend the (.+?)(?: as a| for |\?|$)/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^Would the (.+?) be a good choice/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^How does the (.+?) compare/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^Is the (.+?)(?: a good| worth| the| \?|$)/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^Are the (.+?) the /i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^Does the (.+?) require/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^What kind of .+? benefits most from the (.+?)\?/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^(.+?): Which one should/i.exec(q))) names.push(m[1].trim());
+      else if ((m = /^(.+?) vs (.+?): Which/i.exec(q))) { names.push(m[1].trim()); names.push(m[2].trim()); }
+      else if ((m = /^What is the difference between the (.+?) and the (.+?)/i.exec(q))) { names.push(m[1].trim()); names.push(m[2].trim()); }
+      else if ((m = /^Which is better for .+? — the (.+?) or the (.+?)/i.exec(q))) { names.push(m[1].trim()); names.push(m[2].trim()); }
+    });
+  }
+  return [...new Set(names)];
 }
 
 function cap(s) {
@@ -172,27 +118,8 @@ function cap(s) {
   return s;
 }
 
-function prodForES(prod) {
-  if (!prod) return '';
-  const a = /^(el|la|los|las)\s/i.test(prod);
-  if (a) return prod;
-  // If no article, add "el" as default
-  return 'el ' + prod;
-}
-
-function prodForEN(prod) {
-  if (!prod) return '';
-  return prod.replace(/^(el|la|los|las)\s/i, '').trim();
-}
-
-// Position-aware answer generation: products within the same guide
-// get structurally different answers to avoid identical templates.
-//
-// position = 0  → first product (main recommendation framing)
-// position = 1+ → subsequent products (alternative/specialized framing)
-function genFullAnswer(type, prod, alt, isES, position) {
+function genFullAnswer(type, prod, isES, position) {
   const isMain = position === 0;
-
   if (isES) {
     switch (type) {
       case 'SHOULD_CHOOSE':
@@ -215,11 +142,7 @@ function genFullAnswer(type, prod, alt, isES, position) {
         if (isMain) return `Se recomienda ${prod} por su trayectoria comprobada y su estatus como referencia en la industria, cumpliendo consistentemente año tras año.`;
         return `${cap(prod)} es recomendado por su rendimiento especializado en áreas donde otros modelos no llegan, ideal para necesidades concretas.`;
       case 'HOW_DOES':
-        if (isMain) {
-          if (alt) return `${cap(prod)} se destaca como líder en su categoría. Se compara favorablemente con ${alt}, ofreciendo ventajas en áreas clave para la mayoría de los usuarios.`;
-          return `${cap(prod)} se destaca como líder. Su construcción sólida y rendimiento confiable lo ponen por encima de la competencia en su rango de precio.`;
-        }
-        if (alt) return `${cap(prod)} tiene un enfoque diferente. Compite con ${alt} destacando en aspectos específicos que lo hacen ideal para ciertas aplicaciones.`;
+        if (isMain) return `${cap(prod)} se destaca como líder en su categoría. Su construcción sólida y rendimiento confiable lo ponen por encima de la competencia en su rango de precio.`;
         return `${cap(prod)} ofrece una propuesta distinta. Se enfoca en áreas especializadas donde rinde excepcionalmente bien.`;
       case 'DOES_THE':
         return `${cap(prod)} funciona con equipos estándar. Está diseñado para integrarse fácilmente en cualquier configuración de estudio sin accesorios especiales.`;
@@ -237,7 +160,6 @@ function genFullAnswer(type, prod, alt, isES, position) {
         return `${cap(prod)} es una opción sólida. La mejor decisión depende de tus necesidades específicas y presupuesto.`;
     }
   } else {
-    // English
     switch (type) {
       case 'SHOULD_CHOOSE':
         if (isMain) return `Yes, you should choose the ${prod}. It's our top recommendation for most users because it offers the best overall balance of quality, performance, and value.`;
@@ -259,11 +181,7 @@ function genFullAnswer(type, prod, alt, isES, position) {
         if (isMain) return `The ${prod} is recommended because its proven track record and industry reference status deliver consistent results year after year.`;
         return `The ${prod} is recommended for its specialized performance in areas where other models fall short, ideal for specific needs.`;
       case 'HOW_DOES':
-        if (isMain) {
-          if (alt) return `The ${prod} stands out as a leader in its category. It compares favorably to the ${alt}, offering advantages in key areas that matter most to users.`;
-          return `The ${prod} stands out as a leader. Its solid construction and reliable performance put it ahead of the competition in its price range.`;
-        }
-        if (alt) return `The ${prod} takes a different approach. It competes with the ${alt} by excelling in specific aspects that make it ideal for certain applications.`;
+        if (isMain) return `The ${prod} stands out as a leader in its category. Its solid construction and reliable performance put it ahead of the competition in its price range.`;
         return `The ${prod} offers a distinct proposition. It focuses on specialized areas where it performs exceptionally well.`;
       case 'DOES_THE':
         return `The ${prod} works with standard equipment. It is designed to integrate easily into any existing studio setup without special accessories.`;
@@ -284,24 +202,61 @@ function genFullAnswer(type, prod, alt, isES, position) {
 }
 
 function extractSuffix(a) {
-  // Match "Priced at $..." or "Con un precio de $..." pattern
   let m;
   if ((m = a.match(/Priced at \$[\d,]+\.?\d*.*?user rating[^.]*\.?/i))) return ' ' + m[0].replace(/\.$/, '') + '.';
   if ((m = a.match(/Con un precio de \$[\d,]+\.?\d*.*?calificación de[^.]*\.?/i))) return ' ' + m[0].replace(/\.$/, '') + '.';
   return '';
 }
 
-let totalOverlap = { en: 0, es: 0 };
+// Old template markers — these identify answers that were generated by the PREVIOUS
+// version of fix-faq-overlap.js and need position-based replacement.
+const OLD_TEMPLATE_MARKERS_EN = [
+  /if your priority is reliable performance/i,
+  /it is a reliable tool for those seeking consistent quality/i,
+  /consider your specific workflow, as it performs better for certain styles/i,
+  /their industry popularity is no coincidence/i,
+  /its combination of quality, durability, and performance achieves a balance/i,
+  /its proven track record makes it an industry reference/i,
+  /it competes directly with the/i,
+  /it compares well to other options thanks to its solid construction/i,
+  /evaluate whether its features align with your specific needs/i
+];
+
+const OLD_TEMPLATE_MARKERS_ES = [
+  /si tu prioridad es rendimiento confiable/i,
+  /es una herramienta confiable para quienes buscan calidad consistente/i,
+  /considera tu flujo de trabajo específico, ya que funciona mejor para ciertos estilos/i,
+  /su popularidad en la industria no es casualidad/i,
+  /su combinación de calidad, durabilidad y rendimiento logra un equilibrio/i,
+  /es una referencia en la industria porque cumple año tras año/i,
+  /compite directamente con/i,
+  /se compara bien con otras opciones gracias a su construcción sólida/i,
+  /evalúa si sus características se alinean con tus necesidades específicas/i,
+  /para usos muy especializados, considera otras opciones del mercado/i
+];
+
+// Detect answers that have incorrect contracted articles from old buggy getProd
+const BAD_ARTICLE_ES = /^Del\s|^De la\s|^De los\s|^De las\s/i;
+
+function isOldTemplate(answer, markers, isES) {
+  const plain = strip(answer);
+  if (isES && BAD_ARTICLE_ES.test(plain)) return true;
+  for (const marker of markers) {
+    if (marker.test(plain)) return true;
+  }
+  return false;
+}
+
 let rewritten = { en: 0, es: 0 };
+let skipped = { en: 0, es: 0 };
 
 guides.forEach(g => {
   if (!g.featuredSnippet || !g.sections) return;
-  const sect = getSectionTexts(g);
   const allProds = getProductsInGuide(g);
-  const keys = Object.keys(g.featuredSnippet).filter(k => /^faq_q\d+_en$/.test(k)).sort();
-
-  const prodPosition = {};  // { productNameLower: position }
+  const prodPosition = {};
   allProds.forEach((p, idx) => { prodPosition[cleanProdName(p).toLowerCase()] = idx; });
+  const keys = Object.keys(g.featuredSnippet).filter(k => /^faq_q\d+_en$/.test(k)).sort();
+  const isVs = /vs-/i.test(g.id);
 
   keys.forEach(k => {
     const num = k.match(/\d+/)[0];
@@ -314,46 +269,39 @@ guides.forEach(g => {
     const typeEn = getQType(qEn);
     const typeEs = getQTypeES(qEs);
 
-    const getBody = (a) => {
-      const s = strip(a);
-      const dot = s.indexOf('. ');
-      if (dot > 0 && dot < 120) return s.substring(dot + 2);
-      return s;
-    };
-
-    const isVs = /vs-/i.test(g.id);
-
-    const bodyEn = getBody(aEn);
-    if (bodyEn.length > 30 && bodyOverlapsSections(bodyEn, sect.en)) {
-      totalOverlap.en++;
-      if (!(isVs && /^(WHICH_BETTER|WHAT_DIFF|IS_WORTH)$/.test(typeEn))) {
-        const raw = getProd(qEn) || '';
-        const prod = cleanProdName(prodForEN(raw));
-        const pos = prodPosition[prod.toLowerCase()] !== undefined ? prodPosition[prod.toLowerCase()] : 0;
-        const ans = genFullAnswer(typeEn, prod, null, false, pos);
-        const suffix = extractSuffix(aEn);
-        g.featuredSnippet['faq_a' + num + '_en'] = ans + suffix;
-        rewritten.en++;
-      }
+    // Skip vs-guide questions that use natural language comparison (already unique)
+    if (isVs && /^(WHICH_BETTER|WHAT_DIFF|IS_WORTH)$/.test(typeEn)) {
+      skipped.en++;
+      skipped.es++;
+      return;
     }
 
-    const bodyEs = getBody(aEs);
-    if (bodyEs.length > 30 && bodyOverlapsSections(bodyEs, sect.es)) {
-      totalOverlap.es++;
-      if (!(isVs && /^(WHICH_BETTER|WHAT_DIFF|IS_WORTH)$/.test(typeEn))) {
-        const raw = getProd(qEs) || getProd(qEn) || '';
-        const prod = cleanProdName(prodForES(raw));
-        const prodEN = cleanProdName(prodForEN(getProd(qEn) || ''));
-        const pos = prodPosition[prodEN.toLowerCase()] !== undefined ? prodPosition[prodEN.toLowerCase()] : 0;
-        const ans = genFullAnswer(typeEs, prod, null, true, pos);
-        const suffix = extractSuffix(aEs);
-        g.featuredSnippet['faq_a' + num + '_es'] = ans + suffix;
-        rewritten.es++;
-      }
+    // English
+    if (aEn && isOldTemplate(aEn, OLD_TEMPLATE_MARKERS_EN, false)) {
+      const raw = getProd(qEn) || '';
+      const prod = cleanProdName(raw);
+      const pos = prodPosition[prod.toLowerCase()] !== undefined ? prodPosition[prod.toLowerCase()] : 0;
+      const ans = genFullAnswer(typeEn, prod, false, pos);
+      const suffix = extractSuffix(aEn);
+      g.featuredSnippet['faq_a' + num + '_en'] = ans + suffix;
+      rewritten.en++;
+    }
+
+    // Spanish
+    if (aEs && isOldTemplate(aEs, OLD_TEMPLATE_MARKERS_ES, true)) {
+      const raw = getProd(qEs) || getProd(qEn) || '';
+      const prod = cleanProdName(raw);
+      // For position lookup, use the EN product name (without article)
+      const prodEN = cleanProdName(getProd(qEn) || '');
+      const pos = prodPosition[prodEN.toLowerCase()] !== undefined ? prodPosition[prodEN.toLowerCase()] : 0;
+      const ans = genFullAnswer(typeEs, prod, true, pos);
+      const suffix = extractSuffix(aEs);
+      g.featuredSnippet['faq_a' + num + '_es'] = ans + suffix;
+      rewritten.es++;
     }
   });
 });
 
 fs.writeFileSync('data/guides.json', JSON.stringify(guides, null, 2), 'utf8');
-console.log(`Overlap detected: ${totalOverlap.en} EN + ${totalOverlap.es} ES`);
 console.log(`Rewritten: ${rewritten.en} EN + ${rewritten.es} ES = ${rewritten.en + rewritten.es} total`);
+console.log(`Skipped (vs-guides): ${skipped.en} EN + ${skipped.es} ES`);

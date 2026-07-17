@@ -28,6 +28,12 @@ function fixAnswers(g) {
   });
 }
 
+function normESArticle(a) {
+  if (!a) return a;
+  const map = { del: 'el', 'de la': 'la', 'de los': 'los', 'de las': 'las' };
+  return map[a.toLowerCase()] || a;
+}
+
 function extractProduct(q, lang) {
   if (!q) return '';
   // Extract product from "Should you choose the X..."
@@ -46,7 +52,7 @@ function extractProduct(q, lang) {
   if ((m = /^Which is better for (.+?) — the (.+?) or the/i.exec(q))) return m[2].trim();
   // Spanish
   if ((m = /^¿Deberías elegir (el|la|los|las) (.+?)(?: como| para| \?|$)/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
-  if ((m = /^¿Qué hace (del?|de la|de los|de las) (.+?) una/i.exec(q))) return m[2].trim();
+  if ((m = /^¿Qué hace (del?|de la|de los|de las) (.+?) una/i.exec(q))) return normESArticle(m[1]) + ' ' + m[2].trim();
   if ((m = /^¿Por qué se recomienda (el|la|los|las) (.+?) para/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
   if ((m = /^¿(Recomendarías|Sería) (el|la|los|las) (.+?)(?: como| una| para| \?|$)/i.exec(q))) return m[2] + ' ' + (m[3]||'');
   if ((m = /^¿Cómo se compara (el|la|los|las) (.+?) con/i.exec(q))) return (m[1] + ' ' + m[2]).trim();
