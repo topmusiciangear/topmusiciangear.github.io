@@ -792,4 +792,7 @@ buildImageSitemap();
 fs.writeFileSync(path.join(dir, 'data', 'guides.json'), JSON.stringify(guides, null, 2), 'utf8');
 console.log('Updated: data/guides.json with pre-bolded content');
 
+// Write current commit hash to version.txt for cache-busting
+try { var hash = require('child_process').execSync('git rev-parse --short HEAD', { encoding: 'utf8' }).trim(); fs.writeFileSync(path.join(dir, 'version.txt'), hash, 'utf8'); console.log('Updated: version.txt (' + hash + ')'); } catch(e) { console.log('Warning: could not update version.txt (' + e.message + ')'); }
+
 console.log(`\nDone! Generated ${guides.length * 2} guide pages.`);
