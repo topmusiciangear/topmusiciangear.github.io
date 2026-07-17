@@ -198,11 +198,10 @@ function openLightbox(src) {
 
   function fit() {
     if (!loaded) return;
-    var s = Math.min(vw / W, vh / H);
-    ox = (vw - W * s) / 2; oy = (vh - H * s) / 2;
     scale = 1; tx = 0; ty = 0;
+    ox = (vw - W) / 2; oy = (vh - H) / 2;
     img.style.width = W + "px"; img.style.height = H + "px";
-    apply(true);
+    apply(false);
   }
   function apply(anim) {
     var x = ox + tx + W * (1 - scale) / 2;
