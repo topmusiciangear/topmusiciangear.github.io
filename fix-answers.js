@@ -69,11 +69,23 @@ function fixAnswer(q, a, prod, lang) {
   if (!q || !a) return a;
   const isES = lang === 'es';
 
-  // Already starts with a direct answer (no word boundary for "No" to avoid "Not", "Nothing", "No todas", etc.)
-  if (isES) {
-    if (/^(Sí\b|No[,.;:!?]|Absolutamente\b|Claramente\b|Depende\b)/i.test(a)) return a;
+  // Strip HTML tags for idempotency checks (build-guides may have added <strong>)
+  const plain = a.replace(/<[^>]+>/g, '');
+  const startPlain = plain.substring(0, 80);
+    if (isES) {
+      if (/^(Sí(?=\W|$)|No[,.;:!?]|Absolutamente\b|Claramente\b|Depende\b)/i.test(plain)) return a;
+    if (/^Se recomienda\b/i.test(plain)) return a;
+    if (/^(Ambos|Tanto)\b/i.test(plain)) return a;
+    if (/^(La principal diferencia|La diferencia principal)\b/i.test(plain)) return a;
+    if (/ es una gran opción\. /i.test(startPlain)) return a;
+    if (/ son una gran opción\. /i.test(startPlain)) return a;
+    if (/ se destaca\. /i.test(startPlain)) return a;
   } else {
-    if (/^(Yes\b|No[,.;:!?]|Absolutely\b|Depends\b|Definitely\b)/i.test(a)) return a;
+    if (/^(Yes\b|No[,.;:!?]|Absolutely\b|Depends\b|Definitely\b)/i.test(plain)) return a;
+    if (/^(It depends|Both are|Both the|Both of these|The main difference|Yes, I would recommend)/i.test(plain)) return a;
+    if (/ makes a great choice\. /i.test(startPlain)) return a;
+    if (/ is recommended because /i.test(startPlain)) return a;
+    if (/ stands out\. /i.test(startPlain)) return a;
   }
 
   // Vs-guide Q1: "X vs Y: Which one should you choose?" — already direct
@@ -106,7 +118,9 @@ function fixAnswer(q, a, prod, lang) {
   else if (/^What is the difference/i.test(q)) type = 'WHAT_DIFF';
   else if (/^¿Cuál es la diferencia/i.test(q)) type = 'WHAT_DIFF';
   else if (/^Which is better/i.test(q)) type = 'WHICH_BETTER';
+  else if (/^Which \w+ is better/i.test(q)) type = 'WHICH_BETTER';
   else if (/^¿Cu(ál|á) tiene mejor/i.test(q)) type = 'WHICH_BETTER';
+  else if (/^¿Qué \w+ es mejor/i.test(q)) type = 'WHICH_BETTER';
   else if (/^¿Qué (tipo|clase) de/i.test(q)) type = 'WHAT_KIND';
   else if (/^¿Requiere (el|la)/i.test(q)) type = 'DOES_THE';
   else if (/^Are the/i.test(q)) type = 'ARE_THE';
