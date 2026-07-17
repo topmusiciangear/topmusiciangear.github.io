@@ -1799,7 +1799,7 @@ footer ul li a:hover { color: var(--accent); }
   z-index: 0;
   pointer-events: none;
   background-color: #0d0d0d;
-  background-image: url(img/me-600.webp);
+  background-image: url(../img/me-600.webp);
   background-size: cover;
   background-position: center;
   opacity: .12;
