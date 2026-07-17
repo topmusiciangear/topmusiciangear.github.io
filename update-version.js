@@ -1,0 +1,10 @@
+var fs=require('fs');
+var path=require('path');
+var idx=path.join(__dirname,'index.html');
+var ver=path.join(__dirname,'version.txt');
+var t=Math.random().toString(36).slice(2,10);
+var h=fs.readFileSync(idx,'utf8');
+h=h.replace(/v="[a-z0-9]+"/,'v="'+t+'"');
+fs.writeFileSync(idx,h);
+fs.writeFileSync(ver,t);
+console.log('Version updated to: '+t);
