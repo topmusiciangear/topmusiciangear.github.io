@@ -213,8 +213,7 @@ function openLightbox(src) {
 
   img.onload = function() {
     W = img.naturalWidth; H = img.naturalHeight; loaded = true;
-    var rect = wrap.getBoundingClientRect();
-    vw = rect.width; vh = rect.height;
+    vw = window.innerWidth - 48; vh = window.innerHeight - 48;
     fit();
   };
   img.src = src;
