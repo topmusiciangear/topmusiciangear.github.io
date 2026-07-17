@@ -950,13 +950,13 @@ document.addEventListener("DOMContentLoaded", () => {
   if (document.readyState === 'complete') { onPageLoaded(); }
   else { window.addEventListener("load", onPageLoaded); }
 
-  document.getElementById("searchInput").addEventListener("input", e => {
+  document.getElementById("searchInput")?.addEventListener("input", e => {
     searchQuery = e.target.value;
     renderGuideGrid();
   });
 
   var productSearchTimer;
-  document.getElementById("productSearchInput").addEventListener("input", e => {
+  document.getElementById("productSearchInput")?.addEventListener("input", e => {
     clearTimeout(productSearchTimer);
     productSearchTimer = setTimeout(function() {
     const q = e.target.value.toLowerCase().trim();
