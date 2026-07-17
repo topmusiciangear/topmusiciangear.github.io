@@ -1787,7 +1787,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-faq-question:hover { background: var(--bg-card-hover); }
 .guide-faq-icon { font-size: 20px; font-weight: 300; color: var(--accent); flex-shrink: 0; transition: transform .25s ease; }
 .guide-faq-question.open .guide-faq-icon { transform: rotate(45deg); }
-.guide-faq-answer { padding: 0 20px 16px; color: var(--text-secondary); font-size: 14px; line-height: 1.7; max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+.guide-faq-answer { padding: 0 20px 16px; color: var(--text-secondary); font-size: 14px; line-height: 1.7; max-height: 0; overflow: hidden; transition: max-height .3s ease, padding-top .3s ease, padding-bottom .3s ease; }
 
 .product-search-grid {
   display: grid;
