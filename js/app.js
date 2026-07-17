@@ -132,6 +132,7 @@ function setLang(lang) {
   document.documentElement.lang = lang;
   document.documentElement.classList.remove("lang-en", "lang-es");
   document.documentElement.classList.add("lang-" + lang);
+  var s=document.getElementById('ls');if(s)s.textContent='.'+(lang==='es'?'lang-show-en':'lang-show-es')+'{display:none!important}';
   translatePage();
   renderGuideCats();
   if (currentGuideId) {
