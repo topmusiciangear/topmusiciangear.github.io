@@ -557,14 +557,32 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 ## Anchored Summary
 
 ### Objective
-- Optimize all 56 "vs" pages (EN + ES) for featured snippets: FAQPage schema, question-formatted H2, direct answer text, comparison table with Brand/Rating rows
+- Maintain the site and fix grammar issues across all FAQ questions and answers in both English and Spanish
 
 ### Done
-- FAQPage JSON-LD schema injected in all 56 pages (2 Q&A per guide)
-- SPA `app.js` / `app.min.js` injects FAQ schema dynamically via `injectFaqSchema(id)`
-- H2 changed to question format (EN: "Which One Should You Choose?" / ES: "¿Cuál deberías elegir?")
-- Answer text front-loaded with direct recommendation (EN: "The X is the best Y for Z..." / ES: "El X es el mejor Y para Z...")
-- Comparison table expanded: added Brand (from products.json) + Rating/5 rows
-- Spanish product types translated (Micrófono, Auriculares, Interfaz de Audio, etc.)
-- Cache buster bumped to `v=tablas1`
-- All pages regenerated, guides.json updated
+- Video caption added below homepage video using `<span class="cookie-lang-en/es">` pattern (CSS lang toggle, not data-i18n)
+- Removed `videoCaption` keys from `js/translations.v4.min.js`
+- Spanish video caption: "Tocando en vivo con el Tres Cubano" (capitalized)
+- English video caption: "Playing live with the Cuban Tres Guitar"
+- Fixed JBL 305P MkII Spanish grammar: "Se recomienda... es" → "Se recomienda... porque es" (2 guides)
+- Applied 21 comprehensive Spanish grammar fixes across all FAQ `faq_a*_es` fields: lowercase-after-period (×10), brand caps (×4), broken text fixes (×2), subject-verb agreement (×2), `canídas`→`caídas`, `De la`→`La`, space-before-period, `el mismo cápsula`→`la misma cápsula`
+- Fixed English `clea` typo → `clean` (3 occurrences: best-microphone faq3, guitar-bass-amps faq4, beginner-guitar faq2)
+- Fixed space-after-dollar in "Priced at $" patterns across ~31 English FAQ answers
+- Fixed incomplete English sentences: "K12." fragment in live-sound-pa faq2, "Soundtoys 5." fragment in vocal-plugins faq4, lowercase "cubase" capitalization in daw-guide faq4
+- Rebuilt all 144 guide pages
+- All changes committed and pushed (commits: `107b4eec`, `8c5af9d1`, `5f7787a`)
+
+### Active
+- (none)
+
+### Blocked
+- (none)
+
+### Next Move
+- User-driven (site is clean)
+
+### Relevant Files
+- `data/guides.json`: source for all FAQ questions and answers
+- `index.html`: homepage — video caption uses `<span class="cookie-lang-en/es">` pattern
+- `js/translations.v4.min.js`: translation key-value pairs (videoCaption keys removed)
+- `guides/*.html`: 144 generated guide pages (72 EN + 72 ES)
