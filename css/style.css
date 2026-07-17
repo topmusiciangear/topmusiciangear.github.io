@@ -2056,4 +2056,5 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   a { color: #000 !important; text-decoration: underline; }
 }
 #lightbox{animation:fadeIn .2s ease}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.lb-img{cursor:zoom-in}
 
