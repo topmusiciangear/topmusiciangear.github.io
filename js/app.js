@@ -188,17 +188,34 @@ function openLightbox(src) {
   var lb = document.createElement("div");
   lb.id = "lightbox";
   lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92)";
+  var wrap = document.createElement("div");
+  wrap.style.cssText = "display:flex;align-items:center;justify-content:center;width:100%;height:100%;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pinch-zoom";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
+  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default;transition:max-width .2s,max-height .2s;touch-action:pinch-zoom";
   img.onclick = function(e) { e.stopPropagation(); };
+  var zoomed = false;
+  img.ondblclick = function(e) {
+    e.preventDefault();
+    zoomed = !zoomed;
+    if (zoomed) {
+      img.style.maxWidth = img.naturalWidth + "px";
+      img.style.maxHeight = img.naturalHeight + "px";
+      img.style.objectFit = "none";
+    } else {
+      img.style.maxWidth = "100%";
+      img.style.maxHeight = "100%";
+      img.style.objectFit = "contain";
+    }
+  };
   var close = document.createElement("button");
   close.innerHTML = "&times;";
   close.setAttribute("aria-label", "Close");
-  close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:1";
+  close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
   close.onclick = function() { lb.remove(); };
   lb.appendChild(close);
-  lb.appendChild(img);
+  wrap.appendChild(img);
+  lb.appendChild(wrap);
   lb.addEventListener("click", function(e) { if (e.target === e.currentTarget) lb.remove(); });
   document.body.appendChild(lb);
 }
