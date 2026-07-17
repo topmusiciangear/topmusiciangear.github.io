@@ -53,6 +53,7 @@ function criticalCss() {
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column;gap:8px}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card)}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease}.guide-faq-question.open+.guide-faq-answer{padding:0 20px 16px}',
     '.guide-detail{content-visibility:auto;contain-intrinsic-size:auto 500px;padding:64px 32px 60px}',
     '.guide-byline{font-size:14px;color:var(--text-muted);margin-top:8px;font-weight:500}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--bg-secondary)}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
@@ -462,6 +463,7 @@ ${ogMeta}
 </head>
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <div class="bg-hero"></div>
 
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
