@@ -91,6 +91,8 @@ guides.forEach(g => {
 });
 
 // Auto-increment cache busters from file content hash
+// Include guides.json hash so JS cache busters change when data changes (SPA cache invalidation)
+const dataVer = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'data', 'guides.json'))).digest('hex').slice(0, 6);
 const cacheVerJs = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.js'))).digest('hex').slice(0, 8);
 const cacheVerJsMin = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.min.js'))).digest('hex').slice(0, 8);
 const cacheVerCss = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'css', 'style.min.css'))).digest('hex').slice(0, 8);
@@ -664,7 +666,7 @@ ${ogMeta}
 
   <script defer src="/js/translations.js?v=7"></script>
   <script defer src="/js/constants.js?v=1"></script>
-  <script defer src="/js/app.js?v=${cacheVerJs}"></script>
+  <script defer src="/js/app.js?v=${cacheVerJs}${dataVer}"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;var h=document.documentElement;var pg=h.getAttribute('lang');if(pg==='en'||pg==='es'){h.classList.add('lang-'+pg);document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.removeProperty('display')});document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.removeProperty('display')});if(pg==='es'){document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.setProperty('display','none','important')})}else{document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.setProperty('display','none','important')})}}if(!c){b.classList.add('cookie-visible')}else{b.classList.remove('cookie-visible');gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
 window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()}
 window.cookieDecline=function(){try{var p={essential:true,analytics:false,affiliate:false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.style.display='none';if(m)m.style.display='none'}
@@ -727,8 +729,9 @@ buildSitemap();
   // Update CSS cache buster
   html = html.replace(/(css\/style\.css\?v=)[a-z0-9]+/g, '$1' + cacheVerCss);
   // Update JS cache buster (min.js first to avoid partial match by app.js regex)
-  html = html.replace(/(js\/app\.min\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJsMin);
-  html = html.replace(/(js\/app\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJs);
+  // Append dataVer so JS cache busters change when guides.json data changes
+  html = html.replace(/(js\/app\.min\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJsMin + dataVer);
+  html = html.replace(/(js\/app\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJs + dataVer);
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
     var esUrl = '/guides/' + g.id + '_es.html';
