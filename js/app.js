@@ -189,10 +189,10 @@ function openLightbox(src) {
   lb.id = "lightbox";
   lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92)";
   var wrap = document.createElement("div");
-  wrap.style.cssText = "position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none";
+  wrap.style.cssText = "position:relative;width:100%;height:100%;overflow:hidden;touch-action:none";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default;user-select:none;-webkit-user-select:none";
+  img.style.cssText = "display:block;position:absolute;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default;user-select:none;-webkit-user-select:none;transform-origin:0 0";
   img.draggable = false;
   img.onclick = function(e) { e.stopPropagation(); };
   var close = document.createElement("button");
@@ -201,15 +201,34 @@ function openLightbox(src) {
   close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
   close.onclick = function() { lb.remove(); };
 
-  var scale = 1, minScale = 1, maxScale = 5;
-  var tx = 0, ty = 0;
+  var W, H, scale = 1, minScale = 1, maxScale = 8, vw, vh;
+  var tx = 0, ty = 0, ox = 0, oy = 0;
   var pinching = false, panning = false;
-  var lastDist = 0, startX = 0, startY = 0;
-  var lastTap = 0;
+  var lastDist = 0, startX = 0, startY = 0, lastTap = 0, loaded = false;
 
-  function apply() {
-    img.style.transform = "translate(" + tx + "px," + ty + "px) scale(" + scale + ")";
+  function fit() {
+    if (!loaded) return;
+    var s = Math.min(vw / W, vh / H);
+    ox = (vw - W * s) / 2;
+    oy = (vh - H * s) / 2;
+    scale = 1; tx = 0; ty = 0;
+    img.style.width = W + "px";
+    img.style.height = H + "px";
+    apply(true);
   }
+  function apply(anim) {
+    var x = ox + tx + W * (1 - scale) / 2;
+    var y = oy + ty + H * (1 - scale) / 2;
+    img.style.transition = anim ? "transform .2s" : "none";
+    img.style.transform = "translate(" + x + "px," + y + "px) scale(" + scale + ")";
+  }
+
+  img.onload = function() {
+    W = img.naturalWidth; H = img.naturalHeight; loaded = true;
+    var rect = wrap.getBoundingClientRect();
+    vw = rect.width; vh = rect.height;
+    fit();
+  };
   function dist(a, b) {
     var dx = a.clientX - b.clientX, dy = a.clientY - b.clientY;
     return Math.sqrt(dx * dx + dy * dy);
@@ -217,60 +236,46 @@ function openLightbox(src) {
 
   wrap.addEventListener("touchstart", function(e) {
     e.preventDefault();
-    if (e.touches.length === 2) {
-      pinching = true;
-      panning = false;
-      lastDist = dist(e.touches[0], e.touches[1]);
-      img.style.transition = "none";
-    } else if (e.touches.length === 1 && scale > 1) {
-      panning = true;
-      pinching = false;
-      startX = e.touches[0].clientX - tx;
-      startY = e.touches[0].clientY - ty;
-      img.style.transition = "none";
-    }
+    if (e.touches.length === 2) { pinching = true; panning = false; lastDist = dist(e.touches[0], e.touches[1]); }
+    else if (e.touches.length === 1 && scale > 1) { panning = true; pinching = false; startX = e.touches[0].clientX - tx; startY = e.touches[0].clientY - ty; }
   }, { passive: false });
 
   wrap.addEventListener("touchmove", function(e) {
     e.preventDefault();
     if (e.touches.length === 2 && pinching) {
       var d = dist(e.touches[0], e.touches[1]);
-      var s = d / lastDist;
-      var newScale = scale * s;
-      newScale = Math.max(minScale, Math.min(maxScale, newScale));
-      var midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-      var midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-      var rect = wrap.getBoundingClientRect();
-      var cx = midX - rect.left, cy = midY - rect.top;
-      tx += (cx - tx) * (1 - newScale / scale);
-      ty += (cy - ty) * (1 - newScale / scale);
-      scale = newScale;
+      scale *= d / lastDist;
+      scale = Math.max(1, Math.min(maxScale, scale));
       lastDist = d;
-      apply();
+      apply(false);
     } else if (e.touches.length === 1 && panning) {
-      tx = e.touches[0].clientX - startX;
-      ty = e.touches[0].clientY - startY;
-      apply();
+      tx = e.touches[0].clientX - startX; ty = e.touches[0].clientY - startY;
+      apply(false);
     }
   }, { passive: false });
 
   wrap.addEventListener("touchend", function(e) {
     e.preventDefault();
-    if (pinching || panning) {
-      if (scale < 1) { scale = 1; tx = 0; ty = 0; }
-      img.style.transition = "transform .2s";
-      apply();
-      pinching = false;
-      panning = false;
-    }
+    if (pinching || panning) { pinching = false; panning = false; if (scale <= 1) { scale = 1; tx = 0; ty = 0; } apply(true); }
     var now = Date.now();
-    if (now - lastTap < 300 && e.changedTouches.length === 1 && !pinching) {
-      if (scale > 1.5) { scale = 1; tx = 0; ty = 0; }
-      else { scale = 2.5; }
-      img.style.transition = "transform .2s";
-      apply();
+    if (now - lastTap < 300 && e.changedTouches.length === 1) {
+      if (scale > 1.5) { scale = 1; tx = 0; ty = 0; } else { scale = 2.5; }
+      apply(true);
     }
     lastTap = now;
+  }, { passive: false });
+
+  // Mouse wheel zoom (desktop)
+  wrap.addEventListener("wheel", function(e) {
+    e.preventDefault();
+    var s = scale * Math.exp(-e.deltaY * 0.001);
+    s = Math.max(1, Math.min(maxScale, s));
+    var rect = wrap.getBoundingClientRect();
+    var cx = e.clientX - rect.left, cy = e.clientY - rect.top;
+    tx += (cx - tx) * (1 - s / scale);
+    ty += (cy - ty) * (1 - s / scale);
+    scale = s;
+    apply(true);
   }, { passive: false });
 
   lb.appendChild(close);
