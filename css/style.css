@@ -1751,8 +1751,6 @@ footer ul li a:hover { color: var(--accent); }
   margin-top: 48px;
   padding-top: 32px;
   border-top: 1px solid var(--border);
-  content-visibility: auto;
-  contain-intrinsic-size: auto 800px;
 }
 
 .guide-products-title {
