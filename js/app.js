@@ -563,10 +563,13 @@ function renderGuideDetailFromData(id) {
     const heading = currentLang === 'es' && s.heading_es ? s.heading_es : s.heading;
     const content = currentLang === 'es' && s.content_es ? s.content_es : s.content;
     const boldedC = boldFirstSentence(content);
+    const secProds = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
+    const firstProd = secProds.length ? secProds[0] : null;
+    const prodImg = firstProd ? '<div class="guide-section-imgs"><img src="' + firstProd.img + '" alt="' + (currentLang === 'es' && firstProd.title_es ? firstProd.title_es : firstProd.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in"></div>' : '';
     return `
       <div class="guide-section">
         <h2 class="guide-section-heading">${heading}</h2>
-        <div class="guide-section-content">${boldedC}</div>
+        <div class="guide-section-content">${boldedC}${prodImg}</div>
       </div>
     `;
   }).join("");
