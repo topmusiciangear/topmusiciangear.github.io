@@ -554,10 +554,6 @@ ${ogMeta}
       </div>
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
-      <div class="guide-conclusion">
-        <h2 class="guide-conclusion-title">${isEs ? '¿Cuál es la Conclusión?' : 'What\'s the Bottom Line?'}</h2>
-        <p>${conclusion}</p>
-      </div>
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">

@@ -588,10 +588,6 @@ function renderGuideDetailFromData(id) {
       </div>
       ${(function(){ var faqs = getGuideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${allProductsHtml ? `<div class="guide-products-grid"><h2 class="guide-products-title">${t("productsInGuide")}</h2><div class="guide-products-cards">${allProductsHtml}</div></div>` : ""}
-      <div class="guide-conclusion">
-        <h2 class="guide-conclusion-title">${t("finalThoughts")}</h2>
-        <p>${currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion}</p>
-      </div>
       <div class="guide-related">
         <h2 class="guide-related-title">${t("relatedGuides")}</h2>
         <div class="guide-related-list">
