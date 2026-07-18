@@ -4349,60 +4349,60 @@
         "name": "Shure SM57",
         "name_es": "Shure SM57",
         "pros": [
-          "Industry standard for instrument miking — used on guitar cabs, snares, and horns on more hit records than any other mic",
-          "Flat, low-profile grille lets you place the capsule inches from a speaker grille or drum head for maximum proximity effect",
-          "Withstands extreme SPL (150–190dB) without distortion — ideal for cranked tube amps and close-miked snare drums",
-          "Presence boost centered at 3–6kHz helps electric guitars and snares cut through a dense mix without additional EQ",
-          "Virtually indestructible — all-metal body, no moving parts, survives drops and decades of touring"
+          "Flat grille design lets you place the capsule directly against a speaker grille for maximum isolation and proximity effect — critical for close-miking guitar cabinets and snare drums without bleed",
+          "Handles extreme SPL up to 190dB without distorting, so you can mic a cranked tube amp or a kick drum at point-blank range with zero worry about clipping",
+          "Neutral midrange with a focused presence peak at 3-6kHz helps instruments cut through a dense mix naturally without needing additional EQ sculpting",
+          "Exceptional unit-to-unit consistency means you can buy multiple SM57s and expect virtually identical frequency response — important for stereo miking or matched multi-mic setups",
+          "Passive dynamic design requires no phantom power or batteries — works instantly with any XLR input, even on basic mixers or interfaces with limited features"
         ],
         "pros_es": [
-          "Estándar de la industria para microfonear instrumentos — usado en guitarras, cajas y trompetas en más discos exitosos que cualquier otro micrófono",
-          "Rejilla plana y de perfil bajo permite colocar la cápsula a pulgadas del altavoz o parche para máximo efecto de proximidad",
-          "Resiste SPL extremo (150–190dB) sin distorsión — ideal para amplificadores a todo volumen y redobles microfonados de cerca",
-          "Realce de presencia centrado en 3–6kHz ayuda a guitarras eléctricas y cajas a destacar en mezclas densas sin EQ adicional",
-          "Virtualmente indestructible — cuerpo totalmente metálico, sin partes móviles, sobrevive caídas y décadas de gira"
+          "La rejilla plana permite colocar la cápsula directamente contra el altavoz para máximo aislamiento y efecto de proximidad — crítico para microfonear gabinetes de guitarra y cajas sin sangrado",
+          "Soporta SPL extremo de hasta 190dB sin distorsión, permitiendo microfonear un amplificador valvular al máximo volumen o un bombo a quemarropa sin preocuparse por recorte",
+          "Medios neutros con un realce de presencia enfocado en 3-6kHz ayuda a que los instrumentos destaquen en mezclas densas de forma natural sin necesidad de esculpir con EQ",
+          "Consistencia excepcional entre unidades — puedes comprar varios SM57s y esperar una respuesta de frecuencia virtualmente idéntica, importante para microfonía estéreo o configuraciones multi-mic",
+          "El diseño dinámico pasivo no requiere phantom power ni baterías — funciona al instante con cualquier entrada XLR, incluso en mezcladores básicos o interfaces con funciones limitadas"
         ],
         "cons": [
-          "No built-in pop filter — plosives ('p', 'b', 't') are prominent on vocals without an external windscreen or pop filter",
-          "Low sensitivity (−56dBV/Pa) requires a clean preamp with at least 55–60dB of gain to reach usable levels",
-          "Frequency response caps at 15kHz — lacks the air, detail, and sparkle of a condenser mic for acoustic or delicate sources",
-          "Not optimized for handheld vocal use — the short grille makes it prone to handling noise and feedback when used as a vocal mic"
+          "Frequency response caps at 15kHz — lacks the air, detail, and high-frequency shimmer that even a budget condenser microphone can provide on acoustic or delicate sources",
+          "Low sensitivity of -56dBV/Pa forces you to crank your preamp gain near maximum, which can introduce audible floor noise on entry-level audio interfaces and mixers",
+          "No built-in pop protection — plosive consonants like p and b are prominent on vocals without an external pop filter or windscreen accessory",
+          "XLR-only connection with no built-in pad or low-cut filter — any tone shaping requires external processing or EQ at the mix stage, adding complexity for live use"
         ],
         "cons_es": [
-          "Sin filtro pop incorporado — las explosivas ('p', 'b', 't') son prominentes en voces sin pantalla antiviento o filtro externo",
-          "Baja sensibilidad (−56dBV/Pa) requiere un preamplificador limpio con al menos 55–60dB de ganancia para niveles utilizables",
-          "La respuesta de frecuencia llega solo a 15kHz — carece del aire y detalle de un micrófono de condensador para fuentes acústicas o delicadas",
-          "No está optimizado para uso vocal de mano — la rejilla corta lo hace propenso a ruido de manejo y retroalimentación como micrófono vocal"
+          "Respuesta en frecuencia limitada a 15kHz — carece del aire, detalle y brillo de alta frecuencia que incluso un condensador económico puede ofrecer en fuentes acústicas o delicadas",
+          "Baja sensibilidad de -56dBV/Pa obliga a subir la ganancia del preamplificador cerca del máximo, lo que puede introducir ruido de piso audible en interfaces y mezcladores de gama de entrada",
+          "Sin protección pop integrada — las consonantes explosivas como p y b son prominentes en voces sin un filtro pop externo o pantalla antiviento adicional",
+          "Conexión exclusivamente XLR sin pad atenuador ni filtro de graves incorporado — cualquier ajuste de tono requiere procesamiento externo o EQ en la mezcla"
         ]
       },
       {
         "name": "Shure SM58",
         "name_es": "Shure SM58",
         "pros": [
-          "Worldwide standard for live vocals — used by touring musicians, clubs, churches, and even U.S. presidents at the podium",
-          "Built-in spherical steel mesh grille with internal foam pop filter reduces plosives and wind noise without any add-on accessories",
-          "Internal pneumatic shock mount isolates the capsule from handling noise, stand vibrations, and stage rumble",
-          "Tailored frequency response with a presence rise at 5–10kHz and a bass roll-off below 100Hz that naturally controls proximity effect",
-          "Shares the identical legendary Unidyne III capsule and rugged die-cast body as the SM57 — same proven durability since 1966"
+          "Built-in spherical steel mesh grille with internal foam pop filter eliminates the need for external pop protection — sing directly without worrying about plosives or wind noise",
+          "Internal pneumatic shock mount isolates the capsule from handling noise and stand vibrations, delivering clean vocal sound even on stages with heavy movement and footfall",
+          "Frequency response pre-tailored for vocals with a presence rise where the voice needs it and a controlled low-end roll-off that naturally reduces muddiness and proximity buildup",
+          "Consistent off-axis rejection means the mic picks up less stage bleed and ambient room sound — critical for live monitoring with multiple sound sources on stage",
+          "Same legendary die-cast body durability as the SM57 — survives drops from stage height, extreme heat, and years of heavy touring without any degradation in performance"
         ],
         "pros_es": [
-          "Estándar mundial para voces en vivo — usado por músicos de gira, clubes, iglesias y hasta presidentes de EE.UU. en el podio",
-          "Rejilla esférica de acero con filtro pop interno de espuma reduce explosivas y ruido de viento sin accesorios adicionales",
-          "Soporte antigolpe neumático interno aísla la cápsula del ruido de manejo, vibraciones del soporte y retumbos del escenario",
-          "Respuesta de frecuencia adaptada con realce de presencia en 5–10kHz y filtro de graves por debajo de 100Hz que controla naturalmente el efecto de proximidad",
-          "Comparte la idéntica legendaria cápsula Unidyne III y el cuerpo robusto de aleación del SM57 — misma durabilidad probada desde 1966"
+          "Rejilla esférica de acero con filtro pop interno de espuma elimina la necesidad de protección pop externa — puedes cantar directamente sin preocuparte por explosivas ni ruido de viento",
+          "Soporte antigolpe neumático interno aísla la cápsula del ruido de manejo y vibraciones del soporte, dando un sonido vocal limpio incluso en escenarios con mucho movimiento y pisadas",
+          "Respuesta en frecuencia pre-adaptada para voces con realce de presencia donde la voz lo necesita y un filtro de graves controlado que reduce naturalmente el barro y la acumulación de proximidad",
+          "Rechazo fuera de eje consistente significa que el micrófono capta menos sangrado del escenario y sonido ambiente — crítico para monitoreo en vivo con múltiples fuentes sonando",
+          "Misma durabilidad legendaria del SM57 — cuerpo de aleación fundida que sobrevive caídas desde el escenario, calor extremo y años de gira intensiva sin degradación en el rendimiento"
         ],
         "cons": [
-          "Bulbous ball grille prevents close-miking instruments — you can't get the capsule flush against a speaker grille or drum rim",
-          "Bass roll-off at 100Hz makes it less effective on low-frequency sources like kick drums, bass cabs, or floor toms without EQ compensation",
-          "Frequency response limited to 15kHz — cannot capture the extended high-frequency detail of a large-diaphragm condenser in the studio",
-          "Requires a preamp with clean gain (55–60dB) for adequate levels — consumer-grade interfaces may introduce noise at that gain setting"
+          "Bulbous ball grille prevents close-miking instruments — you cannot get the capsule flush against a speaker grille or drum rim, which reduces isolation and proximity effect substantially",
+          "Built-in low-cut at 100Hz means kick drums, bass cabinets, and floor toms sound thin and lack weight without external EQ compensation",
+          "High-frequency extension stops at 15kHz — cannot capture sibilance detail and air that a large-diaphragm condenser offers in the studio for vocals and acoustic instruments",
+          "Requires 55-60dB of clean preamp gain — budget interfaces and basic mixers may introduce audible noise at those gain levels, especially with quieter vocalists"
         ],
         "cons_es": [
-          "La rejilla esférica abultada impide microfonear instrumentos de cerca — no puedes colocar la cápsula al ras del altavoz o aro del tambor",
-          "El filtro de graves en 100Hz lo hace menos efectivo en fuentes de baja frecuencia como bombos, bajos o timbales sin compensación de EQ",
-          "Respuesta de frecuencia limitada a 15kHz — no puede capturar el detalle extendido de alta frecuencia de un condensador de diafragma grande en estudio",
-          "Requiere un preamplificador con ganancia limpia (55–60dB) para niveles adecuados — las interfaces de consumo pueden introducir ruido a esa ganancia"
+          "La rejilla esférica abultada impide microfonear instrumentos de cerca — no puedes colocar la cápsula al ras del altavoz o aro del tambor, reduciendo el aislamiento y el efecto de proximidad",
+          "El filtro de graves incorporado en 100Hz hace que bombos, bajos y timbales suenen sin peso ni cuerpo sin compensación externa de EQ",
+          "La extensión de agudos termina en 15kHz — no puede capturar el detalle de sibilancia y aire que un condensador de diafragma grande ofrece en estudio",
+          "Requiere 55-60dB de ganancia limpia del preamplificador — las interfaces económicas y mezcladores básicos pueden introducir ruido audible a esos niveles de ganancia"
         ]
       }
     ],
@@ -4823,6 +4823,68 @@
       "budget-interfaces",
       "audient-vs-motu",
       "scarlett-vs-volt"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "SSL 2",
+        "name_es": "SSL 2",
+        "pros": [
+          "Legacy 4K button adds analog presence and harmonic enhancement based on SSL 4000 console",
+          "SuperAnalogue mic preamps provide ultra-low 0.0007% THD at unity",
+          "Built-in talkback control on front panel for studio communication",
+          "Class-leading 62dB headphone output drives high-impedance cans cleanly",
+          "USB-C bus-powered with loop-back for streaming and podcasting"
+        ],
+        "pros_es": [
+          "Legacy 4K anyade presencia analogica y armonicos basados en consola SSL 4000",
+          "Preamps SuperAnalogue THD 0.0007% en unidad",
+          "Control talkback incorporado en panel frontal",
+          "Salida auriculares 62dB lider maneja cascos alta impedancia",
+          "USB-C alimentado por bus con loop-back para streaming"
+        ],
+        "cons": [
+          "Only 48V/96kHz no 192kHz recording option",
+          "No expansion via ADAT locked at 2 inputs forever",
+          "Hi-Z only on channel 2 not independent instrument channel 1",
+          "SSL 360 software not as mature as competitors mixing software"
+        ],
+        "cons_es": [
+          "Solo 48V/96kHz sin opcion 192kHz",
+          "Sin expansion ADAT limitado a 2 entradas siempre",
+          "Hi-Z solo canal 2 no canal instrumento independiente",
+          "SSL 360 menos maduro que software mezcla competidores"
+        ]
+      },
+      {
+        "name": "Focusrite Scarlett 2i2 4th Gen",
+        "name_es": "Focusrite Scarlett 2i2 4ta Gen",
+        "pros": [
+          "Auto-gain and auto-set sets optimal levels in seconds even for inexperienced engineers",
+          "Air mode transforms tonal character with vintage console voicing",
+          "High-headroom +22dBu instrument input handles hot pickups without pad",
+          "46-bit internal processing provides headroom beyond standard converters",
+          "Grab-and-go setup ideal for mobile recording on battery-powered laptops"
+        ],
+        "pros_es": [
+          "Auto-gain configura niveles optimos en segundos",
+          "Modo Air transforma caracter tonal con voicing consola vintage",
+          "Entrada instrumento +22dBu maneja pastillas calientes sin pad",
+          "Procesamiento 46 bits proporciona headroom superior",
+          "Setup rapido ideal para grabacion movil con portatiles"
+        ],
+        "cons": [
+          "No analog character or harmonic enhancement circuit built into signal path",
+          "Can only record 2 channels simultaneously forever",
+          "Bus-powered only struggles with high-draw USB-C on long cables",
+          "Focusrite Control lacks advanced monitor mixing features"
+        ],
+        "cons_es": [
+          "Sin circuito analogico de caracter armonico en ruta senal",
+          "Solo 2 canales simultaneos para siempre",
+          "Alimentado por bus solo sufre con cables USB-C largos",
+          "Focusrite Control carece de mezcla monitores avanzada"
+        ]
+      }
     ]
   },
   {
@@ -5046,6 +5108,68 @@
       "tracking-headphones",
       "hd600-vs-dt990",
       "m50x-vs-dt770"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Beyerdynamic DT 770 Pro",
+        "name_es": "Beyerdynamic DT 770 Pro",
+        "pros": [
+          "Closed-back design with velour earpads provides exceptional passive isolation up to 35dB, letting you track vocals or record in the same room as a drum kit without bleed",
+          "Bass response extends down to 5Hz and is elevated around 80Hz, giving kick drums and bass lines a powerful punchy feel that makes tracking low-end satisfying",
+          "Every single part is replaceable — headband padding earpads cable and driver assembly are all user-serviceable with standard tools",
+          "Steel headband with robust ABS plastic construction withstands being tossed in gear bags and daily studio abuse for years",
+          "Detachable coiled cable standard on the 80-ohm version gives 3 meters of reach with retracting coils and no cable noise transmitted to earcups"
+        ],
+        "pros_es": [
+          "Diseño cerrado con almohadillas de terciopelo proporciona aislamiento pasivo de hasta 35dB, permitiendo grabar voces en la misma habitación que una batería sin sangrado",
+          "Respuesta de graves hasta 5Hz y elevada alrededor de 80Hz, dando a bombos y bajos una sensación potente y contundente",
+          "Cada pieza es reemplazable — almohadillas cable y driver son reparables por el usuario con herramientas estándar",
+          "Diadema de acero con construcción robusta de ABS soporta ser arrojado en bolsas de equipo y abuso diario de estudio durante años",
+          "Cable en espiral desmontable en versión de 80 ohmios da 3 metros de alcance con bobinas retráctiles"
+        ],
+        "cons": [
+          "Elevated bass response can mislead mixing decisions — tracks balanced on DT 770 may translate as bass-light on flat monitors",
+          "Notorious 8kHz spike adds artificial sibilance and harshness on cymbals and vocal sibilants, causing ear fatigue during long sessions",
+          "Non-detachable cable on 32-ohm and 250-ohm models means cable failure requires soldering repair",
+          "High clamping force causes discomfort during sessions longer than two hours for users with wider head shapes"
+        ],
+        "cons_es": [
+          "Respuesta de graves elevada puede engañar decisiones de mezcla — pistas equilibradas en DT 770 pueden traducirse como pobres en graves en monitores planos",
+          "Pico notorio en 8kHz añade sibilancia artificial y aspereza en platillos y sibilantes vocales causando fatiga auditiva",
+          "Cable no desmontable en modelos de 32 y 250 ohmios significa que fallo de cable requiere soldadura",
+          "Alta fuerza de sujeción causa incomodidad durante sesiones de más de dos horas para usuarios con cabezas anchas"
+        ]
+      },
+      {
+        "name": "Beyerdynamic DT 990 Pro",
+        "name_es": "Beyerdynamic DT 990 Pro",
+        "pros": [
+          "Open-back design creates a natural spacious soundstage with excellent air and separation between instruments, critical for mixing decisions where spatial positioning matters",
+          "Treble emphasis around 9kHz gives transients and high-frequency details a crisp articulate edge revealing flaws in reverb tails and cymbal decay",
+          "Lightweight at 290 grams with plush velour earpads that barely compress over time, comfortable for 6-8 hour mixing sessions",
+          "Bass is tight and controlled rather than boomy, giving accurate sub-bass extension and low-end punch without masking midrange clarity",
+          "Same user-serviceable modular design as DT 770 — every component from cable to driver can be replaced at home"
+        ],
+        "pros_es": [
+          "Diseño abierto crea escenario sonoro espacioso con excelente aire y separación entre instrumentos, crítico para decisiones de mezcla",
+          "Énfasis en agudos alrededor de 9kHz da a transitorios un borde nítido revelando fallos en colas de reverb y decadencia de platillos",
+          "Ligero a 290 gramos con almohadillas de terciopelo mullidas cómodas para sesiones de mezcla de 6-8 horas",
+          "Graves ajustados y controlados sin ser retumbantes, dando extensión precisa de subgraves sin enmascarar claridad de medios",
+          "Mismo diseño modular reparable que DT 770 — cada componente puede reemplazarse en casa"
+        ],
+        "cons": [
+          "Open-back offers virtually no isolation — bleed from room noise leaks in and headphones leak sound audibly to others nearby",
+          "Pronounced 9kHz treble peak causes listening fatigue after 2-3 hours and mixes may sound dull on systems lacking that high-frequency emphasis",
+          "No removable cable on any version — cable break requires soldering repair on the entire headphone",
+          "Bass lacks sub-bass extension below 30Hz that electronic music producers need to feel low-end content"
+        ],
+        "cons_es": [
+          "Diseño abierto no ofrece aislamiento — el ruido ambiental se filtra y los auriculares filtran sonido audiblemente a otros cercanos",
+          "Pico pronunciado de agudos en 9kHz causa fatiga auditiva tras 2-3 horas y las mezclas pueden sonar apagadas en otros sistemas",
+          "Sin cable removible en ninguna versión — rotura de cable requiere soldadura en todo el auricular",
+          "Graves carecen de extensión por debajo de 30Hz para producción de música electrónica"
+        ]
+      }
     ]
   },
   {
@@ -5255,7 +5379,69 @@
           "val2": "145W (97W LF + 48W HF)"
         }
       ]
-    }
+    },
+    "verdictProsCons": [
+      {
+        "name": "Yamaha HS8",
+        "name_es": "Yamaha HS8",
+        "pros": [
+          "Flat frequency response within ±1.5dB from 40Hz to 20kHz — the most phase-accurate reproduction in its price class for reliable mix translation",
+          "White cone uses proprietary mica composite diaphragm stiffer and lighter than standard paper or polypropylene, reducing cone breakup at high SPL",
+          "Rear-panel room control switches attenuate boundary bass buildup by -2dB or -4dB below 500Hz, adapting monitors to room acoustics without graphic EQ",
+          "Front-ported bass reflex design allows closer wall placement than rear-ported competitors, crucial for small bedrooms and home studios",
+          "Bi-amped design with separate 75W and 45W amplifiers ensures clean power without intermodulation distortion at moderate to high levels"
+        ],
+        "pros_es": [
+          "Respuesta plana dentro de ±1.5dB de 40Hz a 20kHz — la reproducción más precisa en fase en su clase de precio",
+          "Cono blanco usa diafragma compuesto de mica patentado más rígido y ligero que papel o polipropileno estándar",
+          "Interruptores de control de sala atenúan acumulación de graves en -2dB o -4dB por debajo de 500Hz",
+          "Diseño bass reflex frontal permite colocación más cerca de paredes que competidores con puerto trasero",
+          "Diseño bi-amplificado con amplificadores separados de 75W y 45W asegura energía limpia sin distorsión"
+        ],
+        "cons": [
+          "Stereo imaging width is noticeably narrower than competing monitors like KRK Rokits or Adam A-series with a tight sweet spot",
+          "The 8-inch woofer requires at least 1.5 meters listening distance for woofer and tweeter to integrate properly",
+          "Pronounced dip around 2kHz can make vocals and snares sound recessed compared to monitors with flat upper-mid response",
+          "Amplifier hiss is audible at idle from the listening position in quiet rooms"
+        ],
+        "cons_es": [
+          "Amplitud de imagen estéreo notablemente más estrecha que competidores como KRK Rokits o Adam A-series con punto óptimo ajustado",
+          "El woofer de 8 pulgadas requiere al menos 1.5 metros de distancia para integración adecuada entre woofer y tweeter",
+          "Dip pronunciado alrededor de 2kHz puede hacer que voces y caja suenen retraídas",
+          "Siseo del amplificador audible en reposo desde la posición de escucha en salas silenciosas"
+        ]
+      },
+      {
+        "name": "KRK Rokit 7 G5",
+        "name_es": "KRK Rokit 7 G5",
+        "pros": [
+          "Built-in DSP-driven graphic EQ with 25 bands via KRK App gives precise room correction without external hardware, compensating for room modes with surgical precision",
+          "Kevlar-reinforced aramid fiber woofer is extremely rigid yet lightweight, providing fast transient response and low distortion even at high SPL",
+          "Waveguide tweeter design improves horizontal dispersion creating a wider sweet spot that accommodates multiple listening positions without tonal shifts",
+          "Front-firing bass port allows near-wall placement without boomy bass buildup typical of rear-ported monitors",
+          "Built-in limiter protection prevents driver damage from accidental overloads before woofer or tweeter reach mechanical limits"
+        ],
+        "pros_es": [
+          "EQ gráfico DSP integrado con 25 bandas vía app KRK proporciona corrección de sala precisa sin hardware externo",
+          "Woofer de fibra de aramida reforzado con Kevlar extremadamente rígido pero ligero para respuesta transitoria rápida",
+          "Diseño de tweeter con guía de ondas mejora dispersión horizontal creando punto óptimo más amplio",
+          "Puerto de graves frontal permite colocación cerca de pared sin acumulación retumbante",
+          "Limitador incorporado protege drivers de daños por sobrecargas accidentales"
+        ],
+        "cons": [
+          "Stock factory tuning boosts low-mids around 200-400Hz by design, masking muddiness so clean mixes may translate as boomy on flat systems",
+          "Kevlar woofer requires 40-60 hour break-in period before low-end response stabilizes",
+          "DSP processing introduces slight latency through A-D-D-A conversion chain, causing phase alignment issues with analog outboard gear",
+          "KRK App required for DSP tuning is mobile-only and Bluetooth pairing can be unreliable"
+        ],
+        "cons_es": [
+          "Ajuste de fábrica realza medios-graves alrededor de 200-400Hz enmascarando barro, mezclas limpias pueden sonar retumbantes en sistemas planos",
+          "Woofer de Kevlar requiere 40-60 horas de adaptación antes de estabilizar respuesta de graves",
+          "Procesamiento DSP introduce ligera latencia causando problemas de alineación de fase con equipo analógico externo",
+          "App KRQ requiere Bluetooth y es solo para móvil, conexión puede ser poco fiable"
+        ]
+      }
+    ]
   },
   {
     "id": "m50x-vs-mdr7506",
@@ -5478,7 +5664,69 @@
           "val2_es": "106 dB"
         }
       ]
-    }
+    },
+    "verdictProsCons": [
+      {
+        "name": "Audio-Technica ATH-M50x",
+        "name_es": "Audio-Technica ATH-M50x",
+        "pros": [
+          "Detachable cable system with three included cables gives flexibility for portable use studio rack positioning or silent practice without cable swap hassle",
+          "Collapsible design with 90-degree rotating earcups folds flat into included carrying pouch, the most portable full-size studio headphones under $200",
+          "CCAW copper-clad aluminum wire voice coil reduces moving mass for faster transient response, giving percussion better attack definition",
+          "Extended bass response with gentle bump around 100Hz gives kick drums a satisfying thump without overwhelming mids, translating well across consumer systems",
+          "Circumaural earcups with protein leather pads create reliable passive isolation blocking moderate ambient noise in shared workspaces"
+        ],
+        "pros_es": [
+          "Sistema de cable desmontable con tres cables incluidos da flexibilidad para uso portátil estudio o práctica silenciosa",
+          "Diseño plegable con copas giratorias se pliega plano en bolsa incluida, los auriculares de estudio más portátiles bajo $200",
+          "Bobina CCAW reduce masa móvil para respuesta transitoria más rápida dando mejor definición de ataque a la percusión",
+          "Respuesta de graves extendida con suave realce alrededor de 100Hz da a bombos golpe satisfactorio sin abrumar medios",
+          "Copas circumaurales con almohadillas de cuero proteico crean aislamiento pasivo fiable bloqueando ruido ambiental moderado"
+        ],
+        "cons": [
+          "V-shaped frequency response with scooped lower-mids around 300-500Hz makes vocals and guitars sound less present and slightly hollow",
+          "Earpad leather material flakes and peels after 12-18 months of regular use, shedding black particles and requiring aftermarket replacement",
+          "Thin headband padding causes hotspot pain on larger heads after 2-3 hours of continuous wear",
+          "Soundstage feels closed-in and intimate with good left-right imaging but poor depth perception and three-dimensional air"
+        ],
+        "cons_es": [
+          "Respuesta en V con medios-graves escapados alrededor de 300-500Hz hace que voces y guitarras suenen menos presentes y huecas",
+          "Cuero de almohadillas se descama tras 12-18 meses de uso soltando partículas negras y requiriendo reemplazo aftermarket",
+          "Acolchado fino de diadema causa dolor en cabezas grandes tras 2-3 horas",
+          "Escenario sonoro cerrado e íntimo con buena imagen izquierda-derecha pero pobre profundidad y aire tridimensional"
+        ]
+      },
+      {
+        "name": "Sony MDR-7506",
+        "name_es": "Sony MDR-7506",
+        "pros": [
+          "Extremely lightweight at under 230 grams with low clamping force — comfortable for 8+ hour sessions without any discomfort",
+          "Sealed earcup with foam pads provides better isolation than any closed-back competitor in its price range for location sound and field recording",
+          "Neutral midrange with gentle presence bump reveals detail without exaggerated sibilance or harshness, ideal for critical A/B comparisons",
+          "Collapsible folding design fits in any backpack pocket, the standard for news crews and location engineers needing reliable monitoring in a carry-on",
+          "Over 30 years of continuous production with universal parts availability worldwide"
+        ],
+        "pros_es": [
+          "Extremadamente ligeros menos de 230 gramos con baja fuerza de sujeción cómodos para sesiones de 8+ horas",
+          "Copa sellada con almohadillas de espuma proporciona mejor aislamiento que competidores cerrados en su rango de precio",
+          "Rango medio neutro con suave realce de presencia revela detalle sin sibilancia exagerada",
+          "Diseño plegable compacto cabe en cualquier bolsillo de mochila, estándar para equipos de noticias",
+          "Más de 30 años de producción continua con disponibilidad universal de piezas en todo el mundo"
+        ],
+        "cons": [
+          "Foam earpads degrade and compress within 6-12 months, reducing isolation and changing frequency response requiring periodic OEM pad replacement",
+          "Permanently attached coiled cable is a single point of failure requiring soldering repair if damaged",
+          "Bass response rolls off below 80Hz with no sub-bass extension, inadequate for electronic music or deep low-end content",
+          "Smaller 40mm driver results in lower maximum SPL before distortion and less dynamic headroom than 45mm competitors"
+        ],
+        "cons_es": [
+          "Almohadillas de espuma se degradan en 6-12 meses reduciendo aislamiento y cambiando respuesta requiriendo reemplazo periódico",
+          "Cable en espiral permanentemente fijado es punto único de fallo requiriendo soldadura si se daña",
+          "Respuesta de graves cae por debajo de 80Hz sin extensión de subgraves inadecuada para música electrónica",
+          "Driver de 40mm menor SPL máximo antes de distorsión y menos margen dinámico que competidores de 45mm"
+        ]
+      }
+    ]
   },
   {
     "id": "best-electric-guitar",
@@ -6016,6 +6264,68 @@
       "pro-interfaces",
       "rme-vs-motu",
       "audient-vs-motu"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Universal Audio Apollo Twin X",
+        "name_es": "Universal Audio Apollo Twin X",
+        "pros": [
+          "Onboard UAD-2 DSP lets you run UAD powered plugins with near-zero latency during tracking before signal reaches DAW",
+          "Unison preamp technology rewires input impedance and gain staging to match hardware being emulated",
+          "Realtime Console provides full software mixer with channel strip per-input and dual headphone outputs with separate mixes",
+          "Built-in talkback microphone on front panel communicates with talent through cue mix without external mic",
+          "Thunderbolt 3 delivers ultra-low round-trip latency under 2ms at 96kHz with DSP active"
+        ],
+        "pros_es": [
+          "DSP UAD-2 permite ejecutar plugins UAD con latencia casi nula durante grabacion",
+          "Tecnologia Unison reconfigura impedancia para emular hardware analogico",
+          "Console proporciona mezclador completo con canal por entrada y dos salidas auriculares",
+          "Microfono talkback incorporado se comunica con talento sin microfono externo",
+          "Thunderbolt 3 ofrece latencia ultrabaja bajo 2ms a 96kHz con DSP activo"
+        ],
+        "cons": [
+          "Requires Thunderbolt 3 incompatible with standard USB on budget laptops",
+          "UAD DSP ecosystem locks you into expensive Universal Audio plugin market",
+          "Only two mic preamps with single headphone output, costly jump to x4 for more I/O",
+          "Included software bundle has been reduced in recent years"
+        ],
+        "cons_es": [
+          "Requiere Thunderbolt 3 incompatible con USB estandar en portatiles economicos",
+          "Ecosistema DSP UAD encierra en caro mercado de plugins UA",
+          "Solo dos preamplificadores con una salida de auriculares",
+          "Paquete de software incluido reducido en anos recientes"
+        ]
+      },
+      {
+        "name": "RME Babyface Pro FS",
+        "name_es": "RME Babyface Pro FS",
+        "pros": [
+          "TotalMix FX provides flexible routing matrix with 8 independent stereo submixes each with EQ dynamics and reverb DSP",
+          "SteadyClock FS jitter suppression cleans incoming digital clock signals with better accuracy than competitors",
+          "Class-compliant USB works natively with Windows Mac iOS and Android without drivers",
+          "Legendary driver efficiency achieves stable 32-sample buffer on modest hardware",
+          "Hardware DSP reverb provides zero-latency headphone monitoring independent of computer DAW"
+        ],
+        "pros_es": [
+          "TotalMix FX proporciona matriz de enrutamiento flexible con 8 submexclas estereo con EQ y reverb DSP",
+          "SteadyClock FS limpia senales de reloj digital con mejor precision que competidores",
+          "USB class-compliant funciona nativamente sin drivers",
+          "Eficiencia legendaria logra buffer de 32 muestras en hardware modesto",
+          "Reverb DSP para monitoreo auriculares latencia cero independiente del DAW"
+        ],
+        "cons": [
+          "Breakout cable for additional I/O is bulky and fragile losing it disables connectivity",
+          "No onboard DSP for third-party plugin emulations unlike Apollo Twin X",
+          "Requires external power supply not truly bus-powered",
+          "TotalMix FX has notoriously steep learning curve"
+        ],
+        "cons_es": [
+          "Cable de expansion voluminoso y fragil perderlo desactiva conectividad",
+          "Sin DSP para emulaciones de plugins de terceros a diferencia de Apollo Twin X",
+          "Requiere alimentacion externa no realmente alimentado por bus",
+          "Curva de aprendizaje notoriamente pronunciada de TotalMix FX"
+        ]
+      }
     ]
   },
   {
@@ -6243,6 +6553,68 @@
       "budget-interfaces",
       "scarlett-vs-ssl",
       "audient-vs-motu"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Focusrite Scarlett 2i2 4th Gen",
+        "name_es": "Focusrite Scarlett 2i2 4ta Gen",
+        "pros": [
+          "Auto-gain and auto-set analyze input and set optimal levels in two seconds",
+          "Air mode emulates vintage Neve transformer character without EQ",
+          "High-headroom instrument input accepts +22dBu for hot active basses",
+          "Loop-back on dedicated mix control routes computer playback",
+          "USB-C bus-powered with 46-bit internal processing headroom"
+        ],
+        "pros_es": [
+          "Auto-gain analiza entrada y configura niveles optimos en dos segundos",
+          "Modo Air emula transformador Neve vintage sin EQ",
+          "Entrada instrumento acepta +22dBu antes de recortar",
+          "Loop-back enruta reproduccion sin software terceros",
+          "Alimentado por bus USB-C con procesamiento 46 bits"
+        ],
+        "cons": [
+          "Only two inputs with no ADAT expansion",
+          "Loop-back is simple stereo mix cannot select sources",
+          "No hardware pad switch on front panel for hot sources",
+          "Focusrite Control lacks console emulation"
+        ],
+        "cons_es": [
+          "Solo dos entradas sin expansion ADAT",
+          "Loop-back es mezcla estereo simple no selecciona fuentes",
+          "Sin pad fisico en panel frontal",
+          "Focusrite Control carece de emulacion consola"
+        ]
+      },
+      {
+        "name": "Universal Audio Volt 2",
+        "name_es": "Universal Audio Volt 2",
+        "pros": [
+          "Built-in analog compressor based on UA 1176 prints compression to tape pre-AD",
+          "Vintage Preamp mode emulates UA610 transformer saturation",
+          "MIDI I/O via breakout cable connects keyboard controller",
+          "Direct monitoring with real-time compressor feedback",
+          "All-metal USB-C bus-powered chassis more premium than plastic competitors"
+        ],
+        "pros_es": [
+          "Compresor analogico UA 1176 imprime compresion pre-AD",
+          "Modo Vintage emula saturacion transformador UA610",
+          "E/S MIDI por cable incluido conecta controlador",
+          "Monitoreo directo con feedback de compresor tiempo real",
+          "Chasis metalico mas premium que competidores plasticos"
+        ],
+        "cons": [
+          "Only one hi-Z instrument input cannot record two instruments in stereo",
+          "Compressor lacks ratio attack release controls only three presets",
+          "No ADAT or digital I/O with zero expansion",
+          "Breakout cable for MIDI adds desktop clutter"
+        ],
+        "cons_es": [
+          "Solo una entrada hi-Z no graba dos instrumentos estereo",
+          "Compresor carece de controles ratio attack release solo 3 modos",
+          "Sin ADAT ni E/S digital expansion cero",
+          "Cable MIDI anyade desorden escritorio"
+        ]
+      }
     ]
   },
   {
@@ -6470,6 +6842,68 @@
       "budget-interfaces",
       "scarlett-vs-ssl",
       "rme-vs-motu"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Audient iD14 MkII",
+        "name_es": "Audient iD14 MkII",
+        "pros": [
+          "Console mic preamp from ASP4816 class-A discrete topology with 74dB gain",
+          "iD Scroll Control lets volume knob control any DAW parameter",
+          "ADAT input adds 8 channels for total of 10",
+          "Direct monitor with built-in talkback",
+          "Discrete JFET instrument input for warm DI recording"
+        ],
+        "pros_es": [
+          "Preamplificador ASP4816 clase-A discreta 74dB ganancia",
+          "iD Scroll Control controla cualquier parametro DAW",
+          "ADAT anade 8 canales para total de 10",
+          "Monitoreo directo con talkback incorporado",
+          "Entrada JFET discreta para grabacion DI calida"
+        ],
+        "cons": [
+          "Loop-back requires separate software installation",
+          "Bundled software minimal with only Cubase lite",
+          "Headphone outputs share cue mix no independent routing",
+          "USB-C port recessed causing drops with thick cables"
+        ],
+        "cons_es": [
+          "Loop-back requiere software separado",
+          "Software incluido minimo solo Cubase lite",
+          "Salidas auriculares comparten mezcla sin routing independiente",
+          "Puerto USB-C empotrado causa cortes con cables gruesos"
+        ]
+      },
+      {
+        "name": "MOTU M2",
+        "name_es": "MOTU M2",
+        "pros": [
+          "ESS Sabre32 Ultra DAC 120dB dynamic range same as high-end mastering DACs",
+          "Full-color LCD with real-time metering for all I/O",
+          "Hardware loop-back with two independent stereo channels",
+          "DC-coupled outputs for control voltage to modular synths",
+          "CueMix DSP zero-latency monitoring with per-channel EQ"
+        ],
+        "pros_es": [
+          "DAC ESS Sabre32 Ultra 120dB mismo que DACs mastering",
+          "LCD color con metering tiempo real para toda E/S",
+          "Loop-back hardware con dos canales estereo independientes",
+          "Salidas DC-coupled para voltaje control a sintetizadores",
+          "CueMix DSP monitoreo latencia cero EQ por canal"
+        ],
+        "cons": [
+          "MOTU driver installation complex requiring separate packages",
+          "Driver updates lag months after major OS releases",
+          "CueMix UI looks outdated with no dark mode",
+          "Mic preamps only 60dB gain audible noise above 50dB"
+        ],
+        "cons_es": [
+          "Instalacion driver MOTU compleja requiere paquetes separados",
+          "Actualizaciones se retrasan meses tras lanzamientos OS",
+          "CueMix se ve anticuado sin modo oscuro",
+          "Preamps solo 60dB ganancia ruido sobre 50dB"
+        ]
+      }
     ]
   },
   {
@@ -6697,6 +7131,68 @@
       "pro-interfaces",
       "apollo-vs-babyface",
       "audient-vs-motu"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "RME Babyface Pro FS",
+        "name_es": "RME Babyface Pro FS",
+        "pros": [
+          "TotalMix FX routing matrix with 8 stereo submixes EQ dynamics reverb",
+          "SteadyClock FS jitter suppression regardless of clock source",
+          "Class-compliant USB no drivers needed on any OS",
+          "32-sample buffer stable on modest hardware",
+          "DSP reverb zero-latency headphone monitoring"
+        ],
+        "pros_es": [
+          "TotalMix FX 8 submexclas estereo con EQ dinamica reverb",
+          "SteadyClock FS sin drivers en cualquier SO",
+          "USB class-compliant sin drivers en cualquier SO",
+          "Buffer 32 muestras estable en hardware modesto",
+          "Reverb DSP monitoreo auriculares latencia cero"
+        ],
+        "cons": [
+          "Breakout cable for I/O bulky and fragile",
+          "No DSP for third-party plugin emulations",
+          "Requires external power supply",
+          "TotalMix FX steep learning curve"
+        ],
+        "cons_es": [
+          "Cable expansion fragil y voluminoso",
+          "Sin DSP para emulaciones plugins terceros",
+          "Requiere alimentacion externa",
+          "Curva aprendizaje pronunciada TotalMix"
+        ]
+      },
+      {
+        "name": "MOTU M2",
+        "name_es": "MOTU M2",
+        "pros": [
+          "ESS Sabre32 Ultra DAC 120dB ahead of interfaces 3x price",
+          "Front-panel color LCD eliminates need to check DAW levels",
+          "Hardware loop-back with two independent stereo streams",
+          "DC-coupled outputs for modular synth CV",
+          "CueMix DSP zero-latency mixing 8 channels 4-band EQ each"
+        ],
+        "pros_es": [
+          "DAC ESS Sabre32 Ultra 120dB mejor que interfaces 3x precio",
+          "LCD frontal elimina necesidad de mirar DAW",
+          "Loop-back hardware con 2 streams estereo independientes",
+          "Salidas DC-coupled para CV a sintetizadores",
+          "CueMix mezcla latencia cero 8 canales EQ 4 bandas"
+        ],
+        "cons": [
+          "Mic preamps only 60dB gain audible noise above 50dB",
+          "CueMix UI dated no dark mode breaks on resize",
+          "MOTU driver updates weeks behind OS releases",
+          "Sparse software bundle only lite Ableton Live"
+        ],
+        "cons_es": [
+          "Preamps solo 60dB ganancia ruido sobre 50dB",
+          "CueMix UI anticuado sin modo oscuro",
+          "Drivers MOTU semanas detras de lanzamientos OS",
+          "Paquete software escaso solo Ableton Live lite"
+        ]
+      }
     ]
   },
   {
@@ -6906,6 +7402,68 @@
       "pro-monitors",
       "hs8-vs-rokit-7",
       "studio-subwoofers"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Adam Audio A7V",
+        "name_es": "Adam Audio A7V",
+        "pros": [
+          "X-ART folded-ribbon tweeter accelerates air 4x faster for instant transients",
+          "DSP crossover with 4 voicing presets adapts to room acoustics",
+          "7-inch woofer tight bass down to 39Hz",
+          "Ethernet for Sonarworks calibration auto-EQ",
+          "140-degree waveguide for generous sweet spot"
+        ],
+        "pros_es": [
+          "Tweeter X-ART acelera aire 4x mas rapido transientes instantaneos",
+          "Crossover DSP con 4 presets se adapta a acustica sala",
+          "Woofer 7 pulgadas graves justos hasta 39Hz",
+          "Ethernet para calibracion Sonarworks",
+          "Guia ondas 140 grados punto dulce generoso"
+        ],
+        "cons": [
+          "Class-D amplifier hiss audible from listening position",
+          "DSP settings require software cannot change from front panel",
+          "Bass loses steam below 39Hz needs subwoofer",
+          "Premium price for DSP integration and X-ART tweeter"
+        ],
+        "cons_es": [
+          "Siseo amplificador clase D audible",
+          "Ajustes DSP requieren software no desde panel",
+          "Graves pierden fuerza bajo 39Hz requieren subwoofer",
+          "Precio premium por integracion DSP y tweeter X-ART"
+        ]
+      },
+      {
+        "name": "Genelec 8040B",
+        "name_es": "Genelec 8040B",
+        "pros": [
+          "MDE cabinet rounded edges near-zero diffraction precise soundstage",
+          "DCW waveguide seamless woofer-tweeter transition from 1.5kHz",
+          "ISS auto power-down reduces idle consumption under 0.5W",
+          "Die-cast aluminum enclosure acts as heat sink sustained SPL",
+          "Room Response Compensation maintains phase coherence"
+        ],
+        "pros_es": [
+          "Gabinete MDE difraccion casi cero escenario preciso",
+          "Guia DCW transicion woofer-tweeter desde 1.5kHz",
+          "ISS reduce consumo reposo bajo 0.5W",
+          "Gabinete aluminio actua disipador SPL sostenido",
+          "Compensacion sala mantiene coherencia fase"
+        ],
+        "cons": [
+          "Price premium steep compared to Adam A7V or KH 120",
+          "Bass rolls off below 48Hz needs sub for electronic music",
+          "Analog-only XLR no AES/EBU or USB digital input",
+          "ISS can trigger during quiet passages causing relay click"
+        ],
+        "cons_es": [
+          "Sobrecoste vs Adam A7V o KH 120",
+          "Graves caen bajo 48Hz requieren subwoofer",
+          "Solo XLR analogico sin AES/EBU ni USB digital",
+          "ISS activa en pasajes silenciosos clic relé"
+        ]
+      }
     ]
   },
   {
@@ -7115,6 +7673,68 @@
       "budget-monitors",
       "small-room-monitors",
       "hs8-vs-rokit-7"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "JBL 305P MkII",
+        "name_es": "JBL 305P MkII",
+        "pros": [
+          "Image Control Waveguide 120-degree dispersion stable off-axis imaging",
+          "Slip Stream port eliminates chuffing noise at high output",
+          "Neodymium magnets reduce weight to 4.7kg for flexible mounting",
+          "Boundary EQ switches calibrated by JBL engineers",
+          "Defined low-end surprising for 5-inch woofer"
+        ],
+        "pros_es": [
+          "Guia Image Control 120 grados imagen estable off-axis",
+          "Puerto Slip Stream elimina ruido jadeo",
+          "Imanes neodimio reducen peso 4.7kg",
+          "Interruptores EQ calibrados por ingenieros JBL",
+          "Graves definidos sorprendentes para woofer 5 pulgadas"
+        ],
+        "cons": [
+          "5-inch woofer cannot reproduce sub-bass below 50Hz",
+          "Max SPL 108dB peak lower than larger competitors",
+          "JBL logo LED always on distracting in dark",
+          "Port tuning sensitive to boundary effects"
+        ],
+        "cons_es": [
+          "Woofer 5 pulgadas no reproduce subgraves bajo 50Hz",
+          "SPL max 108dB pico menor que competidores grandes",
+          "LED logo siempre encendido molesto en oscuridad",
+          "Puerto sensible a efectos limite"
+        ]
+      },
+      {
+        "name": "Kali Audio LP-6 V2",
+        "name_es": "Kali Audio LP-6 V2",
+        "pros": [
+          "3D Waveguide 140-degree horizontal dispersion widest under ",
+          "6.5-inch woofer reaches 45Hz for fuller low-end",
+          "Boundary EQ dip switches for specific placements",
+          "Factory-matched pairs within 1dB L-R",
+          "Front slot port allows 5cm from rear wall"
+        ],
+        "pros_es": [
+          "Guia 3D 140 grados dispersion mas amplia bajo ",
+          "Woofer 6.5 pulgadas alcanza 45Hz",
+          "EQ limite dip switches para colocacion especifica",
+          "Pares emparejados fabrica 1dB L-R",
+          "Puerto frontal ranurado permite 5cm de pared"
+        ],
+        "cons": [
+          "Dip around 2kHz makes vocals sound scooped",
+          "Standard silk dome tweeter lacks last degree of detail",
+          "International support US-centric slow response",
+          "Auto-standby cannot be disabled 15-min timeout 3s delay"
+        ],
+        "cons_es": [
+          "Dip 2kHz hace voces sonar escapadas",
+          "Tweeter domo seda carece ultimo detalle",
+          "Soporte internacional lento centrado EEUU",
+          "Espera no desactivable 15min 3s retardo"
+        ]
+      }
     ]
   },
   {
@@ -7340,6 +7960,68 @@
       "open-headphones",
       "dt770-vs-dt990",
       "m50x-vs-dt770"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Sennheiser HD 600",
+        "name_es": "Sennheiser HD 600",
+        "pros": [
+          "Closest to diffuse-field neutral under  mastering reference worldwide",
+          "Proprietary transducer 0.1% THD at 100dB distortion inaudible",
+          "Open-back natural uncolored soundstage spatial positioning",
+          "Replaceable pads headband cable 25+ years of OEM parts",
+          "Reveals mix flaws master EQ imbalances without adding character"
+        ],
+        "pros_es": [
+          "Mas cercano a neutro campo difuso bajo  referencia mastering",
+          "Transductor 0.1% THD 100dB distorsion inaudible",
+          "Diseno abierto escenario natural sin coloracion",
+          "Pads diadema cable reemplazables OEM 25+ anos",
+          "Revela fallos mezcla sin anyadir caracter"
+        ],
+        "cons": [
+          "Bass rolls off below 60Hz mixes translate with excessive bass",
+          "300-ohm impedance requires dedicated headphone amplifier",
+          "Soundstage intimate and focused not wide",
+          "Non-detachable 3m cable microphonic nose transmitted"
+        ],
+        "cons_es": [
+          "Graves caen bajo 60Hz mezclas traducen graves excesivos",
+          "300 ohmios requieren amplificador auriculares dedicado",
+          "Escenario intimo y enfocado no amplio",
+          "Cable 3m no desmontable ruido microfonico"
+        ]
+      },
+      {
+        "name": "Beyerdynamic DT 990 Pro",
+        "name_es": "Beyerdynamic DT 990 Pro",
+        "pros": [
+          "Perforated grille expansive soundstage width depth instrument separation",
+          "Treble emphasis 9kHz crisp articulate edge reveals reverb tails",
+          "250-ohm balances portability with amplifier benefit",
+          "Velour earpads breathable comfortable 6+ hours",
+          "Beyerdynamic 10-year parts availability"
+        ],
+        "pros_es": [
+          "Rejilla perforada escenario expansivo ancho profundo separacion",
+          "Enfasis agudos 9kHz borde nitido revela colas reverberacion",
+          "250 ohmios equilibra portabilidad con amplificador",
+          "Almohadillas terciopelo transpirables 6+ horas",
+          "Disponibilidad piezas Beyerdynamic 10 anos"
+        ],
+        "cons": [
+          "9kHz treble peak causes listening fatigue after 2-3 hours",
+          "Mix translation unreliable tracks dull on flat systems",
+          "Non-detachable cable requires soldering if fails",
+          "Bass lacks extension below 40Hz no sub-bass impact"
+        ],
+        "cons_es": [
+          "Pico 9kHz fatiga auditiva 2-3 horas",
+          "Traduccion mezcla no fiable pistas suenan apagadas",
+          "Cable no desmontable requiere soldadura si falla",
+          "Graves sin extension bajo 40Hz"
+        ]
+      }
     ]
   },
   {
@@ -7565,6 +8247,68 @@
       "tracking-headphones",
       "dt770-vs-dt990",
       "k371-vs-mdr7506"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Audio-Technica ATH-M50x",
+        "name_es": "Audio-Technica ATH-M50x",
+        "pros": [
+          "Detachable cable system three cables for any scenario",
+          "Collapsible folds flat most portable full-size monitor",
+          "CCAW voice coil faster transient response percussion attack",
+          "Bass emphasis around 100Hz translates well to consumer systems",
+          "Protein leather pads passive isolation in shared environments"
+        ],
+        "pros_es": [
+          "Sistema 3 cables desmontables para cualquier escenario",
+          "Plegable se pliega plano mas portatil",
+          "Bobina CCAW respuesta transitoria mas rapida",
+          "Graves 100Hz traducen bien en sistemas consumo",
+          "Almohadillas cuero aislamiento pasivo entornos compartidos"
+        ],
+        "cons": [
+          "Earpad leather flakes and peels within 12-18 months",
+          "V-shaped response recessed lower-mids vocals less present",
+          "Thin headband padding causes discomfort larger heads",
+          "Soundstage closed-in lacks depth and air"
+        ],
+        "cons_es": [
+          "Cuero se descama 12-18 meses",
+          "Respuesta V medios bajos escapados voces menos presentes",
+          "Acolchado fino molestia cabezas grandes",
+          "Escenario cerrado sin profundidad ni aire"
+        ]
+      },
+      {
+        "name": "Beyerdynamic DT 770 Pro",
+        "name_es": "Beyerdynamic DT 770 Pro",
+        "pros": [
+          "Closed-back velour pads superior 35dB isolation for tracking",
+          "Elevated bass 80Hz kick drums punchy and powerful",
+          "Every component replaceable OEM parts decade-plus lifespan",
+          "Steel headband and ABS construction more durable than M50x",
+          "80-ohm detachable coiled cable 3 meters"
+        ],
+        "pros_es": [
+          "Cerrado terciopelo aislamiento superior 35dB para tracking",
+          "Graves elevados 80Hz bombos potentes",
+          "Cada componente reemplazable OEM vida util decada+",
+          "Diadema acero ABS mas durable que M50x",
+          "80 ohmios cable espiral desmontable 3 metros"
+        ],
+        "cons": [
+          "Elevated bass misleads mixing tracks sound bass-light on flat monitors",
+          "8kHz spike causes harshness and ear fatigue long sessions",
+          "Higher clamping force jaw pressure with glasses",
+          "Velour pads absorb sweat expensive OEM replacement"
+        ],
+        "cons_es": [
+          "Graves elevados enganan mezcla suena sin graves en monitores planos",
+          "Pico 8kHz dureza fatiga auditiva sesiones largas",
+          "Alta fuerza sujecion presion mandibular con lentes",
+          "Almohadillas absorben sudor caro reemplazo OEM"
+        ]
+      }
     ]
   },
   {
@@ -7790,6 +8534,68 @@
       "budget-headphones",
       "m50x-vs-mdr7506",
       "m50x-vs-dt770"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "AKG K371",
+        "name_es": "AKG K371",
+        "pros": [
+          "Folded portable design collapses into compact carrying size with swivel ear cups for travel",
+          "Harmon-targeted tuning delivers neutral frequency response that translates accurately across playback systems",
+          "Detachable mini-XLR cable standard with included second cable for backup reliability",
+          "Lightweight 255g comfortable for hours with minimal clamping force",
+          "Leatherette ear pads with memory foam conform to head shape for seal"
+        ],
+        "pros_es": [
+          "Diseno plegable portatil con copas giratorias para viaje",
+          "Sintonizacion Harmon objetivo respuesta neutra traduce con precision",
+          "Cable mini-XLR desmontable incluye segundo cable de respaldo",
+          "Ligeros 255g comodos por horas con minima presion",
+          "Almohadillas cuero con espuma memoria se adaptan a la cabeza"
+        ],
+        "cons": [
+          "Build quality feels plasticky creaking hinge mechanism may loosen over extended daily use",
+          "Leatherette material flakes and peels especially in humid climates",
+          "Ear pads have shallow depth pressing against larger ears",
+          "Storage pouch instead of hard case inadequate for backpack protection"
+        ],
+        "cons_es": [
+          "Construccion plastica crujiente bisagra se afloja con uso diario",
+          "Cuero sintetico se descama especialmente en climas humedos",
+          "Almohadillas superficiales presionan contra orejas grandes",
+          "Bolsa de almacenamiento en lugar de estuche rigido"
+        ]
+      },
+      {
+        "name": "Sony MDR-7506",
+        "name_es": "Sony MDR-7506",
+        "pros": [
+          "Industry-standard sound signature known for forward upper-midrange that reveals vocal sibilance and mix clarity",
+          "Legendary durability with field-replaceable all parts available for decades from Sony",
+          "Folding design with included carrying pouch proven in broadcast studios worldwide",
+          "Closed-back design provides excellent isolation for tracking loud sources",
+          "Tight controlled bass does not bleed into mids making mix decisions easier"
+        ],
+        "pros_es": [
+          "Firma sonora estandar industria revela sibilancias vocales y claridad mezcla",
+          "Durabilidad legendaria todas las piezas reemplazables por decadas",
+          "Diseno plegable con bolsa incluida probado en estudios broadcast",
+          "Diseno cerrado proporciona excelente aislamiento para tracking",
+          "Graves controlados no sangran en medios facilitando decisiones mezcla"
+        ],
+        "cons": [
+          "Earpads shallower than modern competition causing ear contact with driver for larger ears",
+          "Non-detachable cable cannot be replaced if damaged requires soldering repair",
+          "Clamping force higher than average uncomfortable for glasses wearers",
+          "Folded treble peak around 10kHz causes listening fatigue on brighter recordings"
+        ],
+        "cons_es": [
+          "Almohadillas mas superficiales causando contacto oreja con driver",
+          "Cable no desmontable no se puede reemplazar requiere soldadura",
+          "Presion sujecion alta incomoda para usuarios lentes",
+          "Pico agudos 10kHz causa fatiga auditiva en grabaciones brillantes"
+        ]
+      }
     ]
   },
   {
@@ -8003,6 +8809,68 @@
       "budget-mics",
       "sm57-vs-sm58",
       "re20-vs-sm7b"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Shure SM7B",
+        "name_es": "Shure SM7B",
+        "pros": [
+          "Dynamic capsule handles high SPL from screams and loud sources without distortion or clipping what condenser mics could not survive",
+          "Built-in presence boost and bass roll-off switches tailor frequency response to voice without external EQ",
+          "Cardioid pattern with excellent rear rejection captures minimal room sound reducing need for treated acoustics",
+          "Internal air suspension shock mount eliminates handling noise without external suspension hardware required",
+          "Treated leatherette grille minimizes explosive plosives without separate pop filter needed"
+        ],
+        "pros_es": [
+          "Capusula dinamica maneja alto SPL sin distorsion que condensadores no sobrevivirian",
+          "Interruptores presencia y corte graves personalizan respuesta sin EQ externo",
+          "Patron cardioide con rechazo trasero excelente minimiza sonido sala",
+          "Suspension interna elimina ruido manipulacion sin hardware adicional",
+          "Rejilla cuero minimiza explosivas sin filtro pop separado"
+        ],
+        "cons": [
+          "Requires inline preamp booster like Cloudlifter or FetHead to achieve adequate gain with most audio interfaces",
+          "Heavy 1.3kg needs sturdy boom arm cannot use standard mic stand without sagging",
+          "Limited frequency response above 10kHz lacks air and sparkle of condensers",
+          "Bulky size difficult to position in tight spaces or behind pop filters"
+        ],
+        "cons_es": [
+          "Requiere booster preamplificador como Cloudlifter para ganancia adecuada",
+          "Pesado 1.3kg necesita brazo robusto se hunde en soporte estandar",
+          "Respuesta frecuencia limitada sobre 10kHz carece de aire",
+          "Tamano voluminoso dificil posicionar en espacios estrechos"
+        ]
+      },
+      {
+        "name": "Rode NT1",
+        "name_es": "Rode NT1",
+        "pros": [
+          "Exceptionally low self-noise of 4.5dBA quieter than any other condenser under $500 capturing subtle details SM7B misses entirely",
+          "Extended high-frequency response captures air brilliance and transient detail that dynamics cannot reproduce",
+          "Included shock mount pop filter and XLR cable deliver complete package worth over $100 separately",
+          "Lightweight 437g on standard mic stand with no boom arm sagging issues",
+          "Cardioid with wide frequency response versatile for vocals acoustic guitar and overheads"
+        ],
+        "pros_es": [
+          "Ruido propio 4.5dBA el mas silencioso bajo $500 capta detalles que SM7B pierde",
+          "Respuesta alta frecuencia captura aire y brillo que dinamicos no pueden",
+          "Incluye soporte anti-vibracion filtro pop y cable XLR paquete completo",
+          "Ligero 437g en soporte estandar sin problemas de caida",
+          "Cardioide respuesta frecuencia amplia versatil para voces guitarra y overheads"
+        ],
+        "cons": [
+          "Captures every room sound including HVAC fans and traffic requiring treated acoustic space",
+          "No built-in shock mount supplied external shock mount adds bulk to setup",
+          "Sibilance can be harsh on bright singers without de-esser in post",
+          "Pop filter always necessary no built-in protection like SM7B grille design"
+        ],
+        "cons_es": [
+          "Captura todo sonido sala incluyendo HVAC y trafico requiere tratamiento acustico",
+          "Sin soporte anti-vibracion incorporado el incluido anade volumen",
+          "Sibilancias pueden ser asperas en cantantes brillantes sin de-esser",
+          "Filtro pop siempre necesario sin proteccion incorporada como SM7B"
+        ]
+      }
     ]
   },
   {
@@ -8216,6 +9084,68 @@
       "stage-mics",
       "sm57-vs-sm58",
       "budget-mics"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Shure SM57",
+        "name_es": "Shure SM57",
+        "pros": [
+          "Tight cardioid pattern with controlled proximity effect reduces bleed from adjacent drums making gating easier",
+          "Flat frequency response from 200Hz-7kHz captures snare crack without hyped lows or highs for natural sound",
+          "Extremely durable withstands drum stick hits and drops that would destroy condenser microphones",
+          "Inexpensive enough to buy multiple units for tom miking same price as one condenser",
+          "Compact size fits in tight drum kit positions between cymbal stands and racks"
+        ],
+        "pros_es": [
+          "Patron cardioide ajustado reduce fuga de tambores adyacentes facilitando gating",
+          "Respuesta plana 200Hz-7kHz captura chasquido caja sin graves o agudos exagerados",
+          "Extremadamente durable soporta golpes de baqueta que destruirian condensadores",
+          "Suficientemente economico para multiples unidades mismo precio que un condensador",
+          "Tamano compacto encaja en posiciones apretadas de bateria"
+        ],
+        "cons": [
+          "Narrow frequency response lacks low-end weight and high-frequency air for full instrument capture",
+          "Lower output than MD 421 requires more preamp gain introducing noise from budget interfaces",
+          "The clip-on stand mount is notoriously unreliable mics fall off with vibration",
+          "Prone to handling noise transmitted through body requires careful boom positioning"
+        ],
+        "cons_es": [
+          "Respuesta frecuencia estrecha carece peso graves y aire agudos",
+          "Salida mas baja que MD 421 requiere mas ganancia preamplificador introduciendo ruido",
+          "Soporte clip es notoriamente poco fiable microfonos caen con vibracion",
+          "Propenso a ruido manipulacion transmite a traves del cuerpo"
+        ]
+      },
+      {
+        "name": "Sennheiser MD 421-II",
+        "name_es": "Sennheiser MD 421-II",
+        "pros": [
+          "Five-position bass roll-off switch tailors low-end response for different drum sizes from floor toms to kicks",
+          "Wider frequency response 30Hz-17kHz captures more instrument body and presence than SM57 across more sources",
+          "Higher output level drives preamps harder with better signal-to-noise ratio than SM57",
+          "Integrated dynamic capsule with larger diaphragm captures low-end weight better on toms and guitar cabs",
+          "Vented grille design reduces proximity effect buildup for consistent sound at any distance"
+        ],
+        "pros_es": [
+          "Interruptor graves 5 posiciones ajusta respuesta para diferentes tambores",
+          "Respuesta frecuencia mas amplia captura mas cuerpo y presencia que SM57",
+          "Nivel salida mas alto maneja preamplificadores con mejor relacion S/N",
+          "Diafragma mas grande captura peso graves mejor en toms y gabinetes guitarra",
+          "Diseno rejilla ventilada reduce efecto proximidad sonido consistente"
+        ],
+        "cons": [
+          "Uniquely large and bulky body does not fit standard mic clips the included clamp is bulky",
+          "Distinctive barrel shape makes positioning in tight drum kits difficult compared to slender SM57",
+          "Heavier than SM57 causing boom arm droop without counterbalance",
+          "Higher price point over 2x SM57 cost per channel for multi-mic setups"
+        ],
+        "cons_es": [
+          "Cuerpo grande y voluminoso no encaja en clips estandar",
+          "Forma barril distintiva dificulta posicionamiento en baterias apretadas vs SM57",
+          "Mas pesado que SM57 causa caida brazo sin contrapeso",
+          "Precio mas alto mas de 2x costo SM57 por canal"
+        ]
+      }
     ]
   },
   {
@@ -8429,6 +9359,68 @@
       "tube-ribbon-mics",
       "stage-mics",
       "re20-vs-sm7b"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "AKG C414 XLII",
+        "name_es": "AKG C414 XLII",
+        "pros": [
+          "Four switchable polar patterns omni cardioid figure-8 and wide cardioid adapt to any source without changing microphones",
+          "Three selectable attenuation pads -6 -12 -18dB handle SPL up to 158dB for loud guitar cabs before clipping",
+          "Three bass-cut filter positions 40Hz 80Hz 160Hz reduce low-end rumble without external HPF",
+          "Dual 1-inch gold-sputtered capsules produce open airy top-end with detail on vocals and acoustic instruments",
+          "Built-in switchable pre-attenuation allows close-miking brass and drums without distortion"
+        ],
+        "pros_es": [
+          "Cuatro patrones polares intercambiables omnidireccional cardioide figura-8 y cardioide ancho",
+          "Tres pads atenuacion seleccionables -6 -12 -18dB manejan SPL hasta 158dB",
+          "Tres filtros corte graves 40Hz 80Hz 160Hz sin HPF externo",
+          "Doble capsula dorada 1 pulgada produce agudos abiertos y detalle",
+          "Preatenuacion incorporada permite microfonear metales y bateria sin distorsion"
+        ],
+        "cons": [
+          "Lacks the legendary midrange character and vocal smoothness that Neumann U87 is famous for",
+          "Self-noise 13dBA is higher than U87 making it less ideal for quiet sources",
+          "Rubber suspension mount degrades over time sagging capsules not level",
+          "Cannot replicate the exact transformer-based saturation of vintage U87 designs"
+        ],
+        "cons_es": [
+          "Carece del caracter legendario medios y suavidad vocal del U87",
+          "Ruido propio 13dBA mas alto que U87 menos ideal para fuentes tranquilas",
+          "Soporte suspension goma se degrada con tiempo capsulas desniveladas",
+          "No puede replicar saturacion transformador de disenos U87 vintage"
+        ]
+      },
+      {
+        "name": "Neumann U87 Ai",
+        "name_es": "Neumann U87 Ai",
+        "pros": [
+          "Industry-standard vocal microphone with polished midrange that flatters voices with natural compression-like character",
+          "Three polar patterns with -10dB pad extend versatility without compromising the signature Neumann sound",
+          "Transformer-balanced output provides analog saturation curve that adds musicality to recorded tracks",
+          "Proven durability with units from 1960s still in daily operation at top studios",
+          "Relatively flat response with gentle presence rise produces mix-ready tracks with minimal EQ"
+        ],
+        "pros_es": [
+          "Microfono vocal estandar industria con medios que favorecen voces con compresion natural",
+          "Tres patrones polares con pad -10dB sin comprometer sonido Neumann",
+          "Salida transformador proporciona saturacion analogica musical",
+          "Durabilidad probada unidades 1960s aun operan diariamente en mejores estudios",
+          "Respuesta plana con elevacion presencia produce pistas listas para mezcla con minimo EQ"
+        ],
+        "cons": [
+          "Premium price over 3x the C414 cost prohibitive for home studios on budget",
+          "Requires high-quality preamp to unlock full potential sounds mediocre through budget interfaces",
+          "Heavy mounting system needs robust boom arm cannot use lightweight stands",
+          "Vintage units vary significantly in frequency response and output level between individual microphones"
+        ],
+        "cons_es": [
+          "Precio premium mas de 3x costo C414 prohibitivo para estudios caseros",
+          "Requiere preamplificador alta calidad para potencial completo suena mediocre en interfaces economicas",
+          "Sistema montaje pesado necesita brazo robusto",
+          "Unidades vintage varian significativamente en respuesta entre microfonos individuales"
+        ]
+      }
     ]
   },
   {
@@ -8642,6 +9634,68 @@
       "stage-mics",
       "sm7b-vs-nt1",
       "sm57-vs-sm58"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Electro-Voice RE20",
+        "name_es": "Electro-Voice RE20",
+        "pros": [
+          "Variable-D design eliminates proximity effect entirely maintaining consistent bass regardless of distance from mic",
+          "Hum-bucking coil cancels electromagnetic interference from monitors and power sources in untreated rooms",
+          "Extended frequency response 45Hz-18kHz captures more air and presence than SM7B for spoken word",
+          "Signature rear grille design makes the RE20 visually iconic for radio and podcast video appearances",
+          "Large steel body construction withstands years of broadcast studio daily use without degradation"
+        ],
+        "pros_es": [
+          "Diseno Variable-D elimina efecto proximidad mantiene graves consistentes",
+          "Bobina hum-bucking cancela interferencia electromagnetica de monitores",
+          "Respuesta frecuencia extendida 45Hz-18kHz captura mas presencia que SM7B",
+          "Diseno rejilla trasera iconico para apariciones video radio y podcast",
+          "Construccion acero grande soporta anos de uso diario broadcast"
+        ],
+        "cons": [
+          "Heavy 1.5kg needs robust boom arm and cannot be used on standard desk mic stands",
+          "Requires more gain than SM7B typically needs Cloudlifter even with premium interfaces",
+          "Bulky body difficult to position behind pop filters or in tight broadcast setups",
+          "Limited to broadcast vocal use less versatile for instruments than SM7B"
+        ],
+        "cons_es": [
+          "Pesado 1.5kg necesita brazo robusto no usable en soportes escritorio estandar",
+          "Requiere mas ganancia que SM7B tipicamente necesita Cloudlifter",
+          "Cuerpo voluminoso dificil posicionar detras de filtros pop",
+          "Limitado a voz broadcast menos versatil para instrumentos que SM7B"
+        ]
+      },
+      {
+        "name": "Shure SM7B",
+        "name_es": "Shure SM7B",
+        "pros": [
+          "Built-in presence boost and bass roll-off switches let you dial in voice character without external processing",
+          "Air suspension shock mount integrated into body eliminates handling noise rejection superior to RE20",
+          "Smaller lighter form factor easier to position on boom arms in tight spaces",
+          "Lower gain requirement than RE20 works better with entry-level audio interfaces",
+          "Better rear rejection than RE20 captures less room sound for untreated home studios"
+        ],
+        "pros_es": [
+          "Interruptores presencia y corte graves permiten ajustar caracter voz sin procesamiento externo",
+          "Suspension aire incorporada elimina ruido manipulacion superior a RE20",
+          "Forma mas pequena y ligera facil de posicionar en espacios estrechos",
+          "Menor requisito ganancia que RE20 funciona mejor con interfaces entrada",
+          "Mejor rechazo trasero que RE20 captura menos sonido sala"
+        ],
+        "cons": [
+          "Variable proximity effect means inconsistent bass when you move on and off axis during recording",
+          "Frequency response rolls off above 10kHz losing air and sparkle present in RE20",
+          "Not as visually recognizable for video podcast appearances as the iconic RE20",
+          "Lacks hum-bucking coil making it more susceptible to monitor interference"
+        ],
+        "cons_es": [
+          "Efecto proximidad variable significa graves inconsistentes al moverse",
+          "Respuesta frecuencia cae sobre 10kHz perdiendo aire y brillo",
+          "No tan reconocible visualmente para apariciones video como RE20",
+          "Carece bobina hum-bucking mas susceptible a interferencia monitores"
+        ]
+      }
     ]
   },
   {
@@ -8852,6 +9906,68 @@
       "stage-wireless",
       "stage-mics",
       "live-sound-pa"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Sennheiser EW 100 G4",
+        "name_es": "Sennheiser EW 100 G4",
+        "pros": [
+          "True diversity receiver with two antennas eliminates dropouts in RF-crowded venues with multipath interference",
+          "Up to 42MHz switching bandwidth across UHF range provides flexibility finding clean frequencies anywhere",
+          "Auto-scan finds and locks to cleanest frequency instantly even in hostile RF environments",
+          "Ethernet connection allows remote monitoring and frequency coordination through Sennheiser Control Cockpit",
+          "Build quality with metal receiver chassis withstands tour rack abuse over years"
+        ],
+        "pros_es": [
+          "Receptor diversidad verdadera dos antenas elimina cortes en RF congestionada",
+          "Ancho banda conmutacion 42MHz UHF proporciona flexibilidad en frecuencias limpias",
+          "Auto-scan encuentra y bloquea frecuencia mas limpia al instante",
+          "Conexion Ethernet permite monitoreo remoto y coordinacion frecuencias",
+          "Chasis receptor metalico soporta abuso rack de gira por anos"
+        ],
+        "cons": [
+          "Transmitter battery compartment latch feels flimsy can break open during active stage performance",
+          "No USB-C charging transmitter uses AA batteries requiring disposable battery inventory",
+          "Limited to 12 compatible channels per frequency bank fewer than ULX-D",
+          "Menu navigation with jog wheel is slower than Shure ULX-D interface"
+        ],
+        "cons_es": [
+          "Pestana compartimento baterias fragil puede abrirse durante presentacion",
+          "Sin carga USB-C transmisor usa baterias AA requiriendo inventario",
+          "Limitado a 12 canales compatibles por banco frecuencia menos que ULX-D",
+          "Navegacion menu con rueda mas lenta que interfaz Shure ULX-D"
+        ]
+      },
+      {
+        "name": "Shure ULX-D",
+        "name_es": "Shure ULX-D",
+        "pros": [
+          "Digital transmission with 24-bit/48kHz audio quality eliminates compander artifacts and noise floor of analog systems",
+          "SB900 rechargeable battery provides 9+ hours continuous use with precision metering down to the minute remaining",
+          "Encryption standard AES-256 ensures confidential transmissions in corporate and government settings",
+          "Wide 88MHz tuning range covers entire UHF band for maximum flexibility across any region",
+          "Higher channel count up to 17 compatible channels in single band for large productions"
+        ],
+        "pros_es": [
+          "Transmision digital 24-bit/48kHz elimina artefactos compander y ruido analogicos",
+          "Bateria recargable SB900 proporciona 9+ horas con medidor precision minuto",
+          "Encriptacion AES-256 asegura transmisiones confidenciales corporativas",
+          "Rango sintonizacion 88MHz cubre banda UHF completa maxima flexibilidad",
+          "Mayor recuento canales hasta 17 compatibles en banda unica grandes producciones"
+        ],
+        "cons": [
+          "Premium price significantly higher than EW 100 G4 for equivalent channel count",
+          "Digital transmission has slightly different latency profile musicians notice compared to analog",
+          "Proprietary charging dock system must be purchased separately adding overall system cost",
+          "AES-256 encryption not usable in all countries due to import restrictions"
+        ],
+        "cons_es": [
+          "Precio premium significativamente mas alto que EW 100 G4 por recuento canales",
+          "Transmision digital perfil latencia diferente musicos notan vs analogo",
+          "Sistema carga dock propietario debe adquirirse separadamente",
+          "Encriptacion AES-256 no utilizable en todos los paises"
+        ]
+      }
     ]
   },
   {
@@ -9065,6 +10181,68 @@
       "stage-wireless",
       "dxr-vs-prx",
       "stage-mics"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "JBL PRX812W",
+        "name_es": "JBL PRX812W",
+        "pros": [
+          "JBL Differential Drive dual-coil dual-gap woofer provides extended low-frequency output from compact enclosure",
+          "1.5-inch annular polymer diaphragm compression driver delivers clear high-frequency reproduction without harshness",
+          "Class-D amplifier with 1500W peak power provides clean headroom for large venues without external amplification",
+          "Wi-Fi control via JBL Pro Connect app allows tuning EQ and delay from phone",
+          "DuraFlex coated plywood enclosure more durable than plastic PRX models for touring"
+        ],
+        "pros_es": [
+          "Woofer Differential Drive bobina dual proporciona salida graves extendida",
+          "Driver compresion 1.5 pulgadas proporciona reproduccion alta frecuencia clara sin aspereza",
+          "Amplificador Clase-D 1500W pico proporciona headroom limpio sin amplificacion externa",
+          "Control Wi-Fi via app JBL Pro Connect permite ajustar EQ y delay",
+          "Gabinete contrachapado recubierto DuraFlex mas durable que plasticos"
+        ],
+        "cons": [
+          "Heavy at 38.5lbs heavier than K Series competitors for same power class",
+          "No DSP presets for specific microphone placements must be configured manually",
+          "Bluetooth streaming only through optional module not built-in",
+          "App connection can be unreliable in Wi-Fi congested venue environments"
+        ],
+        "cons_es": [
+          "Pesado 38.5lbs mas que competidores K Series misma clase potencia",
+          "Sin presets DSP para colocaciones microfono especificas configuracion manual",
+          "Bluetooth solo mediante modulo opcional no incorporado",
+          "Conexion app puede ser poco fiable en entornos Wi-Fi congestionados"
+        ]
+      },
+      {
+        "name": "QSC K12.2",
+        "name_es": "QSC K12.2",
+        "pros": [
+          "Deep Mode DSP tuning extends low-frequency output 4Hz below standard mode for extra sub-bass",
+          "Built-in automatic feedback suppression eliminates ringing during live events without manual notching",
+          "DMT directional horn with 75x75 degree coverage provides consistent pattern control across listening area",
+          "Lightweight 35lbs in ABS enclosure easier to transport and pole-mount than heavier PRX",
+          "GP2 amplifier module delivers up to 2000W peak with clip limiting and thermal protection"
+        ],
+        "pros_es": [
+          "Deep Mode DSP extiende salida graves 4Hz debajo modo estandar",
+          "Supresion retroalimentacion automatica elimina aullido sin notch manual",
+          "Bocina DMT direccional 75x75 proporciona control patron consistente",
+          "Ligero 35lbs ABS mas facil transportar y montar que PRX",
+          "Modulo amplificador GP2 2000W pico con limitacion clip y proteccion termica"
+        ],
+        "cons": [
+          "ABS plastic enclosure less durable than plywood PRX for repeated touring and loading",
+          "No built-in Wi-Fi control only QSC TouchMix app via Ethernet connection",
+          "Tweeter lacks the extended top-end detail of PRX compression driver design",
+          "Higher price point than PRX812W for similar power and output class"
+        ],
+        "cons_es": [
+          "Gabinete ABS plastico menos durable que PRX contrachapado para giras",
+          "Sin control Wi-Fi incorporado solo app TouchMix via Ethernet",
+          "Tweeter carece detalle agudos extendido de diseno driver compresion PRX",
+          "Precio mas alto que PRX812W para clase similar potencia y salida"
+        ]
+      }
     ]
   },
   {
@@ -9278,6 +10456,68 @@
       "stage-wireless",
       "zlx-vs-k12",
       "stage-mics"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Yamaha DXR10",
+        "name_es": "Yamaha DXR10",
+        "pros": [
+          "FIR-X tuning from Yamaha flagship CL5 console provides precision DSP filtering for coherent crossover",
+          "D-Contour multi-band compressor intelligently adjusts processing based on output level for consistent tone",
+          "90x60 horn coverage yields controlled dispersion reducing wall reflections in medium rooms",
+          "Weight 29lbs lighter than PRX710 for easier transport and mounting",
+          "Built-in 3-channel mixer with mic/line inputs useful for solo acoustic performances without separate console"
+        ],
+        "pros_es": [
+          "FIR-X de consola CL5 proporciona filtrado DSP precision para crossover coherente",
+          "D-Contour compresor multibanda ajusta procesamiento segun nivel salida",
+          "Cobertura bocina 90x60 dispersion controlada reduce reflejos pared",
+          "Peso 29lbs mas ligero que PRX710 para transporte facil",
+          "Mezclador 3 canales incorporado util para presentaciones acusticas sin consola"
+        ],
+        "cons": [
+          "ABS plastic cabinet less durable than PRX plywood construction for touring abuse",
+          "Bass roll-off noticeable below 60Hz limited for electronic dance music without subwoofer",
+          "Handle is attached to horn section focus vibrations transmit through cabinet",
+          "No Bluetooth streaming built-in unlike newer competitors"
+        ],
+        "cons_es": [
+          "Gabinete ABS plastico menos durable que PRX contrachapado",
+          "Caida graves notable bajo 60Hz limitado para musica electronica sin subwoofer",
+          "Asa unida a seccion bocina vibraciones transmiten a traves gabinete",
+          "Sin Bluetooth incorporado como competidores recientes"
+        ]
+      },
+      {
+        "name": "JBL PRX710",
+        "name_es": "JBL PRX710",
+        "pros": [
+          "Plywood enclosure with DuraFlex coating more durable than plastic DXR for repeated touring and loading",
+          "Differential Drive dual-coil woofer delivers higher output with lower power compression than single-coil designs",
+          "Crown-designed Class-D amplification provides proven reliability from industry leader in power amplifiers",
+          "Integral pole mount socket reinforced for heavy speakers reducing sagging at height",
+          "Standard M10 suspension points for flown installation permanent venues"
+        ],
+        "pros_es": [
+          "Gabinete contrachapado DuraFlex mas durable que plastico DXR para giras",
+          "Woofer bobina dual entrega mayor salida con menor compresion potencia que bobina simple",
+          "Amplificacion Clase-D diseno Crown confiabilidad lider industria",
+          "Soporte poste reforzado reduce caida en altura",
+          "Puntos suspension M10 estandar para instalacion colgada permanente"
+        ],
+        "cons": [
+          "Heavier 34lbs than DXR10 making pole mounting and transport more physically demanding",
+          "Limited digital connectivity no Dante or network audio for installed systems",
+          "No onboard mixer for solo performances must bring separate console for mic input",
+          "Average coverage pattern lacks sophisticated waveguide of DXR FIR tuning"
+        ],
+        "cons_es": [
+          "Mas pesado 34lbs que DXR10 montaje poste y transporte mas exigente",
+          "Conectividad digital limitada sin Dante ni audio red para sistemas instalados",
+          "Sin mezclador incorporado debe llevar consola separada",
+          "Patron cobertura promedio carece guia onda sofisticada de DXR"
+        ]
+      }
     ]
   },
   {
@@ -9505,6 +10745,68 @@
       "beginner-guitar",
       "american-pro-vs-les-paul",
       "martin-d28-vs-taylor-314"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Fender Player Stratocaster",
+        "name_es": "Fender Player Stratocaster",
+        "pros": [
+          "Iconic Stratocaster body shape and headstock design with 40+ years of recorded history across all genres",
+          "Two-point tremolo with bent steel saddles provides stable vibrato and tuning return better than vintage 6-screw",
+          "Alnico V pickups produce the classic Fender chime and bell-like clean tones Pacifica cannot replicate",
+          "C-shaped maple neck with 9.5-inch radius feels familiar to players who learned on Fender instruments",
+          "Massive aftermarket upgrade community pickups pickguards electronics from dozens of brands"
+        ],
+        "pros_es": [
+          "Forma cuerpo Stratocaster iconica 40+ anos historia grabada todos generos",
+          "Tremolo dos puntos estable con selletas acero proporciona vibrato estable",
+          "Pastillas Alnico V producen timbre clasico Fender que Pacifica no replica",
+          "Mastil C arce radio 9.5 pulgadas familiar para musicos Fender",
+          "Gran comunidad aftermarket upgrades pastillas guardas electronicas"
+        ],
+        "cons": [
+          "Price nearly double Pacifica 112V for equivalent feature set",
+          "Fret ends can be sharp on factory instruments requiring fret end dressing",
+          "Standard tuning machines are mediocre slip under heavy vibrato use",
+          "Pickups lack clarity under high-gain settings can sound muddy"
+        ],
+        "cons_es": [
+          "Precio casi doble que Pacifica 112V por conjunto caracteristicas equivalente",
+          "Extremos trastes afilados en instrumentos fabrica requieren limado",
+          "Clavijas estandar mediocres patinan bajo vibrato intenso",
+          "Pastillas carecen claridad bajo alta ganancia pueden sonar embarradas"
+        ]
+      },
+      {
+        "name": "Yamaha Pacifica 112V",
+        "name_es": "Yamaha Pacifica 112V",
+        "pros": [
+          "Humbucker bridge pickup provides thicker high-gain tone and noise rejection absent in Player Strat single-coils",
+          "Alder body same wood as Player Strat costs half the price comes with gig bag included",
+          "Neck heel contour provides easier upper-fret access on 21st and 22nd frets for lead players",
+          "Spermy-style die-cast tuning machines hold tuning better than Player Strat standard tuners",
+          "Push-pull coil split on humbucker offers single-coil bridge tone extra versatility"
+        ],
+        "pros_es": [
+          "Pastilla humbucker puente tono grueso alta ganancia ausente en Player Strat bobina simple",
+          "Cuerpo alder misma madera que Player Strat mitad precio incluye funda",
+          "Contorno talon mastil proporciona acceso facil trastes superiores",
+          "Clavijas fundicion Spermy estilo mantienen afinacion mejor que Player Strat",
+          "Division bobina humbucker ofrece tono bobina simple versatilidad extra"
+        ],
+        "cons": [
+          "Pickups generics lack the character and definition of Fender alnico pickups",
+          "Resale value significantly lower than Fender Stratocaster on used market",
+          "Headstock shape lacks prestige recognition of Fender brand for gigging appearances",
+          "Stock tremolo system cheaper design tuning stability suffers with heavy use"
+        ],
+        "cons_es": [
+          "Pastillas genericas carecen caracter y definicion de pastillas Fender alnico",
+          "Valor reventa significativamente menor que Fender Stratocaster",
+          "Forma mastil carece reconocimiento prestigio marca Fender",
+          "Sistema tremolo stock diseno mas economico estabilidad afinacion sufre"
+        ]
+      }
     ]
   },
   {
@@ -9732,6 +11034,68 @@
       "fender-guide",
       "player-strat-vs-pacifica",
       "guitar-bass-amps"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Fender American Professional II Stratocaster",
+        "name_es": "Fender American Professional II Stratocaster",
+        "pros": [
+          "V-Mod II pickups voiced specifically for each position produce cohesive sound with Alnico 2 in neck for warmth",
+          "Deep C neck carve with rolled fingerboard edges feels broken-in directly from factory",
+          "Treble bleed circuit maintains high-end clarity when rolling back volume knob for solos",
+          "Sculpted neck heel provides smooth access to upper frets without blocky heel",
+          "Pop-in tremolo arm simplifies installation and removal without tools compared to vintage screw-in"
+        ],
+        "pros_es": [
+          "Pastillas V-Mod II con voz especifica para cada posicion producen sonido cohesivo",
+          "Mastil Deep C con bordes enrollados se siente ya usado de fabrica",
+          "Circuito treble bleed mantiene claridad agudos al bajar volumen para solos",
+          "Talon esculpido proporciona acceso suave a trastes superiores",
+          "Palanca tremolo pop-in simplifica instalacion sin herramientas"
+        ],
+        "cons": [
+          "Bridge single-coil hums under high-gain at volumes louder than neck and middle positions",
+          "Weight 7.5-8.5lbs heavier than Les Paul Standard 50s despite common belief Fenders are light",
+          "Standard 9.5-inch radius feels rounder than modern 12-16 compound profiles for bending",
+          "Price point approaches Les Paul territory within $200 difference"
+        ],
+        "cons_es": [
+          "Bobina simple puente zumba bajo alta ganancia mas que posiciones mastil y media",
+          "Peso 7.5-8.5lbs mas pesado que Les Paul Standard 50s",
+          "Radio 9.5 pulgadas estandar se siente mas redondo que perfiles compuestos modernos",
+          "Precio se acerca a territorio Les Paul dentro $200 diferencia"
+        ]
+      },
+      {
+        "name": "Gibson Les Paul Standard 50s",
+        "name_es": "Gibson Les Paul Standard 50s",
+        "pros": [
+          "Burlebucker 1 and 2 pickups reproduce authentic PAF tones with Alnico 2 magnets for legendary warmth",
+          "24-fret 12-inch radius ebony fingerboard provides smooth bending across entire neck without fretting out",
+          "Mahogany body with maple top produces the iconic thick rounded tone no Stratocaster can replicate",
+          "Tune-o-matic bridge and stopbar tailpiece provide superior sustain and tuning stability over tremolo",
+          "Thicker 50s neck carve fills the hand for rhythm players preferring substantial feel"
+        ],
+        "pros_es": [
+          "Pastillas Burlebucker 1 y 2 reproducen tonos PAF autenticos con Alnico 2",
+          "24 trastes radio 12 pulgadas diapason ebano proporciona bending suave",
+          "Cuerpo caoba con tapa arce produce tono grueso iconico",
+          "Puente Tune-o-matic y cola stopbar proporcionan sustain superior sobre tremolo",
+          "Mastil grueso 50s llena mano para ritmo prefiriendo sensacion sustancial"
+        ],
+        "cons": [
+          "Heavy body 9-10lbs causes shoulder fatigue during extended standing performances",
+          "Neck heavy design leads to guitar balance diving when played without strap",
+          "Higher price than American Professional II Stratocaster",
+          "Headstock break risk higher than Fender due to angled headstock design"
+        ],
+        "cons_es": [
+          "Cuerpo pesado 9-10lbs causa fatiga hombro durante presentaciones largas de pie",
+          "Diseno mastil pesado guitarra se desequilibra sin correa",
+          "Precio mas alto que American Professional II Stratocaster",
+          "Riesgo rotura mastil mayor que Fender por diseno angulado"
+        ]
+      }
     ]
   },
   {
@@ -9945,6 +11309,68 @@
       "best-electric-guitar",
       "player-strat-vs-pacifica",
       "beginner-guitar"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Martin D-28",
+        "name_es": "Martin D-28",
+        "pros": [
+          "Dreadnought body design invented by Martin produces the iconic booming bass projection that defined acoustic music",
+          "Sitka spruce top with East Indian rosewood back and sides provides rich overtones complex harmonic content",
+          "Forward-shifted X-bracing pattern developed over 100 years of refinement projects sound with authority",
+          "Herringbone purfling and tortoiseshell pickguard deliver the classic acoustic aesthetic",
+          "Hold value exceptionally well vintage D-28s appreciate 10-15% annually"
+        ],
+        "pros_es": [
+          "Diseno cuerpo dreadnought inventado por Martin produce proyeccion graves iconica",
+          "Tapa picea Sitka con fondo y aros palo santo India proporciona armonicos ricos y complejos",
+          "Patron refuerzo X adelantado desarrollado sobre 100 anos refina proyeccion sonido",
+          "Filete herringbone y golpeador carey entregan estetica acustica clasica",
+          "Mantienen valor excepcionalmente D-28 vintage aprecian 10-15% anual"
+        ],
+        "cons": [
+          "Dreadnought body size uncomfortable for smaller players seated or standing extended periods",
+          "Rosewood back produces darker tone that sits less clearly in dense mixes than mahogany",
+          "Neck width 1-11/16 inches feels narrow for fingerstyle players requiring wider string spacing",
+          "Higher price point significantly more than Taylor 314 for equivalent series"
+        ],
+        "cons_es": [
+          "Tamano cuerpo dreadnought incomodo para musicos pequenos periodos prolongados",
+          "Fondo palo santo produce tono oscuro menos claro en mezclas densas que caoba",
+          "Ancho mastil 1-11/16 pulgadas estrecho para fingerstyle",
+          "Precio mas alto significativamente que Taylor 314 para serie equivalente"
+        ]
+      },
+      {
+        "name": "Taylor 314ce",
+        "name_es": "Taylor 314ce",
+        "pros": [
+          "Grand Auditorium body shape smaller than dreadnought comfortable for all-day playing sessions",
+          "Sapele back and sides provide focused midrange that cuts through mix without low-end muddiness",
+          "Taylor Expression System 2 pickup reproduces acoustic tone accurately for live amplification",
+          "Venetian cutaway provides upper-fret access up to 18th fret unavailable on D-28",
+          "ES2 volume and tone controls on board no external DI needed for stage performance"
+        ],
+        "pros_es": [
+          "Forma cuerpo Grand Auditorium mas pequena que dreadnought comoda todo el dia",
+          "Fondo y aros sapele proporcionan medios enfocados que cortan mezcla",
+          "Pastilla Taylor Expression System 2 reproduce tono acustico preciso para amplificacion",
+          "Cutaway veneciano proporciona acceso trastes superiores hasta 18",
+          "Controles volumen y tono ES2 incorporados sin DI externo necesitado"
+        ],
+        "cons": [
+          "Sapele lacks the harmonic complexity and projection of Martin D-28 rosewood",
+          "Grand Auditorium body lacks dreadnought bass authority for bluegrass flatpicking",
+          "Expression System 2 still sounds slightly processed compared to high-end external microphone setups",
+          "Resale value depreciates faster than Martin D-28 on used market"
+        ],
+        "cons_es": [
+          "Sapele carece complejidad armonica y proyeccion de palo santo D-28",
+          "Cuerpo GA carece autoridad graves dreadnought para flatpicking bluegrass",
+          "ES2 suena ligeramente procesado comparado con configuraciones microfono externo alta calidad",
+          "Valor reventa se deprecia mas rapido que Martin D-28"
+        ]
+      }
     ]
   },
   {
@@ -10156,6 +11582,68 @@
       "beat-making",
       "best-keyboard",
       "pro-tools-vs-cubase"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Ableton Live 11 Suite",
+        "name_es": "Ableton Live 11 Suite",
+        "pros": [
+          "Session View clip launching nonlinear arrangement revolutionizes electronic composition workflow for loop-based production",
+          "Warp engine time-stretches audio without artifacts maintaining pitch while tempo changes freely",
+          "Max for Live integrated environment extends DAW with custom instruments effects and tools",
+          "Built-in audio-to-MIDI conversion extracts chords and melodies from recorded audio into MIDI patterns",
+          "Racks system chains layers and macros provide instant sound design without writing automation"
+        ],
+        "pros_es": [
+          "Session View lanzamiento clips no lineal revoluciona composicion electronica loop",
+          "Motor Warp estira tiempo audio sin artefactos manteniendo tono",
+          "Max for Live extiende DAW con instrumentos personalizados efectos y herramientas",
+          "Conversion audio-a-MIDI extrae acordes y melodias de audio grabado",
+          "Sistema Racks cadenas capas macros proporcionan diseno sonido instantaneo sin automatizacion"
+        ],
+        "cons": [
+          "Piano roll lacks FL Studio pattern-based workflow and sliding note manipulation",
+          "Arrangement View copy/paste workflow less intuitive than FL Studio pattern cloning",
+          "Mixing on session faders was historically limited to 8 returns no per-channel inserts initially",
+          "Price Suite edition expensive for producers who only need basic recording features"
+        ],
+        "cons_es": [
+          "Piano roll carece flujo trabajo patrones y manipulacion notas deslizantes de FL",
+          "Vista Arrangement copiar/pegar menos intuitivo que duplicacion patrones FL",
+          "Mezcla faders sesion limitado a 8 retornos",
+          "Precio Suite costoso para productores solo necesitan grabacion basica"
+        ]
+      },
+      {
+        "name": "FL Studio Producer Edition",
+        "name_es": "FL Studio Producer Edition",
+        "pros": [
+          "Pattern-based sequencer with step sequencer for drum programming is fastest workflow for beat production",
+          "Free lifetime updates pay once upgrade forever no paid version upgrades after initial purchase",
+          "Piano roll with slide note portamento and ghost notes is most advanced for melody manipulation in any DAW",
+          "Flexible routing mixer inserts sends and sidechain completes in three clicks without aux track creation",
+          "Stock plugin bundle Sytrus Harmless Gross Beat provides sound design tools comparable to paid VSTs"
+        ],
+        "pros_es": [
+          "Secuenciador basado patrones con step sequencer para bateria mas rapido beats",
+          "Actualizaciones gratuitas de por vida paga una vez upgrades para siempre",
+          "Piano roll con slide note portamento y notas fantasma mas avanzado",
+          "Enrutamiento mezclador flexible inserts sends sidechain en tres clics",
+          "Paquete plugins stock Sytrus Harmless Gross Beat comparable a VSTs pago"
+        ],
+        "cons": [
+          "Traditional linear timeline arrangement less intuitive than Ableton Session View for clip launching",
+          "Audio recording workflow less refined than Ableton comping audio-to-MIDI",
+          "Plugin delay compensation less accurate than Ableton for complex routing",
+          "Mac performance historically less stable than Windows counterpart affecting cross-platform users"
+        ],
+        "cons_es": [
+          "Linea tiempo lineal menos intuitiva que Session View Ableton",
+          "Flujo grabacion audio menos refinado que comping Ableton audio-a-MIDI",
+          "Compensacion delay plugin menos precisa que Ableton para routing complejo",
+          "Rendimiento Mac historicamente menos estable que Windows"
+        ]
+      }
     ]
   },
   {
@@ -10369,6 +11857,68 @@
       "best-keyboard",
       "ableton-vs-fl-studio",
       "best-drum-machine"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Avid Pro Tools Studio",
+        "name_es": "Avid Pro Tools Studio",
+        "pros": [
+          "Industry-standard for professional studios worldwide session compatibility with major facilities",
+          "Avid Audio Engine provides ultra-low latency monitoring with HDX hardware achieving sub-1ms round trip",
+          "Elastic Audio and Beat Detective offer industry-leading tempo detection time-stretching quantizing audio",
+          "Clip Gain per-region volume control without writing automation essential for dialog editing workflow",
+          "AAF and OMF import/export guarantees session exchange with video post-production facilities"
+        ],
+        "pros_es": [
+          "Estandar industria estudios profesionales compatibilidad sesiones en instalaciones principales",
+          "Avid Audio Engine proporciona monitoreo latencia ultra baja sub-1ms con HDX",
+          "Elastic Audio y Beat Detective deteccion tempo y cuantizacion audio lider industria",
+          "Clip Gain control volumen por region sin automatizacion esencial dialogos",
+          "Importacion AAF y OMF garantiza intercambio sesiones con post-produccion video"
+        ],
+        "cons": [
+          "Subscription-only model requires annual payment for continued use no perpetual license option",
+          "Stock virtual instruments limited compared to Cubase bundled HALion Groove Agent",
+          "MIDI editing workflow historically less refined than Cubase Key Editor",
+          "No built-in notation score editor requires third-party Sibelius import"
+        ],
+        "cons_es": [
+          "Modelo solo suscripcion requiere pago anual sin opcion licencia perpetua",
+          "Instrumentos virtuales stock limitados comparados HALion Groove Agent Cubase",
+          "Flujo edicion MIDI historicamente menos refinado que Key Editor Cubase",
+          "Sin editor partituras requiere importacion Sibelius terceros"
+        ]
+      },
+      {
+        "name": "Steinberg Cubase Pro 12",
+        "name_es": "Steinberg Cubase Pro 12",
+        "pros": [
+          "Key Editor provides most comprehensive MIDI editing with chord assistant scale assistant and expression maps",
+          "HALion Sonic SE 3 with 3GB sample library provides professional virtual instruments usable in productions",
+          "Audio alignment VariAudio pitch correction comparable to Melodyne for vocal tuning directly in DAW",
+          "Control Room for musician cue mixes with separate headphone mixes independent of main mix",
+          "Score editor with professional notation printing included exports parts directly to PDF"
+        ],
+        "pros_es": [
+          "Key Editor edicion MIDI mas completa con asistente acordes escalas y mapas expresion",
+          "HALion Sonic SE 3 con 3GB libreria instrumentos virtuales profesionales",
+          "Audio alignment VariAudio correccion tono comparable a Melodyne directamente en DAW",
+          "Control Room mezclas auriculares independientes para musicos",
+          "Editor partituras notacion profesional exporta partes directamente a PDF"
+        ],
+        "cons": [
+          "Less universal session compatibility studios may not open Cubase project files",
+          "Higher CPU overhead than Pro Tools on equivalent track count",
+          "Surround mixing support less comprehensive than Pro Tools for film post-production",
+          "Feature quantity can overwhelm new users interface density higher than Pro Tools"
+        ],
+        "cons_es": [
+          "Compatibilidad sesiones menor estudios pueden no abrir archivos Cubase",
+          "Mayor consumo CPU que Pro Tools en recuento pistas equivalente",
+          "Soporte mezcla surround menos completo que Pro Tools para post-produccion cine",
+          "Cantidad funciones abruma nuevos usuarios densidad interfaz alta"
+        ]
+      }
     ]
   },
   {
@@ -10594,6 +12144,68 @@
       "best-electric-guitar",
       "katana-vs-dsl",
       "fender-guide"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Fender Blues Junior IV",
+        "name_es": "Fender Blues Junior IV",
+        "pros": [
+          "EL84 power section produces classic Fender clean tones with sparkle and chime at manageable stage volumes",
+          "Lightweight 31lbs easily carried in one hand to gigs and rehearsals compared to AC30 heavy 68lbs",
+          "Master volume allows power tube saturation at low volumes for overdriven tones without deafening SPL",
+          "Simple control panel volume tone reverb and master straightforward dial-in without menus",
+          "Spring reverb tank built-in provides authentic Fender surf and blues ambience"
+        ],
+        "pros_es": [
+          "Seccion potencia EL84 produce tonos limpios clasicos Fender con brillo volumen manejable",
+          "Ligero 31lbs facil de transportar una mano a conciertos vs AC30 68lbs",
+          "Master volume permite saturacion valvulas potencia a bajo volumen",
+          "Panel control simple volumen tono reverb y master sin menus",
+          "Reverb resorte incorporada proporciona ambiente surf y blues autentico"
+        ],
+        "cons": [
+          "40-watt output too loud for home practice without attenuation below apartment-friendly volumes",
+          "Stock speaker Jensen C12N lacks definition breaks up early at moderate volumes",
+          "Only one channel no footswitchable gain/tone switching for clean to lead",
+          "Tremolo removed from IV model losing classic Fender modulation sound"
+        ],
+        "cons_es": [
+          "40 vatios demasiado ruidoso para practica casa sin atenuador",
+          "Altavoz stock Jensen C12N carece definicion se rompe temprano",
+          "Solo un canal sin conmutacion gain/tono pedal para limpio/lead",
+          "Tremolo eliminado en IV perdiendo modulacion clasica Fender"
+        ]
+      },
+      {
+        "name": "VOX AC30C2",
+        "name_es": "VOX AC30C2",
+        "pros": [
+          "Iconic chime and top-end sparkle of EF86 preamp channel provides cutting presence in band mix that Blues Junior cannot",
+          "Two channels Normal and Top Boost with independent EQ each footswitchable for clean and lead tones",
+          "12-inch Celestion Greenback speakers provide full low-end response and break up musically at moderate volume",
+          "Tremolo and spring reverb built-in both footswitchable giving more onboard effects than Blues Junior",
+          "30-watt class AB delivers power tube compression earlier than Blues Junior 40W for breakup"
+        ],
+        "pros_es": [
+          "Brillo iconico y chispa agudos preamplificador EF86 proporciona presencia que corta mezcla",
+          "Dos canales Normal y Top Boost con EQ independiente conmutables pedal",
+          "Altavoces Celestion Greenback 12 pulgadas respuesta graves completa",
+          "Tremolo y reverb resorte incorporados conmutables pedal mas efectos que Blues Junior",
+          "30 vatios clase AB entrega compresion valvulas potencia antes para ruptura"
+        ],
+        "cons": [
+          "Extremely heavy at 68lbs two-person lift required for stairs and loading into car trunk",
+          "Loud 30 watts cannot be played at bedroom levels without significant attenuation box required",
+          "Unpredictable reliability vintage-style design bias drift capacitor failure common on older units",
+          "Large cabinet footprint takes significant stage or studio floor space"
+        ],
+        "cons_es": [
+          "Extremadamente pesado 68lbs requiere dos personas para escaleras y maletero",
+          "30 vatios ruidoso no puede tocarse a nivel habitacion sin atenuador",
+          "Fiabilidad impredecible diseno vintage deriva polarizacion fallo capacitores comun",
+          "Gran huella gabinete ocupa espacio significativo escenario o estudio"
+        ]
+      }
     ]
   },
   {
@@ -10821,6 +12433,70 @@
       "best-electric-guitar",
       "blues-junior-vs-ac30",
       "guitar-pedals"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Boss Katana 100 MkII",
+        "name_es": "Boss Katana 100 MkII",
+        "pros": [
+          "Five amp voicings in one unit clean crunch lead brown acoustic cover more genres than DSL tube voicings",
+          "Built-in effects over 60 Boss effects loaded via Tone Studio with no external pedals needed",
+          "Power control 100W 50W 0.5W modes allows bedroom practice at usable volumes without power soak attenuator",
+          "USB recording direct to DAW with cabinet simulation no microphone needed captures full tone",
+          "Tone Studio editor provides deep EQ gate compression and delay parameters with software interface"
+        ],
+        "pros_es": [
+          "Cinco voicings amplificador en una unidad limpio crunch lead brown acustico",
+          "Efectos incorporados sobre 60 efectos Boss cargados via Tone Studio sin pedales externos",
+          "Control potencia 100W 50W 0.5W permite practica casa volumen util sin atenuador",
+          "Grabacion USB directa a DAW con simulacion gabinete sin microfono",
+          "Editor Tone Studio proporciona EQ compuerta compresion delay parametros profundos"
+        ],
+        "cons": [
+          "Digital modeling never matches tube response dynamics note bloom and feel of DSL valve amp",
+          "Tone Studio software required for deep editing no front panel access to most parameters",
+          "Speaker emulated out sounds boxy compared to miked cabinet for recording",
+          "5-inch speaker in 50-watt version lacks low-end weight of DSL 12-inch Celestion"
+        ],
+        "cons_es": [
+          "Modelado digital no iguala respuesta dinamica valvulas feel y bloom de DSL",
+          "Tone Studio requerido para edicion profunda sin acceso panel frontal",
+          "Salida emulada altavoz suena hueca comparada a gabinete microfonado",
+          "Altavoz 5 pulgadas version 50W carece peso graves de DSL 12 pulgadas Celestion"
+        ]
+      },
+      {
+        "name": "Marshall DSL40CR",
+        "name_es": "Marshall DSL40CR",
+        "pros": [
+          "Authentic all-valve signal path with ECC83 preamp and EL34 power tubes delivers genuine tube response and feel",
+          "Classic Lead channel delivers legendary Marshall crunch and sustain for rock and metal tones",
+          "12-inch Celestion V-Type speaker produces full-bodied low-end with detailed high-mids projection",
+          "Master volume allows power tube saturation at manageable volumes useful for rehearsal and recording at home",
+          "Series effects loop integrated for pedals and rack processors maintains signal integrity"
+        ],
+        "pros_es": [
+          "Ruta senal valvula autentica ECC83 preamplificador y EL34 potencia genuina",
+          "Canal Lead clasico entrega crunch Marshall legendario y sustain",
+          "Altavoz Celestion V-Type 12 pulgadas graves completos y proyeccion medios-altos detallada",
+          "Master volume permite saturacion valvulas potencia a volumen manejable",
+          "Loop efectos integrado mantiene integridad senal"
+        ],
+        "cons": [
+          "Only 2 channels compared to Katana 5 voicings limited versatility for multiple genres",
+          "Heavy 42lbs similar to full head and cab weight requires sturdy stand",
+          "No built-in effects beyond reverb requires pedalboard investment for delay modulation",
+          "40-watt minimum output still too loud for silent bedroom practice without attenuator purchase",
+          "No USB recording or headphone output like Katana direct silent practice"
+        ],
+        "cons_es": [
+          "Solo 2 canales vs Katana 5 voicings versatilidad limitada",
+          "Pesado 42lbs requiere soporte robusto",
+          "Sin efectos incorporados mas alla reverb requiere pedales para delay modulacion",
+          "40 vatios minimo demasiado ruidoso para practica silenciosa habitacion sin atenuador",
+          "Sin USB ni salida auriculares como Katana para practica silenciosa directa"
+        ]
+      }
     ]
   },
   {
@@ -11020,6 +12696,68 @@
       "mixing-plugins",
       "vocal-plugins",
       "fx-plugins"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "FabFilter Pro Bundle",
+        "name_es": "FabFilter Pro Bundle",
+        "pros": [
+          "Pro-Q 3 dynamic EQ with built-in spectrum analyzer and vintage EQ modes is most precise surgical EQ in any bundle",
+          "Pro-C 2 with 9 compressor algorithms covers classic opto VCA FET and modern digital in single plugin",
+          "Pro-L 2 provides 8 limiting algorithms with True Peak metering and surround sound support up to Dolby Atmos",
+          "Pro-R features Space control for early/late reflections balance creating natural reverb without convolution files",
+          "Interactive interface EQ curves show compressor gain reduction with visual feedback unmatched by Ozone"
+        ],
+        "pros_es": [
+          "Pro-Q 3 EQ dinamico con analizador espectro incorporado EQ quirurgico mas preciso",
+          "Pro-C 2 con 9 algoritmos compresion cubre opto VCA FET y moderno",
+          "Pro-L 2 con 8 algoritmos limitacion True Peak y sonido surround",
+          "Pro-R control Espacio balance reflexiones tempranas/tardias reverb natural sin convolution",
+          "Interfaz interactiva curvas EQ compresion reduccion ganancia feedback visual sin igual"
+        ],
+        "cons": [
+          "Individual plugins purchased separately total bundle cost over $1200 significantly more than Ozone",
+          "No standalone mastering assistant no AI-assisted processing unlike Ozone Master Assistant",
+          "Learning curve steeper since each function is separate plugin no unified workflow",
+          "No built-in exciter or harmonic enhancement module like Ozone Exciter"
+        ],
+        "cons_es": [
+          "Plugins individuales compra separada costo total sobre $1200 mas que Ozone",
+          "Sin asistente mastering automatizado ni procesamiento asistido IA",
+          "Curva aprendizaje mas pronunciada cada funcion plugin separado sin flujo unificado",
+          "Sin modulo excitador ni mejora armonica como Ozone Exciter"
+        ]
+      },
+      {
+        "name": "iZotope Ozone 11 Advanced",
+        "name_es": "iZotope Ozone 11 Advanced",
+        "pros": [
+          "Master Assistant analyzes reference track and sets all modules parameters optimally for genre and loudness",
+          "AI-based Low End Focus detects and enhances sub frequencies intelligently without mono bass issues",
+          "Tonal Balance Control with Visual Mixer adjusts processing to match genre target curves from reference tracks",
+          "All modules EQ compressor limiter imager exciter in single window unified workflow for mastering",
+          "Code signing and built-in loudness metering compliant with streaming service specs"
+        ],
+        "pros_es": [
+          "Master Assistant analiza pista referencia y configura parametros optimamente",
+          "Low End Focus IA detecta y mejora frecuencias sub sin problemas mono graves",
+          "Tonal Balance Control ajusta procesamiento para coincidir curvas objetivo referencia",
+          "Todos modulos EQ compresor limitador imager excitador en ventana unica flujo mastering",
+          "Cumplimiento especificaciones servicios streaming metering sonoridad incorporado"
+        ],
+        "cons": [
+          "AI-assisted matching can homogenize sound encouraging generic results that lack character",
+          "Less surgical EQ than FabFilter Pro-Q3 for problem frequency removal notching or dynamic control",
+          "Limiter loudness maximizer pushes to competitive loudness but loses punch versus FabFilter Pro-L2",
+          "Resource heavy GUI lag on older systems especially Visual Mixer displays"
+        ],
+        "cons_es": [
+          "Asistente IA puede homogeneizar sonido resultados genericos sin caracter",
+          "EQ menos quirurgico que FabFilter Pro-Q3 para eliminacion frecuencia problema",
+          "Limitador sonoridad empuja volumen competitivo pero pierde punch vs Pro-L2",
+          "GUI pesada lag en sistemas antiguos especialmente Visual Mixer"
+        ]
+      }
     ]
   },
   {

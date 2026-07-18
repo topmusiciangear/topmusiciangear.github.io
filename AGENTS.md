@@ -638,3 +638,30 @@ Then update `js/app.min.js` hash in `index.html` and `version.txt` is auto-updat
 
 ### Next Move
 - User-driven
+
+## Known Quick Fixes
+
+### CSS rota (todos los `{}:;` desaparecen)
+**Causa:** Minificar CSS con `node -e "..."` en PowerShell expande `$1` a vacío.
+**Fix:** Escribir minificación en un `.js` file y correr `node _minify_css.js`:
+```js
+var fs = require('fs');
+var c = fs.readFileSync('css/style.css', 'utf8');
+c = c.replace(/\/\*[\s\S]*?\*\//g, '');
+c = c.replace(/\s*([{}:;,])\s*/g, '$1');
+c = c.replace(/;\}/g, '}');
+c = c.replace(/\s+/g, ' ');
+c = c.trim();
+fs.writeFileSync('css/style.min.css', c);
+```
+
+### Versiones desync (`app.min.js?v=` distinto a inline `v=`)
+**Causa:** `build-guides.js` setea `app.min.js?v=` content-hash, `update-version.js` lo sobreescribe con random hash.
+**Fix:** Correr `build-guides.js` primero, luego `npm run predeploy`. Verificar con:
+```
+grep -E "app\.min\.js\?v=|style\.min\.css\?v=" index.html
+```
+
+### Site roto después de deploy
+**Causa:** Cloudflare cachea CSS/JS viejo.
+**Fix:** Purgar Cloudflare cache (Speed > Purge Cache > Purge Everything) + hard refresh.

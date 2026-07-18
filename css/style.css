@@ -1533,7 +1533,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .verdict-label {
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
