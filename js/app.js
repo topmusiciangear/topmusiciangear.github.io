@@ -665,6 +665,7 @@ function renderGuideDetailFromData(id) {
   if (twImage) twImage.content = ogImage ? ogImage.content : '';
   injectGuideJsonLd(guide);
   skipDetailScroll = false;
+  renderAudioMini();
 }
 
 function renderAudioMini() {
