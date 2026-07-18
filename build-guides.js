@@ -26,7 +26,7 @@ function criticalCss() {
     '.logo span{color:var(--accent)}',
     'nav{display:flex;gap:4px;flex:1}',
     '.lang-switcher{display:flex;gap:3px;flex-shrink:0;margin-left:8px}',
-    '.header-social-link{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;color:var(--text-muted);font-size:12px;text-decoration:none}',
+    '.header-social-link{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;color:var(--text-muted);font-size:12px;text-decoration:none}.header-social-link .sb-icon{width:14px;height:14px;opacity:0.55;filter:brightness(0) invert(1);transition:opacity 0.2s,filter 0.2s}.header-social-link .fiverr-icon{width:16px;height:16px;opacity:0.55;filter:brightness(0) invert(1);transition:opacity 0.2s,filter 0.2s}',
 '.lang-btn{display:flex;align-items:center;justify-content:center;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
 '.lang-btn:hover{border-color:var(--accent)}',
 '.lang-btn.active{background:rgba(255,255,255,0.1);border-color:var(--white);color:var(--white)}',
@@ -498,6 +498,8 @@ ${ogMeta}
           <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
           <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="X">${icon('x-twitter', 'fa-brands')}</a>
           <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
+          <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener" class="header-social-link" title="Telegram"><svg data-fa="telegram" aria-hidden="true" class="icon fa-brands fa-telegram" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
+          <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
         </div>
         <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
