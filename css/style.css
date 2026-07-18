@@ -36,7 +36,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 64px;
   background: #0d0d0d;
   margin: 0 !important;
   padding: 0 !important;
