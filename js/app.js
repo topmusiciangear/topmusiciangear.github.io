@@ -418,6 +418,8 @@ function renderGuideGrid() {
   if (aboutSection) aboutSection.style.display = "";
   const videoSection = document.querySelector(".stores-video");
   if (videoSection) videoSection.style.display = "";
+  const videoCaption = document.querySelector(".stores-video + p");
+  if (videoCaption) videoCaption.style.display = "";
   const storesSection = document.querySelector(".stores-section");
   if (storesSection) storesSection.style.display = "";
   const filtered = getFilteredGuides();
@@ -547,6 +549,8 @@ function renderGuideDetailFromData(id) {
   if (aboutSection) aboutSection.style.display = "none";
   const videoSection = document.querySelector(".stores-video");
   if (videoSection) videoSection.style.display = "none";
+  const videoCaption = document.querySelector(".stores-video + p");
+  if (videoCaption) videoCaption.style.display = "none";
   const storesSection = document.querySelector(".stores-section");
   if (storesSection) storesSection.style.display = "none";
 
