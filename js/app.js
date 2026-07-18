@@ -737,8 +737,8 @@ function renderAbout() {
     <div class="about-photo-col">
       <div class="about-photo-wrapper">
         <img src="https://topmusiciangear.com/img/me-600.webp" alt="Top Musician Gear — Founder" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;font-size:64px;color:var(--accent);\\'>🎵</div>'">
-        <div class="about-photo-caption">${t("aboutCaption")}</div>
       </div>
+      <div class="about-photo-caption">${t("aboutCaption")}</div>
     </div>
     <div class="about-content">
       <h2>${t("aboutTitle")}<span>${t("aboutName")}</span></h2>
