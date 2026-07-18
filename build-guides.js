@@ -559,7 +559,6 @@ ${ogMeta}
           ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 6).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
-      ${(function(){ var pidSet = new Set(guide.featuredProducts || []); var comps = guides.filter(g => g.id !== guide.id && g.id.includes('vs') && (g.featuredProducts || []).some(p => pidSet.has(p))); if (!comps.length) return ''; return '<div class="guide-related"><h2 class="guide-related-title">' + (isEs ? '¿Qué Comparativas Importan?' : 'Which Comparisons Matter?') + '</h2><div class="guide-related-list">' + comps.slice(0, 4).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join('') + '</div></div>'; })()}
       <div class="guide-back-row">
         <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
       </div>
