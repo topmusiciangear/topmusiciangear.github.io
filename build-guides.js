@@ -381,11 +381,15 @@ function buildGuidePage(guide, lang, idx) {
     "@context": "https://schema.org", "@type": "Article",
     "headline": title,
     "description": guideDesc(guide, intro, isEs),
-    "author": { "@type": "Person", "name": "Daniel Carnago", "url": "https://topmusiciangear.com/about.html" },
-    "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com" },
-    "image": fullImage,
+    "author": { "@type": "Person", "name": "Daniel Carnago", "givenName": "Daniel", "familyName": "Carnago", "alternateName": "Cuban3Beats", "jobTitle": "Professional Musician & Audio Engineer", "url": "https://topmusiciangear.com/about.html", "sameAs": ["https://www.youtube.com/@Cuban3Beats","https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX","https://www.tiktok.com/@cuban3beats","https://www.facebook.com/Cuban3Beats/","https://www.instagram.com/cuban3beats","https://x.com/Cuban3Beats"], "knowsAbout": ["Audio Engineering","Music Production","Live Sound","Studio Recording","Music Gear"] },
+    "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com", "logo": { "@type": "ImageObject", "url": "https://topmusiciangear.com/img/favicon.png" } },
+    "image": { "@type": "ImageObject", "url": fullImage, "width": 1200, "height": 630 },
+    "thumbnailUrl": fullImage,
     "datePublished": guideDates(guide, idx).published, "dateModified": guideDates(guide, idx).modified,
-    "mainEntityOfPage": { "@type": "WebPage", "@id": canonical }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
+    "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".guide-detail-intro", ".guide-verdict-header"] },
+    "about": { "@type": "Thing", "name": guide.aboutName || "Music Gear" },
+    "inLanguage": lang
   };
 
   const items = [];
@@ -474,6 +478,8 @@ ${ogMeta}
     { "@type": "ListItem", "position": 2, "name": title, "item": canonical }
   ]})}
   ${jsonLdScript(genFaq(guide, isEs))}
+  ${guide.steps && guide.steps.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "HowTo", "name": title, "description": guideDesc(guide, intro, isEs), "step": guide.steps.map(function(s, i) { return { "@type": "HowToStep", "position": i + 1, "name": s.name, "text": s.text, "url": s.url || canonical }; }) }) : ''}
+  ${jsonLdScript({ "@context": "https://schema.org", "@type": "Person", "name": "Daniel Carnago", "givenName": "Daniel", "familyName": "Carnago", "alternateName": "Cuban3Beats", "jobTitle": "Professional Musician & Audio Engineer", "description": "Touring musician with 20+ years of experience on world stages including Glastonbury, Broadway, and Abbey Road.", "url": "https://topmusiciangear.com/about.html", "sameAs": ["https://www.youtube.com/@Cuban3Beats","https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX","https://www.tiktok.com/@cuban3beats","https://www.facebook.com/Cuban3Beats/","https://www.instagram.com/cuban3beats","https://x.com/Cuban3Beats"], "knowsAbout": ["Audio Engineering","Music Production","Live Sound","Studio Recording","Music Gear"] })}
 <script>(function(){try{history.scrollRestoration='manual';var a=localStorage.getItem('tmg_v');fetch('/version.txt?t='+Date.now()).then(function(r){return r.text()}).then(function(b){if(!a){localStorage.setItem('tmg_v',b);return}if(a!==b){localStorage.setItem('tmg_v',b);location.reload(true)}})}catch(e){}})()</script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','functionality_storage':'granted','security_storage':'granted'});gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
