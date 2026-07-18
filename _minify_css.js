@@ -6,4 +6,4 @@ c = c.replace(/;\}/g, '}');
 c = c.replace(/\s+/g, ' ');
 c = c.trim();
 fs.writeFileSync('css/style.min.css', c);
-console.log('CSS minified');
+console.log('CSS minified OK');
