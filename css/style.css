@@ -1423,6 +1423,21 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-content strong {
   color: var(--white);
 }
+.guide-section-imgs {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.guide-section-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  background: var(--bg-secondary);
+  padding: 8px;
+  border: 1px solid var(--border);
+}
 
 .guide-byline {
   font-size: 14px;

@@ -312,7 +312,7 @@ function boldFirstSentence(html) {
     const pClose = t.match(/(<\/p>)$/i);
     if (pClose) { suffix = pClose[1]; t = t.slice(0, -pClose[1].length); }
   }
-  t = t.replace(/^([^\.]+\.(\s|$)?)/, '<strong>$1</strong>');
+  t = t.replace(/^((?:[^.]|\.(?=\d))*?\.(?=\s|$))/, '<strong>$1</strong>');
   return prefix + t + suffix;
 }
 
@@ -343,9 +343,14 @@ function buildGuidePage(guide, lang, idx) {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
+    const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
+    const productImgs = sectionProducts.length ? '<div class="guide-section-imgs">' + sectionProducts.map(p => {
+      const t = isEs && p.title_es ? p.title_es : p.title;
+      return '<img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" loading="lazy" class="guide-section-img lb-img" style="cursor:zoom-in">';
+    }).join('') + '</div>' : '';
     return `<div class="guide-section">
       <h2 class="guide-section-heading">${h}</h2>
-      <div class="guide-section-content">${boldedC}</div>
+      <div class="guide-section-content">${boldedC}${productImgs}</div>
     </div>`;
   }).join('');
 
