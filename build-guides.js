@@ -210,7 +210,7 @@ function guideDesc(guide, introFallback, isEs) {
 }
 
 function esText(esVal, enVal) {
-  return esVal && esVal.length > enVal.length * 0.5 ? esVal : enVal;
+  return esVal && esVal.length > enVal.length * 0.1 ? esVal : enVal;
 }
 
 var faqBase = {
@@ -347,7 +347,7 @@ function buildGuidePage(guide, lang, idx) {
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
     const productImgs = sectionProducts.length ? '<div class="guide-section-imgs">' + sectionProducts.map(p => {
       const t = isEs && p.title_es ? p.title_es : p.title;
-      return '<img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" loading="lazy" class="guide-section-img lb-img" style="cursor:zoom-in">';
+      return '<img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">';
     }).join('') + '</div>' : '';
     return `<div class="guide-section">
       <h2 class="guide-section-heading">${h}</h2>
@@ -543,7 +543,7 @@ ${ogMeta}
         <a href="/">Home</a> / <a href="/#guides">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
       <div class="guide-back-row">
-        <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <a href="/#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
@@ -575,7 +575,7 @@ ${ogMeta}
         </div>
       </div>
       <div class="guide-back-row">
-        <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
+        <a href="/#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
       </div>
     </div>
 
