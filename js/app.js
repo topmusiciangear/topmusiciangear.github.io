@@ -1047,23 +1047,27 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     const wordRe = new RegExp('(?:^|[^a-z])(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
-    const filtered = products.filter(p => {
+    const scored = products.reduce((acc, p) => {
       const t = p.title.toLowerCase();
       const te = (p.title_es || "").toLowerCase();
       const b = (p.brand || "").toLowerCase();
       const c = p.category.toLowerCase();
-      if (t.includes(q) || te.includes(q) || b.includes(q) || c.includes(q)) return true;
-      const d = p.desc;
-      const de = p.desc_es || "";
-      return wordRe.test(d) || wordRe.test(de);
-    });
-    if (filtered.length === 0) {
+      const dm = wordRe.test(p.desc) || wordRe.test(p.desc_es || "");
+      let score = 0;
+      if (t.includes(q) || te.includes(q)) score += 2;
+      if (c.includes(q)) score += 2;
+      if (b.includes(q)) score += 1;
+      if (score > 0 || dm) acc.push({ product: p, score });
+      return acc;
+    }, []).sort((a, b) => b.score - a.score)
+      .map(x => x.product);
+    if (scored.length === 0) {
       results.style.display = "block";
       results.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">No products found</p>';
       return;
     }
     results.style.display = "block";
-    results.innerHTML = '<div class="product-search-grid">' + filtered.map(p => renderProductCard(p.id)).join("") + '</div>';
+    results.innerHTML = '<div class="product-search-grid">' + scored.map(p => renderProductCard(p.id)).join("") + '</div>';
     results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
     }, 250);
   });
