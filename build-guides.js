@@ -389,6 +389,12 @@ function buildGuidePage(guide, lang, idx) {
     if (p) {
       const generatedSku = "TMG-" + (p.category || "gear").toUpperCase() + "-" + String(p.id).padStart(3, "0");
       const title = isEs && p.title_es ? p.title_es : p.title;
+      var pc = null;
+      if (guide.verdictProsCons) {
+        pc = guide.verdictProsCons.find(function(v) { return (isEs && v.name_es ? v.name_es : v.name) === title; });
+      }
+      var pn = pc ? (isEs && pc.pros_es ? pc.pros_es : pc.pros) : undefined;
+      var cn = pc ? (isEs && pc.cons_es ? pc.cons_es : pc.cons) : undefined;
       items.push({
         "@type": "ListItem", "position": idx + 1,
         "item": {
@@ -400,7 +406,9 @@ function buildGuidePage(guide, lang, idx) {
           "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 155),
           "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
           "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
-          "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
+          "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
+          "positiveNotes": pn,
+          "negativeNotes": cn
         }
       });
       productSchemas.push({
@@ -409,7 +417,9 @@ function buildGuidePage(guide, lang, idx) {
         "brand": { "@type": "Brand", "name": p.brand || "" },
         "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
         "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
-        "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`
+        "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
+        "positiveNotes": pn,
+        "negativeNotes": cn
       });
     }
   });
