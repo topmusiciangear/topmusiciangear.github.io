@@ -1046,13 +1046,16 @@ document.addEventListener("DOMContentLoaded", () => {
       results.style.display = "none";
       return;
     }
+    const wordRe = new RegExp('(?:^|[^a-z])(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
     const filtered = products.filter(p => {
       const t = p.title.toLowerCase();
       const te = (p.title_es || "").toLowerCase();
-      const d = p.desc.toLowerCase();
-      const de = (p.desc_es || "").toLowerCase();
+      const b = (p.brand || "").toLowerCase();
       const c = p.category.toLowerCase();
-      return t.includes(q) || te.includes(q) || d.includes(q) || de.includes(q) || c.includes(q);
+      if (t.includes(q) || te.includes(q) || b.includes(q) || c.includes(q)) return true;
+      const d = p.desc;
+      const de = p.desc_es || "";
+      return wordRe.test(d) || wordRe.test(de);
     });
     if (filtered.length === 0) {
       results.style.display = "block";
