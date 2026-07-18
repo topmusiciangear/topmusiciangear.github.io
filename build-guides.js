@@ -345,10 +345,10 @@ function buildGuidePage(guide, lang, idx) {
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
-    const productImgs = sectionProducts.length ? '<div class="guide-section-imgs">' + sectionProducts.map(p => {
-      const t = isEs && p.title_es ? p.title_es : p.title;
-      return '<img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">';
-    }).join('') + '</div>' : '';
+    const firstProduct = sectionProducts.length ? sectionProducts[0] : null;
+    const productImgs = firstProduct ? '<div class="guide-section-imgs">' +
+      '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+    '</div>' : '';
     return `<div class="guide-section">
       <h2 class="guide-section-heading">${h}</h2>
       <div class="guide-section-content">${boldedC}${productImgs}</div>
