@@ -4334,7 +4334,7 @@
     "title_es": "Shure SM57 vs SM58: ¿Cuál Necesitas Realmente? (2026)",
     "category": "microphones",
     "image": "https://media.sweetwater.com/m/products/image/8cc557164ei09SdpOiJJ8j2UgW5tRIRPcRVVipe6.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=8cc557164e165612",
-    "badge": null,
+    "badge": "legend",
     "intro": "The SM57 and SM58 are the most famous microphones in history — and the most confused. They look similar, cost the same, and both say Shure on the side. But they're designed for completely different jobs. I've used and deeply researched both — in historic theater pits, at Glastonbury, and in the studio at Abbey Road. Here's the truth about which one you need.",
     "intro_es": "El SM57 y el SM58 son los micrófonos más famosos de la historia — y los más confundidos. Se ven similares, cuesta lo mismo, y ambos dicen Shure en el costado. Pero están diseñados para trabajos completamente diferentes. He usado e investigado profundamente ambos — en fosos de teatros históricos, en Glastonbury y en el estudio de Abbey Road. Aquí está la verdad sobre cuál necesitas.",
     "sections": [
@@ -4550,7 +4550,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Shure",
-          "val2": "Shure"
+          "val2": "Shure",
+          "val1_es": "Shure",
+          "val2_es": "Shure"
         },
         {
           "label": "Rating",
@@ -4609,7 +4611,7 @@
     "title_es": "Focusrite Scarlett 2i2 4ª Gen vs SSL 2+ MKII: ¿Cuál deberías elegir?",
     "category": "interfaces",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Focusrite Scarlett 2i2 4th Gen and the SSL 2+ MKII are the two most popular audio interfaces for home studio — and for different reasons. The Scarlett 4th Gen is the queen of clarity, while the SSL 2+ MKII brings legendary SSL console analog character to your desktop. I've used both extensively. Here's the definitive comparison.",
     "intro_es": "La Focusrite Scarlett 2i2 4ª Gen y la SSL 2+ MKII son las dos interfaces de audio más populares para home studio — y por diferentes razones. La Scarlett 4ª Gen es la reina de la claridad, mientras que la SSL 2+ MKII trae el legendario carácter analógico de las consolas SSL a tu escritorio. He usado ambas extensamente. Aquí está la comparación definitiva.",
     "sections": [
@@ -4804,7 +4806,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Focusrite",
-          "val2": "SSL"
+          "val2": "SSL",
+          "val1_es": "Focusrite",
+          "val2_es": "SSL"
         },
         {
           "label": "Rating",
@@ -4933,7 +4937,7 @@
     "title_es": "DT 770 Pro vs DT 990 Pro: Cerrados vs Abiertos (2026)",
     "category": "headphones",
     "image": "img/dt770pro.webp",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Beyerdynamic DT 770 Pro and DT 990 Pro are legendary Germa headphones that every producer debates. Closed-back tracking vs open-back mixing. Isolation vs soundstage. Bass boost vs treble emphasis. I've used and deeply researched both — I've mixed entire albums on them. Here's the definitive comparison so you can stop wondering and start buying.",
     "intro_es": "Los Beyerdynamic DT 770 Pro y DT 990 Pro son legendarios auriculares alemanes que todo productor debate. Seguimiento cerrado vs mezcla abierta. Aislamiento vs escenario sonoro. Refuerzo de graves vs énfasis en agudos. He usado e investigado profundamente ambos — he mezclado álbumes enteros en ellos. Aquí está la comparación definitiva para que dejes de preguntarte y empieces a comprar.",
     "sections": [
@@ -5093,7 +5097,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Beyerdynamic",
-          "val2": "Beyerdynamic"
+          "val2": "Beyerdynamic",
+          "val1_es": "Beyerdynamic",
+          "val2_es": "Beyerdynamic"
         },
         {
           "label": "Rating",
@@ -5123,7 +5129,9 @@
           "label": "Impedance",
           "label_es": "Impedancia",
           "val1": "32 / 80 / 250 Ω",
-          "val2": "80 / 250 Ω"
+          "val2": "80 / 250 Ω",
+          "val1_es": "32 / 80 / 250 Ω",
+          "val2_es": "80 / 250 Ω"
         },
         {
           "label": "Driver",
@@ -5219,7 +5227,7 @@
     "title_es": "Yamaha HS8 vs KRK Rokit 7 G5: Monitores Planos (2026)",
     "category": "monitors",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/315822.jpg",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Yamaha HS8 and KRK Rokit 7 G5 are the two most debated studio monitors in the under-$700 range. The HS8 is flat, clinical, and unforgiving — the industry standard for mixing. The Rokit 7 G5 is warm, punchy, and flattering — the favorite of beat-makers and producers who want their tracks to sound good while making them. I've mixed albums on both. Here's the honest truth about which one you actually need.",
     "intro_es": "Los Yamaha HS8 y KRK Rokit 7 G5 son los dos monitores de estudio más debatidos en el rango de menos de $700. El HS8 es plano, clínico e implacable — el estándar de la industria para mezclar. El Rokit 7 G5 es cálido, contundente y halagador — el favorito de beat-makers y productores que quieren que sus pistas suenen bien mientras las hacen. He mezclado álbumes en ambos. Aquí está la verdad honesta sobre cuál necesitas realmente.",
     "sections": [
@@ -5380,7 +5388,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Yamaha",
-          "val2": "KRK"
+          "val2": "KRK",
+          "val1_es": "Yamaha",
+          "val2_es": "KRK"
         },
         {
           "label": "Rating",
@@ -5418,7 +5428,9 @@
           "label": "Power",
           "label_es": "Potencia",
           "val1": "120W (75W LF + 45W HF)",
-          "val2": "145W (97W LF + 48W HF)"
+          "val2": "145W (97W LF + 48W HF)",
+          "val1_es": "120W (75W LF + 45W HF)",
+          "val2_es": "145W (97W LF + 48W HF)"
         }
       ]
     },
@@ -5491,7 +5503,7 @@
     "title_es": "ATH-M50x vs MDR-7506: Auriculares Cerrados (2026)",
     "category": "headphones",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/331905.jpg",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Audio-Technica ATH-M50x and Sony MDR-7506 are the two most popular closed-back studio headphones in the world. One is modern, bass-forward, and built for producer enjoyment. The other is a 35-year-old broadcast legend that refuses to die because it's simply that good. I've owned both for years. Here's the comparison that tells you which one belongs in your studio bag.",
     "intro_es": "Los Audio-Technica ATH-M50x y Sony MDR-7506 son dos de los auriculares de estudio cerrados más populares. Uno es moderno, con énfasis en graves, y diseñado para el disfrute del productor. El otro es una leyenda de transmisión de 35 años que se niega a morir porque es simplemente muy bueno. He tenido ambos durante años. Aquí está la comparación que te dice cuál pertenece a tu bolsa de estudio.",
     "sections": [
@@ -5658,7 +5670,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Audio-Technica",
-          "val2": "Sony"
+          "val2": "Sony",
+          "val1_es": "Audio-Technica",
+          "val2_es": "Sony"
         },
         {
           "label": "Rating",
@@ -5688,7 +5702,9 @@
           "label": "Impedance",
           "label_es": "Impedancia",
           "val1": "38 Ω",
-          "val2": "63 Ω"
+          "val2": "63 Ω",
+          "val1_es": "38 Ω",
+          "val2_es": "63 Ω"
         },
         {
           "label": "Driver",
@@ -5777,7 +5793,7 @@
     "title_es": "Mejor Guitarra Eléctrica para Grabación y Directo (2026)",
     "category": "guitars",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "After 20+ years playing alongside world-class guitarists and researching gear extensively, I've learned what makes an electric guitar truly special. The right electric guitar isn't about specs; it's about how it feels in your hands and how it sits in your mix. These are the five electric guitars I recommend for studio and stage across every budget.",
     "intro_es": "Después de 20+ años tocando junto a guitarristas de clase mundial e investigando equipo extensamente, he aprendido lo que hace especial a una guitarra eléctrica. La guitarra eléctrica correcta no se trata de especificaciones; se trata de cómo se siente en tus manos y cómo se sitúa en tu mezcla. Estas son las cinco guitarras eléctricas que recomiendo para estudio y escenario en cada presupuesto.",
     "sections": [
@@ -5901,7 +5917,7 @@
     "title_es": "Mejor Teclado y Piano Digital para Home Studio (2026)",
     "category": "keyboards",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/560977.jpg",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "From festival stages at Glastonbury to weighted keys in my home studio, I've played and deeply researched every type of keyboard professionally. The right keyboard for you depends on what you play — piano feel, synth action, or controller flexibility. These four keyboards cover every scenario from composing to performing.",
     "intro_es": "Desde festivales como Glastonbury hasta teclas contrapesadas en mi estudio casero, he tocado e investigado profundamente todo tipo de teclado profesionalmente. El teclado correcto para ti depende de lo que toques — sensación de piano, acción de sintetizador, o flexibilidad de controlador. Estos cuatro teclados cubren cada escenario, desde componer hasta tocar en vivo.",
     "sections": [
@@ -6009,7 +6025,7 @@
     "title_es": "Mejores Máquinas de Batería y Producción de Beats (2026)",
     "category": "drum-machine",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/434284.jpg",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "I've spent hands-on time with every drum machine here. Whether you make hip-hop, electronic, or beat-driven music, these are the tools I recommend after 20 years of beat-making and stage performance.",
     "intro_es": "He pasado tiempo probando cada máquina de batería aquí. Ya sea que hagas hip-hop, música electrónica, o música impulsada por beats, estas son las herramientas que recomiendo después de 20 años haciendo beats y tocando en escenarios.",
     "sections": [
@@ -6089,7 +6105,7 @@
     "title_es": "Apollo Twin X vs Babyface Pro FS: ¿Mejor Interfaz USB? (2026)",
     "category": "interfaces",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/571436.jpg",
-    "badge": null,
+    "badge": "premium",
     "intro": "The Universal Audio Apollo Twin X and RME Babyface Pro FS represent the two heavyweight contenders in the premium desktop audio interface market. Both are compact, both cost over a grand, and both deliver conversion quality that was only available in rackmount units a decade ago. But they take fundamentally different approaches to DSP, routing, and workflow.",
     "intro_es": "La Universal Audio Apollo Twin X y la RME Babyface Pro FS representan a los dos pesos pesados en el mercado de interfaces de audio premium de escritorio. Ambas son compactas, ambas cuestan más de mil dólares, y ambas ofrecen calidad de conversión que solo estaba disponible en unidades de rack hace una década. Pero toman enfoques fundamentalmente diferentes en cuanto a DSP, enrutamiento y flujo de trabajo.",
     "sections": [
@@ -6251,7 +6267,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Universal Audio",
-          "val2": "RME"
+          "val2": "RME",
+          "val1_es": "Universal Audio",
+          "val2_es": "RME"
         },
         {
           "label": "Rating",
@@ -6378,7 +6396,7 @@
     "title_es": "Scarlett 2i2 vs UA Volt 2: Mejor Interfaz Económica (2026)",
     "category": "interfaces",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Focusrite Scarlett 2i2 has been the undisputed king of entry-level audio interfaces for years, but Universal Audio's Volt 2 is making a serious play for the throne with its built-in analog modeling. Both are two-input USB-C interfaces aimed at home recordists who want professional results without spending a fortune. Here is how they stack up.",
     "intro_es": "La Focusrite Scarlett 2i2 ha sido el líder indiscutible de las interfaces de audio de nivel básico durante años, pero la Volt 2 de Universal Audio está haciendo un serio intento por el trono con su modelado analógico incorporado. Ambas son interfaces USB-C de dos entradas para grabadores caseros que quieren resultados profesionales sin gastar una fortuna. Así es como se comparan.",
     "sections": [
@@ -6540,7 +6558,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Focusrite",
-          "val2": "Universal Audio"
+          "val2": "Universal Audio",
+          "val1_es": "Focusrite",
+          "val2_es": "Universal Audio"
         },
         {
           "label": "Rating",
@@ -6667,8 +6687,8 @@
     "title": "Audient iD14 vs MOTU M2: Best USB-C Interface (2026)",
     "title_es": "Audient iD14 vs MOTU M2: Mejor Interfaz USB-C (2026)",
     "category": "interfaces",
-    "image": "../img/audient-id14.webp",
-    "badge": null,
+    "image": "img/audient-id14.webp",
+    "badge": "recommended",
     "intro": "The Audient iD14 MkII and MOTU M2 are the interfaces that audio engineers actually buy for themselves when they need something small that sounds big. Both are USB-C, both have high-quality converters, and both refuse to compromise on preamp quality. But they take very different approaches to connectivity and monitoring control.",
     "intro_es": "La Audient iD14 MkII y la MOTU M2 son las interfaces que los ingenieros de audio compra para sí mismos cuando necesitan algo pequeño que suene grande. Ambas son USB-C, ambas tienen convertidores de alta calidad, y ambas se niegan a comprometer la calidad del preamplificador. Pero toman enfoques muy diferentes en cuanto a conectividad y control de monitoreo.",
     "sections": [
@@ -6830,7 +6850,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Audient",
-          "val2": "MOTU"
+          "val2": "MOTU",
+          "val1_es": "Audient",
+          "val2_es": "MOTU"
         },
         {
           "label": "Rating",
@@ -6958,7 +6980,7 @@
     "title_es": "RME Babyface Pro FS vs MOTU M2: Interfaz Premium vs Económica (2026)",
     "category": "interfaces",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/476426.jpg",
-    "badge": null,
+    "badge": "premium",
     "intro": "The RME Babyface Pro FS and MOTU M2 sit at opposite ends of the audio interface price spectrum — and both are class leaders in their category. The Babyface Pro FS ($949) is the gold standard for portable recording with legendary drivers and pristine conversion. The MOTU M2 ($199) is one of the best value interfaces on the market, with ESS Sabre32 DAC and class-leading specs. Choosing between them reveals what matters most for your recordings: bulletproof reliability or incredible value.",
     "intro_es": "La RME Babyface Pro FS y la MOTU M2 están en extremos opuestos del espectro de precios de interfaces de audio — y ambas son líderes en su categoría. La Babyface Pro FS ($949) es el estándar de oro para grabación portátil con drivers legendarios y conversión impecable. La MOTU M2 ($199) es la interfaz con mejor relación calidad-precio del mercado, con DAC ESS Sabre32 y especificaciones líderes en su clase. Elegir entre ellas revela qué importa más para tus grabaciones: fiabilidad a prueba de balas o valor increíble.",
     "sections": [
@@ -7120,7 +7142,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "RME",
-          "val2": "MOTU"
+          "val2": "MOTU",
+          "val1_es": "RME",
+          "val2_es": "MOTU"
         },
         {
           "label": "Rating",
@@ -7247,7 +7271,7 @@
     "title_es": "Adam A7V vs Genelec 8040B: Monitores Profesionales (2026)",
     "category": "monitors",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/540683.jpg",
-    "badge": null,
+    "badge": "premium",
     "intro": "The Adam A7V and Genelec 8040B are legendary mid-field studio monitors that professional engineers rely on for critical mixing. Both are active two-way designs with a seven-inch woofer, but they sound radically different. That difference comes down to one key component: the tweeter. Germa ribbon versus Finnish metal dome.",
     "intro_es": "El Adam A7V y el Genelec 8040B son monitores de estudio de campo medio legendarios en los que los ingenieros profesionales confía para la mezcla crítica. Ambos son diseños activos de dos vías con un woofer de siete pulgadas, pero suena radicalmente diferentes. Esa diferencia se reduce a un componente clave: el tweeter. Cinta alemana versus domo metálico finlandés.",
     "sections": [
@@ -7403,7 +7427,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Adam Audio",
-          "val2": "Genelec"
+          "val2": "Genelec",
+          "val1_es": "Adam Audio",
+          "val2_es": "Genelec"
         },
         {
           "label": "Rating",
@@ -7417,7 +7443,9 @@
           "label": "Woofer",
           "label_es": "Woofer",
           "val1": "7\"",
-          "val2": "6.5\""
+          "val2": "6.5\"",
+          "val1_es": "7\"",
+          "val2_es": "6.5\""
         },
         {
           "label": "Tweeter",
@@ -7439,7 +7467,9 @@
           "label": "Power",
           "label_es": "Potencia",
           "val1": "170W (100W LF + 70W HF)",
-          "val2": "200W (120W LF + 80W HF)"
+          "val2": "200W (120W LF + 80W HF)",
+          "val1_es": "170W (100W LF + 70W HF)",
+          "val2_es": "200W (120W LF + 80W HF)"
         }
       ]
     },
@@ -7519,7 +7549,7 @@
     "title_es": "JBL 305P vs Kali LP-6: Mejores Monitores Económicos (2026)",
     "category": "monitors",
     "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/23718/84829/252105-1510329561115__83787.1715329923.jpg?c=1",
-    "badge": null,
+    "badge": "recommended",
     "intro": "The JBL 305P MkII and Kali LP-6 V2 are the two most talked-about budget studio monitors. Both deliver professional-grade performance at prices home studio owners can afford. But JBL brings decades of cinema experience, while Kali offers a fresh approach to boundary-compensated monitoring for real-world rooms.",
     "intro_es": "Los JBL 305P MkII y Kali LP-6 V2 son los monitores de estudio económicos más comentados. Ambos ofrecen rendimiento de grado profesional a precios que los propietarios de home studios pueden pagar. Pero JBL trae décadas de experiencia en cine, mientras que Kali ofrece un enfoque nuevo de monitorización compensada para límites en salas reales.",
     "sections": [
@@ -7675,7 +7705,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "JBL",
-          "val2": "Kali Audio"
+          "val2": "Kali Audio",
+          "val1_es": "JBL",
+          "val2_es": "Kali Audio"
         },
         {
           "label": "Rating",
@@ -7689,7 +7721,9 @@
           "label": "Woofer",
           "label_es": "Woofer",
           "val1": "5\"",
-          "val2": "6.5\""
+          "val2": "6.5\"",
+          "val1_es": "5\"",
+          "val2_es": "6.5\""
         },
         {
           "label": "Tweeter",
@@ -7711,7 +7745,9 @@
           "label": "Power",
           "label_es": "Potencia",
           "val1": "82W (41W LF + 41W HF)",
-          "val2": "100W (60W LF + 40W HF)"
+          "val2": "100W (60W LF + 40W HF)",
+          "val1_es": "82W (41W LF + 41W HF)",
+          "val2_es": "100W (60W LF + 40W HF)"
         }
       ]
     },
@@ -7791,7 +7827,7 @@
     "title_es": "HD 600 vs DT 990 Pro: Duelo de Auriculares Abiertos (2026)",
     "category": "headphones",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/471751.jpg",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Sennheiser HD 600 and Beyerdynamic DT 990 Pro are two of the most iconic open-back headphones in audio history. One is ruthlessly neutral. The other is excitingly V-shaped. Choosing between them is about which kind of truth you want to hear when mixing.",
     "intro_es": "Los Sennheiser HD 600 y Beyerdynamic DT 990 Pro son dos de los auriculares abiertos más icónicos de la historia del audio. Uno es implacablemente neutro. El otro es excitantemente en forma de V. Elegir entre ellos es decidir qué tipo de verdad quieres escuchar cuando mezclas.",
     "sections": [
@@ -7953,7 +7989,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Sennheiser",
-          "val2": "Beyerdynamic"
+          "val2": "Beyerdynamic",
+          "val1_es": "Sennheiser",
+          "val2_es": "Beyerdynamic"
         },
         {
           "label": "Rating",
@@ -7983,7 +8021,9 @@
           "label": "Impedance",
           "label_es": "Impedancia",
           "val1": "300 Ω",
-          "val2": "80 / 250 Ω"
+          "val2": "80 / 250 Ω",
+          "val1_es": "300 Ω",
+          "val2_es": "80 / 250 Ω"
         },
         {
           "label": "Driver",
@@ -8079,7 +8119,7 @@
     "title_es": "ATH-M50x vs DT 770 Pro: Mejores Auriculares Cerrados (2026)",
     "category": "headphones",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/331905.jpg",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The ATH-M50x and DT 770 Pro are the two most popular closed-back headphones in recording studios worldwide. Both are built for professional use, but they approach sound, comfort, and portability in fundamentally different ways. One is the producer's favorite, the other is the engineer's workhorse.",
     "intro_es": "Los Audio-Technica ATH-M50x y Beyerdynamic DT 770 Pro son los dos auriculares cerrados más populares en estudios de grabación de todo el mundo. Ambos están diseñados para uso profesional, pero abordan el sonido, la comodidad y la portabilidad de maneras fundamentalmente diferentes. Uno es el favorito del productor, el otro es el caballo de batalla del ingeniero.",
     "sections": [
@@ -8241,7 +8281,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Audio-Technica",
-          "val2": "Beyerdynamic"
+          "val2": "Beyerdynamic",
+          "val1_es": "Audio-Technica",
+          "val2_es": "Beyerdynamic"
         },
         {
           "label": "Rating",
@@ -8271,7 +8313,9 @@
           "label": "Impedance",
           "label_es": "Impedancia",
           "val1": "38 Ω",
-          "val2": "32 / 80 / 250 Ω"
+          "val2": "32 / 80 / 250 Ω",
+          "val1_es": "38 Ω",
+          "val2_es": "32 / 80 / 250 Ω"
         },
         {
           "label": "Driver",
@@ -8366,8 +8410,8 @@
     "title": "AKG K371 vs MDR-7506: Best Budget Headphones (2026)",
     "title_es": "AKG K371 vs MDR-7506: Mejores Auriculares Económicos (2026)",
     "category": "headphones",
-    "image": "../img/akg-k371.webp",
-    "badge": null,
+    "image": "img/akg-k371.webp",
+    "badge": "recommended",
     "intro": "The AKG K371 and Sony MDR-7506 dominate the under-$200 closed-back headphone market. The MDR-7506 has been a studio staple since 1991. The K371 is a modern challenger built to the Harman target curve. One is a classic, the other is a scientific correction of everything the classic got wrong.",
     "intro_es": "Los AKG K371 y Sony MDR-7506 dominan el mercado de auriculares cerrados de menos de $200. Los MDR-7506 ha sido un elemento básico de estudio desde 1991. Los K371 son un desafiante moderno construido según la curva objetivo Harman. Uno es un clásico, el otro es una corrección científica de todo lo que el clásico hizo mal.",
     "sections": [
@@ -8529,7 +8573,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "AKG",
-          "val2": "Sony"
+          "val2": "Sony",
+          "val1_es": "AKG",
+          "val2_es": "Sony"
         },
         {
           "label": "Rating",
@@ -8559,7 +8605,9 @@
           "label": "Impedance",
           "label_es": "Impedancia",
           "val1": "32 Ω",
-          "val2": "63 Ω"
+          "val2": "63 Ω",
+          "val1_es": "32 Ω",
+          "val2_es": "63 Ω"
         },
         {
           "label": "Driver",
@@ -8655,7 +8703,7 @@
     "title_es": "Shure SM7B vs Rode NT1-A: Dinámico vs Condensador (2026)",
     "category": "microphones",
     "image": "https://media.sweetwater.com/m/products/image/6d2c512a92Rov0eryrfK2jdkFSLhFkOUiy3nNCLK.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=6d2c512a928017f5",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Shure SM7B and Rode NT1-A represent the two most popular microphone types for home studio vocal recording. The SM7B is the dynamic microphone that defined modern podcasting. The NT1-A is one of the best-selling large-diaphragm condensers of all time. Choosing between them is the first major decision every home recordist faces.",
     "intro_es": "El Shure SM7B y el Rode NT1-A representa los dos tipos de micrófono más populares para grabación vocal en home studio. El SM7B es el micrófono dinámico que definió el podcasting moderno. El NT1-A es uno de los condensadores de diafragma grande más vendidos de todos los tiempos. Elegir entre ellos es la primera gran decisión que todo grabador casero enfrenta.",
     "sections": [
@@ -8811,7 +8859,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Shure",
-          "val2": "Rode"
+          "val2": "Rode",
+          "val1_es": "Shure",
+          "val2_es": "Rode"
         },
         {
           "label": "Rating",
@@ -8932,7 +8982,7 @@
     "title_es": "SM57 vs MD 421: Mejor Micrófono Dinámico (2026)",
     "category": "microphones",
     "image": "https://media.sweetwater.com/m/products/image/8cc557164ei09SdpOiJJ8j2UgW5tRIRPcRVVipe6.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=8cc557164e165612",
-    "badge": null,
+    "badge": "legend",
     "intro": "The Shure SM57 and Sennheiser MD 421 are the most iconic dynamic microphones in music recording history. Between them, they have been used on more hit records than any other microphones. The SM57 is the ultimate general-purpose instrument mic. The MD 421 is the specialist that defined the sound of rock guitar and kick drum.",
     "intro_es": "El Shure SM57 y el Sennheiser MD 421 son los micrófonos dinámicos más icónicos de la historia de la grabación musical. Entre ellos, se han utilizado en más discos de éxito que cualquier otro micrófono. El SM57 es el micrófono de instrumento polivalente definitivo. El MD 421 es el especialista que definió el sonido de la guitarra rock y el bombo.",
     "sections": [
@@ -9088,7 +9138,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Shure",
-          "val2": "Sennheiser"
+          "val2": "Sennheiser",
+          "val1_es": "Shure",
+          "val2_es": "Sennheiser"
         },
         {
           "label": "Rating",
@@ -9208,7 +9260,7 @@
     "title_es": "AKG C414 vs Neumann U 87: Duelo de Micrófonos Pro (2026)",
     "category": "microphones",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/240602.jpg",
-    "badge": null,
+    "badge": "premium",
     "intro": "The AKG C414 XLII and Neumann U 87 Ai are the most famous large-diaphragm condenser microphones in recording history. One is the Europea precision instrument. The other is the America studio legend. Choosing between them is a statement about your sound.",
     "intro_es": "El AKG C414 XLII y el Neumann U87 Ai son los dos micrófonos de condensador de diafragma grande más famosos de la historia. El U87 es el estándar de estudio universal desde 1967. El C414 es el competidor versátil que ofrece múltiples patrones polares con ingeniería austriaca. Son los dos transatlánticos de la grabación profesional.",
     "sections": [
@@ -9364,7 +9416,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "AKG",
-          "val2": "Neumann"
+          "val2": "Neumann",
+          "val1_es": "AKG",
+          "val2_es": "Neumann"
         },
         {
           "label": "Rating",
@@ -9482,8 +9536,8 @@
     "title": "EV RE20 vs Shure SM7B: Dynamic Broadcast Mic Legends Compared (2026)",
     "title_es": "EV RE20 vs Shure SM7B: Micrófonos Dinámicos (2026)",
     "category": "microphones",
-    "image": "../img/re20.webp",
-    "badge": null,
+    "image": "img/re20.webp",
+    "badge": "bestSeller",
     "intro": "The Electro-Voice RE20 and Shure SM7B are the two most important dynamic microphones in broadcast history. The RE20 defined radio. The SM7B defined modern podcasting. Both are legends, but they sound completely different.",
     "intro_es": "El Electro-Voice RE20 y el Shure SM7B son los dos micrófonos dinámicos de broadcast más importantes jamás fabricados. El RE20 dominó la radio durante décadas con su legendaria respuesta de graves variables. El SM7B definió el podcasting moderno. Ambos son herramientas profesionales para capturar voz con calidad de transmisión.",
     "sections": [
@@ -9639,7 +9693,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Electro-Voice",
-          "val2": "Shure"
+          "val2": "Shure",
+          "val1_es": "Electro-Voice",
+          "val2_es": "Shure"
         },
         {
           "label": "Rating",
@@ -9759,7 +9815,7 @@
     "title_es": "EW 100 G4 vs ULXD: Mejor Sistema Inalámbrico (2026)",
     "category": "microphones",
     "image": "https://www.simplysoundandlighting.co.uk/cdn/shop/files/01850fac-7d3e-4c6d-bff4-48371db65f7f.jpg?v=1688089260",
-    "badge": null,
+    "badge": "premium",
     "intro": "The Sennheiser EW 100 G4-935 and Shure ULXD24/SM58 are the most popular professional wireless systems. Both are industry standards representing different philosophies: RF engineering versus digital clarity.",
     "intro_es": "El Sennheiser EW 100 G4-845 y el Shure ULXD/SM58 son los sistemas inalámbricos profesionales más confiables para aplicaciones de escenario. EW 100 representa la ingeniería alemana con la legendaria fiabilidad de RF de Sennheiser. ULXD representa el estándar estadounidense con la mayor densidad de canales y gestión digital. Ambos son los caballos de batalla de la producción en vivo.",
     "sections": [
@@ -9915,7 +9971,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Sennheiser",
-          "val2": "Shure"
+          "val2": "Shure",
+          "val1_es": "Sennheiser",
+          "val2_es": "Shure"
         },
         {
           "label": "Rating",
@@ -9945,7 +10003,9 @@
           "label": "Transmission Range",
           "label_es": "Rango de transmisión",
           "val1": "Up to 330 ft",
-          "val2": "Up to 330 ft"
+          "val2": "Up to 330 ft",
+          "val1_es": "Up to 330 ft",
+          "val2_es": "Up to 330 ft"
         },
         {
           "label": "Mic Included",
@@ -10031,7 +10091,7 @@
     "title_es": "EV ZLX-12P vs QSC K12.2: Mejor Altavoz PA (2026)",
     "category": "live_sound",
     "image": "https://media.sweetwater.com/m/products/image/1f3676cd0e8h4xfV5bCjFOUlRmMQYLNUuUuBekaI.wm-dh.jpg?quality=82&height=750&ha=1f3676cd0e0bca53",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The EV ZLX-12P and QSC K12.2 are the most popular powered PA speakers in portable live sound. The ZLX-12P dominates the budget-to-midrange segment. The K12.2 sets the standard for professional portable PA performance. Both are twelve-inch two-way speakers operating in different tiers.",
     "intro_es": "El EV ZLX-12P y el QSC K12.2 son los altavoces autoamplificados más populares para sonido en vivo portátil. El ZLX-12P domina el segmento económico a gama media. El K12.2 establece el estándar para el rendimiento PA portátil profesional. Ambos son altavoces de dos vías de 12 pulgadas que operan en niveles diferentes.",
     "sections": [
@@ -10187,7 +10247,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Electro-Voice",
-          "val2": "QSC"
+          "val2": "QSC",
+          "val1_es": "Electro-Voice",
+          "val2_es": "QSC"
         },
         {
           "label": "Rating",
@@ -10306,7 +10368,7 @@
     "title_es": "Yamaha DXR12mkII vs JBL PRX ONE: Mejor PA (2026)",
     "category": "live_sound",
     "image": "https://media.sweetwater.com/m/products/image/a45452a155ELQGX8WSNhRwd0U70pxuq37jKMKYcF.jpg?ha=a45452a155b72d2cf9be61c3789210a40c22e552&quality=82&width=750",
-    "badge": null,
+    "badge": "recommended",
     "intro": "The Yamaha DXR12mkII and JBL PRX ONE represent two approaches to portable PA. The DXR12mkII is a traditional powered speaker with legendary Yamaha reliability. The PRX ONE is an all-in-one column array system that combines speakers, mixer, and effects. Both serve professionals but in fundamentally different ways.",
     "intro_es": "El Yamaha DXR12mkII y el JBL PRX ONE representa dos filosofías completamente diferentes para el sonido en vivo. El DXR12mkII es el altavoz PA tradicional y potente que se integra en sistemas existentes y escala para eventos grandes. El PRX ONE es el revolucionario sistema todo-en-uno que combina altavoz, subwoofer y mezclador en una sola caja. Uno es un componente, el otro es un sistema completo.",
     "sections": [
@@ -10462,7 +10524,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Yamaha",
-          "val2": "JBL"
+          "val2": "JBL",
+          "val1_es": "Yamaha",
+          "val2_es": "JBL"
         },
         {
           "label": "Rating",
@@ -10581,7 +10645,7 @@
     "title_es": "Player Strat vs Pacifica: Guitarra Principiante (2026)",
     "category": "guitars",
     "image": "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10001/0144522500_gtr_frt_001_rr.png",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Fender Player Stratocaster and Yamaha Pacifica 112V are two of the best-selling electric guitars for beginners and intermediate players. The Player Strat carries the iconic Fender name with modern features. The Pacifica 112V has a reputation for punching way above its weight class in quality and playability.",
     "intro_es": "La Fender Player Stratocaster y la Yamaha Pacifica 112V son dos de las guitarras eléctricas más vendidas para principiantes e intermedios. La Player Strat lleva el nombre icónico de Fender con características modernas. La Pacifica 112V tiene reputación de superar su clase en calidad y facilidad de ejecución.",
     "sections": [
@@ -10743,7 +10807,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Fender",
-          "val2": "Yamaha"
+          "val2": "Yamaha",
+          "val1_es": "Fender",
+          "val2_es": "Yamaha"
         },
         {
           "label": "Rating",
@@ -10871,7 +10937,7 @@
     "title_es": "American Pro II vs Les Paul: Guitarra Definitiva (2026)",
     "category": "guitars",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/500467.jpg",
-    "badge": null,
+    "badge": "premium",
     "intro": "The Fender American Professional II Stratocaster and Gibson Les Paul Standard 60s are the two most iconic electric guitar models in history. The Strat is the sound of versatility and cutting through a mix. The Les Paul is the sound of power and sustain. Comparing them is like comparing a scalpel to a sledgehammer.",
     "intro_es": "La Fender American Professional II Stratocaster y la Gibson Les Paul Standard 60s son los dos modelos de guitarra eléctrica más icónicos de la historia. La Strat es el sonido de la versatilidad y de cortar a través de la mezcla. La Les Paul es el sonido del poder y el sustain. Compararlas es como comparar un bisturí con un mazo.",
     "sections": [
@@ -11033,7 +11099,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Fender",
-          "val2": "Gibson"
+          "val2": "Gibson",
+          "val1_es": "Fender",
+          "val2_es": "Gibson"
         },
         {
           "label": "Rating",
@@ -11161,7 +11229,7 @@
     "title_es": "Martin D-28 vs Taylor 314ce: Guitarras Acústicas (2026)",
     "category": "guitars",
     "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/23980/86512/282556-1530186278494__96392.1736787229.jpg?c=1",
-    "badge": null,
+    "badge": "premium",
     "intro": "The Martin D-28 and Taylor 314ce are the two most iconic acoustic guitars in the world. The Martin D-28 defined the dreadnought sound that shaped folk, bluegrass, and country music. The Taylor 314ce represents modern acoustic innovation with its Grand Auditorium shape. One is tradition, the other is evolution.",
     "intro_es": "La Martin D-28 y la Taylor 314ce son las dos guitarras acústicas más icónicas del mundo. La Martin D-28 definió el sonido dreadnought que moldeó la música folk, bluegrass y country. La Taylor 314ce representa la innovación acústica moderna con su forma Grand Auditorium. Una es tradición, la otra es evolución.",
     "sections": [
@@ -11317,7 +11385,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Martin",
-          "val2": "Taylor"
+          "val2": "Taylor",
+          "val1_es": "Martin",
+          "val2_es": "Taylor"
         },
         {
           "label": "Rating",
@@ -11436,7 +11506,7 @@
     "title_es": "Ableton Live 12 vs FL Studio: Mejor DAW (2026)",
     "category": "daw",
     "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/32956/143300/89145-Ableton_Live_12_Suite__07771.1741689653.jpg?c=1",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "Ableton Live 12 Suite and FL Studio Producer Edition are two of the most powerful DAWs for music production. Ableton Live defined modern electronic music production. FL Studio pioneered the pattern-based workflow that made beat-making accessible to millions. Both are complete production environments with fundamentally different workflows.",
     "intro_es": "Ableton Live 12 Suite y FL Studio Producer Edition son dos de los DAWs más potentes para la producción musical. Ableton Live definió la producción moderna de música electrónica. FL Studio fue pionero en el flujo de trabajo basado en patrones que hizo la creación de beats accesible a millones de personas. Ambos son entornos de producción completos con flujos de trabajo fundamentalmente diferentes.",
     "sections": [
@@ -11592,7 +11662,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Ableton",
-          "val2": "Image-Line"
+          "val2": "Image-Line",
+          "val1_es": "Ableton",
+          "val2_es": "Image-Line"
         },
         {
           "label": "Rating",
@@ -11630,7 +11702,9 @@
           "label": "Effects",
           "label_es": "Efectos",
           "val1": "90+",
-          "val2": "70+"
+          "val2": "70+",
+          "val1_es": "90+",
+          "val2_es": "70+"
         }
       ]
     },
@@ -11710,7 +11784,7 @@
     "title_es": "Pro Tools Studio vs Cubase Pro 15: Mejor DAW (2026)",
     "category": "daw",
     "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/2437/8698/360442-96514-Prp-Tools-w-Annual-Upgrade-Plan_3D__82902.1772123168.jpg?c=1",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "Avid Pro Tools Studio and Steinberg Cubase Pro 15 are the two most established DAWs for professional recording and mixing. Pro Tools is the industry standard found in virtually every professional studio. Cubase has evolved into a powerhouse of composition, scoring, and mixing. Both are serious professional tools.",
     "intro_es": "Avid Pro Tools Studio y Steinberg Cubase Pro 15 son los dos DAWs más establecidos para grabación y mezcla profesional. Pro Tools es el estándar de la industria que se encuentra en prácticamente todos los estudios profesionales. Cubase ha evolucionado hasta convertirse en una potencia de composición, orquestación y mezcla. Ambos son herramientas profesionales serias.",
     "sections": [
@@ -11866,7 +11940,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Avid",
-          "val2": "Steinberg"
+          "val2": "Steinberg",
+          "val1_es": "Avid",
+          "val2_es": "Steinberg"
         },
         {
           "label": "Rating",
@@ -11986,7 +12062,7 @@
     "title_es": "Blues Junior vs AC30: Mejor Amplificador Válvulas (2026)",
     "category": "amps",
     "image": "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=1500/https://www.fmicassets.com/Damroot/eCommPNG/10036/2231504000_amp_frt_1_nr.png",
-    "badge": null,
+    "badge": "bestSeller",
     "intro": "The Fender Blues Junior IV and Vox AC30 are two of the most iconic guitar amplifiers ever made. The Blues Junior is the affordable tube amp that defined the tone of blues and roots music. The AC30 is the British legend that powered the British Invasion and alternative rock. Both are all-tube combos with distinct personalities.",
     "intro_es": "El Fender Blues Junior IV y el Vox AC30 son dos de los amplificadores de guitarra más icónicos jamás fabricados. El Blues Junior es el amplificador de tubo asequible que definió el tono del blues y la música roots. El AC30 es la leyenda británica que impulsó la Invasión Británica y el rock alternativo. Ambos son combos totalmente a válvulas con personalidades distintas.",
     "sections": [
@@ -12148,7 +12224,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Fender",
-          "val2": "Vox"
+          "val2": "Vox",
+          "val1_es": "Fender",
+          "val2_es": "Vox"
         },
         {
           "label": "Rating",
@@ -12178,7 +12256,9 @@
           "label": "Tubes",
           "label_es": "Válvulas",
           "val1": "3 x 12AX7, 2 x EL84",
-          "val2": "3 x 12AX7, 4 x EL84"
+          "val2": "3 x 12AX7, 4 x EL84",
+          "val1_es": "3 x 12AX7, 2 x EL84",
+          "val2_es": "3 x 12AX7, 4 x EL84"
         },
         {
           "label": "Channels",
@@ -12272,8 +12352,8 @@
     "title": "Katana 50 vs DSL40CR: Modeling vs Tube Amp (2026)",
     "title_es": "Katana 50 vs DSL40CR: Modelado vs Válvulas (2026)",
     "category": "amps",
-    "image": "../img/boss-katana.webp",
-    "badge": null,
+    "image": "img/boss-katana.webp",
+    "badge": "bestSeller",
     "intro": "The Boss Katana 50 MkII and Marshall DSL40CR represent the two paths guitar players can take: modern modeling or traditional all-tube. The Katana has become one of the best-selling amps of its generation with incredible versatility. The DSL40CR gives you authentic Marshall tube tone at a price working musicians can afford.",
     "intro_es": "El Boss Katana 50 MkII y el Marshall DSL40CR representa los dos caminos que los guitarristas pueden tomar: modelado moderno o tubo tradicional. El Katana se ha convertido en el amplificador más vendido de su generación con una versatilidad increíble. El DSL40CR te da auténtico tono Marshall de tubo a un precio que los músicos trabajadores pueden pagar.",
     "sections": [
@@ -12435,7 +12515,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "Boss",
-          "val2": "Marshall"
+          "val2": "Marshall",
+          "val1_es": "Boss",
+          "val2_es": "Marshall"
         },
         {
           "label": "Rating",
@@ -12563,8 +12645,8 @@
     "title": "FabFilter vs iZotope Ozone: Best Mixing Suite (2026)",
     "title_es": "FabFilter vs iZotope Ozone: Mejor Suite de Mezcla (2026)",
     "category": "plugins",
-    "image": "../img/fabfilter-total.webp",
-    "badge": null,
+    "image": "img/fabfilter-total.webp",
+    "badge": "bestSeller",
     "intro": "The FabFilter Total Bundle and iZotope Ozone 12 Advanced represent two philosophies of audio processing. FabFilter gives you pristine, surgical tools for total control. iZotope gives you AI-assisted integrated mastering that makes intelligent decisions. One is a scalpel, the other is a smart assistant.",
     "intro_es": "El FabFilter Total Bundle y el iZotope Ozone 12 Advanced representa dos filosofías de procesamiento de audio. FabFilter te da herramientas prístinas y quirúrgicas para control total. iZotope te da masterización asistida por IA que toma decisiones inteligentes. Uno es un bisturí, el otro es un asistente inteligente.",
     "sections": [
@@ -12714,7 +12796,9 @@
           "label": "Brand",
           "label_es": "Marca",
           "val1": "FabFilter",
-          "val2": "iZotope"
+          "val2": "iZotope",
+          "val1_es": "FabFilter",
+          "val2_es": "iZotope"
         },
         {
           "label": "Rating",
@@ -12825,7 +12909,7 @@
     "title_es": "Mejor Guitarra para Home Office y Trabajo Remoto (2026)",
     "category": "guitars",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429087.jpg",
-    "badge": null,
+    "badge": "recommended",
     "intro": "Working from home doesn't mean you can't play. Whether you're grabbing a quick practice session between meetings or winding down after a long day of remote work, the right guitar setup makes all the difference. I've spent 20+ years finding ways to play in apartments, hotel rooms, and shared spaces. These are the guitars and amps that let you make music without disturbing the neighbours — or your Zoom call.",
     "intro_es": "Trabajar desde casa no significa que no puedas tocar. Ya sea que aproveches un descanso entre reuniones para practicar o quieras relajarte después de un largo día de trabajo remoto, la configuración adecuada marca la diferencia. He pasado más de 20 años encontrando formas de tocar en apartamentos, habitaciones de hotel y espacios compartidos. Estas son las guitarras y amplificadores que te permiten hacer música sin molestar a los vecinos — ni a tu llamada de Zoom.",
     "sections": [
@@ -12949,7 +13033,7 @@
     "title_es": "Cómo Solucionar el Recorte (Clipping) en Focusrite Scarlett 2i2 (Guía Completa)",
     "category": "interfaces",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/566684.jpg",
-    "badge": null,
+    "badge": "recommended",
     "intro": "Clipping on a Focusrite Scarlett 2i2 is almost always a gain staging issue, not a hardware defect. The interface has clean preamps for its price range, but every preamp has a ceiling. The solution is understanding where that ceiling is and working within it.",
     "intro_es": "El clipping en una Focusrite Scarlett 2i2 casi siempre se debe a cómo se ajusta la ganancia, no a un defecto del equipo. La interfaz tiene preamplificadores limpios para su rango de precio, pero todo previo tiene un límite. La solución es entender dónde está ese límite y trabajar dentro de él.",
     "sections": [
@@ -13085,7 +13169,7 @@
     "title_es": "Mejor Micrófono Dinámico para Grabar Amplificadores de Guitarra en Casa (2026)",
     "category": "microphones",
     "image": "https://media.sweetwater.com/m/products/image/8cc557164ei09SdpOiJJ8j2UgW5tRIRPcRVVipe6.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=8cc557164e165612",
-    "badge": null,
+    "badge": "recommended",
     "intro": "Recording a guitar amplifier has its own rules. Sound pressure levels from a cranked amp exceed 120 dB SPL, and not every mic handles that well. Dynamic mics are the most practical choice: they handle high SPL, reject room noise, and deliver a focused sound that sits well in a mix. These are the ones worth considering.",
     "intro_es": "Grabar un amplificador de guitarra tiene sus propias reglas. Los niveles de presión sonora de un amp cranked superan los 120 dB SPL, y no todos los micrófonos manejan eso bien. Los micrófonos dinámicos son la opción más práctica: soportan alto SPL, rechazan el ruido de sala y entregan un sonido enfocado que se sienta bien en la mezcla. Estos son los que valen la pena considerar.",
     "sections": [
@@ -13212,7 +13296,7 @@
     "title_es": "Mejor Micrófono para Podcasting (2026) — Las Mejores Opciones para Grabación de Voz",
     "category": "microphones",
     "image": "https://media.sweetwater.com/m/products/image/6d2c512a92Rov0eryrfK2jdkFSLhFkOUiy3nNCLK.jpg?quality=82&width=1080&height=1080&fit=bounds&canvas=1080%2C1080&ha=6d2c512a928017f5",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "Choosing a microphone for podcasting depends more on your recording environment than your budget. A dynamic mic in an untreated room sounds better than an expensive condenser in the same space. The priority is getting a clean signal with minimal room noise. These are the mics that deliver best for each situation.",
     "intro_es": "Elegir un micrófono para podcasting depende más del entorno de grabación que del presupuesto. Un micrófono dinámico en una sala sin tratar suena mejor que un condensador costoso en el mismo espacio. La prioridad es conseguir una señal limpia con el mínimo ruido de ambiente. Estos son los micrófonos que cumplen mejor según cada situación.",
     "sections": [
@@ -13344,7 +13428,7 @@
     "title_es": "Mejor DAW para Principiantes en 2026 — ¿Qué Software Deberías Usar para Empezar?",
     "category": "daw",
     "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/32956/143300/89145-Ableton_Live_12_Suite__07771.1741689653.jpg?c=1",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "Choosing your first DAW (Digital Audio Workstation) is overwhelming — there are dozens of options, each with passionate advocates. After 20 years of using Ableton Live, FL Studio, Pro Tools, Cubase, Logic Pro, and Reason, I will help you pick the right one based on what kind of music you want to make and what gear you have. The good news: there is no wrong choice, but some DAWs are better for beginners than others.",
     "intro_es": "Elegir tu primer DAW es abrumador — hay docenas de opciones. Después de 20 años usando Ableton Live, FL Studio, Pro Tools, Cubase, Logic Pro y Reason, te ayudaré a elegir el correcto según el tipo de música que quieras hacer. La buena noticia: no hay elección incorrecta, pero algunos DAWs son mejores para principiantes.",
     "sections": [
@@ -13470,7 +13554,7 @@
     "title_es": "Mejores Auriculares para Mezcla y Masterización con Presupuesto Ajustado (2026)",
     "category": "headphones",
     "image": "img/dt990pro.webp",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "Mixing on headphones is no longer a compromise — modern headphones deliver frequency response and detail that rival studio monitors. But not all headphones are suitable for critical mixing. You need a neutral, detailed sound that translates well to other systems. After years of mixing on headphones in home studios, here are my top picks for every budget.",
     "intro_es": "Mezclar en auriculares ya no es un compromiso — los auriculares modernos ofrecen una respuesta de frecuencia que rivaliza con los monitores de estudio. Pero no todos son adecuados para mezcla crítica. Necesitas un sonido neutro y detallado que se traduzca bien a otros sistemas.",
     "sections": [
@@ -13600,7 +13684,7 @@
     "title_es": "Mejores Monitores de Estudio para Habitaciones Pequeñas y Apartamentos (2026)",
     "category": "monitors",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/315822.jpg",
-    "badge": null,
+    "badge": "recommended",
     "intro": "Mixing in a small untreated room is one of the biggest challenges for home studio producers. The wrong monitors will give you false information — making your bass sound full when it is actually thin, or making your mix sound balanced when it is actually a mess. After testing dozens of monitors in small rooms, here are the ones that actually work in tight spaces.",
     "intro_es": "Mezclar en una habitación pequeña sin tratar es uno de los mayores desafíos para productores de home studio. Los monitores incorrectos te darán información falsa. Después de probar docenas de monitores en habitaciones pequeñas, aquí están los que realmente funcionan.",
     "sections": [
@@ -13728,7 +13812,7 @@
     "title_es": "Mejor Guitarra Eléctrica para Principiantes en 2026 — Qué Comprar y Por Qué",
     "category": "guitars",
     "image": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/429087.jpg",
-    "badge": null,
+    "badge": "topQuality",
     "intro": "Choosing your first electric guitar is exciting and overwhelming. The wrong choice can make learning frustrating; the right choice makes you want to play every day. After playing and reviewing dozens of beginner guitars, here are my top recommendations for every budget — plus exactly what to look for when buying your first guitar.",
     "intro_es": "Elegir tu primera guitarra eléctrica es emocionante y abrumador. La elección incorrecta puede hacer frustrante el aprendizaje. Después de tocar y revisar docenas de guitarras para principiantes, aquí están mis recomendaciones para cada presupuesto.",
     "sections": [
