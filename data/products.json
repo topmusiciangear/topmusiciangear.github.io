@@ -1615,6 +1615,23 @@
     }
   },
   {
+    "id": 111,
+    "title": "Logic Pro",
+    "title_es": "Logic Pro",
+    "brand": "Apple",
+    "category": "daw",
+    "price": 199,
+    "rating": 4.8,
+    "reviews": 34500,
+    "badge": "bestSeller",
+    "desc": "The best value DAW for Mac. A complete music production studio with AI Session Players, Stem Splitter, ChromaGlow, Dolby Atmos, Alchemy synth, and 10,000+ Apple Loops. One-time purchase with all major updates free.",
+    "desc_es": "El mejor DAW calidad-precio para Mac. Estudio de producción musical completo con Session Players IA, Stem Splitter, ChromaGlow, Dolby Atmos, sintetizador Alchemy y más de 10,000 Apple Loops. Compra única con actualizaciones gratuitas.",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/ca/f0/facaf02c-9ba7-41fe-0f80-178513d4d3a5/AppIcon-0-85-220-0-6-0-0-2x-0-0-0-0-0.png/600x600bb.png",
+    "stores": {
+      "macappstore": "https://apps.apple.com/us/app/logic-pro/id634148309?mt=12"
+    }
+  },
+  {
     "id": 112,
     "title": "FL Studio Producer Edition",
     "title_es": "FL Studio Edición Producer",
