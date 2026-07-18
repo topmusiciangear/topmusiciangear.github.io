@@ -1310,6 +1310,18 @@ footer ul li a:hover { color: var(--accent); }
   padding: 20px 32px 60px;
 }
 
+@media (max-width: 768px) {
+  .guide-detail {
+    padding: 16px 16px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guide-detail {
+    padding: 12px 12px 32px;
+  }
+}
+
 .guide-detail-header {
   margin-bottom: 24px;
 }
