@@ -621,6 +621,9 @@ nav {
   display: flex;
   justify-content: center;
 }
+.audio-mini-mobile {
+  display: none;
+}
 
 .audio-mini-inner {
   display: flex;
@@ -1825,6 +1828,9 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 768px) {
+  .audio-mini-mobile {
+    display: block;
+  }
   .audio-mini-mobile .audio-mini-inner {
     flex-direction: column;
     align-items: center;

@@ -644,23 +644,14 @@ function renderGuideDetailFromData(id) {
 }
 
 function renderAudioMini() {
+  const isMobile = window.matchMedia('(max-width:767px)').matches;
+  const targetId = isMobile ? 'audioMiniMobile' : 'audioMini';
   const audioHtml = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="none"><source src="https://topmusiciangear.com/audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
-  const desktop = document.getElementById('audioMini');
-  if (desktop) {
-    desktop.innerHTML = audioHtml;
+  const el = document.getElementById(targetId);
+  if (el) {
+    el.innerHTML = audioHtml;
     setTimeout(() => {
-      desktop.querySelectorAll('audio').forEach(audio => {
-        audio.addEventListener('play', () => audio.closest('.audio-mini-inner').classList.add('playing'));
-        audio.addEventListener('pause', () => audio.closest('.audio-mini-inner').classList.remove('playing'));
-        audio.addEventListener('ended', () => audio.closest('.audio-mini-inner').classList.remove('playing'));
-      });
-    }, 100);
-  }
-  const mobile = document.getElementById('audioMiniMobile');
-  if (mobile) {
-    mobile.innerHTML = audioHtml;
-    setTimeout(() => {
-      mobile.querySelectorAll('audio').forEach(audio => {
+      el.querySelectorAll('audio').forEach(audio => {
         audio.addEventListener('play', () => audio.closest('.audio-mini-inner').classList.add('playing'));
         audio.addEventListener('pause', () => audio.closest('.audio-mini-inner').classList.remove('playing'));
         audio.addEventListener('ended', () => audio.closest('.audio-mini-inner').classList.remove('playing'));
