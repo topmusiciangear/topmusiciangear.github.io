@@ -1423,6 +1423,10 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-content strong {
   color: var(--white);
 }
+.guide-section-content a {
+  color: var(--accent);
+  text-decoration: underline;
+}
 .guide-section-imgs {
   display: flex;
   gap: 12px;
