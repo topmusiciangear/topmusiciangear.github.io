@@ -412,6 +412,10 @@ function renderGuideGrid() {
   if (statsBar) statsBar.style.display = "";
   const heroTelegram = document.querySelector(".hero-telegram-wrapper");
   if (heroTelegram) heroTelegram.style.display = "";
+  const mySetup = document.querySelector(".my-setup");
+  if (mySetup) mySetup.style.display = "";
+  const aboutSection = document.querySelector("#about");
+  if (aboutSection) aboutSection.style.display = "";
   const filtered = getFilteredGuides();
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="no-results"><h3><svg data-fa="music" class="icon fa-solid fa-music" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> ${t("noGuides")}</h3><p>${t("noGuidesDesc")}</p></div>`;
@@ -533,6 +537,10 @@ function renderGuideDetailFromData(id) {
   if (statsBar) statsBar.style.display = "none";
   const heroTelegram = document.querySelector(".hero-telegram-wrapper");
   if (heroTelegram) heroTelegram.style.display = "none";
+  const mySetup = document.querySelector(".my-setup");
+  if (mySetup) mySetup.style.display = "none";
+  const aboutSection = document.querySelector("#about");
+  if (aboutSection) aboutSection.style.display = "none";
 
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
