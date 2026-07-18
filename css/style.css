@@ -1825,7 +1825,6 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 768px) {
-  .audio-mini-mobile { display: none; }
   .audio-mini-mobile .audio-mini-inner {
     flex-direction: column;
     align-items: center;
