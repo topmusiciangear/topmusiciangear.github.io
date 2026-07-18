@@ -633,8 +633,12 @@ function renderGuideDetailFromData(id) {
   if (!skipDetailScroll) {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        var el = document.getElementById("guideGrid");
-        if (el) el.scrollIntoView({ block: "start" });
+        if (window.matchMedia('(max-width:767px)').matches) {
+          window.scrollTo(0, 0);
+        } else {
+          var el = document.getElementById("guideGrid");
+          if (el) el.scrollIntoView({ block: "start" });
+        }
       });
     });
   }
