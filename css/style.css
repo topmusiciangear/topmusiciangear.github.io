@@ -1518,14 +1518,18 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Guide Verdict */
 .guide-verdict {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  display: block;
   background: rgba(59,130,246,.08);
   border: 1px solid rgba(59,130,246,.2);
   border-radius: var(--radius);
   padding: 14px 22px;
   margin-bottom: 40px;
+}
+
+.guide-verdict-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .verdict-label {
@@ -1543,6 +1547,112 @@ footer ul li a:hover { color: var(--accent); }
   font-weight: 700;
   color: var(--white);
   min-width: 0;
+}
+
+.guide-verdict-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(59,130,246,.15);
+}
+
+.verdict-col {
+  min-width: 0;
+}
+
+.verdict-col:first-child {
+  padding-right: 20px;
+  border-right: 1px solid rgba(59,130,246,.15);
+}
+
+.verdict-col:last-child {
+  padding-left: 20px;
+}
+
+.verdict-product-name {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.verdict-list-group {
+  margin-bottom: 12px;
+}
+
+.verdict-list-group:last-child {
+  margin-bottom: 0;
+}
+
+.verdict-list-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.verdict-list-label.pros {
+  color: #34d399;
+  background: rgba(52,211,153,.12);
+}
+
+.verdict-list-label.cons {
+  color: #f87171;
+  background: rgba(248,113,113,.12);
+}
+
+.verdict-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.verdict-col li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding: 2px 0 2px 14px;
+  position: relative;
+}
+
+.verdict-col li::before {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.verdict-pros-list li::before {
+  content: "+";
+  color: #34d399;
+}
+
+.verdict-cons-list li::before {
+  content: "\2013";
+  color: #f87171;
+}
+
+@media (max-width: 768px) {
+  .guide-verdict-grid {
+    grid-template-columns: 1fr;
+  }
+  .verdict-col:first-child {
+    padding-right: 0;
+    padding-bottom: 14px;
+    border-right: none;
+    border-bottom: 1px solid rgba(59,130,246,.15);
+  }
+  .verdict-col:last-child {
+    padding-left: 0;
+    padding-top: 12px;
+  }
 }
 
 /* Guide Conclusion */

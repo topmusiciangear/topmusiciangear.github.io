@@ -497,6 +497,16 @@ function renderGuideDetail(id) {
   });
 }
 
+function renderVerdictGrid(guide, lang) {
+  var isEs = lang === 'es';
+  return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p) {
+    var name = isEs && p.name_es ? p.name_es : p.name;
+    var pros = isEs && p.pros_es ? p.pros_es : p.pros;
+    var cons = isEs && p.cons_es ? p.cons_es : p.cons;
+    return '<div class="verdict-col"><div class="verdict-product-name">' + name + '</div><div class="verdict-list-group"><span class="verdict-list-label pros">' + (isEs ? 'Pros' : 'Pros') + '</span><ul class="verdict-pros-list">' + pros.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">' + (isEs ? 'Contras' : 'Cons') + '</span><ul class="verdict-cons-list">' + cons.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul></div></div>';
+  }).join('') + '</div>';
+}
+
 function renderGuideDetailFromData(id) {
   const guide = guides.find(g => g.id === id);
   if (!guide) return;
@@ -562,8 +572,11 @@ function renderGuideDetailFromData(id) {
       ${snippetHtml}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-verdict">
-        <span class="verdict-label">${t("verdict")}</span>
-        <span class="verdict-text">${currentLang === 'es' && guide.verdict_es ? guide.verdict_es : guide.verdict}</span>
+        <div class="guide-verdict-header">
+          <span class="verdict-label">${t("verdict")}</span>
+          <span class="verdict-text">${currentLang === 'es' && guide.verdict_es ? guide.verdict_es : guide.verdict}</span>
+        </div>
+        ${guide.verdictProsCons ? renderVerdictGrid(guide, currentLang) : ''}
       </div>
       ${allProductsHtml ? `<div class="guide-products-grid"><h2 class="guide-products-title">${t("productsInGuide")}</h2><div class="guide-products-cards">${allProductsHtml}</div></div>` : ""}
       <div class="guide-conclusion">

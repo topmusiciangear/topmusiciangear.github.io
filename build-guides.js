@@ -545,8 +545,11 @@ ${ogMeta}
       </div>` : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-verdict">
-        <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
-        <span class="verdict-text">${verdict}</span>
+        <div class="guide-verdict-header">
+          <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
+          <span class="verdict-text">${verdict}</span>
+        </div>
+        ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div><div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div></div>' }).join('') + '</div>'; })() : ''}
       </div>
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       <div class="guide-conclusion">
