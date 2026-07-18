@@ -1134,6 +1134,9 @@ footer ul li a:hover { color: var(--accent); }
   scroll-margin-top: 80px;
   padding: 64px 32px;
 }
+.guides-section.guide-detail-active {
+  padding: 0;
+}
 
 .guides-inner {
   width: 100%;
@@ -1301,6 +1304,10 @@ footer ul li a:hover { color: var(--accent); }
 .guide-back-btn:hover {
   background: #2563eb;
   color: white;
+}
+
+.guide-detail {
+  padding: 20px 32px 60px;
 }
 
 .guide-detail-header {

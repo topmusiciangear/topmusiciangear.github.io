@@ -400,6 +400,7 @@ function renderGuideGrid() {
   if (!grid) return;
   grid.style.display = "";
   container.classList.remove("guide-detail-open");
+  document.querySelector(".guides-section").classList.remove("guide-detail-active");
   document.getElementById("guideCats").style.display = "";
   const sortBar = document.querySelector(".sort-bar");
   if (sortBar) sortBar.style.display = "";
@@ -520,6 +521,7 @@ function renderGuideDetailFromData(id) {
   grid.style.display = "block";
   const container = document.getElementById("guideContainer");
   container.classList.add("guide-detail-open");
+  document.querySelector(".guides-section").classList.add("guide-detail-active");
   document.getElementById("guideCats").style.display = "none";
   const sortBar = document.querySelector(".sort-bar");
   if (sortBar) sortBar.style.display = "none";
