@@ -938,10 +938,15 @@ document.addEventListener("DOMContentLoaded", () => {
   var storedLang = localStorage.getItem("lang");
   if (langParam === 'es' || langParam === 'en') {
     currentLang = langParam;
-  } else if (storedLang === 'es' || storedLang === 'en') {
-    currentLang = storedLang;
   } else {
-    currentLang = "en";
+    var pathMatch = window.location.pathname.match(/\/guides\/(.+?)\.html/);
+    if (pathMatch) {
+      currentLang = pathMatch[1].endsWith('_es') ? 'es' : 'en';
+    } else if (storedLang === 'es' || storedLang === 'en') {
+      currentLang = storedLang;
+    } else {
+      currentLang = "en";
+    }
   }
   localStorage.setItem("lang", currentLang);
   document.documentElement.lang = currentLang;

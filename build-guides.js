@@ -529,7 +529,7 @@ ${ogMeta}
         <a href="/">Home</a> / <a href="/#guides">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
       <div class="guide-back-row">
-        <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Todas las Guías' : 'Back to All Guides'}</a>
+        <a href="/" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
