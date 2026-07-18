@@ -405,6 +405,8 @@ function renderGuideGrid() {
   if (sortBar) sortBar.style.display = "";
   const sectionHeader = document.querySelector("#guides .section-header");
   if (sectionHeader) sectionHeader.style.display = "";
+  const heroSection = document.querySelector(".hero");
+  if (heroSection) heroSection.style.display = "";
   const filtered = getFilteredGuides();
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="no-results"><h3><svg data-fa="music" class="icon fa-solid fa-music" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> ${t("noGuides")}</h3><p>${t("noGuidesDesc")}</p></div>`;
@@ -488,13 +490,7 @@ function boldFirstSentence(html) {
 }
 
 function renderGuideDetail(id) {
-  fetch('https://topmusiciangear.com/data/guides.json?v=' + Date.now()).then(function(r) {
-    if (!r.ok) throw new Error('Failed to load guides');
-    return r.json();
-  }).then(function(d) {
-    guides = d;
-    renderGuideDetailFromData(id);
-  });
+  renderGuideDetailFromData(id);
 }
 
 function renderVerdictGrid(guide, lang) {
@@ -525,6 +521,8 @@ function renderGuideDetailFromData(id) {
   if (sortBar) sortBar.style.display = "none";
   const sectionHeader = document.querySelector("#guides .section-header");
   if (sectionHeader) sectionHeader.style.display = "none";
+  const heroSection = document.querySelector(".hero");
+  if (heroSection) heroSection.style.display = "none";
 
   const catName = getCatName(guide.category);
   const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
