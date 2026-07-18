@@ -512,8 +512,6 @@ ${ogMeta}
     </div>
   </header>
 
-  <div class="header-tagline-bar">${isEs ? 'Encuentra las Mejores Ofertas en las Principales Tiendas de Música' : 'Find the Best Deals Across Top Music Stores'}</div>
-
   <div class="mobile-nav" id="mobileNav">
     <a class="nav-link" href="/#guides">${isEs ? 'Guías' : 'Guides'}</a>
     <a class="nav-link" href="/#mysetup">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
