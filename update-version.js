@@ -5,8 +5,6 @@ var ver=path.join(__dirname,'version.txt');
 var t=Math.random().toString(36).slice(2,10);
 var h=fs.readFileSync(idx,'utf8');
 h=h.replace(/v="[a-z0-9]+"/,'v="'+t+'"');
-h=h.replace(/(app\.min\.js\?v=)[a-z0-9]+/, '$1'+t);
-h=h.replace(/(constants\.min\.js\?v=)[0-9]+/, '$1'+Date.now().toString(36));
 fs.writeFileSync(idx,h);
 fs.writeFileSync(ver,t);
 console.log('Version updated to: '+t);

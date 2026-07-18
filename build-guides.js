@@ -735,11 +735,14 @@ buildSitemap();
   var indexFile = path.join(dir, 'index.html');
   var html = fs.readFileSync(indexFile, 'utf8');
   // Update CSS cache buster
-  html = html.replace(/(css\/style\.css\?v=)[a-z0-9]+/g, '$1' + cacheVerCss);
+  html = html.replace(/(css\/style\.min\.css\?v=)[a-z0-9]+/g, '$1' + cacheVerCss);
   // Update JS cache buster (min.js first to avoid partial match by app.js regex)
   // Append dataVer so JS cache busters change when guides.json data changes
-  html = html.replace(/(js\/app\.min\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJsMin + dataVer);
+  var jsVer = cacheVerJsMin + dataVer;
+  html = html.replace(/(js\/app\.min\.js\?v=)[a-z0-9]+/g, '$1' + jsVer);
   html = html.replace(/(js\/app\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJs + dataVer);
+  // Sync inline version check variable
+  html = html.replace(/v="[a-z0-9]+"/, 'v="' + jsVer + '"');
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
     var esUrl = '/guides/' + g.id + '_es.html';
@@ -758,6 +761,8 @@ buildSitemap();
     }
   }
   fs.writeFileSync(indexFile, html, 'utf8');
+  // Sync version.txt with the JS cache buster hash
+  try { fs.writeFileSync(path.join(dir, 'version.txt'), jsVer, 'utf8'); console.log('Updated: version.txt (' + jsVer + ')'); } catch(e) { console.log('Warning: could not update version.txt (' + e.message + ')'); }
 })();
 
 // ===== GENERATE IMAGE SITEMAP =====
@@ -794,8 +799,5 @@ buildImageSitemap();
 // Write back pre-bolded data/guides.json for SPA consumption
 fs.writeFileSync(path.join(dir, 'data', 'guides.json'), JSON.stringify(guides, null, 2), 'utf8');
 console.log('Updated: data/guides.json with pre-bolded content');
-
-// Write current commit hash to version.txt for cache-busting
-try { var hash = require('child_process').execSync('git rev-parse --short HEAD', { encoding: 'utf8' }).trim(); fs.writeFileSync(path.join(dir, 'version.txt'), hash, 'utf8'); console.log('Updated: version.txt (' + hash + ')'); } catch(e) { console.log('Warning: could not update version.txt (' + e.message + ')'); }
 
 console.log(`\nDone! Generated ${guides.length * 2} guide pages.`);
