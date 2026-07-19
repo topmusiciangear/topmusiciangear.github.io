@@ -333,11 +333,11 @@ function getFilteredGuides() {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['pluginboutique','gear4music','sweetwater','musikproduktiv','amazon','reverb','andertons','musicstore'];
+  const allStoreKeys = ['pluginboutique','gear4music','musikproduktiv','amazon','reverb','andertons','musicstore'];
   const searchUrls = {
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
-    sweetwater: (t) => `https://www.sweetwater.com/store/search.php?s=${encodeURIComponent(t)}`,
+
     musikproduktiv: (t) => `https://www.musik-produktiv.de/suche?q=${encodeURIComponent(t)}`,
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
