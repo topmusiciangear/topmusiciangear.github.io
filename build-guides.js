@@ -101,6 +101,8 @@ const cacheVerJs = crypto.createHash('md5').update(fs.readFileSync(path.join(dir
 const cacheVerJsMin = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.min.js'))).digest('hex').slice(0, 8);
 const cacheVerCss = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'css', 'style.min.css'))).digest('hex').slice(0, 8);
 const today = new Date().toISOString().split('T')[0];
+const YEAR = new Date().getFullYear();
+const Y = (s) => typeof s === 'string' ? s.replace(/2026/g, String(YEAR)) : s;
 
 
 
@@ -203,10 +205,8 @@ function guideDates(guide, idx) {
 }
 
 function guideDesc(guide, introFallback, isEs) {
-  if (isEs) {
-    return guide.description_es || trunc(introFallback, 155);
-  }
-  return guide.description || trunc(introFallback, 155);
+  var d = isEs ? (guide.description_es || trunc(introFallback, 155)) : (guide.description || trunc(introFallback, 155));
+  return Y(d);
 }
 
 function esText(esVal, enVal) {
@@ -323,7 +323,7 @@ function normImg(path) {
 
 function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
-  const title = isEs && guide.title_es ? guide.title_es : guide.title;
+  const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
   const intro = esText(isEs && guide.intro_es, guide.intro);
   const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
   const verdict = esText(isEs && guide.verdict_es, guide.verdict);
@@ -780,8 +780,8 @@ buildSitemap();
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
     var esUrl = '/guides/' + g.id + '_es.html';
-    var title = g.title;
-    var titleEs = g.title_es || g.title;
+    var title = Y(g.title);
+    var titleEs = Y(g.title_es || g.title);
     return '<a href="' + enUrl + '" hreflang="en">' + title.replace(/"/g, '&quot;') + '</a>\n<a href="' + esUrl + '" hreflang="es">' + titleEs.replace(/"/g, '&quot;') + '</a>';
   }).join('\n');
   // Always write index.html (cache busters may have changed)

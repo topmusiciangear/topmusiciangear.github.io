@@ -1932,5 +1932,76 @@
       "musikproduktiv": "https://www.musik-produktiv.de/search",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FHeet-Sound-Products-E-Bow-Plus-MK-II-Sustainer%2Fart-ACC0000967-000"
     }
+  },
+  {
+    "id": 60,
+    "title": "UA 1176 Classic Limiter Collection",
+    "title_es": "Colección UA 1176 Classic Limiter",
+    "brand": "Universal Audio",
+    "category": "plugins",
+    "price": 149,
+    "rating": 4.9,
+    "reviews": 5678,
+    "badge": "legend",
+    "desc": "The definitive collection of the world's most famous compressor. Three authentic emulations of the iconic 1176 — Rev A Bluestripe, Rev E Blackface, and 1176AE Anniversary Edition. Lightning-fast FET compression with that unmistakable punch and character that shaped countless hit records.",
+    "desc_es": "La colección definitiva del compresor más famoso del mundo. Tres emulaciones auténticas del icónico 1176 — Rev A Bluestripe, Rev E Blackface y 1176AE Anniversary Edition. Compresión FET ultrarrápida con ese inconfundible punch y carácter.",
+    "img": "https://banners.pluginboutique.com/bcc0i3gkywjlk78rmotqlv0ywsno",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/9-Limiter/10153-1176-Classic-Limiter-Collection?a_aid=6a01e859cbe1a",
+      "sweetwater": "https://www.sweetwater.com/store/detail/UAD1176Coll--universal-audio-uad-1176-classic-limiter-collection-plug-in"
+    }
+  },
+  {
+    "id": 61,
+    "title": "TDR Kotelnikov",
+    "title_es": "TDR Kotelnikov",
+    "brand": "Tokyo Dawn Labs",
+    "category": "plugins",
+    "price": 0,
+    "rating": 4.7,
+    "reviews": 2345,
+    "badge": "recommended",
+    "desc": "Professional-grade mastering compressor with transparent dynamics. Features a unique adaptive release curve, soft/hard knee, and precision metering. Widely regarded as one of the best freeware compressors ever made.",
+    "desc_es": "Compresor de masterización de grado profesional con dinámica transparente. Cuenta con una curva de release adaptable única, knee suave/fuerte y medición de precisión. Ampliamente considerado uno de los mejores freeware jamás creados.",
+    "img": "https://www.tokyodawn.net/wp-content/uploads/2018/06/KotelnikovMain2.png",
+    "stores": {
+      "official": "https://www.tokyodawn.net/tdr-kotelnikov/"
+    }
+  },
+  {
+    "id": 62,
+    "title": "FabFilter Pro-Q 4",
+    "title_es": "FabFilter Pro-Q 4",
+    "brand": "FabFilter",
+    "category": "plugins",
+    "price": 199,
+    "rating": 4.9,
+    "reviews": 3456,
+    "badge": "premium",
+    "desc": "The world's most advanced equalizer. New spectral dynamics processing turns problematic resonances into musical opportunities. EQ Sketch for intuitive curve drawing, vintage saturation modes, and comprehensive Dolby Atmos support up to 9.1.6.",
+    "desc_es": "El ecualizador más avanzado del mundo. Nuevo procesamiento de dinámica espectral convierte resonancias problemáticas en oportunidades musicales. EQ Sketch para dibujo intuitivo de curvas, modos de saturación vintage y soporte Dolby Atmos hasta 9.1.6.",
+    "img": "https://banners.pluginboutique.com/ap542a6pmrj7m0youa26f7s57m90",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/16-EQ/14125-FabFilter-Pro-Q-4?a_aid=6a01e859cbe1a",
+      "sweetwater": "https://www.sweetwater.com/store/detail/FFProQ4--fabfilter-pro-q-4-eq-and-filter-plug-in"
+    }
+  },
+  {
+    "id": 63,
+    "title": "FabFilter Pro-C 3",
+    "title_es": "FabFilter Pro-C 3",
+    "brand": "FabFilter",
+    "category": "plugins",
+    "price": 199,
+    "rating": 4.8,
+    "reviews": 2345,
+    "badge": "premium",
+    "desc": "The ultimate compressor plug-in. 14 compression styles from transparent mastering control to aggressive pumping. Character modes with analog saturation, Dolby Atmos support, and advanced side-chain EQ. Everything you need in one elegant compressor.",
+    "desc_es": "El compresor definitivo. 14 estilos de compresión desde control transparente de masterización hasta pumping agresivo. Modos Character con saturación analógica, soporte Dolby Atmos y EQ de side-chain avanzado. Todo lo que necesitas en un elegante compresor.",
+    "img": "https://banners.pluginboutique.com/ykvi9ltc3xyzybhasaqd9j2awkeb",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16644-Pro-C-3?a_aid=6a01e859cbe1a",
+      "sweetwater": "https://www.sweetwater.com/store/detail/FFProC3--fabfilter-pro-c-3-compressor-plug-in"
+    }
   }
 ]
