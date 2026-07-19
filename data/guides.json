@@ -5493,6 +5493,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1965",
+          "val2": "1966",
+          "val1_es": "1965",
+          "val2_es": "1966"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$99 USD",
@@ -5775,6 +5783,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2024",
+          "val1_es": "2023",
+          "val2_es": "2024"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -6092,6 +6108,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1985",
+          "val2": "1985",
+          "val1_es": "1985",
+          "val2_es": "1985"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -6411,6 +6435,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2014",
+          "val2": "2021",
+          "val1_es": "2014",
+          "val2_es": "2021"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$698 USD",
@@ -6719,6 +6751,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2014",
+          "val2": "1991",
+          "val1_es": "2014",
+          "val2_es": "1991"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -7425,6 +7465,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2019",
+          "val2": "2019",
+          "val1_es": "2019",
+          "val2_es": "2019"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$899 USD",
@@ -7742,6 +7790,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2022",
+          "val1_es": "2023",
+          "val2_es": "2022"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -8062,6 +8118,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2020",
+          "val2": "2020",
+          "val1_es": "2020",
+          "val2_es": "2020"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$299 USD",
@@ -8381,6 +8445,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2019",
+          "val2": "2020",
+          "val1_es": "2019",
+          "val2_es": "2020"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$949 USD",
@@ -8693,6 +8765,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2021",
+          "val2": "2015",
+          "val1_es": "2021",
+          "val2_es": "2015"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$799 USD",
@@ -8997,6 +9077,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2018",
+          "val2": "2021",
+          "val1_es": "2018",
+          "val2_es": "2021"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -9308,6 +9396,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1997",
+          "val2": "1985",
+          "val1_es": "1997",
+          "val2_es": "1985"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -9628,6 +9724,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2014",
+          "val2": "1985",
+          "val1_es": "2014",
+          "val2_es": "1985"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$169 USD",
@@ -9947,6 +10051,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2019",
+          "val2": "1991",
+          "val1_es": "2019",
+          "val2_es": "1991"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$155 USD",
@@ -10260,6 +10372,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2001",
+          "val2": "2004",
+          "val1_es": "2001",
+          "val2_es": "2004"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$399 USD",
@@ -10566,6 +10686,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1965",
+          "val2": "1960",
+          "val1_es": "1965",
+          "val2_es": "1960"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$99 USD",
@@ -10871,6 +10999,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2008",
+          "val2": "1967",
+          "val1_es": "2008",
+          "val2_es": "1967"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$1.1k USD",
@@ -11174,6 +11310,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1970",
+          "val2": "2001",
+          "val1_es": "1970",
+          "val2_es": "2001"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -11480,6 +11624,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2017",
+          "val2": "2014",
+          "val1_es": "2017",
+          "val2_es": "2014"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$849 USD",
@@ -11782,6 +11934,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2013",
+          "val2": "2019",
+          "val1_es": "2013",
+          "val2_es": "2019"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -12086,6 +12246,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2016",
+          "val2": "2021",
+          "val1_es": "2016",
+          "val2_es": "2021"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -12396,6 +12564,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2018",
+          "val2": "2016",
+          "val1_es": "2018",
+          "val2_es": "2016"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -12716,6 +12892,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2020",
+          "val2": "1952",
+          "val1_es": "2020",
+          "val2_es": "1952"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$1.8k USD",
@@ -13029,6 +13213,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1931",
+          "val2": "1998",
+          "val1_es": "1931",
+          "val2_es": "1998"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$3.0k USD",
@@ -13332,6 +13524,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2024",
+          "val2": "2024",
+          "val1_es": "2024",
+          "val2_es": "2024"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -13637,6 +13837,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2022",
+          "val2": "2024",
+          "val1_es": "2022",
+          "val2_es": "2024"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -13948,6 +14156,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1995",
+          "val2": "1958",
+          "val1_es": "1995",
+          "val2_es": "1958"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -14267,6 +14483,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2016",
+          "val2": "2018",
+          "val1_es": "2016",
+          "val2_es": "2018"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$259 USD",
@@ -14582,6 +14806,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2002",
+          "val2": "2001",
+          "val1_es": "2002",
+          "val2_es": "2001"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
@@ -16918,6 +17150,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1982",
+          "val2": "1995",
+          "val1_es": "1982",
+          "val2_es": "1995"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$149",
@@ -18131,6 +18371,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2013",
+          "val2": "2022",
+          "val1_es": "2013",
+          "val2_es": "2022"
+        },
+        {
           "label": "Channels",
           "label_es": "Canales",
           "val1": "18",
@@ -18621,6 +18869,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2023",
+          "val1_es": "2023",
+          "val2_es": "2023"
+        },
+        {
           "label": "Keys",
           "label_es": "Teclas",
           "val1": "88 (Triple Sensor)",
@@ -18837,6 +19093,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2024",
+          "val2": "2018",
+          "val1_es": "2024",
+          "val2_es": "2018"
+        },
         {
           "label": "Tracks",
           "label_es": "Pistas",
@@ -19066,6 +19330,14 @@
     },
     "comparison": {
       "rows": [
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2002",
+          "val2": "2003",
+          "val1_es": "2002",
+          "val2_es": "2003"
+        },
         {
           "label": "Price",
           "label_es": "Precio",
