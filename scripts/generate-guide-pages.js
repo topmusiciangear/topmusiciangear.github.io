@@ -217,7 +217,6 @@ function renderGuidePage(g, lang) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://thumbs.static-thomann.de">
-  <link rel="preconnect" href="https://media.sweetwater.com">
   <link rel="preconnect" href="https://m.media-amazon.com">
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="dns-prefetch" href="https://reverb.com">
