@@ -430,9 +430,7 @@ function renderGuideGrid() {
   }
   grid.innerHTML = filtered.map(g => {
     const catName = getCatName(g.category);
-    const fullIntro = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
-    const shortIntro = fullIntro.length > 150 ? fullIntro.slice(0, 150) : fullIntro;
-    const needToggle = fullIntro.length > 150;
+    const introText = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
     return `
       <div class="guide-card-wrap">
         <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},'','/guides/'+id+(currentLang==='es'?'_es':'')+'.html'); renderGuideDetail(id);">
@@ -442,8 +440,7 @@ function renderGuideGrid() {
           </div>
           <div class="guide-card-body">
             <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
-            <p class="guide-card-intro"${needToggle ? ` data-full="${fullIntro.replace(/"/g, '&quot;').replace(/&/g, '&amp;')}"` : ''}>${shortIntro}${needToggle ? '…' : ''}</p>
-            ${needToggle ? `<button class="guide-card-desc-toggle" onclick="event.preventDefault();event.stopPropagation();var p=this.previousElementSibling,d=p.dataset;if(d.f){var t=d.f;d.f=p.textContent;p.textContent=t;this.textContent=d.f?'\u2212':'+'}else{d.f=p.textContent;p.textContent=d.full;this.textContent='\u2212'}">+</button>` : ''}
+            <p class="guide-card-intro">${introText}</p>
             <div class="guide-card-footer">
               <span class="guide-card-meta"><svg data-fa="clock" class="icon fa-regular fa-clock" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> 6 ${t("minRead")}</span>
               <span class="guide-card-btn">${t("readGuide")}</span>
