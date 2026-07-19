@@ -7,6 +7,27 @@ let disclosureBound = false;
 let guides = [];
 let products = [];
 
+function readingTime(guide, lang) {
+  var texts = [];
+  if (lang === 'es') {
+    if (guide.intro_es) texts.push(guide.intro_es);
+    if (guide.sections) guide.sections.forEach(function(s) { if (s.content_es) texts.push(s.content_es); });
+    if (guide.conclusion_es) texts.push(guide.conclusion_es);
+    if (guide.verdict_es) texts.push(guide.verdict_es);
+  } else {
+    if (guide.intro) texts.push(guide.intro);
+    if (guide.sections) guide.sections.forEach(function(s) { if (s.content) texts.push(s.content); });
+    if (guide.conclusion) texts.push(guide.conclusion);
+    if (guide.verdict) texts.push(guide.verdict);
+  }
+  var html = texts.join(' ');
+  var text = html.replace(/<[^>]*>/g, '');
+  text = text.replace(/&[a-z]+;/g, ' ');
+  text = text.replace(/[0-9.,$%]+/g, ' ');
+  var words = text.split(/\s+/).filter(function(w) { return w.length > 0; }).length;
+  return Math.max(1, Math.round(words / 200));
+}
+
 var faqBase = {
   microphones: [
     { q: "What is the best microphone for recording vocals?", q_es: "¿Cuál es el mejor micrófono para grabar voces?", a: "The Shure SM7B is the industry standard for professional vocal recording, used on countless hit records. For home studios on a budget, the Rode NT1-A delivers studio-quality condenser sound at $269, while the Shure SM57 at $99 is the best starting point for any home recordist.", a_es: "El Shure SM7B es el estándar de la industria para grabación vocal profesional. Para estudios caseros con presupuesto limitado, el Rode NT1-A ofrece sonido de calidad de estudio por $269, mientras que el Shure SM57 a $99 es el mejor punto de partida." },
@@ -442,7 +463,7 @@ function renderGuideGrid() {
             <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
             <p class="guide-card-intro">${introText}</p>
             <div class="guide-card-footer">
-              <span class="guide-card-meta"><svg data-fa="clock" class="icon fa-regular fa-clock" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> 6 ${t("minRead")}</span>
+              <span class="guide-card-meta"><svg data-fa="clock" class="icon fa-regular fa-clock" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> ${readingTime(g, currentLang)} ${t("minRead")}</span>
               <span class="guide-card-btn">${t("readGuide")}</span>
             </div>
           </div>
