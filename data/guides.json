@@ -18126,6 +18126,58 @@
         "Studio Recording",
         "Music Gear"
       ]
+    },
+    "comparison": {
+      "rows": [
+        {
+          "label": "Channels",
+          "label_es": "Canales",
+          "val1": "18",
+          "val2": "40",
+          "val1_es": "18",
+          "val2_es": "40"
+        },
+        {
+          "label": "Preamps",
+          "label_es": "Preamps",
+          "val1": "16 Midas",
+          "val2": "16 Midas PRO",
+          "val1_es": "16 Midas",
+          "val2_es": "16 Midas PRO"
+        },
+        {
+          "label": "Faders",
+          "label_es": "Faders",
+          "val1": "App-only",
+          "val2": "17 Motorized",
+          "val1_es": "App-only",
+          "val2_es": "17 Motorized"
+        },
+        {
+          "label": "Recording",
+          "label_es": "Grabación",
+          "val1": "18x18 USB",
+          "val2": "32ch SD + 32x32 USB",
+          "val1_es": "18x18 USB",
+          "val2_es": "32ch SD + 32x32 USB"
+        },
+        {
+          "label": "Wi-Fi",
+          "label_es": "Wi-Fi",
+          "val1": "Built-in",
+          "val2": "Via router",
+          "val1_es": "Built-in",
+          "val2_es": "Via router"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "5.1 lbs",
+          "val2": "31.5 lbs",
+          "val1_es": "5.1 lbs",
+          "val2_es": "31.5 lbs"
+        }
+      ]
     }
   },
   {
@@ -18291,6 +18343,58 @@
         "Studio Recording",
         "Music Gear"
       ]
+    },
+    "comparison": {
+      "rows": [
+        {
+          "label": "Keys",
+          "label_es": "Teclas",
+          "val1": "88 (Triple Sensor)",
+          "val2": "88 (GrandTouch)",
+          "val1_es": "88 (Triple Sensor)",
+          "val2_es": "88 (GrandTouch)"
+        },
+        {
+          "label": "Engines",
+          "label_es": "Motores",
+          "val1": "Piano, Organ, Synth",
+          "val2": "AN-X, FM-X",
+          "val1_es": "Piano, Organ, Synth",
+          "val2_es": "AN-X, FM-X"
+        },
+        {
+          "label": "Polyphony",
+          "label_es": "Polifonía",
+          "val1": "120 (Piano)",
+          "val2": "120 AN-X + 128 FM-X",
+          "val1_es": "120 (Piano)",
+          "val2_es": "120 AN-X + 128 FM-X"
+        },
+        {
+          "label": "Display",
+          "label_es": "Pantalla",
+          "val1": "OLED",
+          "val2": "7\" Touchscreen",
+          "val1_es": "OLED",
+          "val2_es": "7\" Touchscreen"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "40.1 lbs",
+          "val2": "61.7 lbs",
+          "val1_es": "40.1 lbs",
+          "val2_es": "61.7 lbs"
+        },
+        {
+          "label": "Primary Use",
+          "label_es": "Uso Principal",
+          "val1": "Stage Performance",
+          "val2": "Production & Sound Design",
+          "val1_es": "Stage Performance",
+          "val2_es": "Production & Sound Design"
+        }
+      ]
     }
   },
   {
@@ -18455,6 +18559,58 @@
         "Live Sound",
         "Studio Recording",
         "Music Gear"
+      ]
+    },
+    "comparison": {
+      "rows": [
+        {
+          "label": "Tracks",
+          "label_es": "Pistas",
+          "val1": "16 (8 stereo / 16 mono)",
+          "val2": "11 (8 instruments + 3 FX)",
+          "val1_es": "16 (8 stereo / 16 mono)",
+          "val2_es": "11 (8 instruments + 3 FX)"
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Sampler + Drum Computer",
+          "val2": "ACB Modeling + Sample Layering",
+          "val1_es": "Sampler + Drum Computer",
+          "val2_es": "ACB Modeling + Sample Layering"
+        },
+        {
+          "label": "Sequencer",
+          "label_es": "Secuenciador",
+          "val1": "64-step, Parameter Locks",
+          "val2": "16-step, Real-time Recording",
+          "val1_es": "64-step, Parameter Locks",
+          "val2_es": "16-step, Real-time Recording"
+        },
+        {
+          "label": "Storage",
+          "label_es": "Almacenamiento",
+          "val1": "20GB+ via Overbridge",
+          "val2": "SD Card (sample import)",
+          "val1_es": "20GB+ via Overbridge",
+          "val2_es": "SD Card (sample import)"
+        },
+        {
+          "label": "USB Audio",
+          "label_es": "Audio USB",
+          "val1": "16-ch Overbridge",
+          "val2": "Stereo USB",
+          "val1_es": "16-ch Overbridge",
+          "val2_es": "Stereo USB"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "3.7 lbs",
+          "val2": "4.2 lbs",
+          "val1_es": "3.7 lbs",
+          "val2_es": "4.2 lbs"
+        }
       ]
     }
   }
