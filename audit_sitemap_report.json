@@ -1,0 +1,8 @@
+[
+  {
+    "file": "sitemap.xml",
+    "type": "missing_from_sitemap",
+    "severity": "high",
+    "desc": "Guide \"review\" exists in guides/ but not in sitemap"
+  }
+]

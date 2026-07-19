@@ -1,0 +1,176 @@
+[
+  {
+    "file": "guides\\ableton-vs-fl-studio.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 71 - \"Ableton Live 12 vs FL Studio: Best DAW for You (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\adam-vs-genelec.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 88 - \"Adam A7V vs Genelec 8040B: Professional Studio Monitor Showdown (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\adam-vs-genelec_es.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 75 - \"Adam A7V vs Genelec 8040B: Monitores Profesionales (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\american-pro-vs-les-paul.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 78 - \"American Pro II vs Les Paul: Ultimate Electric Guitar (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\american-pro-vs-les-paul_es.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 73 - \"American Pro II vs Les Paul: Guitarra Definitiva (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\apollo-vs-babyface.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 78 - \"Apollo Twin X vs Babyface Pro FS: Best USB Interface? (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\apollo-vs-babyface_es.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 79 - \"Apollo Twin X vs Babyface Pro FS: ¿Mejor Interfaz USB? (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\beat-making.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 76 - \"Best Desktop Beat-Making Studio: From Idea to Track (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\beat-making_es.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 80 - \"Mejor Estudio de Creación de Beats: De la Idea al Track (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\beginner-guitar.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 87 - \"Best Electric & Acoustic Guitars for Beginners and Songwriting (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\beginner-guitar_es.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 75 - \"Mejores Guitarras para Principiantes y Composición (2026) | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\best-beginner-electric-guitar.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 82 - \"Best Electric Guitar for Beginners in 2026 — What to Buy and Why | TopMusicianGear\""
+  },
+  {
+    "file": "guides\\best-beginner-electric-guitar_es.html",
+    "type": "title_long",
+    "severity": "low",
+    "desc": "Title >70 chars: 93 - \"Mejor Guitarra Eléctrica para Principiantes en 2026 — Qué Comprar y Por Qué | TopMusicianGear\""
+  },
+  {
+    "file": "affiliate-disclosure.html",
+    "type": "multiple_h1",
+    "severity": "high",
+    "desc": "2 <h1> tags found"
+  },
+  {
+    "file": "affiliate-disclosure.html",
+    "type": "missing_schema",
+    "severity": "medium",
+    "desc": "No JSON-LD structured data"
+  },
+  {
+    "file": "cookie-policy.html",
+    "type": "multiple_h1",
+    "severity": "high",
+    "desc": "2 <h1> tags found"
+  },
+  {
+    "file": "cookie-policy.html",
+    "type": "missing_schema",
+    "severity": "medium",
+    "desc": "No JSON-LD structured data"
+  },
+  {
+    "file": "privacy-policy.html",
+    "type": "multiple_h1",
+    "severity": "high",
+    "desc": "2 <h1> tags found"
+  },
+  {
+    "file": "privacy-policy.html",
+    "type": "missing_schema",
+    "severity": "medium",
+    "desc": "No JSON-LD structured data"
+  },
+  {
+    "file": "terms.html",
+    "type": "multiple_h1",
+    "severity": "high",
+    "desc": "2 <h1> tags found"
+  },
+  {
+    "file": "terms.html",
+    "type": "missing_schema",
+    "severity": "medium",
+    "desc": "No JSON-LD structured data"
+  },
+  {
+    "file": "about.html",
+    "type": "multiple_h1",
+    "severity": "high",
+    "desc": "2 <h1> tags found"
+  },
+  {
+    "file": "contact.html",
+    "type": "multiple_h1",
+    "severity": "high",
+    "desc": "2 <h1> tags found"
+  },
+  {
+    "file": "404.html",
+    "type": "missing_canonical",
+    "severity": "medium",
+    "desc": "No canonical link"
+  },
+  {
+    "file": "404.html",
+    "type": "missing_hreflang",
+    "severity": "high",
+    "desc": "No hreflang tags"
+  },
+  {
+    "file": "404.html",
+    "type": "missing_og_title",
+    "severity": "medium",
+    "desc": "No og:title"
+  },
+  {
+    "file": "404.html",
+    "type": "missing_og_desc",
+    "severity": "medium",
+    "desc": "No og:description"
+  },
+  {
+    "file": "404.html",
+    "type": "missing_og_image",
+    "severity": "low",
+    "desc": "No og:image"
+  },
+  {
+    "file": "404.html",
+    "type": "missing_schema",
+    "severity": "medium",
+    "desc": "No JSON-LD structured data"
+  }
+]

@@ -1,0 +1,2198 @@
+[
+  {
+    "file": "starter-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "starter-studio/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "starter-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "starter-studio/section[0] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "starter-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "starter-studio/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "starter-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "starter-studio/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "starter-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "starter-studio/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "starter-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "starter-studio/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-interface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-interface/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-interface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-interface/section[0] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "best-interface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-interface/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-interface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-interface/section[6] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-interface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-interface/section[6] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-interface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-interface/section[7] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[3] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[5] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[5] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones/section[6] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[3] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[3] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[4] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[5] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-microphone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-microphone/section[6] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[2] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "best-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors/section[6] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "best-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-plugins/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-plugins/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-plugins/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-plugins/section[3] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "best-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-plugins/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-plugins/section[5] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "beat-making",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "beat-making/section[3] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "beat-making",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "beat-making/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "beat-making",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "beat-making/section[4] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "beat-making",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "beat-making/section[6] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "budget-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-mics/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "budget-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-mics/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "budget-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-mics/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-mics/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "budget-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-mics/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "budget-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-mics/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "usb-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "usb-mics/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "usb-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "usb-mics/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "usb-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "usb-mics/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "usb-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "usb-mics/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "usb-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "usb-mics/intro_es: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "stage-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-mics/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "portable-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "portable-interfaces/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "portable-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "portable-interfaces/section[0] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "portable-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "portable-interfaces/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[1] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[2] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[2] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "open-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "open-headphones/section[2] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[2] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "budget-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-headphones/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[1] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "tracking-headphones",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tracking-headphones/section[2] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[2] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[3] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[3] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "budget-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-monitors/section[4] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "pro-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-monitors/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "pro-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-monitors/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "pro-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-monitors/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-monitors/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "pro-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-monitors/section[2] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "pro-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-monitors/intro_es: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "monitor-setup",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "monitor-setup/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "monitor-setup",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "monitor-setup/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "monitor-setup",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "monitor-setup/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "monitor-setup",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "monitor-setup/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "mixing-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "mixing-plugins/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "mixing-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "mixing-plugins/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "mixing-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "mixing-plugins/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "mixing-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "mixing-plugins/section[4] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/section[1] ES: \"tipos\" should be \"tipos\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "fx-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fx-plugins/intro_es: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "studio-furniture",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-furniture/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "studio-furniture",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-furniture/section[2] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "tube-ribbon-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tube-ribbon-mics/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "tube-ribbon-mics",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "tube-ribbon-mics/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "pro-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-interfaces/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-interfaces/section[0] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "pro-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-interfaces/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-interfaces/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "studio-subwoofers",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-subwoofers/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "studio-subwoofers",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-subwoofers/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "studio-subwoofers",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-subwoofers/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "studio-subwoofers",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-subwoofers/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "studio-subwoofers",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-subwoofers/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "studio-subwoofers",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "studio-subwoofers/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "channel-strip-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "channel-strip-plugins/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "channel-strip-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "channel-strip-plugins/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "channel-strip-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "channel-strip-plugins/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "channel-strip-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "channel-strip-plugins/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "channel-strip-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "channel-strip-plugins/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "channel-strip-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "channel-strip-plugins/section[3] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "fender-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fender-guide/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "fender-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fender-guide/section[3] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "guitar-bass-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-bass-amps/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "guitar-bass-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-bass-amps/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "guitar-bass-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-bass-amps/section[5] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "guitar-bass-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-bass-amps/section[6] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[0] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[3] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[4] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "stage-wireless",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "stage-wireless/section[5] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[2] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[3] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[3] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[3] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[4] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[4] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "guitar-pedals",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "guitar-pedals/section[5] ES: \"tipos\" should be \"tipos\""
+  },
+  {
+    "file": "acoustic-guitars-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "acoustic-guitars-guide/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "acoustic-guitars-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "acoustic-guitars-guide/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "live-sound-pa",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "live-sound-pa/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "daw-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "daw-guide/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "daw-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "daw-guide/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "daw-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "daw-guide/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "daw-guide",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "daw-guide/section[6] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "midi-keyboards",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "midi-keyboards/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-interfaces/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-interfaces/section[0] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "budget-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-interfaces/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "budget-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-interfaces/section[3] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "budget-interfaces",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "budget-interfaces/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "vocal-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "vocal-plugins/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "vocal-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "vocal-plugins/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "vocal-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "vocal-plugins/section[4] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "vocal-plugins",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "vocal-plugins/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "small-room-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "small-room-monitors/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "small-room-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "small-room-monitors/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "small-room-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "small-room-monitors/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "small-room-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "small-room-monitors/section[3] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "small-room-monitors",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "small-room-monitors/section[4] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "beginner-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "beginner-guitar/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "beginner-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "beginner-guitar/section[5] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "sm57-vs-sm58",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm57-vs-sm58/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "scarlett-vs-ssl",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-ssl/section[0] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "scarlett-vs-ssl",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-ssl/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-ssl",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-ssl/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-ssl",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-ssl/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-ssl",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-ssl/intro_es: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "dt770-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "dt770-vs-dt990/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "dt770-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "dt770-vs-dt990/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "m50x-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-mdr7506/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "m50x-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-mdr7506/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "m50x-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-mdr7506/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "m50x-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-mdr7506/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "m50x-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-mdr7506/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "m50x-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-mdr7506/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-electric-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-electric-guitar/section[3] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "apollo-vs-babyface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "apollo-vs-babyface/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "apollo-vs-babyface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "apollo-vs-babyface/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "apollo-vs-babyface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "apollo-vs-babyface/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "apollo-vs-babyface",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "apollo-vs-babyface/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-volt",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-volt/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-volt",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-volt/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-volt",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-volt/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-volt",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-volt/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "scarlett-vs-volt",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "scarlett-vs-volt/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "audient-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "audient-vs-motu/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "audient-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "audient-vs-motu/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "audient-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "audient-vs-motu/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "audient-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "audient-vs-motu/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "audient-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "audient-vs-motu/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "audient-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "audient-vs-motu/intro_es: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "rme-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "rme-vs-motu/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "rme-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "rme-vs-motu/section[1] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "rme-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "rme-vs-motu/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "rme-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "rme-vs-motu/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "rme-vs-motu",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "rme-vs-motu/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "adam-vs-genelec",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "adam-vs-genelec/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "adam-vs-genelec",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "adam-vs-genelec/section[2] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "adam-vs-genelec",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "adam-vs-genelec/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "jbl-vs-kali",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "jbl-vs-kali/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "jbl-vs-kali",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "jbl-vs-kali/section[0] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "jbl-vs-kali",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "jbl-vs-kali/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "jbl-vs-kali",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "jbl-vs-kali/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "jbl-vs-kali",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "jbl-vs-kali/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "hd600-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "hd600-vs-dt990/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "hd600-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "hd600-vs-dt990/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "hd600-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "hd600-vs-dt990/section[2] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "hd600-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "hd600-vs-dt990/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "hd600-vs-dt990",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "hd600-vs-dt990/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "m50x-vs-dt770",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-dt770/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "m50x-vs-dt770",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-dt770/section[0] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "m50x-vs-dt770",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "m50x-vs-dt770/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "k371-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "k371-vs-mdr7506/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "k371-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "k371-vs-mdr7506/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "k371-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "k371-vs-mdr7506/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "k371-vs-mdr7506",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "k371-vs-mdr7506/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "sm7b-vs-nt1",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm7b-vs-nt1/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "sm7b-vs-nt1",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm7b-vs-nt1/section[0] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "sm7b-vs-nt1",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm7b-vs-nt1/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "sm7b-vs-nt1",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm7b-vs-nt1/section[3] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "sm7b-vs-nt1",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm7b-vs-nt1/intro_es: \"tipos\" should be \"tipos\""
+  },
+  {
+    "file": "sm57-vs-md421",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm57-vs-md421/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "sm57-vs-md421",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm57-vs-md421/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "sm57-vs-md421",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm57-vs-md421/section[3] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "sm57-vs-md421",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "sm57-vs-md421/section[3] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "c414-vs-u87",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "c414-vs-u87/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "re20-vs-sm7b",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "re20-vs-sm7b/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "re20-vs-sm7b",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "re20-vs-sm7b/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "re20-vs-sm7b",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "re20-vs-sm7b/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "re20-vs-sm7b",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "re20-vs-sm7b/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[3] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "ew100-vs-ulxd",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ew100-vs-ulxd/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "zlx-vs-k12",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "zlx-vs-k12/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "zlx-vs-k12",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "zlx-vs-k12/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "zlx-vs-k12",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "zlx-vs-k12/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "zlx-vs-k12",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "zlx-vs-k12/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "dxr-vs-prx",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "dxr-vs-prx/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "dxr-vs-prx",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "dxr-vs-prx/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "dxr-vs-prx",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "dxr-vs-prx/intro_es: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "american-pro-vs-les-paul",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "american-pro-vs-les-paul/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "american-pro-vs-les-paul",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "american-pro-vs-les-paul/section[2] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "american-pro-vs-les-paul",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "american-pro-vs-les-paul/section[2] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "martin-d28-vs-taylor-314",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "martin-d28-vs-taylor-314/section[2] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "martin-d28-vs-taylor-314",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "martin-d28-vs-taylor-314/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "ableton-vs-fl-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ableton-vs-fl-studio/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "ableton-vs-fl-studio",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "ableton-vs-fl-studio/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "pro-tools-vs-cubase",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-tools-vs-cubase/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-tools-vs-cubase",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-tools-vs-cubase/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-tools-vs-cubase",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-tools-vs-cubase/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-tools-vs-cubase",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-tools-vs-cubase/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "pro-tools-vs-cubase",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "pro-tools-vs-cubase/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "blues-junior-vs-ac30",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "blues-junior-vs-ac30/section[0] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "blues-junior-vs-ac30",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "blues-junior-vs-ac30/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "blues-junior-vs-ac30",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "blues-junior-vs-ac30/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "katana-vs-dsl",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "katana-vs-dsl/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "fabfilter-vs-ozone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fabfilter-vs-ozone/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "fabfilter-vs-ozone",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fabfilter-vs-ozone/intro_es: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-guitar-home-office",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-guitar-home-office/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-guitar-home-office",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-guitar-home-office/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[0] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[4] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "fix-clipping-scarlett",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "fix-clipping-scarlett/section[5] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-mic-for-guitar-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-guitar-amps/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-mic-for-guitar-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-guitar-amps/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-mic-for-guitar-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-guitar-amps/section[3] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-mic-for-guitar-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-guitar-amps/section[4] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-mic-for-guitar-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-guitar-amps/section[4] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "best-mic-for-guitar-amps",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-guitar-amps/section[4] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "best-mic-for-podcasting",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-podcasting/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-mic-for-podcasting",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-podcasting/section[0] ES: \"tipos\" should be \"tipos\""
+  },
+  {
+    "file": "best-mic-for-podcasting",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-podcasting/section[1] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-mic-for-podcasting",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-podcasting/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "best-mic-for-podcasting",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-podcasting/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-mic-for-podcasting",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-mic-for-podcasting/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[0] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[0] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[0] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-daw-for-beginners",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-daw-for-beginners/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[0] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[1] ES: \"porque\" should be \"por qué\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[1] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[2] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[2] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[3] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[3] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[4] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/section[4] ES: \"audio\" should be \"audio\""
+  },
+  {
+    "file": "best-headphones-for-mixing",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-headphones-for-mixing/intro_es: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[0] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[1] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[1] ES: \"cuando\" should be \"cuándo\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[1] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[2] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[2] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[2] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[3] ES: \"frecuencia\" should be \"frecuencia\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[4] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-monitors-for-small-rooms",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-monitors-for-small-rooms/section[4] ES: \"donde\" should be \"dónde\""
+  },
+  {
+    "file": "best-beginner-electric-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-beginner-electric-guitar/section[0] ES: \"este\" should be \"este\""
+  },
+  {
+    "file": "best-beginner-electric-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-beginner-electric-guitar/section[1] ES: \"diferentes\" should be \"diferentes\""
+  },
+  {
+    "file": "best-beginner-electric-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-beginner-electric-guitar/section[5] ES: \"estos\" should be \"estos\""
+  },
+  {
+    "file": "best-beginner-electric-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-beginner-electric-guitar/section[5] ES: \"tipos\" should be \"tipos\""
+  },
+  {
+    "file": "best-beginner-electric-guitar",
+    "type": "missing_tilde",
+    "severity": "low",
+    "desc": "best-beginner-electric-guitar/section[5] ES: \"cuando\" should be \"cuándo\""
+  }
+]
