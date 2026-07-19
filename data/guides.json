@@ -18342,146 +18342,10 @@
         {
           "label": "Form Factor",
           "label_es": "Formato",
-          "val1": "3U rackmount / stagebox",
-          "val2": "Desktop (optional rack kit)",
+          "val1": "3U rackmount",
+          "val2": "Desktop (rack kit optional)",
           "val1_es": "Montaje en rack 3U",
           "val2_es": "Sobremesa (kit rack opcional)"
-        },
-        {
-          "label": "Rack Mountable",
-          "label_es": "Montable en Rack",
-          "val1": "Yes (ears included)",
-          "val2": "Optional (CQ18T-RK19 kit)",
-          "val1_es": "Sí (orejas incluidas)",
-          "val2_es": "Opcional (kit CQ18T-RK19)"
-        },
-        {
-          "label": "Analog Inputs",
-          "label_es": "Entradas Analógicas",
-          "val1": "18 (16 XLR + 2 line)",
-          "val2": "18 (16 XLR + 2 line)",
-          "val1_es": "18 (16 XLR + 2 line)",
-          "val2_es": "18 (16 XLR + 2 line)"
-        },
-        {
-          "label": "Mic Preamps",
-          "label_es": "Preamps Mic",
-          "val1": "16 Midas-designed",
-          "val2": "16 recallable digital",
-          "val1_es": "16 diseño Midas",
-          "val2_es": "16 digitales memorizables"
-        },
-        {
-          "label": "Preamp Gain Range",
-          "label_es": "Rango de Ganancia",
-          "val1": "0 to +72 dB",
-          "val2": "0 to +60 dB",
-          "val1_es": "0 a +72 dB",
-          "val2_es": "0 a +60 dB"
-        },
-        {
-          "label": "Phantom Power",
-          "label_es": "Fantom Power",
-          "val1": "+48V selectable per ch",
-          "val2": "+48V (+3/-2V), all 16 ch",
-          "val1_es": "+48V seleccionable por canal",
-          "val2_es": "+48V (+3/-2V), 16 canales"
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "val1": "44.1 / 48 kHz",
-          "val2": "96 kHz",
-          "val1_es": "44.1 / 48 kHz",
-          "val2_es": "96 kHz"
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "val1": "24-bit AD/DA, 40-bit float DSP",
-          "val2": "24-bit",
-          "val1_es": "24-bit AD/DA, DSP flotante 40-bit",
-          "val2_es": "24-bit"
-        },
-        {
-          "label": "Analog Latency",
-          "label_es": "Latencia Analógica",
-          "val1": "0.8 ms",
-          "val2": "<0.7 ms",
-          "val1_es": "0.8 ms",
-          "val2_es": "<0.7 ms"
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "114 dB (AD/DA)",
-          "val2": "110 dB",
-          "val1_es": "114 dB (AD/DA)",
-          "val2_es": "110 dB"
-        },
-        {
-          "label": "Mix Buses",
-          "label_es": "Buses de Mezcla",
-          "val1": "LR + 6 aux",
-          "val2": "LR + 6 aux",
-          "val1_es": "LR + 6 aux",
-          "val2_es": "LR + 6 aux"
-        },
-        {
-          "label": "DCA Groups",
-          "label_es": "Grupos DCA",
-          "val1": "4",
-          "val2": "4",
-          "val1_es": "4",
-          "val2_es": "4"
-        },
-        {
-          "label": "Mute Groups",
-          "label_es": "Grupos de Silencio",
-          "val1": "4",
-          "val2": "4",
-          "val1_es": "4",
-          "val2_es": "4"
-        },
-        {
-          "label": "FX Slots",
-          "label_es": "Ranuras de FX",
-          "val1": "4 stereo (8 mono)",
-          "val2": "4 Multi-FX",
-          "val1_es": "4 estéreo (8 mono)",
-          "val2_es": "4 Multi-FX"
-        },
-        {
-          "label": "FX Types",
-          "label_es": "Tipos de FX",
-          "val1": "Lexicon 480L, PCM70, EMT250, Quantec QRS, delay, chorus, dynamics",
-          "val2": "Reverb, delay, modulation, FX Assist",
-          "val1_es": "Lexicon 480L, PCM70, EMT250, Quantec QRS, delay, chorus, dinámica",
-          "val2_es": "Reverb, delay, modulación, FX Assist"
-        },
-        {
-          "label": "EQ per Input",
-          "label_es": "EQ por Canal",
-          "val1": "4-band fully parametric + HPF",
-          "val2": "HPF + Gate + 4-band parametric + Comp",
-          "val1_es": "Paramétrico 4 bandas + HPF",
-          "val2_es": "HPF + Gate + Paramétrico 4 bandas + Comp"
-        },
-        {
-          "label": "EQ on Outputs",
-          "label_es": "EQ en Salidas",
-          "val1": "6-band parametric OR 31-band graphic",
-          "val2": "Selectable graphic / parametric",
-          "val1_es": "Paramétrico 6 bandas O gráfico 31 bandas",
-          "val2_es": "Gráfico/paramétrico seleccionable"
-        },
-        {
-          "label": "RTA",
-          "label_es": "RTA",
-          "val1": "100-band on all ch/bus",
-          "val2": "Not specified",
-          "val1_es": "100 bandas en todos los canales/buses",
-          "val2_es": "No especificado"
         },
         {
           "label": "Display",
@@ -18492,60 +18356,68 @@
           "val2_es": "7\" táctil capacitiva"
         },
         {
+          "label": "Sample Rate",
+          "label_es": "Frecuencia de Muestreo",
+          "val1": "44.1 / 48 kHz",
+          "val2": "96 kHz",
+          "val1_es": "44.1 / 48 kHz",
+          "val2_es": "96 kHz"
+        },
+        {
+          "label": "Mic Preamps",
+          "label_es": "Preamps Mic",
+          "val1": "16 Midas (analog)",
+          "val2": "16 digital recallable",
+          "val1_es": "16 Midas (analógicos)",
+          "val2_es": "16 digitales memorizables"
+        },
+        {
           "label": "Wi-Fi",
           "label_es": "Wi-Fi",
-          "val1": "Built-in 802.11 b/g (2.4 GHz)",
-          "val2": "Built-in dual-band 802.11 a/b/g/n/ac (2.4/5 GHz)",
-          "val1_es": "Integrado 802.11 b/g (2.4 GHz)",
-          "val2_es": "Integrado doble banda 802.11 a/b/g/n/ac (2.4/5 GHz)"
+          "val1": "Built-in 2.4 GHz",
+          "val2": "Dual-band (2.4 + 5 GHz)",
+          "val1_es": "Integrado 2.4 GHz",
+          "val2_es": "Dual-band (2.4 y 5 GHz)"
         },
         {
           "label": "Bluetooth",
           "label_es": "Bluetooth",
-          "val1": "None",
-          "val2": "BT 4.1 (dedicated stereo input)",
-          "val1_es": "Ninguno",
-          "val2_es": "BT 4.1 (entrada estéreo dedicada)"
+          "val1": "No",
+          "val2": "Yes (dedicated stereo input)",
+          "val1_es": "No",
+          "val2_es": "Sí (entrada estéreo dedicada)"
         },
         {
           "label": "USB Interface",
           "label_es": "Interfaz USB",
-          "val1": "18x18 USB 2.0 (Type B)",
-          "val2": "24x22 USB 2.0 (Type B)",
-          "val1_es": "18x18 USB 2.0 (Type B)",
-          "val2_es": "24x22 USB 2.0 (Type B)"
+          "val1": "18x18 USB 2.0",
+          "val2": "24x22 USB 2.0",
+          "val1_es": "18x18 USB 2.0",
+          "val2_es": "24x22 USB 2.0"
         },
         {
           "label": "SD Recording",
           "label_es": "Grabación SD",
-          "val1": "None",
-          "val2": "SDHC up to 32 GB, 16ch@96kHz / 24ch@48kHz",
-          "val1_es": "Ninguna",
-          "val2_es": "SDHC hasta 32 GB, 16ch@96kHz / 24ch@48kHz"
-        },
-        {
-          "label": "App Control",
-          "label_es": "Control por App",
-          "val1": "X AIR MIX (iOS/Android), X AIR EDIT",
-          "val2": "CQ MixPad (iOS/Android/Win/Mac), CQ4You",
-          "val1_es": "X AIR MIX (iOS/Android), X AIR EDIT",
-          "val2_es": "CQ MixPad (iOS/Android/Win/Mac), CQ4You"
+          "val1": "No",
+          "val2": "Yes, up to 24 channels",
+          "val1_es": "No",
+          "val2_es": "Sí, hasta 24 canales"
         },
         {
           "label": "Smart Tools",
           "label_es": "Herramientas Inteligentes",
-          "val1": "Dugan-style auto-mixing (gain sharing)",
-          "val2": "Gain Assistant, Feedback Assistant, FX Assist, AMM",
-          "val1_es": "Auto-mezcla estilo Dugan (gain sharing)",
-          "val2_es": "Gain Assistant, Feedback Assistant, FX Assist, AMM"
+          "val1": "Dugan auto-mixing",
+          "val2": "Gain/FB/AMM Assistant",
+          "val1_es": "Auto-mezcla Dugan",
+          "val2_es": "Gain/FB/AMM Assistant"
         },
         {
-          "label": "Analog Outputs",
-          "label_es": "Salidas Analógicas",
-          "val1": "8 XLR (6 aux + 2 main) + 1 headphone",
-          "val2": "2 XLR (main) + 6 TRS (aux) + 2 headphone",
-          "val1_es": "8 XLR (6 aux + 2 main) + 1 auriculares",
-          "val2_es": "2 XLR (main) + 6 TRS (aux) + 2 auriculares"
+          "label": "App Control",
+          "label_es": "Control por App",
+          "val1": "X AIR MIX / X AIR EDIT",
+          "val2": "CQ MixPad / CQ4You",
+          "val1_es": "X AIR MIX / X AIR EDIT",
+          "val2_es": "CQ MixPad / CQ4You"
         },
         {
           "label": "Headphone Out",
@@ -18556,52 +18428,28 @@
           "val2_es": "2x 1/4\" TRS (asignables)"
         },
         {
-          "label": "MIDI",
-          "label_es": "MIDI",
-          "val1": "5-pin DIN In/Out",
-          "val2": "USB MIDI + network MIDI protocol",
-          "val1_es": "DIN 5-pin In/Out",
-          "val2_es": "USB MIDI + protocolo MIDI por red"
+          "label": "Phantom Power",
+          "label_es": "Fantom Power",
+          "val1": "+48V per channel",
+          "val2": "+48V global",
+          "val1_es": "+48V por canal",
+          "val2_es": "+48V global"
         },
         {
-          "label": "Footswitch",
-          "label_es": "Pedal",
-          "val1": "No",
-          "val2": "Yes, configurable single/dual",
-          "val1_es": "No",
-          "val2_es": "Sí, configurable simple/doble"
+          "label": "FX",
+          "label_es": "Efectos",
+          "val1": "Lexicon, EMT, delay, chorus",
+          "val2": "Reverb, delay, modulation",
+          "val1_es": "Lexicon, EMT, delay, chorus",
+          "val2_es": "Reverb, delay, modulación"
         },
         {
-          "label": "PSU Type",
-          "label_es": "Tipo de Fuente",
-          "val1": "Internal switch-mode",
-          "val2": "External 12V DC worldwide",
-          "val1_es": "Fuente interna conmutada",
-          "val2_es": "Fuente externa 12V DC universal"
-        },
-        {
-          "label": "Power Consumption",
-          "label_es": "Consumo",
-          "val1": "30W",
-          "val2": "45W max",
-          "val1_es": "30W",
-          "val2_es": "45W máx"
-        },
-        {
-          "label": "Dimensions",
-          "label_es": "Dimensiones",
-          "val1": "333x140x150 mm",
-          "val2": "346x89x242 mm",
-          "val1_es": "333x140x150 mm",
-          "val2_es": "346x89x242 mm"
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "val1": "7.1 lbs (3.2 kg)",
-          "val2": "6.6 lbs (3.0 kg)",
-          "val1_es": "7.1 lb (3.2 kg)",
-          "val2_es": "6.6 lb (3.0 kg)"
+          "label": "EQ per Channel",
+          "label_es": "EQ por Canal",
+          "val1": "4-band parametric + HPF",
+          "val2": "HPF + Gate + 4-band parametric + Comp",
+          "val1_es": "Paramétrico 4 bandas + HPF",
+          "val2_es": "HPF + Gate + Paramétrico 4 bandas + Comp"
         }
       ]
     }
