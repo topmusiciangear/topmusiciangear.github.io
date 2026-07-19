@@ -639,11 +639,15 @@ Then update `js/app.min.js` hash in `index.html` and `version.txt` is auto-updat
 ### Next Move
 - User-driven
 
+## ⚠️ FIRST CHECK when page is broken
+
+**Siempre verificar `css/style.min.css` primero.** Si el CSS está corrupto (todo pegado, sin `{}:;,.`), la causa es el bug de PowerShell `$1` al minificar inline. Correr `node _minify_css.js` para regenerarlo. No pierdas tiempo debugueando JS cuando el CSS está roto.
+
 ## Known Quick Fixes
 
 ### CSS rota (todos los `{}:;` desaparecen)
 **Causa:** Minificar CSS con `node -e "..."` en PowerShell expande `$1` a vacío.
-**Fix:** Escribir minificación en un `.js` file y correr `node _minify_css.js`:
+**Fix:** Siempre usar `node _minify_css.js` (nunca `node -e "..."` inline en PowerShell):
 ```js
 var fs = require('fs');
 var c = fs.readFileSync('css/style.css', 'utf8');
