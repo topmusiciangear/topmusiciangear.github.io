@@ -1545,7 +1545,7 @@ footer ul li a:hover { color: var(--accent); }
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
-  color: var(--color-primary, #6c5ce7);
+  color: var(--accent);
   padding: 0;
   margin-top: 2px;
   line-height: 1;
