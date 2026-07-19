@@ -1953,19 +1953,20 @@
   },
   {
     "id": 61,
-    "title": "TDR Kotelnikov",
-    "title_es": "TDR Kotelnikov",
+    "title": "TDR Kotelnikov GE",
+    "title_es": "TDR Kotelnikov GE",
     "brand": "Tokyo Dawn Labs",
     "category": "plugins",
-    "price": 0,
+    "price": 50,
     "rating": 4.7,
     "reviews": 2345,
-    "badge": "recommended",
-    "desc": "Professional-grade mastering compressor with transparent dynamics. Features a unique adaptive release curve, soft/hard knee, and precision metering. Widely regarded as one of the best freeware compressors ever made.",
-    "desc_es": "Compresor de masterización de grado profesional con dinámica transparente. Cuenta con una curva de release adaptable única, knee suave/fuerte y medición de precisión. Ampliamente considerado uno de los mejores freeware jamás creados.",
-    "img": "https://www.tokyodawn.net/wp-content/uploads/2018/06/KotelnikovMain2.png",
+    "badge": "premium",
+    "desc": "The Gentleman's Edition of the legendary transparent compressor. Adds M/S processing, sidechain EQ, lookahead, dry/wet mix, oversampling, and precision metering. Adaptive release, soft/hard knee, and the same pristine dynamics as the original — now with professional studio features.",
+    "desc_es": "La Edición Gentleman del legendario compresor transparente. Añade procesamiento M/S, EQ de sidechain, lookahead, mezcla dry/wet, oversampling y medición de precisión. Release adaptable, knee suave/fuerte y la misma dinámica prístina del original — ahora con funciones de estudio profesional.",
+    "img": "https://www.pluginboutique.com/image/cache/catalog/plugin-images/4657-221129141346-TDRKotelnikovGE_01-500x500.png",
     "stores": {
-      "official": "https://www.tokyodawn.net/tdr-kotelnikov/"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/4657-TDR-Kotelnikov-GE",
+      "official": "https://www.tokyodawn.net/tdr-kotelnikov-ge/"
     }
   },
   {
