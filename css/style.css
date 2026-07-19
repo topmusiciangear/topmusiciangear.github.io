@@ -1249,6 +1249,8 @@ footer ul li a:hover { color: var(--accent); }
   color: var(--text-secondary);
   line-height: 1.6;
   flex: 1;
+  max-height: 4.8em;
+  overflow: hidden;
 }
 
 
