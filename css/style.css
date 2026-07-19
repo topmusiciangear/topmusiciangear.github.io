@@ -1568,6 +1568,8 @@ footer ul li a:hover { color: var(--accent); }
   margin-top: 2px;
   line-height: 1;
   display: block;
+  width: 100%;
+  text-align: center;
   opacity: .7;
   transition: opacity .15s;
 }
