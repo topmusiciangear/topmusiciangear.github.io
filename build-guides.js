@@ -125,6 +125,7 @@ function getResolvedStores(product) {
     musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`
   };
   const s = {};
+  const isMacOnly = !!product.stores.macappstore;
   allStoreKeys.forEach(key => {
     if (key === 'amazon' && product.category === 'plugins') return;
     if (key === 'pluginboutique' && product.category !== 'plugins' && product.category !== 'daw' && product.category !== 'production') return;
@@ -141,7 +142,7 @@ function getResolvedStores(product) {
       } else {
         s[key] = specificUrl;
       }
-    } else {
+    } else if (!isMacOnly) {
       s[key] = searchUrls[key](product.title);
     }
   });
