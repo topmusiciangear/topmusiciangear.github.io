@@ -296,8 +296,8 @@
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/MontageM8X--yamaha-montage-m8x-88-key-synthesizer",
       "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
-      "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-Montage-M6%2Fart-SYN0008829-000"
+      "musikproduktiv": "https://www.musik-produktiv.de/search?q=Yamaha+Montage+M8x",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-Montage-M8x%2Fart-SYN0008831-000"
     }
   },
   {
@@ -785,7 +785,7 @@
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/TR8S--roland-tr-8s-rhythm-performer",
       "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82",
-      "musikproduktiv": "https://www.musik-produktiv.de/search",
+      "musikproduktiv": "https://www.musik-produktiv.de/search?q=Roland+TR-8S",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRoland-TR-8S%2Fart-SYN0006408-000"
     }
   },
@@ -2404,7 +2404,9 @@
     "img": "https://r2.gear4music.com/media/9/92552/1200/preview_1.jpg",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/MG16XU--yamaha-mg16xu-16-channel-mixer-with-effects",
-      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-MG16XU-Analog-USB-Mixer/XBS"
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-MG16XU-Analog-USB-Mixer/XBS",
+      "musikproduktiv": "https://www.musik-produktiv.de/products/yamaha-mg16xu/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-MG16XU%2Fart-PAH0015351-000"
     }
   },
   {
@@ -2422,7 +2424,9 @@
     "img": "https://r2.gear4music.com/media/20/205648/1200/preview.jpg",
     "stores": {
       "sweetwater": "https://www.sweetwater.com/store/detail/X1222USB--behringer-xenyx-x1222usb-12-channel-mixer",
-      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-XENYX-X1222USB-12-Channel-Analog-Mixer/DCR"
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-XENYX-X1222USB-12-Channel-Analog-Mixer/DCR",
+      "musikproduktiv": "https://www.musik-produktiv.de/search?q=XENYX+X1222USB",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBehringer-XENYX-X1222USB%2Fart-PAH0009509-000"
     }
   }
 ]
