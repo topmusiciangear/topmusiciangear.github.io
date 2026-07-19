@@ -242,8 +242,8 @@ const manualHeadings = {
     purposeEs: 'eres compositor y necesitas MIDI y notación potentes'
   },
   'daw-guide_5': {
-    en: 'Is Reason 13 the Best DAW for Creative Music Production?',
-    es: '¿Es Reason 13 el Mejor DAW para Producción Musical Creativa?',
+    en: 'Is Reason 14 the Best DAW for Creative Music Production?',
+    es: '¿Es Reason 14 el Mejor DAW para Producción Musical Creativa?',
     purposeEn: 'you want a creative DAW with a unique rack-based workflow',
     purposeEs: 'quieres un DAW creativo con un flujo de trabajo único basado en rack'
   },
