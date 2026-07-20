@@ -2800,8 +2800,27 @@
       "amazon": "https://www.amazon.com/dp/B001LNN2EQ"
     }
   },
-
-
+  {
+    "id": 174,
+    "title": "Sequential OB-6 Keyboard",
+    "title_es": "Teclado Sequential OB-6",
+    "brand": "Sequential",
+    "mpn": "DSI-2700",
+    "category": "keyboards",
+    "price": 3499,
+    "rating": 4.9,
+    "reviews": 487,
+    "badge": "topQuality",
+    "desc": "6-voice polyphonic analog synthesizer. A collaboration between Dave Smith and Tom Oberheim combining classic SEM sound with modern features — true VCOs, 2-pole state-variable filter, dual digital effects, 64-step polyphonic sequencer, arpeggiator, and knob-per-function interface. Semi-weighted 49-key keyboard with velocity and aftertouch.",
+    "desc_es": "Sintetizador analógico polifónico de 6 voces. Colaboración entre Dave Smith y Tom Oberheim combinando el sonido SEM clásico con características modernas — VCOs reales, filtro state-variable de 2 polos, efectos digitales duales, secuenciador polifónico de 64 pasos, arpegiador, e interfaz knob-per-function. Teclado semi-ponderado de 49 teclas con velocity y aftertouch.",
+    "img": "https://r2.gear4music.com/media/82/828323/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/us/en/Keyboards-and-Pianos/Oberheim-OB-6-6-Voice-Polyphonic-Analog-Synthesizer/1GWT",
+      "andertons": "https://www.andertons.co.uk/dave-smith-ob6-keyboard-6-voice-synthesizer",
+      "amazon": "https://www.amazon.com/dp/B01BPSB626",
+      "musicstore": "https://www.musicstore.com/en_LU/EUR/Sequential-OB-6/art-SYN0005026-000"
+    }
+  },
   {
     "id": 173,
     "title": "AcouFoam 6 Monitor Isolation Pads, Pair",
@@ -2820,6 +2839,256 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/AcouFoam-6-Studio-Monitor-Isolation-Pads-by-Gear4music-Pair/2853",
       "amazon": "https://www.amazon.com/dp/B0002E4Z8M"
+    }
+  },
+  {
+    "id": 175,
+    "title": "Sequential Prophet-10",
+    "title_es": "Sequential Prophet-10",
+    "brand": "Sequential",
+    "mpn": "SEQ-1010",
+    "category": "keyboards",
+    "price": 4399,
+    "rating": 4.9,
+    "reviews": 612,
+    "badge": "topQuality",
+    "desc": "10-voice polyphonic analog synthesizer. Faithful reissue of the legendary Prophet-5 with double the voices. Features 2 CEM 3340 VCOs per voice, 24dB lowpass filter (switchable between SSM 2040 and SSI 2140 chips), poly-mod, vintage control for oscillator drift, 61-key Fatar keyboard with velocity and aftertouch. 400 presets including 40 original Prophet-5 sounds.",
+    "desc_es": "Sintetizador analógico polifónico de 10 voces. Reedición fiel del legendario Prophet-5 con el doble de voces. 2 VCOs CEM 3340 por voz, filtro lowpass 24dB (con chip SSM 2040 o SSI 2140 seleccionable), poly-mod, control vintage para drift de osciladores, teclado Fatar de 61 teclas con velocity y aftertouch. 400 presets incluyendo 40 sonidos del Prophet-5 original.",
+    "img": "https://r2.gear4music.com/media/82/828323/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Sequential-Prophet-10/3LJ4",
+      "andertons": "https://www.andertons.co.uk/sequential-prophet-10-synth",
+      "amazon": "https://www.amazon.com/dp/B08KMXHG65",
+      "musicstore": "https://www.musicstore.com/en_US/USD/sequential-prophet-5-prophet-10"
+    }
+  },
+  {
+    "id": 176,
+    "title": "Moog One 16-Voice",
+    "title_es": "Moog One 16 Voces",
+    "brand": "Moog",
+    "mpn": "MOOGONE16",
+    "category": "keyboards",
+    "price": 9999,
+    "rating": 4.8,
+    "reviews": 312,
+    "badge": "topQuality",
+    "desc": "Flagship 16-voice tri-timbral analog synthesizer. 3 triangle core VCOs per voice, dual analog filters (Moog ladder + state-variable), 4 LFOs, 3 DAHDSR envelopes per voice, Eventide reverbs, 61-key Fatar TP-8S with velocity and aftertouch. The most powerful polyphonic synth Moog has ever made.",
+    "desc_es": "Sintetizador analógico insignia de 16 voces tri-tímbrico. 3 VCOs triangle core por voz, filtros analógicos duales (Moog ladder + state-variable), 4 LFOs, 3 envolventes DAHDSR por voz, reverbs Eventide, teclado Fatar TP-8S de 61 teclas con velocity y aftertouch. El sintetizador polifónico más potente que Moog ha creado.",
+    "img": "https://r2.gear4music.com/media/82/828323/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/us/en/Keyboards-and-Pianos/Moog-ONE-Polyphonic-Analog-Synthesizer-16-Voice/2P8X",
+      "amazon": "https://www.amazon.com/dp/B07JWHCQPQ"
+    }
+  },
+  {
+    "id": 177,
+    "title": "Focal Utopia 2022",
+    "title_es": "Focal Utopia 2022",
+    "brand": "Focal",
+    "category": "headphones",
+    "price": 4999,
+    "rating": 4.9,
+    "reviews": 1340,
+    "badge": "topQuality",
+    "desc": "The reference open-back headphones for critical mastering and mixing. Pure beryllium inverted-dome drivers deliver unparalleled transient response, imaging, and low distortion. 40mm electrodynamic drivers, 5Hz-50kHz frequency response, 104dB SPL/mW sensitivity.",
+    "desc_es": "Los auriculares abiertos de referencia para mastering y mezcla crítica. Los drivers de berilio puro de cúpula invertida ofrecen una respuesta transitoria, imagen y baja distorsión inigualables. Drivers electrodinámicos de 40mm, respuesta en frecuencia de 5Hz-50kHz, sensibilidad de 104dB SPL/mW.",
+    "img": "https://media.sweetwater.com/m/products/image/af5e99659fIRtF9lFQ2u4aZXGSOLlMPOFUDPjJhR.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focal-Utopia-2022-Open-Back-Headphones/4B7V",
+      "andertons": "https://www.andertons.co.uk/focal-utopia-2022-open-back-headphones",
+      "amazon": "https://www.amazon.com/dp/B0B5ZQM2GL",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Focal-Utopia-2022/art-PAH0011391-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/focal-utopia-2022.html"
+    }
+  },
+  {
+    "id": 178,
+    "title": "Sennheiser HD 800 S",
+    "title_es": "Sennheiser HD 800 S",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "price": 1799,
+    "rating": 4.8,
+    "reviews": 4320,
+    "badge": "topQuality",
+    "desc": "High-end open-back reference headphones with 56mm ring-radiator transducers. Patented absorber technology reduces masking distortion for natural, spatial sound. Handcrafted in Germany, 6Hz-51kHz frequency response, 300 ohms impedance.",
+    "desc_es": "Auriculares abiertos de referencia de alta gama con transductores de radiador anular de 56mm. Tecnología patentada de absorbedor que reduce la distorsión de enmascaramiento para un sonido natural y espacial. Hechos a mano en Alemania, respuesta de 6Hz-51kHz, 300 ohmios de impedancia.",
+    "img": "https://media.sweetwater.com/m/products/image/5535026309pBoKLNLDAMIQGd4QpnUQxOsPSNqL9K.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sennheiser-HD-800-S-Headphones/YTN",
+      "andertons": "https://www.andertons.co.uk/sennheiser-hd-800-s-headphones",
+      "amazon": "https://www.amazon.com/dp/B01JDSC2PY",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-800-S/art-PAH0011583-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/sennheiser-hd-800-s.html"
+    }
+  },
+  {
+    "id": 179,
+    "title": "Sony C-800G",
+    "title_es": "Sony C-800G",
+    "brand": "Sony",
+    "category": "microphones",
+    "price": 10999,
+    "rating": 4.9,
+    "reviews": 210,
+    "badge": "premium",
+    "desc": "The holy grail of studio condenser microphones. Legendary tube microphone used on countless hit records by Michael Jackson, Beyoncé, Dr. Dre, and more. Hand-selected vacuum tube, gold-sputtered large diaphragm, and Sony's proprietary transformerless output stage deliver unmatched vocal presence and depth.",
+    "desc_es": "El santo grial de los micrófonos de condensador de estudio. Micrófono de tubo legendario usado en innumerables éxitos de Michael Jackson, Beyoncé, Dr. Dre y más. Válvula de vacío seleccionada a mano, gran diafragma bañado en oro y etapa de salida sin transformador de Sony ofrecen presencia y profundidad vocal inigualables.",
+    "img": "https://media.sweetwater.com/m/products/image/a2194b305aqGq75tLf6CuuXHvMXOvhTW6rBQWxiC.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-C-800G-Studio-Condenser-Microphone/HT6",
+      "andertons": "https://www.andertons.co.uk/sony-c-800g-tube-condenser-microphone",
+      "amazon": "https://www.amazon.com/dp/B008DBH3XK",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Sony-C-800G/art-REC0001032-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/sony-c-800-g.html"
+    }
+  },
+  {
+    "id": 180,
+    "title": "ATC SCM25A Pro MKII",
+    "title_es": "ATC SCM25A Pro MKII",
+    "brand": "ATC",
+    "category": "monitors",
+    "price": 6998,
+    "rating": 4.9,
+    "reviews": 165,
+    "badge": "premium",
+    "desc": "Professional 3-way active studio monitor with ATC's legendary 75mm soft-dome midrange driver. 25mm tweeter, 164mm bass driver, 150W + 50W + 50W tri-amped. The midrange clarity is unsurpassed — the industry standard for critical mixing in world-class studios.",
+    "desc_es": "Monitor de estudio activo de 3 vías profesional con el legendario driver de rango medio de cúpula blanda de 75mm de ATC. Tweeter de 25mm, driver de graves de 164mm, tri-amplificado 150W + 50W + 50W. La claridad de medios es insuperable — el estándar de la industria para mezcla crítica en estudios de clase mundial.",
+    "img": "https://media.sweetwater.com/m/products/image/dfeefed78dGmB6vOXDB3XRO9bIEYW8uamV3kIXOa.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/ATC-SCM25A-Pro-MKII-3-Way-Studio-Monitor/4XRT",
+      "andertons": "https://www.andertons.co.uk/atc-scm25a-pro-mkii-studio-monitor",
+      "amazon": "https://www.amazon.com/dp/B0DLBKJ2NG",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/ATC-SCM25A-Pro-MKII/art-PAH0013034-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/atc-scm25a-pro-mkii.html"
+    }
+  },
+  {
+    "id": 181,
+    "title": "Genelec 8351B",
+    "title_es": "Genelec 8351B",
+    "brand": "Genelec",
+    "category": "monitors",
+    "price": 8398,
+    "rating": 4.9,
+    "reviews": 320,
+    "badge": "premium",
+    "desc": "The flagship 3-way coaxial studio monitor with Genelec's Minimum Diffraction Coaxial (MDC) driver and advanced Genelec Smart Active Monitor (SAM) technology. 250W + 150W + 90W tri-amped, GLM room calibration, and a massive sweet spot. The definitive tool for precision monitoring.",
+    "desc_es": "El monitor coaxial de 3 vías insignia con el driver coaxial de difracción mínima (MDC) de Genelec y la tecnología avanzada SAM (Smart Active Monitor). Tri-amplificado 250W + 150W + 90W, calibración de sala GLM y un punto óptimo masivo. La herramienta definitiva para monitoreo de precisión.",
+    "img": "https://media.sweetwater.com/m/products/image/db5c6d115dvXy7bVjRq9KJIXmC27X8NIRqzKfgZq.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8351B-3-Way-Coaxial-Studio-Monitor/3BTD",
+      "andertons": "https://www.andertons.co.uk/genelec-8351b-studio-monitor",
+      "amazon": "https://www.amazon.com/dp/B07TWLHGXD",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Genelec-8351B/art-PAH0012491-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/genelec-8351b.html"
+    }
+  },
+  {
+    "id": 182,
+    "title": "Universal Audio Apollo x16 Gen 2",
+    "title_es": "Universal Audio Apollo x16 Gen 2",
+    "brand": "Universal Audio",
+    "category": "interfaces",
+    "price": 3999,
+    "rating": 4.8,
+    "reviews": 410,
+    "badge": "premium",
+    "desc": "Professional 16x20 Thunderbolt 3 audio interface with next-gen Apollo X Gen 2 conversion. 167dB dynamic range converters, HEXA Core UAD DSP with 6 SHARC+ processors, Unison preamps, dual-monitor support. The centerpiece of any professional studio.",
+    "desc_es": "Interfaz de audio profesional 16x20 Thunderbolt 3 con conversión Apollo X Gen 2 de nueva generación. Convertidores de 167dB de rango dinámico, HEXA Core UAD DSP con 6 procesadores SHARC+, preamplificadores Unison, soporte para monitores duales. La pieza central de cualquier estudio profesional.",
+    "img": "https://media.sweetwater.com/m/products/image/cb09c412a3UjixMYy52FksK0ncqL3ddGMpeNb7qA.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-x16-Gen-2-Thunderbolt-3-Audio-Interface/5DMV",
+      "andertons": "https://www.andertons.co.uk/universal-audio-apollo-x16-gen-2-audio-interface",
+      "amazon": "https://www.amazon.com/dp/B0DSNFCBC1",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-x16-Gen-2/art-REC0015831-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/universal-audio-apollo-x16-gen-2.html"
+    }
+  },
+  {
+    "id": 183,
+    "title": "RME Fireface UFX III",
+    "title_es": "RME Fireface UFX III",
+    "brand": "RME",
+    "category": "interfaces",
+    "price": 3199,
+    "rating": 4.9,
+    "reviews": 560,
+    "badge": "premium",
+    "desc": "Professional 188-channel USB 3.0 audio interface with legendary RME driver stability. 135dB D/A conversion, SteadyClock FS, TotalMix FX with 48-channel mixing, DURec standalone recording to USB, MADI I/O, and 4 hi-Z instrument inputs. The gold standard for reliability.",
+    "desc_es": "Interfaz de audio USB 3.0 profesional de 188 canales con la legendaria estabilidad de drivers RME. Conversión D/A de 135dB, SteadyClock FS, TotalMix FX con mezcla de 48 canales, grabación independiente DURec a USB, MADI I/O y 4 entradas de instrumento hi-Z. El estándar de oro en fiabilidad.",
+    "img": "https://media.sweetwater.com/m/products/image/6e940c7adcZX3HGY72EDLEOqks6vqNTx1nzLiRgX.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Fireface-UFX-III-USB-3-0-Audio-Interface/4PC7",
+      "andertons": "https://www.andertons.co.uk/rme-fireface-ufx-iii-audio-interface",
+      "amazon": "https://www.amazon.com/dp/B0CX2JG5M3",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/RME-Fireface-UFX-III/art-REC0011371-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/rme-fireface-ufx-iii.html"
+    }
+  },
+  {
+    "id": 184,
+    "title": "Fender American Ultra II Stratocaster",
+    "title_es": "Fender American Ultra II Stratocaster",
+    "brand": "Fender",
+    "category": "guitars",
+    "price": 2299,
+    "rating": 4.8,
+    "reviews": 870,
+    "badge": "premium",
+    "desc": "Fender's most advanced Stratocaster ever. Ultra II Noiseless Vintage pickups, S-1 switching with 10 voicings, sculpted neck heel, compound-radius ebony fingerboard, and locking tuners. From pristine cleans to searing leads, the ultimate professional Strat.",
+    "desc_es": "La Stratocaster más avanzada de Fender. Pastillas Ultra II Noiseless Vintage, conmutación S-1 con 10 voces, talón esculpido, diapasón de ébano de radio compuesto y afinadores de bloqueo. Desde limpios prístinos hasta leads estridentes, la Strat profesional definitiva.",
+    "img": "https://r2.gear4music.com/media/51/515381/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-II-Stratocaster-HSS-MN-Ultraburst/32KR",
+      "andertons": "https://www.andertons.co.uk/fender-american-ultra-ii-stratocaster",
+      "amazon": "https://www.amazon.com/dp/B0DT2ZFG3N",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-American-Ultra-II-Stratocaster/art-GIT0061889-001",
+      "musikproduktiv": "https://www.musik-produktiv.de/fender-american-ultra-ii-stratocaster.html"
+    }
+  },
+  {
+    "id": 185,
+    "title": "Fender American Ultra II Precision Bass",
+    "title_es": "Fender American Ultra II Precision Bass",
+    "brand": "Fender",
+    "category": "bass",
+    "price": 2199,
+    "rating": 4.8,
+    "reviews": 650,
+    "badge": "premium",
+    "desc": "Fender's most advanced Precision Bass. Ultra II Noiseless P-Bass pickup, redesigned body contours, sculpted neck heel, compound-radius ebony fingerboard, and HiMass bridge. The definitive precision bass for the modern professional.",
+    "desc_es": "El Precision Bass más avanzado de Fender. Pastilla Ultra II Noiseless P-Bass, contornos de cuerpo rediseñados, talón esculpido, diapasón de ébano de radio compuesto y puente HiMass. El bajo de precisión definitivo para el profesional moderno.",
+    "img": "https://r2.gear4music.com/media/60/609875/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-II-Precision-Bass/3XFT",
+      "andertons": "https://www.andertons.co.uk/fender-american-ultra-ii-precision-bass",
+      "amazon": "https://www.amazon.com/dp/B0DT32JY7X",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-American-Ultra-II-Precision-Bass/art-GIT0062121-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/fender-american-ultra-ii-precision-bass.html"
+    }
+  },
+  {
+    "id": 186,
+    "title": "Music Man StingRay Special",
+    "title_es": "Music Man StingRay Special",
+    "brand": "Ernie Ball Music Man",
+    "category": "bass",
+    "price": 2199,
+    "rating": 4.9,
+    "reviews": 1430,
+    "badge": "topQuality",
+    "desc": "The iconic active bass reimagined. Lightweight ash body, roasted maple neck, neodymium pickup with 18V active preamp, and a 2-band EQ. The punchy, aggressive tone that defined funk, rock, and pop for decades — now lighter, more resonant, and more playable than ever.",
+    "desc_es": "El bajo activo icónico reinventado. Cuerpo de fresno ligero, mástil de arce tostado, pastilla de neodimio con previo activo de 18V y ecualizador de 2 bandas. El tono contundente y agresivo que definió el funk, rock y pop durante décadas — ahora más ligero, resonante y tocable que nunca.",
+    "img": "https://r2.gear4music.com/media/26/267355/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ernie-Ball-Music-Man-StingRay-Special/3FTG",
+      "andertons": "https://www.andertons.co.uk/music-man-stingray-special-bass",
+      "amazon": "https://www.amazon.com/dp/B07L6ZGDZG",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Ernie-Ball-Music-Man-StingRay-Special/art-GIT0004451-000",
+      "musikproduktiv": "https://www.musik-produktiv.de/ernie-ball-music-man-stingray-special.html"
     }
   }
 ]
