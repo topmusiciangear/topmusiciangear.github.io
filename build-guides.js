@@ -318,6 +318,8 @@ function boldFirstSentence(html) {
   return prefix + t + suffix;
 }
 
+const YEAR_TAG = '2026';
+
 function normImg(path) {
   return path && path.startsWith('../') ? path.substring(3) : path;
 }
@@ -335,8 +337,7 @@ function buildGuidePage(guide, lang, idx) {
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
-  var yearMatch = guide.id.match(/-(\d{4})$/);
-  var yearTag = yearMatch ? ' (' + yearMatch[1] + ')' : '';
+  var yearTag = ' (' + YEAR_TAG + ')';
 
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
   const productCards = allProductIds.map(pid => {
