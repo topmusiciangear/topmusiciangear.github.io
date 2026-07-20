@@ -20230,6 +20230,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2020",
+          "val1_es": "2023",
+          "val2_es": "2020"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$199",
@@ -20284,6 +20292,30 @@
           "val2": "120 dB",
           "val1_es": "120 dB",
           "val2_es": "120 dB"
+        },
+        {
+          "label": "Max Sample Rate",
+          "label_es": "Tasa de Muestreo Máx",
+          "val1": "192 kHz",
+          "val2": "192 kHz",
+          "val1_es": "192 kHz",
+          "val2_es": "192 kHz"
+        },
+        {
+          "label": "Max Gain",
+          "label_es": "Ganancia Máxima",
+          "val1": "56 dB",
+          "val2": "57 dB",
+          "val1_es": "56 dB",
+          "val2_es": "57 dB"
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Phantom Power",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
         },
         {
           "label": "DAC",
