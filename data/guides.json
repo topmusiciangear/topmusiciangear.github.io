@@ -20605,12 +20605,28 @@
     "comparison": {
       "rows": [
         {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2024 (Live 12)",
+          "val2": "2024 (Logic 11)",
+          "val1_es": "2024 (Live 12)",
+          "val2_es": "2024 (Logic 11)"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$799 (Suite)",
           "val2": "$199",
           "val1_es": "$799 (Suite)",
           "val2_es": "$199"
+        },
+        {
+          "label": "Pricing Model",
+          "label_es": "Modelo de Pago",
+          "val1": "Tiers (Intro $79 / Standard $449 / Suite $799)",
+          "val2": "One-time $199, updates included",
+          "val1_es": "Niveles (Intro $79 / Standard $449 / Suite $799)",
+          "val2_es": "Único pago $199, actualizaciones gratis"
         },
         {
           "label": "Key Feature",
@@ -20627,6 +20643,46 @@
           "val2": "Recording, mixing, songwriting",
           "val1_es": "Música electrónica, performance en vivo",
           "val2_es": "Grabación, mezcla, composición"
+        },
+        {
+          "label": "Max Track Count",
+          "label_es": "Pistas Máximas",
+          "val1": "Unlimited",
+          "val2": "Unlimited (1,000+)",
+          "val1_es": "Ilimitadas",
+          "val2_es": "Ilimitadas (1,000+)"
+        },
+        {
+          "label": "Max Sample Rate",
+          "label_es": "Tasa de Muestreo Máx",
+          "val1": "192 kHz",
+          "val2": "192 kHz",
+          "val1_es": "192 kHz",
+          "val2_es": "192 kHz"
+        },
+        {
+          "label": "Score / Notation Editor",
+          "label_es": "Editor de Partituras",
+          "val1": "No",
+          "val2": "Yes (built-in)",
+          "val1_es": "No",
+          "val2_es": "Sí (integrado)"
+        },
+        {
+          "label": "Built-in Synths",
+          "label_es": "Sintetizadores Incluidos",
+          "val1": "Wavetable, Analog, Operator, Collision + M4L",
+          "val2": "Alchemy, Retro Synth, Sculpture + Session Players",
+          "val1_es": "Wavetable, Analog, Operator, Collision + M4L",
+          "val2_es": "Alchemy, Retro Synth, Sculpture + Session Players"
+        },
+        {
+          "label": "Included Sounds",
+          "label_es": "Sonidos Incluidos",
+          "val1": "70+ GB, thousands of loops & samples",
+          "val2": "10,000+ Apple Loops + complete instrument library",
+          "val1_es": "70+ GB, miles de loops y samples",
+          "val2_es": "10,000+ Apple Loops + biblioteca completa"
         },
         {
           "label": "Brand",
