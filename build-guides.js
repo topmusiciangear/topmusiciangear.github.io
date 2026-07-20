@@ -318,7 +318,7 @@ function boldFirstSentence(html) {
   return prefix + t + suffix;
 }
 
-const YEAR_TAG = '2026';
+const YEAR_TAG = String(new Date().getFullYear());
 
 function normImg(path) {
   return path && path.startsWith('../') ? path.substring(3) : path;

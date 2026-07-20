@@ -2594,7 +2594,7 @@
     "title": "Squier Classic Vibe '60s Jazz Bass",
     "title_es": "Squier Classic Vibe '60s Jazz Bass",
     "brand": "Squier",
-    "category": "guitars",
+    "category": "bass",
     "price": 450,
     "rating": 4.6,
     "reviews": 4567,
@@ -2614,7 +2614,7 @@
     "title": "Squier Affinity Series Precision Bass PJ",
     "title_es": "Squier Affinity Series Precision Bass PJ",
     "brand": "Squier",
-    "category": "guitars",
+    "category": "bass",
     "price": 280,
     "rating": 4.5,
     "reviews": 6789,
@@ -2634,7 +2634,7 @@
     "title": "Yamaha TRBX304",
     "title_es": "Yamaha TRBX304",
     "brand": "Yamaha",
-    "category": "guitars",
+    "category": "bass",
     "price": 380,
     "rating": 4.5,
     "reviews": 3456,
@@ -2654,7 +2654,7 @@
     "title": "Ibanez SR300E",
     "title_es": "Ibanez SR300E",
     "brand": "Ibanez",
-    "category": "guitars",
+    "category": "bass",
     "price": 350,
     "rating": 4.4,
     "reviews": 5678,
@@ -2674,7 +2674,7 @@
     "title": "Sterling by Music Man StingRay Ray4",
     "title_es": "Sterling by Music Man StingRay Ray4",
     "brand": "Sterling by Music Man",
-    "category": "guitars",
+    "category": "bass",
     "price": 350,
     "rating": 4.6,
     "reviews": 3456,
@@ -2694,7 +2694,7 @@
     "title": "Epiphone Thunderbird '60s Bass",
     "title_es": "Epiphone Thunderbird '60s Bass",
     "brand": "Epiphone",
-    "category": "guitars",
+    "category": "bass",
     "price": 749,
     "rating": 4.4,
     "reviews": 2345,
@@ -2707,6 +2707,74 @@
       "sweetwater": "https://www.sweetwater.com/store/detail/EBTVEBNH--epiphone-thunderbird-vintage-pro-bass-ebony",
       "amazon": "https://www.amazon.com/dp/B0C1SJN7MZ",
       "andertons": "https://www.andertons.co.uk/epiphone-thunderbird-60s-bass"
+    }
+  },
+  {
+    "id": 163,
+    "title": "Sire Marcus Miller V5 4-String Bass",
+    "title_es": "Bajo Sire Marcus Miller V5 4 Cuerdas",
+    "price": 499,
+    "rating": 4.7,
+    "reviews": 324,
+    "img": "https://media.sweetwater.com/m/products/image/1b188a6da6AGxHELqJ5TZ3MYjjfx24ah3U02hmi2.png?quality=82&height=750&ha=1b188a6da6666202",
+    "category": "bass",
+    "brand": "Sire",
+    "url": "https://www.sweetwater.com/store/detail/MSV54TS--sire-marcus-miller-v5-4-string-bass-3-tone-sunburst",
+    "desc": "The Sire Marcus Miller V5 is one of the most popular basses under $500, offering pro-level features like rolled fretboard edges, alnico pickups, and an active/passive preamp designed by Marcus Miller himself.",
+    "desc_es": "El Sire Marcus Miller V5 es uno de los bajos mas populares por menos de $500, ofreciendo caracteristicas de nivel profesional.",
+    "stores": {
+      "sweetwater": "https://www.sweetwater.com/store/detail/MSV54TS--sire-marcus-miller-v5-4-string-bass-3-tone-sunburst"
+    }
+  },
+  {
+    "id": 164,
+    "title": "Schecter Stiletto Stealth 4 Bass",
+    "title_es": "Bajo Schecter Stiletto Stealth 4",
+    "price": 499,
+    "rating": 4.6,
+    "reviews": 187,
+    "img": "https://media.sweetwater.com/m/products/image/034417b563bkXqBblfCUcwPm3Wr4vd0VBRh3qG7H.png?quality=82&height=750&ha=034417b5633b9c93",
+    "category": "bass",
+    "brand": "Schecter",
+    "url": "https://www.sweetwater.com/store/detail/StiltSte4BCH--schecter-stiletto-stealth-4-black",
+    "desc": "The Schecter Stiletto Stealth 4 is the go-to bass for metal and rock players. EMG-designed pickups, thin C-shaped neck, ultra-lightweight swamp ash body.",
+    "desc_es": "El Schecter Stiletto Stealth 4 es el bajo ideal para metal y rock. Pastillas EMG, mastil delgado tipo C.",
+    "stores": {
+      "sweetwater": "https://www.sweetwater.com/store/detail/StiltSte4BCH--schecter-stiletto-stealth-4-black"
+    }
+  },
+  {
+    "id": 165,
+    "title": "ESP LTD B-204SM Bass Guitar",
+    "title_es": "Bajo ESP LTD B-204SM",
+    "price": 499,
+    "rating": 4.7,
+    "reviews": 156,
+    "img": "https://media.sweetwater.com/m/products/image/8800fe6621h7VHB0S98DJyFnBEevqMtvY5Plw1o8.png?quality=82&height=750&ha=8800fe6621e3d653",
+    "category": "bass",
+    "brand": "ESP",
+    "url": "https://www.sweetwater.com/store/detail/B204SMS--esp-ltd-b-204sm-surf-green",
+    "desc": "Pro-quality 4-string bass with spalted maple top, active electronics, fast thin-U neck.",
+    "desc_es": "Bajo profesional 4 cuerdas con tapa de arce, electronica activa, mastil delgado tipo U.",
+    "stores": {
+      "sweetwater": "https://www.sweetwater.com/store/detail/B204SMS--esp-ltd-b-204sm-surf-green"
+    }
+  },
+  {
+    "id": 166,
+    "title": "Hofner Ignition Violin Bass (Beatle Bass)",
+    "title_es": "Bajo Hofner Ignition Violin Bass (Beatle Bass)",
+    "price": 399,
+    "rating": 4.5,
+    "reviews": 289,
+    "img": "https://media.sweetwater.com/m/products/image/7e373722aesfKQKxkFYUCd3se6lOs57Z8PA42r3D.png?quality=82&height=750&ha=7e373722ae4a8d8e",
+    "category": "bass",
+    "brand": "Hofner",
+    "url": "https://www.sweetwater.com/store/detail/HCT5001VS--hofner-ignition-violin-bass-vintage-sunburst",
+    "desc": "Iconic Beatle bass used by Paul McCartney. Hollow body, incredibly lightweight, warm woody tone.",
+    "desc_es": "Iconico bajo Beatle usado por Paul McCartney. Cuerpo hueco, increiblemente ligero, tono calido.",
+    "stores": {
+      "sweetwater": "https://www.sweetwater.com/store/detail/HCT5001VS--hofner-ignition-violin-bass-vintage-sunburst"
     }
   }
 ]
