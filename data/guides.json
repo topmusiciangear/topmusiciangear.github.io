@@ -20092,13 +20092,13 @@
           "LED halo metering rings are functional but imprecise — you cannot see exact dB levels or fine-grained headroom information compared to a numeric LCD display",
           "Air mode is a single fixed EQ curve — it works well on most sources but cannot be adjusted or disabled per-channel; it's all or nothing on both inputs",
           "Loopback is limited to a single stereo mix — less flexible than the MOTU M2's per-pair loopback routing for complex streaming or podcast setups",
-          "The 4th Gen chassis is plastic rather than metal — lighter but less road-worthy than the M2's all-metal construction for mobile recording rigs"
+          "The 4th Gen has plastic side panels rather than full metal construction — lighter but less road-worthy than the M2's all-metal chassis for mobile recording rigs"
         ],
         "cons_es": [
           "Los anillos LED de medición son funcionales pero imprecisos — no puedes ver niveles dB exactos o información detallada de margen en comparación con una pantalla LCD numérica",
           "El modo Air es una sola curva de EQ fija — funciona bien en la mayoría de las fuentes pero no se puede ajustar o desactivar por canal; es todo o nada en ambas entradas",
           "El loopback se limita a una sola mezcla estéreo — menos flexible que el enrutamiento de loopback por par de la MOTU M2 para configuraciones complejas de streaming o podcast",
-          "El chasis de la 4ª Gen es de plástico en lugar de metal — más ligero pero menos robusto que la construcción totalmente metálica de la M2 para equipos de grabación móvil"
+          "La 4ª Gen tiene laterales de plástico en lugar de construcción totalmente metálica — más ligera pero menos robusta que el chasis totalmente metálico de la M2 para equipos de grabación móvil"
         ]
       },
       {
@@ -20344,9 +20344,9 @@
         {
           "label": "Chassis",
           "label_es": "Chasis",
-          "val1": "Plastic",
+          "val1": "Metal + plastic sides",
           "val2": "All metal",
-          "val1_es": "Plástico",
+          "val1_es": "Metal + laterales plástico",
           "val2_es": "Totalmente metálico"
         }
       ]
