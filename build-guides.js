@@ -137,7 +137,7 @@ function getResolvedStores(product) {
       } else if (key === 'musikproduktiv' && specificUrl === 'https://www.musik-produktiv.de/search') {
         s[key] = searchUrls.musikproduktiv(product.title);
       } else if (key === 'amazon' && specificUrl.startsWith('https://www.amazon.com/dp/')) {
-        s[key] = specificUrl + '?tag=topmusicg-20';
+        s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
         s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
       } else {
