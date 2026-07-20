@@ -3436,9 +3436,9 @@
   },
   {
     "id": "fender-guide",
-    "title": "Best Fender Guitars & Basses for Every Genre (2026)",
-    "title_es": "Las Mejores Guitarras y Bajos Fender para Cada Género (2026)",
-    "category": "basses",
+    "title": "Best Fender Guitars for Every Genre (2026)",
+    "title_es": "Las Mejores Guitarras Fender para Cada Género (2026)",
+    "category": "guitars",
     "image": "https://r2.gear4music.com/media/109/1099217/1200/preview.jpg",
     "badge": "topQuality",
     "intro": "Fender didn't just invent the electric guitar — they invented the sound of modern music.",
@@ -3480,16 +3480,6 @@
         ]
       },
       {
-        "heading": "Are Fender Precision and Jazz Bass the Best for Your Genre?",
-        "heading_es": "¿Son los Bajos Fender Precision y Jazz Bass los Mejores para Tu Género?",
-        "content": "<strong>Every genre has a Fender bass at its foundation. </strong>The Precision Bass (P-Bass) is the workhorse — that punchy, authoritative low-end drives salsa, funk, and rock. The split-coil pickup delivers a thick, focused tone that sits perfectly in any mix. The Player Precision Bass ($899) gives you that classic P-Bass tone that's been heard on more records than any other bass. The Jazz Bass (J-Bass) offers a brighter, more articulate voice with two single-coil pickups that let you blend bridge and neck tones. The Player Jazz Bass ($899) has a slimmer neck that makes complex Latin bass tumbaos and jazz walking lines effortless. For salsa and timba, the P-Bass with flats gives that deep, thumping pulse. For Latin jazz and fusion, the J-Bass with its mid-range punch cuts through horn sections with ease. For rock and funk, running both pickups full on the J-Bass delivers the growl that drives a band.",
-        "content_es": "<strong>Cada género tiene un bajo Fender en su base. </strong>El Precision Bass (P-Bass) es el caballo de batalla — ese golpe grave y autoritario impulsa la salsa, el funk y el rock. La pastilla split-coil ofrece un tono grueso y enfocado que se asienta perfectamente en cualquier mezcla. El Player Precision Bass ($899) te da ese tono P-Bass clásico que se ha escuchado en más discos que cualquier otro bajo. El Jazz Bass (J-Bass) ofrece una voz más brillante y articulada con dos pastillas single-coil que te permiten mezclar los tonos del puente y el mástil. El Player Jazz Bass ($899) tiene un mástil más delgado que hace que los tumbaos de bajo latino complejos y las líneas de walking jazz sea sin esfuerzo. Para salsa y timba, el P-Bass con cuerdas planas da ese pulso profundo y golpeado. Para jazz latino y fusión, el J-Bass con su pegada en medios corta a través de las secciones de viento con facilidad. Para rock y funk, ambas pastillas al máximo en el J-Bass ofrecen el growl que impulsa una banda.",
-        "products": [
-          66,
-          67
-        ]
-      },
-      {
         "heading": "Are Fender Acoustic Guitars a Good Choice for Beginners and Songwriters?",
         "heading_es": "¿Son las Guitarras Acústicas Fender una Buena Opción para Principiantes y Compositores?",
         "content": "<strong>Fender's acoustic guitars are often overlooked, but they shouldn't be. </strong>The CD-60S ($219) is the best beginner dreadnought under $300 — solid spruce top, mahogany body, and a neck that's easy to play whether you're strumming Latin folk songs or learning your first chords. For Latin guitar techniques like arpeggios and rasgueados, the OM (Orchestra Model) body size offers perfect balance between projection and comfort. The CD-60S translates beautifully to amplified sound — great for songwriting and campfires. <p>Buy the Fender CD-60S Acoustic if you want an affordable acoustic guitar that plays well and sounds great. For more guitar guides, see our <a href=\"/guides/best-electric-guitar.html\">best electric guitar guide</a> and <a href=\"/guides/beginner-guitar.html\">beginner guitar guide</a>.</p>",
@@ -3499,18 +3489,16 @@
         ]
       }
     ],
-    "conclusion": "Fender instruments are the most versatile tools a musician can own. For Latin music, nothing beats a Stratocaster — the Player Strat is your entry, the Ultra Strat is your destination. For rock, blues, and country, a Telecaster is essential — the Player Tele gives you the tone, the American Pro II gives you the refinement. For jazz and alternative, the Jazzmaster's unique voice is irreplaceable. On bass, the Precision and Jazz Bass cover every genre from salsa to rock. And don't overlook the CD-60S — the best value beginner acoustic guitar period.",
-    "conclusion_es": "Los instrumentos Fender son las herramientas más versátiles que un músico puede tener. Para música latina, pocas guitarras superan una Stratocaster — la Player Strat es tu entrada, la Ultra Strat es tu destino. Para rock, blues y country, una Telecaster es esencial — la Player Tele te da el tono, la American Pro II te da la refinación. Para jazz y alternativa, la voz única de la Jazzmaster es irremplazable. En bajo, el Precision y Jazz Bass cubren todos los géneros desde salsa hasta rock. Y no pases por alto la CD-60S — la mejor guitarra acústica para principiantes en precio-calidad.",
-    "verdict": "Stratocaster for Latin, Telecaster for rock, Precision Bass for everything",
-    "verdict_es": "Stratocaster para latino, Telecaster para rock, Precision Bass para todo",
+    "conclusion": "Fender instruments are the most versatile tools a musician can own. For Latin music, nothing beats a Stratocaster — the Player Strat is your entry, the Ultra Strat is your destination. For rock, blues, and country, a Telecaster is essential — the Player Tele gives you the tone, the American Pro II gives you the refinement. For jazz and alternative, the Jazzmaster's unique voice is irreplaceable. And don't overlook the CD-60S — the best value beginner acoustic guitar period.",
+    "conclusion_es": "Los instrumentos Fender son las herramientas más versátiles que un músico puede tener. Para música latina, pocas guitarras superan una Stratocaster — la Player Strat es tu entrada, la Ultra Strat es tu destino. Para rock, blues y country, una Telecaster es esencial — la Player Tele te da el tono, la American Pro II te da la refinación. Para jazz y alternativa, la voz única de la Jazzmaster es irremplazable. Y no pases por alto la CD-60S — la mejor guitarra acústica para principiantes en precio-calidad.",
+    "verdict": "Stratocaster for Latin, Telecaster for rock, Jazzmaster for alternative",
+    "verdict_es": "Stratocaster para latino, Telecaster para rock, Jazzmaster para alternativa",
     "featuredProducts": [
       124,
       125,
       126,
       64,
       65,
-      66,
-      67,
       68
     ],
     "relatedGuides": [
@@ -3518,9 +3506,9 @@
       "beginner-guitar",
       "best-beginner-electric-guitar"
     ],
-    "description": "COMPLETE Fender guitar guide 2026. Strat vs Tele vs Les Paul. Which Fender is right for you? Read the verdict.",
+    "description": "COMPLETE Fender guitar guide 2026. Strat vs Tele vs Jazzmaster. Which Fender is right for you? Read the verdict.",
     "featuredSnippet": {
-      "title_en": "Best Fender Guitars & Basses for Every Genre (2026)",
+      "title_en": "Best Fender Guitars for Every Genre (2026)",
       "text_en": "The Stratocaster is the backbone of Latin music. Its bright, percussive attack cuts through a full salsa ensemble — horns, piano, congas, and all. The 5-way pickup switch gives you rhythm, lead, and e...",
       "name1_en": "",
       "name2_en": "",
@@ -3536,7 +3524,7 @@
       "brand2": "",
       "rating1": 0,
       "rating2": 0,
-      "title_es": "Las Mejores Guitarras y Bajos Fender para Cada Género (2026)",
+      "title_es": "Las Mejores Guitarras Fender para Cada Género (2026)",
       "text_es": "La Stratocaster es la columna vertebral de la música latina. Su ataque brillante y percusivo corta a través de un conjunto completo de salsa — trompetas, piano, congas y todo. El interruptor de 5 posi...",
       "name1_es": "",
       "name2_es": "",
@@ -3565,20 +3553,12 @@
       "faq_a5_en": "Yes, the Fender American Professional II Telecaster ($1,799) features V-Mod II pickups with a series wiring option — giving you thicker, hum-canceling tones that push beyond traditional Tele twang. Priced at $1799, this product holds a 4.7/5 user rating.",
       "faq_q5_es": "¿Sería la Fender American Professional II Telecaster una buena elección para Blues y Country?",
       "faq_a5_es": "Sí, la Fender American Professional II Telecaster ($1,799) tiene pastillas V-Mod II con opción de cableado en serie que ofrecen tonos más gruesos y sin ruido, superando el twang tradicional.",
-      "faq_q6_en": "How does the Fender Precision Bass perform for Salsa and Funk?",
-      "faq_a6_en": "The Fender Precision Bass ($899) delivers that punchy split-coil thump that drives salsa, funk, and rock — the most recorded bass in history for good reason. Priced at $899, this product holds a 4.5/5 user rating.",
-      "faq_q6_es": "¿Cómo se desempeña el Fender Precision Bass para Salsa y Funk?",
-      "faq_a6_es": "El Fender Precision Bass ($899) ofrece ese golpe de pastilla split-coil que impulsa salsa, funk y rock — el bajo más grabado de la historia por una buena razón.",
-      "faq_q7_en": "Is the Fender Jazz Bass a good option for Latin Jazz and Fusion?",
-      "faq_a7_en": "Yes, the Fender Jazz Bass ($899) gives you two single-coil pickups with a slim neck — perfect for complex Latin bass tumbaos and jazz walking lines that need articulation and mid-range punch. Priced at $899, this product holds a 4.6/5 user rating.",
-      "faq_q7_es": "¿Es el Fender Jazz Bass una buena opción para Jazz Latino y Fusión?",
-      "faq_a7_es": "Sí, el Fender Jazz Bass ($899) te da dos pastillas de bobina simple con mástil delgado — perfecto para tumbaos de bajo latino complejos que necesitan articulación y pegada en medios.",
       "faq_q8_en": "Would the Fender CD-60S be a good choice for Beginner Singer-Songwriters?",
       "faq_a8_en": "Yes, the Fender CD-60S ($219) offers a solid spruce top and easy-playing mahogany neck at an entry-level price — the best value acoustic for beginners learning chords and strumming. Priced at $219, this product holds a 4.5/5 user rating.",
       "faq_q8_es": "¿Sería la Fender CD-60S una buena elección para Cantautores Principiantes?",
       "faq_a8_es": "Sí, la Fender CD-60S ($219) ofrece tapa sólida de abeto y mástil de caoba fácil de tocar a un precio de entrada — la mejor acústica calidad-precio para principiantes."
     },
-    "description_es": "GUÍA COMPLETA de guitarras Fender 2026. Strat vs Tele vs Les Paul. ¿Cuál es la tuya? Lee el veredicto.",
+    "description_es": "GUÍA COMPLETA de guitarras Fender 2026. Strat vs Tele vs Jazzmaster. ¿Cuál es la tuya? Lee el veredicto.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -20008,6 +19988,107 @@
       ]
     },
     "aboutName": "Guitars"
+  },
+  {
+    "id": "fender-bass-guide",
+    "title": "Best Fender Basses for Every Genre (2026)",
+    "title_es": "Los Mejores Bajos Fender para Cada Género (2026)",
+    "category": "basses",
+    "image": "https://r2.gear4music.com/media/109/1099217/1200/preview.jpg",
+    "badge": "topQuality",
+    "intro": "Fender didn't just invent the electric bass — they defined the sound of modern rhythm sections.",
+    "intro_es": "Fender no solo inventó el bajo eléctrico — definieron el sonido de las secciones rítmicas modernas.",
+    "sections": [
+      {
+        "heading": "How to Choose the Best Fender Bass for Your Musical Style?",
+        "heading_es": "¿Cómo Elegir el Mejor Bajo Fender para Tu Estilo Musical?",
+        "content": "<p><strong>Choosing a bass is about finding the instrument that connects your hands to the groove.</strong> The right bass feels like part of you; the wrong one creates friction between you and the music.</p><p><strong>Precision Bass vs Jazz Bass is the first decision.</strong> The P-Bass is the foundation of modern music — that thick, punchy split-coil tone that has driven salsa, funk, and rock for over 70 years. The J-Bass offers a brighter, more articulate voice with dual single-coil pickups and a slimmer neck. Your choice comes down to feel and genre.</p><p><strong>Pickup configuration determines your voice.</strong> Split-coil humbuckers (P-Bass) deliver a focused mid-forward punch that sits in any mix with zero effort. Dual single-coils (J-Bass) give you a wider tonal palette — from warm neck tones to aggressive bridge bite.</p><p><strong>Neck profile affects your playing.</strong> The P-Bass has a wider 1.625-inch nut with a chunkier C-shape — great for fingerstyle and players with larger hands. The J-Bass has a slimmer 1.5-inch tapered neck that makes fast passages and complex tumbaos effortless.</p>",
+        "content_es": "<p><strong>Elegir un bajo se trata de encontrar el instrumento que conecta tus manos con el groove.</strong> El bajo correcto se siente como parte de ti; el incorrecto crea fricción entre tú y la música.</p><p><strong>Precision Bass vs Jazz Bass es la primera decisión.</strong> El P-Bass es la base de la música moderna — ese tono grueso y contundente de pastilla split-coil que ha impulsado salsa, funk y rock por más de 70 años. El J-Bass ofrece una voz más brillante y articulada con dos pastillas single-coil y un mástil más delgado. Tu elección se reduce a la sensación y el género.</p><p><strong>La configuración de pastillas determina tu voz.</strong> Las humbuckers split-coil (P-Bass) ofrecen un golpe enfocado en medios que se sienta en cualquier mezcla sin esfuerzo. Las duales single-coil (J-Bass) te dan una paleta tonal más amplia — desde tonos cálidos de mástil hasta mordiente agresivo de puente.</p><p><strong>El perfil del mástil afecta tu ejecución.</strong> El P-Bass tiene una cejilla más ancha de 1.625 pulgadas con un C-shape robusto — ideal para tocar con los dedos y músicos con manos grandes. El J-Bass tiene un mástil cónico más delgado de 1.5 pulgadas que hace que los pasajes rápidos y tumbaos complejos sean sin esfuerzo.</p>"
+      },
+      {
+        "heading": "Are Fender Precision and Jazz Bass the Best for Your Genre?",
+        "heading_es": "¿Son los Bajos Fender Precision y Jazz Bass los Mejores para Tu Género?",
+        "content": "<strong>Every genre has a Fender bass at its foundation. </strong>The Precision Bass (P-Bass) is the workhorse — that punchy, authoritative low-end drives salsa, funk, and rock. The split-coil pickup delivers a thick, focused tone that sits perfectly in any mix. The Player Precision Bass ($899) gives you that classic P-Bass tone that's been heard on more records than any other bass. The Jazz Bass (J-Bass) offers a brighter, more articulate voice with two single-coil pickups that let you blend bridge and neck tones. The Player Jazz Bass ($899) has a slimmer neck that makes complex Latin bass tumbaos and jazz walking lines effortless. For salsa and timba, the P-Bass with flats gives that deep, thumping pulse. For Latin jazz and fusion, the J-Bass with its mid-range punch cuts through horn sections with ease. For rock and funk, running both pickups full on the J-Bass delivers the growl that drives a band.",
+        "content_es": "<strong>Cada género tiene un bajo Fender en su base. </strong>El Precision Bass (P-Bass) es el caballo de batalla — ese golpe grave y autoritario impulsa la salsa, el funk y el rock. La pastilla split-coil ofrece un tono grueso y enfocado que se asienta perfectamente en cualquier mezcla. El Player Precision Bass ($899) te da ese tono P-Bass clásico que se ha escuchado en más discos que cualquier otro bajo. El Jazz Bass (J-Bass) ofrece una voz más brillante y articulada con dos pastillas single-coil que te permiten mezclar los tonos del puente y el mástil. El Player Jazz Bass ($899) tiene un mástil más delgado que hace que los tumbaos de bajo latino complejos y las líneas de walking jazz sea sin esfuerzo. Para salsa y timba, el P-Bass con cuerdas planas da ese pulso profundo y golpeado. Para jazz latino y fusión, el J-Bass con su pegada en medios corta a través de las secciones de viento con facilidad. Para rock y funk, ambas pastillas al máximo en el J-Bass ofrecen el growl que impulsa una banda.",
+        "products": [
+          66,
+          67
+        ]
+      }
+    ],
+    "conclusion": "Fender basses are the foundation of modern music — the Precision Bass and Jazz Bass have defined recorded bass tone for over 70 years. The P-Bass gives you that thick, punchy, fundamental-heavy tone that sits in any mix without effort. The J-Bass offers versatility, a slimmer neck, and a brighter articulate voice that cuts through. Choose the P-Bass for rock, salsa, and funk — choose the J-Bass for jazz, fusion, and modern styles. Or better yet, own both.",
+    "conclusion_es": "Los bajos Fender son la base de la música moderna — el Precision Bass y el Jazz Bass han definido el tono del bajo grabado por más de 70 años. El P-Bass te da ese tono grueso y contundente que se sienta en cualquier mezcla sin esfuerzo. El J-Bass ofrece versatilidad, un mástil más delgado y una voz brillante y articulada que corta. Elige el P-Bass para rock, salsa y funk — elige el J-Bass para jazz, fusión y estilos modernos. O mejor aún, ten ambos.",
+    "verdict": "P-Bass for punch and simplicity, J-Bass for versatility and speed",
+    "verdict_es": "P-Bass para potencia y simplicidad, J-Bass para versatilidad y velocidad",
+    "featuredProducts": [
+      66,
+      67
+    ],
+    "relatedGuides": [
+      "precision-vs-jazz"
+    ],
+    "description": "COMPLETE Fender bass guide 2026. Precision Bass vs Jazz Bass. Which Fender bass is right for your genre? Read the verdict.",
+    "featuredSnippet": {
+      "title_en": "Best Fender Basses for Every Genre (2026)",
+      "text_en": "The Precision Bass (P-Bass) is the workhorse — that punchy, authoritative low-end drives salsa, funk, and rock. The Jazz Bass (J-Bass) offers a brighter, more articulate voice with two single-coil pickups that let you blend bridge and neck tones.",
+      "name1_en": "",
+      "name2_en": "",
+      "price1": "",
+      "price2": "",
+      "type1": "basses",
+      "type2": "basses",
+      "key1_en": "",
+      "key2_en": "",
+      "best1_en": "",
+      "best2_en": "",
+      "brand1": "",
+      "brand2": "",
+      "rating1": 0,
+      "rating2": 0,
+      "title_es": "Los Mejores Bajos Fender para Cada Género (2026)",
+      "text_es": "El Precision Bass (P-Bass) es el caballo de batalla — ese golpe grave y autoritario impulsa la salsa, el funk y el rock. El Jazz Bass (J-Bass) ofrece una voz más brillante y articulada con dos pastillas single-coil.",
+      "name1_es": "",
+      "name2_es": "",
+      "best1_es": "",
+      "best2_es": "",
+      "key1_es": "",
+      "key2_es": "",
+      "faq_q1_en": "How does the Fender Precision Bass perform for Salsa and Funk?",
+      "faq_a1_en": "The Fender Precision Bass ($899) delivers that punchy split-coil thump that drives salsa, funk, and rock — the most recorded bass in history for good reason. Priced at $899, this product holds a 4.5/5 user rating.",
+      "faq_q2_en": "Is the Fender Jazz Bass a good option for Latin Jazz and Fusion?",
+      "faq_a2_en": "Yes, the Fender Jazz Bass ($899) gives you two single-coil pickups with a slim neck — perfect for complex Latin bass tumbaos and jazz walking lines that need articulation and mid-range punch. Priced at $899, this product holds a 4.6/5 user rating.",
+      "faq_q1_es": "¿Cómo se desempeña el Fender Precision Bass para Salsa y Funk?",
+      "faq_a1_es": "El Fender Precision Bass ($899) ofrece ese golpe de pastilla split-coil que impulsa salsa, funk y rock — el bajo más grabado de la historia por una buena razón.",
+      "faq_q2_es": "¿Es el Fender Jazz Bass una buena opción para Jazz Latino y Fusión?",
+      "faq_a2_es": "Sí, el Fender Jazz Bass ($899) te da dos pastillas de bobina simple con mástil delgado — perfecto para tumbaos de bajo latino complejos que necesitan articulación y pegada en medios."
+    },
+    "description_es": "GUÍA COMPLETA de bajos Fender 2026. Precision Bass vs Jazz Bass. ¿Qué bajo Fender es para tu género? Lee el veredicto.",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Carnago",
+      "givenName": "Daniel",
+      "familyName": "Carnago",
+      "alternateName": "Cuban3Beats",
+      "jobTitle": "Professional Musician & Audio Engineer",
+      "description": "Touring musician with 20+ years of experience performing on world stages including Glastonbury, Broadway, and Abbey Road.",
+      "url": "https://topmusiciangear.com/about.html",
+      "sameAs": [
+        "https://www.youtube.com/@Cuban3Beats",
+        "https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX",
+        "https://www.tiktok.com/@cuban3beats",
+        "https://www.facebook.com/Cuban3Beats/",
+        "https://www.instagram.com/cuban3beats",
+        "https://x.com/Cuban3Beats"
+      ],
+      "knowsAbout": [
+        "Audio Engineering",
+        "Music Production",
+        "Live Sound",
+        "Studio Recording",
+        "Music Gear"
+      ]
+    },
+    "aboutName": "Basses"
   },
   {
     "id": "scarlett-vs-motu",
