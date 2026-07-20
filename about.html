@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>var l=localStorage.getItem("lang");if(l==="es"||l==="en")document.documentElement.lang=l;document.write('<style>.'+(l==="es"?"lang-show-en":"lang-show-es")+'{display:none!important}</style>')</script>
+  <script>var langInit=localStorage.getItem("lang");if(langInit==="es"||langInit==="en")document.documentElement.lang=langInit;document.write('<style id="langOverride">.'+(langInit==="es"?"lang-show-en":"lang-show-es")+'{display:none!important}</style>')</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me — Daniel Carnago | TopMusicianGear</title>
@@ -99,8 +99,8 @@
       </div>
       <div class="header-right">
         <div class="lang-switcher">
-          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" alt="English" style="vertical-align:middle"></button>
-          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" alt="Español" style="vertical-align:middle"></button>
+          <button class="lang-btn active" onclick="setAboutLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" alt="English" style="vertical-align:middle"></button>
+          <button class="lang-btn" onclick="setAboutLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" alt="Español" style="vertical-align:middle"></button>
         </div>
       </div>
     </div>
@@ -186,15 +186,17 @@
   <script>
     var lang = localStorage.getItem("lang") || "en";
     document.documentElement.lang = lang;
-    function setLang(l) {
+    function setAboutLang(l) {
       localStorage.setItem("lang", l);
       document.documentElement.lang = l;
+      var s = document.getElementById("langOverride");
+      if (s) s.textContent = '.' + (l === "es" ? "lang-show-en" : "lang-show-es") + '{display:none!important}';
       document.querySelectorAll(".lang-btn").forEach(function(b) {
         b.classList.remove("active");
         if (b.getAttribute("onclick").indexOf("'"+l+"'") > -1) b.classList.add("active");
       });
     }
-    setLang(lang);
+    setAboutLang(lang);
     document.querySelectorAll('h1.lang-show-es, h1.lang-show-en').forEach(function(el) {
       if (el.offsetParent === null) el.remove();
     });
