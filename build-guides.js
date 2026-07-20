@@ -335,6 +335,9 @@ function buildGuidePage(guide, lang, idx) {
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
+  var yearMatch = guide.id.match(/-(\d{4})$/);
+  var yearTag = yearMatch ? ' (' + yearMatch[1] + ')' : '';
+
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
   const productCards = allProductIds.map(pid => {
     const p = products.find(pr => pr.id === pid);
@@ -457,7 +460,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0d0d0d">
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
-  <title>${title} | TopMusicianGear</title>
+  <title>${title}${yearTag} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
