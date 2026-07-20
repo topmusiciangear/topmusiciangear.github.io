@@ -143,14 +143,14 @@ function getResolvedStores(product) {
       } else {
         s[key] = specificUrl;
       }
-    } else if (!isMacOnly) {
+    } else if (!isMacOnly && key !== 'amazon') {
       s[key] = searchUrls[key](product.title);
     }
   });
   if (s.reverb) {
     s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
-  if (s.musicstore && !product.stores.musicstore) {
+  if (s.musicstore && !s.musicstore.startsWith('https://www.awin1.com/cread.php?awinmid=63816')) {
     s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
   }
   if (s.gear4music) {
