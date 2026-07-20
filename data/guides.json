@@ -21331,24 +21331,17 @@
   },
   {
     "id": "best-electric-under-500",
-    "title": "5 Best Bass Guitars Under $500",
-    "title_es": "Los 5 Mejores Bajos por Menos de $500",
+    "title": "4 Best Bass Guitars Under $500",
+    "title_es": "Los 4 Mejores Bajos por Menos de $500",
     "category": "basses",
     "image": "https://media.sweetwater.com/m/products/image/1b188a6da6AGxHELqJ5TZ3MYjjfx24ah3U02hmi2.png?quality=82&height=750&ha=1b188a6da6666202",
     "badge": "bestSeller",
-    "intro": "Great bass guitars don't need a big budget. Here are the 5 best bass guitars under $500 from Sire, Schecter, ESP, Hofner, and Yamaha, each offering incredible quality for their price.",
-    "intro_es": "No necesitas gastar mucho para conseguir un gran bajo. Aqui estan los 5 mejores bajos por menos de $500 de Sire, Schecter, ESP, Hofner y Yamaha, cada uno con calidad increible a su precio.",
+    "intro": "Great bass guitars don't need a big budget. Here are the 4 best bass guitars under $500 from Schecter, ESP, Hofner, and Yamaha, each offering incredible quality for their price.",
+    "intro_es": "No necesitas gastar mucho para conseguir un gran bajo. Aqui estan los 4 mejores bajos por menos de $500 de Schecter, ESP, Hofner y Yamaha, cada uno con calidad increible a su precio.",
     "sections": [
       {
         "heading": "Sire Marcus Miller V5: The Players Choice",
-        "heading_es": "Sire Marcus Miller V5: La Eleccion de los Musicos",
-        "content": "<p><strong>Price: $499</strong></p><p>The Sire V5 has taken the bass world by storm. Rolled fretboard edges, alnico V pickups, active/passive preamp designed by Marcus Miller. Pro features at a budget price.</p>",
-        "content_es": "<p><strong>Precio: $499</strong></p><p>El Sire V5 ha tomado el mundo del bajo por asalto. Caracteristicas profesionales a precio economico.</p>",
-        "products": [
-          163
-        ]
-      },
-      {
+    {
         "heading": "Schecter Stiletto Stealth 4: The Metal Machine",
         "heading_es": "Schecter Stiletto Stealth 4: La Maquina del Metal",
         "content": "<p><strong>Price: $499</strong></p><p>The Schecter Stiletto is the go-to bass for metal players. EMG-designed pickups, ultra-thin C neck, swamp ash body. Aggressive tone that cuts through loud guitars.</p>",
@@ -21385,17 +21378,16 @@
         ]
       }
     ],
-    "conclusion": "Fender makes excellent basses, but these brands prove incredible quality exists outside the Fender lineup. The Sire V5 is the best all-around value. The Schecter dominates for metal. The ESP LTD offers custom-shop looks. The Hofner gives a unique sound. The Yamaha TRBX304 is the most versatile tool.",
-    "conclusion_es": "Fender hace excelentes bajos, pero estas marcas demuestran calidad increible fuera de Fender. El Sire V5 es el mejor valor general.",
-    "verdict": "Sire V5 ($499): Best overall value. Schecter Stiletto ($499): Best for metal. ESP LTD B-204SM ($499): Best looks. Hofner Ignition ($399): Most unique sound. Yamaha TRBX304 ($379): Most versatile.",
-    "verdict_es": "Sire V5 ($499): Mejor valor. Schecter Stiletto ($499): Mejor metal. ESP LTD ($499): Mejor aspecto. Hofner ($399): Sonido unico. Yamaha TRBX304 ($379): Mas versatil.",
+    "conclusion": "These 4 bass guitars prove incredible quality exists for under $500. The Schecter dominates for metal. The ESP LTD offers custom-shop looks. The Hofner gives a unique sound. The Yamaha TRBX304 is the most versatile tool.",
+    "conclusion_es": "Estos 4 bajos demuestran calidad increible por menos de $500. El Schecter domina para metal. El ESP LTD ofrece aspecto custom-shop. El Hofner da un sonido unico. El Yamaha TRBX304 es la herramienta mas versatil.",
+    "verdict": "Schecter Stiletto ($499): Best for metal. ESP LTD B-204SM ($499): Best looks. Hofner Ignition ($399): Most unique sound. Yamaha TRBX304 ($379): Most versatile.",
+    "verdict_es": "Schecter Stiletto ($499): Mejor metal. ESP LTD ($499): Mejor aspecto. Hofner ($399): Sonido unico. Yamaha TRBX304 ($379): Mas versatil.",
     "featuredProducts": [
-      163,
-      164,
-      165,
-      166,
-      159
-    ],
+    164,
+    165,
+    166,
+    159
+  ],
     "relatedGuides": [
       "budget-bass-like-expensive",
       "best-acoustic-guitars-2026",
@@ -21403,8 +21395,8 @@
       "precision-vs-jazz",
       "best-bass-amps"
     ],
-    "description": "The best non-Fender bass guitars reviewed. Sire Marcus Miller V5, Schecter Stiletto, ESP LTD, Hofner Violin Bass, and Yamaha TRBX304 compared.",
-    "description_es": "Los mejores bajos que no son Fender. Sire V5, Schecter Stiletto, ESP LTD, Hofner y Yamaha TRBX304.",
+    "description": "The best bass guitars under $500 reviewed. Schecter Stiletto, ESP LTD, Hofner Violin Bass, and Yamaha TRBX304 compared.",
+    "description_es": "Los mejores bajos por menos de $500. Schecter Stiletto, ESP LTD, Hofner y Yamaha TRBX304.",
     "featuredSnippet": "",
     "author": {
       "@type": "Person",
@@ -21431,6 +21423,6 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Non-Fender Bass Guitars"
+    "aboutName": "Bass Guitars Under $500"
   }
 ]
