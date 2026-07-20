@@ -2231,11 +2231,15 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 
 .guide-compare-table thead th {
   padding: 14px 16px;
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   color: var(--text);
   background: var(--bg-card);
   border-bottom: 2px solid var(--accent);
+}
+
+.guide-compare-table thead th:first-child {
+  text-align: left;
 }
 
 .guide-compare-table tbody td {
@@ -2275,6 +2279,32 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   background: var(--accent);
   border-radius: 50%;
   opacity: 0.6;
+}
+
+.guide-compare-table .guide-pros-cell ul li::before {
+  background: #22c55e;
+  opacity: 1;
+}
+
+.guide-compare-table .guide-cons-cell ul li::before {
+  background: #ef4444;
+  opacity: 1;
+}
+
+.guide-compare-table .guide-pros-label {
+  color: #22c55e !important;
+}
+
+.guide-compare-table .guide-cons-label {
+  color: #ef4444 !important;
+}
+
+.guide-compare-table .guide-pros-cell {
+  background: rgba(34, 197, 94, 0.04);
+}
+
+.guide-compare-table .guide-cons-cell {
+  background: rgba(239, 68, 68, 0.04);
 }
 
 @media (max-width: 600px) {
