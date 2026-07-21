@@ -136,7 +136,7 @@ function getResolvedStores(product) {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
       } else if (key === 'musikproduktiv' && specificUrl === 'https://www.musik-produktiv.de/search') {
         s[key] = searchUrls.musikproduktiv(product.title);
-      } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/'))) {
+      } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
         s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
         s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
