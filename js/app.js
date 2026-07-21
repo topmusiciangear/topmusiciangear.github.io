@@ -348,7 +348,7 @@ function getResolvedStores(product) {
   const isMacOnly = !!product.stores.macappstore;
   allStoreKeys.forEach(key => {
     if (key === 'amazon' && product.category === 'plugins') return;
-    if (key === 'pluginboutique' && product.category !== 'plugins' && product.category !== 'daw' && product.category !== 'production') return;
+    if (key === 'pluginboutique' && product.category !== 'plugins' && product.category !== 'daw') return;
     const specificUrl = product.stores[key];
     if (specificUrl) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
