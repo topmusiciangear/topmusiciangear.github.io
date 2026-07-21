@@ -163,7 +163,7 @@ function setLang(lang) {
       var metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
         var descText = lang === 'es' && guide.intro_es ? guide.intro_es : guide.intro;
-        metaDesc.content = descText.substring(0, 155);
+        metaDesc.content = descText.replace(/<[^>]*>/g, '').substring(0, 155);
       }
     }
     skipDetailScroll = true;
@@ -674,12 +674,12 @@ function renderGuideDetailFromData(id) {
   var metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     var descText = lang === 'es' && guide.intro_es ? guide.intro_es : guide.intro;
-    metaDesc.content = descText.substring(0, 155);
+    metaDesc.content = descText.replace(/<[^>]*>/g, '').substring(0, 155);
   }
   var ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) ogTitle.content = (lang === 'es' && guide.title_es ? guide.title_es : guide.title);
   var ogDesc = document.querySelector('meta[property="og:description"]');
-  if (ogDesc) ogDesc.content = descText.substring(0, 155);
+  if (ogDesc) ogDesc.content = descText.replace(/<[^>]*>/g, '').substring(0, 155);
   var ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.content = 'https://topmusiciangear.com/guides/' + guide.id + (currentLang === 'es' ? '_es' : '') + '.html';
   var ogImage = document.querySelector('meta[property="og:image"]');

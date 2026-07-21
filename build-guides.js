@@ -202,8 +202,11 @@ function guideDates(guide, idx) {
   return { published: pub, modified: mod };
 }
 
+function stripHtml(s) {
+  return s ? s.replace(/<[^>]*>/g, '') : '';
+}
 function guideDesc(guide, introFallback, isEs) {
-  var d = isEs ? (guide.description_es || trunc(introFallback, 155)) : (guide.description || trunc(introFallback, 155));
+  var d = isEs ? (guide.description_es || trunc(stripHtml(introFallback), 155)) : (guide.description || trunc(stripHtml(introFallback), 155));
   return Y(d);
 }
 
