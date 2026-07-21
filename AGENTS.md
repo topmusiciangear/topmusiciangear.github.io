@@ -557,81 +557,20 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 ## Anchored Summary
 
 ### Objective
-- FAQ toggle animation working correctly in both SPA (app.js) and static guide pages (build-guides.js)
+- Complete site‑wide audit: fix corrupted UTF‑8 mojibake, eliminate stale Musik Produktiv references, add missing affiliate links, correct content/data mismatches, ensure EN/ES translation parity, and make new guides match old guides for Google ranking
 
-### FAQ Toggle — Current Working Implementation (commit 60c32803)
+### Work State
+- **All previous fixes applied**: mojibake, Musik Produktiv removal, products affiliate links, SPA JSON‑LD cleanup, beat‑making recreation, iZotope RX 11 update, Soundtoys 5.5 Bundle image+rating
+- **Meta description HTML injection**: fixed `stripHtml()` in `build-guides.js:210` + `js/app.js:166,677`
+- **SEO audit**: fixed duplicate `(2026)` in title, OG title missing year, OG image dimensions 600×400→1200×630, missing description field on beat‑making (was 33 chars)
+- **Year removed from all titles**: deleted `yearTag`/`yearSuffix` logic from `build-guides.js`, removed year logic from `app.js` (both places), removed `(2026)` from beat‑making title in `guides.json`
+- **Final audit fixes**: 7 Soundtoys rating mismatches in guides.json FAQ (4.8→4.5), 3 truncated ES FAQ translations (monitors Q1, plugins Q1, best‑interface Q4), price mismatches ATH‑M50X $149→$169 + Yamaha Pacifica $299→$349
+- **Price fixes this session**: Marshall DSL40CR $749→$999, Boss Katana 50 $279→$259 in `build-guides.js:271,287,288`
+- **Missing featuredSnippet added**: beat‑making (was absent), beginner‑bass‑guitars (was null), budget‑bass‑like‑expensive (was null), best‑electric‑under‑500 (was null)
 
-**HTML structure:**
-```html
-<button class="guide-faq-question" onclick="...">Question<span class="guide-faq-icon">+</span></button>
-<div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden">
-  <div class="guide-faq-answer-inner">Answer content</div>
-</div>
-```
-
-**CSS:**
-```css
-.guide-faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .3s ease;
-}
-.guide-faq-answer-inner {
-  padding: 0 20px 16px;
-}
-```
-
-**JS toggle (inline onclick):**
-```javascript
-var a = this.nextElementSibling;
-if (a.dataset.open) {
-  // Close
-  a.style.maxHeight = '0px';
-  a.dataset.open = '';
-  this.classList.remove('open');
-  setTimeout(function(){
-    if (!a.dataset.open) {
-      a.style.display = 'none';
-    }
-  }, 300);
-} else {
-  // Open
-  this.classList.add('open');
-  a.style.display = 'block';
-  void a.offsetHeight;
-  a.style.maxHeight = a.firstElementChild.scrollHeight + 'px';
-  a.dataset.open = '1';
-}
-```
-
-**Key design decisions (why this works):**
-- Padding is on `.guide-faq-answer-inner` (NOT on `.guide-faq-answer`) so outer maxHeight=0 clips everything — no close jump
-- Open measures `firstElementChild.scrollHeight` directly WITHOUT ever setting outer `maxHeight='none'` — no layout shift, no flash, no `visibility:hidden` needed
-- No padding animation needed (padding is stable on inner wrapper, clipped by outer)
-- `void a.offsetHeight` forces a reflow so the transition recognizes the new max-height value
-- `setTimeout(300)` matches the CSS transition duration before setting `display:none`
-
-**Locations (all identical code):**
-- `js/app.js:543` — SPA dynamic rendering
-- `build-guides.js:556` — static page generation
-- `css/style.css:1790` — outer + inner wrapper CSS
-- `css/style.min.css` — minified version
-- All 144 generated `guides/*.html`
-
-**Build cycle:**
-```
-npx terser js/app.js -o js/app.min.js --compress --mangle
-node _build_min.js
-node build-guides.js
-```
-Then update `js/app.min.js` hash in `index.html` and `version.txt` is auto-updated.
-
-### Previously Fixed
-- Close jump: padding moved to inner wrapper so outer maxHeight=0 clips everything
-- Open flash: measured `firstElementChild.scrollHeight` without ever setting `maxHeight='none'`
-- Static pages couldn't open: missing outer `}else{` in build-guides.js restored
-- SPA content cut off on refresh: changed from `maxHeight='9999px'` to exact scrollHeight measurement
-- Missing FAQ CSS on SPA first visit: added `.guide-faq` rules to external stylesheet
+### Build
+- `node build-guides.js` → 232 pages generated, all ok
+- No `null` featuredSnippet remaining in `guides.json`
 
 ### Blocked
 - (none)
