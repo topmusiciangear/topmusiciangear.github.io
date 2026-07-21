@@ -1081,18 +1081,14 @@ document.addEventListener("DOMContentLoaded", () => {
       results.style.display = "none";
       return;
     }
-    const wordRe = new RegExp('(?:^|[^a-z])(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
     const scored = products.reduce((acc, p) => {
       const t = p.title.toLowerCase();
       const te = (p.title_es || "").toLowerCase();
       const b = (p.brand || "").toLowerCase();
-      const c = p.category.toLowerCase();
-      const dm = wordRe.test(p.desc) || wordRe.test(p.desc_es || "");
       let score = 0;
       if (t.includes(q) || te.includes(q)) score += 2;
-      if (c.includes(q)) score += 2;
       if (b.includes(q)) score += 1;
-      if (score > 0 || dm) acc.push({ product: p, score });
+      if (score > 0) acc.push({ product: p, score });
       return acc;
     }, []).sort((a, b) => b.score - a.score)
       .map(x => x.product);
