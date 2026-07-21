@@ -545,6 +545,7 @@ function renderGuideDetailFromData(id) {
   currentGuideId = guide.id;
   const isEs = currentLang === 'es';
   injectFaqSchema(id);
+  document.querySelectorAll('script[data-guide-jsonld]').forEach(el => el.remove());
   const btn = document.getElementById("backToGuidesBtn");
   if (btn) btn.style.display = "none";
   const grid = document.getElementById("guideGrid");
