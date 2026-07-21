@@ -18074,6 +18074,14 @@
           "val2": "31.5 lbs",
           "val1_es": "5.1 lbs",
           "val2_es": "31.5 lbs"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$739 USD",
+          "val2": "$2,799 USD",
+          "val1_es": "$739 USD",
+          "val2_es": "$2,799 USD"
         }
       ]
     }
@@ -18572,6 +18580,14 @@
           "val2": "Production & Sound Design",
           "val1_es": "Stage Performance",
           "val2_es": "Production & Sound Design"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$4,999 USD",
+          "val2": "$4,699 USD",
+          "val1_es": "$4,999 USD",
+          "val2_es": "$4,699 USD"
         }
       ]
     }
@@ -18797,6 +18813,14 @@
           "val2": "4.2 lbs",
           "val1_es": "3.7 lbs",
           "val2_es": "4.2 lbs"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$999 USD",
+          "val2": "$749 USD",
+          "val1_es": "$999 USD",
+          "val2_es": "$749 USD"
         }
       ]
     }
@@ -20016,14 +20040,6 @@
           "val2_es": "2020"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$199",
-          "val2": "$199",
-          "val1_es": "$199",
-          "val2_es": "$199"
-        },
-        {
           "label": "Key Feature",
           "label_es": "Característica Clave",
           "val1": "MIDI I/O + Air mode",
@@ -20126,6 +20142,14 @@
           "val2": "All metal",
           "val1_es": "Metal + laterales plástico",
           "val2_es": "Totalmente metálico"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$199",
+          "val2": "$199",
+          "val1_es": "$199",
+          "val2_es": "$199"
         }
       ]
     },
@@ -20391,14 +20415,6 @@
           "val2_es": "2024 (Logic 11)"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$799 (Suite)",
-          "val2": "$199",
-          "val1_es": "$799 (Suite)",
-          "val2_es": "$199"
-        },
-        {
           "label": "Pricing Model",
           "label_es": "Modelo de Pago",
           "val1": "Tiers (Intro $79 / Standard $449 / Suite $799)",
@@ -20525,6 +20541,14 @@
           "val2": "Not available",
           "val1_es": "Incluido (Suite)",
           "val2_es": "No disponible"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$799 (Suite)",
+          "val2": "$199",
+          "val1_es": "$799 (Suite)",
+          "val2_es": "$199"
         }
       ]
     },
@@ -21532,12 +21556,6 @@
           "val2": "4.8/5"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$4,999",
-          "val2": "$1,799"
-        },
-        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Open-back",
@@ -21560,6 +21578,12 @@
           "val2": "Yes (2.5mm on cup)",
           "val1_es": "Sí (3.5mm en copa)",
           "val2_es": "Sí (2.5mm en copa)"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$4,999",
+          "val2": "$1,799"
         }
       ]
     }
@@ -21818,12 +21842,6 @@
           "val2": "4.9/5"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$3,599",
-          "val2": "$10,999"
-        },
-        {
           "label": "Pad",
           "label_es": "Pad de Atenuación",
           "val1": "Yes (-10dB)",
@@ -21846,6 +21864,12 @@
           "val2": "PSU, cables, wooden case",
           "val1_es": "Soporte elástico, estuche de madera",
           "val2_es": "Fuente, cables, estuche de madera"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$3,599",
+          "val2": "$10,999"
         }
       ]
     }
@@ -22104,12 +22128,6 @@
           "val2": "4.9/5"
         },
         {
-          "label": "Price (pair)",
-          "label_es": "Precio (par)",
-          "val1": "$6,998",
-          "val2": "$8,398"
-        },
-        {
           "label": "Max SPL",
           "label_es": "SPL Máximo",
           "val1": "112dB continuous",
@@ -22132,6 +22150,12 @@
           "val2": "14.4 kg each",
           "val1_es": "18.5 kg cada uno",
           "val2_es": "14.4 kg cada uno"
+        },
+        {
+          "label": "Price (pair)",
+          "label_es": "Precio (par)",
+          "val1": "$6,998",
+          "val2": "$8,398"
         }
       ]
     }
@@ -22388,12 +22412,6 @@
           "val2": "4.9/5"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$3,999",
-          "val2": "$3,199"
-        },
-        {
           "label": "MIDI I/O",
           "label_es": "MIDI E/S",
           "val1": "In, Out",
@@ -22416,6 +22434,12 @@
           "val2": "ADAT + MADI + S/PDIF",
           "val1_es": "ADAT + S/PDIF",
           "val2_es": "ADAT + MADI + S/PDIF"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$3,999",
+          "val2": "$3,199"
         }
       ]
     }
@@ -22676,12 +22700,6 @@
           "val2": "4.9/5"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$2,299",
-          "val2": "$2,699"
-        },
-        {
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "val1": "25.5\"",
@@ -22704,6 +22722,12 @@
           "val2": "Grover locking keystone",
           "val1_es": "Fender Deluxe bloqueo",
           "val2_es": "Grover bloqueo keystone"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$2,299",
+          "val2": "$2,699"
         }
       ]
     }
@@ -22966,12 +22990,6 @@
           "val2": "4.9/5"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$2,199",
-          "val2": "$2,199"
-        },
-        {
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "val1": "34\"",
@@ -22994,6 +23012,12 @@
           "val2": "Music Man lightweight",
           "val1_es": "Fender HiMass vintage",
           "val2_es": "Music Man ligeras"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$2,199",
+          "val2": "$2,199"
         }
       ]
     }
@@ -23260,12 +23284,6 @@
           "val2": "4.9/5"
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$9,999",
-          "val2": "$4,399"
-        },
-        {
           "label": "Sequencer",
           "label_es": "Secuenciador",
           "val1": "Built-in 16-step programmable",
@@ -23288,6 +23306,12 @@
           "val2": "~35 lbs (~15.9 kg)",
           "val1_es": "~68 lbs (~30.8 kg)",
           "val2_es": "~35 lbs (~15.9 kg)"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$9,999",
+          "val2": "$4,399"
         }
       ]
     }
