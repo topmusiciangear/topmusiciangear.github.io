@@ -333,12 +333,11 @@ function getFilteredGuides() {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['pluginboutique','gear4music','musikproduktiv','amazon','reverb','andertons','musicstore'];
+  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore'];
   const searchUrls = {
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
 
-    musikproduktiv: (t) => `https://www.musik-produktiv.de/suche?q=${encodeURIComponent(t)}`,
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
     andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
@@ -353,8 +352,6 @@ function getResolvedStores(product) {
     if (specificUrl) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
-      } else if (key === 'musikproduktiv' && specificUrl === 'https://www.musik-produktiv.de/search') {
-        s[key] = searchUrls.musikproduktiv(product.title);
       } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
         s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {

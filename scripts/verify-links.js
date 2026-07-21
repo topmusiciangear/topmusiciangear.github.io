@@ -96,12 +96,6 @@ products.forEach(function(p) {
       }
     }
     
-    if (key === 'musikproduktiv') {
-      musikproduktivLinks++;
-      if (url.indexOf('musik-produktiv') === -1) {
-        issues.push('MUSIK PRODUKTIV [' + p.id + '] ' + p.title + ': not a musik-produktiv URL');
-      }
-    }
     
     if (key === 'fender') {
       fenderLinks++;
@@ -137,7 +131,7 @@ console.log('  Plugin Boutique: ' + pluginboutiqueLinks);
 console.log('  Gear4Music: ' + gear4musicLinks);
 console.log('  Andertons: ' + andertonsLinks);
 console.log('  Bax Music: ' + baxmusicLinks);
-console.log('  Musik Produktiv: ' + musikproduktivLinks);
+
 console.log('  Fender: ' + fenderLinks);
 
 if (issues.length) {
