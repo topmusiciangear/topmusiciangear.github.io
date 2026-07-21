@@ -161,7 +161,7 @@ function setLang(lang) {
     if (guide) {
       var pageTitle = (lang === 'es' && guide.title_es ? guide.title_es : guide.title);
       var yr = new Date().getFullYear();
-      document.title = pageTitle + (pageTitle.indexOf('(' + yr + ')') === -1 ? ' (' + yr + ')' : '') + ' | TopMusicianGear';
+      document.title = pageTitle + ' | TopMusicianGear';
       var metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
         var descText = lang === 'es' && guide.intro_es ? guide.intro_es : guide.intro;
@@ -680,7 +680,7 @@ function renderGuideDetailFromData(id) {
   }
   var ogTitle = document.querySelector('meta[property="og:title"]');
   var guideTitle = (lang === 'es' && guide.title_es ? guide.title_es : guide.title);
-  if (ogTitle) ogTitle.content = guideTitle + (guideTitle.indexOf('(2026)') === -1 && guideTitle.indexOf('(2025)') === -1 ? ' (2026)' : '');
+  if (ogTitle) ogTitle.content = guideTitle;
   var ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) ogDesc.content = descText.replace(/<[^>]*>/g, '').substring(0, 155);
   var ogUrl = document.querySelector('meta[property="og:url"]');

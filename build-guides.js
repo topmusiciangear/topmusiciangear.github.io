@@ -344,9 +344,6 @@ function buildGuidePage(guide, lang, idx) {
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
-  var yearSuffix = ' (' + YEAR_TAG + ')';
-  var yearTag = title.includes('(' + YEAR_TAG + ')') ? '' : yearSuffix;
-
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
   const productCards = allProductIds.map(pid => {
     const p = products.find(pr => pr.id === pid);
@@ -371,7 +368,7 @@ function buildGuidePage(guide, lang, idx) {
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
   ogMeta = `  <meta property="og:type" content="article">
-  <meta property="og:title" content="${title}${yearTag}">
+  <meta property="og:title" content="${title}">
   <meta property="og:description" content="${d}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
@@ -383,7 +380,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta property="article:published_time" content="${dPub}">
   <meta property="article:modified_time" content="${dMod}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${title}${yearTag}">
+  <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${d}">
   <meta name="twitter:image" content="${fullImage}">
   <meta name="twitter:site" content="@Cuban3Beats">
@@ -469,7 +466,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0d0d0d">
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
-  <title>${title}${yearTag} | TopMusicianGear</title>
+  <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
