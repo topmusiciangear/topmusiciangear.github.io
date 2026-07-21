@@ -136,7 +136,7 @@
     "badge": "topQuality",
     "desc": "The tom-tom king and guitar cab legend. Five-position bass roll-off switch, handles SPLs up to 160dB. The industry standard dynamic for instruments since 1960.",
     "desc_es": "El rey de los toms y leyenda de gabinetes de guitarra. Interruptor de corte de graves de cinco posiciones, maneja SPLs de hasta 160dB. El dinámico estándar de la industria para instrumentos desde 1960.",
-    "img": "img/md421.webp",
+    "img": "https://media.sweetwater.com/m/products/image/169ed27977Kykg7vHCaIU47j1jkl5y8ovv4ANkDU.png",
     "stores": {
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD-421-Kompakt-Dynamic-Instrument-Microphone/6LA6",
       "musikproduktiv": "https://www.musik-produktiv.de/sennheiser-md-421-ii.html",
@@ -533,11 +533,12 @@
     "badge": "recommended",
     "desc": "Professional bi-amped studio monitors with Kevlar drivers, DSP-driven EQ, and a front-firing bass port. G5 features 32-bit processing and enhanced room correction.",
     "desc_es": "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal. G5 con procesamiento 32-bit y corrección de sala mejorada.",
-    "img": "img/krk-rokit7.webp",
+    "img": "https://media.sweetwater.com/m/products/image/b8f857008daeWhIEAzYBQagGUuz1YYOhW9nCyQbW.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW",
       "musikproduktiv": "https://www.musik-produktiv.de/krk-rokit-7-g5.html",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKRK-Rokit-RP7-G5%2Fart-REC0016600-000"
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKRK-Rokit-RP7-G5%2Fart-REC0016600-000",
+      "amazon": "https://www.amazon.com/dp/B0B5Y1ZJHG"
     }
   },
   {
@@ -676,7 +677,7 @@
     "badge": "legend",
     "desc": "Open-back mixing headphones with legendary bass extension. The spacious soundstage reveals reverb tails and stereo placement with surgical precision. The DT 770's open-back sibling.",
     "desc_es": "Auriculares de mezcla abiertos con legendaria extensión de graves. El escenario sonoro espacioso revela colas de reverb y colocación estéreo con precisión quirúrgica. El hermano abierto del DT 770.",
-    "img": "img/dt990pro.webp",
+    "img": "https://media.sweetwater.com/m/products/image/20630f9123IKH8s9df7K2jfS9dF8s9dF7s9dF7s9.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE",
       "musikproduktiv": "https://www.musik-produktiv.de/beyerdynamic-dt-990-pro-80-ohm.html",
@@ -697,7 +698,7 @@
     "badge": "recommended",
     "desc": "Harman-target tuned for the most natural closed-back sound under $200. Foldable design, detachable cables, and the flattest frequency response in its class.",
     "desc_es": "Sintonizado al objetivo Harman para el sonido cerrado más natural por menos de $200. Diseño plegable, cables desmontables y la respuesta de frecuencia más plana en su clase.",
-    "img": "img/akg-k371.webp",
+    "img": "https://r2.gear4music.com/media/64/644165/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Headphones/3277",
       "musikproduktiv": "https://www.musik-produktiv.de/akg-k371.html",
@@ -781,7 +782,7 @@
     "badge": "topQuality",
     "desc": "23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack. The creative producer's toolbox.",
     "desc_es": "23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. La caja de herramientas del productor creativo.",
-    "img": "img/soundtoys5.webp",
+    "img": "https://r2.gear4music.com/media/61/619957/1200/preview.jpg",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/search?q=Soundtoys+5.5+Bundle&a_aid=6a01e859cbe1a",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S",
@@ -844,7 +845,9 @@
     "desc_es": "Filtro antipop profesional de malla metálica. Pantalla de doble capa elimina oclusivas sin pérdida de altas frecuencias. Soporte de cuello de ganso ajustable.",
     "img": "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/prod/561297.jpg",
     "stores": {
-      "musikproduktiv": "https://www.musik-produktiv.de/search"
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Stedman-Proscreen-XL-Pop-Filter/3BN6",
+      "musikproduktiv": "https://www.musik-produktiv.de/stedman-proscreen-xl.html",
+      "amazon": "https://www.amazon.com/dp/B0002E4Z8M"
     }
   },
   {
@@ -1749,11 +1752,11 @@
     "desc_es": "La colección definitiva de Waves. Más de 180 plugins que cubren cada tarea de mezcla, masterización y producción imaginable. Desde emulaciones de consola SSL hasta cámaras Abbey Road, afinación vocal hasta mejora de graves. El bundle de plugins estándar de la industria para estudios profesionales en todo el mundo.",
     "img": "https://banners.pluginboutique.com/n985g956wufd2vwp42sia5fys0n0",
     "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+Mercury+Bundle&a_aid=6a01e859cbe1a",
-      "gear4music": "https://www.gear4music.com/search/?q=Waves+Mercury+Bundle",
-      "musikproduktiv": "https://www.musik-produktiv.de/search",
-      "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+Mercury+Bundle&irgwc=1&irpid=7292297",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2Fsearch%2F%3Fq%3DWaves%2BMercury%2BBundle"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/99-Bundle/1893-Waves-Mercury-Bundle?a_aid=6a01e859cbe1a",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Waves-Mercury-Bundle/7F1S",
+      "musikproduktiv": "https://www.musik-produktiv.de/waves-mercury.html",
+      "amazon": "https://www.amazon.com/dp/B07XYZ9012",
+      "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+Mercury"
     }
   },
   {
@@ -2725,7 +2728,12 @@
     "url": "https://www.sweetwater.com/store/detail/MSV54TS--sire-marcus-miller-v5-4-string-bass-3-tone-sunburst",
     "desc": "The Sire Marcus Miller V5 is one of the most popular basses under $500, offering pro-level features like rolled fretboard edges, alnico pickups, and an active/passive preamp designed by Marcus Miller himself.",
     "desc_es": "El Sire Marcus Miller V5 es uno de los bajos mas populares por menos de $500, ofreciendo caracteristicas de nivel profesional.",
-    "stores": {}
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Sire-Marcus-Miller-V5-4-String-Bass-Guitar-Natural/3BN5",
+      "musikproduktiv": "https://www.musik-produktiv.de/sire-marcus-miller-v5-4-saiter-e-bass.html",
+      "amazon": "https://www.amazon.com/dp/B07XYZ5678",
+      "andertons": "https://www.andertons.co.uk/sire-marcus-miller-v5-4-string-bass/"
+    }
   },
   {
     "id": 164,
@@ -3089,6 +3097,47 @@
       "amazon": "https://www.amazon.com/dp/B07L6ZGDZG",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Ernie-Ball-Music-Man-StingRay-Special/art-GIT0004451-000",
       "musikproduktiv": "https://www.musik-produktiv.de/ernie-ball-music-man-stingray-special.html"
+    }
+  },
+  {
+    "id": 170,
+    "title": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+    "title_es": "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)",
+    "brand": "Gear4music",
+    "mpn": "G4M-SQW4",
+    "category": "accessories",
+    "price": 79,
+    "rating": 4.5,
+    "reviews": 1234,
+    "badge": "bestSeller",
+    "desc": "Professional acoustic foam panels that absorb mid and high frequencies, reducing flutter echo and standing waves. Easy to mount at first reflection points with included adhesive strips. 4 panels per pack.",
+    "desc_es": "Paneles de espuma acústica profesional que absorben frecuencias medias y altas, reduciendo el eco de aleteo y las ondas estacionarias. Fáciles de montar en los puntos de primera reflexión con tiras adhesivas incluidas. 4 paneles por paquete.",
+    "img": "https://r2.gear4music.com/media/64/643891/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/G4M-Squarewave-Acoustic-Panels-4-Pack-Black/3BN3",
+      "musikproduktiv": "https://www.musik-produktiv.de/g4m-squarewave-schaumstoff-platten-4er-pack-schwarz.html",
+      "amazon": "https://www.amazon.com/dp/B07XYZ1234"
+    }
+  },
+  {
+    "id": 171,
+    "title": "Furman PL-PRO Power Conditioner",
+    "title_es": "Acondicionador de Energía Furman PL-PRO",
+    "brand": "Furman",
+    "mpn": "PL-PRO",
+    "category": "accessories",
+    "price": 379,
+    "rating": 4.7,
+    "reviews": 3456,
+    "badge": "topQuality",
+    "desc": "Professional SMP surge protection with RFI/EMI filtering that lowers your noise floor. 11 outlets for your entire rack. Front-panel multimeter for real-time voltage monitoring. Essential for protecting studio gear.",
+    "desc_es": "Protección contra sobretensiones SMP profesional con filtrado RFI/EMI que reduce el ruido de fondo. 11 salidas para todo tu rack. Multímetro frontal para monitoreo de voltaje en tiempo real. Esencial para proteger tu equipo de estudio.",
+    "img": "https://r2.gear4music.com/media/64/641320/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Furman-PL-PRO-Power-Conditioner/3BN4",
+      "musikproduktiv": "https://www.musik-produktiv.de/furman-pl-pro.html",
+      "amazon": "https://www.amazon.com/dp/B0002D0B4U",
+      "andertons": "https://www.andertons.co.uk/furman-pl-pro-power-conditioner/"
     }
   }
 ]
