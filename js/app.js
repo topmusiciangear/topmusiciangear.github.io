@@ -404,7 +404,7 @@ function renderProductCard(id) {
       <div class="guide-product-card-body">
         <div class="guide-product-card-title">${title}</div>
         <div class="guide-product-card-rating">${stars} <span>${p.reviews.toLocaleString()}</span></div>
-        <div class="guide-product-card-price">${formatPrice(p.price)} <small>USD</small></div>
+        <div class="guide-product-card-price">${formatPrice(p.price)} <small>USD${p.unit ? ' (' + p.unit + ')' : ''}</small></div>
         <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
         <div class="guide-product-card-stores">${stores}</div>
       </div>
