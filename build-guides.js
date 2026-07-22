@@ -593,7 +593,7 @@ ${ogMeta}
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">
-          ${(function(){ var r = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!r.length) r = guides.filter(g => g.id !== guide.id); return r.slice(0, 6).map(g => { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
+          ${(function(){ var r; if (guide.relatedGuides) { r = guide.relatedGuides.map(function(id) { return guides.find(function(g) { return g.id === id; }); }).filter(Boolean); } if (!r || !r.length) { r = guides.filter(function(g) { return g.id !== guide.id && g.category === guide.category; }); if (!r.length) r = guides.filter(function(g) { return g.id !== guide.id; }); } return r.slice(0, 6).map(function(g) { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
       <div class="guide-back-row">
@@ -817,12 +817,21 @@ buildSitemap();
 })();
 
 // ===== GENERATE IMAGE SITEMAP =====
-// Only include self-hosted images, skip external CDN (Thomann, Amazon etc.)
+// Include self-hosted images from guides, products, and the img/ folder
 function buildImageSitemap() {
   const site = 'https://topmusiciangear.com';
   var imgUrls = [];
   var seen = new Set();
-  // guide images that are self-hosted
+  var imgDir = path.join(dir, 'img');
+  // All .webp files in img/ folder
+  try {
+    var files = fs.readdirSync(imgDir);
+    files.filter(function(f) { return f.endsWith('.webp'); }).forEach(function(f) {
+      var imgPath = site + '/img/' + f;
+      if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
+    });
+  } catch(e) {}
+  // guide images that are self-hosted (not already in img/)
   guides.forEach(g => {
     if (g.image && !g.image.startsWith('http')) {
       var imgPath = site + '/' + normImg(g.image);
@@ -836,9 +845,6 @@ function buildImageSitemap() {
       if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
     }
   });
-  // always include the main hero image
-  var heroImg = site + '/img/me-600.webp';
-  if (!seen.has(heroImg)) { imgUrls.unshift(heroImg); }
   var xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   imgUrls.forEach(u => { xml += '\n  <url><loc>' + u + '</loc><lastmod>' + today + '</lastmod></url>'; });
   xml += '\n</urlset>';
