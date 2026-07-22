@@ -96,7 +96,7 @@ const translations = {
     catName_live_sound: "Live Sound",
     catName_mixers: "Mixers",
     catName_daw: "DAW",
-    catName_production: "Top Gear",
+    catName_production: "Top Gear"
   },
   es: {
     disclosureBar: "Este sitio contiene enlaces de afiliado. Ganamos una comisión si compras a través de ellos sin costo extra para ti.",
@@ -195,7 +195,7 @@ const translations = {
     catName_live_sound: "Sonido en Vivo",
     catName_mixers: "Mezcladores",
     catName_daw: "DAW",
-    catName_production: "Top Gear",
+    catName_production: "Top Gear"
   }
 };
 

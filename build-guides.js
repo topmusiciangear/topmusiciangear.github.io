@@ -134,7 +134,7 @@ function getResolvedStores(product) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
       } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
-        s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
+        s[key] = specificUrl.includes('tag=') ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
         s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
       } else {
@@ -367,7 +367,7 @@ function buildGuidePage(guide, lang, idx) {
 
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
-  ogMeta = `  <meta property="og:type" content="article">
+  var ogMeta = `  <meta property="og:type" content="article">
   <meta property="og:title" content="${title} | TopMusicianGear">
   <meta property="og:description" content="${d}">
   <meta property="og:url" content="${canonical}">
@@ -528,15 +528,15 @@ ${ogMeta}
       <div class="header-right">
         <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
         <div class="header-social">
-          <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
-          <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
-          <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="TikTok">${icon('tiktok', 'fa-brands')}</a>
-          <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener" class="header-social-link" title="Facebook">${icon('facebook-f', 'fa-brands')}</a>
-          <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
-          <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener" class="header-social-link" title="X">${icon('x-twitter', 'fa-brands')}</a>
-          <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
-          <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener" class="header-social-link" title="Telegram"><svg data-fa="telegram" aria-hidden="true" class="icon fa-brands fa-telegram" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
-          <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
+          <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
+          <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
+          <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="TikTok">${icon('tiktok', 'fa-brands')}</a>
+          <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Facebook">${icon('facebook-f', 'fa-brands')}</a>
+          <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
+          <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="X">${icon('x-twitter', 'fa-brands')}</a>
+          <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
+          <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram"><svg data-fa="telegram" aria-hidden="true" class="icon fa-brands fa-telegram" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
+          <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
         </div>
         <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
