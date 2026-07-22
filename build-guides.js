@@ -368,7 +368,7 @@ function buildGuidePage(guide, lang, idx) {
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
   ogMeta = `  <meta property="og:type" content="article">
-  <meta property="og:title" content="${title}">
+  <meta property="og:title" content="${title} | TopMusicianGear">
   <meta property="og:description" content="${d}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
@@ -449,6 +449,11 @@ function buildGuidePage(guide, lang, idx) {
     if (guide.featuredSnippet && guide.featuredSnippet.faq_q1_en) {
       return [1,2,3,4,5].map(function(i) {
         return { q: guide.featuredSnippet['faq_q' + i + '_en'], q_es: guide.featuredSnippet['faq_q' + i + '_es'], a: guide.featuredSnippet['faq_a' + i + '_en'], a_es: guide.featuredSnippet['faq_a' + i + '_es'] };
+      }).filter(function(f) { return f.q; });
+    }
+    if (guide.faq_q1) {
+      return [1,2,3,4,5].map(function(i) {
+        return { q: guide['faq_q' + i], q_es: guide['faq_q' + i + '_es'], a: guide['faq_a' + i], a_es: guide['faq_a' + i + '_es'] };
       }).filter(function(f) { return f.q; });
     }
     return faqBase[guide.category] || faqBase.interfaces;

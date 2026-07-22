@@ -9,6 +9,7 @@
   <link rel="canonical" href="https://topmusiciangear.com/cookie-policy.html">
   <link rel="alternate" hreflang="x-default" href="https://topmusiciangear.com/cookie-policy.html">
   <link rel="alternate" hreflang="en" href="https://topmusiciangear.com/cookie-policy.html">
+  <link rel="alternate" hreflang="es" href="https://topmusiciangear.com/cookie-policy.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="TopMusicianGear">
 
@@ -295,11 +296,9 @@
     document.querySelector('.lang-section')?.classList.add('active');
 
     function setLang(lang) {
-
+      document.documentElement.lang = lang;
       document.querySelectorAll('.lang-section').forEach(el => el.classList.toggle('active', el.id === 'lang-' + lang));
-
       document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.toggle('active', btn.textContent.toLowerCase() === lang));
-
     }
 
   </script>

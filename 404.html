@@ -5,18 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
   <meta name="description" content="Page not found on TopMusicianGear. Browse our buying guides for audio interfaces, microphones, headphones, and studio gear.">
+  <meta name="description" lang="es" content="Página no encontrada en TopMusicianGear. Explora nuestras guías de compra de interfaces de audio, micrófonos, auriculares y equipo de estudio.">
   <link rel="canonical" href="https://topmusiciangear.com/404.html">
   <link rel="alternate" hreflang="x-default" href="https://topmusiciangear.com/404.html">
   <link rel="alternate" hreflang="en" href="https://topmusiciangear.com/404.html">
+  <link rel="alternate" hreflang="es" href="https://topmusiciangear.com/404.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Page Not Found — TopMusicianGear">
+  <meta property="og:title" lang="es" content="Página No Encontrada — TopMusicianGear">
   <meta property="og:description" content="Page not found on TopMusicianGear. Browse our buying guides for audio interfaces, microphones, headphones, and studio gear.">
+  <meta property="og:description" lang="es" content="Página no encontrada en TopMusicianGear. Explora nuestras guías de compra de interfaces de audio, micrófonos, auriculares y equipo de estudio.">
   <meta property="og:url" content="https://topmusiciangear.com/404.html">
   <meta property="og:image" content="https://topmusiciangear.com/img/favicon.png">
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
   <meta property="og:site_name" content="TopMusicianGear">
   <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Page Not Found — TopMusicianGear">
   <meta name="twitter:description" content="Page not found on TopMusicianGear. Browse our buying guides for audio interfaces, microphones, headphones, and studio gear.">
@@ -26,7 +31,10 @@
   <title>Page Not Found — TopMusicianGear</title>
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
-    body { background:#0d0d0d; color:#f0f0f0; font-family:system-ui,-apple-system,sans-serif; display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center; padding:20px; }
+    body { background:#0d0d0d; color:#f0f0f0; font-family:system-ui,-apple-system,sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; text-align:center; padding:20px; }
+    .lang-btn { position:absolute; top:20px; right:20px; display:flex; gap:8px; }
+    .lang-btn button { background:#1a1a1a; color:#a0a0a0; border:1px solid #2a2a2a; padding:6px 14px; border-radius:6px; cursor:pointer; font-size:13px; }
+    .lang-btn button.active { background:#3b82f6; color:#fff; border-color:#3b82f6; }
     h1 { font-size:clamp(28px,5vw,48px); margin-bottom:12px; }
     p { color:#a0a0a0; margin-bottom:24px; font-size:16px; line-height:1.6; }
     a { color:#3b82f6; text-decoration:none; font-weight:600; }
@@ -34,17 +42,33 @@
     .links { display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
     .links a { background:#1a1a1a; padding:10px 20px; border-radius:8px; border:1px solid #2a2a2a; }
     .links a:hover { background:#222; }
+    .lang-hide { display:none; }
   </style>
 </head>
 <body>
+  <div class="lang-btn">
+    <button onclick="setLang('en')" class="active">EN</button>
+    <button onclick="setLang('es')">ES</button>
+  </div>
   <div>
-    <h1>404 — Page Not Found</h1>
-    <p>Looks like that page doesn't exist. Let's get you back on track.</p>
+    <h1><span class="lang-show-en">404 — Page Not Found</span><span class="lang-show-es">404 — Página No Encontrada</span></h1>
+    <p><span class="lang-show-en">Looks like that page doesn't exist. Let's get you back on track.</span><span class="lang-show-es">Parece que esa página no existe. Vamos a retomar el camino.</span></p>
     <div class="links">
-      <a href="/">Home</a>
-      <a href="/#guides">Buying Guides</a>
-      <a href="/#about">About Me</a>
+      <a href="/"><span class="lang-show-en">Home</span><span class="lang-show-es">Inicio</span></a>
+      <a href="/#guides"><span class="lang-show-en">Buying Guides</span><span class="lang-show-es">Guías de Compra</span></a>
+      <a href="/#about"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
     </div>
   </div>
+  <script>
+    function setLang(lang) {
+      document.documentElement.lang = lang;
+      document.querySelectorAll('.lang-show-en, .lang-show-es').forEach(function(el) {
+        el.classList.toggle('lang-hide', !el.classList.contains('lang-show-' + lang));
+      });
+      document.querySelectorAll('.lang-btn button').forEach(function(btn) {
+        btn.classList.toggle('active', btn.textContent.toLowerCase() === lang);
+      });
+    }
+  </script>
 </body>
 </html>
