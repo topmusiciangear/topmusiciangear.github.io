@@ -3071,5 +3071,65 @@
       "amazon": "https://www.amazon.com/dp/B07T1RJ5XJ",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Orange-Rockerverb-100-MKIII/art-GIT0055037-000"
     }
+  },
+  {
+    "id": 191,
+    "title": "KRK S10.4",
+    "title_es": "KRK S10.4",
+    "brand": "KRK",
+    "category": "monitors",
+    "price": 479,
+    "rating": 4.6,
+    "reviews": 412,
+    "badge": "recommended",
+    "desc": "10-inch powered studio subwoofer with glass-aramid woofer, 160W Class-D amp, and four-position crossover. Reaches 27Hz with 117dB peak SPL to pair with any nearfield monitors.",
+    "desc_es": "Subwoofer de estudio activo de 10 pulgadas con woofer de vidrio-aramida, amplificador Clase-D de 160W y cruce de cuatro posiciones. Alcanza 27Hz con 117dB de SPL pico para emparejarse con cualquier monitor de campo cercano.",
+    "img": "https://media.sweetwater.com/m/products/image/1b2a0ee369RaOMJ0koqggh6ZkVSBKqmEsJ3Gtckh.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-S10.4-Studio-Subwoofer/2G1X",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/KRK-S10-4/art-SYN0008722-000",
+      "amazon": "https://www.amazon.com/dp/B0939QW7DL",
+      "andertons": "https://www.andertons.co.uk/krk-s104-powered-studio-subwoofer"
+    }
+  },
+  {
+    "id": 192,
+    "title": "Yamaha HS8S",
+    "title_es": "Yamaha HS8S",
+    "brand": "Yamaha",
+    "category": "monitors",
+    "price": 499,
+    "rating": 4.8,
+    "reviews": 1567,
+    "badge": "bestSeller",
+    "desc": "8-inch powered studio subwoofer designed to pair with HS series monitors. 150W amplifier, 22Hz low-end extension, and phase/crossover controls for seamless integration.",
+    "desc_es": "Subwoofer de estudio activo de 8 pulgadas diseñado para emparejarse con monitores de la serie HS. Amplificador de 150W, extensión de graves hasta 22Hz y controles de fase/cruce para integración perfecta.",
+    "img": "https://media.sweetwater.com/m/products/image/bb73908711YasdmqLKleqmfkXmnCfnTrO5LbqaR0.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8S-Active-Subwoofer/1ZZ9",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-HS8S/art-REC0012985-000",
+      "amazon": "https://www.amazon.com/dp/B00DHSK8C2",
+      "andertons": "https://www.andertons.co.uk/yamaha-hs8s-studio-subwoofer"
+    }
+  },
+  {
+    "id": 193,
+    "title": "Adam T10S",
+    "title_es": "Adam T10S",
+    "brand": "ADAM Audio",
+    "category": "monitors",
+    "price": 399,
+    "rating": 4.7,
+    "reviews": 70,
+    "badge": "recommended",
+    "desc": "Compact 10-inch powered studio subwoofer with down-firing woofer and 130W Class-D amp. 28Hz to 120Hz response with adjustable crossover (80/120Hz/bypass) and XLR/RCA I/O.",
+    "desc_es": "Subwoofer de estudio activo compacto de 10 pulgadas con woofer orientado hacia abajo y amplificador Clase-D de 130W. Respuesta de 28Hz a 120Hz con cruce ajustable (80/120Hz/bypass) y entradas/salidas XLR/RCA.",
+    "img": "https://media.sweetwater.com/m/products/image/954e91be65sKJ0uGJLzq8X7BH6BMyB5pYnmwndyS.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Adam-Audio-T10S-Studio-Subwoofer/2AQX",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Adam-Audio-T10S/art-REC0013991-000",
+      "amazon": "https://www.amazon.com/dp/B07V5XH8X6",
+      "andertons": "https://www.andertons.co.uk/adam-audio-t10s-subwoofer"
+    }
   }
 ]
