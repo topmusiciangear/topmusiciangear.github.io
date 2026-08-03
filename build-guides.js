@@ -786,14 +786,14 @@ buildSitemap();
   var indexFile = path.join(dir, 'index.html');
   var html = fs.readFileSync(indexFile, 'utf8');
   // Update CSS cache buster
-  html = html.replace(/(css\/style\.min\.css\?v=)[a-z0-9]+/g, '$1' + cacheVerCss);
+  html = html.replace(/(css\/style\.min\.css\?v=)[a-zA-Z0-9]+/g, '$1' + cacheVerCss);
   // Update JS cache buster (min.js first to avoid partial match by app.js regex)
   // Append dataVer so JS cache busters change when guides.json data changes
   var jsVer = cacheVerJsMin + dataVer;
-  html = html.replace(/(js\/app\.min\.js\?v=)[a-z0-9]+/g, '$1' + jsVer);
-  html = html.replace(/(js\/app\.js\?v=)[a-z0-9]+/g, '$1' + cacheVerJs + dataVer);
+  html = html.replace(/(js\/app\.min\.js\?v=)[a-zA-Z0-9]+/g, '$1' + jsVer);
+  html = html.replace(/(js\/app\.js\?v=)[a-zA-Z0-9]+/g, '$1' + cacheVerJs + dataVer);
   // Sync inline version check variable
-  html = html.replace(/v="[a-z0-9]+"/, 'v="' + jsVer + '"');
+  html = html.replace(/v="[a-zA-Z0-9]+"/, 'v="' + jsVer + '"');
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
     var esUrl = '/guides/' + g.id + '_es.html';
