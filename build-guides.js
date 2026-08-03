@@ -134,7 +134,7 @@ function getResolvedStores(product) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
       } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
-        s[key] = specificUrl.includes('tag=') ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
+        s[key] = (product.amazonNotag || specificUrl.includes('tag=')) ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
         s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
       } else {
@@ -793,7 +793,7 @@ buildSitemap();
   html = html.replace(/(js\/app\.min\.js\?v=)[a-zA-Z0-9]+/g, '$1' + jsVer);
   html = html.replace(/(js\/app\.js\?v=)[a-zA-Z0-9]+/g, '$1' + cacheVerJs + dataVer);
   // Sync inline version check variable
-  html = html.replace(/v="[a-zA-Z0-9]+"/, 'v="' + jsVer + '"');
+  html = html.replace(/var v="[a-zA-Z0-9]+"/, 'var v="' + jsVer + '"');
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
     var esUrl = '/guides/' + g.id + '_es.html';

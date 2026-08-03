@@ -1561,6 +1561,7 @@
     "badge": "premium",
     "desc": "The industry standard for electronic music production and live performance. Warp engine, Max for Live integration, advanced MIDI editing. Unmatched workflow for beat-making, recording, and DJing. Used by pros worldwide from studio to stage.",
     "desc_es": "El estándar de la industria para producción de música electrónica y performance en vivo. Motor warp, integración Max for Live. Flujo de trabajo inigualable.",
+    "amazonNotag": true,
     "img": "https://r2.gear4music.com/media/105/1054975/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6A98",
@@ -1625,12 +1626,13 @@
     "badge": "premium",
     "desc": "The recording industry standard. Used in professional studios worldwide for tracking, editing, and mixing. Advanced MIDI, surround sound up to 7.1, and collaboration features. Essential for audio post-production.",
     "desc_es": "El estándar de la industria de grabación. Usado en estudios profesionales mundialmente para tracking, edición y mezcla. Esencial para post-producción de audio.",
+    "amazonNotag": true,
     "img": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/2437/8698/360442-96514-Prp-Tools-w-Annual-Upgrade-Plan_3D__82902.1772123168.jpg?c=1",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Pro-Tools-Studio-Perpetual/3TEH",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAvid-Pro-Tools-Studio-Perpetual-License-Code%2Fart-PCM0015649-000",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Pro+Tools+Studio&a_aid=6a01e859cbe1a",
-      "amazon": "https://www.amazon.com/dp/B0DFZW5V7G",
+      "amazon": "https://www.amazon.com/Avid-Pro-Tools-Production-Software/dp/B08KSRDGWV",
       "reverb": "https://reverb.com/item/86118309-avid-pro-tools-studio-annual-subscription-daw-software",
       "andertons": "https://www.andertons.co.uk/avid-pro-tools-perpetual-license-w-1-year-of-upgrades-support-renewable-annually-esd/"
     }
@@ -1647,12 +1649,13 @@
     "badge": "topQuality",
     "desc": "The complete music production system. Powerful MIDI editing, VariAudio pitch correction, advanced scoring and notation. MixConsole for professional mixing. Trusted by composers and producers.",
     "desc_es": "El sistema completo de producción musical. Edición MIDI potente, corrección de tono VariAudio, notación avanzada. Confiado por compositores y productores.",
+    "amazonNotag": true,
     "img": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/2289/8194/CUBASE13ED-Cubase_Pro_13_Logo__08039.1714742077.jpg?c=1",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Cubase-Pro-15/7MM7",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSteinberg-Cubase-Pro-15%2Fart-PCM0018659-000",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Cubase+Pro+15&a_aid=6a01e859cbe1a",
-      "amazon": "https://www.amazon.com/dp/B0DMTW1QWN",
+      "amazon": "https://www.amazon.com/Steinberg-Cubase-Pro-Download-Card/dp/B0DMTW1QWN",
       "reverb": "https://reverb.com/item/85760285-steinberg-cubase-pro-15-daw-software-download"
     }
   },
