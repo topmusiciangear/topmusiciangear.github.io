@@ -425,7 +425,6 @@ function buildGuidePage(guide, lang, idx) {
           "sku": generatedSku,
           "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 155),
           "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
-          "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
           "positiveNotes": pn,
           "negativeNotes": cn
@@ -436,7 +435,6 @@ function buildGuidePage(guide, lang, idx) {
         "name": title,
         "brand": { "@type": "Brand", "name": p.brand || "" },
         "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-        "aggregateRating": p.reviews > 0 ? { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews } : undefined,
         "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
         "positiveNotes": pn,
         "negativeNotes": cn
