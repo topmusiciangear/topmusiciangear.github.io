@@ -471,7 +471,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="x-default" href="${alternateEn}">
   <link rel="alternate" hreflang="en" href="${alternateEn}">
