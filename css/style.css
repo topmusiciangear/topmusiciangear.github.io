@@ -1954,6 +1954,11 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-faq { margin: 40px 0 20px; padding-top: 8px; border-top: 1px solid var(--border); }
 .guide-faq-title { font-size: 22px; font-weight: 700; margin: 0 0 24px; color: var(--white); }
+.guide-conclusion { margin: 0 0 40px; padding: 24px 26px; background: rgba(59,130,246,.06); border: 1px solid rgba(59,130,246,.18); border-radius: var(--radius); }
+.guide-conclusion-title { font-size: 20px; font-weight: 700; margin: 0 0 14px; color: var(--white); }
+.guide-conclusion-content { color: var(--text); font-size: 15px; line-height: 1.75; }
+.guide-conclusion-content p { margin: 0 0 12px; }
+.guide-conclusion-content p:last-child { margin-bottom: 0; }
 .guide-faq-list { display: flex; flex-direction: column; }
 .guide-faq-item { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--bg-card); margin-bottom: 8px; }
 .guide-faq-item:last-child { margin-bottom: 0; }
