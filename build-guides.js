@@ -195,7 +195,7 @@ function productCard(p, lang) {
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
   }).join("");
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"></div>
+    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
     <div class="guide-product-card-body">
       ${productRatingLine(p, lang)}
       <h3 class="guide-product-card-title">${title}</h3>
@@ -368,10 +368,22 @@ function userReviewsSection(guide, isEs) {
   });
   rv = rv.filter(function(r) { return isEs ? !!r.text_es : (!!r.text_en || !!r.text); });
   rv.sort(function(a, b) { return String(b.date).localeCompare(String(a.date)); });
-  if (!rv.length) return '';
   var sum = rv.reduce(function(s, r) { return s + r.rating; }, 0);
-  var avg = Math.round((sum / rv.length) * 10) / 10;
+  var avg = rv.length ? Math.round((sum / rv.length) * 10) / 10 : 0;
   var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
+  var empty = rv.length === 0;
+  var title = isEs ? 'Reseñas' : 'Reviews';
+  var head = '<div class="guide-reviews-head' + (empty ? ' is-empty' : '') + '">' +
+    '<h2 class="guide-reviews-title">' + title + '</h2>' +
+    '<div class="guide-reviews-summary">' +
+      '<span class="stars">' + (empty ? '★★★★★' : stars(avg)) + '</span>' +
+      '<div class="guide-reviews-num">' + avg.toFixed(1) + '</div>' +
+      '<div class="guide-reviews-count">(' + rv.length + ' ' + reviewWord + ')</div>' +
+    '</div>' +
+  '</div>';
+  if (empty) {
+    return '<div class="guide-reviews" id="reviews">' + head + '</div>';
+  }
   var limit = 3;
   var hiddenExtra = rv.length > limit ? rv.slice(limit) : [];
   var items = rv.slice(0, limit).map(function(r) {
@@ -391,10 +403,7 @@ function userReviewsSection(guide, isEs) {
     '</div>';
   }).join('');
   var moreBtn = hiddenExtra.length ? '<button type="button" class="guide-reviews-more" onclick="var l=this.parentElement.querySelectorAll(\'.guide-review-item[data-extra]\');l.forEach(function(e){e.style.display=\'block\'});this.style.display=\'none\'">' + (isEs ? ('Ver ' + hiddenExtra.length + ' más reseñas') : ('See ' + hiddenExtra.length + ' more reviews')) + '</button>' : '';
-  return '<div class="guide-reviews" id="reviews">' +
-    '<div class="guide-reviews-head">' +
-      '<div class="guide-reviews-summary"><span class="stars">' + stars(avg) + '</span><span><strong>' + avg.toFixed(1) + '</strong> · ' + rv.length + ' ' + reviewWord + '</span></div>' +
-    '</div>' +
+  return '<div class="guide-reviews" id="reviews">' + head +
     '<div class="guide-reviews-list">' + items + hiddenItems + moreBtn + '</div>' +
   '</div>';
 }
