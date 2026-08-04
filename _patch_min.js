@@ -32,5 +32,11 @@ const oldSP = j.substring(si, ei + spEnd.length);
 const newSP = `rmRating=0;const picker=document.getElementById("rmStars");function paintStars(n){Array.prototype.forEach.call(picker.children,function(c,ci){c.classList.toggle("active",ci<n);c.classList.remove("hover")})}for(let i=1;i<=5;i++)(function(n){const s=document.createElement("span");s.textContent="\u2605";s.addEventListener("mouseover",function(){Array.prototype.forEach.call(picker.children,function(c,ci){c.classList.toggle("hover",ci<n);c.classList.remove("active")})});s.addEventListener("mouseout",function(){paintStars(rmRating)});s.addEventListener("click",function(){rmRating=n;paintStars(n);document.getElementById("rmSubmit").disabled=false});picker.appendChild(s)})(i);picker.addEventListener("mouseleave",function(){paintStars(rmRating)});document.getElementById("rmSubmit").addEventListener("click",submitReview);}`;
 j = j.replace(oldSP, newSP);
 
+// 5. renderGuideDetail: insert conclusion block after userReviewsHtml
+const anchor = 'userReviewsHtml(a)}\\n      ${';
+if (!j.includes(anchor)) throw new Error('conclusion anchor not found');
+const conclusionBlock = 'userReviewsHtml(a)}\\n      ${(()=>{const c=currentLang==="es"&&a.conclusion_es?a.conclusion_es:a.conclusion;return c?`<div class="guide-conclusion"><h2 class="guide-conclusion-title">Conclusion</h2><div class="guide-conclusion-content">${c}</div></div>`:""})()}\\n      ${';
+j = j.replace(anchor, conclusionBlock);
+
 fs.writeFileSync(p, j, 'utf8');
 console.log('app.min.js updated OK');

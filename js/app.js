@@ -455,7 +455,9 @@ function userReviewsHtml(guide) {
   var sum = rv.reduce(function(s, r) { return s + r.rating; }, 0);
   var avg = Math.round((sum / rv.length) * 10) / 10;
   var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
-  var items = rv.map(function(r) {
+  var limit = 3;
+  var hiddenExtra = rv.length > limit ? rv.slice(limit) : [];
+  var items = rv.slice(0, limit).map(function(r) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
@@ -463,11 +465,20 @@ function userReviewsHtml(guide) {
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');
+  var hiddenItems = hiddenExtra.map(function(r) {
+    var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
+    return '<div class="guide-review-item" style="display:none">' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + '</div>' +
+      '<p class="guide-review-text">' + txt + '</p>' +
+    '</div>';
+  }).join('');
+  var moreBtn = hiddenExtra.length ? '<button type="button" class="guide-reviews-more" onclick="var l=this.parentElement.querySelectorAll(\'.guide-review-item[data-extra]\');l.forEach(function(e){e.style.display=\'block\'});this.style.display=\'none\'">' + (isEs ? ('Ver ' + hiddenExtra.length + ' más reseñas') : ('See ' + hiddenExtra.length + ' more reviews')) + '</button>' : '';
   return '<div class="guide-reviews" id="reviews">' +
     '<div class="guide-reviews-head">' +
       '<div class="guide-reviews-summary"><span class="stars">' + reviewStars(avg) + '</span><span><strong>' + avg.toFixed(1) + '</strong> · ' + rv.length + ' ' + reviewWord + '</span></div>' +
     '</div>' +
-    '<div class="guide-reviews-list">' + items + '</div>' +
+    '<div class="guide-reviews-list">' + items + hiddenItems + moreBtn + '</div>' +
   '</div>';
 }
 
@@ -846,9 +857,10 @@ function renderGuideDetailFromData(id) {
         </div>
         ${guide.verdictProsCons ? renderVerdictGrid(guide, currentLang) : ''}
       </div>
-      ${userReviewsHtml(guide)}
+      ${(() => { const c = currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion; return c ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${c}</div></div>` : ''; })()}
       ${(function(){ var faqs = getGuideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${allProductsHtml ? `<div class="guide-products-grid"><h2 class="guide-products-title">${t("productsInGuide")}</h2><div class="guide-products-cards">${allProductsHtml}</div></div>` : ""}
+      ${userReviewsHtml(guide)}
       <div class="guide-related">
         <h2 class="guide-related-title">${t("relatedGuides")}</h2>
         <div class="guide-related-list">
