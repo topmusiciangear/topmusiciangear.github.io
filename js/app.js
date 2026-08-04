@@ -951,11 +951,6 @@ function injectGuideJsonLd(guide) {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
-          "aggregateRating": p.reviews > 0 ? {
-            "@type": "AggregateRating",
-            "ratingValue": p.rating,
-            "reviewCount": p.reviews
-          } : undefined,
           "image": p.img
         }
       });
