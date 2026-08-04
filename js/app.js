@@ -6,6 +6,7 @@ let skipDetailScroll = false;
 let disclosureBound = false;
 let guides = [];
 let products = [];
+let reviews = [];
 
 function readingTime(guide, lang) {
   var texts = [];
@@ -130,7 +131,8 @@ function guideDates(guide, idx) {
 
 const dataPromise = Promise.all([
   fetch('https://topmusiciangear.com/data/guides.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load guides'); return r.json(); }).then(function(d) { guides = d; }),
-  fetch('https://topmusiciangear.com/data/products.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load products'); return r.json(); }).then(function(d) { products = d; })
+  fetch('https://topmusiciangear.com/data/products.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load products'); return r.json(); }).then(function(d) { products = d; }),
+  fetch('https://topmusiciangear.com/data/reviews.json?v=' + Date.now()).then(function(r) { if (!r.ok) return []; return r.json(); }).then(function(d) { reviews = d || []; }).catch(function() { reviews = []; })
 ]).catch(function(err) {
   console.error('Data error:', err);
   var grid = document.getElementById('guideGrid');
@@ -387,12 +389,25 @@ function getBadgeClass(key) {
   return map[key] || "bestSeller";
 }
 
+function reviewStats(pid) {
+  const rv = reviews.filter(r => r.productId === pid);
+  if (!rv.length) return null;
+  const avg = Math.round((rv.reduce((s, r) => s + r.rating, 0) / rv.length) * 10) / 10;
+  return { ratingValue: avg, reviewCount: rv.length, reviews: rv };
+}
+
+function productRatingLine(p) {
+  const st = reviewStats(p.id);
+  if (!st) return '<button class="guide-review-write-btn" onclick="openReviewModal(' + p.id + ')">' + (currentLang === 'es' ? 'Escribe una reseña' : 'Write a review') + '</button>';
+  const word = currentLang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews');
+  return `<div class="guide-product-card-rating">${"★".repeat(Math.floor(st.ratingValue)) + (st.ratingValue % 1 >= 0.5 ? "½" : "")} <span>${st.reviewCount} ${word}</span></div>`;
+}
+
 function renderProductCard(id) {
   const p = products.find(x => x.id === id);
   if (!p) return "";
   const title = currentLang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
-  const stars = "★".repeat(Math.floor(p.rating)) + (p.rating % 1 >= 0.5 ? "½" : "");
   const stores = Object.entries(getResolvedStores(p)).map(([key, url]) =>
     `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
   ).join("");
@@ -401,14 +416,201 @@ function renderProductCard(id) {
     <div class="guide-product-card">
       <div class="guide-product-card-img"><img src="${prodImgUrl}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"></div>
       <div class="guide-product-card-body">
+        ${productRatingLine(p)}
         <div class="guide-product-card-title">${title}</div>
-        <div class="guide-product-card-rating">${stars} <span>${p.reviews.toLocaleString()}</span></div>
         <div class="guide-product-card-price">${formatPrice(p.price)} <small>USD${p.unit ? ' (' + p.unit + ')' : ''}</small></div>
         <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
         <div class="guide-product-card-stores">${stores}</div>
       </div>
     </div>
   `;
+}
+
+function fmtReviewDate(iso) {
+  var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
+  if (isNaN(d)) return String(iso);
+  var mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return mo[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+}
+
+function reviewStars(n) {
+  return "★".repeat(Math.floor(n)) + (n % 1 >= 0.5 ? "½" : "");
+}
+
+function userReviewsHtml(guide) {
+  var isEs = currentLang === 'es';
+  var pids = [...new Set(guide.sections.flatMap(s => s.products))];
+  var rv = [];
+  pids.forEach(function(pid) {
+    var p = products.find(pr => pr.id === pid);
+    var name = p ? (isEs && p.title_es ? p.title_es : p.title) : ('#' + pid);
+    reviews.filter(r => r.productId === pid).forEach(function(r) {
+      rv.push({ productName: name, author: r.author, rating: r.rating, text: r.text, date: r.date });
+    });
+  });
+  rv.sort(function(a, b) { return String(b.date).localeCompare(String(a.date)); });
+  if (!rv.length) return '';
+  var sum = rv.reduce(function(s, r) { return s + r.rating; }, 0);
+  var avg = Math.round((sum / rv.length) * 10) / 10;
+  var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
+  var items = rv.map(function(r) {
+    return '<div class="guide-review-item">' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + '</div>' +
+      '<p class="guide-review-text">' + r.text + '</p>' +
+    '</div>';
+  }).join('');
+  return '<div class="guide-reviews" id="reviews">' +
+    '<div class="guide-reviews-head">' +
+      '<div class="guide-reviews-summary"><span class="stars">' + reviewStars(avg) + '</span><span><strong>' + avg.toFixed(1) + '</strong> · ' + rv.length + ' ' + reviewWord + '</span></div>' +
+      '<button class="guide-review-write-btn" onclick="openReviewModal()">' + (isEs ? 'Escribe una reseña' : 'Write a review') + '</button>' +
+    '</div>' +
+    '<div class="guide-reviews-list">' + items + '</div>' +
+  '</div>';
+}
+
+var REVIEW_FORM_ENDPOINT = "https://formspree.io/f/mvkppzvz";
+var RECAPTCHA_SITE_KEY = "6Lf083QtAAAAACTzrVpmKX5_syRkkw_U1Za8K6C2";
+var rmRating = 0;
+var _recaptchaPromise = null;
+
+function loadRecaptcha() {
+  if (window.grecaptcha && window.grecaptcha.execute) return Promise.resolve();
+  if (_recaptchaPromise) return _recaptchaPromise;
+  _recaptchaPromise = new Promise(function(resolve) {
+    var s = document.createElement("script");
+    s.src = "https://www.google.com/recaptcha/api.js?render=" + RECAPTCHA_SITE_KEY;
+    s.async = true;
+    s.onload = function() {
+      var tries = 0;
+      var waitExecute = function() {
+        if (window.grecaptcha && window.grecaptcha.execute) return resolve();
+        if (++tries > 100) return resolve();
+        setTimeout(waitExecute, 50);
+      };
+      waitExecute();
+    };
+    s.onerror = function() { resolve(); };
+    document.head.appendChild(s);
+  });
+  return _recaptchaPromise;
+}
+
+function closeReviewModal() {
+  var m = document.getElementById("reviewModal");
+  if (m) m.remove();
+}
+
+function openReviewModal(presetPid) {
+  var existing = document.getElementById("reviewModal");
+  if (existing) existing.remove();
+  var isEs = currentLang === 'es';
+  var guide = currentGuideId ? guides.find(function(g) { return g.id === currentGuideId; }) : null;
+  var prods = guide ? [...new Set(guide.sections.flatMap(s => s.products))].map(function(pid) { return products.find(function(pr) { return pr.id === pid; }); }).filter(Boolean) : [];
+  var selectOpts = prods.length ? '<select id="rmProduct" class="review-modal-select">' + prods.map(function(p) { return '<option value="' + p.id + '"' + (presetPid === p.id ? ' selected' : '') + '>' + (isEs && p.title_es ? p.title_es : p.title) + '</option>'; }).join('') + '</select>' : '';
+  var html = '<div class="review-modal">' +
+    '<button class="review-modal-close" aria-label="' + (isEs ? 'Cerrar' : 'Close') + '" onclick="closeReviewModal()">&times;</button>' +
+    '<h3>' + (isEs ? 'Deja una reseña' : 'Leave a Review') + '</h3>' +
+    '<p class="review-modal-prod">' + (isEs ? '¿A qué producto te refieres?' : 'Which product are you reviewing?') + '</p>' +
+    (selectOpts ? selectOpts : '') +
+    '<label>' + (isEs ? 'Tu nombre' : 'Your name') + '</label><input type="text" id="rmName" placeholder="' + (isEs ? 'p. ej. Juan' : 'e.g. John') + '">' +
+    '<label>' + (isEs ? 'Calificación' : 'Rating') + '</label><div class="star-picker" id="rmStars"></div>' +
+    '<label>' + (isEs ? 'Tu reseña' : 'Your review') + '</label><textarea id="rmText" placeholder="' + (isEs ? '¿Cómo fue tu experiencia con este producto?' : 'How was your experience with this product?') + '"></textarea>' +
+    '<label>' + (isEs ? 'Email (opcional)' : 'Email (optional)') + '</label><input type="email" id="rmEmail" placeholder="' + (isEs ? 'Solo para moderación, nunca se comparte' : 'Only used for moderation, never shared') + '">' +
+    '<div class="review-modal-actions">' +
+      '<button class="review-modal-btn btn-cancel" onclick="closeReviewModal()">' + (isEs ? 'Cancelar' : 'Cancel') + '</button>' +
+      '<button class="review-modal-btn btn-submit" id="rmSubmit" disabled>' + (isEs ? 'Enviar reseña' : 'Submit review') + '</button>' +
+    '</div>' +
+    '<p class="review-modal-note">' + (isEs ? 'Tu reseña se publicará tras moderación.' : 'Your review will be published after moderation.') + '</p>' +
+  '</div>';
+  var m = document.createElement("div");
+  m.id = "reviewModal";
+  m.className = "review-modal-overlay";
+  m.style.cssText = "display:flex;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)";
+  m.innerHTML = html;
+  m.addEventListener("click", function(e) { if (e.target === e.currentTarget) closeReviewModal(); });
+  document.body.appendChild(m);
+  rmRating = 0;
+  var picker = document.getElementById("rmStars");
+  for (var i = 1; i <= 5; i++) {
+    (function(n) {
+      var s = document.createElement("span");
+      s.textContent = "★";
+      s.addEventListener("click", function() {
+        rmRating = n;
+        Array.prototype.forEach.call(picker.children, function(c, ci) { c.classList.toggle("active", ci < n); });
+        document.getElementById("rmSubmit").disabled = false;
+      });
+      picker.appendChild(s);
+    })(i);
+  }
+  document.getElementById("rmSubmit").addEventListener("click", submitReview);
+}
+
+function submitReview() {
+  var name = (document.getElementById("rmName").value || "Anonymous").trim();
+  var text = document.getElementById("rmText").value.trim();
+  if (!text) return;
+  var rating = rmRating || 5;
+  var email = (document.getElementById("rmEmail").value || "").trim();
+  var prodEl = document.getElementById("rmProduct");
+  var productId = prodEl ? parseInt(prodEl.value, 10) : null;
+  var productName = prodEl ? prodEl.options[prodEl.selectedIndex].text : "";
+  var btn = document.getElementById("rmSubmit");
+  var isEs = currentLang === 'es';
+  btn.disabled = true;
+  btn.textContent = isEs ? "Enviando..." : "Sending...";
+  var send = function(token) {
+    var payload = { _gotcha: "", _subject: (isEs ? "Nueva reseña - TopMusicianGear" : "New review - TopMusicianGear"), name: name, email: email, rating: rating, text: text, productId: productId, productName: productName, guideId: currentGuideId, page: window.location.href };
+    if (token) payload["g-recaptcha-response"] = token;
+    console.log("[review] token:", token ? "OK (" + token.slice(0, 24) + "...)" : "MISSING");
+    console.log("[review] payload keys:", Object.keys(payload).join(","));
+    fetch(REVIEW_FORM_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(payload)
+    }).then(function(r) {
+      return r.text().then(function(txt) {
+        console.log("[review] response status:", r.status, "body:", txt);
+        if (!r.ok) throw new Error("request failed: " + txt);
+        return txt;
+      });
+    }).then(function() {
+      var m = document.getElementById("reviewModal");
+      if (m) {
+        m.querySelector(".review-modal").innerHTML = '<div style="text-align:center;padding:20px 8px"><h3>' + (isEs ? '¡Gracias!' : 'Thank you!') + '</h3><p style="margin:10px 0 0;font-size:14px;color:var(--text-secondary);line-height:1.6">' + (isEs ? 'Tu reseña se revisará y se publicará pronto tras moderación.' : 'Your review will be reviewed and published soon after moderation.') + '</p></div>';
+      }
+      setTimeout(closeReviewModal, 2200);
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = isEs ? "Enviar reseña" : "Submit review";
+      var m2 = document.getElementById("reviewModal");
+      if (m2) {
+        var n = m2.querySelector(".review-modal-note");
+        if (n) n.textContent = isEs ? "No se pudo enviar. Inténtalo de nuevo o escríbenos a hello@topmusiciangear.com." : "Could not send. Please try again or email us at hello@topmusiciangear.com.";
+      }
+    });
+  };
+  if (RECAPTCHA_SITE_KEY && RECAPTCHA_SITE_KEY.indexOf("REPLACE_WITH") !== 0) {
+    loadRecaptcha().then(function() {
+      var attempt = function(remaining) {
+        if (typeof grecaptcha !== "undefined" && grecaptcha.execute) {
+          grecaptcha.ready(function() {
+            grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: "submit" }).then(send).catch(function() {
+              if (remaining > 0) setTimeout(function() { attempt(remaining - 1); }, 400);
+              else send(null);
+            });
+          });
+        } else {
+          if (remaining > 0) setTimeout(function() { attempt(remaining - 1); }, 400);
+          else send(null);
+        }
+      };
+      attempt(2);
+    });
+  } else {
+    send(null);
+  }
 }
 
 function renderGuideGrid() {
@@ -634,6 +836,7 @@ function renderGuideDetailFromData(id) {
         </div>
         ${guide.verdictProsCons ? renderVerdictGrid(guide, currentLang) : ''}
       </div>
+      ${userReviewsHtml(guide)}
       ${(function(){ var faqs = getGuideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${allProductsHtml ? `<div class="guide-products-grid"><h2 class="guide-products-title">${t("productsInGuide")}</h2><div class="guide-products-cards">${allProductsHtml}</div></div>` : ""}
       <div class="guide-related">

@@ -51,6 +51,7 @@ function criticalCss() {
     '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:10px;font-weight:500;color:var(--text-muted);letter-spacing:.3px}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
     '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.guide-verdict-header{display:flex;align-items:center;gap:10px}.verdict-label{font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--accent);flex-shrink:0;white-space:nowrap}.verdict-text{font-size:15px;font-weight:700;color:var(--white);min-width:0}',
+    '.guide-reviews{margin:0 0 40px;padding:20px 22px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius)}.guide-reviews-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}.guide-reviews-summary{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text-secondary)}.guide-reviews-summary .stars{color:#f59e0b;font-size:15px;letter-spacing:1px}.guide-reviews-summary strong{color:var(--white);font-weight:700}.guide-review-write-btn{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer;transition:background .15s;font-family:inherit}.guide-review-write-btn:hover{background:var(--accent-dark)}.guide-reviews-list{display:flex;flex-direction:column;gap:12px}.guide-review-item{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px}.guide-review-item-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:4px}.guide-review-author{font-size:14px;font-weight:700;color:var(--white)}.guide-review-product{font-size:11px;font-weight:600;color:var(--accent);background:rgba(59,130,246,.12);padding:2px 8px;border-radius:4px}.guide-review-date{font-size:12px;color:var(--text-muted);flex-shrink:0;margin-left:auto}.guide-review-stars{color:#f59e0b;font-size:13px;letter-spacing:1px;margin-bottom:6px}.guide-review-text{font-size:14px;color:var(--text-secondary);line-height:1.6;margin:0}.guide-review-first-btn{background:none;border:none;padding:0;margin:0;font-size:12px;color:var(--text-muted);cursor:pointer;font-family:inherit;text-decoration:underline;text-decoration-color:transparent;transition:color .15s,text-decoration-color .15s}.guide-review-first-btn:hover{color:var(--accent);text-decoration-color:var(--accent)}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-byline{font-size:14px;color:var(--text-muted);margin-top:8px;font-weight:500}',
     '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--bg-secondary)}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
@@ -84,6 +85,7 @@ const dir = __dirname;
 // Load guide/product data from JSON, store meta from constants
 const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8').replace(/^\ufeff/, ''));
 const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
+const reviews = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'reviews.json'), 'utf8').replace(/^\ufeff/, ''));
 eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
 
 // Pre-bake bold first sentence into guides.json so SPA gets bold regardless of app.js version
@@ -101,6 +103,7 @@ const cacheVerJs = crypto.createHash('md5').update(fs.readFileSync(path.join(dir
 const cacheVerJsMin = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.min.js'))).digest('hex').slice(0, 8);
 const cacheVerConstants = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'constants.js'))).digest('hex').slice(0, 8);
 const cacheVerCss = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'css', 'style.min.css'))).digest('hex').slice(0, 8);
+const RECAPTCHA_SITE_KEY = "6Lf083QtAAAAACTzrVpmKX5_syRkkw_U1Za8K6C2";
 const today = new Date().toISOString().split('T')[0];
 const YEAR = new Date().getFullYear();
 const Y = (s) => typeof s === 'string' ? s.replace(/2026/g, String(YEAR)) : s;
@@ -165,8 +168,22 @@ function stars(rating) {
   return "★".repeat(Math.floor(rating)) + (rating % 1 >= 0.5 ? "½" : "");
 }
 
+function reviewStats(pid) {
+  const rv = reviews.filter(r => r.productId === pid);
+  if (!rv.length) return null;
+  const avg = Math.round((rv.reduce((s, r) => s + r.rating, 0) / rv.length) * 10) / 10;
+  return { ratingValue: avg, reviewCount: rv.length, reviews: rv };
+}
+
 function fixIconPath(html) {
   return html.replace(/src="img\//g, 'src="../img/');
+}
+
+function productRatingLine(p, lang) {
+  const st = reviewStats(p.id);
+  if (!st) return '<button class="guide-review-write-btn" onclick="openReviewModal(' + p.id + ')">' + (lang === 'es' ? 'Escribe una reseña' : 'Write a review') + '</button>';
+  const word = lang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews');
+  return `<div class="guide-product-card-rating">${stars(st.ratingValue)} <span>${st.reviewCount} ${word}</span></div>`;
 }
 
 function productCard(p, lang) {
@@ -179,8 +196,8 @@ function productCard(p, lang) {
   return `<div class="guide-product-card">
     <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"></div>
     <div class="guide-product-card-body">
+      ${productRatingLine(p, lang)}
       <h3 class="guide-product-card-title">${title}</h3>
-      <div class="guide-product-card-rating">${stars(p.rating)} <span>${p.reviews.toLocaleString()}</span></div>
       <div class="guide-product-card-price">${formatPrice(p.price)} <small>USD${p.unit ? ' (' + p.unit + ')' : ''}</small></div>
       <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
       <div class="guide-product-card-stores">${stores}</div>
@@ -331,6 +348,44 @@ function normImg(path) {
   return path && path.startsWith('../') ? path.substring(3) : path;
 }
 
+function fmtReviewDate(iso) {
+  var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
+  if (isNaN(d)) return String(iso);
+  var mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return mo[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+}
+
+function userReviewsSection(guide, isEs) {
+  var pids = [...new Set(guide.sections.flatMap(s => s.products))];
+  var rv = [];
+  pids.forEach(function(pid) {
+    var p = products.find(pr => pr.id === pid);
+    var name = p ? (isEs && p.title_es ? p.title_es : p.title) : ('#' + pid);
+    reviews.filter(r => r.productId === pid).forEach(function(r) {
+      rv.push({ productName: name, author: r.author, rating: r.rating, text: r.text, date: r.date });
+    });
+  });
+  rv.sort(function(a, b) { return String(b.date).localeCompare(String(a.date)); });
+  if (!rv.length) return '';
+  var sum = rv.reduce(function(s, r) { return s + r.rating; }, 0);
+  var avg = Math.round((sum / rv.length) * 10) / 10;
+  var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
+  var items = rv.map(function(r) {
+    return '<div class="guide-review-item">' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-stars">' + stars(r.rating) + '</div>' +
+      '<p class="guide-review-text">' + r.text + '</p>' +
+    '</div>';
+  }).join('');
+  return '<div class="guide-reviews" id="reviews">' +
+    '<div class="guide-reviews-head">' +
+      '<div class="guide-reviews-summary"><span class="stars">' + stars(avg) + '</span><span><strong>' + avg.toFixed(1) + '</strong> · ' + rv.length + ' ' + reviewWord + '</span></div>' +
+      '<button class="guide-review-write-btn" onclick="openReviewModal()">' + (isEs ? 'Escribe una reseña' : 'Write a review') + '</button>' +
+    '</div>' +
+    '<div class="guide-reviews-list">' + items + '</div>' +
+  '</div>';
+}
+
 function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
@@ -415,7 +470,11 @@ function buildGuidePage(guide, lang, idx) {
       }
       var pn = pc ? (isEs && pc.pros_es ? pc.pros_es : pc.pros) : undefined;
       var cn = pc ? (isEs && pc.cons_es ? pc.cons_es : pc.cons) : undefined;
-      items.push({
+      var agg = (function(){ var st = reviewStats(p.id); return st ? { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 } : null; })();
+      var reviewEnts = reviews.filter(function(r) { return r.productId === p.id; }).map(function(r) {
+        return { "@type": "Review", "author": { "@type": "Person", "name": r.author }, "datePublished": r.date, "reviewBody": r.text, "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 } };
+      });
+      var listItem = {
         "@type": "ListItem", "position": idx + 1,
         "item": {
           "@type": "Product",
@@ -429,8 +488,11 @@ function buildGuidePage(guide, lang, idx) {
           "positiveNotes": pn,
           "negativeNotes": cn
         }
-      });
-      productSchemas.push({
+      };
+      if (agg) listItem.item.aggregateRating = agg;
+      if (reviewEnts.length) listItem.item.review = reviewEnts;
+      items.push(listItem);
+      var pSchema = {
         "@type": "Product",
         "name": title,
         "brand": { "@type": "Brand", "name": p.brand || "" },
@@ -438,7 +500,10 @@ function buildGuidePage(guide, lang, idx) {
         "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
         "positiveNotes": pn,
         "negativeNotes": cn
-      });
+      };
+      if (agg) pSchema.aggregateRating = agg;
+      if (reviewEnts.length) pSchema.review = reviewEnts;
+      productSchemas.push(pSchema);
     }
   });
 
@@ -585,6 +650,7 @@ ${ogMeta}
         </div>
         ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div><div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div></div>' }).join('') + '</div>'; })() : ''}
       </div>
+      ${userReviewsSection(guide, isEs)}
       ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${conclusion}</div></div>` : ''}
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
@@ -729,7 +795,7 @@ ${ogMeta}
 window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()}
 window.cookieDecline=function(){try{var p={essential:true,analytics:false,affiliate:false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.style.display='none';if(m)m.style.display='none'}
 window.cookiePrefs=function(){if(m)m.style.display='flex';try{var s=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,affiliate:true};var ca=document.getElementById('cm-analytics');if(ca)ca.checked=s.analytics;var ca3=document.getElementById('cm-affiliate');if(ca3)ca3.checked=s.affiliate}catch(e){}}
-window.cookieSave=function(){try{var p={essential:true,analytics:document.getElementById('cm-analytics')?.checked??false,affiliate:document.getElementById('cm-affiliate')?.checked??false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':p.analytics?'granted':'denied'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};document.getElementById('cb-accept')?.addEventListener('click',window.cookieAccept);document.getElementById('cb-prefs')?.addEventListener('click',window.cookiePrefs);document.getElementById('cm-close')?.addEventListener('click',function(){if(m)m.style.display='none'});document.getElementById('cm-decline')?.addEventListener('click',window.cookieDecline);document.getElementById('cm-allow')?.addEventListener('click',window.cookieAccept})();
+window.cookieSave=function(){try{var p={essential:true,analytics:document.getElementById('cm-analytics')?.checked??false,affiliate:document.getElementById('cm-affiliate')?.checked??false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':p.analytics?'granted':'denied'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};document.getElementById('cb-accept')?.addEventListener('click',window.cookieAccept);document.getElementById('cb-prefs')?.addEventListener('click',window.cookiePrefs);document.getElementById('cm-close')?.addEventListener('click',function(){if(m)m.style.display='none'});document.getElementById('cm-decline')?.addEventListener('click',window.cookieDecline);document.getElementById('cm-allow')?.addEventListener('click',window.cookieAccept);})();
 window.showAffiliateDisclosure=function(){var d=document.getElementById('affiliate-modal');if(d)d.style.display='flex'};
 window.hideAffiliateDisclosure=function(){var d=document.getElementById('affiliate-modal');if(d)d.style.display='none'};
 </script>
