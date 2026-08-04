@@ -54,7 +54,7 @@ function criticalCss() {
     '.guide-reviews{margin:0 0 40px;padding:20px 22px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius)}.guide-reviews-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}.guide-reviews-summary{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text-secondary)}.guide-reviews-summary .stars{color:#f59e0b;font-size:15px;letter-spacing:1px}.guide-reviews-summary strong{color:var(--white);font-weight:700}.guide-review-write-btn{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer;transition:background .15s;font-family:inherit}.guide-review-write-btn:hover{background:var(--accent-dark)}.guide-reviews-list{display:flex;flex-direction:column;gap:12px}.guide-review-item{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px}.guide-review-item-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:4px}.guide-review-author{font-size:14px;font-weight:700;color:var(--white)}.guide-review-product{font-size:11px;font-weight:600;color:var(--accent);background:rgba(59,130,246,.12);padding:2px 8px;border-radius:4px}.guide-review-date{font-size:12px;color:var(--text-muted);flex-shrink:0;margin-left:auto}.guide-review-stars{color:#f59e0b;font-size:13px;letter-spacing:1px;margin-bottom:6px}.guide-review-text{font-size:14px;color:var(--text-secondary);line-height:1.6;margin:0}.guide-review-first-btn{background:none;border:none;padding:0;margin:0;font-size:12px;color:var(--text-muted);cursor:pointer;font-family:inherit;text-decoration:underline;text-decoration-color:transparent;transition:color .15s,text-decoration-color .15s}.guide-review-first-btn:hover{color:var(--accent);text-decoration-color:var(--accent)}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-byline{font-size:14px;color:var(--text-muted);margin-top:8px;font-weight:500}',
-    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--bg-secondary)}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--bg-secondary)}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:contain;border-radius:var(--radius-sm);background:var(--bg-secondary);padding:8px;border:1px solid var(--border)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
@@ -181,9 +181,10 @@ function fixIconPath(html) {
 
 function productRatingLine(p, lang) {
   const st = reviewStats(p.id);
-  if (!st) return '<button class="guide-review-write-btn" onclick="openReviewModal(' + p.id + ')">' + (lang === 'es' ? 'Escribe una reseña' : 'Write a review') + '</button>';
-  const word = lang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews');
-  return `<div class="guide-product-card-rating">${stars(st.ratingValue)} <span>${st.reviewCount} ${word}</span></div>`;
+  const word = st ? (lang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews')) : '';
+  const ratingHtml = st ? `<span class="guide-product-card-rating">${stars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
+  const btnLabel = lang === 'es' ? 'Escribe una reseña' : 'Write a review';
+  return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
 }
 
 function productCard(p, lang) {
@@ -371,16 +372,16 @@ function userReviewsSection(guide, isEs) {
   var avg = Math.round((sum / rv.length) * 10) / 10;
   var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
   var items = rv.map(function(r) {
+    var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
       '<div class="guide-review-stars">' + stars(r.rating) + '</div>' +
-      '<p class="guide-review-text">' + r.text + '</p>' +
+      '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');
   return '<div class="guide-reviews" id="reviews">' +
     '<div class="guide-reviews-head">' +
       '<div class="guide-reviews-summary"><span class="stars">' + stars(avg) + '</span><span><strong>' + avg.toFixed(1) + '</strong> · ' + rv.length + ' ' + reviewWord + '</span></div>' +
-      '<button class="guide-review-write-btn" onclick="openReviewModal()">' + (isEs ? 'Escribe una reseña' : 'Write a review') + '</button>' +
     '</div>' +
     '<div class="guide-reviews-list">' + items + '</div>' +
   '</div>';
@@ -472,7 +473,8 @@ function buildGuidePage(guide, lang, idx) {
       var cn = pc ? (isEs && pc.cons_es ? pc.cons_es : pc.cons) : undefined;
       var agg = (function(){ var st = reviewStats(p.id); return st ? { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 } : null; })();
       var reviewEnts = reviews.filter(function(r) { return r.productId === p.id; }).map(function(r) {
-        return { "@type": "Review", "author": { "@type": "Person", "name": r.author }, "datePublished": r.date, "reviewBody": r.text, "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 } };
+        var rvBody = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
+        return { "@type": "Review", "author": { "@type": "Person", "name": r.author }, "datePublished": r.date, "reviewBody": rvBody, "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 } };
       });
       var listItem = {
         "@type": "ListItem", "position": idx + 1,

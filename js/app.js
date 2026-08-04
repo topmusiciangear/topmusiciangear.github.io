@@ -398,9 +398,11 @@ function reviewStats(pid) {
 
 function productRatingLine(p) {
   const st = reviewStats(p.id);
-  if (!st) return '<button class="guide-review-write-btn" onclick="openReviewModal(' + p.id + ')">' + (currentLang === 'es' ? 'Escribe una reseña' : 'Write a review') + '</button>';
-  const word = currentLang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews');
-  return `<div class="guide-product-card-rating">${"★".repeat(Math.floor(st.ratingValue)) + (st.ratingValue % 1 >= 0.5 ? "½" : "")} <span>${st.reviewCount} ${word}</span></div>`;
+  const isEs = currentLang === 'es';
+  const word = st ? (isEs ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews')) : '';
+  const ratingHtml = st ? `<span class="guide-product-card-rating">${reviewStars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
+  const btnLabel = isEs ? 'Escribe una reseña' : 'Write a review';
+  return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
 }
 
 function renderProductCard(id) {
@@ -454,16 +456,16 @@ function userReviewsHtml(guide) {
   var avg = Math.round((sum / rv.length) * 10) / 10;
   var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
   var items = rv.map(function(r) {
+    var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
       '<div class="guide-review-stars">' + reviewStars(r.rating) + '</div>' +
-      '<p class="guide-review-text">' + r.text + '</p>' +
+      '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');
   return '<div class="guide-reviews" id="reviews">' +
     '<div class="guide-reviews-head">' +
       '<div class="guide-reviews-summary"><span class="stars">' + reviewStars(avg) + '</span><span><strong>' + avg.toFixed(1) + '</strong> · ' + rv.length + ' ' + reviewWord + '</span></div>' +
-      '<button class="guide-review-write-btn" onclick="openReviewModal()">' + (isEs ? 'Escribe una reseña' : 'Write a review') + '</button>' +
     '</div>' +
     '<div class="guide-reviews-list">' + items + '</div>' +
   '</div>';
@@ -532,18 +534,26 @@ function openReviewModal(presetPid) {
   document.body.appendChild(m);
   rmRating = 0;
   var picker = document.getElementById("rmStars");
+  function paintStars(n) {
+    Array.prototype.forEach.call(picker.children, function(c, ci) { c.classList.toggle("active", ci < n); c.classList.remove("hover"); });
+  }
   for (var i = 1; i <= 5; i++) {
     (function(n) {
       var s = document.createElement("span");
       s.textContent = "★";
+      s.addEventListener("mouseover", function() {
+        Array.prototype.forEach.call(picker.children, function(c, ci) { c.classList.toggle("hover", ci < n); c.classList.remove("active"); });
+      });
+      s.addEventListener("mouseout", function() { paintStars(rmRating); });
       s.addEventListener("click", function() {
         rmRating = n;
-        Array.prototype.forEach.call(picker.children, function(c, ci) { c.classList.toggle("active", ci < n); });
+        paintStars(n);
         document.getElementById("rmSubmit").disabled = false;
       });
       picker.appendChild(s);
     })(i);
   }
+  picker.addEventListener("mouseleave", function() { paintStars(rmRating); });
   document.getElementById("rmSubmit").addEventListener("click", submitReview);
 }
 
