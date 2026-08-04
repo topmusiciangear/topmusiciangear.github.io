@@ -440,7 +440,7 @@ function reviewStars(n) {
   if (filled > 5) filled = 5;
   if (filled < 0) filled = 0;
   var s = "";
-  for (var i = 0; i < filled; i++) s += '<span>★</span>';
+  for (var i = 0; i < filled; i++) s += '<span class="guide-star">★</span>';
   for (var j = 0; j < 5 - filled; j++) s += '<span class="guide-star-empty">★</span>';
   return s;
 }

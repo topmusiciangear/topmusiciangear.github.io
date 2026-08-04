@@ -172,7 +172,7 @@ function reviewStars(rating) {
   if (filled > 5) filled = 5;
   if (filled < 0) filled = 0;
   var s = "";
-  for (var i = 0; i < filled; i++) s += '<span>★</span>';
+  for (var i = 0; i < filled; i++) s += '<span class="guide-star">★</span>';
   for (var j = 0; j < 5 - filled; j++) s += '<span class="guide-star-empty">★</span>';
   return s;
 }
@@ -191,7 +191,7 @@ function fixIconPath(html) {
 function productRatingLine(p, lang) {
   const st = reviewStats(p.id);
   const word = st ? (lang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews')) : '';
-  const ratingHtml = st ? `<span class="guide-product-card-rating">${stars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
+  const ratingHtml = st ? `<span class="guide-product-card-rating">${reviewStars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
   const btnLabel = lang === 'es' ? 'Escribe una reseña' : 'Write a review';
   return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
 }
