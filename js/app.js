@@ -1194,9 +1194,7 @@ function injectGuideJsonLd(guide) {
         "item": (function() {
         var uAgg = (function() {
             var st = reviewStats(p.id);
-            if (st) return { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 };
-            if (p.rating) return { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews || 1, "bestRating": 5, "worstRating": 1 };
-            return null;
+            return st ? { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 } : null;
           })();
           var item = {
           "@type": "Product",

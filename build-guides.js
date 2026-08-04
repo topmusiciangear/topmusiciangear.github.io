@@ -497,7 +497,7 @@ function buildGuidePage(guide, lang, idx) {
       }
       var pn = pc ? (isEs && pc.pros_es ? pc.pros_es : pc.pros) : undefined;
       var cn = pc ? (isEs && pc.cons_es ? pc.cons_es : pc.cons) : undefined;
-      var agg = (function(){ var st = reviewStats(p.id); if (st) return { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 }; if (p.rating) return { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews || 1, "bestRating": 5, "worstRating": 1 }; return null; })();
+      var agg = (function(){ var st = reviewStats(p.id); return st ? { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 } : null; })();
       var reviewEnts = reviews.filter(function(r) { return r.productId === p.id; }).map(function(r) {
         var rvBody = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
         return { "@type": "Review", "author": { "@type": "Person", "name": r.author }, "datePublished": r.date, "reviewBody": rvBody, "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 } };
