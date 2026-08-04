@@ -689,6 +689,7 @@ function renderGuideGrid() {
           <div class="guide-card-img">
             <img src="${g.image.replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
             <span class="guide-card-cat">${catName}</span>
+            <button type="button" class="guide-card-share" aria-label="Share" title="Share" onclick="event.preventDefault(); event.stopPropagation(); shareProduct(this, 'https://topmusiciangear.com/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html')"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>
           </div>
           <div class="guide-card-body">
             <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
@@ -1025,13 +1026,13 @@ function renderAbout() {
   `;
 }
 
-function shareProduct(btn) {
+function shareProduct(btn, url) {
   var card = btn.closest(".guide-product-card");
   var title = card ? card.querySelector(".guide-product-card-title").textContent.trim() : document.title;
-  var url = window.location.href;
-  var text = title + " - " + url;
+  var shareUrl = url || window.location.href;
+  var text = title + " - " + shareUrl;
   if (navigator.share) {
-    navigator.share({ title: title, text: title, url: url }).catch(function() {});
+    navigator.share({ title: title, text: title, url: shareUrl }).catch(function() {});
   } else if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(text).then(function() {
       if (typeof showToast === "function") showToast(t("copied"));
