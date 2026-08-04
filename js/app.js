@@ -459,11 +459,7 @@ function userReviewsHtml(guide) {
   var title = isEs ? 'Reseñas' : 'Reviews';
   var head = '<div class="guide-reviews-head' + (empty ? ' is-empty' : '') + '">' +
     '<h2 class="guide-reviews-title">' + title + '</h2>' +
-    '<div class="guide-reviews-summary">' +
-      '<span class="stars">' + (empty ? '★★★★★' : reviewStars(avg)) + '</span>' +
-      '<div class="guide-reviews-num">' + avg.toFixed(1) + '</div>' +
-      '<div class="guide-reviews-count">(' + rv.length + ' ' + reviewWord + ')</div>' +
-    '</div>' +
+    '<div class="guide-reviews-count">(' + rv.length + ' ' + reviewWord + ')</div>' +
   '</div>';
   if (empty) {
     return '<div class="guide-reviews" id="reviews">' + head + '</div>';
@@ -474,7 +470,7 @@ function userReviewsHtml(guide) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
-      '<div class="guide-review-stars">' + reviewStars(r.rating) + '</div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');
@@ -482,7 +478,7 @@ function userReviewsHtml(guide) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item" style="display:none" data-extra>' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
-      '<div class="guide-review-stars">' + reviewStars(r.rating) + '</div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');

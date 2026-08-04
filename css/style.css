@@ -2421,13 +2421,9 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 /* User Reviews */
 .guide-reviews { margin: 0 0 40px; padding: 20px 22px; background: rgba(59,130,246,.08); border: 1px solid rgba(59,130,246,.2); border-radius: var(--radius); }
 .guide-reviews-head { text-align: center; margin-bottom: 18px; }
-.guide-reviews-title { font-size: 26px; font-weight: 800; color: var(--white); margin: 0 0 10px; }
-.guide-reviews-summary { display: flex; flex-direction: column; align-items: center; gap: 4px; }
-.guide-reviews-summary .stars { color: #f59e0b; font-size: 22px; letter-spacing: 2px; line-height: 1; }
-.guide-reviews-summary .guide-reviews-num { font-size: 34px; font-weight: 800; color: var(--white); line-height: 1.1; }
-.guide-reviews-summary .guide-reviews-count { font-size: 14px; color: var(--text-secondary); }
-.guide-reviews-head.is-empty .guide-reviews-summary .stars,
-.guide-reviews-head.is-empty .guide-reviews-summary .guide-reviews-num { color: var(--text-muted); }
+.guide-reviews-title { font-size: 26px; font-weight: 800; color: var(--white); margin: 0 0 6px; }
+.guide-reviews-count { font-size: 14px; color: var(--text-secondary); }
+.guide-reviews-head.is-empty .guide-reviews-count { color: var(--text-muted); }
 .guide-review-write-btn { background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 8px 16px; font-size: 13px; font-weight: 700; cursor: pointer; transition: background .15s; font-family: inherit; }
 .guide-review-write-btn:hover { background: var(--accent-dark); }
 .guide-reviews-list { display: flex; flex-direction: column; gap: 12px; }
@@ -2437,6 +2433,7 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 .guide-review-product { font-size: 11px; font-weight: 600; color: var(--accent); background: rgba(59,130,246,.12); padding: 2px 8px; border-radius: 4px; }
 .guide-review-date { font-size: 12px; color: var(--text-muted); flex-shrink: 0; margin-left: auto; }
 .guide-review-stars { color: #f59e0b; font-size: 13px; letter-spacing: 1px; margin-bottom: 6px; }
+.guide-review-stars-num { color: var(--white); font-weight: 700; font-size: 13px; letter-spacing: 0; margin-left: 2px; }
 .guide-review-text { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 0; }
 .guide-review-first-btn { background: none; border: none; padding: 0; margin: 0; font-size: 12px; color: var(--text-muted); cursor: pointer; font-family: inherit; text-decoration: underline; text-decoration-color: transparent; transition: color .15s, text-decoration-color .15s; }
 .guide-review-first-btn:hover { color: var(--accent); text-decoration-color: var(--accent); }
