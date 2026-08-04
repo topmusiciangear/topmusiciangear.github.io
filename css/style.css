@@ -2016,6 +2016,7 @@ footer ul li a:hover { color: var(--accent); }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  align-items: start;
 }
 
 .guide-products-cards .guide-product-card-img {
