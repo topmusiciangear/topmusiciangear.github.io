@@ -167,6 +167,16 @@ function stars(rating) {
   return "★".repeat(Math.floor(rating)) + (rating % 1 >= 0.5 ? "½" : "");
 }
 
+function reviewStars(rating) {
+  var filled = Math.round(rating);
+  if (filled > 5) filled = 5;
+  if (filled < 0) filled = 0;
+  var s = "";
+  for (var i = 0; i < filled; i++) s += '<span>★</span>';
+  for (var j = 0; j < 5 - filled; j++) s += '<span class="guide-star-empty">★</span>';
+  return s;
+}
+
 function reviewStats(pid) {
   const rv = reviews.filter(r => r.productId === pid);
   if (!rv.length) return null;
@@ -385,7 +395,7 @@ function userReviewsSection(guide, isEs) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
-      '<div class="guide-review-stars">' + stars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');
@@ -393,7 +403,7 @@ function userReviewsSection(guide, isEs) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item" style="display:none" data-extra>' +
       '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
-      '<div class="guide-review-stars">' + stars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
   }).join('');
