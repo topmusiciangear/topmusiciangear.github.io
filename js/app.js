@@ -1185,7 +1185,14 @@ function injectGuideJsonLd(guide) {
       items.push({
         "@type": "ListItem",
         "position": idx + 1,
-        "item": {
+        "item": (function() {
+        var uAgg = (function() {
+            var st = reviewStats(p.id);
+            if (st) return { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 };
+            if (p.rating) return { "@type": "AggregateRating", "ratingValue": p.rating, "reviewCount": p.reviews || 1, "bestRating": 5, "worstRating": 1 };
+            return null;
+          })();
+          var item = {
           "@type": "Product",
           "name": lang === 'es' && p.title_es ? p.title_es : p.title,
           "brand": { "@type": "Brand", "name": p.brand || "" },
@@ -1198,7 +1205,10 @@ function injectGuideJsonLd(guide) {
             "availability": "https://schema.org/InStock"
           },
           "image": p.img
-        }
+        };
+          if (uAgg) item.aggregateRating = uAgg;
+          return item;
+        })(),
       });
     }
   });
