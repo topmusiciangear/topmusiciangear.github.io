@@ -2464,7 +2464,7 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 .star-picker { display: flex; gap: 4px; font-size: 22px; color: #444; cursor: pointer; user-select: none; }
 .star-picker span { transition: color .1s; }
 .star-picker span.active, .star-picker span.hover { color: #f59e0b; }
-.review-modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px; }
+.review-modal-actions { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
 .review-modal-btn { border: none; border-radius: 6px; padding: 9px 16px; font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit; }
 .btn-cancel { background: var(--surface-light); color: var(--text-secondary); }
 .btn-cancel:hover { background: var(--border-light); color: var(--text); }
