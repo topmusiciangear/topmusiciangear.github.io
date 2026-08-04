@@ -447,9 +447,10 @@ function userReviewsHtml(guide) {
     var p = products.find(pr => pr.id === pid);
     var name = p ? (isEs && p.title_es ? p.title_es : p.title) : ('#' + pid);
     reviews.filter(r => r.productId === pid).forEach(function(r) {
-      rv.push({ productName: name, author: r.author, rating: r.rating, text: r.text, date: r.date });
+      rv.push({ productName: name, author: r.author, rating: r.rating, text: r.text, text_es: r.text_es, text_en: r.text_en, date: r.date });
     });
   });
+  rv = rv.filter(function(r) { return isEs ? !!r.text_es : (!!r.text_en || !!r.text); });
   rv.sort(function(a, b) { return String(b.date).localeCompare(String(a.date)); });
   if (!rv.length) return '';
   var sum = rv.reduce(function(s, r) { return s + r.rating; }, 0);
