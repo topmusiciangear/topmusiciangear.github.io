@@ -1524,6 +1524,12 @@ footer ul li a:hover { color: var(--accent); }
   font-weight: 400;
   margin-left: 2px;
 }
+.guide-product-card-rating .stars {
+  color: #f59e0b;
+  font-size: inherit;
+  letter-spacing: 1px;
+  margin-left: 0;
+}
 
 .guide-product-card-rating-num {
   font-size: 12px;
