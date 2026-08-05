@@ -5187,12 +5187,12 @@
           "val2_es": "1966"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Instrument Standard",
-          "val2": "The Vocal Workhorse",
-          "val1_es": "El Estándar Instrumental",
-          "val2_es": "El Caballo de Batalla Vocal"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Dynamic (moving coil)",
+          "val2": "Dynamic (moving coil)",
+          "val1_es": "Dinámico (bobina móvil)",
+          "val2_es": "Dinámico (bobina móvil)"
         },
         {
           "label": "Best For",
@@ -5201,30 +5201,6 @@
           "val2": "Live vocal performance",
           "val1_es": "Microfonear instrumentos",
           "val2_es": "Voz en vivo"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Shure",
-          "val2": "Shure",
-          "val1_es": "Shure",
-          "val2_es": "Shure"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.7/5",
-          "val2": "4.8/5",
-          "val1_es": "4.7/5",
-          "val2_es": "4.8/5"
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dynamic",
-          "val2": "Dynamic",
-          "val1_es": "Dinámico",
-          "val2_es": "Dinámico"
         },
         {
           "label": "Polar Pattern",
@@ -5243,12 +5219,44 @@
           "val2_es": "50 Hz – 15 kHz"
         },
         {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "-56.0 dBV (1.6 mV/Pa)",
+          "val2": "-54.5 dBV (1.85 mV/Pa)",
+          "val1_es": "-56.0 dBV (1.6 mV/Pa)",
+          "val2_es": "-54.5 dBV (1.85 mV/Pa)"
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "val1": "150 Ω",
+          "val2": "150 Ω",
+          "val1_es": "150 Ω",
+          "val2_es": "150 Ω"
+        },
+        {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
           "val2": "N/A (dynamic)",
           "val1_es": "N/D (dinámico)",
           "val2_es": "N/D (dinámico)"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "10 oz / 284 g",
+          "val2": "10.5 oz / 298 g",
+          "val1_es": "10 oz / 284 g",
+          "val2_es": "10.5 oz / 298 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.7/5",
+          "val2": "4.8/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Price",
@@ -6124,17 +6132,17 @@
           "label": "Year",
           "label_es": "Año",
           "val1": "2014",
-          "val2": "2021",
+          "val2": "2023",
           "val1_es": "2014",
-          "val2_es": "2021"
+          "val2_es": "2023"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Truth-Teller",
-          "val2": "The Flatterer",
-          "val1_es": "El Que Dice la Verdad",
-          "val2_es": "El Adulador"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "2-way bi-amp, bass-reflex",
+          "val2": "2-way bi-amp",
+          "val1_es": "2-way bi-amp, bass-reflex",
+          "val2_es": "2-way bi-amp"
         },
         {
           "label": "Best For",
@@ -6145,28 +6153,12 @@
           "val2_es": "Producción con énfasis en graves"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Yamaha",
-          "val2": "KRK",
-          "val1_es": "Yamaha",
-          "val2_es": "KRK"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.7/5",
-          "val2": "4.5/5",
-          "val1_es": "4.7/5",
-          "val2_es": "4.5/5"
-        },
-        {
           "label": "Woofer",
           "label_es": "Woofer",
-          "val1": "8\" cone",
-          "val2": "7\" Kevlar",
-          "val1_es": "8\" cono",
-          "val2_es": "7\" Kevlar"
+          "val1": "8\" cone (cellulose)",
+          "val2": "7\" Kevlar cone",
+          "val1_es": "8\" cono (celulosa)",
+          "val2_es": "7\" cono Kevlar"
         },
         {
           "label": "Tweeter",
@@ -6179,10 +6171,10 @@
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
-          "val1": "38 Hz – 30 kHz",
-          "val2": "45 Hz – 36 kHz",
-          "val1_es": "38 Hz – 30 kHz",
-          "val2_es": "45 Hz – 36 kHz"
+          "val1": "38 Hz – 30 kHz (-10 dB)",
+          "val2": "43 Hz – 40 kHz (±3 dB)",
+          "val1_es": "38 Hz – 30 kHz (-10 dB)",
+          "val2_es": "43 Hz – 40 kHz (±3 dB)"
         },
         {
           "label": "Power",
@@ -6191,6 +6183,46 @@
           "val2": "145W (97W LF + 48W HF)",
           "val1_es": "120W (75W LF + 45W HF)",
           "val2_es": "145W (97W LF + 48W HF)"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "120 dB",
+          "val2": "109 dB",
+          "val1_es": "120 dB",
+          "val2_es": "109 dB"
+        },
+        {
+          "label": "Crossover",
+          "label_es": "Frecuencia de Cruce",
+          "val1": "2 kHz",
+          "val2": "2.4 kHz",
+          "val1_es": "2 kHz",
+          "val2_es": "2.4 kHz"
+        },
+        {
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "val1": "XLR + TRS balanced",
+          "val2": "Combo XLR/TRS + RCA",
+          "val1_es": "XLR + TRS balanced",
+          "val2_es": "Combo XLR/TRS + RCA"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "22.5 lbs / 10.2 kg",
+          "val2": "16.5 lbs / 7.5 kg",
+          "val1_es": "22.5 lbs / 10.2 kg",
+          "val2_es": "16.5 lbs / 7.5 kg"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.7/5",
+          "val2": "4.5/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Price",
@@ -8469,12 +8501,12 @@
           "val2_es": "2015"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Air Motion Transformer Tweeter and Modern Precision",
-          "val2": "The Finnish Metal Dome and Uncompromising Accuracy",
-          "val1_es": "El Tweeter de Transformador de Movimiento de Aire y Precisión Moderna",
-          "val2_es": "El Domo Metálico Finlandés y Precisión Sin Compromisos"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "2-way bi-amp",
+          "val2": "2-way bi-amp",
+          "val1_es": "2-way bi-amp",
+          "val2_es": "2-way bi-amp"
         },
         {
           "label": "Best For",
@@ -8485,12 +8517,60 @@
           "val2_es": "Monitoreo de referencia profesional"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Adam Audio",
-          "val2": "Genelec",
-          "val1_es": "Adam Audio",
-          "val2_es": "Genelec"
+          "label": "Woofer",
+          "label_es": "Woofer",
+          "val1": "7\" MLM",
+          "val2": "6.5\" (165 mm) paper",
+          "val1_es": "7\" MLM",
+          "val2_es": "6.5\" (165 mm) papel"
+        },
+        {
+          "label": "Tweeter",
+          "label_es": "Tweeter",
+          "val1": "X-ART ribbon (HPS waveguide)",
+          "val2": "0.75\" metal dome",
+          "val1_es": "X-ART cinta (waveguide HPS)",
+          "val2_es": "0.75\" domo metálico"
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "val1": "44 Hz – 41 kHz (-3 dB)",
+          "val2": "41 Hz – 25 kHz (-6 dB)",
+          "val1_es": "44 Hz – 41 kHz (-3 dB)",
+          "val2_es": "41 Hz – 25 kHz (-6 dB)"
+        },
+        {
+          "label": "Power",
+          "label_es": "Potencia",
+          "val1": "130W peak (110W LF + 20W HF)",
+          "val2": "180W (90W LF + 90W HF)",
+          "val1_es": "130W peak (110W LF + 20W HF)",
+          "val2_es": "180W (90W LF + 90W HF)"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "105 dB @1m",
+          "val2": "105 dB @1m (115 dB pair)",
+          "val1_es": "105 dB @1m",
+          "val2_es": "105 dB @1m (115 dB pair)"
+        },
+        {
+          "label": "Crossover",
+          "label_es": "Frecuencia de Cruce",
+          "val1": "2.8 kHz",
+          "val2": "3 kHz",
+          "val1_es": "2.8 kHz",
+          "val2_es": "3 kHz"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "19.2 lbs / 8.7 kg",
+          "val2": "20.7 lbs / 9.4 kg",
+          "val1_es": "19.2 lbs / 8.7 kg",
+          "val2_es": "20.7 lbs / 9.4 kg"
         },
         {
           "label": "Rating",
@@ -8499,38 +8579,6 @@
           "val2": "4.9/5",
           "val1_es": "4.8/5",
           "val2_es": "4.9/5"
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "val1": "7\"",
-          "val2": "6.5\"",
-          "val1_es": "7\"",
-          "val2_es": "6.5\""
-        },
-        {
-          "label": "Tweeter",
-          "label_es": "Tweeter",
-          "val1": "S-ART ribbon",
-          "val2": "1\" metal dome",
-          "val1_es": "S-ART cinta",
-          "val2_es": "1\" domo metálico"
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "val1": "44 Hz – 50 kHz",
-          "val2": "48 Hz – 20 kHz",
-          "val1_es": "44 Hz – 50 kHz",
-          "val2_es": "48 Hz – 20 kHz"
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "val1": "170W (100W LF + 70W HF)",
-          "val2": "200W (120W LF + 80W HF)",
-          "val1_es": "170W (100W LF + 70W HF)",
-          "val2_es": "200W (120W LF + 80W HF)"
         },
         {
           "label": "Price",
@@ -8782,12 +8830,12 @@
           "val2_es": "2021"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Cinema-Proven Workhorse with Image Control Waveguide",
-          "val2": "Boundary EQ and the Three-Dimensional Soundstage",
-          "val1_es": "Caballo de Batalla Probado en Cine con Waveguide de Control de Imagen",
-          "val2_es": "EQ de Límite y el Escenario Sonoro Tridimensional"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "2-way, rear-port",
+          "val2": "2-way, front-port",
+          "val1_es": "2-way, rear-port",
+          "val2_es": "2-way, front-port"
         },
         {
           "label": "Best For",
@@ -8798,12 +8846,60 @@
           "val2_es": "Mezcla precisa económica"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "JBL",
-          "val2": "Kali Audio",
-          "val1_es": "JBL",
-          "val2_es": "Kali Audio"
+          "label": "Woofer",
+          "label_es": "Woofer",
+          "val1": "5\" (126 mm)",
+          "val2": "6.5\" paper",
+          "val1_es": "5\" (126 mm)",
+          "val2_es": "6.5\" papel"
+        },
+        {
+          "label": "Tweeter",
+          "label_es": "Tweeter",
+          "val1": "1\" soft dome",
+          "val2": "1\" textile dome",
+          "val1_es": "1\" domo suave",
+          "val2_es": "1\" domo de tela"
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "val1": "49 Hz – 20 kHz",
+          "val2": "39 Hz – 25 kHz (-10 dB)",
+          "val1_es": "49 Hz – 20 kHz",
+          "val2_es": "39 Hz – 25 kHz (-10 dB)"
+        },
+        {
+          "label": "Power",
+          "label_es": "Potencia",
+          "val1": "82W (41W LF + 41W HF)",
+          "val2": "80W Class D (40W + 40W)",
+          "val1_es": "82W (41W LF + 41W HF)",
+          "val2_es": "80W Class D (40W + 40W)"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "108 dB",
+          "val2": "115 dB",
+          "val1_es": "108 dB",
+          "val2_es": "115 dB"
+        },
+        {
+          "label": "Crossover",
+          "label_es": "Frecuencia de Cruce",
+          "val1": "1.725 kHz",
+          "val2": "1.5 kHz",
+          "val1_es": "1.725 kHz",
+          "val2_es": "1.5 kHz"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "10.8 lbs / 4.9 kg",
+          "val2": "15.5 lbs / 7.05 kg",
+          "val1_es": "10.8 lbs / 4.9 kg",
+          "val2_es": "15.5 lbs / 7.05 kg"
         },
         {
           "label": "Rating",
@@ -8812,38 +8908,6 @@
           "val2": "4.7/5",
           "val1_es": "4.6/5",
           "val2_es": "4.7/5"
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "val1": "5\"",
-          "val2": "6.5\"",
-          "val1_es": "5\"",
-          "val2_es": "6.5\""
-        },
-        {
-          "label": "Tweeter",
-          "label_es": "Tweeter",
-          "val1": "1\" dome",
-          "val2": "1\" dome",
-          "val1_es": "1\" domo",
-          "val2_es": "1\" domo"
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "val1": "49 Hz – 20 kHz",
-          "val2": "39 Hz – 25 kHz",
-          "val1_es": "49 Hz – 20 kHz",
-          "val2_es": "39 Hz – 25 kHz"
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "val1": "82W (41W LF + 41W HF)",
-          "val2": "100W (60W LF + 40W HF)",
-          "val1_es": "82W (41W LF + 41W HF)",
-          "val2_es": "100W (60W LF + 40W HF)"
         },
         {
           "label": "Price",
@@ -10076,12 +10140,12 @@
           "val2_es": "2004"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Broadcast Legend with Smooth, Forgiving Capture",
-          "val2": "The Ultra-Low Noise Condenser for Detailed Vocal Capture",
-          "val1_es": "La Leyenda de la Radiodifusión con Captura Suave y Tolerante",
-          "val2_es": "El Condensador de Ultra Bajo Ruido para Captura Vocal Detallada"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Dynamic",
+          "val2": "Condenser (1\")",
+          "val1_es": "Dinámico",
+          "val2_es": "Condensador (1\")"
         },
         {
           "label": "Best For",
@@ -10090,30 +10154,6 @@
           "val2": "Home studio vocal recording",
           "val1_es": "Broadcast, pódcast y streaming",
           "val2_es": "Grabación vocal en home studio"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Shure",
-          "val2": "Rode",
-          "val1_es": "Shure",
-          "val2_es": "Rode"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.8/5",
-          "val2": "4.6/5",
-          "val1_es": "4.8/5",
-          "val2_es": "4.6/5"
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dynamic",
-          "val2": "Condenser",
-          "val1_es": "Dinámico",
-          "val2_es": "Condensador"
         },
         {
           "label": "Polar Pattern",
@@ -10132,12 +10172,60 @@
           "val2_es": "20 Hz – 20 kHz"
         },
         {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "-59 dB (1.12 mV/Pa)",
+          "val2": "-32 dB (25 mV/Pa)",
+          "val1_es": "-59 dB (1.12 mV/Pa)",
+          "val2_es": "-32 dB (25 mV/Pa)"
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "val1": "150 Ω",
+          "val2": "100 Ω",
+          "val1_es": "150 Ω",
+          "val2_es": "100 Ω"
+        },
+        {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
           "val2": "5 dBA",
           "val1_es": "N/D (dinámico)",
           "val2_es": "5 dBA"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "N/A (dynamic)",
+          "val2": "137 dB",
+          "val1_es": "N/D (dinámico)",
+          "val2_es": "137 dB"
+        },
+        {
+          "label": "Controls",
+          "label_es": "Controles",
+          "val1": "Bass rolloff + presence boost",
+          "val2": "None",
+          "val1_es": "Corte de graves + refuerzo de presencia",
+          "val2_es": "Ninguno"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "1 lb 11 oz / 765 g",
+          "val2": "11.5 oz / 326 g",
+          "val1_es": "1 lb 11 oz / 765 g",
+          "val2_es": "11.5 oz / 326 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.8/5",
+          "val2": "4.6/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Price",
@@ -10390,12 +10478,12 @@
           "val2_es": "1960"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Indestructible Workhorse for Every Instrument",
-          "val2": "The Legendary Rock Guitar and Kick Drum Specialist",
-          "val1_es": "El Caballo de Batalla Indestructible para Cada Instrumento",
-          "val2_es": "El Especialista Legendario en Guitarra Rock y Bombo"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Dynamic (moving coil)",
+          "val2": "Dynamic (pressure gradient)",
+          "val1_es": "Dinámico (bobina móvil)",
+          "val2_es": "Dinámico (gradiente de presión)"
         },
         {
           "label": "Best For",
@@ -10404,30 +10492,6 @@
           "val2": "Instrument and drum miking",
           "val1_es": "Microfonear instrumentos",
           "val2_es": "Microfonear instrumentos y baterías"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Shure",
-          "val2": "Sennheiser",
-          "val1_es": "Shure",
-          "val2_es": "Sennheiser"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.7/5",
-          "val2": "4.7/5",
-          "val1_es": "4.7/5",
-          "val2_es": "4.7/5"
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dynamic",
-          "val2": "Dynamic",
-          "val1_es": "Dinámico",
-          "val2_es": "Dinámico"
         },
         {
           "label": "Polar Pattern",
@@ -10446,12 +10510,52 @@
           "val2_es": "30 Hz – 17 kHz"
         },
         {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "-56.0 dBV (1.6 mV/Pa)",
+          "val2": "2 mV/Pa (-54 dBV)",
+          "val1_es": "-56.0 dBV (1.6 mV/Pa)",
+          "val2_es": "2 mV/Pa (-54 dBV)"
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "val1": "150 Ω",
+          "val2": "250 Ω",
+          "val1_es": "150 Ω",
+          "val2_es": "250 Ω"
+        },
+        {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
           "val2": "N/A (dynamic)",
           "val1_es": "N/D (dinámico)",
           "val2_es": "N/D (dinámico)"
+        },
+        {
+          "label": "Controls",
+          "label_es": "Controles",
+          "val1": "None",
+          "val2": "5-position bass control",
+          "val1_es": "Ninguno",
+          "val2_es": "Control de graves de 5 posiciones"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "10 oz / 284 g",
+          "val2": "13.6 oz / 385 g",
+          "val1_es": "10 oz / 284 g",
+          "val2_es": "13.6 oz / 385 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.7/5",
+          "val2": "4.7/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Price",
@@ -10697,18 +10801,18 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2008",
-          "val2": "1967",
-          "val1_es": "2008",
-          "val2_es": "1967"
+          "val1": "2004",
+          "val2": "1986",
+          "val1_es": "2004",
+          "val2_es": "1986"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Gold Standard of Studio Vocal Recording",
-          "val2": "The Versatile Precision Instrument",
-          "val1_es": "El Estándar de Oro de la Grabación Vocal de Estudio",
-          "val2_es": "El Instrumento de Precisión Versátil"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Large-diaphragm condenser",
+          "val2": "Large-diaphragm condenser",
+          "val1_es": "Condensador de diafragma grande",
+          "val2_es": "Condensador de diafragma grande"
         },
         {
           "label": "Best For",
@@ -10719,35 +10823,11 @@
           "val2_es": "Grabación profesional de estudio"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "AKG",
-          "val2": "Neumann",
-          "val1_es": "AKG",
-          "val2_es": "Neumann"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.7/5",
-          "val2": "4.9/5",
-          "val1_es": "4.7/5",
-          "val2_es": "4.9/5"
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Condenser",
-          "val2": "Condenser",
-          "val1_es": "Condensador",
-          "val2_es": "Condensador"
-        },
-        {
-          "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
-          "val1": "9 selectable patterns",
+          "label": "Polar Patterns",
+          "label_es": "Patrones Polares",
+          "val1": "9 selectable (incl. cardioid, fig-8, omni)",
           "val2": "Omni / Cardioid / Figure-8",
-          "val1_es": "9 patrones seleccionables",
+          "val1_es": "9 seleccionables (incl. cardioide, fig-8, omni)",
           "val2_es": "Omni / Cardioide / Figura-8"
         },
         {
@@ -10759,12 +10839,68 @@
           "val2_es": "20 Hz – 20 kHz"
         },
         {
-          "label": "Self-Noise",
-          "label_es": "Ruido Propio",
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "23 mV/Pa (-33 dBV)",
+          "val2": "20/28/22 mV/Pa",
+          "val1_es": "23 mV/Pa (-33 dBV)",
+          "val2_es": "20/28/22 mV/Pa"
+        },
+        {
+          "label": "Equivalent Noise",
+          "label_es": "Ruido Equivalente",
           "val1": "6 dBA",
           "val2": "12 dBA (cardioid)",
           "val1_es": "6 dBA",
           "val2_es": "12 dBA (cardioide)"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "140 dB (0.5% THD)",
+          "val2": "117 dB (127 dB w/ pad)",
+          "val1_es": "140 dB (0.5% THD)",
+          "val2_es": "117 dB (127 dB w/ pad)"
+        },
+        {
+          "label": "Pads / Filters",
+          "label_es": "Pads / Filtros",
+          "val1": "-6/-12/-18 dB pads + bass cut",
+          "val2": "-10 dB pad + low cut",
+          "val1_es": "-6/-12/-18 dB pads + bass cut",
+          "val2_es": "-10 dB pad + low cut"
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "val1": "≤200 Ω",
+          "val2": "200 Ω",
+          "val1_es": "≤200 Ω",
+          "val2_es": "200 Ω"
+        },
+        {
+          "label": "Phantom",
+          "label_es": "Alimentación Phantom",
+          "val1": "48V",
+          "val2": "48V",
+          "val1_es": "48V",
+          "val2_es": "48V"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "10.6 oz / 300 g",
+          "val2": "1.1 lbs / 500 g",
+          "val1_es": "10.6 oz / 300 g",
+          "val2_es": "1.1 lbs / 500 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.7/5",
+          "val2": "4.9/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.9/5"
         },
         {
           "label": "Price",
@@ -11009,18 +11145,18 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "1970",
+          "val1": "1968",
           "val2": "2001",
-          "val1_es": "1970",
+          "val1_es": "1968",
           "val2_es": "2001"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Variable-D Broadcast Standard",
-          "val2": "The Intimate, Warm Voice of Modern Broadcast",
-          "val1_es": "El Estándar de Radiodifusión Variable-D",
-          "val2_es": "La Voz Íntima y Cálida de la Radiodifusión Moderna"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Dynamic (Variable-D)",
+          "val2": "Dynamic",
+          "val1_es": "Dinámico (Variable-D)",
+          "val2_es": "Dinámico"
         },
         {
           "label": "Best For",
@@ -11029,30 +11165,6 @@
           "val2": "Broadcast, podcast, and streaming",
           "val1_es": "Broadcast y locución",
           "val2_es": "Broadcast, pódcast y streaming"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Electro-Voice",
-          "val2": "Shure",
-          "val1_es": "Electro-Voice",
-          "val2_es": "Shure"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.8/5",
-          "val2": "4.8/5",
-          "val1_es": "4.8/5",
-          "val2_es": "4.8/5"
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dynamic",
-          "val2": "Dynamic",
-          "val1_es": "Dinámico",
-          "val2_es": "Dinámico"
         },
         {
           "label": "Polar Pattern",
@@ -11071,12 +11183,52 @@
           "val2_es": "50 Hz – 20 kHz"
         },
         {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "1.5 mV/Pa",
+          "val2": "-59 dB (1.12 mV/Pa)",
+          "val1_es": "1.5 mV/Pa",
+          "val2_es": "-59 dB (1.12 mV/Pa)"
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "val1": "150 Ω",
+          "val2": "150 Ω",
+          "val1_es": "150 Ω",
+          "val2_es": "150 Ω"
+        },
+        {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "val1": "N/A (dynamic)",
           "val2": "N/A (dynamic)",
           "val1_es": "N/D (dinámico)",
           "val2_es": "N/D (dinámico)"
+        },
+        {
+          "label": "Controls",
+          "label_es": "Controles",
+          "val1": "None",
+          "val2": "Bass rolloff + presence boost",
+          "val1_es": "Ninguno",
+          "val2_es": "Corte de graves + refuerzo de presencia"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "1 lb 10 oz / 737 g",
+          "val2": "1 lb 11 oz / 765 g",
+          "val1_es": "1 lb 10 oz / 737 g",
+          "val2_es": "1 lb 11 oz / 765 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.8/5",
+          "val2": "4.8/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.8/5"
         },
         {
           "label": "Price",
@@ -11633,18 +11785,18 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2013",
+          "val1": "2019",
           "val2": "2019",
-          "val1_es": "2013",
+          "val1_es": "2019",
           "val2_es": "2019"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Budget Champion with DSP Versatility",
-          "val2": "The Professional Standard with Class-D Power",
-          "val1_es": "El Campeón de Presupuesto con Versatilidad DSP",
-          "val2_es": "El Estándar Profesional con Potencia Clase D"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Powered PA, Class-D DSP",
+          "val2": "Powered PA, Class-D DSP",
+          "val1_es": "Powered PA, Class-D DSP",
+          "val2_es": "Powered PA, Class-D DSP"
         },
         {
           "label": "Best For",
@@ -11655,12 +11807,60 @@
           "val2_es": "PA profesional versátil"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Electro-Voice",
-          "val2": "QSC",
-          "val1_es": "Electro-Voice",
-          "val2_es": "QSC"
+          "label": "Woofer",
+          "label_es": "Woofer",
+          "val1": "12\"",
+          "val2": "12\" (305 mm)",
+          "val1_es": "12\"",
+          "val2_es": "12\" (305 mm)"
+        },
+        {
+          "label": "Driver",
+          "label_es": "Driver HF",
+          "val1": "1.4\" compression (SST)",
+          "val2": "1.4\" titanium compression",
+          "val1_es": "1.4\" compresión (SST)",
+          "val2_es": "1.4\" compresión de titanio"
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "val1": "54 Hz – 18.5 kHz (-3 dB)",
+          "val2": "50 Hz – 20 kHz (-6 dB)",
+          "val1_es": "54 Hz – 18.5 kHz (-3 dB)",
+          "val2_es": "50 Hz – 20 kHz (-6 dB)"
+        },
+        {
+          "label": "Power",
+          "label_es": "Potencia",
+          "val1": "1,000W peak Class D",
+          "val2": "2,000W peak Class D",
+          "val1_es": "1,000W peak Class D",
+          "val2_es": "2,000W peak Class D"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "127 dB",
+          "val2": "132 dB peak / 126 dB cont",
+          "val1_es": "127 dB",
+          "val2_es": "132 dB peak / 126 dB cont"
+        },
+        {
+          "label": "Coverage",
+          "label_es": "Cobertura",
+          "val1": "90° x 60°",
+          "val2": "75°",
+          "val1_es": "90° x 60°",
+          "val2_es": "75°"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "35.5 lbs / 16.1 kg",
+          "val2": "39 lbs / 17.7 kg",
+          "val1_es": "35.5 lbs / 16.1 kg",
+          "val2_es": "39 lbs / 17.7 kg"
         },
         {
           "label": "Rating",
@@ -11669,38 +11869,6 @@
           "val2": "4.8/5",
           "val1_es": "4.6/5",
           "val2_es": "4.8/5"
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "val1": "12\"",
-          "val2": "12\"",
-          "val1_es": "12\"",
-          "val2_es": "12\""
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "val1": "1,000W (peak)",
-          "val2": "2,000W (peak)",
-          "val1_es": "1,000W (pico)",
-          "val2_es": "2,000W (pico)"
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "val1": "127 dB",
-          "val2": "132 dB",
-          "val1_es": "127 dB",
-          "val2_es": "132 dB"
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "val1": "35.5 lbs",
-          "val2": "37.9 lbs",
-          "val1_es": "16.1 kg",
-          "val2_es": "17.2 kg"
         },
         {
           "label": "Price",
@@ -11951,12 +12119,12 @@
           "val2_es": "2021"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Powered Speaker with Legendary Reliability",
-          "val2": "All-In-One Column Array with Built-In Mixer",
-          "val1_es": "Altavoz Amplificado con Fiabilidad Legendaria",
-          "val2_es": "Sistema de Columna Todo en Uno con Mezclador Integrado"
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Powered point-source",
+          "val2": "Powered column array w/ 7-ch mixer",
+          "val1_es": "Powered point-source",
+          "val2_es": "Powered column array w/ 7-ch mixer"
         },
         {
           "label": "Best For",
@@ -11967,12 +12135,52 @@
           "val2_es": "PA portátil todo-en-uno"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Yamaha",
-          "val2": "JBL",
-          "val1_es": "Yamaha",
-          "val2_es": "JBL"
+          "label": "Woofer",
+          "label_es": "Woofer",
+          "val1": "12\"",
+          "val2": "12\" + 12 x 2.5\" array",
+          "val1_es": "12\"",
+          "val2_es": "12\" + 12 x 2.5\" array"
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "val1": "52 Hz – 20 kHz (-10 dB)",
+          "val2": "35 Hz – 20 kHz (-10 dB)",
+          "val1_es": "52 Hz – 20 kHz (-10 dB)",
+          "val2_es": "35 Hz – 20 kHz (-10 dB)"
+        },
+        {
+          "label": "Power",
+          "label_es": "Potencia",
+          "val1": "1,100W dynamic (950W LF + 150W HF)",
+          "val2": "2,000W peak / 1,000W RMS Class D",
+          "val1_es": "1,100W dynamic (950W LF + 150W HF)",
+          "val2_es": "2,000W peak / 1,000W RMS Class D"
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "val1": "134 dB",
+          "val2": "130 dB",
+          "val1_es": "134 dB",
+          "val2_es": "130 dB"
+        },
+        {
+          "label": "Coverage",
+          "label_es": "Cobertura",
+          "val1": "90° x 60°",
+          "val2": "130° H x 30° V",
+          "val1_es": "90° x 60°",
+          "val2_es": "130° H x 30° V"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "41 lbs / 18.6 kg",
+          "val2": "56.6 lbs / 25.7 kg",
+          "val1_es": "41 lbs / 18.6 kg",
+          "val2_es": "56.6 lbs / 25.7 kg"
         },
         {
           "label": "Rating",
@@ -11981,38 +12189,6 @@
           "val2": "4.8/5",
           "val1_es": "4.7/5",
           "val2_es": "4.8/5"
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "val1": "12\"",
-          "val2": "12\" + 1.5\" array",
-          "val1_es": "12\"",
-          "val2_es": "12\" + array de 1.5\""
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "val1": "1,100W (950W LF + 150W HF)",
-          "val2": "1,300W (class D)",
-          "val1_es": "1,100W (950W LF + 150W HF)",
-          "val2_es": "1,300W (clase D)"
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "val1": "133 dB",
-          "val2": "130 dB",
-          "val1_es": "133 dB",
-          "val2_es": "130 dB"
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "val1": "45.6 lbs",
-          "val2": "55.1 lbs",
-          "val1_es": "20.7 kg",
-          "val2_es": "25 kg"
         },
         {
           "label": "Price",
