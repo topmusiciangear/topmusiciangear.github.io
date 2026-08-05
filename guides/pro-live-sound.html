@@ -398,7 +398,7 @@
   ]
 }
 </script>
-<script>(function(){try{history.scrollRestoration='manual';var a=localStorage.getItem('tmg_v');fetch('/version.txt?t='+Date.now()).then(function(r){return r.text()}).then(function(b){if(!a){localStorage.setItem('tmg_v',b);return}if(a!==b){localStorage.setItem('tmg_v',b);location.reload(true)}})}catch(e){}})()</script>
+<script>(function(){try{history.scrollRestoration='manual';var a=localStorage.getItem('tmg_v');fetch('/version.txt?t='+Date.now()).then(function(r){return r.text()}).then(function(b){if(!a){localStorage.setItem('tmg_v',b);return}if(a!==b){localStorage.setItem('tmg_v',b);var s=location.search.replace(/[?&]_v=[^&]*/,'');location.replace(location.pathname+s+(s?'&':'?')+'_v='+b)}})}catch(e){}})();!function(){var s=location.search.indexOf('_v=');if(s>-1&&history.replaceState)history.replaceState({},'',location.pathname+location.search.replace(/[?&]_v=[^&]*/,'')+location.hash)}()</script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','functionality_storage':'granted','security_storage':'granted'});gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
 </head>
