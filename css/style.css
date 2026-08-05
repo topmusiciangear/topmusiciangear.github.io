@@ -2476,3 +2476,89 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 .review-modal-close:hover { color: var(--text); }
 .grecaptcha-badge { visibility: hidden; }
 
+/* Guide TOC */
+.guide-toc {
+  margin: 0 0 32px;
+  padding: 14px 18px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+}
+.guide-toc-title {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.guide-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 4px 20px;
+}
+.guide-toc-item { margin: 0; }
+.guide-toc-link {
+  display: inline-block;
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.guide-toc-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Guide author box */
+.guide-author-box {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  padding: 14px 16px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.guide-author-box-avatar {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 18px;
+}
+.guide-author-box-body { min-width: 0; }
+.guide-author-box-name {
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+.guide-author-box-bio {
+  margin: 0 0 6px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+.guide-author-box-note {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  font-style: italic;
+}
+@media (max-width: 480px) {
+  .guide-author-box { flex-direction: column; }
+}
+

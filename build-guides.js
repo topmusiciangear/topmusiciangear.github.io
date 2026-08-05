@@ -439,7 +439,7 @@ function buildGuidePage(guide, lang, idx) {
     return p ? productCard(p, lang) : '';
   }).join('');
 
-  const sectionsHtml = guide.sections.map(s => {
+  const sectionsHtml = guide.sections.map((s, si) => {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
@@ -449,10 +449,25 @@ function buildGuidePage(guide, lang, idx) {
       '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
     '</div>' : '';
     return `<div class="guide-section">
-      <h2 class="guide-section-heading">${h}</h2>
+      <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
       <div class="guide-section-content">${boldedC}${productImgs}</div>
     </div>`;
   }).join('');
+
+  const tocItems = guide.sections.map((s, si) => {
+    const h = isEs && s.heading_es ? s.heading_es : s.heading;
+    return `<li class="guide-toc-item"><a class="guide-toc-link" href="#sec-${si + 1}">${h}</a></li>`;
+  }).join('');
+  const tocHtml = tocItems ? `<nav class="guide-toc" aria-label="${isEs ? 'Índice de contenidos' : 'Table of contents'}"><span class="guide-toc-title">${isEs ? 'Contenido' : 'On This Page'}</span><ul class="guide-toc-list">${tocItems}</ul></nav>` : '';
+
+  const authorBoxHtml = `<div class="guide-author-box">
+    <div class="guide-author-box-avatar">${icon('music', 'fa-solid')}</div>
+    <div class="guide-author-box-body">
+      <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago (Cuban3Beats)' : 'By Daniel Carnago (Cuban3Beats)'}</span>
+      <p class="guide-author-box-bio">${isEs ? 'Músico de directo e ingeniero con más de 20 años en escenarios de todo el mundo, incluidos Glastonbury, Broadway y Abbey Road. Este equipo lo he tocado y grabado en giras y en mi propio estudio casero.' : 'Touring musician and audio engineer with 20+ years on world stages, including Glastonbury, Broadway, and Abbey Road. I play and record with this gear on the road and in my own home studio.'}</p>
+      <span class="guide-author-box-note">${isEs ? 'Criterio de evaluación: he probado cada producto en sesiones reales de grabación y directo, comparándolos con mi equipo de referencia en condiciones de estudio casero.' : 'Testing criteria: every product is evaluated in real recording and live sessions, compared against my reference gear in real home-studio conditions.'}</span>
+    </div>
+  </div>`;
 
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
@@ -670,6 +685,15 @@ ${ogMeta}
       </div>
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
       <div class="guide-detail-intro"><p>${intro}</p></div>
+      ${authorBoxHtml}
+      ${guide.verdict ? `<div class="guide-verdict">
+        <div class="guide-verdict-header">
+          <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
+          <span class="verdict-text">${verdict}</span>
+        </div>
+        ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div><div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div></div>' }).join('') + '</div>'; })() : ''}
+      </div>` : ''}
+      ${tocHtml}
       ${guide.comparison ? `<div class="guide-comp-wrap">
         <h2 class="guide-comp-title">${isEs ? '¿Cómo se Comparan?' : 'How Do They Compare?'}</h2>
         <div class="guide-comp-scroll"><table class="guide-comp-table">
@@ -678,13 +702,6 @@ ${ogMeta}
         </table></div>
       </div>` : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
-      <div class="guide-verdict">
-        <div class="guide-verdict-header">
-          <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
-          <span class="verdict-text">${verdict}</span>
-        </div>
-        ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div><div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div></div>' }).join('') + '</div>'; })() : ''}
-      </div>
       ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${conclusion}</div></div>` : ''}
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
