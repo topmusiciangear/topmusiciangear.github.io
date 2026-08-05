@@ -453,11 +453,7 @@ function buildGuidePage(guide, lang, idx) {
     </div>`;
   }).join('');
 
-  const tocItems = guide.sections.map((s, si) => {
-    const h = isEs && s.heading_es ? s.heading_es : s.heading;
-    return `<li class="guide-toc-item"><a class="guide-toc-link" href="#sec-${si + 1}">${h}</a></li>`;
-  }).join('');
-  const tocHtml = guide.sections.length >= 6 ? `<nav class="guide-toc" aria-label="${isEs ? 'Índice de contenidos' : 'Table of contents'}"><span class="guide-toc-title">${isEs ? 'Contenido' : 'On This Page'}</span><ul class="guide-toc-list">${tocItems}</ul></nav>` : '';
+  const tocHtml = '';
 
   const authorBoxHtml = `<div class="guide-author-box">
     <div class="guide-author-box-avatar">${icon('music', 'fa-solid')}</div>
@@ -691,7 +687,6 @@ ${ogMeta}
         </div>
         ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div><div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div></div>' }).join('') + '</div>'; })() : ''}
       </div>` : ''}
-      ${tocHtml}
       ${guide.comparison ? `<div class="guide-comp-wrap">
         <h2 class="guide-comp-title">${isEs ? '¿Cómo se Comparan?' : 'How Do They Compare?'}</h2>
         <div class="guide-comp-scroll"><table class="guide-comp-table">
