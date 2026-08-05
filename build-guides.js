@@ -464,7 +464,7 @@ function buildGuidePage(guide, lang, idx) {
     <div class="guide-author-box-avatar">${icon('music', 'fa-solid')}</div>
     <div class="guide-author-box-body">
       <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago (Cuban3Beats)' : 'By Daniel Carnago (Cuban3Beats)'}</span>
-      <p class="guide-author-box-bio">${isEs ? 'Músico de directo con más de 20 años en escenarios de todo el mundo, de Glastonbury a Broadway y Abbey Road. La mayoría del equipo que recomiendo lo he usado yo mismo, en gira o en mi estudio casero.' : 'Touring musician with 20+ years on stages worldwide, from Glastonbury to Broadway and Abbey Road. Most of the gear I recommend here I have used myself, on tour or in my home studio.'}</p>
+      <p class="guide-author-box-bio">${isEs ? 'Músico de directo y de sesión con más de 20 años sobre los escenarios de todo el mundo. La mayoría del equipo que recomiendo lo he usado yo mismo, de gira o en mi estudio casero.' : 'Touring and session musician with 20+ years on stages around the world. Most of the gear I recommend here I have used myself, on tour or in my home studio.'}</p>
       <span class="guide-author-box-note">${isEs ? 'Cómo pruebo el equipo: seré honesto, no he probado cada producto de esta web. La mayoría los he usado yo mismo en directos y sesiones de grabación; otros los he visto probar a músicos y técnicos de sonido de confianza; y el resto los he investigado a fondo antes de recomendarlos.' : 'How I test gear: to be honest, I have not tested every product on this site. Most I have used myself in live shows and recording sessions; others I have seen tested by musicians and sound techs I trust; the rest I have researched in depth before recommending.'}</span>
     </div>
   </div>`;
