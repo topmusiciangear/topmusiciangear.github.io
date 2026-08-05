@@ -667,7 +667,7 @@ ${ogMeta}
         <h2 class="guide-comp-title">${isEs ? '¿Cómo se Comparan?' : 'How Do They Compare?'}</h2>
         <div class="guide-comp-scroll"><table class="guide-comp-table">
           <thead><tr><th></th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name1_es || guide.featuredSnippet.name1_en : (guide.featuredSnippet ? guide.featuredSnippet.name1_en : '')}</th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name2_es || guide.featuredSnippet.name2_en : (guide.featuredSnippet ? guide.featuredSnippet.name2_en : '')}</th></tr></thead>
-          <tbody>${guide.comparison.rows.map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
+          <tbody>${guide.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating').map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
         </table></div>
       </div>` : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
