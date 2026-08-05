@@ -457,7 +457,7 @@ function buildGuidePage(guide, lang, idx) {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
     return `<li class="guide-toc-item"><a class="guide-toc-link" href="#sec-${si + 1}">${h}</a></li>`;
   }).join('');
-  const tocHtml = tocItems ? `<nav class="guide-toc" aria-label="${isEs ? 'Índice de contenidos' : 'Table of contents'}"><span class="guide-toc-title">${isEs ? 'Contenido' : 'On This Page'}</span><ul class="guide-toc-list">${tocItems}</ul></nav>` : '';
+  const tocHtml = guide.sections.length >= 6 ? `<nav class="guide-toc" aria-label="${isEs ? 'Índice de contenidos' : 'Table of contents'}"><span class="guide-toc-title">${isEs ? 'Contenido' : 'On This Page'}</span><ul class="guide-toc-list">${tocItems}</ul></nav>` : '';
 
   const authorBoxHtml = `<div class="guide-author-box">
     <div class="guide-author-box-avatar">${icon('music', 'fa-solid')}</div>
