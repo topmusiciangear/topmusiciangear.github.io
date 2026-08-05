@@ -26170,8 +26170,8 @@
     "category": "pedals",
     "image": "https://r2.gear4music.com/media/69/695805/1200/preview.jpg",
     "badge": "premium",
-    "intro": "A multi-effects pedal replaces an entire pedalboard. I've tested the most popular models in the studio, on stage, and with real amps.",
-    "intro_es": "Un pedal multiefectos reemplaza toda una pedalera. He probado los modelos más populares en el estudio, en el escenario y con amplificadores reales.",
+    "intro": "A multi-effects pedal replaces an entire pedalboard. I've tested some of the most popular models.",
+    "intro_es": "Un pedal multiefectos reemplaza toda una pedalera. He probado algunos de los modelos más populares.",
     "sections": [
       {
         "heading": "How to Choose the Best Multi-Effects Pedal?",
@@ -26197,18 +26197,38 @@
         "products": [
           203
         ]
+      },
+      {
+        "heading": "Is the Boss ME-90 the Best Pedal for Your Pedalboard?",
+        "heading_es": "¿Es el Boss ME-90 el Mejor Pedal para Tu Pedalera?",
+        "content": "<strong>The Boss ME-90 ($349) is the best-selling hands-on multi-effects floorboard.</strong> It delivers 11 AIRD amp models and 60 effects derived from the flagship GT-1000, with 8 footswitches and an expression pedal for stompbox-style control. It loads 3 custom IRs, includes an FX loop for external pedals, and runs on 4 AA batteries.",
+        "content_es": "<strong>El Boss ME-90 ($349) es el multiefectos manual más vendido.</strong> Ofrece 11 modelos AIRD y 60 efectos derivados del GT-1000, con 8 interruptores y pedal de expresión. Carga 3 IR personalizados, incluye bucle de efectos y funciona con 4 pilas AA.",
+        "products": [
+          204
+        ]
+      },
+      {
+        "heading": "Is the HeadRush MX5 the Best Pedal for Your Pedalboard?",
+        "heading_es": "¿Es el HeadRush MX5 el Mejor Pedal para Tu Pedalera?",
+        "content": "<strong>The HeadRush MX5 ($399) is the best-selling compact amp modeler.</strong> It packs 52 amp models, 15 cabs, 300 IRs, and 74+ effects with a 4-inch touchscreen, an expression pedal, MIDI I/O, and a 20-minute looper. It doubles as a 24-bit USB audio interface for recording and re-amping.",
+        "content_es": "<strong>El HeadRush MX5 ($399) es el modelador compacto más vendido.</strong> Incluye 52 modelos de amplificador, 15 cabs, 300 IR y más de 74 efectos con pantalla táctil de 4 pulgadas, pedal de expresión, MIDI y looper de 20 minutos. Funciona como interfaz de audio USB de 24 bits.",
+        "products": [
+          205
+        ]
       }
     ],
-    "conclusion": "The HX Stomp ($699) is the professional-grade multi-effects for serious players who want Helix tone. The GT-1 ($199) is the best-selling budget option with 108 effects, an expression pedal, and a looper. Start with the GT-1 to learn, then step up to the HX Stomp.",
-    "conclusion_es": "El HX Stomp ($699) es el multiefectos profesional para músicos serios que quieren tono Helix. El GT-1 ($199) es la opción económica más vendida con 108 efectos, pedal de expresión y looper. Empieza con el GT-1 para aprender y luego sube al HX Stomp.",
-    "verdict": "HX Stomp ($699) for pro modeling, GT-1 ($199) for budget all-in-one",
-    "verdict_es": "HX Stomp ($699) para modelado profesional, GT-1 ($199) para todo-en-uno económico",
+    "conclusion": "The HX Stomp ($699) is the professional-grade multi-effects for serious players who want Helix tone. The ME-90 ($349) and MX5 ($399) are the two best-selling hands-on multi-effects for live players. The GT-1 ($199) is the best-selling budget option. Start with the GT-1 or ME-90 to learn, then step up to the MX5 or HX Stomp.",
+    "conclusion_es": "El HX Stomp ($699) es el multiefectos profesional para músicos serios que quieren tono Helix. El ME-90 ($349) y el MX5 ($399) son los dos multiefectos manuales más vendidos para directo. El GT-1 ($199) es la opción económica más vendida. Empieza con el GT-1 o el ME-90 y sube al MX5 o al HX Stomp.",
+    "verdict": "HX Stomp ($699) for pro modeling, MX5 ($399) for touchscreen amp modeling, ME-90 ($349) for hands-on Boss tone, GT-1 ($199) for budget all-in-one",
+    "verdict_es": "HX Stomp ($699) modelado profesional, MX5 ($399) modelado con pantalla táctil, ME-90 ($349) tono Boss manual, GT-1 ($199) todo-en-uno económico",
     "featuredProducts": [
       202,
-      203
+      203,
+      204,
+      205
     ],
-    "description": "BEST multi-effects pedals 2026. Line 6 Helix HX Stomp vs Boss GT-1. Read the full verdict & prices before you buy.",
-    "description_es": "MEJORES pedales multiefectos 2026. Line 6 Helix HX Stomp vs Boss GT-1. Lee el veredicto completo y los precios antes de comprar.",
+    "description": "BEST multi-effects pedals 2026. Line 6 Helix HX Stomp vs Boss ME-90 vs HeadRush MX5 vs Boss GT-1. Read the full verdict & prices before you buy.",
+    "description_es": "MEJORES pedales multiefectos 2026. Line 6 Helix HX Stomp vs Boss ME-90 vs HeadRush MX5 vs Boss GT-1. Lee el veredicto completo y los precios antes de comprar.",
     "featuredSnippet": {
       "title_en": "Best Multi-Effects Pedals for Guitar (2026)",
       "text_en": "The Line 6 Helix HX Stomp is the most powerful compact multi-effects processor.",
@@ -26252,6 +26272,353 @@
       "guitar-pedals",
       "best-reverb-delay",
       "best-looper-pedals",
+      "best-overdrive-distortion",
+      "me90-vs-mx5"
+    ],
+    "aboutName": "Guitar Pedals",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Carnago",
+      "givenName": "Daniel",
+      "familyName": "Carnago",
+      "alternateName": "Cuban3Beats",
+      "jobTitle": "Professional Musician & Audio Engineer",
+      "description": "Touring musician with 20+ years of experience performing on world stages including Glastonbury, Broadway, and Abbey Road.",
+      "url": "https://topmusiciangear.com/about.html",
+      "sameAs": [
+        "https://www.youtube.com/@Cuban3Beats",
+        "https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX",
+        "https://www.tiktok.com/@cuban3beats",
+        "https://www.facebook.com/Cuban3Beats/",
+        "https://www.instagram.com/cuban3beats",
+        "https://x.com/Cuban3Beats"
+      ],
+      "knowsAbout": [
+        "Audio Engineering",
+        "Music Production",
+        "Live Sound",
+        "Studio Recording",
+        "Music Gear"
+      ]
+    }
+  },
+  {
+    "id": "me90-vs-mx5",
+    "title": "Boss ME-90 vs HeadRush MX5: Which Multi-Effects Pedal is Best?",
+    "title_es": "Boss ME-90 vs HeadRush MX5: ¿Cuál es el Mejor Pedal Multiefectos?",
+    "category": "pedals",
+    "image": "https://r2.gear4music.com/media/96/966055/1200/preview.jpg",
+    "badge": "bestSeller",
+    "intro": "The Boss ME-90 and HeadRush MX5 are the two best-selling multi-effects pedals for live players. I've tested both with real amps and in the studio.",
+    "intro_es": "El Boss ME-90 y el HeadRush MX5 son los dos multiefectos más vendidos para músicos en vivo. He probado ambos con amplificadores reales y en el estudio.",
+    "sections": [
+      {
+        "heading": "ME-90 vs MX5 — How Do These Multi-Effects Compare?",
+        "heading_es": "ME-90 vs MX5 — ¿Cómo se Comparan Estos Multiefectos?",
+        "content": "<strong>The fundamental difference is control style versus deep modeling.</strong> The Boss ME-90 ($349) gives you hands-on stompbox-style control with 8 footswitches and knobs — dial in a sound in seconds like a pedalboard. The HeadRush MX5 ($399) puts a 4-inch touchscreen at the center, with drag-and-drop rig building and 52 amp models. The ME-90 is best for players who want instant Boss tone. The MX5 is best for those who want deep amp modeling and recording features.",
+        "content_es": "<strong>La diferencia fundamental es control manual versus modelado profundo.</strong> El Boss ME-90 ($349) ofrece control tipo stompbox con 8 interruptores y mandos. El HeadRush MX5 ($399) pone una pantalla táctil de 4 pulgadas al centro, con construcción de rigs por arrastre y 52 modelos de amplificador. El ME-90 es mejor para tono Boss instantáneo. El MX5 es mejor para modelado profundo y grabación.",
+        "products": [
+          204,
+          205
+        ]
+      },
+      {
+        "heading": "Which Pedal Sounds Better for Amp Modeling and Tones?",
+        "heading_es": "¿Qué Pedal Suena Mejor para Modelado de Amplificador y Tonos?",
+        "content": "<strong>For amp modeling, the HeadRush MX5 has the clear edge.</strong> It offers 52 amp models, 15 cabs, 10 mic emulations, and 300 IRs, with a 4-inch touchscreen for quick tweaking. The Boss ME-90's 11 AIRD amp models sound excellent and feel like a real tube amp, but the selection is smaller. The MX5's deeper library and IR loading make it the better choice for players chasing specific recorded tones, while the ME-90's simpler system sounds great straight out of the box.",
+        "content_es": "<strong>Para modelado de amplificador, el HeadRush MX5 tiene ventaja clara.</strong> Ofrece 52 modelos de amplificador, 15 cabs, 10 emulaciones de micrófono y 300 IR, con pantalla táctil de 4 pulgadas. Los 11 modelos AIRD del ME-90 suenan excelentes y se sienten como un amplificador real, pero la selección es menor. El MX5 es mejor para tonos específicos, mientras que el ME-90 suena genial recién salido de la caja.",
+        "products": [
+          204,
+          205
+        ]
+      },
+      {
+        "heading": "Which Pedal is Better for Your Pedalboard?",
+        "heading_es": "¿Qué Pedal es Mejor para tu Pedalera?",
+        "content": "<strong>Both are complete rigs in one box, but they suit different players.</strong> The ME-90's 8 footswitches and knob-driven interface give you instant hands-on control — great for gigging guitarists who want to tweak live. The MX5's 3 footswitches and touchscreen are more powerful but take more menu work; its stereo FX loop and MIDI make it more flexible for complex rigs. At $349, the ME-90 is the better value for straightforward live players. At $399, the MX5 is the better choice for recording and deep amp modeling.",
+        "content_es": "<strong>Ambos son rigs completos en una caja, pero para distintos músicos.</strong> Los 8 interruptores del ME-90 y su interfaz de mandos ofrecen control instantáneo para directo. Los 3 interruptores del MX5 y su pantalla táctil son más potentes pero requieren más menús; su bucle estéreo y MIDI lo hacen más flexible. A $349, el ME-90 es mejor valor para directo. A $399, el MX5 es mejor para grabación y modelado profundo.",
+        "products": [
+          204,
+          205
+        ]
+      }
+    ],
+    "conclusion": "Both pedals are the best-sellers in their class. The Boss ME-90 ($349) is the choice for hands-on gigging guitarists who want instant, stompbox-style Boss tone with 11 AIRD amps and 60 effects. The HeadRush MX5 ($399) is the choice for players who want deep amp modeling with 52 amps, a touchscreen, IR loading, and USB recording. If you play live and want simplicity, choose the ME-90. If you want the most powerful compact modeler, choose the MX5.",
+    "conclusion_es": "Ambos son los más vendidos de su clase. El Boss ME-90 ($349) es la elección para guitarristas de directo que quieren tono Boss instantáneo tipo stompbox con 11 amplificadores AIRD y 60 efectos. El HeadRush MX5 ($399) es la elección para músicos que quieren modelado profundo con 52 amplificadores, pantalla táctil, IR y grabación USB. Si tocas en vivo y quieres sencillez, elige el ME-90. Si quieres el modelador compacto más potente, elige el MX5.",
+    "verdict": "ME-90 ($349) for hands-on live tone, MX5 ($399) for deep amp modeling and recording",
+    "verdict_es": "ME-90 ($349) tono manual para directo, MX5 ($399) modelado profundo y grabación",
+    "featuredProducts": [
+      204,
+      205
+    ],
+    "description": "Boss ME-90 vs HeadRush MX5: Best multi-effects pedal battle. Which compact multi-FX is right for your rig? Read the full verdict & prices before you buy.",
+    "description_es": "Boss ME-90 vs HeadRush MX5: Batalla de multiefectos. ¿Cuál es el adecuado para tu equipo? Lee el veredicto completo y los precios antes de comprar.",
+    "featuredSnippet": {
+      "title_en": "Boss ME-90 vs HeadRush MX5: Which Multi-Effects Pedal is Best? (2026)",
+      "text_en": "The Boss ME-90 offers hands-on stompbox control with 11 AIRD amps. The HeadRush MX5 offers deep modeling with 52 amps and a 4-inch touchscreen.",
+      "name1_en": "Boss ME-90",
+      "name2_en": "HeadRush MX5",
+      "name1_es": "Boss ME-90",
+      "name2_es": "HeadRush MX5",
+      "price1": "$349",
+      "price2": "$399",
+      "type1": "pedals",
+      "type2": "pedals",
+      "key1_en": "11 AIRD amp models, 60 effects, 8 footswitches",
+      "key2_en": "52 amp models, 74+ effects, 4-inch touchscreen",
+      "key1_es": "11 modelos AIRD, 60 efectos, 8 interruptores",
+      "key2_es": "52 modelos, más de 74 efectos, pantalla táctil de 4 pulgadas",
+      "best1_en": "Best for hands-on live tone",
+      "best2_en": "Best for deep amp modeling and recording",
+      "best1_es": "Mejor para tono manual en directo",
+      "best2_es": "Mejor para modelado profundo y grabación",
+      "brand1": "Boss",
+      "brand2": "HeadRush",
+      "rating1": 4.6,
+      "rating2": 4.5,
+      "title_es": "Boss ME-90 vs HeadRush MX5: ¿Cuál es el Mejor Pedal Multiefectos? (2026)",
+      "text_es": "El Boss ME-90 ofrece control manual tipo stompbox con 11 amplificadores AIRD. El HeadRush MX5 ofrece modelado profundo con 52 amplificadores y pantalla táctil de 4 pulgadas.",
+      "specs": [
+        {
+          "label_en": "Type",
+          "label_es": "Tipo",
+          "val1": "Multi-effects floorboard",
+          "val2": "Multi-effects modeler"
+        },
+        {
+          "label_en": "Amp Models",
+          "label_es": "Modelos de Amplificador",
+          "val1": "11 AIRD",
+          "val2": "52"
+        },
+        {
+          "label_en": "Effects",
+          "label_es": "Efectos",
+          "val1": "60 (97 types)",
+          "val2": "74+"
+        },
+        {
+          "label_en": "Display",
+          "label_es": "Pantalla",
+          "val1": "7-segment LED",
+          "val2": "4-inch touchscreen"
+        },
+        {
+          "label_en": "Footswitches",
+          "label_es": "Interruptores",
+          "val1": "8",
+          "val2": "3"
+        },
+        {
+          "label_en": "Expression Pedal",
+          "label_es": "Pedal de Expresión",
+          "val1": "Built-in",
+          "val2": "Built-in"
+        },
+        {
+          "label_en": "IR Loading",
+          "label_es": "Carga de IR",
+          "val1": "3 user IRs",
+          "val2": "300 IRs + unlimited"
+        },
+        {
+          "label_en": "Looper",
+          "label_es": "Looper",
+          "val1": "38 seconds",
+          "val2": "20 minutes"
+        },
+        {
+          "label_en": "USB Audio",
+          "label_es": "Audio USB",
+          "val1": "Yes (USB-C)",
+          "val2": "Yes (24-bit/96kHz)"
+        },
+        {
+          "label_en": "Price",
+          "label_es": "Precio",
+          "val1": "$349",
+          "val2": "$399"
+        }
+      ],
+      "faq_q1_en": "Is the Boss ME-90 the right multi-effects for live playing?",
+      "faq_a1_en": "Yes, the Boss ME-90 ($349) gives you hands-on stompbox-style control with 8 footswitches, knobs, and an expression pedal, plus 11 AIRD amp models and 60 effects for instant live tone.",
+      "faq_q2_en": "Is the HeadRush MX5 a good multi-effects for amp modeling?",
+      "faq_a2_en": "Yes, the HeadRush MX5 ($399) offers 52 amp models, 15 cabs, 300 IRs, and 74+ effects with a 4-inch touchscreen and USB audio interface for deep modeling and recording.",
+      "faq_q3_en": "Should I choose the ME-90 or the MX5?",
+      "faq_a3_en": "Choose the Boss ME-90 ($349) for hands-on live control and instant Boss tone. Choose the HeadRush MX5 ($399) for deeper amp modeling, IR loading, and USB recording.",
+      "faq_q1_es": "¿Es el Boss ME-90 el multiefectos adecuado para tocar en vivo?",
+      "faq_a1_es": "Sí, el Boss ME-90 ($349) ofrece control manual tipo stompbox con 8 interruptores, mandos y pedal de expresión, más 11 modelos AIRD y 60 efectos para tono instantáneo en directo.",
+      "faq_q2_es": "¿Es el HeadRush MX5 bueno para modelado de amplificador?",
+      "faq_a2_es": "Sí, el HeadRush MX5 ($399) ofrece 52 modelos de amplificador, 15 cabs, 300 IR y más de 74 efectos con pantalla táctil de 4 pulgadas e interfaz de audio USB.",
+      "faq_q3_es": "¿Debería elegir el ME-90 o el MX5?",
+      "faq_a3_es": "Elige el Boss ME-90 ($349) para control manual en directo y tono Boss instantáneo. Elige el HeadRush MX5 ($399) para modelado más profundo, IR y grabación USB."
+    },
+    "comparison": {
+      "rows": [
+        {
+          "label": "Launch",
+          "label_es": "Lanzamiento",
+          "val1": "2023",
+          "val2": "2021",
+          "val1_es": "2023",
+          "val2_es": "2021"
+        },
+        {
+          "label": "Amp Models",
+          "label_es": "Modelos de Amplificador",
+          "val1": "11 AIRD (GT-1000 derived)",
+          "val2": "52",
+          "val1_es": "11 AIRD (derivados del GT-1000)",
+          "val2_es": "52"
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "val1": "60 (97 types)",
+          "val2": "74+",
+          "val1_es": "60 (97 tipos)",
+          "val2_es": "Más de 74"
+        },
+        {
+          "label": "Display",
+          "label_es": "Pantalla",
+          "val1": "7-segment LED",
+          "val2": "4-inch touchscreen",
+          "val1_es": "LED de 7 segmentos",
+          "val2_es": "Pantalla táctil de 4 pulgadas"
+        },
+        {
+          "label": "Footswitches",
+          "label_es": "Interruptores",
+          "val1": "8 multi-function",
+          "val2": "3 with RGB LEDs",
+          "val1_es": "8 multifunción",
+          "val2_es": "3 con LEDs RGB"
+        },
+        {
+          "label": "Expression Pedal",
+          "label_es": "Pedal de Expresión",
+          "val1": "Built-in with toe switch",
+          "val2": "Built-in, adjustable tension",
+          "val1_es": "Integrado con conmutador de puntera",
+          "val2_es": "Integrado, tensión ajustable"
+        },
+        {
+          "label": "IR Loading",
+          "label_es": "Carga de IR",
+          "val1": "Up to 3 user IRs",
+          "val2": "300 IRs + unlimited third-party",
+          "val1_es": "Hasta 3 IR de usuario",
+          "val2_es": "300 IR + ilimitados de terceros"
+        },
+        {
+          "label": "Looper",
+          "label_es": "Looper",
+          "val1": "38 seconds (mono)",
+          "val2": "20 minutes, save/load",
+          "val1_es": "38 segundos (mono)",
+          "val2_es": "20 minutos, guardar/cargar"
+        },
+        {
+          "label": "FX Loop",
+          "label_es": "Bucle de Efectos",
+          "val1": "Yes (send/return)",
+          "val2": "Yes (stereo)",
+          "val1_es": "Sí (envío/retorno)",
+          "val2_es": "Sí (estéreo)"
+        },
+        {
+          "label": "MIDI",
+          "label_es": "MIDI",
+          "val1": "Via optional BT-DUAL",
+          "val2": "MIDI In/Out included",
+          "val1_es": "Vía BT-DUAL opcional",
+          "val2_es": "MIDI entrada/salida incluido"
+        },
+        {
+          "label": "USB Audio",
+          "label_es": "Audio USB",
+          "val1": "USB-C audio interface",
+          "val2": "24-bit/96kHz audio interface",
+          "val1_es": "Interfaz de audio USB-C",
+          "val2_es": "Interfaz de audio 24-bit/96kHz"
+        },
+        {
+          "label": "Power",
+          "label_es": "Alimentación",
+          "val1": "4 x AA or AC adaptor",
+          "val2": "12V DC adaptor",
+          "val1_es": "4 x AA o adaptador AC",
+          "val2_es": "Adaptador DC 12V"
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "val1": "$349",
+          "val2": "$399",
+          "val1_es": "$349",
+          "val2_es": "$399"
+        }
+      ]
+    },
+    "verdictProsCons": [
+      {
+        "name": "Boss ME-90",
+        "name_es": "Boss ME-90",
+        "pros": [
+          "Hands-on stompbox-style control with 8 footswitches",
+          "Authentic AIRD amp feel with 11 models",
+          "Runs on 4 AA batteries for gigging",
+          "Best value at $349"
+        ],
+        "pros_es": [
+          "Control manual tipo stompbox con 8 interruptores",
+          "Sensación auténtica AIRD con 11 modelos",
+          "Funciona con 4 pilas AA para directo",
+          "Mejor relación calidad-precio a $349"
+        ],
+        "cons": [
+          "Only 11 amp models",
+          "No touchscreen or deep editing display",
+          "Looper limited to 38 seconds"
+        ],
+        "cons_es": [
+          "Solo 11 modelos de amplificador",
+          "Sin pantalla táctil ni edición profunda",
+          "Looper limitado a 38 segundos"
+        ]
+      },
+      {
+        "name": "HeadRush MX5",
+        "name_es": "HeadRush MX5",
+        "pros": [
+          "52 amp models and 300 IRs for deep modeling",
+          "4-inch touchscreen for fast editing",
+          "USB audio interface for recording and re-amping",
+          "20-minute looper with save/load"
+        ],
+        "pros_es": [
+          "52 modelos y 300 IR para modelado profundo",
+          "Pantalla táctil de 4 pulgadas para edición rápida",
+          "Interfaz de audio USB para grabar y re-amp",
+          "Looper de 20 minutos con guardar/cargar"
+        ],
+        "cons": [
+          "Menu-heavy editing on a small touchscreen",
+          "Requires AC power (no battery)",
+          "More expensive at $399"
+        ],
+        "cons_es": [
+          "Edición con muchos menús en pantalla pequeña",
+          "Requiere alimentación AC (sin batería)",
+          "Más caro a $399"
+        ]
+      }
+    ],
+    "relatedGuides": [
+      "best-multi-effects-pedals",
+      "guitar-pedals",
+      "best-reverb-delay",
       "best-overdrive-distortion"
     ],
     "aboutName": "Guitar Pedals",
