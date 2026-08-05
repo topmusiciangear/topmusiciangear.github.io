@@ -420,7 +420,7 @@ function renderProductCard(id) {
       <div class="guide-product-card-body">
         ${productRatingLine(p)}
         <div class="guide-product-card-title">${title}</div>
-        <div class="guide-product-card-price">${formatPrice(p.price)} <small>(${currentLang === 'es' ? (p.unit_es || p.unit) : p.unit})</small></div>
+        <div class="guide-product-card-price">${formatPrice(p.price)} ${p.unit ? ` <small>(${currentLang === 'es' ? (p.unit_es || p.unit) : p.unit})</small>` : ''}</div>
         <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
         <div class="guide-product-card-stores">${stores}</div>
       </div>
