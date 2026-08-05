@@ -5486,28 +5486,100 @@
           "val2_es": "2024"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Scarlett's Clarity vs SSL's Character",
-          "val2": "SSL's Secret Weapon",
-          "val1_es": "Claridad de la Scarlett vs Carácter de la SSL",
-          "val2_es": "El Arma Secreta de SSL"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Home studio recording",
           "val2": "Home recording with analog character",
-          "val1_es": "Grabación en home studio",
+          "val1_es": "Grabación de home studio",
           "val2_es": "Grabación casera con carácter analógico"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Focusrite",
-          "val2": "SSL",
-          "val1_es": "Focusrite",
-          "val2_es": "SSL"
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "val1": "USB-C (USB 2.0)",
+          "val2": "USB-C (USB 2.0)",
+          "val1_es": "USB-C (USB 2.0)",
+          "val2_es": "USB-C (USB 2.0)"
+        },
+        {
+          "label": "Inputs",
+          "label_es": "Entradas",
+          "val1": "2x combo XLR/TRS mic/line/inst + Air",
+          "val2": "2x combo XLR/TRS mic/line/inst + Legacy 4K",
+          "val1_es": "2x combo XLR/TRS mic/line/inst + Air",
+          "val2_es": "2x combo XLR/TRS mic/line/inst + Legacy 4K"
+        },
+        {
+          "label": "Outputs",
+          "label_es": "Salidas",
+          "val1": "2x TRS monitor + 1x HP",
+          "val2": "4x line out + 2x HP",
+          "val1_es": "2x TRS monitor + 1x HP",
+          "val2_es": "4x line out + 2x HP"
+        },
+        {
+          "label": "Sample Rate",
+          "label_es": "Tasa de Muestreo",
+          "val1": "192 kHz / 24-bit",
+          "val2": "192 kHz / 32-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 32-bit"
+        },
+        {
+          "label": "Preamp Gain",
+          "label_es": "Ganancia de Preamplificador",
+          "val1": "Up to 69 dB",
+          "val2": "64 dB",
+          "val1_es": "Hasta 69 dB",
+          "val2_es": "64 dB"
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "val1": "120 dB (out)",
+          "val2": "116.5 dB (mic) / 120 dB (line out)",
+          "val1_es": "120 dB (out)",
+          "val2_es": "116.5 dB (mic) / 120 dB (line out)"
+        },
+        {
+          "label": "DSP",
+          "label_es": "DSP",
+          "val1": "N/A",
+          "val2": "Legacy 4K",
+          "val1_es": "N/D",
+          "val2_es": "Legacy 4K"
+        },
+        {
+          "label": "MIDI I/O",
+          "label_es": "MIDI I/O",
+          "val1": "No",
+          "val2": "Yes",
+          "val1_es": "No",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Loopback",
+          "label_es": "Loopback",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Bus Powered",
+          "label_es": "Alimentación USB",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "N/A",
+          "val2": "900 g",
+          "val1_es": "N/D",
+          "val2_es": "900 g"
         },
         {
           "label": "Rating",
@@ -5516,46 +5588,6 @@
           "val2": "4.7/5",
           "val1_es": "4.7/5",
           "val2_es": "4.7/5"
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "val1": "2 x Scarlett mic pre",
-          "val2": "2 x SSL 4K legacy pre",
-          "val1_es": "2 x preamp Scarlett",
-          "val2_es": "2 x preamp SSL 4K legacy"
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "116 dB (mic) / 120 dB (output)",
-          "val2": "120 dB",
-          "val1_es": "116 dB (mic) / 120 dB (salida)",
-          "val2_es": "120 dB"
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 32-bit",
-          "val1_es": "192 kHz / 24-bit",
-          "val2_es": "192 kHz / 32-bit"
-        },
-        {
-          "label": "Connection",
-          "label_es": "Conexión",
-          "val1": "USB-C",
-          "val2": "USB-C",
-          "val1_es": "USB-C",
-          "val2_es": "USB-C"
-        },
-        {
-          "label": "DSP Processing",
-          "label_es": "Procesamiento DSP",
-          "val1": "N/A",
-          "val2": "N/A",
-          "val1_es": "N/D",
-          "val2_es": "N/D"
         },
         {
           "label": "Price",
@@ -5811,44 +5843,20 @@
           "val2_es": "1985"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Tracking King",
-          "val2": "The Mixing Master",
-          "val1_es": "El Rey del Seguimiento",
-          "val2_es": "El Maestro de la Mezcla"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "val1": "Closed-back tracking and monitoring",
-          "val2": "Open-back mixing and listening",
-          "val1_es": "Monitoreo cerrado para tracking",
-          "val2_es": "Mezcla y escucha abierta"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Beyerdynamic",
-          "val2": "Beyerdynamic",
-          "val1_es": "Beyerdynamic",
-          "val2_es": "Beyerdynamic"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.7/5",
-          "val2": "4.7/5",
-          "val1_es": "4.7/5",
-          "val2_es": "4.7/5"
-        },
-        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
           "val2": "Open-back",
           "val1_es": "Cerrados",
           "val2_es": "Abiertos"
+        },
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "val1": "Closed-back tracking and monitoring",
+          "val2": "Open-back mixing and listening",
+          "val1_es": "Monitoreo y tracking cerrados",
+          "val2_es": "Mezcla y escucha abiertos"
         },
         {
           "label": "Frequency Response",
@@ -5861,10 +5869,10 @@
         {
           "label": "Impedance",
           "label_es": "Impedancia",
-          "val1": "32 / 80 / 250 Î©",
-          "val2": "80 / 250 Î©",
-          "val1_es": "32 / 80 / 250 Î©",
-          "val2_es": "80 / 250 Î©"
+          "val1": "32 / 80 / 250 Ω",
+          "val2": "80 / 250 Ω",
+          "val1_es": "32 / 80 / 250 Ω",
+          "val2_es": "80 / 250 Ω"
         },
         {
           "label": "Driver",
@@ -5875,12 +5883,44 @@
           "val2_es": "45 mm dinámico"
         },
         {
-          "label": "SPL",
-          "label_es": "SPL",
+          "label": "Sensitivity (SPL)",
+          "label_es": "Sensibilidad (SPL)",
           "val1": "96 dB",
           "val2": "96 dB",
           "val1_es": "96 dB",
           "val2_es": "96 dB"
+        },
+        {
+          "label": "Max Input Power",
+          "label_es": "Potencia Máx. de Entrada",
+          "val1": "100 mW",
+          "val2": "100 mW",
+          "val1_es": "100 mW",
+          "val2_es": "100 mW"
+        },
+        {
+          "label": "Cable",
+          "label_es": "Cable",
+          "val1": "Fixed, 3 m (coiled/straight by variant)",
+          "val2": "Fixed, 3 m + ¼\" adapter",
+          "val1_es": "Fijo, 3 m (espiral/recto según variante)",
+          "val2_es": "Fijo, 3 m + adaptador ¼\""
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "270 g",
+          "val2": "250 g",
+          "val1_es": "270 g",
+          "val2_es": "250 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.7/5",
+          "val2": "4.7/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Price",
@@ -6478,44 +6518,20 @@
           "val2_es": "1991"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Producer's Favorite",
-          "val2": "The Broadcast Standard",
-          "val1_es": "El Favorito de los Productores",
-          "val2_es": "El Estándar de Radiodifusión"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "val1": "All-purpose monitoring",
-          "val2": "Budget mixing and broadcast",
-          "val1_es": "Monitoreo multipropósito",
-          "val2_es": "Mezcla y broadcast económico"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Audio-Technica",
-          "val2": "Sony",
-          "val1_es": "Audio-Technica",
-          "val2_es": "Sony"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.6/5",
-          "val2": "4.5/5",
-          "val1_es": "4.6/5",
-          "val2_es": "4.5/5"
-        },
-        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
           "val2": "Closed-back",
           "val1_es": "Cerrados",
           "val2_es": "Cerrados"
+        },
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "val1": "All-purpose monitoring",
+          "val2": "Budget mixing and broadcast",
+          "val1_es": "Monitoreo multiuso",
+          "val2_es": "Mezcla económica y broadcast"
         },
         {
           "label": "Frequency Response",
@@ -6528,10 +6544,10 @@
         {
           "label": "Impedance",
           "label_es": "Impedancia",
-          "val1": "38 Î©",
-          "val2": "63 Î©",
-          "val1_es": "38 Î©",
-          "val2_es": "63 Î©"
+          "val1": "38 Ω",
+          "val2": "63 Ω",
+          "val1_es": "38 Ω",
+          "val2_es": "63 Ω"
         },
         {
           "label": "Driver",
@@ -6542,12 +6558,44 @@
           "val2_es": "40 mm dinámico"
         },
         {
-          "label": "SPL",
-          "label_es": "SPL",
+          "label": "Sensitivity (SPL)",
+          "label_es": "Sensibilidad (SPL)",
           "val1": "99 dB",
           "val2": "106 dB",
           "val1_es": "99 dB",
           "val2_es": "106 dB"
+        },
+        {
+          "label": "Max Input Power",
+          "label_es": "Potencia Máx. de Entrada",
+          "val1": "1,600 mW",
+          "val2": "1,000 mW",
+          "val1_es": "1,600 mW",
+          "val2_es": "1,000 mW"
+        },
+        {
+          "label": "Cable",
+          "label_es": "Cable",
+          "val1": "Detachable (3 included)",
+          "val2": "Fixed coiled, 3 m",
+          "val1_es": "Desmontable (3 incluidos)",
+          "val2_es": "Fijo en espiral, 3 m"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "285 g",
+          "val2": "230 g",
+          "val1_es": "285 g",
+          "val2_es": "230 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.6/5",
+          "val2": "4.5/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Price",
@@ -7196,33 +7244,97 @@
           "label": "Year",
           "label_es": "Año",
           "val1": "2019",
-          "val2": "2019",
+          "val2": "2020",
           "val1_es": "2019",
-          "val2_es": "2019"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Power of Unison Preamps and Real-Time UAD Processing",
-          "val2": "Rock-Solid Stability, TotalMix FX, and Unmatched Driver Performance",
-          "val1_es": "El Poder de los Preamplificadores Unison y el Procesamiento UAD en Tiempo Real",
-          "val2_es": "Estabilidad Sólida, TotalMix FX y Rendimiento de Driver Inigualable"
+          "val2_es": "2020"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Pro recording with UAD processing",
           "val2": "Professional mobile recording",
-          "val1_es": "Grabación profesional con UAD",
-          "val2_es": "Grabación profesional móvil"
+          "val1_es": "Grabación pro con procesamiento UAD",
+          "val2_es": "Grabación móvil profesional"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Universal Audio",
-          "val2": "RME",
-          "val1_es": "Universal Audio",
-          "val2_es": "RME"
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "val1": "Thunderbolt 3",
+          "val2": "USB 2.0 (USB-C cable)",
+          "val1_es": "Thunderbolt 3",
+          "val2_es": "USB 2.0 (cable USB-C)"
+        },
+        {
+          "label": "Inputs",
+          "label_es": "Entradas",
+          "val1": "2x Unison combo XLR/TRS + 1x Hi-Z + 2x line + ADAT",
+          "val2": "2x XLR mic + 2x line/Hi-Z + ADAT in",
+          "val1_es": "2x Unison combo XLR/TRS + 1x Hi-Z + 2x line + ADAT",
+          "val2_es": "2x XLR mic + 2x line/Hi-Z + ADAT in"
+        },
+        {
+          "label": "Outputs",
+          "label_es": "Salidas",
+          "val1": "2x monitor TRS + 2x line out + 1x HP",
+          "val2": "2x line XLR + 2x HP + ADAT out",
+          "val1_es": "2x monitor TRS + 2x line out + 1x HP",
+          "val2_es": "2x line XLR + 2x HP + ADAT out"
+        },
+        {
+          "label": "Sample Rate",
+          "label_es": "Tasa de Muestreo",
+          "val1": "192 kHz / 24-bit",
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
+        },
+        {
+          "label": "Preamp Gain",
+          "label_es": "Ganancia de Preamplificador",
+          "val1": "+10 to +65 dB (Unison)",
+          "val2": "76 dB in 1 dB steps",
+          "val1_es": "+10 a +65 dB (Unison)",
+          "val2_es": "76 dB en pasos de 1 dB"
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "val1": "127 dB A-wt (out)",
+          "val2": "118 dBA (out)",
+          "val1_es": "127 dB A-wt (out)",
+          "val2_es": "118 dBA (out)"
+        },
+        {
+          "label": "DSP",
+          "label_es": "DSP",
+          "val1": "UAD DUO (2x SHARC)",
+          "val2": "TotalMix FX + SteadyClock FS",
+          "val1_es": "UAD DUO (2x SHARC)",
+          "val2_es": "TotalMix FX + SteadyClock FS"
+        },
+        {
+          "label": "MIDI I/O",
+          "label_es": "MIDI I/O",
+          "val1": "No",
+          "val2": "Yes",
+          "val1_es": "No",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Bus Powered",
+          "label_es": "Alimentación USB",
+          "val1": "No (12V DC included)",
+          "val2": "Yes",
+          "val1_es": "No (incluye 12V DC)",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "2.35 lbs",
+          "val2": "1.5 lbs",
+          "val1_es": "2.35 lbs",
+          "val2_es": "1.5 lbs"
         },
         {
           "label": "Rating",
@@ -7231,46 +7343,6 @@
           "val2": "4.9/5",
           "val1_es": "4.8/5",
           "val2_es": "4.9/5"
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "val1": "2 x Unison mic pre",
-          "val2": "2 x mic pre, 76 dB gain",
-          "val1_es": "2 x preamp Unison",
-          "val2_es": "2 x preamp mic, 76 dB de ganancia"
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "129 dB (monitor output)",
-          "val2": "118 dBA (output)",
-          "val1_es": "129 dB (salida monitor)",
-          "val2_es": "118 dBA (salida)"
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit",
-          "val1_es": "192 kHz / 24-bit",
-          "val2_es": "192 kHz / 24-bit"
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conexión",
-          "val1": "Thunderbolt 3",
-          "val2": "USB 2.0 (bus powered)",
-          "val1_es": "Thunderbolt 3",
-          "val2_es": "USB 2.0 (alimentado por bus)"
-        },
-        {
-          "label": "DSP Processing",
-          "label_es": "Procesamiento DSP",
-          "val1": "UAD DUO / QUAD",
-          "val2": "Yes (TotalMix FX)",
-          "val1_es": "UAD DUO / QUAD",
-          "val2_es": "Sí (TotalMix FX)"
         },
         {
           "label": "Price",
@@ -7522,33 +7594,97 @@
           "label": "Year",
           "label_es": "Año",
           "val1": "2023",
-          "val2": "2022",
+          "val2": "2021",
           "val1_es": "2023",
-          "val2_es": "2022"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Refined All-Rounder with Air Mode",
-          "val2": "Vintage Analog Character with the Vintage Mic Pre Mode",
-          "val1_es": "El Todo Terreno Refinado con Modo Air",
-          "val2_es": "Carácter Analógico Vintage con el Modo Vintage Mic Pre"
+          "val2_es": "2021"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Home studio recording",
           "val2": "Home recording with analog character",
-          "val1_es": "Grabación en home studio",
+          "val1_es": "Grabación de home studio",
           "val2_es": "Grabación casera con carácter analógico"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Focusrite",
-          "val2": "Universal Audio",
-          "val1_es": "Focusrite",
-          "val2_es": "Universal Audio"
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "val1": "USB-C (USB 2.0)",
+          "val2": "USB-C (USB 2.0)",
+          "val1_es": "USB-C (USB 2.0)",
+          "val2_es": "USB-C (USB 2.0)"
+        },
+        {
+          "label": "Inputs",
+          "label_es": "Entradas",
+          "val1": "2x combo XLR/TRS mic/line/inst + Air",
+          "val2": "2x combo XLR/TRS (Vintage pre ch 1)",
+          "val1_es": "2x combo XLR/TRS mic/line/inst + Air",
+          "val2_es": "2x combo XLR/TRS (Vintage pre ch 1)"
+        },
+        {
+          "label": "Outputs",
+          "label_es": "Salidas",
+          "val1": "2x TRS monitor + 1x HP",
+          "val2": "2x line out + 1x HP",
+          "val1_es": "2x TRS monitor + 1x HP",
+          "val2_es": "2x line out + 1x HP"
+        },
+        {
+          "label": "Sample Rate",
+          "label_es": "Tasa de Muestreo",
+          "val1": "192 kHz / 24-bit",
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
+        },
+        {
+          "label": "Preamp Gain",
+          "label_es": "Ganancia de Preamplificador",
+          "val1": "Up to 69 dB",
+          "val2": "55 dB",
+          "val1_es": "Hasta 69 dB",
+          "val2_es": "55 dB"
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "val1": "120 dB (out)",
+          "val2": "115 dB",
+          "val1_es": "120 dB (out)",
+          "val2_es": "115 dB"
+        },
+        {
+          "label": "DSP",
+          "label_es": "DSP",
+          "val1": "N/A",
+          "val2": "Vintage Mic Preamp + 76 compressor",
+          "val1_es": "N/D",
+          "val2_es": "Preamplificador Vintage + compresor 76"
+        },
+        {
+          "label": "MIDI I/O",
+          "label_es": "MIDI I/O",
+          "val1": "No",
+          "val2": "Yes (1-in/1-out)",
+          "val1_es": "No",
+          "val2_es": "Sí (1-in/1-out)"
+        },
+        {
+          "label": "Loopback",
+          "label_es": "Loopback",
+          "val1": "Yes",
+          "val2": "No",
+          "val1_es": "Sí",
+          "val2_es": "No"
+        },
+        {
+          "label": "Bus Powered",
+          "label_es": "Alimentación USB",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
         },
         {
           "label": "Rating",
@@ -7557,46 +7693,6 @@
           "val2": "4.5/5",
           "val1_es": "4.7/5",
           "val2_es": "4.5/5"
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "val1": "2 x Scarlett mic pre",
-          "val2": "1 x Vintage Mic Preamp",
-          "val1_es": "2 x preamp Scarlett",
-          "val2_es": "1 x Preamp Vintage"
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "116 dB (mic) / 120 dB (output)",
-          "val2": "115 dB",
-          "val1_es": "116 dB (mic) / 120 dB (salida)",
-          "val2_es": "115 dB"
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit",
-          "val1_es": "192 kHz / 24-bit",
-          "val2_es": "192 kHz / 24-bit"
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conexión",
-          "val1": "USB-C",
-          "val2": "USB-C",
-          "val1_es": "USB-C",
-          "val2_es": "USB-C"
-        },
-        {
-          "label": "DSP Processing",
-          "label_es": "Procesamiento DSP",
-          "val1": "N/A",
-          "val2": "N/A",
-          "val1_es": "N/D",
-          "val2_es": "N/D"
         },
         {
           "label": "Price",
@@ -7848,34 +7944,98 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2020",
+          "val1": "2021",
           "val2": "2020",
-          "val1_es": "2020",
+          "val1_es": "2021",
           "val2_es": "2020"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Console-Quality Preamps and Advanced Monitoring",
-          "val2": "Benchmark Converters and Hardware Loopback",
-          "val1_es": "Preamplificadores de Calidad de Consola y Monitoreo Avanzado",
-          "val2_es": "Convertidores de Referencia y Loopback por Hardware"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Home studio with console preamps",
           "val2": "Budget home recording",
-          "val1_es": "Home studio con previos de consola",
-          "val2_es": "Grabación casera económica"
+          "val1_es": "Home studio con preamps de consola",
+          "val2_es": "Grabación doméstica económica"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Audient",
-          "val2": "MOTU",
-          "val1_es": "Audient",
-          "val2_es": "MOTU"
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "val1": "USB-C (USB 3.0)",
+          "val2": "USB-C (USB 2.0)",
+          "val1_es": "USB-C (USB 3.0)",
+          "val2_es": "USB-C (USB 2.0)"
+        },
+        {
+          "label": "Inputs",
+          "label_es": "Entradas",
+          "val1": "2x combo XLR + 1x JFET inst + ADAT in",
+          "val2": "2x combo XLR/TRS mic/line/Hi-Z",
+          "val1_es": "2x combo XLR + 1x JFET inst + ADAT in",
+          "val2_es": "2x combo XLR/TRS mic/line/Hi-Z"
+        },
+        {
+          "label": "Outputs",
+          "label_es": "Salidas",
+          "val1": "4x line out + 2x HP",
+          "val2": "2x TRS line + 2x RCA + 1x HP",
+          "val1_es": "4x line out + 2x HP",
+          "val2_es": "2x TRS line + 2x RCA + 1x HP"
+        },
+        {
+          "label": "Sample Rate",
+          "label_es": "Tasa de Muestreo",
+          "val1": "96 kHz / 24-bit",
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "96 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
+        },
+        {
+          "label": "Preamp Gain",
+          "label_es": "Ganancia de Preamplificador",
+          "val1": "58 dB (mic)",
+          "val2": "+60 dB (mic) / +57 dB (line)",
+          "val1_es": "58 dB (mic)",
+          "val2_es": "+60 dB (mic) / +57 dB (line)"
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "val1": "120 dB (ADC) / 125.5 dB (out)",
+          "val2": "120 dB (ESS Sabre32)",
+          "val1_es": "120 dB (ADC) / 125.5 dB (out)",
+          "val2_es": "120 dB (ESS Sabre32)"
+        },
+        {
+          "label": "DSP",
+          "label_es": "DSP",
+          "val1": "N/A (software mixer)",
+          "val2": "N/A (ESS Sabre32 Ultra DAC)",
+          "val1_es": "N/A (software mixer)",
+          "val2_es": "N/A (ESS Sabre32 Ultra DAC)"
+        },
+        {
+          "label": "MIDI I/O",
+          "label_es": "MIDI I/O",
+          "val1": "No",
+          "val2": "Yes (5-pin DIN)",
+          "val1_es": "No",
+          "val2_es": "Sí (DIN 5-pin)"
+        },
+        {
+          "label": "Loopback",
+          "label_es": "Loopback",
+          "val1": "No",
+          "val2": "Yes",
+          "val1_es": "No",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Bus Powered",
+          "label_es": "Alimentación USB",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
         },
         {
           "label": "Rating",
@@ -7884,46 +8044,6 @@
           "val2": "4.6/5",
           "val1_es": "4.7/5",
           "val2_es": "4.6/5"
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "val1": "2 x Audient Class-A pre",
-          "val2": "2 x mic pre",
-          "val1_es": "2 x preamp Clase A Audient",
-          "val2_es": "2 x preamp mic"
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "126 dB (DA)",
-          "val2": "120 dB (ESS Sabre32)",
-          "val1_es": "126 dB (DA)",
-          "val2_es": "120 dB (ESS Sabre32)"
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit",
-          "val1_es": "192 kHz / 24-bit",
-          "val2_es": "192 kHz / 24-bit"
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conexión",
-          "val1": "USB-C",
-          "val2": "USB-C",
-          "val1_es": "USB-C",
-          "val2_es": "USB-C"
-        },
-        {
-          "label": "DSP Processing",
-          "label_es": "Procesamiento DSP",
-          "val1": "N/A",
-          "val2": "N/A",
-          "val1_es": "N/D",
-          "val2_es": "N/D"
         },
         {
           "label": "Price",
@@ -8175,18 +8295,10 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2019",
+          "val1": "2020",
           "val2": "2020",
-          "val1_es": "2019",
+          "val1_es": "2020",
           "val2_es": "2020"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Legendary Drivers and SteadyClock FS Stability",
-          "val2": "ESS Sabre32 Ultra DAC and Hardware Loopback",
-          "val1_es": "Drivers Legendarios y Estabilidad SteadyClock FS",
-          "val2_es": "DAC ESS Sabre32 Ultra y Loopback por Hardware"
         },
         {
           "label": "Best For",
@@ -8194,31 +8306,47 @@
           "val1": "Professional portable recording",
           "val2": "Budget home recording",
           "val1_es": "Grabación portátil profesional",
-          "val2_es": "Grabación casera económica"
+          "val2_es": "Grabación doméstica económica"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "RME",
-          "val2": "MOTU",
-          "val1_es": "RME",
-          "val2_es": "MOTU"
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "val1": "USB 2.0 (USB-C)",
+          "val2": "USB-C (USB 2.0)",
+          "val1_es": "USB 2.0 (USB-C)",
+          "val2_es": "USB-C (USB 2.0)"
         },
         {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.9/5",
-          "val2": "4.6/5",
-          "val1_es": "4.9/5",
-          "val2_es": "4.6/5"
+          "label": "Inputs",
+          "label_es": "Entradas",
+          "val1": "2x XLR mic + 2x line/Hi-Z + ADAT in",
+          "val2": "2x combo XLR/TRS mic/line/Hi-Z",
+          "val1_es": "2x XLR mic + 2x line/Hi-Z + ADAT in",
+          "val2_es": "2x combo XLR/TRS mic/line/Hi-Z"
         },
         {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "val1": "2 x RME mic pre",
-          "val2": "2 x MOTU mic pre",
-          "val1_es": "2 x preamp RME",
-          "val2_es": "2 x preamp MOTU"
+          "label": "Outputs",
+          "label_es": "Salidas",
+          "val1": "2x line XLR + 2x HP + ADAT out",
+          "val2": "2x TRS line + 2x RCA + 1x HP",
+          "val1_es": "2x line XLR + 2x HP + ADAT out",
+          "val2_es": "2x TRS line + 2x RCA + 1x HP"
+        },
+        {
+          "label": "Sample Rate",
+          "label_es": "Tasa de Muestreo",
+          "val1": "192 kHz / 24-bit",
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
+        },
+        {
+          "label": "Preamp Gain",
+          "label_es": "Ganancia de Preamplificador",
+          "val1": "76 dB in 1 dB steps",
+          "val2": "+60 dB (mic) / +57 dB (line)",
+          "val1_es": "76 dB en pasos de 1 dB",
+          "val2_es": "+60 dB (mic) / +57 dB (line)"
         },
         {
           "label": "Dynamic Range",
@@ -8229,28 +8357,52 @@
           "val2_es": "120 dB (ESS Sabre32)"
         },
         {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "val1": "192 kHz / 24-bit",
-          "val2": "192 kHz / 24-bit",
-          "val1_es": "192 kHz / 24-bit",
-          "val2_es": "192 kHz / 24-bit"
+          "label": "DSP",
+          "label_es": "DSP",
+          "val1": "TotalMix FX + SteadyClock FS",
+          "val2": "N/A (ESS Sabre32 Ultra DAC)",
+          "val1_es": "TotalMix FX + SteadyClock FS",
+          "val2_es": "N/A (ESS Sabre32 Ultra DAC)"
         },
         {
-          "label": "Connectivity",
-          "label_es": "Conexión",
-          "val1": "USB 2.0 (USB-C compatible)",
-          "val2": "USB-C",
-          "val1_es": "USB 2.0 (compatible USB-C)",
-          "val2_es": "USB-C"
+          "label": "MIDI I/O",
+          "label_es": "MIDI I/O",
+          "val1": "Yes",
+          "val2": "Yes (5-pin DIN)",
+          "val1_es": "Sí",
+          "val2_es": "Sí (DIN 5-pin)"
         },
         {
-          "label": "Latency (RTL 48kHz/64)",
-          "label_es": "Latencia (RTL 48kHz/64)",
-          "val1": "~2.5 ms",
-          "val2": "~4.5 ms",
-          "val1_es": "~2.5 ms",
-          "val2_es": "~4.5 ms"
+          "label": "Loopback",
+          "label_es": "Loopback",
+          "val1": "Yes (TotalMix FX)",
+          "val2": "Yes (driver)",
+          "val1_es": "Sí (TotalMix FX)",
+          "val2_es": "Sí (driver)"
+        },
+        {
+          "label": "Bus Powered",
+          "label_es": "Alimentación USB",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "680 g",
+          "val2": "1.35 lbs / 0.61 kg",
+          "val1_es": "680 g",
+          "val2_es": "1.35 lbs / 0.61 kg"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.9/5",
+          "val2": "4.6/5",
+          "val1_es": "4.9/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Price",
@@ -9165,44 +9317,20 @@
           "val2_es": "1985"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Reference Standard for Natural Frequency Response",
-          "val2": "The Exciting V-Shape with Treble Energy",
-          "val1_es": "El Estándar de Referencia para Respuesta de Frecuencia Natural",
-          "val2_es": "La Emocionante Forma de V con Energía en Agudos"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "val1": "Critical mixing reference",
-          "val2": "Open-back mixing and listening",
-          "val1_es": "Referencia crítica para mezcla",
-          "val2_es": "Mezcla y escucha abierta"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Sennheiser",
-          "val2": "Beyerdynamic",
-          "val1_es": "Sennheiser",
-          "val2_es": "Beyerdynamic"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.8/5",
-          "val2": "4.7/5",
-          "val1_es": "4.8/5",
-          "val2_es": "4.7/5"
-        },
-        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Open-back",
           "val2": "Open-back",
           "val1_es": "Abiertos",
           "val2_es": "Abiertos"
+        },
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "val1": "Critical mixing reference",
+          "val2": "Open-back mixing and listening",
+          "val1_es": "Referencia crítica de mezcla",
+          "val2_es": "Mezcla y escucha abiertos"
         },
         {
           "label": "Frequency Response",
@@ -9215,10 +9343,10 @@
         {
           "label": "Impedance",
           "label_es": "Impedancia",
-          "val1": "300 Î©",
-          "val2": "80 / 250 Î©",
-          "val1_es": "300 Î©",
-          "val2_es": "80 / 250 Î©"
+          "val1": "300 Ω",
+          "val2": "80 / 250 Ω",
+          "val1_es": "300 Ω",
+          "val2_es": "80 / 250 Ω"
         },
         {
           "label": "Driver",
@@ -9229,12 +9357,44 @@
           "val2_es": "45 mm dinámico"
         },
         {
-          "label": "SPL",
-          "label_es": "SPL",
+          "label": "Sensitivity (SPL)",
+          "label_es": "Sensibilidad (SPL)",
           "val1": "97 dB",
           "val2": "96 dB",
           "val1_es": "97 dB",
           "val2_es": "96 dB"
+        },
+        {
+          "label": "Max Input Power",
+          "label_es": "Potencia Máx. de Entrada",
+          "val1": "200 mW",
+          "val2": "100 mW",
+          "val1_es": "200 mW",
+          "val2_es": "100 mW"
+        },
+        {
+          "label": "Cable",
+          "label_es": "Cable",
+          "val1": "Detachable, 3 m, ¼\"",
+          "val2": "Fixed, 3 m",
+          "val1_es": "Desmontable, 3 m, ¼\"",
+          "val2_es": "Fijo, 3 m"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "260 g",
+          "val2": "250 g",
+          "val1_es": "260 g",
+          "val2_es": "250 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.8/5",
+          "val2": "4.7/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Price",
@@ -9492,44 +9652,20 @@
           "val2_es": "1985"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Detailed and Fun Response for Production",
-          "val2": "Comfortable Workhorse for Long Sessions",
-          "val1_es": "Respuesta Detallada y Divertida para Producción",
-          "val2_es": "Caballo de Batalla Cómodo para Sesiones Largas"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "val1": "All-purpose monitoring",
-          "val2": "Closed-back tracking and monitoring",
-          "val1_es": "Monitoreo multipropósito",
-          "val2_es": "Monitoreo cerrado para tracking"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Audio-Technica",
-          "val2": "Beyerdynamic",
-          "val1_es": "Audio-Technica",
-          "val2_es": "Beyerdynamic"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.6/5",
-          "val2": "4.7/5",
-          "val1_es": "4.6/5",
-          "val2_es": "4.7/5"
-        },
-        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
           "val2": "Closed-back",
           "val1_es": "Cerrados",
           "val2_es": "Cerrados"
+        },
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "val1": "All-purpose monitoring",
+          "val2": "Closed-back tracking and monitoring",
+          "val1_es": "Monitoreo multiuso",
+          "val2_es": "Monitoreo y tracking cerrados"
         },
         {
           "label": "Frequency Response",
@@ -9542,10 +9678,10 @@
         {
           "label": "Impedance",
           "label_es": "Impedancia",
-          "val1": "38 Î©",
-          "val2": "32 / 80 / 250 Î©",
-          "val1_es": "38 Î©",
-          "val2_es": "32 / 80 / 250 Î©"
+          "val1": "38 Ω",
+          "val2": "32 / 80 / 250 Ω",
+          "val1_es": "38 Ω",
+          "val2_es": "32 / 80 / 250 Ω"
         },
         {
           "label": "Driver",
@@ -9556,12 +9692,44 @@
           "val2_es": "45 mm dinámico"
         },
         {
-          "label": "SPL",
-          "label_es": "SPL",
+          "label": "Sensitivity (SPL)",
+          "label_es": "Sensibilidad (SPL)",
           "val1": "99 dB",
           "val2": "96 dB",
           "val1_es": "99 dB",
           "val2_es": "96 dB"
+        },
+        {
+          "label": "Max Input Power",
+          "label_es": "Potencia Máx. de Entrada",
+          "val1": "1,600 mW",
+          "val2": "100 mW",
+          "val1_es": "1,600 mW",
+          "val2_es": "100 mW"
+        },
+        {
+          "label": "Cable",
+          "label_es": "Cable",
+          "val1": "Detachable (3 included)",
+          "val2": "Fixed, 3 m",
+          "val1_es": "Desmontable (3 incluidos)",
+          "val2_es": "Fijo, 3 m"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "285 g",
+          "val2": "270 g",
+          "val1_es": "285 g",
+          "val2_es": "270 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.6/5",
+          "val2": "4.7/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.7/5"
         },
         {
           "label": "Price",
@@ -9819,44 +9987,20 @@
           "val2_es": "1991"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Harman-Tuned Modern Reference for Accurate Mixing",
-          "val2": "The 30-Year Industry Standard for Critical Listening",
-          "val1_es": "La Referencia Moderna Sintonizada por Harman para Mezclas Precisas",
-          "val2_es": "El Estándar de la Industria por 30 Años para Escucha Crítica"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "val1": "Budget mix translation",
-          "val2": "Budget mixing and broadcast",
-          "val1_es": "Traducción de mezcla económica",
-          "val2_es": "Mezcla y broadcast económico"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "AKG",
-          "val2": "Sony",
-          "val1_es": "AKG",
-          "val2_es": "Sony"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.5/5",
-          "val2": "4.5/5",
-          "val1_es": "4.5/5",
-          "val2_es": "4.5/5"
-        },
-        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Closed-back",
           "val2": "Closed-back",
           "val1_es": "Cerrados",
           "val2_es": "Cerrados"
+        },
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "val1": "Budget mix translation",
+          "val2": "Budget mixing and broadcast",
+          "val1_es": "Mezcla económica",
+          "val2_es": "Mezcla económica y broadcast"
         },
         {
           "label": "Frequency Response",
@@ -9869,26 +10013,50 @@
         {
           "label": "Impedance",
           "label_es": "Impedancia",
-          "val1": "32 Î©",
-          "val2": "63 Î©",
-          "val1_es": "32 Î©",
-          "val2_es": "63 Î©"
+          "val1": "32 Ω",
+          "val2": "63 Ω",
+          "val1_es": "32 Ω",
+          "val2_es": "63 Ω"
         },
         {
           "label": "Driver",
           "label_es": "Driver",
           "val1": "50 mm titanium-coated",
           "val2": "40 mm dynamic",
-          "val1_es": "50 mm recubierto de titanio",
+          "val1_es": "50 mm con recubrimiento de titanio",
           "val2_es": "40 mm dinámico"
         },
         {
-          "label": "SPL",
-          "label_es": "SPL",
+          "label": "Sensitivity (SPL)",
+          "label_es": "Sensibilidad (SPL)",
           "val1": "114 dB",
           "val2": "106 dB",
           "val1_es": "114 dB",
           "val2_es": "106 dB"
+        },
+        {
+          "label": "Cable",
+          "label_es": "Cable",
+          "val1": "Detachable (mini-XLR)",
+          "val2": "Fixed coiled, 3 m",
+          "val1_es": "Desmontable (mini-XLR)",
+          "val2_es": "Fijo en espiral, 3 m"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "255 g",
+          "val2": "230 g",
+          "val1_es": "255 g",
+          "val2_es": "230 g"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.5/5",
+          "val2": "4.5/5",
+          "val1_es": "4.5/5",
+          "val2_es": "4.5/5"
         },
         {
           "label": "Price",
@@ -20585,36 +20753,12 @@
           "val2_es": "2020"
         },
         {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "MIDI I/O + Air mode",
-          "val2": "ESS DAC + LCD metering",
-          "val1_es": "MIDI I/O + modo Air",
-          "val2_es": "DAC ESS + medición LCD"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
-          "val1": "Home studio, MIDI hardware, streaming",
+          "val1": "Home studio, streaming",
           "val2": "Audio quality, headphone monitoring, metering",
-          "val1_es": "Home studio, hardware MIDI, streaming",
-          "val2_es": "Calidad de audio, monitoreo auricular, medición"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Focusrite",
-          "val2": "MOTU",
-          "val1_es": "Focusrite",
-          "val2_es": "MOTU"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.7/5",
-          "val2": "4.6/5",
-          "val1_es": "4.7/5",
-          "val2_es": "4.6/5"
+          "val1_es": "Home studio, streaming",
+          "val2_es": "Calidad de audio, monitoreo y medidores"
         },
         {
           "label": "Inputs / Outputs",
@@ -20625,59 +20769,59 @@
           "val2_es": "2 ent / 2 sal"
         },
         {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "120 dB",
-          "val2": "120 dB",
-          "val1_es": "120 dB",
-          "val2_es": "120 dB"
-        },
-        {
-          "label": "Max Sample Rate",
-          "label_es": "Tasa de Muestreo Máx",
-          "val1": "192 kHz",
-          "val2": "192 kHz",
-          "val1_es": "192 kHz",
-          "val2_es": "192 kHz"
+          "label": "Sample Rate",
+          "label_es": "Tasa de Muestreo",
+          "val1": "192 kHz / 24-bit",
+          "val2": "192 kHz / 24-bit",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / 24-bit"
         },
         {
           "label": "Max Gain",
           "label_es": "Ganancia Máxima",
-          "val1": "56 dB",
-          "val2": "57 dB",
-          "val1_es": "56 dB",
-          "val2_es": "57 dB"
+          "val1": "Up to 69 dB",
+          "val2": "+60 dB (mic)",
+          "val1_es": "Hasta 69 dB",
+          "val2_es": "+60 dB (mic)"
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "val1": "120 dB (out)",
+          "val2": "120 dB (ESS Sabre32)",
+          "val1_es": "120 dB (out)",
+          "val2_es": "120 dB (ESS Sabre32)"
         },
         {
           "label": "Phantom Power",
-          "label_es": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "val1": "Yes",
+          "val2": "Yes (individual)",
+          "val1_es": "Sí",
+          "val2_es": "Sí (individual)"
+        },
+        {
+          "label": "MIDI I/O",
+          "label_es": "MIDI I/O",
+          "val1": "No",
+          "val2": "Yes (5-pin DIN)",
+          "val1_es": "No",
+          "val2_es": "Sí (DIN 5-pin)"
+        },
+        {
+          "label": "Loopback",
+          "label_es": "Loopback",
           "val1": "Yes",
           "val2": "Yes",
           "val1_es": "Sí",
           "val2_es": "Sí"
         },
         {
-          "label": "DAC",
-          "label_es": "DAC",
-          "val1": "Standard",
-          "val2": "ESS Sabre32 Ultra",
-          "val1_es": "Estándar",
-          "val2_es": "ESS Sabre32 Ultra"
-        },
-        {
-          "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
-          "val1": "Yes",
-          "val2": "No",
-          "val1_es": "Sí",
-          "val2_es": "No"
-        },
-        {
           "label": "Metering",
-          "label_es": "Medición",
+          "label_es": "Medidores",
           "val1": "LED halo rings",
           "val2": "Full-color LCD",
-          "val1_es": "Anillos LED halo",
+          "val1_es": "Anillos LED",
           "val2_es": "LCD a todo color"
         },
         {
@@ -20685,8 +20829,16 @@
           "label_es": "Chasis",
           "val1": "Metal + plastic sides",
           "val2": "All metal",
-          "val1_es": "Metal + laterales plástico",
-          "val2_es": "Totalmente metálico"
+          "val1_es": "Metal + lados de plástico",
+          "val2_es": "Todo metal"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.7/5",
+          "val2": "4.6/5",
+          "val1_es": "4.7/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Price",
