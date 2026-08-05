@@ -764,6 +764,7 @@ function boldFirstSentence(html) {
 }
 
 function renderGuideDetail(id) {
+  currentGuideId = id;
   var grid = document.getElementById("guideGrid");
   if (!grid) { translatePage(); return; }
   window.location.href = '/guides/' + id + (currentLang === 'es' ? '_es' : '') + '.html';
