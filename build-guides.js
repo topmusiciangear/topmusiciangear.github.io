@@ -885,7 +885,11 @@ buildSitemap();
   var jsVer = cacheVerJsMin + dataVer;
   html = html.replace(/(js\/app\.min\.js\?v=)[a-zA-Z0-9]+/g, '$1' + jsVer);
   html = html.replace(/(js\/app\.js\?v=)[a-zA-Z0-9]+/g, '$1' + cacheVerJs + dataVer);
-  // Sync inline version check variable
+  // Sync inline version check: use fetch-based check against version.txt (cache-busted)
+  // so stale cached index.html still detects version changes and auto-reloads.
+  var verCheck = "<script>(function(){try{history.scrollRestoration='manual'}catch(e){}var a=localStorage.getItem('tmg_v');fetch('/version.txt?t='+Date.now()).then(function(r){return r.text()}).then(function(b){if(!a){localStorage.setItem('tmg_v',b);return}if(a!==b){localStorage.setItem('tmg_v',b);location.reload(true)}}).catch(function(){});window.addEventListener('pageshow',function(e){if(e.persisted)location.reload(true)})})();!function(){var s=location.search.indexOf('_v=');if(s>0&&history.replaceState)history.replaceState({},'','/')}()</script>";
+  html = html.replace(/<script>\(function\(\)\{try\{history\.scrollRestoration='manual'\}catch\(e\)\{\}var v="[a-zA-Z0-9]+"[\s\S]*?<\/script>/, verCheck);
+  // Fallback: if pattern above did not match, replace the version literal only
   html = html.replace(/var v="[a-zA-Z0-9]+"/, 'var v="' + jsVer + '"');
   var links = guides.map(function(g) {
     var enUrl = '/guides/' + g.id + '.html';
