@@ -398,21 +398,21 @@
     "title_es": "Yamaha HS8",
     "brand": "Yamaha",
     "category": "monitors",
-    "price": 698,
+    "price": 399,
     "rating": 4.7,
     "reviews": 12345,
     "badge": "bestSeller",
     "desc": "The industry standard for mixing. 8-inch cone woofer with Kevlar coating, 1-inch dome tweeter, and room control for accurate monitoring.",
     "desc_es": "El estándar de la industria para mezcla. Woofer de cono de 8 pulgadas con revestimiento de Kevlar, tweeter de domo de 1 pulgada y control de sala para monitoreo preciso.",
-    "img": "https://r2.gear4music.com/media/115/1158652/1200/preview.jpg",
+    "img": "https://r2.gear4music.com/media/26/265473/1200/preview.jpg",
     "stores": {
-      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor/QT5",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-HS-8%2Fart-REC0010559-000",
       "amazon": "https://www.amazon.com/dp/B00DCYMVB2",
       "andertons": "https://www.andertons.co.uk/yamaha-hs8-active-studio-monitor-single-unit/"
     },
-    "unit": "per pair",
-    "unit_es": "el par"
+    "unit": "each",
+    "unit_es": "cada uno"
   },
   {
     "id": 20,
@@ -420,7 +420,7 @@
     "title_es": "KRK Rokit 7 G5",
     "brand": "KRK",
     "category": "monitors",
-    "price": 498,
+    "price": 269,
     "rating": 4.5,
     "reviews": 18907,
     "badge": "recommended",
@@ -428,12 +428,12 @@
     "desc_es": "Monitores de estudio bi-amplificados profesionales con drivers de Kevlar, ecualizador DSP y puerto de graves frontal. G5 con procesamiento 32-bit y corrección de sala mejorada.",
     "img": "https://media.sweetwater.com/m/products/image/b8f857008daeWhIEAzYBQagGUuz1YYOhW9nCyQbW.jpg",
     "stores": {
-      "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Single/674T",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKRK-Rokit-RP7-G5%2Fart-REC0016600-000",
       "amazon": "https://www.amazon.co.uk/KRK-Rokit-RP7-G5-Piece/dp/B0CW3VY48H"
     },
-    "unit": "per pair",
-    "unit_es": "el par"
+    "unit": "each",
+    "unit_es": "cada uno"
   },
   {
     "id": 21,
