@@ -11642,34 +11642,74 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2017",
-          "val2": "2021",
-          "val1_es": "2017",
-          "val2_es": "2021"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The RF King with Superior Range",
-          "val2": "Digital Clarity and Smart Assist App",
-          "val1_es": "El Rey de RF con Alcance Superior",
-          "val2_es": "Claridad Digital y App Smart Assist"
+          "val1": "2018 (G4; discontinued, EW-D successor)",
+          "val2": "2021 (EW-D)",
+          "val1_es": "2018 (G4; descontinuado, sucesor EW-D)",
+          "val2_es": "2021 (EW-D)"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Professional live vocal wireless",
           "val2": "Premium digital wireless system",
-          "val1_es": "Inalámbrico vocal profesional",
+          "val1_es": "Inalámbrico vocal profesional en vivo",
           "val2_es": "Sistema inalámbrico digital premium"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Sennheiser",
-          "val2": "Sennheiser",
-          "val1_es": "Sennheiser",
-          "val2_es": "Sennheiser"
+          "label": "Technology",
+          "label_es": "Tecnología",
+          "val1": "Analog UHF (HDX compander)",
+          "val2": "Digital 24-bit / 48 kHz",
+          "val1_es": "UHF analógico (compander HDX)",
+          "val2_es": "Digital 24-bit / 48 kHz"
+        },
+        {
+          "label": "Frequency",
+          "label_es": "Frecuencia",
+          "val1": "UHF (multiple bands, up to 42 MHz tuning / 1,680 freqs)",
+          "val2": "UHF (56 MHz tuning, equidistant grid, up to 90 channels)",
+          "val1_es": "UHF (múltiples bandas, hasta 42 MHz de sintonía / 1,680 frecuencias)",
+          "val2_es": "UHF (56 MHz de sintonía, rejilla equidistante, hasta 90 canales)"
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "val1": ">110 dB (S/N)",
+          "val2": "134 dB (digital, 24-bit)",
+          "val1_es": "(S/N) >110 dB",
+          "val2_es": "134 dB (digital, 24-bit)"
+        },
+        {
+          "label": "Transmission Range",
+          "label_es": "Alcance de Transmisión",
+          "val1": "Up to 330 ft (100 m)",
+          "val2": "Up to 330 ft (100 m)",
+          "val1_es": "Hasta 330 pies (100 m)",
+          "val2_es": "Hasta 330 pies (100 m)"
+        },
+        {
+          "label": "Latency",
+          "label_es": "Latencia",
+          "val1": "N/A (analog)",
+          "val2": "1.9 ms",
+          "val1_es": "N/A (analógica)",
+          "val2_es": "1.9 ms"
+        },
+        {
+          "label": "Encryption",
+          "label_es": "Cifrado",
+          "val1": "No",
+          "val2": "No",
+          "val1_es": "No",
+          "val2_es": "No"
+        },
+        {
+          "label": "Mic Included",
+          "label_es": "Micrófono Incluido",
+          "val1": "E 935 (dynamic cardioid)",
+          "val2": "ME 2 lavalier (omni) + MMD 835 (cardioid)",
+          "val1_es": "E 935 (dinámico cardioide)",
+          "val2_es": "ME 2 lavalier (omnidireccional) + MMD 835 (cardioide)"
         },
         {
           "label": "Rating",
@@ -11678,38 +11718,6 @@
           "val2": "4.6/5",
           "val1_es": "4.7/5",
           "val2_es": "4.6/5"
-        },
-        {
-          "label": "Frequency",
-          "label_es": "Frecuencia",
-          "val1": "UHF (multiple bands)",
-          "val2": "UHF (U1/5 band)",
-          "val1_es": "UHF (múltiples bandas)",
-          "val2_es": "UHF (banda U1/5)"
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "val1": "> 110 dB",
-          "val2": "134 dB",
-          "val1_es": "> 110 dB",
-          "val2_es": "134 dB"
-        },
-        {
-          "label": "Transmission Range",
-          "label_es": "Rango de transmisión",
-          "val1": "Up to 330 ft",
-          "val2": "Up to 330 ft",
-          "val1_es": "Up to 330 ft",
-          "val2_es": "Up to 330 ft"
-        },
-        {
-          "label": "Mic Included",
-          "label_es": "Micrófono incluido",
-          "val1": "E 935 (dynamic cardioid)",
-          "val2": "MD 835 + ME 2 (cardioid + omni)",
-          "val1_es": "E 935 (dinámico cardioide)",
-          "val2_es": "MD 835 + ME 2 (cardioide + omnidireccional)"
         },
         {
           "label": "Price",
@@ -12542,9 +12550,9 @@
       "rating1": 4.6,
       "rating2": 4.5,
       "faq_q1_en": "Should I buy the Fender Player Stratocaster or the Yamaha Pacifica 112V?",
-      "faq_a1_en": "Buy the Player Stratocaster ($849) if you want a genuine Fender with an alder body, real single-coils and a 2-point tremolo, and you plan to keep playing for years. Buy the Pacifica 112V ($349) if you want the best value — HSS pickups with coil-split give you remarkable versatility at a third of the price. The Player is the long-term investment; the Pacifica is the smart starter.",
+      "faq_a1_en": "Buy the Player Stratocaster ($799) if you want a genuine Fender with an alder body, real single-coils and a 2-point tremolo, and you plan to keep playing for years. Buy the Pacifica 112V ($359) if you want the best value — HSS pickups with coil-split give you remarkable versatility at a third of the price. The Player is the long-term investment; the Pacifica is the smart starter.",
       "faq_q2_en": "What is the difference between the Player Stratocaster and the Pacifica 112V?",
-      "faq_a2_en": "The Player Stratocaster ($849) has an alder body, three single-coil pickups, a 2-point tremolo and a modern C neck with rolled edges. The Yamaha Pacifica 112V ($349) has an HSS pickup layout with a coil-split humbucker, a vintage-style tremolo and a slightly thinner alder body. The Fender gives you the classic Strat sound and better hardware; the Pacifica gives you humbucker power and coil-split versatility for far less.",
+      "faq_a2_en": "The Player Stratocaster ($799) has an alder body, three single-coil pickups, a 2-point tremolo and a modern C neck with rolled edges. The Yamaha Pacifica 112V ($359) has an HSS pickup layout with a coil-split humbucker, a vintage-style tremolo and a slightly thinner alder body. The Fender gives you the classic Strat sound and better hardware; the Pacifica gives you humbucker power and coil-split versatility for far less.",
       "specs": [
         {
           "label_es": "Cuerpo",
@@ -12586,19 +12594,19 @@
       "key1_es": "Sonido Fender Clásico con Construcción Mexicana",
       "key2_es": "Configuración HSS con Coil-Split",
       "faq_q1_es": "¿Debería comprar la Fender Player Stratocaster o la Yamaha Pacifica 112V?",
-      "faq_a1_es": "Compra la Player Stratocaster ($849) si quieres una Fender auténtica con cuerpo de aliso, single-coils reales y tremolo de 2 puntos, y piensas seguir tocando durante años. Compra la Pacifica 112V ($349) si quieres la mejor relación calidad-precio — pastillas HSS con coil-split te dan una versatilidad notable a un tercio del precio. La Player es la inversión a largo plazo; la Pacifica es el inicio inteligente.",
+      "faq_a1_es": "Compra la Player Stratocaster ($799) si quieres una Fender auténtica con cuerpo de aliso, single-coils reales y tremolo de 2 puntos, y piensas seguir tocando durante años. Compra la Pacifica 112V ($359) si quieres la mejor relación calidad-precio — pastillas HSS con coil-split te dan una versatilidad notable a un tercio del precio. La Player es la inversión a largo plazo; la Pacifica es el inicio inteligente.",
       "faq_q2_es": "¿Cuál es la diferencia entre la Player Stratocaster y la Pacifica 112V?",
-      "faq_a2_es": "La Player Stratocaster ($849) tiene cuerpo de aliso, tres pastillas single-coil, tremolo de 2 puntos y mástil C moderno con bordes redondeados. La Yamaha Pacifica 112V ($349) tiene configuración HSS con humbucker de coil-split, tremolo estilo vintage y cuerpo de aliso algo más fino. La Fender te da el sonido Strat clásico y mejor hardware; la Pacifica te da potencia humbucker y versatilidad de coil-split por mucho menos.",
+      "faq_a2_es": "La Player Stratocaster ($799) tiene cuerpo de aliso, tres pastillas single-coil, tremolo de 2 puntos y mástil C moderno con bordes redondeados. La Yamaha Pacifica 112V ($359) tiene configuración HSS con humbucker de coil-split, tremolo estilo vintage y cuerpo de aliso algo más fino. La Fender te da el sonido Strat clásico y mejor hardware; la Pacifica te da potencia humbucker y versatilidad de coil-split por mucho menos.",
       "faq_q3_en": "Which guitar has a better neck for a beginner?",
-      "faq_a3_en": "Both are comfortable, but the Pacifica 112V ($349) has a slim, fast C-shaped neck that is very beginner-friendly and easy to reach across. The Player Stratocaster ($849) has a deeper modern C profile that feels more substantial in the hand and is better for players who are already growing. If you are just starting out, the Pacifica’s slimmer neck is easier to learn on; the Player rewards you as your playing develops.",
+      "faq_a3_en": "Both are comfortable, but the Pacifica 112V ($359) has a slim, fast C-shaped neck that is very beginner-friendly and easy to reach across. The Player Stratocaster ($799) has a deeper modern C profile that feels more substantial in the hand and is better for players who are already growing. If you are just starting out, the Pacifica’s slimmer neck is easier to learn on; the Player rewards you as your playing develops.",
       "faq_q4_en": "Is the Fender Player Stratocaster worth $500 more than the Pacifica?",
-      "faq_a4_en": "If you know you will keep playing for years, yes. The Player Stratocaster ($849) is a genuine Fender with a proper alder body, real single-coils and a 2-point tremolo that the Pacifica ($349) cannot match, and it will hold value and feel like a lifetime instrument. The Pacifica 112V is the smart value pick — its HSS pickups and coil-split give it remarkable versatility at a third of the price. Buy the Fender if the guitar is a long-term investment; buy the Pacifica if you are still finding your style.",
+      "faq_a4_en": "If you know you will keep playing for years, yes. The Player Stratocaster ($799) is a genuine Fender with a proper alder body, real single-coils and a 2-point tremolo that the Pacifica ($359) cannot match, and it will hold value and feel like a lifetime instrument. The Pacifica 112V is the smart value pick — its HSS pickups and coil-split give it remarkable versatility at a third of the price. Buy the Fender if the guitar is a long-term investment; buy the Pacifica if you are still finding your style.",
       "faq_q5_en": "Which guitar has better tuning stability and hardware quality?",
       "faq_a5_en": "The Fender Player Stratocaster has a 6-saddle synchronized tremolo bridge and sealed tuning machines that provide excellent tuning stability. The Yamaha Pacifica 112V uses a vintage-style tremolo with die-cast tuners that are reliable but less precise. For tuning stability, the Player Stratocaster has the edge.",
       "faq_q3_es": "¿Qué guitarra tiene mejor mástil para un principiante?",
-      "faq_a3_es": "Ambas son cómodas, pero la Pacifica 112V ($349) tiene un mástil en C fino y rápido muy amigable para principiantes y fácil de alcanzar. La Player Stratocaster ($849) tiene un perfil C moderno más profundo que se siente más sustancial en la mano y es mejor para músicos que ya están creciendo. Si estás empezando, el mástil más fino de la Pacifica es más fácil de aprender; la Player te recompensa a medida que tu forma de tocar se desarrolla.",
+      "faq_a3_es": "Ambas son cómodas, pero la Pacifica 112V ($359) tiene un mástil en C fino y rápido muy amigable para principiantes y fácil de alcanzar. La Player Stratocaster ($799) tiene un perfil C moderno más profundo que se siente más sustancial en la mano y es mejor para músicos que ya están creciendo. Si estás empezando, el mástil más fino de la Pacifica es más fácil de aprender; la Player te recompensa a medida que tu forma de tocar se desarrolla.",
       "faq_q4_es": "¿Merece la pena la Fender Player Stratocaster $500 más que la Pacifica?",
-      "faq_a4_es": "Si sabes que seguirás tocando durante años, sí. La Player Stratocaster ($849) es una Fender de verdad con cuerpo de aliso, single-coils reales y un tremolo de 2 puntos que la Pacifica ($349) no puede igualar, y mantendrá valor y se sentirá como un instrumento para toda la vida. La Pacifica 112V es la elección de valor — sus pastillas HSS y coil-split le dan una versatilidad notable a un tercio del precio. Compra la Fender si la guitarra es una inversión a largo plazo; compra la Pacifica si todavía estás encontrando tu estilo.",
+      "faq_a4_es": "Si sabes que seguirás tocando durante años, sí. La Player Stratocaster ($799) es una Fender de verdad con cuerpo de aliso, single-coils reales y un tremolo de 2 puntos que la Pacifica ($359) no puede igualar, y mantendrá valor y se sentirá como un instrumento para toda la vida. La Pacifica 112V es la elección de valor — sus pastillas HSS y coil-split le dan una versatilidad notable a un tercio del precio. Compra la Fender si la guitarra es una inversión a largo plazo; compra la Pacifica si todavía estás encontrando tu estilo.",
       "faq_q5_es": "¿Qué guitarra tiene mejor estabilidad de afinación y calidad de hardware?",
       "faq_a5_es": "La Fender Player Stratocaster tiene puente trémolo sincronizado de 6 selletas y clavijeros sellados con excelente estabilidad. La Yamaha Pacifica 112V usa trémolo estilo vintage con afinadores fundidos. Para estabilidad, la Player Stratocaster es mejor."
     },
@@ -12607,34 +12615,82 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2018",
-          "val2": "2016",
-          "val1_es": "2018",
-          "val2_es": "2016"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Iconic Design with Modern Playability",
-          "val2": "The Budget Guitar That Beats Its Price",
-          "val1_es": "Diseño Icónico con Tocabilidad Moderna",
-          "val2_es": "La Guitarra Económica que Supera Su Precio"
+          "val1": "2018 (Player II 2024)",
+          "val2": "2016 (current gen)",
+          "val1_es": "2018 (Player II 2024)",
+          "val2_es": "2016 (gen actual)"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Versatile Strat for all levels",
           "val2": "Best beginner electric guitar",
-          "val1_es": "Strat versátil para todos",
+          "val1_es": "Strat versátil para todos los niveles",
           "val2_es": "Mejor guitarra eléctrica principiante"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Fender",
-          "val2": "Yamaha",
-          "val1_es": "Fender",
-          "val2_es": "Yamaha"
+          "label": "Body",
+          "label_es": "Cuerpo",
+          "val1": "Alder",
+          "val2": "Alder",
+          "val1_es": "Alder",
+          "val2_es": "Alder"
+        },
+        {
+          "label": "Neck",
+          "label_es": "Mástil",
+          "val1": "Maple, Modern C",
+          "val2": "Maple, C",
+          "val1_es": "Maple, Modern C",
+          "val2_es": "Maple, C"
+        },
+        {
+          "label": "Fretboard",
+          "label_es": "Diapasón",
+          "val1": "Rosewood or maple, 9.5\" radius",
+          "val2": "Rosewood, 13.75\" radius",
+          "val1_es": "Palo rosa o arce, radio 9.5\"",
+          "val2_es": "Palo rosa, radio 13.75\""
+        },
+        {
+          "label": "Frets",
+          "label_es": "Trastes",
+          "val1": "22 medium-jumbo",
+          "val2": "22 medium",
+          "val1_es": "22 medium-jumbo",
+          "val2_es": "22 medium"
+        },
+        {
+          "label": "Nut Width",
+          "label_es": "Ancho de cejuela",
+          "val1": "1.65\" (42mm)",
+          "val2": "1.614\" (41mm)",
+          "val1_es": "1.65\" (42mm)",
+          "val2_es": "1.614\" (41mm)"
+        },
+        {
+          "label": "Pickups",
+          "label_es": "Pastillas",
+          "val1": "3x Player Alnico V single-coil",
+          "val2": "HSS (Alnico V humbucker + 2 single-coil)",
+          "val1_es": "3x Player Alnico V single-coil",
+          "val2_es": "HSS (humbucker Alnico V + 2 single-coil)"
+        },
+        {
+          "label": "Bridge",
+          "label_es": "Puente",
+          "val1": "2-point synchronized tremolo",
+          "val2": "Vintage-style tremolo",
+          "val1_es": "Tremolo sincronizado 2 puntos",
+          "val2_es": "Tremolo estilo vintage"
+        },
+        {
+          "label": "Scale Length",
+          "label_es": "Longitud de escala",
+          "val1": "25.5\"",
+          "val2": "25.5\"",
+          "val1_es": "25.5\"",
+          "val2_es": "25.5\""
         },
         {
           "label": "Rating",
@@ -12645,52 +12701,12 @@
           "val2_es": "4.5/5"
         },
         {
-          "label": "Body",
-          "label_es": "Cuerpo",
-          "val1": "Alder",
-          "val2": "Alder",
-          "val1_es": "Aliso",
-          "val2_es": "Aliso"
-        },
-        {
-          "label": "Neck",
-          "label_es": "Mástil",
-          "val1": "Maple Modern C",
-          "val2": "Maple",
-          "val1_es": "Arce Moderno C",
-          "val2_es": "Arce"
-        },
-        {
-          "label": "Pickups",
-          "label_es": "Pastillas",
-          "val1": "3 x Player Alnico V Single-Coil",
-          "val2": "HSS (1 humbucker + 2 single-coil)",
-          "val1_es": "3 x Single-Coil Alnico V Player",
-          "val2_es": "HSS (1 humbucker + 2 single-coil)"
-        },
-        {
-          "label": "Fretboard",
-          "label_es": "Diapasón",
-          "val1": "Rosewood or maple",
-          "val2": "Rosewood",
-          "val1_es": "Palo de rosa o arce",
-          "val2_es": "Palo de rosa"
-        },
-        {
-          "label": "Frets",
-          "label_es": "Trastes",
-          "val1": "22",
-          "val2": "22",
-          "val1_es": "22",
-          "val2_es": "22"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$849",
-          "val2": "$349",
-          "val1_es": "$849",
-          "val2_es": "$349"
+          "val1": "$799",
+          "val2": "$359",
+          "val1_es": "$799",
+          "val2_es": "$359"
         }
       ]
     },
@@ -12934,18 +12950,10 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2020",
-          "val2": "1952",
-          "val1_es": "2020",
-          "val2_es": "1952"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Versatility and Modern Refinement",
-          "val2": "Power, Sustain, and Legendary Humbucker Tone",
-          "val1_es": "Versatilidad y Refinamiento Moderno",
-          "val2_es": "Potencia, Sustain y el Sonido Legendario de Humbucker"
+          "val1": "2020 (American Pro II)",
+          "val2": "2019 (Standard '50s)",
+          "val1_es": "2020 (American Pro II)",
+          "val2_es": "2019 (Standard '50s)"
         },
         {
           "label": "Best For",
@@ -12956,12 +12964,68 @@
           "val2_es": "Rock clásico y blues"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Fender",
-          "val2": "Gibson",
-          "val1_es": "Fender",
-          "val2_es": "Gibson"
+          "label": "Body",
+          "label_es": "Cuerpo",
+          "val1": "Alder",
+          "val2": "Mahogany with carved maple top",
+          "val1_es": "Aliso",
+          "val2_es": "Caoba con tapa de arce tallada"
+        },
+        {
+          "label": "Neck",
+          "label_es": "Mástil",
+          "val1": "Maple, Deep C",
+          "val2": "Mahogany, 50s Vintage",
+          "val1_es": "Maple, Deep C",
+          "val2_es": "Mahogany, 50s Vintage"
+        },
+        {
+          "label": "Fretboard",
+          "label_es": "Diapasón",
+          "val1": "Rosewood or maple, 9.5\" radius",
+          "val2": "Rosewood (Indian), 12\" radius",
+          "val1_es": "Palo rosa o arce, radio 9.5\"",
+          "val2_es": "Palo rosa (indio), radio 12\""
+        },
+        {
+          "label": "Frets",
+          "label_es": "Trastes",
+          "val1": "22 narrow-tall",
+          "val2": "22 medium-jumbo",
+          "val1_es": "22 narrow-tall",
+          "val2_es": "22 medium-jumbo"
+        },
+        {
+          "label": "Nut Width",
+          "label_es": "Ancho de cejuela",
+          "val1": "1.685\" (42.8mm)",
+          "val2": "1.695\" (43.05mm)",
+          "val1_es": "1.685\" (42.8mm)",
+          "val2_es": "1.695\" (43.05mm)"
+        },
+        {
+          "label": "Pickups",
+          "label_es": "Pastillas",
+          "val1": "3x V-Mod II single-coil",
+          "val2": "Burstbucker 1 + Burstbucker 2 (Alnico II)",
+          "val1_es": "3x V-Mod II single-coil",
+          "val2_es": "Burstbucker 1 + Burstbucker 2 (Alnico II)"
+        },
+        {
+          "label": "Bridge",
+          "label_es": "Puente",
+          "val1": "2-point tremolo, steel block",
+          "val2": "ABR-1 Tune-O-Matic + stop bar",
+          "val1_es": "Tremolo 2 puntos, bloque de acero",
+          "val2_es": "ABR-1 Tune-O-Matic + stop bar"
+        },
+        {
+          "label": "Scale Length",
+          "label_es": "Longitud de escala",
+          "val1": "25.5\"",
+          "val2": "24.75\"",
+          "val1_es": "25.5\"",
+          "val2_es": "24.75\""
         },
         {
           "label": "Rating",
@@ -12972,52 +13036,12 @@
           "val2_es": "4.9/5"
         },
         {
-          "label": "Body",
-          "label_es": "Cuerpo",
-          "val1": "Alder",
-          "val2": "Mahogany with maple top",
-          "val1_es": "Aliso",
-          "val2_es": "Caoba con tapa de arce"
-        },
-        {
-          "label": "Neck",
-          "label_es": "Mástil",
-          "val1": "Maple Deep C",
-          "val2": "Mahogany SlimTaper",
-          "val1_es": "Arce Deep C",
-          "val2_es": "Caoba SlimTaper"
-        },
-        {
-          "label": "Pickups",
-          "label_es": "Pastillas",
-          "val1": "3 x V-Mod II Single-Coil",
-          "val2": "2 x Burstbucker",
-          "val1_es": "3 x Single-Coil V-Mod II",
-          "val2_es": "2 x Burstbucker"
-        },
-        {
-          "label": "Fretboard",
-          "label_es": "Diapasón",
-          "val1": "Rosewood or maple",
-          "val2": "Rosewood",
-          "val1_es": "Palo de rosa o arce",
-          "val2_es": "Palo de rosa"
-        },
-        {
-          "label": "Frets",
-          "label_es": "Trastes",
-          "val1": "22",
-          "val2": "22",
-          "val1_es": "22",
-          "val2_es": "22"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$1.8k",
-          "val2": "$2.7k",
-          "val1_es": "$1.8k",
-          "val2_es": "$2.7k"
+          "val1": "$1,569",
+          "val2": "$2,799",
+          "val1_es": "$1,569",
+          "val2_es": "$2,799"
         }
       ]
     },
@@ -13255,18 +13279,10 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "1931",
-          "val2": "1998",
-          "val1_es": "1931",
-          "val2_es": "1998"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Dreadnought That Defined Acoustic Music",
-          "val2": "Modern Grand Auditorium with Expression System",
-          "val1_es": "El Dreadnought que Definió la Música Acústica",
-          "val2_es": "Grand Auditorium Moderno con Expression System"
+          "val1": "1931 (2025 refresh)",
+          "val2": "1998 (Next Gen 2026)",
+          "val1_es": "1931 (actualización 2025)",
+          "val2_es": "1998 (Next Gen 2026)"
         },
         {
           "label": "Best For",
@@ -13277,12 +13293,76 @@
           "val2_es": "Fingerstyle y composición"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Martin",
-          "val2": "Taylor",
-          "val1_es": "Martin",
-          "val2_es": "Taylor"
+          "label": "Body Shape",
+          "label_es": "Forma de cuerpo",
+          "val1": "Dreadnought",
+          "val2": "Grand Auditorium",
+          "val1_es": "Dreadnought",
+          "val2_es": "Grand Auditorium"
+        },
+        {
+          "label": "Top",
+          "label_es": "Tapa",
+          "val1": "Solid Sitka spruce",
+          "val2": "Solid Sitka spruce",
+          "val1_es": "Tapa sólida de pícea Sitka",
+          "val2_es": "Tapa sólida de pícea Sitka"
+        },
+        {
+          "label": "Back & Sides",
+          "label_es": "Fondo y aros",
+          "val1": "Solid East India rosewood",
+          "val2": "Solid sapele",
+          "val1_es": "Fondo y aros sólidos de palo rosa de India",
+          "val2_es": "Fondo y aros sólidos de sapeli"
+        },
+        {
+          "label": "Neck",
+          "label_es": "Mástil",
+          "val1": "Select hardwood, Modified Low Oval",
+          "val2": "Neo-tropical mahogany, Standard Carve",
+          "val1_es": "Madera selecta, Modified Low Oval",
+          "val2_es": "Caoba neo-tropical, Standard Carve"
+        },
+        {
+          "label": "Fretboard",
+          "label_es": "Diapasón",
+          "val1": "Ebony",
+          "val2": "West African Crelicam ebony",
+          "val1_es": "Ébano",
+          "val2_es": "Ébano Crelicam de África occidental"
+        },
+        {
+          "label": "Frets",
+          "label_es": "Trastes",
+          "val1": "20",
+          "val2": "20",
+          "val1_es": "20",
+          "val2_es": "20"
+        },
+        {
+          "label": "Nut Width",
+          "label_es": "Ancho de cejuela",
+          "val1": "1.75\"",
+          "val2": "1.75\"",
+          "val1_es": "1.75\"",
+          "val2_es": "1.75\""
+        },
+        {
+          "label": "Scale Length",
+          "label_es": "Longitud de escala",
+          "val1": "25.4\"",
+          "val2": "25.5\"",
+          "val1_es": "25.4\"",
+          "val2_es": "25.5\""
+        },
+        {
+          "label": "Electronics",
+          "label_es": "Electrónica",
+          "val1": "None (acoustic)",
+          "val2": "Claria pickup system",
+          "val1_es": "Ninguna (acústica)",
+          "val2_es": "Sistema de pastilla Claria"
         },
         {
           "label": "Rating",
@@ -13293,44 +13373,12 @@
           "val2_es": "4.7/5"
         },
         {
-          "label": "Top",
-          "label_es": "Tapa",
-          "val1": "Solid Sitka spruce",
-          "val2": "Solid Sitka spruce",
-          "val1_es": "Pícea sólida de Sitka",
-          "val2_es": "Pícea sólida de Sitka"
-        },
-        {
-          "label": "Back & Sides",
-          "label_es": "Fondo y aros",
-          "val1": "Solid East India rosewood",
-          "val2": "Tasmania blackwood",
-          "val1_es": "Palo de rosa sólido de la India Oriental",
-          "val2_es": "Madera negra de Tasmania"
-        },
-        {
-          "label": "Neck",
-          "label_es": "Mástil",
-          "val1": "Mahogany",
-          "val2": "Mahogany",
-          "val1_es": "Caoba",
-          "val2_es": "Caoba"
-        },
-        {
-          "label": "Fretboard",
-          "label_es": "Diapasón",
-          "val1": "Ebony",
-          "val2": "Ebony",
-          "val1_es": "Ébano",
-          "val2_es": "Ébano"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$3.0k",
-          "val2": "$1.9k",
-          "val1_es": "$3.0k",
-          "val2_es": "$1.9k"
+          "val1": "$3,099",
+          "val2": "$2,499",
+          "val1_es": "$3,099",
+          "val2_es": "$2,499"
         }
       ]
     },
@@ -13437,8 +13485,8 @@
     "category": "daw",
     "image": "https://r2.gear4music.com/media/124/1247648/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Ableton Live 12 Suite and FL Studio Producer Edition are two of the most powerful DAWs for music production.",
-    "intro_es": "Ableton Live 12 Suite y FL Studio Producer Edition son dos de los DAWs más potentes para la producción musical.",
+    "intro": "Ableton Live 12 Suite and FL Studio All Plugins Edition are two of the most powerful DAWs for music production.",
+    "intro_es": "Ableton Live 12 Suite y FL Studio All Plugins Edition son dos de los DAWs más potentes para la producción musical.",
     "sections": [
       {
         "heading": "Is Ableton Live 12 the Best for Electronic Music and Live Performance?",
@@ -13453,8 +13501,8 @@
       {
         "heading": "Is FL Studio the Best for Beat-Making and Hip-Hop?",
         "heading_es": "¿Es FL Studio el Mejor para Creación de Beats y Hip-Hop?",
-        "content": "<p><strong>Buy FL Studio Producer Edition if you make beats or produce hip-hop and want lifetime free updates with the best piano roll in any DAW.</strong> FL Studio's pattern-based workflow revolutionized beat-making. Its Piano Roll is widely considered the best in any DAW, offering a fluid experience for programming drums and melodies. The lifetime free updates policy means you buy once and get every future version forever. The step sequencer is iconic for drum programming. FL Studio excels at loop-based production and has become the primary DAW for hip-hop, trap, and modern pop producers.",
-        "content_es": "<p><strong>Compra FL Studio Producer Edition si haces beats o produces hip-hop y quieres actualizaciones gratuitas de por vida con el mejor piano roll de cualquier DAW.</strong> El flujo de trabajo basado en patrones de FL Studio revolucionó la creación de beats. Su Piano Roll es ampliamente considerado el mejor de cualquier DAW, ofreciendo una experiencia fluida para programar baterías y melodías. La política de actualizaciones gratuitas de por vida significa que compras una vez y obtienes cada versión futura para siempre. El secuenciador de pasos es icónico para la programación de batería. FL Studio sobresale en la producción basada en loops y se ha convertido en el DAW principal para productores de hip-hop, trap y pop moderno.",
+        "content": "<p><strong>Buy FL Studio All Plugins Edition if you make beats or produce hip-hop and want lifetime free updates with the best piano roll in any DAW.</strong> FL Studio's pattern-based workflow revolutionized beat-making. Its Piano Roll is widely considered the best in any DAW, offering a fluid experience for programming drums and melodies. The lifetime free updates policy means you buy once and get every future version forever. The step sequencer is iconic for drum programming. FL Studio excels at loop-based production and has become the primary DAW for hip-hop, trap, and modern pop producers.",
+        "content_es": "<p><strong>Compra FL Studio All Plugins Edition si haces beats o produces hip-hop y quieres actualizaciones gratuitas de por vida con el mejor piano roll de cualquier DAW.</strong> El flujo de trabajo basado en patrones de FL Studio revolucionó la creación de beats. Su Piano Roll es ampliamente considerado el mejor de cualquier DAW, ofreciendo una experiencia fluida para programar baterías y melodías. La política de actualizaciones gratuitas de por vida significa que compras una vez y obtienes cada versión futura para siempre. El secuenciador de pasos es icónico para la programación de batería. FL Studio sobresale en la producción basada en loops y se ha convertido en el DAW principal para productores de hip-hop, trap y pop moderno.",
         "products": [
           110,
           112
@@ -13471,10 +13519,10 @@
         ]
       },
       {
-        "heading": "Which DAW Wins: Ableton Live 12 Suite or FL Studio Producer Edition?",
-        "heading_es": "¿Qué DAW Gana: Ableton Live 12 Suite o FL Studio Producer Edition?",
-        "content": "<p><strong>If you produce electronic music, perform live, or need the most powerful sound design tools, Ableton Live 12 Suite is the industry standard.</strong> Its Session View is irreplaceable for live performance and its warping engine is unmatched for remixing. If you make beats, produce hip-hop or trap, or want lifetime free updates, FL Studio Producer Edition offers the best value. FL Studio's one-time purchase is significantly cheaper than Ableton Live Suite over the long term.</p> <p>Decide between more DAWs with our complete <a href=\"/guides/daw-guide.html\">DAW guide</a> and <a href=\"/guides/best-daw-for-beginners.html\">best DAW for beginners guide</a>. Both DAWs can take you from an empty project to a finished release, so choose the workflow that feels natural to you.</p>",
-        "content_es": "<p><strong>Si produces música electrónica, tocas en vivo o necesitas las herramientas de diseño de sonido más potentes, Ableton Live 12 Suite es el estándar de la industria.</strong> Su Vista Session es irremplazable para la interpretación en vivo y su motor de warping es inigualable para remezclar. Si haces beats, produces hip-hop o trap, o quieres actualizaciones gratuitas de por vida, FL Studio Producer Edition ofrece el mejor valor. El modelo de compra única de FL Studio es significativamente más barato que Ableton Live Suite a largo plazo.</p> <p>Decide entre más DAWs con nuestra completa <a href=\"/guides/daw-guide_es.html\">guía de DAWs</a> y <a href=\"/guides/best-daw-for-beginners_es.html\">guía del mejor DAW para principiantes</a>. Ambos DAWs pueden llevarte de un proyecto vacío a un lanzamiento terminado, así que elige el flujo de trabajo que se sienta natural para ti.</p>",
+        "heading": "Which DAW Wins: Ableton Live 12 Suite or FL Studio All Plugins Edition?",
+        "heading_es": "¿Qué DAW Gana: Ableton Live 12 Suite o FL Studio All Plugins Edition?",
+        "content": "<p><strong>If you produce electronic music, perform live, or need the most powerful sound design tools, Ableton Live 12 Suite is the industry standard.</strong> Its Session View is irreplaceable for live performance and its warping engine is unmatched for remixing. If you make beats, produce hip-hop or trap, or want lifetime free updates, FL Studio All Plugins Edition offers the best value. FL Studio's one-time purchase is significantly cheaper than Ableton Live Suite over the long term.</p> <p>Decide between more DAWs with our complete <a href=\"/guides/daw-guide.html\">DAW guide</a> and <a href=\"/guides/best-daw-for-beginners.html\">best DAW for beginners guide</a>. Both DAWs can take you from an empty project to a finished release, so choose the workflow that feels natural to you.</p>",
+        "content_es": "<p><strong>Si produces música electrónica, tocas en vivo o necesitas las herramientas de diseño de sonido más potentes, Ableton Live 12 Suite es el estándar de la industria.</strong> Su Vista Session es irremplazable para la interpretación en vivo y su motor de warping es inigualable para remezclar. Si haces beats, produces hip-hop o trap, o quieres actualizaciones gratuitas de por vida, FL Studio All Plugins Edition ofrece el mejor valor. El modelo de compra única de FL Studio es significativamente más barato que Ableton Live Suite a largo plazo.</p> <p>Decide entre más DAWs con nuestra completa <a href=\"/guides/daw-guide_es.html\">guía de DAWs</a> y <a href=\"/guides/best-daw-for-beginners_es.html\">guía del mejor DAW para principiantes</a>. Ambos DAWs pueden llevarte de un proyecto vacío a un lanzamiento terminado, así que elige el flujo de trabajo que se sienta natural para ti.</p>",
         "products": [
           110,
           112
@@ -13484,17 +13532,17 @@
     "conclusion": "Ableton Live is the choice for electronic production, live performance, and sound design. FL Studio is the choice for beat-making, lifetime value, and intuitive programming. Both are complete DAWs that can produce professional music.",
     "conclusion_es": "Ableton Live es la elección para producción electrónica, interpretación en vivo y diseño de sonido. FL Studio es la elección para creación de beats, valor de por vida y programación intuitiva. Ambos son DAWs completos que pueden producir música profesional.",
     "verdict": "Ableton Live 12 Suite for live performance and sound design. FL Studio for beat-making and lifetime value.",
-    "verdict_es": "Ableton Live 12 Suite para interpretación en vivo y diseño de sonido con Max for Live. FL Studio Producer Edition para creación de beats y valor de por vida con actualizaciones gratuitas.",
+    "verdict_es": "Ableton Live 12 Suite para interpretación en vivo y diseño de sonido con Max for Live. FL Studio All Plugins Edition para creación de beats y valor de por vida con actualizaciones gratuitas.",
     "featuredProducts": [
       110,
       112
     ],
     "description": "Ableton Live vs FL Studio: Best DAW for you? Workflow, MIDI & production compared. Which speeds up your music. Best pick: Ableton Live 12 Suite.",
     "featuredSnippet": {
-      "title_en": "Ableton Live 12 Suite vs FL Studio Producer Edition: Which One Should You Choose?",
-      "text_en": "The Ableton Live 12 Suite is the best daw for electronic music and live performance, offering the session view and performance powerhouse. The FL Studio Producer Edition is the top daw for beat-making and hip-hop, with pattern-based workflow and lifetime updates.",
+      "title_en": "Ableton Live 12 Suite vs FL Studio All Plugins Edition: Which One Should You Choose?",
+      "text_en": "The Ableton Live 12 Suite is the best daw for electronic music and live performance, offering the session view and performance powerhouse. The FL Studio All Plugins Edition is the top daw for beat-making and hip-hop, with pattern-based workflow and lifetime updates.",
       "name1_en": "Ableton Live 12 Suite",
-      "name2_en": "FL Studio Producer Edition",
+      "name2_en": "FL Studio All Plugins Edition",
       "price1": "799",
       "price2": "199",
       "type1": "DAW",
@@ -13507,10 +13555,10 @@
       "brand2": "Image-Line",
       "rating1": 4.8,
       "rating2": 4.6,
-      "faq_q1_en": "Should I buy Ableton Live 12 Suite or FL Studio Producer Edition?",
-      "faq_a1_en": "Buy FL Studio Producer Edition ($199) if you make beats and loops — the pattern-based workflow, the best piano roll in any DAW and lifetime free updates make it unbeatable value for hip-hop and electronic production. Buy Ableton Live 12 Suite ($799) if you play live, record real instruments or want Session View and Max for Live. FL is the smart budget start; Ableton is the performance powerhouse.",
-      "faq_q2_en": "What is the difference between Ableton Live 12 Suite and FL Studio Producer Edition?",
-      "faq_a2_en": "Ableton Live 12 Suite ($799) is built around the non-linear Session View, a powerful warping engine for tempo-matching audio and Max for Live devices — ideal for electronic production and live performance. FL Studio Producer Edition ($199) uses a pattern-based workflow with the acclaimed piano roll, mixer and lifetime free updates, making it the classic beat-making tool. Ableton is more powerful for performance and audio warping; FL is more intuitive and much cheaper.",
+      "faq_q1_en": "Should I buy Ableton Live 12 Suite or FL Studio All Plugins Edition?",
+      "faq_a1_en": "Buy FL Studio All Plugins Edition ($499) if you make beats and loops — the pattern-based workflow, the best piano roll in any DAW and lifetime free updates make it unbeatable value for hip-hop and electronic production. Buy Ableton Live 12 Suite ($749) if you play live, record real instruments or want Session View and Max for Live. FL is the smart budget start; Ableton is the performance powerhouse.",
+      "faq_q2_en": "What is the difference between Ableton Live 12 Suite and FL Studio All Plugins Edition?",
+      "faq_a2_en": "Ableton Live 12 Suite ($749) is built around the non-linear Session View, a powerful warping engine for tempo-matching audio and Max for Live devices — ideal for electronic production and live performance. FL Studio All Plugins Edition ($499) uses a pattern-based workflow with the acclaimed piano roll, mixer and lifetime free updates, making it the classic beat-making tool. Ableton is more powerful for performance and audio warping; FL is more intuitive and much cheaper.",
       "specs": [
         {
           "label_es": "Pistas de audio",
@@ -13537,76 +13585,60 @@
           "val2": "70+"
         }
       ],
-      "title_es": "Ableton Live 12 Suite vs FL Studio Producer Edition: ¿Cuál deberías elegir?",
-      "text_es": "Ableton Live 12 Suite es el mejor DAW para música electrónica e interpretación en vivo, con Vista Session revolucionaria y Max for Live. FL Studio Producer Edition es el mejor DAW para creación de beats y hip-hop, con el mejor piano roll y actualizaciones gratuitas de por vida.",
+      "title_es": "Ableton Live 12 Suite vs FL Studio All Plugins Edition: ¿Cuál deberías elegir?",
+      "text_es": "Ableton Live 12 Suite es el mejor DAW para música electrónica e interpretación en vivo, con Vista Session revolucionaria y Max for Live. FL Studio All Plugins Edition es el mejor DAW para creación de beats y hip-hop, con el mejor piano roll y actualizaciones gratuitas de por vida.",
       "name1_es": "Ableton Live 12 Suite",
-      "name2_es": "FL Studio Producer Edition",
+      "name2_es": "FL Studio All Plugins Edition",
       "best1_es": "Música electrónica e interpretación en vivo",
       "best2_es": "Creación de beats e hip-hop",
       "key1_es": "Vista Session Revolucionaria con Max for Live",
       "key2_es": "Piano Roll Líder con Actualizaciones Gratuitas de por Vida",
-      "faq_q1_es": "¿Debería comprar Ableton Live 12 Suite o FL Studio Producer Edition?",
-      "faq_a1_es": "Compra FL Studio Producer Edition ($199) si haces beats y loops — el flujo de trabajo basado en patrones, el mejor piano roll de cualquier DAW y las actualizaciones gratuitas de por vida lo hacen imbatible en valor para hip-hop y producción electrónica. Compra Ableton Live 12 Suite ($799) si tocas en vivo, grabas instrumentos reales o quieres Vista Session y Max for Live. FL es el comienzo económico inteligente; Ableton es el motor de actuaciones.",
-      "faq_q2_es": "¿Cuál es la diferencia entre Ableton Live 12 Suite y FL Studio Producer Edition?",
-      "faq_a2_es": "Ableton Live 12 Suite ($799) está construido en torno a la Vista Session no lineal, un potente motor de warping para ajustar el tempo del audio y los dispositivos Max for Live — ideal para producción electrónica y actuaciones en vivo. FL Studio Producer Edition ($199) usa un flujo de trabajo basado en patrones con el aclamado piano roll, mezclador y actualizaciones gratuitas de por vida, siendo la herramienta clásica de beat-making. Ableton es más potente para actuaciones y warping de audio; FL es más intuitivo y mucho más barato.",
+      "faq_q1_es": "¿Debería comprar Ableton Live 12 Suite o FL Studio All Plugins Edition?",
+      "faq_a1_es": "Compra FL Studio All Plugins Edition ($499) si haces beats y loops — el flujo de trabajo basado en patrones, el mejor piano roll de cualquier DAW y las actualizaciones gratuitas de por vida lo hacen imbatible en valor para hip-hop y producción electrónica. Compra Ableton Live 12 Suite ($749) si tocas en vivo, grabas instrumentos reales o quieres Vista Session y Max for Live. FL es el comienzo económico inteligente; Ableton es el motor de actuaciones.",
+      "faq_q2_es": "¿Cuál es la diferencia entre Ableton Live 12 Suite y FL Studio All Plugins Edition?",
+      "faq_a2_es": "Ableton Live 12 Suite ($749) está construido en torno a la Vista Session no lineal, un potente motor de warping para ajustar el tempo del audio y los dispositivos Max for Live — ideal para producción electrónica y actuaciones en vivo. FL Studio All Plugins Edition ($499) usa un flujo de trabajo basado en patrones con el aclamado piano roll, mezclador y actualizaciones gratuitas de por vida, siendo la herramienta clásica de beat-making. Ableton es más potente para actuaciones y warping de audio; FL es más intuitivo y mucho más barato.",
       "faq_q3_en": "Which DAW has a gentler learning curve for beginners?",
-      "faq_a3_en": "FL Studio Producer Edition has a pattern-based workflow that is intuitive for beat-making and loop creation, making it easier for beginners to get started. Ableton Live 12 Suite has a steeper learning curve due to its dual Session/Arrangement views and complex warping engine. For absolute beginners, FL Studio is more approachable.",
+      "faq_a3_en": "FL Studio All Plugins Edition has a pattern-based workflow that is intuitive for beat-making and loop creation, making it easier for beginners to get started. Ableton Live 12 Suite has a steeper learning curve due to its dual Session/Arrangement views and complex warping engine. For absolute beginners, FL Studio is more approachable.",
       "faq_q4_en": "Is Ableton Live worth the extra cost over FL Studio for a beginner?",
-      "faq_a4_en": "Only if you want to play live or record real instruments. Ableton Live 12 Suite ($799) is the standard for electronic music and performance thanks to Session View and Max for Live, but that is a premium you only need if you perform or use its devices. FL Studio Producer Edition ($199) covers beat-making, sequencing and mixing with lifetime free updates, making it the smarter buy for a beginner focused on beats and loops. Upgrade to Ableton when you start performing or want its instruments.",
+      "faq_a4_en": "Only if you want to play live or record real instruments. Ableton Live 12 Suite ($749) is the standard for electronic music and performance thanks to Session View and Max for Live, but that is a premium you only need if you perform or use its devices. FL Studio All Plugins Edition ($499) covers beat-making, sequencing and mixing with lifetime free updates, making it the smarter buy for a beginner focused on beats and loops. Upgrade to Ableton when you start performing or want its instruments.",
       "faq_q5_en": "Which DAW has better audio recording and editing capabilities?",
-      "faq_a5_en": "Ableton Live 12 Suite excels at audio recording with its comping tools, warping engine, and session view for capturing takes. FL Studio Producer Edition is primarily pattern-based and its audio recording workflow is less intuitive. For recording live instruments and vocals, Ableton is significantly better.",
+      "faq_a5_en": "Ableton Live 12 Suite excels at audio recording with its comping tools, warping engine, and session view for capturing takes. FL Studio All Plugins Edition is primarily pattern-based and its audio recording workflow is less intuitive. For recording live instruments and vocals, Ableton is significantly better.",
       "faq_q3_es": "¿Qué DAW tiene una curva de aprendizaje más suave para principiantes?",
-      "faq_a3_es": "FL Studio Producer Edition tiene un flujo de trabajo basado en patrones intuitivo para crear beats. Ableton Live 12 Suite tiene una curva más pronunciada con sus vistas de Sesión/Arreglo. Para principiantes, FL Studio es más accesible.",
+      "faq_a3_es": "FL Studio All Plugins Edition tiene un flujo de trabajo basado en patrones intuitivo para crear beats. Ableton Live 12 Suite tiene una curva más pronunciada con sus vistas de Sesión/Arreglo. Para principiantes, FL Studio es más accesible.",
       "faq_q4_es": "¿Merece la pena Ableton Live frente a FL Studio para un principiante?",
-      "faq_a4_es": "Solo si quieres tocar en vivo o grabar instrumentos reales. Ableton Live 12 Suite ($799) es el estándar para música electrónica y actuaciones gracias a Session View y Max for Live, pero esa prima solo la necesitas si tocas en directo o usas sus dispositivos. FL Studio Producer Edition ($199) cubre beat-making, secuenciación y mezcla con actualizaciones gratuitas de por vida, así que es la compra más inteligente para un principiante enfocado en beats y loops. Sube a Ableton cuando empieces a actuar o quieras sus instrumentos.",
+      "faq_a4_es": "Solo si quieres tocar en vivo o grabar instrumentos reales. Ableton Live 12 Suite ($749) es el estándar para música electrónica y actuaciones gracias a Session View y Max for Live, pero esa prima solo la necesitas si tocas en directo o usas sus dispositivos. FL Studio All Plugins Edition ($499) cubre beat-making, secuenciación y mezcla con actualizaciones gratuitas de por vida, así que es la compra más inteligente para un principiante enfocado en beats y loops. Sube a Ableton cuando empieces a actuar o quieras sus instrumentos.",
       "faq_q5_es": "¿Qué DAW tiene mejores capacidades de grabación y edición de audio?",
-      "faq_a5_es": "Ableton Live 12 Suite sobresale en grabación de audio con herramientas de comping y warping. FL Studio Producer Edition está basado en patrones y su flujo de grabación es menos intuitivo. Para grabar instrumentos y voces, Ableton es significativamente mejor."
+      "faq_a5_es": "Ableton Live 12 Suite sobresale en grabación de audio con herramientas de comping y warping. FL Studio All Plugins Edition está basado en patrones y su flujo de grabación es menos intuitivo. Para grabar instrumentos y voces, Ableton es significativamente mejor."
     },
     "comparison": {
       "rows": [
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2024",
-          "val2": "2024",
-          "val1_es": "2024",
-          "val2_es": "2024"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Session View and Performance Powerhouse",
-          "val2": "Pattern-Based Workflow and Lifetime Updates",
-          "val1_es": "La Vista de Sesión y Potencia en Vivo",
-          "val2_es": "Flujo de Trabajo Basado en Patrones y Actualizaciones de por Vida"
+          "val1": "2024 (Live 12)",
+          "val2": "2026 (FL Studio)",
+          "val1_es": "2024 (Live 12)",
+          "val2_es": "2026 (FL Studio)"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Electronic music and live performance",
           "val2": "Beat-making and hip-hop",
-          "val1_es": "Música electrónica y directo",
-          "val2_es": "Creación de beats y hip-hop"
+          "val1_es": "Música electrónica y performance en vivo",
+          "val2_es": "Beat-making y hip-hop"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Ableton",
-          "val2": "Image-Line",
-          "val1_es": "Ableton",
-          "val2_es": "Image-Line"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.8/5",
-          "val2": "4.6/5",
-          "val1_es": "4.8/5",
-          "val2_es": "4.6/5"
+          "label": "Pricing Model",
+          "label_es": "Modelo de Precio",
+          "val1": "One-time (Intro $99 / Standard $349 / Suite $749)",
+          "val2": "One-time, lifetime free updates (Producer $199 / All Plugins $499)",
+          "val1_es": "De pago único (Intro $99 / Standard $349 / Suite $749)",
+          "val2_es": "De pago único, actualizaciones gratis de por vida (Producer $199 / All Plugins $499)"
         },
         {
           "label": "Audio Tracks",
-          "label_es": "Pistas de audio",
+          "label_es": "Pistas de Audio",
           "val1": "Unlimited",
           "val2": "Unlimited",
           "val1_es": "Ilimitadas",
@@ -13621,28 +13653,76 @@
           "val2_es": "Ilimitadas"
         },
         {
-          "label": "Included Instruments",
-          "label_es": "Instrumentos incluidos",
-          "val1": "70+ (Wavetable, Operator, Sampler, Analog, etc.)",
-          "val2": "30+ (Sytrus, Harmless, Sakura, etc.)",
-          "val1_es": "70+ (Wavetable, Operator, Sampler, Analog, etc.)",
-          "val2_es": "30+ (Sytrus, Harmless, Sakura, etc.)"
+          "label": "Max Sample Rate",
+          "label_es": "Tasa de Muestreo Máx.",
+          "val1": "192 kHz",
+          "val2": "192 kHz",
+          "val1_es": "192 kHz",
+          "val2_es": "192 kHz"
         },
         {
-          "label": "Effects",
-          "label_es": "Efectos",
-          "val1": "90+",
-          "val2": "70+",
-          "val1_es": "90+",
-          "val2_es": "70+"
+          "label": "Built-in Instruments",
+          "label_es": "Instrumentos Incluidos",
+          "val1": "20 (Wavetable, Operator, Analog, Sampler, etc.)",
+          "val2": "39 (Harmor, Sytrus, Sakura, DirectWave, FLEX, etc.)",
+          "val1_es": "20 (Wavetable, Operator, Analog, Sampler, etc.)",
+          "val2_es": "39 (Harmor, Sytrus, Sakura, DirectWave, FLEX, etc.)"
+        },
+        {
+          "label": "Built-in Effects",
+          "label_es": "Efectos Incluidos",
+          "val1": "58 audio + 14 MIDI FX",
+          "val2": "71+ (All Plugins)",
+          "val1_es": "58 de audio + 14 MIDI FX",
+          "val2_es": "71+ (All Plugins)"
+        },
+        {
+          "label": "Score / Notation",
+          "label_es": "Editor de Partituras",
+          "val1": "No",
+          "val2": "No",
+          "val1_es": "No",
+          "val2_es": "No"
+        },
+        {
+          "label": "Plugin Formats",
+          "label_es": "Formatos de Plugin",
+          "val1": "VST2, VST3, AU",
+          "val2": "VST2, VST3, AU, CLAP",
+          "val1_es": "VST2, VST3, AU",
+          "val2_es": "VST2, VST3, AU, CLAP"
+        },
+        {
+          "label": "Platform",
+          "label_es": "Plataforma",
+          "val1": "Windows + macOS",
+          "val2": "Windows + macOS",
+          "val1_es": "Windows + macOS",
+          "val2_es": "Windows + macOS"
+        },
+        {
+          "label": "Signature",
+          "label_es": "Característica Clave",
+          "val1": "Session View + Max for Live",
+          "val2": "Lifetime free updates + piano roll",
+          "val1_es": "Session View + Max for Live",
+          "val2_es": "Actualizaciones gratis de por vida + piano roll"
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.8/5",
+          "val2": "4.6/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$799",
-          "val2": "$199",
-          "val1_es": "$799",
-          "val2_es": "$199"
+          "val1": "$749 (Suite)",
+          "val2": "$499 (All Plugins)",
+          "val1_es": "$749 (Suite)",
+          "val2_es": "$499 (All Plugins)"
         }
       ]
     },
@@ -13685,8 +13765,8 @@
         ]
       },
       {
-        "name": "FL Studio Producer Edition",
-        "name_es": "FL Studio Producer Edition",
+        "name": "FL Studio All Plugins Edition",
+        "name_es": "FL Studio All Plugins Edition",
         "pros": [
           "Pattern-based sequencer with step sequencer for drum programming is fastest workflow for beat production",
           "Free lifetime updates pay once upgrade forever no paid version upgrades after initial purchase",
@@ -13880,34 +13960,98 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2022",
-          "val2": "2024",
-          "val1_es": "2022",
-          "val2_es": "2024"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Industry Standard for Recording and Mixing",
-          "val2": "The Composer's Powerhouse with Integrated Scoring",
-          "val1_es": "El Estándar de la Industria para Grabación y Mezcla",
-          "val2_es": "La Potencia del Compositor con Partituras Integradas"
+          "val1": "2026 (Pro Tools 2026.4)",
+          "val2": "2025 (Cubase 15)",
+          "val1_es": "2026 (Pro Tools 2026.4)",
+          "val2_es": "2025 (Cubase 15)"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Pro recording and post-production",
           "val2": "Composition and scoring",
-          "val1_es": "Grabación y postproducción profesional",
-          "val2_es": "Composición y orquestación"
+          "val1_es": "Grabación profesional y post-producción",
+          "val2_es": "Composición y scoring"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Avid",
-          "val2": "Steinberg",
-          "val1_es": "Avid",
-          "val2_es": "Steinberg"
+          "label": "Pricing Model",
+          "label_es": "Modelo de Precio",
+          "val1": "Subscription $299/yr or perpetual $599 (Studio)",
+          "val2": "One-time $579.99 (Pro)",
+          "val1_es": "Suscripción $299/año o perpetua $599 (Studio)",
+          "val2_es": "De pago único $579.99 (Pro)"
+        },
+        {
+          "label": "Audio Tracks",
+          "label_es": "Pistas de Audio",
+          "val1": "512",
+          "val2": "Unlimited",
+          "val1_es": "512",
+          "val2_es": "Ilimitadas"
+        },
+        {
+          "label": "MIDI Tracks",
+          "label_es": "Pistas MIDI",
+          "val1": "1024 MIDI / 512 instrument",
+          "val2": "Unlimited",
+          "val1_es": "1024 MIDI / 512 de instrumento",
+          "val2_es": "Ilimitadas"
+        },
+        {
+          "label": "Max Sample Rate",
+          "label_es": "Tasa de Muestreo Máx.",
+          "val1": "192 kHz / 24-bit",
+          "val2": "192 kHz / 64-bit float",
+          "val1_es": "192 kHz / 24-bit",
+          "val2_es": "192 kHz / flotante de 64 bits"
+        },
+        {
+          "label": "Built-in Instruments",
+          "label_es": "Instrumentos Incluidos",
+          "val1": "~8 (AIR Xpand!2, Mini Grand, Structure, Vacuum)",
+          "val2": "11 (HALion Sonic SE, Groove Agent SE, Padshop, Verve)",
+          "val1_es": "~8 (AIR Xpand!2, Mini Grand, Structure, Vacuum)",
+          "val2_es": "11 (HALion Sonic SE, Groove Agent SE, Padshop, Verve)"
+        },
+        {
+          "label": "Built-in Effects",
+          "label_es": "Efectos Incluidos",
+          "val1": "75+ (Avid Complete Plugin Bundle) + Melodyne, RX",
+          "val2": "~92 audio + 17 MIDI",
+          "val1_es": "75+ (Avid Complete Plugin Bundle) + Melodyne, RX",
+          "val2_es": "~92 de audio + 17 MIDI"
+        },
+        {
+          "label": "Score / Notation",
+          "label_es": "Editor de Partituras",
+          "val1": "No (uses Sibelius)",
+          "val2": "Yes (full Score Editor)",
+          "val1_es": "No (usa Sibelius)",
+          "val2_es": "Sí (editor de partituras completo)"
+        },
+        {
+          "label": "Plugin Formats",
+          "label_es": "Formatos de Plugin",
+          "val1": "AAX only",
+          "val2": "VST3 (VST2 legacy)",
+          "val1_es": "Solo AAX",
+          "val2_es": "VST3 (VST2 heredado)"
+        },
+        {
+          "label": "Platform",
+          "label_es": "Plataforma",
+          "val1": "Windows + macOS",
+          "val2": "Windows + macOS",
+          "val1_es": "Windows + macOS",
+          "val2_es": "Windows + macOS"
+        },
+        {
+          "label": "Signature",
+          "label_es": "Característica Clave",
+          "val1": "Dolby Atmos, Elastic Audio, industry standard",
+          "val2": "Score Editor, VariAudio, AI Stem Separation",
+          "val1_es": "Dolby Atmos, Elastic Audio, estándar de la industria",
+          "val2_es": "Score Editor, VariAudio, separación de stems con IA"
         },
         {
           "label": "Rating",
@@ -13918,43 +14062,11 @@
           "val2_es": "4.6/5"
         },
         {
-          "label": "Audio Tracks",
-          "label_es": "Pistas de audio",
-          "val1": "512",
-          "val2": "256",
-          "val1_es": "512",
-          "val2_es": "256"
-        },
-        {
-          "label": "MIDI Tracks",
-          "label_es": "Pistas MIDI",
-          "val1": "512",
-          "val2": "256",
-          "val1_es": "512",
-          "val2_es": "256"
-        },
-        {
-          "label": "Included Instruments",
-          "label_es": "Instrumentos incluidos",
-          "val1": "Celemony Melodyne 5, SoundFlow",
-          "val2": "60+ (HALion, Groove Agent, Padshop, etc.)",
-          "val1_es": "Celemony Melodyne 5, SoundFlow",
-          "val2_es": "60+ (HALion, Groove Agent, Padshop, etc.)"
-        },
-        {
-          "label": "Effects",
-          "label_es": "Efectos",
-          "val1": "N/A (3rd-party)",
-          "val2": "90+ (includes track FX, Channel Strip, etc.)",
-          "val1_es": "N/D (terceros)",
-          "val2_es": "90+ (incluye FX de pista, Channel Strip, etc.)"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$599",
+          "val1": "$299/yr sub / $599 perpetual",
           "val2": "$579",
-          "val1_es": "$599",
+          "val1_es": "$299/año sub / $599 perpetua",
           "val2_es": "$579"
         }
       ]
@@ -14134,9 +14246,9 @@
       "rating1": 4.7,
       "rating2": 4.8,
       "faq_q1_en": "Should I buy the Fender Blues Junior IV or the Vox AC30?",
-      "faq_a1_en": "Buy the Blues Junior IV ($699) for classic Fender tube tone in a light, portable 15W combo — perfect for home, recording and small gigs, with that warm clean and break-up. Buy the Vox AC30 ($1,099) if you need the full British chime — the bright, jangly Top Boost sound of countless records — and you can handle a 70-pound amp. The BJ is the practical classic; the AC30 is the character icon.",
+      "faq_a1_en": "Buy the Blues Junior IV ($749) for classic Fender tube tone in a light, portable 15W combo — perfect for home, recording and small gigs, with that warm clean and break-up. Buy the Vox AC30 ($1,099) if you need the full British chime — the bright, jangly Top Boost sound of countless records — and you can handle a 70-pound amp. The BJ is the practical classic; the AC30 is the character icon.",
       "faq_q2_en": "What is the difference between the Blues Junior IV and the AC30?",
-      "faq_a2_en": "The Blues Junior IV ($699) is a 15W all-tube combo with a 12-inch Jensen speaker, spring reverb and a warm Fender voice, weighing about 31 pounds. The Vox AC30 ($1,099) is a 30W all-tube amp with the famous Top Boost channel and Celestion speakers, delivering that bright, chimey British sound at much higher volume — and tipping the scales over 70 pounds. The BJ is portable Fender cleans; the AC30 is loud British chime.",
+      "faq_a2_en": "The Blues Junior IV ($749) is a 15W all-tube combo with a 12-inch Jensen speaker, spring reverb and a warm Fender voice, weighing about 31 pounds. The Vox AC30 ($1,099) is a 30W all-tube amp with the famous Top Boost channel and Celestion speakers, delivering that bright, chimey British sound at much higher volume — and tipping the scales over 70 pounds. The BJ is portable Fender cleans; the AC30 is loud British chime.",
       "specs": [
         {
           "label_es": "Potencia",
@@ -14178,19 +14290,19 @@
       "key1_es": "15 Vatios con Altavoz Jensen de 12 Pulgadas",
       "key2_es": "30 Vatios con Canal Top Boost",
       "faq_q1_es": "¿Debería comprar el Fender Blues Junior IV o el Vox AC30?",
-      "faq_a1_es": "Compra el Blues Junior IV ($699) por el clásico tono de válvulas Fender en un combo ligero y portátil de 15W — perfecto para casa, grabación y conciertos pequeños, con ese limpio cálido y el break-up. Compra el Vox AC30 ($1,099) si necesitas el chime británico completo — el sonido Top Boost brillante y jangle de innumerables discos — y puedes cargar con un ampli de 70 libras. El BJ es el clásico práctico; el AC30 es el icono de carácter.",
+      "faq_a1_es": "Compra el Blues Junior IV ($749) por el clásico tono de válvulas Fender en un combo ligero y portátil de 15W — perfecto para casa, grabación y conciertos pequeños, con ese limpio cálido y el break-up. Compra el Vox AC30 ($1,099) si necesitas el chime británico completo — el sonido Top Boost brillante y jangle de innumerables discos — y puedes cargar con un ampli de 70 libras. El BJ es el clásico práctico; el AC30 es el icono de carácter.",
       "faq_q2_es": "¿Cuál es la diferencia entre el Blues Junior IV y el AC30?",
-      "faq_a2_es": "El Blues Junior IV ($699) es un combo de válvulas de 15W con altavoz Jensen de 12 pulgadas, reverb de muelle y una voz Fender cálida, pesando unas 31 libras. El Vox AC30 ($1,099) es un ampli de válvulas de 30W con el famoso canal Top Boost y altavoces Celestion, entregando ese sonido británico brillante y chimey a mucho más volumen — y superando las 70 libras. El BJ es limpios Fender portátiles; el AC30 es chime británico ruidoso.",
+      "faq_a2_es": "El Blues Junior IV ($749) es un combo de válvulas de 15W con altavoz Jensen de 12 pulgadas, reverb de muelle y una voz Fender cálida, pesando unas 31 libras. El Vox AC30 ($1,099) es un ampli de válvulas de 30W con el famoso canal Top Boost y altavoces Celestion, entregando ese sonido británico brillante y chimey a mucho más volumen — y superando las 70 libras. El BJ es limpios Fender portátiles; el AC30 es chime británico ruidoso.",
       "faq_q3_en": "Which amp is easier to move and gig with?",
-      "faq_a3_en": "The Blues Junior IV ($699) is far easier to gig with. At about 31 pounds it is a one-hand lift into a car, and 15W through a 12-inch speaker is plenty for small venues when mic'd. The Vox AC30 ($1,099) weighs over 70 pounds and is a two-person job — its sound is worth it, but your back pays for it. For regular gigging and load-in, the Blues Junior; for a signature studio or stage sound with a road crew, the AC30.",
+      "faq_a3_en": "The Blues Junior IV ($749) is far easier to gig with. At about 31 pounds it is a one-hand lift into a car, and 15W through a 12-inch speaker is plenty for small venues when mic'd. The Vox AC30 ($1,099) weighs over 70 pounds and is a two-person job — its sound is worth it, but your back pays for it. For regular gigging and load-in, the Blues Junior; for a signature studio or stage sound with a road crew, the AC30.",
       "faq_q4_en": "Is the Vox AC30 worth $400 more than the Blues Junior?",
-      "faq_a4_en": "Only if you want the full British chime. The AC30 ($1,099) is a 30-watt all-tube amp with the famous Top Boost channel that delivers that bright, jangly Vox sound heard on countless classic records — it also weighs over 70 pounds. The Blues Junior IV ($699) is a 15-watt combo that nails classic Fender clean and break-up, is far lighter and easier to manage. Choose the AC30 for that unmistakable chime if you can carry it; choose the Blues Junior for classic Fender tone and portability.",
+      "faq_a4_en": "Only if you want the full British chime. The AC30 ($1,099) is a 30-watt all-tube amp with the famous Top Boost channel that delivers that bright, jangly Vox sound heard on countless classic records — it also weighs over 70 pounds. The Blues Junior IV ($749) is a 15-watt combo that nails classic Fender clean and break-up, is far lighter and easier to manage. Choose the AC30 for that unmistakable chime if you can carry it; choose the Blues Junior for classic Fender tone and portability.",
       "faq_q5_en": "Which amp is better for bedroom practice and low-volume playing?",
       "faq_a5_en": "Both are excellent, but the Fender Blues Junior IV at 15 watts with a master volume control can achieve decent tones at apartment-friendly volumes. The Vox AC30 at 30 watts is notoriously loud and needs to be pushed to sound its best, making it impractical for home use. For low-volume playing, the Blues Junior is far more suitable.",
       "faq_q3_es": "¿Qué amplificador es más fácil de mover y llevar a conciertos?",
-      "faq_a3_es": "El Blues Junior IV ($699) es mucho más fácil de llevar a conciertos. Con unas 31 libras es un levantamiento de una mano para meterlo al coche, y 15W por un altavoz de 12 pulgadas es suficiente para locales pequeños si se microfoniza. El Vox AC30 ($1,099) pesa más de 70 libras y es trabajo de dos personas — su sonido merece la pena, pero tu espalda lo paga. Para conciertos regulares y load-in, el Blues Junior; para un sonido firma de estudio o escenario con equipo de carretera, el AC30.",
+      "faq_a3_es": "El Blues Junior IV ($749) es mucho más fácil de llevar a conciertos. Con unas 31 libras es un levantamiento de una mano para meterlo al coche, y 15W por un altavoz de 12 pulgadas es suficiente para locales pequeños si se microfoniza. El Vox AC30 ($1,099) pesa más de 70 libras y es trabajo de dos personas — su sonido merece la pena, pero tu espalda lo paga. Para conciertos regulares y load-in, el Blues Junior; para un sonido firma de estudio o escenario con equipo de carretera, el AC30.",
       "faq_q4_es": "¿Merece la pena el Vox AC30 $400 más que el Blues Junior?",
-      "faq_a4_es": "Solo si quieres el chime británico completo. El AC30 ($1,099) es un ampli de válvulas de 30 vatios con el famoso canal Top Boost que entrega ese sonido Vox brillante y jangly de innumerables discos clásicos — además pesa más de 70 libras. El Blues Junior IV ($699) es un combo de 15 vatios que clava el clean y la rotura Fender clásicos, es mucho más ligero y fácil de manejar. Elige el AC30 por ese inconfundible chime si puedes cargarlo; elige el Blues Junior por tono Fender clásico y portabilidad.",
+      "faq_a4_es": "Solo si quieres el chime británico completo. El AC30 ($1,099) es un ampli de válvulas de 30 vatios con el famoso canal Top Boost que entrega ese sonido Vox brillante y jangly de innumerables discos clásicos — además pesa más de 70 libras. El Blues Junior IV ($749) es un combo de 15 vatios que clava el clean y la rotura Fender clásicos, es mucho más ligero y fácil de manejar. Elige el AC30 por ese inconfundible chime si puedes cargarlo; elige el Blues Junior por tono Fender clásico y portabilidad.",
       "faq_q5_es": "¿Qué amplificador es mejor para practicar en casa a bajo volumen?",
       "faq_a5_es": "Ambos son excelentes, pero el Fender Blues Junior IV de 15 vatios con control de volumen maestro logra buenos tonos a volúmenes de apartamento. El Vox AC30 de 30 vatios es notoriamente ruidoso y necesita volumen para sonar bien. Para casa, el Blues Junior es mucho mejor."
     },
@@ -14199,18 +14311,10 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "1995",
-          "val2": "1958",
-          "val1_es": "1995",
-          "val2_es": "1958"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Affordable All-Tube American Tone",
-          "val2": "The British Invasion Sound with Chime and Top-Boost",
-          "val1_es": "Sonido Americano Todo-Válvulas Asequible",
-          "val2_es": "El Sonido de la Invasión Británica con Brillantez y Top-Boost"
+          "val1": "1995 (IV: 2018)",
+          "val2": "1958 (AC30C2: 2011)",
+          "val1_es": "1995 (IV: 2018)",
+          "val2_es": "1958 (AC30C2: 2011)"
         },
         {
           "label": "Best For",
@@ -14218,15 +14322,55 @@
           "val1": "Blues and classic rock",
           "val2": "British chime and indie rock",
           "val1_es": "Blues y rock clásico",
-          "val2_es": "Brillo británico e indie rock"
+          "val2_es": "Chime británico e indie rock"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Fender",
-          "val2": "Vox",
-          "val1_es": "Fender",
-          "val2_es": "Vox"
+          "label": "Power",
+          "label_es": "Potencia",
+          "val1": "15W (into 8Ω)",
+          "val2": "30W (into 16Ω)",
+          "val1_es": "15W (en 8Ω)",
+          "val2_es": "30W (en 16Ω)"
+        },
+        {
+          "label": "Speaker",
+          "label_es": "Altavoz",
+          "val1": "1x12\" Celestion A-Type",
+          "val2": "2x12\" Celestion G12M Greenback",
+          "val1_es": "1x12\" Celestion A-Type",
+          "val2_es": "2x12\" Celestion G12M Greenback"
+        },
+        {
+          "label": "Tubes",
+          "label_es": "Válvulas",
+          "val1": "3x 12AX7, 2x EL84",
+          "val2": "3x 12AX7, 4x EL84",
+          "val1_es": "3x 12AX7, 2x EL84",
+          "val2_es": "3x 12AX7, 4x EL84"
+        },
+        {
+          "label": "Channels",
+          "label_es": "Canales",
+          "val1": "1 (with FAT switch)",
+          "val2": "2 (Normal + Top Boost)",
+          "val1_es": "1 (con interruptor FAT)",
+          "val2_es": "2 (Normal + Top Boost)"
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "val1": "Spring reverb",
+          "val2": "Spring reverb, tremolo, FX loop",
+          "val1_es": "Reverb de resorte",
+          "val2_es": "Reverb de resorte, trémolo, lazo de efectos"
+        },
+        {
+          "label": "Made In",
+          "label_es": "Hecho en",
+          "val1": "Mexico",
+          "val2": "UK/China (Custom Series)",
+          "val1_es": "México",
+          "val2_es": "UK/China (Custom Series)"
         },
         {
           "label": "Rating",
@@ -14237,52 +14381,12 @@
           "val2_es": "4.8/5"
         },
         {
-          "label": "Power",
-          "label_es": "Potencia",
-          "val1": "15W",
-          "val2": "30W",
-          "val1_es": "15W",
-          "val2_es": "30W"
-        },
-        {
-          "label": "Speaker",
-          "label_es": "Altavoz",
-          "val1": "1 x 12\" Celestion A-Type",
-          "val2": "2 x 12\" Celestion Greenback",
-          "val1_es": "1 x 12\" Celestion A-Type",
-          "val2_es": "2 x 12\" Celestion Greenback"
-        },
-        {
-          "label": "Tubes",
-          "label_es": "Válvulas",
-          "val1": "3 x 12AX7, 2 x EL84",
-          "val2": "3 x 12AX7, 4 x EL84",
-          "val1_es": "3 x 12AX7, 2 x EL84",
-          "val2_es": "3 x 12AX7, 4 x EL84"
-        },
-        {
-          "label": "Channels",
-          "label_es": "Canales",
-          "val1": "1 with FAT switch",
-          "val2": "2 (Normal, Top Boost)",
-          "val1_es": "1 con interruptor FAT",
-          "val2_es": "2 (Normal, Top Boost)"
-        },
-        {
-          "label": "Effects",
-          "label_es": "Efectos",
-          "val1": "Spring reverb, effects loop",
-          "val2": "Spring reverb, tremolo",
-          "val1_es": "Reverb de muelle, bucle de efectos",
-          "val2_es": "Reverb de muelle, trémolo"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$699",
-          "val2": "$1.1k",
-          "val1_es": "$699",
-          "val2_es": "$1.1k"
+          "val1": "$749",
+          "val2": "$1,799",
+          "val1_es": "$749",
+          "val2_es": "$1,799"
         }
       ]
     },
@@ -14460,9 +14564,9 @@
       "rating1": 4.6,
       "rating2": 4.7,
       "faq_q1_en": "Should I buy the Boss Katana 50 MkII or the Marshall DSL40CR?",
-      "faq_a1_en": "Buy the Katana 50 MkII ($259) for versatility and value: five amp characters, 55 built-in effects, power attenuation and USB recording make it the best home and practice amp under $300. Buy the DSL40CR ($999) if you need genuine all-tube Marshall tone with the classic crunch and a real valve feel for gigs and sessions. The Katana is the smart modern all-rounder; the DSL is the authentic tube amp.",
+      "faq_a1_en": "Buy the Katana 50 MkII ($229) for versatility and value: five amp characters, 15 onboard effects (60+ via Tone Studio), power attenuation and USB recording make it the best home and practice amp under $300. Buy the DSL40CR ($749) if you need genuine all-tube Marshall tone with the classic crunch and a real valve feel for gigs and sessions. The Katana is the smart modern all-rounder; the DSL is the authentic tube amp.",
       "faq_q2_en": "What is the difference between the Katana 50 MkII and the DSL40CR?",
-      "faq_a2_en": "The Katana 50 MkII ($259) is a digital modeling amp with five amp types, 55 effects, a 0.5W/25W/50W power selector for silent-to-room levels and direct USB recording — light, quiet and full-featured. The DSL40CR ($999) is an all-tube 40W combo with Classic Gain and Ultra Gain channels, reverb and a 12-inch Celestion speaker, delivering the dynamic, amp-like feel that modeling cannot fully copy. The Katana is features and price; the DSL is tube character and stage power.",
+      "faq_a2_en": "The Katana 50 MkII ($229) is a digital modeling amp with five amp types, 55 effects, a 0.5W/25W/50W power selector for silent-to-room levels and direct USB recording — light, quiet and full-featured. The DSL40CR ($749) is an all-tube 40W combo with Classic Gain and Ultra Gain channels, reverb and a 12-inch Celestion speaker, delivering the dynamic, amp-like feel that modeling cannot fully copy. The Katana is features and price; the DSL is tube character and stage power.",
       "specs": [
         {
           "label_es": "Potencia",
@@ -14504,19 +14608,19 @@
       "key1_es": "Cinco Caracteres con Atenuación de Potencia",
       "key2_es": "40 Vatios Totalmente a Válvulas",
       "faq_q1_es": "¿Debería comprar el Boss Katana 50 MkII o el Marshall DSL40CR?",
-      "faq_a1_es": "Compra el Katana 50 MkII ($259) por versatilidad y valor: cinco caracteres de amplificador, 55 efectos integrados, atenuación de potencia y grabación USB lo convierten en el mejor ampli casero y de práctica por menos de $300. Compra el DSL40CR ($999) si necesitas auténtico tono Marshall de válvulas con el crunch clásico y una sensación valvular real para conciertos y sesiones. El Katana es el todoterreno moderno inteligente; el DSL es el amplificador de válvulas auténtico.",
+      "faq_a1_es": "Compra el Katana 50 MkII ($229) por versatilidad y valor: cinco caracteres de amplificador, 55 efectos integrados, atenuación de potencia y grabación USB lo convierten en el mejor ampli casero y de práctica por menos de $300. Compra el DSL40CR ($749) si necesitas auténtico tono Marshall de válvulas con el crunch clásico y una sensación valvular real para conciertos y sesiones. El Katana es el todoterreno moderno inteligente; el DSL es el amplificador de válvulas auténtico.",
       "faq_q2_es": "¿Cuál es la diferencia entre el Katana 50 MkII y el DSL40CR?",
-      "faq_a2_es": "El Katana 50 MkII ($259) es un amplificador de modelado digital con cinco tipos de ampli, 55 efectos, selector de potencia 0.5W/25W/50W para niveles de silencio a sala y grabación USB directa — ligero, silencioso y lleno de funciones. El DSL40CR ($999) es un combo de válvulas de 40W con canales Classic Gain y Ultra Gain, reverb y un altavoz Celestion de 12 pulgadas, ofreciendo la sensación dinámica tipo válvula que el modelado no copia del todo. El Katana es funciones y precio; el DSL es carácter valvular y potencia de escenario.",
+      "faq_a2_es": "El Katana 50 MkII ($229) es un amplificador de modelado digital con cinco tipos de ampli, 55 efectos, selector de potencia 0.5W/25W/50W para niveles de silencio a sala y grabación USB directa — ligero, silencioso y lleno de funciones. El DSL40CR ($749) es un combo de válvulas de 40W con canales Classic Gain y Ultra Gain, reverb y un altavoz Celestion de 12 pulgadas, ofreciendo la sensación dinámica tipo válvula que el modelado no copia del todo. El Katana es funciones y precio; el DSL es carácter valvular y potencia de escenario.",
       "faq_q3_en": "Which amp sounds good at bedroom volume?",
-      "faq_a3_en": "The Katana 50 MkII ($259) is clearly better at bedroom volume. Its power control drops to 0.5W or 25W, so you get good tone without shaking the house, and it has a headphone/recording output. The DSL40CR ($999) is a 40W tube amp that needs to be opened up to sound its best — at low volume it is quieter but lacks that pushed-tube sparkle. For apartment and late-night playing, the Katana; for gigging, the DSL.",
+      "faq_a3_en": "The Katana 50 MkII ($229) is clearly better at bedroom volume. Its power control drops to 0.5W or 25W, so you get good tone without shaking the house, and it has a headphone/recording output. The DSL40CR ($749) is a 40W tube amp that needs to be opened up to sound its best — at low volume it is quieter but lacks that pushed-tube sparkle. For apartment and late-night playing, the Katana; for gigging, the DSL.",
       "faq_q4_en": "Is the Marshall DSL40CR worth $740 more than the Katana 50?",
-      "faq_a4_en": "Only if you need true tube tone and gig power. The DSL40CR ($999) is an all-tube 40-watt amp with the classic Marshall crunch and a proper valve-driven feel that the Katana 50 ($259) cannot fully replicate — it is a real gig and studio amp. The Katana is a digital modeling amp that sounds remarkably good, is light, quiet at home and has 55 effects built in, making it the better value for practice and recording. Buy the Marshall for genuine tube character; buy the Katana for versatility and price.",
+      "faq_a4_en": "Only if you need true tube tone and gig power. The DSL40CR ($749) is an all-tube 40-watt amp with the classic Marshall crunch and a proper valve-driven feel that the Katana 50 ($229) cannot fully replicate — it is a real gig and studio amp. The Katana is a digital modeling amp that sounds remarkably good, is light, quiet at home and has 55 effects built in, making it the better value for practice and recording. Buy the Marshall for genuine tube character; buy the Katana for versatility and price.",
       "faq_q5_en": "Which amp has better built-in effects without needing pedals?",
       "faq_a5_en": "The Boss Katana 50 MkII has 6 built-in effects categories (booster, mod, FX, delay, reverb, and EQ) with 3 variations each, accessible via the panel or Tone Studio software. The Marshall DSL40CR has only reverb built-in — everything else requires external pedals. For all-in-one convenience, Katana wins.",
       "faq_q3_es": "¿Qué amplificador suena bien a volumen de dormitorio?",
-      "faq_a3_es": "El Katana 50 MkII ($259) es claramente mejor a volumen de dormitorio. Su control de potencia baja a 0.5W o 25W, así que consigues buen tono sin sacudir la casa, y tiene salida de auriculares/grabación. El DSL40CR ($999) es un ampli de válvulas de 40W que necesita abrirse para sonar de verdad — a bajo volumen es más silencioso pero le falta ese brillo de válvulas empujadas. Para tocar en apartamento y de noche, el Katana; para conciertos, el DSL.",
+      "faq_a3_es": "El Katana 50 MkII ($229) es claramente mejor a volumen de dormitorio. Su control de potencia baja a 0.5W o 25W, así que consigues buen tono sin sacudir la casa, y tiene salida de auriculares/grabación. El DSL40CR ($749) es un ampli de válvulas de 40W que necesita abrirse para sonar de verdad — a bajo volumen es más silencioso pero le falta ese brillo de válvulas empujadas. Para tocar en apartamento y de noche, el Katana; para conciertos, el DSL.",
       "faq_q4_es": "¿Merece la pena el Marshall DSL40CR $740 más que el Katana 50?",
-      "faq_a4_es": "Solo si necesitas tono de válvulas real y potencia para conciertos. El DSL40CR ($999) es un ampli de válvulas de 40 vatios con el crunch Marshall clásico y un tacto real impulsado por válvulas que el Katana 50 ($259) no puede replicar del todo — es un ampli de verdad para gigs y estudio. El Katana es un ampli de modelado digital que suena notablemente bien, es ligero, silencioso en casa y tiene 55 efectos integrados, siendo el mejor valor para practicar y grabar. Compra el Marshall por carácter de válvulas genuino; compra el Katana por versatilidad y precio.",
+      "faq_a4_es": "Solo si necesitas tono de válvulas real y potencia para conciertos. El DSL40CR ($749) es un ampli de válvulas de 40 vatios con el crunch Marshall clásico y un tacto real impulsado por válvulas que el Katana 50 ($229) no puede replicar del todo — es un ampli de verdad para gigs y estudio. El Katana es un ampli de modelado digital que suena notablemente bien, es ligero, silencioso en casa y tiene 55 efectos integrados, siendo el mejor valor para practicar y grabar. Compra el Marshall por carácter de válvulas genuino; compra el Katana por versatilidad y precio.",
       "faq_q5_es": "¿Qué amplificador tiene mejores efectos integrados sin necesidad de pedales?",
       "faq_a5_es": "El Boss Katana 50 MkII tiene 6 categorías de efectos integrados con 3 variaciones cada una. El Marshall DSL40CR solo tiene reverberación integrada — todo lo demás requiere pedales externos. Para todo-en-uno, Katana gana."
     },
@@ -14525,34 +14629,66 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2016",
-          "val2": "2018",
-          "val1_es": "2016",
-          "val2_es": "2018"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Versatile Modeling Amp",
-          "val2": "Authentic All-Tube Marshall Tone",
-          "val1_es": "El Amplificador de Modelado Versátil",
-          "val2_es": "Sonido Marshall Auténtico Todo-Válvulas"
+          "val1": "2019 (MkII; Gen 3 2024)",
+          "val2": "2018 (DSL40CR)",
+          "val1_es": "2019 (MkII; Gen 3 2024)",
+          "val2_es": "2018 (DSL40CR)"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Versatile practice and gigging",
           "val2": "Classic rock and metal",
-          "val1_es": "Práctica y conciertos versátil",
+          "val1_es": "Práctica versátil y tocar en vivo",
           "val2_es": "Rock clásico y metal"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Boss",
-          "val2": "Marshall",
-          "val1_es": "Boss",
-          "val2_es": "Marshall"
+          "label": "Power",
+          "label_es": "Potencia",
+          "val1": "50W (Power Control: 0.5W / 25W / 50W)",
+          "val2": "40W (switchable to 20W)",
+          "val1_es": "50W (Power Control: 0.5W / 25W / 50W)",
+          "val2_es": "40W (conmutable a 20W)"
+        },
+        {
+          "label": "Speaker",
+          "label_es": "Altavoz",
+          "val1": "1x12\" custom Boss",
+          "val2": "1x12\" Celestion V-Type",
+          "val1_es": "1x12\" Boss personalizado",
+          "val2_es": "1x12\" Celestion V-Type"
+        },
+        {
+          "label": "Tubes",
+          "label_es": "Válvulas",
+          "val1": "N/A (solid-state modeling)",
+          "val2": "4x ECC83, 2x EL34",
+          "val1_es": "N/A (transistorizada modeling)",
+          "val2_es": "4x ECC83, 2x EL34"
+        },
+        {
+          "label": "Channels",
+          "label_es": "Canales",
+          "val1": "5 amp types (Clean, Crunch, Lead, Brown, Acoustic)",
+          "val2": "2 (Classic Gain, Ultra Gain) each w/2 modes",
+          "val1_es": "5 tipos de ampli (Clean, Crunch, Lead, Brown, Acoustic)",
+          "val2_es": "2 (Classic Gain, Ultra Gain) cada uno con 2 modos"
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "val1": "Booster, Mod, FX, Delay, Reverb (15 onboard)",
+          "val2": "Digital reverb per channel",
+          "val1_es": "Booster, Mod, FX, Delay, Reverb (15 integrados)",
+          "val2_es": "Reverb digital por canal"
+        },
+        {
+          "label": "Effects Loop",
+          "label_es": "Lazo de Efectos",
+          "val1": "No (Power Amp In only)",
+          "val2": "Yes (series)",
+          "val1_es": "No (solo Power Amp In)",
+          "val2_es": "Sí (serie)"
         },
         {
           "label": "Rating",
@@ -14563,52 +14699,12 @@
           "val2_es": "4.7/5"
         },
         {
-          "label": "Power",
-          "label_es": "Potencia",
-          "val1": "50W",
-          "val2": "40W (power reduction to 20W)",
-          "val1_es": "50W",
-          "val2_es": "40W (reducción de potencia a 20W)"
-        },
-        {
-          "label": "Speaker",
-          "label_es": "Altavoz",
-          "val1": "1 x 12\" custom",
-          "val2": "1 x 12\" Celestion V-Type",
-          "val1_es": "1 x 12\" personalizado",
-          "val2_es": "1 x 12\" Celestion V-Type"
-        },
-        {
-          "label": "Tubes",
-          "label_es": "Válvulas",
-          "val1": "N/A (modeling)",
-          "val2": "4 x ECC83, 2 x EL34",
-          "val1_es": "N/D (modelado)",
-          "val2_es": "4 x ECC83, 2 x EL34"
-        },
-        {
-          "label": "Channels",
-          "label_es": "Canales",
-          "val1": "5 (Acoustic, Clean, Crunch, Lead, Brown)",
-          "val2": "2 (Classic Gain, Ultra Gain) each w/2 modes",
-          "val1_es": "5 (Acoustic, Clean, Crunch, Lead, Brown)",
-          "val2_es": "2 (Classic Gain, Ultra Gain) c/u con 2 modos"
-        },
-        {
-          "label": "Effects",
-          "label_es": "Efectos",
-          "val1": "Booster, Mod, FX, Delay, Reverb",
-          "val2": "Digital reverb, series effects loop",
-          "val1_es": "Booster, Mod, FX, Delay, Reverb",
-          "val2_es": "Reverb digital, bucle de efectos en serie"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$259",
-          "val2": "$999",
-          "val1_es": "$259",
-          "val2_es": "$999"
+          "val1": "$229",
+          "val2": "$749",
+          "val1_es": "$229",
+          "val2_es": "$749"
         }
       ]
     },
@@ -14796,7 +14892,7 @@
       "rating1": 4.9,
       "rating2": 4.7,
       "faq_q1_en": "Should I buy the FabFilter Total Bundle or iZotope Ozone 12 Advanced?",
-      "faq_a1_en": "Buy the FabFilter Total Bundle ($1,069) if you mix — Pro-Q 3, Pro-C 2 and Pro-L 2 are the gold standard for surgical EQ, compression and limiting on every session. Buy Ozone 12 Advanced ($499) if you master your own music and want AI-assisted tools like Master Assistant and stem EQ to finish tracks fast. FabFilter improves your mixing every day; Ozone shines at the final mastering stage.",
+      "faq_a1_en": "Buy the FabFilter Total Bundle ($1,069) if you mix — Pro-Q 4, Pro-C 3 and Pro-L 2 are the gold standard for surgical EQ, compression and limiting on every session. Buy Ozone 12 Advanced ($499) if you master your own music and want AI-assisted tools like Master Assistant and stem EQ to finish tracks fast. FabFilter improves your mixing every day; Ozone shines at the final mastering stage.",
       "faq_q2_en": "What is the difference between the FabFilter Total Bundle and iZotope Ozone 12 Advanced?",
       "faq_a2_en": "The FabFilter Total Bundle ($1,069) is a collection of individual mixing tools — Pro-Q 3 with its spectrum analyzer and collapsible bands, Pro-C 2 compression, Pro-L 2 loudness metering — used across every session. Ozone 12 Advanced ($499) is an all-in-one mastering suite with AI Master Assistant, stem EQ, Tonal Balance Control and a full chain of mastering modules. FabFilter gives you precise surgical control; Ozone gives you a guided, complete mastering workflow.",
       "specs": [
@@ -14820,15 +14916,15 @@
         }
       ],
       "title_es": "FabFilter Total Bundle vs iZotope Ozone 12 Advanced: ¿Cuál deberías elegir?",
-      "text_es": "El FabFilter Total Bundle es el mejor paquete de plugins para mezcla quirúrgica, con Pro-Q 3, Pro-C 2 y Pro-L 2 que establecen el estándar de transparencia. iZotope Ozone 12 Advanced es el mejor paquete para masterización asistida por IA, con Master Assistant y módulos completos.",
+      "text_es": "El FabFilter Total Bundle es el mejor paquete de plugins para mezcla quirúrgica, con Pro-Q 4, Pro-C 3 y Pro-L 2 que establecen el estándar de transparencia. iZotope Ozone 12 Advanced es el mejor paquete para masterización asistida por IA, con Master Assistant y módulos completos.",
       "name1_es": "FabFilter Total Bundle",
       "name2_es": "iZotope Ozone 12 Advanced",
       "best1_es": "Mezcla quirúrgica y transparencia",
       "best2_es": "Masterización asistida por IA",
-      "key1_es": "Pro-Q 3, Pro-C 2 y Pro-L 2: El Estándar",
+      "key1_es": "Pro-Q 4, Pro-C 3 y Pro-L 2: El Estándar",
       "key2_es": "Master Assistant con Módulos Completo",
       "faq_q1_es": "¿Debería comprar el FabFilter Total Bundle o el iZotope Ozone 12 Advanced?",
-      "faq_a1_es": "Compra el FabFilter Total Bundle ($1,069) si mezclas — Pro-Q 3, Pro-C 2 y Pro-L 2 son el estándar de oro para EQ, compresión y limitación quirúrgica en cada sesión. Compra Ozone 12 Advanced ($499) si masterizas tu propia música y quieres herramientas asistidas por IA como Master Assistant y stem EQ para terminar pistas rápido. FabFilter mejora tu mezcla cada día; Ozone brilla en la fase final de masterización.",
+      "faq_a1_es": "Compra el FabFilter Total Bundle ($1,069) si mezclas — Pro-Q 4, Pro-C 3 y Pro-L 2 son el estándar de oro para EQ, compresión y limitación quirúrgica en cada sesión. Compra Ozone 12 Advanced ($499) si masterizas tu propia música y quieres herramientas asistidas por IA como Master Assistant y stem EQ para terminar pistas rápido. FabFilter mejora tu mezcla cada día; Ozone brilla en la fase final de masterización.",
       "faq_q2_es": "¿Cuál es la diferencia entre el FabFilter Total Bundle y el iZotope Ozone 12 Advanced?",
       "faq_a2_es": "El FabFilter Total Bundle ($1,069) es una colección de herramientas individuales de mezcla — Pro-Q 3 con su analizador de espectro y bandas plegables, compresión Pro-C 2, medición de sonoridad Pro-L 2 — usadas en cada sesión. Ozone 12 Advanced ($499) es una suite de masterización todo-en-uno con Master Assistant de IA, stem EQ, Tonal Balance Control y una cadena completa de módulos de masterización. FabFilter te da control quirúrgico preciso; Ozone te da un flujo de masterización guiado y completo.",
       "faq_q3_en": "Which bundle has better metering and visual feedback for mixing?",
@@ -14849,34 +14945,58 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "2002",
-          "val2": "2001",
-          "val1_es": "2002",
-          "val2_es": "2001"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Gold Standard for Surgical Mixing",
-          "val2": "AI-Assisted Mastering Suite",
-          "val1_es": "El Estándar de Oro para Mezcla Quirúrgica",
-          "val2_es": "Suite de Masterización Asistida por IA"
+          "val1": "2023 (Pro-Q 4 current)",
+          "val2": "2025 (Ozone 12 Advanced)",
+          "val1_es": "2023 (Pro-Q 4 actual)",
+          "val2_es": "2025 (Ozone 12 Advanced)"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Mixing and mastering EQ and dynamics",
           "val2": "AI-powered mastering suite",
-          "val1_es": "EQ y dinámica para mezcla y master",
-          "val2_es": "Suite de masterización con IA"
+          "val1_es": "Mezcla y mastering de EQ y dinámica",
+          "val2_es": "Suite de mastering con IA"
         },
         {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "FabFilter",
-          "val2": "iZotope",
-          "val1_es": "FabFilter",
-          "val2_es": "iZotope"
+          "label": "Included Plugins",
+          "label_es": "Plugins Incluidos",
+          "val1": "14 (Total Bundle): Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Pro-MB, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.",
+          "val2": "20 modules (Stem EQ, Clarity, Stabilizer, Unlimiter, Maximizer, Bass Control, Tonal Balance, etc.)",
+          "val1_es": "14 (Total Bundle): Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Pro-MB, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.",
+          "val2_es": "20 módulos (Stem EQ, Clarity, Stabilizer, Unlimiter, Maximizer, Bass Control, Tonal Balance, etc.)"
+        },
+        {
+          "label": "Formats",
+          "label_es": "Formatos",
+          "val1": "VST2, VST3, AU, CLAP, AAX",
+          "val2": "AU, AAX, VST3",
+          "val1_es": "VST2, VST3, AU, CLAP, AAX",
+          "val2_es": "AU, AAX, VST3"
+        },
+        {
+          "label": "AI Features",
+          "label_es": "Funciones IA",
+          "val1": "No",
+          "val2": "Yes (AI Master Assistant, Stem Focus)",
+          "val1_es": "No",
+          "val2_es": "Sí (AI Master Assistant, Stem Focus)"
+        },
+        {
+          "label": "Individual Plugins",
+          "label_es": "Plugins Individuales",
+          "val1": "Yes (each sold separately $199)",
+          "val2": "Advanced only (as separate DAW plugins)",
+          "val1_es": "Sí (cada uno se vende por separado $199)",
+          "val2_es": "Solo Advanced (como plugins DAW separados)"
+        },
+        {
+          "label": "Free Updates",
+          "label_es": "Actualizaciones Gratis",
+          "val1": "Yes",
+          "val2": "Yes",
+          "val1_es": "Sí",
+          "val2_es": "Sí"
         },
         {
           "label": "Rating",
@@ -14887,36 +15007,12 @@
           "val2_es": "4.7/5"
         },
         {
-          "label": "Included Plugins",
-          "label_es": "Plugins incluidos",
-          "val1": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)",
-          "val2": "20+ modules (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)",
-          "val1_es": "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)",
-          "val2_es": "20+ módulos (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)"
-        },
-        {
-          "label": "Formats",
-          "label_es": "Formatos",
-          "val1": "AAX, AU, VST, VST3",
-          "val2": "AAX, AU, VST, VST3",
-          "val1_es": "AAX, AU, VST, VST3",
-          "val2_es": "AAX, AU, VST, VST3"
-        },
-        {
-          "label": "Delay Compensation",
-          "label_es": "Delay compensación",
-          "val1": "Yes (Plugin Delay Compensation)",
-          "val2": "Yes (Plugin Delay Compensation)",
-          "val1_es": "Sí (Compensación de Delay)",
-          "val2_es": "Sí (Compensación de Delay)"
-        },
-        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$1.1k",
-          "val2": "$499",
-          "val1_es": "$1.1k",
-          "val2_es": "$499"
+          "val1": "$1,069 (Total Bundle)",
+          "val2": "$499 (Ozone 12 Advanced)",
+          "val1_es": "$1,069 (Total Bundle)",
+          "val2_es": "$499 (Ozone 12 Advanced)"
         }
       ]
     },
@@ -17105,18 +17201,18 @@
       {
         "heading": "Which Pedal is Better for Your Pedalboard?",
         "heading_es": "¿Qué Pedal es Mejor para tu Pedalera?",
-        "content": "<strong>Many guitarists end up using both on the same board.</strong> The TS9's mid-boost makes it an excellent solo boost — place it after your main overdrive to cut through the mix. The BD-2 works well as your primary overdrive tone, with the TS9 as a lead boost. In terms of size, both are standard BOSS-sized enclosures. The BD-2 is true bypass; the TS9 uses buffered bypass (which some prefer for maintaining signal integrity over long cable runs). At $99, the BD-2 is the better value. At $149, the TS9 is the classic choice.",
-        "content_es": "<strong>Muchos guitarristas terminan usando ambos en la misma pedalera.</strong> El TS9 como boost para solos, el BD-2 como overdrive principal. Ambos son tamaño estándar. El BD-2 es true bypass. A $99, el BD-2 es mejor relación calidad-precio. A $149, el TS9 es el clásico.",
+        "content": "<strong>Many guitarists end up using both on the same board.</strong> The TS9's mid-boost makes it an excellent solo boost — place it after your main overdrive to cut through the mix. The BD-2 works well as your primary overdrive tone, with the TS9 as a lead boost. In terms of size, both are standard BOSS-sized enclosures. Both pedals use buffered bypass (which some prefer for maintaining signal integrity over long cable runs); the BD-2 adds a low-cut switch option on some versions. At $99, the BD-2 is the better value. At $99, the TS9 is the classic choice.",
+        "content_es": "<strong>Muchos guitarristas terminan usando ambos en la misma pedalera.</strong> El TS9 como boost para solos, el BD-2 como overdrive principal. Ambos son tamaño estándar. El BD-2 es buffered bypass. A $96, el BD-2 es mejor relación calidad-precio. A $99, el TS9 es el clásico.",
         "products": [
           96,
           133
         ]
       }
     ],
-    "conclusion": "Both pedals are essential in their own right. The Ibanez TS9 ($149) is the classic mid-boost overdrive that pushes your amp and cuts through any mix. The Boss BD-2 ($99) is the more versatile, touch-responsive overdrive that works beautifully as your main dirt sound. If you can only buy one, the BD-2 offers more flexibility for different styles. But the ideal setup is both — BD-2 for your base tone, TS9 for solos.",
-    "conclusion_es": "Ambos pedales son esenciales. El Ibanez TS9 ($149) es el overdrive clásico de realce de medios. El Boss BD-2 ($99) es más versátil y sensible. Si solo puedes comprar uno, el BD-2 ofrece más flexibilidad.",
-    "verdict": "BD-2 ($99) for versatility and responsiveness, TS9 ($149) for mid-boost and classic tone",
-    "verdict_es": "BD-2 ($99) versatilidad, TS9 ($149) realce de medios clásico",
+    "conclusion": "Both pedals are essential in their own right. The Ibanez TS9 ($99) is the classic mid-boost overdrive that pushes your amp and cuts through any mix. The Boss BD-2 ($96) is the more versatile, touch-responsive overdrive that works beautifully as your main dirt sound. If you can only buy one, the BD-2 offers more flexibility for different styles. But the ideal setup is both — BD-2 for your base tone, TS9 for solos.",
+    "conclusion_es": "Ambos pedales son esenciales. El Ibanez TS9 ($99) es el overdrive clásico de realce de medios. El Boss BD-2 ($96) es más versátil y sensible. Si solo puedes comprar uno, el BD-2 ofrece más flexibilidad.",
+    "verdict": "BD-2 ($99) for versatility and responsiveness, TS9 ($99) for mid-boost and classic tone",
+    "verdict_es": "BD-2 ($99) versatilidad, TS9 ($99) realce de medios clásico",
     "featuredProducts": [
       96,
       133
@@ -17176,16 +17272,16 @@
         {
           "label_en": "Price",
           "label_es": "Precio",
-          "val1": "$149",
+          "val1": "$99",
           "val2": "$99"
         }
       ],
       "faq_q1_en": "Is the Ibanez TS9 the right overdrive for pushing a tube amp?",
-      "faq_a1_en": "Yes, the Ibanez TS9 ($149) is the classic choice for pushing tube amps into sweet saturation. Its mid-frequency bump and lower output let the amp do the work, giving you that singing, honky overdrive heard on countless blues and rock records.",
+      "faq_a1_en": "Yes, the Ibanez TS9 ($99) is the classic choice for pushing tube amps into sweet saturation. Its mid-frequency bump and lower output let the amp do the work, giving you that singing, honky overdrive heard on countless blues and rock records.",
       "faq_q2_en": "Is the Boss BD-2 a good overdrive for versatile, dynamic playing?",
       "faq_a2_en": "Yes, the Boss BD-2 ($99) uses asymmetrical clipping that responds to your playing dynamics — from clean boost to saturated crunch with great note definition. Its amp-like feel makes it work for blues, rock, indie and everything in between.",
       "faq_q1_es": "¿Es el Ibanez TS9 el overdrive correcto para empujar un amplificador de válvulas?",
-      "faq_a1_es": "Sí, el Ibanez TS9 ($149) es la elección clásica para empujar amplificadores de válvulas hacia una saturación dulce. Su realce de frecuencias medias y salida baja dejan que el amplificador haga el trabajo, dándote ese overdrive cantarín típico de incontables discos de blues y rock.",
+      "faq_a1_es": "Sí, el Ibanez TS9 ($99) es la elección clásica para empujar amplificadores de válvulas hacia una saturación dulce. Su realce de frecuencias medias y salida baja dejan que el amplificador haga el trabajo, dándote ese overdrive cantarín típico de incontables discos de blues y rock.",
       "faq_q2_es": "¿Es el Boss BD-2 un buen overdrive para un estilo versátil y dinámico?",
       "faq_a2_es": "Sí, el Boss BD-2 ($99) usa clipping asimétrico que responde a tu dinámica de ejecución — desde boost limpio a crunch saturado con gran definición de notas. Su sensación similar a un amplificador lo hace funcionar para blues, rock, indie y todo lo demás."
     },
@@ -17194,46 +17290,62 @@
         {
           "label": "Year",
           "label_es": "Año",
-          "val1": "1982",
+          "val1": "1982 (current reissue ~2001)",
           "val2": "1995",
-          "val1_es": "1982",
+          "val1_es": "1982 (reedición actual ~2001)",
           "val2_es": "1995"
         },
         {
           "label": "Circuit Type",
           "label_es": "Tipo de Circuito",
-          "val1": "Mid-boost (tube screamer style)",
-          "val2": "Asymmetrical clipping",
-          "val1_es": "Realce de medios (estilo tube screamer)",
-          "val2_es": "Clipping asimétrico"
+          "val1": "Op-amp overdrive, symmetrical soft-clipping (JRC4558D)",
+          "val2": "Multi-stage transistor + op-amp clipping",
+          "val1_es": "Overdrive de op-amp, recorte simétrico suave (JRC4558D)",
+          "val2_es": "Recorte de transistores de varias etapas + op-amp"
         },
         {
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Pushing tube amps, cutting through mix",
           "val2": "Primary overdrive, touch-responsive playing",
-          "val1_es": "Empujar amplificadores, cortar la mezcla",
-          "val2_es": "Overdrive principal, respuesta al tacto"
+          "val1_es": "Empujar amplis de válvulas, cortar en la mezcla",
+          "val2_es": "Overdrive principal, respuesta al toque"
         },
         {
           "label": "Sound Character",
           "label_es": "Carácter de Sonido",
           "val1": "Mid-forward, tight low end",
           "val2": "Transparent, dynamic, natural",
-          "val1_es": "Medios realzados, graves ajustados",
+          "val1_es": "Medios prominentes, graves apretados",
           "val2_es": "Transparente, dinámico, natural"
+        },
+        {
+          "label": "Controls",
+          "label_es": "Controles",
+          "val1": "Drive, Tone, Level",
+          "val2": "Gain, Tone, Level",
+          "val1_es": "Drive, Tone, Level",
+          "val2_es": "Gain, Tone, Level"
         },
         {
           "label": "Bypass",
           "label_es": "Bypass",
           "val1": "Buffered",
-          "val2": "True bypass",
-          "val1_es": "Bufferizado",
-          "val2_es": "True bypass"
+          "val2": "Buffered",
+          "val1_es": "Amortiguado (buffered)",
+          "val2_es": "Amortiguado (buffered)"
+        },
+        {
+          "label": "Current Draw",
+          "label_es": "Consumo",
+          "val1": "8mA @ 9V",
+          "val2": "20mA @ 9V",
+          "val1_es": "8mA @ 9V",
+          "val2_es": "20mA @ 9V"
         },
         {
           "label": "Rating",
-          "label_es": "Valoración",
+          "label_es": "Puntuación",
           "val1": "4.8/5",
           "val2": "4.7/5",
           "val1_es": "4.8/5",
@@ -17242,10 +17354,10 @@
         {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$149",
-          "val2": "$99",
-          "val1_es": "$149",
-          "val2_es": "$99"
+          "val1": "$99",
+          "val2": "$96",
+          "val1_es": "$99",
+          "val2_es": "$96"
         }
       ]
     },
@@ -20060,8 +20172,8 @@
       {
         "heading": "The Quick Answer: What's the Difference?",
         "heading_es": "La Respuesta Rápida: ¿Cuál es la Diferencia?",
-        "content": "<p><strong>Choose the Precision Bass if you want a thick, punchy, mid-forward tone with dead-simple controls — it's the most recorded bass in history for a reason. Choose the Jazz Bass if you want tonal flexibility, a slimmer neck, and a brighter, more articulate sound that rewards active playing.</strong> The core difference comes down to pickups and neck. The P-Bass has a single split-coil humbucking pickup and a wider 1.625-inch nut with a chunky C-shape neck. The J-Bass has two single-coil pickups that you blend with individual volume controls and a narrower 1.5-inch nut with a slim tapered neck. Both cost $899 in the Player Series and both are built to the same legendary Fender quality standards. The right choice depends entirely on your hands, your genre, and what the mix needs.</p>",
-        "content_es": "<p><strong>Elige el Precision Bass si quieres un tono grueso, contundente y con medios pronunciados con controles simples — es el bajo más grabado de la historia por una razón. Elige el Jazz Bass si quieres flexibilidad tonal, un mástil más delgado y un sonido más brillante y articulado que recompensa la ejecución activa.</strong> La diferencia fundamental se reduce a pastillas y mástil. El P-Bass tiene una pastilla split-coil humbucking y un ancho de cejilla de 1.625 pulgadas con un mástil C-shape robusto. El J-Bass tiene dos pastillas single-coil que mezclas con controles de volumen individuales y una cejilla más estrecha de 1.5 pulgadas con un mástil cónico y delgado. Ambos cuestan $899 en la Serie Player y ambos están construidos con los mismos estándares de calidad legendarios de Fender. La elección correcta depende completamente de tus manos, tu género y lo que la mezcla necesita.</p>",
+        "content": "<p><strong>Choose the Precision Bass if you want a thick, punchy, mid-forward tone with dead-simple controls — it's the most recorded bass in history for a reason. Choose the Jazz Bass if you want tonal flexibility, a slimmer neck, and a brighter, more articulate sound that rewards active playing.</strong> The core difference comes down to pickups and neck. The P-Bass has a single split-coil humbucking pickup and a wider 1.625-inch nut with a chunky C-shape neck. The J-Bass has two single-coil pickups that you blend with individual volume controls and a narrower 1.5-inch nut with a slim tapered neck. Both cost $799 in the Player Series and both are built to the same legendary Fender quality standards. The right choice depends entirely on your hands, your genre, and what the mix needs.</p>",
+        "content_es": "<p><strong>Elige el Precision Bass si quieres un tono grueso, contundente y con medios pronunciados con controles simples — es el bajo más grabado de la historia por una razón. Elige el Jazz Bass si quieres flexibilidad tonal, un mástil más delgado y un sonido más brillante y articulado que recompensa la ejecución activa.</strong> La diferencia fundamental se reduce a pastillas y mástil. El P-Bass tiene una pastilla split-coil humbucking y un ancho de cejilla de 1.625 pulgadas con un mástil C-shape robusto. El J-Bass tiene dos pastillas single-coil que mezclas con controles de volumen individuales y una cejilla más estrecha de 1.5 pulgadas con un mástil cónico y delgado. Ambos cuestan $799 en la Serie Player y ambos están construidos con los mismos estándares de calidad legendarios de Fender. La elección correcta depende completamente de tus manos, tu género y lo que la mezcla necesita.</p>",
         "products": [
           66,
           67
@@ -20108,8 +20220,8 @@
         ]
       }
     ],
-    "conclusion": "There's no wrong choice between the Precision Bass and the Jazz Bass — they're both legendary instruments that have defined recorded music for over 70 years. The P-Bass gives you that thick, fundamental-heavy tone that sits in any mix with zero effort. The J-Bass gives you versatility, a slimmer neck, and a brighter voice that cuts through. The best player knows when to reach for each one. If you're starting out, let your hands decide — the neck feel is the ultimate tiebreaker. At $899 each in the Player Series, you can't go wrong with either Fender icon.",
-    "conclusion_es": "No hay mala elección entre el Precision Bass y el Jazz Bass — ambos son instrumentos legendarios que han definido la música grabada por más de 70 años. El P-Bass te da ese tono grueso y fundamental que se sienta en cualquier mezcla sin esfuerzo. El J-Bass te da versatilidad, un mástil más delgado y una voz más brillante que corta. El mejor músico sabe cuándo usar cada uno. Si estás empezando, deja que tus manos decidan — la sensación del mástil es el desempate definitivo. A $899 cada uno en la Serie Player, no puedes equivocarte con ninguno de estos iconos de Fender.",
+    "conclusion": "There's no wrong choice between the Precision Bass and the Jazz Bass — they're both legendary instruments that have defined recorded music for over 70 years. The P-Bass gives you that thick, fundamental-heavy tone that sits in any mix with zero effort. The J-Bass gives you versatility, a slimmer neck, and a brighter voice that cuts through. The best player knows when to reach for each one. If you're starting out, let your hands decide — the neck feel is the ultimate tiebreaker. At $799 each in the Player Series, you can't go wrong with either Fender icon.",
+    "conclusion_es": "No hay mala elección entre el Precision Bass y el Jazz Bass — ambos son instrumentos legendarios que han definido la música grabada por más de 70 años. El P-Bass te da ese tono grueso y fundamental que se sienta en cualquier mezcla sin esfuerzo. El J-Bass te da versatilidad, un mástil más delgado y una voz más brillante que corta. El mejor músico sabe cuándo usar cada uno. Si estás empezando, deja que tus manos decidan — la sensación del mástil es el desempate definitivo. A $799 cada uno en la Serie Player, no puedes equivocarte con ninguno de estos iconos de Fender.",
     "verdict": "P-Bass for punch and simplicity, J-Bass for versatility and speed",
     "verdict_es": "P-Bass para potencia y simplicidad, J-Bass para versatilidad y velocidad",
     "verdictProsCons": [
@@ -20197,9 +20309,9 @@
       "rating1": 4.6,
       "rating2": 4.6,
       "faq_q1_en": "Should I buy the Fender Precision Bass or the Fender Jazz Bass?",
-      "faq_a1_en": "Buy the Precision Bass ($899) for the classic thick, punchy, mid-forward tone with permanent hum cancellation and simple controls — the bass that defined rock. Buy the Jazz Bass ($899) if you want versatile dual single-coil pickups, a slimmer tapered neck and a brighter, more articulate sound that cuts through. The P is the one-trick legend; the J is the versatile workhorse.",
+      "faq_a1_en": "Buy the Precision Bass ($799) for the classic thick, punchy, mid-forward tone with permanent hum cancellation and simple controls — the bass that defined rock. Buy the Jazz Bass ($799) if you want versatile dual single-coil pickups, a slimmer tapered neck and a brighter, more articulate sound that cuts through. The P is the one-trick legend; the J is the versatile workhorse.",
       "faq_q2_en": "What is the difference between the Fender Precision Bass and the Fender Jazz Bass?",
-      "faq_a2_en": "The Precision Bass ($899) has a split-coil humbucking pickup and a wider 1.625-inch neck, giving a thick, punchy, mid-forward tone that sits perfectly in a dense mix with no EQ work. The Jazz Bass ($899) has dual single-coil pickups and a slimmer 1.5-inch tapered neck, giving brighter, more articulate and versatile sound with the famous J-Bass burp. The P is punchier and hum-free; the J is slimmer, brighter and more flexible across styles.",
+      "faq_a2_en": "The Precision Bass ($799) has a split-coil humbucking pickup and a wider 1.625-inch neck, giving a thick, punchy, mid-forward tone that sits perfectly in a dense mix with no EQ work. The Jazz Bass ($799) has dual single-coil pickups and a slimmer 1.5-inch tapered neck, giving brighter, more articulate and versatile sound with the famous J-Bass burp. The P is punchier and hum-free; the J is slimmer, brighter and more flexible across styles.",
       "faq_q3_en": "Which is better for small hands — Precision Bass or Jazz Bass?",
       "faq_a3_en": "The Jazz Bass is better for small hands thanks to its slimmer 1.5-inch nut width and tapered neck profile, which make fast passages and complex chords significantly easier to play.",
       "faq_q4_en": "Which bass is better for rock music?",
@@ -20253,9 +20365,9 @@
       "key1_es": "La Base del Ritmo",
       "key2_es": "La Voz del Bajo",
       "faq_q1_es": "¿Debería comprar el Fender Precision Bass o el Fender Jazz Bass?",
-      "faq_a1_es": "Compra el Precision Bass ($899) por el clásico tono grueso, contundente y con énfasis en medios, con cancelación de ruido permanente y controles simples — el bajo que definió el rock. Compra el Jazz Bass ($899) si quieres pastillas duales single-coil versátiles, un mástil cónico más delgado y un sonido más brillante y articulado que corta la mezcla. El P es la leyenda de un solo sonido; el J es el caballo de batalla versátil.",
+      "faq_a1_es": "Compra el Precision Bass ($799) por el clásico tono grueso, contundente y con énfasis en medios, con cancelación de ruido permanente y controles simples — el bajo que definió el rock. Compra el Jazz Bass ($799) si quieres pastillas duales single-coil versátiles, un mástil cónico más delgado y un sonido más brillante y articulado que corta la mezcla. El P es la leyenda de un solo sonido; el J es el caballo de batalla versátil.",
       "faq_q2_es": "¿Cuál es la diferencia entre el Fender Precision Bass y el Fender Jazz Bass?",
-      "faq_a2_es": "El Precision Bass ($899) tiene una pastilla split-coil humbucking y un mástil más ancho de 1.625 pulgadas, dando un tono grueso, contundente y con énfasis en medios que se sienta perfectamente en una mezcla densa sin trabajo de EQ. El Jazz Bass ($899) tiene pastillas duales single-coil y un mástil cónico más delgado de 1.5 pulgadas, dando un sonido más brillante, articulado y versátil con el famoso burp del J-Bass. El P es más contundente y sin ruido; el J es más delgado, brillante y flexible entre estilos.",
+      "faq_a2_es": "El Precision Bass ($799) tiene una pastilla split-coil humbucking y un mástil más ancho de 1.625 pulgadas, dando un tono grueso, contundente y con énfasis en medios que se sienta perfectamente en una mezcla densa sin trabajo de EQ. El Jazz Bass ($799) tiene pastillas duales single-coil y un mástil cónico más delgado de 1.5 pulgadas, dando un sonido más brillante, articulado y versátil con el famoso burp del J-Bass. El P es más contundente y sin ruido; el J es más delgado, brillante y flexible entre estilos.",
       "faq_q3_es": "¿Cuál es mejor para manos pequeñas — Precision Bass o Jazz Bass?",
       "faq_a3_es": "El Jazz Bass es mejor para manos pequeñas gracias a su cejilla más delgada de 1.5 pulgadas y su perfil de mástil cónico, que hacen que los pasajes rápidos y acordes complejos sean significativamente más fáciles.",
       "faq_q4_es": "¿Qué bajo es mejor para música rock?",
@@ -20268,18 +20380,10 @@
         {
           "label": "Year Introduced",
           "label_es": "Año de Introducción",
-          "val1": "1951",
-          "val2": "1960",
-          "val1_es": "1951",
-          "val2_es": "1960"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "The Foundation",
-          "val2": "The Voice",
-          "val1_es": "La Base del Ritmo",
-          "val2_es": "La Voz del Bajo"
+          "val1": "1951 (current Player II 2024)",
+          "val2": "1960 (current Player II 2024)",
+          "val1_es": "1951 (Player II actual 2024)",
+          "val2_es": "1960 (Player II actual 2024)"
         },
         {
           "label": "Best For",
@@ -20287,47 +20391,39 @@
           "val1": "Rock, punk, Motown, country",
           "val2": "Funk, fusion, jazz, R&B",
           "val1_es": "Rock, punk, Motown, country",
-          "val2_es": "Funk, fusión, jazz, R&B"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Fender",
-          "val2": "Fender",
-          "val1_es": "Fender",
-          "val2_es": "Fender"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.6/5",
-          "val2": "4.6/5",
-          "val1_es": "4.6/5",
-          "val2_es": "4.6/5"
+          "val2_es": "Funk, fusion, jazz, R&B"
         },
         {
           "label": "Pickup Configuration",
           "label_es": "Configuración de Pastillas",
-          "val1": "Split-coil humbucker",
-          "val2": "Two single-coils",
-          "val1_es": "Split-coil humbucking",
-          "val2_es": "Dos single-coil"
+          "val1": "1x split-coil humbucker (Alnico 5)",
+          "val2": "2x single-coils (Alnico 5)",
+          "val1_es": "1x humbucker split-coil (Alnico 5)",
+          "val2_es": "2x single-coils (Alnico 5)"
         },
         {
           "label": "Nut Width",
-          "label_es": "Ancho de Cejilla",
-          "val1": "1.625 in (43mm)",
-          "val2": "1.5 in (38mm)",
-          "val1_es": "1.625 pulg (43mm)",
-          "val2_es": "1.5 pulg (38mm)"
+          "label_es": "Ancho de Cejuela",
+          "val1": "1.625\" (41.3mm)",
+          "val2": "1.5\" (38.1mm)",
+          "val1_es": "1.625\" (41.3mm)",
+          "val2_es": "1.5\" (38.1mm)"
         },
         {
           "label": "Neck Profile",
-          "label_es": "Perfil del Mástil",
-          "val1": "C-shape, medium",
-          "val2": "Tapered C-shape, slim",
-          "val1_es": "C-shape, mediano",
-          "val2_es": "C-shape cónico, delgado"
+          "label_es": "Perfil de Mástil",
+          "val1": "Modern C",
+          "val2": "Modern C",
+          "val1_es": "Modern C",
+          "val2_es": "Modern C"
+        },
+        {
+          "label": "Frets",
+          "label_es": "Trastes",
+          "val1": "20 medium-jumbo",
+          "val2": "20 medium-jumbo",
+          "val1_es": "20 medium-jumbo",
+          "val2_es": "20 medium-jumbo"
         },
         {
           "label": "Controls",
@@ -20339,19 +20435,35 @@
         },
         {
           "label": "Body Style",
-          "label_es": "Estilo del Cuerpo",
+          "label_es": "Estilo de Cuerpo",
           "val1": "Symmetrical double cutaway",
           "val2": "Offset waist double cutaway",
           "val1_es": "Doble cutaway simétrico",
-          "val2_es": "Doble cutaway cintura asimétrica"
+          "val2_es": "Doble cutaway de cintura offset"
+        },
+        {
+          "label": "Scale Length",
+          "label_es": "Longitud de Escala",
+          "val1": "34\"",
+          "val2": "34\"",
+          "val1_es": "34\"",
+          "val2_es": "34\""
+        },
+        {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.6/5",
+          "val2": "4.6/5",
+          "val1_es": "4.6/5",
+          "val2_es": "4.6/5"
         },
         {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$899",
-          "val2": "$899",
-          "val1_es": "$899",
-          "val2_es": "$899"
+          "val1": "$799",
+          "val2": "$799",
+          "val1_es": "$799",
+          "val2_es": "$799"
         }
       ]
     },
@@ -20946,8 +21058,8 @@
         ]
       }
     ],
-    "conclusion": "Ableton Live 12 Suite and Logic Pro are both top-tier DAWs, but they serve different masters. Ableton is the creative powerhouse for electronic music producers and live performers — its Session View, warping engine, and Max for Live ecosystem are unmatched. Logic Pro is the complete production studio for Mac users — the best value in professional audio at $199, with an instrument library that rivals Kontakt Komplete. The right choice depends on your genre, your platform, and your budget. If you're on Mac and make music with live instruments, Logic is the obvious choice. If you produce electronic music or perform live, Ableton justifies its $799 price tag. And if you can afford both, they complement each other perfectly in a professional workflow.",
-    "conclusion_es": "Ableton Live 12 Suite y Logic Pro son ambos DAWs de primer nivel, pero sirven a diferentes amos. Ableton es la potencia creativa para productores de música electrónica y performers en vivo — su Vista Session, motor de warping y ecosistema Max for Live son inigualables. Logic Pro es el estudio de producción completo para usuarios de Mac — el mejor valor en audio profesional a $199, con una biblioteca de instrumentos que rivaliza con Komplete Kontrol de Native Instruments. La elección correcta depende de tu género, tu plataforma y tu presupuesto. Si estás en Mac y haces música con instrumentos en vivo, Logic es la elección obvia. Si produces música electrónica o actúas en vivo, Ableton justifica su precio de $799. Y si puedes permitirte ambos, se complementan perfectamente en un flujo de trabajo profesional.",
+    "conclusion": "Ableton Live 12 Suite and Logic Pro are both top-tier DAWs, but they serve different masters. Ableton is the creative powerhouse for electronic music producers and live performers — its Session View, warping engine, and Max for Live ecosystem are unmatched. Logic Pro is the complete production studio for Mac users — the best value in professional audio at $199, with an instrument library that rivals Kontakt Komplete. The right choice depends on your genre, your platform, and your budget. If you're on Mac and make music with live instruments, Logic is the obvious choice. If you produce electronic music or perform live, Ableton justifies its $749 price tag. And if you can afford both, they complement each other perfectly in a professional workflow.",
+    "conclusion_es": "Ableton Live 12 Suite y Logic Pro son ambos DAWs de primer nivel, pero sirven a diferentes amos. Ableton es la potencia creativa para productores de música electrónica y performers en vivo — su Vista Session, motor de warping y ecosistema Max for Live son inigualables. Logic Pro es el estudio de producción completo para usuarios de Mac — el mejor valor en audio profesional a $199, con una biblioteca de instrumentos que rivaliza con Komplete Kontrol de Native Instruments. La elección correcta depende de tu género, tu plataforma y tu presupuesto. Si estás en Mac y haces música con instrumentos en vivo, Logic es la elección obvia. Si produces música electrónica o actúas en vivo, Ableton justifica su precio de $749. Y si puedes permitirte ambos, se complementan perfectamente en un flujo de trabajo profesional.",
     "verdict": "Ableton for electronic/live performance, Logic for Mac recording and best value",
     "verdict_es": "Ableton para electrónica/en vivo, Logic para grabación y mejor valor en Mac",
     "verdictProsCons": [
@@ -21035,9 +21147,9 @@
       "rating1": 4.8,
       "rating2": 4.8,
       "faq_q1_en": "Should I buy Ableton Live 12 Suite or Logic Pro?",
-      "faq_a1_en": "Buy Logic Pro ($199) if you are on a Mac and want the best value in any DAW — a complete production studio with AI Session Players, Dolby Atmos and the largest instrument library included. Buy Ableton Live 12 Suite ($799) if you produce electronic music or perform live and want the non-linear Session View, warping engine and Max for Live. Logic is the Mac value champion; Ableton is the performance and electronic music specialist.",
+      "faq_a1_en": "Buy Logic Pro ($199) if you are on a Mac and want the best value in any DAW — a complete production studio with AI Session Players, Dolby Atmos and the largest instrument library included. Buy Ableton Live 12 Suite ($749) if you produce electronic music or perform live and want the non-linear Session View, warping engine and Max for Live. Logic is the Mac value champion; Ableton is the performance and electronic music specialist.",
       "faq_q2_en": "What is the difference between Ableton Live 12 Suite and Logic Pro?",
-      "faq_a2_en": "Ableton Live 12 Suite ($799) is built around the non-linear Session View for live performance, a powerful warping engine and Max for Live for endless device possibilities. Logic Pro ($199) is a complete recording and production studio for Mac with AI Session Players, Dolby Atmos support and the best included instrument library of any DAW. Ableton is the choice for electronic production and performance; Logic is the best all-round Mac studio at a fraction of the price.",
+      "faq_a2_en": "Ableton Live 12 Suite ($749) is built around the non-linear Session View for live performance, a powerful warping engine and Max for Live for endless device possibilities. Logic Pro ($199) is a complete recording and production studio for Mac with AI Session Players, Dolby Atmos support and the best included instrument library of any DAW. Ableton is the choice for electronic production and performance; Logic is the best all-round Mac studio at a fraction of the price.",
       "faq_q3_en": "Which DAW is better for recording live instruments?",
       "faq_a3_en": "Logic Pro is better for recording live instruments thanks to its intuitive comp track folders, Flex Time editing, and AI Drummer that follows your performance. Ableton Live can record instruments perfectly well, but Logic's workflow is optimized for tracking and editing audio.",
       "faq_q4_en": "Is Logic Pro worth it if I already have Ableton Live?",
@@ -21091,9 +21203,9 @@
       "key1_es": "El Motor de Performance en Vivo",
       "key2_es": "El Estudio Completo",
       "faq_q1_es": "¿Debería comprar Ableton Live 12 Suite o Logic Pro?",
-      "faq_a1_es": "Compra Logic Pro ($199) si estás en un Mac y quieres el mejor valor de cualquier DAW — un estudio de producción completo con AI Session Players, Dolby Atmos y la mayor biblioteca de instrumentos incluida. Compra Ableton Live 12 Suite ($799) si produces música electrónica o tocas en vivo y quieres la Vista Session no lineal, el motor de warping y Max for Live. Logic es el campeón del valor en Mac; Ableton es el especialista en actuaciones y música electrónica.",
+      "faq_a1_es": "Compra Logic Pro ($199) si estás en un Mac y quieres el mejor valor de cualquier DAW — un estudio de producción completo con AI Session Players, Dolby Atmos y la mayor biblioteca de instrumentos incluida. Compra Ableton Live 12 Suite ($749) si produces música electrónica o tocas en vivo y quieres la Vista Session no lineal, el motor de warping y Max for Live. Logic es el campeón del valor en Mac; Ableton es el especialista en actuaciones y música electrónica.",
       "faq_q2_es": "¿Cuál es la diferencia entre Ableton Live 12 Suite y Logic Pro?",
-      "faq_a2_es": "Ableton Live 12 Suite ($799) está construido en torno a la Vista Session no lineal para actuaciones en vivo, un potente motor de warping y Max for Live para infinitas posibilidades de dispositivos. Logic Pro ($199) es un estudio de grabación y producción completo para Mac con AI Session Players, soporte Dolby Atmos y la mejor biblioteca de instrumentos incluida de cualquier DAW. Ableton es la elección para producción electrónica y actuaciones; Logic es el mejor estudio Mac todoterreno a una fracción del precio.",
+      "faq_a2_es": "Ableton Live 12 Suite ($749) está construido en torno a la Vista Session no lineal para actuaciones en vivo, un potente motor de warping y Max for Live para infinitas posibilidades de dispositivos. Logic Pro ($199) es un estudio de grabación y producción completo para Mac con AI Session Players, soporte Dolby Atmos y la mejor biblioteca de instrumentos incluida de cualquier DAW. Ableton es la elección para producción electrónica y actuaciones; Logic es el mejor estudio Mac todoterreno a una fracción del precio.",
       "faq_q3_es": "¿Qué DAW es mejor para grabar instrumentos en vivo?",
       "faq_a3_es": "Logic Pro es mejor para grabar instrumentos en vivo gracias a sus intuitivas carpetas de comp, edición Flex Time y AI Drummer que sigue tu interpretación. Ableton Live puede grabar instrumentos perfectamente bien, pero el flujo de trabajo de Logic está optimizado para tracking y edición de audio.",
       "faq_q4_es": "¿Vale la pena Logic Pro si ya tengo Ableton Live?",
@@ -21107,25 +21219,17 @@
           "label": "Year",
           "label_es": "Año",
           "val1": "2024 (Live 12)",
-          "val2": "2024 (Logic 11)",
+          "val2": "2026 (Logic 12)",
           "val1_es": "2024 (Live 12)",
-          "val2_es": "2024 (Logic 11)"
+          "val2_es": "2026 (Logic 12)"
         },
         {
           "label": "Pricing Model",
-          "label_es": "Modelo de Pago",
-          "val1": "Tiers (Intro $79 / Standard $449 / Suite $799)",
+          "label_es": "Modelo de Precio",
+          "val1": "Tiers (Intro $99 / Standard $349 / Suite $749)",
           "val2": "One-time $199, updates included",
-          "val1_es": "Niveles (Intro $79 / Standard $449 / Suite $799)",
-          "val2_es": "Único pago $199, actualizaciones gratis"
-        },
-        {
-          "label": "Key Feature",
-          "label_es": "Característica Clave",
-          "val1": "Session View + Warping",
-          "val2": "AI Session Players + Dolby Atmos",
-          "val1_es": "Vista Session + Warping",
-          "val2_es": "AI Session Players + Dolby Atmos"
+          "val1_es": "Niveles (Intro $99 / Standard $349 / Suite $749)",
+          "val2_es": "De pago único $199, actualizaciones incluidas"
         },
         {
           "label": "Best For",
@@ -21137,22 +21241,22 @@
         },
         {
           "label": "Max Track Count",
-          "label_es": "Pistas Máximas",
+          "label_es": "Pistas Máx.",
           "val1": "Unlimited",
-          "val2": "Unlimited (1,000+)",
+          "val2": "Unlimited (1,000+ audio)",
           "val1_es": "Ilimitadas",
-          "val2_es": "Ilimitadas (1,000+)"
+          "val2_es": "Ilimitadas (1,000+ de audio)"
         },
         {
           "label": "Max Sample Rate",
-          "label_es": "Tasa de Muestreo Máx",
+          "label_es": "Tasa de Muestreo Máx.",
           "val1": "192 kHz",
           "val2": "192 kHz",
           "val1_es": "192 kHz",
           "val2_es": "192 kHz"
         },
         {
-          "label": "Score / Notation Editor",
+          "label": "Score / Notation",
           "label_es": "Editor de Partituras",
           "val1": "No",
           "val2": "Yes (built-in)",
@@ -21173,46 +21277,22 @@
           "val1": "70+ GB, thousands of loops & samples",
           "val2": "10,000+ Apple Loops + complete instrument library",
           "val1_es": "70+ GB, miles de loops y samples",
-          "val2_es": "10,000+ Apple Loops + biblioteca completa"
-        },
-        {
-          "label": "Brand",
-          "label_es": "Marca",
-          "val1": "Ableton",
-          "val2": "Apple",
-          "val1_es": "Ableton",
-          "val2_es": "Apple"
-        },
-        {
-          "label": "Rating",
-          "label_es": "Puntuación",
-          "val1": "4.8/5",
-          "val2": "4.8/5",
-          "val1_es": "4.8/5",
-          "val2_es": "4.8/5"
+          "val2_es": "10,000+ Apple Loops + biblioteca de instrumentos completa"
         },
         {
           "label": "Platform",
           "label_es": "Plataforma",
           "val1": "Windows + Mac",
-          "val2": "Mac only",
+          "val2": "Mac only (Apple Silicon)",
           "val1_es": "Windows + Mac",
-          "val2_es": "Solo Mac"
-        },
-        {
-          "label": "Workflow",
-          "label_es": "Flujo de Trabajo",
-          "val1": "Session + Arrangement views",
-          "val2": "Linear timeline + Live Loops",
-          "val1_es": "Vistas Session + Arrangement",
-          "val2_es": "Línea de tiempo lineal + Live Loops"
+          "val2_es": "Solo Mac (Apple Silicon)"
         },
         {
           "label": "Plugin Format",
-          "label_es": "Formato de Plugin",
-          "val1": "VST, AU, AAX",
+          "label_es": "Formatos de Plugin",
+          "val1": "VST, AU (no AAX)",
           "val2": "AU only",
-          "val1_es": "VST, AU, AAX",
+          "val1_es": "VST, AU (sin AAX)",
           "val2_es": "Solo AU"
         },
         {
@@ -21229,7 +21309,7 @@
           "val1": "Third-party only",
           "val2": "Built-in",
           "val1_es": "Solo de terceros",
-          "val2_es": "Incorporado"
+          "val2_es": "Integrado"
         },
         {
           "label": "Max for Live",
@@ -21240,11 +21320,19 @@
           "val2_es": "No disponible"
         },
         {
+          "label": "Rating",
+          "label_es": "Puntuación",
+          "val1": "4.8/5",
+          "val2": "4.8/5",
+          "val1_es": "4.8/5",
+          "val2_es": "4.8/5"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
-          "val1": "$799 (Suite)",
+          "val1": "$749 (Suite)",
           "val2": "$199",
-          "val1_es": "$799 (Suite)",
+          "val1_es": "$749 (Suite)",
           "val2_es": "$199"
         }
       ]
