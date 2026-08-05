@@ -687,7 +687,7 @@ function renderGuideGrid() {
     const introText = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
     return `
       <div class="guide-card-wrap">
-        <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},'','/guides/'+id+(currentLang==='es'?'_es':'')+'.html'); renderGuideDetail(id);">
+        <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; window.location.href='/guides/'+id+(currentLang==='es'?'_es':'')+'.html';">
           <div class="guide-card-img">
             <img src="${g.image.replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
             <span class="guide-card-cat">${catName}</span>
@@ -764,7 +764,9 @@ function boldFirstSentence(html) {
 }
 
 function renderGuideDetail(id) {
-  renderGuideDetailFromData(id);
+  var grid = document.getElementById("guideGrid");
+  if (!grid) { translatePage(); return; }
+  window.location.href = '/guides/' + id + (currentLang === 'es' ? '_es' : '') + '.html';
 }
 
 function renderVerdictGrid(guide, lang) {
@@ -775,165 +777,6 @@ function renderVerdictGrid(guide, lang) {
     var cons = isEs && p.cons_es ? p.cons_es : p.cons;
     return '<div class="verdict-col"><div class="verdict-product-name">' + name + '</div><div class="verdict-list-group"><span class="verdict-list-label pros">' + (isEs ? 'Pros' : 'Pros') + '</span><ul class="verdict-pros-list">' + pros.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">' + (isEs ? 'Contras' : 'Cons') + '</span><ul class="verdict-cons-list">' + cons.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul></div></div>';
   }).join('') + '</div>';
-}
-
-function renderGuideDetailFromData(id) {
-  const guide = guides.find(g => g.id === id);
-  if (!guide) return;
-  currentGuideId = guide.id;
-  const isEs = currentLang === 'es';
-  injectFaqSchema(id);
-  document.querySelectorAll('script[data-guide-jsonld]').forEach(el => el.remove());
-  const btn = document.getElementById("backToGuidesBtn");
-  if (btn) btn.style.display = "none";
-  const grid = document.getElementById("guideGrid");
-  if (!grid) { translatePage(); return; }
-  grid.style.display = "block";
-  const container = document.getElementById("guideContainer");
-  container.classList.add("guide-detail-open");
-  document.querySelector(".guides-section").classList.add("guide-detail-active");
-  document.getElementById("guideCats").style.display = "none";
-  const sortBar = document.querySelector(".sort-bar");
-  if (sortBar) sortBar.style.display = "none";
-  const sectionHeader = document.querySelector("#guides .section-header");
-  if (sectionHeader) sectionHeader.style.display = "none";
-  const heroSection = document.querySelector(".hero");
-  if (heroSection) heroSection.style.display = "none";
-  const statsBar = document.querySelector(".stats-bar");
-  if (statsBar) statsBar.style.display = "none";
-  const heroTelegram = document.querySelector(".hero-telegram-wrapper");
-  if (heroTelegram) heroTelegram.style.display = "none";
-  const mySetup = document.querySelector(".my-setup");
-  if (mySetup) mySetup.style.display = "none";
-  const aboutSection = document.querySelector("#about");
-  if (aboutSection) aboutSection.style.display = "none";
-  const videoSection = document.querySelector(".stores-video");
-  if (videoSection) videoSection.style.display = "none";
-  const videoCaption = document.querySelector(".stores-video + p");
-  if (videoCaption) videoCaption.style.display = "none";
-  const storesSection = document.querySelector(".stores-section");
-  if (storesSection) storesSection.style.display = "none";
-
-  const catName = getCatName(guide.category);
-  const badgeText = guide.badge ? t("badge_" + guide.badge) : null;
-  const badgeClass = guide.badge ? getBadgeClass(guide.badge) : "";
-  const imgUrl = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.svg');
-
-  let sectionsHtml = guide.sections.map(s => {
-    const heading = currentLang === 'es' && s.heading_es ? s.heading_es : s.heading;
-    const content = currentLang === 'es' && s.content_es ? s.content_es : s.content;
-    const boldedC = boldFirstSentence(content);
-    const secProds = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
-    const firstProd = secProds.length ? secProds[0] : null;
-    const secImgUrl = firstProd && firstProd.img && firstProd.img.startsWith('http') ? firstProd.img : 'https://topmusiciangear.com/' + (firstProd ? firstProd.img || 'img/og-image.svg' : '');
-    const prodImg = firstProd ? '<div class="guide-section-imgs"><img src="' + secImgUrl + '" alt="' + (currentLang === 'es' && firstProd.title_es ? firstProd.title_es : firstProd.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in"></div>' : '';
-    return `
-      <div class="guide-section">
-        <h2 class="guide-section-heading">${heading}</h2>
-        <div class="guide-section-content">${boldedC}${prodImg}</div>
-      </div>
-    `;
-  }).join("");
-
-  const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
-  const allProductsHtml = allProductIds.map(id => renderProductCard(id)).join("");
-
-
-  let snippetHtml = guide.comparison ? `<div class="guide-comp-wrap">
-    <h2 class="guide-comp-title">${isEs ? 'Comparación Rápida' : 'Quick Comparison'}</h2>
-    <div class="guide-comp-scroll"><table class="guide-comp-table">
-      <thead><tr><th></th><th>${isEs && guide.featuredSnippet ? (guide.featuredSnippet.name1_es || guide.featuredSnippet.name1_en) : (guide.featuredSnippet ? guide.featuredSnippet.name1_en : '')}</th><th>${isEs && guide.featuredSnippet ? (guide.featuredSnippet.name2_es || guide.featuredSnippet.name2_en) : (guide.featuredSnippet ? guide.featuredSnippet.name2_en : '')}</th></tr></thead>
-      <tbody>${guide.comparison.rows.map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
-    </table></div>
-  </div>` : '';
-
-  grid.innerHTML = `
-    <div class="guide-detail">
-      <nav class="guide-breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a> / <a href="/#guides">${t("navGuides")}</a> / <span>${isEs && guide.title_es ? guide.title_es : guide.title}</span>
-      </nav>
-      <div class="guide-back-row">
-        <button class="guide-back-btn" id="guideBackBtn1"><svg data-fa="arrow-left" class="icon fa-solid fa-arrow-left" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> ${t("backToGuides")}</button>
-      </div>
-      <div class="guide-detail-header">
-        <h1 class="guide-detail-title">${isEs && guide.title_es ? guide.title_es : guide.title}</h1>
-        <div class="guide-byline">${isEs ? 'Por Daniel Carnago' : 'By Daniel Carnago'} · ${(function(d){var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return mo[new Date(d).getMonth()]+' '+new Date(d).getFullYear()})(guideDates(guide, guides.indexOf(guide)).modified)}</div>
-      </div>
-      <div class="guide-detail-img"><img src="${imgUrl}" alt="${isEs && guide.title_es ? guide.title_es : guide.title}" loading="lazy" class="lb-img" style="width:100%;max-height:500px;object-fit:cover;aspect-ratio:21/9;cursor:zoom-in"></div>
-      <div class="guide-detail-intro"><p>${isEs && guide.intro_es ? guide.intro_es : guide.intro}</p></div>
-      ${snippetHtml}
-      <div class="guide-detail-sections">${sectionsHtml}</div>
-      <div class="guide-verdict">
-        <div class="guide-verdict-header">
-          <span class="verdict-label">${t("verdict")}</span>
-          <span class="verdict-text">${currentLang === 'es' && guide.verdict_es ? guide.verdict_es : guide.verdict}</span>
-        </div>
-        ${guide.verdictProsCons ? renderVerdictGrid(guide, currentLang) : ''}
-      </div>
-      ${(() => { const c = currentLang === 'es' && guide.conclusion_es ? guide.conclusion_es : guide.conclusion; return c ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${c}</div></div>` : ''; })()}
-      ${(function(){ var faqs = getGuideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
-      ${allProductsHtml ? `<div class="guide-products-grid"><h2 class="guide-products-title">${t("productsInGuide")}</h2><div class="guide-products-cards">${allProductsHtml}</div></div>` : ""}
-      ${userReviewsHtml(guide)}
-      <div class="guide-related">
-        <h2 class="guide-related-title">${t("relatedGuides")}</h2>
-        <div class="guide-related-list">
-          ${(() => { var related = guides.filter(g => g.id !== guide.id && g.category === guide.category); if (!related.length) related = guides.filter(g => g.id !== guide.id); return related.slice(0, 4).map(g => { var gt = currentLang === 'es' && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (currentLang === 'es' ? '_es' : '') + '.html" class="guide-related-link" data-guide="' + g.id + '" onclick="event.preventDefault(); var id=this.dataset.guide; history.pushState({},\'\',\'/guides/\'+id+(currentLang===\'es\'?\'_es\':\'\')+\'.html\'); renderGuideDetail(id);">' + gt + '</a>'; }).join(''); })()}
-        </div>
-      </div>
-
-      <button class="guide-back-btn" id="guideBackBtn2"><svg data-fa="arrow-left" class="icon fa-solid fa-arrow-left" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> ${t("backToGuides")}</button>
-    </div>
-  `;
-  setTimeout(function(){document.querySelectorAll('.guide-product-card-desc').forEach(function(e){var b=e.nextElementSibling;if(b&&b.classList.contains('guide-product-card-desc-toggle')&&e.scrollHeight<=e.clientHeight)b.remove()})},100);
-  const btn1 = document.getElementById("guideBackBtn1");
-  if (btn1) btn1.addEventListener("click", () => {
-    history.pushState({}, '', '/');
-    renderGuideGrid();
-    setTimeout(function() { scrollToSection("guides"); }, 200);
-  });
-  const btn2 = document.getElementById("guideBackBtn2");
-  if (btn2) btn2.addEventListener("click", () => {
-    history.pushState({}, '', '/');
-    renderGuideGrid();
-    setTimeout(function() { scrollToSection("guides"); }, 200);
-  });
-  if (!skipDetailScroll) {
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        if (window.matchMedia('(max-width:767px)').matches) {
-          window.scrollTo(0, 0);
-        } else {
-          var el = document.getElementById("guideGrid");
-          if (el) el.scrollIntoView({ block: "start" });
-        }
-      });
-    });
-  }
-  var lang = currentLang;
-  document.title = (lang === 'es' && guide.title_es ? guide.title_es : guide.title) + ' | TopMusicianGear';
-  var metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) {
-    var descText = lang === 'es' && guide.intro_es ? guide.intro_es : guide.intro;
-    metaDesc.content = descText.replace(/<[^>]*>/g, '').substring(0, 155);
-  }
-  var ogTitle = document.querySelector('meta[property="og:title"]');
-  var guideTitle = (lang === 'es' && guide.title_es ? guide.title_es : guide.title);
-  if (ogTitle) ogTitle.content = guideTitle;
-  var ogDesc = document.querySelector('meta[property="og:description"]');
-  if (ogDesc) ogDesc.content = descText.replace(/<[^>]*>/g, '').substring(0, 155);
-  var ogUrl = document.querySelector('meta[property="og:url"]');
-  if (ogUrl) ogUrl.content = 'https://topmusiciangear.com/guides/' + guide.id + (currentLang === 'es' ? '_es' : '') + '.html';
-  var ogImage = document.querySelector('meta[property="og:image"]');
-  if (ogImage) ogImage.content = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (guide.image || 'img/og-image.svg');
-  var twTitle = document.querySelector('meta[name="twitter:title"]');
-  if (twTitle) twTitle.content = ogTitle ? ogTitle.content : '';
-  var twDesc = document.querySelector('meta[name="twitter:description"]');
-  if (twDesc) twDesc.content = ogDesc ? ogDesc.content : '';
-  var twImage = document.querySelector('meta[name="twitter:image"]');
-  if (twImage) twImage.content = ogImage ? ogImage.content : '';
-  injectGuideJsonLd(guide);
-  skipDetailScroll = false;
-  renderAudioMini();
 }
 
 function renderAudioMini() {

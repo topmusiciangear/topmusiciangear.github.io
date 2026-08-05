@@ -95,6 +95,13 @@ guides.forEach(g => {
   });
 });
 
+// Single source of truth: strip Rating rows from guides.json too so the SPA can never re-render them
+guides.forEach(g => {
+  if (g.comparison && Array.isArray(g.comparison.rows)) {
+    g.comparison.rows = g.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating');
+  }
+});
+
 // Auto-increment cache busters from file content hash
 // Include guides.json hash so JS cache busters change when data changes (SPA cache invalidation)
 const dataVer = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'data', 'guides.json'))).digest('hex').slice(0, 6);
