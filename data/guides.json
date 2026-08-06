@@ -19391,7 +19391,7 @@
   {
     "id": "digitakt-ii-vs-tr8s",
     "title": "Digitakt II vs TR-8S: Best Drum Machine for You?",
-    "title_es": "Digitakt II vs TR-8S: ¿Mejor Drum Machine para Ti?",
+    "title_es": "Digitakt II vs TR-8S: ¿Mejor Máquina de Batería para Ti?",
     "category": "drum-machine",
     "image": "https://r2.gear4music.com/media/107/1072910/1200/preview.jpg",
     "badge": "topQuality",
@@ -20274,7 +20274,7 @@
   {
     "id": "precision-vs-jazz",
     "title": "P-Bass vs J-Bass: Which Fender Bass Is Yours?",
-    "title_es": "P-Bass vs J-Bass: ¿Cuál Bajo Fender Es el Tuyo?",
+    "title_es": "P-Bass vs J-Bass: ¿Cuál Bajo Fender es el Tuyo?",
     "category": "basses",
     "image": "https://r2.gear4music.com/media/37/370309/1200/preview.jpg",
     "badge": "legend",
@@ -20747,7 +20747,7 @@
   {
     "id": "scarlett-vs-motu",
     "title": "Scarlett 2i2 vs MOTU M2: Which $199 Interface?",
-    "title_es": "Scarlett 2i2 vs MOTU M2: ¿Qué Interfaz de $199?",
+    "title_es": "Scarlett 2i2 vs MOTU M2: ¿Cuál es la Mejor Interfaz de $199?",
     "category": "interfaces",
     "image": "https://r2.gear4music.com/media/97/977881/1200/preview.jpg",
     "badge": "bestSeller",
@@ -20806,7 +20806,7 @@
       }
     ],
     "conclusion": "The Focusrite Scarlett 2i2 and MOTU M2 are both outstanding $199 interfaces that serve different priorities. The Scarlett wins on ease of use (Air mode, hardware monitor knob, Clip Safe) and ecosystem maturity. The MOTU M2 wins on features (MIDI I/O, ESS Sabre32 Ultra DAC, full-color LCD metering) and conversion quality. For most home studio users, the Scarlett is the easier recommendation because of its proven reliability and hassle-free setup. If you need MIDI connectivity, studio-grade metering, or DAC quality above all, the MOTU M2 is the smarter choice. But if you're a headphone enthusiast, a streamer who wants precise metering, or a producer who values conversion quality above all, the MOTU M2 is the smarter choice. Whichever you pick, you're getting professional-grade audio at an entry-level price.",
-    "conclusion_es": "La Focusrite Scarlett 2i2 y la MOTU M2 son ambas interfaces excepcionales de $199 que sirven diferentes prioridades. La Scarlett gana en facilidad de uso (modo Air, perilla física de monitor mix, Clip Safe) y madurez del ecosistema. La MOTU M2 gana en funciones (MIDI I/O, DAC ESS Sabre32 Ultra, medición LCD a todo color) y calidad de conversión. Para la mayoría de los usuarios de home studio, la Scarlett es la recomendación más fácil por su confiabilidad probada y configuración sin complicaciones. Si necesitas conectividad MIDI, medición de nivel profesional o calidad de DAC por encima de todo, la MOTU M2 es la elección más inteligente. Pero si eres un entusiasta de los auriculares, un streamer que quiere medición precisa, o un productor que valora la calidad de conversión por encima de todo, la MOTU M2 es la elección más inteligente. Cualquiera que elijas, obtienes audio de grado profesional a un precio de entrada.",
+    "conclusion_es": "La Focusrite Scarlett 2i2 y la MOTU M2 son ambas interfaces excepcionales de $199 que sirven diferentes prioridades. La Scarlett gana en facilidad de uso (modo Air, perilla física de monitor mix, Clip Safe) y madurez del ecosistema. La MOTU M2 gana en funciones (MIDI I/O, DAC ESS Sabre32 Ultra, medición LCD a todo color) y calidad de conversión. Para la mayoría de los usuarios de home studio, la Scarlett es la recomendación más fácil por su confiabilidad probada y configuración sin complicaciones. Si necesitas conectividad MIDI, medición de nivel profesional o calidad de DAC por encima de todo, la MOTU M2 es la elección más inteligente. Cualquiera que elijas, obtienes audio de grado profesional a un precio de entrada.",
     "verdict": "Scarlett 2i2 for ease of use and features, MOTU M2 for MIDI, DAC specs and metering",
     "verdict_es": "Scarlett 2i2 para facilidad de uso y funciones, MOTU M2 para MIDI, DAC y medición",
     "verdictProsCons": [
@@ -21503,7 +21503,7 @@
       },
       {
         "heading": "What About Amplifier Matching and Power Handling?",
-        "heading_es": "¿Qué Hay Sobre la Compatibilidad de Amplificadores y Manejo de Potencia?",
+        "heading_es": "¿Qué Pasa con la Compatibilidad de Amplificadores y el Manejo de Potencia?",
         "content": "<p><strong>With active speakers, amplifier matching is done for you.</strong> The manufacturer has already selected the perfect amplifier for each driver. You don't need to calculate wattage, impedance, or RMS ratings. The DSP handles limiting and crossover points automatically. This removes the single biggest point of failure in live sound — mismatched amplifier and speaker combinations that lead to blown drivers.</p><p><strong>With passive speakers, you must match amplifier power carefully.</strong> A general rule: choose an amplifier that delivers 1.5 to 2 times the speaker's continuous power rating (RMS). This gives you clean headroom without risking driver damage. The amplifier should be stable at the speaker's nominal impedance (usually 4 or 8 ohms). Running multiple passive speakers in parallel changes the impedance load — two 8-ohm speakers in parallel present a 4-ohm load. Incorrect matching is the most common cause of speaker failure in passive systems.</p><p><strong>Bi-amping vs passive crossover:</strong> High-end passive speakers use passive crossovers inside the cabinet to split the signal between woofer and tweeter. Bi-amping (or tri-amping) uses separate amplifier channels for each driver, with an active crossover before the amps. Active speakers are inherently bi-amped — each driver has its own amp channel and DSP crossover, which is why they often sound clearer and more efficient than equivalently priced passive setups.</p>",
         "content_es": "<p><strong>Con altavoces activos, la compatibilidad del amplificador está resuelta.</strong> El fabricante ya ha seleccionado el amplificador perfecto para cada controlador. No necesitas calcular vataje, impedancia ni clasificaciones RMS. El DSP maneja la limitación y los puntos de cruce automáticamente. Esto elimina el mayor punto de fallo en el sonido en vivo — combinaciones incorrectas de amplificador y altavoz que queman los controladores.</p><p><strong>Con altavoces pasivos, debes igualar la potencia del amplificador cuidadosamente.</strong> Una regla general: elige un amplificador que entregue 1.5 a 2 veces la potencia nominal continua (RMS) del altavoz. Esto te da margen limpio sin arriesgar daños al controlador. El amplificador debe ser estable a la impedancia nominal del altavoz (generalmente 4 u 8 ohmios). Ejecutar múltiples altavoces pasivos en paralelo cambia la carga de impedancia — dos altavoces de 8 ohmios en paralelo presentan una carga de 4 ohmios. La compatibilidad incorrecta es la causa más común de fallo de altavoces en sistemas pasivos.</p><p><strong>Bi-amplificación vs crossover pasivo:</strong> Los altavoces pasivos de alta gama usan crossovers pasivos dentro de la caja para dividir la señal entre woofer y tweeter. La bi-amplificación (o tri-amplificación) usa canales de amplificador separados para cada controlador, con un crossover activo antes de los amplificadores. Los altavoces activos son inherentemente bi-amplificados — cada controlador tiene su propio canal de amplificación y crossover DSP, por lo que a menudo suenan más claros y eficientes que configuraciones pasivas de precio equivalente.</p>",
         "products": []
@@ -21662,7 +21662,7 @@
         }
       ]
     },
-    "description_es": "Altavoces PA activos vs pasivos explicados. EV ZLX-12P vs QSC K12.2 vs Yamaha DBR12 comparados. ¿Cuál es mejor para tu sonido en vivo.",
+    "description_es": "Altavoces PA activos vs pasivos explicados. EV ZLX-12P vs QSC K12.2 vs Yamaha DBR12 comparados. ¿Cuál es mejor para tu sonido en vivo?",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -21839,7 +21839,7 @@
         "heading": "Epiphone Thunderbird '60s Bass: The Rock Icon at a Bargain Price",
         "heading_es": "Epiphone Thunderbird '60s Bass: El Icono del Rock a Precio de Gang",
         "content": "<strong>The Thunderbird has a head-turning design with a sound to match.</strong> 7-layer walnut/mahogany neck-through-body construction, something you normally only see on ,500+ basses. The Thunderbird humbuckers deliver that deep, resonant growl that's perfect for rock. At , it's a ridiculous amount of bass for the money.",
-        "content_es": "<strong>El Thunderbird tiene un diseño que no pasa desapercibido y un sonido que iguala.</strong> Construcción neck-through-body de 7 capas nogal/caoba, algo que normalmente solo ves en bajos de ,500+. Las pastillas Thunderbird humbucker con EQ activo te dan ese growl grave y potente perfecto para rock. Y a , es una ganga total.",
+        "content_es": "<strong>El Thunderbird tiene un diseño que no pasa desapercibido y un sonido que iguala.</strong> Construcción neck-through-body de 7 capas nogal/caoba, algo que normalmente solo ves en bajos de $2,500+. Las pastillas Thunderbird humbucker con EQ activo te dan ese growl grave y potente perfecto para rock. Y a $399, es una ganga total.",
         "products": [
           162
         ]
@@ -21965,13 +21965,13 @@
     "image": "https://r2.gear4music.com/media/6/67660/1200/preview_1.jpg",
     "badge": "recommended",
     "intro": "Buying your first bass is exciting but can be overwhelming. Here are the 5 best beginner bass guitars that will keep you motivated and sounding great from day one.",
-    "intro_es": "Comprar tu primer bajo es emocionante pero puede ser abrumador. Aqui estan los 5 mejores bajos para principiantes.",
+    "intro_es": "Comprar tu primer bajo es emocionante pero puede ser abrumador. Aquí están los 5 mejores bajos para principiantes.",
     "sections": [
       {
         "heading": "Squier Affinity PJ: The Ultimate Starter",
         "heading_es": "Squier Affinity PJ: El Starter Definitivo",
         "content": "<p><strong>Price: $280</strong></p><p>The Squier Affinity PJ is the best first bass you can buy. Affordable, versatile, built to last. The PJ pickup config gives you Precision thump AND Jazz growl in one bass.</p>",
-        "content_es": "<p><strong>Precio: $280</strong></p><p>El Squier Affinity PJ es el mejor primer bajo. Asequible, versatil, construido para durar.</p>",
+        "content_es": "<p><strong>Precio: $280</strong></p><p>El Squier Affinity PJ es el mejor primer bajo. Asequible, versátil, construido para durar.</p>",
         "products": [
           158
         ]
@@ -21980,32 +21980,32 @@
         "heading": "Yamaha TRBX304: The Active Powerhouse",
         "heading_es": "Yamaha TRBX304: La Potencia Activa",
         "content": "<p><strong>Price: $380</strong></p><p>The Yamaha TRBX304 offers incredible versatility for beginners. The active 5-band EQ lets you shape your tone like a pro. Mahogany body, 5-piece neck, pro-level resonance.</p>",
-        "content_es": "<p><strong>Precio: $380</strong></p><p>El Yamaha TRBX304 ofrece versatilidad increible para principiantes. EQ activo de 5 bandas.</p>",
+        "content_es": "<p><strong>Precio: $380</strong></p><p>El Yamaha TRBX304 ofrece versatilidad increíble para principiantes. EQ activo de 5 bandas.</p>",
         "products": [
           159
         ]
       },
       {
         "heading": "Ibanez SR300E: Fast and Fun",
-        "heading_es": "Ibanez SR300E: rápido y Divertido",
+        "heading_es": "Ibanez SR300E: Rápido y Divertido",
         "content": "<p><strong>Price: $350</strong></p><p>The Ibanez SR300E has one of the thinnest, fastest necks in the bass world. Active 3-band EQ, ultra-lightweight body, perfect for beginners who want speed and comfort.</p>",
-        "content_es": "<p><strong>Precio: $350</strong></p><p>El Ibanez SR300E tiene uno de los mastiles mas delgados y rapidos. EQ activo de 3 bandas.</p>",
+        "content_es": "<p><strong>Precio: $350</strong></p><p>El Ibanez SR300E tiene uno de los mástiles más delgados y rápidos. EQ activo de 3 bandas.</p>",
         "products": [
           160
         ]
       },
       {
         "heading": "Sterling Ray4: The Funk Machine",
-        "heading_es": "Sterling Ray4: La Maquina Funk",
+        "heading_es": "Sterling Ray4: La Máquina Funk",
         "content": "<p><strong>Price: $350</strong></p><p>The Sterling Ray4 delivers the iconic StingRay sound at a budget price. Humbucker pickup with active 2-band EQ for that thick, punchy funk and rock tone.</p>",
-        "content_es": "<p><strong>Precio: $350</strong></p><p>El Sterling Ray4 ofrece el sonido StingRay iconico a precio economico. Humbucker con EQ activo de 2 bandas.</p>",
+        "content_es": "<p><strong>Precio: $350</strong></p><p>El Sterling Ray4 ofrece el sonido StingRay icónico a precio económico. Humbucker con EQ activo de 2 bandas.</p>",
         "products": [
           161
         ]
       },
       {
         "heading": "Squier Classic Vibe 60s Jazz: The Quality Pick",
-        "heading_es": "Squier Classic Vibe 60s Jazz: La Opcion de Calidad",
+        "heading_es": "Squier Classic Vibe 60s Jazz: La Opción de Calidad",
         "content": "<p><strong>Price: $450</strong></p><p>If your budget stretches to $450, the Squier Classic Vibe Jazz Bass sounds like a bass costing three times as much. Alnico pickups, vintage tone, pro build quality.</p>",
         "content_es": "<p><strong>Precio: $450</strong></p><p>El Squier Classic Vibe Jazz Bass suena como un bajo que cuesta el triple. Pastillas alnico, tono vintage.</p>",
         "products": [
@@ -22014,7 +22014,7 @@
       }
     ],
     "conclusion": "Any of these basses will serve you well. The Yamaha TRBX304 at $380 offers the most tonal versatility. The Squier Affinity PJ at $280 is the best value.",
-    "conclusion_es": "Cualquiera de estos bajos te servira bien. El Yamaha TRBX304 ofrece la mayor versatilidad.",
+    "conclusion_es": "Cualquiera de estos bajos te servirá bien. El Yamaha TRBX304 ofrece la mayor versatilidad.",
     "verdict": "Squier Affinity PJ ($280): Best value. Yamaha TRBX304 ($380): Most versatile. Ibanez SR300E ($350): Best playability. Sterling Ray4 ($350): Best for funk. Squier Classic Vibe ($450): Best quality.",
     "verdict_es": "Squier Affinity PJ ($280): Mejor valor. Yamaha TRBX304 ($380): Más versátil. Ibanez SR300E ($350): Mejor tocabilidad. Sterling Ray4 ($350): Mejor para funk. Squier Classic Vibe ($450): Mejor calidad.",
     "featuredProducts": [
@@ -22121,11 +22121,11 @@
     "image": "https://r2.gear4music.com/media/43/436172/1200/preview.jpg",
     "badge": "bestSeller",
     "intro": "Great bass guitars don't need a big budget. Here are the 4 best bass guitars under $500 from Schecter, ESP, Hofner, and Yamaha, each offering incredible quality for their price.",
-    "intro_es": "No necesitas gastar mucho para conseguir un gran bajo. Aqui estan los 4 mejores bajos por menos de $500 de Schecter, ESP, Hofner y Yamaha, cada uno con calidad increible a su precio.",
+    "intro_es": "No necesitas gastar mucho para conseguir un gran bajo. Aquí están los 4 mejores bajos por menos de $500 de Schecter, ESP, Hofner y Yamaha, cada uno con calidad increíble a su precio.",
     "sections": [
       {
         "heading": "Schecter Stiletto Stealth 4: The Metal Machine",
-        "heading_es": "Schecter Stiletto Stealth 4: La Maquina del Metal",
+        "heading_es": "Schecter Stiletto Stealth 4: La Máquina del Metal",
         "content": "<p><strong>Price: $499</strong></p><p>The Schecter Stiletto is the go-to bass for metal players. EMG-designed pickups, ultra-thin C neck, swamp ash body. Aggressive tone that cuts through loud guitars.</p>",
         "content_es": "<p><strong>Precio: $499</strong></p><p>El Schecter Stiletto es el bajo ideal para metal. Pastillas EMG, mástil ultra-delgado, cuerpo de fresno.</p>",
         "products": [
@@ -22136,32 +22136,32 @@
         "heading": "ESP LTD B-204SM: The Pro Sleeper",
         "heading_es": "ESP LTD B-204SM: El Dormido Profesional",
         "content": "<p><strong>Price: $499</strong></p><p>The ESP LTD B-204SM has a stunning spalted maple top that looks custom shop. Active electronics, fast thin-U neck. Unique looks that sound and feel expensive.</p>",
-        "content_es": "<p><strong>Precio: $499</strong></p><p>El ESP LTD B-204SM tiene tapa de arce que parece custom shop. electrónica activa, mástil rápido.</p>",
+        "content_es": "<p><strong>Precio: $499</strong></p><p>El ESP LTD B-204SM tiene tapa de arce que parece custom shop. Electrónica activa, mástil rápido.</p>",
         "products": [
           165
         ]
       },
       {
         "heading": "Hofner Ignition Violin Bass: The Iconic Sound",
-        "heading_es": "Hofner Ignition Violin Bass: El Sonido Iconico",
+        "heading_es": "Hofner Ignition Violin Bass: El Sonido Icónico",
         "content": "<p><strong>Price: $399</strong></p><p>The Hofner Ignition is the iconic Beatle bass. Hollow body, under 5 lbs, warm woody tone. Short 30-inch scale perfect for smaller hands. Nothing else sounds like it.</p>",
-        "content_es": "<p><strong>Precio: $399</strong></p><p>El Hofner Ignition es el iconico bajo Beatle. Cuerpo hueco, menos de 5 lbs, tono calido y unico.</p>",
+        "content_es": "<p><strong>Precio: $399</strong></p><p>El Hofner Ignition es el icónico bajo Beatle. Cuerpo hueco, menos de 5 lbs, tono cálido y único.</p>",
         "products": [
           166
         ]
       },
       {
         "heading": "Yamaha TRBX304: The Active All-Rounder",
-        "heading_es": "Yamaha TRBX304: El Versatil Activo",
+        "heading_es": "Yamaha TRBX304: El Versátil Activo",
         "content": "<p><strong>Price: $380</strong></p><p>The Yamaha TRBX304 is the most versatile bass in its class. 5-position active EQ, legendary build quality. The bass session players buy when they need pro sound without breaking the bank.</p>",
-        "content_es": "<p><strong>Precio: $380</strong></p><p>El Yamaha TRBX304 es el bajo mas versatil en su clase. EQ activo de 5 posiciones, calidad de construccion legendaria.</p>",
+        "content_es": "<p><strong>Precio: $380</strong></p><p>El Yamaha TRBX304 es el bajo más versátil en su clase. EQ activo de 5 posiciones, calidad de construcción legendaria.</p>",
         "products": [
           159
         ]
       }
     ],
     "conclusion": "These 4 bass guitars prove incredible quality exists for under $500. The Schecter dominates for metal. The ESP LTD offers custom-shop looks. The Hofner gives a unique sound. The Yamaha TRBX304 is the most versatile tool.",
-    "conclusion_es": "Estos 4 bajos demuestran calidad increible por menos de $500. El Schecter domina para metal. El ESP LTD ofrece aspecto custom-shop. El Hofner da un sonido unico. El Yamaha TRBX304 es la herramienta mas versatil.",
+    "conclusion_es": "Estos 4 bajos demuestran calidad increíble por menos de $500. El Schecter domina para metal. El ESP LTD ofrece aspecto custom-shop. El Hofner da un sonido único. El Yamaha TRBX304 es la herramienta más versátil.",
     "verdict": "Schecter Stiletto ($499): Best for metal. ESP LTD B-204SM ($499): Best looks. Hofner Ignition ($399): Most unique sound. Yamaha TRBX304 ($380): Most versatile.",
     "verdict_es": "Schecter Stiletto ($499): Mejor para metal. ESP LTD B-204SM ($499): Mejor aspecto. Hofner Ignition ($399): Sonido único. Yamaha TRBX304 ($380): Más versátil.",
     "featuredProducts": [
