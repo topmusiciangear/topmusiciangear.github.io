@@ -15126,11 +15126,11 @@
           "Code signing and built-in loudness metering compliant with streaming service specs"
         ],
         "pros_es": [
-          "Master Assistant analiza pista referencia y configura parámetros óptimamente",
-          "Low End Focus IA detecta y mejora frecuencias sub sin problemas mono graves",
-          "Tonal Balance Control ajusta procesamiento para coincidir curvas objetivo referencia",
-          "Todos modulos EQ compresor limitador imager excitador en ventana única flujo mastering",
-          "Cumplimiento especificaciones servicios streaming metering sonoridad incorporado"
+          "El Master Assistant analiza la pista de referencia y configura todos los parámetros de los módulos de forma óptima para el género y la sonoridad",
+          "El Low End Focus con IA detecta y mejora inteligentemente las frecuencias sub sin problemas de mono en graves",
+          "Tonal Balance Control con Visual Mixer ajusta el procesamiento para coincidir con las curvas objetivo de las pistas de referencia",
+          "Todos los módulos —EQ, compresor, limitador, imager, excitador— en una sola ventana con flujo de trabajo unificado para mastering",
+          "Firma de código y medidor de sonoridad integrado que cumple las especificaciones de los servicios de streaming"
         ],
         "cons": [
           "AI-assisted matching can homogenize sound encouraging generic results that lack character",
@@ -15139,10 +15139,10 @@
           "Resource heavy GUI lag on older systems especially Visual Mixer displays"
         ],
         "cons_es": [
-          "Asistente IA puede homogeneizar sonido resultados genéricos sin carácter",
-          "EQ menos quirúrgico que FabFilter Pro-Q3 para eliminación frecuencia problema",
-          "Limitador sonoridad empuja volumen competitivo pero pierde punch vs Pro-L2",
-          "GUI pesada lag en sistemas antiguos especialmente Visual Mixer"
+          "La asistencia IA puede homogeneizar el sonido, fomentando resultados genéricos que carecen de carácter",
+          "EQ menos quirúrgico que el FabFilter Pro-Q3 para eliminar frecuencias problemáticas, hacer notches o control dinámico",
+          "El limitador/maximizador de sonoridad empuja a un volumen competitivo pero pierde punch frente al FabFilter Pro-L2",
+          "GUI pesada con lag en sistemas antiguos, especialmente en las vistas del Visual Mixer"
         ]
       }
     ],
