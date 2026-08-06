@@ -2478,26 +2478,11 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 
 /* Guide author box */
 .guide-author-box {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
   margin-bottom: 24px;
-  padding: 14px 16px;
+  padding: 16px 18px;
   background: rgba(255,255,255,.04);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-}
-.guide-author-box-avatar {
-  flex-shrink: 0;
-  width: 42px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
-  font-size: 18px;
 }
 .guide-author-box-body { min-width: 0; }
 .guide-author-box-name {
