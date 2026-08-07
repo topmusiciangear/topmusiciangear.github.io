@@ -27308,7 +27308,7 @@
       "title_es": "Mejores Micrófonos Profesionales para Grabar Cada Instrumento",
       "text_es": "El Shure SM57 es el caballo de batalla grabable para cualquier instrumento. El Royer R-121 Sobbré en guitarra eléctrica y metales. El Neumann KM 184 brilla en guitarra acústica, y el Audix D6 ofrece un golpe de bombo moderno.",
       "name1_es": "Shure SM57",
-      "name2_es": "Royer R-121",
+      "name2_es": "Electro-Voice RE20",
       "name3_es": "Audix D6",
       "key1_es": "El MÁS Versátil: Graba Tu Primera Vez",
       "key2_es": "Tono Premium en Guitarra y Metales",
@@ -27327,7 +27327,9 @@
       "best3_en": "Kick drum & bass",
       "best1_es": "Cualquier instrumento",
       "best2_es": "Guitarra, metales y batería",
-      "best3_es": "Bombo y bajo"
+      "best3_es": "Bombo y bajo",
+      "name2_en": "Electro-Voice RE20",
+      "name1_en": "Shure SM57"
     },
     "from_product": null,
     "verdictProsCons": [
@@ -27499,14 +27501,14 @@
       {
         "q": "How do I mic an acoustic guitar for a natural tone?",
         "a": "Skip the pickup hum and the soundhole-led boominess. Place a small condenser like the Neumann KM 184 about 8-12 inches out, aimed where the neck meets the body. One mic, no close-up bass bloat, no piezo fakery — that's 90% of a great acoustic track.",
-        "q_es": "¿Cómo microfono una guitarra acústica para un tono natural?",
-        "a_es": "Evita el zumbido de la pastilla y el auge del agujero. Pon un condensador de diafragma pequeño como la Neumann KM 184 a unos 20-30 cm, apuntando donde el mástil se junta con el cuerpo. Un solo micro, sin exceso de graves ni pastilla: eso es el 90% de una gran toma acústica."
+        "q_es": "¿Cómo coloco un micrófono en una guitarra acústica para conseguir un tono natural?",
+        "a_es": "Evita el zumbido de la pastilla y el exceso de graves del agujero de la caja. Coloca un condensador de diafragma pequeño, como la Neumann KM-184, a unos 20-30 cm, apuntando hacia la unión del mástil con el cuerpo. Un solo micrófono, sin refuerzo de graves ni pastilla: eso es el 90% de una gran toma acústica."
       },
       {
         "q": "What about strings and orchestra — can one clip-on handle it?",
         "a": "The DPA 4099 CORE is the go-to clip-on for violin and cello, and it works. For a section, ribbon mics — the Coles 4038 or a Royer — give that warm, focused ensemble tone you hear on records. Try the 4099 first if you're one player; reach for a matched ribbon pair when you track strings in the studio.",
         "q_es": "¿Y las cuerdas de orquesta — un clip-on puede con eso?",
-        "a_es": "El DPA 4099 CORE es el clip de referencia para violín y cello y funciona de maravilla. Para una sección de cuerdas, las cintas — una Coles 4038 o un par — dan ese tono vinoso y enfocado de los discos. Prueba el 4099 si estás solo; ve por un par de cintas empatadas cuando grabes cuerdas en estudio."
+        "a_es": "El DPA 4099 CORE es el micro de clip de referencia para violín y violonchelo, y funciona de maravilla. Para una sección de cuerda, las cintas — una Coles 4038 o una Royer — dan ese tono cálido y enfocado que suena en los discos. Prueba el 4099 si estás solo; ve por un par de cintas emparejadas cuando grabes cuerdas en estudio."
       }
     ]
   }
