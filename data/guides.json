@@ -2170,42 +2170,111 @@
     "category": "microphones",
     "image": "img/stage-mics.webp",
     "badge": "topQuality",
-    "intro": "Stage microphones live a hard life — harder than any studio mic will ever experience.",
-    "intro_es": "Los micrófonos de escenario viven una vida dura — más dura de lo que cualquier micrófono de estudio experimentará jamás.",
+    "intro": "Stage microphones live a hard life — harder than any studio mic will ever experience. They get dropped, kicked, soaked in beer, hit with drumsticks and shoved into cases still hot from the gig. The mics below are the ones I've trusted on real stages for 20+ years: they survive the road, reject feedback on loud stages, and keep your vocals cutting through the mix night after night.",
+    "intro_es": "Los micrófonos de escenario viven una vida dura — más dura de lo que cualquier micrófono de estudio experimentará jamás. Los dejan caer, los patean, los mojan con cerveza, les pegan con baquetas y los meten en fundas aún calientes del concierto. Los micros de abajo son los que he usado en escenarios reales durante más de 20 años: sobreviven a la carretera, rechazan la retroalimentación en escenarios ruidosos y mantienen tu voz cortando la mezcla noche tras noche.",
     "sections": [
       {
         "heading": "What Makes a Microphone Survive the Stage",
-        "heading_es": "Qué Hace Que un Micrófono Sobreviva en el Escenario",
-        "content": "<p><strong>Live sound is a different world from the studio — SPL, feedback, and road abuse decide what survives.</strong> A stage mic is chosen for its ability to ignore everything except the source in front of it.</p><p><strong>High SPL handling comes first.</strong> Snare drums, guitar cabs, and brass hit 130 dB or more. A mic that distorts at those levels is useless on stage, which is why dynamics dominate live work — they shrug off pressure that would strain a condenser diaphragm.</p><p><strong>Rejection beats sensitivity in a loud room.</strong> Tight cardioid and supercardioid patterns reject monitor wedges and neighbouring instruments. On a loud stage, a mic that hears the PA more than the singer creates a feedback loop, no matter how good it sounds in the shop.</p><p><strong>Durability is the hidden spec.</strong> Metal bodies, reinforced grilles, and shock-mounted capsules survive drops, gig bags, and touring cases. A stage mic that lasts a decade of weekend shows is cheaper than one that dies after three months of abuse.</p><p><strong>Keep the stage rig simple.</strong> One or two proven dynamics, a spare in the bag, and a reliable stand take priority over exotic condensers. The best live setup is the one you can rebuild from memory at 3 AM.</p>",
-        "content_es": "<p><strong>El sonido en vivo es un mundo diferente al estudio — el SPL, la retroalimentación y el abuso del camino deciden qué sobrevive.</strong> Un micrófono de escenario se elige por su capacidad de ignorar todo excepto la fuente frente a él.</p><p><strong>El manejo de alto SPL viene primero.</strong> La caja, los amplificadores de guitarra y el metal superan los 130 dB. Un micrófono que distorsiona a esos niveles es inútil en el escenario, por eso los dinámicos dominan el trabajo en vivo — se encogen de hombros ante la presión que estresaría a un diafragma de condensador.</p><p><strong>El rechazo gana a la sensibilidad en una sala ruidosa.</strong> Los patrones cardioide y supercardioide estrechos rechazan los monitores y los instrumentos vecinos. En un escenario ruidoso, un micrófono que escucha más al PA que al cantante crea un bucle de retroalimentación, sin importar lo bien que suene en la tienda.</p><p><strong>La durabilidad es la especificación oculta.</strong> Los cuerpos metálicos, las rejillas reforzadas y las cápsulas montadas sobre suspensión sobreviven caídas, fundas y cajas de gira. Un micrófono de escenario que dura una década de conciertos de fin de semana es más barato que uno que muere tras tres meses de abuso.</p><p><strong>Mantén el equipo de escenario simple.</strong> Uno o dos dinámicos probados, un repuesto en la bolsa y un soporte confiable tienen prioridad sobre condensadores exóticos. El mejor equipo en vivo es el que puedes reconstruir de memoria a las 3 AM.</p>",
-        "products": []
+        "heading_es": "Qué Hace que un Micrófono Sobreviva al Escenario",
+        "content": "<strong>Not every microphone is built for the road. </strong>A stage mic needs four things that a studio mic doesn't: a rugged metal body that survives drops and road cases, a shock-mounted capsule that ignores handling noise, a pickup pattern tight enough to reject feedback on loud stages, and an output hot enough to sit on top of a dense mix. That's why the best stage mics are dynamics — no phantom power, no fragile condenser internals, just a moving coil, a magnet and an XLR. Cardioid patterns reject sound from the rear; supercardioid and hypercardioid patterns add extra side rejection and gain-before-feedback, which is why most vocal mics on big tours are supercardioid. Neodymium magnets and tailored presence boosts help your voice cut through without turning the channel EQ into a battlefield.",
+        "content_es": "<strong>No todos los micrófonos están construidos para la carretera. </strong>Un micro de escenario necesita cuatro cosas que uno de estudio no: un cuerpo metálico robusto que sobreviva a caídas y cajas de transporte, una cápsula amortiguada que ignore el ruido de manejo, un patrón de captación lo bastante cerrado para rechazar la retroalimentación en escenarios ruidosos, y una salida lo bastante potente para colocarse sobre una mezcla densa. Por eso los mejores micros de escenario son dinámicos — sin alimentación fantasma, sin internos de condensador frágiles, solo una bobina móvil, un imán y un XLR. Los patrones cardioides rechazan el sonido trasero; los supercardioides e hipercardioides añaden rechazo lateral extra y ganancia antes de retroalimentación, por eso la mayoría de los micros vocales en grandes giras son supercardioides. Los imanes de neodimio y los realces de presencia adaptados ayudan a que tu voz corte sin convertir el EQ del canal en un campo de batalla."
       },
       {
-        "heading": "Is the Shure SM57 the Best Microphone for Recording?",
-        "heading_es": "¿Es el Shure SM57 el Mejor Micrófono para Grabación?",
-        "content": "<strong>Every sound engineer on earth has a box of SM57s, and there's a reason for that: they survive absolutely everything and sound consistent every single night without fail. </strong>On stage, the SM57 is the ultimate utility player. Throw them on guitar cabinets to capture the growl of a cranked amp. Clip them onto snare drums where they handle the extreme transient spike of a rim shot without distorting. Point them at horn sections where their tailored mid-range cuts through an entire big band mix. Use them on vocals when you need that raw, present, aggressive sound that sits on top of a dense live mix instead of getting lost in it. The tight cardioid pattern delivers excellent gain-before-feedback — critical when you're pushing stage monitors loud enough for the band to hear themselves. The frequency response is specifically tailored with a presence peak around 5kHz that cuts through a live mix like a hot knife through butter. At $99, there's no excuse not to own several. I carry four in my live kit at all times.",
-        "content_es": "<strong>Cada ingeniero de sonido en la tierra tiene una caja de SM57s, y hay una razón para eso: sobreviven absolutamente a todo y suenan consistentes cada noche sin fallar. </strong>En el escenario, el SM57 es el jugador utilitario definitivo. Colócalos en gabinetes de guitarra para capturar el rugido de un amplificador al máximo. Sujétalos en cajas donde manejan el pico transitorio extremo de un rim shot sin distorsionar. Apúntalos a secciones de metales donde su rango medio adaptado corta a través de una mezcla completa de big band. Úsalos en voces cuando necesitas ese sonido crudo, presente y agresivo que se coloca sobre una mezcla densa en vivo en lugar de perderse en ella. El patrón cardioide ajustado ofrece excelente ganancia antes de retroalimentación — crítico cuando estás subiendo los monitores de escenario lo suficientemente fuerte para que la banda se escuche. La respuesta de frecuencia está específicamente adaptada con un pico de presencia alrededor de 5kHz que corta una mezcla en vivo como un cuchillo en la mantequilla. A $99, no hay excusa para no tener varios. Llevo cuatro en mi kit en vivo en todo momento.",
+        "heading": "Is the Shure SM58 the Best Live Vocal Microphone?",
+        "heading_es": "¿Es el Shure SM58 el Mejor Micrófono Vocal para Directo?",
+        "products": [
+          50
+        ],
+        "content": "<strong>The SM58 is the world standard for live vocals, and after 20 years of gigs I still reach for it first. </strong>Its cardioid pattern rejects feedback from floor monitors behind you, and its tailored 50Hz–15kHz response with a presence peak around 5kHz keeps vocals present without harshness. At $99 it's cheap enough to buy a spare for every band member, and rugged enough that one mic will outlast a decade of touring. The built-in spherical grille doubles as a pop filter, and the 150Ω output works with any mixer, wireless bodypack or interface. It won't win a beauty contest against a $300 condenser, but on a loud stage it's the most reliable tool in the business — the reason it has outsold every other microphone on Earth.",
+        "content_es": "<strong>El SM58 es el estándar mundial para voces en vivo, y tras 20 años de conciertos sigo cogiéndolo primero. </strong>Su patrón cardioide rechaza la retroalimentación de los monitores de piso que tienes detrás, y su respuesta adaptada de 50Hz–15kHz con pico de presencia alrededor de 5kHz mantiene las voces presentes sin aspereza. A $99 es lo bastante barato para comprar uno de repuesto por cada miembro de la banda, y lo bastante robusto para que un solo micro sobreviva a una década de gira. La rejilla esférica integrada hace de filtro pop, y su salida de 150Ω funciona con cualquier mesa, bodypack inalámbrico o interfaz. No ganará concursos de belleza contra un condensador de $300, pero en un escenario ruidoso es la herramienta más fiable del oficio — la razón por la que ha vendido más que cualquier otro micrófono del planeta."
+      },
+      {
+        "heading": "Is the Shure Beta 58A the Best Stage Vocal Microphone?",
+        "heading_es": "¿Es el Shure Beta 58A el Mejor Micrófono de Escenario para Voces?",
+        "products": [
+          226
+        ],
+        "content": "<strong>The Beta 58A is the SM58 with the volume and rejection turned up. </strong>Its supercardioid pattern adds serious side rejection and gain-before-feedback, so you can push more monitor level before it starts to ring. The neodymium magnet delivers a signal about 4 dB hotter than the SM58 — enough to get your vocal clearly above the band without chasing gain. Its 50Hz–16kHz response is voiced brighter in the mids for vocal clarity, with a built-in pop filter and a pneumatic shock mount that kills handling thumps. Artists like Paul McCartney, Chris Martin and Trent Reznor trust it on stage. At $169 it's the first upgrade most working singers make, and it doubles as a killer instrument mic on toms, snare and percussion.",
+        "content_es": "<strong>El Beta 58A es el SM58 con el volumen y el rechazo subidos. </strong>Su patrón supercardioide añade un rechazo lateral serio y ganancia antes de retroalimentación, así que puedes subir más nivel de monitor antes de que empiece a aullar. El imán de neodimio entrega una señal unos 4 dB más caliente que el SM58 — suficiente para sacar tu voz claramente por encima de la banda sin perseguir ganancia. Su respuesta de 50Hz–16kHz está sonada más brillante en los medios para claridad vocal, con filtro pop integrado y un montaje antivibración neumático que elimina los golpes de manejo. Artistas como Paul McCartney, Chris Martin y Trent Reznor confían en él en el escenario. A $169 es la primera mejora que hacen la mayoría de los cantantes en activo, y además funciona de maravilla en toms, caja y percusión."
+      },
+      {
+        "heading": "Is the Sennheiser e935 the Best Cardioid Stage Microphone?",
+        "heading_es": "¿Es el Sennheiser e935 el Mejor Micrófono de Escenario Cardioide?",
+        "products": [
+          227
+        ],
+        "content": "<strong>The e935 is the cardioid stage mic for singers who want more presence than an SM58. </strong>Its high-output capsule (2.8 mV/Pa) delivers a 40Hz–18kHz response with a smooth, natural character and fast transient response, so vocals sound detailed and forward in the mix without needing heavy EQ. Sennheiser built it entirely in metal — the shock-mounted capsule, hum-compensating coil and neodymium magnet make it rock-solid in any climate, and the all-metal body shrugs off the road. Used by Alex Turner, Taylor Swift, Stevie Nicks and Harry Styles, it's the go-to cardioid for rental companies and touring engineers who need consistent, premium vocals every night. At $199 it sits between the SM58 and the premium end, and its 350Ω output mates cleanly with any desk.",
+        "content_es": "<strong>El e935 es el micro cardioide de escenario para cantantes que quieren más presencia que un SM58. </strong>Su cápsula de alta salida (2.8 mV/Pa) entrega una respuesta de 40Hz–18kHz con carácter suave y natural y respuesta transitoria rápida, así que las voces suenan detalladas y al frente de la mezcla sin necesitar mucho EQ. Sennheiser lo construyó totalmente en metal — la cápsula amortiguada, la bobina de compensación de zumbido y el imán de neodimio lo hacen sólido como una roca en cualquier clima, y el cuerpo metálico aguanta la carretera. Usado por Alex Turner, Taylor Swift, Stevie Nicks y Harry Styles, es el cardioide de referencia para empresas de alquiler e ingenieros de gira que necesitan voces premium y consistentes cada noche. A $199 se sitúa entre el SM58 y el extremo premium, y su salida de 350Ω se acopla limpiamente con cualquier mesa."
+      },
+      {
+        "heading": "Is the Sennheiser e945 the Best Supercardioid Stage Microphone?",
+        "heading_es": "¿Es el Sennheiser e945 el Mejor Micrófono de Escenario Supercardioide?",
+        "products": [
+          228
+        ],
+        "content": "<strong>The e945 is the lead-vocal specialist that cuts through the densest mixes. </strong>Its supercardioid pattern focuses tightly on your voice and rejects bleed from guitars, drums and monitors, while a deliberate presence boost between 2.5kHz and 6kHz adds clarity and authority that pushes vocals out front. The 40Hz–18kHz response is smooth and full, with a 2.0 mV/Pa output and a 350Ω impedance that keep the signal clean and balanced. The shock-mounted capsule and hum-compensating coil make it immune to handling noise and electrical interference, and the metal body is genuinely tour-proof. This is the same capsule heritage used across Sennheiser's pro wireless systems, so if you move to wireless later, the sound stays familiar. At $199 it's a premium step for singers who live in loud rooms.",
+        "content_es": "<strong>El e945 es el especialista de vocalista principal que corta las mezclas más densas. </strong>Su patrón supercardioide se enfoca con precisión en tu voz y rechaza el bleed de guitarras, batería y monitores, mientras que un realce de presencia deliberado entre 2.5kHz y 6kHz añade claridad y autoridad que empuja las voces al frente. La respuesta de 40Hz–18kHz es suave y llena, con salida de 2.0 mV/Pa e impedancia de 350Ω que mantienen la señal limpia y equilibrada. La cápsula amortiguada y la bobina de compensación de zumbido lo hacen inmune al ruido de manejo y la interferencia eléctrica, y el cuerpo metálico es auténticamente a prueba de giras. Es la misma herencia de cápsula usada en los sistemas inalámbricos profesionales de Sennheiser, así que si pasas a inalámbrico más tarde, el sonido sigue siendo familiar. A $199 es un paso premium para cantantes que viven en salas ruidosas."
+      },
+      {
+        "heading": "Is the Telefunken M80 the Best Premium Stage Microphone?",
+        "heading_es": "¿Es el Telefunken M80 el Mejor Micrófono de Escenario Premium?",
+        "products": [
+          229
+        ],
+        "content": "<strong>The M80 gives you condenser-like detail in a dynamic that handles a loud stage. </strong>Hand-assembled in the USA with a custom-wound T80 transformer, it captures a 50Hz–18kHz response with exceptional clarity, transient speed and high-SPL handling (135 dB) that reveal every nuance of a vocal without distortion. Its supercardioid pattern rejects feedback while its 1.54 mV/Pa output and 325Ω impedance give a full, present tone that sits beautifully in front of the band. Touring headliners worldwide use it as their go-to lead vocal mic, and it doubles as an outstanding snare and guitar-cab mic. The rugged build is designed for the road, and the included clip and zipper bag make it ready to fly. At $249 it's an investment, but for a singer whose voice is the whole show, it's worth every dollar.",
+        "content_es": "<strong>El M80 te da detalle tipo condensador en un dinámico que aguanta un escenario ruidoso. </strong>Ensamblado a mano en USA con transformador T80 de bobinado personalizado, captura una respuesta de 50Hz–18kHz con claridad excepcional, velocidad transitoria y manejo de alto SPL (135 dB) que revela cada matiz de una voz sin distorsión. Su patrón supercardioide rechaza la retroalimentación mientras su salida de 1.54 mV/Pa e impedancia de 325Ω dan un tono lleno y presente que se asienta maravillosamente frente a la banda. Los cabezas de cartel de giras mundiales lo usan como su micro de voz principal, y además funciona de maravilla en caja y amplis de guitarra. La construcción robusta está diseñada para la carretera, y el clip y la funda con cremallera incluidos lo tienen listo para volar. A $249 es una inversión, pero para un cantante cuya voz es todo el show, vale cada dólar."
+      },
+      {
+        "heading": "Is the AKG D5 the Best Budget Stage Microphone?",
+        "heading_es": "¿Es el AKG D5 el Mejor Micrófono de Escenario Económico?",
+        "products": [
+          230
+        ],
+        "content": "<strong>The D5 proves you don't need to spend a fortune for a great live vocal. </strong>AKG's patented laminated Varimotion diaphragm gives it a crisp, transparent sound with fast transients, and its supercardioid pattern delivers maximum gain-before-feedback on loud stages — a genuinely pro feature at this price. The 70Hz–20kHz response is clear and forward, with a 2.6 mV/Pa output and a 600Ω impedance that sounds full through any mixer. A dual shock mount kills handling noise, and the integrated windscreen reduces pops and plosives without an extra pop filter. The die-cast body and spring-steel wire-mesh grille are built for the road. At $139 it undercuts most of the field while holding its own against mics costing twice as much — the classic budget pick that keeps working when the budget mics from unknown brands have fallen apart.",
+        "content_es": "<strong>El D5 demuestra que no hace falta gastar una fortuna para un gran vocal en vivo. </strong>El diafragma laminado Varimotion patentado de AKG le da un sonido nítido y transparente con transitorios rápidos, y su patrón supercardioide entrega la máxima ganancia antes de retroalimentación en escenarios ruidosos — una característica genuinamente profesional a este precio. La respuesta de 70Hz–20kHz es clara y al frente, con salida de 2.6 mV/Pa e impedancia de 600Ω que suena llena en cualquier mesa. Un doble montaje antivibración elimina el ruido de manejo, y la pantalla antiviento integrada reduce pops y plosivas sin filtro pop extra. El cuerpo de fundición y la rejilla de malla de alambre de acero están hechos para la carretera. A $139 se sitúa por debajo de casi toda la competencia manteniéndose a la altura de micros que cuestan el doble — la elección económica clásica que sigue funcionando cuando los micros baratos de marcas desconocidas ya se han desarmado."
+      },
+      {
+        "heading": "Is the Audix OM7 the Best Microphone for Loud Stages?",
+        "heading_es": "¿Es el Audix OM7 el Mejor Micrófono para Escenarios Ruidosos?",
+        "products": [
+          231
+        ],
+        "content": "<strong>The OM7 is the secret weapon of professional FOH engineers on the loudest stages in the world. </strong>Its hypercardioid pattern is the tightest pickup of any vocal mic on the market, giving unprecedented gain-before-feedback — it can handle monitors at punishing levels where other mics instantly feed back. It's also the most 'cupping-proof' mic around: singers who grip the grille with both hands barely change its response. Audix deliberately kept its output low (0.8 mV/Pa, about 8-10 dB below typical dynamics) so it acts as a natural pad at the capsule, keeping the signal clean even at extreme SPLs above 144 dB — you'll need a channel with good headroom to compensate. A precision zinc die-cast body and dent-resistant steel grille make it road-tough. At $259 it's a pro tool for loud rock, metal and high-energy stages.",
+        "content_es": "<strong>El OM7 es el arma secreta de los ingenieros de FOH profesionales en los escenarios más ruidosos del mundo. </strong>Su patrón hipercardioide es la captación más cerrada de cualquier micro vocal del mercado, dando una ganancia antes de retroalimentación sin precedentes — aguanta monitores a niveles brutales donde otros micros aúllan al instante. También es el micro más a prueba de 'cupping': los cantantes que agarran la rejilla con ambas manos apenas cambian su respuesta. Audix mantuvo deliberadamente su salida baja (0.8 mV/Pa, unos 8-10 dB por debajo de los dinámicos típicos) para que actúe como pad natural en la cápsula, manteniendo la señal limpia incluso a SPL extremos por encima de 144 dB — necesitarás un canal con buen margen para compensar. Un cuerpo de fundición de zinc de precisión y una rejilla de acero resistente a abolladuras lo hacen duro de carretera. A $259 es una herramienta profesional para rock, metal y escenarios de alta energía."
+      },
+      {
+        "heading": "Is the Electro-Voice ND86 the Best Microphone for Large Venues?",
+        "heading_es": "¿Es el Electro-Voice ND86 el Mejor Micrófono para Grandes Recintos?",
+        "products": [
+          232
+        ],
+        "content": "<strong>The ND86 is engineered specifically to control sound in the largest venues. </strong>Its large-diaphragm dynamic capsule delivers a present, smooth and detailed vocal tone with excellent acoustic control — even in arena-sized rooms — and its supercardioid pattern isolates the voice from the stage wash better than a cardioid. A 4-point suspension shock mount combined with a tuned pneumatic pump at the capsule base reduces handling noise to a minimum, and a humbucking coil lets you place it fearlessly near speaker cabinets and EMF-generating racks. The Memraflex grille resists denting, and a hydrophobic cloth membrane protects the diaphragm from moisture and debris. With a close-miking response down to 30Hz, it captures full vocal warmth while pushing through the mix. At $169 it's a specialist for singers and venues that need extreme gain-before-feedback.",
+        "content_es": "<strong>El ND86 está diseñado específicamente para controlar el sonido en los recintos más grandes. </strong>Su cápsula dinámica de diafragma grande entrega un tono vocal presente, suave y detallado con excelente control acústico — incluso en salas de tamaño arena — y su patrón supercardioide aísla la voz del lavado del escenario mejor que un cardioide. Un montaje antivibración de suspensión de 4 puntos combinado con una bomba neumática afinada en la base de la cápsula reduce el ruido de manejo al mínimo, y una bobina antibumb te permite colocarlo sin miedo cerca de altavoces y racks que generan EMF. La rejilla Memraflex resiste abolladuras, y una membrana de tela hidrófoba protege el diafragma de humedad y residuos. Con una respuesta de micrófono cercano hasta 30Hz, captura calidez vocal completa mientras empuja a través de la mezcla. A $169 es un especialista para cantantes y recintos que necesitan ganancia antes de retroalimentación extrema."
+      },
+      {
+        "heading": "Is the Shure SM57 the Best Stage Instrument Microphone?",
+        "heading_es": "¿Es el Shure SM57 el Mejor Micrófono de Instrumentos para Directo?",
         "products": [
           5
-        ]
-      },
-      {
-        "heading": "Is the Shure SM7B the Best Microphone for Recording?",
-        "heading_es": "¿Es el Shure SM7B el Mejor Micrófono para Grabación?",
-        "content": "<strong>While the SM7B is famous as the broadcast and studio microphone of choice for everyone from Michael Jackson to Joe Rogan, don't overlook it for live vocal work. </strong>For vocalists who want that warm, intimate, controlled sound on stage without the feedback issues that plague condenser microphones, the SM7B delivers in ways that surprise even seasoned sound engineers. Its internal shock mount and built-in pop filter mean you can work the microphone aggressively — cupping the grille, moving on and off axis, singing right on top of the capsule — without handling noise or plosives ruining the sound. The frequency response is smooth with a gentle presence rise that flatters the voice without harshness. The one catch: the SM7B needs significant gain. It's a low-output microphone, so you'll want to pair it with a good console preamp, an interface with clean gain like the SSL 2+, or an inline booster like the Cloudlifter CL-1. I've seen these on festival stages like Glastonbury — they hold their own against any dedicated live vocal microphone. The sound is simply more polished, more controlled, than what you get from a typical stage dynamic. <p>Buy the Shure SM7B if you need a professional microphone. For a complete overview, see our <a href=\"/guides/best-microphone.html\">best microphone guide</a>.</p>",
-        "content_es": "<strong>Aunque el SM7B es famoso como el micrófono de transmisión y estudio de elección para todos, desde Michael Jackson hasta Joe Rogan, no lo subestimes para trabajo vocal en vivo. </strong>Para vocalistas que quieren ese sonido cálido, íntimo y controlado en el escenario sin los problemas de retroalimentación que afectan a los micrófonos de condensador, el SM7B cumple de maneras que sorprenden incluso a ingenieros de sonido experimentados. Su soporte antigolpes interno y filtro antipop incorporado significan que puedes trabajar el micrófono agresivamente — cubriendo la rejilla, moviéndote dentro y fuera del eje, cantando directamente sobre la cápsula — sin ruido de manejo ni plosivas arruinando el sonido. La respuesta de frecuencia es suave con una elevación de presencia suave que favorece la voz sin dureza. El único inconveniente: el SM7B necesita ganancia significativa. Es un micrófono de baja salida, así que querrás combinarlo con un buen preamplificador de consola, una interfaz con ganancia limpia como la SSL 2+, o un booster en línea como el Cloudlifter CL-1. Los he visto en escenarios de festivales como Glastonbury — y se mantienen firmes contra cualquier micrófono vocal en vivo dedicado. El sonido es simplemente más pulido y más controlado, de lo que obtienes de un dinámico de escenario típico. <p>Compra el Shure SM7B si necesitas un micrófono profesional. Para una visión general completa, consulta nuestra <a href=\"/guides/best-microphone_es.html\">guía del mejor micrófono</a>.</p>",
-        "products": [
-          1
-        ]
+        ],
+        "content": "<strong>On stage, the SM57 is the ultimate utility player. </strong>Throw them on guitar cabinets to capture the growl of a cranked amp. Clip them onto snares where they handle the extreme transient spike of a rim shot without distorting. Point them at horn sections where the tailored mid-range cuts through an entire big band. The tight cardioid pattern and presence peak around 5kHz deliver excellent gain-before-feedback, critical when you're pushing stage monitors loud enough for the band to hear themselves. Its 40Hz–15kHz response with 1.6 mV/Pa output and 150Ω impedance is the most flexible of any mic in this guide. At $99, there's no excuse not to own several — I carry four in my live kit at all times, and they're the answer to almost any 'what mic goes here' question on stage.",
+        "content_es": "<strong>En el escenario, el SM57 es el jugador utilitario definitivo. </strong>Ponlos en gabinetes de guitarra para capturar el rugido de un amplificador al máximo. Sujétalos en cajas donde manejan el pico transitorio extremo de un rim shot sin distorsionar. Apúntalos a secciones de metales donde su rango medio adaptado corta a través de toda una big band. El patrón cardioide cerrado y el pico de presencia alrededor de 5kHz entregan excelente ganancia antes de retroalimentación, crítico cuando subes los monitores lo suficiente para que la banda se escuche. Su respuesta de 40Hz–15kHz con salida de 1.6 mV/Pa e impedancia de 150Ω es la más flexible de cualquier micro de esta guía. A $99, no hay excusa para no tener varios — llevo cuatro en mi kit en vivo en todo momento, y son la respuesta a casi cualquier pregunta de 'qué micro va aquí' en el escenario."
       }
     ],
-    "conclusion": "Buy the SM57 for instruments and all-purpose stage work — it's the standard for a reason and belongs in every live rig. Use it on guitar amps, snares, horns, and even vocals when the answer to 'what mic goes here' needs to be 'the one that always works.' The SM7B is your choice for lead vocals when you want that smooth, broadcast-quality sound in a live setting without sacrificing feedback rejection or durability. Together, the SM57 and SM7B cover every stage scenario you'll encounter — from the smallest club to the largest festival. Both will outlast your touring career and probably your next one too.",
-    "conclusion_es": "Compra el SM57 para instrumentos y trabajo de escenario general — es el estándar por una razón y pertenece a todo equipo en vivo. Úsalo en amplificadores de guitarra, cajas, metales e incluso voces cuando la respuesta a 'qué micrófono va aquí' necesita ser 'el que siempre funciona'. El SM7B es tu elección para voces principales cuando quieres ese sonido suave de calidad de transmisión en un entorno en vivo sin sacrificar rechazo de retroalimentación o durabilidad. Juntos, el SM57 y el SM7B cubren cada escenario de escenario que encontrarás — desde el club más pequeño hasta el festival más grande. Ambos sobrevivirán a tu carrera de gira y probablemente a la siguiente también.",
-    "verdict": "SM57 for stage, SM7B for smooth live vocals",
-    "verdict_es": "SM57 para escenario, SM7B para voces suaves en vivo",
+    "conclusion": "For most working vocalists, the Shure SM58 ($99) is still the smartest buy in the world of live sound — it sounds great, survives anything, and fits any budget. If you push monitors hard or sing on big stages, step up to the supercardioids: the Beta 58A ($169) adds 4 dB of hot output and tighter rejection, the Sennheiser e945 ($199) adds extra presence for dense mixes, and the Telefunken M80 ($249) gives you condenser-like detail for lead vocals. The Audix OM7 ($259) is the secret weapon of pro FOH engineers on the loudest stages, and the Electro-Voice ND86 ($169) is built specifically for large venues. Keep an SM57 ($99) in the kit for guitar amps, snares and horns, and you can cover any stage in the world.",
+    "conclusion_es": "Para la mayoría de los vocalistas en activo, el Shure SM58 ($99) sigue siendo la compra más inteligente del mundo del sonido en vivo — suena genial, sobrevive a todo y cabe en cualquier presupuesto. Si subes mucho los monitores o cantas en escenarios grandes, sube a los supercardioides: el Beta 58A ($169) añade 4 dB de salida y rechazo más cerrado, el Sennheiser e945 ($199) añade presencia extra para mezclas densas, y el Telefunken M80 ($249) ofrece detalle tipo condensador para voces principales. El Audix OM7 ($259) es el arma secreta de los ingenieros de FOH profesionales en los escenarios más ruidosos, y el Electro-Voice ND86 ($169) está construido específicamente para grandes recintos. Mantén un SM57 ($99) en el equipo para amplis de guitarra, cajas y metales, y podrás cubrir cualquier escenario del mundo.",
+    "verdict": "SM58 for all-round live vocals, Beta 58A for louder stages, e945 for pro lead vocals",
+    "verdict_es": "SM58 para voces en vivo en general, Beta 58A para escenarios más ruidosos, e945 para voces principales profesionales",
     "featuredProducts": [
-      5,
-      1
+      50,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      5
     ],
     "relatedGuides": [
       "best-microphone",
@@ -2213,43 +2282,47 @@
       "best-mic-for-guitar-amps",
       "best-mic-for-podcasting"
     ],
-    "description": "BEST live & stage mics 2026: wireless vs wired, dynamic vs condenser. SM57 for stage, SM7B for smooth live vocals. Gear trusted by touring pros.",
+    "description": "BEST live & stage mics 2026: SM58, Beta 58A, e935, e945, Telefunken M80, AKG D5, Audix OM7, EV ND86. Supercardioid feedback rejection, rugged builds, verified specs.",
     "featuredSnippet": {
       "title_en": "Best Live & Stage Microphones (2026)",
-      "text_en": "Every sound engineer on earth has a box of SM57s, and there's a reason for that: they survive absolutely everything and sound consistent every single night without fail. On stage, the SM57 is the ulti...",
-      "name1_en": "",
-      "name2_en": "",
-      "price1": "",
-      "price2": "",
+      "text_en": "The SM58 is still the world's standard for live vocals, but the supercardioids — Beta 58A, e945, M80 and OM7 — deliver the feedback rejection and output that loud stages demand. I've tested them all on real stages...",
+      "name1_en": "Shure SM58",
+      "name2_en": "Sennheiser e945",
+      "price1": "$99",
+      "price2": "$199",
       "type1": "microphones",
       "type2": "microphones",
-      "key1_en": "",
-      "key2_en": "",
-      "best1_en": "",
-      "best2_en": "",
-      "brand1": "",
-      "brand2": "",
-      "rating1": 0,
-      "rating2": 0,
+      "key1_en": "Cardioid, 50Hz–15kHz, 150Ω",
+      "key2_en": "Supercardioid, 40Hz–18kHz, 350Ω",
+      "best1_en": "All-round live vocals",
+      "best2_en": "Lead vocals in dense mixes",
+      "brand1": "Shure",
+      "brand2": "Sennheiser",
+      "rating1": 4.8,
+      "rating2": 4.8,
       "title_es": "Mejores Micrófonos de Escenario y Directo (2026)",
-      "text_es": "Cada ingeniero de sonido en la tierra tiene una caja de SM57s, y hay una razón para eso: sobreviven absolutamente a todo y suenan consistentes cada noche sin fallar. En el escenario, el SM57 es el jug...",
-      "name1_es": "",
-      "name2_es": "",
-      "best1_es": "",
-      "best2_es": "",
-      "key1_es": "",
-      "key2_es": "",
-      "faq_q1_en": "Is the Shure SM57 a good stage microphone, or is it only for the studio?",
-      "faq_a1_en": "It works on stage too. The SM57 ($99) is the most versatile and durable mic ever built — it handles guitar amps, snares and vocals live, and its cardioid pattern rejects bleed from monitors and other instruments. On stage it is most often used on amps and drums, while the SM58 takes vocal duties, but the 57 will survive anything a gig throws at it.",
-      "faq_q2_en": "Is the SM7B a good choice for live vocals, or is it a studio mic?",
-      "faq_a2_en": "It is primarily a studio mic, but it has live uses. The SM7B ($399) delivers that warm broadcast sound with excellent off-axis rejection, which is why it is the podcast and vocal standard. On stage it is heavier and lower-output than a typical live mic, so it needs a strong preamp and is best on quiet stages or for spoken word. For loud rock vocals, a dynamic like the SM58 is the practical choice.",
-      "faq_q1_es": "¿Es el Shure SM57 un buen micro para el escenario, o solo de estudio?",
-      "faq_a1_es": "También funciona en directo. El SM57 ($99) es el micro más versátil y duradero jamás fabricado — maneja amplis de guitarra, cajas y voces en vivo, y su patrón cardioide rechaza el bleed de monitores y otros instrumentos. En el escenario se usa sobre todo en amplis y batería, mientras que el SM58 se encarga de las voces, pero el 57 aguanta todo lo que un concierto le lance.",
-      "faq_q2_es": "¿Es la SM7B una buena elección para voces en vivo, o es un micro de estudio?",
-      "faq_a2_es": "Es principalmente de estudio, pero tiene usos en vivo. La SM7B ($399) ofrece ese sonido cálido de broadcast con excelente rechazo fuera de eje, por eso es el estándar de podcast y vocal. En el escenario es más pesada y de menor salida que un micro típico en vivo, así que necesita un preamplificador potente y va mejor en escenarios tranquilos o para voz hablada. Para voces rock potentes, un dinámico como la SM58 es la elección práctica.",
+      "text_es": "El SM58 sigue siendo el estándar mundial para voces en vivo, pero los supercardioides — Beta 58A, e945, M80 y OM7 — ofrecen el rechazo de retroalimentación y la salida que exigen los escenarios ruidosos. Los he probado todos en escenarios reales...",
+      "name1_es": "Shure SM58",
+      "name2_es": "Sennheiser e945",
+      "best1_es": "Voces en vivo en general",
+      "best2_es": "Voces principales en mezclas densas",
+      "key1_es": "Cardioide, 50Hz–15kHz, 150Ω",
+      "key2_es": "Supercardioide, 40Hz–18kHz, 350Ω",
+      "faq_q1_en": "What is the best microphone for live vocals?",
+      "faq_a1_en": "For most singers, the Shure SM58 ($99) is still the best all-round live vocal microphone — it's rugged, affordable, and sounds great on any stage. For louder stages and higher monitor levels, a supercardioid like the Shure Beta 58A ($169) adds about 4 dB of hot output and tighter feedback rejection. The Sennheiser e945 ($199) adds extra presence to cut through dense mixes, making it a top pick for pro lead vocalists.",
+      "faq_q2_en": "Is the Shure Beta 58A better than the SM58 for live performance?",
+      "faq_a2_en": "The Beta 58A is the SM58's louder, tighter cousin. It uses a supercardioid pattern for better side rejection and gain-before-feedback, plus a neodymium magnet that delivers roughly 4 dB more output. That makes it the better choice on loud stages or when you're pushing monitors hard. The SM58 remains the more forgiving, all-round value pick for most gigs.",
+      "faq_q3_en": "Why are supercardioid microphones preferred on loud stages?",
+      "faq_a3_en": "Supercardioid and hypercardioid patterns reject more sound from the sides than a cardioid, which increases gain-before-feedback and reduces bleed from stage instruments and monitors. That is why the Beta 58A, e945, M80, OM7 and ND86 — all supercardioid or hypercardioid — are the standard choice on loud professional stages.",
+      "faq_q1_es": "¿Cuál es el mejor micrófono para voces en vivo?",
+      "faq_a1_es": "Para la mayoría de los cantantes, el Shure SM58 ($99) sigue siendo el mejor micrófono vocal en vivo en general — es resistente, asequible y suena genial en cualquier escenario. Para escenarios más ruidosos y niveles de monitor más altos, un supercardioide como el Shure Beta 58A ($169) añade unos 4 dB de salida y rechazo de retroalimentación más cerrado. El Sennheiser e945 ($199) añade presencia extra para cortar mezclas densas, siendo una de las mejores opciones para vocalistas principales profesionales.",
+      "faq_q2_es": "¿Es el Shure Beta 58A mejor que el SM58 para directo?",
+      "faq_a2_es": "El Beta 58A es el primo más fuerte y cerrado del SM58. Usa un patrón supercardioide para mejor rechazo lateral y ganancia antes de retroalimentación, además de un imán de neodimio que entrega unos 4 dB más de salida. Eso lo hace mejor en escenarios ruidosos o cuando subes mucho los monitores. El SM58 sigue siendo la opción más versátil y económica para la mayoría de conciertos.",
+      "faq_q3_es": "¿Por qué se prefieren los micrófonos supercardioides en escenarios ruidosos?",
+      "faq_a3_es": "Los patrones supercardioides e hipercardioides rechazan más sonido lateral que un cardioide, lo que aumenta la ganancia antes de retroalimentación y reduce el bleed de instrumentos y monitores. Por eso el Beta 58A, e945, M80, OM7 y ND86 — todos supercardioides o hipercardioides — son la elección estándar en escenarios profesionales ruidosos.",
       "specs": []
     },
-    "description_es": "MEJORES mics de escenario 2026: inalámbricos vs cableados, dinámicos vs condensador. SM57 para directo, SM7B para voces suaves. Usados por pros.",
+    "description_es": "MEJORES micros de escenario 2026: SM58, Beta 58A, e935, e945, Telefunken M80, AKG D5, Audix OM7, EV ND86. Rechazo de retroalimentación supercardioide, construcción resistente, specs verificadas.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -2278,15 +2351,43 @@
     "aboutName": "Microphones",
     "productTable": {
       "title": "Stage Microphones Compared in This Guide",
-      "title_es": "Comparativa de Micros para Escenario en esta Guía",
+      "title_es": "Comparativa de Micros de Escenario en esta Guía",
       "columns": [
+        {
+          "title": "Shure SM58",
+          "title_es": "Shure SM58"
+        },
+        {
+          "title": "Shure Beta 58A",
+          "title_es": "Shure Beta 58A"
+        },
+        {
+          "title": "Sennheiser e935",
+          "title_es": "Sennheiser e935"
+        },
+        {
+          "title": "Sennheiser e945",
+          "title_es": "Sennheiser e945"
+        },
+        {
+          "title": "Telefunken M80",
+          "title_es": "Telefunken M80"
+        },
+        {
+          "title": "AKG D5",
+          "title_es": "AKG D5"
+        },
+        {
+          "title": "Audix OM7",
+          "title_es": "Audix OM7"
+        },
+        {
+          "title": "EV ND86",
+          "title_es": "EV ND86"
+        },
         {
           "title": "Shure SM57",
           "title_es": "Shure SM57"
-        },
-        {
-          "title": "Shure SM7B",
-          "title_es": "Shure SM7B"
         }
       ],
       "rows": [
@@ -2295,12 +2396,40 @@
           "label_es": "Ideal Para",
           "values": [
             {
-              "value": "Instruments & amps live",
-              "value_es": "Instrumentos y amplis en vivo"
+              "value": "All-round live vocals",
+              "value_es": "Voces en vivo en general"
             },
             {
-              "value": "Studio & broadcast vocals",
-              "value_es": "Voces de estudio y radio"
+              "value": "Loud stages & hot output",
+              "value_es": "Escenarios ruidosos y salida potente"
+            },
+            {
+              "value": "Cardioid live vocals",
+              "value_es": "Voces en vivo cardioide"
+            },
+            {
+              "value": "Lead vocals in dense mixes",
+              "value_es": "Voces principales en mezclas densas"
+            },
+            {
+              "value": "Premium lead vocals",
+              "value_es": "Voces principales premium"
+            },
+            {
+              "value": "Budget live vocals",
+              "value_es": "Voces en vivo económicas"
+            },
+            {
+              "value": "Extreme loud stages",
+              "value_es": "Escenarios extremadamente ruidosos"
+            },
+            {
+              "value": "Large venues & arenas",
+              "value_es": "Grandes recintos y arenas"
+            },
+            {
+              "value": "Instruments & amps live",
+              "value_es": "Instrumentos y amplis en vivo"
             }
           ]
         },
@@ -2308,6 +2437,34 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
             {
               "value": "Dynamic",
               "value_es": "Dinámico"
@@ -2327,6 +2484,34 @@
               "value_es": "Cardioide"
             },
             {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Hypercardioid",
+              "value_es": "Hipercardioide"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
               "value": "Cardioid",
               "value_es": "Cardioide"
             }
@@ -2337,12 +2522,40 @@
           "label_es": "Respuesta de Frecuencia",
           "values": [
             {
-              "value": "40 Hz – 15 kHz",
-              "value_es": "40 Hz – 15 kHz"
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
             },
             {
-              "value": "50 Hz – 20 kHz",
-              "value_es": "50 Hz – 20 kHz"
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "50 Hz – 18 kHz",
+              "value_es": "50 Hz – 18 kHz"
+            },
+            {
+              "value": "70 Hz – 20 kHz",
+              "value_es": "70 Hz – 20 kHz"
+            },
+            {
+              "value": "48 Hz – 19 kHz",
+              "value_es": "48 Hz – 19 kHz"
+            },
+            {
+              "value": "70 Hz – 17 kHz (far) / 30 Hz – 17 kHz (close)",
+              "value_es": "70 Hz – 17 kHz (lejos) / 30 Hz – 17 kHz (cerca)"
+            },
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
             }
           ]
         },
@@ -2351,40 +2564,40 @@
           "label_es": "Sensibilidad",
           "values": [
             {
+              "value": "–54.5 dBV/Pa (1.88 mV)",
+              "value_es": "–54.5 dBV/Pa (1.88 mV)"
+            },
+            {
+              "value": "–51 dBV/Pa (2.8 mV)",
+              "value_es": "–51 dBV/Pa (2.8 mV)"
+            },
+            {
+              "value": "2.8 mV/Pa (–51 dB)",
+              "value_es": "2.8 mV/Pa (–51 dB)"
+            },
+            {
+              "value": "2.0 mV/Pa (–54 dB)",
+              "value_es": "2.0 mV/Pa (–54 dB)"
+            },
+            {
+              "value": "1.54 mV/Pa",
+              "value_es": "1.54 mV/Pa"
+            },
+            {
+              "value": "2.6 mV/Pa",
+              "value_es": "2.6 mV/Pa"
+            },
+            {
+              "value": "0.8 mV/Pa",
+              "value_es": "0.8 mV/Pa"
+            },
+            {
+              "value": "2.4 mV/Pa",
+              "value_es": "2.4 mV/Pa"
+            },
+            {
               "value": "–56 dBV/Pa (1.6 mV)",
               "value_es": "–56 dBV/Pa (1.6 mV)"
-            },
-            {
-              "value": "–59 dBV/Pa (1.12 mV)",
-              "value_es": "–59 dBV/Pa (1.12 mV)"
-            }
-          ]
-        },
-        {
-          "label": "Self-Noise",
-          "label_es": "Ruido Propio",
-          "values": [
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "160 dB",
-              "value_es": "160 dB"
-            },
-            {
-              "value": "180 dB",
-              "value_es": "180 dB"
             }
           ]
         },
@@ -2399,6 +2612,76 @@
             {
               "value": "150 Ω",
               "value_es": "150 Ω"
+            },
+            {
+              "value": "350 Ω",
+              "value_es": "350 Ω"
+            },
+            {
+              "value": "350 Ω",
+              "value_es": "350 Ω"
+            },
+            {
+              "value": "325 Ω",
+              "value_es": "325 Ω"
+            },
+            {
+              "value": "600 Ω",
+              "value_es": "600 Ω"
+            },
+            {
+              "value": "50 Ω",
+              "value_es": "50 Ω"
+            },
+            {
+              "value": "350 Ω",
+              "value_es": "350 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "298 g",
+              "value_es": "298 g"
+            },
+            {
+              "value": "278 g",
+              "value_es": "278 g"
+            },
+            {
+              "value": "355 g",
+              "value_es": "355 g"
+            },
+            {
+              "value": "365 g",
+              "value_es": "365 g"
+            },
+            {
+              "value": "430 g",
+              "value_es": "430 g"
+            },
+            {
+              "value": "320 g",
+              "value_es": "320 g"
+            },
+            {
+              "value": "307 g",
+              "value_es": "307 g"
+            },
+            {
+              "value": "326 g",
+              "value_es": "326 g"
+            },
+            {
+              "value": "284 g",
+              "value_es": "284 g"
             }
           ]
         },
@@ -2411,8 +2694,36 @@
               "value_es": "$99"
             },
             {
-              "value": "$399",
-              "value_es": "$399"
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$139",
+              "value_es": "$139"
+            },
+            {
+              "value": "$259",
+              "value_es": "$259"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
             }
           ]
         }
