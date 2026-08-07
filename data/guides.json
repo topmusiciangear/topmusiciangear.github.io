@@ -4771,7 +4771,269 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Wireless Microphone Systems Compared in This Guide",
+      "title_es": "Comparativa de Sistemas Inalámbricos en esta Guía",
+      "columns": [
+        {
+          "title": "AKG WMS420 Vocal Set",
+          "title_es": "AKG WMS420 Vocal Set"
+        },
+        {
+          "title": "Shure BLX288/PG58",
+          "title_es": "Shure BLX288/PG58"
+        },
+        {
+          "title": "Sennheiser EW 100 G4-935",
+          "title_es": "Sennheiser EW 100 G4-935"
+        },
+        {
+          "title": "Sennheiser EW-D Dual",
+          "title_es": "Sennheiser EW-D Dual"
+        },
+        {
+          "title": "Shure SM58 Wireless",
+          "title_es": "Shure SM58 Wireless"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Budget multi-channel pro value",
+              "value_es": "Valor pro multicanál con presupuesto ajustado"
+            },
+            {
+              "value": "Dual vocals for duos, churches & corporate events",
+              "value_es": "Dos voces para dúos, iglesias y eventos corporativos"
+            },
+            {
+              "value": "Professional touring & festivals",
+              "value_es": "Giras y festivales profesionales"
+            },
+            {
+              "value": "Premium digital wireless for vocals & presentations",
+              "value_es": "Inalámbrico digital premium para voz y presentaciones"
+            },
+            {
+              "value": "The classic SM58 sound without the cable",
+              "value_es": "El sonido clásico del SM58 sin cable"
+            }
+          ]
+        },
+        {
+          "label": "Technology",
+          "label_es": "Tecnología",
+          "values": [
+            {
+              "value": "Analog UHF (FM)",
+              "value_es": "UHF analógico (FM)"
+            },
+            {
+              "value": "Analog UHF (FM)",
+              "value_es": "UHF analógico (FM)"
+            },
+            {
+              "value": "Analog UHF (FM)",
+              "value_es": "UHF analógico (FM)"
+            },
+            {
+              "value": "Digital UHF (1.9 ms latency)",
+              "value_es": "UHF digital (1.9 ms latencia)"
+            },
+            {
+              "value": "Analog UHF (FM)",
+              "value_es": "UHF analógico (FM)"
+            }
+          ]
+        },
+        {
+          "label": "Mic Capsule",
+          "label_es": "Cápsula de Micrófono",
+          "values": [
+            {
+              "value": "AKG D5 dynamic, supercardioid",
+              "value_es": "AKG D5 dinámica, supercardioide"
+            },
+            {
+              "value": "Shure PG58 dynamic, cardioid",
+              "value_es": "Shure PG58 dinámica, cardioide"
+            },
+            {
+              "value": "Sennheiser MMD 935-1 (e 935) cardioid",
+              "value_es": "Sennheiser MMD 935-1 (e 935) cardioide"
+            },
+            {
+              "value": "MMD 835 cardioid + ME 2 lavalier (2 channels)",
+              "value_es": "MMD 835 cardioide + lavalier ME 2 (2 canales)"
+            },
+            {
+              "value": "Shure SM58 dynamic, cardioid",
+              "value_es": "Shure SM58 dinámica, cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 20 kHz (system)",
+              "value_es": "40 Hz – 20 kHz (sistema)"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "80 Hz – 18 kHz",
+              "value_es": "80 Hz – 18 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz (-3 dB)",
+              "value_es": "20 Hz – 20 kHz (-3 dB)"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Operating Range",
+          "label_es": "Alcance",
+          "values": [
+            {
+              "value": "~98 ft (30 m) line-of-sight",
+              "value_es": "~98 ft (30 m) línea de visión"
+            },
+            {
+              "value": "300 ft (91 m) line-of-sight",
+              "value_es": "300 ft (91 m) línea de visión"
+            },
+            {
+              "value": "up to 328 ft (100 m)",
+              "value_es": "hasta 328 ft (100 m)"
+            },
+            {
+              "value": "up to 328 ft (100 m)",
+              "value_es": "hasta 328 ft (100 m)"
+            },
+            {
+              "value": "300 ft (91 m) line-of-sight",
+              "value_es": "300 ft (91 m) línea de visión"
+            }
+          ]
+        },
+        {
+          "label": "Tuning / Channels",
+          "label_es": "Sintonización / Canales",
+          "values": [
+            {
+              "value": "Up to 8 channels per band",
+              "value_es": "Hasta 8 canales por banda"
+            },
+            {
+              "value": "Up to 12 compatible systems per band",
+              "value_es": "Hasta 12 sistemas compatibles por banda"
+            },
+            {
+              "value": "42 MHz bandwidth, 1,680 frequencies, up to 20 compatible channels",
+              "value_es": "42 MHz de ancho, 1,680 frecuencias, hasta 20 canales compatibles"
+            },
+            {
+              "value": "56 MHz bandwidth, up to 90 channels (2,240 frequencies)",
+              "value_es": "56 MHz de ancho, hasta 90 canales (2,240 frecuencias)"
+            },
+            {
+              "value": "24 MHz bandwidth, up to 12 compatible systems",
+              "value_es": "24 MHz de ancho, hasta 12 sistemas compatibles"
+            }
+          ]
+        },
+        {
+          "label": "Receiver",
+          "label_es": "Receptor",
+          "values": [
+            {
+              "value": "Space diversity, detachable antennas, 1U half-rack",
+              "value_es": "Diversidad espacial, antenas extraíbles, 1U medio rack"
+            },
+            {
+              "value": "BLX88 dual receiver with automatic diversity",
+              "value_es": "Receptor dual BLX88 con diversidad automática"
+            },
+            {
+              "value": "EM 100 G4 true diversity, full-metal half-rack",
+              "value_es": "EM 100 G4 verdadera diversidad, medio rack metálico"
+            },
+            {
+              "value": "True diversity, Bluetooth Smart Assist App",
+              "value_es": "Verdadera diversidad, App Smart Assist por Bluetooth"
+            },
+            {
+              "value": "BLX4 diversity with QuickScan",
+              "value_es": "BLX4 con diversidad y QuickScan"
+            }
+          ]
+        },
+        {
+          "label": "Battery Life",
+          "label_es": "Duración de Batería",
+          "values": [
+            {
+              "value": "8 h from a single AA",
+              "value_es": "8 h con una sola pila AA"
+            },
+            {
+              "value": "Up to 14 h (2 AA)",
+              "value_es": "Hasta 14 h (2 AA)"
+            },
+            {
+              "value": "Up to 8 h (2 AA)",
+              "value_es": "Hasta 8 h (2 AA)"
+            },
+            {
+              "value": "Up to 12 h (2 AA)",
+              "value_es": "Hasta 12 h (2 AA)"
+            },
+            {
+              "value": "Up to 14 h (2 AA)",
+              "value_es": "Hasta 14 h (2 AA)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$389",
+              "value_es": "$389"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "guitar-pedals",
