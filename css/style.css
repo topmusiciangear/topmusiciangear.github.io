@@ -1738,6 +1738,12 @@ footer ul li a:hover { color: var(--accent); }
   margin-bottom: 10px;
 }
 
+.verdict-pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
 .verdict-list-group {
   margin-bottom: 12px;
 }
