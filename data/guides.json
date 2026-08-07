@@ -27269,6 +27269,19 @@
           214,
           208
         ]
+      },
+      {
+        "heading": "Hand Percussion: Congas, Bongos and Cajón",
+        "heading_es": "Percusión de Mano: Congas, Bongos y Cajón",
+        "content": "<p><strong>The same mics that work on a drum kit work on congas and bongos — you do not need a separate set of percussion mics.</strong> On congas and bongos the skins ring with fast transients, so a dynamic with a presence peak like the Shure SM57 or Sennheiser e906 picks up the slap and the pitch clearly. If you want more body and warmth on a conga solo, the Sennheiser MD 421 is a classic — its low-mid response catches the deep tone of the drum without muffling the slap. For a cajón, place an SM57 or a condenser a few inches off the face for that mix of punch and wood tone. And if you record a percussion section in stereo, hang a pair of KM 184s or a Coles overhead — it turns the congas, bongos, shakers and cowbells into a single instrument instead of a collection of spot mics.</p>",
+        "content_es": "<p><strong>Los mismos micros que usas en una batería funcionan en congas y bongos — no necesitas un set aparte de percusión.</strong> En congas y bongos los cueros suenan con transitorios rápidos, así que un dinámico con pico de presencia como el Shure SM57 o el Sennheiser e906 captura la palmada y el tono con claridad. Si quieres más cuerpo y calor en un solo de conga, el Sennheiser MD 421 es un clásico — su respuesta de graves-medios captura el tono profundo del tambor sin tapar la palmada. Para un cajón, pon un SM57 o un condensador a pocos centímetros de la cara para ese equilibrio de pegada y madera. Y si grabas una sección de percusión en estéreo, cuelga un par de KM 184 o una cinta de overhead — convierte las congas, bongos, shakers y cencerros en un solo instrumento en vez de un montón de micros puntuales.</p>",
+        "products": [
+          5,
+          210,
+          51,
+          208,
+          207
+        ]
       }
     ],
     "conclusion": "There is no one 'best microphone' — there is the right microphone for each instrument. Own the versatile SM57 and RE20 as your workhorses, add an R-121 and a Neumann pair for guitars and acoustics, an e604 pack for drums, and a DPA 4099 for strings, and you can record almost anything at a professional standard.",
@@ -27463,6 +27476,38 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "faq": [
+      {
+        "q": "Do I really need a different microphone for every instrument?",
+        "a": "No. Spend your first money on one solid workhorse — a Shure SM57 does 80% of the job on amps, snares, horns and even vocals. Buy specialist mics later, one at a time, starting with the instrument you record most. That spread beats buying five cheap mics at once.",
+        "q_es": "¿De verdad necesito un micrófono diferente para cada instrumento?",
+        "a_es": "No. Invierte primero en un solo caballo de batalla sólido: un Shure SM57 cubre el 80% del trabajo en amplis, cajas, tambores e incluso voces. Compra los especialistas después, de uno en uno, empezando por el instrumento que más grabes. Eso rinde más que comprar cinco micros baratos de golpe."
+      },
+      {
+        "q": "Why is the Royer R-121 so expensive for a guitar amp mic?",
+        "a": "It's a ribbon: a thin metal strip suspended in a magnetic field. It captures a round, natural picture of the cab that a moving-coil dynamic just can't equal on clean or mildly driven parts. You're paying for hand assembly and a sound no cheap mic copies. For heavy distorted tones, the SM57 or e906 gets you most of the way.",
+        "q_es": "¿Por qué el Royer R-121 es tan caro para un amplificador de guitarra?",
+        "a_es": "Es de cinta: una fina lámina metálica suspendida en un campo magnético. Captura una imagen redonda y natural del ampli que un dinámico de bobina no puede igualar en partes limpias o con poca distorsión. Pagas por el montaje a mano y por un sonido que ningún micro barato se acerca. Para guitarras muy distorsionadas, el SM57 o el M 201 te dan casi todo."
+      },
+      {
+        "q": "Kick drum: Beta 52A or Audix D6?",
+        "a": "Both are made for modern kick sound and both get there. The D6 punches with a clean, scooped tone the boom already, while the Beta 52A stays a little warmer and more rounded. Try the D6 if you want that radio-ready click; reach for the Beta 52A when you want weight and natural body.",
+        "q_es": "¿Bombo: Beta 52A o Audix D6?",
+        "a_es": "Ambos están hechos para el bombo moderno y ambos aportan pegada, pero suenan distinto. El D6 perfora con un ataque limpio y metálico listo para la radio, mientras el Beta 52A guarda un poco más de calor y cuerpo. Prueba el D6 si quieres ese golpe marcado; ve con el Beta 52A cuando prefieras más natural y contundente."
+      },
+      {
+        "q": "How do I mic an acoustic guitar for a natural tone?",
+        "a": "Skip the pickup hum and the soundhole-led boominess. Place a small condenser like the Neumann KM 184 about 8-12 inches out, aimed where the neck meets the body. One mic, no close-up bass bloat, no piezo fakery — that's 90% of a great acoustic track.",
+        "q_es": "¿Cómo microfono una guitarra acústica para un tono natural?",
+        "a_es": "Evita el zumbido de la pastilla y el auge del agujero. Pon un condensador de diafragma pequeño como la Neumann KM 184 a unos 20-30 cm, apuntando donde el mástil se junta con el cuerpo. Un solo micro, sin exceso de graves ni pastilla: eso es el 90% de una gran toma acústica."
+      },
+      {
+        "q": "What about strings and orchestra — can one clip-on handle it?",
+        "a": "The DPA 4099 CORE is the go-to clip-on for violin and cello, and it works. For a section, ribbon mics — the Coles 4038 or a Royer — give that warm, focused ensemble tone you hear on records. Try the 4099 first if you're one player; reach for a matched ribbon pair when you track strings in the studio.",
+        "q_es": "¿Y las cuerdas de orquesta — un clip-on puede con eso?",
+        "a_es": "El DPA 4099 CORE es el clip de referencia para violín y cello y funciona de maravilla. Para una sección de cuerdas, las cintas — una Coles 4038 o un par — dan ese tono vinoso y enfocado de los discos. Prueba el 4099 si estás solo; ve por un par de cintas empatadas cuando grabes cuerdas en estudio."
+      }
+    ]
   }
 ]
