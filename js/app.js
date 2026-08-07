@@ -1054,7 +1054,7 @@ function injectGuideJsonLd(guide) {
     "thumbnailUrl": image,
     "datePublished": dPub, "dateModified": dMod,
     "mainEntityOfPage": { "@type": "WebPage", "@id": url },
-    "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".guide-detail-intro", ".guide-verdict-header"] },
+    "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".guide-detail-intro", ".verdict-label"] },
     "about": { "@type": "Thing", "name": guide.aboutName || "Music Gear" },
     "inLanguage": currentLang
   };

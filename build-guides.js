@@ -50,7 +50,7 @@ function criticalCss() {
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
     '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:10px;font-weight:500;color:var(--text-muted);letter-spacing:.3px}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
-    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.guide-verdict-header{display:flex;align-items:center;gap:10px}.verdict-label{font-size:20px;font-weight:800;color:var(--accent);flex-shrink:0;white-space:nowrap}.verdict-text{font-size:15px;font-weight:700;color:var(--white);min-width:0}',
+    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--bg-secondary)}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:contain;border-radius:var(--radius-sm);background:var(--bg-secondary);padding:8px;border:1px solid var(--border)}',
@@ -502,7 +502,7 @@ function buildGuidePage(guide, lang, idx) {
     "thumbnailUrl": fullImage,
     "datePublished": guideDates(guide, idx).published, "dateModified": guideDates(guide, idx).modified,
     "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
-    "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".guide-detail-intro", ".guide-verdict-header"] },
+    "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".guide-detail-intro", ".verdict-label"] },
     "about": { "@type": "Thing", "name": guide.aboutName || "Music Gear" },
     "inLanguage": lang
   };
@@ -687,10 +687,8 @@ ${ogMeta}
       <div class="guide-detail-intro"><p>${intro}</p></div>
       ${authorBoxHtml}
       ${guide.verdict ? `<div class="guide-verdict">
-        <div class="guide-verdict-header">
-          <span class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</span>
-          <span class="verdict-text">${verdict}</span>
-        </div>
+        <div class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</div>
+        <div class="verdict-text">${verdict}</div>
         ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div><div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div></div>' }).join('') + '</div>'; })() : ''}
       </div>` : ''}
       ${guide.comparison ? `<div class="guide-comp-wrap">

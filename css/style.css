@@ -1696,25 +1696,17 @@ footer ul li a:hover { color: var(--accent); }
   margin-bottom: 40px;
 }
 
-.guide-verdict-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .verdict-label {
   font-size: 20px;
   font-weight: 800;
-  color: var(--accent);
-  flex-shrink: 0;
-  white-space: nowrap;
+  color: var(--white);
+  margin-bottom: 12px;
 }
 
 .verdict-text {
   font-size: 15px;
-  font-weight: 700;
-  color: var(--white);
-  min-width: 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
 }
 
 .guide-verdict-grid {
