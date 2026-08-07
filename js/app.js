@@ -475,7 +475,7 @@ function userReviewsHtml(guide) {
   var items = rv.slice(0, limit).map(function(r) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
-      '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + (isEs && r.author.toLowerCase() === 'anonymous' ? 'Anónimo' : r.author) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
       '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
@@ -483,7 +483,7 @@ function userReviewsHtml(guide) {
   var hiddenItems = hiddenExtra.map(function(r) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item" style="display:none" data-extra>' +
-      '<div class="guide-review-item-head"><span class="guide-review-author">' + r.author + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + (isEs && r.author.toLowerCase() === 'anonymous' ? 'Anónimo' : r.author) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
       '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
