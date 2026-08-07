@@ -1705,8 +1705,6 @@ footer ul li a:hover { color: var(--accent); }
 .verdict-label {
   font-size: 20px;
   font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   color: var(--accent);
   flex-shrink: 0;
   white-space: nowrap;
