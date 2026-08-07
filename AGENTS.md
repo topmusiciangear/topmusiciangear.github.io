@@ -608,3 +608,13 @@ grep -E "app\.min\.js\?v=|style\.min\.css\?v=" index.html
 ### Site roto después de deploy
 **Causa:** Cloudflare cachea CSS/JS viejo.
 **Fix:** Purgar Cloudflare cache (Speed > Purge Cache > Purge Everything) + hard refresh.
+
+## ⭐ MANDATORY: Superar a la competencia en cada guía (SEO)
+
+En cada guía que se toque o cree, SIEMPRE:
+1. **Verificar la competencia primero** (MusicRadar, Sweetwater, B&H, gearank, SpecDB, etc.): qué specs incluyen en sus tablas, qué productos destacan, qué preguntas responden.
+2. **Superarla**: nuestra tabla/guía debe tener más specs verificadas, más precisas, más productos y mejor estructura que el competidor top.
+3. **Datos oficiales del fabricante** — NUNCA inventar precios/specs. Buscar spec sheet oficial (Shure/AKG/Neumann/Rode/Sennheiser/EV, etc.).
+4. **Tabla de comparación (`productTable`)** debe incluir: Producto, Precio, "Best For", y todas las specs clave que la competencia muestra (tipo, patrón polar, frecuencia, sensibilidad, ruido propio, max SPL, impedancia, + específicas de la categoría: woofer/potencia/memoria/peso, etc.).
+5. **Corregir errores factuales** detectados durante la verificación (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
+6. Rebuild + verificar EN/ES + commit + push.

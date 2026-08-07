@@ -981,6 +981,82 @@
               "value_es": "$449"
             }
           ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            },
+            {
+              "value": "140–158 dB (pad)",
+              "value_es": "140–158 dB (pad)"
+            },
+            {
+              "value": "117 dB (127 w/ pad)",
+              "value_es": "117 dB (127 c/ pad)"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "149 dB",
+              "value_es": "149 dB"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            }
+          ]
         }
       ]
     }
