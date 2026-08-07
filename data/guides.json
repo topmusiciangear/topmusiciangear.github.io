@@ -1533,7 +1533,229 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Budget Microphones Compared in This Guide",
+      "title_es": "Comparativa de Micros Económicos en esta Guía",
+      "columns": [
+        {
+          "title": "Shure SM57",
+          "title_es": "Shure SM57"
+        },
+        {
+          "title": "Audio-Technica AT2020",
+          "title_es": "Audio-Technica AT2020"
+        },
+        {
+          "title": "Rode PodMic",
+          "title_es": "Rode PodMic"
+        },
+        {
+          "title": "Elgato Wave:3",
+          "title_es": "Elgato Wave:3"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Instruments, amps & vocals",
+              "value_es": "Instrumentos, amplis y voces"
+            },
+            {
+              "value": "Budget studio vocals",
+              "value_es": "Voces de estudio económicas"
+            },
+            {
+              "value": "Podcasting & voiceover",
+              "value_es": "Podcast y locución"
+            },
+            {
+              "value": "Streaming & content",
+              "value_es": "Streaming y contenido"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (USB)",
+              "value_es": "Condensador (USB)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "70 Hz – 20 kHz",
+              "value_es": "70 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–56 dBV/Pa (1.6 mV)",
+              "value_es": "–56 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "–37 dB (14.1 mV)",
+              "value_es": "–37 dB (14.1 mV)"
+            },
+            {
+              "value": "–57 dBV (1.6 mV)",
+              "value_es": "–57 dBV (1.6 mV)"
+            },
+            {
+              "value": "–25 dBFS",
+              "value_es": "–25 dBFS"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "20 dB SPL",
+              "value_es": "20 dB SPL"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (digital)",
+              "value_es": "N/D (digital)"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "144 dB",
+              "value_es": "144 dB"
+            },
+            {
+              "value": "/",
+              "value_es": "/"
+            },
+            {
+              "value": "120 dB (140 w/ Clipguard)",
+              "value_es": "120 dB (140 c/ Clipguard)"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "120 Ω",
+              "value_es": "120 Ω"
+            },
+            {
+              "value": "320 Ω",
+              "value_es": "320 Ω"
+            },
+            {
+              "value": "USB",
+              "value_es": "USB"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$109",
+              "value_es": "$109"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "usb-mics",
@@ -1677,7 +1899,269 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Streaming & USB Microphones Compared in This Guide",
+      "title_es": "Comparativa de Micros para Streaming en esta Guía",
+      "columns": [
+        {
+          "title": "Shure SM7B",
+          "title_es": "Shure SM7B"
+        },
+        {
+          "title": "Electro-Voice RE20",
+          "title_es": "Electro-Voice RE20"
+        },
+        {
+          "title": "Shure MV7+",
+          "title_es": "Shure MV7+"
+        },
+        {
+          "title": "Elgato Wave:3",
+          "title_es": "Elgato Wave:3"
+        },
+        {
+          "title": "Rode NT1 5th Gen",
+          "title_es": "Rode NT1 5.ª Gen"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Broadcast & podcast vocals",
+              "value_es": "Radio y podcast"
+            },
+            {
+              "value": "Broadcast & voiceover",
+              "value_es": "Radio, locución y podcast"
+            },
+            {
+              "value": "Hybrid USB-C/XLR vocals",
+              "value_es": "Voces híbridas USB-C/XLR"
+            },
+            {
+              "value": "Streaming & content",
+              "value_es": "Streaming y contenido"
+            },
+            {
+              "value": "Versatile studio vocals",
+              "value_es": "Voces de estudio versátiles"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic (Variable-D)",
+              "value_es": "Dinámico (Variable-D)"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (USB)",
+              "value_es": "Condensador (USB)"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "45 Hz – 18 kHz",
+              "value_es": "45 Hz – 18 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "70 Hz – 20 kHz",
+              "value_es": "70 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–59 dBV/Pa (1.12 mV)",
+              "value_es": "–59 dBV/Pa (1.12 mV)"
+            },
+            {
+              "value": "1.5 mV/Pa",
+              "value_es": "1.5 mV/Pa"
+            },
+            {
+              "value": "–55 dBV/Pa (XLR)",
+              "value_es": "–55 dBV/Pa (XLR)"
+            },
+            {
+              "value": "–25 dBFS",
+              "value_es": "–25 dBFS"
+            },
+            {
+              "value": "–32 dB (25 mV/Pa)",
+              "value_es": "–32 dB (25 mV/Pa)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (digital)",
+              "value_es": "N/D (digital)"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            },
+            {
+              "value": "149 dB",
+              "value_es": "149 dB"
+            },
+            {
+              "value": "128 dB (USB)",
+              "value_es": "128 dB (USB)"
+            },
+            {
+              "value": "120 dB (140 w/ Clipguard)",
+              "value_es": "120 dB (140 c/ Clipguard)"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "350 Ω (XLR)",
+              "value_es": "350 Ω (XLR)"
+            },
+            {
+              "value": "USB",
+              "value_es": "USB"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "stage-mics",
@@ -1791,7 +2275,149 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Stage Microphones Compared in This Guide",
+      "title_es": "Comparativa de Micros para Escenario en esta Guía",
+      "columns": [
+        {
+          "title": "Shure SM57",
+          "title_es": "Shure SM57"
+        },
+        {
+          "title": "Shure SM7B",
+          "title_es": "Shure SM7B"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Instruments & amps live",
+              "value_es": "Instrumentos y amplis en vivo"
+            },
+            {
+              "value": "Studio & broadcast vocals",
+              "value_es": "Voces de estudio y radio"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–56 dBV/Pa (1.6 mV)",
+              "value_es": "–56 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "–59 dBV/Pa (1.12 mV)",
+              "value_es": "–59 dBV/Pa (1.12 mV)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "portable-interfaces",
@@ -3184,7 +3810,149 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Professional Condensers Compared in This Guide",
+      "title_es": "Comparativa de Condensadores Pro en esta Guía",
+      "columns": [
+        {
+          "title": "Neumann U 87 Ai",
+          "title_es": "Neumann U 87 Ai"
+        },
+        {
+          "title": "AKG C414 XLII",
+          "title_es": "AKG C414 XLII"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "The studio standard vocal",
+              "value_es": "La voz estándar de estudio"
+            },
+            {
+              "value": "Studio vocals & instruments",
+              "value_es": "Voces e instrumentos de estudio"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Omni / Cardioid / Fig-8",
+              "value_es": "Omni / Cardioide / Fig-8"
+            },
+            {
+              "value": "9 switchable patterns",
+              "value_es": "9 patrones conmutables"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "28 mV/Pa (cardioid)",
+              "value_es": "28 mV/Pa (cardioide)"
+            },
+            {
+              "value": "–33 dBV ± 0.5 dB (23 mV/Pa)",
+              "value_es": "–33 dBV ± 0.5 dB (23 mV/Pa)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "12 dB-A (cardioid)",
+              "value_es": "12 dB-A (cardioide)"
+            },
+            {
+              "value": "6 dB-A",
+              "value_es": "6 dB-A"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "117 dB (127 w/ pad)",
+              "value_es": "117 dB (127 c/ pad)"
+            },
+            {
+              "value": "140–158 dB (pad)",
+              "value_es": "140–158 dB (pad)"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$3,599",
+              "value_es": "$3,599"
+            },
+            {
+              "value": "$1,099",
+              "value_es": "$1,099"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "studio-subwoofers",
@@ -16043,7 +16811,189 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Guitar Amp Mics Compared in This Guide",
+      "title_es": "Comparativa de Micros para Amplis en esta Guía",
+      "columns": [
+        {
+          "title": "Shure SM57",
+          "title_es": "Shure SM57"
+        },
+        {
+          "title": "Sennheiser MD 421 II",
+          "title_es": "Sennheiser MD 421 II"
+        },
+        {
+          "title": "Shure SM7B",
+          "title_es": "Shure SM7B"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "The classic amp mic",
+              "value_es": "El micro de ampli clásico"
+            },
+            {
+              "value": "Loud cabs & toms",
+              "value_es": "Cabs fuertes y toms"
+            },
+            {
+              "value": "Warm close-miked amps",
+              "value_es": "Amplis cálidos de cerca"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "30 Hz – 17 kHz",
+              "value_es": "30 Hz – 17 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–56 dBV/Pa (1.6 mV)",
+              "value_es": "–56 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "2 mV/Pa",
+              "value_es": "2 mV/Pa"
+            },
+            {
+              "value": "–59 dBV/Pa (1.12 mV)",
+              "value_es": "–59 dBV/Pa (1.12 mV)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "best-mic-for-podcasting",
@@ -16202,7 +17152,229 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Podcast Microphones Compared in This Guide",
+      "title_es": "Comparativa de Micros para Podcast en esta Guía",
+      "columns": [
+        {
+          "title": "Shure SM7B",
+          "title_es": "Shure SM7B"
+        },
+        {
+          "title": "Shure SM58",
+          "title_es": "Shure SM58"
+        },
+        {
+          "title": "Rode NT1 5th Gen",
+          "title_es": "Rode NT1 5.ª Gen"
+        },
+        {
+          "title": "Focusrite Scarlett 2i2 (interface)",
+          "title_es": "Focusrite Scarlett 2i2 (interfaz)"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Broadcast & podcast vocals",
+              "value_es": "Radio y podcast"
+            },
+            {
+              "value": "Live & stage vocals",
+              "value_es": "Voces en vivo y escenario"
+            },
+            {
+              "value": "Versatile studio vocals",
+              "value_es": "Voces de estudio versátiles"
+            },
+            {
+              "value": "USB audio interface",
+              "value_es": "Interfaz de audio USB"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Audio interface (2-in/2-out)",
+              "value_es": "Interfaz de audio (2-ent/2-sal)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "–",
+              "value_es": "–"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–59 dBV/Pa (1.12 mV)",
+              "value_es": "–59 dBV/Pa (1.12 mV)"
+            },
+            {
+              "value": "–56.0 dBV/Pa (1.6 mV)",
+              "value_es": "–56.0 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "–32 dB (25 mV/Pa)",
+              "value_es": "–32 dB (25 mV/Pa)"
+            },
+            {
+              "value": "–",
+              "value_es": "–"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "–",
+              "value_es": "–"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "–",
+              "value_es": "–"
+            }
+          ]
+        },
+        {
+          "label": "Output / Preamp",
+          "label_es": "Salida / Preamplificador",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
+            },
+            {
+              "value": "48V phantom, 2 mic preamps",
+              "value_es": "48V phantom, 2 preamps"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "best-daw-for-beginners",
@@ -23265,7 +24437,135 @@
       "tube-ribbon-mics",
       "best-microphone",
       "sm57-vs-sm58"
-    ]
+    ],
+    "productTable": {
+      "title": "Pro Condenser Mics Compared in This Guide",
+      "title_es": "Comparativa de Micros Condensadores Pro en esta Guía",
+      "columns": [
+        {
+          "title": "Neumann U 87 Ai",
+          "title_es": "Neumann U 87 Ai"
+        },
+        {
+          "title": "Lewitt LCT 1040",
+          "title_es": "Lewitt LCT 1040"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "The studio standard vocal",
+              "value_es": "La voz estándar de estudio"
+            },
+            {
+              "value": "Tube/FET all-in-one studio",
+              "value_es": "Estudio todo-en-uno tubo/FET"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Condenser (LDC, FET)",
+              "value_es": "Condensador (LDC, FET)"
+            },
+            {
+              "value": "Condenser (LDC, Tube + FET)",
+              "value_es": "Condensador (LDC, tubo + FET)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Omni / Cardioid / Fig-8",
+              "value_es": "Omni / Cardioide / Fig-8"
+            },
+            {
+              "value": "Continuously variable",
+              "value_es": "Continuamente variable"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "Useful ~20 Hz – 20 kHz",
+              "value_es": "Útil ~20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "28 mV/Pa (cardioid)",
+              "value_es": "28 mV/Pa (cardioide)"
+            },
+            {
+              "value": "17.2 mV/Pa (–35.3 dBV/Pa)",
+              "value_es": "17.2 mV/Pa (–35.3 dBV/Pa)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "12 dB-A (cardioid)",
+              "value_es": "12 dB-A (cardioide)"
+            },
+            {
+              "value": "10 dB(A) FET / 13 dB(A) tube",
+              "value_es": "10 dB(A) FET / 13 dB(A) tubo"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "117 dB (127 w/ pad)",
+              "value_es": "117 dB (127 c/ pad)"
+            },
+            {
+              "value": "137 dB (161 w/ pad)",
+              "value_es": "137 dB (161 c/ pad)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$3,599",
+              "value_es": "$3,599"
+            },
+            {
+              "value": "$3,499",
+              "value_es": "$3,499"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "pro-monitors",
@@ -27788,7 +29088,589 @@
         "q_es": "¿Y las cuerdas de orquesta — un clip-on puede con eso?",
         "a_es": "El DPA 4099 CORE es el micro de clip de referencia para violín y violonchelo, y funciona de maravilla. Para una sección de cuerda, las cintas — una Coles 4038 o una Royer — dan ese tono cálido y enfocado que suena en los discos. Prueba el 4099 si estás solo; ve por un par de cintas emparejadas cuando grabes cuerdas en estudio."
       }
-    ]
+    ],
+    "productTable": {
+      "title": "Instrument Microphones Compared in This Guide",
+      "title_es": "Comparativa de Micros para Instrumentos en esta Guía",
+      "columns": [
+        {
+          "title": "Shure SM57",
+          "title_es": "Shure SM57"
+        },
+        {
+          "title": "Royer R-121",
+          "title_es": "Royer R-121"
+        },
+        {
+          "title": "Sennheiser e 906",
+          "title_es": "Sennheiser e 906"
+        },
+        {
+          "title": "Beyerdynamic M 201",
+          "title_es": "Beyerdynamic M 201"
+        },
+        {
+          "title": "Electro-Voice RE20",
+          "title_es": "Electro-Voice RE20"
+        },
+        {
+          "title": "Audix D6",
+          "title_es": "Audix D6"
+        },
+        {
+          "title": "Neumann KM 184",
+          "title_es": "Neumann KM 184"
+        },
+        {
+          "title": "Austrian Audio OC818",
+          "title_es": "Austrian Audio OC818"
+        },
+        {
+          "title": "Sennheiser MD 421",
+          "title_es": "Sennheiser MD 421"
+        },
+        {
+          "title": "Coles 4038",
+          "title_es": "Coles 4038"
+        },
+        {
+          "title": "DPA 4099 CORE",
+          "title_es": "DPA 4099 CORE"
+        },
+        {
+          "title": "Shure Beta 52A",
+          "title_es": "Shure Beta 52A"
+        },
+        {
+          "title": "Sennheiser e 604 (3-Pack)",
+          "title_es": "Sennheiser e 604 (Pack de 3)"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Electric guitar, snare & the classic cab sound",
+              "value_es": "Guitarra eléctrica, redoblante y el clásico sonido de cab"
+            },
+            {
+              "value": "Big, wide electric guitar & ribbons for any amp",
+              "value_es": "Guitarra eléctrica grande y amplia, ribbon para cualquier amp"
+            },
+            {
+              "value": "Electric guitar amps & snare with tight angle",
+              "value_es": "Amplis de guitarra y redoblante con ángulo preciso"
+            },
+            {
+              "value": "Thick, mid-forward guitar amp capture",
+              "value_es": "Captura de guitarra eléctrica gruesa y presente en medios"
+            },
+            {
+              "value": "Bass cab, broadcast-style tone & DI blend",
+              "value_es": "Cab de bajo, sonido estilo broadcast y mezcla con DI"
+            },
+            {
+              "value": "Kick drums, toms & modern punchy bottom",
+              "value_es": "Bombos, toms y grave contundente y moderno"
+            },
+            {
+              "value": "Acoustic guitar sparkle & detail",
+              "value_es": "Brillo y detalle de la guitarra acústica"
+            },
+            {
+              "value": "Versatile acoustic guitar & flexible polar patterns",
+              "value_es": "Acústica versátil y patrones polares flexibles"
+            },
+            {
+              "value": "Horns, guitar amps & broadcast voice",
+              "value_es": "Metales, amplis de guitarra y voz broadcast"
+            },
+            {
+              "value": "Brass, strings & classic BBC broadcast",
+              "value_es": "Metales, cuerdas y el clásico del BBC"
+            },
+            {
+              "value": "Movement, violin, sax & tricky live sources",
+              "value_es": "Vientos, violín, saxofón y fuentes difíciles en vivo"
+            },
+            {
+              "value": "Kick drum & bass instruments",
+              "value_es": "Bombeo y graves (bombo) e instrumentos graves"
+            },
+            {
+              "value": "Toms & percussion with mounting clips",
+              "value_es": "Toms y percusión con clips de fijación"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Ribbon",
+              "value_es": "Cinta"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (SDC)",
+              "value_es": "Condensador (SDC)"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Ribbon",
+              "value_es": "Cinta"
+            },
+            {
+              "value": "Condenser (instrument)",
+              "value_es": "Condensador (instrumento)"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Figure-8",
+              "value_es": "Bidireccional (Fig-8)"
+            },
+            {
+              "value": "Super-cardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Switchable (incl. dual) & fig-8",
+              "value_es": "Conmutables (incl. dual) y fig-8"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Figure-8",
+              "value_es": "Bidireccional (Fig-8)"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Super-cardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "30 Hz – 15 kHz",
+              "value_es": "30 Hz – 15 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "45 Hz – 18 kHz",
+              "value_es": "45 Hz – 18 kHz"
+            },
+            {
+              "value": "30 Hz – 15 kHz",
+              "value_es": "30 Hz – 15 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "30 Hz – 17 kHz",
+              "value_es": "30 Hz – 17 kHz"
+            },
+            {
+              "value": "30 Hz – 20 kHz",
+              "value_es": "30 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz (80 Hz – 15 kHz ±2dB) /useful",
+              "value_es": "20 Hz – 20 kHz (80 Hz – 15 kHz ±2 dB) útil"
+            },
+            {
+              "value": "20 Hz – 10 kHz",
+              "value_es": "20 Hz – 10 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–56.0 dBV/Pa (1.6 mV)",
+              "value_es": "–56.0 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "–47 dBV/Pa (4.5 mV)",
+              "value_es": "–47 dBV/Pa (4.5 mV)"
+            },
+            {
+              "value": "2.2 mV/Pa (–53 dBV)",
+              "value_es": "2.2 mV/Pa (–53 dBV)"
+            },
+            {
+              "value": "1.2 mV/Pa (–59 dBV)",
+              "value_es": "1.2 mV/Pa (–59 dBV)"
+            },
+            {
+              "value": "–55.5 dBV/Pa (1.7 mV)",
+              "value_es": "–55.5 dBV/Pa (1.7 mV)"
+            },
+            {
+              "value": "0.8 mV/Pa @ 80 Hz",
+              "value_es": "0.8 mV/Pa @ 80 Hz"
+            },
+            {
+              "value": "15 mV/Pa (≈ –36 dBV)",
+              "value_es": "15 mV/Pa (≈ –36 dBV)"
+            },
+            {
+              "value": "1 mV/Pa (–38 dBV)",
+              "value_es": "1 mV/Pa (–38 dBV)"
+            },
+            {
+              "value": "2 mV/Pa (–54 dBV)",
+              "value_es": "2 mV/Pa (–54 dBV)"
+            },
+            {
+              "value": "–65 dB re 1 V/Pa (0.56 mV)",
+              "value_es": "–65 dB ref. 1 V/Pa (0.56 mV)"
+            },
+            {
+              "value": "6 mV/Pa (–44 dBV) Loud / 2 mV Extreme",
+              "value_es": "6 mV/Pa (–44 dBV) Loud / 2 mV Extreme"
+            },
+            {
+              "value": "–64 dBV/Pa (0.6 mV)",
+              "value_es": "–64 dBV/Pa (0.6 mV)"
+            },
+            {
+              "value": "1.8 mV/Pa (–55 dBV)",
+              "value_es": "1.8 mV/Pa (–55 dBV)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (ribbon)",
+              "value_es": "N/D (cinta)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "13 dB-A",
+              "value_es": "13 dB-A"
+            },
+            {
+              "value": "9 dB SPL(A)",
+              "value_es": "9 dB SPL(A)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (ribbon)",
+              "value_es": "N/D (cinta)"
+            },
+            {
+              "value": "23 dB(A) (Loud)",
+              "value_es": "23 dB(A) (Loud)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": ">160 dB @ 1 kHz",
+              "value_es": ">160 dB @ 1 kHz"
+            },
+            {
+              "value": "≥ 159 dB",
+              "value_es": "≥ 159 dB"
+            },
+            {
+              "value": "≥ 150 dB",
+              "value_es": "≥ 150 dB"
+            },
+            {
+              "value": "149 dB",
+              "value_es": "149 dB"
+            },
+            {
+              "value": "≥ 144 dB",
+              "value_es": "≥ 144 dB"
+            },
+            {
+              "value": "138 dB",
+              "value_es": "138 dB"
+            },
+            {
+              "value": "148 dB (158 dB w/ pad)",
+              "value_es": "148 dB (158 dB c/ pad)"
+            },
+            {
+              "value": "≥ 160 dB",
+              "value_es": "≥ 160 dB"
+            },
+            {
+              "value": "~165 dB (1% THD @ 1 kHz)",
+              "value_es": "~165 dB (1% THD @ 1 kHz)"
+            },
+            {
+              "value": "142 dB (Loud) / 152 dB (Extreme)",
+              "value_es": "142 dB (Loud) / 152 dB (Extreme)"
+            },
+            {
+              "value": "174 dB",
+              "value_es": "174 dB"
+            },
+            {
+              "value": "≥ 150 dB",
+              "value_es": "≥ 150 dB"
+            }
+          ]
+        },
+        {
+          "label": "Output Impedance",
+          "label_es": "Impedancia de Salida",
+          "values": [
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "300 Ω",
+              "value_es": "300 Ω"
+            },
+            {
+              "value": "350 Ω",
+              "value_es": "350 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "280 Ω",
+              "value_es": "280 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "275 Ω",
+              "value_es": "275 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            },
+            {
+              "value": "300 Ω",
+              "value_es": "300 Ω"
+            },
+            {
+              "value": "100 Ω (via adapter)",
+              "value_es": "100 Ω (vía adaptador)"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "350 Ω",
+              "value_es": "350 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$1,499",
+              "value_es": "$1,499"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$1,399",
+              "value_es": "$1,399"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$1,099",
+              "value_es": "$1,099"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$489",
+              "value_es": "$489"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "stage-wedges",
