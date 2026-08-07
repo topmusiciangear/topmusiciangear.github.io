@@ -432,6 +432,31 @@ function renderProductCard(id) {
   `;
 }
 
+function findProductGuides(productId) {
+  const isEs = currentLang === 'es';
+  const out = [];
+  (guides || []).forEach(function(g) {
+    const ids = g.featuredProducts || [];
+    if (ids.indexOf(productId) !== -1) {
+      const url = '/guides/' + g.id + (isEs ? '_es' : '') + '.html';
+      const name = isEs && g.title_es ? g.title_es : (g.title || g.id);
+      out.push({ id: g.id, url: url, name: name });
+    }
+  });
+  return out;
+}
+
+function productGuidesHtml(productId) {
+  const guides = findProductGuides(productId);
+  if (!guides.length) return '';
+  const isEs = currentLang === 'es';
+  const label = isEs ? 'Ver guía:' : 'Find in guide:';
+  const chips = guides.map(function(g) {
+    return '<a class="chip-search-guide" href="' + g.url + '">' + g.name + '</a>';
+  }).join('');
+  return '<div class="guide-product-card-guides"><span class="gp-guides-label">' + label + '</span> ' + chips + '</div>';
+}
+
 function fmtReviewDate(iso, es) {
   var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
   if (isNaN(d)) return String(iso);
@@ -1207,7 +1232,9 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     results.style.display = "block";
-    results.innerHTML = '<div class="product-search-grid">' + scored.map(p => renderProductCard(p.id)).join("") + '</div>';
+    results.innerHTML = '<div class="product-search-grid">' + scored.map(p =>
+      '<div class="product-search-item">' + renderProductCard(p.id) + productGuidesHtml(p.id) + '</div>'
+    ).join("") + '</div>';
     results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
     setTimeout(function(){results.querySelectorAll('.guide-product-card-desc').forEach(function(e){var b=e.nextElementSibling;if(b&&b.classList.contains('guide-product-card-desc-toggle')&&e.scrollHeight<=e.clientHeight)b.remove()})},100);
     }, 250);
