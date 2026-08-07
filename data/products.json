@@ -3622,9 +3622,8 @@
   },
   {
   "id": 216,
-  "title": "RCF NX 912-SMA (Each)",
-  "title_es": "RCF NX 912-SMA (Cada Unidad)",
-    "title_es": "RCF NX 912-SMA",
+  "title": "RCF NX 912-SMA",
+  "title_es": "RCF NX 912-SMA",
     "brand": "RCF",
     "category": "live_sound",
     "price": 1699,
@@ -3638,13 +3637,15 @@
     "gear4music": "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/RCF-NX-912-SMA-Professional-Active-Stage-Monitor/5KJZ",
     "musicstore": "https://www.musicstore.com/en_OT/EUR/RCF-NX-912-SMA/art-PAH0023342-000",
     "andertons": "https://www.andertons.co.uk/rcf-nx-912-sma-active-high-output-multipurpose-stage-monitor-12-175-vc-2100-wpeak/",
-    "amazon": "https://www.amazon.com/s?k=RCF%20NX%20912-SMA&tag=topmusicg-20"
-  }
+    "amazon": "https://www.amazon.com/RCF-912-SMA-Professional-Active-Monitor/dp/B0CLHBZV1Z/"
+  },
+  "unit": "Each",
+  "unit_es": "Cada uno"
   },
   {
   "id": 217,
-  "title": "Electro-Voice PXM-12MP (Each)",
-  "title_es": "Electro-Voice PXM-12MP (Cada Unidad)",
+  "title": "Electro-Voice PXM-12MP",
+  "title_es": "Electro-Voice PXM-12MP",
     "brand": "Electro-Voice",
     "category": "live_sound",
     "price": 949,
@@ -3658,13 +3659,15 @@
     "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-PXM-12MP-12-Powered-Coaxial-Floor-Monitor/3B58",
     "musicstore": "https://www.musicstore.com/en_GB/GBP/Electro-Voice-PXM-12MP/art-PAH0021587-000",
     "andertons": "https://www.andertons.co.uk/ElectroVoice-PXM12MP-Active-700W-Coaxial-Floor-Monitor-EACH/",
-    "amazon": "https://www.amazon.com/s?k=Electro-Voice%20PXM-12MP&tag=topmusicg-20"
-  }
+    "amazon": "https://www.amazon.com/Electro-Voice-Powered-Coaxial-Monitor-PXM-12MP/dp/B0842BZB3H/"
+  },
+  "unit": "Each",
+  "unit_es": "Cada uno"
   },
   {
   "id": 218,
-  "title": "LD Systems MON 12 A G3 (Each)",
-  "title_es": "LD Systems MON 12 A G3 (Cada Unidad)",
+  "title": "LD Systems MON 12 A G3",
+  "title_es": "LD Systems MON 12 A G3",
     "brand": "LD Systems",
     "category": "live_sound",
     "price": 590,
@@ -3678,13 +3681,15 @@
     "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/LD-Systems-MON-12A-G3-12-Active-Floor-Monitor/5S95",
     "musicstore": "https://www.musicstore.com/en_GB/GBP/LD-Systems-MON-12-A-G3/art-PAH0023525-000",
     "andertons": "https://www.andertons.co.uk/ld-systems-mon-12-a-g3-12-active-stage-monitor/",
-    "amazon": "https://www.amazon.com/s?k=LD%20Systems%20MON%2012%20A%20G3&tag=topmusicg-20"
-  }
+    "amazon": "https://www.amazon.com/LD-Systems-MON-12-G3/dp/B0CJ5V522Z/"
+  },
+  "unit": "Each",
+  "unit_es": "Cada uno"
   },
   {
   "id": 219,
-  "title": "Yamaha DHR12M (Each)",
-  "title_es": "Yamaha DHR12M (Cada Unidad)",
+  "title": "Yamaha DHR12M",
+  "title_es": "Yamaha DHR12M",
     "brand": "Yamaha",
     "category": "live_sound",
     "price": 697,
@@ -3698,7 +3703,9 @@
     "gear4music": "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/Yamaha-DHR12M-12-Active-Floor-Monitor/42CS",
     "musicstore": "https://www.musicstore.com/en_GB/GBP/Yamaha-DHR12M/art-PAH0022598-000",
     "andertons": "https://www.andertons.co.uk/yamaha-dhr12m-powered-loudspeaker/",
-    "amazon": "https://www.amazon.com/s?k=Yamaha%20DHR12M&tag=topmusicg-20"
-  }
+    "amazon": "https://www.amazon.com/Powered-Speaker-1000W-Compression-Driver/dp/B09DK95Q5G/"
+  },
+  "unit": "Each",
+  "unit_es": "Cada uno"
   }
 ]
