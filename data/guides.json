@@ -701,6 +701,18 @@
         {
           "title": "Neumann U 87 Ai",
           "title_es": "Neumann U 87 Ai"
+        },
+        {
+          "title": "Shure SM58",
+          "title_es": "Shure SM58"
+        },
+        {
+          "title": "Sennheiser MD 421 II",
+          "title_es": "Sennheiser MD 421 II"
+        },
+        {
+          "title": "Electro-Voice RE20",
+          "title_es": "Electro-Voice RE20"
         }
       ],
       "rows": [
@@ -727,6 +739,18 @@
             {
               "value": "The studio standard vocal",
               "value_es": "La voz estándar de estudio"
+            },
+            {
+              "value": "Live vocal / stage",
+              "value_es": "Voz en vivo y escenario"
+            },
+            {
+              "value": "Toms & guitar cabs",
+              "value_es": "Toms y gabinetes de guitarra"
+            },
+            {
+              "value": "Broadcast & voiceover",
+              "value_es": "Radio, locución y podcast"
             }
           ]
         },
@@ -753,6 +777,18 @@
             {
               "value": "Condenser (LDC)",
               "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Dynamic (Variable-D)",
+              "value_es": "Dinámico (Variable-D)"
             }
           ]
         },
@@ -779,6 +815,18 @@
             {
               "value": "Omni / Cardioid / Fig-8",
               "value_es": "Omni / Cardioide / Fig-8"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             }
           ]
         },
@@ -805,6 +853,18 @@
             {
               "value": "20 Hz – 20 kHz",
               "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "30 Hz – 17 kHz",
+              "value_es": "30 Hz – 17 kHz"
+            },
+            {
+              "value": "45 Hz – 18 kHz",
+              "value_es": "45 Hz – 18 kHz"
             }
           ]
         },
@@ -831,6 +891,18 @@
             {
               "value": "28 mV/Pa (cardioid)",
               "value_es": "28 mV/Pa (cardioide)"
+            },
+            {
+              "value": "–56.0 dBV/Pa (1.6 mV)",
+              "value_es": "–56.0 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "2 mV/Pa",
+              "value_es": "2 mV/Pa"
+            },
+            {
+              "value": "1.5 mV/Pa",
+              "value_es": "1.5 mV/Pa"
             }
           ]
         },
@@ -857,6 +929,18 @@
             {
               "value": "12 dB-A (cardioid)",
               "value_es": "12 dB-A (cardioide)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
             }
           ]
         },
@@ -883,6 +967,18 @@
             {
               "value": "$3,599",
               "value_es": "$3,599"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
             }
           ]
         }
