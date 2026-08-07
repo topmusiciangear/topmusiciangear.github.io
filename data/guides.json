@@ -27332,120 +27332,6 @@
       "name1_en": "Shure SM57"
     },
     "from_product": null,
-    "verdictProsCons": [
-      {
-        "name": "Shure SM57",
-        "name_es": "Shure SM57",
-        "pros": [
-          "Indestructible dynamic that works on almost every instrument",
-          "Presence peak cuts through dense mixes",
-          "Extremely affordable - buy several for the cost of one pro mic",
-          "Compact size fits in tight drum positions"
-        ],
-        "pros_es": [
-          "Dinámico indestructible que funciona en casi cualquier instrumento",
-          "Pico de presencia que corta la mezcla densa",
-          "Extremadamente asequible - compra varias por el precio de un micro pro",
-          "Tamaño compacto que cabe en posiciones apretadas de batería"
-        ],
-        "cons": [
-          "Narrow frequency response lacks weight and air",
-          "Lower output needs more preamp gain",
-          "Clip mount can be unreliable with vibration"
-        ],
-        "cons_es": [
-          "Respuesta en frecuencia limitada: poco peso y aire",
-          "Salida más baja: pide más ganancia del preamp",
-          "El clip puede soltar y caer con la vibración"
-        ]
-      },
-      {
-        "name": "Electro-Voice RE20",
-        "name_es": "Electro-Voice RE20",
-        "pros": [
-          "Variable-D design rejects proximity boom for clean, consistent bass",
-          "Fuller response captures weight on bass cabs and kick drums",
-          "Famous for broadcast, bass and voice - a genuine pro studio staple",
-          "Higher output drives preamps with a better signal-to-noise ratio"
-        ],
-        "pros_es": [
-          "El diseño variable-D elimina el bombeo de proximidad: graves limpios y constantes",
-          "Respuesta más plena que llega más bajo en graves y bombo",
-          "Famoso para broadcast, bajo y voz: un básico de estudio de verdad",
-          "Salida más alta que pide menos ganancia del preamp"
-        ],
-        "cons": [
-          "Bulky and heavy compared to the slim SM57",
-          "More expensive - roughly 4x the cost of an SM57",
-          "Still a dynamic: not as detailed in the highs as a condenser"
-        ],
-        "cons_es": [
-          "Más grande y pesado frente a la compacta SM57",
-          "Más caro - aproximadamente 4 veces el precio de una SM57",
-          "Sigue siendo dinámico: menos detalle en los agudos que un condensador"
-        ]
-      }
-    ],
-    "comparison": {
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "val1": "Any instrument - universal",
-          "val2": "Bass, kick, vocals, broadcast",
-          "val1_es": "Cualquier instrumento - universal",
-          "val2_es": "Bajo, bombo, voz, broadcast"
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dynamic (moving coil)",
-          "val2": "Dynamic (variable-D)",
-          "val1_es": "Dinámico (bobina móvil)",
-          "val2_es": "Dinámico (variable-D)"
-        },
-        {
-          "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
-          "val1": "Cardioid",
-          "val2": "Cardioid",
-          "val1_es": "Cardioide",
-          "val2_es": "Cardioide"
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "val1": "40 Hz - 15 kHz",
-          "val2": "45 Hz - 18 kHz",
-          "val1_es": "40 Hz - 15 kHz",
-          "val2_es": "45 Hz - 18 kHz"
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "val1": "-56 dBV/Pa",
-          "val2": "-57 dBV/Pa",
-          "val1_es": "-56 dBV/Pa",
-          "val2_es": "-57 dBV/Pa"
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "val1": "10 oz / 284 g",
-          "val2": "21 oz / 640 g",
-          "val1_es": "10 oz / 284 g",
-          "val2_es": "21 oz / 640 g"
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "val1": "$99",
-          "val2": "$449",
-          "val1_es": "$99",
-          "val2_es": "$449"
-        }
-      ]
-    },
     "relatedGuides": [
       "best-microphone",
       "best-mic-for-guitar-amps",
@@ -27509,6 +27395,169 @@
         "a": "The DPA 4099 CORE is the go-to clip-on for violin and cello, and it works. For a section, ribbon mics — the Coles 4038 or a Royer — give that warm, focused ensemble tone you hear on records. Try the 4099 first if you're one player; reach for a matched ribbon pair when you track strings in the studio.",
         "q_es": "¿Y las cuerdas de orquesta — un clip-on puede con eso?",
         "a_es": "El DPA 4099 CORE es el micro de clip de referencia para violín y violonchelo, y funciona de maravilla. Para una sección de cuerda, las cintas — una Coles 4038 o una Royer — dan ese tono cálido y enfocado que suena en los discos. Prueba el 4099 si estás solo; ve por un par de cintas emparejadas cuando grabes cuerdas en estudio."
+      }
+    ]
+  },
+  {
+    "id": "stage-wedges",
+    "title": "Best Powered Stage Wedges for Live Sound",
+    "title_es": "Mejores Monitores de Piso Activos para Directo",
+    "category": "live_sound",
+    "image": "https://r2.gear4music.com/media/92/928188/1200/preview.jpg",
+    "badge": "topQuality",
+    "intro": "A floor monitor is the only thing between you and a guess every time you sing or hit a cue. I've mixed and played behind wedges in clubs, theatres and festival stages, and these are the four active monitors I'd trust with my own set.",
+    "intro_es": "Un monitor de piso es lo único que separa tu interpretación de un tanteo a ciegas cada vez que cantas o entras en un tema. He mezclado y tocado detrás de cuñas en clubes, teatros y festivales, y estos son los cuatro monitores activos que pondría delante de mi propio set.",
+    "sections": [
+      {
+        "heading": "How to Choose the Best Powered Stage Wedge?",
+        "heading_es": "¿Cómo Elegir el Mejor Monitor de Piso Activo?",
+        "content": "<strong>Pick a wedge that stays clear at the volume you actually play.</strong> Look at SPL rating, coverage angle and how far the cabinet throws. The RCF NX 912-SMA is the most powerful of the group at 130 dB. The Electro-Voice PXM-12MP brings a coaxial driver and a smart recessed panel for small stages. The LD Systems MON 12 A G3 is the budget pick that still sounds open. The Yamaha DHR12M balances price and serious FIR processing. All four are 12-inch, self-powered and ready to plug into your mixer's aux.",
+        "content_es": "<strong>Elige una cuña que se mantenga clara al volumen al que tocas de verdad.</strong> Fíjate en el SPL máximo, el ángulo de cobertura y cómo proyecta la caja. La RCF NX 912-SMA es la más potente del grupo con 130 dB. La Electro-Voice PXM-12MP aporta un driver coaxial y un panel empotrado muy práctico para escenarios pequeños. La LD Systems MON 12 A G3 es la opción económica que igual suena abierta. La Yamaha DHR12M equilibra precio y procesado FIR serio. Las cuatro son de 12 pulgadas, autónomas y listas para conectar a un auxiliar de tu mesa.",
+        "products": []
+      },
+      {
+        "heading": "Is the RCF NX 912-SMA the Best Powered Stage Wedge?",
+        "heading_es": "¿Es la RCF NX 912-SMA el Mejor Monitor de Piso Activo?",
+        "content": "<strong>The RCF NX 912-SMA is the loudest and most refined wedge in this group.</strong> A 2100W peak Class-D amplifier pushes a 12-inch woofer and a 1.75-inch compression driver through RCF's TRW waveguide with 100° x 70° coverage and up to 130 dB SPL. FiRPHASE linear-phase DSP keeps transients intact, and Bass Motion Control delivers low end that stays controlled at high level. The cabinet is all-wood and light enough to carry one in each hand. It is the one to take if you play louder-than-average stages or need headroom for days. At $1699 it costs the most here, and for stage use it earns it.",
+        "content_es": "<strong>La RCF NX 912-SMA es la cuña más potente y pulida de este grupo.</strong> Un amplificador Class-D de 2100W de pico mueve un woofer de 12 pulgadas y un driver de compresión de 1,75 pulgadas a través de la guía TRW de RCF, con cobertura de 100° x 70° y hasta 130 dB SPL. El DSP FiRPHASE de fase lineal mantiene intactos los transitorios, y Bass Motion Control ofrece graves controlados incluso a alto nivel. La caja es de madera y lo bastante ligera para llevar una en cada mano. Es la que eliges si tocas en escenarios que piden más volumen o necesitas margen de sobra. A $1699 es la más cara de la lista, y en un directo se lo gana.",
+        "products": [
+          216
+        ]
+      },
+      {
+        "heading": "Is the Electro-Voice PXM-12MP the Best Powered Stage Wedge?",
+        "heading_es": "¿Es la Electro-Voice PXM-12MP el Mejor Monitor de Piso Activo?",
+        "content": "<strong>The Electro-Voice PXM-12MP proves that a coaxial driver is made for wedge duty.</strong> The 12-inch/1.75-inch coaxial unit shares a single axis, so the sound reaches your ears from one point instead of two overlapping sources. The 700W Class-D amplifier was designed with EV's sibling brand Dynacord, and the QuickSmart DSP gives you EQ presets, a notch filter and system matching from a clear LCD. A 55° tilt and a recessed panel with built-in cable management keep stages tidy and set-up fast. It hits 129 dB, which is plenty for most clubs and smaller outdoor gigs. At $949 it's the middle option, and the one I'd recommend to most working bands.",
+        "content_es": "<strong>La Electro-Voice PXM-12MP demuestra que un driver coaxial está hecho para trabajar como cuña.</strong> El conjunto coaxial de 12\"/1,75\" comparte un mismo eje, así que el sonido llega a tus oídos desde un solo punto en vez de desde dos fuentes superpuestas. El amplificador Class-D de 700W fue diseñado junto a Dynacord, la marca hermana de EV, y el DSP QuickSmart ofrece presets de EQ, filtro notch y emparejado de sistema desde una pantalla LCD clara. Una inclinación de 55° y un panel empotrado con gestión de cables integrada mantienen el escenario ordenado y el montaje rápido. Alcanza 129 dB, suficiente para la mayoría de clubs y bolos al aire libre de tamaño medio. A $949 es la opción intermedia, y la que recomendaría a la mayoría de bandas que trabajan.",
+        "products": [
+          217
+        ]
+      },
+      {
+        "heading": "Is the LD Systems MON 12 A G3 the Best Powered Stage Wedge?",
+        "heading_es": "¿Es la LD Systems MON 12 A G3 el Mejor Monitor de Piso Activo?",
+        "content": "<strong>The LD Systems MON 12 A G3 is the smart budget pick that doesn't sound budget.</strong> A 300W RMS (1200W peak) amplifier drives a coaxial 12-inch woofer with a 1.75-inch titanium compression driver, good for 127 dB SPL. DynX DSP Gen.2 handles tuning, and the front panel gives you a 3-band EQ, four presets, a notch filter and a backlit LC display — real control without touching an app. The cabinet is 15 mm birch plywood with a tough polyurea finish, and the 33° tilt keeps a low profile on stage. At $590 it undercuts the rest while still sounding clear and full. If your budget is tight and you still want a serious wedge, this is it.",
+        "content_es": "<strong>La LD Systems MON 12 A G3 es la opción económica inteligente que no suena a económica.</strong> Un amplificador de 300W RMS (1200W de pico) mueve un woofer coaxial de 12 pulgadas con driver de compresión de titanio de 1,75 pulgadas, hasta 127 dB SPL. El DSP DynX Gen.2 se encarga del ajuste, y el panel frontal ofrece EQ de 3 bandas, cuatro presets, filtro notch y una pantalla LC retroiluminada: control real sin tocar ninguna app. La caja es de abedul de 15 mm con acabado de poliurea resistente, y la inclinación de 33° mantiene un perfil bajo sobre el escenario. A $590 se sitúa por debajo de las demás sin perder claridad ni cuerpo. Si tu presupuesto aprieta pero quieres una cuña seria, esta es.",
+        "products": [
+          218
+        ]
+      },
+      {
+        "heading": "Is the Yamaha DHR12M the Best Powered Stage Wedge?",
+        "heading_es": "¿Es la Yamaha DHR12M el Mejor Monitor de Piso Activo?",
+        "content": "<strong>The Yamaha DHR12M is the balanced pick with pro-level tuning at a fair price.</strong> A 1000W dynamic Class-D amplifier powers a coaxial 12-inch/1.75-inch driver delivering 90° x 90° coverage and up to 129 dB SPL. Yamaha's FIR-X processing shapes the response precisely, and the D-CONTOUR switch lets you flip between FOH and MONITOR voicings for the venue you're in. The 57° monitor angle fires straight at your ears whether you stand close or a few feet back. The polyurea-coated plywood cabinet takes the knocks of loading in and out. At $697 it sits between the LD and the EV, and it's the one that feels most like studio gear on a stage.",
+        "content_es": "<strong>La Yamaha DHR12M es la opción equilibrada con ajuste de nivel profesional a un precio justo.</strong> Un amplificador Class-D de 1000W dinámicos mueve un driver coaxial de 12\"/1,75\" que ofrece cobertura de 90° x 90° y hasta 129 dB SPL. El procesado FIR-X de Yamaha perfila la respuesta con precisión, y el interruptor D-CONTOUR te deja cambiar entre curvas FOH y MONITOR según la sala. El ángulo de 57° apunta directo a tus oídos tanto si te pegas a la cuña como si te separas unos metros. La caja de madera con poliurea aguanta los golpes de la carga y descarga. A $697 se sitúa entre la LD y la EV, y es la que más se siente como equipo de estudio sobre un escenario.",
+        "products": [
+          219
+        ]
+      }
+    ],
+    "conclusion": "The RCF NX 912-SMA ($1699) is the power pick for loud stages and demanding monitoring. The Electro-Voice PXM-12MP ($949) is the best all-round wedge for most working bands. The Yamaha DHR12M ($697) is the balanced value choice with serious DSP. The LD Systems MON 12 A G3 ($590) is the budget wedge that still sounds full and clear. If I had to pick one for my own rig, it would be the PXM-12MP — enough power for real gigs, a coaxial driver that behaves, and a panel designed by people who have carried monitors.",
+    "conclusion_es": "La RCF NX 912-SMA ($1699) es la opción potente para escenarios exigentes. La Electro-Voice PXM-12MP ($949) es la cuña más equilibrada para la mayoría de bandas que trabajan. La Yamaha DHR12M ($697) es la opción equilibrada con DSP serio. La LD Systems MON 12 A G3 ($590) es la cuña económica que igual suena llena y clara. Si tuviera que quedarme con una para mi propio equipo, sería la PXM-12MP: potencia de sobra para bolos reales, un driver coaxial que se porta bien y un panel diseñado por gente que ha cargado monitores.",
+    "verdict": "PXM-12MP ($949) for most bands, NX 912-SMA ($1699) for maximum power, DHR12M ($697) for balanced value, MON 12 A G3 ($590) for budget",
+    "verdict_es": "PXM-12MP ($949) para la mayoría de bandas, NX 912-SMA ($1699) para máxima potencia, DHR12M ($697) para valor equilibrado, MON 12 A G3 ($590) para presupuesto",
+    "featuredProducts": [
+      216,
+      217,
+      218,
+      219
+    ],
+    "description": "Best powered stage wedges 2026. RCF NX 912-SMA vs Electro-Voice PXM-12MP vs Yamaha DHR12M vs LD MON 12 A G3. Live sound floor monitors compared. Read the full verdict before you buy.",
+    "description_es": "MEJORES monitores de piso activos 2026. RCF NX 912-SMA vs Electro-Voice PXM-12MP vs Yamaha DHR12M vs LD MON 12 A G3. Lee el veredicto completo y los precios antes de comprar.",
+    "featuredSnippet": {
+      "title_en": "Best Powered Stage Wedges for Live Sound (2026)",
+      "text_en": "The Electro-Voice PXM-12MP is the best all-round powered stage wedge for most working bands.",
+      "title_es": "Mejores Monitores de Piso Activos para Directo (2026)",
+      "text_es": "La Electro-Voice PXM-12MP es la cuña activa más equilibrada para la mayoría de bandas que trabajan.",
+      "name1_en": "Electro-Voice PXM-12MP",
+      "name1_es": "Electro-Voice PXM-12MP",
+      "name2_en": "RCF NX 912-SMA",
+      "name2_es": "RCF NX 912-SMA",
+      "name3_en": "Yamaha DHR12M",
+      "name3_es": "Yamaha DHR12M",
+      "key1_en": "700W Class-D, coaxial driver, QuickSmart DSP",
+      "key1_es": "700W Class-D, driver coaxial, DSP QuickSmart",
+      "key2_en": "2100W peak, 130 dB, FiRPHASE",
+      "key2_es": "2100W de pico, 130 dB, FiRPHASE",
+      "key3_en": "1000W dynamic, FIR-X, D-CONTOUR",
+      "key3_es": "1000W dinámicos, FIR-X, D-CONTOUR",
+      "best1_en": "most working bands",
+      "best1_es": "la mayoría de bandas",
+      "best2_en": "maximum power and SPL",
+      "best2_es": "máxima potencia y SPL",
+      "best3_en": "balanced value with pro tuning",
+      "best3_es": "valor equilibrado con ajuste pro",
+      "brand1": "Electro-Voice",
+      "brand2": "RCF",
+      "brand3": "Yamaha",
+      "type1": "live_sound",
+      "type2": "live_sound",
+      "type3": "live_sound",
+      "rating1": 4.7,
+      "rating2": 4.8,
+      "rating3": 4.7,
+      "price1": "949",
+      "price2": "1699",
+      "price3": "697",
+      "specs": []
+    },
+    "relatedGuides": [
+      "best-pa-speakers",
+      "live-sound-pa",
+      "best-live-sound-mixers",
+      "stage-wireless",
+      "stage-mics"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Carnago",
+      "givenName": "Daniel",
+      "familyName": "Carnago",
+      "alternateName": "Cuban3Beats",
+      "jobTitle": "Professional Musician & Audio Engineer",
+      "description": "Touring musician with 20+ years of experience performing on world stages including Glastonbury, Broadway, and Abbey Road.",
+      "url": "https://topmusiciangear.com/about.html",
+      "sameAs": [
+        "https://www.youtube.com/@Cuban3Beats",
+        "https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX",
+        "https://www.tiktok.com/@cuban3beats",
+        "https://www.facebook.com/Cuban3Beats/",
+        "https://www.instagram.com/cuban3beats",
+        "https://x.com/Cuban3Beats"
+      ],
+      "knowsAbout": [
+        "Audio Engineering",
+        "Music Production",
+        "Live Sound",
+        "Studio Recording",
+        "Music Gear"
+      ]
+    },
+    "aboutName": "Live Sound",
+    "faq": [
+      {
+        "q": "Do I need a coaxial wedge or is a standard two-way fine?",
+        "a": "Both work. A coaxial driver keeps the woofer and tweeter on one axis, so the sound stays in phase across the coverage area and you get a cleaner image when you stand off-axis. That matters on small stages where you're constantly moving. A standard two-way like the RCF NX 912-SMA can be just as loud and clear — it's more about how the cabinet and DSP are tuned than the layout itself.",
+        "q_es": "¿Necesito una cuña coaxial o vale una bidireccional normal?",
+        "a_es": "Ambas funcionan. Un driver coaxial mantiene el woofer y el tweeter en el mismo eje, así que el sonido se mantiene en fase en toda la cobertura y la imagen es más limpia cuando te mueves fuera del eje. Eso importa en escenarios pequeños donde no dejas de moverte. Una bidireccional como la RCF NX 912-SMA puede ser igual de potente y clara: depende más del ajuste de la caja y del DSP que de la disposición en sí."
+      },
+      {
+        "q": "How many dB do I actually need from a floor monitor?",
+        "a": "For most clubs and smaller outdoor stages, 125-130 dB of SPL is enough. That range covers loud rock bands playing at stage volumes without the wedge running at its limit. If you're regularly on big festival stages with a loud band behind you, aim for the top of that range or add a second wedge per position.",
+        "q_es": "¿Cuántos dB necesito de verdad en un monitor de piso?",
+        "a_es": "Para la mayoría de clubs y bolos al aire libre de tamaño medio, con 125-130 dB de SPL basta. Ese rango cubre bandas de rock que tocan a volumen alto sin llevar la cuña al límite. Si tocas a menudo en festivales grandes con una banda ruidosa detrás, apunta al tope de ese rango o añade una segunda cuña por posición."
+      },
+      {
+        "q": "Is a wedge with DSP worth the extra money?",
+        "a": "Yes, if you change rooms often. DSP gives you EQ presets, a notch filter to kill feedback and system matching between monitor and sub, all reachable from the panel. That turns a 30-second tweak into something you can do mid-set. The LD Systems MON 12 A G3 and the Electro-Voice PXM-12MP both make this genuinely useful without a laptop.",
+        "q_es": "¿Merece la pena pagar más por una cuña con DSP?",
+        "a_es": "Sí, si cambias de sala a menudo. El DSP te da presets de EQ, un filtro notch para matar la realimentación y el emparejado entre monitor y sub, todo accesible desde el panel. Eso convierte un ajuste de 30 segundos en algo que haces en pleno directo. La LD Systems MON 12 A G3 y la Electro-Voice PXM-12MP lo hacen de verdad útil sin necesidad de un portátil."
+      },
+      {
+        "q": "Can I use a powered wedge as a small PA main?",
+        "a": "You can, and it works better than you'd think. The Electro-Voice PXM-12MP and Yamaha DHR12M both switch into FOH or main voicings, and a 12-inch coaxial will cover a small room on vocals and acoustic gigs. It's a useful backup, but for a real PA show you'll still want dedicated tops and a sub.",
+        "q_es": "¿Puedo usar una cuña activa como PA principal para un evento pequeño?",
+        "a_es": "Se puede, y funciona mejor de lo que parece. La Electro-Voice PXM-12MP y la Yamaha DHR12M se cambian a curvas FOH o de PA principal, y un coaxial de 12 pulgadas cubre una sala pequeña para voces y directos acústicos. Sirve como plan B, pero para un bolo de PA de verdad seguirás queriendo tops dedicados y un sub."
       }
     ]
   }
