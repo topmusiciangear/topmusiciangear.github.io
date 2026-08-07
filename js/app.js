@@ -428,11 +428,13 @@ function renderProductCard(id) {
   `;
 }
 
-function fmtReviewDate(iso) {
+function fmtReviewDate(iso, es) {
   var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
   if (isNaN(d)) return String(iso);
-  var mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  return mo[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+  var en = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var esmo = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  var mo = es ? esmo : en;
+  return es ? (d.getDate() + ' ' + mo[d.getMonth()] + ' ' + d.getFullYear()) : (mo[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear());
 }
 
 function reviewStars(n) {
@@ -475,7 +477,7 @@ function userReviewsHtml(guide) {
   var items = rv.slice(0, limit).map(function(r) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item">' +
-      '<div class="guide-review-item-head"><span class="guide-review-author">' + (isEs && r.author.toLowerCase() === 'anonymous' ? 'Anónimo' : r.author) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + (isEs && r.author.toLowerCase() === 'anonymous' ? 'Anónimo' : r.author) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date, isEs) + '</span></div>' +
       '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
@@ -483,7 +485,7 @@ function userReviewsHtml(guide) {
   var hiddenItems = hiddenExtra.map(function(r) {
     var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
     return '<div class="guide-review-item" style="display:none" data-extra>' +
-      '<div class="guide-review-item-head"><span class="guide-review-author">' + (isEs && r.author.toLowerCase() === 'anonymous' ? 'Anónimo' : r.author) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date) + '</span></div>' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + (isEs && r.author.toLowerCase() === 'anonymous' ? 'Anónimo' : r.author) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date, isEs) + '</span></div>' +
       '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
       '<p class="guide-review-text">' + txt + '</p>' +
     '</div>';
