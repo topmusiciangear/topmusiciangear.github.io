@@ -27324,13 +27324,13 @@
         "pros": [
           "Indestructible dynamic workhorse for almost every instrument",
           "Presence peak cuts through dense mixes",
-          "Extremely affordable - buy several cheap",
+          "Extremely affordable - buy several for the cost of one pro mic",
           "Compact size fits in tight drum positions"
         ],
         "pros_es": [
           "Caballo de batalla dinámico indestructible para casi cualquier instrumento",
           "Pico de presencia que corta la mezcla densa",
-          "Extremadamente asequible - compra varios sin gastar mucho",
+          "Extremadamente asequible - compra varias por el precio de un micro pro",
           "Tamaño compacto que cabe en posiciones apretadas de batería"
         ],
         "cons": [
@@ -27345,22 +27345,30 @@
         ]
       },
       {
-        "name": "Royer R-121",
-        "name_es": "Royer R-121",
+        "name": "Electro-Voice RE20",
+        "name_es": "Electro-Voice RE20",
         "pros": [
-          "The pro standard for electric guitar tone",
-          "Smooth, open voice that no dynamic can match",
-          "Takes loud SPL without collapse on loud amps",
-          "Essentially unlimited on louder instrument"
+          "Variable-D design rejects proximity boom for clean, consistent bass",
+          "Fuller response captures weight on bass cabs and kick drums",
+          "Famous for broadcast, bass and voice - a true pro all-rounder",
+          "Higher output drives preamps with a better signal-to-noise ratio"
         ],
         "pros_es": [
-          "El estándar profesional para tono de guitarra",
-          "Sonido suave y abierto que ningún dinámico iguala",
-          "No se distorsiona con amplificadores muy ruidosos",
-          "Prácticamente sin riesgo en instrumentos fuertes"
+          "El diseño variable-D elimina el bombeo de proximidad: graves limpios y constantes",
+          "Respuesta más plena que llega más bajo en graves y bombo",
+          "Famoso para broadcast, bajo y voz: un todoterreno pro de verdad",
+          "Salida más alta que pide menos ganancia del preamp"
         ],
-        "cons": [],
-        "cons_es": []
+        "cons": [
+          "Bulky and heavy compared to the slim SM57",
+          "More expensive - roughly 4x the cost of an SM57",
+          "Still a dynamic: not as detailed in the highs as a condenser"
+        ],
+        "cons_es": [
+          "Más grande y pesado frente a la compacta SM57",
+          "Más caro - aproximadamente el doble que una SM57",
+          "Sigue siendo dinámico: menos detalle en los agudos que un condensador"
+        ]
       }
     ],
     "comparison": {
@@ -27369,41 +27377,57 @@
           "label": "Best For",
           "label_es": "Ideal Para",
           "val1": "Any instrument - universal",
-          "val2": "Guitar, horns, drums",
+          "val2": "Bass, kick, vocals, broadcast",
           "val1_es": "Cualquier instrumento - universal",
-          "val2_es": "Guitar, metales, batería"
+          "val2_es": "Bajo, bombo, voz, broadcast"
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Dynamic (moving coil)",
-          "val2": "Ribbon (figure-8)",
+          "val2": "Dynamic (variable-D)",
           "val1_es": "Dinámico (bobina móvil)",
-          "val2_es": "Cinta (figura-8)"
+          "val2_es": "Dinámico (variable-D)"
         },
         {
           "label": "Polar Pattern",
           "label_es": "Patrón Polar",
           "val1": "Cardioid",
-          "val2": "Figure-8",
+          "val2": "Cardioid",
           "val1_es": "Cardioide",
-          "val2_es": "Figura-8"
+          "val2_es": "Cardioide"
         },
         {
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "val1": "40 Hz - 15 kHz",
-          "val2": "30 Hz - 15 kHz",
+          "val2": "45 Hz - 18 kHz",
           "val1_es": "40 Hz - 15 kHz",
-          "val2_es": "30 Hz - 15 kHz"
+          "val2_es": "45 Hz - 18 kHz"
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "-56 dBV/Pa",
+          "val2": "-57 dBV/Pa",
+          "val1_es": "-56 dBV/Pa",
+          "val2_es": "-57 dBV/Pa"
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "val1": "10 oz / 284 g",
+          "val2": "21 oz / 640 g",
+          "val1_es": "10 oz / 284 g",
+          "val2_es": "21 oz / 640 g"
         },
         {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$99",
-          "val2": "$1499",
+          "val2": "$449",
           "val1_es": "$99",
-          "val2_es": "$1499"
+          "val2_es": "$449"
         }
       ]
     },
