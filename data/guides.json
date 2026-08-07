@@ -677,7 +677,217 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "productTable": {
+      "title": "Best Microphones Compared",
+      "title_es": "Comparativa de los Mejores Micrófonos",
+      "columns": [
+        {
+          "title": "Shure SM57",
+          "title_es": "Shure SM57"
+        },
+        {
+          "title": "Rode NT1 5th Gen",
+          "title_es": "Rode NT1 5.ª Gen"
+        },
+        {
+          "title": "Shure SM7B",
+          "title_es": "Shure SM7B"
+        },
+        {
+          "title": "AKG C414 XLII",
+          "title_es": "AKG C414 XLII"
+        },
+        {
+          "title": "Neumann U 87 Ai",
+          "title_es": "Neumann U 87 Ai"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Instruments & amps",
+              "value_es": "Instrumentos y amplis"
+            },
+            {
+              "value": "Versatile studio vocals",
+              "value_es": "Voces de estudio versátiles"
+            },
+            {
+              "value": "Broadcast & podcast vocals",
+              "value_es": "Radio y podcast"
+            },
+            {
+              "value": "Studio vocals & instruments",
+              "value_es": "Voces e instrumentos de estudio"
+            },
+            {
+              "value": "The studio standard vocal",
+              "value_es": "La voz estándar de estudio"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "9 switchable patterns",
+              "value_es": "9 patrones conmutables"
+            },
+            {
+              "value": "Omni / Cardioid / Fig-8",
+              "value_es": "Omni / Cardioide / Fig-8"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "–56 dBV/Pa (1.6 mV)",
+              "value_es": "–56 dBV/Pa (1.6 mV)"
+            },
+            {
+              "value": "–32 dB (25 mV/Pa)",
+              "value_es": "–32 dB (25 mV/Pa)"
+            },
+            {
+              "value": "–59 dBV/Pa (1.12 mV)",
+              "value_es": "–59 dBV/Pa (1.12 mV)"
+            },
+            {
+              "value": "–33 dBV ± 0.5 dB (23 mV/Pa)",
+              "value_es": "–33 dBV ± 0.5 dB (23 mV/Pa)"
+            },
+            {
+              "value": "28 mV/Pa (cardioid)",
+              "value_es": "28 mV/Pa (cardioide)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "6 dB-A",
+              "value_es": "6 dB-A"
+            },
+            {
+              "value": "12 dB-A (cardioid)",
+              "value_es": "12 dB-A (cardioide)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$1,099",
+              "value_es": "$1,099"
+            },
+            {
+              "value": "$3,599",
+              "value_es": "$3,599"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "best-monitors",
@@ -2537,7 +2747,7 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Studio Accessories"
+    "aboutName": "Microphones"
   },
   {
     "id": "studio-furniture",

@@ -700,6 +700,18 @@ ${ogMeta}
           <tbody>${guide.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating').map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
         </table></div>
       </div>` : ''}
+      ${guide.productTable ? (function(){
+        var rows = guide.productTable.rows || [];
+        var headers = guide.productTable.columns.map(function(col){
+          return '<th>' + (isEs && col.title_es ? col.title_es : col.title) + '</th>';
+        }).join('');
+        var body = rows.map(function(r){
+          return '<tr><td class="label">' + (isEs && r.label_es ? r.label_es : r.label) + '</td>' + r.values.map(function(v){
+            return '<td class="val">' + (isEs && v.value_es ? v.value_es : v.value) + '</td>';
+          }).join('') + '</tr>';
+        }).join('');
+        return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">' + (isEs && guide.productTable.title_es ? guide.productTable.title_es : (guide.productTable.title || (isEs ? 'Comparativa de Productos' : 'Product Comparison'))) + '</h2><div class="guide-comp-scroll"><table class="guide-comp-table"><thead><tr><th></th>' + headers + '</tr></thead><tbody>' + body + '</tbody></table></div></div>';
+      })() : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${conclusion}</div></div>` : ''}
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
