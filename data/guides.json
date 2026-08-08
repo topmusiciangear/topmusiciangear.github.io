@@ -11803,7 +11803,225 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Drum Machines"
+    "aboutName": "Drum Machines",
+    "productTable": {
+      "title": "Best Drum Machines Compared in This Guide",
+      "title_es": "Las Mejores Máquinas de Ritmo Comparadas en esta Guía",
+      "columns": [
+        {
+          "title": "Roland TR-6S",
+          "title_es": "Roland TR-6S"
+        },
+        {
+          "title": "Akai MPC One+",
+          "title_es": "Akai MPC One+"
+        },
+        {
+          "title": "Roland TR-8S",
+          "title_es": "Roland TR-8S"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Budget rhythm machines on the go",
+              "value_es": "Máquinas de ritmo económicas para llevar"
+            },
+            {
+              "value": "All-in-one beat-making without a computer",
+              "value_es": "Beat-making todo en uno sin ordenador"
+            },
+            {
+              "value": "Iconic Roland sounds and live performance",
+              "value_es": "Sonidos Roland icónicos y directo"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Compact 6-track rhythm performer",
+              "value_es": "Performer de ritmo compacto de 6 pistas"
+            },
+            {
+              "value": "Standalone sampler / sequencer",
+              "value_es": "Sampler / secuenciador standalone"
+            },
+            {
+              "value": "Rhythm performer",
+              "value_es": "Performer de ritmo"
+            }
+          ]
+        },
+        {
+          "label": "Tracks",
+          "label_es": "Pistas",
+          "values": [
+            {
+              "value": "6 instrument parts",
+              "value_es": "6 partes de instrumento"
+            },
+            {
+              "value": "128 MIDI + 8 audio tracks",
+              "value_es": "128 pistas MIDI + 8 de audio"
+            },
+            {
+              "value": "11 instrument parts + trigger out",
+              "value_es": "11 partes de instrumento + trigger out"
+            }
+          ]
+        },
+        {
+          "label": "Sound Engine",
+          "label_es": "Motor de Sonido",
+          "values": [
+            {
+              "value": "ACB (808, 909, 606, 707, CR-78), FM, samples",
+              "value_es": "ACB (808, 909, 606, 707, CR-78), FM, samples"
+            },
+            {
+              "value": "MPC sampler + plugin synths",
+              "value_es": "Sampler MPC + synths plugin"
+            },
+            {
+              "value": "ACB (808, 909, 707, 727, 606), FM, samples",
+              "value_es": "ACB (808, 909, 707, 727, 606), FM, samples"
+            }
+          ]
+        },
+        {
+          "label": "Sequencer",
+          "label_es": "Secuenciador",
+          "values": [
+            {
+              "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
+              "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
+            },
+            {
+              "value": "Grid + step sequencer, 128-track",
+              "value_es": "Grid + secuenciador por pasos, 128 pistas"
+            },
+            {
+              "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
+              "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
+            }
+          ]
+        },
+        {
+          "label": "Sample Storage",
+          "label_es": "Almacenamiento de Samples",
+          "values": [
+            {
+              "value": "SD card (SDHC), ~600 s user samples",
+              "value_es": "Tarjeta SD (SDHC), ~600 s de samples"
+            },
+            {
+              "value": "16 GB internal, SD card + USB",
+              "value_es": "16 GB internos, tarjeta SD + USB"
+            },
+            {
+              "value": "SD card (SDHC), ~600 s user samples",
+              "value_es": "Tarjeta SD (SDHC), ~600 s de samples"
+            }
+          ]
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "values": [
+            {
+              "value": "Inst FX, reverb, delay, master FX, scatter",
+              "value_es": "Inst FX, reverb, delay, master FX, scatter"
+            },
+            {
+              "value": "100+ AIR FX plugins and processors",
+              "value_es": "Más de 100 plugins y procesadores AIR FX"
+            },
+            {
+              "value": "Inst FX, reverb, delay, master FX, sidechain",
+              "value_es": "Inst FX, reverb, delay, master FX, sidechain"
+            }
+          ]
+        },
+        {
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "values": [
+            {
+              "value": "Stereo out, MIDI in/out, USB audio/MIDI",
+              "value_es": "Salida estéreo, MIDI in/out, USB audio/MIDI"
+            },
+            {
+              "value": "2x TRS in/out, 4x CV/Gate, MIDI, Wi-Fi, BT",
+              "value_es": "2x TRS in/out, 4x CV/Gate, MIDI, Wi-Fi, BT"
+            },
+            {
+              "value": "6 assignable outs, ext in, MIDI, USB audio",
+              "value_es": "6 salidas asignables, ext in, MIDI, USB audio"
+            }
+          ]
+        },
+        {
+          "label": "Power",
+          "label_es": "Alimentación",
+          "values": [
+            {
+              "value": "4x AA batteries or USB bus power",
+              "value_es": "4 pilas AA o alimentación por USB"
+            },
+            {
+              "value": "AC adaptor",
+              "value_es": "Adaptador de corriente"
+            },
+            {
+              "value": "AC adaptor",
+              "value_es": "Adaptador de corriente"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "0.7 kg (1 lb 9 oz)",
+              "value_es": "0,7 kg (1 lb 9 oz)"
+            },
+            {
+              "value": "2.1 kg (4.7 lb)",
+              "value_es": "2,1 kg (4,7 lb)"
+            },
+            {
+              "value": "2.1 kg (4 lb 11 oz)",
+              "value_es": "2,1 kg (4 lb 11 oz)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "apollo-vs-babyface",
@@ -23580,6 +23798,206 @@
         "Studio Recording",
         "Music Gear"
       ]
+    },
+    "productTable": {
+      "title": "Best Samplers & Drum Computers Compared in This Guide",
+      "title_es": "Los Mejores Samplers y Drum Computers Comparados en esta Guía",
+      "columns": [
+        {
+          "title": "Akai MPC One+",
+          "title_es": "Akai MPC One+"
+        },
+        {
+          "title": "Roland TR-8S",
+          "title_es": "Roland TR-8S"
+        },
+        {
+          "title": "Elektron Digitakt II",
+          "title_es": "Elektron Digitakt II"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "All-in-one beat-making without a computer",
+              "value_es": "Beat-making todo en uno sin ordenador"
+            },
+            {
+              "value": "Classic Roland drum sounds live",
+              "value_es": "Sonidos de batería Roland clásicos en directo"
+            },
+            {
+              "value": "Deep sampling and complex sequencing",
+              "value_es": "Sampling profundo y secuenciación compleja"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Standalone sampler / sequencer",
+              "value_es": "Sampler / secuenciador standalone"
+            },
+            {
+              "value": "Rhythm performer",
+              "value_es": "Performer de ritmo"
+            },
+            {
+              "value": "16-track drum computer & stereo sampler",
+              "value_es": "Drum computer de 16 pistas y sampler estéreo"
+            }
+          ]
+        },
+        {
+          "label": "Tracks",
+          "label_es": "Pistas",
+          "values": [
+            {
+              "value": "128 MIDI + 8 audio tracks",
+              "value_es": "128 pistas MIDI + 8 de audio"
+            },
+            {
+              "value": "11 instrument parts + trigger out",
+              "value_es": "11 partes de instrumento + trigger out"
+            },
+            {
+              "value": "16 audio or MIDI tracks, 32 voices",
+              "value_es": "16 pistas de audio o MIDI, 32 voces"
+            }
+          ]
+        },
+        {
+          "label": "Sample Memory",
+          "label_es": "Memoria de Samples",
+          "values": [
+            {
+              "value": "16 GB storage (7.8 GB user)",
+              "value_es": "16 GB de almacenamiento (7,8 GB usuario)"
+            },
+            {
+              "value": "SD card, ~600 s user samples",
+              "value_es": "Tarjeta SD, ~600 s de samples"
+            },
+            {
+              "value": "400 MB RAM (35 min stereo), 20 GB +Drive",
+              "value_es": "400 MB RAM (35 min estéreo), 20 GB +Drive"
+            }
+          ]
+        },
+        {
+          "label": "Sequencer",
+          "label_es": "Secuenciador",
+          "values": [
+            {
+              "value": "Grid + step, 128-track",
+              "value_es": "Grid + pasos, 128 pistas"
+            },
+            {
+              "value": "TR-REC, 128 patterns, 8 variations",
+              "value_es": "TR-REC, 128 patrones, 8 variaciones"
+            },
+            {
+              "value": "128-step Elektron, euclidean, song mode",
+              "value_es": "128 pasos Elektron, euclidiano, modo canción"
+            }
+          ]
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "values": [
+            {
+              "value": "100+ AIR FX plugins",
+              "value_es": "Más de 100 plugins AIR FX"
+            },
+            {
+              "value": "Inst FX, reverb, delay, master FX",
+              "value_es": "Inst FX, reverb, delay, master FX"
+            },
+            {
+              "value": "Delay, reverb, chorus, bit/SR reduction, drive",
+              "value_es": "Delay, reverb, chorus, bit/SR reduction, drive"
+            }
+          ]
+        },
+        {
+          "label": "Audio I/O",
+          "label_es": "Audio I/O",
+          "values": [
+            {
+              "value": "2x 1/4\" TRS in/out",
+              "value_es": "2x 1/4\" TRS in/out"
+            },
+            {
+              "value": "6 assignable outs, ext in",
+              "value_es": "6 salidas asignables, ext in"
+            },
+            {
+              "value": "2x 1/4\" TRS in, 2x TRS out, phones",
+              "value_es": "2x 1/4\" TRS in, 2x TRS out, phones"
+            }
+          ]
+        },
+        {
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "values": [
+            {
+              "value": "MIDI in/out, CV/Gate, USB, Wi-Fi, BT",
+              "value_es": "MIDI in/out, CV/Gate, USB, Wi-Fi, BT"
+            },
+            {
+              "value": "MIDI in/out, USB audio/MIDI interface",
+              "value_es": "MIDI in/out, interfaz USB audio/MIDI"
+            },
+            {
+              "value": "MIDI in/out/thru, DIN sync, USB 2.0",
+              "value_es": "MIDI in/out/thru, DIN sync, USB 2.0"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "2.1 kg (4.7 lb)",
+              "value_es": "2,1 kg (4,7 lb)"
+            },
+            {
+              "value": "2.1 kg (4 lb 11 oz)",
+              "value_es": "2,1 kg (4 lb 11 oz)"
+            },
+            {
+              "value": "1.48 kg (3.25 lb)",
+              "value_es": "1,48 kg (3,25 lb)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -23707,6 +24125,188 @@
         "Live Sound",
         "Studio Recording",
         "Music Gear"
+      ]
+    },
+    "productTable": {
+      "title": "Best Grooveboxes Compared in This Guide",
+      "title_es": "Los Mejores Grooveboxes Comparados en esta Guía",
+      "columns": [
+        {
+          "title": "Elektron Model:Cycles",
+          "title_es": "Elektron Model:Cycles"
+        },
+        {
+          "title": "Novation Circuit Tracks",
+          "title_es": "Novation Circuit Tracks"
+        },
+        {
+          "title": "Roland TR-8S",
+          "title_es": "Roland TR-8S"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "FM synthesis at an entry price",
+              "value_es": "Síntesis FM a precio de entrada"
+            },
+            {
+              "value": "Portable sketching with battery power",
+              "value_es": "Sketching portátil con batería"
+            },
+            {
+              "value": "Classic Roland sounds and live control",
+              "value_es": "Sonidos Roland clásicos y control en directo"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "6-track FM groovebox",
+              "value_es": "Groovebox FM de 6 pistas"
+            },
+            {
+              "value": "Groovebox with synths, drums & MIDI",
+              "value_es": "Groovebox con synths, drums y MIDI"
+            },
+            {
+              "value": "Rhythm performer",
+              "value_es": "Performer de ritmo"
+            }
+          ]
+        },
+        {
+          "label": "Sound Engine",
+          "label_es": "Motor de Sonido",
+          "values": [
+            {
+              "value": "6 FM machines (Kick, Snare, Metal, Perc, Tone, Chord)",
+              "value_es": "6 máquinas FM (Kick, Snare, Metal, Perc, Tone, Chord)"
+            },
+            {
+              "value": "2x 6-voice digital synths + 4 drum tracks",
+              "value_es": "2 synths digitales de 6 voces + 4 pistas de drums"
+            },
+            {
+              "value": "ACB (808, 909, 707, 727, 606), FM, samples",
+              "value_es": "ACB (808, 909, 707, 727, 606), FM, samples"
+            }
+          ]
+        },
+        {
+          "label": "Tracks",
+          "label_es": "Pistas",
+          "values": [
+            {
+              "value": "6 audio or MIDI tracks",
+              "value_es": "6 pistas de audio o MIDI"
+            },
+            {
+              "value": "8 tracks (2 synth, 4 drum, 2 MIDI)",
+              "value_es": "8 pistas (2 synth, 4 drum, 2 MIDI)"
+            },
+            {
+              "value": "11 instrument parts + trigger out",
+              "value_es": "11 partes de instrumento + trigger out"
+            }
+          ]
+        },
+        {
+          "label": "Sequencer",
+          "label_es": "Secuenciador",
+          "values": [
+            {
+              "value": "64 steps, param locks, trig conditions",
+              "value_es": "64 pasos, param locks, trig conditions"
+            },
+            {
+              "value": "32 steps (256 chained), 16 scenes",
+              "value_es": "32 pasos (256 encadenados), 16 escenas"
+            },
+            {
+              "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
+              "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
+            }
+          ]
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "values": [
+            {
+              "value": "Delay & reverb sends, overdrive",
+              "value_es": "Envíos de delay y reverb, overdrive"
+            },
+            {
+              "value": "Reverb, delay, sidechain, master filter",
+              "value_es": "Reverb, delay, sidechain, master filter"
+            },
+            {
+              "value": "Inst FX, reverb, delay, master FX, sidechain",
+              "value_es": "Inst FX, reverb, delay, master FX, sidechain"
+            }
+          ]
+        },
+        {
+          "label": "Power",
+          "label_es": "Alimentación",
+          "values": [
+            {
+              "value": "5V DC (PSU-4 included)",
+              "value_es": "5V DC (PSU-4 incluido)"
+            },
+            {
+              "value": "Built-in Li-ion battery (~4 h)",
+              "value_es": "Batería Li-ion integrada (~4 h)"
+            },
+            {
+              "value": "AC adaptor",
+              "value_es": "Adaptador de corriente"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "0.8 kg (1.8 lb)",
+              "value_es": "0,8 kg (1,8 lb)"
+            },
+            {
+              "value": "0.78 kg (1.7 lb)",
+              "value_es": "0,78 kg (1,7 lb)"
+            },
+            {
+              "value": "2.1 kg (4 lb 11 oz)",
+              "value_es": "2,1 kg (4 lb 11 oz)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            }
+          ]
+        }
       ]
     }
   },
@@ -26682,7 +27282,177 @@
           "Diseño de UI anticuado"
         ]
       }
-    ]
+    ],
+    "productTable": {
+      "title": "Digitakt II vs TR-8S at a Glance",
+      "title_es": "Digitakt II vs TR-8S de un Vistazo",
+      "columns": [
+        {
+          "title": "Roland TR-8S",
+          "title_es": "Roland TR-8S"
+        },
+        {
+          "title": "Elektron Digitakt II",
+          "title_es": "Elektron Digitakt II"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Classic Roland sounds & hands-on performance",
+              "value_es": "Sonidos Roland clásicos y performance práctica"
+            },
+            {
+              "value": "Deep sampling & complex sequencing",
+              "value_es": "Sampling profundo y secuenciación compleja"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Rhythm performer",
+              "value_es": "Performer de ritmo"
+            },
+            {
+              "value": "16-track drum computer & stereo sampler",
+              "value_es": "Drum computer de 16 pistas y sampler estéreo"
+            }
+          ]
+        },
+        {
+          "label": "Sound Engine",
+          "label_es": "Motor de Sonido",
+          "values": [
+            {
+              "value": "ACB (808, 909, 707, 727, 606), FM, samples",
+              "value_es": "ACB (808, 909, 707, 727, 606), FM, samples"
+            },
+            {
+              "value": "Sample-based with 6 SRC + 5 filter machines",
+              "value_es": "Basado en samples con 6 máquinas SRC + 5 filtros"
+            }
+          ]
+        },
+        {
+          "label": "Tracks",
+          "label_es": "Pistas",
+          "values": [
+            {
+              "value": "11 instrument parts + trigger out",
+              "value_es": "11 partes de instrumento + trigger out"
+            },
+            {
+              "value": "16 audio or MIDI tracks, 32 voices",
+              "value_es": "16 pistas de audio o MIDI, 32 voces"
+            }
+          ]
+        },
+        {
+          "label": "Sample Memory",
+          "label_es": "Memoria de Samples",
+          "values": [
+            {
+              "value": "SD card, ~600 s user samples",
+              "value_es": "Tarjeta SD, ~600 s de samples"
+            },
+            {
+              "value": "400 MB RAM (35 min stereo), 20 GB +Drive",
+              "value_es": "400 MB RAM (35 min estéreo), 20 GB +Drive"
+            }
+          ]
+        },
+        {
+          "label": "Sequencer",
+          "label_es": "Secuenciador",
+          "values": [
+            {
+              "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
+              "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
+            },
+            {
+              "value": "128-step Elektron, euclidean, song mode",
+              "value_es": "128 pasos Elektron, euclidiano, modo canción"
+            }
+          ]
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "values": [
+            {
+              "value": "Inst FX, reverb, delay, master FX, sidechain",
+              "value_es": "Inst FX, reverb, delay, master FX, sidechain"
+            },
+            {
+              "value": "Delay, reverb, chorus, bit/SR reduction, drive",
+              "value_es": "Delay, reverb, chorus, bit/SR reduction, drive"
+            }
+          ]
+        },
+        {
+          "label": "Audio Outputs",
+          "label_es": "Salidas de Audio",
+          "values": [
+            {
+              "value": "Mix out + 6 assignable/trigger outs",
+              "value_es": "Salida mix + 6 salidas asignables/trigger"
+            },
+            {
+              "value": "2x TRS main out + headphone",
+              "value_es": "2x TRS salida principal + headphones"
+            }
+          ]
+        },
+        {
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "values": [
+            {
+              "value": "MIDI in/out, USB audio/MIDI, ext in",
+              "value_es": "MIDI in/out, USB audio/MIDI, ext in"
+            },
+            {
+              "value": "MIDI in/out/thru, DIN sync, USB 2.0",
+              "value_es": "MIDI in/out/thru, DIN sync, USB 2.0"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "2.1 kg (4 lb 11 oz)",
+              "value_es": "2,1 kg (4 lb 11 oz)"
+            },
+            {
+              "value": "1.48 kg (3.25 lb)",
+              "value_es": "1,48 kg (3,25 lb)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "yamaha-mg-vs-behringer-xenyx",
