@@ -6348,7 +6348,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "channel-strip-plugins",
@@ -9439,7 +9440,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "verdictSideBySide": false
   },
   {
     "id": "scarlett-vs-ssl",
@@ -9973,7 +9975,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "dt770-vs-dt990",
@@ -10448,7 +10451,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "hs8-vs-rokit-7",
@@ -10925,7 +10929,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "m50x-vs-mdr7506",
@@ -11400,7 +11405,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "best-electric-guitar",
@@ -12513,7 +12519,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "scarlett-vs-volt",
@@ -13006,7 +13013,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "audient-vs-motu",
@@ -13499,7 +13507,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "rme-vs-motu",
@@ -13999,7 +14008,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "adam-vs-genelec",
@@ -14470,7 +14480,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "jbl-vs-kali",
@@ -14941,7 +14952,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "hd600-vs-dt990",
@@ -15418,7 +15430,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "m50x-vs-dt770",
@@ -15895,7 +15908,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "k371-vs-mdr7506",
@@ -16364,7 +16378,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "sm7b-vs-nt1",
@@ -16704,7 +16719,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "verdictSideBySide": true
   },
   {
     "id": "sm57-vs-md421",
@@ -17033,7 +17049,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "verdictSideBySide": true
   },
   {
     "id": "c414-vs-u87",
@@ -17377,7 +17394,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "verdictSideBySide": true
   },
   {
     "id": "re20-vs-sm7b",
@@ -17706,7 +17724,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "verdictSideBySide": true
   },
   {
     "id": "ew100-vs-ulxd",
@@ -18025,7 +18044,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Microphones"
+    "aboutName": "Microphones",
+    "verdictSideBySide": true
   },
   {
     "id": "zlx-vs-k12",
@@ -18353,7 +18373,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Live Sound"
+    "aboutName": "Live Sound",
+    "verdictSideBySide": true
   },
   {
     "id": "dxr-vs-prx",
@@ -18673,7 +18694,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Live Sound"
+    "aboutName": "Live Sound",
+    "verdictSideBySide": true
   },
   {
     "id": "player-strat-vs-pacifica",
@@ -19008,7 +19030,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Guitars"
+    "aboutName": "Guitars",
+    "verdictSideBySide": true
   },
   {
     "id": "american-pro-vs-les-paul",
@@ -19343,7 +19366,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Guitars"
+    "aboutName": "Guitars",
+    "verdictSideBySide": true
   },
   {
     "id": "martin-d28-vs-taylor-314",
@@ -19679,7 +19703,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Guitars"
+    "aboutName": "Guitars",
+    "verdictSideBySide": true
   },
   {
     "id": "ableton-vs-fl-studio",
@@ -20024,7 +20049,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Digital Audio Workstations"
+    "aboutName": "Digital Audio Workstations",
+    "verdictSideBySide": true
   },
   {
     "id": "pro-tools-vs-cubase",
@@ -20369,7 +20395,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Digital Audio Workstations"
+    "aboutName": "Digital Audio Workstations",
+    "verdictSideBySide": true
   },
   {
     "id": "blues-junior-vs-ac30",
@@ -20687,7 +20714,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Guitar Amplifiers"
+    "aboutName": "Guitar Amplifiers",
+    "verdictSideBySide": true
   },
   {
     "id": "katana-vs-dsl",
@@ -21007,7 +21035,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Guitar Amplifiers"
+    "aboutName": "Guitar Amplifiers",
+    "verdictSideBySide": true
   },
   {
     "id": "fabfilter-vs-ozone",
@@ -21313,7 +21342,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Audio Plugins"
+    "aboutName": "Audio Plugins",
+    "verdictSideBySide": true
   },
   {
     "id": "best-guitar-home-office",
@@ -25111,7 +25141,8 @@
         "Studio Recording",
         "Music Gear"
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "best-live-sound-mixers",
@@ -26333,7 +26364,8 @@
           "Excesivo para venues pequeños"
         ]
       }
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "xr18-vs-cq18t",
@@ -26676,7 +26708,8 @@
           "Sin faders motorizados"
         ]
       }
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "nord-stage-4-vs-montage-m8x",
@@ -26979,7 +27012,8 @@
           "Piano/órgano menos auténtico"
         ]
       }
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "digitakt-ii-vs-tr8s",
@@ -27912,7 +27946,8 @@
           "Phantom power global"
         ]
       }
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "budget-pa-systems",
@@ -28386,7 +28421,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "Guitars"
+    "aboutName": "Guitars",
+    "verdictSideBySide": false
   },
   {
     "id": "fender-bass-guide",
@@ -29023,7 +29059,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": false
   },
   {
     "id": "ableton-vs-logic",
@@ -29398,7 +29435,8 @@
         "Music Gear"
       ]
     },
-    "aboutName": "DAW"
+    "aboutName": "DAW",
+    "verdictSideBySide": false
   },
   {
     "id": "active-vs-passive-pa",
@@ -29694,7 +29732,8 @@
           "Sin capacidad de red"
         ]
       }
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "budget-bass-like-expensive",
@@ -30481,7 +30520,8 @@
       "best-headphones",
       "best-headphones-for-mixing",
       "pro-monitors"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-microphones",
@@ -30917,7 +30957,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "pro-monitors",
@@ -31210,7 +31251,8 @@
       "studio-subwoofers",
       "small-room-monitors",
       "hs8-vs-rokit-7"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-interfaces",
@@ -31511,7 +31553,8 @@
       "scarlett-vs-ssl",
       "scarlett-vs-volt",
       "apollo-vs-babyface"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-guitars",
@@ -31816,7 +31859,8 @@
       "american-pro-vs-les-paul",
       "player-strat-vs-pacifica",
       "best-electric-under-500"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-basses",
@@ -32117,7 +32161,8 @@
           "val2": "$2,199"
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "pro-synths",
@@ -32426,7 +32471,8 @@
       "best-keyboard",
       "nord-stage-4-vs-montage-m8x",
       "best-digital-pianos"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-drum-machines",
@@ -32763,7 +32809,8 @@
       "best-grooveboxes",
       "digitakt-ii-vs-tr8s",
       "beat-making"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-plugins",
@@ -33082,7 +33129,8 @@
       "vocal-plugins",
       "channel-strip-plugins",
       "fabfilter-vs-ozone"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-keyboards",
@@ -33439,7 +33487,8 @@
       "best-digital-pianos",
       "best-synthesizers",
       "nord-stage-4-vs-montage-m8x"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-live-sound",
@@ -33777,7 +33826,8 @@
       "active-vs-passive-pa",
       "zlx-vs-k12",
       "dxr-vs-prx"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-mixers",
@@ -34121,7 +34171,8 @@
       "best-compact-mixers",
       "xr18-vs-m32r",
       "xr18-vs-cq18t"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "pro-daw",
@@ -34461,7 +34512,8 @@
       "ableton-vs-fl-studio",
       "pro-tools-vs-cubase",
       "ableton-vs-logic"
-    ]
+    ],
+    "verdictSideBySide": true
   },
   {
     "id": "beat-making",
@@ -35236,7 +35288,8 @@
         "Studio Recording",
         "Music Gear"
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "best-instrument-mics",
@@ -36584,7 +36637,8 @@
           ]
         }
       ]
-    }
+    },
+    "verdictSideBySide": true
   },
   {
     "id": "best-live-subwoofers",

@@ -1819,6 +1819,10 @@ footer ul li a:hover { color: var(--accent); }
     padding-left: 0;
     padding-top: 12px;
   }
+  .verdict-pros-cons {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }
 
 /* Guide Conclusion */
