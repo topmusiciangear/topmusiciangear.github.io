@@ -171,6 +171,22 @@
         {
           "title": "KRK Rokit 7 G5",
           "title_es": "KRK Rokit 7 G5"
+        },
+        {
+          "title": "SSL 2+ MKII",
+          "title_es": "SSL 2+ MKII"
+        },
+        {
+          "title": "Rode NT1 5th Generation",
+          "title_es": "Rode NT1 5ta Generación"
+        },
+        {
+          "title": "Sony MDR-7506",
+          "title_es": "Sony MDR-7506"
+        },
+        {
+          "title": "Yamaha HS8",
+          "title_es": "Yamaha HS8"
         }
       ],
       "rows": [
@@ -193,6 +209,22 @@
             {
               "value": "Punchy rock & hip-hop mixing",
               "value_es": "Mezcla con punch para rock y hip-hop"
+            },
+            {
+              "value": "British console character & MIDI",
+              "value_es": "Carácter de consola británica y MIDI"
+            },
+            {
+              "value": "Cleanest studio vocals",
+              "value_es": "Las voces de estudio más limpias"
+            },
+            {
+              "value": "Budget broadcast tracking",
+              "value_es": "Grabación económica de broadcast"
+            },
+            {
+              "value": "Honest reference mixing",
+              "value_es": "Mezcla de referencia honesta"
             }
           ]
         },
@@ -207,6 +239,22 @@
             {
               "value": "Dynamic microphone",
               "value_es": "Micrófono dinámico"
+            },
+            {
+              "value": "Closed-back",
+              "value_es": "Cerrados"
+            },
+            {
+              "value": "2-way powered",
+              "value_es": "Biamplificado de 2 vías"
+            },
+            {
+              "value": "Audio interface",
+              "value_es": "Interfaz de audio"
+            },
+            {
+              "value": "Condenser (LDC)",
+              "value_es": "Micrófono condensador (LDC)"
             },
             {
               "value": "Closed-back",
@@ -237,6 +285,22 @@
             {
               "value": "$269",
               "value_es": "$269"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
             }
           ]
         }
@@ -435,6 +499,18 @@
         {
           "title": "RME Babyface Pro FS",
           "title_es": "RME Babyface Pro FS"
+        },
+        {
+          "title": "Audient iD14 MkII",
+          "title_es": "Audient iD14 MkII"
+        },
+        {
+          "title": "MOTU M2",
+          "title_es": "MOTU M2"
+        },
+        {
+          "title": "Universal Audio Volt 2",
+          "title_es": "Universal Audio Volt 2"
         }
       ],
       "rows": [
@@ -457,6 +533,18 @@
             {
               "value": "Pro mobile recording",
               "value_es": "Grabación móvil profesional"
+            },
+            {
+              "value": "Console-style preamps on a budget",
+              "value_es": "Preamps estilo consola a buen precio"
+            },
+            {
+              "value": "Best value metering & conversion",
+              "value_es": "Mejor medición y conversión por su precio"
+            },
+            {
+              "value": "Analog character on a budget",
+              "value_es": "Carácter analógico a buen precio"
             }
           ]
         },
@@ -464,6 +552,18 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
+            {
+              "value": "Audio interface",
+              "value_es": "Interfaz de audio"
+            },
+            {
+              "value": "Audio interface",
+              "value_es": "Interfaz de audio"
+            },
+            {
+              "value": "Audio interface",
+              "value_es": "Interfaz de audio"
+            },
             {
               "value": "Audio interface",
               "value_es": "Interfaz de audio"
@@ -501,6 +601,18 @@
             {
               "value": "4-in / 4-out (12 total)",
               "value_es": "4 entradas / 4 salidas (12 en total)"
+            },
+            {
+              "value": "2-in / 2-out (+ ADAT)",
+              "value_es": "2 entradas / 2 salidas (+ ADAT)"
+            },
+            {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
+            },
+            {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
             }
           ]
         },
@@ -523,6 +635,18 @@
             {
               "value": "2, +65 dB",
               "value_es": "2, +65 dB"
+            },
+            {
+              "value": "2, 58 dB gain",
+              "value_es": "2, 58 dB de ganancia"
+            },
+            {
+              "value": "2, 60 dB gain",
+              "value_es": "2, 60 dB de ganancia"
+            },
+            {
+              "value": "2, 55 dB gain",
+              "value_es": "2, 55 dB de ganancia"
             }
           ]
         },
@@ -537,6 +661,18 @@
             {
               "value": "192 kHz",
               "value_es": "192 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "96 kHz",
+              "value_es": "96 kHz"
             },
             {
               "value": "192 kHz",
@@ -567,6 +703,18 @@
             {
               "value": "24-bit",
               "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
             }
           ]
         },
@@ -589,6 +737,18 @@
             {
               "value": "USB 2.0",
               "value_es": "USB 2.0"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
             }
           ]
         },
@@ -611,6 +771,18 @@
             {
               "value": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
               "value_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT"
+            },
+            {
+              "value": "ScrollControl, JFET DI, ADAT expandable",
+              "value_es": "ScrollControl, DI JFET, ADAT ampliable"
+            },
+            {
+              "value": "Full-color LCD, ESS Sabre32 DAC, loopback, MIDI",
+              "value_es": "LCD a color, DAC ESS Sabre32, loopback, MIDI"
+            },
+            {
+              "value": "Vintage Preamp mode, MIDI I/O, direct monitoring",
+              "value_es": "Modo Vintage Preamp, MIDI I/O, monitoreo directo"
             }
           ]
         },
@@ -633,6 +805,18 @@
             {
               "value": "$949",
               "value_es": "$949"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$189",
+              "value_es": "$189"
             }
           ]
         }
@@ -823,6 +1007,14 @@
         {
           "title": "Sony MDR-7506",
           "title_es": "Sony MDR-7506"
+        },
+        {
+          "title": "Beyerdynamic DT 990 Pro",
+          "title_es": "Beyerdynamic DT 990 Pro"
+        },
+        {
+          "title": "AKG K371",
+          "title_es": "AKG K371"
         }
       ],
       "rows": [
@@ -845,6 +1037,14 @@
             {
               "value": "Classic budget tracking",
               "value_es": "Grabación económica clásica"
+            },
+            {
+              "value": "Open-back mixing & mastering",
+              "value_es": "Mezcla y mastering en abiertos"
+            },
+            {
+              "value": "Accurate closed-back under $200",
+              "value_es": "Cerrados precisos por menos de $200"
             }
           ]
         },
@@ -863,6 +1063,14 @@
             {
               "value": "Closed-back",
               "value_es": "Cerrados"
+            },
+            {
+              "value": "Closed-back",
+              "value_es": "Cerrados"
+            },
+            {
+              "value": "Open-back",
+              "value_es": "Abiertos"
             },
             {
               "value": "Closed-back",
@@ -889,6 +1097,14 @@
             {
               "value": "40mm",
               "value_es": "40mm"
+            },
+            {
+              "value": "45mm",
+              "value_es": "45mm"
+            },
+            {
+              "value": "50mm",
+              "value_es": "50mm"
             }
           ]
         },
@@ -911,6 +1127,14 @@
             {
               "value": "63 Ω",
               "value_es": "63 Ω"
+            },
+            {
+              "value": "250 Ω",
+              "value_es": "250 Ω"
+            },
+            {
+              "value": "32 Ω",
+              "value_es": "32 Ω"
             }
           ]
         },
@@ -933,6 +1157,14 @@
             {
               "value": "106 dB",
               "value_es": "106 dB"
+            },
+            {
+              "value": "96 dB",
+              "value_es": "96 dB"
+            },
+            {
+              "value": "114 dB",
+              "value_es": "114 dB"
             }
           ]
         },
@@ -955,6 +1187,14 @@
             {
               "value": "10 Hz – 20 kHz",
               "value_es": "10 Hz – 20 kHz"
+            },
+            {
+              "value": "5 Hz – 35 kHz",
+              "value_es": "5 Hz – 35 kHz"
+            },
+            {
+              "value": "5 Hz – 40 kHz",
+              "value_es": "5 Hz – 40 kHz"
             }
           ]
         },
@@ -977,6 +1217,14 @@
             {
               "value": "3 m coiled, fixed",
               "value_es": "3 m enrollado, fijo"
+            },
+            {
+              "value": "3 m coiled, fixed",
+              "value_es": "3 m enrollado, fijo"
+            },
+            {
+              "value": "Detachable (3 included)",
+              "value_es": "Desmontable (3 incluidos)"
             }
           ]
         },
@@ -999,6 +1247,14 @@
             {
               "value": "230 g",
               "value_es": "230 g"
+            },
+            {
+              "value": "250 g",
+              "value_es": "250 g"
+            },
+            {
+              "value": "255 g",
+              "value_es": "255 g"
             }
           ]
         },
@@ -1021,6 +1277,14 @@
             {
               "value": "$99",
               "value_es": "$99"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$155",
+              "value_es": "$155"
             }
           ]
         }
