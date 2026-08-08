@@ -36674,11 +36674,15 @@
         ],
         "cons": [
           "700W and 129 dB run out of headroom on very loud stages",
-          "Conventional horn throws farther for big stages"
+          "Conventional horn throws farther for big stages",
+          "64 Hz low end means it cannot do full-range main duty without a sub",
+          "On very wide stages the 90° x 90° pattern reaches less far than the RCF horn"
         ],
         "cons_es": [
           "700W y 129 dB se quedan cortos en escenarios muy ruidosos",
-          "La bocina convencional proyecta más lejos en escenarios grandes"
+          "La bocina convencional proyecta más lejos en escenarios grandes",
+          "Con 64 Hz de límite grave, no cubre frecuencias completas de main sin un sub",
+          "En escenarios muy anchos, su patrón de 90° x 90° llega menos lejos que la bocina de la RCF"
         ]
       },
       {
@@ -36698,11 +36702,15 @@
         ],
         "cons": [
           "$1699, nearly double the price of the EV",
-          "20 kg per box, heavier to carry"
+          "20 kg per box, heavier to carry",
+          "At 20 kg each, a pair plus stands and cables is a real load",
+          "Its 50 Hz bottom end still calls for a sub on full-band gigs"
         ],
         "cons_es": [
           "$1699, casi el doble de precio que la EV",
-          "20 kg por caja, más pesada de cargar"
+          "20 kg por caja, más pesada de cargar",
+          "A 20 kg por caja, un par con trípodes y cables es una carga real",
+          "Sus 50 Hz de límite grave aún piden un sub en conciertos de banda completa"
         ]
       }
     ],
@@ -37037,11 +37045,15 @@
         ],
         "cons": [
           "$1999 is the second-highest price here",
-          "47 kg with casters, still heavy to lift alone"
+          "47 kg with casters, still heavy to lift alone",
+          "Cardioid mode needs a second KS118, doubling the investment to nearly $4000",
+          "Response tops out at 111 Hz, so the tops must carry everything above sub-bass"
         ],
         "cons_es": [
           "$1999 es el segundo precio más alto de la lista",
-          "47 kg con ruedas, sigue pesando para levantarla solo"
+          "47 kg con ruedas, sigue pesando para levantarla solo",
+          "El modo cardioide necesita una segunda KS118, duplicando la inversión a casi $4000",
+          "La respuesta llega solo hasta 111 Hz, así que los tops deben encargarse de todo lo que esté por encima del sub-bajo"
         ]
       },
       {
@@ -37063,11 +37075,15 @@
         ],
         "cons": [
           "$3599 is the highest price in this guide",
-          "Convection cooling means it needs room to breathe"
+          "Convection cooling means it needs room to breathe",
+          "56 kg is the heaviest box in the guide to load out",
+          "Its $3599 premium only pays off on the loudest stages; most bands will not use that headroom"
         ],
         "cons_es": [
           "$3599 es el precio más alto de esta guía",
-          "La refrigeración por convección necesita espacio para respirar"
+          "La refrigeración por convección necesita espacio para respirar",
+          "56 kg es la caja más pesada de la lista para cargar",
+          "Su prima de $3599 solo se justifica en escenarios muy ruidosos; la mayoría de las bandas no usará ese margen"
         ]
       },
       {
@@ -37089,11 +37105,15 @@
         ],
         "cons": [
           "132 dB is the lowest SPL in this group",
-          "Single-amp design with no cardioid mode"
+          "Single-amp design with no cardioid mode",
+          "Response starts at 40 Hz, the shallowest low end of the five subs",
+          "1200W is the smallest amplifier in the group"
         ],
         "cons_es": [
           "132 dB es el SPL más bajo de este grupo",
-          "Diseño de un solo amplificador sin modo cardioide"
+          "Diseño de un solo amplificador sin modo cardioide",
+          "La respuesta baja solo hasta 40 Hz, el extremo grave menos profundo de los cinco subs",
+          "1200W es el amplificador más pequeño del grupo"
         ]
       },
       {
@@ -37113,11 +37133,15 @@
         ],
         "cons": [
           "$1449 sits in the middle of the price range",
-          "Only one pole cup and no cardioid option"
+          "Only one pole cup and no cardioid option",
+          "40.7 kg still demands two people for stairs and van loading",
+          "At 134 dB it trails the 136 dB boxes by 2 dB of peak output"
         ],
         "cons_es": [
           "$1449 queda en el medio del rango de precios",
-          "Solo un socket de mástil y sin opción cardioide"
+          "Solo un socket de mástil y sin opción cardioide",
+          "40,7 kg siguen exigiendo dos personas para escaleras y furgoneta",
+          "Con 134 dB se queda 2 dB por debajo de las cajas de 136 dB"
         ]
       },
       {
@@ -37139,11 +37163,15 @@
         ],
         "cons": [
           "Casters sold separately is a stingy move at $1699",
-          "48.9 kg is the heaviest sub here"
+          "48.9 kg is the heaviest sub here",
+          "At $1699 plus optional casters, it is the third most expensive sub here",
+          "Its 1600W amplifier is the smallest of the three 136 dB boxes"
         ],
         "cons_es": [
           "Ruedas aparte es un detalle tacaño a $1699",
-          "48,9 kg es el sub más pesado de la lista"
+          "48,9 kg es el sub más pesado de la lista",
+          "A $1699 más ruedas opcionales, es el tercer sub más caro de la lista",
+          "Su amplificador de 1600W es el más pequeño de las tres cajas de 136 dB"
         ]
       }
     ],
