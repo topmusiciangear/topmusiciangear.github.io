@@ -6406,12 +6406,14 @@
         "cons": [
           "Lacks wireless remote control",
           "Can overwhelm very small rooms at high volume",
-          "No room-correction EQ built in"
+          "No room-correction EQ built in",
+          "At $479 it costs $80 more than the Adam T10S with a similar 10-inch driver"
         ],
         "cons_es": [
           "Sin control remoto inalámbrico",
           "Puede dominar salas muy pequeñas a alto volumen",
-          "Sin EQ de corrección de sala incorporado"
+          "Sin EQ de corrección de sala incorporado",
+          "A $479 cuesta $80 más que la Adam T10S con un driver de 10 pulgadas similar"
         ]
       },
       {
@@ -6432,12 +6434,14 @@
         "cons": [
           "8-inch driver limits max output",
           "Not ideal for very large rooms",
-          "Rear-facing controls less convenient"
+          "Rear-facing controls less convenient",
+          "At $499 it is the most expensive sub here despite having the smallest driver"
         ],
         "cons_es": [
           "Driver de 8 pulgadas limita la salida máxima",
           "No ideal para salas muy grandes",
-          "Controles traseros menos cómodos"
+          "Controles traseros menos cómodos",
+          "A $499 es el sub más caro de la lista a pesar de tener el driver más pequeño"
         ]
       },
       {
@@ -6458,12 +6462,14 @@
         "cons": [
           "Lower max SPL than 12-inch subs",
           "Limited to nearfield monitor duty",
-          "No auto-power standby option"
+          "No auto-power standby option",
+          "Reaches only 28 Hz, the shallowest low end of the three subs"
         ],
         "cons_es": [
           "SPL máximo menor que subs de 12 pulgadas",
           "Limitado a monitores de campo cercano",
-          "Sin opción de standby automático"
+          "Sin opción de standby automático",
+          "Llega solo hasta 28 Hz, el extremo grave menos profundo de los tres subs"
         ]
       }
     ],
@@ -25339,12 +25345,14 @@
         "cons": [
           "Less versatile as standalone drive",
           "Can sound thin on some setups",
-          "Mid-hump not ideal for all styles"
+          "Mid-hump not ideal for all styles",
+          "Needs an already-cranked amp to shine; into a clean amp it is less effective than the BD-2"
         ],
         "cons_es": [
           "Menos versátil como overdrive independiente",
           "Puede sonar delgado en algunos equipos",
-          "Realce de medios no ideal para todos"
+          "Realce de medios no ideal para todos",
+          "Necesita un amp ya saturado para lucirse; en un amp limpio es menos efectivo que el BD-2"
         ]
       },
       {
@@ -25365,12 +25373,14 @@
         "cons": [
           "Can be fizzy at max gain",
           "Less mid presence in a band mix",
-          "Not as iconic as the TS9"
+          "Not as iconic as the TS9",
+          "Standard versions lack the low-cut switch found on later variants"
         ],
         "cons_es": [
           "Puede ser áspero a ganancia máxima",
           "Menos presencia de medios en la mezcla",
-          "No tan icónico como el TS9"
+          "No tan icónico como el TS9",
+          "Las versiones estándar carecen del interruptor low-cut de las variantes posteriores"
         ]
       }
     ],
@@ -28936,12 +28946,14 @@
         "cons": [
           "Monitor mixing is controlled through MOTU's software rather than a hardware knob — less intuitive and slower to adjust during live recording sessions with talent in the room",
           "No dedicated instrument input with impedance switching — the combo jacks accept both mic and line but lack the dedicated Hi-Z instrument input found on the Scarlett 2i2",
-          "Driver ecosystem is smaller and less proven than Focusrite's decade-old platform — while stable, there are fewer community resources and troubleshooting guides available"
+          "Driver ecosystem is smaller and less proven than Focusrite's decade-old platform — while stable, there are fewer community resources and troubleshooting guides available",
+          "No Air mode; it lacks the Scarlett's built-in high-frequency lift for instant vocal presence"
         ],
         "cons_es": [
           "La mezcla de monitor se controla a través del software de MOTU en lugar de una perilla física — menos intuitiva y más lenta de ajustar durante sesiones de grabación en vivo",
           "Sin entrada de instrumento dedicada con conmutación de impedancia — los jacks combo aceptan mic y línea pero carecen de la entrada Hi-Z de instrumento dedicada de la Scarlett 2i2",
-          "El ecosistema de drivers es más pequeño y menos probado que la plataforma de Focusrite — aunque estable, hay menos recursos comunitarios y guías disponibles"
+          "El ecosistema de drivers es más pequeño y menos probado que la plataforma de Focusrite — aunque estable, hay menos recursos comunitarios y guías disponibles",
+          "Sin modo Air; carece del realce de agudos integrado de la Scarlett para presencia vocal instantánea"
         ]
       }
     ],
@@ -29920,7 +29932,7 @@
         ],
         "cons": [
           "Lower max SPL than QSC",
-          "No Bluetooth",
+          "The ABS cabinet is fine for weekend gigs but less road-worthy than the QSC's polypropylene for constant touring",
           "Limited low-end extension",
           "Basic DSP presets only"
         ],
@@ -29933,7 +29945,7 @@
         ],
         "cons_es": [
           "SPL máximo más bajo",
-          "Sin Bluetooth",
+          "El gabinete ABS va bien para fin de semana pero aguanta menos la ruta que el polipropileno de la QSC en giras constantes",
           "Extensión de graves limitada",
           "Presets DSP básicos"
         ]
@@ -29951,7 +29963,8 @@
         "cons": [
           "Expensive at $999",
           "Heavier than competitors",
-          "No 3rd product for comparison in passive"
+          "No built-in Bluetooth; streaming background music needs a separate mixer or adapter",
+          "The $400-$500 premium over the ZLX-12P and DBR12 only pays off if you truly need 2000W and 131 dB"
         ],
         "pros_es": [
           "Estándar de la industria",
@@ -29963,7 +29976,8 @@
         "cons_es": [
           "Caro a $999",
           "Más pesado",
-          "Sin opción pasiva"
+          "Sin Bluetooth integrado; reproducir música de fondo requiere un mezclador o adaptador aparte",
+          "La prima de $400-$500 sobre la ZLX-12P y la DBR12 solo se justifica si de verdad necesitas 2000W y 131 dB"
         ]
       },
       {
@@ -31383,12 +31397,14 @@
         "cons": [
           "Horizontal MTM design can be sensitive to vertical listening position",
           "Heavier than some competitors at 26.6kg per monitor",
-          "S-ART ribbon tweeter has a different presentation than dome tweeters — some may prefer a softer top end"
+          "S-ART ribbon tweeter has a different presentation than dome tweeters — some may prefer a softer top end",
+          "At $3,999 per monitor, a stereo pair costs roughly $8,000"
         ],
         "cons_es": [
           "El diseño MTM horizontal puede ser sensible a la posición vertical de escucha",
           "Más pesado que algunos competidores con 26.6kg por monitor",
-          "El tweeter de cinta S-ART tiene una presentación diferente a los tweeter de cúpula — algunos pueden preferir agudos más suaves"
+          "El tweeter de cinta S-ART tiene una presentación diferente a los tweeter de cúpula — algunos pueden preferir agudos más suaves",
+          "A $3,999 por monitor, un par estéreo cuesta unos $8,000"
         ]
       },
       {
@@ -35486,12 +35502,14 @@
         "cons": [
           "Only 11 amp models",
           "No touchscreen or deep editing display",
-          "Looper limited to 38 seconds"
+          "Looper limited to 38 seconds",
+          "No built-in USB audio interface; recording or re-amping requires separate gear"
         ],
         "cons_es": [
           "Solo 11 modelos de amplificador",
           "Sin pantalla táctil ni edición profunda",
-          "Looper limitado a 38 segundos"
+          "Looper limitado a 38 segundos",
+          "Sin interfaz de audio USB integrada; grabar o re-amplificar requiere equipo aparte"
         ]
       },
       {
@@ -35512,12 +35530,14 @@
         "cons": [
           "Menu-heavy editing on a small touchscreen",
           "Requires AC power (no battery)",
-          "More expensive at $399"
+          "More expensive at $399",
+          "With only 3 footswitches, live preset switching is less immediate than the ME-90's 8-switch layout"
         ],
         "cons_es": [
           "Edición con muchos menús en pantalla pequeña",
           "Requiere alimentación AC (sin batería)",
-          "Más caro a $399"
+          "Más caro a $399",
+          "Con solo 3 footswitches, cambiar presets en vivo es menos inmediato que los 8 switches de la ME-90"
         ]
       }
     ],
