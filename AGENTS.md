@@ -562,15 +562,12 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 ### Work State
 - **All previous fixes applied**: mojibake, Musik Produktiv removal, products affiliate links, SPA JSON‑LD cleanup, beat‑making recreation, iZotope RX 11 update, Soundtoys 5.5 Bundle image+rating
 - **Meta description HTML injection**: fixed `stripHtml()` in `build-guides.js:210` + `js/app.js:166,677`
-- **SEO audit**: fixed duplicate `(2026)` in title, OG title missing year, OG image dimensions 600×400→1200×630, missing description field on beat‑making (was 33 chars)
-- **Year removed from all titles**: deleted `yearTag`/`yearSuffix` logic from `build-guides.js`, removed year logic from `app.js` (both places), removed `(2026)` from beat‑making title in `guides.json`
-- **Final audit fixes**: 7 Soundtoys rating mismatches in guides.json FAQ (4.8→4.5), 3 truncated ES FAQ translations (monitors Q1, plugins Q1, best‑interface Q4), price mismatches ATH‑M50X $149→$169 + Yamaha Pacifica $299→$349
-- **Price fixes this session**: Marshall DSL40CR $749→$999, Boss Katana 50 $279→$259 in `build-guides.js:271,287,288`
-- **Missing featuredSnippet added**: beat‑making (was absent), beginner‑bass‑guitars (was null), budget‑bass‑like‑expensive (was null), best‑electric‑under‑500 (was null)
-
-### Build
-- `node build-guides.js` → 232 pages generated, all ok
-- No `null` featuredSnippet remaining in `guides.json`
+- **SEO audit**: fixed duplicate `(2026)` in title, OG title missing year, OG image dimensions to 1200×630, missing description field on beat‑making
+- **Year removed from all titles**: deleted `yearTag`/`yearSuffix` logic from `build-guides.js`, removed year logic from `app.js`, removed `(2026)` from beat‑making title in `guides.json`
+- **Final audit fixes**: 7 Soundtoys rating mismatches in guides.json FAQ (4.8→4.5), 3 truncated ES FAQ translations (monitors Q1, plugins Q1, best‑interface Q4), price mismatches ATH‑M50X →$169 + Yamaha Pacifica $299→$349
+- **Price normalization session 2**: canonical = `data/products.json` (user decision): Ableton Suite $749→$799 (guides + ableton-vs-logic conclusion), Blues Junior IV $749→$699, Marshal DSL40CR $749→$999, Katana 50 $229→$259, Ableton tiers Intro $79/$149→$99/$349; 246 pages rebuilt, verified, committed as `9b41f9441`
+- **Natural-language fixes session 3**: budget-mics paragraph rewrote (removed "$20 support system" inconsistency — real prices $20–40 basic cable, Mogami $53), removed the artificial "I've spent endless hours/incontables horas" intros (best-samplers-drum-computers + best-drum-machine, EN+ES), normalized **"computadora de batería" → "caja de ritmos"** (natural Spanish already used elsewhere; title, intro, sections, digitakt-ii-vs-tr8s, products.json desc)
+- **Build this session**: `node build-guides.js` → 246 guide pages + sitemap (254 URLs) + sitemap-images (39), all ok, verified in HTML (intro/title/para gone)
 
 ### Blocked
 - (none)
