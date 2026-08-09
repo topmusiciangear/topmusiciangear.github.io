@@ -17760,6 +17760,14 @@
           "val2_es": "900 g"
         },
         {
+          "label": "Special Features",
+          "label_es": "Características Especiales",
+          "val1": "Auto Gain, Clip Safe, loopback",
+          "val1_es": "Auto Gain, Clip Safe, loopback",
+          "val2": "Legacy 4K, loopback, MIDI, DC-coupled",
+          "val2_es": "Legacy 4K, loopback, MIDI, DC-coupled"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$199",
@@ -17865,148 +17873,6 @@
       ]
     },
     "aboutName": "Audio Interfaces",
-    "productTable": {
-      "title": "Scarlett 2i2 vs SSL 2+ Compared in This Guide",
-      "title_es": "Comparativa Scarlett 2i2 vs SSL 2+ en esta Guía",
-      "columns": [
-        {
-          "title": "Focusrite Scarlett 2i2 4th Gen",
-          "title_es": "Focusrite Scarlett 2i2 4th Gen"
-        },
-        {
-          "title": "SSL 2+ MKII",
-          "title_es": "SSL 2+ MKII"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Best all-around entry interface",
-              "value_es": "La mejor interfaz de entrada versátil"
-            },
-            {
-              "value": "High-headroom recording & MIDI",
-              "value_es": "Grabación con alto margen y MIDI"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            }
-          ]
-        },
-        {
-          "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
-          "values": [
-            {
-              "value": "2-in / 2-out",
-              "value_es": "2 entradas / 2 salidas"
-            },
-            {
-              "value": "2-in / 4-out",
-              "value_es": "2 entradas / 4 salidas"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "2, +69 dB gain",
-              "value_es": "2, +69 dB de ganancia"
-            },
-            {
-              "value": "2, 64 dB gain",
-              "value_es": "2, 64 dB de ganancia"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "values": [
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "values": [
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            },
-            {
-              "value": "32-bit float",
-              "value_es": "32 bits flotante"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            }
-          ]
-        },
-        {
-          "label": "Special Features",
-          "label_es": "Características Especiales",
-          "values": [
-            {
-              "value": "Auto Gain, Clip Safe, loopback",
-              "value_es": "Auto Gain, Clip Safe, loopback"
-            },
-            {
-              "value": "Legacy 4K, loopback, MIDI, DC-coupled",
-              "value_es": "Legacy 4K, loopback, MIDI, DC-coupled"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$299",
-              "value_es": "$299"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -18341,148 +18207,6 @@
       ]
     },
     "aboutName": "Headphones",
-    "productTable": {
-      "title": "DT 770 Pro vs DT 990 Pro Compared in This Guide",
-      "title_es": "Comparativa DT 770 Pro vs DT 990 Pro en esta Guía",
-      "columns": [
-        {
-          "title": "Beyerdynamic DT 770 Pro",
-          "title_es": "Beyerdynamic DT 770 Pro"
-        },
-        {
-          "title": "Beyerdynamic DT 990 Pro",
-          "title_es": "Beyerdynamic DT 990 Pro"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Studio tracking & isolation",
-              "value_es": "Grabación de estudio y aislamiento"
-            },
-            {
-              "value": "Open-back mixing",
-              "value_es": "Mezcla con audífonos abiertos"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            },
-            {
-              "value": "Open-back",
-              "value_es": "Abiertos"
-            }
-          ]
-        },
-        {
-          "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
-          "values": [
-            {
-              "value": "45mm",
-              "value_es": "45mm"
-            },
-            {
-              "value": "45mm",
-              "value_es": "45mm"
-            }
-          ]
-        },
-        {
-          "label": "Impedance",
-          "label_es": "Impedancia",
-          "values": [
-            {
-              "value": "250 Ω",
-              "value_es": "250 Ω"
-            },
-            {
-              "value": "250 Ω",
-              "value_es": "250 Ω"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "96 dB",
-              "value_es": "96 dB"
-            },
-            {
-              "value": "96 dB",
-              "value_es": "96 dB"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "5 Hz – 35 kHz",
-              "value_es": "5 Hz – 35 kHz"
-            },
-            {
-              "value": "5 Hz – 35 kHz",
-              "value_es": "5 Hz – 35 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Cable",
-          "label_es": "Cable",
-          "values": [
-            {
-              "value": "3 m coiled, fixed",
-              "value_es": "3 m enrollado, fijo"
-            },
-            {
-              "value": "3 m coiled, fixed",
-              "value_es": "3 m enrollado, fijo"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "270 g",
-              "value_es": "270 g"
-            },
-            {
-              "value": "250 g",
-              "value_es": "250 g"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$159",
-              "value_es": "$159"
-            },
-            {
-              "value": "$169",
-              "value_es": "$169"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -18721,6 +18445,14 @@
           "val2_es": "16.5 lbs / 7.5 kg"
         },
         {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "val1": "9.8 x 15.4 x 13.1 in",
+          "val1_es": "25 x 39 x 33.2 cm",
+          "val2": "13.35 x 8.86 x 11.42 in",
+          "val2_es": "33.9 x 22.5 x 29 cm"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$798",
@@ -18819,148 +18551,6 @@
       ]
     },
     "aboutName": "Studio Monitors",
-    "productTable": {
-      "title": "Yamaha HS8 vs KRK Rokit 7 Compared in This Guide",
-      "title_es": "Comparativa Yamaha HS8 vs KRK Rokit 7 en esta Guía",
-      "columns": [
-        {
-          "title": "Yamaha HS8",
-          "title_es": "Yamaha HS8"
-        },
-        {
-          "title": "KRK Rokit 7 G5",
-          "title_es": "KRK Rokit 7 G5"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Flat reference mixing",
-              "value_es": "Mezcla de referencia plana"
-            },
-            {
-              "value": "Punchy rock & hip-hop mixing",
-              "value_es": "Mezcla con punch para rock y hip-hop"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            }
-          ]
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "values": [
-            {
-              "value": "8\"",
-              "value_es": "8\""
-            },
-            {
-              "value": "7\" Kevlar",
-              "value_es": "7\" de Kevlar"
-            }
-          ]
-        },
-        {
-          "label": "Tweeter",
-          "label_es": "Tweeter",
-          "values": [
-            {
-              "value": "1\" dome",
-              "value_es": "1\" de cúpula"
-            },
-            {
-              "value": "1\" silk dome",
-              "value_es": "1\" de cúpula de seda"
-            }
-          ]
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "values": [
-            {
-              "value": "120W (75W + 45W)",
-              "value_es": "120W (75W + 45W)"
-            },
-            {
-              "value": "145W RMS (234W peak)",
-              "value_es": "145W RMS (234W pico)"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "38 Hz – 30 kHz (-10 dB)",
-              "value_es": "38 Hz – 30 kHz (-10 dB)"
-            },
-            {
-              "value": "45 Hz – 36 kHz",
-              "value_es": "45 Hz – 36 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "N/A",
-              "value_es": "N/D"
-            },
-            {
-              "value": "110 dB",
-              "value_es": "110 dB"
-            }
-          ]
-        },
-        {
-          "label": "Dimensions",
-          "label_es": "Dimensiones",
-          "values": [
-            {
-              "value": "9.8 x 15.4 x 13.1 in",
-              "value_es": "25 x 39 x 33.2 cm"
-            },
-            {
-              "value": "13.35 x 8.86 x 11.42 in",
-              "value_es": "33.9 x 22.5 x 29 cm"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$399",
-              "value_es": "$399"
-            },
-            {
-              "value": "$269",
-              "value_es": "$269"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -19295,148 +18885,6 @@
       ]
     },
     "aboutName": "Headphones",
-    "productTable": {
-      "title": "ATH-M50x vs MDR-7506 Compared in This Guide",
-      "title_es": "Comparativa ATH-M50x vs MDR-7506 en esta Guía",
-      "columns": [
-        {
-          "title": "Audio-Technica ATH-M50x",
-          "title_es": "Audio-Technica ATH-M50x"
-        },
-        {
-          "title": "Sony MDR-7506",
-          "title_es": "Sony MDR-7506"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Portable production & tracking",
-              "value_es": "Producción portátil y grabación"
-            },
-            {
-              "value": "Classic budget tracking",
-              "value_es": "Grabación económica clásica"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            },
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            }
-          ]
-        },
-        {
-          "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
-          "values": [
-            {
-              "value": "45mm",
-              "value_es": "45mm"
-            },
-            {
-              "value": "40mm",
-              "value_es": "40mm"
-            }
-          ]
-        },
-        {
-          "label": "Impedance",
-          "label_es": "Impedancia",
-          "values": [
-            {
-              "value": "38 Ω",
-              "value_es": "38 Ω"
-            },
-            {
-              "value": "63 Ω",
-              "value_es": "63 Ω"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "99 dB",
-              "value_es": "99 dB"
-            },
-            {
-              "value": "106 dB",
-              "value_es": "106 dB"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "15 Hz – 28 kHz",
-              "value_es": "15 Hz – 28 kHz"
-            },
-            {
-              "value": "10 Hz – 20 kHz",
-              "value_es": "10 Hz – 20 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Cable",
-          "label_es": "Cable",
-          "values": [
-            {
-              "value": "Detachable (3 included)",
-              "value_es": "Desmontable (3 incluidos)"
-            },
-            {
-              "value": "3 m coiled, fixed",
-              "value_es": "3 m enrollado, fijo"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "285 g",
-              "value_es": "285 g"
-            },
-            {
-              "value": "230 g",
-              "value_es": "230 g"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$169",
-              "value_es": "$169"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -21123,6 +20571,14 @@
           "val2_es": "1.5 lbs"
         },
         {
+          "label": "Special Features",
+          "label_es": "Características Especiales",
+          "val1": "DUO DSP, UAD plugins",
+          "val1_es": "DUO DSP, plugins UAD",
+          "val2": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
+          "val2_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$899",
@@ -21227,148 +20683,6 @@
       ]
     },
     "aboutName": "Audio Interfaces",
-    "productTable": {
-      "title": "Apollo Twin X vs Babyface Pro Compared in This Guide",
-      "title_es": "Comparativa Apollo Twin X vs Babyface Pro en esta Guía",
-      "columns": [
-        {
-          "title": "Universal Audio Apollo Twin X",
-          "title_es": "Universal Audio Apollo Twin X"
-        },
-        {
-          "title": "RME Babyface Pro FS",
-          "title_es": "RME Babyface Pro FS"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Pro UAD plugin tracking",
-              "value_es": "Grabación profesional con plugins UAD"
-            },
-            {
-              "value": "Pro mobile recording",
-              "value_es": "Grabación móvil profesional"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            }
-          ]
-        },
-        {
-          "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
-          "values": [
-            {
-              "value": "10-in / 6-out",
-              "value_es": "10 entradas / 6 salidas"
-            },
-            {
-              "value": "4-in / 4-out (12 total)",
-              "value_es": "4 entradas / 4 salidas (12 en total)"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "2 Unison",
-              "value_es": "2 Unison"
-            },
-            {
-              "value": "2, +65 dB",
-              "value_es": "2, +65 dB"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "values": [
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "values": [
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            },
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "Thunderbolt 3",
-              "value_es": "Thunderbolt 3"
-            },
-            {
-              "value": "USB 2.0",
-              "value_es": "USB 2.0"
-            }
-          ]
-        },
-        {
-          "label": "Special Features",
-          "label_es": "Características Especiales",
-          "values": [
-            {
-              "value": "DUO DSP, UAD plugins",
-              "value_es": "DUO DSP, plugins UAD"
-            },
-            {
-              "value": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
-              "value_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$899",
-              "value_es": "$899"
-            },
-            {
-              "value": "$949",
-              "value_es": "$949"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -21616,6 +20930,14 @@
           "val2_es": "Sí"
         },
         {
+          "label": "Special Features",
+          "label_es": "Características Especiales",
+          "val1": "Auto Gain, Clip Safe, loopback",
+          "val1_es": "Auto Gain, Clip Safe, loopback",
+          "val2": "Vintage Preamp mode, MIDI",
+          "val2_es": "Modo Vintage Preamp, MIDI"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$199",
@@ -21721,148 +21043,6 @@
       ]
     },
     "aboutName": "Audio Interfaces",
-    "productTable": {
-      "title": "Scarlett 2i2 vs Volt 2 Compared in This Guide",
-      "title_es": "Comparativa Scarlett 2i2 vs Volt 2 en esta Guía",
-      "columns": [
-        {
-          "title": "Focusrite Scarlett 2i2 4th Gen",
-          "title_es": "Focusrite Scarlett 2i2 4th Gen"
-        },
-        {
-          "title": "Universal Audio Volt 2",
-          "title_es": "Universal Audio Volt 2"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Best all-around entry interface",
-              "value_es": "La mejor interfaz de entrada versátil"
-            },
-            {
-              "value": "Vintage-toned home recording",
-              "value_es": "Grabación casera con tono vintage"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            }
-          ]
-        },
-        {
-          "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
-          "values": [
-            {
-              "value": "2-in / 2-out",
-              "value_es": "2 entradas / 2 salidas"
-            },
-            {
-              "value": "2-in / 2-out",
-              "value_es": "2 entradas / 2 salidas"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "2, +69 dB gain",
-              "value_es": "2, +69 dB de ganancia"
-            },
-            {
-              "value": "2, Vintage 610 mode",
-              "value_es": "2, modo Vintage 610"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "values": [
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "values": [
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            },
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            }
-          ]
-        },
-        {
-          "label": "Special Features",
-          "label_es": "Características Especiales",
-          "values": [
-            {
-              "value": "Auto Gain, Clip Safe, loopback",
-              "value_es": "Auto Gain, Clip Safe, loopback"
-            },
-            {
-              "value": "Vintage Preamp mode, MIDI",
-              "value_es": "Modo Vintage Preamp, MIDI"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$189",
-              "value_es": "$189"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -22110,6 +21290,14 @@
           "val2_es": "Sí"
         },
         {
+          "label": "Special Features",
+          "label_es": "Características Especiales",
+          "val1": "ScrollControl, MIDI, ADAT expandable",
+          "val1_es": "ScrollControl, MIDI, ADAT expandible",
+          "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
+          "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$299",
@@ -22215,148 +21403,6 @@
       ]
     },
     "aboutName": "Audio Interfaces",
-    "productTable": {
-      "title": "Audient iD14 vs MOTU M2 Compared in This Guide",
-      "title_es": "Comparativa Audient iD14 vs MOTU M2 en esta Guía",
-      "columns": [
-        {
-          "title": "Audient iD14 MkII",
-          "title_es": "Audient iD14 MkII"
-        },
-        {
-          "title": "MOTU M2",
-          "title_es": "MOTU M2"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Console-style preamps on a budget",
-              "value_es": "Preamplificadores estilo consola a buen precio"
-            },
-            {
-              "value": "Best budget pro I/O",
-              "value_es": "El mejor I/O profesional económico"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            }
-          ]
-        },
-        {
-          "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
-          "values": [
-            {
-              "value": "2-in / 2-out (+ ADAT)",
-              "value_es": "2 entradas / 2 salidas (+ ADAT)"
-            },
-            {
-              "value": "2-in / 2-out (+ RCA)",
-              "value_es": "2 entradas / 2 salidas (+ RCA)"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "2 console-grade",
-              "value_es": "2 de grado consola"
-            },
-            {
-              "value": "2, +60 dB",
-              "value_es": "2, +60 dB"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "values": [
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "values": [
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            },
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            }
-          ]
-        },
-        {
-          "label": "Special Features",
-          "label_es": "Características Especiales",
-          "values": [
-            {
-              "value": "ScrollControl, MIDI, ADAT expandable",
-              "value_es": "ScrollControl, MIDI, ADAT expandible"
-            },
-            {
-              "value": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
-              "value_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$299",
-              "value_es": "$299"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -22612,6 +21658,14 @@
           "val2_es": "1.35 lbs / 0.61 kg"
         },
         {
+          "label": "Special Features",
+          "label_es": "Características Especiales",
+          "val1": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
+          "val1_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
+          "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
+          "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$949",
@@ -22716,148 +21770,6 @@
       ]
     },
     "aboutName": "Audio Interfaces",
-    "productTable": {
-      "title": "RME Babyface Pro vs MOTU M2 Compared in This Guide",
-      "title_es": "Comparativa RME Babyface Pro vs MOTU M2 en esta Guía",
-      "columns": [
-        {
-          "title": "RME Babyface Pro FS",
-          "title_es": "RME Babyface Pro FS"
-        },
-        {
-          "title": "MOTU M2",
-          "title_es": "MOTU M2"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Pro mobile recording",
-              "value_es": "Grabación móvil profesional"
-            },
-            {
-              "value": "Best budget pro I/O",
-              "value_es": "El mejor I/O profesional económico"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            }
-          ]
-        },
-        {
-          "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
-          "values": [
-            {
-              "value": "4-in / 4-out (12 total)",
-              "value_es": "4 entradas / 4 salidas (12 en total)"
-            },
-            {
-              "value": "2-in / 2-out (+ RCA)",
-              "value_es": "2 entradas / 2 salidas (+ RCA)"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "2, +65 dB",
-              "value_es": "2, +65 dB"
-            },
-            {
-              "value": "2, +60 dB",
-              "value_es": "2, +60 dB"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "values": [
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "values": [
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            },
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "USB 2.0",
-              "value_es": "USB 2.0"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            }
-          ]
-        },
-        {
-          "label": "Special Features",
-          "label_es": "Características Especiales",
-          "values": [
-            {
-              "value": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
-              "value_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT"
-            },
-            {
-              "value": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
-              "value_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$949",
-              "value_es": "$949"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -23083,6 +21995,14 @@
           "val2_es": "20.7 lbs / 9.4 kg"
         },
         {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "val1": "13.3 x 7.9 x 10.4 in",
+          "val1_es": "33.8 x 20 x 26.4 cm",
+          "val2": "12.4 x 7.9 x 11.8 in",
+          "val2_es": "31.5 x 20 x 30 cm"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$799",
@@ -23188,148 +22108,6 @@
       ]
     },
     "aboutName": "Studio Monitors",
-    "productTable": {
-      "title": "Adam A7V vs Genelec 8040B Compared in This Guide",
-      "title_es": "Comparativa Adam A7V vs Genelec 8040B en esta Guía",
-      "columns": [
-        {
-          "title": "Adam Audio A7V",
-          "title_es": "Adam Audio A7V"
-        },
-        {
-          "title": "Genelec 8040B",
-          "title_es": "Genelec 8040B"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Detailed pro nearfield mixing",
-              "value_es": "Mezcla profesional de campo cercano detallada"
-            },
-            {
-              "value": "Pro studio reference",
-              "value_es": "Referencia profesional de estudio"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            }
-          ]
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "values": [
-            {
-              "value": "7\" MLM",
-              "value_es": "7\" MLM"
-            },
-            {
-              "value": "6.5\"",
-              "value_es": "6.5\""
-            }
-          ]
-        },
-        {
-          "label": "Tweeter",
-          "label_es": "Tweeter",
-          "values": [
-            {
-              "value": "X-ART ribbon",
-              "value_es": "Cinta X-ART"
-            },
-            {
-              "value": "0.75\"",
-              "value_es": "0.75\""
-            }
-          ]
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "values": [
-            {
-              "value": "130W peak",
-              "value_es": "130W pico"
-            },
-            {
-              "value": "90W (60W + 30W)",
-              "value_es": "90W (60W + 30W)"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "44 Hz – 41 kHz",
-              "value_es": "44 Hz – 41 kHz"
-            },
-            {
-              "value": "48 Hz – 20 kHz",
-              "value_es": "48 Hz – 20 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "105 dB",
-              "value_es": "105 dB"
-            },
-            {
-              "value": "104 dB",
-              "value_es": "104 dB"
-            }
-          ]
-        },
-        {
-          "label": "Dimensions",
-          "label_es": "Dimensiones",
-          "values": [
-            {
-              "value": "13.3 x 7.9 x 10.4 in",
-              "value_es": "33.8 x 20 x 26.4 cm"
-            },
-            {
-              "value": "12.4 x 7.9 x 11.8 in",
-              "value_es": "31.5 x 20 x 30 cm"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$799",
-              "value_es": "$799"
-            },
-            {
-              "value": "$1,198",
-              "value_es": "$1,198"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -23555,6 +22333,14 @@
           "val2_es": "15.5 lbs / 7.05 kg"
         },
         {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "val1": "11.7 x 7.3 x 9.1 in",
+          "val1_es": "29.7 x 18.5 x 23.1 cm",
+          "val2": "14.1 x 8.75 x 10.25 in",
+          "val2_es": "35.8 x 22.2 x 26 cm"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$149",
@@ -23660,148 +22446,6 @@
       ]
     },
     "aboutName": "Studio Monitors",
-    "productTable": {
-      "title": "JBL 305P MkII vs Kali LP-6 V2 Compared in This Guide",
-      "title_es": "Comparativa JBL 305P MkII vs Kali LP-6 V2 en esta Guía",
-      "columns": [
-        {
-          "title": "JBL 305P MkII",
-          "title_es": "JBL 305P MkII"
-        },
-        {
-          "title": "Kali Audio LP-6 V2",
-          "title_es": "Kali Audio LP-6 V2"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Compact nearfield mixing",
-              "value_es": "Mezcla de campo cercano compacta"
-            },
-            {
-              "value": "Accurate budget monitoring",
-              "value_es": "Monitoreo económico y preciso"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            }
-          ]
-        },
-        {
-          "label": "Woofer",
-          "label_es": "Woofer",
-          "values": [
-            {
-              "value": "5\"",
-              "value_es": "5\""
-            },
-            {
-              "value": "6.5\"",
-              "value_es": "6.5\""
-            }
-          ]
-        },
-        {
-          "label": "Tweeter",
-          "label_es": "Tweeter",
-          "values": [
-            {
-              "value": "1\"",
-              "value_es": "1\""
-            },
-            {
-              "value": "1\"",
-              "value_es": "1\""
-            }
-          ]
-        },
-        {
-          "label": "Power",
-          "label_es": "Potencia",
-          "values": [
-            {
-              "value": "82W (41W + 41W)",
-              "value_es": "82W (41W + 41W)"
-            },
-            {
-              "value": "80W (40W + 40W)",
-              "value_es": "80W (40W + 40W)"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "49 Hz – 20 kHz (±3 dB)",
-              "value_es": "49 Hz – 20 kHz (±3 dB)"
-            },
-            {
-              "value": "47 Hz – 21 kHz (±3 dB)",
-              "value_es": "47 Hz – 21 kHz (±3 dB)"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "108 dB",
-              "value_es": "108 dB"
-            },
-            {
-              "value": "115 dB",
-              "value_es": "115 dB"
-            }
-          ]
-        },
-        {
-          "label": "Dimensions",
-          "label_es": "Dimensiones",
-          "values": [
-            {
-              "value": "11.7 x 7.3 x 9.1 in",
-              "value_es": "29.7 x 18.5 x 23.1 cm"
-            },
-            {
-              "value": "14.1 x 8.75 x 10.25 in",
-              "value_es": "35.8 x 22.2 x 26 cm"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$149",
-              "value_es": "$149"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -24138,148 +22782,6 @@
       ]
     },
     "aboutName": "Headphones",
-    "productTable": {
-      "title": "HD 600 vs DT 990 Pro Compared in This Guide",
-      "title_es": "Comparativa HD 600 vs DT 990 Pro en esta Guía",
-      "columns": [
-        {
-          "title": "Sennheiser HD 600",
-          "title_es": "Sennheiser HD 600"
-        },
-        {
-          "title": "Beyerdynamic DT 990 Pro",
-          "title_es": "Beyerdynamic DT 990 Pro"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Reference neutral listening",
-              "value_es": "Escucha neutra de referencia"
-            },
-            {
-              "value": "Open-back mixing",
-              "value_es": "Mezcla con audífonos abiertos"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Open-back",
-              "value_es": "Abiertos"
-            },
-            {
-              "value": "Open-back",
-              "value_es": "Abiertos"
-            }
-          ]
-        },
-        {
-          "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
-          "values": [
-            {
-              "value": "42mm",
-              "value_es": "42mm"
-            },
-            {
-              "value": "45mm",
-              "value_es": "45mm"
-            }
-          ]
-        },
-        {
-          "label": "Impedance",
-          "label_es": "Impedancia",
-          "values": [
-            {
-              "value": "300 Ω",
-              "value_es": "300 Ω"
-            },
-            {
-              "value": "250 Ω",
-              "value_es": "250 Ω"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "97 dB",
-              "value_es": "97 dB"
-            },
-            {
-              "value": "96 dB",
-              "value_es": "96 dB"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "12 Hz – 40.5 kHz",
-              "value_es": "12 Hz – 40.5 kHz"
-            },
-            {
-              "value": "5 Hz – 35 kHz",
-              "value_es": "5 Hz – 35 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Cable",
-          "label_es": "Cable",
-          "values": [
-            {
-              "value": "3 m straight, detachable",
-              "value_es": "3 m recto, desmontable"
-            },
-            {
-              "value": "3 m coiled, fixed",
-              "value_es": "3 m enrollado, fijo"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "260 g",
-              "value_es": "260 g"
-            },
-            {
-              "value": "250 g",
-              "value_es": "250 g"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$399",
-              "value_es": "$399"
-            },
-            {
-              "value": "$169",
-              "value_es": "$169"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -24616,148 +23118,6 @@
       ]
     },
     "aboutName": "Headphones",
-    "productTable": {
-      "title": "ATH-M50x vs DT 770 Pro Compared in This Guide",
-      "title_es": "Comparativa ATH-M50x vs DT 770 Pro en esta Guía",
-      "columns": [
-        {
-          "title": "Audio-Technica ATH-M50x",
-          "title_es": "Audio-Technica ATH-M50x"
-        },
-        {
-          "title": "Beyerdynamic DT 770 Pro",
-          "title_es": "Beyerdynamic DT 770 Pro"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Portable production & tracking",
-              "value_es": "Producción portátil y grabación"
-            },
-            {
-              "value": "Studio tracking & isolation",
-              "value_es": "Grabación de estudio y aislamiento"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            },
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            }
-          ]
-        },
-        {
-          "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
-          "values": [
-            {
-              "value": "45mm",
-              "value_es": "45mm"
-            },
-            {
-              "value": "45mm",
-              "value_es": "45mm"
-            }
-          ]
-        },
-        {
-          "label": "Impedance",
-          "label_es": "Impedancia",
-          "values": [
-            {
-              "value": "38 Ω",
-              "value_es": "38 Ω"
-            },
-            {
-              "value": "250 Ω",
-              "value_es": "250 Ω"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "99 dB",
-              "value_es": "99 dB"
-            },
-            {
-              "value": "96 dB",
-              "value_es": "96 dB"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "15 Hz – 28 kHz",
-              "value_es": "15 Hz – 28 kHz"
-            },
-            {
-              "value": "5 Hz – 35 kHz",
-              "value_es": "5 Hz – 35 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Cable",
-          "label_es": "Cable",
-          "values": [
-            {
-              "value": "Detachable (3 included)",
-              "value_es": "Desmontable (3 incluidos)"
-            },
-            {
-              "value": "3 m coiled, fixed",
-              "value_es": "3 m enrollado, fijo"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "285 g",
-              "value_es": "285 g"
-            },
-            {
-              "value": "270 g",
-              "value_es": "270 g"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$169",
-              "value_es": "$169"
-            },
-            {
-              "value": "$159",
-              "value_es": "$159"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -25086,148 +23446,6 @@
       ]
     },
     "aboutName": "Headphones",
-    "productTable": {
-      "title": "AKG K371 vs MDR-7506 Compared in This Guide",
-      "title_es": "Comparativa AKG K371 vs MDR-7506 en esta Guía",
-      "columns": [
-        {
-          "title": "AKG K371",
-          "title_es": "AKG K371"
-        },
-        {
-          "title": "Sony MDR-7506",
-          "title_es": "Sony MDR-7506"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Neutral closed-back mixing",
-              "value_es": "Mezcla neutra con audífonos cerrados"
-            },
-            {
-              "value": "Classic budget tracking",
-              "value_es": "Grabación económica clásica"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            },
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            }
-          ]
-        },
-        {
-          "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
-          "values": [
-            {
-              "value": "50mm",
-              "value_es": "50mm"
-            },
-            {
-              "value": "40mm",
-              "value_es": "40mm"
-            }
-          ]
-        },
-        {
-          "label": "Impedance",
-          "label_es": "Impedancia",
-          "values": [
-            {
-              "value": "32 Ω",
-              "value_es": "32 Ω"
-            },
-            {
-              "value": "63 Ω",
-              "value_es": "63 Ω"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "114 dB SPL/V",
-              "value_es": "114 dB SPL/V"
-            },
-            {
-              "value": "106 dB",
-              "value_es": "106 dB"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "5 Hz – 40 kHz",
-              "value_es": "5 Hz – 40 kHz"
-            },
-            {
-              "value": "10 Hz – 20 kHz",
-              "value_es": "10 Hz – 20 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Cable",
-          "label_es": "Cable",
-          "values": [
-            {
-              "value": "3 m detachable",
-              "value_es": "3 m desmontable"
-            },
-            {
-              "value": "3 m coiled, fixed",
-              "value_es": "3 m enrollado, fijo"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "255 g",
-              "value_es": "255 g"
-            },
-            {
-              "value": "230 g",
-              "value_es": "230 g"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$155",
-              "value_es": "$155"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -41320,6 +39538,22 @@
           "val2_es": "4.2 lbs"
         },
         {
+          "label": "Sound Engine",
+          "label_es": "Motor de Sonido",
+          "val1": "ACB (808, 909, 707, 727, 606), FM, samples",
+          "val1_es": "ACB (808, 909, 707, 727, 606), FM, samples",
+          "val2": "Sample-based with 6 SRC + 5 filter machines",
+          "val2_es": "Basado en samples con 6 máquinas SRC + 5 filtros"
+        },
+        {
+          "label": "Effects",
+          "label_es": "Efectos",
+          "val1": "Inst FX, reverb, delay, master FX, sidechain",
+          "val1_es": "Inst FX, reverb, delay, master FX, sidechain",
+          "val2": "Delay, reverb, chorus, bit/SR reduction, drive",
+          "val2_es": "Delay, reverb, chorus, bit/SR reduction, drive"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$999",
@@ -41391,176 +39625,6 @@
         ]
       }
     ],
-    "productTable": {
-      "title": "Digitakt II vs TR-8S at a Glance",
-      "title_es": "Digitakt II vs TR-8S de un Vistazo",
-      "columns": [
-        {
-          "title": "Roland TR-8S",
-          "title_es": "Roland TR-8S"
-        },
-        {
-          "title": "Elektron Digitakt II",
-          "title_es": "Elektron Digitakt II"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Classic Roland sounds & hands-on performance",
-              "value_es": "Sonidos Roland clásicos y performance práctica"
-            },
-            {
-              "value": "Deep sampling & complex sequencing",
-              "value_es": "Sampling profundo y secuenciación compleja"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Rhythm performer",
-              "value_es": "Performer de ritmo"
-            },
-            {
-              "value": "16-track drum computer & stereo sampler",
-              "value_es": "Drum computer de 16 pistas y sampler estéreo"
-            }
-          ]
-        },
-        {
-          "label": "Sound Engine",
-          "label_es": "Motor de Sonido",
-          "values": [
-            {
-              "value": "ACB (808, 909, 707, 727, 606), FM, samples",
-              "value_es": "ACB (808, 909, 707, 727, 606), FM, samples"
-            },
-            {
-              "value": "Sample-based with 6 SRC + 5 filter machines",
-              "value_es": "Basado en samples con 6 máquinas SRC + 5 filtros"
-            }
-          ]
-        },
-        {
-          "label": "Tracks",
-          "label_es": "Pistas",
-          "values": [
-            {
-              "value": "11 instrument parts + trigger out",
-              "value_es": "11 partes de instrumento + trigger out"
-            },
-            {
-              "value": "16 audio or MIDI tracks, 32 voices",
-              "value_es": "16 pistas de audio o MIDI, 32 voces"
-            }
-          ]
-        },
-        {
-          "label": "Sample Memory",
-          "label_es": "Memoria de Samples",
-          "values": [
-            {
-              "value": "SD card, ~600 s user samples",
-              "value_es": "Tarjeta SD, ~600 s de samples"
-            },
-            {
-              "value": "400 MB RAM (35 min stereo), 20 GB +Drive",
-              "value_es": "400 MB RAM (35 min estéreo), 20 GB +Drive"
-            }
-          ]
-        },
-        {
-          "label": "Sequencer",
-          "label_es": "Secuenciador",
-          "values": [
-            {
-              "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
-              "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
-            },
-            {
-              "value": "128-step Elektron, euclidean, song mode",
-              "value_es": "128 pasos Elektron, euclidiano, modo canción"
-            }
-          ]
-        },
-        {
-          "label": "Effects",
-          "label_es": "Efectos",
-          "values": [
-            {
-              "value": "Inst FX, reverb, delay, master FX, sidechain",
-              "value_es": "Inst FX, reverb, delay, master FX, sidechain"
-            },
-            {
-              "value": "Delay, reverb, chorus, bit/SR reduction, drive",
-              "value_es": "Delay, reverb, chorus, bit/SR reduction, drive"
-            }
-          ]
-        },
-        {
-          "label": "Audio Outputs",
-          "label_es": "Salidas de Audio",
-          "values": [
-            {
-              "value": "Mix out + 6 assignable/trigger outs",
-              "value_es": "Salida mix + 6 salidas asignables/trigger"
-            },
-            {
-              "value": "2x TRS main out + headphone",
-              "value_es": "2x TRS salida principal + headphones"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "MIDI in/out, USB audio/MIDI, ext in",
-              "value_es": "MIDI in/out, USB audio/MIDI, ext in"
-            },
-            {
-              "value": "MIDI in/out/thru, DIN sync, USB 2.0",
-              "value_es": "MIDI in/out/thru, DIN sync, USB 2.0"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "2.1 kg (4 lb 11 oz)",
-              "value_es": "2,1 kg (4 lb 11 oz)"
-            },
-            {
-              "value": "1.48 kg (3.25 lb)",
-              "value_es": "1,48 kg (3,25 lb)"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$749",
-              "value_es": "$749"
-            },
-            {
-              "value": "$999",
-              "value_es": "$999"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true
   },
   {
@@ -43819,6 +41883,14 @@
           "val2_es": "Todo metal"
         },
         {
+          "label": "Special Features",
+          "label_es": "Características Especiales",
+          "val1": "Auto Gain, Clip Safe, loopback",
+          "val1_es": "Auto Gain, Clip Safe, loopback",
+          "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
+          "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$199",
@@ -43862,148 +41934,6 @@
       ]
     },
     "aboutName": "Audio Interfaces",
-    "productTable": {
-      "title": "Scarlett 2i2 vs MOTU M2 Compared in This Guide",
-      "title_es": "Comparativa Scarlett 2i2 vs MOTU M2 en esta Guía",
-      "columns": [
-        {
-          "title": "Focusrite Scarlett 2i2 4th Gen",
-          "title_es": "Focusrite Scarlett 2i2 4th Gen"
-        },
-        {
-          "title": "MOTU M2",
-          "title_es": "MOTU M2"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "Best all-around entry interface",
-              "value_es": "La mejor interfaz de entrada versátil"
-            },
-            {
-              "value": "Best budget pro I/O",
-              "value_es": "El mejor I/O profesional económico"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            }
-          ]
-        },
-        {
-          "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
-          "values": [
-            {
-              "value": "2-in / 2-out",
-              "value_es": "2 entradas / 2 salidas"
-            },
-            {
-              "value": "2-in / 2-out (+ RCA)",
-              "value_es": "2 entradas / 2 salidas (+ RCA)"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "2, +69 dB gain",
-              "value_es": "2, +69 dB de ganancia"
-            },
-            {
-              "value": "2, +60 dB",
-              "value_es": "2, +60 dB"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
-          "values": [
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
-          "values": [
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            },
-            {
-              "value": "24-bit",
-              "value_es": "24 bits"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            }
-          ]
-        },
-        {
-          "label": "Special Features",
-          "label_es": "Características Especiales",
-          "values": [
-            {
-              "value": "Auto Gain, Clip Safe, loopback",
-              "value_es": "Auto Gain, Clip Safe, loopback"
-            },
-            {
-              "value": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
-              "value_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": false
   },
   {
@@ -47430,6 +45360,22 @@
           "val2_es": "Soporte, filtro pop, control remoto, estuche militar, cable XLR"
         },
         {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "val1": "The studio standard vocal",
+          "val1_es": "La voz estándar de estudio",
+          "val2": "Tube/FET all-in-one studio",
+          "val2_es": "Estudio todo-en-uno tubo/FET"
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "val1": "28 mV/Pa (cardioid)",
+          "val1_es": "28 mV/Pa (cardioide)",
+          "val2": "17.2 mV/Pa (–35.3 dBV/Pa)",
+          "val2_es": "17.2 mV/Pa (–35.3 dBV/Pa)"
+        },
+        {
           "label": "Price",
           "label_es": "Precio",
           "val1": "$3,599",
@@ -47445,134 +45391,6 @@
       "best-microphone",
       "sm57-vs-sm58"
     ],
-    "productTable": {
-      "title": "Pro Condenser Mics Compared in This Guide",
-      "title_es": "Comparativa de Micros Condensadores Pro en esta Guía",
-      "columns": [
-        {
-          "title": "Neumann U 87 Ai",
-          "title_es": "Neumann U 87 Ai"
-        },
-        {
-          "title": "Lewitt LCT 1040",
-          "title_es": "Lewitt LCT 1040"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Best For",
-          "label_es": "Ideal Para",
-          "values": [
-            {
-              "value": "The studio standard vocal",
-              "value_es": "La voz estándar de estudio"
-            },
-            {
-              "value": "Tube/FET all-in-one studio",
-              "value_es": "Estudio todo-en-uno tubo/FET"
-            }
-          ]
-        },
-        {
-          "label": "Type",
-          "label_es": "Tipo",
-          "values": [
-            {
-              "value": "Condenser (LDC, FET)",
-              "value_es": "Condensador (LDC, FET)"
-            },
-            {
-              "value": "Condenser (LDC, Tube + FET)",
-              "value_es": "Condensador (LDC, tubo + FET)"
-            }
-          ]
-        },
-        {
-          "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
-          "values": [
-            {
-              "value": "Omni / Cardioid / Fig-8",
-              "value_es": "Omni / Cardioide / Fig-8"
-            },
-            {
-              "value": "Continuously variable",
-              "value_es": "Continuamente variable"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
-          "values": [
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "Useful ~20 Hz – 20 kHz",
-              "value_es": "Útil ~20 Hz – 20 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "28 mV/Pa (cardioid)",
-              "value_es": "28 mV/Pa (cardioide)"
-            },
-            {
-              "value": "17.2 mV/Pa (–35.3 dBV/Pa)",
-              "value_es": "17.2 mV/Pa (–35.3 dBV/Pa)"
-            }
-          ]
-        },
-        {
-          "label": "Self-Noise",
-          "label_es": "Ruido Propio",
-          "values": [
-            {
-              "value": "12 dB-A (cardioid)",
-              "value_es": "12 dB-A (cardioide)"
-            },
-            {
-              "value": "10 dB(A) FET / 13 dB(A) tube",
-              "value_es": "10 dB(A) FET / 13 dB(A) tubo"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "117 dB (127 w/ pad)",
-              "value_es": "117 dB (127 c/ pad)"
-            },
-            {
-              "value": "137 dB (161 w/ pad)",
-              "value_es": "137 dB (161 c/ pad)"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$3,599",
-              "value_es": "$3,599"
-            },
-            {
-              "value": "$3,499",
-              "value_es": "$3,499"
-            }
-          ]
-        }
-      ]
-    },
     "verdictSideBySide": true,
     "author": {
       "@type": "Person",
