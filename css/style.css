@@ -1722,12 +1722,12 @@ footer ul li a:hover { color: var(--accent); }
   min-width: 0;
 }
 
-.verdict-col:first-child {
+.verdict-col:nth-child(odd) {
   padding-right: 20px;
   border-right: 1px solid rgba(59,130,246,.15);
 }
 
-.verdict-col:last-child {
+.verdict-col:nth-child(even) {
   padding-left: 20px;
 }
 
@@ -1809,15 +1809,17 @@ footer ul li a:hover { color: var(--accent); }
   .guide-verdict-grid {
     grid-template-columns: 1fr;
   }
-  .verdict-col:first-child {
+  .verdict-col:nth-child(odd),
+  .verdict-col:nth-child(even) {
     padding-right: 0;
-    padding-bottom: 14px;
+    padding-left: 0;
     border-right: none;
+    padding-bottom: 14px;
     border-bottom: 1px solid rgba(59,130,246,.15);
   }
   .verdict-col:last-child {
-    padding-left: 0;
-    padding-top: 12px;
+    padding-bottom: 0;
+    border-bottom: none;
   }
   .verdict-pros-cons {
     grid-template-columns: 1fr;
