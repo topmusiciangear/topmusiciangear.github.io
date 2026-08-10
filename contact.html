@@ -58,6 +58,8 @@
     .social-links-contact { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
     .social-links-contact a { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 14px; font-weight: 600; color: var(--text-secondary); text-decoration: none; transition: var(--transition); }
     .social-links-contact a:hover { border-color: var(--store-color, var(--accent)); color: var(--white); text-decoration: none; transform: translateY(-2px); }
+    .social-links-contact img { opacity: .55; filter: brightness(0) invert(1); transition: opacity .2s; }
+    .social-links-contact a:hover img { opacity: 1; filter: brightness(0) invert(1); }
     @media (max-width: 600px) { .legal-page { padding: 60px 16px 40px; } .contact-grid { grid-template-columns: 1fr !important; } .social-links-contact { justify-content: center; } .social-links-contact a { flex: 1 1 100%; justify-content: center; } }
     .lang-show-es { display: none; }
     html[lang="es"] .lang-show-es { display: block; }
