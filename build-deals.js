@@ -146,12 +146,12 @@ const buildPage = (lang) => {
   };
 
   const stores = [
-    { name: 'Plugin Boutique', url: 'https://www.pluginboutique.com/?a_aid=6a01e859cbe1a' },
-    { name: 'Gear4Music', url: 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111' },
+    { name: 'Plugin Boutique', url: 'https://www.pluginboutique.com/deals?a_aid=6a01e859cbe1a' },
+    { name: 'Gear4Music', url: 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent('https://www.gear4music.com/us/en/Top-Deals') },
     { name: 'Amazon', url: 'https://www.amazon.com/?tag=topmusicg-20' },
-    { name: 'Reverb', url: 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111' },
-    { name: 'Andertons', url: 'https://www.andertons.co.uk/?irgwc=1&irpid=7292297' },
-    { name: 'Music Store', url: 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111' }
+    { name: 'Reverb', url: 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/outlet') },
+    { name: 'Andertons', url: 'https://www.andertons.co.uk/browse/offers/?irgwc=1&irpid=7292297' },
+    { name: 'Music Store', url: 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent('https://www.musicstore.com/en_GB/GBP/Bargains/cat-Retouren') }
   ];
 
   return `<!DOCTYPE html>
