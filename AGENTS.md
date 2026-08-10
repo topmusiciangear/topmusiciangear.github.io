@@ -616,15 +616,17 @@ En cada guía que se toque o cree, SIEMPRE:
 5. **Corregir errores factuales** detectados durante la verificación (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
 6. Rebuild + verificar EN/ES + commit + push.
 
-## 🎯 Ofertas (deals.html) — flujo bot por sesión
+## 🎯 Ofertas (deals.html / deals_es.html) — AUTOMÁTICO (cron)
 
-La página de Ofertas se genera desde `data/deals.json` ejecutando `node build-deals.js`. NO se auto-actualiza en tiempo real; el bot la mantiene por sesión.
+La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
+- **`auto-deals.js`**: aprende precios reales de Andertons (JSON-LD `Product.offers.price`) para los 147 productos con link de Andertons en `data/products.json`. Mantiene historial en `data/price-history.json` (baseline = primera visita). Cuando el precio baja ≥5% del `normal`, crea la oferta (`price` real, `old_price` = precio normal anterior, badge "Save £X/Ahorra £X"); cuando vuelve a precio normal, la **elimina automáticamente**. Después corre `build-deals.js` y genera `deals.html` (EN) + `deals_es.html` (ES).
+- **`.github/workflows/auto-deals.yml`**: cron 4×/día (UTC 1,7,13,19 + `workflow_dispatch`). Corre `node auto-deals.js`, commitea y pushea los cambios con el token `GITHUB_TOKEN`. El push dispara el purge de Cloudflare (`purge-cache.yml`).
+- **`data/manual-deals.json`**: ofertas verificadas a mano por el bot en sesión (búsqueda web real en las tiendas). Se fusionan en cada corrida y NO se sobrescriben. Para añadir/quitar una oferta manual, editar este archivo y correr `node auto-deals.js` (o esperar el cron).
 
-**Cómo actualizar ofertas:**
-1. Revisar precios reales actuales en las tiendas (Gear4Music, Music Store, Andertons, Amazon, Reverb, Plugin Boutique).
-2. Editar `data/deals.json`: agregar productos con descuento real (campos: `title`, `title_es`, `price`, `old_price` con precio base real o `null`, `store`, `store_url`, `img`, `badge_en`/`badge_es` opcionales, `desc`, `desc_es`, `date_added`).
-3. **Eliminar del JSON los productos que ya no están en oferta** (volvieron a precio normal) para que salgan de la página.
-4. **NUNCA inventar precios ni descuentos** — solo usar precios verificados vistos en las tiendas. Si no hay descuento real, `price` = precio real y `old_price: null` o directamente no incluir el producto.
-5. Correr `node build-deals.js` para regenerar `deals.html`.
-6. Verificar: header completo + `bg-hero` (fondo) + botón azul `guide-back-btn` + cuadrícula de ofertas + iconos de las 6 tiendas.
-7. Commit + push.
+**Reglas (NO QUEBRANTAR):**
+- `auto-deals.js` NUNCA inventa precios: solo lee lo que devuelve la tienda (Andertons JSON-LD). Las rebajas detectadas son caídas reales de precio observadas en el tiempo. La primera corrida no genera ofertas auto (baseline = precio actual); las detecta en corridas siguientes.
+- Las tiendas que dan 403 a bots (Sweetwater, Gear4Music, Music Store, Reverb, B&H) NO se scrapean; si un día Andertons da 403, el bot conserva `data/deals.json` anterior (el workflow usa `git add -A` solo si hay cambios reales).
+- `data/manual-deals.json` solo con precios verificados reales vistos en las tiendas (regla del sitio: nunca inventar precios/descuentos).
+- `data/price-history.json` es la memoria del bot; se versiona en el repo para que el historial persista entre corridas.
+
+**Chequeo manual:** `node auto-deals.js` → verifica en `deals.html`/`deals_es.html`: header completo + `bg-hero` + botón azul `guide-back-btn` + cuadrícula + precio original tachado (`text-decoration: line-through`) + iconos de las 6 tiendas + hreflang/canonical por idioma.

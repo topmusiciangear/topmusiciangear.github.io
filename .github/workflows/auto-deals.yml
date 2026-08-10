@@ -1,0 +1,45 @@
+name: Auto Update Deals
+
+on:
+  schedule:
+    # Run 4x/day. UTC; site audience EN + ES (US/EU), this covers both mornings.
+    - cron: '17 1,7,13,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-deals
+  cancel-in-progress: false
+
+jobs:
+  auto-deals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check live prices and update deals
+        run: node auto-deals.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "tmg-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "deals: auto refresh live prices [skip ci]"
+            git push origin main
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
