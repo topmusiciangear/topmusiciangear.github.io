@@ -15,108 +15,156 @@
   <meta property="og:description" content="Daily music gear deals and discounts on guitars, microphones, interfaces, headphones, monitors and plugins.">
   <meta property="og:url" content="https://topmusiciangear.com/deals.html">
   <meta property="og:image" content="https://topmusiciangear.com/img/favicon.png">
-  <meta property="og:image:width" content="512">
-  <meta property="og:image:height" content="512">
   <meta property="og:site_name" content="TopMusicianGear">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Today's Music Gear Deals — TopMusicianGear">
-  <meta name="twitter:description" content="Daily music gear deals and discounts on guitars, microphones, interfaces, headphones, monitors and plugins.">
-  <meta name="twitter:image" content="https://topmusiciangear.com/img/favicon.png">
+  <meta name="twitter:description" content="Daily music gear deals and discounts.">
   <meta name="twitter:site" content="@Cuban3Beats">
-  <meta name="twitter:creator" content="@Cuban3Beats">
   <link rel="icon" type="image/png" href="img/favicon.png?v=2">
   <link rel="stylesheet" href="css/style.css?v=28">
   <style>
-    .legal-page { max-width: 900px; margin: 0 auto; padding: 80px 32px 64px; }
-    .legal-page h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 900; color: var(--white); margin-bottom: 8px; letter-spacing: -.5px; }
-    .legal-page .updated { color: var(--text-muted); font-size: 14px; margin-bottom: 40px; }
-    .legal-page p, .legal-page li { color: var(--text-secondary); font-size: 15px; line-height: 1.8; margin-bottom: 12px; }
-    .legal-page a { color: var(--accent); text-decoration: none; }
-    .legal-page a:hover { text-decoration: underline; }
-    .deals-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 32px; margin-bottom: 24px; }
-    .deals-card h2 { font-size: 18px; font-weight: 700; color: var(--white); margin-bottom: 12px; }
-    .deals-card p { color: var(--text-secondary); font-size: 14px; margin-bottom: 16px; }
-    .deals-telegram { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: rgba(0,136,204,0.1); border: 1px solid rgba(0,136,204,0.25); color: #0088cc; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; transition: var(--transition); }
-    .deals-telegram:hover { background: rgba(0,136,204,0.2); border-color: rgba(0,136,204,0.4); text-decoration: none; }
-    .deals-stores { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
-    .deals-store { display: flex; align-items: center; gap: 10px; padding: 14px 18px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text-secondary); font-size: 14px; font-weight: 700; text-decoration: none; transition: var(--transition); }
-    .deals-store:hover { border-color: var(--store-color, var(--accent)); color: var(--white); transform: translateY(-2px); }
-    .back-home { display: inline-flex; align-items: center; gap: 6px; margin-top: 32px; color: var(--text-muted); font-size: 14px; text-decoration: none; }
-    .back-home:hover { color: var(--accent); }
-    @media (max-width: 600px) { .legal-page { padding: 60px 16px 40px; } .deals-stores { grid-template-columns: 1fr; } }
     .lang-show-es { display: none; }
     html[lang="es"] .lang-show-es { display: block; }
     html[lang="es"] .lang-show-en { display: none; }
+    body { background: var(--bg); }
+    .deals-page { max-width: 1100px; margin: 0 auto; padding: 40px 32px 64px; }
+    .deals-page h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 900; color: var(--white); margin-bottom: 8px; letter-spacing: -.5px; }
+    .deals-page .updated { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
+    .back-row { margin: 16px 0 8px; }
+    .deals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin-top: 24px; }
+    .deal-card { padding: 20px; }
+    .deal-card-top { display: flex; gap: 16px; align-items: flex-start; }
+    .deal-img { flex-shrink: 0; width: 140px; height: 140px; border-radius: var(--radius); overflow: hidden; background: var(--bg-card); }
+    .deal-img img { width: 100%; height: 100%; object-fit: cover; }
+    .deal-body h2 { font-size: 16px; font-weight: 700; color: var(--white); margin: 0 0 8px; }
+    .deal-body p { color: var(--text-secondary); font-size: 13px; margin: 0 0 12px; line-height: 1.6; }
+    .deal-badge-row { margin-bottom: 8px; }
+    .deal-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; background: rgba(59,130,246,.15); border: 1px solid rgba(59,130,246,.4); color: var(--accent); font-size: 11px; font-weight: 700; }
+    .deal-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
+    .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
+    .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; }
+    .deals-store-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s; }
+    .deals-store-btn:hover { background: #2563eb; color: #fff; }
+    .deals-stores { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+    .deals-store { display: flex; align-items: center; gap: 10px; padding: 14px 18px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text-secondary); font-size: 14px; font-weight: 700; text-decoration: none; transition: var(--transition); }
+    .deals-store:hover { border-color: var(--store-color, var(--accent)); color: var(--white); transform: translateY(-2px); }
+    .deals-store img { width: 20px; height: 20px; flex-shrink: 0; }
+    .deals-store svg { flex-shrink: 0; }
+    .deals-telegram { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: rgba(0,136,204,0.1); border: 1px solid rgba(0,136,204,0.25); color: #0088cc; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; transition: var(--transition); }
+    .deals-telegram:hover { background: rgba(0,136,204,0.2); border-color: rgba(0,136,204,0.4); text-decoration: none; }
+    @media (max-width: 600px) { .deals-page { padding: 32px 16px 40px; } .deals-grid { grid-template-columns: 1fr; } .deal-card-top { flex-direction: column; } .deal-img { width: 100%; height: auto; } .deals-stores { grid-template-columns: 1fr; } }
   </style>
 </head>
-<body style="background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased;">
+<body style="margin:0;padding:0;">
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <div class="bg-hero"></div>
 
-  <header>
-    <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
       <div class="header-left">
         <a href="/" class="logo">
-          <span class="logo-icon"><img src="img/favicon.png?v=2" alt="TopMusicianGear" style="width:36px;height:36px;border-radius:8px"></span>
+          <span class="logo-icon"><img src="img/favicon.png?v=2" alt="TMG" style="width:36px;height:36px;border-radius:8px"></span>
           <div class="logo-text">
             <span>Top</span>MusicianGear
           </div>
         </a>
         <nav aria-label="Main navigation">
-          <a href="/#guides" class="nav-link">Guides</a>
-          <a href="/#mysetup" class="nav-link">My Setup</a>
-          <a href="/#about" class="nav-link">About Me</a>
+          <a href="/#guides" class="nav-link"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+          <a href="/deals.html" class="nav-link"><span class="lang-show-en">Deals</span><span class="lang-show-es">Ofertas</span></a>
+          <a href="/#mysetup" class="nav-link"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
+          <a href="/#about" class="nav-link"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
         </nav>
       </div>
-      <div class="header-right">
-        <div class="lang-switcher">
-          <button class="lang-btn active" onclick="setLang('en')"><img src="https://flagcdn.com/32x24/gb.png" width="16" height="12" alt="English" style="vertical-align:middle"></button>
-          <button class="lang-btn" onclick="setLang('es')"><img src="https://flagcdn.com/32x24/es.png" width="16" height="12" alt="Español" style="vertical-align:middle"></button>
+      <div class="audio-mini" id="audioMini">
+        <div class="audio-mini-inner">
+          <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+          <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+          <span class="audio-mini-label">Cuban Tres, Bass &amp; Guitar - played and recorded with my personal gear</span>
         </div>
+      </div>
+      <div class="header-right">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
+        <div class="header-social">
+          <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Youtube"><svg class="icon fa-brands" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+          <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Spotify"><svg class="icon fa-brands" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg></a>
+          <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Tiktok"><svg class="icon fa-brands" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
+          <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Facebook"><svg class="icon fa-brands" viewBox="0 0 320 512" width="1em" height="1em" fill="currentColor"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+          <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Instagram"><svg class="icon fa-brands" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+          <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="X"><svg class="icon fa-brands" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
+          <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
+          <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram"><svg class="icon fa-brands" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
+          <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
+        </div>
+        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
+        </div>
+        <div class="lang-switcher">
+          <button class="lang-btn" title="English" onclick="setLang('en')"><img class="lang-flag" src="img/flag-en.svg" alt="EN" width="20" height="15"></button>
+          <button class="lang-btn" title="Español" onclick="setLang('es')"><img class="lang-flag" src="img/flag-es.svg" alt="ES" width="20" height="15"></button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
   </header>
 
-  <main id="mainContent" class="legal-page">
-    <a onclick="history.back();return false" href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
+  <div class="mobile-nav" id="mobileNav">
+    <a class="nav-link" href="/#guides"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+    <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span><span class="lang-show-es">Ofertas</span></a>
+    <a class="nav-link" href="/#mysetup"><span class="lang-show-en">My Setup</span><span class="lang-show-es">Mi Equipo</span></a>
+    <a class="nav-link" href="/#about"><span class="lang-show-en">About Me</span><span class="lang-show-es">Sobre Mí</span></a>
+  </div>
 
-    <h1 class="lang-show-en">Today's Music Gear Deals 🎯</h1>
-    <h1 class="lang-show-es">Ofertas de Hoy en Equipo Musical 🎯</h1>
-    <p class="updated lang-show-en">Hand-picked daily discounts on the gear real musicians use.</p>
-    <p class="updated lang-show-es">Descuentos diarios seleccionados en el equipo que usan los músicos de verdad.</p>
 
-    <div class="deals-card">
-      <h2 class="lang-show-en">Get Daily Deals on Telegram</h2>
-      <h2 class="lang-show-es">Ofertas Diarias en Telegram</h2>
-      <p class="lang-show-en">We post new gear deals every 12 hours on our free Telegram channel. Deals, price drops and coupon codes — no spam, ever.</p>
-      <p class="lang-show-es">Publicamos ofertas nuevas cada 12 horas en nuestro canal gratuito de Telegram. Ofertas, bajadas de precio y códigos de descuento — sin spam, nunca.</p>
-      <a class="deals-telegram" href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer">
-        <svg viewBox="0 0 496 512" width="20" height="20" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg>
-        <span class="lang-show-en">Join the Telegram channel</span><span class="lang-show-es">Únete al canal de Telegram</span>
-      </a>
-    </div>
+  <main id="mainContent">
+    <div class="deals-page">
+      <div class="back-row">
+        <a href="/" class="guide-back-btn"><svg class="icon fa-solid" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
+      </div>
 
-    <div class="deals-card">
-      <h2 class="lang-show-en">Shop These Trusted Stores</h2>
-      <h2 class="lang-show-es">Compra en Estas Tiendas de Confianza</h2>
-      <p class="lang-show-en">We compare prices across the most trusted music gear retailers. When you buy through our links, we may earn a commission at no extra cost to you.</p>
-      <p class="lang-show-es">Comparamos precios en las tiendas de equipo musical más confiables. Si compras a través de nuestros enlaces, podemos ganar una comisión sin coste extra para ti.</p>
-      <div class="deals-stores">
-        <a href="https://www.pluginboutique.com/?a_aid=6a01e859cbe1a" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#6366f1">
-          <img src="img/pluginboutique-icon.png" alt="Plugin Boutique" width="24" height="24"> Plugin Boutique
+      <h1 class="lang-show-en">Today's Music Gear Deals 🎯</h1>
+      <h1 class="lang-show-es">Ofertas de Hoy en Equipo Musical 🎯</h1>
+      <p class="updated lang-show-en">Hand-picked daily discounts on the gear real musicians use.</p>
+      <p class="updated lang-show-es">Descuentos diarios seleccionados en el equipo que usan los músicos de verdad.</p>
+
+      <div class="deals-card">
+        <h2 class="lang-show-en" style="margin-bottom:12px;">Get Daily Deals on Telegram</h2>
+        <h2 class="lang-show-es" style="margin-bottom:12px;">Ofertas Diarias en Telegram</h2>
+        <p class="lang-show-en" style="margin-bottom:16px;">We post new gear deals every 12 hours on our free Telegram channel. Deals, price drops and coupon codes — no spam, ever.</p>
+        <p class="lang-show-es" style="margin-bottom:16px;">Publicamos ofertas nuevas cada 12 horas en nuestro canal gratuito de Telegram. Ofertas, bajadas de precio y códigos de descuento — sin spam, nunca.</p>
+        <a class="deals-telegram" href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer">
+          <svg class="icon fa-brands" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg>
+          <span class="lang-show-en">Join the Telegram channel</span><span class="lang-show-es">Únete al canal de Telegram</span>
         </a>
-        <a href="https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#8b5cf6">
-          <img src="img/gear4music-icon.png" alt="Gear4Music" width="24" height="24"> Gear4Music
-        </a>
-        <a href="https://www.amazon.com/?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#ff9900">Amazon</a>
-        <a href="https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#d6562b">Reverb</a>
-        <a href="https://www.andertons.co.uk/?irgwc=1&irpid=7292297" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#000000">Andertons</a>
-        <a href="https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#1a3a5c">Music Store</a>
+      </div>
+
+      <div class="deals-grid">
+        
+  <div class="deals-card deal-card">
+    
+    <div class="deal-card-top">
+      <a class="deal-img" href="https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored"><img src="https://media.sweetwater.com/m/products/image/6d2c512a92Rov0eryrfK2jdkFSLhFkOUiy3nNCLK.jpg?quality=82&width=600&height=600&fit=bounds" alt="Shure SM7B" loading="lazy"></a>
+      <div class="deal-body">
+        <h2>Shure SM7B</h2>
+        <p class="lang-show-en">Industry-standard dynamic microphone for broadcast, podcasting and vocals.</p>
+        <p class="lang-show-es">Micrófono dinámico estándar de la industria para difusión, podcasting y voces.</p>
+        <div class="deal-price-row"><span class="deal-price">$399</span></div>
+        <a href="https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ <span class="lang-show-en">View Deal</span><span class="lang-show-es">Ver Oferta</span></a>
       </div>
     </div>
+  </div>
+      </div>
 
-    <a onclick="history.back();return false" href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> <span class="lang-show-en">Back</span><span class="lang-show-es">Volver Atrás</span></a>
+      <div class="deals-card" style="margin-top:32px;">
+        <h2 class="lang-show-en" style="margin-bottom:12px;">Shop These Trusted Stores</h2>
+        <h2 class="lang-show-es" style="margin-bottom:12px;">Compra en Estas Tiendas de Confianza</h2>
+        <p class="lang-show-en" style="margin-bottom:16px;">We compare prices across the most trusted music gear retailers. When you buy through our links, we may earn a commission at no extra cost to you.</p>
+        <p class="lang-show-es" style="margin-bottom:16px;">Comparamos precios en las tiendas de equipo musical más confiables. Si compras a través de nuestros enlaces, podemos ganar una comisión sin coste extra para ti.</p>
+        <div class="deals-stores">
+          <a href="https://www.pluginboutique.com/?a_aid=6a01e859cbe1a" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#6366f1"><img src="img/pluginboutique-icon.png" alt="Plugin Boutique" width="20" height="20"><span>Plugin Boutique</span></a><a href="https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#8b5cf6"><img src="img/gear4music-icon.png" alt="Gear4Music" width="20" height="20"><span>Gear4Music</span></a><a href="https://www.amazon.com/?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#ff9900"><svg class="icon fa-brands" style="font-size:20px;color:#ff9900;" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg><span>Amazon</span></a><a href="https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#d6562b"><span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;flex-shrink:0;">R</span><span>Reverb</span></a><a href="https://www.andertons.co.uk/?irgwc=1&irpid=7292297" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#000000"><span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#000;color:#fff;border-radius:3px;flex-shrink:0;">A</span><span>Andertons</span></a><a href="https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:#1a3a5c"><img src="img/musicstore-icon.png" alt="Music Store" style="width:auto;height:10px"><span>Music Store</span></a>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer style="padding: 32px; text-align: center; border-top: 1px solid var(--border);">
@@ -137,10 +185,11 @@
       document.documentElement.lang = l;
       document.querySelectorAll(".lang-btn").forEach(function(b) {
         b.classList.remove("active");
-        if (b.getAttribute("onclick").indexOf("'"+l+"'") > -1) b.classList.add("active");
+        if (b.getAttribute("title").toLowerCase().indexOf((l === "es" ? "espa" : "english")) > -1) b.classList.add("active");
       });
     }
     setLang(lang);
   </script>
+  <script src="js/app.min.js?v=4baafe1d1613e" defer></script>
 </body>
 </html>

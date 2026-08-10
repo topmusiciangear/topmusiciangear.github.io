@@ -615,3 +615,16 @@ En cada guía que se toque o cree, SIEMPRE:
 4. **Tabla de comparación (`productTable`)** debe incluir: Producto, Precio, "Best For", y todas las specs clave que la competencia muestra (tipo, patrón polar, frecuencia, sensibilidad, ruido propio, max SPL, impedancia, + específicas de la categoría: woofer/potencia/memoria/peso, etc.).
 5. **Corregir errores factuales** detectados durante la verificación (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
 6. Rebuild + verificar EN/ES + commit + push.
+
+## 🎯 Ofertas (deals.html) — flujo bot por sesión
+
+La página de Ofertas se genera desde `data/deals.json` ejecutando `node build-deals.js`. NO se auto-actualiza en tiempo real; el bot la mantiene por sesión.
+
+**Cómo actualizar ofertas:**
+1. Revisar precios reales actuales en las tiendas (Gear4Music, Music Store, Andertons, Amazon, Reverb, Plugin Boutique).
+2. Editar `data/deals.json`: agregar productos con descuento real (campos: `title`, `title_es`, `price`, `old_price` con precio base real o `null`, `store`, `store_url`, `img`, `badge_en`/`badge_es` opcionales, `desc`, `desc_es`, `date_added`).
+3. **Eliminar del JSON los productos que ya no están en oferta** (volvieron a precio normal) para que salgan de la página.
+4. **NUNCA inventar precios ni descuentos** — solo usar precios verificados vistos en las tiendas. Si no hay descuento real, `price` = precio real y `old_price: null` o directamente no incluir el producto.
+5. Correr `node build-deals.js` para regenerar `deals.html`.
+6. Verificar: header completo + `bg-hero` (fondo) + botón azul `guide-back-btn` + cuadrícula de ofertas + iconos de las 6 tiendas.
+7. Commit + push.
