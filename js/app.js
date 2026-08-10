@@ -266,13 +266,6 @@ function updateLangSwitcher() {
   document.querySelectorAll(".lang-btn").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.lang === currentLang);
   });
-  const keys = ["navGuides", "navSetup", "navAbout"];
-  document.querySelectorAll("nav .nav-link").forEach((btn, i) => {
-    if (keys[i]) btn.textContent = t(keys[i]);
-  });
-  document.querySelectorAll("#mobileNav .nav-link").forEach((btn, i) => {
-    if (keys[i]) btn.textContent = t(keys[i]);
-  });
 }
 
 function initLangSwitcher() {
