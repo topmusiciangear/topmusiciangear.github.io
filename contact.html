@@ -38,6 +38,7 @@
   }
   </script>
   <link rel="icon" type="image/png" href="img/favicon.png?v=2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css?v=29">
   <style>
     .legal-page { max-width: 800px; margin: 0 auto; padding: 80px 32px 64px; }
@@ -121,12 +122,13 @@
 
     <h2 class="lang-show-en">Send a Message</h2>
     <h2 class="lang-show-es">Envíame un Mensaje</h2>
-    <form action="https://formspree.io/f/mvkppzvz" method="POST" class="contact-form" style="max-width:600px;margin:16px 0 0;display:grid;gap:12px;text-align:left">
+    <form id="contactForm" class="contact-form" style="max-width:600px;margin:16px 0 0;display:grid;gap:12px;text-align:left">
       <input type="text" name="name" placeholder="Your name / Tu nombre" required style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);color:var(--text);padding:12px 14px;font-size:14px;font-family:inherit">
       <input type="email" name="email" placeholder="you@example.com" required style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);color:var(--text);padding:12px 14px;font-size:14px;font-family:inherit">
       <textarea name="message" rows="5" placeholder="Your message / Tu mensaje" required style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);color:var(--text);padding:12px 14px;font-size:14px;font-family:inherit;resize:vertical"></textarea>
-      <button type="submit" style="background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;border:none;border-radius:var(--radius);padding:12px 24px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit"><span class="lang-show-en">Send Message</span><span class="lang-show-es">Enviar Mensaje</span></button>
+      <button type="submit" id="contactBtn" style="background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;border:none;border-radius:var(--radius);padding:12px 24px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit"><span class="lang-show-en">Send Message</span><span class="lang-show-es">Enviar Mensaje</span></button>
     </form>
+    <p id="contactStatus" style="font-size:14px;font-weight:600;margin-top:10px"></p>
 
     <h2 class="lang-show-en">Social Media</h2>
     <h2 class="lang-show-es">Redes Sociales</h2>
@@ -172,6 +174,42 @@
       });
     }
     setLang(lang);
+  </script>
+  <script>
+    var cf = document.getElementById("contactForm");
+    cf.addEventListener("submit", function(e) {
+      e.preventDefault();
+      var btn = document.getElementById("contactBtn");
+      var status = document.getElementById("contactStatus");
+      btn.disabled = true;
+      btn.style.opacity = ".6";
+      var lang = document.documentElement.lang;
+      var msgLoading = lang === "es" ? "Enviando..." : "Sending...";
+      var msgOk = lang === "es" ? "¡Mensaje enviado! Gracias por escribir." : "Message sent! Thanks for reaching out.";
+      var msgErr = lang === "es" ? "No se pudo enviar. Inténtalo de nuevo." : "Couldn't send. Please try again.";
+      status.textContent = msgLoading;
+      status.style.color = "var(--text-muted)";
+      fetch("https://formspree.io/f/mvkppzvz", {
+        method: "POST",
+        body: new FormData(cf),
+        headers: { "Accept": "application/json" }
+      }).then(function(r) {
+        if (r.ok) {
+          status.textContent = msgOk;
+          status.style.color = "var(--accent)";
+          cf.reset();
+        } else {
+          status.textContent = msgErr;
+          status.style.color = "#f87171";
+        }
+      }).catch(function() {
+        status.textContent = msgErr;
+        status.style.color = "#f87171";
+      }).then(function() {
+        btn.disabled = false;
+        btn.style.opacity = "1";
+      });
+    });
   </script>
 </body>
 </html>
