@@ -756,21 +756,6 @@ ${ogMeta}
     </div>
   </main>
 
-  <!-- Newsletter -->
-  <section class="newsletter-section" id="newsletter">
-    <div class="newsletter-card">
-      <h2>${isEs ? 'No te Pierdas Ninguna Oferta 🎯' : 'Never Miss A Deal 🎯'}</h2>
-      <p>${isEs ? 'Únete al newsletter para recibir ofertas semanales, consejos y reseñas honestas — directo del estudio a tu correo.' : 'Join the newsletter for weekly gear deals, tips and honest reviews — straight from the studio to your inbox.'}</p>
-      <!-- MAILERLITE_EMBED_START -->
-      <form class="newsletter-form" id="newsletterForm">
-        <input type="email" name="EMAIL" placeholder="you@example.com" aria-label="Email" required>
-        <button type="submit">${isEs ? 'Suscribirme' : 'Subscribe'}</button>
-      </form>
-      <!-- MAILERLITE_EMBED_END -->
-      <p class="newsletter-note">${isEs ? 'Sin spam. Puedes darte de baja cuando quieras.' : 'No spam. Unsubscribe anytime.'}</p>
-    </div>
-  </section>
-
   <footer>
     <div class="footer-grid">
       <div class="footer-col">
