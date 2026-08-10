@@ -31,15 +31,39 @@ jobs:
         run: node auto-deals.js
 
       - name: Commit and push changes
+        # NOTE: pushes made with GITHUB_TOKEN do NOT trigger other workflows,
+        # so purge-cache.yml never runs for bot pushes. Cloudflare is purged
+        # here directly instead.
         run: |
           git config user.name "tmg-bot"
           git config user.email "actions@github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "no_changes=true" >> "$GITHUB_ENV"
           else
             git commit -m "deals: auto refresh live prices [skip ci]"
             git push origin main
+            echo "no_changes=false" >> "$GITHUB_ENV"
           fi
+
+      - name: Purge Cloudflare Cache
+        if: env.no_changes == 'false'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ZONE_ID" ]; then
+            echo "::warning::Missing Cloudflare secrets (CLOUDFLARE_API_TOKEN / CLOUDFLARE_ZONE_ID). Skipping purge."
+            exit 0
+          fi
+          RESP=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}')
+          echo "$RESP"
+          if echo "$RESP" | grep -q '"success":true'; then
+            echo "::notice::Cloudflare cache purged successfully"
+          else
+            echo "::error::Cloudflare purge failed: $RESP"
+            exit 1
+          fi
