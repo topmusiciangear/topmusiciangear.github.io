@@ -181,38 +181,90 @@
     setLang(lang);
   </script>
   <script>
+    var REVIEW_ENDPOINT = "https://formspree.io/f/mvkppzvz";
+    var RECAPTCHA_SITE_KEY = "6Lf083QtAAAAACTzrVpmKX5_syRkkw_U1Za8K6C2";
+    var _recaptchaPromise = null;
+    function loadRecaptcha() {
+      if (window.grecaptcha && window.grecaptcha.execute) return Promise.resolve();
+      if (_recaptchaPromise) return _recaptchaPromise;
+      _recaptchaPromise = new Promise(function(resolve) {
+        var s = document.createElement("script");
+        s.src = "https://www.google.com/recaptcha/api.js?render=" + RECAPTCHA_SITE_KEY;
+        s.async = true;
+        s.onload = function() {
+          var tries = 0;
+          var waitExecute = function() {
+            if (window.grecaptcha && window.grecaptcha.execute) return resolve();
+            if (++tries > 100) return resolve();
+            setTimeout(waitExecute, 50);
+          };
+          waitExecute();
+        };
+        s.onerror = function() { resolve(); };
+        document.head.appendChild(s);
+      });
+      return _recaptchaPromise;
+    }
+
     var cf = document.getElementById("contactForm");
     cf.addEventListener("submit", function(e) {
       e.preventDefault();
       var btn = document.getElementById("contactBtn");
       var status = document.getElementById("contactStatus");
-      btn.disabled = true;
-      btn.style.opacity = ".6";
       var lang = document.documentElement.lang;
       var msgLoading = lang === "es" ? "Enviando..." : "Sending...";
       var msgOk = lang === "es" ? "¡Mensaje enviado! Gracias por escribir." : "Message sent! Thanks for reaching out.";
       var msgErr = lang === "es" ? "No se pudo enviar. Inténtalo de nuevo." : "Couldn't send. Please try again.";
+      btn.disabled = true;
+      btn.style.opacity = ".6";
       status.textContent = msgLoading;
       status.style.color = "var(--text-muted)";
-      fetch("https://formspree.io/f/mvkppzvz", {
-        method: "POST",
-        body: new FormData(cf),
-        headers: { "Accept": "application/json" }
-      }).then(function(r) {
-        if (r.ok) {
-          status.textContent = msgOk;
-          status.style.color = "var(--accent)";
-          cf.reset();
-        } else {
+      var send = function(token) {
+        var payload = {
+          _gotcha: "",
+          _subject: "New message - TopMusicianGear",
+          name: cf.name.value,
+          email: cf.email.value,
+          message: cf.message.value,
+          page: window.location.href
+        };
+        if (token) payload["g-recaptcha-response"] = token;
+        fetch(REVIEW_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify(payload)
+        }).then(function(r) {
+          if (r.ok) {
+            status.textContent = msgOk;
+            status.style.color = "var(--accent)";
+            cf.reset();
+          } else {
+            status.textContent = msgErr;
+            status.style.color = "#f87171";
+          }
+        }).catch(function() {
           status.textContent = msgErr;
           status.style.color = "#f87171";
-        }
-      }).catch(function() {
-        status.textContent = msgErr;
-        status.style.color = "#f87171";
-      }).then(function() {
-        btn.disabled = false;
-        btn.style.opacity = "1";
+        }).then(function() {
+          btn.disabled = false;
+          btn.style.opacity = "1";
+        });
+      };
+      loadRecaptcha().then(function() {
+        var attempt = function(remaining) {
+          if (typeof grecaptcha !== "undefined" && grecaptcha.execute) {
+            grecaptcha.ready(function() {
+              grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: "submit" }).then(send).catch(function() {
+                if (remaining > 0) setTimeout(function() { attempt(remaining - 1); }, 400);
+                else send(null);
+              });
+            });
+          } else {
+            if (remaining > 0) setTimeout(function() { attempt(remaining - 1); }, 400);
+            else send(null);
+          }
+        };
+        attempt(2);
       });
     });
   </script>
