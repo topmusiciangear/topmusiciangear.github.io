@@ -629,6 +629,7 @@ ${ogMeta}
         </a>
         <nav aria-label="Main navigation">
           <a href="/#guides" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
+          <a href="/deals.html" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
           <a href="/#mysetup" class="nav-link">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
           <a href="/#about" class="nav-link">${isEs ? 'Sobre Mí' : 'About Me'}</a>
         </nav>
@@ -668,6 +669,7 @@ ${ogMeta}
 
   <div class="mobile-nav" id="mobileNav">
     <a class="nav-link" href="/#guides">${isEs ? 'Guías' : 'Guides'}</a>
+    <a class="nav-link" href="/deals.html">${isEs ? 'Ofertas' : 'Deals'}</a>
     <a class="nav-link" href="/#mysetup">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
     <a class="nav-link" href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a>
   </div>
@@ -754,6 +756,21 @@ ${ogMeta}
     </div>
   </main>
 
+  <!-- Newsletter -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="newsletter-card">
+      <h2>${isEs ? 'No te Pierdas Ninguna Oferta 🎯' : 'Never Miss A Deal 🎯'}</h2>
+      <p>${isEs ? 'Únete al newsletter para recibir ofertas semanales, consejos y reseñas honestas — directo del estudio a tu correo.' : 'Join the newsletter for weekly gear deals, tips and honest reviews — straight from the studio to your inbox.'}</p>
+      <!-- MAILERLITE_EMBED_START -->
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" name="EMAIL" placeholder="you@example.com" aria-label="Email" required>
+        <button type="submit">${isEs ? 'Suscribirme' : 'Subscribe'}</button>
+      </form>
+      <!-- MAILERLITE_EMBED_END -->
+      <p class="newsletter-note">${isEs ? 'Sin spam. Puedes darte de baja cuando quieras.' : 'No spam. Unsubscribe anytime.'}</p>
+    </div>
+  </section>
+
   <footer>
     <div class="footer-grid">
       <div class="footer-col">
@@ -762,6 +779,7 @@ ${ogMeta}
           <li><a href="/">${isEs ? 'Inicio' : 'Home'}</a></li>
           <li><a href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a></li>
           <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> ${isEs ? 'Contáctanos' : 'Contact Us'}</a></li>
+          <li><a href="/deals.html">${isEs ? 'Ofertas de Hoy' : "Today's Deals"}</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -789,10 +807,6 @@ ${ogMeta}
     </div>
     <div class="footer-bottom">
       <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
-      <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
-      <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
-    </div>
-  </footer>
 
   <!-- Affiliate Disclosure Modal -->
   <div id="affiliate-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)">
@@ -893,6 +907,7 @@ function buildSitemap() {
     { loc: '/', priority: '1.0', changefreq: 'weekly' },
     { loc: '/about.html', priority: '0.7', changefreq: 'monthly' },
     { loc: '/contact.html', priority: '0.5', changefreq: 'monthly' },
+    { loc: '/deals.html', priority: '0.8', changefreq: 'daily' },
     { loc: '/affiliate-disclosure.html', priority: '0.4', changefreq: 'monthly' },
     { loc: '/cookie-policy.html', priority: '0.4', changefreq: 'monthly' },
     { loc: '/terms.html', priority: '0.4', changefreq: 'monthly' },
