@@ -102,7 +102,7 @@ const translations = {
     disclosureBar: "Este sitio contiene enlaces de afiliado. Ganamos una comisión si compras a través de ellos sin costo extra para ti.",
     disclosureLink: "Más info",
     footerDisclosureText: '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="#" id="disclosureLink">Más info</a>',
-    heroBadge: "Confiado por músicos de todo el mundo",
+    heroBadge: "La confianza de músicos de todo el mundo",
     heroTitle: "Del Estudio al Escenario — <span>Equipo Reseñado por un Profesional</span>",
     heroDesc: "Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.",
     heroStory: "Mi Historia",
