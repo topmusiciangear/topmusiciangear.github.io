@@ -216,7 +216,7 @@ const buildPage = (lang) => {
     .deal-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
     .deal-save-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
     .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
-    .deal-percent { color: #22c55e; font-size: 13px; font-weight: 700; }
+    .deal-percent { color: var(--text-muted); font-size: 13px; }
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; }
     .deals-store-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s; }
     .deals-store-btn:hover { background: #2563eb; color: #fff; }
