@@ -140,7 +140,7 @@ const buildPage = (lang) => {
     const old = d.old_price ? `<span class="deal-old-price">${cur}${d.old_price}</span>` : '';
     const price = `${cur}${d.price}`;
     const pct = d.old_price && d.price ? Math.round((1 - d.price / d.old_price) * 100) : 0;
-    const pctLabel = pct > 0 ? ` <span class="deal-percent">${pct}% ${t('off', 'dto.')}</span>` : '';
+    const pctLabel = pct > 0 ? ` <span class="deal-sep">·</span> <span class="deal-percent">${pct}% ${t('off', 'dto.')}</span>` : '';
     const storeName = slugToName[d.store] || d.store;
     const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
     const storeLink = `<a href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
@@ -216,6 +216,7 @@ const buildPage = (lang) => {
     .deal-price-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
     .deal-save-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
     .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
+    .deal-sep { color: var(--text-muted); font-size: 13px; }
     .deal-percent { color: var(--text-muted); font-size: 13px; }
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; line-height: 1; display: inline-block; }
     .deals-store-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s; }
