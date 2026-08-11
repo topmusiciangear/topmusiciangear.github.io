@@ -209,7 +209,7 @@ const buildPage = (lang) => {
     .deal-store-tag:hover { border-color: var(--store-color, var(--accent)); color: var(--white); }
     .deal-store-tag img { width: 20px; height: 20px; flex-shrink: 0; }
     .deal-store-tag svg { flex-shrink: 0; }
-    .deal-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; background: rgba(59,130,246,.15); border: 1px solid rgba(59,130,246,.4); color: var(--accent); font-size: 11px; font-weight: 700; white-space: nowrap; }
+    .deal-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.4); color: #22c55e; font-size: 11px; font-weight: 700; white-space: nowrap; }
     .deal-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
     .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; }
