@@ -305,8 +305,8 @@ function renderGuideCats() {
     document.querySelectorAll(".cat-card").forEach(function(c) { c.classList.remove("active"); });
     card.classList.add("active");
     renderGuideGrid();
-    var sortBar = document.querySelector(".sort-bar");
-    if (sortBar) sortBar.scrollIntoView({ block: "start" });
+    var grid = document.getElementById("guideGrid");
+    if (grid) grid.scrollIntoView({ block: "start", behavior: "smooth" });
   });
 }
 
