@@ -212,8 +212,8 @@ const buildPage = (lang) => {
     .deal-store-tag:hover { border-color: var(--store-color, var(--accent)); color: var(--white); }
     .deal-store-tag img { width: 20px; height: 20px; flex-shrink: 0; }
     .deal-store-tag svg { flex-shrink: 0; }
-    .deal-badge { display: inline-flex; align-items: center; padding: 0 7px; border-radius: 10px; background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.4); color: #22c55e; font-size: 10px; font-weight: 700; line-height: 1; white-space: nowrap; box-sizing: border-box; }
-    .deal-price-row { display: flex; align-items: stretch; gap: 8px; margin-bottom: 4px; }
+    .deal-badge { display: inline-flex; align-items: center; padding: 0 7px; border-radius: 10px; background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.4); color: #22c55e; font-size: 10px; font-weight: 700; line-height: 1; white-space: nowrap; box-sizing: border-box; height: 16px; }
+    .deal-price-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
     .deal-save-row { display: flex; align-items: baseline; gap: 4px; margin-bottom: 12px; }
     .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
     .deal-sep { color: var(--text-muted); font-size: 13px; }
