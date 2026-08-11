@@ -374,7 +374,7 @@ function getResolvedStores(product) {
 
 function formatPrice(price) {
   if (price >= 1000) return `$${(price / 1000).toFixed(1)}k`;
-  return `$${price}`;
+  return `$${Math.round(price)}`;
 }
 
 function capitalizeUnit(u) {

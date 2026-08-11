@@ -111,16 +111,25 @@ const buildPage = (lang) => {
 `;
 
   // Store icon: match home page patterns
+  const storeMeta = {
+    'Plugin Boutique': { color: '#6366f1', mark: '<img src="img/pluginboutique-icon.png" alt="Plugin Boutique" width="20" height="20">' },
+    'Gear4Music': { color: '#8b5cf6', mark: '<img src="img/gear4music-icon.png" alt="Gear4Music" width="20" height="20">' },
+    'Amazon': { color: '#ff9900', mark: '<svg class="icon fa-brands" style="font-size:20px;color:#ff9900;" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>' },
+    'Reverb': { color: '#d6562b', mark: '<span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;flex-shrink:0;">R</span>' },
+    'Andertons': { color: '#000000', mark: '<span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#000;color:#fff;border-radius:3px;flex-shrink:0;">A</span>' },
+    'Music Store': { color: '#1a3a5c', mark: '<img src="img/musicstore-icon.png" alt="Music Store" style="width:auto;height:10px">' }
+  };
+  const slugToName = {
+    andertons: 'Andertons',
+    pluginboutique: 'Plugin Boutique',
+    gear4music: 'Gear4Music',
+    amazon: 'Amazon',
+    reverb: 'Reverb',
+    musicstore: 'Music Store'
+  };
+
   const storeLogo = (s) => {
-    const map = {
-      'Plugin Boutique': { color: '#6366f1', mark: '<img src="img/pluginboutique-icon.png" alt="Plugin Boutique" width="20" height="20">' },
-      'Gear4Music': { color: '#8b5cf6', mark: '<img src="img/gear4music-icon.png" alt="Gear4Music" width="20" height="20">' },
-      'Amazon': { color: '#ff9900', mark: '<svg class="icon fa-brands" style="font-size:20px;color:#ff9900;" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>' },
-      'Reverb': { color: '#d6562b', mark: '<span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;flex-shrink:0;">R</span>' },
-      'Andertons': { color: '#000000', mark: '<span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#000;color:#fff;border-radius:3px;flex-shrink:0;">A</span>' },
-      'Music Store': { color: '#1a3a5c', mark: '<img src="img/musicstore-icon.png" alt="Music Store" style="width:auto;height:10px">' }
-    };
-    const c = map[s.name] || { color: 'var(--accent)', mark: '' };
+    const c = storeMeta[s.name] || { color: 'var(--accent)', mark: '' };
     return `<a href="${s.url}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:${c.color}">${c.mark}<span>${s.name}</span></a>`;
   };
 
@@ -130,13 +139,16 @@ const buildPage = (lang) => {
     const cur = d.currency || '$';
     const old = d.old_price ? `<span class="deal-old-price">${cur}${d.old_price}</span>` : '';
     const price = `${cur}${d.price}`;
+    const storeName = slugToName[d.store] || d.store;
+    const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
+    const storeLink = `<a href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
     return `
   <div class="deals-card deal-card">
-    ${badge ? `<div class="deal-badge-row"><span class="deal-badge">${badge}</span></div>` : ''}
+    <div class="deal-store-row">${storeLink}</div>
     <div class="deal-card-top">
       <a class="deal-img" href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>
       <div class="deal-body">
-        <h2>${isEs ? (d.title_es || d.title) : d.title}</h2>
+        <h2>${isEs ? (d.title_es || d.title) : d.title}${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</h2>
         <p>${desc}</p>
         <div class="deal-price-row">${old}<span class="deal-price">${price}</span></div>
         <a href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
@@ -190,9 +202,14 @@ const buildPage = (lang) => {
     .deal-img { flex-shrink: 0; width: 140px; height: 140px; border-radius: var(--radius); overflow: hidden; background: var(--bg-card); }
     .deal-img img { width: 100%; height: 100%; object-fit: cover; }
     .deal-body h2 { font-size: 16px; font-weight: 700; color: var(--white); margin: 0 0 8px; }
+    .deal-body h2 .deal-badge { vertical-align: middle; margin-left: 6px; }
     .deal-body p { color: var(--text-secondary); font-size: 13px; margin: 0 0 12px; line-height: 1.6; }
-    .deal-badge-row { margin-bottom: 8px; }
-    .deal-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; background: rgba(59,130,246,.15); border: 1px solid rgba(59,130,246,.4); color: var(--accent); font-size: 11px; font-weight: 700; }
+    .deal-store-row { margin-bottom: 10px; }
+    .deal-store-tag { display: inline-flex; align-items: center; gap: 8px; padding: 4px 12px; border-radius: 14px; background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary); font-size: 12px; font-weight: 700; text-decoration: none; transition: var(--transition); }
+    .deal-store-tag:hover { border-color: var(--store-color, var(--accent)); color: var(--white); }
+    .deal-store-tag img { width: 20px; height: 20px; flex-shrink: 0; }
+    .deal-store-tag svg { flex-shrink: 0; }
+    .deal-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; background: rgba(59,130,246,.15); border: 1px solid rgba(59,130,246,.4); color: var(--accent); font-size: 11px; font-weight: 700; white-space: nowrap; }
     .deal-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
     .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; }
