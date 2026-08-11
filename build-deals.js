@@ -139,6 +139,8 @@ const buildPage = (lang) => {
     const cur = d.currency || '$';
     const old = d.old_price ? `<span class="deal-old-price">${cur}${d.old_price}</span>` : '';
     const price = `${cur}${d.price}`;
+    const pct = d.old_price && d.price ? Math.round((1 - d.price / d.old_price) * 100) : 0;
+    const pctLabel = pct > 0 ? ` <span class="deal-percent">${pct}% ${t('off', 'dto.')}</span>` : '';
     const storeName = slugToName[d.store] || d.store;
     const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
     const storeLink = `<a href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
@@ -150,7 +152,8 @@ const buildPage = (lang) => {
       <div class="deal-body">
         <h2>${isEs ? (d.title_es || d.title) : d.title}</h2>
         <p>${desc}</p>
-        <div class="deal-price-row">${old}<span class="deal-price">${price}</span>${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</div>
+        <div class="deal-price-row"><span class="deal-price">${price}</span>${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</div>
+        <div class="deal-save-row">${old}${pctLabel}</div>
         <a href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
       </div>
     </div>
@@ -210,8 +213,10 @@ const buildPage = (lang) => {
     .deal-store-tag img { width: 20px; height: 20px; flex-shrink: 0; }
     .deal-store-tag svg { flex-shrink: 0; }
     .deal-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.4); color: #22c55e; font-size: 11px; font-weight: 700; white-space: nowrap; }
-    .deal-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
+    .deal-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+    .deal-save-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
     .deal-old-price { color: var(--text-muted); font-size: 13px; text-decoration: line-through; }
+    .deal-percent { color: #22c55e; font-size: 13px; font-weight: 700; }
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; }
     .deals-store-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s; }
     .deals-store-btn:hover { background: #2563eb; color: #fff; }
