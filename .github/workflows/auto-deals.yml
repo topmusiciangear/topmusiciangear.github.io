@@ -27,6 +27,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Read deals from Telegram channel
+        run: node telegram-deals.js
+
       - name: Check live prices and update deals
         run: node auto-deals.js
 
