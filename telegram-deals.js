@@ -61,15 +61,18 @@ async function main() {
   console.log('telegram-deals: channel messages =', messages.length);
 
   const deals = [];
-  const seen = new Set();
+  const seenId = new Set();
+  const seenTitle = new Set();
   for (const msg of messages) {
     if (!/Was:/.test(msg)) continue;
     const d = parseDeal(msg);
     if (!d) continue;
-    if (seen.has(d.title)) continue;
-    seen.add(d.title);
+    if (seenTitle.has(d.title)) continue;
+    seenTitle.add(d.title);
 
     const prod = byTitle(d.title);
+    if (prod && prod.id != null && seenId.has(prod.id)) continue;
+    if (prod && prod.id != null) seenId.add(prod.id);
     const sym = d.store === 'pluginboutique' ? '$' : '£';
     deals.push({
       product_id: prod ? prod.id : null,

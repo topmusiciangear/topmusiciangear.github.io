@@ -144,10 +144,13 @@ async function main() {
   // Merge manual verified deals
   const manual = loadManual();
   const merged = [];
-  const seen = new Set();
+  const seenId = new Set();
+  const seenTitle = new Set();
   for (const d of [...autoDeals, ...manual]) {
-    if (seen.has(d.title)) continue;
-    seen.add(d.title);
+    if (d.product_id != null && seenId.has(d.product_id)) continue;
+    if (seenTitle.has(d.title)) continue;
+    if (d.product_id != null) seenId.add(d.product_id);
+    seenTitle.add(d.title);
     merged.push(d);
   }
 
