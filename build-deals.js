@@ -148,9 +148,9 @@ const buildPage = (lang) => {
     <div class="deal-card-top">
       <a class="deal-img" href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>
       <div class="deal-body">
-        <h2>${isEs ? (d.title_es || d.title) : d.title}${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</h2>
+        <h2>${isEs ? (d.title_es || d.title) : d.title}</h2>
         <p>${desc}</p>
-        <div class="deal-price-row">${old}<span class="deal-price">${price}</span></div>
+        <div class="deal-price-row">${old}<span class="deal-price">${price}</span>${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</div>
         <a href="${d.store_url}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
       </div>
     </div>
