@@ -30,6 +30,9 @@ jobs:
       - name: Read deals from Telegram channel
         run: node telegram-deals.js
 
+      - name: Scrape Gear4Music prices
+        run: node gear4music-deals.js
+
       - name: Check live prices and update deals
         run: node auto-deals.js
 
