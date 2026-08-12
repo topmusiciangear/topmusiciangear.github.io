@@ -515,6 +515,40 @@ nav {
   margin-bottom: 48px;
 }
 
+.cat-carousel {
+  position: relative;
+}
+.cat-carousel .cat-grid {
+  margin-bottom: 0;
+}
+.cat-carousel-arrow {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  background: var(--bg-card);
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  padding: 0;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+.cat-carousel-arrow:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.cat-carousel-arrow-left { left: -10px; }
+.cat-carousel-arrow-right { right: -10px; }
+
 .cat-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -546,6 +580,10 @@ nav {
   font-size: 28px;
   margin-bottom: 8px;
   display: block;
+}
+.cat-card .icon svg {
+  width: 1em;
+  height: 1em;
 }
 
 
@@ -1921,6 +1959,9 @@ footer ul li a:hover { color: var(--accent); }
     flex: 0 0 auto;
     min-width: 120px;
     scroll-snap-align: start;
+  }
+  .cat-carousel-arrow {
+    display: inline-flex;
   }
 
   .stores-section { padding: 0 20px 48px; }

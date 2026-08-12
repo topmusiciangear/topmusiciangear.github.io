@@ -308,6 +308,18 @@ function renderGuideCats() {
     var grid = document.getElementById("guideGrid");
     if (grid) grid.scrollIntoView({ block: "start", behavior: "smooth" });
   });
+
+  var carousel = container.closest(".cat-carousel");
+  if (carousel) {
+    var leftArrow = carousel.querySelector(".cat-carousel-arrow-left");
+    var rightArrow = carousel.querySelector(".cat-carousel-arrow-right");
+    if (leftArrow) leftArrow.onclick = function() {
+      container.scrollBy({ left: -container.clientWidth * 0.8, behavior: "smooth" });
+    };
+    if (rightArrow) rightArrow.onclick = function() {
+      container.scrollBy({ left: container.clientWidth * 0.8, behavior: "smooth" });
+    };
+  }
 }
 
 function getFilteredGuides() {
