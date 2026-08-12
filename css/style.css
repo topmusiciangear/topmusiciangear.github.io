@@ -1956,8 +1956,9 @@ footer ul li a:hover { color: var(--accent); }
   }
   .cat-grid::-webkit-scrollbar { display: none; }
   .cat-grid .cat-card {
-    flex: 0 0 auto;
-    min-width: 120px;
+    flex: 0 0 var(--cat-card-w, 120px);
+    min-width: var(--cat-card-w, 120px);
+    max-width: var(--cat-card-w, 120px);
     scroll-snap-align: start;
   }
   .cat-carousel-arrow {
@@ -1976,7 +1977,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 480px) {
-  .cat-grid .cat-card { min-width: 100px; }
+  .cat-grid .cat-card { min-width: var(--cat-card-w, 100px); max-width: var(--cat-card-w, 100px); }
   .stats-inner { gap: 4px; }
   .stat-number { font-size: 20px; line-height: 1; }
   .stat-label { margin-top: 0; }

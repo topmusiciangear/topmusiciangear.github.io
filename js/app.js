@@ -298,6 +298,14 @@ function renderGuideCats() {
       <div class="count">${c.count} ${t("guides")}</div>
     </div>`
   ).join("");
+
+  if (window.innerWidth <= 768) {
+    var maxW = 100;
+    Array.prototype.forEach.call(container.children, function(card) {
+      if (card.offsetWidth > maxW) maxW = card.offsetWidth;
+    });
+    container.style.setProperty("--cat-card-w", maxW + "px");
+  }
   container.addEventListener("click", function(e) {
     var card = e.target.closest(".cat-card");
     if (!card) return;
