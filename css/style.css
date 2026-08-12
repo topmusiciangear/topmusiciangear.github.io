@@ -1960,12 +1960,14 @@ footer ul li a:hover { color: var(--accent); }
     scroll-snap-align: start;
   }
   .cat-carousel {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .cat-carousel-arrow {
     display: inline-flex;
   }
+  .cat-carousel-arrow-left { left: -20px; }
+  .cat-carousel-arrow-right { right: -20px; }
 
   .stores-section { padding: 0 20px 48px; }
   footer { padding: 40px 16px 0; }
@@ -1991,6 +1993,8 @@ footer ul li a:hover { color: var(--accent); }
   .guides-section { padding: 40px 16px; }
   .my-setup { padding: 40px 16px; }
   .about-section { padding: 40px 16px; }
+  .cat-carousel-arrow-left { left: -16px; }
+  .cat-carousel-arrow-right { right: -16px; }
   .stores-section { padding: 0 16px 48px; }
   .stores-card { padding: 32px 20px; }
   .stores-logos { gap: 4px; }
@@ -2006,6 +2010,8 @@ footer ul li a:hover { color: var(--accent); }
   .guides-section { padding: 32px 12px; }
   .my-setup { padding: 32px 12px; }
   .about-section { padding: 32px 12px; }
+  .cat-carousel-arrow-left { left: -12px; }
+  .cat-carousel-arrow-right { right: -12px; }
   .stores-section { padding: 0 12px 32px; }
   .stores-card { padding: 24px 12px; }
   .guide-card-body { padding: 14px 14px 18px; }
