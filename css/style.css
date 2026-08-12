@@ -2044,12 +2044,6 @@ footer ul li a:hover { color: var(--accent); }
   }
   .cat-carousel-arrow {
     display: inline-flex;
-    font-size: 30px;
-    padding: 16px 14px;
-  }
-  .cat-carousel-arrow svg {
-    width: 30px;
-    height: 30px;
   }
   .cat-carousel-arrow-left { left: -20px; }
   .cat-carousel-arrow-right { right: -20px; }
