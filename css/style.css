@@ -517,6 +517,7 @@ nav {
 
 .cat-carousel {
   position: relative;
+  margin-bottom: 48px;
 }
 .cat-carousel .cat-grid {
   margin-bottom: 0;
