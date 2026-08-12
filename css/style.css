@@ -1960,8 +1960,8 @@ footer ul li a:hover { color: var(--accent); }
     scroll-snap-align: start;
   }
   .cat-carousel {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
   .cat-carousel-arrow {
     display: inline-flex;
