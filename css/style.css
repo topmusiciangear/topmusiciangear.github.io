@@ -529,19 +529,23 @@ nav {
   z-index: 5;
   background: none;
   border: none;
-  color: var(--accent);
+  color: #fff;
   cursor: pointer;
   font-size: 26px;
   line-height: 1;
-  padding: 8px;
+  padding: 6px;
   box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .cat-carousel-arrow svg {
   filter: drop-shadow(0 0 6px rgba(0,0,0,.6));
 }
-.cat-carousel-arrow:hover { color: var(--accent-light); }
-.cat-carousel-arrow-left { left: -10px; }
-.cat-carousel-arrow-right { right: -10px; }
+.cat-carousel-arrow:hover,
+.cat-carousel-arrow:active {
+  color: var(--accent);
+}
+.cat-carousel-arrow-left { left: 0; }
+.cat-carousel-arrow-right { right: 0; }
 
 .cat-card {
   background: var(--bg-card);
@@ -1954,6 +1958,10 @@ footer ul li a:hover { color: var(--accent); }
     min-width: var(--cat-card-w, 120px);
     max-width: var(--cat-card-w, 120px);
     scroll-snap-align: start;
+  }
+  .cat-carousel {
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .cat-carousel-arrow {
     display: inline-flex;
