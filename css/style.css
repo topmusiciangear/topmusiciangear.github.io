@@ -531,7 +531,7 @@ nav {
   border: none;
   color: #fff;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1;
   padding: 2px;
   box-shadow: none;
@@ -1960,8 +1960,8 @@ footer ul li a:hover { color: var(--accent); }
     scroll-snap-align: start;
   }
   .cat-carousel {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .cat-carousel-arrow {
     display: inline-flex;
