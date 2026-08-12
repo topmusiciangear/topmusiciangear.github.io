@@ -577,11 +577,16 @@ nav {
 .cat-card .icon {
   font-size: 28px;
   margin-bottom: 8px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  line-height: 1;
 }
 .cat-card .icon svg {
   width: 1em;
   height: 1em;
+  display: block;
 }
 
 
