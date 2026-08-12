@@ -693,7 +693,7 @@ function submitReview() {
   }
 }
 
-function renderGuideGrid() {
+function renderGuideGrid(fanFrom) {
   currentGuideId = null;
   const grid = document.getElementById("guideGrid");
   const container = document.getElementById("guideContainer");
@@ -732,11 +732,11 @@ function renderGuideGrid() {
     return;
   }
   const visible = filtered.slice(0, guideVisibleCount);
-  grid.innerHTML = visible.map(g => {
+  grid.innerHTML = visible.map((g, i) => {
     const catName = getCatName(g.category);
     const introText = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
     return `
-      <div class="guide-card-wrap">
+      <div class="guide-card-wrap${typeof fanFrom === 'number' && i >= fanFrom ? ' fan-in' : ''}" style="${typeof fanFrom === 'number' && i >= fanFrom ? '--fan-i:' + (i - fanFrom) : ''}">
         <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; window.location.href='/guides/'+id+(currentLang==='es'?'_es':'')+'.html';">
           <div class="guide-card-img">
             <img src="${g.image.replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
@@ -771,8 +771,9 @@ function renderGuideGrid() {
   }
 }
 function loadMoreGuides() {
+  const from = guideVisibleCount;
   guideVisibleCount += guidePageSize;
-  renderGuideGrid();
+  renderGuideGrid(from);
 }
 
 function getGuideFaqs(guide) {
