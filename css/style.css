@@ -1201,6 +1201,31 @@ footer ul li a:hover { color: var(--accent); }
   gap: 24px;
 }
 
+.guide-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.guide-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 28px;
+  border-radius: 24px;
+  background: var(--accent);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  transition: background 0.2s;
+}
+.guide-more-btn:hover {
+  background: var(--accent-dark);
+}
+
 .guide-card {
   background: var(--bg-card);
   border-radius: var(--radius-lg);

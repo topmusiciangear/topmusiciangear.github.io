@@ -2,6 +2,8 @@ let currentLang = localStorage.getItem("lang") || "en";
 let currentCategory = "all";
 let searchQuery = "";
 let currentGuideId = null;
+let guidePageSize = 12;
+let guideVisibleCount = 12;
 let skipDetailScroll = false;
 let disclosureBound = false;
 let guides = [];
@@ -310,6 +312,7 @@ function renderGuideCats() {
     var card = e.target.closest(".cat-card");
     if (!card) return;
     currentCategory = card.dataset.cat;
+    guideVisibleCount = guidePageSize;
     document.querySelectorAll(".cat-card").forEach(function(c) { c.classList.remove("active"); });
     card.classList.add("active");
     renderGuideGrid();
@@ -724,9 +727,12 @@ function renderGuideGrid() {
   const filtered = getFilteredGuides();
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="no-results"><h3><svg data-fa="music" class="icon fa-solid fa-music" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> ${t("noGuides")}</h3><p>${t("noGuidesDesc")}</p></div>`;
+    const hideWrap = document.getElementById("guideMoreWrap");
+    if (hideWrap) hideWrap.style.display = "none";
     return;
   }
-  grid.innerHTML = filtered.map(g => {
+  const visible = filtered.slice(0, guideVisibleCount);
+  grid.innerHTML = visible.map(g => {
     const catName = getCatName(g.category);
     const introText = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
     return `
@@ -749,6 +755,22 @@ function renderGuideGrid() {
       </div>
     `;
   }).join("");
+  if (filtered.length > guideVisibleCount) {
+    const moreWrap = document.getElementById("guideMoreWrap");
+    if (moreWrap) {
+      moreWrap.style.display = "";
+      moreWrap.innerHTML = `<button type="button" class="guide-more-btn" onclick="loadMoreGuides()">${t("showMore")}</button>`;
+    }
+  } else {
+    const moreWrap = document.getElementById("guideMoreWrap");
+    if (moreWrap) moreWrap.style.display = "none";
+  }
+}
+function loadMoreGuides() {
+  guideVisibleCount += guidePageSize;
+  renderGuideGrid();
+  const wrap = document.getElementById("guideMoreWrap");
+  if (wrap) wrap.scrollIntoView({ block: "nearest", behavior: "smooth" });
 }
 
 function getGuideFaqs(guide) {
@@ -1164,6 +1186,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.filterCategory = function(cat) {
     currentCategory = cat;
+    guideVisibleCount = guidePageSize;
     document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
     renderGuideGrid();
     if (currentGuideId) {
@@ -1215,6 +1238,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("searchInput")?.addEventListener("input", e => {
     searchQuery = e.target.value;
+    guideVisibleCount = guidePageSize;
     renderGuideGrid();
   });
 
