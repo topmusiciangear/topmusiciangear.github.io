@@ -527,25 +527,19 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
-  width: 36px;
-  height: 36px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 2px solid var(--accent);
-  background: var(--bg-card);
+  background: none;
+  border: none;
   color: var(--accent);
   cursor: pointer;
-  font-size: 15px;
+  font-size: 26px;
   line-height: 1;
-  padding: 0;
-  box-shadow: var(--shadow-md);
-  transition: var(--transition);
+  padding: 8px;
+  box-shadow: none;
 }
-.cat-carousel-arrow:hover {
-  background: var(--accent);
-  color: #fff;
+.cat-carousel-arrow svg {
+  filter: drop-shadow(0 0 6px rgba(0,0,0,.6));
 }
+.cat-carousel-arrow:hover { color: var(--accent-light); }
 .cat-carousel-arrow-left { left: -10px; }
 .cat-carousel-arrow-right { right: -10px; }
 
