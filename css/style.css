@@ -2044,6 +2044,8 @@ footer ul li a:hover { color: var(--accent); }
   }
   .cat-carousel-arrow {
     display: inline-flex;
+    font-size: 18px;
+    padding: 2px;
   }
   .cat-carousel-arrow-left { left: -20px; }
   .cat-carousel-arrow-right { right: -20px; }
@@ -2072,8 +2074,9 @@ footer ul li a:hover { color: var(--accent); }
   .guides-section { padding: 40px 16px; }
   .my-setup { padding: 40px 16px; }
   .about-section { padding: 40px 16px; }
-  .cat-carousel-arrow-left { left: -16px; }
-  .cat-carousel-arrow-right { right: -16px; }
+  .cat-carousel-arrow { font-size: 15px; }
+  .cat-carousel-arrow-left { left: -18px; }
+  .cat-carousel-arrow-right { right: -18px; }
   .stores-section { padding: 0 16px 48px; }
   .stores-card { padding: 32px 20px; }
   .stores-logos { gap: 4px; }
@@ -2089,8 +2092,9 @@ footer ul li a:hover { color: var(--accent); }
   .guides-section { padding: 32px 12px; }
   .my-setup { padding: 32px 12px; }
   .about-section { padding: 32px 12px; }
-  .cat-carousel-arrow-left { left: -12px; }
-  .cat-carousel-arrow-right { right: -12px; }
+  .cat-carousel-arrow { font-size: 13px; }
+  .cat-carousel-arrow-left { left: -16px; }
+  .cat-carousel-arrow-right { right: -16px; }
   .stores-section { padding: 0 12px 32px; }
   .stores-card { padding: 24px 12px; }
   .guide-card-body { padding: 14px 14px 18px; }
