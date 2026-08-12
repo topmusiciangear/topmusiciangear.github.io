@@ -771,15 +771,8 @@ function renderGuideGrid() {
   }
 }
 function loadMoreGuides() {
-  const wrap = document.getElementById("guideMoreWrap");
-  const before = wrap ? wrap.getBoundingClientRect().top : null;
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   guideVisibleCount += guidePageSize;
   renderGuideGrid();
-  if (wrap && before !== null) {
-    const after = wrap.getBoundingClientRect().top;
-    window.scrollTo(0, scrollTop + (after - before));
-  }
 }
 
 function getGuideFaqs(guide) {
