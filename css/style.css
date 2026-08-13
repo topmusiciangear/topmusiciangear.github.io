@@ -353,7 +353,7 @@ nav {
   left: 14px;
   transform: translateY(-6px);
   min-width: 160px;
-  background: rgba(30, 30, 30, 0.20);
+  background: rgba(30, 30, 30, 0.05);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border);
@@ -423,6 +423,7 @@ nav {
     background: var(--surface);
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
+    box-shadow: none;
   }
   .cuban3-link {
     display: none;
