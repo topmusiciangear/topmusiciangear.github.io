@@ -4368,5 +4368,95 @@
       "amazon": "https://www.amazon.com/dp/B0DDL8WGH5",
       "official": "https://www.dji.com/mic-mini"
     }
+  },
+  {
+    "id": 255,
+    "title": "Roland SP-404MKII",
+    "title_es": "Roland SP-404MKII",
+    "brand": "Roland",
+    "category": "drum-machine",
+    "price": 500,
+    "rating": 4.8,
+    "reviews": 75000,
+    "badge": "bestSeller",
+    "desc": "The SP-404MKII is the most popular sampler in modern beat culture, and for good reason. It keeps the iconic 16-pad, battery-powered workflow that lo-fi and hip-hop producers swear by, then adds a backlit LCD, 37 DJ-style effects, a built-in mic and speaker, USB-C audio interface duties, and the legendary SP sound that makes everything you put through it feel instantly musical.",
+    "desc_es": "El SP-404MKII es el sampler más popular de la cultura beat moderna, y con razón. Mantiene el icónico flujo de 16 pads con batería que los productores de lo-fi e hip-hop juran, y añade una pantalla LCD retroiluminada, 37 efectos estilo DJ, micrófono y altavoz integrados, interfaz de audio por USB-C y el legendario sonido SP que hace que todo lo que pase por él suene al instante musical.",
+    "img": "https://m.media-amazon.com/images/I/91IcB+s1XUL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B09J1TMSYV",
+      "official": "https://www.roland.com/us/products/sp-404mk2/"
+    }
+  },
+  {
+    "id": 256,
+    "title": "Akai MPC One G2",
+    "title_es": "Akai MPC One G2",
+    "brand": "Akai Professional",
+    "category": "drum-machine",
+    "price": 799,
+    "rating": 4.9,
+    "reviews": 16,
+    "badge": "topQuality",
+    "desc": "The MPC One G2 is the newest standalone MPC: an 8-core processor with four times the power of the previous generation, a 7-inch touchscreen, 16 velocity-sensitive RGB pads, USB-C with 24x24 audio, and MPC3 OS with up to 16 stereo audio tracks and 32 plugin instruments per project. It ships with over 20GB of factory content, Native Instruments and Spitfire Audio MPC Editions, and two months of Splice access.",
+    "desc_es": "El MPC One G2 es el MPC independiente más nuevo: un procesador de 8 núcleos con cuatro veces la potencia de la generación anterior, pantalla táctil de 7 pulgadas, 16 pads RGB sensibles a la velocidad, USB-C con audio 24x24 y MPC3 OS con hasta 16 pistas de audio estéreo y 32 instrumentos plugin por proyecto. Incluye más de 20GB de contenido de fábrica, ediciones MPC de Native Instruments y Spitfire Audio, y dos meses de acceso a Splice.",
+    "img": "https://m.media-amazon.com/images/I/81qYkGX+pRL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0H2ZBMHX6",
+      "official": "https://www.akaipro.com/mpc-one-g2/"
+    }
+  },
+  {
+    "id": 257,
+    "title": "Akai MPC Sample",
+    "title_es": "Akai MPC Sample",
+    "brand": "Akai Professional",
+    "category": "drum-machine",
+    "price": 399,
+    "rating": 4.8,
+    "reviews": 366,
+    "badge": "bestSeller",
+    "desc": "The MPC Sample is Akai's portable sampler that brings the classic MPC60 workflow to a battery-powered, pocket-friendly format. It has 16 responsive MPC pads, a 2.4-inch color display, a built-in mic and speaker, 60 effect types across four FX processors, over 100 factory kits, a rechargeable battery with around 5 hours of play, and USB-C sampling from phones and tablets — no computer required.",
+    "desc_es": "El MPC Sample es el sampler portátil de Akai que lleva el clásico flujo MPC60 a un formato compacto con batería. Tiene 16 pads MPC responsivos, pantalla a color de 2.4 pulgadas, micrófono y altavoz integrados, 60 tipos de efecto en cuatro procesadores FX, más de 100 kits de fábrica, batería recargable con unas 5 horas de uso y muestreo por USB-C desde teléfonos y tablets — sin necesidad de computadora.",
+    "img": "https://m.media-amazon.com/images/I/81DS2MNYkOL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0GNMZB7GB",
+      "official": "https://www.akaipro.com/mpc-sample/"
+    }
+  },
+  {
+    "id": 258,
+    "title": "IK Multimedia TONEX ONE",
+    "title_es": "IK Multimedia TONEX ONE",
+    "brand": "IK Multimedia",
+    "category": "pedals",
+    "price": 179,
+    "rating": 4.3,
+    "reviews": 521,
+    "badge": "bestSeller",
+    "desc": "The TONEX ONE crams the Tone Model engine of the award-winning TONEX pedal into a mini pedal smaller than a deck of cards. It loads hundreds of hyper-realistic amp models captured from real tube amps, including the legendary Satch Tone Models, runs on a single 9V battery, and works as a USB-C audio interface for direct recording. At $179 it is the cheapest gateway into premium amp modeling.",
+    "desc_es": "El TONEX ONE mete el motor de Tone Models del premiado pedal TONEX en un pedal mini más pequeño que una baraja. Carga cientos de modelos de amplificador hiperrealistas capturados de amplificadores de válvulas reales, incluidos los legendarios Satch Tone Models, funciona con una sola pila de 9V y actúa como interfaz de audio USB-C para grabar directo. A $179 es la puerta de entrada más económica al modelado de amplificadores premium.",
+    "img": "https://m.media-amazon.com/images/I/514wH6UZ-zL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0D2DG8QXT",
+      "official": "https://www.ikmultimedia.com/products/tonexone/"
+    }
+  },
+  {
+    "id": 259,
+    "title": "Line 6 POD Go",
+    "title_es": "Line 6 POD Go",
+    "brand": "Line 6",
+    "category": "pedals",
+    "price": 599,
+    "rating": 4.6,
+    "reviews": 999,
+    "badge": "bestSeller",
+    "desc": "The POD Go puts the acclaimed HX family of amp and effect models into an ultra-portable floorboard with a simple, plug-and-play interface. It loads more than 200 amps, cabs and effects from the Helix line, gives you a built-in expression pedal, a 4-footswitch layout with snapshots, and a USB audio interface for direct recording — all in a lightweight unit that fits in a backpack.",
+    "desc_es": "El POD Go pone la aclamada familia de modelos de amplificadores y efectos HX en un pedalera ultratportátil con interfaz simple plug-and-play. Carga más de 200 amplificadores, cabs y efectos de la línea Helix, incluye pedal de expresión integrado, una disposición de 4 interruptores con snapshots e interfaz de audio USB para grabar directo — todo en una unidad ligera que cabe en una mochila.",
+    "img": "https://m.media-amazon.com/images/I/61oevbOwWNL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0835QQM1H",
+      "official": "https://line6.com/podgo/"
+    }
   }
 ]
