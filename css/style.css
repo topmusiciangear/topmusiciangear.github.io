@@ -1331,7 +1331,12 @@ footer ul li a:hover { color: var(--accent); }
   scroll-margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-auto-rows: 1fr;
   gap: 24px;
+}
+
+.guide-card-wrap {
+  display: flex;
 }
 
 .guide-card-wrap.fan-in {
@@ -1398,6 +1403,8 @@ footer ul li a:hover { color: var(--accent); }
   border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .guide-card:hover {
