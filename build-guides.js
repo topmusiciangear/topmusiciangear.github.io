@@ -788,13 +788,12 @@ ${ogMeta}
         </ul>
       </div>
       <div class="footer-col">
-        <h3>${isEs ? 'Categorías' : 'Categories'}</h3>
+        <h3>${isEs ? 'Categorías principales' : 'Top Categories'}</h3>
         <ul>
           <li><a href="/#guides" data-cat="microphones">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
           <li><a href="/#guides" data-cat="interfaces">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>
           <li><a href="/#guides" data-cat="headphones">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
           <li><a href="/#guides" data-cat="monitors">${isEs ? 'Monitores' : 'Monitors'}</a></li>
-          <li><a href="/#guides" data-cat="plugins">${isEs ? 'Plugins' : 'Plugins'}</a></li>
           <li><a href="/#guides" data-cat="guitars">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
           <li><a href="/#guides" data-cat="basses">${isEs ? 'Bajos' : 'Basses'}</a></li>
         </ul>
