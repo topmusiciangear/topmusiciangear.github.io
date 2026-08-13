@@ -34,6 +34,7 @@ function criticalCss() {
 '.lang-flag{display:block;border-radius:2px;flex-shrink:0}',
     '.nav-link{padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
     '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
+    '.nav-dd{position:relative;display:inline-flex}.nav-dd-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1),opacity 0.2s;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}.nav-dd-btn:hover{color:var(--white);background:rgba(255,255,255,.05);transform:scale(1.1)}.nav-dd-caret{display:inline-flex;width:12px;height:12px;color:currentColor;transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);flex-shrink:0}.nav-dd.open .nav-dd-caret{transform:rotate(180deg)}.nav-dd-panel{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(-6px);min-width:200px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:6px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 0.2s cubic-bezier(0.4,0,0.2,1),transform 0.2s cubic-bezier(0.4,0,0.2,1),visibility 0.2s;z-index:120}.nav-dd.open .nav-dd-panel{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}.nav-dd-link{display:block;padding:9px 12px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:background 0.15s,color 0.15s}.nav-dd-link:hover{background:rgba(255,255,255,.06);color:var(--white)}.nav-dd-mobile{display:none}.nav-dd-mobile .nav-dd-panel{left:auto;right:0;transform:translateY(-6px)}.nav-dd-mobile.open .nav-dd-panel{transform:translateY(0)}',
     'body>*:not(header):not(.skip-link):not(.bg-hero):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
     '.bg-hero{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;background-image:url("../img/me-600.webp");background-size:cover;background-position:center;opacity:.12}',
 '.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:calc(100vh - 64px);box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
@@ -75,7 +76,7 @@ function criticalCss() {
     '.stat-item{text-align:center;padding:8px;contain:layout style}',
     '.stat-number{font-size:clamp(28px,4vw,38px);font-weight:900;background:linear-gradient(135deg,var(--accent),#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1}',
     '.stat-label{font-size:14px;color:var(--text-secondary);font-weight:500;margin-top:4px}',
-    '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:none}.hero{padding:12px 20px 40px;min-height:50vh}.hero h1{font-size:40px;margin-bottom:2px}.hero .hero-subtitle{font-size:40px}.hero p{margin-bottom:12px}.hero-badge{margin-bottom:4px}.hero-inner{gap:4px;min-height:auto;justify-content:flex-start;padding-top:8px}.stats-bar{padding:20px 16px}.stats-inner{grid-template-columns:repeat(3,1fr);gap:8px}.stat-number{font-size:24px;line-height:1}.stat-label{font-size:11px;margin-top:0}}',
+    '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:none}.hero{padding:12px 20px 40px;min-height:50vh}.hero h1{font-size:40px;margin-bottom:2px}.hero .hero-subtitle{font-size:40px}.hero p{margin-bottom:12px}.hero-badge{margin-bottom:4px}.hero-inner{gap:4px;min-height:auto;justify-content:flex-start;padding-top:8px}.stats-bar{padding:20px 16px}.stats-inner{grid-template-columns:repeat(3,1fr);gap:8px}.stat-number{font-size:24px;line-height:1}.stat-label{font-size:11px;margin-top:0}.nav-dd-mobile{display:inline-flex}.nav-dd-mobile .nav-dd-panel{min-width:180px}.cuban3-link{display:none}}',
     '.audio-eq{display:flex;align-items:flex-end;gap:2px;height:20px;opacity:0.3;transition:opacity 0.3s}.playing .audio-eq{opacity:1}.audio-eq i{display:block;width:3px;height:100%;background:var(--accent);border-radius:2px;transform-origin:bottom;animation:eq .8s ease-in-out infinite}.audio-eq i:nth-child(1){transform:scaleY(0.6);animation-delay:0s}.audio-eq i:nth-child(2){transform:scaleY(1);animation-delay:.2s}.audio-eq i:nth-child(3){transform:scaleY(0.4);animation-delay:.4s}.audio-eq i:nth-child(4){transform:scaleY(0.8);animation-delay:.6s}@keyframes eq{0%,100%{transform:scaleY(0.4)}50%{transform:scaleY(1)}}.playing .audio-mini-player{box-shadow:0 0 12px rgba(59,130,246,0.3);transition:box-shadow 0.3s}.audio-mini-player{transition:box-shadow 0.3s}#cookie-banner.cookie-visible{transform:translateY(0)!important}',
   ].join('');
 }
@@ -446,6 +447,18 @@ function guideCompControls(isEs, extra) {
   return '<div class="' + cls + '">' + l + guideCompProgress() + r + '</div>';
 }
 
+function navDropdown(isEs) {
+  return `<div class="nav-dd">
+    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg></button>
+    <div class="nav-dd-panel" role="menu">
+      <a class="nav-dd-link" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored">Gear4Music</a>
+      <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/" target="_blank" rel="noopener noreferrer sponsored">Andertons</a>
+      <a class="nav-dd-link" href="https://www.musicstore.com/en_OE/EUR/New-Products/cat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored">Music Store</a>
+      <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=65fd7463b5f28&gad_source=1&gad_campaignid=23953084266&gbraid=0AAAABBZvMhd9QWokzi5bVQA51ocA8i1cR&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k7lT3Rksx6r66LkI2QwlN4Bf1lJSPE3U70tvwkq6mKXV3yO0vMhqoxoC3IQQAvD_BwE" target="_blank" rel="noopener noreferrer sponsored">Plugin Boutique</a>
+    </div>
+  </div>`;
+}
+
 function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
@@ -649,7 +662,7 @@ ${ogMeta}
         </a>
         <nav aria-label="Main navigation">
           <a href="/#guides" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
-          <a href="/#mysetup" class="nav-link">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
+          ${navDropdown(isEs)}
           <a href="/#about" class="nav-link">${isEs ? 'Sobre Mí' : 'About Me'}</a>
         </nav>
       </div>
@@ -673,7 +686,10 @@ ${ogMeta}
           <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram"><svg data-fa="telegram" aria-hidden="true" class="icon fa-brands fa-telegram" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
           <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
         </div>
-        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
+        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" class="cuban3-link" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
+        </div>
+        <div class="nav-dd nav-dd-mobile">
+          ${navDropdown(isEs)}
         </div>
         <div class="lang-switcher">
           <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
@@ -688,7 +704,7 @@ ${ogMeta}
 
   <div class="mobile-nav" id="mobileNav">
     <a class="nav-link" href="/#guides">${isEs ? 'Guías' : 'Guides'}</a>
-    <a class="nav-link" href="/#mysetup">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
+    ${navDropdown(isEs)}
     <a class="nav-link" href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a>
   </div>
 
@@ -788,7 +804,7 @@ ${ogMeta}
         </ul>
       </div>
       <div class="footer-col">
-        <h3>${isEs ? 'Categorías principales' : 'Top Categories'}</h3>
+        <h3>${isEs ? 'Categorías Principales' : 'Top Categories'}</h3>
         <ul>
           <li><a href="/#guides" data-cat="microphones">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
           <li><a href="/#guides" data-cat="interfaces">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>

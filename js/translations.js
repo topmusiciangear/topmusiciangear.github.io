@@ -149,7 +149,7 @@ const translations = {
     audioLabel: "Tres Cubano, Bajo y Guitarra — tocados y grabados con mi equipo personal",
     footerHome: "Inicio",
     footerAbout: "Sobre Mí",
-    footerCategories: "Categorías principales",
+    footerCategories: "Categorías Principales",
     footerLegal: "Legal",
     footerPrivacy: "Política de Privacidad",
     footerTerms: "Términos de Servicio",

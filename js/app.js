@@ -1317,3 +1317,23 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   });
 });
+
+window.toggleNavDropdown = function(btn) {
+  const dd = btn.closest('.nav-dd');
+  if (!dd) return;
+  const willOpen = !dd.classList.contains('open');
+  document.querySelectorAll('.nav-dd.open').forEach(function(d) {
+    if (d !== dd) d.classList.remove('open');
+  });
+  dd.classList.toggle('open', willOpen);
+  if (btn.getAttribute('aria-haspopup')) {
+    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+  }
+};
+
+document.addEventListener('click', function(e) {
+  const dd = e.target.closest('.nav-dd');
+  document.querySelectorAll('.nav-dd.open').forEach(function(d) {
+    if (!dd || dd !== d) d.classList.remove('open');
+  });
+});

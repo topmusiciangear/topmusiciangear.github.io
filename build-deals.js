@@ -49,6 +49,16 @@ const buildPage = (lang) => {
 
   const navLink = (href, en, es, active) => `<a href="${href}" class="nav-link${active ? ' active' : ''}">${isEs ? es : en}</a>`;
 
+  const navDropdown = `<div class="nav-dd">
+    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg></button>
+    <div class="nav-dd-panel" role="menu">
+      <a class="nav-dd-link" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored">Gear4Music</a>
+      <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/" target="_blank" rel="noopener noreferrer sponsored">Andertons</a>
+      <a class="nav-dd-link" href="https://www.musicstore.com/en_OE/EUR/New-Products/cat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored">Music Store</a>
+      <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=65fd7463b5f28&gad_source=1&gad_campaignid=23953084266&gbraid=0AAAABBZvMhd9QWokzi5bVQA51ocA8i1cR&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k7lT3Rksx6r66LkI2QwlN4Bf1lJSPE3U70tvwkq6mKXV3yO0vMhqoxoC3IQQAvD_BwE" target="_blank" rel="noopener noreferrer sponsored">Plugin Boutique</a>
+    </div>
+  </div>`;
+
   const header = `
   <a href="#mainContent" class="skip-link">Skip to main content</a>
   <div class="bg-hero"></div>
@@ -65,7 +75,7 @@ const buildPage = (lang) => {
         <nav aria-label="Main navigation">
           ${navLink('/#guides', 'Guides', 'Guías')}
           ${navLink(dealsHref, 'Deals', 'Ofertas', true)}
-          ${navLink('/#mysetup', 'My Setup', 'Mi Equipo')}
+          ${navDropdown}
           ${navLink('/#about', 'About Me', 'Sobre Mí')}
         </nav>
       </div>
@@ -89,7 +99,10 @@ const buildPage = (lang) => {
           ${social('telegram')}
           <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
         </div>
-        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
+        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" class="cuban3-link" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
+        </div>
+        <div class="nav-dd nav-dd-mobile">
+          ${navDropdown}
         </div>
         <div class="lang-switcher">
           <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? '/deals.html' : '#'}'">${flagEn}</button>
@@ -105,7 +118,7 @@ const buildPage = (lang) => {
   <div class="mobile-nav" id="mobileNav">
     ${navLink('/#guides', 'Guides', 'Guías')}
     ${navLink(dealsHref, 'Deals', 'Ofertas', true)}
-    ${navLink('/#mysetup', 'My Setup', 'Mi Equipo')}
+    ${navDropdown}
     ${navLink('/#about', 'About Me', 'Sobre Mí')}
   </div>
 `;
@@ -192,7 +205,7 @@ const buildPage = (lang) => {
   <meta name="twitter:description" content="${twDesc}">
   <meta name="twitter:site" content="@Cuban3Beats">
   <link rel="icon" type="image/png" href="img/favicon.png?v=2">
-  <link rel="stylesheet" href="css/style.css?v=28">
+  <link rel="stylesheet" href="css/style.css?v=30">
   <style>
     body { background: var(--bg); }
     .deals-page { max-width: 1100px; margin: 0 auto; padding: 12px 32px 64px; }
@@ -274,6 +287,10 @@ const buildPage = (lang) => {
     </div>
     <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. All rights reserved.</p>
   </footer>
+  <script>
+  window.toggleNavDropdown=function(b){var d=b.closest('.nav-dd');if(!d)return;var w=!d.classList.contains('open');document.querySelectorAll('.nav-dd.open').forEach(function(x){if(x!==d)x.classList.remove('open')});d.classList.toggle('open',w);if(b.getAttribute('aria-haspopup'))b.setAttribute('aria-expanded',w?'true':'false')};
+  document.addEventListener('click',function(e){var dd=e.target.closest('.nav-dd');document.querySelectorAll('.nav-dd.open').forEach(function(d){if(!dd||dd!==d)d.classList.remove('open')})});
+  </script>
 </body>
 </html>
 `;
