@@ -65,8 +65,8 @@ function criticalCss() {
     '.guide-comp-table td.label{font-weight:600;color:var(--accent);white-space:nowrap;width:1%}',
     '.guide-comp-table td.val{color:var(--text-secondary)}',
     '.guide-comp-title{font-size:22px;font-weight:700;margin:8px 0 16px;text-align:center}',
-    '.guide-comp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--accent) var(--surface);flex:1 1 auto;min-width:0}.guide-comp-scroll::-webkit-scrollbar{height:10px}.guide-comp-scroll::-webkit-scrollbar-track{background:var(--surface);border-radius:6px}.guide-comp-scroll::-webkit-scrollbar-thumb{background:var(--accent);border-radius:6px}.guide-comp-scroll::-webkit-scrollbar-thumb:hover{background:var(--accent-dark)}.guide-comp-scroll-wrap{display:flex;align-items:center;gap:0}.guide-comp-arrow{flex:0 0 auto;width:38px;height:38px;background:none;border:none;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:color .2s}.guide-comp-arrow:hover{color:var(--accent)}.guide-comp-arrow svg{width:16px;height:16px;filter:drop-shadow(0 0 4px rgba(0,0,0,.5))}.guide-comp-arrow-right svg{transform:rotate(180deg)}',
-    '@media(max-width:768px){.guide-comp-table{font-size:14px}.guide-comp-table td{padding:3px 4px}.guide-comp-table th{white-space:nowrap;padding:5px 4px}.guide-comp-title{font-size:17px;margin:4px 0 8px}.guide-comp-arrow{width:32px;height:32px}.guide-comp-arrow svg{width:14px;height:14px}.guide-comp-scroll-wrap{gap:0}}',
+    '.guide-comp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--accent) var(--surface);flex:1 1 auto;min-width:0}.guide-comp-scroll::-webkit-scrollbar{height:10px}.guide-comp-scroll::-webkit-scrollbar-track{background:var(--surface);border-radius:6px}.guide-comp-scroll::-webkit-scrollbar-thumb{background:var(--accent);border-radius:6px}.guide-comp-scroll::-webkit-scrollbar-thumb:hover{background:var(--accent-dark)}.guide-comp-scroll-wrap{display:flex;align-items:center;gap:10px}.guide-comp-arrow{flex:0 0 auto;width:38px;height:38px;border-radius:50%;border:1px solid var(--border);background:var(--surface);color:var(--accent);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s,color .2s,border-color .2s}.guide-comp-arrow:hover{background:var(--accent);color:#fff;border-color:var(--accent)}.guide-comp-arrow svg{width:16px;height:16px}.guide-comp-arrow-right svg{transform:rotate(180deg)}',
+    '@media(max-width:768px){.guide-comp-table{font-size:12px}.guide-comp-table td{padding:3px 4px}.guide-comp-table th{white-space:nowrap;padding:5px 4px}.guide-comp-title{font-size:17px;margin:4px 0 8px}.guide-comp-arrow{width:32px;height:32px}.guide-comp-arrow svg{width:14px;height:14px}.guide-comp-scroll-wrap{gap:6px}}',
 
     '.stats-bar{background:rgba(10,10,10,0.5);border-bottom:1px solid rgba(255,255,255,0.05);padding:28px 32px}',
     '.stats-inner{max-width:none;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}',
@@ -167,7 +167,7 @@ function getResolvedStores(product) {
 
 function formatPrice(price) {
   if (price >= 1000) return `$${(price / 1000).toFixed(1)}k`;
-  return `$${Math.round(price)}`;
+  return `$${price}`;
 }
 
 function capitalizeUnit(u) {
@@ -207,13 +207,17 @@ function productRatingLine(p, lang) {
   return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
 }
 
-function productCard(p, lang) {
-  const title = lang === 'es' && p.title_es ? p.title_es : p.title;
-  const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
-  const stores = Object.entries(getResolvedStores(p)).map(([key, url]) => {
+function storeChips(p) {
+  return Object.entries(getResolvedStores(p)).map(([key, url]) => {
     const iconHtml = storeIcons[key] ? '<span class="icon">' + fixIconPath(storeIcons[key]) + '</span>' : '';
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
   }).join("");
+}
+
+function productCard(p, lang) {
+  const title = lang === 'es' && p.title_es ? p.title_es : p.title;
+  const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
+  const stores = storeChips(p);
   return `<div class="guide-product-card">
     <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
     <div class="guide-product-card-body">
@@ -452,12 +456,13 @@ function buildGuidePage(guide, lang, idx) {
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
     const firstProduct = sectionProducts.length ? sectionProducts[0] : null;
+    const sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>' : '';
     const productImgs = firstProduct ? '<div class="guide-section-imgs">' +
       '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
     '</div>' : '';
     return `<div class="guide-section">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
-      <div class="guide-section-content">${boldedC}${productImgs}</div>
+      <div class="guide-section-content">${boldedC}${sectionChips}${productImgs}</div>
     </div>`;
   }).join('');
 
@@ -629,7 +634,6 @@ ${ogMeta}
         </a>
         <nav aria-label="Main navigation">
           <a href="/#guides" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
-          <a href="/deals.html" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
           <a href="/#mysetup" class="nav-link">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
           <a href="/#about" class="nav-link">${isEs ? 'Sobre Mí' : 'About Me'}</a>
         </nav>
@@ -669,7 +673,6 @@ ${ogMeta}
 
   <div class="mobile-nav" id="mobileNav">
     <a class="nav-link" href="/#guides">${isEs ? 'Guías' : 'Guides'}</a>
-    <a class="nav-link" href="/deals.html">${isEs ? 'Ofertas' : 'Deals'}</a>
     <a class="nav-link" href="/#mysetup">${isEs ? 'Mi Equipo' : 'My Setup'}</a>
     <a class="nav-link" href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a>
   </div>
@@ -764,7 +767,6 @@ ${ogMeta}
           <li><a href="/">${isEs ? 'Inicio' : 'Home'}</a></li>
           <li><a href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a></li>
           <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> ${isEs ? 'Contáctanos' : 'Contact Us'}</a></li>
-          <li><a href="/deals.html">${isEs ? 'Ofertas de Hoy' : "Today's Deals"}</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -792,6 +794,10 @@ ${ogMeta}
     </div>
     <div class="footer-bottom">
       <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
+      <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
+      <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
+    </div>
+  </footer>
 
   <!-- Affiliate Disclosure Modal -->
   <div id="affiliate-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)">
@@ -804,7 +810,7 @@ ${ogMeta}
   </div>
 
   <!-- Cookie Consent Banner -->
-<div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(calc(100% + 4px));transition:transform .3s ease">
+<div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(100%);transition:transform .3s ease">
   <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalise content, and analyse website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website&#39;s cookie use as described in our <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span><span class="cookie-lang-es">Usamos cookies esenciales para que nuestro sitio funcione. Con tu consentimiento, tambi&eacute;n podemos usar cookies no esenciales para mejorar la experiencia, personalizar contenido y analizar el tr&aacute;fico. Por estas razones, podemos compartir tus datos de uso con nuestros socios de an&aacute;lisis. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies como se describe en nuestra <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Pol&iacute;tica de Cookies</a>. Puedes cambiar tu configuraci&oacute;n en cualquier momento haciendo clic en <strong>Preferencias</strong>.</span></p>
   <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap">
     <button id="cb-prefs" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span><span class="cookie-lang-es">Preferencias</span></button>
@@ -892,7 +898,6 @@ function buildSitemap() {
     { loc: '/', priority: '1.0', changefreq: 'weekly' },
     { loc: '/about.html', priority: '0.7', changefreq: 'monthly' },
     { loc: '/contact.html', priority: '0.5', changefreq: 'monthly' },
-    { loc: '/deals.html', priority: '0.8', changefreq: 'daily' },
     { loc: '/affiliate-disclosure.html', priority: '0.4', changefreq: 'monthly' },
     { loc: '/cookie-policy.html', priority: '0.4', changefreq: 'monthly' },
     { loc: '/terms.html', priority: '0.4', changefreq: 'monthly' },
