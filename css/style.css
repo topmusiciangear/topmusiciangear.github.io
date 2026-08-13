@@ -345,10 +345,12 @@ nav {
 .nav-dd-panel {
   position: absolute;
   top: calc(100% + 8px);
-  left: 0;
+  left: 14px;
   transform: translateY(-6px);
   min-width: 160px;
-  background: var(--surface);
+  background: rgba(30, 30, 30, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-md);
@@ -398,8 +400,8 @@ nav {
 }
 
 .nav-dd-mobile .nav-dd-panel {
-  left: auto;
-  right: 0;
+  left: 14px;
+  right: auto;
   transform: translateY(-6px);
 }
 
