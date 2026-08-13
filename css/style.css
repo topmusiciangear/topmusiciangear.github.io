@@ -420,6 +420,9 @@ nav {
   }
   .nav-dd-mobile .nav-dd-panel {
     min-width: 160px;
+    background: var(--surface);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
   .cuban3-link {
     display: none;
