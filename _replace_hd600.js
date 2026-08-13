@@ -147,8 +147,8 @@ console.log('comparison guide rewritten ->', cmp.id);
 const bh = findGuide('best-headphones');
 bh.sections[2].heading = 'Is the Sennheiser HD 490 Pro Plus the Best Headphones for Studio Monitoring and Mixing?';
 bh.sections[2].heading_es = '\u00bfEs el Sennheiser HD 490 Pro Plus el Mejor Auricular para Monitoreo y Mezcla de Estudio?';
-bh.sections[2].content = '<strong>If you\u0027re mixing, you need an open-back reference. </strong>The HD 490 Pro Plus is the most natural, neutral open-back reference under $1,000 \u2014 and now with real low end. No boosted bass, no hyped highs \u2014 just truth, and at 130 ohms it drives from any interface. I\u0027ve A/B\u0027d these against $3,000 headphones and the HD 490 Pro Plus holds its own. They reveal what your mix actually sounds like, and that\u0027s exactly what you want when making decisions.';
-bh.sections[2].content_es = '<strong>Si est\u00e1s mezclando, necesitas una referencia abierta. </strong>Los HD 490 Pro Plus son la referencia abierta m\u00e1s natural y neutra por menos de $1,000 \u2014 y ahora con graves reales. Sin graves exagerados, sin agudos artificiales \u2014 solo verdad, y a 130 ohmios funcionan desde cualquier interfaz. Los he comparado con auriculares de $3,000 y los HD 490 Pro Plus se mantienen firmes. Revelan c\u00f3mo suena realmente tu mezcla, y eso es exactamente lo que quieres al tomar decisiones.';
+bh.sections[2].content = '<strong>If you\u0027re mixing, you need an open-back reference. </strong>The HD 490 Pro Plus is the most natural, neutral open-back reference under $1,000 \u2014 and now with real low end. No boosted bass, no hyped highs \u2014 just truth, and at 130 ohms it drives from any interface. I\u0027ve A/B\u0027d these against far more expensive headphones and the HD 490 Pro Plus holds its own. They reveal what your mix actually sounds like, and that\u0027s exactly what you want when making decisions.';
+bh.sections[2].content_es = '<strong>Si est\u00e1s mezclando, necesitas una referencia abierta. </strong>Los HD 490 Pro Plus son la referencia abierta m\u00e1s natural y neutra por menos de $1,000 \u2014 y ahora con graves reales. Sin graves exagerados, sin agudos artificiales \u2014 solo verdad, y a 130 ohmios funcionan desde cualquier interfaz. Los he comparado con auriculares mucho m\u00e1s caros y los HD 490 Pro Plus se mantienen firmes. Revelan c\u00f3mo suena realmente tu mezcla, y eso es exactamente lo que quieres al tomar decisiones.';
 
 bh.conclusion = 'Need one pair for everything? Get the DT 770 Pro. Mixing only? HD 490 Pro Plus. Starting out? ATH-M50x. Budget? MDR-7506. Each has its strengths depending on the job. If I could only keep one, it\u0027d be the HD 490 Pro Plus \u2014 but that\u0027s because I mix more than I track. <p>For more headphone guides, see our <a href="/guides/open-headphones.html">best open-back headphones guide</a>, <a href="/guides/budget-headphones.html">budget headphones guide</a>, <a href="/guides/tracking-headphones.html">tracking headphones guide</a>, and our <a href="/guides/dt770-vs-dt990.html">DT 770 vs DT 990 comparison</a>.</p>';
 bh.conclusion_es = '\u00bfNecesitas un par para todo? Consigue los DT 770 Pro. \u00bfSolo mezcla? HD 490 Pro Plus. \u00bfEmpezando? ATH-M50x. \u00bfPresupuesto? MDR-7506. Tengo los cuatro y uso diferentes seg\u00fan el trabajo. Si solo pudiera quedarme con uno, ser\u00eda el HD 490 Pro Plus \u2014 pero es porque mezclo m\u00e1s de lo que grabo. <p>Para m\u00e1s gu\u00edas de auriculares, consulta nuestra <a href="/guides/open-headphones_es.html">gu\u00eda de auriculares abiertos</a>, <a href="/guides/budget-headphones_es.html">gu\u00eda de auriculares econ\u00f3micos</a>, <a href="/guides/tracking-headphones_es.html">gu\u00eda de auriculares de grabaci\u00f3n</a>, y nuestra <a href="/guides/dt770-vs-dt990_es.html">comparativa DT 770 vs DT 990</a>.</p> <p>Tambi\u00e9n te puede interesar: <a href="/guides/budget-headphones_es.html">Mejores Auriculares de Estudio Econ\u00f3micos por Menos de $150</a>, <a href="/guides/open-headphones_es.html">Mejores Auriculares Abiertos para Mezcla</a> y <a href="/guides/tracking-headphones_es.html">Mejores Auriculares Cerrados para Mezcla y Grabaci\u00f3n</a>.</p>';
@@ -203,13 +203,13 @@ bh.verdictProsCons.forEach(v => {
     v.name = 'Sennheiser HD 490 Pro Plus'; v.name_es = 'Sennheiser HD 490 Pro Plus';
     v.pros = [
       'One of the most natural, neutral open-back references under $1,000 \u2014 now with real, defined low end',
-      'A/B tested against $3,000 headphones and holds its own',
+      'A/B tested against far more expensive headphones and holds its own',
       'Open-back wide soundstage \u2014 panned instruments sound like distinct 3D objects',
       '130-ohm impedance drives from any interface \u2014 no amp required'
     ];
     v.pros_es = [
       'Una de las referencias abiertas m\u00e1s naturales y neutras por menos de $1,000 \u2014 ahora con graves reales y definidos',
-      'Comparados contra auriculares de $3,000 y aguantan el tipo',
+      'Comparados contra auriculares mucho m\u00e1s caros y aguantan el tipo',
       'Escenario abierto y amplio \u2014 los instrumentos paneados suenan como objetos 3D distintos',
       'Impedancia de 130 ohmios que funciona desde cualquier interfaz \u2014 sin amplificador'
     ];
