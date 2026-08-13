@@ -231,6 +231,7 @@ function productCard(p, lang) {
       <div class="guide-product-card-price">${formatPrice(p.price)}${p.unit ? ` <small>(${capitalizeUnit(lang === 'es' ? (p.unit_es || p.unit) : p.unit)})</small>` : ''}</div>
       <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
       <div class="guide-product-card-stores">${stores}</div>
+      <div class="guide-product-card-currency-note">${lang === 'es' ? 'Precios aproximados. El precio final se muestra en tu moneda local al pagar.' : 'Prices approximate. Final price shown in your local currency at checkout.'}</div>
     </div>
   </div>`;
 }

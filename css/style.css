@@ -1893,6 +1893,14 @@ footer ul li a:hover { color: var(--accent); }
   flex-wrap: wrap;
 }
 
+.guide-product-card-currency-note {
+  margin-top: 6px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--text-muted);
+  opacity: .8;
+}
+
 .chip-store { 
   display: inline-flex;
   align-items: center;
