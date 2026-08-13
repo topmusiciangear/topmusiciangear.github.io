@@ -437,8 +437,8 @@ function guideCompProgress() {
 }
 
 function guideCompControls(isEs, extra) {
-  var l = '<button type="button" class="guide-comp-arrow guide-comp-arrow-left" onclick="var s=this.closest(\'.guide-comp-scroll-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:-Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la izquierda' : 'Scroll left') + '">' + icon('chevron-left', 'fa-solid') + '</button>';
-  var r = '<button type="button" class="guide-comp-arrow guide-comp-arrow-right" onclick="var s=this.closest(\'.guide-comp-scroll-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la derecha' : 'Scroll right') + '">' + icon('chevron-right', 'fa-solid') + '</button>';
+  var l = '<button type="button" class="guide-comp-arrow guide-comp-arrow-left" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:-Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la izquierda' : 'Scroll left') + '">' + icon('chevron-left', 'fa-solid') + '</button>';
+  var r = '<button type="button" class="guide-comp-arrow guide-comp-arrow-right" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la derecha' : 'Scroll right') + '">' + icon('chevron-right', 'fa-solid') + '</button>';
   var cls = 'guide-comp-controls' + (extra ? ' ' + extra : '');
   return '<div class="' + cls + '">' + l + guideCompProgress() + r + '</div>';
 }
