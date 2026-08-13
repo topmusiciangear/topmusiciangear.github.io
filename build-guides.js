@@ -451,10 +451,10 @@ function navDropdown(isEs) {
   return `<div class="nav-dd">
     <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg></button>
     <div class="nav-dd-panel" role="menu">
-      <a class="nav-dd-link" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored">Gear4Music</a>
-      <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/" target="_blank" rel="noopener noreferrer sponsored">Andertons</a>
-      <a class="nav-dd-link" href="https://www.musicstore.com/en_OE/EUR/New-Products/cat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored">Music Store</a>
-      <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=65fd7463b5f28&gad_source=1&gad_campaignid=23953084266&gbraid=0AAAABBZvMhd9QWokzi5bVQA51ocA8i1cR&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k7lT3Rksx6r66LkI2QwlN4Bf1lJSPE3U70tvwkq6mKXV3yO0vMhqoxoC3IQQAvD_BwE" target="_blank" rel="noopener noreferrer sponsored">Plugin Boutique</a>
+      <a class="nav-dd-link" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
+      <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
+      <a class="nav-dd-link" href="https://www.musicstore.com/en_OE/EUR/New-Products/cat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/musicstore-icon.png" alt="" class="nav-dd-link-icon">Music Store</a>
+      <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=65fd7463b5f28&gad_source=1&gad_campaignid=23953084266&gbraid=0AAAABBZvMhd9QWokzi5bVQA51ocA8i1cR&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k7lT3Rksx6r66LkI2QwlN4Bf1lJSPE3U70tvwkq6mKXV3yO0vMhqoxoC3IQQAvD_BwE" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/pluginboutique-icon.png" alt="" class="nav-dd-link-icon">Plugin Boutique</a>
     </div>
   </div>`;
 }
@@ -663,7 +663,6 @@ ${ogMeta}
         <nav aria-label="Main navigation">
           <a href="/#guides" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
           ${navDropdown(isEs)}
-          <a href="/#about" class="nav-link">${isEs ? 'Sobre Mí' : 'About Me'}</a>
         </nav>
       </div>
       <div class="audio-mini" id="audioMini">
@@ -705,7 +704,6 @@ ${ogMeta}
   <div class="mobile-nav" id="mobileNav">
     <a class="nav-link" href="/#guides">${isEs ? 'Guías' : 'Guides'}</a>
     ${navDropdown(isEs)}
-    <a class="nav-link" href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a>
   </div>
 
   <main id="mainContent">
