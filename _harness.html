@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html><head><style>iframe{width:100%;height:0;border:0}</style></head><body>
+<script>
+var files = 'ableton-vs-fl-studio.html','ableton-vs-logic.html','acoustic-guitars-guide.html','active-vs-passive-pa.html','adam-vs-genelec.html','american-pro-vs-les-paul.html','apollo-vs-babyface.html','audient-vs-motu.html','beat-making.html','beginner-bass-guitars.html','beginner-guitar.html','best-analog-mixers.html','best-bass-amps.html','best-beginner-electric-guitar.html','best-compact-mixers.html','best-daw-for-beginners.html','best-digital-mixers.html','best-digital-pianos.html','best-drum-machine.html','best-electric-guitar.html','best-electric-under-500.html','best-grooveboxes.html','best-guitar-home-office.html','best-headphones-for-mixing.html','best-headphones.html','best-instrument-mics.html','best-interface.html','best-keyboard.html','best-live-sound-mixers.html','best-live-subwoofers.html','best-looper-pedals.html','best-mic-for-guitar-amps.html','best-mic-for-podcasting.html','best-microphone.html','best-monitors-for-small-rooms.html','best-monitors.html','best-multi-effects-pedals.html','best-overdrive-distortion.html','best-pa-speakers.html','best-plugins.html','best-practice-amps.html','best-reverb-delay.html','best-samplers-drum-computers.html','best-synthesizers.html','blues-junior-vs-ac30.html','budget-bass-like-expensive.html','budget-headphones.html','budget-interfaces.html','budget-mics.html','budget-monitors.html','budget-pa-systems.html','c414-vs-u87.html','channel-strip-plugins.html','daw-guide.html','digitakt-ii-vs-tr8s.html','dt770-vs-dt990.html','dxr-vs-prx.html','ew100-vs-ulxd.html','fabfilter-vs-ozone.html','fender-bass-guide.html','fender-guide.html','fix-clipping-scarlett.html','fx-plugins.html','guitar-bass-amps.html','guitar-pedals.html','hd490-pro-vs-dt990.html','hs8-vs-rokit-7.html','jbl-vs-kali.html','k371-vs-mdr7506.html','katana-vs-dsl.html','live-sound-pa.html','m50x-vs-dt770.html','m50x-vs-mdr7506.html','martin-d28-vs-taylor-314.html','me90-vs-mx5.html','midi-controllers.html','midi-keyboards.html','mixing-plugins.html','monitor-setup.html','nord-stage-4-vs-montage-m8x.html','nx912-vs-pxm12mp.html','open-headphones.html','player-strat-vs-pacifica.html','portable-interfaces.html','precision-vs-jazz.html','pro-basses.html','pro-daw.html','pro-drum-machines.html','pro-guitars.html','pro-headphones.html','pro-interfaces.html','pro-keyboards.html','pro-live-sound.html','pro-microphones.html','pro-mixers.html','pro-monitors.html','pro-plugins.html','pro-synths.html','pro-tools-vs-cubase.html','re20-vs-sm7b.html','review.html','rme-vs-motu.html','scarlett-vs-motu.html','scarlett-vs-ssl.html','scarlett-vs-volt.html','sm57-vs-md421.html','sm57-vs-sm58.html','sm7b-vs-nt1.html','small-room-monitors.html','stage-mics.html','stage-wedges.html','stage-wireless.html','starter-studio.html','studio-furniture.html','studio-subwoofers.html','tracking-headphones.html','ts9-vs-bd2.html','tube-ribbon-mics.html','usb-mics.html','vocal-plugins.html','xr18-vs-cq18t.html','xr18-vs-m32r.html','yamaha-mg-vs-behringer-xenyx.html','zlx-vs-k12.html';
+var results = [];
+var idx = 0;
+function next(){
+  if(idx>=files.length){ document.title = 'DONE:'+results.join('|'); return; }
+  var f = files[idx];
+  var fr = document.createElement('iframe');
+  fr.src = '/guides/' + f;
+  fr.onload = function(){
+    try{
+      var d = fr.contentDocument;
+      var wraps = d.querySelectorAll('.guide-comp-wrap');
+      var overflow = [];
+      wraps.forEach(function(w,i){
+        var s = w.querySelector('.guide-comp-scroll');
+        if(!s) return;
+        var sw = s.scrollWidth, cw = s.clientWidth;
+        if(sw > cw+1) overflow.push('T'+i+':'+sw+'>'+cw);
+      });
+      results.push(f + (overflow.length?'['+overflow.join(',').replace(/ /g,'_')+']':''));
+    }catch(e){ results.push(f+':ERR'); }
+    idx++; next();
+  };
+  document.body.appendChild(fr);
+}
+next();
+</script></body></html>

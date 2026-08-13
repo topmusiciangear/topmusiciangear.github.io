@@ -3,7 +3,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { icon } = require('./js/icons.js');
 
-function criticalCss() {
+function criticalCss(maxNameLen) {
   return [
     '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:swap;font-weight:400 900;font-style:normal}',
     '*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}',
@@ -65,6 +65,7 @@ function criticalCss() {
     '.guide-comp-table th:first-child,.guide-comp-table td.label{position:sticky;left:0;z-index:2;background:var(--bg);box-shadow:1px 0 0 var(--border)}',
     '.guide-comp-table td.label{font-weight:600;color:var(--accent);white-space:nowrap;width:1%}',
     '.guide-comp-table td.val{color:var(--text-secondary)}',
+    ('.guide-comp-table th:not(:first-child),.guide-comp-table td:not(.label){min-width:' + (maxNameLen + 2) + 'ch}'),
     '.guide-comp-title{font-size:22px;font-weight:700;margin:8px 0 16px;text-align:center}',
     '.guide-comp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;min-width:0}.guide-comp-scroll::-webkit-scrollbar{display:none}.guide-comp-scroll-wrap{margin:24px 0}.guide-comp-controls{display:flex;align-items:center;gap:12px;margin:12px 0 0}.guide-comp-controls-top{margin:0 0 10px}.guide-comp-progress{flex:1;min-width:0;height:4px;background:var(--border);border-radius:99px;overflow:hidden}.guide-comp-progress-bar{height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .15s ease}.guide-comp-arrow{background:none;border:none;color:#fff;cursor:pointer;font-size:22px;line-height:1;padding:6px;box-shadow:none;-webkit-tap-highlight-color:transparent;display:inline-flex;align-items:center;justify-content:center;transition:color .2s}.guide-comp-arrow:hover,.guide-comp-arrow:active{color:var(--accent)}.guide-comp-arrow svg{width:1em;height:1em;filter:drop-shadow(0 0 6px rgba(0,0,0,.6))}.guide-comp-arrow-left{margin-left:-6.7px}.guide-comp-arrow-right{margin-right:-6.7px}',
     '@media(max-width:768px){.guide-comp-table{font-size:13px}.guide-comp-table td{padding:3px 4px}.guide-comp-table th{white-space:nowrap;padding:5px 4px}.guide-comp-title{font-size:17px;margin:4px 0 8px}.guide-comp-scroll-wrap{margin:16px 0}.guide-comp-controls{gap:12px}.guide-comp-arrow{font-size:20px}}@media(max-width:480px){.guide-comp-arrow{font-size:18px}}',
@@ -100,6 +101,25 @@ guides.forEach(g => {
 guides.forEach(g => {
   if (g.comparison && Array.isArray(g.comparison.rows)) {
     g.comparison.rows = g.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating');
+  }
+});
+
+// Longest product name across all guides (EN+ES) so every comparison table shares the same column width
+let MAX_NAME_LEN = 0;
+guides.forEach(g => {
+  if (g.featuredSnippet) {
+    ['name1_en', 'name2_en', 'name1_es', 'name2_es'].forEach(k => {
+      const v = g.featuredSnippet[k];
+      if (v) MAX_NAME_LEN = Math.max(MAX_NAME_LEN, v.length);
+    });
+  }
+  if (g.productTable && g.productTable.columns) {
+    g.productTable.columns.forEach(c => {
+      ['title', 'title_es'].forEach(k => {
+        const v = c[k];
+        if (v) MAX_NAME_LEN = Math.max(MAX_NAME_LEN, v.length);
+      });
+    });
   }
 });
 
@@ -611,7 +631,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="en" href="${alternateEn}">
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
-  <style>${criticalCss()}</style>
+  <style>${criticalCss(MAX_NAME_LEN)}</style>
   <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
