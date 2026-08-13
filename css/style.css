@@ -292,7 +292,6 @@ nav {
 
 .nav-link:hover {
   color: var(--accent);
-  background: rgba(59,130,246,.1);
   transform: scale(1.1);
 }
 
@@ -327,7 +326,6 @@ nav {
 
 .nav-dd-btn:hover {
   color: var(--accent);
-  background: rgba(59,130,246,.1);
   transform: scale(1.1);
 }
 
@@ -349,7 +347,7 @@ nav {
   top: calc(100% + 8px);
   left: 0;
   transform: translateY(-6px);
-  min-width: 220px;
+  min-width: 160px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -384,7 +382,6 @@ nav {
 }
 
 .nav-dd-link:hover {
-  background: rgba(59,130,246,.12);
   color: var(--accent);
 }
 
@@ -415,7 +412,7 @@ nav {
     display: inline-flex;
   }
   .nav-dd-mobile .nav-dd-panel {
-    min-width: 180px;
+    min-width: 160px;
   }
   .cuban3-link {
     display: none;
