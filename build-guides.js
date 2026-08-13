@@ -32,9 +32,9 @@ function criticalCss() {
 '.lang-btn:hover{border-color:var(--accent)}',
 '.lang-btn.active{background:rgba(255,255,255,0.1);border-color:var(--white);color:var(--white)}',
 '.lang-flag{display:block;border-radius:2px;flex-shrink:0}',
-    '.nav-link{padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
+    '.nav-link{display:inline-flex;align-items:center;padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
     '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
-    '.nav-dd{position:relative;display:inline-flex}.nav-dd-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1),opacity 0.2s;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}.nav-dd-btn:hover{color:var(--white);background:rgba(255,255,255,.05)}.nav-dd-caret{display:inline-flex;width:12px;height:12px;color:currentColor;transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);flex-shrink:0}.nav-dd.open .nav-dd-caret{transform:rotate(180deg)}.nav-dd-panel{position:absolute;top:calc(100% + 8px);left:14px;transform:translateY(-6px);min-width:160px;background:rgba(30,30,30,0.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:6px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 0.2s cubic-bezier(0.4,0,0.2,1),transform 0.2s cubic-bezier(0.4,0,0.2,1),visibility 0.2s;z-index:120}.nav-dd.open .nav-dd-panel{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}.nav-dd-link{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:6px;color:var(--white);font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:background 0.15s,color 0.15s}.nav-dd-link:hover{color:var(--accent)}.nav-dd-link-icon{width:18px;height:18px;flex-shrink:0;object-fit:contain}.nav-dd-mobile{display:none}.nav-dd-mobile .nav-dd-panel{left:14px;right:auto;transform:translateY(-6px)}.nav-dd-mobile.open .nav-dd-panel{transform:translateY(0)}',
+    '.nav-dd{position:relative;display:inline-flex}.nav-dd-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1),opacity 0.2s;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px;-webkit-tap-highlight-color:transparent}.nav-dd-btn:hover{color:var(--accent)}.nav-dd-caret{display:inline-flex;width:12px;height:12px;color:currentColor;transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);flex-shrink:0}.nav-dd.open .nav-dd-caret{transform:rotate(180deg)}.nav-dd-panel{position:absolute;top:calc(100% + 8px);left:14px;transform:translateY(-6px);min-width:160px;background:rgba(30,30,30,0.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:6px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 0.2s cubic-bezier(0.4,0,0.2,1),transform 0.2s cubic-bezier(0.4,0,0.2,1),visibility 0.2s;z-index:120}.nav-dd.open .nav-dd-panel{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}.nav-dd-link{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:6px;color:var(--white);font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:background 0.15s,color 0.15s}.nav-dd-link:hover{color:var(--accent)}.nav-dd-link-icon{width:18px;height:18px;flex-shrink:0;object-fit:contain}.nav-dd-mobile{display:none}.nav-dd-mobile .nav-dd-panel{left:14px;right:auto;transform:translateY(-6px)}.nav-dd-mobile.open .nav-dd-panel{transform:translateY(0)}',
     'body>*:not(header):not(.skip-link):not(.bg-hero):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
     '.bg-hero{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;background-image:url("../img/me-600.webp");background-size:cover;background-position:center;opacity:.12}',
 '.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:calc(100vh - 64px);box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
@@ -714,7 +714,7 @@ ${ogMeta}
         <a href="/">Home</a> / <a href="/#guides">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
       <div class="guide-back-row">
-        <a href="/?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <a href="/?cat=${guide.category}" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
@@ -766,7 +766,7 @@ ${ogMeta}
         </div>
       </div>
       <div class="guide-back-row">
-        <a href="/?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <a href="/?cat=${guide.category}" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
     </div>
 
@@ -825,9 +825,9 @@ ${ogMeta}
       </div>
     </div>
     <div class="footer-bottom">
-      <p><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
-      <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
       <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
+      <p style="margin-top:8px;"><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
+      <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
     </div>
   </footer>
 

@@ -1198,6 +1198,12 @@ document.addEventListener("DOMContentLoaded", () => {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         scrollToSection("guides");
+        var active = document.querySelector(".cat-card.active");
+        var carousel = document.getElementById("guideCats");
+        if (active && carousel && window.innerWidth <= 768) {
+          var left = active.offsetLeft - (carousel.clientWidth - active.offsetWidth) / 2;
+          carousel.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
+        }
       });
     });
   };

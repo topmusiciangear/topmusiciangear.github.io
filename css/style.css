@@ -276,6 +276,8 @@ nav {
 }
 
 .nav-link {
+  display: inline-flex;
+  align-items: center;
   padding: 8px 14px;
   border-radius: 6px;
   color: var(--white);
@@ -322,6 +324,7 @@ nav {
   border: none;
   font-family: inherit;
   letter-spacing: .3px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav-dd-btn:hover {
