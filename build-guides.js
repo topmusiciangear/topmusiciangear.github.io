@@ -3,7 +3,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { icon } = require('./js/icons.js');
 
-function criticalCss(maxNameLen) {
+function criticalCss() {
   return [
     '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:swap;font-weight:400 900;font-style:normal}',
     '*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}',
@@ -59,13 +59,13 @@ function criticalCss(maxNameLen) {
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
 
-    '.guide-comp-table{width:100%;border-collapse:separate;border-spacing:0;font-size:13px;contain:layout style}',
+    '.guide-comp-table{width:auto;max-width:100%;border-collapse:separate;border-spacing:0;font-size:13px;contain:layout style}',
     '.guide-comp-table th,.guide-comp-table td{padding:8px 10px;border:1px solid var(--border);text-align:left}',
     '.guide-comp-table th{background:var(--surface);font-weight:700;color:var(--text);white-space:nowrap}',
     '.guide-comp-table th:first-child,.guide-comp-table td.label{position:sticky;left:0;z-index:2;background:var(--bg);box-shadow:1px 0 0 var(--border)}',
     '.guide-comp-table td.label{font-weight:600;color:var(--accent);white-space:nowrap;width:1%}',
     '.guide-comp-table td.val{color:var(--text-secondary)}',
-    ('.guide-comp-table th:not(:first-child),.guide-comp-table td:not(.label){min-width:' + (maxNameLen + 2) + 'ch}'),
+    '.guide-comp-table th:not(:first-child),.guide-comp-table td:not(.label){min-width:var(--guide-col-min,0)}',
     '.guide-comp-title{font-size:22px;font-weight:700;margin:8px 0 16px;text-align:center}',
     '.guide-comp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;min-width:0}.guide-comp-scroll::-webkit-scrollbar{display:none}.guide-comp-scroll-wrap{margin:24px 0}.guide-comp-controls{display:flex;align-items:center;gap:12px;margin:12px 0 0}.guide-comp-controls-top{margin:0 0 10px}.guide-comp-progress{flex:1;min-width:0;height:4px;background:var(--border);border-radius:99px;overflow:hidden}.guide-comp-progress-bar{height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .15s ease}.guide-comp-arrow{background:none;border:none;color:#fff;cursor:pointer;font-size:22px;line-height:1;padding:6px;box-shadow:none;-webkit-tap-highlight-color:transparent;display:inline-flex;align-items:center;justify-content:center;transition:color .2s}.guide-comp-arrow:hover,.guide-comp-arrow:active{color:var(--accent)}.guide-comp-arrow svg{width:1em;height:1em;filter:drop-shadow(0 0 6px rgba(0,0,0,.6))}.guide-comp-arrow-left{margin-left:-6.7px}.guide-comp-arrow-right{margin-right:-6.7px}',
     '@media(max-width:768px){.guide-comp-table{font-size:13px}.guide-comp-table td{padding:3px 4px}.guide-comp-table th{white-space:nowrap;padding:5px 4px}.guide-comp-title{font-size:17px;margin:4px 0 8px}.guide-comp-scroll-wrap{margin:16px 0}.guide-comp-controls{gap:12px}.guide-comp-arrow{font-size:20px}}@media(max-width:480px){.guide-comp-arrow{font-size:18px}}',
@@ -104,24 +104,7 @@ guides.forEach(g => {
   }
 });
 
-// Longest product name across all guides (EN+ES) so every comparison table shares the same column width
-let MAX_NAME_LEN = 0;
-guides.forEach(g => {
-  if (g.featuredSnippet) {
-    ['name1_en', 'name2_en', 'name1_es', 'name2_es'].forEach(k => {
-      const v = g.featuredSnippet[k];
-      if (v) MAX_NAME_LEN = Math.max(MAX_NAME_LEN, v.length);
-    });
-  }
-  if (g.productTable && g.productTable.columns) {
-    g.productTable.columns.forEach(c => {
-      ['title', 'title_es'].forEach(k => {
-        const v = c[k];
-        if (v) MAX_NAME_LEN = Math.max(MAX_NAME_LEN, v.length);
-      });
-    });
-  }
-});
+// Longest product name per table computed inline at render time so each table sizes its own columns
 
 // Auto-increment cache busters from file content hash
 // Include guides.json hash so JS cache busters change when data changes (SPA cache invalidation)
@@ -631,7 +614,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="alternate" hreflang="en" href="${alternateEn}">
   <link rel="alternate" hreflang="es" href="${alternateEs}">
 ${ogMeta}
-  <style>${criticalCss(MAX_NAME_LEN)}</style>
+  <style>${criticalCss()}</style>
   <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
@@ -729,27 +712,31 @@ ${ogMeta}
         <div class="verdict-text">${verdict}</div>
         ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
       </div>` : ''}
-      ${guide.comparison ? `<div class="guide-comp-wrap">
+      ${guide.comparison ? (function(){ var fs = guide.featuredSnippet || {}; var n1 = isEs ? (fs.name1_es || fs.name1_en || '') : (fs.name1_en || ''); var n2 = isEs ? (fs.name2_es || fs.name2_en || '') : (fs.name2_en || ''); var colMin = Math.max(n1.length, n2.length) + 2; return `<div class="guide-comp-wrap">
         <h2 class="guide-comp-title">${isEs ? '¿Cómo se Comparan?' : 'How Do They Compare?'}</h2>
         ${guideCompControls(isEs, 'guide-comp-controls-top')}
         <div class="guide-comp-scroll-wrap">
-          <div class="guide-comp-scroll"><table class="guide-comp-table"><thead><tr><th></th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name1_es || guide.featuredSnippet.name1_en : (guide.featuredSnippet ? guide.featuredSnippet.name1_en : '')}</th><th>${isEs && guide.featuredSnippet ? guide.featuredSnippet.name2_es || guide.featuredSnippet.name2_en : (guide.featuredSnippet ? guide.featuredSnippet.name2_en : '')}</th></tr></thead>
+          <div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:${colMin}ch"><thead><tr><th></th><th>${n1}</th><th>${n2}</th></tr></thead>
             <tbody>${guide.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating').map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
           </table></div>
           ${guideCompControls(isEs)}
         </div>
-      </div>` : ''}
+      </div>`; })() : ''}
       ${guide.productTable ? (function(){
         var rows = guide.productTable.rows || [];
+        var colMin = 0;
         var headers = guide.productTable.columns.map(function(col){
-          return '<th>' + (isEs && col.title_es ? col.title_es : col.title) + '</th>';
+          var t = isEs && col.title_es ? col.title_es : col.title;
+          if (t && t.length > colMin) colMin = t.length;
+          return '<th>' + t + '</th>';
         }).join('');
+        colMin += 2;
         var body = rows.map(function(r){
           return '<tr><td class="label">' + (isEs && r.label_es ? r.label_es : r.label) + '</td>' + r.values.map(function(v){
             return '<td class="val">' + (isEs && v.value_es ? v.value_es : v.value) + '</td>';
           }).join('') + '</tr>';
         }).join('');
-        return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">' + (isEs && guide.productTable.title_es ? guide.productTable.title_es : (guide.productTable.title || (isEs ? 'Comparativa de Productos' : 'Product Comparison'))) + '</h2>' + guideCompControls(isEs, 'guide-comp-controls-top') + '<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table"><thead><tr><th></th>' + headers + '</tr></thead><tbody>' + body + '</tbody></table></div>' + guideCompControls(isEs) + '</div></div>';
+        return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">' + (isEs && guide.productTable.title_es ? guide.productTable.title_es : (guide.productTable.title || (isEs ? 'Comparativa de Productos' : 'Product Comparison'))) + '</h2>' + guideCompControls(isEs, 'guide-comp-controls-top') + '<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:' + colMin + 'ch"><thead><tr><th></th>' + headers + '</tr></thead><tbody>' + body + '</tbody></table></div>' + guideCompControls(isEs) + '</div></div>';
       })() : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${conclusion}</div></div>` : ''}
