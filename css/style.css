@@ -2396,7 +2396,7 @@ footer ul li a:hover { color: var(--accent); }
   opacity: .12;
 }
 
-.hero, .stats-bar, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, .toast, body > *:not(header):not(.skip-link):not(.bg-hero):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
+.hero, .stats-bar, .guides-section, .audio-mini, .audio-mini-mobile, .my-setup, .about-section, .stores-section, .mobile-social, footer, body > *:not(header):not(.skip-link):not(.bg-hero):not(.crawl-guides):not(#cookie-banner):not(#cookie-modal):not(#disclosureModal):not(#toast) {
   position: relative;
   z-index: 2;
 }
