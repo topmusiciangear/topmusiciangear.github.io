@@ -4314,5 +4314,59 @@
       "amazon": "https://www.amazon.com/dp/B0CP7P4RRQ",
       "official": "https://www.hollyland.com/wireless-mic/lark-m2"
     }
+  },
+  {
+    "id": 252,
+    "title": "Rode PodMic USB",
+    "title_es": "Rode PodMic USB",
+    "brand": "Rode",
+    "category": "microphones",
+    "price": 199,
+    "rating": 4.3,
+    "reviews": 1257,
+    "badge": "",
+    "desc": "Rode's PodMic USB pairs the broadcast sound of the classic dynamic PodMic with a USB-C output, so it works straight into a laptop or phone without an interface. It keeps the internal shock mount and magnetic pop filter, adds a headphone output for zero-latency monitoring and records in 32-bit float, which makes clipped takes recoverable in post.",
+    "desc_es": "El PodMic USB de Rode combina el sonido broadcast del clásico PodMic dinámico con una salida USB-C, así que funciona directo a un portátil o teléfono sin interfaz. Mantiene la suspensión interna y el filtro anti-pop magnético, añade salida de auriculares para monitorización sin latencia y graba en 32-bit float, lo que hace que las tomas saturadas sean recuperables en postproducción.",
+    "img": "https://m.media-amazon.com/images/I/61ElAcEsHiL._AC_SL1080_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0BQM4TKF7",
+      "official": "https://rode.com/en/products/podmic-usb"
+    }
+  },
+  {
+    "id": 253,
+    "title": "HyperX QuadCast 2",
+    "title_es": "HyperX QuadCast 2",
+    "brand": "HyperX",
+    "category": "microphones",
+    "price": 110,
+    "rating": 4.7,
+    "reviews": 36149,
+    "badge": "bestSeller",
+    "desc": "The QuadCast 2 is a USB condenser with a built-in shock mount, pop filter and RGB lighting that looks and sounds right for gaming and streaming. It records at 96kHz/24-bit, adds a tap-to-mute button with a mic-light status indicator and a headphone output for monitoring, and mounts on any standard boom arm if you outgrow the desktop stand.",
+    "desc_es": "El QuadCast 2 es un condensador USB con suspensión incorporada, filtro anti-pop e iluminación RGB que luce y suena bien para gaming y streaming. Graba a 96kHz/24-bit, añade un botón de silencio con indicador de luz del micrófono y salida de auriculares para monitorización, y se monta en cualquier brazo estándar si superas el soporte de escritorio.",
+    "img": "https://m.media-amazon.com/images/I/71qTtU45xSL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0D9MCK4R8",
+      "official": "https://hyperx.com/products/hyperx-quadcast-2-usb-microphone"
+    }
+  },
+  {
+    "id": 254,
+    "title": "DJI Mic Mini (2TX + 1RX + Charging Case)",
+    "title_es": "DJI Mic Mini (2TX + 1RX + Estuche de Carga)",
+    "brand": "DJI",
+    "category": "microphones",
+    "price": 99,
+    "rating": 4.7,
+    "reviews": 8700,
+    "badge": "",
+    "desc": "The Mic Mini is DJI's lightest wireless mic system: two 5g transmitters, a USB-C receiver and a charging case that slips into a pocket. It records 48kHz/24-bit, reaches up to 400m, runs up to 48 hours with the case and has a 2-step noise cancelling that keeps room hum out of your takes, making it the go-to for phone-first creators.",
+    "desc_es": "El Mic Mini es el sistema inalámbrico más ligero de DJI: dos transmisores de 5g, un receptor USB-C y un estuche de carga que cabe en el bolsillo. Graba a 48kHz/24-bit, alcanza hasta 400m, dura hasta 48 horas con el estuche y tiene cancelación de ruido de 2 pasos que mantiene el zumbido de la sala fuera de tus tomas, lo que lo hace ideal para creadores que graban con el teléfono.",
+    "img": "https://m.media-amazon.com/images/I/6132m-fHnjL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0DDL8WGH5",
+      "official": "https://www.dji.com/mic-mini"
+    }
   }
 ]
