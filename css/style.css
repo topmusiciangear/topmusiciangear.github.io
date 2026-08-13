@@ -415,6 +415,7 @@ nav {
   }
   .nav-dd-mobile .nav-dd-panel {
     min-width: 160px;
+    background: rgba(30, 30, 30, 0.10);
   }
   .cuban3-link {
     display: none;
