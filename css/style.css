@@ -515,6 +515,39 @@ nav {
   margin-bottom: 48px;
 }
 
+.cat-carousel {
+  position: relative;
+  margin-bottom: 48px;
+}
+.cat-carousel .cat-grid {
+  margin-bottom: 0;
+}
+.cat-carousel-arrow {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.cat-carousel-arrow svg {
+  filter: drop-shadow(0 0 6px rgba(0,0,0,.6));
+}
+.cat-carousel-arrow:hover,
+.cat-carousel-arrow:active {
+  color: var(--accent);
+}
+.cat-carousel-arrow-left { left: 0; }
+.cat-carousel-arrow-right { right: 0; }
+
 .cat-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -545,6 +578,15 @@ nav {
 .cat-card .icon {
   font-size: 28px;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  line-height: 1;
+}
+.cat-card .icon svg {
+  width: 1em;
+  height: 1em;
   display: block;
 }
 
@@ -1158,6 +1200,60 @@ footer ul li a:hover { color: var(--accent); }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 24px;
+}
+
+.guide-card-wrap.fan-in {
+  animation: guideFanIn 0.5s cubic-bezier(0.22, 0.68, 0, 1.1) both;
+  animation-delay: calc(var(--fan-i, 0) * 60ms);
+  will-change: transform, opacity;
+}
+@keyframes guideFanIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) rotate(-3deg) scale(0.96);
+    transform-origin: bottom center;
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-2px) rotate(0.8deg) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-card-wrap.fan-in {
+    animation: none;
+  }
+}
+
+.guide-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.guide-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--accent-dark);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  transition: background 0.2s, opacity 0.2s;
+}
+.guide-more-btn:hover {
+  background: #2563eb;
+  color: white;
 }
 
 .guide-card {
@@ -1896,7 +1992,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 768px) {
-  .guides-section { padding: 48px 20px; }
+  .guides-section { padding: 48px 28px; }
   .my-setup { padding: 48px 20px; }
   .about-section { padding: 48px 20px; }
   .header-inner { padding: 0 16px; gap: 12px; }
@@ -1919,7 +2015,33 @@ footer ul li a:hover { color: var(--accent); }
   .stat-number { font-size: 24px; }
   .stat-label { font-size: 11px; margin-top: 0; }
 
-  .cat-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .cat-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 6px 0 8px;
+  }
+  .cat-grid::-webkit-scrollbar { display: none; }
+  .cat-grid .cat-card {
+    flex: 0 0 var(--cat-card-w, 120px);
+    min-width: var(--cat-card-w, 120px);
+    max-width: var(--cat-card-w, 120px);
+    scroll-snap-align: start;
+  }
+  .cat-carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cat-carousel-arrow {
+    display: inline-flex;
+    font-size: 22px;
+    padding: 2px;
+  }
+  .cat-carousel-arrow-left { left: -27px; }
+  .cat-carousel-arrow-right { right: -27px; }
 
   .stores-section { padding: 0 20px 48px; }
   .newsletter-section { padding: 0 16px 40px; }
@@ -1937,7 +2059,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 480px) {
-  .cat-grid { grid-template-columns: repeat(2, 1fr); }
+  .cat-grid .cat-card { min-width: var(--cat-card-w, 100px); max-width: var(--cat-card-w, 100px); }
   .stats-inner { gap: 4px; }
   .stat-number { font-size: 20px; line-height: 1; }
   .stat-label { margin-top: 0; }
@@ -1946,9 +2068,12 @@ footer ul li a:hover { color: var(--accent); }
   .logo-icon { width: 28px; height: 28px; }
   .lang-btn { padding: 5px 7px; }
   .lang-flag { width: 14px; height: 10px; }
-  .guides-section { padding: 40px 16px; }
+  .guides-section { padding: 40px 26px; }
   .my-setup { padding: 40px 16px; }
   .about-section { padding: 40px 16px; }
+  .cat-carousel-arrow { font-size: 20px; }
+  .cat-carousel-arrow-left { left: -25px; }
+  .cat-carousel-arrow-right { right: -25px; }
   .newsletter-section { padding: 0 16px 32px; }
   .newsletter-card { padding: 24px 16px; }
   .stores-section { padding: 0 16px 48px; }
@@ -1963,9 +2088,12 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 @media (max-width: 360px) {
-  .guides-section { padding: 32px 12px; }
+  .guides-section { padding: 32px 24px; }
   .my-setup { padding: 32px 12px; }
   .about-section { padding: 32px 12px; }
+  .cat-carousel-arrow { font-size: 18px; }
+  .cat-carousel-arrow-left { left: -23px; }
+  .cat-carousel-arrow-right { right: -23px; }
   .stores-section { padding: 0 12px 32px; }
   .stores-card { padding: 24px 12px; }
   .guide-card-body { padding: 14px 14px 18px; }
