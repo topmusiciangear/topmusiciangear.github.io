@@ -326,7 +326,12 @@ nav {
 
 .nav-dd-btn:hover {
   color: var(--accent);
-  transform: scale(1.1);
+}
+
+@media (hover: hover) {
+  .nav-dd-btn:hover {
+    transform: scale(1.1);
+  }
 }
 
 .nav-dd-caret {
@@ -415,7 +420,6 @@ nav {
   }
   .nav-dd-mobile .nav-dd-panel {
     min-width: 160px;
-    background: rgba(30, 30, 30, 0.10);
   }
   .cuban3-link {
     display: none;
