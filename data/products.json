@@ -4371,10 +4371,9 @@
     "img": "https://m.media-amazon.com/images/I/6132m-fHnjL._AC_SL1500_.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0DDL8WGH5",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_GB%2FGBP%2FDJI-Mic-Mini-2-2-TX-1-RX-Charging-Case-%2Fart-REC0017234-000",
-      "official": "https://www.dji.com/mic-mini"
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_GB%2FGBP%2FDJI-Mic-Mini-2-2-TX-1-RX-Charging-Case-%2Fart-REC0017234-000"
     },
-    "excludeStores": ["andertons"]
+    "excludeStores": ["andertons", "gear4music"]
   },
   {
     "id": 255,
