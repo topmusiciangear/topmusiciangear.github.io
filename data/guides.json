@@ -41131,6 +41131,28 @@
           ]
         },
         {
+          "label": "Active/Passive",
+          "label_es": "Activo/Pasivo",
+          "values": [
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            }
+          ]
+        },
+        {
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "values": [
@@ -42979,6 +43001,36 @@
           ]
         },
         {
+          "label": "Active/Passive",
+          "label_es": "Activo/Pasivo",
+          "values": [
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            }
+          ]
+        },
+        {
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "values": [
@@ -43721,6 +43773,32 @@
             {
               "value": "2x Alnico J single coils",
               "value_es": "2x singles Alnico J"
+            }
+          ]
+        },
+        {
+          "label": "Active/Passive",
+          "label_es": "Activo/Pasivo",
+          "values": [
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
             }
           ]
         },
