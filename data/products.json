@@ -4410,10 +4410,12 @@
     "desc": "The MPC One G2 is the newest standalone MPC: an 8-core processor with four times the power of the previous generation, a 7-inch touchscreen, 16 velocity-sensitive RGB pads, USB-C with 24x24 audio, and MPC3 OS with up to 16 stereo audio tracks and 32 plugin instruments per project. It ships with over 20GB of factory content, Native Instruments and Spitfire Audio MPC Editions, and two months of Splice access.",
     "desc_es": "El MPC One G2 es el MPC independiente más nuevo: un procesador de 8 núcleos con cuatro veces la potencia de la generación anterior, pantalla táctil de 7 pulgadas, 16 pads RGB sensibles a la velocidad, USB-C con audio 24x24 y MPC3 OS con hasta 16 pistas de audio estéreo y 32 instrumentos plugin por proyecto. Incluye más de 20GB de contenido de fábrica, ediciones MPC de Native Instruments y Spitfire Audio, y dos meses de acceso a Splice.",
     "img": "https://m.media-amazon.com/images/I/81qYkGX+pRL._AC_SL1500_.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B0H2ZBMHX6",
-      "official": "https://www.akaipro.com/mpc-one-g2/"
-    }
+"stores": {
+  "amazon": "https://www.amazon.com/dp/B0H2ZBMHX6",
+  "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Gen-2/82Q6",
+  "andertons": "https://www.andertons.co.uk/akai-mpc-one-g2-sampler-workstation/",
+  "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_GB%2FGBP%2FAKAI-Professional-MPC-One-G2%2Fart-SYN0009536-000"
+ }
   },
   {
     "id": 257,
