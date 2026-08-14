@@ -97,6 +97,7 @@ const translations = {
     catName_live_sound: "Live Sound",
     catName_mixers: "Mixers",
     catName_daw: "DAW",
+    catName_streaming: "Streaming & Creators",
     catName_production: "Top Gear"
   },
   es: {
@@ -197,6 +198,7 @@ const translations = {
     catName_live_sound: "Sonido en Vivo",
     catName_mixers: "Mezcladores",
     catName_daw: "DAW",
+    catName_streaming: "Streaming y Creadores",
     catName_production: "Top Gear"
   }
 };
