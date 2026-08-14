@@ -4644,9 +4644,11 @@
     "desc_es": "El Shure PSM300 es un sistema profesional de monitoreo in-ear estéreo con un transmisor P3T de un canal, receptor de bolsillo metálico P3RA y audífonos SE215. Transmite audio digital de 24-bit sobre un enlace RF analógico sólido de hasta 300 ft (90 m) con respuesta de 38 Hz-15 kHz, relación señal-ruido superior a 90 dB y <0.5% de THD gracias a Audio Reference Companding, ofrece escaneo de un toque y sincronización IR para una configuración rápida, y permite a cada intérprete crear su mezcla personal con MixMode o modo estéreo real.",
     "img": "https://r2.gear4music.com/media/55/558182/1200/preview.jpg",
   "stores": {
-    "amazon": "https://www.amazon.com/dp/B00ODU9EFK",
+    "amazon": "https://www.amazon.com/dp/B00ODU9EGY?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1",
     "official": "https://www.shure.com/en-US/products/in-ear-monitoring/psm300",
-    "andertons": "https://www.andertons.co.uk/shure-psm300-twinpack-pro/"
+    "andertons": "https://www.andertons.co.uk/shure-psm300-premium-wireless-iem-system-with-se215-earphones/",
+    "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-PSM300-K3E-Premium-Wireless-Monitor-System-with-SE215-Earphones/148Y",
+    "musicstore": "https://www.musicstore.com/en_GB/GBP/Shure-PSM-300-System-P3TRA215CL-T11-withMetal-Reciever-SE215-Ear-Phones/art-PAH0016148-000"
   },
     "excludeStores": [
       "official"
