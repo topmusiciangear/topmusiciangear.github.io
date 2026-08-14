@@ -4600,5 +4600,77 @@
       "andertons": "https://www.andertons.co.uk/universal-audio-volt-276-2-in-2-out-usb-20-audio-interface/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-VOLT-276/art-PCM0017065-000"
     }
+  },
+  {
+    "id": 266,
+    "title": "Sennheiser ew IEM G4-TWIN-A",
+    "title_es": "Sennheiser ew IEM G4-TWIN-A",
+    "brand": "Sennheiser",
+    "category": "live_sound",
+    "price": 1649,
+    "rating": 4.5,
+    "reviews": 120,
+    "badge": "premium",
+    "desc": "The Sennheiser ew IEM G4-TWIN-A is a half-rack wireless stereo monitor set: one SR IEM G4 transmitter, two EK IEM G4 bodypack receivers and two pairs of IE 4 earphones. It tunes 42 MHz of bandwidth with 1680 selectable frequencies and up to 16 compatible channels per band, delivers up to 50 mW of RF output with a range up to 100 m (300 ft), and feeds both performers from two XLR/1/4\" combo inputs with a >90 dB signal-to-noise ratio and HDX compander for clean, artifact-free monitoring.",
+    "desc_es": "El Sennheiser ew IEM G4-TWIN-A es un set de monitoreo estéreo inalámbrico de media unidad de rack: un transmisor SR IEM G4, dos receptores de bolsillo EK IEM G4 y dos pares de audífonos IE 4. Sintoniza 42 MHz de ancho de banda con 1680 frecuencias seleccionables y hasta 16 canales compatibles por banda, entrega hasta 50 mW de potencia RF con un alcance de hasta 100 m (300 ft), y alimenta a ambos intérpretes desde dos entradas combo XLR/1/4\" con una relación señal-ruido superior a 90 dB y compresor-expansor HDX para un monitoreo limpio y sin artefactos.",
+    "img": "https://assets.sennheiser.com/assets/evolution_wireless_G4_product_shot_cutout_IEM_TWIN_Monitoring_Set.png.png/Zz01Njk3YTZmNmU3YWUxMWYwODhkYjc2OGVlOGU5N2FlYQ==?width=640",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B07BQ2D6N3",
+      "official": "https://www.sennheiser.com/en-us/catalog/products/wireless-systems/ew-iem-g4-twin/ew-iem-g4-twin-a-509614"
+    }
+  },
+  {
+    "id": 267,
+    "title": "Shure PSM300",
+    "title_es": "Shure PSM300",
+    "brand": "Shure",
+    "category": "live_sound",
+    "price": 989,
+    "rating": 4.6,
+    "reviews": 680,
+    "badge": "topQuality",
+    "desc": "The Shure PSM300 is a professional stereo in-ear monitor system with a single-channel P3T transmitter, P3RA metal bodypack receiver and SE215 earphones. It transmits 24-bit digital audio over a solid analog RF link up to 300 ft (90 m) with a 38 Hz-15 kHz response, >90 dB signal-to-noise ratio and <0.5% THD thanks to Audio Reference Companding, offers one-touch scan and IR sync for quick setup, and lets each performer build a personal mix with MixMode or true stereo mode.",
+    "desc_es": "El Shure PSM300 es un sistema profesional de monitoreo in-ear estéreo con un transmisor P3T de un canal, receptor de bolsillo metálico P3RA y audífonos SE215. Transmite audio digital de 24-bit sobre un enlace RF analógico sólido de hasta 300 ft (90 m) con respuesta de 38 Hz-15 kHz, relación señal-ruido superior a 90 dB y <0.5% de THD gracias a Audio Reference Companding, ofrece escaneo de un toque y sincronización IR para una configuración rápida, y permite a cada intérprete crear su mezcla personal con MixMode o modo estéreo real.",
+    "img": "https://products.shureweb.eu/shure_product_db/product_main_images/files/6e9/30d/f0-/setcard/58f26cf2252caf940d6b96cbff5fde60.jpeg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B00ODU9EFK",
+      "official": "https://www.shure.com/en-US/products/in-ear-monitoring/psm300"
+    }
+  },
+  {
+    "id": 268,
+    "title": "Sennheiser IE 900",
+    "title_es": "Sennheiser IE 900",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "price": 1299,
+    "rating": 4.6,
+    "reviews": 2100,
+    "badge": "premium",
+    "desc": "The Sennheiser IE 900 is a single-dynamic-driver audiophile earphone built around a 7mm TrueResponse transducer in a one-piece precision-milled aluminum housing. Its X3R triple-resonator system removes masking resonances for extended, refined treble, and the driver covers 5 Hz-48 kHz with 123 dB SPL, 18 ohm impedance and <0.05% THD. Three para-aramid reinforced MMCX cables (3.5mm unbalanced, 2.5mm and 4.4mm balanced) plus silicone and memory foam tips ship in the box.",
+    "desc_es": "El Sennheiser IE 900 es un audífono audiófilo de un solo driver dinámico construido alrededor de un transductor TrueResponse de 7mm en una carcasa de aluminio de una pieza fresada con precisión. Su sistema X3R de triple resonador elimina resonancias de enmascaramiento para unos agudos extendidos y refinados, y el driver cubre 5 Hz-48 kHz con 123 dB de SPL, impedancia de 18 ohmios y <0.05% de THD. Incluye tres cables MMCX reforzados con para-aramida (3.5mm no balanceado, 2.5mm y 4.4mm balanceados) más puntas de silicona y espuma.",
+    "img": "https://us.sennheiser-hearing.com/cdn/shop/files/Sennheiser_IE_900_In_Ear_Audiophile_Headphones.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B094DP3177",
+      "official": "https://us.sennheiser-hearing.com/products/ie-900"
+    }
+  },
+  {
+    "id": 269,
+    "title": "Shure SE846 Gen 2",
+    "title_es": "Shure SE846 Gen 2",
+    "brand": "Shure",
+    "category": "headphones",
+    "price": 989,
+    "rating": 4.7,
+    "reviews": 480,
+    "badge": "premium",
+    "desc": "The Shure SE846 Gen 2 sound isolating earphones pack four custom-engineered balanced-armature drivers (two low, one mid, one high) in a three-way crossover design that reaches 15 Hz-20 kHz with up to 37 dB of passive isolation. A low-pass filter delivers subwoofer-class bass, and four swappable sound signatures (extended, balanced, warm, bright) let you tune the response. The detachable MMCX cable works with the True Wireless adapter, and a full fit kit with foam sleeves is included.",
+    "desc_es": "Los audífonos aislantes de sonido Shure SE846 Gen 2 integran cuatro drivers balanceados de armadura diseñados a medida (dos graves, un medio, un agudo) en un crossover de tres vías que llega a 15 Hz-20 kHz con hasta 37 dB de aislamiento pasivo. Un filtro pasa-bajos ofrece graves de clase subwoofer, y cuatro firmas de sonido intercambiables (extendida, balanceada, cálida, brillante) te permiten ajustar la respuesta. El cable MMCX desmontable funciona con el adaptador True Wireless, e incluye un kit de ajuste completo con puntas de espuma.",
+    "img": "https://products.shureweb.eu/shure_product_db/product_main_images/files/f81/6b4/f6-/setcard/7b97831f8f26a63b8164cf8fe84fd4e9.jpeg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0B9CJ9JR3",
+      "official": "https://www.shure.com/en-US/products/earphones/se846"
+    }
   }
 ]
