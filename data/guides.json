@@ -57855,8 +57855,8 @@
       {
         "heading": "Why the PSM300 Is the Easy System That Grows With You",
         "heading_es": "Por Qué el PSM300 es el Sistema Fácil que Crece Contigo",
-        "content": "<p><strong>The PSM300 makes wireless monitoring simple from the first setup.</strong> One-touch scan finds a clean channel and IR sync links the bodypack in seconds, and Audio Reference Companding delivers clean 24-bit audio with >90 dB signal-to-noise, <0.5% THD and a 38 Hz-15 kHz response across a solid analog RF link rated at 300 ft (90 m). MixMode lets the performer blend two channels into a personal mix or flip to true stereo, and the P3RA bodypack's metal construction survives life on a guitar strap or belt. At $989 the single P3TRA215CL set covers one performer; a second P3R bodypack adds another, and the PSM300 Twinpack Pro ($1,539) gets two full performers with SE215 earphones included. The limits are real — single-channel transmitter, 38 Hz-15 kHz top end, and no headphone output tweaks beyond volume and mix balance — but for most club-level bands that is everything they need.</p>",
-        "content_es": "<p><strong>El PSM300 hace que el monitoreo inalámbrico sea simple desde la primera configuración.</strong> El escaneo de un toque encuentra un canal limpio y la sincronización IR enlaza el bodypack en segundos, y Audio Reference Companding entrega audio digital limpio de 24-bit con relación señal-ruido superior a 90 dB, <0.5% de THD y respuesta de 38 Hz-15 kHz a través de un enlace RF analógico sólido de hasta 300 ft (90 m). MixMode permite al intérprete mezclar dos canales en una mezcla personal o cambiar a estéreo real, y la construcción metálica del bodypack P3RA sobrevive a la vida en una correa de guitarra o un cinturón. Por $989 el set individual P3TRA215CL cubre un intérprete; un segundo receptor P3R añade a otro, y el PSM300 Twinpack Pro ($1,539) consigue dos intérpretes completos con audífonos SE215 incluidos. Los límites son reales — transmisor de un canal, tope de 38 Hz-15 kHz y sin ajustes de salida de audífonos más allá del volumen y el balance de mezcla — pero para la mayoría de las bandas de club es todo lo que necesitan.</p>",
+        "content": "<p><strong>The PSM300 makes wireless monitoring simple from the first setup.</strong> One-touch scan finds a clean channel and IR sync links the bodypack in seconds, and Audio Reference Companding delivers clean 24-bit audio with >90 dB signal-to-noise, <0.5% THD and a 38 Hz-15 kHz response across a solid analog RF link rated at 300 ft (90 m). The J13 band covers 566–590 MHz (24 MHz of tuning bandwidth) with up to 15 compatible channels per band, so you have room to grow. MixMode lets the performer blend two channels into a personal mix or flip to true stereo, and the P3RA bodypack's metal construction survives life on a guitar strap or belt. At $989 the single P3TRA215CL set covers one performer; a second P3R bodypack adds another, and the PSM300 Twinpack Pro ($1,539) gets two full performers with SE215 earphones included. The limits are real — single-channel transmitter, 38 Hz-15 kHz top end, and no headphone output tweaks beyond volume and mix balance — but for most club-level bands that is everything they need.</p>",
+        "content_es": "<p><strong>El PSM300 hace que el monitoreo inalámbrico sea simple desde la primera configuración.</strong> El escaneo de un toque encuentra un canal limpio y la sincronización IR enlaza el bodypack en segundos, y Audio Reference Companding entrega audio digital limpio de 24-bit con relación señal-ruido superior a 90 dB, <0.5% de THD y respuesta de 38 Hz-15 kHz a través de un enlace RF analógico sólido de hasta 300 ft (90 m). La banda J13 cubre 566–590 MHz (24 MHz de ancho de banda de sintonización) con hasta 15 canales compatibles por banda, así que tienes margen para crecer. MixMode permite al intérprete mezclar dos canales en una mezcla personal o cambiar a estéreo real, y la construcción metálica del bodypack P3RA sobrevive a la vida en una correa de guitarra o un cinturón. Por $989 el set individual P3TRA215CL cubre un intérprete; un segundo receptor P3R añade a otro, y el PSM300 Twinpack Pro ($1,539) consigue dos intérpretes completos con audífonos SE215 incluidos. Los límites son reales — transmisor de un canal, tope de 38 Hz-15 kHz y sin ajustes de salida de audífonos más allá del volumen y el balance de mezcla — pero para la mayoría de las bandas de club es todo lo que necesitan.</p>",
         "products": [
           267
         ]
@@ -57997,7 +57997,7 @@
           "label_en": "Tuning Bandwidth",
           "label_es": "Ancho de Banda de Sintonización",
           "val1": "42 MHz (1680 frequencies)",
-          "val2": "Band-dependent (24 MHz typical)"
+          "val2": "24 MHz (566–590 MHz J13 band)"
         },
         {
           "label_en": "Compatible Channels",
@@ -58085,9 +58085,9 @@
           "label": "Tuning Bandwidth",
           "label_es": "Ancho de Banda de Sintonización",
           "val1": "42 MHz (1680 frequencies)",
-          "val2": "Band-dependent (24 MHz typical)",
+          "val2": "24 MHz (566–590 MHz J13 band)",
           "val1_es": "42 MHz (1680 frecuencias)",
-          "val2_es": "Según banda (24 MHz típico)"
+          "val2_es": "24 MHz (banda J13 de 566–590 MHz)"
         },
         {
           "label": "Compatible Channels",
