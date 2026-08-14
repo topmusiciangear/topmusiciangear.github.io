@@ -4169,7 +4169,10 @@
       "amazon": "https://www.amazon.com/dp/B0BQM2CL1W",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Rode-Streamer-X-Streaming-Solution-for-Video-and-Audio/5DI5",
       "musicstore": "https://www.musicstore.com/en_US/USD/Rode-Streamer-X-USB-Audio-Interface/art-PCM0017677-000"
-    }
+    },
+    "excludeStores": [
+      "andertons"
+    ]
   },
   {
     "id": 246,
