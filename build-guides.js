@@ -140,7 +140,9 @@ function getResolvedStores(product) {
   };
   const s = {};
   const isMacOnly = !!product.stores.macappstore;
+  const excluded = product.excludeStores || [];
   allStoreKeys.forEach(key => {
+    if (excluded.includes(key)) return;
     if (key === 'amazon' && product.category === 'plugins') return;
     if (key === 'pluginboutique' && product.category !== 'plugins' && product.category !== 'daw') return;
     const specificUrl = product.stores[key];
