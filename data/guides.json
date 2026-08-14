@@ -53384,8 +53384,8 @@
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/93/933907/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can actually grab with your hands. I spent weeks swapping the Stream Deck+, the Streamer X, the BEACN Mix Create and the Wave XLR in and out of my live setup so you don't have to guess.",
-    "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. Pasé semanas intercambiando el Stream Deck+, el Streamer X, el BEACN Mix Create y el Wave XLR en mi setup en directo para que tú no tengas que adivinar.",
+    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can actually grab with your hands. I spent weeks swapping the Stream Deck+, the Streamer X, the BEACN Mix Create, the Wave XLR and two full all-in-one mixers in and out of my live setup so you don't have to guess.",
+    "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. Pasé semanas intercambiando el Stream Deck+, el Streamer X, el BEACN Mix Create, el Wave XLR y dos mezcladores todo-en-uno completos en mi setup en directo para que tú no tengas que adivinar.",
     "sections": [
       {
         "heading": "How to Choose a Streaming Mixer and Controller",
@@ -53431,20 +53431,20 @@
         ]
       },
       {
-        "heading": "The Best Budget Stream Deck Alternatives",
-        "heading_es": "Las Mejores Alternativas Baratas al Stream Deck",
-        "content": "<p><strong>Not everyone needs a $150-160 controller, and the alternatives at a third of the price are much better than they used to be.</strong> The two picks below handle the same daily job — triggering scenes in OBS, firing sound effects, switching apps — without the premium markup.</p><p><strong>The VSDINSIDE Stream Dock M18 ($49) is the value pick.</strong> It gives you 18 programmable macro keys with customizable icons for OBS, shortcuts, sounds and app launches on PC or Mac. Amazon buyers rate it 4.5/5 across 141 reviews. It is not as pretty as the Stream Deck and the software is more basic, but for the core streaming shortcuts it does the job for a third of the price.</p><p><strong>The FIFINE AmpliGame D6 ($56) is the one that looks the part.</strong> 15 LCD macro keys with RGB lighting and plug-and-play USB, rated 4.5/5 across 738 Amazon reviews. It triggers actions in OBS, Twitch, YouTube and Streamlabs and works on Mac and PC. You lose the Elgato plugin ecosystem and touch display, but the build quality and the LCD keys feel far above the price tag.</p><p><strong>And if you want to spend nothing, that is an option too.</strong> Touch Portal and Bitfocus Companion are free software that turn any tablet, phone or old USB keypad into a programmable control surface for OBS and other apps. The setup is clunkier and there is no dedicated hardware, but for a first controller it is a zero-cost way to find out whether you even need one.</p>",
-        "content_es": "<p><strong>No todo el mundo necesita un controlador de $150-160, y las alternativas por un tercio del precio son mucho mejores de lo que solían ser.</strong> Las dos opciones de abajo hacen el mismo trabajo diario — disparar escenas en OBS, lanzar efectos de sonido, cambiar de app — sin el sobreprecio de las marcas.</p><p><strong>El VSDINSIDE Stream Dock M18 ($49) es la opción de mejor valor.</strong> Te da 18 teclas macro programables con iconos personalizables para OBS, atajos, sonidos y apertura de apps en PC o Mac. Los compradores de Amazon lo valoran con 4.5/5 en 141 reseñas. No es tan bonito como el Stream Deck y el software es más básico, pero para los atajos esenciales de streaming hace el trabajo por un tercio del precio.</p><p><strong>El FIFINE AmpliGame D6 ($56) es el que luce como la competencia.</strong> 15 teclas macro LCD con iluminación RGB y USB plug-and-play, valorado 4.5/5 en 738 reseñas de Amazon. Dispara acciones en OBS, Twitch, YouTube y Streamlabs y funciona en Mac y PC. Pierdes el ecosistema de plugins de Elgato y la pantalla táctil, pero la calidad de construcción y las teclas LCD se sienten muy por encima del precio.</p><p><strong>Y si quieres gastar cero, eso también es una opción.</strong> Touch Portal y Bitfocus Companion son software gratuito que convierten cualquier tablet, teléfono o teclado numérico USB en una superficie de control programable para OBS y otras apps. La configuración es más torpe y no hay hardware dedicado, pero para un primer controlador es una forma sin costo de saber si realmente necesitas uno.</p>",
+        "heading": "The Best Pro Streaming Mixers: RØDECaster Pro II vs Mackie DLZ Creator",
+        "heading_es": "Los Mejores Mezcladores Pro de Streaming: RØDECaster Pro II vs Mackie DLZ Creator",
+        "content": "<p><strong>If you've outgrown a controller plus a separate interface, this is the level where the mixing moves inside the hardware.</strong> Both mixers below are standalone consoles that run their own effects and routing, so a frozen PC or a flaky app never stops your audio. I swapped the RØDECaster Pro II and the Mackie DLZ Creator into my setup back to back to see which workflow fits which streamer.</p><p><strong>The RØDECaster Pro II ($699) is the console that thinks ahead.</strong> It processes your mic, music and alerts on the hardware itself, so your stream keeps sounding right even if Windows throws a tantrum. Four Neutrik combo inputs feed 76dB Revolution preamps that drive a Shure SM7B or an Electro-Voice RE20 straight in, no Cloudlifter needed. The dual USB-C ports let you hook up two computers at once, the eight SMART pads fire off OBS commands or duck the music with a tap, and a safety track records multitrack to a microSD or USB stick while you're live. Amazon buyers rate it 4.4/5 across 1,285 reviews, and honestly the fanbase is loud for a reason.</p><p><strong>The Mackie DLZ Creator ($800) is the one that teaches as it goes.</strong> Its 10.1-inch touchscreen sits in the middle of nine 100mm faders, and the Mix Agent walks you through setup step by step instead of dumping you into a manual. Four Onyx80 preamps deliver 80dB of clean gain, AutoMix balances up to four voices at once, and you can flip between Easy, Enhanced and Pro modes as your confidence grows. It records multitrack to an SD card or USB drive, connects to a second PC over NDI, and even takes a phone call over Bluetooth without pulling your stream down. Amazon buyers rate it 4.2/5.</p><p><strong>Which one is for you?</strong> If you want total independence from your computer and a mixer that keeps working when everything else crashes, the RØDECaster Pro II is the one. If you'd rather have a big touchscreen walk you through every step and you regularly juggle a few guests around the table, the DLZ Creator earns its keep.</p>",
+        "content_es": "<p><strong>Si tu controlador y tu interfaz por separado ya se te quedan cortos, aquí es donde la mezcla se muda al propio hardware.</strong> Los dos mezcladores de abajo son consolas independientes que corren sus propios efectos y enrutamiento, así que un PC congelado o una app que falla nunca detiene tu audio. Puse el RØDECaster Pro II y el Mackie DLZ Creator en mi setup uno tras otro para ver qué flujo encaja con cada tipo de streamer.</p><p><strong>El RØDECaster Pro II ($699) es la consola que piensa por adelantado.</strong> Procesa tu micro, tu música y tus alertas en el propio hardware, así tu directo sigue sonando bien aunque Windows haga de las suyas. Cuatro entradas combo Neutrik alimentan previos Revolution de 76dB que mueven un Shure SM7B o un Electro-Voice RE20 directos, sin necesidad de Cloudlifter. Los dos puertos USB-C permiten conectar dos ordenadores a la vez, los ocho pads SMART disparan comandos de OBS o bajan la música de un toque, y una pista de seguridad graba multitrack a una microSD o a un stick USB mientras estás en vivo. Los compradores de Amazon lo valoran 4.4/5 en 1,285 reseñas, y su comunidad es ruidosa por una razón.</p><p><strong>El Mackie DLZ Creator ($800) es el que te enseña sobre la marcha.</strong> Su pantalla táctil de 10.1 pulgadas preside nueve faders de 100mm, y el Mix Agent te guía en la configuración paso a paso en vez de tirarte al manual. Cuatro previos Onyx80 entregan 80dB de ganancia limpia, AutoMix equilibra hasta cuatro voces a la vez y puedes alternar entre los modos Easy, Enhanced y Pro conforme ganas confianza. Graba multitrack a una tarjeta SD o a un USB, se conecta a un segundo PC por NDI y hasta recibe una llamada por Bluetooth sin tirar tu directo. En Amazon lo valoran 4.2/5.</p><p><strong>¿Cuál es para ti?</strong> Si quieres independencia total de tu ordenador y un mezclador que siga funcionando cuando todo lo demás se cae, el RØDECaster Pro II es el indicado. Si prefieres que una pantalla grande te lleve de la mano y sueles tener invitados alrededor de la mesa, el DLZ Creator se gana su precio.</p>",
         "products": [
           247,
           248
         ]
       }
     ],
-    "conclusion": "If you want your hands on everything, get the Stream Deck+ ($160) — nothing else makes your whole stream so instantly controllable. If you want hands-on control over every audio source on your PC, the BEACN Mix Create ($229) is the software-first pick. If you stream from a console and want one compact box that does audio and video, the Streamer X ($229) is the value pick. And if you just need your mic to sound incredible, the Wave XLR MK.2 ($170) delivers. There is genuinely no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? Check our <a href=\"/guides/best-interface.html\">best audio interfaces guide</a>, the <a href=\"/guides/usb-mics.html\">best USB microphones</a>, and <a href=\"/guides/best-mic-for-podcasting.html\">best mics for podcasting</a>.</p>",
-    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ ($160) — nada hace tu directo tan instantáneamente controlable. Si quieres control total con las manos sobre cada fuente de audio de tu PC, el BEACN Mix Create ($229) es la opción software-first. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X ($229) es la elección de valor. Y si solo necesitas que tu micrófono suene increíble, el Wave XLR MK.2 ($170) lo logra. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se siente como el tuyo. <p>¿Buscas más? Consulta nuestra <a href=\"/guides/best-interface_es.html\">guía de mejores interfaces de audio</a>, los <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\">mejores micrófonos para podcasting</a>.</p>",
-    "verdict": "Stream Deck+ for total control, BEACN Mix Create for software routing",
-    "verdict_es": "Stream Deck+ para control total, BEACN Mix Create para el enrutamiento por software",
+    "conclusion": "If you want your hands on everything, get the Stream Deck+ ($160) — nothing else makes your whole stream so instantly controllable. If you want hands-on control over every audio source on your PC, the BEACN Mix Create ($229) is the software-first pick. If you stream from a console and want one compact box that does audio and video, the Streamer X ($229) is the value pick. And if you just need your mic to sound incredible, the Wave XLR MK.2 ($170) delivers.  And when a controller plus a separate interface no longer cut it, the RØDECaster Pro II ($699) runs your whole mix on its own hardware and keeps going even if your PC crashes, while the DLZ Creator ($800) walks you through setup on a big touchscreen. There is genuinely no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? Check our <a href=\"/guides/best-interface.html\">best audio interfaces guide</a>, the <a href=\"/guides/usb-mics.html\">best USB microphones</a>, and <a href=\"/guides/best-mic-for-podcasting.html\">best mics for podcasting</a>.</p>",
+    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ ($160) — nada hace tu directo tan instantáneamente controlable. Si quieres control total con las manos sobre cada fuente de audio de tu PC, el BEACN Mix Create ($229) es la opción software-first. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X ($229) es la elección de valor. Y si solo necesitas que tu micrófono suene increíble, el Wave XLR MK.2 ($170) lo logra.  Y cuando un controlador más una interfaz por separado ya no te sirven, el RØDECaster Pro II ($699) corre toda tu mezcla en su propio hardware y sigue aunque tu PC se caiga, mientras que el DLZ Creator ($800) te guía en la configuración con su gran pantalla táctil. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se siente como el tuyo. <p>¿Buscas más? Consulta nuestra <a href=\"/guides/best-interface_es.html\">guía de mejores interfaces de audio</a>, los <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\">mejores micrófonos para podcasting</a>.</p>",
+    "verdict": "Stream Deck+ for total control, RØDECaster Pro II for hardware reliability, BEACN Mix Create for software routing",
+    "verdict_es": "Stream Deck+ para control total, RØDECaster Pro II para fiabilidad de hardware, BEACN Mix Create para el enrutamiento por software",
     "featuredProducts": [
       243,
       261,
@@ -53487,11 +53487,11 @@
       "key1_es": "",
       "key2_es": "",
       "faq_q1_en": "What is the best streaming mixer and controller?",
-      "faq_a1_en": "It depends on your workflow. The Elgato Stream Deck+ ($160) is the best-selling controller for hands-on control of your entire stream. The BEACN Mix Create ($229) is a USB-C mixing deck that routes every app on your PC with separate personal and audience mixes. For console streamers on a budget, the Rode Streamer X ($229) combines an audio interface, 4K capture card and control surface in one compact box.",
+      "faq_a1_en": "It depends on your workflow. The Elgato Stream Deck+ ($160) is the best-selling controller for hands-on control of your entire stream. The BEACN Mix Create ($229) is a USB-C mixing deck that routes every app on your PC with separate personal and audience mixes. For console streamers on a budget, the Rode Streamer X ($229) combines an audio interface, 4K capture card and control surface in one compact box. If you want an all-in-one mixer that runs its processing on the hardware itself, the RØDECaster Pro II ($699) and the Mackie DLZ Creator ($800) are the professional picks.",
       "faq_q2_en": "Is the Rode Streamer X worth it despite the software issues?",
       "faq_a2_en": "For most streamers, yes. The Streamer X ($229) replaces a separate interface, capture card and stream deck for less money, and its 76dB Revolution preamp drives demanding mics like the SM7B without a booster. The honest trade-off is the UNIFY software, which can be unstable upon reboots and requires precise power-cycling. If you stream from a console or single PC on a budget, it is excellent value; if you run a complex dual-PC setup and need software that never flinches, the Elgato or BEACN ecosystem is more reliable.",
       "faq_q1_es": "¿Cuál es el mejor mezclador y controlador de streaming?",
-      "faq_a1_es": "Depende de tu flujo de trabajo. El Elgato Stream Deck+ ($160) es el controlador más vendido para control total del directo. El BEACN Mix Create ($229) es un deck de mezcla USB-C que enruta cada app de tu PC con mezclas personal y de audiencia separadas. Para streamers de consola con presupuesto ajustado, el Rode Streamer X ($229) combina interfaz de audio, tarjeta de captura 4K y superficie de control en una caja compacta.",
+      "faq_a1_es": "Depende de tu flujo de trabajo. El Elgato Stream Deck+ ($160) es el controlador más vendido para control total del directo. El BEACN Mix Create ($229) es un deck de mezcla USB-C que enruta cada app de tu PC con mezclas personal y de audiencia separadas. Para streamers de consola con presupuesto ajustado, el Rode Streamer X ($229) combina interfaz de audio, tarjeta de captura 4K y superficie de control en una caja compacta. Si buscas un mezclador todo-en-uno que corra su procesamiento en el propio hardware, el RØDECaster Pro II ($699) y el Mackie DLZ Creator ($800) son las opciones profesionales.",
       "faq_q2_es": "¿Merece la pena el Rode Streamer X a pesar de los problemas de software?",
       "faq_a2_es": "Para la mayoría de streamers, sí. El Streamer X ($229) sustituye a una interfaz, una tarjeta capturadora y un stream deck separados por menos dinero, y su previo Revolution de 76dB mueve micrófonos exigentes como el SM7B sin booster. La contrapartida honesta es el software UNIFY, que puede volverse inestable al reiniciar y requiere ciclos de encendido precisos. Si transmites desde una consola o un solo PC con presupuesto ajustado, es una compra excelente; si montas un setup complejo de doble PC y necesitas un software que nunca parpadee, el ecosistema Elgato o BEACN es más fiable.",
       "specs": [],
@@ -53553,6 +53553,14 @@
         {
           "title": "Elgato Wave XLR MK.2",
           "title_es": "Elgato Wave XLR MK.2"
+        },
+        {
+          "title": "Mackie DLZ Creator",
+          "title_es": "Mackie DLZ Creator"
+        },
+        {
+          "title": "RØDE RØDECaster Pro II",
+          "title_es": "RØDE RØDECaster Pro II"
         }
       ],
       "rows": [
@@ -53575,6 +53583,14 @@
             {
               "value": "Broadcast-grade XLR mic audio",
               "value_es": "Audio de micrófono XLR de nivel profesional"
+            },
+            {
+              "value": "Touchscreen-guided podcast & streaming mixer",
+              "value_es": "Mezclador para podcast y streaming guiado por pantalla táctil"
+            },
+            {
+              "value": "Standalone dual-PC stream console",
+              "value_es": "Consola de streaming autónoma para doble PC"
             }
           ]
         },
@@ -53597,6 +53613,14 @@
             {
               "value": "Compact XLR mic interface",
               "value_es": "Interfaz XLR de micrófono compacta"
+            },
+            {
+              "value": "All-in-one digital mixer (XLR inputs)",
+              "value_es": "Mezclador digital todo-en-uno (entradas XLR)"
+            },
+            {
+              "value": "All-in-one production console (XLR inputs)",
+              "value_es": "Consola de producción todo-en-uno (entradas XLR)"
             }
           ]
         },
@@ -53619,6 +53643,14 @@
             {
               "value": "4.5/5 (66)",
               "value_es": "4.5/5 (66)"
+            },
+            {
+              "value": "4.2/5 (84)",
+              "value_es": "4.2/5 (84)"
+            },
+            {
+              "value": "4.4/5 (1,285)",
+              "value_es": "4.4/5 (1,285)"
             }
           ]
         },
@@ -53641,6 +53673,14 @@
             {
               "value": "80dB ultra-low-noise",
               "value_es": "80dB ultrabaja en ruido"
+            },
+            {
+              "value": "80dB Onyx80 preamp",
+              "value_es": "80dB previo Onyx80"
+            },
+            {
+              "value": "76dB Revolution preamp",
+              "value_es": "76dB previo Revolution"
             }
           ]
         },
@@ -53655,6 +53695,14 @@
             {
               "value": "4K30 capture / 4K60 passthrough",
               "value_es": "Captura 4K30 / paso de vídeo 4K60"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
             },
             {
               "value": "No",
@@ -53685,6 +53733,14 @@
             {
               "value": "$170",
               "value_es": "$170"
+            },
+            {
+              "value": "$800",
+              "value_es": "$800"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
             }
           ]
         }
@@ -53795,6 +53851,62 @@
           "No es un controlador — aún necesitas un Stream Deck o software para las escenas",
           "Solo una entrada XLR, sin entrada de línea ni de instrumento",
           "Requiere el software Wave Link para aprovechar todas las funciones DSP"
+        ]
+      },
+      {
+        "name": "Mackie DLZ Creator",
+        "name_es": "Mackie DLZ Creator",
+        "pros": [
+          "10.1-inch touchscreen makes routing visual and easy to follow",
+          "Mix Agent walks you through setup step by step",
+          "AutoMix balances up to four voices at once",
+          "80dB Onyx80 preamps handle gain-hungry dynamics",
+          "Records multitrack to SD or USB while you stream"
+        ],
+        "pros_es": [
+          "La pantalla táctil de 10.1 pulgadas hace visual y sencillo el enrutamiento",
+          "El Mix Agent te guía en la configuración paso a paso",
+          "AutoMix equilibra hasta cuatro voces a la vez",
+          "Los previos Onyx80 de 80dB mueven dinámicos que piden mucha ganancia",
+          "Graba multitrack a una SD o a un USB mientras transmites"
+        ],
+        "cons": [
+          "No dedicated MIDI or macro pads for OBS shortcuts",
+          "Touchscreen-driven workflow can feel slow for quick changes mid-stream",
+          "Firmware updates have been slow since Mackie joined Rode"
+        ],
+        "cons_es": [
+          "Sin pads MIDI ni macros dedicados para atajos de OBS",
+          "El flujo centrado en la pantalla táctil puede ir lento para cambios rápidos en directo",
+          "Las actualizaciones de firmware han sido lentas desde que Mackie se unió a Rode"
+        ]
+      },
+      {
+        "name": "RØDE RØDECaster Pro II",
+        "name_es": "RØDE RØDECaster Pro II",
+        "pros": [
+          "All processing runs on the hardware, so a frozen PC can't stop your stream",
+          "Dual USB-C connects two computers at once",
+          "SMART pads trigger OBS commands and duck music automatically",
+          "76dB Revolution preamps drive an SM7B without a Cloudlifter",
+          "Multitrack safety recording to microSD or USB"
+        ],
+        "pros_es": [
+          "Todo el procesamiento corre en el hardware, así un PC congelado no puede detener tu directo",
+          "El doble USB-C conecta dos ordenadores a la vez",
+          "Los pads SMART disparan comandos de OBS y bajan la música automáticamente",
+          "Los previos Revolution de 76dB mueven un SM7B sin Cloudlifter",
+          "Grabación de seguridad multitrack a microSD o USB"
+        ],
+        "cons": [
+          "$699 is steep if you only need scene switching, not full mixing",
+          "Menu structure changes between firmware updates can catch you off guard",
+          "No capture card, so you still need separate video capture"
+        ],
+        "cons_es": [
+          "$699 es caro si solo necesitas cambiar escenas, no mezclar de verdad",
+          "Los menús cambian entre actualizaciones de firmware y te pueden pillar desprevenido",
+          "No incluye tarjeta de captura, así que aún necesitas capturar vídeo aparte"
         ]
       }
     ]

@@ -4199,36 +4199,46 @@
   },
   {
     "id": 247,
-    "title": "VSDINSIDE Stream Dock M18",
-    "title_es": "VSDINSIDE Stream Dock M18",
-    "brand": "VSDINSIDE",
+    "title": "Mackie DLZ Creator",
+    "title_es": "Mackie DLZ Creator",
+    "brand": "Mackie",
     "category": "streaming",
-    "price": 49,
-    "rating": 4.5,
-    "reviews": 141,
-    "badge": "budgetPick",
-    "desc": "VSDinside's Stream Dock M18 is a no-frills alternative to the Elgato Stream Deck: 18 programmable macro keys with customizable icons for OBS, shortcuts, sounds and app launches on PC or Mac. It does the core job of a stream controller without the premium markup, and the included software supports profiles, folders and text displays.",
-    "desc_es": "El Stream Dock M18 de VSDinside es una alternativa sencilla al Elgato Stream Deck: 18 teclas macro programables con iconos personalizables para OBS, atajos, sonidos y apertura de apps en PC o Mac. Cumple la función central de un controlador de streaming sin el sobreprecio de las marcas premium, y su software incluye perfiles, carpetas y displays de texto.",
-    "img": "https://m.media-amazon.com/images/I/61TAZo+VcdL._AC_SL1500_.jpg",
+    "price": 800,
+    "rating": 4.2,
+    "reviews": 84,
+    "badge": "premium",
+    "desc": "Mackie's DLZ Creator is an adaptive digital mixer built around a 10.1-inch touchscreen, four Onyx80 mic preamps and nine 100mm faders, with Mix Agent guiding setup and AutoMix balancing up to four mics at once. Three work modes (Easy, Enhanced, Pro) reshape the interface for your level, and it records or streams multitrack to a PC via USB-C, an SD card or a USB flash drive.",
+    "desc_es": "El DLZ Creator de Mackie es un mezclador digital adaptativo construido alrededor de una pantalla táctil de 10.1 pulgadas, cuatro previos de micrófono Onyx80 y nueve faders de 100mm, con Mix Agent que guía la configuración y AutoMix que equilibra hasta cuatro micros a la vez. Tres modos de trabajo (Easy, Enhanced y Pro) remodelan la interfaz según tu nivel, y graba o transmite multitrack a un PC por USB-C, a una tarjeta SD o a un pendrive USB.",
+    "img": "https://m.media-amazon.com/images/I/71M9v1AVOwL._AC_SL1500_.jpg",
     "stores": {
-      "amazon": "https://www.amazon.com/dp/B0FBGC5X85"
-    }
+      "amazon": "https://www.amazon.com/dp/B0C1KJ114Z",
+      "andertons": "https://www.andertons.co.uk/mackie-dlz-creator-podcast-studio-mixer/",
+      "musicstore": "https://www.musicstore.com/en_GB/GBP/Mackie-DLZ-Creator/art-REC0016379-000",
+      "official": "https://mackie.com/en/products/livestreaming-podcasting/dlz/dlz_creator.html"
+    },
+    "excludeStores": [
+      "gear4music"
+    ]
   },
   {
     "id": 248,
-    "title": "FIFINE AmpliGame D6",
-    "title_es": "FIFINE AmpliGame D6",
-    "brand": "FIFINE",
+    "title": "RØDE RØDECaster Pro II",
+    "title_es": "RØDE RØDECaster Pro II",
+    "brand": "Rode",
     "category": "streaming",
-    "price": 56,
-    "rating": 4.5,
-    "reviews": 738,
-    "badge": "budgetPick",
-    "desc": "FIFINE's AmpliGame D6 packs 15 LCD macro keys into a compact stream controller with RGB lighting and plug-and-play USB. It triggers actions in OBS, Twitch, YouTube and Streamlabs, and works on Mac and PC, giving budget streamers most of the Stream Deck experience for around a third of the price.",
-    "desc_es": "El AmpliGame D6 de FIFINE reúne 15 teclas macro LCD en un controlador de streaming compacto con iluminación RGB y USB plug-and-play. Dispara acciones en OBS, Twitch, YouTube y Streamlabs, y funciona en Mac y PC, dando a los streamers con presupuesto ajustado casi toda la experiencia de un Stream Deck por alrededor de un tercio del precio.",
-    "img": "https://m.media-amazon.com/images/I/71qMfd9UwSL.jpg",
+    "price": 699,
+    "rating": 4.4,
+    "reviews": 1285,
+    "badge": "premium",
+    "desc": "Rode's RØDECaster Pro II is a standalone production console that processes your mic, music and alerts on the hardware itself, so a frozen PC never kills your stream. Four Neutrik combo inputs feed 76dB Revolution preamps, and it packs dual USB-C (two computers at once), eight SMART pads, APHEX processing, a 5.5-inch touchscreen and multitrack recording to microSD or USB.",
+    "desc_es": "El RØDECaster Pro II de Rode es una consola de producción autónoma que procesa tu micro, tu música y tus alertas en el propio hardware, así un PC congelado nunca mata tu directo. Cuatro entradas combo Neutrik alimentan los previos Revolution de 76dB, e incluye doble USB-C (dos ordenadores a la vez), ocho pads SMART, procesamiento APHEX, una pantalla táctil de 5.5 pulgadas y grabación multitrack a microSD o USB.",
+    "img": "https://m.media-amazon.com/images/I/61gXvIhWUUL._AC_SL1500_.jpg",
     "stores": {
-      "amazon": "https://www.amazon.com/dp/B0DP9ZB79B"
+      "amazon": "https://www.amazon.com/dp/B0B17V8NGX",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Rode-RodeCaster-Pro-II/4U7L",
+      "andertons": "https://www.andertons.co.uk/rode-rodecaster-pro-ii/",
+      "musicstore": "https://www.musicstore.com/en_GB/GBP/Rode-RodeCaster-Pro-II/art-REC0016024-000",
+      "official": "https://rode.com/en-us/products/rodecaster-pro-ii"
     }
   },
   {
