@@ -58000,6 +58000,12 @@
           "val2": "24 MHz (566–590 MHz J13 band)"
         },
         {
+          "label_en": "Frequency Range",
+          "label_es": "Rango de Frecuencia",
+          "val1": "516–558 MHz (band A)",
+          "val2": "566–590 MHz (J13 band)"
+        },
+        {
           "label_en": "Compatible Channels",
           "label_es": "Canales Compatibles",
           "val1": "Up to 16",
@@ -58088,6 +58094,14 @@
           "val2": "24 MHz (566–590 MHz J13 band)",
           "val1_es": "42 MHz (1680 frecuencias)",
           "val2_es": "24 MHz (banda J13 de 566–590 MHz)"
+        },
+        {
+          "label": "Frequency Range",
+          "label_es": "Rango de Frecuencia",
+          "val1": "516–558 MHz (band A)",
+          "val2": "566–590 MHz (J13 band)",
+          "val1_es": "516–558 MHz (banda A)",
+          "val2_es": "566–590 MHz (banda J13)"
         },
         {
           "label": "Compatible Channels",

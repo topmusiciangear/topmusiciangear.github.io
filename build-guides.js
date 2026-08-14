@@ -169,7 +169,7 @@ function getResolvedStores(product) {
   if (s.gear4music) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
   }
-  if (product.stores.official) {
+  if (product.stores.official && !excluded.includes('official')) {
     s.official = product.stores.official;
   }
   return s;
