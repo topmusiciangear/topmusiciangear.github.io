@@ -2071,44 +2071,6 @@
           ]
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$269",
-              "value_es": "$269"
-            },
-            {
-              "value": "$399",
-              "value_es": "$399"
-            },
-            {
-              "value": "$1,099",
-              "value_es": "$1,099"
-            },
-            {
-              "value": "$3,599",
-              "value_es": "$3,599"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$399",
-              "value_es": "$399"
-            },
-            {
-              "value": "$449",
-              "value_es": "$449"
-            }
-          ]
-        },
-        {
           "label": "Max SPL",
           "label_es": "SPL Máximo",
           "values": [
@@ -2181,6 +2143,44 @@
             {
               "value": "150 Ω",
               "value_es": "150 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$1,099",
+              "value_es": "$1,099"
+            },
+            {
+              "value": "$3,599",
+              "value_es": "$3,599"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
             }
           ]
         }
@@ -53479,28 +53479,6 @@
       ],
       "rows": [
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$160",
-              "value_es": "$160"
-            },
-            {
-              "value": "$229",
-              "value_es": "$229"
-            },
-            {
-              "value": "$359",
-              "value_es": "$359"
-            },
-            {
-              "value": "$170",
-              "value_es": "$170"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
@@ -53607,6 +53585,28 @@
             {
               "value": "No",
               "value_es": "No"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$160",
+              "value_es": "$160"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$359",
+              "value_es": "$359"
+            },
+            {
+              "value": "$170",
+              "value_es": "$170"
             }
           ]
         }
@@ -53894,28 +53894,6 @@
       ],
       "rows": [
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$499",
-              "value_es": "$499"
-            },
-            {
-              "value": "$499",
-              "value_es": "$499"
-            },
-            {
-              "value": "$219",
-              "value_es": "$219"
-            },
-            {
-              "value": "$299",
-              "value_es": "$299"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
@@ -54022,6 +54000,28 @@
             {
               "value": "HDMI 2-in/1-out 4K/60 passthrough",
               "value_es": "HDMI 2 en/1 salida con paso 4K/60"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
             }
           ]
         }
@@ -54281,24 +54281,6 @@
       ],
       "rows": [
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$299",
-              "value_es": "$299"
-            },
-            {
-              "value": "$76",
-              "value_es": "$76"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
@@ -54385,6 +54367,24 @@
             {
               "value": "4.7/5 (3,519 reviews)",
               "value_es": "4.7/5 (3,519 reseñas)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$76",
+              "value_es": "$76"
             }
           ]
         }
@@ -54647,32 +54647,6 @@
       ],
       "rows": [
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$299",
-              "value_es": "$299"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$110",
-              "value_es": "$110"
-            },
-            {
-              "value": "$150",
-              "value_es": "$150"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
@@ -54799,6 +54773,32 @@
             {
               "value": "4.7/5 (8,700+ reviews)",
               "value_es": "4.7/5 (más de 8,700 reseñas)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$110",
+              "value_es": "$110"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
             }
           ]
         }
@@ -55097,28 +55097,6 @@
       ],
       "rows": [
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$500",
-              "value_es": "$500"
-            },
-            {
-              "value": "$399",
-              "value_es": "$399"
-            },
-            {
-              "value": "$799",
-              "value_es": "$799"
-            },
-            {
-              "value": "$999",
-              "value_es": "$999"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
@@ -55269,6 +55247,28 @@
             {
               "value": "4.8/5 (3,456 reviews)",
               "value_es": "4.8/5 (3,456 reseñas)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$500",
+              "value_es": "$500"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
             }
           ]
         }
@@ -55558,32 +55558,6 @@
       ],
       "rows": [
         {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$699",
-              "value_es": "$699"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$399",
-              "value_es": "$399"
-            },
-            {
-              "value": "$599",
-              "value_es": "$599"
-            },
-            {
-              "value": "$179",
-              "value_es": "$179"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
@@ -55788,6 +55762,32 @@
             {
               "value": "4.3/5 (521 reviews)",
               "value_es": "4.3/5 (521 reseñas)"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$179",
+              "value_es": "$179"
             }
           ]
         }
