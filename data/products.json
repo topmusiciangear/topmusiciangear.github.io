@@ -4547,6 +4547,12 @@
     "desc": "The Stream Deck + XL is Elgato's biggest controller yet: 36 fully customizable LCD keys plus a row of six tactile dials and a touch strip, so you get scenes, audio mixing, camera cuts and instant effects on one desk. The dials work as 360-degree encoders with a push action for mutes or toggles, the touch strip gives you a scrubber-style control surface, and everything runs through the same deep plugin ecosystem as the rest of the Stream Deck line. It connects over USB-C, works with Windows and macOS, and its adjustable magnetic stand keeps the whole thing at the right angle.",
     "desc_es": "El Stream Deck + XL es el controlador más grande de Elgato hasta la fecha: 36 teclas LCD totalmente personalizables más una fila de seis diales táctiles y una tira táctil, para tener escenas, mezcla de audio, cortes de cámara y efectos instantáneos en un solo escritorio. Los diales funcionan como encoders de 360 grados con función de pulsación para silenciar o alternar, la tira táctil aporta una superficie de control tipo scrubber, y todo corre sobre el mismo ecosistema profundo de plugins que el resto de la línea Stream Deck. Se conecta por USB-C, funciona con Windows y macOS, y su soporte magnético ajustable mantiene todo en el ángulo correcto.",
     "img": "https://m.media-amazon.com/images/I/61S23opY6ML._AC_SL1500_.jpg",
+    "excludeStores": [
+      "gear4music",
+      "reverb",
+      "andertons",
+      "musicstore"
+    ],
     "stores": {
       "amazon": "https://www.amazon.co.uk/Elgato-Stream-Control-Platform-Dials-Black/dp/B0G7Y65YT9",
       "official": "https://www.elgato.com/us/en/p/stream-deck-plus-xl"
