@@ -4573,11 +4573,12 @@
     "badge": "value",
     "desc": "The Razer Stream Controller is Razer's take on the Loupedeck Live formula: 12 haptic Switchblade keys that double as mini LCD touchscreens, six tactile analog dials that click in as buttons, eight programmable keys and two side LCD panels for dial info. It's an all-in-one keypad for streaming and content creation with integrated support for OBS Studio, Streamlabs, Twitch, Discord, Spotify and the Adobe Creative Suite, plus Dynamic Mode that swaps layouts automatically based on the app you're in. Setup runs through Loupedeck software with ready-made profiles, and it works on PC and Mac over a 2-meter USB-C cable.",
     "desc_es": "El Razer Stream Controller es la versión de Razer de la fórmula Loupedeck Live: 12 teclas hápticas Switchblade que funcionan como mini pantallas táctiles LCD, seis diales analógicos táctiles que hacen clic como botones, ocho teclas programables y dos paneles LCD laterales con información de los diales. Es un teclado todo-en-uno para streaming y creación de contenido con soporte integrado para OBS Studio, Streamlabs, Twitch, Discord, Spotify y la suite Adobe Creative, además del modo Dinámico que cambia de disposición automáticamente según la app que tengas abierta. La configuración se hace con el software Loupedeck con perfiles listos para usar, y funciona en PC y Mac con un cable USB-C de 2 metros.",
-    "img": "https://m.media-amazon.com/images/I/61gsU0znleL._AC_SL1500_.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.co.uk/dp/B0B5FV1BY6",
-      "official": "https://www.razer.com/streaming-accessories/razer-stream-controller"
-    }
+  "img": "https://m.media-amazon.com/images/I/61gsU0znleL._AC_SL1500_.jpg",
+  "stores": {
+    "amazon": "https://www.amazon.co.uk/dp/B0B5FV1BY6",
+    "official": "https://www.razer.com/mena-en/gaming-accessories/razer-stream-controller?srsltid=AfmBOopmwgPnCq_WSpRpPMiil5Oc8csG_BO15DYfwxQKvcq2bE9m0Ygl"
+  },
+  "excludeStores": ["gear4music", "reverb", "andertons", "musicstore"]
   },
   {
     "id": 263,
