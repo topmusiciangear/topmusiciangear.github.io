@@ -4120,10 +4120,10 @@
     "desc": "A dual-bus streaming mixer and video capture interface for gamers and creators. XLR mic support with phantom power, assignable control pads, voice processing and multiple USB-C and HDMI ports for consoles, PCs and cameras.",
     "desc_es": "Un mezclador de streaming de doble bus y captura de vídeo para gamers y creadores. Soporte de micrófono XLR con alimentación phantom, pads de control asignables, procesamiento de voz y múltiples puertos USB-C y HDMI para consolas, PCs y cámaras.",
     "img": "https://r2.gear4music.com/media/103/1038820/1200/preview.jpg",
+    "excludeStores": ["andertons", "reverb"],
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Roland-Bridge-Cast-X-Audio-Video-Streaming-Mixer/679K",
       "amazon": "https://www.amazon.co.uk/dp/B0CSCRF8L1",
-      "andertons": "https://www.andertons.co.uk/roland-bridge-cast-x-dual-bus-streaming-mixer-and-video-capture/",
       "musicstore": "https://www.musicstore.com/nl_NL/EUR/Roland-Bridge-Cast/art-PCM0017569-000"
     }
   },
