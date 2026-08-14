@@ -1,0 +1,618 @@
+# GUIDE: vocal-plugins
+TITLE: Best Vocal Mixing Plugins That Actually Work (Full Chain)
+TITLE_ES: Mejores Plugins de Mezcla Vocal que Realmente Funcionan (Cadena Completa)
+VPC:
+
+[P] FabFilter Total Bundle
+  P0: Pro-Q 3's dynamic EQ cuts resonant vocal frequencies only when they cross a threshold
+  P1: Pro-C 2 offers transparent compression with multiple algorithms, including a beautiful vocal mode
+  P2: Pro-DS catches sibilance naturally and Pro-MB adds multiband control for de-essing
+  P3: 30+ plug-ins cover EQ, compression, reverb, saturation, and limiting
+  PE0: El EQ dinámico de Pro-Q 3 corta frecuencias resonantes vocales solo cuando cruzan un umbral
+  PE1: Pro-C 2 ofrece compresión transparente con múltiples algoritmos, incluido un precioso modo vocal
+  PE2: Pro-DS captura la sibilancia de forma natural y Pro-MB añade control multibanda para de-essing
+  PE3: Más de 30 plugins cubren EQ, compresión, reverb, saturación y limitación
+  C0: At $1,069 the full bundle is a major investment
+  C1: Pro-Q 4 and Pro-C 3 sell individually at $199 each, so the bundle only pays off if you use most of it
+  C2: License-file copy protection ties the licenses to your FabFilter account
+  CE0: Por $1,069, el paquete completo es una inversión importante
+  CE1: Pro-Q 4 y Pro-C 3 se venden por separado a $199 cada uno, así que el paquete solo compensa si usas casi todo
+  CE2: La protección por archivo de licencia vincula las licencias a tu cuenta FabFilter
+
+[P] Celemony Melodyne 5
+  P0: DNA Direct Note Access adjusts individual notes even within chords
+  P1: Melodic algorithm stays natural even on heavy corrections
+  P2: ARA integration gives instant, seamless editing inside Pro Tools, Logic, Cubase, and Studio One
+  P3: At $99 it's an absolute steal for the quality
+  PE0: La tecnología DNA (Direct Note Access) ajusta notas individuales incluso dentro de acordes
+  PE1: El algoritmo Melodic suena natural incluso con correcciones fuertes
+  PE2: La integración ARA permite edición instantánea dentro de Pro Tools, Logic, Cubase y Studio One
+  PE3: Por $99 es una ganga absoluta para la calidad que ofrece
+  C0: Transparent results demand musical, subtle corrections rather than heavy pitch-shifting
+  C1: The per-note workflow takes time to master versus one-knob autotune-style tools
+  C2: Polyphonic DNA editing works best on clean recordings, not dense mixes
+  CE0: Los resultados transparentes exigen correcciones musicales y sutiles, no desplazamientos de tono agresivos
+  CE1: El flujo de trabajo nota a nota requiere tiempo de aprendizaje frente a herramientas de un solo mando
+  CE2: La edición polifónica DNA funciona mejor en grabaciones limpias, no en mezclas densas
+
+[P] iZotope Ozone 12 Advanced
+  P0: Tonal Balance Control 2 shows you how your vocal fits against reference tracks
+  P1: Clarity module reduces reverb and ambience from takes recorded in untreated rooms
+  P2: Stabilizer automatically detects and fixes tonal imbalances
+  P3: 20 pro modules including Stem EQ and neural-network stem splitting
+  PE0: El Tonal Balance Control 2 te muestra cómo encaja tu voz frente a pistas de referencia
+  PE1: El módulo Clarity reduce reverb y ambiente de tomas grabadas en habitaciones sin tratar
+  PE2: El módulo Stabilizer detecta y corrige desequilibrios tonales automáticamente
+  PE3: 20 módulos profesionales, incluidos Stem EQ y separación de stems con redes neuronales
+  C0: At $499 it's expensive if you only finish a track or two a month
+  C1: Requires an iLok, unlike license-file competitors
+  C2: The AI assistant can over-process until you learn the individual modules
+  CE0: Por $499 es caro si solo terminas uno o dos temas al mes
+  CE1: Requiere iLok, a diferencia de los competidores con archivo de licencia
+  CE2: El asistente IA puede sobre-procesar hasta que aprendes los módulos individuales
+
+[P] Soundtoys 5.5 Bundle
+  P0: EchoBoy is the most musical delay plugin ever made — 30+ tape and digital delay models
+  P1: Decapitator adds analog-style saturation that makes vocals cut through a mix
+  P2: Little AlterBoy pitch- and formant-shifts vocals for creative effects
+  P3: 23 plug-ins including Crystallizer, FilterFreak, SuperPlate, and Effect Rack
+  PE0: EchoBoy es el plugin de delay más musical jamás creado — más de 30 modelos de cinta y digital
+  PE1: Decapitator añade saturación estilo analógico que hace que las voces corten la mezcla
+  PE2: Little AlterBoy desplaza tono y formantes de la voz para efectos creativos
+  PE3: 23 plugins, incluidos Crystallizer, FilterFreak, SuperPlate y Effect Rack
+  C0: At $599 it's steep if you only need one or two of its effects
+  C1: It's a creative-color toolkit, not a transparent corrective chain
+  C2: Many models overlap if your chain is just a delay and a saturator
+  CE0: Por $599 resulta caro si solo necesitas uno o dos de sus efectos
+  CE1: Es un kit de color creativo, no una cadena correctiva transparente
+  CE2: Muchos modelos se solapan si tu cadena es solo un delay y un saturador
+
+[P] Waves SSL G-Master Buss Compressor
+  P0: Emulates the SSL G-Series console compressor used on countless hit records
+  P1: At $39 it's one of the best values in all of audio plugins
+  P2: Gentle 2:1 with auto release glues vocal tracks and adds professional sheen
+  P3: Set-and-forget settings that smooth dynamics on a vocal bus
+  PE0: Emula el compresor de consola SSL G-Series usado en innumerables discos exitosos
+  PE1: Por $39 es uno de los mejores valores en todo el mundo de los plugins
+  PE2: El ratio 2:1 suave con release automático pega las pistas vocales y añade brillo profesional
+  PE3: Ajustes de poner y olvidar que suavizan la dinámica en un bus vocal
+  C0: Waves License Center activation and update policies can frustrate users
+  C1: It's a single buss compressor — not a transparent channel-compressor replacement
+  C2: It offers the SSL glue on one bus, without sidechain or multiband options
+  CE0: La activación y las políticas de actualización de Waves License Center pueden frustrar
+  CE1: Es un compresor de bus único — no sustituye a un compresor de canal transparente
+  CE2: Ofrece el pegamento SSL en un solo bus, sin opciones de sidechain ni multibanda
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: One-stop mixing toolkit ~ Set completo para mezclar | Precision EQ on any track ~ EQ de precisión en cualquier pista | Transparent to aggressive compression ~ Compresión transparente o agresiva | Pitch-perfect vocal tuning ~ Afinado vocal impecable | Mastering with AI-assisted workflow ~ Mastering con flujo asistido por IA | Creative color and character FX ~ FX creativos con carácter | SSL bus compression glue ~ Pegado tipo compresión de bus SSL | Audio repair & cleanup ~ Reparación y limpieza de audio
+  PT[Type/Tipo]: 30+ plug-ins (EQ, comp, reverb, sat, limiter) ~ 30+ plugins (EQ, comp, reverb, sat, limitador) | Dynamic/parametric EQ ~ EQ paramétrico/dinámico | Compressor ~ Compresor | Pitch correction & editing ~ Corrección y edición de tono | Mastering suite ~ Suite de mastering | 21 creative plug-ins ~ 21 plugins creativos | Buss compressor ~ Compresor de bus | Repair suite ~ Suite de reparación
+  PT[Format/Formato]: VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX
+  PT[Platforms/Plataformas]: macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows
+  PT[Copy Protection/Protección de Copia]: License file ~ Archivo de licencia | License file ~ Archivo de licencia | License file ~ Archivo de licencia | License file ~ Archivo de licencia | iLok ~ iLok | iLok ~ iLok | Waves License Center ~ Waves License Center | iLok ~ iLok
+  PT[Latency/Latencia]: Ultra-low ~ Ultrabaja | Ultra-low ~ Ultrabaja | Ultra-low ~ Ultrabaja | Low ~ Baja | Low ~ Baja | Low ~ Baja | Low ~ Baja | Low ~ Baja
+  PT[Standout Feature/Característica Destacada]: Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R ~ Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R | 24 bands, spectrum analyzer, linear phase ~ 24 bandas, analizador, fase lineal | Opto, VCA, FET + dynamic sidechain ~ Opto, VCA, FET + sidechain dinámico | Melodic algorithm, per-note editing ~ Algoritmo melódico, edición por nota | Ozone Assistant, Tonal Balance, 8 modules ~ Ozone Assistant, Tonal Balance, 8 módulos | EchoBoy, Decapitator, AlterBoy, FilterFreak ~ EchoBoy, Decapitator, AlterBoy, FilterFreak | SSL G-series 4K style comp ~ Comp tipo SSL G-series 4K | Spectral Repair, Dialogue Isolate, de-hum ~ Spectral Repair, Dialogue Isolate, de-hum
+  PT[Price/Precio]: $1,069 ~ $1.069 | $199 ~ $199 | $199 ~ $199 | $99 ~ $99 | $499 ~ $499 | $599 ~ $599 | $39 ~ $39 | $1,199 ~ $1.199
+
+AUDIT_FLAGS:
+[CONS_LE_3] vocal-plugins / FabFilter Total Bundle: 3 cons only: At $1,069 the full bundle is a major investment | Pro-Q 4 and Pro-C 3 sell individually at $199 each, so the bundle only pays off if you use most of it | License-file copy protection ties the licenses to your FabFilter account
+[GENERIC] vocal-plugins / Celemony Melodyne 5 / pros: At $99 it's an absolute steal for the quality
+[CONS_LE_3] vocal-plugins / Celemony Melodyne 5: 3 cons only: Transparent results demand musical, subtle corrections rather than heavy pitch-shifting | The per-note workflow takes time to master versus one-knob autotune-style tools | Polyphonic DNA editing works best on clean recordings, not dense mixes
+[CONS_LE_3] vocal-plugins / iZotope Ozone 12 Advanced: 3 cons only: At $499 it's expensive if you only finish a track or two a month | Requires an iLok, unlike license-file competitors | The AI assistant can over-process until you learn the individual modules
+[CONS_LE_3] vocal-plugins / Soundtoys 5.5 Bundle: 3 cons only: At $599 it's steep if you only need one or two of its effects | It's a creative-color toolkit, not a transparent corrective chain | Many models overlap if your chain is just a delay and a saturator
+[CONS_LE_3] vocal-plugins / Waves SSL G-Master Buss Compressor: 3 cons only: Waves License Center activation and update policies can frustrate users | It's a single buss compressor — not a transparent channel-compressor replacement | It offers the SSL glue on one bus, without sidechain or multiband options
+
+# GUIDE: best-mic-for-guitar-amps
+TITLE: Best Dynamic Mic for Recording Guitar Amps at Home
+TITLE_ES: Mejor Micrófono Dinámico para Grabar Amplificadores de Guitarra en Casa
+VPC:
+
+[P] Shure SM57
+  P0: Frequency response tightens the low end, pushes ~5kHz midrange, and tames harsh highs
+  P1: Handles a cranked amp over 120 dB SPL without distorting
+  P2: Cardioid pattern rejects the room — the mic hears the speaker, not the reverb
+  P3: At $99 it's the most practical first mic for recording amps
+  PE0: Su respuesta de frecuencia ajusta los graves, empuja el medio alrededor de 5kHz y doma los agudos duros
+  PE1: Soporta un amplificador al máximo por encima de 120 dB SPL sin distorsionar
+  PE2: El patrón cardioide rechaza la sala — el micrófono oye el altavoz, no la reverberación
+  PE3: Por $99 es el primer micrófono más práctico para grabar amplificadores
+  C0: Narrower frequency response than the MD 421 — less low-end body
+  C1: Less flat than the SM7B for blues or jazz tones
+  C2: It's a jack-of-all-trades: great on snare and brass, but only adequate at everything
+  CE0: Respuesta de frecuencia más limitada que el MD 421 — menos cuerpo en graves
+  CE1: Menos plana que la SM7B para tonos de blues o jazz
+  CE2: Es un todoterreno: genial en caja y metales, pero solo adecuado en todo lo demás
+
+[P] Shure SM7B
+  P0: Flatter response than the SM57 — more natural for blues, jazz, and classic rock
+  P1: Excellent off-axis rejection helps in untreated rooms
+  P2: Rugged dynamic design handles loud sources and broadcast use
+  P3: Built-in pop filter and shock mount for vocal work too
+  PE0: Respuesta más plana que la SM57 — más natural para blues, jazz y rock clásico
+  PE1: Excelente rechazo fuera de eje que ayuda en habitaciones sin tratar
+  PE2: Diseño dinámico robusto que soporta fuentes fuertes y uso broadcast
+  PE3: Filtro antipop y soporte antivibración integrados también para voces
+  C0: Very low output needs around 60-70dB of gain — a Cloudlifter is practically essential
+  C1: At $399 it costs about four times the SM57 for amp duties
+  C2: Without enough clean preamp gain it can sound noisy on entry-level interfaces
+  CE0: Su salida muy baja necesita unos 60-70dB de ganancia — un Cloudlifter es prácticamente imprescindible
+  CE1: Por $399 cuesta unas cuatro veces la SM57 para tareas de amplificador
+  CE2: Sin suficiente ganancia de previo limpia puede sonar ruidosa en interfaces de entrada
+
+[P] Sennheiser MD 421
+  P0: Wider frequency response (30 Hz – 17 kHz) captures more low end and a fuller amp picture
+  P1: Handles up to 160 dB SPL
+  P2: Five-position bass roll-off switch shapes tone right on the mic
+  P3: Pairs with an SM57 for the classic two-mic pro recording technique
+  PE0: Respuesta de frecuencia más amplia (30 Hz – 17 kHz) que captura más graves y una imagen más completa del amplificador
+  PE1: Soporta hasta 160 dB SPL
+  PE2: El interruptor de corte de graves de cinco posiciones moldea el tono en el propio micrófono
+  PE3: Se combina con una SM57 para la clásica técnica profesional de doble micrófono
+  C0: At $399 it costs nearly four times the SM57's price
+  C1: As a standalone amp mic it's a complement, not a replacement for the SM57
+  C2: Its clip mount is less convenient than the SM57's simple design
+  CE0: Por $399 cuesta casi cuatro veces el precio de la SM57
+  CE1: Como micrófono de amplificador en solitario es un complemento, no un sustituto de la SM57
+  CE2: Su soporte de clip es menos cómodo que el diseño simple de la SM57
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: The classic amp mic ~ El micro de ampli clásico | Loud cabs & toms ~ Cabs fuertes y toms | Warm close-miked amps ~ Amplis cálidos de cerca
+  PT[Type/Tipo]: Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico
+  PT[Polar Pattern/Patrón Polar]: Cardioid ~ Cardioide | Cardioid ~ Cardioide | Cardioid ~ Cardioide
+  PT[Frequency Response/Respuesta de Frecuencia]: 40 Hz – 15 kHz ~ 40 Hz – 15 kHz | 30 Hz – 17 kHz ~ 30 Hz – 17 kHz | 50 Hz – 20 kHz ~ 50 Hz – 20 kHz
+  PT[Sensitivity/Sensibilidad]: –56 dBV/Pa (1.6 mV) ~ –56 dBV/Pa (1.6 mV) | 2 mV/Pa ~ 2 mV/Pa | –59 dBV/Pa (1.12 mV) ~ –59 dBV/Pa (1.12 mV)
+  PT[Self-Noise/Ruido Propio]: N/A (dynamic) ~ N/D (dinámico) | N/A (dynamic) ~ N/D (dinámico) | N/A (dynamic) ~ N/D (dinámico)
+  PT[Max SPL/SPL Máximo]: 160 dB ~ 160 dB | 160 dB ~ 160 dB | 180 dB ~ 180 dB
+  PT[Output Impedance/Impedancia de Salida]: 150 Ω ~ 150 Ω | 200 Ω ~ 200 Ω | 150 Ω ~ 150 Ω
+  PT[Price/Precio]: $99 ~ $99 | $399 ~ $399 | $399 ~ $399
+
+AUDIT_FLAGS:
+[GENERIC] best-mic-for-guitar-amps / Shure SM57 / cons: It's a jack-of-all-trades: great on snare and brass, but only adequate at everything
+[CONS_LE_3] best-mic-for-guitar-amps / Shure SM57: 3 cons only: Narrower frequency response than the MD 421 — less low-end body | Less flat than the SM7B for blues or jazz tones | It's a jack-of-all-trades: great on snare and brass, but only adequate at everything
+[GENERIC] best-mic-for-guitar-amps / Shure SM7B / pros: Excellent off-axis rejection helps in untreated rooms
+[CONS_LE_3] best-mic-for-guitar-amps / Shure SM7B: 3 cons only: Very low output needs around 60-70dB of gain — a Cloudlifter is practically essential | At $399 it costs about four times the SM57 for amp duties | Without enough clean preamp gain it can sound noisy on entry-level interfaces
+[TOO_SHORT] best-mic-for-guitar-amps / Sennheiser MD 421 / pros: Handles up to 160 dB SPL
+[CONS_LE_3] best-mic-for-guitar-amps / Sennheiser MD 421: 3 cons only: At $399 it costs nearly four times the SM57's price | As a standalone amp mic it's a complement, not a replacement for the SM57 | Its clip mount is less convenient than the SM57's simple design
+
+# GUIDE: pro-mixers
+TITLE: CQ-18T vs M32R LIVE: Best Pro Mixer for You?
+TITLE_ES: CQ-18T vs M32R LIVE: ¿Mejor Mezcladora Pro para Ti?
+FS_SPECS:
+  [undefined / Canales de Entrada]: 18 (12 mono + 3 stereo) || 40 (32 mono + 4 stereo)
+  [undefined / Salidas]: 12 || 16 XLR + 6 aux
+  [undefined / Previos]: Allen & Heath || 32 Midas PRO
+  [undefined / Faders Motorizados]: 0 (touchscreen) || 25
+  [undefined / Pantalla Táctil]: 7-inch || 5-inch color
+  [undefined / Motores FX]: 4 stereo || 8 stereo
+  [undefined / Mezcla Automática]: Yes (AMM, Gain Assistant, Feedback) || No
+  [undefined / Grabación USB]: 18x12 || 32x32
+  [undefined / Precio]: $1,299 || $2,799
+COMPARISON:
+  [Year / Año]: 2024 || 2016
+  [Input Channels / Canales de Entrada]: 18 || 40
+  [Preamps / Previos]: Allen & Heath || Midas PRO
+  [Motorized Faders / Faders Motorizados]: None (touchscreen) || 25
+  [FX Engines / Motores FX]: 4 || 8
+  [Automatic Mixing / Mezcla Automática]: Yes || No
+  [USB Recording / Grabación USB]: 18x12 || 32x32
+  [Processing / Procesamiento]: 96kHz FPGA || 48kHz
+  [I/O Network / Red I/O]: None || AES50
+  [Best For / Mejor Para]: Automated/portable mixing || Professional live sound
+  [Weight / Peso]: ~5 lbs || ~33 lbs
+  [Price / Precio]: $1,299 || $2,799
+VPC:
+
+[P] Allen & Heath CQ-18T
+  P0: Ultra-compact and portable — fits in a backpack
+  P1: Automatic mixing features reduce need for dedicated engineer
+  P2: 7-inch touchscreen is intuitive and responsive
+  P3: 96kHz FPGA processing for excellent audio quality
+  P4: Accessible price makes professional mixing affordable
+  PE0: Ultracompacto y portátil — cabe en una mochila
+  PE1: Funciones de mezcla automática reducen la necesidad de ingeniero dedicado
+  PE2: Pantalla táctil de 7 pulgadas intuitiva y receptiva
+  PE3: Procesamiento FPGA de 96kHz para excelente calidad de audio
+  PE4: Precio accesible hace la mezcla profesional asequible
+  C0: Only 18 inputs — limited for larger productions
+  C1: No motorized faders — all control via touchscreen
+  C2: No expandable I/O options
+  C3: Only 4 stereo FX engines
+  C4: Limited routing and bus structure compared to M32R
+  CE0: Solo 18 entradas — limitado para producciones más grandes
+  CE1: Sin faders motorizados — todo el control vía pantalla táctil
+  CE2: Sin opciones de I/O expandible
+  CE3: Solo 4 motores FX estéreo
+  CE4: Estructura de enrutamiento y buses limitada comparada con M32R
+
+[P] Midas M32R LIVE
+  P0: Legendary Midas PRO preamps with warm, musical character
+  P1: 40 channels handle any live production
+  P2: 25 motorized faders for extensive hands-on control
+  P3: Industry-standard workflow trusted by touring engineers
+  P4: Expandable via AES50 for larger systems
+  PE0: Legendarios previos Midas PRO con carácter cálido y musical
+  PE1: 40 canales manejan cualquier producción en vivo
+  PE2: 25 faders motorizados para control práctico extenso
+  PE3: Flujo de trabajo estándar de la industria confiado por ingenieros de gira
+  PE4: Expandible vía AES50 para sistemas más grandes
+  C0: Much more expensive than CQ-18T
+  C1: Heavy at ~33 lbs — not very portable
+  C2: No automatic mixing features
+  C3: Older platform (2016) showing its age
+  C4: No touchscreen-focused workflow
+  CE0: Mucho más caro que el CQ-18T
+  CE1: Pesado a ~33 lbs — no muy portátil
+  CE2: Sin funciones de mezcla automática
+  CE3: Plataforma más antigua (2016) mostrando su edad
+  CE4: Sin flujo de trabajo enfocado en pantalla táctil
+
+AUDIT_FLAGS:
+[GENERIC] pro-mixers / Allen & Heath CQ-18T / pros: 96kHz FPGA processing for excellent audio quality
+[TOO_SHORT] pro-mixers / Allen & Heath CQ-18T / cons: No expandable I/O options
+[TOO_SHORT] pro-mixers / Allen & Heath CQ-18T / cons: Only 4 stereo FX engines
+[TOO_SHORT] pro-mixers / Midas M32R LIVE / cons: Much more expensive than CQ-18T
+[TOO_SHORT] pro-mixers / Midas M32R LIVE / cons: No automatic mixing features
+[TOO_SHORT] pro-mixers / Midas M32R LIVE / cons: No touchscreen-focused workflow
+
+# GUIDE: budget-headphones
+TITLE: Best Cheap Studio Headphones Under $150
+TITLE_ES: Mejores Auriculares de Estudio Económicos por Menos de $150
+VPC:
+
+[P] Sony MDR-7506
+  P0: The broadcast standard since 1991 — over thirty years of proving itself
+  P1: $99 — absurdly good value for what you get
+  P2: Forward, revealing mids — you'll hear problems other headphones mask completely
+  P3: Folds flat and survives drops; closed-back for tracking
+  PE0: El estándar de transmisión desde 1991 — más de treinta años demostrándose
+  PE1: $99 — un valor absurdamente bueno por lo que obtienes
+  PE2: Medios adelantados y reveladores — oirás problemas que otros auriculares enmascaran por completo
+  PE3: Se pliegan planos y sobreviven caídas; cerrados para grabar
+  C0: Brutally honest — you hear flaws you might not want to hear
+  C1: Fixed non-detachable cable — a frayed wire means a new headphone
+  C2: Simple pads are not as comfortable as the ATH-M40x's pro-grade pads in long sessions
+  CE0: Brutalmente honestos — oirás fallos que quizá no quieras oír
+  CE1: Cable fijo no desmontable — un cable desgastado significa auriculares nuevos
+  CE2: Las almohadillas simples no son tan cómodas como las almohadillas pro del ATH-M40x en sesiones largas
+
+[P] Audio-Technica ATH-M40x
+  P0: $109 — nearly all of its famous sibling's performance for $60 less
+  P1: 40mm drivers with rare-earth magnets and CCAW voice coils, tuned flat — the more honest mixing tool
+  P2: Circumaural earcups seal well; pro-grade pads stay comfortable through long sessions
+  P3: Detachable cables, collapsible frame, pouch, and 1/4-inch adapter included
+  PE0: $109 — casi todo el rendimiento de su famoso hermano por $60 menos
+  PE1: Drivers de 40mm con imanes de tierras raras y bobinas CCAW, sintonizados planos — la herramienta de mezcla más honesta
+  PE2: Las copas circumaurales sellan bien; las almohadillas pro siguen cómodas en sesiones largas
+  PE3: Cables desmontables, chasis plegable, bolsa y adaptador de 1/4 incluidos
+  C0: $10 more than the MDR-7506 at $99
+  C1: Flat tuning lacks the M50x's bass punch for casual listening
+  C2: You give up a little low-end punch and refinement versus the M50x for $60 less
+  CE0: $10 más que el MDR-7506 por $99
+  CE1: La sintonía plana carece de la pegada de graves del M50x para escucha casual
+  CE2: Cedes un poco de pegada de graves y refinamiento frente al M50x por $60 menos
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Classic budget tracking ~ Grabación económica clásica | Budget closed-back tracking ~ Grabación cerrada económica
+  PT[Type/Tipo]: Closed-back ~ Cerrados | Closed-back ~ Cerrados
+  PT[Driver Size/Tamaño del Driver]: 40mm ~ 40mm | 40mm ~ 40mm
+  PT[Impedance/Impedancia]: 63 Ω ~ 63 Ω | 35 Ω ~ 35 Ω
+  PT[Sensitivity/Sensibilidad]: 106 dB ~ 106 dB | 98 dB ~ 98 dB
+  PT[Frequency Response/Respuesta de Frecuencia]: 10 Hz – 20 kHz ~ 10 Hz – 20 kHz | 15 Hz – 24 kHz ~ 15 Hz – 24 kHz
+  PT[Cable/Cable]: 3 m coiled, fixed ~ 3 m enrollado, fijo | Detachable (2 included) ~ Desmontable (2 incluidos)
+  PT[Weight/Peso]: 230 g ~ 230 g | 240 g ~ 240 g
+  PT[Price/Precio]: $99 ~ $99 | $109 ~ $109
+
+AUDIT_FLAGS:
+[GENERIC] budget-headphones / Sony MDR-7506 / pros: $99 — absurdly good value for what you get
+[CONS_LE_3] budget-headphones / Sony MDR-7506: 3 cons only: Brutally honest — you hear flaws you might not want to hear | Fixed non-detachable cable — a frayed wire means a new headphone | Simple pads are not as comfortable as the ATH-M40x's pro-grade pads in long sessions
+[GENERIC] budget-headphones / Audio-Technica ATH-M40x / pros: $109 — nearly all of its famous sibling's performance for $60 less
+[TOO_SHORT] budget-headphones / Audio-Technica ATH-M40x / cons: $10 more than the MDR-7506 at $99
+[CONS_LE_3] budget-headphones / Audio-Technica ATH-M40x: 3 cons only: $10 more than the MDR-7506 at $99 | Flat tuning lacks the M50x's bass punch for casual listening | You give up a little low-end punch and refinement versus the M50x for $60 less
+
+# GUIDE: budget-monitors
+TITLE: Best Budget Studio Monitors Under $500
+TITLE_ES: Mejores Monitores de Estudio Económicos por Menos de $500
+VPC:
+
+[P] JBL 305P MkII
+  P0: $149 each ($298 a pair) — beats everything near its price
+  P1: Image Control Waveguide creates an incredibly wide sweet spot
+  P2: 5-inch woofer delivers tight, accurate bass that belies its size
+  P3: Mixed on these in hotel rooms and the results translated to main monitors
+  PE0: $149 cada uno ($298 el par) — supera a todo lo cercano a su precio
+  PE1: La guía de onda Image Control crea un punto dulce increíblemente amplio
+  PE2: El woofer de 5 pulgadas ofrece graves ajustados y precisos que no parecen de su tamaño
+  PE3: He mezclado con ellos en hoteles y los resultados se tradujeron a mis monitores principales
+  C0: 5-inch woofer limits low-end depth versus the 6.5-inch Kali and 7-8-inch options
+  C1: No room correction — the Kali LP-6 adds boundary EQ for $50 more each
+  C2: Best as a small-room desk monitor — a 7-inch Rokit brings more bass for $120 more a pair
+  CE0: El woofer de 5 pulgadas limita la profundidad de graves frente a la Kali de 6.5 y las opciones de 7-8 pulgadas
+  CE1: Sin corrección de sala — la Kali LP-6 añade EQ de límites por $50 más cada una
+  CE2: Ideal como monitor de escritorio en salas pequeñas — un Rokit de 7 pulgadas trae más graves por $120 más el par
+
+[P] Kali Audio LP-6 V2
+  P0: $199 each ($398 a pair) — the monitors that redefined 'budget'
+  P1: Boundary EQ dip switches compensate for desk, wall, or corner placement
+  P2: 6.5-inch woofer goes deeper than the JBL 305P with a natural, unhyped balance
+  P3: No other monitor under $400 offers real room correction
+  PE0: $199 cada uno ($398 el par) — los monitores que redefinieron lo 'económico'
+  PE1: Los interruptores de EQ de límites compensan la colocación en escritorio, pared o esquina
+  PE2: El woofer de 6.5 pulgadas llega más profundo que el de la JBL 305P con un equilibrio natural y sin realces
+  PE3: Ningún otro monitor por menos de $400 ofrece corrección de sala real
+  C0: $398 a pair — $100 more than the JBL 305P pair
+  C1: Boundary EQ is a fixed dip-switch preset rather than measurement-calibrated
+  C2: Bigger and heavier than the 305P for tight desks
+  CE0: $398 el par — $100 más que el par de JBL 305P
+  CE1: El EQ de límites es un ajuste fijo por interruptores en lugar de calibrado por medición
+  CE2: Más grande y pesado que el 305P para escritorios ajustados
+
+[P] KRK Rokit 7 G5
+  P0: Kevlar drivers deliver clear, punchy mids
+  P1: Front-firing bass port works well in small rooms
+  P2: Built-in DSP EQ with LCD screen lets you tune the speakers to your room
+  P3: $538 a pair — exceptional value for bedroom producers
+  PE0: Los drivers de Kevlar ofrecen medios claros y contundentes
+  PE1: El puerto de graves frontal funciona bien en salas pequeñas
+  PE2: El EQ DSP integrado con pantalla LCD permite ajustar los altavoces a tu sala
+  PE3: $538 el par — valor excepcional para productores de dormitorio
+  C0: Bass is generous — learn its character and check mixes on other systems
+  C1: $538 a pair — $240 more than the Kali LP-6 pair and $140 more than the JBL pair
+  C2: Bass character is less neutral than the HS8 for mix translation
+  CE0: Los graves son generosos — aprende su carácter y comprueba mezclas en otros sistemas
+  CE1: $538 el par — $240 más que el par de Kali LP-6 y $140 más que el par de JBL
+  CE2: El carácter de graves es menos neutro que el del HS8 para la traducción de mezclas
+
+[P] Yamaha HS8
+  P0: The modern successor to the legendary NS-10 — brutally honest
+  P1: If your mix sounds good on HS8s, it sounds good everywhere
+  P2: 8-inch woofer delivers genuine low-end extension down to 38Hz without a subwoofer
+  P3: The extra $260 buys translation accuracy the KRKs can't quite match
+  PE0: El sucesor moderno del legendario NS-10 — brutalmente honesto
+  PE1: Si tu mezcla suena bien en HS8, suena bien en todas partes
+  PE2: El woofer de 8 pulgadas ofrece una extensión real de graves hasta 38Hz sin subwoofer
+  PE3: Los $260 extra compran una precisión de traducción que los KRK no llegan a igualar
+  C0: $798 a pair — it stretches past the $500 budget
+  C1: 8-inch woofer needs space and treatment to be honest in a small room
+  C2: No DSP room EQ — just room control switches, unlike the KRK Rokit
+  CE0: $798 el par — supera el presupuesto de $500
+  CE1: El woofer de 8 pulgadas necesita espacio y tratamiento para ser honesto en una sala pequeña
+  CE2: Sin EQ de sala DSP — solo interruptores de control de sala, a diferencia del KRK Rokit
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Compact nearfield mixing ~ Mezcla de campo cercano compacta | Accurate budget monitoring ~ Monitoreo económico y preciso | Punchy rock & hip-hop mixing ~ Mezcla con punch para rock y hip-hop | Flat reference mixing ~ Mezcla de referencia plana
+  PT[Type/Tipo]: 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías
+  PT[Woofer/Woofer]: 5" ~ 5" | 6.5" ~ 6.5" | 7" Kevlar ~ 7" de Kevlar | 8" ~ 8"
+  PT[Tweeter/Tweeter]: 1" ~ 1" | 1" ~ 1" | 1" silk dome ~ 1" de cúpula de seda | 1" dome ~ 1" de cúpula
+  PT[Power/Potencia]: 82W (41W + 41W) ~ 82W (41W + 41W) | 80W (40W + 40W) ~ 80W (40W + 40W) | 145W RMS (234W peak) ~ 145W RMS (234W pico) | 120W (75W + 45W) ~ 120W (75W + 45W)
+  PT[Frequency Response/Respuesta de Frecuencia]: 49 Hz – 20 kHz (±3 dB) ~ 49 Hz – 20 kHz (±3 dB) | 47 Hz – 21 kHz (±3 dB) ~ 47 Hz – 21 kHz (±3 dB) | 45 Hz – 36 kHz ~ 45 Hz – 36 kHz | 38 Hz – 30 kHz (-10 dB) ~ 38 Hz – 30 kHz (-10 dB)
+  PT[Max SPL/SPL Máximo]: 108 dB ~ 108 dB | 115 dB ~ 115 dB | 110 dB ~ 110 dB | N/A ~ N/D
+  PT[Dimensions/Dimensiones]: 11.7 x 7.3 x 9.1 in ~ 29.7 x 18.5 x 23.1 cm | 14.1 x 8.75 x 10.25 in ~ 35.8 x 22.2 x 26 cm | 13.35 x 8.86 x 11.42 in ~ 33.9 x 22.5 x 29 cm | 9.8 x 15.4 x 13.1 in ~ 25 x 39 x 33.2 cm
+  PT[Price/Precio]: $149 ~ $149 | $199 ~ $199 | $269 ~ $269 | $399 ~ $399
+
+AUDIT_FLAGS:
+[CONS_LE_3] budget-monitors / JBL 305P MkII: 3 cons only: 5-inch woofer limits low-end depth versus the 6.5-inch Kali and 7-8-inch options | No room correction — the Kali LP-6 adds boundary EQ for $50 more each | Best as a small-room desk monitor — a 7-inch Rokit brings more bass for $120 more a pair
+[CONS_LE_3] budget-monitors / Kali Audio LP-6 V2: 3 cons only: $398 a pair — $100 more than the JBL 305P pair | Boundary EQ is a fixed dip-switch preset rather than measurement-calibrated | Bigger and heavier than the 305P for tight desks
+[CONS_LE_3] budget-monitors / KRK Rokit 7 G5: 3 cons only: Bass is generous — learn its character and check mixes on other systems | $538 a pair — $240 more than the Kali LP-6 pair and $140 more than the JBL pair | Bass character is less neutral than the HS8 for mix translation
+[GENERIC] budget-monitors / Yamaha HS8 / pros: If your mix sounds good on HS8s, it sounds good everywhere
+[CONS_LE_3] budget-monitors / Yamaha HS8: 3 cons only: $798 a pair — it stretches past the $500 budget | 8-inch woofer needs space and treatment to be honest in a small room | No DSP room EQ — just room control switches, unlike the KRK Rokit
+
+# GUIDE: mixing-plugins
+TITLE: Best Mixing & Mastering Plugins
+TITLE_ES: Mejores Plugins de Mezcla y Masterización
+VPC:
+
+[P] iZotope Ozone 12 Advanced
+  P0: AI-powered Master Assistant builds a custom EQ, compression, imaging and limiting chain per genre
+  P1: 20 pro modules including Stem EQ, Clarity and Stabilizer
+  P2: Stem EQ shapes vocals, drums and bass within the master bus
+  P3: Clarity module removes muddiness with surgical precision
+  PE0: El Master Assistant con IA construye una cadena personalizada de EQ, compresión, imagen estéreo y limitación según tu género
+  PE1: 20 módulos profesionales incluyendo Stem EQ, Clarity y Stabilizer
+  PE2: Stem EQ moldea voces, batería y bajos dentro del bus maestro
+  PE3: El módulo Clarity elimina la turbidez con precisión quirúrgica
+  C0: At $499 it's the priciest mastering suite for home producers
+  C1: The AI chain still needs manual tweaks for a truly great master
+  C2: Mastering-focused modules overlap if you already own a mixing bundle
+  CE0: A $499 es la suite de masterización más cara para productores caseros
+  CE1: La cadena IA aún necesita ajustes manuales para una masterización realmente buena
+  CE2: Los módulos centrados en masterización se solapan si ya tienes un bundle de mezcla
+
+[P] FabFilter Total Bundle
+  P0: Pro-Q 4 — spectral display, dynamic bands and interface that are best-in-class
+  P1: Pro-C 3 handles everything from transparent leveling to aggressive punch
+  P2: Pro-L 2 is the cleanest limiter in the business
+  P3: Every plugin in the bundle — Saturn 2, Timeless 3, Volcano 3 — is best-in-class
+  PE0: Pro-Q 4 — pantalla espectral, bandas dinámicas e interfaz de primer nivel
+  PE1: Pro-C 3 maneja desde nivelación transparente hasta pegada agresiva
+  PE2: Pro-L 2 es el limitador más limpio del sector
+  PE3: Cada plugin del bundle — Saturn 2, Timeless 3, Volcano 3 — es el mejor en su clase
+  C0: At $1,069 it's the last mixing bundle you'll buy — but the most expensive here
+  C1: Pro-Q 4 ($199) and Pro-C 3 ($199) can be bought separately if you don't need all 30+ tools
+  C2: Transparent by design — it won't add console character on its own
+  CE0: A $1,069 es el último bundle de mezcla que comprarás — pero el más caro de la lista
+  CE1: Pro-Q 4 ($199) y Pro-C 3 ($199) pueden comprarse por separado si no necesitas las 30+ herramientas
+  CE2: Transparente por diseño — no añade carácter de consola por sí solo
+
+[P] Native Instruments Kontakt 8
+  P0: Over 900 instruments in the factory library alone
+  P1: Industry-standard sampler platform with thousands of third-party libraries
+  P2: New browser makes finding sounds fast
+  P3: Revamped effects section shapes sounds without leaving Kontakt
+  PE0: Más de 900 instrumentos solo en la biblioteca de fábrica
+  PE1: Plataforma de sampler estándar de la industria con miles de bibliotecas de terceros
+  PE2: El nuevo navegador hace rápido encontrar sonidos
+  PE3: La sección de efectos renovada permite moldear sonidos sin salir de Kontakt
+  C0: At $399 it's an investment before you add any third-party libraries
+  C1: Sample-heavy libraries demand a fast SSD and plenty of RAM
+  C2: Third-party libraries are sold separately and add up quickly
+  CE0: A $399 es una inversión antes de añadir cualquier biblioteca de terceros
+  CE1: Las bibliotecas cargadas de samples exigen un SSD rápido y bastante RAM
+  CE2: Las bibliotecas de terceros se venden aparte y el gasto se dispara rápido
+
+[P] Waves Mercury Bundle
+  P0: 180+ plugins covering every era of audio processing
+  P1: SSL, Neve and API console emulations plus legendary Abbey Road chambers
+  P2: Renaissance series for pro-level dynamics and EQ
+  P3: Specialty tools like Vocal Rider, Bass Rider and the JJP analog legends series
+  PE0: Más de 180 plugins que cubren cada era del procesamiento de audio
+  PE1: Emulaciones de consola SSL, Neve y API más las legendarias cámaras Abbey Road
+  PE2: La serie Renaissance para dinámica y EQ de nivel profesional
+  PE3: Herramientas especializadas como Vocal Rider, Bass Rider y la serie JJP de leyendas analógicas
+  C0: At $1,499 it's the most expensive bundle in the guide
+  C1: Enormous library is a big download and install
+  C2: Overlaps heavily with FabFilter if you already own both
+  CE0: A $1,499 es el bundle más caro de la guía
+  CE1: La biblioteca enorme supone una gran descarga e instalación
+  CE2: Se solapa mucho con FabFilter si ya posees ambos
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Mastering with AI-assisted workflow ~ Mastering con flujo asistido por IA | Mastering-style bus compression on a budget ~ Compresión de bus estilo mastering económica | One-stop mixing toolkit ~ Set completo para mezclar | Classic FET compressor tone ~ Sonido clásico de compresor FET | Precision EQ on any track ~ EQ de precisión en cualquier pista | Transparent to aggressive compression ~ Compresión transparente o agresiva | Deep sampler instrument building ~ Construcción profunda de instrumentos | Everything Waves in one bundle ~ Todo Waves en un solo bundle
+  PT[Type/Tipo]: Mastering suite ~ Suite de mastering | Compressor ~ Compresor | 30+ plug-ins (EQ, comp, reverb, sat, limiter) ~ 30+ plugins (EQ, comp, reverb, sat, limitador) | Compressor plug-in ~ Plugin compresor | Dynamic/parametric EQ ~ EQ paramétrico/dinámico | Compressor ~ Compresor | Sampler / instrument platform ~ Plataforma sampler / instrumento | 200+ plug-ins ~ 200+ plugins
+  PT[Format/Formato]: VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX
+  PT[Platforms/Plataformas]: macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows
+  PT[Copy Protection/Protección de Copia]: iLok ~ iLok | License file ~ Archivo de licencia | License file ~ Archivo de licencia | iLok ~ iLok | License file ~ Archivo de licencia | License file ~ Archivo de licencia | Native Access ~ Native Access | Waves License Center ~ Waves License Center
+  PT[Latency/Latencia]: Low ~ Baja | Low ~ Baja | Ultra-low ~ Ultrabaja | Low ~ Baja | Ultra-low ~ Ultrabaja | Ultra-low ~ Ultrabaja | Low ~ Baja | Low ~ Baja
+  PT[Standout Feature/Característica Destacada]: Ozone Assistant, Tonal Balance, 8 modules ~ Ozone Assistant, Tonal Balance, 8 módulos | Feed-forward/feedback, variable knee ~ Feed-forward/feedback, knee variable | Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R ~ Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R | 1176 LN + revision models ~ Modelos 1176 LN + revisiones | 24 bands, spectrum analyzer, linear phase ~ 24 bandas, analizador, fase lineal | Opto, VCA, FET + dynamic sidechain ~ Opto, VCA, FET + sidechain dinámico | Factory Library 2, Creator Tools, effects rack ~ Factory Library 2, Creator Tools, rack de efectos | SSL/API/CLA/TLA emulations included ~ Emulaciones SSL/API/CLA/TLA incluidas
+  PT[Price/Precio]: $499 ~ $499 | $50 ~ $50 | $1,069 ~ $1.069 | $149 ~ $149 | $199 ~ $199 | $199 ~ $199 | $399 ~ $399 | $1,499 ~ $1.499
+
+AUDIT_FLAGS:
+[GENERIC] mixing-plugins / iZotope Ozone 12 Advanced / cons: The AI chain still needs manual tweaks for a truly great master
+[CONS_LE_3] mixing-plugins / iZotope Ozone 12 Advanced: 3 cons only: At $499 it's the priciest mastering suite for home producers | The AI chain still needs manual tweaks for a truly great master | Mastering-focused modules overlap if you already own a mixing bundle
+[CONS_LE_3] mixing-plugins / FabFilter Total Bundle: 3 cons only: At $1,069 it's the last mixing bundle you'll buy — but the most expensive here | Pro-Q 4 ($199) and Pro-C 3 ($199) can be bought separately if you don't need all 30+ tools | Transparent by design — it won't add console character on its own
+[CONS_LE_3] mixing-plugins / Native Instruments Kontakt 8: 3 cons only: At $399 it's an investment before you add any third-party libraries | Sample-heavy libraries demand a fast SSD and plenty of RAM | Third-party libraries are sold separately and add up quickly
+[CONS_LE_3] mixing-plugins / Waves Mercury Bundle: 3 cons only: At $1,499 it's the most expensive bundle in the guide | Enormous library is a big download and install | Overlaps heavily with FabFilter if you already own both
+
+# GUIDE: tube-ribbon-mics
+TITLE: Best Professional Condenser Microphones
+TITLE_ES: Mejores Micrófonos Condensadores Profesionales
+VPC:
+
+[P] Neumann U 87 Ai
+  P0: Transformer-balanced output with three polar patterns
+  P1: Unmistakable Neumann presence that makes vocals feel three-dimensional
+  P2: Tube-like richness without vintage maintenance headaches
+  P3: 10dB pad handles loud sources
+  PE0: Salida con balanceo de transformador y tres patrones polares
+  PE1: La inconfundible presencia Neumann que hace que las voces se sientan tridimensionales
+  PE2: Riqueza tipo tubo sin las complicaciones de mantenimiento vintage
+  PE3: El pad de 10dB maneja fuentes fuertes
+  C0: At $3,599 it's an heirloom purchase
+  C1: Needs a quality preamp and phantom power to shine
+  C2: Vintage character only pays off on the right sources
+  CE0: A $3,599 es una compra de herencia
+  CE1: Necesita un buen preamplificador y phantom para brillar
+  CE2: El carácter vintage solo se amortiza en las fuentes adecuadas
+
+[P] AKG C414 XLII
+  P0: Nine polar patterns including figure-8 for mid-side ribbon-style recording
+  P1: Transformer-coupled output with subtle harmonic saturation
+  P2: Five pad and three filter settings adapt to any source
+  P3: Smooth, unhyped top end on overheads where ribbons would be too dark
+  PE0: Nueve patrones polares incluyendo figura-8 para grabación mid-side estilo cinta
+  PE1: Salida con transformador y saturación armónica sutil
+  PE2: Cinco ajustes de pad y tres de filtro que se adaptan a cualquier fuente
+  PE3: Parte alta suave y sin realzar en overheads donde las cintas serían demasiado oscuras
+  C0: At $1,099 it's a big step up from budget large-diaphragm condensers
+  C1: Not a true ribbon — figure-8 is an approximation for ribbon techniques
+  C2: Heavier than a typical LDC, so it needs a solid stand
+  CE0: A $1,099 es un gran salto frente a los condensadores de diafragma grande económicos
+  CE1: No es una cinta real — la figura-8 es una aproximación a las técnicas de cinta
+  CE2: Más pesado que un LDC típico, así que necesita un soporte sólido
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: The studio standard vocal ~ La voz estándar de estudio | Studio vocals & instruments ~ Voces e instrumentos de estudio
+  PT[Type/Tipo]: Condenser (LDC) ~ Condensador (LDC) | Condenser (LDC) ~ Condensador (LDC)
+  PT[Polar Pattern/Patrón Polar]: Omni / Cardioid / Fig-8 ~ Omni / Cardioide / Fig-8 | 9 switchable patterns ~ 9 patrones conmutables
+  PT[Frequency Response/Respuesta de Frecuencia]: 20 Hz – 20 kHz ~ 20 Hz – 20 kHz | 20 Hz – 20 kHz ~ 20 Hz – 20 kHz
+  PT[Sensitivity/Sensibilidad]: 28 mV/Pa (cardioid) ~ 28 mV/Pa (cardioide) | –33 dBV ± 0.5 dB (23 mV/Pa) ~ –33 dBV ± 0.5 dB (23 mV/Pa)
+  PT[Self-Noise/Ruido Propio]: 12 dB-A (cardioid) ~ 12 dB-A (cardioide) | 6 dB-A ~ 6 dB-A
+  PT[Max SPL/SPL Máximo]: 117 dB (127 w/ pad) ~ 117 dB (127 c/ pad) | 140–158 dB (pad) ~ 140–158 dB (pad)
+  PT[Output Impedance/Impedancia de Salida]: 200 Ω ~ 200 Ω | 200 Ω ~ 200 Ω
+  PT[Price/Precio]: $3,599 ~ $3,599 | $1,099 ~ $1,099
+
+AUDIT_FLAGS:
+[TOO_SHORT] tube-ribbon-mics / Neumann U 87 Ai / pros: 10dB pad handles loud sources
+[GENERIC] tube-ribbon-mics / Neumann U 87 Ai / cons: Needs a quality preamp and phantom power to shine
+[CONS_LE_3] tube-ribbon-mics / Neumann U 87 Ai: 3 cons only: At $3,599 it's an heirloom purchase | Needs a quality preamp and phantom power to shine | Vintage character only pays off on the right sources
+[GENERIC] tube-ribbon-mics / AKG C414 XLII / cons: Heavier than a typical LDC, so it needs a solid stand
+[CONS_LE_3] tube-ribbon-mics / AKG C414 XLII: 3 cons only: At $1,099 it's a big step up from budget large-diaphragm condensers | Not a true ribbon — figure-8 is an approximation for ribbon techniques | Heavier than a typical LDC, so it needs a solid stand
+
+# GUIDE: best-keyboard
+TITLE: Best Keyboard & Digital Piano for Home Studio
+TITLE_ES: Mejor Teclado y Piano Digital para Home Studio
+VPC:
+
+[P] Nord Stage 4 88
+  P0: Virtual Hammer Action TP/100 keybed feels closer to a grand piano than any Nord before
+  P1: Layer section blends acoustic pianos, synth pads, and organs seamlessly
+  P2: Seamless transitions and 1GB of Nord Piano Library memory
+  P3: The industry standard on stage for working keyboardists
+  PE0: El teclado Virtual Hammer Action TP/100 se siente más cerca de un piano de cola que cualquier Nord anterior
+  PE1: La sección Layer combina pianos acústicos, pads de synth y órganos sin costuras
+  PE2: Transiciones perfectas y 1GB de memoria para la Nord Piano Library
+  PE3: El estándar de la industria en el escenario para tecladistas profesionales
+  C0: At $4,999 it's a serious investment in stage sound
+  C1: 44 lb (20 kg) is heavy to haul to and from gigs
+  C2: 88 hammer-action keys are less suited to fast synth and organ playing
+  CE0: Por $4,999 es una inversión seria en sonido de escenario
+  CE1: Sus 20 kg son pesados para ir y venir de los conciertos
+  CE2: Las 88 teclas de martillo son menos adecuadas para tocar synth y órgano rápido
+
+[P] Yamaha Montage M8x
+  P0: Replaces the Motif as Yamaha's flagship workstation
+  P1: Flagship Grand Touch keybed — Yamaha's best weighted action
+  P2: AN-X virtual analog engine plus FM-X for digital synthesis
+  P3: The most powerful keyboard workstation on earth at $4,699
+  PE0: Sustituye al Motif como workstation insignia de Yamaha
+  PE1: Teclado Grand Touch de gama alta — la mejor acción ponderada de Yamaha
+  PE2: Motor AN-X de sintetizador virtual analógico más el FM-X para síntesis digital
+  PE3: El workstation de teclado más potente del mundo por $4,699
+  C0: At $4,699 it's only worth it for hardware hands-on production
+  C1: 63.9 lb (29 kg) makes it a studio fixture rather than a portable board
+  C2: In-the-box producers get similar power from software for less
+  CE0: Por $4,699 solo compensa si quieres control físico de hardware en producción
+  CE1: Sus 29 kg lo convierten en una pieza fija de estudio más que en un teclado portátil
+  CE2: Los productores in-the-box obtienen potencia similar con software por menos dinero
+
+[P] Arturia KeyLab Essential 61 MkIII
+  P0: Synth-action keybed feels great for pads and leads
+  P1: Analog Lab software included with thousands of iconic synth sounds
+  P2: Seamless integration with Ableton Live, Logic, and FL Studio
+  P3: Built-in arpeggiator and chord mode spark creativity instantly at $299
+  PE0: El teclado de tipo sintetizador se siente genial para pads y leads
+  PE1: Software Analog Lab incluido con miles de sonidos de sintetizador icónicos
+  PE2: Integración perfecta con Ableton Live, Logic y FL Studio
+  PE3: El arpegiador y el modo de acordes integrados despiertan la creatividad al instante por $299
+  C0: No weighted action for realistic piano playing
+  C1: No built-in audio interface for direct monitoring
+  C2: Limited to the DAW integration you already own
+  CE0: Sin acción ponderada para tocar piano de forma realista
+  CE1: Sin interfaz de audio integrada para monitoreo directo
+  CE2: Limitado a la integración con el DAW que ya tengas
+
+[P] Native Instruments Komplete Kontrol S61
+  P0: Fatar keybed is the best synth-action in its class
+  P1: Light Guide shows key switches, drum pads, and articulations right on the keys
+  P2: NKS integration makes every Kontakt instrument browsable and playable without a mouse
+  P3: Built-in audio interface for headphone and monitor connection at $599
+  PE0: El teclado Fatar es el mejor de tipo sintetizador en su clase
+  PE1: La Light Guide muestra switches de teclas, pads de batería y articulaciones sobre las propias teclas
+  PE2: La integración NKS hace que cada instrumento Kontakt sea explorable y tocable sin mouse
+  PE3: Interfaz de audio integrada para conectar auriculares y monitores por $599
+  C0: Only earns its $599 price if you use Komplete or NI plugins
+  C1: Semi-weighted keys, not fully weighted for piano work
+  C2: If you're not in the NI ecosystem, a cheaper controller does the job
+  CE0: Solo justifica su precio de $599 si usas Komplete o plugins NI
+  CE1: Teclas semipesadas, no totalmente ponderadas para trabajo de piano
+  CE2: Si no estás en el ecosistema NI, un controlador más barato hace el trabajo
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Pro stage piano & synth workstation ~ Piano de escenario y workstation profesional | Flagship synth workstation ~ Workstation de sintetizadores tope de gama | Budget controller with hands-on control ~ Controlador económico con control físico | NKS integration with Komplete ~ Integración NKS con Komplete
+  PT[Type/Tipo]: Stage keyboard ~ Teclado de escenario | Synth workstation ~ Workstation de sintetizadores | MIDI controller ~ Controlador MIDI | MIDI controller ~ Controlador MIDI
+  PT[Keys/Teclas]: 88 hammer action ~ 88 martillo | 88 weighted action ~ 88 con peso | 61 synth action ~ 61 sintetizador | 61 semi-weighted ~ 61 semipesadas
+  PT[Sound Engine/Motor de Sonido]: Piano + Sample Synth + FM/VA ~ Piano + Sample Synth + FM/VA | AWM2 + AN-X + FM-X ~ AWM2 + AN-X + FM-X | N/A (MIDI controller) ~ N/D (controlador MIDI) | N/A (MIDI controller) ~ N/D (controlador MIDI)
+  PT[Presets/Presets]: Large program library ~ Gran biblioteca de programas | Thousands of presets ~ Miles de presets | 2,000+ Analog Lab presets ~ 2,000+ presets de Analog Lab | Komplete Kontrol browser ~ Navegador Komplete Kontrol
+  PT[Sequencer/Secuenciador]: Yes (sections, no DAW timeline) ~ Sí (sections, sin timeline de DAW) | Yes, 16-track pattern sequencer ~ Sí, secuenciador de 16 pistas | Arpeggiator ~ Arpegiador | Arpeggiator ~ Arpegiador
+  PT[Connectivity/Conectividad]: MIDI, USB, XLR outputs ~ MIDI, USB, salidas XLR | MIDI, USB, 2x assignable out ~ MIDI, USB, 2 salidas asignables | USB-C, 9 encoders, pads ~ USB-C, 9 encoders, pads | USB, 8 knobs, screens ~ USB, 8 mandos, pantallas
+  PT[Weight/Peso]: 44 lb (20 kg) ~ 20 kg | 63.9 lb (29 kg) ~ 29 kg | 8.4 lb (3.8 kg) ~ 3,8 kg | 10.6 lb (4.8 kg) ~ 4,8 kg
+  PT[Price/Precio]: $4,999 ~ $4.999 | $4,699 ~ $4.699 | $299 ~ $299 | $599 ~ $599
+
+AUDIT_FLAGS:
+[CONS_LE_3] best-keyboard / Nord Stage 4 88: 3 cons only: At $4,999 it's a serious investment in stage sound | 44 lb (20 kg) is heavy to haul to and from gigs | 88 hammer-action keys are less suited to fast synth and organ playing
+[CONS_LE_3] best-keyboard / Yamaha Montage M8x: 3 cons only: At $4,699 it's only worth it for hardware hands-on production | 63.9 lb (29 kg) makes it a studio fixture rather than a portable board | In-the-box producers get similar power from software for less
+[GENERIC] best-keyboard / Arturia KeyLab Essential 61 MkIII / pros: Synth-action keybed feels great for pads and leads
+[CONS_LE_3] best-keyboard / Arturia KeyLab Essential 61 MkIII: 3 cons only: No weighted action for realistic piano playing | No built-in audio interface for direct monitoring | Limited to the DAW integration you already own
+[CONS_LE_3] best-keyboard / Native Instruments Komplete Kontrol S61: 3 cons only: Only earns its $599 price if you use Komplete or NI plugins | Semi-weighted keys, not fully weighted for piano work | If you're not in the NI ecosystem, a cheaper controller does the job
+

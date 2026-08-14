@@ -1,0 +1,745 @@
+# GUIDE: usb-mics
+TITLE: Best USB & XLR Microphones for Streaming
+TITLE_ES: Mejores Micrófonos USB y XLR para Streaming
+VPC:
+
+[P] Shure SM7B
+  P0: The default streamer microphone — the warm, intimate sound of every major podcast
+  P1: Dynamic cardioid rejects room noise, keyboard clicks, and PC fan whine
+  P2: Rolled-off highs tame sibilance
+  P3: Built-in shock mount kills mechanical noise from your desk
+  PE0: El micrófono de streaming por defecto — el sonido cálido e íntimo de cada gran podcast
+  PE1: El cardioide dinámico rechaza el ruido de sala, los clics del teclado y el ventilador del PC
+  PE2: Los agudos atenuados doman la sibilancia
+  PE3: El soporte antigolpes integrado elimina el ruido mecánico del escritorio
+  C0: Quiet mic — needs a clean interface or a Cloudlifter to stay noise-free
+  C1: $399 plus the cost of extra gain gear
+  C2: XLR only — no single-cable USB option
+  CE0: Micrófono silencioso — necesita una interfaz limpia o un Cloudlifter para seguir sin ruido
+  CE1: $399 más el coste del equipo de ganancia extra
+  CE2: Solo XLR — sin opción USB de un solo cable
+
+[P] Electro-Voice RE20
+  P0: The radio broadcast standard — a flat, authoritative voice
+  P1: Variable-D design kills the proximity effect — consistent low end from 2 to 6 inches
+  P2: Smooth, natural response with a subtle presence lift — needs far less EQ than most dynamics
+  P3: Equally legendary on kick drum, guitar cabs, and horns
+  PE0: El estándar del broadcast radiofónico — una voz plana y autoritaria
+  PE1: El diseño Variable-D elimina el efecto de proximidad — graves consistentes de 2 a 6 pulgadas
+  PE2: Respuesta suave y natural con un sutil realce de presencia — necesita mucho menos EQ que casi cualquier dinámico
+  PE3: Igualmente legendario en bombo, gabinetes de guitarra y metales
+  C0: XLR only, heavier than the SM7B, and wants a clean high-gain preamp or Cloudlifter
+  C1: $449 — $50 more than the SM7B and the most expensive option here
+  C2: Big and heavy on a desk or arm compared to the MV7+ or Wave:3
+  CE0: Solo XLR, más pesado que el SM7B y pide un previo limpio de alta ganancia o un Cloudlifter
+  CE1: $449 — $50 más que el SM7B y la opción más cara de esta lista
+  CE2: Grande y pesado en un escritorio o brazo comparado con el MV7+ o el Wave:3
+
+[P] Shure MV7+
+  P0: The same warm SM7B family tone over USB-C, XLR, or both with built-in DSP
+  P1: Headphone output with zero-latency monitoring
+  P2: Real-time auto level mode rides your gain while you talk
+  P3: Built-in pop filter and shock mount included — 90% of the SM7B sound with none of the gain headaches
+  PE0: El mismo tono cálido de la familia SM7B por USB-C, XLR o ambos con DSP integrado
+  PE1: Salida de auriculares con monitoreo de latencia cero
+  PE2: El modo de nivel automático en tiempo real ajusta tu ganancia mientras hablas
+  PE3: Filtro antipop y soporte antigolpes incluidos — 90% del sonido del SM7B sin los dolores de cabeza de la ganancia
+  C0: $299 — still a premium USB mic when the Wave:3 costs $150
+  C1: Doesn't fully match the SM7B's depth for broadcast purists
+  C2: Auto level and DSP are USB-only — over XLR it behaves like a plain dynamic
+  CE0: $299 — sigue siendo un micrófono USB premium cuando el Wave:3 cuesta $150
+  CE1: No iguala del todo la profundidad del SM7B para puristas del broadcast
+  CE2: El nivel automático y el DSP son solo USB — por XLR se comporta como un dinámico normal
+
+[P] Elgato Wave:3
+  P0: The best-sounding USB condenser for streamers who want a clean, detailed voice
+  P1: Clipguard circuitry prevents clipping when you get excited
+  P2: Capacitive mute, multi-function dial, and a built-in multi-layer pop filter
+  P3: Wave Link routes your mic, music, game audio, and Discord into separate channels with per-source VST effects
+  PE0: El mejor condensador USB para streamers que quieren una voz limpia y detallada
+  PE1: El circuito Clipguard evita el clipping cuando te emocionas
+  PE2: Silencio capacitivo, dial multifunción y filtro antipop multicapa integrado
+  PE3: Wave Link enruta tu micrófono, música, audio del juego y Discord en canales separados con efectos VST por fuente
+  C0: USB only — no XLR path to grow into an interface setup
+  C1: Condenser hears the room — best in a treated or quiet space
+  C2: Its mixing superpower depends on Wave Link software
+  CE0: Solo USB — sin camino XLR para crecer hacia un setup con interfaz
+  CE1: El condensador oye la sala — mejor en un espacio tratado o silencioso
+  CE2: Su superpoder de mezcla depende del software Wave Link
+
+[P] Rode NT1 5th Generation
+  P0: Studio condenser with ultra-low 4dBA self-noise — more nuance, air, and detail than any dynamic
+  P1: 32-bit float capture
+  P2: Dual Connect XLR/USB — run into USB-C today or XLR into an interface later
+  P3: Included shock mount and pop filter save around $100 in accessories
+  PE0: Condensador de estudio con ruido propio ultrabajo de 4dBA — más matiz, aire y detalle que cualquier dinámico
+  PE1: Captura float de 32 bits
+  PE2: Dual Connect XLR/USB — conéctalo a USB-C hoy o por XLR a una interfaz más tarde
+  PE3: El soporte antigolpes y filtro antipop incluidos ahorran unos $100 en accesorios
+  C0: Condenser hears everything — room reflections, the fridge, the HVAC
+  C1: Needs a treated or quiet space to shine
+  C2: $269 — the priciest of the hybrid options alongside the SM7B
+  CE0: El condensador oye todo — reflejos de la sala, la nevera, el aire acondicionado
+  CE1: Necesita un espacio tratado o silencioso para lucirse
+  CE2: $269 — el más caro de las opciones híbridas junto al SM7B
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Broadcast & podcast vocals ~ Radio y podcast | Broadcast & voiceover ~ Radio, locución y podcast | Hybrid USB-C/XLR vocals ~ Voces híbridas USB-C/XLR | Streaming & content ~ Streaming y contenido | Versatile studio vocals ~ Voces de estudio versátiles
+  PT[Type/Tipo]: Dynamic ~ Dinámico | Dynamic (Variable-D) ~ Dinámico (Variable-D) | Dynamic ~ Dinámico | Condenser (USB) ~ Condensador (USB) | Condenser (LDC) ~ Condensador (LDC)
+  PT[Polar Pattern/Patrón Polar]: Cardioid ~ Cardioide | Cardioid ~ Cardioide | Cardioid ~ Cardioide | Cardioid ~ Cardioide | Cardioid ~ Cardioide
+  PT[Frequency Response/Respuesta de Frecuencia]: 50 Hz – 20 kHz ~ 50 Hz – 20 kHz | 45 Hz – 18 kHz ~ 45 Hz – 18 kHz | 50 Hz – 16 kHz ~ 50 Hz – 16 kHz | 70 Hz – 20 kHz ~ 70 Hz – 20 kHz | 20 Hz – 20 kHz ~ 20 Hz – 20 kHz
+  PT[Sensitivity/Sensibilidad]: –59 dBV/Pa (1.12 mV) ~ –59 dBV/Pa (1.12 mV) | 1.5 mV/Pa ~ 1.5 mV/Pa | –55 dBV/Pa (XLR) ~ –55 dBV/Pa (XLR) | –25 dBFS ~ –25 dBFS | –32 dB (25 mV/Pa) ~ –32 dB (25 mV/Pa)
+  PT[Self-Noise/Ruido Propio]: N/A (dynamic) ~ N/D (dinámico) | N/A (dynamic) ~ N/D (dinámico) | N/A (dynamic) ~ N/D (dinámico) | N/A (digital) ~ N/D (digital) | 4 dBA ~ 4 dBA
+  PT[Max SPL/SPL Máximo]: 180 dB ~ 180 dB | 149 dB ~ 149 dB | 128 dB (USB) ~ 128 dB (USB) | 120 dB (140 w/ Clipguard) ~ 120 dB (140 c/ Clipguard) | 142 dB ~ 142 dB
+  PT[Output Impedance/Impedancia de Salida]: 150 Ω ~ 150 Ω | 150 Ω ~ 150 Ω | 350 Ω (XLR) ~ 350 Ω (XLR) | USB ~ USB | 100 Ω ~ 100 Ω
+  PT[Price/Precio]: $399 ~ $399 | $449 ~ $449 | $299 ~ $299 | $150 ~ $150 | $269 ~ $269
+
+AUDIT_FLAGS:
+[TOO_SHORT] usb-mics / Shure SM7B / pros: Rolled-off highs tame sibilance
+[CONS_LE_3] usb-mics / Shure SM7B: 3 cons only: Quiet mic — needs a clean interface or a Cloudlifter to stay noise-free | $399 plus the cost of extra gain gear | XLR only — no single-cable USB option
+[CONS_LE_3] usb-mics / Electro-Voice RE20: 3 cons only: XLR only, heavier than the SM7B, and wants a clean high-gain preamp or Cloudlifter | $449 — $50 more than the SM7B and the most expensive option here | Big and heavy on a desk or arm compared to the MV7+ or Wave:3
+[CONS_LE_3] usb-mics / Shure MV7+: 3 cons only: $299 — still a premium USB mic when the Wave:3 costs $150 | Doesn't fully match the SM7B's depth for broadcast purists | Auto level and DSP are USB-only — over XLR it behaves like a plain dynamic
+[CONS_LE_3] usb-mics / Elgato Wave:3: 3 cons only: USB only — no XLR path to grow into an interface setup | Condenser hears the room — best in a treated or quiet space | Its mixing superpower depends on Wave Link software
+[TOO_SHORT] usb-mics / Rode NT1 5th Generation / pros: 32-bit float capture
+[CONS_LE_3] usb-mics / Rode NT1 5th Generation: 3 cons only: Condenser hears everything — room reflections, the fridge, the HVAC | Needs a treated or quiet space to shine | $269 — the priciest of the hybrid options alongside the SM7B
+
+# GUIDE: stage-wireless
+TITLE: Best Wireless Microphone Systems for Stage
+TITLE_ES: Mejores Micrófonos Inalámbricos para Escenario
+VPC:
+
+[P] Shure BLX288/PG58
+  P0: Dual-channel operation — run two vocals from one receiver
+  P1: PG58 capsule delivers classic Shure vocal warmth
+  P2: One-touch frequency scanning and automatic pairing make setup foolproof
+  P3: Up to 14 hours of battery life
+  PE0: Operación de doble canal — dos voces desde un solo receptor
+  PE1: La cápsula PG58 ofrece el clásico calor vocal de Shure
+  PE2: Escaneo de frecuencia con un toque y emparejamiento automático que hacen la configuración a prueba de errores
+  PE3: Hasta 14 horas de batería
+  C0: Costs $100 more than the budget AKG WMS420
+  C1: Entry-level BLX series lacks the 42 MHz tuning bandwidth of the EW 100
+  C2: PG58 capsule is solid but less refined than the e935
+  CE0: Cuesta $100 más que el económico AKG WMS420
+  CE1: La serie BLX de entrada carece del ancho de banda de afinación de 42 MHz del EW 100
+  CE2: La cápsula PG58 es sólida pero menos refinada que la e935
+
+[P] Sennheiser EW 100 G4-935
+  P0: True Diversity reception eliminates dropouts in challenging RF environments
+  P1: 42 MHz tuning bandwidth with 1680 frequencies for coordination
+  P2: e935 capsule — the choice of many Broadway performers
+  P3: Rugged metal construction, rack-mountable
+  PE0: Recepción True Diversity que elimina cortes en entornos RF complicados
+  PE1: 42 MHz de ancho de banda con 1680 frecuencias para coordinación
+  PE2: Cápsula e935 — la elección de muchos intérpretes de Broadway
+  PE3: Construcción metálica robusta, montable en rack
+  C0: At $849 it costs $250 more than the Shure BLX288
+  C1: Single-channel system — a duo needs two units
+  C2: Analog RF needs frequency coordination in crowded cities
+  CE0: A $849 cuesta $250 más que el Shure BLX288
+  CE1: Sistema de un solo canal — un dúo necesita dos unidades
+  CE2: El RF analógico necesita coordinación de frecuencias en ciudades saturadas
+
+[P] Sennheiser EW-D Dual Wireless System
+  P0: Digital dual system with handheld MMD 835 and bodypack ME 2 lavalier
+  P1: 134 dB dynamic range eliminates the need for sensitivity adjustments
+  P2: Bluetooth Smart Assist App controls settings from anywhere in the room
+  P3: 56 MHz bandwidth, up to 90 channels and 1.9 ms latency
+  PE0: Sistema digital dual con mano MMD 835 y petaca con lavalier ME 2
+  PE1: 134 dB de rango dinámico que elimina la necesidad de ajustar sensibilidad
+  PE2: La app Bluetooth Smart Assist controla los ajustes desde cualquier punto de la sala
+  PE3: 56 MHz de ancho de banda, hasta 90 canales y 1.9 ms de latencia
+  C0: At $999 it's the most expensive system in the guide
+  C1: Digital system is a bigger workflow change than analog
+  C2: Handheld plus lavalier set may exceed what small gigs need
+  CE0: A $999 es el sistema más caro de la guía
+  CE1: El sistema digital supone un cambio de flujo de trabajo mayor que el analógico
+  CE2: El set de mano más lavalier puede exceder lo que necesitan los conciertos pequeños
+
+[P] AKG WMS420 Vocal Set
+  P0: D5 capsule with excellent feedback rejection and reduced handling noise
+  P1: Eight hours of operation from a single AA battery
+  P2: Charging contacts for rechargeable batteries
+  P3: Detachable antennas allow professional upgrades
+  PE0: Cápsula D5 con excelente rechazo de retroalimentación y menor ruido de manejo
+  PE1: Ocho horas de funcionamiento con una sola pila AA
+  PE2: Contactos de carga para baterías recargables
+  PE3: Antenas desmontables que permiten mejoras profesionales
+  C0: At $499 it's the budget pick — less headroom than the Sennheiser systems
+  C1: Two transmitters but a single receiver
+  C2: Up to 8 channels only with additional units coordinated
+  CE0: A $499 es la opción económica — menos margen que los sistemas Sennheiser
+  CE1: Dos transmisores pero un solo receptor
+  CE2: Hasta 8 canales solo coordinando unidades adicionales
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Budget multi-channel pro value ~ Valor pro multicanál con presupuesto ajustado | Dual vocals for duos, churches & corporate events ~ Dos voces para dúos, iglesias y eventos corporativos | Professional touring & festivals ~ Giras y festivales profesionales | Premium digital wireless for vocals & presentations ~ Inalámbrico digital premium para voz y presentaciones | The classic SM58 sound without the cable ~ El sonido clásico del SM58 sin cable
+  PT[Technology/Tecnología]: Analog UHF (FM) ~ UHF analógico (FM) | Analog UHF (FM) ~ UHF analógico (FM) | Analog UHF (FM) ~ UHF analógico (FM) | Digital UHF (1.9 ms latency) ~ UHF digital (1.9 ms latencia) | Analog UHF (FM) ~ UHF analógico (FM)
+  PT[Mic Capsule/Cápsula de Micrófono]: AKG D5 dynamic, supercardioid ~ AKG D5 dinámica, supercardioide | Shure PG58 dynamic, cardioid ~ Shure PG58 dinámica, cardioide | Sennheiser MMD 935-1 (e 935) cardioid ~ Sennheiser MMD 935-1 (e 935) cardioide | MMD 835 cardioid + ME 2 lavalier (2 channels) ~ MMD 835 cardioide + lavalier ME 2 (2 canales) | Shure SM58 dynamic, cardioid ~ Shure SM58 dinámica, cardioide
+  PT[Frequency Response/Respuesta de Frecuencia]: 40 Hz – 20 kHz (system) ~ 40 Hz – 20 kHz (sistema) | 50 Hz – 15 kHz ~ 50 Hz – 15 kHz | 80 Hz – 18 kHz ~ 80 Hz – 18 kHz | 20 Hz – 20 kHz (-3 dB) ~ 20 Hz – 20 kHz (-3 dB) | 50 Hz – 15 kHz ~ 50 Hz – 15 kHz
+  PT[Operating Range/Alcance]: ~98 ft (30 m) line-of-sight ~ ~98 ft (30 m) línea de visión | 300 ft (91 m) line-of-sight ~ 300 ft (91 m) línea de visión | up to 328 ft (100 m) ~ hasta 328 ft (100 m) | up to 328 ft (100 m) ~ hasta 328 ft (100 m) | 300 ft (91 m) line-of-sight ~ 300 ft (91 m) línea de visión
+  PT[Tuning / Channels/Sintonización / Canales]: Up to 8 channels per band ~ Hasta 8 canales por banda | Up to 12 compatible systems per band ~ Hasta 12 sistemas compatibles por banda | 42 MHz bandwidth, 1,680 frequencies, up to 20 compatible channels ~ 42 MHz de ancho, 1,680 frecuencias, hasta 20 canales compatibles | 56 MHz bandwidth, up to 90 channels (2,240 frequencies) ~ 56 MHz de ancho, hasta 90 canales (2,240 frecuencias) | 24 MHz bandwidth, up to 12 compatible systems ~ 24 MHz de ancho, hasta 12 sistemas compatibles
+  PT[Receiver/Receptor]: Space diversity, detachable antennas, 1U half-rack ~ Diversidad espacial, antenas extraíbles, 1U medio rack | BLX88 dual receiver with automatic diversity ~ Receptor dual BLX88 con diversidad automática | EM 100 G4 true diversity, full-metal half-rack ~ EM 100 G4 verdadera diversidad, medio rack metálico | True diversity, Bluetooth Smart Assist App ~ Verdadera diversidad, App Smart Assist por Bluetooth | BLX4 diversity with QuickScan ~ BLX4 con diversidad y QuickScan
+  PT[Battery Life/Duración de Batería]: 8 h from a single AA ~ 8 h con una sola pila AA | Up to 14 h (2 AA) ~ Hasta 14 h (2 AA) | Up to 8 h (2 AA) ~ Hasta 8 h (2 AA) | Up to 12 h (2 AA) ~ Hasta 12 h (2 AA) | Up to 14 h (2 AA) ~ Hasta 14 h (2 AA)
+  PT[Price/Precio]: $499 ~ $499 | $599 ~ $599 | $849 ~ $849 | $999 ~ $999 | $389 ~ $389
+
+AUDIT_FLAGS:
+[TOO_SHORT] stage-wireless / Shure BLX288/PG58 / pros: Up to 14 hours of battery life
+[GENERIC] stage-wireless / Shure BLX288/PG58 / cons: PG58 capsule is solid but less refined than the e935
+[CONS_LE_3] stage-wireless / Shure BLX288/PG58: 3 cons only: Costs $100 more than the budget AKG WMS420 | Entry-level BLX series lacks the 42 MHz tuning bandwidth of the EW 100 | PG58 capsule is solid but less refined than the e935
+[CONS_LE_3] stage-wireless / Sennheiser EW 100 G4-935: 3 cons only: At $849 it costs $250 more than the Shure BLX288 | Single-channel system — a duo needs two units | Analog RF needs frequency coordination in crowded cities
+[CONS_LE_3] stage-wireless / Sennheiser EW-D Dual Wireless System: 3 cons only: At $999 it's the most expensive system in the guide | Digital system is a bigger workflow change than analog | Handheld plus lavalier set may exceed what small gigs need
+[GENERIC] stage-wireless / AKG WMS420 Vocal Set / pros: D5 capsule with excellent feedback rejection and reduced handling noise
+[CONS_LE_3] stage-wireless / AKG WMS420 Vocal Set: 3 cons only: At $499 it's the budget pick — less headroom than the Sennheiser systems | Two transmitters but a single receiver | Up to 8 channels only with additional units coordinated
+
+# GUIDE: best-mic-for-podcasting
+TITLE: Best Podcast Mic: SM7B vs RE20 vs USB (Pro Test)
+TITLE_ES: Mejor Micrófono para Podcast: SM7B vs RE20 vs USB (Prueba Pro)
+VPC:
+
+[P] Shure SM7B
+  P0: Warm, flat frequency response with a gentle presence boost for natural broadcast voice
+  P1: Built-in pop filter and shock mount save on accessories
+  P2: Excellent off-axis rejection for untreated home rooms
+  P3: The mic you see on most professional podcasts
+  PE0: Respuesta cálida y plana con un suave boost de presencia para una voz broadcast natural
+  PE1: Filtro antipop y soporte antivibración integrados que ahorran accesorios
+  PE2: Excelente rechazo fuera de eje para habitaciones caseras sin tratar
+  PE3: El micrófono que ves en la mayoría de podcasts profesionales
+  C0: Needs around 60-70dB of clean gain — a Cloudlifter ($149) is basically required
+  C1: The full rig (SM7B + Cloudlifter + interface) runs about $750
+  C2: It's heavy and needs a solid boom arm rather than a cheap clamp
+  CE0: Necesita unos 60-70dB de ganancia limpia — un Cloudlifter ($149) es prácticamente obligatorio
+  CE1: El rig completo (SM7B + Cloudlifter + interfaz) ronda los $750
+  CE2: Es pesado y necesita un brazo articulado sólido en lugar de un pinza barata
+
+[P] Shure SM58
+  P0: At $99 it's the best entry point — with a Scarlett 2i2 it totals around $300
+  P1: Slight presence boost helps the voice come through clearly
+  P2: Built-in pop filter and rugged build need no extra accessories
+  P3: Buying several SM58s is far more economical than outfitting everyone with SM7Bs
+  PE0: Por $99 es el mejor punto de entrada — con una Scarlett 2i2 suma unos $300
+  PE1: Un suave boost de presencia ayuda a que la voz se escuche con claridad
+  PE2: Filtro antipop integrado y construcción robusta sin accesorios extra
+  PE3: Comprar varias SM58 es mucho más económico que equipar a todos con SM7B
+  C0: Its spherical pop filter adds a slight warm coloration — some swap in an SM57 grille for more highs
+  C1: Still needs an interface or mixer for its XLR connection
+  C2: The SM7B and NT1 resolve more detail at the top end
+  CE0: Su filtro antipop esférico añade una ligera coloración cálida — algunos cambian la rejilla por la de SM57 para más agudos
+  CE1: Sigue necesitando una interfaz o mezclador para su conexión XLR
+  CE2: La SM7B y la NT1 resuelven más detalle en el extremo superior
+
+[P] Rode NT1 5th Generation
+  P0: 4 dBA self-noise — lower than any dynamic microphone
+  P1: Captures a level of detail dynamics can't match in its price range
+  P2: Includes a shock mount and pop filter that cost extra elsewhere
+  P3: Dual XLR/USB output works without an interface, often on sale for $229
+  PE0: 4 dBA de ruido propio — inferior al de cualquier micrófono dinámico
+  PE1: Captura un nivel de detalle que los dinámicos no alcanzan en su rango de precio
+  PE2: Incluye soporte antivibración y filtro antipop que en otros cuestan extra
+  PE3: Salida dual XLR/USB que funciona sin interfaz, a menudo en oferta por $229
+  C0: Your room must be acoustically treated — it captures every reverb, fan, and hum
+  C1: In an untreated room the result is hollow and amateurish
+  C2: As a condenser it needs 48V phantom power from the interface
+  CE0: Tu habitación debe tener tratamiento acústico — captura cada reverberación, ventilador y zumbido
+  CE1: En una habitación sin tratar el resultado es hueco y amateur
+  CE2: Como condensador necesita 48V de alimentación phantom desde la interfaz
+
+[P] Focusrite Scarlett 2i2 4th Gen
+  P0: Two mic preamps with 48V phantom — the modular core of an XLR podcast setup
+  P1: 2-in/2-out lets you add a co-host with one more mic later
+  P2: Air mode adds presence for voice and loopback helps streaming
+  P3: With an SM58 it makes a ~$300 entry point
+  PE0: Dos previos de micrófono con phantom de 48V — el núcleo modular de un setup XLR de podcast
+  PE1: Sus 2 entradas y 2 salidas te permiten sumar un co-presentador con un micrófono más
+  PE2: El modo Air añade presencia a la voz y el loopback ayuda al streaming
+  PE3: Con una SM58 conforma un punto de entrada de unos $300
+  C0: An XLR setup costs more upfront than a USB mic
+  C1: You have to learn gain staging to get the most out of it
+  C2: Two inputs max — a three-plus-person roundtable needs a bigger interface
+  CE0: Un setup XLR cuesta más por adelantado que un micrófono USB
+  CE1: Tienes que aprender gain staging para sacarle todo el partido
+  CE2: Dos entradas como máximo — una mesa redonda de tres o más personas necesita una interfaz mayor
+
+[P] Elgato Wave XLR Pro
+  P0: Two XLR preamps with 80dB of clean gain each — drives an SM7B without a Cloudlifter
+  P1: Five independent hardware mixes with zero-latency monitoring
+  P2: 48V phantom, Clipguard 2.0, VST plugin support, and standalone mode
+  P3: Two headphone outputs let a co-host monitor their own mix
+  PE0: Dos previos XLR con 80dB de ganancia limpia cada uno — mueve un SM7B sin Cloudlifter
+  PE1: Cinco mezclas de hardware independientes con monitoreo de latencia cero
+  PE2: 48V phantom, Clipguard 2.0, soporte de plugins VST y modo independiente
+  PE3: Dos salidas de auriculares para que un co-presentador escuche su propia mezcla
+  C0: No physical faders or knobs — control lives in Wave Link or a Stream Deck
+  C1: At $350 it costs well more than a Scarlett 2i2 for solo podcasters
+  C2: VST plugins drop out in standalone mode (they need the host computer)
+  CE0: Sin faders ni perillas físicas — el control vive en Wave Link o un Stream Deck
+  CE1: A $350 cuesta bastante más que una Scarlett 2i2 para podcasters solitarios
+  CE2: Los plugins VST se apagan en modo independiente (necesitan la computadora)
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Broadcast & podcast vocals ~ Radio y podcast | Live & stage vocals ~ Voces en vivo y escenario | Versatile studio vocals ~ Voces de estudio versátiles | USB audio interface ~ Interfaz de audio USB | Co-hosted & dual-mic podcasts ~ Podcasts con co-presentador o doble micro
+  PT[Type/Tipo]: Dynamic ~ Dinámico | Dynamic ~ Dinámico | Condenser (LDC) ~ Condensador (LDC) | Audio interface (2-in/2-out) ~ Interfaz de audio (2-ent/2-sal) | Audio interface (2 XLR in) ~ Interfaz de audio (2 entradas XLR)
+  PT[Polar Pattern/Patrón Polar]: Cardioid ~ Cardioide | Cardioid ~ Cardioide | Cardioid ~ Cardioide | – ~ – | – ~ –
+  PT[Frequency Response/Respuesta de Frecuencia]: 50 Hz – 20 kHz ~ 50 Hz – 20 kHz | 50 Hz – 15 kHz ~ 50 Hz – 15 kHz | 20 Hz – 20 kHz ~ 20 Hz – 20 kHz | 20 Hz – 20 kHz ~ 20 Hz – 20 kHz | 20 Hz – 20 kHz ~ 20 Hz – 20 kHz
+  PT[Sensitivity/Sensibilidad]: –59 dBV/Pa (1.12 mV) ~ –59 dBV/Pa (1.12 mV) | –56.0 dBV/Pa (1.6 mV) ~ –56.0 dBV/Pa (1.6 mV) | –32 dB (25 mV/Pa) ~ –32 dB (25 mV/Pa) | – ~ – | – ~ –
+  PT[Self-Noise/Ruido Propio]: N/A (dynamic) ~ N/D (dinámico) | N/A (dynamic) ~ N/D (dinámico) | 4 dBA ~ 4 dBA | – ~ – | EIN –130 dBV(A) ~ EIN –130 dBV(A)
+  PT[Max SPL/SPL Máximo]: 180 dB ~ 180 dB | 160 dB ~ 160 dB | 142 dB ~ 142 dB | – ~ – | – ~ –
+  PT[Output / Preamp/Salida / Preamplificador]: 150 Ω ~ 150 Ω | 150 Ω ~ 150 Ω | 100 Ω ~ 100 Ω | 48V phantom, 2 mic preamps ~ 48V phantom, 2 preamps | 80 dB gain, 48V phantom ~ 80 dB de ganancia, 48V phantom
+  PT[Price/Precio]: $399 ~ $399 | $99 ~ $99 | $269 ~ $269 | $199 ~ $199 | $350 ~ $350
+
+AUDIT_FLAGS:
+[GENERIC] best-mic-for-podcasting / Shure SM7B / pros: Excellent off-axis rejection for untreated home rooms
+[GENERIC] best-mic-for-podcasting / Shure SM7B / cons: It's heavy and needs a solid boom arm rather than a cheap clamp
+[CONS_LE_3] best-mic-for-podcasting / Shure SM7B: 3 cons only: Needs around 60-70dB of clean gain — a Cloudlifter ($149) is basically required | The full rig (SM7B + Cloudlifter + interface) runs about $750 | It's heavy and needs a solid boom arm rather than a cheap clamp
+[CONS_LE_3] best-mic-for-podcasting / Shure SM58: 3 cons only: Its spherical pop filter adds a slight warm coloration — some swap in an SM57 grille for more highs | Still needs an interface or mixer for its XLR connection | The SM7B and NT1 resolve more detail at the top end
+[CONS_LE_3] best-mic-for-podcasting / Rode NT1 5th Generation: 3 cons only: Your room must be acoustically treated — it captures every reverb, fan, and hum | In an untreated room the result is hollow and amateurish | As a condenser it needs 48V phantom power from the interface
+[CONS_LE_3] best-mic-for-podcasting / Focusrite Scarlett 2i2 4th Gen: 3 cons only: An XLR setup costs more upfront than a USB mic | You have to learn gain staging to get the most out of it | Two inputs max — a three-plus-person roundtable needs a bigger interface
+[CONS_LE_3] best-mic-for-podcasting / Elgato Wave XLR Pro: 3 cons only: No physical faders or knobs — control lives in Wave Link or a Stream Deck | At $350 it costs well more than a Scarlett 2i2 for solo podcasters | VST plugins drop out in standalone mode (they need the host computer)
+
+# GUIDE: beginner-bass-guitars
+TITLE: Best Bass Guitars for Beginners
+TITLE_ES: Mejores Bajos para Principiantes
+VPC:
+
+[P] Squier Affinity Series Precision Bass PJ
+  P0: Best value beginner bass at just $280
+  P1: PJ pickups give you Precision thump AND Jazz growl in one instrument
+  P2: Comfortable maple neck and lightweight poplar body
+  P3: The world's best-selling bass — proven by thousands of beginners
+  PE0: El mejor bajo económico para principiantes por solo $280
+  PE1: Las pastillas PJ dan el golpe Precision Y el growl Jazz en un solo instrumento
+  PE2: Mástil de arce cómodo y cuerpo de álamo ligero
+  PE3: El bajo más vendido del mundo — probado por miles de principiantes
+  C0: Entry-level pickups and hardware invite future upgrades
+  C1: Needs a setup out of the box
+  C2: No active electronics for tone shaping
+  C3: Accessories like a gigbag are not included
+  CE0: Las pastillas y el hardware de nivel inicial invitan a futuras mejoras
+  CE1: Necesita un ajuste al sacarlo de la caja
+  CE2: Sin electrónica activa para moldear el tono
+  CE3: Los accesorios como la funda no están incluidos
+
+[P] Yamaha TRBX304
+  P0: The 5-band active EQ lets beginners shape tone like a pro
+  P1: Mahogany body and 5-piece neck for pro-level resonance
+  P2: 24 frets expand your range as you learn
+  P3: Yamaha quality control means it arrives playing well
+  PE0: El EQ activo de 5 bandas permite a los principiantes moldear el tono como un pro
+  PE1: Cuerpo de caoba y mástil de 5 piezas para resonancia de nivel pro
+  PE2: 24 trastes amplían tu registro mientras aprendes
+  PE3: El control de calidad de Yamaha asegura que llegue bien tocado
+  C0: It costs more than the Squier Affinity PJ
+  C1: Active electronics need a 9V battery
+  C2: So many tonal options can overwhelm total beginners
+  C3: Its neutral modern tone lacks instant vintage vibe
+  CE0: Cuesta más que el Squier Affinity PJ
+  CE1: La electrónica activa necesita una pila de 9V
+  CE2: Tantas opciones tonales pueden abrumar a un principiante total
+  CE3: Su tono moderno y neutro carece de vibra vintage inmediata
+
+[P] Ibanez SR300E
+  P0: One of the thinnest, fastest necks in its class — great for small hands
+  P1: Lightweight body reduces fatigue during long practice
+  P2: Active 3-band EQ and Power Tap switch for versatile tones
+  P3: Ibanez reliability at a beginner-friendly price
+  PE0: Uno de los mástiles más delgados y rápidos de su clase — ideal para manos pequeñas
+  PE1: El cuerpo ligero reduce la fatiga en prácticas largas
+  PE2: EQ activo de 3 bandas e interruptor Power Tap para tonos versátiles
+  PE3: Fiabilidad Ibanez a un precio amigable para principiantes
+  C0: The thin neck may feel cramped to larger-handed players
+  C1: The active circuit requires a battery
+  C2: It is less warm and mellow than a classic P-Bass
+  C3: The nyatoh body isn't the most resonant
+  CE0: El mástil delgado puede sentirse estrecho para manos grandes
+  CE1: El circuito activo requiere una pila
+  CE2: Es menos cálido y suave que un P-Bass clásico
+  CE3: El cuerpo de nyatoh no es de los más resonantes
+
+[P] Sterling by Music Man StingRay Ray4
+  P0: Iconic StingRay tone at a budget price
+  P1: Ceramic humbucker with a 2-band active preamp
+  P2: Punchy tone that cuts through — great for funk and rock
+  P3: Simple single-pickup layout is easy for beginners
+  PE0: Tono icónico StingRay a precio económico
+  PE1: Humbucker cerámica con preamp activo de 2 bandas
+  PE2: Tono contundente que corta la mezcla — ideal para funk y rock
+  PE3: El esquema simple de una pastilla es fácil para principiantes
+  C0: One pickup means fewer tonal options
+  C1: The basswood body is light but not very resonant
+  C2: It needs a 9V battery
+  C3: Its aggressive tone isn't ideal for mellow styles
+  CE0: Una pastilla significa menos opciones tonales
+  CE1: El cuerpo de tilo es ligero pero poco resonante
+  CE2: Necesita una pila de 9V
+  CE3: Su tono agresivo no es ideal para estilos suaves
+
+[P] Squier Classic Vibe '60s Jazz Bass
+  P0: Sounds like a bass that costs three times as much
+  P1: Alnico pickups deliver genuine vintage J tone
+  P2: Comfortable C-shaped neck and vintage-style hardware
+  P3: Build quality that grows with you for years
+  PE0: Suena como un bajo que cuesta el triple
+  PE1: Las pastillas alnico ofrecen tono J vintage genuino
+  PE2: Mástil C-shape cómodo y hardware de estilo vintage
+  PE3: Calidad de construcción que crece contigo durante años
+  C0: At $450 it is at the top of the beginner budget
+  C1: Passive electronics only
+  C2: Single J voicing is less versatile than a PJ layout
+  C3: It is slightly heavier than featherweight modern bodies
+  CE0: A $450 está en el tope del presupuesto de principiante
+  CE1: Solo electrónica pasiva
+  CE2: La única voz J es menos versátil que un esquema PJ
+  CE3: Es algo más pesado que los cuerpos modernos ultraligeros
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Best ultra-budget P/J bass ~ Mejor bajo P/J ultra económico | Modern active bass with 24 frets ~ Bajo activo moderno con 24 trastes | Thin neck, light body, modern tone ~ Mástil fino, cuerpo ligero, sonido moderno | Iconic single-coil stingray tone ~ Sonido StingRay icónico de single coil | Vintage J bass vibe on a budget ~ Vibe J bass vintage a buen precio
+  PT[Body Wood/Madera del Cuerpo]: Poplar ~ Álamo | Alder / maple ~ Aliso / arce | Mahogany / maple ~ Caoba / arce | Ash ~ Fresno | Alder ~ Aliso
+  PT[Neck/Mástil]: Maple, 20 frets ~ Arce, 20 trastes | Maple, 24 frets ~ Arce, 24 trastes | Ibanez SR5 thin ~ SR5 fino Ibanez | Maple, 21 frets ~ Arce, 21 trastes | Maple, vintage tint ~ Arce, tinte vintage
+  PT[Frets & Fretboard/Trastes y Diapasón]: 20, maple ~ 20, arce | 24, rosewood ~ 24, palo rosa | 24, rosewood ~ 24, palo rosa | 21, maple ~ 21, arce | 20, maple ~ 20, arce
+  PT[Pickups/Pastillas]: P split + J bridge ~ Split P + J puente | 2x YGD humbuckers ~ 2x humbuckers YGD | 2x PowerSpan dual coil ~ 2x PowerSpan dual coil | Music Man humbucker ~ Humbucker Music Man | 2x Alnico J single coils ~ 2x singles Alnico J
+  PT[Active/Passive/Activo/Pasivo]: Passive ~ Pasivo | Active ~ Activo | Active ~ Activo | Active ~ Activo | Passive ~ Pasivo
+  PT[Scale Length/Longitud de Escala]: 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm)
+  PT[Electronics/Electrónica]: Volume, volume, tone ~ Volumen, volumen, tono | Active EQ 3-band ~ EQ activo 3 bandas | Active EQ 2-band ~ EQ activo 2 bandas | Volume, tone, active EQ ~ Volumen, tono, EQ activo | 2x volume, tone ~ 2x volumen, tono
+  PT[Tuners/Clavijas]: Die-cast ~ Fundidos | Die-cast ~ Fundidos | Die-cast ~ Fundidos | Schaller ~ Schaller | Vintage-style ~ Estilo vintage
+  PT[Weight/Peso]: 7.9 lb (3.6 kg) ~ 3,6 kg | 8.6 lb (3.9 kg) ~ 3,9 kg | 7.9 lb (3.6 kg) ~ 3,6 kg | 8.6 lb (3.9 kg) ~ 3,9 kg | 8.0 lb (3.6 kg) ~ 3,6 kg
+  PT[Price/Precio]: $280 ~ $280 | $380 ~ $380 | $350 ~ $350 | $350 ~ $350 | $450 ~ $450
+
+AUDIT_FLAGS:
+[TOO_SHORT] beginner-bass-guitars / Squier Affinity Series Precision Bass PJ / cons: Needs a setup out of the box
+[GENERIC] beginner-bass-guitars / Yamaha TRBX304 / pros: Yamaha quality control means it arrives playing well
+[GENERIC] beginner-bass-guitars / Ibanez SR300E / pros: One of the thinnest, fastest necks in its class — great for small hands
+[GENERIC] beginner-bass-guitars / Sterling by Music Man StingRay Ray4 / pros: Punchy tone that cuts through — great for funk and rock
+[TOO_SHORT] beginner-bass-guitars / Sterling by Music Man StingRay Ray4 / cons: It needs a 9V battery
+[GENERIC] beginner-bass-guitars / Squier Classic Vibe '60s Jazz Bass / pros: Build quality that grows with you for years
+[TOO_SHORT] beginner-bass-guitars / Squier Classic Vibe '60s Jazz Bass / cons: Passive electronics only
+
+# GUIDE: me90-vs-mx5
+TITLE: ME-90 vs MX5: Best Multi-Effects Pedal for You?
+TITLE_ES: ME-90 vs MX5: ¿Mejor Pedal Multiefectos para Ti?
+FS_SPECS:
+  [undefined / Tipo]: Multi-effects floorboard || Multi-effects modeler
+  [undefined / Modelos de Amplificador]: 11 AIRD || 52
+  [undefined / Efectos]: 60 (97 types) || 74+
+  [undefined / Pantalla]: 7-segment LED || 4-inch touchscreen
+  [undefined / Interruptores]: 8 || 3
+  [undefined / Pedal de Expresión]: Built-in || Built-in
+  [undefined / Carga de IR]: 3 user IRs || 300 IRs + unlimited
+  [undefined / Looper]: 38 seconds || 20 minutes
+  [undefined / Audio USB]: Yes (USB-C) || Yes (24-bit/96kHz)
+  [undefined / Precio]: $349 || $399
+COMPARISON:
+  [Launch / Lanzamiento]: 2023 || 2021
+  [Amp Models / Modelos de Amplificador]: 11 AIRD (GT-1000 derived) || 52
+  [Effects / Efectos]: 60 (97 types) || 74+
+  [Display / Pantalla]: 7-segment LED || 4-inch touchscreen
+  [Footswitches / Interruptores]: 8 multi-function || 3 with RGB LEDs
+  [Expression Pedal / Pedal de Expresión]: Built-in with toe switch || Built-in, adjustable tension
+  [IR Loading / Carga de IR]: Up to 3 user IRs || 300 IRs + unlimited third-party
+  [Looper / Looper]: 38 seconds (mono) || 20 minutes, save/load
+  [FX Loop / Bucle de Efectos]: Yes (send/return) || Yes (stereo)
+  [MIDI / MIDI]: Via optional BT-DUAL || MIDI In/Out included
+  [USB Audio / Audio USB]: USB-C audio interface || 24-bit/96kHz audio interface
+  [Power / Alimentación]: 4 x AA or AC adaptor || 12V DC adaptor
+  [Price / Precio]: $349 || $399
+VPC:
+
+[P] Boss ME-90
+  P0: Hands-on stompbox-style control with 8 footswitches
+  P1: Authentic AIRD amp feel with 11 models
+  P2: Runs on 4 AA batteries for gigging
+  P3: Best value at $349
+  PE0: Control manual tipo stompbox con 8 interruptores
+  PE1: Sensación auténtica AIRD con 11 modelos
+  PE2: Funciona con 4 pilas AA para directo
+  PE3: Mejor relación calidad-precio a $349
+  C0: Only 11 amp models
+  C1: No touchscreen or deep editing display
+  C2: Looper limited to 38 seconds
+  C3: No built-in USB audio interface; recording or re-amping requires separate gear
+  CE0: Solo 11 modelos de amplificador
+  CE1: Sin pantalla táctil ni edición profunda
+  CE2: Looper limitado a 38 segundos
+  CE3: Sin interfaz de audio USB integrada; grabar o re-amplificar requiere equipo aparte
+
+[P] HeadRush MX5
+  P0: 52 amp models and 300 IRs for deep modeling
+  P1: 4-inch touchscreen for fast editing
+  P2: USB audio interface for recording and re-amping
+  P3: 20-minute looper with save/load
+  PE0: 52 modelos y 300 IR para modelado profundo
+  PE1: Pantalla táctil de 4 pulgadas para edición rápida
+  PE2: Interfaz de audio USB para grabar y re-amp
+  PE3: Looper de 20 minutos con guardar/cargar
+  C0: Menu-heavy editing on a small touchscreen
+  C1: Requires AC power (no battery)
+  C2: More expensive at $399
+  C3: With only 3 footswitches, live preset switching is less immediate than the ME-90's 8-switch layout
+  CE0: Edición con muchos menús en pantalla pequeña
+  CE1: Requiere alimentación AC (sin batería)
+  CE2: Más caro a $399
+  CE3: Con solo 3 footswitches, cambiar presets en vivo es menos inmediato que los 8 switches de la ME-90
+
+AUDIT_FLAGS:
+[TOO_SHORT] me90-vs-mx5 / Boss ME-90 / pros: Runs on 4 AA batteries for gigging
+[TOO_SHORT] me90-vs-mx5 / Boss ME-90 / pros: Best value at $349
+[TOO_SHORT] me90-vs-mx5 / Boss ME-90 / cons: Only 11 amp models
+[TOO_SHORT] me90-vs-mx5 / Boss ME-90 / cons: Looper limited to 38 seconds
+[TOO_SHORT] me90-vs-mx5 / HeadRush MX5 / pros: 20-minute looper with save/load
+[TOO_SHORT] me90-vs-mx5 / HeadRush MX5 / cons: Requires AC power (no battery)
+[TOO_SHORT] me90-vs-mx5 / HeadRush MX5 / cons: More expensive at $399
+
+# GUIDE: mics-for-creators
+TITLE: Best Microphones for Content Creators (2026)
+TITLE_ES: Mejores Micrófonos para Creadores de Contenido (2026)
+VPC:
+
+[P] Shure MV7+
+  P0: Dual USB-C and XLR outputs for future-proofing
+  P1: Real-time autolevel keeps volume consistent
+  P2: Built-in DSP: EQ, compression and reverb on the mic
+  P3: Motorized touch-panel mute and built-in pop filter
+  PE0: Salidas duales USB-C y XLR para el futuro
+  PE1: El auto-nivel en tiempo real mantiene el volumen constante
+  PE2: DSP integrado: EQ, compresión y reverberación en el micrófono
+  PE3: Silencio por panel táctil motorizado y filtro anti-pop integrado
+  C0: Most expensive pick at $299
+  C1: Overkill if you only need a simple USB mic
+  C2: Heavier than competing USB dynamics
+  CE0: La opción más cara a $299
+  CE1: Excesivo si solo necesitas un micrófono USB simple
+  CE2: Más pesado que los dinámicos USB competidores
+
+[P] Rode PodMic USB
+  P0: Broadcast dynamic sound for only $199
+  P1: 32-bit float so loud takes are recoverable
+  P2: Internal shock mount and magnetic pop filter
+  P3: Headphone output for zero-latency monitoring
+  PE0: Sonido dinámico broadcast por solo $199
+  PE1: 32-bit float para recuperar tomas fuertes
+  PE2: Suspensión interna y filtro anti-pop magnético
+  PE3: Salida de auriculares para monitorización sin latencia
+  C0: Desk-only — no wireless mode
+  C1: Needs a boom arm or stand for the right height
+  C2: No XLR output, so it cannot feed an interface directly
+  CE0: Solo de escritorio — sin modo inalámbrico
+  CE1: Necesita brazo o soporte para la altura correcta
+  CE2: Sin salida XLR, así que no alimenta una interfaz directamente
+
+[P] HyperX QuadCast 2
+  P0: Best value at $110 with 36,000+ reviews
+  P1: Built-in shock mount, pop filter and RGB lighting
+  P2: Tap-to-mute with backlit status light
+  P3: Four polar patterns for solo to roundtable
+  PE0: Mejor valor a $110 con más de 36,000 reseñas
+  PE1: Suspensión incorporada, filtro anti-pop e iluminación RGB
+  PE2: Silencio al tocar con luz de estado retroiluminada
+  PE3: Cuatro patrones polares de solista a mesa redonda
+  C0: Condenser picks up room reverb in untreated rooms
+  C1: Needs an adapter for boom-arm mounting
+  C2: RGB may feel too flashy for pro podcast setups
+  CE0: El condensador capta la reverberación en salas sin tratar
+  CE1: Necesita adaptador para montaje en brazo
+  CE2: El RGB puede sentirse llamativo para setups de podcast pro
+
+[P] Elgato Wave:3
+  P0: Wave Link software mixes sources into channels
+  P1: Clipguard prevents distortion on loud moments
+  P2: Capacitive mute and 4.6/5 across 10,000+ reviews
+  P3: Broadcast-grade 96kHz/24-bit converter
+  PE0: El software Wave Link mezcla fuentes en canales
+  PE1: Clipguard evita la distorsión en momentos fuertes
+  PE2: Silencio capacitivo y 4.6/5 en más de 10,000 reseñas
+  PE3: Convertidor de calidad broadcast 96kHz/24-bit
+  C0: Condenser needs a treated or quiet room
+  C1: No XLR output for future interface upgrades
+  C2: Full Wave Link feature set lives in the software
+  CE0: El condensador necesita una sala tratada o silenciosa
+  CE1: Sin salida XLR para futuras actualizaciones con interfaz
+  CE2: El conjunto completo de funciones de Wave Link vive en el software
+
+[P] DJI Mic Mini
+  P0: Two 5g transmitters and a pocketable charging case
+  P1: USB-C receiver plugs straight into a phone
+  P2: Up to 400m range and 48 hours with the case
+  P3: 2-step noise cancelling keeps room hum out
+  PE0: Dos transmisores de 5g y un estuche de carga de bolsillo
+  PE1: El receptor USB-C se conecta directo al teléfono
+  PE2: Hasta 400m de alcance y 48 horas con el estuche
+  PE3: La cancelación de ruido de 2 pasos elimina el zumbido
+  C0: Not a replacement for a desk mic for studio work
+  C1: 48kHz/24-bit instead of 32-bit float
+  C2: No on-board recording on the transmitters
+  CE0: No reemplaza a un micrófono de escritorio para trabajo de estudio
+  CE1: 48kHz/24-bit en lugar de 32-bit float
+  CE2: Sin grabación a bordo en los transmisores
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: All-in-one USB/XLR creator mic ~ Micrófono creador todo-en-uno USB/XLR | Broadcast voice and podcasting on a budget ~ Voz broadcast y podcasting con presupuesto | Gaming, streaming and video calls ~ Gaming, streaming y videollamadas | Streamers using Elgato software ~ Streamers que usan software Elgato | Vlogs and interviews on the move ~ Vlogs y entrevistas en movimiento
+  PT[Connection/Conexión]: USB-C + XLR ~ USB-C + XLR | USB-C ~ USB-C | USB-C ~ USB-C | USB-C ~ USB-C | Wireless (USB-C receiver) ~ Inalámbrico (receptor USB-C)
+  PT[Mic Type/Tipo de Micrófono]: Dynamic cardioid ~ Dinámico cardioide | Dynamic cardioid ~ Dinámico cardioide | Condenser, 4 polar patterns ~ Condensador, 4 patrones polares | Condenser cardioid ~ Condensador cardioide | Lavalier clip-on ~ De solapa para enganchar
+  PT[Recording/Grabación]: 24-bit, built-in DSP + autolevel ~ 24-bit, DSP integrado + auto-nivel | 32-bit float ~ 32-bit float | 96kHz/24-bit ~ 96kHz/24-bit | 96kHz/24-bit with Clipguard ~ 96kHz/24-bit con Clipguard | 48kHz/24-bit, 2-step noise cancelling ~ 48kHz/24-bit, cancelación de ruido de 2 pasos
+  PT[Amazon Rating/Valoración en Amazon]: 4.7/5 (3,120 reviews) ~ 4.7/5 (3,120 reseñas) | 4.3/5 (1,257 reviews) ~ 4.3/5 (1,257 reseñas) | 4.7/5 (36,149 reviews) ~ 4.7/5 (36,149 reseñas) | 4.6/5 (10,240 reviews) ~ 4.6/5 (10,240 reseñas) | 4.7/5 (8,700+ reviews) ~ 4.7/5 (más de 8,700 reseñas)
+  PT[Price/Precio]: $299 ~ $299 | $199 ~ $199 | $110 ~ $110 | $150 ~ $150 | $99 ~ $99
+
+AUDIT_FLAGS:
+[TOO_SHORT] mics-for-creators / Shure MV7+ / cons: Most expensive pick at $299
+[CONS_LE_3] mics-for-creators / Shure MV7+: 3 cons only: Most expensive pick at $299 | Overkill if you only need a simple USB mic | Heavier than competing USB dynamics
+[TOO_SHORT] mics-for-creators / Rode PodMic USB / cons: Desk-only — no wireless mode
+[CONS_LE_3] mics-for-creators / Rode PodMic USB: 3 cons only: Desk-only — no wireless mode | Needs a boom arm or stand for the right height | No XLR output, so it cannot feed an interface directly
+[CONS_LE_3] mics-for-creators / HyperX QuadCast 2: 3 cons only: Condenser picks up room reverb in untreated rooms | Needs an adapter for boom-arm mounting | RGB may feel too flashy for pro podcast setups
+[CONS_LE_3] mics-for-creators / Elgato Wave:3: 3 cons only: Condenser needs a treated or quiet room | No XLR output for future interface upgrades | Full Wave Link feature set lives in the software
+[CONS_LE_3] mics-for-creators / DJI Mic Mini: 3 cons only: Not a replacement for a desk mic for studio work | 48kHz/24-bit instead of 32-bit float | No on-board recording on the transmitters
+
+# GUIDE: best-interface
+TITLE: Best Audio Interface for Home Recording (Pro Test)
+TITLE_ES: Mejor Interfaz de Audio para Grabación Casera (Prueba Pro)
+VPC:
+
+[P] Focusrite Scarlett 2i2 4th Gen
+  P0: 120dB dynamic range, Air mode, and loopback for streaming at $199
+  P1: Air mode adds a high-frequency lift inspired by vintage Neve consoles
+  P2: Rock-solid USB-C drivers with a strong reputation on Windows and Mac
+  P3: Recorded full demos on this unit with genuinely impressive results
+  PE0: 120dB de rango dinámico, modo Air y loopback para streaming por $199
+  PE1: El modo Air añade un realce de altas frecuencias inspirado en consolas Neve vintage
+  PE2: Drivers USB-C a prueba de balas con sólida reputación en Windows y Mac
+  PE3: He grabado demos completas con esta unidad con resultados genuinamente impresionantes
+  C0: Only 2-in/2-out — you outgrow it once you need more inputs
+  C1: Clean and neutral with no analog color for vocal character
+  C2: The SSL 2+ MKII adds console character for just $100 more
+  CE0: Solo 2 entradas / 2 salidas — se queda corta cuando necesitas más entradas
+  CE1: Limpia y neutra, sin color analógico para dar carácter a las voces
+  CE2: La SSL 2+ MKII añade carácter de consola por solo $100 más
+
+[P] SSL 2+ MKII
+  P0: 4K Legacy channel strip — switchable analog EQ that adds presence and punch
+  P1: Legendary SSL 4K console preamps for high-headroom recording
+  P2: Built-in talkback mic for directing sessions
+  P3: 32-bit/192kHz MKII converters and dual headphone outputs with independent levels
+  PE0: Channel strip Legacy 4K — ecualizador analógico conmutable que añade presencia y pegada
+  PE1: Legendarios preamplificadores de consola SSL 4K para grabación con alto margen
+  PE2: Micrófono talkback integrado para dirigir sesiones
+  PE3: Convertidores MKII de 32 bits/192kHz y dos salidas de auriculares con niveles independientes
+  C0: $100 more than the Scarlett 2i2 — $299 vs $199
+  C1: Colored rather than transparent — cleaner interfaces suit most neutral recording
+  C2: 2-in/4-out still limits multi-mic tracking
+  CE0: $100 más que la Scarlett 2i2 — $299 frente a $199
+  CE1: Con color en lugar de transparente — las interfaces más limpias sirven para la mayoría de grabaciones neutras
+  CE2: 2 entradas / 4 salidas aún limita la grabación multi-mic
+
+[P] Universal Audio Apollo Twin X
+  P0: Real-time UAD DSP — track through compressors, EQs, and reverb with near-zero latency
+  P1: Unison preamps change impedance to match legendary hardware
+  P2: 10-in/6-out Thunderbolt 3 connectivity at 192kHz
+  P3: Pro-level sound used in professional settings
+  PE0: UAD DSP en tiempo real — graba a través de compresores, EQs y reverb con latencia casi nula
+  PE1: Los preamplificadores Unison cambian la impedancia para igualar hardware legendario
+  PE2: 10 entradas / 6 salidas Thunderbolt 3 a 192kHz
+  PE3: Sonido de nivel profesional usado en entornos profesionales
+  C0: $899 — expensive, and the UAD plugins that matter require Apollo hardware
+  C1: Thunderbolt 3 needs a compatible computer with the right ports
+  C2: Native plugins from FabFilter, Waves, or SSL give comparable results with any interface
+  CE0: $899 — cara, y los plugins UAD que importan requieren hardware Apollo
+  CE1: Thunderbolt 3 necesita un ordenador compatible con los puertos adecuados
+  CE2: Los plugins nativos de FabFilter, Waves o SSL dan resultados comparables con cualquier interfaz
+
+[P] RME Babyface Pro FS
+  P0: Legendary rock-solid drivers and pristine AD/DA conversion
+  P1: Fits in a backpack while delivering studio-grade sound
+  P2: SteadyClock FS jitter suppression — recordings sound cleaner than interfaces twice the price
+  P3: TotalMix FX gives zero-latency monitoring with EQ, reverb, and dynamics
+  PE0: Legendarios drivers a prueba de balas y conversión AD/DA impecable
+  PE1: Cabe en una mochila ofreciendo sonido de grado estudio
+  PE2: Supresión de jitter SteadyClock FS — grabaciones más limpias que con interfaces del doble de precio
+  PE3: TotalMix FX ofrece monitoreo con latencia cero con EQ, reverb y dinámica
+  C0: $949 — a serious premium over the Scarlett 2i2 at $199
+  C1: Small unit with minimal hands-on controls — most control lives in software
+  C2: USB 2.0 connection rather than USB-C or Thunderbolt
+  CE0: $949 — una prima considerable frente a la Scarlett 2i2 por $199
+  CE1: Unidad pequeña con pocos controles manuales — la mayoría del control vive en el software
+  CE2: Conexión USB 2.0 en lugar de USB-C o Thunderbolt
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Best all-around entry interface ~ La mejor interfaz de entrada versátil | High-headroom recording & MIDI ~ Grabación con alto margen y MIDI | Pro UAD plugin tracking ~ Grabación profesional con plugins UAD | Pro mobile recording ~ Grabación móvil profesional | Console-style preamps on a budget ~ Preamps estilo consola a buen precio | Best value metering & conversion ~ Mejor medición y conversión por su precio | Analog character on a budget ~ Carácter analógico a buen precio
+  PT[Type/Tipo]: Audio interface ~ Interfaz de audio | Audio interface ~ Interfaz de audio | Audio interface ~ Interfaz de audio | Audio interface ~ Interfaz de audio | Audio interface ~ Interfaz de audio | Audio interface ~ Interfaz de audio | Audio interface ~ Interfaz de audio
+  PT[Inputs / Outputs/Entradas / Salidas]: 2-in / 2-out ~ 2 entradas / 2 salidas | 2-in / 4-out ~ 2 entradas / 4 salidas | 10-in / 6-out ~ 10 entradas / 6 salidas | 4-in / 4-out (12 total) ~ 4 entradas / 4 salidas (12 en total) | 2-in / 2-out (+ ADAT) ~ 2 entradas / 2 salidas (+ ADAT) | 2-in / 2-out ~ 2 entradas / 2 salidas | 2-in / 2-out ~ 2 entradas / 2 salidas
+  PT[Preamps/Preamplificadores]: 2, +69 dB gain ~ 2, +69 dB de ganancia | 2, 64 dB gain ~ 2, 64 dB de ganancia | 2 Unison ~ 2 Unison | 2, +65 dB ~ 2, +65 dB | 2, 58 dB gain ~ 2, 58 dB de ganancia | 2, 60 dB gain ~ 2, 60 dB de ganancia | 2, 55 dB gain ~ 2, 55 dB de ganancia
+  PT[Sample Rate/Frecuencia de Muestreo]: 192 kHz ~ 192 kHz | 192 kHz ~ 192 kHz | 192 kHz ~ 192 kHz | 192 kHz ~ 192 kHz | 96 kHz ~ 96 kHz | 192 kHz ~ 192 kHz | 192 kHz ~ 192 kHz
+  PT[Bit Depth/Profundidad de Bits]: 24-bit ~ 24 bits | 32-bit float ~ 32 bits flotante | 24-bit ~ 24 bits | 24-bit ~ 24 bits | 24-bit ~ 24 bits | 24-bit ~ 24 bits | 24-bit ~ 24 bits
+  PT[Connectivity/Conectividad]: USB-C ~ USB-C | USB-C ~ USB-C | Thunderbolt 3 ~ Thunderbolt 3 | USB 2.0 ~ USB 2.0 | USB-C ~ USB-C | USB-C ~ USB-C | USB-C ~ USB-C
+  PT[Special Features/Características Especiales]: Auto Gain, Clip Safe, loopback ~ Auto Gain, Clip Safe, loopback | Legacy 4K, loopback, MIDI, DC-coupled ~ Legacy 4K, loopback, MIDI, DC-coupled | DUO DSP, UAD plugins ~ DUO DSP, plugins UAD | TotalMix FX, SteadyClock FS, MIDI, ADAT ~ TotalMix FX, SteadyClock FS, MIDI, ADAT | ScrollControl, JFET DI, ADAT expandable ~ ScrollControl, DI JFET, ADAT ampliable | Full-color LCD, ESS Sabre32 DAC, loopback, MIDI ~ LCD a color, DAC ESS Sabre32, loopback, MIDI | Vintage Preamp mode, MIDI I/O, direct monitoring ~ Modo Vintage Preamp, MIDI I/O, monitoreo directo
+  PT[Price/Precio]: $199 ~ $199 | $299 ~ $299 | $899 ~ $899 | $949 ~ $949 | $299 ~ $299 | $199 ~ $199 | $189 ~ $189
+
+AUDIT_FLAGS:
+[GENERIC] best-interface / Focusrite Scarlett 2i2 4th Gen / pros: Rock-solid USB-C drivers with a strong reputation on Windows and Mac
+[CONS_LE_3] best-interface / Focusrite Scarlett 2i2 4th Gen: 3 cons only: Only 2-in/2-out — you outgrow it once you need more inputs | Clean and neutral with no analog color for vocal character | The SSL 2+ MKII adds console character for just $100 more
+[CONS_LE_3] best-interface / SSL 2+ MKII: 3 cons only: $100 more than the Scarlett 2i2 — $299 vs $199 | Colored rather than transparent — cleaner interfaces suit most neutral recording | 2-in/4-out still limits multi-mic tracking
+[CONS_LE_3] best-interface / Universal Audio Apollo Twin X: 3 cons only: $899 — expensive, and the UAD plugins that matter require Apollo hardware | Thunderbolt 3 needs a compatible computer with the right ports | Native plugins from FabFilter, Waves, or SSL give comparable results with any interface
+[GENERIC] best-interface / RME Babyface Pro FS / pros: Legendary rock-solid drivers and pristine AD/DA conversion
+[CONS_LE_3] best-interface / RME Babyface Pro FS: 3 cons only: $949 — a serious premium over the Scarlett 2i2 at $199 | Small unit with minimal hands-on controls — most control lives in software | USB 2.0 connection rather than USB-C or Thunderbolt
+
+# GUIDE: channel-strip-plugins
+TITLE: Best Channel Strip & Console Emulation Plugins
+TITLE_ES: Mejores Plugins de Channel Strip y Emulación de Consola
+VPC:
+
+[P] Waves SSL G-Master Buss Compressor
+  P0: The sound of a million hit records, modeled from the SSL 4000 G master buss compressor
+  P1: Famous auto-release setting
+  P2: Punchy VCA-style curve that makes drums snap and vocals sit in the pocket
+  P3: At $39 it's the cheapest entry to the SSL buss sound
+  PE0: El sonido de un millón de discos exitosos, modelado del compresor de bus maestro SSL 4000 G
+  PE1: El famoso ajuste de auto-release
+  PE2: Curva estilo VCA contundente que hace que la batería tenga snap y las voces se asienten
+  PE3: A $39 es la entrada más barata al sonido de bus SSL
+  C0: Waves Update Plan is needed to keep plugins current
+  C1: A single buss compressor won't cover channel-strip EQ duties
+  C2: One trick — glue — versus a full channel strip
+  CE0: El Waves Update Plan es necesario para mantener los plugins al día
+  CE1: Un solo compresor de bus no cubre las tareas de EQ de un channel strip
+  CE2: Un único truco — pegamento — frente a un channel strip completo
+
+[P] FabFilter Total Bundle
+  P0: Pro-Q 4 dynamic bands tame harsh vocal frequencies and boomy bass only when they get loud
+  P1: Spectral display shows exactly what's happening in real time
+  P2: Combines with console emulations for modern precision plus vintage character
+  P3: Best-in-class tools across EQ, compression, limiting and saturation
+  PE0: Las bandas dinámicas de Pro-Q 4 doman frecuencias vocales duras y graves retumbantes solo cuando se vuelven fuertes
+  PE1: La pantalla espectral muestra exactamente lo que ocurre en tiempo real
+  PE2: Combina con emulaciones de consola para precisión moderna más carácter vintage
+  PE3: Herramientas de primer nivel en EQ, compresión, limitación y saturación
+  C0: At $1,069 it's expensive — Pro-Q 4 alone costs $199
+  C1: Transparent by design, so it won't add console character
+  C2: Most of the bundle sits unused if you only want dynamic EQ
+  CE0: A $1,069 es caro — solo Pro-Q 4 cuesta $199
+  CE1: Transparente por diseño, así que no añadirá carácter de consola
+  CE2: La mayor parte del bundle queda sin usar si solo quieres EQ dinámico
+
+[P] Universal Audio UAD Ultimate 14
+  P0: Over 100 authentic emulations of Neve, API, SSL, Manley, Ampex and Studer
+  P1: Every circuit, transformer and tube stage modeled to component level
+  P2: Unison preamp technology changes impedance to match the hardware
+  P3: Near-zero latency processing on UAD DSP
+  PE0: Más de 100 emulaciones auténticas de Neve, API, SSL, Manley, Ampex y Studer
+  PE1: Cada circuito, transformador y etapa de tubo modelada a nivel de componente
+  PE2: La tecnología Unison cambia la impedancia para igualar el hardware
+  PE3: Procesamiento con latencia casi nula en DSP UAD
+  C0: At $999 it's a major investment
+  C1: Best performance requires Apollo hardware or UAD-2 DSP
+  C2: Over 100 plugins is daunting to learn
+  CE0: A $999 es una inversión importante
+  CE1: El mejor rendimiento requiere hardware Apollo o DSP UAD-2
+  CE2: Más de 100 plugins es abrumador de aprender
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: SSL bus compression glue ~ Pegado tipo compresión de bus SSL | One-stop mixing toolkit ~ Set completo para mezclar | Classic FET compressor tone ~ Sonido clásico de compresor FET | Precision EQ on any track ~ EQ de precisión en cualquier pista | UAD hardware-style plug-ins, no hardware ~ Plugins estilo UAD sin hardware
+  PT[Type/Tipo]: Buss compressor ~ Compresor de bus | 30+ plug-ins (EQ, comp, reverb, sat, limiter) ~ 30+ plugins (EQ, comp, reverb, sat, limitador) | Compressor plug-in ~ Plugin compresor | Dynamic/parametric EQ ~ EQ paramétrico/dinámico | Plugin bundle ~ Bundle de plugins
+  PT[Format/Formato]: VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX
+  PT[Platforms/Plataformas]: macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows
+  PT[Copy Protection/Protección de Copia]: Waves License Center ~ Waves License Center | License file ~ Archivo de licencia | iLok ~ iLok | License file ~ Archivo de licencia | iLok ~ iLok
+  PT[Latency/Latencia]: Low ~ Baja | Ultra-low ~ Ultrabaja | Low ~ Baja | Ultra-low ~ Ultrabaja | Low ~ Baja
+  PT[Standout Feature/Característica Destacada]: SSL G-series 4K style comp ~ Comp tipo SSL G-series 4K | Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R ~ Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R | 1176 LN + revision models ~ Modelos 1176 LN + revisiones | 24 bands, spectrum analyzer, linear phase ~ 24 bandas, analizador, fase lineal | 100+ UAD plug-ins native ~ 100+ plugins UAD nativos
+  PT[Price/Precio]: $39 ~ $39 | $1,069 ~ $1.069 | $149 ~ $149 | $199 ~ $199 | $999 ~ $999
+
+AUDIT_FLAGS:
+[TOO_SHORT] channel-strip-plugins / Waves SSL G-Master Buss Compressor / pros: Famous auto-release setting
+[GENERIC] channel-strip-plugins / Waves SSL G-Master Buss Compressor / pros: Famous auto-release setting
+[CONS_LE_3] channel-strip-plugins / Waves SSL G-Master Buss Compressor: 3 cons only: Waves Update Plan is needed to keep plugins current | A single buss compressor won't cover channel-strip EQ duties | One trick — glue — versus a full channel strip
+[CONS_LE_3] channel-strip-plugins / FabFilter Total Bundle: 3 cons only: At $1,069 it's expensive — Pro-Q 4 alone costs $199 | Transparent by design, so it won't add console character | Most of the bundle sits unused if you only want dynamic EQ
+[TOO_SHORT] channel-strip-plugins / Universal Audio UAD Ultimate 14 / cons: At $999 it's a major investment
+[CONS_LE_3] channel-strip-plugins / Universal Audio UAD Ultimate 14: 3 cons only: At $999 it's a major investment | Best performance requires Apollo hardware or UAD-2 DSP | Over 100 plugins is daunting to learn
+

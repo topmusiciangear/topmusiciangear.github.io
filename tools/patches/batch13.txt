@@ -1,0 +1,602 @@
+# GUIDE: best-digital-pianos
+TITLE: Best Digital Pianos for Home & Studio
+TITLE_ES: Mejores Pianos Digitales para Hogar y Estudio
+VPC:
+
+[P] Yamaha P-225
+  P0: New Graded Hammer Compact (GHC) action with 88 weighted keys
+  P1: CFX concert grand engine with Virtual Resonance Modeling
+  P2: 192-note polyphony and Bluetooth audio for streaming and app lessons
+  P3: Slimmer and lighter (27.3 lb) than the outgoing P-125
+  PE0: Nueva acción Graded Hammer Compact (GHC) con 88 teclas contrapesadas
+  PE1: Motor del piano de concierto CFX con Virtual Resonance Modeling
+  PE2: Polifonía de 192 notas y Bluetooth audio para streaming y lecciones con app
+  PE3: Más delgado y ligero (12,4 kg) que el anterior P-125
+  C0: La acción GHC es un paso por debajo de la PHA-4 Standard del FP-30X en realismo
+  C1: Solo 24 voces y grabador de 2 pistas frente a las 35 voces + USB audio del FP-30X
+  C2: Bluetooth es solo audio — sin MIDI inalámbrico como el FP-30X
+  C3: Aun necesita un soporte o mesa: no es un mueble listo para el hogar
+  CE0: La acción GHC es un paso por debajo de la PHA-4 Standard del FP-30X en realismo
+  CE1: Solo 24 voces y grabador de 2 pistas frente a las 35 voces + USB audio del FP-30X
+  CE2: Bluetooth es solo audio — sin MIDI inalámbrico como el FP-30X
+  CE3: Aun necesita un soporte o mesa: no es un mueble listo para el hogar
+
+[P] Roland FP-30X
+  P0: PHA-4 Standard action with escapement feels closest to a grand piano in its class
+  P1: SuperNATURAL piano engine responds expressively to touch
+  P2: Bluetooth audio AND MIDI for wireless app and streaming use
+  P3: Surprisingly powerful built-in speakers for home practice
+  PE0: Acción PHA-4 Standard con escapement: la más cercana a un piano de cola en su clase
+  PE1: El motor SuperNATURAL responde con expresividad al tacto
+  PE2: Bluetooth audio Y MIDI para apps y streaming sin cables
+  PE3: Altavoces integrados sorprendentemente potentes para practicar en casa
+  C0: $799 es $100 más que la P-225 para compradores de entrada
+  C1: 31.5 lb — más pesado que la P-225
+  C2: 35 voces están bien para practicar pero son limitadas para capas serias
+  C3: Sin salidas de línea dedicadas para conectar a una PA sin adaptadores
+  CE0: $799 es $100 más que la P-225 para compradores de entrada
+  CE1: 14,3 kg — más pesado que la P-225
+  CE2: 35 voces están bien para practicar pero son limitadas para capas serias
+  CE3: Sin salidas de línea dedicadas para conectar a una PA sin adaptadores
+
+[P] Nord Stage 4 88
+  P0: Virtual Hammer Action TP/100 keybed feels closer to a grand than any prior Nord
+  P1: Layer section blends acoustic pianos, synth pads and organs seamlessly
+  P2: Legendary Nord sample library — the stage and studio standard
+  P3: 3 FX per section plus master, with XLR outputs and USB/MIDI for pro rigs
+  PE0: El teclado Virtual Hammer Action TP/100 se siente más cercano a un piano de cola que cualquier Nord anterior
+  PE1: La sección Layer mezcla pianos acústicos, pads de synth y órganos sin fisuras
+  PE2: Legendaria biblioteca de samples Nord — el estándar de escenario y estudio
+  PE3: 3 FX por sección más master, con salidas XLR y USB/MIDI para rigs profesionales
+  C0: $4,999 es una inversión de nivel pro frente a las opciones domésticas de $699-$799
+  C1: 44 lb — una maleta de vuelo es obligatoria
+  C2: El secuenciador integrado no tiene timeline de DAW (solo sections)
+  C3: Excesivo para practicar en casa: el FP-30X cubre el 90% de las necesidades por ~1/6 del precio
+  CE0: $4.999 es una inversión de nivel pro frente a las opciones domésticas de $699-$799
+  CE1: 20 kg — una maleta de vuelo es obligatoria
+  CE2: El secuenciador integrado no tiene timeline de DAW (solo sections)
+  CE3: Excesivo para practicar en casa: el FP-30X cubre el 90% de las necesidades por ~1/6 del precio
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Affordable weighted-key piano ~ Piano con teclas con peso asequible | Realistic piano touch for home ~ Toque de piano realista para casa | Pro stage piano & synth workstation ~ Piano de escenario y workstation profesional
+  PT[Type/Tipo]: Digital piano ~ Piano digital | Digital piano ~ Piano digital | Stage keyboard ~ Teclado de escenario
+  PT[Keys/Teclas]: 88 GHC weighted ~ 88 GHC con peso | 88 PHA-4 Standard ~ 88 PHA-4 Standard | 88 hammer action ~ 88 martillo
+  PT[Sound Engine/Motor de Sonido]: CFX + Bosendorfer samples ~ Muestras CFX + Bösendorfer | SuperNATURAL Piano ~ SuperNATURAL Piano | Piano + Sample Synth + FM/VA ~ Piano + Sample Synth + FM/VA
+  PT[Polyphony/Polifonía]: 192 ~ 192 | 192 ~ 192 | 100+ (3 engines) ~ 100+ (3 motores)
+  PT[Effects/Efectos]: Reverb, damper resonance ~ Reverb, resonancia de sustain | Reverb, headphone 3D ~ Reverb, auriculares 3D | 3 FX per section + master ~ 3 FX por sección + master
+  PT[Presets/Presets]: 24 voices ~ 24 voces | 35 voices ~ 35 voces | Large program library ~ Gran biblioteca de programas
+  PT[Sequencer/Secuenciador]: Recorder (2-track) ~ Grabador (2 pistas) | Recorder + USB audio/MIDI ~ Grabador + audio/MIDI USB | Yes (sections, no DAW timeline) ~ Sí (sections, sin timeline de DAW)
+  PT[Connectivity/Conectividad]: USB, headphone, sustain ~ USB, auriculares, sustain | USB, Bluetooth MIDI/audio ~ USB, Bluetooth MIDI/audio | MIDI, USB, XLR outputs ~ MIDI, USB, salidas XLR
+  PT[Weight/Peso]: 27.3 lb (12.4 kg) ~ 12,4 kg | 31.5 lb (14.3 kg) ~ 14,3 kg | 44 lb (20 kg) ~ 20 kg
+  PT[Price/Precio]: $699 ~ $699 | $799 ~ $799 | $4,999 ~ $4.999
+
+AUDIT_FLAGS:
+[TOO_SHORT] best-digital-pianos / Roland FP-30X / cons: 31.5 lb — más pesado que la P-225
+
+# GUIDE: best-synthesizers
+TITLE: Best Synthesizers for Music Production
+TITLE_ES: Mejores Sintetizadores para Producción Musical
+VPC:
+
+[P] Korg Minilogue XD
+  P0: 4-voice true analog architecture with a multi-engine digital oscillator
+  P1: Built-in programmable delay, reverb and modulation effects
+  P2: 16-step sequencer and 200 programs in a 6.4 lb package
+  P3: Open-source logue SDK for custom oscillators and effects
+  PE0: Arquitectura analógica real de 4 voces con un oscilador digital multi-motor
+  PE1: Efectos programables de delay, reverb y modulación integrados
+  PE2: Secuenciador de 16 pasos y 200 programas en un equipo de 2,9 kg
+  PE3: SDK logue de código abierto para osciladores y efectos personalizados
+  C0: 4 voces se quedan cortas rápido para acordes grandes o pads de larga cola
+  C1: Solo 37 teclas limitan el trabajo a dos manos
+  C2: 2 osciladores analógicos más motor digital suenan híbridos, no puramente analógicos
+  C3: Sin batería — solo con corriente
+  CE0: 4 voces se quedan cortas rápido para acordes grandes o pads de larga cola
+  CE1: Solo 37 teclas limitan el trabajo a dos manos
+  CE2: 2 osciladores analógicos más motor digital suenan híbridos, no puramente analógicos
+  CE3: Sin batería — solo con corriente
+
+[P] Moog Subsequent 37
+  P0: Moog's iconic ladder filter — the sound of countless classic records
+  P1: Dual oscillators with mixer; paraphonic mode for 2-note chords
+  P2: New compressor and improved headroom over its predecessor
+  P3: 256 presets, step sequencer and arpeggiator on 37 full-size keys
+  PE0: El icónico filtro ladder de Moog — el sonido de innumerables discos clásicos
+  PE1: Osciladores dobles con mixer; modo parafónico para acordes de 2 notas
+  PE2: Nuevo compresor y mayor headroom que su predecesor
+  PE3: 256 presets, secuenciador por pasos y arpegiador en 37 teclas de tamaño completo
+  C0: $1,499 por un sintetizador mono/parafónico — los pads polifónicos necesitan otro equipo
+  C1: 15.4 lb y 37 teclas — pesado para su conjunto de funciones compactas
+  C2: Una sola voz no hace acordes más allá del parafónico de 2 notas
+  C3: Sin efectos integrados más allá del drive y la modulación de filtro
+  CE0: $1.499 por un sintetizador mono/parafónico — los pads polifónicos necesitan otro equipo
+  CE1: 7 kg y 37 teclas — pesado para su conjunto de funciones compactas
+  CE2: Una sola voz no hace acordes más allá del parafónico de 2 notas
+  CE3: Sin efectos integrados más allá del drive y la modulación de filtro
+
+[P] Yamaha Montage M8x
+  P0: AN-X virtual analog plus FM-X digital engines in one workstation
+  P1: Grand Touch 88-key weighted action — Yamaha's best keybed
+  P2: Motion Control Synthesis blends engines for sounds no other keyboard makes
+  P3: 128 + 128 (FM) polyphony, thousands of presets and a 16-track sequencer
+  PE0: Motores AN-X de analógico virtual y FM-X digital en una sola workstation
+  PE1: Acción contrapesada Grand Touch de 88 teclas — el mejor teclado de Yamaha
+  PE2: Motion Control Synthesis combina motores para sonidos que ningún otro teclado hace
+  PE3: Polifonía de 128 + 128 (FM), miles de presets y secuenciador de 16 pistas
+  C0: $4,699 — la elección más cara y un compromiso serio
+  C1: 63.9 lb — un teclado pesado para tocar en vivo o para casa
+  C2: Curva de aprendizaje profunda para Motion Control y la edición FM-X
+  C3: Más workstation que synth — quien produce con DAW puede infrautilizarlo
+  CE0: $4.699 — la elección más cara y un compromiso serio
+  CE1: 29 kg — un teclado pesado para tocar en vivo o para casa
+  CE2: Curva de aprendizaje profunda para Motion Control y la edición FM-X
+  CE3: Más workstation que synth — quien produce con DAW puede infrautilizarlo
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Analog poly synth on a budget ~ Synth polifónico analógico económico | Fat mono analog bass & leads ~ Bajos y leads analógicos mono gordos | Flagship synth workstation ~ Workstation de sintetizadores tope de gama | Huge analog poly for pads & leads ~ Polifonía analógica enorme para pads y leads
+  PT[Type/Tipo]: Analog synth ~ Sintetizador analógico | Analog synth (mono) ~ Sintetizador analógico (mono) | Synth workstation ~ Workstation de sintetizadores | Analog synth ~ Sintetizador analógico
+  PT[Keys/Teclas]: 37 keys ~ 37 teclas | 37 keys (44 slim keys) ~ 37 teclas (44 finas) | 88 weighted action ~ 88 con peso | 49 keys ~ 49 teclas
+  PT[Sound Engine/Motor de Sonido]: 2 osc analog + digital FX ~ 2 osc analógicos + FX digitales | 2 osc analog, ladder filter ~ 2 osc analógicos, filtro ladder | AWM2 + AN-X + FM-X ~ AWM2 + AN-X + FM-X | 2 osc SEM analog ~ 2 osc SEM analógicos
+  PT[Polyphony/Polifonía]: 4 voices ~ 4 voces | Mono/paraphonic ~ Mono/parafónico | 128 + 128 (FM) ~ 128 + 128 (FM) | 6 voices ~ 6 voces
+  PT[Effects/Efectos]: Built-in delay, reverb, mod ~ Delay, reverb y mod integrados | Drive, filter mod ~ Drive, mod de filtro | FX blocks per part ~ Bloques FX por parte | LFO mod, no internal FX ~ Mod LFO, sin FX internos
+  PT[Presets/Presets]: 200 programs ~ 200 programas | 256 presets ~ 256 presets | Thousands of presets ~ Miles de presets | 600 presets ~ 600 presets
+  PT[Sequencer/Secuenciador]: 16-step sequencer ~ Secuenciador de 16 pasos | Step sequencer + arpeggiator ~ Secuenciador por pasos + arpegiador | Yes, 16-track pattern sequencer ~ Sí, secuenciador de 16 pistas | Arpeggiator ~ Arpegiador
+  PT[Connectivity/Conectividad]: MIDI, USB, sync ~ MIDI, USB, sync | MIDI, CV, USB ~ MIDI, CV, USB | MIDI, USB, 2x assignable out ~ MIDI, USB, 2 salidas asignables | MIDI, CV, USB ~ MIDI, CV, USB
+  PT[Weight/Peso]: 6.4 lb (2.9 kg) ~ 2,9 kg | 15.4 lb (7 kg) ~ 7 kg | 63.9 lb (29 kg) ~ 29 kg | 21.8 lb (9.9 kg) ~ 9,9 kg
+  PT[Price/Precio]: $699 ~ $699 | $1,499 ~ $1.499 | $4,699 ~ $4.699 | $3,499 ~ $3.499
+
+AUDIT_FLAGS:
+[TOO_SHORT] best-synthesizers / Korg Minilogue XD / cons: Sin batería — solo con corriente
+
+# GUIDE: best-compact-mixers
+TITLE: Best Compact Mixers for Bands & Home Studios
+TITLE_ES: Mejores Mezcladores Compactos para Bandas y Home Studios
+VPC:
+
+[P] Yamaha MG10XU
+  P0: At 9.6 x 2.8 x 11.6 inches and 4.6 lb it fits almost anywhere
+  P1: 10 channels with 4 D-PRE preamps and SPX effects for $199
+  P2: One-knob compressors polish vocals and bass fast
+  P3: USB interface records directly to a laptop
+  PE0: Con 24.4 x 7.1 x 29.4 cm y 2.1 kg cabe en casi cualquier sitio
+  PE1: 10 canales con 4 preamps D-PRE y efectos SPX por $199
+  PE2: Los compresores one-knob pulen voces y bajos rápidamente
+  PE3: La interfaz USB graba directamente a un portátil
+  C0: Only 4 mic preamps mean a full band needs an external expander
+  C1: 2-in/2-out USB means no multi-track capture
+  C2: No Bluetooth for wireless backing-track playback
+  C3: SPX effects are serviceable but not as rich as the GigFX engine
+  CE0: Solo 4 preamps de micrófono obligan a un expansor externo para banda completa
+  CE1: El USB 2x2 no permite captura multitrack
+  CE2: Sin Bluetooth para reproducir pistas de acompañamiento inalámbricamente
+  CE3: Los efectos SPX cumplen pero no son tan ricos como el motor GigFX
+
+[P] Mackie ProFX12v3
+  P0: Band-ready 12 channels in a portable 7.9 lb (3.6 kg) frame
+  P1: 7 Onyx preamps and the GigFX 24-effect engine
+  P2: Built-in compression, 3-band EQ, and 24-bit/192kHz USB
+  P3: Bluetooth input streams backing tracks without cables
+  PE0: 12 canales listos para banda en un chasis portátil de 3.6 kg
+  PE1: 7 preamps Onyx y el motor GigFX con 24 efectos
+  PE2: Compresión integrada, EQ de 3 bandas y USB de 24-bit/192kHz
+  PE3: La entrada Bluetooth reproduce pistas de acompañamiento sin cables
+  C0: No digital recall or scene saving — analog-only workflow
+  C1: Channel count still caps larger multi-mic productions
+  C2: At $379 it is the priciest analog option in this guide
+  C3: Effects share a single send layout across all channels
+  CE0: Sin recall digital ni guardado de escenas — flujo de trabajo solo analógico
+  CE1: El número de canales sigue limitando producciones con más micros
+  CE2: A $379 es la opción analógica más cara de esta guía
+  CE3: Los efectos comparten un solo layout de envíos entre todos los canales
+
+[P] Behringer X Air XR18
+  P0: Full digital mixing in a 3U rack-mount footprint
+  P1: 16 Midas preamps and 18x18 USB recording
+  P2: Control everything from an iPad or tablet with the free app
+  P3: 4 FX engines with Lexicon reverbs and delays
+  PE0: Mezcla digital completa en un formato de rack de 3U
+  PE1: 16 preamps Midas y grabación USB 18x18
+  PE2: Controla todo desde un iPad o tablet con la app gratuita
+  PE3: 4 motores FX con reverbs y delays Lexicon
+  C0: No physical faders — total reliance on a tablet app
+  C1: 18 input channels limit larger productions
+  C2: Wi-Fi adds a possible point of failure at gigs
+  C3: Scenes and routing take time to set up correctly
+  CE0: Sin faders físicos — dependencia total de una app de tablet
+  CE1: 18 canales de entrada limitan producciones más grandes
+  CE2: El Wi-Fi añade un posible punto de fallo en los conciertos
+  CE3: Las escenas y el routing llevan tiempo configurarlos bien
+
+[P] Allen & Heath CQ-18T
+  P0: Most portable full-featured digital mixer at 6.6 lb (3 kg)
+  P1: 7-inch touchscreen with smart gain, feedback, and FX assistants
+  P2: 96kHz processing and 16 preamps in a backpack format
+  P3: Wi-Fi, Bluetooth, and SD/USB multitrack recording
+  PE0: El mezclador digital completo más portátil con solo 3 kg
+  PE1: Pantalla táctil de 7 pulgadas con asistentes inteligentes de ganancia, acoples y FX
+  PE2: Procesamiento a 96kHz y 16 preamps en formato mochila
+  PE3: Wi-Fi, Bluetooth y grabación multitrack SD/USB
+  C0: The $1,199 price is a premium for portability
+  C1: 18 channels cap bigger input needs
+  C2: Touchscreen control can be fiddly in bright outdoor light
+  C3: Smart assistants reduce the hands-on control of a full console
+  CE0: Los $1,199 son un precio premium por la portabilidad
+  CE1: 18 canales limitan necesidades de más entradas
+  CE2: El control táctil puede ser complicado con luz exterior intensa
+  CE3: Los asistentes inteligentes reducen el control manual de una consola completa
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Simple analog mixer with FX ~ Mesa analógica sencilla con FX | Affordable analog with FX for gigs ~ Analógica económica con FX para directo | Full digital rack mixer you control with a tablet ~ Mesa digital de rack controlada por tablet | Easy-to-use digital mixer for new bands ~ Mesa digital fácil de usar para bandas nuevas
+  PT[Type/Tipo]: Analog mixer ~ Mesa analógica | Analog mixer ~ Mesa analógica | Digital rack mixer ~ Mesa digital de rack | Digital mixer ~ Mesa digital
+  PT[Channels/Canales]: 10 (6 mic) ~ 10 (6 mic) | 12 (8 mic) ~ 12 (8 mic) | 18 (16 preamps) ~ 18 (16 preamps) | 18 (16 preamps) ~ 18 (16 preamps)
+  PT[Preamps/Preamplificadores]: 6 D-PRE ~ 6 D-PRE | 8 Onyx ~ 8 Onyx | 16 MIDAS ~ 16 MIDAS | 16 A&H ~ 16 A&H
+  PT[EQ/EQ]: 3-band per channel ~ 3 bandas por canal | 3-band per channel ~ 3 bandas por canal | 4-band parametric ~ 4 bandas paramétrico | 4-band parametric ~ 4 bandas paramétrico
+  PT[Aux Sends/Envíos Aux]: 2 aux sends ~ 2 envíos aux | 2 aux sends ~ 2 envíos aux | 6 aux buses ~ 6 buses aux | 6 aux sends ~ 6 envíos aux
+  PT[Built-in FX/FX Integrados]: SPX digital FX ~ FX digital SPX | GigFX 24-bit ~ GigFX 24 bits | 4 FX engines ~ 4 motores FX | Built-in FX + automix ~ FX integrados + automix
+  PT[Connectivity/Conectividad]: USB, 2 groups ~ USB, 2 grupos | USB, Bluetooth ~ USB, Bluetooth | Wi-Fi, USB, 6 aux ~ Wi-Fi, USB, 6 aux | USB, Wi-Fi, app control ~ USB, Wi-Fi, control por app
+  PT[Weight/Peso]: 4.6 lb (2.1 kg) ~ 2,1 kg | 7.9 lb (3.6 kg) ~ 3,6 kg | 10.4 lb (4.7 kg) ~ 4,7 kg | 6.6 lb (3 kg) ~ 3 kg
+  PT[Price/Precio]: $199 ~ $199 | $379 ~ $379 | $485 ~ $485 | $1,199 ~ $1.199
+
+AUDIT_FLAGS:
+[TOO_SHORT] best-compact-mixers / Allen & Heath CQ-18T / cons: 18 channels cap bigger input needs
+
+# GUIDE: fender-bass-guide
+TITLE: Best Fender Basses for Every Genre
+TITLE_ES: Los Mejores Bajos Fender para Cada Género
+VPC:
+
+[P] Fender Player Precision Bass
+  P0: Legendary split-coil P tone that sits perfectly in any mix
+  P1: Thick, mid-forward punch for rock, punk, Motown, and country
+  P2: Solid C-shape neck ideal for driving grooves and fingerstyle
+  P3: At $899 it delivers iconic Fender tone at a working-player price
+  PE0: Legendario tono P de split-coil que se asienta perfectamente en cualquier mezcla
+  PE1: Golpe grueso y presente en medios para rock, punk, Motown y country
+  PE2: Mástil C-shape sólido ideal para grooves con fuerza y fingerstyle
+  PE3: A $899 ofrece el tono icónico Fender a precio de músico trabajador
+  C0: Single-pickup design limits tonal variety vs a J-Bass
+  C1: The wider 1.625-inch nut may feel bulky for small hands
+  C2: No active electronics or noise-canceling circuit
+  C3: The American Pro II adds a sculpted heel and V-Mod II punch
+  CE0: El diseño de una sola pastilla limita la variedad tonal frente a un J-Bass
+  CE1: La cejilla más ancha de 1.625 pulgadas puede sentirse voluminosa para manos pequeñas
+  CE2: Sin electrónica activa ni circuito antirruido
+  CE3: El American Pro II añade talón esculpido y punch V-Mod II
+
+[P] Fender Player Jazz Bass
+  P0: Dual single-coils blend from warm neck to aggressive bridge tones
+  P1: Slim 1.5-inch tapered neck makes fast runs and slap effortless
+  P2: Articulate midrange cuts through horns and percussion
+  P3: At $899 it is the most versatile Fender bass at a fair price
+  PE0: Dos single-coils que mezclan desde tonos cálidos de mástil hasta mordiente de puente
+  PE1: El mástil cónico de 1.5 pulgadas hace fáciles los runs rápidos y el slap
+  PE2: El medio articulado corta a través de vientos y percusión
+  PE3: A $899 es el Fender más versátil a un precio justo
+  C0: Single-coils can hum in high-noise environments
+  C1: Passive electronics lack the punch of active preamps
+  C2: Some players prefer the chunkier P-Bass neck feel
+  C3: The American Pro II adds rolled edges and V-Mod II refinement
+  CE0: Las single-coils pueden zumbar en entornos con mucho ruido
+  CE1: La electrónica pasiva no tiene el golpe de los preamps activos
+  CE2: Algunos músicos prefieren la sensación más robusta del mástil P-Bass
+  CE3: El American Pro II añade bordes redondeados y refinamiento V-Mod II
+
+[P] Fender American Professional II Precision Bass
+  P0: V-Mod II split-coil delivers richer harmonics and more punch
+  P1: Rounded body contours and rolled fingerboard edges for all-day comfort
+  P2: Treble bleed circuit keeps clarity when rolling back volume
+  P3: Premium USA fit and finish for working professionals
+  PE0: El split-coil V-Mod II ofrece armónicos más ricos y más punch
+  PE1: Contornos redondeados y bordes de diapasón pulidos para comodidad todo el día
+  PE2: El circuito treble bleed mantiene la claridad al bajar el volumen
+  PE3: Acabado y construcción USA premium para profesionales en activo
+  C0: At $1,599 it is roughly double the Player series
+  C1: The single split-coil voice still lacks J-Bass versatility
+  C2: No active EQ for tone shaping on stage
+  C3: For a first bass, the Player P delivers 80% at half the price
+  CE0: A $1,599 cuesta aproximadamente el doble que la serie Player
+  CE1: La voz de split-coil único sigue sin la versatilidad de un J-Bass
+  CE2: Sin EQ activo para moldear el tono en directo
+  CE3: Para un primer bajo, el Player P rinde un 80% a la mitad de precio
+
+[P] Fender American Professional II Jazz Bass
+  P0: V-Mod II single-coils deliver the richest, most expressive J tone ever
+  P1: Slim-taper neck with rolled edges makes tumbaos and solos effortless
+  P2: Treble bleed maintains sparkling highs when rolling back volume
+  P3: Posiflex graphite rods keep the neck stable on tour
+  PE0: Las single-coils V-Mod II ofrecen el tono J más rico y expresivo jamás creado
+  PE1: El mástil slim-taper con bordes pulidos hace fáciles los tumbaos y solos
+  PE2: El treble bleed mantiene agudos brillantes al bajar el volumen
+  PE3: Las varillas Posiflex de grafito mantienen el mástil estable en gira
+  C0: The $1,599 price is a premium over the Player Jazz Bass
+  C1: Single-coil design still picks up hum in noisy rooms
+  C2: No active electronics for modern high-output tones
+  C3: It is a genre specialist, not a one-bass-does-all pick
+  CE0: Los $1,599 son un precio premium sobre el Player Jazz Bass
+  CE1: El diseño single-coil sigue captando zumbido en salas ruidosas
+  CE2: Sin electrónica activa para tonos modernos de alta salida
+  CE3: Es un especialista por género, no un bajo que lo haga todo
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Thick, punchy vintage Precision tone ~ Sonido Precision vintage grueso y punzante | Snappy, articulate Jazz bass ~ Bajo Jazz articulado y brillante | Pro P bass with V-Mod II punch ~ P bass pro con punch V-Mod II | Pro J bass with modern feel ~ J bass pro con tacto moderno
+  PT[Body Wood/Madera del Cuerpo]: Alder ~ Aliso | Alder ~ Aliso | Alder ~ Aliso | Alder ~ Aliso
+  PT[Neck/Mástil]: Maple, 20 frets ~ Arce, 20 trastes | Maple, 20 frets ~ Arce, 20 trastes | Deep C, 20 frets ~ Deep C, 20 trastes | Deep C, 20 frets ~ Deep C, 20 trastes
+  PT[Frets & Fretboard/Trastes y Diapasón]: 20, maple ~ 20, arce | 20, maple ~ 20, arce | 20, maple ~ 20, arce | 20, maple ~ 20, arce
+  PT[Pickups/Pastillas]: Player split coil P ~ Split coil P Player | 2x Player Alnico 5 J ~ 2x Player Alnico 5 J | V-Mod II split coil ~ Split coil V-Mod II | 2x V-Mod II J single coils ~ 2x singles V-Mod II J
+  PT[Active/Passive/Activo/Pasivo]: Passive ~ Pasivo | Passive ~ Pasivo | Passive ~ Pasivo | Passive ~ Pasivo
+  PT[Scale Length/Longitud de Escala]: 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm) | 34 in (864 mm) ~ 34" (864 mm)
+  PT[Electronics/Electrónica]: Volume, tone ~ Volumen, tono | 2x volume, tone ~ 2x volumen, tono | Volume, tone (Greasebucket) ~ Volumen, tono (Greasebucket) | 2x volume, tone ~ 2x volumen, tono
+  PT[Tuners/Clavijas]: Fender ~ Fender | Fender ~ Fender | Fender ~ Fender | Fender ~ Fender
+  PT[Weight/Peso]: 8.3 lb (3.8 kg) ~ 3,8 kg | 8.2 lb (3.7 kg) ~ 3,7 kg | 8.4 lb (3.8 kg) ~ 3,8 kg | 8.3 lb (3.8 kg) ~ 3,8 kg
+  PT[Price/Precio]: $899 ~ $899 | $899 ~ $899 | $1,599 ~ $1.599 | $1,599 ~ $1.599
+
+AUDIT_FLAGS:
+[GENERIC] fender-bass-guide / Fender Player Precision Bass / pros: Solid C-shape neck ideal for driving grooves and fingerstyle
+
+# GUIDE: ableton-vs-logic
+TITLE: Ableton Live vs Logic Pro: Best DAW on a Mac?
+TITLE_ES: Ableton Live vs Logic Pro: ¿Mejor DAW para Mac?
+FS_SPECS:
+  [undefined / Tipo]: DAW || DAW
+  [undefined / Precio]: $799 || $199
+  [undefined / Plataforma]: Windows + Mac || Mac only
+  [undefined / Enfoque Principal]: Electronic, live performance || Recording, mixing, production
+  [undefined / Instrumentos Incluidos]: Wavetable, Operator, Analog, Collision + Max for Live || Alchemy, Retro Synth, Sculpture, Studio Piano/Bass + Session Players
+  [undefined / Complementos]: VST, AU, AAX || AU only
+COMPARISON:
+  [Year / Año]: 2024 (Live 12) || 2026 (Logic 12)
+  [Pricing Model / Modelo de Precio]: Tiers (Intro $99 / Standard $349 / Suite $799) || One-time $199, updates included
+  [Best For / Ideal Para]: Electronic music, live performance || Recording, mixing, songwriting
+  [Max Track Count / Pistas Máx.]: Unlimited || Unlimited (1,000+ audio)
+  [Max Sample Rate / Tasa de Muestreo Máx.]: 192 kHz || 192 kHz
+  [Score / Notation / Editor de Partituras]: No || Yes (built-in)
+  [Built-in Synths / Sintetizadores Incluidos]: Wavetable, Analog, Operator, Collision + M4L || Alchemy, Retro Synth, Sculpture + Session Players
+  [Included Sounds / Sonidos Incluidos]: 70+ GB, thousands of loops & samples || 10,000+ Apple Loops + complete instrument library
+  [Platform / Plataforma]: Windows + Mac || Mac only (Apple Silicon)
+  [Plugin Format / Formatos de Plugin]: VST, AU (no AAX) || AU only
+  [Live Performance / Performance en Vivo]: Built for it || Limited
+  [Dolby Atmos / Dolby Atmos]: Third-party only || Built-in
+  [Max for Live / Max for Live]: Included (Suite) || Not available
+  [Price / Precio]: $799 (Suite) || $199
+VPC:
+
+[P] Ableton Live 12 Suite
+  P0: Session View is the most powerful non-linear production environment — unique clip launching, scene triggering, and real-time arrangement that no other DAW matches for live performance
+  P1: Warping engine is the industry standard for time-stretching audio — unmatched algorithms for stretching beats, vocals, and full tracks to any tempo without artifacts
+  P2: Max for Live provides a visual programming environment that lets you build custom instruments, effects, and MIDI tools — an infinite library of user-created extensions
+  P3: Cross-platform compatibility with Windows and Mac — essential for collaboration across operating systems and for producers who don't use Apple hardware
+  P4: Push 3 hardware integration creates a seamless instrument-DAW experience with hands-on control that nothing in Logic's ecosystem matches
+  PE0: La Vista Session es el entorno de producción no lineal más potente — lanzamiento de clips, activación de escenas y arreglo en tiempo real que ningún otro DAW iguala para performance en vivo
+  PE1: El motor Warping es el estándar de la industria para time-stretching de audio — algoritmos inigualables para estirar beats, voces y pistas completas a cualquier tempo sin artefactos
+  PE2: Max for Live proporciona un entorno de programación visual que te permite construir instrumentos, efectos y herramientas MIDI personalizados — una biblioteca infinita de extensiones creadas por usuarios
+  PE3: Compatibilidad multiplataforma con Windows y Mac — esencial para colaboración entre sistemas operativos y para productores que no usan hardware Apple
+  PE4: La integración con hardware Push 3 crea una experiencia seamless instrumento-DAW con control práctico que nada en el ecosistema de Logic iguala
+  C0: High price point at $799 for Suite — significantly more expensive than Logic Pro ($199) for the full-featured version, though cheaper Intro and Standard tiers are available
+  C1: Steep learning curve for Session View and warping workflows — new users accustomed to traditional linear DAWs may find the non-linear approach initially disorienting
+  C2: No integrated notation or score editing — composers who work with sheet music or orchestral arrangements will need a separate notation application like Dorico or Sibelius
+  C3: Built-in instrument library is strong but smaller than Logic's — you'll likely want to supplement with third-party instruments like Kontakt, Serum, or Omnisphere for comprehensive production
+  CE0: Precio alto de $799 para Suite — significativamente más caro que Logic Pro ($199) para la versión completa, aunque hay niveles Intro y Standard más económicos disponibles
+  CE1: Curva de aprendizaje pronunciada para la Vista Session y los flujos de trabajo de warping — los nuevos usuarios acostumbrados a DAWs lineales tradicionales pueden encontrar el enfoque no lineal inicialmente desorientador
+  CE2: Sin notación musical integrada ni edición de partituras — los compositores que trabajan con partituras o arreglos orquestales necesitarán una aplicación de notación separada como Dorico o Sibelius
+  CE3: La biblioteca de instrumentos integrada es sólida pero más pequeña que la de Logic — probablemente querrás complementar con instrumentos de terceros como Kontakt, Serum u Omnisphere
+
+[P] Logic Pro
+  P0: Unbeatable value at $199 — one-time purchase with free major updates includes the most comprehensive instrument library of any DAW, including Alchemy, Session Players, and 10,000+ Apple Loops
+  P1: AI Session Players (Drummer, Keyboard, Bass) are genuinely useful for songwriting — they follow your chords and adjust their performance dynamically, with no equivalent in Ableton Live
+  P2: Best-in-class recording and editing workflow for live instruments — comp track folders, Flex Time and Flex Pitch editing, and the most intuitive audio quantize system available
+  P3: Dolby Atmos mixing built-in at no extra cost — spatial audio production that normally requires expensive additional software or hardware upgrades in other DAWs
+  P4: Included mastering tools with Stem Splitter, ChromaGlow saturation, and the Mastering Assistant — a complete recording-to-mastering pipeline without any additional purchases
+  PE0: Valor inmejorable a $199 — compra única con actualizaciones mayores gratuitas incluye la biblioteca de instrumentos más completa de cualquier DAW, incluyendo Alchemy, Session Players y más de 10,000 Apple Loops
+  PE1: Los AI Session Players (Drummer, Keyboard, Bass) son genuinamente útiles para composición — siguen tus acordes y ajustan su interpretación dinámicamente, sin equivalente en Ableton Live
+  PE2: Flujo de trabajo de grabación y edición de primera clase para instrumentos en vivo — carpetas de comp pistas, edición Flex Time y Flex Pitch, y el sistema de cuantización de audio más intuitivo disponible
+  PE3: Mezcla Dolby Atmos incorporada sin costo adicional — producción de audio espacial que normalmente requiere costosas actualizaciones de software o hardware adicional en otros DAWs
+  PE4: Herramientas de masterización incluidas con Stem Splitter, saturación ChromaGlow y Mastering Assistant — un pipeline completo de grabación a masterización sin compras adicionales
+  C0: Mac-only — Windows and Linux users cannot run Logic Pro at all, making it an automatic exclusion for anyone not in the Apple ecosystem
+  C1: Linear timeline workflow is less suited to electronic music production and live performance — Live Loops bridge the gap but lack the depth of Ableton's Session View
+  C2: No official hardware controller designed specifically for Logic — while it works with any MIDI controller, it lacks a dedicated integrated hardware experience like Ableton's Push
+  C3: Third-party plugin and instrument support is excellent on Mac, but some Windows-only plugins (certain VSTs) are unavailable in Logic's AU-only format
+  CE0: Solo para Mac — los usuarios de Windows y Linux no pueden ejecutar Logic Pro en absoluto, lo que lo excluye automáticamente para cualquier persona fuera del ecosistema Apple
+  CE1: El flujo de trabajo de línea de tiempo lineal es menos adecuado para la producción de música electrónica y performance en vivo — Live Loops cierra la brecha pero carece de la profundidad de la Vista Session de Ableton
+  CE2: Sin controlador de hardware oficial diseñado específicamente para Logic — aunque funciona con cualquier controlador MIDI, carece de una experiencia de hardware integrada dedicada como Push de Ableton
+  CE3: El soporte de plugins e instrumentos de terceros es excelente en Mac, pero algunos plugins solo para Windows (ciertos VSTs) no están disponibles en el formato solo AU de Logic
+
+AUDIT_FLAGS:
+[GENERIC] ableton-vs-logic / Logic Pro / cons: Third-party plugin and instrument support is excellent on Mac, but some Windows-only plugins (certain VSTs) are unavailable in Logic's AU-only format
+
+# GUIDE: pro-headphones
+TITLE: LCD-MX4 vs LCD-X: Audeze Pro Headphone Duel
+TITLE_ES: LCD-MX4 vs LCD-X: Duelo de Auriculares Pro de Audeze
+FS_SPECS:
+  [undefined / Tipo de Driver]: 106mm Planar Magnetic Double Fluxor || 106mm Planar Magnetic
+  [undefined / Respuesta en Frecuencia]: 10Hz-50kHz || 10Hz-50kHz
+  [undefined / Impedancia]: 20 ohms || 20 ohms
+COMPARISON:
+  [Year / Año]: 2018 || 2013 (updated 2021)
+  [Driver Type / Tipo de Driver]: 106mm Planar Magnetic Double Fluxor || 106mm Planar Magnetic
+  [Magnetic Structure / Estructura Magnética]: Double Fluxor™ (1.5 Tesla) || Proprietary magnet array
+  [Frequency Response / Respuesta en Frecuencia]: 10Hz – 50kHz || 10Hz – 50kHz
+  [Impedance / Impedancia]: 20 ohms || 20 ohms
+  [Sensitivity / Sensibilidad]: 105dB SPL/mW || 103dB SPL/mW
+  [Weight / Peso]: 575g || 612g
+  [Cable / Cable]: 1.9m single-ended 1/4" (6.3mm) || 1.9m 4-pin XLR with 1/4" adapter
+  [Origin / Origen]: USA (California) || USA (California)
+  [Type / Tipo]: Open-back || Open-back
+  [Earpad Material / Material de Almohadillas]: Premium leather || Premium leather or leather-free
+  [Replaceable Cable / Cable Reemplazable]: Yes (mini-XLR) || Yes (mini-XLR)
+  [Price / Precio]: $3,320 || $1,236
+VPC:
+
+[P] Audeze LCD-MX4
+  P0: Double Fluxor magnetic array delivers the most powerful magnetic circuit of any headphone — 1.5 Tesla
+  P1: Unmatched detail retrieval and bass control with 106mm planar magnetic drivers
+  P2: Lightweight magnesium chassis and carbon fiber suspension headband for exceptional comfort
+  P3: Most sensitive LCD model — effortless to drive from any interface, console, or device
+  P4: Neutral tuning with low distortion prevents listening fatigue during long sessions
+  PE0: El array magnético Double Fluxor ofrece el circuito magnético más potente de cualquier auricular — 1.5 Tesla
+  PE1: Recuperación de detalles y control de graves inigualables con drivers magnéticos planares de 106mm
+  PE2: Chasis ligero de magnesio y diadema de suspensión de fibra de carbono para comodidad excepcional
+  PE3: El modelo LCD más sensible — fácil de usar con cualquier interfaz, consola o dispositivo
+  PE4: Afinación neutral con baja distorsión que previene la fatiga auditiva durante sesiones largas
+  C0: Price of $3,320 makes it a significant investment
+  C1: Heavier than many dynamic driver alternatives at 575g
+  C2: Requires care with the magnesium and carbon fiber construction
+  C3: Limited availability compared to more mainstream models
+  CE0: El precio de $3,320 lo convierte en una inversión significativa
+  CE1: Más pesado que muchas alternativas de driver dinámico con 575g
+  CE2: Requiere cuidado con la construcción de magnesio y fibra de carbono
+  CE3: Disponibilidad limitada en comparación con modelos más convencionales
+
+[P] Audeze LCD-X
+  P0: Proven gold standard trusted by Grammy-winning engineers worldwide
+  P1: Exceptional clarity and transparency with ultra-low distortion
+  P2: Neutral tuning ensures excellent mix translation across systems
+  P3: Suspension headband provides even weight distribution for all-day comfort
+  P4: Highly efficient 20 ohm impedance works well with most devices
+  PE0: Estándar de oro probado, confiado por ingenieros ganadores del Grammy en todo el mundo
+  PE1: Claridad y transparencia excepcionales con distorsión ultrabaja
+  PE2: Afinación neutral que asegura excelente traducción de mezcla entre sistemas
+  PE3: Diadema de suspensión que distribuye el peso uniformemente para comodidad todo el día
+  PE4: Impedancia eficiente de 20 ohmios que funciona bien con la mayoría de dispositivos
+  C0: Heavier than many competitors at 612g (677g for older versions)
+  C1: Stock cable is adequate but not premium for this price range
+  C2: Planar magnetic drivers require careful handling
+  C3: Leather earpads may cause warmth during extended sessions
+  CE0: Más pesado que muchos competidores con 612g (677g para versiones anteriores)
+  CE1: El cable incluido es adecuado pero no premium para este rango de precio
+  CE2: Los drivers magnéticos planares requieren manejo cuidadoso
+  CE3: Las almohadillas de cuero pueden causar calor durante sesiones prolongadas
+
+AUDIT_FLAGS:
+[GENERIC] pro-headphones / Audeze LCD-X / pros: Neutral tuning ensures excellent mix translation across systems
+
+# GUIDE: pro-microphones
+TITLE: U 87 Ai vs LCT1040: Best Pro Condenser Mic?
+TITLE_ES: U 87 Ai vs LCT1040: ¿Mejor Micrófono Condensador Pro?
+FS_SPECS:
+  [undefined / Tipo]: FET condenser (solid-state) || Dual-circuit Tube/FET
+  [undefined / Patrones Polares]: Cardioid/Omni/Fig-8 || Omni/Wide Cardioid/Cardioid/Supercardioid/Fig-8
+  [undefined / Respuesta en Frecuencia]: 20Hz-20kHz || 20Hz-20kHz
+COMPARISON:
+  [Year / Año]: 1967 || 2023
+  [Type / Tipo]: FET condenser (solid-state) || Dual-circuit Tube/FET condenser
+  [Polar Patterns / Patrones Polares]: Cardioid, omni, figure-8 || Omni, Wide Cardioid, Cardioid, Supercardioid, Fig-8 (remote controlled)
+  [Diaphragm / Diafragma]: 1-inch gold-sputtered Mylar || 1-inch gold-sputtered condensers
+  [Frequency Response / Respuesta en Frecuencia]: 20Hz – 20kHz || 20Hz – 20kHz
+  [Self-Noise / Ruido Propio]: 14dB-A || 10dB-A (FET), 13dB-A (Tube)
+  [Max SPL / SPL Máximo]: 140dB (with pad) || 137dB (FET, 0dB atten)
+  [Power / Alimentación]: 48V phantom || Dedicated PSU + remote control
+  [Pad / Pad de Atenuación]: Yes (-10dB) || 0/-6/-12/-24dB (4 settings)
+  [Low-Cut Filter / Filtro Pasa Altos]: Yes (80Hz) || 40/80/120Hz (3 settings)
+  [Included Accessories / Accesorios Incluidos]: Shockmount, wooden case || Shock mount, pop filter, remote, mil-spec case, XLR cable
+  [Best For / Ideal Para]: The studio standard vocal || Tube/FET all-in-one studio
+  [Sensitivity / Sensibilidad]: 28 mV/Pa (cardioid) || 17.2 mV/Pa (–35.3 dBV/Pa)
+  [Price / Precio]: $3,599 || $3,499
+VPC:
+
+[P] Neumann U 87 Ai
+  P0: The undisputed industry standard — heard on more hit records than any other mic
+  P1: Three switchable polar patterns (cardioid, omni, figure-8) for maximum versatility
+  P2: Smooth, flattering top end that sounds musical on almost any source
+  P3: Excellent build quality — built to last decades in professional use
+  P4: 10dB pad and low-cut filter for handling high SPL sources
+  PE0: El estándar de la industria indiscutible — escuchado en más éxitos que cualquier otro micrófono
+  PE1: Tres patrones polares seleccionables (cardioide, omni, figura-8) para máxima versatilidad
+  PE2: Agudos suaves y favorecedores que suenan musicales en casi cualquier fuente
+  PE3: Excelente calidad de construcción — hecho para durar décadas en uso profesional
+  PE4: Pad de 10dB y filtro de corte de graves para fuentes de alto SPL
+  C0: More affordable than the LCT1040 at $3,599 but still a significant investment
+  C1: Transformerless output lacks the warmth of tube designs like the LCT1040
+  C2: Heavier than many modern condenser microphones
+  C3: Requires external shockmount and pop filter for optimal results
+  CE0: Más asequible que el LCT1040 a $3,599 pero sigue siendo una inversión significativa
+  CE1: La salida sin transformador carece de la calidez de los diseños de tubo como el LCT1040
+  CE2: Más pesado que muchos micrófonos de condensador modernos
+  CE3: Requiere soporte antigolpes y filtro pop externos para resultados óptimos
+
+[P] Lewitt LCT1040 Ultimate Microphone System
+  P0: Revolutionary dual-circuit design — tube warmth and FET clarity in one microphone
+  P1: Four all-analog tube modes (Clear, Warm, Dark, Saturated) for endless tonal options
+  P2: Seamless blend between tube and FET circuits for unique hybrid tones
+  P3: Five polar patterns selectable via remote control — most versatile in its class
+  P4: Complete premium package: shock mount, pop filter, remote, mil-spec case included
+  PE0: Diseño revolucionario de doble circuito — calidez de tubo y claridad FET en un micrófono
+  PE1: Cuatro modos de tubo analógicos (Clear, Warm, Dark, Saturated) para opciones tonales infinitas
+  PE2: Fusión perfecta entre circuitos de tubo y FET para tonos híbridos únicos
+  PE3: Cinco patrones polares seleccionables mediante control remoto — el más versátil de su clase
+  PE4: Paquete premium completo: soporte, filtro pop, control remoto, estuche militar incluido
+  C0: At $3,499 it competes at the same price point as the legendary U 87 Ai
+  C1: Newer brand with less studio heritage than Neumann or Sony
+  C2: Heavier than many single-circuit microphones due to dual-circuit design
+  C3: Relies on proprietary power supply and cables
+  CE0: A $3,499 compite al mismo precio que el legendario U 87 Ai
+  CE1: Marca más nueva con menos herencia de estudio que Neumann o Sony
+  CE2: Más pesado que muchos micrófonos de circuito simple debido al diseño de doble circuito
+  CE3: Depende de una fuente de alimentación y cables propietarios
+
+AUDIT_FLAGS:
+[GENERIC] pro-microphones / Neumann U 87 Ai / pros: Excellent build quality — built to last decades in professional use
+
+# GUIDE: pro-monitors
+TITLE: ADAM S3H vs Focal Trio11 Be: Pro Monitor Duel
+TITLE_ES: ADAM S3H vs Focal Trio11 Be: Duelo de Monitores Pro
+FS_SPECS:
+  [undefined / Diseño]: 3-way horizontal MTM || 3-way with Focus mode
+  [undefined / Tweeter]: S-ART folded ribbon || 1" pure beryllium
+  [undefined / Woofer]: Dual 7" HexaCone || 10"
+  [undefined / DSP]: 6-band PEQ per channel || None
+COMPARISON:
+  [Year / Año]: 2022 || 2019
+  [Design / Diseño]: 3-way horizontal MTM || 3-way with switchable Focus mode
+  [Mid Driver / Driver Medio]: 4" DCH (Dome/Cone Hybrid) || 5" (shared)
+  [Tweeter / Tweeter]: S-ART folded ribbon || 1" (27mm) pure beryllium inverted dome
+  [Woofer / Woofer]: Dual 7" HexaCone || 10" (250mm)
+  [Amplifier Power / Potencia del Amplificador]: 1350W peak (350W + 250W × 4) || 450W (250W + 100W + 100W)
+  [DSP Room Correction / Corrección DSP de Sala]: 6-band PEQ per channel || None
+  [Frequency Response / Respuesta en Frecuencia]: 30Hz – 50kHz || 30Hz – 40kHz
+  [Max SPL / SPL Máximo]: 126dB peak || 119dB peak
+  [Dimensions (H×W×D) / Dimensiones (Al×An×Pr)]: 652×492×377mm || 564×356×450mm
+  [Weight / Peso]: 26.6 kg each || 25 kg each
+  [Price / Precio]: $3,999 || $4,199
+VPC:
+
+[P] ADAM Audio S3H
+  P0: S-ART folded ribbon tweeter — fastest transient response of any studio monitor tweeter
+  P1: Built-in DSP with 6-band PEQ per channel for precise room correction
+  P2: DCH (Dome/Cone Hybrid) midrange delivers rich, detailed vocals and instruments
+  P3: 1350W peak power and 126dB max SPL for headroom
+  P4: Horizontal MTM design provides excellent horizontal dispersion
+  P5: Better value at $3,999 compared to competitors
+  PE0: Tweeter de cinta plegada S-ART — la respuesta transitoria más rápida de cualquier tweeter de monitor de estudio
+  PE1: DSP incorporado con PEQ de 6 bandas por canal para corrección precisa de sala
+  PE2: Rango medio DCH (Dome/Cone Hybrid) proporciona voces e instrumentos ricos y detallados
+  PE3: 1350W de potencia pico y 126dB SPL máximo para headroom
+  PE4: Diseño MTM horizontal proporciona excelente dispersión horizontal
+  PE5: Mejor valor a $3,999 comparado con competidores
+  C0: Horizontal MTM design can be sensitive to vertical listening position
+  C1: Heavier than some competitors at 26.6kg per monitor
+  C2: S-ART ribbon tweeter has a different presentation than dome tweeters — some may prefer a softer top end
+  C3: At $3,999 per monitor, a stereo pair costs roughly $8,000
+  CE0: El diseño MTM horizontal puede ser sensible a la posición vertical de escucha
+  CE1: Más pesado que algunos competidores con 26.6kg por monitor
+  CE2: El tweeter de cinta S-ART tiene una presentación diferente a los tweeter de cúpula — algunos pueden preferir agudos más suaves
+  CE3: A $3,999 por monitor, un par estéreo cuesta unos $8,000
+
+[P] Focal Trio11 Be
+  P0: Switchable Focus mode — 3-way midfield and 2-way nearfield in one monitor
+  P1: Pure beryllium inverted dome tweeter delivers stunning top-end detail and air
+  P2: Versatile monitoring solution adapts to different mix scenarios
+  P3: More compact than some competitors in its class
+  P4: Exceptional transient response and imaging from beryllium driver
+  PE0: Modo Focus conmutable — midfield de 3 vías y nearfield de 2 vías en un monitor
+  PE1: Tweeter de cúpula invertida de berilio puro con impresionante detalle de agudos
+  PE2: Solución de monitoreo versátil que se adapta a diferentes escenarios de mezcla
+  PE3: Más compacto que algunos competidores en su clase
+  PE4: Respuesta transitoria y imagen excepcionales del driver de berilio
+  C0: Pure beryllium tweeter can sound slightly clinical to some ears
+  C1: No built-in DSP room correction — external correction hardware or software needed
+  C2: No built-in room calibration system
+  C3: Focus mode transition requires re-listening position adjustment
+  CE0: El tweeter de berilio puro puede sonar ligeramente clínico para algunos oídos
+  CE1: Sin corrección DSP de sala incorporada — se necesita hardware o software externo
+  CE2: Sin sistema de calibración de sala incorporado
+  CE3: La transición del modo Focus requiere ajuste de posición de escucha
+
+AUDIT_FLAGS:
+[GENERIC] pro-monitors / ADAM Audio S3H / pros: Horizontal MTM design provides excellent horizontal dispersion
+

@@ -1,0 +1,493 @@
+# GUIDE: open-headphones
+TITLE: Best Open-Back Headphones for Mixing
+TITLE_ES: Mejores Auriculares Abiertos para Mezcla
+VPC:
+
+[P] Sennheiser HD 490 Pro Plus
+  P0: The modern successor to the HD 600 reference — neutral response now with real, defined low end
+  P1: Neutral response translates perfectly across monitors, car stereos, and earbuds
+  P2: 130-ohm ease: drives from any interface, laptop, or phone — no amp required
+  P3: Two switchable ear pad sets and dearVR MIX-SE included for translation checks
+  PE0: El sucesor moderno de la referencia HD 600 — respuesta neutra ahora con graves reales y definidos
+  PE1: La respuesta neutra se traduce perfectamente entre monitores, equipos de coche y auriculares
+  PE2: Facilidad de 130 ohmios: funciona desde cualquier interfaz, laptop o teléfono — sin amplificador
+  PE3: Dos juegos de almohadillas intercambiables y dearVR MIX-SE incluido para comprobar la traducción
+  C0: Open-back leaks sound — unusable while recording vocals with a live mic
+  C1: $499 — a real spend versus budget closed-backs
+  C2: Needs a quiet room to get the full benefit of the open design
+  CE0: Abiertos, fugan sonido — inutilizables al grabar voces con un micrófono activo
+  CE1: $499 — un gasto real frente a los cerrados económicos
+  CE2: Necesitan una habitación silenciosa para aprovechar el diseño abierto
+
+[P] Audio-Technica ATH-M50x
+  P0: Technically closed-back but with a surprisingly wide soundstage for one
+  P1: The most versatile option when you can only own one pair — tracking, mixing, casual listening
+  P2: 45mm drivers deliver clarity and punch that compete with headphones at twice the price
+  P3: Collapsible, removable cable, and carrying pouch — a travel companion
+  PE0: Técnicamente cerrados pero con un escenario sorprendentemente amplio para serlo
+  PE1: La opción más versátil cuando solo puedes tener un par — grabar, mezclar, escucha casual
+  PE2: Los drivers de 45mm ofrecen claridad y pegada que compiten con auriculares del doble de precio
+  PE3: Plegables, cable desmontable y bolsa de transporte — un compañero de viaje
+  C0: Not truly open — the soundstage is still narrower than the HD 490 Pro Plus
+  C1: Slightly emphasized bass can mislead low-end decisions until you learn it
+  C2: Closed cups can't reproduce the airy, speaker-like imaging of a genuine open-back
+  CE0: No son realmente abiertos — el escenario sigue siendo más estrecho que el de la HD 490 Pro Plus
+  CE1: Los graves ligeramente realzados pueden engañar decisiones de baja frecuencia hasta que los conoces
+  CE2: Las copas cerradas no pueden reproducir la imagen aérea tipo altavoz de un verdadero abierto
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Modern reference mixing ~ Mezcla de referencia moderna | Portable production & tracking ~ Producción portátil y grabación
+  PT[Type/Tipo]: Open-back ~ Abiertos | Closed-back ~ Cerrados
+  PT[Driver Size/Tamaño del Driver]: 38mm ~ 38mm | 45mm ~ 45mm
+  PT[Impedance/Impedancia]: 130 Ω ~ 130 Ω | 38 Ω ~ 38 Ω
+  PT[Sensitivity/Sensibilidad]: 105 dB ~ 105 dB | 99 dB ~ 99 dB
+  PT[Frequency Response/Respuesta de Frecuencia]: 5 Hz – 36 kHz ~ 5 Hz – 36 kHz | 15 Hz – 28 kHz ~ 15 Hz – 28 kHz
+  PT[Cable/Cable]: Detachable (2 included) ~ Desmontable (2 incluidos) | Detachable (3 included) ~ Desmontable (3 incluidos)
+  PT[Weight/Peso]: 260 g ~ 260 g | 285 g ~ 285 g
+  PT[Price/Precio]: $499 ~ $499 | $169 ~ $169
+
+AUDIT_FLAGS:
+[CONS_LE_3] open-headphones / Sennheiser HD 490 Pro Plus: 3 cons only: Open-back leaks sound — unusable while recording vocals with a live mic | $499 — a real spend versus budget closed-backs | Needs a quiet room to get the full benefit of the open design
+[CONS_LE_3] open-headphones / Audio-Technica ATH-M50x: 3 cons only: Not truly open — the soundstage is still narrower than the HD 490 Pro Plus | Slightly emphasized bass can mislead low-end decisions until you learn it | Closed cups can't reproduce the airy, speaker-like imaging of a genuine open-back
+
+# GUIDE: monitor-setup
+TITLE: Best Monitor Setup & Room Calibration
+TITLE_ES: Mejor Configuración de Monitores y Calibración de Sala
+VPC:
+
+[P] Yamaha HS8
+  P0: Brutally honest frequency response reveals mix flaws other monitors hide
+  P1: Room control switches (low cut, high trim, mid EQ) compensate for placement issues
+  P2: 8-inch Kevlar-coated woofer reaches problem frequencies below 40Hz
+  P3: The industry reference monitor used in studios worldwide
+  PE0: Respuesta de frecuencia brutalmente honesta que revela fallos que otros monitores ocultan
+  PE1: Controles de sala (low cut, high trim, mid EQ) que compensan problemas de colocación
+  PE2: Woofer de 8 pulgadas con revestimiento de Kevlar que llega a frecuencias problemáticas por debajo de 40Hz
+  PE3: El monitor de referencia de la industria usado en estudios de todo el mundo
+  C0: Rear-ported, so they need breathing room from the wall
+  C1: No built-in DSP room correction — you add your own calibration software
+  C2: Sold per speaker, so a pair costs $798
+  CE0: Puerto trasero, así que necesitan espacio de respiración de la pared
+  CE1: Sin corrección de sala DSP integrada — añades tu propio software de calibración
+  CE2: Se venden por altavoz, así que un par cuesta $798
+
+[P] K&M Monitor Stands (Pair)
+  P0: German-engineered steel construction built to outlast your monitors
+  P1: Height-adjustable to put tweeters exactly at ear level
+  P2: Floor spikes mechanically decouple the speakers from the floor, tightening bass
+  P3: At $89 a pair, the cheapest upgrade that makes the biggest difference
+  PE0: Construcción de acero con ingeniería alemana hecha para durar más que tus monitores
+  PE1: Ajustables en altura para colocar los tweeters exactamente al nivel del oído
+  PE2: Las puntas de piso desacoplan mecánicamente los altavoces del suelo, apretando los graves
+  PE3: A $89 el par, la mejora más barata que marca la mayor diferencia
+  C0: Spiked feet can scratch hardwood floors
+  C1: Need floor space in front of your listening position
+  C2: No isolation pad included for the top plate
+  CE0: Las puntas de piso pueden rayar pisos de madera
+  CE1: Necesitan espacio en el suelo frente a tu posición de escucha
+  CE2: No incluyen pad de aislamiento para la placa superior
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Flat reference mixing ~ Mezcla de referencia plana | Stable speaker placement ~ Colocación estable de los monitores
+  PT[Type/Tipo]: 2-way powered ~ Biamplificado de 2 vías | Monitor stands (pair) ~ Soportes de monitores (par)
+  PT[Price/Precio]: $399 ~ $399 | $89 ~ $89
+
+AUDIT_FLAGS:
+[CONS_LE_3] monitor-setup / Yamaha HS8: 3 cons only: Rear-ported, so they need breathing room from the wall | No built-in DSP room correction — you add your own calibration software | Sold per speaker, so a pair costs $798
+[CONS_LE_3] monitor-setup / K&M Monitor Stands (Pair): 3 cons only: Spiked feet can scratch hardwood floors | Need floor space in front of your listening position | No isolation pad included for the top plate
+
+# GUIDE: fx-plugins
+TITLE: Best Creative Effects Plugins
+TITLE_ES: Mejores Plugins de Efectos Creativos
+VPC:
+
+[P] Soundtoys 5.5 Bundle
+  P0: 23 effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate and SpaceBlender
+  P1: Decapitator's five saturation models span American console to British overdrive
+  P2: EchoBoy models twenty delay types from digital to warped tape echoes
+  P3: Effect Rack chains five effects in one plugin instance
+  PE0: 23 efectos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate y SpaceBlender
+  PE1: Los cinco modelos de saturación de Decapitator van de consola americana a overdrive británico
+  PE2: EchoBoy modela veinte tipos de delay desde digital hasta ecos de cinta distorsionados
+  PE3: Effect Rack encadena cinco efectos en una sola instancia de plugin
+  C0: At $599 it's expensive if you only need one or two of the effects
+  C1: Individual plugins are also sold separately
+  C2: Many effects overlap with stock DAW tools for everyday use
+  CE0: A $599 es caro si solo necesitas uno o dos de los efectos
+  CE1: Los plugins individuales también se venden por separado
+  CE2: Muchos efectos se solapan con las herramientas nativas de tu DAW para el uso diario
+
+[P] Eventide Blackhole
+  P0: Creates massive virtual spaces that could never exist in reality
+  P1: Gravity control inverts decay for a one-knob reverse-time effect
+  P2: Freeze mode lets you drone endlessly
+  P3: Over 50 artist presets with full NKS support
+  PE0: Crea espacios virtuales masivos que no podrían existir en la realidad
+  PE1: El control Gravity invierte la caída para un efecto de tiempo invertido con un solo mando
+  PE2: El modo Freeze permite drones infinitos
+  PE3: Más de 50 presets de artistas con soporte completo NKS
+  C0: Not a general-purpose reverb — it's strictly for creative, otherworldly spaces
+  C1: The signature tail can dominate a mix instead of sitting in it
+  C2: At $99 it costs more than a basic room/hall reverb
+  CE0: No es una reverb de uso general — es estrictamente para espacios creativos y de otro mundo
+  CE1: La cola característica puede dominar una mezcla en lugar de integrarse
+  CE2: A $99 cuesta más que una reverb básica de sala/hall
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Creative color, character & movement ~ Color, carácter y movimiento creativo | Huge, otherworldly & evolving reverbs ~ Reverbs masivas, de otro mundo y en evolución
+  PT[Type/Tipo]: 23 creative FX bundle ~ Bundle de 23 FX creativos | Algorithmic "spaceship" reverb ~ Reverb algorítmica "espacial"
+  PT[Format/Formato]: VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX | VST2/VST3/AU/AAX ~ VST2/VST3/AU/AAX
+  PT[Platforms/Plataformas]: macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows
+  PT[Signature Feature/Característica Destacada]: EchoBoy, Decapitator, Little AlterBoy, SuperPlate ~ EchoBoy, Decapitator, Little AlterBoy, SuperPlate | Gravity control + 50 artist presets ~ Control Gravity + 50 presets de artistas
+  PT[Price/Precio]: $599 ~ $599 | $99 ~ $99
+
+AUDIT_FLAGS:
+[CONS_LE_3] fx-plugins / Soundtoys 5.5 Bundle: 3 cons only: At $599 it's expensive if you only need one or two of the effects | Individual plugins are also sold separately | Many effects overlap with stock DAW tools for everyday use
+[CONS_LE_3] fx-plugins / Eventide Blackhole: 3 cons only: Not a general-purpose reverb — it's strictly for creative, otherworldly spaces | The signature tail can dominate a mix instead of sitting in it | At $99 it costs more than a basic room/hall reverb
+
+# GUIDE: best-drum-machine
+TITLE: Best Drum Machines & Beat Production
+TITLE_ES: Mejores Máquinas de Batería y Producción de Beats
+VPC:
+
+[P] Roland TR-8S
+  P0: ACB modeling delivers authentic 808, 909, 707, 727, and 606 sounds
+  P1: Sample playback opens unlimited sound-design options
+  P2: Hands-on faders per instrument and real-time step sequencing
+  P3: 6 assignable outputs, external in, and sidechain for live performance
+  PE0: El modelado ACB ofrece sonidos auténticos de 808, 909, 707, 727 y 606
+  PE1: La reproducción de samples abre infinitas opciones de diseño sonoro
+  PE2: Faders por instrumento y secuenciación por pasos en tiempo real
+  PE3: 6 salidas asignables, entrada externa y sidechain para el directo
+  C0: At $749 it's the priciest machine in this guide
+  C1: Rhythm-focused — no built-in keyboard for melodic parts
+  C2: SD card sample storage (~600s) is small versus the MPC One+'s 16GB internal
+  CE0: Por $749 es la máquina más cara de esta guía
+  CE1: Centrada en el ritmo — sin teclado integrado para partes melódicas
+  CE2: El almacenamiento de samples en tarjeta SD (~600s) es pequeño frente a los 16GB internos del MPC One+
+
+[P] Akai MPC One+
+  P0: The same MPC workflow that created countless hip-hop classics
+  P1: 16 velocity-sensitive pads and the legendary MPC swing quantize
+  P2: Fully standalone with 16GB internal storage and built-in synth engines
+  P3: At $499 it's the most affordable standalone MPC and best entry into the ecosystem
+  PE0: El mismo flujo de trabajo MPC que creó innumerables clásicos del hip-hop
+  PE1: 16 pads sensibles a la velocidad y el legendario swing quantize de MPC
+  PE2: Totalmente autónomo con 16GB de almacenamiento interno y motores de sintetizador integrados
+  PE3: Por $499 es el MPC standalone más asequible y la mejor puerta de entrada al ecosistema
+  C0: Pad-and-touchscreen workflow is less immediate than the TR-8S's faders for 808-style steps
+  C1: Deep editing is faster on a computer than on the built-in screen
+  C2: Runs on the included AC adaptor — no battery power for the road
+  CE0: El flujo de pads y pantalla táctil es menos inmediato que los faders del TR-8S para pasos estilo 808
+  CE1: La edición profunda es más rápida en una computadora que en su pantalla integrada
+  CE2: Funciona con el adaptador AC incluido — sin baterías para la carretera
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Budget rhythm machines on the go ~ Máquinas de ritmo económicas para llevar | All-in-one beat-making without a computer ~ Beat-making todo en uno sin ordenador | Iconic Roland sounds and live performance ~ Sonidos Roland icónicos y directo
+  PT[Type/Tipo]: Compact 6-track rhythm performer ~ Performer de ritmo compacto de 6 pistas | Standalone sampler / sequencer ~ Sampler / secuenciador standalone | Rhythm performer ~ Performer de ritmo
+  PT[Tracks/Pistas]: 6 instrument parts ~ 6 partes de instrumento | 128 MIDI + 8 audio tracks ~ 128 pistas MIDI + 8 de audio | 11 instrument parts + trigger out ~ 11 partes de instrumento + trigger out
+  PT[Sound Engine/Motor de Sonido]: ACB (808, 909, 606, 707, CR-78), FM, samples ~ ACB (808, 909, 606, 707, CR-78), FM, samples | MPC sampler + plugin synths ~ Sampler MPC + synths plugin | ACB (808, 909, 707, 727, 606), FM, samples ~ ACB (808, 909, 707, 727, 606), FM, samples
+  PT[Sequencer/Secuenciador]: TR-REC, 128 patterns, 8 variations, 2 fills ~ TR-REC, 128 patrones, 8 variaciones, 2 fills | Grid + step sequencer, 128-track ~ Grid + secuenciador por pasos, 128 pistas | TR-REC, 128 patterns, 8 variations, 2 fills ~ TR-REC, 128 patrones, 8 variaciones, 2 fills
+  PT[Sample Storage/Almacenamiento de Samples]: SD card (SDHC), ~600 s user samples ~ Tarjeta SD (SDHC), ~600 s de samples | 16 GB internal, SD card + USB ~ 16 GB internos, tarjeta SD + USB | SD card (SDHC), ~600 s user samples ~ Tarjeta SD (SDHC), ~600 s de samples
+  PT[Effects/Efectos]: Inst FX, reverb, delay, master FX, scatter ~ Inst FX, reverb, delay, master FX, scatter | 100+ AIR FX plugins and processors ~ Más de 100 plugins y procesadores AIR FX | Inst FX, reverb, delay, master FX, sidechain ~ Inst FX, reverb, delay, master FX, sidechain
+  PT[Connectivity/Conectividad]: Stereo out, MIDI in/out, USB audio/MIDI ~ Salida estéreo, MIDI in/out, USB audio/MIDI | 2x TRS in/out, 4x CV/Gate, MIDI, Wi-Fi, BT ~ 2x TRS in/out, 4x CV/Gate, MIDI, Wi-Fi, BT | 6 assignable outs, ext in, MIDI, USB audio ~ 6 salidas asignables, ext in, MIDI, USB audio
+  PT[Power/Alimentación]: 4x AA batteries or USB bus power ~ 4 pilas AA o alimentación por USB | AC adaptor ~ Adaptador de corriente | AC adaptor ~ Adaptador de corriente
+  PT[Weight/Peso]: 0.7 kg (1 lb 9 oz) ~ 0,7 kg (1 lb 9 oz) | 2.1 kg (4.7 lb) ~ 2,1 kg (4,7 lb) | 2.1 kg (4 lb 11 oz) ~ 2,1 kg (4 lb 11 oz)
+  PT[Price/Precio]: $449 ~ $449 | $499 ~ $499 | $749 ~ $749
+
+AUDIT_FLAGS:
+[CONS_LE_3] best-drum-machine / Roland TR-8S: 3 cons only: At $749 it's the priciest machine in this guide | Rhythm-focused — no built-in keyboard for melodic parts | SD card sample storage (~600s) is small versus the MPC One+'s 16GB internal
+[CONS_LE_3] best-drum-machine / Akai MPC One+: 3 cons only: Pad-and-touchscreen workflow is less immediate than the TR-8S's faders for 808-style steps | Deep editing is faster on a computer than on the built-in screen | Runs on the included AC adaptor — no battery power for the road
+
+# GUIDE: rme-vs-motu
+TITLE: RME Babyface vs MOTU M2: $949 vs $199 Interfaces
+TITLE_ES: RME Babyface vs MOTU M2: Interfaces de $949 vs $199
+FS_SPECS:
+  [undefined / Preamplificadores]: 2 x mic pre (RME) || 2 x mic pre (MOTU)
+  [undefined / Rango Dinámico]: 117 dB (AD) || 120 dB (ESS Sabre32)
+  [undefined / Frecuencia de Muestreo]: 192 kHz / 24-bit || 192 kHz / 24-bit
+  [undefined / Conexión]: USB 2.0 (USB-C compatible) || USB-C
+  [undefined / Latencia (RTL 48kHz/64)]: ~2.5 ms || ~4.5 ms
+COMPARISON:
+  [Year / Año]: 2020 || 2020
+  [Best For / Ideal Para]: Professional portable recording || Budget home recording
+  [Connectivity / Conectividad]: USB 2.0 (USB-C) || USB-C (USB 2.0)
+  [Inputs / Entradas]: 2x XLR mic + 2x line/Hi-Z + ADAT in || 2x combo XLR/TRS mic/line/Hi-Z
+  [Outputs / Salidas]: 2x line XLR + 2x HP + ADAT out || 2x TRS line + 2x RCA + 1x HP
+  [Sample Rate / Tasa de Muestreo]: 192 kHz / 24-bit || 192 kHz / 24-bit
+  [Preamp Gain / Ganancia de Preamplificador]: 76 dB in 1 dB steps || +60 dB (mic) / +57 dB (line)
+  [Dynamic Range / Rango Dinámico]: 117 dB (AD) || 120 dB (ESS Sabre32)
+  [DSP / DSP]: TotalMix FX + SteadyClock FS || N/A (ESS Sabre32 Ultra DAC)
+  [MIDI I/O / MIDI I/O]: Yes || Yes (5-pin DIN)
+  [Loopback / Loopback]: Yes (TotalMix FX) || Yes (driver)
+  [Bus Powered / Alimentación USB]: Yes || Yes
+  [Weight / Peso]: 680 g || 1.35 lbs / 0.61 kg
+  [Special Features / Características Especiales]: TotalMix FX, SteadyClock FS, MIDI, ADAT || ESS Sabre32 DAC, LCD meters, MIDI, loopback
+  [Price / Precio]: $949 || $199
+VPC:
+
+[P] RME Babyface Pro FS
+  P0: TotalMix FX routing matrix with 8 stereo submixes EQ dynamics reverb
+  P1: SteadyClock FS jitter suppression regardless of clock source
+  P2: Class-compliant USB no drivers needed on any OS
+  P3: 32-sample buffer stable on modest hardware
+  P4: DSP reverb zero-latency headphone monitoring
+  PE0: TotalMix FX con matriz de routing, 8 submezclas estéreo, EQ, dinámica y reverb
+  PE1: SteadyClock FS suprime el jitter sin importar la fuente de reloj
+  PE2: USB class-compliant sin necesidad de drivers en cualquier sistema operativo
+  PE3: Buffer de 32 muestras estable incluso en hardware modesto
+  PE4: Reverb DSP para monitoreo de auriculares con latencia cero
+  C0: Breakout cable for I/O bulky and fragile
+  C1: No DSP for third-party plugin emulations
+  C2: Requires external power supply
+  C3: TotalMix FX steep learning curve
+  CE0: El cable de expansión para E/S es frágil y voluminoso
+  CE1: Sin DSP para emulaciones plugins terceros
+  CE2: Requiere alimentación externa
+  CE3: Curva de aprendizaje pronunciada en TotalMix
+
+[P] MOTU M2
+  P0: ESS Sabre32 Ultra DAC 120dB ahead of interfaces 3x price
+  P1: Front-panel color LCD eliminates need to check DAW levels
+  P2: Hardware loop-back with two independent stereo streams
+  P3: DC-coupled outputs for modular synth CV
+  P4: CueMix DSP zero-latency mixing 8 channels 4-band EQ each
+  PE0: DAC ESS Sabre32 Ultra con 120dB, mejor que interfaces del triple de precio
+  PE1: LCD frontal elimina necesidad de mirar DAW
+  PE2: Loop-back hardware con 2 streams estereo independientes
+  PE3: Salidas DC-coupled para CV a sintetizadores
+  PE4: CueMix mezcla latencia cero 8 canales EQ 4 bandas
+  C0: Mic preamps only 60dB gain audible noise above 50dB
+  C1: CueMix UI dated no dark mode breaks on resize
+  C2: MOTU driver updates weeks behind OS releases
+  C3: Sparse software bundle only lite Ableton Live
+  CE0: Los preamplificadores solo ofrecen 60dB de ganancia y ruido audible por encima de 50dB
+  CE1: La interfaz CueMix se ve anticuada y no tiene modo oscuro
+  CE2: Los drivers de MOTU llegan semanas después del lanzamiento del sistema operativo
+  CE3: Paquete de software escaso: solo incluye Ableton Live Lite
+
+AUDIT_FLAGS:
+[TOO_SHORT] rme-vs-motu / RME Babyface Pro FS / cons: Requires external power supply
+[TOO_SHORT] rme-vs-motu / RME Babyface Pro FS / cons: TotalMix FX steep learning curve
+
+# GUIDE: k371-vs-mdr7506
+TITLE: AKG K371 vs MDR-7506: Best Budget Headphones?
+TITLE_ES: AKG K371 vs MDR-7506: ¿Mejores Auriculares Económicos?
+FS_SPECS:
+  [undefined / Tipo]: Closed-back || Closed-back
+  [undefined / Respuesta de Frecuencia]: 5 Hz – 40 kHz || 10 Hz – 20 kHz
+  [undefined / Impedancia]: 32 Î© || 63 Î©
+  [undefined / Driver]: 50 mm titanium-coated || 40 mm dynamic
+  [undefined / SPL]: 114 dB || 106 dB
+COMPARISON:
+  [Year / Año]: 2019 || 1991
+  [Type / Tipo]: Closed-back || Closed-back
+  [Best For / Ideal Para]: Budget mix translation || Budget mixing and broadcast
+  [Frequency Response / Respuesta de Frecuencia]: 5 Hz – 40 kHz || 10 Hz – 20 kHz
+  [Impedance / Impedancia]: 32 Ω || 63 Ω
+  [Driver / Driver]: 50 mm titanium-coated || 40 mm dynamic
+  [Sensitivity (SPL) / Sensibilidad (SPL)]: 114 dB || 106 dB
+  [Cable / Cable]: Detachable (mini-XLR) || Fixed coiled, 3 m
+  [Weight / Peso]: 255 g || 230 g
+  [Price / Precio]: $155 || $99
+VPC:
+
+[P] AKG K371
+  P0: Folded portable design collapses into compact carrying size with swivel ear cups for travel
+  P1: Harmon-targeted tuning delivers neutral frequency response that translates accurately across playback systems
+  P2: Detachable mini-XLR cable standard with included second cable for backup reliability
+  P3: Lightweight 255g comfortable for hours with minimal clamping force
+  P4: Leatherette ear pads with memory foam conform to head shape for seal
+  PE0: Diseño plegable portátil con copas giratorias para viaje
+  PE1: Sintonización Harmon objetivo respuesta neutra traduce con precisión
+  PE2: Cable mini-XLR desmontable incluye segundo cable de respaldo
+  PE3: Ligeros 255g cómodos por horas con mínima presión
+  PE4: Almohadillas cuero con espuma memoria se adaptan a la cabeza
+  C0: Build quality feels plasticky creaking hinge mechanism may loosen over extended daily use
+  C1: Leatherette material flakes and peels especially in humid climates
+  C2: Ear pads have shallow depth pressing against larger ears
+  C3: Storage pouch instead of hard case inadequate for backpack protection
+  CE0: La construcción plástica cruje y la bisagra se afloja con el uso diario
+  CE1: El cuero sintético se descama, especialmente en climas húmedos
+  CE2: Almohadillas poco profundas que presionan contra las orejas grandes
+  CE3: Bolsa de almacenamiento en lugar de estuche rígido
+
+[P] Sony MDR-7506
+  P0: Industry-standard sound signature known for forward upper-midrange that reveals vocal sibilance and mix clarity
+  P1: Legendary durability with field-replaceable all parts available for decades from Sony
+  P2: Folding design with included carrying pouch proven in broadcast studios worldwide
+  P3: Closed-back design provides excellent isolation for tracking loud sources
+  P4: Tight controlled bass does not bleed into mids making mix decisions easier
+  PE0: Firma sonora estándar industria revela sibilancias vocales y claridad mezcla
+  PE1: Durabilidad legendaria todas las piezas reemplazables por décadas
+  PE2: Diseño plegable con bolsa incluida probado en estudios broadcast
+  PE3: Diseño cerrado proporciona excelente aislamiento para tracking
+  PE4: Graves controlados no sangran en medios facilitando decisiones mezcla
+  C0: Earpads shallower than modern competition causing ear contact with driver for larger ears
+  C1: Non-detachable cable cannot be replaced if damaged requires soldering repair
+  C2: Clamping force higher than average uncomfortable for glasses wearers
+  C3: Folded treble peak around 10kHz causes listening fatigue on brighter recordings
+  CE0: Almohadillas más superficiales que provocan el contacto de la oreja con el driver
+  CE1: Cable no desmontable no se puede reemplazar requiere soldadura
+  CE2: Presión de sujeción alta e incómoda para usuarios de lentes
+  CE3: El pico de agudos en 10kHz causa fatiga auditiva en grabaciones brillantes
+
+AUDIT_FLAGS:
+[GENERIC] k371-vs-mdr7506 / AKG K371 / cons: Build quality feels plasticky creaking hinge mechanism may loosen over extended daily use
+[GENERIC] k371-vs-mdr7506 / Sony MDR-7506 / pros: Closed-back design provides excellent isolation for tracking loud sources
+
+# GUIDE: c414-vs-u87
+TITLE: AKG C414 vs Neumann U 87: Pro Vocal Mic Duel
+TITLE_ES: AKG C414 vs Neumann U 87: Duelo de Micrófonos Pro
+FS_SPECS:
+  [undefined / Tipo]: Condenser || Condenser
+  [undefined / Patrón Polar]: 9 selectable patterns || Omni / Cardioid / Figure-8
+  [undefined / Respuesta de Frecuencia]: 20 Hz – 20 kHz || 20 Hz – 20 kHz
+  [undefined / Ruido Propio]: 6 dBA || 12 dBA (cardioid)
+COMPARISON:
+  [Year / Año]: 2004 || 1986
+  [Type / Tipo]: Large-diaphragm condenser || Large-diaphragm condenser
+  [Best For / Ideal Para]: Versatile studio recording || Professional studio recording
+  [Polar Patterns / Patrones Polares]: 9 selectable (incl. cardioid, fig-8, omni) || Omni / Cardioid / Figure-8
+  [Frequency Response / Respuesta de Frecuencia]: 20 Hz – 20 kHz || 20 Hz – 20 kHz
+  [Sensitivity / Sensibilidad]: 23 mV/Pa (-33 dBV) || 20/28/22 mV/Pa
+  [Equivalent Noise / Ruido Equivalente]: 6 dBA || 12 dBA (cardioid)
+  [Max SPL / SPL Máximo]: 140 dB (0.5% THD) || 117 dB (127 dB w/ pad)
+  [Pads / Filters / Pads / Filtros]: -6/-12/-18 dB pads + bass cut || -10 dB pad + low cut
+  [Output Impedance / Impedancia de Salida]: ≤200 Ω || 200 Ω
+  [Phantom / Alimentación Phantom]: 48V || 48V
+  [Weight / Peso]: 10.6 oz / 300 g || 1.1 lbs / 500 g
+  [Price / Precio]: $1.1k || $3.6k
+VPC:
+
+[P] AKG C414 XLII
+  P0: Four switchable polar patterns omni cardioid figure-8 and wide cardioid adapt to any source without changing microphones
+  P1: Three selectable attenuation pads -6 -12 -18dB handle SPL up to 158dB for loud guitar cabs before clipping
+  P2: Three bass-cut filter positions 40Hz 80Hz 160Hz reduce low-end rumble without external HPF
+  P3: Dual 1-inch gold-sputtered capsules produce open airy top-end with detail on vocals and acoustic instruments
+  P4: Built-in switchable pre-attenuation allows close-miking brass and drums without distortion
+  PE0: Cuatro patrones polares intercambiables: omnidireccional, cardioide, figura-8 y cardioide ancho
+  PE1: Tres pads de atenuación seleccionables (-6, -12, -18dB) que manejan SPL de hasta 158dB
+  PE2: Tres filtros de corte de graves (40Hz, 80Hz, 160Hz) sin necesidad de HPF externo
+  PE3: Doble cápsula dorada de 1 pulgada que produce agudos abiertos y detallados
+  PE4: Preatenuación incorporada que permite microfonear metales y batería sin distorsión
+  C0: Lacks the legendary midrange character and vocal smoothness that Neumann U87 is famous for
+  C1: Self-noise 13dBA is higher than U87 making it less ideal for quiet sources
+  C2: Rubber suspension mount degrades over time sagging capsules not level
+  C3: Cannot replicate the exact transformer-based saturation of vintage U87 designs
+  CE0: Carece del carácter legendario medios y suavidad vocal del U87
+  CE1: Ruido propio de 13dBA, más alto que el del U87: menos ideal para fuentes tranquilas
+  CE2: La suspensión de goma se degrada con el tiempo y deja las cápsulas desniveladas
+  CE3: No puede replicar saturación transformador de diseños U87 vintage
+
+[P] Neumann U 87 Ai
+  P0: Industry-standard vocal microphone with polished midrange that flatters voices with natural compression-like character
+  P1: Three polar patterns with -10dB pad extend versatility without compromising the signature Neumann sound
+  P2: Transformer-balanced output provides analog saturation curve that adds musicality to recorded tracks
+  P3: Proven durability with units from 1960s still in daily operation at top studios
+  P4: Relatively flat response with gentle presence rise produces mix-ready tracks with minimal EQ
+  PE0: Micrófono vocal estándar de la industria, con unos medios que favorecen las voces con compresión natural
+  PE1: Tres patrones polares con pad de -10dB sin comprometer el sonido Neumann
+  PE2: La salida por transformador proporciona una saturación analógica musical
+  PE3: Durabilidad probada: unidades de los 60s siguen operando a diario en los mejores estudios
+  PE4: Respuesta plana con elevación presencia produce pistas listas para mezcla con mínimo EQ
+  C0: Premium price over 3x the C414 cost prohibitive for home studios on budget
+  C1: Requires high-quality preamp to unlock full potential sounds mediocre through budget interfaces
+  C2: Heavy mounting system needs robust boom arm cannot use lightweight stands
+  C3: Vintage units vary significantly in frequency response and output level between individual microphones
+  CE0: Precio premium, más de 3x el costo de la C414: prohibitivo para estudios caseros
+  CE1: Requiere preamplificador de alta calidad para potencial completo suena mediocre en interfaces económicas
+  CE2: Sistema de montaje pesado necesita brazo robusto
+  CE3: Unidades vintage varían significativamente en respuesta entre micrófonos individuales
+
+AUDIT_FLAGS:
+[GENERIC] c414-vs-u87 / AKG C414 XLII / cons: Lacks the legendary midrange character and vocal smoothness that Neumann U87 is famous for
+[GENERIC] c414-vs-u87 / Neumann U 87 Ai / cons: Requires high-quality preamp to unlock full potential sounds mediocre through budget interfaces
+
+# GUIDE: best-monitors-for-small-rooms
+TITLE: Best Studio Monitors for Small Rooms & Apartments
+TITLE_ES: Mejores Monitores de Estudio para Habitaciones y Apartamentos Pequeños
+VPC:
+
+[P] Yamaha HS8
+  P0: Industry-standard flat response that reveals every flaw in a mix
+  P1: 8-inch Kevlar-coated woofer with 1-inch dome tweeter; 120W bi-amp
+  P2: 38 Hz–30 kHz (-10 dB) extension — the deepest bass of the group
+  P3: If a mix sounds good on HS8s, it sounds good anywhere
+  PE0: Respuesta plana estándar de la industria que revela cada fallo de la mezcla
+  PE1: Woofer de 8 pulgadas con revestimiento de Kevlar y tweeter de domo de 1 pulgada; 120W bi-amplificados
+  PE2: Extensión de 38 Hz–30 kHz (-10 dB) — los graves más profundos del grupo
+  PE3: Si una mezcla suena bien en los HS8, suena bien en cualquier parte
+  C0: Puerto trasero: necesita al menos 12 pulgadas de espacio trasero para evitar graves falsos en salas pequeñas
+  C1: El woofer de 8 pulgadas excita más modos de sala en espacios pequeños
+  C2: Cuesta $250 más por altavoz que el JBL 305P MkII
+  C3: Exige trampas de graves y tratamiento serio para funcionar en una habitación pequeña
+  CE0: Puerto trasero: necesita al menos 30 cm de espacio trasero para evitar graves falsos en salas pequeñas
+  CE1: El woofer de 8 pulgadas excita más modos de sala en espacios pequeños
+  CE2: Cuesta $250 más por altavoz que el JBL 305P MkII
+  CE3: Exige trampas de graves y tratamiento serio para funcionar en una habitación pequeña
+
+[P] KRK Rokit 7 G5
+  P0: Front-firing port lets you place them close to a wall without false bass
+  P1: DSP room correction with LCD bass cut (-2/-4 dB) that no rival in the price range offers
+  P2: 7-inch Kevlar woofer stays clean at high volume; 145W RMS (234W peak)
+  P3: 45 Hz–36 kHz response with 110 dB max SPL
+  PE0: Puerto frontal que permite colocarlos cerca de la pared sin graves falsos
+  PE1: Corrección de sala DSP con corte LCD de graves (-2/-4 dB), algo que ningún rival de este precio ofrece
+  PE2: Woofer de Kevlar de 7 pulgadas que se mantiene limpio a volumen alto; 145W RMS (234W pico)
+  PE3: Respuesta de 45 Hz–36 kHz con 110 dB de SPL máximo
+  C0: Sigue siendo un woofer de 7 pulgadas que excita modos de sala en habitaciones muy pequeñas
+  C1: Voz menos plana que el HS8: más musical y contundente que analítica
+  C2: Cuesta $120 más por altavoz que el JBL 305P MkII
+  C3: La corrección DSP exige leer el manual para configurarla bien
+  CE0: Sigue siendo un woofer de 7 pulgadas que excita modos de sala en habitaciones muy pequeñas
+  CE1: Voz menos plana que el HS8: más musical y contundente que analítica
+  CE2: Cuesta $120 más por altavoz que el JBL 305P MkII
+  CE3: La corrección DSP exige leer el manual para configurarla bien
+
+[P] JBL 305P MkII
+  P0: Front-ported 5-inch monitor that sits 6 inches from a wall without bass issues
+  P1: Image Control Waveguide gives a wide sweet spot for compromised listening positions
+  P2: The most accurate monitor under $300 per pair: 49 Hz–20 kHz (±3 dB), 108 dB max SPL
+  P3: Neutral response with tight bass — ideal for vocal mixing and midrange clarity
+  PE0: Monitor de 5 pulgadas con puerto frontal que se coloca a 15 cm de la pared sin problemas de graves
+  PE1: La guía de onda Image Control ofrece un punto dulce amplio para posiciones de escucha comprometidas
+  PE2: El monitor más preciso por menos de $300 el par: 49 Hz–20 kHz (±3 dB), 108 dB de SPL máximo
+  PE3: Respuesta neutra con graves ajustados — ideal para mezclar voces y claridad de medios
+  C0: El woofer de 5 pulgadas cae por debajo de 50 Hz — hay que comprobar los graves con auriculares
+  C1: Necesita el subwoofer JBL LSR310S para oír el sub-bass en música electrónica
+  C2: Menos graves y headroom que el KRK Rokit 7 G5 para sesiones fuertes de hip-hop o rock
+  C3: Con 82W de amplificación tiene menos margen que los monitores de 7 pulgadas
+  CE0: El woofer de 5 pulgadas cae por debajo de 50 Hz — hay que comprobar los graves con auriculares
+  CE1: Necesita el subwoofer JBL LSR310S para oír el sub-bass en música electrónica
+  CE2: Menos graves y headroom que el KRK Rokit 7 G5 para sesiones fuertes de hip-hop o rock
+  CE3: Con 82W de amplificación tiene menos margen que los monitores de 7 pulgadas
+
+[P] Adam Audio A7V
+  P0: S-ART folded ribbon tweeter delivers unmatched transient response and detail
+  P1: 7-inch MLM woofer with 44 Hz–41 kHz response and deep bass
+  P2: 3D imaging from the folded-ribbon design; premium build quality
+  P3: 130W peak amplification in a 2-way powered design
+  PE0: El tweeter de cinta plegada S-ART ofrece una respuesta transitoria y un detalle inigualables
+  PE1: Woofer MLM de 7 pulgadas con respuesta de 44 Hz–41 kHz y graves profundos
+  PE2: Imagen 3D gracias al diseño de cinta plegada; construcción premium
+  PE3: Amplificación de 130W pico en un diseño biamplificado de 2 vías
+  C0: Precio premium: $799 por altavoz, unas 3x el KRK Rokit 7 G5 y 5x el JBL 305P MkII
+  C1: 105 dB de SPL máximo es menor que los 110 dB del Rokit 7 G5 pese al precio
+  C2: No aparece entre las elecciones principales de la guía para salas pequeñas
+  C3: La corrección de sala depende de software externo como Sonarworks, no de DSP integrado
+  CE0: Precio premium: $799 por altavoz, unas 3x el KRK Rokit 7 G5 y 5x el JBL 305P MkII
+  CE1: 105 dB de SPL máximo es menor que los 110 dB del Rokit 7 G5 pese al precio
+  CE2: No aparece entre las elecciones principales de la guía para salas pequeñas
+  CE3: La corrección de sala depende de software externo como Sonarworks, no de DSP integrado
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Flat reference mixing ~ Mezcla de referencia plana | Punchy rock & hip-hop mixing ~ Mezcla con punch para rock y hip-hop | Compact nearfield mixing ~ Mezcla de campo cercano compacta | Detailed pro nearfield mixing ~ Mezcla profesional de campo cercano detallada
+  PT[Type/Tipo]: 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías
+  PT[Woofer/Woofer]: 8" ~ 8" | 7" Kevlar ~ 7" de Kevlar | 5" ~ 5" | 7" MLM ~ 7" MLM
+  PT[Tweeter/Tweeter]: 1" dome ~ 1" de cúpula | 1" silk dome ~ 1" de cúpula de seda | 1" ~ 1" | X-ART ribbon ~ Cinta X-ART
+  PT[Power/Potencia]: 120W (75W + 45W) ~ 120W (75W + 45W) | 145W RMS (234W peak) ~ 145W RMS (234W pico) | 82W (41W + 41W) ~ 82W (41W + 41W) | 130W peak ~ 130W pico
+  PT[Frequency Response/Respuesta de Frecuencia]: 38 Hz – 30 kHz (-10 dB) ~ 38 Hz – 30 kHz (-10 dB) | 45 Hz – 36 kHz ~ 45 Hz – 36 kHz | 49 Hz – 20 kHz (±3 dB) ~ 49 Hz – 20 kHz (±3 dB) | 44 Hz – 41 kHz ~ 44 Hz – 41 kHz
+  PT[Max SPL/SPL Máximo]: N/A ~ N/D | 110 dB ~ 110 dB | 108 dB ~ 108 dB | 105 dB ~ 105 dB
+  PT[Dimensions/Dimensiones]: 9.8 x 15.4 x 13.1 in ~ 25 x 39 x 33.2 cm | 13.35 x 8.86 x 11.42 in ~ 33.9 x 22.5 x 29 cm | 11.7 x 7.3 x 9.1 in ~ 29.7 x 18.5 x 23.1 cm | 13.3 x 7.9 x 10.4 in ~ 33.8 x 20 x 26.4 cm
+  PT[Price/Precio]: $399 ~ $399 | $269 ~ $269 | $149 ~ $149 | $799 ~ $799
+
+AUDIT_FLAGS:
+[GENERIC] best-monitors-for-small-rooms / Yamaha HS8 / pros: If a mix sounds good on HS8s, it sounds good anywhere
+[GENERIC] best-monitors-for-small-rooms / Adam Audio A7V / pros: 3D imaging from the folded-ribbon design; premium build quality
+

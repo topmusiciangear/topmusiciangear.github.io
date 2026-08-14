@@ -1,0 +1,200 @@
+{
+ "guides": {
+  "pro-interfaces": {
+   "verdictProsCons": [
+    {
+     "name": "Universal Audio Apollo x16 Gen 2",
+     "name_es": "Universal Audio Apollo x16 Gen 2",
+     "pros": [
+      "HEXA Core UAD DSP with 6 SHARC+ processors enables massive real-time plugin processing",
+      "Unison preamp technology — authentic emulations of Neve, API, SSL and more",
+      "167dB dynamic range conversion — among the best in any interface",
+      "Thunderbolt 3 connectivity provides ultra-low latency performance",
+      "Dual-monitor support with integrated talkback"
+     ],
+     "pros_es": [
+      "HEXA Core UAD DSP con 6 procesadores SHARC+ permite procesamiento masivo en tiempo real",
+      "Tecnología de previo Unison — emulaciones auténticas de Neve, API, SSL y más",
+      "Rango dinámico de 167dB — entre los mejores de cualquier interfaz",
+      "Conectividad Thunderbolt 3 proporciona rendimiento de latencia ultra baja",
+      "Soporte para monitores duales con talkback integrado"
+     ],
+     "cons": [
+      "Requires UAD-2 plugins for DSP acceleration — an additional cost",
+      "Thunderbolt 3 limits compatibility with older computers",
+      "No onboard standalone recording without a computer connected",
+      "Higher price than the RME while offering fewer I/O channels"
+     ],
+     "cons_es": [
+      "Requiere plugins UAD-2 para aceleración DSP — un costo adicional",
+      "Thunderbolt 3 limita la compatibilidad con computadoras antiguas",
+      "No tiene grabación independiente sin computadora conectada",
+      "Precio más alto que el RME ofreciendo menos canales I/O"
+     ]
+    },
+    {
+     "name": "RME Fireface UFX III",
+     "name_es": "RME Fireface UFX III",
+     "pros": [
+      "Legendary driver stability — RME is known for drivers that stay stable across all platforms through OS updates",
+      "188-channel I/O via USB 3.0 with MADI expansion — massive routing capability",
+      "TotalMix FX provides 48-channel digital mixing with onboard DSP effects",
+      "DURec allows standalone recording directly to USB storage",
+      "SteadyClock FS jitter suppression for pristine clocking"
+     ],
+     "pros_es": [
+      "Estabilidad legendaria de drivers — RME es conocido por drivers que se mantienen estables en todas las plataformas",
+      "188 canales I/O vía USB 3.0 con expansión MADI — capacidad de ruteo masiva",
+      "TotalMix FX proporciona mezcla digital de 48 canales con efectos DSP integrados",
+      "DURec permite grabación independiente directamente a almacenamiento USB",
+      "SteadyClock FS para clocking prístino sin jitter"
+     ],
+     "cons": [
+      "Software-based DSP plugins are more limited than UAD's premium emulations",
+      "No Unison-style preamp modeling technology",
+      "USB 3.0 doesn't match Thunderbolt 3's theoretical bandwidth ceiling",
+      "Onboard effects are basic compared to UAD's premium plugin library"
+     ],
+     "cons_es": [
+      "Los plugins DSP basados en software son más limitados que las emulaciones premium de UAD",
+      "Sin tecnología de modelado de previo estilo Unison",
+      "USB 3.0 no iguala el techo de ancho de banda teórico de Thunderbolt 3",
+      "Los efectos integrados son básicos comparados con la biblioteca premium de UAD"
+     ]
+    }
+   ]
+  },
+  "pro-basses": {
+   "verdictProsCons": [
+    {
+     "name": "Fender American Ultra II Precision Bass",
+     "name_es": "Fender American Ultra II Precision Bass",
+     "pros": [
+      "Ultra II Noiseless P-Bass pickup delivers classic P tone without hum",
+      "The definitive precision bass sound — punchy, deep, and sits perfectly in any mix",
+      "Sculpted neck heel and rolled fingerboard edges for maximum playing comfort",
+      "HiMass bridge improves sustain and string definition",
+      "Compound-radius ebony fingerboard feels fast and responsive"
+     ],
+     "pros_es": [
+      "La pastilla Ultra II Noiseless P-Bass ofrece el tono P clásico sin zumbido",
+      "El sonido de bajo de precisión definitivo — contundente, profundo y perfecto en cualquier mezcla",
+      "Talón esculpido y bordes del diapasón redondeados para máxima comodidad",
+      "Puente HiMass mejora el sustain y la definición de las cuerdas",
+      "Diapasón de ébano de radio compuesto se siente rápido y sensible"
+     ],
+     "cons": [
+      "Only one pickup configuration — less versatile than the StingRay's active preamp",
+      "Passive electronics with no onboard EQ (classic P-Bass simplicity)",
+      "Traditional slab body can be less comfortable than the StingRay's contoured design",
+      "Heavier than the StingRay Special with its lightweight ash body"
+     ],
+     "cons_es": [
+      "Solo una pastilla — menos versátil que el previo activo del StingRay",
+      "Electrónica pasiva sin EQ incorporado (simplicidad clásica del P-Bass)",
+      "El cuerpo tradicional puede ser menos cómodo que el diseño contorneado del StingRay",
+      "Más pesado que el StingRay Special con su cuerpo de fresno ligero"
+     ]
+    },
+    {
+     "name": "Music Man StingRay Special",
+     "name_es": "Music Man StingRay Special",
+     "pros": [
+      "Powerful neodymium humbucker with 18V active preamp delivers massive, punchy tone",
+      "2-band active EQ gives you complete control over your sound",
+      "Lightweight ash body and roasted maple neck make it incredibly comfortable to play",
+      "The signature sound of funk, rock, and pop — instantly recognizable",
+      "Meticulous fit and finish with precise tolerances throughout the body, neck and hardware"
+     ],
+     "pros_es": [
+      "Potente humbucker de neodimio con previo activo de 18V ofrece un tono masivo y contundente",
+      "EQ activo de 2 bandas te da control completo sobre tu sonido",
+      "Cuerpo de fresno ligero y mástil de arce tostado lo hacen increíblemente cómodo",
+      "El sonido característico del funk, rock y pop — instantáneamente reconocible",
+      "Ajuste y acabado meticulosos con tolerancias precisas en cuerpo, mástil y herrajes"
+     ],
+     "cons": [
+      "Active electronics require a 9V battery — can die mid-performance",
+      "Aggressive midrange may not suit every mix or genre",
+      "Neodymium pickup has higher output that can overdrive some preamps",
+      "No passive bypass option — if the battery dies, the bass is silent"
+     ],
+     "cons_es": [
+      "La electrónica activa requiere batería 9V — puede morir a media actuación",
+      "El rango medio agresivo puede no funcionar en todas las mezclas o géneros",
+      "La pastilla de neodimio tiene mayor salida que puede saturar algunos previos",
+      "Sin opción de bypass pasivo — si la batería muere, el bajo no suena"
+     ]
+    }
+   ]
+  },
+  "pro-daw": {
+   "verdictProsCons": [
+    {
+     "name": "Ableton Live 12 Suite",
+     "name_es": "Ableton Live 12 Suite",
+     "pros": [
+      "Session View is revolutionary for creative production and live performance",
+      "Max for Live enables infinite customization and unique devices",
+      "Best-in-class warping and timestretching engine",
+      "Extensive built-in instrument and effects library (70+ GB)",
+      "Active community and constant innovation"
+     ],
+     "pros_es": [
+      "Session View es revolucionario para producción creativa y performance en vivo",
+      "Max for Live permite personalización infinita y dispositivos únicos",
+      "Motor de warping y timestretching de primera clase",
+      "Extensa librería de instrumentos y efectos integrados (70+ GB)",
+      "Comunidad activa e innovación constante"
+     ],
+     "cons": [
+      "Not the standard for commercial recording studios",
+      "Limited advanced audio editing tools compared to Pro Tools",
+      "No Dolby Atmos support — spatial audio mixing requires third-party renderers or plugins",
+      "No native video post-production capabilities",
+      "Less suitable for tracking live bands with complex routing"
+     ],
+     "cons_es": [
+      "No es el estándar para estudios de grabación comerciales",
+      "Herramientas de edición de audio avanzadas limitadas comparado con Pro Tools",
+      "Sin soporte Dolby Atmos — la mezcla de audio espacial requiere renderizadores o plugins de terceros",
+      "Sin capacidades nativas de post-producción de video",
+      "Menos adecuado para grabar bandas en vivo con enrutamiento complejo"
+     ]
+    },
+    {
+     "name": "Avid Pro Tools Studio",
+     "name_es": "Avid Pro Tools Estudio",
+     "pros": [
+      "Industry standard for commercial recording studios worldwide",
+      "Unmatched audio editing capabilities (Elastic Audio, Beat Detective)",
+      "Dolby Atmos mixing with full object-based workflow",
+      "Cloud collaboration for remote sessions",
+      "Advanced video post-production with Avid Video Engine"
+     ],
+     "pros_es": [
+      "Estándar de la industria para estudios de grabación comerciales en todo el mundo",
+      "Capacidades de edición de audio inigualables (Elastic Audio, Beat Detective)",
+      "Mezcla Dolby Atmos con flujo de trabajo basado en objetos",
+      "Colaboración en nube para sesiones remotas",
+      "Post-producción de video avanzada con Avid Video Engine"
+     ],
+     "cons": [
+      "Subscription model ($299/year) — no perpetual license option",
+      "Less intuitive for creative production and beatmaking",
+      "No Session View or clip-launching workflow",
+      "Minimal built-in instruments compared to Live Suite",
+      "Steeper learning curve for new users"
+     ],
+     "cons_es": [
+      "Modelo de suscripción ($299/año) — sin opción de licencia perpetua",
+      "Menos intuitivo para producción creativa y beatmaking",
+      "Sin Session View ni flujo de trabajo de lanzamiento de clips",
+      "Instrumentos integrados mínimos comparado con Live Suite",
+      "Curva de aprendizaje más pronunciada para nuevos usuarios"
+     ]
+    }
+   ]
+  }
+ }
+}

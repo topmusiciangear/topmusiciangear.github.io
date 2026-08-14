@@ -1,0 +1,630 @@
+# GUIDE: midi-keyboards
+TITLE: Best MIDI Keyboards & Controllers for Your Home Studio
+TITLE_ES: Mejores Teclados y Controladores MIDI para Tu Home Studio
+VPC:
+
+[P] Arturia KeyLab Essential 61 MkIII
+  P0: 61 velocity-sensitive synth-action keys with polyphonic aftertouch in an 8.4 lb (3.8 kg) build
+  P1: Deep integration with Analog Lab Pro (included), Ableton Live, and Logic Pro for mouse-free sound browsing
+  P2: OLED screen shows parameter names as you tweak, plus genuinely useful chord mode and arpeggiator
+  P3: At $299 it's the best bang-for-buck DAW controller on the market
+  PE0: 61 teclas de tipo sintetizador sensibles a la velocidad con aftertouch polifónico en un cuerpo de 3,8 kg
+  PE1: Integración profunda con Analog Lab Pro (incluido), Ableton Live y Logic Pro para explorar sonidos sin usar el mouse
+  PE2: Pantalla OLED que muestra nombres de parámetros mientras ajustas, más un modo de acordes y arpegiador realmente útiles
+  PE3: Por $299 es el controlador DAW con mejor relación calidad-precio del mercado
+  C0: 61 synth-action keys don't offer the weighted feel a pianist needs
+  C1: No built-in audio interface, so headphones and monitors need a separate box
+  C2: 9 encoders and pads but no faders for hands-on mixer control
+  C3: Komplete Kontrol S61 ($599) adds a Fatar keybed and NKS browsing at double the price
+  CE0: Las 61 teclas de tipo sintetizador no ofrecen la sensación ponderada que necesita un pianista
+  CE1: Sin interfaz de audio integrada, así que auriculares y monitores requieren una caja aparte
+  CE2: 9 encoders y pads pero sin faders para control práctico del mezclador
+  CE3: El Komplete Kontrol S61 ($599) añade teclado Fatar y navegación NKS al doble de precio
+
+[P] Nord Stage 4 88
+  P0: Triple Sensor keybed delivers the most expressive piano feel outside of a real grand
+  P1: Seamless transitions between programs with no audio dropouts — critical for live performance
+  P2: Redesigned Piano, Organ, and Synth engines plus 1GB of Nord Piano Library memory
+  P3: MIDI, USB, and XLR outputs for both stage and studio
+  PE0: El teclado Triple Sensor ofrece la sensación de piano más expresiva fuera de un piano de cola real
+  PE1: Transiciones perfectas entre programas sin cortes de audio — esenciales para el directo
+  PE2: Motores rediseñados de Piano, Órgano y Sintetizador más 1GB de memoria para la Nord Piano Library
+  PE3: Salidas MIDI, USB y XLR tanto para escenario como para estudio
+  C0: At $4,999 it's a major investment for a working musician
+  C1: 44 lb (20 kg) is a heavy load to haul between gigs
+  C2: 88 hammer-action keys are tiring for synth and organ-style playing
+  CE0: Por $4,999 es una inversión importante para un músico profesional
+  CE1: Sus 20 kg son una carga pesada para mover entre conciertos
+  CE2: Las 88 teclas de acción de martillo cansan al tocar synth y órgano
+
+[P] Yamaha Montage M8x
+  P0: Combines the new AN-X analog modeling engine with the legendary FM-X engine
+  P1: 88-key weighted action is one of the best keybeds Yamaha has ever made
+  P2: Motion Control lets you layer, crossfade, and modulate in real time with the Super Knob
+  P3: 16-track pattern sequencer plus seamless DAW integration for studio and stage
+  PE0: Combina el nuevo motor AN-X de modelado analógico con el legendario FM-X
+  PE1: La acción ponderada de 88 teclas es uno de los mejores teclados que Yamaha ha fabricado
+  PE2: El Motion Control permite superponer, hacer crossfade y modular en tiempo real con la Super Knob
+  PE3: Secuenciador de 16 pistas más integración perfecta con el DAW para estudio y escenario
+  C0: At $4,699 a software synth rig can deliver similar power for less
+  C1: 63.9 lb (29 kg) makes it a desk instrument rather than a portable one
+  C2: Only 2 assignable outputs, so no dedicated XLR line outs like the Nord
+  CE0: Por $4,699, un rig de sintetizadores software ofrece potencia similar por menos dinero
+  CE1: Sus 29 kg lo convierten en instrumento de escritorio más que portátil
+  CE2: Solo 2 salidas asignables, sin salidas XLR dedicadas como las del Nord
+
+[P] Native Instruments Komplete Kontrol S61
+  P0: Premium Fatar semi-weighted keybed with excellent feel
+  P1: Light Guide RGB LEDs above each key show key zones, drum mappings, and scales
+  P2: NKS browsing loads and maps Komplete and hundreds of third-party plugins from the keyboard
+  P3: Built-in audio interface connects headphones and monitors directly
+  PE0: Teclado semipesado Fatar premium con una sensación excelente
+  PE1: La Light Guide de LEDs RGB sobre cada tecla muestra zonas de teclas, mapeos de batería y escalas
+  PE2: La navegación NKS carga y mapea Komplete y cientos de plugins de terceros desde el teclado
+  PE3: Interfaz de audio integrada para conectar auriculares y monitores directamente
+  C0: At $599 it's twice the price of the KeyLab Essential 61 MkIII ($299)
+  C1: Only justifies the cost if you're building a setup around the Native Instruments ecosystem
+  C2: If you don't use NI software, a cheaper controller makes more sense
+  CE0: Por $599 cuesta el doble que el KeyLab Essential 61 MkIII ($299)
+  CE1: Solo justifica el precio si montas tu setup alrededor del ecosistema Native Instruments
+  CE2: Si no usas software NI, un controlador más barato tiene más sentido
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Budget controller with hands-on control ~ Controlador económico con control físico | Pro stage piano & synth workstation ~ Piano de escenario y workstation profesional | Flagship synth workstation ~ Workstation de sintetizadores tope de gama | NKS integration with Komplete ~ Integración NKS con Komplete
+  PT[Type/Tipo]: MIDI controller ~ Controlador MIDI | Stage keyboard ~ Teclado de escenario | Synth workstation ~ Workstation de sintetizadores | MIDI controller ~ Controlador MIDI
+  PT[Keys/Teclas]: 61 synth action ~ 61 sintetizador | 88 hammer action ~ 88 martillo | 88 weighted action ~ 88 con peso | 61 semi-weighted ~ 61 semipesadas
+  PT[Sound Engine/Motor de Sonido]: N/A (MIDI controller) ~ N/D (controlador MIDI) | Piano + Sample Synth + FM/VA ~ Piano + Sample Synth + FM/VA | AWM2 + AN-X + FM-X ~ AWM2 + AN-X + FM-X | N/A (MIDI controller) ~ N/D (controlador MIDI)
+  PT[Presets/Presets]: 2,000+ Analog Lab presets ~ 2,000+ presets de Analog Lab | Large program library ~ Gran biblioteca de programas | Thousands of presets ~ Miles de presets | Komplete Kontrol browser ~ Navegador Komplete Kontrol
+  PT[Sequencer/Secuenciador]: Arpeggiator ~ Arpegiador | Yes (sections, no DAW timeline) ~ Sí (sections, sin timeline de DAW) | Yes, 16-track pattern sequencer ~ Sí, secuenciador de 16 pistas | Arpeggiator ~ Arpegiador
+  PT[Connectivity/Conectividad]: USB-C, 9 encoders, pads ~ USB-C, 9 encoders, pads | MIDI, USB, XLR outputs ~ MIDI, USB, salidas XLR | MIDI, USB, 2x assignable out ~ MIDI, USB, 2 salidas asignables | USB, 8 knobs, screens ~ USB, 8 mandos, pantallas
+  PT[Weight/Peso]: 8.4 lb (3.8 kg) ~ 3,8 kg | 44 lb (20 kg) ~ 20 kg | 63.9 lb (29 kg) ~ 29 kg | 10.6 lb (4.8 kg) ~ 4,8 kg
+  PT[Price/Precio]: $299 ~ $299 | $4,999 ~ $4.999 | $4,699 ~ $4.699 | $599 ~ $599
+
+AUDIT_FLAGS:
+[CONS_LE_3] midi-keyboards / Nord Stage 4 88: 3 cons only: At $4,999 it's a major investment for a working musician | 44 lb (20 kg) is a heavy load to haul between gigs | 88 hammer-action keys are tiring for synth and organ-style playing
+[CONS_LE_3] midi-keyboards / Yamaha Montage M8x: 3 cons only: At $4,699 a software synth rig can deliver similar power for less | 63.9 lb (29 kg) makes it a desk instrument rather than a portable one | Only 2 assignable outputs, so no dedicated XLR line outs like the Nord
+[GENERIC] midi-keyboards / Native Instruments Komplete Kontrol S61 / pros: Premium Fatar semi-weighted keybed with excellent feel
+[CONS_LE_3] midi-keyboards / Native Instruments Komplete Kontrol S61: 3 cons only: At $599 it's twice the price of the KeyLab Essential 61 MkIII ($299) | Only justifies the cost if you're building a setup around the Native Instruments ecosystem | If you don't use NI software, a cheaper controller makes more sense
+
+# GUIDE: small-room-monitors
+TITLE: Best Studio Monitors for Small Rooms & Home Studios
+TITLE_ES: Mejores Monitores de Estudio para Salas Pequeñas
+VPC:
+
+[P] JBL 305P MkII
+  P0: Image Control Waveguide delivers a wide, precise stereo image when you sit close
+  P1: 5-inch woofer minimizes room interaction in cramped desk setups
+  P2: LF trim (-3dB, 0dB, +3dB) compensates for room-induced bass buildup
+  P3: At $149 each they're the most affordable way into JBL pro monitoring
+  PE0: La guía de onda Image Control ofrece una imagen estéreo amplia y precisa al sentarte cerca
+  PE1: El woofer de 5 pulgadas minimiza la interacción con la sala en escritorios apretados
+  PE2: El ajuste LF (-3dB, 0dB, +3dB) compensa la acumulación de graves inducida por la sala
+  PE3: Por $149 cada uno son la forma más asequible de entrar al monitoreo profesional de JBL
+  C0: 5-inch woofer limits low-end reach — bass-heavy music will want a sub
+  C1: 82W total power is the lowest of the four
+  C2: No DSP room correction like the KRK Rokit 7 G5
+  CE0: El woofer de 5 pulgadas limita el alcance de graves — la música con mucho bajo pedirá un sub
+  CE1: Los 82W de potencia total son los más bajos de los cuatro
+  CE2: Sin corrección de sala DSP como la KRK Rokit 7 G5
+
+[P] Kali Audio LP-6 V2
+  P0: 3D Imaging Waveguide creates a wider sweet spot than almost any monitor in its class
+  P1: LF and HF trims offer extensive room compensation including boundary EQ
+  P2: Surprisingly deep, controlled bass for a 6.5-inch woofer
+  P3: At $199 each it outperforms monitors costing twice as much in imperfect rooms
+  PE0: La guía de onda 3D Imaging crea un punto dulce más amplio que casi cualquier monitor de su clase
+  PE1: Los ajustes LF y HF ofrecen amplia compensación de sala, incluido el boundary EQ
+  PE2: Graves sorprendentemente profundos y controlados para un woofer de 6.5 pulgadas
+  PE3: Por $199 cada uno supera a monitores del doble de precio, sobre todo en salas imperfectas
+  C0: 6.5-inch woofer still can't reach the sub-bass extension of larger monitors
+  C1: No DSP auto-calibration like the KRK Rokit 7 G5
+  C2: 80W of amplification is modest for larger rooms
+  CE0: El woofer de 6.5 pulgadas aún no alcanza la extensión de subgraves de monitores más grandes
+  CE1: Sin calibración automática DSP como la KRK Rokit 7 G5
+  CE2: Sus 80W de amplificación son modestos para salas más grandes
+
+[P] KRK Rokit 7 G5
+  P0: Built-in DSP EQ offers 25 settings (4-band parametric plus graphic presets) to dial out problem frequencies
+  P1: 7-inch Kevlar woofer delivers more low-end extension than 5-inch and 6.5-inch alternatives
+  P2: Kevlar driver resists breakup at high SPL
+  P3: Front-firing bass port suits monitors placed close to walls
+  PE0: El EQ DSP integrado ofrece 25 ajustes (paramétrico de 4 bandas más presets gráficos) para eliminar frecuencias problemáticas
+  PE1: El woofer de Kevlar de 7 pulgadas ofrece más extensión de graves que los de 5 y 6.5 pulgadas
+  PE2: El driver de Kevlar resiste la rotura a alto SPL
+  PE3: El puerto de graves frontal es ideal para monitores colocados cerca de la pared
+  C0: At $269 each they're the most expensive of the four
+  C1: DSP tuning takes time to dial in — it's not automatic calibration
+  C2: Less flat than the Yamaha HS8 — Rokits add a punchy character
+  CE0: Por $269 cada uno son los más caros de los cuatro
+  CE1: El ajuste DSP requiere tiempo — no es calibración automática
+  CE2: Menos planas que la Yamaha HS8 — las Rokit añaden un carácter contundente
+
+[P] Yamaha HS8
+  P0: Brutally honest flat response that translates to other systems — what you hear is what you get
+  P1: Front porting means you can place them close to walls without muddy bass
+  P2: 8-inch cone woofer delivers tight, accurate low end
+  P3: Room Control and High Trim switches offer basic room compensation
+  PE0: Respuesta plana brutalmente honesta que se traduce a otros sistemas — lo que oyes es lo que hay
+  PE1: El puerto frontal permite colocarlas cerca de la pared sin graves embarrados
+  PE2: El woofer de cono de 8 pulgadas ofrece graves ajustados y precisos
+  PE3: Los interruptores Room Control y High Trim ofrecen compensación básica de sala
+  C0: At $399 each they cost more than double the JBL 305P MkII
+  C1: 8-inch woofers in a small room can accumulate muddy pressure
+  C2: Only basic two-position room switches, not DSP correction
+  CE0: Por $399 cada una cuestan más del doble que la JBL 305P MkII
+  CE1: Los woofers de 8 pulgadas en una sala pequeña pueden acumular presión embarrada
+  CE2: Solo interruptores de sala básicos de dos posiciones, sin corrección DSP
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Compact nearfield mixing ~ Mezcla de campo cercano compacta | Accurate budget monitoring ~ Monitoreo económico y preciso | Punchy rock & hip-hop mixing ~ Mezcla con punch para rock y hip-hop | Flat reference mixing ~ Mezcla de referencia plana
+  PT[Type/Tipo]: 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías | 2-way powered ~ Biamplificado de 2 vías
+  PT[Woofer/Woofer]: 5" ~ 5" | 6.5" ~ 6.5" | 7" Kevlar ~ 7" de Kevlar | 8" ~ 8"
+  PT[Tweeter/Tweeter]: 1" ~ 1" | 1" ~ 1" | 1" silk dome ~ 1" de cúpula de seda | 1" dome ~ 1" de cúpula
+  PT[Power/Potencia]: 82W (41W + 41W) ~ 82W (41W + 41W) | 80W (40W + 40W) ~ 80W (40W + 40W) | 145W RMS (234W peak) ~ 145W RMS (234W pico) | 120W (75W + 45W) ~ 120W (75W + 45W)
+  PT[Frequency Response/Respuesta de Frecuencia]: 49 Hz – 20 kHz (±3 dB) ~ 49 Hz – 20 kHz (±3 dB) | 47 Hz – 21 kHz (±3 dB) ~ 47 Hz – 21 kHz (±3 dB) | 45 Hz – 36 kHz ~ 45 Hz – 36 kHz | 38 Hz – 30 kHz (-10 dB) ~ 38 Hz – 30 kHz (-10 dB)
+  PT[Max SPL/SPL Máximo]: 108 dB ~ 108 dB | 115 dB ~ 115 dB | 110 dB ~ 110 dB | N/A ~ N/D
+  PT[Dimensions/Dimensiones]: 11.7 x 7.3 x 9.1 in ~ 29.7 x 18.5 x 23.1 cm | 14.1 x 8.75 x 10.25 in ~ 35.8 x 22.2 x 26 cm | 13.35 x 8.86 x 11.42 in ~ 33.9 x 22.5 x 29 cm | 9.8 x 15.4 x 13.1 in ~ 25 x 39 x 33.2 cm
+  PT[Price/Precio]: $149 ~ $149 | $199 ~ $199 | $269 ~ $269 | $399 ~ $399
+
+AUDIT_FLAGS:
+[CONS_LE_3] small-room-monitors / JBL 305P MkII: 3 cons only: 5-inch woofer limits low-end reach — bass-heavy music will want a sub | 82W total power is the lowest of the four | No DSP room correction like the KRK Rokit 7 G5
+[CONS_LE_3] small-room-monitors / Kali Audio LP-6 V2: 3 cons only: 6.5-inch woofer still can't reach the sub-bass extension of larger monitors | No DSP auto-calibration like the KRK Rokit 7 G5 | 80W of amplification is modest for larger rooms
+[CONS_LE_3] small-room-monitors / KRK Rokit 7 G5: 3 cons only: At $269 each they're the most expensive of the four | DSP tuning takes time to dial in — it's not automatic calibration | Less flat than the Yamaha HS8 — Rokits add a punchy character
+[CONS_LE_3] small-room-monitors / Yamaha HS8: 3 cons only: At $399 each they cost more than double the JBL 305P MkII | 8-inch woofers in a small room can accumulate muddy pressure | Only basic two-position room switches, not DSP correction
+
+# GUIDE: best-practice-amps
+TITLE: Best Practice Amps for Home & Bedroom Players
+TITLE_ES: Mejores Amplificadores de Práctica para Casa y Dormitorio
+VPC:
+
+[P] Fender Champion II 25
+  P0: Simple, great-sounding 25W practice amp with 4 selectable voices (Classic, Modern, British, Hi Gain)
+  P1: Built-in effects with tap tempo
+  P2: AUX input for jamming to songs and a headphone output for silent practice
+  P3: Just $129 and lightweight (13 lb) — a great-value first amp
+  PE0: Ampli de práctica de 25W simple y con gran sonido, con 4 voces seleccionables (Classic, Modern, British, Hi Gain)
+  PE1: Efectos incorporados con tap tempo
+  PE2: Entrada AUX para tocar con canciones y salida de auriculares para practicar en silencio
+  PE3: Solo $129 y ligero (5,9 kg) — un primer amplificador con gran relación calidad-precio
+  C0: El altavoz de 8 pulgadas limita graves y headroom frente al de 12 pulgadas del Katana
+  C1: 25W no acompañan a una banda fuerte: es para uso doméstico
+  C2: Sin salida de grabación ni loop de efectos para setups de home recording
+  C3: Sin app ni edición por Bluetooth — el Katana 50 ofrece control mucho más profundo por $130 más
+  CE0: El altavoz de 8 pulgadas limita graves y headroom frente al de 12 pulgadas del Katana
+  CE1: 25W no acompañan a una banda fuerte: es para uso doméstico
+  CE2: Sin salida de grabación ni loop de efectos para setups de home recording
+  CE3: Sin app ni edición por Bluetooth — el Katana 50 ofrece control mucho más profundo por $130 más
+
+[P] Boss Katana 50 MkII
+  P0: 5 amp characters cover everything from pristine cleans to modern high gain
+  P1: Built-in Boss effects mean no pedalboard needed for practice or small gigs
+  P2: 50W through a 12-inch speaker — loud enough for gigs, with a 0.5W mode for home
+  P3: REC out and headphone output for silent practice and recording
+  PE0: 5 caracteres de amplificador cubren desde limpios impecables hasta high gain moderno
+  PE1: Los efectos Boss integrados evitan necesitar pedalera para practicar o tocar en pequeños conciertos
+  PE2: 50W con altavoz de 12 pulgadas — suficiente para tocar en vivo, con modo de 0,5W para casa
+  PE3: Salida REC y auriculares para practicar en silencio y grabar
+  C0: $259 son $130 más que la Champion II 25 para presupuestos ajustados
+  C1: 25.5 lb — más pesado de mover que la Champion de 13 lb
+  C2: Los efectos se editan por app/software, no con perillas directas
+  C3: En apartamentos los 50W siguen siendo demasiado sin usar el modo de 0,5W
+  CE0: $259 son $130 más que la Champion II 25 para presupuestos ajustados
+  CE1: 11,6 kg — más pesado de mover que la Champion de 5,9 kg
+  CE2: Los efectos se editan por app/software, no con perillas directas
+  CE3: En apartamentos los 50W siguen siendo demasiado sin usar el modo de 0,5W
+
+[P] Orange Crush 35RT
+  P0: Unmistakable British rock tone — the dirty channel nails Orange's gritty overdrive
+  P1: Built-in tuner and digital reverb; 35W through a 10-inch Voice of the World speaker
+  P2: Enough power for small gigs and jam sessions
+  P3: $229 undercuts the Katana for players who want one great rock sound
+  PE0: Inconfundible tono rock británico — el canal dirty clava el overdrive rasposo de Orange
+  PE1: Afinador y reverb digital integrados; 35W a través de un altavoz Voice of the World de 10 pulgadas
+  PE2: Potencia suficiente para pequeños conciertos y sesiones de improvisación
+  PE3: $229 cuesta menos que el Katana para quien quiere un gran sonido rock
+  C0: Un solo sonido de marca — mucho menos versátil que los 5 caracteres del Katana
+  C1: Sin loop de efectos ni salida de grabación para uso en estudio
+  C2: 25.8 lb es el combo más pesado de los tres
+  C3: Solo canales clean/dirty: sin modelado ni control por app
+  CE0: Un solo sonido de marca — mucho menos versátil que los 5 caracteres del Katana
+  CE1: Sin loop de efectos ni salida de grabación para uso en estudio
+  CE2: 11,7 kg es el combo más pesado de los tres
+  CE3: Solo canales clean/dirty: sin modelado ni control por app
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Simple beginner practice amp ~ Ampli de práctica sencillo para empezar | Versatile modeling amp for home ~ Ampli modelador versátil para casa | Warm tones & built-in reverb for home ~ Tonos cálidos con reverb integrado para casa
+  PT[Type/Tipo]: Solid-state modeling ~ Modelador de estado sólido | Solid-state modeling ~ Modelador de estado sólido | Solid-state ~ Estado sólido
+  PT[Power/Potencia]: 25W ~ 25W | 50W ~ 50W | 35W ~ 35W
+  PT[Channels/Canales]: 2 (clean/drive) ~ 2 (clean/drive) | 5 amp types ~ 5 tipos de ampli | 2 ~ 2
+  PT[Speaker/Altavoz]: 1x8" ~ 1x8" | 1x12" ~ 1x12" | 1x10" Voice of the World ~ 1x10" Voice of the World
+  PT[Outputs/Salidas]: Headphones, AUX in ~ Auriculares, entrada AUX | Headphones, REC out, 0.5W mode ~ Auriculares, salida REC, modo 0,5W | Headphones, AUX in ~ Auriculares, entrada AUX
+  PT[Reverb / FX/Reverb / FX]: Fender reverb + FX ~ Reverb Fender + FX | Built-in digital FX ~ FX digitales integrados | Built-in reverb ~ Reverb integrado
+  PT[Weight/Peso]: 13 lb (5.9 kg) ~ 5,9 kg | 25.5 lb (11.6 kg) ~ 11,6 kg | 25.8 lb (11.7 kg) ~ 11,7 kg
+  PT[Price/Precio]: $129 ~ $129 | $259 ~ $259 | $229 ~ $229
+
+AUDIT_FLAGS:
+[GENERIC] best-practice-amps / Fender Champion II 25 / pros: Simple, great-sounding 25W practice amp with 4 selectable voices (Classic, Modern, British, Hi Gain)
+[TOO_SHORT] best-practice-amps / Fender Champion II 25 / pros: Built-in effects with tap tempo
+[GENERIC] best-practice-amps / Fender Champion II 25 / pros: Just $129 and lightweight (13 lb) — a great-value first amp
+[GENERIC] best-practice-amps / Orange Crush 35RT / pros: $229 undercuts the Katana for players who want one great rock sound
+
+# GUIDE: best-live-subwoofers
+TITLE: Best Powered Subwoofers for Live Bands (2026)
+TITLE_ES: Mejores Subwoofers Activos para Bandas en Vivo (2026)
+VPC:
+
+[P] QSC KS118 Powered Subwoofer
+  P0: 3600W Class-D with 136 dB peak output
+  P1: Cardioid mode kills stage bass and feedback with two units
+  P2: DEEP mode extends response to 35 Hz
+  P3: Savable scenes for quick venue recall
+  P4: Four heavy-duty casters included
+  PE0: 3600W Class-D con 136 dB de salida pico
+  PE1: El modo cardioide elimina graves y acoples en escenario con dos unidades
+  PE2: El modo DEEP extiende la respuesta a 35 Hz
+  PE3: Escenas guardables para recuperar ajustes de sala al instante
+  PE4: Cuatro ruedas resistentes incluidas
+  C0: $1999 is the second-highest price here
+  C1: 47 kg with casters, still heavy to lift alone
+  C2: Cardioid mode needs a second KS118, doubling the investment to nearly $4000
+  C3: Response tops out at 111 Hz, so the tops must carry everything above sub-bass
+  CE0: $1999 es el segundo precio más alto de la lista
+  CE1: 47 kg con ruedas, sigue pesando para levantarla solo
+  CE2: El modo cardioide necesita una segunda KS118, duplicando la inversión a casi $4000
+  CE3: La respuesta llega solo hasta 111 Hz, así que los tops deben encargarse de todo lo que esté por encima del sub-bajo
+
+[P] RCF SUB 8004-AS
+  P0: Fast, articulate low end that cuts through rock and metal
+  P1: 136 dB with an 18-inch woofer and 4-inch voice coil
+  P2: Full DSP: Xover, phase, Deep/Punch, delay, cardioid
+  P3: Tour-grade Baltic birch cabinet at 56 kg
+  P4: PowerCON in/out and M20 pole cup
+  PE0: Graves rápidos y articulados que cortan en rock y metal
+  PE1: 136 dB con woofer de 18" y bobina de 4"
+  PE2: DSP completo: Xover, fase, Deep/Punch, delay, cardioide
+  PE3: Gabinete de abedul báltico de gira a 56 kg
+  PE4: PowerCON in/out y socket de mástil M20
+  C0: $3599 is the highest price in this guide
+  C1: Convection cooling means it needs room to breathe
+  C2: 56 kg is the heaviest box in the guide to load out
+  C3: Its $3599 premium only pays off on the loudest stages; most bands will not use that headroom
+  CE0: $3599 es el precio más alto de esta guía
+  CE1: La refrigeración por convección necesita espacio para respirar
+  CE2: 56 kg es la caja más pesada de la lista para cargar
+  CE3: Su prima de $3599 solo se justifica en escenarios muy ruidosos; la mayoría de las bandas no usará ese margen
+
+[P] Electro-Voice ELX200-18SP
+  P0: Only 29 kg, the easiest 18-inch sub to load
+  P1: $999 is the best value in the group
+  P2: QuickSmartDSP presets plus five user slots
+  P3: App controls up to six ELX200 units out front
+  P4: Low-pass from 80 to 150 Hz pairs with any top
+  PE0: Solo 29 kg, el sub de 18" más fácil de cargar
+  PE1: $999 es la mejor relación calidad-precio del grupo
+  PE2: Presets QuickSmartDSP más cinco slots de usuario
+  PE3: La app controla hasta seis unidades ELX200 desde delante
+  PE4: Low-pass de 80 a 150 Hz que empareja con cualquier top
+  C0: 132 dB is the lowest SPL in this group
+  C1: Single-amp design with no cardioid mode
+  C2: Response starts at 40 Hz, the shallowest low end of the five subs
+  C3: 1200W is the smallest amplifier in the group
+  CE0: 132 dB es el SPL más bajo de este grupo
+  CE1: Diseño de un solo amplificador sin modo cardioide
+  CE2: La respuesta baja solo hasta 40 Hz, el extremo grave menos profundo de los cinco subs
+  CE3: 1200W es el amplificador más pequeño del grupo
+
+[P] JBL PRX918XLF
+  P0: 6-band parametric EQ and delay via Bluetooth app
+  P1: 134 dB with quiet fanless operation
+  P2: Seven-year warranty for long-term confidence
+  P3: Familiar PRX900 sound engineers already know
+  PE0: EQ paramétrica de 6 bandas y delay vía app Bluetooth
+  PE1: 134 dB con funcionamiento silencioso sin ventilador
+  PE2: Garantía de siete años para confianza a largo plazo
+  PE3: El sonido PRX900 que los técnicos ya conocen
+  C0: $1449 sits in the middle of the price range
+  C1: Only one pole cup and no cardioid option
+  C2: 40.7 kg still demands two people for stairs and van loading
+  C3: At 134 dB it trails the 136 dB boxes by 2 dB of peak output
+  CE0: $1449 queda en el medio del rango de precios
+  CE1: Solo un socket de mástil y sin opción cardioide
+  CE2: 40,7 kg siguen exigiendo dos personas para escaleras y furgoneta
+  CE3: Con 134 dB se queda 2 dB por debajo de las cajas de 136 dB
+
+[P] Yamaha DXS18XLF
+  P0: Deepest response in the group, down to 30 Hz
+  P1: 136 dB with 96 kHz FIR-X DSP
+  P2: D-XSUB modes: NORMAL, BOOST, XTENDED LF and cardioid
+  P3: Polyurea coating survives touring abuse
+  P4: Extended warranty options from Yamaha
+  PE0: La respuesta más profunda del grupo, hasta 30 Hz
+  PE1: 136 dB con DSP FIR-X de 96 kHz
+  PE2: Modos D-XSUB: NORMAL, BOOST, XTENDED LF y cardioide
+  PE3: El recubrimiento de poliurea sobrevive a la gira
+  PE4: Opciones de garantía ampliada de Yamaha
+  C0: Casters sold separately is a stingy move at $1699
+  C1: 48.9 kg is the heaviest sub here
+  C2: At $1699 plus optional casters, it is the third most expensive sub here
+  C3: Its 1600W amplifier is the smallest of the three 136 dB boxes
+  CE0: Ruedas aparte es un detalle tacaño a $1699
+  CE1: 48,9 kg es el sub más pesado de la lista
+  CE2: A $1699 más ruedas opcionales, es el tercer sub más caro de la lista
+  CE3: Su amplificador de 1600W es el más pequeño de las tres cajas de 136 dB
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Mid-size venues & cardioid setups ~ Recintos medianos y configuraciones cardioide | Rock and metal bands ~ Bandas de rock y metal | Most working live bands ~ La mayoría de bandas en directo | Events, weddings & remote tuning ~ Eventos, bodas y ajuste remoto | Touring durability & deepest lows ~ Durabilidad en gira y graves profundos
+  PT[Type/Tipo]: Active, direct radiating ~ Activo, radiación directa | Active, bass reflex ~ Activo, bass reflex | Active, bass reflex ~ Activo, bass reflex | Active, bass reflex ~ Activo, bass reflex | Active, bass reflex ~ Activo, bass reflex
+  PT[Woofer/Woofer]: 18" long-excursion ~ 18" de gran excursión | 18" with 4" voice coil ~ 18" con bobina de 4" | EVS-18L 18" ~ EVS-18L de 18" | 918SG 18" ferrite ~ 918SG de 18" de ferrita | 18" with 4" voice coil ~ 18" con bobina de 4"
+  PT[Power/Potencia]: 3600W peak Class-D ~ 3600W pico Class-D | 2500W peak / 1250W RMS ~ 2500W pico / 1250W RMS | 1200W Class-D ~ 1200W Class-D | 2000W peak / 1000W RMS ~ 2000W pico / 1000W RMS | 1600W max Class-D ~ 1600W máx Class-D
+  PT[Frequency Response/Respuesta de Frecuencia]: 35-111 Hz (-10 dB) ~ 35-111 Hz (-10 dB) | 30-120 Hz ~ 30-120 Hz | 40-145 Hz (-10 dB) ~ 40-145 Hz (-10 dB) | 30-110 Hz (-10 dB) ~ 30-110 Hz (-10 dB) | 30-150 Hz (-10 dB) ~ 30-150 Hz (-10 dB)
+  PT[Max SPL/SPL Máximo]: 136 dB ~ 136 dB | 136 dB ~ 136 dB | 132 dB ~ 132 dB | 134 dB ~ 134 dB | 136 dB ~ 136 dB
+  PT[Cardioid Mode/Modo Cardioide]: Yes (2 units) ~ Sí (2 unidades) | Yes ~ Sí | No ~ No | No ~ No | Yes ~ Sí
+  PT[DSP & Control/DSP y Control]: DEEP mode, scenes, crossover, delay ~ Modo DEEP, escenas, crossover, delay | Xover, phase, Deep/Punch, delay, cardioid ~ Xover, fase, Deep/Punch, delay, cardioide | QuickSmartDSP + app (6 units) ~ QuickSmartDSP + app (6 unidades) | 6-band EQ, lowpass, delay via BLE app ~ EQ de 6 bandas, lowpass, delay vía app BLE | D-XSUB modes + cardioid, FIR-X ~ Modos D-XSUB + cardioide, FIR-X
+  PT[Weight/Peso]: 47 kg (104 lb) ~ 47 kg (104 lb) | 56 kg (123.5 lb) ~ 56 kg (123,5 lb) | 29 kg (64 lb) ~ 29 kg (64 lb) | 40.7 kg (89.7 lb) ~ 40,7 kg (89,7 lb) | 48.9 kg (107.8 lb) ~ 48,9 kg (107,8 lb)
+  PT[Price/Precio]: $1999 ~ $1999 | $3,599 ~ $3,599 | $999 ~ $999 | $1,449 ~ $1,449 | $1,699 ~ $1,699
+
+AUDIT_FLAGS:
+[TOO_SHORT] best-live-subwoofers / QSC KS118 Powered Subwoofer / pros: Four heavy-duty casters included
+[TOO_SHORT] best-live-subwoofers / RCF SUB 8004-AS / pros: PowerCON in/out and M20 pole cup
+[TOO_SHORT] best-live-subwoofers / Yamaha DXS18XLF / pros: 136 dB with 96 kHz FIR-X DSP
+[TOO_SHORT] best-live-subwoofers / Yamaha DXS18XLF / cons: 48.9 kg is the heaviest sub here
+
+# GUIDE: wireless-lapel-mics
+TITLE: Best Wireless Lapel Mics for Content Creators (2026)
+TITLE_ES: Mejores Micrófonos de Solapa Inalámbricos para Creadores de Contenido (2026)
+VPC:
+
+[P] DJI Mic 2
+  P0: 32-bit float with backup track on the transmitter
+  P1: Up to 250m range and 18-hour battery with the case
+  P2: Intelligent noise cancelling cleans up ambient hum
+  P3: Often found at $199 against a $349 MSRP
+  PE0: 32-bit float con pista de respaldo en el transmisor
+  PE1: Hasta 250m de alcance y 18 horas de batería con el estuche
+  PE2: La cancelación inteligente de ruido limpia el zumbido ambiente
+  PE3: A menudo a $199 frente a un precio sugerido de $349
+  C0: Bulkier USB-C dongle than a bare phone plug
+  C1: No touchscreen interface on the receiver
+  C2: No 3.5mm headphone out on the receiver
+  CE0: Dongle USB-C más voluminoso que un conector de teléfono pelado
+  CE1: Sin interfaz de pantalla táctil en el receptor
+  CE2: Sin salida de auriculares de 3.5mm en el receptor
+
+[P] Rode Wireless PRO
+  P0: On-board 32GB recording per transmitter as a safety file
+  P1: Timecode sync keeps multi-camera edits aligned
+  P2: GainAssist sets levels automatically during interviews
+  P3: Price cut from $399 to $299 in late 2025
+  PE0: Grabación a bordo de 32GB por transmisor como archivo de seguridad
+  PE1: La sincronización por timecode mantiene alineadas las ediciones multicámara
+  PE2: GainAssist ajusta los niveles automáticamente durante las entrevistas
+  PE3: Precio bajado de $399 a $299 a finales de 2025
+  C0: Larger transmitters and receivers than compact rivals
+  C1: Aimed at camera rigs rather than quick phone clips
+  C2: Premium price even after the price cut
+  CE0: Transmisores y receptores más grandes que los rivales compactos
+  CE1: Pensado para rigs de cámara más que para clips rápidos de teléfono
+  CE2: Precio premium incluso tras la bajada de precio
+
+[P] Hollyland Lark M2
+  P0: Best value — 9g transmitters at only $76
+  P1: 4.7/5 across 3,519 Amazon reviews
+  P2: USB-C receiver plugs straight into a phone
+  P3: Up to 300m range with a 70dB signal-to-noise ratio
+  PE0: Mejor valor — transmisores de 9g por solo $76
+  PE1: 4.7/5 en 3,519 reseñas de Amazon
+  PE2: El receptor USB-C se conecta directo al teléfono
+  PE3: Hasta 300m de alcance con una relación señal-ruido de 70dB
+  C0: No on-board recording or 32-bit float safety net
+  C1: 10-hour transmitter battery needs the charging case on long shoots
+  C2: No timecode sync for multi-camera setups
+  CE0: Sin grabación a bordo ni red de seguridad de 32-bit float
+  CE1: La batería de 10 horas del transmisor necesita el estuche en rodajes largos
+  CE2: Sin sincronización por timecode para setups multicámara
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: All-round creators who want everything balanced ~ Creadores todo-en-uno que quieren equilibrio | Interviewers who cannot afford a lost take ~ Entrevistadores que no pueden perder una toma | Phone-first creators on a budget ~ Creadores de teléfono con presupuesto ajustado
+  PT[Recording/Grabación]: 32-bit float + backup track on transmitter ~ 32-bit float + pista de respaldo en el transmisor | 32-bit float, 32GB on-board per transmitter ~ 32-bit float, 32GB a bordo por transmisor | 48kHz/24-bit, no on-board recording ~ 48kHz/24-bit, sin grabación a bordo
+  PT[Range/Alcance]: Up to 250m ~ Hasta 250m | Up to 260m ~ Hasta 260m | Up to 300m (1000ft) ~ Hasta 300m (1000 pies)
+  PT[Battery/Batería]: Up to 18 hours with charging case ~ Hasta 18 horas con estuche de carga | Up to 7 hours per unit, smart charging case ~ Hasta 7 horas por unidad, estuche de carga inteligente | 10 hours per transmitter, 30 with case ~ 10 horas por transmisor, 30 con estuche
+  PT[Amazon Rating/Valoración en Amazon]: 4.6/5 (5,086 reviews) ~ 4.6/5 (5,086 reseñas) | 4.5/5 (1,287 reviews) ~ 4.5/5 (1,287 reseñas) | 4.7/5 (3,519 reviews) ~ 4.7/5 (3,519 reseñas)
+  PT[Price/Precio]: $199 ~ $199 | $299 ~ $299 | $76 ~ $76
+
+AUDIT_FLAGS:
+[CONS_LE_3] wireless-lapel-mics / DJI Mic 2: 3 cons only: Bulkier USB-C dongle than a bare phone plug | No touchscreen interface on the receiver | No 3.5mm headphone out on the receiver
+[CONS_LE_3] wireless-lapel-mics / Rode Wireless PRO: 3 cons only: Larger transmitters and receivers than compact rivals | Aimed at camera rigs rather than quick phone clips | Premium price even after the price cut
+[TOO_SHORT] wireless-lapel-mics / Hollyland Lark M2 / pros: 4.7/5 across 3,519 Amazon reviews
+[CONS_LE_3] wireless-lapel-mics / Hollyland Lark M2: 3 cons only: No on-board recording or 32-bit float safety net | 10-hour transmitter battery needs the charging case on long shoots | No timecode sync for multi-camera setups
+
+# GUIDE: midi-controllers
+TITLE: Best MIDI Controllers for Studio
+TITLE_ES: Mejores Controladores MIDI para Estudio
+VPC:
+
+[P] Yamaha Montage M8x
+  P0: 88-key weighted action that feels like a real piano
+  P1: AN-X and FM-X engines cover every synthesis type
+  P2: Motion control and seamless DAW integration
+  P3: Replaces a keyboard controller, synthesizer and sound module in one instrument
+  PE0: Acción ponderada de 88 teclas que se siente como un piano real
+  PE1: Los motores AN-X y FM-X cubren cada tipo de síntesis
+  PE2: Control de movimiento e integración perfecta con el DAW
+  PE3: Sustituye un controlador de teclado, un sintetizador y un módulo de sonido en un solo instrumento
+  C0: At $4,699 it's a serious investment
+  C1: Overkill if you work primarily in the box
+  C2: Heavier and far less portable than a dedicated MIDI controller
+  CE0: A $4,699 es una inversión seria
+  CE1: Excesivo si trabajas principalmente dentro de la caja
+  CE2: Más pesado y mucho menos portátil que un controlador MIDI dedicado
+
+[P] Arturia KeyLab Essential 61 MkIII
+  P0: Includes Analog Lab with thousands of professional synth and keyboard sounds
+  P1: Deep integration with Ableton Live, Logic and other major DAWs
+  P2: Polyphonic aftertouch usually found on controllers costing three times as much
+  P3: 61 keys allow two-handed playing without taking over your desk
+  PE0: Incluye Analog Lab con miles de sonidos profesionales de sintetizador y teclado
+  PE1: Integración profunda con Ableton Live, Logic y otros DAW importantes
+  PE2: Aftertouch polifónico, algo que normalmente se encuentra en controladores que cuestan el triple
+  PE3: 61 teclas permiten tocar a dos manos sin ocupar todo el escritorio
+  C0: Keybed is synth-action, not hammer-weighted
+  C1: Lightweight plastic chassis versus premium controllers
+  C2: Analog Lab is bundled, but full Analog Lab instrument libraries are sold separately
+  CE0: El teclado es de acción de sintetizador, no con martillos ponderados
+  CE1: Chasis de plástico ligero frente a controladores premium
+  CE2: Analog Lab viene incluido, pero las bibliotecas completas de instrumentos se venden aparte
+
+[P] SSL UF8 DAW Controller
+  P0: Eight motorized, touch-sensitive faders
+  P1: The same workflow SSL perfected over decades of console building
+  P2: LED meters and MCU/HUI protocol work with every major DAW
+  P3: Lets you mix by feel — riding vocals and balancing drums by ear
+  PE0: Ocho faders motorizados y sensibles al tacto
+  PE1: El mismo flujo de trabajo que SSL perfeccionó durante décadas construyendo consolas
+  PE2: Medidores LED y protocolo MCU/HUI que funcionan con todos los DAW importantes
+  PE3: Te permite mezclar por sensación — conduciendo voces y equilibrando baterías de oído
+  C0: At $1,199 it's a professional investment
+  C1: No keys — you still need a separate keyboard controller
+  C2: Full functionality needs compatible touch-capable plugins
+  CE0: A $1,199 es una inversión profesional
+  CE1: Sin teclas — aún necesitas un controlador de teclado aparte
+  CE2: La funcionalidad completa necesita plugins compatibles con control táctil
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Flagship synth workstation ~ Workstation de sintetizadores tope de gama | Budget controller with hands-on control ~ Controlador económico con control físico | Hands-on DAW channel control ~ Control manual de canales de tu DAW
+  PT[Type/Tipo]: Synth workstation ~ Workstation de sintetizadores | MIDI controller ~ Controlador MIDI | DAW controller ~ Controlador de DAW
+  PT[Connectivity/Conectividad]: MIDI, USB, 2x assignable out ~ MIDI, USB, 2 salidas asignables | USB-C, 9 encoders, pads ~ USB-C, 9 encoders, pads | 8 motorized faders, USB ~ 8 faders motorizados, USB
+  PT[Price/Precio]: $4,699 ~ $4.699 | $299 ~ $299 | $1,199 ~ $1.199
+
+AUDIT_FLAGS:
+[CONS_LE_3] midi-controllers / Yamaha Montage M8x: 3 cons only: At $4,699 it's a serious investment | Overkill if you work primarily in the box | Heavier and far less portable than a dedicated MIDI controller
+[CONS_LE_3] midi-controllers / Arturia KeyLab Essential 61 MkIII: 3 cons only: Keybed is synth-action, not hammer-weighted | Lightweight plastic chassis versus premium controllers | Analog Lab is bundled, but full Analog Lab instrument libraries are sold separately
+[CONS_LE_3] midi-controllers / SSL UF8 DAW Controller: 3 cons only: At $1,199 it's a professional investment | No keys — you still need a separate keyboard controller | Full functionality needs compatible touch-capable plugins
+
+# GUIDE: m50x-vs-mdr7506
+TITLE: ATH-M50x vs MDR-7506: Best Closed-Back for $169?
+TITLE_ES: ATH-M50x vs MDR-7506: ¿Mejores Cerrados por $169?
+FS_SPECS:
+  [undefined / Tipo]: Closed-back || Closed-back
+  [undefined / Respuesta de Frecuencia]: 15 Hz – 28 kHz || 10 Hz – 20 kHz
+  [undefined / Impedancia]: 38 Î© || 63 Î©
+  [undefined / Driver]: 45 mm CCAW || 40 mm dynamic
+  [undefined / SPL]: 99 dB || 106 dB
+COMPARISON:
+  [Year / Año]: 2014 || 1991
+  [Type / Tipo]: Closed-back || Closed-back
+  [Best For / Ideal Para]: All-purpose monitoring || Budget mixing and broadcast
+  [Frequency Response / Respuesta de Frecuencia]: 15 Hz – 28 kHz || 10 Hz – 20 kHz
+  [Impedance / Impedancia]: 38 Ω || 63 Ω
+  [Driver / Driver]: 45 mm CCAW || 40 mm dynamic
+  [Sensitivity (SPL) / Sensibilidad (SPL)]: 99 dB || 106 dB
+  [Max Input Power / Potencia Máx. de Entrada]: 1,600 mW || 1,000 mW
+  [Cable / Cable]: Detachable (3 included) || Fixed coiled, 3 m
+  [Weight / Peso]: 285 g || 230 g
+  [Price / Precio]: $169 || $99
+VPC:
+
+[P] Audio-Technica ATH-M50x
+  P0: Detachable cable system with three included cables gives flexibility for portable use studio rack positioning or silent practice without cable swap hassle
+  P1: Collapsible design with 90-degree rotating earcups folds flat into included carrying pouch, the most portable full-size studio headphones under $200
+  P2: CCAW copper-clad aluminum wire voice coil reduces moving mass for faster transient response, giving percussion better attack definition
+  P3: Extended bass response with gentle bump around 100Hz gives kick drums a satisfying thump without overwhelming mids, translating well across consumer systems
+  P4: Circumaural earcups with protein leather pads create reliable passive isolation blocking moderate ambient noise in shared workspaces
+  PE0: Sistema de cable desmontable con tres cables incluidos da flexibilidad para uso portátil estudio o práctica silenciosa
+  PE1: Diseño plegable con copas giratorias se pliega plano en bolsa incluida, los auriculares de estudio más portátiles bajo $200
+  PE2: Bobina CCAW reduce masa móvil para respuesta transitoria más rápida dando mejor definición de ataque a la percusión
+  PE3: Respuesta de graves extendida con suave realce alrededor de 100Hz da a bombos golpe satisfactorio sin abrumar medios
+  PE4: Copas circumaurales con almohadillas de cuero proteico crean aislamiento pasivo fiable bloqueando ruido ambiental moderado
+  C0: V-shaped frequency response with scooped lower-mids around 300-500Hz makes vocals and guitars sound less present and slightly hollow
+  C1: Earpad leather material flakes and peels after 12-18 months of regular use, shedding black particles and requiring aftermarket replacement
+  C2: Thin headband padding causes hotspot pain on larger heads after 2-3 hours of continuous wear
+  C3: Soundstage feels closed-in and intimate with good left-right imaging but poor depth perception and three-dimensional air
+  CE0: Respuesta en V con medios-graves escapados alrededor de 300-500Hz hace que voces y guitarras suenen menos presentes y huecas
+  CE1: Cuero de almohadillas se descama tras 12-18 meses de uso soltando partículas negras y requiriendo reemplazo aftermarket
+  CE2: Acolchado fino de diadema causa dolor en cabezas grandes tras 2-3 horas
+  CE3: Escenario sonoro cerrado e íntimo con buena imagen izquierda-derecha pero pobre profundidad y aire tridimensional
+
+[P] Sony MDR-7506
+  P0: Extremely lightweight at under 230 grams with low clamping force — comfortable for 8+ hour sessions without any discomfort
+  P1: Sealed earcup with foam pads provides better isolation than any closed-back competitor in its price range for location sound and field recording
+  P2: Neutral midrange with gentle presence bump reveals detail without exaggerated sibilance or harshness, ideal for critical A/B comparisons
+  P3: Collapsible folding design fits in any backpack pocket, the standard for news crews and location engineers needing reliable monitoring in a carry-on
+  P4: Over 30 years of continuous production with universal parts availability worldwide
+  PE0: Extremadamente ligeros menos de 230 gramos con baja fuerza de sujeción cómodos para sesiones de 8+ horas
+  PE1: Copa sellada con almohadillas de espuma proporciona mejor aislamiento que competidores cerrados en su rango de precio
+  PE2: Rango medio neutro con suave realce de presencia revela detalle sin sibilancia exagerada
+  PE3: Diseño plegable compacto cabe en cualquier bolsillo de mochila, estándar para equipos de noticias
+  PE4: Más de 30 años de producción continua con disponibilidad universal de piezas en todo el mundo
+  C0: Foam earpads degrade and compress within 6-12 months, reducing isolation and changing frequency response requiring periodic OEM pad replacement
+  C1: Permanently attached coiled cable is a single point of failure requiring soldering repair if damaged
+  C2: Bass response rolls off below 80Hz with no sub-bass extension, inadequate for electronic music or deep low-end content
+  C3: Smaller 40mm driver results in lower maximum SPL before distortion and less dynamic headroom than 45mm competitors
+  CE0: Almohadillas de espuma se degradan en 6-12 meses reduciendo aislamiento y cambiando respuesta requiriendo reemplazo periódico
+  CE1: Cable en espiral permanentemente fijado es punto único de fallo requiriendo soldadura si se daña
+  CE2: Respuesta de graves cae por debajo de 80Hz sin extensión de subgraves inadecuada para música electrónica
+  CE3: Driver de 40mm menor SPL máximo antes de distorsión y menos margen dinámico que competidores de 45mm
+
+AUDIT_FLAGS:
+[GENERIC] m50x-vs-mdr7506 / Audio-Technica ATH-M50x / pros: Circumaural earcups with protein leather pads create reliable passive isolation blocking moderate ambient noise in shared workspaces
+[GENERIC] m50x-vs-mdr7506 / Audio-Technica ATH-M50x / cons: Soundstage feels closed-in and intimate with good left-right imaging but poor depth perception and three-dimensional air
+[GENERIC] m50x-vs-mdr7506 / Sony MDR-7506 / pros: Collapsible folding design fits in any backpack pocket, the standard for news crews and location engineers needing reliable monitoring in a carry-on
+
+# GUIDE: best-daw-for-beginners
+TITLE: Best DAW for Beginners [Which Should You Pick?]
+TITLE_ES: Mejor DAW para Principiantes [¿Cuál Deberías Elegir?]
+VPC:
+
+[P] Ableton Live 12 Suite
+  P0: Session View launches clips and loops in real time for improvisation and live sets
+  P1: First-rate built-in instruments (Wavetable, Operator, Sampler) and effects
+  P2: Max for Live opens thousands of user-created devices
+  P3: Massive community with tutorials for anything you want to learn
+  PE0: La Session View lanza clips y loops en tiempo real para improvisación y sets en vivo
+  PE1: Instrumentos integrados de primer nivel (Wavetable, Operator, Sampler) y efectos
+  PE2: Max for Live abre miles de dispositivos creados por usuarios
+  PE3: Comunidad enorme con tutoriales para cualquier cosa que quieras aprender
+  C0: At $799 it's the most expensive of the beginner trio
+  C1: Session View workflow is less efficient for linear recording of live bands
+  C2: Pro Tools and Cubase are more streamlined for traditional studio tracking
+  CE0: Por $799 es el más caro del trío para principiantes
+  CE1: El flujo de la Session View es menos eficiente para grabar bandas en vivo de forma lineal
+  CE2: Pro Tools y Cubase son más ágiles para la grabación tradicional de estudio
+
+[P] FL Studio Producer Edition
+  P0: $199 one-time with lifetime free updates — the cheapest option in the long run
+  P1: Pattern-based workflow is intuitive for beat-makers and hip-hop producers
+  P2: Piano roll widely considered the best in any DAW for programming MIDI
+  P3: Powerful stock plugins including Sytrus, Harmless, and Gross Beat
+  PE0: $199 de pago único con actualizaciones gratuitas de por vida — la opción más barata a largo plazo
+  PE1: El flujo basado en patrones es intuitivo para creadores de beats y productores de hip-hop
+  PE2: El piano roll está considerado el mejor de cualquier DAW para programar MIDI
+  PE3: Potentes plugins incluidos como Sytrus, Harmless y Gross Beat
+  C0: Its unique workflow differs from traditional DAWs — switching later means relearning fundamentals
+  C1: The pattern-then-playlist mindset is a learning curve if you come from linear DAWs
+  C2: Heavy automation and arrangement work can feel less structured than a timeline DAW
+  CE0: Su flujo único difiere de los DAW tradicionales — cambiar después implica reaprender fundamentos
+  CE1: La mentalidad de patrón-then-playlist es una curva de aprendizaje si vienes de DAW lineales
+  CE2: El trabajo de automatización y arreglo puede sentirse menos estructurado que en un DAW de timeline
+
+[P] Logic Pro
+  P0: $199.99 one-time with all major updates free — the best value of any professional DAW
+  P1: AI Session Players (Bass, Keyboard, Synth, Drummer) build realistic backing tracks
+  P2: Stem Splitter separates vocals, drums, bass, and other instruments from any audio file
+  P3: Massive built-in library rivaling Kontakt, plus Dolby Atmos authoring
+  PE0: $199.99 de pago único con todas las actualizaciones importantes gratis — el mejor valor de cualquier DAW profesional
+  PE1: Los AI Session Players (Bass, Keyboard, Synth, Drummer) crean pistas de acompañamiento realistas
+  PE2: El Stem Splitter separa voces, batería, bajo y otros instrumentos de cualquier archivo de audio
+  PE3: Biblioteca integrada enorme que rivaliza con Kontakt, más autoría en Dolby Atmos
+  C0: Mac-only — you cannot run it on Windows
+  C1: Optimized for Apple Silicon, so older Intel Macs aren't the target
+  C2: Nothing else matches its value, but only if you're already in the Apple ecosystem
+  CE0: Solo para Mac — no puedes ejecutarlo en Windows
+  CE1: Optimizado para Apple Silicon, así que las Mac Intel antiguas no son el objetivo
+  CE2: Nada iguala su valor, pero solo si ya estás en el ecosistema Apple
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Electronic music & live performance ~ Música electrónica y directo | Beat-makers & lifetime updates ~ Beatmakers y actualizaciones de por vida | Post/audio-to-picture pros ~ Profesionales de post y audio para vídeo | MIDI + scoring workflows ~ Flujos MIDI y de partitura | Rack-based creative patching ~ Patch creativo basado en rack | All-in-one Mac production ~ Producción integral en Mac
+  PT[Type/Tipo]: DAW ~ DAW | DAW ~ DAW | DAW ~ DAW | DAW ~ DAW | DAW ~ DAW | DAW ~ DAW
+  PT[Platforms/Plataformas]: macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS only ~ Solo macOS
+  PT[Free Trial/Prueba Gratis]: 90 days ~ 90 días | Free forever (limited) ~ Gratis para siempre (limitado) | 30 days ~ 30 días | 30 days ~ 30 días | 30 days ~ 30 días | Free with new Macs ~ Gratis con Mac nuevos
+  PT[System Requirements/Requisitos del Sistema]: 4 GB RAM, multi-core ~ 4 GB RAM, multi-núcleo | 4 GB RAM ~ 4 GB RAM | 16 GB RAM recommended ~ 16 GB RAM recomendado | 8 GB RAM recommended ~ 8 GB RAM recomendado | 4 GB RAM ~ 4 GB RAM | Apple Silicon optimized ~ Optimizado para Apple Silicon
+  PT[Standout Feature/Característica Destacada]: Session View, Max for Live ~ Session View, Max for Live | Step sequencer, lifetime free updates ~ Secuenciador por pasos, updates gratis de por vida | Elastic audio, 512 tracks, cloud collab ~ Elastic audio, 512 pistas, colaboración en la nube | Studio to pro features, notation ~ De estudio a pro, notación | Virtual rack, CV patching, RE support ~ Rack virtual, patch CV, soporte RE | Included instruments, Flex Time ~ Instrumentos incluidos, Flex Time
+  PT[Price/Precio]: $799 ~ $799 | $199 ~ $199 | $599 ~ $599 | $579 ~ $579 | $300 ~ $300 | $199 ~ $199
+
+AUDIT_FLAGS:
+[CONS_LE_3] best-daw-for-beginners / Ableton Live 12 Suite: 3 cons only: At $799 it's the most expensive of the beginner trio | Session View workflow is less efficient for linear recording of live bands | Pro Tools and Cubase are more streamlined for traditional studio tracking
+[CONS_LE_3] best-daw-for-beginners / FL Studio Producer Edition: 3 cons only: Its unique workflow differs from traditional DAWs — switching later means relearning fundamentals | The pattern-then-playlist mindset is a learning curve if you come from linear DAWs | Heavy automation and arrangement work can feel less structured than a timeline DAW
+[CONS_LE_3] best-daw-for-beginners / Logic Pro: 3 cons only: Mac-only — you cannot run it on Windows | Optimized for Apple Silicon, so older Intel Macs aren't the target | Nothing else matches its value, but only if you're already in the Apple ecosystem
+

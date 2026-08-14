@@ -1,0 +1,836 @@
+{
+  "guides": {
+    "midi-keyboards": {
+      "verdictProsCons": [
+        {
+          "name": "Arturia KeyLab Essential 61 MkIII",
+          "name_es": "Arturia KeyLab Essential 61 MkIII",
+          "pros": [
+            "61 velocity-sensitive synth-action keys with polyphonic aftertouch in an 8.4 lb (3.8 kg) build",
+            "Deep integration with Analog Lab Pro (included), Ableton Live, and Logic Pro for mouse-free sound browsing",
+            "OLED screen shows parameter names as you tweak, plus genuinely useful chord mode and arpeggiator",
+            "At $299 it's the best bang-for-buck DAW controller on the market"
+          ],
+          "pros_es": [
+            "61 teclas de tipo sintetizador sensibles a la velocidad con aftertouch polifónico en un cuerpo de 3,8 kg",
+            "Integración profunda con Analog Lab Pro (incluido), Ableton Live y Logic Pro para explorar sonidos sin usar el mouse",
+            "Pantalla OLED que muestra nombres de parámetros mientras ajustas, más un modo de acordes y arpegiador realmente útiles",
+            "Por $299 es el controlador DAW con mejor relación calidad-precio del mercado"
+          ],
+          "cons": [
+            "61 synth-action keys don't offer the weighted feel a pianist needs",
+            "No built-in audio interface, so headphones and monitors need a separate box",
+            "9 encoders and pads but no faders for hands-on mixer control",
+            "Komplete Kontrol S61 ($599) adds a Fatar keybed and NKS browsing at double the price"
+          ],
+          "cons_es": [
+            "Las 61 teclas de tipo sintetizador no ofrecen la sensación ponderada que necesita un pianista",
+            "Sin interfaz de audio integrada, así que auriculares y monitores requieren una caja aparte",
+            "9 encoders y pads pero sin faders para control práctico del mezclador",
+            "El Komplete Kontrol S61 ($599) añade teclado Fatar y navegación NKS al doble de precio"
+          ]
+        },
+        {
+          "name": "Nord Stage 4 88",
+          "name_es": "Nord Stage 4 88",
+          "pros": [
+            "Triple Sensor keybed delivers the most expressive piano feel outside of a real grand",
+            "Seamless transitions between programs with no audio dropouts — critical for live performance",
+            "Redesigned Piano, Organ, and Synth engines plus 1GB of Nord Piano Library memory",
+            "MIDI, USB, and XLR outputs for both stage and studio"
+          ],
+          "pros_es": [
+            "El teclado Triple Sensor ofrece la sensación de piano más expresiva fuera de un piano de cola real",
+            "Transiciones perfectas entre programas sin cortes de audio — esenciales para el directo",
+            "Motores rediseñados de Piano, Órgano y Sintetizador más 1GB de memoria para la Nord Piano Library",
+            "Salidas MIDI, USB y XLR tanto para escenario como para estudio"
+          ],
+          "cons": [
+            "At $4,999 it's a major investment for a working musician",
+            "44 lb (20 kg) is a heavy load to haul between gigs",
+            "88 hammer-action keys are tiring for synth and organ-style playing",
+            "No built-in audio interface — headphones and monitors still need a separate box",
+            "It's a performance instrument, not a DAW controller: no pads or faders for hands-on mix control"
+          ],
+          "cons_es": [
+            "Por $4,999 es una inversión importante para un músico profesional",
+            "Sus 20 kg son una carga pesada para mover entre conciertos",
+            "Las 88 teclas de acción de martillo cansan al tocar synth y órgano",
+            "Sin interfaz de audio integrada — auriculares y monitores aún necesitan una caja aparte",
+            "Es un instrumento de escenario, no un controlador de DAW: sin pads ni faders para el control práctico de la mezcla"
+          ]
+        },
+        {
+          "name": "Yamaha Montage M8x",
+          "name_es": "Yamaha Montage M8x",
+          "pros": [
+            "Combines the new AN-X analog modeling engine with the legendary FM-X engine",
+            "88-key weighted action is one of the best keybeds Yamaha has ever made",
+            "Motion Control lets you layer, crossfade, and modulate in real time with the Super Knob",
+            "16-track pattern sequencer plus seamless DAW integration for studio and stage"
+          ],
+          "pros_es": [
+            "Combina el nuevo motor AN-X de modelado analógico con el legendario FM-X",
+            "La acción ponderada de 88 teclas es uno de los mejores teclados que Yamaha ha fabricado",
+            "El Motion Control permite superponer, hacer crossfade y modular en tiempo real con la Super Knob",
+            "Secuenciador de 16 pistas más integración perfecta con el DAW para estudio y escenario"
+          ],
+          "cons": [
+            "At $4,699 a software synth rig can deliver similar power for less",
+            "63.9 lb (29 kg) makes it a desk instrument rather than a portable one",
+            "Only 2 assignable outputs, so no dedicated XLR line outs like the Nord",
+            "No built-in speakers — it always needs external amplification",
+            "Deep FM-X and AN-X editing is menu-driven, which slows hands-on tweaking"
+          ],
+          "cons_es": [
+            "Por $4,699, un rig de sintetizadores software ofrece potencia similar por menos dinero",
+            "Sus 29 kg lo convierten en instrumento de escritorio más que portátil",
+            "Solo 2 salidas asignables, sin salidas XLR dedicadas como las del Nord",
+            "Sin altavoces integrados — siempre requiere amplificación externa",
+            "La edición profunda de FM-X y AN-X es por menús, lo que ralentiza los ajustes manuales"
+          ]
+        },
+        {
+          "name": "Native Instruments Komplete Kontrol S61",
+          "name_es": "Native Instruments Komplete Kontrol S61",
+          "pros": [
+            "Fatar semi-weighted keybed with a firm, responsive action in a 10.6 lb (4.8 kg) body",
+            "Light Guide RGB LEDs above each key show key zones, drum mappings, and scales",
+            "NKS browsing loads and maps Komplete and hundreds of third-party plugins from the keyboard",
+            "Built-in audio interface connects headphones and monitors directly"
+          ],
+          "pros_es": [
+            "Teclado semipesado Fatar con una acción firme y receptiva en un cuerpo de 4,8 kg",
+            "La Light Guide de LEDs RGB sobre cada tecla muestra zonas de teclas, mapeos de batería y escalas",
+            "La navegación NKS carga y mapea Komplete y cientos de plugins de terceros desde el teclado",
+            "Interfaz de audio integrada para conectar auriculares y monitores directamente"
+          ],
+          "cons": [
+            "At $599 it's twice the price of the KeyLab Essential 61 MkIII ($299)",
+            "Only justifies the cost if you're building a setup around the Native Instruments ecosystem",
+            "If you don't use NI software, a cheaper controller makes more sense",
+            "No pads or faders — the 8 knobs and screens cover instrument control, but drum programming and hands-on mixing need additional hardware",
+            "Semi-weighted action can't match the hammer-action keybeds of the Montage M8x and Nord Stage 4 88 for piano work"
+          ],
+          "cons_es": [
+            "Por $599 cuesta el doble que el KeyLab Essential 61 MkIII ($299)",
+            "Solo justifica el precio si montas tu setup alrededor del ecosistema Native Instruments",
+            "Si no usas software NI, un controlador más barato tiene más sentido",
+            "Sin pads ni faders — los 8 mandos y pantallas cubren el control de instrumentos, pero la programación de batería y la mezcla manual necesitan hardware adicional",
+            "La acción semipesada no iguala los teclados de martillo del Montage M8x y del Nord Stage 4 88 para piano"
+          ]
+        }
+      ]
+    },
+    "small-room-monitors": {
+      "verdictProsCons": [
+        {
+          "name": "JBL 305P MkII",
+          "name_es": "JBL 305P MkII",
+          "pros": [
+            "Image Control Waveguide delivers a wide, precise stereo image when you sit close",
+            "5-inch woofer minimizes room interaction in cramped desk setups",
+            "LF trim (-3dB, 0dB, +3dB) compensates for room-induced bass buildup",
+            "At $149 each they're the most affordable way into JBL pro monitoring"
+          ],
+          "pros_es": [
+            "La guía de onda Image Control ofrece una imagen estéreo amplia y precisa al sentarte cerca",
+            "El woofer de 5 pulgadas minimiza la interacción con la sala en escritorios apretados",
+            "El ajuste LF (-3dB, 0dB, +3dB) compensa la acumulación de graves inducida por la sala",
+            "Por $149 cada uno son la forma más asequible de entrar al monitoreo profesional de JBL"
+          ],
+          "cons": [
+            "5-inch woofer limits low-end reach — bass-heavy music will want a sub",
+            "82W total power is the lowest of the four",
+            "No DSP room correction like the KRK Rokit 7 G5",
+            "No Bluetooth or app — room tuning is limited to the three-position LF trim",
+            "The LF trim only adjusts low end, with no EQ for mids, highs, or room modes"
+          ],
+          "cons_es": [
+            "El woofer de 5 pulgadas limita el alcance de graves — la música con mucho bajo pedirá un sub",
+            "Los 82W de potencia total son los más bajos de los cuatro",
+            "Sin corrección de sala DSP como la KRK Rokit 7 G5",
+            "Sin Bluetooth ni app — el ajuste de sala se limita al trim LF de tres posiciones",
+            "El trim LF solo ajusta los graves, sin EQ para medios, agudos ni modos de sala"
+          ]
+        },
+        {
+          "name": "Kali Audio LP-6 V2",
+          "name_es": "Kali Audio LP-6 V2",
+          "pros": [
+            "3D Imaging Waveguide creates a wider sweet spot than almost any monitor in its class",
+            "LF and HF trims offer extensive room compensation including boundary EQ",
+            "Surprisingly deep, controlled bass for a 6.5-inch woofer",
+            "At $199 each it outperforms monitors costing twice as much in imperfect rooms"
+          ],
+          "pros_es": [
+            "La guía de onda 3D Imaging crea un punto dulce más amplio que casi cualquier monitor de su clase",
+            "Los ajustes LF y HF ofrecen amplia compensación de sala, incluido el boundary EQ",
+            "Graves sorprendentemente profundos y controlados para un woofer de 6.5 pulgadas",
+            "Por $199 cada uno supera a monitores del doble de precio, sobre todo en salas imperfectas"
+          ],
+          "cons": [
+            "6.5-inch woofer still can't reach the sub-bass extension of larger monitors",
+            "No DSP auto-calibration like the KRK Rokit 7 G5",
+            "80W of amplification is modest for larger rooms",
+            "No Bluetooth or app — room compensation is set by hand on the rear-panel LF/HF trims",
+            "Its trims apply fixed EQ curves, so a stubborn room mode can't be tamed with a parametric filter"
+          ],
+          "cons_es": [
+            "El woofer de 6.5 pulgadas aún no alcanza la extensión de subgraves de monitores más grandes",
+            "Sin calibración automática DSP como la KRK Rokit 7 G5",
+            "Sus 80W de amplificación son modestos para salas más grandes",
+            "Sin Bluetooth ni app — la compensación de sala se ajusta a mano con los trims LF/HF del panel trasero",
+            "Sus trims aplican curvas de EQ fijas, así que un modo de sala rebelde no se puede domar con un filtro paramétrico"
+          ]
+        },
+        {
+          "name": "KRK Rokit 7 G5",
+          "name_es": "KRK Rokit 7 G5",
+          "pros": [
+            "Built-in DSP EQ offers 25 settings (4-band parametric plus graphic presets) to dial out problem frequencies",
+            "7-inch Kevlar woofer delivers more low-end extension than 5-inch and 6.5-inch alternatives",
+            "Kevlar driver resists breakup at high SPL",
+            "Front-firing bass port suits monitors placed close to walls"
+          ],
+          "pros_es": [
+            "El EQ DSP integrado ofrece 25 ajustes (paramétrico de 4 bandas más presets gráficos) para eliminar frecuencias problemáticas",
+            "El woofer de Kevlar de 7 pulgadas ofrece más extensión de graves que los de 5 y 6.5 pulgadas",
+            "El driver de Kevlar resiste la rotura a alto SPL",
+            "El puerto de graves frontal es ideal para monitores colocados cerca de la pared"
+          ],
+          "cons": [
+            "At $269 each they're the most expensive of the four",
+            "DSP tuning takes time to dial in — it's not automatic calibration",
+            "Less flat than the Yamaha HS8 — Rokits add a punchy character",
+            "Response starts at 45 Hz, so it can't reach the 38 Hz depth of the Yamaha HS8",
+            "Max SPL of 110 dB trails the Kali LP-6 V2's 115 dB for louder rooms"
+          ],
+          "cons_es": [
+            "Por $269 cada uno son los más caros de los cuatro",
+            "El ajuste DSP requiere tiempo — no es calibración automática",
+            "Menos planas que la Yamaha HS8 — las Rokit añaden un carácter contundente",
+            "La respuesta empieza en 45 Hz, así que no alcanza los 38 Hz de profundidad de la Yamaha HS8",
+            "El SPL máximo de 110 dB queda por debajo de los 115 dB de la Kali LP-6 V2 para salas más ruidosas"
+          ]
+        },
+        {
+          "name": "Yamaha HS8",
+          "name_es": "Yamaha HS8",
+          "pros": [
+            "Brutally honest flat response that translates to other systems — what you hear is what you get",
+            "Front porting means you can place them close to walls without muddy bass",
+            "8-inch cone woofer delivers tight, accurate low end",
+            "Room Control and High Trim switches offer basic room compensation"
+          ],
+          "pros_es": [
+            "Respuesta plana brutalmente honesta que se traduce a otros sistemas — lo que oyes es lo que hay",
+            "El puerto frontal permite colocarlas cerca de la pared sin graves embarrados",
+            "El woofer de cono de 8 pulgadas ofrece graves ajustados y precisos",
+            "Los interruptores Room Control y High Trim ofrecen compensación básica de sala"
+          ],
+          "cons": [
+            "At $399 each they cost more than double the JBL 305P MkII",
+            "8-inch woofers in a small room can accumulate muddy pressure",
+            "Only basic two-position room switches, not DSP correction",
+            "No DSP or app — the two Room Control and High Trim switches are the only room tuning",
+            "The 38 Hz low end is rated at -10 dB, so its real bass reach is shallower than the spec suggests"
+          ],
+          "cons_es": [
+            "Por $399 cada una cuestan más del doble que la JBL 305P MkII",
+            "Los woofers de 8 pulgadas en una sala pequeña pueden acumular presión embarrada",
+            "Solo interruptores de sala básicos de dos posiciones, sin corrección DSP",
+            "Sin DSP ni app — los dos interruptores Room Control y High Trim son la única compensación de sala",
+            "Los 38 Hz de graves están medidos a -10 dB, así que su alcance real es menor de lo que sugiere la cifra"
+          ]
+        }
+      ]
+    },
+    "best-practice-amps": {
+      "verdictProsCons": [
+        {
+          "name": "Fender Champion II 25",
+          "name_es": "Fender Champion II 25",
+          "pros": [
+            "25W practice amp with 4 selectable voices (Classic, Modern, British, Hi Gain) for clean to high-gain tones",
+            "Built-in Fender reverb and effects with tap tempo for hands-on timing control",
+            "AUX input for jamming to songs and a headphone output for silent practice",
+            "Just $129 and 13 lb (5.9 kg), making it the cheapest and lightest first amp in this guide"
+          ],
+          "pros_es": [
+            "Ampli de práctica de 25W con 4 voces seleccionables (Classic, Modern, British, Hi Gain) para tonos limpios y de alta ganancia",
+            "Reverb Fender y efectos integrados con tap tempo para controlar el tiempo a mano",
+            "Entrada AUX para tocar con canciones y salida de auriculares para practicar en silencio",
+            "Solo $129 y 5,9 kg, el ampli de iniciación más barato y ligero de esta guía"
+          ],
+          "cons": [
+            "El altavoz de 8 pulgadas limita graves y headroom frente al de 12 pulgadas del Katana",
+            "25W no acompañan a una banda fuerte: es para uso doméstico",
+            "Sin salida de grabación ni loop de efectos para setups de home recording",
+            "Sin app ni edición por Bluetooth — el Katana 50 ofrece control mucho más profundo por $130 más"
+          ],
+          "cons_es": [
+            "El altavoz de 8 pulgadas limita graves y headroom frente al de 12 pulgadas del Katana",
+            "25W no acompañan a una banda fuerte: es para uso doméstico",
+            "Sin salida de grabación ni loop de efectos para setups de home recording",
+            "Sin app ni edición por Bluetooth — el Katana 50 ofrece control mucho más profundo por $130 más"
+          ]
+        },
+        {
+          "name": "Boss Katana 50 MkII",
+          "name_es": "Boss Katana 50 MkII",
+          "pros": [
+            "5 amp characters cover everything from pristine cleans to modern high gain",
+            "Built-in Boss effects mean no pedalboard needed for practice or small gigs",
+            "50W through a 12-inch speaker — loud enough for gigs, with a 0.5W mode for home",
+            "REC out and headphone output for silent practice and recording"
+          ],
+          "pros_es": [
+            "5 caracteres de amplificador cubren desde limpios impecables hasta high gain moderno",
+            "Los efectos Boss integrados evitan necesitar pedalera para practicar o tocar en pequeños conciertos",
+            "50W con altavoz de 12 pulgadas — suficiente para tocar en vivo, con modo de 0,5W para casa",
+            "Salida REC y auriculares para practicar en silencio y grabar"
+          ],
+          "cons": [
+            "$259 son $130 más que la Champion II 25 para presupuestos ajustados",
+            "25.5 lb — más pesado de mover que la Champion de 13 lb",
+            "Los efectos se editan por app/software, no con perillas directas",
+            "En apartamentos los 50W siguen siendo demasiado sin usar el modo de 0,5W"
+          ],
+          "cons_es": [
+            "$259 son $130 más que la Champion II 25 para presupuestos ajustados",
+            "11,6 kg — más pesado de mover que la Champion de 5,9 kg",
+            "Los efectos se editan por app/software, no con perillas directas",
+            "En apartamentos los 50W siguen siendo demasiado sin usar el modo de 0,5W"
+          ]
+        },
+        {
+          "name": "Orange Crush 35RT",
+          "name_es": "Orange Crush 35RT",
+          "pros": [
+            "Unmistakable British rock tone — the dirty channel nails Orange's gritty overdrive",
+            "Built-in tuner and digital reverb; 35W through a 10-inch Voice of the World speaker",
+            "Enough power for small gigs and jam sessions",
+            "At $229 it undercuts the Katana 50 MkII's $259 for players who want one signature rock tone"
+          ],
+          "pros_es": [
+            "Inconfundible tono rock británico — el canal dirty clava el overdrive rasposo de Orange",
+            "Afinador y reverb digital integrados; 35W a través de un altavoz Voice of the World de 10 pulgadas",
+            "Potencia suficiente para pequeños conciertos y sesiones de improvisación",
+            "A $229 cuesta menos que los $259 de la Katana 50 MkII para quien quiere un único tono rock de marca"
+          ],
+          "cons": [
+            "Un solo sonido de marca — mucho menos versátil que los 5 caracteres del Katana",
+            "Sin loop de efectos ni salida de grabación para uso en estudio",
+            "25.8 lb es el combo más pesado de los tres",
+            "Solo canales clean/dirty: sin modelado ni control por app"
+          ],
+          "cons_es": [
+            "Un solo sonido de marca — mucho menos versátil que los 5 caracteres del Katana",
+            "Sin loop de efectos ni salida de grabación para uso en estudio",
+            "11,7 kg es el combo más pesado de los tres",
+            "Solo canales clean/dirty: sin modelado ni control por app"
+          ]
+        }
+      ]
+    },
+    "best-live-subwoofers": {
+      "verdictProsCons": [
+        {
+          "name": "QSC KS118 Powered Subwoofer",
+          "name_es": "Subwoofer Activo QSC KS118",
+          "pros": [
+            "3600W Class-D with 136 dB peak output",
+            "Cardioid mode kills stage bass and feedback with two units",
+            "DEEP mode extends response to 35 Hz",
+            "Savable scenes for quick venue recall",
+            "Four heavy-duty casters included, so the 47 kg cabinet rolls to the van instead of being lifted"
+          ],
+          "pros_es": [
+            "3600W Class-D con 136 dB de salida pico",
+            "El modo cardioide elimina graves y acoples en escenario con dos unidades",
+            "El modo DEEP extiende la respuesta a 35 Hz",
+            "Escenas guardables para recuperar ajustes de sala al instante",
+            "Cuatro ruedas resistentes incluidas, para que la caja de 47 kg ruede hasta la furgoneta en vez de cargarla"
+          ],
+          "cons": [
+            "$1999 is the second-highest price here",
+            "47 kg with casters, still heavy to lift alone",
+            "Cardioid mode needs a second KS118, doubling the investment to nearly $4000",
+            "Response tops out at 111 Hz, so the tops must carry everything above sub-bass"
+          ],
+          "cons_es": [
+            "$1999 es el segundo precio más alto de la lista",
+            "47 kg con ruedas, sigue pesando para levantarla solo",
+            "El modo cardioide necesita una segunda KS118, duplicando la inversión a casi $4000",
+            "La respuesta llega solo hasta 111 Hz, así que los tops deben encargarse de todo lo que esté por encima del sub-bajo"
+          ]
+        },
+        {
+          "name": "RCF SUB 8004-AS",
+          "name_es": "RCF SUB 8004-AS",
+          "pros": [
+            "Fast, articulate low end that cuts through rock and metal",
+            "136 dB with an 18-inch woofer and 4-inch voice coil",
+            "Full DSP: Xover, phase, Deep/Punch, delay, cardioid",
+            "Tour-grade Baltic birch cabinet at 56 kg",
+            "PowerCON in/out lets you daisy-chain power between boxes, and the M20 pole cup mounts a satellite top"
+          ],
+          "pros_es": [
+            "Graves rápidos y articulados que cortan en rock y metal",
+            "136 dB con woofer de 18\" y bobina de 4\"",
+            "DSP completo: Xover, fase, Deep/Punch, delay, cardioide",
+            "Gabinete de abedul báltico de gira a 56 kg",
+            "PowerCON in/out permite encadenar la corriente entre cajas, y el socket M20 monta un top satélite"
+          ],
+          "cons": [
+            "$3599 is the highest price in this guide",
+            "Convection cooling means it needs room to breathe",
+            "56 kg is the heaviest box in the guide to load out",
+            "Its $3599 premium only pays off on the loudest stages; most bands will not use that headroom"
+          ],
+          "cons_es": [
+            "$3599 es el precio más alto de esta guía",
+            "La refrigeración por convección necesita espacio para respirar",
+            "56 kg es la caja más pesada de la lista para cargar",
+            "Su prima de $3599 solo se justifica en escenarios muy ruidosos; la mayoría de las bandas no usará ese margen"
+          ]
+        },
+        {
+          "name": "Electro-Voice ELX200-18SP",
+          "name_es": "Electro-Voice ELX200-18SP",
+          "pros": [
+            "Only 29 kg, the easiest 18-inch sub to load",
+            "$999 is the best value in the group",
+            "QuickSmartDSP presets plus five user slots",
+            "App controls up to six ELX200 units out front",
+            "Low-pass from 80 to 150 Hz pairs with any top"
+          ],
+          "pros_es": [
+            "Solo 29 kg, el sub de 18\" más fácil de cargar",
+            "$999 es la mejor relación calidad-precio del grupo",
+            "Presets QuickSmartDSP más cinco slots de usuario",
+            "La app controla hasta seis unidades ELX200 desde delante",
+            "Low-pass de 80 a 150 Hz que empareja con cualquier top"
+          ],
+          "cons": [
+            "132 dB is the lowest SPL in this group",
+            "Single-amp design with no cardioid mode",
+            "Response starts at 40 Hz, the shallowest low end of the five subs",
+            "1200W is the smallest amplifier in the group"
+          ],
+          "cons_es": [
+            "132 dB es el SPL más bajo de este grupo",
+            "Diseño de un solo amplificador sin modo cardioide",
+            "La respuesta baja solo hasta 40 Hz, el extremo grave menos profundo de los cinco subs",
+            "1200W es el amplificador más pequeño del grupo"
+          ]
+        },
+        {
+          "name": "JBL PRX918XLF",
+          "name_es": "JBL PRX918XLF",
+          "pros": [
+            "6-band parametric EQ and delay via Bluetooth app",
+            "134 dB with quiet fanless operation",
+            "Seven-year warranty for long-term confidence",
+            "Familiar PRX900 sound engineers already know"
+          ],
+          "pros_es": [
+            "EQ paramétrica de 6 bandas y delay vía app Bluetooth",
+            "134 dB con funcionamiento silencioso sin ventilador",
+            "Garantía de siete años para confianza a largo plazo",
+            "El sonido PRX900 que los técnicos ya conocen"
+          ],
+          "cons": [
+            "$1449 sits in the middle of the price range",
+            "Only one pole cup and no cardioid option",
+            "40.7 kg still demands two people for stairs and van loading",
+            "At 134 dB it trails the 136 dB boxes by 2 dB of peak output"
+          ],
+          "cons_es": [
+            "$1449 queda en el medio del rango de precios",
+            "Solo un socket de mástil y sin opción cardioide",
+            "40,7 kg siguen exigiendo dos personas para escaleras y furgoneta",
+            "Con 134 dB se queda 2 dB por debajo de las cajas de 136 dB"
+          ]
+        },
+        {
+          "name": "Yamaha DXS18XLF",
+          "name_es": "Yamaha DXS18XLF",
+          "pros": [
+            "Deepest response in the group, down to 30 Hz",
+            "136 dB peak output run through a 96 kHz FIR-X DSP, with NORMAL, BOOST, XTENDED LF and cardioid D-XSUB modes on tap",
+            "D-XSUB modes: NORMAL, BOOST, XTENDED LF and cardioid",
+            "Polyurea coating survives touring abuse",
+            "Extended warranty options from Yamaha"
+          ],
+          "pros_es": [
+            "La respuesta más profunda del grupo, hasta 30 Hz",
+            "136 dB de salida pico procesados por un DSP FIR-X de 96 kHz, con modos D-XSUB NORMAL, BOOST, XTENDED LF y cardioide a mano",
+            "Modos D-XSUB: NORMAL, BOOST, XTENDED LF y cardioide",
+            "El recubrimiento de poliurea sobrevive a la gira",
+            "Opciones de garantía ampliada de Yamaha"
+          ],
+          "cons": [
+            "Casters sold separately is a stingy move at $1699",
+            "48.9 kg makes it the second-heaviest box here — a two-person job for stairs and van loading",
+            "At $1699 plus optional casters, it is the third most expensive sub here",
+            "Its 1600W amplifier is the smallest of the three 136 dB boxes"
+          ],
+          "cons_es": [
+            "Ruedas aparte es un detalle tacaño a $1699",
+            "48,9 kg lo convierten en la segunda caja más pesada de la lista — un trabajo para dos personas en escaleras y furgoneta",
+            "A $1699 más ruedas opcionales, es el tercer sub más caro de la lista",
+            "Su amplificador de 1600W es el más pequeño de las tres cajas de 136 dB"
+          ]
+        }
+      ]
+    },
+    "wireless-lapel-mics": {
+      "verdictProsCons": [
+        {
+          "name": "DJI Mic 2",
+          "name_es": "DJI Mic 2",
+          "pros": [
+            "32-bit float with backup track on the transmitter",
+            "Up to 250m range and 18-hour battery with the case",
+            "Intelligent noise cancelling cleans up ambient hum",
+            "Often found at $199 against a $349 MSRP"
+          ],
+          "pros_es": [
+            "32-bit float con pista de respaldo en el transmisor",
+            "Hasta 250m de alcance y 18 horas de batería con el estuche",
+            "La cancelación inteligente de ruido limpia el zumbido ambiente",
+            "A menudo a $199 frente a un precio sugerido de $349"
+          ],
+          "cons": [
+            "Bulkier USB-C dongle than a bare phone plug",
+            "No touchscreen interface on the receiver",
+            "No 3.5mm headphone out on the receiver",
+            "No timecode sync — multi-camera edits must be aligned by hand, a feature the Rode Wireless PRO includes",
+            "The 250m range and 18-hour runtime are best-case figures that need the charging case and open air"
+          ],
+          "cons_es": [
+            "Dongle USB-C más voluminoso que un conector de teléfono pelado",
+            "Sin interfaz de pantalla táctil en el receptor",
+            "Sin salida de auriculares de 3.5mm en el receptor",
+            "Sin sincronización por timecode — las ediciones multicámara deben alinearse a mano, una función que sí incluye la Rode Wireless PRO",
+            "Los 250m de alcance y las 18 horas son cifras óptimas que requieren el estuche de carga y espacio abierto"
+          ]
+        },
+        {
+          "name": "Rode Wireless PRO",
+          "name_es": "Rode Wireless PRO",
+          "pros": [
+            "On-board 32GB recording per transmitter as a safety file",
+            "Timecode sync keeps multi-camera edits aligned",
+            "GainAssist sets levels automatically during interviews",
+            "Price cut from $399 to $299 in late 2025"
+          ],
+          "pros_es": [
+            "Grabación a bordo de 32GB por transmisor como archivo de seguridad",
+            "La sincronización por timecode mantiene alineadas las ediciones multicámara",
+            "GainAssist ajusta los niveles automáticamente durante las entrevistas",
+            "Precio bajado de $399 a $299 a finales de 2025"
+          ],
+          "cons": [
+            "Larger transmitters and receivers than compact rivals",
+            "Aimed at camera rigs rather than quick phone clips",
+            "Premium price even after the price cut",
+            "At 7 hours per unit, battery life is the shortest of the three",
+            "Its 260m range falls short of the Lark M2's 300m for outdoor shoots"
+          ],
+          "cons_es": [
+            "Transmisores y receptores más grandes que los rivales compactos",
+            "Pensado para rigs de cámara más que para clips rápidos de teléfono",
+            "Precio premium incluso tras la bajada de precio",
+            "Con 7 horas por unidad, es la batería más corta de las tres",
+            "Sus 260m de alcance se quedan cortos frente a los 300m de la Lark M2 en rodajes al aire libre"
+          ]
+        },
+        {
+          "name": "Hollyland Lark M2",
+          "name_es": "Hollyland Lark M2",
+          "pros": [
+            "Best value — 9g transmitters at only $76",
+            "4.7/5 across 3,519 Amazon reviews — the top rating of the three, versus 4.6/5 for the DJI Mic 2 and 4.5/5 for the Rode Wireless PRO",
+            "USB-C receiver plugs straight into a phone",
+            "Up to 300m range with a 70dB signal-to-noise ratio"
+          ],
+          "pros_es": [
+            "Mejor valor — transmisores de 9g por solo $76",
+            "4.7/5 en 3,519 reseñas de Amazon — la mejor puntuación de las tres, frente a 4.6/5 de la DJI Mic 2 y 4.5/5 de la Rode Wireless PRO",
+            "El receptor USB-C se conecta directo al teléfono",
+            "Hasta 300m de alcance con una relación señal-ruido de 70dB"
+          ],
+          "cons": [
+            "No on-board recording or 32-bit float safety net",
+            "10-hour transmitter battery needs the charging case on long shoots",
+            "No timecode sync for multi-camera setups",
+            "Its 48kHz/24-bit spec caps detail below the 32-bit float rivals for loud, dynamic audio",
+            "The 300m range is an open-air figure — in busy venues or through walls it drops well below that"
+          ],
+          "cons_es": [
+            "Sin grabación a bordo ni red de seguridad de 32-bit float",
+            "La batería de 10 horas del transmisor necesita el estuche en rodajes largos",
+            "Sin sincronización por timecode para setups multicámara",
+            "Su spec de 48kHz/24-bit limita el detalle frente a los rivales de 32-bit float en audio dinámico y alto",
+            "Los 300m de alcance son una cifra al aire libre — en locales concurridos o a través de paredes cae muy por debajo"
+          ]
+        }
+      ]
+    },
+    "midi-controllers": {
+      "verdictProsCons": [
+        {
+          "name": "Yamaha Montage M8x",
+          "name_es": "Yamaha Montage M8x",
+          "pros": [
+            "88-key weighted action that feels like a real piano",
+            "AN-X and FM-X engines cover every synthesis type",
+            "Motion control and seamless DAW integration",
+            "Replaces a keyboard controller, synthesizer and sound module in one instrument"
+          ],
+          "pros_es": [
+            "Acción ponderada de 88 teclas que se siente como un piano real",
+            "Los motores AN-X y FM-X cubren cada tipo de síntesis",
+            "Control de movimiento e integración perfecta con el DAW",
+            "Sustituye un controlador de teclado, un sintetizador y un módulo de sonido en un solo instrumento"
+          ],
+          "cons": [
+            "At $4,699 it's a serious investment",
+            "Overkill if you work primarily in the box",
+            "Heavier and far less portable than a dedicated MIDI controller",
+            "No drum pads, so finger drumming calls for a separate pad controller",
+            "Deep FM-X and AN-X editing is menu-driven, which slows hands-on tweaking"
+          ],
+          "cons_es": [
+            "A $4,699 es una inversión seria",
+            "Excesivo si trabajas principalmente dentro de la caja",
+            "Más pesado y mucho menos portátil que un controlador MIDI dedicado",
+            "Sin pads de batería, así que el finger drumming requiere un controlador aparte",
+            "La edición profunda de FM-X y AN-X es por menús, lo que ralentiza los ajustes manuales"
+          ]
+        },
+        {
+          "name": "Arturia KeyLab Essential 61 MkIII",
+          "name_es": "Arturia KeyLab Essential 61 MkIII",
+          "pros": [
+            "Includes Analog Lab with thousands of professional synth and keyboard sounds",
+            "Deep integration with Ableton Live, Logic and other major DAWs",
+            "Polyphonic aftertouch usually found on controllers costing three times as much",
+            "61 keys allow two-handed playing without taking over your desk"
+          ],
+          "pros_es": [
+            "Incluye Analog Lab con miles de sonidos profesionales de sintetizador y teclado",
+            "Integración profunda con Ableton Live, Logic y otros DAW importantes",
+            "Aftertouch polifónico, algo que normalmente se encuentra en controladores que cuestan el triple",
+            "61 teclas permiten tocar a dos manos sin ocupar todo el escritorio"
+          ],
+          "cons": [
+            "Keybed is synth-action, not hammer-weighted",
+            "Lightweight plastic chassis versus premium controllers",
+            "Analog Lab is bundled, but full Analog Lab instrument libraries are sold separately",
+            "No faders for hands-on mixing — the 9 encoders cover synth control but not channel faders",
+            "No built-in audio interface, so headphones need a separate box"
+          ],
+          "cons_es": [
+            "El teclado es de acción de sintetizador, no con martillos ponderados",
+            "Chasis de plástico ligero frente a controladores premium",
+            "Analog Lab viene incluido, pero las bibliotecas completas de instrumentos se venden aparte",
+            "Sin faders para mezclar a mano — los 9 encoders cubren el control del sintetizador pero no los faders de canal",
+            "Sin interfaz de audio integrada, así que los auriculares necesitan una caja aparte"
+          ]
+        },
+        {
+          "name": "SSL UF8 DAW Controller",
+          "name_es": "SSL UF8 DAW Controller",
+          "pros": [
+            "Eight motorized, touch-sensitive faders",
+            "The same workflow SSL perfected over decades of console building",
+            "LED meters and MCU/HUI protocol work with every major DAW",
+            "Lets you mix by feel — riding vocals and balancing drums by ear"
+          ],
+          "pros_es": [
+            "Ocho faders motorizados y sensibles al tacto",
+            "El mismo flujo de trabajo que SSL perfeccionó durante décadas construyendo consolas",
+            "Medidores LED y protocolo MCU/HUI que funcionan con todos los DAW importantes",
+            "Te permite mezclar por sensación — conduciendo voces y equilibrando baterías de oído"
+          ],
+          "cons": [
+            "At $1,199 it's a professional investment",
+            "No keys — you still need a separate keyboard controller",
+            "Full functionality needs compatible touch-capable plugins",
+            "The 8 faders handle 8 channels at once, so larger sessions rely on bank switching",
+            "USB is the only connection — no MIDI or audio I/O, so it needs an interface for any sound"
+          ],
+          "cons_es": [
+            "A $1,199 es una inversión profesional",
+            "Sin teclas — aún necesitas un controlador de teclado aparte",
+            "La funcionalidad completa necesita plugins compatibles con control táctil",
+            "Los 8 faders manejan 8 canales a la vez, así que las sesiones grandes dependen del cambio de banco",
+            "USB es la única conexión — sin MIDI ni audio, así que necesita una interfaz para cualquier sonido"
+          ]
+        }
+      ]
+    },
+    "m50x-vs-mdr7506": {
+      "verdictProsCons": [
+        {
+          "name": "Audio-Technica ATH-M50x",
+          "name_es": "Audio-Technica ATH-M50x",
+          "pros": [
+            "Detachable cable system with three included cables gives flexibility for portable use studio rack positioning or silent practice without cable swap hassle",
+            "Collapsible design with 90-degree rotating earcups folds flat into included carrying pouch, the most portable full-size studio headphones under $200",
+            "CCAW copper-clad aluminum wire voice coil reduces moving mass for faster transient response, giving percussion better attack definition",
+            "Extended bass response with gentle bump around 100Hz gives kick drums a satisfying thump without overwhelming mids, translating well across consumer systems",
+            "Circumaural earcups with protein leather pads block moderate ambient noise in shared workspaces without active cancellation"
+          ],
+          "pros_es": [
+            "Sistema de cable desmontable con tres cables incluidos da flexibilidad para uso portátil estudio o práctica silenciosa",
+            "Diseño plegable con copas giratorias se pliega plano en bolsa incluida, los auriculares de estudio más portátiles bajo $200",
+            "Bobina CCAW reduce masa móvil para respuesta transitoria más rápida dando mejor definición de ataque a la percusión",
+            "Respuesta de graves extendida con suave realce alrededor de 100Hz da a bombos golpe satisfactorio sin abrumar medios",
+            "Copas circumaurales con almohadillas de cuero proteico bloquean el ruido ambiental moderado en espacios compartidos sin cancelación activa"
+          ],
+          "cons": [
+            "V-shaped frequency response with scooped lower-mids around 300-500Hz makes vocals and guitars sound less present and slightly hollow",
+            "Earpad leather material flakes and peels after 12-18 months of regular use, shedding black particles and requiring aftermarket replacement",
+            "Thin headband padding causes hotspot pain on larger heads after 2-3 hours of continuous wear",
+            "Soundstage stays closed-in and intimate: left-right imaging holds up, but depth perception and three-dimensional air are limited"
+          ],
+          "cons_es": [
+            "Respuesta en V con medios-graves escapados alrededor de 300-500Hz hace que voces y guitarras suenen menos presentes y huecas",
+            "Cuero de almohadillas se descama tras 12-18 meses de uso soltando partículas negras y requiriendo reemplazo aftermarket",
+            "Acolchado fino de diadema causa dolor en cabezas grandes tras 2-3 horas",
+            "El escenario sonoro se queda cerrado e íntimo: la imagen izquierda-derecha aguanta, pero la profundidad y el aire tridimensional son limitados"
+          ]
+        },
+        {
+          "name": "Sony MDR-7506",
+          "name_es": "Sony MDR-7506",
+          "pros": [
+            "Extremely lightweight at under 230 grams with low clamping force — comfortable for 8+ hour sessions without any discomfort",
+            "Sealed earcup with foam pads provides better isolation than any closed-back competitor in its price range for location sound and field recording",
+            "Neutral midrange with gentle presence bump reveals detail without exaggerated sibilance or harshness, ideal for critical A/B comparisons",
+            "Collapsible folding design fits in any backpack pocket — the carry-on standard for news crews and location engineers",
+            "Over 30 years of continuous production with universal parts availability worldwide"
+          ],
+          "pros_es": [
+            "Extremadamente ligeros menos de 230 gramos con baja fuerza de sujeción cómodos para sesiones de 8+ horas",
+            "Copa sellada con almohadillas de espuma proporciona mejor aislamiento que competidores cerrados en su rango de precio",
+            "Rango medio neutro con suave realce de presencia revela detalle sin sibilancia exagerada",
+            "Diseño plegable que cabe en cualquier bolsillo de mochila — el estándar de equipaje de mano para equipos de noticias e ingenieros de locación",
+            "Más de 30 años de producción continua con disponibilidad universal de piezas en todo el mundo"
+          ],
+          "cons": [
+            "Foam earpads degrade and compress within 6-12 months, reducing isolation and changing frequency response requiring periodic OEM pad replacement",
+            "Permanently attached coiled cable is a single point of failure requiring soldering repair if damaged",
+            "Bass response rolls off below 80Hz with no sub-bass extension, inadequate for electronic music or deep low-end content",
+            "Smaller 40mm driver results in lower maximum SPL before distortion and less dynamic headroom than 45mm competitors"
+          ],
+          "cons_es": [
+            "Almohadillas de espuma se degradan en 6-12 meses reduciendo aislamiento y cambiando respuesta requiriendo reemplazo periódico",
+            "Cable en espiral permanentemente fijado es punto único de fallo requiriendo soldadura si se daña",
+            "Respuesta de graves cae por debajo de 80Hz sin extensión de subgraves inadecuada para música electrónica",
+            "Driver de 40mm menor SPL máximo antes de distorsión y menos margen dinámico que competidores de 45mm"
+          ]
+        }
+      ]
+    },
+    "best-daw-for-beginners": {
+      "verdictProsCons": [
+        {
+          "name": "Ableton Live 12 Suite",
+          "name_es": "Ableton Live 12 Suite",
+          "pros": [
+            "Session View launches clips and loops in real time for improvisation and live sets",
+            "First-rate built-in instruments (Wavetable, Operator, Sampler) and effects",
+            "Max for Live opens thousands of user-created devices",
+            "Massive community with tutorials for anything you want to learn"
+          ],
+          "pros_es": [
+            "La Session View lanza clips y loops en tiempo real para improvisación y sets en vivo",
+            "Instrumentos integrados de primer nivel (Wavetable, Operator, Sampler) y efectos",
+            "Max for Live abre miles de dispositivos creados por usuarios",
+            "Comunidad enorme con tutoriales para cualquier cosa que quieras aprender"
+          ],
+          "cons": [
+            "At $799 it's the most expensive of the beginner trio",
+            "Session View workflow is less efficient for linear recording of live bands",
+            "Pro Tools and Cubase are more streamlined for traditional studio tracking",
+            "No notation editor, so sheet-music work needs a separate program",
+            "The Arrangement View lacks the dedicated track comping and editing tools of a traditional studio DAW"
+          ],
+          "cons_es": [
+            "Por $799 es el más caro del trío para principiantes",
+            "El flujo de la Session View es menos eficiente para grabar bandas en vivo de forma lineal",
+            "Pro Tools y Cubase son más ágiles para la grabación tradicional de estudio",
+            "Sin editor de notación, así que el trabajo con partituras necesita un programa aparte",
+            "La Arrangement View carece de las herramientas de comping y edición dedicadas de un DAW de estudio tradicional"
+          ]
+        },
+        {
+          "name": "FL Studio Producer Edition",
+          "name_es": "FL Studio Producer Edition",
+          "pros": [
+            "$199 one-time with lifetime free updates — the cheapest option in the long run",
+            "Pattern-based workflow is intuitive for beat-makers and hip-hop producers",
+            "Piano roll widely considered the best in any DAW for programming MIDI",
+            "Powerful stock plugins including Sytrus, Harmless, and Gross Beat"
+          ],
+          "pros_es": [
+            "$199 de pago único con actualizaciones gratuitas de por vida — la opción más barata a largo plazo",
+            "El flujo basado en patrones es intuitivo para creadores de beats y productores de hip-hop",
+            "El piano roll está considerado el mejor de cualquier DAW para programar MIDI",
+            "Potentes plugins incluidos como Sytrus, Harmless y Gross Beat"
+          ],
+          "cons": [
+            "Its unique workflow differs from traditional DAWs — switching later means relearning fundamentals",
+            "The pattern-then-playlist mindset is a learning curve if you come from linear DAWs",
+            "Heavy automation and arrangement work can feel less structured than a timeline DAW",
+            "The pattern-based flow shines for beats, but recording live instruments and multitrack audio feels bolted on",
+            "No built-in notation, so traditional score work needs separate software"
+          ],
+          "cons_es": [
+            "Su flujo único difiere de los DAW tradicionales — cambiar después implica reaprender fundamentos",
+            "La mentalidad de patrón-then-playlist es una curva de aprendizaje si vienes de DAW lineales",
+            "El trabajo de automatización y arreglo puede sentirse menos estructurado que en un DAW de timeline",
+            "El flujo basado en patrones brilla para beats, pero grabar instrumentos en vivo y multitrack se siente añadido",
+            "Sin notación integrada, así que el trabajo de partitura tradicional necesita software aparte"
+          ]
+        },
+        {
+          "name": "Logic Pro",
+          "name_es": "Logic Pro",
+          "pros": [
+            "$199.99 one-time with all major updates free — the best value of any professional DAW",
+            "AI Session Players (Bass, Keyboard, Synth, Drummer) build realistic backing tracks",
+            "Stem Splitter separates vocals, drums, bass, and other instruments from any audio file",
+            "Massive built-in library rivaling Kontakt, plus Dolby Atmos authoring"
+          ],
+          "pros_es": [
+            "$199.99 de pago único con todas las actualizaciones importantes gratis — el mejor valor de cualquier DAW profesional",
+            "Los AI Session Players (Bass, Keyboard, Synth, Drummer) crean pistas de acompañamiento realistas",
+            "El Stem Splitter separa voces, batería, bajo y otros instrumentos de cualquier archivo de audio",
+            "Biblioteca integrada enorme que rivaliza con Kontakt, más autoría en Dolby Atmos"
+          ],
+          "cons": [
+            "Mac-only — you cannot run it on Windows",
+            "Optimized for Apple Silicon, so older Intel Macs aren't the target",
+            "Nothing else matches its value, but only if you're already in the Apple ecosystem",
+            "Project files won't open in Windows DAWs, so cross-platform collaboration means exporting stems",
+            "The value only materializes if you already own Apple hardware — the computer cost dwarfs the $199.99 software"
+          ],
+          "cons_es": [
+            "Solo para Mac — no puedes ejecutarlo en Windows",
+            "Optimizado para Apple Silicon, así que las Mac Intel antiguas no son el objetivo",
+            "Nada iguala su valor, pero solo si ya estás en el ecosistema Apple",
+            "Los proyectos no se abren en DAW de Windows, así que la colaboración multiplataforma implica exportar stems",
+            "El valor solo se materializa si ya tienes hardware Apple — el coste del ordenador supera con creces los $199.99 del software"
+          ]
+        }
+      ]
+    }
+  }
+}

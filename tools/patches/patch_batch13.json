@@ -1,0 +1,670 @@
+{
+ "guides": {
+  "best-digital-pianos": {
+   "verdictProsCons": [
+    {
+     "name": "Yamaha P-225",
+     "name_es": "Yamaha P-225",
+     "pros": [
+      "New Graded Hammer Compact (GHC) action with 88 weighted keys",
+      "CFX concert grand engine with Virtual Resonance Modeling",
+      "192-note polyphony and Bluetooth audio for streaming and app lessons",
+      "Slimmer and lighter (27.3 lb) than the outgoing P-125"
+     ],
+     "pros_es": [
+      "Nueva acción Graded Hammer Compact (GHC) con 88 teclas contrapesadas",
+      "Motor del piano de concierto CFX con Virtual Resonance Modeling",
+      "Polifonía de 192 notas y Bluetooth audio para streaming y lecciones con app",
+      "Más delgado y ligero (12,4 kg) que el anterior P-125"
+     ],
+     "cons": [
+      "The GHC action is a step below the FP-30X PHA-4 Standard in realism",
+      "Only 24 voices and a 2-track recorder versus the FP-30X's 35 voices + USB audio",
+      "Bluetooth is audio-only — no wireless MIDI like the FP-30X",
+      "Still needs a stand or table: it is not a ready home furniture piece"
+     ],
+     "cons_es": [
+      "La acción GHC es un paso por debajo de la PHA-4 Standard del FP-30X en realismo",
+      "Solo 24 voces y grabador de 2 pistas frente a las 35 voces + USB audio del FP-30X",
+      "Bluetooth es solo audio — sin MIDI inalámbrico como el FP-30X",
+      "Aun necesita un soporte o mesa: no es un mueble listo para el hogar"
+     ]
+    },
+    {
+     "name": "Roland FP-30X",
+     "name_es": "Roland FP-30X",
+     "pros": [
+      "PHA-4 Standard action with escapement feels closest to a grand piano in its class",
+      "SuperNATURAL piano engine responds expressively to touch",
+      "Bluetooth audio AND MIDI for wireless app and streaming use",
+      "Surprisingly powerful built-in speakers for home practice"
+     ],
+     "pros_es": [
+      "Acción PHA-4 Standard con escapement: la más cercana a un piano de cola en su clase",
+      "El motor SuperNATURAL responde con expresividad al tacto",
+      "Bluetooth audio Y MIDI para apps y streaming sin cables",
+      "Altavoces integrados sorprendentemente potentes para practicar en casa"
+     ],
+     "cons": [
+      "$799 is $100 more than the P-225 for entry-level buyers",
+      "At 31.5 lb (14.3 kg) it is heavier than the P-225 for home use",
+      "35 voices are fine for practice but limited for serious layering",
+      "No dedicated line outputs for connecting to a PA without adapters"
+     ],
+     "cons_es": [
+      "$799 es $100 más que la P-225 para compradores de entrada",
+      "Con 14,3 kg es más pesada que la P-225 para moverla en casa",
+      "35 voces están bien para practicar pero son limitadas para capas serias",
+      "Sin salidas de línea dedicadas para conectar a una PA sin adaptadores"
+     ]
+    },
+    {
+     "name": "Nord Stage 4 88",
+     "name_es": "Nord Stage 4 88",
+     "pros": [
+      "Virtual Hammer Action TP/100 keybed feels closer to a grand than any prior Nord",
+      "Layer section blends acoustic pianos, synth pads and organs seamlessly",
+      "Legendary Nord sample library — the stage and studio standard",
+      "3 FX per section plus master, with XLR outputs and USB/MIDI for pro rigs"
+     ],
+     "pros_es": [
+      "El teclado Virtual Hammer Action TP/100 se siente más cercano a un piano de cola que cualquier Nord anterior",
+      "La sección Layer mezcla pianos acústicos, pads de synth y órganos sin fisuras",
+      "Legendaria biblioteca de samples Nord — el estándar de escenario y estudio",
+      "3 FX por sección más master, con salidas XLR y USB/MIDI para rigs profesionales"
+     ],
+     "cons": [
+      "$4,999 is a pro-level investment versus home options at $699-$799",
+      "44 lb — a flight case is mandatory for transport",
+      "The built-in sequencer has no DAW timeline (sections only)",
+      "Overkill for home practice: the FP-30X covers 90% of needs for roughly 1/6 the price"
+     ],
+     "cons_es": [
+      "$4.999 es una inversión de nivel pro frente a las opciones domésticas de $699-$799",
+      "20 kg — una maleta de vuelo es obligatoria",
+      "El secuenciador integrado no tiene timeline de DAW (solo sections)",
+      "Excesivo para practicar en casa: el FP-30X cubre el 90% de las necesidades por ~1/6 del precio"
+     ]
+    }
+   ]
+  },
+  "best-synthesizers": {
+   "verdictProsCons": [
+    {
+     "name": "Korg Minilogue XD",
+     "name_es": "Korg Minilogue XD",
+     "pros": [
+      "4-voice true analog architecture with a multi-engine digital oscillator",
+      "Built-in programmable delay, reverb and modulation effects",
+      "16-step sequencer and 200 programs in a 6.4 lb package",
+      "Open-source logue SDK for custom oscillators and effects"
+     ],
+     "pros_es": [
+      "Arquitectura analógica real de 4 voces con un oscilador digital multi-motor",
+      "Efectos programables de delay, reverb y modulación integrados",
+      "Secuenciador de 16 pasos y 200 programas en un equipo de 2,9 kg",
+      "SDK logue de código abierto para osciladores y efectos personalizados"
+     ],
+     "cons": [
+      "4 voices run out quickly for large chords or long-tail pads",
+      "Only 37 keys limit two-handed playing",
+      "2 analog oscillators plus the digital engine sound hybrid, not purely analog",
+      "No battery — AC only, so it needs a wall outlet for live or mobile use"
+     ],
+     "cons_es": [
+      "4 voces se quedan cortas rápido para acordes grandes o pads de larga cola",
+      "Solo 37 teclas limitan el trabajo a dos manos",
+      "2 osciladores analógicos más motor digital suenan híbridos, no puramente analógicos",
+      "Sin batería — solo con corriente, así que necesita un enchufe para directo o uso móvil"
+     ]
+    },
+    {
+     "name": "Moog Subsequent 37",
+     "name_es": "Moog Subsequent 37",
+     "pros": [
+      "Moog's iconic ladder filter — the sound of countless classic records",
+      "Dual oscillators with mixer; paraphonic mode for 2-note chords",
+      "New compressor and improved headroom over its predecessor",
+      "256 presets, step sequencer and arpeggiator on 37 full-size keys"
+     ],
+     "pros_es": [
+      "El icónico filtro ladder de Moog — el sonido de innumerables discos clásicos",
+      "Osciladores dobles con mixer; modo parafónico para acordes de 2 notas",
+      "Nuevo compresor y mayor headroom que su predecesor",
+      "256 presets, secuenciador por pasos y arpegiador en 37 teclas de tamaño completo"
+     ],
+     "cons": [
+      "$1,499 for a mono/paraphonic synth — polyphonic pads need another instrument",
+      "15.4 lb and 37 keys — heavy for its compact feature set",
+      "A single voice can't play chords beyond 2-note paraphonic",
+      "No built-in effects beyond drive and filter modulation"
+     ],
+     "cons_es": [
+      "$1.499 por un sintetizador mono/parafónico — los pads polifónicos necesitan otro equipo",
+      "7 kg y 37 teclas — pesado para su conjunto de funciones compactas",
+      "Una sola voz no hace acordes más allá del parafónico de 2 notas",
+      "Sin efectos integrados más allá del drive y la modulación de filtro"
+     ]
+    },
+    {
+     "name": "Yamaha Montage M8x",
+     "name_es": "Yamaha Montage M8x",
+     "pros": [
+      "AN-X virtual analog plus FM-X digital engines in one workstation",
+      "Grand Touch 88-key weighted action — Yamaha's best keybed",
+      "Motion Control Synthesis blends engines for sounds no other keyboard makes",
+      "128 + 128 (FM) polyphony, thousands of presets and a 16-track sequencer"
+     ],
+     "pros_es": [
+      "Motores AN-X de analógico virtual y FM-X digital en una sola workstation",
+      "Acción contrapesada Grand Touch de 88 teclas — el mejor teclado de Yamaha",
+      "Motion Control Synthesis combina motores para sonidos que ningún otro teclado hace",
+      "Polifonía de 128 + 128 (FM), miles de presets y secuenciador de 16 pistas"
+     ],
+     "cons": [
+      "$4,699 — the priciest choice and a serious commitment",
+      "63.9 lb — a heavy keyboard for live playing or the home",
+      "Deep learning curve for Motion Control and FM-X editing",
+      "More workstation than synth — DAW producers may underuse it"
+     ],
+     "cons_es": [
+      "$4.699 — la elección más cara y un compromiso serio",
+      "29 kg — un teclado pesado para tocar en vivo o para casa",
+      "Curva de aprendizaje profunda para Motion Control y la edición FM-X",
+      "Más workstation que synth — quien produce con DAW puede infrautilizarlo"
+     ]
+    }
+   ]
+  },
+  "best-compact-mixers": {
+   "verdictProsCons": [
+    {
+     "name": "Yamaha MG10XU",
+     "name_es": "Yamaha MG10XU",
+     "pros": [
+      "At 9.6 x 2.8 x 11.6 inches and 4.6 lb it fits almost anywhere",
+      "10 channels with 4 D-PRE preamps and SPX effects for $199",
+      "One-knob compressors polish vocals and bass fast",
+      "USB interface records directly to a laptop"
+     ],
+     "pros_es": [
+      "Con 24.4 x 7.1 x 29.4 cm y 2.1 kg cabe en casi cualquier sitio",
+      "10 canales con 4 preamps D-PRE y efectos SPX por $199",
+      "Los compresores one-knob pulen voces y bajos rápidamente",
+      "La interfaz USB graba directamente a un portátil"
+     ],
+     "cons": [
+      "Only 4 mic preamps mean a full band needs an external expander",
+      "2-in/2-out USB means no multi-track capture",
+      "No Bluetooth for wireless backing-track playback",
+      "SPX effects are serviceable but not as rich as the GigFX engine"
+     ],
+     "cons_es": [
+      "Solo 4 preamps de micrófono obligan a un expansor externo para banda completa",
+      "El USB 2x2 no permite captura multitrack",
+      "Sin Bluetooth para reproducir pistas de acompañamiento inalámbricamente",
+      "Los efectos SPX cumplen pero no son tan ricos como el motor GigFX"
+     ]
+    },
+    {
+     "name": "Mackie ProFX12v3",
+     "name_es": "Mackie ProFX12v3",
+     "pros": [
+      "Band-ready 12 channels in a portable 7.9 lb (3.6 kg) frame",
+      "7 Onyx preamps and the GigFX 24-effect engine",
+      "Built-in compression, 3-band EQ, and 24-bit/192kHz USB",
+      "Bluetooth input streams backing tracks without cables"
+     ],
+     "pros_es": [
+      "12 canales listos para banda en un chasis portátil de 3.6 kg",
+      "7 preamps Onyx y el motor GigFX con 24 efectos",
+      "Compresión integrada, EQ de 3 bandas y USB de 24-bit/192kHz",
+      "La entrada Bluetooth reproduce pistas de acompañamiento sin cables"
+     ],
+     "cons": [
+      "No digital recall or scene saving — analog-only workflow",
+      "Channel count still caps larger multi-mic productions",
+      "At $379 it is the priciest analog option in this guide",
+      "Effects share a single send layout across all channels"
+     ],
+     "cons_es": [
+      "Sin recall digital ni guardado de escenas — flujo de trabajo solo analógico",
+      "El número de canales sigue limitando producciones con más micros",
+      "A $379 es la opción analógica más cara de esta guía",
+      "Los efectos comparten un solo layout de envíos entre todos los canales"
+     ]
+    },
+    {
+     "name": "Behringer X Air XR18",
+     "name_es": "Behringer X Air XR18",
+     "pros": [
+      "Full digital mixing in a 3U rack-mount footprint",
+      "16 Midas preamps and 18x18 USB recording",
+      "Control everything from an iPad or tablet with the free app",
+      "4 FX engines with Lexicon reverbs and delays"
+     ],
+     "pros_es": [
+      "Mezcla digital completa en un formato de rack de 3U",
+      "16 preamps Midas y grabación USB 18x18",
+      "Controla todo desde un iPad o tablet con la app gratuita",
+      "4 motores FX con reverbs y delays Lexicon"
+     ],
+     "cons": [
+      "No physical faders — total reliance on a tablet app",
+      "18 input channels limit larger productions",
+      "Wi-Fi adds a possible point of failure at gigs",
+      "Scenes and routing take time to set up correctly"
+     ],
+     "cons_es": [
+      "Sin faders físicos — dependencia total de una app de tablet",
+      "18 canales de entrada limitan producciones más grandes",
+      "El Wi-Fi añade un posible punto de fallo en los conciertos",
+      "Las escenas y el routing llevan tiempo configurarlos bien"
+     ]
+    },
+    {
+     "name": "Allen & Heath CQ-18T",
+     "name_es": "Allen & Heath CQ-18T",
+     "pros": [
+      "Most portable full-featured digital mixer at 6.6 lb (3 kg)",
+      "7-inch touchscreen with smart gain, feedback, and FX assistants",
+      "96kHz processing and 16 preamps in a backpack format",
+      "Wi-Fi, Bluetooth, and SD/USB multitrack recording"
+     ],
+     "pros_es": [
+      "El mezclador digital completo más portátil con solo 3 kg",
+      "Pantalla táctil de 7 pulgadas con asistentes inteligentes de ganancia, acoples y FX",
+      "Procesamiento a 96kHz y 16 preamps en formato mochila",
+      "Wi-Fi, Bluetooth y grabación multitrack SD/USB"
+     ],
+     "cons": [
+      "The $1,199 price is a premium for portability",
+      "18 input channels cap needs for gigs with more than 18 simultaneous sources",
+      "Touchscreen control can be fiddly in bright outdoor light",
+      "Smart assistants reduce the hands-on control of a full console"
+     ],
+     "cons_es": [
+      "Los $1,199 son un precio premium por la portabilidad",
+      "18 canales de entrada limitan producciones con más de 18 fuentes simultáneas",
+      "El control táctil puede ser complicado con luz exterior intensa",
+      "Los asistentes inteligentes reducen el control manual de una consola completa"
+     ]
+    }
+   ]
+  },
+  "fender-bass-guide": {
+   "verdictProsCons": [
+    {
+     "name": "Fender Player Precision Bass",
+     "name_es": "Fender Player Precision Bajo",
+     "pros": [
+      "Legendary split-coil P tone that sits perfectly in any mix",
+      "Thick, mid-forward punch for rock, punk, Motown, and country",
+      "C-shape neck profile with a familiar rounded grip suits driving grooves and fingerstyle playing",
+      "At $899 it delivers iconic Fender tone at a working-player price"
+     ],
+     "pros_es": [
+      "Legendario tono P de split-coil que se asienta perfectamente en cualquier mezcla",
+      "Golpe grueso y presente en medios para rock, punk, Motown y country",
+      "Perfil de mástil en C con agarre redondeado y familiar para grooves con fuerza y fingerstyle",
+      "A $899 ofrece el tono icónico Fender a precio de músico trabajador"
+     ],
+     "cons": [
+      "Single-pickup design limits tonal variety vs a J-Bass",
+      "The wider 1.625-inch nut may feel bulky for small hands",
+      "No active electronics or noise-canceling circuit",
+      "The American Pro II adds a sculpted heel and V-Mod II punch"
+     ],
+     "cons_es": [
+      "El diseño de una sola pastilla limita la variedad tonal frente a un J-Bass",
+      "La cejilla más ancha de 1.625 pulgadas puede sentirse voluminosa para manos pequeñas",
+      "Sin electrónica activa ni circuito antirruido",
+      "El American Pro II añade talón esculpido y punch V-Mod II"
+     ]
+    },
+    {
+     "name": "Fender Player Jazz Bass",
+     "name_es": "Fender Player Jazz Bajo",
+     "pros": [
+      "Dual single-coils blend from warm neck to aggressive bridge tones",
+      "Slim 1.5-inch tapered neck makes fast runs and slap effortless",
+      "Articulate midrange cuts through horns and percussion",
+      "At $899 it is the most versatile Fender bass at a fair price"
+     ],
+     "pros_es": [
+      "Dos single-coils que mezclan desde tonos cálidos de mástil hasta mordiente de puente",
+      "El mástil cónico de 1.5 pulgadas hace fáciles los runs rápidos y el slap",
+      "El medio articulado corta a través de vientos y percusión",
+      "A $899 es el Fender más versátil a un precio justo"
+     ],
+     "cons": [
+      "Single-coils can hum in high-noise environments",
+      "Passive electronics lack the punch of active preamps",
+      "Some players prefer the chunkier P-Bass neck feel",
+      "The American Pro II adds rolled edges and V-Mod II refinement"
+     ],
+     "cons_es": [
+      "Las single-coils pueden zumbar en entornos con mucho ruido",
+      "La electrónica pasiva no tiene el golpe de los preamps activos",
+      "Algunos músicos prefieren la sensación más robusta del mástil P-Bass",
+      "El American Pro II añade bordes redondeados y refinamiento V-Mod II"
+     ]
+    },
+    {
+     "name": "Fender American Professional II Precision Bass",
+     "name_es": "Fender American Professional II Precision Bajo",
+     "pros": [
+      "V-Mod II split-coil delivers richer harmonics and more punch",
+      "Rounded body contours and rolled fingerboard edges for all-day comfort",
+      "Treble bleed circuit keeps clarity when rolling back volume",
+      "Premium USA fit and finish for working professionals"
+     ],
+     "pros_es": [
+      "El split-coil V-Mod II ofrece armónicos más ricos y más punch",
+      "Contornos redondeados y bordes de diapasón pulidos para comodidad todo el día",
+      "El circuito treble bleed mantiene la claridad al bajar el volumen",
+      "Acabado y construcción USA premium para profesionales en activo"
+     ],
+     "cons": [
+      "At $1,599 it is roughly double the Player series",
+      "The single split-coil voice still lacks J-Bass versatility",
+      "No active EQ for tone shaping on stage",
+      "For a first bass, the Player P delivers 80% at half the price"
+     ],
+     "cons_es": [
+      "A $1,599 cuesta aproximadamente el doble que la serie Player",
+      "La voz de split-coil único sigue sin la versatilidad de un J-Bass",
+      "Sin EQ activo para moldear el tono en directo",
+      "Para un primer bajo, el Player P rinde un 80% a la mitad de precio"
+     ]
+    },
+    {
+     "name": "Fender American Professional II Jazz Bass",
+     "name_es": "Fender American Professional II Jazz Bajo",
+     "pros": [
+      "V-Mod II single-coils deliver the richest, most expressive J tone ever",
+      "Slim-taper neck with rolled edges makes tumbaos and solos effortless",
+      "Treble bleed maintains sparkling highs when rolling back volume",
+      "Posiflex graphite rods keep the neck stable on tour"
+     ],
+     "pros_es": [
+      "Las single-coils V-Mod II ofrecen el tono J más rico y expresivo jamás creado",
+      "El mástil slim-taper con bordes pulidos hace fáciles los tumbaos y solos",
+      "El treble bleed mantiene agudos brillantes al bajar el volumen",
+      "Las varillas Posiflex de grafito mantienen el mástil estable en gira"
+     ],
+     "cons": [
+      "The $1,599 price is a premium over the Player Jazz Bass",
+      "Single-coil design still picks up hum in noisy rooms",
+      "No active electronics for modern high-output tones",
+      "It is a genre specialist, not a one-bass-does-all pick"
+     ],
+     "cons_es": [
+      "Los $1,599 son un precio premium sobre el Player Jazz Bass",
+      "El diseño single-coil sigue captando zumbido en salas ruidosas",
+      "Sin electrónica activa para tonos modernos de alta salida",
+      "Es un especialista por género, no un bajo que lo haga todo"
+     ]
+    }
+   ]
+  },
+  "ableton-vs-logic": {
+   "verdictProsCons": [
+    {
+     "name": "Ableton Live 12 Suite",
+     "name_es": "Ableton Live 12 Suite",
+     "pros": [
+      "Session View is the most powerful non-linear production environment — unique clip launching, scene triggering, and real-time arrangement that no other DAW matches for live performance",
+      "Warping engine is the industry standard for time-stretching audio — unmatched algorithms for stretching beats, vocals, and full tracks to any tempo without artifacts",
+      "Max for Live provides a visual programming environment that lets you build custom instruments, effects, and MIDI tools — an infinite library of user-created extensions",
+      "Cross-platform compatibility with Windows and Mac — essential for collaboration across operating systems and for producers who don't use Apple hardware",
+      "Push 3 hardware integration creates a seamless instrument-DAW experience with hands-on control that nothing in Logic's ecosystem matches"
+     ],
+     "pros_es": [
+      "La Vista Session es el entorno de producción no lineal más potente — lanzamiento de clips, activación de escenas y arreglo en tiempo real que ningún otro DAW iguala para performance en vivo",
+      "El motor Warping es el estándar de la industria para time-stretching de audio — algoritmos inigualables para estirar beats, voces y pistas completas a cualquier tempo sin artefactos",
+      "Max for Live proporciona un entorno de programación visual que te permite construir instrumentos, efectos y herramientas MIDI personalizados — una biblioteca infinita de extensiones creadas por usuarios",
+      "Compatibilidad multiplataforma con Windows y Mac — esencial para colaboración entre sistemas operativos y para productores que no usan hardware Apple",
+      "La integración con hardware Push 3 crea una experiencia seamless instrumento-DAW con control práctico que nada en el ecosistema de Logic iguala"
+     ],
+     "cons": [
+      "High price point at $799 for Suite — significantly more expensive than Logic Pro ($199) for the full-featured version, though cheaper Intro and Standard tiers are available",
+      "Steep learning curve for Session View and warping workflows — new users accustomed to traditional linear DAWs may find the non-linear approach initially disorienting",
+      "No integrated notation or score editing — composers who work with sheet music or orchestral arrangements will need a separate notation application like Dorico or Sibelius",
+      "Built-in instrument library is strong but smaller than Logic's — you'll likely want to supplement with third-party instruments like Kontakt, Serum, or Omnisphere for comprehensive production"
+     ],
+     "cons_es": [
+      "Precio alto de $799 para Suite — significativamente más caro que Logic Pro ($199) para la versión completa, aunque hay niveles Intro y Standard más económicos disponibles",
+      "Curva de aprendizaje pronunciada para la Vista Session y los flujos de trabajo de warping — los nuevos usuarios acostumbrados a DAWs lineales tradicionales pueden encontrar el enfoque no lineal inicialmente desorientador",
+      "Sin notación musical integrada ni edición de partituras — los compositores que trabajan con partituras o arreglos orquestales necesitarán una aplicación de notación separada como Dorico o Sibelius",
+      "La biblioteca de instrumentos integrada es amplia pero más pequeña que la de Logic — probablemente querrás complementar con instrumentos de terceros como Kontakt, Serum u Omnisphere"
+     ]
+    },
+    {
+     "name": "Logic Pro",
+     "name_es": "Logic Pro",
+     "pros": [
+      "Unbeatable value at $199 — one-time purchase with free major updates includes the most comprehensive instrument library of any DAW, including Alchemy, Session Players, and 10,000+ Apple Loops",
+      "AI Session Players (Drummer, Keyboard, Bass) are genuinely useful for songwriting — they follow your chords and adjust their performance dynamically, with no equivalent in Ableton Live",
+      "Best-in-class recording and editing workflow for live instruments — comp track folders, Flex Time and Flex Pitch editing, and the most intuitive audio quantize system available",
+      "Dolby Atmos mixing built-in at no extra cost — spatial audio production that normally requires expensive additional software or hardware upgrades in other DAWs",
+      "Included mastering tools with Stem Splitter, ChromaGlow saturation, and the Mastering Assistant — a complete recording-to-mastering pipeline without any additional purchases"
+     ],
+     "pros_es": [
+      "Valor inmejorable a $199 — compra única con actualizaciones mayores gratuitas incluye la biblioteca de instrumentos más completa de cualquier DAW, incluyendo Alchemy, Session Players y más de 10,000 Apple Loops",
+      "Los AI Session Players (Drummer, Keyboard, Bass) son genuinamente útiles para composición — siguen tus acordes y ajustan su interpretación dinámicamente, sin equivalente en Ableton Live",
+      "Flujo de trabajo de grabación y edición de primera clase para instrumentos en vivo — carpetas de comp pistas, edición Flex Time y Flex Pitch, y el sistema de cuantización de audio más intuitivo disponible",
+      "Mezcla Dolby Atmos incorporada sin costo adicional — producción de audio espacial que normalmente requiere costosas actualizaciones de software o hardware adicional en otros DAWs",
+      "Herramientas de masterización incluidas con Stem Splitter, saturación ChromaGlow y Mastering Assistant — un pipeline completo de grabación a masterización sin compras adicionales"
+     ],
+     "cons": [
+      "Mac-only — Windows and Linux users cannot run Logic Pro at all, making it an automatic exclusion for anyone not in the Apple ecosystem",
+      "Linear timeline workflow is less suited to electronic music production and live performance — Live Loops bridge the gap but lack the depth of Ableton's Session View",
+      "No official hardware controller designed specifically for Logic — while it works with any MIDI controller, it lacks a dedicated integrated hardware experience like Ableton's Push",
+      "Third-party plugin and instrument support is broad on Mac, but some Windows-only plugins (certain VSTs) are unavailable in Logic's AU-only format"
+     ],
+     "cons_es": [
+      "Solo para Mac — los usuarios de Windows y Linux no pueden ejecutar Logic Pro en absoluto, lo que lo excluye automáticamente para cualquier persona fuera del ecosistema Apple",
+      "El flujo de trabajo de línea de tiempo lineal es menos adecuado para la producción de música electrónica y performance en vivo — Live Loops cierra la brecha pero carece de la profundidad de la Vista Session de Ableton",
+      "Sin controlador de hardware oficial diseñado específicamente para Logic — aunque funciona con cualquier controlador MIDI, carece de una experiencia de hardware integrada dedicada como Push de Ableton",
+      "El soporte de plugins e instrumentos de terceros es amplio en Mac, pero algunos plugins solo para Windows (ciertos VSTs) no están disponibles en el formato solo AU de Logic"
+     ]
+    }
+   ]
+  },
+  "pro-headphones": {
+   "verdictProsCons": [
+    {
+     "name": "Audeze LCD-MX4",
+     "name_es": "Audeze LCD-MX4",
+     "pros": [
+      "Double Fluxor magnetic array delivers the most powerful magnetic circuit of any headphone — 1.5 Tesla",
+      "Unmatched detail retrieval and bass control with 106mm planar magnetic drivers",
+      "Lightweight magnesium chassis and carbon fiber suspension headband for exceptional comfort",
+      "Most sensitive LCD model — effortless to drive from any interface, console, or device",
+      "Neutral tuning with low distortion prevents listening fatigue during long sessions"
+     ],
+     "pros_es": [
+      "El array magnético Double Fluxor ofrece el circuito magnético más potente de cualquier auricular — 1.5 Tesla",
+      "Recuperación de detalles y control de graves inigualables con drivers magnéticos planares de 106mm",
+      "Chasis ligero de magnesio y diadema de suspensión de fibra de carbono para comodidad excepcional",
+      "El modelo LCD más sensible — fácil de usar con cualquier interfaz, consola o dispositivo",
+      "Afinación neutral con baja distorsión que previene la fatiga auditiva durante sesiones largas"
+     ],
+     "cons": [
+      "Price of $3,320 makes it a significant investment",
+      "Heavier than many dynamic driver alternatives at 575g",
+      "Requires care with the magnesium and carbon fiber construction",
+      "Limited availability compared to more mainstream models"
+     ],
+     "cons_es": [
+      "El precio de $3,320 lo convierte en una inversión significativa",
+      "Más pesado que muchas alternativas de driver dinámico con 575g",
+      "Requiere cuidado con la construcción de magnesio y fibra de carbono",
+      "Disponibilidad limitada en comparación con modelos más convencionales"
+     ]
+    },
+    {
+     "name": "Audeze LCD-X",
+     "name_es": "Audeze LCD-X",
+     "pros": [
+      "Proven gold standard trusted by Grammy-winning engineers worldwide",
+      "Exceptional clarity and transparency with ultra-low distortion",
+      "Neutral tuning keeps mix translation consistent across playback systems",
+      "Suspension headband provides even weight distribution for all-day comfort",
+      "Highly efficient 20 ohm impedance works well with most devices"
+     ],
+     "pros_es": [
+      "Estándar de oro probado, confiado por ingenieros ganadores del Grammy en todo el mundo",
+      "Claridad y transparencia excepcionales con distorsión ultrabaja",
+      "La afinación neutral mantiene una traducción de mezcla consistente entre sistemas de reproducción",
+      "Diadema de suspensión que distribuye el peso uniformemente para comodidad todo el día",
+      "Impedancia eficiente de 20 ohmios que funciona bien con la mayoría de dispositivos"
+     ],
+     "cons": [
+      "Heavier than many competitors at 612g (677g for older versions)",
+      "Stock cable is adequate but not premium for this price range",
+      "Planar magnetic drivers require careful handling",
+      "Leather earpads may cause warmth during extended sessions"
+     ],
+     "cons_es": [
+      "Más pesado que muchos competidores con 612g (677g para versiones anteriores)",
+      "El cable incluido es adecuado pero no premium para este rango de precio",
+      "Los drivers magnéticos planares requieren manejo cuidadoso",
+      "Las almohadillas de cuero pueden causar calor durante sesiones prolongadas"
+     ]
+    }
+   ]
+  },
+  "pro-microphones": {
+   "verdictProsCons": [
+    {
+     "name": "Neumann U 87 Ai",
+     "name_es": "Neumann U 87 Ai",
+     "pros": [
+      "The undisputed industry standard — heard on more hit records than any other mic",
+      "Three switchable polar patterns (cardioid, omni, figure-8) for maximum versatility",
+      "Smooth, flattering top end that sounds musical on almost any source",
+      "Robust metal construction engineered to last decades of professional use",
+      "10dB pad and low-cut filter for handling high SPL sources"
+     ],
+     "pros_es": [
+      "El estándar de la industria indiscutible — escuchado en más éxitos que cualquier otro micrófono",
+      "Tres patrones polares seleccionables (cardioide, omni, figura-8) para máxima versatilidad",
+      "Agudos suaves y favorecedores que suenan musicales en casi cualquier fuente",
+      "Construcción metálica robusta diseñada para durar décadas de uso profesional",
+      "Pad de 10dB y filtro de corte de graves para fuentes de alto SPL"
+     ],
+     "cons": [
+      "At $3,599 it costs $100 more than the LCT1040, yet remains a significant investment",
+      "Transformerless output lacks the warmth of tube designs like the LCT1040",
+      "Heavier than many modern condenser microphones",
+      "Requires external shockmount and pop filter for optimal results"
+     ],
+     "cons_es": [
+      "A $3.599 cuesta $100 más que el LCT1040, y aun así sigue siendo una inversión significativa",
+      "La salida sin transformador carece de la calidez de los diseños de tubo como el LCT1040",
+      "Más pesado que muchos micrófonos de condensador modernos",
+      "Requiere soporte antigolpes y filtro pop externos para resultados óptimos"
+     ]
+    },
+    {
+     "name": "Lewitt LCT1040 Ultimate Microphone System",
+     "name_es": "Lewitt LCT1040 Sistema de Micrófono Ultimate",
+     "pros": [
+      "Revolutionary dual-circuit design — tube warmth and FET clarity in one microphone",
+      "Four all-analog tube modes (Clear, Warm, Dark, Saturated) for endless tonal options",
+      "Seamless blend between tube and FET circuits for unique hybrid tones",
+      "Five polar patterns selectable via remote control — most versatile in its class",
+      "Complete premium package: shock mount, pop filter, remote, mil-spec case included"
+     ],
+     "pros_es": [
+      "Diseño revolucionario de doble circuito — calidez de tubo y claridad FET en un micrófono",
+      "Cuatro modos de tubo analógicos (Clear, Warm, Dark, Saturated) para opciones tonales infinitas",
+      "Fusión perfecta entre circuitos de tubo y FET para tonos híbridos únicos",
+      "Cinco patrones polares seleccionables mediante control remoto — el más versátil de su clase",
+      "Paquete premium completo: soporte, filtro pop, control remoto, estuche militar incluido"
+     ],
+     "cons": [
+      "At $3,499 it competes at the same price point as the legendary U 87 Ai",
+      "Newer brand with less studio heritage than Neumann or Sony",
+      "Heavier than many single-circuit microphones due to dual-circuit design",
+      "Relies on proprietary power supply and cables"
+     ],
+     "cons_es": [
+      "A $3,499 compite al mismo precio que el legendario U 87 Ai",
+      "Marca más nueva con menos herencia de estudio que Neumann o Sony",
+      "Más pesado que muchos micrófonos de circuito simple debido al diseño de doble circuito",
+      "Depende de una fuente de alimentación y cables propietarios"
+     ]
+    }
+   ]
+  },
+  "pro-monitors": {
+   "verdictProsCons": [
+    {
+     "name": "ADAM Audio S3H",
+     "name_es": "ADAM Audio S3H",
+     "pros": [
+      "S-ART folded ribbon tweeter — fastest transient response of any studio monitor tweeter",
+      "Built-in DSP with 6-band PEQ per channel for precise room correction",
+      "DCH (Dome/Cone Hybrid) midrange delivers rich, detailed vocals and instruments",
+      "1350W peak power and 126dB max SPL for headroom",
+      "Horizontal MTM design spreads sound evenly across a wide horizontal plane",
+      "Better value at $3,999 compared to competitors"
+     ],
+     "pros_es": [
+      "Tweeter de cinta plegada S-ART — la respuesta transitoria más rápida de cualquier tweeter de monitor de estudio",
+      "DSP incorporado con PEQ de 6 bandas por canal para corrección precisa de sala",
+      "Rango medio DCH (Dome/Cone Hybrid) proporciona voces e instrumentos ricos y detallados",
+      "1350W de potencia pico y 126dB SPL máximo para headroom",
+      "El diseño MTM horizontal dispersa el sonido uniformemente en un plano horizontal amplio",
+      "Mejor valor a $3,999 comparado con competidores"
+     ],
+     "cons": [
+      "Horizontal MTM design can be sensitive to vertical listening position",
+      "Heavier than some competitors at 26.6kg per monitor",
+      "S-ART ribbon tweeter has a different presentation than dome tweeters — some may prefer a softer top end",
+      "At $3,999 per monitor, a stereo pair costs roughly $8,000"
+     ],
+     "cons_es": [
+      "El diseño MTM horizontal puede ser sensible a la posición vertical de escucha",
+      "Más pesado que algunos competidores con 26.6kg por monitor",
+      "El tweeter de cinta S-ART tiene una presentación diferente a los tweeter de cúpula — algunos pueden preferir agudos más suaves",
+      "A $3,999 por monitor, un par estéreo cuesta unos $8,000"
+     ]
+    },
+    {
+     "name": "Focal Trio11 Be",
+     "name_es": "Focal Trio11 Be",
+     "pros": [
+      "Switchable Focus mode — 3-way midfield and 2-way nearfield in one monitor",
+      "Pure beryllium inverted dome tweeter delivers stunning top-end detail and air",
+      "Versatile monitoring solution adapts to different mix scenarios",
+      "More compact than some competitors in its class",
+      "Exceptional transient response and imaging from beryllium driver"
+     ],
+     "pros_es": [
+      "Modo Focus conmutable — midfield de 3 vías y nearfield de 2 vías en un monitor",
+      "Tweeter de cúpula invertida de berilio puro con impresionante detalle de agudos",
+      "Solución de monitoreo versátil que se adapta a diferentes escenarios de mezcla",
+      "Más compacto que algunos competidores en su clase",
+      "Respuesta transitoria y imagen excepcionales del driver de berilio"
+     ],
+     "cons": [
+      "Pure beryllium tweeter can sound slightly clinical to some ears",
+      "No built-in DSP room correction — external correction hardware or software needed",
+      "No built-in room calibration system",
+      "Focus mode transition requires re-listening position adjustment"
+     ],
+     "cons_es": [
+      "El tweeter de berilio puro puede sonar ligeramente clínico para algunos oídos",
+      "Sin corrección DSP de sala incorporada — se necesita hardware o software externo",
+      "Sin sistema de calibración de sala incorporado",
+      "La transición del modo Focus requiere ajuste de posición de escucha"
+     ]
+    }
+   ]
+  }
+ }
+}

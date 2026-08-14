@@ -1,0 +1,1296 @@
+{
+  "guides": {
+    "best-instrument-mics": {
+      "verdictProsCons": [
+        {
+          "name": "Shure SM57",
+          "name_es": "Shure SM57",
+          "pros": [
+            "The most recorded instrument microphone in history",
+            "All-metal build with a 160 dB max SPL that takes amp blasts and dropped stands at just $99",
+            "The 5-7kHz presence bite cuts through any mix",
+            "Works on amps, snare, horns, and percussion"
+          ],
+          "pros_es": [
+            "El micro de instrumento más grabado de la historia",
+            "Construcción totalmente metálica con 160 dB de SPL máximo que aguanta ráfagas de ampli y caídas por solo $99",
+            "El mordiente de presencia de 5-7kHz corta cualquier mezcla",
+            "Funciona en amplis, caja, vientos y percusión"
+          ],
+          "cons": [
+            "The rolled-off low end needs careful placement on full-range sources",
+            "The cardioid pattern adds proximity boom up close",
+            "No pad or high-pass switch — the -56 dBV/Pa output and proximity boom must be managed at the interface or in the DAW",
+            "It is generic on vocals compared to specialist mics"
+          ],
+          "cons_es": [
+            "El bajo recortado requiere colocación cuidadosa en fuentes de rango completo",
+            "El patrón cardioide añade refuerzo de proximidad de cerca",
+            "Sin pad ni interruptor de paso alto — la salida de -56 dBV/Pa y el refuerzo de proximidad deben controlarse en la interfaz o en el DAW",
+            "En voces es genérico comparado con micros especialistas"
+          ]
+        },
+        {
+          "name": "Royer R-121",
+          "name_es": "Royer R-121",
+          "pros": [
+            "The industry-standard ribbon for amps, horns, and drums",
+            "Hand-crafted figure-8 ribbon with an open, natural top end",
+            "Rich low end makes a cab sound expensive",
+            "The most recorded ribbon microphone in history"
+          ],
+          "pros_es": [
+            "La cinta estándar de la industria para amplis, vientos y batería",
+            "Cinta figura-8 hecha a mano con un agudo abierto y natural",
+            "El bajo rico hace que un cab suene caro",
+            "El micrófono de cinta más grabado de la historia"
+          ],
+          "cons": [
+            "At $1,499 it costs 15x the SM57, so it is a pro-session investment rather than an everyday mic",
+            "Figure-8 requires careful placement and rejects off-axis sources",
+            "Ribbons are fragile — avoid phantom-power mistakes and blasts",
+            "Overkill for heavily distorted tones where the SM57 shines"
+          ],
+          "cons_es": [
+            "A $1,499 cuesta 15 veces el precio del SM57, así que es una inversión para sesiones profesionales más que un micro de uso diario",
+            "La figura-8 requiere colocación cuidadosa y rechaza fuentes fuera de eje",
+            "Las cintas son frágiles — evita errores de phantom y ráfagas de aire",
+            "Es excesiva para tonos muy distorsionados donde brilla el SM57"
+          ]
+        },
+        {
+          "name": "Audix D6",
+          "name_es": "Audix D6",
+          "pros": [
+            "Tuned for modern kick drums and bass",
+            "The clean 60Hz bump translates instantly on any speaker",
+            "Punchy attack that cuts through loud mixes",
+            "Rugged VLM capsule built for stage abuse"
+          ],
+          "pros_es": [
+            "Sintonizado para bombos y bajos modernos",
+            "El refuerzo limpio en 60Hz se nota al instante en cualquier altavoz",
+            "Ataque contundente que corta mezclas ruidosas",
+            "Cápsula VLM robusta hecha para el maltrato del escenario"
+          ],
+          "cons": [
+            "Its scooped tone is specialized — weak on full-bodied sources",
+            "The cardioid pattern needs close placement for the effect",
+            "It lacks the warm round body of an RE20-style mic",
+            "Its 60Hz-tuned scoop thins out acoustic instruments, where a neutral cardioid like the SM57 or KM 184 keeps more body"
+          ],
+          "cons_es": [
+            "Su tono con corte en medios es especializado — flojo en fuentes de cuerpo completo",
+            "El patrón cardioide necesita colocación cercana para el efecto",
+            "No tiene el cuerpo cálido y redondo de un micro estilo RE20",
+            "Su corte sintonizado a 60Hz adelgaza los instrumentos acústicos, donde un cardioide neutro como el SM57 o el KM 184 conserva más cuerpo"
+          ]
+        },
+        {
+          "name": "Neumann KM 184",
+          "name_es": "Neumann KM 184",
+          "pros": [
+            "Neumann transparency and detail on acoustic sources",
+            "A 15 mV/Pa output and 20 Hz – 20 kHz range capture the full body of acoustic guitar, piano, and drum overheads",
+            "Compact small-diaphragm design with precise imaging",
+            "Its 138 dB max SPL and 13 dB-A self-noise handle quiet acoustic sources cleanly, and Neumann resale value holds for years"
+          ],
+          "pros_es": [
+            "Transparencia y detalle Neumann en fuentes acústicas",
+            "Una salida de 15 mV/Pa y un rango de 20 Hz – 20 kHz capturan todo el cuerpo de la guitarra acústica, el piano y los overheads de batería",
+            "Diseño compacto de diafragma pequeño con imagen precisa",
+            "Sus 138 dB de SPL máximo y 13 dB-A de ruido propio manejan con limpieza fuentes acústicas suaves, y el valor de reventa de Neumann se mantiene durante años"
+          ],
+          "cons": [
+            "At $849 per mic it costs more than four D6s or eight SM57s for one cardioid capsule",
+            "Single fixed cardioid pattern — no polar flexibility",
+            "It lacks the low-end weight of large-diaphragm condensers",
+            "With 1.2 mV/Pa output it needs a clean, low-noise preamp — cheap gain stages add hiss above its 13 dB-A self-noise"
+          ],
+          "cons_es": [
+            "A $849 por micro cuesta más de cuatro D6 u ocho SM57 por una sola cápsula cardioide",
+            "Patrón cardioide único fijo — sin flexibilidad polar",
+            "No tiene el peso de graves de los condensadores de gran diafragma",
+            "Con 1.2 mV/Pa de salida necesita un preamp limpio de bajo ruido — las etapas de ganancia baratas añaden siseo por encima de sus 13 dB-A de ruido propio"
+          ]
+        },
+        {
+          "name": "Shure Beta 52A",
+          "name_es": "Shure Beta 52A",
+          "pros": [
+            "Supercardioid pattern tailored for kick drums and low frequencies",
+            "A strong presence peak survives loud stages",
+            "Shure's road-tough casing handles years of bass drum beater hits and road cases",
+            "A warmer, rounder kick tone than the D6's scoop"
+          ],
+          "pros_es": [
+            "Patrón supercardioide pensado para bombo y frecuencias bajas",
+            "Un fuerte pico de presencia sobrevive a escenarios ruidosos",
+            "La carcasa de Shure hecha para la carretera aguanta años de golpes de macilla de bombo y estuches de viaje",
+            "Un tono de bombo más cálido y redondo que el corte del D6"
+          ],
+          "cons": [
+            "Highly specialized for kick — limited elsewhere",
+            "The supercardioid pattern needs precise placement",
+            "The boosted presence can sound boxy off-axis",
+            "It is not a general-purpose microphone"
+          ],
+          "cons_es": [
+            "Muy especializado para bombo — limitado en otros usos",
+            "El patrón supercardioide necesita colocación precisa",
+            "La presencia reforzada puede sonar apagada fuera de eje",
+            "No es un micro para todo"
+          ]
+        },
+        {
+          "name": "Sennheiser e604 3-Pack",
+          "name_es": "Sennheiser e604 3-pack",
+          "pros": [
+            "Clips straight onto toms and stays put",
+            "Compact bodies with reinforced fiberglass",
+            "Three factory-matched mics share the same cardioid capsule and 40 Hz – 18 kHz response, so toms stay level with one trim",
+            "Built-in drum mount saves stand space"
+          ],
+          "pros_es": [
+            "Se engancha directo a los toms y se queda quieto",
+            "Cuerpos compactos con fibra de vidrio reforzada",
+            "Tres micros emparejados de fábrica comparten la misma cápsula cardioide y respuesta de 40 Hz – 18 kHz, así que los toms se mantienen parejos con un solo ajuste",
+            "El soporte de batería integrado ahorra espacio de trípodes"
+          ],
+          "cons": [
+            "The clip design and tuned response target toms and percussion — on snare or cabs a dynamic like the SM57 gives a more familiar picture",
+            "At $489 for three mics it is over $163 per mic — worth it for a full tom set, pricey when you only need one",
+            "The fixed cardioid pattern offers no polar flexibility — reposition the mic rather than switch patterns for off-axis snare or cymbal bleed",
+            "The clip design limits positioning options"
+          ],
+          "cons_es": [
+            "El diseño de clip y la respuesta afinada apuntan a toms y percusión — en caja o gabinetes un dinámico como el SM57 ofrece un panorama más familiar",
+            "A $489 por tres micros son más de $163 por micro — merece la pena para un set completo de toms, caro si solo necesitas uno",
+            "El patrón cardioide fijo no ofrece flexibilidad polar — recoloca el micro en lugar de cambiar de patrón ante la caja fuera de eje o el sangrado de platillos",
+            "El diseño de clip limita las opciones de posición"
+          ]
+        },
+        {
+          "name": "DPA 4099 CORE",
+          "name_es": "DPA 4099 CORE",
+          "pros": [
+            "Pro clip-on for violin, cello, and orchestral strings",
+            "Supercardioid pattern with zero feedback on stage",
+            "CORE amplification delivers honest, high-resolution tone",
+            "A flexible gooseneck enables precise placement"
+          ],
+          "pros_es": [
+            "Clip-on pro para violín, violonchelo y cuerdas de orquesta",
+            "Patrón supercardioide sin acoples en directo",
+            "La amplificación CORE ofrece un tono honesto de alta resolución",
+            "El cuello flexible permite una colocación precisa"
+          ],
+          "cons": [
+            "At $699 it is steep for a single clip-on",
+            "It requires a preamp with adequate gain and phantom power",
+            "Specialized for strings — limited elsewhere",
+            "The thin gooseneck and tiny CORE capsule stay precise for violin and sax but will not survive rough handling a dynamic like the SM57 shrugs off"
+          ],
+          "cons_es": [
+            "A $699 es caro para un solo clip-on",
+            "Requiere un preamp con ganancia adecuada y alimentación phantom",
+            "Especializado para cuerdas — limitado en otros usos",
+            "El cuello fino y la pequeña cápsula CORE son precisos para violín y saxofón, pero no sobreviven al manejo brusco que un dinámico como el SM57 aguanta sin problema"
+          ]
+        }
+      ]
+    },
+    "best-microphone": {
+      "verdictProsCons": [
+        {
+          "name": "Shure SM57",
+          "name_es": "Shure SM57",
+          "pros": [
+            "The most recorded microphone in history — $99",
+            "Covers guitar amps, snares, horns, and vocals with a 160 dB max SPL that no condenser matches",
+            "Takes a beating — used on Glastonbury stages and in studio sessions",
+            "Tight cardioid pattern rejects off-axis noise and the 150 Ω output stays clean over long XLR runs"
+          ],
+          "pros_es": [
+            "El micrófono más grabado de la historia — $99",
+            "Cubre amplis de guitarra, cajas, metales y voces con 160 dB de SPL máximo que ningún condensador iguala",
+            "Aguanta golpes — usado en escenarios de Glastonbury y en sesiones de estudio",
+            "El patrón cardioide ajustado rechaza el ruido fuera de eje y la salida de 150 Ω se mantiene limpia en tramos largos de XLR"
+          ],
+          "cons": [
+            "Needs an XLR interface and gain from a clean preamp",
+            "Less detail and air than a condenser for clean studio vocals",
+            "A condenser like the NT1 5th Gen captures cleaner vocals and acoustics",
+            "The 40 Hz – 15 kHz range leaves little air on top, so bright sources need EQ",
+            "No pad or high-pass switch, so you fix rumble and hot signal at the interface"
+          ],
+          "cons_es": [
+            "Necesita una interfaz XLR y ganancia de un previo limpio",
+            "Menos detalle y aire que un condensador para voces de estudio limpias",
+            "Un condensador como el NT1 5ta Gen captura voces y acústicas más limpias",
+            "El rango de 40 Hz – 15 kHz deja poco aire arriba, así que las fuentes brillantes necesitan EQ",
+            "Sin pad ni interruptor de paso alto, así que el ruido y la señal caliente se corrigen en la interfaz"
+          ]
+        },
+        {
+          "name": "Rode NT1 5th Generation",
+          "name_es": "Rode NT1 5th Generation",
+          "pros": [
+            "Ultra-low 4dBA self-noise — one of the quietest studio condensers, with zero hiss",
+            "Warm, smooth character that flatters most voices",
+            "32-bit float and Dual Connect XLR/USB output",
+            "Shock mount, pop filter, and XLR cable included for $269"
+          ],
+          "pros_es": [
+            "Ruido propio ultrabajo de 4dBA — uno de los condensadores de estudio más silenciosos, sin siseo",
+            "Carácter cálido y suave que favorece a la mayoría de las voces",
+            "Float de 32 bits y salida Dual Connect XLR/USB",
+            "Soporte antigolpes, filtro antipop y cable XLR incluidos por $269"
+          ],
+          "cons": [
+            "Condenser hears the room — reflections, the fridge, HVAC",
+            "Needs phantom power and a reasonably quiet, treated space",
+            "In an untreated bedroom a rugged dynamic like the SM57 wins",
+            "With 142 dB max SPL it can't take the close-up blasts a 160 dB dynamic like the SM57 absorbs",
+            "A single fixed cardioid pattern — no omni or figure-8 for room micing"
+          ],
+          "cons_es": [
+            "El condensador oye la sala — reflejos, la nevera, el aire acondicionado",
+            "Necesita alimentación phantom y un espacio razonablemente silencioso y tratado",
+            "En un dormitorio sin tratar, un dinámico robusto como el SM57 gana",
+            "Con 142 dB de SPL máximo no aguanta las ráfagas de cerca que absorbe un dinámico de 160 dB como el SM57",
+            "Un solo patrón cardioide fijo — sin omni ni figura-8 para captar la sala"
+          ]
+        },
+        {
+          "name": "Shure SM7B",
+          "name_es": "Shure SM7B",
+          "pros": [
+            "The iconic broadcast microphone heard on every major podcast and countless records",
+            "The 50 Hz – 20 kHz response is voiced warm and smooth, and the tight cardioid rejects room noise better than a wide condenser",
+            "Built-in shock mount kills mechanical noise",
+            "Highs rolled off in the 50 Hz – 20 kHz response tame sibilance, so 's' and 't' sounds need less de-essing"
+          ],
+          "pros_es": [
+            "El micrófono de broadcast icónico que se oye en cada gran podcast e innumerables discos",
+            "La respuesta de 50 Hz – 20 kHz es cálida y suave, y el cardioide ajustado rechaza el ruido de sala mejor que un condensador amplio",
+            "Soporte antigolpes integrado que elimina el ruido mecánico",
+            "Los agudos atenuados en la respuesta de 50 Hz – 20 kHz doman la sibilancia, así que las 's' y 't' necesitan menos de-essing"
+          ],
+          "cons": [
+            "Needs a lot of gain — pair it with a clean interface or a Cloudlifter",
+            "$399, plus the cost of a Cloudlifter or high-gain preamp",
+            "Voiced for broadcast warmth — less top-end detail than a condenser for singing",
+            "No switchable patterns — the single cardioid is fixed for one-mic setups",
+            "Its 1.12 mV output is quieter than a condenser's, so gain-hungry setups add noise floor"
+          ],
+          "cons_es": [
+            "Necesita mucha ganancia — combínalo con una interfaz limpia o un Cloudlifter",
+            "$399, más el coste de un Cloudlifter o un previo de alta ganancia",
+            "Pensado para la calidez de broadcast — menos detalle de agudos que un condensador para cantar",
+            "Sin patrones conmutables — el cardioide único es fijo para configuraciones de un solo micro",
+            "Su salida de 1.12 mV es más débil que la de un condensador, así que los equipos que necesitan mucha ganancia añaden piso de ruido"
+          ]
+        },
+        {
+          "name": "AKG C414 XLII",
+          "name_es": "AKG C414 XLII",
+          "pros": [
+            "Nine polar patterns, three pad settings, and three filter settings",
+            "Handles everything from vocals to piano to drum overheads",
+            "Slightly lifted top-end ('XLII' voicing) adds air and presence",
+            "The do-it-all studio classic for session work"
+          ],
+          "pros_es": [
+            "Nueve patrones polares, tres ajustes de pad y tres ajustes de filtro",
+            "Maneja desde voces hasta piano y overheads de batería",
+            "El extremo superior ligeramente realzado (voicing 'XLII') añade aire y presencia",
+            "El clásico de estudio que lo hace todo para trabajo de sesiones"
+          ],
+          "cons": [
+            "$1,099 is more than four NT1 5th Gens — you pay for nine patterns and session-grade versatility, not for a first vocal mic",
+            "The bright XLII voicing may not suit every taste — a flatter multi-pattern option exists",
+            "For a beginner home studio that needs one vocal mic, nine patterns and three pads add cost and knob-turning you will not use",
+            "No shock mount or pop filter included, so you add those costs to the $1,099",
+            "The deeper 20 Hz – 20 kHz response hears room rumble and HVAC that a dynamic would mask"
+          ],
+          "cons_es": [
+            "$1,099 es más de cuatro NT1 5ta Gen — pagas por nueve patrones y versatilidad de sesión, no por un primer micro de voz",
+            "El voicing brillante XLII puede no gustar a todos — existe una opción multipatrón más plana",
+            "Para un home studio de inicio que necesita un micrófono de voz, nueve patrones y tres pads añaden coste y botones que no vas a usar",
+            "Sin soporte antigolpes ni filtro antipop incluidos, así que sumas esos costes a los $1,099",
+            "La respuesta más profunda de 20 Hz – 20 kHz oye el retumbar de la sala y el aire acondicionado que un dinámico enmascararía"
+          ]
+        },
+        {
+          "name": "Neumann U 87 Ai",
+          "name_es": "Neumann U 87 Ai",
+          "pros": [
+            "On more hit records than any other condenser — the studio standard",
+            "Three polar patterns and a 10dB pad",
+            "The hand-built Neumann body and 28 mV/Pa cardioid response deliver the top-end sheen heard on decades of hit records",
+            "Recorded in landmark studios like Abbey Road"
+          ],
+          "pros_es": [
+            "En más éxitos discográficos que cualquier otro condensador — el estándar de estudio",
+            "Tres patrones polares y pad de 10dB",
+            "El cuerpo Neumann hecho a mano y la respuesta cardioide de 28 mV/Pa ofrecen el brillo de agudos oído en décadas de éxitos discográficos",
+            "Grabado en estudios emblemáticos como Abbey Road"
+          ],
+          "cons": [
+            "$3,599 — a serious investment, no substitute in a pro studio",
+            "At 12 dB-A self-noise and 28 mV/Pa output it reveals every room flaw — a treated space and clean preamp are mandatory to justify the $3,599",
+            "The AKG C414 covers multi-pattern needs at $1,099 — a third of the price",
+            "117 dB max SPL (127 dB with the 10 dB pad) is the lowest here — close-micing loud sources clips faster than a 160 dB dynamic",
+            "No internal shock mount or pop filter — rig it on a proper stand and add a filter for vocal takes"
+          ],
+          "cons_es": [
+            "$3,599 — una inversión seria, sin sustituto en un estudio profesional",
+            "Con 12 dB-A de ruido propio y 28 mV/Pa de salida revela cada fallo de la sala — un espacio tratado y un preamp limpio son imprescindibles para justificar los $3,599",
+            "La AKG C414 cubre necesidades multipatrón por $1,099 — un tercio del precio",
+            "117 dB de SPL máximo (127 dB con el pad de 10 dB) es el más bajo de la lista — el close-micing de fuertes fuentes satura antes que un dinámico de 160 dB",
+            "Sin soporte antigolpes interno ni filtro antipop — móntalo en un buen soporte y añade un filtro para tomas vocales"
+          ]
+        }
+      ]
+    },
+    "studio-furniture": {
+      "verdictProsCons": [
+        {
+          "name": "Aston Microphones Shield GN Pop Filter",
+          "name_es": "Filtro Antipop Aston Microphones Shield GN",
+          "pros": [
+            "Premium stainless steel with unique HexTech filter holes",
+            "Eliminates plosives without coloring the sound",
+            "Deluxe gooseneck stays exactly where you put it — no drooping",
+            "Crocodile clip mounts to any stand in seconds"
+          ],
+          "pros_es": [
+            "Acero inoxidable premium con orificios HexTech exclusivos",
+            "Elimina las oclusivas sin colorear el sonido",
+            "El cuello de ganso de lujo se queda exactamente donde lo pones — sin caerse",
+            "La pinza de cocodrilo se monta en cualquier soporte en segundos"
+          ],
+          "cons": [
+            "At $49 it costs more than budget mesh pop filters",
+            "Large head takes up more space in front of the mic",
+            "Needs a mic stand — no included arm",
+            "The metal grille can reflect high-frequency sibilance back toward the capsule, something fabric filters absorb",
+            "No adapter for odd-shaped mic clips — it suits round booms but needs extra hardware on flat arms"
+          ],
+          "cons_es": [
+            "A $49 cuesta más que los filtros antipop de malla económicos",
+            "La cabeza grande ocupa más espacio frente al micrófono",
+            "Necesita un soporte de micrófono — sin brazo incluido",
+            "La rejilla metálica puede reflejar sibilancia de alta frecuencia de vuelta a la cápsula, algo que los filtros de tela absorben",
+            "Sin adaptador para clips de formas raras — sirve para brazos redondos pero necesita hardware extra en brazos planos"
+          ]
+        },
+        {
+          "name": "SSL UF8 DAW Controller",
+          "name_es": "Controlador DAW SSL UF8",
+          "pros": [
+            "Eight motorized faders with SSL's legendary console workflow",
+            "Touch-sensitive faders follow your DAW in real time",
+            "Premium build makes every move feel intentional",
+            "Transforms mixing from a screen task into a musical experience"
+          ],
+          "pros_es": [
+            "Ocho faders motorizados con el legendario flujo de trabajo de consola SSL",
+            "Faders sensibles al tacto que siguen tu DAW en tiempo real",
+            "La construcción premium hace que cada movimiento se sienta intencional",
+            "Transforma la mezcla de una tarea de pantalla a una experiencia musical"
+          ],
+          "cons": [
+            "At $1,199 it's an investment for serious workflows",
+            "No piano keys or transport keys — it is a fader surface for mixing, not a MIDI controller for playing parts",
+            "Adds desk clutter if you already have a full controller surface",
+            "Eight faders cover a single channel strip — a 24-channel mix needs banks and scrolls",
+            "The motorized faders still need a USB connection and DAW setup before they respond"
+          ],
+          "cons_es": [
+            "A $1,199 es una inversión para flujos de trabajo serios",
+            "Sin teclas de piano ni de transporte — es una superficie de faders para mezclar, no un controlador MIDI para tocar partes",
+            "Añade desorden al escritorio si ya tienes una superficie de control completa",
+            "Ocho faders cubren una sola franja de canales — una mezcla de 24 canales exige bancos y desplazamientos",
+            "Los faders motorizados aún necesitan conexión USB y configuración del DAW antes de responder"
+          ]
+        },
+        {
+          "name": "K&M 210/2 Mic Stand",
+          "name_es": "Soporte de Micrófono K&M 210/2",
+          "pros": [
+            "German engineering with a zinc die-cast base",
+            "Base stays planted — no slow sinking during vocal takes",
+            "Telescopic boom extends smoothly and locks firmly",
+            "Built to outlast everything else in your studio"
+          ],
+          "pros_es": [
+            "Ingeniería alemana con base de zinc fundido a presión",
+            "La base se mantiene firme — sin hundirse lentamente durante las tomas vocales",
+            "El brazo telescópico se extiende suavemente y bloquea con firmeza",
+            "Construido para durar más que todo lo demás en tu estudio"
+          ],
+          "cons": [
+            "Boom arm adds footprint on cramped stages",
+            "At $49 it costs more than basic folding stands",
+            "Heavier to carry than lightweight travel stands",
+            "The zinc die-cast base is heavy — good for stability, bad for backpacking between sessions",
+            "No locking casters or wheels, so moving it while set up means lifting the whole boom"
+          ],
+          "cons_es": [
+            "El brazo ocupa espacio en escenarios pequeños",
+            "A $49 cuesta más que los soportes plegables básicos",
+            "Más pesado de transportar que los soportes de viaje ligeros",
+            "La base de zinc fundido es pesada — buena para la estabilidad, mala para llevarla de mochila entre sesiones",
+            "Sin ruedas ni frenos, así que moverlo armado implica levantar todo el brazo"
+          ]
+        },
+        {
+          "name": "K&M Monitor Stands (Pair)",
+          "name_es": "Soportes de Monitor K&M (Par)",
+          "pros": [
+            "German-engineered steel built for decades of studio life",
+            "Height-adjustable to aim tweeters at ear level",
+            "Floor spikes mechanically decouple speakers and tighten bass response",
+            "Improve monitoring accuracy more than an extra $500 on speakers"
+          ],
+          "pros_es": [
+            "Acero con ingeniería alemana hecho para décadas de vida de estudio",
+            "Ajustables en altura para apuntar los tweeters al nivel del oído",
+            "Las puntas de piso desacoplan mecánicamente los altavoces y aprietan la respuesta de graves",
+            "Mejoran la precisión del monitoreo más que gastar $500 extra en altavoces"
+          ],
+          "cons": [
+            "Spiked feet can scratch hardwood floors",
+            "Need dedicated floor space at the listening position — they cannot share a desk or shelf like isolation pads",
+            "No isolation pad included for the top plate",
+            "Setting both stands to the same height and angle takes a tape measure for accurate imaging",
+            "At $89 they cost three times the AcouFoam 6 pads, which solve desk decoupling for less"
+          ],
+          "cons_es": [
+            "Las puntas de piso pueden rayar pisos de madera",
+            "Necesitan espacio dedicado en el suelo junto a la posición de escucha — no comparten escritorio ni estante como los pads de aislamiento",
+            "No incluyen pad de aislamiento para la placa superior",
+            "Ajustar ambos soportes a la misma altura y ángulo requiere cinta métrica para un imageo preciso",
+            "A $89 cuestan tres veces los AcouFoam 6, que resuelven el desacoplamiento del escritorio por menos"
+          ]
+        },
+        {
+          "name": "Mogami Gold Studio XLR Cable",
+          "name_es": "Cable Mogami Gold Studio XLR",
+          "pros": [
+            "Neglex quad conductors eliminate hum and handling noise",
+            "Gold-plated XLR connectors keep contacts corrosion-free for years in humid studio rooms",
+            "The gold standard — quiet, durable and transparent",
+            "Route it once and forget it — the quad-star shielding stays quiet in cable runs alongside power cables"
+          ],
+          "pros_es": [
+            "Los conductores quad Neglex eliminan el zumbido y el ruido de manejo",
+            "Los conectores XLR chapados en oro mantienen los contactos libres de corrosión durante años en salas de estudio húmedas",
+            "El estándar de oro — silencioso, duradero y transparente",
+            "Lo enruta una vez y lo olvidas — el blindaje quad-star se mantiene silencioso en tramos junto a cables de corriente"
+          ],
+          "cons": [
+            "At $53 per cable it's far pricier than $20–40 basic cables",
+            "Each length option is priced separately, so the $53 cable doubles when you need a second length for a distant amp",
+            "No audible benefit on very short runs where cheap cables already work",
+            "Stiffer quad construction makes tight bends and coiled patch-bay runs trickier than with a thin $20 cable",
+            "The benefit is durability and shielding, not tone — a short $20 basic cable sounds identical on the same mic"
+          ],
+          "cons_es": [
+            "A $53 por cable es mucho más caro que los cables básicos de $20–40",
+            "Cada opción de longitud se cobra aparte, así que el cable de $53 se duplica si necesitas un segundo largo para un amp lejano",
+            "Sin beneficio audible en tramos muy cortos donde los cables baratos ya funcionan",
+            "La construcción quad más rígida hace más difíciles los giros cerrados y los tramos enrollados en el patch bay que con un cable fino de $20",
+            "El beneficio es durabilidad y blindaje, no tono — un cable básico corto de $20 suena igual con el mismo micro"
+          ]
+        },
+        {
+          "name": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+          "name_es": "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)",
+          "pros": [
+            "Absorb mid and high frequencies, reducing flutter echo",
+            "Panels at the first reflection points cut standing waves and flutter echo that smear stereo imaging in small rooms",
+            "Easy to mount at first reflection points with included adhesive strips",
+            "4-pack covers a small room's critical spots for only $79"
+          ],
+          "pros_es": [
+            "Absorben frecuencias medias y altas, reduciendo el eco de aleteo",
+            "Los paneles en los puntos de primera reflexión cortan las ondas estacionarias y el eco de aleteo que emborronan la imagen estéreo en salas pequeñas",
+            "Fáciles de montar en los puntos de primera reflexión con las tiras adhesivas incluidas",
+            "El paquete de 4 cubre los puntos críticos de una sala pequeña por solo $79"
+          ],
+          "cons": [
+            "Foam panels do nothing for low-frequency problems",
+            "Included adhesive strips are a one-time mount",
+            "Plain look versus fabric-wrapped broadband panels",
+            "Coverage is modest — a 4-pack leaves the ceiling and rear wall untreated",
+            "Adhesive strips leave residue on walls when you reposition panels"
+          ],
+          "cons_es": [
+            "Los paneles de espuma no hacen nada contra los problemas de graves",
+            "Las tiras adhesivas incluidas son para un solo montaje",
+            "Aspecto sencillo frente a paneles de banda ancha forrados en tela",
+            "La cobertura es modesta — un paquete de 4 deja sin tratar el techo y la pared trasera",
+            "Las tiras adhesivas dejan residuos en la pared al recolocar los paneles"
+          ]
+        },
+        {
+          "name": "AcouFoam 6 Monitor Isolation Pads, Pair",
+          "name_es": "Pads de Aislamiento para Monitores AcouFoam 6, Par",
+          "pros": [
+            "Decouple monitors from the desk to reduce low-end muddiness",
+            "Compression-resistant foam that stays firm",
+            "Wedge inserts tilt monitors 5 or 10 degrees to aim tweeters at your ears",
+            "At $29 a pair it's the lowest-cost monitoring upgrade"
+          ],
+          "pros_es": [
+            "Desacoplan los monitores del escritorio reduciendo la turbidez de graves",
+            "Espuma resistente a la compresión que se mantiene firme",
+            "Las cuñas incluidas inclinan los monitores 5 o 10 grados para apuntar los tweeters a tus oídos",
+            "A $29 el par es la mejora de monitoreo más barata"
+          ],
+          "cons": [
+            "Only isolates the surface — does nothing for room acoustics",
+            "263x380mm pad suits small-to-medium monitors only",
+            "Less rigid than proper stands for large speakers",
+            "The 5 or 10 degree wedge angles are fixed — no fine tilt for unusual ear heights",
+            "At $29 the pair it costs a fraction of the $89 K&M stands but adds none of their height adjustment"
+          ],
+          "cons_es": [
+            "Solo aísla la superficie — no hace nada por la acústica de la sala",
+            "El pad de 263x380mm solo sirve para monitores pequeños y medianos",
+            "Menos rígido que los soportes de verdad para altavoces grandes",
+            "Los ángulos de cuña de 5 o 10 grados son fijos — sin inclinación fina para alturas de oído inusuales",
+            "A $29 el par cuesta una fracción de los $89 de los soportes K&M, pero sin su ajuste de altura"
+          ]
+        }
+      ]
+    },
+    "studio-subwoofers": {
+      "verdictProsCons": [
+        {
+          "name": "KRK S10.4",
+          "name_es": "KRK S10.4",
+          "pros": [
+            "10-inch woofer reaches 27Hz with 117dB peak SPL",
+            "Four-position crossover pairs with any monitors",
+            "Front-firing port for flexible placement",
+            "The 160W Class-D amp drives the 10-inch woofer to 117 dB peak without the heat of an AB design"
+          ],
+          "pros_es": [
+            "Woofer de 10 pulgadas llega a 27Hz con 117dB de SPL pico",
+            "Cruce de cuatro posiciones compatible con cualquier monitor",
+            "Puerto frontal para colocación flexible",
+            "El amp Clase-D de 160W mueve el woofer de 10 pulgadas hasta 117 dB de pico sin el calor de un diseño AB"
+          ],
+          "cons": [
+            "No wireless remote control — tweaking volume or crossover from the listening position means getting up to the unit",
+            "Can overwhelm very small rooms at high volume",
+            "No room-correction EQ built in, so bass modes in the room have to be tamed with the crossover and monitor alignment alone",
+            "At $479 it costs $80 more than the Adam T10S with a similar 10-inch driver"
+          ],
+          "cons_es": [
+            "Sin control remoto inalámbrico — ajustar volumen o cruce desde la posición de escucha implica levantarse hasta la unidad",
+            "Puede dominar salas muy pequeñas a alto volumen",
+            "Sin EQ de corrección de sala incorporado, así que los modos graves de la sala deben domarse solo con el cruce y la alineación de los monitores",
+            "A $479 cuesta $80 más que la Adam T10S con un driver de 10 pulgadas similar"
+          ]
+        },
+        {
+          "name": "Yamaha HS8S",
+          "name_es": "Yamaha HS8S",
+          "pros": [
+            "Voiced to match HS-series monitors, so its 22 Hz – 160 Hz output blends seamlessly under an HS5 or HS8 pair",
+            "22Hz low-end extension with 150W amp",
+            "Low-cut/high-cut and phase controls",
+            "Built to the same standard as the HS monitors, with the 150W amp and phase switch holding up across years of studio use"
+          ],
+          "pros_es": [
+            "Pensado para igualar a los monitores de la serie HS, así que su salida de 22 Hz – 160 Hz se integra sin costuras bajo un par HS5 o HS8",
+            "Extensión de graves hasta 22Hz con amp de 150W",
+            "Controles de corte bajo/alto y fase",
+            "Construido con el mismo estándar que los monitores HS, con el amp de 150W y el interruptor de fase aguantando años de uso de estudio"
+          ],
+          "cons": [
+            "The 8-inch driver limits max output — at high volume it gives out before the KRK's 10-inch at 117 dB",
+            "Not ideal for very large rooms where a 10-inch or 12-inch sub keeps the low end even at distance",
+            "Rear-facing controls less convenient",
+            "At $499 it is the most expensive sub here despite having the smallest driver"
+          ],
+          "cons_es": [
+            "El driver de 8 pulgadas limita la salida máxima — a alto volumen se rinde antes que la KRK de 10 pulgadas a 117 dB",
+            "No ideal para salas muy grandes donde un sub de 10 o 12 pulgadas mantiene los graves uniformes a distancia",
+            "Controles traseros menos cómodos",
+            "A $499 es el sub más caro de la lista a pesar de tener el driver más pequeño"
+          ]
+        },
+        {
+          "name": "Adam T10S",
+          "name_es": "Adam T10S",
+          "pros": [
+            "Compact enclosure fits tight desks and still delivers 28 Hz with a down-firing 10-inch woofer",
+            "Down-firing 10-inch woofer, 130W Class-D",
+            "Adjustable crossover 80/120Hz/bypass",
+            "XLR and RCA I/O for flexible routing"
+          ],
+          "pros_es": [
+            "El gabinete compacto cabe en escritorios reducidos y aun así entrega 28 Hz con un woofer de 10 pulgadas orientado hacia abajo",
+            "Woofer de 10 pulgadas orientado hacia abajo, 130W Clase-D",
+            "Cruce ajustable 80/120Hz/bypass",
+            "Entradas/salidas XLR y RCA para conexión flexible"
+          ],
+          "cons": [
+            "Lower max SPL than 12-inch subs, so it serves nearfield mixing rather than big tracking rooms",
+            "Limited to nearfield monitor duty — with a 28 Hz reach and 120 Hz top, it pairs with small monitors, not PA systems",
+            "No auto-power standby option, so it idles at full draw when you forget to switch it off",
+            "Reaches only 28 Hz, the shallowest low end of the three subs"
+          ],
+          "cons_es": [
+            "SPL máximo menor que subs de 12 pulgadas, así que sirve para mezcla de campo cercano más que para salas grandes de grabación",
+            "Limitado a monitores de campo cercano — con alcance hasta 28 Hz y tope de 120 Hz, combina con monitores pequeños, no con sistemas de PA",
+            "Sin opción de standby automático, así que queda encendido a plena potencia si olvidas apagarlo",
+            "Llega solo hasta 28 Hz, el extremo grave menos profundo de los tres subs"
+          ]
+        }
+      ]
+    },
+    "best-electric-guitar": {
+      "verdictProsCons": [
+        {
+          "name": "Fender American Professional II Stratocaster",
+          "name_es": "Fender American Professional II Stratocaster",
+          "pros": [
+            "V-Mod II pickups deliver the signature Strat chime and quack",
+            "Deep C neck profile fits naturally in the hand",
+            "Push-push tone pot adds series wiring for humbucker-like thickness",
+            "2-point bent steel tremolo stays in tune and adds expression"
+          ],
+          "pros_es": [
+            "Las pastillas V-Mod II ofrecen el brillo y quack característicos de la Strat",
+            "El perfil de mástil Deep C se adapta naturalmente a la mano",
+            "El potenciómetro push-push añade cableado en serie para grosor tipo humbucker",
+            "El trémolo de acero doblado de 2 puntos mantiene la afinación y añade expresión"
+          ],
+          "cons": [
+            "At $1,799 it's a serious investment",
+            "Single-coil hum at high gain unless you engage the series mode",
+            "You could buy a Pacifica 112V plus an amp for less than this guitar alone",
+            "The push-push series pot takes practice — a bumped knob mid-song flips between single-coil and humbucker voicings",
+            "Single-coils lack the raw gain of active or humbucker shred guitars, so metal tones need heavy pedals"
+          ],
+          "cons_es": [
+            "Por $1,799 es una inversión seria",
+            "Zumbido de single-coil a alta ganancia salvo que actives el modo en serie",
+            "Podrías comprar una Pacifica 112V más un amplificador por menos de lo que cuesta solo esta guitarra",
+            "El pot push-push requiere práctica — un mando golpeado a mitad de canción cambia entre voces de single-coil y humbucker",
+            "Las single-coils no tienen la ganancia cruda de las activas o humbuckers de shred, así que los tonos metal necesitan pedales pesados"
+          ]
+        },
+        {
+          "name": "Gibson Les Paul Standard '60s",
+          "name_es": "Gibson Les Paul Standard '60s",
+          "pros": [
+            "BurstBucker 61 humbuckers deliver that PAF magic",
+            "Thick, singing sustain through a cranked Marshall — the sound of rock history",
+            "Slim Taper neck is fast and comfortable",
+            "Weight relief keeps the 9.1 lb (4.1 kg) body manageable for long gigs"
+          ],
+          "pros_es": [
+            "Las humbuckers BurstBucker 61 ofrecen esa magia PAF",
+            "Sustain grueso y cantarín con un Marshall al máximo — el sonido de la historia del rock",
+            "El mástil Slim Taper es rápido y cómodo",
+            "El alivio de peso mantiene manejables los 4,1 kg del cuerpo en conciertos largos"
+          ],
+          "cons": [
+            "At $2,699 it's an investment in rock tone",
+            "9.1 lb (4.1 kg) still makes it the heaviest guitar in this guide",
+            "No tremolo — hardtail only, so no dive bombs or vibrato arm work",
+            "No coil-split or push-pull options — the BurstBucker 61s are fixed humbuckers",
+            "At $2,699 it is nearly three times the $999 RG550, with no tremolo or coil-splitting to show for it"
+          ],
+          "cons_es": [
+            "Por $2,699 es una inversión en tono rock",
+            "Sus 4,1 kg lo convierten en la guitarra más pesada de esta guía",
+            "Sin trémolo — solo hardtail, así que nada de dive bombs ni palanca de vibrato",
+            "Sin opciones de coil-split ni push-pull — las BurstBucker 61 son humbuckers fijas",
+            "Por $2,699 cuesta casi tres veces la RG550 de $999, sin trémolo ni coil-split que lo justifiquen"
+          ]
+        },
+        {
+          "name": "Taylor 314ce",
+          "name_es": "Taylor 314ce",
+          "pros": [
+            "Grand Auditorium body is Taylor's most versatile shape for fingerpicking and strumming",
+            "The Expression System 2 pickup captures body and string tones balanced for PA and DI, so the 314ce is ready for stage or interface on day one",
+            "Sitka spruce top over sapele back and sides gives a balanced tone, and the 25.5-inch scale keeps it comfortable for long fingerpicking sessions",
+            "At 5.1 lb (2.3 kg) it's light and comfortable for long sessions"
+          ],
+          "pros_es": [
+            "El cuerpo Grand Auditorium es la forma más versátil de Taylor para punteo y rasgueo",
+            "La pastilla Expression System 2 captura el cuerpo y las cuerdas con un balance pensado para PA y DI, así que la 314ce está lista para el escenario o la interfaz desde el primer día",
+            "La tapa de picea Sitka sobre fondo y aros de sapelly ofrece un tono equilibrado, y la escala de 25,5 pulgadas la mantiene cómoda en sesiones largas de fingerpicking",
+            "Con 2,3 kg es ligera y cómoda para sesiones largas"
+          ],
+          "cons": [
+            "At $1,899 you are buying an acoustic-electric — that money also buys a full electric rig like the Strat plus an amp",
+            "Without a PA or DI it stays quiet on stage, and it cannot cover electric tones the way the Strat or LP does",
+            "No tremolo or electric pickup switching on board",
+            "The ES2 preamp runs on a battery, so a dead cell kills the amplified tone mid-set",
+            "The 25.5-inch scale demands more left-hand stretch than a 24.75-inch short-scale guitar, which some players dislike"
+          ],
+          "cons_es": [
+            "Por $1,899 compras una acústica-electroacústica — ese dinero también alcanza para un equipo eléctrico completo como la Strat más un amplificador",
+            "Sin un PA o DI queda baja en el escenario, y no cubre tonos eléctricos como lo hace la Strat o la LP",
+            "Sin trémolo ni conmutación de pastillas eléctricas a bordo",
+            "El preamp ES2 funciona con pila, así que una pila agotada mata el tono amplificado a mitad del set",
+            "La escala de 25,5 pulgadas exige más estiramiento de la mano izquierda que una de escala corta de 24,75 pulgadas, algo que algunos músicos no disfrutan"
+          ]
+        },
+        {
+          "name": "Ibanez RG550 Genesis",
+          "name_es": "Ibanez RG550 Genesis",
+          "pros": [
+            "Super Wizard neck is paper-thin and lightning fast",
+            "Edge locking tremolo stays in tune through dive bombs",
+            "V7/V8 pickups deliver clear, punchy tone",
+            "At $999 it undercuts the Strat by $800 while matching its 25.5-inch scale with a locking Edge trem and 24 frets"
+          ],
+          "pros_es": [
+            "El mástil Super Wizard es finísimo y rapidísimo",
+            "El trémolo bloqueado Edge mantiene la afinación incluso en dive bombs",
+            "Las pastillas V7/V8 ofrecen un tono claro y contundente",
+            "Por $999 cuesta $800 menos que la Strat a la vez que iguala su escala de 25,5 pulgadas con un trémolo Edge bloqueante y 24 trastes"
+          ],
+          "cons": [
+            "Super Wizard neck may feel too thin for larger hands",
+            "Basswood body is less resonant than alder or mahogany",
+            "The Edge trem requires learning locked string changes and setup",
+            "The V7/V8 pickups are clear but hotter-leaning, so vintage purists will want a pickup swap",
+            "Basswood with a 25.5-inch scale and thin neck suits speed, but keeps it one-dimensional for fat blues tones"
+          ],
+          "cons_es": [
+            "El mástil Super Wizard puede sentirse demasiado fino para manos grandes",
+            "El cuerpo de basswood es menos resonante que el de aliso o caoba",
+            "El trémolo Edge exige aprender los cambios de cuerdas bloqueadas y su ajuste",
+            "Las pastillas V7/V8 son claras pero con tendencia caliente, así que los puristas vintage querrán cambiarlas",
+            "El basswood con escala de 25,5 pulgadas y mástil fino favorece la velocidad, pero la deja unidimensional para tonos gruesos de blues"
+          ]
+        },
+        {
+          "name": "PRS McCarty 594",
+          "name_es": "PRS McCarty 594",
+          "pros": [
+            "58/15 LT humbuckers have clarity that lets every note breathe even under high gain",
+            "Pattern Vintage neck feels like your favorite vintage guitar",
+            "24.594-inch scale blends vintage feel with modern playability",
+            "PRS's factory setup and hand-finished fretwork arrive gig-ready out of the box, which the $5,499 price tag reflects"
+          ],
+          "pros_es": [
+            "Las humbuckers 58/15 LT tienen una claridad que deja respirar cada nota incluso a alta ganancia",
+            "El mástil Pattern Vintage se siente como tu guitarra vintage favorita",
+            "La escala de 24.594 pulgadas combina tacto vintage con tocabilidad moderna",
+            "El ajuste de fábrica y el trabajo manual de trastes de PRS llegan listos para tocar al sacarla de la caja, algo que refleja el precio de $5,499"
+          ],
+          "cons": [
+            "At $5,499 it's the most expensive guitar in this guide",
+            "Shorter 24.594-inch scale means slightly looser string tension",
+            "Covers Les Paul territory at roughly double the LP Standard '60s price",
+            "No tremolo — the two-piece bridge is fixed, so no dive bombs or vibrato arm",
+            "Its boutique price and tone target rock and blues — it does not chase the high-gain metal voice of the RG550"
+          ],
+          "cons_es": [
+            "Por $5,499 es la guitarra más cara de esta guía",
+            "La escala más corta de 24.594 pulgadas implica una tensión de cuerdas ligeramente más floja",
+            "Cubre el terreno de la Les Paul a aproximadamente el doble del precio de la LP Standard '60s",
+            "Sin trémolo — el puente de dos piezas es fijo, así que nada de dive bombs ni palanca de vibrato",
+            "Su precio boutique y su tono apuntan al rock y al blues — no persigue la voz de metal a alta ganancia de la RG550"
+          ]
+        }
+      ]
+    },
+    "ts9-vs-bd2": {
+      "verdictProsCons": [
+        {
+          "name": "Ibanez TS9 Tube Screamer",
+          "name_es": "Ibanez TS9 Tube Screamer",
+          "pros": [
+            "The mid-forward voice from its op-amp design cuts through a full-band mix where a flat pedal disappears",
+            "Its tight low end trims the flabby bottom of an already-driven amp, keeping chords defined",
+            "Proven classic on countless records",
+            "As a solo boost it lifts volume and mids at 8mA draw, so your lead pokes out without touching amp EQ"
+          ],
+          "pros_es": [
+            "La voz de medios realzada de su diseño con op-amp corta una mezcla de banda completa donde un pedal plano desaparece",
+            "Su grave ajustado recorta el fondo flojo de un amp ya saturado, manteniendo los acordes definidos",
+            "Clásico probado en innumerables discos",
+            "Como boost para solos levanta volumen y medios con 8mA de consumo, así que tu lead destaca sin tocar el EQ del amp"
+          ],
+          "cons": [
+            "Less versatile as a standalone drive — its voice is built around pushing a tube amp, not a broad range of gain textures",
+            "Can sound thin into a clean solid-state amp where there is no tube low end to push against",
+            "The mid-hump suits rock and blues leads but fights genres that need a flat, transparent drive",
+            "Needs an already-cranked amp to shine; into a clean amp it is less effective than the BD-2"
+          ],
+          "cons_es": [
+            "Menos versátil como overdrive independiente — su voz está pensada para empujar un amp de válvulas, no para un abanico amplio de texturas de ganancia",
+            "Puede sonar delgado en un amp limpio de transistores donde no hay grave de válvulas que empujar",
+            "El realce de medios favorece leads de rock y blues, pero choca con géneros que necesitan un overdrive plano y transparente",
+            "Necesita un amp ya saturado para lucirse; en un amp limpio es menos efectivo que el BD-2"
+          ]
+        },
+        {
+          "name": "Boss BD-2 Blues Driver",
+          "name_es": "Boss BD-2 Blues Driver",
+          "pros": [
+            "At 20mA draw its asymmetric clipping responds to pick attack, so playing harder pushes gain while backing off cleans up",
+            "Cleans up beautifully with volume knob",
+            "Works as boost, overdrive, or distortion",
+            "At $99 it matches the TS9's price while covering boost, overdrive, and distortion in one box"
+          ],
+          "pros_es": [
+            "Con 20mA de consumo su recorte asimétrico responde al ataque de la púa, así que tocar más fuerte sube la ganancia y aflojar limpia el sonido",
+            "Se limpia hermosamente con el volumen",
+            "Funciona como boost, overdrive o distorsión",
+            "A $99 iguala el precio del TS9 a la vez que cubre boost, overdrive y distorsión en una sola caja"
+          ],
+          "cons": [
+            "At full gain the asymmetric clipping can turn fizzy, so many players keep it below 2 o'clock",
+            "With less mid presence than the TS9 it sits further back in a dense band mix unless you boost EQ",
+            "Not as iconic as the TS9 — the mid-boost classic still dominates guitar racks and session mentions",
+            "Standard versions lack the low-cut switch found on later variants"
+          ],
+          "cons_es": [
+            "A ganancia máxima el recorte asimétrico puede volverse áspero, así que muchos músicos lo mantienen antes de las 2 en punto",
+            "Con menos presencia de medios que el TS9 queda más atrás en una mezcla densa de banda salvo que realces el EQ",
+            "No tan icónico como el TS9 — el clásico de realce de medios sigue dominando los racks de guitarra y las menciones de sesión",
+            "Las versiones estándar carecen del interruptor low-cut de las variantes posteriores"
+          ]
+        }
+      ],
+      "comparison": {
+        "rows": [
+          {
+            "label": "Year / Año",
+            "value1": "1982 (current reissue ~2001)",
+            "value2": "1995"
+          },
+          {
+            "label": "Circuit Type / Tipo de Circuito",
+            "value1": "Op-amp overdrive, symmetrical soft-clipping (JRC4558D)",
+            "value2": "Multi-stage transistor + op-amp clipping"
+          },
+          {
+            "label": "Best For / Ideal Para",
+            "value1": "Pushing tube amps, cutting through mix",
+            "value2": "Primary overdrive, touch-responsive playing"
+          },
+          {
+            "label": "Sound Character / Carácter de Sonido",
+            "value1": "Mid-forward, tight low end",
+            "value2": "Transparent, dynamic, natural"
+          },
+          {
+            "label": "Controls / Controles",
+            "value1": "Drive, Tone, Level",
+            "value2": "Gain, Tone, Level"
+          },
+          {
+            "label": "Bypass / Bypass",
+            "value1": "Buffered",
+            "value2": "True bypass"
+          },
+          {
+            "label": "Current Draw / Consumo",
+            "value1": "8mA @ 9V",
+            "value2": "20mA @ 9V"
+          },
+          {
+            "label": "Price / Precio",
+            "value1": "$99",
+            "value2": "$99"
+          }
+        ]
+      }
+    },
+    "budget-bass-like-expensive": {
+      "verdictProsCons": [
+        {
+          "name": "Squier Classic Vibe '60s Jazz Bass",
+          "name_es": "Squier Classic Vibe '60s Jazz Bass",
+          "pros": [
+            "Closest you can get to vintage Fender J tone without the $3,000 price",
+            "Fender-Designed alnico single-coils with that unmistakable midrange bark",
+            "Comfortable '60s C-shaped neck and vintage-style hardware",
+            "At $450 it is the single best value in budget bass"
+          ],
+          "pros_es": [
+            "Lo más cerca que puedes estar del tono Fender J vintage sin pagar $3,000",
+            "Single-coils alnico Fender-Designed con ese inconfundible ladrido de medios",
+            "Mástil C-shape estilo años 60 y hardware vintage",
+            "A $450 es el mejor valor absoluto en bajos económicos"
+          ],
+          "cons": [
+            "Stock pickups don't quite match Custom Shop detail",
+            "Passive electronics only — no active preamp",
+            "Vintage-style bridge lacks fine intonation adjustment",
+            "A pickup swap to Fender Original '62s adds $200+"
+          ],
+          "cons_es": [
+            "Las pastillas de serie no igualan el detalle de un Custom Shop",
+            "Solo electrónica pasiva — sin preamp activo",
+            "El puente estilo vintage no permite ajuste fino de entonación",
+            "Un cambio a pastillas Fender Original '62 añade más de $200"
+          ]
+        },
+        {
+          "name": "Squier Affinity Series Precision Bass PJ",
+          "name_es": "Squier Affinity Series Precision Bass PJ",
+          "pros": [
+            "PJ configuration gives Precision thump AND Jazz bite in one bass",
+            "The world's best-selling bass at just $280",
+            "Versatile enough to cover Motown, rock, and jazz tones",
+            "Lightweight poplar body with comfortable contours"
+          ],
+          "pros_es": [
+            "La configuración PJ da el golpe Precision Y el mordiente Jazz en un solo bajo",
+            "El bajo más vendido del mundo por solo $280",
+            "Lo bastante versátil para cubrir tonos de Motown, rock y jazz",
+            "Cuerpo de álamo ligero con contornos cómodos"
+          ],
+          "cons": [
+            "Affinity-level pickups are less refined than the Classic Vibe",
+            "Cheaper hardware may need upgrading over time",
+            "The 20-fret maple board is basic vs 24-fret modern necks",
+            "Needs a setup and string upgrade to reach its full potential"
+          ],
+          "cons_es": [
+            "Las pastillas de nivel Affinity son menos refinadas que las del Classic Vibe",
+            "El hardware más económico puede necesitar mejoras con el tiempo",
+            "El diapasón de arce de 20 trastes es básico frente a mástiles modernos de 24",
+            "Necesita un ajuste y cuerdas mejores para llegar a su máximo potencial"
+          ]
+        },
+        {
+          "name": "Yamaha TRBX304",
+          "name_es": "Yamaha TRBX304",
+          "pros": [
+            "5-position Performance EQ gives you five basses in one",
+            "Mahogany body and 5-piece neck rival instruments twice the price",
+            "Yamaha's 5-piece neck and factory setup arrive straight and ready to play out of the box",
+            "Active electronics deliver studio-ready punch"
+          ],
+          "pros_es": [
+            "El Performance EQ de 5 posiciones te da cinco bajos en uno",
+            "El cuerpo de caoba y el mástil de 5 piezas rivalizan con instrumentos del doble de precio",
+            "El mástil de 5 piezas de Yamaha y el ajuste de fábrica llegan rectos y listos para tocar al sacarlo de la caja",
+            "La electrónica activa ofrece un golpe listo para estudio"
+          ],
+          "cons": [
+            "The active preamp requires a 9V battery",
+            "Modern, neutral tone lacks vintage character",
+            "The 5-way Performance EQ has five voicings to learn, so expect a few sessions before you know which position each song needs",
+            "It is underrated, so few stores stock it for demos"
+          ],
+          "cons_es": [
+            "El preamp activo requiere una pila de 9V",
+            "El tono moderno y neutro carece de carácter vintage",
+            "El Performance EQ de 5 vías tiene cinco voces que aprender, así que espera unas sesiones hasta saber qué posición necesita cada canción",
+            "Está subestimado, así que pocas tiendas lo tienen para probarlo"
+          ]
+        },
+        {
+          "name": "Ibanez SR300E",
+          "name_es": "Ibanez SR300E",
+          "pros": [
+            "One of the thinnest, fastest necks in the bass world",
+            "Ultra-lightweight nyatoh body with double-cutaway design",
+            "Power Tap switch gives vintage J-style tones rarely seen under $1,000",
+            "Active 3-band EQ for modern, studio-ready sound"
+          ],
+          "pros_es": [
+            "Uno de los mástiles más delgados y rápidos del mundo del bajo",
+            "Cuerpo de nyatoh ultraligero con diseño de doble cutaway",
+            "El interruptor Power Tap ofrece tonos estilo J vintage raros por debajo de $1,000",
+            "EQ activo de 3 bandas para sonido moderno listo para estudio"
+          ],
+          "cons": [
+            "The nyatoh body lacks the resonance of mahogany or alder rivals",
+            "The active 3-band EQ runs on a 9V battery, so a dead cell means dead tone mid-session",
+            "The slim neck isn't for players who prefer a chunkier feel",
+            "Pickups are clear but not as articulate as higher-end SRs"
+          ],
+          "cons_es": [
+            "El cuerpo de nyatoh no tiene la resonancia de los rivales de caoba o aliso",
+            "El EQ activo de 3 bandas funciona con una pila de 9V, así que una pila agotada significa tono muerto a mitad de sesión",
+            "El mástil delgado no es para quien prefiere una sensación más robusta",
+            "Las pastillas son claras pero no tan articuladas como las SR de gama alta"
+          ]
+        },
+        {
+          "name": "Sterling by Music Man StingRay Ray4",
+          "name_es": "Sterling by Music Man StingRay Ray4",
+          "pros": [
+            "Iconic Music Man StingRay tone for a fraction of the price",
+            "Ceramic humbucker with a 2-band active preamp",
+            "Thick, punchy mid-forward sound that cuts through a band",
+            "Hard maple neck and lightweight basswood body"
+          ],
+          "pros_es": [
+            "Tono icónico de Music Man StingRay por una fracción del precio",
+            "Humbucker cerámica con preamp activo de 2 bandas",
+            "Sonido grueso, contundente y presente que corta a través de la banda",
+            "Mástil de arce duro y cuerpo de tilo ligero"
+          ],
+          "cons": [
+            "A single humbucker means limited tonal variety",
+            "The basswood body isn't the most resonant",
+            "The active preamp needs a 9V battery",
+            "Sterling's hardware is built to a budget, so tuners and bridge feel less precise than the flagship Music Man models they copy"
+          ],
+          "cons_es": [
+            "Una sola humbucker significa variedad tonal limitada",
+            "El cuerpo de tilo no es de los más resonantes",
+            "El preamp activo necesita una pila de 9V",
+            "El hardware de Sterling está hecho para un presupuesto, así que clavijas y puente se sienten menos precisos que en los Music Man insignia que imitan"
+          ]
+        },
+        {
+          "name": "Epiphone Thunderbird '60s Bass",
+          "name_es": "Epiphone Thunderbird '60s Bass",
+          "pros": [
+            "Neck-through construction normally reserved for $2,500+ basses",
+            "Deep, resonant rock growl from the Thunderbird humbuckers",
+            "Iconic reverse-body design that turns heads",
+            "At $399 it is a bargain for a pro-level rock bass"
+          ],
+          "pros_es": [
+            "Construcción neck-through normalmente reservada a bajos de más de $2,500",
+            "Growl profundo y resonante de rock gracias a las humbuckers Thunderbird",
+            "Icónico diseño de cuerpo invertido que llama la atención",
+            "A $399 es una ganga para un bajo de rock de nivel profesional"
+          ],
+          "cons": [
+            "Heavy and prone to neck dive with the reverse body",
+            "Only 20 frets and a single pickup layout",
+            "Its thick tone is specialized, not versatile across genres",
+            "Strap balance is finicky without a wide strap or relocation"
+          ],
+          "cons_es": [
+            "Pesado y propenso al neck dive por el cuerpo invertido",
+            "Solo 20 trastes y una única pastilla",
+            "Su tono grueso es especializado, no versátil entre géneros",
+            "El equilibrio con la correa es delicado sin una correa ancha o reubicación"
+          ]
+        },
+        {
+          "name": "Sire Marcus Miller V5 4-String Bass",
+          "name_es": "Bajo Sire Marcus Miller V5 4 Cuerdas",
+          "pros": [
+            "Marcus Miller-designed active/passive preamp is a pro-level feature",
+            "Rolled fretboard edges for comfortable, smooth play",
+            "Alnico pickups deliver warm, vintage-leaning tone",
+            "At $499 it packs a Marcus Miller preamp and rolled fretboard edges that boutique basses twice the price charge for"
+          ],
+          "pros_es": [
+            "El preamp activo/pasivo diseñado por Marcus Miller es una característica de nivel pro",
+            "Bordes de diapasón redondeados para tocar cómodo y suave",
+            "Las pastillas alnico ofrecen un tono cálido de tendencia vintage",
+            "A $499 incluye un preamp de Marcus Miller y bordes de diapasón redondeados por los que los bajos boutique del doble de precio cobran"
+          ],
+          "cons": [
+            "At $499 it sits at the top of the budget range",
+            "The active circuit requires battery power",
+            "Availability can be spotty in some regions",
+            "It is heavier than featherweight budget basses"
+          ],
+          "cons_es": [
+            "A $499 se sitúa en el tope del rango económico",
+            "El circuito activo requiere alimentación por pila",
+            "La disponibilidad puede ser irregular en algunas regiones",
+            "Es más pesado que los bajos económicos ultraligeros"
+          ]
+        },
+        {
+          "name": "Schecter Stiletto Stealth 4 Bass",
+          "name_es": "Bajo Schecter Stiletto Stealth 4",
+          "pros": [
+            "EMG-designed pickups deliver aggressive, high-output tone",
+            "Ultra-lightweight swamp ash body keeps long metal gigs easy on the shoulder without hurting sustain",
+            "Thin C-shaped neck built for speed — the slim carve and satin back make fast single-note runs feel effortless",
+            "Sleek satin black look made for metal stages"
+          ],
+          "pros_es": [
+            "Las pastillas diseñadas por EMG ofrecen un tono agresivo de alta salida",
+            "El cuerpo ultraligero de fresno de pantano aligera los conciertos de metal largos para el hombro sin dañar el sustain",
+            "Mástil delgado tipo C construido para la velocidad — el perfil fino y el dorso satinado hacen que las carreras rápidas de notas sueltas se sientan sin esfuerzo",
+            "Look negro satinado elegante hecho para escenarios de metal"
+          ],
+          "cons": [
+            "Its metal-tuned voice suits rock and metal more than vintage styles",
+            "Active electronics require a 9V battery",
+            "The satin black finish scuffs easily, so strap buckles and cases leave marks you notice on stage lights",
+            "The aggressive voicing needs EQ to sit in softer mixes"
+          ],
+          "cons_es": [
+            "Su voz orientada al metal encaja más en rock y metal que en estilos vintage",
+            "La electrónica activa requiere una pila de 9V",
+            "El acabado negro satinado se raya con facilidad, así que hebillas de correa y estuches dejan marcas que notas bajo las luces del escenario",
+            "La ecualización agresiva necesita EQ para asentarse en mezclas suaves"
+          ]
+        },
+        {
+          "name": "ESP LTD B-204SM Bass Guitar",
+          "name_es": "Bajo ESP LTD B-204SM",
+          "pros": [
+            "Stunning spalted maple top that looks custom-shop",
+            "Active electronics deliver modern, flexible tone",
+            "Fast thin-U neck profile keeps the hand low for quick runs, matching the speed of the Schecter's C-shape",
+            "At $499 the spalted maple top and active electronics match the looks and tone of basses twice the price"
+          ],
+          "pros_es": [
+            "Tapa de arce espectacular que parece de custom shop",
+            "La electrónica activa ofrece un tono moderno y flexible",
+            "El perfil de mástil delgado tipo U, rápido, mantiene la mano baja para carreras veloces, igualando la rapidez del C de la Schecter",
+            "A $499 la tapa de arce y la electrónica activa igualan el aspecto y el tono de bajos del doble de precio"
+          ],
+          "cons": [
+            "A 9V battery is required for the active circuit",
+            "The spalted top is cosmetic — tone depends on pickups and amp",
+            "Stock pickups are decent but not boutique",
+            "Limited availability in many stores"
+          ],
+          "cons_es": [
+            "Se requiere una pila de 9V para el circuito activo",
+            "La tapa es cosmética — el tono depende de pastillas y amplificador",
+            "Las pastillas de serie son decentes pero no boutique",
+            "Disponibilidad limitada en muchas tiendas"
+          ]
+        },
+        {
+          "name": "Hofner Ignition Violin Bass (Beatle Bass)",
+          "name_es": "Bajo Hofner Ignition Violin Bass (Beatle Bass)",
+          "pros": [
+            "The 30-inch short scale and hollow body produce the woody Beatle bass tone that anchored McCartney's basslines",
+            "Under 5 lb — the easiest bass to play standing for hours",
+            "The 30-inch short scale suits smaller hands",
+            "Warm, woody hollow-body character nothing else replicates"
+          ],
+          "pros_es": [
+            "La escala corta de 30 pulgadas y el cuerpo hueco producen el tono de madera del bajo Beatle que ancló las líneas de bajo de McCartney",
+            "Menos de 2.3 kg — el bajo más fácil de tocar de pie durante horas",
+            "La escala corta de 30 pulgadas se adapta a manos pequeñas",
+            "Cálido carácter de cuerpo hueco y madera que nada más replica"
+          ],
+          "cons": [
+            "The hollow body is feedback-prone at gig volumes",
+            "Short scale changes intonation and feel vs standard basses",
+            "A single-pickup layout limits tonal range — you get the Beatle voice and little else, so switch basses for modern tones",
+            "Its niche vintage sound is not a general-purpose bass"
+          ],
+          "cons_es": [
+            "El cuerpo hueco es propenso a los acoples a volumen de concierto",
+            "La escala corta cambia la entonación y el tacto frente a bajos estándar",
+            "Un diseño de una sola pastilla limita el rango tonal — tienes la voz Beatle y poco más, así que cambia de bajo para tonos modernos",
+            "Su sonido vintage de nicho no es un bajo para todo"
+          ]
+        }
+      ]
+    },
+    "acoustic-guitars-guide": {
+      "verdictProsCons": [
+        {
+          "name": "Yamaha FG800 Acoustic",
+          "name_es": "Yamaha FG800 Acústica",
+          "pros": [
+            "Spruce top over nato back and sides opens up with age, giving the $229 dreadnought dynamics most beginners expect from guitars twice the price",
+            "Dreadnought body with full, balanced sound",
+            "Playable out of the box — no setup needed",
+            "Rivals guitars costing twice as much"
+          ],
+          "pros_es": [
+            "La tapa de picea sobre fondo y aros de nato se abre con la edad, dando a la dreadnought de $229 una dinámica que la mayoría de principiantes espera de guitarras del doble de precio",
+            "Cuerpo dreadnought con sonido pleno y equilibrado",
+            "Lista para tocar al sacarla de la caja — sin ajustes",
+            "Rivaliza con guitarras que cuestan el doble"
+          ],
+          "cons": [
+            "Laminate nato back and sides keep the price down but hold back the resonance of a fully wooden instrument as it ages",
+            "No electronics for amplified gigging",
+            "At $229 it's only $10 more than the Fender CD-60S",
+            "The 25.5-inch scale and deep dreadnought body feel large for smaller hands",
+            "No case or gig bag included, so add storage costs to the $229"
+          ],
+          "cons_es": [
+            "El fondo y aros de nato laminados mantienen el precio bajo pero frenan la resonancia de un instrumento totalmente de madera con la edad",
+            "Sin electrónica para tocar amplificado",
+            "A $229 cuesta solo $10 más que la Fender CD-60S",
+            "La escala de 25,5 pulgadas y el cuerpo dreadnought profundo se sienten grandes para manos pequeñas",
+            "Sin funda ni estuche incluidos, así que suma costes de guardado a los $229"
+          ]
+        },
+        {
+          "name": "Martin D-28 Dreadnought",
+          "name_es": "Martin D-28 Dreadnought",
+          "pros": [
+            "Sitka spruce top and East Indian rosewood back and sides define the classic dreadnought voice, with projection that fills a room unplugged",
+            "Rich, complex tone with projection that fills any room",
+            "The standard by which all acoustic guitars are measured",
+            "An investment that appreciates over time"
+          ],
+          "pros_es": [
+            "La tapa de picea Sitka y el fondo y aros de palo rosa de la India definen la voz clásica de la dreadnought, con una proyección que llena la sala sin amplificar",
+            "Tono rico y complejo con proyección que llena cualquier sala",
+            "El estándar con el que se miden todas las guitarras acústicas",
+            "Una inversión que se revaloriza con el tiempo"
+          ],
+          "cons": [
+            "At $2,999 it's 13x the price of the FG800",
+            "Dreadnought size feels bulky for smaller players",
+            "No electronics included, so playing it through a PA means adding a pickup and preamp later",
+            "Rosewood back and sides need humidity care in dry climates to avoid cracking",
+            "No cutaway — upper-fret access above the 12th fret stays tight for lead work"
+          ],
+          "cons_es": [
+            "A $2,999 cuesta 13 veces el precio de la FG800",
+            "El tamaño dreadnought se siente voluminoso para los más pequeños",
+            "Sin electrónica incluida, así que tocarla por un PA implica añadir pastilla y preamp después",
+            "El fondo y aros de palo rosa requieren cuidados de humedad en climas secos para evitar grietas",
+            "Sin cutaway — el acceso a los trastes superiores por encima del 12 se mantiene apretado para el trabajo de lead"
+          ]
+        },
+        {
+          "name": "Fender CD-60S Acoustic",
+          "name_es": "Fender CD-60S Acústica",
+          "pros": [
+            "Spruce top over mahogany back and sides delivers the warm, balanced voice that keeps beginners comfortable through the first year",
+            "Warm, balanced tone that's forgiving for beginners",
+            "The slim nato neck and 25.3-inch scale keep chords comfortable for small hands and new players",
+            "At $219 it undercuts the FG800 by $10, which makes it the entry point for students who want a full-size dreadnought"
+          ],
+          "pros_es": [
+            "La tapa de picea sobre fondo y aros de caoba ofrece la voz cálida y equilibrada que mantiene cómodos a los principiantes durante el primer año",
+            "Tono cálido y equilibrado que perdona a los principiantes",
+            "El mástil fino de nato y la escala de 25,3 pulgadas mantienen cómodos los acordes para manos pequeñas y nuevos músicos",
+            "A $219 cuesta $10 menos que la FG800, lo que la convierte en el punto de entrada para estudiantes que quieren una dreadnought de tamaño completo"
+          ],
+          "cons": [
+            "Laminate back and sides limit the depth and aging that a fully wooden guitar like the Martin D-28 brings",
+            "No electronics for amplified playing",
+            "Dreadnought body is big for younger players",
+            "No gig bag or case included at $219, so budget for a bag",
+            "No cutaway, so solo work above the 12th fret stays cramped on the full dreadnought body"
+          ],
+          "cons_es": [
+            "El fondo y aros laminados limitan la profundidad y la evolución que aporta una guitarra totalmente de madera como la Martin D-28",
+            "Sin electrónica para tocar amplificado",
+            "El cuerpo dreadnought es grande para los más jóvenes",
+            "Sin funda ni estuche a los $219, así que presupuesta una funda",
+            "Sin cutaway, así que el trabajo de solos por encima del 12 traste queda apretado en el cuerpo dreadnought completo"
+          ]
+        }
+      ]
+    }
+  }
+}

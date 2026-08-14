@@ -1,0 +1,843 @@
+# GUIDE: active-vs-passive-pa
+TITLE: Active vs Passive PA Speakers: Which Is Right for You?
+TITLE_ES: Altavoces Activos vs Pasivos: ¿Cuál es Mejor para Ti?
+FS_SPECS:
+  [Type / Tipo]: Active (Powered) || Active (Powered) || Active (Powered)
+  [Power (Peak) / Potencia (Máx)]: 1000W || 2000W || 1000W
+  [Woofer / Woofer]: 12" with Titanium Tweeter || 12" with 1.75" Compression Driver || 12" with 1.4" Compression Driver
+  [Max SPL / SPL Máx]: 126dB || 131dB || 131dB
+  [Weight / Peso]: 34.3 lbs || 39 lbs || 34.8 lbs
+  [DSP / DSP]: Presets (Music/Speech/Monitor) || 4 Presets + User EQ || FIR-X + D-CONTOUR
+  [Bluetooth / Bluetooth]: Yes (Input) || No || No
+  [Warranty / Garantía]: 3 Years || 6 Years || 7 Years
+  [Price / Precio]: $599 || $999 || $459
+VPC:
+
+[P] EV ZLX-12P Powered Speaker
+  P0: Best value at $599
+  P1: Lightweight design
+  P2: QuickSmart DSP for easy setup
+  P3: Clear and balanced sound
+  P4: Proven reliability
+  PE0: Mejor valor a $599
+  PE1: Diseño ligero
+  PE2: DSP QuickSmart
+  PE3: Sonido claro y equilibrado
+  PE4: Fiabilidad probada
+  C0: Lower max SPL than QSC
+  C1: The ABS cabinet is fine for weekend gigs but less road-worthy than the QSC's polypropylene for constant touring
+  C2: Limited low-end extension
+  C3: Basic DSP presets only
+  CE0: SPL máximo más bajo
+  CE1: El gabinete ABS va bien para fin de semana pero aguanta menos la ruta que el polipropileno de la QSC en giras constantes
+  CE2: Extensión de graves limitada
+  CE3: Presets DSP básicos
+
+[P] QSC K12.2 Powered Speaker
+  P0: Industry standard for professional sound
+  P1: Highest max SPL (131 dB)
+  P2: Deep bass extension from 12" woofer
+  P3: Advanced DSP with multiple modes
+  P4: Excellent build quality
+  PE0: Estándar de la industria
+  PE1: SPL máximo más alto (131 dB)
+  PE2: Graves profundos
+  PE3: DSP avanzado
+  PE4: Excelente construcción
+  C0: Expensive at $999
+  C1: Heavier than competitors
+  C2: No built-in Bluetooth; streaming background music needs a separate mixer or adapter
+  C3: The $400-$500 premium over the ZLX-12P and DBR12 only pays off if you truly need 2000W and 131 dB
+  CE0: Caro a $999
+  CE1: Más pesado
+  CE2: Sin Bluetooth integrado; reproducir música de fondo requiere un mezclador o adaptador aparte
+  CE3: La prima de $400-$500 sobre la ZLX-12P y la DBR12 solo se justifica si de verdad necesitas 2000W y 131 dB
+
+[P] Yamaha DBR12
+  P0: Best budget option at $499
+  P1: Class-D amplification is efficient
+  P2: Lightweight and portable
+  P3: Clean output up to 129 dB SPL
+  P4: Yamaha reliability
+  PE0: Mejor opción económica a $499
+  PE1: Amplificación Clase-D eficiente
+  PE2: Ligero y portátil
+  PE3: Salida limpia hasta 129 dB SPL
+  PE4: Fiabilidad Yamaha
+  C0: Fewer DSP features than QSC
+  C1: Less low-end punch than competition
+  C2: Basic EQ controls
+  C3: No networking capability
+  CE0: Menos funciones DSP
+  CE1: Menos golpe en graves
+  CE2: Controles EQ básicos
+  CE3: Sin capacidad de red
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Budget-friendly powered speaker ~ Altavoz autoamplificado económico | Pro sound quality with lots of headroom ~ Calidad pro con mucho margen | Compact clear-sounding budget PA ~ PA económico compacto y claro
+  PT[Type/Tipo]: Powered PA speaker ~ Altavoz PA autoamplificado | Powered PA speaker ~ Altavoz PA autoamplificado | Powered PA speaker ~ Altavoz PA autoamplificado
+  PT[Power/Potencia]: 1000W (peak) ~ 1000W (pico) | 2000W (peak) ~ 2000W (pico) | 1000W (peak) ~ 1000W (pico)
+  PT[Driver/Altavoz]: 12" + 1" HF ~ 12" + 1" HF | 12" + 1.75" HF ~ 12" + 1,75" HF | 12" + 1.4" HF ~ 12" + 1,4" HF
+  PT[Frequency Response/Respuesta de Frecuencia]: 50 Hz – 20 kHz ~ 50 Hz – 20 kHz | 48 Hz – 20 kHz ~ 48 Hz – 20 kHz | 53 Hz – 20 kHz ~ 53 Hz – 20 kHz
+  PT[Max SPL/SPL Máximo]: 126 dB ~ 126 dB | 131 dB ~ 131 dB | 129 dB ~ 129 dB
+  PT[Coverage/Cobertura]: 90° x 60° ~ 90° x 60° | 90° x 60° ~ 90° x 60° | 90° x 60° ~ 90° x 60°
+  PT[DSP/DSP]: DSP presets (music/live/voice) ~ Presets DSP (music/live/voice) | DSP with 8 presets ~ DSP con 8 presets | DSP presets ~ Presets DSP
+  PT[Inputs/Entradas]: Mic/line XLR, RCA, Bluetooth (ZLX-12P) ~ Mic/line XLR, RCA, Bluetooth (ZLX-12P) | 2x XLR/combo, RCA, 3.5mm ~ 2x XLR/combo, RCA, 3,5 mm | 2x XLR/combo + XLR out ~ 2x XLR/combo + salida XLR
+  PT[Weight/Peso]: 34.3 lb (15.6 kg) ~ 15,6 kg | 39 lb (17.7 kg) ~ 17,7 kg | 34.8 lb (15.8 kg) ~ 15,8 kg
+  PT[Price/Precio]: $599 ~ $599 | $999 ~ $999 | $459 ~ $459
+
+AUDIT_FLAGS:
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / pros: Best value at $599
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / pros: Lightweight design
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / pros: QuickSmart DSP for easy setup
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / pros: Clear and balanced sound
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / pros: Proven reliability
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / cons: Lower max SPL than QSC
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / cons: Limited low-end extension
+[TOO_SHORT] active-vs-passive-pa / EV ZLX-12P Powered Speaker / cons: Basic DSP presets only
+[TOO_SHORT] active-vs-passive-pa / QSC K12.2 Powered Speaker / pros: Highest max SPL (131 dB)
+[TOO_SHORT] active-vs-passive-pa / QSC K12.2 Powered Speaker / pros: Advanced DSP with multiple modes
+[TOO_SHORT] active-vs-passive-pa / QSC K12.2 Powered Speaker / pros: Excellent build quality
+[GENERIC] active-vs-passive-pa / QSC K12.2 Powered Speaker / pros: Excellent build quality
+[TOO_SHORT] active-vs-passive-pa / QSC K12.2 Powered Speaker / cons: Expensive at $999
+[TOO_SHORT] active-vs-passive-pa / QSC K12.2 Powered Speaker / cons: Heavier than competitors
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / pros: Best budget option at $499
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / pros: Class-D amplification is efficient
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / pros: Lightweight and portable
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / pros: Clean output up to 129 dB SPL
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / pros: Yamaha reliability
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / cons: Fewer DSP features than QSC
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / cons: Basic EQ controls
+[TOO_SHORT] active-vs-passive-pa / Yamaha DBR12 / cons: No networking capability
+
+# GUIDE: yamaha-mg-vs-behringer-xenyx
+TITLE: Yamaha MG vs Behringer Xenyx: Best Analog Mixer?
+TITLE_ES: Yamaha MG vs Behringer Xenyx: ¿Mejor Mezcladora Analógica?
+FS_SPECS:
+  [undefined / Canales]: 10-16 || 12 (16 inputs)
+  [undefined / Preamps]: 4-8 D-PRE || 6 XENYX
+  [undefined / Efectos]: 24 SPX programs || 16 multi-FX presets
+  [undefined / Audio USB]: 24-bit/192kHz 2x2 || 16-bit/48kHz stereo
+  [undefined / Compresores]: 2 (ch 1-2 on MG10XU) || 4 one-knob
+  [undefined / EQ Gráfico]: None || 7-band with FBQ
+  [undefined / Construcción]: Metal chassis || Metal chassis
+  [undefined / Peso]: 4.6-15 lbs || 9.3 lbs
+COMPARISON:
+  [Year / Año]: 2002 || 2003
+  [Channels / Canales]: 10 (MG10XU) / 16 (MG16XU) || 12 (16 inputs total)
+  [Mic Preamps / Preamps Mic]: 4 (MG10XU) / 8 (MG16XU) D-PRE || 6 XENYX
+  [Preamp Technology / Tecnología de Preamp]: Inverted Darlington circuit (D-PRE) || XENYX (based on MIDAS design)
+  [Preamp Dynamic Range / Rango Dinámico Preamp]: 126 dB || 130 dB
+  [EQ per Mono Channel / EQ por Canal Mono]: 3-band fixed || 3-band British (semi-parametric)
+  [EQ per Stereo Channel / EQ por Canal Estéreo]: 2-band (MG10XU: none on ch 5-10) || 3-band (ch 9-10) / 2-band (ch 11-12)
+  [Low Cut Filter / Filtro Low Cut]: Yes (mono channels) || Yes (mono channels)
+  [Aux Sends / Envíos Aux]: 2 (MG10XU) / 4 (MG16XU) || 2
+  [Group Buses / Buses de Grupo]: 0 (MG10XU) / 4 (MG16XU) || 0
+  [Stereo Aux Returns / Retornos Aux Estéreo]: 1 || 2
+  [Effects Processor / Procesador de Efectos]: Yamaha SPX (24 programs) || 24-bit multi-FX (16 presets)
+  [Compressors / Compresores]: 1-knob on ch 1-2 (MG10XU) / ch 1-8 (MG16XU) || 1-knob on ch 1-4
+  [Graphic EQ / EQ Gráfico]: None || 7-band stereo with FBQ feedback detection
+  [Feedback Detection / Detección de Feedback]: None || FBQ (indicates frequency on GEQ LEDs)
+  [USB Audio / Audio USB]: 24-bit / 192 kHz 2-in/2-out || 16-bit / 48 kHz stereo
+  [Phantom Power / Fantom Power]: +48V (global switch) || +48V (global switch)
+  [Phantom Power Per Channel / Fantom Power por Canal]: No (global only) || No (global only)
+  [3D Surround Effect / Efecto 3D Surround]: None || XPQ 3D stereo surround
+  [Voice Canceller / Cancelador de Voz]: None || Yes
+  [Dimensions / Dimensiones]: MG10XU: 13.8x3.8x11.4" / MG16XU: 15.8x5.5x17.9" || 13.8x4.7x15.7"
+  [Weight / Peso]: 4.6 lbs (MG10XU) / 15 lbs (MG16XU) || 9.3 lbs
+  [Rack Mount Kit / Kit Montaje en Rack]: Included (MG16XU) / Optional (MG10XU) || Optional
+  [Build Material / Material de Construcción]: Impact-resistant metal chassis || Metal chassis with plastic knobs
+  [Included Accessories / Accesorios Incluidos]: AC adaptor, USB cable, rack ears (MG16XU) || AC adaptor, USB cable, CUBASE LE download
+  [Price / Precio]: $199 (MG10XU) - $519 (MG16XU) || $249
+VPC:
+
+[P] Yamaha MG10XU
+  P0: Yamaha SPX effects (24 programs)
+  P1: D-PRE inverted Darlington preamps
+  P2: 24-bit/192kHz USB audio
+  P3: Solid build quality
+  P4: Clean, transparent sound
+  PE0: Efectos Yamaha SPX (24 programas)
+  PE1: Preamps D-PRE
+  PE2: Audio USB 24-bit/192kHz
+  PE3: Construcción sólida
+  PE4: Sonido limpio y transparente
+  C0: Fewer channels than Xenyx
+  C1: No feedback detection
+  C2: Single stereo aux return
+  C3: Limited EQ on stereo channels
+  CE0: Menos canales que Xenyx
+  CE1: Sin detección de feedback
+  CE2: Solo un retorno aux estéreo
+  CE3: EQ limitado en canales estéreo
+
+[P] Behringer Xenyx X1222USB
+  P0: XENYX preamps (Midas-based design)
+  P1: 7-band graphic EQ with FBQ feedback detection
+  P2: XPQ 3D surround effect
+  P3: Voice canceller feature
+  P4: Great value at $249
+  PE0: Preamps XENYX (diseño Midas)
+  PE1: EQ gráfico de 7 bandas con FBQ
+  PE2: Efecto surround XPQ 3D
+  PE3: Cancelador de voz
+  PE4: Gran valor a $249
+  C0: 16-bit/48kHz USB (lower quality)
+  C1: Plastic knobs feel cheap
+  C2: No SPX effects
+  C3: Global phantom power only
+  CE0: USB 16-bit/48kHz
+  CE1: Perillas de plástico
+  CE2: Sin efectos SPX
+  CE3: Phantom power global
+
+AUDIT_FLAGS:
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / pros: Yamaha SPX effects (24 programs)
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / pros: D-PRE inverted Darlington preamps
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / pros: 24-bit/192kHz USB audio
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / pros: Solid build quality
+[GENERIC] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / pros: Solid build quality
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / pros: Clean, transparent sound
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / cons: Fewer channels than Xenyx
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / cons: No feedback detection
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / cons: Single stereo aux return
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Yamaha MG10XU / cons: Limited EQ on stereo channels
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / pros: XENYX preamps (Midas-based design)
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / pros: XPQ 3D surround effect
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / pros: Voice canceller feature
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / pros: Great value at $249
+[GENERIC] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / pros: Great value at $249
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / cons: 16-bit/48kHz USB (lower quality)
+[GENERIC] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / cons: 16-bit/48kHz USB (lower quality)
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / cons: Plastic knobs feel cheap
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / cons: No SPX effects
+[TOO_SHORT] yamaha-mg-vs-behringer-xenyx / Behringer Xenyx X1222USB / cons: Global phantom power only
+
+# GUIDE: xr18-vs-m32r
+TITLE: XR18 vs M32R LIVE: Best Digital Mixer for Bands?
+TITLE_ES: XR18 vs M32R LIVE: ¿Mejor Mezclador Digital para Bandas?
+FS_SPECS:
+  [undefined / Canales]: 18 || 40
+  [undefined / Preamps]: 16 Midas || 16 Midas PRO
+  [undefined / Faders]: App-only || 17 Motorized
+  [undefined / Grabación]: 18x18 USB || 32ch SD + 32x32 USB
+  [undefined / Wi-Fi]: Built-in || Via router
+  [undefined / Peso]: 5.1 lbs || 31.5 lbs
+COMPARISON:
+  [Year / Año]: 2013 || 2022
+  [Channels / Canales]: 18 || 40
+  [Preamps / Preamps]: 16 Midas || 16 Midas PRO
+  [Faders / Faders]: App-only || 17 Motorized
+  [Recording / Grabación]: 18x18 USB || 32ch SD + 32x32 USB
+  [Wi-Fi / Wi-Fi]: Built-in || Via router
+  [Weight / Peso]: 5.1 lbs || 31.5 lbs
+  [Price / Precio]: $485 || $2,799
+VPC:
+
+[P] Behringer X Air XR18
+  P0: Affordable at $485
+  P1: Built-in Wi-Fi, no router needed
+  P2: Lightweight at 5.1 lbs
+  P3: Midas-designed preamps
+  P4: 18x18 USB recording
+  PE0: Asequible a $485
+  PE1: Wi-Fi integrado
+  PE2: Ligero a 5.1 lbs
+  PE3: Preamps Midas
+  PE4: Grabación USB 18x18
+  C0: No physical faders — tablet-only control
+  C1: Limited to 18 channels
+  C2: No SD recording
+  C3: Plastic build
+  CE0: Sin faders físicos
+  CE1: Limitado a 18 canales
+  CE2: Sin grabación SD
+  CE3: Construcción de plástico
+
+[P] Midas M32R LIVE
+  P0: 17 motorized faders
+  P1: 40 channels of processing
+  P2: PRO series preamps — superior sound
+  P3: SD recording + 32x32 USB
+  P4: Tour-grade build quality
+  PE0: 17 faders motorizados
+  PE1: 40 canales de procesamiento
+  PE2: Preamps PRO series
+  PE3: Grabación SD + USB 32x32
+  PE4: Construcción profesional
+  C0: Expensive at $2,799
+  C1: Heavy at 31.5 lbs
+  C2: Requires external router for Wi-Fi
+  C3: Overkill for small venues
+  CE0: Caro a $2,799
+  CE1: Pesado a 31.5 lbs
+  CE2: Requiere router externo
+  CE3: Excesivo para venues pequeños
+
+AUDIT_FLAGS:
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / pros: Affordable at $485
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / pros: Built-in Wi-Fi, no router needed
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / pros: Lightweight at 5.1 lbs
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / pros: Midas-designed preamps
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / pros: 18x18 USB recording
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / cons: Limited to 18 channels
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / cons: No SD recording
+[TOO_SHORT] xr18-vs-m32r / Behringer X Air XR18 / cons: Plastic build
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / pros: 17 motorized faders
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / pros: 40 channels of processing
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / pros: SD recording + 32x32 USB
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / pros: Tour-grade build quality
+[GENERIC] xr18-vs-m32r / Midas M32R LIVE / pros: Tour-grade build quality
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / cons: Expensive at $2,799
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / cons: Heavy at 31.5 lbs
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / cons: Requires external router for Wi-Fi
+[TOO_SHORT] xr18-vs-m32r / Midas M32R LIVE / cons: Overkill for small venues
+
+# GUIDE: daw-guide
+TITLE: Best Music Production Software (DAW)
+TITLE_ES: Mejor Software de Producción Musical (DAW)
+VPC:
+
+[P] Ableton Live 12 Suite
+  P0: Session View launches clips and loops in real time for live performance
+  P1: Warp Engine timestretches audio flawlessly
+  P2: Max for Live extends the DAW with custom devices
+  P3: The gold standard workflow for electronic musicians
+  PE0: Session View lanza clips y loops en tiempo real para tocar en vivo
+  PE1: El Warp Engine ajusta el tiempo del audio a la perfección
+  PE2: Max for Live amplía el DAW con dispositivos personalizados
+  PE3: El flujo de trabajo de referencia para músicos electrónicos
+  C0: At $799 it's an investment
+  C1: Arrangement view is less powerful than Cubase or Pro Tools for linear recording
+  C2: Not the standard in commercial recording studios
+  CE0: A $799 es una inversión
+  CE1: La Arrangement View es menos potente que Cubase o Pro Tools para grabación lineal
+  CE2: No es el estándar en estudios de grabación comerciales
+
+[P] Logic Pro
+  P0: At $199 one-time with all major updates free — best value in DAWs by far
+  P1: AI Session Players generate bass, keyboard, synth and drums
+  P2: Alchemy synth, ChromaGlow, Dolby Atmos, Stem Splitter all included
+  P3: 10,000+ Apple Loops and a massive sound library
+  PE0: A $199 de pago único con todas las actualizaciones principales gratis — el mejor valor en DAWs con diferencia
+  PE1: Los Session Players de IA generan bajo, teclado, sintetizador y batería
+  PE2: Sintetizador Alchemy, ChromaGlow, Dolby Atmos, Stem Splitter todo incluido
+  PE3: Más de 10,000 Apple Loops y una enorme biblioteca de sonidos
+  C0: Mac-only — no Windows version
+  C1: Collaborators on other platforms can't open your projects natively
+  C2: Huge sound library needs substantial drive space
+  CE0: Solo Mac — sin versión para Windows
+  CE1: Los colaboradores en otras plataformas no pueden abrir tus proyectos de forma nativa
+  CE2: La enorme biblioteca de sonidos requiere bastante espacio en disco
+
+[P] FL Studio Producer Edition
+  P0: Pattern-based workflow perfect for hip-hop, EDM and pop
+  P1: Piano roll is the best in any DAW
+  P2: Lifetime free updates — buy once and keep getting better
+  P3: Pro-quality mixer and effects
+  PE0: Flujo de trabajo basado en patrones perfecto para hip-hop, EDM y pop
+  PE1: El piano roll es el mejor de cualquier DAW
+  PE2: Actualizaciones gratuitas de por vida — compras una vez y sigue mejorando
+  PE3: Mezclador y efectos de calidad profesional
+  C0: Pattern workflow is less natural for linear live audio recording
+  C1: Producer Edition is not the top tier — the All Plugins bundle costs more
+  C2: Windows-first history means the Mac version is newer
+  CE0: El flujo de patrones es menos natural para grabación de audio lineal en vivo
+  CE1: La Producer Edition no es el nivel superior — el bundle All Plugins cuesta más
+  CE2: La historia centrada en Windows hace que la versión Mac sea más reciente
+
+[P] Avid Pro Tools Studio
+  P0: The standard in professional studios worldwide
+  P1: Advanced editing tools and surround sound up to 7.1
+  P2: Cloud collaboration features
+  P3: Essential for audio post-production careers
+  PE0: El estándar en estudios profesionales de todo el mundo
+  PE1: Herramientas de edición avanzadas y sonido envolvente hasta 7.1
+  PE2: Funciones de colaboración en la nube
+  PE3: Esencial para carreras de post-producción de audio
+  C0: Subscription model is a recurring cost
+  C1: Steeper learning curve than beginner-friendly DAWs
+  C2: Pricier long-term than Logic's $199 one-time purchase
+  CE0: El modelo de suscripción es un costo recurrente
+  CE1: Curva de aprendizaje más empinada que los DAW amigables para principiantes
+  CE2: Más caro a largo plazo que la compra única de $199 de Logic
+
+[P] Steinberg Cubase Pro 15
+  P0: Powerful MIDI editing with the innovative Key Editor
+  P1: VariAudio pitch correction
+  P2: MixConsole is the best DAW mixer
+  P3: Professional scoring and notation tools
+  PE0: Edición MIDI potente con el innovador Key Editor
+  PE1: Corrección de tono VariAudio
+  PE2: MixConsole es el mejor mezclador de DAW
+  PE3: Herramientas profesionales de partituras y notación
+  C0: At $579 it's among the pricier DAWs here
+  C1: Feature depth means a longer learning curve
+  C2: No built-in AI Session Players like Logic
+  CE0: A $579 es de los DAW más caros de la lista
+  CE1: La profundidad de funciones implica una curva de aprendizaje más larga
+  CE2: Sin Session Players de IA integrados como Logic
+
+[P] Reason Studios Reason 14
+  P0: Virtual rack with patch cables replicates a hardware studio
+  P1: Works standalone or as a plugin in any other DAW (VST3/AU/AAX)
+  P2: Legendary synths like Mimic and Polytone are genuinely inspiring
+  P3: Massive sound library
+  PE0: El rack virtual con cables de conexión replica un estudio de hardware
+  PE1: Funciona independiente o como plugin en cualquier otro DAW (VST3/AU/AAX)
+  PE2: Sintetizadores legendarios como Mimic y Polytone son genuinamente inspiradores
+  PE3: Biblioteca de sonidos masiva
+  C0: At $300 it's less known, with fewer tutorials than Ableton or Logic
+  C1: Rack workflow is unique but not everyone's taste
+  C2: Not the industry standard — collaboration is harder
+  CE0: A $300 es menos conocido, con menos tutoriales que Ableton o Logic
+  CE1: El flujo del rack es único pero no para todos los gustos
+  CE2: No es el estándar de la industria — la colaboración es más difícil
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Electronic music & live performance ~ Música electrónica y directo | Beat-makers & lifetime updates ~ Beatmakers y actualizaciones de por vida | Post/audio-to-picture pros ~ Profesionales de post y audio para vídeo | MIDI + scoring workflows ~ Flujos MIDI y de partitura | All-in-one Mac production ~ Producción integral en Mac | Rack-based creative patching ~ Patch creativo basado en rack
+  PT[Type/Tipo]: DAW ~ DAW | DAW ~ DAW | DAW ~ DAW | DAW ~ DAW | DAW ~ DAW | DAW ~ DAW
+  PT[Platforms/Plataformas]: macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS & Windows ~ macOS y Windows | macOS only ~ Solo macOS | macOS & Windows ~ macOS y Windows
+  PT[Free Trial/Prueba Gratis]: 90 days ~ 90 días | Free forever (limited) ~ Gratis para siempre (limitado) | 30 days ~ 30 días | 30 days ~ 30 días | Free with new Macs ~ Gratis con Mac nuevos | 30 days ~ 30 días
+  PT[System Requirements/Requisitos del Sistema]: 4 GB RAM, multi-core ~ 4 GB RAM, multi-núcleo | 4 GB RAM ~ 4 GB RAM | 16 GB RAM recommended ~ 16 GB RAM recomendado | 8 GB RAM recommended ~ 8 GB RAM recomendado | Apple Silicon optimized ~ Optimizado para Apple Silicon | 4 GB RAM ~ 4 GB RAM
+  PT[Standout Feature/Característica Destacada]: Session View, Max for Live ~ Session View, Max for Live | Step sequencer, lifetime free updates ~ Secuenciador por pasos, updates gratis de por vida | Elastic audio, 512 tracks, cloud collab ~ Elastic audio, 512 pistas, colaboración en la nube | Studio to pro features, notation ~ De estudio a pro, notación | Included instruments, Flex Time ~ Instrumentos incluidos, Flex Time | Virtual rack, CV patching, RE support ~ Rack virtual, patch CV, soporte RE
+  PT[Price/Precio]: $799 ~ $799 | $199 ~ $199 | $599 ~ $599 | $579 ~ $579 | $199 ~ $199 | $300 ~ $300
+
+AUDIT_FLAGS:
+[TOO_SHORT] daw-guide / Ableton Live 12 Suite / cons: At $799 it's an investment
+[CONS_LE_3] daw-guide / Ableton Live 12 Suite: 3 cons only: At $799 it's an investment | Arrangement view is less powerful than Cubase or Pro Tools for linear recording | Not the standard in commercial recording studios
+[TOO_SHORT] daw-guide / Logic Pro / cons: Mac-only — no Windows version
+[CONS_LE_3] daw-guide / Logic Pro: 3 cons only: Mac-only — no Windows version | Collaborators on other platforms can't open your projects natively | Huge sound library needs substantial drive space
+[GENERIC] daw-guide / FL Studio Producer Edition / pros: Pattern-based workflow perfect for hip-hop, EDM and pop
+[TOO_SHORT] daw-guide / FL Studio Producer Edition / pros: Piano roll is the best in any DAW
+[TOO_SHORT] daw-guide / FL Studio Producer Edition / pros: Pro-quality mixer and effects
+[GENERIC] daw-guide / FL Studio Producer Edition / pros: Pro-quality mixer and effects
+[CONS_LE_3] daw-guide / FL Studio Producer Edition: 3 cons only: Pattern workflow is less natural for linear live audio recording | Producer Edition is not the top tier — the All Plugins bundle costs more | Windows-first history means the Mac version is newer
+[TOO_SHORT] daw-guide / Avid Pro Tools Studio / pros: Cloud collaboration features
+[CONS_LE_3] daw-guide / Avid Pro Tools Studio: 3 cons only: Subscription model is a recurring cost | Steeper learning curve than beginner-friendly DAWs | Pricier long-term than Logic's $199 one-time purchase
+[TOO_SHORT] daw-guide / Steinberg Cubase Pro 15 / pros: VariAudio pitch correction
+[TOO_SHORT] daw-guide / Steinberg Cubase Pro 15 / pros: MixConsole is the best DAW mixer
+[CONS_LE_3] daw-guide / Steinberg Cubase Pro 15: 3 cons only: At $579 it's among the pricier DAWs here | Feature depth means a longer learning curve | No built-in AI Session Players like Logic
+[TOO_SHORT] daw-guide / Reason Studios Reason 14 / pros: Massive sound library
+[CONS_LE_3] daw-guide / Reason Studios Reason 14: 3 cons only: At $300 it's less known, with fewer tutorials than Ableton or Logic | Rack workflow is unique but not everyone's taste | Not the industry standard — collaboration is harder
+
+# GUIDE: xr18-vs-cq18t
+TITLE: XR18 vs CQ-18T: Best Portable Mixer for Bands?
+TITLE_ES: XR18 vs CQ-18T: ¿Mejor Mezclador Portátil para Bandas?
+FS_SPECS:
+  [undefined / Entradas]: 18 (16 XLR + 2 line) || 18 (16 XLR + 2 line)
+  [undefined / Frecuencia de Muestreo]: 48 kHz || 96 kHz
+  [undefined / Pantalla]: Ninguna (requiere tablet) || 7" táctil capacitiva
+  [undefined / Grabación]: 18x18 USB a computadora || Multipista SD + USB
+  [undefined / Herramientas Inteligentes]: Mezcla automática básica || Gain Assistant + Feedback Assistant
+  [undefined / Precio]: $485 || $1,199
+COMPARISON:
+  [Year / Año]: 2013 || 2023
+  [Form Factor / Formato]: 3U rackmount || Desktop (rack kit optional)
+  [Display / Pantalla]: None (app only) || 7" capacitive touchscreen
+  [Sample Rate / Frecuencia de Muestreo]: 44.1 / 48 kHz || 96 kHz
+  [Mic Preamps / Preamps Mic]: 16 Midas (analog) || 16 digital recallable
+  [Wi-Fi / Wi-Fi]: Built-in 2.4 GHz || Dual-band (2.4 + 5 GHz)
+  [Bluetooth / Bluetooth]: No || Yes (dedicated stereo input)
+  [USB Interface / Interfaz USB]: 18x18 USB 2.0 || 24x22 USB 2.0
+  [SD Recording / Grabación SD]: No || Yes, up to 24 channels
+  [Smart Tools / Herramientas Inteligentes]: Dugan auto-mixing || Gain/FB/AMM Assistant
+  [App Control / Control por App]: X AIR MIX / X AIR EDIT || CQ MixPad / CQ4You
+  [Headphone Out / Salida Auriculares]: 1x 1/4" TRS || 2x 1/4" TRS (assignable)
+  [Phantom Power / Fantom Power]: +48V per channel || +48V global
+  [FX / Efectos]: Lexicon, EMT, delay, chorus || Reverb, delay, modulation
+  [EQ per Channel / EQ por Canal]: 4-band parametric + HPF || HPF + Gate + 4-band parametric + Comp
+  [Price / Precio]: $485 || $1,199
+VPC:
+
+[P] Behringer X Air XR18
+  P0: Proven reliability since 2013
+  P1: Midas preamps
+  P2: 18x18 USB recording
+  P3: Built-in Wi-Fi
+  P4: Large user community
+  PE0: Fiabilidad probada desde 2013
+  PE1: Preamps Midas
+  PE2: Grabación USB 18x18
+  PE3: Wi-Fi integrado
+  PE4: Gran comunidad de usuarios
+  C0: No touchscreen
+  C1: 44.1/48 kHz only
+  C2: No SD recording
+  C3: App-only control
+  CE0: Sin pantalla táctil
+  CE1: Solo 44.1/48 kHz
+  CE2: Sin grabación SD
+  CE3: Control solo por app
+
+[P] Allen & Heath CQ-18T
+  P0: 7-inch color touchscreen
+  P1: 96 kHz processing
+  P2: Dual-band Wi-Fi + Bluetooth
+  P3: 24x22 USB + SD recording
+  P4: Smart Assistant tools (gain, FB, AM)
+  PE0: Pantalla táctil de 7"
+  PE1: Procesamiento a 96 kHz
+  PE2: Wi-Fi dual-band + Bluetooth
+  PE3: USB 24x22 + grabación SD
+  PE4: Asistentes inteligentes
+  C0: Newer platform, smaller user base
+  C1: Global phantom power (not per-channel)
+  C2: 1,199 price tag
+  C3: No motorized faders
+  CE0: Plataforma más nueva
+  CE1: Phantom power global
+  CE2: Precio de $1,199
+  CE3: Sin faders motorizados
+
+AUDIT_FLAGS:
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / pros: Proven reliability since 2013
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / pros: Midas preamps
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / pros: 18x18 USB recording
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / pros: Built-in Wi-Fi
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / pros: Large user community
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / cons: No touchscreen
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / cons: 44.1/48 kHz only
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / cons: No SD recording
+[TOO_SHORT] xr18-vs-cq18t / Behringer X Air XR18 / cons: App-only control
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / pros: 7-inch color touchscreen
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / pros: 96 kHz processing
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / pros: Dual-band Wi-Fi + Bluetooth
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / pros: 24x22 USB + SD recording
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / cons: Newer platform, smaller user base
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / cons: 1,199 price tag
+[TOO_SHORT] xr18-vs-cq18t / Allen & Heath CQ-18T / cons: No motorized faders
+
+# GUIDE: nord-stage-4-vs-montage-m8x
+TITLE: Nord Stage 4 vs Montage M8x: Flagship Keyboard Duel
+TITLE_ES: Nord Stage 4 vs Montage M8x: Duelo de Teclados Insignia
+FS_SPECS:
+  [undefined / Teclas]: 88 (Triple Sensor) || 88 (GrandTouch)
+  [undefined / Motores]: Piano, Organ, Synth || AN-X, FM-X
+  [undefined / Polifonía]: 120 (Piano) || 120 AN-X + 128 FM-X
+  [undefined / Pantalla]: OLED || 7" Touchscreen
+  [undefined / Peso]: 40.1 lbs || 61.7 lbs
+  [undefined / Uso Principal]: Stage Performance || Production & Sound Design
+COMPARISON:
+  [Year / Año]: 2023 || 2023
+  [Keys / Teclas]: 88 (Triple Sensor) || 88 (GrandTouch)
+  [Engines / Motores]: Piano, Organ, Synth || AN-X, FM-X
+  [Polyphony / Polifonía]: 120 (Piano) || 120 AN-X + 128 FM-X
+  [Display / Pantalla]: OLED || 7" Touchscreen
+  [Weight / Peso]: 40.1 lbs || 61.7 lbs
+  [Primary Use / Uso Principal]: Stage Performance || Production & Sound Design
+  [Price / Precio]: $4,999 || $4,699
+VPC:
+
+[P] Nord Stage 4 88
+  P0: Authentic piano and organ sounds
+  P1: Triple Sensor keybed
+  P2: Lightweight at 40.1 lbs
+  P3: Dedicated physical controls
+  P4: Best for live performance
+  PE0: Sonidos auténticos de piano y órgano
+  PE1: Teclado Triple Sensor
+  PE2: Ligero a 40.1 lbs
+  PE3: Controles físicos dedicados
+  PE4: Mejor para presentaciones en vivo
+  C0: Expensive at $4,999
+  C1: No deep synthesis engine
+  C2: Small OLED display
+  C3: Limited built-in effects
+  CE0: Caro a $4,999
+  CE1: Sin motor de síntesis profundo
+  CE2: Pantalla OLED pequeña
+  CE3: Efectos limitados
+
+[P] Yamaha Montage M8x
+  P0: AN-X + FM-X dual engines
+  P1: 7-inch touchscreen
+  P2: Expansive sound library
+  P3: Deep synthesis capabilities
+  P4: Best for production and sound design
+  PE0: Motores duales AN-X + FM-X
+  PE1: Pantalla táctil de 7"
+  PE2: Biblioteca de sonidos extensa
+  PE3: Capacidades de síntesis profunda
+  PE4: Mejor para producción
+  C0: Heavy at 61.7 lbs
+  C1: Complex learning curve
+  C2: Less portable for gigging
+  C3: Piano/organ not as authentic as Nord
+  CE0: Pesado a 61.7 lbs
+  CE1: Curva de aprendizaje compleja
+  CE2: Menos portátil
+  CE3: Piano/órgano menos auténtico
+
+AUDIT_FLAGS:
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / pros: Authentic piano and organ sounds
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / pros: Triple Sensor keybed
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / pros: Lightweight at 40.1 lbs
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / pros: Dedicated physical controls
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / pros: Best for live performance
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / cons: Expensive at $4,999
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / cons: No deep synthesis engine
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / cons: Small OLED display
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Nord Stage 4 88 / cons: Limited built-in effects
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / pros: AN-X + FM-X dual engines
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / pros: 7-inch touchscreen
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / pros: Expansive sound library
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / pros: Deep synthesis capabilities
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / cons: Heavy at 61.7 lbs
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / cons: Complex learning curve
+[TOO_SHORT] nord-stage-4-vs-montage-m8x / Yamaha Montage M8x / cons: Less portable for gigging
+
+# GUIDE: digitakt-ii-vs-tr8s
+TITLE: Digitakt II vs TR-8S: Best Drum Machine for You?
+TITLE_ES: Digitakt II vs TR-8S: ¿Mejor Máquina de Batería para Ti?
+FS_SPECS:
+  [undefined / Pistas]: 16 (8 stereo / 16 mono) || 11 (8 instruments + 3 FX)
+  [undefined / Tipo]: Sampler + Drum Computer || ACB Modeling + Sample Layering
+  [undefined / Secuenciador]: 64-step, Parameter Locks || 16-step, Real-time Recording
+  [undefined / Almacenamiento]: 20GB+ via Overbridge || SD Card (sample import)
+  [undefined / Audio USB]: 16-ch Overbridge || Stereo USB
+  [undefined / Peso]: 3.7 lbs || 4.2 lbs
+COMPARISON:
+  [Year / Año]: 2024 || 2018
+  [Tracks / Pistas]: 16 (8 stereo / 16 mono) || 11 (8 instruments + 3 FX)
+  [Type / Tipo]: Sampler + Drum Computer || ACB Modeling + Sample Layering
+  [Sequencer / Secuenciador]: 64-step, Parameter Locks || 16-step, Real-time Recording
+  [Storage / Almacenamiento]: 20GB+ via Overbridge || SD Card (sample import)
+  [USB Audio / Audio USB]: 16-ch Overbridge || Stereo USB
+  [Weight / Peso]: 3.7 lbs || 4.2 lbs
+  [Sound Engine / Motor de Sonido]: ACB (808, 909, 707, 727, 606), FM, samples || Sample-based with 6 SRC + 5 filter machines
+  [Effects / Efectos]: Inst FX, reverb, delay, master FX, sidechain || Delay, reverb, chorus, bit/SR reduction, drive
+  [Price / Precio]: $999 || $749
+VPC:
+
+[P] Elektron Digitakt II
+  P0: Deep sampling engine
+  P1: 64-step sequencer with parameter locks
+  P2: 16 tracks (8 stereo/8 mono)
+  P3: 20GB+ Overbridge storage
+  P4: Powerful sound design
+  PE0: Motor de sampling profundo
+  PE1: Secuenciador de 64 pasos
+  PE2: 16 pistas
+  PE3: Overbridge 20GB+
+  PE4: Diseño de sonido potente
+  C0: Expensive at $999
+  C1: Steep learning curve
+  C2: No ACB modeling
+  C3: Menu-diving required for deeper features
+  CE0: Caro a $999
+  CE1: Curva de aprendizaje pronunciada
+  CE2: Sin modelado ACB
+  CE3: Menús profundos
+
+[P] Roland TR-8S
+  P0: Authentic 808/909/707 ACB modeling
+  P1: Hands-on physical controls
+  P2: Sample layering on ACB sounds
+  P3: Real-time performance effects
+  P4: Intuitive workflow
+  PE0: Modelado ACB auténtico 808/909/707
+  PE1: Controles físicos táctiles
+  PE2: Capas de samples
+  PE3: Efectos en tiempo real
+  PE4: Flujo de trabajo intuitivo
+  C0: Only 11 tracks
+  C1: 16-step sequencer (limited)
+  C2: No deep sampling
+  C3: Dated UI design
+  CE0: Solo 11 pistas
+  CE1: Secuenciador de 16 pasos
+  CE2: Sin sampling profundo
+  CE3: Diseño de UI anticuado
+
+AUDIT_FLAGS:
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / pros: Deep sampling engine
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / pros: 16 tracks (8 stereo/8 mono)
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / pros: 20GB+ Overbridge storage
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / pros: Powerful sound design
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / cons: Expensive at $999
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / cons: Steep learning curve
+[TOO_SHORT] digitakt-ii-vs-tr8s / Elektron Digitakt II / cons: No ACB modeling
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / pros: Authentic 808/909/707 ACB modeling
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / pros: Hands-on physical controls
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / pros: Sample layering on ACB sounds
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / pros: Real-time performance effects
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / pros: Intuitive workflow
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / cons: Only 11 tracks
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / cons: 16-step sequencer (limited)
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / cons: No deep sampling
+[TOO_SHORT] digitakt-ii-vs-tr8s / Roland TR-8S / cons: Dated UI design
+
+# GUIDE: stage-mics
+TITLE: Best Live & Stage Microphones
+TITLE_ES: Mejores Micrófonos de Escenario y Directo
+VPC:
+
+[P] Shure SM58
+  P0: The world standard for live vocals — outsold every other microphone on Earth
+  P1: Cardioid rejects feedback from floor monitors; 50Hz–15kHz with a presence peak around 5kHz
+  P2: $99 — cheap enough to buy a spare for every band member
+  P3: Built-in spherical grille doubles as a pop filter; 150Ω output works with any mixer
+  PE0: El estándar mundial de voces en vivo — ha vendido más que cualquier otro micrófono del planeta
+  PE1: Cardioide que rechaza la retroalimentación de los monitores de piso; 50Hz–15kHz con realce de presencia alrededor de 5kHz
+  PE2: $99 — bastante barato para comprar un repuesto por cada miembro de la banda
+  PE3: La rejilla esférica integrada hace de filtro antipop; la salida de 150Ω funciona con cualquier mesa
+  C0: Voiced for the stage — less finesse than a premium condenser
+  C1: Cardioid side rejection is less than the supercardioid Beta 58A on loud stages
+  C2: On the loudest gigs you'll want the hotter supercardioids — the Beta 58A is 4 dB hotter
+  CE0: Pensado para el escenario — menos refinamiento que un condensador premium
+  CE1: El rechazo lateral cardioide es menor que el del supercardioide Beta 58A en escenarios ruidosos
+  CE2: En los conciertos más ruidosos querrás los supercardioides más potentes — el Beta 58A es 4 dB más caliente
+
+[P] Shure Beta 58A
+  P0: Supercardioid adds serious side rejection and gain-before-feedback
+  P1: Neodymium magnet delivers a signal about 4 dB hotter than the SM58
+  P2: 50Hz–16kHz voiced brighter in the mids for vocal clarity
+  P3: Pneumatic shock mount kills handling thumps; trusted by McCartney, Chris Martin, and Trent Reznor
+  PE0: El supercardioide añade un serio rechazo lateral y ganancia antes de retroalimentación
+  PE1: El imán de neodimio entrega una señal unos 4 dB más caliente que el SM58
+  PE2: 50Hz–16kHz con medios más brillantes para claridad vocal
+  PE3: El montaje antivibración neumático elimina los golpes de manejo; de confianza para McCartney, Chris Martin y Trent Reznor
+  C0: $169 — $70 more than the SM58
+  C1: Supercardioid needs careful monitor and backline placement
+  C2: Doubles as an instrument mic, but its bright mids need tame EQ on some desks
+  CE0: $169 — $70 más que el SM58
+  CE1: El supercardioide requiere una colocación cuidadosa de monitores y amplis
+  CE2: También sirve de micrófono de instrumento, pero sus medios brillantes piden EQ comedido en algunas mesas
+
+[P] Sennheiser e935
+  P0: High-output capsule (2.8 mV/Pa) with a 40Hz–18kHz smooth, natural response
+  P1: All-metal German construction with a shock-mounted capsule and hum-compensating coil
+  P2: Used by Alex Turner, Taylor Swift, Stevie Nicks, and Harry Styles
+  P3: 350Ω output mates cleanly with any desk
+  PE0: Cápsula de alta salida (2.8 mV/Pa) con respuesta suave y natural de 40Hz–18kHz
+  PE1: Construcción alemana totalmente metálica con cápsula amortiguada y bobina de compensación de zumbido
+  PE2: Usado por Alex Turner, Taylor Swift, Stevie Nicks y Harry Styles
+  PE3: La salida de 350Ω conecta limpiamente con cualquier mesa
+  C0: $199 — double the SM58's price
+  C1: Cardioid like the SM58 — without the extra side rejection of the e945
+  C2: Presence-forward voicing may not suit every voice without EQ
+  CE0: $199 — el doble del precio del SM58
+  CE1: Cardioide como el SM58 — sin el rechazo lateral extra del e945
+  CE2: El voicing adelantado en presencia puede no sentar bien a todas las voces sin EQ
+
+[P] Sennheiser e945
+  P0: Supercardioid focuses tightly on your voice and rejects bleed from guitars, drums, and monitors
+  P1: Presence boost between 2.5kHz and 6kHz adds clarity and authority in dense mixes
+  P2: 40Hz–18kHz smooth and full with a 2.0 mV/Pa output
+  P3: Same capsule heritage as Sennheiser's pro wireless systems
+  PE0: El supercardioide se enfoca en tu voz y rechaza la fuga de guitarras, batería y monitores
+  PE1: El realce de presencia entre 2.5kHz y 6kHz añade claridad y autoridad en mezclas densas
+  PE2: 40Hz–18kHz suave y lleno con salida de 2.0 mV/Pa
+  PE3: La misma herencia de cápsula que los sistemas inalámbricos pro de Sennheiser
+  C0: $199 — a premium step for singers who live in loud rooms
+  C1: Supercardioid rear nulls demand careful placement
+  C2: The 2.5kHz–6kHz boost can be too forward for already-bright voices
+  CE0: $199 — un paso premium para cantantes que viven en salas ruidosas
+  CE1: Los nulos traseros del supercardioide exigen una colocación cuidadosa
+  CE2: El realce de 2.5kHz–6kHz puede ser demasiado adelantado para voces ya brillantes
+
+[P] Telefunken M80
+  P0: Hand-assembled in the USA with a custom-wound T80 transformer
+  P1: Condenser-like detail, transient speed, and 135 dB SPL handling in a dynamic
+  P2: Supercardioid rejects feedback; 1.54 mV/Pa output with a 325Ω impedance
+  P3: Doubles as a snare and guitar-cab mic; clip and zipper bag included
+  PE0: Ensamblado a mano en EE. UU. con transformador T80 de bobinado personalizado
+  PE1: Detalle tipo condensador, velocidad transitoria y manejo de 135 dB SPL en un dinámico
+  PE2: El supercardioide rechaza la retroalimentación; salida de 1.54 mV/Pa con impedancia de 325Ω
+  PE3: También sirve para caja y gabinete de guitarra; incluye clip y bolsa con cremallera
+  C0: $249 — the premium pick, an investment
+  C1: For the same money you could own an SM58 and a Beta 58A
+  C2: Its condenser-like detail is wasted on moderate stages with noisy rigs
+  CE0: $249 — la opción premium, una inversión
+  CE1: Por el mismo dinero podrías tener un SM58 y un Beta 58A
+  CE2: Su detalle tipo condensador se desperdicia en escenarios moderados con equipos ruidosos
+
+[P] AKG D5
+  P0: Patented laminated Varimotion diaphragm — crisp, transparent, fast transients
+  P1: Supercardioid delivers maximum gain-before-feedback — a pro feature at this price
+  P2: 70Hz–20kHz with a 2.6 mV/Pa output and 600Ω impedance
+  P3: $139 — undercuts most of the field while holding its own against mics twice the price
+  PE0: Diafragma laminado Varimotion patentado — nítido, transparente, transitorios rápidos
+  PE1: El supercardioide ofrece máxima ganancia antes de retroalimentación — una función pro a este precio
+  PE2: 70Hz–20kHz con salida de 2.6 mV/Pa e impedancia de 600Ω
+  PE3: $139 — baja el precio a casi todos mientras aguanta el tipo frente a micrófonos del doble de precio
+  C0: $40 more than the SM58 while still a budget vocal mic
+  C1: 600Ω output is higher than the SM58's 150Ω — fine for mixers but worth noting on long cable runs
+  C2: Less stage-proven than the SM58 or Beta 58A on world tours
+  CE0: $40 más que el SM58 siendo aún un micrófono vocal económico
+  CE1: La salida de 600Ω es más alta que los 150Ω del SM58 — bien para mesas, pero a tener en cuenta en tiradas largas de cable
+  CE2: Menos probado en giras mundiales que el SM58 o el Beta 58A
+
+[P] Audix OM7
+  P0: Hypercardioid — the tightest pickup of any vocal mic, with unprecedented gain-before-feedback
+  P1: The most 'cupping-proof' mic — gripping the grille barely changes response
+  P2: Handles extreme SPLs above 144 dB with a clean signal
+  P3: Road-tough zinc die-cast body and dent-resistant steel grille
+  PE0: Hipercardioide — la captación más cerrada de cualquier micrófono vocal, con ganancia antes de retroalimentación sin precedentes
+  PE1: El micrófono más 'a prueba de cupping' — agarrar la rejilla apenas cambia la respuesta
+  PE2: Maneja SPL extremos por encima de 144 dB con señal limpia
+  PE3: Cuerpo de zinc fundido a presión a prueba de carretera y rejilla de acero resistente a abolladuras
+  C0: Low output (0.8 mV/Pa, about 8-10 dB below typical dynamics) — needs a channel with good headroom
+  C1: $259 — a pro tool only if you actually work the loudest stages
+  C2: Hypercardioid tail picks up rear bleed more than supercardioid — placement-critical
+  CE0: Salida baja (0.8 mV/Pa, unos 8-10 dB por debajo de los dinámicos típicos) — necesita un canal con buen margen
+  CE1: $259 — una herramienta pro solo si realmente trabajas los escenarios más ruidosos
+  CE2: La cola hipercardioide capta más fuga trasera que un supercardioide — crítico con la colocación
+
+[P] Electro-Voice ND86
+  P0: Engineered for the largest venues — present, smooth, detailed vocal tone even in arenas
+  P1: Supercardioid isolates the voice from stage wash better than a cardioid
+  P2: 4-point suspension shock mount plus a tuned pneumatic pump minimize handling noise
+  P3: Memraflex grille resists denting and a hydrophobic cloth protects the diaphragm
+  PE0: Diseñado para los recintos más grandes — tono vocal presente, suave y detallado incluso en arenas
+  PE1: El supercardioide aísla la voz del ruido del escenario mejor que un cardioide
+  PE2: Montaje antivibración de 4 puntos más bomba neumática afinada minimizan el ruido de manejo
+  PE3: La rejilla Memraflex resiste abolladuras y una membrana hidrófoba protege el diafragma
+  C0: $169 specialist for venues that need extreme gain-before-feedback
+  C1: Large-diaphragm dynamic — a bigger body than the SM58 or e935
+  C2: In a quiet club its size and voicing are overkill versus a $99 SM58
+  CE0: Especialista de $169 para recintos que necesitan ganancia extrema antes de retroalimentación
+  CE1: Dinámico de diafragma grande — un cuerpo más grande que el SM58 o el e935
+  CE2: En un club tranquilo su tamaño y voicing son excesivos frente a un SM58 de $99
+
+[P] Shure SM57
+  P0: The ultimate stage utility player — guitar cabs, snares, and horn sections
+  P1: Tight cardioid and 5kHz presence peak deliver excellent gain-before-feedback
+  P2: 40Hz–15kHz response with 1.6 mV/Pa output and 150Ω impedance — the most flexible mic in this guide
+  P3: $99 — no excuse not to own several
+  PE0: El utilitario definitivo del escenario — gabinetes de guitarra, cajas y secciones de metales
+  PE1: Cardioide ajustado y realce de presencia a 5kHz para excelente ganancia antes de retroalimentación
+  PE2: Respuesta de 40Hz–15kHz con salida de 1.6 mV/Pa e impedancia de 150Ω — el micrófono más flexible de esta guía
+  PE3: $99 — no hay excusa para no tener varios
+  C0: Not a vocal-first mic — its cardioid and 5kHz peak suit instruments over lead vocals
+  C1: Needs proximity for low end
+  C2: For lead vocals on loud stages a supercardioid like the Beta 58A gives more headroom
+  CE0: No es un micrófono vocalista — su cardioide y pico a 5kHz favorecen instrumentos sobre voces principales
+  CE1: Necesita proximidad para los graves
+  CE2: Para voces principales en escenarios ruidosos, un supercardioide como el Beta 58A da más margen
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: All-round live vocals ~ Voces en vivo en general | Loud stages & hot output ~ Escenarios ruidosos y salida potente | Cardioid live vocals ~ Voces en vivo cardioide | Lead vocals in dense mixes ~ Voces principales en mezclas densas | Premium lead vocals ~ Voces principales premium | Budget live vocals ~ Voces en vivo económicas | Extreme loud stages ~ Escenarios extremadamente ruidosos | Large venues & arenas ~ Grandes recintos y arenas | Instruments & amps live ~ Instrumentos y amplis en vivo
+  PT[Type/Tipo]: Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico | Dynamic ~ Dinámico
+  PT[Polar Pattern/Patrón Polar]: Cardioid ~ Cardioide | Supercardioid ~ Supercardioide | Cardioid ~ Cardioide | Supercardioid ~ Supercardioide | Supercardioid ~ Supercardioide | Supercardioid ~ Supercardioide | Hypercardioid ~ Hipercardioide | Supercardioid ~ Supercardioide | Cardioid ~ Cardioide
+  PT[Frequency Response/Respuesta de Frecuencia]: 50 Hz – 15 kHz ~ 50 Hz – 15 kHz | 50 Hz – 16 kHz ~ 50 Hz – 16 kHz | 40 Hz – 18 kHz ~ 40 Hz – 18 kHz | 40 Hz – 18 kHz ~ 40 Hz – 18 kHz | 50 Hz – 18 kHz ~ 50 Hz – 18 kHz | 70 Hz – 20 kHz ~ 70 Hz – 20 kHz | 48 Hz – 19 kHz ~ 48 Hz – 19 kHz | 70 Hz – 17 kHz (far) / 30 Hz – 17 kHz (close) ~ 70 Hz – 17 kHz (lejos) / 30 Hz – 17 kHz (cerca) | 40 Hz – 15 kHz ~ 40 Hz – 15 kHz
+  PT[Sensitivity/Sensibilidad]: –54.5 dBV/Pa (1.88 mV) ~ –54.5 dBV/Pa (1.88 mV) | –51 dBV/Pa (2.8 mV) ~ –51 dBV/Pa (2.8 mV) | 2.8 mV/Pa (–51 dB) ~ 2.8 mV/Pa (–51 dB) | 2.0 mV/Pa (–54 dB) ~ 2.0 mV/Pa (–54 dB) | 1.54 mV/Pa ~ 1.54 mV/Pa | 2.6 mV/Pa ~ 2.6 mV/Pa | 0.8 mV/Pa ~ 0.8 mV/Pa | 2.4 mV/Pa ~ 2.4 mV/Pa | –56 dBV/Pa (1.6 mV) ~ –56 dBV/Pa (1.6 mV)
+  PT[Output Impedance/Impedancia de Salida]: 150 Ω ~ 150 Ω | 150 Ω ~ 150 Ω | 350 Ω ~ 350 Ω | 350 Ω ~ 350 Ω | 325 Ω ~ 325 Ω | 600 Ω ~ 600 Ω | 50 Ω ~ 50 Ω | 350 Ω ~ 350 Ω | 150 Ω ~ 150 Ω
+  PT[Weight/Peso]: 298 g ~ 298 g | 278 g ~ 278 g | 355 g ~ 355 g | 365 g ~ 365 g | 430 g ~ 430 g | 320 g ~ 320 g | 307 g ~ 307 g | 326 g ~ 326 g | 284 g ~ 284 g
+  PT[Price/Precio]: $99 ~ $99 | $169 ~ $169 | $199 ~ $199 | $199 ~ $199 | $249 ~ $249 | $139 ~ $139 | $259 ~ $259 | $169 ~ $169 | $99 ~ $99
+
+AUDIT_FLAGS:
+[CONS_LE_3] stage-mics / Shure SM58: 3 cons only: Voiced for the stage — less finesse than a premium condenser | Cardioid side rejection is less than the supercardioid Beta 58A on loud stages | On the loudest gigs you'll want the hotter supercardioids — the Beta 58A is 4 dB hotter
+[TOO_SHORT] stage-mics / Shure Beta 58A / cons: $169 — $70 more than the SM58
+[CONS_LE_3] stage-mics / Shure Beta 58A: 3 cons only: $169 — $70 more than the SM58 | Supercardioid needs careful monitor and backline placement | Doubles as an instrument mic, but its bright mids need tame EQ on some desks
+[TOO_SHORT] stage-mics / Sennheiser e935 / cons: $199 — double the SM58's price
+[CONS_LE_3] stage-mics / Sennheiser e935: 3 cons only: $199 — double the SM58's price | Cardioid like the SM58 — without the extra side rejection of the e945 | Presence-forward voicing may not suit every voice without EQ
+[CONS_LE_3] stage-mics / Sennheiser e945: 3 cons only: $199 — a premium step for singers who live in loud rooms | Supercardioid rear nulls demand careful placement | The 2.5kHz–6kHz boost can be too forward for already-bright voices
+[CONS_LE_3] stage-mics / Telefunken M80: 3 cons only: $249 — the premium pick, an investment | For the same money you could own an SM58 and a Beta 58A | Its condenser-like detail is wasted on moderate stages with noisy rigs
+[CONS_LE_3] stage-mics / AKG D5: 3 cons only: $40 more than the SM58 while still a budget vocal mic | 600Ω output is higher than the SM58's 150Ω — fine for mixers but worth noting on long cable runs | Less stage-proven than the SM58 or Beta 58A on world tours
+[GENERIC] stage-mics / Audix OM7 / cons: Low output (0.8 mV/Pa, about 8-10 dB below typical dynamics) — needs a channel with good headroom
+[CONS_LE_3] stage-mics / Audix OM7: 3 cons only: Low output (0.8 mV/Pa, about 8-10 dB below typical dynamics) — needs a channel with good headroom | $259 — a pro tool only if you actually work the loudest stages | Hypercardioid tail picks up rear bleed more than supercardioid — placement-critical
+[CONS_LE_3] stage-mics / Electro-Voice ND86: 3 cons only: $169 specialist for venues that need extreme gain-before-feedback | Large-diaphragm dynamic — a bigger body than the SM58 or e935 | In a quiet club its size and voicing are overkill versus a $99 SM58
+[GENERIC] stage-mics / Shure SM57 / pros: Tight cardioid and 5kHz presence peak deliver excellent gain-before-feedback
+[TOO_SHORT] stage-mics / Shure SM57 / pros: $99 — no excuse not to own several
+[TOO_SHORT] stage-mics / Shure SM57 / cons: Needs proximity for low end
+[CONS_LE_3] stage-mics / Shure SM57: 3 cons only: Not a vocal-first mic — its cardioid and 5kHz peak suit instruments over lead vocals | Needs proximity for low end | For lead vocals on loud stages a supercardioid like the Beta 58A gives more headroom
+

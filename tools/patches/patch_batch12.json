@@ -1,0 +1,592 @@
+{
+ "guides": {
+  "dt770-vs-dt990": {
+   "verdictProsCons": [
+    {
+     "name": "Beyerdynamic DT 770 Pro",
+     "name_es": "Beyerdynamic DT 770 Pro",
+     "pros": [
+      "Closed-back design with velour earpads provides exceptional passive isolation up to 35dB, letting you track vocals or record in the same room as a drum kit without bleed",
+      "Bass response extends down to 5Hz and is elevated around 80Hz, giving kick drums and bass lines a powerful punchy feel that makes tracking low-end satisfying",
+      "Every single part is replaceable — headband padding earpads cable and driver assembly are all user-serviceable with standard tools",
+      "Steel headband with robust ABS plastic construction withstands being tossed in gear bags and daily studio abuse for years",
+      "Detachable coiled cable standard on the 80-ohm version gives 3 meters of reach with retracting coils and no cable noise transmitted to earcups"
+     ],
+     "pros_es": [
+      "Diseño cerrado con almohadillas de terciopelo proporciona aislamiento pasivo de hasta 35dB, permitiendo grabar voces en la misma habitación que una batería sin sangrado",
+      "Respuesta de graves hasta 5Hz y elevada alrededor de 80Hz, dando a bombos y bajos una sensación potente y contundente",
+      "Cada pieza es reemplazable — almohadillas cable y driver son reparables por el usuario con herramientas estándar",
+      "Diadema de acero con construcción robusta de ABS soporta ser arrojado en bolsas de equipo y abuso diario de estudio durante años",
+      "Cable en espiral desmontable en versión de 80 ohmios da 3 metros de alcance con bobinas retráctiles"
+     ],
+     "cons": [
+      "Elevated bass response can mislead mixing decisions — tracks balanced on DT 770 may translate as bass-light on flat monitors",
+      "Notorious 8kHz spike adds artificial sibilance and harshness on cymbals and vocal sibilants, causing ear fatigue during long sessions",
+      "Non-detachable cable on 32-ohm and 250-ohm models means cable failure requires soldering repair",
+      "High clamping force causes discomfort during sessions longer than two hours for users with wider head shapes"
+     ],
+     "cons_es": [
+      "Respuesta de graves elevada puede engañar decisiones de mezcla — pistas equilibradas en DT 770 pueden traducirse como pobres en graves en monitores planos",
+      "Pico notorio en 8kHz añade sibilancia artificial y aspereza en platillos y sibilantes vocales causando fatiga auditiva",
+      "Cable no desmontable en modelos de 32 y 250 ohmios significa que fallo de cable requiere soldadura",
+      "Alta fuerza de sujeción causa incomodidad durante sesiones de más de dos horas para usuarios con cabezas anchas"
+     ]
+    },
+    {
+     "name": "Beyerdynamic DT 990 Pro",
+     "name_es": "Beyerdynamic DT 990 Pro",
+     "pros": [
+      "Open-back design creates a natural spacious soundstage with clear air and separation between instruments, critical for mixing decisions where spatial positioning matters",
+      "Treble emphasis around 9kHz gives transients and high-frequency details a crisp articulate edge revealing flaws in reverb tails and cymbal decay",
+      "Lightweight at 290 grams with plush velour earpads that barely compress over time, comfortable for 6-8 hour mixing sessions",
+      "Bass is tight and controlled rather than boomy, giving accurate sub-bass extension and low-end punch without masking midrange clarity",
+      "Same user-serviceable modular design as DT 770 — every component from cable to driver can be replaced at home"
+     ],
+     "pros_es": [
+      "Diseño abierto crea un escenario sonoro espacioso con aire claro y separación entre instrumentos, crítico para decisiones de mezcla",
+      "Énfasis en agudos alrededor de 9kHz da a transitorios un borde nítido revelando fallos en colas de reverb y decadencia de platillos",
+      "Ligero a 290 gramos con almohadillas de terciopelo mullidas cómodas para sesiones de mezcla de 6-8 horas",
+      "Graves ajustados y controlados sin ser retumbantes, dando extensión precisa de subgraves sin enmascarar claridad de medios",
+      "Mismo diseño modular reparable que DT 770 — cada componente puede reemplazarse en casa"
+     ],
+     "cons": [
+      "Open-back offers virtually no isolation — bleed from room noise leaks in and headphones leak sound audibly to others nearby",
+      "Pronounced 9kHz treble peak causes listening fatigue after 2-3 hours and mixes may sound dull on systems lacking that high-frequency emphasis",
+      "No removable cable on any version — cable break requires soldering repair on the entire headphone",
+      "Bass lacks sub-bass extension below 30Hz that electronic music producers need to feel low-end content"
+     ],
+     "cons_es": [
+      "Diseño abierto no ofrece aislamiento — el ruido ambiental se filtra y los auriculares filtran sonido audiblemente a otros cercanos",
+      "Pico pronunciado de agudos en 9kHz causa fatiga auditiva tras 2-3 horas y las mezclas pueden sonar apagadas en otros sistemas",
+      "Sin cable removible en ninguna versión — rotura de cable requiere soldadura en todo el auricular",
+      "Graves carecen de extensión por debajo de 30Hz para producción de música electrónica"
+     ]
+    }
+   ]
+  },
+  "hs8-vs-rokit-7": {
+   "verdictProsCons": [
+    {
+     "name": "Yamaha HS8",
+     "name_es": "Yamaha HS8",
+     "pros": [
+      "Flat frequency response within ±1.5dB from 40Hz to 20kHz — the most phase-accurate reproduction in its price class, so mixes translate faithfully across systems",
+      "White cone uses proprietary mica composite diaphragm stiffer and lighter than standard paper or polypropylene, reducing cone breakup at high SPL",
+      "Rear-panel room control switches attenuate boundary bass buildup by -2dB or -4dB below 500Hz, adapting monitors to room acoustics without graphic EQ",
+      "Front-ported bass reflex design allows closer wall placement than rear-ported competitors, crucial for small bedrooms and home studios",
+      "Bi-amped design with separate 75W and 45W amplifiers ensures clean power without intermodulation distortion at moderate to high levels"
+     ],
+     "pros_es": [
+      "Respuesta plana dentro de ±1.5dB de 40Hz a 20kHz — la reproducción más precisa en fase en su clase de precio",
+      "Cono blanco usa diafragma compuesto de mica patentado más rígido y ligero que papel o polipropileno estándar",
+      "Interruptores de control de sala atenúan acumulación de graves en -2dB o -4dB por debajo de 500Hz",
+      "Diseño bass reflex frontal permite colocación más cerca de paredes que competidores con puerto trasero",
+      "Diseño bi-amplificado con amplificadores separados de 75W y 45W asegura energía limpia sin distorsión"
+     ],
+     "cons": [
+      "Stereo imaging width is noticeably narrower than competing monitors like KRK Rokits or Adam A-series with a tight sweet spot",
+      "The 8-inch woofer requires at least 1.5 meters listening distance for woofer and tweeter to integrate properly",
+      "Pronounced dip around 2kHz can make vocals and snares sound recessed compared to monitors with flat upper-mid response",
+      "Amplifier hiss is audible at idle from the listening position in quiet rooms"
+     ],
+     "cons_es": [
+      "Amplitud de imagen estéreo notablemente más estrecha que competidores como KRK Rokits o Adam A-series con punto óptimo ajustado",
+      "El woofer de 8 pulgadas requiere al menos 1.5 metros de distancia para integración adecuada entre woofer y tweeter",
+      "Dip pronunciado alrededor de 2kHz puede hacer que voces y caja suenen retraídas",
+      "Siseo del amplificador audible en reposo desde la posición de escucha en salas silenciosas"
+     ]
+    },
+    {
+     "name": "KRK Rokit 7 G5",
+     "name_es": "KRK Rokit 7 G5",
+     "pros": [
+      "Built-in DSP-driven graphic EQ with 25 bands via KRK App gives precise room correction without external hardware, compensating for room modes with surgical precision",
+      "Kevlar-reinforced aramid fiber woofer is extremely rigid yet lightweight, providing fast transient response and low distortion even at high SPL",
+      "Waveguide tweeter design improves horizontal dispersion creating a wider sweet spot that accommodates multiple listening positions without tonal shifts",
+      "Front-firing bass port allows near-wall placement without boomy bass buildup typical of rear-ported monitors",
+      "Built-in limiter protection prevents driver damage from accidental overloads before woofer or tweeter reach mechanical limits"
+     ],
+     "pros_es": [
+      "EQ gráfico DSP integrado con 25 bandas vía app KRK proporciona corrección de sala precisa sin hardware externo",
+      "Woofer de fibra de aramida reforzado con Kevlar extremadamente rígido pero ligero para respuesta transitoria rápida",
+      "Diseño de tweeter con guía de ondas mejora dispersión horizontal creando punto óptimo más amplio",
+      "Puerto de graves frontal permite colocación cerca de pared sin acumulación retumbante",
+      "Limitador incorporado protege drivers de daños por sobrecargas accidentales"
+     ],
+     "cons": [
+      "Stock factory tuning boosts low-mids around 200-400Hz by design, masking muddiness so clean mixes may translate as boomy on flat systems",
+      "Kevlar woofer requires 40-60 hour break-in period before low-end response stabilizes",
+      "DSP processing introduces slight latency through A-D-D-A conversion chain, causing phase alignment issues with analog outboard gear",
+      "KRK App required for DSP tuning is mobile-only and Bluetooth pairing can be unreliable"
+     ],
+     "cons_es": [
+      "Ajuste de fábrica realza medios-graves alrededor de 200-400Hz enmascarando barro, mezclas limpias pueden sonar retumbantes en sistemas planos",
+      "Woofer de Kevlar requiere 40-60 horas de adaptación antes de estabilizar respuesta de graves",
+      "Procesamiento DSP introduce ligera latencia causando problemas de alineación de fase con equipo analógico externo",
+      "App KRK requiere Bluetooth y es solo para móvil, conexión puede ser poco fiable"
+     ]
+    }
+   ]
+  },
+  "hd490-pro-vs-dt990": {
+   "verdictProsCons": [
+    {
+     "name": "Sennheiser HD 490 Pro Plus",
+     "name_es": "Sennheiser HD 490 Pro Plus",
+     "pros": [
+      "Modern reference neutrality with the deepest, most defined bass of any Sennheiser open-back under $500",
+      "130-ohm impedance drives easily from any interface, laptop, or phone — no amp required",
+      "Two switchable ear pad sets (mixing + producing) tune the sound to the job",
+      "Washable, replaceable pads and open-frame architecture keep THD under 0.2%",
+      "Includes dearVR MIX-SE plugin for virtual-room mix translation checks"
+     ],
+     "pros_es": [
+      "Neutralidad de referencia moderna con los graves más profundos y definidos de cualquier Sennheiser abierto por menos de $500",
+      "Impedancia de 130 ohmios que funciona desde cualquier interfaz, laptop o teléfono — sin amplificador",
+      "Dos juegos de almohadillas intercambiables (mezcla + producción) ajustan el sonido al trabajo",
+      "Almohadillas lavables y reemplazables y arquitectura de marco abierto mantienen el THD bajo 0.2%",
+      "Incluye el plugin dearVR MIX-SE para comprobar la traducción de mezcla en sala virtual"
+     ],
+     "cons": [
+      "Open-back leaks sound — unusable while recording vocals with a live microphone",
+      "$499 — a real spend versus the $169 DT 990 Pro",
+      "Needs a quiet room to get the full benefit of the open design",
+      "The two included pad sets are the only way to change the voicing — there are no onboard EQ or tone controls",
+      "At 260 g it weighs 10 g more than the DT 990 Pro — a minor difference that adds up in long sessions"
+     ],
+     "cons_es": [
+      "Abiertos, fugan sonido — inutilizables al grabar voces con un micrófono activo",
+      "$499 — un gasto real frente a las DT 990 Pro de $169",
+      "Necesitan una habitación silenciosa para aprovechar el diseño abierto",
+      "Los dos juegos de almohadillas incluidos son la única forma de cambiar la ecualización — no hay EQ ni controles de tono integrados",
+      "Con 260 g pesa 10 g más que las DT 990 Pro — una diferencia menor que se nota en sesiones largas"
+     ]
+    },
+    {
+     "name": "Beyerdynamic DT 990 Pro",
+     "name_es": "Beyerdynamic DT 990 Pro",
+     "pros": [
+      "Perforated grille expansive soundstage width depth instrument separation",
+      "Treble emphasis 9kHz crisp articulate edge reveals reverb tails",
+      "250-ohm balances portability with amplifier benefit",
+      "Velour earpads breathable comfortable 6+ hours",
+      "Beyerdynamic 10-year parts availability"
+     ],
+     "pros_es": [
+      "Rejilla perforada con escenario expansivo: amplitud, profundidad y separación de instrumentos",
+      "Énfasis de agudos en 9kHz con borde nítido que revela las colas de reverb",
+      "250 ohmios equilibra portabilidad con amplificador",
+      "Almohadillas de terciopelo transpirables y cómodas durante 6+ horas",
+      "Disponibilidad piezas Beyerdynamic 10 años"
+     ],
+     "cons": [
+      "9kHz treble peak causes listening fatigue after 2-3 hours",
+      "Mix translation unreliable tracks dull on flat systems",
+      "Non-detachable cable requires soldering if fails",
+      "Bass lacks extension below 40Hz no sub-bass impact"
+     ],
+     "cons_es": [
+      "El pico de 9kHz causa fatiga auditiva tras 2-3 horas",
+      "La traducción de mezclas no es fiable: las pistas suenan apagadas en sistemas planos",
+      "Cable no desmontable requiere soldadura si falla",
+      "Graves sin extensión por debajo de 40Hz"
+     ]
+    }
+   ]
+  },
+  "sm7b-vs-nt1": {
+   "verdictProsCons": [
+    {
+     "name": "Shure SM7B",
+     "name_es": "Shure SM7B",
+     "pros": [
+      "Dynamic capsule handles high SPL from screams and loud sources without distortion or clipping what condenser mics could not survive",
+      "Built-in presence boost and bass roll-off switches tailor frequency response to voice without external EQ",
+      "Cardioid pattern rejects off-axis sources strongly, capturing minimal room sound so untreated spaces stay usable for tracking",
+      "Internal air suspension shock mount eliminates handling noise without external suspension hardware required",
+      "Treated leatherette grille minimizes explosive plosives without separate pop filter needed"
+     ],
+     "pros_es": [
+      "Cápsula dinámica maneja alto SPL sin distorsión que condensadores no sobrevivirían",
+      "Interruptores presencia y corte graves personalizan respuesta sin EQ externo",
+      "Patrón cardioide que rechaza con fuerza las fuentes fuera de eje, capturando un mínimo sonido de sala para espacios sin tratar",
+      "Suspensión interna elimina el ruido de manipulación sin hardware adicional",
+      "Rejilla de cuero minimiza las explosivas sin filtro pop separado"
+     ],
+     "cons": [
+      "Requires inline preamp booster like Cloudlifter or FetHead to achieve adequate gain with most audio interfaces",
+      "Heavy 1.3kg needs sturdy boom arm cannot use standard mic stand without sagging",
+      "Limited frequency response above 10kHz lacks air and sparkle of condensers",
+      "Bulky size difficult to position in tight spaces or behind pop filters"
+     ],
+     "cons_es": [
+      "Requiere un booster de preamplificación como el Cloudlifter para lograr una ganancia adecuada",
+      "Pesa 1.3kg: necesita un brazo robusto porque se hunde en un soporte estándar",
+      "Respuesta en frecuencia limitada por encima de 10kHz: carece del aire de los condensadores",
+      "Tamaño voluminoso, difícil de posicionar en espacios estrechos"
+     ]
+    },
+    {
+     "name": "Rode NT1 5th Generation",
+     "name_es": "Rode NT1 5th Generation",
+     "pros": [
+      "Exceptionally low self-noise of just 4dBA - the world's quietest studio condenser - capturing subtle details SM7B misses entirely",
+      "Dual Connect output: works as a classic XLR condenser or plugs straight into a computer via USB-C with a built-in Revolution preamp",
+      "World-first 32-bit float digital output makes clipping virtually impossible, even recording drums or loud vocals",
+      "Includes studio-grade SM6 shock mount, pop filter, XLR and USB-C cables - a complete package worth over $150 separately",
+      "Ultra-lightweight 308g on standard mic stand with no boom arm sagging issues",
+      "On-board APHEX DSP (compressor, noise gate, high-pass filter, Aural Exciter, Big Bottom) for processing without extra software"
+     ],
+     "pros_es": [
+      "Ruido propio ultrabajo de solo 4dBA - el condensador de estudio más silencioso del mundo - capturando detalles sutiles que la SM7B pierde",
+      "Salida Dual Connect: funciona como condensador XLR clásico o se conecta directo al ordenador por USB-C con preamplificador Revolution integrado",
+      "Salida digital float de 32 bits, la primera del mundo, hace prácticamente imposible el clipping, incluso grabando batería o voces fuertes",
+      "Incluye soporte antigolpes y filtro pop SM6 de grado estudio, cables XLR y USB-C - un paquete completo valorado en más de $150 por separado",
+      "Ultraligero con 308g en soporte de micrófono estándar sin problemas de caída del brazo",
+      "DSP APHEX integrado (compresor, noise gate, filtro paso alto, Aural Exciter, Big Bottom) para procesar sin software adicional"
+     ],
+     "cons": [
+      "Captures every room sound including HVAC fans and traffic, requiring a treated acoustic space",
+      "Requires Rode Central software to configure DSP effects and update firmware",
+      "Sibilance can be harsh on bright singers without a de-esser in post",
+      "Pop filter (included) always recommended since there's no built-in grille protection like the SM7B"
+     ],
+     "cons_es": [
+      "Captura todos los sonidos de la sala incluyendo ventiladores HVAC y tráfico, requiriendo un espacio acústicamente tratado",
+      "Requiere el software Rode Central para configurar los efectos DSP y actualizar el firmware",
+      "La sibilancia puede ser dura en cantantes brillantes sin de-esser en postproducción",
+      "El filtro pop (incluido) siempre se recomienda ya que no hay protección de rejilla incorporada como la SM7B"
+     ]
+    }
+   ]
+  },
+  "ew100-vs-ulxd": {
+   "verdictProsCons": [
+    {
+     "name": "Sennheiser EW 100 G4-935",
+     "name_es": "Sennheiser EW 100 G4-935",
+     "pros": [
+      "True diversity receiver with two antennas eliminates dropouts in RF-crowded venues with multipath interference",
+      "Up to 42MHz switching bandwidth across UHF range provides flexibility finding clean frequencies anywhere",
+      "Auto-scan finds and locks to cleanest frequency instantly even in hostile RF environments",
+      "Ethernet connection allows remote monitoring and frequency coordination through Sennheiser Control Cockpit",
+      "Metal receiver chassis withstands tour rack abuse over years of daily loading and unloading"
+     ],
+     "pros_es": [
+      "Receptor de diversidad verdadera con dos antenas elimina cortes en RF congestionada",
+      "Ancho de banda de conmutación de 42MHz UHF proporciona flexibilidad en frecuencias limpias",
+      "Auto-scan encuentra y bloquea frecuencia más limpia al instante",
+      "Conexión Ethernet permite monitoreo remoto y coordinación de frecuencias",
+      "Chasis receptor metálico soporta el abuso del rack de gira por años"
+     ],
+     "cons": [
+      "Transmitter battery compartment latch feels flimsy can break open during active stage performance",
+      "No USB-C charging transmitter uses AA batteries requiring disposable battery inventory",
+      "Limited to 12 compatible channels per frequency bank",
+      "Menu navigation with jog wheel is slower than digital app-based interface"
+     ],
+     "cons_es": [
+      "La pestaña del compartimento de baterías es frágil y puede abrirse durante la presentación",
+      "Sin carga USB-C, el transmisor usa baterías AA requiriendo inventario",
+      "Limitado a 12 canales compatibles por banco frecuencia",
+      "Navegación menu con rueda más lenta que interfaz digital por app"
+     ]
+    },
+    {
+     "name": "Sennheiser EW-D Dual Wireless System",
+     "name_es": "Sennheiser EW-D Sistema Inalámbrico Dual",
+     "pros": [
+      "Digital transmission with 134 dB dynamic range eliminates sensitivity adjustments and preserves every detail",
+      "Smart Assist App via Bluetooth provides full control from anywhere in the venue",
+      "Lowest latency in its class at 1.9 ms for natural feel during performance",
+      "56 MHz bandwidth with up to 90 channels for large-scale productions",
+      "Comes with both handheld MMD 835 and lavalier ME 2 transmitters in one box"
+     ],
+     "pros_es": [
+      "Transmisión digital con 134 dB de rango dinámico elimina ajustes de sensibilidad y preserva cada detalle",
+      "App Smart Assist via Bluetooth proporciona control total desde cualquier lugar",
+      "Latencia más baja en su clase, 1.9 ms para sensación natural en presentación",
+      "56 MHz de ancho de banda, hasta 90 canales para producciones a gran escala",
+      "Incluye transmisores mano MMD 835 y lavalier ME 2 en una caja"
+     ],
+     "cons": [
+      "Relatively new system with fewer long-term reliability data points than EW 100 G4",
+      "Optional rechargeable battery pack BA 70 sold separately adding cost",
+      "Up to 8 hours with AA batteries less than some competitors with built-in rechargeables",
+      "Requires smartphone app for full feature access may be inconvenient for some users"
+     ],
+     "cons_es": [
+      "Sistema relativamente nuevo con menos datos de fiabilidad a largo plazo que el EW 100 G4",
+      "El paquete de batería recargable BA 70 es opcional y se vende por separado",
+      "Hasta 8 horas con pilas AA: menos que algunos competidores con recargables integrados",
+      "Requiere app smartphone para funciones completas puede ser incómodo para algunos usuarios"
+     ]
+    }
+   ]
+  },
+  "best-reverb-delay": {
+   "verdictProsCons": [
+    {
+     "name": "Boss DD-8 Digital Delay",
+     "name_es": "Boss DD-8 Delay Digital",
+     "pros": [
+      "11 delay modes — analog, tape, reverse, shimmer — cover every delay sound",
+      "40 seconds of loop time turns the pedal into a capable looper",
+      "Compact Boss form factor (73 x 129 x 59 mm) fits any pedalboard",
+      "Only 65 mA draw with true bypass and optional battery power"
+     ],
+     "pros_es": [
+      "11 modos de delay — analógico, cinta, reverso, shimmer — cubren cualquier sonido de delay",
+      "40 segundos de tiempo de loop convierten el pedal en un looper capaz",
+      "Formato compacto Boss (73 x 129 x 59 mm) que cabe en cualquier pedalera",
+      "Solo 65 mA de consumo con true bypass y alimentación opcional por pila"
+     ],
+     "cons": [
+      "Sin footswitch de tap tempo dedicado — requiere el switch externo opcional",
+      "Entrada/salida mono: sin delays estéreo como el BigSky MX",
+      "Ajustar funciones secundarias (assign, carryover) exige el manual",
+      "El modo looper comparte el pedal: no puedes usar loop y delay largo a la vez"
+     ],
+     "cons_es": [
+      "Sin footswitch de tap tempo dedicado — requiere el switch externo opcional",
+      "Entrada/salida mono: sin delays estéreo como el BigSky MX",
+      "Ajustar funciones secundarias (assign, carryover) exige el manual",
+      "El modo looper comparte el pedal: no puedes usar loop y delay largo a la vez"
+     ]
+    },
+    {
+     "name": "TC Electronic Hall of Fame 2",
+     "name_es": "TC Electronic Hall of Fame 2",
+     "pros": [
+      "8 reverb types from spring to shimmer plus TonePrint custom slots",
+      "TonePrint lets you download artist-designed algorithms via Bluetooth",
+      "Mash footswitch adds expression control over decay and FX",
+      "Compact 72 x 131 x 54 mm pedal that punches well above its $169 price"
+     ],
+     "pros_es": [
+      "8 tipos de reverb, de spring a shimmer, más ranuras TonePrint personalizables",
+      "TonePrint permite descargar algoritmos diseñados por artistas vía Bluetooth",
+      "El footswitch Mash añade control de expresión sobre decay y FX",
+      "Pedal compacto de 72 x 131 x 54 mm que rinde muy por encima de su precio de $169"
+     ],
+     "cons": [
+      "150 mA es un consumo alto frente a los 65 mA del DD-8 — revisa tu fuente",
+      "Entrada/salida mono: sin reverbs estéreo reales",
+      "Solo 3 ranuras TonePrint activas a la vez",
+      "Los controles de Tone y Decay son compartidos — el ajuste fino requiere la app"
+     ],
+     "cons_es": [
+      "150 mA es un consumo alto frente a los 65 mA del DD-8 — revisa tu fuente",
+      "Entrada/salida mono: sin reverbs estéreo reales",
+      "Solo 3 ranuras TonePrint activas a la vez",
+      "Los controles de Tone y Decay son compartidos — el ajuste fino requiere la app"
+     ]
+    },
+    {
+     "name": "Strymon BigSky MX",
+     "name_es": "Strymon BigSky MX",
+     "pros": [
+      "16 reverb machines with true stereo processing",
+      "New V2 engine adds dynamic reverb, freeze effects and live looping",
+      "300 presets in a wide, road-ready enclosure",
+      "The gold standard used by touring professionals and top studios"
+     ],
+     "pros_es": [
+      "16 máquinas de reverb con procesamiento estéreo real",
+      "El nuevo motor V2 añade reverb dinámica, efectos freeze y looping en vivo",
+      "300 presets en un chasis ancho y listo para la carretera",
+      "El estándar de oro usado por profesionales de gira y estudios top"
+     ],
+     "cons": [
+      "$699 es 4x el precio de la Hall of Fame 2 — una inversión que pocos aficionados necesitan",
+      "500 mA de consumo exigen una fuente aislada de alta corriente",
+      "El chasis ancho (168 x 139 x 66 mm) ocupa mucho espacio en la pedalera",
+      "El sistema de menús hace la edición de presets más lenta que las perillas de la HoF2"
+     ],
+     "cons_es": [
+      "$699 es 4x el precio de la Hall of Fame 2 — una inversión que pocos aficionados necesitan",
+      "500 mA de consumo exigen una fuente aislada de alta corriente",
+      "El chasis ancho (168 x 139 x 66 mm) ocupa mucho espacio en la pedalera",
+      "El sistema de menús hace la edición de presets más lenta que las perillas de la HoF2"
+     ]
+    }
+   ]
+  },
+  "best-live-sound-mixers": {
+   "verdictProsCons": [
+    {
+     "name": "Yamaha MG10XU",
+     "name_es": "Yamaha MG10XU",
+     "pros": [
+      "10-channel analog mixer with 6 D-PRE mic preamps at just $199",
+      "Built-in SPX digital effects and useful one-knob compressors on channels 1-2",
+      "USB audio interface for recording straight to a computer",
+      "4.6 lb — compact enough for a backpack"
+     ],
+     "pros_es": [
+      "Mesa analógica de 10 canales con 6 preamplificadores D-PRE por solo $199",
+      "Efectos digitales SPX integrados y útiles compresores de una perilla en los canales 1-2",
+      "Interfaz de audio USB para grabar directo a la computadora",
+      "2,1 kg — lo bastante compacta para una mochila"
+     ],
+     "cons": [
+      "Solo 2 envíos aux y EQ de 3 bandas — sin recall de escenas ni routing profundo",
+      "6 entradas de micrófono se quedan cortas para bandas grandes",
+      "Sin faders motorizados ni memorias digitales para consistencia entre shows",
+      "Los compresores de una perilla se limitan a dos canales"
+     ],
+     "cons_es": [
+      "Solo 2 envíos aux y EQ de 3 bandas — sin recall de escenas ni routing profundo",
+      "6 entradas de micrófono se quedan cortas para bandas grandes",
+      "Sin faders motorizados ni memorias digitales para consistencia entre shows",
+      "Los compresores de una perilla se limitan a dos canales"
+     ]
+    },
+    {
+     "name": "Behringer X32 Compact",
+     "name_es": "Behringer X32 Compact",
+     "pros": [
+      "25 motorized faders, 32 channels and 16 aux buses in a compact digital frame",
+      "Scene automation recalls complete mixes instantly",
+      "32 MIDAS preamps, 8 FX engines, iPad remote control and AES50 expandability",
+      "32-channel USB recording — a recording studio at the mix position"
+     ],
+     "pros_es": [
+      "25 faders motorizados, 32 canales y 16 buses aux en un chasis digital compacto",
+      "La automatización de escenas recupera mezclas completas al instante",
+      "32 preamplificadores MIDAS, 8 motores FX, control remoto por iPad y expansión AES50",
+      "Grabación USB de 32 canales — un estudio de grabación en la posición de mezcla"
+     ],
+     "cons": [
+      "44.1 lb — una inversión pesada y grande para bandas pequeñas con presupuesto ajustado",
+      "Los preamps MIDAS suenan bien, pero los del A&H SQ-5 son notablemente más limpios",
+      "Curva de aprendizaje para el software de escenas y routing",
+      "El precio de $1,999 contrasta con alternativas analógicas de $199 para shows pequeños"
+     ],
+     "cons_es": [
+      "20 kg — una inversión pesada y grande para bandas pequeñas con presupuesto ajustado",
+      "Los preamps MIDAS suenan bien, pero los del A&H SQ-5 son notablemente más limpios",
+      "Curva de aprendizaje para el software de escenas y routing",
+      "El precio de $1.999 contrasta con alternativas analógicas de $199 para shows pequeños"
+     ]
+    },
+    {
+     "name": "Allen & Heath SQ-5",
+     "name_es": "Allen & Heath SQ-5",
+     "pros": [
+      "48 input channels (32 mono) with pristine A&H preamps — cleaner than the X32",
+      "8 stereo FX engines with RackExtra FX and a responsive 7-inch touchscreen",
+      "Aluminium-alloy chassis and fanless design hold up through years of touring",
+      "2x dSnake ports and tablet control for flexible stage I/O"
+     ],
+     "pros_es": [
+      "48 canales de entrada (32 mono) con impecables preamps A&H — más limpios que los del X32",
+      "8 motores FX estéreo con RackExtra FX y una pantalla táctil de 7 pulgadas responsiva",
+      "Chasis de aleación de aluminio y diseño sin ventilador que aguanta años de gira",
+      "2x puertos dSnake y control por tablet para un I/O de escenario flexible"
+     ],
+     "cons": [
+      "$2,199 es $200 más que el X32 Compact",
+      "30.9 lb sigue exigiendo un rack de vuelo para giras",
+      "6 aux + 4 envíos FX frente a los 16 buses aux del X32 para mezclas de monitores complejas",
+      "Las funciones premium no se aprovechan salvo que mezcles bandas completas cada semana"
+     ],
+     "cons_es": [
+      "$2.199 es $200 más que el X32 Compact",
+      "14 kg siguen exigiendo un rack de vuelo para giras",
+      "6 aux + 4 envíos FX frente a los 16 buses aux del X32 para mezclas de monitores complejas",
+      "Las funciones premium no se aprovechan salvo que mezcles bandas completas cada semana"
+     ]
+    }
+   ]
+  },
+  "best-pa-speakers": {
+   "verdictProsCons": [
+    {
+     "name": "EV ZLX-12P Powered Speaker",
+     "name_es": "Altavoz Activo EV ZLX-12P",
+     "pros": [
+      "1000W peak Class D with a 12-inch woofer and 1.5-inch titanium tweeter",
+      "quickSmart DSP with preset EQs for music, live and voice",
+      "126 dB max SPL and 50 Hz–20 kHz response for its size",
+      "Around 34 lb with Bluetooth input — the best value in powered PA"
+     ],
+     "pros_es": [
+      "1000W pico Clase D con woofer de 12 pulgadas y tweeter de titanio de 1,5 pulgadas",
+      "DSP quickSmart con EQs de preset para música, live y voz",
+      "126 dB de SPL máximo y respuesta de 50 Hz–20 kHz para su tamaño",
+      "Unos 15.6 kg con entrada Bluetooth — la mejor relación calidad-precio en PA activo"
+     ],
+     "cons": [
+      "1000W y 126 dB se quedan cortos frente a los 2000W/131 dB del K12.2 para venues grandes",
+      "Los presets DSP son de fijar y olvidar, menos ajustables que los del K12.2",
+      "El gabinete de polipropileno es ligero pero menos rúgido que el ABS del QSC",
+      "Cuesta menos que el K12.2, pero no tiene su resistencia de carretera"
+     ],
+     "cons_es": [
+      "1000W y 126 dB se quedan cortos frente a los 2000W/131 dB del K12.2 para venues grandes",
+      "Los presets DSP son de fijar y olvidar, menos ajustables que los del K12.2",
+      "El gabinete de polipropileno es ligero pero menos rúgido que el ABS del QSC",
+      "Cuesta menos que el K12.2, pero no tiene su resistencia de carretera"
+     ]
+    },
+    {
+     "name": "QSC K12.2 Powered Speaker",
+     "name_es": "Altavoz Activo QSC K12.2",
+     "pros": [
+      "2000W peak with a 12-inch woofer and 1.75-inch compression driver",
+      "131 dB max SPL with deep bass (48 Hz–20 kHz)",
+      "DSP-guided crossover, 8 presets and onboard EQ to tune any room",
+      "Rugged ABS enclosure — the touring standard found at every venue"
+     ],
+     "pros_es": [
+      "2000W pico con woofer de 12 pulgadas y driver de compresión de 1,75 pulgadas",
+      "131 dB de SPL máximo con graves profundos (48 Hz–20 kHz)",
+      "Crossover guiado por DSP, 8 presets y EQ integrado para ajustar cualquier sala",
+      "Carcasa de ABS robusta — el estándar de gira que se ve en todos los venues"
+     ],
+     "cons": [
+      "$999 cada uno — $400 más que el ZLX-12P para presupuestos de venues pequeños",
+      "39 lb es más pesado que el ZLX-12P y solo 2 lb más ligero que el DXR12mkII",
+      "Sin Bluetooth — hacer streaming requiere un adaptador aparte",
+      "2000W son excesivos si solo tocas salas pequeñas"
+     ],
+     "cons_es": [
+      "$999 cada uno — $400 más que el ZLX-12P para presupuestos de venues pequeños",
+      "39 lb (17,7 kg) es más pesado que el ZLX-12P y solo 2 lb más ligero que el DXR12mkII",
+      "Sin Bluetooth — hacer streaming requiere un adaptador aparte",
+      "2000W son excesivos si solo tocas salas pequeñas"
+     ]
+    },
+    {
+     "name": "Yamaha DXR12mkII",
+     "name_es": "Yamaha DXR12mkII",
+     "pros": [
+      "1100W Class D with a 12-inch woofer and 1.75-inch titanium compression driver",
+      "10 FIR filters for precise tuning plus D-Contour multi-band processing",
+      "132 dB max SPL — the highest of the three featured",
+      "Metal grille and rugged enclosure built to survive repeated loading and unloading"
+     ],
+     "pros_es": [
+      "1100W Clase D con woofer de 12 pulgadas y driver de compresión de titanio de 1,75 pulgadas",
+      "10 filtros FIR para un ajuste preciso más procesamiento multibanda D-Contour",
+      "132 dB de SPL máximo — el más alto de los tres destacados",
+      "Rejilla metálica y carcasa robusta hechas para aguantar cargas y descargas repetidas"
+     ],
+     "cons": [
+      "$899 se acerca a los $999 del K12.2 pero con menos potencia pico",
+      "52 Hz–20 kHz es el low-end más limitado del grupo",
+      "Los presets DSP (sintonía D-XR) son menos flexibles que los 8 presets del QSC",
+      "41 lb todavía requiere las dos manos para transportarlo"
+     ],
+     "cons_es": [
+      "$899 se acerca a los $999 del K12.2 pero con menos potencia pico",
+      "52 Hz–20 kHz es el low-end más limitado del grupo",
+      "Los presets DSP (sintonía D-XR) son menos flexibles que los 8 presets del QSC",
+      "18,6 kg todavía requieren las dos manos para transportarlo"
+     ]
+    }
+   ]
+  }
+ }
+}

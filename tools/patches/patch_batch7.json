@@ -1,0 +1,868 @@
+{
+  "guides": {
+    "best-guitar-home-office": {
+      "verdictProsCons": [
+        {
+          "name": "Yamaha Pacifica 112V",
+          "name_es": "Yamaha Pacifica 112V",
+          "pros": [
+            "HSS pickup layout covers clean jazz to crunchy rock during short practice breaks",
+            "Slim C-shaped neck is comfortable for shorter sessions",
+            "Lightweight alder body won't fatigue your shoulder",
+            "At $349 it leaves room in the budget for a headphone amp or interface"
+          ],
+          "pros_es": [
+            "La configuración HSS cubre desde jazz limpio hasta rock con crunch en pausas cortas de práctica",
+            "El mástil fino en forma de C es cómodo para sesiones breves",
+            "El cuerpo ligero de aliso no cansa el hombro",
+            "Por $349 deja presupuesto para un amplificador de auriculares o una interfaz"
+          ],
+          "cons": [
+            "Budget pickups are workmanlike — an upgrade path exists later",
+            "No built-in amp or effects; silent practice needs a headphone amp or interface",
+            "7.5 lb is still heavier than the CD-60S acoustic for grab-and-go",
+            "HSS switching skips the neck single-coil position of a true SSS Strat",
+            "The vintage-style tremolo needs a setup to stay in tune under heavy use"
+          ],
+          "cons_es": [
+            "Las pastillas económicas son funcionales — queda camino de mejora",
+            "Sin amplificador ni efectos integrados; la práctica silenciosa requiere un headphone amp o interfaz",
+            "Sus 3,4 kg siguen siendo más pesados que la acústica CD-60S para tocar al vuelo",
+            "El conmutador HSS se salta la posición de single-coil del mástil de una Strat SSS real",
+            "El trémolo estilo vintage necesita un ajuste para mantenerse afinada con uso intenso"
+          ]
+        },
+        {
+          "name": "Fender Player II Stratocaster HSS",
+          "name_es": "Fender Player II Stratocaster HSS",
+          "pros": [
+            "Iconic HSS chime and quack tones work beautifully at low volumes",
+            "Slim C neck and 9.5-inch radius fingerboard make short sessions effortless",
+            "Pairs with the Katana 50's headphone out for a fully silent professional rig",
+            "Alder body and 22-fret Modern C neck make it a true step-up"
+          ],
+          "pros_es": [
+            "Los tonos icónicos de brillo y quack HSS funcionan de maravilla a bajo volumen",
+            "El mástil C fino y el diapasón de radio 9.5 pulgadas hacen fáciles las sesiones cortas",
+            "Se combina con la salida de auriculares del Katana 50 para un rig profesional totalmente silencioso",
+            "El cuerpo de aliso y el mástil Modern C de 22 trastes lo convierten en un verdadero salto de nivel"
+          ],
+          "cons": [
+            "At $849 it costs more than twice the Pacifica 112V",
+            "Single-coils hum at high gain when the bridge humbucker isn't engaged",
+            "No onboard effects — you still need the Katana or an interface for tone",
+            "No case or gig bag — Fender sells it as a bare guitar",
+            "The bridge humbucker changes the classic single-coil Strat sound for purists"
+          ],
+          "cons_es": [
+            "Por $849 cuesta más del doble que la Pacifica 112V",
+            "Los single-coils zumban a alta ganancia cuando el humbucker del puente no está activado",
+            "Sin efectos integrados — sigues necesitando el Katana o una interfaz para el tono",
+            "No incluye estuche ni funda — Fender lo vende como guitarra desnuda",
+            "El humbucker del puente cambia el sonido clásico de single-coil de la Strat para los puristas"
+          ]
+        },
+        {
+          "name": "Boss Katana 50 MkII",
+          "name_es": "Boss Katana 50 MkII",
+          "pros": [
+            "0.5W power mode delivers tube-like breakup at conversation-level volume",
+            "A dedicated stereo headphone output with cabinet emulation lets you practice at midnight without waking anyone",
+            "Built-in delay, reverb, and modulation eliminate the need for a pedalboard",
+            "USB recording output plugs straight into your DAW with no microphone"
+          ],
+          "pros_es": [
+            "El modo de 0.5W ofrece ruptura tipo válvula a volumen de conversación",
+            "Una salida de auriculares estéreo dedicada con emulación de gabinete permite practicar a medianoche sin despertar a nadie",
+            "Delay, reverb y modulación integrados eliminan la necesidad de una pedalera",
+            "La salida USB graba directamente en tu DAW sin micrófono"
+          ],
+          "cons": [
+            "A 1x12 combo is still a physical amp — a pure headphone setup could be smaller",
+            "Deeper tone editing requires the free Boss Tone Studio software",
+            "Built-in effects can't be expanded like a pedalboard",
+            "Lacks the effects loop and GA-FC footswitch jack found on the Katana 100",
+            "The 1x12 speaker colors the tone, so headphone mixes can differ from the room sound"
+          ],
+          "cons_es": [
+            "Un combo 1x12 sigue siendo un amplificador físico — un setup solo de auriculares podría ser menor",
+            "El ajuste de tono más profundo requiere el software gratuito Boss Tone Studio",
+            "Los efectos integrados no se pueden ampliar como una pedalera",
+            "Le faltan el bucle de efectos y la entrada para pedal GA-FC del Katana 100",
+            "El altavoz 1x12 colorea el tono, así que las mezclas de auriculares pueden diferir del sonido de la sala"
+          ]
+        },
+        {
+          "name": "Fender CD-60S Acoustic",
+          "name_es": "Fender CD-60S Acústica",
+          "pros": [
+            "No amp, no cables — just grab and play between meetings",
+            "Dreadnought body produces big, full sound with surprising bass for its price",
+            "Laminated construction handles humidity changes from home heating without cracking",
+            "At $219 it's affordable enough to keep propped next to your desk"
+          ],
+          "pros_es": [
+            "Sin amplificador ni cables — solo tómalo y toca entre reuniones",
+            "El cuerpo dreadnought produce un sonido grande y lleno con graves sorprendentes por su precio",
+            "La construcción laminada resiste los cambios de humedad de la calefacción sin agrietarse",
+            "Por $219 es lo bastante asequible para dejarla apoyada junto a tu escritorio"
+          ],
+          "cons": [
+            "Acoustic volume can't go silent — it's not headphone-compatible",
+            "Laminate back and sides trade some resonance for durability",
+            "No electronics for recording direct",
+            "Dreadnought size is bulky for small desks compared to a parlour guitar",
+            "The laminated back and sides won't open up over decades the way all-wood models do"
+          ],
+          "cons_es": [
+            "El volumen acústico no puede ser silencioso — no es compatible con auriculares",
+            "El fondo y aros laminados sacrifican algo de resonancia por durabilidad",
+            "Sin electrónica para grabar en directo",
+            "El tamaño dreadnought es voluminoso para escritorios pequeños comparado con una parlour",
+            "El fondo y aros laminados no mejoran con los años como una guitarra totalmente maciza"
+          ]
+        }
+      ]
+    },
+    "fix-clipping-scarlett": {
+      "verdictProsCons": [
+        {
+          "name": "Focusrite Scarlett 2i2 4th Gen",
+          "name_es": "Focusrite Scarlett 2i2 4th Gen",
+          "pros": [
+            "Gain halo ring turns from green to red so you can nail headroom at a glance",
+            "Air mode adds vocal presence with a roughly 2-3dB boost when you want it",
+            "Inst, Line, and Mic input modes plus a -10dB pad for hot sources",
+            "56dB of preamp gain covers most dynamic and condenser mics"
+          ],
+          "pros_es": [
+            "El anillo de ganancia pasa de verde a rojo para que domines el headroom de un vistazo",
+            "El modo Air añade presencia vocal con un boost de unos 2-3dB cuando lo quieres",
+            "Modos de entrada Inst, Line y Mic más un pad de -10dB para fuentes calientes",
+            "Los 56dB de ganancia de previo cubren la mayoría de dinámicos y condensadores"
+          ],
+          "cons": [
+            "56dB of gain falls short for low-output mics like the SM7B without a Cloudlifter",
+            "Air mode adds 2-3dB, so you must re-set gain after engaging it",
+            "2-in/2-out with no ADAT expansion — growing means a bigger interface",
+            "If you clip the preamp, only a re-record fixes the take — there's no built-in limiter",
+            "Air mode can push an already hot vocal into clipping, so monitor the halo when engaging it"
+          ],
+          "cons_es": [
+            "Los 56dB de ganancia se quedan cortos con mics de baja salida como el SM7B sin un Cloudlifter",
+            "El modo Air añade 2-3dB, así que debes reajustar la ganancia al activarlo",
+            "2 entradas y 2 salidas sin expansión ADAT — crecer implica una interfaz más grande",
+            "Si saturas el previo, solo regrabar el take lo arregla — no hay limitador integrado",
+            "El modo Air puede empujar una voz ya caliente hacia el clipping, así que vigila el halo al activarlo"
+          ]
+        },
+        {
+          "name": "SSL 2+ MKII",
+          "name_es": "SSL 2+ MKII",
+          "pros": [
+            "4K Legacy switch adds SSL console character that can reduce the need for EQ",
+            "64dB of gain handles low-output mics with more headroom than the Scarlett",
+            "32-bit float / 192kHz converters in the MKII",
+            "Dual headphone outputs and talkback for recording duos"
+          ],
+          "pros_es": [
+            "El botón 4K Legacy añade carácter de consola SSL que puede reducir la necesidad de EQ",
+            "Los 64dB de ganancia manejan mics de baja salida con más margen que la Scarlett",
+            "Convertidores de 32-bit flotante / 192kHz en el MKII",
+            "Dos salidas de auriculares y talkback para grabar duetos"
+          ],
+          "cons": [
+            "At $299 it costs $100 more than the Scarlett 2i2",
+            "Still just two mic preamps — the 4K character isn't a gain fix",
+            "No ADAT to expand inputs later, so growing the setup means a new interface",
+            "The 4K button only adds a high-frequency lift — it can't add headroom or prevent clipping",
+            "The talkback mic feeds the headphone mix only, so it never lands on the recording"
+          ],
+          "cons_es": [
+            "Por $299 cuesta $100 más que la Scarlett 2i2",
+            "Sigue teniendo solo dos previos de micrófono — el carácter 4K no es una solución de ganancia",
+            "Sin ADAT para ampliar entradas más adelante, así que crecer el setup implica otra interfaz",
+            "El botón 4K solo añade un realce de agudos — no puede añadir margen ni evitar el clipping",
+            "El micrófono talkback solo alimenta la mezcla de auriculares, así que nunca llega a la grabación"
+          ]
+        },
+        {
+          "name": "Audient iD14 MkII",
+          "name_es": "Audient iD14 MkII",
+          "pros": [
+            "58dB of Class-A preamp gain with more clarity at higher settings",
+            "Same console-grade preamps as Audient's $50,000 consoles",
+            "JFET DI input for direct guitar and bass",
+            "ADAT expansion adds channels when you need them"
+          ],
+          "pros_es": [
+            "58dB de ganancia de previo Clase A con más claridad en ajustes altos",
+            "Los mismos previos de grado consola que las consolas de $50,000 de Audient",
+            "Entrada DI JFET para guitarra y bajo directos",
+            "La expansión ADAT añade canales cuando los necesitas"
+          ],
+          "cons": [
+            "At $299 it's $100 more than the Scarlett",
+            "Very-low-output ribbons will still benefit from a Cloudlifter",
+            "No loopback routing for streaming like the Scarlett",
+            "ScrollControl requires the app open to change what the knob does",
+            "At $299 it costs the same as the SSL 2+ MKII with fewer outputs"
+          ],
+          "cons_es": [
+            "Por $299 cuesta $100 más que la Scarlett",
+            "Los ribbons de muy baja salida seguirán beneficiándose de un Cloudlifter",
+            "Sin ruteo loopback para streaming como la Scarlett",
+            "ScrollControl requiere la app abierta para cambiar lo que hace la perilla",
+            "Por $299 cuesta lo mismo que la SSL 2+ MKII con menos salidas"
+          ]
+        },
+        {
+          "name": "Universal Audio Apollo Twin X",
+          "name_es": "Universal Audio Apollo Twin X",
+          "pros": [
+            "Unison preamps emulate vintage hardware — UA's signature analog sound",
+            "UAD DSP runs plugins with near-zero-latency monitoring",
+            "10-in/6-out I/O over Thunderbolt 3 for low latency",
+            "A separate category for tracking with UAD plugins"
+          ],
+          "pros_es": [
+            "Los previos Unison emulan hardware vintage — el sonido analógico característico de UA",
+            "El DSP UAD ejecuta plugins con monitoreo de latencia casi nula",
+            "I/O de 10 entradas y 6 salidas vía Thunderbolt 3 para baja latencia",
+            "Una categoría aparte para grabar con plugins UAD"
+          ],
+          "cons": [
+            "At $899 it costs more than 4x the Scarlett 2i2",
+            "Thunderbolt 3 only — requires a compatible Mac or PC",
+            "The UAD plugin ecosystem adds ongoing costs on top of the hardware",
+            "Thunderbolt 3 ties you to a specific port setup — moving between laptop and desktop needs compatible docks",
+            "UAD plugins only run on this hardware, so the ecosystem is harder to leave than native plugins"
+          ],
+          "cons_es": [
+            "Por $899 cuesta más de 4 veces la Scarlett 2i2",
+            "Solo Thunderbolt 3 — requiere una Mac o PC compatible",
+            "El ecosistema de plugins UAD añade costes continuos sobre el hardware",
+            "El Thunderbolt 3 te ata a un puerto concreto — moverte entre portátil y sobremesa requiere docks compatibles",
+            "Los plugins UAD solo corren en este hardware, así que cuesta más salir del ecosistema que con plugins nativos"
+          ]
+        }
+      ]
+    },
+    "best-headphones-for-mixing": {
+      "verdictProsCons": [
+        {
+          "name": "Beyerdynamic DT 990 Pro",
+          "name_es": "Beyerdynamic DT 990 Pro",
+          "pros": [
+            "Open-back 250Ω design with a wide soundstage for precise stereo placement and EQ decisions",
+            "Revealing 'Beyerdynamic treble spike' exposes sibilance, harshness and mix flaws early",
+            "Legendary comfort: soft velour pads and gentle clamping for 4-8 hour sessions",
+            "5 Hz–35 kHz response with punchy, well-defined bass at just 250 g"
+          ],
+          "pros_es": [
+            "Diseño abierto de 250 Ω con escenario sonoro amplio para decisiones precisas de estéreo y EQ",
+            "El revelador 'pico de agudos Beyerdynamic' expone sibilancia, dureza y fallos de mezcla desde el principio",
+            "Comodidad legendaria: almohadillas de terciopelo suaves y presión suave para sesiones de 4 a 8 horas",
+            "Respuesta de 5 Hz–35 kHz con graves contundentes y bien definidos en solo 250 g"
+          ],
+          "cons": [
+            "250 Ω impedance benefits from a headphone amp or an interface like the Scarlett 2i2",
+            "The open design leaks sound and lets noise in — not suitable for tracking",
+            "The lifted treble can fatigue ears sensitive to brightness",
+            "Fixed 3 m cable (non-detachable), unlike the detachable cable of the M50x"
+          ],
+          "cons_es": [
+            "Los 250 Ω se benefician de un amplificador de auriculares o una interfaz como la Scarlett 2i2",
+            "El diseño abierto filtra sonido y deja entrar ruido: no es para grabar",
+            "Los agudos realzados pueden fatigar a quienes son sensibles al brillo",
+            "Cable fijo de 3 m (no desmontable), a diferencia del cable desmontable del M50x"
+          ]
+        },
+        {
+          "name": "Audio-Technica ATH-M50x",
+          "name_es": "Audio-Technica ATH-M50x",
+          "pros": [
+            "A long-running studio staple that balances punchy bass with clear, detailed mids",
+            "45mm drivers deliver punchy bass and a slightly forward midrange",
+            "Collapsible design with 3 detachable cables for portable production",
+            "Low 38 Ω impedance is easy to drive from any laptop or interface"
+          ],
+          "pros_es": [
+            "Un clásico de estudio de largo recorrido que equilibra graves contundentes con medios claros y detallados",
+            "Los drivers de 45mm ofrecen graves contundentes y medios ligeramente adelantados",
+            "Diseño plegable con 3 cables desmontables para producción portátil",
+            "La baja impedancia de 38 Ω se maneja fácilmente desde cualquier portátil o interfaz"
+          ],
+          "cons": [
+            "The bass boost can mislead critical mixing of acoustic or classical music",
+            "Pleather pads heat up on long sessions (swap for velour)",
+            "Less neutral response than the open DT 990 for reference decisions",
+            "Costs the same ($169) as the DT 990 Pro, which is more neutral for mixing"
+          ],
+          "cons_es": [
+            "El realce de graves puede inducir a error en la mezcla crítica de acústica o clásica",
+            "Las almohadillas de polipiel se calientan en sesiones largas (mejorar con terciopelo)",
+            "Respuesta menos neutra que el DT 990 abierto para decisiones de referencia",
+            "Cuesta lo mismo ($169) que el DT 990 Pro, que es más neutro para mezclar"
+          ]
+        },
+        {
+          "name": "Sony MDR-7506",
+          "name_es": "Sony MDR-7506",
+          "pros": [
+            "The broadcast standard since 1991 — film sets, radio trucks, and TV studios still use it daily",
+            "106 dB sensitivity means full volume from any headphone jack, no amp needed",
+            "Collapsible, lightweight 230 g build for portable and studio use",
+            "Costs just $99 — the cheapest featured headphone in this guide"
+          ],
+          "pros_es": [
+            "El estándar de broadcast desde 1991 — platós, camiones de radio y estudios de TV aún lo usan a diario",
+            "106 dB de sensibilidad dan volumen completo desde cualquier salida, sin amplificador",
+            "Construcción plegable y ligera de 230 g para uso portátil y de estudio",
+            "Cuesta solo $99 — el auricular más económico destacado en esta guía"
+          ],
+          "cons": [
+            "10 Hz–20 kHz response with less bass extension than the DT 770 for sub-heavy music",
+            "Fixed 3 m non-detachable cable",
+            "40mm drivers sound smaller-scale than 45mm competition",
+            "Fixed cable and classic tuning vs modern options at similar prices"
+          ],
+          "cons_es": [
+            "Respuesta de 10 Hz–20 kHz con menos extensión de graves que el DT 770 para música con sub-graves",
+            "Cable fijo de 3 m y no desmontable",
+            "Los drivers de 40mm suenan de menor escala que la competencia de 45mm",
+            "Cable fijo y afinación clásica frente a opciones modernas a precios similares"
+          ]
+        },
+        {
+          "name": "Sennheiser HD 490 Pro Plus",
+          "name_es": "Sennheiser HD 490 Pro Plus",
+          "pros": [
+            "Modern gold-standard reference neutrality — a virtually flat response that reveals every mix flaw",
+            "Deep, defined low end and 130-ohm ease — no dedicated headphone amp needed",
+            "A 5 Hz–36 kHz response with flat, accurate mids that expose vocal balance issues early",
+            "Two switchable ear pad sets, detachable cables, and dearVR MIX-SE included"
+          ],
+          "pros_es": [
+            "Neutralidad de referencia de oro moderna — una respuesta prácticamente plana que revela cada fallo de la mezcla",
+            "Graves profundos y definidos y facilidad de 130 ohmios — sin amplificador de auriculares dedicado",
+            "Una respuesta de 5 Hz–36 kHz con medios planos y precisos que exponen los problemas de balance vocal desde el principio",
+            "Dos juegos de almohadillas intercambiables, cables desmontables y dearVR MIX-SE incluidos"
+          ],
+          "cons": [
+            "Costs $499 — more than triple the DT 990 Pro for the same open-back role",
+            "The open design leaks sound and doesn't isolate, same as the DT 990",
+            "Deep bass is still that of an open-back — for extreme sub-bass add a second headphone or speakers",
+            "The Plus kit, with two ear pad sets and the dearVR license, drives the $499 price",
+            "At $499 it's the priciest headphone here, $330 over the DT 990"
+          ],
+          "cons_es": [
+            "Cuestan $499 — más del triple que el DT 990 Pro con el mismo rol abierto",
+            "El diseño abierto filtra sonido y no aísla, igual que el DT 990",
+            "Los graves profundos siguen siendo de un abierto — para sub-bass extremo añade un segundo auricular o altavoces",
+            "El kit Plus, con dos juegos de almohadillas y la licencia dearVR, dispara el precio hasta $499",
+            "Por $499 es el auricular más caro de aquí, $330 más que el DT 990"
+          ]
+        }
+      ]
+    },
+    "pro-live-sound": {
+      "verdictProsCons": [
+        {
+          "name": "Allen & Heath SQ-5",
+          "name_es": "Allen & Heath SQ-5",
+          "pros": [
+            "A 96kHz FPGA architecture that captures detail the X32's 48kHz converters miss",
+            "A touring-grade chassis that survives repeated load-ins and tear-downs",
+            "Intuitive 7-inch capacitive touchscreen interface",
+            "Expandable I/O via SLink for future growth",
+            "Allen & Heath preamps carry the same pedigree as the company's touring consoles"
+          ],
+          "pros_es": [
+            "Una arquitectura FPGA de 96kHz que captura detalle que los convertidores de 48kHz de la X32 se pierden",
+            "Un chasis de grado gira que aguanta repetidas cargas y desmontajes",
+            "Interfaz de pantalla táctil capacitiva de 7 pulgadas intuitiva",
+            "I/O expandible vía SLink para crecimiento futuro",
+            "Los previos de Allen & Heath comparten el pedigrí de las consolas de gira de la marca"
+          ],
+          "cons": [
+            "Only 8 motorized faders (vs 17 on X32)",
+            "More expensive than the X32 Compact",
+            "Less channel count for USB recording (12x8 vs 32x32)",
+            "Smaller ecosystem of accessories and stage boxes",
+            "Newer platform with less long-term track record"
+          ],
+          "cons_es": [
+            "Solo 8 faders motorizados (vs 17 en X32)",
+            "Más caro que el X32 Compact",
+            "Menor cantidad de canales para grabación USB (12x8 vs 32x32)",
+            "Ecosistema más pequeño de accesorios y stage boxes",
+            "Plataforma más nueva con menos historial a largo plazo"
+          ]
+        },
+        {
+          "name": "Behringer X32 Compact",
+          "name_es": "Behringer X32 Compact",
+          "pros": [
+            "Exceptional value — professional digital mixing under $2,000",
+            "17 motorized faders provide extensive hands-on control",
+            "Proven ecosystem with years of reliability and community support",
+            "32x32 USB recording for full multitrack capture",
+            "Deep iPad/Android app for wireless mixing"
+          ],
+          "pros_es": [
+            "Valor excepcional — mezcla digital profesional por menos de $2,000",
+            "17 faders motorizados proporcionan control práctico extenso",
+            "Ecosistema probado con años de fiabilidad y soporte comunitario",
+            "Grabación USB 32x32 para captura multipista completa",
+            "Aplicación iPad/Android profunda para mezcla inalámbrica"
+          ],
+          "cons": [
+            "Its 48kHz converters sound slightly less refined than the SQ-5's 96kHz path",
+            "Older platform with lower sample rate (48kHz)",
+            "5-inch screen feels small compared to modern competitors",
+            "Its build is sturdy for fixed installs but lighter-duty than a touring frame",
+            "Fan noise can be noticeable in quiet settings"
+          ],
+          "cons_es": [
+            "Sus convertidores de 48kHz suenan algo menos refinados que la ruta de 96kHz del SQ-5",
+            "Plataforma más antigua con menor tasa de muestreo (48kHz)",
+            "Pantalla de 5 pulgadas se siente pequeña comparada con competidores modernos",
+            "Su construcción es resistente para instalaciones fijas pero más ligera que un chasis de gira",
+            "El ruido del ventilador puede ser notable en entornos silenciosos"
+          ]
+        }
+      ]
+    },
+    "best-plugins": {
+      "verdictProsCons": [
+        {
+          "name": "FabFilter Total Bundle",
+          "name_es": "FabFilter Paquete Total",
+          "pros": [
+            "Pro-Q 4 — the only EQ used: spectral display, dynamic EQ bands, intuitive interface",
+            "Pro-C 3 compressor and Pro-L 2, the cleanest limiter available",
+            "Saturn 2, Timeless 3, and Volcano 3 cover saturation, delay, and filtering",
+            "Pro-Q 4 and Pro-C 3 are also available individually at $199 each"
+          ],
+          "pros_es": [
+            "Pro-Q 4 — el único EQ usado: pantalla espectral, bandas dinámicas e interfaz intuitiva",
+            "El compresor Pro-C 3 y el Pro-L 2, el limitador más limpio disponible",
+            "Saturn 2, Timeless 3 y Volcano 3 cubren saturación, delay y filtrado",
+            "Pro-Q 4 y Pro-C 3 también están disponibles por separado a $199 cada uno"
+          ],
+          "cons": [
+            "$1,069 is a large one-time spend for the full bundle",
+            "Clean, transparent visuals — no vintage analog character",
+            "Overkill if you only need one EQ — a single plugin beats a suite you'll partially use",
+            "If you buy one bundle, make it this one — but only if you mix seriously"
+          ],
+          "cons_es": [
+            "$1,069 es un desembolso grande de una sola vez por el paquete completo",
+            "Visual limpio y transparente — sin carácter analógico vintage",
+            "Excesivo si solo necesitas un EQ — un plugin suelto supera a un paquete que usarás a medias",
+            "Si compras un paquete, que sea este — pero solo si mezclas en serio"
+          ]
+        },
+        {
+          "name": "iZotope Ozone 12 Advanced",
+          "name_es": "iZotope Ozone 12 Avanzado",
+          "pros": [
+            "AI-powered Master Assistant listens to your mix and builds a starting chain",
+            "New Stem EQ lets you EQ vocals, drums, and bass within the master bus",
+            "Clarity module removes muddiness automatically",
+            "20 pro modules including Stabilizer and improved stem splitting"
+          ],
+          "pros_es": [
+            "El Master Assistant con IA escucha tu mezcla y construye una cadena inicial",
+            "El nuevo Stem EQ permite ecualizar voces, batería y bajo dentro del bus de master",
+            "El módulo Clarity elimina la suciedad automáticamente",
+            "20 módulos profesionales incluyendo Stabilizer y mejor separación de stems"
+          ],
+          "cons": [
+            "$499, and it's not a replacement for a human mastering engineer",
+            "Advanced costs more than Standard — a big price for home producers",
+            "Mastering-only — it doesn't help with the mixing tools FabFilter covers",
+            "The AI starting point still needs your ears — it won't replace judgment on the final loudness",
+            "Stem splitting works best on clear mixes, so poorly balanced sources may need manual processing"
+          ],
+          "cons_es": [
+            "$499, y no sustituye a un ingeniero de masterización humano",
+            "Advanced cuesta más que Standard — un precio alto para productores de casa",
+            "Solo masterización — no ayuda con las herramientas de mezcla que cubre FabFilter",
+            "El punto de partida de la IA aún necesita tus oídos — no sustituye el juicio sobre la sonoridad final",
+            "La separación de stems funciona mejor con mezclas claras, así que fuentes mal balanceadas pueden requerir proceso manual"
+          ]
+        },
+        {
+          "name": "Soundtoys 5.5 Bundle",
+          "name_es": "Soundtoys 5.5 Bundle",
+          "pros": [
+            "23 iconic effects — Decapitator for analog warmth and grit, EchoBoy for delay, Little AlterBoy for vocals",
+            "New SuperPlate reverb and SpaceBlender add modern spatial effects",
+            "Effect Rack lets you chain them together",
+            "The most creative bundle — where you go to break the rules"
+          ],
+          "pros_es": [
+            "23 efectos icónicos — Decapitator para calidez y garra analógica, EchoBoy para delay, Little AlterBoy para voces",
+            "Los nuevos SuperPlate y SpaceBlender añaden efectos espaciales modernos",
+            "Effect Rack permite encadenarlos",
+            "El paquete más creativo — a donde vas para romper las reglas"
+          ],
+          "cons": [
+            "$599 — a lot if you only need one delay or saturator",
+            "Effects-first, not a transparent EQ/compressor mixing toolkit",
+            "Its character-driven effects overlap with your DAW's reverbs and delays for conservative mixing",
+            "The iLok copy protection can trip up users switching computers",
+            "Most character effects need A/B against the dry signal to judge how much is too much"
+          ],
+          "cons_es": [
+            "$599 — mucho si solo necesitas un delay o un saturator",
+            "Primero efectos, no un kit transparente de EQ/compresor para mezclar",
+            "Sus efectos con carácter se solapan con las reverbs y delays de tu DAW para mezclas conservadoras",
+            "La protección iLok puede dar problemas al cambiar de ordenador",
+            "La mayoría de efectos con carácter necesitan A/B contra la señal seca para juzgar cuánto es demasiado"
+          ]
+        },
+        {
+          "name": "Celemony Melodyne 5",
+          "name_es": "Celemony Melodyne 5",
+          "pros": [
+            "Edit individual notes within polyphonic audio — fix pitch, timing, and formants",
+            "Surgical and transparent, used on virtually every professional vocal production",
+            "Tightens harmonies and fixes pitch drift without artifacts",
+            "The essentials tier starts at $99 and handles single-track pitch work without breaking the budget"
+          ],
+          "pros_es": [
+            "Edita notas individuales dentro de audio polifónico — corrige tono, tiempo y formantes",
+            "Quirúrgico y transparente, usado en prácticamente cada producción vocal profesional",
+            "Ajusta armonías y corrige derivas de tono sin artefactos",
+            "La versión essentials parte de $99 y maneja el ajuste de tono de una sola pista sin romper el presupuesto"
+          ],
+          "cons": [
+            "The $99 essentials tier is limited — deeper polyphonic DNA editing needs higher tiers",
+            "Note-based editing has a learning curve versus auto-tune-style tools",
+            "Only useful for recorded audio — no benefit for sample-based production",
+            "Unlocking full polyphonic DNA editing pushes you past the $99 tier into pricier editions",
+            "For quick live-style pitch fixes, real-time tools are faster than Melodyne's per-note editing"
+          ],
+          "cons_es": [
+            "La versión essentials de $99 es limitada — la edición polifónica DNA profunda requiere niveles superiores",
+            "La edición por notas tiene curva de aprendizaje frente a herramientas tipo auto-tune",
+            "Solo útil para audio grabado — sin beneficio en producción basada en samples",
+            "Desbloquear la edición polifónica DNA completa te lleva más allá del nivel de $99 a ediciones más caras",
+            "Para arreglos rápidos de tono al estilo en vivo, las herramientas en tiempo real son más rápidas que la edición por nota de Melodyne"
+          ]
+        },
+        {
+          "name": "Native Instruments Komplete 26 Ultimate",
+          "name_es": "Native Instruments Komplete 26 Definitivo",
+          "pros": [
+            "Over 150 instruments and effects covering every sound imaginable",
+            "Kontakt 8 — the ultimate sampler platform with thousands of libraries",
+            "Massive X wavetable synthesis, Guitar Rig 7, Session Strings, and Cremona Quartet",
+            "At $1,199 it replaces a studio full of hardware"
+          ],
+          "pros_es": [
+            "Más de 150 instrumentos y efectos que cubren todo sonido imaginable",
+            "Kontakt 8 — la plataforma de sampler definitiva con miles de librerías",
+            "Síntesis wavetable Massive X, Guitar Rig 7, Session Strings y Cremona Quartet",
+            "Por $1,199 sustituye a un estudio lleno de hardware"
+          ],
+          "cons": [
+            "$1,199 — the biggest single spend in this guide",
+            "Huge installation — hundreds of gigabytes and long load times",
+            "Instruments only — you still need FabFilter and Soundtoys for mixing and effects",
+            "Ultimate is more than producers need who just want Kontakt plus a few synths"
+          ],
+          "cons_es": [
+            "$1,199 — el mayor desembolso único de esta guía",
+            "Instalación enorme — cientos de gigabytes y tiempos de carga largos",
+            "Solo instrumentos — aún necesitas FabFilter y Soundtoys para mezclar y efectos",
+            "Ultimate es más de lo que necesita un productor que solo quiere Kontakt y algunos sintetizadores"
+          ]
+        }
+      ]
+    },
+    "budget-mics": {
+      "verdictProsCons": [
+        {
+          "name": "Shure SM57",
+          "name_es": "Shure SM57",
+          "pros": [
+            "$99 and the most recorded microphone in history — nothing comes close",
+            "Handles guitar amps with an authority mics costing ten times as much can't match",
+            "Tight cardioid keeps off-axis bleed low — a pair handles snare and hi-hat without smearing phase",
+            "Dropped off stages and kicked across festival stages — still works perfectly"
+          ],
+          "pros_es": [
+            "$99 y el micrófono más grabado de la historia — nada se le acerca",
+            "Maneja amplis de guitarra con una autoridad que micrófonos diez veces más caros no igualan",
+            "El cardioide ajustado mantiene baja la fuga fuera de eje — un par maneja caja y hi-hat sin ensuciar la fase",
+            "Caído de escenarios y pateado por festivales — sigue funcionando perfectamente"
+          ],
+          "cons": [
+            "Needs an XLR interface and cable to record",
+            "Raw, present, punchy on vocals — not a smooth studio sound",
+            "A condenser like the AT2020 captures cleaner, more detailed vocal takes",
+            "No switchable patterns — it's cardioid only for every source",
+            "It leans on proximity effect, so placement strongly shapes the tone"
+          ],
+          "cons_es": [
+            "Necesita una interfaz XLR y cable para grabar",
+            "Crudo, presente y contundente en voces — no es un sonido de estudio suave",
+            "Un condensador como el AT2020 captura tomas vocales más limpias y detalladas",
+            "Sin patrones conmutables — solo cardioide para cualquier fuente",
+            "Se apoya en el efecto proximidad, así que la colocación moldea mucho el tono"
+          ]
+        },
+        {
+          "name": "Audio-Technica AT2020",
+          "name_es": "Audio-Technica AT2020",
+          "pros": [
+            "$99 — the best entry point into condenser recording",
+            "Custom-engineered 16mm low-mass diaphragm — the same design class as studio condensers costing several times more",
+            "144dB max SPL handles loud sources comfortably",
+            "Cardioid rejects room noise — forgiving in an untreated bedroom"
+          ],
+          "pros_es": [
+            "$99 — el mejor punto de entrada a la grabación con condensador",
+            "Diafragma de baja masa de 16mm diseñado a medida — la misma clase de diseño que condensadores de estudio varias veces más caros",
+            "144dB de SPL máximo maneja fuentes fuertes con comodidad",
+            "Cardioide que rechaza el ruido de sala — indulgente en un dormitorio sin tratar"
+          ],
+          "cons": [
+            "Condenser picks up more room than a dynamic in untreated spaces",
+            "Needs phantom power (48V) from your interface",
+            "Cardioid only — no polar pattern switching",
+            "Budget for a pop filter and cable to finish the chain"
+          ],
+          "cons_es": [
+            "El condensador capta más sala que un dinámico en espacios sin tratar",
+            "Necesita alimentación phantom (48V) de tu interfaz",
+            "Solo cardioide — sin cambio de patrón polar",
+            "Reserva para un filtro antipop y cable para completar la cadena"
+          ]
+        },
+        {
+          "name": "Rode PodMic",
+          "name_es": "Rode PodMic",
+          "pros": [
+            "Around $109 — broadcast-ready 'radio' voice without a $500 setup",
+            "Tight cardioid rejects background noise better than any condenser at this price",
+            "Integrated pop filter, internal shock mounting, and swing mount",
+            "All-metal build — plugged into a $100 interface, results are indistinguishable from setups costing five times as much"
+          ],
+          "pros_es": [
+            "Alrededor de $109 — voz 'radiofónica' lista para broadcast sin un setup de $500",
+            "El cardioide ajustado rechaza el ruido de fondo mejor que cualquier condensador a este precio",
+            "Filtro antipop integrado, montaje antivibración interno y soporte giratorio",
+            "Construcción totalmente metálica — conectado a una interfaz de $100, los resultados son indistinguibles de setups que cuestan cinco veces más"
+          ],
+          "cons": [
+            "XLR only — needs an interface or mixer, no USB",
+            "Voiced for speech — not the pick for singing or acoustic instruments",
+            "Needs a clean preamp with gain; the cheapest interfaces get noisy",
+            "Its 50 Hz–15 kHz range cuts off air above 15 kHz, dulling some voices",
+            "The heavy all-metal body needs a sturdy mic stand"
+          ],
+          "cons_es": [
+            "Solo XLR — necesita interfaz o mesa, sin USB",
+            "Pensado para la voz — no es la opción para cantar o instrumentos acústicos",
+            "Necesita un previo limpio con ganancia; las interfaces más baratas hacen ruido",
+            "Su rango de 50 Hz–15 kHz corta el aire por encima de 15 kHz, apagando algunas voces",
+            "El cuerpo metálico pesado necesita un soporte robusto"
+          ]
+        },
+        {
+          "name": "Elgato Wave:3",
+          "name_es": "Elgato Wave:3",
+          "pros": [
+            "Premium condenser capsule captures crisp, detailed audio at $150",
+            "Built-in pop filter — skip foam windshields and extra accessories",
+            "Capacitive mute and a multi-function dial for gain and headphone volume",
+            "Wave Link software mixes mic, computer audio, and game audio with per-source effects"
+          ],
+          "pros_es": [
+            "Cápsula de condensador premium que captura audio nítido y detallado por $150",
+            "Filtro antipop integrado — olvídate de espumas y accesorios extra",
+            "Silencio capacitivo y un dial multifunción para ganancia y volumen de auriculares",
+            "El software Wave Link mezcla micrófono, audio del PC y del juego con efectos por fuente"
+          ],
+          "cons": [
+            "USB only — no XLR path to upgrade to an interface later",
+            "Wave Link is the real reason to buy it — the mic alone doesn't justify the price",
+            "Condenser hears keyboard and fan noise more than a dynamic",
+            "The capacitive mute bar can trigger accidentally when reaching for the dial",
+            "Without Wave Link the mic still works but loses the Clipguard that extends its headroom"
+          ],
+          "cons_es": [
+            "Solo USB — sin camino XLR para pasar a una interfaz más adelante",
+            "Wave Link es la razón real de comprarlo — el micrófono solo no justifica el precio",
+            "El condensador oye más el teclado y el ventilador que un dinámico",
+            "La barra de silencio capacitiva puede activarse sin querer al alcanzar el dial",
+            "Sin Wave Link el micro funciona pero pierde el Clipguard que amplía su headroom"
+          ]
+        }
+      ]
+    },
+    "portable-interfaces": {
+      "verdictProsCons": [
+        {
+          "name": "RME Babyface Pro FS",
+          "name_es": "RME Babyface Pro FS",
+          "pros": [
+            "Fits in your hand but delivers conversion matching rack-mount units costing twice as much",
+            "TotalMix FX gives zero-latency monitoring with EQ, reverb, and dynamics — a digital mixer in your laptop",
+            "Legendary driver stability for on-the-road reliability",
+            "$949 with class-leading portability"
+          ],
+          "pros_es": [
+            "Cabe en tu mano pero ofrece conversión que iguala a unidades de rack que cuestan el doble",
+            "TotalMix FX ofrece monitoreo con latencia cero con EQ, reverb y dinámica — una mesa digital en tu portátil",
+            "Estabilidad de drivers legendaria para fiabilidad en la carretera",
+            "$949 con portabilidad de primer nivel"
+          ],
+          "cons": [
+            "$949 — the premium price of pro portability",
+            "Minimal hands-on controls — most control lives in the TotalMix software",
+            "USB 2.0 connection rather than USB-C or Thunderbolt",
+            "TotalMix's deep routing demands setup time before every session",
+            "At $949 it costs more than four Scarlett 2i2s for the same two preamp inputs"
+          ],
+          "cons_es": [
+            "$949 — el precio premium de la portabilidad profesional",
+            "Pocos controles manuales — la mayor parte del control vive en el software TotalMix",
+            "Conexión USB 2.0 en lugar de USB-C o Thunderbolt",
+            "El ruteo profundo de TotalMix exige tiempo de configuración antes de cada sesión",
+            "Por $949 cuesta más de cuatro Scarlett 2i2 por las mismas dos entradas de previo"
+          ]
+        },
+        {
+          "name": "Focusrite Scarlett 2i2 4th Gen",
+          "name_es": "Focusrite Scarlett 2i2 4th Gen",
+          "pros": [
+            "Compact, USB bus-powered, and tough enough to throw in a backpack",
+            "120dB dynamic range and Air mode for professional-grade conversion at $199",
+            "Driver updates arrive on schedule and survive Windows and macOS updates without hiccups",
+            "The sensible choice for songwriters and podcasters on the move"
+          ],
+          "pros_es": [
+            "Compacta, alimentada por bus USB y lo bastante resistente para tirarla en una mochila",
+            "120dB de rango dinámico y modo Air para conversión de grado profesional por $199",
+            "Las actualizaciones de drivers llegan puntuales y aguantan las actualizaciones de Windows y macOS sin problemas",
+            "La opción sensata para compositores y podcasters en movimiento"
+          ],
+          "cons": [
+            "Only 2 inputs — multi-source mobile recording needs more",
+            "Clean and neutral — no analog character for field recordings",
+            "The SSL 2+ MKII adds British console mojo for $100 more",
+            "The two inputs force a bigger interface the moment you add a second vocalist",
+            "Air mode's high-frequency lift needs re-checking between sessions"
+          ],
+          "cons_es": [
+            "Solo 2 entradas — la grabación móvil multi-fuente necesita más",
+            "Limpia y neutra — sin carácter analógico para grabaciones de campo",
+            "La SSL 2+ MKII añade el toque de consola británica por $100 más",
+            "Las dos entradas obligan a una interfaz mayor en cuanto añades un segundo vocalista",
+            "El realce de agudos del modo Air requiere revisarse entre sesiones"
+          ]
+        },
+        {
+          "name": "SSL 2+ MKII",
+          "name_es": "SSL 2+ MKII",
+          "pros": [
+            "The 4K Legacy button engages an analog enhancement circuit inspired by the SSL 4000 series",
+            "Adds presence, punch, and a little magic to anything you plug in",
+            "Dual headphone outputs and MIDI I/O make it a complete mobile production hub",
+            "Still easily portable despite being larger than the Babyface"
+          ],
+          "pros_es": [
+            "El botón Legacy 4K activa un circuito de realce analógico inspirado en las consolas SSL 4000",
+            "Añade presencia, pegada y un poco de magia a todo lo que conectes",
+            "Dos salidas de auriculares y MIDI I/O lo convierten en un hub de producción móvil completo",
+            "Aún fácilmente portátil pese a ser más grande que la Babyface"
+          ],
+          "cons": [
+            "$299 — $100 more than the Scarlett 2i2",
+            "4K is a single flavor of coloration — no multi-mode character",
+            "Larger than the Babyface, so it takes more bag space than the 2i2",
+            "No built-in compressor, so you can't tame a hot vocalist on the way in",
+            "The two headphone outputs share one mix, so a singer and producer hear the same thing"
+          ],
+          "cons_es": [
+            "$299 — $100 más que la Scarlett 2i2",
+            "4K es un solo sabor de coloración — sin carácter multi-modo",
+            "Más grande que la Babyface, así que ocupa más espacio de bolso que la 2i2",
+            "Sin compresor integrado, así que no puedes domar a un vocalista caliente a la entrada",
+            "Las dos salidas de auriculares comparten una sola mezcla, así que cantante y productor oyen lo mismo"
+          ]
+        }
+      ]
+    },
+    "tracking-headphones": {
+      "verdictProsCons": [
+        {
+          "name": "Beyerdynamic DT 770 Pro",
+          "name_es": "Beyerdynamic DT 770 Pro",
+          "pros": [
+            "Found at every professional studio — the essential tracking headphone",
+            "Closed-back cups keep the click and backing track out of the microphone during takes",
+            "The 250 Ohm version resolves fine vocal detail, so performers hear exactly what's recorded",
+            "Velour ear pads stay comfortable for marathon sessions; made in Germany"
+          ],
+          "pros_es": [
+            "Presentes en todo estudio profesional — el auricular de grabación esencial",
+            "Las copas cerradas mantienen el click y la pista de referencia fuera del micrófono durante las tomas",
+            "La versión de 250 Ohm resuelve el detalle vocal fino, así que los intérpretes oyen exactamente lo grabado",
+            "Las almohadillas de velour siguen cómodas en sesiones maratonianas; fabricados en Alemania"
+          ],
+          "cons": [
+            "250 Ohm needs a capable headphone amp or interface output",
+            "$159 each — stocking the whole band gets expensive",
+            "The treble lift that reveals sibilance can read as bright over long sessions",
+            "The coiled cable is heavy and fixed, adding weight during long sessions",
+            "Pads wear out with heavy studio use and need replacing every few years"
+          ],
+          "cons_es": [
+            "Los 250 Ohm necesitan un amplificador de auriculares o salida de interfaz capaz",
+            "$159 cada uno — equipar a toda la banda se encarece",
+            "El realce de agudos que revela sibilancia puede resultar brillante en sesiones largas",
+            "El cable enrollado es pesado y fijo, añadiendo peso en sesiones largas",
+            "Las almohadillas se desgastan con el uso intenso y hay que cambiarlas cada pocos años"
+          ]
+        },
+        {
+          "name": "Sony MDR-7506",
+          "name_es": "Sony MDR-7506",
+          "pros": [
+            "$99 — you can stock several pairs for full band tracking without breaking the budget",
+            "Isolates surprisingly well for the price",
+            "Forward midrange helps vocalists with pitch — they hear themselves clearly over a dense backing track",
+            "Fold-flat design stores easily; survived years of guest-musician abuse"
+          ],
+          "pros_es": [
+            "$99 — puedes tener varios pares para grabar a toda la banda sin romper el presupuesto",
+            "Aísla sorprendentemente bien por su precio",
+            "El medio adelantado ayuda a los vocalistas con el tono — se oyen claramente sobre una pista densa",
+            "Diseño plegable que se guarda fácil; han sobrevivido años de abuso de músicos invitados"
+          ],
+          "cons": [
+            "Less isolation and detail than the DT 770 Pro for loud drum tracking",
+            "Thinner earpads than the DT 770's velour for marathon sessions",
+            "As a primary tracking pair, the DT 770 Pro reveals more nuance",
+            "The fixed cable cannot be swapped, so a damaged one kills the pair",
+            "Its 10 Hz–20 kHz range rolls off sub-bass that a 5 Hz model catches"
+          ],
+          "cons_es": [
+            "Menos aislamiento y detalle que la DT 770 Pro para grabar batería fuerte",
+            "Almohadillas más finas que el velour de la DT 770 para sesiones maratonianas",
+            "Como par principal de grabación, la DT 770 Pro revela más matices",
+            "El cable fijo no se puede cambiar, así que uno dañado inutiliza el par",
+            "Su rango de 10 Hz–20 kHz recorta el sub-bass que un modelo de 5 Hz captura"
+          ]
+        }
+      ]
+    }
+  }
+}

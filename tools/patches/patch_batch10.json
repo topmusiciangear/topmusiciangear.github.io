@@ -1,0 +1,568 @@
+{
+ "guides": {
+  "open-headphones": {
+   "verdictProsCons": [
+    {
+     "name": "Sennheiser HD 490 Pro Plus",
+     "name_es": "Sennheiser HD 490 Pro Plus",
+     "pros": [
+      "The modern successor to the HD 600 reference — neutral response now with real, defined low end",
+      "Neutral response translates perfectly across monitors, car stereos, and earbuds",
+      "130-ohm ease: drives from any interface, laptop, or phone — no amp required",
+      "Two switchable ear pad sets and dearVR MIX-SE included for translation checks"
+     ],
+     "pros_es": [
+      "El sucesor moderno de la referencia HD 600 — respuesta neutra ahora con graves reales y definidos",
+      "La respuesta neutra se traduce perfectamente entre monitores, equipos de coche y auriculares",
+      "Facilidad de 130 ohmios: funciona desde cualquier interfaz, laptop o teléfono — sin amplificador",
+      "Dos juegos de almohadillas intercambiables y dearVR MIX-SE incluido para comprobar la traducción"
+     ],
+     "cons": [
+      "Open-back leaks sound — unusable while recording vocals with a live mic",
+      "$499 — a real spend versus budget closed-backs",
+      "Needs a quiet room to get the full benefit of the open design",
+      "Neutral voicing sounds clinical to listeners used to consumer-tuned bass",
+      "The soft pouch offers little drop protection compared to a hard case"
+     ],
+     "cons_es": [
+      "Abiertos, fugan sonido — inutilizables al grabar voces con un micrófono activo",
+      "$499 — un gasto real frente a los cerrados económicos",
+      "Necesitan una habitación silenciosa para aprovechar el diseño abierto",
+      "La voz neutra suena clínica para oyentes acostumbrados a graves tuneados de consumo",
+      "La bolsa blanda protege poco de golpes comparada con un estuche rígido"
+     ]
+    },
+    {
+     "name": "Audio-Technica ATH-M50x",
+     "name_es": "Audio-Technica ATH-M50x",
+     "pros": [
+      "Technically closed-back but with a surprisingly wide soundstage for one",
+      "The most versatile option when you can only own one pair — tracking, mixing, casual listening",
+      "45mm drivers deliver clarity and punch that compete with headphones at twice the price",
+      "Collapsible, removable cable, and carrying pouch — a travel companion"
+     ],
+     "pros_es": [
+      "Técnicamente cerrados pero con un escenario sorprendentemente amplio para serlo",
+      "La opción más versátil cuando solo puedes tener un par — grabar, mezclar, escucha casual",
+      "Los drivers de 45mm ofrecen claridad y pegada que compiten con auriculares del doble de precio",
+      "Plegables, cable desmontable y bolsa de transporte — un compañero de viaje"
+     ],
+     "cons": [
+      "Not truly open — the soundstage is still narrower than the HD 490 Pro Plus",
+      "Slightly emphasized bass can mislead low-end decisions until you learn it",
+      "Closed cups can't reproduce the airy, speaker-like imaging of a genuine open-back",
+      "The leatherette ear pads wear and flake over time and are fiddly to replace",
+      "Clamping force starts firm — some users stretch the headband for comfort"
+     ],
+     "cons_es": [
+      "No son realmente abiertos — el escenario sigue siendo más estrecho que el de la HD 490 Pro Plus",
+      "Los graves ligeramente realzados pueden engañar decisiones de baja frecuencia hasta que los conoces",
+      "Las copas cerradas no pueden reproducir la imagen aérea tipo altavoz de un verdadero abierto",
+      "Las almohadillas de cuero sintético se desgastan y se descaman con el tiempo y son difíciles de reemplazar",
+      "La presión de sujeción es firme al principio — algunos usuarios estiran la banda para mayor comodidad"
+     ]
+    }
+   ]
+  },
+  "monitor-setup": {
+   "verdictProsCons": [
+    {
+     "name": "Yamaha HS8",
+     "name_es": "Yamaha HS8",
+     "pros": [
+      "Brutally honest frequency response reveals mix flaws other monitors hide",
+      "Room control switches (low cut, high trim, mid EQ) compensate for placement issues",
+      "8-inch Kevlar-coated woofer reaches problem frequencies below 40Hz",
+      "The industry reference monitor used in studios worldwide"
+     ],
+     "pros_es": [
+      "Respuesta de frecuencia brutalmente honesta que revela fallos que otros monitores ocultan",
+      "Controles de sala (low cut, high trim, mid EQ) que compensan problemas de colocación",
+      "Woofer de 8 pulgadas con revestimiento de Kevlar que llega a frecuencias problemáticas por debajo de 40Hz",
+      "El monitor de referencia de la industria usado en estudios de todo el mundo"
+     ],
+     "cons": [
+      "Rear-ported, so they need breathing room from the wall",
+      "No built-in DSP room correction — you add your own calibration software",
+      "Sold per speaker, so a pair costs $798",
+      "The hyped presence range sounds harsh in untreated rooms, exaggerating mix flaws",
+      "No auto standby — the monitors keep drawing power when left on"
+     ],
+     "cons_es": [
+      "Puerto trasero, así que necesitan espacio de respiración de la pared",
+      "Sin corrección de sala DSP integrada — añades tu propio software de calibración",
+      "Se venden por altavoz, así que un par cuesta $798",
+      "La zona de presencia realzada suena dura en salas sin tratar, exagerando los fallos de la mezcla",
+      "Sin modo de espera automático — los monitores siguen consumiendo energía si se dejan encendidos"
+     ]
+    },
+    {
+     "name": "K&M Monitor Stands (Pair)",
+     "name_es": "Soportes de Monitor K&M (Par)",
+     "pros": [
+      "German-engineered steel construction built to outlast your monitors",
+      "Height-adjustable to put tweeters exactly at ear level",
+      "Floor spikes mechanically decouple the speakers from the floor, tightening bass",
+      "At $89 a pair, the cheapest upgrade that makes the biggest difference"
+     ],
+     "pros_es": [
+      "Construcción de acero con ingeniería alemana hecha para durar más que tus monitores",
+      "Ajustables en altura para colocar los tweeters exactamente al nivel del oído",
+      "Las puntas de piso desacoplan mecánicamente los altavoces del suelo, apretando los graves",
+      "A $89 el par, la mejora más barata que marca la mayor diferencia"
+     ],
+     "cons": [
+      "Spiked feet can scratch hardwood floors",
+      "Need floor space in front of your listening position",
+      "No isolation pad included for the top plate",
+      "The friction locks need a firm hand to hold height — they can slip if under-tightened",
+      "The top plate offers no padding, so monitor vibration transfers to the stand"
+     ],
+     "cons_es": [
+      "Las puntas de piso pueden rayar pisos de madera",
+      "Necesitan espacio en el suelo frente a tu posición de escucha",
+      "No incluyen pad de aislamiento para la placa superior",
+      "Los cierres de fricción necesitan un apriete firme — pueden deslizarse si no van bien ajustados",
+      "La placa superior no tiene acolchado, así que la vibración del monitor se transmite al soporte"
+     ]
+    }
+   ]
+  },
+  "fx-plugins": {
+   "verdictProsCons": [
+    {
+     "name": "Soundtoys 5.5 Bundle",
+     "name_es": "Soundtoys 5.5 Bundle",
+     "pros": [
+      "23 effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate and SpaceBlender",
+      "Decapitator's five saturation models span American console to British overdrive",
+      "EchoBoy models twenty delay types from digital to warped tape echoes",
+      "Effect Rack chains five effects in one plugin instance"
+     ],
+     "pros_es": [
+      "23 efectos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate y SpaceBlender",
+      "Los cinco modelos de saturación de Decapitator van de consola americana a overdrive británico",
+      "EchoBoy modela veinte tipos de delay desde digital hasta ecos de cinta distorsionados",
+      "Effect Rack encadena cinco efectos en una sola instancia de plugin"
+     ],
+     "cons": [
+      "At $599 it's expensive if you only need one or two of the effects",
+      "Individual plugins are also sold separately",
+      "Many effects overlap with stock DAW tools for everyday use",
+      "Activation requires signing into your Soundtoys account before the plugins unlock",
+      "Saturation models clip easily if you push input gain without watching levels"
+     ],
+     "cons_es": [
+      "A $599 es caro si solo necesitas uno o dos de los efectos",
+      "Los plugins individuales también se venden por separado",
+      "Muchos efectos se solapan con las herramientas nativas de tu DAW para el uso diario",
+      "La activación requiere iniciar sesión en tu cuenta Soundtoys antes de que se desbloqueen los plugins",
+      "Los modelos de saturación recortan fácil si empujas la ganancia de entrada sin vigilar los niveles"
+     ]
+    },
+    {
+     "name": "Eventide Blackhole",
+     "name_es": "Eventide Blackhole",
+     "pros": [
+      "Creates massive virtual spaces that could never exist in reality",
+      "Gravity control inverts decay for a one-knob reverse-time effect",
+      "Freeze mode lets you drone endlessly",
+      "Over 50 artist presets with full NKS support"
+     ],
+     "pros_es": [
+      "Crea espacios virtuales masivos que no podrían existir en la realidad",
+      "El control Gravity invierte la caída para un efecto de tiempo invertido con un solo mando",
+      "El modo Freeze permite drones infinitos",
+      "Más de 50 presets de artistas con soporte completo NKS"
+     ],
+     "cons": [
+      "Not a general-purpose reverb — it's strictly for creative, otherworldly spaces",
+      "The signature tail can dominate a mix instead of sitting in it",
+      "At $99 it costs more than a basic room/hall reverb",
+      "Its deep page menus make quick parameter tweaks slower than a single-knob reverb",
+      "High feedback tails can eat CPU quickly when you run several instances"
+     ],
+     "cons_es": [
+      "No es una reverb de uso general — es estrictamente para espacios creativos y de otro mundo",
+      "La cola característica puede dominar una mezcla en lugar de integrarse",
+      "A $99 cuesta más que una reverb básica de sala/hall",
+      "Sus menús de páginas profundas hacen que los ajustes rápidos sean más lentos que una reverb de un solo mando",
+      "Las colas con feedback alto consumen CPU rápidamente si usas varias instancias"
+     ]
+    }
+   ]
+  },
+  "best-drum-machine": {
+   "verdictProsCons": [
+    {
+     "name": "Roland TR-8S",
+     "name_es": "Roland TR-8S",
+     "pros": [
+      "ACB modeling delivers authentic 808, 909, 707, 727, and 606 sounds",
+      "Sample playback opens unlimited sound-design options",
+      "Hands-on faders per instrument and real-time step sequencing",
+      "6 assignable outputs, external in, and sidechain for live performance"
+     ],
+     "pros_es": [
+      "El modelado ACB ofrece sonidos auténticos de 808, 909, 707, 727 y 606",
+      "La reproducción de samples abre infinitas opciones de diseño sonoro",
+      "Faders por instrumento y secuenciación por pasos en tiempo real",
+      "6 salidas asignables, entrada externa y sidechain para el directo"
+     ],
+     "cons": [
+      "At $749 it's the priciest machine in this guide",
+      "Rhythm-focused — no built-in keyboard for melodic parts",
+      "SD card sample storage (~600s) is small versus the MPC One+'s 16GB internal",
+      "The 11 fixed instrument slots can't be expanded to build larger custom kits",
+      "No battery or built-in speaker — it needs AC power to compose away from the studio"
+     ],
+     "cons_es": [
+      "Por $749 es la máquina más cara de esta guía",
+      "Centrada en el ritmo — sin teclado integrado para partes melódicas",
+      "El almacenamiento de samples en tarjeta SD (~600s) es pequeño frente a los 16GB internos del MPC One+",
+      "Los 11 slots fijos de instrumento no se pueden ampliar para construir kits más grandes",
+      "Sin batería ni altavoz integrado — necesita corriente para componer fuera del estudio"
+     ]
+    },
+    {
+     "name": "Akai MPC One+",
+     "name_es": "Akai MPC One+",
+     "pros": [
+      "The same MPC workflow that created countless hip-hop classics",
+      "16 velocity-sensitive pads and the legendary MPC swing quantize",
+      "Fully standalone with 16GB internal storage and built-in synth engines",
+      "At $499 it's the most affordable standalone MPC and best entry into the ecosystem"
+     ],
+     "pros_es": [
+      "El mismo flujo de trabajo MPC que creó innumerables clásicos del hip-hop",
+      "16 pads sensibles a la velocidad y el legendario swing quantize de MPC",
+      "Totalmente autónomo con 16GB de almacenamiento interno y motores de sintetizador integrados",
+      "Por $499 es el MPC standalone más asequible y la mejor puerta de entrada al ecosistema"
+     ],
+     "cons": [
+      "Pad-and-touchscreen workflow is less immediate than the TR-8S's faders for 808-style steps",
+      "Deep editing is faster on a computer than on the built-in screen",
+      "Runs on the included AC adaptor — no battery power for the road",
+      "Not every desktop plugin runs in MPC Standalone mode, so some chains need a computer",
+      "Loading large kits and sample packs from SD takes time before you can jam"
+     ],
+     "cons_es": [
+      "El flujo de pads y pantalla táctil es menos inmediato que los faders del TR-8S para pasos estilo 808",
+      "La edición profunda es más rápida en una computadora que en su pantalla integrada",
+      "Funciona con el adaptador AC incluido — sin baterías para la carretera",
+      "No todos los plugins de escritorio funcionan en modo standalone de MPC, así que algunas cadenas necesitan ordenador",
+      "Cargar kits grandes y packs de samples desde la SD tarda antes de poder tocar"
+     ]
+    }
+   ]
+  },
+  "rme-vs-motu": {
+   "verdictProsCons": [
+    {
+     "name": "RME Babyface Pro FS",
+     "name_es": "RME Babyface Pro FS",
+     "pros": [
+      "TotalMix FX routing matrix with 8 stereo submixes EQ dynamics reverb",
+      "SteadyClock FS jitter suppression regardless of clock source",
+      "Class-compliant USB no drivers needed on any OS",
+      "32-sample buffer stable on modest hardware",
+      "DSP reverb zero-latency headphone monitoring"
+     ],
+     "pros_es": [
+      "TotalMix FX con matriz de routing, 8 submezclas estéreo, EQ, dinámica y reverb",
+      "SteadyClock FS suprime el jitter sin importar la fuente de reloj",
+      "USB class-compliant sin necesidad de drivers en cualquier sistema operativo",
+      "Buffer de 32 muestras estable incluso en hardware modesto",
+      "Reverb DSP para monitoreo de auriculares con latencia cero"
+     ],
+     "cons": [
+      "Breakout cable for I/O bulky and fragile",
+      "No DSP for third-party plugin emulations",
+      "Requires an external power supply — the USB connection alone does not power it",
+      "TotalMix FX has a steep learning curve before you can route signals without the manual"
+     ],
+     "cons_es": [
+      "El cable de expansión para E/S es frágil y voluminoso",
+      "Sin DSP para emulaciones plugins terceros",
+      "Requiere una fuente de alimentación externa — la conexión USB por sí sola no lo alimenta",
+      "TotalMix FX tiene una curva de aprendizaje pronunciada antes de poder enrutar señales sin el manual"
+     ]
+    },
+    {
+     "name": "MOTU M2",
+     "name_es": "MOTU M2",
+     "pros": [
+      "ESS Sabre32 Ultra DAC 120dB ahead of interfaces 3x price",
+      "Front-panel color LCD eliminates need to check DAW levels",
+      "Hardware loop-back with two independent stereo streams",
+      "DC-coupled outputs for modular synth CV",
+      "CueMix DSP zero-latency mixing 8 channels 4-band EQ each"
+     ],
+     "pros_es": [
+      "DAC ESS Sabre32 Ultra con 120dB, mejor que interfaces del triple de precio",
+      "LCD frontal elimina necesidad de mirar DAW",
+      "Loop-back hardware con 2 streams estereo independientes",
+      "Salidas DC-coupled para CV a sintetizadores",
+      "CueMix mezcla latencia cero 8 canales EQ 4 bandas"
+     ],
+     "cons": [
+      "Mic preamps only 60dB gain audible noise above 50dB",
+      "CueMix UI dated no dark mode breaks on resize",
+      "MOTU driver updates weeks behind OS releases",
+      "Sparse software bundle only lite Ableton Live"
+     ],
+     "cons_es": [
+      "Los preamplificadores solo ofrecen 60dB de ganancia y ruido audible por encima de 50dB",
+      "La interfaz CueMix se ve anticuada y no tiene modo oscuro",
+      "Los drivers de MOTU llegan semanas después del lanzamiento del sistema operativo",
+      "Paquete de software escaso: solo incluye Ableton Live Lite"
+     ]
+    }
+   ]
+  },
+  "k371-vs-mdr7506": {
+   "verdictProsCons": [
+    {
+     "name": "AKG K371",
+     "name_es": "AKG K371",
+     "pros": [
+      "Folded portable design collapses into compact carrying size with swivel ear cups for travel",
+      "Harmon-targeted tuning delivers neutral frequency response that translates accurately across playback systems",
+      "Detachable mini-XLR cable standard with included second cable for backup reliability",
+      "Lightweight 255g comfortable for hours with minimal clamping force",
+      "Leatherette ear pads with memory foam conform to head shape for seal"
+     ],
+     "pros_es": [
+      "Diseño plegable portátil con copas giratorias para viaje",
+      "Sintonización Harmon objetivo respuesta neutra traduce con precisión",
+      "Cable mini-XLR desmontable incluye segundo cable de respaldo",
+      "Ligeros 255g cómodos por horas con mínima presión",
+      "Almohadillas cuero con espuma memoria se adaptan a la cabeza"
+     ],
+     "cons": [
+      "The plastic shell creaks and the folding hinge can loosen with heavy daily use",
+      "Leatherette material flakes and peels especially in humid climates",
+      "Ear pads have shallow depth pressing against larger ears",
+      "Storage pouch instead of hard case inadequate for backpack protection"
+     ],
+     "cons_es": [
+      "El plástico de la carcasa cruje y la bisagra de plegado puede aflojarse con el uso diario intenso",
+      "El cuero sintético se descama, especialmente en climas húmedos",
+      "Almohadillas poco profundas que presionan contra las orejas grandes",
+      "Bolsa de almacenamiento en lugar de estuche rígido"
+     ]
+    },
+    {
+     "name": "Sony MDR-7506",
+     "name_es": "Sony MDR-7506",
+     "pros": [
+      "Industry-standard sound signature known for forward upper-midrange that reveals vocal sibilance and mix clarity",
+      "Legendary durability with field-replaceable all parts available for decades from Sony",
+      "Folding design with included carrying pouch proven in broadcast studios worldwide",
+      "Closed-back design provides strong isolation that keeps loud sources out of the mix",
+      "Tight controlled bass does not bleed into mids making mix decisions easier"
+     ],
+     "pros_es": [
+      "Firma sonora estándar industria revela sibilancias vocales y claridad mezcla",
+      "Durabilidad legendaria todas las piezas reemplazables por décadas",
+      "Diseño plegable con bolsa incluida probado en estudios broadcast",
+      "El diseño cerrado ofrece un aislamiento fuerte que mantiene las fuentes fuertes fuera de la mezcla",
+      "Graves controlados no sangran en medios facilitando decisiones mezcla"
+     ],
+     "cons": [
+      "Earpads shallower than modern competition causing ear contact with driver for larger ears",
+      "Non-detachable cable cannot be replaced if damaged requires soldering repair",
+      "Clamping force higher than average uncomfortable for glasses wearers",
+      "Folded treble peak around 10kHz causes listening fatigue on brighter recordings"
+     ],
+     "cons_es": [
+      "Almohadillas más superficiales que provocan el contacto de la oreja con el driver",
+      "Cable no desmontable no se puede reemplazar requiere soldadura",
+      "Presión de sujeción alta e incómoda para usuarios de lentes",
+      "El pico de agudos en 10kHz causa fatiga auditiva en grabaciones brillantes"
+     ]
+    }
+   ]
+  },
+  "c414-vs-u87": {
+   "verdictProsCons": [
+    {
+     "name": "AKG C414 XLII",
+     "name_es": "AKG C414 XLII",
+     "pros": [
+      "Four switchable polar patterns omni cardioid figure-8 and wide cardioid adapt to any source without changing microphones",
+      "Three selectable attenuation pads -6 -12 -18dB handle SPL up to 158dB for loud guitar cabs before clipping",
+      "Three bass-cut filter positions 40Hz 80Hz 160Hz reduce low-end rumble without external HPF",
+      "Dual 1-inch gold-sputtered capsules produce open airy top-end with detail on vocals and acoustic instruments",
+      "Built-in switchable pre-attenuation allows close-miking brass and drums without distortion"
+     ],
+     "pros_es": [
+      "Cuatro patrones polares intercambiables: omnidireccional, cardioide, figura-8 y cardioide ancho",
+      "Tres pads de atenuación seleccionables (-6, -12, -18dB) que manejan SPL de hasta 158dB",
+      "Tres filtros de corte de graves (40Hz, 80Hz, 160Hz) sin necesidad de HPF externo",
+      "Doble cápsula dorada de 1 pulgada que produce agudos abiertos y detallados",
+      "Preatenuación incorporada que permite microfonear metales y batería sin distorsión"
+     ],
+     "cons": [
+      "Lacks the thick midrange character and vocal smoothness that define the Neumann U87",
+      "Self-noise 13dBA is higher than U87 making it less ideal for quiet sources",
+      "Rubber suspension mount degrades over time sagging capsules not level",
+      "Cannot replicate the exact transformer-based saturation of vintage U87 designs"
+     ],
+     "cons_es": [
+      "Carece del carácter de medios y la suavidad vocal que definen al Neumann U87",
+      "Ruido propio de 13dBA, más alto que el del U87: menos ideal para fuentes tranquilas",
+      "La suspensión de goma se degrada con el tiempo y deja las cápsulas desniveladas",
+      "No puede replicar saturación transformador de diseños U87 vintage"
+     ]
+    },
+    {
+     "name": "Neumann U 87 Ai",
+     "name_es": "Neumann U 87 Ai",
+     "pros": [
+      "Industry-standard vocal microphone with polished midrange that flatters voices with natural compression-like character",
+      "Three polar patterns with -10dB pad extend versatility without compromising the signature Neumann sound",
+      "Transformer-balanced output provides analog saturation curve that adds musicality to recorded tracks",
+      "Proven durability with units from 1960s still in daily operation at top studios",
+      "Relatively flat response with gentle presence rise produces mix-ready tracks with minimal EQ"
+     ],
+     "pros_es": [
+      "Micrófono vocal estándar de la industria, con unos medios que favorecen las voces con compresión natural",
+      "Tres patrones polares con pad de -10dB sin comprometer el sonido Neumann",
+      "La salida por transformador proporciona una saturación analógica musical",
+      "Durabilidad probada: unidades de los 60s siguen operando a diario en los mejores estudios",
+      "Respuesta plana con elevación presencia produce pistas listas para mezcla con mínimo EQ"
+     ],
+     "cons": [
+      "Premium price over 3x the C414 cost prohibitive for home studios on budget",
+      "Needs a capable preamp to show its full depth — it sounds unremarkable through budget interfaces",
+      "Heavy mounting system needs robust boom arm cannot use lightweight stands",
+      "Vintage units vary significantly in frequency response and output level between individual microphones"
+     ],
+     "cons_es": [
+      "Precio premium, más de 3x el costo de la C414: prohibitivo para estudios caseros",
+      "Necesita un preamplificador capaz para mostrar toda su profundidad — suena discreto en interfaces económicas",
+      "Sistema de montaje pesado necesita brazo robusto",
+      "Unidades vintage varían significativamente en respuesta entre micrófonos individuales"
+     ]
+    }
+   ]
+  },
+  "best-monitors-for-small-rooms": {
+   "verdictProsCons": [
+    {
+     "name": "Yamaha HS8",
+     "name_es": "Yamaha HS8",
+     "pros": [
+      "Industry-standard flat response that reveals every flaw in a mix",
+      "8-inch Kevlar-coated woofer with 1-inch dome tweeter; 120W bi-amp",
+      "38 Hz–30 kHz (-10 dB) extension — the deepest bass of the group",
+      "A mix that translates well on HS8s usually translates on any playback system"
+     ],
+     "pros_es": [
+      "Respuesta plana estándar de la industria que revela cada fallo de la mezcla",
+      "Woofer de 8 pulgadas con revestimiento de Kevlar y tweeter de domo de 1 pulgada; 120W bi-amplificados",
+      "Extensión de 38 Hz–30 kHz (-10 dB) — los graves más profundos del grupo",
+      "Una mezcla que se traduce bien en los HS8 normalmente se traduce en cualquier sistema"
+     ],
+     "cons": [
+      "Rear port demands at least 12 inches of wall clearance to avoid fake bass in small rooms",
+      "The 8-inch woofer excites more room modes in tight spaces",
+      "Costs $250 more per speaker than the JBL 305P MkII",
+      "Demands bass traps and serious treatment to work in a small room"
+     ],
+     "cons_es": [
+      "Puerto trasero: necesita al menos 30 cm de espacio trasero para evitar graves falsos en salas pequeñas",
+      "El woofer de 8 pulgadas excita más modos de sala en espacios pequeños",
+      "Cuesta $250 más por altavoz que el JBL 305P MkII",
+      "Exige trampas de graves y tratamiento serio para funcionar en una habitación pequeña"
+     ]
+    },
+    {
+     "name": "KRK Rokit 7 G5",
+     "name_es": "KRK Rokit 7 G5",
+     "pros": [
+      "Front-firing port lets you place them close to a wall without false bass",
+      "DSP room correction with LCD bass cut (-2/-4 dB) that no rival in the price range offers",
+      "7-inch Kevlar woofer stays clean at high volume; 145W RMS (234W peak)",
+      "45 Hz–36 kHz response with 110 dB max SPL"
+     ],
+     "pros_es": [
+      "Puerto frontal que permite colocarlos cerca de la pared sin graves falsos",
+      "Corrección de sala DSP con corte LCD de graves (-2/-4 dB), algo que ningún rival de este precio ofrece",
+      "Woofer de Kevlar de 7 pulgadas que se mantiene limpio a volumen alto; 145W RMS (234W pico)",
+      "Respuesta de 45 Hz–36 kHz con 110 dB de SPL máximo"
+     ],
+     "cons": [
+      "Still a 7-inch woofer that excites room modes in very small rooms",
+      "Voice is less flat than the HS8 — more musical and punchy than analytical",
+      "Costs $120 more per speaker than the JBL 305P MkII",
+      "The DSP correction demands a read of the manual to set it up correctly"
+     ],
+     "cons_es": [
+      "Sigue siendo un woofer de 7 pulgadas que excita modos de sala en habitaciones muy pequeñas",
+      "Voz menos plana que el HS8: más musical y contundente que analítica",
+      "Cuesta $120 más por altavoz que el JBL 305P MkII",
+      "La corrección DSP exige leer el manual para configurarla bien"
+     ]
+    },
+    {
+     "name": "JBL 305P MkII",
+     "name_es": "JBL 305P MkII",
+     "pros": [
+      "Front-ported 5-inch monitor that sits 6 inches from a wall without bass issues",
+      "Image Control Waveguide gives a wide sweet spot for compromised listening positions",
+      "The most accurate monitor under $300 per pair: 49 Hz–20 kHz (±3 dB), 108 dB max SPL",
+      "Neutral response with tight bass — ideal for vocal mixing and midrange clarity"
+     ],
+     "pros_es": [
+      "Monitor de 5 pulgadas con puerto frontal que se coloca a 15 cm de la pared sin problemas de graves",
+      "La guía de onda Image Control ofrece un punto dulce amplio para posiciones de escucha comprometidas",
+      "El monitor más preciso por menos de $300 el par: 49 Hz–20 kHz (±3 dB), 108 dB de SPL máximo",
+      "Respuesta neutra con graves ajustados — ideal para mezclar voces y claridad de medios"
+     ],
+     "cons": [
+      "The 5-inch woofer rolls off below 50 Hz — check bass on headphones",
+      "Needs the JBL LSR310S subwoofer to hear sub-bass in electronic music",
+      "Less bass and headroom than the KRK Rokit 7 G5 for loud hip-hop or rock sessions",
+      "With 82W of amplification it has less margin than the 7-inch monitors"
+     ],
+     "cons_es": [
+      "El woofer de 5 pulgadas cae por debajo de 50 Hz — hay que comprobar los graves con auriculares",
+      "Necesita el subwoofer JBL LSR310S para oír el sub-bass en música electrónica",
+      "Menos graves y headroom que el KRK Rokit 7 G5 para sesiones fuertes de hip-hop o rock",
+      "Con 82W de amplificación tiene menos margen que los monitores de 7 pulgadas"
+     ]
+    },
+    {
+     "name": "Adam Audio A7V",
+     "name_es": "Adam Audio A7V",
+     "pros": [
+      "S-ART folded ribbon tweeter delivers unmatched transient response and detail",
+      "7-inch MLM woofer with 44 Hz–41 kHz response and deep bass",
+      "3D imaging from the folded-ribbon tweeter with a rigid, well-damped cabinet",
+      "130W peak amplification in a 2-way powered design"
+     ],
+     "pros_es": [
+      "El tweeter de cinta plegada S-ART ofrece una respuesta transitoria y un detalle inigualables",
+      "Woofer MLM de 7 pulgadas con respuesta de 44 Hz–41 kHz y graves profundos",
+      "Imagen 3D gracias al tweeter de cinta plegada con una caja rígida y bien amortiguada",
+      "Amplificación de 130W pico en un diseño biamplificado de 2 vías"
+     ],
+     "cons": [
+      "Premium price: $799 per speaker, roughly 3x the KRK Rokit 7 G5 and 5x the JBL 305P MkII",
+      "105 dB max SPL is lower than the Rokit 7 G5's 110 dB despite the price",
+      "Not among the guide's top picks for small rooms",
+      "Room correction depends on external software like Sonarworks, not built-in DSP"
+     ],
+     "cons_es": [
+      "Precio premium: $799 por altavoz, unas 3x el KRK Rokit 7 G5 y 5x el JBL 305P MkII",
+      "105 dB de SPL máximo es menor que los 110 dB del Rokit 7 G5 pese al precio",
+      "No aparece entre las elecciones principales de la guía para salas pequeñas",
+      "La corrección de sala depende de software externo como Sonarworks, no de DSP integrado"
+     ]
+    }
+   ]
+  }
+ }
+}

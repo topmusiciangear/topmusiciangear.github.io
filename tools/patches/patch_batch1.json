@@ -1,0 +1,876 @@
+{
+  "guides": {
+    "active-vs-passive-pa": {
+      "verdictProsCons": [
+        {
+          "name": "EV ZLX-12P Powered Speaker",
+          "name_es": "Altavoz Activo EV ZLX-12P",
+          "pros": [
+            "Best value at $599 — the only one of these three with Bluetooth for wireless music streaming",
+            "Lightweight at 34.3 lbs — about 5 lbs lighter than the QSC K12.2",
+            "QuickSmart DSP with Music/Speech/Monitor presets for one-touch setup",
+            "Clear, balanced sound from a 12\" woofer with titanium tweeter across 50 Hz–20 kHz",
+            "Proven reliability backed by a 3-year warranty"
+          ],
+          "pros_es": [
+            "Mejor valor a $599 — el único de estos tres con Bluetooth para streaming de música inalámbrico",
+            "Ligero a 34.3 lbs — unas 5 lbs menos que la QSC K12.2",
+            "DSP QuickSmart con presets Music/Speech/Monitor para configurar con un toque",
+            "Sonido claro y equilibrado de un woofer de 12\" con tweeter de titanio en 50 Hz–20 kHz",
+            "Fiabilidad probada respaldada por una garantía de 3 años"
+          ],
+          "cons": [
+            "Lower max SPL (126 dB) than the QSC K12.2's 131 dB — 5 dB less headroom on loud stages",
+            "The ABS cabinet is fine for weekend gigs but less road-worthy than the QSC's polypropylene for constant touring",
+            "Low-end extension starts at 50 Hz — kick and bass feel thinner than the QSC's 48 Hz",
+            "DSP is limited to the three fixed Music/Speech/Monitor presets — no user EQ or D-CONTOUR tuning like the DBR12"
+          ],
+          "cons_es": [
+            "SPL máximo más bajo (126 dB) que los 131 dB de la QSC K12.2 — 5 dB menos de margen en escenarios ruidosos",
+            "El gabinete ABS va bien para fin de semana pero aguanta menos la ruta que el polipropileno de la QSC en giras constantes",
+            "La extensión de graves empieza en 50 Hz — el bombo y el bajo se sienten más delgados que los 48 Hz de la QSC",
+            "El DSP se limita a los tres presets fijos Music/Speech/Monitor — sin EQ de usuario ni afinado D-CONTOUR como la DBR12"
+          ]
+        },
+        {
+          "name": "QSC K12.2 Powered Speaker",
+          "name_es": "Altavoz Activo QSC K12.2",
+          "pros": [
+            "Industry standard for professional sound",
+            "Highest max SPL here at 131 dB, driven by 2000W peak — the most headroom of the three",
+            "Deep bass extension from 12\" woofer",
+            "DSP with 4 presets plus a user EQ band — more flexible than the ZLX's fixed presets",
+            "Polypropylene cabinet built for constant touring, backed by a 6-year warranty"
+          ],
+          "pros_es": [
+            "Estándar de la industria",
+            "El SPL máximo más alto de la lista con 131 dB, impulsado por 2000W pico — el mayor margen de los tres",
+            "Graves profundos",
+            "DSP con 4 presets más banda EQ de usuario — más flexible que los presets fijos de la ZLX",
+            "Gabinete de polipropileno construido para giras constantes, respaldado por una garantía de 6 años"
+          ],
+          "cons": [
+            "Expensive at $999 — $400 more than the EV ZLX-12P at $599",
+            "Heaviest of the three at 39 lbs — nearly 5 lbs more than the ZLX-12P",
+            "No built-in Bluetooth; streaming background music needs a separate mixer or adapter",
+            "The $400-$500 premium over the ZLX-12P and DBR12 only pays off if you truly need 2000W and 131 dB"
+          ],
+          "cons_es": [
+            "Caro a $999 — $400 más que el EV ZLX-12P a $599",
+            "El más pesado de los tres con 39 lbs — casi 5 lbs más que la ZLX-12P",
+            "Sin Bluetooth integrado; reproducir música de fondo requiere un mezclador o adaptador aparte",
+            "La prima de $400-$500 sobre la ZLX-12P y la DBR12 solo se justifica si de verdad necesitas 2000W y 131 dB"
+          ]
+        },
+        {
+          "name": "Yamaha DBR12",
+          "name_es": "Yamaha DBR12",
+          "pros": [
+            "Best budget option at $459 — the cheapest of the three, $140 below the EV ZLX-12P",
+            "1000W peak Class-D amplification — matching the ZLX-12P's output for $140 less",
+            "Lightweight at 34.8 lbs — barely heavier than the EV ZLX-12P",
+            "FIR-X tuning with D-CONTOUR keeps output clean and consistent",
+            "Yamaha reliability backed by the longest warranty here at 7 years"
+          ],
+          "pros_es": [
+            "Mejor opción económica a $459 — el más barato de los tres, $140 por debajo del EV ZLX-12P",
+            "Amplificación Clase-D de 1000W pico — iguala la salida de la ZLX-12P por $140 menos",
+            "Ligero a 34.8 lbs — apenas más pesado que el EV ZLX-12P",
+            "El afinado FIR-X con D-CONTOUR mantiene la salida limpia y consistente",
+            "Fiabilidad Yamaha respaldada por la garantía más larga de la lista, 7 años"
+          ],
+          "cons": [
+            "Fewer DSP features than the QSC — FIR-X + D-CONTOUR runs fixed, with no user EQ presets",
+            "Less low-end punch than competition",
+            "EQ is limited to simple tone controls — no user EQ band like the QSC K12.2's",
+            "No Bluetooth or networking — the ZLX-12P's Bluetooth input remains unique here"
+          ],
+          "cons_es": [
+            "Menos funciones DSP que la QSC — el FIR-X + D-CONTOUR es fijo, sin presets de EQ de usuario",
+            "Menos golpe en graves",
+            "El EQ se limita a controles simples de tono — sin banda EQ de usuario como la QSC K12.2",
+            "Sin Bluetooth ni redes — la entrada Bluetooth de la ZLX-12P sigue siendo única aquí"
+          ]
+        }
+      ]
+    },
+    "yamaha-mg-vs-behringer-xenyx": {
+      "verdictProsCons": [
+        {
+          "name": "Yamaha MG10XU",
+          "name_es": "Yamaha MG10XU",
+          "pros": [
+            "Yamaha SPX effects with 24 studio-grade programs — far more depth than the Xenyx's 16 presets",
+            "D-PRE inverted Darlington preamps with a 126 dB dynamic range for clean, low-noise gain",
+            "24-bit/192 kHz USB audio — well ahead of the Xenyx's 16-bit/48 kHz interface for recording",
+            "Impact-resistant metal chassis built to handle the road",
+            "Clean, transparent sound with 3-band EQ and low-cut on every mono channel"
+          ],
+          "pros_es": [
+            "Efectos Yamaha SPX con 24 programas de estudio — mucha más profundidad que los 16 presets de la Xenyx",
+            "Preamps D-PRE de circuito Darlington invertido con 126 dB de rango dinámico para ganancia limpia y de bajo ruido",
+            "Audio USB 24-bit/192 kHz — muy por delante de la interfaz 16-bit/48 kHz de la Xenyx para grabar",
+            "Chasis metálico resistente a impactos preparado para la carretera",
+            "Sonido limpio y transparente con EQ de 3 bandas y filtro low-cut en cada canal mono"
+          ],
+          "cons": [
+            "Fewer channels — 10 vs the Xenyx's 12 (16 inputs total)",
+            "No feedback detection — the Xenyx's FBQ shows problem frequencies on its graphic EQ",
+            "Only one stereo aux return vs the Xenyx's two",
+            "Stereo channels get just 2-band EQ — and none on MG10XU channels 5–10"
+          ],
+          "cons_es": [
+            "Menos canales — 10 frente a los 12 de la Xenyx (16 entradas en total)",
+            "Sin detección de feedback — el FBQ de la Xenyx muestra las frecuencias problemáticas en su EQ gráfico",
+            "Solo un retorno aux estéreo frente a los dos de la Xenyx",
+            "Los canales estéreo tienen solo EQ de 2 bandas — y ninguno en los canales 5–10 de la MG10XU"
+          ]
+        },
+        {
+          "name": "Behringer Xenyx X1222USB",
+          "name_es": "Behringer Xenyx X1222USB",
+          "pros": [
+            "XENYX preamps based on a Midas design with a 130 dB dynamic range — 4 dB more than the Yamaha's D-PRE",
+            "7-band graphic EQ with FBQ feedback detection",
+            "XPQ 3D stereo surround widens mono sources — a feature the Yamaha lacks entirely",
+            "Voice canceller on stereo inputs for instant vocal-removal — handy for practice and covers",
+            "Priced at $249 with features the Yamaha lacks — graphic EQ, feedback detection and 3D surround"
+          ],
+          "pros_es": [
+            "Preamps XENYX basados en un diseño Midas con 130 dB de rango dinámico — 4 dB más que el D-PRE de Yamaha",
+            "EQ gráfico de 7 bandas con FBQ",
+            "El surround XPQ 3D ensancha las fuentes mono — una función que la Yamaha no tiene en absoluto",
+            "El cancelador de voz en entradas estéreo elimina la voz al instante — útil para ensayos y covers",
+            "A $249 con funciones que la Yamaha no ofrece — EQ gráfico, detección de feedback y surround 3D"
+          ],
+          "cons": [
+            "USB interface is 16-bit/48 kHz — noticeably below the Yamaha's 24-bit/192 kHz for serious recording",
+            "Plastic knobs on an otherwise metal chassis — less reassuring than the Yamaha's impact-resistant build",
+            "No SPX effects — its 16 multi-FX presets lack the depth of Yamaha's 24 SPX programs",
+            "Global +48V phantom only — no per-channel switching, so condensers share a single switch"
+          ],
+          "cons_es": [
+            "La interfaz USB es de 16-bit/48 kHz — visiblemente por debajo del 24-bit/192 kHz de Yamaha para grabación seria",
+            "Perillas de plástico sobre un chasis de metal — menos tranquilizador que la construcción resistente de Yamaha",
+            "Sin efectos SPX — sus 16 presets multi-FX no tienen la profundidad de los 24 programas SPX de Yamaha",
+            "Fantom power +48V solo global — sin conmutación por canal, los condensadores comparten un solo interruptor"
+          ]
+        }
+      ]
+    },
+    "xr18-vs-m32r": {
+      "verdictProsCons": [
+        {
+          "name": "Behringer X Air XR18",
+          "name_es": "Behringer X Air XR18",
+          "pros": [
+            "Affordable at $485 — about one-sixth the price of the M32R's $2,799",
+            "Built-in Wi-Fi means no separate router — the M32R needs its own",
+            "Lightweight at 5.1 lbs — a fraction of the M32R's 31.5 lbs for easy fly-in gigs",
+            "16 Midas-designed preamps across its XLR channels — the same preamp lineage as the M32R",
+            "18x18 USB recording captures 18 channels of multitrack straight to a laptop"
+          ],
+          "pros_es": [
+            "Asequible a $485 — alrededor de una sexta parte del precio de $2,799 de la M32R",
+            "El Wi-Fi integrado evita un router aparte — la M32R necesita el suyo",
+            "Ligero a 5.1 lbs — una fracción de las 31.5 lbs de la M32R para conciertos de avión",
+            "16 preamps diseñados por Midas en sus canales XLR — la misma herencia de preamps que la M32R",
+            "La grabación USB 18x18 captura 18 canales de multitrack directo a un portátil"
+          ],
+          "cons": [
+            "No physical faders — tablet-only control",
+            "Limited to 18 channels — the M32R processes 40",
+            "No SD recording — multitrack capture needs a connected laptop, unlike the M32R's SD slot",
+            "Plastic housing is fine for small gigs but less road-ready than the M32R's professional build"
+          ],
+          "cons_es": [
+            "Sin faders físicos",
+            "Limitado a 18 canales — la M32R procesa 40",
+            "Sin grabación SD — la captura multipista necesita un portátil conectado, a diferencia de la ranura SD de la M32R",
+            "La carcasa de plástico va bien para conciertos pequeños pero aguanta menos la carretera que la construcción profesional de la M32R"
+          ]
+        },
+        {
+          "name": "Midas M32R LIVE",
+          "name_es": "Midas M32R LIVE",
+          "pros": [
+            "17 motorized faders recall your scenes automatically — no menu digging for levels",
+            "40 channels of processing — more than double the XR18's 18",
+            "PRO series preamps — superior sound",
+            "SD recording of up to 32 channels plus 32x32 USB — multitrack capture with no laptop required",
+            "Road-tough design aimed at touring rigs — the heavy 31.5 lbs chassis and PRO preamp pedigree from Midas' live consoles"
+          ],
+          "pros_es": [
+            "17 faders motorizados recuerdan tus escenas automáticamente — sin bucear en menús para los niveles",
+            "40 canales de procesamiento — más del doble que los 18 de la XR18",
+            "Preamps PRO series",
+            "Grabación SD de hasta 32 canales más USB 32x32 — captura multipista sin portátil",
+            "Diseño resistente para giras — el chasis pesado de 31.5 lbs y el pedigrí de preamps PRO de las consolas de directo de Midas"
+          ],
+          "cons": [
+            "Expensive at $2,799 — nearly six times the XR18's $485",
+            "Heavy at 31.5 lbs — a real lift versus the XR18's 5.1 lbs",
+            "Needs an external router for Wi-Fi control — the XR18's is built in",
+            "Overkill for small venues — 40 channels and $2,799 are wasted on a bar gig the XR18 covers at $485"
+          ],
+          "cons_es": [
+            "Caro a $2,799 — casi seis veces los $485 de la XR18",
+            "Pesado a 31.5 lbs — un esfuerzo real frente a las 5.1 lbs de la XR18",
+            "Requiere un router externo para el control Wi-Fi — el de la XR18 está integrado",
+            "Excesivo para venues pequeños — 40 canales y $2,799 se desperdician en un concierto de bar que la XR18 cubre por $485"
+          ]
+        }
+      ]
+    },
+    "daw-guide": {
+      "verdictProsCons": [
+        {
+          "name": "Ableton Live 12 Suite",
+          "name_es": "Ableton Live 12 Suite",
+          "pros": [
+            "Session View launches clips and loops in real time for live performance",
+            "Warp Engine timestretches audio flawlessly",
+            "Max for Live extends the DAW with custom devices",
+            "The gold standard workflow for electronic musicians"
+          ],
+          "pros_es": [
+            "Session View lanza clips y loops en tiempo real para tocar en vivo",
+            "El Warp Engine ajusta el tiempo del audio a la perfección",
+            "Max for Live amplía el DAW con dispositivos personalizados",
+            "El flujo de trabajo de referencia para músicos electrónicos"
+          ],
+          "cons": [
+            "At $799 it's the priciest DAW here — well above Logic's $199 one-time price",
+            "Arrangement view is less powerful than Cubase or Pro Tools for linear recording",
+            "Not the standard in commercial recording studios",
+            "No built-in notation or scoring tools like Cubase Pro 15",
+            "Major version upgrades are paid, so the $799 entry isn't the final cost"
+          ],
+          "cons_es": [
+            "A $799 es el DAW más caro de la lista — muy por encima del precio único de $199 de Logic",
+            "La Arrangement View es menos potente que Cubase o Pro Tools para grabación lineal",
+            "No es el estándar en estudios de grabación comerciales",
+            "Sin herramientas integradas de notación ni partituras como Cubase Pro 15",
+            "Las actualizaciones de versiones mayores son de pago, así que los $799 no son el costo final"
+          ]
+        },
+        {
+          "name": "Logic Pro",
+          "name_es": "Logic Pro",
+          "pros": [
+            "At $199 one-time with all major updates free — best value in DAWs by far",
+            "AI Session Players generate bass, keyboard, synth and drums",
+            "Alchemy synth, ChromaGlow, Dolby Atmos, Stem Splitter all included",
+            "10,000+ Apple Loops and a massive sound library"
+          ],
+          "pros_es": [
+            "A $199 de pago único con todas las actualizaciones principales gratis — el mejor valor en DAWs con diferencia",
+            "Los Session Players de IA generan bajo, teclado, sintetizador y batería",
+            "Sintetizador Alchemy, ChromaGlow, Dolby Atmos, Stem Splitter todo incluido",
+            "Más de 10,000 Apple Loops y una enorme biblioteca de sonidos"
+          ],
+          "cons": [
+            "Mac-only — there's no Windows version, so PC-based studios are locked out entirely",
+            "Collaborators on other platforms can't open your projects natively",
+            "Huge sound library needs substantial drive space",
+            "MIDI editing is solid but not as deep as Cubase Pro's Key Editor or FL Studio's piano roll",
+            "If you own no Apple hardware, the $199 price doesn't apply — you'd need to buy a Mac first"
+          ],
+          "cons_es": [
+            "Solo Mac — no hay versión para Windows, así que los estudios con PC quedan totalmente fuera",
+            "Los colaboradores en otras plataformas no pueden abrir tus proyectos de forma nativa",
+            "La enorme biblioteca de sonidos requiere bastante espacio en disco",
+            "La edición MIDI es sólida pero no tan profunda como el Key Editor de Cubase Pro o el piano roll de FL Studio",
+            "Si no tienes hardware Apple, los $199 no aplican — primero tendrías que comprar una Mac"
+          ]
+        },
+        {
+          "name": "FL Studio Producer Edition",
+          "name_es": "FL Studio Edición Producer",
+          "pros": [
+            "Pattern-based workflow built for hip-hop, EDM and pop — drop beats in the step sequencer and arrange in the playlist",
+            "Piano roll is the best in any DAW — slides, arpeggiator and chord helpers make MIDI programming fast",
+            "Lifetime free updates — buy once and keep getting better",
+            "Pro-quality mixer and effects included — per-channel inserts and sends give a full mix chain before you buy third-party plugins"
+          ],
+          "pros_es": [
+            "Flujo de trabajo basado en patrones hecho para hip-hop, EDM y pop — suelta beats en el secuenciador y organiza en el playlist",
+            "El piano roll es el mejor de cualquier DAW — slides, arpegiador y ayuda de acordes hacen rápida la programación MIDI",
+            "Actualizaciones gratuitas de por vida — compras una vez y sigue mejorando",
+            "Mezclador y efectos de calidad pro incluidos — inserciones y envíos por canal dan una cadena de mezcla completa antes de comprar plugins de terceros"
+          ],
+          "cons": [
+            "Pattern workflow is less natural for linear live audio recording",
+            "Producer Edition is not the top tier — the All Plugins bundle costs more",
+            "Windows-first history means the Mac version is newer",
+            "No notation or scoring tools — Cubase Pro 15 keeps those for composers",
+            "The permanent free version is stripped down — real work needs the $199 Producer Edition"
+          ],
+          "cons_es": [
+            "El flujo de patrones es menos natural para grabación de audio lineal en vivo",
+            "La Producer Edition no es el nivel superior — el bundle All Plugins cuesta más",
+            "La historia centrada en Windows hace que la versión Mac sea más reciente",
+            "Sin herramientas de notación ni partituras — Cubase Pro 15 se queda con eso para compositores",
+            "La versión gratuita permanente es muy recortada — el trabajo serio exige la Producer Edition de $199"
+          ]
+        },
+        {
+          "name": "Avid Pro Tools Studio",
+          "name_es": "Avid Pro Tools Estudio",
+          "pros": [
+            "The standard in professional studios worldwide",
+            "Advanced editing tools and surround sound up to 7.1",
+            "Cloud collaboration keeps remote editors in sync on the same session",
+            "Essential for audio post-production careers"
+          ],
+          "pros_es": [
+            "El estándar en estudios profesionales de todo el mundo",
+            "Herramientas de edición avanzadas y sonido envolvente hasta 7.1",
+            "La colaboración en la nube mantiene sincronizados a editores remotos en la misma sesión",
+            "Esencial para carreras de post-producción de audio"
+          ],
+          "cons": [
+            "Subscription model is a recurring cost",
+            "Steeper learning curve than beginner-friendly DAWs",
+            "Pricier long-term than Logic's $199 one-time purchase",
+            "MIDI editing is more basic than Cubase Pro's Key Editor or FL Studio's piano roll",
+            "No bundled instruments on par with Logic's — you'll budget for virtual instruments separately"
+          ],
+          "cons_es": [
+            "El modelo de suscripción es un costo recurrente",
+            "Curva de aprendizaje más empinada que los DAW amigables para principiantes",
+            "Más caro a largo plazo que la compra única de $199 de Logic",
+            "La edición MIDI es más básica que el Key Editor de Cubase Pro o el piano roll de FL Studio",
+            "Sin instrumentos incluidos al nivel de Logic — tendrás que presupuestar instrumentos virtuales aparte"
+          ]
+        },
+        {
+          "name": "Steinberg Cubase Pro 15",
+          "name_es": "Steinberg Cubase Pro 15",
+          "pros": [
+            "Powerful MIDI editing with the innovative Key Editor",
+            "VariAudio pitch correction lets you tune recorded vocals note-by-note",
+            "MixConsole brings every channel, plugin and automation into one window for a full mix overview",
+            "Professional scoring and notation tools"
+          ],
+          "pros_es": [
+            "Edición MIDI potente con el innovador Key Editor",
+            "La corrección de tono VariAudio permite afinar voces grabadas nota por nota",
+            "MixConsole reúne todos los canales, plugins y automatización en una sola ventana para una vista completa de la mezcla",
+            "Herramientas profesionales de partituras y notación"
+          ],
+          "cons": [
+            "At $579 it's among the pricier DAWs here",
+            "Feature depth means a longer learning curve",
+            "No built-in AI Session Players like Logic",
+            "No cloud collaboration like Pro Tools Studio — you'll share session files another way",
+            "Heavy on resources — Steinberg recommends 16 GB of RAM for the full experience"
+          ],
+          "cons_es": [
+            "A $579 es de los DAW más caros de la lista",
+            "La profundidad de funciones implica una curva de aprendizaje más larga",
+            "Sin Session Players de IA integrados como Logic",
+            "Sin colaboración en la nube como Pro Tools Studio — tendrás que compartir los archivos de sesión de otra forma",
+            "Exigente en recursos — Steinberg recomienda 16 GB de RAM para la experiencia completa"
+          ]
+        },
+        {
+          "name": "Reason Studios Reason 14",
+          "name_es": "Reason Studios Reason 14",
+          "pros": [
+            "Virtual rack with patch cables replicates a hardware studio",
+            "Works standalone or as a plugin in any other DAW (VST3/AU/AAX)",
+            "Legendary synths like Mimic and Polytone are genuinely inspiring",
+            "Massive built-in sound library, plus ReFill and RE support that keeps growing"
+          ],
+          "pros_es": [
+            "El rack virtual con cables de conexión replica un estudio de hardware",
+            "Funciona independiente o como plugin en cualquier otro DAW (VST3/AU/AAX)",
+            "Sintetizadores legendarios como Mimic y Polytone son genuinamente inspiradores",
+            "Biblioteca de sonidos masiva integrada, más soporte de ReFills y RE que no deja de crecer"
+          ],
+          "cons": [
+            "At $300 it's less known, with fewer tutorials than Ableton or Logic",
+            "Rack workflow is unique but not everyone's taste",
+            "Not the industry standard — collaboration is harder",
+            "The piano roll is more basic than FL Studio's — complex MIDI programming feels limited",
+            "Audio editing tools are lighter than Cubase Pro's, so heavy post work is better done elsewhere"
+          ],
+          "cons_es": [
+            "A $300 es menos conocido, con menos tutoriales que Ableton o Logic",
+            "El flujo del rack es único pero no para todos los gustos",
+            "No es el estándar de la industria — la colaboración es más difícil",
+            "El piano roll es más básico que el de FL Studio — la programación MIDI compleja se siente limitada",
+            "Las herramientas de edición de audio son más ligeras que las de Cubase Pro — la post-producción pesada se hace mejor en otro DAW"
+          ]
+        }
+      ]
+    },
+    "xr18-vs-cq18t": {
+      "verdictProsCons": [
+        {
+          "name": "Behringer X Air XR18",
+          "name_es": "Behringer X Air XR18",
+          "pros": [
+            "Proven reliability since 2013 — over a decade of field use on real stages",
+            "16 Midas-designed analog preamps with +48V phantom per channel",
+            "18x18 USB recording to any computer — a full multitrack rig for live capture",
+            "Built-in 2.4 GHz Wi-Fi — control from any tablet with the X AIR MIX app",
+            "A huge installed base means forums, walkthroughs and scene files for nearly any setup"
+          ],
+          "pros_es": [
+            "Fiabilidad probada desde 2013 — más de una década de uso en escenarios reales",
+            "16 preamps analógicos diseñados por Midas con fantom +48V por canal",
+            "Grabación USB 18x18 a cualquier computadora — un equipo multipista completo para capturar en directo",
+            "Wi-Fi 2.4 GHz integrado — control desde cualquier tablet con la app X AIR MIX",
+            "Una base de usuarios enorme — foros, tutoriales y archivos de escena para casi cualquier configuración"
+          ],
+          "cons": [
+            "No touchscreen — everything runs through the tablet app, unlike the CQ-18T's 7-inch display",
+            "Locks to 44.1/48 kHz sample rates — half the CQ-18T's 96 kHz processing",
+            "No SD recording — multitrack capture requires a connected laptop",
+            "App-only control leaves no physical fallback if the tablet fails mid-gig"
+          ],
+          "cons_es": [
+            "Sin pantalla táctil — todo pasa por la app de la tablet, a diferencia de la pantalla de 7\" de la CQ-18T",
+            "Se fija en 44.1/48 kHz — la mitad del procesamiento a 96 kHz de la CQ-18T",
+            "Sin grabación SD — la captura multipista requiere un portátil conectado",
+            "El control solo por app deja sin respaldo físico si la tablet falla a mitad del concierto"
+          ]
+        },
+        {
+          "name": "Allen & Heath CQ-18T",
+          "name_es": "Allen & Heath CQ-18T",
+          "pros": [
+            "7-inch capacitive touchscreen gives hands-on control the XR18 can't offer",
+            "96 kHz processing for detailed, low-latency sound — double the XR18's rate",
+            "Dual-band 2.4 + 5 GHz Wi-Fi plus Bluetooth for a dedicated stereo input",
+            "24x22 USB plus SD recording of up to 24 channels — capture without a laptop",
+            "Smart Assistant tools (gain, FB, AM)"
+          ],
+          "pros_es": [
+            "La pantalla táctil capacitiva de 7\" ofrece control directo que la XR18 no puede",
+            "Procesamiento a 96 kHz para un sonido detallado y de baja latencia — el doble que la XR18",
+            "Wi-Fi dual-band 2.4 + 5 GHz más Bluetooth para una entrada estéreo dedicada",
+            "USB 24x22 más grabación SD de hasta 24 canales — captura sin portátil",
+            "Asistentes inteligentes"
+          ],
+          "cons": [
+            "Launched in 2023, so the community and tutorial library are younger than the XR18's decade of support",
+            "Global phantom power (not per-channel)",
+            "Priced at $1,199 — more than double the XR18's $485",
+            "No motorized faders, so scene recall is screen-driven rather than tactile"
+          ],
+          "cons_es": [
+            "Lanzada en 2023, su comunidad y biblioteca de tutoriales son más jóvenes que la década de soporte de la XR18",
+            "Phantom power global",
+            "A $1,199 — más del doble que los $485 de la XR18",
+            "Sin faders motorizados, la recuperación de escenas es por pantalla en lugar de táctil"
+          ]
+        }
+      ]
+    },
+    "nord-stage-4-vs-montage-m8x": {
+      "verdictProsCons": [
+        {
+          "name": "Nord Stage 4 88",
+          "name_es": "Nord Stage 4 88",
+          "pros": [
+            "Authentic piano and organ sounds from dedicated engines, with 120-note piano polyphony for dense playing",
+            "Triple Sensor 88-key keybed gives the fast, consistent response gigging keyboardists expect",
+            "Lightweight at 40.1 lbs — over 20 lbs lighter than the Montage M8x for one-person loading",
+            "Dedicated physical controls — knobs, buttons and drawbars for real-time tweaks without menus",
+            "Purpose-built for stage — every control is one hand away, which is why it shines live"
+          ],
+          "pros_es": [
+            "Sonidos auténticos de piano y órgano con motores dedicados, con 120 notas de polifonía de piano para tocar denso",
+            "El teclado Triple Sensor de 88 teclas da la respuesta rápida y constante que esperan los teclistas de directo",
+            "Ligero a 40.1 lbs — más de 20 lbs menos que la Montage M8x para cargar en solitario",
+            "Controles físicos dedicados — perillas, botones y drawbars para ajustes en tiempo real sin menús",
+            "Hecho para el escenario — cada control está a un gesto de distancia, por eso brilla en vivo"
+          ],
+          "cons": [
+            "Expensive at $4,999 — $300 above the Montage M8x with less synthesis power",
+            "No deep synthesis engine — you get presets and tweaks, not Montage-level sound design",
+            "Small OLED display — limited room for patch browsing versus the Montage's 7-inch touchscreen",
+            "Fewer built-in effects and production features than the Montage M8x"
+          ],
+          "cons_es": [
+            "Caro a $4,999 — $300 por encima de la Montage M8x con menos potencia de síntesis",
+            "Sin motor de síntesis profundo — tienes presets y ajustes, no diseño de sonido al nivel de la Montage",
+            "Pantalla OLED pequeña — poco espacio para navegar patches frente a la pantalla táctil de 7\" de la Montage",
+            "Menos efectos y funciones de producción integrados que la Montage M8x"
+          ]
+        },
+        {
+          "name": "Yamaha Montage M8x",
+          "name_es": "Yamaha Montage M8x",
+          "pros": [
+            "AN-X analog-modeling plus FM-X synthesis — two deep engines in one board",
+            "7-inch touchscreen makes patch editing and sound design fast",
+            "Expansive library from its AN-X and FM-X engines, with 128-note FM-X polyphony for complex patches",
+            "Deep synthesis — 120-note AN-X plus 128-note FM-X give layered sounds real depth",
+            "Best for production and sound design"
+          ],
+          "pros_es": [
+            "Modelado analógico AN-X más síntesis FM-X — dos motores profundos en un solo teclado",
+            "La pantalla táctil de 7\" hace rápido editar patches y diseñar sonido",
+            "Biblioteca extensa de los motores AN-X y FM-X, con 128 notas de polifonía FM-X para patches complejos",
+            "Síntesis profunda — 120 notas AN-X más 128 FM-X dan verdadera profundidad a los sonidos en capas",
+            "Mejor para producción"
+          ],
+          "cons": [
+            "Heavy at 61.7 lbs — over 20 lbs more than the Nord, a real difference loading out",
+            "Complex learning curve — the dual engines and deep menu system take real time to master",
+            "Less portable for gigging — 61.7 lbs and a production-first layout favor the studio",
+            "Piano/organ not as authentic as Nord"
+          ],
+          "cons_es": [
+            "Pesado a 61.7 lbs — más de 20 lbs que la Nord, una diferencia real al cargar el equipo",
+            "Curva de aprendizaje compleja — los motores duales y el profundo sistema de menús exigen tiempo para dominarlos",
+            "Menos portátil para conciertos — las 61.7 lbs y el diseño orientado a producción favorecen el estudio",
+            "Piano/órgano menos auténtico"
+          ]
+        }
+      ]
+    },
+    "digitakt-ii-vs-tr8s": {
+      "verdictProsCons": [
+        {
+          "name": "Elektron Digitakt II",
+          "name_es": "Elektron Digitakt II",
+          "pros": [
+            "Deep sampling engine that also runs FM synthesis — a wider sound-design range than a pure drum machine",
+            "64-step sequencer with parameter locks",
+            "16 tracks — 8 audio tracks that run stereo or mono — for dense, layered beats",
+            "20GB+ storage via Overbridge plus 16-channel USB audio to your computer",
+            "Powerful sound design — parameter locks, master FX and sidechain in one box"
+          ],
+          "pros_es": [
+            "Motor de sampling profundo que también corre síntesis FM — un rango de diseño de sonido mayor que una caja de ritmos pura",
+            "Secuenciador de 64 pasos",
+            "16 pistas — 8 de audio que funcionan estéreo o mono — para beats densos y en capas",
+            "Más de 20GB de almacenamiento vía Overbridge más audio USB de 16 canales a tu computadora",
+            "Diseño de sonido potente — parameter locks, FX maestros y sidechain en una sola caja"
+          ],
+          "cons": [
+            "Expensive at $999 — $250 more than the TR-8S",
+            "Steep learning curve — Elektron's multi-function buttons and menus take practice",
+            "No ACB modeling — you can't recreate Roland's 808/909 circuits, only sample them",
+            "Menu-diving required for deeper features"
+          ],
+          "cons_es": [
+            "Caro a $999 — $250 más que la TR-8S",
+            "Curva de aprendizaje pronunciada — los botones multifunción y menús de Elektron requieren práctica",
+            "Sin modelado ACB — no puedes recrear los circuitos 808/909 de Roland, solo muestrearlos",
+            "Menús profundos"
+          ]
+        },
+        {
+          "name": "Roland TR-8S",
+          "name_es": "Roland TR-8S",
+          "pros": [
+            "Authentic ACB modeling of the 808, 909, 707, 727 and 606 — Roland's original circuits, no samples needed",
+            "Hands-on physical controls — knobs and buttons for instant tweaking while playing",
+            "Layering your own samples over ACB sounds — mix factory drums with custom hits",
+            "Real-time effects — delay, reverb, chorus, bit/SR reduction and drive for live mangling",
+            "Intuitive workflow — a 16-step real-time sequencer that feels like a drum machine should"
+          ],
+          "pros_es": [
+            "Modelado ACB auténtico de la 808, 909, 707, 727 y 606 — los circuitos originales de Roland, sin samples",
+            "Controles físicos táctiles — perillas y botones para ajustes al instante mientras tocas",
+            "Capa tus propios samples sobre los sonidos ACB — mezcla baterías de fábrica con golpes personalizados",
+            "Efectos en tiempo real — delay, reverb, chorus, reducción bit/SR y drive para triturar en vivo",
+            "Flujo de trabajo intuitivo — un secuenciador de 16 pasos en tiempo real que se siente como debe ser una caja de ritmos"
+          ],
+          "cons": [
+            "Only 11 tracks — 8 instruments and 3 FX — versus the Digitakt II's 16",
+            "16-step sequencer with no parameter locks — pattern detail trails the Digitakt's 64 steps",
+            "No deep sampling — samples are triggered, not sliced or resampled like the Digitakt",
+            "UI design from 2018 feels dated next to the Digitakt II's modern workflow"
+          ],
+          "cons_es": [
+            "Solo 11 pistas — 8 instrumentos y 3 FX — frente a las 16 de la Digitakt II",
+            "Secuenciador de 16 pasos sin parameter locks — el detalle de patrones se queda corto frente a los 64 pasos de la Digitakt",
+            "Sin sampling profundo — los samples se disparan, no se cortan ni se resamplean como en la Digitakt",
+            "El diseño de UI de 2018 se siente anticuado junto al flujo moderno de la Digitakt II"
+          ]
+        }
+      ]
+    },
+    "stage-mics": {
+      "verdictProsCons": [
+        {
+          "name": "Shure SM58",
+          "name_es": "Shure SM58",
+          "pros": [
+            "The world standard for live vocals — outsold every other microphone on Earth",
+            "Cardioid rejects feedback from floor monitors; 50Hz–15kHz with a presence peak around 5kHz",
+            "$99 — cheap enough to buy a spare for every band member",
+            "Built-in spherical grille doubles as a pop filter; 150Ω output works with any mixer"
+          ],
+          "pros_es": [
+            "El estándar mundial de voces en vivo — ha vendido más que cualquier otro micrófono del planeta",
+            "Cardioide que rechaza la retroalimentación de los monitores de piso; 50Hz–15kHz con realce de presencia alrededor de 5kHz",
+            "$99 — bastante barato para comprar un repuesto por cada miembro de la banda",
+            "La rejilla esférica integrada hace de filtro antipop; la salida de 150Ω funciona con cualquier mesa"
+          ],
+          "cons": [
+            "Voiced for the stage — less finesse than a premium condenser",
+            "Cardioid side rejection is less than the supercardioid Beta 58A on loud stages",
+            "On the loudest gigs you'll want the hotter supercardioids — the Beta 58A is 4 dB hotter",
+            "No on/off switch — you rely on the mixer's mute for quiet moments",
+            "Its 5 kHz presence peak can sound harsh on voices that are already bright"
+          ],
+          "cons_es": [
+            "Pensado para el escenario — menos refinamiento que un condensador premium",
+            "El rechazo lateral cardioide es menor que el del supercardioide Beta 58A en escenarios ruidosos",
+            "En los conciertos más ruidosos querrás los supercardioides más potentes — el Beta 58A es 4 dB más caliente",
+            "Sin interruptor — dependes del mute de la mesa para los momentos de silencio",
+            "Su realce de presencia a 5 kHz puede sonar duro en voces ya brillantes"
+          ]
+        },
+        {
+          "name": "Shure Beta 58A",
+          "name_es": "Shure Beta 58A",
+          "pros": [
+            "Supercardioid adds serious side rejection and gain-before-feedback",
+            "Neodymium magnet delivers a signal about 4 dB hotter than the SM58",
+            "50Hz–16kHz voiced brighter in the mids for vocal clarity",
+            "Pneumatic shock mount kills handling thumps; trusted by McCartney, Chris Martin, and Trent Reznor"
+          ],
+          "pros_es": [
+            "El supercardioide añade un serio rechazo lateral y ganancia antes de retroalimentación",
+            "El imán de neodimio entrega una señal unos 4 dB más caliente que el SM58",
+            "50Hz–16kHz con medios más brillantes para claridad vocal",
+            "El montaje antivibración neumático elimina los golpes de manejo; de confianza para McCartney, Chris Martin y Trent Reznor"
+          ],
+          "cons": [
+            "$169 — $70 more than the SM58, justified by 4 dB more output and a tighter pickup",
+            "Supercardioid needs careful monitor and backline placement",
+            "Doubles as an instrument mic, but its bright mids need tame EQ on some desks",
+            "Low end rolls off at 50 Hz — the e935 reaches 40 Hz for deeper, warmer vocals",
+            "No on/off switch, so silent stage moves rely on the mixer's mute"
+          ],
+          "cons_es": [
+            "$169 — $70 más que el SM58, justificado por 4 dB más de salida y una captación más cerrada",
+            "El supercardioide requiere una colocación cuidadosa de monitores y amplis",
+            "También sirve de micrófono de instrumento, pero sus medios brillantes piden EQ comedido en algunas mesas",
+            "Los graves se recortan en 50 Hz — el e935 llega a 40 Hz para voces más profundas y cálidas",
+            "Sin interruptor, los movimientos silenciosos en el escenario dependen del mute de la mesa"
+          ]
+        },
+        {
+          "name": "Sennheiser e935",
+          "name_es": "Sennheiser e935",
+          "pros": [
+            "High-output capsule (2.8 mV/Pa) with a 40Hz–18kHz smooth, natural response",
+            "All-metal German construction with a shock-mounted capsule and hum-compensating coil",
+            "Used by Alex Turner, Taylor Swift, Stevie Nicks, and Harry Styles",
+            "350Ω output mates cleanly with any desk"
+          ],
+          "pros_es": [
+            "Cápsula de alta salida (2.8 mV/Pa) con respuesta suave y natural de 40Hz–18kHz",
+            "Construcción alemana totalmente metálica con cápsula amortiguada y bobina de compensación de zumbido",
+            "Usado por Alex Turner, Taylor Swift, Stevie Nicks y Harry Styles",
+            "La salida de 350Ω conecta limpiamente con cualquier mesa"
+          ],
+          "cons": [
+            "$199 — double the SM58's price, though the hotter 2.8 mV/Pa capsule and 40 Hz–18 kHz range justify it",
+            "Cardioid like the SM58 — without the extra side rejection of the e945",
+            "Presence-forward voicing may not suit every voice without EQ",
+            "No switch, like the SM58 and Beta 58A — muting happens at the board",
+            "At 355 g it's heavier than the SM58's 298 g — small but noticeable on a long mic stand"
+          ],
+          "cons_es": [
+            "$199 — el doble del precio del SM58, aunque la cápsula más caliente de 2.8 mV/Pa y el rango de 40 Hz–18 kHz lo justifican",
+            "Cardioide como el SM58 — sin el rechazo lateral extra del e945",
+            "El voicing adelantado en presencia puede no sentar bien a todas las voces sin EQ",
+            "Sin interruptor, como el SM58 y el Beta 58A — el silencio se hace en la mesa",
+            "Con 355 g pesa más que los 298 g del SM58 — poco, pero se nota en un pie largo"
+          ]
+        },
+        {
+          "name": "Sennheiser e945",
+          "name_es": "Sennheiser e945",
+          "pros": [
+            "Supercardioid focuses tightly on your voice and rejects bleed from guitars, drums, and monitors",
+            "Presence boost between 2.5kHz and 6kHz adds clarity and authority in dense mixes",
+            "40Hz–18kHz smooth and full with a 2.0 mV/Pa output",
+            "Same capsule heritage as Sennheiser's pro wireless systems"
+          ],
+          "pros_es": [
+            "El supercardioide se enfoca en tu voz y rechaza la fuga de guitarras, batería y monitores",
+            "El realce de presencia entre 2.5kHz y 6kHz añade claridad y autoridad en mezclas densas",
+            "40Hz–18kHz suave y lleno con salida de 2.0 mV/Pa",
+            "La misma herencia de cápsula que los sistemas inalámbricos pro de Sennheiser"
+          ],
+          "cons": [
+            "$199 — a premium step for singers who live in loud rooms",
+            "Supercardioid rear nulls demand careful placement",
+            "The 2.5kHz–6kHz boost can be too forward for already-bright voices",
+            "No on/off switch — muting relies on the mixer, as with the rest of the e900 series",
+            "The 2.0 mV/Pa output is quieter than the e935's 2.8 mV/Pa — a touch more gain needed on some desks"
+          ],
+          "cons_es": [
+            "$199 — un paso premium para cantantes que viven en salas ruidosas",
+            "Los nulos traseros del supercardioide exigen una colocación cuidadosa",
+            "El realce de 2.5kHz–6kHz puede ser demasiado adelantado para voces ya brillantes",
+            "Sin interruptor — el silencio depende de la mesa, como en toda la serie e900",
+            "La salida de 2.0 mV/Pa es más baja que los 2.8 mV/Pa del e935 — pide un poco más de ganancia en algunas mesas"
+          ]
+        },
+        {
+          "name": "Telefunken M80",
+          "name_es": "Telefunken M80",
+          "pros": [
+            "Hand-assembled in the USA with a custom-wound T80 transformer",
+            "Condenser-like detail, transient speed, and 135 dB SPL handling in a dynamic",
+            "Supercardioid rejects feedback; 1.54 mV/Pa output with a 325Ω impedance",
+            "Doubles as a snare and guitar-cab mic; clip and zipper bag included"
+          ],
+          "pros_es": [
+            "Ensamblado a mano en EE. UU. con transformador T80 de bobinado personalizado",
+            "Detalle tipo condensador, velocidad transitoria y manejo de 135 dB SPL en un dinámico",
+            "El supercardioide rechaza la retroalimentación; salida de 1.54 mV/Pa con impedancia de 325Ω",
+            "También sirve para caja y gabinete de guitarra; incluye clip y bolsa con cremallera"
+          ],
+          "cons": [
+            "$249 — the premium pick, an investment",
+            "For the same money you could own an SM58 and a Beta 58A",
+            "Its condenser-like detail is wasted on moderate stages with noisy rigs",
+            "No on/off switch — you mute at the mixer like every dynamic here",
+            "The 1.54 mV/Pa output needs a healthy preamp gain — weaker than the e935's 2.8 mV/Pa"
+          ],
+          "cons_es": [
+            "$249 — la opción premium, una inversión",
+            "Por el mismo dinero podrías tener un SM58 y un Beta 58A",
+            "Su detalle tipo condensador se desperdicia en escenarios moderados con equipos ruidosos",
+            "Sin interruptor — el silencio se hace en la mesa, como en todos los dinámicos de esta guía",
+            "La salida de 1.54 mV/Pa pide buena ganancia de preamp — más débil que los 2.8 mV/Pa del e935"
+          ]
+        },
+        {
+          "name": "AKG D5",
+          "name_es": "AKG D5",
+          "pros": [
+            "Patented laminated Varimotion diaphragm — crisp, transparent, fast transients",
+            "Supercardioid delivers maximum gain-before-feedback — a pro feature at this price",
+            "70Hz–20kHz with a 2.6 mV/Pa output and 600Ω impedance",
+            "$139 — undercuts most of the field while holding its own against mics twice the price"
+          ],
+          "pros_es": [
+            "Diafragma laminado Varimotion patentado — nítido, transparente, transitorios rápidos",
+            "El supercardioide ofrece máxima ganancia antes de retroalimentación — una función pro a este precio",
+            "70Hz–20kHz con salida de 2.6 mV/Pa e impedancia de 600Ω",
+            "$139 — baja el precio a casi todos mientras aguanta el tipo frente a micrófonos del doble de precio"
+          ],
+          "cons": [
+            "$40 more than the SM58 while still a budget vocal mic",
+            "600Ω output is higher than the SM58's 150Ω — fine for mixers but worth noting on long cable runs",
+            "Less stage-proven than the SM58 or Beta 58A on world tours",
+            "No on/off switch — muting happens at the mixer",
+            "Low end starts at 70 Hz — lighter body than the e935 or e945 that reach 40 Hz"
+          ],
+          "cons_es": [
+            "$40 más que el SM58 siendo aún un micrófono vocal económico",
+            "La salida de 600Ω es más alta que los 150Ω del SM58 — bien para mesas, pero a tener en cuenta en tiradas largas de cable",
+            "Menos probado en giras mundiales que el SM58 o el Beta 58A",
+            "Sin interruptor — el silencio se hace en la mesa",
+            "El rango empieza en 70 Hz — cuerpo de graves más ligero que el e935 o e945, que llegan a 40 Hz"
+          ]
+        },
+        {
+          "name": "Audix OM7",
+          "name_es": "Audix OM7",
+          "pros": [
+            "Hypercardioid — the tightest pickup of any vocal mic, with unprecedented gain-before-feedback",
+            "The most 'cupping-proof' mic — gripping the grille barely changes response",
+            "Handles extreme SPLs above 144 dB with a clean signal",
+            "Road-tough zinc die-cast body and dent-resistant steel grille"
+          ],
+          "pros_es": [
+            "Hipercardioide — la captación más cerrada de cualquier micrófono vocal, con ganancia antes de retroalimentación sin precedentes",
+            "El micrófono más 'a prueba de cupping' — agarrar la rejilla apenas cambia la respuesta",
+            "Maneja SPL extremos por encima de 144 dB con señal limpia",
+            "Cuerpo de zinc fundido a presión a prueba de carretera y rejilla de acero resistente a abolladuras"
+          ],
+          "cons": [
+            "Lowest output in the guide at 0.8 mV/Pa — roughly 8-10 dB below the other dynamics, so it demands a channel with serious preamp gain",
+            "$259 — a pro tool only if you actually work the loudest stages",
+            "Hypercardioid tail picks up rear bleed more than supercardioid — placement-critical",
+            "No on/off switch — mute at the board, as with every mic here",
+            "At $259 it's the priciest mic in this guide — a real commitment for a backup vocal mic"
+          ],
+          "cons_es": [
+            "La salida más baja de la guía con 0.8 mV/Pa — unos 8-10 dB por debajo de los demás dinámicos, así que exige un canal con mucha ganancia de preamp",
+            "$259 — una herramienta pro solo si realmente trabajas los escenarios más ruidosos",
+            "La cola hipercardioide capta más fuga trasera que un supercardioide — crítico con la colocación",
+            "Sin interruptor — se silencia en la mesa, como en todos los micrófonos de esta guía",
+            "A $259 es el micrófono más caro de esta guía — un compromiso real para un micrófono de respaldo"
+          ]
+        },
+        {
+          "name": "Electro-Voice ND86",
+          "name_es": "Electro-Voice ND86",
+          "pros": [
+            "Engineered for the largest venues — present, smooth, detailed vocal tone even in arenas",
+            "Supercardioid isolates the voice from stage wash better than a cardioid",
+            "4-point suspension shock mount plus a tuned pneumatic pump minimize handling noise",
+            "Memraflex grille resists denting and a hydrophobic cloth protects the diaphragm"
+          ],
+          "pros_es": [
+            "Diseñado para los recintos más grandes — tono vocal presente, suave y detallado incluso en arenas",
+            "El supercardioide aísla la voz del ruido del escenario mejor que un cardioide",
+            "Montaje antivibración de 4 puntos más bomba neumática afinada minimizan el ruido de manejo",
+            "La rejilla Memraflex resiste abolladuras y una membrana hidrófoba protege el diafragma"
+          ],
+          "cons": [
+            "$169 specialist for venues that need extreme gain-before-feedback",
+            "Large-diaphragm dynamic — a bigger body than the SM58 or e935",
+            "In a quiet club its size and voicing are overkill versus a $99 SM58",
+            "No on/off switch — muting is handled at the mixer",
+            "At 326 g it's heavier than most here — 42 g more than the SM58"
+          ],
+          "cons_es": [
+            "Especialista de $169 para recintos que necesitan ganancia extrema antes de retroalimentación",
+            "Dinámico de diafragma grande — un cuerpo más grande que el SM58 o el e935",
+            "En un club tranquilo su tamaño y voicing son excesivos frente a un SM58 de $99",
+            "Sin interruptor — el silencio se gestiona en la mesa",
+            "Con 326 g pesa más que la mayoría — 42 g más que el SM58"
+          ]
+        },
+        {
+          "name": "Shure SM57",
+          "name_es": "Shure SM57",
+          "pros": [
+            "The go-to for guitar cabs, snares and horn sections — at $99 it's the cheap, reliable utility mic every rig should carry",
+            "Tight cardioid and 5kHz presence peak deliver excellent gain-before-feedback",
+            "40Hz–15kHz response with 1.6 mV/Pa output and 150Ω impedance — the most flexible mic in this guide",
+            "$99 — cheap enough to keep several spares for amps, snares and horns"
+          ],
+          "pros_es": [
+            "El recurso para gabinetes de guitarra, cajas y metales — a $99 es el micrófono utilitario barato y fiable que todo equipo debería llevar",
+            "Cardioide ajustado y realce de presencia a 5kHz para excelente ganancia antes de retroalimentación",
+            "Respuesta de 40Hz–15kHz con salida de 1.6 mV/Pa e impedancia de 150Ω — el micrófono más flexible de esta guía",
+            "$99 — bastante barato para tener varios de repuesto para amplis, cajas y metales"
+          ],
+          "cons": [
+            "Not a vocal-first mic — its cardioid and 5kHz peak suit instruments over lead vocals",
+            "Needs close placement for low end — pulled back, the body disappears and it gets thin",
+            "For lead vocals on loud stages a supercardioid like the Beta 58A gives more headroom",
+            "No on/off switch — silent stage changes depend on the mixer's mute",
+            "At 1.6 mV/Pa output it's quieter than hotter dynamics like the e935 — needs a bit more gain on long cable runs"
+          ],
+          "cons_es": [
+            "No es un micrófono vocalista — su cardioide y pico a 5kHz favorecen instrumentos sobre voces principales",
+            "Necesita colocación cercana para los graves — si te alejas, el cuerpo desaparece y suena delgado",
+            "Para voces principales en escenarios ruidosos, un supercardioide como el Beta 58A da más margen",
+            "Sin interruptor — los cambios silenciosos en el escenario dependen del mute de la mesa",
+            "Con 1.6 mV/Pa es más silencioso que dinámicos más calientes como el e935 — pide algo más de ganancia en tiradas largas de cable"
+          ]
+        }
+      ]
+    }
+  }
+}

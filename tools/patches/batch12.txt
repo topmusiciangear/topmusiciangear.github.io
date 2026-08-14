@@ -1,0 +1,548 @@
+# GUIDE: dt770-vs-dt990
+TITLE: DT 770 Pro vs DT 990 Pro: Closed or Open for Mixing?
+TITLE_ES: DT 770 Pro vs DT 990 Pro: ¿Cerrados o Abiertos para Mezclar?
+FS_SPECS:
+  [undefined / Tipo]: Closed-back || Open-back
+  [undefined / Respuesta de Frecuencia]: 5 Hz – 35 kHz || 5 Hz – 35 kHz
+  [undefined / Impedancia]: 32 / 80 / 250 Î© || 80 / 250 Î©
+  [undefined / Driver]: 45 mm dynamic || 45 mm dynamic
+  [undefined / SPL]: 96 dB || 96 dB
+COMPARISON:
+  [Year / Año]: 1985 || 1985
+  [Type / Tipo]: Closed-back || Open-back
+  [Best For / Ideal Para]: Closed-back tracking and monitoring || Open-back mixing and listening
+  [Frequency Response / Respuesta de Frecuencia]: 5 Hz – 35 kHz || 5 Hz – 35 kHz
+  [Impedance / Impedancia]: 32 / 80 / 250 Ω || 80 / 250 Ω
+  [Driver / Driver]: 45 mm dynamic || 45 mm dynamic
+  [Sensitivity (SPL) / Sensibilidad (SPL)]: 96 dB || 96 dB
+  [Max Input Power / Potencia Máx. de Entrada]: 100 mW || 100 mW
+  [Cable / Cable]: Fixed, 3 m (coiled/straight by variant) || Fixed, 3 m + ¼" adapter
+  [Weight / Peso]: 270 g || 250 g
+  [Price / Precio]: $159 || $169
+VPC:
+
+[P] Beyerdynamic DT 770 Pro
+  P0: Closed-back design with velour earpads provides exceptional passive isolation up to 35dB, letting you track vocals or record in the same room as a drum kit without bleed
+  P1: Bass response extends down to 5Hz and is elevated around 80Hz, giving kick drums and bass lines a powerful punchy feel that makes tracking low-end satisfying
+  P2: Every single part is replaceable — headband padding earpads cable and driver assembly are all user-serviceable with standard tools
+  P3: Steel headband with robust ABS plastic construction withstands being tossed in gear bags and daily studio abuse for years
+  P4: Detachable coiled cable standard on the 80-ohm version gives 3 meters of reach with retracting coils and no cable noise transmitted to earcups
+  PE0: Diseño cerrado con almohadillas de terciopelo proporciona aislamiento pasivo de hasta 35dB, permitiendo grabar voces en la misma habitación que una batería sin sangrado
+  PE1: Respuesta de graves hasta 5Hz y elevada alrededor de 80Hz, dando a bombos y bajos una sensación potente y contundente
+  PE2: Cada pieza es reemplazable — almohadillas cable y driver son reparables por el usuario con herramientas estándar
+  PE3: Diadema de acero con construcción robusta de ABS soporta ser arrojado en bolsas de equipo y abuso diario de estudio durante años
+  PE4: Cable en espiral desmontable en versión de 80 ohmios da 3 metros de alcance con bobinas retráctiles
+  C0: Elevated bass response can mislead mixing decisions — tracks balanced on DT 770 may translate as bass-light on flat monitors
+  C1: Notorious 8kHz spike adds artificial sibilance and harshness on cymbals and vocal sibilants, causing ear fatigue during long sessions
+  C2: Non-detachable cable on 32-ohm and 250-ohm models means cable failure requires soldering repair
+  C3: High clamping force causes discomfort during sessions longer than two hours for users with wider head shapes
+  CE0: Respuesta de graves elevada puede engañar decisiones de mezcla — pistas equilibradas en DT 770 pueden traducirse como pobres en graves en monitores planos
+  CE1: Pico notorio en 8kHz añade sibilancia artificial y aspereza en platillos y sibilantes vocales causando fatiga auditiva
+  CE2: Cable no desmontable en modelos de 32 y 250 ohmios significa que fallo de cable requiere soldadura
+  CE3: Alta fuerza de sujeción causa incomodidad durante sesiones de más de dos horas para usuarios con cabezas anchas
+
+[P] Beyerdynamic DT 990 Pro
+  P0: Open-back design creates a natural spacious soundstage with excellent air and separation between instruments, critical for mixing decisions where spatial positioning matters
+  P1: Treble emphasis around 9kHz gives transients and high-frequency details a crisp articulate edge revealing flaws in reverb tails and cymbal decay
+  P2: Lightweight at 290 grams with plush velour earpads that barely compress over time, comfortable for 6-8 hour mixing sessions
+  P3: Bass is tight and controlled rather than boomy, giving accurate sub-bass extension and low-end punch without masking midrange clarity
+  P4: Same user-serviceable modular design as DT 770 — every component from cable to driver can be replaced at home
+  PE0: Diseño abierto crea escenario sonoro espacioso con excelente aire y separación entre instrumentos, crítico para decisiones de mezcla
+  PE1: Énfasis en agudos alrededor de 9kHz da a transitorios un borde nítido revelando fallos en colas de reverb y decadencia de platillos
+  PE2: Ligero a 290 gramos con almohadillas de terciopelo mullidas cómodas para sesiones de mezcla de 6-8 horas
+  PE3: Graves ajustados y controlados sin ser retumbantes, dando extensión precisa de subgraves sin enmascarar claridad de medios
+  PE4: Mismo diseño modular reparable que DT 770 — cada componente puede reemplazarse en casa
+  C0: Open-back offers virtually no isolation — bleed from room noise leaks in and headphones leak sound audibly to others nearby
+  C1: Pronounced 9kHz treble peak causes listening fatigue after 2-3 hours and mixes may sound dull on systems lacking that high-frequency emphasis
+  C2: No removable cable on any version — cable break requires soldering repair on the entire headphone
+  C3: Bass lacks sub-bass extension below 30Hz that electronic music producers need to feel low-end content
+  CE0: Diseño abierto no ofrece aislamiento — el ruido ambiental se filtra y los auriculares filtran sonido audiblemente a otros cercanos
+  CE1: Pico pronunciado de agudos en 9kHz causa fatiga auditiva tras 2-3 horas y las mezclas pueden sonar apagadas en otros sistemas
+  CE2: Sin cable removible en ninguna versión — rotura de cable requiere soldadura en todo el auricular
+  CE3: Graves carecen de extensión por debajo de 30Hz para producción de música electrónica
+
+AUDIT_FLAGS:
+[GENERIC] dt770-vs-dt990 / Beyerdynamic DT 990 Pro / pros: Open-back design creates a natural spacious soundstage with excellent air and separation between instruments, critical for mixing decisions where spatial positioning matters
+
+# GUIDE: hs8-vs-rokit-7
+TITLE: HS8 vs Rokit 7 G5: Which Is Honest for Mixing?
+TITLE_ES: HS8 vs Rokit 7 G5: ¿Cuál es Honesto para Mezclar?
+FS_SPECS:
+  [undefined / Woofer]: 8" cone || 7" Kevlar
+  [undefined / Tweeter]: 1" dome || 1" silk dome
+  [undefined / Respuesta de Frecuencia]: 38 Hz – 30 kHz || 45 Hz – 36 kHz
+  [undefined / Potencia]: 120W (75W LF + 45W HF) || 145W (97W LF + 48W HF)
+COMPARISON:
+  [Year / Año]: 2014 || 2023
+  [Type / Tipo]: 2-way bi-amp, bass-reflex || 2-way bi-amp
+  [Best For / Ideal Para]: Flat-response reference mixing || Bass-forward production
+  [Woofer / Woofer]: 8" cone (cellulose) || 7" Kevlar cone
+  [Tweeter / Tweeter]: 1" dome || 1" silk dome
+  [Frequency Response / Respuesta de Frecuencia]: 38 Hz – 30 kHz (-10 dB) || 43 Hz – 40 kHz (±3 dB)
+  [Power / Potencia]: 120W (75W LF + 45W HF) || 145W (97W LF + 48W HF)
+  [Max SPL / SPL Máximo]: 120 dB || 109 dB
+  [Crossover / Frecuencia de Cruce]: 2 kHz || 2.4 kHz
+  [Connectivity / Conectividad]: XLR + TRS balanced || Combo XLR/TRS + RCA
+  [Weight / Peso]: 22.5 lbs / 10.2 kg || 16.5 lbs / 7.5 kg
+  [Dimensions / Dimensiones]: 9.8 x 15.4 x 13.1 in || 13.35 x 8.86 x 11.42 in
+  [Price / Precio]: $798 || $538
+VPC:
+
+[P] Yamaha HS8
+  P0: Flat frequency response within ±1.5dB from 40Hz to 20kHz — the most phase-accurate reproduction in its price class for reliable mix translation
+  P1: White cone uses proprietary mica composite diaphragm stiffer and lighter than standard paper or polypropylene, reducing cone breakup at high SPL
+  P2: Rear-panel room control switches attenuate boundary bass buildup by -2dB or -4dB below 500Hz, adapting monitors to room acoustics without graphic EQ
+  P3: Front-ported bass reflex design allows closer wall placement than rear-ported competitors, crucial for small bedrooms and home studios
+  P4: Bi-amped design with separate 75W and 45W amplifiers ensures clean power without intermodulation distortion at moderate to high levels
+  PE0: Respuesta plana dentro de ±1.5dB de 40Hz a 20kHz — la reproducción más precisa en fase en su clase de precio
+  PE1: Cono blanco usa diafragma compuesto de mica patentado más rígido y ligero que papel o polipropileno estándar
+  PE2: Interruptores de control de sala atenúan acumulación de graves en -2dB o -4dB por debajo de 500Hz
+  PE3: Diseño bass reflex frontal permite colocación más cerca de paredes que competidores con puerto trasero
+  PE4: Diseño bi-amplificado con amplificadores separados de 75W y 45W asegura energía limpia sin distorsión
+  C0: Stereo imaging width is noticeably narrower than competing monitors like KRK Rokits or Adam A-series with a tight sweet spot
+  C1: The 8-inch woofer requires at least 1.5 meters listening distance for woofer and tweeter to integrate properly
+  C2: Pronounced dip around 2kHz can make vocals and snares sound recessed compared to monitors with flat upper-mid response
+  C3: Amplifier hiss is audible at idle from the listening position in quiet rooms
+  CE0: Amplitud de imagen estéreo notablemente más estrecha que competidores como KRK Rokits o Adam A-series con punto óptimo ajustado
+  CE1: El woofer de 8 pulgadas requiere al menos 1.5 metros de distancia para integración adecuada entre woofer y tweeter
+  CE2: Dip pronunciado alrededor de 2kHz puede hacer que voces y caja suenen retraídas
+  CE3: Siseo del amplificador audible en reposo desde la posición de escucha en salas silenciosas
+
+[P] KRK Rokit 7 G5
+  P0: Built-in DSP-driven graphic EQ with 25 bands via KRK App gives precise room correction without external hardware, compensating for room modes with surgical precision
+  P1: Kevlar-reinforced aramid fiber woofer is extremely rigid yet lightweight, providing fast transient response and low distortion even at high SPL
+  P2: Waveguide tweeter design improves horizontal dispersion creating a wider sweet spot that accommodates multiple listening positions without tonal shifts
+  P3: Front-firing bass port allows near-wall placement without boomy bass buildup typical of rear-ported monitors
+  P4: Built-in limiter protection prevents driver damage from accidental overloads before woofer or tweeter reach mechanical limits
+  PE0: EQ gráfico DSP integrado con 25 bandas vía app KRK proporciona corrección de sala precisa sin hardware externo
+  PE1: Woofer de fibra de aramida reforzado con Kevlar extremadamente rígido pero ligero para respuesta transitoria rápida
+  PE2: Diseño de tweeter con guía de ondas mejora dispersión horizontal creando punto óptimo más amplio
+  PE3: Puerto de graves frontal permite colocación cerca de pared sin acumulación retumbante
+  PE4: Limitador incorporado protege drivers de daños por sobrecargas accidentales
+  C0: Stock factory tuning boosts low-mids around 200-400Hz by design, masking muddiness so clean mixes may translate as boomy on flat systems
+  C1: Kevlar woofer requires 40-60 hour break-in period before low-end response stabilizes
+  C2: DSP processing introduces slight latency through A-D-D-A conversion chain, causing phase alignment issues with analog outboard gear
+  C3: KRK App required for DSP tuning is mobile-only and Bluetooth pairing can be unreliable
+  CE0: Ajuste de fábrica realza medios-graves alrededor de 200-400Hz enmascarando barro, mezclas limpias pueden sonar retumbantes en sistemas planos
+  CE1: Woofer de Kevlar requiere 40-60 horas de adaptación antes de estabilizar respuesta de graves
+  CE2: Procesamiento DSP introduce ligera latencia causando problemas de alineación de fase con equipo analógico externo
+  CE3: App KRK requiere Bluetooth y es solo para móvil, conexión puede ser poco fiable
+
+AUDIT_FLAGS:
+[GENERIC] hs8-vs-rokit-7 / Yamaha HS8 / pros: Flat frequency response within ±1.5dB from 40Hz to 20kHz — the most phase-accurate reproduction in its price class for reliable mix translation
+
+# GUIDE: hd490-pro-vs-dt990
+TITLE: HD 490 Pro vs DT 990 Pro: Open-Back for Mixing?
+TITLE_ES: HD 490 Pro vs DT 990 Pro: ¿Abiertos para Mezclar?
+FS_SPECS:
+  [undefined / Tipo]: Open-back || Open-back
+  [undefined / Respuesta de Frecuencia]: 5 Hz – 36 kHz || 5 Hz – 35 kHz
+  [undefined / Impedancia]: 130 Ω || 80 / 250 Ω
+  [undefined / Driver]: 38 mm dynamic || 45 mm dynamic
+  [undefined / SPL]: 105 dB || 96 dB
+COMPARISON:
+  [Year / Año]: 1997 || 1985
+  [Type / Tipo]: Open-back || Open-back
+  [Best For / Ideal Para]: Critical mixing reference || Open-back mixing and listening
+  [Frequency Response / Respuesta de Frecuencia]: 12 Hz – 40.5 kHz || 5 Hz – 35 kHz
+  [Impedance / Impedancia]: 300 Ω || 80 / 250 Ω
+  [Driver / Driver]: 42 mm dynamic || 45 mm dynamic
+  [Sensitivity (SPL) / Sensibilidad (SPL)]: 97 dB || 96 dB
+  [Max Input Power / Potencia Máx. de Entrada]: 200 mW || 100 mW
+  [Cable / Cable]: Detachable, 3 m, ¼" || Fixed, 3 m
+  [Weight / Peso]: 260 g || 250 g
+  [Price / Precio]: $399 || $169
+VPC:
+
+[P] Sennheiser HD 490 Pro Plus
+  P0: Modern reference neutrality with the deepest, most defined bass of any Sennheiser open-back under $500
+  P1: 130-ohm impedance drives easily from any interface, laptop, or phone — no amp required
+  P2: Two switchable ear pad sets (mixing + producing) tune the sound to the job
+  P3: Washable, replaceable pads and open-frame architecture keep THD under 0.2%
+  P4: Includes dearVR MIX-SE plugin for virtual-room mix translation checks
+  PE0: Neutralidad de referencia moderna con los graves más profundos y definidos de cualquier Sennheiser abierto por menos de $500
+  PE1: Impedancia de 130 ohmios que funciona desde cualquier interfaz, laptop o teléfono — sin amplificador
+  PE2: Dos juegos de almohadillas intercambiables (mezcla + producción) ajustan el sonido al trabajo
+  PE3: Almohadillas lavables y reemplazables y arquitectura de marco abierto mantienen el THD bajo 0.2%
+  PE4: Incluye el plugin dearVR MIX-SE para comprobar la traducción de mezcla en sala virtual
+  C0: Open-back leaks sound — unusable while recording vocals with a live microphone
+  C1: $499 — a real spend versus the $169 DT 990 Pro
+  C2: Needs a quiet room to get the full benefit of the open design
+  CE0: Abiertos, fugan sonido — inutilizables al grabar voces con un micrófono activo
+  CE1: $499 — un gasto real frente a las DT 990 Pro de $169
+  CE2: Necesitan una habitación silenciosa para aprovechar el diseño abierto
+
+[P] Beyerdynamic DT 990 Pro
+  P0: Perforated grille expansive soundstage width depth instrument separation
+  P1: Treble emphasis 9kHz crisp articulate edge reveals reverb tails
+  P2: 250-ohm balances portability with amplifier benefit
+  P3: Velour earpads breathable comfortable 6+ hours
+  P4: Beyerdynamic 10-year parts availability
+  PE0: Rejilla perforada con escenario expansivo: amplitud, profundidad y separación de instrumentos
+  PE1: Énfasis de agudos en 9kHz con borde nítido que revela las colas de reverb
+  PE2: 250 ohmios equilibra portabilidad con amplificador
+  PE3: Almohadillas de terciopelo transpirables y cómodas durante 6+ horas
+  PE4: Disponibilidad piezas Beyerdynamic 10 años
+  C0: 9kHz treble peak causes listening fatigue after 2-3 hours
+  C1: Mix translation unreliable tracks dull on flat systems
+  C2: Non-detachable cable requires soldering if fails
+  C3: Bass lacks extension below 40Hz no sub-bass impact
+  CE0: El pico de 9kHz causa fatiga auditiva tras 2-3 horas
+  CE1: La traducción de mezclas no es fiable: las pistas suenan apagadas en sistemas planos
+  CE2: Cable no desmontable requiere soldadura si falla
+  CE3: Graves sin extensión por debajo de 40Hz
+
+AUDIT_FLAGS:
+[CONS_LE_3] hd490-pro-vs-dt990 / Sennheiser HD 490 Pro Plus: 3 cons only: Open-back leaks sound — unusable while recording vocals with a live microphone | $499 — a real spend versus the $169 DT 990 Pro | Needs a quiet room to get the full benefit of the open design
+
+# GUIDE: sm7b-vs-nt1
+TITLE: SM7B vs NT1 5th Gen: Best Vocal Mic for $400?
+TITLE_ES: SM7B vs NT1 5ª Gen: ¿Mejor Micrófono de Voz por $400?
+FS_SPECS:
+  [undefined / Tipo]: Dynamic || Condenser
+  [undefined / Patrón Polar]: Cardioid || Cardioid
+  [undefined / Respuesta de Frecuencia]: 50 Hz – 20 kHz || 20 Hz – 20 kHz
+  [undefined / Ruido Propio]: N/A (dynamic) || 4dBA
+COMPARISON:
+  [Year / Año]: 2001 || 2023
+  [Type / Tipo]: Dynamic || Condenser (1")
+  [Best For / Ideal Para]: Broadcast, podcast, and streaming || Home studio vocal recording
+  [Polar Pattern / Patrón Polar]: Cardioid || Cardioid
+  [Frequency Response / Respuesta de Frecuencia]: 50 Hz – 20 kHz || 20 Hz – 20 kHz
+  [Sensitivity / Sensibilidad]: -59 dB (1.12 mV/Pa) || -32 dB (25 mV/Pa)
+  [Output Impedance / Impedancia de Salida]: 150 Ω || 100 Ω
+  [Self-Noise / Ruido Propio]: N/A (dynamic) || 4 dBA
+  [Max SPL / SPL Máximo]: N/A (dynamic) || 142 dB
+  [Controls / Controles]: Bass rolloff + presence boost || On-board DSP (compressor, noise gate, HPF); Dual Connect XLR/USB-C; 32-bit float
+  [Weight / Peso]: 1 lb 11 oz / 765 g || 10.9 oz / 308 g
+  [Price / Precio]: $399 || $269
+VPC:
+
+[P] Shure SM7B
+  P0: Dynamic capsule handles high SPL from screams and loud sources without distortion or clipping what condenser mics could not survive
+  P1: Built-in presence boost and bass roll-off switches tailor frequency response to voice without external EQ
+  P2: Cardioid pattern with excellent rear rejection captures minimal room sound reducing need for treated acoustics
+  P3: Internal air suspension shock mount eliminates handling noise without external suspension hardware required
+  P4: Treated leatherette grille minimizes explosive plosives without separate pop filter needed
+  PE0: Cápsula dinámica maneja alto SPL sin distorsión que condensadores no sobrevivirían
+  PE1: Interruptores presencia y corte graves personalizan respuesta sin EQ externo
+  PE2: Patrón cardioide con rechazo trasero excelente que minimiza el sonido de la sala
+  PE3: Suspensión interna elimina el ruido de manipulación sin hardware adicional
+  PE4: Rejilla de cuero minimiza las explosivas sin filtro pop separado
+  C0: Requires inline preamp booster like Cloudlifter or FetHead to achieve adequate gain with most audio interfaces
+  C1: Heavy 1.3kg needs sturdy boom arm cannot use standard mic stand without sagging
+  C2: Limited frequency response above 10kHz lacks air and sparkle of condensers
+  C3: Bulky size difficult to position in tight spaces or behind pop filters
+  CE0: Requiere un booster de preamplificación como el Cloudlifter para lograr una ganancia adecuada
+  CE1: Pesa 1.3kg: necesita un brazo robusto porque se hunde en un soporte estándar
+  CE2: Respuesta en frecuencia limitada por encima de 10kHz: carece del aire de los condensadores
+  CE3: Tamaño voluminoso, difícil de posicionar en espacios estrechos
+
+[P] Rode NT1 5th Generation
+  P0: Exceptionally low self-noise of just 4dBA - the world's quietest studio condenser - capturing subtle details SM7B misses entirely
+  P1: Dual Connect output: works as a classic XLR condenser or plugs straight into a computer via USB-C with a built-in Revolution preamp
+  P2: World-first 32-bit float digital output makes clipping virtually impossible, even recording drums or loud vocals
+  P3: Includes studio-grade SM6 shock mount, pop filter, XLR and USB-C cables - a complete package worth over $150 separately
+  P4: Ultra-lightweight 308g on standard mic stand with no boom arm sagging issues
+  P5: On-board APHEX DSP (compressor, noise gate, high-pass filter, Aural Exciter, Big Bottom) for processing without extra software
+  PE0: Ruido propio ultrabajo de solo 4dBA - el condensador de estudio más silencioso del mundo - capturando detalles sutiles que la SM7B pierde
+  PE1: Salida Dual Connect: funciona como condensador XLR clásico o se conecta directo al ordenador por USB-C con preamplificador Revolution integrado
+  PE2: Salida digital float de 32 bits, la primera del mundo, hace prácticamente imposible el clipping, incluso grabando batería o voces fuertes
+  PE3: Incluye soporte antigolpes y filtro pop SM6 de grado estudio, cables XLR y USB-C - un paquete completo valorado en más de $150 por separado
+  PE4: Ultraligero con 308g en soporte de micrófono estándar sin problemas de caída del brazo
+  PE5: DSP APHEX integrado (compresor, noise gate, filtro paso alto, Aural Exciter, Big Bottom) para procesar sin software adicional
+  C0: Captures every room sound including HVAC fans and traffic, requiring a treated acoustic space
+  C1: Requires Rode Central software to configure DSP effects and update firmware
+  C2: Sibilance can be harsh on bright singers without a de-esser in post
+  C3: Pop filter (included) always recommended since there's no built-in grille protection like the SM7B
+  CE0: Captura todos los sonidos de la sala incluyendo ventiladores HVAC y tráfico, requiriendo un espacio acústicamente tratado
+  CE1: Requiere el software Rode Central para configurar los efectos DSP y actualizar el firmware
+  CE2: La sibilancia puede ser dura en cantantes brillantes sin de-esser en postproducción
+  CE3: El filtro pop (incluido) siempre se recomienda ya que no hay protección de rejilla incorporada como la SM7B
+
+AUDIT_FLAGS:
+[GENERIC] sm7b-vs-nt1 / Shure SM7B / pros: Cardioid pattern with excellent rear rejection captures minimal room sound reducing need for treated acoustics
+
+# GUIDE: ew100-vs-ulxd
+TITLE: EW 100 G4 vs EW-D: Best Wireless for Live?
+TITLE_ES: EW 100 G4 vs EW-D: ¿Mejor Inalámbrico para Directo?
+FS_SPECS:
+  [undefined / Frecuencia]: UHF (multiple bands) || UHF (G50 band)
+  [undefined / Rango Dinámico]: > 110 dB || > 120 dB
+  [undefined / Rango de transmisión]: Up to 330 ft || Up to 330 ft
+  [undefined / Micrófono incluido]: E 935 (dynamic cardioid) || SM58 (dynamic cardioid)
+COMPARISON:
+  [Year / Año]: 2018 (G4; discontinued, EW-D successor) || 2021 (EW-D)
+  [Best For / Ideal Para]: Professional live vocal wireless || Premium digital wireless system
+  [Technology / Tecnología]: Analog UHF (HDX compander) || Digital 24-bit / 48 kHz
+  [Frequency / Frecuencia]: UHF (multiple bands, up to 42 MHz tuning / 1,680 freqs) || UHF (56 MHz tuning, equidistant grid, up to 90 channels)
+  [Dynamic Range / Rango Dinámico]: >110 dB (S/N) || 134 dB (digital, 24-bit)
+  [Transmission Range / Alcance de Transmisión]: Up to 330 ft (100 m) || Up to 330 ft (100 m)
+  [Latency / Latencia]: N/A (analog) || 1.9 ms
+  [Encryption / Cifrado]: No || No
+  [Mic Included / Micrófono Incluido]: E 935 (dynamic cardioid) || ME 2 lavalier (omni) + MMD 835 (cardioid)
+  [Price / Precio]: $849 || $999
+VPC:
+
+[P] Sennheiser EW 100 G4-935
+  P0: True diversity receiver with two antennas eliminates dropouts in RF-crowded venues with multipath interference
+  P1: Up to 42MHz switching bandwidth across UHF range provides flexibility finding clean frequencies anywhere
+  P2: Auto-scan finds and locks to cleanest frequency instantly even in hostile RF environments
+  P3: Ethernet connection allows remote monitoring and frequency coordination through Sennheiser Control Cockpit
+  P4: Build quality with metal receiver chassis withstands tour rack abuse over years
+  PE0: Receptor de diversidad verdadera con dos antenas elimina cortes en RF congestionada
+  PE1: Ancho de banda de conmutación de 42MHz UHF proporciona flexibilidad en frecuencias limpias
+  PE2: Auto-scan encuentra y bloquea frecuencia más limpia al instante
+  PE3: Conexión Ethernet permite monitoreo remoto y coordinación de frecuencias
+  PE4: Chasis receptor metálico soporta el abuso del rack de gira por años
+  C0: Transmitter battery compartment latch feels flimsy can break open during active stage performance
+  C1: No USB-C charging transmitter uses AA batteries requiring disposable battery inventory
+  C2: Limited to 12 compatible channels per frequency bank
+  C3: Menu navigation with jog wheel is slower than digital app-based interface
+  CE0: La pestaña del compartimento de baterías es frágil y puede abrirse durante la presentación
+  CE1: Sin carga USB-C, el transmisor usa baterías AA requiriendo inventario
+  CE2: Limitado a 12 canales compatibles por banco frecuencia
+  CE3: Navegación menu con rueda más lenta que interfaz digital por app
+
+[P] Sennheiser EW-D Dual Wireless System
+  P0: Digital transmission with 134 dB dynamic range eliminates sensitivity adjustments and preserves every detail
+  P1: Smart Assist App via Bluetooth provides full control from anywhere in the venue
+  P2: Lowest latency in its class at 1.9 ms for natural feel during performance
+  P3: 56 MHz bandwidth with up to 90 channels for large-scale productions
+  P4: Comes with both handheld MMD 835 and lavalier ME 2 transmitters in one box
+  PE0: Transmisión digital con 134 dB de rango dinámico elimina ajustes de sensibilidad y preserva cada detalle
+  PE1: App Smart Assist via Bluetooth proporciona control total desde cualquier lugar
+  PE2: Latencia más baja en su clase, 1.9 ms para sensación natural en presentación
+  PE3: 56 MHz de ancho de banda, hasta 90 canales para producciones a gran escala
+  PE4: Incluye transmisores mano MMD 835 y lavalier ME 2 en una caja
+  C0: Relatively new system with fewer long-term reliability data points than EW 100 G4
+  C1: Optional rechargeable battery pack BA 70 sold separately adding cost
+  C2: Up to 8 hours with AA batteries less than some competitors with built-in rechargeables
+  C3: Requires smartphone app for full feature access may be inconvenient for some users
+  CE0: Sistema relativamente nuevo con menos datos de fiabilidad a largo plazo que el EW 100 G4
+  CE1: El paquete de batería recargable BA 70 es opcional y se vende por separado
+  CE2: Hasta 8 horas con pilas AA: menos que algunos competidores con recargables integrados
+  CE3: Requiere app smartphone para funciones completas puede ser incómodo para algunos usuarios
+
+AUDIT_FLAGS:
+[GENERIC] ew100-vs-ulxd / Sennheiser EW 100 G4-935 / pros: Build quality with metal receiver chassis withstands tour rack abuse over years
+
+# GUIDE: best-reverb-delay
+TITLE: Best Reverb & Delay Pedals for Guitar
+TITLE_ES: Mejores Pedales de Reverberación y Delay para Guitarra
+VPC:
+
+[P] Boss DD-8 Digital Delay
+  P0: 11 delay modes — analog, tape, reverse, shimmer — cover every delay sound
+  P1: 40 seconds of loop time turns the pedal into a capable looper
+  P2: Compact Boss form factor (73 x 129 x 59 mm) fits any pedalboard
+  P3: Only 65 mA draw with true bypass and optional battery power
+  PE0: 11 modos de delay — analógico, cinta, reverso, shimmer — cubren cualquier sonido de delay
+  PE1: 40 segundos de tiempo de loop convierten el pedal en un looper capaz
+  PE2: Formato compacto Boss (73 x 129 x 59 mm) que cabe en cualquier pedalera
+  PE3: Solo 65 mA de consumo con true bypass y alimentación opcional por pila
+  C0: Sin footswitch de tap tempo dedicado — requiere el switch externo opcional
+  C1: Entrada/salida mono: sin delays estéreo como el BigSky MX
+  C2: Ajustar funciones secundarias (assign, carryover) exige el manual
+  C3: El modo looper comparte el pedal: no puedes usar loop y delay largo a la vez
+  CE0: Sin footswitch de tap tempo dedicado — requiere el switch externo opcional
+  CE1: Entrada/salida mono: sin delays estéreo como el BigSky MX
+  CE2: Ajustar funciones secundarias (assign, carryover) exige el manual
+  CE3: El modo looper comparte el pedal: no puedes usar loop y delay largo a la vez
+
+[P] TC Electronic Hall of Fame 2
+  P0: 8 reverb types from spring to shimmer plus TonePrint custom slots
+  P1: TonePrint lets you download artist-designed algorithms via Bluetooth
+  P2: Mash footswitch adds expression control over decay and FX
+  P3: Compact 72 x 131 x 54 mm pedal that punches well above its $169 price
+  PE0: 8 tipos de reverb, de spring a shimmer, más ranuras TonePrint personalizables
+  PE1: TonePrint permite descargar algoritmos diseñados por artistas vía Bluetooth
+  PE2: El footswitch Mash añade control de expresión sobre decay y FX
+  PE3: Pedal compacto de 72 x 131 x 54 mm que rinde muy por encima de su precio de $169
+  C0: 150 mA es un consumo alto frente a los 65 mA del DD-8 — revisa tu fuente
+  C1: Entrada/salida mono: sin reverbs estéreo reales
+  C2: Solo 3 ranuras TonePrint activas a la vez
+  C3: Los controles de Tone y Decay son compartidos — el ajuste fino requiere la app
+  CE0: 150 mA es un consumo alto frente a los 65 mA del DD-8 — revisa tu fuente
+  CE1: Entrada/salida mono: sin reverbs estéreo reales
+  CE2: Solo 3 ranuras TonePrint activas a la vez
+  CE3: Los controles de Tone y Decay son compartidos — el ajuste fino requiere la app
+
+[P] Strymon BigSky MX
+  P0: 16 reverb machines with studio-quality stereo processing
+  P1: New V2 engine adds dynamic reverb, freeze effects and live looping
+  P2: 300 presets in a wide, road-ready enclosure
+  P3: The gold standard used by touring professionals and top studios
+  PE0: 16 máquinas de reverb con procesamiento estéreo de calidad de estudio
+  PE1: El nuevo motor V2 añade reverb dinámica, efectos freeze y looping en vivo
+  PE2: 300 presets en un chasis ancho y listo para la carretera
+  PE3: El estándar de oro usado por profesionales de gira y estudios top
+  C0: $699 es 4x el precio de la Hall of Fame 2 — una inversión que pocos aficionados necesitan
+  C1: 500 mA de consumo exigen una fuente aislada de alta corriente
+  C2: El chasis ancho (168 x 139 x 66 mm) ocupa mucho espacio en la pedalera
+  C3: El sistema de menús hace la edición de presets más lenta que las perillas de la HoF2
+  CE0: $699 es 4x el precio de la Hall of Fame 2 — una inversión que pocos aficionados necesitan
+  CE1: 500 mA de consumo exigen una fuente aislada de alta corriente
+  CE2: El chasis ancho (168 x 139 x 66 mm) ocupa mucho espacio en la pedalera
+  CE3: El sistema de menús hace la edición de presets más lenta que las perillas de la HoF2
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Big loops in a small pedal ~ Loops grandes en pedal compacto | Versatile digital delay & looper ~ Delay digital versátil y looper | Endless reverb sounds in one pedal ~ Sonidos de reverb infinitos en un pedal | Massive studio-grade reverbs ~ Reverbs masivas de nivel estudio
+  PT[Type/Tipo]: Loop station ~ Loop station | Digital delay ~ Delay digital | Digital reverb ~ Reverb digital | Multi-algorithm reverb ~ Reverb multi-algoritmo
+  PT[Controls/Controles]: Loop time, rhythm, drum sounds ~ Tiempo de loop, ritmos, drums | Mode, Time, Feedback, E.Level ~ Mode, Time, Feedback, E.Level | Decay, Tone, Level, FX ~ Decay, Tone, Level, FX | Encoders, mini-display ~ Encoders, mini-pantalla
+  PT[Bypass/Bypass]: True bypass ~ True bypass | True bypass ~ True bypass | True bypass ~ True bypass | True bypass ~ True bypass
+  PT[Power/Alimentación]: 9V DC ~ 9V DC | 9V DC (optional battery) ~ 9V DC (pila opcional) | 9V DC ~ 9V DC | 9V DC (center negative) ~ 9V DC (centro negativo)
+  PT[Current Draw/Consumo de Corriente]: 100 mA ~ 100 mA | 65 mA ~ 65 mA | 150 mA ~ 150 mA | 500 mA ~ 500 mA
+  PT[Size/Tamaño]: Compact (73 x 129 x 59 mm) ~ Compacto (73 x 129 x 59 mm) | Compact (73 x 129 x 59 mm) ~ Compacto (73 x 129 x 59 mm) | Compact (72 x 131 x 54 mm) ~ Compacto (72 x 131 x 54 mm) | Wide (168 x 139 x 66 mm) ~ Ancho (168 x 139 x 66 mm)
+  PT[Standout Feature/Característica Destacada]: 13 hours loop, 57 drum patterns ~ Loop 13 horas, 57 patrones de batería | 11 delay modes + 40s looper ~ 11 modos de delay + looper 40s | Toneprint, 11 reverb types ~ Toneprint, 11 tipos de reverb | 300 presets, 12 algorithms ~ 300 presets, 12 algoritmos
+  PT[Price/Precio]: $199 ~ $199 | $179 ~ $179 | $169 ~ $169 | $699 ~ $699
+
+AUDIT_FLAGS:
+[GENERIC] best-reverb-delay / Strymon BigSky MX / pros: 16 reverb machines with studio-quality stereo processing
+
+# GUIDE: best-live-sound-mixers
+TITLE: Best Live Sound Mixers for Bands & Events
+TITLE_ES: Mejores Mezcladores de Sonido en Vivo para Bandas y Eventos
+VPC:
+
+[P] Yamaha MG10XU
+  P0: 10-channel analog mixer with 6 D-PRE mic preamps at just $199
+  P1: Built-in SPX digital effects and useful one-knob compressors on channels 1-2
+  P2: USB audio interface for recording straight to a computer
+  P3: 4.6 lb — compact enough for a backpack
+  PE0: Mesa analógica de 10 canales con 6 preamplificadores D-PRE por solo $199
+  PE1: Efectos digitales SPX integrados y útiles compresores de una perilla en los canales 1-2
+  PE2: Interfaz de audio USB para grabar directo a la computadora
+  PE3: 2,1 kg — lo bastante compacta para una mochila
+  C0: Solo 2 envíos aux y EQ de 3 bandas — sin recall de escenas ni routing profundo
+  C1: 6 entradas de micrófono se quedan cortas para bandas grandes
+  C2: Sin faders motorizados ni memorias digitales para consistencia entre shows
+  C3: Los compresores de una perilla se limitan a dos canales
+  CE0: Solo 2 envíos aux y EQ de 3 bandas — sin recall de escenas ni routing profundo
+  CE1: 6 entradas de micrófono se quedan cortas para bandas grandes
+  CE2: Sin faders motorizados ni memorias digitales para consistencia entre shows
+  CE3: Los compresores de una perilla se limitan a dos canales
+
+[P] Behringer X32 Compact
+  P0: 25 motorized faders, 32 channels and 16 aux buses in a compact digital frame
+  P1: Scene automation recalls complete mixes instantly
+  P2: 32 MIDAS preamps, 8 FX engines, iPad remote control and AES50 expandability
+  P3: 32-channel USB recording — a recording studio at the mix position
+  PE0: 25 faders motorizados, 32 canales y 16 buses aux en un chasis digital compacto
+  PE1: La automatización de escenas recupera mezclas completas al instante
+  PE2: 32 preamplificadores MIDAS, 8 motores FX, control remoto por iPad y expansión AES50
+  PE3: Grabación USB de 32 canales — un estudio de grabación en la posición de mezcla
+  C0: 44.1 lb — una inversión pesada y grande para bandas pequeñas con presupuesto ajustado
+  C1: Los preamps MIDAS suenan bien, pero los del A&H SQ-5 son notablemente más limpios
+  C2: Curva de aprendizaje para el software de escenas y routing
+  C3: El precio de $1,999 contrasta con alternativas analógicas de $199 para shows pequeños
+  CE0: 20 kg — una inversión pesada y grande para bandas pequeñas con presupuesto ajustado
+  CE1: Los preamps MIDAS suenan bien, pero los del A&H SQ-5 son notablemente más limpios
+  CE2: Curva de aprendizaje para el software de escenas y routing
+  CE3: El precio de $1.999 contrasta con alternativas analógicas de $199 para shows pequeños
+
+[P] Allen & Heath SQ-5
+  P0: 48 input channels (32 mono) with pristine A&H preamps — cleaner than the X32
+  P1: 8 stereo FX engines with RackExtra FX and a responsive 7-inch touchscreen
+  P2: Exceptional build quality and reliability for touring
+  P3: 2x dSnake ports and tablet control for flexible stage I/O
+  PE0: 48 canales de entrada (32 mono) con impecables preamps A&H — más limpios que los del X32
+  PE1: 8 motores FX estéreo con RackExtra FX y una pantalla táctil de 7 pulgadas responsiva
+  PE2: Calidad de construcción excepcional y fiabilidad para giras
+  PE3: 2x puertos dSnake y control por tablet para un I/O de escenario flexible
+  C0: $2,199 es $200 más que el X32 Compact
+  C1: 30.9 lb sigue exigiendo un rack de vuelo para giras
+  C2: 6 aux + 4 envíos FX frente a los 16 buses aux del X32 para mezclas de monitores complejas
+  C3: Las funciones premium no se aprovechan salvo que mezcles bandas completas cada semana
+  CE0: $2.199 es $200 más que el X32 Compact
+  CE1: 14 kg siguen exigiendo un rack de vuelo para giras
+  CE2: 6 aux + 4 envíos FX frente a los 16 buses aux del X32 para mezclas de monitores complejas
+  CE3: Las funciones premium no se aprovechan salvo que mezcles bandas completas cada semana
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Simple analog mixer with FX ~ Mesa analógica sencilla con FX | Digital mixer with deep I/O for bands ~ Mesa digital con I/O amplio para bandas | Small-format digital with pro sound ~ Digital de formato compacto con sonido pro
+  PT[Type/Tipo]: Analog mixer ~ Mesa analógica | Digital mixer ~ Mesa digital | Digital mixer ~ Mesa digital
+  PT[Channels/Canales]: 10 (6 mic) ~ 10 (6 mic) | 32 (32 mic preamps) ~ 32 (32 preamps) | 48 total (32 mono) ~ 48 totales (32 mono)
+  PT[Preamps/Preamplificadores]: 6 D-PRE ~ 6 D-PRE | 32 MIDAS ~ 32 MIDAS | 32 A&H ~ 32 A&H
+  PT[EQ/EQ]: 3-band per channel ~ 3 bandas por canal | 4-band fully parametric ~ 4 bandas totalmente paramétrico | 4-band parametric ~ 4 bandas paramétrico
+  PT[Aux Sends/Envíos Aux]: 2 aux sends ~ 2 envíos aux | 16 aux buses ~ 16 buses aux | 6 aux + 4 FX sends ~ 6 aux + 4 envíos FX
+  PT[Built-in FX/FX Integrados]: SPX digital FX ~ FX digital SPX | 8 FX engines ~ 8 motores FX | 8 FX slots (DEEP) ~ 8 slots FX (DEEP)
+  PT[Connectivity/Conectividad]: USB, 2 groups ~ USB, 2 grupos | USB, AES50, 16 out ~ USB, AES50, 16 salidas | USB, 2x dSnake, tablet ~ USB, 2x dSnake, tablet
+  PT[Weight/Peso]: 4.6 lb (2.1 kg) ~ 2,1 kg | 44.1 lb (20 kg) ~ 20 kg | 30.9 lb (14 kg) ~ 14 kg
+  PT[Price/Precio]: $199 ~ $199 | $1,999 ~ $1.999 | $2,199 ~ $2.199
+
+AUDIT_FLAGS:
+[GENERIC] best-live-sound-mixers / Allen & Heath SQ-5 / pros: Exceptional build quality and reliability for touring
+
+# GUIDE: best-pa-speakers
+TITLE: Best Powered PA Speakers for Live Sound
+TITLE_ES: Mejores Altavoces PA Activos para Sonido en Vivo
+VPC:
+
+[P] EV ZLX-12P Powered Speaker
+  P0: 1000W peak Class D with a 12-inch woofer and 1.5-inch titanium tweeter
+  P1: quickSmart DSP with preset EQs for music, live and voice
+  P2: 126 dB max SPL and 50 Hz–20 kHz response for its size
+  P3: Around 34 lb with Bluetooth input — the best value in powered PA
+  PE0: 1000W pico Clase D con woofer de 12 pulgadas y tweeter de titanio de 1,5 pulgadas
+  PE1: DSP quickSmart con EQs de preset para música, live y voz
+  PE2: 126 dB de SPL máximo y respuesta de 50 Hz–20 kHz para su tamaño
+  PE3: Unos 15.6 kg con entrada Bluetooth — la mejor relación calidad-precio en PA activo
+  C0: 1000W y 126 dB se quedan cortos frente a los 2000W/131 dB del K12.2 para venues grandes
+  C1: Los presets DSP son de fijar y olvidar, menos ajustables que los del K12.2
+  C2: El gabinete de polipropileno es ligero pero menos rúgido que el ABS del QSC
+  C3: Cuesta menos que el K12.2, pero no tiene su resistencia de carretera
+  CE0: 1000W y 126 dB se quedan cortos frente a los 2000W/131 dB del K12.2 para venues grandes
+  CE1: Los presets DSP son de fijar y olvidar, menos ajustables que los del K12.2
+  CE2: El gabinete de polipropileno es ligero pero menos rúgido que el ABS del QSC
+  CE3: Cuesta menos que el K12.2, pero no tiene su resistencia de carretera
+
+[P] QSC K12.2 Powered Speaker
+  P0: 2000W peak with a 12-inch woofer and 1.75-inch compression driver
+  P1: 131 dB max SPL with deep bass (48 Hz–20 kHz)
+  P2: DSP-guided crossover, 8 presets and onboard EQ to tune any room
+  P3: Rugged ABS enclosure — the touring standard found at every venue
+  PE0: 2000W pico con woofer de 12 pulgadas y driver de compresión de 1,75 pulgadas
+  PE1: 131 dB de SPL máximo con graves profundos (48 Hz–20 kHz)
+  PE2: Crossover guiado por DSP, 8 presets y EQ integrado para ajustar cualquier sala
+  PE3: Carcasa de ABS robusta — el estándar de gira que se ve en todos los venues
+  C0: $999 cada uno — $400 más que el ZLX-12P para presupuestos de venues pequeños
+  C1: 39 lb es más pesado que el ZLX-12P y solo 2 lb más ligero que el DXR12mkII
+  C2: Sin Bluetooth — hacer streaming requiere un adaptador aparte
+  C3: 2000W son excesivos si solo tocas salas pequeñas
+  CE0: $999 cada uno — $400 más que el ZLX-12P para presupuestos de venues pequeños
+  CE1: 39 lb (17,7 kg) es más pesado que el ZLX-12P y solo 2 lb más ligero que el DXR12mkII
+  CE2: Sin Bluetooth — hacer streaming requiere un adaptador aparte
+  CE3: 2000W son excesivos si solo tocas salas pequeñas
+
+[P] Yamaha DXR12mkII
+  P0: 1100W Class D with a 12-inch woofer and 1.75-inch titanium compression driver
+  P1: 10 FIR filters for precise tuning plus D-Contour multi-band processing
+  P2: 132 dB max SPL — the highest of the three featured
+  P3: Metal grille and rugged enclosure with premium build quality
+  PE0: 1100W Clase D con woofer de 12 pulgadas y driver de compresión de titanio de 1,75 pulgadas
+  PE1: 10 filtros FIR para un ajuste preciso más procesamiento multibanda D-Contour
+  PE2: 132 dB de SPL máximo — el más alto de los tres destacados
+  PE3: Rejilla metálica y carcasa robusta con calidad de construcción premium
+  C0: $899 se acerca a los $999 del K12.2 pero con menos potencia pico
+  C1: 52 Hz–20 kHz es el low-end más limitado del grupo
+  C2: Los presets DSP (sintonía D-XR) son menos flexibles que los 8 presets del QSC
+  C3: 41 lb todavía requiere las dos manos para transportarlo
+  CE0: $899 se acerca a los $999 del K12.2 pero con menos potencia pico
+  CE1: 52 Hz–20 kHz es el low-end más limitado del grupo
+  CE2: Los presets DSP (sintonía D-XR) son menos flexibles que los 8 presets del QSC
+  CE3: 18,6 kg todavía requieren las dos manos para transportarlo
+PRODUCT_TABLE:
+  PT[Best For/Ideal Para]: Budget-friendly powered speaker ~ Altavoz autoamplificado económico | Pro sound quality with lots of headroom ~ Calidad pro con mucho margen | High-output durable PA speaker ~ Altavoz PA duradero de alta salida
+  PT[Type/Tipo]: Powered PA speaker ~ Altavoz PA autoamplificado | Powered PA speaker ~ Altavoz PA autoamplificado | Powered PA speaker ~ Altavoz PA autoamplificado
+  PT[Power/Potencia]: 1000W (peak) ~ 1000W (pico) | 2000W (peak) ~ 2000W (pico) | 1300W (peak) ~ 1300W (pico)
+  PT[Driver/Altavoz]: 12" + 1" HF ~ 12" + 1" HF | 12" + 1.75" HF ~ 12" + 1,75" HF | 12" + 1.75" HF ~ 12" + 1,75" HF
+  PT[Frequency Response/Respuesta de Frecuencia]: 50 Hz – 20 kHz ~ 50 Hz – 20 kHz | 48 Hz – 20 kHz ~ 48 Hz – 20 kHz | 52 Hz – 20 kHz ~ 52 Hz – 20 kHz
+  PT[Max SPL/SPL Máximo]: 126 dB ~ 126 dB | 131 dB ~ 131 dB | 132 dB ~ 132 dB
+  PT[Coverage/Cobertura]: 90° x 60° ~ 90° x 60° | 90° x 60° ~ 90° x 60° | 90° x 60° ~ 90° x 60°
+  PT[DSP/DSP]: DSP presets (music/live/voice) ~ Presets DSP (music/live/voice) | DSP with 8 presets ~ DSP con 8 presets | DSP presets, D-XR tuning ~ Presets DSP, sintonía D-XR
+  PT[Inputs/Entradas]: Mic/line XLR, RCA, Bluetooth (ZLX-12P) ~ Mic/line XLR, RCA, Bluetooth (ZLX-12P) | 2x XLR/combo, RCA, 3.5mm ~ 2x XLR/combo, RCA, 3,5 mm | 2x XLR/combo + XLR out ~ 2x XLR/combo + salida XLR
+  PT[Weight/Peso]: 34.3 lb (15.6 kg) ~ 15,6 kg | 39 lb (17.7 kg) ~ 17,7 kg | 41 lb (18.6 kg) ~ 18,6 kg
+  PT[Price/Precio]: $599 ~ $599 | $999 ~ $999 | $899 ~ $899
+
+AUDIT_FLAGS:
+[GENERIC] best-pa-speakers / Yamaha DXR12mkII / pros: Metal grille and rugged enclosure with premium build quality
+

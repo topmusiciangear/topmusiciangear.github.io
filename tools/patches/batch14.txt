@@ -1,0 +1,204 @@
+# GUIDE: pro-interfaces
+TITLE: Apollo x16 vs Fireface UFX III: Pro Interface Duel
+TITLE_ES: Apollo x16 vs Fireface UFX III: Duelo de Interfaces Pro
+FS_SPECS:
+  [undefined / Conectividad]: Thunderbolt 3 || USB 3.0 + MADI
+  [undefined / Rango Dinámico]: 167dB || 135dB
+  [undefined / DSP]: HEXA Core UAD || TotalMix FX
+COMPARISON:
+  [Year / Año]: 2025 || 2024
+  [I/O Channels / Canales I/O]: 16x20 || 188-channel (with MADI)
+  [Connectivity / Conectividad]: Thunderbolt 3 || USB 3.0 + MADI
+  [Dynamic Range (D/A) / Rango Dinámico (D/A)]: 167dB || 135dB
+  [DSP / DSP]: HEXA Core (6× SHARC+) || TotalMix FX (onboard)
+  [Standalone Recording / Grabación Independiente]: No || Yes — DURec to USB
+  [Preamp Emulation / Emulación de Previo]: Unison technology (Neve, API, SSL) || None
+  [Sample Rate / Tasa de Muestreo]: 192kHz || 192kHz
+  [MIDI I/O / MIDI E/S]: In, Out || In, Out, Thru
+  [Rack Size / Tamaño Rack]: 1U || 2U
+  [Digital I/O / I/O Digital]: ADAT + S/PDIF || ADAT + MADI + S/PDIF
+  [Price / Precio]: $3,999 || $3,199
+VPC:
+
+[P] Universal Audio Apollo x16 Gen 2
+  P0: HEXA Core UAD DSP with 6 SHARC+ processors enables massive real-time plugin processing
+  P1: Unison preamp technology — authentic emulations of Neve, API, SSL and more
+  P2: 167dB dynamic range conversion — among the best in any interface
+  P3: Thunderbolt 3 connectivity provides ultra-low latency performance
+  P4: Dual-monitor support with integrated talkback
+  PE0: HEXA Core UAD DSP con 6 procesadores SHARC+ permite procesamiento masivo en tiempo real
+  PE1: Tecnología de previo Unison — emulaciones auténticas de Neve, API, SSL y más
+  PE2: Rango dinámico de 167dB — entre los mejores de cualquier interfaz
+  PE3: Conectividad Thunderbolt 3 proporciona rendimiento de latencia ultra baja
+  PE4: Soporte para monitores duales con talkback integrado
+  C0: Requires UAD-2 plugins for DSP acceleration — an additional cost
+  C1: Thunderbolt 3 limits compatibility with older computers
+  C2: No onboard standalone recording without a computer connected
+  C3: Higher price than the RME while offering fewer I/O channels
+  CE0: Requiere plugins UAD-2 para aceleración DSP — un costo adicional
+  CE1: Thunderbolt 3 limita la compatibilidad con computadoras antiguas
+  CE2: No tiene grabación independiente sin computadora conectada
+  CE3: Precio más alto que el RME ofreciendo menos canales I/O
+
+[P] RME Fireface UFX III
+  P0: Legendary driver stability — RME is known for rock-solid drivers across all platforms
+  P1: 188-channel I/O via USB 3.0 with MADI expansion — massive routing capability
+  P2: TotalMix FX provides 48-channel digital mixing with onboard DSP effects
+  P3: DURec allows standalone recording directly to USB storage
+  P4: SteadyClock FS jitter suppression for pristine clocking
+  PE0: Estabilidad legendaria de drivers — RME es conocido por drivers sólidos en todas las plataformas
+  PE1: 188 canales I/O vía USB 3.0 con expansión MADI — capacidad de ruteo masiva
+  PE2: TotalMix FX proporciona mezcla digital de 48 canales con efectos DSP integrados
+  PE3: DURec permite grabación independiente directamente a almacenamiento USB
+  PE4: SteadyClock FS para clocking prístino sin jitter
+  C0: Software-based DSP plugins are more limited than UAD's premium emulations
+  C1: No Unison-style preamp modeling technology
+  C2: USB 3.0 doesn't match Thunderbolt 3's theoretical bandwidth ceiling
+  C3: Onboard effects are basic compared to UAD's premium plugin library
+  CE0: Los plugins DSP basados en software son más limitados que las emulaciones premium de UAD
+  CE1: Sin tecnología de modelado de previo estilo Unison
+  CE2: USB 3.0 no iguala el techo de ancho de banda teórico de Thunderbolt 3
+  CE3: Los efectos integrados son básicos comparados con la biblioteca premium de UAD
+
+AUDIT_FLAGS:
+[GENERIC] pro-interfaces / RME Fireface UFX III / pros: Legendary driver stability — RME is known for rock-solid drivers across all platforms
+
+# GUIDE: pro-basses
+TITLE: Ultra II P-Bass vs StingRay: Best Pro Bass?
+TITLE_ES: Ultra II P-Bass vs StingRay: ¿Mejor Bajo Pro?
+FS_SPECS:
+  [undefined / Pastilla]: Noiseless P-Bass || Neodymium humbucker
+  [undefined / Electrónica]: Passive || Active 18V
+  [undefined / Peso]: ~8.5 lbs || ~7.5 lbs
+COMPARISON:
+  [Year / Año]: 2025 || 2018
+  [Body Wood / Madera del Cuerpo]: Alder || Lightweight ash
+  [Neck Wood / Madera del Mástil]: Maple || Roasted maple
+  [Fingerboard / Diapasón]: Ebony (compound radius) || Rosewood (10" radius)
+  [Pickup / Pastilla]: Split-coil P-Bass (Noiseless) || Neodymium humbucker
+  [Electronics / Electrónica]: Passive (volume + tone) || Active 18V (volume + 2-band EQ)
+  [Bridge / Puente]: HiMass vintage-style || Music Man top-loading
+  [Weight / Peso]: ~8.5 lbs (~3.9 kg) || ~7.5 lbs (~3.4 kg)
+  [Scale Length / Longitud de Escala]: 34" || 34"
+  [Frets / Trastes]: 20 || 22
+  [Tuners / Clavijas]: Fender HiMass vintage || Music Man lightweight
+  [Price / Precio]: $2,199 || $2,199
+VPC:
+
+[P] Fender American Ultra II Precision Bass
+  P0: Ultra II Noiseless P-Bass pickup delivers classic P tone without hum
+  P1: The definitive precision bass sound — punchy, deep, and sits perfectly in any mix
+  P2: Sculpted neck heel and rolled fingerboard edges for maximum playing comfort
+  P3: HiMass bridge improves sustain and string definition
+  P4: Compound-radius ebony fingerboard feels fast and responsive
+  PE0: La pastilla Ultra II Noiseless P-Bass ofrece el tono P clásico sin zumbido
+  PE1: El sonido de bajo de precisión definitivo — contundente, profundo y perfecto en cualquier mezcla
+  PE2: Talón esculpido y bordes del diapasón redondeados para máxima comodidad
+  PE3: Puente HiMass mejora el sustain y la definición de las cuerdas
+  PE4: Diapasón de ébano de radio compuesto se siente rápido y sensible
+  C0: Only one pickup configuration — less versatile than the StingRay's active preamp
+  C1: Passive electronics with no onboard EQ (classic P-Bass simplicity)
+  C2: Traditional slab body can be less comfortable than the StingRay's contoured design
+  C3: Heavier than the StingRay Special with its lightweight ash body
+  CE0: Solo una pastilla — menos versátil que el previo activo del StingRay
+  CE1: Electrónica pasiva sin EQ incorporado (simplicidad clásica del P-Bass)
+  CE2: El cuerpo tradicional puede ser menos cómodo que el diseño contorneado del StingRay
+  CE3: Más pesado que el StingRay Special con su cuerpo de fresno ligero
+
+[P] Music Man StingRay Special
+  P0: Powerful neodymium humbucker with 18V active preamp delivers massive, punchy tone
+  P1: 2-band active EQ gives you complete control over your sound
+  P2: Lightweight ash body and roasted maple neck make it incredibly comfortable to play
+  P3: The signature sound of funk, rock, and pop — instantly recognizable
+  P4: Excellent build quality with meticulous fit and finish
+  PE0: Potente humbucker de neodimio con previo activo de 18V ofrece un tono masivo y contundente
+  PE1: EQ activo de 2 bandas te da control completo sobre tu sonido
+  PE2: Cuerpo de fresno ligero y mástil de arce tostado lo hacen increíblemente cómodo
+  PE3: El sonido característico del funk, rock y pop — instantáneamente reconocible
+  PE4: Excelente calidad de construcción con ajuste y acabado meticulosos
+  C0: Active electronics require a 9V battery — can die mid-performance
+  C1: Aggressive midrange may not suit every mix or genre
+  C2: Neodymium pickup has higher output that can overdrive some preamps
+  C3: No passive bypass option — if the battery dies, the bass is silent
+  CE0: La electrónica activa requiere batería 9V — puede morir a media actuación
+  CE1: El rango medio agresivo puede no funcionar en todas las mezclas o géneros
+  CE2: La pastilla de neodimio tiene mayor salida que puede saturar algunos previos
+  CE3: Sin opción de bypass pasivo — si la batería muere, el bajo no suena
+
+AUDIT_FLAGS:
+[GENERIC] pro-basses / Music Man StingRay Special / pros: Excellent build quality with meticulous fit and finish
+
+# GUIDE: pro-daw
+TITLE: Ableton Live vs Pro Tools: Best Pro DAW Duel
+TITLE_ES: Ableton Live vs Pro Tools: Duelo de DAWs Pro
+FS_SPECS:
+  [undefined / Enfoque]: Creative production & performance || Recording, mixing & post-production
+  [undefined / Pistas]: Unlimited || Unlimited
+  [undefined / Motor de Audio]: 32-bit/192kHz || 64-bit mix engine
+  [undefined / Vista de Sesión]: Yes (unique feature) || No
+  [undefined / Max for Live]: Included || No
+  [undefined / Dolby Atmos]: No || Yes
+  [undefined / Colaboración en Nube]: No || Yes
+  [undefined / Precio]: $799 (perpetual) || $299/year (subscription)
+COMPARISON:
+  [Category / Categoría]: Creative production/performance || Recording/mixing/post-production
+  [Tracks / Pistas]: Unlimited || Unlimited
+  [Audio Engine / Motor de Audio]: 32-bit/192kHz || 64-bit/192kHz
+  [Session/Clip View / Vista de Sesión/Clips]: Yes (core feature) || No
+  [Max for Live / Max for Live]: Included || None
+  [Dolby Atmos / Dolby Atmos]: No || Yes (full object-based)
+  [ARA 2 Support / Soporte ARA 2]: Yes || Yes
+  [Video Post-Production / Post-Producción de Video]: Limited || Advanced (Avid Video Engine)
+  [Cloud Collaboration / Colaboración en Nube]: No || Yes
+  [Built-in Instruments / Instrumentos Integrados]: Extensive (Wavetable, Operator, etc.) || Minimal (Xpand!2, Boom)
+  [Market Share / Cuota de Mercado]: Dominant in electronic/production || Dominant in studios/post-production
+  [Price / Precio]: $799 (perpetual) || $299/year (subscription)
+VPC:
+
+[P] Ableton Live 12 Suite
+  P0: Session View is revolutionary for creative production and live performance
+  P1: Max for Live enables infinite customization and unique devices
+  P2: Best-in-class warping and timestretching engine
+  P3: Extensive built-in instrument and effects library (70+ GB)
+  P4: Active community and constant innovation
+  PE0: Session View es revolucionario para producción creativa y performance en vivo
+  PE1: Max for Live permite personalización infinita y dispositivos únicos
+  PE2: Motor de warping y timestretching de primera clase
+  PE3: Extensa librería de instrumentos y efectos integrados (70+ GB)
+  PE4: Comunidad activa e innovación constante
+  C0: Not the standard for commercial recording studios
+  C1: Limited advanced audio editing tools compared to Pro Tools
+  C2: No Dolby Atmos support
+  C3: No native video post-production capabilities
+  C4: Less suitable for tracking live bands with complex routing
+  CE0: No es el estándar para estudios de grabación comerciales
+  CE1: Herramientas de edición de audio avanzadas limitadas comparado con Pro Tools
+  CE2: Sin soporte Dolby Atmos
+  CE3: Sin capacidades nativas de post-producción de video
+  CE4: Menos adecuado para grabar bandas en vivo con enrutamiento complejo
+
+[P] Avid Pro Tools Studio
+  P0: Industry standard for commercial recording studios worldwide
+  P1: Unmatched audio editing capabilities (Elastic Audio, Beat Detective)
+  P2: Dolby Atmos mixing with full object-based workflow
+  P3: Cloud collaboration for remote sessions
+  P4: Advanced video post-production with Avid Video Engine
+  PE0: Estándar de la industria para estudios de grabación comerciales en todo el mundo
+  PE1: Capacidades de edición de audio inigualables (Elastic Audio, Beat Detective)
+  PE2: Mezcla Dolby Atmos con flujo de trabajo basado en objetos
+  PE3: Colaboración en nube para sesiones remotas
+  PE4: Post-producción de video avanzada con Avid Video Engine
+  C0: Subscription model ($299/year) — no perpetual license option
+  C1: Less intuitive for creative production and beatmaking
+  C2: No Session View or clip-launching workflow
+  C3: Minimal built-in instruments compared to Live Suite
+  C4: Steeper learning curve for new users
+  CE0: Modelo de suscripción ($299/año) — sin opción de licencia perpetua
+  CE1: Menos intuitivo para producción creativa y beatmaking
+  CE2: Sin Session View ni flujo de trabajo de lanzamiento de clips
+  CE3: Instrumentos integrados mínimos comparado con Live Suite
+  CE4: Curva de aprendizaje más pronunciada para nuevos usuarios
+
+AUDIT_FLAGS:
+[TOO_SHORT] pro-daw / Ableton Live 12 Suite / cons: No Dolby Atmos support
+

@@ -1,0 +1,728 @@
+{
+ "guides": {
+  "best-bass-amps": {
+   "verdictProsCons": [
+    {
+     "name": "Ampeg BA-210v2",
+     "name_es": "Ampeg BA-210v2",
+     "pros": [
+      "Classic Ampeg tone — the sound of countless bass records, in a self-contained combo",
+      "450W of Class-D power through two Custom10 speakers and a 1-inch tweeter",
+      "Bass Scrambler overdrive delivers that legendary SVT grind on demand",
+      "Complete package: XLR DI out, FX loop, aux in, headphone out, extension speaker out"
+     ],
+     "pros_es": [
+      "Tono clásico de Ampeg — el sonido de innumerables discos de bajo, en un combo autónomo",
+      "450W de potencia de estado sólido a través de dos altavoces Custom10 y un tweeter de 1\"",
+      "El overdrive Bass Scrambler ofrece ese legendario grind del SVT cuando lo pides",
+      "Paquete completo: salida DI XLR, loop de FX, entrada aux, salida de auriculares y salida para gabinete extra"
+     ],
+     "cons": [
+      "At 48 lb (21.8 kg) it is heavier than Class-D combos like the Rumble 500",
+      "One channel — the Bass Scrambler is the only built-in voice",
+      "No tuner or built-in effects processor",
+      "Transistor-based (not tube), so purists may still prefer a separate tube head",
+      "The XLR DI is post-EQ and post-master with no independent level control — the board receives exactly what the stage volume is"
+     ],
+     "cons_es": [
+      "Con 21,8 kg pesa más que combos Clase D como el Rumble 500",
+      "Un solo canal — el Bass Scrambler es la única voz incorporada",
+      "Sin afinador ni procesador de efectos integrado",
+      "De estado sólido (no de válvulas), así que los puristas quizá prefieran un cabezal de válvulas aparte",
+      "La DI XLR es post-EQ y post-volumen sin nivel independiente — la mesa recibe exactamente lo mismo que el volumen de escenario"
+     ]
+    },
+    {
+     "name": "Fender Rumble 500 V3",
+     "name_es": "Fender Rumble 500 V3",
+     "pros": [
+      "500W through two 10-inch Eminence speakers with clear, punchy tone",
+      "One of the most portable 500W combos — light enough to carry with one hand",
+      "Built-in overdrive, contour switch, 9-band EQ and effects loop for any genre",
+      "XLR D.I. out for straight-to-FOH; the backline standard at venues worldwide"
+     ],
+     "pros_es": [
+      "500W a través de dos altavoces Eminence de 10 pulgadas con tono limpio y contundente",
+      "Uno de los combos de 500W más portátiles — lo bastante ligero para llevarlo con una mano",
+      "Overdrive integrado, interruptor contour, EQ de 9 bandas y loop de efectos para cualquier género",
+      "Salida D.I. XLR para ir directo a FOH; el estándar de backline en venues de todo el mundo"
+     ],
+     "cons": [
+      "No built-in reverb or FX — the overdrive is the only onboard voice",
+      "$799 is a similar price to the Ampeg BA-210v2 combo and its classic tone",
+      "The 2x10 with tweeter lacks the warmth of the Ampeg BA-210v2 preamp",
+      "No reverb or room effects, so the dirt must come from your pedals",
+      "The XLR out mirrors the master volume: turn the amp down and the DI signal going to the board drops with it"
+     ],
+     "cons_es": [
+      "Sin FX/reverb integrados: el overdrive es la única voz incorporada",
+      "$799 es un precio similar al combo Ampeg BA-210v2 con su tono clásico",
+      "El 2x10 con tweeter no tiene la calidez del preamp Ampeg BA-210v2",
+      "Sin reverb ni efectos de sala, el dirt debe venir de pedales",
+      "La salida XLR sigue al master: si bajas el ampli, también baja la señal DI que va a la mesa"
+     ]
+    },
+    {
+     "name": "Markbass Mini CMD 121P V",
+     "name_es": "Markbass Mini CMD 121P V",
+     "pros": [
+      "Legendary Italian tone: 500W through a 12-inch Markbass Neodymium Custom speaker with piezo tweeter",
+      "Just 26.6 lb — the world's most portable 500W combo",
+      "4-band EQ with Old School Filter, bi-band limiter and mute switch",
+      "The best-selling Markbass amp worldwide with the iconic yellow-on-black design"
+     ],
+     "pros_es": [
+      "Legendario tono italiano: 500W a través de un altavoz Markbass Neodymium Custom de 12\" con tweeter piezo",
+      "Solo 12,1 kg — el combo de 500W más portátil del mundo",
+      "EQ de 4 bandas con Old School Filter, limitador bi-banda e interruptor mute",
+      "El amplificador Markbass más vendido del mundo con el icónico diseño amarillo sobre negro"
+     ],
+     "cons": [
+      "$949 is the most expensive combo here — $150 more than the Rumble 500",
+      "A single 12-inch speaker has less cone area than the Rumble's 2x10",
+      "No built-in overdrive or effects — the tone is geared toward clean playing",
+      "The bright piezo tweeter is not for those who want pure sub-bass only"
+     ],
+     "cons_es": [
+      "$949 es el combo más caro aquí — $150 más que el Rumble 500",
+      "Un solo altavoz de 12 pulgadas tiene menos área de cono que el 2x10 del Rumble",
+      "Sin overdrive ni efectos integrados — tono orientado a la limpieza",
+      "El tweeter piezo brillante no es para quienes buscan solo sub-graves puros"
+     ]
+    }
+   ]
+  },
+  "budget-pa-systems": {
+   "verdictProsCons": [
+    {
+     "name": "Mackie Thump215XT",
+     "name_es": "Mackie Thump215XT",
+     "pros": [
+      "Most affordable option at $375 each — a pair costs under $750",
+      "1400W peak through a 15-inch woofer with 129 dB SPL",
+      "Bluetooth 5.0, feedback eliminator, and four voicing modes",
+      "One of the lightest 15-inch powered speakers at 35 lb (15.9 kg)"
+     ],
+     "pros_es": [
+      "La opción más económica a $375 cada uno — un par cuesta menos de $750",
+      "1400W de pico a través de un woofer de 15 pulgadas con 129 dB SPL",
+      "Bluetooth 5.0, eliminador de feedback y cuatro modos de ecualización",
+      "Uno de los altavoces activos de 15 pulgadas más ligeros con solo 15.9 kg"
+     ],
+     "cons": [
+      "Midrange detail and high-frequency extension trail pricier speakers",
+      "The 15-inch cab is bulky to carry and store",
+      "Plastic build feels less road-proof than plywood rivals",
+      "Presets and app control can't fix fundamental voicing compromises"
+     ],
+     "cons_es": [
+      "El detalle de medios y la extensión de agudos quedan por debajo de altavoces más caros",
+      "La caja de 15 pulgadas es voluminosa de transportar y almacenar",
+      "La construcción de plástico se siente menos preparada para la carretera que los rivales de madera",
+      "Los presets y la app no pueden corregir compromisos básicos de ecualización"
+     ]
+    },
+    {
+     "name": "EV ZLX-12P Powered Speaker",
+     "name_es": "Altavoz Activo EV ZLX-12P",
+     "pros": [
+      "Best-selling professional PA speaker under $600 with 8,900+ reviews",
+      "Clean 1000W output through a 12-inch woofer and titanium tweeter",
+      "EV DSP presets for Music, Speech, Club, and Monitoring",
+      "Lightweight 34.3 lb ABS cabinet that survives years of gigging"
+     ],
+     "pros_es": [
+      "El altavoz PA profesional más vendido por menos de $600 con más de 8,900 reseñas",
+      "Salida limpia de 1000W a través de un woofer de 12 pulgadas y tweeter de titanio",
+      "Presets DSP de EV para Música, Voz, Club y Monitoreo",
+      "Gabinete ABS ligero de 15.6 kg que sobrevive años de conciertos"
+     ],
+     "cons": [
+      "At $599 it sits at the top of the budget range",
+      "The 12-inch enclosure trades low-end headroom for portability",
+      "No built-in Bluetooth streaming — you need a cable or an external receiver to play music from a phone",
+      "The 3-band EQ is basic compared to app-controlled DSP units"
+     ],
+     "cons_es": [
+      "A $599 se sitúa en el tope del rango económico",
+      "La caja de 12 pulgadas cambia margen de graves por portabilidad",
+      "Sin streaming Bluetooth integrado — necesitas un cable o un receptor externo para reproducir música del teléfono",
+      "El EQ de 3 bandas es básico comparado con unidades DSP controladas por app"
+     ]
+    },
+    {
+     "name": "Alto Professional TS412",
+     "name_es": "Alto Professional TS412",
+     "pros": [
+      "Class-leading 2500W peak power with 132 dB max SPL at just $399",
+      "Built-in 3-channel mixer with mic/line switching",
+      "Bluetooth with True Wireless Stereo pairing and a free Alto App",
+      "Fanless cooling and just 33 lb (15 kg) for quiet, easy transport"
+     ],
+     "pros_es": [
+      "Potencia pico líder de 2500W con 132 dB de SPL máximo por solo $399",
+      "Mezclador integrado de 3 canales con conmutación mic/line",
+      "Bluetooth con enlace estéreo inalámbrico y app gratuita de Alto",
+      "Enfriamiento sin ventilador y solo 15 kg para un transporte fácil y silencioso"
+     ],
+     "cons": [
+      "Polypropylene cabinet is lighter but less premium than plywood",
+      "Punchy voicing is less refined than the Yamaha DBR12",
+      "App performance varies across phones",
+      "132 dB is peak power — continuous headroom is lower"
+     ],
+     "cons_es": [
+      "El gabinete de polipropileno es ligero pero menos premium que el de madera",
+      "Su sonido contundente es menos refinado que el del Yamaha DBR12",
+      "El rendimiento de la app varía según el teléfono",
+      "132 dB es potencia pico — el margen continuo es menor"
+     ]
+    },
+    {
+     "name": "Yamaha DBR12",
+     "name_es": "Yamaha DBR12",
+     "pros": [
+      "#1 rated budget PA speaker from over 12,000 reviews",
+      "FIR-X linear-phase tuning delivers accurate, natural sound",
+      "D-CONTOUR DSP and 50-degree wedge double as a floor monitor",
+      "7-year Yamaha warranty and 34.8 lb (15.8 kg) portability"
+     ],
+     "pros_es": [
+      "El altavoz PA económico mejor valorado con más de 12,000 reseñas",
+      "El ajuste FIR-X de fase lineal ofrece sonido preciso y natural",
+      "El DSP D-CONTOUR y el ángulo de 50 grados lo convierten en monitor de piso",
+      "Garantía Yamaha de 7 años y portabilidad de 15.8 kg"
+     ],
+     "cons": [
+      "At $459 it is above the cheapest options",
+      "1000W peak is adequate but not the loudest here",
+      "No built-in Bluetooth streaming — you need a cable or an external receiver to play music from a phone",
+      "Plastic cabinet lacks the road toughness of some rivals"
+     ],
+     "cons_es": [
+      "A $459 está por encima de las opciones más baratas",
+      "1000W de pico son suficientes pero no los más potentes de la lista",
+      "Sin streaming Bluetooth integrado — necesitas un cable o un receptor externo para reproducir música del teléfono",
+      "El gabinete de plástico no tiene la dureza de carretera de algunos rivales"
+     ]
+    },
+    {
+     "name": "RCF ART 710-A MK5",
+     "name_es": "RCF ART 710-A MK5",
+     "pros": [
+      "Genuine RCF pro transducers — the best-sounding value in this guide",
+      "1400W Class-D bi-amp with FiRPHASE DSP and a 90x70 constant-directivity horn",
+      "Rear-profile cabinet doubles as a compact floor monitor",
+      "Road-tough PP composite with steel grille at just 10 inches"
+     ],
+     "pros_es": [
+      "Transductores pro genuinos de RCF — el mejor sonido por su precio de la guía",
+      "Bi-amp Clase-D de 1400W con DSP FiRPHASE y bocina de directividad constante 90x70",
+      "El perfil trasero sirve como monitor de piso compacto",
+      "Polipropileno resistente con rejilla de acero en solo 10 pulgadas"
+     ],
+     "cons": [
+      "At $549 it is at the top of the budget range",
+      "The 10-inch woofer limits low-end extension for heavier music",
+      "Continuous power means less sustained SPL than bigger cabs",
+      "A subwoofer is needed for full-range band PA"
+     ],
+     "cons_es": [
+      "A $549 está en el tope del rango económico",
+      "El woofer de 10 pulgadas limita la extensión de graves para música pesada",
+      "La potencia continua ofrece menos SPL sostenido que cajas más grandes",
+      "Se necesita un subwoofer para un PA de banda de rango completo"
+     ]
+    }
+   ]
+  },
+  "pro-synths": {
+   "verdictProsCons": [
+    {
+     "name": "Moog One 16-Voice",
+     "name_es": "Moog One 16 Voces",
+     "pros": [
+      "16 voices of pure analog polyphony — the most powerful Moog ever made",
+      "Tri-timbral: play three independent synth parts simultaneously",
+      "3 triangle-core VCOs per voice with incredibly fat and warm oscillators",
+      "Dual analog filters (Moog ladder + state-variable) — best of both worlds",
+      "Built-in Eventide reverb and effects — pro-grade processing without external gear"
+     ],
+     "pros_es": [
+      "16 voces de polifonía analógica pura — el Moog más potente jamás creado",
+      "Tri-tímbrico: toca tres partes independientes simultáneamente",
+      "3 VCOs triangle-core por voz con osciladores increíblemente gordos y cálidos",
+      "Filtros analógicos duales (Moog ladder + state-variable) — lo mejor de ambos mundos",
+      "Reverb y efectos Eventide integrados — procesamiento de nivel pro sin equipo externo"
+     ],
+     "cons": [
+      "Extremely expensive at $9,999 — the most expensive analog poly synth on the market",
+      "Very heavy and large — not designed for portability or small studios",
+      "Complex architecture can be overwhelming for new synthesizer users",
+      "Limited to 16 voices — voice-hungry patches eat polyphony quickly"
+     ],
+     "cons_es": [
+      "Extremadamente caro a $9,999 — el sintetizador polifónico analógico más caro del mercado",
+      "Muy pesado y grande — no diseñado para portabilidad o estudios pequeños",
+      "La arquitectura compleja puede ser abrumadora para usuarios nuevos",
+      "Limitado a 16 voces — los patches que consumen mucha voz agotan la polifonía rápido"
+     ]
+    },
+    {
+     "name": "Sequential Prophet-10",
+     "name_es": "Sequential Prophet-10",
+     "pros": [
+      "10-voice true analog polyphony — double the original Prophet-5",
+      "Faithful reissue of the legendary Prophet-5 — the sound that defined 80s music",
+      "Vintage control emulates oscillator drift for that classic analog character",
+      "Switchable filter chips (SSM 2040 vs SSI 2140) for two distinct filter flavors",
+      "More immediate and intuitive programming than the Moog One"
+     ],
+     "pros_es": [
+      "10 voces de polifonía analógica verdadera — el doble del Prophet-5 original",
+      "Reedición fiel del legendario Prophet-5 — el sonido que definió la música de los 80",
+      "Control Vintage que emula el drift de osciladores para ese carácter analógico clásico",
+      "Chips de filtro seleccionables (SSM 2040 vs SSI 2140) para dos sabores de filtro",
+      "Programación más inmediata e intuitiva que el Moog One"
+     ],
+     "cons": [
+      "Only 10 voices vs the Moog One's 16 — fewer notes for complex pads",
+      "Mono-timbral — can only play one sound at a time",
+      "Single filter type per voice (switchable but not dual like the Moog One)",
+      "No built-in pro-grade effects — there are no Eventide reverbs onboard",
+      "VCOs are based on CEM 3340 (authentic but less complex than Moog's triangle-core)"
+     ],
+     "cons_es": [
+      "Solo 10 voces vs las 16 del Moog One — menos notas para pads complejos",
+      "Mono-tímbrico — solo puede tocar un sonido a la vez",
+      "Un solo tipo de filtro por voz (seleccionable pero no dual como el Moog One)",
+      "Sin efectos de nivel pro integrados — no hay reverbs Eventide incorporadas",
+      "VCOs basados en CEM 3340 (auténticos pero menos complejos que los triangle-core de Moog)"
+     ]
+    }
+   ]
+  },
+  "pro-plugins": {
+   "verdictProsCons": [
+    {
+     "name": "FabFilter Total Bundle",
+     "name_es": "FabFilter Paquete Total",
+     "pros": [
+      "Transparent, pristine processing that preserves the source signal untouched",
+      "Unmatched interactive visual interfaces for precise control",
+      "Pro-Q 4 is the most used EQ on professional mixes worldwide",
+      "Efficient CPU usage and stable performance",
+      "Each plugin is meticulously updated with industry-leading features"
+     ],
+     "pros_es": [
+      "Procesamiento transparente y prístino que preserva la señal de origen intacta",
+      "Interfaces visuales interactivas inigualables para control preciso",
+      "Pro-Q 4 es el EQ más usado en mezclas profesionales mundialmente",
+      "Uso eficiente de CPU y rendimiento estable",
+      "Cada plugin se actualiza meticulosamente con características líderes en la industria"
+     ],
+     "cons": [
+      "Expensive at $2,099 — no virtual instruments included",
+      "No sound library for creative inspiration",
+      "Overkill if you only need basic mixing — most of the bundle's depth stays unused",
+      "Less suitable for sound design and production variety",
+      "No individual plugin crossgrades or upgrade pricing"
+     ],
+     "cons_es": [
+      "Caro a $2,099 — no incluye instrumentos virtuales",
+      "Sin librería de sonidos para inspiración creativa",
+      "Excesivo si solo necesitas mezcla básica — la mayor parte de la profundidad del bundle queda sin usar",
+      "Menos adecuado para diseño sonoro y variedad de producción",
+      "Sin precios de actualización para plugins individuales"
+     ]
+    },
+    {
+     "name": "Native Instruments Komplete 26 Ultimate",
+     "name_es": "Native Instruments Komplete 26 Definitivo",
+     "pros": [
+      "Massive variety — 90+ instruments and 200+ effects for every genre",
+      "Kontakt 8 is the industry standard sampler with an enormous ecosystem",
+      "Guitar Rig 7 Pro is a complete guitar processing studio",
+      "Reaktor 7 enables custom synth and effect building",
+      "Exceptional value at $1,199 for the amount of content"
+     ],
+     "pros_es": [
+      "Variedad masiva — más de 90 instrumentos y más de 200 efectos para cada género",
+      "Kontakt 8 es el sampler estándar de la industria con un ecosistema enorme",
+      "Guitar Rig 7 Pro es un estudio completo de procesamiento de guitarra",
+      "Reaktor 7 permite construir sintetizadores y efectos personalizados",
+      "Valor excepcional a $1,199 por la cantidad de contenido"
+     ],
+     "cons": [
+      "Not optimized for surgical mixing — effects are creative, not transparent",
+      "Large installation footprint (55+ GB)",
+      "Some older plugins show their age in interface and engine",
+      "Requires Native Access for installation and management",
+      "Upgrades for major versions are not free"
+     ],
+     "cons_es": [
+      "No optimizado para mezcla quirúrgica — los efectos son creativos, no transparentes",
+      "Gran huella de instalación (más de 55 GB)",
+      "Algunos plugins antiguos muestran su edad en interfaz y motor",
+      "Requiere Native Access para instalación y gestión",
+      "Las actualizaciones de versiones principales no son gratuitas"
+     ]
+    }
+   ]
+  },
+  "best-looper-pedals": {
+   "verdictProsCons": [
+    {
+     "name": "Boss RC-5 Loop Station",
+     "name_es": "Boss RC-5 Loop Station",
+     "pros": [
+      "99 phrase memories and 13 hours of stereo recording",
+      "57 rhythm patterns with 7 drum kits for solo performance",
+      "TRS MIDI I/O syncs with drum machines, DAWs, and pedalboards via MIDI clock",
+      "Compact footprint with a clear RGB status LCD"
+     ],
+     "pros_es": [
+      "99 memorias de frase y 13 horas de grabación estéreo",
+      "57 patrones de ritmo con 7 kits de batería para tocar en solitario",
+      "El MIDI TRS sincroniza con cajas de ritmos, DAWs y pedaleras mediante reloj MIDI",
+      "Formato compacto con un LCD RGB claro de estado"
+     ],
+     "cons": [
+      "At $199 it costs double the Ditto's price",
+      "Multi-button operation has a learning curve",
+      "100 mA current draw needs proper pedalboard power",
+      "Built-in rhythms can feel thin next to a real drummer"
+     ],
+     "cons_es": [
+      "A $199 cuesta el doble que el Ditto",
+      "La operación con varios botones tiene curva de aprendizaje",
+      "El consumo de 100 mA requiere una fuente adecuada en la pedalera",
+      "Los ritmos integrados pueden sentirse planos frente a un baterista real"
+     ]
+    },
+    {
+     "name": "TC Electronic Ditto Looper",
+     "name_es": "TC Electronic Ditto Looper",
+     "pros": [
+      "The simplest one-button looper ever made",
+      "5 minutes of loop time with unlimited overdubs",
+      "True bypass and analog dry-through keep your tone pure",
+      "Just $99 — the best value entry looper"
+     ],
+     "pros_es": [
+      "El looper de un botón más simple jamás creado",
+      "5 minutos de loop con overdubs ilimitados",
+      "True bypass y analog dry-through mantienen tu tono puro",
+      "Solo $99 — el looper de entrada con mejor valor"
+     ],
+     "cons": [
+      "No memory banks or song storage — every session always starts from a blank loop",
+      "No rhythms, metronome, or MIDI sync",
+      "One-button undo/redo can be fiddly mid-performance",
+      "A single loop can't store separate song sections"
+     ],
+     "cons_es": [
+      "Sin bancos de memoria ni almacenamiento de canciones — cada sesión siempre empieza desde un loop en blanco",
+      "Sin ritmos, metrónomo ni sincronización MIDI",
+      "El undo/redo de un botón puede ser delicado en plena actuación",
+      "Un solo loop no puede guardar secciones separadas de una canción"
+     ]
+    }
+   ]
+  },
+  "best-multi-effects-pedals": {
+   "verdictProsCons": [
+    {
+     "name": "Line 6 Helix HX Stomp",
+     "name_es": "Line 6 Helix HX Stomp",
+     "pros": [
+      "300+ Helix amps, cabs, and effects in a stompbox",
+      "Up to 6 simultaneous blocks with an integrated looper",
+      "IR loading and a USB audio interface for recording",
+      "Replaces an entire pedalboard with pro-level modeling"
+     ],
+     "pros_es": [
+      "Más de 300 amplificadores, cabs y efectos del Helix en un stompbox",
+      "Hasta 6 bloques simultáneos con looper integrado",
+      "Carga de IR e interfaz de audio USB para grabar",
+      "Reemplaza toda una pedalera con modelado de nivel pro"
+     ],
+     "cons": [
+      "At $699 it is the most expensive option here",
+      "The small screen means menu navigation for deep edits",
+      "The 6-block limit caps complex signal chains",
+      "Full editing is easier with the computer software"
+     ],
+     "cons_es": [
+      "A $699 es la opción más cara de la lista",
+      "La pantalla pequeña obliga a navegar por menús para ediciones profundas",
+      "El límite de 6 bloques frena cadenas de señal complejas",
+      "La edición completa es más fácil con el software de ordenador"
+     ]
+    },
+    {
+     "name": "Boss GT-1",
+     "name_es": "Boss GT-1",
+     "pros": [
+      "Best-selling budget multi-effects at $199",
+      "108 effects and 198 patches with COSM amp models",
+      "Built-in expression pedal and a 32-second looper",
+      "Runs up to 7 hours on 4 AA batteries"
+     ],
+     "pros_es": [
+      "El multiefectos económico más vendido a $199",
+      "108 efectos y 198 patches con modelos de amp COSM",
+      "Pedal de expresión integrado y looper de 32 segundos",
+      "Funciona hasta 7 horas con 4 pilas AA"
+     ],
+     "cons": [
+      "Amp modeling sounds dated next to the HX Stomp's Helix models",
+      "The small format has a cramped footswitch area",
+      "Older COSM models sound dated vs newer modeling",
+      "Plastic build feels less road-worthy"
+     ],
+     "cons_es": [
+      "El modelado de amplificadores suena anticuado frente a los modelos Helix del HX Stomp",
+      "El formato pequeño tiene una zona de footswitches apretada",
+      "Los modelos COSM antiguos suenan anticuados frente al modelado moderno",
+      "La construcción de plástico se siente menos preparada para la carretera"
+     ]
+    },
+    {
+     "name": "Boss ME-90",
+     "name_es": "Boss ME-90",
+     "pros": [
+      "11 AIRD amp models and 60 effects from the flagship GT-1000",
+      "Hands-on stompbox-style control with 8 footswitches",
+      "Loads 3 custom IRs and includes an FX loop",
+      "Runs on 4 AA batteries for gig convenience"
+     ],
+     "pros_es": [
+      "11 modelos AIRD y 60 efectos del buque insignia GT-1000",
+      "Control manual estilo stompbox con 8 footswitches",
+      "Carga 3 IR personalizados e incluye un bucle de efectos",
+      "Funciona con 4 pilas AA para conveniencia en directo"
+     ],
+     "cons": [
+      "No user screen — settings are shown on a small patch display",
+      "Running on 4 AA batteries adds noticeable weight compared to a dedicated power supply",
+      "Amp models lack the depth of the HX Stomp",
+      "60 effects is fewer than the HX Stomp's 300+"
+     ],
+     "cons_es": [
+      "Sin pantalla de usuario — los ajustes se muestran en una pequeña pantalla de patch",
+      "Funcionar con 4 pilas AA añade un peso notable comparado con una fuente de alimentación dedicada",
+      "Los modelos de amp no tienen la profundidad del HX Stomp",
+      "60 efectos es menos que los 300+ del HX Stomp"
+     ]
+    },
+    {
+     "name": "HeadRush MX5",
+     "name_es": "HeadRush MX5",
+     "pros": [
+      "The 4-inch touchscreen makes editing intuitive",
+      "52 amp models, 15 cabs, and 300 IRs",
+      "Doubles as a 24-bit USB audio interface",
+      "Expression pedal, MIDI I/O, and a 20-minute looper"
+     ],
+     "pros_es": [
+      "La pantalla táctil de 4 pulgadas hace la edición intuitiva",
+      "52 modelos de amp, 15 cabs y 300 IR",
+      "Funciona como interfaz de audio USB de 24 bits",
+      "Pedal de expresión, MIDI y looper de 20 minutos"
+     ],
+     "cons": [
+      "The touchscreen can be finicky with sweaty hands",
+      "74 effects is fewer than the HX Stomp",
+      "It requires a power supply — no battery option",
+      "Modeling depth trails the Line 6 Helix"
+     ],
+     "cons_es": [
+      "La pantalla táctil puede ser delicada con las manos sudadas",
+      "74 efectos es menos que el HX Stomp",
+      "Requiere una fuente de alimentación — sin opción de batería",
+      "La profundidad del modelado queda por detrás del Line 6 Helix"
+     ]
+    }
+   ]
+  },
+  "stage-wedges": {
+   "verdictProsCons": [
+    {
+     "name": "RCF NX 912-SMA",
+     "name_es": "RCF NX 912-SMA",
+     "pros": [
+      "The loudest and most refined wedge here at 130 dB SPL",
+      "2100W peak Class-D with FiRPHASE linear-phase DSP",
+      "Bass Motion Control keeps the low end controlled at high volume",
+      "All-wood cabinet light enough to carry one in each hand"
+     ],
+     "pros_es": [
+      "La cuña más potente y pulida de la lista con 130 dB SPL",
+      "Class-D de 2100W de pico con DSP FiRPHASE de fase lineal",
+      "Bass Motion Control mantiene los graves controlados a alto volumen",
+      "Caja de madera lo bastante ligera para cargar una en cada mano"
+     ],
+     "cons": [
+      "At $1,699 it is the most expensive wedge here",
+      "Overkill for small club stages where a cheaper, simpler wedge would do the job",
+      "The two-way design needs careful placement off-axis",
+      "It is a big investment for bands with limited monitoring needs"
+     ],
+     "cons_es": [
+      "A $1,699 es la cuña más cara de la lista",
+      "Es excesiva para escenarios de club pequeños donde una cuña más barata y simple bastaría",
+      "El diseño de dos vías requiere colocación cuidadosa fuera de eje",
+      "Es una gran inversión para bandas con necesidades de monitoreo limitadas"
+     ]
+    },
+    {
+     "name": "Electro-Voice PXM-12MP",
+     "name_es": "Electro-Voice PXM-12MP",
+     "pros": [
+      "The coaxial driver delivers a single-point, phase-coherent image",
+      "Dynacord-designed Class-D amp with QuickSmart DSP",
+      "129 dB SPL is plenty for clubs and small outdoor gigs",
+      "Recessed panel with cable management speeds up setup"
+     ],
+     "pros_es": [
+      "El driver coaxial ofrece una imagen de un solo punto y coherente en fase",
+      "Amplificador Class-D diseñado por Dynacord con DSP QuickSmart",
+      "129 dB SPL son suficientes para clubs y bolos al aire libre pequeños",
+      "El panel empotrado con gestión de cables acelera el montaje"
+     ],
+     "cons": [
+      "At $949 it is a stretch for budget bands",
+      "700W peak is far less than the RCF's 2100W",
+      "The coaxial design trades some raw SPL for clarity",
+      "LCD presets still require menu navigation"
+     ],
+     "cons_es": [
+      "A $949 es un esfuerzo económico para bandas con presupuesto ajustado",
+      "700W de pico son mucho menos que los 2100W de la RCF",
+      "El diseño coaxial cambia algo de SPL bruto por claridad",
+      "Los presets en LCD aún requieren navegar por menús"
+     ]
+    },
+    {
+     "name": "LD Systems MON 12 A G3",
+     "name_es": "LD Systems MON 12 A G3",
+     "pros": [
+      "The budget pick at $590 that doesn't sound budget",
+      "Coaxial 12-inch driver with 127 dB SPL",
+      "Front-panel 3-band EQ, presets, and notch filter — no app needed",
+      "15 mm birch cabinet with a tough polyurea finish"
+     ],
+     "pros_es": [
+      "La opción económica a $590 que no suena a económica",
+      "Driver coaxial de 12 pulgadas con 127 dB SPL",
+      "EQ de 3 bandas, presets y filtro notch en el panel — sin app",
+      "Caja de abedul de 15 mm con acabado de poliurea resistente"
+     ],
+     "cons": [
+      "At 300W RMS it is the least powerful here",
+      "127 dB tops out for very loud festival stages",
+      "Fewer DSP features than the EV PXM-12MP",
+      "Its build is heavier for the price class"
+     ],
+     "cons_es": [
+      "Con 300W RMS es la menos potente de la lista",
+      "127 dB se queda corto para escenarios de festival muy ruidosos",
+      "Menos funciones DSP que la EV PXM-12MP",
+      "Su construcción es más pesada para su clase de precio"
+     ]
+    },
+    {
+     "name": "Yamaha DHR12M",
+     "name_es": "Yamaha DHR12M",
+     "pros": [
+      "FIR-X tuning delivers precise, pro-level response",
+      "1000W dynamic Class-D with 129 dB SPL",
+      "D-CONTOUR switches between FOH and MONITOR voicings",
+      "The 57-degree monitor angle fires straight at your ears"
+     ],
+     "pros_es": [
+      "El ajuste FIR-X ofrece una respuesta precisa de nivel pro",
+      "Class-D dinámico de 1000W con 129 dB SPL",
+      "D-CONTOUR cambia entre curvas FOH y MONITOR",
+      "El ángulo de 57 grados apunta directo a tus oídos"
+     ],
+     "cons": [
+      "At $697 it sits between the LD and EV in price",
+      "The two-position voicing lacks deep parametric control",
+      "The coaxial driver limits the SPL ceiling vs the RCF",
+      "The polyurea plywood cabinet is sturdy but weighs more than composite rivals"
+     ],
+     "cons_es": [
+      "A $697 se sitúa entre la LD y la EV en precio",
+      "La ecualización de dos posiciones carece de control paramétrico profundo",
+      "El driver coaxial limita el techo de SPL frente a la RCF",
+      "La madera con poliurea es resistente pero pesa más que los rivales de composite"
+     ]
+    }
+   ]
+  },
+  "nx912-vs-pxm12mp": {
+   "verdictProsCons": [
+    {
+     "name": "RCF NX 912-SMA",
+     "name_es": "RCF NX 912-SMA",
+     "pros": [
+      "2100W peak and 130 dB of real headroom",
+      "FiRPHASE keeps phase coherent and Bass Motion Control tames the lows",
+      "100° x 70° horn-loaded waveguide throws across the stage",
+      "Multifunction cabinet: floor wedge or pole-mounted main"
+     ],
+     "pros_es": [
+      "2100W de pico y 130 dB de margen real",
+      "FiRPHASE mantiene la fase coherente y Bass Motion Control domina los graves",
+      "La guía con bocina de 100° x 70° proyecta por todo el escenario",
+      "Caja multiusos: cuña de suelo o caja principal en trípode"
+     ],
+     "cons": [
+      "$1699, nearly double the price of the EV",
+      "At 20 kg per box, it is noticeably heavier to carry during load-ins and load-outs",
+      "At 20 kg each, a pair plus stands and cables is a real load",
+      "Its 50 Hz bottom end still calls for a sub on full-band gigs"
+     ],
+     "cons_es": [
+      "$1699, casi el doble de precio que la EV",
+      "Con 20 kg por caja, es notablemente más pesada de cargar en montajes y desmontajes",
+      "A 20 kg por caja, un par con trípodes y cables es una carga real",
+      "Sus 50 Hz de límite grave aún piden un sub en conciertos de banda completa"
+     ]
+    },
+    {
+     "name": "Electro-Voice PXM-12MP",
+     "name_es": "Electro-Voice PXM-12MP",
+     "pros": [
+      "Coaxial driver keeps the sound coherent from anywhere on stage",
+      "Costs roughly half the price of the RCF NX 912-SMA at $949 per box",
+      "6.5 kg lighter per box, easier load-out",
+      "QuickSmart DSP with presets, notch filter and sub matching",
+      "Front pole mount lets it double as a compact main"
+     ],
+     "pros_es": [
+      "El driver coaxial mantiene el sonido coherente desde cualquier punto del escenario",
+      "Cuesta aproximadamente la mitad que la RCF NX 912-SMA, a $949 por caja",
+      "6,5 kg más ligera por caja, montaje más fácil",
+      "DSP QuickSmart con preajustes, filtro de muesca y emparejado de sub",
+      "El soporte frontal de trípode permite usarla como caja principal compacta"
+     ],
+     "cons": [
+      "700W and 129 dB run out of headroom on very loud stages",
+      "Conventional horn throws farther for big stages",
+      "64 Hz low end means it cannot do full-range main duty without a sub",
+      "On very wide stages the 90° x 90° pattern reaches less far than the RCF horn"
+     ],
+     "cons_es": [
+      "700W y 129 dB se quedan cortos en escenarios muy ruidosos",
+      "La bocina convencional proyecta más lejos en escenarios grandes",
+      "Con 64 Hz de límite grave, no cubre frecuencias completas de main sin un sub",
+      "En escenarios muy anchos, su patrón de 90° x 90° llega menos lejos que la bocina de la RCF"
+     ]
+    }
+   ]
+  }
+ }
+}
