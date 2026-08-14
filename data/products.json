@@ -4212,12 +4212,10 @@
     "img": "https://r2.gear4music.com/media/94/942223/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0C1KJ114Z",
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-DLZ-Creator-Digital-Streaming-Mixer/5NE6",
       "andertons": "https://www.andertons.co.uk/mackie-dlz-creator-podcast-studio-mixer/",
       "musicstore": "https://www.musicstore.com/en_GB/GBP/Mackie-DLZ-Creator/art-REC0016379-000"
-    },
-    "excludeStores": [
-      "gear4music"
-    ]
+    }
   },
   {
     "id": 248,
