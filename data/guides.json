@@ -56782,7 +56782,7 @@
     "title": "Rode Wireless PRO vs DJI Mic 2: Which Wireless Mic Wins?",
     "title_es": "Rode Wireless PRO vs DJI Mic 2: ¿Qué Micrófono Inalámbrico Gana?",
     "category": "streaming",
-    "image": "https://r2.gear4music.com/media/98/988997/1200/preview.jpg",
+    "image": "https://m.media-amazon.com/images/I/61JALPdLGvL._AC_SL1500_.jpg",
     "badge": "bestSeller",
     "intro": "The Rode Wireless PRO and the DJI Mic 2 are the two dual-channel kits every creator compares when the budget stretches past the cheap clip-on mics, and both can record a backup track on the transmitter itself so a lost wireless link never costs you the take. I have used both on interviews, on-camera shoots and loud festival grounds to find out where the extra money actually goes — because on paper they look like twins, but on the job they are not.",
     "intro_es": "El Rode Wireless PRO y el DJI Mic 2 son los dos kits de doble canal que todo creador compara cuando el presupuesto sube más allá de los micrófonos de solapa baratos, y ambos pueden grabar una pista de respaldo en el propio transmisor para que un enlace inalámbrico perdido nunca te cueste la toma. He usado ambos en entrevistas, rodajes frente a cámara y festivales ruidosos para descubrir a dónde va realmente el dinero extra — porque en el papel parecen gemelos, pero en el trabajo no lo son.",
@@ -56848,12 +56848,16 @@
         "cons": [
           "$299 is a premium price when you only need phone content",
           "Most deep settings live in the Rode Central app, not on the device",
-          "Transmitters are bulkier than the featherweight DJI units"
+          "Transmitters are bulkier than the featherweight DJI units",
+          "No built-in noise cancelling — you clean up noisy rooms in post",
+          "Files are large and must be exported through Rode Central rather than a simple file browser"
         ],
         "cons_es": [
           "$299 es un precio premium cuando solo necesitas contenido de móvil",
           "Casi todos los ajustes profundos viven en la app Rode Central, no en el dispositivo",
-          "Los transmisores son más voluminosos que las plumas del DJI"
+          "Los transmisores son más voluminosos que las plumas del DJI",
+          "Sin cancelación de ruido integrada — limpias las salas ruidosas en postproducción",
+          "Los archivos son grandes y hay que exportarlos con Rode Central en lugar de un explorador de archivos simple"
         ]
       },
       {
@@ -56876,12 +56880,16 @@
         "cons": [
           "8GB per transmitter is a quarter of the Rode storage",
           "No professional timecode for multi-cam sync",
-          "Aggressive noise cancelling can smear your voice in extreme rooms"
+          "Aggressive noise cancelling can smear your voice in extreme rooms",
+          "Bluetooth phone pairing disables noise cancelling and internal recording",
+          "No locking lavalier connectors — a cable tug can unplug the mic mid-take"
         ],
         "cons_es": [
           "8GB por transmisor es la cuarta parte del almacenamiento del Rode",
           "Sin timecode profesional para sincronizar varias cámaras",
-          "La cancelación de ruido agresiva puede manchar tu voz en salas extremas"
+          "La cancelación de ruido agresiva puede manchar tu voz en salas extremas",
+          "El emparejamiento Bluetooth con el móvil desactiva la cancelación de ruido y la grabación interna",
+          "Sin conectores de solapa con bloqueo — un tirón del cable puede desconectar el micro a mitad de toma"
         ]
       }
     ],
