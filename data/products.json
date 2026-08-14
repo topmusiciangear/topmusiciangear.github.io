@@ -4667,10 +4667,16 @@
     "desc": "The Sennheiser IE 900 is a single-dynamic-driver audiophile earphone built around a 7mm TrueResponse transducer in a one-piece precision-milled aluminum housing. Its X3R triple-resonator system removes masking resonances for extended, refined treble, and the driver covers 5 Hz-48 kHz with 123 dB SPL, 18 ohm impedance and <0.05% THD. Three para-aramid reinforced MMCX cables (3.5mm unbalanced, 2.5mm and 4.4mm balanced) plus silicone and memory foam tips ship in the box.",
     "desc_es": "El Sennheiser IE 900 es un audífono audiófilo de un solo driver dinámico construido alrededor de un transductor TrueResponse de 7mm en una carcasa de aluminio de una pieza fresada con precisión. Su sistema X3R de triple resonador elimina resonancias de enmascaramiento para unos agudos extendidos y refinados, y el driver cubre 5 Hz-48 kHz con 123 dB de SPL, impedancia de 18 ohmios y <0.05% de THD. Incluye tres cables MMCX reforzados con para-aramida (3.5mm no balanceado, 2.5mm y 4.4mm balanceados) más puntas de silicona y espuma.",
     "img": "https://us.sennheiser-hearing.com/cdn/shop/files/Sennheiser_IE_900_In_Ear_Audiophile_Headphones.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B094DP3177",
-      "official": "https://us.sennheiser-hearing.com/products/ie-900"
-    }
+"stores": {
+    "amazon": "https://www.amazon.com/dp/B094DP3177",
+    "official": "https://us.sennheiser-hearing.com/products/ie-900"
+  },
+  "excludeStores": [
+    "gear4music",
+    "reverb",
+    "andertons",
+    "musicstore"
+  ]
   },
   {
     "id": 269,
