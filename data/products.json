@@ -4509,12 +4509,10 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/EVO-By-Audient-EVO-4-USB-Audio-Interface/3ARY",
       "amazon": "https://www.amazon.com/Audient-EVO-USB-Audio-Interface/dp/B084BGC5LR",
+      "reverb": "https://reverb.com/p/audient-evo-4-usb-audio-interface",
+      "andertons": "https://www.andertons.co.uk/audient-designed-evo-4-smart-2-in-2-out-audio-interface/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audient-EVO-4/art-PCM0016266-000"
-    },
-    "excludeStores": [
-      "andertons",
-      "reverb"
-    ]
+    }
   },
   {
     "id": 263,
@@ -4532,11 +4530,9 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-276-USB-Audio-Interface/43TM",
       "amazon": "https://www.amazon.com/Universal-Audio-Volt-276-Interface/dp/B09J1TL1B8",
+      "reverb": "https://reverb.com/p/universal-audio-volt-276-usb-c-audio-interface",
+      "andertons": "https://www.andertons.co.uk/universal-audio-volt-276-2-in-2-out-usb-20-audio-interface/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-VOLT-276/art-PCM0017065-000"
-    },
-    "excludeStores": [
-      "andertons",
-      "reverb"
-    ]
+    }
   }
 ]
