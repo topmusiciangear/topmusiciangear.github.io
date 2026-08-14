@@ -4189,7 +4189,12 @@
     "img": "https://images.ctfassets.net/h50kqpe25yx1/3M7DhH2bZST2pV1D3zeqIU/7ed6d507633ac6878fa9f29ec3819e95/XLR-Open-Graph.png",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0GGYXY67H"
-    }
+    },
+    "excludeStores": [
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
   },
   {
     "id": 247,
