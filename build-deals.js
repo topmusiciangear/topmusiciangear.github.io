@@ -131,7 +131,7 @@ const buildPage = (lang) => {
     'Reverb': { color: '#d6562b', mark: '<span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;flex-shrink:0;">R</span>' },
     'Andertons': { color: '#000000', mark: '<span style="font-weight:900;font-size:14px;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;background:#000;color:#fff;border-radius:3px;flex-shrink:0;">A</span>' },
     'Music Store': { color: '#1a3a5c', mark: '<img src="img/musicstore-icon.png" alt="Music Store" style="width:auto;height:10px">' },
-    'zZounds': { color: '#16a34a', mark: '<img src="img/zzounds-icon.png" alt="zZounds" width="128" height="128" style="width:auto;height:10px">' }
+    'zZounds': { color: '#00002c', mark: '<img src="img/zzounds-icon.png" alt="zZounds" width="128" height="128" style="width:auto;height:10px">' }
   };
   const slugToName = {
     andertons: 'Andertons',
