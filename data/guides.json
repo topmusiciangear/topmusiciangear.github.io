@@ -41269,6 +41269,14 @@
           "val2_es": "2x single-coils (Alnico 5)"
         },
         {
+          "label": "Active/Passive",
+          "label_es": "Activo/Pasivo",
+          "val1": "Passive",
+          "val2": "Passive",
+          "val1_es": "Pasivo",
+          "val2_es": "Pasivo"
+        },
+        {
           "label": "Nut Width",
           "label_es": "Ancho de Cejuela",
           "val1": "1.625\" (41.3mm)",
@@ -44868,6 +44876,28 @@
             {
               "value": "2x YGD humbuckers",
               "value_es": "2x humbuckers YGD"
+            }
+          ]
+        },
+        {
+          "label": "Active/Passive",
+          "label_es": "Activo/Pasivo",
+          "values": [
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
             }
           ]
         },
