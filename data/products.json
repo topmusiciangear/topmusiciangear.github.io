@@ -5015,7 +5015,7 @@
   "badge": "bestSeller",
   "desc": "The second-generation HUSH-I EVO2 adds a built-in chromatic tuner, a stronger 5-piece maple-mahogany neck and an upgraded HPS-II preamp. Still the full-scale, headless, silent travel guitar you play through headphones — now with tool-free frame assembly and low-battery warnings. Gig bag, strap, tuner and earbuds included.",
   "desc_es": "La segunda generación del HUSH-I EVO2 añade afinador cromático integrado, un mástil reforzado de 5 piezas de arce y caoba y un previo HPS-II mejorado. Sigue siendo la guitarra de viaje headless, de escala completa y silenciosa que tocas con auriculares — ahora con montaje de marcos sin herramientas y avisos de batería baja. Funda, correa, afinador y auriculares incluidos.",
-  "img": "https://uk.donnermusic.com/cdn/shop/files/EVO2_2.png?v=1778321938&width=2048",
+  "img": "https://images.musicstore.de/images/1600/donner-hush-i-silent-guitar-mahogany_1_GIT0060226-000.jpg",
   "stores": {
    "amazon": "https://www.amazon.com/dp/B0G1BVR8ZM",
    "musicstore": "https://www.musicstore.com/en_GB/GBP/DONNER-HUSH-I-Silent-Guitar-Mahogany/art-GIT0060226-000"
@@ -5099,8 +5099,8 @@
  },
  {
   "id": 274,
-  "title": "Traveler Guitar Ultra-Light",
-  "title_es": "Traveler Guitar Ultra-Light",
+  "title": "Traveler Guitar Ultra-Light Steel",
+  "title_es": "Traveler Guitar Ultra-Light Steel",
   "brand": "Traveler Guitar",
   "category": "guitars",
   "price": 299,
@@ -5115,6 +5115,30 @@
    "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Traveler-Ultra-Light-Acoustic-Steel-Maple/47KR",
    "musicstore": "https://www.musicstore.com/en_US/USD/Traveler-Guitar-Ultra-Light-NT-Natural/art-GIT0018194-000",
    "reverb": "https://reverb.com/p/traveler-ula-ultralight-mahogany-acoustic"
+  },
+  "excludeStores": [
+   "zzounds",
+   "andertons"
+  ]
+ },
+ {
+  "id": 275,
+  "title": "Traveler Guitar Ultra-Light Nylon",
+  "title_es": "Traveler Guitar Ultra-Light Nylon",
+  "brand": "Traveler Guitar",
+  "category": "guitars",
+  "price": 329,
+  "rating": 4.5,
+  "reviews": 48,
+  "badge": "value",
+  "desc": "The nylon-string sister of the Ultra-Light: full 24.75-inch scale in a headless neck-through body just 28 inches long and 3 lbs, with a 1.94-inch nut, walnut fretboard and 22 medium frets. Passive Traveler piezo with a standard 1/4-inch output — no battery needed. Gig bag and detachable lap rest included.",
+  "desc_es": "La hermana de cuerdas de nylon de la Ultra-Light: escala completa de 24,75 pulgadas en un cuerpo headless neck-through de solo 28 pulgadas de largo y 3 libras, con cejuela de 1,94 pulgadas, diapasón de nogal y 22 trastes medios. Piezo Traveler pasivo con salida estándar de 1/4. Sin necesidad de batería. Funda y reposapiés desmontable incluidos.",
+  "img": "https://www.travelerguitar.com/cdn/shop/products/ultra-light-nylon-classical-guitar-8068915.jpg?v=1783451111&width=1200",
+  "stores": {
+   "amazon": "https://www.amazon.com/dp/B07NC8VD4K",
+   "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Traveler-Ultra-Light-Nylon-Acoustic-Mahogany/47LD",
+   "musicstore": "https://www.musicstore.com/en_US/USD/Traveler-Guitar-Ultra-Light-NT-Nylon-Natural/art-GIT0022193-000",
+   "reverb": "https://reverb.com/marketplace?query=Traveler%20Ultra-Light%20Nylon"
   },
   "excludeStores": [
    "zzounds",
