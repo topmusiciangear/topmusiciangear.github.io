@@ -39,7 +39,7 @@ const storeColors = {
   amazon: "#ff9900",
   reverb: "#d6562b",
   andertons: "#000000",
-  musicstore: "#c0c0c0",
+  musicstore: "#b0b0b0",
   zzounds: "#1a3a5c",
   official: "#0d6efd"
 };
