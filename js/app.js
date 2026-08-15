@@ -360,7 +360,7 @@ function getFilteredGuides() {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds'];
+  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds','official','macappstore'];
   const searchUrls = {
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
@@ -389,7 +389,7 @@ function getResolvedStores(product) {
       } else {
         s[key] = specificUrl;
       }
-    } else if (!isMacOnly) {
+    } else if (!isMacOnly && searchUrls[key]) {
       s[key] = searchUrls[key](product.title);
     }
   });
