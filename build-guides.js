@@ -128,7 +128,7 @@ function trunc(s, max) {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore'];
+  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds'];
   const searchUrls = {
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
@@ -136,7 +136,8 @@ function getResolvedStores(product) {
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
     andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
-    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`
+    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`,
+    zzounds: () => 'https://www.zzounds.com/a--925521/'
   };
   const s = {};
   const isMacOnly = !!product.stores.macappstore;
@@ -168,9 +169,6 @@ function getResolvedStores(product) {
   }
   if (s.gear4music) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
-  }
-  if (product.stores.official && !excluded.includes('official')) {
-    s.official = product.stores.official;
   }
   return s;
 }
@@ -467,6 +465,7 @@ function navDropdown(isEs) {
       <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
       <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/?irgwc=1&amp;irpid=7292297" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
       <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=63816&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNew-Products%2Fcat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/musicstore-icon.png" alt="" class="nav-dd-link-icon">Music Store</a>
+      <a class="nav-dd-link" href="https://www.zzounds.com/a--925521/lp/new-products/219" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/zzounds-icon.png" alt="" class="nav-dd-link-icon">zZounds</a>
       <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=65fd7463b5f28&gad_source=1&gad_campaignid=23953084266&gbraid=0AAAABBZvMhd9QWokzi5bVQA51ocA8i1cR&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k7lT3Rksx6r66LkI2QwlN4Bf1lJSPE3U70tvwkq6mKXV3yO0vMhqoxoC3IQQAvD_BwE" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/pluginboutique-icon.png" alt="" class="nav-dd-link-icon">Plugin Boutique</a>
       <a class="nav-dd-link" href="https://www.amazon.com/gp/new-releases/musical-instruments?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored"><svg data-fa="amazon" class="nav-dd-link-icon" style="font-size:18px;color:#ff9900" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>Amazon</a>
     </div>
@@ -840,7 +839,7 @@ ${ogMeta}
     </div>
     <div class="footer-bottom">
       <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
-      <p style="margin-top:8px;"><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
+      <p style="margin-top:8px;"><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
       <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
     </div>
   </footer>
@@ -850,7 +849,7 @@ ${ogMeta}
     <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:32px;max-width:600px;width:100%;max-height:80vh;overflow-y:auto;position:relative;color:var(--text)">
       <button onclick="hideAffiliateDisclosure()" style="position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text);font-size:24px;cursor:pointer;line-height:1;padding:4px 8px;opacity:.5">&times;</button>
       <h3 style="font-size:20px;font-weight:700;margin:0 0 16px;padding-right:30px">${isEs ? 'Divulgación de Afiliados' : 'Affiliate Disclosure'}</h3>
-      <p style="font-size:14px;line-height:1.7;color:var(--text-secondary)">${isEs ? 'TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.' : 'TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, and Music Store. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.'}</p>
+      <p style="font-size:14px;line-height:1.7;color:var(--text-secondary)">${isEs ? 'TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.' : 'TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, and Music Store. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.'}</p>
       <button onclick="hideAffiliateDisclosure()" style="margin-top:20px;padding:10px 28px;border:none;border-radius:8px;cursor:pointer;font-weight:600;font-size:14px;background:var(--accent);color:#fff">${isEs ? 'Entendido' : 'Got it'}</button>
     </div>
   </div>

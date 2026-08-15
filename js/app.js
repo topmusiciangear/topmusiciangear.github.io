@@ -360,7 +360,7 @@ function getFilteredGuides() {
 }
 
 function getResolvedStores(product) {
-  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore'];
+  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds'];
   const searchUrls = {
     pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`,
     gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`,
@@ -368,7 +368,8 @@ function getResolvedStores(product) {
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
     andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
-    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`
+    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`,
+    zzounds: () => 'https://www.zzounds.com/a--925521/'
   };
   const s = {};
   const isMacOnly = !!product.stores.macappstore;
@@ -400,9 +401,6 @@ function getResolvedStores(product) {
   }
   if (s.gear4music) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
-  }
-  if (product.stores.official) {
-    s.official = product.stores.official;
   }
   return s;
 }

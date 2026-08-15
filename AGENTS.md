@@ -629,4 +629,4 @@ La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
 - `data/manual-deals.json` solo con precios verificados reales vistos en las tiendas (regla del sitio: nunca inventar precios/descuentos).
 - `data/price-history.json` es la memoria del bot; se versiona en el repo para que el historial persista entre corridas.
 
-**Chequeo manual:** `node auto-deals.js` → verifica en `deals.html`/`deals_es.html`: header completo + `bg-hero` + botón azul `guide-back-btn` + cuadrícula + precio original tachado (`text-decoration: line-through`) + iconos de las 6 tiendas + hreflang/canonical por idioma.
+**Chequeo manual:** `node auto-deals.js` → verifica en `deals.html`/`deals_es.html`: header completo + `bg-hero` + botón azul `guide-back-btn` + cuadrícula + precio original tachado (`text-decoration: line-through`) + iconos de las 7 tiendas + hreflang/canonical por idioma.
