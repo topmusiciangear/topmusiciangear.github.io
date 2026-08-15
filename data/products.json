@@ -461,13 +461,12 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FGenelec-8040-BMM%2Fart-REC0016882-000",
       "amazon": "https://www.amazon.co.uk/dp/B00HUOKDSI",
-      "andertons": "https://www.andertons.co.uk/genelec-8040b-two-way-active-studio-monitor-single-unit/"
+      "andertons": "https://www.andertons.co.uk/genelec-8040b-two-way-active-studio-monitor-single-unit/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--GEN8040BPM"
     },
     "unit": "each",
     "unit_es": "cada uno",
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 23,
@@ -548,11 +547,11 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSony-MDR-7506%2Fart-REC0000388-000",
-      "amazon": "https://www.amazon.com/dp/B000AJIF4E"
+      "amazon": "https://www.amazon.com/dp/B000AJIF4E",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SNYMDR7506"
     },
     "excludeStores": [
-      "andertons",
-      "zzounds"
+      "andertons"
     ]
   },
   {
@@ -577,7 +576,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Native+Instruments+Kontakt+8&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/2-Instruments/4-Player/14977-Kontakt-8-Player?a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 29,
@@ -601,7 +603,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=FabFilter+Total+Bundle&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=FabFilter+Total+Bundle&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 30,
@@ -625,7 +630,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=iZotope+Ozone+12+Advanced&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/2-Instruments/11-Producer-Bundle/14667-Ozone-12-Advanced?a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 32,
@@ -648,7 +656,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Soundtoys+5+Bundle&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5?a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 33,
@@ -687,11 +698,10 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAKAI-Professional-MPC-One-%2Fart-SYN0008706-000",
-      "amazon": "https://www.amazon.com/dp/B0C3RN1RTS"
+      "amazon": "https://www.amazon.com/dp/B0C3RN1RTS",
+      "zzounds": "https://www.zzounds.com/a--925521/item--AKAMPCONEPLUS"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 39,
@@ -710,11 +720,10 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Shield-GN-Pop-Filter/2AX0",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_GB%2FGBP%2FAston-Microphones-Shield-GN-Pop-Filter%2Fart-REC0013559-000",
       "andertons": "https://www.andertons.co.uk/aston-shield-gn-gooseneck-pop-filter/?irgwc=1&irpid=7292297",
-      "amazon": "https://www.amazon.co.uk/dp/B079GXTKN3?tag=topmusicg-20"
+      "amazon": "https://www.amazon.co.uk/dp/B079GXTKN3?tag=topmusicg-20",
+      "zzounds": "https://www.zzounds.com/a--925521/item--ASTSWIFTSHIELD"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 41,
@@ -967,11 +976,10 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/KandM-26722-Monitor-Stand/5EY5",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Koenig-Meyer-26722-Monitor-stand/art-REC0016508-000",
       "andertons": "https://www.andertons.co.uk/km-26720-steel-monitor-stand-with-3-leg-base-black/",
-      "reverb": "https://reverb.com/en-ro/item/59522048-k-m-26720-studio-monitor-stand-black"
+      "reverb": "https://reverb.com/en-ro/item/59522048-k-m-26720-studio-monitor-stand-black",
+      "zzounds": "https://www.zzounds.com/a--925521/item--KMS26754"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 60,
@@ -992,7 +1000,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=UA+1176+Classic+Limiter+Collection&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=UA+1176+Classic+Limiter+Collection&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 61,
@@ -1015,7 +1026,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=TDR+Kotelnikov+GE&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=TDR+Kotelnikov+GE&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 62,
@@ -1038,7 +1052,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=FabFilter+Pro-Q+4&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/4-EQ/15433-FabFilter-Pro-Q-4?a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 63,
@@ -1061,7 +1078,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=FabFilter+Pro-C+3&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/3-Compressor/7930-FabFilter-Pro-C-2?a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 64,
@@ -1344,11 +1364,10 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-D-Dual-Wireless-System-with-ME2-and-835-S-U1-5-Band/3URI",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fsearch%2F%3Fq%3DSennheiser%2BEW-D%2BDual",
-      "amazon": "https://www.amazon.co.uk/dp/B09422877Z"
+      "amazon": "https://www.amazon.co.uk/dp/B09422877Z",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SENEWDME2835S"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 95,
@@ -1674,7 +1693,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Ableton+Live+12+Suite&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Ableton+Live+12+Suite&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 111,
@@ -1692,7 +1714,10 @@
     "stores": {
       "official": "https://www.apple.com/logic-pro/",
       "macappstore": "https://apps.apple.com/us/app/logic-pro/id634148309?mt=12"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 112,
@@ -1712,7 +1737,8 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FImageline-FL-Studio-Producer-Edition-License-Code%2Fart-PCM0015006-000",
       "pluginboutique": "https://www.pluginboutique.com/search?q=FL+Studio+Producer+Edition&a_aid=6a01e859cbe1a",
       "amazon": "https://www.amazon.com/dp/B07C895FTM",
-      "reverb": "https://reverb.com/item/85294728-fl-studio-producer-edition-21-2-daw-software-download"
+      "reverb": "https://reverb.com/item/85294728-fl-studio-producer-edition-21-2-daw-software-download",
+      "zzounds": "https://www.zzounds.com/a--925521/item--IMGFLSTUDIO20PR"
     }
   },
   {
@@ -1734,7 +1760,8 @@
       "pluginboutique": "https://www.pluginboutique.com/search?q=Pro+Tools+Studio&a_aid=6a01e859cbe1a",
       "amazon": "https://www.amazon.com/Avid-Pro-Tools-Production-Software/dp/B08KSRDGWV",
       "reverb": "https://reverb.com/item/86118309-avid-pro-tools-studio-annual-subscription-daw-software",
-      "andertons": "https://www.andertons.co.uk/avid-pro-tools-perpetual-license-w-1-year-of-upgrades-support-renewable-annually-esd/"
+      "andertons": "https://www.andertons.co.uk/avid-pro-tools-perpetual-license-w-1-year-of-upgrades-support-renewable-annually-esd/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--AVDPROTOOLSPERP"
     }
   },
   {
@@ -1755,7 +1782,8 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSteinberg-Cubase-Pro-15%2Fart-PCM0018659-000",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Cubase+Pro+15&a_aid=6a01e859cbe1a",
       "amazon": "https://www.amazon.com/Steinberg-Cubase-Pro-Download-Card/dp/B0DMTW1QWN",
-      "reverb": "https://reverb.com/item/85760285-steinberg-cubase-pro-15-daw-software-download"
+      "reverb": "https://reverb.com/item/85760285-steinberg-cubase-pro-15-daw-software-download",
+      "zzounds": "https://www.zzounds.com/a--925521/item--STECUBASEPRO"
     }
   },
   {
@@ -1773,11 +1801,14 @@
     "img": "https://r2.gear4music.com/media/138/1389836/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Reason-14/85V1",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Reason-Studios-Reason-14-License-Code/art-PCM0018102-000",
       "andertons": "https://www.andertons.co.uk/reason-14-daw/",
-      "pluginboutique": "https://www.pluginboutique.com/search?q=Reason+14&a_aid=6a01e859cbe1a",
-      "reverb": "https://reverb.com/item/127647130-reason-14-daw-software-download"
-    }
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/17334-Reason-14"
+    },
+    "excludeStores": [
+      "reverb",
+      "musicstore",
+      "zzounds"
+    ]
   },
   {
     "id": 116,
@@ -1847,7 +1878,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Waves+Mercury+Bundle&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+Mercury+Bundle&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 119,
@@ -1871,7 +1905,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Waves+SSL+G-Master+Buss+Compressor&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+SSL+G-Master+Buss+Compressor&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 120,
@@ -1895,7 +1932,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Celemony+Melodyne+5&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Celemony+Melodyne+5&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 121,
@@ -1919,7 +1959,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Universal+Audio+UAD+Ultimate+14&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Universal+Audio+UAD+Ultimate+14&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 122,
@@ -1943,7 +1986,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=iZotope+RX+11+Advanced&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=iZotope+RX+11+Advanced&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 123,
@@ -1967,7 +2013,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Native+Instruments+Komplete+26+Ultimate&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Native+Instruments+Komplete+26+Ultimate&a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 124,
@@ -2214,11 +2263,10 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Strymon-Big-Sky-MX-Reverb-Pedal/6E9T",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FStrymon-Big-Sky-MX%2Fart-GIT0061754-000",
       "amazon": "https://www.amazon.co.uk/Strymon-Big-Sky-MX-Guitars-Blue/dp/B0CZTY4XZ4",
-      "andertons": "https://www.andertons.co.uk/strymon-big-sky-mx-multi-reverb-pedal/"
+      "andertons": "https://www.andertons.co.uk/strymon-big-sky-mx-multi-reverb-pedal/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--STMBIGSKYMX"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 136,
@@ -2568,13 +2616,12 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-Stagepas-1K-MK2-Column-PA-System/534A",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FYamaha-STAGEPAS-1K-mkII%2Fart-PAH0023076-000",
-      "amazon": "https://www.amazon.com/dp/B0B99XPV2B"
+      "amazon": "https://www.amazon.com/dp/B0B99XPV2B",
+      "zzounds": "https://www.zzounds.com/a--925521/item--YAMSTAGEPAS1KMK2"
     },
     "unit": "each",
     "unit_es": "cada uno",
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 153,
@@ -2593,13 +2640,12 @@
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Alto-Professional-TS412-12-Active-PA-Speaker/52XA",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FALTO-TS412%2Fart-PAH0023061-000",
       "amazon": "https://www.amazon.com/dp/B0BBRXNN9V",
-      "andertons": "https://www.andertons.co.uk/alto-ts412-active-12-pa-speaker-2000w-peak-with-dsp-bluetooth-each/"
+      "andertons": "https://www.andertons.co.uk/alto-ts412-active-12-pa-speaker-2000w-peak-with-dsp-bluetooth-each/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--APATS412XUS"
     },
     "unit": "each",
     "unit_es": "cada uno",
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 154,
@@ -2806,11 +2852,10 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Sire-Marcus-Miller-V5-4-String-Bass-Guitar-Natural/3BN5",
       "amazon": "https://www.amazon.com/dp/B07XYZ5678",
-      "andertons": "https://www.andertons.co.uk/sire-marcus-miller-v5-4-string-bass/"
+      "andertons": "https://www.andertons.co.uk/sire-marcus-miller-v5-4-string-bass/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SIRML1702"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 164,
@@ -3127,11 +3172,10 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Fireface-UFX-III-Audio-Interface/5F7W",
       "andertons": "https://www.andertons.co.uk/rme-fireface-ufx-iii/",
       "amazon": "https://www.amazon.com/dp/B0C2JCN5JM",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/RME-Fireface-UFX-III-Audio-Interface/art-PCM0017614-000"
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/RME-Fireface-UFX-III-Audio-Interface/art-PCM0017614-000",
+      "zzounds": "https://www.zzounds.com/a--925521/item--RMEFIREFACEUFX3"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 184,
@@ -4150,11 +4194,10 @@
     "img": "https://r2.gear4music.com/media/5/59753/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audix-OM7-Premium-Dynamic-Vocal-Microphone/OIA",
-      "amazon": "https://www.amazon.com/dp/B0002H0M7W"
+      "amazon": "https://www.amazon.com/dp/B0002H0M7W",
+      "zzounds": "https://www.zzounds.com/a--925521/item--AUDOM7"
     },
-    "excludeStores": [
-      "zzounds"
-    ]
+    "excludeStores": []
   },
   {
     "id": 232,
@@ -4316,7 +4359,10 @@
     "affiliate": {
       "amazon": "https://www.amazon.com/s?k=Eventide+Blackhole&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/17-Reverb/28520-Blackhole?a_aid=6a01e859cbe1a"
-    }
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 239,
