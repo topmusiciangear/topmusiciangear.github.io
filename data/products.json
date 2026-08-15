@@ -120,8 +120,8 @@
   "stores": {
    "gear4music": "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW",
    "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Professional-II-Stratocaster-RW-3-Color-Sunburst%2Fart-GIT0054130-000",
-   "amazon": "https://www.amazon.com/dp/B0CV1J1KLW",
-   "andertons": "https://www.andertons.co.uk/fender-american-professional-ii-stratocaster-3-tone-sunburst-maple-fingerboard/",
+   "amazon": "https://www.amazon.com/dp/B08L33Z2LF?lv=shuf&channelId=500&plpRedirect=mhFallback",
+   "andertons": "https://www.andertons.co.uk/fender-american-professional-ii-stratocaster-hss-mercury-rosewood-fingerboard/?search_query=Fender%20American%20Professional%20II%20Stratocaster",
    "zzounds": "https://www.zzounds.com/a--925521/item--FEN0113900"
   }
  },
@@ -183,7 +183,7 @@
   "stores": {
    "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
    "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FIbanez-Genesis-RG550-DY-Desert-Sun-Yellow%2Fart-GIT0044595-000",
-   "amazon": "https://www.amazon.com/dp/B0DR697QYH",
+   "amazon": "https://www.amazon.com/dp/B0DR68LTMF?lv=shuf&channelId=500&plpRedirect=mhFallback",
    "andertons": "https://www.andertons.co.uk/ibanez-genesis-collection-rg-ultra-thin-super-wizard-neck-edge-trem-black/",
    "zzounds": "https://www.zzounds.com/a--925521/item--IBARG550"
   }
@@ -204,10 +204,12 @@
   "stores": {
    "gear4music": "https://www.gear4music.com/Guitar-and-Bass/PRS-McCarty-594-10-Top-Quilt-Dark-Cherry-Burst-0332245-2021/4KBQ",
    "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPRS-McCarty-594-Dark-Cherry-Sunburst%2Fart-GIT0063401-007",
-   "amazon": "https://www.amazon.com/dp/B0BZBD176X",
    "andertons": "https://www.andertons.co.uk/prs-mccarty-594-vintage-tuners-mccarty-sunburst/",
    "zzounds": "https://www.zzounds.com/a--925521/item--PAU594"
-  }
+  },
+  "excludeStores": [
+   "amazon"
+  ]
  },
  {
   "id": 11,
@@ -2034,7 +2036,7 @@
   "stores": {
    "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Stratocaster-HSS-MN-Black/6HUD",
    "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-II-Stratocaster-HSS-MN-Black%2Fart-GIT0061903-000",
-   "amazon": "https://www.amazon.com/dp/B0D2LQ6NTT",
+   "amazon": "https://www.amazon.com/dp/B0D2LQ6NTT?lv=shuf&channelId=500&plpRedirect=mhFallback",
    "andertons": "https://www.andertons.co.uk/fender-player-ii-modified-stratocaster-hss-mn-dusk/",
    "zzounds": "https://www.zzounds.com/a--925521/item--FEN0140540"
   }
