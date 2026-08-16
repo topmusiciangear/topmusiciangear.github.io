@@ -5553,10 +5553,15 @@
    "badge": "topQuality",
    "desc": "A carbon-fiber acoustic-electric smart guitar with a 3.5-inch touchscreen running the HILAVA 2.0 OS on a 32-bit SHARC audio chip. It's the Lava ME 3's successor with the fixes players asked for: an adjustable truss rod, Plek-leveled frets for a low, comfortable action, FreeBoost 3.0 and an upgraded battery. 34 effects, a looper, 100+ backing tracks and drum grooves run on the guitar itself — no amp or app required. Wi-Fi and Bluetooth 5.0 sync projects to the Lava+ cloud, the Super AirSonic carbon unibody is weatherproof, and it weighs about 2 kg. At $999 it's the most advanced all-in-one acoustic you can buy.",
    "desc_es": "Una guitarra acústico-eléctrica inteligente de fibra de carbono con pantalla táctil de 3,5 pulgadas que corre el sistema HILAVA 2.0 sobre un chip de audio SHARC de 32 bits. Es la sucesora de la Lava ME 3 con las mejoras que pedían los guitarristas: alma ajustable, trastes nivelados por Plek para una acción baja y cómoda, FreeBoost 3.0 y batería mejorada. 34 efectos, looper, más de 100 pistas de acompañamiento y patrones de batería corren en la propia guitarra — sin ampli ni app. El Wi-Fi y Bluetooth 5.0 sincronizan tus proyectos con la nube Lava+, el cuerpo unibody de fibra de carbono Super AirSonic es resistente a la intemperie y pesa unos 2 kg. Por $999 es la acústica todo-en-uno más avanzada que puedes comprar.",
-   "img": "https://m.media-amazon.com/images/I/61Sh7AXF5xL._AC_SL1500_.jpg",
+   "img": "https://images.musicstore.de/images/1600/lava-me-4-carbon-36-white_1_GIT0064172-002.jpg",
    "stores": {
     "amazon": "https://www.amazon.com/dp/B0CDLXWMNL",
-    "musicstore": "https://www.musicstore.com/en_US/USD/Lava-ME-4-Carbon-36-White/art-GIT0064172-002"
-   }
+    "musicstore": "https://www.musicstore.com/en_US/USD/Lava-ME-4-Carbon-36-White/art-GIT0064172-002",
+    "andertons": "https://www.andertons.co.uk/lava-me-4-carbon-36-space-grey-with-airflow-bag-/"
+   },
+   "excludeStores": [
+    "gear4music",
+    "zzounds"
+   ]
   }
 ]
