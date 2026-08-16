@@ -5465,11 +5465,84 @@
    "official": "https://rode.com/en-us/products/nt-usb-mini",
    "andertons": "https://www.andertons.co.uk/rode-nt-usb-mini-compact-deskmount-microphone/"
   },
-  "excludeStores": [
-   "musicstore",
-   "zzounds",
-   "reverb",
-   "gear4music"
-  ]
- }
+"excludeStores": [
+    "musicstore",
+    "zzounds",
+    "reverb",
+    "gear4music"
+   ]
+  },
+  {
+   "id": 293,
+   "title": "Yamaha THR10II Desktop Modeling Amp",
+   "title_es": "Amplificador de Modelado de Escritorio Yamaha THR10II",
+   "brand": "Yamaha",
+   "category": "amps",
+   "price": 299,
+   "rating": 4.8,
+   "reviews": 1275,
+   "badge": "topQuality",
+   "desc": "The desktop amp that looks like hi-fi audio and sounds like a real tube amp. 20 watts of stereo power through two 3-inch speakers with 15 guitar amp models, 3 bass models, 3 acoustic mic models and a flat voicing. Bluetooth streams music from your phone while the THR Remote app shapes tones and effects, and a USB port doubles as an audio interface for recording. The headphone output delivers a full amp tone in total silence — it replaces an amp, a Bluetooth speaker and a sound card on your desk.",
+   "desc_es": "El amplificador de escritorio que parece un equipo de alta fidelidad y suena como un amplificador de válvulas real. 20 vatios de potencia estéreo a través de dos altavoces de 3 pulgadas con 15 modelos de amplificador de guitarra, 3 de bajo, 3 de micrófono acústico y una voz flat. El Bluetooth reproduce música desde tu teléfono mientras la app THR Remote ajusta tonos y efectos, y el puerto USB funciona como interfaz de audio para grabar. La salida de auriculares entrega un tono completo de amplificador en total silencio — sustituye un ampli, un altavoz Bluetooth y una tarjeta de sonido en tu escritorio.",
+   "img": "https://m.media-amazon.com/images/I/71kL4q0HQuL._AC_SL1500_.jpg",
+   "stores": {
+    "amazon": "https://www.amazon.com/dp/B07XNL8127",
+    "zzounds": "https://www.zzounds.com/item--YAMTHR10II"
+   }
+  },
+  {
+   "id": 294,
+   "title": "Positive Grid Spark 40 Smart Guitar Amplifier",
+   "title_es": "Amplificador Inteligente de Guitarra Positive Grid Spark 40",
+   "brand": "Positive Grid",
+   "category": "amps",
+   "price": 299,
+   "rating": 4.7,
+   "reviews": 12113,
+   "badge": "bestSeller",
+   "desc": "A 40-watt smart amp that learns how you play. It listens to your chords and key through AI, generates Smart Jam backing tracks in any style, and Auto Chord plays the right chord for whatever song you pick. Over 10,000 presets on ToneCloud cover every genre from jazz to metal. It packs 33 amp models, 43 effects, a 4-channel mixer for bass or mic, Bluetooth, USB recording and a headphone out for silent practice. At $299 it's the most fun way to practice electric, acoustic or bass at your desk.",
+   "desc_es": "Un amplificador inteligente de 40 vatios que aprende cómo tocas. Escucha tus acordes y tu tonalidad mediante IA, genera pistas de acompañamiento Smart Jam en cualquier estilo, y Auto Chord toca el acorde correcto para la canción que elijas. Más de 10.000 presets en ToneCloud cubren todos los géneros, del jazz al metal. Trae 33 modelos de amplificador, 43 efectos, un mezclador de 4 canales para bajo o micrófono, Bluetooth, grabación USB y salida de auriculares para practicar en silencio. Por $299 es la forma más divertida de practicar eléctrica, acústica o bajo en tu escritorio.",
+   "img": "https://cdn.shopify.com/s/files/1/1094/6716/products/spark-shopify-hero.png?v=1664261701",
+   "stores": {
+    "amazon": "https://www.amazon.com/dp/B08HQCG79H",
+    "official": "https://www.positivegrid.com/products/spark",
+    "gear4music": "https://www.gear4music.com/G4M/Positive-Grid-Spark-Pearl/6CX5"
+   }
+  },
+  {
+   "id": 295,
+   "title": "Enya Nova Go Sonic Smart Electric Guitar",
+   "title_es": "Guitarra Eléctrica Inteligente Enya Nova Go Sonic",
+   "brand": "Enya",
+   "category": "guitars",
+   "price": 369,
+   "rating": 4.5,
+   "reviews": 458,
+   "badge": "value",
+   "desc": "A carbon-fiber electric guitar with a built-in 10W speaker and DSP effects — plug in nothing and play anywhere. The Sonic has an Enya ES1 Pro preamp with four presets (clean, overdrive, crunch, lead), a single-coil neck and humbucker bridge pickup, Bluetooth 5.1 for backing tracks, a headphone out, and OTG recording via USB-C that captures straight to your phone. Around 10 hours of battery per charge. At $369 it's the cheapest all-in-one electric that needs no amp at all.",
+   "desc_es": "Una guitarra eléctrica de fibra de carbono con altavoz integrado de 10W y efectos DSP — no enchufes nada y toca en cualquier sitio. La Sonic lleva un previo Enya ES1 Pro con cuatro presets (clean, overdrive, crunch, lead), una pastilla single coil al cuello y un humbucker al puente, Bluetooth 5.1 para pistas de fondo, salida de auriculares y grabación OTG por USB-C que captura directo a tu teléfono. Unas 10 horas de batería por carga. Por $369 es la eléctrica todo-en-uno más económica que no necesita ningún amplificador.",
+   "img": "https://www.enya-music.com/cdn/shop/files/Nova_Go_Sonic_Mainpic_Black_1500_1500.jpg?v=1767508650",
+   "stores": {
+    "amazon": "https://www.amazon.com/dp/B0CTTDFCWR",
+    "official": "https://www.enya-music.com/products/sonic"
+   }
+  },
+  {
+   "id": 296,
+   "title": "Lava Music Lava ME 3 Smart Guitar",
+   "title_es": "Guitarra Inteligente Lava Music Lava ME 3",
+   "brand": "Lava Music",
+   "category": "guitars",
+   "price": 799,
+   "rating": 4.6,
+   "reviews": 342,
+   "badge": "topQuality",
+   "desc": "A carbon-fiber acoustic-electric smart guitar with a 3.5-inch touchscreen running the HILAVA OS. Built-in apps give you 50+ effects, a looper, recorder, tuner and metronome, plus training modes with instant feedback — all without plugging into an amp. FreeBoost 2.0 turns the body into a speaker, Wi-Fi and Bluetooth sync your projects to the Lava+ cloud, and the AirSonic 2 body is 30% stronger with 20% deeper bass. Around 9 hours of battery. At $799 it's the most advanced all-in-one acoustic you can buy.",
+   "desc_es": "Una guitarra acústico-eléctrica inteligente de fibra de carbono con pantalla táctil de 3,5 pulgadas que corre el sistema HILAVA OS. Las apps integradas dan más de 50 efectos, looper, grabadora, afinador y metrónomo, además de modos de entrenamiento con retroalimentación instantánea — todo sin conectarla a un amplificador. FreeBoost 2.0 convierte el cuerpo en altavoz, el Wi-Fi y Bluetooth sincronizan tus proyectos con la nube Lava+, y el cuerpo AirSonic 2 es un 30% más resistente con un 20% más de graves. Unas 9 horas de batería. Por $799 es la acústica todo-en-uno más avanzada que puedes comprar.",
+   "img": "https://static01.galaxus.com/productimages/8/1/5/7/7/6/0/9/4/8/6/8/9/6/6/5/8/1/0827ecaf-4b14-401e-b2c7-c53579e973d9_cropped.jpg_720.jpeg",
+   "stores": {
+    "amazon": "https://www.amazon.com/dp/B09J81QHZX",
+    "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Lava-Me-3-38-White/5AAW"
+   }
+  }
 ]
