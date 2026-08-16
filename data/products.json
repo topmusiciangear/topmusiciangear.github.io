@@ -5146,8 +5146,7 @@
   "excludeStores": [
    "andertons"
   ]
- }
-,
+ },
  {
   "id": 276,
   "title": "Samson Q2U USB/XLR Microphone",
@@ -5299,56 +5298,6 @@
   ]
  },
  {
-  "id": 282,
-  "title": "FIFINE K669B USB Microphone",
-  "title_es": "Micrófono USB FIFINE K669B",
-  "brand": "FIFINE",
-  "category": "microphones",
-  "price": 30,
-  "rating": 4.5,
-  "reviews": 4751,
-  "badge": "value",
-  "desc": "The K669B is the budget mic that made FIFINE a name in voice chat: a cardioid condenser with a gain knob and plug-and-play USB at a price that leaves room in your budget for other gear. It picks up your voice clearly and rejects what's behind the mic well enough for casual streaming, calls and recordings. Add the matching boom arm or stand and it's a complete desk setup for less than many competitor mics.",
-  "desc_es": "El K669B es el micrófono económico que hizo famoso a FIFINE en el chat de voz: un condensador cardioide con perilla de ganancia y USB plug-and-play a un precio que deja espacio en tu presupuesto para otro equipo. Captura tu voz con claridad y rechaza lo que hay detrás del micrófono lo suficiente para streaming casual, llamadas y grabaciones. Añade el brazo o soporte a juego y tienes un setup completo por menos que muchos micrófonos de la competencia.",
-  "img": "https://m.media-amazon.com/images/I/51frr1QHyZL._AC_SL1500_.jpg",
-  "stores": {
-   "amazon": "https://www.amazon.com/dp/B06XCKGLTP",
-   "official": "https://fifinemicrophone.com/products/fifine-k669b-microphone"
-  },
-  "excludeStores": [
-   "andertons",
-   "musicstore",
-   "zzounds",
-   "reverb",
-   "gear4music"
-  ]
- },
- {
-  "id": 283,
-  "title": "Blue Snowball iCE",
-  "title_es": "Blue Snowball iCE",
-  "brand": "Blue",
-  "category": "microphones",
-  "price": 50,
-  "rating": 4.6,
-  "reviews": 37240,
-  "badge": "recommended",
-  "desc": "The Snowball iCE is one of the most reviewed USB mics ever made, and it earns it: a cardioid condenser with a distinctive round body that delivers clear, natural voice for calls and streaming. It's plug-and-play on PC and Mac with no drivers, and the retro ball design looks great on camera. The fixed cardioid pattern keeps things simple — it records what's in front of it.",
-  "desc_es": "El Snowball iCE es uno de los micrófonos USB más reseñados de la historia, y se lo gana: un condensador cardioide con cuerpo redondo distintivo que entrega una voz clara y natural para llamadas y streaming. Es plug-and-play en PC y Mac sin drivers, y el diseño retro de bola se ve genial en cámara. El patrón cardioide fijo lo mantiene simple: graba lo que tiene enfrente.",
-  "img": "https://r2.gear4music.com/media/81/816938/1200/preview.jpg",
-  "stores": {
-   "amazon": "https://www.amazon.com/dp/B014PYGTUQ",
-   "official": "https://www.logitechg.com/en-us/shop/p/snowball-ice-usb-microphone"
-  },
-  "excludeStores": [
-   "andertons",
-   "musicstore",
-   "zzounds",
-   "reverb",
-   "gear4music"
-  ]
- },
- {
   "id": 284,
   "title": "Maono PM461 USB Microphone",
   "title_es": "Micrófono USB Maono PM461",
@@ -5364,31 +5313,6 @@
   "stores": {
    "amazon": "https://www.amazon.com/dp/B0GQP1GJ92",
    "official": "https://www.maono.com/products/maono-pm461-usb-microphone"
-  },
-  "excludeStores": [
-   "andertons",
-   "musicstore",
-   "zzounds",
-   "reverb",
-   "gear4music"
-  ]
- },
- {
-  "id": 285,
-  "title": "Samson Meteor Mic",
-  "title_es": "Samson Meteor Mic",
-  "brand": "Samson",
-  "category": "microphones",
-  "price": 35,
-  "rating": 4.5,
-  "reviews": 4062,
-  "badge": "value",
-  "desc": "The Meteor Mic is a desktop condenser with a compact 'pod' design and folding legs that sit right on your desk with no stand needed. The cardioid capsule delivers clear, warm voice for podcasts, calls and recording, and the USB output is plug-and-play on PC and Mac. The built-in headphone jack adds zero-latency monitoring, and it's small enough to travel.",
-  "desc_es": "El Meteor Mic es un condensador de escritorio con diseño compacto tipo 'cápsula' y patas plegables que se apoyan directo en tu escritorio sin necesidad de soporte. La cápsula cardioide entrega voz clara y cálida para podcasts, llamadas y grabaciones, y la salida USB es plug-and-play en PC y Mac. La salida de auriculares integrada añade monitorización sin latencia, y es lo bastante pequeño para viajar.",
-  "img": "https://r2.gear4music.com/media/64/643883/1200/preview.jpg",
-  "stores": {
-   "amazon": "https://www.amazon.com/dp/B004MF39YS",
-   "official": "https://samsontech.com/products/microphones/usb-microphones/meteormic/"
   },
   "excludeStores": [
    "andertons",
@@ -5471,6 +5395,106 @@
    "musicstore",
    "zzounds",
    "reverb"
+  ]
+ },
+ {
+  "id": 289,
+  "title": "FIFINE AmpliGame A6V USB Gaming Microphone",
+  "title_es": "Micrófono USB de Gaming FIFINE AmpliGame A6V",
+  "brand": "FIFINE",
+  "category": "microphones",
+  "price": 35,
+  "rating": 4.5,
+  "reviews": 14551,
+  "badge": "value",
+  "desc": "The AmpliGame A6V is FIFINE's ultra-budget condenser for gaming and streaming: a cardioid capsule with tap-to-mute, a gain knob and RGB lighting, plus a shock mount, pop filter and tripod in the box. It's USB-C plug-and-play on PC, Mac and consoles, and the cardioid pattern keeps your voice clean on calls and streams. There's no headphone jack, so you monitor through your computer, but at this price it packs the most streaming features per dollar.",
+  "desc_es": "El AmpliGame A6V es el condensador ultra-económico de FIFINE para gaming y streaming: una cápsula cardioide con silencio de un toque, perilla de ganancia e iluminación RGB, más suspensión, filtro antipop y trípode en la caja. Es USB-C plug-and-play en PC, Mac y consolas, y el patrón cardioide mantiene tu voz limpia en llamadas y streams. No tiene salida de auriculares, así que monitorizas a través de tu computadora, pero a este precio ofrece las funciones de streaming más completas por dólar.",
+  "img": "https://m.media-amazon.com/images/I/71LCmvrndjL._AC_SL1500_.jpg",
+  "stores": {
+   "amazon": "https://www.amazon.com/dp/B09JG62KDJ",
+   "official": "https://fifinemicrophone.com/products/fifine-ampligame-a6v-usb-microphone"
+  },
+  "excludeStores": [
+   "andertons",
+   "musicstore",
+   "zzounds",
+   "reverb",
+   "gear4music"
+  ]
+ },
+ {
+  "id": 290,
+  "title": "Rode XCM-50 Compact USB Condenser Microphone",
+  "title_es": "Micrófono USB de Condensador Compacto Rode XCM-50",
+  "brand": "Rode",
+  "category": "microphones",
+  "price": 99,
+  "rating": 4.5,
+  "reviews": 479,
+  "badge": "pro",
+  "desc": "The XCM-50 is Rode's compact premium condenser for streamers: a cardioid capsule with 24-bit/48 kHz USB-C output, a headphone output for zero-latency monitoring and a mute button on the mic. A 360° swing mount and tripod make desk placement flexible, and it pairs with Rode's UNIFY software. It's built like a premium mic but typically sells for under $100.",
+  "desc_es": "El XCM-50 es el condensador premium compacto de Rode para streamers: una cápsula cardioide con salida USB-C de 24-bit/48 kHz, salida de auriculares para monitorización sin latencia y botón de silencio en el micro. Un soporte pivotante de 360° y un trípode hacen flexible la colocación en el escritorio, y se integra con el software UNIFY de Rode. Está construido como un micro premium pero normalmente se vende por menos de $100.",
+  "img": "https://edge.rode.com//images/page/2201/modules/8649/rode-XCM-50-front-6000x5000-rgb-2000x2000-a6a75fd.png",
+  "stores": {
+   "amazon": "https://www.amazon.com/dp/B0BF8ZVNWB",
+   "official": "https://rode.com/en-us/products/xcm-50"
+  },
+  "excludeStores": [
+   "andertons",
+   "musicstore",
+   "zzounds",
+   "reverb",
+   "gear4music"
+  ]
+ },
+ {
+  "id": 291,
+  "title": "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone",
+  "title_es": "Micrófono USB de Condensador Cardioide Audio-Technica AT2020USB-X",
+  "brand": "Audio-Technica",
+  "category": "microphones",
+  "price": 149,
+  "rating": 4.5,
+  "reviews": 794,
+  "badge": "pro",
+  "desc": "The AT2020USB-X brings Audio-Technica's studio condenser sound to USB: a cardioid capsule with 24-bit/96 kHz conversion, a headphone jack with mix control, a capacitive mute button and an LED ring. It's a genuine step-up for podcasters and streamers who want a real studio condenser without an interface, and the desk stand is included.",
+  "desc_es": "El AT2020USB-X lleva el sonido de condensador de estudio de Audio-Technica a USB: una cápsula cardioide con conversión de 24-bit/96 kHz, salida de auriculares con control de mezcla, botón de silencio capacitivo y anillo LED. Es un salto real para podcasters y streamers que quieren un condensador de estudio genuino sin interfaz, e incluye el soporte de escritorio.",
+  "img": "https://www.audio-technica.com/media/catalog/product/cache/4c54125f062bf26160bb6e241a5e0899/a/t/at2020usb-x_01.png",
+  "stores": {
+   "amazon": "https://www.amazon.com/dp/B0B823S1NR",
+   "official": "https://www.audio-technica.com/en-us/at2020usb-x"
+  },
+  "excludeStores": [
+   "andertons",
+   "musicstore",
+   "zzounds",
+   "reverb",
+   "gear4music"
+  ]
+ },
+ {
+  "id": 292,
+  "title": "Rode NT-USB Mini Studio Condenser Microphone",
+  "title_es": "Micrófono de Condensador de Estudio Rode NT-USB Mini",
+  "brand": "Rode",
+  "category": "microphones",
+  "price": 99,
+  "rating": 4.5,
+  "reviews": 12000,
+  "badge": "pro",
+  "desc": "The NT-USB Mini is Rode's compact studio condenser: a cardioid capsule voiced for clear, natural voice, with a built-in pop filter, a magnetic desk stand and a headphone jack for zero-latency monitoring. It's USB-C plug-and-play on PC and Mac and works with Rode Connect software. The premium build and sound make it the best compact pick at the $100 mark.",
+  "desc_es": "El NT-USB Mini es el condensador de estudio compacto de Rode: una cápsula cardioide ajustada para voz clara y natural, con filtro antipop integrado, base magnética y salida de auriculares para monitorización sin latencia. Es USB-C plug-and-play en PC y Mac y funciona con el software Rode Connect. La construcción y el sonido premium lo convierten en la mejor opción compacta en el rango de $100.",
+  "img": "https://edge.rode.com//images/page/77/modules/3685/RODE_NT-USB_Mini_FRONT_DEEP_ETCHED-2000x2000-ecf456c.png",
+  "stores": {
+   "amazon": "https://www.amazon.com/dp/B084P1CXFD",
+   "official": "https://rode.com/en-us/products/nt-usb-mini"
+  },
+  "excludeStores": [
+   "andertons",
+   "musicstore",
+   "zzounds",
+   "reverb",
+   "gear4music"
   ]
  }
 ]
