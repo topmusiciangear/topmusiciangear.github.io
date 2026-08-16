@@ -5456,17 +5456,17 @@
   "badge": "pro",
   "desc": "The NT-USB Mini is Rode's compact studio condenser: a cardioid capsule voiced for clear, natural voice, with a built-in pop filter, a magnetic desk stand and a headphone jack for zero-latency monitoring. It's USB-C plug-and-play on PC and Mac and works with Rode Connect software. The premium build and sound make it the best compact pick at the $100 mark.",
   "desc_es": "El NT-USB Mini es el condensador de estudio compacto de Rode: una cápsula cardioide ajustada para voz clara y natural, con filtro antipop integrado, base magnética y salida de auriculares para monitorización sin latencia. Es USB-C plug-and-play en PC y Mac y funciona con el software Rode Connect. La construcción y el sonido premium lo convierten en la mejor opción compacta en el rango de $100.",
-  "img": "https://edge.rode.com//images/page/77/modules/3685/RODE_NT-USB_Mini_FRONT_DEEP_ETCHED-2000x2000-ecf456c.png",
+"img": "https://r2.gear4music.com/media/54/546970/1200/preview_1.jpg",
   "stores": {
    "amazon": "https://www.amazon.com/dp/B084P1CXFD",
    "official": "https://rode.com/en-us/products/nt-usb-mini",
-   "andertons": "https://www.andertons.co.uk/rode-nt-usb-mini-compact-deskmount-microphone/"
+   "andertons": "https://www.andertons.co.uk/rode-nt-usb-mini-compact-deskmount-microphone/",
+   "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Rode-NT-USB-Mini-Condenser-Microphone/3CFV"
   },
-"excludeStores": [
+ "excludeStores": [
     "musicstore",
     "zzounds",
-    "reverb",
-    "gear4music"
+    "reverb"
    ]
   },
   {
@@ -5481,12 +5481,15 @@
    "badge": "topQuality",
    "desc": "The desktop amp that looks like hi-fi audio and sounds like a real tube amp. 20 watts of stereo power through two 3-inch speakers with 15 guitar amp models, 3 bass models, 3 acoustic mic models and a flat voicing. Bluetooth streams music from your phone while the THR Remote app shapes tones and effects, and a USB port doubles as an audio interface for recording. The headphone output delivers a full amp tone in total silence — it replaces an amp, a Bluetooth speaker and a sound card on your desk.",
    "desc_es": "El amplificador de escritorio que parece un equipo de alta fidelidad y suena como un amplificador de válvulas real. 20 vatios de potencia estéreo a través de dos altavoces de 3 pulgadas con 15 modelos de amplificador de guitarra, 3 de bajo, 3 de micrófono acústico y una voz flat. El Bluetooth reproduce música desde tu teléfono mientras la app THR Remote ajusta tonos y efectos, y el puerto USB funciona como interfaz de audio para grabar. La salida de auriculares entrega un tono completo de amplificador en total silencio — sustituye un ampli, un altavoz Bluetooth y una tarjeta de sonido en tu escritorio.",
-   "img": "https://m.media-amazon.com/images/I/71kL4q0HQuL._AC_SL1500_.jpg",
-   "stores": {
-    "amazon": "https://www.amazon.com/dp/B07XNL8127",
-    "zzounds": "https://www.zzounds.com/item--YAMTHR10II"
-   }
-  },
+"img": "https://r2.gear4music.com/media/50/507171/1200/preview.jpg",
+  "stores": {
+   "amazon": "https://www.amazon.com/dp/B07XNL8127",
+   "zzounds": "https://www.zzounds.com/item--YAMTHR10II",
+   "andertons": "https://www.andertons.co.uk/yamaha-thr10ii-desktop-guitar-amp/",
+   "reverb": "https://reverb.com/p/yamaha-thr10ii-20-watt-2x3-digital-modeling-guitar-combo",
+   "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-THR10II-Guitar-Amp/34PV"
+  }
+ },
   {
    "id": 294,
    "title": "Positive Grid Spark 40 Smart Guitar Amplifier",
@@ -5501,10 +5504,13 @@
    "desc_es": "Un amplificador inteligente de 40 vatios que aprende cómo tocas. Escucha tus acordes y tu tonalidad mediante IA, genera pistas de acompañamiento Smart Jam en cualquier estilo, y Auto Chord toca el acorde correcto para la canción que elijas. Más de 10.000 presets en ToneCloud cubren todos los géneros, del jazz al metal. Trae 33 modelos de amplificador, 43 efectos, un mezclador de 4 canales para bajo o micrófono, Bluetooth, grabación USB y salida de auriculares para practicar en silencio. Por $299 es la forma más divertida de practicar eléctrica, acústica o bajo en tu escritorio.",
    "img": "https://cdn.shopify.com/s/files/1/1094/6716/products/spark-shopify-hero.png?v=1664261701",
    "stores": {
-    "amazon": "https://www.amazon.com/dp/B08HQCG79H",
-    "official": "https://www.positivegrid.com/products/spark",
-    "gear4music": "https://www.gear4music.com/G4M/Positive-Grid-Spark-Pearl/6CX5"
-   }
+"amazon": "https://www.amazon.com/dp/B08HQCG79H",
+   "gear4music": "https://www.gear4music.com/G4M/Positive-Grid-Spark-Pearl/6CX5",
+   "zzounds": "https://www.zzounds.com/item--POSSPARK40",
+   "musicstore": "https://www.musicstore.com/en_US/USD/Positive-Grid-Spark-40-Black/art-GIT0064377-000",
+   "reverb": "https://reverb.com/p/positive-grid-spark-40-40-watt-2x4-modeling-guitar-combo",
+   "andertons": "https://www.andertons.co.uk/positive-grid-spark-40w-practice-amp/"
+  }
   },
   {
    "id": 295,
