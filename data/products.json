@@ -5434,18 +5434,15 @@
   "badge": "pro",
   "desc": "The AT2020USB-X brings Audio-Technica's studio condenser sound to USB: a cardioid capsule with 24-bit/96 kHz conversion, a headphone jack with mix control, a capacitive mute button and an LED ring. It's a genuine step-up for podcasters and streamers who want a real studio condenser without an interface, and the desk stand is included.",
   "desc_es": "El AT2020USB-X lleva el sonido de condensador de estudio de Audio-Technica a USB: una cápsula cardioide con conversión de 24-bit/96 kHz, salida de auriculares con control de mezcla, botón de silencio capacitivo y anillo LED. Es un salto real para podcasters y streamers que quieren un condensador de estudio genuino sin interfaz, e incluye el soporte de escritorio.",
-  "img": "https://www.audio-technica.com/media/catalog/product/cache/4c54125f062bf26160bb6e241a5e0899/a/t/at2020usb-x_01.png",
+  "img": "https://r2.gear4music.com/media/96/961880/1200/preview.jpg",
   "stores": {
    "amazon": "https://www.amazon.com/dp/B0B823S1NR",
-   "official": "https://www.audio-technica.com/en-us/at2020usb-x"
-  },
-  "excludeStores": [
-   "andertons",
-   "musicstore",
-   "zzounds",
-   "reverb",
-   "gear4music"
-  ]
+   "gear4music": "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/Audio-Technica-AT2020USB-XP-Cardioid-Condenser-USB-Microphone/5PYF",
+   "musicstore": "https://www.musicstore.com/en_GB/GBP/Audio-Technica-AT2020USB-XP-USB-Condenser-Mic-with-Stand-Pop-Filter-Black-/art-REC0016402-000",
+   "zzounds": "https://www.zzounds.com/a--925521/item--AUDAT2020USBX",
+   "andertons": "https://www.andertons.co.uk/audio-technica-at2020usb-xp-cardioid-condenser-usb-microphone/",
+   "reverb": "https://reverb.com/marketplace?query=Audio-Technica%20AT2020USB-X"
+  }
  },
  {
   "id": 292,
