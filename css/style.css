@@ -1954,6 +1954,33 @@ footer ul li a:hover { color: var(--accent); }
   text-decoration: none;
 }
 
+.guide-section-prods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+.guide-section-prod {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.guide-section-prod-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+.guide-section-prod-imgs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.guide-section-prod .guide-section-buy {
+  margin-top: 10px;
+}
+
 /* Guide Verdict */
 .guide-verdict {
   display: block;

@@ -515,11 +515,24 @@ function buildGuidePage(guide, lang, idx) {
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
-    const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
-    const sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>' : '';
-    const productImgs = firstProduct ? '<div class="guide-section-imgs">' +
-      '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
-    '</div>' : '';
+    let sectionChips = '', productImgs = '';
+    if (sectionProducts.length > 1) {
+      const blocks = sectionProducts.map(p => {
+        const t = isEs && p.title_es ? p.title_es : p.title;
+        return '<div class="guide-section-prod">' +
+          '<div class="guide-section-prod-name">' + t + '</div>' +
+          '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in"></div>' +
+          '<div class="guide-section-buy">' + storeChips(p) + '</div>' +
+        '</div>';
+      }).join('');
+      productImgs = '<div class="guide-section-prods">' + blocks + '</div>';
+    } else if (sectionProducts.length === 1) {
+      const firstProduct = sectionProducts[0];
+      sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>';
+      productImgs = '<div class="guide-section-imgs">' +
+        '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+      '</div>';
+    }
     return `<div class="guide-section">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
       <div class="guide-section-content">${boldedC}${sectionChips}${productImgs}</div>
