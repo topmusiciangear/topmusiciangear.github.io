@@ -5163,13 +5163,13 @@
   "stores": {
    "amazon": "https://www.amazon.com/dp/B001R747SG",
    "gear4music": "https://www.gear4music.com/Recording-and-Computers/Samson-Q2U-Recording-Pack/D7M",
-   "official": "https://samsontech.com/products/microphones/usb-microphones/q2u/"
+   "official": "https://samsontech.com/products/microphones/usb-microphones/q2u/",
+   "zzounds": "https://www.zzounds.com/item--SAMSAQ2U",
+   "reverb": "https://reverb.com/p/samson-q2u-recording-pack-w-slash-usb-slash-xlr-mic-and-hp20-headphones"
   },
   "excludeStores": [
    "andertons",
-   "musicstore",
-   "zzounds",
-   "reverb"
+   "musicstore"
   ]
  },
  {
@@ -5212,13 +5212,13 @@
   "img": "https://fifinemicrophone.com/cdn/shop/files/FIFINE-K688-dynamic-microphone-black.png?v=1765334442",
   "stores": {
    "amazon": "https://www.amazon.com/dp/B0B8SNVK5K",
-   "official": "https://fifinemicrophone.com/products/fifine-amplitank-k688-microphone"
+   "official": "https://fifinemicrophone.com/products/fifine-amplitank-k688-microphone",
+   "reverb": "https://reverb.com/item/84454808-fifine-amplitank-k688-fifine-amplitank-k688-new-black"
   },
   "excludeStores": [
    "andertons",
    "musicstore",
    "zzounds",
-   "reverb",
    "gear4music"
   ]
  },
@@ -5387,13 +5387,13 @@
   "img": "https://m.media-amazon.com/images/I/71LCmvrndjL._AC_SL1500_.jpg",
   "stores": {
    "amazon": "https://www.amazon.com/dp/B09JG62KDJ",
-   "official": "https://fifinemicrophone.com/products/fifine-ampligame-a6v-usb-microphone"
+   "official": "https://fifinemicrophone.com/products/fifine-ampligame-a6v-usb-microphone",
+   "reverb": "https://reverb.com/item/77532407-fifine-ampligame-a6v-rgb-usb-microphone-black"
   },
   "excludeStores": [
    "andertons",
    "musicstore",
    "zzounds",
-   "reverb",
    "gear4music"
   ]
  },
@@ -5462,10 +5462,10 @@
   "img": "https://edge.rode.com//images/page/77/modules/3685/RODE_NT-USB_Mini_FRONT_DEEP_ETCHED-2000x2000-ecf456c.png",
   "stores": {
    "amazon": "https://www.amazon.com/dp/B084P1CXFD",
-   "official": "https://rode.com/en-us/products/nt-usb-mini"
+   "official": "https://rode.com/en-us/products/nt-usb-mini",
+   "andertons": "https://www.andertons.co.uk/rode-nt-usb-mini-compact-deskmount-microphone/"
   },
   "excludeStores": [
-   "andertons",
    "musicstore",
    "zzounds",
    "reverb",

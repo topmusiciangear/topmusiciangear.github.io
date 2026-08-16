@@ -59302,6 +59302,168 @@
           ]
         },
         {
+          "label": "Sample Rate / Bit Depth",
+          "label_es": "Tasa de Muestreo / Profundidad de Bits",
+          "values": [
+            {
+              "value": "16-bit, 44.1/48 kHz",
+              "value_es": "16-bit, 44,1/48 kHz"
+            },
+            {
+              "value": "24-bit, 48 kHz",
+              "value_es": "24-bit, 48 kHz"
+            },
+            {
+              "value": "24-bit, up to 96 kHz",
+              "value_es": "24-bit, hasta 96 kHz"
+            },
+            {
+              "value": "16-bit, 44.1/48 kHz",
+              "value_es": "16-bit, 44,1/48 kHz"
+            },
+            {
+              "value": "16-bit, 44.1/48 kHz",
+              "value_es": "16-bit, 44,1/48 kHz"
+            },
+            {
+              "value": "16-bit, 44.1/48 kHz",
+              "value_es": "16-bit, 44,1/48 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "24-bit, 48 kHz",
+              "value_es": "24-bit, 48 kHz"
+            },
+            {
+              "value": "24-bit, 48 kHz",
+              "value_es": "24-bit, 48 kHz"
+            },
+            {
+              "value": "24-bit, up to 192 kHz",
+              "value_es": "24-bit, hasta 192 kHz"
+            },
+            {
+              "value": "16-bit, 44.1 kHz",
+              "value_es": "16-bit, 44,1 kHz"
+            },
+            {
+              "value": "24-bit, up to 192 kHz",
+              "value_es": "24-bit, hasta 192 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta en Frecuencia",
+          "values": [
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "40 Hz – 16 kHz",
+              "value_es": "40 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "60 Hz – 18 kHz",
+              "value_es": "60 Hz – 18 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "100 Hz – 16 kHz",
+              "value_es": "100 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "On-Mic Controls",
+          "label_es": "Controles en el Micrófono",
+          "values": [
+            {
+              "value": "On/off switch, headphone volume",
+              "value_es": "Interruptor on/off, volumen de auriculares"
+            },
+            {
+              "value": "Gain knob, mute button",
+              "value_es": "Perilla de ganancia, botón de silencio"
+            },
+            {
+              "value": "Tap-to-mute",
+              "value_es": "Silencio de un toque"
+            },
+            {
+              "value": "Gain knob, touch mute, headphone volume",
+              "value_es": "Perilla de ganancia, silencio táctil, volumen de auriculares"
+            },
+            {
+              "value": "Mute button, gain knob",
+              "value_es": "Botón de silencio, perilla de ganancia"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "Tap-to-mute, gain knob",
+              "value_es": "Silencio de un toque, perilla de ganancia"
+            },
+            {
+              "value": "Headphone volume dial",
+              "value_es": "Perilla de volumen de auriculares"
+            },
+            {
+              "value": "Gain level, mute button, headphone level",
+              "value_es": "Nivel de ganancia, botón de silencio, nivel de auriculares"
+            },
+            {
+              "value": "On/off switch, headphone volume",
+              "value_es": "Interruptor on/off, volumen de auriculares"
+            },
+            {
+              "value": "Gain control",
+              "value_es": "Control de ganancia"
+            },
+            {
+              "value": "Gain knob, mute button",
+              "value_es": "Perilla de ganancia, botón de silencio"
+            }
+          ]
+        },
+        {
           "label": "Headphone Jack",
           "label_es": "Salida de Auriculares",
           "values": [
