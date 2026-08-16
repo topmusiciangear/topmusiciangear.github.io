@@ -1690,6 +1690,19 @@ footer ul li a:hover { color: var(--accent); }
   color: var(--accent);
   text-decoration: underline;
 }
+.guide-callout {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-left: 4px solid #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.guide-callout strong {
+  color: var(--white);
+}
 .guide-section-imgs {
   display: flex;
   gap: 12px;
