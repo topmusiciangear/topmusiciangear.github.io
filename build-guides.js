@@ -516,7 +516,7 @@ function buildGuidePage(guide, lang, idx) {
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
     let sectionChips = '', productImgs = '';
-    if (sectionProducts.length > 1) {
+    if (s.splitProducts && sectionProducts.length > 1) {
       const blocks = sectionProducts.map(p => {
         const t = isEs && p.title_es ? p.title_es : p.title;
         return '<div class="guide-section-prod">' +
@@ -526,12 +526,12 @@ function buildGuidePage(guide, lang, idx) {
         '</div>';
       }).join('');
       productImgs = '<div class="guide-section-prods">' + blocks + '</div>';
-    } else if (sectionProducts.length === 1) {
-      const firstProduct = sectionProducts[0];
-      sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>';
-      productImgs = '<div class="guide-section-imgs">' +
+    } else {
+      const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
+      sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>' : '';
+      productImgs = firstProduct ? '<div class="guide-section-imgs">' +
         '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
-      '</div>';
+      '</div>' : '';
     }
     return `<div class="guide-section">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>

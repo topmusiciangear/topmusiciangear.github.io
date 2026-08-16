@@ -5487,9 +5487,12 @@
    "zzounds": "https://www.zzounds.com/item--YAMTHR10II",
    "andertons": "https://www.andertons.co.uk/yamaha-thr10ii-desktop-guitar-amp/",
    "reverb": "https://reverb.com/p/yamaha-thr10ii-20-watt-2x3-digital-modeling-guitar-combo",
-   "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-THR10II-Guitar-Amp/34PV"
-  }
- },
+"gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-THR10II-Guitar-Amp/34PV"
+   },
+   "excludeStores": [
+    "musicstore"
+   ]
+  },
   {
    "id": 294,
    "title": "Positive Grid Spark 40 Smart Guitar Amplifier",
@@ -5505,12 +5508,14 @@
    "img": "https://cdn.shopify.com/s/files/1/1094/6716/products/spark-shopify-hero.png?v=1664261701",
    "stores": {
 "amazon": "https://www.amazon.com/dp/B08HQCG79H",
-   "gear4music": "https://www.gear4music.com/G4M/Positive-Grid-Spark-Pearl/6CX5",
    "zzounds": "https://www.zzounds.com/item--POSSPARK40",
    "musicstore": "https://www.musicstore.com/en_US/USD/Positive-Grid-Spark-40-Black/art-GIT0064377-000",
    "reverb": "https://reverb.com/p/positive-grid-spark-40-40-watt-2x4-modeling-guitar-combo",
    "andertons": "https://www.andertons.co.uk/positive-grid-spark-40w-practice-amp/"
-  }
+  },
+  "excludeStores": [
+   "gear4music"
+  ]
   },
   {
    "id": 295,
