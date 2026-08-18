@@ -5548,7 +5548,7 @@
    "badge": "topQuality",
    "desc": "A carbon-fiber acoustic-electric smart guitar with a 3.5-inch touchscreen running the HILAVA 2.0 OS on a 32-bit SHARC audio chip. It's the Lava ME 3's successor with the fixes players asked for: an adjustable truss rod, Plek-leveled frets for a low, comfortable action, FreeBoost 3.0 and an upgraded battery. 34 effects, a looper, 100+ backing tracks and drum grooves run on the guitar itself — no amp or app required. Wi-Fi and Bluetooth 5.0 sync projects to the Lava+ cloud, the Super AirSonic carbon unibody is weatherproof, and it weighs about 2 kg. At $999 it's the most advanced all-in-one acoustic you can buy.",
    "desc_es": "Una guitarra acústico-eléctrica inteligente de fibra de carbono con pantalla táctil de 3,5 pulgadas que corre el sistema HILAVA 2.0 sobre un chip de audio SHARC de 32 bits. Es la sucesora de la Lava ME 3 con las mejoras que pedían los guitarristas: alma ajustable, trastes nivelados por Plek para una acción baja y cómoda, FreeBoost 3.0 y batería mejorada. 34 efectos, looper, más de 100 pistas de acompañamiento y patrones de batería corren en la propia guitarra — sin ampli ni app. El Wi-Fi y Bluetooth 5.0 sincronizan tus proyectos con la nube Lava+, el cuerpo unibody de fibra de carbono Super AirSonic es resistente a la intemperie y pesa unos 2 kg. Por $999 es la acústica todo-en-uno más avanzada que puedes comprar.",
-   "img": "https://images.musicstore.de/images/1600/lava-me-4-carbon-36-white_1_GIT0064172-002.jpg",
+"img": "https://images.musicstore.de/images/1600/lava-me-4-carbon-36-white_1_GIT0064172-002.jpg",
    "stores": {
     "amazon": "https://www.amazon.com/dp/B0CDLXWMNL",
     "musicstore": "https://www.musicstore.com/en_US/USD/Lava-ME-4-Carbon-36-White/art-GIT0064172-002",
@@ -5558,5 +5558,67 @@
     "gear4music",
     "zzounds"
    ]
+  },
+  {
+   "id": 297,
+   "title": "Rode NT1 Signature Series",
+   "title_es": "Rode NT1 Signature Series",
+   "brand": "Rode",
+   "category": "microphones",
+   "price": 159,
+   "rating": 4.7,
+   "reviews": 2003,
+   "badge": "topQuality",
+   "desc": "The Rode NT1 Signature Series is the classic NT1 studio condenser with the extras stripped out — just a 1-inch HF6 capsule, a cardioid pattern and 4 dBA of self-noise, which makes it one of the quietest large-diaphragm condensers you can buy at any price. It's a side-address XLR mic that needs 48V phantom power and an interface, but everything you need to start comes in the box: the SM6 shock mount, a pop filter and a 6 m XLR cable. The sound is smooth and neutral with a gentle presence lift around 10 kHz, so vocals and acoustics sit forward without harshness. At $159 it's the condenser most home studios graduate to after outgrowing a $99 mic.",
+   "desc_es": "La Rode NT1 Signature Series es el clásico NT1 de estudio con lo accesorio fuera — solo una cápsula HF6 de 1 pulgada, patrón cardioide y 4 dBA de ruido propio, lo que la convierte en uno de los condensadores de diafragma grande más silenciosos que puedes comprar a cualquier precio. Es un micrófono XLR de lado que necesita phantom de 48V y una interfaz, pero todo lo que necesitas para empezar viene en la caja: el soporte SM6, un filtro anti-pop y un cable XLR de 6 m. El sonido es suave y neutro con un ligero realce de presencia alrededor de 10 kHz, así que las voces y acústicas se asientan al frente sin dureza. A $159 es el condensador al que la mayoría de los estudios caseros llegan después de superar un micrófono de $99.",
+   "img": "https://r2.gear4music.com/media/116/1161837/1200/preview.jpg",
+   "stores": {
+    "gear4music": "https://www.gear4music.com/Recording-and-Computers/Rode-NT1-Signature-Series-Condenser-Microphone-Black/613C",
+    "zzounds": "https://www.zzounds.com/a--925521/item--RODNT1SIG",
+    "amazon": "https://www.amazon.com/dp/B0CKVD62NX",
+    "andertons": "https://www.andertons.co.uk/rode-nt1-signature-series-in-black/",
+    "musicstore": "https://www.musicstore.com/en_US/USD/Rode-NT1-Signature-Series-Black/art-REC0016547-000"
+   }
+  },
+  {
+   "id": 298,
+   "title": "Audio-Technica AT2035",
+   "title_es": "Audio-Technica AT2035",
+   "brand": "Audio-Technica",
+   "category": "microphones",
+   "price": 159,
+   "rating": 4.4,
+   "reviews": 2040,
+   "badge": "topQuality",
+   "desc": "The Audio-Technica AT2035 is the step up from the AT2020 that most home studios actually take. Same large-diaphragm cardioid condenser concept, but you get a switchable 80 Hz high-pass filter and a -10 dB pad, so it handles loud sources like guitar amps and drums without distortion. It reaches 148 dB SPL (158 dB with the pad engaged), and its 120 ohm output makes it a clean match for almost any interface preamp. The included AT8458 shock mount is the same one Audio-Technica sells separately, and a soft pouch protects it between sessions. At $159 it's the budget condenser that refuses to stay in the budget category.",
+   "desc_es": "El Audio-Technica AT2035 es el paso adelante del AT2020 que la mayoría de los estudios caseros realmente dan. Mismo concepto de condensador cardioide de diafragma grande, pero ganas un filtro de corte alto de 80 Hz conmutable y un pad de -10 dB, así que maneja fuentes fuertes como amplis de guitarra y baterías sin distorsión. Alcanza 148 dB de SPL (158 dB con el pad activado), y su salida de 120 ohmios es un match limpio para casi cualquier preamplificador de interfaz. El soporte AT8458 incluido es el mismo que Audio-Technica vende por separado, y una funda suave lo protege entre sesiones. A $159 es el condensador económico que se niega a quedarse en la categoría económica.",
+   "img": "https://r2.gear4music.com/media/39/391400/1200/preview.jpg",
+   "stores": {
+    "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-AT2035-Condenser-Mic/AFA",
+    "zzounds": "https://www.zzounds.com/a--925521/item--AUTAT2035",
+    "amazon": "https://www.amazon.com/dp/B002T45X1G",
+    "andertons": "https://www.andertons.co.uk/audio-technica-at2035-cardioid-condenser-microphone/",
+    "musicstore": "https://www.musicstore.com/en_US/USD/Audio-Technica-AT-2035/art-REC0006277-000"
+   }
+  },
+  {
+   "id": 299,
+   "title": "Sennheiser Profile Streaming Set",
+   "title_es": "Sennheiser Profile Streaming Set",
+   "brand": "Sennheiser",
+   "category": "microphones",
+   "price": 199,
+   "rating": 4.6,
+   "reviews": 581,
+   "badge": "topQuality",
+   "desc": "The Sennheiser Profile Streaming Set pairs the Profile USB condenser with a proper broadcast boom arm, and it's the rare USB mic that gives you real controls instead of making you hunt through software. Gain, mix and headphone volume are physical knobs on the body, mute is a soft-touch button with an LED ring, and a 3.5 mm headphone output gives you zero-latency monitoring. The 3-point self-locking boom arm hides the USB-C cable in its channel, so your desk stays clean on camera. It's USB-C powered and works on Mac, iPad, Windows and Android with no drivers. At $199 it's the most complete plug-and-play setup in this guide.",
+   "desc_es": "El Sennheiser Profile Streaming Set combina el condensador USB Profile con un brazo articulado de broadcast de verdad, y es el raro micrófono USB que te da controles reales en lugar de hacerte buscar en el software. Ganancia, mezcla y volumen de auriculares son perillas físicas en el cuerpo, el mute es un botón de toque suave con anillo LED, y una salida de auriculares de 3,5 mm te da monitorización con latencia cero. El brazo articulado autoblocante de 3 puntos esconde el cable USB-C en su canal, así que tu escritorio se ve limpio en cámara. Funciona por USB-C y funciona en Mac, iPad, Windows y Android sin drivers. A $199 es la configuración plug-and-play más completa de esta guía.",
+   "img": "https://m.media-amazon.com/images/I/416u9Ds5g8L.jpg",
+   "stores": {
+    "zzounds": "https://www.zzounds.com/a--925521/item--SENPROFILESTSET",
+    "amazon": "https://www.amazon.com/dp/B0BTPZF6P1",
+    "andertons": "https://www.andertons.co.uk/sennheiser-profile-streaming-set/",
+    "musicstore": "https://www.musicstore.com/en_US/USD/Sennheiser-Profile-Streaming-Set/art-REC0016334-000"
+   }
   }
-]
+ ]

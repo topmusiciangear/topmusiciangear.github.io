@@ -616,6 +616,16 @@ En cada guía que se toque o cree, SIEMPRE:
 5. **Corregir errores factuales** detectados durante la verificación (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
 6. Rebuild + verificar EN/ES + commit + push.
 
+## 🖼️ REGLA FIJA: Añadir productos al catálogo (`data/products.json`)
+
+**SIEMPRE que se añada un producto nuevo al catálogo, seguir este orden exacto (NO repetírselo al usuario):**
+
+1. **Buscar la imagen PRIMERO en Gear4Music** (patrón `https://r2.gear4music.com/media/.../1200/preview.jpg`). Sacar la URL del `og:image` de la página del producto en gear4music.com. Usar la imagen de Amazon SOLO si Gear4Music no tiene el producto.
+2. **Buscar los links de tiendas con el método Google**: buscar en Google el nombre del producto + el nombre de la tienda (ej. `Rode NT1 Signature zzounds`, `Rode NT1 Signature gear4music`, `Rode NT1 Signature amazon`). Verificar que la URL es la página real del producto (no una búsqueda genérica).
+3. **Tiendas a completar cuando existan**: `gear4music`, `amazon`, `zzounds` (patrón `https://www.zzounds.com/a--925521/item--<CODE>`), `andertons` (patrón `https://www.andertons.co.uk/<slug>/`), `musicstore`, `reverb`. Solo incluir las que tengan el producto verificado.
+4. **NUNCA inventar URLs ni ASINs** — todas deben salir de la búsqueda real (método del punto 2).
+5. Precio y specs siempre verificados con datos reales de la tienda/fabricante (regla de la sección SEO).
+
 ## 🎯 Ofertas (deals.html / deals_es.html) — AUTOMÁTICO (cron)
 
 La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
