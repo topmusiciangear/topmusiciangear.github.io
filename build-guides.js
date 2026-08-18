@@ -640,12 +640,12 @@ function buildGuidePage(guide, lang, idx) {
   function guideFaqs(guide) {
     if (guide.faq) return guide.faq;
     if (guide.featuredSnippet && guide.featuredSnippet.faq_q1_en) {
-      return [1,2,3,4,5,6].map(function(i) {
+      return [1,2,3,4,5,6,7,8].map(function(i) {
         return { q: guide.featuredSnippet['faq_q' + i + '_en'], q_es: guide.featuredSnippet['faq_q' + i + '_es'], a: guide.featuredSnippet['faq_a' + i + '_en'], a_es: guide.featuredSnippet['faq_a' + i + '_es'] };
       }).filter(function(f) { return f.q; });
     }
     if (guide.faq_q1) {
-      return [1,2,3,4,5,6].map(function(i) {
+      return [1,2,3,4,5,6,7,8].map(function(i) {
         return { q: guide['faq_q' + i], q_es: guide['faq_q' + i + '_es'], a: guide['faq_a' + i], a_es: guide['faq_a' + i + '_es'] };
       }).filter(function(f) { return f.q; });
     }
