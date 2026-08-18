@@ -845,17 +845,17 @@ ${ogMeta}
           <li><a href="/">${isEs ? 'Inicio' : 'Home'}</a></li>
           <li><a href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a></li>
           <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> ${isEs ? 'Contáctanos' : 'Contact Us'}</a></li>
+          <li><a href="/deals.html">${isEs ? 'Ofertas de Hoy' : "Today's Deals"}</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h3>${isEs ? 'Categorías Principales' : 'Top Categories'}</h3>
         <ul>
-          <li><a href="/#guides" data-cat="microphones">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
-          <li><a href="/#guides" data-cat="interfaces">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>
-          <li><a href="/#guides" data-cat="headphones">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
-          <li><a href="/#guides" data-cat="monitors">${isEs ? 'Monitores' : 'Monitors'}</a></li>
-          <li><a href="/#guides" data-cat="guitars">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
-          <li><a href="/#guides" data-cat="basses">${isEs ? 'Bajos' : 'Basses'}</a></li>
+          <li><a href="/?cat=microphones">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
+          <li><a href="/?cat=guitars">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
+          <li><a href="/?cat=interfaces">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>
+          <li><a href="/?cat=headphones">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
+          <li><a href="/?cat=monitors">${isEs ? 'Monitores' : 'Monitors'}</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -864,7 +864,7 @@ ${ogMeta}
           <li><a href="/privacy-policy.html">${isEs ? 'Política de Privacidad' : 'Privacy Policy'}</a></li>
           <li><a href="/terms.html">${isEs ? 'Términos de Servicio' : 'Terms of Service'}</a></li>
           <li><a href="/cookie-policy.html">${isEs ? 'Política de Cookies' : 'Cookie Policy'}</a></li>
-          <li><a href="/cookie-policy.html">${isEs ? 'Configuración de Cookies' : 'Cookie Settings'}</a></li>
+          <li><a href="#cookie-settings" onclick="event.preventDefault();cookiePrefs()" style="cursor:pointer">${isEs ? 'Configuración de Cookies' : 'Cookie Settings'}</a></li>
           <li><a href="/affiliate-disclosure.html">${isEs ? 'Divulgación de Afiliados' : 'Affiliate Disclosure'}</a></li>
         </ul>
       </div>
@@ -936,7 +936,7 @@ ${ogMeta}
   </div>
 </div>
 
-  <script defer src="/js/translations.js?v=7"></script>
+  <script defer src="/js/translations.js?v=8"></script>
   <script defer src="/js/constants.js?v=${cacheVerConstants}"></script>
   <script defer src="/js/app.js?v=${cacheVerJs}${dataVer}"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;var h=document.documentElement;var pg=h.getAttribute('lang');if(pg==='en'||pg==='es'){h.classList.add('lang-'+pg);document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.removeProperty('display')});document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.removeProperty('display')});if(pg==='es'){document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.setProperty('display','none','important')})}else{document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.setProperty('display','none','important')})}}if(!c){b.classList.add('cookie-visible')}else{b.classList.remove('cookie-visible');gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
