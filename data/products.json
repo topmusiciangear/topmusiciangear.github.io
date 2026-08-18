@@ -5640,11 +5640,11 @@
    "img": "https://r2.gear4music.com/media/8/87036/1200/preview.jpg",
    "stores": {
     "gear4music": "https://www.gear4music.com/Recording-and-Computers/JBL-LSR310S-Active-Subwoofer/XK7",
-    "amazon": "https://www.amazon.com/JBL-LSR310S-Powered-Studio-Subwoofer/dp/B00I08RT3U",
+    "amazon": "https://www.amazon.com/dp/B00I08RT3U?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1",
     "andertons": "https://www.andertons.co.uk/jbl-lsr310s-10-powered-subwoofer/",
-    "official": "https://jblpro.com/en/products/lsr310s"
-   },
-   "excludeStores": ["zzounds"]
+    "musicstore": "https://www.musicstore.com/en_GB/GBP/JBL-LSR310S-Active-10-Subwoofer/art-REC0011635-000",
+    "zzounds": "https://www.zzounds.com/a--925521/item--JBLLSR310S"
+   }
   },
   {
    "id": 301,
@@ -5665,9 +5665,9 @@
     "gear4music": "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-iLoud-Sub/7NZ8",
     "amazon": "https://www.amazon.com/IK-Multimedia-iLoud-Sub/dp/B0G2LDGBLT",
     "andertons": "https://www.andertons.co.uk/ik-multimedia-i-loud-sub/",
-    "musicstore": "https://www.musicstore.com/en_US/USD/IK-Multimedia-iLoud-Sub/art-REC0017122-000"
-   },
-   "excludeStores": ["zzounds"]
+    "musicstore": "https://www.musicstore.com/en_US/USD/IK-Multimedia-iLoud-Sub/art-REC0017122-000",
+    "zzounds": "https://www.zzounds.com/a--925521/item--IKMILOUDSUB"
+   }
   },
   {
    "id": 302,
@@ -5679,12 +5679,14 @@
    "rating": 4.7,
    "reviews": 2164,
    "badge": "bestSeller",
+   "unit": "pair",
+   "unit_es": "par",
    "desc": "The IK Multimedia iLoud Micro Monitor is the smallest reference-grade system in this guide — two 3-inch speakers with 3/4-inch tweeters that fit in a backpack. Despite the size, the 50W of amplification and 56-bit DSP reach down to 45Hz, so you hear the low end instead of guessing. It's the only monitor here with Bluetooth built in, which makes it the easiest pick for checking a mix on your phone or laptop without cables. At $349 for the pair, it's the cheapest way to get honest, full-range monitoring on a cramped desk.",
    "desc_es": "El IK Multimedia iLoud Micro Monitor es el sistema de referencia más pequeño de esta guía — dos altavoces de 3 pulgadas con tweeters de 3/4 de pulgada que caben en una mochila. A pesar del tamaño, los 50W de amplificación y el DSP de 56 bits llegan hasta 45Hz, así que escuchas el low end en vez de adivinarlo. Es el único monitor de esta guía con Bluetooth integrado, lo que lo convierte en la opción más fácil para revisar una mezcla en tu teléfono o laptop sin cables. A $349 por el par, es la forma más económica de conseguir monitoreo honesto de rango completo en un escritorio apretado.",
    "img": "https://r2.gear4music.com/media/16/166687/1200/preview.jpg",
    "stores": {
     "gear4music": "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-iLoud-Micro-Monitor-Studio-Referencing-System/1GNU",
-    "amazon": "https://www.amazon.com/IK-Multimedia-Monitors-ultra-compact-bluetooth/dp/B01C5RZWCQ",
+    "amazon": "https://www.amazon.co.uk/IK-Multimedia-iLoud-Monitor-Speaker/dp/B01C5RZWCQ/ref=sr_1_1?ar_srct=T1&ar_su=https%3A%2F%2Fa.co%2Fd%2F013ETrA7&creatorsDisableRedirect=true&dib=eyJ2IjoiMSJ9.lulB38g0KpYZ0t0AgRK65L6WIdgO-abZMfOwpJez02dRpakmdhR9WWd9AMv2XY0rf-EruC6E_dKENyoaCfK_PExboZS7elsKS_O21pPosy5bLJqfnwnjZcsFoUNUcFYJON806NiEZqLh6WfhQzMNvBqEccXLw4Dd_zg4nOmLOcX6VQ1Dw6G6_gXMg7lgFcR9cBuF3zbS6JoQzN3E9fCFX4GuQhPVtAeH-_7ifq15ohsVa6tpOBuSt-q6nuHPwsgcnC8a4NPUZg9ZK9obVCFqVknGofWelpqs_guKA401z8U.FUDY_02DzPatlaERB8a3hex6Q3P0h9Xm9vvK_O1h7B4&dib_tag=se&keywords=IK%2BMultimedia%2BiLoud%2BMicro%2BMonitor%2B50%2Bwatt%2BPortable%2BWireless%2BBluetooth%2BStudio%2BReference%2BMonitors%2C%2BDual%2BSpeakers%2Bfor%2BMusic%2BProduction%2C%2BMixing%2C%2BMastering%2C%2BComposing%2C%2Bproducing%2Band%2BDJs&linkCode=gt3&qid=1787085656&sr=8-1&th=1",
     "zzounds": "https://www.zzounds.com/a--925521/item--IKMILOUDMM",
     "andertons": "https://www.andertons.co.uk/ik-multimedia-iloud-micro-studio-monitor/",
     "musicstore": "https://www.musicstore.com/en_OT/EUR/IK-Multimedia-iLoud-Micro-Monitor-PAIR-/art-PCM0014022-000"
@@ -5709,9 +5711,9 @@
     "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8010A-Professional-Studio-Monitor-Black-Single/6ZWE",
     "amazon": "https://www.amazon.com/Genelec-8010-Bi-Amplified-Monitor-System/dp/B00MOEOO0W",
     "andertons": "https://www.andertons.co.uk/genelec-8010a-compact-2way-active-monitor-black/",
-    "musicstore": "https://www.musicstore.com/en_US/USD/Genelec-8010A-Dark-Grey/art-REC0011286-000"
-   },
-   "excludeStores": ["zzounds"]
+    "musicstore": "https://www.musicstore.com/en_US/USD/Genelec-8010A-Dark-Grey/art-REC0011286-000",
+    "zzounds": "https://www.zzounds.com/a--925521/item--GEN8010APM"
+   }
   },
   {
    "id": 304,
@@ -5723,12 +5725,13 @@
    "rating": 4.3,
    "reviews": 18,
    "badge": "premium",
+   "unit": "pair",
+   "unit_es": "par",
    "desc": "The Kali Audio IN-UNF is the first monitor system designed specifically for ultra-nearfield desktop use, and it answers a problem no other monitor here does. Twin 4.5-inch woofers fire from opposite sides to cancel bass modes, while the coaxial satellites put a 4-inch mid and 1-inch tweeter right at ear level. The result is 39Hz-25kHz response at arm's length with 103dB peak SPL, without the room modes a traditional monitor excites. It's $699 and overkill for casual listening, but if you live on a cramped desk and need real bass without subwoofer clutter, nothing else here matches it.",
    "desc_es": "El Kali Audio IN-UNF es el primer sistema de monitores diseñado específicamente para uso ultra-nearfield de escritorio, y responde a un problema que ningún otro monitor de esta guía resuelve. Dos woofers de 4,5 pulgadas disparan desde lados opuestos para cancelar modos de graves, mientras los satélites coaxiales colocan un medio de 4 pulgadas y un tweeter de 1 pulgada justo a la altura del oído. El resultado es una respuesta de 39Hz a 25kHz a distancia de brazo con 103dB de SPL pico, sin los modos de sala que excita un monitor tradicional. Cuesta $699 y es excesivo para escucha casual, pero si vives en un escritorio apretado y necesitas graves reales sin el desorden de un sub, nada más aquí lo iguala.",
    "img": "https://r2.gear4music.com/media/114/1148890/1200/preview.jpg",
    "stores": {
     "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-IN-UNF-Ultra-Nearfield-Monitor-System/6SJ3",
-    "amazon": "https://www.amazon.com/KALI-AUDIO-Nearfield-Studio-Monitor/dp/B0BPYJCH2Z",
     "andertons": "https://www.andertons.co.uk/kali-audio-in-unf-ultra-nearfield-monitors/",
     "zzounds": "https://www.zzounds.com/a--925521/item--KAAINUNF",
     "musicstore": "https://www.musicstore.com/en_US/USD/Kali-Audio-IN-UNF/art-REC0016258-000"
@@ -5755,6 +5758,76 @@
     "andertons": "https://www.andertons.co.uk/neumann-kh80-dsp-active-studio-monitor-white-each/",
     "musicstore": "https://www.musicstore.com/en_US/USD/Neumann-KH-80-DSP/art-REC0012960-000",
     "zzounds": "https://www.zzounds.com/a--925521/item--NEMKH80DSP"
+   }
+  }
+,
+  {
+   "id": 306,
+   "title": "ADAM Audio D3V",
+   "title_es": "ADAM Audio D3V",
+   "brand": "ADAM Audio",
+   "category": "monitors",
+   "price": 350,
+   "rating": 4.7,
+   "reviews": 277,
+   "badge": "recommended",
+   "unit": "pair",
+   "unit_es": "par",
+   "desc": "The ADAM Audio D3V is a desktop monitor system that brings ADAM signature D-ART ribbon tweeter and a 3.5-inch woofer with dual passive radiators into a box that fits a laptop setup. The 240W of total power and built-in DSP room compensation deliver a 45Hz-23.2kHz response with 96dB max SPL, while USB-C and dual TRS inputs plus a headphone out make it a complete audio hub. At around $350 for the pair, it is the most affordable way into ADAM ribbon-tweeter sound in a small room.",
+   "desc_es": "El ADAM Audio D3V es un sistema de monitores de escritorio que mete el característico tweeter de cinta D-ART de ADAM y un woofer de 3,5 pulgadas con doble radiador pasivo en una caja que cabe en un setup de laptop. Los 240W de potencia total y la compensación DSP de sala integrada ofrecen una respuesta de 45Hz-23,2kHz con 96dB de SPL máximo, mientras que las entradas USB-C y doble TRS más la salida de auriculares lo convierten en un hub de audio completo. A unos $350 el par, es la forma más asequible de entrar al sonido de cinta de ADAM en una sala pequeña.",
+   "img": "https://r2.gear4music.com/media/110/1107115/1200/preview.jpg",
+   "stores": {
+    "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Adam-Audio-D3V-Desktop-Studio-Monitor-System-Black/6K6V",
+    "amazon": "https://www.amazon.com/ADAM-Audio-Desktop-Monitoring-Connection/dp/B0DG9Z58CV",
+    "zzounds": "https://www.zzounds.com/a--925521/item--ADPD3V",
+    "andertons": "https://www.andertons.co.uk/adam-audio-d3v-desktop-monitor-pair-in-black/",
+    "musicstore": "https://www.musicstore.com/en_US/USD/Adam-Audio-D3V-Black/art-REC0016797-000"
+   }
+  },
+  {
+   "id": 307,
+   "title": "Kali Audio LP-UNF",
+   "title_es": "Kali Audio LP-UNF",
+   "brand": "Kali Audio",
+   "category": "monitors",
+   "price": 349,
+   "rating": 4.6,
+   "reviews": 138,
+   "badge": "recommended",
+   "unit": "pair",
+   "unit_es": "par",
+   "desc": "The Kali Audio LP-UNF is a compact powered nearfield monitor designed to sit close to walls and screens, with a 4.5-inch woofer and 1-inch dome tweeter in a front-ported cabinet. Its 3-D imaging waveguide widens the sweet spot, the Boundary EQ tames desk reflections, and USB-C, Bluetooth 5.1, RCA and TRS inputs cover any source you can throw at it. The 39Hz-25kHz response and 103dB max SPL come in a pair that fits a small apartment desk, and at $349 it undercuts much of the compact competition.",
+   "desc_es": "El Kali Audio LP-UNF es un monitor nearfield compacto diseñado para colocarse cerca de paredes y pantallas, con un woofer de 4,5 pulgadas y un tweeter de cúpula de 1 pulgada en un gabinete con puerto frontal. Su guía de onda 3-D amplía el punto dulce, el Boundary EQ doma las reflexiones del escritorio y las entradas USB-C, Bluetooth 5.1, RCA y TRS cubren cualquier fuente. La respuesta de 39Hz-25kHz y 103dB de SPL máximo llegan en un par que cabe en el escritorio de un apartamento, y a $349 queda por debajo de gran parte de la competencia compacta.",
+   "img": "https://r2.gear4music.com/media/114/1149304/1200/preview.jpg",
+   "stores": {
+    "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-UNF-Black-Pair/6SJ0",
+    "amazon": "https://www.amazon.com/KALI-AUDIO-LP-UNF-Nearfield-Bluetooth/dp/B0CSDVVYBC",
+    "zzounds": "https://www.zzounds.com/a--925521/item--KAALPUNF",
+    "andertons": "https://www.andertons.co.uk/kali-4-lp-unf-studio-monitor-bundle-with-foam-and-cables/",
+    "musicstore": "https://www.musicstore.com/en_US/USD/Kali-Audio-LP-UNF/art-REC0016606-000"
+   }
+  },
+  {
+   "id": 308,
+   "title": "IK Multimedia iLoud MTM MKII",
+   "title_es": "IK Multimedia iLoud MTM MKII",
+   "brand": "IK Multimedia",
+   "category": "monitors",
+   "price": 800,
+   "rating": 4.4,
+   "reviews": 64,
+   "badge": "premium",
+   "unit": "pair",
+   "unit_es": "par",
+   "desc": "The IK Multimedia iLoud MTM MKII is a compact reference monitor with dual 3.5-inch woofers around a 1-inch tweeter in a D'Appolito arrangement, giving point-source imaging that a 2-way cannot match at close distances. The 100W Class-D amplification per speaker and improved DSP reach 36Hz-32kHz, while built-in ARC auto-calibration with the included measurement mic tunes the pair to your room in seconds. X-MONITOR software even emulates 20+ reference monitors and playback systems. At $800 for the pair it is the most powerful compact monitor here for serious mixing.",
+   "desc_es": "El IK Multimedia iLoud MTM MKII es un monitor de referencia compacto con dos woofers de 3,5 pulgadas alrededor de un tweeter de 1 pulgada en disposición D'Appolito, que ofrece una imagen de fuente puntual que un monitor de 2 vías no logra a corta distancia. La amplificación Clase-D de 100W por altavoz y el DSP mejorado llegan a 36Hz-32kHz, mientras que la auto-calibración ARC integrada con el micrófono de medición incluido sintoniza el par a tu sala en segundos. El software X-MONITOR además emula más de 20 monitores y sistemas de reproducción. A $800 el par, es el monitor compacto más potente de esta guía para mezcla seria.",
+   "img": "https://r2.gear4music.com/media/108/1086524/1200/preview.jpg",
+   "stores": {
+    "gear4music": "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-iLoud-MTM-MKII-Studio-Monitors-Pair/6GV7",
+    "amazon": "https://www.amazon.com/IK-Multimedia-iLoud-MTM-MKII/dp/B0D5JY7ZG9",
+    "zzounds": "https://www.zzounds.com/a--925521/item--IKMILOUDMTMMKII",
+    "andertons": "https://www.andertons.co.uk/ik-multimedia-iloud-mtm-mk2-reference-studio-monitor-2-monitors--1-microphone--pair/",
+    "musicstore": "https://www.musicstore.com/en_US/USD/IK-Multimedia-iLoud-MTM-MKII-Pair-Bundle/art-PCM0018088-000"
    }
   }
 ]
