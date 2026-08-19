@@ -1848,8 +1848,36 @@
       "title_es": "Comparativa de los Micrófonos en esta Guía",
       "columns": [
         {
+          "title": "Price",
+          "title_es": "Precio"
+        },
+        {
           "title": "Mic Type",
           "title_es": "Tipo de Micrófono"
+        },
+        {
+          "title": "Polar Pattern",
+          "title_es": "Patrón Polar"
+        },
+        {
+          "title": "Frequency Response",
+          "title_es": "Respuesta de Frecuencia"
+        },
+        {
+          "title": "Sensitivity",
+          "title_es": "Sensibilidad"
+        },
+        {
+          "title": "Self-Noise",
+          "title_es": "Ruido Propio"
+        },
+        {
+          "title": "Max SPL",
+          "title_es": "SPL Máximo"
+        },
+        {
+          "title": "Impedance",
+          "title_es": "Impedancia"
         },
         {
           "title": "Acoustic Treatment Required",
@@ -1866,8 +1894,36 @@
           "label_es": "Shure SM57",
           "values": [
             {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
               "value": "Dynamic (moving-coil)",
               "value_es": "Dinámico (bobina móvil)"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "−56.0 dBV/Pa (1.6 mV)",
+              "value_es": "−56,0 dBV/Pa (1,6 mV)"
+            },
+            {
+              "value": "N/A (passive)",
+              "value_es": "N/D (pasivo)"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "310 Ω",
+              "value_es": "310 Ω"
             },
             {
               "value": "None — ignores the room",
@@ -1884,8 +1940,36 @@
           "label_es": "Audio-Technica AT2020",
           "values": [
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "Condenser (fixed-charge back plate)",
+              "value_es": "Condensador (placa posterior de carga fija)"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "−37 dB (14.1 mV) re 1V at 1 Pa",
+              "value_es": "−37 dB (14,1 mV) re 1V a 1 Pa"
+            },
+            {
+              "value": "20 dB SPL",
+              "value_es": "20 dB SPL"
+            },
+            {
+              "value": "144 dB SPL (1% THD)",
+              "value_es": "144 dB SPL (1% THD)"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
             },
             {
               "value": "Light — treat first reflections",
@@ -1902,8 +1986,36 @@
           "label_es": "Shure SM58",
           "values": [
             {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
               "value": "Dynamic (moving-coil)",
               "value_es": "Dinámico (bobina móvil)"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "−54.5 dBV/Pa (1.85 mV)",
+              "value_es": "−54,5 dBV/Pa (1,85 mV)"
+            },
+            {
+              "value": "N/A (passive)",
+              "value_es": "N/D (pasivo)"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "300 Ω (rated 150 Ω)",
+              "value_es": "300 Ω (nominal 150 Ω)"
             },
             {
               "value": "None — live stage workhorse",
@@ -1920,8 +2032,36 @@
           "label_es": "Rode NT1 Signature Series",
           "values": [
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "Condenser (1″ LDC)",
+              "value_es": "Condensador (LDC de 1″)"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "−32 dB re 1 V/Pa (25 mV)",
+              "value_es": "−32 dB re 1 V/Pa (25 mV)"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "142 dB SPL",
+              "value_es": "142 dB SPL"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
             },
             {
               "value": "Medium — quiet, treated space helps",
@@ -1938,8 +2078,36 @@
           "label_es": "Shure SM7dB",
           "values": [
             {
-              "value": "Dynamic + active preamp",
-              "value_es": "Dinámico + previo activo"
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "Dynamic (moving-coil) + active preamp",
+              "value_es": "Dinámico (bobina móvil) + previo activo"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)",
+              "value_es": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)"
+            },
+            {
+              "value": "N/A (passive capsule)",
+              "value_es": "N/D (cápsula pasiva)"
+            },
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            },
+            {
+              "value": "150 Ω bypass / 27 Ω preamp mode",
+              "value_es": "150 Ω bypass / 27 Ω modo previo"
             },
             {
               "value": "None — built for untreated rooms",
@@ -1956,8 +2124,36 @@
           "label_es": "Neumann TLM 102",
           "values": [
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "Condenser (LDC, transformerless FET)",
+              "value_es": "Condensador (LDC, FET sin transformador)"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "11 mV/Pa (−39 dBV ± 1 dB)",
+              "value_es": "11 mV/Pa (−39 dBV ± 1 dB)"
+            },
+            {
+              "value": "12 dB-A",
+              "value_es": "12 dB-A"
+            },
+            {
+              "value": "144 dB (THD < 0.5%)",
+              "value_es": "144 dB (THD < 0,5%)"
+            },
+            {
+              "value": "50 Ω",
+              "value_es": "50 Ω"
             },
             {
               "value": "Medium-high — presence lift reveals the room",
@@ -1974,8 +2170,36 @@
           "label_es": "AKG C414 XLII",
           "values": [
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "$1,099",
+              "value_es": "$1,099"
+            },
+            {
+              "value": "Condenser (1″ LDC)",
+              "value_es": "Condensador (LDC de 1″)"
+            },
+            {
+              "value": "9 switchable patterns",
+              "value_es": "9 patrones conmutables"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "23 mV/Pa (−33 dBV ± 0.5 dB)",
+              "value_es": "23 mV/Pa (−33 dBV ± 0,5 dB)"
+            },
+            {
+              "value": "6 dB-A",
+              "value_es": "6 dB-A"
+            },
+            {
+              "value": "140 dB (0.5% THD); up to 158 dB with −18 dB pad",
+              "value_es": "140 dB (0,5% THD); hasta 158 dB con pad de −18 dB"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
             },
             {
               "value": "High — 9 patterns hear everything",
@@ -1992,8 +2216,36 @@
           "label_es": "Neumann U 87 Ai",
           "values": [
             {
+              "value": "$3,599",
+              "value_es": "$3,599"
+            },
+            {
               "value": "Condenser (LDC)",
               "value_es": "Condensador (LDC)"
+            },
+            {
+              "value": "3 switchable (omni, cardioid, fig-8)",
+              "value_es": "3 conmutables (omni, cardioide, figura-8)"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20/28/22 mV/Pa (omni/cardioid/8)",
+              "value_es": "20/28/22 mV/Pa (omni/cardioide/8)"
+            },
+            {
+              "value": "15/12/14 dB-A (omni/cardioid/8)",
+              "value_es": "15/12/14 dB-A (omni/cardioide/8)"
+            },
+            {
+              "value": "117 dB (0.5% THD); 127 dB with −10 dB pad",
+              "value_es": "117 dB (0,5% THD); 127 dB con pad de −10 dB"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
             },
             {
               "value": "Very high — reveals every room flaw",
