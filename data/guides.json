@@ -1740,7 +1740,7 @@
     "conclusion": "Start with an SM57 — every musician needs one. Add the NT1 Signature Series when you want cleaner vocal recordings, or jump to the SM7dB for broadcast-style vocals with a built-in preamp. The AT2020 is the best first condenser, and the TLM 102 is the pro step up when your room is treated. The C414 and U87 are pro-level investments. <p>For more specialized microphone guides, check out our <a href=\"/guides/budget-mics.html\">budget microphone guide</a>, <a href=\"/guides/usb-mics.html\">best USB microphones</a>, <a href=\"/guides/stage-mics.html\">stage microphone guide</a>, <a href=\"/guides/tube-ribbon-mics.html\">tube and ribbon microphone guide</a>, and our <a href=\"/guides/sm57-vs-sm58.html\">SM57 vs SM58 comparison</a>.</p>",
     "conclusion_es": "Empieza con un SM57 — todo músico necesita uno. Añade la NT1 Signature Series cuando quieras grabaciones vocales más limpias, o salta al SM7dB para voces estilo broadcast con previo integrado. El AT2020 es el mejor primer condensador, y el TLM 102 es el salto profesional cuando tu sala está tratada. El C414 y el U87 son inversiones de nivel profesional. <p>Para guías de micrófonos más especializadas, consulta nuestra <a href=\"/guides/budget-mics_es.html\">guía de micrófonos económicos</a>, <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a>, <a href=\"/guides/stage-mics_es.html\">guía de micrófonos para escenario</a>, <a href=\"/guides/tube-ribbon-mics_es.html\">guía de micrófonos de tubo y cinta</a>, y nuestra <a href=\"/guides/sm57-vs-sm58_es.html\">comparativa SM57 vs SM58</a>.</p> <p>También te puede interesar: <a href=\"/guides/budget-mics_es.html\">Mejores Micrófonos Económicos por Menos de $200</a>, <a href=\"/guides/usb-mics_es.html\">Mejores Micrófonos USB y XLR para Streaming</a> y <a href=\"/guides/stage-mics_es.html\">Mejores Micrófonos de Escenario y Directo</a>.</p>",
     "verdict": "Buy the SM57 first — it's the most versatile $99 you'll spend, on guitar cabs, drums and live vocals. Add the NT1 Signature Series when you want cleaner studio vocals, or the SM7dB when broadcast-style vocals and voiceover become the center of your work — its built-in preamp means you need nothing else.",
-    "verdict_es": "Compra el SM57 primero — es el $99 más versátil que gastarás, en amplificadores de guitarra, baterías y voz en vivo. Añade la NT1 Signature Series cuando quieras voces de estudio más limpias, o el SM7dB cuando las voces estilo broadcast y el voiceover se conviertan en el centro de tu trabajo — su previo integrado significa que no necesitas nada más.",
+    "verdict_es": "Compra el SM57 primero — es el micrófono más versátil que existe por solo $99: suena genial en amplificadores de guitarra, baterías y voz en vivo. Añade la NT1 Signature Series cuando quieras voces de estudio más limpias, o el SM7dB cuando las voces estilo broadcast y el voiceover se conviertan en el centro de tu trabajo — su previo integrado significa que no necesitas nada más.",
     "featuredProducts": [
       5,
       196,
@@ -1848,408 +1848,412 @@
       "title_es": "Comparativa de los Micrófonos en esta Guía",
       "columns": [
         {
-          "title": "Price",
-          "title_es": "Precio"
+          "title": "Shure SM57",
+          "title_es": "Shure SM57"
         },
         {
-          "title": "Mic Type",
-          "title_es": "Tipo de Micrófono"
+          "title": "Audio-Technica AT2020",
+          "title_es": "Audio-Technica AT2020"
         },
         {
-          "title": "Polar Pattern",
-          "title_es": "Patrón Polar"
+          "title": "Shure SM58",
+          "title_es": "Shure SM58"
         },
         {
-          "title": "Frequency Response",
-          "title_es": "Respuesta de Frecuencia"
+          "title": "Rode NT1 Signature Series",
+          "title_es": "Rode NT1 Signature Series"
         },
         {
-          "title": "Sensitivity",
-          "title_es": "Sensibilidad"
+          "title": "Shure SM7dB",
+          "title_es": "Shure SM7dB"
         },
         {
-          "title": "Self-Noise",
-          "title_es": "Ruido Propio"
+          "title": "Neumann TLM 102",
+          "title_es": "Neumann TLM 102"
         },
         {
-          "title": "Max SPL",
-          "title_es": "SPL Máximo"
+          "title": "AKG C414 XLII",
+          "title_es": "AKG C414 XLII"
         },
         {
-          "title": "Impedance",
-          "title_es": "Impedancia"
-        },
-        {
-          "title": "Acoustic Treatment Required",
-          "title_es": "Tratamiento Acústico Exigido"
-        },
-        {
-          "title": "Key Studio Solution",
-          "title_es": "Solución Clave en el Estudio"
+          "title": "Neumann U 87 Ai",
+          "title_es": "Neumann U 87 Ai"
         }
       ],
       "rows": [
         {
-          "label": "Shure SM57",
-          "label_es": "Shure SM57",
+          "label": "Price",
+          "label_es": "Precio",
           "values": [
             {
               "value": "$99",
               "value_es": "$99"
             },
             {
-              "value": "Dynamic (moving-coil)",
-              "value_es": "Dinámico (bobina móvil)"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
-              "value": "40 Hz – 15 kHz",
-              "value_es": "40 Hz – 15 kHz"
+              "value": "$159",
+              "value_es": "$159"
             },
             {
-              "value": "−56.0 dBV/Pa (1.6 mV)",
-              "value_es": "−56,0 dBV/Pa (1,6 mV)"
+              "value": "$499",
+              "value_es": "$499"
             },
             {
-              "value": "N/A (passive)",
-              "value_es": "N/D (pasivo)"
+              "value": "$699",
+              "value_es": "$699"
             },
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "$1,099",
+              "value_es": "$1,099"
             },
             {
-              "value": "310 Ω",
-              "value_es": "310 Ω"
-            },
-            {
-              "value": "None — ignores the room",
-              "value_es": "Ninguno — ignora la sala"
-            },
-            {
-              "value": "Point it at the amp or snare — the most recorded mic in history",
-              "value_es": "Apúntalo al ampli o a la caja — el micrófono más grabado de la historia"
+              "value": "$3,599",
+              "value_es": "$3,599"
             }
           ]
         },
         {
-          "label": "Audio-Technica AT2020",
-          "label_es": "Audio-Technica AT2020",
+          "label": "Mic Type",
+          "label_es": "Tipo de Micrófono",
           "values": [
             {
-              "value": "$99",
-              "value_es": "$99"
+              "value": "Dynamic (moving-coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
               "value": "Condenser (fixed-charge back plate)",
               "value_es": "Condensador (placa posterior de carga fija)"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "−37 dB (14.1 mV) re 1V at 1 Pa",
-              "value_es": "−37 dB (14,1 mV) re 1V a 1 Pa"
-            },
-            {
-              "value": "20 dB SPL",
-              "value_es": "20 dB SPL"
-            },
-            {
-              "value": "144 dB SPL (1% THD)",
-              "value_es": "144 dB SPL (1% THD)"
-            },
-            {
-              "value": "100 Ω",
-              "value_es": "100 Ω"
-            },
-            {
-              "value": "Light — treat first reflections",
-              "value_es": "Ligero — trata las primeras reflexiones"
-            },
-            {
-              "value": "Budget condenser that beats mics twice the price",
-              "value_es": "Condensador económico que supera a micrófonos del doble de precio"
-            }
-          ]
-        },
-        {
-          "label": "Shure SM58",
-          "label_es": "Shure SM58",
-          "values": [
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
               "value": "Dynamic (moving-coil)",
               "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "50 Hz – 15 kHz",
-              "value_es": "50 Hz – 15 kHz"
-            },
-            {
-              "value": "−54.5 dBV/Pa (1.85 mV)",
-              "value_es": "−54,5 dBV/Pa (1,85 mV)"
-            },
-            {
-              "value": "N/A (passive)",
-              "value_es": "N/D (pasivo)"
-            },
-            {
-              "value": "160 dB",
-              "value_es": "160 dB"
-            },
-            {
-              "value": "300 Ω (rated 150 Ω)",
-              "value_es": "300 Ω (nominal 150 Ω)"
-            },
-            {
-              "value": "None — live stage workhorse",
-              "value_es": "Ninguno — caballo de batalla en vivo"
-            },
-            {
-              "value": "Live vocals with built-in pop filter",
-              "value_es": "Voces en vivo con filtro antipop integrado"
-            }
-          ]
-        },
-        {
-          "label": "Rode NT1 Signature Series",
-          "label_es": "Rode NT1 Signature Series",
-          "values": [
-            {
-              "value": "$159",
-              "value_es": "$159"
-            },
-            {
               "value": "Condenser (1″ LDC)",
               "value_es": "Condensador (LDC de 1″)"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "−32 dB re 1 V/Pa (25 mV)",
-              "value_es": "−32 dB re 1 V/Pa (25 mV)"
-            },
-            {
-              "value": "4 dBA",
-              "value_es": "4 dBA"
-            },
-            {
-              "value": "142 dB SPL",
-              "value_es": "142 dB SPL"
-            },
-            {
-              "value": "100 Ω",
-              "value_es": "100 Ω"
-            },
-            {
-              "value": "Medium — quiet, treated space helps",
-              "value_es": "Medio — ayuda un espacio silencioso y tratado"
-            },
-            {
-              "value": "4 dBA self-noise — record whisper-quiet sources with zero hiss",
-              "value_es": "4 dBA de ruido propio — graba fuentes susurrantes sin siseo"
-            }
-          ]
-        },
-        {
-          "label": "Shure SM7dB",
-          "label_es": "Shure SM7dB",
-          "values": [
-            {
-              "value": "$499",
-              "value_es": "$499"
             },
             {
               "value": "Dynamic (moving-coil) + active preamp",
               "value_es": "Dinámico (bobina móvil) + previo activo"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "50 Hz – 20 kHz",
-              "value_es": "50 Hz – 20 kHz"
-            },
-            {
-              "value": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)",
-              "value_es": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)"
-            },
-            {
-              "value": "N/A (passive capsule)",
-              "value_es": "N/D (cápsula pasiva)"
-            },
-            {
-              "value": "180 dB",
-              "value_es": "180 dB"
-            },
-            {
-              "value": "150 Ω bypass / 27 Ω preamp mode",
-              "value_es": "150 Ω bypass / 27 Ω modo previo"
-            },
-            {
-              "value": "None — built for untreated rooms",
-              "value_es": "Ninguno — hecho para salas sin tratar"
-            },
-            {
-              "value": "Built-in +18/+28 dB preamp — no Cloudlifter needed",
-              "value_es": "Previos integrados de +18/+28 dB — sin Cloudlifter"
-            }
-          ]
-        },
-        {
-          "label": "Neumann TLM 102",
-          "label_es": "Neumann TLM 102",
-          "values": [
-            {
-              "value": "$699",
-              "value_es": "$699"
-            },
-            {
               "value": "Condenser (LDC, transformerless FET)",
               "value_es": "Condensador (LDC, FET sin transformador)"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "11 mV/Pa (−39 dBV ± 1 dB)",
-              "value_es": "11 mV/Pa (−39 dBV ± 1 dB)"
-            },
-            {
-              "value": "12 dB-A",
-              "value_es": "12 dB-A"
-            },
-            {
-              "value": "144 dB (THD < 0.5%)",
-              "value_es": "144 dB (THD < 0,5%)"
-            },
-            {
-              "value": "50 Ω",
-              "value_es": "50 Ω"
-            },
-            {
-              "value": "Medium-high — presence lift reveals the room",
-              "value_es": "Medio-alto — el realce de presencia revela la sala"
-            },
-            {
-              "value": "The cheapest true Neumann — pro voicing at $699",
-              "value_es": "El Neumann auténtico más barato — voicing pro a $699"
-            }
-          ]
-        },
-        {
-          "label": "AKG C414 XLII",
-          "label_es": "AKG C414 XLII",
-          "values": [
-            {
-              "value": "$1,099",
-              "value_es": "$1,099"
             },
             {
               "value": "Condenser (1″ LDC)",
               "value_es": "Condensador (LDC de 1″)"
             },
             {
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón Polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
               "value": "9 switchable patterns",
               "value_es": "9 patrones conmutables"
             },
             {
+              "value": "3 switchable (omni, cardioid, fig-8)",
+              "value_es": "3 conmutables (omni, cardioide, figura-8)"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
               "value": "20 Hz – 20 kHz",
               "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "−56.0 dBV/Pa (1.6 mV)",
+              "value_es": "−56,0 dBV/Pa (1,6 mV)"
+            },
+            {
+              "value": "−37 dB (14.1 mV) re 1V at 1 Pa",
+              "value_es": "−37 dB (14,1 mV) re 1V a 1 Pa"
+            },
+            {
+              "value": "−54.5 dBV/Pa (1.85 mV)",
+              "value_es": "−54,5 dBV/Pa (1,85 mV)"
+            },
+            {
+              "value": "−32 dB re 1 V/Pa (25 mV)",
+              "value_es": "−32 dB re 1 V/Pa (25 mV)"
+            },
+            {
+              "value": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)",
+              "value_es": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)"
+            },
+            {
+              "value": "11 mV/Pa (−39 dBV ± 1 dB)",
+              "value_es": "11 mV/Pa (−39 dBV ± 1 dB)"
             },
             {
               "value": "23 mV/Pa (−33 dBV ± 0.5 dB)",
               "value_es": "23 mV/Pa (−33 dBV ± 0,5 dB)"
             },
             {
+              "value": "20/28/22 mV/Pa (omni/cardioid/8)",
+              "value_es": "20/28/22 mV/Pa (omni/cardioide/8)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (passive)",
+              "value_es": "N/D (pasivo)"
+            },
+            {
+              "value": "20 dB SPL",
+              "value_es": "20 dB SPL"
+            },
+            {
+              "value": "N/A (passive)",
+              "value_es": "N/D (pasivo)"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "N/A (passive capsule)",
+              "value_es": "N/D (cápsula pasiva)"
+            },
+            {
+              "value": "12 dB-A",
+              "value_es": "12 dB-A"
+            },
+            {
               "value": "6 dB-A",
               "value_es": "6 dB-A"
+            },
+            {
+              "value": "15/12/14 dB-A (omni/cardioid/8)",
+              "value_es": "15/12/14 dB-A (omni/cardioide/8)"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "144 dB SPL (1% THD)",
+              "value_es": "144 dB SPL (1% THD)"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "142 dB SPL",
+              "value_es": "142 dB SPL"
+            },
+            {
+              "value": "180 dB",
+              "value_es": "180 dB"
+            },
+            {
+              "value": "144 dB (THD < 0.5%)",
+              "value_es": "144 dB (THD < 0,5%)"
             },
             {
               "value": "140 dB (0.5% THD); up to 158 dB with −18 dB pad",
               "value_es": "140 dB (0,5% THD); hasta 158 dB con pad de −18 dB"
             },
             {
+              "value": "117 dB (0.5% THD); 127 dB with −10 dB pad",
+              "value_es": "117 dB (0,5% THD); 127 dB con pad de −10 dB"
+            }
+          ]
+        },
+        {
+          "label": "Impedance",
+          "label_es": "Impedancia",
+          "values": [
+            {
+              "value": "310 Ω",
+              "value_es": "310 Ω"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
+            },
+            {
+              "value": "300 Ω (rated 150 Ω)",
+              "value_es": "300 Ω (nominal 150 Ω)"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
+            },
+            {
+              "value": "150 Ω bypass / 27 Ω preamp mode",
+              "value_es": "150 Ω bypass / 27 Ω modo previo"
+            },
+            {
+              "value": "50 Ω",
+              "value_es": "50 Ω"
+            },
+            {
               "value": "200 Ω",
               "value_es": "200 Ω"
+            },
+            {
+              "value": "200 Ω",
+              "value_es": "200 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Acoustic Treatment Required",
+          "label_es": "Tratamiento Acústico Exigido",
+          "values": [
+            {
+              "value": "None — ignores the room",
+              "value_es": "Ninguno — ignora la sala"
+            },
+            {
+              "value": "Light — treat first reflections",
+              "value_es": "Ligero — trata las primeras reflexiones"
+            },
+            {
+              "value": "None — live stage workhorse",
+              "value_es": "Ninguno — caballo de batalla en vivo"
+            },
+            {
+              "value": "Medium — quiet, treated space helps",
+              "value_es": "Medio — ayuda un espacio silencioso y tratado"
+            },
+            {
+              "value": "None — built for untreated rooms",
+              "value_es": "Ninguno — hecho para salas sin tratar"
+            },
+            {
+              "value": "Medium-high — presence lift reveals the room",
+              "value_es": "Medio-alto — el realce de presencia revela la sala"
             },
             {
               "value": "High — 9 patterns hear everything",
               "value_es": "Alto — 9 patrones lo oyen todo"
             },
             {
-              "value": "One mic for vocals, piano, drum overheads",
-              "value_es": "Un micro para voces, piano y overheads"
+              "value": "Very high — reveals every room flaw",
+              "value_es": "Muy alto — revela cada fallo de la sala"
             }
           ]
         },
         {
-          "label": "Neumann U 87 Ai",
-          "label_es": "Neumann U 87 Ai",
+          "label": "Key Studio Solution",
+          "label_es": "Solución Clave en el Estudio",
           "values": [
             {
-              "value": "$3,599",
-              "value_es": "$3,599"
+              "value": "Point it at the amp or snare — the most recorded mic in history",
+              "value_es": "Apúntalo al ampli o a la caja — el micrófono más grabado de la historia"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Budget condenser that beats mics twice the price",
+              "value_es": "Condensador económico que supera a micrófonos del doble de precio"
             },
             {
-              "value": "3 switchable (omni, cardioid, fig-8)",
-              "value_es": "3 conmutables (omni, cardioide, figura-8)"
+              "value": "Live vocals with built-in pop filter",
+              "value_es": "Voces en vivo con filtro antipop integrado"
             },
             {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
+              "value": "4 dBA self-noise — record whisper-quiet sources with zero hiss",
+              "value_es": "4 dBA de ruido propio — graba fuentes susurrantes sin siseo"
             },
             {
-              "value": "20/28/22 mV/Pa (omni/cardioid/8)",
-              "value_es": "20/28/22 mV/Pa (omni/cardioide/8)"
+              "value": "Built-in +18/+28 dB preamp — no Cloudlifter needed",
+              "value_es": "Previos integrados de +18/+28 dB — sin Cloudlifter"
             },
             {
-              "value": "15/12/14 dB-A (omni/cardioid/8)",
-              "value_es": "15/12/14 dB-A (omni/cardioide/8)"
+              "value": "The cheapest true Neumann — pro voicing at $699",
+              "value_es": "El Neumann auténtico más barato — voicing pro a $699"
             },
             {
-              "value": "117 dB (0.5% THD); 127 dB with −10 dB pad",
-              "value_es": "117 dB (0,5% THD); 127 dB con pad de −10 dB"
-            },
-            {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
-            },
-            {
-              "value": "Very high — reveals every room flaw",
-              "value_es": "Muy alto — revela cada fallo de la sala"
+              "value": "One mic for vocals, piano, drum overheads",
+              "value_es": "Un micro para voces, piano y overheads"
             },
             {
               "value": "The studio standard — on more hits than any other condenser",
