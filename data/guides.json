@@ -1665,37 +1665,57 @@
     "intro_es": "He cantado con una amplia variedad de micrófonos — desde micrófonos de $50 en clubes sudorosos hasta condensadores de tubo vintage en estudios profesionales.",
     "sections": [
       {
-        "heading": "How to Match a Microphone to Your Voice",
-        "heading_es": "Cómo Igualar un Micrófono a Tu Voz",
-        "content": "<p><strong>No single microphone is universally the best — the right one matches your voice, your room, and the source.</strong> A mic that flatters one singer can expose another. Start from your own material and work backwards to the gear.</p><p><strong>Your voice decides more than your wallet.</strong> Bright, sibilant voices usually prefer darker mics that tame harshness, while warm, dark voices come alive on condensers with a presence lift. If you can, test the same vocal through a dynamic and a condenser before spending.</p><p><strong>Match the polar pattern to the environment.</strong> Cardioid rejects the room behind you and suits untreated bedrooms and self-recording. Figure-8 picks up front and back for duet-style takes but brings the walls into the sound. Omni captures true room tone and group vocals, yet it demands a quiet, treated space to be usable.</p><p><strong>Frequency response is a creative tool, not a spec war.</strong> A flat response hands you an honest signal to shape later. A presence bump helps a vocal sit in a busy mix without EQ moves. A rolled-off top tames sibilance and harsh acoustic guitars. Decide whether you want to capture reality or skip the corrective work.</p><p><strong>Let your room be the tiebreaker.</strong> An untreated bedroom rewards a rugged dynamic far more than it rewards a $600 condenser that hears every reflection. Improve the acoustics first, then invest in the mic that suits your specific instrument.</p>",
-        "content_es": "<p><strong>Ningún micrófono es universalmente el mejor — el correcto coincide con tu voz, tu sala y la fuente.</strong> Un micrófono que halaga a un cantante puede exponer a otro. Empieza por tu propio material y trabaja hacia atrás hasta el equipo.</p><p><strong>Tu voz decide más que tu bolsillo.</strong> Las voces brillantes y sibilantes suelen preferir micrófonos más oscuros que dominen la aspereza, mientras que las voces cálidas y oscuras cobran vida con condensadores con realce de presencia. Si puedes, prueba la misma voz con un dinámico y un condensador antes de gastar.</p><p><strong>Iguala el patrón polar al entorno.</strong> El cardioide rechaza la sala detrás de ti y sirve para dormitorios sin tratar y grabaciones en solitario. La figura-8 capta el frente y la parte trasera para tomas estilo dueto, pero trae las paredes al sonido. El omnidireccional captura el tono real de la sala y voces grupales, aunque exige un espacio silencioso y tratado para ser utilizable.</p><p><strong>La respuesta de frecuencia es una herramienta creativa, no una guerra de especificaciones.</strong> Una respuesta plana te entrega una señal honesta para moldear después. Un realce de presencia ayuda a que la voz se asiente en una mezcla concurrida sin mover el EQ. Un agudo atenuado domestica la sibilancia y las guitarras acústicas agresivas. Decide si quieres capturar la realidad o saltarte el trabajo correctivo.</p><p><strong>Deja que tu sala sea el desempate.</strong> Un dormitorio sin tratar premia a un dinámico resistente mucho más que a un condensador de $600 que escucha cada reflexión. Mejora primero la acústica y luego invierte en el micrófono que se adapte a tu instrumento específico.</p>",
-        "products": []
-      },
-      {
         "heading": "Is the Shure SM57 the Best Microphone for Recording?",
         "heading_es": "¿Es el Shure SM57 el Mejor Micrófono para Grabación?",
-        "content": "<strong>The SM57 is the most recorded microphone in history. </strong>Not hyperbole — it's a fact. It's $99, takes a beating, and sounds fantastic on guitar amps, snares, horns, and vocals. I've used SM57s on Glastonbury stages and in studio sessions. Every musician should own one.",
-        "content_es": "<strong>El SM57 es el micrófono más grabado de la historia. </strong>No es exageración — es un hecho. Cuesta $99, aguanta golpes y suena fantástico en amplificadores de guitarra, cajas, trompetas y voces. He usado SM57s en escenarios de Glastonbury y sesiones de estudio. Todo músico debería tener uno.",
+        "content": "<strong>The SM57 is the most recorded microphone in history — a title earned on instruments and amps, not studio vocals. </strong>Not hyperbole — it's a fact. It's $99, takes a beating, and sounds fantastic on guitar amps, snares, horns, and drum kits. I've used SM57s on Glastonbury stages and in studio sessions. Every musician should own one.",
+        "content_es": "<strong>El SM57 es el micrófono más grabado de la historia — un título ganado en instrumentos y amplificadores, no en voces de estudio. </strong>No es exageración — es un hecho. Cuesta $99, aguanta golpes y suena fantástico en amplificadores de guitarra, cajas, trompetas y baterías. He usado SM57s en escenarios de Glastonbury y sesiones de estudio. Todo músico debería tener uno.",
         "products": [
           5
         ]
       },
       {
-        "heading": "Is the Rode NT1 5th Generation the Best Microphone for Recording?",
-        "heading_es": "¿Es el Rode NT1 5th Generation el Mejor Micrófono para Grabación?",
-        "content": "<strong>The NT1 5th Generation is famous for being one of the quietest studio condenser microphones available. </strong>The self-noise is so low you can record whisper-quiet sources with zero hiss. It has a warm, smooth character that flatters most voices. The package includes a shock mount, pop filter, and XLR cable — everything you need for $269. This was my first condenser mic and I still recommend it.",
-        "content_es": "<strong>El NT1 5th Generation es famoso por ser el micrófono de condensador de estudio más silencioso del mundo. </strong>El ruido propio es tan bajo que puedes grabar fuentes susurrantes sin ningún siseo. Tiene un carácter cálido y suave que favorece a la mayoría de las voces. El paquete incluye soporte antigolpes, filtro antipop y cable XLR — todo lo que necesitas por $269. Este fue mi primer micrófono de condensador y todavía lo recomiendo.",
+        "heading": "Is the Audio-Technica AT2020 the Best Budget Condenser?",
+        "heading_es": "¿Es el Audio-Technica AT2020 el Mejor Condensador Económico?",
+        "content": "<strong>The AT2020 is the entry-level condenser that professionals recommend. </strong>A 16mm low-mass diaphragm delivers clean, detailed vocals and acoustic instruments with a smooth, uncoloured response that beats mics twice the price. It needs 48V phantom power, so pair it with an interface. At $99 it's the fastest way into condenser-quality vocals on a budget.",
+        "content_es": "<strong>El AT2020 es el condensador de gama de entrada que recomiendan los profesionales. </strong>Un diafragma de baja masa de 16mm ofrece voces e instrumentos acústicos limpios y detallados con una respuesta suave y sin coloración que supera a micrófonos del doble de precio. Necesita alimentación phantom de 48V, así que combínalo con una interfaz. A $99 es la forma más rápida de llegar a voces de calidad condensador con presupuesto ajustado.",
         "products": [
-          3
+          196
         ]
       },
       {
-        "heading": "Is the Shure SM7B the Best Microphone for Recording?",
-        "heading_es": "¿Es el Shure SM7B el Mejor Micrófono para Grabación?",
-        "content": "<strong>The SM7B is the iconic broadcast microphone — you've heard it on every major podcast, radio show, and countless records. </strong>The frequency response is smooth and warm, with excellent rejection of room noise. This is my main vocal mic in my personal studio. It needs a lot of gain, so pair it with a good interface (like the Apollo Twin X or a Cloudlifter).",
-        "content_es": "<strong>El SM7B es el icónico micrófono de transmisión — lo has escuchado en todos los podcasts importantes, programas de radio e innumerables discos. </strong>La respuesta de frecuencia es suave y cálida, con excelente rechazo del ruido ambiente. Este es mi micrófono vocal principal en mi estudio personal. Necesita mucha ganancia, así que combínalo con una buena interfaz (como la Apollo Twin X o un Cloudlifter).",
+        "heading": "Is the Shure SM58 the Best Microphone for Recording?",
+        "heading_es": "¿Es el Shure SM58 el Mejor Micrófono para Grabación?",
+        "content": "<strong>If the SM57 is the instrument mic, the SM58 is its vocal twin. </strong>Same indestructible build, same legendary reliability, but with a tailored frequency response that flatters the human voice. The built-in spherical pop filter reduces plosives and wind noise — no external pop filter needed. At $99, the SM58 has been on more stages than any other microphone in history.",
+        "content_es": "<strong>Si el SM57 es el micrófono de instrumento, el SM58 es su gemelo vocal. </strong>La misma construcción indestructible, la misma fiabilidad legendaria, pero con una respuesta de frecuencia adaptada que favorece la voz humana. El filtro antipop esférico incorporado reduce oclusivas y ruido de viento — sin necesidad de filtro antipop externo. A $99, el SM58 ha estado en más escenarios que cualquier otro micrófono en la historia.",
         "products": [
-          1
+          50
+        ]
+      },
+      {
+        "heading": "Is the Rode NT1 Signature Series the Best Microphone for Recording?",
+        "heading_es": "¿Es la Rode NT1 Signature Series el Mejor Micrófono para Grabación?",
+        "content": "<strong>The NT1 Signature Series is the classic NT1 studio condenser with the extras stripped out — just a 1-inch HF6 capsule, a cardioid pattern and 4 dBA of self-noise, which makes it one of the quietest large-diaphragm condensers you can buy at any price. </strong>It's a side-address XLR mic that needs 48V phantom power and an interface, but everything you need to start comes in the box: the SM6 shock mount, a pop filter and a 6 m XLR cable. At $159 it's the condenser most home studios graduate to after outgrowing a $99 mic.",
+        "content_es": "<strong>La NT1 Signature Series es el clásico NT1 de estudio con lo accesorio fuera — solo una cápsula HF6 de 1 pulgada, patrón cardioide y 4 dBA de ruido propio, lo que la convierte en uno de los condensadores de diafragma grande más silenciosos que puedes comprar a cualquier precio. </strong>Es un micrófono XLR de lado que necesita phantom de 48V y una interfaz, pero todo lo que necesitas para empezar viene en la caja: el soporte SM6, un filtro antipop y un cable XLR de 6 m. A $159 es el condensador al que la mayoría de los estudios caseros llegan después de superar un micrófono de $99.",
+        "products": [
+          297
+        ]
+      },
+      {
+        "heading": "Is the Shure SM7dB the Best Microphone for Recording?",
+        "heading_es": "¿Es el Shure SM7dB el Mejor Micrófono para Grabación?",
+        "content": "<strong>The SM7dB is the broadcast icon with a built-in preamp. </strong>Same warm, smooth SM7B sound — the one you've heard on every major podcast — but with +18 or +28 dB of clean onboard gain, so any interface with 48V phantom power drives it properly. No Cloudlifter needed. Cardioid, with bass roll-off and presence boost switches. This is my main vocal mic for spoken word and voiceover in my personal studio.",
+        "content_es": "<strong>El SM7dB es el ícono de broadcast con previo integrado. </strong>El mismo sonido cálido y suave del SM7B — el que has oído en cada gran podcast — pero con +18 o +28 dB de ganancia limpia incorporada, así que cualquier interfaz con phantom de 48V lo impulsa correctamente. Sin Cloudlifter. Cardioide, con interruptores de corte de graves y realce de presencia. Es mi micrófono vocal principal para locución y voiceover en mi estudio personal.",
+        "products": [
+          321
+        ]
+      },
+      {
+        "heading": "Is the Neumann TLM 102 the Best Microphone for Recording?",
+        "heading_es": "¿Es el Neumann TLM 102 el Mejor Micrófono para Grabación?",
+        "content": "<strong>If you want the Neumann name without the U 87 price tag, the TLM 102 is the entry point. </strong>A cardioid large-diaphragm condenser with a transformerless FET circuit, a presence lift above 6 kHz that makes vocals sit forward, and a 144 dB max SPL that takes loud sources in stride. It needs 48V phantom power and rewards a treated room. At $699 it's the pro-grade step up most serious home studios make next.",
+        "content_es": "<strong>Si quieres el nombre Neumann sin el precio del U 87, el TLM 102 es el punto de entrada. </strong>Un condensador de gran diafragma cardioide con circuito FET sin transformador, un realce de presencia por encima de 6 kHz que asienta las voces al frente, y un SPL máximo de 144 dB que soporta fuentes fuertes sin inmutarse. Necesita phantom de 48V y recompensa una sala tratada. A $699 es el salto de nivel profesional que la mayoría de los estudios caseros serios dan después.",
+        "products": [
+          322
         ]
       },
       {
@@ -1715,43 +1735,19 @@
         "products": [
           2
         ]
-      },
-      {
-        "heading": "Is the Shure SM58 the Best Microphone for Recording?",
-        "heading_es": "¿Es el Shure SM58 el Mejor Micrófono para Grabación?",
-        "content": "<strong>If the SM57 is the instrument mic, the SM58 is its vocal twin. </strong>Same indestructible build, same legendary reliability, but with a tailored frequency response that flatters the human voice. The built-in spherical pop filter reduces plosives and wind noise — no external pop filter needed. At $99, the SM58 has been on more stages than any other microphone in history. From pub gigs to stadiums, it's the sound of live vocals.",
-        "content_es": "<strong>Si el SM57 es el micrófono de instrumento, el SM58 es su gemelo vocal. </strong>La misma construcción indestructible, la misma fiabilidad legendaria, pero con una respuesta de frecuencia adaptada que favorece la voz humana. El filtro antipop esférico incorporado reduce oclusivas y ruido de viento — sin necesidad de filtro antipop externo. A $99, el SM58 ha estado en más escenarios que cualquier otro micrófono en la historia. Desde conciertos de pub hasta estadios, es el sonido de las voces en vivo.",
-        "products": [
-          50
-        ]
-      },
-      {
-        "heading": "Is the Sennheiser MD 421 Kompakt the Best Microphone for Recording?",
-        "heading_es": "¿Es el Sennheiser MD 421 Kompakt el Mejor Micrófono para Grabación?",
-        "content": "<strong>The MD 421 Kompakt is a studio staple with a unique five-position bass roll-off switch that lets you dial in the exact low-end response for any source. </strong>It handles SPLs up to 160dB — you can stick it inside a kick drum, in front of a cranked Marshall stack, or on a screaming vocalist. Toms recorded with MD 421s have that punchy, articulate attack that's defined rock drum sounds since the 60s, and the Kompakt keeps the same legendary capsule in a shorter, stage-friendly body. At $299, it's an investment that pays for itself in one session.",
-        "content_es": "<strong>El MD 421 Kompakt es un básico de estudio con un exclusivo interruptor de corte de graves de cinco posiciones que te permite ajustar la respuesta exacta de graves para cualquier fuente. </strong>Maneja SPLs de hasta 160dB — puedes meterlo dentro de un bombo, frente a un amplificador Marshall a tope, o en un vocalista gritando. Los toms grabados con MD 421s tienen ese ataque potente y articulado que ha definido los sonidos de batería de rock desde los años 60, y el Kompakt mantiene la misma cápsula legendaria en un cuerpo más corto y amigable para el escenario. A $299, es una inversión que se paga sola en una sesión.",
-        "products": [
-          51
-        ]
-      },
-      {
-        "heading": "Is the Electro-Voice RE20 the Best Microphone for Recording?",
-        "heading_es": "¿Es el Electro-Voice RE20 el Mejor Micrófono para Grabación?",
-        "content": "<strong>The RE20 uses Variable-D technology — essentially no proximity effect, meaning you can work the mic close without bass buildup. </strong>This makes it the gold standard for broadcast, podcasting, and voiceover work. But don't pigeonhole it — the RE20 is also a secret weapon on kick drums and bass cabs. The internal shock mount reduces handling noise, and the mid-range presence makes voices sound authoritative. At $449, it's the last broadcast mic you'll ever buy.",
-        "content_es": "<strong>El RE20 utiliza tecnología Variable-D — esencialmente sin efecto de proximidad, lo que significa que puedes trabajar el micrófono de cerca sin acumulación de graves. </strong>Esto lo convierte en el estándar de oro para transmisión, podcasting y locución. Pero no lo encasilles — el RE20 también es un arma secreta en bombos y gabinetes de bajo. La montura antigolpes interna reduce el ruido de manejo, y la presencia en medios hace que las voces suenen autoritarias. A $449, es el último micrófono de transmisión que comprarás.",
-        "products": [
-          52
-        ]
       }
     ],
-    "conclusion": "Start with an SM57 — every musician needs one. Add the NT1 5th Generation when you want cleaner vocal recordings. The SM7B is perfect if you do a lot of spoken word or want that broadcast sound. The C414 and U87 are pro-level investments. <p>For more specialized microphone guides, check out our <a href=\"/guides/budget-mics.html\">budget microphone guide</a>, <a href=\"/guides/usb-mics.html\">best USB microphones</a>, <a href=\"/guides/stage-mics.html\">stage microphone guide</a>, <a href=\"/guides/tube-ribbon-mics.html\">tube and ribbon microphone guide</a>, and our <a href=\"/guides/sm57-vs-sm58.html\">SM57 vs SM58 comparison</a>.</p>",
-    "conclusion_es": "Empieza con un SM57 — todo músico necesita uno. Añade el NT1 5th Generation cuando quieras grabaciones vocales más limpias. El SM7B es perfecto si haces mucho contenido hablado o quieres ese sonido de transmisión. El C414 y el U87 son inversiones de nivel profesional. <p>Para guías de micrófonos más especializadas, consulta nuestra <a href=\"/guides/budget-mics_es.html\">guía de micrófonos económicos</a>, <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a>, <a href=\"/guides/stage-mics_es.html\">guía de micrófonos para escenario</a>, <a href=\"/guides/tube-ribbon-mics_es.html\">guía de micrófonos de tubo y cinta</a>, y nuestra <a href=\"/guides/sm57-vs-sm58_es.html\">comparativa SM57 vs SM58</a>.</p> <p>También te puede interesar: <a href=\"/guides/budget-mics_es.html\">Mejores Micrófonos Económicos por Menos de $200</a>, <a href=\"/guides/usb-mics_es.html\">Mejores Micrófonos USB y XLR para Streaming</a> y <a href=\"/guides/stage-mics_es.html\">Mejores Micrófonos de Escenario y Directo</a>.</p>",
-    "verdict": "Buy the SM57 first — it's the most versatile $99 you'll spend, on guitar cabs, drums and live vocals. Add the SM7B later when vocals and voiceover become the center of your work.",
-    "verdict_es": "Compra el SM57 primero — es el $99 más versátil que gastarás, en amplificadores de guitarra, baterías y voz en vivo. Añade el SM7B después cuando las voces y el voiceover se conviertan en el centro de tu trabajo.",
+    "conclusion": "Start with an SM57 — every musician needs one. Add the NT1 Signature Series when you want cleaner vocal recordings, or jump to the SM7dB for broadcast-style vocals with a built-in preamp. The AT2020 is the best first condenser, and the TLM 102 is the pro step up when your room is treated. The C414 and U87 are pro-level investments. <p>For more specialized microphone guides, check out our <a href=\"/guides/budget-mics.html\">budget microphone guide</a>, <a href=\"/guides/usb-mics.html\">best USB microphones</a>, <a href=\"/guides/stage-mics.html\">stage microphone guide</a>, <a href=\"/guides/tube-ribbon-mics.html\">tube and ribbon microphone guide</a>, and our <a href=\"/guides/sm57-vs-sm58.html\">SM57 vs SM58 comparison</a>.</p>",
+    "conclusion_es": "Empieza con un SM57 — todo músico necesita uno. Añade la NT1 Signature Series cuando quieras grabaciones vocales más limpias, o salta al SM7dB para voces estilo broadcast con previo integrado. El AT2020 es el mejor primer condensador, y el TLM 102 es el salto profesional cuando tu sala está tratada. El C414 y el U87 son inversiones de nivel profesional. <p>Para guías de micrófonos más especializadas, consulta nuestra <a href=\"/guides/budget-mics_es.html\">guía de micrófonos económicos</a>, <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a>, <a href=\"/guides/stage-mics_es.html\">guía de micrófonos para escenario</a>, <a href=\"/guides/tube-ribbon-mics_es.html\">guía de micrófonos de tubo y cinta</a>, y nuestra <a href=\"/guides/sm57-vs-sm58_es.html\">comparativa SM57 vs SM58</a>.</p> <p>También te puede interesar: <a href=\"/guides/budget-mics_es.html\">Mejores Micrófonos Económicos por Menos de $200</a>, <a href=\"/guides/usb-mics_es.html\">Mejores Micrófonos USB y XLR para Streaming</a> y <a href=\"/guides/stage-mics_es.html\">Mejores Micrófonos de Escenario y Directo</a>.</p>",
+    "verdict": "Buy the SM57 first — it's the most versatile $99 you'll spend, on guitar cabs, drums and live vocals. Add the NT1 Signature Series when you want cleaner studio vocals, or the SM7dB when broadcast-style vocals and voiceover become the center of your work — its built-in preamp means you need nothing else.",
+    "verdict_es": "Compra el SM57 primero — es el $99 más versátil que gastarás, en amplificadores de guitarra, baterías y voz en vivo. Añade la NT1 Signature Series cuando quieras voces de estudio más limpias, o el SM7dB cuando las voces estilo broadcast y el voiceover se conviertan en el centro de tu trabajo — su previo integrado significa que no necesitas nada más.",
     "featuredProducts": [
       5,
-      3,
-      1,
+      196,
+      50,
+      297,
+      321,
+      322,
       4,
       2
     ],
@@ -1764,10 +1760,10 @@
       "usb-mics",
       "stage-mics"
     ],
-    "description": "BEST microphone for vocals & home recording 2026. SM7B vs NT1 5th Generation vs AT2020. Best pick: SM57. Read the full verdict & prices before you buy.",
+    "description": "BEST microphone for vocals & home recording 2026. SM7dB vs NT1 Signature vs AT2020 vs TLM 102. Best pick: SM57. Read the full verdict & prices before you buy.",
     "featuredSnippet": {
       "title_en": "Best Microphone for Vocals & Home Recording (2026)",
-      "text_en": "The SM57 is the most recorded microphone in history. Not hyperbole — it's a fact. It's $99, takes a beating, and sounds fantastic on guitar amps, snares, horns, and vocals. I've used SM57s on Broadway...",
+      "text_en": "The SM57 is the most recorded microphone in history — a legend built on instruments and amps. Not hyperbole — it's a fact. It's $99, takes a beating, and sounds fantastic on guitar amps, snares, and horns. I've used SM57s on Glastonbury stages and in studio sessions. Every musician should own one.",
       "name1_en": "",
       "name2_en": "",
       "price1": "",
@@ -1783,7 +1779,7 @@
       "rating1": 0,
       "rating2": 0,
       "title_es": "Mejor Micrófono para Voces y Grabación Casera (2026)",
-      "text_es": "El SM57 es el micrófono más grabado de la historia. No es exageración — es un hecho. Cuesta $99, aguanta golpes y suena fantástico en amplificadores de guitarra, cajas, trompetas y voces. He usado SM5...",
+      "text_es": "El SM57 es el micrófono más grabado de la historia — una leyenda construida en instrumentos y amplificadores. No es exageración — es un hecho. Cuesta $99, aguanta golpes y suena fantástico en amplificadores de guitarra, cajas y trompetas. He usado SM57s en escenarios de Glastonbury y sesiones de estudio. Todo músico debería tener uno.",
       "name1_es": "",
       "name2_es": "",
       "best1_es": "",
@@ -1792,27 +1788,35 @@
       "key2_es": "",
       "faq_q1_en": "Would the Shure SM57 work well as a first microphone for home recording?",
       "faq_a1_en": "Absolutely. The Shure SM57 is the most versatile first microphone you can buy — it records guitar amps, snare drums, brass, and even vocals in a pinch. Its rugged construction means it will survive drops and mishandling. At $99, it's the safest investment in any mic locker and will still be useful even after you own dozens of other microphones.",
-      "faq_q2_en": "What kind of vocalist benefits most from the Rode NT1 5th Generation?",
-      "faq_a2_en": "The Rode NT1 5th Generation is ideal for vocalists with brighter voices who want a smooth, detailed recording. Its low self-noise of 4dBA makes it one of the quietest condenser microphones available, capturing subtle vocal nuances without adding hiss. It comes with a shock mount and pop filter in the box, saving you about $70 on accessories.",
+      "faq_q2_en": "What kind of vocalist benefits most from the Rode NT1 Signature Series?",
+      "faq_a2_en": "The NT1 Signature Series is ideal for vocalists with brighter voices who want a smooth, detailed recording. Its low self-noise of 4 dBA makes it one of the quietest condenser microphones available, capturing subtle vocal nuances without adding hiss. The box includes the SM6 shock mount, pop filter and a 6 m XLR cable, saving you about $70 on accessories.",
       "faq_q1_es": "¿Funcionaría bien el Shure SM57 como primer micrófono para grabación casera?",
       "faq_a1_es": "Absolutamente. El Shure SM57 es el primer micrófono más versátil — graba amplificadores, tambores, metales e incluso voces. Su construcción robusta sobrevive caídas. A $99, es la inversión más segura y seguirá siendo útil incluso después de tener docenas de otros micrófonos.",
-      "faq_q2_es": "¿Qué tipo de vocalista se beneficia más del Rode NT1 5th Generation?",
-      "faq_a2_es": "El Rode NT1 5th Generation es ideal para vocalistas con voces brillantes que buscan una grabación suave y detallada. Su ruido propio de 4dBA lo hace uno de los micrófonos de condensador más silenciosos. Incluye soporte antivibración y filtro pop, ahorrando unos $70 en accesorios.",
+      "faq_q2_es": "¿Qué tipo de vocalista se beneficia más de la Rode NT1 Signature Series?",
+      "faq_a2_es": "La NT1 Signature Series es ideal para vocalistas con voces brillantes que buscan una grabación suave y detallada. Su ruido propio de 4 dBA la convierte en uno de los micrófonos de condensador más silenciosos, capturando matices vocales sutiles sin añadir siseo. La caja incluye el soporte SM6, filtro antipop y cable XLR de 6 m, ahorrando unos $70 en accesorios.",
       "specs": [],
-      "faq_q3_en": "Does the Shure SM7B require any special equipment to use at home?",
-      "faq_a3_en": "The Shure SM7B requires a strong preamp or an inline booster like the Cloudlifter CL-1 because of its low output level. Most entry-level audio interfaces cannot provide enough clean gain without introducing noise. Budget an additional $100-150 for a Cloudlifter or a FetHead if your interface preamps are not high-gain.",
-      "faq_q3_es": "¿Requiere el Shure SM7B equipo especial para usarlo en casa?",
-      "faq_a3_es": "El Shure SM7B necesita un preamplificador potente o un booster como el Cloudlifter CL-1 debido a su bajo nivel de salida. La mayoría de las interfaces económicas no proporciona suficiente ganancia limpia sin introducir ruido. Presupuesta $100-150 adicionales para un Cloudlifter o FetHead.",
+      "faq_q3_en": "Does the Shure SM7dB require any special equipment to use at home?",
+      "faq_a3_en": "No — that's the point of the SM7dB. Its built-in preamp delivers +18 or +28 dB of clean gain, so it works with any interface that provides 48V phantom power, with no Cloudlifter or inline booster needed. Just enable phantom power on your interface and you're ready to record.",
+      "faq_q3_es": "¿Requiere el Shure SM7dB equipo especial para usarlo en casa?",
+      "faq_a3_es": "No — ese es el punto del SM7dB. Su previo integrado entrega +18 o +28 dB de ganancia limpia, así que funciona con cualquier interfaz que proporcione phantom de 48V, sin necesidad de Cloudlifter ni booster externo. Solo activa el phantom en tu interfaz y listo para grabar.",
       "faq_q4_en": "How many polar patterns does the AKG C414 XLII offer?",
       "faq_a4_en": "The AKG C414 XLII offers nine selectable polar patterns: omnidirectional, wide cardioid, cardioid, hypercardioid, figure-8, and four intermediate positions. This makes it capable of recording anything from solo vocals to full ensembles, drum overheads, and room ambience. The switchable bass cut and pad add further versatility for high-SPL sources.",
       "faq_q4_es": "¿Cuántos patrones polares ofrece el AKG C414 XLII?",
       "faq_a4_es": "El AKG C414 XLII ofrece nueve patrones polares seleccionables: omnidireccional, cardioide ancho, cardioide, hipercardioide, figura-8 y cuatro posiciones intermedias. Esto permite grabar desde voces solistas hasta conjuntos completos. El filtro de graves y pad añaden versatilidad para fuentes de alto SPL.",
       "faq_q5_en": "Is the Neumann U 87 Ai worth the investment for a serious home studio?",
-      "faq_a5_en": "Only if your room and chain are already high-end. The U 87 Ai ($3,599) reveals every detail, including room flaws, so it is only worth the money when your acoustics, preamps and converters are pro-grade. For most home studios under $5,000 total, a condenser like the NT1 5th Generation at $269 gives cleaner results, because the mic is rarely the weak link in a budget chain.",
+      "faq_a5_en": "Only if your room and chain are already high-end. The U 87 Ai ($3,599) reveals every detail, including room flaws, so it is only worth the money when your acoustics, preamps and converters are pro-grade. For most home studios under $5,000 total, a condenser like the NT1 Signature Series at $159 gives cleaner results, because the mic is rarely the weak link in a budget chain.",
       "faq_q5_es": "¿Merece la pena invertir en el Neumann U 87 Ai para un home studio serio?",
-      "faq_a5_es": "Solo si tu sala y tu cadena ya son de gama alta. El U 87 Ai ($3,599) revela cada detalle, incluidos los fallos de la sala, así que solo vale el dinero cuando tu acústica, preamplificadores y conversores son profesionales. Para la mayoría de home studios con menos de $5,000 en total, un condensador como el NT1 5th Generation a $269 da resultados más limpios, porque el micro rara vez es el eslabón débil en una cadena económica."
+      "faq_a5_es": "Solo si tu sala y tu cadena ya son de gama alta. El U 87 Ai ($3,599) revela cada detalle, incluidos los fallos de la sala, así que solo vale el dinero cuando tu acústica, preamplificadores y conversores son profesionales. Para la mayoría de home studios con menos de $5,000 en total, un condensador como la NT1 Signature Series a $159 da resultados más limpios, porque el micro rara vez es el eslabón débil en una cadena económica.",
+      "faq_q6_en": "Is the Audio-Technica AT2020 a good first condenser microphone?",
+      "faq_a6_en": "Yes. The AT2020 ($99) is the best entry into condenser-quality vocals: a smooth, uncoloured response that beats mics twice the price. It needs 48V phantom power from your interface, and in a reasonably quiet room it captures vocals and acoustics with far more detail than any dynamic in the same price range.",
+      "faq_q6_es": "¿Es el Audio-Technica AT2020 un buen primer micrófono de condensador?",
+      "faq_a6_es": "Sí. El AT2020 ($99) es la mejor entrada a las voces de calidad condensador: una respuesta suave y sin coloración que supera a micrófonos del doble de precio. Necesita phantom de 48V de tu interfaz, y en una sala razonablemente silenciosa captura voces y acústicas con mucho más detalle que cualquier dinámico del mismo rango de precio.",
+      "faq_q7_en": "Is the Neumann TLM 102 worth the upgrade from a budget condenser?",
+      "faq_a7_en": "If your room is treated and your interface is clean, yes. The TLM 102 ($699) is the most affordable true Neumann — a transformerless FET large-diaphragm condenser with a presence lift above 6 kHz and a 144 dB max SPL. It's a genuine step up in detail and top-end refinement over a $159 budget condenser, but it will expose an untreated room.",
+      "faq_q7_es": "¿Merece la pena el Neumann TLM 102 como mejora frente a un condensador económico?",
+      "faq_a7_es": "Si tu sala está tratada y tu interfaz es limpia, sí. El TLM 102 ($699) es el Neumann auténtico más asequible — un condensador de gran diafragma FET sin transformador con realce de presencia por encima de 6 kHz y SPL máximo de 144 dB. Es un salto real en detalle y refinamiento de agudos frente a un condensador económico de $159, pero expondrá una sala sin tratar."
     },
-    "description_es": "El MEJOR micrófono para voces 2026. SM7B vs NT1 5th Generation vs AT2020 comparados. SM57 para versatilidad, SM7B para voces. No compres sin leer esto.",
+    "description_es": "El MEJOR micrófono para voces 2026. SM7dB vs NT1 Signature vs AT2020 vs TLM 102 comparados. SM57 para versatilidad, SM7dB para voces. No compres sin leer esto.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -1844,378 +1848,160 @@
       "title_es": "Comparativa de los Micrófonos en esta Guía",
       "columns": [
         {
-          "title": "Shure SM57",
-          "title_es": "Shure SM57"
+          "title": "Mic Type",
+          "title_es": "Tipo de Micrófono"
         },
         {
-          "title": "Rode NT1 5th Gen",
-          "title_es": "Rode NT1 5.ª Gen"
+          "title": "Acoustic Treatment Required",
+          "title_es": "Tratamiento Acústico Exigido"
         },
         {
-          "title": "Shure SM7B",
-          "title_es": "Shure SM7B"
-        },
-        {
-          "title": "AKG C414 XLII",
-          "title_es": "AKG C414 XLII"
-        },
-        {
-          "title": "Neumann U 87 Ai",
-          "title_es": "Neumann U 87 Ai"
-        },
-        {
-          "title": "Shure SM58",
-          "title_es": "Shure SM58"
-        },
-        {
-          "title": "Sennheiser MD 421 Kompakt",
-          "title_es": "Sennheiser MD 421 Kompakt"
-        },
-        {
-          "title": "Electro-Voice RE20",
-          "title_es": "Electro-Voice RE20"
+          "title": "Key Studio Solution",
+          "title_es": "Solución Clave en el Estudio"
         }
       ],
       "rows": [
         {
-          "label": "Best For",
-          "label_es": "Ideal Para",
+          "label": "Shure SM57",
+          "label_es": "Shure SM57",
           "values": [
             {
-              "value": "Instruments & amps",
-              "value_es": "Instrumentos y amplis"
+              "value": "Dynamic (moving-coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Versatile studio vocals",
-              "value_es": "Voces de estudio versátiles"
+              "value": "None — ignores the room",
+              "value_es": "Ninguno — ignora la sala"
             },
             {
-              "value": "Broadcast & podcast vocals",
-              "value_es": "Radio y podcast"
-            },
-            {
-              "value": "Studio vocals & instruments",
-              "value_es": "Voces e instrumentos de estudio"
-            },
-            {
-              "value": "The studio standard vocal",
-              "value_es": "La voz estándar de estudio"
-            },
-            {
-              "value": "Live vocal / stage",
-              "value_es": "Voz en vivo y escenario"
-            },
-            {
-              "value": "Toms & guitar cabs",
-              "value_es": "Toms y gabinetes de guitarra"
-            },
-            {
-              "value": "Broadcast & voiceover",
-              "value_es": "Radio, locución y podcast"
+              "value": "Point it at the amp or snare — the most recorded mic in history",
+              "value_es": "Apúntalo al ampli o a la caja — el micrófono más grabado de la historia"
             }
           ]
         },
         {
-          "label": "Type",
-          "label_es": "Tipo",
+          "label": "Audio-Technica AT2020",
+          "label_es": "Audio-Technica AT2020",
           "values": [
-            {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
-            },
             {
               "value": "Condenser (LDC)",
               "value_es": "Condensador (LDC)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Light — treat first reflections",
+              "value_es": "Ligero — trata las primeras reflexiones"
             },
+            {
+              "value": "Budget condenser that beats mics twice the price",
+              "value_es": "Condensador económico que supera a micrófonos del doble de precio"
+            }
+          ]
+        },
+        {
+          "label": "Shure SM58",
+          "label_es": "Shure SM58",
+          "values": [
+            {
+              "value": "Dynamic (moving-coil)",
+              "value_es": "Dinámico (bobina móvil)"
+            },
+            {
+              "value": "None — live stage workhorse",
+              "value_es": "Ninguno — caballo de batalla en vivo"
+            },
+            {
+              "value": "Live vocals with built-in pop filter",
+              "value_es": "Voces en vivo con filtro antipop integrado"
+            }
+          ]
+        },
+        {
+          "label": "Rode NT1 Signature Series",
+          "label_es": "Rode NT1 Signature Series",
+          "values": [
             {
               "value": "Condenser (LDC)",
               "value_es": "Condensador (LDC)"
             },
             {
+              "value": "Medium — quiet, treated space helps",
+              "value_es": "Medio — ayuda un espacio silencioso y tratado"
+            },
+            {
+              "value": "4 dBA self-noise — record whisper-quiet sources with zero hiss",
+              "value_es": "4 dBA de ruido propio — graba fuentes susurrantes sin siseo"
+            }
+          ]
+        },
+        {
+          "label": "Shure SM7dB",
+          "label_es": "Shure SM7dB",
+          "values": [
+            {
+              "value": "Dynamic + active preamp",
+              "value_es": "Dinámico + previo activo"
+            },
+            {
+              "value": "None — built for untreated rooms",
+              "value_es": "Ninguno — hecho para salas sin tratar"
+            },
+            {
+              "value": "Built-in +18/+28 dB preamp — no Cloudlifter needed",
+              "value_es": "Previos integrados de +18/+28 dB — sin Cloudlifter"
+            }
+          ]
+        },
+        {
+          "label": "Neumann TLM 102",
+          "label_es": "Neumann TLM 102",
+          "values": [
+            {
               "value": "Condenser (LDC)",
               "value_es": "Condensador (LDC)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Medium-high — presence lift reveals the room",
+              "value_es": "Medio-alto — el realce de presencia revela la sala"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
-            },
-            {
-              "value": "Dynamic (Variable-D)",
-              "value_es": "Dinámico (Variable-D)"
+              "value": "The cheapest true Neumann — pro voicing at $699",
+              "value_es": "El Neumann auténtico más barato — voicing pro a $699"
             }
           ]
         },
         {
-          "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label": "AKG C414 XLII",
+          "label_es": "AKG C414 XLII",
           "values": [
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "High — 9 patterns hear everything",
+              "value_es": "Alto — 9 patrones lo oyen todo"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "9 switchable patterns",
-              "value_es": "9 patrones conmutables"
-            },
-            {
-              "value": "Omni / Cardioid / Fig-8",
-              "value_es": "Omni / Cardioide / Fig-8"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "One mic for vocals, piano, drum overheads",
+              "value_es": "Un micro para voces, piano y overheads"
             }
           ]
         },
         {
-          "label": "Frequency Response",
-          "label_es": "Respuesta de Frecuencia",
+          "label": "Neumann U 87 Ai",
+          "label_es": "Neumann U 87 Ai",
           "values": [
             {
-              "value": "40 Hz – 15 kHz",
-              "value_es": "40 Hz – 15 kHz"
+              "value": "Condenser (LDC)",
+              "value_es": "Condensador (LDC)"
             },
             {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
+              "value": "Very high — reveals every room flaw",
+              "value_es": "Muy alto — revela cada fallo de la sala"
             },
             {
-              "value": "50 Hz – 20 kHz",
-              "value_es": "50 Hz – 20 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "50 Hz – 15 kHz",
-              "value_es": "50 Hz – 15 kHz"
-            },
-            {
-              "value": "30 Hz – 17 kHz",
-              "value_es": "30 Hz – 17 kHz"
-            },
-            {
-              "value": "45 Hz – 18 kHz",
-              "value_es": "45 Hz – 18 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "–56 dBV/Pa (1.6 mV)",
-              "value_es": "–56 dBV/Pa (1.6 mV)"
-            },
-            {
-              "value": "–32 dB (25 mV/Pa)",
-              "value_es": "–32 dB (25 mV/Pa)"
-            },
-            {
-              "value": "–59 dBV/Pa (1.12 mV)",
-              "value_es": "–59 dBV/Pa (1.12 mV)"
-            },
-            {
-              "value": "–33 dBV ± 0.5 dB (23 mV/Pa)",
-              "value_es": "–33 dBV ± 0.5 dB (23 mV/Pa)"
-            },
-            {
-              "value": "28 mV/Pa (cardioid)",
-              "value_es": "28 mV/Pa (cardioide)"
-            },
-            {
-              "value": "–56.0 dBV/Pa (1.6 mV)",
-              "value_es": "–56.0 dBV/Pa (1.6 mV)"
-            },
-            {
-              "value": "2 mV/Pa",
-              "value_es": "2 mV/Pa"
-            },
-            {
-              "value": "1.5 mV/Pa",
-              "value_es": "1.5 mV/Pa"
-            }
-          ]
-        },
-        {
-          "label": "Self-Noise",
-          "label_es": "Ruido Propio",
-          "values": [
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            },
-            {
-              "value": "4 dBA",
-              "value_es": "4 dBA"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            },
-            {
-              "value": "6 dB-A",
-              "value_es": "6 dB-A"
-            },
-            {
-              "value": "12 dB-A (cardioid)",
-              "value_es": "12 dB-A (cardioide)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "160 dB",
-              "value_es": "160 dB"
-            },
-            {
-              "value": "142 dB",
-              "value_es": "142 dB"
-            },
-            {
-              "value": "180 dB",
-              "value_es": "180 dB"
-            },
-            {
-              "value": "140–158 dB (pad)",
-              "value_es": "140–158 dB (pad)"
-            },
-            {
-              "value": "117 dB (127 w/ pad)",
-              "value_es": "117 dB (127 c/ pad)"
-            },
-            {
-              "value": "160 dB",
-              "value_es": "160 dB"
-            },
-            {
-              "value": "160 dB",
-              "value_es": "160 dB"
-            },
-            {
-              "value": "149 dB",
-              "value_es": "149 dB"
-            }
-          ]
-        },
-        {
-          "label": "Output Impedance",
-          "label_es": "Impedancia de Salida",
-          "values": [
-            {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            },
-            {
-              "value": "100 Ω",
-              "value_es": "100 Ω"
-            },
-            {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            },
-            {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
-            },
-            {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
-            },
-            {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            },
-            {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
-            },
-            {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$269",
-              "value_es": "$269"
-            },
-            {
-              "value": "$299",
-              "value_es": "$299"
-            },
-            {
-              "value": "$1,099",
-              "value_es": "$1,099"
-            },
-            {
-              "value": "$3,599",
-              "value_es": "$3,599"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$299",
-              "value_es": "$299"
-            },
-            {
-              "value": "$449",
-              "value_es": "$449"
+              "value": "The studio standard — on more hits than any other condenser",
+              "value_es": "El estándar de estudio — en más éxitos que cualquier otro condensador"
             }
           ]
         }
@@ -2226,90 +2012,168 @@
         "name": "Shure SM57",
         "name_es": "Shure SM57",
         "pros": [
-          "The most recorded microphone in history — $99",
-          "Covers guitar amps, snares, horns, and vocals with a 160 dB max SPL that no condenser matches",
-          "Takes a beating — used on Glastonbury stages and in studio sessions",
-          "Tight cardioid pattern rejects off-axis noise and the 150 Ω output stays clean over long XLR runs"
+          "The most recorded microphone in history — a legend built on guitar amps, snares and horns",
+          "Handles extreme SPLs up to 160 dB; indestructible, and natively isolates the sound, ignoring the room's acoustics",
+          "Tight cardioid pattern rejects off-axis noise and the 150 Ω output stays clean over long XLR runs",
+          "$99 — the safest first investment in any mic locker"
         ],
         "pros_es": [
-          "El micrófono más grabado de la historia — $99",
-          "Cubre amplis de guitarra, cajas, metales y voces con 160 dB de SPL máximo que ningún condensador iguala",
-          "Aguanta golpes — usado en escenarios de Glastonbury y en sesiones de estudio",
-          "El patrón cardioide ajustado rechaza el ruido fuera de eje y la salida de 150 Ω se mantiene limpia en tramos largos de XLR"
+          "El micrófono más grabado de la historia — una leyenda construida en amplificadores de guitarra, cajas y metales",
+          "Soporta presiones sonoras extremas de hasta 160 dB SPL; es indestructible y aísla el sonido de forma nativa ignorando la acústica del cuarto",
+          "El patrón cardioide ajustado rechaza el ruido fuera de eje y la salida de 150 Ω se mantiene limpia en tramos largos de XLR",
+          "$99 — la primera inversión más segura en cualquier estuche de micrófonos"
         ],
         "cons": [
+          "Lacks the high-end sparkle needed for modern pop vocals; it is designed mainly as a studio standard for instruments and amplifiers",
           "Needs an XLR interface and gain from a clean preamp",
           "Less detail and air than a condenser for clean studio vocals",
-          "A condenser like the NT1 5th Gen captures cleaner vocals and acoustics",
           "The 40 Hz – 15 kHz range leaves little air on top, so bright sources need EQ",
           "No pad or high-pass switch, so you fix rumble and hot signal at the interface"
         ],
         "cons_es": [
+          "Carece del brillo de gama alta necesario para voces pop modernas; está diseñado principalmente como un estándar de estudio para instrumentos y amplificadores",
           "Necesita una interfaz XLR y ganancia de un previo limpio",
           "Menos detalle y aire que un condensador para voces de estudio limpias",
-          "Un condensador como el NT1 5ta Gen captura voces y acústicas más limpias",
           "El rango de 40 Hz – 15 kHz deja poco aire arriba, así que las fuentes brillantes necesitan EQ",
           "Sin pad ni interruptor de paso alto, así que el ruido y la señal caliente se corrigen en la interfaz"
         ]
       },
       {
-        "name": "Rode NT1 5th Generation",
-        "name_es": "Rode NT1 5th Generation",
+        "name": "Audio-Technica AT2020",
+        "name_es": "Audio-Technica AT2020",
         "pros": [
-          "Ultra-low 4dBA self-noise — one of the quietest studio condensers, with zero hiss",
-          "Warm, smooth character that flatters most voices",
-          "32-bit float and Dual Connect XLR/USB output",
-          "Shock mount, pop filter, and XLR cable included for $269"
+          "The entry-level condenser that professionals recommend — $99",
+          "Smooth, uncoloured 16mm low-mass diaphragm response",
+          "Beats mics twice the price on vocals and acoustics",
+          "Simple setup: one XLR cable and 48V phantom power"
         ],
         "pros_es": [
-          "Ruido propio ultrabajo de 4dBA — uno de los condensadores de estudio más silenciosos, sin siseo",
-          "Carácter cálido y suave que favorece a la mayoría de las voces",
-          "Float de 32 bits y salida Dual Connect XLR/USB",
-          "Soporte antigolpes, filtro antipop y cable XLR incluidos por $269"
+          "El condensador de gama de entrada que recomiendan los profesionales — $99",
+          "Respuesta suave y sin coloración del diafragma de baja masa de 16mm",
+          "Supera a micrófonos del doble de precio en voces y acústicas",
+          "Configuración simple: un cable XLR y phantom de 48V"
         ],
         "cons": [
           "Condenser hears the room — reflections, the fridge, HVAC",
           "Needs phantom power and a reasonably quiet, treated space",
-          "In an untreated bedroom a rugged dynamic like the SM57 wins",
-          "With 142 dB max SPL it can't take the close-up blasts a 160 dB dynamic like the SM57 absorbs",
-          "A single fixed cardioid pattern — no omni or figure-8 for room micing"
+          "Fixed cardioid only — no omni or figure-8",
+          "Entry-level build quality — treat it with care"
         ],
         "cons_es": [
           "El condensador oye la sala — reflejos, la nevera, el aire acondicionado",
-          "Necesita alimentación phantom y un espacio razonablemente silencioso y tratado",
-          "En un dormitorio sin tratar, un dinámico robusto como el SM57 gana",
-          "Con 142 dB de SPL máximo no aguanta las ráfagas de cerca que absorbe un dinámico de 160 dB como el SM57",
-          "Un solo patrón cardioide fijo — sin omni ni figura-8 para captar la sala"
+          "Necesita phantom y un espacio razonablemente silencioso y tratado",
+          "Solo cardioide fijo — sin omni ni figura-8",
+          "Construcción de gama de entrada — trátalo con cuidado"
         ]
       },
       {
-        "name": "Shure SM7B",
-        "name_es": "Shure SM7B",
+        "name": "Shure SM58",
+        "name_es": "Shure SM58",
         "pros": [
-          "The iconic broadcast microphone heard on every major podcast and countless records",
-          "The 50 Hz – 20 kHz response is voiced warm and smooth, and the tight cardioid rejects room noise better than a wide condenser",
-          "Built-in shock mount kills mechanical noise",
-          "Highs rolled off in the 50 Hz – 20 kHz response tame sibilance, so 's' and 't' sounds need less de-essing"
+          "The most iconic live vocal microphone in history — $99",
+          "Built-in spherical pop filter — no external pop filter needed",
+          "Indestructible and stage-proven for decades",
+          "Tailored vocal response with a presence lift that flatters voices"
         ],
         "pros_es": [
-          "El micrófono de broadcast icónico que se oye en cada gran podcast e innumerables discos",
-          "La respuesta de 50 Hz – 20 kHz es cálida y suave, y el cardioide ajustado rechaza el ruido de sala mejor que un condensador amplio",
-          "Soporte antigolpes integrado que elimina el ruido mecánico",
-          "Los agudos atenuados en la respuesta de 50 Hz – 20 kHz doman la sibilancia, así que las 's' y 't' necesitan menos de-essing"
+          "El micrófono vocal en vivo más icónico de la historia — $99",
+          "Filtro antipop esférico integrado — sin filtro antipop externo",
+          "Indestructible y probado en escenarios durante décadas",
+          "Respuesta vocal adaptada con realce de presencia que favorece las voces"
         ],
         "cons": [
-          "Needs a lot of gain — pair it with a clean interface or a Cloudlifter",
-          "$299, plus the cost of a Cloudlifter or high-gain preamp",
-          "Voiced for broadcast warmth — less top-end detail than a condenser for singing",
-          "No switchable patterns — the single cardioid is fixed for one-mic setups",
-          "Its 1.12 mV output is quieter than a condenser's, so gain-hungry setups add noise floor"
+          "Rolled-off top end limits air for clean studio pop vocals",
+          "Less detail than a studio condenser for intimate takes",
+          "Needs an XLR input and gain from a clean preamp",
+          "Live voicing — not the first choice for quiet acoustic sources"
         ],
         "cons_es": [
-          "Necesita mucha ganancia — combínalo con una interfaz limpia o un Cloudlifter",
-          "$299, más el coste de un Cloudlifter o un previo de alta ganancia",
-          "Pensado para la calidez de broadcast — menos detalle de agudos que un condensador para cantar",
-          "Sin patrones conmutables — el cardioide único es fijo para configuraciones de un solo micro",
-          "Su salida de 1.12 mV es más débil que la de un condensador, así que los equipos que necesitan mucha ganancia añaden piso de ruido"
+          "Agudos atenuados limitan el aire para voces pop de estudio limpias",
+          "Menos detalle que un condensador de estudio para tomas íntimas",
+          "Necesita entrada XLR y ganancia de un previo limpio",
+          "Voicing en vivo — no es la primera opción para fuentes acústicas suaves"
+        ]
+      },
+      {
+        "name": "Rode NT1 Signature Series",
+        "name_es": "Rode NT1 Signature Series",
+        "pros": [
+          "Ultra-low 4 dBA self-noise — one of the quietest LDCs at any price",
+          "Smooth, neutral HF6 capsule with a gentle presence lift around 10 kHz",
+          "SM6 shock mount, pop filter and 6 m XLR cable included",
+          "At $159 it's the condenser most home studios graduate to"
+        ],
+        "pros_es": [
+          "Ruido propio ultrabajo de 4 dBA — uno de los LDC más silenciosos a cualquier precio",
+          "Cápsula HF6 suave y neutra con un ligero realce de presencia alrededor de 10 kHz",
+          "Incluye soporte SM6, filtro antipop y cable XLR de 6 m",
+          "A $159 es el condensador al que la mayoría de los estudios caseros llegan"
+        ],
+        "cons": [
+          "Condenser hears the room — reflections, the fridge, HVAC",
+          "Needs phantom power and a reasonably quiet, treated space",
+          "Single fixed cardioid — no omni or figure-8",
+          "In an untreated bedroom a rugged dynamic like the SM57 wins"
+        ],
+        "cons_es": [
+          "El condensador oye la sala — reflejos, la nevera, el aire acondicionado",
+          "Necesita phantom y un espacio razonablemente silencioso y tratado",
+          "Un solo cardioide fijo — sin omni ni figura-8",
+          "En un dormitorio sin tratar, un dinámico robusto como el SM57 gana"
+        ]
+      },
+      {
+        "name": "Shure SM7dB",
+        "name_es": "Shure SM7dB",
+        "pros": [
+          "The broadcast icon with a built-in preamp — +18/+28 dB of clean gain",
+          "Works with any interface that provides 48V phantom — no Cloudlifter needed",
+          "Same warm, smooth SM7B sound heard on every major podcast",
+          "Bass roll-off, presence boost, internal shock mount and windscreen included"
+        ],
+        "pros_es": [
+          "El ícono de broadcast con previo integrado — +18/+28 dB de ganancia limpia",
+          "Funciona con cualquier interfaz que proporcione phantom de 48V — sin Cloudlifter",
+          "El mismo sonido cálido y suave del SM7B oído en cada gran podcast",
+          "Incluye corte de graves, realce de presencia, suspensión antigolpes interna y viento"
+        ],
+        "cons": [
+          "Requires 48V phantom power to run the preamp",
+          "At $499 it's $100 more than the SM7B — you pay for the built-in preamp",
+          "Warm broadcast voicing — less top-end air than a condenser for singing",
+          "Heavier (837 g) and longer than the SM7B"
+        ],
+        "cons_es": [
+          "Requiere phantom de 48V para alimentar el previo",
+          "A $499 cuesta $100 más que el SM7B — pagas por el previo integrado",
+          "Voicing cálido de broadcast — menos aire arriba que un condensador para cantar",
+          "Más pesado (837 g) y más largo que el SM7B"
+        ]
+      },
+      {
+        "name": "Neumann TLM 102",
+        "name_es": "Neumann TLM 102",
+        "pros": [
+          "The most affordable true Neumann — $699",
+          "Transformerless FET circuit with a presence lift above 6 kHz",
+          "144 dB max SPL takes loud sources in stride",
+          "Compact 260 g body with integrated pop protection"
+        ],
+        "pros_es": [
+          "El Neumann auténtico más asequible — $699",
+          "Circuito FET sin transformador con realce de presencia por encima de 6 kHz",
+          "144 dB de SPL máximo soporta fuentes fuertes sin inmutarse",
+          "Cuerpo compacto de 260 g con protección antipop integrada"
+        ],
+        "cons": [
+          "Presence lift above 6 kHz reveals the room — a treated space matters",
+          "Needs 48V phantom power and a quiet environment",
+          "Fixed cardioid only — no switchable patterns, pad or roll-off"
+        ],
+        "cons_es": [
+          "El realce de presencia por encima de 6 kHz revela la sala — importa un espacio tratado",
+          "Necesita phantom de 48V y un entorno silencioso",
+          "Solo cardioide fijo — sin patrones conmutables, pad ni corte"
         ]
       },
       {
@@ -2328,14 +2192,14 @@
           "El clásico de estudio que lo hace todo para trabajo de sesiones"
         ],
         "cons": [
-          "$1,099 is more than four NT1 5th Gens — you pay for nine patterns and session-grade versatility, not for a first vocal mic",
+          "$1,099 is more than four NT1 Signature Series — you pay for nine patterns and session-grade versatility, not for a first vocal mic",
           "The bright XLII voicing may not suit every taste — a flatter multi-pattern option exists",
           "For a beginner home studio that needs one vocal mic, nine patterns and three pads add cost and knob-turning you will not use",
           "No shock mount or pop filter included, so you add those costs to the $1,099",
           "The deeper 20 Hz – 20 kHz response hears room rumble and HVAC that a dynamic would mask"
         ],
         "cons_es": [
-          "$1,099 es más de cuatro NT1 5ta Gen — pagas por nueve patrones y versatilidad de sesión, no por un primer micro de voz",
+          "$1,099 es más de cuatro NT1 Signature Series — pagas por nueve patrones y versatilidad de sesión, no por un primer micro de voz",
           "El voicing brillante XLII puede no gustar a todos — existe una opción multipatrón más plana",
           "Para un home studio de inicio que necesita un micrófono de voz, nueve patrones y tres pads añaden coste y botones que no vas a usar",
           "Sin soporte antigolpes ni filtro antipop incluidos, así que sumas esos costes a los $1,099",
@@ -2346,29 +2210,27 @@
         "name": "Neumann U 87 Ai",
         "name_es": "Neumann U 87 Ai",
         "pros": [
-          "On more hit records than any other condenser — the studio standard",
-          "Three polar patterns and a 10dB pad",
-          "The hand-built Neumann body and 28 mV/Pa cardioid response deliver the top-end sheen heard on decades of hit records",
-          "Recorded in landmark studios like Abbey Road"
+          "The most recorded condenser in history — the studio standard",
+          "Perfectly flat, luxurious frequency response that captures every nuance of the voice with commercial-grade fidelity",
+          "Three polar patterns and a 10 dB pad",
+          "Hand-built Neumann body; recorded in landmark studios like Abbey Road"
         ],
         "pros_es": [
-          "En más éxitos discográficos que cualquier otro condensador — el estándar de estudio",
-          "Tres patrones polares y pad de 10dB",
-          "El cuerpo Neumann hecho a mano y la respuesta cardioide de 28 mV/Pa ofrecen el brillo de agudos oído en décadas de éxitos discográficos",
-          "Grabado en estudios emblemáticos como Abbey Road"
+          "El condensador más grabado de la historia — el estándar de estudio",
+          "Respuesta en frecuencia perfectamente plana y lujosa que captura cada matiz de la voz con fidelidad de nivel comercial",
+          "Tres patrones polares y pad de 10 dB",
+          "Cuerpo Neumann hecho a mano; grabado en estudios emblemáticos como Abbey Road"
         ],
         "cons": [
+          "Excessively sensitive for home studios; its capsule will register any acoustic imperfection or computer noise if the room is not fully treated",
           "$3,599 — a serious investment, no substitute in a pro studio",
-          "At 12 dB-A self-noise and 28 mV/Pa output it reveals every room flaw — a treated space and clean preamp are mandatory to justify the $3,599",
           "The AKG C414 covers multi-pattern needs at $1,099 — a third of the price",
-          "117 dB max SPL (127 dB with the 10 dB pad) is the lowest here — close-micing loud sources clips faster than a 160 dB dynamic",
           "No internal shock mount or pop filter — rig it on a proper stand and add a filter for vocal takes"
         ],
         "cons_es": [
+          "Excesivamente sensible para home studios; su cápsula registrará cualquier imperfección acústica o ruido informático si la habitación no está completamente tratada",
           "$3,599 — una inversión seria, sin sustituto en un estudio profesional",
-          "Con 12 dB-A de ruido propio y 28 mV/Pa de salida revela cada fallo de la sala — un espacio tratado y un preamp limpio son imprescindibles para justificar los $3,599",
           "La AKG C414 cubre necesidades multipatrón por $1,099 — un tercio del precio",
-          "117 dB de SPL máximo (127 dB con el pad de 10 dB) es el más bajo de la lista — el close-micing de fuertes fuentes satura antes que un dinámico de 160 dB",
           "Sin soporte antigolpes interno ni filtro antipop — móntalo en un buen soporte y añade un filtro para tomas vocales"
         ]
       }

@@ -6063,5 +6063,47 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--PAUSECST24",
       "amazon": "https://www.amazon.co.uk/PRS-SE-Custom-Slate-Blue/dp/B0G1YMZTPL"
     }
+  },
+  {
+    "id": 321,
+    "title": "Shure SM7dB",
+    "title_es": "Shure SM7dB",
+    "brand": "Shure",
+    "category": "microphones",
+    "price": 499,
+    "rating": 4.8,
+    "reviews": 4100,
+    "badge": "legend",
+    "desc": "The broadcast icon with a built-in preamp. Same warm, smooth SM7B sound, but with +18 or +28 dB of clean onboard gain — enough for any interface, so you can skip the Cloudlifter. Cardioid dynamic with bass roll-off, presence boost, internal shock mount and windscreen included.",
+    "desc_es": "El ícono de broadcast con previo integrado. El mismo sonido cálido y suave del SM7B, pero con +18 o +28 dB de ganancia limpia incorporada — suficiente para cualquier interfaz, así que puedes saltarte el Cloudlifter. Dinámico cardioide con corte de graves, realce de presencia, suspensión antigolpes interna y viento incluidos.",
+    "img": "https://r2.gear4music.com/media/101/1018905/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7dB-Active-Dynamic-Microphone/5W2X",
+      "musicstore": "https://www.musicstore.com/en_OT/EUR/Shure-SM7dB/art-REC0016525-000",
+      "amazon": "https://www.amazon.com/Shure-Microphone-Streaming-Detachable-Windscreen/dp/B0CMFXN65Z",
+      "andertons": "https://www.andertons.co.uk/shure-sm7db-microphone/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SHUSM7DB"
+    }
+  },
+  {
+    "id": 322,
+    "title": "Neumann TLM 102",
+    "title_es": "Neumann TLM 102",
+    "brand": "Neumann",
+    "category": "microphones",
+    "price": 699,
+    "rating": 4.8,
+    "reviews": 3200,
+    "badge": "premium",
+    "desc": "The most affordable true Neumann. A cardioid large-diaphragm condenser with a transformerless FET circuit, a presence lift above 6 kHz that makes vocals and acoustics sit forward, and a 144 dB max SPL that takes loud sources in stride. Needs 48V phantom power and a treated room.",
+    "desc_es": "El Neumann auténtico más asequible. Un condensador de gran diafragma cardioide con circuito FET sin transformador, un realce de presencia por encima de 6 kHz que asienta voces y acústicas al frente, y un SPL máximo de 144 dB que soporta fuentes fuertes sin inmutarse. Necesita phantom de 48V y una sala tratada.",
+    "img": "https://r2.gear4music.com/media/89/899210/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-102-Condenser-Microphone-Black/C56",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Neumann-TLM-102-bk/art-REC0007196-000",
+      "amazon": "https://www.amazon.com/Neumann-TLM-102-Condenser-Microphone/dp/B003HGLPC6",
+      "andertons": "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-black-finish/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--NEUTLM102"
+    }
   }
 ]
