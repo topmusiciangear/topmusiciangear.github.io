@@ -5993,13 +5993,12 @@
     "rating": 5,
     "reviews": 5,
     "badge": "recommended",
-    "desc": "The Strandberg Boden Essential 6 brings the famous ergonomic headless design to a practical price. Suhr pickups, a super-light meranti body, and the EndurNeck profile make it one of the most comfortable guitars ever made — perfect for long home-recording sessions and quiet tracking.",
-    "desc_es": "La Strandberg Boden Essential 6 lleva el famoso diseño ergonómico sin cabezal a un precio práctico. Pastillas Suhr, cuerpo ultraligero de meranti y perfil EndurNeck la convierten en una de las guitarras más cómodas jamás hechas — perfecta para largas sesiones de grabación casera y tracking silencioso.",
+    "desc": "The Strandberg Boden Essential 6 brings the famous ergonomic headless design to a practical price. A pair of Strandberg Custom OEM humbuckers, a super-light meranti body, and the EndurNeck profile make it one of the most comfortable guitars ever made — perfect for long home-recording sessions and quiet tracking.",
+    "desc_es": "La Strandberg Boden Essential 6 lleva el famoso diseño ergonómico sin cabezal a un precio práctico. Un par de humbuckers OEM personalizados de Strandberg, cuerpo ultraligero de meranti y perfil EndurNeck la convierten en una de las guitarras más cómodas jamás hechas — perfecta para largas sesiones de grabación casera y tracking silencioso.",
     "img": "https://a.storyblok.com/f/320488/1920x1280/f860fb9848/boden-essential-whitebg-2.jpg",
     "stores": {
       "zzounds": "https://www.zzounds.com/a--925521/item--STBBOES6",
-      "andertons": "https://www.andertons.co.uk/strandberg-boden-essential-6-black-granite-pbd6ctersbk-1/",
-      "official": "https://strandbergguitars.com/en-US/product/boden-essential-6-black-granite"
+      "andertons": "https://www.andertons.co.uk/strandberg-boden-essential-6-black-granite-pbd6ctersbk-1/"
     },
     "excludeStores": ["gear4music"]
   },
@@ -6013,9 +6012,9 @@
     "rating": 5,
     "reviews": 3,
     "badge": "recommended",
-    "desc": "The AZ2402 Prestige is Ibanez's modern HSS flagship: Seymour Duncan Fortitude pickups, a roasted-maple Super Wizard neck, and a Gotoh tremolo with steel block. It covers everything from pristine clean tones to high-gain modern sounds with remarkable clarity — a true studio workhorse.",
-    "desc_es": "La AZ2402 Prestige es el buque insignia HSS moderno de Ibanez: pastillas Seymour Duncan Fortitude, mástil Super Wizard de arce tostado y trémolo Gotoh con bloque de acero. Cubre desde tonos limpios prístinos hasta sonidos modernos de alta ganancia con una claridad notable — una verdadera todoterreno de estudio.",
-    "img": "https://m.media-amazon.com/images/I/71qIdK34k8L._AC_SL1500_.jpg",
+    "desc": "The AZ2402 Prestige is Ibanez's modern HH flagship: Seymour Duncan Hyperion humbuckers, a roasted-maple AZ Oval C neck, and a Gotoh tremolo with steel block. The dyna-MIX10 switching system with Alter Switch delivers ten sound variations, including single-coil power-tap modes — so one dual-humbucker guitar covers everything from pristine clean tones to high-gain modern sounds with remarkable clarity. A true studio workhorse.",
+    "desc_es": "La AZ2402 Prestige es el buque insignia HH moderno de Ibanez: humbuckers Seymour Duncan Hyperion, mástil AZ Oval C de arce tostado y trémolo Gotoh con bloque de acero. El sistema de conmutación dyna-MIX10 con Alter Switch ofrece diez variaciones de sonido, incluidos modos de single-coil power-tap — así una guitarra de dos humbuckers cubre desde tonos limpios prístinos hasta sonidos modernos de alta ganancia con una claridad notable. Una verdadera todoterreno de estudio.",
+    "img": "https://r2.gear4music.com/media/72/725505/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/us/en/Guitar-and-Bass/Ibanez-AZ2402-Prestige-Black-Flat/39VK",
       "amazon": "https://www.amazon.com/dp/B0D1K6MY5H",
@@ -6037,9 +6036,11 @@
     "desc_es": "La E-II Eclipse DB es una máquina de rock y metal fabricada en Japón, hecha para grabar en silencio: mástil encolado de caoba, diapasón de ébano y pastillas activas EMG 81/60 que ofrecen tonos de alta ganancia ajustados y contundentes sin ningún zumbido. Graba limpiamente, sin problemas de ruido de fondo en el estudio.",
     "img": "https://m.media-amazon.com/images/I/61aCBQEpuvL._AC_SL1215_.jpg",
     "stores": {
-      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-DB-Purple-Sparkle/2BB0",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-DB-Granite-Sparkle/3QJ3",
+      "andertons": "https://www.andertons.co.uk/esp-e-ii-eclipse-db-gransp-granite-sparkle/",
+      "musicstore": "https://www.musicstore.com/en_GB/GBP/ESP-E-II-Eclipse-DB-Vintage-Black/art-GIT0041604-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--ESPEIIECDB",
-      "amazon": "https://www.amazon.com/dp/B00ITMPVBE"
+      "amazon": "https://www.amazon.com/dp/B00ITMPVBE?lv=shuf&channelId=500&plpRedirect=mhFallback"
     }
   },
   {
@@ -6054,11 +6055,13 @@
     "badge": "recommended",
     "desc": "The SE Custom 24 brings premium PRS design to an affordable price: a carved maple top over mahogany, 85/15 'S' humbuckers, 24 frets on a 25-inch scale, and a push/pull tone control that coil-splits both pickups for single-coil sparkle. It's a versatile, comfortable guitar that records beautifully.",
     "desc_es": "La SE Custom 24 lleva el diseño premium de PRS a un precio accesible: tapa de arce tallada sobre caoba, humbuckers 85/15 'S', 24 trastes en escala de 25 pulgadas y un control de tono push/pull que divide en bobina ambas pastillas para brillo de single-coil. Es una guitarra versátil y cómoda que graba de maravilla.",
-    "img": "https://cf1.zzounds.com/media/productmedia/fit%2C600by800/quality%2C85/1_Full_Straight_Front_NA-6694cee89f69d85cc58de58064aadc9f.jpg",
+    "img": "https://r2.gear4music.com/media/130/1304157/1200/preview.jpg",
     "stores": {
       "andertons": "https://www.andertons.co.uk/prs-se-custom-24-slate-blue/",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/PRS-SE-Custom-24-Slate-Blue-2026/7N0W",
+      "musicstore": "https://www.musicstore.com/en_GB/GBP/PRS-SE-Custom-24-Slate-Blue/art-GIT0064831-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--PAUSECST24",
-      "amazon": "https://www.amazon.com/dp/B0CWXCP7PT"
+      "amazon": "https://www.amazon.co.uk/PRS-SE-Custom-Slate-Blue/dp/B0G1YMZTPL"
     }
   }
 ]
