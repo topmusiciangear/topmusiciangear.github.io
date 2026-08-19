@@ -704,6 +704,16 @@ function submitReview() {
   }
 }
 
+function getCardIntro(g) {
+  const raw = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
+  let text = raw.replace(/<table[\s\S]*?<\/table>/g, ' ');
+  text = text.replace(/<[^>]*>/g, ' ');
+  text = text.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  text = text.replace(/\s+/g, ' ').trim();
+  if (text.length > 140) text = text.substring(0, 140) + '…';
+  return text;
+}
+
 function renderGuideGrid(fanFrom) {
   currentGuideId = null;
   const grid = document.getElementById("guideGrid");
@@ -745,7 +755,7 @@ function renderGuideGrid(fanFrom) {
   const visible = filtered.slice(0, guideVisibleCount);
   grid.innerHTML = visible.map((g, i) => {
     const catName = getCatName(g.category);
-    const introText = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
+    const introText = getCardIntro(g);
     return `
       <div class="guide-card-wrap${typeof fanFrom === 'number' && i >= fanFrom ? ' fan-in' : ''}" style="${typeof fanFrom === 'number' && i >= fanFrom ? '--fan-i:' + (i - fanFrom) : ''}">
         <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; window.location.href='/guides/'+id+(currentLang==='es'?'_es':'')+'.html';">

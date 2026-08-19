@@ -1642,10 +1642,57 @@ footer ul li a:hover { color: var(--accent); }
   border-bottom: 1px solid var(--border);
 }
 
+.guide-detail-intro .guide-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.guide-detail-intro .guide-matrix thead th {
+  background: var(--bg-secondary);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  padding: 10px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.guide-detail-intro .guide-matrix tbody td {
+  padding: 10px 12px;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  vertical-align: top;
+}
+
+.guide-detail-intro .guide-matrix tbody tr:hover td {
+  background: var(--bg-card-hover);
+}
+
+.guide-detail-intro .guide-matrix tbody td:first-child {
+  color: var(--white);
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .guide-detail-intro {
     margin-bottom: 8px;
     padding: 0 0 6px;
+  }
+
+  .guide-detail-intro .guide-matrix thead th,
+  .guide-detail-intro .guide-matrix tbody td {
+    padding: 8px 8px;
+    font-size: 12px;
+    white-space: normal;
   }
 }
 
