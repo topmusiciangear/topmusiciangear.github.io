@@ -263,9 +263,12 @@ function jsonLdScript(data) {
 }
 
 function guideDates(guide, idx) {
-  var base = new Date('2026-01-15');
-  base.setDate(base.getDate() + idx * 3);
-  var pub = base.toISOString().split('T')[0];
+  var pub = guide.datePublished;
+  if (!pub) {
+    var base = new Date('2026-01-15');
+    base.setDate(base.getDate() + idx * 3);
+    pub = base.toISOString().split('T')[0];
+  }
   if (pub > today) pub = today;
   var mod = guide.dateModified || today;
   if (mod > today) mod = today;
