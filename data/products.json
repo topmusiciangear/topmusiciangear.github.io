@@ -156,9 +156,9 @@
     "rating": 4.7,
     "reviews": 3456,
     "badge": "topQuality",
-    "desc": "The Taylor 314ce Next Generation updates the 300-series workhorse with a torrefied Sitka spruce top and solid sapele back and sides. Scalloped V-Class bracing adds volume and low-end richness, the Action Control Neck lets you adjust string height through the soundhole in seconds, and the new Claria system delivers clean, uncolored amplified tone. It's the most versatile Taylor you can buy for the money.",
-    "desc_es": "La Taylor 314ce Next Generation actualiza la todoterreno de la serie 300 con una tapa de abeto Sitka torrefactado y fondo y aros macizos de sapeli. El refuerzo V-Class festoneado aporta volumen y riqueza de graves, el mástil Action Control permite ajustar la altura de las cuerdas por la boca en segundos, y el nuevo sistema Claria ofrece un sonido amplificado limpio y sin color. Es la Taylor más versátil que puedes comprar por el precio.",
-    "img": "https://m.media-amazon.com/images/I/71Oygh1JQrL._AC_SL1500_.jpg",
+    "desc": "The Taylor 314ce Next Generation updates the 300-series workhorse with a solid Sitka spruce top and solid sapele back and sides. Scalloped V-Class bracing adds volume and low-end richness, the Action Control Neck lets you adjust string height through the soundhole in seconds, and the new Claria system delivers clean, uncolored amplified tone. It's the most versatile Taylor you can buy for the money.",
+    "desc_es": "La Taylor 314ce Next Generation actualiza la todoterreno de la serie 300 con una tapa sólida de abeto Sitka y fondo y aros macizos de sapeli. El refuerzo V-Class festoneado aporta volumen y riqueza de graves, el mástil Action Control permite ajustar la altura de las cuerdas por la boca en segundos, y el nuevo sistema Claria ofrece un sonido amplificado limpio y sin color. Es la Taylor más versátil que puedes comprar por el precio.",
+    "img": "https://r2.gear4music.com/media/132/1329238/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FTaylor-314ce-Next-Generation%2F7SSQ",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FTaylor-314ce-Next-Generation%2Fart-GIT0064435-000",
@@ -5922,6 +5922,143 @@
       "amazon": "https://www.amazon.com/dp/B0BVGS4KG1",
       "andertons": "https://www.andertons.co.uk/squier-sonic-mustang-electric-guitar-2-colour-sunburst/",
       "zzounds": "https://www.zzounds.com/a--925521/item--SQU0373652"
+    }
+  },
+  {
+    "id": 314,
+    "title": "Yamaha FGX800C",
+    "title_es": "Yamaha FGX800C",
+    "brand": "Yamaha",
+    "category": "guitars",
+    "price": 379.99,
+    "rating": 4.7,
+    "reviews": 273,
+    "badge": "recommended",
+    "desc": "The Yamaha FGX800C is the electro-acoustic version of the famous FG800 — the same solid Sitka spruce top and scalloped bracing, plus a cutaway and Yamaha's System 66 preamp with tuner and 3-band EQ. It plays and sounds exactly like the acoustic original, but gives beginners a reliable built-in pickup for practice amps, open mics, and recording.",
+    "desc_es": "La Yamaha FGX800C es la versión electro-acústica de la famosa FG800 — la misma tapa sólida de abeto Sitka y el refuerzo festoneado, más un cutaway y el preamplificador System 66 de Yamaha con afinador y EQ de 3 bandas. Se toca y suena exactamente como la acústica original, pero da a los principiantes una pastilla integrada fiable para amplificadores de práctica, micrófonos abiertos y grabación.",
+    "img": "https://m.media-amazon.com/images/I/51OQ44SYfTL._AC_SL1080_.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/us/en/Guitar-and-Bass/Yamaha-FGX800C-II-Electro-Acoustic-Natural/1GOR",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Yamaha-FGX-800-C-NT-Natural/art-GIT0050335-000",
+      "amazon": "https://www.amazon.com/dp/B01DW6A6E8"
+    }
+  },
+  {
+    "id": 315,
+    "title": "Yamaha FS800",
+    "title_es": "Yamaha FS800",
+    "brand": "Yamaha",
+    "category": "guitars",
+    "price": 229,
+    "rating": 4.7,
+    "reviews": 492,
+    "badge": "value",
+    "desc": "The Yamaha FS800 puts the same solid spruce top and scalloped bracing as the FG800 into a smaller concert body with a shorter 25-inch scale. It delivers that famous Yamaha clarity and projection while being noticeably easier for smaller hands, kids, and fingerstyle players to reach around — one of the best-value acoustics you can buy.",
+    "desc_es": "La Yamaha FS800 pone la misma tapa sólida de abeto y el refuerzo festoneado de la FG800 en un cuerpo concierto más pequeño con una escala más corta de 25 pulgadas. Ofrece la famosa claridad y proyección de Yamaha mientras es notablemente más fácil de abarcar para manos pequeñas, niños y guitarristas de fingerstyle — una de las acústicas con mejor relación calidad-precio que puedes comprar.",
+    "img": "https://m.media-amazon.com/images/I/51362uAeGgL._AC_SL1200_.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-FS800-II-Acoustic-Natural/33U5",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Yamaha-FS-800-NT-Natural/art-GIT0050338-000",
+      "zzounds": "https://www.zzounds.com/a--925521/item--YAMFS800J",
+      "andertons": "https://www.andertons.co.uk/yamaha-fs800-acoustic-guitar-in-tinted-natural/",
+      "amazon": "https://www.amazon.com/dp/B01C931H4S"
+    }
+  },
+  {
+    "id": 316,
+    "title": "Martin LX1 Little Martin",
+    "title_es": "Martin LX1 Little Martin",
+    "brand": "Martin",
+    "category": "guitars",
+    "price": 449.99,
+    "rating": 4.3,
+    "reviews": 81,
+    "badge": "topQuality",
+    "desc": "The Martin LX1 Little Martin packs a solid Sitka spruce top and the iconic Martin sound into a compact 15/16-size body with a short 23-inch scale. Mahogany-pattern HPL back and sides shrug off humidity and travel abuse, and the included gig bag makes it the ultimate take-anywhere acoustic for beginners, campfire players, and travelers.",
+    "desc_es": "La Martin LX1 Little Martin concentra una tapa sólida de abeto Sitka y el icónico sonido Martin en un cuerpo compacto de tamaño 15/16 con una escala corta de 23 pulgadas. El fondo y los aros de HPL con patrón de caoba resisten la humedad y los maltratos del viaje, y la funda incluida la convierte en la acústica definitiva para llevar a cualquier parte: principiantes, fogatas y viajeros.",
+    "img": "https://m.media-amazon.com/images/I/71NZUPrykwL._AC_SL1500_.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--MRTLX1",
+      "andertons": "https://www.andertons.co.uk/martin-lx1-little-martin-acoustic-guitar/",
+      "amazon": "https://www.amazon.com/dp/B01EQEPKUU"
+    }
+  },
+  {
+    "id": 317,
+    "title": "Strandberg Boden Essential 6",
+    "title_es": "Strandberg Boden Essential 6",
+    "brand": "Strandberg",
+    "category": "guitars",
+    "price": 1099,
+    "rating": 5,
+    "reviews": 5,
+    "badge": "recommended",
+    "desc": "The Strandberg Boden Essential 6 brings the famous ergonomic headless design to a practical price. Suhr pickups, a super-light meranti body, and the EndurNeck profile make it one of the most comfortable guitars ever made — perfect for long home-recording sessions and quiet tracking.",
+    "desc_es": "La Strandberg Boden Essential 6 lleva el famoso diseño ergonómico sin cabezal a un precio práctico. Pastillas Suhr, cuerpo ultraligero de meranti y perfil EndurNeck la convierten en una de las guitarras más cómodas jamás hechas — perfecta para largas sesiones de grabación casera y tracking silencioso.",
+    "img": "https://a.storyblok.com/f/320488/1920x1280/f860fb9848/boden-essential-whitebg-2.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--STBBOES6",
+      "andertons": "https://www.andertons.co.uk/strandberg-boden-essential-6-black-granite-pbd6ctersbk-1/",
+      "official": "https://strandbergguitars.com/en-US/product/boden-essential-6-black-granite"
+    },
+    "excludeStores": ["gear4music"]
+  },
+  {
+    "id": 318,
+    "title": "Ibanez AZ2402 Prestige",
+    "title_es": "Ibanez AZ2402 Prestige",
+    "brand": "Ibanez",
+    "category": "guitars",
+    "price": 2199.99,
+    "rating": 5,
+    "reviews": 3,
+    "badge": "recommended",
+    "desc": "The AZ2402 Prestige is Ibanez's modern HSS flagship: Seymour Duncan Fortitude pickups, a roasted-maple Super Wizard neck, and a Gotoh tremolo with steel block. It covers everything from pristine clean tones to high-gain modern sounds with remarkable clarity — a true studio workhorse.",
+    "desc_es": "La AZ2402 Prestige es el buque insignia HSS moderno de Ibanez: pastillas Seymour Duncan Fortitude, mástil Super Wizard de arce tostado y trémolo Gotoh con bloque de acero. Cubre desde tonos limpios prístinos hasta sonidos modernos de alta ganancia con una claridad notable — una verdadera todoterreno de estudio.",
+    "img": "https://m.media-amazon.com/images/I/71qIdK34k8L._AC_SL1500_.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/us/en/Guitar-and-Bass/Ibanez-AZ2402-Prestige-Black-Flat/39VK",
+      "amazon": "https://www.amazon.com/dp/B0D1K6MY5H",
+      "andertons": "https://www.andertons.co.uk/ibanez-az2402-bkf-prestige-electric-guitar-black-flat/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--IBAAZ2402"
+    }
+  },
+  {
+    "id": 319,
+    "title": "ESP E-II Eclipse DB",
+    "title_es": "ESP E-II Eclipse DB",
+    "brand": "ESP",
+    "category": "guitars",
+    "price": 2399,
+    "rating": 4.3,
+    "reviews": 12,
+    "badge": "topQuality",
+    "desc": "The E-II Eclipse DB is a Japanese-made rock and metal machine built for silent tracking: mahogany set-neck, ebony fingerboard, and active EMG 81/60 pickups that deliver tight, punchy high-gain tones with zero hum. It records cleanly with no noise floor issues in the studio.",
+    "desc_es": "La E-II Eclipse DB es una máquina de rock y metal fabricada en Japón, hecha para grabar en silencio: mástil encolado de caoba, diapasón de ébano y pastillas activas EMG 81/60 que ofrecen tonos de alta ganancia ajustados y contundentes sin ningún zumbido. Graba limpiamente, sin problemas de ruido de fondo en el estudio.",
+    "img": "https://m.media-amazon.com/images/I/61aCBQEpuvL._AC_SL1215_.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-DB-Purple-Sparkle/2BB0",
+      "zzounds": "https://www.zzounds.com/a--925521/item--ESPEIIECDB",
+      "amazon": "https://www.amazon.com/dp/B00ITMPVBE"
+    }
+  },
+  {
+    "id": 320,
+    "title": "PRS SE Custom 24",
+    "title_es": "PRS SE Custom 24",
+    "brand": "PRS",
+    "category": "guitars",
+    "price": 849,
+    "rating": 3.5,
+    "reviews": 6,
+    "badge": "recommended",
+    "desc": "The SE Custom 24 brings premium PRS design to an affordable price: a carved maple top over mahogany, 85/15 'S' humbuckers, 24 frets on a 25-inch scale, and a push/pull tone control that coil-splits both pickups for single-coil sparkle. It's a versatile, comfortable guitar that records beautifully.",
+    "desc_es": "La SE Custom 24 lleva el diseño premium de PRS a un precio accesible: tapa de arce tallada sobre caoba, humbuckers 85/15 'S', 24 trastes en escala de 25 pulgadas y un control de tono push/pull que divide en bobina ambas pastillas para brillo de single-coil. Es una guitarra versátil y cómoda que graba de maravilla.",
+    "img": "https://cf1.zzounds.com/media/productmedia/fit%2C600by800/quality%2C85/1_Full_Straight_Front_NA-6694cee89f69d85cc58de58064aadc9f.jpg",
+    "stores": {
+      "andertons": "https://www.andertons.co.uk/prs-se-custom-24-slate-blue/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--PAUSECST24",
+      "amazon": "https://www.amazon.com/dp/B0CWXCP7PT"
     }
   }
 ]
