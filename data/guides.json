@@ -7704,7 +7704,7 @@
     "category": "interfaces",
     "image": "https://r2.gear4music.com/media/52/521266/1200/preview_1.jpg",
     "badge": "recommended",
-    "intro": "Your studio shouldn't be chained to a desk.",
+    "intro": "Your studio shouldn't be chained to a desk. Whether you record voiceovers in hotel rooms or capture ideas on a phone between meetings, a portable interface needs to be small, bus-powered and instantly reliable — and the MiniFuse 2 OTG takes that to its logical end with a dedicated mobile port.",
     "intro_es": "Tu estudio no debería estar encadenado a un escritorio.",
     "sections": [
       {
@@ -7733,6 +7733,15 @@
         ]
       },
       {
+        "products": [
+          328
+        ],
+        "heading": "Is the Arturia MiniFuse 2 OTG the Ultimate Mobile Streaming Champion?",
+        "heading_es": "¿Es el Arturia MiniFuse 2 OTG el Campeón Definitivo del Streaming Móvil?",
+        "content": "<p><strong>Let’s be honest about what this interface is and isn’t.</strong> If you measure everything by pure studio specs, the MiniFuse 2 OTG won’t win the numbers game — on paper, the MOTU M2 and even the Scarlett 2i2 look stronger for complex mix work in a bedroom studio. But that’s not the point of it.</p><p>None of those interfaces lets you go live on TikTok or Instagram from your phone while you record the same session into your laptop at the same time. That’s the whole trick here: a second, dedicated USB-C OTG port on the back treats your phone as a real audio device instead of an afterthought. One cable, no dongles, no fumbling with Bluetooth latency in the middle of a stream.</p><p>So who is it for? Not the mastering engineer buried in a basement. It’s for the hybrid creator and streamer who lives between a desk, a coffee shop and a phone stand — the person who needs a real mobile rig that just works. Bus-powered from a laptop or power bank, a USB-A hub port for a MIDI keyboard on the road, and a software bundle (Ableton Live Lite, MiniFuse Collection, Auto-Tune Unlimited) that stretches the value hard.</p><p>Know the trade-offs before you buy. The preamps cap at 56dB, so a heavy dynamic like the SM7B wants a Cloudlifter in front of it, and the direct phone connection runs at 44.1/48kHz instead of the full 192kHz you get from the computer port. Those are honest limits — and if your real job is making content from anywhere, they’re easy to live with.</p>",
+        "content_es": "<p><strong>Seamos honestos sobre lo que esta interfaz es y lo que no es.</strong> Si mides todo por especificaciones puras de estudio, el MiniFuse 2 OTG no ganará la guerra de los números — sobre el papel, la MOTU M2 e incluso la Scarlett 2i2 se ven más fuertes para mezclar trabajo complejo en un estudio casero. Pero ese no es su propósito.</p><p>Ninguna de esas interfaces te permite salir en directo a TikTok o Instagram desde tu teléfono mientras grabas la misma sesión en tu portátil al mismo tiempo. Ese es todo el truco: un segundo puerto USB-C OTG dedicado en la parte trasera que trata tu teléfono como un dispositivo de audio real y no como una ocurrencia tardía. Un cable, sin dongles, sin pelearte con la latencia del Bluetooth a mitad de un stream.</p><p>Así que ¿para quién es? No para el ingeniero de masterización encerrado en un sótano. Es para el creador híbrido y el streamer que vive entre un escritorio, una cafetería y un trípode de teléfono — la persona que necesita un equipo móvil real que simplemente funcione. Alimentada por bus desde un portátil o un power bank, un puerto hub USB-A para un teclado MIDI en la carretera, y un paquete de software (Ableton Live Lite, colección MiniFuse, Auto-Tune Unlimited) que estira mucho el valor.</p><p>Conoce las compensaciones antes de comprar. Los previos llegan a 56dB, así que un dinámico pesado como el SM7B quiere un Cloudlifter delante, y la conexión directa al teléfono corre a 44.1/48kHz en lugar de los 192kHz completos del puerto del ordenador. Esos son límites honestos — y si tu trabajo real es crear contenido desde cualquier lugar, son fáciles de aceptar.</p>"
+      },
+      {
         "heading": "Is the SSL 2+ MKII the Best Interface for Your Home Studio?",
         "heading_es": "¿Es el SSL 2+ MKII la Mejor Interfaz para Tu Estudio Casero?",
         "content": "<strong>The SSL 2+ MKII brings that legendary British console mojo to your mobile rig. </strong>The 4K Legacy button — which engages an analog enhancement circuit inspired by the SSL 4000 series consoles — adds presence, punch, and a little magic to anything you plug in. It's slightly larger than the Babyface but still easily portable. The dual headphone outputs and MIDI I/O make it a complete mobile production hub. If you want your field recordings to sound like they came from a real studio, the SSL 2+ MKII delivers. <p>Buy the SSL 2+ MKII if you need a reliable audio interface. For a complete overview, see our <a href=\"/guides/best-interface.html\">best audio interface guide</a>.</p>",
@@ -7740,15 +7749,23 @@
         "products": [
           18
         ]
+      },
+      {
+        "products": [],
+        "heading": "What the Reviews Won’t Tell You About the MiniFuse 2 OTG",
+        "heading_es": "Lo que las reseñas no te dicen sobre el MiniFuse 2 OTG",
+        "content": "<p><strong>The big magazines still recommend the Audient iD4 MkII as the best small interface.</strong> What they don’t tell you is that the Audient has no MIDI ports and drains your iPad battery in minutes. If your priority is real mobility without cables dangling across the café table, the Arturia MiniFuse 2 OTG destroys it completely thanks to its dedicated mobile port and integrated USB hub for just $219.</p>",
+        "content_es": "<p><strong>Las grandes revistas siguen recomendando la Audient iD4 MkII como la mejor interfaz pequeña.</strong> Lo que no te dicen es que la Audient carece de puertos MIDI y devora la batería de tu iPad en minutos. Si tu prioridad es la movilidad real sin cables colgando por toda la mesa de la cafetería, la Arturia MiniFuse 2 OTG la destruye por completo gracias a su puerto móvil dedicado y su hub USB integrado por sólo $219.</p>"
       }
     ],
-    "conclusion": "The Babyface Pro FS is the ultimate portable interface for professionals who refuse to compromise. The Scarlett 2i2 is the smart budget choice that still delivers pro results. The SSL 2+ MKII adds analog character to your mobile recordings. Any of these will let you capture inspiration wherever it strikes — and in this business, that's priceless. <p>You may also like: <a href=\"/guides/best-interface.html\">Best Audio Interface for Home Recording</a>, <a href=\"/guides/pro-interfaces.html\">Apollo x16 vs Fireface UFX III</a>, and <a href=\"/guides/budget-interfaces.html\">Best Audio Interface Under $300</a>.</p>",
-    "conclusion_es": "La Babyface Pro FS es la interfaz portátil definitiva para profesionales que se niegan a comprometerse. La Scarlett 2i2 es la elección inteligente de presupuesto que aún ofrece resultados profesionales. La SSL 2+ MKII añade carácter analógico a tus grabaciones móviles. Cualquiera de estas te permitirá capturar la inspiración donde sea que surja — y en este negocio, eso no tiene precio. <p>También te puede interesar: <a href=\"/guides/best-interface_es.html\">Mejor Interfaz de Audio para Grabación Casera</a>, <a href=\"/guides/pro-interfaces_es.html\">Apollo x16 vs Fireface UFX III</a> y <a href=\"/guides/budget-interfaces_es.html\">Mejor Interfaz de Audio por Menos de $300</a>.</p>",
+    "conclusion": "The Babyface Pro FS is the ultimate portable interface for professionals who refuse to compromise. The Scarlett 2i2 is the smart budget choice that still delivers pro results. The SSL 2+ MKII adds analog character to your mobile recordings — and the MiniFuse 2 OTG is the pick if you record straight into a phone or iPad and want the hardware to treat your mobile device as a first-class citizen. Any of these will let you capture inspiration wherever it strikes — and in this business, that's priceless. <p>You may also like: <a href=\"/guides/best-interface.html\">Best Audio Interface for Home Recording</a>, <a href=\"/guides/pro-interfaces.html\">Apollo x16 vs Fireface UFX III</a>, and <a href=\"/guides/budget-interfaces.html\">Best Audio Interface Under $300</a>.</p>",
+    "conclusion_es": "El Babyface Pro FS es la interfaz portátil definitiva para profesionales que se niegan a comprometerse. La Scarlett 2i2 es la elección económica inteligente que aún ofrece resultados profesionales. El SSL 2+ MKII añade carácter analógico a tus grabaciones móviles — y el MiniFuse 2 OTG es la elección si grabas directamente en un teléfono o iPad y quieres que el hardware trate tu dispositivo móvil como un ciudadano de primera clase. Cualquiera de estas te permitirá capturar la inspiración donde sea que surja — y en este negocio, eso no tiene precio. <p>También te puede gustar: <a href=\"/guides/best-interface_es.html\">Mejor Interfaz de Audio para Grabación Casera</a>, <a href=\"/guides/pro-interfaces_es.html\">Apollo x16 vs Fireface UFX III</a> y <a href=\"/guides/budget-interfaces_es.html\">Mejor Interfaz de Audio por menos de $300</a>.</p>",
     "verdict": "The Babyface Pro FS is the pro choice for laptop recording — bulletproof drivers, great conversion, tiny footprint. The Scarlett 2i2 covers 90% of needs at a fraction of the cost.",
     "verdict_es": "El Babyface Pro FS es la elección pro para grabar con portátil — drivers a prueba de balas, gran conversión, huella diminuta. La Scarlett 2i2 cubre el 90% de las necesidades por una fracción del coste.",
     "featuredProducts": [
       17,
       15,
+      328,
       18
     ],
     "relatedGuides": [
@@ -7851,6 +7868,10 @@
           "title_es": "Focusrite Scarlett 2i2 4th Gen"
         },
         {
+          "title": "Arturia MiniFuse 2 OTG",
+          "title_es": "Arturia MiniFuse 2 OTG"
+        },
+        {
           "title": "SSL 2+ MKII",
           "title_es": "SSL 2+ MKII"
         }
@@ -7869,6 +7890,10 @@
               "value_es": "La mejor interfaz de entrada versátil"
             },
             {
+              "value": "Mobile streaming & recording into phone/iPad",
+              "value_es": "Streaming móvil y grabación en teléfono/iPad"
+            },
+            {
               "value": "High-headroom recording & MIDI",
               "value_es": "Grabación con alto margen y MIDI"
             }
@@ -7878,6 +7903,10 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
+            {
+              "value": "Audio interface",
+              "value_es": "Interfaz de audio"
+            },
             {
               "value": "Audio interface",
               "value_es": "Interfaz de audio"
@@ -7905,6 +7934,10 @@
               "value_es": "2 entradas / 2 salidas"
             },
             {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
+            },
+            {
               "value": "2-in / 4-out",
               "value_es": "2 entradas / 4 salidas"
             }
@@ -7921,6 +7954,10 @@
             {
               "value": "2, +69 dB gain",
               "value_es": "2, +69 dB de ganancia"
+            },
+            {
+              "value": "2, +56 dB",
+              "value_es": "2, +56 dB"
             },
             {
               "value": "2, 64 dB gain",
@@ -7941,6 +7978,10 @@
               "value_es": "192 kHz"
             },
             {
+              "value": "192 kHz (44.1/48 kHz via OTG)",
+              "value_es": "192 kHz (44.1/48 kHz vía OTG)"
+            },
+            {
               "value": "192 kHz",
               "value_es": "192 kHz"
             }
@@ -7957,6 +7998,10 @@
             {
               "value": "24-bit",
               "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24-bit"
             },
             {
               "value": "32-bit float",
@@ -7977,6 +8022,10 @@
               "value_es": "USB-C"
             },
             {
+              "value": "USB-C + OTG USB-C + USB-A hub",
+              "value_es": "USB-C + USB-C OTG + hub USB-A"
+            },
+            {
               "value": "USB-C",
               "value_es": "USB-C"
             }
@@ -7995,6 +8044,10 @@
               "value_es": "Auto Gain, Clip Safe, loopback"
             },
             {
+              "value": "Dual-host USB-C OTG, USB-A hub, loopback",
+              "value_es": "USB-C OTG de doble host, hub USB-A, loopback"
+            },
+            {
               "value": "Legacy 4K, loopback, MIDI, DC-coupled",
               "value_es": "Legacy 4K, loopback, MIDI, DC-coupled"
             }
@@ -8011,6 +8064,10 @@
             {
               "value": "$199",
               "value_es": "$199"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
             },
             {
               "value": "$299",
@@ -8109,6 +8166,34 @@
           "Más grande que la Babyface, así que ocupa más espacio de bolso que la 2i2",
           "Sin compresor integrado, así que no puedes domar a un vocalista caliente a la entrada",
           "Las dos salidas de auriculares comparten una sola mezcla, así que cantante y productor oyen lo mismo"
+        ]
+      },
+      {
+        "name": "Arturia MiniFuse 2 OTG",
+        "name_es": "Arturia MiniFuse 2 OTG",
+        "pros": [
+          "Dual-host connection runs a computer and phone at the same time",
+          "Built-in USB-A hub port for a MIDI keyboard or USB drive on the road",
+          "Bus-powered and class-compliant for phones, tablets and laptops",
+          "Generous software bundle (Ableton Live Lite, MiniFuse Collection, Auto-Tune Unlimited)"
+        ],
+        "pros_es": [
+          "La conexión de doble host ejecuta una computadora y un teléfono a la vez",
+          "Puerto hub USB-A integrado para un teclado MIDI o un pendrive en la carretera",
+          "Alimentada por bus y class-compliant para teléfonos, tablets y portátiles",
+          "Generoso paquete de software (Ableton Live Lite, colección MiniFuse, Auto-Tune Unlimited)"
+        ],
+        "cons": [
+          "Max preamp gain limited to 56dB — heavy dynamics like the SM7B want a Cloudlifter",
+          "Sample rate drops to 44.1/48kHz on the direct mobile connection",
+          "No 5-pin MIDI ports (dropped vs the standard MiniFuse 2)",
+          "Loopback features are Windows-only"
+        ],
+        "cons_es": [
+          "Ganancia máxima del previo limitada a 56dB — los dinámicos pesados como el SM7B quieren un Cloudlifter",
+          "La frecuencia de muestreo baja a 44.1/48kHz en la conexión móvil directa",
+          "Sin puertos MIDI de 5 pines (se eliminan frente al MiniFuse 2 estándar)",
+          "Las funciones de loopback son solo para Windows"
         ]
       }
     ],
@@ -57928,7 +58013,7 @@
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/93/933907/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can actually grab with your hands. I spent weeks swapping the Stream Deck+, the Streamer X, the BEACN Mix Create, the Wave XLR and two full all-in-one mixers in and out of my live setup so you don't have to guess.",
+    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can actually grab with your hands. I spent weeks swapping the Stream Deck+, the Streamer X, the BEACN Mix Create, the Wave XLR in and out of my live setup so you don't have to guess.",
     "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. Pasé semanas intercambiando el Stream Deck+, el Streamer X, el BEACN Mix Create, el Wave XLR y dos mezcladores todo-en-uno completos en mi setup en directo para que tú no tengas que adivinar.",
     "sections": [
       {
@@ -57982,20 +58067,10 @@
         "products": [
           246
         ]
-      },
-      {
-        "heading": "The Best Pro Streaming Mixers: RØDECaster Pro II vs Mackie DLZ Creator",
-        "heading_es": "Los Mejores Mezcladores Pro de Streaming: RØDECaster Pro II vs Mackie DLZ Creator",
-        "content": "<p><strong>If you've outgrown a controller plus a separate interface, this is the level where the mixing moves inside the hardware.</strong> Both mixers below are standalone consoles that run their own effects and routing, so a frozen PC or a flaky app never stops your audio. I swapped the RØDECaster Pro II and the Mackie DLZ Creator into my setup back to back to see which workflow fits which streamer.</p><p><strong>The RØDECaster Pro II ($699) is the console that thinks ahead.</strong> It processes your mic, music and alerts on the hardware itself, so your stream keeps sounding right even if Windows throws a tantrum. Four Neutrik combo inputs feed 76dB Revolution preamps that drive a Shure SM7B or an Electro-Voice RE20 straight in, no Cloudlifter needed. The dual USB-C ports let you hook up two computers at once, the eight SMART pads fire off OBS commands or duck the music with a tap, and a safety track records multitrack to a microSD or USB stick while you're live. Amazon buyers rate it 4.4/5 across 1,285 reviews, and honestly the fanbase is loud for a reason.</p><p><strong>The Mackie DLZ Creator ($800) is the one that teaches as it goes.</strong> Its 10.1-inch touchscreen sits in the middle of nine 100mm faders, and the Mix Agent walks you through setup step by step instead of dumping you into a manual. Four Onyx80 preamps deliver 80dB of clean gain, AutoMix balances up to four voices at once, and you can flip between Easy, Enhanced and Pro modes as your confidence grows. It records multitrack to an SD card or USB drive, connects to a second PC over NDI, and even takes a phone call over Bluetooth without pulling your stream down. Amazon buyers rate it 4.2/5.</p><p><strong>Which one is for you?</strong> If you want total independence from your computer and a mixer that keeps working when everything else crashes, the RØDECaster Pro II is the one. If you'd rather have a big touchscreen walk you through every step and you regularly juggle a few guests around the table, the DLZ Creator earns its keep.</p>",
-        "content_es": "<p><strong>Si tu controlador y tu interfaz por separado ya se te quedan cortos, aquí es donde la mezcla se muda al propio hardware.</strong> Los dos mezcladores de abajo son consolas independientes que corren sus propios efectos y enrutamiento, así que un PC congelado o una app que falla nunca detiene tu audio. Puse el RØDECaster Pro II y el Mackie DLZ Creator en mi setup uno tras otro para ver qué flujo encaja con cada tipo de streamer.</p><p><strong>El RØDECaster Pro II ($699) es la consola que piensa por adelantado.</strong> Procesa tu micro, tu música y tus alertas en el propio hardware, así tu directo sigue sonando bien aunque Windows haga de las suyas. Cuatro entradas combo Neutrik alimentan previos Revolution de 76dB que mueven un Shure SM7B o un Electro-Voice RE20 directos, sin necesidad de Cloudlifter. Los dos puertos USB-C permiten conectar dos ordenadores a la vez, los ocho pads SMART disparan comandos de OBS o bajan la música de un toque, y una pista de seguridad graba multitrack a una microSD o a un stick USB mientras estás en vivo. Los compradores de Amazon lo valoran 4.4/5 en 1,285 reseñas, y su comunidad es ruidosa por una razón.</p><p><strong>El Mackie DLZ Creator ($800) es el que te enseña sobre la marcha.</strong> Su pantalla táctil de 10.1 pulgadas preside nueve faders de 100mm, y el Mix Agent te guía en la configuración paso a paso en vez de tirarte al manual. Cuatro previos Onyx80 entregan 80dB de ganancia limpia, AutoMix equilibra hasta cuatro voces a la vez y puedes alternar entre los modos Easy, Enhanced y Pro conforme ganas confianza. Graba multitrack a una tarjeta SD o a un USB, se conecta a un segundo PC por NDI y hasta recibe una llamada por Bluetooth sin tirar tu directo. En Amazon lo valoran 4.2/5.</p><p><strong>¿Cuál es para ti?</strong> Si quieres independencia total de tu ordenador y un mezclador que siga funcionando cuando todo lo demás se cae, el RØDECaster Pro II es el indicado. Si prefieres que una pantalla grande te lleve de la mano y sueles tener invitados alrededor de la mesa, el DLZ Creator se gana su precio.</p>",
-        "products": [
-          247,
-          248
-        ]
       }
     ],
-    "conclusion": "If you want your hands on everything, get the Stream Deck+ ($160) — nothing else makes your whole stream so instantly controllable. If you want hands-on control over every audio source on your PC, the BEACN Mix Create ($229) is the software-first pick. If you stream from a console and want one compact box that does audio and video, the Streamer X ($229) is the value pick. And if you just need your mic to sound incredible, the Wave XLR MK.2 ($170) delivers. And when a controller plus a separate interface no longer cut it, the RØDECaster Pro II ($699) runs your whole mix on its own hardware and keeps going even if your PC crashes, while the DLZ Creator ($800) walks you through setup on a big touchscreen. There is genuinely no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? Check our <a href=\"/guides/best-interface.html\">best audio interfaces guide</a>, the <a href=\"/guides/usb-mics.html\">best USB microphones</a>, and <a href=\"/guides/best-mic-for-podcasting.html\">best mics for podcasting</a>.</p>",
-    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ ($160) — nada hace tu directo tan instantáneamente controlable. Si quieres control total con las manos sobre cada fuente de audio de tu PC, el BEACN Mix Create ($229) es la opción software-first. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X ($229) es la elección de valor. Y si solo necesitas que tu micrófono suene increíble, el Wave XLR MK.2 ($170) lo logra. Y cuando un controlador más una interfaz por separado ya no te sirven, el RØDECaster Pro II ($699) corre toda tu mezcla en su propio hardware y sigue aunque tu PC se caiga, mientras que el DLZ Creator ($800) te guía en la configuración con su gran pantalla táctil. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se siente como el tuyo. <p>¿Buscas más? Consulta nuestra <a href=\"/guides/best-interface_es.html\">guía de mejores interfaces de audio</a>, los <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\">mejores micrófonos para podcasting</a>.</p>",
+    "conclusion": "If you want your hands on everything, get the Stream Deck+ ($160) — nothing else makes your whole stream so instantly controllable. If you want hands-on control over every audio source on your PC, the BEACN Mix Create ($229) is the software-first pick. If you stream from a console and want one compact box that does audio and video, the Streamer X ($229) is the value pick. And if you just need your mic to sound incredible, the Wave XLR MK.2 ($170) delivers. There is genuinely no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? If you have outgrown a controller plus a separate interface, our <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\">RØDECaster Pro II vs Mackie DLZ Creator</a> comparison covers the full broadcast consoles. Check our <a href=\"/guides/best-interface.html\">best audio interfaces guide</a>, the <a href=\"/guides/usb-mics.html\">best USB microphones</a>, and <a href=\"/guides/best-mic-for-podcasting.html\">best mics for podcasting</a>.</p>",
+    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ ($160) — nada hace tu directo tan instantáneamente controlable. Si quieres control total con las manos sobre cada fuente de audio de tu PC, el BEACN Mix Create ($229) es la opción software-first. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X ($229) es la elección de valor. Y si solo necesitas que tu micrófono suene increíble, el Wave XLR MK.2 ($170) lo logra. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se siente como el tuyo. <p>¿Buscas más? Si has superado un controlador más una interfaz por separado, nuestra comparativa <a href=\"/guides/rodecaster-pro2-vs-dlz-creator_es.html\">RØDECaster Pro II vs Mackie DLZ Creator</a> cubre las consolas broadcast completas. Consulta nuestra <a href=\"/guides/best-interface_es.html\">guía de mejores interfaces de audio</a>, los <a href=\"/guides/usb-mics_es.html\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\">mejores micrófonos para podcasting</a>.</p>",
     "verdict": "The Stream Deck+ is the total control pick with buttons, dials and a touch strip for every stream setup. The RØDECaster Pro II is hardware reliability for audio-focused streamers, and the BEACN Mix Create adds clever software routing. Match the tool to how you stream.",
     "verdict_es": "El Stream Deck+ es la elección de control total con botones, perillas y tira táctil para cualquier configuración de streaming. El RØDECaster Pro II es fiabilidad de hardware para streamers enfocados en audio, y el BEACN Mix Create añade enrutamiento de software ingenioso. Haz coincidir la herramienta con cómo haces streaming.",
     "featuredProducts": [
@@ -58108,14 +58183,6 @@
         {
           "title": "Elgato Wave XLR MK.2",
           "title_es": "Elgato Wave XLR MK.2"
-        },
-        {
-          "title": "Mackie DLZ Creator",
-          "title_es": "Mackie DLZ Creator"
-        },
-        {
-          "title": "RØDE RØDECaster Pro II",
-          "title_es": "RØDE RØDECaster Pro II"
         },
         {
           "title": "Elgato Stream Deck + XL",
@@ -58280,14 +58347,6 @@
               "value_es": "$170"
             },
             {
-              "value": "$800",
-              "value_es": "$800"
-            },
-            {
-              "value": "$699",
-              "value_es": "$699"
-            },
-            {
               "value": "$349",
               "value_es": "$349"
             }
@@ -58343,13 +58402,13 @@
           "The software can be unstable upon reboots and requires precise power-cycling",
           "Generic or weak USB-C cables cause black-screen capture drops",
           "No power switch — the unit stays warm 24/7 and needs a cable pull to restart",
-          "Only a 3.5mm TRS mic input — no XLR, so pro XLR mics need an external interface"
+          "Single XLR combo input — a two-mic podcast needs a second interface"
         ],
         "cons_es": [
           "El software puede volverse inestable al reiniciar y requiere ciclos de encendido precisos",
           "Los cables USB-C genéricos o débiles causan caídas de captura con pantalla negra",
           "Sin botón de apagado — la unidad se mantiene caliente 24/7 y hay que tirar del cable para reiniciar",
-          "Solo una entrada de micro TRS de 3.5mm — sin XLR, así que los micros XLR profesionales necesitan una interfaz externa"
+          "Una sola entrada combo XLR — un podcast a dos micros necesita una segunda interfaz"
         ]
       },
       {
@@ -58408,66 +58467,6 @@
           "Solo una entrada XLR, sin entrada de línea ni de instrumento",
           "Requiere el software Wave Link para aprovechar todas las funciones DSP",
           "Sin control MIDI — las escenas y los silencios deben dispararse desde Wave Link o un Stream Deck"
-        ]
-      },
-      {
-        "name": "Mackie DLZ Creator",
-        "name_es": "Mackie DLZ Creator",
-        "pros": [
-          "10.1-inch touchscreen makes routing visual and easy to follow",
-          "Mix Agent walks you through setup step by step",
-          "AutoMix balances up to four voices at once",
-          "80dB Onyx80 preamps handle gain-hungry dynamics",
-          "Records multitrack to SD or USB while you stream"
-        ],
-        "pros_es": [
-          "La pantalla táctil de 10.1 pulgadas hace visual y sencillo el enrutamiento",
-          "El Mix Agent te guía en la configuración paso a paso",
-          "AutoMix equilibra hasta cuatro voces a la vez",
-          "Los previos Onyx80 de 80dB mueven dinámicos que piden mucha ganancia",
-          "Graba multitrack a una SD o a un USB mientras transmites"
-        ],
-        "cons": [
-          "No dedicated MIDI or macro pads for OBS shortcuts",
-          "Touchscreen-driven workflow can feel slow for quick changes mid-stream",
-          "Firmware updates have been slow since Mackie joined Rode",
-          "At $800 it is the priciest entry here, aimed at podcast studios rather than solo streamers"
-        ],
-        "cons_es": [
-          "Sin pads MIDI ni macros dedicados para atajos de OBS",
-          "El flujo centrado en la pantalla táctil puede ir lento para cambios rápidos en directo",
-          "Las actualizaciones de firmware han sido lentas desde que Mackie se unió a Rode",
-          "Por $800 es la opción más cara de aquí, orientada a estudios de podcast más que a streamers solitarios"
-        ]
-      },
-      {
-        "name": "RØDE RØDECaster Pro II",
-        "name_es": "RØDE RØDECaster Pro II",
-        "pros": [
-          "All processing runs on the hardware, so a frozen PC can't stop your stream",
-          "Dual USB-C connects two computers at once",
-          "SMART pads trigger OBS commands and duck music automatically",
-          "76dB Revolution preamps drive an SM7B without a Cloudlifter",
-          "Multitrack safety recording to microSD or USB"
-        ],
-        "pros_es": [
-          "Todo el procesamiento corre en el hardware, así un PC congelado no puede detener tu directo",
-          "El doble USB-C conecta dos ordenadores a la vez",
-          "Los pads SMART disparan comandos de OBS y bajan la música automáticamente",
-          "Los previos Revolution de 76dB mueven un SM7B sin Cloudlifter",
-          "Grabación de seguridad multitrack a microSD o USB"
-        ],
-        "cons": [
-          "$699 is steep if you only need scene switching, not full mixing",
-          "Menu structure changes between firmware updates can catch you off guard",
-          "No capture card, so you still need separate video capture",
-          "Its depth of menus means everyday tweaks take more taps than a physical-fader mixer"
-        ],
-        "cons_es": [
-          "$699 es caro si solo necesitas cambiar escenas, no mezclar de verdad",
-          "Los menús cambian entre actualizaciones de firmware y te pueden pillar desprevenido",
-          "No incluye tarjeta de captura, así que aún necesitas capturar vídeo aparte",
-          "La profundidad de sus menús hace que los ajustes cotidianos lleven más toques que un mezclador con faders físicos"
         ]
       },
       {
