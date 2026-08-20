@@ -3462,7 +3462,7 @@
     "title_es": "Rode PodMic",
     "brand": "Rode",
     "category": "microphones",
-    "price": 109,
+    "price": 99,
     "rating": 4.7,
     "reviews": 17850,
     "badge": "recommended",
@@ -6221,6 +6221,25 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Arturia-Minifuse-2-OTG/7IL4",
       "official": "https://www.arturia.com/products/audio/minifuse-2-otg/overview"
+    }
+  },
+  {
+    "id": 329,
+    "title": "Rode Procaster",
+    "title_es": "Rode Procaster",
+    "brand": "Rode",
+    "category": "microphones",
+    "price": 229,
+    "rating": 4.8,
+    "reviews": 382,
+    "badge": "recommended",
+    "desc": "A full-size broadcast dynamic microphone with a tight cardioid pattern and tailored voice frequency response for radio, podcasting and voice-over. Internal pop filter and shock mounting, robust all-metal construction, and a 10-year warranty.",
+    "desc_es": "Un micrófono dinámico de difusión a tamaño completo con patrón cardioide estrecho y respuesta de frecuencia adaptada a la voz para radio, podcasting y locución. Filtro antipop interno y montaje antigolpes, construcción robusta de metal y garantía de 10 años.",
+    "img": "https://m.media-amazon.com/images/I/61VrmWu3qwL._AC_SL1000_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B001IPUJJI",
+      "official": "https://www.rode.com/microphones/procaster",
+      "zzounds": "https://www.zzounds.com/a--925521/item--RODPROCAST"
     }
   }
 ]

@@ -32944,12 +32944,12 @@
   },
   {
     "id": "best-mic-for-podcasting",
-    "title": "Best Podcast Mic: SM7B vs RE20 vs USB (Pro Test)",
-    "title_es": "Mejor Micrófono para Podcast: SM7B vs RE20 vs USB (Prueba Pro)",
+    "title": "Best Podcast Mic: SM58 to SM7B (Pro Test)",
+    "title_es": "Mejor Micrófono para Podcast: del SM58 al SM7B (Prueba Pro)",
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/47/479259/1200/preview.jpg",
     "badge": "topQuality",
-    "intro": "Choosing a microphone for podcasting depends more on your recording environment than your budget.",
+    "intro": "Choosing a microphone for podcasting depends more on your recording environment than your budget. A dynamic mic in an untreated room will always sound better than a condenser in the same space — so we've built this guide as a four-part journey: budget dynamics, the broadcast upgrade, the industry standard, and the high-detail condenser option.",
     "intro_es": "Elegir un micrófono para podcasting depende más del entorno de grabación que del presupuesto.",
     "sections": [
       {
@@ -32965,69 +32965,60 @@
         ]
       },
       {
-        "heading": "Is the Shure SM7B the Best for Recording?",
-        "heading_es": "¿Es el Shure SM7B el Mejor Micrófono para Grabación?",
-        "content": "<p><strong>The Shure SM7B is the microphone you see on most professional podcasts.</strong> Its frequency response is warm and flat, with a gentle presence boost that makes the voice sound natural without being harsh. It includes a built-in pop filter and shock mount, and its off-axis rejection is excellent.</p><p>The SM7B's critical issue is its low output. It needs a lot of gain: around 60-70 dB to reach optimal recording levels. Most interfaces under $500 can't deliver that gain without adding noise. The standard fix is a Cloudlifter CL-1 or FetHead, which add 20-25 dB of clean gain before the interface preamp. Without one of these, the SM7B can sound noisy on entry-level interfaces.</p><p>The total cost of an SM7B ($399) plus a Cloudlifter ($149) plus an interface like the <a href=\"/guides/best-interface.html\">Scarlett 2i2 ($199)</a> comes to around $750. It's a significant investment, but it's a setup that will last for years. If your budget allows, this combination is hard to beat for podcasting. For a comparison with other top podcast mics, see our <a href=\"/guides/sm7b-vs-nt1.html\">SM7B vs NT1 comparison</a>.</p>",
-        "content_es": "<p><strong>El Shure SM7B es el micrófono que ves en la mayoría de los podcasts profesionales.</strong> Su respuesta de frecuencia es cálida y plana, con un suave énfasis en presencia que hace que la voz suene natural sin ser agresiva. Incluye un filtro antipop integrado y suspensión, y su rechazo fuera del eje es excelente.</p><p>El problema crítico del SM7B es su baja salida. Necesita mucha ganancia: alrededor de 60-70 dB para alcanzar niveles óptimos de grabación. La mayoría de las interfaces de menos de $500 no pueden proporcionar esa ganancia sin añadir ruido. La solución estándar es un Cloudlifter CL-1 o FetHead, que añaden 20-25 dB de ganancia limpia antes del preamplificador de la interfaz. Sin uno de estos, el SM7B puede sonar ruidoso en interfaces de entrada.</p><p>El costo total de un SM7B ($399) más un Cloudlifter ($149) más una interfaz como la <a href=\"/guides/best-interface_es.html\">Scarlett 2i2 ($199)</a> asciende a unos $750. Es una inversión significativa, pero es un equipo que durará años. Si tu presupuesto lo permite, esta combinación es difícil de superar para podcasting. Para una comparativa con otros micrófonos top para podcast, consulta nuestra <a href=\"/guides/sm7b-vs-nt1_es.html\">comparativa SM7B vs NT1</a>.</p>",
-        "products": [
-          1,
-          15
-        ]
-      },
-      {
-        "heading": "Is the Shure SM58 the Best for Recording?",
-        "heading_es": "¿Es el Shure SM58 el Mejor Micrófono para Grabación?",
-        "content": "<p><strong>The Shure SM58 costs $99 and is the most used live vocal mic in the world.</strong> For podcasting, it delivers perfectly acceptable quality: its frequency response has a slight presence boost that helps the voice come through clearly. In a direct comparison, the difference from an SM7B is subtle, especially after compression and EQ in the mix.</p><p>The SM58 is rugged and needs no extra accessories. It comes with a built-in pop filter and doesn't require a special shock mount. For multi-person podcasts, buying several SM58s is far more economical than outfitting everyone with an SM7B.</p><p>The SM58 has one quirk some people mod: the spherical pop filter adds a slight warm coloration. If you prefer a more open sound, you can swap it for the flat grille of an <a href=\"/guides/sm57-vs-sm58.html\">SM57, which lets more highs through</a>.</p>",
-        "content_es": "<p><strong>El Shure SM58 cuesta $99 y es el micrófono vocal en vivo más usado del mundo.</strong> Para podcasting, ofrece una calidad perfectamente aceptable: su respuesta de frecuencia tiene un ligero énfasis en presencia que ayuda a que la voz se escuche con claridad. En una comparación directa, la diferencia con un SM7B es sutil, especialmente después de compresión y EQ en la mezcla.</p><p>El SM58 es robusto y no necesita accesorios adicionales. Viene con un filtro antipop integrado y no requiere un soporte antigolpes especial. Para podcasts con múltiples participantes, comprar varios SM58 es mucho más económico que equipar a todos con un SM7B.</p><p>El SM58 tiene una peculiaridad que algunos modifican: el filtro antipop esférico añade una ligera coloración cálida. Si prefieres un sonido más abierto, puedes cambiarlo por la rejilla plana de un <a href=\"/guides/sm57-vs-sm58_es.html\">SM57, que deja pasar más agudos</a>.</p>",
         "products": [
           50,
-          5
-        ]
+          197
+        ],
+        "heading": "Part 1: The Budget Workhorses — SM58 & PodMic",
+        "heading_es": "Parte 1: Los Caballos de Batalla Económicos — SM58 y PodMic",
+        "content": "<p><strong>If your podcast is just getting started, the smartest money is a $99 dynamic.</strong> The Shure SM58 is the most used live vocal mic on earth, and the Rode PodMic is built specifically for podcasting — an internal pop filter, an integrated swing mount and a warm, broadcast-tuned tone. Either one records clean, intelligible speech in an untreated room, which is exactly the situation most new shows face.</p><p><strong>The real difference is the mic’s character.</strong> The SM58 has a subtle presence lift that cuts through, plus a rugged build that survives being dropped into a gig bag for years. The PodMic sounds slightly richer and more “radio” in the lows, and it ships with the mounting hardware you’d otherwise buy separately. Both need an XLR interface and gain that doesn’t choke — the PodMic especially wants a clean 60dB or so.</p><p><strong>When to buy.</strong> If the show is a hobby or you’re outfitting a co-host cheaply, either one. Pick the SM58 for proven road toughness and resale; pick the PodMic if you want that slightly bigger broadcast voicing and the included mount.</p>",
+        "content_es": "<p><strong>Si tu podcast apenas comienza, el dinero más inteligente es un dinámico de $99.</strong> El Shure SM58 es el micrófono vocal en vivo más usado del mundo, y el Rode PodMic está diseñado específicamente para podcasting — filtro antipop interno, montaje oscilante integrado y un tono cálido sintonizado para la difusión. Cualquiera de los dos graba habla limpia e inteligible en una habitación sin tratamiento, que es exactamente la situación que enfrentan la mayoría de los programas nuevos.</p><p><strong>La diferencia real es el carácter del micrófono.</strong> El SM58 tiene un ligero realce de presencia que corta bien, además de una construcción resistente que sobrevive años de funda de viaje. El PodMic suena un poco más rico y más “radio” en los graves, e incluye el hardware de montaje que de otra forma comprarías aparte. Ambos necesitan una interfaz XLR y ganancia suficiente — el PodMic especialmente quiere unos 60dB limpios.</p><p><strong>Cuándo comprar.</strong> Si el programa es un hobby o estás equipando a un co-presentador barato, cualquiera de los dos. Elige el SM58 por su resistencia probada en carretera y reventa; elige el PodMic si quieres esa voz de difusión ligeramente más grande y el soporte incluido.</p>"
       },
       {
-        "heading": "Is the Rode NT1 5th Generation the Best for Recording?",
-        "heading_es": "¿Es el Rode NT1 5th Generation el Mejor Micrófono para Grabación?",
-        "content": "<p><strong>The Rode NT1 5th Generation has a self-noise of only 4dBA, lower than any dynamic microphone.</strong> It captures the voice with a level of detail that dynamics can't match in its price range. It includes a shock mount and pop filter — accessories that cost extra with other mics.</p><p>The catch is that your room must be acoustically treated. The NT1 5th Generation captures everything: the voice, but also the reverb off the walls, traffic noise, the refrigerator hum. In a room with acoustic panels, carpets, and bass treatment, the result is a clarity that no dynamic can deliver. In an untreated room, the result is hollow and amateurish.</p><p>The price is around $269, often on sale for $229. It's an excellent value for anyone with the right space. For those who don't have it, the SM58 will give a better immediate result.</p>",
-        "content_es": "<p><strong>El Rode NT1 5th Generation tiene un ruido propio de solo 4dBA, más bajo que cualquier micrófono dinámico.</strong> Captura la voz con un nivel de detalle que los dinámicos no pueden igualar en su rango de precio. Incluye un soporte antigolpes y filtro antipop —accesorios que cuestan extra con otros micrófonos.</p><p>La condición es que tu sala debe tener tratamiento acústico. El NT1 5th Generation captura todo: la voz, pero también la reverberación de las paredes, el ruido del tráfico, el zumbido del refrigerador. En una sala con paneles acústicos, alfombras y tratamiento de graves, el resultado es una claridad que ningún dinámico puede ofrecer. En una sala sin tratar, el resultado es hueco y poco profesional.</p><p>El precio ronda los $269, a menudo en oferta por $229. Es un excelente valor para quien tiene el espacio adecuado. Para quienes no lo tienen, el SM58 dará un mejor resultado inmediato.</p>",
         "products": [
-          3,
-          15
-        ]
+          329
+        ],
+        "heading": "Part 2: The Broadcast Upgrade — Rode Procaster",
+        "heading_es": "Parte 2: La Mejora de Difusión — Rode Procaster",
+        "content": "<p><strong>The Procaster is the answer when the SM58 or PodMic has you sounding “home-recorded” and you want the full radio timbre without paying SM7B money.</strong> At $229 it’s the classic “step up” broadcast mic — a full-size dynamic with a tight cardioid pattern, a tailored voice response from 75Hz up, and internal pop filtering and shock mounting that keep plosives and desk rumble out of the take.</p><p><strong>Where it beats the budget pair.</strong> The larger capsule and focused voicing give your voice more body and presence, and the difference is obvious the first time you compare A/B. It also rejects room noise like a champion, so it forgives an untreated space that would flatter a condenser.</p><p><strong>The honest catch.</strong> The Procaster is gain-hungry — it wants 60dB or more of clean gain, so a Scarlett 2i2 or any interface with weak preamps will hiss at you. Pair it with something like the <a href=\"/guides/best-interface.html\">best audio interface</a> recommendations (strong preamps) or add an inline booster, and budget for a boom arm because it’s heavy and nothing is included to hang it from.</p>",
+        "content_es": "<p><strong>El Procaster es la respuesta cuando el SM58 o el PodMic te hacen sonar “grabado en casa” y quieres el timbre completo de radio sin pagar precio de SM7B.</strong> Por $229 es el micrófono de difusión “paso adelante” por excelencia — un dinámico de tamaño completo con patrón cardioide estrecho, respuesta de voz desde 75Hz, y filtro antipop y montaje antigolpes internos que mantienen las plosivas y las vibraciones del escritorio fuera de la toma.</p><p><strong>Dónde supera al par económico.</strong> La cápsula más grande y el enfoque de voz dan a tu voz más cuerpo y presencia, y la diferencia es obvia la primera vez que comparas A/B. También rechaza el ruido de la habitación como un campeón, así que perdona un espacio sin tratamiento que halagaría a un condensador.</p><p><strong>La verdad honesta.</strong> El Procaster tiene hambre de ganancia — quiere 60dB o más de ganancia limpia, así que una Scarlett 2i2 o cualquier interfaz con previos débiles te hará escuchar siseo. Combínalo con algo de las recomendaciones de <a href=\"/guides/best-interface_es.html\">mejor interfaz de audio</a> (previos fuertes) o añade un amplificador en línea, y reserva presupuesto para un brazo articulado porque es pesado y no incluye nada para colgarlo.</p>"
       },
       {
-        "heading": "Is the Focusrite Scarlett 2i2 4th Gen the Best USB vs XLR for Recording?",
-        "heading_es": "¿Es la Focusrite Scarlett 2i2 4th Gen la Mejor USB vs XLR para Grabación?",
-        "content": "<p><strong>USB microphones are convenient: they work without an interface, connect directly to your computer, and are more portable.</strong> For a solo podcast with no plans to expand, a USB mic like the Audio-Technica AT2040USB does the job well.</p><p>The advantage of an XLR system is modularity. An interface like the Scarlett 2i2 ($199) with an SM58 ($99) costs $298. If you later want to add a co-host, you buy another SM58 and the interface already has two inputs. If you want to upgrade the mic, you buy an SM7B and keep the interface. With USB, any change means replacing everything.</p><p>The upfront cost difference isn't huge: a good USB mic runs between $130 and $200. An entry-level XLR setup costs around $300. For the difference, you get better sound quality (dedicated interface preamps sound better than USB mic preamps), room to expand, and higher resale value. For anyone planning to take podcasting seriously, XLR is the better investment.</p>",
-        "content_es": "<p><strong>Los micrófonos USB son prácticos: funcionan sin interfaz, se conectan directamente a tu computadora y son más portátiles.</strong> Para un podcast en solitario sin planes de expansión, un micrófono USB como el Audio-Technica AT2040USB hace bien el trabajo.</p><p>La ventaja de un sistema XLR es la modularidad. Una interfaz como la Scarlett 2i2 ($199) con un SM58 ($99) cuesta $298. Si luego quieres añadir un co-presentador, compras otro SM58 y la interfaz ya tiene dos entradas. Si quieres mejorar el micrófono, compras un SM7B y conservas la interfaz. Con USB, cualquier cambio significa reemplazarlo todo.</p><p>La diferencia de costo inicial no es enorme: un buen micrófono USB cuesta entre $130 y $200. Un equipo XLR de entrada cuesta alrededor de $300. Por la diferencia, obtienes mejor calidad de sonido (los preamplificadores de interfaz dedicados suenan mejor que los de los micrófonos USB), espacio para expandirte y mayor valor de reventa. Para cualquiera que planee tomar el podcasting en serio, XLR es la mejor inversión.</p>",
         "products": [
-          15,
-          50,
-          1,
-          5
-        ]
-      },
-      {
-        "heading": "Is the Elgato Wave XLR Pro the Best Dual-Mic Interface for Podcasting?",
-        "heading_es": "¿Es el Elgato Wave XLR Pro la Mejor Interfaz de Doble Micrófono para Podcasting?",
-        "content": "<p><strong>The Elgato Wave XLR Pro is the rare interface that makes an SM7B effortless and gives you a second mic input at the same time.</strong> Its two preamps each deliver 80dB of clean gain, so the gain-hungry SM7B no longer needs a Cloudlifter or FetHead sitting between mic and box. And because there are two XLR inputs, a co-host plugs in without a second interface — that single $350 box replaces the SM7B + Cloudlifter + interface stack we priced out earlier.</p><p><strong>What sets it apart from a standard interface like the Scarlett 2i2 is the hardware mixing engine.</strong> The Wave FX Processor runs five independent mixes at once — one to your headphones, one to your stream, one to a recording, one to a co-host's phones — with zero-latency monitoring, Clipguard 2.0 anti-clipping, and VST plugin support. Everything processes on the device, so your voice sounds the same in every app. It even keeps running in standalone mode with no computer attached.</p><p><strong>The honest trade-offs:</strong> there are no physical knobs or faders — Elgato expects you to control it from a Stream Deck or the free Wave Link app — and at $350 it costs more than a Scarlett 2i2. For solo podcasters the Scarlett remains the value play. But if you host a two-mic show or plan to grow into one, the Wave XLR Pro is the cleanest single-box solution I've tested.</p>",
-        "content_es": "<p><strong>El Elgato Wave XLR Pro es la interfaz que hace que un SM7B sea sencillo y te da una segunda entrada de micrófono a la vez.</strong> Sus dos previos entregan 80dB de ganancia limpia cada uno, así que el SM7B, hambriento de ganancia, ya no necesita un Cloudlifter o FetHead entre el micro y la caja. Y al tener dos entradas XLR, un co-presentador se conecta sin una segunda interfaz — esa única caja de $350 reemplaza la pila SM7B + Cloudlifter + interfaz que calculamos antes.</p><p><strong>Lo que la distingue de una interfaz estándar como la Scarlett 2i2 es el motor de mezcla de hardware.</strong> El Wave FX Processor ejecuta cinco mezclas independientes a la vez — una a tus auriculares, otra a tu directo, otra a una grabación, otra a los cascos de tu co-presentador — con monitoreo de latencia cero, Clipguard 2.0 antidistorsión y soporte de plugins VST. Todo se procesa en el dispositivo, así que tu voz suena igual en todas las apps. Incluso sigue funcionando en modo independiente sin computadora conectada.</p><p><strong>Las contrapartidas honestas:</strong> no tiene perillas ni faders físicos — Elgato espera que la controles desde un Stream Deck o la app gratuita Wave Link — y por $350 cuesta más que una Scarlett 2i2. Para podcasters solitarios la Scarlett sigue siendo la opción de valor. Pero si tienes un show de dos micros o planeas llegar a uno, el Wave XLR Pro es la solución de una sola caja más limpia que he probado.</p>",
-        "products": [
-          260,
-          15,
           1
-        ]
+        ],
+        "heading": "Part 3: The Industry Standard — Shure SM7B",
+        "heading_es": "Parte 3: El Estándar de la Industria — Shure SM7B",
+        "content": "<p><strong>The SM7B is the microphone you see on most professional podcasts — and for good reason.</strong> Its frequency response is warm and flat, with a gentle presence boost that makes the voice sound natural without being harsh. It includes a built-in pop filter and shock mount, and its off-axis rejection is excellent in untreated rooms.</p><p><strong>The cost of the gold standard.</strong> The mic itself is $399, but the real bill comes with the gain. The SM7B wants around 60–70dB of clean gain, so most interfaces need a Cloudlifter (≈$149) in front of it — putting the full rig near $750. It’s also heavy and needs a properly rated boom arm.</p><p><strong>Is it worth it?</strong> If your room is treated and your budget allows, yes — it’s the safest, most classic broadcast voice you can buy, and it holds resale value. If you’re on a tighter budget, the Procaster delivers much of the same character for almost half the money. See our <a href=\"/guides/sm7b-vs-nt1.html\">SM7B vs NT1 comparison</a> for the condenser alternative.</p>",
+        "content_es": "<p><strong>El SM7B es el micrófono que ves en la mayoría de los podcasts profesionales — y por una buena razón.</strong> Su respuesta de frecuencia es cálida y plana, con un suave realce de presencia que hace que la voz suene natural sin ser agresiva. Incluye un filtro antipop y soporte antigolpes integrados, y su rechazo fuera de eje es excelente en habitaciones sin tratamiento.</p><p><strong>El costo del estándar de oro.</strong> El micrófono cuesta $399, pero la factura real viene con la ganancia. El SM7B quiere unos 60–70dB de ganancia limpia, así que la mayoría de las interfaces necesitan un Cloudlifter (≈$149) delante — poniendo el equipo completo cerca de $750. También es pesado y necesita un brazo articulado de buena calidad.</p><p><strong>¿Vale la pena?</strong> Si tu sala tiene tratamiento y tu presupuesto lo permite, sí — es la voz de difusión más segura y clásica que puedes comprar, y conserva valor de reventa. Si tienes un presupuesto más ajustado, el Procaster entrega gran parte del mismo carácter por casi la mitad del dinero. Consulta nuestra <a href=\"/guides/sm7b-vs-nt1_es.html\">comparación SM7B vs NT1</a> para la alternativa de condensador.</p>"
+      },
+      {
+        "products": [
+          3
+        ],
+        "heading": "Part 4: The High-Detail Option — Rode NT1 5th Generation",
+        "heading_es": "Parte 4: La Opción de Alto Detalle — Rode NT1 5th Generation",
+        "content": "<p><strong>The NT1 5th Generation is the choice when your room is treated and you want a level of detail dynamics can’t match.</strong> Its self-noise is only 4dBA — lower than any dynamic — and it captures the air and nuance around the voice. It includes a shock mount and pop filter that cost extra with other mics, and its dual XLR/USB output means it records straight into a laptop with no interface at all.</p><p><strong>The warning applies to every condenser.</strong> In an untreated room it captures every reverb, fan and hum, and the result sounds hollow and amateurish. As a condenser it also needs 48V phantom power from the interface, and its 32-bit float mode only pays off in software that supports it.</p><p><strong>Who should pick it.</strong> Solo hosts in a treated space who want the most natural, detailed voice — and who like the idea of skipping the interface via USB. Everyone else should stay with a dynamic until the room is under control. For more, read the <a href=\"/guides/sm7b-vs-nt1.html\">SM7B vs NT1 deep dive</a>.</p>",
+        "content_es": "<p><strong>El NT1 5th Generation es la elección cuando tu sala tiene tratamiento y quieres un nivel de detalle que los dinámicos no pueden igualar.</strong> Su ruido propio es de solo 4dBA — más bajo que cualquier dinámico — y captura el aire y el matiz alrededor de la voz. Incluye un soporte antigolpes y filtro antipop que cuestan extra con otros micrófonos, y su salida dual XLR/USB significa que graba directamente a un portátil sin interfaz alguna.</p><p><strong>La advertencia aplica a todo condensador.</strong> En una sala sin tratamiento captura cada reverberación, ventilador y zumbido, y el resultado suena hueco y poco profesional. Como condensador también necesita alimentación fantasma de 48V desde la interfaz, y su modo de 32-bit float solo se aprovecha en software que lo soporte.</p><p><strong>Quién debería elegirlo.</strong> Presentadores solistas en un espacio tratado que quieren la voz más natural y detallada — y a quienes les gusta la idea de saltarse la interfaz vía USB. Todos los demás deberían quedarse con un dinámico hasta que la sala esté bajo control. Para más, lee el <a href=\"/guides/sm7b-vs-nt1_es.html\">análisis SM7B vs NT1</a>.</p>"
+      },
+      {
+        "products": [],
+        "heading": "Do You Need an Interface?",
+        "heading_es": "¿Necesitas una Interfaz?",
+        "content": "<p><strong>Every XLR mic here needs an interface to reach your computer.</strong> The Scarlett 2i2 is the classic budget partner and any of the <a href=\"/guides/best-interface.html\">best audio interfaces</a> will drive the SM58, PodMic and NT1 easily. If you run a two-mic show, see our <a href=\"/guides/streaming-interfaces.html\">streaming interfaces</a> roundup for options with two XLR preamps and hardware mixing — or check the dedicated <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\">Rodecaster Pro II vs DLZ Creator</a> showdown if you want an all-in-one production console.</p>",
+        "content_es": "<p><strong>Cada micrófono XLR aquí necesita una interfaz para llegar a tu computadora.</strong> La Scarlett 2i2 es la compañera económica clásica y cualquiera de las <a href=\"/guides/best-interface_es.html\">mejores interfaces de audio</a> moverá el SM58, el PodMic y el NT1 sin esfuerzo. Si tienes un show de dos micros, consulta nuestro resumen de <a href=\"/guides/streaming-interfaces_es.html\">interfaces para streaming</a> para opciones con dos previos XLR y mezclador de hardware — o revisa el enfrentamiento dedicado <a href=\"/guides/rodecaster-pro2-vs-dlz-creator_es.html\">Rodecaster Pro II vs DLZ Creator</a> si quieres una consola de producción todo-en-uno.</p>"
       }
     ],
-    "conclusion": "To start a podcast, the most practical combination is a Shure SM58 ($99) with a Focusrite Scarlett 2i2 ($199). It costs around $300 and delivers professional sound from episode one. If your budget is bigger and your room has acoustic treatment, the SM7B with Cloudlifter is the industry standard. If the room is treated and you want maximum detail, the Rode NT1 5th Generation offers exceptional clarity for $269. And if you run a two-mic show, the Elgato Wave XLR Pro ($350) replaces the whole stack — its 80dB preamps drive two mics, even an SM7B with no Cloudlifter, and its hardware mixer handles host and guest monitoring in one box. The most important decision isn't the mic — it's your recording environment: a dynamic mic in an untreated room will always sound better than a condenser in the same space. For more on microphone selection, see our <a href=\"/guides/best-microphone.html\">best microphone guide</a>.",
-    "conclusion_es": "Para empezar un podcast, la combinación más práctica es Shure SM58 ($99) con una Scarlett 2i2 ($199). Cuesta unos $300 y entrega sonido profesional desde el primer episodio. Si tu presupuesto es mayor y tu sala tiene tratamiento acústico, el SM7B con Cloudlifter es el estándar de la industria. Si la sala está tratada y buscas máximo detalle, el Rode NT1 5th Generation ofrece una claridad excepcional por $269. Y si tienes un show de dos micros, el Elgato Wave XLR Pro ($350) reemplaza toda la cadena — sus previos de 80dB mueven dos micrófonos, incluso un SM7B sin Cloudlifter, y su mezclador de hardware maneja el monitoreo del host y del invitado en una sola caja. La decisión más importante es el entorno de grabación, no el micrófono. Para más información, consulta nuestra <a href=\"/guides/best-microphone_es.html\">guía del mejor micrófono</a>. <p>También te puede interesar: <a href=\"/guides/sm7b-vs-nt1_es.html\">SM7B vs NT1 5ª Gen</a>, <a href=\"/guides/re20-vs-sm7b_es.html\">RE20 vs SM7B</a> y <a href=\"/guides/sm57-vs-sm58_es.html\">SM57 vs SM58</a>.</p>",
-    "verdict": "SM58 + Scarlett 2i2 is the best entry point at ~$300. SM7B + Cloudlifter is the professional standard. For two-mic shows, the Wave XLR Pro is the cleanest single-box option.",
-    "verdict_es": "SM58 + Scarlett 2i2 es el mejor punto de entrada. SM7B + Cloudlifter es el estándar profesional. Para shows de dos micros, el Wave XLR Pro es la opción más limpia en una sola caja.",
+    "conclusion": "For most podcasters, the honest answer is a $99 dynamic (SM58 or PodMic) with a solid interface — around $300 total, and it delivers professional sound from episode one. If you want the full radio timbre without SM7B money, the Procaster ($229) is the sweet spot, as long as your interface has strong preamps. If your budget is bigger and your room is treated, the SM7B with Cloudlifter is the industry standard — and the NT1 5th Generation offers exceptional detail for $269 in a treated room, with the bonus of USB recording. The most important decision isn't the mic — it's your recording environment. For more on microphone selection, see our <a href=\"/guides/best-microphone.html\">best microphone guide</a>. <p>You may also like: <a href=\"/guides/sm7b-vs-nt1.html\">SM7B vs NT1 5th Gen</a>, <a href=\"/guides/re20-vs-sm7b.html\">RE20 vs SM7B</a>, and <a href=\"/guides/sm57-vs-sm58.html\">SM57 vs SM58</a>.</p>",
+    "conclusion_es": "Para la mayoría de los podcasters, la respuesta honesta es un dinámico de $99 (SM58 o PodMic) con una interfaz sólida — unos $300 en total, y entrega sonido profesional desde el primer episodio. Si quieres el timbre completo de radio sin pagar precio de SM7B, el Procaster ($229) es el punto dulce, siempre que tu interfaz tenga previos fuertes. Si tu presupuesto es mayor y tu sala tiene tratamiento, el SM7B con Cloudlifter es el estándar de la industria — y el NT1 5th Generation ofrece un detalle excepcional por $269 en una sala tratada, con la ventaja de grabar por USB. La decisión más importante no es el micrófono, es tu entorno de grabación. Para más sobre selección de micrófonos, consulta nuestra <a href=\"/guides/best-microphone_es.html\">guía del mejor micrófono</a>. <p>También te puede interesar: <a href=\"/guides/sm7b-vs-nt1_es.html\">SM7B vs NT1 5ª Gen</a>, <a href=\"/guides/re20-vs-sm7b_es.html\">RE20 vs SM7B</a> y <a href=\"/guides/sm57-vs-sm58_es.html\">SM57 vs SM58</a>.</p>",
+    "verdict": "For most shows, a $99 dynamic (SM58 or PodMic) with a solid interface is the honest sweet spot at ~$300. The Procaster ($229) adds full broadcast timbre if your interface has strong preamps. The SM7B + Cloudlifter remains the professional standard, and the NT1 5th Gen is the high-detail pick for treated rooms.",
+    "verdict_es": "Para la mayoría de los programas, un dinámico de $99 (SM58 o PodMic) con una interfaz sólida es el punto dulce honesto por unos $300. El Procaster ($229) añade timbre completo de difusión si tu interfaz tiene previos fuertes. El SM7B + Cloudlifter sigue siendo el estándar profesional, y el NT1 5ª Gen es la elección de alto detalle para salas tratadas.",
     "featuredProducts": [
-      1,
       50,
-      3,
-      15,
-      260
+      197,
+      329,
+      1,
+      3
     ],
     "relatedGuides": [
       "sm7b-vs-nt1",
@@ -33121,24 +33112,24 @@
       "title_es": "Comparativa de Micros para Podcast en esta Guía",
       "columns": [
         {
-          "title": "Shure SM7B",
-          "title_es": "Shure SM7B"
-        },
-        {
           "title": "Shure SM58",
           "title_es": "Shure SM58"
         },
         {
+          "title": "Rode PodMic",
+          "title_es": "Rode PodMic"
+        },
+        {
+          "title": "Rode Procaster",
+          "title_es": "Rode Procaster"
+        },
+        {
+          "title": "Shure SM7B",
+          "title_es": "Shure SM7B"
+        },
+        {
           "title": "Rode NT1 5th Gen",
-          "title_es": "Rode NT1 5.ª Gen"
-        },
-        {
-          "title": "Focusrite Scarlett 2i2 (interface)",
-          "title_es": "Focusrite Scarlett 2i2 (interfaz)"
-        },
-        {
-          "title": "Elgato Wave XLR Pro",
-          "title_es": "Elgato Wave XLR Pro"
+          "title_es": "Rode NT1 5th Gen"
         }
       ],
       "rows": [
@@ -33147,24 +33138,24 @@
           "label_es": "Ideal Para",
           "values": [
             {
+              "value": "Live & stage vocals / budget podcasts",
+              "value_es": "Voces en vivo y escenario / podcasts económicos"
+            },
+            {
+              "value": "Budget podcasting & streaming",
+              "value_es": "Podcasting y streaming económicos"
+            },
+            {
+              "value": "Broadcast voice & serious podcasts",
+              "value_es": "Voz de difusión y podcasts serios"
+            },
+            {
               "value": "Broadcast & podcast vocals",
               "value_es": "Radio y podcast"
             },
             {
-              "value": "Live & stage vocals",
-              "value_es": "Voces en vivo y escenario"
-            },
-            {
-              "value": "Versatile studio vocals",
-              "value_es": "Voces de estudio versátiles"
-            },
-            {
-              "value": "USB audio interface",
-              "value_es": "Interfaz de audio USB"
-            },
-            {
-              "value": "Co-hosted & dual-mic podcasts",
-              "value_es": "Podcasts con co-presentador o doble micro"
+              "value": "Versatile studio vocals (treated room)",
+              "value_es": "Voces de estudio versátiles (sala tratada)"
             }
           ]
         },
@@ -33177,20 +33168,20 @@
               "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
+              "value": "Dynamic, passive",
+              "value_es": "Dinámico, pasivo"
+            },
+            {
+              "value": "Dynamic (large diaphragm), passive",
+              "value_es": "Dinámico (diafragma grande), pasivo"
+            },
+            {
               "value": "Dynamic (moving coil), passive",
               "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
               "value": "Condenser (1-inch LDC), XLR + USB-C",
               "value_es": "Condensador (LDC de 1 pulg), XLR + USB-C"
-            },
-            {
-              "value": "Audio interface (2-in/2-out)",
-              "value_es": "Interfaz de audio (2-ent/2-sal)"
-            },
-            {
-              "value": "Audio interface (2 XLR in)",
-              "value_es": "Interfaz de audio (2 entradas XLR)"
             }
           ]
         },
@@ -33207,16 +33198,16 @@
               "value_es": "Cardioide"
             },
             {
+              "value": "Cardioid (tight)",
+              "value_es": "Cardioide (estrecho)"
+            },
+            {
               "value": "Cardioid",
               "value_es": "Cardioide"
             },
             {
-              "value": "–",
-              "value_es": "–"
-            },
-            {
-              "value": "–",
-              "value_es": "–"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             }
           ]
         },
@@ -33224,10 +33215,6 @@
           "label": "Frequency Response",
           "label_es": "Respuesta de Frecuencia",
           "values": [
-            {
-              "value": "50 Hz – 20 kHz",
-              "value_es": "50 Hz – 20 kHz"
-            },
             {
               "value": "50 Hz – 15 kHz",
               "value_es": "50 Hz – 15 kHz"
@@ -33237,8 +33224,12 @@
               "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
+              "value": "75 Hz – 18 kHz",
+              "value_es": "75 Hz – 18 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
             },
             {
               "value": "20 Hz – 20 kHz",
@@ -33251,24 +33242,24 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "-59.0 dBV/Pa (1.12 mV)",
-              "value_es": "–59 dBV/Pa (1.12 mV)"
-            },
-            {
               "value": "-54.5 dBV/Pa (1.85 mV)",
               "value_es": "–56.0 dBV/Pa (1.6 mV)"
             },
             {
+              "value": "-57.0 dB re 1 V/Pa (1.60 mV)",
+              "value_es": "-57.0 dB re 1 V/Pa (1.60 mV)"
+            },
+            {
+              "value": "-56.0 dB re 1 V/Pa (1.60 mV)",
+              "value_es": "-56.0 dB re 1 V/Pa (1.60 mV)"
+            },
+            {
+              "value": "-59.0 dBV/Pa (1.12 mV)",
+              "value_es": "–59 dBV/Pa (1.12 mV)"
+            },
+            {
               "value": "-32 dB re 1 V/Pa (25 mV)",
               "value_es": "–32 dB (25 mV/Pa)"
-            },
-            {
-              "value": "–",
-              "value_es": "–"
-            },
-            {
-              "value": "–",
-              "value_es": "–"
             }
           ]
         },
@@ -33285,16 +33276,16 @@
               "value_es": "N/D (dinámico pasivo)"
             },
             {
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
+            },
+            {
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
+            },
+            {
               "value": "4 dBA",
               "value_es": "4 dBA"
-            },
-            {
-              "value": "–",
-              "value_es": "–"
-            },
-            {
-              "value": "EIN –130 dBV(A)",
-              "value_es": "EIN –130 dBV(A)"
             }
           ]
         },
@@ -33303,24 +33294,24 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "Not officially rated (~180 dB est.)",
-              "value_es": "Sin clasificación oficial (~180 dB est.)"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
               "value": "Not officially rated (~160 dB est.)",
               "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
+            },
+            {
+              "value": "Not officially rated (~180 dB est.)",
+              "value_es": "Sin clasificación oficial (~180 dB est.)"
+            },
+            {
               "value": "142 dB SPL",
               "value_es": "142 dB"
-            },
-            {
-              "value": "–",
-              "value_es": "–"
-            },
-            {
-              "value": "–",
-              "value_es": "–"
             }
           ]
         },
@@ -33329,24 +33320,24 @@
           "label_es": "Salida / Preamplificador",
           "values": [
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            },
-            {
               "value": "150 Ω rated (300 Ω actual)",
               "value_es": "150 Ω nominales (300 Ω reales)"
             },
             {
+              "value": "320 Ω",
+              "value_es": "320 Ω"
+            },
+            {
+              "value": "320 Ω",
+              "value_es": "320 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
               "value": "100 Ω",
               "value_es": "100 Ω"
-            },
-            {
-              "value": "48V phantom, 2 mic preamps",
-              "value_es": "48V phantom, 2 preamps"
-            },
-            {
-              "value": "80 dB gain, 48V phantom",
-              "value_es": "80 dB de ganancia, 48V phantom"
             }
           ]
         },
@@ -33367,12 +33358,12 @@
               "value_es": "No publicado"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -33389,16 +33380,16 @@
               "value_es": "No publicado"
             },
             {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
               "value": "126 dB via USB 32-bit float (marketing)",
               "value_es": "126 dB vía USB 32-bit float (marketing)"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
             }
           ]
         },
@@ -33419,12 +33410,12 @@
               "value_es": "No publicado"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -33433,24 +33424,24 @@
           "label_es": "Cápsula / Diafragma",
           "values": [
             {
-              "value": "Large-diaphragm dynamic (size not disclosed)",
-              "value_es": "Dinámico de diafragma grande (tamaño no divulgado)"
-            },
-            {
               "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
               "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
             },
             {
+              "value": "Dynamic capsule, internal pop filter & shock mount",
+              "value_es": "Cápsula dinámica, filtro antipop y suspensión internos"
+            },
+            {
+              "value": "Neodymium large diaphragm, internal shock mount",
+              "value_es": "Diafragma grande de neodimio, suspensión interna"
+            },
+            {
+              "value": "Large-diaphragm dynamic (size not disclosed)",
+              "value_es": "Dinámico de diafragma grande (tamaño no divulgado)"
+            },
+            {
               "value": "HF6 1-inch gold-sputtered condenser",
               "value_es": "Cápsula condensadora HF6 de 1 pulg con baño de oro"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
             }
           ]
         },
@@ -33459,24 +33450,24 @@
           "label_es": "Pad y Filtro Paso Alto",
           "values": [
             {
-              "value": "Bass rolloff + presence boost switches",
-              "value_es": "Interruptores de filtro de graves y realce de presencia"
-            },
-            {
               "value": "None",
               "value_es": "Ninguno"
             },
             {
+              "value": "None (internal pop filter only)",
+              "value_es": "Ninguno (solo filtro antipop interno)"
+            },
+            {
+              "value": "None (internal pop filter only)",
+              "value_es": "Ninguno (solo filtro antipop interno)"
+            },
+            {
+              "value": "Bass rolloff + presence boost switches",
+              "value_es": "Interruptores de filtro de graves y realce de presencia"
+            },
+            {
               "value": "DSP HPF (75/150 Hz), compressor, gate, APHEX (USB)",
               "value_es": "HPF por DSP (75/150 Hz), compresor, puerta, APHEX (USB)"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
             }
           ]
         },
@@ -33493,16 +33484,16 @@
               "value_es": "No requiere"
             },
             {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
               "value": "+48 V (XLR); 5 V (USB)",
               "value_es": "+48 V (XLR); 5 V (USB)"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
             }
           ]
         },
@@ -33511,24 +33502,24 @@
           "label_es": "Dimensiones",
           "values": [
             {
-              "value": "190 × 148 × 96 mm",
-              "value_es": "190 × 148 × 96 mm"
-            },
-            {
               "value": "162 × 51 mm",
               "value_es": "162 × 51 mm"
             },
             {
+              "value": "172 × 109 × 62 mm",
+              "value_es": "172 × 109 × 62 mm"
+            },
+            {
+              "value": "214 × 53 mm (L × Ø)",
+              "value_es": "214 × 53 mm (L × Ø)"
+            },
+            {
+              "value": "190 × 148 × 96 mm",
+              "value_es": "190 × 148 × 96 mm"
+            },
+            {
               "value": "52 × 52 × 189 mm",
               "value_es": "52 × 52 × 189 mm"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
             }
           ]
         },
@@ -33537,24 +33528,24 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "765 g",
-              "value_es": "765 g"
-            },
-            {
               "value": "298 g",
               "value_es": "298 g"
             },
             {
+              "value": "937 g",
+              "value_es": "937 g"
+            },
+            {
+              "value": "695 g",
+              "value_es": "695 g"
+            },
+            {
+              "value": "765 g",
+              "value_es": "765 g"
+            },
+            {
               "value": "308 g",
               "value_es": "308 g"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
             }
           ]
         },
@@ -33563,24 +33554,24 @@
           "label_es": "Precio",
           "values": [
             {
-              "value": "$399",
-              "value_es": "$399"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
               "value": "$99",
               "value_es": "$99"
             },
             {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
               "value": "$269",
               "value_es": "$269"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$350",
-              "value_es": "$350"
             }
           ]
         }
@@ -33588,153 +33579,149 @@
     },
     "verdictProsCons": [
       {
-        "name": "Shure SM7B",
-        "name_es": "Shure SM7B",
-        "pros": [
-          "Warm, flat frequency response with a gentle presence boost for natural broadcast voice",
-          "Built-in pop filter and shock mount save on accessories",
-          "Off-axis rejection that keeps untreated home rooms with hard walls and ceiling reflections out of the recording",
-          "The mic you see on most professional podcasts"
-        ],
-        "pros_es": [
-          "Respuesta cálida y plana con un suave boost de presencia para una voz broadcast natural",
-          "Filtro antipop y soporte antivibración integrados que ahorran accesorios",
-          "Rechazo fuera de eje que mantiene fuera de la grabación las habitaciones caseras sin tratar con paredes duras y reflejos del techo",
-          "El micrófono que ves en la mayoría de podcasts profesionales"
-        ],
-        "cons": [
-          "Needs around 60-70dB of clean gain — a Cloudlifter ($149) is basically required",
-          "The full rig (SM7B + Cloudlifter + interface) runs about $750",
-          "It's heavy and needs a properly rated boom arm rather than a cheap clamp",
-          "No USB output — the NT1 and hybrid mics record straight to a laptop without an interface",
-          "Its 50 Hz–20 kHz response is narrower than the NT1's 20 Hz–20 kHz — less air on top for sibilant voices"
-        ],
-        "cons_es": [
-          "Necesita unos 60-70dB de ganancia limpia — un Cloudlifter ($149) es prácticamente obligatorio",
-          "El rig completo (SM7B + Cloudlifter + interfaz) ronda los $750",
-          "Es pesado y necesita un brazo articulado de capacidad adecuada en lugar de una pinza barata",
-          "Sin salida USB — la NT1 y los híbridos graban directo al portátil sin interfaz",
-          "Su respuesta de 50 Hz–20 kHz es más estrecha que la de 20 Hz–20 kHz de la NT1 — menos aire arriba para voces sibilantes"
-        ]
-      },
-      {
         "name": "Shure SM58",
         "name_es": "Shure SM58",
         "pros": [
-          "At $99 it's the best entry point — with a Scarlett 2i2 it totals around $300",
+          "At $99 it’s the best entry point — with an interface it totals around $300",
           "Slight presence boost helps the voice come through clearly",
           "Built-in pop filter and rugged build need no extra accessories",
           "Buying several SM58s is far more economical than outfitting everyone with SM7Bs"
         ],
         "pros_es": [
-          "Por $99 es el mejor punto de entrada — con una Scarlett 2i2 suma unos $300",
-          "Un suave boost de presencia ayuda a que la voz se escuche con claridad",
-          "Filtro antipop integrado y construcción robusta sin accesorios extra",
-          "Comprar varias SM58 es mucho más económico que equipar a todos con SM7B"
+          "Por $99 es el mejor punto de entrada — con una interfaz totaliza unos $300",
+          "El ligero realce de presencia ayuda a que la voz se escuche con claridad",
+          "El filtro antipop integrado y la construcción resistente no necesitan accesorios extra",
+          "Comprar varios SM58 es mucho más económico que equipar a todos con SM7B"
         ],
         "cons": [
-          "Its spherical pop filter adds a slight warm coloration — some swap in an SM57 grille for more highs",
+          "Its spherical pop filter adds a slight warm coloration",
           "Still needs an interface or mixer for its XLR connection",
-          "The SM7B and NT1 resolve more detail at the top end",
-          "Its 50 Hz–15 kHz response rolls off the top end sooner than the SM7B's 20 kHz — less sparkle on air",
-          "The SM58's $99 price doesn't include a shock mount — desk noise transfers through a standard clamp"
+          "The SM7B and Procaster resolve more detail at the top end",
+          "Its 50 Hz–15 kHz response rolls off the top end sooner than broadcast mics",
+          "The $99 price doesn’t include a shock mount — desk noise transfers through a clamp"
         ],
         "cons_es": [
-          "Su filtro antipop esférico añade una ligera coloración cálida — algunos cambian la rejilla por la de SM57 para más agudos",
-          "Sigue necesitando una interfaz o mezclador para su conexión XLR",
-          "La SM7B y la NT1 resuelven más detalle en el extremo superior",
-          "Su respuesta de 50 Hz–15 kHz recorta los agudos antes que los 20 kHz de la SM7B — menos brillo al aire",
-          "Los $99 de la SM58 no incluyen soporte antivibración — el ruido de escritorio se transfiere por una pinza normal"
+          "Su filtro antipop esférico añade una ligera coloración cálida",
+          "Aún necesita una interfaz o mezclador para su conexión XLR",
+          "El SM7B y el Procaster resuelven más detalle en la parte alta",
+          "Su respuesta de 50 Hz–15 kHz corta la parte alta antes que los mics de difusión",
+          "El precio de $99 no incluye un soporte antigolpes — el ruido del escritorio se transfiere por la pinza"
+        ]
+      },
+      {
+        "name": "Rode PodMic",
+        "name_es": "Rode PodMic",
+        "pros": [
+          "Built specifically for podcasting — internal pop filter and integrated swing mount",
+          "Warm, broadcast-tuned tone with a slightly richer low end than the SM58",
+          "The included mount saves buying hardware separately",
+          "Proven value at $99 — 4.7/5 from 17,000+ reviews"
+        ],
+        "pros_es": [
+          "Construido específicamente para podcasting — filtro antipop y soporte oscilante integrados",
+          "Tono cálido sintonizado para difusión con un extremo grave ligeramente más rico que el SM58",
+          "El soporte incluido ahorra comprar hardware por separado",
+          "Valor probado por $99 — 4.7/5 con más de 17,000 reseñas"
+        ],
+        "cons": [
+          "Gain-hungry — wants a clean 60dB from the interface",
+          "At 937g it’s heavy — needs a properly rated boom arm",
+          "Still needs an interface for its XLR connection",
+          "Slight proximity effect can get boomy if you work too close"
+        ],
+        "cons_es": [
+          "Hambriento de ganancia — quiere unos 60dB limpios de la interfaz",
+          "Con 937g es pesado — necesita un brazo articulado de buena calidad",
+          "Aún necesita una interfaz para su conexión XLR",
+          "El ligero efecto de proximidad puede sonar grave si trabajas muy cerca"
+        ]
+      },
+      {
+        "name": "Rode Procaster",
+        "name_es": "Rode Procaster",
+        "pros": [
+          "Full-size broadcast timbre — a real step up from the SM58/PodMic",
+          "Tight cardioid rejects room noise, forgiving in untreated spaces",
+          "Internal pop filter and shock mounting built in",
+          "10-year warranty and all-metal build"
+        ],
+        "pros_es": [
+          "Timbre de difusión a tamaño completo — un verdadero paso adelante del SM58/PodMic",
+          "Cardioide estrecho que rechaza el ruido de la sala, indulgente en espacios sin tratamiento",
+          "Filtro antipop y montaje antigolpes internos",
+          "Garantía de 10 años y construcción totalmente metálica"
+        ],
+        "cons": [
+          "Gain-hungry — wants 60dB+ of clean gain or it hisses",
+          "Heavy and long — needs a solid boom arm (none included)",
+          "No stand or shock mount included in the box",
+          "75 Hz–18 kHz response is speech-tuned, not for instruments"
+        ],
+        "cons_es": [
+          "Hambriento de ganancia — quiere 60dB+ de ganancia limpia o sisea",
+          "Pesado y largo — necesita un brazo articulado sólido (ninguno incluido)",
+          "No incluye soporte ni suspensión en la caja",
+          "La respuesta de 75 Hz–18 kHz está adaptada a la voz, no a instrumentos"
+        ]
+      },
+      {
+        "name": "Shure SM7B",
+        "name_es": "Shure SM7B",
+        "pros": [
+          "Warm, flat frequency response with a gentle presence boost for natural broadcast voice",
+          "Built-in pop filter and shock mount save on accessories",
+          "Off-axis rejection that keeps untreated home rooms out of the recording",
+          "The mic you see on most professional podcasts"
+        ],
+        "pros_es": [
+          "Respuesta de frecuencia cálida y plana con un suave realce de presencia para voz de difusión natural",
+          "El filtro antipop y el soporte antigolpes integrados ahorran accesorios",
+          "Rechazo fuera de eje que mantiene las habitaciones sin tratamiento fuera de la grabación",
+          "El micrófono que ves en la mayoría de los podcasts profesionales"
+        ],
+        "cons": [
+          "Needs around 60–70dB of clean gain — a Cloudlifter ($149) is basically required",
+          "The full rig (SM7B + Cloudlifter + interface) runs about $750",
+          "It’s heavy and needs a properly rated boom arm rather than a cheap clamp",
+          "No USB output — the NT1 and hybrid mics record straight to a laptop without an interface",
+          "Its 50 Hz–20 kHz response is narrower than the NT1’s 20 Hz–20 kHz"
+        ],
+        "cons_es": [
+          "Necesita unos 60–70dB de ganancia limpia — un Cloudlifter ($149) es básicamente obligatorio",
+          "El equipo completo (SM7B + Cloudlifter + interfaz) ronda los $750",
+          "Es pesado y necesita un brazo articulado de buena calidad en lugar de una pinza barata",
+          "Sin salida USB — el NT1 y los híbridos graban directo a un portátil sin interfaz",
+          "Su respuesta de 50 Hz–20 kHz es más estrecha que la de 20 Hz–20 kHz del NT1"
         ]
       },
       {
         "name": "Rode NT1 5th Generation",
-        "name_es": "Rode NT1 5ª Generación",
+        "name_es": "Rode NT1 5th Generation",
         "pros": [
           "4 dBA self-noise — lower than any dynamic microphone",
-          "Captures a level of detail dynamics can't match in its price range",
+          "Captures a level of detail dynamics can’t match in its price range",
           "Includes a shock mount and pop filter that cost extra elsewhere",
           "Dual XLR/USB output works without an interface, often on sale for $229"
         ],
         "pros_es": [
-          "4 dBA de ruido propio — inferior al de cualquier micrófono dinámico",
-          "Captura un nivel de detalle que los dinámicos no alcanzan en su rango de precio",
-          "Incluye soporte antivibración y filtro antipop que en otros cuestan extra",
-          "Salida dual XLR/USB que funciona sin interfaz, a menudo en oferta por $229"
+          "4 dBA de ruido propio — más bajo que cualquier micrófono dinámico",
+          "Captura un nivel de detalle que los dinámicos no pueden igualar en su rango de precio",
+          "Incluye soporte antigolpes y filtro antipop que cuestan extra en otros",
+          "Salida dual XLR/USB funciona sin interfaz, a menudo en oferta por $229"
         ],
         "cons": [
           "Your room must be acoustically treated — it captures every reverb, fan, and hum",
           "In an untreated room the result is hollow and amateurish",
           "As a condenser it needs 48V phantom power from the interface",
-          "32-bit float only pays off in software that supports it — some DAWs still cap out at 24-bit files",
-          "At $269 it's $170 above the SM58, and its extra detail is wasted until the room is treated"
+          "32-bit float only pays off in software that supports it — some DAWs still cap at 24-bit",
+          "At $269 it’s $170 above the SM58, and its extra detail is wasted until the room is treated"
         ],
         "cons_es": [
-          "Tu habitación debe tener tratamiento acústico — captura cada reverberación, ventilador y zumbido",
-          "En una habitación sin tratar el resultado es hueco y amateur",
-          "Como condensador necesita 48V de alimentación phantom desde la interfaz",
-          "El float de 32 bits solo se aprovecha en software que lo soporte — algunos DAWs siguen con un máximo de archivos de 24 bits",
-          "A $269 cuesta $170 más que la SM58, y su detalle extra se desperdicia hasta que la sala tenga tratamiento"
-        ]
-      },
-      {
-        "name": "Focusrite Scarlett 2i2 4th Gen",
-        "name_es": "Focusrite Scarlett 2i2 4.ª Generación",
-        "pros": [
-          "Two mic preamps with 48V phantom — the modular core of an XLR podcast setup",
-          "2-in/2-out lets you add a co-host with one more mic later",
-          "Air mode adds presence for voice and loopback helps streaming",
-          "With an SM58 it makes a ~$300 entry point"
-        ],
-        "pros_es": [
-          "Dos previos de micrófono con phantom de 48V — el núcleo modular de un setup XLR de podcast",
-          "Sus 2 entradas y 2 salidas te permiten sumar un co-presentador con un micrófono más",
-          "El modo Air añade presencia a la voz y el loopback ayuda al streaming",
-          "Con una SM58 conforma un punto de entrada de unos $300"
-        ],
-        "cons": [
-          "An XLR setup costs more upfront than a USB mic",
-          "You have to learn gain staging to get the most out of it",
-          "Two inputs max — a three-plus-person roundtable needs a bigger interface",
-          "No DSP or effects on the hardware path — monitoring is clean but plain, with no onboard EQ or reverb",
-          "A single headphone output means a co-host needs a splitter — the Wave XLR Pro offers two independent headphone outs"
-        ],
-        "cons_es": [
-          "Un setup XLR cuesta más por adelantado que un micrófono USB",
-          "Tienes que aprender gain staging para sacarle todo el partido",
-          "Dos entradas como máximo — una mesa redonda de tres o más personas necesita una interfaz mayor",
-          "Sin DSP ni efectos en la vía de hardware — el monitoreo es limpio pero plano, sin EQ ni reverb integrados",
-          "Una sola salida de auriculares obliga a usar un divisor para el co-presentador — la Wave XLR Pro ofrece dos salidas independientes"
-        ]
-      },
-      {
-        "name": "Elgato Wave XLR Pro",
-        "name_es": "Elgato Wave XLR Pro",
-        "pros": [
-          "Two XLR preamps with 80dB of clean gain each — drives an SM7B without a Cloudlifter",
-          "Five independent hardware mixes with zero-latency monitoring",
-          "48V phantom, Clipguard 2.0, VST plugin support, and standalone mode",
-          "Two headphone outputs let a co-host monitor their own mix"
-        ],
-        "pros_es": [
-          "Dos previos XLR con 80dB de ganancia limpia cada uno — mueve un SM7B sin Cloudlifter",
-          "Cinco mezclas de hardware independientes con monitoreo de latencia cero",
-          "48V phantom, Clipguard 2.0, soporte de plugins VST y modo independiente",
-          "Dos salidas de auriculares para que un co-presentador escuche su propia mezcla"
-        ],
-        "cons": [
-          "No physical faders or knobs — control lives in Wave Link or a Stream Deck",
-          "At $350 it costs well more than a Scarlett 2i2 for solo podcasters",
-          "VST plugins drop out in standalone mode (they need the host computer)",
-          "At $350 it costs $151 more than the Scarlett 2i2 and still tops out at two XLR inputs — the premium is software and mixes, not more channels",
-          "The zero-latency monitoring depends on Wave Link running — a different DAW can't use the five hardware mixes"
-        ],
-        "cons_es": [
-          "Sin faders ni perillas físicas — el control vive en Wave Link o un Stream Deck",
-          "A $350 cuesta bastante más que una Scarlett 2i2 para podcasters solitarios",
-          "Los plugins VST se apagan en modo independiente (necesitan la computadora)",
-          "A $350 cuesta $151 más que la Scarlett 2i2 y sigue limitado a dos entradas XLR — la prima está en el software y las mezclas, no en más canales",
-          "El monitoreo de latencia cero depende de que Wave Link esté abierto — un DAW distinto no puede usar las cinco mezclas de hardware"
+          "Tu sala debe tener tratamiento acústico — captura cada reverberación, ventilador y zumbido",
+          "En una sala sin tratamiento el resultado es hueco y poco profesional",
+          "Como condensador necesita alimentación fantasma de 48V desde la interfaz",
+          "El 32-bit float solo se aprovecha en software que lo soporte — algunos DAWs aún limitan a 24-bit",
+          "Por $269 está $170 por encima del SM58, y su detalle extra se desperdicia hasta tratar la sala"
         ]
       }
     ],
