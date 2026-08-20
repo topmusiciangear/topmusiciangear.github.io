@@ -62613,23 +62613,23 @@
           "values": [
             {
               "value": "Dynamic",
-              "value_es": "Dynamic"
+              "value_es": "Dinámico"
             },
             {
               "value": "Dynamic",
-              "value_es": "Dynamic"
+              "value_es": "Dinámico"
             },
             {
               "value": "Condenser",
-              "value_es": "Condenser"
+              "value_es": "Condensador"
             },
             {
               "value": "Dynamic",
-              "value_es": "Dynamic"
+              "value_es": "Dinámico"
             },
             {
               "value": "Dynamic",
-              "value_es": "Dynamic"
+              "value_es": "Dinámico"
             },
             {
               "value": "Condenser (supercardioid)",
@@ -62637,23 +62637,23 @@
             },
             {
               "value": "Condenser",
-              "value_es": "Condenser"
+              "value_es": "Condensador"
             },
             {
               "value": "Condenser",
-              "value_es": "Condenser"
+              "value_es": "Condensador"
             },
             {
               "value": "Condenser",
-              "value_es": "Condenser"
+              "value_es": "Condensador"
             },
             {
               "value": "Condenser",
-              "value_es": "Condenser"
+              "value_es": "Condensador"
             },
             {
               "value": "Condenser",
-              "value_es": "Condenser"
+              "value_es": "Condensador"
             }
           ]
         },
@@ -62663,23 +62663,23 @@
           "values": [
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Supercardioid",
@@ -62687,23 +62687,23 @@
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
-              "value_es": "Cardioid"
+              "value_es": "Cardioide"
             }
           ]
         },
@@ -62858,6 +62858,406 @@
           ]
         },
         {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "-54 dBV/Pa",
+              "value_es": "-54 dBV/Pa"
+            },
+            {
+              "value": "XLR: -52 dBV/Pa (2.5 mV/Pa); USB: -10.5 dBFS/Pa",
+              "value_es": "XLR: -52 dBV/Pa (2,5 mV/Pa); USB: -10,5 dBFS/Pa"
+            },
+            {
+              "value": "-7.8 dB (1 V/Pa at 1 kHz)",
+              "value_es": "-7,8 dB (1 V/Pa a 1 kHz)"
+            },
+            {
+              "value": "-50 dBV",
+              "value_es": "-50 dBV"
+            },
+            {
+              "value": "-50 dB",
+              "value_es": "-50 dB"
+            },
+            {
+              "value": "-36 dB (1 V/Pa at 1 kHz)",
+              "value_es": "-36 dB (1 V/Pa a 1 kHz)"
+            },
+            {
+              "value": "-40 dB",
+              "value_es": "-40 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "-38 dB (0 dB = 1 V/Pa at 1 kHz)",
+              "value_es": "-38 dB (0 dB = 1 V/Pa a 1 kHz)"
+            },
+            {
+              "value": "-13.5 to +0.5 dBFS (94 dB SPL at 1 kHz)",
+              "value_es": "-13,5 a +0,5 dBFS (94 dB SPL a 1 kHz)"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido Propio",
+          "values": [
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
+            },
+            {
+              "value": "≤ -79.5 dBFS (A-weighted)",
+              "value_es": "≤ -79,5 dBFS (ponderado A)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Máximo",
+          "values": [
+            {
+              "value": "148 dB SPL",
+              "value_es": "148 dB SPL"
+            },
+            {
+              "value": ">130 dB SPL",
+              "value_es": ">130 dB SPL"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "130 dB SPL",
+              "value_es": "130 dB SPL"
+            },
+            {
+              "value": "120 dB SPL",
+              "value_es": "120 dB SPL"
+            },
+            {
+              "value": "110 dB SPL",
+              "value_es": "110 dB SPL"
+            },
+            {
+              "value": "110 dB SPL",
+              "value_es": "110 dB SPL"
+            },
+            {
+              "value": "121 dBA (at 1% THD)",
+              "value_es": "121 dBA (al 1% THD)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "110 dB SPL (<1% THD at 1 kHz)",
+              "value_es": "110 dB SPL (<1% THD a 1 kHz)"
+            },
+            {
+              "value": "93.5 dB SPL",
+              "value_es": "93,5 dB SPL"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": ">80 dB",
+              "value_es": ">80 dB"
+            },
+            {
+              "value": ">80 dB",
+              "value_es": ">80 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "70 dB",
+              "value_es": "70 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "56 dB",
+              "value_es": "56 dB"
+            },
+            {
+              "value": "60 dB",
+              "value_es": "60 dB"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Dynamic moving coil",
+              "value_es": "Dinámico de bobina móvil"
+            },
+            {
+              "value": "Dynamic moving coil",
+              "value_es": "Dinámico de bobina móvil"
+            },
+            {
+              "value": "14 mm electret condenser",
+              "value_es": "Condensador electret de 14 mm"
+            },
+            {
+              "value": "Dynamic moving coil",
+              "value_es": "Dinámico de bobina móvil"
+            },
+            {
+              "value": "Dynamic moving coil",
+              "value_es": "Dinámico de bobina móvil"
+            },
+            {
+              "value": "14 mm condenser",
+              "value_es": "Condensador de 14 mm"
+            },
+            {
+              "value": "16 mm condenser",
+              "value_es": "Condensador de 16 mm"
+            },
+            {
+              "value": "Electret condenser",
+              "value_es": "Condensador electret"
+            },
+            {
+              "value": "Condenser (size not published)",
+              "value_es": "Condensador (tamaño no publicado)"
+            },
+            {
+              "value": "Condenser (size not disclosed)",
+              "value_es": "Condensador (tamaño no revelado)"
+            },
+            {
+              "value": "14 mm condenser",
+              "value_es": "Condensador de 14 mm"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Fantasma",
+          "values": [
+            {
+              "value": "None required (dynamic); USB bus power",
+              "value_es": "No requiere (dinámico); alimentación por USB"
+            },
+            {
+              "value": "None required (dynamic); USB bus power",
+              "value_es": "No requiere (dinámico); alimentación por USB"
+            },
+            {
+              "value": "USB bus power (5 V)",
+              "value_es": "Alimentación por USB (5 V)"
+            },
+            {
+              "value": "None required (dynamic); USB bus power",
+              "value_es": "No requiere (dinámico); alimentación por USB"
+            },
+            {
+              "value": "None required (dynamic); USB bus power",
+              "value_es": "No requiere (dinámico); alimentación por USB"
+            },
+            {
+              "value": "USB bus power (5 V)",
+              "value_es": "Alimentación por USB (5 V)"
+            },
+            {
+              "value": "USB bus power (5 V)",
+              "value_es": "Alimentación por USB (5 V)"
+            },
+            {
+              "value": "USB bus power",
+              "value_es": "Alimentación por USB"
+            },
+            {
+              "value": "USB bus power",
+              "value_es": "Alimentación por USB"
+            },
+            {
+              "value": "USB bus power (5 V)",
+              "value_es": "Alimentación por USB (5 V)"
+            },
+            {
+              "value": "USB bus power",
+              "value_es": "Alimentación por USB"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "190 × 55 mm",
+              "value_es": "190 × 55 mm"
+            },
+            {
+              "value": "55 × 160 mm",
+              "value_es": "55 × 160 mm"
+            },
+            {
+              "value": "152 × 53 × 53 mm",
+              "value_es": "152 × 53 × 53 mm"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "85 × 126 × 245 mm (with stand)",
+              "value_es": "85 × 126 × 245 mm (con soporte)"
+            },
+            {
+              "value": "Ø56 × 162 mm",
+              "value_es": "Ø56 × 162 mm"
+            },
+            {
+              "value": "~176 × 96 × 179 mm (with stand)",
+              "value_es": "~176 × 96 × 179 mm (con soporte)"
+            },
+            {
+              "value": "54.5 × 43.9 × 108.1 mm",
+              "value_es": "54,5 × 43,9 × 108,1 mm"
+            },
+            {
+              "value": "62 × 42 × 118 mm",
+              "value_es": "62 × 42 × 118 mm"
+            },
+            {
+              "value": "150 × 45 × 30 mm",
+              "value_es": "150 × 45 × 30 mm"
+            },
+            {
+              "value": "170 × 52 mm",
+              "value_es": "170 × 52 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "320 g (0.7 lb)",
+              "value_es": "320 g (0,7 lb)"
+            },
+            {
+              "value": "314 g",
+              "value_es": "314 g"
+            },
+            {
+              "value": "366 g (12.9 oz)",
+              "value_es": "366 g (12,9 oz)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "599 g",
+              "value_es": "599 g"
+            },
+            {
+              "value": "~235 g",
+              "value_es": "~235 g"
+            },
+            {
+              "value": "~500 g",
+              "value_es": "~500 g"
+            },
+            {
+              "value": "585 g",
+              "value_es": "585 g"
+            },
+            {
+              "value": "492 g",
+              "value_es": "492 g"
+            },
+            {
+              "value": "~380 g (with stand)",
+              "value_es": "~380 g (con soporte)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
           "label": "On-Mic Controls",
           "label_es": "Controles en el Micrófono",
           "values": [
@@ -62913,11 +63313,11 @@
           "values": [
             {
               "value": "Yes",
-              "value_es": "Yes"
+              "value_es": "Sí"
             },
             {
               "value": "Yes",
-              "value_es": "Yes"
+              "value_es": "Sí"
             },
             {
               "value": "No",
@@ -62929,7 +63329,7 @@
             },
             {
               "value": "Yes",
-              "value_es": "Yes"
+              "value_es": "Sí"
             },
             {
               "value": "No",
@@ -62941,11 +63341,11 @@
             },
             {
               "value": "Yes",
-              "value_es": "Yes"
+              "value_es": "Sí"
             },
             {
               "value": "Yes",
-              "value_es": "Yes"
+              "value_es": "Sí"
             },
             {
               "value": "No",
