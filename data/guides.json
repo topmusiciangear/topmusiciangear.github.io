@@ -12455,8 +12455,8 @@
               "value_es": "Subwoofer activo"
             },
             {
-              "value": "Powered subwoofer (down-firing)",
-              "value_es": "Subwoofer activo (orientado hacia abajo)"
+              "value": "Powered subwoofer (side-firing woofers)",
+              "value_es": "Subwoofer activo (woofers laterales)"
             },
             {
               "value": "Powered subwoofer (down-firing)",
@@ -12481,8 +12481,8 @@
               "value_es": "10\""
             },
             {
-              "value": "10\"",
-              "value_es": "10\""
+              "value": "2 x 6.5\"",
+              "value_es": "2 x 6.5\""
             },
             {
               "value": "6.5\" + 2 passive radiators",
@@ -12495,20 +12495,20 @@
           "label_es": "Potencia",
           "values": [
             {
-              "value": "100W",
-              "value_es": "100W"
+              "value": "160W Class-D",
+              "value_es": "160W Clase-D"
             },
             {
               "value": "150W",
               "value_es": "150W"
             },
             {
-              "value": "140W",
-              "value_es": "140W"
+              "value": "130W Class-D",
+              "value_es": "130W Clase-D"
             },
             {
-              "value": "200W Class-D",
-              "value_es": "200W Clase-D"
+              "value": "400W Class-D (1000W peak)",
+              "value_es": "400W Clase-D (1000W pico)"
             },
             {
               "value": "160W RMS (200W peak)",
@@ -12533,8 +12533,8 @@
               "value_es": "28 Hz – 120 Hz"
             },
             {
-              "value": "27 Hz – 120 Hz",
-              "value_es": "27 Hz – 120 Hz"
+              "value": "27 Hz – 200 Hz (-10 dB)",
+              "value_es": "27 Hz – 200 Hz (-10 dB)"
             },
             {
               "value": "25 Hz – 150 Hz (-6 dB)",
@@ -12547,16 +12547,16 @@
           "label_es": "Frecuencia de Cruce",
           "values": [
             {
-              "value": "50 – 95 Hz (adjustable)",
-              "value_es": "50 – 95 Hz (ajustable)"
+              "value": "60 – 90 Hz (4-position switch)",
+              "value_es": "60 – 90 Hz (interruptor de 4 posiciones)"
             },
             {
               "value": "80 – 120 Hz (adjustable)",
               "value_es": "80 – 120 Hz (ajustable)"
             },
             {
-              "value": "50 – 125 Hz (adjustable)",
-              "value_es": "50 – 125 Hz (ajustable)"
+              "value": "80 Hz / 120 Hz / Bypass",
+              "value_es": "80 Hz / 120 Hz / Bypass"
             },
             {
               "value": "80 Hz / XLF / External",
@@ -12585,8 +12585,8 @@
               "value_es": "$399"
             },
             {
-              "value": "$399",
-              "value_es": "$399"
+              "value": "$499",
+              "value_es": "$499"
             },
             {
               "value": "$599",
