@@ -974,10 +974,11 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/KandM-26722-Monitor-Stand/5EY5",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Koenig-Meyer-26722-Monitor-stand/art-REC0016508-000",
       "andertons": "https://www.andertons.co.uk/km-26720-steel-monitor-stand-with-3-leg-base-black/",
-      "reverb": "https://reverb.com/en-ro/item/59522048-k-m-26720-studio-monitor-stand-black",
       "zzounds": "https://www.zzounds.com/a--925521/item--KMS26754"
     },
-    "excludeStores": []
+    "excludeStores": [
+      "reverb"
+    ]
   },
   {
     "id": 60,
@@ -1732,9 +1733,11 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Image-Line-FL-Studio-Producer-Edition/3NL2",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FImageline-FL-Studio-Producer-Edition-License-Code%2Fart-PCM0015006-000",
       "amazon": "https://www.amazon.com/dp/B07C895FTM",
-      "reverb": "https://reverb.com/item/85294728-fl-studio-producer-edition-21-2-daw-software-download",
       "zzounds": "https://www.zzounds.com/a--925521/item--IMGFLSTUDIO20PR"
-    }
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   },
   {
     "id": 113,
@@ -1754,10 +1757,12 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAvid-Pro-Tools-Studio-Perpetual-License-Code%2Fart-PCM0015649-000",
       "pluginboutique": "https://www.pluginboutique.com/products/12146-Pro-Tools-Studio-Perpetual-License?a_aid=6a01e859cbe1a",
       "amazon": "https://www.amazon.com/Avid-Pro-Tools-Production-Software/dp/B08KSRDGWV",
-      "reverb": "https://reverb.com/item/86118309-avid-pro-tools-studio-annual-subscription-daw-software",
       "andertons": "https://www.andertons.co.uk/avid-pro-tools-perpetual-license-w-1-year-of-upgrades-support-renewable-annually-esd/",
       "zzounds": "https://www.zzounds.com/a--925521/item--AVDPROTOOLSPERP"
-    }
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   },
   {
     "id": 114,
@@ -1777,9 +1782,11 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSteinberg-Cubase-Pro-15%2Fart-PCM0018659-000",
       "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/16169-Cubase-Pro-15?a_aid=6a01e859cbe1a",
       "amazon": "https://www.amazon.com/Steinberg-Cubase-Pro-Download-Card/dp/B0DMTW1QWN",
-      "reverb": "https://reverb.com/item/85760285-steinberg-cubase-pro-15-daw-software-download",
       "zzounds": "https://www.zzounds.com/a--925521/item--STECUBASEPRO"
-    }
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   },
   {
     "id": 115,
@@ -3995,10 +4002,11 @@
     "desc_es": "Monitor activo de tres vías construido a mano con el legendario rango medio de domo suave SM75-150 de ATC. El woofer de 6.5\", el medio de domo suave y el nuevo tweeter de suspensión dual ofrecen la claridad de medios sobre la que se construyen las salas de mezcla. Hecho a mano en Inglaterra.",
     "img": "https://atc.audio/wp-content/uploads/2025/11/SCM25A-Pro_anglesgreenlight-2000x704.jpg",
     "stores": {
-      "reverb": "https://reverb.com/item/90556566"
+      "official": "https://atc.audio/en/professional/loudspeakers/scm25a-pro-mk2/"
     },
     "excludeStores": [
-      "zzounds"
+      "zzounds",
+      "reverb"
     ]
   },
   {
@@ -5189,14 +5197,14 @@
     "desc_es": "El AmpliTank K688 es un micrófono dinámico USB/XLR estilo broadcast con cuerpo metálico sólido y una gran rejilla de aspecto vintage. Incluye suspensión, filtro antipop y soporte de escritorio, y la cápsula dinámica cardioide mantiene las voces cálidas y libres de eco de la sala. La salida USB funciona al instante en cualquier computadora mientras que la salida XLR te permite pasar a una mesa o interfaz más adelante.",
     "img": "https://m.media-amazon.com/images/I/81nLaAZKKrL._AC_SL1500_.jpg",
     "stores": {
-      "amazon": "https://www.amazon.com/dp/B0B8SNVK5K",
-      "reverb": "https://reverb.com/item/84454808-fifine-amplitank-k688-fifine-amplitank-k688-new-black"
+      "amazon": "https://www.amazon.com/dp/B0B8SNVK5K"
     },
     "excludeStores": [
       "andertons",
       "musicstore",
       "zzounds",
-      "gear4music"
+      "gear4music",
+      "reverb"
     ]
   },
   {
