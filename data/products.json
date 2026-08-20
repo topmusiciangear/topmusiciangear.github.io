@@ -274,16 +274,16 @@
   },
   {
     "id": 14,
-    "title": "Native Instruments Komplete Kontrol S61 MK3",
-    "title_es": "Native Instruments Komplete Kontrol S61 MK3",
+    "title": "Native Instruments Kontrol S61 MK3",
+    "title_es": "Native Instruments Kontrol S61 MK3",
     "brand": "Native Instruments",
     "category": "keyboards",
     "price": 849,
     "rating": 4.6,
     "reviews": 6789,
     "badge": "recommended",
-    "desc": "The Komplete Kontrol S61 MK3 is a 61-key smart controller built around the Native Instruments ecosystem. The 2-in-1 LED light guide shows scales and chords, the NKS browser with tag search finds any sound fast, and the smart play features make melody and chord ideas flow. Premium Fatar keybed, pitch and mod wheels, and deep integration with Komplete, Logic and Ableton.",
-    "desc_es": "El Komplete Kontrol S61 MK3 es un controlador inteligente de 61 teclas construido alrededor del ecosistema Native Instruments. La guía de luces LED 2 en 1 muestra escalas y acordes, el navegador NKS con búsqueda por etiquetas encuentra cualquier sonido rápido, y las funciones smart play hacen fluir las ideas de melodía y acordes. Teclado Fatar premium, ruedas de pitch y mod, e integración profunda con Komplete, Logic y Ableton.",
+    "desc": "The Kontrol S61 MK3 is a 61-key smart controller built around the Native Instruments ecosystem. The 2-in-1 LED light guide shows scales and chords, the NKS browser with tag search finds any sound fast, and the smart play features make melody and chord ideas flow. Premium Fatar keybed, pitch and mod wheels, and deep integration with Komplete, Logic and Ableton.",
+    "desc_es": "El Kontrol S61 MK3 es un controlador inteligente de 61 teclas construido alrededor del ecosistema Native Instruments. La guía de luces LED 2 en 1 muestra escalas y acordes, el navegador NKS con búsqueda por etiquetas encuentra cualquier sonido rápido, y las funciones smart play hacen fluir las ideas de melodía y acordes. Teclado Fatar premium, ruedas de pitch y mod, e integración profunda con Komplete, Logic y Ableton.",
     "img": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/3421/104168/Kontrol-S61-1%202024__13041.1718281124.jpg?c=1",
     "stores": {
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNative-Instruments-KONTROL-S61-MK3%2Fart-SYN0008775-000",
@@ -6000,7 +6000,10 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--STBBOES6",
       "andertons": "https://www.andertons.co.uk/strandberg-boden-essential-6-black-granite-pbd6ctersbk-1/"
     },
-    "excludeStores": ["gear4music", "musicstore"]
+    "excludeStores": [
+      "gear4music",
+      "musicstore"
+    ]
   },
   {
     "id": 318,
@@ -6104,6 +6107,66 @@
       "amazon": "https://www.amazon.co.uk/Neumann-TLM-102-MT-Microphone/dp/B003HGJAL4",
       "andertons": "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-black-finish/",
       "zzounds": "https://www.zzounds.com/a--925521/item--NEUTLM102"
+    }
+  },
+  {
+    "id": 323,
+    "title": "Akai MPK Mini MK4",
+    "title_es": "Akai MPK Mini MK4",
+    "brand": "Akai",
+    "category": "keyboards",
+    "price": 99,
+    "rating": 4.7,
+    "reviews": 21000,
+    "badge": "bestSeller",
+    "desc": "The best-selling compact MIDI controller. 25 velocity-sensitive mini keys, 8 MPC-style RGB pads, real pitch and mod wheels, a full-colour screen and over 1,000 bundled sounds from AIR, Akai Pro and Moog. USB-C with a 5-pin MIDI output for DAW-less hardware.",
+    "desc_es": "El controlador MIDI compacto más vendido. 25 mini teclas sensibles a la velocidad, 8 pads RGB estilo MPC, ruedas reales de pitch y mod, pantalla a color y más de 1,000 sonidos incluidos de AIR, Akai Pro y Moog. USB-C con salida MIDI de 5 pines para hardware sin DAW.",
+    "img": "https://cdn.builder.io/api/v1/image/assets%2F47c5d023e7b3451a86ac03602c65dce8%2F885b614866794245aed0bd99c590bba2",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPK-Mini-MK4-Compact-MIDI-Keyboard-and-Pad-Controller-Black/7JND",
+      "musicstore": "https://www.musicstore.com/en_US/USD/AKAI-Professional-MPK-mini-IV-Black/art-SYN0009383-000",
+      "amazon": "https://www.amazon.com/Akai-Professional-Controller-Beginners-Producers/dp/B0FT3C66LB",
+      "andertons": "https://www.andertons.co.uk/akai-mpk-mini-4-in-grey/"
+    }
+  },
+  {
+    "id": 324,
+    "title": "Novation Launchkey Mini 25 MK4",
+    "title_es": "Novation Launchkey Mini 25 MK4",
+    "brand": "Novation",
+    "category": "keyboards",
+    "price": 129.99,
+    "rating": 4.8,
+    "reviews": 6800,
+    "badge": "recommended",
+    "desc": "The portable DAW controller for Ableton Live and beyond. 25 synth-action mini keys, 16 velocity-sensitive FSR pads with polyphonic aftertouch, 8 encoders, OLED display, and chord and scale modes. Deep out-of-the-box integration with every major DAW.",
+    "desc_es": "El controlador DAW portátil para Ableton Live y más. 25 mini teclas de acción de sintetizador, 16 pads FSR sensibles a la velocidad con aftertouch polifónico, 8 encoders, pantalla OLED y modos de acordes y escalas. Integración profunda lista para usar con todos los DAW importantes.",
+    "img": "https://cdn11.bigcommerce.com/s-itgb7ssiy1/images/stencil/1280x1280/products/285/829/LKM25-MKIV-Straight-Top-2400-2400__84045.1727450226.png?c=1",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Novation-Launchkey-Mini-25-MK4/6GXP",
+      "amazon": "https://www.amazon.com/Novation-Launchkey-Mini-MK4-Integration/dp/B0D6Z15H4N",
+      "andertons": "https://www.andertons.co.uk/novation-launchkey-25-mk4-mini-key-daw-controller-keyboard/",
+      "zzounds": "https://www.zzounds.com/item--NOVLNCHKEYMINI25"
+    }
+  },
+  {
+    "id": 325,
+    "title": "M-Audio Hammer 88",
+    "title_es": "M-Audio Hammer 88",
+    "brand": "M-Audio",
+    "category": "keyboards",
+    "price": 499,
+    "rating": 4.5,
+    "reviews": 1500,
+    "badge": null,
+    "desc": "The affordable way to get a real piano feel in your studio. 88 fully-weighted hammer-action keys, pitch and mod wheels, sustain, soft and expression pedal inputs, and 4 zones for layering and splits. USB-powered and class-compliant with a 5-pin MIDI output.",
+    "desc_es": "La forma asequible de conseguir un tacto de piano real en tu estudio. 88 teclas con acción de martillo completamente ponderadas, ruedas de pitch y mod, entradas de pedal sustain, soft y expresión, y 4 zonas para capas y splits. Alimentado por USB y compatible con salida MIDI de 5 pines.",
+    "img": "https://r2.gear4music.com/media/72/729136/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/M-Audio-Hammer-88-USB-Controller/1ZSD",
+      "musicstore": "https://www.musicstore.com/en_US/USD/M-Audio-Hammer-88/art-SYN0006000-000",
+      "amazon": "https://www.amazon.com/dp/B082BKX8X9",
+      "zzounds": "https://www.zzounds.com/a--925521/item--MDOHAMMER88"
     }
   }
 ]
