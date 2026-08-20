@@ -2867,6 +2867,24 @@
         "products": [
           199
         ]
+      },
+      {
+        "heading": "Is the Genelec 8010A the Best Compact Reference Monitor?",
+        "heading_es": "¿Es el Genelec 8010A el Mejor Monitor de Referencia Compacto?",
+        "content": "<p><strong>The Genelec 8010A proves that reference-grade monitoring does not need a big box — this 3-inch nearfield delivers the same die-cast aluminum build and ±2.5 dB accuracy as Genelec's larger monitors in a package that fits anywhere.</strong> The ISS auto-standby cuts power when you step away, and the sealed enclosure keeps resonances out of the sound. Genelec's unit-to-unit consistency means what you hear on your pair matches what you hear in any other 8010A-equipped studio.</p><p><strong>The catch: </strong>the 3-inch woofer keeps the low end present but not deep, so bass-heavy mixes need a subwoofer. At $399 each it is also the priciest per-driver in this guide — you are paying for accuracy and precision, not output.</p>",
+        "content_es": "<p><strong>El Genelec 8010A demuestra que el monitoreo de grado de referencia no necesita una caja grande — este nearfield de 3 pulgadas entrega la misma construcción de aluminio fundido y precisión de ±2.5 dB que los monitores más grandes de Genelec en un paquete que cabe en cualquier lado.</strong> El auto-standby ISS corta la energía cuando te alejas, y el gabinete sellado mantiene las resonancias fuera del sonido. La consistencia de unidad a unidad de Genelec significa que lo que escuchas en tu par coincide con lo que escuchas en cualquier otro estudio equipado con 8010A.</p><p><strong>El inconveniente: </strong>el woofer de 3 pulgadas mantiene el low end presente pero no profundo, así que las mezclas con muchos graves necesitan un subwoofer. A $399 por unidad también es el más caro por driver de esta guía — pagas por precisión, no por volumen.</p>",
+        "products": [
+          303
+        ]
+      },
+      {
+        "heading": "Is the Neumann KH 80 DSP the Best DSP-Corrected Monitor?",
+        "heading_es": "¿Es el Neumann KH 80 DSP el Mejor Monitor con Corrección DSP?",
+        "content": "<p><strong>The Neumann KH 80 DSP is the most technically ambitious monitor in this guide — a 4.7-inch nearfield with the MMD waveguide from Neumann's 800 series and DSP that lets you tune the response to your room.</strong> With the MA 1 measurement microphone it auto-corrects itself in minutes, flattening the response at your listening position — the most effective fix for room problems short of acoustic treatment.</p><p><strong>The catch: </strong>at $549 each you will want the MA 1 alignment kit for full control, which pushes the total cost well past the other monitors here. It is the smartest buy if accuracy and adjustability matter more than budget.</p>",
+        "content_es": "<p><strong>El Neumann KH 80 DSP es el monitor técnicamente más ambicioso de esta guía — un nearfield de 4.7 pulgadas con el waveguide MMD de la serie 800 de Neumann y DSP que te permite ajustar la respuesta a tu sala.</strong> Con el micrófono de medición MA 1 se autocorrige en minutos, aplanando la respuesta en tu posición de escucha — el arreglo más efectivo para los problemas de sala aparte del tratamiento acústico.</p><p><strong>El inconveniente: </strong>a $549 por unidad querrás el kit de alineación MA 1 para control total, lo que eleva el costo final muy por encima del resto de monitores de esta guía. Es la compra más inteligente si la precisión y la ajustabilidad importan más que el presupuesto.</p>",
+        "products": [
+          305
+        ]
       }
     ],
     "conclusion": "Ultra-budget? JBL 305P MkII at $149 each leads its price category. Best value? The Kali LP-6 V2 with boundary EQ is the smartest $199 you'll spend. The KRK Rokit 7 G5 is the do-it-all option with DSP room correction. The Yamaha HS8 is the brutally honest industry standard. Want detail? The Adam A7V's ribbon tweeter reveals every transient. And for reference accuracy, the Kali IN-8 V2's coaxial point source delivers pro-grade imaging at a fraction of the price. Six monitors, six different strengths — pick the one that matches your room, your budget, and your ears. <p>For more monitor guides, check out our <a href=\"/guides/budget-monitors.html\">budget studio monitors guide</a>, <a href=\"/guides/pro-monitors.html\">professional studio monitors guide</a>, <a href=\"/guides/monitor-setup.html\">studio monitor setup guide</a>, <a href=\"/guides/studio-subwoofers.html\">studio subwoofer guide</a>, and our <a href=\"/guides/hs8-vs-rokit-7.html\">HS8 vs Rokit 7 comparison</a>.</p>",
@@ -2879,7 +2897,9 @@
       20,
       19,
       21,
-      199
+      199,
+      303,
+      305
     ],
     "relatedGuides": [
       "jbl-vs-kali",
@@ -2995,6 +3015,14 @@
         {
           "title": "Kali Audio IN-8 V2",
           "title_es": "Kali Audio IN-8 V2"
+        },
+        {
+          "title": "Genelec 8010A",
+          "title_es": "Genelec 8010A"
+        },
+        {
+          "title": "Neumann KH 80 DSP",
+          "title_es": "Neumann KH 80 DSP"
         }
       ],
       "rows": [
@@ -3025,6 +3053,14 @@
             {
               "value": "Full-range 3-way accuracy",
               "value_es": "Precisión de 3 vías de rango completo"
+            },
+            {
+              "value": "Ultra-compact reference monitoring",
+              "value_es": "Monitoreo de referencia ultracompacto"
+            },
+            {
+              "value": "DSP-corrected precision monitoring",
+              "value_es": "Monitoreo de precisión corregido por DSP"
             }
           ]
         },
@@ -3055,6 +3091,14 @@
             {
               "value": "3-way powered",
               "value_es": "Triamplificado de 3 vías"
+            },
+            {
+              "value": "2-way powered",
+              "value_es": "Biamplificado de 2 vías"
+            },
+            {
+              "value": "2-way powered DSP",
+              "value_es": "Biamplificado con DSP"
             }
           ]
         },
@@ -3085,6 +3129,14 @@
             {
               "value": "8\"",
               "value_es": "8\""
+            },
+            {
+              "value": "3\"",
+              "value_es": "3\""
+            },
+            {
+              "value": "4.7\"",
+              "value_es": "4.7\""
             }
           ]
         },
@@ -3115,6 +3167,14 @@
             {
               "value": "1\" + 4\" mid",
               "value_es": "1\" + 4\" medio"
+            },
+            {
+              "value": "0.75\"",
+              "value_es": "0.75\""
+            },
+            {
+              "value": "1\"",
+              "value_es": "1\""
             }
           ]
         },
@@ -3145,6 +3205,14 @@
             {
               "value": "140W (60W + 40W + 40W)",
               "value_es": "140W (60W + 40W + 40W)"
+            },
+            {
+              "value": "50W (25W + 25W)",
+              "value_es": "50W (25W + 25W)"
+            },
+            {
+              "value": "90W (45W + 45W)",
+              "value_es": "90W (45W + 45W)"
             }
           ]
         },
@@ -3175,6 +3243,14 @@
             {
               "value": "45 Hz – 21 kHz (±3 dB)",
               "value_es": "45 Hz – 21 kHz (±3 dB)"
+            },
+            {
+              "value": "74 Hz – 20 kHz (±2.5 dB)",
+              "value_es": "74 Hz – 20 kHz (±2.5 dB)"
+            },
+            {
+              "value": "53 Hz – 21 kHz (±1 dB)",
+              "value_es": "53 Hz – 21 kHz (±1 dB)"
             }
           ]
         },
@@ -3205,6 +3281,14 @@
             {
               "value": "117 dB",
               "value_es": "117 dB"
+            },
+            {
+              "value": "104 dB",
+              "value_es": "104 dB"
+            },
+            {
+              "value": "102 dB",
+              "value_es": "102 dB"
             }
           ]
         },
@@ -3235,36 +3319,52 @@
             {
               "value": "17.75 x 10 x 11.25 in",
               "value_es": "45.1 x 25.4 x 28.5 cm"
+            },
+            {
+              "value": "7.7 x 4.8 x 4.6 in",
+              "value_es": "19.5 x 12.1 x 11.6 cm"
+            },
+            {
+              "value": "10.2 x 7.7 x 6.7 in",
+              "value_es": "25.9 x 19.5 x 17 cm"
             }
           ]
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
+          "label": "Price per Pair",
+          "label_es": "Precio por Par",
           "values": [
             {
-              "value": "$149",
-              "value_es": "$149"
+              "value": "$298",
+              "value_es": "$298"
             },
             {
-              "value": "$199",
-              "value_es": "$199"
+              "value": "$398",
+              "value_es": "$398"
             },
             {
-              "value": "$269",
-              "value_es": "$269"
+              "value": "$538",
+              "value_es": "$538"
             },
             {
-              "value": "$399",
-              "value_es": "$399"
+              "value": "$798",
+              "value_es": "$798"
             },
             {
-              "value": "$799",
-              "value_es": "$799"
+              "value": "$1,598",
+              "value_es": "$1,598"
             },
             {
-              "value": "$429",
-              "value_es": "$429"
+              "value": "$858",
+              "value_es": "$858"
+            },
+            {
+              "value": "$798",
+              "value_es": "$798"
+            },
+            {
+              "value": "$1,098",
+              "value_es": "$1,098"
             }
           ]
         }
@@ -3449,6 +3549,62 @@
           "Más grande y pesado que las opciones de 5-6.5 pulgadas para escritorios ajustados",
           "El woofer de 8 pulgadas exige un buen gain staging — las interfaces débiles los dejan sonando suaves",
           "Sin corrección de sala DSP integrada — colocación y tratamiento son tu responsabilidad, a diferencia del EQ del Rokit"
+        ]
+      },
+      {
+        "name": "Genelec 8010A",
+        "name_es": "Genelec 8010A",
+        "pros": [
+          "Die-cast aluminum enclosure delivers resonance-free pro-grade bass",
+          "±2.5 dB response from 74 Hz to 20 kHz — tighter than most 5-inch monitors",
+          "Unit-to-unit consistency — what you hear matches any other 8010A studio",
+          "ISS auto-standby cuts power when you step away"
+        ],
+        "pros_es": [
+          "El gabinete de aluminio fundido ofrece graves de grado profesional libres de resonancias",
+          "Respuesta de ±2.5 dB de 74 Hz a 20 kHz — más precisa que la mayoría de monitores de 5 pulgadas",
+          "Consistencia de unidad a unidad — lo que escuchas coincide con cualquier otro estudio con 8010A",
+          "El auto-standby ISS corta la energía cuando te alejas"
+        ],
+        "cons": [
+          "3-inch woofer — low end is present but shallow; plan for a sub",
+          "$798 per pair is the most expensive per-driver in this guide",
+          "No built-in room correction DSP",
+          "Needs a sub for bass-heavy mixing, pushing the total cost up"
+        ],
+        "cons_es": [
+          "Woofer de 3 pulgadas — el low end está presente pero es superficial; planifica un sub",
+          "$798 el par es lo más caro por driver de esta guía",
+          "Sin corrección de sala DSP integrada",
+          "Necesita un sub para mezclas con muchos graves, elevando el costo final"
+        ]
+      },
+      {
+        "name": "Neumann KH 80 DSP",
+        "name_es": "Neumann KH 80 DSP",
+        "pros": [
+          "MA 1 auto-calibration flattens the response at your listening position",
+          "MMD waveguide from the Neumann 800 series in a compact box",
+          "90W of amplification with ±1 dB response from 53 Hz to 21 kHz",
+          "The most adjustable compact monitor short of acoustic treatment"
+        ],
+        "pros_es": [
+          "La autocorrección MA 1 aplana la respuesta en tu posición de escucha",
+          "Waveguide MMD de la serie 800 de Neumann en un gabinete compacto",
+          "90W de amplificación con respuesta de ±1 dB de 53 Hz a 21 kHz",
+          "El monitor compacto más ajustable sin llegar al tratamiento acústico"
+        ],
+        "cons": [
+          "$1,098 per pair plus the MA 1 kit pushes the total cost up",
+          "4.7-inch woofer limits output and low-end depth in bigger rooms",
+          "DSP setup requires the MA 1 measurement workflow",
+          "Overkill if your room is already well treated"
+        ],
+        "cons_es": [
+          "$1,098 el par más el kit MA 1 elevan el costo final",
+          "El woofer de 4.7 pulgadas limita el volumen y la profundidad de graves en salas más grandes",
+          "La configuración DSP requiere el flujo de medición MA 1",
+          "Excesivo si tu sala ya está bien tratada"
         ]
       }
     ],
@@ -9301,24 +9457,24 @@
           ]
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
+          "label": "Price per Pair",
+          "label_es": "Precio por Par",
           "values": [
             {
-              "value": "$149",
-              "value_es": "$149"
+              "value": "$298",
+              "value_es": "$298"
             },
             {
-              "value": "$199",
-              "value_es": "$199"
+              "value": "$398",
+              "value_es": "$398"
             },
             {
-              "value": "$269",
-              "value_es": "$269"
+              "value": "$538",
+              "value_es": "$538"
             },
             {
-              "value": "$399",
-              "value_es": "$399"
+              "value": "$798",
+              "value_es": "$798"
             }
           ]
         }
