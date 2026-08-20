@@ -1886,23 +1886,23 @@
           "label_es": "Tipo de Micrófono",
           "values": [
             {
-              "value": "Dynamic (moving-coil)",
-              "value_es": "Dinámico (bobina móvil)"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
               "value": "Condenser (fixed-charge back plate)",
               "value_es": "Condensador (placa posterior de carga fija)"
             },
             {
-              "value": "Dynamic (moving-coil)",
-              "value_es": "Dinámico (bobina móvil)"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Condenser (1″ LDC)",
-              "value_es": "Condensador (LDC de 1″)"
+              "value": "Condenser (1-inch LDC, true condenser)",
+              "value_es": "Condensador (LDC de 1 pulg, condensador real)"
             },
             {
-              "value": "Dynamic (moving-coil) + active preamp",
+              "value": "Dynamic (moving coil) + active preamp",
               "value_es": "Dinámico (bobina móvil) + previo activo"
             },
             {
@@ -1910,12 +1910,12 @@
               "value_es": "Condensador (LDC, FET sin transformador)"
             },
             {
-              "value": "Condenser (1″ LDC)",
-              "value_es": "Condensador (LDC de 1″)"
+              "value": "Condenser (1-inch LDC, dual-diaphragm)",
+              "value_es": "Condensador (LDC de 1 pulg, doble diafragma)"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (LDC, transformer-coupled)",
+              "value_es": "Condensador (LDC, acoplado por transformador)"
             }
           ]
         },
@@ -1952,8 +1952,8 @@
               "value_es": "9 patrones conmutables"
             },
             {
-              "value": "3 switchable (omni, cardioid, fig-8)",
-              "value_es": "3 conmutables (omni, cardioide, figura-8)"
+              "value": "Omni / Cardioid / Fig-8",
+              "value_es": "Omni / Cardioide / Fig-8"
             }
           ]
         },
@@ -2000,31 +2000,31 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "−56.0 dBV/Pa (1.6 mV)",
+              "value": "-56.0 dBV/Pa (1.6 mV)",
               "value_es": "−56,0 dBV/Pa (1,6 mV)"
             },
             {
-              "value": "−37 dB (14.1 mV) re 1V at 1 Pa",
+              "value": "-37 dB (14.1 mV) re 1V at 1 Pa",
               "value_es": "−37 dB (14,1 mV) re 1V a 1 Pa"
             },
             {
-              "value": "−54.5 dBV/Pa (1.85 mV)",
+              "value": "-54.5 dBV/Pa (1.85 mV)",
               "value_es": "−54,5 dBV/Pa (1,85 mV)"
             },
             {
-              "value": "−32 dB re 1 V/Pa (25 mV)",
+              "value": "-32 dB re 1 V/Pa (25 mV)",
               "value_es": "−32 dB re 1 V/Pa (25 mV)"
             },
             {
-              "value": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)",
+              "value": "-59 dBV/Pa bypass; -41 dBV (+18 dB); -31 dBV (+28 dB)",
               "value_es": "−59 dBV/Pa bypass; −41 dBV (+18 dB); −31 dBV (+28 dB)"
             },
             {
-              "value": "11 mV/Pa (−39 dBV ± 1 dB)",
+              "value": "11 mV/Pa (-39 dBV ±1 dB)",
               "value_es": "11 mV/Pa (−39 dBV ± 1 dB)"
             },
             {
-              "value": "23 mV/Pa (−33 dBV ± 0.5 dB)",
+              "value": "23 mV/Pa (-33 dBV ±0.5 dB)",
               "value_es": "23 mV/Pa (−33 dBV ± 0,5 dB)"
             },
             {
@@ -2038,24 +2038,24 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (passive)",
-              "value_es": "N/D (pasivo)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
-              "value": "20 dB SPL",
+              "value": "20 dB SPL(A)",
               "value_es": "20 dB SPL"
             },
             {
-              "value": "N/A (passive)",
-              "value_es": "N/D (pasivo)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
               "value": "4 dBA",
               "value_es": "4 dBA"
             },
             {
-              "value": "N/A (passive capsule)",
-              "value_es": "N/D (cápsula pasiva)"
+              "value": "N/A (dynamic); preamp EIN -130 dBV(A)",
+              "value_es": "N/D (dinámico); EIN del previo -130 dBV(A)"
             },
             {
               "value": "12 dB-A",
@@ -2076,36 +2076,36 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
               "value": "144 dB SPL (1% THD)",
               "value_es": "144 dB SPL (1% THD)"
             },
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
               "value": "142 dB SPL",
               "value_es": "142 dB SPL"
             },
             {
-              "value": "180 dB",
-              "value_es": "180 dB"
+              "value": "Not officially rated",
+              "value_es": "Sin clasificación oficial"
             },
             {
-              "value": "144 dB (THD < 0.5%)",
+              "value": "144 dB (0.5% THD)",
               "value_es": "144 dB (THD < 0,5%)"
             },
             {
-              "value": "140 dB (0.5% THD); up to 158 dB with −18 dB pad",
-              "value_es": "140 dB (0,5% THD); hasta 158 dB con pad de −18 dB"
+              "value": "140 dB (0.5% THD); 158 dB with -18 dB pad",
+              "value_es": "140 dB (0.5% THD); 158 dB con pad de -18 dB"
             },
             {
-              "value": "117 dB (0.5% THD); 127 dB with −10 dB pad",
-              "value_es": "117 dB (0,5% THD); 127 dB con pad de −10 dB"
+              "value": "117 dB (0.5% THD); 127 dB with -10 dB pad",
+              "value_es": "117 dB (0.5% THD); 127 dB con pad de -10 dB"
             }
           ]
         },
@@ -2114,16 +2114,16 @@
           "label_es": "Impedancia",
           "values": [
             {
-              "value": "310 Ω",
-              "value_es": "310 Ω"
+              "value": "150 Ω rated (310 Ω actual)",
+              "value_es": "150 Ω nominales (310 Ω reales)"
             },
             {
               "value": "100 Ω",
               "value_es": "100 Ω"
             },
             {
-              "value": "300 Ω (rated 150 Ω)",
-              "value_es": "300 Ω (nominal 150 Ω)"
+              "value": "150 Ω rated (300 Ω actual)",
+              "value_es": "150 Ω nominales (300 Ω reales)"
             },
             {
               "value": "100 Ω",
@@ -2131,15 +2131,15 @@
             },
             {
               "value": "150 Ω bypass / 27 Ω preamp mode",
-              "value_es": "150 Ω bypass / 27 Ω modo previo"
+              "value_es": "150 Ω en bypass / 27 Ω con previo"
             },
             {
               "value": "50 Ω",
               "value_es": "50 Ω"
             },
             {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
+              "value": "≤200 Ω (load ≥ 2.2 kΩ)",
+              "value_es": "≤200 Ω (carga ≥ 2.2 kΩ)"
             },
             {
               "value": "200 Ω",
@@ -2220,6 +2220,310 @@
             {
               "value": "The studio standard — on more hits than any other condenser",
               "value_es": "El estándar de estudio — en más éxitos que cualquier otro condensador"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "74 dB",
+              "value_es": "74 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "82 dB-A",
+              "value_es": "82 dB-A"
+            },
+            {
+              "value": "88 dB-A",
+              "value_es": "88 dB-A"
+            },
+            {
+              "value": "82 dB-A (cardioid)",
+              "value_es": "82 dB-A (cardioide)"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "124 dB",
+              "value_es": "124 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "134 dB",
+              "value_es": "134 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "1% at max SPL",
+              "value_es": "1% al SPL máximo"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "0.5% @ 144 dB SPL",
+              "value_es": "0.5% @ 144 dB SPL"
+            },
+            {
+              "value": "0.5% @ 140 dB SPL",
+              "value_es": "0.5% @ 140 dB SPL"
+            },
+            {
+              "value": "0.5% @ 117 dB SPL (cardioid)",
+              "value_es": "0.5% @ 117 dB SPL (cardioide)"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "16 mm low-mass diaphragm (custom)",
+              "value_es": "Diafragma de baja masa de 16 mm (diseñado a medida)"
+            },
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "HF6 1-inch true condenser capsule",
+              "value_es": "Cápsula condensadora real HF6 de 1 pulg"
+            },
+            {
+              "value": "SM7B capsule + built-in preamp",
+              "value_es": "Cápsula SM7B + previo integrado"
+            },
+            {
+              "value": "Large diaphragm (21-25 mm commonly cited)",
+              "value_es": "Diafragma grande (21-25 mm comúnmente citado)"
+            },
+            {
+              "value": "25 mm edge-terminated large diaphragm",
+              "value_es": "Diafragma grande de 25 mm con terminación en borde"
+            },
+            {
+              "value": "K87 dual-diaphragm (34 mm commonly cited)",
+              "value_es": "Doble diafragma K87 (34 mm comúnmente citado)"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None (analog XLR)",
+              "value_es": "Ninguno (XLR analógico)"
+            },
+            {
+              "value": "Bass rolloff, presence boost, preamp bypass, +18/+28 dB",
+              "value_es": "Filtro de graves, realce de presencia, bypass del previo, +18/+28 dB"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "3 pads (-6/-12/-18 dB); 3 bass-cut filters (160 Hz 6 dB/oct; 80/40 Hz 12 dB/oct)",
+              "value_es": "3 pads (-6/-12/-18 dB); 3 filtros de graves (160 Hz 6 dB/oct; 80/40 Hz 12 dB/oct)"
+            },
+            {
+              "value": "-10 dB pad; 3-position bass rolloff (linear/100 Hz/80 Hz)",
+              "value_es": "Pad de -10 dB; filtro de graves de 3 posiciones (lineal/100 Hz/80 Hz)"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "+48 V, 2 mA",
+              "value_es": "+48 V, 2 mA"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "+48 V (P48)",
+              "value_es": "+48 V (P48)"
+            },
+            {
+              "value": "+48 V required in preamp mode (4.5 mA)",
+              "value_es": "+48 V requeridos con previo (4.5 mA)"
+            },
+            {
+              "value": "+48 V ±4 V, 3.5 mA",
+              "value_es": "+48 V ±4 V, 3.5 mA"
+            },
+            {
+              "value": "+48 V, ~4.5 mA",
+              "value_es": "+48 V, ~4.5 mA"
+            },
+            {
+              "value": "+48 V ±4 V, 0.8 mA",
+              "value_es": "+48 V ±4 V, 0.8 mA"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "157 × 32 mm",
+              "value_es": "157 × 32 mm"
+            },
+            {
+              "value": "162 × 52 mm",
+              "value_es": "162 × 52 mm"
+            },
+            {
+              "value": "162 × 51 mm",
+              "value_es": "162 × 51 mm"
+            },
+            {
+              "value": "52 × 52 × 189 mm",
+              "value_es": "52 × 52 × 189 mm"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Ø52 × 116 mm",
+              "value_es": "Ø52 × 116 mm"
+            },
+            {
+              "value": "50 × 38 × 160 mm",
+              "value_es": "50 × 38 × 160 mm"
+            },
+            {
+              "value": "Ø56 × 200 mm",
+              "value_es": "Ø56 × 200 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "284 g",
+              "value_es": "284 g"
+            },
+            {
+              "value": "345 g",
+              "value_es": "345 g"
+            },
+            {
+              "value": "298 g",
+              "value_es": "298 g"
+            },
+            {
+              "value": "313 g",
+              "value_es": "313 g"
+            },
+            {
+              "value": "837 g",
+              "value_es": "837 g"
+            },
+            {
+              "value": "210 g",
+              "value_es": "210 g"
+            },
+            {
+              "value": "300 g",
+              "value_es": "300 g"
+            },
+            {
+              "value": "500 g",
+              "value_es": "500 g"
             }
           ]
         },
@@ -4120,52 +4424,52 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Condenser (USB)",
-              "value_es": "Condensador (USB)"
+              "value": "Condenser, USB",
+              "value_es": "Condensador, USB"
             },
             {
-              "value": "Condenser (USB)",
-              "value_es": "Condensador (USB)"
+              "value": "Condenser (electret), USB",
+              "value_es": "Condensador (electret), USB"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic, USB/XLR",
+              "value_es": "Dinámico, USB/XLR"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (fixed-charge back plate)",
+              "value_es": "Condensador (placa posterior de carga fija)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (end-address)",
+              "value_es": "Dinámico (address final)"
             },
             {
-              "value": "Condenser (USB)",
-              "value_es": "Condensador (USB)"
+              "value": "Condenser (electret), USB",
+              "value_es": "Condensador (electret), USB"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (1-inch LDC, true condenser)",
+              "value_es": "Condensador (LDC de 1 pulg, condensador real)"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (LDC, fixed-charge)",
+              "value_es": "Condensador (LDC, carga fija)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic, USB (USB-C)",
+              "value_es": "Dinámico, USB (USB-C)"
             },
             {
-              "value": "Condenser (USB)",
-              "value_es": "Condensador (USB)"
+              "value": "Condenser (pre-polarized), USB",
+              "value_es": "Condensador (prepolarizado), USB"
             }
           ]
         },
@@ -4232,8 +4536,8 @@
               "value_es": "100 Hz – 16 kHz"
             },
             {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
+              "value": "20 Hz – 20 kHz (retail; not official)",
+              "value_es": "20 Hz – 20 kHz (tiendas; no oficial)"
             },
             {
               "value": "50 Hz – 15 kHz",
@@ -4268,7 +4572,7 @@
               "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "20 Hz – 20 kHz",
+              "value": "80 Hz – 16 kHz",
               "value_es": "20 Hz – 20 kHz"
             },
             {
@@ -4282,51 +4586,51 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "–38 dB ±3 dB",
+              "value": "-38 dB ± 3 dB",
               "value_es": "–38 dB ±3 dB"
             },
             {
-              "value": "–6 dBFS",
+              "value": "-7.8 dB (1 V/Pa at 1 kHz)",
               "value_es": "–6 dBFS"
             },
             {
-              "value": "–54 dBV/Pa",
+              "value": "-54 dBV/Pa",
               "value_es": "–54 dBV/Pa"
             },
             {
-              "value": "–56 dBV/Pa (1.6 mV)",
+              "value": "-56.0 dBV/Pa (1.6 mV)",
               "value_es": "–56 dBV/Pa (1.6 mV)"
             },
             {
-              "value": "–54.5 dBV/Pa (1.85 mV)",
+              "value": "-54.5 dBV/Pa (1.85 mV)",
               "value_es": "–54.5 dBV/Pa (1.85 mV)"
             },
             {
-              "value": "–37 dB (14.1 mV)",
+              "value": "-37 dB (14.1 mV) re 1V at 1 Pa",
               "value_es": "–37 dB (14.1 mV)"
             },
             {
-              "value": "–57 dBV (1.6 mV)",
+              "value": "-57 dBV (1.4 mV)",
               "value_es": "–57 dBV (1.6 mV)"
             },
             {
-              "value": "–25 dBFS",
+              "value": "-25 dBFS (min gain)",
               "value_es": "–25 dBFS"
             },
             {
-              "value": "–32 dB (25 mV)",
+              "value": "-32 dB re 1 V/Pa (25 mV)",
               "value_es": "–32 dB (25 mV)"
             },
             {
-              "value": "–33 dB (22.4 mV)",
+              "value": "-33 dB (22.4 mV) re 1V at 1 Pa",
               "value_es": "–33 dB (22.4 mV)"
             },
             {
-              "value": "-53 dBV/Pa (2.24 mV)",
-              "value_es": "-53 dBV/Pa (2.24 mV)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "N/A (USB)",
+              "value": "-10 dBFS @ 80 dB SPL (max gain); -50 dBFS (min gain)",
               "value_es": "N/D (USB)"
             }
           ]
@@ -4336,27 +4640,27 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (USB)",
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "≤ -79.5 dBFS (RMS, A-weighted)",
               "value_es": "N/D (USB)"
             },
             {
-              "value": "N/A (USB)",
-              "value_es": "N/D (USB)"
-            },
-            {
               "value": "N/A (dynamic)",
               "value_es": "N/D (dinámico)"
             },
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
-              "value": "20 dB SPL",
+              "value": "20 dB SPL(A)",
               "value_es": "20 dB SPL"
             },
             {
@@ -4364,23 +4668,23 @@
               "value_es": "N/D (dinámico)"
             },
             {
-              "value": "N/A (digital)",
-              "value_es": "N/D (digital)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
               "value": "4 dBA",
               "value_es": "4 dBA"
             },
             {
-              "value": "12 dB SPL",
+              "value": "12 dB SPL(A)",
               "value_es": "12 dB SPL"
             },
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "N/A (digital)",
+              "value": "34 dB(A) SPL (min gain); 28 dB(A) (max gain)",
               "value_es": "N/D (digital)"
             }
           ]
@@ -4390,51 +4694,51 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "110 dB",
-              "value_es": "110 dB"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "/",
-              "value_es": "/"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "148 dB",
+              "value": "148 dB SPL",
               "value_es": "148 dB"
             },
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
-              "value": "156 dB",
-              "value_es": "156 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
-              "value": "144 dB",
+              "value": "144 dB SPL (1% THD)",
               "value_es": "144 dB"
             },
             {
-              "value": "/",
-              "value_es": "/"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "120 dB (140 w/ Clipguard)",
-              "value_es": "120 dB (140 c/ Clipguard)"
+              "value": "120 dB SPL (140 dB with Clipguard)",
+              "value_es": "120 dB SPL (140 dB con Clipguard)"
             },
             {
-              "value": "142 dB",
+              "value": "142 dB SPL",
               "value_es": "142 dB"
             },
             {
-              "value": "148 dB (158 w/ pad)",
-              "value_es": "148 dB (158 c/ pad)"
+              "value": "148 dB SPL (158 dB with -10 dB pad)",
+              "value_es": "148 dB SPL (158 dB con pad de -10 dB)"
             },
             {
-              "value": "/",
-              "value_es": "/"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "125 dB",
+              "value": "125 dB SPL (min gain)",
               "value_es": "125 dB"
             }
           ]
@@ -4444,27 +4748,27 @@
           "label_es": "Impedancia de Salida",
           "values": [
             {
-              "value": "68 Ω",
+              "value": "680 Ω",
               "value_es": "68 Ω"
             },
             {
-              "value": "USB-C",
-              "value_es": "USB-C"
+              "value": "N/A (USB)",
+              "value_es": "N/D (USB)"
             },
             {
-              "value": "32 Ω",
-              "value_es": "32 Ω"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (310 Ω actual)",
+              "value_es": "150 Ω nominales (310 Ω reales)"
             },
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (300 Ω actual)",
+              "value_es": "150 Ω nominales (300 Ω reales)"
             },
             {
-              "value": "120 Ω",
+              "value": "100 Ω",
               "value_es": "120 Ω"
             },
             {
@@ -4472,8 +4776,8 @@
               "value_es": "320 Ω"
             },
             {
-              "value": "USB",
-              "value_es": "USB"
+              "value": "N/A (USB)",
+              "value_es": "N/D (USB)"
             },
             {
               "value": "100 Ω",
@@ -4484,12 +4788,444 @@
               "value_es": "120 Ω"
             },
             {
-              "value": "USB-C",
-              "value_es": "USB-C"
+              "value": "N/A (USB)",
+              "value_es": "N/D (USB)"
             },
             {
-              "value": "USB-C",
-              "value_es": "USB-C"
+              "value": "N/A (USB)",
+              "value_es": "N/D (USB)"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "74 dB",
+              "value_es": "74 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "82 dB",
+              "value_es": "82 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "124 dB",
+              "value_es": "124 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "95 dB (115 dB with Clipguard)",
+              "value_es": "95 dB (115 dB con Clipguard)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "136 dB",
+              "value_es": "136 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "1% at max SPL",
+              "value_es": "1% al SPL máximo"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "1% at max SPL",
+              "value_es": "1% al SPL máximo"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Condenser capsule (9.7 mm commonly cited)",
+              "value_es": "Cápsula condensadora (9.7 mm comúnmente citado)"
+            },
+            {
+              "value": "14 mm electret condenser",
+              "value_es": "Cápsula condensadora electret de 14 mm"
+            },
+            {
+              "value": "Dynamic element, internally shock-isolated",
+              "value_es": "Elemento dinámico con aislamiento de choque interno"
+            },
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "16 mm low-mass diaphragm (custom)",
+              "value_es": "Diafragma de baja masa de 16 mm (diseñado a medida)"
+            },
+            {
+              "value": "Dynamic element, internal pop filter + shock mount",
+              "value_es": "Elemento dinámico con filtro antipop y soporte antivibración integrados"
+            },
+            {
+              "value": "17 mm electret",
+              "value_es": "Electret de 17 mm"
+            },
+            {
+              "value": "HF6 1-inch true condenser capsule",
+              "value_es": "Cápsula condensadora real HF6 de 1 pulg"
+            },
+            {
+              "value": "Large diaphragm (~25 mm commonly cited)",
+              "value_es": "Diafragma grande (~25 mm comúnmente citado)"
+            },
+            {
+              "value": "Dynamic element (size not disclosed)",
+              "value_es": "Elemento dinámico (tamaño no divulgado)"
+            },
+            {
+              "value": "Cardioid condenser capsule (size not published)",
+              "value_es": "Cápsula condensadora cardioide (tamaño no publicado)"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None (software filters in NGENUITY)",
+              "value_es": "Ninguno (filtros por software en NGENUITY)"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "Clipguard anti-distortion; low-cut in Wave Link",
+              "value_es": "Clipguard antidistorsión; filtro de graves en Wave Link"
+            },
+            {
+              "value": "None (analog XLR)",
+              "value_es": "Ninguno (XLR analógico)"
+            },
+            {
+              "value": "-10 dB pad + 80 Hz HPF (12 dB/oct)",
+              "value_es": "Pad de -10 dB + HPF de 80 Hz (12 dB/oct)"
+            },
+            {
+              "value": "80 Hz low-cut (18 dB/oct)",
+              "value_es": "Filtro de graves 80 Hz (18 dB/oct)"
+            },
+            {
+              "value": "Gain/mix/headphone controls, mute",
+              "value_es": "Controles de ganancia/mezcla/auriculares, mute"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "USB power (5 V)",
+              "value_es": "Alimentación USB (5 V)"
+            },
+            {
+              "value": "USB power (5 V)",
+              "value_es": "Alimentación USB (5 V)"
+            },
+            {
+              "value": "None (XLR dynamic); USB 5 V",
+              "value_es": "No requiere (XLR dinámico); USB 5 V"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "+48 V, 2 mA",
+              "value_es": "+48 V, 2 mA"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "USB bus power",
+              "value_es": "Alimentación por bus USB"
+            },
+            {
+              "value": "+48 V (P48)",
+              "value_es": "+48 V (P48)"
+            },
+            {
+              "value": "11-52 V, 3.8 mA",
+              "value_es": "11-52 V, 3.8 mA"
+            },
+            {
+              "value": "USB power (5 V)",
+              "value_es": "Alimentación USB (5 V)"
+            },
+            {
+              "value": "USB bus power",
+              "value_es": "Alimentación por bus USB"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "190 × 55 mm",
+              "value_es": "190 × 55 mm"
+            },
+            {
+              "value": "157 × 32 mm",
+              "value_es": "157 × 32 mm"
+            },
+            {
+              "value": "162 × 51 mm",
+              "value_es": "162 × 51 mm"
+            },
+            {
+              "value": "162 × 52 mm",
+              "value_es": "162 × 52 mm"
+            },
+            {
+              "value": "172 × 109 × 62 mm",
+              "value_es": "172 × 109 × 62 mm"
+            },
+            {
+              "value": "153 × 66 × 40 mm",
+              "value_es": "153 × 66 × 40 mm"
+            },
+            {
+              "value": "52 × 52 × 189 mm",
+              "value_es": "52 × 52 × 189 mm"
+            },
+            {
+              "value": "170 × 52 mm",
+              "value_es": "170 × 52 mm"
+            },
+            {
+              "value": "145 × 52 mm",
+              "value_es": "145 × 52 mm"
+            },
+            {
+              "value": "Ø50 × 152 mm (mic)",
+              "value_es": "Ø50 × 152 mm (micro)"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "366 g",
+              "value_es": "366 g"
+            },
+            {
+              "value": "318 g",
+              "value_es": "318 g"
+            },
+            {
+              "value": "284 g",
+              "value_es": "284 g"
+            },
+            {
+              "value": "298 g",
+              "value_es": "298 g"
+            },
+            {
+              "value": "345 g",
+              "value_es": "345 g"
+            },
+            {
+              "value": "937 g",
+              "value_es": "937 g"
+            },
+            {
+              "value": "280 g (mic + mount)",
+              "value_es": "280 g (micro + soporte)"
+            },
+            {
+              "value": "313 g",
+              "value_es": "313 g"
+            },
+            {
+              "value": "403 g",
+              "value_es": "403 g"
+            },
+            {
+              "value": "600 g",
+              "value_es": "600 g"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -5090,24 +5826,24 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
               "value": "Dynamic (Variable-D)",
               "value_es": "Dinámico (Variable-D)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), USB-C + XLR",
+              "value_es": "Dinámico (bobina móvil), USB-C + XLR"
             },
             {
-              "value": "Condenser (USB)",
-              "value_es": "Condensador (USB)"
+              "value": "Condenser (electret), USB",
+              "value_es": "Condensador (electret), USB"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (1-inch LDC), XLR + USB-C",
+              "value_es": "Condensador (LDC de 1 pulg), XLR + USB-C"
             }
           ]
         },
@@ -5120,8 +5856,8 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "Cardioid (Variable-D)",
+              "value_es": "Cardioide (Variable-D)"
             },
             {
               "value": "Cardioid",
@@ -5168,23 +5904,23 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "–59 dBV/Pa (1.12 mV)",
+              "value": "-59.0 dBV/Pa (1.12 mV)",
               "value_es": "–59 dBV/Pa (1.12 mV)"
             },
             {
-              "value": "1.5 mV/Pa",
+              "value": "1.5 mV/Pa (≈ -56.5 dBV)",
               "value_es": "1.5 mV/Pa"
             },
             {
-              "value": "–55 dBV/Pa (XLR)",
+              "value": "XLR: -55 dBV/Pa (1.78 mV); USB: -33 dBFS",
               "value_es": "–55 dBV/Pa (XLR)"
             },
             {
-              "value": "–25 dBFS",
+              "value": "-25 dBFS (min gain)",
               "value_es": "–25 dBFS"
             },
             {
-              "value": "–32 dB (25 mV/Pa)",
+              "value": "-32 dB re 1 V/Pa (25 mV)",
               "value_es": "–32 dB (25 mV/Pa)"
             }
           ]
@@ -5194,8 +5930,8 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
               "value": "N/A (dynamic)",
@@ -5206,8 +5942,8 @@
               "value_es": "N/D (dinámico)"
             },
             {
-              "value": "N/A (digital)",
-              "value_es": "N/D (digital)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
               "value": "4 dBA",
@@ -5220,23 +5956,23 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "180 dB",
-              "value_es": "180 dB"
+              "value": "Not officially rated (~180 dB est.)",
+              "value_es": "Sin clasificación oficial (~180 dB est.)"
             },
             {
-              "value": "149 dB",
-              "value_es": "149 dB"
+              "value": "Not published (rated immune to overloading)",
+              "value_es": "No publicado (clasificado inmune a la sobrecarga)"
             },
             {
-              "value": "128 dB (USB)",
-              "value_es": "128 dB (USB)"
+              "value": "128 dB (USB output)",
+              "value_es": "128 dB (salida USB)"
             },
             {
-              "value": "120 dB (140 w/ Clipguard)",
-              "value_es": "120 dB (140 c/ Clipguard)"
+              "value": "120 dB SPL (140 dB with Clipguard)",
+              "value_es": "120 dB SPL (140 dB con Clipguard)"
             },
             {
-              "value": "142 dB",
+              "value": "142 dB SPL",
               "value_es": "142 dB"
             }
           ]
@@ -5258,12 +5994,220 @@
               "value_es": "350 Ω (XLR)"
             },
             {
-              "value": "USB",
-              "value_es": "USB"
+              "value": "N/A (USB)",
+              "value_es": "N/D (USB)"
             },
             {
               "value": "100 Ω",
               "value_es": "100 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "95 dB (115 dB with Clipguard)",
+              "value_es": "95 dB (115 dB con Clipguard)"
+            },
+            {
+              "value": "126 dB via USB 32-bit float (marketing)",
+              "value_es": "126 dB vía USB 32-bit float (marketing)"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Large-diaphragm dynamic (size not disclosed)",
+              "value_es": "Dinámico de diafragma grande (tamaño no divulgado)"
+            },
+            {
+              "value": "Variable-D dynamic element",
+              "value_es": "Elemento dinámico Variable-D"
+            },
+            {
+              "value": "Dynamic moving-coil (size not disclosed)",
+              "value_es": "Dinámico de bobina móvil (tamaño no divulgado)"
+            },
+            {
+              "value": "17 mm electret",
+              "value_es": "Electret de 17 mm"
+            },
+            {
+              "value": "HF6 1-inch gold-sputtered condenser",
+              "value_es": "Cápsula condensadora HF6 de 1 pulg con baño de oro"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "Bass rolloff + presence boost switches",
+              "value_es": "Interruptores de filtro de graves y realce de presencia"
+            },
+            {
+              "value": "Mid-bass tilt switch (LF rolloff, -4.5 dB 400-100 Hz)",
+              "value_es": "Interruptor de graves (filtro LF, -4.5 dB 400-100 Hz)"
+            },
+            {
+              "value": "DSP HPF (75/150 Hz), limiter, compressor, Auto-Level (USB)",
+              "value_es": "HPF por DSP (75/150 Hz), limitador, compresor, Auto-Level (USB)"
+            },
+            {
+              "value": "Clipguard anti-distortion; low-cut in Wave Link",
+              "value_es": "Clipguard antidistorsión; filtro de graves en Wave Link"
+            },
+            {
+              "value": "DSP HPF (75/150 Hz), compressor, gate, APHEX (USB)",
+              "value_es": "HPF por DSP (75/150 Hz), compresor, puerta, APHEX (USB)"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "USB bus power; phantom-protected XLR",
+              "value_es": "Alimentado por USB; XLR protegido contra phantom"
+            },
+            {
+              "value": "USB bus power",
+              "value_es": "Alimentación por bus USB"
+            },
+            {
+              "value": "+48 V (XLR); 5 V (USB)",
+              "value_es": "+48 V (XLR); 5 V (USB)"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "190 × 148 × 96 mm",
+              "value_es": "190 × 148 × 96 mm"
+            },
+            {
+              "value": "217 × 54 mm",
+              "value_es": "217 × 54 mm"
+            },
+            {
+              "value": "169.5 × 90 mm",
+              "value_es": "169.5 × 90 mm"
+            },
+            {
+              "value": "153 × 66 × 40 mm",
+              "value_es": "153 × 66 × 40 mm"
+            },
+            {
+              "value": "52 × 52 × 189 mm",
+              "value_es": "52 × 52 × 189 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "765 g",
+              "value_es": "765 g"
+            },
+            {
+              "value": "737 g",
+              "value_es": "737 g"
+            },
+            {
+              "value": "573 g",
+              "value_es": "573 g"
+            },
+            {
+              "value": "280 g (mic + mount)",
+              "value_es": "280 g (micro + soporte)"
+            },
+            {
+              "value": "308 g",
+              "value_es": "308 g"
             }
           ]
         },
@@ -5738,40 +6682,40 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (neodymium), passive",
+              "value_es": "Dinámico (neodimio), pasivo"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (25 mm moving coil)",
+              "value_es": "Dinámico (bobina móvil de 25 mm)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (Varimotion)",
+              "value_es": "Dinámico (Varimotion)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (VLM Type C)",
+              "value_es": "Dinámico (VLM Tipo C)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (neodymium)",
+              "value_es": "Dinámico (neodimio)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             }
           ]
         },
@@ -5838,7 +6782,7 @@
               "value_es": "40 Hz – 18 kHz"
             },
             {
-              "value": "50 Hz – 18 kHz",
+              "value": "50 Hz – 18 kHz (±3 dB)",
               "value_es": "50 Hz – 18 kHz"
             },
             {
@@ -5850,8 +6794,8 @@
               "value_es": "48 Hz – 19 kHz"
             },
             {
-              "value": "70 Hz – 17 kHz (far) / 30 Hz – 17 kHz (close)",
-              "value_es": "70 Hz – 17 kHz (lejos) / 30 Hz – 17 kHz (cerca)"
+              "value": "Close 30 Hz – 17 kHz; far 70 Hz – 17 kHz",
+              "value_es": "Cerca 30 Hz – 17 kHz; lejos 70 Hz – 17 kHz"
             },
             {
               "value": "40 Hz – 15 kHz",
@@ -5864,31 +6808,31 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "–54.5 dBV/Pa (1.88 mV)",
+              "value": "-54.5 dBV/Pa (1.85 mV)",
               "value_es": "–54.5 dBV/Pa (1.88 mV)"
             },
             {
-              "value": "–51 dBV/Pa (2.8 mV)",
+              "value": "-51.5 dBV/Pa (2.6 mV)",
               "value_es": "–51 dBV/Pa (2.8 mV)"
             },
             {
-              "value": "2.8 mV/Pa (–51 dB)",
+              "value": "2.8 mV/Pa (-51 dB)",
               "value_es": "2.8 mV/Pa (–51 dB)"
             },
             {
-              "value": "2.0 mV/Pa (–54 dB)",
+              "value": "2.0 mV/Pa (-54 dB)",
               "value_es": "2.0 mV/Pa (–54 dB)"
             },
             {
-              "value": "1.54 mV/Pa",
+              "value": "1.54 mV/Pa (±1 dB)",
               "value_es": "1.54 mV/Pa"
             },
             {
-              "value": "2.6 mV/Pa",
+              "value": "2.6 mV/Pa (-52 dBV)",
               "value_es": "2.6 mV/Pa"
             },
             {
-              "value": "0.8 mV/Pa",
+              "value": "0.8 mV/Pa @ 1 kHz",
               "value_es": "0.8 mV/Pa"
             },
             {
@@ -5896,7 +6840,7 @@
               "value_es": "2.4 mV/Pa"
             },
             {
-              "value": "–56 dBV/Pa (1.6 mV)",
+              "value": "-56.0 dBV/Pa (1.6 mV)",
               "value_es": "–56 dBV/Pa (1.6 mV)"
             }
           ]
@@ -5906,28 +6850,28 @@
           "label_es": "Impedancia de Salida",
           "values": [
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (300 Ω actual)",
+              "value_es": "150 Ω nominales (300 Ω reales)"
             },
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (290 Ω actual)",
+              "value_es": "150 Ω nominales (290 Ω reales)"
             },
             {
-              "value": "350 Ω",
-              "value_es": "350 Ω"
+              "value": "350 Ω (min. load 1 kΩ)",
+              "value_es": "350 Ω (carga mín. 1 kΩ)"
             },
             {
-              "value": "350 Ω",
-              "value_es": "350 Ω"
+              "value": "350 Ω (min. load 1 kΩ)",
+              "value_es": "350 Ω (carga mín. 1 kΩ)"
             },
             {
               "value": "325 Ω",
               "value_es": "325 Ω"
             },
             {
-              "value": "600 Ω",
-              "value_es": "600 Ω"
+              "value": "600 Ω (rec. load ≥ 2 kΩ)",
+              "value_es": "600 Ω (carga rec. ≥ 2 kΩ)"
             },
             {
               "value": "50 Ω",
@@ -5938,8 +6882,8 @@
               "value_es": "350 Ω"
             },
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (310 Ω actual)",
+              "value_es": "150 Ω nominales (310 Ω reales)"
             }
           ]
         },
@@ -5982,6 +6926,300 @@
             {
               "value": "284 g",
               "value_es": "284 g"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "76 dB-A",
+              "value_es": "76 dB-A"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "1% THD @ 135 dB SPL",
+              "value_es": "1% THD @ 135 dB SPL"
+            },
+            {
+              "value": "1% THD @ 147 dB SPL",
+              "value_es": "1% THD @ 147 dB SPL"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "Neodymium dynamic element (size not disclosed)",
+              "value_es": "Elemento dinámico de neodimio (tamaño no divulgado)"
+            },
+            {
+              "value": "Dynamic, sealed air chamber, hum-compensating coil",
+              "value_es": "Dinámico con cámara de aire sellada y bobina anticampo"
+            },
+            {
+              "value": "Dynamic, shock-mounted, neodymium/boron magnet",
+              "value_es": "Dinámico con cápsula antivibración e imán de neodimio/boro"
+            },
+            {
+              "value": "25 mm moving-coil dynamic",
+              "value_es": "Dinámico de bobina móvil de 25 mm"
+            },
+            {
+              "value": "Laminated Varimotion diaphragm",
+              "value_es": "Diafragma laminado Varimotion"
+            },
+            {
+              "value": "VLM Type C dynamic element",
+              "value_es": "Elemento dinámico VLM Tipo C"
+            },
+            {
+              "value": "Neodymium dynamic element",
+              "value_es": "Elemento dinámico de neodimio"
+            },
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None (low output acts as natural pad)",
+              "value_es": "Ninguno (la baja salida actúa como pad natural)"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "162 × 51 mm",
+              "value_es": "162 × 51 mm"
+            },
+            {
+              "value": "160 × 50 mm",
+              "value_es": "160 × 50 mm"
+            },
+            {
+              "value": "Ø47 × 151 mm",
+              "value_es": "Ø47 × 151 mm"
+            },
+            {
+              "value": "Ø47 × 186 mm",
+              "value_es": "Ø47 × 186 mm"
+            },
+            {
+              "value": "184 × 48 mm",
+              "value_es": "184 × 48 mm"
+            },
+            {
+              "value": "185 × 51 mm",
+              "value_es": "185 × 51 mm"
+            },
+            {
+              "value": "176 × 53 mm",
+              "value_es": "176 × 53 mm"
+            },
+            {
+              "value": "182.5 × 50.5 mm",
+              "value_es": "182.5 × 50.5 mm"
+            },
+            {
+              "value": "157 × 32 mm",
+              "value_es": "157 × 32 mm"
             }
           ]
         },
@@ -10413,12 +11651,12 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (LDC, transformer-coupled)",
+              "value_es": "Condensador (LDC, acoplado por transformador)"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (1-inch LDC, dual-diaphragm)",
+              "value_es": "Condensador (LDC de 1 pulg, doble diafragma)"
             }
           ]
         },
@@ -10455,11 +11693,11 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "28 mV/Pa (cardioid)",
+              "value": "20/28/22 mV/Pa (omni/cardioid/8)",
               "value_es": "28 mV/Pa (cardioide)"
             },
             {
-              "value": "–33 dBV ± 0.5 dB (23 mV/Pa)",
+              "value": "23 mV/Pa (-33 dBV ±0.5 dB)",
               "value_es": "–33 dBV ± 0.5 dB (23 mV/Pa)"
             }
           ]
@@ -10469,8 +11707,8 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "12 dB-A (cardioid)",
-              "value_es": "12 dB-A (cardioide)"
+              "value": "15/12/14 dB-A (omni/cardioid/8)",
+              "value_es": "15/12/14 dB-A (omni/cardioide/8)"
             },
             {
               "value": "6 dB-A",
@@ -10483,12 +11721,12 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "117 dB (127 w/ pad)",
-              "value_es": "117 dB (127 c/ pad)"
+              "value": "117 dB (0.5% THD); 127 dB with -10 dB pad",
+              "value_es": "117 dB (0.5% THD); 127 dB con pad de -10 dB"
             },
             {
-              "value": "140–158 dB (pad)",
-              "value_es": "140–158 dB (pad)"
+              "value": "140 dB (0.5% THD); 158 dB with -18 dB pad",
+              "value_es": "140 dB (0.5% THD); 158 dB con pad de -18 dB"
             }
           ]
         },
@@ -10501,8 +11739,120 @@
               "value_es": "200 Ω"
             },
             {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
+              "value": "≤200 Ω (load ≥ 2.2 kΩ)",
+              "value_es": "≤200 Ω (carga ≥ 2.2 kΩ)"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "82 dB-A (cardioid)",
+              "value_es": "82 dB-A (cardioide)"
+            },
+            {
+              "value": "88 dB-A",
+              "value_es": "88 dB-A"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "134 dB",
+              "value_es": "134 dB"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "0.5% @ 117 dB SPL (cardioid)",
+              "value_es": "0.5% @ 117 dB SPL (cardioide)"
+            },
+            {
+              "value": "0.5% @ 140 dB SPL",
+              "value_es": "0.5% @ 140 dB SPL"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "K87 dual-diaphragm (34 mm commonly cited)",
+              "value_es": "Doble diafragma K87 (34 mm comúnmente citado)"
+            },
+            {
+              "value": "25 mm edge-terminated large diaphragm",
+              "value_es": "Diafragma grande de 25 mm con terminación en borde"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "-10 dB pad; 3-position bass rolloff (linear/100 Hz/80 Hz)",
+              "value_es": "Pad de -10 dB; filtro de graves de 3 posiciones (lineal/100 Hz/80 Hz)"
+            },
+            {
+              "value": "3 pads (-6/-12/-18 dB); 3 bass-cut filters (160 Hz 6 dB/oct; 80/40 Hz 12 dB/oct)",
+              "value_es": "3 pads (-6/-12/-18 dB); 3 filtros de graves (160 Hz 6 dB/oct; 80/40 Hz 12 dB/oct)"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "+48 V ±4 V, 0.8 mA",
+              "value_es": "+48 V ±4 V, 0.8 mA"
+            },
+            {
+              "value": "+48 V, ~4.5 mA",
+              "value_es": "+48 V, ~4.5 mA"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "Ø56 × 200 mm",
+              "value_es": "Ø56 × 200 mm"
+            },
+            {
+              "value": "50 × 38 × 160 mm",
+              "value_es": "50 × 38 × 160 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "500 g",
+              "value_es": "500 g"
+            },
+            {
+              "value": "300 g",
+              "value_es": "300 g"
             }
           ]
         },
@@ -30935,16 +32285,16 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             }
           ]
         },
@@ -30989,15 +32339,15 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "–56 dBV/Pa (1.6 mV)",
+              "value": "-56.0 dBV/Pa (1.6 mV)",
               "value_es": "–56 dBV/Pa (1.6 mV)"
             },
             {
-              "value": "2 mV/Pa",
+              "value": "2 mV/Pa (-54 dBV)",
               "value_es": "2 mV/Pa"
             },
             {
-              "value": "–59 dBV/Pa (1.12 mV)",
+              "value": "-59.0 dBV/Pa (1.12 mV)",
               "value_es": "–59 dBV/Pa (1.12 mV)"
             }
           ]
@@ -31007,16 +32357,16 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
               "value": "N/A (dynamic)",
               "value_es": "N/D (dinámico)"
             },
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             }
           ]
         },
@@ -31025,16 +32375,16 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": ">160 dB (commonly cited; not official)",
+              "value_es": ">160 dB (comúnmente citado; no oficial)"
             },
             {
-              "value": "180 dB",
-              "value_es": "180 dB"
+              "value": "Not officially rated (~180 dB est.)",
+              "value_es": "Sin clasificación oficial (~180 dB est.)"
             }
           ]
         },
@@ -31043,16 +32393,160 @@
           "label_es": "Impedancia de Salida",
           "values": [
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (310 Ω actual)",
+              "value_es": "150 Ω nominales (310 Ω reales)"
             },
             {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
+              "value": "250 Ω (min. load 1 kΩ)",
+              "value_es": "250 Ω (carga mín. 1 kΩ)"
             },
             {
               "value": "150 Ω",
               "value_es": "150 Ω"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published (described as remarkable)",
+              "value_es": "No publicado (descrito como notable)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "Moving-coil dynamic, inner bass tube",
+              "value_es": "Dinámico de bobina móvil con tubo de graves interno"
+            },
+            {
+              "value": "Large-diaphragm dynamic (size not disclosed)",
+              "value_es": "Dinámico de diafragma grande (tamaño no divulgado)"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None (no rolloff switch on Kompakt)",
+              "value_es": "Ninguno (el Kompakt no tiene interruptor de filtro)"
+            },
+            {
+              "value": "Bass rolloff + presence boost switches",
+              "value_es": "Interruptores de filtro de graves y realce de presencia"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "157 × 32 mm",
+              "value_es": "157 × 32 mm"
+            },
+            {
+              "value": "122 × 49 × 84 mm",
+              "value_es": "122 × 49 × 84 mm"
+            },
+            {
+              "value": "190 × 148 × 96 mm",
+              "value_es": "190 × 148 × 96 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "284 g",
+              "value_es": "284 g"
+            },
+            {
+              "value": "159 g",
+              "value_es": "159 g"
+            },
+            {
+              "value": "765 g",
+              "value_es": "765 g"
             }
           ]
         },
@@ -31401,16 +32895,16 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (1-inch LDC), XLR + USB-C",
+              "value_es": "Condensador (LDC de 1 pulg), XLR + USB-C"
             },
             {
               "value": "Audio interface (2-in/2-out)",
@@ -31479,15 +32973,15 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "–59 dBV/Pa (1.12 mV)",
+              "value": "-59.0 dBV/Pa (1.12 mV)",
               "value_es": "–59 dBV/Pa (1.12 mV)"
             },
             {
-              "value": "–56.0 dBV/Pa (1.6 mV)",
+              "value": "-54.5 dBV/Pa (1.85 mV)",
               "value_es": "–56.0 dBV/Pa (1.6 mV)"
             },
             {
-              "value": "–32 dB (25 mV/Pa)",
+              "value": "-32 dB re 1 V/Pa (25 mV)",
               "value_es": "–32 dB (25 mV/Pa)"
             },
             {
@@ -31505,12 +32999,12 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
               "value": "4 dBA",
@@ -31531,15 +33025,15 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "180 dB",
-              "value_es": "180 dB"
+              "value": "Not officially rated (~180 dB est.)",
+              "value_es": "Sin clasificación oficial (~180 dB est.)"
             },
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
-              "value": "142 dB",
+              "value": "142 dB SPL",
               "value_es": "142 dB"
             },
             {
@@ -31561,8 +33055,8 @@
               "value_es": "150 Ω"
             },
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (300 Ω actual)",
+              "value_es": "150 Ω nominales (300 Ω reales)"
             },
             {
               "value": "100 Ω",
@@ -31575,6 +33069,214 @@
             {
               "value": "80 dB gain, 48V phantom",
               "value_es": "80 dB de ganancia, 48V phantom"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "126 dB via USB 32-bit float (marketing)",
+              "value_es": "126 dB vía USB 32-bit float (marketing)"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Large-diaphragm dynamic (size not disclosed)",
+              "value_es": "Dinámico de diafragma grande (tamaño no divulgado)"
+            },
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "HF6 1-inch gold-sputtered condenser",
+              "value_es": "Cápsula condensadora HF6 de 1 pulg con baño de oro"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "Bass rolloff + presence boost switches",
+              "value_es": "Interruptores de filtro de graves y realce de presencia"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "DSP HPF (75/150 Hz), compressor, gate, APHEX (USB)",
+              "value_es": "HPF por DSP (75/150 Hz), compresor, puerta, APHEX (USB)"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "+48 V (XLR); 5 V (USB)",
+              "value_es": "+48 V (XLR); 5 V (USB)"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "190 × 148 × 96 mm",
+              "value_es": "190 × 148 × 96 mm"
+            },
+            {
+              "value": "162 × 51 mm",
+              "value_es": "162 × 51 mm"
+            },
+            {
+              "value": "52 × 52 × 189 mm",
+              "value_es": "52 × 52 × 189 mm"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "765 g",
+              "value_es": "765 g"
+            },
+            {
+              "value": "298 g",
+              "value_es": "298 g"
+            },
+            {
+              "value": "308 g",
+              "value_es": "308 g"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
             }
           ]
         },
@@ -53238,56 +54940,56 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), passive",
+              "value_es": "Dinámico (bobina móvil), pasivo"
             },
             {
-              "value": "Ribbon",
-              "value_es": "Cinta"
+              "value": "Ribbon (figure-8)",
+              "value_es": "Cinta (figura-8)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil, Hostaphan)",
+              "value_es": "Dinámico (bobina móvil, Hostaphan)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (Variable-D)",
+              "value_es": "Dinámico (Variable-D)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (VLM Type E)",
+              "value_es": "Dinámico (VLM Tipo E)"
             },
             {
-              "value": "Condenser (SDC)",
-              "value_es": "Condensador (SDC)"
+              "value": "Condenser (SDC, transformerless FET)",
+              "value_es": "Condensador (SDC, FET sin transformador)"
             },
             {
-              "value": "Condenser (LDC)",
-              "value_es": "Condensador (LDC)"
+              "value": "Condenser (LDC, CKR12 ceramic capsule)",
+              "value_es": "Condensador (LDC, cápsula cerámica CKR12)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil)",
+              "value_es": "Dinámico (bobina móvil)"
             },
             {
-              "value": "Ribbon",
-              "value_es": "Cinta"
+              "value": "Ribbon (figure-8)",
+              "value_es": "Cinta (figura-8)"
             },
             {
-              "value": "Condenser (instrument)",
-              "value_es": "Condensador (instrumento)"
+              "value": "Condenser (miniature, pre-polarized)",
+              "value_es": "Condensador (miniatura, prepolarizado)"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (neodymium), passive",
+              "value_es": "Dinámico (neodimio), pasivo"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Dynamic (moving coil), clip-on",
+              "value_es": "Dinámico (bobina móvil), clip"
             }
           ]
         },
@@ -53301,15 +55003,19 @@
             },
             {
               "value": "Figure-8",
-              "value_es": "Bidireccional (Fig-8)"
+              "value_es": "Figura-8"
             },
             {
-              "value": "Super-cardioid",
+              "value": "Supercardioid",
               "value_es": "Supercardioide"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "Hypercardioid",
+              "value_es": "Hipercardioide"
+            },
+            {
+              "value": "Cardioid (Variable-D)",
+              "value_es": "Cardioide (Variable-D)"
             },
             {
               "value": "Cardioid",
@@ -53320,12 +55026,8 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Switchable (incl. dual) & fig-8",
-              "value_es": "Conmutables (incl. dual) y fig-8"
+              "value": "Switchable (incl. dual output)",
+              "value_es": "Conmutables (incl. salida dual)"
             },
             {
               "value": "Cardioid",
@@ -53333,15 +55035,15 @@
             },
             {
               "value": "Figure-8",
-              "value_es": "Bidireccional (Fig-8)"
+              "value_es": "Figura-8"
             },
             {
               "value": "Supercardioid",
               "value_es": "Supercardioide"
             },
             {
-              "value": "Super-cardioid",
-              "value_es": "Supercardioide"
+              "value": "Supercardioid (modified)",
+              "value_es": "Supercardioide (modificado)"
             },
             {
               "value": "Cardioid",
@@ -53358,7 +55060,7 @@
               "value_es": "40 Hz – 15 kHz"
             },
             {
-              "value": "30 Hz – 15 kHz",
+              "value": "30 Hz – 15 kHz (±3 dB)",
               "value_es": "30 Hz – 15 kHz"
             },
             {
@@ -53390,12 +55092,12 @@
               "value_es": "30 Hz – 17 kHz"
             },
             {
-              "value": "30 Hz – 20 kHz",
+              "value": "30 Hz – 15 kHz",
               "value_es": "30 Hz – 20 kHz"
             },
             {
-              "value": "20 Hz – 20 kHz (80 Hz – 15 kHz ±2dB) /useful",
-              "value_es": "20 Hz – 20 kHz (80 Hz – 15 kHz ±2 dB) útil"
+              "value": "20 Hz – 20 kHz (80 Hz – 15 kHz ±2 dB useful)",
+              "value_es": "20 Hz – 20 kHz (80 Hz – 15 kHz ±2 dB útil)"
             },
             {
               "value": "20 Hz – 10 kHz",
@@ -53412,23 +55114,23 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "–56.0 dBV/Pa (1.6 mV)",
+              "value": "-56.0 dBV/Pa (1.6 mV)",
               "value_es": "–56.0 dBV/Pa (1.6 mV)"
             },
             {
-              "value": "–47 dBV/Pa (4.5 mV)",
+              "value": "-47 dBV (4.5 mV)",
               "value_es": "–47 dBV/Pa (4.5 mV)"
             },
             {
-              "value": "2.2 mV/Pa (–53 dBV)",
+              "value": "2.2 mV/Pa (-53 dBV)",
               "value_es": "2.2 mV/Pa (–53 dBV)"
             },
             {
-              "value": "1.2 mV/Pa (–59 dBV)",
+              "value": "1.2 mV/Pa (-58 dBV)",
               "value_es": "1.2 mV/Pa (–59 dBV)"
             },
             {
-              "value": "–55.5 dBV/Pa (1.7 mV)",
+              "value": "1.5 mV/Pa (≈ -56.5 dBV)",
               "value_es": "–55.5 dBV/Pa (1.7 mV)"
             },
             {
@@ -53436,31 +55138,31 @@
               "value_es": "0.8 mV/Pa @ 80 Hz"
             },
             {
-              "value": "15 mV/Pa (≈ –36 dBV)",
+              "value": "15 mV/Pa (±1 dB)",
               "value_es": "15 mV/Pa (≈ –36 dBV)"
             },
             {
-              "value": "1 mV/Pa (–38 dBV)",
+              "value": "13 mV/Pa",
               "value_es": "1 mV/Pa (–38 dBV)"
             },
             {
-              "value": "2 mV/Pa (–54 dBV)",
+              "value": "2 mV/Pa (-54 dBV)",
               "value_es": "2 mV/Pa (–54 dBV)"
             },
             {
-              "value": "–65 dB re 1 V/Pa (0.56 mV)",
+              "value": "-65 dB re 1 V/Pa (0.56 mV)",
               "value_es": "–65 dB ref. 1 V/Pa (0.56 mV)"
             },
             {
-              "value": "6 mV/Pa (–44 dBV) Loud / 2 mV Extreme",
+              "value": "6 mV/Pa (Loud); 2 mV/Pa (Extreme)",
               "value_es": "6 mV/Pa (–44 dBV) Loud / 2 mV Extreme"
             },
             {
-              "value": "–64 dBV/Pa (0.6 mV)",
+              "value": "-64 dBV/Pa (0.6 mV)",
               "value_es": "–64 dBV/Pa (0.6 mV)"
             },
             {
-              "value": "1.8 mV/Pa (–55 dBV)",
+              "value": "1.8 mV/Pa (-55 dBV)",
               "value_es": "1.8 mV/Pa (–55 dBV)"
             }
           ]
@@ -53470,12 +55172,12 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
-              "value": "N/A (ribbon)",
-              "value_es": "N/D (cinta)"
+              "value": "N/A (passive ribbon)",
+              "value_es": "N/D (cinta pasiva)"
             },
             {
               "value": "N/A (dynamic)",
@@ -53506,16 +55208,16 @@
               "value_es": "N/D (dinámico)"
             },
             {
-              "value": "N/A (ribbon)",
-              "value_es": "N/D (cinta)"
+              "value": "N/A (passive ribbon)",
+              "value_es": "N/D (cinta pasiva)"
             },
             {
-              "value": "23 dB(A) (Loud)",
+              "value": "23 dB(A) (Loud); 28 dB(A) (Extreme)",
               "value_es": "23 dB(A) (Loud)"
             },
             {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             },
             {
               "value": "N/A (dynamic)",
@@ -53528,56 +55230,56 @@
           "label_es": "SPL Máximo",
           "values": [
             {
-              "value": "160 dB",
-              "value_es": "160 dB"
+              "value": "Not officially rated (~160 dB est.)",
+              "value_es": "Sin clasificación oficial (~160 dB est.)"
             },
             {
-              "value": ">160 dB @ 1 kHz",
-              "value_es": ">160 dB @ 1 kHz"
+              "value": ">160 dB @ 1 kHz (>135 dB @ 20 Hz)",
+              "value_es": ">160 dB @ 1 kHz (>135 dB @ 20 Hz)"
             },
             {
-              "value": "≥ 159 dB",
-              "value_es": "≥ 159 dB"
+              "value": ">159 dB (commonly cited; not official)",
+              "value_es": ">159 dB (comúnmente citado; no oficial)"
             },
             {
-              "value": "≥ 150 dB",
-              "value_es": "≥ 150 dB"
+              "value": "Not officially published (~140 dB commonly cited)",
+              "value_es": "No publicado oficialmente (~140 dB comúnmente citado)"
             },
             {
-              "value": "149 dB",
-              "value_es": "149 dB"
+              "value": "Not published (rated immune to overloading)",
+              "value_es": "No publicado (clasificado inmune a la sobrecarga)"
             },
             {
-              "value": "≥ 144 dB",
+              "value": "≥144 dB",
               "value_es": "≥ 144 dB"
             },
             {
-              "value": "138 dB",
+              "value": "138 dB (0.5% THD)",
               "value_es": "138 dB"
             },
             {
-              "value": "148 dB (158 dB w/ pad)",
-              "value_es": "148 dB (158 dB c/ pad)"
+              "value": "148 dB SPL (158 dB with pad)",
+              "value_es": "148 dB SPL (158 dB con pad)"
             },
             {
-              "value": "≥ 160 dB",
-              "value_es": "≥ 160 dB"
+              "value": ">160 dB (commonly cited; not official)",
+              "value_es": ">160 dB (comúnmente citado; no oficial)"
             },
             {
-              "value": "~165 dB (1% THD @ 1 kHz)",
-              "value_es": "~165 dB (1% THD @ 1 kHz)"
+              "value": "Not published (<1% THD @ 125 dB SPL)",
+              "value_es": "No publicado (<1% THD @ 125 dB SPL)"
             },
             {
-              "value": "142 dB (Loud) / 152 dB (Extreme)",
+              "value": "142 dB (Loud); 152 dB (Extreme)",
               "value_es": "142 dB (Loud) / 152 dB (Extreme)"
             },
             {
-              "value": "174 dB",
-              "value_es": "174 dB"
+              "value": "174 dB @ 1 kHz (1% THD, 1 kΩ load)",
+              "value_es": "174 dB @ 1 kHz (1% THD, carga 1 kΩ)"
             },
             {
-              "value": "≥ 150 dB",
-              "value_es": "≥ 150 dB"
+              "value": ">160 dB (official)",
+              "value_es": ">160 dB (oficial)"
             }
           ]
         },
@@ -53586,20 +55288,20 @@
           "label_es": "Impedancia de Salida",
           "values": [
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (310 Ω actual)",
+              "value_es": "150 Ω nominales (310 Ω reales)"
             },
             {
-              "value": "300 Ω",
-              "value_es": "300 Ω"
+              "value": "300 Ω (load > 1500 Ω)",
+              "value_es": "300 Ω (carga > 1500 Ω)"
             },
             {
-              "value": "350 Ω",
-              "value_es": "350 Ω"
+              "value": "350 Ω (min. load 1 kΩ)",
+              "value_es": "350 Ω (carga mín. 1 kΩ)"
             },
             {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
+              "value": "200 Ω (load ≥ 1 kΩ)",
+              "value_es": "200 Ω (carga ≥ 1 kΩ)"
             },
             {
               "value": "150 Ω",
@@ -53610,7 +55312,7 @@
               "value_es": "280 Ω"
             },
             {
-              "value": "150 Ω",
+              "value": "50 Ω",
               "value_es": "150 Ω"
             },
             {
@@ -53618,24 +55320,488 @@
               "value_es": "275 Ω"
             },
             {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
+              "value": "250 Ω (min. load 1 kΩ)",
+              "value_es": "250 Ω (carga mín. 1 kΩ)"
             },
             {
               "value": "300 Ω",
               "value_es": "300 Ω"
             },
             {
-              "value": "100 Ω (via adapter)",
-              "value_es": "100 Ω (vía adaptador)"
+              "value": "30-40 Ω (100 Ω via DAD adapter)",
+              "value_es": "30-40 Ω (100 Ω vía adaptador DAD)"
             },
             {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
+              "value": "150 Ω rated (45 Ω actual)",
+              "value_es": "150 Ω nominales (45 Ω reales)"
             },
             {
-              "value": "350 Ω",
-              "value_es": "350 Ω"
+              "value": "350 Ω (min. load 1 kΩ)",
+              "value_es": "350 Ω (carga mín. 1 kΩ)"
+            }
+          ]
+        },
+        {
+          "label": "Signal-to-Noise Ratio",
+          "label_es": "Relación Señal-Ruido",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "81 dB-A",
+              "value_es": "81 dB-A"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "71 dB (Loud); 66 dB (Extreme)",
+              "value_es": "71 dB (Loud); 66 dB (Extreme)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "Dynamic Range",
+          "label_es": "Rango Dinámico",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "122 dB (manual)",
+              "value_es": "122 dB (manual)"
+            },
+            {
+              "value": "Not published (~139 dB derived)",
+              "value_es": "No publicado (~139 dB derivado)"
+            },
+            {
+              "value": "Not published (described as remarkable)",
+              "value_es": "No publicado (descrito como notable)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "108 dB (Loud); 109 dB (Extreme)",
+              "value_es": "108 dB (Loud); 109 dB (Extreme)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            }
+          ]
+        },
+        {
+          "label": "THD at Max SPL",
+          "label_es": "THD al SPL Máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "0.5% @ 138 dB SPL",
+              "value_es": "0.5% @ 138 dB SPL"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "<1% @ 125 dB SPL",
+              "value_es": "<1% @ 125 dB SPL"
+            },
+            {
+              "value": "<1% up to 131 dB (Loud)",
+              "value_es": "<1% hasta 131 dB (Loud)"
+            },
+            {
+              "value": "1% THD @ 174 dB SPL (max SPL rating)",
+              "value_es": "1% THD @ 174 dB SPL (clasificación de SPL máx.)"
+            },
+            {
+              "value": "Not published (low-distortion rated)",
+              "value_es": "No publicado (clasificado como de baja distorsión)"
+            }
+          ]
+        },
+        {
+          "label": "Capsule / Diaphragm",
+          "label_es": "Cápsula / Diafragma",
+          "values": [
+            {
+              "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
+              "value_es": "Elemento dinámico Unidyne III (~0.6 pulg / 15 mm)"
+            },
+            {
+              "value": "2.5-micron pure aluminum ribbon, neodymium magnets",
+              "value_es": "Cinta de aluminio puro de 2.5 micras, imanes de neodimio"
+            },
+            {
+              "value": "Dynamic, thin diaphragm (fast transients)",
+              "value_es": "Dinámico de diafragma fino (transitorios rápidos)"
+            },
+            {
+              "value": "Hostaphan diaphragm dynamic",
+              "value_es": "Dinámico de diafragma Hostaphan"
+            },
+            {
+              "value": "Variable-D dynamic element",
+              "value_es": "Elemento dinámico Variable-D"
+            },
+            {
+              "value": "VLM Type E dynamic element",
+              "value_es": "Elemento dinámico VLM Tipo E"
+            },
+            {
+              "value": "KK 84 crossed-slit (SDC)",
+              "value_es": "KK 84 de ranuras cruzadas (SDC)"
+            },
+            {
+              "value": "CKR12 ceramic capsule (CK12-based)",
+              "value_es": "Cápsula cerámica CKR12 (basada en CK12)"
+            },
+            {
+              "value": "Moving-coil dynamic, inner bass tube",
+              "value_es": "Dinámico de bobina móvil con tubo de graves interno"
+            },
+            {
+              "value": "Low-mass damped ribbon",
+              "value_es": "Cinta amortiguada de baja masa"
+            },
+            {
+              "value": "5.4 mm pre-polarized condenser",
+              "value_es": "Condensador prepolarizado de 5.4 mm"
+            },
+            {
+              "value": "Neodymium dynamic element (size not disclosed)",
+              "value_es": "Elemento dinámico de neodimio (tamaño no divulgado)"
+            },
+            {
+              "value": "Moving-coil, lightweight coil, glass-fibre body",
+              "value_es": "Bobina móvil ligera, cuerpo de fibra de vidrio"
+            }
+          ]
+        },
+        {
+          "label": "Pad & High-Pass Filter",
+          "label_es": "Pad y Filtro Paso Alto",
+          "values": [
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "3-position presence switch (boost/flat/cut @ 4.2 kHz)",
+              "value_es": "Interruptor de presencia de 3 posiciones (boost/plano/corte @ 4.2 kHz)"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "Mid-bass tilt switch (LF rolloff, -4.5 dB 400-100 Hz)",
+              "value_es": "Interruptor de graves (filtro LF, -4.5 dB 400-100 Hz)"
+            },
+            {
+              "value": "None (fixed tailored response)",
+              "value_es": "Ninguno (respuesta fija personalizada)"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "-10/-20 dB pad; 40/80/160 Hz low-cut; dual output",
+              "value_es": "Pad de -10/-20 dB; filtro 40/80/160 Hz; salida dual"
+            },
+            {
+              "value": "None (no rolloff switch on Kompakt)",
+              "value_es": "Ninguno (el Kompakt no tiene interruptor de filtro)"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "80 Hz low-cut on DAD adapter",
+              "value_es": "Filtro de 80 Hz en el adaptador DAD"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Alimentación Phantom",
+          "values": [
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "+48 V ±4 V, 3.2 mA",
+              "value_es": "+48 V ±4 V, 3.2 mA"
+            },
+            {
+              "value": "+48 V, typ 2.1 mA",
+              "value_es": "+48 V, typ 2.1 mA"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "48 V via adapter (5-50 V)",
+              "value_es": "48 V vía adaptador (5-50 V)"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions",
+          "label_es": "Dimensiones",
+          "values": [
+            {
+              "value": "157 × 32 mm",
+              "value_es": "157 × 32 mm"
+            },
+            {
+              "value": "156 × 25 mm",
+              "value_es": "156 × 25 mm"
+            },
+            {
+              "value": "55 × 34 × 134 mm",
+              "value_es": "55 × 34 × 134 mm"
+            },
+            {
+              "value": "160 × 24 mm",
+              "value_es": "160 × 24 mm"
+            },
+            {
+              "value": "217 × 54 mm",
+              "value_es": "217 × 54 mm"
+            },
+            {
+              "value": "117 × 51 mm",
+              "value_es": "117 × 51 mm"
+            },
+            {
+              "value": "Ø22 × 107 mm",
+              "value_es": "Ø22 × 107 mm"
+            },
+            {
+              "value": "157 × 63 × 36 mm",
+              "value_es": "157 × 63 × 36 mm"
+            },
+            {
+              "value": "122 × 49 × 84 mm",
+              "value_es": "122 × 49 × 84 mm"
+            },
+            {
+              "value": "197 × 83 × 61 mm",
+              "value_es": "197 × 83 × 61 mm"
+            },
+            {
+              "value": "45 mm mic + 140 mm gooseneck",
+              "value_es": "45 mm micro + cuello de cisne de 140 mm"
+            },
+            {
+              "value": "160 × 120 × 70 mm",
+              "value_es": "160 × 120 × 70 mm"
+            },
+            {
+              "value": "Ø33 × 59 mm",
+              "value_es": "Ø33 × 59 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "284 g",
+              "value_es": "284 g"
+            },
+            {
+              "value": "244 g",
+              "value_es": "244 g"
+            },
+            {
+              "value": "140 g",
+              "value_es": "140 g"
+            },
+            {
+              "value": "220 g",
+              "value_es": "220 g"
+            },
+            {
+              "value": "737 g",
+              "value_es": "737 g"
+            },
+            {
+              "value": "254 g",
+              "value_es": "254 g"
+            },
+            {
+              "value": "80 g",
+              "value_es": "80 g"
+            },
+            {
+              "value": "360 g",
+              "value_es": "360 g"
+            },
+            {
+              "value": "159 g",
+              "value_es": "159 g"
+            },
+            {
+              "value": "1.08 kg",
+              "value_es": "1.08 kg"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "605 g",
+              "value_es": "605 g"
+            },
+            {
+              "value": "60 g",
+              "value_es": "60 g"
             }
           ]
         },
