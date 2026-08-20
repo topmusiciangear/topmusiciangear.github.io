@@ -4009,8 +4009,13 @@
       "official": "https://atc.audio/en/professional/loudspeakers/scm25a-pro-mk2/"
     },
     "excludeStores": [
+      "gear4music",
+      "amazon",
+      "reverb",
+      "andertons",
+      "musicstore",
       "zzounds",
-      "reverb"
+      "pluginboutique"
     ]
   },
   {
