@@ -6201,8 +6201,14 @@
     "img": "https://r2.gear4music.com/media/128/1280860/1200/preview_1.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Arturia-Minifuse-2-OTG/7IL4",
-      "official": "https://www.arturia.com/products/audio/minifuse-2-otg/overview"
-    }
+      "zzounds": "https://www.zzounds.com/item--AUAMINIFUSE2OTG",
+      "andertons": "https://www.andertons.co.uk/arturia-minifuse-2-otg/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FArturia-MiniFuse-2-OTG%2Fart-PCM0018713-000",
+      "amazon": "https://www.amazon.com/Arturia-Interface-Recording-Production-Podcasting/dp/B0G51NM793"
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   },
   {
     "id": 329,
@@ -6222,5 +6228,28 @@
       "official": "https://www.rode.com/microphones/procaster",
       "zzounds": "https://www.zzounds.com/a--925521/item--RODPROCAST"
     }
+  },
+  {
+    "id": 330,
+    "title": "Behringer XM8500 Ultravoice Dynamic Microphone",
+    "title_es": "Micrófono Dinámico Behringer XM8500 Ultravoice",
+    "brand": "Behringer",
+    "category": "microphones",
+    "price": 25,
+    "rating": 4.6,
+    "reviews": 12500,
+    "badge": "value",
+    "desc": "The XM8500 is the $25 dynamic that famously gets you most of an SM58 for a quarter of the price: a cardioid moving-coil vocal mic with a strong presence rise that cuts through live mixes, an integrated two-stage pop filter, shock mounting, and a tank-like all-metal body with an impact-resistant case and stand adapter included. It needs phantom-free XLR into any interface or mixer — pair it with a cheap interface and it's the lowest-cost way to a genuinely pro-sounding vocal chain.",
+    "desc_es": "El XM8500 es el dinámico de $25 que famosamente te da gran parte de un SM58 por una cuarta parte del precio: un micrófono vocal de bobina móvil cardioide con un fuerte realce de presencia que corta las mezclas en directo, filtro antipop de dos etapas integrado, suspensión antigolpes y un cuerpo totalmente metálico tipo tanque con estuche resistente a impactos y adaptador de soporte incluidos. Se conecta por XLR sin phantom a cualquier interfaz o mesa — combínalo con una interfaz barata y es la forma más económica de conseguir una cadena vocal de sonido realmente profesional.",
+    "img": "https://r2.gear4music.com/media/9/96452/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Behringer-XM8500-Ultravoice-Dynamic-Microphone/5IQ",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FBehringer-XM-8500-ULTRAVOICE%2Fart-PAH0000081-000",
+      "amazon": "https://www.amazon.com/dp/B082LZKNF3",
+      "andertons": "https://www.andertons.co.uk/behringer-xm8500-dynamic-microphone/"
+    },
+    "excludeStores": [
+      "zzounds"
+    ]
   }
 ]
