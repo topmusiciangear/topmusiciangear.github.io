@@ -1961,11 +1961,12 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .guide-product-card-currency-note {
-  margin-top: 6px;
-  font-size: 11px;
-  line-height: 1.4;
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.5;
   color: var(--text-muted);
   opacity: .8;
+  text-align: center;
 }
 
 .chip-store { 
