@@ -1763,6 +1763,11 @@ footer ul li a:hover { color: var(--accent); }
   border-radius: var(--radius-sm);
   background: var(--white);
   display: block;
+  transition: transform .2s ease;
+}
+
+.guide-section-img:hover {
+  transform: scale(1.08);
 }
 
 .guide-video-thumb {
