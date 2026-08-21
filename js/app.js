@@ -989,7 +989,9 @@ function showToast(msg) {
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (!el) return;
-  var targetY = el.getBoundingClientRect().top + window.pageYOffset - 78;
+  var hdr = document.querySelector('header');
+  var hh = hdr ? hdr.offsetHeight : 78;
+  var targetY = el.getBoundingClientRect().top + window.pageYOffset - hh;
   var startY = window.pageYOffset;
   var dist = targetY - startY;
   if (Math.abs(dist) < 5) return;
