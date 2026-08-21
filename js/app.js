@@ -159,6 +159,7 @@ function getCatName(catId) {
 }
 
 function setLang(lang) {
+  var stY = window.scrollY || 0;
   currentLang = lang;
   localStorage.setItem("lang", lang);
   document.documentElement.lang = lang;
@@ -198,6 +199,8 @@ function setLang(lang) {
   updateAudioLabel();
   renderMySetup();
   updateLangSwitcher();
+  requestAnimationFrame(function() { window.scrollTo(0, stY); });
+  setTimeout(function() { window.scrollTo(0, stY); }, 80);
 }
 
 function showModal() {

@@ -752,8 +752,8 @@ ${ogMeta}
           ${navDropdown(isEs)}
         </div>
         <div class="lang-switcher">
-          <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
-          <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'"><img class="lang-flag" src="../img/flag-es.svg" alt="ES" width="20" height="15"></button>
+          <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
+          <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'"><img class="lang-flag" src="../img/flag-es.svg" alt="ES" width="20" height="15"></button>
         </div>
         <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
           <span></span><span></span><span></span>
@@ -820,6 +820,7 @@ ${ogMeta}
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       ${userReviewsSection(guide, isEs)}
       <script>setTimeout(function(){document.querySelectorAll('.guide-product-card-desc').forEach(function(e){var b=e.nextElementSibling;if(b&&b.classList.contains('guide-product-card-desc-toggle')&&e.scrollHeight<=e.clientHeight)b.remove()});document.querySelectorAll('.guide-comp-wrap').forEach(function(w){var s=w.querySelector('.guide-comp-scroll');if(!s)return;if(s.scrollWidth<=s.clientWidth+1){w.querySelectorAll('.guide-comp-controls').forEach(function(c){c.style.display='none'})}});document.querySelectorAll('.guide-comp-scroll').forEach(function(s){function upd(){var w=s.closest('.guide-comp-wrap');if(!w)return;var max=s.scrollWidth-s.clientWidth;var pct=max>0?(s.scrollLeft/max*100):0;w.querySelectorAll('.guide-comp-progress-bar').forEach(function(b){b.style.width=pct+'%'})}s.addEventListener('scroll',upd);upd()})},100)</script>
+      <script>(function(){function rs(){var y=-1;try{y=parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10)}catch(e){}if(y>=0)window.scrollTo(0,y)}rs();setTimeout(rs,150);setTimeout(function(){rs();try{sessionStorage.removeItem('tmgLangScroll')}catch(e){}},600)})()</script>
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">
