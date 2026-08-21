@@ -67118,6 +67118,82 @@
           ]
         },
         {
+          "label": "Frequency Response",
+          "label_es": "Respuesta",
+          "values": [
+            {
+              "value": "40 Hz-20 kHz",
+              "value_es": "40 Hz-20 kHz"
+            },
+            {
+              "value": "20 Hz-20 kHz",
+              "value_es": "20 Hz-20 kHz"
+            },
+            {
+              "value": "40 Hz-20 kHz",
+              "value_es": "40 Hz-20 kHz"
+            },
+            {
+              "value": "40 Hz-20 kHz",
+              "value_es": "40 Hz-20 kHz"
+            },
+            {
+              "value": "20 Hz-20 kHz",
+              "value_es": "20 Hz-20 kHz"
+            },
+            {
+              "value": "50 Hz-20 kHz",
+              "value_es": "50 Hz-20 kHz"
+            },
+            {
+              "value": "20 Hz-20 kHz",
+              "value_es": "20 Hz-20 kHz"
+            },
+            {
+              "value": "50 Hz-20 kHz",
+              "value_es": "50 Hz-20 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Battery Life",
+          "label_es": "Autonomía",
+          "values": [
+            {
+              "value": "Phantom only",
+              "value_es": "Solo fantasma"
+            },
+            {
+              "value": "USB-C bank / 48V",
+              "value_es": "Banco USB-C / 48V"
+            },
+            {
+              "value": "Phantom only",
+              "value_es": "Solo fantasma"
+            },
+            {
+              "value": "~150 h (AA)",
+              "value_es": "~150 h (AA)"
+            },
+            {
+              "value": "Up to 1200 h (AA)",
+              "value_es": "Hasta 1200 h (AA)"
+            },
+            {
+              "value": "48V only",
+              "value_es": "Solo 48V"
+            },
+            {
+              "value": "30+ h (Li-ion)",
+              "value_es": "30+ h (Li-ion)"
+            },
+            {
+              "value": "2xAAA",
+              "value_es": "2xAAA"
+            }
+          ]
+        },
+        {
           "label": "Best For",
           "label_es": "Ideal Para",
           "values": [
