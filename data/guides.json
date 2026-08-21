@@ -67682,8 +67682,16 @@
           "title_es": "Xvive U4"
         },
         {
+          "title": "U4R4",
+          "title_es": "U4R4"
+        },
+        {
           "title": "PTM-10",
           "title_es": "PTM-10"
+        },
+        {
+          "title": "U508",
+          "title_es": "U508"
         }
       ],
       "rows": [
@@ -67706,6 +67714,14 @@
             {
               "value": "2.4 GHz mono",
               "value_es": "2,4 GHz mono"
+            },
+            {
+              "value": "2.4 GHz mono",
+              "value_es": "2,4 GHz mono"
+            },
+            {
+              "value": "UHF stereo",
+              "value_es": "UHF estéreo"
             },
             {
               "value": "UHF stereo",
@@ -67734,8 +67750,16 @@
               "value_es": "<5 ms"
             },
             {
+              "value": "<5 ms",
+              "value_es": "<5 ms"
+            },
+            {
               "value": "~6 ms",
               "value_es": "~6 ms"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicada"
             }
           ]
         },
@@ -67760,8 +67784,16 @@
               "value_es": "27 m"
             },
             {
+              "value": "90 ft",
+              "value_es": "27 m"
+            },
+            {
               "value": "160 ft",
               "value_es": "49 m"
+            },
+            {
+              "value": ">328 ft",
+              "value_es": ">100 m"
             }
           ]
         },
@@ -67786,8 +67818,16 @@
               "value_es": "1 (agrega más)"
             },
             {
+              "value": "4 included",
+              "value_es": "4 incluidos"
+            },
+            {
               "value": "1",
               "value_es": "1"
+            },
+            {
+              "value": "1 (expandable)",
+              "value_es": "1 (expandible)"
             }
           ]
         },
@@ -67810,6 +67850,14 @@
             {
               "value": "USB-C rechargeable",
               "value_es": "Recargable USB-C"
+            },
+            {
+              "value": "USB-C rechargeable",
+              "value_es": "Recargable USB-C"
+            },
+            {
+              "value": "2x AA",
+              "value_es": "2x AA"
             },
             {
               "value": "2x AA",
@@ -67838,8 +67886,16 @@
               "value_es": "Ninguno"
             },
             {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
               "value": "Basic pair",
               "value_es": "Par básico"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
             }
           ]
         },
@@ -67864,8 +67920,16 @@
               "value_es": "Simplicidad plug-and-play"
             },
             {
+              "value": "Whole bands",
+              "value_es": "Bandas enteras"
+            },
+            {
               "value": "Budget stereo",
               "value_es": "Estéreo económico"
+            },
+            {
+              "value": "The sleeper pick",
+              "value_es": "La elección durmiente"
             }
           ]
         },
@@ -67890,8 +67954,16 @@
               "value_es": "$250"
             },
             {
+              "value": "$600",
+              "value_es": "$600"
+            },
+            {
               "value": "$229",
               "value_es": "$229"
+            },
+            {
+              "value": "$385",
+              "value_es": "$385"
             }
           ]
         }
@@ -67980,6 +68052,118 @@
           "El espectro de 2,4 GHz pelea con el Wi-Fi en venues llenos",
           "Alcance de 27 m limita el movimiento en escenarios grandes",
           "Sin opción de montaje en rack para el transmisor"
+        ]
+      },
+      {
+        "name": "Sennheiser EW IEM G4-TWIN",
+        "name_es": "Sennheiser EW IEM G4-TWIN",
+        "pros": [
+          "Two stereo receivers around one transmitter cost far less than two separate systems",
+          "Same clean analog audio platform as the flagship EW IEM G4",
+          "Simple IR sync gets duos rehearsing wirelessly in minutes",
+          "Solid range for rehearsal rooms and occasional small stages"
+        ],
+        "pros_es": [
+          "Dos receptores estéreo alrededor de un transmisor cuestan mucho menos que dos sistemas separados",
+          "La misma plataforma de audio analógico limpio que el EW IEM G4 insignia",
+          "La sincronización IR simple tiene al dúo ensayando inalámbrico en minutos",
+          "Alcance sólido para salas de ensayo y escenarios pequeños ocasionales"
+        ],
+        "cons": [
+          "Narrower frequency agility within its band than the single EW IEM G4",
+          "Both players share one transmitter feed - a single mix source for the duo",
+          "$1,099 is real money for pairs who only gig occasionally",
+          "Stock IE 4 earbuds undersell the system - budget an upgrade"
+        ],
+        "cons_es": [
+          "Agilidad de frecuencias más estrecha en su banda que el EW IEM G4 individual",
+          "Ambos músicos comparten la alimentación del transmisor: una sola fuente de mezcla para el dúo",
+          "$1,099 es dinero serio para parejas que solo tocan ocasionalmente",
+          "Los IE 4 incluidos venden corto el sistema: presupuesta una mejora"
+        ]
+      },
+      {
+        "name": "Xvive U4R4",
+        "name_es": "Xvive U4R4",
+        "pros": [
+          "Four bodypacks for $600 - roughly what ONE channel of legacy UHF gear cost",
+          "Sub-5 ms latency identical to the single Xvive U4",
+          "USB-C charging across every unit eliminates disposable batteries",
+          "Setup takes minutes, and spare packs stay cheap as members join"
+        ],
+        "pros_es": [
+          "Cuatro bodypacks por $600: aproximadamente lo que costaba UN canal del equipo UHF antiguo",
+          "Latencia menor a 5 ms idéntica al Xvive U4 individual",
+          "Carga USB-C en cada unidad elimina las pilas desechables",
+          "Configuración en minutos y los packs de repuesto siguen baratos cuando se une alguien más"
+        ],
+        "cons": [
+          "Mono summing only for all four players",
+          "2.4 GHz spectrum fights Wi-Fi in packed venues",
+          "90 ft range limits roaming on larger stages",
+          "One shared mix source - no individual mixes per member"
+        ],
+        "cons_es": [
+          "Solo suma mono para los cuatro músicos",
+          "El espectro de 2,4 GHz pelea con el Wi-Fi en venues llenos",
+          "El alcance de 27 m limita el movimiento en escenarios grandes",
+          "Una sola fuente de mezcla compartida: sin mezclas individuales por miembro"
+        ]
+      },
+      {
+        "name": "Phenyx Pro PTM-10",
+        "name_es": "Phenyx Pro PTM-10",
+        "pros": [
+          "Genuine stereo UHF monitoring for under $230",
+          "Metal transmitter rack-mounts two-up with a friendlier sibling unit",
+          "Bodypack balance, EQ and a limiter usually reserved for pricier boxes",
+          "89 selectable frequencies handle moderate RF congestion"
+        ],
+        "pros_es": [
+          "Monitoreo estéreo UHF genuino por menos de $230",
+          "Transmisor metálico montable en rack de dos en dos",
+          "Balance, EQ y limitador en el bodypack reservados normalmente a cajas más caras",
+          "89 frecuencias seleccionables manejan congestión RF moderada"
+        ],
+        "cons": [
+          "Self-noise sits above Sennheiser-tier systems",
+          "Included earbuds are basic - plan an upgrade",
+          "~6 ms latency trails the sub-5 ms competition",
+          "160 ft range is modest for outdoor stages"
+        ],
+        "cons_es": [
+          "El auto-ruido queda por encima de sistemas nivel Sennheiser",
+          "Los auriculares incluidos son básicos: planea una mejora",
+          "La latencia de ~6 ms va detrás de la competencia de menos de 5 ms",
+          "El alcance de 49 m es modesto para exteriores"
+        ]
+      },
+      {
+        "name": "LD Systems U508 IEM",
+        "name_es": "LD Systems U508 IEM",
+        "pros": [
+          "OLED displays on both transmitter and bodypack at a mid-market price",
+          "96 channels with IR sync and switchable 2/10/30 mW RF power",
+          "3-band EQ with parametric mids plus switchable limiter onboard",
+          ">330 ft range outclasses everything here except the flagships"
+        ],
+        "pros_es": [
+          "Pantallas OLED en transmisor y bodypack a precio de mercado medio",
+          "96 canales con sincronización IR y potencia RF conmutable de 2/10/30 mW",
+          "EQ de 3 bandas con medios paramétricos más limitador conmutable a bordo",
+          "Alcance de más de 100 m supera todo aquí salvo los insignia"
+        ],
+        "cons": [
+          "Earphones not included - budget a pair on top of the $385",
+          "96 channels coordinate fewer simultaneous systems than the G4 family",
+          "Regional band variants differ - verify compatibility before ordering abroad",
+          "Latency figure is unpublished by LD Systems"
+        ],
+        "cons_es": [
+          "Auriculares no incluidos: presupuesta un par además de los $385",
+          "96 canales coordinan menos sistemas simultáneos que la familia G4",
+          "Las variantes regionales de banda difieren: verifica compatibilidad antes de pedir fuera",
+          "LD Systems no publica la cifra de latencia"
         ]
       }
     ],
