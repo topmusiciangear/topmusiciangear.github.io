@@ -1761,9 +1761,8 @@ footer ul li a:hover { color: var(--accent); }
   height: 120px;
   object-fit: contain;
   border-radius: var(--radius-sm);
-  background: var(--bg-secondary);
+  background: var(--white);
   padding: 8px;
-  border: 1px solid var(--border);
 }
 
 .guide-video-thumb {
