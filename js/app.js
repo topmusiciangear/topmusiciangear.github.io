@@ -1213,7 +1213,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initLangSwitcher();
   renderGuideCats();
 
-  window.filterCategory = function(cat) {
+  window.filterCategory = function(cat, opts) {
     currentCategory = cat;
     guideVisibleCount = guidePageSize;
     document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
@@ -1223,7 +1223,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        scrollToSection("guides");
+        if (!(opts && opts.noScroll)) scrollToSection("guides");
         var active = document.querySelector(".cat-card.active");
         var carousel = document.getElementById("guideCats");
         if (active && carousel && window.innerWidth <= 768) {
@@ -1260,9 +1260,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (catParam) {
       history.replaceState({}, '', '/');
-      window.filterCategory(catParam);
-      setTimeout(function() { scrollToSection('guides'); }, 300);
-      setTimeout(function() { scrollToSection('guides'); }, 800);
+      window.filterCategory(catParam, { noScroll: true });
     }
     renderAudioMini();
     renderMySetup();
@@ -1327,8 +1325,19 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideDetail(q);
     } else {
       renderGuideGrid();
-      setTimeout(function() { scrollToSection("guides"); }, 200);
     }
+  });
+
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest ? e.target.closest('.guide-back-btn') : null;
+    if (!a || !a.href) return;
+    try {
+      var r = document.referrer ? new URL(document.referrer) : null;
+      if (r && r.origin === location.origin && r.pathname === '/' && history.length > 1) {
+        e.preventDefault();
+        history.back();
+      }
+    } catch (err) {}
   });
 
   document.addEventListener('play', e => {
