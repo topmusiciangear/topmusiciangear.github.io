@@ -1181,7 +1181,7 @@ function injectGuideJsonLd(guide) {
   });
   addJsonLd({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqItems });
   if (guide.steps && guide.steps.length) {
-    addJsonLd({ "@context": "https://schema.org", "@type": "HowTo", "name": title, "description": descText, "step": guide.steps.map(function(s, i) { return { "@type": "HowToStep", "position": i + 1, "name": s.name, "text": s.text, "url": s.url || url }; }) });
+    addJsonLd({ "@context": "https://schema.org", "@type": "HowTo", "name": title, "description": descText, "step": guide.steps.map(function(s, i) { return { "@type": "HowToStep", "position": i + 1, "name": lang === 'es' && s.name_es ? s.name_es : s.name, "text": lang === 'es' && s.text_es ? s.text_es : s.text, "url": s.url || url }; }) });
   }
   addJsonLd({ "@context": "https://schema.org", "@type": "Person", "name": "Daniel Carnago", "givenName": "Daniel", "familyName": "Carnago", "alternateName": "Cuban3Beats", "jobTitle": "Professional Musician & Audio Engineer", "description": "Touring musician with 20+ years of experience on world stages including Glastonbury, Broadway, and Abbey Road.", "url": "https://topmusiciangear.com/about.html", "sameAs": ["https://www.youtube.com/@Cuban3Beats","https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX","https://www.tiktok.com/@cuban3beats","https://www.facebook.com/Cuban3Beats/","https://www.instagram.com/cuban3beats","https://x.com/Cuban3Beats"], "knowsAbout": ["Audio Engineering","Music Production","Live Sound","Studio Recording","Music Gear"] });
 }
