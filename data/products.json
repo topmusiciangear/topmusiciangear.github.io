@@ -6656,23 +6656,6 @@
     }
   },
   {
-    "id": 351,
-    "title": "LD Systems U508 IEM Wireless System",
-    "title_es": "Sistema Inalámbrico LD Systems U508 IEM",
-    "brand": "LD Systems",
-    "category": "live_sound",
-    "price": 385,
-    "rating": 4.3,
-    "reviews": 58,
-    "badge": "recommended",
-    "desc": "European-built UHF system with OLED displays, IR sync, 96 channels, selectable RF power and a parametric mid EQ with limiter on the bodypack.",
-    "desc_es": "Sistema UHF de fabricación europea con pantallas OLED, sincronización IR, 96 canales, potencia RF seleccionable y EQ paramétrico de medios con limitador en el bodypack.",
-    "img": "https://r2.gear4music.com/media/46/468483/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/LD-Systems-U508-IEM-In-Ear-Monitoring-System/2Y37"
-    }
-  },
-  {
     "id": 352,
     "title": "Gretsch G9500 Jim Dandy Flat Top",
     "title_es": "Guitarra Gretsch G9500 Jim Dandy Flat Top",
@@ -6854,6 +6837,24 @@
       "amazon": "https://www.amazon.com/dp/B0C9MXYBQP",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Highway-Series-Parlor-Electro-Acoustic-RW-All-Mahogany/5SL7",
       "zzounds": "https://www.zzounds.com/a--925521/item--FEN0972522"
+    }
+  },
+  {
+    "id": 362,
+    "title": "Sennheiser XSW IEM Wireless System",
+    "title_es": "Sistema Inalámbrico Sennheiser XSW IEM",
+    "brand": "Sennheiser",
+    "category": "live_sound",
+    "price": 649,
+    "rating": 4.3,
+    "reviews": 93,
+    "badge": "recommended",
+    "desc": "Sennheiser's entry UHF rig: metal half-rack transmitter, focus mode, EQ and limiter at the belt pack, unlimited IR-synced receivers, with IE 4 earbuds and a rack kit included.",
+    "desc_es": "El equipo UHF de entrada de Sennheiser: transmisor metálico de medio rack, focus mode, EQ y limitador en el belt pack, receptores ilimitados sincronizados por IR, con auriculares IE 4 y kit de rack incluidos.",
+    "img": "https://cf1.zzounds.com/media/productmedia/fit%2C600by600/quality%2C85/XS_Wireless_IEM_Set_Cutout_Shot_846783-66d8753f5809c7ec1ae5ec03357b3409.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--SENXSWIEMSETA",
+      "amazon": "https://www.amazon.com/dp/B09TPWKY77"
     }
   }
 ]
