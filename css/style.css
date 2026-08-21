@@ -1961,7 +1961,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .guide-product-card-currency-note {
-  margin: 18px 0;
+  margin: 24px 0 10px;
   font-size: 12px;
   line-height: 1.5;
   color: var(--white);
