@@ -1766,6 +1766,45 @@ footer ul li a:hover { color: var(--accent); }
   border: 1px solid var(--border);
 }
 
+.guide-video-thumb {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+}
+
+.guide-video-thumb .guide-video-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.guide-video-thumb:hover .guide-video-poster {
+  opacity: .85;
+}
+
+.guide-video-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .3);
+  transition: background .2s ease;
+}
+
+.guide-video-play svg {
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .8));
+}
+
+.guide-video-thumb:hover .guide-video-play {
+  background: rgba(0, 0, 0, .45);
+}
+
 .guide-byline {
   font-size: 14px;
   color: var(--text-muted);

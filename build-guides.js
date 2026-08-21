@@ -534,9 +534,19 @@ function buildGuidePage(guide, lang, idx) {
     } else {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
       sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>' : '';
-      productImgs = firstProduct ? '<div class="guide-section-imgs">' +
-        '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
-      '</div>' : '';
+      if (firstProduct && s.video) {
+        const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
+        productImgs = '<div class="guide-section-imgs">' +
+          '<div class="guide-video-thumb lb-video" data-yt="' + s.video + '" role="button" aria-label="Play video" tabindex="0">' +
+            '<img src="https://i.ytimg.com/vi/' + s.video + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + s.video + '/hqdefault.jpg\'">' +
+            '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="26" height="26" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>' +
+          '</div>' +
+        '</div>';
+      } else {
+        productImgs = firstProduct ? '<div class="guide-section-imgs">' +
+          '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+        '</div>' : '';
+      }
     }
     return `<div class="guide-section">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
