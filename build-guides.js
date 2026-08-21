@@ -539,7 +539,7 @@ function buildGuidePage(guide, lang, idx) {
         productImgs = '<div class="guide-section-imgs">' +
           '<div class="guide-video-thumb lb-video" data-yt="' + s.video + '" role="button" aria-label="Play video" tabindex="0">' +
             '<img src="https://i.ytimg.com/vi/' + s.video + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + s.video + '/hqdefault.jpg\'">' +
-            '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="26" height="26" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>' +
+            '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
           '</div>' +
         '</div>';
       } else {
