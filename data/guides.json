@@ -58569,9 +58569,9 @@
       "faq_q3_es": "¿Puedo conectar la interfaz al móvil para hacer directos?",
       "faq_a3_es": "Con el MiniFuse 2 OTG, sí: su segundo puerto USB-C existe justo para eso. Enchufas el iPhone o el Android y los dos micrófonos siguen activos gracias a su hub integrado. El resto de unidades de la lista están pensadas para PC y consola; si tu directo sale del teléfono, esta es la única que lo hace bien y sin adaptadores.",
       "faq_q4_en": "What is loopback and why will I care about it?",
-      "faq_a4_en": "Loopback routes game, Discord and browser audio back into your streaming software without virtual audio cables. The EVO 4, Volt 276 and MiniFuse 2 OTG include it; the Rodecaster Duo and Bridge Cast X handle routing with hardware buses you control by fader. Without it you end up capturing desktop audio, and every notification lands on your stream.",
+      "faq_a4_en": "Loopback routes game, Discord and browser audio back into your streaming software without virtual audio cables. The Audient EVO 4 ships dedicated loopback channels and the Maonocaster E2 integrates it too; the Rodecaster Duo and Bridge Cast X handle routing with hardware buses you control by fader. Without it you end up capturing desktop audio, and every notification lands on your stream.",
       "faq_q4_es": "¿Para qué sirve el loopback y por qué me va a importar?",
-      "faq_a4_es": "El loopback devuelve el audio del juego, Discord o el navegador a tu software de emisión sin cables virtuales ni VB-Audio Cable. Lo traen de serie el EVO 4, el Volt 276 y el MiniFuse 2 OTG; el Rodecaster Duo y el Bridge Cast X resuelven el enrutamiento con buses de hardware controlados por fader. Sin loopback acabas capturando el audio del escritorio, y cualquier notificación se cuela en el directo.",
+      "faq_a4_es": "El loopback devuelve el audio del juego, Discord o el navegador a tu software de emisión sin cables virtuales ni VB-Audio Cable. El Audient EVO 4 trae canales de loopback dedicados y el Maonocaster E2 también lo integra; el Rodecaster Duo y el Bridge Cast X resuelven el enrutamiento con buses de hardware controlados por fader. Sin loopback acabas capturando el audio del escritorio, y cualquier notificación se cuela en el directo.",
       "faq_q5_en": "Streaming console or plain interface: which one fits me?",
       "faq_a5_en": "Depends on how much you touch mid-stream. Talking plus gaming? A simple interface with loopback is plenty. The moment you want to duck music with a fader, mute your mic with a physical pad or bring a guest into the call, consoles win (Rodecaster Duo, Bridge Cast X, Maonocaster E2): everything happens in hardware even if OBS crashes.",
       "faq_q5_es": "¿Consola de streaming o interfaz simple: qué me conviene?",
@@ -58698,28 +58698,28 @@
           "label_es": "Valoración en Amazon",
           "values": [
             {
-              "value": "4.5/5 (3,000)",
-              "value_es": "4.5/5 (3,000)"
+              "value": "4.3/5 (699)",
+              "value_es": "4.3/5 (699)"
             },
             {
-              "value": "4.7/5 (48)",
-              "value_es": "4.7/5 (48)"
+              "value": "4.3/5 (52)",
+              "value_es": "4.3/5 (52)"
             },
             {
-              "value": "4.4/5 (1,663)",
-              "value_es": "4.4/5 (1,663)"
+              "value": "4.4/5 (1,662)",
+              "value_es": "4.4/5 (1,662)"
             },
             {
-              "value": "4.7/5 (458)",
-              "value_es": "4.7/5 (458)"
+              "value": "4.7/5 (463)",
+              "value_es": "4.7/5 (463)"
             },
             {
-              "value": "4.2/5 (5)",
-              "value_es": "4.2/5 (5)"
+              "value": "5.0/5 (3)",
+              "value_es": "5.0/5 (3)"
             },
             {
-              "value": "4.3/5 (285)",
-              "value_es": "4.3/5 (285)"
+              "value": "4.2/5 (295)",
+              "value_es": "4.2/5 (295)"
             }
           ]
         },
@@ -58750,6 +58750,66 @@
             {
               "value": "2 XLR combo preamps, 60dB + Bluetooth",
               "value_es": "2 previos combo XLR, 60dB + Bluetooth"
+            }
+          ]
+        },
+        {
+          "label": "Power",
+          "label_es": "Alimentación",
+          "values": [
+            {
+              "value": "USB-C with included power supply",
+              "value_es": "USB-C con fuente incluida"
+            },
+            {
+              "value": "USB powered",
+              "value_es": "Alimentado por USB"
+            },
+            {
+              "value": "USB bus-powered",
+              "value_es": "Bus-powered por USB"
+            },
+            {
+              "value": "USB bus-powered",
+              "value_es": "Bus-powered por USB"
+            },
+            {
+              "value": "USB bus-powered",
+              "value_es": "Bus-powered por USB"
+            },
+            {
+              "value": "1500mAh battery (~8h) + USB-C",
+              "value_es": "Batería 1500mAh (~8h) + USB-C"
+            }
+          ]
+        },
+        {
+          "label": "Key Extras",
+          "label_es": "Extras Destacados",
+          "values": [
+            {
+              "value": "Touchscreen, 4 faders, 6 SMART pads, wireless receiver, APHEX",
+              "value_es": "Pantalla táctil, 4 faders, 6 pads SMART, receptor inalámbrico, APHEX"
+            },
+            {
+              "value": "Dual HDMI capture, assignable pads, 32-bit DSP, voice changer",
+              "value_es": "Captura HDMI doble, pads asignables, DSP 32-bit, voice changer"
+            },
+            {
+              "value": "Auto Smartgain, loopback, Cubase LE included",
+              "value_es": "Smartgain automático, loopback, Cubase LE incluido"
+            },
+            {
+              "value": "Analog 76 compressor, Vintage mode, LUNA + UA plugin bundle",
+              "value_es": "Compresor analógico 76, modo Vintage, bundle LUNA + plugins UA"
+            },
+            {
+              "value": "Mobile OTG port, 2-port USB hub, Ableton Live Lite",
+              "value_es": "Puerto OTG para móvil, hub USB de 2 puertos, Ableton Live Lite"
+            },
+            {
+              "value": "Internal battery, Bluetooth, sound pads, loopback",
+              "value_es": "Batería interna, Bluetooth, pads de sonido, loopback"
             }
           ]
         },
