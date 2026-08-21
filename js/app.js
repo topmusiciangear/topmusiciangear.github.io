@@ -199,8 +199,9 @@ function setLang(lang) {
   updateAudioLabel();
   renderMySetup();
   updateLangSwitcher();
-  requestAnimationFrame(function() { window.scrollTo(0, stY); });
-  setTimeout(function() { window.scrollTo(0, stY); }, 80);
+  var n = 0;
+  (function st() { window.scrollTo(0, stY); n++; if (n < 60) requestAnimationFrame(st); })();
+  window.addEventListener("load", function() { window.scrollTo(0, stY); });
 }
 
 function showModal() {
