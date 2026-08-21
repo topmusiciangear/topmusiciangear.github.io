@@ -1261,6 +1261,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (catParam) {
       history.replaceState({}, '', '/');
       window.filterCategory(catParam, { noScroll: true });
+    } else {
+      var goHome = null;
+      try {
+        goHome = sessionStorage.getItem('tmgGoHome');
+        if (goHome) sessionStorage.removeItem('tmgGoHome');
+      } catch (err) {}
+      if (goHome) {
+        var st = null;
+        try { st = JSON.parse(sessionStorage.getItem('tmgHomeState') || 'null'); } catch (err) {}
+        if (st) {
+          if (st.c && st.c !== currentCategory) window.filterCategory(st.c, { noScroll: true });
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() { window.scrollTo(0, st.y || 0); });
+          });
+          setTimeout(function() { window.scrollTo(0, st.y || 0); }, 250);
+        }
+      }
     }
     renderAudioMini();
     renderMySetup();
@@ -1335,8 +1352,22 @@ document.addEventListener("DOMContentLoaded", () => {
       var r = document.referrer ? new URL(document.referrer) : null;
       if (r && r.origin === location.origin && r.pathname === '/' && history.length > 1) {
         e.preventDefault();
+        sessionStorage.setItem('tmgGoHome', '1');
         history.back();
       }
+    } catch (err) {}
+  });
+
+  window.addEventListener('pageshow', function(e) {
+    if (e.persisted) {
+      try { sessionStorage.removeItem('tmgGoHome'); } catch (err) {}
+    }
+  });
+
+  window.addEventListener('pagehide', function() {
+    if (!document.getElementById("guideGrid")) return;
+    try {
+      sessionStorage.setItem('tmgHomeState', JSON.stringify({ c: currentCategory || 'all', y: window.pageYOffset }));
     } catch (err) {}
   });
 
