@@ -58490,6 +58490,15 @@
         ]
       },
       {
+        "heading": "Is the Arturia MiniFuse 2 OTG the Best Interface for Mobile Streaming?",
+        "heading_es": "¿Es el Arturia MiniFuse 2 OTG la Mejor Interfaz para Streaming desde el Móvil?",
+        "content": "<p><strong>The Arturia MiniFuse 2 OTG ($219) is the only interface on this list built to go live from a phone.</strong> Beyond working as a regular 2-input interface with your PC or Mac, it adds a second dedicated USB-C OTG port that connects iPhones and Android devices directly, plus a built-in USB hub that keeps your mic and keyboard plugged in while you stream. It runs on bus power, fits in any backpack and carries Arturia's clean preamps and software bundle, covering both mobile streams and everyday desktop duty.</p>",
+        "content_es": "<p><strong>El Arturia MiniFuse 2 OTG ($219) es la única interfaz de esta lista pensada para emitir desde el teléfono.</strong> Además de funcionar como interfaz normal de 2 entradas con tu PC o Mac, trae un segundo puerto USB-C OTG que conecta iPhone y Android directamente, y un hub USB integrado que mantiene tu micrófono y teclado enchufados mientras emites. Se alimenta por bus, cabe en cualquier mochila y hereda los previos limpios y el pack de software de Arturia, así que cubre tanto el directo desde el móvil como el día a día en el escritorio.</p>",
+        "products": [
+          328
+        ]
+      },
+      {
         "products": [
           327
         ],
@@ -58546,27 +58555,27 @@
       "best2_es": "",
       "key1_es": "",
       "key2_es": "",
-      "faq_q1_en": "What is the best audio interface for streaming?",
-      "faq_a1_en": "The Rode Rodecaster Duo ($499) is the most complete streaming console, with two Revolution preamps that drive demanding mics without a booster, a touchscreen, SMART pads and APHEX processing. For console gamers, the Roland Bridge Cast X ($499) adds HDMI video capture to its dual-bus mixer. On a budget, the Audient EVO 4 ($129) is the smart pick with Smartgain auto-level setup and loopback.",
-      "faq_q2_en": "Do streaming interfaces need phantom power?",
-      "faq_a2_en": "Only if you use condenser microphones. All four units here include phantom power on their XLR inputs — the Rodecaster Duo, Bridge Cast X, Audient EVO 4 and Universal Audio Volt 276 all power condenser mics. Dynamic mics like the SM7B do not need phantom power, only clean gain, which all four provide.",
-      "faq_q1_es": "¿Cuál es la mejor interfaz de audio para streaming?",
-      "faq_a1_es": "El Rode Rodecaster Duo ($499) es la consola de streaming más completa, con dos preamplificadores Revolution que mueven micrófonos exigentes sin booster, pantalla táctil, pads SMART y procesamiento APHEX. Para gamers de consola, el Roland Bridge Cast X ($499) añade captura de vídeo HDMI a su mezclador de doble bus. Con presupuesto ajustado, el Audient EVO 4 ($129) es la elección inteligente con ajuste automático de nivel Smartgain y loopback.",
-      "faq_q2_es": "¿Las interfaces de streaming necesitan alimentación phantom?",
-      "faq_a2_es": "Solo si usas micrófonos de condensador. Las cuatro unidades de aquí incluyen alimentación phantom en sus entradas XLR — el Rodecaster Duo, el Bridge Cast X, el Audient EVO 4 y el Universal Audio Volt 276 alimentan micros de condensador. Los dinámicos como el SM7B no necesitan phantom, solo ganancia limpia, que los cuatro proporcionan.",
+      "faq_q1_en": "How much should you actually spend on a streaming interface?",
+      "faq_a1_en": "Less than you think: $110–$130 covers the essentials. The Maonocaster E2 or Audient EVO 4 give you clean gain, loopback and headphone mixing without fighting OBS. Jumping to $499 consoles like the Rodecaster Duo makes sense once you mix guests, music and chat live or want physical pads; for voice plus game audio, you do not need it.",
+      "faq_q2_en": "Can the Audient EVO 4 drive a Shure SM7B or do I need a booster?",
+      "faq_a2_en": "It works, barely: with 58dB you run near maximum gain and the noise floor creeps in. The Rodecaster Duo's Revolution preamps (76dB) drive it with room to spare, the Bridge Cast X is built for broadcast mics, and the Volt 276 adds its analog compressor for extra presence. If you already own the EVO 4, a Cloudlifter fixes it for about $100.",
+      "faq_q1_es": "¿Cuánto hay que gastar de verdad en una interfaz para streaming?",
+      "faq_a1_es": "Menos de lo que crees: con $110–$130 ya tienes lo esencial. El Maonocaster E2 o el Audient EVO 4 te dan ganancia limpia, loopback y mezcla de auriculares sin pelear con OBS. El salto a las consolas de $499 como el Rodecaster Duo se justifica cuando mezclas invitados, música y chat en directo o quieres pads físicos; para voz y audio del juego, sobra.",
+      "faq_q2_es": "¿El Audient EVO 4 mueve un Shure SM7B o necesito un booster?",
+      "faq_a2_es": "Funciona, pero justito: con 58dB tienes que trabajar cerca del máximo y el ruido de fondo se nota. Los 76dB de los previos Revolution del Rodecaster Duo lo mueven con margen de sobra y el Bridge Cast X viene diseñado para micros de broadcast; el Volt 276 suma su compresor analógico, que ayuda a dar presencia. Si ya tienes el EVO 4, un Cloudlifter lo resuelve por unos $100.",
       "specs": [],
-      "faq_q3_en": "Can I use a streaming interface with a PlayStation?",
-      "faq_a3_en": "Yes, and it is the main reason to buy one. The Roland Bridge Cast X adds HDMI capture for console video, and the Audient EVO 4 and Universal Audio Volt 276 connect over USB-C. The Rodecaster Duo focuses on PC streaming and podcasting. If your stream is console-based, choose a unit with USB-C or HDMI routing for the PS5.",
-      "faq_q3_es": "¿Puedo usar una interfaz de streaming con una PlayStation?",
-      "faq_a3_es": "Sí, y es el motivo principal para comprar una. El Roland Bridge Cast X añade captura HDMI para el vídeo de la consola, y el Audient EVO 4 y el Universal Audio Volt 276 se conectan por USB-C. El Rodecaster Duo se centra en streaming de PC y podcasting. Si tu directo es de consola, elige una unidad con enrutamiento USB-C o HDMI para el PS5.",
-      "faq_q4_en": "How much gain do I need for streaming with an SM7B?",
-      "faq_a4_en": "The Shure SM7B needs roughly 60dB or more of clean gain. The Rodecaster Duo's Revolution preamps and the Bridge Cast X handle it easily with no booster. The Volt 276’s 55dB and the EVO 4’s 58dB are workable for an SM7B; if you run one through them, keep the gain near max and watch for noise.",
-      "faq_q4_es": "¿Cuánta ganancia necesito para hacer streaming con un SM7B?",
-      "faq_a4_es": "El Shure SM7B necesita aproximadamente 60dB o más de ganancia limpia. Los preamplificadores Revolution del Rodecaster Duo y el Bridge Cast X lo manejan fácilmente sin booster. Los 55dB del Volt 276 y los 58dB del EVO 4 son utilizables para un SM7B; si metes uno por ellos, mantén la ganancia cerca del máximo y vigila el ruido.",
-      "faq_q5_en": "Is a streaming interface better than a USB mic?",
-      "faq_a5_en": "For serious streaming, yes. A streaming interface gives you hardware mixing, multiple routing buses, phantom power for pro condenser mics and physical controls — none of which a USB mic offers. If you only ever use one mic and want the simplest setup, a quality USB mic like the ones in our <a href=\"/guides/usb-mics.html\">USB microphone guide</a> is still a great start.",
-      "faq_q5_es": "¿Es mejor una interfaz de streaming que un micrófono USB?",
-      "faq_a5_es": "Para streaming serio, sí. Una interfaz de streaming te da mezcla por hardware, múltiples buses de enrutamiento, alimentación phantom para micros de condensador profesionales y controles físicos — nada de eso lo ofrece un micrófono USB. Si solo usas un micrófono y quieres el setup más simple, un buen micrófono USB como los de nuestra <a href=\"/guides/usb-mics_es.html\">guía de micrófonos USB</a> sigue siendo un gran comienzo."
+      "faq_q3_en": "Can I plug these interfaces into my phone to go live?",
+      "faq_a3_en": "With the MiniFuse 2 OTG, yes: its second USB-C port exists exactly for that. Connect an iPhone or Android and both mic inputs stay live through its built-in hub. Everything else here targets PC and console; if your stream runs from a phone, this is the only unit that does it properly without dongles.",
+      "faq_q3_es": "¿Puedo conectar la interfaz al móvil para hacer directos?",
+      "faq_a3_es": "Con el MiniFuse 2 OTG, sí: su segundo puerto USB-C existe justo para eso. Enchufas el iPhone o el Android y los dos micrófonos siguen activos gracias a su hub integrado. El resto de unidades de la lista están pensadas para PC y consola; si tu directo sale del teléfono, esta es la única que lo hace bien y sin adaptadores.",
+      "faq_q4_en": "What is loopback and why will I care about it?",
+      "faq_a4_en": "Loopback routes game, Discord and browser audio back into your streaming software without virtual audio cables. The EVO 4, Volt 276 and MiniFuse 2 OTG include it; the Rodecaster Duo and Bridge Cast X handle routing with hardware buses you control by fader. Without it you end up capturing desktop audio, and every notification lands on your stream.",
+      "faq_q4_es": "¿Para qué sirve el loopback y por qué me va a importar?",
+      "faq_a4_es": "El loopback devuelve el audio del juego, Discord o el navegador a tu software de emisión sin cables virtuales ni VB-Audio Cable. Lo traen de serie el EVO 4, el Volt 276 y el MiniFuse 2 OTG; el Rodecaster Duo y el Bridge Cast X resuelven el enrutamiento con buses de hardware controlados por fader. Sin loopback acabas capturando el audio del escritorio, y cualquier notificación se cuela en el directo.",
+      "faq_q5_en": "Streaming console or plain interface: which one fits me?",
+      "faq_a5_en": "Depends on how much you touch mid-stream. Talking plus gaming? A simple interface with loopback is plenty. The moment you want to duck music with a fader, mute your mic with a physical pad or bring a guest into the call, consoles win (Rodecaster Duo, Bridge Cast X, Maonocaster E2): everything happens in hardware even if OBS crashes.",
+      "faq_q5_es": "¿Consola de streaming o interfaz simple: qué me conviene?",
+      "faq_a5_es": "Depende de cuántas cosas tocas en directo. Si solo hablas y juegas, una interfaz simple con loopback basta. En cuanto quieras bajar la música con un fader, silenciar el micro con un pad físico o meter a alguien por llamada, ganan las consolas (Rodecaster Duo, Bridge Cast X, Maonocaster E2): todo pasa en hardware aunque OBS se cuelgue."
     },
     "author": {
       "@type": "Person",
@@ -58615,6 +58624,10 @@
           "title_es": "Universal Audio Volt 276"
         },
         {
+          "title": "Arturia MiniFuse 2 OTG",
+          "title_es": "Arturia MiniFuse 2 OTG"
+        },
+        {
           "title": "Maono Maonocaster E2 Gen2",
           "title_es": "Maono Maonocaster E2 Gen2"
         }
@@ -58639,6 +58652,10 @@
             {
               "value": "Pro tone with analog compression",
               "value_es": "Tono profesional con compresión analógica"
+            },
+            {
+              "value": "Mobile streaming & compact setups",
+              "value_es": "Streaming desde el móvil y setups compactos"
             },
             {
               "value": "Budget all-in-one console with sound pads",
@@ -58667,6 +58684,10 @@
               "value_es": "Interfaz USB-C con compresor analógico 76"
             },
             {
+              "value": "Bus-powered USB-C interface with OTG port + USB hub",
+              "value_es": "Interfaz USB-C bus-powered con puerto OTG + hub USB"
+            },
+            {
               "value": "All-in-one mixer/interface + sound pads",
               "value_es": "Mezclador/interfaz todo-en-uno + pads de sonido"
             }
@@ -58691,6 +58712,10 @@
             {
               "value": "4.7/5 (458)",
               "value_es": "4.7/5 (458)"
+            },
+            {
+              "value": "4.2/5 (5)",
+              "value_es": "4.2/5 (5)"
             },
             {
               "value": "4.3/5 (285)",
@@ -58719,6 +58744,10 @@
               "value_es": "2 previos con modo Vintage + MIDI"
             },
             {
+              "value": "2 XLR/jack combo inputs with phantom + 2-port USB hub",
+              "value_es": "2 entradas combo XLR/jack con phantom + hub USB de 2 puertos"
+            },
+            {
               "value": "2 XLR combo preamps, 60dB + Bluetooth",
               "value_es": "2 previos combo XLR, 60dB + Bluetooth"
             }
@@ -58735,6 +58764,10 @@
             {
               "value": "Yes — HDMI capture",
               "value_es": "Sí — captura HDMI"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
             },
             {
               "value": "No",
@@ -58769,6 +58802,10 @@
             {
               "value": "$299",
               "value_es": "$299"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
             },
             {
               "value": "$110",
