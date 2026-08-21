@@ -1259,6 +1259,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (catParam) {
       history.replaceState({}, '', '/');
       window.filterCategory(catParam);
+      setTimeout(function() { scrollToSection('guides'); }, 300);
+      setTimeout(function() { scrollToSection('guides'); }, 800);
     }
     renderAudioMini();
     renderMySetup();

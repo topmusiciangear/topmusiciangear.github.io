@@ -765,7 +765,7 @@ ${ogMeta}
         <a href="/">Home</a> / <a href="/#guides">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
       </nav>
       <div class="guide-back-row">
-        <a href="/?cat=${guide.category}" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <a href="/?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
@@ -817,7 +817,7 @@ ${ogMeta}
         </div>
       </div>
       <div class="guide-back-row">
-        <a href="/?cat=${guide.category}" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <a href="/?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
     </div>
 
@@ -857,11 +857,11 @@ ${ogMeta}
       <div class="footer-col">
         <h3>${isEs ? 'Categorías Principales' : 'Top Categories'}</h3>
         <ul>
-          <li><a href="/?cat=microphones">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
-          <li><a href="/?cat=guitars">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
-          <li><a href="/?cat=interfaces">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>
-          <li><a href="/?cat=headphones">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
-          <li><a href="/?cat=monitors">${isEs ? 'Monitores' : 'Monitors'}</a></li>
+          <li><a href="/?cat=microphones#guides">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
+          <li><a href="/?cat=guitars#guides">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
+          <li><a href="/?cat=interfaces#guides">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>
+          <li><a href="/?cat=headphones#guides">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
+          <li><a href="/?cat=monitors#guides">${isEs ? 'Monitores' : 'Monitors'}</a></li>
         </ul>
       </div>
       <div class="footer-col">
