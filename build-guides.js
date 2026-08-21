@@ -536,7 +536,9 @@ function buildGuidePage(guide, lang, idx) {
       sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>' : '';
       if (firstProduct && s.video) {
         const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
+        const psrc = firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
         productImgs = '<div class="guide-section-imgs">' +
+          '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
           '<div class="guide-video-thumb lb-video" data-yt="' + s.video + '" role="button" aria-label="Play video" tabindex="0">' +
             '<img src="https://i.ytimg.com/vi/' + s.video + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + s.video + '/hqdefault.jpg\'">' +
             '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
