@@ -1759,10 +1759,10 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-img {
   width: 120px;
   height: 120px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: var(--radius-sm);
   background: var(--white);
-  padding: 8px;
+  display: block;
 }
 
 .guide-video-thumb {
