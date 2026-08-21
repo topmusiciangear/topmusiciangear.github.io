@@ -402,6 +402,9 @@ function getResolvedStores(product) {
   if (s.gear4music) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
   }
+  if (s.zzounds) {
+    s.zzounds = `https://www.anrdoezrs.net/click-101857888-10422044?url=${encodeURIComponent(s.zzounds)}`;
+  }
   return s;
 }
 
