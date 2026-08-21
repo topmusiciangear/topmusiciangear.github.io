@@ -68355,6 +68355,10 @@
         {
           "title": "CP-60S",
           "title_es": "CP-60S"
+        },
+        {
+          "title": "Rancher Penguin",
+          "title_es": "Rancher Penguin"
         }
       ],
       "rows": [
@@ -68373,6 +68377,10 @@
             {
               "value": "Solid mahogany",
               "value_es": "Caoba maciza"
+            },
+            {
+              "value": "Solid spruce",
+              "value_es": "Picea maciza"
             },
             {
               "value": "Solid spruce",
@@ -68407,6 +68415,10 @@
             {
               "value": "24.75\"",
               "value_es": "62,9 cm"
+            },
+            {
+              "value": "25\"",
+              "value_es": "63,5 cm"
             }
           ]
         },
@@ -68433,6 +68445,10 @@
             {
               "value": "None",
               "value_es": "Ninguna"
+            },
+            {
+              "value": "Presys III + tuner",
+              "value_es": "Presys III + afinador"
             }
           ]
         },
@@ -68459,6 +68475,10 @@
             {
               "value": "Mahogany",
               "value_es": "Caoba"
+            },
+            {
+              "value": "Maple (arched)",
+              "value_es": "Maple (arqueada)"
             }
           ]
         },
@@ -68485,6 +68505,10 @@
             {
               "value": "1.69\"",
               "value_es": "43 mm"
+            },
+            {
+              "value": "1.675\"",
+              "value_es": "42,5 mm"
             }
           ]
         },
@@ -68511,6 +68535,10 @@
             {
               "value": "Gig bag",
               "value_es": "Funda"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguna"
             }
           ]
         },
@@ -68537,6 +68565,10 @@
             {
               "value": "First parlor",
               "value_es": "Primera parlor"
+            },
+            {
+              "value": "Stage personality",
+              "value_es": "Personalidad escénica"
             }
           ]
         },
@@ -68563,6 +68595,10 @@
             {
               "value": "$230",
               "value_es": "$230"
+            },
+            {
+              "value": "$600",
+              "value_es": "$600"
             }
           ]
         }
@@ -68651,6 +68687,90 @@
           "La voz moderna cambia parte del ladrido vintage por balance",
           "Solo negro brillante ampliamente disponible",
           "Red de servicio menor que Fender/Yamaha"
+        ]
+      },
+      {
+        "name": "Epiphone L-00 Studio",
+        "name_es": "Epiphone L-00 Studio",
+        "pros": [
+          "Depression-era Gibson silhouette for hundreds, not thousands",
+          "Solid spruce over mahogany nails the compressed blues-box growl",
+          "24.75-inch scale slackens tension for slide and ragtime work",
+          "Fishman Sonitone soundhole preamp keeps stage conversion invisible"
+        ],
+        "pros_es": [
+          "Silueta Gibson de la época de la Depresión por cientos, no miles",
+          "Picea maciza sobre caoba clava el gruñido comprimido de blues box",
+          "La escala de 62,9 cm relaja la tensión para slide y ragtime",
+          "El preamp Fishman Sonitone de boca mantiene invisible el paso a escenario"
+        ],
+        "cons": [
+          "Plastic nut and bridge pins are the first upgrade candidates",
+          "No gig bag or case included at $429",
+          "Tone skews dark and compressed - not for bright strummers",
+          "Single vintage sunburst finish only"
+        ],
+        "cons_es": [
+          "Cejuela y pins plásticos son los primeros candidatos a mejorar",
+          "Sin funda ni estuche incluidos a $429",
+          "El tono tira oscuro y comprimido: no para strummers brillantes",
+          "Únicamente acabado sunburst vintage"
+        ]
+      },
+      {
+        "name": "Fender CP-60S",
+        "name_es": "Fender CP-60S",
+        "pros": [
+          "Lowest price here while still carrying a solid spruce top",
+          "Nearly 2,000 Amazon reviews average 4.6 stars",
+          "Slim easy-to-play neck with rolled fingerboard edges",
+          "Scalloped X-bracing boosts projection beyond its size"
+        ],
+        "pros_es": [
+          "El precio más bajo aquí conservando tapa maciza de picea",
+          "Casi 2000 reseñas en Amazon promedian 4,6 estrellas",
+          "Mástil delgado fácil de tocar con bordes de diapasón redondeados",
+          "El bracing X escalonado empuja proyección más allá de su tamaño"
+        ],
+        "cons": [
+          "Brighter, thinner voice than the pricier picks here",
+          "No factory pickup option for gigging",
+          "Walnut board and crème plastic trim feel entry-level",
+          "Laminated mahogany back and sides cap low-end depth"
+        ],
+        "cons_es": [
+          "Voz más brillante y fina que las opciones caras aquí",
+          "Sin opción de pastilla de fábrica para tocar en vivo",
+          "Diapasón de nogal y herrajes plásticos crème se sienten de entrada",
+          "Fondo y aros laminados de caoba limitan la profundidad de graves"
+        ]
+      },
+      {
+        "name": "Gretsch G5021E Rancher Penguin",
+        "name_es": "Gretsch G5021E Rancher Penguin",
+        "pros": [
+          "White-and-gold 1950s Penguin styling photographs like a dream",
+          "Fishman Presys III with onboard tuner handles real gigging",
+          "Arched maple back projects punchier than mahogany boxes",
+          "25-inch scale adds volume without losing parlor comfort"
+        ],
+        "pros_es": [
+          "Estética Penguin blanca y dorada de los años 50 que fotografía como un sueño",
+          "La Fishman Presys III con afinador integrado resuelve los conciertos reales",
+          "El fondo arqueado de maple proyecta más contundente que las cajas de caoba",
+          "La escala de 63,5 cm suma volumen sin perder comodidad parlor"
+        ],
+        "cons": [
+          "$600 prioritizes looks - plainer rivals deliver more wood for the money",
+          "No case or bag included at this price",
+          "The bold white-and-gold look polarizes players and venues",
+          "Maple voice is snappier and less warm than the mahogany picks here"
+        ],
+        "cons_es": [
+          "$600 prioriza la apariencia: rivales más sobrios dan más madera por el dinero",
+          "Sin estuche ni funda incluidos a este precio",
+          "La mirada llamativa blanco-dorado polariza a músicos y venues",
+          "La voz de maple es más ágil y menos cálida que las opciones de caoba aquí"
         ]
       }
     ],
