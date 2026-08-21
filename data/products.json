@@ -6296,5 +6296,93 @@
       "reverb",
       "pluginboutique"
     ]
+  },
+  {
+    "id": 332,
+    "title": "Tascam Model 12",
+    "title_es": "Tascam Model 12",
+    "brand": "Tascam",
+    "category": "live_sound",
+    "price": 599,
+    "rating": 4.4,
+    "reviews": 366,
+    "desc": "The all-in-one hybrid workstation: a 10-channel analog mixer with 8 Ultra-HDDA mic preamps, one-knob compressor and sweepable 3-band EQ on every channel, plus a built-in SD multitrack recorder, 12-in/10-out USB-C audio interface, HUI/MCU DAW control, Bluetooth 5.0 and podcasting mix-minus.",
+    "desc_es": "La estacion de trabajo hibrida todo en uno: mezclador analogico de 10 canales con 8 preamplificadores Ultra-HDDA, compresor de un knob y EQ de 3 bandas barrido medio en cada canal, mas grabador multipista SD integrado, interfaz USB-C de 12 entradas/10 salidas, control DAW HUI/MCU, Bluetooth 5.0 y mix-minus para podcast.",
+    "img": "https://r2.gear4music.com/media/53/538023/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Tascam-Model-12-Analog-Mixer-with-Digital-Recorder/3B4H",
+      "amazon": "https://www.amazon.com/dp/B0842YDQ3Q",
+      "zzounds": "https://www.zzounds.com/a--925521/item--TASMODEL12"
+    }
+  },
+  {
+    "id": 333,
+    "title": "Allen & Heath ZEDi-10FX",
+    "title_es": "Allen & Heath ZEDi-10FX",
+    "brand": "Allen & Heath",
+    "category": "live_sound",
+    "price": 292,
+    "rating": 4,
+    "reviews": 1,
+    "desc": "Compact hybrid mixer and 4x4 USB audio interface in one. Four GS-R mic preamps from A&H's touring-console team, MusiQ 3-band EQ, multi-model FX processor and 24-bit/96kHz recording in a 2.3 kg package.",
+    "desc_es": "Mezclador hibrido compacto e interfaz de audio USB 4x4 en un solo equipo. Cuatro preamplificadores GS-R del mismo equipo de I+D que las consolas de gira de A&H, EQ MusiQ de 3 bandas, procesador FX multi-modelo y grabacion 24-bit/96kHz en solo 2.3 kg.",
+    "img": "https://r2.gear4music.com/media/37/375459/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Allen-and-Heath-ZEDi-10FX/1HB8",
+      "amazon": "https://www.amazon.com/dp/B07X4BCV9T"
+    }
+  },
+  {
+    "id": 334,
+    "title": "SSL BiG SiX",
+    "title_es": "SSL BiG SiX",
+    "brand": "Solid State Logic",
+    "category": "live_sound",
+    "price": 1999.99,
+    "rating": 5,
+    "reviews": 2,
+    "badge": "premium",
+    "desc": "A genuine SSL console for your desktop: 18-input SuperAnalogue summing, four mic preamps with +72dB gain, E-Series EQ and SSL compression on every channel, the legendary G-Series bus compressor with Auto release, and a 16-in/16-out USB-C interface.",
+    "desc_es": "Una consola SSL autentica para tu escritorio: summing SuperAnalogue de 18 entradas, cuatro preamplificadores con +72dB de ganancia, EQ serie E y compresion SSL en cada canal, el legendario compresor de bus serie G con Auto release y una interfaz USB-C de 16 entradas/16 salidas.",
+    "img": "https://solidstatelogic.com/assets/components/phpthumbof/cache/Big%20six%20OH%20trans.d71f8687178ca366a489c8523a59e6cf.png",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--SSLBIGSIX",
+      "amazon": "https://www.amazon.com/dp/B00CNKWQO8"
+    }
+  },
+  {
+    "id": 335,
+    "title": "Korg SoundLink MW-1608",
+    "title_es": "Korg SoundLink MW-1608",
+    "brand": "Korg",
+    "category": "live_sound",
+    "price": 999.99,
+    "rating": 3.2,
+    "reviews": 3,
+    "desc": "Hybrid analog/digital 16-channel mixer designed with Greg Mackie and Peter Watts: HiVolt preamps, true 8-bus architecture, one-knob compressors, recallable digital dynamics, 31-band ParaGraphic EQ and up to 10 of Korg's 32-bit effects at once.",
+    "desc_es": "Mezclador hibrido analogico/digital de 16 canales disenado con Greg Mackie y Peter Watts: preamplificadores HiVolt, arquitectura real de 8 buses, compresores de un knob, dinamica digital recuperable, EQ ParaGraphic de 31 bandas y hasta 10 efectos de 32 bits de Korg a la vez.",
+    "img": "https://r2.gear4music.com/media/53/535560/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ",
+      "zzounds": "https://www.zzounds.com/a--925521/item--KORMW1608BK",
+      "amazon": "https://www.amazon.com/dp/B08FSYXMW9"
+    }
+  },
+  {
+    "id": 336,
+    "title": "Mackie MobileMix",
+    "title_es": "Mackie MobileMix",
+    "brand": "Mackie",
+    "category": "live_sound",
+    "price": 229.99,
+    "rating": 3.9,
+    "reviews": 79,
+    "desc": "The run-anywhere mixer for streaming, A/V production and mobile live sound: 8 channels powered by any USB battery (hidden compartment included), 2 mic/instrument preamps with 48V and Hi-Z, two-way Bluetooth 5.1 with Mix Minus, dedicated smartphone/camera outputs and 3 reverbs. Weighs just 0.8 kg.",
+    "desc_es": "El mezclador para llevar a todas partes: streaming, produccion A/V y sonido directo movil. 8 canales alimentados por cualquier bateria USB (compartimento oculto incluido), 2 preamplificadores micro/instrumento con 48V y Hi-Z, Bluetooth 5.1 bidireccional con Mix Minus, salidas dedicadas para movil/camara y 3 reverbs. Pesa solo 0.8 kg.",
+    "img": "https://m.media-amazon.com/images/I/71KIPBRoBRL._AC_SL1500_.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--MACMOBILEMIX",
+      "amazon": "https://www.amazon.com/dp/B0CNKXZFWG"
+    }
   }
 ]

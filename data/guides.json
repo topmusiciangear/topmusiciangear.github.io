@@ -38912,6 +38912,15 @@
         ]
       },
       {
+        "heading": "Is the Tascam Model 12 the Best Hybrid Mixer for Gigging Bands?",
+        "heading_es": "Es el Tascam Model 12 la Mejor Mesa Hibrida para Bandas que Tocan en Directo?",
+        "content": "<strong>The Tascam Model 12 is the Swiss Army knife of small-format live mixing.</strong> Ten channels with eight Ultra-HDDA mic preamps, one-knob compression and sweepable 3-band EQ per channel, plus dual aux sends and built-in effects for monitors and polish. Where it leaves every other mixer here behind is integration: it records 12 tracks straight to SD card, works as a 12-in/10-out USB-C interface, streams over Bluetooth 5.0 and even controls your DAW. At $599 it replaces a mixer, a recorder and an interface in one roadworthy 4.3 kg box.",
+        "content_es": "<strong>El Tascam Model 12 es la navaja suiza de la sonorizacion compacta.</strong> Diez canales con ocho preamplificadores Ultra-HDDA, compresor de un knob y EQ de 3 bandas con medios barridos por canal, mas dos envios aux y efectos integrados para monitores y retoque. Donde supera a todas las demas mesas es en la integracion: graba 12 pistas directamente a tarjeta SD, funciona como interfaz USB-C de 12 ent/10 sal, reproduce por Bluetooth 5.0 e incluso controla tu DAW. Por $599 sustituye mesa, grabadora e interfaz en una sola caja de 4.3 kg lista para la carretera.",
+        "products": [
+          332
+        ]
+      },
+      {
         "heading": "Is the Behringer X32 Compact Still the Best Digital Mixer for Bands?",
         "heading_es": "¿Sigue Siendo el Behringer X32 Compact el Mejor Mezclador Digital para Bandas?",
         "content": "<strong>The Behringer X32 Compact is the most popular digital mixer in the world for good reason.</strong> 25 motorized faders, 40 input channels, 25 bus outputs, and comprehensive digital routing make it suitable for any live sound application. Scene automation lets you recall complete mixes instantly. Built-in effects, iPad remote control, and 32-channel USB recording make it incredibly versatile. At $1,999, it's the benchmark that all other digital mixers are compared to.",
@@ -38936,6 +38945,7 @@
     "verdict_es": "El X32 Compact a $1,999 es uno de los reyes de la versatilidad de banda con efectos y enrutamiento para casi cualquier concierto. El MG10XU a $267.99 cubre conciertos pequeños con presupuesto, y el SQ-5 a $3,999 es la elección pro de gira con calidad de audio superior.",
     "featuredProducts": [
       137,
+      332,
       138,
       139
     ],
@@ -39034,6 +39044,10 @@
           "title_es": "Yamaha MG10XU"
         },
         {
+          "title": "Tascam Model 12",
+          "title_es": "Tascam Model 12"
+        },
+        {
           "title": "Behringer X32 Compact",
           "title_es": "Behringer X32 Compact"
         },
@@ -39050,6 +39064,10 @@
             {
               "value": "Simple analog mixer with FX",
               "value_es": "Mesa analógica sencilla con FX"
+            },
+            {
+              "value": "Bands wanting mixer + recorder + interface in one",
+              "value_es": "Bandas que quieren mesa + grabadora + interfaz en uno"
             },
             {
               "value": "Digital mixer with deep I/O for bands",
@@ -39070,6 +39088,10 @@
               "value_es": "Mesa analógica"
             },
             {
+              "value": "Hybrid analog with digital recorder & USB",
+              "value_es": "Hibrida analogica con grabadora digital y USB"
+            },
+            {
               "value": "Digital mixer",
               "value_es": "Mesa digital"
             },
@@ -39086,6 +39108,10 @@
             {
               "value": "10 (6 mic)",
               "value_es": "10 (6 mic)"
+            },
+            {
+              "value": "10 (6 mono + 2 stereo)",
+              "value_es": "10 (6 mono + 2 estereo)"
             },
             {
               "value": "32 (32 mic preamps)",
@@ -39106,6 +39132,10 @@
               "value_es": "6 D-PRE"
             },
             {
+              "value": "8 x Ultra-HDDA",
+              "value_es": "8 x Ultra-HDDA"
+            },
+            {
               "value": "32 MIDAS",
               "value_es": "32 MIDAS"
             },
@@ -39122,6 +39152,10 @@
             {
               "value": "3-band per channel",
               "value_es": "3 bandas por canal"
+            },
+            {
+              "value": "3-band w/ sweepable mid + low-cut",
+              "value_es": "3 bandas con medio barrido + filtro graves"
             },
             {
               "value": "4-band fully parametric",
@@ -39142,6 +39176,10 @@
               "value_es": "2 envíos aux"
             },
             {
+              "value": "2 aux sends",
+              "value_es": "2 envios aux"
+            },
+            {
               "value": "16 aux buses",
               "value_es": "16 buses aux"
             },
@@ -39158,6 +39196,10 @@
             {
               "value": "SPX digital FX",
               "value_es": "FX digital SPX"
+            },
+            {
+              "value": "Yes (reverb, delay, chorus)",
+              "value_es": "Si (reverb, delay, chorus)"
             },
             {
               "value": "8 FX engines",
@@ -39178,6 +39220,10 @@
               "value_es": "USB, 2 grupos"
             },
             {
+              "value": "USB-C 12-in/10-out, SD recorder, Bluetooth 5.0, MIDI",
+              "value_es": "USB-C 12 ent/10 sal, grabadora SD, Bluetooth 5.0, MIDI"
+            },
+            {
               "value": "USB, AES50, 16 out",
               "value_es": "USB, AES50, 16 salidas"
             },
@@ -39196,6 +39242,10 @@
               "value_es": "2,1 kg"
             },
             {
+              "value": "4.3 kg (9.5 lb)",
+              "value_es": "4.3 kg"
+            },
+            {
               "value": "44.1 lb (20 kg)",
               "value_es": "20 kg"
             },
@@ -39212,6 +39262,10 @@
             {
               "value": "$267.99",
               "value_es": "$267.99"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
             },
             {
               "value": "$1,999",
@@ -40736,12 +40790,30 @@
         ]
       },
       {
+        "heading": "Is the Tascam Model 12 the Best Hybrid Digital Workstation?",
+        "heading_es": "Es el Tascam Model 12 la Mejor Estacion de Trabajo Hibrida Digital?",
+        "content": "<strong>The Model 12 blurs the line between analog feel and digital power.</strong> Onboard DSP handles one-knob compression on every channel, sweepable 3-band EQ and studio-quality effects while the top panel stays fully hands-on with 60mm faders. It records 12 tracks to SD, doubles as a 12-in/10-out class-compliant USB-C interface, emulates HUI/MCU for tactile DAW control and adds podcasting essentials like mix-minus and a dedicated smartphone input. No other mixer under $600 does this much.",
+        "content_es": "<strong>El Model 12 difumina la linea entre la sensacion analogica y la potencia digital.</strong> El DSP integrado gestiona la compresion de un knob en cada canal, el EQ de 3 bandas con medios barridos y efectos de calidad de estudio, mientras el panel superior sigue siendo 100% tactil con faders de 60 mm. Graba 12 pistas a SD, hace de interfaz USB-C class-compliant de 12 ent/10 sal, emula HUI/MCU para controlar el DAW con las manos y anade esenciales de podcast como mix-minus y entrada dedicada para movil. Ninguna otra mesa por menos de $600 hace tanto.",
+        "products": [
+          332
+        ]
+      },
+      {
         "heading": "Is the Behringer X32 Compact Best for Band Versatility?",
         "heading_es": "¿Es el Behringer X32 Compact el Mejor para Versatilidad?",
         "content": "<strong>The Behringer X32 Compact is the best-selling digital mixer for a reason.</strong> 25 motorized faders, 40 input channels, and 25 bus outputs give you professional mixing power. Scene automation lets you recall complete mixes for different songs. Built-in effects include 8 stereo FX engines with high-end emulations. iPad remote control and 32-channel USB recording make it incredibly flexible. At $1,999, it's the benchmark every digital mixer is compared to.",
         "content_es": "<strong>El Behringer X32 Compact es el mezclador digital más vendido por una razón.</strong> 25 faders motorizados, 40 canales y 25 buses. Automatización de escenas para diferentes canciones. 8 motores FX estéreo. Control remoto iPad. A $1,999, el punto de referencia.",
         "products": [
           138
+        ]
+      },
+      {
+        "heading": "Is the Korg SoundLink MW-1608 the Best Analog/Digital Hybrid for Bands?",
+        "heading_es": "Es el Korg SoundLink MW-1608 el Mejor Hibrido Analogico/Digital para Bandas?",
+        "content": "<strong>The MW-1608 pairs Mackie-and-Trident pedigree with serious digital muscle.</strong> Peter Watts-designed HiVolt preamps feed 16 channels on a true 8-bus architecture, with one-knob compressors, recallable digital dynamics, a 31-band ParaGraphic EQ and up to 10 of Korg's 32-bit effects running simultaneously. Mute groups, scene memories and a best-in-class feedback-suppression system make it a genuinely gig-capable console - and at $999.99 it undercuts most digital mixers offering this much I/O.",
+        "content_es": "<strong>El MW-1608 une el pedigr� de Mackie y Trident con musculo digital serio.</strong> Los preamplificadores HiVolt disenados por Peter Watts alimentan 16 canales sobre una arquitectura real de 8 buses, con compresores de un knob, dinamica digital recuperable, EQ ParaGraphic de 31 bandas y hasta 10 efectos de 32 bits de Korg simultaneos. Mute groups, memorias de escena y un sistema de antirrealimentacion de los mejores de su clase lo convierten en una consola realmente capaz para directo - y por $999.99 cuesta menos que la mayoria de mesas digitales con este I/O.",
+        "products": [
+          335
         ]
       },
       {
@@ -40769,7 +40841,9 @@
     "verdict_es": "El XR18 a $509 es la elección digital portátil que reemplaza un rack de equipo analógico. El X32 Compact a $1,999 es el estándar de versatilidad, el CQ-18T a $1,199 añade mezcla asistida automática, y el M32R LIVE a $2,799 es la consola pro de gira.",
     "featuredProducts": [
       145,
+      332,
       138,
+      335,
       147,
       148
     ],
@@ -40865,8 +40939,16 @@
           "title_es": "Behringer X Air XR18"
         },
         {
+          "title": "Tascam Model 12",
+          "title_es": "Tascam Model 12"
+        },
+        {
           "title": "Behringer X32 Compact",
           "title_es": "Behringer X32 Compact"
+        },
+        {
+          "title": "Korg SoundLink MW-1608",
+          "title_es": "Korg SoundLink MW-1608"
         },
         {
           "title": "Allen & Heath CQ-18T",
@@ -40887,8 +40969,16 @@
               "value_es": "Mesa digital de rack controlada por tablet"
             },
             {
+              "value": "Bands wanting mixer + recorder + interface in one",
+              "value_es": "Bandas que quieren mesa + grabadora + interfaz en uno"
+            },
+            {
               "value": "Digital mixer with deep I/O for bands",
               "value_es": "Mesa digital con I/O amplio para bandas"
+            },
+            {
+              "value": "Bands wanting analog workflow with digital processing",
+              "value_es": "Bandas que quieren flujo analogico con procesamiento digital"
             },
             {
               "value": "Easy-to-use digital mixer for new bands",
@@ -40909,8 +40999,16 @@
               "value_es": "Mesa digital de rack"
             },
             {
+              "value": "Hybrid analog with digital recorder & USB",
+              "value_es": "Hibrida analogica con grabadora digital y USB"
+            },
+            {
               "value": "Digital mixer",
               "value_es": "Mesa digital"
+            },
+            {
+              "value": "Hybrid analog/digital, true 8-bus",
+              "value_es": "Hibrida analogica/digital, 8 buses reales"
             },
             {
               "value": "Digital mixer",
@@ -40931,8 +41029,16 @@
               "value_es": "18 (16 preamps)"
             },
             {
+              "value": "10 (6 mono + 2 stereo)",
+              "value_es": "10 (6 mono + 2 estereo)"
+            },
+            {
               "value": "32 (32 mic preamps)",
               "value_es": "32 (32 preamps)"
+            },
+            {
+              "value": "16 (8 mono + 4 stereo)",
+              "value_es": "16 (8 mono + 4 estereo)"
             },
             {
               "value": "18 (16 preamps)",
@@ -40953,8 +41059,16 @@
               "value_es": "16 MIDAS"
             },
             {
+              "value": "8 x Ultra-HDDA",
+              "value_es": "8 x Ultra-HDDA"
+            },
+            {
               "value": "32 MIDAS",
               "value_es": "32 MIDAS"
+            },
+            {
+              "value": "8 x HiVolt",
+              "value_es": "8 x HiVolt"
             },
             {
               "value": "16 A&H",
@@ -40975,8 +41089,16 @@
               "value_es": "4 bandas paramétrico"
             },
             {
+              "value": "3-band w/ sweepable mid + low-cut",
+              "value_es": "3 bandas con medio barrido + filtro graves"
+            },
+            {
               "value": "4-band fully parametric",
               "value_es": "4 bandas totalmente paramétrico"
+            },
+            {
+              "value": "3-band analog + 31-band ParaGraphic GEQ",
+              "value_es": "3 bandas analogico + GEQ ParaGraphic 31 bandas"
             },
             {
               "value": "4-band parametric",
@@ -40997,8 +41119,16 @@
               "value_es": "6 buses aux"
             },
             {
+              "value": "2 aux sends",
+              "value_es": "2 envios aux"
+            },
+            {
               "value": "16 aux buses",
               "value_es": "16 buses aux"
+            },
+            {
+              "value": "2 aux + FX buses",
+              "value_es": "2 buses aux + FX"
             },
             {
               "value": "6 aux sends",
@@ -41019,8 +41149,16 @@
               "value_es": "4 motores FX"
             },
             {
+              "value": "Yes (reverb, delay, chorus)",
+              "value_es": "Si (reverb, delay, chorus)"
+            },
+            {
               "value": "8 FX engines",
               "value_es": "8 motores FX"
+            },
+            {
+              "value": "Yes (20 x 32-bit, up to 10 at once)",
+              "value_es": "Si (20 x 32-bit, hasta 10 a la vez)"
             },
             {
               "value": "Built-in FX + automix",
@@ -41041,8 +41179,16 @@
               "value_es": "Wi-Fi, USB, 6 aux"
             },
             {
+              "value": "USB-C 12-in/10-out, SD recorder, Bluetooth 5.0, MIDI",
+              "value_es": "USB-C 12 ent/10 sal, grabadora SD, Bluetooth 5.0, MIDI"
+            },
+            {
               "value": "USB, AES50, 16 out",
               "value_es": "USB, AES50, 16 salidas"
+            },
+            {
+              "value": "USB stereo record/playback, XLR speaker outs",
+              "value_es": "Grabacion/reproduccion USB estereo, salidas altavoz XLR"
             },
             {
               "value": "USB, Wi-Fi, app control",
@@ -41063,8 +41209,16 @@
               "value_es": "4,7 kg"
             },
             {
+              "value": "4.3 kg (9.5 lb)",
+              "value_es": "4.3 kg"
+            },
+            {
               "value": "44.1 lb (20 kg)",
               "value_es": "20 kg"
+            },
+            {
+              "value": "8 kg (17.6 lb)",
+              "value_es": "8 kg"
             },
             {
               "value": "6.6 lb (3 kg)",
@@ -41085,8 +41239,16 @@
               "value_es": "$509"
             },
             {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
               "value": "$1,999",
               "value_es": "$1.999"
+            },
+            {
+              "value": "$999.99",
+              "value_es": "$999.99"
             },
             {
               "value": "$1,199",
@@ -41243,12 +41405,30 @@
         ]
       },
       {
+        "heading": "Is the Allen & Heath ZEDi-10FX the Best Budget Analog Mixer with Recording?",
+        "heading_es": "Es el Allen & Heath ZEDi-10FX la Mejor Mesa Analogica Barata con Grabacion?",
+        "content": "<strong>The ZEDi-10FX brings flagship DNA to the sub-$300 crowd.</strong> Its four GS-R preamps come from the same R&D team as A&H's touring consoles, feeding 10 channels with MusiQ 3-band EQ, high-pass filters, aux and FX sends and the multi-model ZED FX processor. The killer feature is the built-in 4x4, 24-bit/96kHz USB interface - plug in one cable and you are recording your mix or podcasting in seconds. At $292 and just 2.3 kg, it is the easiest way into pro-grade analog sound.",
+        "content_es": "<strong>El ZEDi-10FX trae ADN de gama alta a los presupuestos de menos de $300.</strong> Sus cuatro preamplificadores GS-R salen del mismo equipo de I+D que las consolas de gira de A&H, alimentando 10 canales con EQ MusiQ de 3 bandas, filtros de graves, envios aux y FX y el procesador ZED FX multi-modelo. La funcion asesina es la interfaz USB 4x4 de 24-bit/96kHz integrada - conectas un cable y en segundos estas grabando tu mezcla o haciendo podcast. Por $292 y solo 2.3 kg, es la forma mas facil de entrar en el sonido analogico profesional.",
+        "products": [
+          333
+        ]
+      },
+      {
         "heading": "Is the Mackie ProFX12v3 the Best Analog Mixer for Bands?",
         "heading_es": "¿Es el Mackie ProFX12v3 el Mejor Mezclador Analógico para Bandas?",
         "content": "<strong>The Mackie ProFX12v3 gives you more channels and better effects than the MG10XU.</strong> 12 channels with 7 Onyx mic preamps delivering 60dB of gain with clean sound. The GigFX effects engine offers 24 different effects including reverbs, delays, choruses, and even auto-wah. Built-in channel compression, 3-band EQ with low-cut filter, and 24-bit/192kHz USB recording. At $379, it's the ultimate analog mixer for gigging bands.",
         "content_es": "<strong>El Mackie ProFX12v3 ofrece más canales y mejores efectos que el MG10XU.</strong> 12 canales con 7 preamps Onyx y 60dB de ganancia. Motor GigFX con 24 efectos. Compresión de canal incorporada, EQ de 3 bandas y grabación USB 24-bit/192kHz. A $379, el mezclador analógico definitivo para bandas.",
         "products": [
           146
+        ]
+      },
+      {
+        "heading": "Why the SSL BiG SiX Is the Ultimate Desktop Analog Console",
+        "heading_es": "Por Que el SSL BiG SiX es la Consola Analogica de Escritorio Definitiva",
+        "content": "<strong>If money is no object, the BiG SiX is a real SSL console on your desk.</strong> Four SuperAnalogue preamps with +72dB of gain handle even ribbon mics, every channel gets E-Series EQ and SSL compression, and the main bus carries the legendary G-Series compressor with Auto release. Eighteen inputs sum in full analog glory while the 16-in/16-out USB-C interface turns it into the heart of a hybrid studio. At $1,999.99 it is an investment piece - and worth every cent.",
+        "content_es": "<strong>Si el dinero no importa, el BiG SiX es una consola SSL autentica en tu escritorio.</strong> Cuatro preamplificadores SuperAnalogue con +72dB de ganancia manejan incluso micros de cinta, cada canal recibe EQ serie E y compresion SSL, y el bus principal lleva el legendario compresor serie G con Auto release. Dieciocho entradas se suman en plena gloria analogica mientras la interfaz USB-C de 16 ent/16 sal lo convierte en el corazon de un estudio hibrido. Por $1,999.99 es una pieza de inversion - y vale cada centimo.",
+        "products": [
+          334
         ]
       }
     ],
@@ -41258,7 +41438,9 @@
     "verdict_es": "El MG10XU ($267.99) cubre conciertos pequeños y principiantes con previos limpios y distribución fácil. El ProFX12v3 ($379) es el paso serio para una banda que toca regularmente y necesita FX y más canales.",
     "featuredProducts": [
       137,
-      146
+      333,
+      146,
+      334
     ],
     "description": "BEST analog mixers 2026. Yamaha MG10XU vs Mackie ProFX12v3. Small format vs band-ready. Read the full verdict & prices before you buy.",
     "description_es": "MEJORES mezcladores analógicos 2026. Yamaha MG10XU vs Mackie ProFX12v3. Lee el veredicto completo y los precios antes de comprar.",
@@ -41351,8 +41533,16 @@
           "title_es": "Yamaha MG10XU"
         },
         {
+          "title": "Allen & Heath ZEDi-10FX",
+          "title_es": "Allen & Heath ZEDi-10FX"
+        },
+        {
           "title": "Mackie ProFX12v3",
           "title_es": "Mackie ProFX12v3"
+        },
+        {
+          "title": "SSL BiG SiX",
+          "title_es": "SSL BiG SiX"
         }
       ],
       "rows": [
@@ -41365,8 +41555,16 @@
               "value_es": "Mesa analógica sencilla con FX"
             },
             {
+              "value": "Home studios wanting analog sound + USB recording",
+              "value_es": "Home studios que quieren sonido analogico + grabacion USB"
+            },
+            {
               "value": "Affordable analog with FX for gigs",
               "value_es": "Analógica económica con FX para directo"
+            },
+            {
+              "value": "Pro studios wanting true SSL console sound",
+              "value_es": "Estudios pro que quieren sonido SSL autentico"
             }
           ]
         },
@@ -41379,8 +41577,16 @@
               "value_es": "Mesa analógica"
             },
             {
+              "value": "Analog hybrid with 4x4 USB interface",
+              "value_es": "Hibrida analogica con interfaz USB 4x4"
+            },
+            {
               "value": "Analog mixer",
               "value_es": "Mesa analógica"
+            },
+            {
+              "value": "SuperAnalogue desktop console + USB",
+              "value_es": "Consola de escritorio SuperAnalogue + USB"
             }
           ]
         },
@@ -41393,8 +41599,16 @@
               "value_es": "10 (6 mic)"
             },
             {
+              "value": "10 (4 mono + 3 stereo)",
+              "value_es": "10 (4 mono + 3 estereo)"
+            },
+            {
               "value": "12 (8 mic)",
               "value_es": "12 (8 mic)"
+            },
+            {
+              "value": "18 inputs (4 mono + 4 stereo + ext.)",
+              "value_es": "18 entradas (4 mono + 4 estereo + ext.)"
             }
           ]
         },
@@ -41407,8 +41621,16 @@
               "value_es": "6 D-PRE"
             },
             {
+              "value": "4 x GS-R",
+              "value_es": "4 x GS-R"
+            },
+            {
               "value": "8 Onyx",
               "value_es": "8 Onyx"
+            },
+            {
+              "value": "4 x SuperAnalogue (+72dB)",
+              "value_es": "4 x SuperAnalogue (+72dB)"
             }
           ]
         },
@@ -41421,8 +41643,16 @@
               "value_es": "3 bandas por canal"
             },
             {
+              "value": "MusiQ 3-band (mono), 2-band (stereo)",
+              "value_es": "MusiQ 3 bandas (mono), 2 bandas (estereo)"
+            },
+            {
               "value": "3-band per channel",
               "value_es": "3 bandas por canal"
+            },
+            {
+              "value": "SSL E-Series 3-band, bell/shelf",
+              "value_es": "SSL serie E de 3 bandas, bell/shelf"
             }
           ]
         },
@@ -41435,8 +41665,16 @@
               "value_es": "2 envíos aux"
             },
             {
+              "value": "1 aux + 1 FX send",
+              "value_es": "1 aux + 1 envio FX"
+            },
+            {
               "value": "2 aux sends",
               "value_es": "2 envíos aux"
+            },
+            {
+              "value": "2 stereo cue feeds",
+              "value_es": "2 envios cue estereo"
             }
           ]
         },
@@ -41449,8 +41687,16 @@
               "value_es": "FX digital SPX"
             },
             {
+              "value": "Yes (multi-model reverb/delay)",
+              "value_es": "Si (reverb/delay multi-modelo)"
+            },
+            {
               "value": "GigFX 24-bit",
               "value_es": "GigFX 24 bits"
+            },
+            {
+              "value": "None (G-Bus comp + LMC instead)",
+              "value_es": "Ninguno (comp. G-Bus + LMC en su lugar)"
             }
           ]
         },
@@ -41463,8 +41709,16 @@
               "value_es": "USB, 2 grupos"
             },
             {
+              "value": "USB 4x4 24-bit/96kHz, XLR main outs",
+              "value_es": "USB 4x4 24-bit/96kHz, salidas main XLR"
+            },
+            {
               "value": "USB, Bluetooth",
               "value_es": "USB, Bluetooth"
+            },
+            {
+              "value": "USB-C 16-in/16-out 24-bit/96kHz",
+              "value_es": "USB-C 16 ent/16 sal 24-bit/96kHz"
             }
           ]
         },
@@ -41477,8 +41731,16 @@
               "value_es": "2,3 kg"
             },
             {
+              "value": "2.3 kg (5.1 lb)",
+              "value_es": "2.3 kg"
+            },
+            {
               "value": "8.6 lb (3.9 kg)",
               "value_es": "3,9 kg"
+            },
+            {
+              "value": "10 kg (22 lb)",
+              "value_es": "10 kg"
             }
           ]
         },
@@ -41491,8 +41753,16 @@
               "value_es": "$267.99"
             },
             {
+              "value": "$292",
+              "value_es": "$292"
+            },
+            {
               "value": "$379",
               "value_es": "$379"
+            },
+            {
+              "value": "$1,999.99",
+              "value_es": "$1,999.99"
             }
           ]
         }
@@ -41576,6 +41846,15 @@
         "products": []
       },
       {
+        "heading": "Is the Mackie MobileMix the Most Portable Mixer for Streaming?",
+        "heading_es": "Es el Mackie MobileMix la Mesa Mas Portatil para Streaming?",
+        "content": "<strong>The MobileMix redefines what a portable mixer can be.</strong> It runs entirely off USB power - including a hidden compartment for a rechargeable battery - so you can mix anywhere without an outlet. Eight channels pack two full mic/instrument preamps with 48V and Hi-Z, a two-way Bluetooth channel with Mix Minus for echo-free calls, dedicated outputs for smartphones and DSLR cameras, and three reverbs. At $229.99 and just 0.8 kg, it is the streamer and content creator's dream.",
+        "content_es": "<strong>El MobileMix redefine lo que puede ser una mesa portatil.</strong> Funciona solo con alimentacion USB - incluyendo un compartimento oculto para bateria recargable - asi que puedes mezclar en cualquier sitio sin enchufe. Ocho canales con dos preamplificadores completos de micro/instrumento con 48V y Hi-Z, un canal Bluetooth bidireccional con Mix Minus para llamadas sin eco, salidas dedicadas para moviles y camaras DSLR, y tres reverbs. Por $229.99 y solo 0.8 kg, es el sueno de streamers y creadores de contenido.",
+        "products": [
+          336
+        ]
+      },
+      {
         "heading": "Is the Yamaha MG10XU the Best Compact Analog Mixer?",
         "heading_es": "¿Es el Yamaha MG10XU el Mejor Mezclador Analógico Compacto?",
         "content": "<strong>The Yamaha MG10XU is the go-to compact analog mixer for small gigs.</strong> At just 9.6 x 2.8 x 11.6 inches and 4.6 lbs, it fits anywhere. 10 channels with 4 D-PRE preamps, SPX effects, and USB interface. It's the most portable analog mixer with professional features at only $267.99.",
@@ -41591,6 +41870,15 @@
         "content_es": "<strong>El Mackie ProFX12v3 ofrece características para bandas en un paquete compacto.</strong> 12 canales, 7 preamps Onyx y efectos GigFX. Compresión integrada y grabación USB. Con 3.6 kg, es portátil pero profesional por $379.",
         "products": [
           146
+        ]
+      },
+      {
+        "heading": "Is the Allen & Heath ZEDi-10FX the Best Compact Mixer for Home Recording?",
+        "heading_es": "Es el Allen & Heath ZEDi-10FX la Mejor Mesa Compacta para Grabar en Casa?",
+        "content": "<strong>Few compact mixers punch as far above their weight as the ZEDi-10FX.</strong> Four GS-R preamps from A&H's touring-console team, MusiQ EQ, multi-model FX and a built-in 4x4 24-bit/96kHz USB interface make it a complete home-recording front end. All that in a 2.3 kg chassis that costs just $292 - ideal for singer-songwriters, podcasters and small project studios.",
+        "content_es": "<strong>Pocas mesas compactas rinden tan por encima de su precio como el ZEDi-10FX.</strong> Cuatro preamplificadores GS-R del equipo de consolas de gira de A&H, EQ MusiQ, FX multi-modelo y una interfaz USB 4x4 de 24-bit/96kHz integrada lo convierten en un front-end completo de grabacion casera. Todo ello en un chasis de 2.3 kg que cuesta solo $292 - ideal para cantautores, podcasters y peque�os estudios de proyecto.",
+        "products": [
+          333
         ]
       },
       {
@@ -41617,8 +41905,10 @@
     "verdict": "The MG10XU at $267.99 is the budget analog workhorse with clean preamps. The ProFX12v3 at $379 adds FX and features, the XR18 at $509 goes digital in a rack, and the CQ-18T at $1,199 is the ultimate portable option with automated mixing.",
     "verdict_es": "El MG10XU a $267.99 es el caballo de batalla analógico económico con previos limpios. El ProFX12v3 a $379 añade FX y funciones, el XR18 a $509 pasa a digital en rack, y el CQ-18T a $1,199 es la opción portátil definitiva con mezcla automatizada.",
     "featuredProducts": [
+      336,
       137,
       146,
+      333,
       145,
       147
     ],
@@ -41710,12 +42000,20 @@
       "title_es": "Comparativa de las Mejores Mesas Compactas",
       "columns": [
         {
+          "title": "Mackie MobileMix",
+          "title_es": "Mackie MobileMix"
+        },
+        {
           "title": "Yamaha MG10XU",
           "title_es": "Yamaha MG10XU"
         },
         {
           "title": "Mackie ProFX12v3",
           "title_es": "Mackie ProFX12v3"
+        },
+        {
+          "title": "Allen & Heath ZEDi-10FX",
+          "title_es": "Allen & Heath ZEDi-10FX"
         },
         {
           "title": "Behringer X Air XR18",
@@ -41732,12 +42030,20 @@
           "label_es": "Ideal Para",
           "values": [
             {
+              "value": "Streaming & mobile A/V production",
+              "value_es": "Streaming y produccion A/V movil"
+            },
+            {
               "value": "Simple analog mixer with FX",
               "value_es": "Mesa analógica sencilla con FX"
             },
             {
               "value": "Affordable analog with FX for gigs",
               "value_es": "Analógica económica con FX para directo"
+            },
+            {
+              "value": "Home studios wanting analog sound + USB recording",
+              "value_es": "Home studios que quieren sonido analogico + grabacion USB"
             },
             {
               "value": "Full digital rack mixer you control with a tablet",
@@ -41754,12 +42060,20 @@
           "label_es": "Tipo",
           "values": [
             {
+              "value": "Analog, USB/battery powered",
+              "value_es": "Analogica, alimentacion USB/bateria"
+            },
+            {
               "value": "Analog mixer",
               "value_es": "Mesa analógica"
             },
             {
               "value": "Analog mixer",
               "value_es": "Mesa analógica"
+            },
+            {
+              "value": "Analog hybrid with 4x4 USB interface",
+              "value_es": "Hibrida analogica con interfaz USB 4x4"
             },
             {
               "value": "Digital rack mixer",
@@ -41776,12 +42090,20 @@
           "label_es": "Canales",
           "values": [
             {
+              "value": "8 (2 mono + 3 stereo)",
+              "value_es": "8 (2 mono + 3 estereo)"
+            },
+            {
               "value": "10 (6 mic)",
               "value_es": "10 (6 mic)"
             },
             {
               "value": "12 (8 mic)",
               "value_es": "12 (8 mic)"
+            },
+            {
+              "value": "10 (4 mono + 3 stereo)",
+              "value_es": "10 (4 mono + 3 estereo)"
             },
             {
               "value": "18 (16 preamps)",
@@ -41798,12 +42120,20 @@
           "label_es": "Preamplificadores",
           "values": [
             {
+              "value": "2 x mic/instrument (48V, Hi-Z)",
+              "value_es": "2 x micro/instrumento (48V, Hi-Z)"
+            },
+            {
               "value": "6 D-PRE",
               "value_es": "6 D-PRE"
             },
             {
               "value": "8 Onyx",
               "value_es": "8 Onyx"
+            },
+            {
+              "value": "4 x GS-R",
+              "value_es": "4 x GS-R"
             },
             {
               "value": "16 MIDAS",
@@ -41820,12 +42150,20 @@
           "label_es": "EQ",
           "values": [
             {
+              "value": "Per-channel tone + low-cut",
+              "value_es": "Tono por canal + filtro graves"
+            },
+            {
               "value": "3-band per channel",
               "value_es": "3 bandas por canal"
             },
             {
               "value": "3-band per channel",
               "value_es": "3 bandas por canal"
+            },
+            {
+              "value": "MusiQ 3-band (mono), 2-band (stereo)",
+              "value_es": "MusiQ 3 bandas (mono), 2 bandas (estereo)"
             },
             {
               "value": "4-band parametric",
@@ -41842,12 +42180,20 @@
           "label_es": "Envíos Aux",
           "values": [
             {
+              "value": "2 mix outs + smartphone/camera out",
+              "value_es": "2 salidas mix + salida movil/camara"
+            },
+            {
               "value": "2 aux sends",
               "value_es": "2 envíos aux"
             },
             {
               "value": "2 aux sends",
               "value_es": "2 envíos aux"
+            },
+            {
+              "value": "1 aux + 1 FX send",
+              "value_es": "1 aux + 1 envio FX"
             },
             {
               "value": "6 aux buses",
@@ -41864,12 +42210,20 @@
           "label_es": "FX Integrados",
           "values": [
             {
+              "value": "Yes (3 reverbs)",
+              "value_es": "Si (3 reverbs)"
+            },
+            {
               "value": "SPX digital FX",
               "value_es": "FX digital SPX"
             },
             {
               "value": "GigFX 24-bit",
               "value_es": "GigFX 24 bits"
+            },
+            {
+              "value": "Yes (multi-model reverb/delay)",
+              "value_es": "Si (reverb/delay multi-modelo)"
             },
             {
               "value": "4 FX engines",
@@ -41886,12 +42240,20 @@
           "label_es": "Conectividad",
           "values": [
             {
+              "value": "Bluetooth 5.1 w/ Mix Minus, TRRS, USB-C power",
+              "value_es": "Bluetooth 5.1 con Mix Minus, TRRS, alimentacion USB-C"
+            },
+            {
               "value": "USB, 2 groups",
               "value_es": "USB, 2 grupos"
             },
             {
               "value": "USB, Bluetooth",
               "value_es": "USB, Bluetooth"
+            },
+            {
+              "value": "USB 4x4 24-bit/96kHz, XLR main outs",
+              "value_es": "USB 4x4 24-bit/96kHz, salidas main XLR"
             },
             {
               "value": "Wi-Fi, USB, 6 aux",
@@ -41908,12 +42270,20 @@
           "label_es": "Peso",
           "values": [
             {
+              "value": "0.8 kg (1.8 lb)",
+              "value_es": "0.8 kg"
+            },
+            {
               "value": "4.6 lb (2.1 kg)",
               "value_es": "2,1 kg"
             },
             {
               "value": "7.9 lb (3.6 kg)",
               "value_es": "3,6 kg"
+            },
+            {
+              "value": "2.3 kg (5.1 lb)",
+              "value_es": "2.3 kg"
             },
             {
               "value": "10.4 lb (4.7 kg)",
@@ -41930,12 +42300,20 @@
           "label_es": "Precio",
           "values": [
             {
+              "value": "$229.99",
+              "value_es": "$229.99"
+            },
+            {
               "value": "$267.99",
               "value_es": "$267.99"
             },
             {
               "value": "$379",
               "value_es": "$379"
+            },
+            {
+              "value": "$292",
+              "value_es": "$292"
             },
             {
               "value": "$509",
