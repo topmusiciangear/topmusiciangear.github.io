@@ -250,11 +250,18 @@ const TEST_SHOP_BTN = {
   15: {
     prices: { gear4music: '$198.50', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
-      gear4music: 'font-weight:900;color:#fff;letter-spacing:-.3px',
-      andertons: 'font-weight:800;color:#fff',
-      musicstore: 'font-weight:900;color:#fff;text-transform:uppercase;font-size:.92em',
-      zzounds: 'font-weight:800;font-style:italic;color:#fff',
-      reverb: 'font-weight:800;color:#fff'
+      gear4music: 'font-family:\'Segoe UI\',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.5px',
+      andertons: 'font-family:\'Arial Narrow\',Arial Condensed,Arial,sans-serif;font-weight:900;color:#fff;letter-spacing:.5px',
+      musicstore: 'font-family:Verdana,Geneva,Arial,sans-serif;font-weight:900;color:#fff;letter-spacing:.5px',
+      zzounds: 'font-family:Arial,Helvetica,sans-serif;font-weight:900;font-style:italic;color:#fff;letter-spacing:-.5px',
+      reverb: 'font-family:\'Trebuchet MS\',\'Segoe UI\',sans-serif;font-weight:700;color:#fff'
+    },
+    logoText: {
+      gear4music: 'Gear4music',
+      andertons: 'ANDERTONS',
+      musicstore: 'MUSIC STORE',
+      zzounds: 'zZounds',
+      reverb: 'reverb'
     }
   }
 };
@@ -276,12 +283,12 @@ function shopButtonsTest(p, lang) {
   const primaryBtn =
     '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:13px 16px;border-radius:12px;' +
-    'background:#00C896;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
-    'box-shadow:0 4px 16px rgba(0,200,150,.35);transition:box-shadow .2s ease,filter .2s ease" ' +
+    'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
+    'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
     cartSvg + '<span>' + t('Comprar en Amazon', 'Buy at Amazon') + ' - ' + pPrice + '</span></a>';
   const rows = avail.map(k => {
-    const nm = storeNames[k] || k;
+    const nm = (cfg.logoText && cfg.logoText[k]) || storeNames[k] || k;
     const st = cfg.logoStyle[k] || 'font-weight:700';
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
