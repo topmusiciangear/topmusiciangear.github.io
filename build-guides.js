@@ -284,7 +284,7 @@ function shopButtonsTest(p, lang) {
     '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:70%;margin-left:auto;margin-right:auto;padding:0 16px;height:46px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
-    'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease" ' +
+    'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
     cartSvg + '<span>' + t('Comprar en Amazon', 'Buy at Amazon') + ' - ' + pPrice + '</span></a>';
   const rows = avail.map(k => {
@@ -293,14 +293,14 @@ function shopButtonsTest(p, lang) {
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:46px;border-radius:10px;background:#262626;' +
+      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:46px;border-radius:10px;background:#262626;transition:transform .18s ease' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';l.style.maxHeight=open?\'0px\':l.scrollHeight+\'px\';var s=this.querySelector(\'svg:last-of-type\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:8px;width:70%;margin-left:auto;margin-right:auto;padding:0 16px;height:46px;border-radius:12px;' +
-    'background:#333333;color:#dddddd;font-size:13px;font-weight:700;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease" ' +
+    'background:#333333;color:#dddddd;font-size:13px;font-weight:700;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span>' + t('Todas las opciones de compra', 'All buying options') + ' (' + avail.length + ')</span>' + chevSvg + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
@@ -747,6 +747,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@600&family=Quicksand:wght@600&family=Barlow+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,900&display=swap">
+  <style>.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);border-color:#555}</style>
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow, max-image-preview:large">
