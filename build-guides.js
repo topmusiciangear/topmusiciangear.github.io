@@ -612,9 +612,12 @@ function buildGuidePage(guide, lang, idx) {
         '</div>' : '';
       }
     }
+    const mediaBuy = (productImgs && sectionChips)
+      ? '<div class="guide-section-mediabuy">' + productImgs + sectionChips + '</div>'
+      : productImgs + sectionChips;
     return `<div class="guide-section">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
-      <div class="guide-section-content">${boldedC}${productImgs}${sectionChips}</div>
+      <div class="guide-section-content">${boldedC}${mediaBuy}</div>
     </div>`;
   }).join('');
 
