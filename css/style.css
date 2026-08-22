@@ -2087,6 +2087,18 @@ footer ul li a:hover { color: var(--accent); }
     width: 100%;
     max-width: none;
   }
+  .guide-section-mediabuy > .guide-section-imgs {
+    width: 100%;
+    justify-content: center;
+  }
+  .guide-section-mediabuy .guide-section-img,
+  .guide-section-mediabuy .guide-video-thumb {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
 }
 
 .guide-section-prods {
