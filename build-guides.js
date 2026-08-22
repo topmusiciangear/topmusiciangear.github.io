@@ -293,7 +293,7 @@ function shopButtonsTest(p, lang) {
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="display:flex;align-items:center;gap:8px;padding:0 16px;height:46px;border-radius:10px;background:#262626;' +
+      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:46px;border-radius:10px;background:#262626;' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
@@ -303,7 +303,7 @@ function shopButtonsTest(p, lang) {
     'background:#333333;color:#dddddd;font-size:13px;font-weight:700;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span>' + t('Todas las opciones de compra', 'All buying options') + ' (' + avail.length + ')</span>' + chevSvg + '</button>' +
-    '<div class="shop-more-list" style="display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
+    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
   return primaryBtn + moreBtn;
 }
 
