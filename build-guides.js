@@ -280,7 +280,7 @@ function ukFlag() {
 function globeIcon() {
   const gid = 'glg' + (++FLAG_UID);
   const gcid = 'glc' + (++FLAG_UID);
-  return '<svg viewBox="0 0 20 20" width="16" height="16" style="display:inline-block;vertical-align:-3px;flex-shrink:0;margin-right:5px">' +
+  return '<svg viewBox="0 0 20 20" width="17" height="17" style="display:inline-block;vertical-align:-4px;flex-shrink:0;margin-right:5px">' +
     '<defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>' +
     '<clipPath id="' + gcid + '"><circle cx="10" cy="10" r="8.75"/></clipPath></defs>' +
     '<circle cx="10" cy="10" r="8.75" fill="url(#' + gid + ')"/>' +
