@@ -250,18 +250,18 @@ const TEST_SHOP_BTN = {
   15: {
     prices: { amazon: '$199.00', gear4music: '\u00a3169.00', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
-      gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",
-      andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",
-      musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",
-      zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
-      reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
+      gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:16px",
+      andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:20px",
+      musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:19px;letter-spacing:.5px",
+      zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:16px",
+      reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:18px"
     },
     logoText: {
-      gear4music: 'gear4music',
+      gear4music: 'Gear4music',
       andertons: 'Andertons',
-      musicstore: 'MUSIC STORE',
-      zzounds: 'zZounds',
-      reverb: 'reverb'
+      musicstore: 'Music Store',
+      zzounds: 'Zzounds',
+      reverb: 'Reverb'
     }
   }
 };
