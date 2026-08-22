@@ -2029,6 +2029,15 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-currency-note .shop-note-body {
   min-width: 0;
 }
+@media (max-width: 768px) {
+  .guide-product-card-currency-note {
+    display: block;
+  }
+  .guide-product-card-currency-note strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+}
 
 .chip-store { 
   display: inline-flex;
