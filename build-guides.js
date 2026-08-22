@@ -239,31 +239,30 @@ function productRatingLine(p, lang) {
 
 function storeChips(p, lang) {
   lang = lang || 'en';
-  if (p.id === 15 && TEST_SHOP_BTN[p.id]) return shopButtonsTest(p, lang);
+  if (TEST_SHOP_BTN[p.id]) return shopButtonsTest(p, lang);
   return Object.entries(getResolvedStores(p)).map(([key, url]) => {
     const iconHtml = storeIcons[key] ? '<span class="icon">' + fixIconPath(storeIcons[key]) + '</span>' : '';
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
   }).join("");
 }
 
+const SHOP_LOGO_STYLE = {
+  gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",
+  andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",
+  musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",
+  zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
+  reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
+};
+const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: 'Music Store', zzounds: 'zZounds', reverb: 'Reverb' };
 const TEST_SHOP_BTN = {
-  15: {
-    prices: { amazon: '$199.00', gear4music: '\u00a3169.00', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
-    logoStyle: {
-      gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",
-      andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",
-      musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",
-      zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
-      reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
-    },
-    logoText: {
-      gear4music: 'Gear4music',
-      andertons: 'Andertons',
-      musicstore: 'Music Store',
-      zzounds: 'zZounds',
-      reverb: 'Reverb'
-    }
-  }
+  15: { prices: { amazon: '$199.00', zzounds: '$224.99', reverb: '$199.00', gear4music: '\u00a3193.75', andertons: '\u00a3185.00', musicstore: '\u20ac189.00' } },
+  16: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3829.00', andertons: '\u00a3849.00' } },
+  17: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3715.00', andertons: '\u00a3715.00' } },
+  18: { prices: { amazon: '$249.99', zzounds: '$299.99', reverb: '$249.99', gear4music: '\u00a3227.00', andertons: '\u00a3227.00' } },
+  53: { prices: { amazon: '$295.00', zzounds: '$399.99', reverb: '$295.00', gear4music: '\u00a3178.75', andertons: '\u00a3175.00' } },
+  54: { prices: { amazon: '$199.95', zzounds: '$199.95', reverb: '$199.95', gear4music: '\u00a3226.00', andertons: '\u00a3210.00' } },
+  55: { prices: { amazon: '$179.00', zzounds: '$199.00', reverb: '$179.00', gear4music: '\u00a3153.00', andertons: '\u00a3149.00' } },
+  328: { prices: { zzounds: '$219.00', reverb: '$219.00', andertons: '\u00a3152.00' } }
 };
 
 function shopButtonsTest(p, lang) {
@@ -288,8 +287,8 @@ function shopButtonsTest(p, lang) {
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
     cartSvg + '<span>' + t('Comprar en ', 'Buy at ') + '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' + ' - ' + pPrice + '</span></a>';
   const rows = avail.map(k => {
-    const nm = (cfg.logoText && cfg.logoText[k]) || storeNames[k] || k;
-    const st = cfg.logoStyle[k] || 'font-weight:700';
+    const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
+    const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
@@ -547,7 +546,7 @@ function guideCompControls(isEs, extra) {
 
 function navDropdown(isEs) {
   return `<div class="nav-dd">
-    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg></button>
+    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
     <div class="nav-dd-panel" role="menu">
       <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
       <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/?irgwc=1&amp;irpid=7292297" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -778,6 +777,7 @@ ${ogMeta}
 <script>(function(){try{history.scrollRestoration='manual'}catch(e){}var a=localStorage.getItem('tmg_v');var u='https://api.github.com/repos/topmusiciangear/topmusiciangear.github.io/contents/version.txt?ref=main&v='+Date.now();function gv(){return fetch(u,{headers:{Accept:'application/vnd.github.v3.raw'}}).then(function(r){if(r.ok)return r;return fetch('/version.txt?t='+Date.now())})}gv().then(function(r){return r.text()}).then(function(b){b=b.trim();if(a===b)return;localStorage.setItem('tmg_v',b);var s=location.search.replace(/[?&]_v=[^&]*/,'');location.replace(location.pathname+s+(s?'&':'?')+'_v='+b)}).catch(function(){})})();!function(){var s=location.search.indexOf('_v=');if(s>-1&&history.replaceState)history.replaceState({},'',location.pathname+location.search.replace(/[?&]_v=[^&]*/,'')+location.hash)}()</script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','functionality_storage':'granted','security_storage':'granted'});gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
+<script defer src="/js/amazon-geo.js?v=1"></script>
 </head>
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
