@@ -254,6 +254,14 @@ const SHOP_LOGO_STYLE = {
   reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
 };
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: 'Music Store', zzounds: 'zZounds', reverb: 'Reverb' };
+const FLAG_BASE = 'display:inline-block;vertical-align:-2px;flex-shrink:0';
+const SHOP_FLAG = {
+  zzounds: '<svg viewBox="0 0 24 16" width="18" height="12" style="' + FLAG_BASE + ';border-radius:2px"><rect width="24" height="16" fill="#fff"/><g fill="#B22234"><rect width="24" height="1.6"/><rect y="3.2" width="24" height="1.6"/><rect y="6.4" width="24" height="1.6"/><rect y="9.6" width="24" height="1.6"/><rect y="12.8" width="24" height="1.6"/></g><rect width="10" height="8" fill="#3C3B6E"/></svg>',
+  reverb: '<svg viewBox="0 0 16 16" width="13" height="13" style="' + FLAG_BASE + '"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><ellipse cx="8" cy="8" rx="3" ry="6.5" fill="none" stroke="#fff" stroke-width="1.1"/><path d="M1.5,8 H14.5" stroke="#fff" stroke-width="1.1"/></svg>',
+  gear4music: '<svg viewBox="0 0 16 16" width="13" height="13" style="' + FLAG_BASE + '"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><ellipse cx="8" cy="8" rx="3" ry="6.5" fill="none" stroke="#fff" stroke-width="1.1"/><path d="M1.5,8 H14.5" stroke="#fff" stroke-width="1.1"/></svg>',
+  musicstore: '<svg viewBox="0 0 16 16" width="13" height="13" style="' + FLAG_BASE + '"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><ellipse cx="8" cy="8" rx="3" ry="6.5" fill="none" stroke="#fff" stroke-width="1.1"/><path d="M1.5,8 H14.5" stroke="#fff" stroke-width="1.1"/></svg>',
+  andertons: '<svg viewBox="0 0 24 16" width="18" height="12" style="' + FLAG_BASE + ';border-radius:2px"><rect width="24" height="16" fill="#012169"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.2"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/><path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.4"/><path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.2"/></svg>'
+};
 const TEST_SHOP_BTN = {
   15: { prices: { amazon: '$199.00', zzounds: '$224.99', reverb: '$199.00', gear4music: '\u00a3193.75', andertons: '\u00a3185.00', musicstore: '\u20ac189.00' } },
   16: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3849.00', andertons: '\u00a3849.00', musicstore: '\u20ac945.00' } },
@@ -299,7 +307,7 @@ function shopButtonsTest(p, lang) {
     const note = k === 'zzounds' ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
-      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
+      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] || '') + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
