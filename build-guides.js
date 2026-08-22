@@ -298,7 +298,7 @@ function globeIcon() {
 }
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: globeIcon, andertons: ukFlag };
 const TEST_SHOP_BTN = {
-  15: { prices: { amazon: '$199.00', zzounds: '$224.99', reverb: '$199.00', gear4music: '\u00a3193.75', andertons: '\u00a3185.00', musicstore: '\u20ac189.00' } },
+  15: { prices: { amazon: '$199.00', zzounds: '$224.99', reverb: '$199.00', gear4music: '\u00a3193.75', andertons: '\u00a3185.00', musicstore: '\u20ac172.00' } },
   16: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3849.00', andertons: '\u00a3849.00', musicstore: '\u20ac945.00' } },
   17: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3715.00', andertons: '\u00a3715.00', musicstore: '\u20ac911.40' } },
   18: { prices: { amazon: '$249.99', zzounds: '$299.99', reverb: '$249.99', gear4music: '\u00a3227.00', andertons: '\u00a3227.00', musicstore: '\u20ac247.90' } },
@@ -306,7 +306,7 @@ const TEST_SHOP_BTN = {
   54: { prices: { amazon: '$199.95', zzounds: '$199.95', reverb: '$199.95', gear4music: '\u00a3226.00', andertons: '\u00a3210.00', musicstore: '\u20ac209.20' } },
   55: { prices: { amazon: '$179.00', zzounds: '$199.00', reverb: '$179.00', gear4music: '\u00a3153.00', andertons: '\u00a3149.00', musicstore: '\u20ac133.60' } },
   328: { prices: { zzounds: '$219.00', reverb: '$219.00', andertons: '\u00a3152.00' } },
-  5: { prices: { amazon: '$109.00', zzounds: '$99.00', reverb: '$109.00', gear4music: '\u00a3103.50', andertons: '\u00a3103.00', musicstore: '\u20ac88.20' } },
+  5: { prices: { amazon: '$109.00', zzounds: '$109.00', reverb: '$109.00', gear4music: '\u00a3103.50', andertons: '\u00a3103.00', musicstore: '\u20ac105.00' } },
   3: { prices: { amazon: '$249.00', zzounds: '$249.00', reverb: '$249.00', gear4music: '\u00a3182.00', andertons: '\u00a3182.00', musicstore: '\u20ac167.20' } },
   25: { prices: { amazon: '$149.00', zzounds: '$149.00', reverb: '$149.00', gear4music: '\u00a3132.25', andertons: '\u00a3133.00', musicstore: '\u20ac125.20' } },
   26: { prices: { amazon: '$99.99', reverb: '$99.99', musicstore: '\u20ac99.00' } },
