@@ -315,8 +315,8 @@ const TEST_SHOP_BTN = {
   50: { prices: { amazon: '$109.00', zzounds: '$99.00', reverb: '$109.00', gear4music: '\u00a3103.50', andertons: '\u00a3103.00', musicstore: '\u20ac119.00' } },
   51: { prices: { amazon: '$265.38', zzounds: '$279.00', reverb: '$265.38', gear4music: '\u00a3225.00', musicstore: '\u20ac249.00' } },
   52: { prices: { amazon: '$449.00', zzounds: '$449.00', reverb: '$449.00', gear4music: '\u00a3539.00', andertons: '\u00a3549.00', musicstore: '\u20ac539.00' } },
-  26: { prices: { amazon: '$99.99', reverb: '$99.99', gear4music: '\u00a399.00', musicstore: '\u20ac89.00' }, urls: { zzounds: 'https://www.zzounds.com/prodsearch?q=Sony+MDR-7506&key=q&form=search' }, na: ['andertons'] },
-  20: { prices: { amazon: '$269.00', zzounds: '$269.00', reverb: '$269.00', gear4music: '\u00a3199.25', musicstore: '\u20ac266.00' } },
+  26: { prices: { amazon: '$99.99', reverb: '$99.99', gear4music: '\u00a399.00', musicstore: '\u20ac89.00' }, urls: { zzounds: 'https://www.zzounds.com/item--SNYMDR7506' }, oos: ['andertons'] },
+  20: { prices: { amazon: '$269.00', zzounds: '$269.00', reverb: '$269.00', gear4music: '\u00a3199.25', musicstore: '\u20ac266.00' }, oos: ['andertons'] },
   19: { prices: { amazon: '$398.99', zzounds: '$339.14', reverb: '$398.99', gear4music: '\u00a3263.00', andertons: '\u00a3254.00', musicstore: '\u20ac289.00' } }
 };
 
@@ -329,6 +329,7 @@ function shopButtonsTest(p, lang) {
   const chevSvg = '<svg viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
   const order = ['zzounds', 'reverb', 'gear4music', 'andertons', 'musicstore'];
   const naList = cfg.na || [];
+  const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1);
   const revUrl = 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title));
   const rowUrl = k => (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]);
@@ -348,6 +349,9 @@ function shopButtonsTest(p, lang) {
     if (naList.indexOf(k) > -1) {
       return '<div style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
     }
+    if (oosList.indexOf(k) > -1) {
+      return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
+    }
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' && cfg.prices[k] ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
@@ -360,7 +364,7 @@ function shopButtonsTest(p, lang) {
     'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-size:15px;font-weight:800;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
-    chevSvg + '<span style=\'margin-left:6px\'>' + t('Todas las opciones de compra', 'All buying options') + ' (' + order.length + ')</span>' + '</button>' +
+    chevSvg + '<span style=\'margin-left:6px\'>' + t('Otras opciones de compra', 'More buying options') + ' (' + order.length + ')</span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
   return primaryBtn + moreBtn;
 }
