@@ -320,7 +320,21 @@ const TEST_SHOP_BTN = {
   52: { prices: { amazon: '$449.00', zzounds: '$449.00', reverb: '$449.00', gear4music: '\u00a3539.00', andertons: '\u00a3549.00', musicstore: '\u20ac539.00' } },
   26: { prices: { amazon: '$99.99', reverb: '$99.99', gear4music: '\u00a399.00', musicstore: '\u20ac89.00' }, urls: { zzounds: 'https://www.zzounds.com/item--SNYMDR7506' }, oos: ['andertons'] },
   20: { prices: { amazon: '$269.00', zzounds: '$269.00', reverb: '$269.00', gear4music: '\u00a3199.25', musicstore: '\u20ac266.00' }, oos: ['andertons'] },
-  19: { prices: { amazon: '$398.99', zzounds: '$339.14', reverb: '$398.99', gear4music: '\u00a3263.00', andertons: '\u00a3254.00', musicstore: '\u20ac289.00' } }
+  19: { prices: { amazon: '$398.99', zzounds: '$339.14', reverb: '$398.99', gear4music: '\u00a3263.00', andertons: '\u00a3254.00', musicstore: '\u20ac289.00' } },
+  28: { prices: { pluginboutique: '$299.00' } },
+  29: { prices: { pluginboutique: '$1069.00' } },
+  30: { prices: { pluginboutique: '$499.00' } },
+  32: { prices: { pluginboutique: '$599.00' } },
+  60: { prices: { pluginboutique: '$199.00' } },
+  61: { prices: { pluginboutique: '$19.00' } },
+  62: { prices: { pluginboutique: '$199.00' } },
+  63: { prices: { pluginboutique: '$199.00' } },
+  118: { prices: { pluginboutique: '$7599.00' } },
+  119: { prices: { pluginboutique: '$30.00' } },
+  121: { prices: { pluginboutique: '$999.00' } },
+  122: { prices: { pluginboutique: '$1399.00' } },
+  123: { prices: { pluginboutique: '$1249.00' } },
+  238: { prices: { pluginboutique: '$99.00' } }
 };
 
 function shopButtonsTest(p, lang) {
