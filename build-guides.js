@@ -250,14 +250,14 @@ const TEST_SHOP_BTN = {
   15: {
     prices: { gear4music: '$198.50', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
-      gear4music: 'font-family:\'Segoe UI\',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.5px',
-      andertons: 'font-family:\'Arial Narrow\',Arial Condensed,Arial,sans-serif;font-weight:900;color:#fff;letter-spacing:.5px',
-      musicstore: 'font-family:Verdana,Geneva,Arial,sans-serif;font-weight:900;color:#fff;letter-spacing:.5px',
-      zzounds: 'font-family:Arial,Helvetica,sans-serif;font-weight:900;font-style:italic;color:#fff;letter-spacing:-.5px',
-      reverb: 'font-family:\'Trebuchet MS\',\'Segoe UI\',sans-serif;font-weight:700;color:#fff'
+      gear4music: "font-family:'Poppins',Arial,sans-serif;font-weight:600;color:#fff;letter-spacing:-.3px",
+      andertons: "font-family:'Luckiest Guy',cursive;font-weight:400;color:#fff;letter-spacing:.5px",
+      musicstore: "font-family:'Barlow Condensed',Arial,sans-serif;font-weight:700;font-style:italic;color:#fff;letter-spacing:.5px;text-transform:uppercase",
+      zzounds: "font-family:'Roboto',Arial,sans-serif;font-weight:900;font-style:italic;color:#fff;letter-spacing:-.5px",
+      reverb: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:600;color:#fff;letter-spacing:.3px"
     },
     logoText: {
-      gear4music: 'Gear4music',
+      gear4music: 'gear4music',
       andertons: 'ANDERTONS',
       musicstore: 'MUSIC STORE',
       zzounds: 'zZounds',
@@ -282,7 +282,7 @@ function shopButtonsTest(p, lang) {
   const pPrice = cfg.prices.amazon || '';
   const primaryBtn =
     '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:13px 16px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:46px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
@@ -293,13 +293,13 @@ function shopButtonsTest(p, lang) {
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="display:flex;align-items:center;gap:8px;padding:12px 16px;border-radius:10px;background:#262626;' +
+      'style="display:flex;align-items:center;gap:8px;padding:6px 16px;min-height:46px;border-radius:10px;background:#262626;' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';l.style.maxHeight=open?\'0px\':l.scrollHeight+\'px\';var s=this.querySelector(\'svg:last-of-type\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px 16px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:0 16px;height:46px;border-radius:12px;' +
     'background:#333333;color:#dddddd;font-size:13px;font-weight:700;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span>' + t('Todas las opciones de compra', 'All buying options') + ' (' + avail.length + ')</span>' + chevSvg + '</button>' +
@@ -744,6 +744,9 @@ function buildGuidePage(guide, lang, idx) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0d0d0d">
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@600&family=Quicksand:wght@600&family=Barlow+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,900&display=swap">
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow, max-image-preview:large">
