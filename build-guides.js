@@ -237,17 +237,65 @@ function productRatingLine(p, lang) {
   return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
 }
 
-function storeChips(p) {
+function storeChips(p, lang) {
+  lang = lang || 'en';
+  if (p.id === 15 && TEST_SHOP_BTN[p.id]) return shopButtonsTest(p, lang);
   return Object.entries(getResolvedStores(p)).map(([key, url]) => {
     const iconHtml = storeIcons[key] ? '<span class="icon">' + fixIconPath(storeIcons[key]) + '</span>' : '';
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
   }).join("");
 }
 
+const TEST_SHOP_BTN = {
+  15: {
+    primary: 'amazon',
+    prices: { amazon: '$199', zzounds: '$199', gear4music: '\u00a3179', andertons: '\u00a3179', musicstore: '\u20ac189' },
+    logoStyle: {
+      gear4music: 'font-weight:900;color:#0a2d4e;letter-spacing:-.3px',
+      andertons: 'font-weight:800;color:#8b1414',
+      musicstore: 'font-weight:900;color:#e2001a;text-transform:uppercase;font-size:.92em',
+      zzounds: 'font-weight:800;font-style:italic;color:#1a3a5c'
+    }
+  }
+};
+
+function shopButtonsTest(p, lang) {
+  const cfg = TEST_SHOP_BTN[p.id];
+  const stores = getResolvedStores(p);
+  const t = (es, en) => lang === 'es' ? es : en;
+  const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
+  const expSvg = '<svg viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" style="flex-shrink:0"><path d="M32 32C14.3 32 0 46.3 0 64v96c0 17.7 14.3 32 32 32s32-14.3 32-32V96h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zM64 352c-17.7 0-32 14.3-32 32v96c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96V384c0-17.7-14.3-32-32-32zM352 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H352zM448 384c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c17.7 0 32-14.3 32-32V384z"/></svg>';
+  const pUrl = stores[cfg.primary];
+  if (!pUrl) return '';
+  const pName = storeNames[cfg.primary] || cfg.primary;
+  const pPrice = cfg.prices[cfg.primary] || ('' + (p.price || ''));
+  const primaryBtn =
+    '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:12px 16px;border-radius:8px;' +
+    'background:#d9f2dc;color:#14351c;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer">' +
+    cartSvg + '<span>' + t('Comprar en ' + pName, 'Buy at ' + pName) + ' - ' + pPrice + '</span></a>';
+  const others = Object.entries(stores).filter(([k]) => k !== cfg.primary);
+  const listHtml = others.map(([k, url]) => {
+    const nm = storeNames[k] || k;
+    const st = cfg.logoStyle[k] || '';
+    const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#333">' + cfg.prices[k] + '</span>' : '';
+    return '<a href="' + url + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+      'style="display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:8px;background:#f4f4f4;' +
+      'color:#222;text-decoration:none;font-size:14px"><span style="' + st + '">' + nm + '</span>' + pr + '</a>';
+  }).join('');
+  const moreBtn =
+    '<button type="button" class="shop-btn-more" onclick="var l=this.nextElementSibling;l.hidden=!l.hidden;" ' +
+    'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:10px 16px;border-radius:8px;' +
+    'background:#ececec;color:#555;font-size:13px;font-weight:700;border:none;cursor:pointer;margin-top:6px">' +
+    expSvg + '<span>' + t('Ver en otras tiendas', 'View at other stores') + ' (' + others.length + ')</span></button>' +
+    '<div class="shop-more-list" hidden style="display:flex;flex-direction:column;gap:4px;margin-top:6px">' + listHtml + '</div>';
+  return primaryBtn + moreBtn;
+}
+
 function productCard(p, lang) {
   const title = lang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
-  const stores = storeChips(p);
+  const stores = storeChips(p, lang);
   return `<div class="guide-product-card">
     <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
     <div class="guide-product-card-body">
@@ -527,13 +575,13 @@ function buildGuidePage(guide, lang, idx) {
         return '<div class="guide-section-prod">' +
           '<div class="guide-section-prod-name">' + t + '</div>' +
           '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in"></div>' +
-          '<div class="guide-section-buy">' + storeChips(p) + '</div>' +
+          '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
         '</div>';
       }).join('');
       productImgs = '<div class="guide-section-prods">' + blocks + '</div>';
     } else {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
-      sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct) + '</div>' : '';
+      sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>' : '';
       if (firstProduct && s.video) {
         const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
         const psrc = firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
