@@ -199,9 +199,27 @@ function setLang(lang) {
   updateAudioLabel();
   renderMySetup();
   updateLangSwitcher();
-  var n = 0;
-  (function st() { window.scrollTo(0, stY); n++; if (n < 60) requestAnimationFrame(st); })();
-  window.addEventListener("load", function() { window.scrollTo(0, stY); });
+  if (window.__tmgLangEnd) window.__tmgLangEnd();
+  var EVS = ["touchstart", "wheel", "mousedown", "keydown"], rafId = 0, n = 0, done = false;
+  function endLock() {
+    if (done) return;
+    done = true;
+    if (rafId) cancelAnimationFrame(rafId);
+    EVS.forEach(function(ev) { window.removeEventListener(ev, endLock); });
+    window.removeEventListener("load", onLoad);
+    if (window.__tmgLangEnd === endLock) delete window.__tmgLangEnd;
+  }
+  function onLoad() { if (!done) window.scrollTo(0, stY); }
+  window.__tmgLangEnd = endLock;
+  (function st() {
+    if (done || n >= 48) return endLock();
+    window.scrollTo(0, stY);
+    n++;
+    rafId = requestAnimationFrame(st);
+  })();
+  EVS.forEach(function(ev) { window.addEventListener(ev, endLock, { passive: true }); });
+  setTimeout(endLock, 1500);
+  window.addEventListener("load", onLoad);
 }
 
 function showModal() {
