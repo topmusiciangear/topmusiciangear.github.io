@@ -307,8 +307,10 @@ const TEST_SHOP_BTN = {
   55: { prices: { amazon: '$179.00', zzounds: '$199.00', reverb: '$179.00', gear4music: '\u00a3153.00', andertons: '\u00a3149.00', musicstore: '\u20ac133.60' } },
   328: { prices: { zzounds: '$219.00', reverb: '$219.00', andertons: '\u00a3152.00' } },
   5: { prices: { amazon: '$109.00', zzounds: '$109.00', reverb: '$109.00', gear4music: '\u00a3103.50', andertons: '\u00a3103.00', musicstore: '\u20ac105.00' } },
-  3: { prices: { amazon: '$249.00', zzounds: '$249.00', reverb: '$249.00', gear4music: '\u00a3182.00', andertons: '\u00a3182.00', musicstore: '\u20ac167.20' } },
-  25: { prices: { amazon: '$149.00', zzounds: '$149.00', reverb: '$149.00', gear4music: '\u00a3132.25', andertons: '\u00a3133.00', musicstore: '\u20ac125.20' } },
+  3: { prices: { amazon: '$249.00', zzounds: '$214.00', reverb: '$249.00', gear4music: '\u00a3184.75', andertons: '\u00a3182.00', musicstore: '\u20ac199.00' } },
+  25: { prices: { amazon: '$149.00', zzounds: '$159.00', reverb: '$149.00', gear4music: '\u00a3148.00', andertons: '\u00a3133.00', musicstore: '\u20ac149.00' } },
+  4: { prices: { amazon: '$1,225.00', zzounds: '$1,199.00', reverb: '$1,225.00', gear4music: '\u00a3893.00', andertons: '\u00a3849.00', musicstore: '\u20ac772.30' } },
+  2: { prices: { amazon: '$3,750.00', zzounds: '$3,750.00', reverb: '$3,750.00', andertons: '\u00a33,008.00' } },
   26: { prices: { amazon: '$99.99', reverb: '$99.99', musicstore: '\u20ac99.00' } },
   20: { prices: { amazon: '$269.00', zzounds: '$269.00', reverb: '$269.00', musicstore: '\u20ac223.50' } },
   19: { prices: { amazon: '$398.99', zzounds: '$398.99', reverb: '$398.99', gear4music: '\u00a3254.00', andertons: '\u00a3254.00', musicstore: '\u20ac294.00' } }
