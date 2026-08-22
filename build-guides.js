@@ -250,11 +250,11 @@ const TEST_SHOP_BTN = {
   15: {
     prices: { gear4music: '$198.50', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
-      gear4music: "font-family:'Poppins',Arial,sans-serif;font-weight:600;color:#fff;letter-spacing:-.3px",
-      andertons: "font-family:'Luckiest Guy',cursive;font-weight:400;color:#fff;letter-spacing:.5px",
-      musicstore: "font-family:'Barlow Condensed',Arial,sans-serif;font-weight:700;font-style:italic;color:#fff;letter-spacing:.5px;text-transform:uppercase",
-      zzounds: "font-family:'Roboto',Arial,sans-serif;font-weight:900;font-style:italic;color:#fff;letter-spacing:-.5px",
-      reverb: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:600;color:#fff;letter-spacing:.3px"
+      gear4music: "font-family:'Poppins',Arial,sans-serif;font-weight:600;color:#fff;letter-spacing:-.3px;font-size:15px",
+      andertons: "font-family:'Luckiest Guy',cursive;font-weight:400;color:#fff;letter-spacing:.5px;font-size:14px",
+      musicstore: "font-family:'Barlow Condensed',Arial,sans-serif;font-weight:700;font-style:italic;color:#fff;letter-spacing:.5px;text-transform:uppercase;font-size:17px",
+      zzounds: "font-family:'Roboto',Arial,sans-serif;font-weight:900;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
+      reverb: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:600;color:#fff;letter-spacing:.3px;font-size:15px"
     },
     logoText: {
       gear4music: 'gear4music',
