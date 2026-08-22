@@ -291,7 +291,7 @@ function shopButtonsTest(p, lang) {
     const nm = (cfg.logoText && cfg.logoText[k]) || storeNames[k] || k;
     const st = cfg.logoStyle[k] || 'font-weight:700';
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
-    const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
+    const note = k === 'zzounds' ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:10px;background:#262626;transition:transform .18s ease' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
