@@ -2376,7 +2376,8 @@ footer ul li a:hover { color: var(--accent); }
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
     gap: 10px;
     padding: 6px 0 8px;
   }
@@ -2385,7 +2386,6 @@ footer ul li a:hover { color: var(--accent); }
     flex: 0 0 var(--cat-card-w, 120px);
     min-width: var(--cat-card-w, 120px);
     max-width: var(--cat-card-w, 120px);
-    scroll-snap-align: start;
   }
   .cat-carousel {
     padding-left: 0;
