@@ -286,14 +286,14 @@ function shopButtonsTest(p, lang) {
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    cartSvg + '<span>' + t('Comprar en ', 'Buy at ') + '<span style=\'position:relative;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-weight:800\'>Amazon' + '<svg width=\'42\' height=\'8\' viewBox=\'0 0 120 18\' fill=\'none\' style=\'position:absolute;left:0;right:0;top:100%;margin-top:-2px\'>' + '<path d=\'M4 6 C 32 14, 76 14, 98 7\' stroke=\'#FF9900\' stroke-width=\'5\' stroke-linecap=\'round\'/>' + '<path d=\'M99 13 L 106 3 L 110 14 Z\' fill=\'#FF9900\'/>' + '</svg></span>' + ' - ' + pPrice + '</span></a>';
+    cartSvg + '<span>' + t('Comprar en ', 'Buy at ') + '<span style=\'position:relative;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-weight:800\'>Amazon' + '<svg width=\'46\' height=\'10\' viewBox=\'84 112 322 71\' style=\'position:absolute;left:0;top:100%;margin-top:-1px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>' + ' - ' + pPrice + '</span></a>';
   const rows = avail.map(k => {
     const nm = (cfg.logoText && cfg.logoText[k]) || storeNames[k] || k;
     const st = cfg.logoStyle[k] || 'font-weight:700';
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:10px;background:#262626;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease' +
+      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
@@ -747,7 +747,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@700&family=Poppins:ital,wght@1,800&family=Open+Sans+Condensed:wght@700&family=Kaushan+Script&display=swap">
-  <style>.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);border-color:#666;background:#34383d;box-shadow:0 4px 16px rgba(0,0,0,.5)}</style>
+  <style>@media(hover:hover){.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);border-color:#666;background:#34383d;box-shadow:0 4px 16px rgba(0,0,0,.5)}}</style>
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow, max-image-preview:large">
