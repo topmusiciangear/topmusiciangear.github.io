@@ -248,7 +248,7 @@ function storeChips(p, lang) {
 
 const TEST_SHOP_BTN = {
   15: {
-    prices: { amazon: '$199.00', gear4music: '$198.50', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
+    prices: { amazon: '$199.00', gear4music: '\u00a3169.00', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
       gear4music: "font-family:'Poppins',Arial,sans-serif;font-weight:600;color:#fff;letter-spacing:-.3px;font-size:15px",
       andertons: "font-family:'Luckiest Guy',cursive;font-weight:400;color:#fff;letter-spacing:.5px;font-size:14px",
@@ -290,7 +290,7 @@ function shopButtonsTest(p, lang) {
   const rows = avail.map(k => {
     const nm = (cfg.logoText && cfg.logoText[k]) || storeNames[k] || k;
     const st = cfg.logoStyle[k] || 'font-weight:700';
-    const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
+    const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:10px;background:#262626;transition:transform .18s ease' +
@@ -302,7 +302,7 @@ function shopButtonsTest(p, lang) {
     'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-size:15px;font-weight:800;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
-    '<span>' + t('Todas las opciones de compra', 'All buying options') + ' (' + avail.length + ')</span>' + chevSvg + '</button>' +
+    chevSvg + '<span style=\'margin-left:6px\'>' + t('Todas las opciones de compra', 'All buying options') + ' (' + avail.length + ')</span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
   return primaryBtn + moreBtn;
 }
