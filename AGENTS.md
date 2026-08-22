@@ -567,13 +567,16 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 - **Final audit fixes**: 7 Soundtoys rating mismatches in guides.json FAQ (4.8→4.5), 3 truncated ES FAQ translations (monitors Q1, plugins Q1, best‑interface Q4), price mismatches ATH‑M50X →$169 + Yamaha Pacifica $299→$349
 - **Price normalization session 2**: canonical = `data/products.json` (user decision): Ableton Suite $749→$799 (guides + ableton-vs-logic conclusion), Blues Junior IV $749→$699, Marshal DSL40CR $749→$999, Katana 50 $229→$259, Ableton tiers Intro $79/$149→$99/$349; 246 pages rebuilt, verified, committed as `9b41f9441`
 - **Natural-language fixes session 3**: budget-mics paragraph rewrote (removed "$20 support system" inconsistency — real prices $20–40 basic cable, Mogami $53), removed the artificial "I've spent endless hours/incontables horas" intros (best-samplers-drum-computers + best-drum-machine, EN+ES), normalized **"computadora de batería" → "caja de ritmos"** (natural Spanish already used elsewhere; title, intro, sections, digitakt-ii-vs-tr8s, products.json desc)
-- **Build this session**: `node build-guides.js` → 246 guide pages + sitemap (254 URLs) + sitemap-images (39), all ok, verified in HTML (intro/title/para gone)
+- **Session flags/globes + disclaimer**: SHOP_FLAG map in build-guides.js (USA flag zZounds/UK flag Andertons/colored globe Reverb+G4M+MusicStore, unique clipPath IDs via FLAG_UID); disclaimers EN+ES rewritten (shipping costs per store) in `.guide-product-card-currency-note`, color = var(--accent) blue; globe final size 17×17 va -4px; commits `5503323fc`,`ceba83aa2`,`f08b0990f`,`2c020d62e`,`c8f3e2f0f`,`2b690e21f`,`e3faa306b`
+- **Buy buttons migration (TEST_SHOP_BTN en build-guides.js ~line 300)**: starter-studio done (ids 15,16,17,18,53,54,55,328,5,3,25,26,20,19). Mic session IN PROGRESS: added id 4 C414 XLII ($1,225/$1,199/$1,225/£893/£849/€772.30) and id 2 U87 Ai Set ($3,750×3 + £3,008 Andertons; G4M/MusicStore sin precio — variante nickel no verificable por 403/región). Price corrections user-reported: SM57 zzounds $109/musicstore €105, Scarlett musicstore €172, NT1 zzounds $214/g4m £184.75/musicstore €199, M50x zzounds $159/g4m £148/musicstore €149, HS8 zzounds $339.14/g4m £263/musicstore €289, Rokit7 g4m £199.25/musicstore €266, MDR7506 g4m £99/musicstore €89
+- **5 tiendas SIEMPRE**: shopButtonsTest renderiza las 5 tiendas siempre (zzounds/reverb/gear4music/andertons/musicstore). Schema TEST_SHOP_BTN ampliado: `urls: {store: url}` override y `na: [stores]` → fila no clicable "No disponible/Not Available" (fondo #262626). Ejemplo: id 26 na:['andertons'] + urls.zzounds prodsearch. Contador del botón = tiendas disponibles (sin NA). Commits `38df46329`,`e5456f198`,`2dff87d05`; versión actual `2cckgct9`
+- **Mic guides pendientes de migrar** (~60 ids sin botones): comparativas top (SM58=50, MD421 Kompakt=51, RE20=52, SM7B=1 ya verificados precios parciales: SM7B amazon/zz $439; U87 listo; SM58-LC zz $99), stage-mics 226-232, usb/streaming 194,195,196,197,276-299, wireless 91-95,249-254, shotgun 339-349, instrument 206-215
 
 ### Blocked
 - (none)
 
 ### Next Move
-- User-driven
+- Continuar sesión micrófonos: verificar precios tienda-por-tienda de los siguientes productos (SM58 Amazon LC, MD421 Kompakt, RE20 primero — aparecen en comparativas top) e ir añadiendo entradas a TEST_SHOP_BTN con regla: solo precios verificados; tienda sin producto → `na`; tienda con producto sin precio verificado → fila sin precio hasta verificar
 
 ## ⚠️ FIRST CHECK when page is broken
 
