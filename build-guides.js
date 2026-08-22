@@ -260,7 +260,7 @@ const TEST_SHOP_BTN = {
       gear4music: 'Gear4music',
       andertons: 'Andertons',
       musicstore: 'Music Store',
-      zzounds: 'Zzounds',
+      zzounds: 'zZounds',
       reverb: 'Reverb'
     }
   }
@@ -286,7 +286,7 @@ function shopButtonsTest(p, lang) {
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    cartSvg + '<span>' + t('Comprar en Amazon', 'Buy at Amazon') + ' - ' + pPrice + '</span></a>';
+    cartSvg + '<span>' + t('Comprar en ', 'Buy at ') + '<span style=\'position:relative;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-weight:800\'>Amazon' + '<svg width=\'44\' height=\'6\' viewBox=\'0 0 100 14\' fill=\'none\' style=\'position:absolute;left:0;right:0;top:100%;margin-top:-3px\'>' + '<path d=\'M6 4c16 10 56 11 78-1\' stroke=\'#FF9900\' stroke-width=\'9\' stroke-linecap=\'round\'/>' + '<path d=\'M97 2c-5 0-11 4-14 9l13 1z\' fill=\'#FF9900\'/>' + '</svg></span>' + ' - ' + pPrice + '</span></a>';
   const rows = avail.map(k => {
     const nm = (cfg.logoText && cfg.logoText[k]) || storeNames[k] || k;
     const st = cfg.logoStyle[k] || 'font-weight:700';
