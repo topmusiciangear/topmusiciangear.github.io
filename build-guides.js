@@ -237,9 +237,12 @@ function productRatingLine(p, lang) {
   return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
 }
 
+let CURRENT_GUIDE_CAT = null;
+
 function storeChips(p, lang) {
   lang = lang || 'en';
-  if (TEST_SHOP_BTN[p.id]) return shopButtonsTest(p, lang);
+  const skipCat = CURRENT_GUIDE_CAT === 'daw' || CURRENT_GUIDE_CAT === 'plugins';
+  if (!skipCat || TEST_SHOP_BTN[p.id]) return shopButtonsTest(p, lang);
   return Object.entries(getResolvedStores(p)).map(([key, url]) => {
     const iconHtml = storeIcons[key] ? '<span class="icon">' + fixIconPath(storeIcons[key]) + '</span>' : '';
     return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
@@ -321,8 +324,8 @@ const TEST_SHOP_BTN = {
 };
 
 function shopButtonsTest(p, lang) {
-  const cfg = TEST_SHOP_BTN[p.id];
-  if (!cfg) return '';
+  const cfg = TEST_SHOP_BTN[p.id] || {};
+  const prices = cfg.prices || {};
   const stores = getResolvedStores(p);
   const t = (es, en) => lang === 'es' ? es : en;
   const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
@@ -330,30 +333,30 @@ function shopButtonsTest(p, lang) {
   const order = ['zzounds', 'reverb', 'gear4music', 'andertons', 'musicstore'];
   const naList = cfg.na || [];
   const oosList = cfg.oos || [];
-  const avail = order.filter(k => naList.indexOf(k) === -1);
+  const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title));
   const rowUrl = k => (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]);
-  const pUrl = stores.amazon || stores[cfg && Object.keys(cfg.prices)[0]] || stores[avail[0]];
+  const pUrl = stores.amazon || stores[Object.keys(prices)[0]] || stores[avail[0]];
   if (!pUrl) return '';
-  const pPrice = cfg.prices.amazon || '';
+  const pPrice = prices.amazon || '';
   const primaryBtn =
     '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    cartSvg + '<span>' + t('Comprar en ', 'Buy at ') + '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' + ' - ' + pPrice + '</span></a>';
+    cartSvg + '<span>' + t('Comprar en ', 'Buy at ') + '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' + (pPrice ? ' - ' + pPrice : '') + '</span></a>';
   const rows = order.map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
-    if (naList.indexOf(k) > -1) {
+    if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       return '<div style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
     }
     if (oosList.indexOf(k) > -1) {
       return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
     }
-    const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
-    const note = k === 'zzounds' && cfg.prices[k] ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
+    const pr = prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + prices[k] + '</span>' : '';
+    const note = k === 'zzounds' && prices[k] ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + note + pr + '</a>';
@@ -622,6 +625,7 @@ function navDropdown(isEs) {
 }
 
 function buildGuidePage(guide, lang, idx) {
+  CURRENT_GUIDE_CAT = guide.category;
   const isEs = lang === 'es';
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
   const intro = esText(isEs && guide.intro_es, guide.intro);

@@ -488,7 +488,7 @@ function renderProductCard(id) {
   if (!p) return "";
   const title = currentLang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = currentLang === 'es' && p.desc_es ? p.desc_es : p.desc;
-  const stores = Object.entries(getResolvedStores(p)).map(([key, url]) =>
+  const stores = (window.tmgStoreButtons && tmgStoreButtons(p)) || Object.entries(getResolvedStores(p)).map(([key, url]) =>
     `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}"><span class="icon">${storeIcons[key] || ''}</span> ${storeNames[key] || key}</a>`
   ).join("");
   const prodImgUrl = p.img && p.img.startsWith('http') ? p.img : 'https://topmusiciangear.com/' + (p.img || 'img/og-image.svg');

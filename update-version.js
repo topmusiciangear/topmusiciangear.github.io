@@ -6,6 +6,7 @@ var t=Math.random().toString(36).slice(2,10);
 var h=fs.readFileSync(idx,'utf8');
 var jsVer=(h.match(/app\.min\.js\?v=([a-z0-9]+)/)||[])[1];
 h=h.replace(/app\.min\.js\?v=[a-z0-9]+/g,'app.min.js?v='+t);
+h=h.replace(/shop-buttons\.js\?v=[a-z0-9]+/g,'shop-buttons.js?v='+t);
 h=h.replace(/style\.min\.css\?v=[a-z0-9]+/g,'style.min.css?v='+t);
 fs.writeFileSync(idx,h);
 fs.writeFileSync(ver,t);
