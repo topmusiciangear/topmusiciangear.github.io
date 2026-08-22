@@ -293,7 +293,7 @@ function shopButtonsTest(p, lang) {
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="display:flex;align-items:center;gap:8px;padding:6px 16px;min-height:46px;border-radius:10px;background:#262626;' +
+      'style="display:flex;align-items:center;gap:8px;padding:0 16px;height:46px;border-radius:10px;background:#262626;' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
