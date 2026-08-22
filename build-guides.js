@@ -293,12 +293,12 @@ function shopButtonsTest(p, lang) {
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + (k === 'reverb' ? '<span style="color:#555;font-size:12px;font-weight:600;margin-left:6px">' + t('aprox.', 'approx.') + '</span> ' : '') + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:10px;background:#262626;transition:transform .18s ease' +
+      'style="width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:10px;background:#262626;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease' +
       'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
-    'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';l.style.maxHeight=open?\'0px\':l.scrollHeight+\'px\';var s=this.querySelector(\'svg:last-of-type\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
+    'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';if(open){l.style.overflow=\'hidden\';l.style.maxHeight=\'0px\';}else{l.style.maxHeight=l.scrollHeight+\'px\';setTimeout(function(){l.style.overflow=\'visible\';},330);}var s=this.querySelector(\'svg:last-of-type\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-size:15px;font-weight:800;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
@@ -747,7 +747,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@700&family=Poppins:ital,wght@1,800&family=Open+Sans+Condensed:wght@700&family=Kaushan+Script&display=swap">
-  <style>.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);border-color:#555}</style>
+  <style>.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);border-color:#666;background:#34383d;box-shadow:0 4px 16px rgba(0,0,0,.5)}</style>
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow, max-image-preview:large">
