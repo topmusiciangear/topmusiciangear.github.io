@@ -2064,10 +2064,14 @@ footer ul li a:hover { color: var(--accent); }
 }
 .guide-section-mediabuy > .guide-section-buy {
   margin-top: 0;
-  flex: 0 0 280px;
-  width: 280px;
-  max-width: 320px;
+  flex: 0 0 340px;
+  width: 340px;
+  max-width: none;
   align-content: flex-start;
+}
+.guide-section-mediabuy .shop-btn-primary,
+.guide-section-mediabuy .shop-btn-more {
+  white-space: nowrap;
 }
 .guide-section-mediabuy .guide-section-img,
 .guide-section-mediabuy .guide-video-thumb {
