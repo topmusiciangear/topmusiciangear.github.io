@@ -250,15 +250,15 @@ const TEST_SHOP_BTN = {
   15: {
     prices: { amazon: '$199.00', gear4music: '\u00a3169.00', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
-      gear4music: "font-family:'Poppins',Arial,sans-serif;font-weight:600;color:#fff;letter-spacing:-.3px;font-size:15px",
-      andertons: "font-family:'Luckiest Guy',cursive;font-weight:400;color:#fff;letter-spacing:.5px;font-size:14px",
-      musicstore: "font-family:'Barlow Condensed',Arial,sans-serif;font-weight:700;font-style:italic;color:#fff;letter-spacing:.5px;text-transform:uppercase;font-size:17px",
-      zzounds: "font-family:'Roboto',Arial,sans-serif;font-weight:900;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
-      reverb: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:600;color:#fff;letter-spacing:.3px;font-size:15px"
+      gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",
+      andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",
+      musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",
+      zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
+      reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
     },
     logoText: {
       gear4music: 'gear4music',
-      andertons: 'ANDERTONS',
+      andertons: 'Andertons',
       musicstore: 'MUSIC STORE',
       zzounds: 'zZounds',
       reverb: 'reverb'
@@ -746,7 +746,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@600&family=Quicksand:wght@600&family=Barlow+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@700&family=Poppins:ital,wght@1,800&family=Open+Sans+Condensed:wght@700&family=Kaushan+Script&display=swap">
   <style>.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);border-color:#555}</style>
   <title>${title} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
