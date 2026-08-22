@@ -1,4 +1,4 @@
-# Development Guide for Pinokio Projects
+﻿# Development Guide for Pinokio Projects
 
 ## Non-Negotiable Execution Workflow
 
@@ -107,17 +107,17 @@ Pinokio projects follow a standardized structure with app logic separated from l
 
 ```
 project-root/
-├── app/                 # Self-contained app logic (can be standalone repo)
-│   ├── package.json     # Node.js projects
-│   ├── requirements.txt # Python projects
-│   └── ...              # Other language-specific files
-├── README.md            # Documentation
-├── install.js           # Installation script
-├── start.js             # Launch script
-├── update.js            # Update script (for updating the scripts and app logic to the latest)
-├── reset.js             # Reset dependencies script
-├── pinokio.js           # UI generator script
-└── pinokio.json         # Metadata (title, description, icon)
+â”œâ”€â”€ app/                 # Self-contained app logic (can be standalone repo)
+â”‚   â”œâ”€â”€ package.json     # Node.js projects
+â”‚   â”œâ”€â”€ requirements.txt # Python projects
+â”‚   â””â”€â”€ ...              # Other language-specific files
+â”œâ”€â”€ README.md            # Documentation
+â”œâ”€â”€ install.js           # Installation script
+â”œâ”€â”€ start.js             # Launch script
+â”œâ”€â”€ update.js            # Update script (for updating the scripts and app logic to the latest)
+â”œâ”€â”€ reset.js             # Reset dependencies script
+â”œâ”€â”€ pinokio.js           # UI generator script
+â””â”€â”€ pinokio.json         # Metadata (title, description, icon)
 ```
 
 - Keep app code in `/app` folder only (never in root)
@@ -129,10 +129,10 @@ The only exceptions are serverless web apps---purely frontend only web applicati
 
 ```
 project-root/
-├── index.html           # The serverless web app entry point
-├── ...
-├── README.md            # Documentation
-└── pinokio.json         # Metadata (title, description, icon)
+â”œâ”€â”€ index.html           # The serverless web app entry point
+â”œâ”€â”€ ...
+â”œâ”€â”€ README.md            # Documentation
+â””â”€â”€ pinokio.json         # Metadata (title, description, icon)
 ```
 
 IMPORTANT: ALWAYS try to follow the best practices in the examples folder (C:\pinokio\prototype\system\examples) instead of trying to come up with your own structure. The examples have been optimized for the best user experience.
@@ -148,13 +148,13 @@ Example: in the following project structure:
 
 ```
 project-root/
-├── pinokio/                 # Pinokio launcher folder
-│    ├── start.js             # Launch script
-│    ├── pinokio.js           # UI generator script
-│    └── pinokio.json         # Metadata (title, description, icon)
-└─── backend/
-     ├── requirements.txt          # App dependencies
-     └── app.py                    # App code
+â”œâ”€â”€ pinokio/                 # Pinokio launcher folder
+â”‚    â”œâ”€â”€ start.js             # Launch script
+â”‚    â”œâ”€â”€ pinokio.js           # UI generator script
+â”‚    â””â”€â”€ pinokio.json         # Metadata (title, description, icon)
+â””â”€â”€â”€ backend/
+     â”œâ”€â”€ requirements.txt          # App dependencies
+     â””â”€â”€ app.py                    # App code
 ```
 
 The `pinokio/start.js` should use the correct path `../backend` as the `path` attribute, as follows:
@@ -356,7 +356,7 @@ The following package managers come pre-installed with Pinokio, so whenever you 
 **Important:** Include all install commands in the install script for reproducibility.
 ### HTTPS Proxy Support
 - All HTTP servers automatically get HTTPS endpoints
-- Convention: `http://localhost:<PORT>` → `https://<PORT>.localhost`
+- Convention: `http://localhost:<PORT>` â†’ `https://<PORT>.localhost`
 - Full proxy list available at: `http://localhost:2019/config/`
 ### Pterm Features:
 - **Clipboard Access:** Read from or Write to system clipboard via pinokio Pterm CLI (`pterm clipboard` command.)
@@ -375,19 +375,19 @@ In case there is a `pinokio` folder in the project root folder, you should be ab
 
 ```
 pinokio/
-└── logs/   # Direct user interaction logs
-    ├── api/     # Launcher script logs (install.js, start.js, etc.)
-    ├── dev/     # AI coding tool logs (organized by tool)
-    └── shell/   # Direct user interaction logs
+â””â”€â”€ logs/   # Direct user interaction logs
+    â”œâ”€â”€ api/     # Launcher script logs (install.js, start.js, etc.)
+    â”œâ”€â”€ dev/     # AI coding tool logs (organized by tool)
+    â””â”€â”€ shell/   # Direct user interaction logs
 ```
 
 Otherwise, the `logs` folder should be found at project root:
 
 ```
 logs/
-├── api/     # Launcher script logs (install.js, start.js, etc.)
-├── dev/     # AI coding tool logs (organized by tool)
-└── shell/   # Direct user interaction logs
+â”œâ”€â”€ api/     # Launcher script logs (install.js, start.js, etc.)
+â”œâ”€â”€ dev/     # AI coding tool logs (organized by tool)
+â””â”€â”€ shell/   # Direct user interaction logs
 ```
 
 ### Log File Naming
@@ -539,8 +539,8 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 
 ## Quick Reference
 ### Essential Documentation
-- **Pinokio Programming:** See `PINOKIO.md` at C:\pinokio\prototype\PINOKIO.md → "Programming Pinokio" section
-- **Dynamic Menus:** See `PINOKIO.md` at C:\pinokio\prototype\PINOKIO.md → "Dynamic menu rendering" section  
+- **Pinokio Programming:** See `PINOKIO.md` at C:\pinokio\prototype\PINOKIO.md â†’ "Programming Pinokio" section
+- **Dynamic Menus:** See `PINOKIO.md` at C:\pinokio\prototype\PINOKIO.md â†’ "Dynamic menu rendering" section  
 - **CLI Commands:** See `PTERM.md` at C:\pinokio\prototype\PTERM.md
 ### Common Patterns
 - **Python Virtual Env:** `shell.run` with `venv` attribute
@@ -557,43 +557,45 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 ## Anchored Summary
 
 ### Objective
-- Complete site‑wide audit: fix corrupted UTF‑8 mojibake, eliminate stale Musik Produktiv references, add missing affiliate links, correct content/data mismatches, ensure EN/ES translation parity, and make new guides match old guides for Google ranking
+- Complete siteâ€‘wide audit: fix corrupted UTFâ€‘8 mojibake, eliminate stale Musik Produktiv references, add missing affiliate links, correct content/data mismatches, ensure EN/ES translation parity, and make new guides match old guides for Google ranking
 
 ### Work State
-- **All previous fixes applied**: mojibake, Musik Produktiv removal, products affiliate links, SPA JSON‑LD cleanup, beat‑making recreation, iZotope RX 11 update, Soundtoys 5.5 Bundle image+rating
+- **All previous fixes applied**: mojibake, Musik Produktiv removal, products affiliate links, SPA JSONâ€‘LD cleanup, beatâ€‘making recreation, iZotope RX 11 update, Soundtoys 5.5 Bundle image+rating
 - **Meta description HTML injection**: fixed `stripHtml()` in `build-guides.js:210` + `js/app.js:166,677`
-- **SEO audit**: fixed duplicate `(2026)` in title, OG title missing year, OG image dimensions to 1200×630, missing description field on beat‑making
-- **Year removed from all titles**: deleted `yearTag`/`yearSuffix` logic from `build-guides.js`, removed year logic from `app.js`, removed `(2026)` from beat‑making title in `guides.json`
-- **Final audit fixes**: 7 Soundtoys rating mismatches in guides.json FAQ (4.8→4.5), 3 truncated ES FAQ translations (monitors Q1, plugins Q1, best‑interface Q4), price mismatches ATH‑M50X →$169 + Yamaha Pacifica $299→$349
-- **Price normalization session 2**: canonical = `data/products.json` (user decision): Ableton Suite $749→$799 (guides + ableton-vs-logic conclusion), Blues Junior IV $749→$699, Marshal DSL40CR $749→$999, Katana 50 $229→$259, Ableton tiers Intro $79/$149→$99/$349; 246 pages rebuilt, verified, committed as `9b41f9441`
-- **Natural-language fixes session 3**: budget-mics paragraph rewrote (removed "$20 support system" inconsistency — real prices $20–40 basic cable, Mogami $53), removed the artificial "I've spent endless hours/incontables horas" intros (best-samplers-drum-computers + best-drum-machine, EN+ES), normalized **"computadora de batería" → "caja de ritmos"** (natural Spanish already used elsewhere; title, intro, sections, digitakt-ii-vs-tr8s, products.json desc)
-- **Session flags/globes + disclaimer**: SHOP_FLAG map in build-guides.js (USA flag zZounds/UK flag Andertons/colored globe Reverb+G4M+MusicStore, unique clipPath IDs via FLAG_UID); globe final size 17×17 va -4px; commits `5503323fc`,`ceba83aa2`,`f08b0990f`,`2c020d62e`,`c8f3e2f0f`,`2b690e21f`,`e3faa306b`
-- **Disclaimer de precios estilo callout** (petición del usuario): `.guide-product-card-currency-note` ya NO es texto azul centrado; ahora es caja tipo `guide-callout` (border-left 4px #f59e0b, fondo rgba(245,158,11,.08), font 13px, **texto blanco**, display:flex con gap 7px). Texto: `<strong>⚠️ Atención:</strong>` (EN `⚠️ Attention:`) con strong nowrap+flex-shrink:0 y body en `<span class="shop-note-body">` (min-width:0) → las líneas siguientes se alinean bajo el TEXTO, no bajo el signo. Wording final unificado en build-guides.js Y js/app.js: "Los precios pueden variar según tu geolocalización; el total final se confirma en tu moneda local al pagar. Cada tienda aplica su propia política de envío: algunas envían totalmente gratis, otras cobran un costo de envío y otras ofrecen envío gratuito a partir de un importe mínimo de compra. Además, algunas tiendas solo realizan envíos dentro de EE.&nbsp;UU." (EN paralelo). "EE.&nbsp;UU." con nbsp para que no se separe. Frase "nosotros solo te mostramos el precio del producto" eliminada a petición del usuario. **SOLO UNA nota por página**: la del bloque `${productCards}` tras las FAQs fue eliminada (redundante); queda únicamente la de línea ~954 (tras las secciones, antes de la conclusión), que acompaña los botones de compra. **Móvil ≤768px**: media query apila la nota en block (strong display:block margin-bottom:4px) para evitar columna angosta
-- **Fix scroll-lock al cambiar idioma (`tmgLangScroll`)**: el switch de idioma (build-guides.js ~892) guarda scrollY y navega; script temprano en `<head>` (~827) oculta el doc si hay posición guardada; bucle de restauración al final de cada guía fuerza `scrollTo(0,y)` por frames. ANTES: 90 frames sin escape → página "colgada" ~1.5s peleando con el scroll del usuario (peor en móvil). AHORA: máx 48 frames + **se cancela al primer touchstart/wheel/mousedown/keydown** ({passive:true}) + tope duro `setTimeout(end,1500)` + visibility restaurado en end(). No tocar sin mantener estos tres escapes
-- **Mismo fix en la HOME (`setLang`)**: js/app.js tenía el mismo bucle colgante (60 frames + segundo forcejeo en `load`) → reemplazado por versión con cancelación al primer touchstart/wheel/mousedown/keydown, tope 48 frames y setTimeout(end,1500) con `window.__tmgLangEnd` para llamadas rápidas repetidas. **OJO: la home carga js/app.min.js, NO app.js** — el min estaba desactualizado (seguía mostrando el disclaimer viejo "Precios aproximados…"); sincronizado a mano parcheando strings (no hay minifier JS en el repo; _build_min.js solo aplica patches al min). REGLA: todo cambio en app.js debe replicarse en app.min.js y verificar sintaxis con `new Function(fs.readFileSync(...))`. Commit `9ed492ad2`
-- **Stat hero home**: "100+ / Products Tested" → "**200+ / Products Researched**" (index.html stats-bar + stat1 en js/translations.js EN/ES ["Productos Analizados"] + js/translations.v4.min.js; tras tocar v4.min correr `node _update_v4hash.js` para el ?v= md5)
-- **Mapa de afiliados (auditado y corregido)**: Gear4Music/MusicStore/Reverb = Awin (`awinmid=1117/63816/67144` + `awinaffid=2891111`); Andertons = Impact `?irgwc=1&irpid=7292297`; zZounds = CJ `anrdoezrs.net/click-101857888-10422044-1779394?url=`; Plugin Boutique `a_aid=6a01e859cbe1a` (**canónico**, 32 usos en products.json; el dropdown usaba un `65fd7463b5f28`+gclid viejo → reemplazado en build-guides.js + index/deals/deals_es). Amazon: solo `tag=topmusicg-20`; **usuario dice que cambió a OneLink pero NO existe ningún link onelink/amzn.to en el repo → pedirle la URL exacta**. **build-deals.js**: nueva `affWrap(store,url)` dentro de buildPage envuelve las URLs de las cards (tag, imagen, botón) según tienda; `cjz` ahora es idempotente (`&& u.indexOf('anrdoezrs.net')<0`) para no doble-envolver zZounds. Antes: las 21 ofertas de Andertons salían SIN afiliado. Verificar con grep de `irgwc=1&irpid=7292297` en deals.html
-- **Buy buttons migration (TEST_SHOP_BTN en build-guides.js ~line 300)**: starter-studio done (ids 15,16,17,18,53,54,55,328,5,3,25,26,20,19). Mic session IN PROGRESS — comparativas top COMPLETAS: id 4 C414 XLII ($1,225/$1,199/$1,225/£893/£849/€772.30), id 2 U87 Ai ($3,750×3+£3,008; G4M/MusicStore pendientes), id 1 SM7B ($439×3/£381.50/£381.00/€389.00), id 50 SM58 ($109/$99/$109/£103.50/£103.00/€119.00 — musicstore link es variante SM58 SE con switch), id 51 MD421 Kompakt ($265.38/$279/$265.38/£225.00/€249.00; andertons sin verificar → fila sin precio), id 52 RE20 ($449/$449/$449/£539/£549/€539). Price corrections user-reported: SM57 zzounds $109/musicstore €105, Scarlett musicstore €172, NT1 zzounds $214/g4m £184.75/musicstore €199, M50x zzounds $159/g4m £148/musicstore €149, HS8 zzounds $339.14/g4m £263/musicstore €289, Rokit7 g4m £199.25/musicstore €266, MDR7506 g4m £99/musicstore €89, SSL2+ musicstore €295
-- **REGLA IVA Music Store**: las páginas musicstore.com internacionales (en_OT/en_OE) muestran precio SIN IVA; el usuario ve precios CON IVA alemán (19%). Confirmado ×3 por correcciones del usuario: NT1 €167.20→199, SSL2+ €247.90→295, Rokit €223.50→266 = exactamente ×1.19. Al verificar un precio de Music Store en vista internacional sin etiqueta de IVA → multiplicar ×1.19 y redondear al euro. Si hay página de_DE disponible, usar ese precio directamente (p.ej. RE20 €669→oferta €539)
-- **5 tiendas SIEMPRE**: shopButtonsTest renderiza las 5 tiendas siempre (zzounds/reverb/gear4music/andertons/musicstore). Schema TEST_SHOP_BTN ampliado: `urls: {store: url}` override, `na: [stores]` → fila NO clicable "No disponible/Not Available" (fondo #262626) y `oos: [stores]` → fila CLICABLE "Agotado/Out of stock" (mismo gris, link = search de la tienda sintetizado por getResolvedStores). **Contador del botón SIEMPRE = order.length (5) — REGLA FIJA del usuario** (`' (' + order.length + ')'` en build-guides.js). **Etiqueta del botón: `t('Otras opciones de compra', 'More buying options')`** (antes "Todas/All buying options" — cambio del usuario porque Amazon no está en la lista; patrón Amazon). Ejemplos oos: id 26 MDR-7506 `oos:['andertons']` + urls.zzounds directo a `item--SNYMDR7506`; id 20 Rokit 7 G5 `oos:['andertons']` (Andertons no vende ninguno de los dos — confirmado). OJO: si un producto tiene el store en `excludeStores` en products.json, getResolvedStores no sintetiza URL → fila Agotado con href="undefined"; quitar la exclusión si se quiere link. Commits `38df46329`,`e5456f198`,`2dff87d05`,`acd33efa5`,`492df9eac`
+- **SEO audit**: fixed duplicate `(2026)` in title, OG title missing year, OG image dimensions to 1200Ã—630, missing description field on beatâ€‘making
+- **Year removed from all titles**: deleted `yearTag`/`yearSuffix` logic from `build-guides.js`, removed year logic from `app.js`, removed `(2026)` from beatâ€‘making title in `guides.json`
+- **Final audit fixes**: 7 Soundtoys rating mismatches in guides.json FAQ (4.8â†’4.5), 3 truncated ES FAQ translations (monitors Q1, plugins Q1, bestâ€‘interface Q4), price mismatches ATHâ€‘M50X â†’$169 + Yamaha Pacifica $299â†’$349
+- **Price normalization session 2**: canonical = `data/products.json` (user decision): Ableton Suite $749â†’$799 (guides + ableton-vs-logic conclusion), Blues Junior IV $749â†’$699, Marshal DSL40CR $749â†’$999, Katana 50 $229â†’$259, Ableton tiers Intro $79/$149â†’$99/$349; 246 pages rebuilt, verified, committed as `9b41f9441`
+- **Natural-language fixes session 3**: budget-mics paragraph rewrote (removed "$20 support system" inconsistency â€” real prices $20â€“40 basic cable, Mogami $53), removed the artificial "I've spent endless hours/incontables horas" intros (best-samplers-drum-computers + best-drum-machine, EN+ES), normalized **"computadora de baterÃ­a" â†’ "caja de ritmos"** (natural Spanish already used elsewhere; title, intro, sections, digitakt-ii-vs-tr8s, products.json desc)
+- **Session flags/globes + disclaimer**: SHOP_FLAG map in build-guides.js (USA flag zZounds/UK flag Andertons/colored globe Reverb+G4M+MusicStore, unique clipPath IDs via FLAG_UID); globe final size 17Ã—17 va -4px; commits `5503323fc`,`ceba83aa2`,`f08b0990f`,`2c020d62e`,`c8f3e2f0f`,`2b690e21f`,`e3faa306b`
+- **Disclaimer de precios estilo callout** (peticiÃ³n del usuario): `.guide-product-card-currency-note` ya NO es texto azul centrado; ahora es caja tipo `guide-callout` (border-left 4px #f59e0b, fondo rgba(245,158,11,.08), font 13px, **texto blanco**, display:flex con gap 7px). Texto: `<strong>âš ï¸ AtenciÃ³n:</strong>` (EN `âš ï¸ Attention:`) con strong nowrap+flex-shrink:0 y body en `<span class="shop-note-body">` (min-width:0) â†’ las lÃ­neas siguientes se alinean bajo el TEXTO, no bajo el signo. Wording final unificado en build-guides.js Y js/app.js: "Los precios pueden variar segÃºn tu geolocalizaciÃ³n; el total final se confirma en tu moneda local al pagar. Cada tienda aplica su propia polÃ­tica de envÃ­o: algunas envÃ­an totalmente gratis, otras cobran un costo de envÃ­o y otras ofrecen envÃ­o gratuito a partir de un importe mÃ­nimo de compra. AdemÃ¡s, algunas tiendas solo realizan envÃ­os dentro de EE.&nbsp;UU." (EN paralelo). "EE.&nbsp;UU." con nbsp para que no se separe. Frase "nosotros solo te mostramos el precio del producto" eliminada a peticiÃ³n del usuario. **SOLO UNA nota por pÃ¡gina**: la del bloque `${productCards}` tras las FAQs fue eliminada (redundante); queda Ãºnicamente la de lÃ­nea ~954 (tras las secciones, antes de la conclusiÃ³n), que acompaÃ±a los botones de compra. **MÃ³vil â‰¤768px**: media query apila la nota en block (strong display:block margin-bottom:4px) para evitar columna angosta
+- **Fix scroll-lock al cambiar idioma (`tmgLangScroll`)**: el switch de idioma (build-guides.js ~892) guarda scrollY y navega; script temprano en `<head>` (~827) oculta el doc si hay posiciÃ³n guardada; bucle de restauraciÃ³n al final de cada guÃ­a fuerza `scrollTo(0,y)` por frames. ANTES: 90 frames sin escape â†’ pÃ¡gina "colgada" ~1.5s peleando con el scroll del usuario (peor en mÃ³vil). AHORA: mÃ¡x 48 frames + **se cancela al primer touchstart/wheel/mousedown/keydown** ({passive:true}) + tope duro `setTimeout(end,1500)` + visibility restaurado en end(). No tocar sin mantener estos tres escapes
+- **Mismo fix en la HOME (`setLang`)**: js/app.js tenÃ­a el mismo bucle colgante (60 frames + segundo forcejeo en `load`) â†’ reemplazado por versiÃ³n con cancelaciÃ³n al primer touchstart/wheel/mousedown/keydown, tope 48 frames y setTimeout(end,1500) con `window.__tmgLangEnd` para llamadas rÃ¡pidas repetidas. **OJO: la home carga js/app.min.js, NO app.js** â€” el min estaba desactualizado (seguÃ­a mostrando el disclaimer viejo "Precios aproximadosâ€¦"); sincronizado a mano parcheando strings (no hay minifier JS en el repo; _build_min.js solo aplica patches al min). REGLA: todo cambio en app.js debe replicarse en app.min.js y verificar sintaxis con `new Function(fs.readFileSync(...))`. Commit `9ed492ad2`
+- **Stat hero home**: "100+ / Products Tested" â†’ "**200+ / Products Researched**" (index.html stats-bar + stat1 en js/translations.js EN/ES ["Productos Analizados"] + js/translations.v4.min.js; tras tocar v4.min correr `node _update_v4hash.js` para el ?v= md5)
+- **Mapa de afiliados (auditado y corregido)**: Gear4Music/MusicStore/Reverb = Awin (`awinmid=1117/63816/67144` + `awinaffid=2891111`); Andertons = Impact `?irgwc=1&irpid=7292297`; zZounds = CJ `anrdoezrs.net/click-101857888-10422044-1779394?url=`; Plugin Boutique `a_aid=6a01e859cbe1a` (**canÃ³nico**, 32 usos en products.json; el dropdown usaba un `65fd7463b5f28`+gclid viejo â†’ reemplazado en build-guides.js + index/deals/deals_es). Amazon: solo `tag=topmusicg-20`; **usuario dice que cambiÃ³ a OneLink pero NO existe ningÃºn link onelink/amzn.to en el repo â†’ pedirle la URL exacta**. **build-deals.js**: nueva `affWrap(store,url)` dentro de buildPage envuelve las URLs de las cards (tag, imagen, botÃ³n) segÃºn tienda; `cjz` ahora es idempotente (`&& u.indexOf('anrdoezrs.net')<0`) para no doble-envolver zZounds. Antes: las 21 ofertas de Andertons salÃ­an SIN afiliado. Verificar con grep de `irgwc=1&irpid=7292297` en deals.html
+- **Buy buttons migration (TEST_SHOP_BTN en build-guides.js ~line 300)**: starter-studio done (ids 15,16,17,18,53,54,55,328,5,3,25,26,20,19). Mic session IN PROGRESS â€” comparativas top COMPLETAS: id 4 C414 XLII ($1,225/$1,199/$1,225/Â£893/Â£849/â‚¬772.30), id 2 U87 Ai ($3,750Ã—3+Â£3,008; G4M/MusicStore pendientes), id 1 SM7B ($439Ã—3/Â£381.50/Â£381.00/â‚¬389.00), id 50 SM58 ($109/$99/$109/Â£103.50/Â£103.00/â‚¬119.00 â€” musicstore link es variante SM58 SE con switch), id 51 MD421 Kompakt ($265.38/$279/$265.38/Â£225.00/â‚¬249.00; andertons sin verificar â†’ fila sin precio), id 52 RE20 ($449/$449/$449/Â£539/Â£549/â‚¬539). Price corrections user-reported: SM57 zzounds $109/musicstore â‚¬105, Scarlett musicstore â‚¬172, NT1 zzounds $214/g4m Â£184.75/musicstore â‚¬199, M50x zzounds $159/g4m Â£148/musicstore â‚¬149, HS8 zzounds $339.14/g4m Â£263/musicstore â‚¬289, Rokit7 g4m Â£199.25/musicstore â‚¬266, MDR7506 g4m Â£99/musicstore â‚¬89, SSL2+ musicstore â‚¬295
+- **REGLA IVA Music Store**: las pÃ¡ginas musicstore.com internacionales (en_OT/en_OE) muestran precio SIN IVA; el usuario ve precios CON IVA alemÃ¡n (19%). Confirmado Ã—3 por correcciones del usuario: NT1 â‚¬167.20â†’199, SSL2+ â‚¬247.90â†’295, Rokit â‚¬223.50â†’266 = exactamente Ã—1.19. Al verificar un precio de Music Store en vista internacional sin etiqueta de IVA â†’ multiplicar Ã—1.19 y redondear al euro. Si hay pÃ¡gina de_DE disponible, usar ese precio directamente (p.ej. RE20 â‚¬669â†’oferta â‚¬539)
+- **5 tiendas SIEMPRE**: shopButtonsTest renderiza las 5 tiendas siempre (zzounds/reverb/gear4music/andertons/musicstore). Schema TEST_SHOP_BTN ampliado: `urls: {store: url}` override, `na: [stores]` â†’ fila NO clicable "No disponible/Not Available" (fondo #262626) y `oos: [stores]` â†’ fila CLICABLE "Agotado/Out of stock" (mismo gris, link = search de la tienda sintetizado por getResolvedStores). **Contador del botÃ³n SIEMPRE = order.length (5) â€” REGLA FIJA del usuario** (`' (' + order.length + ')'` en build-guides.js). **Etiqueta del botÃ³n: `t('Otras opciones de compra', 'More buying options')`** (antes "Todas/All buying options" â€” cambio del usuario porque Amazon no estÃ¡ en la lista; patrÃ³n Amazon). Ejemplos oos: id 26 MDR-7506 `oos:['andertons']` + urls.zzounds directo a `item--SNYMDR7506`; id 20 Rokit 7 G5 `oos:['andertons']` (Andertons no vende ninguno de los dos â€” confirmado). OJO: si un producto tiene el store en `excludeStores` en products.json, getResolvedStores no sintetiza URL â†’ fila Agotado con href="undefined"; quitar la exclusiÃ³n si se quiere link. Commits `38df46329`,`e5456f198`,`2dff87d05`,`acd33efa5`,`492df9eac`
 - **Mic guides pendientes de migrar** (~55 ids sin botones): stage-mics 226-232, usb/streaming 194,195,196,197,276-299, wireless 91-95,249-254, shotgun 339-349, instrument 206-215
-- **MIGRACIÓN COMPLETA de botones nuevos (sitio entero menos DAW/Plugins)**: `storeChips(p, lang)` en build-guides.js ahora renderiza shopButtonsTest para TODOS los productos salvo en las guías de categoría `daw` (gate con `CURRENT_GUIDE_CAT` seteado al inicio de `buildGuidePage`; esas 5 conservan chips viejos). Auto-entrada sin precios: `shopButtonsTest` tolera ausencia de TEST_SHOP_BTN (`cfg||{}`, `prices||{}`, cola `' - '+pPrice` condicional) → filas clicables SIN precio hasta verificar tienda por tienda. **excludeStores → fila "No disponible" automática** (`avail` y rama na ahora exigen URL resuelta; antes salía href="undefined"). SPA paridad: nuevo **js/shop-buttons.js** (TEST_SHOP_BTN + SHOP_LOGO_* + flags + shopButtonsTest + helper global `tmgStoreButtons(p)` con gate por currentGuideId→category) cargado en index.html ANTES de app.min.js; `renderProductCard` usa `(window.tmgStoreButtons && tmgStoreButtons(p)) || chips-viejos`. update-version.js estampa también `shop-buttons.js?v=`. **REGENERAR js/shop-buttons.js tras cada cambio en shopButtonsTest/TEST_SHOP_BTN** (script `_make_shop_buttons_js.js` en temp extrae bloques balanceados de build-guides.js). Verificado: 2000 botones primarios + 584 filas NA en las guías migradas, 0 chips viejos fuera de excluidas, 0 href=undefined. **Pendiente**: llenar precios verificados por tienda producto-a-producto
-- **SESIÓN PLUGINS migrada — primario Plugin Boutique**: en shopButtonsTest, si `p.category === 'plugins'` el botón azul primario es Plugin Boutique (`stores.pluginboutique`, precio `prices.pluginboutique`) y Amazon desaparece (getResolvedStores ya excluye amazon para plugins). Marca: "**PluginBoutique**" escrito JUNTO y solo "in" en negrita (`<span font-weight:400>Plug<span font-weight:900>in</span>Boutique</span>` — pedido literal del usuario); los no-plugin mantienen el wordmark Amazon con subrayado naranja. Las 6 guías de la sesión plugins ya muestran botones nuevos (108 primarios PB ×2 idiomas, 0 chips, 0 links Amazon en cards; los 3 href amazon restantes por página son del MENÚ nav New Releases, no tocar). pro-plugins (cat production) también sale PB porque todos sus productos son plugins. Aún sin entradas TEST_SHOP_BTN de plugins → botones sin precio hasta verificar pluginboutique producto a producto (14/15 tienen link PB en products.json). SPA regenerado con mismo gate (solo daw queda excluida). Commits `f716865ca` (migración total), este session: primario PB
+- **Precios Plugin Boutique verificados**: entradas TEST_SHOP_BTN para ids 28,29,30,32,60,61,62,63,118,119,121,122,123,238 con prices.pluginboutique (verificados con sesión US: GET /?chosen_country=US guarda cookie de sesión y luego el producto entrega data-layer view_item price en USD; query ?currency o cookies simples NO cambian la moneda geo-IP). Mercury movió URL a /product/81-Bundles/97-Various-Category/12539-Mercury (la vieja 1893 daba home). Melodyne 5 (id 120) sigue como link de búsqueda PB SIN precio: PB no tiene página única (variantes Essential/Assistant/Editor/Studio)
+- **SESIÓN DAW migrada - primario Gear4Music sin Amazon**: storeChips ya NO excluye daw (siempre shopButtonsTest). En shopButtonsTest: isDaw/isLogic declaradas junto a getResolvedStores (evitar TDZ). DAW: primario azul = stores.gear4music con marca Quicksand 'Gear4music', filas = ['zzounds','reverb','andertons','musicstore'] SIN amazon ni gear4music duplicado. Logic Pro (stores.official): ÚNICO botón azul 'Tienda Oficial'/'Official Store' → apple.com/logic-pro, SIN more-button (eturn isLogic ? primaryBtn : primaryBtn+moreBtn). Sin precios aún en TEST_SHOP_BTN para ids 110-115 (usuario: no buscar precios, solo migrar). SPA helper simplificado: tmgStoreButtons ya no tiene gate daw. Verificado 12 guías daw ×2 idiomas: 0 chips viejos, 0 amazon en botones, dropdown correcto. Commits 5feafd370 (precios PB plugins + URL Mercury /12539), este session: daw
+- **MIGRACIÃ“N COMPLETA de botones nuevos (sitio entero menos DAW/Plugins)**: `storeChips(p, lang)` en build-guides.js ahora renderiza shopButtonsTest para TODOS los productos salvo en las guÃ­as de categorÃ­a `daw` (gate con `CURRENT_GUIDE_CAT` seteado al inicio de `buildGuidePage`; esas 5 conservan chips viejos). Auto-entrada sin precios: `shopButtonsTest` tolera ausencia de TEST_SHOP_BTN (`cfg||{}`, `prices||{}`, cola `' - '+pPrice` condicional) â†’ filas clicables SIN precio hasta verificar tienda por tienda. **excludeStores â†’ fila "No disponible" automÃ¡tica** (`avail` y rama na ahora exigen URL resuelta; antes salÃ­a href="undefined"). SPA paridad: nuevo **js/shop-buttons.js** (TEST_SHOP_BTN + SHOP_LOGO_* + flags + shopButtonsTest + helper global `tmgStoreButtons(p)` con gate por currentGuideIdâ†’category) cargado en index.html ANTES de app.min.js; `renderProductCard` usa `(window.tmgStoreButtons && tmgStoreButtons(p)) || chips-viejos`. update-version.js estampa tambiÃ©n `shop-buttons.js?v=`. **REGENERAR js/shop-buttons.js tras cada cambio en shopButtonsTest/TEST_SHOP_BTN** (script `_make_shop_buttons_js.js` en temp extrae bloques balanceados de build-guides.js). Verificado: 2000 botones primarios + 584 filas NA en las guÃ­as migradas, 0 chips viejos fuera de excluidas, 0 href=undefined. **Pendiente**: llenar precios verificados por tienda producto-a-producto
+- **SESIÃ“N PLUGINS migrada â€” primario Plugin Boutique**: en shopButtonsTest, si `p.category === 'plugins'` el botÃ³n azul primario es Plugin Boutique (`stores.pluginboutique`, precio `prices.pluginboutique`) y Amazon desaparece (getResolvedStores ya excluye amazon para plugins). Marca: "**PluginBoutique**" escrito JUNTO y solo "in" en negrita (`<span font-weight:400>Plug<span font-weight:900>in</span>Boutique</span>` â€” pedido literal del usuario); los no-plugin mantienen el wordmark Amazon con subrayado naranja. Las 6 guÃ­as de la sesiÃ³n plugins ya muestran botones nuevos (108 primarios PB Ã—2 idiomas, 0 chips, 0 links Amazon en cards; los 3 href amazon restantes por pÃ¡gina son del MENÃš nav New Releases, no tocar). pro-plugins (cat production) tambiÃ©n sale PB porque todos sus productos son plugins. AÃºn sin entradas TEST_SHOP_BTN de plugins â†’ botones sin precio hasta verificar pluginboutique producto a producto (14/15 tienen link PB en products.json). SPA regenerado con mismo gate (solo daw queda excluida). Commits `f716865ca` (migraciÃ³n total), este session: primario PB
 
 ### Blocked
 - U87 (id 2): gear4music y musicstore sin precio (variante nickel no verificable; fetch directo 403)
 
 ### Next Move
-- Continuar sesión micrófonos con el bloque stage-mics (ids 226-232) o usb/streaming (276-299): verificar tienda-por-tienda y añadir entradas a TEST_SHOP_BTN (regla: solo precios verificados; Music Store sin IVA ×1.19; tienda sin producto → `na`; sin precio verificado → fila sin precio hasta verificar)
+- Continuar sesiÃ³n micrÃ³fonos con el bloque stage-mics (ids 226-232) o usb/streaming (276-299): verificar tienda-por-tienda y aÃ±adir entradas a TEST_SHOP_BTN (regla: solo precios verificados; Music Store sin IVA Ã—1.19; tienda sin producto â†’ `na`; sin precio verificado â†’ fila sin precio hasta verificar)
 
-## ⚠️ FIRST CHECK when page is broken
+## âš ï¸ FIRST CHECK when page is broken
 
-**Siempre verificar `css/style.min.css` primero.** Si el CSS está corrupto (todo pegado, sin `{}:;,.`), la causa es el bug de PowerShell `$1` al minificar inline. Correr `node _minify_css.js` para regenerarlo. No pierdas tiempo debugueando JS cuando el CSS está roto.
+**Siempre verificar `css/style.min.css` primero.** Si el CSS estÃ¡ corrupto (todo pegado, sin `{}:;,.`), la causa es el bug de PowerShell `$1` al minificar inline. Correr `node _minify_css.js` para regenerarlo. No pierdas tiempo debugueando JS cuando el CSS estÃ¡ roto.
 
 ## Known Quick Fixes
 
 ### CSS rota (todos los `{}:;` desaparecen)
-**Causa:** Minificar CSS con `node -e "..."` en PowerShell expande `$1` a vacío.
+**Causa:** Minificar CSS con `node -e "..."` en PowerShell expande `$1` a vacÃ­o.
 **Fix:** Siempre usar `node _minify_css.js` (nunca `node -e "..."` inline en PowerShell):
 ```js
 var fs = require('fs');
@@ -613,41 +615,41 @@ fs.writeFileSync('css/style.min.css', c);
 grep -E "app\.min\.js\?v=|style\.min\.css\?v=" index.html
 ```
 
-### Site roto después de deploy
+### Site roto despuÃ©s de deploy
 **Causa:** Cloudflare cachea CSS/JS viejo.
 **Fix:** Purgar Cloudflare cache (Speed > Purge Cache > Purge Everything) + hard refresh.
 
-## ⭐ MANDATORY: Superar a la competencia en cada guía (SEO)
+## â­ MANDATORY: Superar a la competencia en cada guÃ­a (SEO)
 
-En cada guía que se toque o cree, SIEMPRE:
-1. **Verificar la competencia primero** (MusicRadar, Sweetwater, B&H, gearank, SpecDB, etc.): qué specs incluyen en sus tablas, qué productos destacan, qué preguntas responden.
-2. **Superarla**: nuestra tabla/guía debe tener más specs verificadas, más precisas, más productos y mejor estructura que el competidor top.
-3. **Datos oficiales del fabricante** — NUNCA inventar precios/specs. Buscar spec sheet oficial (Shure/AKG/Neumann/Rode/Sennheiser/EV, etc.).
-4. **Tabla de comparación (`productTable`)** debe incluir: Producto, Precio, "Best For", y todas las specs clave que la competencia muestra (tipo, patrón polar, frecuencia, sensibilidad, ruido propio, max SPL, impedancia, + específicas de la categoría: woofer/potencia/memoria/peso, etc.).
-5. **Corregir errores factuales** detectados durante la verificación (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
+En cada guÃ­a que se toque o cree, SIEMPRE:
+1. **Verificar la competencia primero** (MusicRadar, Sweetwater, B&H, gearank, SpecDB, etc.): quÃ© specs incluyen en sus tablas, quÃ© productos destacan, quÃ© preguntas responden.
+2. **Superarla**: nuestra tabla/guÃ­a debe tener mÃ¡s specs verificadas, mÃ¡s precisas, mÃ¡s productos y mejor estructura que el competidor top.
+3. **Datos oficiales del fabricante** â€” NUNCA inventar precios/specs. Buscar spec sheet oficial (Shure/AKG/Neumann/Rode/Sennheiser/EV, etc.).
+4. **Tabla de comparaciÃ³n (`productTable`)** debe incluir: Producto, Precio, "Best For", y todas las specs clave que la competencia muestra (tipo, patrÃ³n polar, frecuencia, sensibilidad, ruido propio, max SPL, impedancia, + especÃ­ficas de la categorÃ­a: woofer/potencia/memoria/peso, etc.).
+5. **Corregir errores factuales** detectados durante la verificaciÃ³n (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
 6. Rebuild + verificar EN/ES + commit + push.
 
-## 🖼️ REGLA FIJA: Añadir productos al catálogo (`data/products.json`)
+## ðŸ–¼ï¸ REGLA FIJA: AÃ±adir productos al catÃ¡logo (`data/products.json`)
 
-**SIEMPRE que se añada un producto nuevo al catálogo, seguir este orden exacto (NO repetírselo al usuario):**
+**SIEMPRE que se aÃ±ada un producto nuevo al catÃ¡logo, seguir este orden exacto (NO repetÃ­rselo al usuario):**
 
-1. **Buscar la imagen PRIMERO en Gear4Music** (patrón `https://r2.gear4music.com/media/.../1200/preview.jpg`). Sacar la URL del `og:image` de la página del producto en gear4music.com. Usar la imagen de Amazon SOLO si Gear4Music no tiene el producto.
-2. **Buscar los links de tiendas con el método Google**: buscar en Google el nombre del producto + el nombre de la tienda (ej. `Rode NT1 Signature zzounds`, `Rode NT1 Signature gear4music`, `Rode NT1 Signature amazon`). Verificar que la URL es la página real del producto (no una búsqueda genérica).
-3. **Tiendas a completar cuando existan**: `gear4music`, `amazon`, `zzounds` (patrón `https://www.zzounds.com/a--925521/item--<CODE>`), `andertons` (patrón `https://www.andertons.co.uk/<slug>/`), `musicstore`, `reverb`. Solo incluir las que tengan el producto verificado.
-4. **NUNCA inventar URLs ni ASINs** — todas deben salir de la búsqueda real (método del punto 2).
-5. Precio y specs siempre verificados con datos reales de la tienda/fabricante (regla de la sección SEO).
+1. **Buscar la imagen PRIMERO en Gear4Music** (patrÃ³n `https://r2.gear4music.com/media/.../1200/preview.jpg`). Sacar la URL del `og:image` de la pÃ¡gina del producto en gear4music.com. Usar la imagen de Amazon SOLO si Gear4Music no tiene el producto.
+2. **Buscar los links de tiendas con el mÃ©todo Google**: buscar en Google el nombre del producto + el nombre de la tienda (ej. `Rode NT1 Signature zzounds`, `Rode NT1 Signature gear4music`, `Rode NT1 Signature amazon`). Verificar que la URL es la pÃ¡gina real del producto (no una bÃºsqueda genÃ©rica).
+3. **Tiendas a completar cuando existan**: `gear4music`, `amazon`, `zzounds` (patrÃ³n `https://www.zzounds.com/a--925521/item--<CODE>`), `andertons` (patrÃ³n `https://www.andertons.co.uk/<slug>/`), `musicstore`, `reverb`. Solo incluir las que tengan el producto verificado.
+4. **NUNCA inventar URLs ni ASINs** â€” todas deben salir de la bÃºsqueda real (mÃ©todo del punto 2).
+5. Precio y specs siempre verificados con datos reales de la tienda/fabricante (regla de la secciÃ³n SEO).
 
-## 🎯 Ofertas (deals.html / deals_es.html) — AUTOMÁTICO (cron)
+## ðŸŽ¯ Ofertas (deals.html / deals_es.html) â€” AUTOMÃTICO (cron)
 
-La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
-- **`auto-deals.js`**: aprende precios reales de Andertons (JSON-LD `Product.offers.price`) para los 147 productos con link de Andertons en `data/products.json`. Mantiene historial en `data/price-history.json` (baseline = primera visita). Cuando el precio baja ≥5% del `normal`, crea la oferta (`price` real, `old_price` = precio normal anterior, badge "Save £X/Ahorra £X"); cuando vuelve a precio normal, la **elimina automáticamente**. Después corre `build-deals.js` y genera `deals.html` (EN) + `deals_es.html` (ES).
-- **`.github/workflows/auto-deals.yml`**: cron 4×/día (UTC 1,7,13,19 + `workflow_dispatch`). Corre `node auto-deals.js`, commitea y pushea los cambios con el token `GITHUB_TOKEN`. El push dispara el purge de Cloudflare (`purge-cache.yml`).
-- **`data/manual-deals.json`**: ofertas verificadas a mano por el bot en sesión (búsqueda web real en las tiendas). Se fusionan en cada corrida y NO se sobrescriben. Para añadir/quitar una oferta manual, editar este archivo y correr `node auto-deals.js` (o esperar el cron).
+La pÃ¡gina de Ofertas ahora se actualiza **sola** vÃ­a GitHub Actions:
+- **`auto-deals.js`**: aprende precios reales de Andertons (JSON-LD `Product.offers.price`) para los 147 productos con link de Andertons en `data/products.json`. Mantiene historial en `data/price-history.json` (baseline = primera visita). Cuando el precio baja â‰¥5% del `normal`, crea la oferta (`price` real, `old_price` = precio normal anterior, badge "Save Â£X/Ahorra Â£X"); cuando vuelve a precio normal, la **elimina automÃ¡ticamente**. DespuÃ©s corre `build-deals.js` y genera `deals.html` (EN) + `deals_es.html` (ES).
+- **`.github/workflows/auto-deals.yml`**: cron 4Ã—/dÃ­a (UTC 1,7,13,19 + `workflow_dispatch`). Corre `node auto-deals.js`, commitea y pushea los cambios con el token `GITHUB_TOKEN`. El push dispara el purge de Cloudflare (`purge-cache.yml`).
+- **`data/manual-deals.json`**: ofertas verificadas a mano por el bot en sesiÃ³n (bÃºsqueda web real en las tiendas). Se fusionan en cada corrida y NO se sobrescriben. Para aÃ±adir/quitar una oferta manual, editar este archivo y correr `node auto-deals.js` (o esperar el cron).
 
 **Reglas (NO QUEBRANTAR):**
-- `auto-deals.js` NUNCA inventa precios: solo lee lo que devuelve la tienda (Andertons JSON-LD). Las rebajas detectadas son caídas reales de precio observadas en el tiempo. La primera corrida no genera ofertas auto (baseline = precio actual); las detecta en corridas siguientes.
-- Las tiendas que dan 403 a bots (Sweetwater, Gear4Music, Music Store, Reverb, B&H) NO se scrapean; si un día Andertons da 403, el bot conserva `data/deals.json` anterior (el workflow usa `git add -A` solo si hay cambios reales).
+- `auto-deals.js` NUNCA inventa precios: solo lee lo que devuelve la tienda (Andertons JSON-LD). Las rebajas detectadas son caÃ­das reales de precio observadas en el tiempo. La primera corrida no genera ofertas auto (baseline = precio actual); las detecta en corridas siguientes.
+- Las tiendas que dan 403 a bots (Sweetwater, Gear4Music, Music Store, Reverb, B&H) NO se scrapean; si un dÃ­a Andertons da 403, el bot conserva `data/deals.json` anterior (el workflow usa `git add -A` solo si hay cambios reales).
 - `data/manual-deals.json` solo con precios verificados reales vistos en las tiendas (regla del sitio: nunca inventar precios/descuentos).
 - `data/price-history.json` es la memoria del bot; se versiona en el repo para que el historial persista entre corridas.
 
-**Chequeo manual:** `node auto-deals.js` → verifica en `deals.html`/`deals_es.html`: header completo + `bg-hero` + botón azul `guide-back-btn` + cuadrícula + precio original tachado (`text-decoration: line-through`) + iconos de las 7 tiendas + hreflang/canonical por idioma.
+**Chequeo manual:** `node auto-deals.js` â†’ verifica en `deals.html`/`deals_es.html`: header completo + `bg-hero` + botÃ³n azul `guide-back-btn` + cuadrÃ­cula + precio original tachado (`text-decoration: line-through`) + iconos de las 7 tiendas + hreflang/canonical por idioma.
