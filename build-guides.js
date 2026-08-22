@@ -254,14 +254,49 @@ const SHOP_LOGO_STYLE = {
   reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
 };
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: 'Music Store', zzounds: 'zZounds', reverb: 'Reverb' };
-const FLAG_BASE = 'display:inline-block;vertical-align:-2px;flex-shrink:0';
-const SHOP_FLAG = {
-  zzounds: '<svg viewBox="0 0 24 16" width="18" height="12" style="' + FLAG_BASE + ';border-radius:2px"><rect width="24" height="16" fill="#fff"/><g fill="#B22234"><rect width="24" height="1.6"/><rect y="3.2" width="24" height="1.6"/><rect y="6.4" width="24" height="1.6"/><rect y="9.6" width="24" height="1.6"/><rect y="12.8" width="24" height="1.6"/></g><rect width="10" height="8" fill="#3C3B6E"/></svg>',
-  reverb: '<svg viewBox="0 0 16 16" width="13" height="13" style="' + FLAG_BASE + '"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><ellipse cx="8" cy="8" rx="3" ry="6.5" fill="none" stroke="#fff" stroke-width="1.1"/><path d="M1.5,8 H14.5" stroke="#fff" stroke-width="1.1"/></svg>',
-  gear4music: '<svg viewBox="0 0 16 16" width="13" height="13" style="' + FLAG_BASE + '"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><ellipse cx="8" cy="8" rx="3" ry="6.5" fill="none" stroke="#fff" stroke-width="1.1"/><path d="M1.5,8 H14.5" stroke="#fff" stroke-width="1.1"/></svg>',
-  musicstore: '<svg viewBox="0 0 16 16" width="13" height="13" style="' + FLAG_BASE + '"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><ellipse cx="8" cy="8" rx="3" ry="6.5" fill="none" stroke="#fff" stroke-width="1.1"/><path d="M1.5,8 H14.5" stroke="#fff" stroke-width="1.1"/></svg>',
-  andertons: '<svg viewBox="0 0 24 16" width="18" height="12" style="' + FLAG_BASE + ';border-radius:2px"><rect width="24" height="16" fill="#012169"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.2"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/><path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.4"/><path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.2"/></svg>'
-};
+let FLAG_UID = 0;
+function flagBadge(inner) {
+  const cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' + inner + '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
+}
+function usaFlag() {
+  let s = '<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
+  [0, 2.46, 4.92, 7.38, 9.85, 12.31, 14.77].forEach(function (y) { s += '<rect y="' + y + '" width="24" height="1.23"/>'; });
+  s += '</g><rect width="10" height="8.62" fill="#3C3B6E"/><g fill="#fff">';
+  [[1.9, 1.8], [4.1, 1.8], [6.3, 1.8], [8.5, 1.8], [3, 3.1], [5.2, 3.1], [7.4, 3.1], [1.9, 4.4], [4.1, 4.4], [6.3, 4.4], [8.5, 4.4], [3, 5.7], [5.2, 5.7], [7.4, 5.7]].forEach(function (p) { s += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r=".42"/>'; });
+  return flagBadge(s + '</g>');
+}
+function ukFlag() {
+  return flagBadge('<rect width="24" height="16" fill="#012169"/>' +
+    '<path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.4"/>' +
+    '<path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/>' +
+    '<path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.6"/>' +
+    '<path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
+}
+function globeIcon() {
+  const gid = 'glg' + (++FLAG_UID);
+  const gcid = 'glc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 20 20" width="15" height="15" style="display:inline-block;vertical-align:-3px;flex-shrink:0;margin-right:5px">' +
+    '<defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>' +
+    '<clipPath id="' + gcid + '"><circle cx="10" cy="10" r="8.75"/></clipPath></defs>' +
+    '<circle cx="10" cy="10" r="8.75" fill="url(#' + gid + ')"/>' +
+    '<g clip-path="url(#' + gcid + ')">' +
+    '<path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/>' +
+    '<path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/>' +
+    '<path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/>' +
+    '<path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/>' +
+    '<ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>' +
+    '<path d="M1.25,10 H18.75" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>' +
+    '</g>' +
+    '<circle cx="10" cy="10" r="8.75" fill="none" stroke="#ffffff" stroke-opacity=".4"/>' +
+    '<ellipse cx="7.2" cy="6.2" rx="3.2" ry="1.8" fill="#ffffff" opacity=".25"/>' +
+    '</svg>';
+}
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: globeIcon, andertons: ukFlag };
 const TEST_SHOP_BTN = {
   15: { prices: { amazon: '$199.00', zzounds: '$224.99', reverb: '$199.00', gear4music: '\u00a3193.75', andertons: '\u00a3185.00', musicstore: '\u20ac189.00' } },
   16: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3849.00', andertons: '\u00a3849.00', musicstore: '\u20ac945.00' } },
@@ -307,7 +342,7 @@ function shopButtonsTest(p, lang) {
     const note = k === 'zzounds' ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
-      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] || '') + nm + '</span>' + note + pr + '</a>';
+      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
@@ -902,10 +937,10 @@ ${ogMeta}
         return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">' + (isEs && guide.productTable.title_es ? guide.productTable.title_es : (guide.productTable.title || (isEs ? 'Comparativa de Productos' : 'Product Comparison'))) + '</h2>' + guideCompControls(isEs, 'guide-comp-controls-top') + '<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:' + colMin + 'ch"><thead><tr><th></th>' + headers + '</tr></thead><tbody>' + body + '</tbody></table></div>' + guideCompControls(isEs) + '</div></div>';
       })() : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
-      <p class="guide-product-card-currency-note">${isEs ? 'Precios aproximados; el precio final se confirma en tu moneda local al pagar. La disponibilidad varía según la tienda y el stock; algunas tiendas envían solo dentro de EE.UU.' : 'Prices are approximate; the final price is confirmed in your local currency at checkout. Availability varies by retailer and stock; some retailers ship within the U.S. only.'}</p>
+      <p class="guide-product-card-currency-note">${isEs ? 'Precios aproximados; el total final se confirma en tu moneda local al pagar. Algunas tiendas cobran envío — otras lo ofrecen gratis a partir de un importe mínimo — y algunas solo envían dentro de EE. UU. Cada tienda aplica sus propias reglas y condiciones: nosotros solo te mostramos el precio del producto.' : 'Prices are approximate; your final total is confirmed in your local currency at checkout. Some stores charge shipping — others offer free shipping above a minimum order — and some ship only within the U.S. Each store has its own rules and terms: we only show you the product\u2019s price.'}</p>
       ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${conclusion}</div></div>` : ''}
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
-      ${productCards ? `<p class="guide-product-card-currency-note">${isEs ? 'Precios aproximados; el precio final se confirma en tu moneda local al pagar. La disponibilidad varía según la tienda y el stock; algunas tiendas envían solo dentro de EE.UU.' : 'Prices are approximate; the final price is confirmed in your local currency at checkout. Availability varies by retailer and stock; some retailers ship within the U.S. only.'}</p>` : ''}
+      ${productCards ? `<p class="guide-product-card-currency-note">${isEs ? 'Precios aproximados; el total final se confirma en tu moneda local al pagar. Algunas tiendas cobran envío — otras lo ofrecen gratis a partir de un importe mínimo — y algunas solo envían dentro de EE. UU. Cada tienda aplica sus propias reglas y condiciones: nosotros solo te mostramos el precio del producto.' : 'Prices are approximate; your final total is confirmed in your local currency at checkout. Some stores charge shipping — others offer free shipping above a minimum order — and some ship only within the U.S. Each store has its own rules and terms: we only show you the product\u2019s price.'}</p>` : ''}
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué Productos Hay en Esta Guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       ${userReviewsSection(guide, isEs)}
       <script>setTimeout(function(){document.querySelectorAll('.guide-product-card-desc').forEach(function(e){var b=e.nextElementSibling;if(b&&b.classList.contains('guide-product-card-desc-toggle')&&e.scrollHeight<=e.clientHeight)b.remove()});document.querySelectorAll('.guide-comp-wrap').forEach(function(w){var s=w.querySelector('.guide-comp-scroll');if(!s)return;if(s.scrollWidth<=s.clientWidth+1){w.querySelectorAll('.guide-comp-controls').forEach(function(c){c.style.display='none'})}});document.querySelectorAll('.guide-comp-scroll').forEach(function(s){function upd(){var w=s.closest('.guide-comp-wrap');if(!w)return;var max=s.scrollWidth-s.clientWidth;var pct=max>0?(s.scrollLeft/max*100):0;w.querySelectorAll('.guide-comp-progress-bar').forEach(function(b){b.style.width=pct+'%'})}s.addEventListener('scroll',upd);upd()})},100)</script>
