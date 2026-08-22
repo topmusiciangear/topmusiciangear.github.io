@@ -262,7 +262,13 @@ const TEST_SHOP_BTN = {
   53: { prices: { amazon: '$295.00', zzounds: '$399.99', reverb: '$295.00', gear4music: '\u00a3178.75', andertons: '\u00a3175.00', musicstore: '\u20ac214.29' } },
   54: { prices: { amazon: '$199.95', zzounds: '$199.95', reverb: '$199.95', gear4music: '\u00a3226.00', andertons: '\u00a3210.00', musicstore: '\u20ac209.20' } },
   55: { prices: { amazon: '$179.00', zzounds: '$199.00', reverb: '$179.00', gear4music: '\u00a3153.00', andertons: '\u00a3149.00', musicstore: '\u20ac133.60' } },
-  328: { prices: { zzounds: '$219.00', reverb: '$219.00', andertons: '\u00a3152.00' } }
+  328: { prices: { zzounds: '$219.00', reverb: '$219.00', andertons: '\u00a3152.00' } },
+  5: { prices: { amazon: '$109.00', zzounds: '$99.00', reverb: '$109.00', gear4music: '\u00a3103.50', andertons: '\u00a3103.00', musicstore: '\u20ac88.20' } },
+  3: { prices: { amazon: '$249.00', zzounds: '$249.00', reverb: '$249.00', gear4music: '\u00a3182.00', andertons: '\u00a3182.00', musicstore: '\u20ac167.20' } },
+  25: { prices: { amazon: '$149.00', zzounds: '$149.00', reverb: '$149.00', gear4music: '\u00a3132.25', andertons: '\u00a3133.00', musicstore: '\u20ac125.20' } },
+  26: { prices: { amazon: '$99.99', reverb: '$99.99', musicstore: '\u20ac99.00' } },
+  20: { prices: { amazon: '$269.00', zzounds: '$269.00', reverb: '$269.00', musicstore: '\u20ac223.50' } },
+  19: { prices: { amazon: '$398.99', zzounds: '$398.99', reverb: '$398.99', gear4music: '\u00a3254.00', andertons: '\u00a3254.00', musicstore: '\u20ac294.00' } }
 };
 
 function shopButtonsTest(p, lang) {
@@ -888,6 +894,7 @@ ${ogMeta}
         return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">' + (isEs && guide.productTable.title_es ? guide.productTable.title_es : (guide.productTable.title || (isEs ? 'Comparativa de Productos' : 'Product Comparison'))) + '</h2>' + guideCompControls(isEs, 'guide-comp-controls-top') + '<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:' + colMin + 'ch"><thead><tr><th></th>' + headers + '</tr></thead><tbody>' + body + '</tbody></table></div>' + guideCompControls(isEs) + '</div></div>';
       })() : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
+      <p class="guide-product-card-currency-note">${isEs ? 'Precios aproximados; el precio final se confirma en tu moneda local al pagar. La disponibilidad varía según la tienda y el stock; algunas tiendas envían solo dentro de EE.UU.' : 'Prices are approximate; the final price is confirmed in your local currency at checkout. Availability varies by retailer and stock; some retailers ship within the U.S. only.'}</p>
       ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs ? 'Conclusión' : 'Conclusion'}</h2><div class="guide-conclusion-content">${conclusion}</div></div>` : ''}
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas Frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
       ${productCards ? `<p class="guide-product-card-currency-note">${isEs ? 'Precios aproximados; el precio final se confirma en tu moneda local al pagar. La disponibilidad varía según la tienda y el stock; algunas tiendas envían solo dentro de EE.UU.' : 'Prices are approximate; the final price is confirmed in your local currency at checkout. Availability varies by retailer and stock; some retailers ship within the U.S. only.'}</p>` : ''}
