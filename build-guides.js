@@ -256,7 +256,7 @@ const SHOP_LOGO_STYLE = {
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: 'Music Store', zzounds: 'zZounds', reverb: 'Reverb' };
 const TEST_SHOP_BTN = {
   15: { prices: { amazon: '$199.00', zzounds: '$224.99', reverb: '$199.00', gear4music: '\u00a3193.75', andertons: '\u00a3185.00', musicstore: '\u20ac189.00' } },
-  16: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3829.00', andertons: '\u00a3849.00' } },
+  16: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3849.00', andertons: '\u00a3849.00', musicstore: '\u20ac945.00' } },
   17: { prices: { amazon: '$999.00', zzounds: '$999.00', reverb: '$999.00', gear4music: '\u00a3715.00', andertons: '\u00a3715.00' } },
   18: { prices: { amazon: '$249.99', zzounds: '$299.99', reverb: '$249.99', gear4music: '\u00a3227.00', andertons: '\u00a3227.00' } },
   53: { prices: { amazon: '$295.00', zzounds: '$399.99', reverb: '$295.00', gear4music: '\u00a3178.75', andertons: '\u00a3175.00' } },
@@ -777,7 +777,6 @@ ${ogMeta}
 <script>(function(){try{history.scrollRestoration='manual'}catch(e){}var a=localStorage.getItem('tmg_v');var u='https://api.github.com/repos/topmusiciangear/topmusiciangear.github.io/contents/version.txt?ref=main&v='+Date.now();function gv(){return fetch(u,{headers:{Accept:'application/vnd.github.v3.raw'}}).then(function(r){if(r.ok)return r;return fetch('/version.txt?t='+Date.now())})}gv().then(function(r){return r.text()}).then(function(b){b=b.trim();if(a===b)return;localStorage.setItem('tmg_v',b);var s=location.search.replace(/[?&]_v=[^&]*/,'');location.replace(location.pathname+s+(s?'&':'?')+'_v='+b)}).catch(function(){})})();!function(){var s=location.search.indexOf('_v=');if(s>-1&&history.replaceState)history.replaceState({},'',location.pathname+location.search.replace(/[?&]_v=[^&]*/,'')+location.hash)}()</script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','functionality_storage':'granted','security_storage':'granted'});gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
-<script defer src="/js/amazon-geo.js?v=2"></script>
 </head>
 <body style="margin:0;padding:0;">
   <a href="#mainContent" class="skip-link">Skip to main content</a>
