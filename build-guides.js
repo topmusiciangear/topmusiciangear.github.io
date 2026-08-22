@@ -248,13 +248,13 @@ function storeChips(p, lang) {
 
 const TEST_SHOP_BTN = {
   15: {
-    prices: { amazon: '$199.00', gear4music: '$198.50', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00' },
+    prices: { gear4music: '$198.50', zzounds: '$199.00', andertons: '\u00a3179.99', musicstore: '\u20ac189.00', reverb: '$175.00' },
     logoStyle: {
-      gear4music: 'font-weight:900;color:#7db3e8;letter-spacing:-.3px',
-      andertons: 'font-weight:800;color:#ff8a80',
-      musicstore: 'font-weight:900;color:#ff6b6b;text-transform:uppercase;font-size:.92em',
-      zzounds: 'font-weight:800;font-style:italic;color:#9ec9ff',
-      amazon: 'font-weight:800;color:#fff'
+      gear4music: 'font-weight:900;color:#fff;letter-spacing:-.3px',
+      andertons: 'font-weight:800;color:#fff',
+      musicstore: 'font-weight:900;color:#fff;text-transform:uppercase;font-size:.92em',
+      zzounds: 'font-weight:800;font-style:italic;color:#fff',
+      reverb: 'font-weight:800;color:#fff'
     }
   }
 };
@@ -266,14 +266,16 @@ function shopButtonsTest(p, lang) {
   const t = (es, en) => lang === 'es' ? es : en;
   const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
   const chevSvg = '<svg viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
-  const order = ['amazon', 'gear4music', 'zzounds', 'andertons', 'musicstore'];
-  const avail = order.filter(k => stores[k]);
+  const order = ['gear4music', 'zzounds', 'andertons', 'musicstore', 'reverb'];
+  const avail = order.filter(k => stores[k] || k === 'reverb');
+  const revUrl = 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title));
+  const rowUrl = k => k === 'reverb' ? revUrl : stores[k];
   const pUrl = stores.amazon || stores[cfg && Object.keys(cfg.prices)[0]] || stores[avail[0]];
   if (!pUrl) return '';
   const pPrice = cfg.prices.amazon || '';
   const primaryBtn =
     '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:13px 18px;border-radius:14px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:13px 16px;border-radius:12px;' +
     'background:#00C896;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(0,200,150,.35);transition:box-shadow .2s ease,filter .2s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
@@ -283,14 +285,14 @@ function shopButtonsTest(p, lang) {
     const st = cfg.logoStyle[k] || 'font-weight:700';
     const pr = cfg.prices[k] ? '<span style="margin-left:auto;font-weight:700;color:#fff;white-space:nowrap">' + cfg.prices[k] + '</span>' : '';
     const note = k === 'zzounds' ? '<span style="color:#9fb8ad;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
-    return '<a href="' + stores[k] + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="display:flex;align-items:center;gap:8px;padding:11px 14px;border-radius:10px;background:#262626;' +
-      'color:#eaeaea;text-decoration:none;font-size:14px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
+    return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+      'style="display:flex;align-items:center;gap:8px;padding:12px 16px;border-radius:10px;background:#262626;' +
+      'color:#ffffff;text-decoration:none;font-size:15px;border:1px solid #333"><span style="' + st + '">' + nm + '</span>' + note + pr + '</a>';
   }).join('');
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';l.style.maxHeight=open?\'0px\':l.scrollHeight+\'px\';var s=this.querySelector(\'svg:last-of-type\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:11px 16px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px 16px;border-radius:12px;' +
     'background:#333333;color:#dddddd;font-size:13px;font-weight:700;border:none;cursor:pointer;margin-top:8px;transition:background .2s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span>' + t('Todas las opciones de compra', 'All buying options') + ' (' + avail.length + ')</span>' + chevSvg + '</button>' +
