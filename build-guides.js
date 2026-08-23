@@ -918,6 +918,7 @@ function navDropdown(isEs) {
 function buildGuidePage(guide, lang, idx) {
   CURRENT_GUIDE_CAT = guide.category;
   const isEs = lang === 'es';
+  const isVs = /-vs-/i.test(guide.id);
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
   const intro = esText(isEs && guide.intro_es, guide.intro);
   const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
@@ -930,11 +931,8 @@ function buildGuidePage(guide, lang, idx) {
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
-  const productCards = allProductIds.map(pid => {
-    const p = products.find(pr => pr.id === pid);
-    return p ? productCard(p, lang) : '';
-  }).join('');
 
+  const renderedProducts = new Set();
   const sectionsHtml = guide.sections.map((s, si) => {
     const h = isEs && s.heading_es ? s.heading_es : s.heading;
     const c = esText(isEs && s.content_es, s.content);
@@ -943,18 +941,24 @@ function buildGuidePage(guide, lang, idx) {
     let sectionChips = '', productImgs = '';
     if (s.splitProducts && sectionProducts.length > 1) {
       const blocks = sectionProducts.map(p => {
+        if (renderedProducts.has(p.id)) return '';
+        renderedProducts.add(p.id);
         const t = isEs && p.title_es ? p.title_es : p.title;
         return '<div class="guide-section-prod">' +
           '<div class="guide-section-prod-name">' + t + '</div>' +
           '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in"></div>' +
           '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
         '</div>';
-      }).join('');
-      productImgs = '<div class="guide-section-prods">' + blocks + '</div>';
+      }).filter(Boolean).join('');
+      productImgs = blocks ? '<div class="guide-section-prods">' + blocks + '</div>' : '';
     } else {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
-      sectionChips = firstProduct ? '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>' : '';
-      if (firstProduct && s.video) {
+      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id);
+      if (isFirstNew) {
+        renderedProducts.add(firstProduct.id);
+        sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
+      }
+      if (isFirstNew && s.video) {
         const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
         const psrc = firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
         productImgs = '<div class="guide-section-imgs">' +
@@ -964,10 +968,10 @@ function buildGuidePage(guide, lang, idx) {
             '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
           '</div>' +
         '</div>';
-      } else {
-        productImgs = firstProduct ? '<div class="guide-section-imgs">' +
+      } else if (isFirstNew) {
+        productImgs = '<div class="guide-section-imgs">' +
           '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
-        '</div>' : '';
+        '</div>';
       }
     }
     const mediaBuy = (productImgs && sectionChips)
@@ -977,6 +981,11 @@ function buildGuidePage(guide, lang, idx) {
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
       <div class="guide-section-content">${boldedC}${mediaBuy}</div>
     </div>`;
+  }).join('');
+
+  const productCards = allProductIds.filter(pid => !renderedProducts.has(pid)).map(pid => {
+    const p = products.find(pr => pr.id === pid);
+    return p ? productCard(p, lang) : '';
   }).join('');
 
   const tocHtml = '';
