@@ -589,7 +589,9 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 - Gear4Music y Music Store: 403 en node, Invoke-WebRequest Y webfetch â†' imposible verificar sus precios esta sesiÃ³n
 
 ### Next Move
-- Decidir con el usuario: sustituir por sucesores los productos muertos en zZounds (MPC One+â†'Gen 2, HeadRush MX5â†'Flex Prime), actualizar campos `price` de catÃ¡logo detectados desactualizados (BiG SiX, iLoud MM Pro), y re-verificar G4M/MusicStore/Amazon cuando haya canal (o a mano)
+- Continue Andertons price verification for remaining ~100 products (batch 4+: ids 64-76, 124-131, 140-150, etc.)
+- Rebuild guides after any further Andertons price updates
+- Push all changes to origin/main
 
 ## âš ï¸ FIRST CHECK when page is broken
 
