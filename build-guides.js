@@ -120,7 +120,7 @@ guides.forEach(g => {
 // Single source of truth: strip Rating rows from guides.json too so the SPA can never re-render them
 guides.forEach(g => {
   if (g.comparison && Array.isArray(g.comparison.rows)) {
-    g.comparison.rows = g.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating');
+    g.comparison.rows = g.comparison.rows.filter(r => { var l = (r.label || '').trim().toLowerCase(); if (l === 'rating') return false; return !/(price|precio|msrp|cost)/.test(l); });
   }
 });
 
@@ -397,8 +397,7 @@ function productCard(p, lang) {
     <div class="guide-product-card-body">
       ${productRatingLine(p, lang)}
       <h3 class="guide-product-card-title">${title}</h3>
-      <div class="guide-product-card-price">${formatPrice(p.price)}${p.unit ? ` <small>(${capitalizeUnit(lang === 'es' ? (p.unit_es || p.unit) : p.unit)})</small>` : ''}</div>
-      <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
+            <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
       <div class="guide-product-card-stores">${stores}</div>
     </div>
   </div>`;
@@ -778,7 +777,6 @@ function buildGuidePage(guide, lang, idx) {
           "mpn": p.mpn || generatedSku,
           "sku": generatedSku,
           "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 155),
-          "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "US", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 30, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" }, "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }, "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } } } },
           "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
           "positiveNotes": pn,
           "negativeNotes": cn
@@ -791,7 +789,6 @@ function buildGuidePage(guide, lang, idx) {
         "@type": "Product",
         "name": title,
         "brand": { "@type": "Brand", "name": p.brand || "" },
-        "offers": { "@type": "Offer", "price": p.price, "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
         "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
         "positiveNotes": pn,
         "negativeNotes": cn
@@ -949,13 +946,13 @@ ${ogMeta}
         ${guideCompControls(isEs, 'guide-comp-controls-top')}
         <div class="guide-comp-scroll-wrap">
           <div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:${colMin}ch"><thead><tr><th></th><th>${n1}</th><th>${n2}</th></tr></thead>
-            <tbody>${guide.comparison.rows.filter(r => (r.label || '').trim().toLowerCase() !== 'rating').map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
+            <tbody>${guide.comparison.rows.filter(r => { var l = (r.label || '').trim().toLowerCase(); if (l === 'rating') return false; return !/(price|precio|msrp|cost)/.test(l); }).map(r => `<tr><td class="label">${isEs ? r.label_es : r.label}</td><td class="val">${isEs && r.val1_es ? r.val1_es : r.val1}</td><td class="val">${isEs && r.val2_es ? r.val2_es : r.val2}</td></tr>`).join('')}</tbody>
           </table></div>
           ${guideCompControls(isEs)}
         </div>
       </div>`; })() : ''}
       ${guide.productTable ? (function(){
-        var rows = guide.productTable.rows || [];
+        var rows = (guide.productTable.rows || []).filter(function(r){ var l = String((isEs && r.label_es) || r.label || '').toLowerCase(); return !/(price|precio|msrp|cost)/.test(l); });
         var colMin = 0;
         var headers = guide.productTable.columns.map(function(col){
           var t = isEs && col.title_es ? col.title_es : col.title;
