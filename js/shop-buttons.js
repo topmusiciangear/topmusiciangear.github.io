@@ -216,7 +216,7 @@ const TEST_SHOP_BTN = {
   149: { prices: {amazon: '$675.00', zzounds: '$573.74' } },
   150: { prices: {amazon: '$268.00', andertons: '£169.00' }, oos: ['zzounds'] },
   151: { prices: { amazon: '$374.99' }, oos: ['zzounds'] },
-  152: { prices: {amazon: '$1,232.49', zzounds: '$1,232.49' } },
+  152: { prices: {amazon: '$1,232.49', zzounds: '$1,232.49', andertons: '£975.00' } },
   153: { prices: {amazon: '$399.00', zzounds: '$399.00', andertons: '£295.00' } },
   154: { prices: {amazon: '$390.99', andertons: '£394.00' }, oos: ['zzounds'] },
   155: { prices: {amazon: '$1,689.99', zzounds: '$1,889.99', andertons: '£1,879.00' } },
