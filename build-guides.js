@@ -983,7 +983,7 @@ function buildGuidePage(guide, lang, idx) {
     </div>`;
   }).join('');
 
-  const productCards = allProductIds.filter(pid => !renderedProducts.has(pid)).map(pid => {
+  const productCards = allProductIds.map(pid => {
     const p = products.find(pr => pr.id === pid);
     return p ? productCard(p, lang) : '';
   }).join('');
