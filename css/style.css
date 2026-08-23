@@ -2575,7 +2575,7 @@ footer ul li a:hover { color: var(--accent); }
   .product-search-grid { grid-template-columns: 1fr; gap: 16px; }
 }
 .product-search-item { display: flex; flex-direction: column; }
-.product-search-item .guide-product-card { height: 100%; }
+.product-search-item .guide-product-card { height: auto; }
 .guide-product-card-guides {
   display: flex;
   flex-wrap: wrap;
