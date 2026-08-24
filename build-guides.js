@@ -1071,6 +1071,23 @@ function buildGuidePage(guide, lang, idx) {
           "negativeNotes": cn
         }
       };
+      (function(){
+        var cfg = TEST_SHOP_BTN[p.id] || {};
+        var pr = cfg.prices || {};
+        var st = getResolvedStores(p);
+        var isPlugins = p.category === 'plugins';
+        var isDaw = p.category === 'daw';
+        var isLogic = isDaw && !!st.official;
+        var dawHasAmazon = isDaw && !isLogic && pr.amazon;
+        var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
+        var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
+        var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
+        var offerUrl = st[primaryStore] || st.official || '';
+        if (offerUrl && priceNum) {
+          var offer = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
+          listItem.item.offers = offer;
+        }
+      })();
       if (agg) listItem.item.aggregateRating = agg;
       if (reviewEnts.length) listItem.item.review = reviewEnts;
       items.push(listItem);
@@ -1082,6 +1099,22 @@ function buildGuidePage(guide, lang, idx) {
         "positiveNotes": pn,
         "negativeNotes": cn
       };
+      (function(){
+        var cfg = TEST_SHOP_BTN[p.id] || {};
+        var pr = cfg.prices || {};
+        var st = getResolvedStores(p);
+        var isPlugins = p.category === 'plugins';
+        var isDaw = p.category === 'daw';
+        var isLogic = isDaw && !!st.official;
+        var dawHasAmazon = isDaw && !isLogic && pr.amazon;
+        var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
+        var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
+        var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
+        var offerUrl = st[primaryStore] || st.official || '';
+        if (offerUrl && priceNum) {
+          pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
+        }
+      })();
       if (agg) pSchema.aggregateRating = agg;
       if (reviewEnts.length) pSchema.review = reviewEnts;
       productSchemas.push(pSchema);

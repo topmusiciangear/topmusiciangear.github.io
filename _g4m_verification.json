@@ -1,0 +1,360 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Shure SM7B",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X",
+      "priceEUR": "€459.50",
+      "priceGBP": "£381.50",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 2,
+      "title": "Neumann U 87 Ai",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED",
+      "priceEUR": "€3,155.00",
+      "priceGBP": "£2,824.01",
+      "inStock": true,
+      "notes": "Title matches (Nickel variant). 10 in stock."
+    },
+    {
+      "id": 3,
+      "title": "Rode NT1 5th Generation",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Rode-NT1-5th-Gen-XLR-and-USB-C-Studio-Microphone-Black/5CEO",
+      "priceEUR": "€221.00",
+      "priceGBP": "£194.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 4,
+      "title": "AKG C414 XLII",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV",
+      "priceEUR": "€966.00",
+      "priceGBP": "£1,840.00",
+      "inStock": true,
+      "notes": "Title matches. 5 in stock."
+    },
+    {
+      "id": 5,
+      "title": "Shure SM57",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
+      "priceEUR": "€134.00",
+      "priceGBP": "£103.50",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 6,
+      "title": "Fender American Professional II Stratocaster",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Guitar-and-Bass/Fender-American-Professional-II-Stratocaster-RW-Mercury/3IXH",
+      "priceEUR": "€1,911.00",
+      "priceGBP": "£1,799.00",
+      "inStock": true,
+      "notes": "Title matches. 1 in stock."
+    },
+    {
+      "id": 7,
+      "title": "Gibson Les Paul Standard '60s",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C",
+      "priceEUR": "€2,899.00",
+      "priceGBP": "£2,299.00",
+      "inStock": true,
+      "notes": "Title matches (Double Trouble variant). 1 in stock."
+    },
+    {
+      "id": 8,
+      "title": "Taylor 314ce Next Generation",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Guitar-and-Bass/Taylor-314ce-Next-Generation/7SSQ",
+      "priceEUR": "€2,753.00",
+      "priceGBP": "£2,299.00",
+      "inStock": false,
+      "notes": "Title matches. Available to order, not in stock."
+    },
+    {
+      "id": 9,
+      "title": "Ibanez RG550 Genesis",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
+      "priceEUR": "€986.00",
+      "priceGBP": "£849.00",
+      "inStock": true,
+      "notes": "Title matches. 2 in stock."
+    },
+    {
+      "id": 10,
+      "title": "PRS McCarty 594",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Guitar-and-Bass/PRS-McCarty-594-10-Top-Quilt-Dark-Cherry-Burst-0332245-2021/4KBQ",
+      "priceEUR": "€5,388.00",
+      "priceGBP": "£4,699.00",
+      "inStock": true,
+      "notes": "Title matches (10 Top variant). 1 in stock."
+    },
+    {
+      "id": 11,
+      "title": "Nord Stage 4 88",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3",
+      "priceEUR": "€4,636.00",
+      "priceGBP": "£3,890.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 12,
+      "title": "Yamaha Montage M8x",
+      "linkOk": false,
+      "correctUrl": null,
+      "priceEUR": null,
+      "priceGBP": "£4,290.00",
+      "inStock": false,
+      "notes": "gear4music.ie returns 403. Price from websearch shows £4,290. Available to order."
+    },
+    {
+      "id": 13,
+      "title": "Arturia KeyLab Essential 61 MkIII",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI",
+      "priceEUR": "€257.50",
+      "priceGBP": "£215.00",
+      "inStock": false,
+      "notes": "Title matches. More on the way, available to order."
+    },
+    {
+      "id": 14,
+      "title": "Native Instruments Kontrol S61 MK3",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Native-Instruments-Kontrol-S61-MK3/5R1S",
+      "priceEUR": null,
+      "priceGBP": "£595.00",
+      "inStock": false,
+      "notes": "Title matches. Not available for purchase on IE site. UK price found."
+    },
+    {
+      "id": 15,
+      "title": "Focusrite Scarlett 2i2 4th Gen",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
+      "priceEUR": "€218.75",
+      "priceGBP": "£193.75",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 16,
+      "title": "Universal Audio Apollo Twin X Gen 2",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Universal-Audio-Apollo-Twin-X-DUO-Gen-2-Analog-Classics-Edition-Audio-Interface/6OZJ",
+      "priceEUR": "€1,034.00",
+      "priceGBP": "£1,099.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 17,
+      "title": "RME Babyface Pro FS",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
+      "priceEUR": "€856.00",
+      "priceGBP": "£715.00",
+      "inStock": false,
+      "notes": "Title matches. Not currently in stock, available to order."
+    },
+    {
+      "id": 18,
+      "title": "SSL 2+ MKII",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
+      "priceEUR": "€280.00",
+      "priceGBP": "£251.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 19,
+      "title": "Yamaha HS8",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor/QT5",
+      "priceEUR": "€302.50",
+      "priceGBP": "£263.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 20,
+      "title": "KRK Rokit 7 G5",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Single/674T",
+      "priceEUR": "€256.00",
+      "priceGBP": "£232.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 21,
+      "title": "Adam Audio A7V",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
+      "priceEUR": "€678.00",
+      "priceGBP": "£600.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 22,
+      "title": "Genelec 8040B",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
+      "priceEUR": "€1,006.00",
+      "priceGBP": "£777.00",
+      "inStock": true,
+      "notes": "Title matches. 6 in stock."
+    },
+    {
+      "id": 23,
+      "title": "Beyerdynamic DT 770 Pro",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-80-Ohm/76U",
+      "priceEUR": "€156.00",
+      "priceGBP": "£131.00",
+      "inStock": true,
+      "notes": "Title matches (80 Ohm variant). 20+ in stock."
+    },
+    {
+      "id": 24,
+      "title": "Sennheiser HD 490 Pro Plus",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Sennheiser-HD-490-Pro-Plus-Open-Back-Headphones/62YL",
+      "priceEUR": "€431.00",
+      "priceGBP": "£359.00",
+      "inStock": true,
+      "notes": "Title matches. 14 in stock."
+    },
+    {
+      "id": 25,
+      "title": "Audio-Technica ATH-M50x",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G",
+      "priceEUR": "€173.00",
+      "priceGBP": "£140.50",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 26,
+      "title": "Sony MDR-7506",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
+      "priceEUR": "€118.60",
+      "priceGBP": "£99.00",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    },
+    {
+      "id": 28,
+      "title": "Native Instruments Kontakt 8",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI",
+      "priceEUR": "€321.50",
+      "priceGBP": "£269.00",
+      "inStock": true,
+      "notes": "Title matches. Digital delivery."
+    },
+    {
+      "id": 29,
+      "title": "FabFilter Total Bundle",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/FabFilter-Total-Bundle/3NUP",
+      "priceEUR": "€765.00",
+      "priceGBP": "£769.00",
+      "inStock": true,
+      "notes": "Title matches. Digital delivery."
+    },
+    {
+      "id": 30,
+      "title": "iZotope Ozone 12 Advanced",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5",
+      "priceEUR": "€574.00",
+      "priceGBP": "£479.00",
+      "inStock": true,
+      "notes": "Title matches. Digital delivery."
+    },
+    {
+      "id": 32,
+      "title": "Soundtoys 5.5 Bundle",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Soundtoys-55/7F1S",
+      "priceEUR": "€586.00",
+      "priceGBP": "£499.00",
+      "inStock": true,
+      "notes": "Title matches. Digital delivery."
+    },
+    {
+      "id": 33,
+      "title": "Roland TR-8S",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82",
+      "priceEUR": "€760.00",
+      "priceGBP": "£698.00",
+      "inStock": true,
+      "notes": "Title matches. 2 in stock."
+    },
+    {
+      "id": 39,
+      "title": "Aston Microphones Shield GN Pop Filter",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/Aston-Microphones-Shield-GN-Pop-Filter/2AX0",
+      "priceEUR": "€62.78",
+      "priceGBP": "£39.00",
+      "inStock": true,
+      "notes": "Title matches. 2 in stock."
+    },
+    {
+      "id": 42,
+      "title": "SSL UF8 DAW Controller",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK",
+      "priceEUR": "€1,362.00",
+      "priceGBP": "£1,135.00",
+      "inStock": true,
+      "notes": "Title matches. 3 in stock."
+    },
+    {
+      "id": 50,
+      "title": "Shure SM58",
+      "linkOk": true,
+      "correctUrl": "https://www.gear4music.ie/PA-DJ-and-Lighting/Shure-SM58-Dynamic-Cardioid-Vocal-Microphone/4ZW",
+      "priceEUR": "€127.00",
+      "priceGBP": "£103.50",
+      "inStock": true,
+      "notes": "Title matches. 20+ in stock."
+    }
+  ],
+  "badLinks": [
+    {
+      "id": 12,
+      "title": "Yamaha Montage M8x",
+      "url": "https://www.gear4music.ie/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
+      "error": "403 Forbidden"
+    }
+  ],
+  "summary": {
+    "total": 280,
+    "processed": 33,
+    "linkOk": 32,
+    "linkBad": 1,
+    "priceFound": 33,
+    "priceMissing": 0
+  }
+}
