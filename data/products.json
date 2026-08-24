@@ -5036,14 +5036,12 @@
     "desc_es": "Una acústica compacta que conserva la voz completa de Taylor en un cuerpo de unos tres cuartos del tamaño de una dreadnought estándar. Tapa de picea sólida, fondo y aros de sapeli laminado y escala de 23,5 pulgadas cómoda para los dedos. Funda incluida.",
     "img": "https://r2.gear4music.com/media/99/993440/1200/preview.jpg",
     "stores": {
+      "zzounds": "https://www.zzounds.com/item--TAYGSMINI",
       "amazon": "https://www.amazon.com/dp/B007IVUOXM",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Taylor-GS-Mini-Sapele-Natural/5Y4H",
       "andertons": "https://www.andertons.co.uk/Taylor-GS-Mini-SapeleSpruce/",
       "musicstore": "https://www.musicstore.com/en_US/USD/Taylor-GS-Mini-Sapele/art-GIT0061753-000"
-    },
-    "excludeStores": [
-      "zzounds"
-    ]
+    }
   },
   {
     "id": 272,
@@ -5401,13 +5399,13 @@
     "desc_es": "El XCM-50 es el condensador premium compacto de Rode para streamers: una cápsula cardioide con salida USB-C de 24-bit/48 kHz, salida de auriculares para monitorización sin latencia y botón de silencio en el micro. Un soporte pivotante de 360° y un trípode hacen flexible la colocación en el escritorio, y se integra con el software UNIFY de Rode. Está construido como un micro premium pero normalmente se vende por.",
     "img": "https://r2.gear4music.com/media/111/1116952/1200/preview.jpg",
     "stores": {
+      "zzounds": "https://www.zzounds.com/item--RODXCM50",
       "amazon": "https://www.amazon.com/dp/B0BF8ZVNWB",
       "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Rode-X-XCM-50-USB-Condenser-Microphone-For-Streamers-and-Gamers/5WWD"
     },
     "excludeStores": [
       "andertons",
       "musicstore",
-      "zzounds",
       "reverb"
     ]
   },
@@ -5446,13 +5444,13 @@
     "desc_es": "El NT-USB Mini es el condensador de estudio compacto de Rode: una cápsula cardioide ajustada para voz clara y natural, con filtro antipop integrado, base magnética y salida de auriculares para monitorización sin latencia. Es USB-C plug-and-play en PC y Mac y funciona con el software Rode Connect. La construcción y el sonido premium lo convierten en la mejor opción compacta en el rango de.",
     "img": "https://r2.gear4music.com/media/54/546970/1200/preview_1.jpg",
     "stores": {
+      "zzounds": "https://www.zzounds.com/item--RODNTUSBMINI",
       "amazon": "https://www.amazon.com/dp/B084P1CXFD",
       "andertons": "https://www.andertons.co.uk/rode-nt-usb-mini-compact-deskmount-microphone/",
       "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Rode-NT-USB-Mini-Condenser-Microphone/3CFV"
     },
     "excludeStores": [
       "musicstore",
-      "zzounds",
       "reverb"
     ]
   },
@@ -6260,14 +6258,12 @@
     "desc_es": "El XM8500 es el dinámico de que famosamente te da gran parte de un SM58 por una cuarta parte del precio: un micrófono vocal de bobina móvil cardioide con un fuerte realce de presencia que corta las mezclas en directo, filtro antipop de dos etapas integrado, suspensión antigolpes y un cuerpo totalmente metálico tipo tanque con estuche resistente a impactos y adaptador de soporte incluidos. Se conecta por XLR sin phantom a cualquier interfaz o mesa — combínalo con una interfaz barata y es la forma más económica de conseguir una cadena vocal de sonido realmente profesional.",
     "img": "https://r2.gear4music.com/media/9/96452/1200/preview.jpg",
     "stores": {
+      "zzounds": "https://www.zzounds.com/item--BEHXM8500",
       "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Behringer-XM8500-Ultravoice-Dynamic-Microphone/5IQ",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FBehringer-XM-8500-ULTRAVOICE%2Fart-PAH0000081-000",
       "amazon": "https://www.amazon.com/dp/B082LZKNF3",
       "andertons": "https://www.andertons.co.uk/behringer-xm8500-dynamic-microphone/"
-    },
-    "excludeStores": [
-      "zzounds"
-    ]
+    }
   },
   {
     "id": 331,
