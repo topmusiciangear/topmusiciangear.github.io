@@ -513,7 +513,7 @@ function shopButtonsTest(p, lang) {
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
   const primaryBtn =
     '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
-    'style="display:flex;align-items:center;justify-content:flex-start;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
@@ -536,7 +536,7 @@ function shopButtonsTest(p, lang) {
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';if(open){l.style.overflow=\'hidden\';l.style.maxHeight=\'0px\';}else{l.style.maxHeight=l.scrollHeight+\'px\';setTimeout(function(){l.style.overflow=\'visible\';},330);}var s=this.querySelector(\'span:last-of-type svg\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
-    'style="display:flex;align-items:center;justify-content:flex-start;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;position:relative;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     cartSvg + '<span>' + t('Comparar en 5 tiendas más', 'Compare 5 more stores') + '</span>' + '<span style=\'position:absolute;right:16px;top:50%;transform:translateY(-50%);flex-shrink:0;pointer-events:none\'>' + chevSvg + '</span>' + '</button>' +
