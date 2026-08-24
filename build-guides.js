@@ -776,8 +776,8 @@ function shopButtonsTest(p, lang) {
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';if(open){l.style.overflow=\'hidden\';l.style.maxHeight=\'0px\';}else{l.style.maxHeight=l.scrollHeight+\'px\';setTimeout(function(){l.style.overflow=\'visible\';},330);}var s=this.querySelector(\'span:last-of-type svg\');if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
-    'background:#333333;color:#ffffff;font-size:15px;font-weight:800;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'background:#333333;color:#ffffff;font:inherit;font-size:15px;font-weight:800;line-height:1;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     cartSvg + '<span>' + t('Comparar en 5 tiendas más', 'Compare 5 more stores') + '</span>' + '<span style=\'margin-left:auto;flex-shrink:0\'>' + chevSvg + '</span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
