@@ -779,7 +779,7 @@ function shopButtonsTest(p, lang) {
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span>' + t('Comparar en 5 tiendas más', 'Compare 5 more stores') + '</span><span style="margin-left:10px">' + chevSvg + '</span></span>' + '</button>' +
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en 5 tiendas más', 'Compare 5 more stores') + chevSvg + '</span></span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
   return isLogic ? primaryBtn : primaryBtn + moreBtn;
 }
