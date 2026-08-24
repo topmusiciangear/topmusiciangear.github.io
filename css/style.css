@@ -1519,7 +1519,7 @@ footer ul li a:hover { color: var(--accent); }
   align-items: center;
   justify-content: space-between;
   padding-top: 14px;
-  margin-top: 14px;
+  margin-top: auto;
   border-top: 1px solid var(--border);
 }
 
@@ -2597,10 +2597,7 @@ footer ul li a:hover { color: var(--accent); }
   border: 1px solid rgba(255,255,255,.15);
   text-decoration: none;
   transition: opacity .2s, transform .15s;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
 }
 .chip-search-guide:hover { opacity: .85; text-decoration: underline; }
 .chip-search-guide:active { transform: scale(.95); }
