@@ -179,7 +179,7 @@ const TEST_SHOP_BTN = {
   359: { prices: { reverb: '$94.99',amazon: '$94.99' } , oos: ['andertons'] },
   112: { prices: {amazon: '$165.00' , reverb: '$165.00' } , oos: ['andertons'] },
   113: { prices: {amazon: '$599.00', andertons: '£549.00' , reverb: '$599.00' } },
-  114: { prices: {amazon: '$579.99' , andertons: '£479.00' , reverb: 'oos' } },
+  114: { prices: {amazon: '$579.99' , andertons: '£479.00' , reverb: '$579.99' } },
   115: { prices: {andertons: '£299.00' , reverb: 'oos' } },
   116: { prices: { reverb: '$129.00',amazon: '$129.00', andertons: '£112.00' }, oos: ['zzounds'] },
   117: { prices: { reverb: '$249.00',amazon: '$249.00', zzounds: '$249.00', andertons: '£169.00' } },
