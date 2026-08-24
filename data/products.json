@@ -701,27 +701,6 @@
     "excludeStores": []
   },
   {
-    "id": 41,
-    "title": "Gator Cases 61-Key Keyboard Case",
-    "title_es": "Estuche para Teclado 61 Teclas Gator",
-    "brand": "Gator",
-    "category": "accessories",
-    "price": 429,
-    "rating": 4.6,
-    "reviews": 3456,
-    "badge": null,
-    "desc": "ATA-approved molded case with EPS foam interior. Heavy-duty hardware, recessed latches, and wheels for easy transport.",
-    "desc_es": "Estuche moldeado aprobado ATA con interior de espuma EPS. Herrajes de alta resistencia, pestillos empotrados y ruedas para fácil transporte.",
-    "img": "https://r2.gear4music.com/media/32/329501/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Gator-GTSA-KEY61-ATA-TSA-61-Note-Keyboard-Case-50-x-22-x-9/2AJ6",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FGator-TSA-ATA-Molded-Case-61-Tasten%2Fart-KEY0006190-000",
-      "amazon": "https://www.amazon.com/dp/B01BLQJP98",
-      "andertons": "https://www.andertons.co.uk/gator-ata-molded-pe-case-w-tsa-latches-61-note-keyboard-case",
-      "zzounds": "https://www.zzounds.com/a--925521/item--GATGK61"
-    }
-  },
-  {
     "id": 42,
     "title": "SSL UF8 DAW Controller",
     "title_es": "Controlador DAW SSL UF8",
@@ -6142,6 +6121,27 @@
       "amazon": "https://www.amazon.com/dp/B0D6Z15H4N",
       "andertons": "https://www.andertons.co.uk/novation-launchkey-25-mk4-mini-key-daw-controller-keyboard/",
       "zzounds": "https://www.zzounds.com/item--NOVLNCHKEYMINI25"
+    }
+  },
+  {
+    "id": 363,
+    "title": "Novation Launchkey 49 MK4",
+    "title_es": "Novation Launchkey 49 MK4",
+    "brand": "Novation",
+    "category": "keyboards",
+    "price": 279.99,
+    "rating": 4.8,
+    "reviews": 2400,
+    "badge": "recommended",
+    "desc": "The complete creative controller for your DAW. 49 semi-weighted waterfall-style keys, 16 velocity-sensitive FSR pads with polyphonic aftertouch, 8 endless encoders, 9 faders, OLED display, and chord and scale modes. Deep integration with Ableton Live, Logic, Cubase, FL Studio, and more.",
+    "desc_es": "El controlador creativo completo para tu DAW. 49 teclas semi-ponderadas de estilo waterfall, 16 pads FSR sensibles a la velocidad con aftertouch polifónico, 8 encoders infinitos, 9 faders, pantalla OLED y modos de acordes y escalas. Integración profunda con Ableton Live, Logic, Cubase, FL Studio y más.",
+    "img": "https://cdn11.bigcommerce.com/s-itgb7ssiy1/images/stencil/1280x1280/products/289/814/LK49-MKIV-Straight-Top-2400-2400__86910.1722435810.png?c=1",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Novation-Launchkey-49-MK4/6GXQ",
+      "amazon": "https://www.amazon.com/dp/B0D6Z15H4N",
+      "andertons": "https://www.andertons.co.uk/novation-launchkey-49-mk4-midi-controller-keyboard/",
+      "zzounds": "https://www.zzounds.com/item--NOVLNCHKEY49",
+      "reverb": "https://www.reverb.com/marketplace?query=Novation+Launchkey+49+MK4"
     }
   },
   {
