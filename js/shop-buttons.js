@@ -341,7 +341,7 @@ const TEST_SHOP_BTN = {
   322: { prices: { reverb: '$779.66',amazon: '$779.66', zzounds: '$799.00', andertons: '£598.00' } },
   323: { prices: { reverb: '$99.00',amazon: '$99.00',  andertons: '£91.00' } },
   324: { prices: { reverb: '$129.99',amazon: '$129.99',  zzounds: '$129.99', andertons: '£89.00' } },
-  363: { prices: { reverb: '$279.99',amazon: '$279.99',  zzounds: '$279.99', andertons: '£209.00' } },
+  363: { prices: { amazon: '$279.99', zzounds: '$279.99', reverb: '$279.99', gear4music: '£222.00', andertons: '£209.00', musicstore: '€261.00' } },
   325: { prices: { reverb: '$549.00',amazon: '$549.00', zzounds: '$549.00' } , oos: ['andertons'] },
   326: { prices: {andertons: '£399.00' } },
   328: { prices: { amazon: '$219.00', zzounds: '$219.00', reverb: '$219.00', andertons: '£152.00' } },
