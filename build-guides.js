@@ -1041,6 +1041,9 @@ function buildGuidePage(guide, lang, idx) {
   const isVs = /-vs-/i.test(guide.id);
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
   const intro = esText(isEs && guide.intro_es, guide.intro);
+  const introTableMatch = intro.match(/<table[\s\S]*?<\/table>/);
+  const introTable = introTableMatch ? '<div class="guide-table-wrap">' + introTableMatch[0] + '</div>' : '';
+  const introWithoutTable = intro.replace(/<table[\s\S]*?<\/table>/, '').trim();
   const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
   const verdict = esText(isEs && guide.verdict_es, guide.verdict);
   const image = guide.image || '../img/og-image.png';
@@ -1372,8 +1375,9 @@ ${ogMeta}
         <h1 class="guide-detail-title">${title}</h1>
       </div>
       <div class="guide-detail-img"><img src="${fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
-      <div class="guide-detail-intro"><p>${intro}</p></div>
+      <div class="guide-detail-intro"><p>${introWithoutTable}</p></div>
       ${authorBoxHtml}
+      ${introTable}
       ${guide.verdict ? `<div class="guide-verdict">
         <div class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</div>
         <div class="verdict-text">${verdict}</div>
