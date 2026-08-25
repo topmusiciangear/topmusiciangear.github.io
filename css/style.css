@@ -3088,20 +3088,13 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 }
 
 .guide-link-btn {
-  display: inline-block;
-  padding: 8px 18px;
-  margin: 4px 6px 4px 0;
-  background: rgba(59,130,246,.1);
-  border: 1px solid rgba(59,130,246,.3);
-  border-radius: 8px;
+  display: inline;
   color: var(--accent);
   font-weight: 700;
-  font-size: 14px;
   text-decoration: none;
-  transition: background .2s, border-color .2s;
+  transition: opacity .2s;
 }
 .guide-link-btn:hover {
-  background: rgba(59,130,246,.2);
-  border-color: var(--accent);
+  opacity: .7;
 }
 

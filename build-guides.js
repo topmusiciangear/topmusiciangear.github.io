@@ -1453,44 +1453,7 @@ ${ogMeta}
     </div>
   </main>
 
-  <footer>
-    <div class="footer-grid">
-      <div class="footer-col">
-        <h3>TopMusicianGear</h3>
-        <ul>
-          <li><a href="/">${isEs ? 'Inicio' : 'Home'}</a></li>
-          <li><a href="/#about">${isEs ? 'Sobre Mí' : 'About Me'}</a></li>
-          <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> ${isEs ? 'Contáctanos' : 'Contact Us'}</a></li>
-          <li><a href="/deals.html">${isEs ? 'Ofertas de Hoy' : "Today's Deals"}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>${isEs ? 'Categorías Principales' : 'Top Categories'}</h3>
-        <ul>
-          <li><a href="/?cat=microphones#guides">${isEs ? 'Micrófonos' : 'Microphones'}</a></li>
-          <li><a href="/?cat=guitars#guides">${isEs ? 'Guitarras' : 'Guitars'}</a></li>
-          <li><a href="/?cat=interfaces#guides">${isEs ? 'Interfaces' : 'Interfaces'}</a></li>
-          <li><a href="/?cat=headphones#guides">${isEs ? 'Auriculares' : 'Headphones'}</a></li>
-          <li><a href="/?cat=monitors#guides">${isEs ? 'Monitores' : 'Monitors'}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>${isEs ? 'Legal' : 'Legal'}</h3>
-        <ul>
-          <li><a href="/privacy-policy.html">${isEs ? 'Política de Privacidad' : 'Privacy Policy'}</a></li>
-          <li><a href="/terms.html">${isEs ? 'Términos de Servicio' : 'Terms of Service'}</a></li>
-          <li><a href="/cookie-policy.html">${isEs ? 'Política de Cookies' : 'Cookie Policy'}</a></li>
-          <li><a href="#cookie-settings" onclick="event.preventDefault();cookiePrefs()" style="cursor:pointer">${isEs ? 'Configuración de Cookies' : 'Cookie Settings'}</a></li>
-          <li><a href="/affiliate-disclosure.html">${isEs ? 'Divulgación de Afiliados' : 'Affiliate Disclosure'}</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg data-fa="arrow-up" class="icon fa-solid fa-arrow-up" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg> ${isEs ? 'Volver arriba' : 'Back to top'}</button>
-      <p style="margin-top:8px;"><strong>TopMusicianGear</strong> ${isEs ? 'participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti.' : 'is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you.'} <a href="#" onclick="showAffiliateDisclosure();return false" style="color:var(--accent);text-decoration:underline">${isEs ? 'Más info' : 'More info'}</a></p>
-      <p style="margin-top:8px;">&copy; ${new Date().getFullYear()} TopMusicianGear. All rights reserved. ${isEs ? 'Hecho por un músico, para músicos.' : 'Built by a musician, for musicians.'}</p>
-    </div>
-  </footer>
+
 
   <!-- Affiliate Disclosure Modal -->
   <div id="affiliate-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)">
