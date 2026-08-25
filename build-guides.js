@@ -1212,6 +1212,9 @@ function buildGuidePage(guide, lang, idx) {
           var anyUrl = st[Object.keys(st)[0]] || '';
           if (anyUrl) listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl };
         }
+      })();
+      if (agg) listItem.item.aggregateRating = agg;
+      if (reviewEnts.length) listItem.item.review = reviewEnts;
       items.push(listItem);
       var pSchema = {
         "@type": "Product",
