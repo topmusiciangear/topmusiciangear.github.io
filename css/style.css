@@ -2158,6 +2158,7 @@ footer ul li a:hover { color: var(--accent); }
     min-width: 0;
     width: auto;
     height: auto;
+    max-height: 180px;
     aspect-ratio: 1 / 1;
   }
 }
