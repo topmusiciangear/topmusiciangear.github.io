@@ -172,7 +172,7 @@ const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
 <p>El conteo de pistas determina cuántos sonidos de batería simultáneos puedes superponer. La Roland TR-8S ofrece 11 pistas, la Arturia DrumBrute Impact proporciona 10 voces analógicas, y la Alesis SR18 tiene 32 voces predeterminadas. Más pistas significan arreglos más complejos, pero también más complejidad en la programación. Para beat-making y producción de música electrónica, 6 a 11 pistas proporcionan suficiente flexibilidad para la mayoría de necesidades. Si solo necesitas patrones de bombo, caja y hi-hat, una máquina más simple con menos pistas pero mejor calidad de sonido por voz puede servirte mejor.</p>
 <p>La profundidad del secuenciador afecta qué tan creativo puedes ser con tus patrones. Los secuenciadores de pasos básicos te permiten colocar golpes en una cuadrícula, lo cual es intuitivo y rápido para beats simples. Los secuenciadores más avanzados ofrecen bloqueo de parámetros (cambiar parámetros de sonido por paso), micro-timing (colocación fuera de cuadrícula para sensación humana) y grabación de movimiento (automatizar cambios de perillas a lo largo del tiempo). La Roland TR-8S sobresale en esta área con su función de probabilidad que agrega variaciones aleatorias a los patrones, haciéndolos sentir menos robóticos y más como un baterista real tocando.</p>`,
     products: [128, 256, 33]
-  });
+  };
 }
 
 // ========== 7. best-practice-amps ==========
