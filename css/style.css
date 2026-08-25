@@ -2894,36 +2894,11 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   margin: 20px 0;
   position: relative;
 }
-.guide-table-scroll-btn {
-  display: none;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 5;
-  background: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  padding: 2px;
-  box-shadow: none;
-  -webkit-tap-highlight-color: transparent;
-}
-.guide-table-scroll-btn svg {
-  filter: drop-shadow(0 0 6px rgba(0,0,0,.6));
-}
-.guide-table-scroll-btn:hover,
-.guide-table-scroll-btn:active {
-  color: var(--accent);
-}
-.guide-table-scroll-btn--left { left: 0; }
-.guide-table-scroll-btn--right { right: 0; }
 @media (max-width: 640px) {
-  .guide-table-wrap.is-scrollable .guide-table-scroll-btn {
+  .guide-table-wrap.is-scrollable .cat-carousel-arrow {
     display: block;
   }
-  .guide-table-wrap.is-scrollable .guide-table-scroll-btn.is-hidden {
+  .guide-table-wrap.is-scrollable .cat-carousel-arrow.is-hidden {
     display: none;
   }
 }

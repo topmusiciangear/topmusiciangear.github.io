@@ -1569,9 +1569,9 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
   var L='<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>';
   var R='<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>';
   wraps.forEach(function(w){
-    if(w.querySelector('.guide-table-scroll-btn'))return;
-    var bl=document.createElement('button');bl.className='guide-table-scroll-btn guide-table-scroll-btn--left';bl.innerHTML=L;bl.setAttribute('aria-label','Scroll left');
-    var br=document.createElement('button');br.className='guide-table-scroll-btn guide-table-scroll-btn--right';br.innerHTML=R;br.setAttribute('aria-label','Scroll right');
+    if(w.querySelector('.cat-carousel-arrow'))return;
+    var bl=document.createElement('button');bl.className='cat-carousel-arrow cat-carousel-arrow-left';bl.innerHTML=L;bl.setAttribute('aria-label','Scroll left');
+    var br=document.createElement('button');br.className='cat-carousel-arrow cat-carousel-arrow-right';br.innerHTML=R;br.setAttribute('aria-label','Scroll right');
     w.appendChild(bl);w.appendChild(br);
     function upd(){
       var s=w.scrollLeft,mx=w.scrollWidth-w.clientWidth;
