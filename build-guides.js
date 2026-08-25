@@ -788,9 +788,8 @@ function productCard(p, lang) {
   const title = lang === 'es' && p.title_es ? p.title_es : p.title;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
-  var videoBtn = p.video ? '<a href="https://www.youtube.com/watch?v=' + p.video + '" target="_blank" rel="noopener" class="guide-product-card-video-btn" title="Watch video" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></a>' : '';
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>${videoBtn}</div>
+    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
     <div class="guide-product-card-body">
       ${productRatingLine(p, lang)}
       <h3 class="guide-product-card-title">${title}</h3>
@@ -1069,9 +1068,19 @@ function buildGuidePage(guide, lang, idx) {
         if (renderedProducts.has(p.id)) return '';
         renderedProducts.add(p.id);
         const t = isEs && p.title_es ? p.title_es : p.title;
+        var prodVideo = p.video || null;
+        var prodVideoHtml = '';
+        if (prodVideo) {
+          prodVideoHtml = '<div class="guide-video-thumb lb-video" data-yt="' + prodVideo + '" role="button" aria-label="Play video" tabindex="0">' +
+            '<img src="https://i.ytimg.com/vi/' + prodVideo + '/maxresdefault.jpg" alt="' + t + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + prodVideo + '/hqdefault.jpg\'">' +
+            '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
+          '</div>';
+        } else {
+          prodVideoHtml = '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>';
+        }
         return '<div class="guide-section-prod">' +
           '<div class="guide-section-prod-name">' + t + '</div>' +
-          '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in"></div>' +
+          '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
           '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
         '</div>';
       }).filter(Boolean).join('');
@@ -1083,13 +1092,14 @@ function buildGuidePage(guide, lang, idx) {
         renderedProducts.add(firstProduct.id);
         sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
       }
-      if (isFirstNew && s.video) {
+      var sectionVideo = s.video || (firstProduct && firstProduct.video) || null;
+      if (isFirstNew && sectionVideo) {
         const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
         const psrc = firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
         productImgs = '<div class="guide-section-imgs">' +
           '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
-          '<div class="guide-video-thumb lb-video" data-yt="' + s.video + '" role="button" aria-label="Play video" tabindex="0">' +
-            '<img src="https://i.ytimg.com/vi/' + s.video + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + s.video + '/hqdefault.jpg\'">' +
+          '<div class="guide-video-thumb lb-video" data-yt="' + sectionVideo + '" role="button" aria-label="Play video" tabindex="0">' +
+            '<img src="https://i.ytimg.com/vi/' + sectionVideo + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + sectionVideo + '/hqdefault.jpg\'">' +
             '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
           '</div>' +
         '</div>';
