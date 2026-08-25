@@ -203,7 +203,24 @@ function setLang(lang) {
   if (psr && psr.style.display !== 'none' && psr.innerHTML.trim()) {
     var psi = document.getElementById('productSearchInput');
     if (psi && psi.value.trim()) {
-      psi.dispatchEvent(new Event('input'));
+      var q = psi.value.toLowerCase().trim();
+      var scored = products.reduce(function(acc, p) {
+        var t = p.title.toLowerCase();
+        var te = (p.title_es || "").toLowerCase();
+        var b = (p.brand || "").toLowerCase();
+        var score = 0;
+        if (t.includes(q) || te.includes(q)) score += 2;
+        if (b.includes(q)) score += 1;
+        if (score > 0) acc.push({ product: p, score: score });
+        return acc;
+      }, []).sort(function(a, b) { return b.score - a.score; }).map(function(x) { return x.product; });
+      if (scored.length === 0) {
+        psr.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">' + (currentLang === 'es' ? 'No se encontraron productos' : 'No products found') + '</p>';
+      } else {
+        psr.innerHTML = '<div class="product-search-grid">' + scored.map(function(p) {
+          return '<div class="product-search-item">' + renderProductCard(p.id) + productGuidesHtml(p.id) + '</div>';
+        }).join("") + '</div>';
+      }
     }
   }
   if (window.__tmgLangEnd) window.__tmgLangEnd();
