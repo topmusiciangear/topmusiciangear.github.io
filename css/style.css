@@ -2134,6 +2134,12 @@ footer ul li a:hover { color: var(--accent); }
   max-width: none;
   align-content: flex-start;
 }
+.shop-btn-primary,
+.shop-btn-more {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .guide-section-mediabuy .shop-btn-primary,
 .guide-section-mediabuy .shop-btn-more {
   white-space: nowrap;

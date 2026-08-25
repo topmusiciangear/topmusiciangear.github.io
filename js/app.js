@@ -199,6 +199,13 @@ function setLang(lang) {
   updateAudioLabel();
   renderMySetup();
   updateLangSwitcher();
+  var psr = document.getElementById('productSearchResults');
+  if (psr && psr.style.display !== 'none' && psr.innerHTML.trim()) {
+    var psi = document.getElementById('productSearchInput');
+    if (psi && psi.value.trim()) {
+      psi.dispatchEvent(new Event('input'));
+    }
+  }
   if (window.__tmgLangEnd) window.__tmgLangEnd();
   var EVS = ["touchstart", "wheel", "mousedown", "keydown"], rafId = 0, n = 0, done = false;
   function endLock() {
