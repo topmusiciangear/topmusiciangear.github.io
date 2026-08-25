@@ -2892,6 +2892,40 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 .guide-table-wrap {
   overflow-x: auto;
   margin: 20px 0;
+  position: relative;
+}
+.guide-table-scroll-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.4);
+  transition: opacity .2s;
+}
+.guide-table-scroll-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+.guide-table-scroll-btn--left { left: 4px; }
+.guide-table-scroll-btn--right { right: 4px; }
+@media (max-width: 640px) {
+  .guide-table-wrap.is-scrollable .guide-table-scroll-btn {
+    display: flex;
+  }
+  .guide-table-wrap.is-scrollable .guide-table-scroll-btn.is-hidden {
+    display: none;
+  }
 }
 
 .guide-compare-table {
