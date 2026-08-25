@@ -1394,8 +1394,9 @@ ${ogMeta}
           ${guideCompControls(isEs)}
         </div>
       </div>`; })() : ''}
-      ${guide.productTable ? (function(){
+      ${guide.productTable && guide.productTable.columns && guide.productTable.columns.length > 0 && guide.productTable.rows && guide.productTable.rows.length > 0 ? (function(){
         var rows = (guide.productTable.rows || []).filter(function(r){ var l = String((isEs && r.label_es) || r.label || '').toLowerCase(); return !/(price|precio|msrp|cost)/.test(l); });
+        if (!rows.length) return '';
         var colMin = 0;
         var headers = guide.productTable.columns.map(function(col){
           var t = isEs && col.title_es ? col.title_es : col.title;
