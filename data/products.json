@@ -4757,14 +4757,15 @@
     "badge": "topQuality",
     "desc": "Elgato's Wave XLR Pro is a dual-XLR USB audio interface and hardware mixer built for podcasting and streaming. Two studio-grade preamps deliver up to 80dB of clean gain each, so gain-hungry dynamics like the SM7B need no Cloudlifter, and the Wave FX Processor runs five independent hardware mixes with zero-latency monitoring, Clipguard 2.0 anti-clipping, onboard DSP effects, VST plugin support, dual USB-C for a second PC or console, and a standalone mode that keeps your settings running with no computer attached.",
     "desc_es": "El Wave XLR Pro de Elgato es una interfaz de audio USB dual-XLR y mezclador de hardware para podcasting y streaming. Dos previos de nivel estudio entregan hasta 80dB de ganancia limpia cada uno, así que dinámicos hambrientos como el SM7B no necesitan Cloudlifter, y el Wave FX Processor ejecuta cinco mezclas de hardware independientes con monitoreo de latencia cero, Clipguard 2.0 antidistorsión, efectos DSP integrados, soporte de plugins VST, doble USB-C para un segundo PC o consola, y un modo independiente que mantiene tus ajustes sin computadora conectada.",
-    "img": "https://images.ctfassets.net/h50kqpe25yx1/3Ak0LnDbBXqBe0lQIAdboG/248e7c453e4080a5f1f28e6ce2b91757/WaveXLRPro_OpenGraph.jpg",
-    "stores": {
-      "official": "https://www.elgato.com/us/en/p/wave-xlr-pro",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FElgato-Wave-XLR-Audio-Interface%2F43BM"
-    },
-    "excludeStores": [
-      "zzounds"
-    ]
+"img": "https://m.media-amazon.com/images/I/61iKyAG0U5L._AC_SL1500_.jpg",
+  "stores": {
+    "official": "https://www.elgato.com/us/en/p/wave-xlr-pro",
+    "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FElgato-Wave-XLR-Audio-Interface%2F43BM",
+    "amazon": "https://www.amazon.com/Elgato-Wave-XLR-Pro-Podcasting/dp/B0GXYKBY7N"
+  },
+  "excludeStores": [
+    "zzounds"
+  ]
   },
   {
     "id": 261,
