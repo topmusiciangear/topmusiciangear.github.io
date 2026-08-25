@@ -19,8 +19,8 @@
   --border: #2a2a2a;
   --border-light: #333;
   --text: #f0f0f0;
-  --text-secondary: #a0a0a0;
-  --text-muted: #909090;
+  --text-secondary: #c0c0c0;
+  --text-muted: #a8a8a8;
   --white: #ffffff;
   --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
   --shadow: 0 4px 12px rgba(0,0,0,.4);
@@ -2899,29 +2899,29 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
+  z-index: 5;
+  background: none;
   border: none;
+  color: #fff;
   cursor: pointer;
-  z-index: 2;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,.4);
-  transition: opacity .2s;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .guide-table-scroll-btn svg {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
+  filter: drop-shadow(0 0 6px rgba(0,0,0,.6));
 }
-.guide-table-scroll-btn--left { left: 4px; }
-.guide-table-scroll-btn--right { right: 4px; }
+.guide-table-scroll-btn:hover,
+.guide-table-scroll-btn:active {
+  color: var(--accent);
+}
+.guide-table-scroll-btn--left { left: 0; }
+.guide-table-scroll-btn--right { right: 0; }
 @media (max-width: 640px) {
   .guide-table-wrap.is-scrollable .guide-table-scroll-btn {
-    display: flex;
+    display: block;
   }
   .guide-table-wrap.is-scrollable .guide-table-scroll-btn.is-hidden {
     display: none;
