@@ -1850,6 +1850,10 @@ footer ul li a:hover { color: var(--accent); }
   background: rgba(0, 0, 0, .45);
 }
 
+.guide-video-placeholder {
+  pointer-events: none;
+  visibility: hidden;
+}
 .guide-video-thumb:hover .guide-video-play svg {
   transform: scale(1.25);
 }
@@ -2150,13 +2154,15 @@ footer ul li a:hover { color: var(--accent); }
   }
   .guide-section-mediabuy > .guide-section-imgs {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    width: 160px;
-    height: 160px;
-    flex: none;
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 }
 

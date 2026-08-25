@@ -1094,6 +1094,7 @@ function buildGuidePage(guide, lang, idx) {
       } else if (isFirstNew) {
         productImgs = '<div class="guide-section-imgs">' +
           '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+          '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
         '</div>';
       }
     }
