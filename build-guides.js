@@ -1444,7 +1444,7 @@ ${ogMeta}
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
         <div class="guide-related-list">
-          ${(function(){ var r; if (guide.relatedGuides) { r = guide.relatedGuides.map(function(id) { return guides.find(function(g) { return g.id === id; }); }).filter(Boolean); } if (!r || !r.length) { r = guides.filter(function(g) { return g.id !== guide.id && g.category === guide.category; }); if (!r.length) r = guides.filter(function(g) { return g.id !== guide.id; }); } return r.slice(0, 6).map(function(g) { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-related-link">' + gt + '</a>'; }).join(''); })()}
+          ${(function(){ var r; if (guide.relatedGuides) { r = guide.relatedGuides.map(function(id) { return guides.find(function(g) { return g.id === id; }); }).filter(Boolean); } if (!r || !r.length) { r = guides.filter(function(g) { return g.id !== guide.id && g.category === guide.category; }); if (!r.length) r = guides.filter(function(g) { return g.id !== guide.id; }); } return r.slice(0, 6).map(function(g) { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-link-btn">' + gt + '</a>'; }).join(''); })()}
         </div>
       </div>
       <div class="guide-back-row">
