@@ -1405,7 +1405,7 @@ ${ogMeta}
         </div>
       </div>`; })() : ''}
       ${guide.productTable && guide.productTable.columns && guide.productTable.columns.length > 0 && guide.productTable.rows && guide.productTable.rows.length > 0 ? (function(){
-        var rows = (guide.productTable.rows || []).filter(function(r){ var l = String((isEs && r.label_es) || r.label || '').toLowerCase(); return !/(price|precio|msrp|cost)/.test(l); });
+        var rows = guide.productTable.rows || [];
         if (!rows.length) return '';
         var colMin = 0;
         var headers = guide.productTable.columns.map(function(col){
