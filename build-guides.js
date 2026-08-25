@@ -963,6 +963,7 @@ function fmtReviewDate(iso, es) {
 
 function userReviewsSection(guide, isEs) {
   var pids = [...new Set(guide.sections.flatMap(s => s.products))];
+  if (!pids.length) return '';
   var rv = [];
   pids.forEach(function(pid) {
     var p = products.find(pr => pr.id === pid);

@@ -1735,7 +1735,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 .guide-section-content a {
   color: var(--accent);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .guide-callout {
   margin-top: 18px;
