@@ -2895,10 +2895,10 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   position: relative;
 }
 @media (max-width: 640px) {
-  .guide-table-wrap.is-scrollable .cat-carousel-arrow {
+  .guide-table-wrap .cat-carousel-arrow {
     display: block;
   }
-  .guide-table-wrap.is-scrollable .cat-carousel-arrow.is-hidden {
+  .guide-table-wrap .cat-carousel-arrow.is-hidden {
     display: none;
   }
 }
