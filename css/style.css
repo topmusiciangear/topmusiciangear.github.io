@@ -2595,7 +2595,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-conclusion-content { color: var(--text); font-size: 15px; line-height: 1.75; }
 .guide-conclusion-content p { margin: 0 0 12px; }
 .guide-conclusion-content p:last-child { margin-bottom: 0; }
-.guide-conclusion-content a { color: var(--accent); font-weight: 700; text-decoration: none; padding: 2px 8px; border: 1px solid rgba(59,130,246,.3); border-radius: 6px; background: rgba(59,130,246,.06); transition: background .2s; }
+.guide-conclusion-content a { display: inline-block; color: var(--accent); font-weight: 700; text-decoration: none; padding: 2px 8px; border: 1px solid rgba(59,130,246,.3); border-radius: 6px; background: rgba(59,130,246,.06); transition: background .2s; margin: 2px 0; }
 .guide-conclusion-content a:hover { background: rgba(59,130,246,.15); }
 .guide-faq-list { display: flex; flex-direction: column; }
 .guide-faq-item { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--bg-card); margin-bottom: 8px; }
