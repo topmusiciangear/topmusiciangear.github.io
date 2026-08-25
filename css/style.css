@@ -2360,8 +2360,8 @@ footer ul li a:hover { color: var(--accent); }
 .guide-related { margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
 .guide-related-title { font-size: 1.2rem; margin-bottom: 16px; color: var(--text); }
 .guide-related-list { display: flex; flex-wrap: wrap; gap: 8px; }
-.guide-related-link { display: inline-block; padding: 8px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--accent); font-size: 0.9rem; text-decoration: none; transition: var(--transition); }
-.guide-related-link:hover { background: var(--bg-card-hover); border-color: var(--accent); transform: translateY(-1px); }
+.guide-related-link { display: inline; color: var(--accent); font-weight: 700; font-size: 14px; text-decoration: none; padding: 1px 5px; border: 1px solid rgba(59,130,246,.25); border-radius: 3px; background: rgba(59,130,246,.05); transition: background .2s; }
+.guide-related-link:hover { background: rgba(59,130,246,.15); }
 /* Responsive */
 @media (max-width: 768px) {
   .product-search-wrap { max-width: 180px !important; }
@@ -3092,10 +3092,13 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   color: var(--accent);
   font-weight: 700;
   text-decoration: none;
-  border-bottom: 1px solid var(--accent);
-  transition: opacity .2s;
+  padding: 2px 6px;
+  border: 1px solid rgba(59,130,246,.3);
+  border-radius: 4px;
+  background: rgba(59,130,246,.06);
+  transition: background .2s;
 }
 .guide-link-btn:hover {
-  opacity: .7;
+  background: rgba(59,130,246,.15);
 }
 
