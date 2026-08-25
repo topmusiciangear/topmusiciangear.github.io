@@ -1,6 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
+const sharp = require('sharp');
 
 const p = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
 
@@ -19,40 +20,60 @@ function download(url) {
   });
 }
 
-// Check dominant color at corners of image
-function isDarkBackground(buf) {
-  // Find JPEG/PNG data and check pixel samples
-  // For simplicity, check if the image file has very dark bytes in the header area
-  // A better approach: check the first few rows for dark pixels
-  const hex = buf.toString('hex');
-  // Count dark pixels (R,G,B all < 50) vs light pixels in first 10% of data
-  let darkCount = 0;
-  let lightCount = 0;
-  for (let i = 0; i < buf.length; i++) {
-    const val = buf[i];
-    if (val < 50) darkCount++;
-    else if (val > 200) lightCount++;
+async function checkBackground(url) {
+  const buf = await download(url);
+  const img = sharp(buf);
+  const meta = await img.metadata();
+  const w = meta.width;
+  const h = meta.height;
+
+  // Sample a 10px strip along each edge
+  const edges = [
+    { left: 0, top: 0, width: w, height: 10 },        // top
+    { left: 0, top: h - 10, width: w, height: 10 },   // bottom
+    { left: 0, top: 0, width: 10, height: h },        // left
+    { left: w - 10, top: 0, width: 10, height: h },   // right
+  ];
+
+  let totalDark = 0;
+  let totalPixels = 0;
+
+  for (const region of edges) {
+    const { data } = await img
+      .clone()
+      .extract(region)
+      .raw()
+      .toBuffer({ resolveWithObject: true });
+
+    for (let i = 0; i < data.length; i += 3) {
+      const r = data[i], g = data[i+1], b = data[i+2];
+      const brightness = (r + g + b) / 3;
+      totalPixels++;
+      if (brightness < 60) totalDark++;
+    }
   }
-  // If dark pixels dominate significantly, it's likely a dark image
-  return darkCount > lightCount * 3;
+
+  const darkRatio = totalDark / totalPixels;
+  return darkRatio;
 }
 
 async function main() {
-  const issues = [];
+  const results = [];
   for (const prod of p) {
     if (!prod.img) continue;
     try {
-      const buf = await download(prod.img);
-      if (isDarkBackground(buf)) {
-        issues.push(`${prod.id} | ${prod.title} | ${prod.img}`);
+      const ratio = await checkBackground(prod.img);
+      if (ratio > 0.5) {
+        results.push({ id: prod.id, title: prod.title, ratio: (ratio * 100).toFixed(1) + '%', img: prod.img });
       }
+      process.stdout.write(`Checked ${prod.id} ${prod.title} -> ${(ratio*100).toFixed(1)}% dark\r`);
     } catch (e) {
-      // skip failed downloads
+      // skip
     }
   }
-  console.log('Products with likely dark/black background:');
-  issues.forEach(i => console.log(i));
-  console.log(`\nTotal: ${issues.length}`);
+  console.log('\n\nProducts with dark/black background (>50% dark edges):');
+  results.forEach(r => console.log(`  ${r.id} | ${r.title} | ${r.ratio} dark | ${r.img}`));
+  console.log(`\nTotal: ${results.length}`);
 }
 
 main();
