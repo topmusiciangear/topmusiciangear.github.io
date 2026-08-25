@@ -1205,12 +1205,13 @@ function buildGuidePage(guide, lang, idx) {
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
         var offerUrl = st[primaryStore] || st.official || '';
         if (offerUrl && priceNum) {
-          var offer = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
-          listItem.item.offers = offer;
+          listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
+        } else if (offerUrl) {
+          listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
+        } else {
+          var anyUrl = st[Object.keys(st)[0]] || '';
+          if (anyUrl) listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl };
         }
-      })();
-      if (agg) listItem.item.aggregateRating = agg;
-      if (reviewEnts.length) listItem.item.review = reviewEnts;
       items.push(listItem);
       var pSchema = {
         "@type": "Product",
@@ -1234,6 +1235,11 @@ function buildGuidePage(guide, lang, idx) {
         var offerUrl = st[primaryStore] || st.official || '';
         if (offerUrl && priceNum) {
           pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
+        } else if (offerUrl) {
+          pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
+        } else {
+          var anyUrl = st[Object.keys(st)[0]] || '';
+          if (anyUrl) pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl };
         }
       })();
       if (agg) pSchema.aggregateRating = agg;
