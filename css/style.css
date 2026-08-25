@@ -3092,6 +3092,7 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   color: var(--accent);
   font-weight: 700;
   text-decoration: none;
+  border-bottom: 1px solid var(--accent);
   transition: opacity .2s;
 }
 .guide-link-btn:hover {
