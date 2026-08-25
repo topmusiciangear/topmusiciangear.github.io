@@ -2360,7 +2360,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-related { margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
 .guide-related-title { font-size: 1.2rem; margin-bottom: 16px; color: var(--text); }
 .guide-related-list { display: flex; flex-wrap: wrap; gap: 8px; }
-.guide-related-link { display: inline; color: var(--accent); font-weight: 700; font-size: 14px; text-decoration: none; padding: 1px 5px; border: 1px solid rgba(59,130,246,.25); border-radius: 3px; background: rgba(59,130,246,.05); transition: background .2s; }
+.guide-related-link { display: inline; color: var(--accent); font-weight: 700; font-size: 14px; text-decoration: none; padding: 2px 8px; border: 1px solid rgba(59,130,246,.3); border-radius: 6px; background: rgba(59,130,246,.06); transition: background .2s; }
 .guide-related-link:hover { background: rgba(59,130,246,.15); }
 /* Responsive */
 @media (max-width: 768px) {
