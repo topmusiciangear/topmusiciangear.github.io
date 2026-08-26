@@ -298,7 +298,7 @@ function globeIcon() {
     '<ellipse cx="7.2" cy="6.2" rx="3.2" ry="1.8" fill="#ffffff" opacity=".25"/>' +
     '</svg>';
 }
-const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: globeIcon, andertons: ukFlag };
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: globeIcon, andertons: ukFlag };
 const TEST_SHOP_BTN = {
   1: { prices: { amazon: '$439.00', zzounds: '$439.00', reverb: "$439.00", gear4music: "£379.00", andertons: '£379.00', musicstore: "€389.00" } },
   2: { prices: {  amazon: '$3,750.00', zzounds: '$3,995.00', reverb: "$3,750.00", andertons: '£3,007.00'  ,
@@ -437,7 +437,7 @@ const TEST_SHOP_BTN = {
       gear4music: "£2,954.00"} , oos: ['andertons'] },
   181: { prices: {  reverb: "$4,199.00",amazon: '$4,199.00'  ,
       gear4music: "£3,120.00"} , oos: ['andertons'] },
-  195: { prices: {  reverb: "$149.99",amazon: '$149.99'  } , oos: ['andertons'] },
+  195: { prices: {  reverb: "$149.99",amazon: '$149.99'  }, oos: ['gear4music'] , oos: ['andertons'] },
   221: { prices: {  reverb: "$2,100.00",amazon: '$2,100.00'  } , oos: ['andertons'] },
   223: { prices: {  reverb: "$3,499.00",amazon: '$3,499.00'  } , oos: ['andertons'] },
   243: { prices: {  reverb: "$159.99",amazon: '$159.99'  } , oos: ['andertons'] },
@@ -581,11 +581,11 @@ const TEST_SHOP_BTN = {
   190: { prices: {  reverb: "$2749.00",amazon: '$2749.00', zzounds: '$2,749.00', andertons: '£1,799.00'  } , oos: ['andertons'] ,
         gear4music: '£1,891'},
   191: { prices: {  reverb: "$479.00",amazon: '$479.00', zzounds: '$399.99', andertons: '£339.00'  } },
-  192: { prices: {  reverb: "$424.99",amazon: '$424.99',  zzounds: '$424.99', andertons: '£451.00'  } },
+  192: { prices: {  reverb: "$424.99",amazon: '$424.99',  zzounds: '$424.99', andertons: '£451.00'  , gear4music: '£263.00' , musicstore: '€515.00' } },
   193: { prices: {  reverb: "$499.99",amazon: '$499.99',  zzounds: '$499.99', andertons: '£349.00'  } },
   194: { prices: {  reverb: "$299.00", amazon: '$299.00', zzounds: '$299.00', andertons: '£272.00'  , gear4music: "£273.50"} , musicstore: "€309.00" },
   196: { prices: {  reverb: "$99.00",amazon: '$99.00',  zzounds: '$119.00', andertons: '£79.00'  , gear4music: "£80.60"} , musicstore: "€98.00" },
-  197: { prices: {  reverb: "$99.00",amazon: '$99.00', zzounds: '$86.00', andertons: '£86.00'  , gear4music: "£93.00"} },
+  197: { prices: {  reverb: "$99.00",amazon: '$99.00', zzounds: '$86.00', andertons: '£86.00'  , gear4music: "£93.00", musicstore: '€82.00' } },
   198: { prices: {  reverb: "$79.00", amazon: '$79.00', zzounds: '$109.00', andertons: '£97.00'  } , musicstore: '€100'},
   199: { prices: {  reverb: "$399.00", amazon: '$399.00', zzounds: '$499.00', andertons: '£299.00'  } , musicstore: '€369'},
   200: { prices: {  reverb: "$204.99", amazon: '$204.99', zzounds: '$219.99', andertons: '£219.00'  , gear4music: "£184.75"} },
@@ -644,7 +644,7 @@ const TEST_SHOP_BTN = {
   240: { prices: {  amazon: '$499.99', zzounds: '$459.99'  , andertons: '£379.00'  } },
   244: { prices: {  reverb: "$249.00",amazon: '$249.00', zzounds: '$229.00'  , andertons: '£251.00'  } },
   247: { prices: {  reverb: "$799.99",amazon: '$799.99',  zzounds: '$799.99', andertons: '£521.00'  } },
-  248: { prices: {  reverb: "$529.00",amazon: '$529.00', zzounds: '$595.00', andertons: '£523.00'  , gear4music: "£523.00"} },
+  248: { prices: {  reverb: "$529.00",amazon: '$529.00', zzounds: '$595.00', andertons: '£523.00'  , gear4music: "£523.00", musicstore: '€635.00' } },
   250: { prices: {  reverb: "$260.00",amazon: '$260.00',  zzounds: '$260.00', andertons: '£258.00'  } },
   252: { prices: {  reverb: "$183.00",amazon: '$183.00',  zzounds: '$190.00', andertons: '£173.00'  } , musicstore: "€239.00" },
   255: { prices: {  reverb: "$449.99",amazon: '$449.99',  zzounds: '$519.99', andertons: '£452.00'  } ,
@@ -655,7 +655,7 @@ const TEST_SHOP_BTN = {
   258: { prices: {  reverb: "$249.99",amazon: '$249.99',  zzounds: '$199.99', andertons: '£249.00'  } },
   259: { prices: {  reverb: "$499.99",amazon: '$499.99',  zzounds: '$599.99', andertons: '£399.00'  } },
   262: { prices: {  reverb: "$139.49",amazon: '$139.49', zzounds: '$179.99', andertons: '£91.00'  , gear4music: "£93.10"} },
-  263: { prices: {  reverb: "$299.00",amazon: '$299.00', zzounds: '$299.00', andertons: '£225.00'  } },
+  263: { prices: {  reverb: "$299.00",amazon: '$299.00', zzounds: '$299.00', andertons: '£225.00'  , musicstore: '€279.00' } },
   266: { prices: {  reverb: "$1,749.00",amazon: '$1,749.00',  zzounds: '$1,749.00', andertons: '£1,180.00'  } },
   267: { prices: {  reverb: "$989.00",amazon: '$989.00',  zzounds: '$989.00', andertons: '£859.00'  } ,
         gear4music: '£1,399'},
@@ -666,7 +666,7 @@ const TEST_SHOP_BTN = {
 272: { prices: {  reverb: "$879.99",amazon: '$879.99',  andertons: '£699.00'  } },
 273: { prices: {  reverb: "$879.99",amazon: '$879.99',  andertons: '£699.00'  } },
   275: { prices: {  reverb: "$329.99", amazon: '$329.99'  } , oos: ['zzounds', 'andertons'] },
-  276: { prices: {  reverb: "$69.99",amazon: '$69.99', zzounds: '$99.99'  } , oos: ['andertons'] , musicstore: "€89.00" },
+  276: { prices: {  reverb: "$69.99",amazon: '$69.99', zzounds: '$99.99'  }, oos: ['gear4music'] , oos: ['andertons'] , musicstore: "€89.00" },
   291: { prices: {  reverb: "$168.00",amazon: '$168.00',  zzounds: '$169.00', andertons: '£149.00'  } , musicstore: "€129.00" },
   292: { prices: { amazon: '$103.00', zzounds: '$105.00', andertons: '£85.00'  } , musicstore: "€109.00" },
   293: { prices: {  reverb: "$329.99",amazon: '$329.99',  zzounds: '$369.99', andertons: '£299.00'  } },
@@ -709,9 +709,9 @@ const TEST_SHOP_BTN = {
   363: { prices: { amazon: '$279.99', zzounds: '$279.99', reverb: "$279.99", gear4music: "£222.00", andertons: '£209.00', musicstore: "€261.00" } },
   325: { prices: {  reverb: "$549.00",amazon: '$549.00', zzounds: '$549.00'  } , oos: ['andertons'] },
   326: { prices: {andertons: '£399.00' } },
-  328: { prices: {  amazon: '$219.00', zzounds: '$219.00', reverb: "$219.00", andertons: '£152.00'  } },
+  328: { prices: {  amazon: '$219.00', zzounds: '$219.00', reverb: "$219.00", andertons: '£152.00'  , musicstore: '€237.00' } },
   329: { prices: {  reverb: "$199.00",amazon: '$199.00',  zzounds: '$229.00'  , andertons: '£164.00'  } },
-  330: { prices: {  reverb: "$20.99",amazon: '$20.99', andertons: '£16.00'  } , oos: ['zzounds'] },
+  330: { prices: {  reverb: "$20.99",amazon: '$20.99', andertons: '£16.00'  }, oos: ['gear4music'] , oos: ['zzounds'] },
   331: { prices: { amazon: '$208.00', andertons: '£3,579.00'  } },
   332: { prices: {  reverb: "$599.00",amazon: '$599.00',  zzounds: '$599.00'  , andertons: '£399.00'  } },
   334: { prices: {  reverb: "$3,299.99",amazon: '$3,299.99', zzounds: '$3,299.99'  , andertons: '£1,499.00'  } },
@@ -784,13 +784,13 @@ function shopButtonsTest(p, lang) {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
-      return '<div style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
+      return '<div style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
     }
     if (oosList.indexOf(k) > -1) {
-      return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
+      return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
     }
-    const pr = prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + ((k === 'reverb' || k === 'gear4music' || k === 'musicstore') ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('aprox.', 'approx.') + '</span>' : '') + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '';
-    const note = k === 'zzounds' && prices[k] ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : '';
+    const pr = prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + ((k === 'gear4music' || k === 'musicstore') ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('aprox.', 'approx.') + '</span>' : '') + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '';
+    const note = k === 'zzounds' && prices[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('(Env\u00edos gratis)', '(Free shipping)') + '</span>' : (k === 'reverb' && prices[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('Opciones nuevas y usadas', 'New & Used Options') + '</span>' : '');
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + note + pr + '</a>';
