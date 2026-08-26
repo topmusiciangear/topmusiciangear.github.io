@@ -2094,11 +2094,7 @@ footer ul li a:hover { color: var(--accent); }
   font-size: 11px;
   line-height: 1.5;
 }
-.guide-product-card-currency-note .note-divider {
-  height: 1px;
-  background: rgba(245, 158, 11, 0.2);
-  margin: 8px 0;
-}
+
 @media (max-width: 768px) {
   .guide-product-card-currency-note {
     font-size: 12px;
