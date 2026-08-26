@@ -2612,12 +2612,12 @@ footer ul li a:hover { color: var(--accent); }
 }
 @media (min-width:901px) {
   .guide-product-card.is-plugin-card .guide-product-card-stores {
-    margin-left: -24px;
-    margin-right: -24px;
+    margin-left: -40px;
+    margin-right: -40px;
   }
   .guide-product-card.is-plugin-card .shop-btn-primary,
   .guide-product-card.is-plugin-card .shop-btn-more {
-    width: calc(100% + 48px);
+    width: calc(100% + 80px);
   }
 }
 
