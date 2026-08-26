@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lightbox Test</title>
+<style>
+body { margin: 0; background: #111; color: #fff; font-family: sans-serif; padding: 20px; }
+img { max-width: 100%; display: block; }
+.test-img { width: 200px; height: 200px; background: #333; margin: 20px auto; cursor: pointer; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+</style>
+</head>
+<body>
+<h2>Tap the image below to open lightbox</h2>
+<div class="test-img" onclick="openLightbox('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200')">TAP ME</div>
+
+<script>
+function openLightbox(src) {
+  var existing = document.getElementById("lightbox");
+  if (existing) existing.remove();
+  var lb = document.createElement("div");
+  lb.id = "lightbox";
+  lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92)";
+  var img = document.createElement("img");
+  img.src = src;
+  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
+  img.draggable = false;
+  var close = document.createElement("button");
+  close.innerHTML = "&times;";
+  close.setAttribute("aria-label", "Close");
+  close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
+  close.onclick = function() { lb.remove(); };
+  lb.appendChild(close);
+  lb.appendChild(img);
+  lb.addEventListener("click", function(e) { if (e.target === e.currentTarget) lb.remove(); });
+  document.body.appendChild(lb);
+}
+</script>
+</body>
+</html>
