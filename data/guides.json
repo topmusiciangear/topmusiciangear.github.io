@@ -10782,8 +10782,8 @@
       {
         "heading": "How to Choose the Best Studio Subwoofer?",
         "heading_es": "Como Elegir el Mejor Subwoofer de Estudio?",
-        "content": "<p><strong>A subwoofer extends your monitoring below what your main speakers can reproduce.</strong> Most nearfield monitors start rolling off well above 40Hz, so a dedicated sub is the only way to hear and feel that bottom octave.</p><p><strong>Integration is everything.</strong> The hardest part of adding a subwoofer is blending it smoothly with your monitors. Look for subs with adjustable crossover frequency, phase control, and bypass footswitch. Room placement dramatically affects bass response — experiment with corner vs midfield positioning.</p><p><strong>Size matters less than you think.</strong> An 8-inch or 10-inch sub is sufficient for most home studios. Larger subs (12-inch+) are for commercial studios and genres that demand extreme low-end extension.</p>",
-        "content_es": "<p><strong>Un subwoofer extiende tu monitoreo por debajo de lo que tus altavoces principales pueden reproducir.</strong> La mayoría de los monitores de campo cercano empiezan a perder respuesta muy por encima de 40Hz, así que un sub dedicado es la única forma de oír y sentir esa octava inferior.</p><p><strong>La integración lo es todo.</strong> La parte más difícil de añadir un subwoofer es combinarlo suavemente con tus monitores. Busca subs con frecuencia de cruce ajustable, control de fase y bypass con pedal. La ubicación en la sala afecta drásticamente la respuesta de graves — experimenta con posiciones en esquina vs centro.</p><p><strong>El tamaño importa menos de lo que piensas.</strong> Un sub de 8 o 10 pulgadas es suficiente para la mayoría de los estudios caseros. Los subs más grandes (12+) son para estudios comerciales y géneros que exigen extensión de graves extrema.</p>",
+        "content": "<p><strong>A subwoofer extends your monitoring below what your main speakers can reproduce.</strong> Most nearfield monitors start rolling off well above 40Hz, so a dedicated sub is the only way to hear and feel that bottom octave.</p><p><strong>Integration is everything.</strong> The hardest part of adding a subwoofer is blending it smoothly with your monitors. Look for subs with adjustable crossover frequency, phase control, and bypass footswitch. Room placement dramatically affects bass response — experiment with corner vs midfield positioning.</p><p><strong>Size matters less than you think.</strong> An 8-inch or 10-inch sub is sufficient for most home studios. Larger subs (12-inch+) are for commercial studios and genres that demand extreme low-end extension.</p><p><strong>What the comparison table tells you:</strong></p><ul><li><strong>Max SPL (dB)</strong> — The real output, not just wattage. Engineers need to know the maximum sound pressure level to calculate headroom before distortion kicks in.</li><li><strong>Bypass Footswitch</strong> — Lets you check how your mix sounds with and without the sub by pressing a pedal. Essential for A/B referencing.</li><li><strong>Port Design</strong> — Critical for small home studios. Rear-ported subs cannot be placed against a wall; front-ported or down-firing designs allow flexible placement.</li><li><strong>Connections</strong> — Balanced XLR or 1/4\" TRS means compatibility with professional audio interfaces. RCA means consumer gear only.</li><li><strong>Dimensions/Weight</strong> — Space under a production desk is limited. Check if it fits before it hits your knees.</li><li><strong>Perfect Match</strong> — Which monitors pair best with each subwoofer for seamless integration.</li></ul>",
+        "content_es": "<p><strong>Un subwoofer extiende tu monitoreo por debajo de lo que tus altavoces principales pueden reproducir.</strong> La mayoria de los monitores de campo cercano empiezan a perder respuesta muy por encima de 40Hz, asi que un sub dedicado es la unica forma de oir y sentir esa octava inferior.</p><p><strong>La integracion lo es todo.</strong> La parte mas dificil de anyadir un subwoofer es combinarlo suavemente con tus monitores. Busca subs con frecuencia de cruce ajustable, control de fase y bypass con pedal. La ubicacion en la sala afecta drasticamente la respuesta de graves — experimenta con posiciones en esquina vs centro.</p><p><strong>El tamano importa menos de lo que piensas.</strong> Un sub de 8 o 10 pulgadas es suficiente para la mayoria de los estudios caseros. Los subs mas grandes (12+) son para estudios comerciales y generos que exigen extension de graves extrema.</p><p><strong>Que te dice la tabla comparativa:</strong></p><ul><li><strong>SPL Maximo (dB)</strong> — La salida real, no solo los vatios. Los ingenieros necesitan saber el nivel maximo de presion sonora para calcular el margen antes de que empiece a distorsionar.</li><li><strong>Bypass con Pedal</strong> — Te permite comprobar como suena tu mezcla con y sin el sub presionando un pedal. Imprescindible para comparaciones A/B.</li><li><strong>Diseno del Puerto</strong> — Critico para estudios caseros pequenos. Un sub con puerto trasero no se puede pegar a la pared; los de puerto frontal o hacia abajo permiten colocacion flexible.</li><li><strong>Conectividad</strong> — XLR o TRS balanceado significa compatibilidad con interfaces de audio profesionales. RCA significa solo equipo de consumo.</li><li><strong>Dimensiones/Peso</strong> — El espacio debajo de un escritorio de produccion es limitado. Mira si cabe antes de que golpee tus rodillas.</li><li><strong>Combinacion Ideal</strong> — Que monitores combinan mejor con cada subwoofer para una integracion perfecta.</li></ul>",
         "products": []
       },
       {
@@ -11243,6 +11243,188 @@
             {
               "value": "50/80 Hz or ARC X",
               "value_es": "50/80 Hz o ARC X"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL Maximo",
+          "values": [
+            {
+              "value": "117.2 dB (peak)",
+              "value_es": "117.2 dB (pico)"
+            },
+            {
+              "value": "Not specified",
+              "value_es": "No especificado"
+            },
+            {
+              "value": "104 dB (at 1m)",
+              "value_es": "104 dB (a 1m)"
+            },
+            {
+              "value": "120 dB (peak at 1m)",
+              "value_es": "120 dB (pico a 1m)"
+            },
+            {
+              "value": "106 dB (peak at 40 Hz)",
+              "value_es": "106 dB (pico a 40 Hz)"
+            }
+          ]
+        },
+        {
+          "label": "Bypass Footswitch",
+          "label_es": "Bypass con Pedal",
+          "values": [
+            {
+              "value": "Yes (1/4\" input, sold separately)",
+              "value_es": "Si (entrada 1/4\", se vende por separado)"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes (1/4\" input, sold separately)",
+              "value_es": "Si (entrada 1/4\", se vende por separado)"
+            },
+            {
+              "value": "Yes (1/4\" TRS input, sold separately)",
+              "value_es": "Si (entrada TRS 1/4\", se vende por separado)"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            }
+          ]
+        },
+        {
+          "label": "Port Design",
+          "label_es": "Diseno del Puerto",
+          "values": [
+            {
+              "value": "Front-ported",
+              "value_es": "Puerto frontal"
+            },
+            {
+              "value": "Front-ported",
+              "value_es": "Puerto frontal"
+            },
+            {
+              "value": "Rear-ported, down-firing woofer",
+              "value_es": "Puerto trasero, woofer hacia abajo"
+            },
+            {
+              "value": "Front-ported (side-firing woofers)",
+              "value_es": "Puerto frontal (woofers laterales)"
+            },
+            {
+              "value": "Passive radiator (no port)",
+              "value_es": "Radiador pasivo (sin puerto)"
+            }
+          ]
+        },
+        {
+          "label": "Connections",
+          "label_es": "Conectividad",
+          "values": [
+            {
+              "value": "XLR, 1/4\" TRS, RCA (in & out)",
+              "value_es": "XLR, TRS 1/4\", RCA (entrada y salida)"
+            },
+            {
+              "value": "XLR, 1/4\" TRS (in); XLR (out)",
+              "value_es": "XLR, TRS 1/4\" (entrada); XLR (salida)"
+            },
+            {
+              "value": "XLR, RCA (in & out)",
+              "value_es": "XLR, RCA (entrada y salida)"
+            },
+            {
+              "value": "XLR/TRS combo, RCA (in); XLR (out)",
+              "value_es": "Combo XLR/TRS, RCA (entrada); XLR (salida)"
+            },
+            {
+              "value": "XLR/TRS combo, RCA, USB-B, Bluetooth",
+              "value_es": "Combo XLR/TRS, RCA, USB-B, Bluetooth"
+            }
+          ]
+        },
+        {
+          "label": "Dimensions (W x H x D)",
+          "label_es": "Dimensiones (An x Al x Pr)",
+          "values": [
+            {
+              "value": "18.88\" x 13.44\" x 12.19\"",
+              "value_es": "479 x 341 x 310 mm"
+            },
+            {
+              "value": "11.8\" x 13.8\" x 15.3\"",
+              "value_es": "300 x 350 x 389 mm"
+            },
+            {
+              "value": "12.5\" x 15.4\" x 16.25\"",
+              "value_es": "318 x 390 x 413 mm"
+            },
+            {
+              "value": "12.2\" x 14.5\" x 11\"",
+              "value_es": "310 x 368 x 279 mm"
+            },
+            {
+              "value": "11.1\" x 9.8\" x 9.6\"",
+              "value_es": "282 x 249 x 244 mm"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "35 lb (15.88 kg)",
+              "value_es": "15.88 kg (35 lb)"
+            },
+            {
+              "value": "27.6 lb (12.5 kg)",
+              "value_es": "12.5 kg (27.6 lb)"
+            },
+            {
+              "value": "27 lb (12.2 kg)",
+              "value_es": "12.2 kg (27 lb)"
+            },
+            {
+              "value": "31 lb (14 kg)",
+              "value_es": "14 kg (31 lb)"
+            },
+            {
+              "value": "15.6 lb (7.1 kg)",
+              "value_es": "7.1 kg (15.6 lb)"
+            }
+          ]
+        },
+        {
+          "label": "Perfect Match",
+          "label_es": "Combinacion Ideal",
+          "values": [
+            {
+              "value": "Best for KRK Rokit 5/7/8 or any front-ported monitors",
+              "value_es": "Ideal para KRK Rokit 5/7/8 o monitores con puerto frontal"
+            },
+            {
+              "value": "Best for Yamaha HS5, HS7, and HS8",
+              "value_es": "Ideal para Yamaha HS5, HS7 y HS8"
+            },
+            {
+              "value": "Best for ADAM T5V and T7V monitors",
+              "value_es": "Ideal para monitores ADAM T5V y T7V"
+            },
+            {
+              "value": "Best for universal setups on vibrating wooden desks",
+              "value_es": "Ideal para setups universales en escritorios de madera que vibran"
+            },
+            {
+              "value": "Best for iLoud Micro Monitors or tight apartment setups",
+              "value_es": "Ideal para iLoud Micro Monitors o espacios reducidos en apartamentos"
             }
           ]
         }
