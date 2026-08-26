@@ -1173,7 +1173,7 @@ function buildGuidePage(guide, lang, idx) {
 
   const items = [];
   const productSchemas = [];
-  guide.featuredProducts.forEach((pid, idx) => {
+  allProductIds.forEach((pid, idx) => {
     const p = products.find(pr => pr.id === pid);
     if (p) {
       const generatedSku = "TMG-" + (p.category || "gear").toUpperCase() + "-" + String(p.id).padStart(3, "0");
@@ -1221,7 +1221,7 @@ function buildGuidePage(guide, lang, idx) {
           listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else {
           var anyUrl = st[Object.keys(st)[0]] || '';
-          if (anyUrl) listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl };
+          listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl || 'https://topmusiciangear.com/guides/' + guide.id + '.html' };
         }
       })();
       if (agg) listItem.item.aggregateRating = agg;
@@ -1253,7 +1253,7 @@ function buildGuidePage(guide, lang, idx) {
           pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else {
           var anyUrl = st[Object.keys(st)[0]] || '';
-          if (anyUrl) pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl };
+          pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl || 'https://topmusiciangear.com/guides/' + guide.id + '.html' };
         }
       })();
       if (agg) pSchema.aggregateRating = agg;
