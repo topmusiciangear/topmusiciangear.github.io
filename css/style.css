@@ -39,7 +39,6 @@ html {
   background: #0d0d0d;
   margin: 0 !important;
   padding: 0 !important;
-  overflow-x: hidden;
 }
 
 body {
@@ -2442,7 +2441,7 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup { padding: 48px 20px; }
   .about-section { padding: 48px 20px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; }
+  html { overscroll-behavior-x: none; touch-action: pan-y; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   body { overflow-x: hidden; overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
@@ -3137,6 +3136,7 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 
 .guide-link-btn {
   display: inline-block;
+  vertical-align: middle;
   white-space: nowrap;
   color: var(--accent);
   font-weight: 700;
@@ -3150,6 +3150,7 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1.4;
 }
 .guide-link-btn:hover {
   background: rgba(59,130,246,.15);
