@@ -1434,7 +1434,7 @@ ${ogMeta}
       })() : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-product-card-currency-note">
-        <div class="note-header"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>${isEs ? 'Aspectos a Tener en Cuenta' : 'Things to Keep in Mind'}</div>
+        <div class="note-header">${isEs ? 'Aspectos a Tener en Cuenta' : 'Things to Keep in Mind'}</div>
         <div class="note-row"><span class="note-icon">💲</span><span>${isEs ? 'Los precios pueden variar según tu geolocalización; el total final se confirma en tu moneda local al pagar.' : 'Prices may vary depending on your location; your final total is confirmed in your local currency at checkout.'}</span></div>
         <div class="note-row"><span class="note-icon">📦</span><span>${isEs ? 'Cada tienda aplica su propia política de envío: algunas envían gratis, otras cobran envío y otras ofrecen envío gratuito a partir de un mínimo de compra. Algunas tiendas solo envían dentro de EE.&nbsp;UU.' : 'Each store applies its own shipping policy: some ship for free, others charge a fee, and others offer free shipping above a minimum order. Some stores only ship within the&nbsp;U.S.'}</span></div>
         <div class="note-divider"></div>
