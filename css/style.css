@@ -2065,11 +2065,20 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-currency-note .note-header {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   margin-bottom: 6px;
   color: #f59e0b;
   font-weight: 700;
   font-size: 13px;
+}
+.guide-product-card-currency-note .note-header .note-icon {
+  flex-shrink: 0;
+  font-size: 11px;
+  width: 14px;
+  text-align: center;
+}
+.guide-product-card-currency-note .note-header span:last-child {
+  margin-left: 2px;
 }
 .guide-product-card-currency-note .note-row {
   display: flex;
