@@ -268,10 +268,10 @@ function openLightbox(src) {
   if (existing) existing.remove();
   var lb = document.createElement("div");
   lb.id = "lightbox";
-  lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92)";
+  lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;background:rgba(0,0,0,.92)";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
+  img.style.cssText = "max-width:calc(100vw - 48px);max-height:calc(100vh - 48px);object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
   img.draggable = false;
   var close = document.createElement("button");
   close.innerHTML = "&times;";
@@ -288,7 +288,7 @@ function openGuideVideo(v) {
   if (existing) existing.remove();
   var lb = document.createElement("div");
   lb.id = "lightbox";
-  lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.92)";
+  lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;background:rgba(0,0,0,.92)";
   var w = document.createElement("div");
   w.style.cssText = "position:relative;width:min(1100px,94vw);aspect-ratio:16/9";
   w.innerHTML = '<iframe src="https://www.youtube.com/embed/' + v + '?autoplay=1&rel=0" style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6)" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen title="Video"></iframe>';
