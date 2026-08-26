@@ -5000,7 +5000,8 @@
     "desc_es": "La segunda generación del HUSH-I EVO2 añade afinador cromático integrado, un mástil reforzado de 5 piezas de arce y caoba y un previo HPS-II mejorado. Sigue siendo la guitarra de viaje headless, de escala completa y silenciosa que tocas con auriculares — ahora con montaje de marcos sin herramientas y avisos de batería baja. Funda, correa, afinador y auriculares incluidos.",
     "img": "https://m.media-amazon.com/images/I/617seFCYGUL._AC_SL1500_.jpg",
     "stores": {
-      "amazon": "https://www.amazon.com/dp/B0G5WZ528Q"
+      "amazon": "https://www.amazon.com/dp/B0G5WZ528Q",
+      "musicstore": ""
     },
     "excludeStores": [
       "zzounds",
@@ -5045,7 +5046,9 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B00XPHLBJY?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1",
       "andertons": "https://www.andertons.co.uk/yamaha-slg200s-steel-string-silent-guitar-in-natural/",
-      "reverb": "https://reverb.com/p/yamaha-slg200s-silent-guitar"
+      "reverb": "https://reverb.com/p/yamaha-slg200s-silent-guitar",
+      "gear4music": "",
+      "musicstore": ""
     },
     "excludeStores": [
       "zzounds"
@@ -5066,7 +5069,9 @@
     "img": "https://r2.gear4music.com/media/82/822934/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0130VZVNQ?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1",
-      "andertons": "https://www.andertons.co.uk/yamaha-slg200n-nylon-string-silent-guitar-in-natural/"
+      "andertons": "https://www.andertons.co.uk/yamaha-slg200n-nylon-string-silent-guitar-in-natural/",
+      "gear4music": "",
+      "musicstore": ""
     },
     "excludeStores": [
       "zzounds"
@@ -5087,7 +5092,9 @@
     "img": "https://r2.gear4music.com/media/73/733439/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B07K7J4CMY",
-      "reverb": "https://reverb.com/p/traveler-ula-ultralight-mahogany-acoustic"
+      "reverb": "https://reverb.com/p/traveler-ula-ultralight-mahogany-acoustic",
+      "gear4music": "",
+      "musicstore": ""
     },
     "excludeStores": [
       "zzounds",
@@ -5109,7 +5116,9 @@
     "img": "https://r2.gear4music.com/media/73/731708/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0F3KLL64H",
-      "zzounds": "https://www.zzounds.com/item--TRAULNY"
+      "zzounds": "https://www.zzounds.com/item--TRAULNY",
+      "gear4music": "",
+      "musicstore": ""
     },
     "excludeStores": [
       "andertons"
@@ -5496,7 +5505,8 @@
     "img": "https://m.media-amazon.com/images/I/71IRQhv+LsL._AC_SL1500_.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0CTTDFCWR",
-      "official": "https://www.enya-music.com/products/sonic"
+      "official": "https://www.enya-music.com/products/sonic",
+      "musicstore": ""
     },
     "excludeStores": [
       "gear4music",
@@ -5520,7 +5530,8 @@
     "img": "https://m.media-amazon.com/images/I/61Sh7AXF5xL._AC_SL1500_.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0CDLYBBF3",
-      "andertons": "https://www.andertons.co.uk/lava-me-4-carbon-36-space-grey-with-airflow-bag-/"
+      "andertons": "https://www.andertons.co.uk/lava-me-4-carbon-36-space-grey-with-airflow-bag-/",
+      "musicstore": ""
     },
     "excludeStores": [
       "gear4music",
