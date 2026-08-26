@@ -39,6 +39,7 @@ html {
   background: #0d0d0d;
   margin: 0 !important;
   padding: 0 !important;
+  overflow-x: hidden;
 }
 
 body {
@@ -50,7 +51,6 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   max-width: 100%;
-  overflow-x: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word;
   -webkit-text-size-adjust: 100%;
