@@ -268,15 +268,15 @@ function openLightbox(src) {
   if (existing) existing.remove();
   var lb = document.createElement("div");
   lb.id = "lightbox";
-  lb.style.cssText = "position:fixed;top:0;left:0;right:0;bottom:0;z-index:99999;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box";
+  lb.style.cssText = "display:flex;position:fixed;top:0;left:0;right:0;bottom:0;z-index:99999;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;background:rgba(0,0,0,.92)";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:calc(100vw - 48px);max-height:calc(100vh - 48px);width:auto;height:auto;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
+  img.style.cssText = "max-width:calc(100vw - 48px);max-height:calc(100vh - 48px);object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);cursor:default";
   img.draggable = false;
   var close = document.createElement("button");
   close.innerHTML = "&times;";
   close.setAttribute("aria-label", "Close");
-  close.style.cssText = "position:absolute;top:8px;right:12px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000;padding:8px";
+  close.style.cssText = "position:fixed;top:16px;right:24px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;z-index:100000";
   close.onclick = function() { lb.remove(); };
   lb.appendChild(close);
   lb.appendChild(img);
