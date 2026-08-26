@@ -2054,31 +2054,54 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-product-card-currency-note {
   margin: 24px 0 12px;
-  padding: 12px 16px;
+  padding: 14px 18px;
   border-left: 4px solid #f59e0b;
-  background: rgba(245, 158, 11, 0.08);
+  background: rgba(245, 158, 11, 0.06);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   font-size: 13px;
-  line-height: 1.6;
-  color: #ffffff;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+.guide-product-card-currency-note .note-header {
   display: flex;
+  align-items: center;
   gap: 7px;
+  margin-bottom: 8px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
 }
-.guide-product-card-currency-note strong {
-  color: #ffffff;
+.guide-product-card-currency-note .note-header svg {
   flex-shrink: 0;
-  white-space: nowrap;
+  width: 16px;
+  height: 16px;
+  fill: #f59e0b;
 }
-.guide-product-card-currency-note .shop-note-body {
-  min-width: 0;
+.guide-product-card-currency-note .note-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.guide-product-card-currency-note .note-row:last-child {
+  margin-bottom: 0;
+}
+.guide-product-card-currency-note .note-icon {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: 2px;
+  opacity: .7;
+}
+.guide-product-card-currency-note .note-divider {
+  height: 1px;
+  background: rgba(245, 158, 11, 0.2);
+  margin: 10px 0;
 }
 @media (max-width: 768px) {
   .guide-product-card-currency-note {
-    display: block;
-  }
-  .guide-product-card-currency-note strong {
-    display: block;
-    margin-bottom: 4px;
+    font-size: 12.5px;
+    padding: 12px 14px;
   }
 }
 
