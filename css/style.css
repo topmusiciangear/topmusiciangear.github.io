@@ -3147,8 +3147,17 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   background: rgba(59,130,246,.06);
   transition: background .2s;
   margin: 2px 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .guide-link-btn:hover {
   background: rgba(59,130,246,.15);
+}
+@media (max-width: 768px) {
+  .guide-link-btn {
+    white-space: normal;
+    word-break: break-word;
+  }
 }
 
