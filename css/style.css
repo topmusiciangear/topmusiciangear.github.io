@@ -2610,6 +2610,16 @@ footer ul li a:hover { color: var(--accent); }
 .guide-products-cards .guide-product-card-img {
   aspect-ratio: 3/2;
 }
+@media (min-width:901px) {
+  .guide-product-card.is-plugin-card .guide-product-card-stores {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+  .guide-product-card.is-plugin-card .shop-btn-primary,
+  .guide-product-card.is-plugin-card .shop-btn-more {
+    width: calc(100% + 48px);
+  }
+}
 
 @media (max-width: 1200px) {
   .guide-products-cards { grid-template-columns: repeat(3, 1fr); }
