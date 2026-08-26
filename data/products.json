@@ -6939,5 +6939,59 @@
       "amazon": "https://www.amazon.com/dp/B001M90WC0",
       "zzounds": "https://www.zzounds.com/item--MXLR144"
     }
+  },
+  {
+    "id": 367,
+    "title": "Behringer X Air XR18",
+    "title_es": "Behringer X Air XR18",
+    "brand": "Behringer",
+    "category": "live-sound",
+    "price": 699,
+    "rating": 5,
+    "reviews": 387,
+    "badge": "best-value",
+    "desc": "A 16-channel digital stagebox mixer controlled entirely from an iPad or tablet. With 16 MIDAS preamps, 18x18 USB interface, built-in effects, and WiFi, it eliminates the need for a physical console — perfect for bands that want to mix from the audience.",
+    "desc_es": "Un mezclador digital de 16 canales controlado completamente desde un iPad o tablet. Con 16 preamplificadores MIDAS, interfaz USB 18x18, efectos integrados y WiFi, elimina la necesidad de una consola física — perfecto para bandas que quieren mezclar desde la audiencia.",
+    "img": "https://www.thomann.de/gb/behringer_x_air_xr18.htm",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B016XPUQ2W",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Behringer-X-Air-XR18/art-REC0004126-000"
+    }
+  },
+  {
+    "id": 368,
+    "title": "Allen & Heath CQ-18T",
+    "title_es": "Allen & Heath CQ-18T",
+    "brand": "Allen & Heath",
+    "category": "live-sound",
+    "price": 999,
+    "rating": 5,
+    "reviews": 112,
+    "badge": "pro",
+    "desc": "A 18-channel touchscreen digital mixer running at 96kHz fidelity. Features intelligent gain assistants, automatic feedback elimination, and an intuitive touchscreen interface. The perfect bridge between analog simplicity and digital power for tech-savvy musicians on a budget.",
+    "desc_es": "Un mezclador digital con pantalla táctil de 18 canales funcionando a 96kHz de fidelidad. Cuenta con asistentes inteligentes de ganancia automática, eliminación de retroalimentación y una interfaz intuitiva de pantalla táctil. El puente perfecto entre la simplicidad analógica y el poder digital para músicos tecnológicos con presupuesto.",
+    "img": "https://www.thomann.de/gb/allen_heath_cq18t.htm",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0CP8FZJN2",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Allen-Heath-CQ-18T/art-REC0009001-000"
+    }
+  },
+  {
+    "id": 369,
+    "title": "Yamaha MG16XU",
+    "title_es": "Yamaha MG16XU",
+    "brand": "Yamaha",
+    "category": "live-sound",
+    "price": 549,
+    "rating": 5,
+    "reviews": 289,
+    "badge": "best-value",
+    "desc": "A 16-channel analog mixer with SPX digital effects, 10 D-PRE mic preamps, 3-band EQ with sweepable mids, and a rugged metal chassis. The larger sibling of the MG10XU, offering more channels and a built-in USB interface for live recording to a DAW.",
+    "desc_es": "Un mezclador analógico de 16 canales con efectos digitales SPX, 10 preamplificadores D-PRE, ecualización de 3 bandas con medios ajustables y un chasis metálico resistente. El hermano mayor del MG10XU, ofreciendo más canales y una interfaz USB integrada para grabación en vivo a un DAW.",
+    "img": "https://www.thomann.de/gb/yamaha_mg16xu.htm",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B016YJLMEG",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-MG16XU/art-REC0003527-000"
+    }
   }
 ]
