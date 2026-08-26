@@ -2165,6 +2165,12 @@ footer ul li a:hover { color: var(--accent); }
   max-width: none;
   align-content: flex-start;
 }
+@media (min-width:901px) {
+  .guide-section-mediabuy > .guide-section-buy:has(.shop-btn-primary) {
+    flex: 0 0 420px;
+    width: 420px;
+  }
+}
 .shop-btn-primary,
 .shop-btn-more {
   white-space: nowrap;
@@ -2610,21 +2616,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-products-cards .guide-product-card-img {
   aspect-ratio: 3/2;
 }
-@media (min-width:901px) {
-  .guide-product-card.is-plugin-card {
-    overflow: visible;
-    position: relative;
-    z-index: 1;
-  }
-  .guide-product-card.is-plugin-card .guide-product-card-stores {
-    margin-left: -40px;
-    margin-right: -40px;
-  }
-  .guide-product-card.is-plugin-card .shop-btn-primary,
-  .guide-product-card.is-plugin-card .shop-btn-more {
-    width: calc(100% + 80px);
-  }
-}
+
 
 @media (max-width: 1200px) {
   .guide-products-cards { grid-template-columns: repeat(3, 1fr); }
