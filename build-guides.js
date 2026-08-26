@@ -79,7 +79,7 @@ function criticalCss() {
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
 
-    '.guide-comp-table{width:auto;max-width:100%;border-collapse:separate;border-spacing:0;font-size:13px}',
+    '.guide-comp-table{min-width:100%;width:auto;max-width:none;border-collapse:separate;border-spacing:0;font-size:13px}',
     '.guide-comp-table th,.guide-comp-table td{padding:8px 10px;border:1px solid var(--border);text-align:left}',
     '.guide-comp-table th{background:var(--surface);font-weight:700;color:var(--text);white-space:nowrap}',
     '.guide-comp-table th:first-child,.guide-comp-table td.label{position:sticky;left:0;z-index:2;background:var(--bg);box-shadow:1px 0 0 var(--border)}',
