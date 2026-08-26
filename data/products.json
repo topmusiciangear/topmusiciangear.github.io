@@ -6884,5 +6884,60 @@
       "andertons": "https://www.andertons.co.uk/sennheiser-xsw-iem-stereo-in-ear-monitor-system/",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FSennheiser-XSW-IEM-SET-Wireless-In-Ear-Monitor-System-E-Band%2F481A"
     }
+  },
+  {
+    "id": 364,
+    "title": "Beyerdynamic M 160",
+    "title_es": "Beyerdynamic M 160",
+    "brand": "Beyerdynamic",
+    "category": "microphones",
+    "price": 699,
+    "rating": 5,
+    "reviews": 145,
+    "badge": "pro",
+    "desc": "A unique double-ribbon microphone with a hypercardioid polar pattern. Unlike most ribbon mics, it rejects sound from the rear, making it ideal for studios that are not perfectly treated. Excellent for strings, guitar cabs, and brass.",
+    "desc_es": "Un micrófono de cinta doble con patrón polar hipercardioide único. A diferencia de la mayoría de los micrófonos de cinta, rechaza el sonido por detrás, lo que lo hace ideal para estudios que no están tratados acústicamente. Excelente para cuerdas, cabinas de guitarra y metales.",
+    "img": "https://media.musicarts.com/prodimages/13090901-WIDE.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0002KYZGE",
+      "andertons": "https://www.andertons.co.uk/beyerdynamic-m-160-ribbon-microphone/",
+      "zzounds": "https://www.zzounds.com/item--BYS160"
+    }
+  },
+  {
+    "id": 365,
+    "title": "sE Electronics Voodoo VR2",
+    "title_es": "sE Electronics Voodoo VR2",
+    "brand": "sE Electronics",
+    "category": "microphones",
+    "price": 399,
+    "rating": 4,
+    "reviews": 87,
+    "badge": "pro",
+    "desc": "An active ribbon microphone that requires 48V phantom power. Its built-in preamp boosts the output signal, solving the low-level output problem of passive ribbons. Designed for extended high-frequency response, delivering a more open and modern ribbon sound.",
+    "desc_es": "Un micrófono de cinta activo que requiere alimentación phantom de 48V. Su preamplificador integrado eleva la señal de salida, resolviendo el problema del nivel bajo de las cintas pasivas. Diseñado para una respuesta extendida en frecuencias agudas, ofreciendo un sonido de cinta más abierto y moderno.",
+    "img": "https://www.sweetwater.com/store/uploads/images/large/se-voodoo-vr2.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B004LXOCNW",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/sE-Electronics-Voodoo-VR2/art-REC0006503-000"
+    }
+  },
+  {
+    "id": 366,
+    "title": "MXL R144",
+    "title_es": "MXL R144",
+    "brand": "MXL",
+    "category": "microphones",
+    "price": 149,
+    "rating": 4,
+    "reviews": 320,
+    "badge": "budget",
+    "desc": "The most affordable way to experience real ribbon microphone technology. Its warm, vintage tone is perfect for rounding out harsh vocals, saxophones, and acoustic guitars. A fantastic entry point into the world of ribbon mics for home studios.",
+    "desc_es": "La forma más económica de experimentar la tecnología real de micrófonos de cinta. Su tono cálido y vintage es perfecto para suavizar voces ásperas, saxofones y guitarras acústicas. Un punto de entrada fantástico al mundo de los micrófonos de cinta para estudios caseros.",
+    "img": "https://www.sweetwater.com/store/uploads/images/large/mxl-r144.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B001M90WC0",
+      "zzounds": "https://www.zzounds.com/item--MXLR144"
+    }
   }
 ]
