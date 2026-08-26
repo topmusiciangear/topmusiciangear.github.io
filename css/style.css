@@ -2611,6 +2611,11 @@ footer ul li a:hover { color: var(--accent); }
   aspect-ratio: 3/2;
 }
 @media (min-width:901px) {
+  .guide-product-card.is-plugin-card {
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+  }
   .guide-product-card.is-plugin-card .guide-product-card-stores {
     margin-left: -40px;
     margin-right: -40px;
