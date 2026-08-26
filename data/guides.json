@@ -1588,7 +1588,9 @@
         "products": [
           366,
           206
-        ]
+        ],
+        "heading": "Ribbon Microphones: Vintage Warmth for the Modern Studio",
+        "heading_es": "Micrófonos Ribbon: Calidez Vintage para el Estudio Moderno"
       }
     ],
     "conclusion": "Start with the category that matches what you record. Dynamic mics like the SM57 and SM58 are indestructible workhorses for amps, drums, and live vocals. Condenser mics capture studio detail for vocals, acoustic instruments, and overheads. USB mics skip the interface for simple podcasting and streaming. Stage mics survive the road. Each category has its own specialized guide with detailed reviews and comparisons. <p>You may also like: <a href=\"/guides/budget-mics.html\" class=\"guide-link-btn\">Budget Microphones Under $200</a> <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">Best USB & XLR Microphones</a> <a href=\"/guides/stage-mics.html\" class=\"guide-link-btn\">Best Live & Stage Microphones</a> <a href=\"/guides/tube-ribbon-mics.html\" class=\"guide-link-btn\">Professional Condenser Microphones</a> <a href=\"/guides/sm57-vs-sm58.html\" class=\"guide-link-btn\">SM57 vs SM58 Comparison</a></p>",
@@ -64826,8 +64828,6 @@
     "intro_es": "Los micrófonos ribbon utilizan una fina tira de metal suspendida en un campo magnético para capturar sonido con un tono natural y cálido que ni los condensadores ni los dinámicos pueden replicar. Son el arma secreta detrás de décadas de grabaciones legendarias — desde los Beatles hasta producciones pop-vinilo modernas.",
     "sections": [
       {
-        "title": "What is a Ribbon Microphone?",
-        "title_es": "¿Qué es un Micrófono Ribbon?",
         "content": "<p><strong>A ribbon microphone is a transducer that uses an ultra-thin metal ribbon (usually aluminum) suspended between two magnets.</strong> When sound waves hit the ribbon, it vibrates within the magnetic field, generating an electrical signal. Unlike condenser mics, ribbon mics do not require phantom power to operate — in fact, <strong>applying 48V phantom power to a passive ribbon mic can destroy it instantly.</strong></p><p>Ribbon mics naturally produce a warm, smooth high-end roll-off that flatters harsh sources like distorted guitars, brass, and cymbals. They use a figure-8 polar pattern by default, picking up sound from both front and rear while rejecting the sides.</p>",
         "content_es": "<p><strong>Un micrófono ribbon es un transductor que utiliza una tira metálica ultrafina (generalmente de aluminio) suspendida entre dos imanes.</strong> Cuando las ondas sonoras golpean la cinta, esta vibra dentro del campo magnético, generando una señal eléctrica. A diferencia de los micrófonos de condensador, los ribbon no necesitan alimentación phantom para funcionar — de hecho, <strong>aplicar 48V phantom a un ribbon pasivo puede destruirlo instantáneamente.</strong></p><p>Los ribbon producen naturalmente un suave atenuamiento de agudos que favorece fuentes ásperas como guitarras distorsionadas, metales y platillos. Utilizan un patrón polar figura-8 por defecto, captando sonido tanto por delante como por detrás mientras rechazan los costados.</p>",
         "products": [
@@ -64836,7 +64836,9 @@
           364,
           207,
           206
-        ]
+        ],
+        "heading": "What is a Ribbon Microphone?",
+        "heading_es": "¿Qué es un Micrófono Ribbon?"
       }
     ],
     "productTable": {
