@@ -2100,6 +2100,11 @@ footer ul li a:hover { color: var(--accent); }
   }
   .guide-product-card-currency-note .note-icon {
     font-size: 10px;
+    width: 14px;
+    text-align: center;
+  }
+  .guide-product-card-currency-note .note-row {
+    gap: 8px;
   }
 }
 
