@@ -1,27 +1,11 @@
-var fs = require('fs');
-var b = fs.readFileSync('build-guides.js', 'utf8');
-var lines = b.split('\n');
-
-// Find all entry lines and check for issues
-var inBtn = false;
-for (var i = 0; i < lines.length; i++) {
-  var line = lines[i];
-  if (line.indexOf('const TEST_SHOP_BTN') > -1) inBtn = true;
-  if (!inBtn) continue;
-  if (line.indexOf('};') === 0 && inBtn) { inBtn = false; break; }
-
-  // Check if entry line has missing prices property
-  if (line.match(/^\s*\d+:\s*\{/) && line.indexOf('prices:') === -1 && line.indexOf('oos:') === -1 && line.indexOf('na:') === -1) {
-    console.log('LINE ' + (i+1) + ' (NO PRICES/OOS/NA): ' + line.substring(0, 100));
-  }
-
-  // Check for unbalanced braces on single line
-  var depth = 0;
-  for (var j = 0; j < line.length; j++) {
-    if (line[j] === '{') depth++;
-    if (line[j] === '}') depth--;
-  }
-  if (depth < 0) {
-    console.log('LINE ' + (i+1) + ' (NEGATIVE BRACE DEPTH ' + depth + '): ' + line.substring(0, 100));
-  }
-}
+const fs = require('fs');
+const src = fs.readFileSync('./build-guides.js', 'utf8');
+const ids = [366,304,120,238,92,370,132,165,166,220,260,349,347,348,350,354,365,8,364,113,114,115];
+ids.forEach(id => {
+  const idx = src.indexOf("'" + id + "'");
+  if (idx === -1) { console.log(id + ': NOT FOUND'); return; }
+  const lineStart = src.lastIndexOf('\n', idx) + 1;
+  const lineEnd = src.indexOf('\n', idx);
+  const line = src.substring(lineStart, Math.min(lineEnd, lineStart + 300));
+  console.log(id + ': ' + line.trim().substring(0, 250));
+});
