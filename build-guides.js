@@ -77,16 +77,6 @@ function criticalCss() {
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
-    '.guide-back-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px;flex-wrap:wrap}',
-    '.guide-back-btn{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:500;text-decoration:none;font-size:14px}',
-    '.guide-back-btn:hover{text-decoration:underline}',
-    '.guide-search{position:relative;flex-shrink:0}',
-    '.guide-search input{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 14px 8px 36px;color:var(--text);font-size:13px;font-family:inherit;width:220px;outline:none;transition:border-color .2s}',
-    '.guide-search input:focus{border-color:var(--accent)}',
-    '.guide-search input::placeholder{color:var(--text-muted)}',
-    '.guide-search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--text-muted);pointer-events:none}',
-    '.guide-section[data-search-hidden="true"],.guide-product-card[data-search-hidden="true"]{display:none!important}',
-    '@media(max-width:600px){.guide-search input{width:160px;font-size:12px}}',
 
 
     '.guide-comp-table{min-width:100%;width:auto;max-width:none;border-collapse:separate;border-spacing:0;font-size:13px}',
@@ -1345,10 +1335,6 @@ ${ogMeta}
       </nav>
       <div class="guide-back-row">
         <a href="/?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
-        <div class="guide-search">
-          <svg viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-          <input type="text" placeholder="${isEs ? 'Buscar producto...' : 'Search product...'}" id="guideSearchInput" oninput="filterGuideProducts(this.value)">
-        </div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
@@ -1533,25 +1519,6 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     new ResizeObserver(upd).observe(w);
   });
 })();
-</script>
-<script>
-function filterGuideProducts(q){
-  q=(q||'').toLowerCase().trim();
-  document.querySelectorAll('.guide-section').forEach(function(s){
-    if(!q){s.removeAttribute('data-search-hidden');return;}
-    var title=(s.querySelector('h2')||{}).textContent||'';
-    var body=(s.querySelector('.guide-section-content')||{}).textContent||'';
-    var match=title.toLowerCase().indexOf(q)>-1||body.toLowerCase().indexOf(q)>-1;
-    s.setAttribute('data-search-hidden',match?'false':'true');
-  });
-  document.querySelectorAll('.guide-product-card').forEach(function(c){
-    if(!q){c.removeAttribute('data-search-hidden');return;}
-    var title=(c.querySelector('.guide-product-card-title')||{}).textContent||'';
-    var desc=(c.querySelector('.guide-product-card-desc')||{}).textContent||'';
-    var match=title.toLowerCase().indexOf(q)>-1||desc.toLowerCase().indexOf(q)>-1;
-    c.setAttribute('data-search-hidden',match?'false':'true');
-  });
-}
 </script>
 <script>
 (function(){
