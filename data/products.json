@@ -8432,5 +8432,133 @@
       "gear4music",
       "musicstore"
     ]
+  },
+  {
+    "id": 395,
+    "title": "PreSonus FaderPort 8",
+    "title_es": "PreSonus FaderPort 8",
+    "brand": "PreSonus",
+    "category": "accessories",
+    "price": 499,
+    "rating": 4.6,
+    "reviews": 1800,
+    "badge": "bestValue",
+    "desc": "8-motorized-fader DAW controller with scribble strips, transport, and Session Navigator. Deep Studio One integration, works with Logic, Pro Tools, Cubase via MCU.",
+    "desc_es": "Controlador DAW con 8 faders motorizados, tiras de escritura, transporte y Session Navigator. Integración profunda con Studio One, funciona con Logic, Pro Tools, Cubase vía MCU.",
+    "img": "https://r2.gear4music.com/media/21/214452/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FPreSonus-FaderPort-8-DAW-Control-Surface%2F1PRA",
+      "zzounds": "https://www.zzounds.com/a--925521/item--PRSFADERPORT8",
+      "andertons": "https://www.andertons.co.uk/presonus-faderport-8-8-fader-motorised-daw-control-surface/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2FPresonus-FaderPort-8%2Fart-PCM0014271-000",
+      "reverb": "https://reverb.com/p/presonus-faderport-8"
+    }
+  },
+  {
+    "id": 396,
+    "title": "Behringer X-Touch",
+    "title_es": "Behringer X-Touch",
+    "brand": "Behringer",
+    "category": "accessories",
+    "price": 449,
+    "rating": 4.5,
+    "reviews": 2100,
+    "badge": "",
+    "desc": "9-motorized-fader universal DAW controller with LCD scribble strips, jog wheel, and 92 illuminated buttons. MCU/HUI protocol. Ethernet port doubles as X32/XR18 live mixer controller.",
+    "desc_es": "Controlador DAW universal con 9 faders motorizados, tiras de escritura LCD, perilla de transporte y 92 botones iluminados. Protocolo MCU/HUI. Puerto Ethernet también sirve como controlador de mezcladora X32/XR18 en vivo.",
+    "img": "https://r2.gear4music.com/media/42/422413/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FBehringer-X-Touch-Universal-Control-Surface%2FXOY",
+      "zzounds": "https://www.zzounds.com/a--925521/item--BEHXTOUCH",
+      "andertons": "https://www.andertons.co.uk/behringer-x-touch-one-universal-control-surface/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2FBehringer-X-Touch%2Fart-PAH0015337-000"
+    },
+    "oos": [
+      "zzounds"
+    ]
+  },
+  {
+    "id": 397,
+    "title": "SSL UF1",
+    "title_es": "SSL UF1",
+    "brand": "SSL",
+    "category": "accessories",
+    "price": 849,
+    "rating": 4.7,
+    "reviews": 950,
+    "badge": "premium",
+    "desc": "Single-fader premium DAW controller with dual displays, weighted jog wheel, 46 assignable keys, and built-in SSL Meter plugin. Works with 15+ DAWs.",
+    "desc_es": "Controlador DAW premium de un fader con pantallas duales, perilla de transporte con peso, 46 teclas asignables y plugin SSL Meter incluido. Funciona con más de 15 DAWs.",
+    "img": "https://r2.gear4music.com/media/52/525537/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSSL-UF1-DAW-Controller%2F5NGL",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SSLUF1",
+      "andertons": "https://www.andertons.co.uk/ssl-uf1-advanced-daw-controller/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2FSSL-Solid-State-Logic-UF1-DAW-Controller%2Fart-PCM0017675-000",
+      "reverb": "https://reverb.com/marketplace?query=SSL+UF1"
+    }
+  },
+  {
+    "id": 398,
+    "title": "Avid S1",
+    "title_es": "Avid S1",
+    "brand": "Avid",
+    "category": "accessories",
+    "price": 799,
+    "rating": 4.5,
+    "reviews": 650,
+    "badge": "",
+    "desc": "8-fader EUCON controller with deepest Pro Tools integration. Pairs with free Avid Control app on iPad/Android. Expandable to 4 units (32 faders).",
+    "desc_es": "Controlador EUCON de 8 faders con la integración más profunda con Pro Tools. Se empareja con la app gratuita Avid Control en iPad/Android. Ampliable a 4 unidades (32 faders).",
+    "img": "https://r2.gear4music.com/media/52/525537/1200/preview.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--AVDS1",
+      "andertons": "https://www.andertons.co.uk/avid-s1-control-surface/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2FAvid-S1%2Fart-PCM0015923-000"
+    },
+    "oos": [
+      "andertons"
+    ]
+  },
+  {
+    "id": 399,
+    "title": "Icon Platform M+",
+    "title_es": "Icon Platform M+",
+    "brand": "Icon",
+    "category": "accessories",
+    "price": 249,
+    "rating": 4.3,
+    "reviews": 700,
+    "badge": "",
+    "desc": "9-motorized-fader compact controller with modular design. Add up to 3 Platform X+ expanders for 32 channels. Mackie Control + HUI protocols.",
+    "desc_es": "Controlador compacto con 9 faders motorizados y diseño modular. Añade hasta 3 expansores Platform X+ para 32 canales. Protocolos Mackie Control + HUI.",
+    "img": "https://r2.gear4music.com/media/37/373476/1200/preview.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--ICNPLATFORMMPLUS",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2FiCON-Platform-M-%2Fart-PCM0014636-000",
+      "reverb": "https://reverb.com/marketplace?query=Icon+Platform+M%2B"
+    },
+    "oos": [
+      "zzounds"
+    ]
+  },
+  {
+    "id": 400,
+    "title": "Mackie MCU Pro",
+    "title_es": "Mackie MCU Pro",
+    "brand": "Mackie",
+    "category": "accessories",
+    "price": 1299,
+    "rating": 4.6,
+    "reviews": 1200,
+    "badge": "",
+    "desc": "8-channel professional MCU controller with 100mm Alps motorized faders, V-Pots with LED rings, and metal chassis. Industry standard for decades. Expandable with Extender Pro.",
+    "desc_es": "Controlador MCU profesional de 8 canales con faders motorizados Alps de 100mm, V-Pots con anillos LED y chasis metálico. Estándar de la industria durante décadas. Ampliable con Extender Pro.",
+    "img": "https://r2.gear4music.com/media/26/261188/1200/preview.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--MACMCUPRO",
+      "andertons": "https://www.andertons.co.uk/mackie-control-universal-pro/",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FMackie-Control-Universal-Pro-%2Fart-PCM0006539-000"
+    }
   }
 ]
