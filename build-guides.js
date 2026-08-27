@@ -77,6 +77,16 @@ function criticalCss() {
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
+    '.guide-back-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px;flex-wrap:wrap}',
+    '.guide-back-btn{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:500;text-decoration:none;font-size:14px}',
+    '.guide-back-btn:hover{text-decoration:underline}',
+    '.guide-search{position:relative;flex-shrink:0}',
+    '.guide-search input{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 14px 8px 36px;color:var(--text);font-size:13px;font-family:inherit;width:220px;outline:none;transition:border-color .2s}',
+    '.guide-search input:focus{border-color:var(--accent)}',
+    '.guide-search input::placeholder{color:var(--text-muted)}',
+    '.guide-search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--text-muted);pointer-events:none}',
+    '.guide-section[data-search-hidden="true"],.guide-product-card[data-search-hidden="true"]{display:none!important}',
+    '@media(max-width:600px){.guide-search input{width:160px;font-size:12px}}',
 
 
     '.guide-comp-table{min-width:100%;width:auto;max-width:none;border-collapse:separate;border-spacing:0;font-size:13px}',
@@ -551,7 +561,7 @@ const TEST_SHOP_BTN = {
   295: { prices: { reverb: "$295.99", amazon: "$295.99" }, oos: ["andertons"] },
   296: { prices: { reverb: "$699.00", amazon: "$699.00", andertons: "£799.00" } , oos: ["musicstore"]},
   297: { prices: { reverb: "$154.00", amazon: "$154.00", zzounds: "$159.00", andertons: "£122.00", gear4music: "£139.25", musicstore: "€167.00" } },
-  298: { prices: { reverb: "$159.00", amazon: "$159.00", zzounds: "$159.00", andertons: "£159.00", musicstore: "€179.00" }},
+  298: { prices: { reverb: "$159.00", amazon: "$159.00", zzounds: "$159.00", andertons: "£159.00", musicstore: "€179.00", gear4music: "£179.00" } },
   299: { prices: { reverb: "$198.00", amazon: "$198.00", zzounds: "$199.00", andertons: "£159.00" }, oos: ["musicstore"] },
   300: { prices: { reverb: "$599.00", amazon: "$599.00", zzounds: "$599.00", andertons: "£499.00" }, oos: ["musicstore"] },
   301: { prices: { reverb: "$599.99", amazon: "$599.99", zzounds: "$599.99", andertons: "£566.00", gear4music: "£629.00" , musicstore: "€587.00"} },
@@ -582,7 +592,7 @@ const TEST_SHOP_BTN = {
   326: { prices: { andertons: "£399.00" } , oos: ["musicstore"]},
   327: { prices: { reverb: "$109.97", amazon: "$109.97" }, oos: ["andertons", "musicstore"] },
   328: { prices: { amazon: "$219.00", zzounds: "$219.00", reverb: "$219.00", andertons: "£152.00", musicstore: "€237.00" }},
-  329: { prices: { reverb: "$199.00", amazon: "$199.00", zzounds: "$229.00", andertons: "£164.00" }, oos: ["musicstore"] },
+  329: { prices: { reverb: "$199.00", amazon: "$199.00", zzounds: "$229.00", andertons: "£164.00", gear4music: "£167.50" }, oos: ["musicstore"] },
   330: { prices: { reverb: "$20.99", amazon: "$20.99", andertons: "£16.00" }, oos: ["zzounds", "musicstore"] },
   331: { prices: { reverb: "$6,870.67", andertons: "£3,579.00", musicstore: "€4,272.00" } },
   332: { prices: { reverb: "$599.00", amazon: "$599.00", zzounds: "$599.00", andertons: "£399.00" }, oos: ["musicstore"] },
@@ -644,7 +654,29 @@ const TEST_SHOP_BTN = {
   392: { prices: { pluginboutique: "$99.00", gear4music: "£75.00", musicstore: "£78.00" } },
   393: { prices: { pluginboutique: "$45.00" } },
   394: { prices: { pluginboutique: "$79.00" } },
-  401: { prices: { amazon: "$899.00", gear4music: "£777.00", andertons: "£849.00", musicstore: "$877.00", reverb: "$899.00" }, oos: ["zzounds"] }
+  401: { prices: { amazon: "$899.00", gear4music: "£777.00", andertons: "£849.00", musicstore: "$877.00", reverb: "$899.00" }, oos: ["zzounds"] },
+  374: { prices: { pluginboutique: "$99.00" } },
+  375: { prices: { pluginboutique: "$99.00" } },
+  376: { prices: { pluginboutique: "$12.00" } },
+  377: { prices: { pluginboutique: "$129.00" } },
+  380: { prices: { pluginboutique: "$97.00" } },
+  381: { prices: { pluginboutique: "$224.00" } },
+  382: { prices: { pluginboutique: "$79.00" } },
+  383: { prices: { pluginboutique: "$129.00" } },
+  384: { prices: { pluginboutique: "$59.00" } },
+  385: { prices: { pluginboutique: "$80.00" } },
+  386: { prices: { pluginboutique: "€113.99" } },
+  387: { prices: { pluginboutique: "$39.00" } },
+  389: { prices: { pluginboutique: "$49.00" } },
+  390: { prices: { pluginboutique: "€101.48" } },
+  402: { prices: { amazon: "$1,999.00" } },
+  403: { prices: { amazon: "$3,349.00" } },
+  404: { prices: { amazon: "$3,999.00" } },
+  405: { prices: { amazon: "$4,199.00" } },
+  406: { prices: { amazon: "$1,599.99" } },
+  407: { prices: { amazon: "$2,799.99" } },
+  408: { prices: { amazon: "$1,399.99" } },
+  409: { prices: { amazon: "$2,599.99" } }
 };
 
 function shopButtonsTest(p, lang) {
@@ -1313,6 +1345,10 @@ ${ogMeta}
       </nav>
       <div class="guide-back-row">
         <a href="/?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <div class="guide-search">
+          <svg viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+          <input type="text" placeholder="${isEs ? 'Buscar producto...' : 'Search product...'}" id="guideSearchInput" oninput="filterGuideProducts(this.value)">
+        </div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
@@ -1497,6 +1533,25 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     new ResizeObserver(upd).observe(w);
   });
 })();
+</script>
+<script>
+function filterGuideProducts(q){
+  q=(q||'').toLowerCase().trim();
+  document.querySelectorAll('.guide-section').forEach(function(s){
+    if(!q){s.removeAttribute('data-search-hidden');return;}
+    var title=(s.querySelector('h2')||{}).textContent||'';
+    var body=(s.querySelector('.guide-section-content')||{}).textContent||'';
+    var match=title.toLowerCase().indexOf(q)>-1||body.toLowerCase().indexOf(q)>-1;
+    s.setAttribute('data-search-hidden',match?'false':'true');
+  });
+  document.querySelectorAll('.guide-product-card').forEach(function(c){
+    if(!q){c.removeAttribute('data-search-hidden');return;}
+    var title=(c.querySelector('.guide-product-card-title')||{}).textContent||'';
+    var desc=(c.querySelector('.guide-product-card-desc')||{}).textContent||'';
+    var match=title.toLowerCase().indexOf(q)>-1||desc.toLowerCase().indexOf(q)>-1;
+    c.setAttribute('data-search-hidden',match?'false':'true');
+  });
+}
 </script>
 <script>
 (function(){
