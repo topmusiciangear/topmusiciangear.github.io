@@ -597,7 +597,7 @@ const TEST_SHOP_BTN = {
   205: { prices: {  reverb: "$449.00", amazon: '$449.00', zzounds: '$499.00', andertons: '£439.00'  } , oos: ['musicstore', 'gear4music']},
   206: { prices: {  reverb: "$1599.00",amazon: '$1599.00',  zzounds: '$1,599.00', andertons: '£1,399.00'  ,
       gear4music: "£478.00", musicstore: "€1,935.00" } },
-  207: { prices: {  reverb: "$2,959.00", amazon: '$2,959.00', andertons: '£1,069.00'  ,
+  207: { prices: {  reverb: "$1,762.00", amazon: '$1,762.00', andertons: '£1,069.00'  ,
       gear4music: "£1,099.00", musicstore: "€1,279.00" } },
   208: { prices: {  reverb: "$849.00", amazon: '$849.00', zzounds: '$899.00', andertons: '£709.00'  , gear4music: "£709.28", musicstore: "€899.00" } },
   209: { prices: {  reverb: "$1,399.00", amazon: '$1,399.00', andertons: '£879.00'  } , oos: ['zzounds', 'musicstore', 'gear4music'] },
@@ -740,7 +740,7 @@ const TEST_SHOP_BTN = {
   360: { prices: { reverb: "$1499.00",amazon: '$1499.00',  zzounds: '$1,499.00' } , oos: ['andertons'] },
   361: { prices: {  reverb: "$999.00",amazon: '$999.00',  zzounds: '$999.99'  , andertons: '£829.00'  } , oos: ['gear4music']},
   362: { prices: {  reverb: "$649.00",amazon: '$649.00', zzounds: '$649.00'  , andertons: '£479.00'  ,
-      gear4music: "£419.00", musicstore: '$446.00'} },
+      gear4music: "£419.00", musicstore: '€449.00'} },
   371: { prices: { amazon: '$199.99', zzounds: '$199.99', andertons: '£149.00', gear4music: '£155.00', musicstore: '€199.90' }, oos: ['reverb'] },
   372: { prices: { amazon: '$795.00', andertons: '£517.00', gear4music: '£540.00', musicstore: '€540.00' }, oos: ['zzounds', 'reverb'] },
 
@@ -752,7 +752,7 @@ const TEST_SHOP_BTN = {
   378: { prices: { pluginboutique: '$89.00' } },
   379: { prices: { pluginboutique: '$175.00' } },
   380: { prices: { pluginboutique: '$129.99' } },
-  381: { prices: { pluginboutique: '$213.00' } },
+  381: { prices: { pluginboutique: '$224.00', gear4music: '£231.00' } },
   382: { prices: { pluginboutique: '$99.00' } },
   383: { prices: { pluginboutique: '$129.00', gear4music: '£119.00' } },
   384: { prices: { pluginboutique: '$129.00', musicstore: '$124.00' } },
@@ -767,7 +767,7 @@ const TEST_SHOP_BTN = {
   393: { prices: { pluginboutique: '$45.00' } },
   394: { prices: { pluginboutique: '$79.00' } },
   260: { prices: { amazon: '$349.99', zzounds: '$349.99', andertons: '£299.00', gear4music: '£329.99', musicstore: '€349.00' } },
-  364: { prices: { amazon: '$499.00', zzounds: '$499.00', andertons: '£549.00', gear4music: '£499.00', musicstore: '€549.00' } },
+  364: { prices: { amazon: '$499.00', zzounds: '$499.00', andertons: '£549.00', gear4music: '£499.00', musicstore: '€549.00', reverb: '$1,049.00' } },
   365: { prices: { amazon: '$477.73', zzounds: '$519.00', andertons: '£466.00', gear4music: '£466.00', musicstore: '€519.00' } },
   366: { prices: { amazon: '$99.95', zzounds: '$99.95' }, oos: ['andertons', 'gear4music', 'musicstore'] },
   370: { prices: { amazon: '$384.99', zzounds: '$384.99', andertons: '£329.00', gear4music: '£329.00', musicstore: '€369.00' } },
@@ -787,7 +787,7 @@ function shopButtonsTest(p, lang) {
   const naList = cfg.na || [];
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
-  const revUrl = 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title));
+  const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
   const rowUrl = k => (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]);
   const isPlugins = p.category === 'plugins';
   const pUrl = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
@@ -1655,6 +1655,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
   var tz=Intl.DateTimeFormat().resolvedOptions().timeZone;
   var isUSTZ=/^America[\/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)\b/.test(tz);
   if(isUSTZ){doSwap();return;}
+  try{localStorage.removeItem('tmgGeoUS');}catch(e){}
   try{
     var cached=localStorage.getItem('tmgGeoUS');
     if(cached==='1'){doSwap();return;}
