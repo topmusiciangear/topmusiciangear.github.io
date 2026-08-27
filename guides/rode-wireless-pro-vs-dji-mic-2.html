@@ -673,7 +673,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     if(cached==='0')return;
   }catch(e){}
   var x=new XMLHttpRequest();
-  x.open('GET','http://ip-api.com/json/?fields=countryCode',true);
+  x.open('GET','https://ip-api.com/json/?fields=countryCode',true);
   x.timeout=800;
   x.onload=function(){
     try{
