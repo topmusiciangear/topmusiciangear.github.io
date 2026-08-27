@@ -393,7 +393,8 @@ const TEST_SHOP_BTN = {
   391: { prices: { pluginboutique: "$49.00" } },
   392: { prices: { pluginboutique: "$99.00", gear4music: "£75.00", musicstore: "£78.00" } },
   393: { prices: { pluginboutique: "$45.00" } },
-  394: { prices: { pluginboutique: "$79.00" } }
+  394: { prices: { pluginboutique: "$79.00" } },
+  401: { prices: { amazon: "$899.00", gear4music: "£777.00", andertons: "£849.00", musicstore: "$877.00", reverb: "$899.00" }, oos: ["zzounds"] }
 }
 
 function shopButtonsTest(p, lang) {
