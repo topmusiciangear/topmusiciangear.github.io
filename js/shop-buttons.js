@@ -39,7 +39,7 @@ function ukFlag() {
 };
 
 function euFlag() {
-  var scx = 12, scy = 8, sr = 4.8, ssr = 1.7, pts = [];
+  var scx = 12, scy = 8, sr = 4.5, ssr = 0.85, pts = [];
   for (var i = 0; i < 12; i++) {
     var a = (i * 30 - 90) * Math.PI / 180;
     var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
