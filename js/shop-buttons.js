@@ -29,6 +29,23 @@ function ukFlag() {
   return flagBadge(s);
 };
 
+function euFlag() {
+  var scx = 12, scy = 8, sr = 5.5, ssr = 0.9, pts = [];
+  for (var i = 0; i < 12; i++) {
+    var a = (i * 30 - 90) * Math.PI / 180;
+    var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
+    var sp = '';
+    for (var j = 0; j < 5; j++) {
+      var ao = ((j * 72 - 90) * Math.PI / 180), ai = (((j * 72 + 36) - 90) * Math.PI / 180);
+      sp += (cx + ssr * Math.cos(ao)).toFixed(2) + ',' + (cy + ssr * Math.sin(ao)).toFixed(2) + ' ';
+      sp += (cx + ssr * 0.38 * Math.cos(ai)).toFixed(2) + ',' + (cy + ssr * 0.38 * Math.sin(ai)).toFixed(2) + ' ';
+    }
+    pts.push(sp.trim());
+  }
+  return flagBadge('<rect width="24" height="16" fill="#003399"/>' +
+    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join(''));
+};
+
 function globeIcon() {
   return flagBadge('<circle cx="12" cy="8" r="5.5" fill="none" stroke="#fff" stroke-width="1"/>' +
     '<ellipse cx="12" cy="8" rx="2.5" ry="5.5" fill="none" stroke="#fff" stroke-width=".8"/>' +
@@ -38,7 +55,7 @@ function globeIcon() {
 
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb" };;
 
-const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: ukFlag(), musicstore: globeIcon(), andertons: ukFlag() };
+const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: ukFlag(), musicstore: euFlag(), andertons: ukFlag() };
 
 const TEST_SHOP_BTN = {
   1: { prices: { amazon: "$439.00", zzounds: "$439.00", reverb: "$439.00", gear4music: "£379.00", andertons: "£379.00", musicstore: "€389.00" } },
