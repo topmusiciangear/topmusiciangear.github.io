@@ -600,10 +600,7 @@ window.tmgStoreButtons = function (p) {
 
 window.tmgGeoSwap = function () {
   try {
-    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    if (!/^America[\/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)\b/.test(tz)) return;
-    var lang = navigator.language || navigator.userLanguage || '';
-    if (!/^(en-US|en)$/i.test(lang)) return;
+    function doSwapSPA() {
     var globe = '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px"><defs><linearGradient id="glgGeoSPA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeoSPA"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeoSPA)"/><g clip-path="url(#glcGeoSPA)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#fff" stroke-opacity=".4"/></svg>';
     document.querySelectorAll('.guide-product-card-stores, .tmg-store-buttons').forEach(function (c) {
       var pb = c.querySelector('.shop-btn-primary');
@@ -635,5 +632,30 @@ window.tmgGeoSwap = function () {
       aRow.style.display = 'none';
       aRow.insertAdjacentHTML('afterend', newAmazonRow);
     });
+    }
+    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    var isUSTZ = /^America[\/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)\b/.test(tz);
+    if (isUSTZ) { doSwapSPA(); return; }
+    try {
+      var cached = localStorage.getItem('tmgGeoUS');
+      if (cached === '1') { doSwapSPA(); return; }
+      if (cached === '0') return;
+    } catch (e) {}
+    var x = new XMLHttpRequest();
+    x.open('GET', 'http://ip-api.com/json/?fields=countryCode', true);
+    x.timeout = 800;
+    x.onload = function () {
+      try {
+        var r = JSON.parse(x.responseText);
+        if (r.countryCode === 'US') {
+          try { localStorage.setItem('tmgGeoUS', '1'); } catch (e) {}
+          doSwapSPA();
+        } else {
+          try { localStorage.setItem('tmgGeoUS', '0'); } catch (e) {}
+        }
+      } catch (e) {}
+    };
+    x.onerror = x.ontimeout = function () {};
+    x.send();
   } catch (e) { /* silent */ }
 };

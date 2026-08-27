@@ -488,11 +488,8 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
 </script>
 <script>
 (function(){
-  var tz=Intl.DateTimeFormat().resolvedOptions().timeZone;
-  if(!/^America[/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)/.test(tz))return;
-  var lang=navigator.language||navigator.userLanguage||'';
-  if(!/^(en-US|en-CA|en)$/i.test(lang))return;
-  document.querySelectorAll('.guide-product-card-stores').forEach(function(c){
+  function doSwap(){
+    document.querySelectorAll('.guide-product-card-stores').forEach(function(c){
     var pb=c.querySelector('.shop-btn-primary');
     if(!pb||pb.getAttribute('data-store')!=='amazon')return;
     var zRow=c.querySelector('[data-store="zzounds"]');
@@ -520,6 +517,31 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     aRow.style.display='none';
     aRow.insertAdjacentHTML('afterend',aHtml);
   });
+  }
+  var tz=Intl.DateTimeFormat().resolvedOptions().timeZone;
+  var isUSTZ=/^America[/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)/.test(tz);
+  if(isUSTZ){doSwap();return;}
+  try{
+    var cached=localStorage.getItem('tmgGeoUS');
+    if(cached==='1'){doSwap();return;}
+    if(cached==='0')return;
+  }catch(e){}
+  var x=new XMLHttpRequest();
+  x.open('GET','http://ip-api.com/json/?fields=countryCode',true);
+  x.timeout=800;
+  x.onload=function(){
+    try{
+      var r=JSON.parse(x.responseText);
+      if(r.countryCode==='US'){
+        try{localStorage.setItem('tmgGeoUS','1');}catch(e){}
+        doSwap();
+      }else{
+        try{localStorage.setItem('tmgGeoUS','0');}catch(e){}
+      }
+    }catch(e){}
+  };
+  x.onerror=x.ontimeout=function(){};
+  x.send();
 })();
 </script>
 </body>
