@@ -280,7 +280,7 @@ function ukFlag() {
     '<path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
 }
 function euFlag() {
-  var scx = 12, scy = 8, sr = 4.5, ssr = 0.85, pts = [];
+  var scx = 12, scy = 12, sr = 7, ssr = 1.1, pts = [];
   for (var i = 0; i < 12; i++) {
     var a = (i * 30 - 90) * Math.PI / 180;
     var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
@@ -292,8 +292,15 @@ function euFlag() {
     }
     pts.push(sp.trim());
   }
-  return flagBadge('<rect width="24" height="16" fill="#003399"/>' +
-    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join(''));
+  var cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 24" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="24" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' +
+    '<rect width="24" height="24" fill="#003399"/>' +
+    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
+    '</g>' +
+    '<rect x=".5" y=".5" width="23" height="23" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
 }
 function globeIcon() {
   const gid = 'glg' + (++FLAG_UID);
