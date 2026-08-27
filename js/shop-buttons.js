@@ -642,7 +642,7 @@ window.tmgGeoSwap = function () {
     } catch (e) {}
     var x = new XMLHttpRequest();
     x.open('GET', 'https://ipinfo.io/json', true);
-    x.timeout = 800;
+    x.timeout = 3000;
     x.onload = function () {
       try {
         var r = JSON.parse(x.responseText);
