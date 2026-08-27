@@ -197,6 +197,7 @@ const TEST_SHOP_BTN = {
       gear4music: "£3,120.00"} , oos: ['andertons', 'musicstore'] },
   195: { prices: { reverb: "$119.99",amazon: '$119.99' }, oos: ['gear4music', 'andertons', 'musicstore'] },
   221: { prices: {  reverb: "$2,100.00",amazon: '$2,100.00'  } , oos: ['andertons', 'musicstore'] },
+  222: { prices: { reverb: '$9,985.00' } },
   223: { prices: {  reverb: "$3,499.00",amazon: '$3,499.00'  } , oos: ['andertons', 'musicstore', 'gear4music'] },
   243: { prices: {  reverb: "$159.99",amazon: '$159.99'  } , oos: ['andertons', 'musicstore'] },
   246: { prices: { reverb: "$169.99",amazon: '$169.99' } , oos: ['andertons'] },
@@ -468,7 +469,7 @@ const TEST_SHOP_BTN = {
   328: { prices: {  amazon: '$219.00', zzounds: '$219.00', reverb: "$219.00", andertons: '£152.00'  , musicstore: '€237.00' } , oos: ['gear4music']},
   329: { prices: {  reverb: "$199.00",amazon: '$199.00',  zzounds: '$229.00'  , andertons: '£164.00'  } , oos: ['gear4music']},
   330: { prices: { reverb: "$20.99",amazon: '$20.99', andertons: '£16.00' }, oos: ['gear4music', 'zzounds', 'musicstore'] },
-  331: { prices: { amazon: '$208.00', andertons: '£3,579.00'  } , oos: ['musicstore']},
+  331: { prices: { reverb: '$6,870.67', andertons: '£3,579.00', musicstore: '€4,272.00' } },
   332: { prices: {  reverb: "$599.00",amazon: '$599.00',  zzounds: '$599.00'  , andertons: '£399.00'  } , oos: ['gear4music']},
   334: { prices: {  reverb: "$3,299.99",amazon: '$3,299.99', zzounds: '$3,299.99'  , andertons: '£1,499.00'  } , oos: ['gear4music']},
   335: { prices: {  reverb: "$999.99",amazon: '$999.99', zzounds: '$744.95'  , andertons: '£649.00'  } , oos: ['gear4music']},
@@ -552,8 +553,9 @@ function shopButtonsTest(p, lang) {
   const pUrl = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : stores.amazon) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
   if (!pUrl) return '';
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
+  const hasAmazonSPA = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
   const primaryBtn =
-    '<a href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
+    '<a' + (hasAmazonSPA ? ' data-store="amazon"' : '') + ' href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'white-space:nowrap;overflow:hidden;text-overflow:ellipsis;' +
@@ -565,14 +567,15 @@ function shopButtonsTest(p, lang) {
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
     const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'] };
     const storeNote = storeNotes[k] ? '<span style="color:#555;font-size:12px;font-weight:600">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
+    const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
-      return '<div style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
+      return '<div' + ds + ' style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
     }
     if (oosList.indexOf(k) > -1) {
-      return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
+      return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
     }
     const pr = prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + ((k === 'reverb' || k === 'gear4music' || k === 'musicstore') ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('aprox.', 'approx.') + '</span>' : '') + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '';
-    return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+    return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
   }).join('');
@@ -593,4 +596,44 @@ window.tmgStoreButtons = function (p) {
     return shopButtonsTest(p, typeof currentLang !== "undefined" ? currentLang : "en");
   } catch (e) { /* fallback a chips */ }
   return null;
+};
+
+window.tmgGeoSwap = function () {
+  try {
+    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (!/^America[\/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)\b/.test(tz)) return;
+    var lang = navigator.language || navigator.userLanguage || '';
+    if (!/^(en-US|en)$/i.test(lang)) return;
+    var globe = '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px"><defs><linearGradient id="glgGeoSPA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeoSPA"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeoSPA)"/><g clip-path="url(#glcGeoSPA)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#fff" stroke-opacity=".4"/></svg>';
+    document.querySelectorAll('.guide-product-card-stores, .tmg-store-buttons').forEach(function (c) {
+      var pb = c.querySelector('.shop-btn-primary');
+      if (!pb || pb.getAttribute('data-store') !== 'amazon') return;
+      var zRow = c.querySelector('[data-store="zzounds"]');
+      if (!zRow) return;
+      if (!zRow.getAttribute('href')) return;
+      var isNA = zRow.style.cursor === 'default' || zRow.getAttribute('style').indexOf('cursor:default') > -1;
+      if (isNA) return;
+      var zUrl = zRow.getAttribute('href');
+      var zPrice = '';
+      var zMatch = zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);
+      if (zMatch) zPrice = zMatch[1];
+      var storeStyles = { zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px" };
+      var newPrimary = '<a href="' + zUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="' + storeStyles.zzounds + '">zZounds</span></span></a>';
+      zRow.style.display = 'none';
+      pb.insertAdjacentHTML('beforebegin', newPrimary);
+      pb.remove();
+      var ml = c.querySelector('.shop-more-list');
+      var aRow = ml ? ml.querySelector('[data-store="amazon"]') : null;
+      if (!aRow) return;
+      var aUrl = aRow.getAttribute('href');
+      var aPrice = '';
+      var aMatch = aRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);
+      if (aMatch) aPrice = aMatch[1];
+      var amazonSvg = '<svg viewBox="86 114 320 72" preserveAspectRatio="none" style="position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px"><path fill="#FF9900" d="m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965"/><path fill="#FF9900" d="m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203"/></svg>';
+      var aPriceHtml = aPrice ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + aPrice + '</span></span>' : '';
+      var newAmazonRow = '<a data-store="amazon" href="' + aUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#fff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="font-family:Arial,Helvetica,sans-serif;font-weight:800;position:relative;display:inline-block">' + globe + 'Amaz<span style="position:relative;display:inline-block">on' + amazonSvg + '</span></span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span>' + aPriceHtml + '</a>';
+      aRow.style.display = 'none';
+      aRow.insertAdjacentHTML('afterend', newAmazonRow);
+    });
+  } catch (e) { /* silent */ }
 };

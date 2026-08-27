@@ -3845,7 +3845,7 @@
       "amazon": "https://www.amazon.com/dp/B0CLHBZV1Z",
       "zzounds": "https://www.zzounds.com/a--925521/item--RCFNX912SMA"
     },
-    "unit": "Each",
+    "unit": "each",
     "unit_es": "Cada uno"
   },
   {
@@ -3868,7 +3868,7 @@
       "amazon": "https://www.amazon.com/dp/B0842BZB3H?lv=shuf&channelId=500&plpRedirect=mhFallback",
       "zzounds": "https://www.zzounds.com/a--925521/item--ELVPXM12MP"
     },
-    "unit": "Each",
+    "unit": "each",
     "unit_es": "Cada uno"
   },
   {
@@ -3891,7 +3891,7 @@
       "amazon": "https://www.amazon.com/dp/B0CJ5V522Z",
       "zzounds": "https://www.zzounds.com/a--925521/item--LDSMON12AG3"
     },
-    "unit": "Each",
+    "unit": "each",
     "unit_es": "Cada uno"
   },
   {
@@ -3914,7 +3914,7 @@
       "amazon": "https://www.amazon.com/dp/B09DK95Q5G",
       "zzounds": "https://www.zzounds.com/a--925521/item--YAMDHR12M"
     },
-    "unit": "Each",
+    "unit": "each",
     "unit_es": "Cada uno"
   },
   {
@@ -3977,12 +3977,12 @@
     "desc_es": "Monitor activo de tres vías construido a mano con el legendario rango medio de domo suave SM75-150 de ATC. El woofer de 6.5\", el medio de domo suave y el nuevo tweeter de suspensión dual ofrecen la claridad de medios sobre la que se construyen las salas de mezcla. Hecho a mano en Inglaterra.",
     "img": "https://atc.audio/wp-content/uploads/2025/11/SCM25A-Pro_anglesgreenlight-2000x704.jpg",
     "stores": {
+      "reverb": "https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=https%3A%2F%2Freverb.com%2Fitem%2F94558075-atc-scm25a-mk2-6-5-inch-3-way-powered-studio-monitors-pair-like-new",
       "official": "https://atc.audio/en/professional/loudspeakers/scm25a-pro-mk2/"
     },
     "excludeStores": [
       "gear4music",
       "amazon",
-      "reverb",
       "andertons",
       "musicstore",
       "zzounds",
@@ -6319,16 +6319,15 @@
     "desc_es": "Monitor finlandés de 3 vías coaxial de fuente puntual con woofers acústicamente ocultos, driver coaxial de mínima difracción y calibración DSP GLM de sala. El 8351B ofrece imagen de fuente puntual con 550W de potencia clase D y un SPL máximo de 113 dB, adaptándose a cualquier sala vía GLM AutoCal.",
     "img": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/5024/17854/506676-1650457263800__97894.1714760900.jpg?c=1",
     "stores": {
+      "reverb": "https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=https%3A%2F%2Freverb.com%2Fitem%2F44334662-genelec-8351b-pair-white",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OT%2FEUR%2FGenelec-8351-BP%2Fart-REC0014705-000",
       "andertons": "https://www.andertons.co.uk/genelec-8351bm-three-amplified-sam-monitor-system-black/",
-      "official": "https://www.genelec.com/8351b",
-      "amazon": "https://www.amazon.com/dp/B081L951PS"
+      "official": "https://www.genelec.com/8351b"
     },
     "excludeStores": [
       "amazon",
       "zzounds",
       "gear4music",
-      "reverb",
       "pluginboutique"
     ]
   },
@@ -7012,7 +7011,8 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-T5V-Studio-Monitor-Single/2B10",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/ADAM-Audio-T5V-Active-Monitor-5/art-MON0005030-000"
     },
-    "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/1280x1280/products/5160/18336/260743-1516796676839__37707.1714763106.jpg?c=1"
+    "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/1280x1280/products/5160/18336/260743-1516796676839__37707.1714763106.jpg?c=1",
+    "unit": "each"
   },
   {
     "id": 372,
@@ -7034,7 +7034,8 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8030C-Active-Studio-Monitor-Single/1ZOQ",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Genelec-8030-C/art-MON0000465-000"
     },
-    "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/1280x1280/products/4078/14700/150766-tmp7F5__37777.1714754264.jpg?c=1"
+    "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/1280x1280/products/4078/14700/150766-tmp7F5__37777.1714754264.jpg?c=1",
+    "unit": "each"
   },
   {
     "id": 373,

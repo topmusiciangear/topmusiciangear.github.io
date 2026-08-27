@@ -220,6 +220,7 @@ function setLang(lang) {
         psr.innerHTML = '<div class="product-search-grid">' + scored.map(function(p) {
           return '<div class="product-search-item">' + renderProductCard(p.id) + productGuidesHtml(p.id) + '</div>';
         }).join("") + '</div>';
+        if (window.tmgGeoSwap) tmgGeoSwap();
       }
     }
   }
