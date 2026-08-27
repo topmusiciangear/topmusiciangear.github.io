@@ -985,7 +985,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
 <script>
 (function(){
   function doSwap(){
-    document.querySelectorAll('.guide-product-card-stores').forEach(function(c){
+    document.querySelectorAll('.guide-product-card-stores, .guide-section-buy').forEach(function(c){
     var pb=c.querySelector('.shop-btn-primary');
     if(!pb||pb.getAttribute('data-store')!=='amazon')return;
     var zRow=c.querySelector('[data-store="zzounds"]');
