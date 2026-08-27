@@ -742,6 +742,29 @@ const TEST_SHOP_BTN = {
       gear4music: "£419.00"} },
   371: { prices: { amazon: '$199.99', zzounds: '$199.99', andertons: '£149.00', gear4music: '£155.00', musicstore: '€199.90' }, oos: ['reverb'] },
   372: { prices: { amazon: '$795.00', andertons: '£517.00', gear4music: '£540.00', musicstore: '€540.00' }, oos: ['zzounds', 'reverb'] },
+
+  373: { prices: { pluginboutique: '$199.00' } },
+  374: { prices: { pluginboutique: '$99.00' } },
+  375: { prices: { pluginboutique: '$99.00' } },
+  376: { prices: { pluginboutique: '$12.00' } },
+  377: { prices: { pluginboutique: '$129.00' } },
+  378: { prices: { pluginboutique: '$89.00' } },
+  379: { prices: { pluginboutique: '$175.00' } },
+  380: { prices: { pluginboutique: '$129.99' } },
+  381: { prices: { pluginboutique: '$213.00' } },
+  382: { prices: { pluginboutique: '$99.00' } },
+  383: { prices: { pluginboutique: '$129.00' } },
+  384: { prices: { pluginboutique: '$129.00' } },
+  385: { prices: { pluginboutique: '$79.00' } },
+  386: { prices: { pluginboutique: '$99.00' } },
+  387: { prices: { pluginboutique: '$79.00' } },
+  388: { prices: { pluginboutique: '$149.00' } },
+  389: { prices: { pluginboutique: '$249.00' } },
+  390: { prices: { pluginboutique: '$49.00' } },
+  391: { prices: { pluginboutique: '$49.00' } },
+  392: { prices: { pluginboutique: '$99.00' } },
+  393: { prices: { pluginboutique: '$45.00' } },
+  394: { prices: { pluginboutique: '$79.00' } },
   260: { prices: { amazon: '$349.99', zzounds: '$349.99', andertons: '£299.00', gear4music: '£329.99', musicstore: '€349.00' } },
   364: { prices: { amazon: '$499.00', zzounds: '$499.00', andertons: '£549.00', gear4music: '£499.00', musicstore: '€549.00' } },
   365: { prices: { amazon: '$477.73', zzounds: '$519.00', andertons: '£466.00', gear4music: '£466.00', musicstore: '€519.00' } },
@@ -786,7 +809,8 @@ function shopButtonsTest(p, lang) {
       return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span><span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
     }
     const pr = prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + ((k === 'gear4music') ? '' : (k === 'reverb') ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('aprox.', 'approx.') + '</span>' : '') + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '';
-    const note = k === 'zzounds' && prices[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('(Env\u00edo Gratis)', '(Free Shipping)') + '</span>' : (k === 'reverb' && prices[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('(Opciones Nuevas y Usadas)', '(New & Used Options)') + '</span>' : '');
+    const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'] };
+    const note = storeNotes[k] && prices[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
     return '<a href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + note + pr + '</a>';
