@@ -11,6 +11,15 @@ function flagBadge(inner) {
     '</svg>';
 };
 
+function flagBadge(inner) {
+  const cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' + inner + '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
+}
+
 function usaFlag() {
   let s = '<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
   [0, 2.46, 4.92, 7.38, 9.85, 12.31, 14.77].forEach(function (y) { s += '<rect y="' + y + '" width="24" height="1.23"/>'; });
@@ -20,44 +29,25 @@ function usaFlag() {
 };
 
 function ukFlag() {
-  return flagBadge('<rect width="24" height="16" fill="#012169"/>' +
-    '<path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.4"/>' +
-    '<path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/>' +
-    '<path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.6"/>' +
-    '<path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
+  let s = '<rect width="24" height="16" fill="#012169"/><g stroke="#fff" stroke-width="2">';
+  s += '<line x1="0" y1="0" x2="24" y2="16"/><line x1="24" y1="0" x2="0" y2="16"/>';
+  s += '</g><g stroke="#C8102E" stroke-width="1.2">';
+  s += '<line x1="0" y1="0" x2="24" y2="16"/><line x1="24" y1="0" x2="0" y2="16"/>';
+  s += '</g><g fill="#fff"><rect x="10" y="0" width="4" height="16"/><rect x="0" y="6" width="24" height="4"/></g>';
+  s += '<g fill="#C8102E"><rect x="11" y="0" width="2" height="16"/><rect x="0" y="7" width="24" height="2"/></g>';
+  return flagBadge(s);
 };
 
 function globeIcon() {
-  const gid = 'glg' + (++FLAG_UID);
-  const gcid = 'glc' + (++FLAG_UID);
-  return '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px">' +
-    '<defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>' +
-    '<clipPath id="' + gcid + '"><circle cx="10" cy="10" r="8.75"/></clipPath></defs>' +
-    '<circle cx="10" cy="10" r="8.75" fill="url(#' + gid + ')"/>' +
-    '<g clip-path="url(#' + gcid + ')">' +
-    '<path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/>' +
-    '<path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/>' +
-    '<path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/>' +
-    '<path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/>' +
-    '<ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>' +
-    '<path d="M1.25,10 H18.75" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>' +
-    '</g>' +
-    '<circle cx="10" cy="10" r="8.75" fill="none" stroke="#ffffff" stroke-opacity=".4"/>' +
-    '<ellipse cx="7.2" cy="6.2" rx="3.2" ry="1.8" fill="#ffffff" opacity=".25"/>' +
-    '</svg>';
+  return flagBadge('<circle cx="12" cy="8" r="5.5" fill="none" stroke="#fff" stroke-width="1"/>' +
+    '<ellipse cx="12" cy="8" rx="2.5" ry="5.5" fill="none" stroke="#fff" stroke-width=".8"/>' +
+    '<line x1="6.5" y1="8" x2="17.5" y2="8" stroke="#fff" stroke-width=".7"/>' +
+    '<path d="M7.5 5.5h9M7.5 10.5h9" stroke="#fff" stroke-width=".5"/>');
 };
 
-const SHOP_LOGO_STYLE = {
-  gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",
-  andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",
-  musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",
-  zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
-  reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
-};
+const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb" };;
 
-const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb" };
-
-const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: globeIcon, andertons: ukFlag };
+const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: globeIcon(), musicstore: globeIcon(), andertons: ukFlag() };
 
 const TEST_SHOP_BTN = {
   1: { prices: { amazon: "$439.00", zzounds: "$439.00", reverb: "$439.00", gear4music: "£379.00", andertons: "£379.00", musicstore: "€389.00" } },
@@ -65,15 +55,15 @@ const TEST_SHOP_BTN = {
   3: { prices: { amazon: "$212.00", zzounds: "$249.00", reverb: "$249.00", gear4music: "£184.75", andertons: "£179.00", musicstore: "€199.00" } },
   4: { prices: { amazon: "$1,225.00", zzounds: "$1,199.00", reverb: "$1,225.00", gear4music: "£893.00", andertons: "£849.00", musicstore: "€772.30" } },
   5: { prices: { amazon: "$109.00", zzounds: "$99.00", reverb: "$109.00", gear4music: "£103.75", andertons: "£103.00", musicstore: "€105.00" } },
-  6: { prices: { reverb: "$1,839.99", amazon: "$1,839.99", zzounds: "$1,839.99", andertons: "£1,549.00", gear4music: "£1,799.00" }, oos: ["musicstore"] },
-  7: { prices: { reverb: "$4,234.33", amazon: "$4,234.33", zzounds: "$2,799.00", andertons: "£2,499.00", gear4music: "£2,499.00" }, oos: ["musicstore"] },
+  6: { prices: { reverb: "$1,839.99", amazon: "$1,839.99", zzounds: "$1,839.99", andertons: "£1,549.00", gear4music: "£1,799.00" , "musicstore": "$702.00"} },
+  7: { prices: { reverb: "$4,234.33", amazon: "$4,234.33", zzounds: "$2,799.00", andertons: "£2,499.00", gear4music: "£2,499.00" , "musicstore": "$2,433.00"} },
   8: { prices: { reverb: "$2,499.00", amazon: "$2,499.00", gear4music: "£2,111.00", andertons: "£2,299.00", musicstore: "€2,628.00" } },
-  9: { prices: { reverb: "$1,199.99", amazon: "$1,199.99", zzounds: "$1,199.99", andertons: "£899.00", gear4music: "£835.00" }, oos: ["musicstore"] },
+  9: { prices: { reverb: "$1,199.99", amazon: "$1,199.99", zzounds: "$1,199.99", andertons: "£899.00", gear4music: "£835.00" , "musicstore": "$1,847.00"} },
   10: { prices: { zzounds: "$3,999.00", andertons: "£4,299.00", gear4music: "£4,499.00", musicstore: "€359.00" } },
   11: { prices: { reverb: "$5,999.00", amazon: "$5,999.00", zzounds: "$5,999.00", andertons: "£3,890.00", gear4music: "£3,890.00", musicstore: "€4,199.00" } },
   12: { prices: { reverb: "$4,499.99", amazon: "$4,499.99", zzounds: "$4,699.99", andertons: "£4,290.00", gear4music: "£4,290.00", musicstore: "€4,728.00" } },
   13: { prices: { reverb: "$299.00", amazon: "$299.00", zzounds: "$299.00", andertons: "£215.00", gear4music: "£215.00", musicstore: "€249.00" } },
-  14: { prices: { reverb: "$839.95", amazon: "$839.95", zzounds: "$849.00", andertons: "£595.00", gear4music: "£595.00" }, oos: ["musicstore"] },
+  14: { prices: { reverb: "$839.95", amazon: "$839.95", zzounds: "$849.00", andertons: "£595.00", gear4music: "£595.00" , "musicstore": "$677.00"} },
   15: { prices: { amazon: "$199.00", zzounds: "$224.99", reverb: "$199.00", gear4music: "£193.75", andertons: "£185.00", musicstore: "€172.00" } },
   16: { prices: { amazon: "$999.00", zzounds: "$999.00", reverb: "$999.00", gear4music: "£849.00", andertons: "£849.00", musicstore: "€945.00" } },
   17: { prices: { amazon: "$999.00", zzounds: "$999.00", reverb: "$999.00", gear4music: "£715.00", andertons: "£715.00", musicstore: "€911.40" } },
@@ -86,14 +76,14 @@ const TEST_SHOP_BTN = {
   24: { prices: { reverb: "$489.00", amazon: "$489.00", zzounds: "$479.00", andertons: "£357.00", gear4music: "£361.00", musicstore: "€415.00" } },
   25: { prices: { amazon: "$169.00", zzounds: "$159.00", reverb: "$149.00", gear4music: "£148.00", andertons: "£133.00", musicstore: "€149.00" } },
   26: { prices: { amazon: "$113.00", reverb: "$99.99", gear4music: "£99.00", musicstore: "€89.00" }, oos: ["andertons"], urls: { zzounds: "https://www.zzounds.com/item--SNYMDR7506" } },
-  28: { prices: { pluginboutique: "$299.00", andertons: "£126.00", reverb: "$299.00", gear4music: "£271.00" }, oos: ["musicstore"] },
-  29: { prices: { pluginboutique: "$1069.00", andertons: "£639.00", reverb: "$1069.00", zzounds: "$1,069.00", gear4music: "£769.00" }, oos: ["musicstore"] },
-  30: { prices: { pluginboutique: "$499.00", andertons: "£479.00", reverb: "$499.00", gear4music: "£479.00" }, oos: ["musicstore"] },
+  28: { prices: { pluginboutique: "$299.00", andertons: "£126.00", reverb: "$299.00", gear4music: "£271.00" , "musicstore": "$275.00"} },
+  29: { prices: { pluginboutique: "$1069.00", andertons: "£639.00", reverb: "$1069.00", zzounds: "$1,069.00", gear4music: "£769.00" , "musicstore": "$2,255.00"} },
+  30: { prices: { pluginboutique: "$499.00", andertons: "£479.00", reverb: "$499.00", gear4music: "£479.00" , "musicstore": "$765.00"} },
   32: { prices: { pluginboutique: "$599.00", reverb: "$599.00", gear4music: "£489.00" } },
-  33: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£659.00", gear4music: "£656.00" }, oos: ["musicstore"] },
+  33: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£659.00", gear4music: "£656.00" , "musicstore": "$766.00"} },
   34: { oos: ["zzounds"] },
   39: { prices: { amazon: "na", andertons: "£42.00", gear4music: "£53.50", musicstore: "€148.00" }, oos: ["zzounds"] },
-  42: { prices: { reverb: "$1299.99", amazon: "$1299.99", zzounds: "$1,299.99", andertons: "£1,052.00", gear4music: "£1,039.00" }, oos: ["musicstore"] },
+  42: { prices: { reverb: "$1299.99", amazon: "$1299.99", zzounds: "$1,299.99", andertons: "£1,052.00", gear4music: "£1,039.00" , "musicstore": "$127.00"} },
   50: { prices: { amazon: "$99.00", zzounds: "$109.00", reverb: "$109.00", gear4music: "£103.75", andertons: "£103.00", musicstore: "€119.00" } },
   51: { prices: { amazon: "$275.00", zzounds: "$319.00", reverb: "$265.38", gear4music: "£222.00", andertons: "£231.00", musicstore: "€249.00" } },
   52: { prices: { amazon: "$449.00", zzounds: "$449.00", reverb: "$449.00", gear4music: "£575.00", andertons: "£549.00", musicstore: "€539.00" } },
@@ -102,7 +92,7 @@ const TEST_SHOP_BTN = {
   55: { prices: { amazon: "$179.00", zzounds: "$199.00", reverb: "$179.00", gear4music: "£142.00", andertons: "£149.00", musicstore: "€133.60" } },
   56: { prices: { reverb: "$169.00", amazon: "$169.00", zzounds: "$199.99", andertons: "£149.00", gear4music: "£129.00", musicstore: "€72.00" } },
   57: { prices: { reverb: "$139.80", amazon: "$139.80", andertons: "£134.00", gear4music: "£125.00", musicstore: "€144.50" }, oos: ["zzounds"] },
-  58: { prices: { reverb: "$94.99", amazon: "$94.99", zzounds: "$108.99", andertons: "£54.00", gear4music: "£54.40" }, oos: ["musicstore"] },
+  58: { prices: { reverb: "$94.99", amazon: "$94.99", zzounds: "$108.99", andertons: "£54.00", gear4music: "£54.40" , "musicstore": "$735.00"} },
   59: { prices: { amazon: "$165.99", andertons: "£77.00", gear4music: "£77.40" }, oos: ["zzounds", "musicstore"] },
   60: { prices: { pluginboutique: "$199.00", andertons: "£95.00", reverb: "$199.00" } },
   61: { prices: { pluginboutique: "$19.00", reverb: "$19.00", gear4music: "£41.99" }, oos: ["andertons"] },
@@ -114,11 +104,11 @@ const TEST_SHOP_BTN = {
   67: { prices: { reverb: "$849.99", amazon: "$849.99", gear4music: "£799.00", musicstore: "€948.70" }, oos: ["zzounds", "andertons"] },
   68: { prices: { reverb: "$204.99", amazon: "$204.99", andertons: "£179.00", gear4music: "£172.00" }, oos: ["zzounds", "musicstore"] },
   71: { prices: { reverb: "$789.99", amazon: "$789.99", zzounds: "$789.99", andertons: "£749.00", gear4music: "£749.00", musicstore: "€761.60" } },
-  72: { prices: { reverb: "$349.99", amazon: "$349.99", zzounds: "$299.99", andertons: "£259.00", gear4music: "£259.00" }, oos: ["musicstore"] },
-  73: { prices: { reverb: "$1,799.99", amazon: "$1,799.99", zzounds: "$1,799.99", andertons: "£1,629.00", gear4music: "£970.00" }, oos: ["musicstore"] },
-  74: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£599.00", gear4music: "£599.00" }, oos: ["musicstore"] },
-  75: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£649.00", gear4music: "£649.00" }, oos: ["musicstore"] },
-  76: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£749.00", gear4music: "£749.00" }, oos: ["musicstore"] },
+  72: { prices: { reverb: "$349.99", amazon: "$349.99", zzounds: "$299.99", andertons: "£259.00", gear4music: "£259.00" , "musicstore": "$50.00"} },
+  73: { prices: { reverb: "$1,799.99", amazon: "$1,799.99", zzounds: "$1,799.99", andertons: "£1,629.00", gear4music: "£970.00" , "musicstore": "$138.00"} },
+  74: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£599.00", gear4music: "£599.00" , "musicstore": "$196.00"} },
+  75: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£649.00", gear4music: "£649.00" , "musicstore": "$289.00"} },
+  76: { prices: { reverb: "$749.99", amazon: "$749.99", zzounds: "$749.99", andertons: "£749.00", gear4music: "£749.00" , "musicstore": "$2,250.00"} },
   91: { prices: { reverb: "$659.00", amazon: "$659.00", zzounds: "$659.00", andertons: "£569.00", gear4music: "£589.00", musicstore: "€595.00" } },
   92: { prices: { amazon: "$849.00" }, oos: ["zzounds", "andertons", "musicstore", "gear4music"] },
   93: { prices: { reverb: "$2499.00", amazon: "$2499.00", zzounds: "$1,099.00", gear4music: "£845.00", musicstore: "€675.00" }, oos: ["andertons"] },
@@ -153,8 +143,8 @@ const TEST_SHOP_BTN = {
   125: { prices: { reverb: "$719.99", amazon: "$719.99", gear4music: "£699.00" }, oos: ["zzounds", "andertons", "musicstore"] },
   126: { prices: { reverb: "$1,839.99", amazon: "$1,839.99", zzounds: "$1,839.99", andertons: "£1,599.00" }, oos: ["musicstore", "gear4music"] },
   127: { prices: { reverb: "$1,099.00", amazon: "$1,099.00", zzounds: "$999.00", andertons: "£765.00", gear4music: "£829.00", musicstore: "€889.00" } },
-  128: { prices: { reverb: "$469.99", amazon: "$469.99", zzounds: "$469.99", andertons: "£345.00", gear4music: "£345.00" }, oos: ["musicstore"] },
-  129: { prices: { reverb: "$404.40", amazon: "$404.40", zzounds: "$469.99", andertons: "£319.00", gear4music: "£314.00" }, oos: ["musicstore"] },
+  128: { prices: { reverb: "$469.99", amazon: "$469.99", zzounds: "$469.99", andertons: "£345.00", gear4music: "£345.00" , "musicstore": "$366.00"} },
+  129: { prices: { reverb: "$404.40", amazon: "$404.40", zzounds: "$469.99", andertons: "£319.00", gear4music: "£314.00" , "musicstore": "$333.00"} },
   130: { prices: { reverb: "$149.99", amazon: "$149.99", zzounds: "$149.99", andertons: "£129.00", musicstore: "€179.00" }, oos: ["gear4music"] },
   131: { prices: { reverb: "$349.00", amazon: "$349.00", zzounds: "$349.00", andertons: "£239.00", gear4music: "£238.00", musicstore: "€279.00" } },
   132: { prices: { andertons: "£859.00", gear4music: "£829.00", amazon: "$949.99" }, oos: ["musicstore"] },
@@ -171,13 +161,13 @@ const TEST_SHOP_BTN = {
   143: { prices: { reverb: "$1,899.00", amazon: "$1,899.00", zzounds: "$1,899.00", andertons: "£1,549.00", gear4music: "£1,634.00", musicstore: "€1,992.00" } },
   144: { prices: { reverb: "$299.99", amazon: "$299.99", andertons: "£249.00" }, oos: ["zzounds", "musicstore", "gear4music"] },
   145: { prices: { reverb: "$509.00", amazon: "$509.00", andertons: "£315.00", gear4music: "£315.00", musicstore: "€155.00" }, oos: ["zzounds"] },
-  146: { prices: { reverb: "$380.00", amazon: "$380.00", zzounds: "$379.99", andertons: "£281.00", gear4music: "£302.50" }, oos: ["musicstore"] },
-  147: { prices: { reverb: "$1,099.99", amazon: "$1,099.99", zzounds: "$1,199.99", andertons: "£829.00", gear4music: "£835" }, oos: ["musicstore"] },
+  146: { prices: { reverb: "$380.00", amazon: "$380.00", zzounds: "$379.99", andertons: "£281.00", gear4music: "£302.50" , "musicstore": "$311.00"} },
+  147: { prices: { reverb: "$1,099.99", amazon: "$1,099.99", zzounds: "$1,199.99", andertons: "£829.00", gear4music: "£835" , "musicstore": "$780.67"} },
   148: { prices: { reverb: "$2,499.00", amazon: "$2,499.00", andertons: "£1,452.00" }, oos: ["zzounds", "musicstore", "gear4music"] },
   149: { prices: { reverb: "$675.00", amazon: "$675.00", zzounds: "$573.74", andertons: "£599.00" }, oos: ["musicstore", "gear4music"] },
   150: { prices: { reverb: "$268.00", amazon: "$268.00", andertons: "£169.00" }, oos: ["zzounds", "musicstore", "gear4music"] },
   151: { prices: { reverb: "$374.99", amazon: "$374.99" }, oos: ["zzounds", "andertons", "musicstore", "gear4music"] },
-  152: { prices: { reverb: "$1,232.49", amazon: "$1,232.49", zzounds: "$1,232.49", andertons: "£975.00", gear4music: "£989.00" }, oos: ["musicstore"] },
+  152: { prices: { reverb: "$1,232.49", amazon: "$1,232.49", zzounds: "$1,232.49", andertons: "£975.00", gear4music: "£989.00" , "musicstore": "$1,091.60"} },
   153: { prices: { reverb: "$399.00", amazon: "$399.00", zzounds: "$399.00", andertons: "£295.00", gear4music: "£322.00", musicstore: "€89.00" } },
   154: { prices: { reverb: "$390.99", amazon: "$390.99", andertons: "£394.00", gear4music: "£394.00" }, oos: ["zzounds", "musicstore"] },
   155: { prices: { reverb: "$1,689.99", amazon: "$1,689.99", zzounds: "$1,889.99", andertons: "£1,879.00", gear4music: "£1,879.00", musicstore: "€2,113.00" } },
@@ -197,14 +187,14 @@ const TEST_SHOP_BTN = {
   173: { prices: { reverb: "$23.00", amazon: "$23.00" }, oos: ["andertons", "musicstore", "gear4music"] },
   174: { prices: { reverb: "$3473.73", amazon: "$3473.73", zzounds: "$3,499.99", andertons: "£2,899.00" }, oos: ["musicstore", "gear4music"] },
   175: { prices: { reverb: "$4399.99", amazon: "$4399.99", zzounds: "$3,499.99", andertons: "£3,899.00" }, oos: ["musicstore", "gear4music"] },
-  176: { prices: { reverb: "$3299.00", amazon: "$3299.00", zzounds: "$3,499.00", andertons: "£4,999.00", gear4music: "£2,850.00" }, oos: ["musicstore"] },
+  176: { prices: { reverb: "$3299.00", amazon: "$3299.00", zzounds: "$3,499.00", andertons: "£4,999.00", gear4music: "£2,850.00" , "musicstore": "$3,057.00"} },
   177: { prices: { reverb: "$2,995.00", amazon: "$2,995.00", gear4music: "£2,899.00" }, oos: ["andertons"] },
   178: { prices: { reverb: "$1,199.00", amazon: "$1,199.00", gear4music: "£1,079.00" }, oos: ["andertons", "musicstore"] },
   180: { prices: { reverb: "$3,999.99", amazon: "$3,999.99", gear4music: "£2,954.00" }, oos: ["andertons", "musicstore"] },
   181: { prices: { reverb: "$4,199.00", amazon: "$4,199.00", gear4music: "£3,120.00" }, oos: ["andertons", "musicstore"] },
-  182: { prices: { reverb: "$4999.00", amazon: "$4999.00", zzounds: "$3,899.00", andertons: "£3,821.00", gear4music: "£3,859.00" }, oos: ["musicstore"] },
-  183: { prices: { reverb: "$3199.00", amazon: "$3199.00", zzounds: "$3,199.00", andertons: "£2,035.00", gear4music: "£2,213.00" }, oos: ["musicstore"] },
-  184: { prices: { reverb: "$2,299.99", amazon: "$2,299.99", zzounds: "$2,299.99", andertons: "£1,999.00", gear4music: "£2,309.00" }, oos: ["musicstore"] },
+  182: { prices: { reverb: "$4999.00", amazon: "$4999.00", zzounds: "$3,899.00", andertons: "£3,821.00", gear4music: "£3,859.00" , "musicstore": "$2,222.00"} },
+  183: { prices: { reverb: "$3199.00", amazon: "$3199.00", zzounds: "$3,199.00", andertons: "£2,035.00", gear4music: "£2,213.00" , "musicstore": "$2,139.00"} },
+  184: { prices: { reverb: "$2,299.99", amazon: "$2,299.99", zzounds: "$2,299.99", andertons: "£1,999.00", gear4music: "£2,309.00" , "musicstore": "$2,299.00"} },
   185: { prices: { reverb: "$2299.99", amazon: "$2299.99", zzounds: "$2,299.99", andertons: "£2,049.00", gear4music: "£2,079.00" }, oos: ["musicstore"] },
   186: { prices: { reverb: "$2749.00", amazon: "$2749.00", zzounds: "$2,549.00", andertons: "£2,599.00" }, oos: ["musicstore", "gear4music"] },
   187: { prices: { reverb: "$3499.00", amazon: "$3499.00", zzounds: "$3,499.00", andertons: "£2,566.00", musicstore: "€3,190.00" }, oos: ["gear4music"] },
@@ -404,7 +394,7 @@ const TEST_SHOP_BTN = {
   392: { prices: { pluginboutique: "$99.00", gear4music: "£75.00", musicstore: "£78.00" } },
   393: { prices: { pluginboutique: "$45.00" } },
   394: { prices: { pluginboutique: "$79.00" } }
-};
+}
 
 function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
@@ -423,31 +413,31 @@ function shopButtonsTest(p, lang) {
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
   const rowUrl = k => (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]);
   const isPlugins = p.category === 'plugins';
-  const pUrl = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : stores.amazon) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
+  const pUrl = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
   if (!pUrl) return '';
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
-  const hasAmazonSPA = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
+  const hasAmazon = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
+  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : hasAmazon ? 'amazon' : Object.keys(prices)[0] || avail[0] || 'official';
   const primaryBtn =
-    '<a' + (hasAmazonSPA ? ' data-store="amazon"' : '') + ' href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
+    '<a' + (hasAmazon ? ' data-store="amazon"' : '') + ' href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
-    'white-space:nowrap;overflow:hidden;text-overflow:ellipsis;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span>' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en ', 'Buy at ')) + (isLogic ? '' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>' : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400\'>PLUG<span style=\'color:#000\'>IN</span>BOUTIQUE</span>' : '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>') + (pPrice ? '- ' + pPrice : '') + '</span></a>';
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400\'>PLUG<span style=\'color:#000\'>IN</span>BOUTIQUE</span>' : (hasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : '<span style="' + (SHOP_LOGO_STYLE[primaryStoreKey]||'font-weight:700') + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '- ' + pPrice : '') + '</span></a>';
   const rows = order.map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
     const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'] };
-    const storeNote = storeNotes[k] ? '<span style="color:#555;font-size:12px;font-weight:600">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
+    const storeNote = storeNotes[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
-      return '<div' + ds + ' style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
+      return '<div' + ds + ' style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;cursor:default"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('No disponible', 'Not Available') + '</span></div>';
     }
     if (oosList.indexOf(k) > -1) {
-      return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#777;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#777;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
+      return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Agotado', 'Out of stock') + '</span></a>';
     }
-    const pr = prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + ((k === 'reverb' || k === 'gear4music' || k === 'musicstore') ? '<span style="color:#555;font-size:12px;font-weight:600">' + t('aprox.', 'approx.') + '</span>' : '') + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '';
+    const pr = prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + ((k === 'gear4music') ? '' : (k === 'reverb') ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t('aprox.', 'approx.') + '</span>' : '') + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '';
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
@@ -456,78 +446,18 @@ function shopButtonsTest(p, lang) {
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';if(open){l.style.overflow=\'hidden\';l.style.maxHeight=\'0px\';}else{l.style.maxHeight=l.scrollHeight+\'px\';setTimeout(function(){l.style.overflow=\'visible\';},330);}var s=this.querySelectorAll(\'svg\')[1];if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
-    'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
-    'white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .2s ease,transform .18s ease" ' +
+    'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span>' + t('Comparar en 5 tiendas más', 'Compare 5 more stores') + chevSvg + '</span></span>' + '</button>' +
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en 5 tiendas más', 'Compare 5 more stores') + chevSvg + '</span></span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
   return isLogic ? primaryBtn : primaryBtn + moreBtn;
-};
+}
 
-window.tmgStoreButtons = function (p) {
-  try {
-    return shopButtonsTest(p, typeof currentLang !== "undefined" ? currentLang : "en");
-  } catch (e) { /* fallback a chips */ }
-  return null;
-};
 
-window.tmgGeoSwap = function () {
-  try {
-    function doSwapSPA() {
-    var globe = '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0"><defs><linearGradient id="glgGeoSPA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeoSPA"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeoSPA)"/><g clip-path="url(#glcGeoSPA)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#fff" stroke-opacity=".4"/></svg>';
-    document.querySelectorAll('.guide-product-card-stores, .tmg-store-buttons').forEach(function (c) {
-      var pb = c.querySelector('.shop-btn-primary');
-      if (!pb || pb.getAttribute('data-store') !== 'amazon') return;
-      var zRow = c.querySelector('[data-store="zzounds"]');
-      if (!zRow) return;
-      if (!zRow.getAttribute('href')) return;
-      var isNA = zRow.style.cursor === 'default' || zRow.getAttribute('style').indexOf('cursor:default') > -1;
-      if (isNA) return;
-      var zUrl = zRow.getAttribute('href');
-      var zPrice = '';
-      var zMatch = zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);
-      if (zMatch) zPrice = zMatch[1];
-      var storeStyles = { zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px" };
-      var newPrimary = '<a href="' + zUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="' + storeStyles.zzounds + '">zZounds</span>' + (zPrice ? ' - ' + zPrice : '') + '</span></span></a>';
-      zRow.style.display = 'none';
-      pb.insertAdjacentHTML('beforebegin', newPrimary);
-      var aUrl = pb.getAttribute('href');
-      var aPrice = '';
-      var aPriceMatch = pb.innerHTML.match(/\$[\d,.]+/);
-      if (aPriceMatch) aPrice = aPriceMatch[0];
-      pb.remove();
-      var ml = c.querySelector('.shop-more-list');
-      if (ml) {
-        var amazonSvg = '<svg viewBox="86 114 320 72" preserveAspectRatio="none" style="position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px"><path fill="#FF9900" d="m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965"/><path fill="#FF9900" d="m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203"/></svg>';
-        var aPriceHtml = aPrice ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + aPrice + '</span></span>' : '';
-        var newAmazonRow = '<a data-store="amazon" href="' + aUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#fff;text-decoration:none;font-size:15px;font-weight:800;border:none">' + globe + '<span style="font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#fff;position:relative;display:inline-block">Amaz' + amazonSvg + 'on</span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span>' + aPriceHtml + '</a>';
-        ml.insertAdjacentHTML('afterbegin', newAmazonRow);
-      }
-    });
-    }
-    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    var isUSTZ = /^America[\/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay)\b/.test(tz);
-    if (isUSTZ) { doSwapSPA(); return; }
-    try {
-      var cached = localStorage.getItem('tmgGeoUS');
-      if (cached === '1') { doSwapSPA(); return; }
-      if (cached === '0') return;
-    } catch (e) {}
-    var x = new XMLHttpRequest();
-    x.open('GET', 'https://ipinfo.io/json', true);
-    x.timeout = 3000;
-    x.onload = function () {
-      try {
-        var r = JSON.parse(x.responseText);
-        if (r.country === 'US') {
-          try { localStorage.setItem('tmgGeoUS', '1'); } catch (e) {}
-          doSwapSPA();
-        } else {
-          try { localStorage.setItem('tmgGeoUS', '0'); } catch (e) {}
-        }
-      } catch (e) {}
-    };
-    x.onerror = x.ontimeout = function () {};
-    x.send();
-  } catch (e) { /* silent */ }
+window.tmgStoreButtons = function(p) {
+  var lang = document.documentElement.lang || 'en';
+  var isEs = lang.indexOf('es') === 0;
+  var cat = (window.currentGuideCategory || '').toLowerCase();
+  if (cat === 'daw') return '';
+  try { return shopButtonsTest(p, isEs); } catch(e) { return ''; }
 };
