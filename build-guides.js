@@ -292,8 +292,15 @@ function euFlag() {
     }
     pts.push(sp.trim());
   }
-  return flagBadge('<rect width="24" height="16" fill="#003399"/>' +
-    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join(''));
+  var cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="14" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' +
+    '<rect width="24" height="16" fill="#003399"/>' +
+    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
+    '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
 }
 function globeIcon() {
   const gid = 'glg' + (++FLAG_UID);
