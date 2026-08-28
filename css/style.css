@@ -1718,13 +1718,7 @@ footer ul li a:hover { color: var(--accent); }
   contain: layout style;
 }
 
-.guide-section-heading {
-  font-size: 20px;
-  font-weight: 800;
-  color: var(--white);
-  margin-bottom: 12px;
-  letter-spacing: -.3px;
-}
+
 
 .guide-section-content {
   font-size: 15px;
