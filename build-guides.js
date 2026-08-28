@@ -694,7 +694,15 @@ const TEST_SHOP_BTN = {
   415: { prices: { musicstore: "€9,999.00" } },
   416: { prices: { amazon: "$25,490.00", musicstore: "€28,999.00" } },
   417: { prices: { amazon: "$5,999.00", gear4music: "£5,249.00", musicstore: "€6,499.00" } },
-  418: { prices: { amazon: "$2,999.00" } }
+  418: { prices: { amazon: "$2,999.00" } },
+  419: { prices: { amazon: "$99.00", gear4music: "£75.00" } },
+  420: { prices: { amazon: "$99.00", gear4music: "£51.80" } },
+  421: { prices: { amazon: "$249.00", gear4music: "£75.00" } },
+  422: { prices: { amazon: "$279.00", gear4music: "£149.00" } },
+  423: { prices: { amazon: "$349.00", gear4music: "£255.00" } },
+  424: { prices: { amazon: "$599.00", gear4music: "£559.00" } },
+  425: { prices: { amazon: "$179.00" } },
+  426: { prices: { amazon: "$149.00", gear4music: "£139.00" } }
 };
 
 function shopButtonsTest(p, lang) {
