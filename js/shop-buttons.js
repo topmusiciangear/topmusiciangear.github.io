@@ -9,6 +9,15 @@ function flagBadge(inner) {
     '<g clip-path="url(#' + cid + ')">' + inner + '</g>' +
     '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
     '</svg>';
+};
+
+function flagBadge(inner) {
+  const cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' + inner + '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
 }
 
 function usaFlag() {
@@ -29,30 +38,6 @@ function ukFlag() {
   return flagBadge(s);
 };
 
-function euFlag() {
-  var scx = 12, scy = 8, sr = 5.5, ssr = 1.35, pts = [];
-  for (var i = 0; i < 12; i++) {
-    var a = (i * 30 - 90) * Math.PI / 180;
-    var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
-    var sp = '';
-    for (var j = 0; j < 5; j++) {
-      var ao = ((j * 72 - 90) * Math.PI / 180), ai = (((j * 72 + 36) - 90) * Math.PI / 180);
-      sp += (cx + ssr * Math.cos(ao)).toFixed(2) + ',' + (cy + ssr * Math.sin(ao)).toFixed(2) + ' ';
-      sp += (cx + ssr * 0.38 * Math.cos(ai)).toFixed(2) + ',' + (cy + ssr * 0.38 * Math.sin(ai)).toFixed(2) + ' ';
-    }
-    pts.push(sp.trim());
-  }
-  var cid = 'flgc' + (++FLAG_UID);
-  return '<svg viewBox="0 0 24 16" width="19" height="16" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
-    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
-    '<g clip-path="url(#' + cid + ')">' +
-    '<rect width="24" height="16" fill="#003399"/>' +
-    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
-    '</g>' +
-    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
-    '</svg>';
-};
-
 function globeIcon() {
   return flagBadge('<circle cx="12" cy="8" r="5.5" fill="none" stroke="#fff" stroke-width="1"/>' +
     '<ellipse cx="12" cy="8" rx="2.5" ry="5.5" fill="none" stroke="#fff" stroke-width=".8"/>' +
@@ -62,7 +47,7 @@ function globeIcon() {
 
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb" };;
 
-const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: ukFlag(), musicstore: euFlag(), andertons: ukFlag() };
+const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: globeIcon(), musicstore: globeIcon(), andertons: ukFlag() };
 
 const TEST_SHOP_BTN = {
   1: { prices: { amazon: "$439.00", zzounds: "$439.00", reverb: "$439.00", gear4music: "£379.00", andertons: "£379.00", musicstore: "€389.00" } },
@@ -424,14 +409,14 @@ const TEST_SHOP_BTN = {
   387: { prices: { pluginboutique: "$39.00" } },
   389: { prices: { pluginboutique: "$49.00" } },
   390: { prices: { pluginboutique: "€101.48" } },
-  402: { prices: { amazon: "$1,999.00" } },
-  403: { prices: { amazon: "$3,349.00" } },
-  404: { prices: { amazon: "$3,999.00" } },
-  405: { prices: { amazon: "$4,199.00" } },
+  402: { prices: { amazon: "$1,999.00", gear4music: "£1,447.00" }, oos: ["zzounds"] },
+  403: { prices: { gear4music: "£3,139.00" }, oos: ["amazon", "zzounds"] },
   406: { prices: { amazon: "$1,599.99" } },
-  407: { prices: { amazon: "$2,799.99" } },
-  408: { prices: { amazon: "$1,399.99" } },
-  409: { prices: { amazon: "$2,599.99" } }
+  408: { prices: { amazon: "$1,399.99", gear4music: "£1,036.00" } },
+  410: { prices: { amazon: "$1,499.00", zzounds: "$1,499.00", gear4music: "£719.00", andertons: "£749.00", musicstore: "$839.00" } },
+  411: { prices: { amazon: "$1,699.99", andertons: "£1,399.00" } },
+  412: { prices: { amazon: "$2,499.00", reverb: "$2,180.00", musicstore: "$1,933.00" } },
+  413: { prices: { amazon: "$1,689.99", musicstore: "$1,673.00" } }
 }
 
 function shopButtonsTest(p, lang) {

@@ -682,14 +682,14 @@ const TEST_SHOP_BTN = {
   387: { prices: { pluginboutique: "$39.00" } },
   389: { prices: { pluginboutique: "$49.00" } },
   390: { prices: { pluginboutique: "€101.48" } },
-  402: { prices: { amazon: "$1,999.00" } },
-  403: { prices: { amazon: "$3,349.00" } },
-  404: { prices: { amazon: "$3,999.00" } },
-  405: { prices: { amazon: "$4,199.00" } },
+  402: { prices: { amazon: "$1,999.00", gear4music: "£1,447.00" }, oos: ["zzounds"] },
+  403: { prices: { gear4music: "£3,139.00" }, oos: ["amazon", "zzounds"] },
   406: { prices: { amazon: "$1,599.99" } },
-  407: { prices: { amazon: "$2,799.99" } },
-  408: { prices: { amazon: "$1,399.99" } },
-  409: { prices: { amazon: "$2,599.99" } }
+  408: { prices: { amazon: "$1,399.99", gear4music: "£1,036.00" } },
+  410: { prices: { amazon: "$1,499.00", zzounds: "$1,499.00", gear4music: "£719.00", andertons: "£749.00", musicstore: "$839.00" } },
+  411: { prices: { amazon: "$1,699.99", andertons: "£1,399.00" } },
+  412: { prices: { amazon: "$2,499.00", reverb: "$2,180.00", musicstore: "$1,933.00" } },
+  413: { prices: { amazon: "$1,689.99", musicstore: "$1,673.00" } }
 };
 
 function shopButtonsTest(p, lang) {

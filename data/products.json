@@ -8627,45 +8627,6 @@
     }
   },
   {
-    "id": 404,
-    "title": "Allen & Heath SQ-5",
-    "title_es": "Allen & Heath SQ-5",
-    "brand": "Allen & Heath",
-    "category": "mixers",
-    "price": 3999,
-    "rating": 4.7,
-    "reviews": 890,
-    "badge": "pro-pick",
-    "desc": "48-channel, 36-bus digital mixer with 96 kHz XCVI FPGA processing, 16+1 motorized faders, 8 stereo FX engines, 32x32 USB audio interface, and DEEP Processing.",
-    "desc_es": "Mezclador digital de 48 canales y 36 buses con procesamiento FPGA XCVI de 96 kHz, 16+1 faders motorizados, 8 motores FX estéreo, interfaz USB 32x32 y DEEP Processing.",
-    "img": "https://www.gear4music.com/media/28/285123/1200/preview.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B0787G8LBT",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FAllen-and-Heath-SQ-5-Digital-Mixer%2F26QX",
-      "zzounds": "https://www.zzounds.com/a--925521/item--ALHSQ5"
-    }
-  },
-  {
-    "id": 405,
-    "title": "Behringer WING",
-    "title_es": "Behringer WING",
-    "brand": "Behringer",
-    "category": "mixers",
-    "price": 4199,
-    "rating": 4.5,
-    "reviews": 680,
-    "badge": "innovator",
-    "desc": "48-stereo-channel digital mixer with 8 Midas PRO preamps, 24 motorized faders, 10-inch touchscreen, 48x48 USB interface, dual SD recorder, and 16 true-stereo FX processors.",
-    "desc_es": "Mezclador digital de 48 canales estéreo con 8 preamplificadores Midas PRO, 24 faders motorizados, pantalla táctil de 10 pulgadas, interfaz USB 48x48, grabadora SD dual y 16 procesadores FX estéreo.",
-    "img": "https://www.gear4music.com/media/38/381234/1200/preview.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B082YG37S9",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FBehringer-WING-Digital-Mixer%2F37LK",
-      "zzounds": "https://www.zzounds.com/a--925521/item--BEHWING",
-      "andertons": "https://www.andertons.co.uk/behringer-wing-48-channel-28-bus-full-stereo-digital-mixing-console-with-24-fader-control-surface-and-10-touch-screen/"
-    }
-  },
-  {
     "id": 406,
     "title": "PreSonus StudioLive SE 32R",
     "title_es": "PreSonus StudioLive SE 32R",
@@ -8682,24 +8643,6 @@
       "amazon": "https://www.amazon.com/dp/B0GMYJWP2M",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FPresonus-StudioLive-SE-32R-Rack-Mixer%2F7XK1",
       "zzounds": "https://www.zzounds.com/a--925521/item--PRESLSE32R"
-    }
-  },
-  {
-    "id": 407,
-    "title": "Yamaha TF3",
-    "title_es": "Yamaha TF3",
-    "brand": "Yamaha",
-    "category": "mixers",
-    "price": 2800,
-    "rating": 4.6,
-    "reviews": 1100,
-    "badge": "editor-choice",
-    "desc": "24-channel digital mixer with TouchFlow Operation, 25 motorized faders, 48 input channels, 20 aux buses, recallable D-PRE preamps, and 34x34 USB recording.",
-    "desc_es": "Mezclador digital de 24 canales con TouchFlow Operation, 25 faders motorizados, 48 canales de entrada, 20 buses aux, preamplificadores D-PRE recallables y grabación USB 34x34.",
-    "img": "https://www.gear4music.com/media/35/351234/1200/preview.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B00WWCFDV0",
-      "zzounds": "https://www.zzounds.com/a--925521/item--YAMTF3"
     }
   },
   {
@@ -8722,21 +8665,81 @@
     }
   },
   {
-    "id": 409,
-    "title": "Allen & Heath Qu-5D",
-    "title_es": "Allen & Heath Qu-5D",
-    "brand": "Allen & Heath",
+    "id": 410,
+    "title": "Soundcraft Ui24R",
+    "title_es": "Soundcraft Ui24R",
+    "brand": "Soundcraft",
     "category": "mixers",
-    "price": 2600,
-    "rating": 4.6,
-    "reviews": 420,
-    "badge": "new",
-    "desc": "38-channel, 24-bus 96 kHz digital mixer with 16 digitally controlled preamps, 17 motorized faders, 6 Multi-FX engines, 16x16 Dante interface, and 7-inch touchscreen.",
-    "desc_es": "Mezclador digital de 38 canales y 24 buses a 96 kHz con 16 preamplificadores digitalmente controlados, 17 faders motorizados, 6 motores Multi-FX, interfaz Dante 16x16 y pantalla táctil de 7 pulgadas.",
-    "img": "https://www.gear4music.com/media/50/501234/1200/preview.jpg",
+    "price": 1369,
+    "rating": 4.7,
+    "reviews": 380,
+    "badge": "wireless-champ",
+    "desc": "24-channel rack-mount digital mixer with 20 Studer-designed preamps, built-in dual-band Wi-Fi, Lexicon/dbx/DigiTech processing, and 24-track USB recording.",
+    "desc_es": "Mezcladora digital de rack de 24 canales con 20 preamplificadores Studer, Wi-Fi dual integrado, procesamiento Lexicon/dbx/DigiTech y grabación USB de 24 pistas.",
+    "img": "https://r2.gear4music.com/media/23/234986/1200/preview.jpg",
     "stores": {
-      "amazon": "https://www.amazon.com/dp/B0FM5W9FH6",
-      "zzounds": "https://www.zzounds.com/a--925521/item--ALHQU5D"
+      "amazon": "https://www.amazon.com/dp/B079L75NBL",
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FSoundcraft-Ui24R-Digital-Rack-Mixer%2F1TGB",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SOUUI24R",
+      "reverb": "https://reverb.com/p/soundcraft-ui24r",
+      "andertons": "https://www.andertons.co.uk/soundcraft-ui24r-digital-mixing-multi-track-recording-system/",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Soundcraft-Ui24R-Digital-Mixer-Recording-System/art-PAH0018764-000"
+    }
+  },
+  {
+    "id": 411,
+    "title": "Yamaha DM3 Standard",
+    "title_es": "Yamaha DM3 Standard",
+    "brand": "Yamaha",
+    "category": "mixers",
+    "price": 1499,
+    "rating": 4.8,
+    "reviews": 210,
+    "badge": "touchscreen",
+    "desc": "22-channel ultra-compact digital mixer with 96 kHz sampling, 16 D-PRE preamps, 9-inch multi-touch screen, 18x18 USB interface, and optional Dante connectivity.",
+    "desc_es": "Mezcladora digital ultracompacta de 22 canales con muestreo de 96 kHz, 16 preamplificadores D-PRE, pantalla multi-touch de 9 pulgadas, interfaz USB 18x18 y conectividad Dante opcional.",
+    "img": "https://r2.gear4music.com/media/92/926219/1200/preview.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0BYKHPVXZ",
+      "reverb": "https://reverb.com/p/yamaha-dm3-standard",
+      "andertons": "https://www.andertons.co.uk/yamaha-dm3s-standard-digital-mixer/"
+    }
+  },
+  {
+    "id": 412,
+    "title": "Midas M32R LIVE",
+    "title_es": "Midas M32R LIVE",
+    "brand": "Midas",
+    "category": "mixers",
+    "price": 2799,
+    "rating": 4.8,
+    "reviews": 1650,
+    "badge": "compact-premium",
+    "desc": "40-channel compact digital console with 16 Midas PRO preamps, 25 mix buses, dual SD multitrack recording, 32x32 USB interface, and 17 motorized faders.",
+    "desc_es": "Consola digital compacta de 40 canales con 16 preamplificadores Midas PRO, 25 buses de mezcla, grabación multitrack dual SD, interfaz USB 32x32 y 17 faders motorizados.",
+    "img": "https://r2.gear4music.com/media/64/648358/1200/preview.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B07VMGPVT3",
+      "reverb": "https://reverb.com/p/midas-m32r-live",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Midas-M32R-LIVE/art-PAH0020800-000"
+    }
+  },
+  {
+    "id": 413,
+    "title": "PreSonus StudioLive 32SC",
+    "title_es": "PreSonus StudioLive 32SC",
+    "brand": "PreSonus",
+    "category": "mixers",
+    "price": 1899,
+    "rating": 4.6,
+    "reviews": 340,
+    "badge": "usb-champion",
+    "desc": "40-channel compact digital mixer with 16 XMAX-R preamps, 16 FlexMixes, 64x64 USB interface, built-in AVB networking, and dual-core FLEX DSP Engine.",
+    "desc_es": "Mezcladora digital compacta de 40 canales con 16 preamplificadores XMAX-R, 16 FlexMixes, interfaz USB 64x64, red AVB integrada y motor FLEX DSP de dos núcleos.",
+    "img": "https://r2.gear4music.com/media/46/460564/1200/preview.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B07Q26LJDN",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Presonus-StudioLive-32SC/art-REC0014239-000"
     }
   }
 ]
