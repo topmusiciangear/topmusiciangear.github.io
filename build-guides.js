@@ -293,7 +293,7 @@ function euFlag() {
     pts.push(sp.trim());
   }
   var cid = 'flgc' + (++FLAG_UID);
-  return '<svg viewBox="0 0 24 16" width="19" height="14" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+  return '<svg viewBox="0 0 24 16" width="19" height="15" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
     '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
     '<g clip-path="url(#' + cid + ')">' +
     '<rect width="24" height="16" fill="#003399"/>' +
