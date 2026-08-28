@@ -280,7 +280,7 @@ function ukFlag() {
     '<path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
 }
 function euFlag() {
-  var scx = 12, scy = 8, sr = 5.5, ssr = 1.2, pts = [];
+  var scx = 12, scy = 8, sr = 5.5, ssr = 1.35, pts = [];
   for (var i = 0; i < 12; i++) {
     var a = (i * 30 - 90) * Math.PI / 180;
     var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
