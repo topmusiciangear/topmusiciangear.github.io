@@ -66355,6 +66355,298 @@
           ]
         }
       ]
-    }
+    },
+    "verdict": "The Behringer X32 delivers the best value with MIDAS preamps and a mature ecosystem. The Midas M32 LIVE is the premium choice for sound quality and build. The Allen & Heath SQ-6 dominates the 24-channel category with 96 kHz processing. For churches and venues needing wireless mixing, the Soundcraft Ui24R and Mackie DL32SE lead the rack-mount field. The Yamaha TF3 offers excellent portability and Yamaha reliability.",
+    "verdict_es": "La Behringer X32 ofrece la mejor relacion calidad-precio con preamplificadores MIDAS y un ecosistema maduro. La Midas M32 LIVE es la opcion premium en calidad de sonido y construccion. La Allen & Heath SQ-6 domina la categoria de 24 canales con procesamiento a 96 kHz. Para iglesias y venues que necesitan mezcla inalambrica, la Soundcraft Ui24R y Mackie DL32SE lideran el campo de rack. La Yamaha TF3 ofrece excelente portabilidad y la fiabilidad de Yamaha.",
+    "verdictProsCons": [
+      {
+        "name": "Behringer X32",
+        "name_es": "Behringer X32",
+        "pros": [
+          "32 MIDAS-designed preamps at this price is unmatched",
+          "25 motorized faders for hands-on control",
+          "32-channel USB audio interface built in",
+          "Massive ecosystem of scenes, apps, and third-party support",
+          "Battle-tested in churches, studios, and touring rigs worldwide"
+        ],
+        "pros_es": [
+          "32 preamplificadores disenados por MIDAS a este precio es insuperable",
+          "25 faders motorizados para control manual",
+          "Interfaz de audio USB de 32 canales integrada",
+          "Enorme ecosistema de escenas, apps y soporte de terceros",
+          "Probada en iglesias, estudios y giras mundiales"
+        ],
+        "cons": [
+          "Heavy and bulky at 14 kg — not portable",
+          "USB interface limited to 32 channels (not 48)",
+          "No Dante or AES67 networking built in",
+          "Older UI feels dated compared to newer mixers",
+          "X32 Rack and Compact versions compromise on fader count"
+        ],
+        "cons_es": [
+          "Pesada y voluminosa a14 kg — no es portatil",
+          "Interfaz USB limitada a32 canales (no 48)",
+          "Sin Dante ni AES67 de fabrica",
+          "UI mas antigua se siente desactualizada vs mezcladoras nuevas",
+          "Las versiones Rack y Compact comprometen la cantidad de faders"
+        ]
+      },
+      {
+        "name": "Midas M32 LIVE",
+        "name_es": "Midas M32 LIVE",
+        "pros": [
+          "Award-winning Midas PRO microphone preamps",
+          "25 motorized faders with premium build quality",
+          "Dual SD card multitrack recording — no computer needed",
+          "AES50 networking for 96-channel expansion",
+          "Same layout as X32 for easy transition"
+        ],
+        "pros_es": [
+          "Preamplificadores Midas PRO ganadores de premios",
+          "25 faders motorizados con construccion premium",
+          "Grabacion multitrack dual en SD — sin necesidad de computadora",
+          "Red AES50 para expansion de96 canales",
+          "Misma disposicion que X32 para transicion facil"
+        ],
+        "cons": [
+          "Significantly more expensive than the X32",
+          "Same older UI design as the X32",
+          "Heavier than most competitors at 14 kg",
+          "No built-in touchscreen",
+          "Processing still at 48 kHz despite marketing claims"
+        ],
+        "cons_es": [
+          "Mucho mas cara que la X32",
+          "Mismo diseno de UI antiguo que la X32",
+          "Mas pesada que la mayoria de competidoras a 14 kg",
+          "Sin pantalla tactil integrada",
+          "Procesamiento sigue a48 kHz a pesar de las afirmaciones de marketing"
+        ]
+      },
+      {
+        "name": "Allen & Heath SQ-6",
+        "name_es": "Allen & Heath SQ-6",
+        "pros": [
+          "96 kHz XCVI FPGA processing with 0.7 ms latency",
+          "24 local XLR mic inputs expandable to 48 with stagebox",
+          "36 mix buses — more than any competitor at this size",
+          "32-channel USB recording to a thumb drive",
+          "7-inch touchscreen with intuitive workflow"
+        ],
+        "pros_es": [
+          "Procesamiento XCVI FPGA a96 kHz con 0.7 ms de latencia",
+          "24 entradas XLR locales expandibles a48 con stagebox",
+          "36 buses de mezcla — mas que cualquier competidor de este tamano",
+          "Grabacion USB de32 canales en unidad flash",
+          "Pantalla tactil de7 pulgadas con flujo de trabajo intuitivo"
+        ],
+        "cons": [
+          "24 local inputs may not be enough for large bands",
+          "7-inch screen smaller than competitors",
+          "Optional Dante and Waves cards add cost",
+          "Learning curve if coming from Behringer or Yamaha",
+          "Not as widely supported in the used market as X32"
+        ],
+        "cons_es": [
+          "24 entradas locales pueden no ser suficientes para bandas grandes",
+          "Pantalla de7 pulgadas mas pequena que competidores",
+          "Las tarjetas opcionales Dante y Waves agregan costo",
+          "Curva de aprendizaje si vienes de Behringer o Yamaha",
+          "No tan ampliamente disponible en el mercado usado como la X32"
+        ]
+      },
+      {
+        "name": "Soundcraft Ui24R",
+        "name_es": "Soundcraft Ui24R",
+        "pros": [
+          "Wi-Fi mixing from any device — no external router needed",
+          "Compact 1U rack format saves space",
+          "24 Class A mic preamps with Hi-Q recording",
+          "Multi-channel USB recording up to 32 tracks",
+          "Built-in Lexicon effects and dbx processing"
+        ],
+        "pros_es": [
+          "Mezcla Wi-Fi desde cualquier dispositivo — sin router externo",
+          "Formato rack compacto de1U ahorra espacio",
+          "24 preamplificadores Clase A con grabacion Hi-Q",
+          "Grabacion USB multicanal hasta32 pistas",
+          "Efectos Lexicon y procesamiento dbx integrados"
+        ],
+        "cons": [
+          "No motorized faders — all control is via tablet or computer",
+          "No physical mixing surface at all",
+          "Built-in Wi-Fi can struggle with many devices",
+          "Soundcraft app less polished than competitors",
+          "No AES50 or Dante networking built in"
+        ],
+        "cons_es": [
+          "Sin faders motorizados — todo el control es via tablet o computadora",
+          "Sin superficie de mezcla fisica en absoluto",
+          "El Wi-Fi integrado puede fallar con muchos dispositivos",
+          "La app de Soundcraft menos pulida que competidores",
+          "Sin red AES50 ni Dante integrada"
+        ]
+      },
+      {
+        "name": "Yamaha TF3",
+        "name_es": "Yamaha TF3",
+        "pros": [
+          "17 motorized faders with excellent Yamaha build quality",
+          "TouchFlow Operation — intuitive touchscreen mixing",
+          "24 input channels with D-PRE preamps",
+          "Dual USB 2.0 multitrack recording",
+          "Compact and lightweight for portable setups"
+        ],
+        "pros_es": [
+          "17 faders motorizados con excelente calidad Yamaha",
+          "TouchFlow Operation — mezcla intuitiva con pantalla tactil",
+          "24 canales de entrada con preamplificadores D-PRE",
+          "Grabacion multitrack USB 2.0 dual",
+          "Compacta y ligera para configuraciones portatiles"
+        ],
+        "cons": [
+          "Only 16 mic preamps on the unit itself",
+          "TF3 has fewer faders than competitors at this price",
+          "No Dante built in — requires NY64-D card",
+          "Yamaha workflow differs significantly from other brands",
+          "No AES50 networking for stagebox expansion"
+        ],
+        "cons_es": [
+          "Solo 16 preamplificadores en la unidad",
+          "TF3 tiene menos faders que competidoras a este precio",
+          "Sin Dante integrado — requiere tarjeta NY64-D",
+          "El flujo de trabajo de Yamaha difiere significativamente de otras marcas",
+          "Sin red AES50 para expansion con stagebox"
+        ]
+      },
+      {
+        "name": "Behringer X32 Compact",
+        "name_es": "Behringer X32 Compact",
+        "pros": [
+          "Same 32 MIDAS preamps as the full-size X32",
+          "16 motorized faders in a smaller footprint",
+          "Full X32 ecosystem compatibility",
+          "32-channel USB audio interface",
+          "More portable at 7 kg lighter than the full X32"
+        ],
+        "pros_es": [
+          "Mismos 32 preamplificadores MIDAS que la X32 completa",
+          "17 faders motorizados en formato mas pequeno",
+          "Compatibilidad total con el ecosistema X32",
+          "Interfaz de audio USB de32 canales",
+          "Mas portatil, 7 kg mas ligera que la X32 completa"
+        ],
+        "cons": [
+          "Fewer motorized faders than the full X32 (16 vs 25)",
+          "No built-in stagebox — need S16/D16 for remote I/O",
+          "Same older UI as the full X32",
+          "No Dante or AES67 built in",
+          "Physical mixing surface more cramped"
+        ],
+        "cons_es": [
+          "Menos faders motorizados que la X32 completa (16 vs 25)",
+          "Sin stagebox integrado — necesita S16/D16 para I/O remoto",
+          "Misma UI antigua que la X32 completa",
+          "Sin Dante ni AES67 de fabrica",
+          "Superficie de mezcla fisica mas apretada"
+        ]
+      },
+      {
+        "name": "Midas M32R LIVE",
+        "name_es": "Midas M32R LIVE",
+        "pros": [
+          "Same award-winning Midas PRO preamps as the full M32 LIVE",
+          "Dual SD multitrack recording — no laptop needed",
+          "16 motorized faders in a compact 4U rack format",
+          "AES50 networking for 96-channel expansion",
+          "Premium build quality with metal chassis"
+        ],
+        "pros_es": [
+          "Mismos preamplificadores Midas PRO ganadores de premios que la M32 LIVE completa",
+          "Grabacion multitrack dual en SD — sin portatil",
+          "16 faders motorizados en formato rack compacto de4U",
+          "Red AES50 para expansion de96 canales",
+          "Calidad de construccion premium con chasis metalico"
+        ],
+        "cons": [
+          "Only 16 local mic preamps — half the full M32 LIVE",
+          "Fewer faders mean more layers to navigate",
+          "No Dante built in — requires expansion card",
+          "Same older UI design",
+          "Expensive for the feature set compared to X32 Rack"
+        ],
+        "cons_es": [
+          "Solo 16 preamplificadores locales — mitad de la M32 LIVE completa",
+          "Menos faders significa mas capas para navegar",
+          "Sin Dante integrado — requiere tarjeta de expansion",
+          "Mismo diseno de UI antiguo",
+          "Cara para el conjunto de funciones vs X32 Rack"
+        ]
+      },
+      {
+        "name": "Mackie DL32SE",
+        "name_es": "Mackie DL32SE",
+        "pros": [
+          "Master Fader app is one of the best mixing apps available",
+          "32 Onyx+ mic preamps with recallable gain",
+          "32x32 USB interface for DAW recording",
+          "4 stereo FX processors built in",
+          "Compact 3U rack mount with Dante option"
+        ],
+        "pros_es": [
+          "La app Master Fader es una de las mejores apps de mezcla disponibles",
+          "32 preamplificadores Onyx+ con ganancia recordable",
+          "Interfaz USB 32x32 para grabacion con DAW",
+          "4 procesadores de efectos estereo integrados",
+          "Rack compacto de3U con opcion Dante"
+        ],
+        "cons": [
+          "No motorized faders — tablet-only mixing",
+          "Master Fader app requires iPad or Android tablet",
+          "No physical controls beyond gain knobs",
+          "Less established in live sound than Behringer or Midas",
+          "Dante card is an additional purchase"
+        ],
+        "cons_es": [
+          "Sin faders motorizados — mezcla solo con tablet",
+          "La app Master Fader requiere iPad o tablet Android",
+          "Sin controles fisicos mas alla de los knobs de ganancia",
+          "Menos establecida en sonido en vivo que Behringer o Midas",
+          "La tarjeta Dante es una compra adicional"
+        ]
+      },
+      {
+        "name": "PreSonus 32SC",
+        "name_es": "PreSonus 32SC",
+        "pros": [
+          "32 recallable XMAX preamps with DC-coupled inputs",
+          "Duane Buelow FET inputs handle hot signals",
+          "UC-Surface app for iPad, Android, Mac, and Windows",
+          "Surface-mount components for reliability",
+          "Built-in talkback and Fat Channel processing"
+        ],
+        "pros_es": [
+          "32 preamplificadores XMAX recordables con entradas acopladas DC",
+          "Entradas FET de Duane Buelow manejan senales fuertes",
+          "App UC-Surface para iPad, Android, Mac y Windows",
+          "Componentes de montaje en superficie para fiabilidad",
+          "Talkback integrado y procesamiento Fat Channel"
+        ],
+        "cons": [
+          "No motorized faders",
+          "UC-Surface app less polished than Master Fader",
+          "Not as widely adopted in live sound",
+          "No built-in Dante or AES50",
+          "Fewer third-party integrations"
+        ],
+        "cons_es": [
+          "Sin faders motorizados",
+          "La app UC-Surface menos pulida que Master Fader",
+          "No tan ampliamente adoptada en sonido en vivo",
+          "Sin Dante ni AES50 integrados",
+          "Menos integraciones de terceros"
+        ]
+      }
+    ]
   }
 ]
