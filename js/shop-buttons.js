@@ -49,6 +49,7 @@ function euFlag() {
     '<rect width="24" height="16" fill="#003399"/>' +
     pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
     '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
     '</svg>';
 };
 
