@@ -8597,15 +8597,16 @@
     "rating": 4.7,
     "reviews": 5280,
     "badge": "best-value",
-    "desc": "40-input, 25-bus digital mixing console with 32 MIDAS-designed programmable preamps, 25 motorized faders, 32-channel USB audio interface, and iPad/iPhone remote control.",
-    "desc_es": "Consola de mezcla digital de 40 entradas y 25 buses con 32 preamplificadores MIDAS programables, 25 faders motorizados, interfaz de audio USB de 32 canales y control remoto iPad/iPhone.",
+    "desc": "40-channel digital mixing console with 32 MIDAS-designed preamps, 25 motorized faders, 32-channel USB audio interface, and iPad/iPhone remote control.",
+    "desc_es": "Consola de mezcla digital de 40 canales con 32 preamplificadores disenados por MIDAS, 25 faders motorizados, interfaz de audio USB de 32 canales y control remoto iPad/iPhone.",
     "img": "https://www.gear4music.com/media/27/276623/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B008R7F382",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FBehringer-X32-32-Channel-Digital-Mixer%2FIOM",
       "zzounds": "https://www.zzounds.com/a--925521/item--BEHX32",
       "reverb": "https://reverb.com/p/behringer-x32"
-    }
+    },
+    "description": "40-channel digital mixing console with 32 MIDAS-designed preamps, 25 motorized faders, 32-channel USB audio interface, and iPad/iPhone remote control."
   },
   {
     "id": 403,
@@ -8617,14 +8618,15 @@
     "rating": 4.8,
     "reviews": 2150,
     "badge": "editor-choice",
-    "desc": "40-channel digital console with 32 award-winning Midas PRO microphone preamps, 25 mix buses, 25 motorized faders, dual SD multitrack recording, and 192 kHz converters.",
-    "desc_es": "Consola digital de 40 canales con 32 preamplificadores Midas PRO, 25 buses de mezcla, 25 faders motorizados, grabación multitrack dual SD y convertidores de 192 kHz.",
+    "desc": "40-channel digital console with 32 award-winning Midas PRO microphone preamps, 25 motorized faders, dual SD multitrack recording, and AES50 networking.",
+    "desc_es": "Consola digital de 40 canales con 32 preamplificadores Midas PRO, 25 faders motorizados, grabacion multitrack dual SD y red AES50.",
     "img": "https://r2.gear4music.com/media/64/648326/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B07T368Q1V",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FMidas-M32-Live-Digital-Mixing-Console%2F3R05",
       "zzounds": "https://www.zzounds.com/a--925521/item--MIDM32LIVE"
-    }
+    },
+    "description": "40-channel digital console with 32 award-winning Midas PRO microphone preamps, 25 motorized faders, dual SD multitrack recording, and AES50 networking."
   },
   {
     "id": 406,
@@ -8755,8 +8757,8 @@
       "allen heath",
       "96khz"
     ],
-    "desc": "48-channel digital mixer with 32 mic/line inputs, 96-track recording, optional Dante card, and 9-inch touchscreen with full visual feedback.",
-    "desc_es": "Consola digital con 24 faders motorizados y 24 entradas de micrófono XLR locales. Motor FPGA XCVI a 96 kHz con procesamiento de hasta 48 canales (con stageboxes externas), 36 buses de mezcla y grabación directa de 32 canales por USB sin ordenador. Pantalla táctil de 7 pulgadas, Dante opcional y puerto SLink para expansión.",
+    "desc": "Digital console with 24 motorized faders and 24 local XLR mic inputs. XCVI FPGA engine at 96 kHz processes up to 48 channels (with external stageboxes), 36 mix buses, and 32-channel USB recording without a computer. 7-inch touchscreen, optional Dante, and SLink expansion port.",
+    "desc_es": "Consola digital con 24 faders motorizados y 24 entradas de micrófono XLR locales. Motor FPGA XCVI a 96 kHz con procesamiento de hasta 48 canales (con stageboxes externas), 36 buses de mezcla y grabacion directa de 32 canales por USB sin ordenador. Pantalla tactil de 7 pulgadas, Dante opcional y puerto SLink para expansion.",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0787FQ8T6",
       "zzounds": "",

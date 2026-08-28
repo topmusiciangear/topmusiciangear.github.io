@@ -66035,8 +66035,9 @@
       {
         "heading": "Comparison Table",
         "heading_es": "Tabla comparativa",
-        "content": "<div class=\"guide-table-wrapper\"><table class=\"guide-table\"><thead><tr><th>Product</th><th>Local I/O (XLR)</th><th>Processing Capacity</th><th>Sample Rate / Latency</th><th>Mix Buses</th><th>Multitrack Recording</th><th>Network Protocol</th></tr></thead><tbody><tr><td>Behringer X32</td><td>32 XLR</td><td>40 channels</td><td>48 kHz / 0.8 ms</td><td>16 aux + LR</td><td>USB 32-track</td><td>AES50</td></tr><tr><td>Midas M32 LIVE</td><td>32 XLR</td><td>40 channels</td><td>48 kHz / 0.8 ms</td><td>16 aux + LR</td><td>Dual SD 32-track</td><td>AES50</td></tr><tr><td>Allen &amp; Heath SQ-6</td><td>24 XLR (recallable)</td><td>48 channels</td><td>96 kHz / 0.7 ms</td><td>36 mix buses</td><td>USB 32-track (SQ-Drive)</td><td>SLink (Dante optional)</td></tr><tr><td>Soundcraft Ui24R</td><td>24 XLR</td><td>24 channels</td><td>48 kHz / ~1 ms</td><td>6 aux + LR</td><td>USB 24-track + SD 2-track</td><td>None</td></tr><tr><td>Yamaha TF3</td><td>24 XLR</td><td>48 channels</td><td>48 kHz / ~1 ms</td><td>20 aux + LR</td><td>USB 34-track</td><td>Dante (NY64-D optional)</td></tr><tr><td>PreSonus StudioLive SE 32R</td><td>32 XLR</td><td>32 channels</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32-track + SD 2-track</td><td>Dante (optional)</td></tr><tr><td>Midas M32R LIVE</td><td>16 XLR</td><td>32 channels</td><td>48 kHz / 0.8 ms</td><td>16 aux + LR</td><td>Dual SD 32-track</td><td>AES50</td></tr><tr><td>Mackie DL32SE</td><td>32 XLR</td><td>32 channels</td><td>48 kHz / ~1 ms</td><td>32 mix buses</td><td>USB 32-track</td><td>None</td></tr><tr><td>PreSonus StudioLive 32SC</td><td>32 XLR</td><td>32 channels</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32-track + SD 2-track</td><td>Dante (optional)</td></tr></tbody></table></div>",
-        "content_es": "<div class=\"guide-table-wrapper\"><table class=\"guide-table\"><thead><tr><th>Producto</th><th>E/S Local (XLR)</th><th>Capacidad de Procesamiento</th><th>Frecuencia de Muestreo / Latencia</th><th>Buses de Mezcla</th><th>Grabacion Multipista</th><th>Protocolo de Red</th></tr></thead><tbody><tr><td>Behringer X32</td><td>32 XLR</td><td>40 canales</td><td>48 kHz / 0,8 ms</td><td>16 aux + LR</td><td>USB 32 pistas</td><td>AES50</td></tr><tr><td>Midas M32 LIVE</td><td>32 XLR</td><td>40 canales</td><td>48 kHz / 0,8 ms</td><td>16 aux + LR</td><td>Dual SD 32 pistas</td><td>AES50</td></tr><tr><td>Allen &amp; Heath SQ-6</td><td>24 XLR (recallables)</td><td>48 canales</td><td>96 kHz / 0,7 ms</td><td>36 buses de mezcla</td><td>USB 32 pistas (SQ-Drive)</td><td>SLink (Dante opcional)</td></tr><tr><td>Soundcraft Ui24R</td><td>24 XLR</td><td>24 canales</td><td>48 kHz / ~1 ms</td><td>6 aux + LR</td><td>USB 24 pistas + SD 2 pistas</td><td>Ninguno</td></tr><tr><td>Yamaha TF3</td><td>24 XLR</td><td>48 canales</td><td>48 kHz / ~1 ms</td><td>20 aux + LR</td><td>USB 34 pistas</td><td>Dante (NY64-D opcional)</td></tr><tr><td>PreSonus StudioLive SE 32R</td><td>32 XLR</td><td>32 canales</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32 pistas + SD 2 pistas</td><td>Dante (opcional)</td></tr><tr><td>Midas M32R LIVE</td><td>16 XLR</td><td>32 canales</td><td>48 kHz / 0,8 ms</td><td>16 aux + LR</td><td>Dual SD 32 pistas</td><td>AES50</td></tr><tr><td>Mackie DL32SE</td><td>32 XLR</td><td>32 canales</td><td>48 kHz / ~1 ms</td><td>32 buses de mezcla</td><td>USB 32 pistas</td><td>Ninguno</td></tr><tr><td>PreSonus StudioLive 32SC</td><td>32 XLR</td><td>32 canales</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32 pistas + SD 2 pistas</td><td>Dante (opcional)</td></tr></tbody></table></div>",
+        "content": "<div class=\"guide-table-wrapper\"><table class=\"guide-table\"><thead><tr><th>Product</th><th>Local I/O (XLR)</th><th>Processing Capacity</th><th>Sample Rate / Latency</th><th>Mix Buses</th><th>Multitrack Recording</th><th>Network Protocol</th></tr></thead><tbody><tr><td>Behringer X32</td><td>32 XLR</td><td>40 channels (32 mic + 8 aux)</td><td>48 kHz / 0.8 ms</td><td>16 aux + LR</td><td>USB 32-track</td><td>AES50</td></tr><tr><td>Midas M32 LIVE</td><td>32 XLR</td><td>40 channels (32 mic + 8 aux)</td><td>48 kHz / 0.8 ms</td><td>16 aux + LR</td><td>Dual SD 32-track</td><td>AES50</td></tr><tr><td>Allen &amp; Heath SQ-6</td><td>24 XLR (recallable)</td><td>48 channels</td><td>96 kHz / 0.7 ms</td><td>36 mix buses</td><td>USB 32-track (SQ-Drive)</td><td>SLink (Dante optional)</td></tr><tr><td>Soundcraft Ui24R</td><td>24 XLR</td><td>24 channels</td><td>48 kHz / ~1 ms</td><td>6 aux + LR</td><td>USB 24-track + SD 2-track</td><td>None</td></tr><tr><td>Yamaha TF3</td><td>24 XLR</td><td>48 channels</td><td>48 kHz / ~1 ms</td><td>20 aux + LR</td><td>USB 34-track</td><td>Dante (NY64-D optional)</td></tr><tr><td>PreSonus StudioLive SE 32R</td><td>32 XLR</td><td>32 channels</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32-track + SD 2-track</td><td>Dante (optional)</td></tr><tr><td>Midas M32R LIVE</td><td>16 XLR</td><td>32 channels</td><td>48 kHz / 0.8 ms</td><td>16 aux + LR</td><td>Dual SD 32-track</td><td>AES50</td></tr><tr><td>Mackie DL32SE</td><td>32 XLR</td><td>32 channels</td><td>48 kHz / ~1 ms</td><td>32 mix buses</td><td>USB 32-track</td><td>None</td></tr><tr><td>PreSonus StudioLive 32SC</td><td>32 XLR</td><td>32 channels</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32-track + SD 2-track</td><td>Dante (optional)</td></tr></tbody></table></div>",
+        "content_es": "<div class=\"guide-table-wrapper\"><table class=\"guide-table\"><thead><tr><th>Producto</th><th>E/S Local (XLR)</th><th>Capacidad de Procesamiento</th><th>Frecuencia de Muestreo / Latencia</th><th>Buses de Mezcla</th><th>Grabacion Multipista</th><th>Protocolo de Red</th></tr></thead><tbody><tr><td>Behringer X32</td><td>32 XLR</td><td>40 canales (32 mic + 8 aux)</td><td>48 kHz / 0,8 ms</td><td>16 aux + LR</td><td>USB 32 pistas</td><td>AES50</td></tr><tr><td>Midas M32 LIVE</td><td>32 XLR</td><td>40 canales (32 mic + 8 aux)</td><td>48 kHz / 0,8 ms</td><td>16 aux + LR</td><td>Dual SD 32 pistas</td><td>AES50</td></tr><tr><td>Allen &amp; Heath SQ-6</td><td>24 XLR (recallables)</td><td>48 canales</td><td>96 kHz / 0,7 ms</td><td>36 buses de mezcla</td><td>USB 32 pistas (SQ-Drive)</td><td>SLink (Dante opcional)</td></tr><tr><td>Soundcraft Ui24R</td><td>24 XLR</td><td>24 canales</td><td>48 kHz / ~1 ms</td><td>6 aux + LR</td><td>USB 24 pistas + SD 2 pistas</td><td>Ninguno</td></tr><tr><td>Yamaha TF3</td><td>24 XLR</td><td>48 canales</td><td>48 kHz / ~1 ms</td><td>20 aux + LR</td><td>USB 34 pistas</td><td>Dante (NY64-D opcional)</td></tr><tr><td>PreSonus StudioLive SE 32R</td><td>32 XLR</td><td>32 canales</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32 pistas + SD 2 pistas</td><td>Dante (opcional)</td></tr><tr><td>Midas M32R LIVE</td><td>16 XLR</td><td>32 canales</td><td>48 kHz / 0,8 ms</td><td>16 aux + LR</td><td>Dual SD 32 pistas</td><td>AES50</td></tr><tr><td>Mackie DL32SE</td><td>32 XLR</td><td>32 canales</td><td>48 kHz / ~1 ms</td><td>32 buses de mezcla</td><td>USB 32 pistas</td><td>Ninguno</td></tr><tr><td>PreSonus StudioLive 32SC</td><td>32 XLR</td><td>32 canales</td><td>48 kHz / ~1 ms</td><td>16 FlexMix + LR</td><td>USB 32 pistas + SD 2 pistas</td><td>Dante (opcional)</td></tr></tbody></table></div>",
+        "isTable": true,
         "products": [
           402,
           403,
@@ -66047,359 +66048,37 @@
           412,
           408,
           413
-        ],
-        "isTable": true
-      },
-      {
-        "heading": "Frequently Asked Questions",
-        "heading_es": "Preguntas frecuentes",
-        "content": "<strong><div class=\"guide-faq-item\"><h3>What is the best 24-channel digital mixer for live sound?</h3><p>The Allen &amp; Heath SQ-6 is the best 24-channel mixer for live sound.</strong> It has 32 local XLR inputs, processes up to 48 channels at 96 kHz with just 0.7 ms latency, and its SQ-Drive records 96 tracks directly to USB without a computer.</p></div><div class=\"guide-faq-item\"><h3>Which digital mixer has the lowest latency?</h3><p>The Allen &amp; Heath SQ-6 has the lowest latency at 0.7 ms thanks to its 96 kHz FPGA processing engine. Most other mixers in this range operate at 48 kHz with around 0.8-1 ms latency.</p></div><div class=\"guide-faq-item\"><h3>Can I use a 24-channel mixer as a recording interface?</h3><p>Yes. The Yamaha TF3 records 34x34 channels via USB to a DAW. The SQ-6 records 96 tracks via SQ-Drive to a USB hard drive. The Ui24R records 24 tracks via USB and also has dual SD card recording.</p></div><div class=\"guide-faq-item\"><h3>What is the cheapest 32-channel digital mixer?</h3><p>The PreSonus StudioLive SE 32R at around $1,599 is the cheapest 32-channel mixer with 32 recallable XMAX preamps, 16 FlexMix buses, and USB/SD multitrack recording.</p></div><div class=\"guide-faq-item\"><h3>Do I need Dante for my digital mixer?</h3><p>Dante is only necessary if you plan to use digital stage boxes or network multiple mixers. For most bands and small venues, the built-in AES50 or SLink connections are sufficient. The Yamaha TF3 and PreSonus mixers offer Dante as an optional expansion card.</p></div><div class=\"guide-faq-item\"><h3>How many aux buses do I need for monitors?</h3><p>For a standard band with 4-6 monitor mixes, you need at least 8 aux buses. The Behringer X32 has 16, the SQ-6 has 36, and the Yamaha TF3 has 20. If you use in-ear monitors, you may need more buses for separate stereo mixes.</p></div>",
-        "content_es": "<strong><div class=\"guide-faq-item\"><h3>Cual es la mejor mezcladora digital de 24 canales para sonido en vivo?</h3><p>El Allen &amp; Heath SQ-6 es la mejor mezcladora de 24 canales para sonido en vivo.</strong> Tiene 32 entradas XLR locales, procesa hasta 48 canales a 96 kHz con solo 0,7 ms de latencia, y su SQ-Drive graba 96 pistas directamente a USB sin necesidad de computadora.</p></div><div class=\"guide-faq-item\"><h3>Que mezcladora digital tiene la latencia mas baja?</h3><p>El Allen &amp; Heath SQ-6 tiene la latencia mas baja con 0,7 ms gracias a su motor de procesamiento FPGA a 96 kHz. La mayoria de las otras mezcladoras en este rango operan a 48 kHz con alrededor de 0,8-1 ms de latencia.</p></div><div class=\"guide-faq-item\"><h3>Puedo usar una mezcladora de 24 canales como interfaz de grabacion?</h3><p>Si. El Yamaha TF3 graba 34x34 canales via USB a un DAW. El SQ-6 graba 96 pistas via SQ-Drive a un disco duro USB. El Ui24R graba 24 pistas via USB y tambien tiene grabacion dual en tarjeta SD.</p></div><div class=\"guide-faq-item\"><h3>Cual es la mezcladora digital de 32 canales mas barata?</h3><p>El PreSonus StudioLive SE 32R por aproximadamente $1.599 es la mezcladora de 32 canales mas barata con 32 preamplificadores XMAX recallables, 16 buses FlexMix y grabacion multipista USB/SD.</p></div><div class=\"guide-faq-item\"><h3>Necesito Dante para mi mezcladora digital?</h3><p>Dante solo es necesario si planeas usar cajas de escenario digitales o conectar multiples mezcladoras en red. Para la mayoria de bandas y salas pequenas, las conexiones AES50 o SLink integradas son suficientes. El Yamaha TF3 y las mezcladoras PreSonus ofrecen Dante como tarjeta de expansion opcional.</p></div><div class=\"guide-faq-item\"><h3>Cuantos buses aux necesito para monitores?</h3><p>Para una banda estandar con 4-6 mezclas de monitores, necesitas al menos 8 buses aux. El Behringer X32 tiene 16, el SQ-6 tiene 36 y el Yamaha TF3 tiene 20. Si usas in-ear monitors, puedes necesitar mas buses para mezclas estereo separadas.</p></div>",
-        "isFaq": true
-      }
-    ],
-    "productTable": {
-      "title": "Product Comparison",
-      "title_es": "Comparativa de productos",
-      "columns": [
-        {
-          "title": "Behringer X32",
-          "title_es": "Behringer X32"
-        },
-        {
-          "title": "Midas M32 LIVE",
-          "title_es": "Midas M32 LIVE"
-        },
-        {
-          "title": "Soundcraft Ui24R",
-          "title_es": "Soundcraft Ui24R"
-        },
-        {
-          "title": "Yamaha DM3",
-          "title_es": "Yamaha DM3"
-        },
-        {
-          "title": "PreSonus StudioLive SE 32R",
-          "title_es": "PreSonus StudioLive SE 32R"
-        },
-        {
-          "title": "Midas M32R LIVE",
-          "title_es": "Midas M32R LIVE"
-        },
-        {
-          "title": "Mackie DL32SE",
-          "title_es": "Mackie DL32SE"
-        },
-        {
-          "title": "PreSonus StudioLive 32SC",
-          "title_es": "PreSonus StudioLive 32SC"
-        }
-      ],
-      "rows": [
-        {
-          "label": "Price",
-          "label_es": "Precio",
-          "values": [
-            {
-              "value": "$1,999",
-              "value_es": "$1,999"
-            },
-            {
-              "value": "$3,999",
-              "value_es": "$3,999"
-            },
-            {
-              "value": "$1,369",
-              "value_es": "$1,369"
-            },
-            {
-              "value": "$1,499",
-              "value_es": "$1,499"
-            },
-            {
-              "value": "$1,599",
-              "value_es": "$1,599"
-            },
-            {
-              "value": "$2,799",
-              "value_es": "$2,799"
-            },
-            {
-              "value": "$1,399",
-              "value_es": "$1,399"
-            },
-            {
-              "value": "$1,899",
-              "value_es": "$1,899"
-            }
-          ]
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "values": [
-            {
-              "value": "Best Value",
-              "value_es": "Mejor relación calidad-precio"
-            },
-            {
-              "value": "Premium Sound",
-              "value_es": "Sonido premium"
-            },
-            {
-              "value": "Wireless Rack",
-              "value_es": "Rack inalámbrico"
-            },
-            {
-              "value": "Ultra-Compact",
-              "value_es": "Ultracompacta"
-            },
-            {
-              "value": "Budget Powerhouse",
-              "value_es": "Potencia económica"
-            },
-            {
-              "value": "Compact Premium",
-              "value_es": "Premium compacta"
-            },
-            {
-              "value": "Rack Simplicity",
-              "value_es": "Simplicidad de rack"
-            },
-            {
-              "value": "FlexMix Power",
-              "value_es": "Potencia FlexMix"
-            }
-          ]
-        },
-        {
-          "label": "Channels",
-          "label_es": "Canales",
-          "values": [
-            {
-              "value": "40 in / 25 bus",
-              "value_es": "40 entrada / 25 bus"
-            },
-            {
-              "value": "40 in / 25 bus",
-              "value_es": "40 entrada / 25 bus"
-            },
-            {
-              "value": "24 ch / 8 aux",
-              "value_es": "24 ch / 8 aux"
-            },
-            {
-              "value": "22 ch / 8 bus",
-              "value_es": "22 ch / 8 bus"
-            },
-            {
-              "value": "40 ch / 26 bus",
-              "value_es": "40 ch / 26 bus"
-            },
-            {
-              "value": "40 ch / 25 bus",
-              "value_es": "40 ch / 25 bus"
-            },
-            {
-              "value": "32 ch / 10 bus",
-              "value_es": "32 ch / 10 bus"
-            },
-            {
-              "value": "40 ch / 26 bus",
-              "value_es": "40 ch / 26 bus"
-            }
-          ]
-        },
-        {
-          "label": "Preamps",
-          "label_es": "Preamplificadores",
-          "values": [
-            {
-              "value": "32 MIDAS",
-              "value_es": "32 MIDAS"
-            },
-            {
-              "value": "32 Midas PRO",
-              "value_es": "32 Midas PRO"
-            },
-            {
-              "value": "20 Studer",
-              "value_es": "20 Studer"
-            },
-            {
-              "value": "16 D-PRE",
-              "value_es": "16 D-PRE"
-            },
-            {
-              "value": "32 XMAX-R",
-              "value_es": "32 XMAX-R"
-            },
-            {
-              "value": "16 Midas PRO",
-              "value_es": "16 Midas PRO"
-            },
-            {
-              "value": "32 Onyx+",
-              "value_es": "32 Onyx+"
-            },
-            {
-              "value": "16 XMAX-R",
-              "value_es": "16 XMAX-R"
-            }
-          ]
-        },
-        {
-          "label": "Faders",
-          "label_es": "Faders",
-          "values": [
-            {
-              "value": "25 motorized",
-              "value_es": "25 motorizados"
-            },
-            {
-              "value": "25 motorized",
-              "value_es": "25 motorizados"
-            },
-            {
-              "value": "N/A (rack)",
-              "value_es": "N/A (rack)"
-            },
-            {
-              "value": "9 (8+1)",
-              "value_es": "9 (8+1)"
-            },
-            {
-              "value": "N/A (rack)",
-              "value_es": "N/A (rack)"
-            },
-            {
-              "value": "17 motorized",
-              "value_es": "17 motorizados"
-            },
-            {
-              "value": "N/A (rack)",
-              "value_es": "N/A (rack)"
-            },
-            {
-              "value": "17 motorized",
-              "value_es": "17 motorizados"
-            }
-          ]
-        },
-        {
-          "label": "USB Interface",
-          "label_es": "Interfaz USB",
-          "values": [
-            {
-              "value": "32x32",
-              "value_es": "32x32"
-            },
-            {
-              "value": "32x32",
-              "value_es": "32x32"
-            },
-            {
-              "value": "24x24",
-              "value_es": "24x24"
-            },
-            {
-              "value": "18x18",
-              "value_es": "18x18"
-            },
-            {
-              "value": "64x64",
-              "value_es": "64x64"
-            },
-            {
-              "value": "32x32",
-              "value_es": "32x32"
-            },
-            {
-              "value": "32x32",
-              "value_es": "32x32"
-            },
-            {
-              "value": "64x64",
-              "value_es": "64x64"
-            }
-          ]
-        },
-        {
-          "label": "Networking",
-          "label_es": "Red",
-          "values": [
-            {
-              "value": "AES50 (dual)",
-              "value_es": "AES50 (dual)"
-            },
-            {
-              "value": "AES50 (dual)",
-              "value_es": "AES50 (dual)"
-            },
-            {
-              "value": "Ethernet + Wi-Fi",
-              "value_es": "Ethernet + Wi-Fi"
-            },
-            {
-              "value": "Dante opt",
-              "value_es": "Dante opc"
-            },
-            {
-              "value": "Milan AVB",
-              "value_es": "Milan AVB"
-            },
-            {
-              "value": "AES50",
-              "value_es": "AES50"
-            },
-            {
-              "value": "Ethernet (app)",
-              "value_es": "Ethernet (app)"
-            },
-            {
-              "value": "AVB built-in",
-              "value_es": "AVB integrado"
-            }
-          ]
-        }
-      ]
-    },
-    "faqData": [
-      {
-        "q_en": "What is the difference between a 24-channel and a 32-channel digital mixer?",
-        "a_en": "A 24-channel mixer like the Soundcraft Ui24R or Yamaha DM3 is ideal for smaller bands and venues with simpler setups. A 32-channel mixer like the Behringer X32 or Mackie DL32SE provides more inputs for larger ensembles, more complex monitor mixes, and headroom for guest musicians. The key consideration is not just input count but bus count — more buses mean more flexible routing for monitors, subgroups, and matrix outputs.",
-        "q_es": "¿Cuál es la diferencia entre una mezcladora digital de 24 canales y una de 32 canales?",
-        "a_es": "Una mezcladora de 24 canales como la Soundcraft Ui24R o Yamaha DM3 es ideal para bandas más pequeñas y recintos con configuraciones más simples. Una mezcladora de 32 canales como la Behringer X32 o Mackie DL32SE proporciona más entradas para conjuntos más grandes, mezclas de monitores más complejas y margen para músicos invitados. La consideración clave no es solo el conteo de entradas sino el conteo de buses — más buses significan enrutamiento más flexible para monitores, subgrupos y salidas de matriz."
-      },
-      {
-        "q_en": "Do I need a stage box with a 24-32 channel digital mixer?",
-        "a_en": "Not necessarily. Many mixers in this range have enough onboard inputs for small to medium setups. However, a stage box allows you to run a single Cat5 or Dante cable from the stage to the mixer instead of a heavy analog snake. This is especially valuable for venues with long cable runs or for bands that want quick setup and teardown.",
-        "q_es": "¿Necesito un stage box con una mezcladora digital de 24 a 32 canales?",
-        "a_es": "No necesariamente. Muchas mezcladoras en este rango tienen suficientes entradas integradas para configuraciones pequeñas a medianas. Sin embargo, un stage box te permite ejecutar un solo cable Cat5 o Dante desde el escenario hasta la mezcladora en lugar de una serpiente analógica pesada. Esto es especialmente valioso para recintos con tiradas de cable largas o para bandas que quieren montaje y desmontaje rápidos."
-      },
-      {
-        "q_en": "Which mixer is best for a church with a worship band?",
-        "a_en": "For most churches, the Behringer X32 offers the best balance of features, sound quality, and price. The Midas M32 LIVE is worth the upgrade if budget allows, as the superior preamps and build quality will serve you well for years. The Soundcraft Ui24R is excellent for churches that want wireless control and a compact rack-mount design.",
-        "q_es": "¿Cuál mezcladora es mejor para una iglesia con banda de alabanza?",
-        "a_es": "Para la mayoría de las iglesias, la Behringer X32 ofrece el mejor equilibrio de funciones, calidad de sonido y precio. La Midas M32 LIVE vale la pena si el presupuesto lo permite, ya que los preamplificadores superiores y la calidad de construcción te servirán bien por años. La Soundcraft Ui24R es excelente para iglesias que quieren control inalámbrico y un diseño compacto de rack."
-      },
-      {
-        "q_en": "Can these mixers record multitrack audio directly?",
-        "a_en": "Yes, all eight mixers in this roundup support multitrack recording. The Behringer X32 and Midas M32 LIVE offer 32x32 USB interfaces. The PreSonus StudioLive SE 32R and StudioLive 32SC provide 64x64 USB plus SD card recording. The Soundcraft Ui24R captures 24 tracks to USB drive and computer simultaneously. The Yamaha DM3 offers 18x18 USB, and the Mackie DL32SE includes a 32x32 USB interface.",
-        "q_es": "¿Estas mezcladoras pueden grabar audio multitrack directamente?",
-        "a_es": "Sí, las ocho mezcladoras de esta comparativa soportan grabación multitrack. La Behringer X32 y Midas M32 LIVE ofrecen interfaces USB 32x32. La PreSonus StudioLive SE 32R y StudioLive 32SC proporcionan USB 64x64 más grabación a tarjeta SD. La Soundcraft Ui24R captura 24 pistas a unidad USB y computadora simultáneamente. La Yamaha DM3 ofrece USB 18x18, y la Mackie DL32SE incluye una interfaz USB 32x32."
-      },
-      {
-        "q_en": "Is Dante networking worth the extra cost?",
-        "a_en": "Dante is becoming the industry standard for audio networking. If you work in venues that already have Dante infrastructure, or if you plan to expand your system with multiple consoles and stage boxes, Dante-enabled mixers or those with Dante expansion cards offer significant long-term value. For simple setups with one mixer and one stage box, AES50 or AVB may be sufficient.",
-        "q_es": "¿Vale la pena el costo adicional de la red Dante?",
-        "a_es": "Dante se está convirtiendo en el estándar de la industria para audio en red. Si trabajas en recintos que ya tienen infraestructura Dante, o si planeas expandir tu sistema con múltiples consolas y stage boxes, las mezcladoras con Dante o aquellas con tarjetas de expansión Dante ofrecen un valor significativo a largo plazo. Para configuraciones simples con una mezcladora y un stage box, AES50 o AVB pueden ser suficientes."
+        ]
       }
     ],
     "verdict": "For most users, the Behringer X32 is the best value — it delivers professional-grade MIDAS preamps, flexible routing, and a mature ecosystem at a price that undercuts everything else. The Midas M32 LIVE is the premium choice if sound quality and build are your top priorities. The Soundcraft Ui24R wins on wireless control and rack-mount convenience, while the Yamaha DM3 offers the most intuitive touchscreen interface. The PreSonus StudioLive 32SC leads in USB channel count and AVB networking.",
     "verdict_es": "Para la mayoría de usuarios, la Behringer X32 es la mejor relación calidad-precio — ofrece preamplificadores MIDAS de calidad profesional, enrutamiento flexible y un ecosistema maduro a un precio inferior a todo lo demás. La Midas M32 LIVE es la opción premium si la calidad de sonido y construcción son tus principales prioridades. La Soundcraft Ui24R gana en control inalámbrico y conveniencia de rack, mientras que la Yamaha DM3 ofrece la interfaz táctil más intuitiva. La PreSonus StudioLive 32SC lidera en conteo de canales USB y red AVB.",
     "conclusion": "The 24-32 channel digital mixer market in 2026 offers excellent options at every price point. Whether you need a compact wireless solution like the Ui24R, an ultra-portable touchscreen mixer like the DM3, a workhorse for a house of worship like the X32, or a studio-grade console like the StudioLive 32SC, there is a mixer on this list that fits your needs. The key is to prioritize the features that matter most to your workflow — preamp quality, bus count, recording capability, or networking — and choose accordingly.",
     "conclusion_es": "El mercado de mezcladoras digitales de 24 a 32 canales en 2026 ofrece excelentes opciones en todos los rangos de precio. Ya sea que necesites una solución inalámbrica compacta como la Ui24R, una mezcladora ultraportátil con pantalla táctil como la DM3, una herramienta robusta para una iglesia como la X32 o una consola de calidad de estudio como la StudioLive 32SC, hay una mezcladora en esta lista que se adapta a tus necesidades. La clave es priorizar las funciones que más importan para tu flujo de trabajo — calidad de preamplificadores, conteo de buses, capacidad de grabación o red — y elegir en consecuencia.",
-    "datePublished": "2026-08-27"
+    "datePublished": "2026-08-27",
+    "faq_q1": "What is the best 24-channel digital mixer for live sound?",
+    "faq_q1_es": "Cual es la mejor mezcladora digital de 24 canales para sonido en vivo?",
+    "faq_a1": "The Allen & Heath SQ-6 is the best 24-channel mixer for live sound. It has 24 local XLR inputs, processes up to 48 channels at 96 kHz with just 0.7 ms latency, and its SQ-Drive records 32 tracks directly to USB without a computer.",
+    "faq_a1_es": "El Allen & Heath SQ-6 es la mejor mezcladora de 24 canales para sonido en vivo. Tiene 24 entradas XLR locales, procesa hasta 48 canales a 96 kHz con solo 0,7 ms de latencia, y su SQ-Drive graba 32 pistas directamente a USB sin necesidad de computadora.",
+    "faq_q2": "Which digital mixer has the lowest latency?",
+    "faq_q2_es": "Que mezcladora digital tiene la latencia mas baja?",
+    "faq_a2": "The Allen & Heath SQ-6 has the lowest latency at 0.7 ms thanks to its 96 kHz FPGA processing engine. Most other mixers in this range operate at 48 kHz with around 0.8-1 ms latency.",
+    "faq_a2_es": "El Allen & Heath SQ-6 tiene la latencia mas baja con 0,7 ms gracias a su motor de procesamiento FPGA a 96 kHz. La mayoria de las otras mezcladoras en este rango operan a 48 kHz con alrededor de 0,8-1 ms de latencia.",
+    "faq_q3": "Can I use a 24-channel mixer as a recording interface?",
+    "faq_q3_es": "Puedo usar una mezcladora de 24 canales como interfaz de grabacion?",
+    "faq_a3": "Yes. The Yamaha TF3 records 34x34 channels via USB to a DAW. The SQ-6 records 32 tracks via SQ-Drive to a USB hard drive. The Ui24R records 24 tracks via USB and also has dual SD card recording.",
+    "faq_a3_es": "Si. El Yamaha TF3 graba 34x34 canales via USB a un DAW. El SQ-6 graba 32 pistas via SQ-Drive a un disco duro USB. El Ui24R graba 24 pistas via USB y tambien tiene grabacion dual en tarjeta SD.",
+    "faq_q4": "What is the cheapest 32-channel digital mixer?",
+    "faq_q4_es": "Cual es la mezcladora digital de 32 canales mas barata?",
+    "faq_a4": "The PreSonus StudioLive SE 32R at around ,599 is the cheapest 32-channel mixer with 32 recallable XMAX preamps, 16 FlexMix buses, and USB/SD multitrack recording.",
+    "faq_a4_es": "El PreSonus StudioLive SE 32R por aproximadamente .599 es la mezcladora de 32 canales mas barata con 32 preamplificadores XMAX recallables, 16 buses FlexMix y grabacion multipista USB/SD.",
+    "faq_q5": "Do I need Dante for my digital mixer?",
+    "faq_q5_es": "Necesito Dante para mi mezcladora digital?",
+    "faq_a5": "Dante is only necessary if you plan to use digital stage boxes or network multiple mixers. For most bands and small venues, the built-in AES50 or SLink connections are sufficient.",
+    "faq_a5_es": "Dante solo es necesario si planeas usar cajas de escenario digitales o conectar multiples mezcladoras en red. Para la mayoria de bandas y salas pequenas, las conexiones AES50 o SLink integradas son suficientes.",
+    "faq_q6": "How many aux buses do I need for monitors?",
+    "faq_q6_es": "Cuantos buses aux necesito para monitores?",
+    "faq_a6": "For a standard band with 4-6 monitor mixes, you need at least 8 aux buses. The Behringer X32 has 16, the SQ-6 has 36, and the Yamaha TF3 has 20. If you use in-ear monitors, you may need more buses for separate stereo mixes.",
+    "faq_a6_es": "Para una banda estandar con 4-6 mezclas de monitores, necesitas al menos 8 buses aux. El Behringer X32 tiene 16, el SQ-6 tiene 36 y el Yamaha TF3 tiene 20. Si usas in-ear monitors, puedes necesitar mas buses para mezclas estereo separadas."
   }
 ]
