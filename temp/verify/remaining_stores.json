@@ -1,0 +1,11 @@
+[
+  {"id": 170, "name": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)", "cat": "accessories", "stores": ["gear4music"]},
+  {"id": 395, "name": "PreSonus FaderPort 8", "cat": "accessories", "stores": ["gear4music","zzounds","andertons","reverb","amazon"], "price_musicstore": "€503"},
+  {"id": 396, "name": "Behringer X-Touch", "cat": "accessories", "stores": ["gear4music","zzounds","andertons","amazon"], "price_musicstore": "€298", "oos_zzounds": true},
+  {"id": 397, "name": "SSL UF1", "cat": "accessories", "stores": ["gear4music","zzounds","andertons","reverb","amazon"], "price_musicstore": "€579"},
+  {"id": 398, "name": "Avid S1", "cat": "accessories", "stores": ["zzounds","amazon"], "price_musicstore": "€1399", "oos_andertons": true},
+  {"id": 399, "name": "iCON Platform M+", "cat": "accessories", "stores": ["zzounds","reverb","amazon"], "price_musicstore": "€379", "oos_zzounds": true},
+  {"id": 400, "name": "Mackie MCU Pro", "cat": "accessories", "stores": ["zzounds","andertons","amazon"], "price_musicstore": "€1229"},
+  {"id": 427, "name": "Audio-Technica ATH-R30x", "cat": "headphones", "stores": ["amazon","gear4music"]},
+  {"id": 428, "name": "Samson SR850", "cat": "headphones", "stores": ["amazon","zzounds","reverb"]}
+]

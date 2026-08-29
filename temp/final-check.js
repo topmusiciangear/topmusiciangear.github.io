@@ -1,28 +1,18 @@
-var fs = require('fs');
-var h = fs.readFileSync('guides/best-32-channel-digital-mixers.html', 'utf8');
+﻿const fs=require('fs');
+const p=JSON.parse(fs.readFileSync("data/products.json","utf8"));
+const src=fs.readFileSync("build-guides.js","utf8");
+const ob=src.indexOf("{",src.indexOf("const TEST_SHOP_BTN"));
+let d=0,e=-1;for(let i=ob;i<src.length;i++){if(src[i]==="{")d++;else if(src[i]==="}"){d--;if(d===0){e=i;break;}}}
+const TS=eval("("+src.slice(ob,e+1)+")");
 
-// Count tables
-var guideTable = (h.match(/guide-table/g) || []).length;
-var guideComp = (h.match(/guide-comp-table/g) || []).length;
-console.log('guide-table count:', guideTable);
-console.log('guide-comp-table count:', guideComp);
-
-// Count FAQ items
-var faqItems = (h.match(/guide-faq-item/g) || []).length;
-console.log('guide-faq-item count:', faqItems);
-
-// Check for old FAQ content
-var hasOldFaq = h.includes('best audio interface');
-console.log('Has old FAQ (interfaces):', hasOldFaq);
-
-// Check for old table content
-var hasOldTable = h.includes('Ideal para');
-console.log('Has old table with prices:', hasOldTable);
-
-// Check SQ-6 192kHz reference
-var has192 = h.includes('192 kHz');
-console.log('Has 192 kHz:', has192);
-
-// Verify verdict section
-var hasVerdict = h.includes('Verdict');
-console.log('Has verdict:', hasVerdict);
+const stores=["amazon","zzounds","reverb","gear4music","andertons","musicstore"];
+let missing=0;
+for(const prod of p){
+  for(const k of stores){
+    const hasPrice=TS[prod.id]?.prices?TS[prod.id].prices[k]:false;
+    const hasUrl=prod.stores?prod.stores[k]:false;
+    const hasUrlTS=TS[prod.id]?.urls?TS[prod.id].urls[k]:false;
+    if(hasPrice && !hasUrl && !hasUrlTS) missing++;
+  }
+}
+console.log("Prices without URL (excl. Reverb):", missing);

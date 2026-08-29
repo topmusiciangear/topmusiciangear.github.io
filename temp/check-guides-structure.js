@@ -1,0 +1,17 @@
+﻿const fs=require('fs');
+const g=JSON.parse(fs.readFileSync("data/guides.json","utf8"));
+const mic=g.find(x=>x.id==="best-microphone");
+const iem=g.find(x=>x.id==="ie900-vs-se846");
+console.log("=== best-microphone structure ===");
+console.log("id:", mic.id);
+console.log("category:", mic.category);
+console.log("badge:", mic.badge);
+console.log("featuredProducts:", JSON.stringify(mic.featuredProducts));
+console.log("sections:", mic.sections.length);
+mic.sections.forEach((s,i)=>console.log(`  sec[${i}]: ${s.title_es} | products: ${(s.products||[]).map(p=>p.product||p.id||p).join(",")}`));
+console.log("\n=== ie900-vs-se846 structure ===");
+console.log("id:", iem.id);
+console.log("category:", iem.category);
+console.log("featuredProducts:", JSON.stringify(iem.featuredProducts));
+console.log("sections:", iem.sections.length);
+iem.sections.forEach((s,i)=>console.log(`  sec[${i}]: ${s.title_es} | products: ${(s.products||[]).map(p=>p.product||p.id||p).join(",")}`));
