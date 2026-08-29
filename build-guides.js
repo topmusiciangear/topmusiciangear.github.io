@@ -506,7 +506,7 @@ const TEST_SHOP_BTN = {
   231: {prices:{reverb:"$259.00",amazon:"$259.00",andertons:"£259.00",gear4music:"£236.50"},oos:["zzounds","musicstore"]},
   232: {prices:{reverb:"$169.00",amazon:"$169.00",zzounds:"$169.00",andertons:"£179.00",gear4music:"£136.00",musicstore:"€399.00"}},
   233: {prices:{reverb:"$2,199.99",amazon:"$2,199.99",zzounds:"$2,199.99",andertons:"£1,599.00",gear4music:"£1,770.00",musicstore:"€2,299.00"}},
-  234: {prices:{reverb:"$3499.00",amazon:"$3499.00",zzounds:"$3,849.00",andertons:"£2,549.00",gear4music:"£1,487.00"},oos:["musicstore","gear4music"]},
+  234: {prices:{reverb:"$3499.00",amazon:"$3499.00",zzounds:"$3,849.00",andertons:"£2,549.00"},oos:["musicstore","gear4music"]},
   235: {prices:{reverb:"$999.00",amazon:"$999.00",zzounds:"$1,099.00",andertons:"£803.00",gear4music:"£896.00",musicstore:"€2,433.00"}},
   236: {prices:{gear4music:"£1,139.00",reverb:"$1,349.00",amazon:"$1,349.00",zzounds:"$1,499.00",andertons:"£1,149.00"},oos:["musicstore"]},
   237: {prices:{gear4music:"£1,452.00",reverb:"$1,739.99",amazon:"$1,739.99",andertons:"£1,452.00"},oos:["musicstore"]},
@@ -529,7 +529,7 @@ const TEST_SHOP_BTN = {
   257: {prices:{gear4music:"£339.00",reverb:"$399.00",amazon:"$399.00",zzounds:"$399.00",andertons:"£329.00"},oos:["musicstore"]},
   258: {prices:{gear4music:"£249.99",reverb:"$249.99",amazon:"$249.99",zzounds:"$199.99",andertons:"£249.00"},oos:["musicstore"]},
   259: {prices:{gear4music:"£414.00",reverb:"$499.99",amazon:"$499.99",zzounds:"$599.99",andertons:"£399.00"},oos:["musicstore"]},
-  260: {prices:{amazon:"$349.99",zzounds:"$349.99",andertons:"£299.00",gear4music:"£329.99",musicstore:"€349.00"}},
+  260: {prices:{amazon:"$349.99",gear4music:"£329.99",musicstore:"€349.00"},oos:["zzounds","andertons"]},
   261: {prices:{amazon:"$229.00"},oos:["andertons"]},
   262: {prices:{reverb:"$129.99",amazon:"$129.99",zzounds:"$129.99",andertons:"£91.00",gear4music:"£93.10"},oos:["musicstore"]},
   263: {prices:{reverb:"$299.00",amazon:"$299.00",zzounds:"$299.00",andertons:"£225.00",gear4music:"£234.00",musicstore:"€279.00"}},
@@ -582,13 +582,13 @@ const TEST_SHOP_BTN = {
   314: {prices:{gear4music:"£398.00",reverb:"$419.99",amazon:"$419.99"},oos:["andertons","musicstore"]},
   315: {prices:{gear4music:"£295.00",reverb:"$259.99",amazon:"$259.99",zzounds:"$259.99",andertons:"£299.00"},oos:["musicstore"]},
   316: {prices:{reverb:"$449.99",amazon:"$449.99",zzounds:"$449.99",andertons:"£449.00"},oos:["musicstore"]},
-  317: {prices:{reverb:"$449.99",zzounds:"$1,149.00",andertons:"£1,199.00",gear4music:"£480.00"},oos:["gear4music"]},
+  317: {prices:{reverb:"$449.99",zzounds:"$1,149.00",andertons:"£1,199.00"},oos:["gear4music"]},
   318: {prices:{gear4music:"£1,690.00",reverb:"$2199.99",amazon:"$2199.99",zzounds:"$2,199.99",andertons:"£1,699.00"},oos:["musicstore"]},
   319: {prices:{reverb:"$2,275.00",amazon:"$2,275.00",zzounds:"$2,629.00",andertons:"£2,199.00"},urls:{gear4music:"https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-Tobacco-Sunburst/273H"},oos:["musicstore"]},
   320: {prices:{gear4music:"£799.00",reverb:"$649.95",amazon:"$649.95",zzounds:"$949.00",andertons:"£799.00"},oos:["musicstore"]},
   321: {prices:{gear4music:"£508.00",reverb:"$467.00",amazon:"$467.00",zzounds:"$549.00",andertons:"£505.00",musicstore:"€522.00"}},
   322: {prices:{gear4music:"£599.00",reverb:"$639.49",amazon:"$639.49",zzounds:"$749.00",andertons:"£598.00"},oos:["musicstore"]},
-  323: {prices:{reverb:"$99.00",amazon:"$99.00",zzounds:"$99.99",andertons:"£91.00",gear4music:"£91.30",musicstore:"€125.00"}},
+  323: {prices:{reverb:"$99.00",amazon:"$99.00",zzounds:"$99.99",andertons:"£91.00",gear4music:"£91.30",musicstore:"€125.00"},urls:{zzounds:"https://www.zzounds.com/item--AKAMPKMINI3"}},
   324: {prices:{reverb:"$129.99",amazon:"$129.99",zzounds:"$129.99",andertons:"£89.00",gear4music:"£102.75",musicstore:"€138.00"}},
   325: {prices:{gear4music:"£380.00",reverb:"$549.00",amazon:"$549.00",zzounds:"$549.00"},oos:["andertons","musicstore"]},
   326: {prices:{andertons:"£399.00"},oos:["musicstore"]},
@@ -608,7 +608,7 @@ const TEST_SHOP_BTN = {
   340: {prices:{reverb:"$485.00",amazon:"$485.00",zzounds:"$485.00",andertons:"£449.00",gear4music:"£491.00",musicstore:"€569.00"}},
   341: {prices:{reverb:"$559.00",amazon:"$559.00",zzounds:"$641.52",andertons:"£599.00",gear4music:"£564.00"},oos:["musicstore"]},
   342: {prices:{reverb:"$329.95",amazon:"$329.95",zzounds:"$349.00",andertons:"£319.00",gear4music:"£223.50"},oos:["musicstore"]},
-  343: {prices:{reverb:"$269.00",amazon:"$269.00",zzounds:"$269.00",gear4music:"£485.00"},oos:["andertons","musicstore","gear4music"]},
+  343: {prices:{reverb:"$269.00",amazon:"$269.00",zzounds:"$269.00"},oos:["andertons","musicstore","gear4music"]},
   344: {prices:{amazon:"$399.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
   345: {prices:{gear4music:"£189.00",reverb:"$239.40",amazon:"$239.40",zzounds:"$239.40",andertons:"£199.00",musicstore:"€222.00"}},
   346: {prices:{gear4music:"£173.75",reverb:"$187.51",amazon:"$187.51",zzounds:"$219.00"},oos:["andertons","musicstore"]},
@@ -629,9 +629,9 @@ const TEST_SHOP_BTN = {
   362: {prices:{reverb:"$649.00",amazon:"$649.00",zzounds:"$649.00",andertons:"£479.00",gear4music:"£419.00",musicstore:"€449.00"}},
   363: {prices:{amazon:"$279.99",zzounds:"$279.99",reverb:"$279.99",gear4music:"£222.00",andertons:"£209.00",musicstore:"€261.00"}},
   364: {prices:{amazon:"$499.00",zzounds:"$499.00",andertons:"£549.00",gear4music:"£499.00",musicstore:"€549.00",reverb:"$1,049.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/beyerdynamic-M160-Double-Ribbon-Microphone/92T"}},
-  365: {prices:{amazon:"$477.73",zzounds:"$519.00",andertons:"£466.00",gear4music:"£466.00",musicstore:"€519.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/sE-Electronics-VR2-Voodoo-Active-Ribbon-Mic/DRQ"}},
+  365: {prices:{amazon:"$477.73",zzounds:"$519.00",andertons:"£466.00",gear4music:"£466.00",musicstore:"€519.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/sE-Electronics-VR2-Voodoo-Active-Ribbon-Mic/DRQ",zzounds:"https://www.zzounds.com/item--SEEVR2"}},
   366: {prices:{amazon:"$99.95",zzounds:"$99.95"},oos:["andertons","musicstore","reverb"]},
-  370: {prices:{amazon:"$384.99",zzounds:"$384.99",andertons:"£329.00",gear4music:"£329.00",musicstore:"€369.00"},urls:{gear4music:"https://www.gear4music.com/Keyboards-and-Pianos/Roland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue/6AB8"}},
+  370: {prices:{amazon:"$384.99",zzounds:"$384.99",andertons:"£329.00",gear4music:"£329.00",musicstore:"€369.00"},urls:{gear4music:"https://www.gear4music.com/Keyboards-and-Pianos/Roland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue/6AB8",zzounds:"https://www.zzounds.com/item--ROLGOKEYS3"}},
   371: {prices:{amazon:"$199.99",zzounds:"$199.99",andertons:"£149.00",gear4music:"£155.00",musicstore:"€199.90"},oos:["reverb"]},
   372: {prices:{amazon:"$795.00",andertons:"£517.00",gear4music:"£540.00",musicstore:"€540.00"},oos:["zzounds","reverb"]},
   373: {prices:{pluginboutique:"$199.00"}},
@@ -686,7 +686,7 @@ const TEST_SHOP_BTN = {
   426: {prices:{amazon:"$149.00",gear4music:"£139.00"}},
   427: {prices:{amazon:"$99.00",gear4music:"£87.40"}},
   428: {prices:{amazon:"$37.49",zzounds:"$37.49",reverb:"$37.49"}}
-};;;;
+};;;;;
 
 function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
