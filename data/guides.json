@@ -60080,8 +60080,8 @@
   },
   {
     "id": "budget-usb-mics",
-    "title": "11 Best Budget USB Microphones Under $100 (2026, Plug & Play)",
-    "title_es": "Los 11 mejores micrófonos USB económicos por menos de $100 (2026, plug & play)",
+    "title": "13 Best Budget USB Microphones Under $100 (2026, Plug & Play)",
+    "title_es": "Los 13 mejores micrófonos USB económicos por menos de $100 (2026, plug & play)",
     "category": "microphones",
     "image": "https://r2.gear4music.com/media/54/546970/1200/preview_1.jpg",
     "badge": "bestSeller",
@@ -60218,16 +60218,18 @@
     "verdict_es": "El Samson Q2U es el mejor micrófono USB económico en general, con el FIFINE AM8 como la opción más inteligente en valor. Para streaming orientado a gaming, el Maono PD200X es la mejor elección; para el presupuesto más ajustado, el TONOR TC-777 o el FIFINE AmpliGame A6V ofrecen un rendimiento probado por; si quieres un condensador diminuto y bien construido, el Razer Seiren V3 Mini es la opción compacta por; y si quieres la mejor construcción al tope de, el Rode NT-USB Mini es la opción premium",
     "featuredProducts": [
       276,
-      277,
-      281,
-      278,
       279,
-      280,
-      289,
+      281,
       292,
-      290,
+      284,
       287,
-      284
+      429,
+      277,
+      278,
+      430,
+      280,
+      290,
+      289
     ],
     "relatedGuides": [
       "budget-mics",
@@ -60319,48 +60321,56 @@
       "title_es": "Comparativa de micrófonos USB económicos en esta guía",
       "columns": [
         {
-          "title": "Samson Q2U",
-          "title_es": "Samson Q2U"
+          "title": "Samson Q2U USB/XLR",
+          "title_es": "Samson Q2U USB/XLR"
         },
         {
-          "title": "Maono PD200X",
-          "title_es": "Maono PD200X"
+          "title": "FIFINE AmpliGame AM8",
+          "title_es": "FIFINE AmpliGame AM8"
         },
         {
           "title": "HyperX SoloCast 2",
           "title_es": "HyperX SoloCast 2"
         },
         {
-          "title": "FIFINE K688",
-          "title_es": "FIFINE K688"
-        },
-        {
-          "title": "FIFINE AM8",
-          "title_es": "FIFINE AM8"
-        },
-        {
-          "title": "Razer Seiren V3 Mini",
-          "title_es": "Razer Seiren V3 Mini"
-        },
-        {
-          "title": "FIFINE AmpliGame A6V",
-          "title_es": "FIFINE AmpliGame A6V"
-        },
-        {
           "title": "Rode NT-USB Mini",
           "title_es": "Rode NT-USB Mini"
         },
         {
-          "title": "Rode XCM-50",
-          "title_es": "Rode XCM-50"
+          "title": "Maono PM461 USB",
+          "title_es": "Maono PM461 USB"
         },
         {
-          "title": "TONOR TC-777",
-          "title_es": "TONOR TC-777"
+          "title": "TONOR TC-777 USB",
+          "title_es": "TONOR TC-777 USB"
         },
         {
-          "title": "Maono PM461",
-          "title_es": "Maono PM461"
+          "title": "Blue Yeti Nano",
+          "title_es": "Blue Yeti Nano"
+        },
+        {
+          "title": "Maono PD200X Dynamic",
+          "title_es": "Maono PD200X Dynamic"
+        },
+        {
+          "title": "FIFINE AmpliTank K688",
+          "title_es": "FIFINE AmpliTank K688"
+        },
+        {
+          "title": "FIFINE T669 USB",
+          "title_es": "FIFINE T669 USB"
+        },
+        {
+          "title": "Razer Seiren V3",
+          "title_es": "Razer Seiren V3"
+        },
+        {
+          "title": "Rode XCM-50 Compact",
+          "title_es": "Rode XCM-50 Compact"
+        },
+        {
+          "title": "FIFINE AmpliGame A6V",
+          "title_es": "FIFINE AmpliGame A6V"
         }
       ],
       "rows": [
@@ -60369,48 +60379,56 @@
           "label_es": "Ideal Para",
           "values": [
             {
-              "value": "Podcasting & voiceover",
-              "value_es": "Podcast y locución"
+              "value": "First podcast mic",
+              "value_es": "First podcast mic"
             },
             {
-              "value": "Streaming & gaming",
-              "value_es": "Streaming y gaming"
+              "value": "Streaming with RGB",
+              "value_es": "Streaming with RGB"
             },
             {
-              "value": "Streaming & calls",
-              "value_es": "Streaming y llamadas"
+              "value": "Compact streaming",
+              "value_es": "Compact streaming"
             },
             {
-              "value": "Broadcast look on a budget",
-              "value_es": "Look de broadcast económico"
+              "value": "Studio condenser sound",
+              "value_es": "Studio condenser sound"
             },
             {
-              "value": "Voice in noisy rooms",
-              "value_es": "Voz en salas ruidosas"
+              "value": "Budget podcasting",
+              "value_es": "Budget podcasting"
             },
             {
-              "value": "Compact streaming & gaming",
-              "value_es": "Streaming y gaming compacto"
+              "value": "Ultra-budget starter",
+              "value_es": "Ultra-budget starter"
             },
             {
-              "value": "Ultra-budget gaming & streaming",
-              "value_es": "Gaming y streaming ultra-económico"
+              "value": "Compact studio condenser",
+              "value_es": "Compact studio condenser"
             },
             {
-              "value": "Premium compact voice",
-              "value_es": "Voz premium compacta"
+              "value": "Streaming with controls",
+              "value_es": "Streaming with controls"
             },
             {
-              "value": "Compact premium setups",
-              "value_es": "Setups premium compactos"
+              "value": "Streaming with controls",
+              "value_es": "Streaming with controls"
             },
             {
-              "value": "Ultra-budget reliability",
-              "value_es": "Fiabilidad ultra-económica"
+              "value": "Budget kit with accessories",
+              "value_es": "Budget kit with accessories"
             },
             {
-              "value": "Calls & casual streaming",
-              "value_es": "Llamadas y streaming casual"
+              "value": "Compact streaming",
+              "value_es": "Compact streaming"
+            },
+            {
+              "value": "Professional podcasting",
+              "value_es": "Professional podcasting"
+            },
+            {
+              "value": "Budget gaming",
+              "value_es": "Budget gaming"
             }
           ]
         },
@@ -60431,22 +60449,30 @@
               "value_es": "Condensador"
             },
             {
+              "value": "Condenser",
+              "value_es": "Condensador"
+            },
+            {
+              "value": "Condenser",
+              "value_es": "Condensador"
+            },
+            {
+              "value": "Condenser",
+              "value_es": "Condensador"
+            },
+            {
+              "value": "Condenser",
+              "value_es": "Condensador"
+            },
+            {
+              "value": "Condenser",
+              "value_es": "Condensador"
+            },
+            {
               "value": "Dynamic",
               "value_es": "Dinámico"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
-            },
-            {
-              "value": "Condenser (supercardioid)",
-              "value_es": "Condensador (supercardioide)"
-            },
-            {
-              "value": "Condenser",
-              "value_es": "Condensador"
-            },
-            {
               "value": "Condenser",
               "value_es": "Condensador"
             },
@@ -60465,94 +60491,16 @@
           ]
         },
         {
-          "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label": "Connection",
+          "label_es": "Conexión",
           "values": [
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
+              "value": "USB-C/XLR",
+              "value_es": "USB-C/XLR"
             },
             {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            }
-          ]
-        },
-        {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "USB & XLR",
-              "value_es": "USB & XLR"
-            },
-            {
-              "value": "USB & XLR",
-              "value_es": "USB & XLR"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB & XLR",
-              "value_es": "USB & XLR"
-            },
-            {
-              "value": "USB",
-              "value_es": "USB"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
+              "value": "USB-C/XLR",
+              "value_es": "USB-C/XLR"
             },
             {
               "value": "USB",
@@ -60561,606 +60509,42 @@
             {
               "value": "USB",
               "value_es": "USB"
-            }
-          ]
-        },
-        {
-          "label": "Sample Rate / Bit Depth",
-          "label_es": "Tasa de Muestreo / Profundidad de Bits",
-          "values": [
-            {
-              "value": "16-bit, 44.1/48 kHz",
-              "value_es": "16-bit, 44,1/48 kHz"
-            },
-            {
-              "value": "24-bit, 48 kHz",
-              "value_es": "24-bit, 48 kHz"
-            },
-            {
-              "value": "24-bit, up to 96 kHz",
-              "value_es": "24-bit, hasta 96 kHz"
-            },
-            {
-              "value": "16-bit, 44.1/48 kHz",
-              "value_es": "16-bit, 44,1/48 kHz"
-            },
-            {
-              "value": "16-bit, 44.1/48 kHz",
-              "value_es": "16-bit, 44,1/48 kHz"
-            },
-            {
-              "value": "24-bit, 96 kHz",
-              "value_es": "24-bit, 96 kHz"
-            },
-            {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
-            },
-            {
-              "value": "24-bit, 48 kHz",
-              "value_es": "24-bit, 48 kHz"
-            },
-            {
-              "value": "24-bit, 48 kHz",
-              "value_es": "24-bit, 48 kHz"
-            },
-            {
-              "value": "16-bit, 44.1 kHz",
-              "value_es": "16-bit, 44,1 kHz"
-            },
-            {
-              "value": "24-bit, up to 192 kHz",
-              "value_es": "24-bit, hasta 192 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Frequency Response",
-          "label_es": "Respuesta en Frecuencia",
-          "values": [
-            {
-              "value": "50 Hz – 15 kHz",
-              "value_es": "50 Hz – 15 kHz"
-            },
-            {
-              "value": "40 Hz – 16 kHz",
-              "value_es": "40 Hz – 16 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "50 Hz – 16 kHz",
-              "value_es": "50 Hz – 16 kHz"
-            },
-            {
-              "value": "50 Hz – 16 kHz",
-              "value_es": "50 Hz – 16 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "60 Hz – 18 kHz",
-              "value_es": "60 Hz – 18 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
-              "value": "100 Hz – 16 kHz",
-              "value_es": "100 Hz – 16 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            }
-          ]
-        },
-        {
-          "label": "Sensitivity",
-          "label_es": "Sensibilidad",
-          "values": [
-            {
-              "value": "-54 dBV/Pa",
-              "value_es": "-54 dBV/Pa"
-            },
-            {
-              "value": "XLR: -52 dBV/Pa (2.5 mV/Pa); USB: -10.5 dBFS/Pa",
-              "value_es": "XLR: -52 dBV/Pa (2,5 mV/Pa); USB: -10,5 dBFS/Pa"
-            },
-            {
-              "value": "-7.8 dB (1 V/Pa at 1 kHz)",
-              "value_es": "-7,8 dB (1 V/Pa a 1 kHz)"
-            },
-            {
-              "value": "-50 dBV",
-              "value_es": "-50 dBV"
-            },
-            {
-              "value": "-50 dB",
-              "value_es": "-50 dB"
-            },
-            {
-              "value": "-36 dB (1 V/Pa at 1 kHz)",
-              "value_es": "-36 dB (1 V/Pa a 1 kHz)"
-            },
-            {
-              "value": "-40 dB",
-              "value_es": "-40 dB"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "-38 dB (0 dB = 1 V/Pa at 1 kHz)",
-              "value_es": "-38 dB (0 dB = 1 V/Pa a 1 kHz)"
-            },
-            {
-              "value": "-13.5 to +0.5 dBFS (94 dB SPL at 1 kHz)",
-              "value_es": "-13,5 a +0,5 dBFS (94 dB SPL a 1 kHz)"
-            }
-          ]
-        },
-        {
-          "label": "Self-Noise",
-          "label_es": "Ruido Propio",
-          "values": [
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/A (dinámico)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/A (dinámico)"
-            },
-            {
-              "value": "≤ -79.5 dBFS (A-weighted)",
-              "value_es": "≤ -79,5 dBFS (ponderado A)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/A (dinámico)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/A (dinámico)"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            }
-          ]
-        },
-        {
-          "label": "Max SPL",
-          "label_es": "SPL Máximo",
-          "values": [
-            {
-              "value": "148 dB SPL",
-              "value_es": "148 dB SPL"
-            },
-            {
-              "value": ">130 dB SPL",
-              "value_es": ">130 dB SPL"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "130 dB SPL",
-              "value_es": "130 dB SPL"
-            },
-            {
-              "value": "120 dB SPL",
-              "value_es": "120 dB SPL"
-            },
-            {
-              "value": "110 dB SPL",
-              "value_es": "110 dB SPL"
-            },
-            {
-              "value": "110 dB SPL",
-              "value_es": "110 dB SPL"
-            },
-            {
-              "value": "121 dBA (at 1% THD)",
-              "value_es": "121 dBA (al 1% THD)"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "110 dB SPL (<1% THD at 1 kHz)",
-              "value_es": "110 dB SPL (<1% THD a 1 kHz)"
-            },
-            {
-              "value": "93.5 dB SPL",
-              "value_es": "93,5 dB SPL"
-            }
-          ]
-        },
-        {
-          "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal-Ruido",
-          "values": [
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": ">80 dB",
-              "value_es": ">80 dB"
-            },
-            {
-              "value": ">80 dB",
-              "value_es": ">80 dB"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "70 dB",
-              "value_es": "70 dB"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "56 dB",
-              "value_es": "56 dB"
-            },
-            {
-              "value": "60 dB",
-              "value_es": "60 dB"
-            }
-          ]
-        },
-        {
-          "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
-          "values": [
-            {
-              "value": "Dynamic moving coil",
-              "value_es": "Dinámico de bobina móvil"
-            },
-            {
-              "value": "Dynamic moving coil",
-              "value_es": "Dinámico de bobina móvil"
-            },
-            {
-              "value": "14 mm electret condenser",
-              "value_es": "Condensador electret de 14 mm"
-            },
-            {
-              "value": "Dynamic moving coil",
-              "value_es": "Dinámico de bobina móvil"
-            },
-            {
-              "value": "Dynamic moving coil",
-              "value_es": "Dinámico de bobina móvil"
-            },
-            {
-              "value": "14 mm condenser",
-              "value_es": "Condensador de 14 mm"
-            },
-            {
-              "value": "16 mm condenser",
-              "value_es": "Condensador de 16 mm"
-            },
-            {
-              "value": "Electret condenser",
-              "value_es": "Condensador electret"
-            },
-            {
-              "value": "Condenser (size not published)",
-              "value_es": "Condensador (tamaño no publicado)"
-            },
-            {
-              "value": "Condenser (size not disclosed)",
-              "value_es": "Condensador (tamaño no revelado)"
-            },
-            {
-              "value": "14 mm condenser",
-              "value_es": "Condensador de 14 mm"
-            }
-          ]
-        },
-        {
-          "label": "Phantom Power",
-          "label_es": "Alimentación Fantasma",
-          "values": [
-            {
-              "value": "None required (dynamic); USB bus power",
-              "value_es": "No requiere (dinámico); alimentación por USB"
-            },
-            {
-              "value": "None required (dynamic); USB bus power",
-              "value_es": "No requiere (dinámico); alimentación por USB"
-            },
-            {
-              "value": "USB bus power (5 V)",
-              "value_es": "Alimentación por USB (5 V)"
-            },
-            {
-              "value": "None required (dynamic); USB bus power",
-              "value_es": "No requiere (dinámico); alimentación por USB"
-            },
-            {
-              "value": "None required (dynamic); USB bus power",
-              "value_es": "No requiere (dinámico); alimentación por USB"
-            },
-            {
-              "value": "USB bus power (5 V)",
-              "value_es": "Alimentación por USB (5 V)"
-            },
-            {
-              "value": "USB bus power (5 V)",
-              "value_es": "Alimentación por USB (5 V)"
-            },
-            {
-              "value": "USB bus power",
-              "value_es": "Alimentación por USB"
-            },
-            {
-              "value": "USB bus power",
-              "value_es": "Alimentación por USB"
-            },
-            {
-              "value": "USB bus power (5 V)",
-              "value_es": "Alimentación por USB (5 V)"
-            },
-            {
-              "value": "USB bus power",
-              "value_es": "Alimentación por USB"
-            }
-          ]
-        },
-        {
-          "label": "Dimensions",
-          "label_es": "Dimensiones",
-          "values": [
-            {
-              "value": "190 × 55 mm",
-              "value_es": "190 × 55 mm"
-            },
-            {
-              "value": "55 × 160 mm",
-              "value_es": "55 × 160 mm"
-            },
-            {
-              "value": "152 × 53 × 53 mm",
-              "value_es": "152 × 53 × 53 mm"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "85 × 126 × 245 mm (with stand)",
-              "value_es": "85 × 126 × 245 mm (con soporte)"
-            },
-            {
-              "value": "Ø56 × 162 mm",
-              "value_es": "Ø56 × 162 mm"
-            },
-            {
-              "value": "~176 × 96 × 179 mm (with stand)",
-              "value_es": "~176 × 96 × 179 mm (con soporte)"
-            },
-            {
-              "value": "54.5 × 43.9 × 108.1 mm",
-              "value_es": "54,5 × 43,9 × 108,1 mm"
-            },
-            {
-              "value": "62 × 42 × 118 mm",
-              "value_es": "62 × 42 × 118 mm"
-            },
-            {
-              "value": "150 × 45 × 30 mm",
-              "value_es": "150 × 45 × 30 mm"
-            },
-            {
-              "value": "170 × 52 mm",
-              "value_es": "170 × 52 mm"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "320 g (0.7 lb)",
-              "value_es": "320 g (0,7 lb)"
-            },
-            {
-              "value": "314 g",
-              "value_es": "314 g"
-            },
-            {
-              "value": "366 g (12.9 oz)",
-              "value_es": "366 g (12,9 oz)"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "599 g",
-              "value_es": "599 g"
-            },
-            {
-              "value": "~235 g",
-              "value_es": "~235 g"
-            },
-            {
-              "value": "~500 g",
-              "value_es": "~500 g"
-            },
-            {
-              "value": "585 g",
-              "value_es": "585 g"
-            },
-            {
-              "value": "492 g",
-              "value_es": "492 g"
-            },
-            {
-              "value": "~380 g (with stand)",
-              "value_es": "~380 g (con soporte)"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            }
-          ]
-        },
-        {
-          "label": "On-Mic Controls",
-          "label_es": "Controles en el Micrófono",
-          "values": [
-            {
-              "value": "On/off switch, headphone volume",
-              "value_es": "Interruptor on/off, volumen de auriculares"
-            },
-            {
-              "value": "Gain knob, mute button",
-              "value_es": "Perilla de ganancia, botón de silencio"
-            },
-            {
-              "value": "Tap-to-mute",
-              "value_es": "Silencio de un toque"
-            },
-            {
-              "value": "Gain knob, touch mute, headphone volume",
-              "value_es": "Perilla de ganancia, silencio táctil, volumen de auriculares"
-            },
-            {
-              "value": "Mute button, gain knob",
-              "value_es": "Botón de silencio, perilla de ganancia"
-            },
-            {
-              "value": "Tap-to-mute",
-              "value_es": "Silencio de un toque"
-            },
-            {
-              "value": "Tap-to-mute, gain knob",
-              "value_es": "Silencio de un toque, perilla de ganancia"
-            },
-            {
-              "value": "Headphone volume dial",
-              "value_es": "Perilla de volumen de auriculares"
-            },
-            {
-              "value": "Gain level, mute button, headphone level",
-              "value_es": "Nivel de ganancia, botón de silencio, nivel de auriculares"
-            },
-            {
-              "value": "Gain control",
-              "value_es": "Control de ganancia"
-            },
-            {
-              "value": "Gain knob, mute button",
-              "value_es": "Perilla de ganancia, botón de silencio"
-            }
-          ]
-        },
-        {
-          "label": "Headphone Jack",
-          "label_es": "Salida de Auriculares",
-          "values": [
-            {
-              "value": "Yes",
-              "value_es": "Sí"
-            },
-            {
-              "value": "Yes",
-              "value_es": "Sí"
             },
             {
-              "value": "No",
-              "value_es": "No"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "No",
-              "value_es": "No"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "Yes",
-              "value_es": "Sí"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "No",
-              "value_es": "No"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "No",
-              "value_es": "No"
+              "value": "USB-C/XLR",
+              "value_es": "USB-C/XLR"
             },
             {
-              "value": "Yes",
-              "value_es": "Sí"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "Yes",
-              "value_es": "Sí"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "No",
-              "value_es": "No"
+              "value": "USB",
+              "value_es": "USB"
             },
             {
-              "value": "No",
-              "value_es": "No"
+              "value": "USB",
+              "value_es": "USB"
             }
           ]
         }
@@ -61473,6 +60857,54 @@
           "El listing puede estar temporalmente agotado",
           "El condensador oye algo de ruido de sala",
           "Base de plástico"
+        ]
+      },
+      {
+        "name": "Blue Yeti Nano USB Condenser Microphone",
+        "name_es": "Micrófono USB Condensador Blue Yeti Nano",
+        "pros": [
+          "Compact form factor fits any desk",
+          "24-bit/48kHz recording quality",
+          "Blue VO!CE software for voice effects"
+        ],
+        "pros_es": [
+          "Formato compacto cabe en cualquier escritorio",
+          "Calidad de grabación 24-bit/48kHz",
+          "Software Blue VO!CE para efectos de voz"
+        ],
+        "cons": [
+          "No XLR output for future upgrades",
+          "Fixed cardioid/omnidirectional pattern",
+          "Higher price than other budget USB mics"
+        ],
+        "cons_es": [
+          "Sin salida XLR para futuras actualizaciones",
+          "Patrón fijo cardioide/omnidireccional",
+          "Precio más alto que otros mic USB económicos"
+        ]
+      },
+      {
+        "name": "FIFINE T669 USB Microphone Kit",
+        "name_es": "Kit de Micrófono USB FIFINE T669",
+        "pros": [
+          "Complete kit with boom arm and pop filter",
+          "Plug-and-play USB connection",
+          "Budget price with solid build quality"
+        ],
+        "pros_es": [
+          "Kit completo con brazo articulado y filtro pop",
+          "Conexión USB plug-and-play",
+          "Precio económico con buena calidad de construcción"
+        ],
+        "cons": [
+          "Condenser picks up room noise",
+          "No XLR output",
+          "Boom arm feels light for heavy use"
+        ],
+        "cons_es": [
+          "Condensador captura ruido de sala",
+          "Sin salida XLR",
+          "Brazo se siente ligero para uso intensivo"
         ]
       }
     ],
