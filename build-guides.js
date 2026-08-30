@@ -1677,7 +1677,7 @@ buildSitemap();
   // Always write index.html (cache busters may have changed)
   var marker = '<!-- CRAWLABLE_GUIDE_LINKS -->';
   if (html.indexOf(marker) !== -1) {
-    html = html.replace(marker, '\n' + links + '\n');
+    html = html.replace(marker, '\n' + links + '\n' + marker + '\n');
     // Ensure CSS class exists
     var css = '.crawl-guides{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:1px;width:1px;margin:-1px;padding:0;border:0}';
     if (html.indexOf('.crawl-guides') === -1) {
