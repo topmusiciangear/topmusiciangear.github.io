@@ -693,7 +693,8 @@ const TEST_SHOP_BTN = {
   435: {prices:{amazon:"$39.90",gear4music:"£26.70",reverb:"$35.00"}},
   436: {prices:{amazon:"$49.99"}},
   437: {prices:{amazon:"$37.99"}},
-  438: {prices:{amazon:"$79.99",reverb:"$40.00",gear4music:"£50.00",andertons:"£69.00"}}
+  438: {prices:{amazon:"$79.99",reverb:"$40.00",gear4music:"£50.00",andertons:"£69.00"}},
+  439: {prices:{amazon:"$35.99",reverb:"$40.00"}}
 };
 
 function shopButtonsTest(p, lang) {
