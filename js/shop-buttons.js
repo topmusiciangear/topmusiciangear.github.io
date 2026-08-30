@@ -423,7 +423,15 @@ const TEST_SHOP_BTN = {
   427: {prices:{amazon:"$99.00",gear4music:"£87.40"}},
   429: {prices:{amazon:"$75.99",zzounds:"$79.99",reverb:"$75.99",gear4music:"£69.00",andertons:"£69.00",musicstore:"€75.00"}},
   430: {prices:{amazon:"$39.99",zzounds:"$39.99",reverb:"$39.99",gear4music:"£35.00",andertons:"£35.00",musicstore:"€38.00"}},
-  428: {prices:{amazon:"$37.49",zzounds:"$37.49",reverb:"$37.49"}}
+  428: {prices:{amazon:"$37.49",zzounds:"$37.49",reverb:"$37.49"}},
+  431: {prices:{amazon:"$63.99",gear4music:"£92.80",andertons:"£79.00",reverb:"$105.00"}},
+  432: {prices:{amazon:"$99.99"}},
+  433: {prices:{amazon:"$143.39",zzounds:"$149.99",reverb:"$149.99"}},
+  434: {prices:{amazon:"$79.99",reverb:"$80.00",gear4music:"£95.00",andertons:"£99.00"}},
+  435: {prices:{amazon:"$39.90",gear4music:"£26.70",reverb:"$35.00"}},
+  436: {prices:{amazon:"$49.99"}},
+  437: {prices:{amazon:"$37.99"}},
+  438: {prices:{amazon:"$79.99",reverb:"$40.00",gear4music:"£50.00",andertons:"£69.00"}}
 }
 
 function shopButtonsTest(p, lang) {
