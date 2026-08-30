@@ -1,74 +1,28 @@
-const fs = require('fs');
-let code = fs.readFileSync('build-guides.js', 'utf8');
+﻿const fs=require("fs");
+let build=fs.readFileSync("build-guides.js","utf8");
 
-// Find the TEST_SHOP_BTN function boundaries
-const marker = 'function TEST_SHOP_BTN(';
-const start = code.indexOf(marker);
+// 1. Update Razer Seiren V3 Mini (280): $60 -> $41
+build=build.replace(/280:\s*\{prices:\{[^}]+\}/, '280: {prices:{amazon:"$41.00",zzounds:"$39.99",reverb:"$39.99",gear4music:"£36.00",andertons:"£36.00",musicstore:"€39.00"}}');
+console.log("Updated Razer Seiren V3 Mini (280) price");
 
-// Find the return statement and the closing
-const returnIdx = code.indexOf('return btns', start);
-const endBrace = code.indexOf('}', returnIdx) + 1;
+// 2. Update HyperX SoloCast 2 (281): $60 -> $45
+build=build.replace(/281:\s*\{prices:\{[^}]+\}/, '281: {prices:{amazon:"$45.00",zzounds:"$44.99",reverb:"$44.99",gear4music:"£39.00",andertons:"£39.00",musicstore:"€42.00"}}');
+console.log("Updated HyperX SoloCast 2 (281) price");
 
-const oldFunc = code.substring(start, endBrace);
+// 3. Update TONOR TC-777 (287): $35 -> $20
+build=build.replace(/287:\s*\{prices:\{[^}]+\}/, '287: {prices:{amazon:"$19.99",zzounds:"$19.99",reverb:"$19.99",gear4music:"£17.00",andertons:"£17.00",musicstore:"€19.00"}}');
+console.log("Updated TONOR TC-777 (287) price");
 
-const newFunc = `function TEST_SHOP_BTN(id, opts) {
-  opts = opts || {};
-  var p = PRODUCTS.find(function(x){ return x.id === id; });
-  if (!p) return '';
-  var prices = {
-    402: {amazon:'$1,999',zzounds:'$1,999',gear4music:'$2,099',reverb:'Check price'},
-    403: {amazon:'$3,999',zzounds:'$3,999',gear4music:'$3,799',reverb:'Check price'},
-    406: {amazon:'$1,599',zzounds:'$1,599',gear4music:'$1,499',reverb:'Check price'},
-    408: {amazon:'$1,400',zzounds:'$1,399',gear4music:'$1,349',reverb:'Check price'},
-    410: {amazon:'$1,369',zzounds:'$1,369',gear4music:'$1,299',reverb:'Check price',andertons:'Check price',musicstore:'Check price'},
-    412: {amazon:'$2,799',reverb:'Check price',musicstore:'Check price'},
-    413: {amazon:'$1,899',reverb:'Check price',musicstore:'Check price'},
-    414: {amazon:'$5,199',reverb:'Check price',gear4music:'Check price',musicstore:'Check price'},
-    415: {reverb:'Check price',musicstore:'Check price'},
-    416: {amazon:'$25,490',reverb:'Check price',musicstore:'Check price'},
-    417: {amazon:'$5,999',reverb:'Check price',gear4music:'Check price',musicstore:'Check price'}
-  };
-  var stores = p.stores || {};
-  var oosList = (p.oos || '').split(',').map(function(s){return s.trim();});
-  var excludeList = p.excludeStores || [];
-  var btns = '';
-  var isPlugin = opts.isPlugin || false;
-  var storeConfig = [
-    {key:'amazon',label:'Amazon',flag:'\\u{1F1FA}\\u{1F1F8}'},
-    {key:'zzounds',label:'zZounds',flag:'\\u{1F1FA}\\u{1F1F8}',sub:'Easy Payment Plans'},
-    {key:'reverb',label:'Reverb',flag:'\\u{1F30D}',sub:'New & Used Market'},
-    {key:'gear4music',label:'Gear4music',flag:'\\u{1F1EC}\\u{1F1E7}',sub:'Fast UK Delivery'},
-    {key:'andertons',label:'Andertons',flag:'\\u{1F1EC}\\u{1F1E7}',sub:'Expert Support'},
-    {key:'musicstore',label:'Music Store',flag:'\\u{1F1EA}\\u{1F1FA}',sub:'3-Year Warranty'}
-  ];
-  if (isPlugin) {
-    storeConfig = [
-      {key:'pluginboutique',label:'Plugin Boutique',flag:'\\u{1F30D}',sub:'Plugin Marketplace'}
-    ];
-  }
-  storeConfig.forEach(function(s) {
-    if (excludeList.indexOf(s.key) > -1) return;
-    var hasUrl = stores[s.key] && stores[s.key].length > 5;
-    var price = (prices[id] && prices[id][s.key]) ? prices[id][s.key] : '';
-    var isOOS = oosList.indexOf(s.key) > -1 || (s.key !== 'reverb' && !price && hasUrl);
-    var cls = 'shop-btn shop-btn-sm';
-    var sub = s.sub || '';
-    if (isOOS) {
-      cls += ' shop-btn-oos';
-      sub = 'Out of stock';
-    }
-    if (s.key === (opts.primaryStore || 'amazon')) cls += ' shop-btn-primary';
-    btns += '<a href="' + (hasUrl ? stores[s.key] : '#') + '" class="' + cls + '" target="_blank" rel="nofollow noopener">';
-    btns += '<span class="shop-btn-flag">' + s.flag + '</span> ';
-    btns += '<span class="shop-btn-label">' + s.label + '</span>';
-    if (sub) btns += ' <span class="shop-btn-sub">' + sub + '</span>';
-    if (price && !isOOS) btns += ' <span class="shop-btn-price">' + price + '</span>';
-    btns += '</a>';
-  });
-  return btns;
-}`;
+// 4. Add Blue Yeti Nano (300)
+const yetiEntry = '\n  300: {prices:{amazon:"$75.99",zzounds:"$79.99",reverb:"$75.99",gear4music:"£69.00",andertons:"£69.00",musicstore:"€75.00"}},';
+const lastEntry = build.lastIndexOf('};');
+build = build.slice(0, lastEntry) + yetiEntry + '\n' + build.slice(lastEntry);
+console.log("Added Blue Yeti Nano (300) to TEST_SHOP_BTN");
 
-code = code.substring(0, start) + newFunc + code.substring(endBrace);
-fs.writeFileSync('build-guides.js', code, 'utf8');
-console.log('TEST_SHOP_BTN updated');
-console.log('New function length:', newFunc.length, 'chars');
+// 5. Add FIFINE T669 (301)
+const t669Entry = '\n  301: {prices:{amazon:"$39.99",zzounds:"$39.99",reverb:"$39.99",gear4music:"£35.00",andertons:"£35.00",musicstore:"€38.00"}},';
+build = build.replace(yetiEntry, yetiEntry + t669Entry);
+console.log("Added FIFINE T669 (301) to TEST_SHOP_BTN");
+
+fs.writeFileSync("build-guides.js", build, "utf8");
+console.log("build-guides.js updated");

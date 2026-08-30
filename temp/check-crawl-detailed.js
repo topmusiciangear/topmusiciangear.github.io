@@ -1,0 +1,13 @@
+﻿const fs=require("fs");
+let html=fs.readFileSync("index.html","utf8");
+const start = html.indexOf("<div class=\"crawl-guides\">");
+const end = html.indexOf("</div>", html.indexOf("<div class=\"crawl-guides\">"));
+const section = html.substring(start, end);
+const linkMatches = section.match(/<a href="\/guides\/([^_"]+)(_es)?\.html"/g) || [];
+const ids = [...new Set(linkMatches.map(m => m.match(/\/guides\/([^_"]+)/)[1]))];
+console.log("Total links in crawl-guides:", ids.length);
+const allIds = require("fs").readFileSync("data/guides.json","utf8").split("\"id\":").map(s=>s.split("\"")[1]).filter(Boolean);
+const missing = allIds.filter(id => !id.startsWith("in_ear") && id.length > 3);
+const iemMissing = ["best-in-ear-monitors","best-wireless-iems","ie900-vs-se846"].filter(id => !ids.includes(id));
+console.log("IEM guides in crawl-guides:", ids.filter(id => id.includes("in-ear") || id.includes("iem") || id.includes("best-in-ear") || id.includes("ew-iem") || id.includes("wireless-iems")));
+console.log("Missing IEM guides:", iemMissing);

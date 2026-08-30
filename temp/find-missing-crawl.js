@@ -1,0 +1,13 @@
+﻿const fs=require("fs");
+const g=JSON.parse(fs.readFileSync("data/guides.json","utf8"));
+let html=fs.readFileSync("index.html","utf8");
+const start = html.indexOf("<div class=\"crawl-guides\">");
+const end = html.indexOf("</div>", html.indexOf("<div class=\"crawl-guides\">"));
+const section = html.substring(start, end);
+const linkMatches = section.match(/<a href="\/guides\/([^_"]+)(_es)?\.html"/g) || [];
+const ids = [...new Set(linkMatches.map(m => m.match(/\/guides\/([^_"]+)/)[1]))];
+console.log("Guides in crawl-guides:", ids.length);
+const allIds = g.map(x=>x.id);
+const missing = allIds.filter(id => !ids.includes(id));
+console.log("Missing guides:", missing.length);
+missing.forEach(id=>console.log("  MISSING:", id));
