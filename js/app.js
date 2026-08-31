@@ -204,13 +204,23 @@ function setLang(lang) {
     var psi = document.getElementById('productSearchInput');
     if (psi && psi.value.trim()) {
       var q = psi.value.toLowerCase().trim();
+      var norm = function(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); };
+      var stem = function(s) { return s.replace(/(es|s)$/i, ''); };
+      var toWords = function(s) { return norm(s).split(/[\s\-\/]+/).filter(Boolean); };
+      var qn = norm(q);
+      var qStem = stem(qn);
       var scored = products.reduce(function(acc, p) {
-        var t = p.title.toLowerCase();
-        var te = (p.title_es || "").toLowerCase();
-        var b = (p.brand || "").toLowerCase();
+        var tWords = toWords(p.title);
+        var teWords = toWords(p.title_es || "");
+        var allWords = tWords.concat(teWords).filter(function(w, i, a) { return a.indexOf(w) === i; });
+        var b = norm(p.brand || "");
         var score = 0;
-        if (t.includes(q) || te.includes(q)) score += 2;
-        if (b.includes(q)) score += 1;
+        for (var i = 0; i < allWords.length; i++) {
+          var w = allWords[i];
+          if (w === qn || w === qStem) { score += 10; break; }
+          if (w.indexOf(qn) === 0 || w.indexOf(qStem) === 0) { score += 5; break; }
+        }
+        if (b.indexOf(qn) === 0) score += 1;
         if (score > 0) acc.push({ product: p, score: score });
         return acc;
       }, []).sort(function(a, b) { return b.score - a.score; }).map(function(x) { return x.product; });
@@ -1372,13 +1382,22 @@ document.addEventListener("DOMContentLoaded", () => {
       results.style.display = "none";
       return;
     }
+    const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const stem = s => s.replace(/(es|s)$/i, '');
+    const toWords = s => norm(s).split(/[\s\-\/]+/).filter(Boolean);
+    const qn = norm(q);
+    const qStem = stem(qn);
     const scored = products.reduce((acc, p) => {
-      const t = p.title.toLowerCase();
-      const te = (p.title_es || "").toLowerCase();
-      const b = (p.brand || "").toLowerCase();
+      const tWords = toWords(p.title);
+      const teWords = toWords(p.title_es || "");
+      const allWords = [...new Set([...tWords, ...teWords])];
+      const b = norm(p.brand || "");
       let score = 0;
-      if (t.includes(q) || te.includes(q)) score += 2;
-      if (b.includes(q)) score += 1;
+      for (const w of allWords) {
+        if (w === qn || w === qStem) { score += 10; break; }
+        if (w.indexOf(qn) === 0 || w.indexOf(qStem) === 0) { score += 5; break; }
+      }
+      if (b.indexOf(qn) === 0) score += 1;
       if (score > 0) acc.push({ product: p, score });
       return acc;
     }, []).sort((a, b) => b.score - a.score)
