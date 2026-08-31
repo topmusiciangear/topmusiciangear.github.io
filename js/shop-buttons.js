@@ -457,6 +457,38 @@ const TEST_SHOP_BTN = {
   439: {prices:{amazon:"$35.99",reverb:"$40.00"}}
 }
 
+function shortTitle(title) {
+  const removeWords = ['Desktop','Modeling','Model','Amp','Microphone','Mic','Condenser','Dynamic',
+    'Shotgun','Supercardioid','Cardioid','Headphones','Headphone','Over-Ear','On-Ear','In-Ear',
+    'Monitor','Speaker','Studio','Active','Passive','Guitar','Bass','Electric','Acoustic',
+    'Classical','Nylon','Steel','Pedal','Effects','Multi-Effects','Keyboard','Piano','Digital',
+    'Portable','Interface','Audio','USB','Thunderbolt','Short','On-Camera','Helix','Wireless',
+    'Bluetooth','Stereo','Mono','Dual','System','Set','Kit','Bundle','Pack','Pair','Combo',
+    'Package','Parlor','All-Mahogany','Acoustic-Electric','XLR','Gaming','Streaming','Podcast',
+    'Recording','Creator','Vlogger','Filmmaker','Camera','Video','Compact','Large-Diaphragm',
+    'UHF','Lavalier','Lapel','Headset','Instrument','Drum','Reference','Nearfield','Closed-Back',
+    'Open-Back','Earbuds','Earphones','Analog','Synthesizer','Groovebox','Drum Machine','Sampler',
+    'Sequencer','Turntable','DJ','Controller','Mixer','PA','Powered','Subwoofer','Tuning',
+    'Tuner','Metronome','Power','Cable','Stand','Arm','Boom','Clamp','Windshield','Pop Filter',
+    'Shock Mount','Reflection','Isolation','Acoustic Treatment','Panels','Absorber','Diffuser',
+    'Bass Trap','Pad','Pads','Vocal','Podcasting','Broadcast','Pro'];
+  let words = title.split(' ');
+  let lastNumIdx = -1;
+  for (let i = words.length - 1; i >= 0; i--) {
+    if (/\d/.test(words[i])) { lastNumIdx = i; break; }
+  }
+  if (lastNumIdx >= 0) {
+    return words.slice(0, lastNumIdx + 1).join(' ');
+  }
+  let result = [];
+  for (let w of words) {
+    if (removeWords.includes(w)) break;
+    result.push(w);
+  }
+  return result.length > 0 ? result.join(' ') : words.slice(0, 3).join(' ');
+}
+
+
 function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
   const prices = cfg.prices || {};

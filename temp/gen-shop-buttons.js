@@ -25,6 +25,11 @@ var euFlagEnd = src.indexOf('\n}', src.indexOf('function euFlag'));
 euFlagEnd = src.indexOf('\n}', euFlagEnd + 3);
 var flagFuncs = src.substring(flagStart, euFlagEnd + 2);
 
+// Extract shortTitle function
+var shortTitleStart = src.indexOf('function shortTitle(');
+var shortTitleEnd = src.indexOf('\nfunction ', shortTitleStart + 10);
+var shortTitleFn = src.substring(shortTitleStart, shortTitleEnd);
+
 // Extract shopButtonsTest function
 var shopFnStart = src.indexOf('function shopButtonsTest(');
 var shopFnEnd = src.indexOf('\nfunction ', shopFnStart + 10);
@@ -101,6 +106,8 @@ ${logoStyleBlock}
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: euFlag, andertons: ukFlag };
 
 ${btnBlock}
+
+${shortTitleFn}
 
 ${shopFn}
 
