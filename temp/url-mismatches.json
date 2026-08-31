@@ -1,0 +1,754 @@
+[
+  {
+    "id": 2,
+    "title": "Neumann U 87 Ai",
+    "brand": "Neumann",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/neumann-u87-ai-microphone-set-black-finish-w-ea87-shockmount/",
+    "slug": "neumann-u87-ai-microphone-set-black-finish-w-ea87-shockmount",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AKG C414 XLII",
+    "brand": "AKG",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/akg-c414-xlii-large-diaphragm-condenser-microphone/",
+    "slug": "akg-c414-xlii-large-diaphragm-condenser-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Shure SM57",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-sm57-dynamic-instrument-microphone/",
+    "slug": "shure-sm57-dynamic-instrument-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Taylor 314ce Next Generation",
+    "brand": "Taylor",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/taylor-next-generation-314ce-grand-auditorium-cutaway-electro-acoustic-guitar/",
+    "slug": "taylor-next-generation-314ce-grand-auditorium-cutaway-electro-acoustic-guitar",
+    "issues": [
+      "URL contains Electro but product is different"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Universal Audio Apollo Twin X Gen 2",
+    "brand": "Universal Audio",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--UADAPTWINXDUOG2E",
+    "slug": "item--UADAPTWINXDUOG2E",
+    "issues": [
+      "URL contains UAD but product is different"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "SSL 2+ MKII",
+    "brand": "SSL",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/ssl-2-v2-recording-pack-with-mic-headphones--pop-filter/",
+    "slug": "ssl-2-v2-recording-pack-with-mic-headphones--pop-filter",
+    "issues": [
+      "URL slug contains headphone but product is not headphones",
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Beyerdynamic DT 770 Pro",
+    "brand": "Beyerdynamic",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/beyerdynamic-dt770-pro-closed-back-headphones-80-ohms/",
+    "slug": "beyerdynamic-dt770-pro-closed-back-headphones-80-ohms",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Sennheiser HD 490 Pro Plus",
+    "brand": "Sennheiser",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/senneheiser-hd-490-pro-plus-headphones/",
+    "slug": "senneheiser-hd-490-pro-plus-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Audio-Technica ATH-M50x",
+    "brand": "Audio-Technica",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/audio-technica-ath-m50x-studio-monitor-professional-headphones/",
+    "slug": "audio-technica-ath-m50x-studio-monitor-professional-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Roland TR-8S",
+    "brand": "Roland",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/roland-tr-8s-rhythm-performer/",
+    "slug": "roland-tr-8s-rhythm-performer",
+    "issues": [
+      "URL contains RME but product is different"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Shure SM58",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-sm58-microphone/",
+    "slug": "shure-sm58-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Electro-Voice RE20",
+    "brand": "Electro-Voice",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/electro-voice-re20-broadcast-announcer-cardioid-microphone-w-variable-d/",
+    "slug": "electro-voice-re20-broadcast-announcer-cardioid-microphone-w-variable-d",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Universal Audio Volt 2",
+    "brand": "Universal Audio",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--UADVOLT2",
+    "slug": "item--UADVOLT2",
+    "issues": [
+      "URL contains UAD but product is different"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Beyerdynamic DT 990 Pro",
+    "brand": "Beyerdynamic",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/beyerdynamic-dt990-pro-headphones/",
+    "slug": "beyerdynamic-dt990-pro-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "AKG K371",
+    "brand": "AKG",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/akg-k371-closed-back-studio-headphones/",
+    "slug": "akg-k371-closed-back-studio-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Fender Player II Jazzmaster",
+    "brand": "Fender",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/fender-player-ii-jazzmaster-rosewood-fingerboard-rallye-orange/",
+    "slug": "fender-player-ii-jazzmaster-rosewood-fingerboard-rallye-orange",
+    "issues": [
+      "URL contains Orange but product is different brand"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Vox AC30",
+    "brand": "Vox",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/vox-ac30-custom-with-celestion-blue-speakers/",
+    "slug": "vox-ac30-custom-with-celestion-blue-speakers",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Shure BLX288/PG58",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-blx288-with-2x-sm58-dual-vocal-analogue-wireless-system/",
+    "slug": "shure-blx288-with-2x-sm58-dual-vocal-analogue-wireless-system",
+    "issues": [
+      "URL contains SM58 but product is different"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Sennheiser EW-D 835-S",
+    "brand": "Sennheiser",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/sennheiser-ew-d-835-s-set-microphone-receiver-and-handheld-transmitter-u1-5/",
+    "slug": "sennheiser-ew-d-835-s-set-microphone-receiver-and-handheld-transmitter-u1-5",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "EV ZLX-12P-G2 Powered Speaker",
+    "brand": "Electro-Voice",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/Electro-Voice-ZLX12PG2-Powered-Active-Loudspeaker",
+    "slug": "Electro-Voice-ZLX12PG2-Powered-Active-Loudspeaker",
+    "issues": [
+      "URL contains Electro but product is different"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "JBL PRX ONE",
+    "brand": "JBL",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/jbl-prx-one-column-pa-system-with-7-channel-digital-mixer-dsp-fx-bluetooth-2kw-peak",
+    "slug": "jbl-prx-one-column-pa-system-with-7-channel-digital-mixer-dsp-fx-bluetooth-2kw-peak",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Kali Audio LP-6 V2",
+    "brand": "Kali Audio",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/kali-audio-lp6-6-monitor-speaker-v2/",
+    "slug": "kali-audio-lp6-6-monitor-speaker-v2",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Roland TR-6S",
+    "brand": "Roland",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/roland-tr-6s-rhythm-performer/",
+    "slug": "roland-tr-6s-rhythm-performer",
+    "issues": [
+      "URL contains RME but product is different"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Elektron Model:Cycles",
+    "brand": "Elektron",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/elektron-model-cycles-6-track-fm-synth-and-groovebox/",
+    "slug": "elektron-model-cycles-6-track-fm-synth-and-groovebox",
+    "issues": [
+      "URL contains Model Cycles but product is different"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Behringer Xenyx X1222USB",
+    "brand": "Behringer",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/behringer-xenyx-x1222usb-mixer-w-6-mic-inputs-effects-eq/",
+    "slug": "behringer-xenyx-x1222usb-mixer-w-6-mic-inputs-effects-eq",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Alto Professional TS412",
+    "brand": "Alto Professional",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/alto-ts412-active-12-pa-speaker-2000w-peak-with-dsp-bluetooth-each/",
+    "slug": "alto-ts412-active-12-pa-speaker-2000w-peak-with-dsp-bluetooth-each",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Yamaha DBR12",
+    "brand": "Yamaha",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/yamaha-dbr12-1000w-active-1x12-pa-speaker",
+    "slug": "yamaha-dbr12-1000w-active-1x12-pa-speaker",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Universal Audio Apollo x16 Gen 2",
+    "brand": "Universal Audio",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--UADAPX16G2E",
+    "slug": "item--UADAPX16G2E",
+    "issues": [
+      "URL contains UAD but product is different"
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Shure MV7+",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-motiv-mv7plus-k-dynamic-podcast-microphone/",
+    "slug": "shure-motiv-mv7plus-k-dynamic-podcast-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone",
+      "URL contains Pod but product is different"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Rode PodMic",
+    "brand": "Rode",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/rode-podmic-dynamic-podcasting-mic/?irgwc=1&irpid=7292297",
+    "slug": "rode-podmic-dynamic-podcasting-mic",
+    "issues": [
+      "URL contains Pod but product is different"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Rode PodMic",
+    "brand": "Rode",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--RODPODMIC",
+    "slug": "item--RODPODMIC",
+    "issues": [
+      "URL contains Pod but product is different"
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Audio-Technica ATH-M40x",
+    "brand": "Audio-Technica",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/audio-technica-ath-m40x-pro-studio-monitor-headphones/",
+    "slug": "audio-technica-ath-m40x-pro-studio-monitor-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Kali Audio IN-8 V2",
+    "brand": "Kali Audio",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/kali-audio-in8-8-3-way-monitor-speaker-v2/",
+    "slug": "kali-audio-in8-8-3-way-monitor-speaker-v2",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Coles 4038",
+    "brand": "Coles",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/coles-4038-studio-ribbon-microphone/",
+    "slug": "coles-4038-studio-ribbon-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Neumann KM 184",
+    "brand": "Neumann",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/neumann-km184-cardioid-condenser-mic-in-black/",
+    "slug": "neumann-km184-cardioid-condenser-mic-in-black",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Austrian Audio OC818",
+    "brand": "Austrian Audio",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/austrian-audio-oc818-black-studio-set-with-spider-mount-suspension-foam-windshield-mic-clip-protective-carry-case/",
+    "slug": "austrian-audio-oc818-black-studio-set-with-spider-mount-suspension-foam-windshield-mic-clip-protective-carry-case",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Shure Beta 52A",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-beta-52a-dynamic-bass-drum-microphone/",
+    "slug": "shure-beta-52a-dynamic-bass-drum-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Sennheiser e604 3-Pack",
+    "brand": "Sennheiser",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/sennheiser-e604-drum-mic-three-pack/",
+    "slug": "sennheiser-e604-drum-mic-three-pack",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone",
+      "URL contains THR but product is different"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "DPA 4099 CORE",
+    "brand": "DPA",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/dpa-4099-core-mic-extreme-spl/",
+    "slug": "dpa-4099-core-mic-extreme-spl",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 216,
+    "title": "RCF NX 912-SMA",
+    "brand": "RCF",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/rcf-nx-912-sma-active-high-output-multipurpose-stage-monitor-12-175-vc-2100-wpeak/",
+    "slug": "rcf-nx-912-sma-active-high-output-multipurpose-stage-monitor-12-175-vc-2100-wpeak",
+    "issues": [
+      "URL contains Peak but product is different",
+      "URL contains Stage but product is different"
+    ]
+  },
+  {
+    "id": 218,
+    "title": "LD Systems MON 12 A G3",
+    "brand": "LD Systems",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/ld-systems-mon-12-a-g3-12-active-stage-monitor/",
+    "slug": "ld-systems-mon-12-a-g3-12-active-stage-monitor",
+    "issues": [
+      "URL contains Stage but product is different"
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Yamaha DHR12M",
+    "brand": "Yamaha",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/yamaha-dhr12m-powered-loudspeaker/",
+    "slug": "yamaha-dhr12m-powered-loudspeaker",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 225,
+    "title": "RCF ART 710-A MK5",
+    "brand": "RCF",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/rcf-art-710-a-mk5-digital-active-speaker-system-10-175-vc-700wrms-1400w-peak/",
+    "slug": "rcf-art-710-a-mk5-digital-active-speaker-system-10-175-vc-700wrms-1400w-peak",
+    "issues": [
+      "URL contains Peak but product is different"
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Shure Beta 58A",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-beta-58a-handheld-vocal-microphone/",
+    "slug": "shure-beta-58a-handheld-vocal-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 227,
+    "title": "Sennheiser e935",
+    "brand": "Sennheiser",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/sennheiser-e935-vocal-microphone/",
+    "slug": "sennheiser-e935-vocal-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "AKG D5",
+    "brand": "AKG",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/akg-d5-dynamic-vocal-microphone/",
+    "slug": "akg-d5-dynamic-vocal-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Audix OM7",
+    "brand": "Audix",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/audix-om7-dynamic-instrument-microphone/",
+    "slug": "audix-om7-dynamic-instrument-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Electro-Voice ND86",
+    "brand": "Electro-Voice",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/electro-voice-nd86-dynamic-vocal-microphone/",
+    "slug": "electro-voice-nd86-dynamic-vocal-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 247,
+    "title": "Mackie DLZ Creator",
+    "brand": "Mackie",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/mackie-dlz-creator-podcast-studio-mixer/",
+    "slug": "mackie-dlz-creator-podcast-studio-mixer",
+    "issues": [
+      "URL contains Pod but product is different"
+    ]
+  },
+  {
+    "id": 252,
+    "title": "Rode PodMic USB",
+    "brand": "Rode",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/rde-podmic-usb/",
+    "slug": "rde-podmic-usb",
+    "issues": [
+      "URL contains Pod but product is different"
+    ]
+  },
+  {
+    "id": 252,
+    "title": "Rode PodMic USB",
+    "brand": "Rode",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--RODPODMICUSB",
+    "slug": "item--RODPODMICUSB",
+    "issues": [
+      "URL contains Pod but product is different"
+    ]
+  },
+  {
+    "id": 253,
+    "title": "HyperX QuadCast 2",
+    "brand": "HyperX",
+    "store": "official",
+    "decodedUrl": "https://hyperx.com/products/hyperx-quadcast-2-usb-microphone",
+    "slug": "hyperx-quadcast-2-usb-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 263,
+    "title": "Universal Audio Volt 276",
+    "brand": "Universal Audio",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--UADVOLT276",
+    "slug": "item--UADVOLT276",
+    "issues": [
+      "URL contains UAD but product is different"
+    ]
+  },
+  {
+    "id": 271,
+    "title": "Taylor GS Mini",
+    "brand": "Taylor",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/Taylor-GS-Mini-SapeleSpruce/",
+    "slug": "Taylor-GS-Mini-SapeleSpruce",
+    "issues": [
+      "URL contains ESP but product is different brand"
+    ]
+  },
+  {
+    "id": 276,
+    "title": "Samson Q2U USB/XLR Microphone",
+    "brand": "Samson",
+    "store": "reverb",
+    "decodedUrl": "https://reverb.com/p/samson-q2u-recording-pack-w-slash-usb-slash-xlr-mic-and-hp20-headphones",
+    "slug": "samson-q2u-recording-pack-w-slash-usb-slash-xlr-mic-and-hp20-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  },
+  {
+    "id": 286,
+    "title": "Audio-Technica AT2040USB",
+    "brand": "Audio-Technica",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/audio-technica-at2040-usb-microphone/",
+    "slug": "audio-technica-at2040-usb-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 298,
+    "title": "Audio-Technica AT2035",
+    "brand": "Audio-Technica",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/audio-technica-at2035-cardioid-condenser-microphone/",
+    "slug": "audio-technica-at2035-cardioid-condenser-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 308,
+    "title": "IK Multimedia iLoud MTM MKII",
+    "brand": "IK Multimedia",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/ik-multimedia-iloud-mtm-mk2-reference-studio-monitor-2-monitors--1-microphone--pair/",
+    "slug": "ik-multimedia-iloud-mtm-mk2-reference-studio-monitor-2-monitors--1-microphone--pair",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 319,
+    "title": "ESP E-II Eclipse DB",
+    "brand": "ESP",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/esp-e-ii-eclipse-db-gransp-granite-sparkle/",
+    "slug": "esp-e-ii-eclipse-db-gransp-granite-sparkle",
+    "issues": [
+      "URL contains Spark but product is different"
+    ]
+  },
+  {
+    "id": 321,
+    "title": "Shure SM7dB",
+    "brand": "Shure",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/shure-sm7db-microphone/",
+    "slug": "shure-sm7db-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 322,
+    "title": "Neumann TLM 102",
+    "brand": "Neumann",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-black-finish/",
+    "slug": "neumann-tlm102-studio-condenser-mic-in-black-finish",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 329,
+    "title": "Rode Procaster",
+    "brand": "Rode",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/rode-procaster-broadcast-dynamic-microphone/",
+    "slug": "rode-procaster-broadcast-dynamic-microphone",
+    "issues": [
+      "URL slug contains microphone but product is not a microphone"
+    ]
+  },
+  {
+    "id": 331,
+    "title": "Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
+    "brand": "Genelec",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/genelec-8351bm-three-amplified-sam-monitor-system-black/",
+    "slug": "genelec-8351bm-three-amplified-sam-monitor-system-black",
+    "issues": [
+      "URL contains THR but product is different"
+    ]
+  },
+  {
+    "id": 354,
+    "title": "PRS SE P20e Tonare Parlor",
+    "brand": "PRS",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/prs-se-p20e-tonare-parlour-electro-acoustic-guitar-gloss-black/",
+    "slug": "prs-se-p20e-tonare-parlour-electro-acoustic-guitar-gloss-black",
+    "issues": [
+      "URL contains Electro but product is different"
+    ]
+  },
+  {
+    "id": 355,
+    "title": "Epiphone L-00 Studio Parlor Acoustic-Electric",
+    "brand": "Epiphone",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/epiphone-el00-studio-electro-acoustic-guitar-vintage-sunburst/",
+    "slug": "epiphone-el00-studio-electro-acoustic-guitar-vintage-sunburst",
+    "issues": [
+      "URL contains Electro but product is different"
+    ]
+  },
+  {
+    "id": 395,
+    "title": "PreSonus FaderPort 8",
+    "brand": "PreSonus",
+    "store": "zzounds",
+    "decodedUrl": "https://www.zzounds.com/a--925521/item--PRSFADERPORT8",
+    "slug": "item--PRSFADERPORT8",
+    "issues": [
+      "URL contains PRS but product is different brand"
+    ]
+  },
+  {
+    "id": 401,
+    "title": "Taylor GS Mini-e Koa",
+    "brand": "Taylor",
+    "store": "andertons",
+    "decodedUrl": "https://www.andertons.co.uk/taylor-gs-mini-e-koa-electro-acoustic-guitar/",
+    "slug": "taylor-gs-mini-e-koa-electro-acoustic-guitar",
+    "issues": [
+      "URL contains Electro but product is different"
+    ]
+  },
+  {
+    "id": 428,
+    "title": "Samson SR850",
+    "brand": "Samson",
+    "store": "reverb",
+    "decodedUrl": "https://reverb.com/p/samson-sr850-sr-series-semi-open-back-over-ear-studio-headphones",
+    "slug": "samson-sr850-sr-series-semi-open-back-over-ear-studio-headphones",
+    "issues": [
+      "URL slug contains headphone but product is not headphones"
+    ]
+  }
+]

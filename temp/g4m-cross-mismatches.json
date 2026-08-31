@@ -1,0 +1,358 @@
+[
+  {
+    "id": 19,
+    "title": "Yamaha HS8",
+    "brand": "Yamaha",
+    "category": "monitors",
+    "urlCategories": [
+      "headphones"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G",
+    "slug": "X9G",
+    "pathName": "Audio-Technica-ATH-M50x-Headphones-Black",
+    "mismatches": [
+      "URL is for headphones but product category is monitors",
+      "URL contains ATH-M50x but product is different"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Beyerdynamic DT 770 Pro",
+    "brand": "Beyerdynamic",
+    "category": "headphones",
+    "urlCategories": [
+      "headphones",
+      "microphones"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-80-Ohm/76U",
+    "slug": "76U",
+    "pathName": "beyerdynamic-DT-770-Pro-Headphones-80-Ohm",
+    "mismatches": [
+      "URL is for microphone but product category is headphones"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Aston Microphones Shield GN Pop Filter",
+    "brand": "Aston",
+    "category": "accessories",
+    "urlCategories": [
+      "microphones"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Shield-GN-Pop-Filter/2AX0",
+    "slug": "2AX0",
+    "pathName": "Aston-Microphones-Shield-GN-Pop-Filter",
+    "mismatches": [
+      "URL is for microphone but product category is accessories"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Beyerdynamic DT 990 Pro",
+    "brand": "Beyerdynamic",
+    "category": "headphones",
+    "urlCategories": [
+      "headphones",
+      "microphones"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE",
+    "slug": "7AE",
+    "pathName": "beyerdynamic-DT-990-Pro-Headphones-250-Ohm",
+    "mismatches": [
+      "URL is for microphone but product category is headphones"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "K&M 210/2 Mic Stand",
+    "brand": "König & Meyer",
+    "category": "accessories",
+    "urlCategories": [
+      "microphones",
+      "accessories"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/KandM-210-2-Boom-Microphone-Stand-Black/1Z4Y",
+    "slug": "1Z4Y",
+    "pathName": "KandM-210-2-Boom-Microphone-Stand-Black",
+    "mismatches": [
+      "URL is for microphone but product category is accessories"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Fender Champion II 25",
+    "brand": "Fender",
+    "category": "amps",
+    "urlCategories": [
+      "guitars",
+      "amps"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Fender-Champion-II-25-Guitar-Amplifier-Combo-with-Effects/6I1K",
+    "slug": "6I1K",
+    "pathName": "Fender-Champion-II-25-Guitar-Amplifier-Combo-with-Effects",
+    "mismatches": [
+      "URL is for guitar but product category is amps"
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Sire Marcus Miller V5 4-String Bass",
+    "brand": "Sire",
+    "category": "bass",
+    "urlCategories": [
+      "guitars",
+      "bass"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Sire-Marcus-Miller-V5-4-String-Bass-Guitar-Natural/3BN5",
+    "slug": "3BN5",
+    "pathName": "Sire-Marcus-Miller-V5-4-String-Bass-Guitar-Natural",
+    "mismatches": [
+      "URL is for guitar but product category is bass"
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Schecter Stiletto Stealth 4 Bass",
+    "brand": "Schecter",
+    "category": "bass",
+    "urlCategories": [
+      "guitars",
+      "bass"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Schecter-Stiletto-Stealth-4-Bass-Guitar-Satin-Black/16JJ",
+    "slug": "16JJ",
+    "pathName": "Schecter-Stiletto-Stealth-4-Bass-Guitar-Satin-Black",
+    "mismatches": [
+      "URL is for guitar but product category is bass"
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Mogami Gold Studio XLR Cable",
+    "brand": "Mogami",
+    "category": "accessories",
+    "urlCategories": [
+      "microphones",
+      "accessories"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Recording-and-Computers/Mogami-XLRF-XLRM-Mic-Cable-3m/2L91",
+    "slug": "2L91",
+    "pathName": "Mogami-XLRF-XLRM-Mic-Cable-3m",
+    "mismatches": [
+      "URL is for microphone but product category is accessories"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Boss RC-5 Loop Station",
+    "brand": "Boss",
+    "category": "pedals",
+    "urlCategories": [
+      "guitars",
+      "pedals"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Boss-RC-5-Loop-Station-Guitar-Loop-Pedal/3LJT",
+    "slug": "3LJT",
+    "pathName": "Boss-RC-5-Loop-Station-Guitar-Loop-Pedal",
+    "mismatches": [
+      "URL is for guitar but product category is pedals"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Boss GX-1",
+    "brand": "Boss",
+    "category": "pedals",
+    "urlCategories": [
+      "guitars"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Boss-GX-1-Guitar-Effects-Processor/7QL4",
+    "slug": "7QL4",
+    "pathName": "Boss-GX-1-Guitar-Effects-Processor",
+    "mismatches": [
+      "URL is for guitar but product category is pedals"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Boss ME-90",
+    "brand": "Boss",
+    "category": "pedals",
+    "urlCategories": [
+      "guitars"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Boss-ME-90-Guitar-Multi-Effects-Unit/5PGP",
+    "slug": "5PGP",
+    "pathName": "Boss-ME-90-Guitar-Multi-Effects-Unit",
+    "mismatches": [
+      "URL is for guitar but product category is pedals"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "HeadRush Flex Prime",
+    "brand": "HeadRush",
+    "category": "pedals",
+    "urlCategories": [
+      "guitars",
+      "amps"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/HeadRush-Flex-Prime-Guitar-Multi-FX-and-Amp-Modeler/6SF5",
+    "slug": "6SF5",
+    "pathName": "HeadRush-Flex-Prime-Guitar-Multi-FX-and-Amp-Modeler",
+    "mismatches": [
+      "URL is for guitar but product category is pedals"
+    ]
+  },
+  {
+    "id": 259,
+    "title": "Line 6 POD Go",
+    "brand": "Line 6",
+    "category": "pedals",
+    "urlCategories": [
+      "guitars",
+      "pedals"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Line-6-POD-Go-Multi-Effects-Guitar-Pedal/3AL7",
+    "slug": "3AL7",
+    "pathName": "Line-6-POD-Go-Multi-Effects-Guitar-Pedal",
+    "mismatches": [
+      "URL is for guitar but product category is pedals"
+    ]
+  },
+  {
+    "id": 266,
+    "title": "Sennheiser ew IEM G4-TWIN-E",
+    "brand": "Sennheiser",
+    "category": "live_sound",
+    "urlCategories": [
+      "headphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-IEM-G4-Wireless-Twin-In-Ear-Monitor-System-E-Band/2BBW",
+    "slug": "2BBW",
+    "pathName": "Sennheiser-EW-IEM-G4-Wireless-Twin-In-Ear-Monitor-System-E-Band",
+    "mismatches": [
+      "URL is for headphones but product category is live_sound"
+    ]
+  },
+  {
+    "id": 267,
+    "title": "Shure PSM300",
+    "brand": "Shure",
+    "category": "live_sound",
+    "urlCategories": [
+      "headphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-PSM300-K3E-Premium-Wireless-Monitor-System-with-SE215-Earphones/148Y",
+    "slug": "148Y",
+    "pathName": "Shure-PSM300-K3E-Premium-Wireless-Monitor-System-with-SE215-Earphones",
+    "mismatches": [
+      "URL is for headphones but product category is live_sound"
+    ]
+  },
+  {
+    "id": 293,
+    "title": "Yamaha THR10II Desktop Modeling Amp",
+    "brand": "Yamaha",
+    "category": "amps",
+    "urlCategories": [
+      "guitars",
+      "amps"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-THR10II-Guitar-Amp/34PV",
+    "slug": "34PV",
+    "pathName": "Yamaha-THR10II-Guitar-Amp",
+    "mismatches": [
+      "URL is for guitar but product category is amps"
+    ]
+  },
+  {
+    "id": 302,
+    "title": "IK Multimedia iLoud Micro Monitor Pro",
+    "brand": "IK Multimedia",
+    "category": "monitors",
+    "urlCategories": [
+      "microphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-iLoud-Micro-Monitor-Pro/6M19",
+    "slug": "6M19",
+    "pathName": "IK-Multimedia-iLoud-Micro-Monitor-Pro",
+    "mismatches": [
+      "URL is for microphone but product category is monitors"
+    ]
+  },
+  {
+    "id": 347,
+    "title": "Xvive U4 Wireless In-Ear Monitor System",
+    "brand": "Xvive",
+    "category": "live_sound",
+    "urlCategories": [
+      "headphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Xvive-U4-Wireless-In-Ear-Monitor-System/4P0B",
+    "slug": "4P0B",
+    "pathName": "Xvive-U4-Wireless-In-Ear-Monitor-System",
+    "mismatches": [
+      "URL is for headphones but product category is live_sound"
+    ]
+  },
+  {
+    "id": 348,
+    "title": "Xvive U4R4 Wireless IEM System (4 Receivers)",
+    "brand": "Xvive",
+    "category": "live_sound",
+    "urlCategories": [
+      "headphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Xvive-U4R4-Wireless-In-Ear-Monitor-System-with-4-Receivers/4P0I",
+    "slug": "4P0I",
+    "pathName": "Xvive-U4R4-Wireless-In-Ear-Monitor-System-with-4-Receivers",
+    "mismatches": [
+      "URL is for headphones but product category is live_sound"
+    ]
+  },
+  {
+    "id": 349,
+    "title": "Sennheiser EW IEM G4 Stereo Wireless System",
+    "brand": "Sennheiser",
+    "category": "live_sound",
+    "urlCategories": [
+      "headphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-IEM-G4-Wireless-In-Ear-Monitor-System-GB-Band/2B9S",
+    "slug": "2B9S",
+    "pathName": "Sennheiser-EW-IEM-G4-Wireless-In-Ear-Monitor-System-GB-Band",
+    "mismatches": [
+      "URL is for headphones but product category is live_sound"
+    ]
+  },
+  {
+    "id": 362,
+    "title": "Sennheiser XSW IEM Wireless System",
+    "brand": "Sennheiser",
+    "category": "live_sound",
+    "urlCategories": [
+      "headphones",
+      "monitors",
+      "live_sound"
+    ],
+    "decodedUrl": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-XSW-IEM-SET-Wireless-In-Ear-Monitor-System-E-Band/481A",
+    "slug": "481A",
+    "pathName": "Sennheiser-XSW-IEM-SET-Wireless-In-Ear-Monitor-System-E-Band",
+    "mismatches": [
+      "URL is for headphones but product category is live_sound"
+    ]
+  }
+]
