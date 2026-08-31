@@ -644,6 +644,7 @@ En cada guÃ­a que se toque o cree, SIEMPRE:
 - NUNCA olvidar el precio al agregar un link. Esto es una REGLA PERMANENTE.
 - **Music Store SIEMPRE en euros (€)** — NUNCA en dólares ($). Music Store es tienda europea (Alemania), todos sus precios son EUR.
 - **Precios descoordinados = probable error**: Si el precio de una tienda es drásticamente diferente al de las otras tiendas (ej. €50 vs $299/£259), el precio está MAL y debe verificarse en la tienda real antes de usarlo. SIEMPRE comparar coherencia entre tiendas.
+- **Traducciones literales = probable error**: Evitar traducciones word-for-word del inglés que suenan raras en español. Ejemplos: "grabar a un DAW" → "grabar en un DAW", "via USB" → "vía USB", "grabacion" → "grabación" (con tilde), "tambien" → "también" (con tilde). Revisar que el texto suene natural en español, no como una traducción literal del inglés.
 
 ## ðŸ–¼ï¸ REGLA FIJA: AÃ±adir productos al catÃ¡logo (`data/products.json`)
 
