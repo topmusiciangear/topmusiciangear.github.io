@@ -29,6 +29,30 @@ function ukFlag() {
   return flagBadge(s);
 };
 
+function euFlag() {
+  var scx = 12, scy = 8, sr = 5.5, ssr = 1.35, pts = [];
+  for (var i = 0; i < 12; i++) {
+    var a = (i * 30 - 90) * Math.PI / 180;
+    var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
+    var sp = '';
+    for (var j = 0; j < 5; j++) {
+      var ao = ((j * 72 - 90) * Math.PI / 180), ai = (((j * 72 + 36) - 90) * Math.PI / 180);
+      sp += (cx + ssr * Math.cos(ao)).toFixed(2) + ',' + (cy + ssr * Math.sin(ao)).toFixed(2) + ' ';
+      sp += (cx + ssr * 0.38 * Math.cos(ai)).toFixed(2) + ',' + (cy + ssr * 0.38 * Math.sin(ai)).toFixed(2) + ' ';
+    }
+    pts.push(sp.trim());
+  }
+  var cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="16" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' +
+    '<rect width="24" height="16" fill="#003399"/>' +
+    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
+    '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
+}
+
 function globeIcon() {
   return flagBadge('<circle cx="12" cy="8" r="5.5" fill="none" stroke="#fff" stroke-width="1"/>' +
     '<ellipse cx="12" cy="8" rx="2.5" ry="5.5" fill="none" stroke="#fff" stroke-width=".8"/>' +
@@ -42,7 +66,7 @@ const SHOP_LOGO_STYLE = {
   gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
 };
 
-const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: globeIcon(), musicstore: globeIcon(), andertons: ukFlag() };
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: euFlag, andertons: ukFlag };
 
 const TEST_SHOP_BTN = {
   1: {prices:{amazon:"$439.00",zzounds:"$439.00",reverb:"$439.00",gear4music:"£381.50",andertons:"£379.00",musicstore:"€389.00"}},

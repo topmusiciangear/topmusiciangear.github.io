@@ -11,15 +11,19 @@ var btnBlock = src.substring(btnStart, btnEnd + 2);
 var logoMatch = src.match(/const SHOP_LOGO_TEXT = \{[^}]+\};/);
 var logoBlock = logoMatch ? logoMatch[0] : '';
 
+// Extract SHOP_LOGO_STYLE
+var logoStyleMatch = src.match(/const SHOP_LOGO_STYLE = \{[\s\S]*?\};/);
+var logoStyleBlock = logoStyleMatch ? logoStyleMatch[0] : '';
+
 // Extract SHOP_FLAG (simplified)
 var flagMatch = src.match(/const SHOP_FLAG = \{[^}]+\};/);
 var flagBlock = flagMatch ? flagMatch[0] : '';
 
-// Extract flagSVG functions
+// Extract flagSVG functions (flagBadge through euFlag, before globeIcon)
 var flagStart = src.indexOf('function flagBadge(');
-var flagEnd = src.indexOf('\n}', src.indexOf('usaFlag'));
-flagEnd = src.indexOf('\n}', flagEnd + 3);
-var flagFuncs = src.substring(flagStart, flagEnd + 2);
+var euFlagEnd = src.indexOf('\n}', src.indexOf('function euFlag'));
+euFlagEnd = src.indexOf('\n}', euFlagEnd + 3);
+var flagFuncs = src.substring(flagStart, euFlagEnd + 2);
 
 // Extract shopButtonsTest function
 var shopFnStart = src.indexOf('function shopButtonsTest(');
@@ -59,6 +63,30 @@ function ukFlag() {
   return flagBadge(s);
 };
 
+function euFlag() {
+  var scx = 12, scy = 8, sr = 5.5, ssr = 1.35, pts = [];
+  for (var i = 0; i < 12; i++) {
+    var a = (i * 30 - 90) * Math.PI / 180;
+    var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
+    var sp = '';
+    for (var j = 0; j < 5; j++) {
+      var ao = ((j * 72 - 90) * Math.PI / 180), ai = (((j * 72 + 36) - 90) * Math.PI / 180);
+      sp += (cx + ssr * Math.cos(ao)).toFixed(2) + ',' + (cy + ssr * Math.sin(ao)).toFixed(2) + ' ';
+      sp += (cx + ssr * 0.38 * Math.cos(ai)).toFixed(2) + ',' + (cy + ssr * 0.38 * Math.sin(ai)).toFixed(2) + ' ';
+    }
+    pts.push(sp.trim());
+  }
+  var cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="16" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' +
+    '<rect width="24" height="16" fill="#003399"/>' +
+    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
+    '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
+}
+
 function globeIcon() {
   return flagBadge('<circle cx="12" cy="8" r="5.5" fill="none" stroke="#fff" stroke-width="1"/>' +
     '<ellipse cx="12" cy="8" rx="2.5" ry="5.5" fill="none" stroke="#fff" stroke-width=".8"/>' +
@@ -68,7 +96,9 @@ function globeIcon() {
 
 const SHOP_LOGO_TEXT = ${logoBlock.replace('const SHOP_LOGO_TEXT = ', '')};
 
-const SHOP_FLAG = { zzounds: usaFlag(), reverb: globeIcon(), gear4music: globeIcon(), musicstore: globeIcon(), andertons: ukFlag() };
+${logoStyleBlock}
+
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: euFlag, andertons: ukFlag };
 
 ${btnBlock}
 
