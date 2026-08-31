@@ -41,8 +41,6 @@ function flagBadge(inner) {
     '</svg>';
 };
 
-${flagFuncs.split('\nfunction usaFlag')[0]}
-
 function usaFlag() {
   let s = '<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
   [0, 2.46, 4.92, 7.38, 9.85, 12.31, 14.77].forEach(function (y) { s += '<rect y="' + y + '" width="24" height="1.23"/>'; });

@@ -11,15 +11,6 @@ function flagBadge(inner) {
     '</svg>';
 };
 
-function flagBadge(inner) {
-  const cid = 'flgc' + (++FLAG_UID);
-  return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
-    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
-    '<g clip-path="url(#' + cid + ')">' + inner + '</g>' +
-    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
-    '</svg>';
-}
-
 function usaFlag() {
   let s = '<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
   [0, 2.46, 4.92, 7.38, 9.85, 12.31, 14.77].forEach(function (y) { s += '<rect y="' + y + '" width="24" height="1.23"/>'; });
