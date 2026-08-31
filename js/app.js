@@ -427,14 +427,24 @@ function getFilteredGuides() {
   }
   if (searchQuery.trim()) {
     const q = searchQuery.toLowerCase().trim();
-    filtered = filtered.filter(g =>
-      g.title.toLowerCase().includes(q) ||
-      (g.title_es || "").toLowerCase().includes(q) ||
-      g.intro.toLowerCase().includes(q) ||
-      (g.intro_es || "").toLowerCase().includes(q) ||
-      g.sections.some(s => s.heading.toLowerCase().includes(q) || s.content.toLowerCase().includes(q) || (s.heading_es || "").toLowerCase().includes(q) || (s.content_es || "").toLowerCase().includes(q)) ||
-      (getCatName(g.category) || g.category).toLowerCase().includes(q)
-    );
+    filtered = filtered.filter(g => {
+      if (g.title.toLowerCase().includes(q)) return true;
+      if ((g.title_es || "").toLowerCase().includes(q)) return true;
+      if (g.intro.toLowerCase().includes(q)) return true;
+      if ((g.intro_es || "").toLowerCase().includes(q)) return true;
+      if (g.sections.some(s => s.heading.toLowerCase().includes(q) || s.content.toLowerCase().includes(q) || (s.heading_es || "").toLowerCase().includes(q) || (s.content_es || "").toLowerCase().includes(q))) return true;
+      if ((getCatName(g.category) || g.category).toLowerCase().includes(q)) return true;
+      var guideProductIds = [];
+      if (g.products) guideProductIds = guideProductIds.concat(g.products);
+      if (g.featuredProducts) guideProductIds = guideProductIds.concat(g.featuredProducts);
+      if (g.sections) g.sections.forEach(function(s) { if (s.products) guideProductIds = guideProductIds.concat(s.products); });
+      var uniqueIds = [...new Set(guideProductIds)];
+      return uniqueIds.some(function(pid) {
+        var p = products.find(function(x) { return x.id === pid; });
+        if (!p) return false;
+        return p.title.toLowerCase().includes(q) || (p.title_es || "").toLowerCase().includes(q) || (p.brand || "").toLowerCase().includes(q);
+      });
+    });
   }
   return filtered;
 }
