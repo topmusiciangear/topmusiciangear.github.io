@@ -9246,5 +9246,28 @@
       "amazon": "https://www.amazon.com/dp/B08KFL3SFV",
       "reverb": "https://www.reverb.com/marketplace?query=HyperX+SoloCast"
     }
+  },
+  {
+    "id": 107,
+    "title": "Shure BLX24R/SM58 Wireless",
+    "title_es": "Shure BLX24R/SM58 Inalambrico",
+    "brand": "Shure",
+    "category": "live_sound",
+    "price": 299,
+    "rating": 4.6,
+    "reviews": 8920,
+    "badge": "popularChoice",
+    "desc": "The wireless version of the iconic SM58. Reliable UHF transmission, durable metal construction, and the same cardioid pickup pattern that made the SM58 a stage standard. Battery life up to 14 hours. Simple setup with automatic frequency scanning.",
+    "desc_es": "La version inalambrica del iconico SM58. Transmision UHF confiable, construccion de metal resistente y el mismo patron de captacion cardioide que hizo del SM58 un estandar del escenario. Bateria hasta 14 horas. Configuracion sencilla con escaneo automatico de frecuencia.",
+    "img": "https://m.media-amazon.com/images/I/61pS35PAMjL._AC_SL1500_.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B01LWWF4OK",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SHUBLX24RSM58"
+    },
+    "unit": "each",
+    "unit_es": "cada uno",
+    "oos": [
+      "zzounds"
+    ]
   }
 ]
