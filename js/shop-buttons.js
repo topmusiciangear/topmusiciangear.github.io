@@ -322,6 +322,8 @@ const TEST_SHOP_BTN = {
   297: {prices:{reverb:"$154.00",amazon:"$154.00",zzounds:"$159.00",andertons:"£122.00",gear4music:"£119.99",musicstore:"€167.00"}},
   298: {prices:{reverb:"$159.00",amazon:"$159.00",zzounds:"$159.00",andertons:"£159.00",musicstore:"€179.00",gear4music:"£166.50"}},
   299: {prices:{gear4music:"£120.00",reverb:"$198.00",amazon:"$198.00",zzounds:"$199.00",andertons:"£159.00"},oos:["musicstore"]},
+  300: {prices:{andertons:"£499.00",amazon:"$599.00"},oos:["zzounds"]},
+  301: {prices:{andertons:"£629.00",gear4music:"£629.00",musicstore:"$903.00",amazon:"$759.00"}},
   302: {prices:{gear4music:"£499.00",reverb:"$599.99",amazon:"$599.99",zzounds:"$299.99",andertons:"£249.00"},oos:["musicstore"]},
   303: {prices:{gear4music:"£293.50",reverb:"$395.00",amazon:"$395.00",andertons:"£288.00",musicstore:"€522.00"},oos:["zzounds"]},
   304: {prices:{reverb:"$109.99",andertons:"£449.00",gear4music:"£249.99",amazon:"$599.00",musicstore:"€298"},oos:["zzounds"]},
