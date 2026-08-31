@@ -642,6 +642,7 @@ En cada guÃ­a que se toque o cree, SIEMPRE:
 - DespuÃ©s de agregar precios, regenerar shop-buttons.js: `node temp/gen-shop-buttons.js`
 - DespuÃ©s de todo, reconstruir guides: `node build-guides.js`
 - NUNCA olvidar el precio al agregar un link. Esto es una REGLA PERMANENTE.
+- **Music Store SIEMPRE en euros (€)** — NUNCA en dólares ($). Music Store es tienda europea (Alemania), todos sus precios son EUR.
 
 ## ðŸ–¼ï¸ REGLA FIJA: AÃ±adir productos al catÃ¡logo (`data/products.json`)
 
