@@ -312,7 +312,7 @@ function globeIcon() {
 }
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag };
 const TEST_SHOP_BTN = {
-  1: {prices:{amazon:"$439.00",zzounds:"$439.00",reverb:"$439.00",gear4music:"£379.00",andertons:"£379.00",musicstore:"€389.00"}},
+  1: {prices:{amazon:"$439.00",zzounds:"$439.00",reverb:"$439.00",gear4music:"£381.50",andertons:"£379.00",musicstore:"€389.00"}},
   2: {prices:{amazon:"$3,750.00",zzounds:"$3,995.00",reverb:"$3,750.00",andertons:"£3,007.00",gear4music:"£2,908.40",musicstore:"€2,999.00"}},
   3: {prices:{amazon:"$212.00",zzounds:"$249.00",reverb:"$249.00",gear4music:"£184.75",andertons:"£179.00",musicstore:"€199.00"}},
   4: {prices:{amazon:"$1,225.00",zzounds:"$1,199.00",reverb:"$1,225.00",gear4music:"£893.00",andertons:"£849.00",musicstore:"€772.30"}},
@@ -346,7 +346,7 @@ const TEST_SHOP_BTN = {
   34: {oos:["zzounds"]},
   39: {prices:{amazon:"na",andertons:"£42.00",gear4music:"£53.50",musicstore:"€148.00"},oos:["zzounds"]},
   42: {prices:{reverb:"$1299.99",amazon:"$1299.99",zzounds:"$1,299.99",andertons:"£1,052.00",gear4music:"£1,039.00",musicstore:"€127.00"}},
-  50: {prices:{amazon:"$99.00",zzounds:"$109.00",reverb:"$109.00",gear4music:"£103.75",andertons:"£103.00",musicstore:"€119.00"}},
+  50: {prices:{amazon:"$99.00",zzounds:"$109.00",reverb:"$109.00",gear4music:"£103.50",andertons:"£103.00",musicstore:"€119.00"}},
   51: {prices:{amazon:"$275.00",zzounds:"$319.00",reverb:"$265.38",gear4music:"£222.00",andertons:"£231.00",musicstore:"€249.00"}},
   52: {prices:{amazon:"$449.00",zzounds:"$449.00",reverb:"$449.00",gear4music:"£575.00",andertons:"£549.00",musicstore:"€539.00"}},
   53: {prices:{amazon:"$294.01",zzounds:"$399.99",reverb:"$295.00",gear4music:"£178.75",andertons:"£175.00",musicstore:"€214.29"}},
@@ -562,8 +562,8 @@ const TEST_SHOP_BTN = {
   294: {prices:{gear4music:"£279.00",reverb:"$279.00",amazon:"$279.00",zzounds:"$349.00"},oos:["andertons","musicstore"]},
   295: {prices:{reverb:"$295.99",amazon:"$295.99"},oos:["andertons"]},
   296: {prices:{reverb:"$699.00",amazon:"$699.00",andertons:"£799.00"},oos:["musicstore"]},
-  297: {prices:{reverb:"$154.00",amazon:"$154.00",zzounds:"$159.00",andertons:"£122.00",gear4music:"£139.25",musicstore:"€167.00"}},
-  298: {prices:{reverb:"$159.00",amazon:"$159.00",zzounds:"$159.00",andertons:"£159.00",musicstore:"€179.00",gear4music:"£179.00"}},
+  297: {prices:{reverb:"$154.00",amazon:"$154.00",zzounds:"$159.00",andertons:"£122.00",gear4music:"£119.99",musicstore:"€167.00"}},
+  298: {prices:{reverb:"$159.00",amazon:"$159.00",zzounds:"$159.00",andertons:"£159.00",musicstore:"€179.00",gear4music:"£166.50"}},
   299: {prices:{gear4music:"£120.00",reverb:"$198.00",amazon:"$198.00",zzounds:"$199.00",andertons:"£159.00"},oos:["musicstore"]},
   302: {prices:{gear4music:"£499.00",reverb:"$599.99",amazon:"$599.99",zzounds:"$299.99",andertons:"£249.00"},oos:["musicstore"]},
   303: {prices:{gear4music:"£293.50",reverb:"$395.00",amazon:"$395.00",andertons:"£288.00",musicstore:"€522.00"},oos:["zzounds"]},
