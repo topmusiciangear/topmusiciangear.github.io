@@ -634,6 +634,15 @@ En cada guÃ­a que se toque o cree, SIEMPRE:
 5. **Corregir errores factuales** detectados durante la verificaciÃ³n (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
 6. Rebuild + verificar EN/ES + commit + push.
 
+## ðŸ’° REGLA FIJA: URLs + PRECIOS SIEMPRE JUNTOS
+
+**SIEMPRE que se aÃ±ada o actualice una URL de tienda en `data/products.json`, TAMBIÃ‰N agregar el precio de esa tienda en `TEST_SHOP_BTN` dentro de `build-guides.js`** (y regenerar `js/shop-buttons.js` despuÃ©s). Esto aplica para TODAS las tiendas: zzounds, andertons, musicstore, gear4music, amazon, reverb, pluginboutique.
+
+- Si no se encuentra el precio, agregar la entrada URL SIN precio (el botÃ³n mostrarÃ¡ solo el link sin precio) pero INTENTAR encontrar el precio siempre.
+- DespuÃ©s de agregar precios, regenerar shop-buttons.js: `node temp/gen-shop-buttons.js`
+- DespuÃ©s de todo, reconstruir guides: `node build-guides.js`
+- NUNCA olvidar el precio al agregar un link. Esto es una REGLA PERMANENTE.
+
 ## ðŸ–¼ï¸ REGLA FIJA: AÃ±adir productos al catÃ¡logo (`data/products.json`)
 
 **SIEMPRE que se aÃ±ada un producto nuevo al catÃ¡logo, seguir este orden exacto (NO repetÃ­rselo al usuario):**
