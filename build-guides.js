@@ -720,25 +720,20 @@ const TEST_SHOP_BTN = {
   428: {prices:{amazon:"$37.49",zzounds:"$37.49"}},
   429: {prices:{amazon:"$75.99",zzounds:"$79.99",gear4music:"£69.00",andertons:"£69.00",musicstore:"€75.00"}},
   430: {prices:{amazon:"$39.99",zzounds:"$39.99",gear4music:"£35.00",andertons:"£35.00",musicstore:"€38.00"}},
-  431: {prices:{amazon:"$63.99",gear4music:"£92.80",andertons:"£79.00"}},
+  431: {prices:{amazon:"$90.88",gear4music:"£92.80",andertons:"£79.00"}},
   432: {prices:{amazon:"$99.99"}},
   433: {prices:{amazon:"$143.39",zzounds:"$149.99"}},
   434: {prices:{amazon:"$79.99",gear4music:"£95.00",andertons:"£99.00"}},
   435: {prices:{amazon:"$39.90",gear4music:"£26.70"}},
   436: {prices:{amazon:"$49.99"}},
   437: {prices:{amazon:"$37.99"}},
-  438: {prices:{amazon:"$79.99",gear4music:"£50.00",andertons:"£69.00"}},
+  438: {prices:{amazon:"$52.13",gear4music:"£50.00",andertons:"£69.00"}},
   439: {prices:{amazon:"$35.99"}},
   440: {prices:{amazon:"$2,299.99",zzounds:"$2,299.99",gear4music:"£1,899.00",musicstore:"€2,199.00",andertons:"£1,999.00"}},
   441: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£749.00",musicstore:"€898.00",andertons:"£799.00"}},
   442: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£779.00",musicstore:"€849.00",andertons:"£779.00"}},
   443: {prices:{amazon:"$83.50",zzounds:"$83.50",gear4music:"£67.90",musicstore:"€89.00",andertons:"£69.99"}},
-  444: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£699.00",musicstore:"€799.00",andertons:"£699.00"}},
-  226: {prices:{amazon:"$169.00",zzounds:"$169.00",gear4music:"£139.00",andertons:"£139.00"}},
-  227: {prices:{amazon:"$199.00",zzounds:"$199.00",gear4music:"£179.00",andertons:"£179.00"}},
-  228: {prices:{amazon:"$199.00",zzounds:"$199.00",gear4music:"£179.00"}},
-  230: {prices:{amazon:"$139.00",zzounds:"$139.00",gear4music:"£99.00",andertons:"£99.00"}},
-  232: {prices:{amazon:"$169.00",zzounds:"$169.00",gear4music:"£139.00",andertons:"£139.00"}}
+  444: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£699.00",musicstore:"€799.00",andertons:"£699.00"}}
 };;;;
 
 function shopButtonsTest(p, lang) {
