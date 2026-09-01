@@ -733,7 +733,12 @@ const TEST_SHOP_BTN = {
   441: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£749.00",musicstore:"€898.00",andertons:"£799.00"}},
   442: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£779.00",musicstore:"€849.00",andertons:"£779.00"}},
   443: {prices:{amazon:"$83.50",zzounds:"$83.50",gear4music:"£67.90",musicstore:"€89.00",andertons:"£69.99"}},
-  444: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£699.00",musicstore:"€799.00",andertons:"£699.00"}}
+  444: {prices:{amazon:"$849.99",zzounds:"$849.99",gear4music:"£699.00",musicstore:"€799.00",andertons:"£699.00"}},
+  226: {prices:{amazon:"$169.00",zzounds:"$169.00",gear4music:"£139.00",andertons:"£139.00"}},
+  227: {prices:{amazon:"$199.00",zzounds:"$199.00",gear4music:"£179.00",andertons:"£179.00"}},
+  228: {prices:{amazon:"$199.00",zzounds:"$199.00",gear4music:"£179.00"}},
+  230: {prices:{amazon:"$139.00",zzounds:"$139.00",gear4music:"£99.00",andertons:"£99.00"}},
+  232: {prices:{amazon:"$169.00",zzounds:"$169.00",gear4music:"£139.00",andertons:"£139.00"}}
 };;;;
 
 function shopButtonsTest(p, lang) {
