@@ -648,6 +648,8 @@ En cada guÃ­a que se toque o cree, SIEMPRE:
 
 ## 📋 Pendiente para mañana
 - **Auditoría de traducciones ES literales**: Buscar en guides.json y build-guides.js traducciones word-for-word del inglés que suenan raras en español. Buscar patrones como "a un DAW", "via USB", "grabacion" sin tilde, "tambien" sin tilde, "Seleccion", "conexion", "opcion", "informacion", "solucion", "Version", "condicion", "razon", "frecuencia", etc. También buscar frases como "es el mejor para" (mejor usado como "es ideal para" o "es la mejor opción para").
+- **Guía DI Box (category: accessories)**: 7 productos (Radial J48 MK2, Rupert Neve RNDI, Tech 21 SansAmp Bass Driver DI v2, Radial ProD2, Walrus Audio Canvas Mono, Whirlwind IMP 2, LR Baggs Para Acoustic DI). Tabla por instrumento, regla "Los opuestos se atraen" (Activa/Pasiva), fotos Gear4Music, FAQs humanas, pros/cons reales. Investigar precios y URLs verificadas.
+- **VS Radial J48 vs Rupert Neve RNDI (category: accessories)**: Transparencia vs Color Armónico. Tabla comparativa agresiva, ángulos de venta por modelo (J48 = headroom vivo, RNDI = saturación armónica estudio), veredicto tajante. Fotos Gear4Music, FAQs humanas, specs verificadas del fabricante.
 
 ## ðŸ–¼ï¸ REGLA FIJA: AÃ±adir productos al catÃ¡logo (`data/products.json`)
 
