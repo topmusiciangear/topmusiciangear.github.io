@@ -69691,18 +69691,28 @@
       {
         "heading": "The Radial J48: Maximum Headroom, Zero Color",
         "heading_es": "El Radial J48: máximo headroom, cero coloración",
+        "products": [
+          445
+        ],
         "content": "<p><strong>The J48 is Radial's flagship active DI</strong> and the most common active box in professional studios and live rigs worldwide. Its switching power supply extracts maximum voltage from 48V phantom power, delivering up to 9V of headroom before clipping. The result is a completely transparent signal — your instrument sounds exactly like it does through your amp, just cleaner and quieter. The 14-gauge steel chassis and Neutrik connectors mean it survives tour after tour. If you want your bass or keyboard to sound like itself with zero added character, the J48 is the answer.</p> <p>At around $260, it's the go-to for engineers who need reliability and transparency above all else.</p>",
         "content_es": "<p><strong>El J48 es la DI activa insignia de Radial</strong> y la caja activa más común en estudios profesionales y rigs en vivo en todo el mundo. Su fuente de alimentación conmutada extrae el voltaje máximo de la alimentación fantasma de 48V, ofreciendo hasta 9V de headroom antes de la saturación. El resultado es una señal completamente transparente — tu instrumento suena exactamente como suena a través de tu amplificador, solo más limpio y silencioso. El chasis de acero calibre 14 y los conectores Neutrik significan que sobrevive gira tras gira. Si quieres que tu bajo o teclado suene como es mismo sin carácter añadido, el J48 es la respuesta.</p> <p>Aproximadamente $260, es la opción predilecta de ingenieros que necesitan fiabilidad y transparencia por encima de todo.</p>"
       },
       {
         "heading": "The Rupert Neve RNDI: Harmonic Richness, Studio Soul",
         "heading_es": "El Rupert Neve RNDI: riqueza armónica, alma de estudio",
+        "products": [
+          446
+        ],
         "content": "<p><strong>The RNDI is Rupert Neve Designs' take on the active DI</strong>, and it sounds nothing like the J48. Custom Rupert Neve transformers and Class-A FET amplifiers give it a warm, harmonically rich character that flatters bass and guitar signals. It handles instruments up to +20.5 dBu and speaker-level signals up to +41 dBu — extraordinary headroom that means it never clips, even with active pickups or hot signal chains. The phase coherence is exceptional, which matters more than most people realize: it means your DI signal sits perfectly in a mix without comb filtering issues.</p> <p>At around $399, it's the premium choice for players and producers who want their DI signal to sound finished before it even hits the DAW.</p>",
         "content_es": "<p><strong>El RNDI es la versión de Rupert Neve Designs de la DI activa</strong>, y no suena nada como el J48. Transformadores personalizados de Rupert Neve y amplificadores FET Clase A le dan un carácter cálido y armónicamente rico que realza las señales de bajo y guitarra. Maneja instrumentos de hasta +20.5 dBu y señales de nivel de parlante de hasta +41 dBu — headroom extraordinario que significa que nunca satura, ni siquiera con pastillas activas o cadenas de señal calientes. La coherencia de fase es excepcional, lo cual importa más de lo que la mayoría piensa: significa que tu señal DI se asienta perfectamente en una mezcla sin problemas de filtrado en peine.</p> <p>Aproximadamente $399, es la opción premium para músicos y productores que quieren que su señal DI suene terminada antes de llegar al DAW.</p>"
       },
       {
         "heading": "Head-to-Head: Which Active DI Wins?",
         "heading_es": "Cara a cara: ¿cuál DI activa gana?",
+        "products": [
+          445,
+          446
+        ],
         "content": "<p><strong>The J48 wins on transparency and value.</strong> If you need your signal to sound exactly like your instrument — no color, no hype — the J48 delivers that at a lower price. It's also more universally available in rental houses and backline companies, which matters for touring musicians.</p> <p><strong>The RNDI wins on character and headroom.</strong> If you want your bass or guitar to sound rich, warm, and finished straight out of the DI, the RNDI does something the J48 simply can't. The transformer saturation adds harmonic content that mixes beautifully without EQ. The extra headroom also means it handles aggressive playing and active electronics without breaking a sweat.</p> <p><strong>For live use:</strong> The J48 is the safer bet — it's built like a tank, sounds neutral, and any sound engineer knows exactly what to do with it. The RNDI is equally road-worthy but its color might not suit every genre or mix situation.</p> <p><strong>For studio recording:</strong> The RNDI shines. Its harmonic richness and phase coherence give you a DI track that needs less processing, and the extra headroom means you can push it hard without worrying about clipping.</p>",
         "content_es": "<p><strong>El J48 gana en transparencia y valor.</strong> Si necesitas que tu suene exactamente como tu instrumento — sin color, sin realce — el J48 lo ofrece a un precio menor. También está más disponible universalmente en casas de alquiler y backline, lo cual importa para músicos de gira.</p> <p><strong>El RNDI gana en carácter y headroom.</strong> Si quieres que tu bajo o guitarra suene rico, cálido y terminado directo de la DI, el RNDI hace algo que el J48 simplemente no puede. La saturación del transformador añade contenido armónico que mezcla hermosamente sin EQ. El headroom extra también significa que maneja ejecución agresiva y electrónica activa sin sudar.</p> <p><strong>Para uso en vivo:</strong> El J48 es la apuesta más segura — está construido como un tanque, suena neutral y cualquier ingeniero de sonido sabe exactamente qué hacer con él. El RNDI es igualmente resistente pero su color podría no convenir a todos los géneros o situaciones de mezcla.</p> <p><strong>Para grabación en estudio:</strong> El RNDI brilla. Su riqueza armónica y coherencia de fase te dan una pista DI que necesita menos procesamiento, y el headroom extra significa que puedes empujarlo fuerte sin preocuparte por la saturación.</p>"
       },
@@ -69720,6 +69730,68 @@
     "featuredProducts": [
       445,
       446
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Radial J48 MK2",
+        "name_es": "Radial J48 MK2",
+        "pros": [
+          "Completely transparent signal — your instrument sounds exactly like it does through your amp, no added color",
+          "Switching power supply extracts maximum voltage from 48V phantom power, delivering up to 9V of headroom before clipping",
+          "14-gauge steel chassis and Neutrik connectors survive tour after tour without failure",
+          "Lower price point than the RNDI at around $260, making it accessible for project studios",
+          "Universally available in rental houses and backline companies — any engineer knows how to use it"
+        ],
+        "pros_es": [
+          "Señal completamente transparente — tu instrumento suena exactamente como a través de tu amplificador, sin color añadido",
+          "Fuente de alimentación conmutada extrae el voltaje máximo de la fantasma de 48V, ofreciendo hasta 9V de headroom antes de la saturación",
+          "Chasis de acero calibre 14 y conectores Neutrik sobreviven gira tras gira sin fallos",
+          "Precio más accesible que el RNDI, aproximadamente $260, ideal para estudios de proyecto",
+          "Disponible universalmente en casas de alquiler y backline — cualquier ingeniero sabe cómo usarlo"
+        ],
+        "cons": [
+          "Adds zero character — if you want warmth or harmonic richness, the J48 won't give it to you",
+          "Lower headroom than the RNDI (+9V vs +20.5 dBu) — can clip with very hot active pickups",
+          "Requires phantom power to operate — won't work without 48V on the input channel",
+          "No built-in pad or ground lift switch — relies on external solutions for level matching"
+        ],
+        "cons_es": [
+          "No añade carácter — si quieres calidez o riqueza armónica, el J48 no lo ofrece",
+          "Headroom menor que el RNDI (+9V vs +20.5 dBu) — puede saturar con pastillas activas muy calientes",
+          "Requiere alimentación fantasma para funcionar — no funciona sin 48V en el canal de entrada",
+          "Sin pad integrado ni interruptor de lifts de tierra — depende de soluciones externas para ajuste de nivel"
+        ]
+      },
+      {
+        "name": "Rupert Neve RNDI",
+        "name_es": "Rupert Neve RNDI",
+        "pros": [
+          "Custom Rupert Neve transformers and Class-A FET amplifiers add warm, harmonically rich character that flatters bass and guitar",
+          "Extraordinary headroom: handles instruments up to +20.5 dBu and speaker-level signals up to +41 dBu — never clips",
+          "Exceptional phase coherence means your DI signal sits perfectly in a mix without comb filtering",
+          "Transformer saturation adds musical harmonic content that mixes beautifully without extra EQ",
+          "Handles active pickups and hot signal chains without breaking a sweat"
+        ],
+        "pros_es": [
+          "Transformadores personalizados de Rupert Neve y amplificadores FET Clase A añaden carácter cálido y armónicamente rico que realza bajo y guitarra",
+          "Headroom extraordinario: maneja instrumentos de hasta +20.5 dBu y señales de parlante de hasta +41 dBu — nunca satura",
+          "Coherencia de fase excepcional: tu señal DI se asienta perfectamente en una mezcla sin filtrado en peine",
+          "La saturación del transformador añade contenido armónico musical que mezcla hermosamente sin EQ extra",
+          "Maneja pastillas activas y cadenas de señal calientes sin sudar"
+        ],
+        "cons": [
+          "Premium price at around $399 — roughly $140 more than the J48 for the same basic function",
+          "Added harmonic color may not suit every genre or mix situation — some engineers prefer pure transparency",
+          "Heavier at 1.8 lbs vs 1.35 lbs — noticeable difference when mounting on a pedalboard",
+          "Transformer character means your DI track sounds different from your amp signal — not always desirable"
+        ],
+        "cons_es": [
+          "Precio premium de aproximadamente $399 — roughly $140 más que el J48 por la misma función básica",
+          "El color armónico añadido podría no convenir a todos los géneros o situaciones de mezcla — algunos ingenieros prefieren transparencia pura",
+          "Más pesado: 1.8 lbs vs 1.35 lbs — diferencia notable al montar en un pedalboard",
+          "El carácter del transformador hace que tu pista DI suene diferente de la señal de tu amplificador — no siempre es deseable"
+        ]
+      }
     ],
     "description": "The Radial J48 is the transparent industry workhorse; the Rupert Neve RNDI adds transformer warmth and extraordinary headroom. Choose transparency or character.",
     "featuredSnippet": {
