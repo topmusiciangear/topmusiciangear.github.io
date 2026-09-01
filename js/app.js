@@ -17,18 +17,28 @@ function readingTime(guide, lang) {
     if (guide.sections) guide.sections.forEach(function(s) { if (s.content_es) texts.push(s.content_es); });
     if (guide.conclusion_es) texts.push(guide.conclusion_es);
     if (guide.verdict_es) texts.push(guide.verdict_es);
+    if (guide.productTable && guide.productTable.rows) guide.productTable.rows.forEach(function(r) { if (r.values) r.values.forEach(function(v) { if (v.value_es) texts.push(v.value_es); }); });
+    if (guide.verdictProsCons) guide.verdictProsCons.forEach(function(vc) { if (vc.pros_es) texts.push(vc.pros_es.join(' ')); if (vc.cons_es) texts.push(vc.cons_es.join(' ')); });
+    if (guide.featuredSnippet) { for (var i = 1; i <= 8; i++) { var a = guide.featuredSnippet['faq_a' + i + '_es']; if (a) texts.push(a); } }
+    if (guide.faq) guide.faq.forEach(function(f) { if (f.a_es) texts.push(f.a_es); });
+    if (guide.faq_q1) texts.push(guide.faq_q1 + ' ' + (guide.faq_a1 || ''));
   } else {
     if (guide.intro) texts.push(guide.intro);
     if (guide.sections) guide.sections.forEach(function(s) { if (s.content) texts.push(s.content); });
     if (guide.conclusion) texts.push(guide.conclusion);
     if (guide.verdict) texts.push(guide.verdict);
+    if (guide.productTable && guide.productTable.rows) guide.productTable.rows.forEach(function(r) { if (r.values) r.values.forEach(function(v) { if (v.value) texts.push(v.value); }); });
+    if (guide.verdictProsCons) guide.verdictProsCons.forEach(function(vc) { if (vc.pros) texts.push(vc.pros.join(' ')); if (vc.cons) texts.push(vc.cons.join(' ')); });
+    if (guide.featuredSnippet) { for (var i = 1; i <= 8; i++) { var a = guide.featuredSnippet['faq_a' + i + '_en']; if (a) texts.push(a); } }
+    if (guide.faq) guide.faq.forEach(function(f) { if (f.a) texts.push(f.a); });
+    if (guide.faq_q1) texts.push(guide.faq_q1 + ' ' + (guide.faq_a1 || ''));
   }
   var html = texts.join(' ');
   var text = html.replace(/<[^>]*>/g, '');
   text = text.replace(/&[a-z]+;/g, ' ');
-  text = text.replace(/[0-9.,$%]+/g, ' ');
+  text = text.replace(/[0-9.,$%]+/g, 'X');
   var words = text.split(/\s+/).filter(function(w) { return w.length > 0; }).length;
-  return Math.max(1, Math.round(words / 200));
+  return Math.max(1, Math.round(words / 180));
 }
 
 var faqBase = {
