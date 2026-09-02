@@ -97,7 +97,7 @@ const TEST_SHOP_BTN = {
   26: {prices:{amazon:"$113.00",gear4music:"£99.00",musicstore:"€74.79"},urls:{zzounds:"https://www.zzounds.com/item--SNYMDR7506"},oos:["andertons"]},
   28: {prices:{pluginboutique:"$299.00",andertons:"£126.00",gear4music:"£271.00",musicstore:"€231.09"}},
   29: {prices:{pluginboutique:"$1069.00",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£769.00",musicstore:"€1,894.96"}},
-  30: {prices:{pluginboutique:"$499.00",andertons:"£479.00",gear4music:"£479.00",musicstore:"€642.86"}},
+  30: {prices:{pluginboutique:"$499.00",andertons:"£479.00",gear4music:"£479.00",musicstore:"€540.00"}},
   32: {prices:{pluginboutique:"$599.00",gear4music:"£489.00"},oos:["musicstore"]},
   33: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£659.00",gear4music:"£656.00",musicstore:"€643.70"}},
   34: {oos:["zzounds"]},
