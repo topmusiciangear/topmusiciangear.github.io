@@ -146,6 +146,10 @@ function trunc(s, max) {
   return s.substring(0, i > 0 ? i : max) + '...';
 }
 
+function ensurePbAff(url) {
+  return url && url.indexOf('a_aid=') < 0 && url.indexOf('pluginboutique.com') >= 0 ? url + (url.includes('?') ? '&' : '?') + 'a_aid=6a01e859cbe1a' : url;
+}
+
 function shortTitle(title) {
   const removeWords = ['Desktop','Modeling','Model','Amp','Microphone','Mic','Condenser','Dynamic',
     'Shotgun','Supercardioid','Cardioid','Headphones','Headphone','Over-Ear','On-Ear','In-Ear',
@@ -758,9 +762,10 @@ function shopButtonsTest(p, lang) {
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
-  const rowUrl = k => (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]);
+  const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); return k === 'pluginboutique' ? ensurePbAff(u) : u; };
   const isPlugins = p.category === 'plugins';
-  const pUrl = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
+  var pUrlRaw = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
+  var pUrl = ensurePbAff(pUrlRaw);
   if (!pUrl) return '';
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
   const hasAmazon = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
@@ -1239,7 +1244,7 @@ function buildGuidePage(guide, lang, idx) {
         var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
         var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = st[primaryStore] || st.official || '';
+        var offerUrl = ensurePbAff(st[primaryStore] || st.official || '');
         if (offerUrl && priceNum) {
           listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
@@ -1271,7 +1276,7 @@ function buildGuidePage(guide, lang, idx) {
         var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
         var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = st[primaryStore] || st.official || '';
+        var offerUrl = ensurePbAff(st[primaryStore] || st.official || '');
         if (offerUrl && priceNum) {
           pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
