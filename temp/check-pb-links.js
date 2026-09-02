@@ -1,14 +1,7 @@
-var fs = require('fs');
-var h = fs.readFileSync('guides/sidechain-modulation-plugins_es.html', 'utf8');
-var re = /pluginboutique\.com\/product[^"'\s]*/g;
-var m;
-var count = 0;
-var withAff = 0;
-while (m = re.exec(h)) {
-  count++;
-  var url = m[0];
-  var hasAid = url.indexOf('a_aid=') >= 0;
-  if (hasAid) withAff++;
-  console.log((hasAid ? 'OK' : 'MISSING') + ' | ' + url.substring(0, 100));
-}
-console.log('\nTotal PB links: ' + count + ', With affiliate: ' + withAff);
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('./data/guides.json', 'utf8'));
+const p = g.filter(x => x.category === 'plugins');
+p.forEach(x => {
+  const m = x.conclusion_es.match(/href="([^"]+)"[^>]*>Más información/);
+  console.log(x.id, m ? m[1] : 'NO LINK');
+});
