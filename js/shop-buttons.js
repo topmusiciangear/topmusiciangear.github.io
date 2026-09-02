@@ -143,6 +143,7 @@ const TEST_SHOP_BTN = {
   104: {prices:{amazon:"$3,499.99",andertons:"£3,599.00",musicstore:"€3,499.00"},oos:["zzounds"]},
   105: {prices:{amazon:"$549.00",zzounds:"$549.00",andertons:"£436.00",gear4music:"£469.00",musicstore:"€2,990.00"}},
   106: {prices:{amazon:"$899.99",zzounds:"$899.99",andertons:"£845.00",gear4music:"£862.00",musicstore:"€999.00"}},
+  107: {prices:{amazon:"$299.00"},oos:["zzounds"]},
   108: {prices:{amazon:"$909.99",zzounds:"$909.99",gear4music:"£659.00",musicstore:"€611.00"},oos:["andertons"]},
   109: {prices:{amazon:"$1,781.01",zzounds:"$1,899.00",andertons:"£1,359.00",gear4music:"£1,428.00",musicstore:"€1,699.00"}},
   110: 
@@ -186,7 +187,7 @@ const TEST_SHOP_BTN = {
   148: {prices:{gear4music:"£2009.00",amazon:"$2,499.00",andertons:"£1,452.00",musicstore:"€2,099.00"},oos:["zzounds"]},
   149: {prices:{gear4music:"£504.00",amazon:"$675.00",zzounds:"$573.74",andertons:"£599.00",musicstore:"€599.00"}},
   150: {prices:{gear4music:"£188.50",amazon:"$268.00",andertons:"£169.00",musicstore:"€195.00"},oos:["zzounds"]},
-  151: {prices:{gear4music:"£407.00",amazon:"$374.99",musicstore:"€335.29"},oos:["andertons"]},
+  151: {prices:{gear4music:"£407.00",amazon:"$374.99",musicstore:"€335.29"},oos:["andertons","zzounds"]},
   152: {prices:{amazon:"$1,232.49",zzounds:"$1,232.49",andertons:"£975.00",gear4music:"£989.00",musicstore:"€917.31"}},
   153: {prices:{amazon:"$399.00",zzounds:"$399.00",andertons:"£295.00",gear4music:"£322.00",musicstore:"€74.79"}},
   154: {prices:{amazon:"$390.99",andertons:"£394.00",gear4music:"£394.00",musicstore:"€366.47"},oos:["zzounds"]},
@@ -197,7 +198,7 @@ const TEST_SHOP_BTN = {
   159: {prices:{amazon:"$419.99",zzounds:"$419.99",andertons:"£399.00",gear4music:"£399.00",musicstore:"€119.00"}},
   160: {prices:{amazon:"$379.99",zzounds:"$379.99",andertons:"£349.00",gear4music:"£296.00",musicstore:"€389.00"}},
   161: {prices:{amazon:"$399.99",zzounds:"$399.99",andertons:"£399.00",gear4music:"£399.00"}},
-  162: {prices:{amazon:"$350.00",andertons:"£799.00",gear4music:"£599.00"},oos:["musicstore"]},
+  162: {prices:{amazon:"$350.00",andertons:"£799.00",gear4music:"£599.00"},oos:["musicstore","zzounds"]},
   163: {prices:{amazon:"$599.00",zzounds:"$599.00",andertons:"£349.00",gear4music:"£419.00"}},
   164: {prices:{amazon:"$649.00",zzounds:"$649.00",andertons:"£229.00",gear4music:"£599.00"},oos:["musicstore"]},
   165: {prices:{zzounds:"$649.00",gear4music:"£579.00",amazon:"$599.00",musicstore:"€295.00"},oos:["andertons"]},
@@ -302,7 +303,7 @@ const TEST_SHOP_BTN = {
   272: {prices:{amazon:"$879.99",andertons:"£699.00",gear4music:"£700.00",musicstore:"€696.64"}},
   273: {prices:{amazon:"$879.99",andertons:"£699.00",gear4music:"£706.00",musicstore:"€621.01"}},
   274: {prices:{gear4music:"£309.00",amazon:"$239.99",musicstore:"€335.29"},oos:["andertons"]},
-  275: {prices:{gear4music:"£349.00",amazon:"$329.99",musicstore:"€335.29"},oos:["andertons"]},
+  275: {prices:{gear4music:"£349.00",amazon:"$329.99",musicstore:"€335.29"},oos:["andertons","zzounds"]},
   276: {prices:{gear4music:"£95.00",amazon:"$69.99",zzounds:"$99.99",musicstore:"€74.79"},oos:["andertons"]},
   277: {prices:{amazon:"$69.99"},oos:["andertons"]},
   278: {prices:{amazon:"$67.99"},oos:["andertons"]},
@@ -361,7 +362,7 @@ const TEST_SHOP_BTN = {
   335: {prices:{amazon:"$999.99",zzounds:"$744.95",andertons:"£649.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ"},oos:["musicstore"]},
   336: {prices:{amazon:"$249.99",zzounds:"$249.99"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-Mobile-Mix-8-Channel-USB-Mixer/651Y",musicstore:"€217.60"},oos:["andertons"]},
   337: {prices:{gear4music:"£1,565.79",amazon:"$1,999.00",zzounds:"$1,999.00",andertons:"£1,565.00",musicstore:"€1,259.66"}},
-  338: {prices:{andertons:"£1,019.00",musicstore:"€587.39"},oos:["gear4music"]},
+  338: {prices:{andertons:"£1,019.00",musicstore:"€587.39"},oos:["gear4music","zzounds"]},
   339: {prices:{gear4music:"£739.00",amazon:"$999.00",zzounds:"$999.00",andertons:"£949.00",musicstore:"€839.34"}},
   340: {prices:{amazon:"$485.00",zzounds:"$485.00",andertons:"£449.00",gear4music:"£491.00",musicstore:"€478.15"}},
   341: {prices:{amazon:"$559.00",zzounds:"$641.52",andertons:"£599.00",gear4music:"£564.00",musicstore:"€574.79"}},
@@ -466,7 +467,7 @@ const TEST_SHOP_BTN = {
   448: {prices:{amazon:"$209.99",zzounds:"$209.99",gear4music:"£189.00",musicstore:"€166.40",andertons:"£198.00"}},
   449: {prices:{amazon:"$149.99",musicstore:"€133.60",andertons:"£139.00"}},
   450: {prices:{amazon:"$79.00",zzounds:"$79.00"}},
-  451: {prices:{zzounds:"$249.00",amazon:"$229.00",zzounds:"$229.00",gear4music:"£199.00",musicstore:"€209.20",andertons:"£199.00"}}
+  451: {prices:{amazon:"$229.00",gear4music:"£199.00",musicstore:"€209.20",andertons:"£199.00"},oos:["zzounds"]}
 }
 
 function shortTitle(title) {
