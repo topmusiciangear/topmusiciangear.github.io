@@ -150,6 +150,18 @@ function ensurePbAff(url) {
   return url && url.indexOf('a_aid=') < 0 && url.indexOf('pluginboutique.com') >= 0 ? url + (url.includes('?') ? '&' : '?') + 'a_aid=6a01e859cbe1a' : url;
 }
 
+function wrapAffiliate(storeKey, url) {
+  if (!url) return url;
+  if (storeKey === 'pluginboutique') return ensurePbAff(url);
+  if (storeKey === 'amazon' && url.indexOf('tag=topmusicg-20') < 0 && (url.indexOf('/dp/') >= 0 || url.indexOf('amazon.com') >= 0 || url.indexOf('amazon.co.uk') >= 0)) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'tag=topmusicg-20';
+  if (storeKey === 'andertons' && url.indexOf('irgwc=') < 0) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'irgwc=1&irpid=7292297';
+  if (storeKey === 'reverb' && url.indexOf('awin1.com') < 0 && url.indexOf('reverb.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=' + encodeURIComponent(url);
+  if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  return url;
+}
+
 function shortTitle(title) {
   const removeWords = ['Desktop','Modeling','Model','Amp','Microphone','Mic','Condenser','Dynamic',
     'Shotgun','Supercardioid','Cardioid','Headphones','Headphone','Over-Ear','On-Ear','In-Ear',
@@ -762,14 +774,14 @@ function shopButtonsTest(p, lang) {
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
-  const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); return k === 'pluginboutique' ? ensurePbAff(u) : u; };
+  const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); return wrapAffiliate(k, u); };
   const isPlugins = p.category === 'plugins';
-  var pUrlRaw = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
-  var pUrl = ensurePbAff(pUrlRaw);
-  if (!pUrl) return '';
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
   const hasAmazon = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
   const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : hasAmazon ? 'amazon' : Object.keys(prices)[0] || avail[0] || 'official';
+  var pUrlRaw = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
+  var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
+  if (!pUrl) return '';
   const primaryBtn =
     '<a' + (hasAmazon ? ' data-store="amazon"' : '') + ' href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
@@ -788,10 +800,10 @@ function shopButtonsTest(p, lang) {
         zzounds: 'https://www.zzounds.com/a--925521/',
         reverb: 'https://reverb.com/marketplace?query=' + encodeURIComponent(p.title),
         gear4music: 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title),
-        andertons: 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(p.title) + '&irgwc=1&irpid=7292297',
+        andertons: 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(p.title),
         musicstore: 'https://www.musicstore.com/en_GB/search?SearchText=' + encodeURIComponent(p.title)
       };
-      const naUrl = searchUrls[k] || '#';
+      const naUrl = wrapAffiliate(k, searchUrls[k] || '#');
       return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('No disponible', 'Not Available') + '</span></a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
@@ -1244,7 +1256,7 @@ function buildGuidePage(guide, lang, idx) {
         var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
         var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = ensurePbAff(st[primaryStore] || st.official || '');
+        var offerUrl = wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
         if (offerUrl && priceNum) {
           listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
@@ -1276,7 +1288,7 @@ function buildGuidePage(guide, lang, idx) {
         var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
         var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = ensurePbAff(st[primaryStore] || st.official || '');
+        var offerUrl = wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
         if (offerUrl && priceNum) {
           pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
