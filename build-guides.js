@@ -291,7 +291,7 @@ function storeChips(p, lang) {
 const SHOP_LOGO_STYLE = {
   gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
 };
-const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb" };
+const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb", amazon: "Amazon" };
 let FLAG_UID = 0;
 function flagBadge(inner) {
   const cid = 'flgc' + (++FLAG_UID);
@@ -357,7 +357,7 @@ function globeIcon() {
     '<ellipse cx="7.2" cy="6.2" rx="3.2" ry="1.8" fill="#ffffff" opacity=".25"/>' +
     '</svg>';
 }
-const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag };
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 const TEST_SHOP_BTN = {
   1: {prices:{amazon:"$439.00",zzounds:"$439.00",gear4music:"£381.50",andertons:"£379.00",musicstore:"€398.00"}},
   2: {prices:{amazon:"$3,750.00",zzounds:"$3,995.00",andertons:"£3,007.00",gear4music:"£2,908.40",musicstore:"€2,999.00"}},
