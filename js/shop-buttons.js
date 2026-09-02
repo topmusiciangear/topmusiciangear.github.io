@@ -585,8 +585,10 @@ function shopButtonsTest(p, lang) {
   const hasAmazon = isUsa ? true : !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
   const zzoundsSearchUrl = 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
-  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : hasAmazon ? 'amazon' : Object.keys(prices)[0] || avail[0] || 'zzounds';
-  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores.zzounds;
+  const safeAvail = avail.filter(function(k){return k!=='andertons';});
+  const fallbackStore = safeAvail[0] || avail[0] || 'zzounds';
+  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : hasAmazon ? 'amazon' : fallbackStore;
+  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[safeAvail[0]] || stores[avail[0]] || stores.zzounds;
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
   const primaryBtn =
