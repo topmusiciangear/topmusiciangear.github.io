@@ -1,63 +1,47 @@
-var fs = require('fs');
-var src = fs.readFileSync('build-guides.js', 'utf8');
-
-// Extract TEST_SHOP_BTN properly using Function constructor
-var start = src.indexOf('const TEST_SHOP_BTN = {');
-var endMarker = '\n};';
-var end = src.indexOf(endMarker, start) + 3;
-var block = src.substring(start, end);
-
-// Replace const and evaluate
-var evalStr = block.replace('const TEST_SHOP_BTN = ', 'var TEST_SHOP_BTN = ');
-eval(evalStr);
-
-var products = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
-var allStores = ['amazon', 'zzounds', 'reverb', 'andertons', 'gear4music', 'musicstore', 'pluginboutique'];
-
-var missing = [];
-var ok = 0;
-
-products.forEach(function(prod) {
-  allStores.forEach(function(s) {
-    if (prod.excludeStores && prod.excludeStores.indexOf(s) !== -1) return;
-    var hasUrl = prod.stores && prod.stores[s] && prod.stores[s].trim().length > 5;
-    if (!hasUrl) return;
-    
-    var entry = TEST_SHOP_BTN[prod.id];
-    var hasPrice = entry && entry.prices && entry.prices[s];
-    var hasOos = entry && entry.oos && entry.oos.indexOf(s) !== -1;
-    var hasNa = entry && entry.na && entry.na.indexOf(s) !== -1;
-    
-    if (!hasPrice && !hasOos && !hasNa) {
-      missing.push({
-        id: prod.id,
-        title: prod.title,
-        store: s,
-        url: prod.stores[s]
-      });
-    } else {
-      ok++;
-    }
+const p = require('../data/products.json');
+const results = [];
+for (const [id, prod] of Object.entries(p)) {
+  const stores = prod.stores || {};
+  const storeKeys = Object.keys(stores);
+  const totalStores = storeKeys.length;
+  const oos = prod.oos || [];
+  const activeStores = storeKeys.filter(k => !oos.includes(k));
+  results.push({
+    id: parseInt(id),
+    title: prod.title,
+    totalStores,
+    activeStores: activeStores.length,
+    oosCount: oos.length,
+    oos,
+    storeKeys,
+    price: prod.price
   });
-});
+}
+results.sort((a,b) => a.totalStores - b.totalStores);
 
-console.log('=== STORE AUDIT RESULTS ===');
-console.log('Products with store URL + price/oos/na:', ok);
-console.log('MISSING (has URL but no price/oos/na):', missing.length);
+console.log('=== PRODUCTS WITH FEWER THAN 3 STORES ===\n');
+for (const r of results) {
+  if (r.totalStores < 3) {
+    console.log(`ID ${r.id} | ${r.title}`);
+    console.log(`  Stores: ${r.totalStores} | Active: ${r.activeStores} | OOS: ${r.oosCount > 0 ? r.oos.join(',') : 'none'}`);
+    console.log(`  Has: ${r.storeKeys.join(', ')}`);
+    // Check which stores are missing
+    const allStores = ['zzounds','amazon','andertons','gear4music','musicstore','reverb','pluginboutique','official'];
+    const missing = allStores.filter(s => !r.storeKeys.includes(s));
+    console.log(`  Missing: ${missing.join(', ')}`);
+    console.log();
+  }
+}
 
-if (missing.length > 0) {
-  console.log('\n--- Missing entries by store ---');
-  var byStore = {};
-  missing.forEach(function(m) {
-    if (!byStore[m.store]) byStore[m.store] = 0;
-    byStore[m.store]++;
-  });
-  Object.keys(byStore).forEach(function(s) {
-    console.log('  ' + s + ': ' + byStore[s]);
-  });
-
-  console.log('\n--- First 50 missing ---');
-  missing.slice(0, 50).forEach(function(m) {
-    console.log('  ID ' + m.id + ' | ' + m.title + ' | ' + m.store);
-  });
+console.log('\n=== PRODUCTS WITH EXACTLY 3 STORES ===\n');
+for (const r of results) {
+  if (r.totalStores === 3) {
+    console.log(`ID ${r.id} | ${r.title}`);
+    console.log(`  Stores: ${r.totalStores} | Active: ${r.activeStores} | OOS: ${r.oosCount > 0 ? r.oos.join(',') : 'none'}`);
+    console.log(`  Has: ${r.storeKeys.join(', ')}`);
+    const allStores = ['zzounds','amazon','andertons','gear4music','musicstore','reverb','pluginboutique','official'];
+    const missing = allStores.filter(s => !r.storeKeys.includes(s));
+    console.log(`  Missing: ${missing.join(', ')}`);
+    console.log();
+  }
 }

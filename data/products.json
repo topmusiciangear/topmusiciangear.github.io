@@ -9302,12 +9302,15 @@
     "badge": "popularChoice",
     "desc": "The wireless version of the iconic SM58. Reliable UHF transmission, durable metal construction, and the same cardioid pickup pattern that made the SM58 a stage standard. Battery life up to 14 hours. Simple setup with automatic frequency scanning.",
     "desc_es": "La version inalambrica del iconico SM58. Transmision UHF confiable, construccion de metal resistente y el mismo patron de captacion cardioide que hizo del SM58 un estandar del escenario. Bateria hasta 14 horas. Configuracion sencilla con escaneo automatico de frecuencia.",
-    "img": "https://m.media-amazon.com/images/I/61pS35PAMjL._AC_SL1500_.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B01LWWF4OK",
-      "zzounds": "https://www.zzounds.com/a--925521/item--SHUBLX24RSM58"
-    },
-    "unit": "each",
+"img": "https://r2.gear4music.com/media/50/506993/1200/preview_1.jpg",
+  "stores": {
+    "amazon": "https://www.amazon.com/dp/B01LWWF4OK",
+    "zzounds": "https://www.zzounds.com/a--925521/item--SHUBLX24RSM58",
+    "andertons": "https://www.andertons.co.uk/shure-blx24r-with-sm58-wireless-rack-mountable-wireless-system/",
+    "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX24R-SM58-K3E-Rack-Mount-Wireless-Microphone-System/TU6",
+    "musicstore": "https://www.musicstore.com/en_US/USD/Shure-BLX24RE-SM58-T11-863-865MHz-Wireless-Handheld-System/art-PAH0013749-000"
+  },
+  "unit": "each",
     "unit_es": "cada uno",
     "oos": [
       "zzounds"
