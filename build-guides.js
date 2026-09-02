@@ -1733,8 +1733,8 @@ buildSitemap();
   // Sync inline version check: record latest version in localStorage for diagnostics
   // WITHOUT reloading the page (the old location.replace() caused NO_FCP in Lighthouse
   // by navigating away before first paint under throttled network).
-  var verCheck = "<script>(function(){try{var a=localStorage.getItem('tmg_v');var u='https://api.github.com/repos/topmusiciangear/topmusiciangear.github.io/contents/version.txt?ref=main&v='+Date.now();function gv(){return fetch(u,{headers:{Accept:'application/vnd.github.v3.raw'}}).then(function(r){if(r.ok)return r;return fetch('/version.txt?t='+Date.now())})}gv().then(function(r){return r.text()}).then(function(b){b=b.trim();if(a===b)return;localStorage.setItem('tmg_v',b)}).catch(function(){})})();</script>";
-  html = html.replace(/<script>\(function\(\)\{try\{history\.scrollRestoration='manual'\}[\s\S]*?<\/script>/, verCheck);
+  var verCheck = "<script>(function(){try{var a=localStorage.getItem('tmg_v');var u='https://api.github.com/repos/topmusiciangear/topmusiciangear.github.io/contents/version.txt?ref=main&v='+Date.now();function gv(){return fetch(u,{headers:{Accept:'application/vnd.github.v3.raw'}}).then(function(r){if(r.ok)return r;return fetch('/version.txt?t='+Date.now())})}gv().then(function(r){return r.text()}).then(function(b){b=b.trim();if(a===b)return;localStorage.setItem('tmg_v',b)})}catch(e){}})();</script>";
+  html = html.replace(/<script>\(function\(\)\{try\{var a=localStorage\.getItem\('tmg_v'\)[\s\S]*?<\/script>/, verCheck);
   // Fallback: if pattern above did not match, replace the version literal only
   html = html.replace(/var v="[a-zA-Z0-9]+"/, 'var v="' + jsVer + '"');
   // Always write index.html (cache busters may have changed)
