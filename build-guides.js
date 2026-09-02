@@ -729,7 +729,7 @@ const TEST_SHOP_BTN = {
   420: {prices:{amazon:"$99.00",gear4music:"£51.80",musicstore:"€98.00"}},
   421: {prices:{amazon:"$249.00",gear4music:"£75.00",musicstore:"€180.70"}},
   422: {prices:{amazon:"$279.00",gear4music:"£149.00",musicstore:"€304.00"}},
-  423: {prices:{zzounds:"$379.00",amazon:"$349.00",gear4music:"£255.00",musicstore:"€285.00"}},
+  423: {prices:{zzounds:"$379.00",amazon:"$379.00",andertons:"£279.00",gear4music:"£255.00",musicstore:"€293.28"}},
   424: {prices:{zzounds:"$699.00",amazon:"$599.00",gear4music:"£559.00",musicstore:"€458.00"}},
   425: {prices:{amazon:"$179.00",musicstore:"€335.29"},oos:["zzounds"]},
   426: {prices:{amazon:"$149.00",gear4music:"£139.00"},oos:["zzounds"]},
@@ -779,11 +779,11 @@ function shopButtonsTest(p, lang) {
   const isPlugins = p.category === 'plugins';
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
-  const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
-  const zzoundsSearchUrl = 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '?tag=topmusicg-20';
-  const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   const hasAmazon = !isLogic && !isPlugins;
   const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
+  const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
+  const zzoundsSearchUrl = 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '?tag=topmusicg-20';
+  const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
