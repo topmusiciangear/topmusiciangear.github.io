@@ -1245,15 +1245,13 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
   var tz=Intl.DateTimeFormat().resolvedOptions().timeZone;
   var isUSTZ=/^America[/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay|Nassau|Fortaleza|Bahia_Banderas|Curacao|Guadeloupe|Martinique|St_Barthelemy|St_Kitts|St_Lucia|St_Thomas|St_Vincent|Aruba|Turks_and_Caicos|Cayman|Bermuda|Puerto_Rico|Virgin)/.test(tz);
   if(isUSTZ){doSwap();return;}
-  try{localStorage.removeItem('tmgGeoUS');}catch(e){}
   try{
     var cached=localStorage.getItem('tmgGeoUS');
     if(cached==='1'){doSwap();return;}
-    if(cached==='0')return;
   }catch(e){}
   var x=new XMLHttpRequest();
   x.open('GET','https://ipinfo.io/json',true);
-  x.timeout=3000;
+  x.timeout=5000;
   x.onload=function(){
     try{
       var r=JSON.parse(x.responseText);
@@ -1266,6 +1264,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     }catch(e){}
   };
   x.onerror=x.ontimeout=function(){
+    try{localStorage.removeItem('tmgGeoUS');}catch(e){}
 };
   x.send();
 })();
