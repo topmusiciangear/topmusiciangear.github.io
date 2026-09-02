@@ -30,6 +30,21 @@ var shortTitleStart = src.indexOf('function shortTitle(');
 var shortTitleEnd = src.indexOf('\nfunction ', shortTitleStart + 10);
 var shortTitleFn = src.substring(shortTitleStart, shortTitleEnd);
 
+// Extract ensurePbAff function
+var pbAffStart = src.indexOf('function ensurePbAff(');
+var pbAffEnd = src.indexOf('\nfunction ', pbAffStart + 10);
+var pbAffFn = src.substring(pbAffStart, pbAffEnd);
+
+// Extract wrapAffiliate function
+var wrapStart = src.indexOf('function wrapAffiliate(');
+var wrapEnd = src.indexOf('\nfunction ', wrapStart + 10);
+var wrapFn = src.substring(wrapStart, wrapEnd);
+
+// Extract getResolvedStores function
+var grsStart = src.indexOf('function getResolvedStores(');
+var grsEnd = src.indexOf('\nfunction ', grsStart + 10);
+var grsFn = src.substring(grsStart, grsEnd);
+
 // Extract shopButtonsTest function
 var shopFnStart = src.indexOf('function shopButtonsTest(');
 var shopFnEnd = src.indexOf('\nfunction ', shopFnStart + 10);
@@ -108,6 +123,12 @@ const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, 
 ${btnBlock}
 
 ${shortTitleFn}
+
+${pbAffFn}
+
+${wrapFn}
+
+${grsFn}
 
 ${shopFn}
 

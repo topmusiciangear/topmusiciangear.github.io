@@ -501,6 +501,67 @@ function shortTitle(title) {
 }
 
 
+function ensurePbAff(url) {
+  return url && url.indexOf('a_aid=') < 0 && url.indexOf('pluginboutique.com') >= 0 ? url + (url.includes('?') ? '&' : '?') + 'a_aid=6a01e859cbe1a' : url;
+}
+
+
+function wrapAffiliate(storeKey, url) {
+  if (!url) return url;
+  if (storeKey === 'pluginboutique') return ensurePbAff(url);
+  if (storeKey === 'amazon' && url.indexOf('tag=topmusicg-20') < 0 && (url.indexOf('/dp/') >= 0 || url.indexOf('amazon.com') >= 0 || url.indexOf('amazon.co.uk') >= 0)) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'tag=topmusicg-20';
+  if (storeKey === 'andertons' && url.indexOf('irgwc=') < 0) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'irgwc=1&irpid=7292297';
+  if (storeKey === 'reverb' && url.indexOf('awin1.com') < 0 && url.indexOf('reverb.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=' + encodeURIComponent(url);
+  if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  return url;
+}
+
+
+function getResolvedStores(product) {
+  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds','official','macappstore'];
+  const searchUrls = {
+    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`, gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`, amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`, reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`, andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`, musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`, zzounds: () => 'https://www.zzounds.com/a--925521/'
+  };
+  const s = {};
+  const isMacOnly = !!product.stores.macappstore;
+  const excluded = product.excludeStores || [];
+  allStoreKeys.forEach(key => {
+    if (excluded.includes(key)) return;
+    if (key === 'amazon' && product.category === 'plugins') return;
+    if (key === 'pluginboutique' && product.category !== 'plugins' && product.category !== 'daw') return;
+    const specificUrl = product.stores[key];
+    if (specificUrl) {
+      if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
+        s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(shortTitle(product.title))}`;
+      } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
+        s[key] = (product.amazonNotag || specificUrl.includes('tag=topmusicg-20')) ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
+      } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
+        s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
+      } else {
+        s[key] = specificUrl;
+      }
+    } else if (!isMacOnly && key !== 'amazon' && searchUrls[key]) {
+      s[key] = searchUrls[key](shortTitle(product.title));
+    }
+  });
+  if (s.reverb) {
+    s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
+  }
+  if (s.musicstore && !s.musicstore.startsWith('https://www.awin1.com/cread.php?awinmid=63816')) {
+    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
+  }
+  if (s.gear4music) {
+    s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
+  }
+  if (s.zzounds) {
+    s.zzounds = `https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=${encodeURIComponent(s.zzounds.replace('/a--925521', ''))}`;
+  }
+  return s;
+}
+
+
 function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
   const prices = cfg.prices || {};
