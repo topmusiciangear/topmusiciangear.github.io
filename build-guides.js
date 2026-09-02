@@ -388,7 +388,7 @@ const TEST_SHOP_BTN = {
   28: {prices:{pluginboutique:"$299.00",andertons:"£126.00",gear4music:"£271.00",musicstore:"€899.00"}},
   29: {prices:{pluginboutique:"$1069.00",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£769.00",musicstore:"€539.00"}},
   30: {prices:{pluginboutique:"$499.00",andertons:"£479.00",gear4music:"£479.00",musicstore:"€452.90"}},
-  32: {prices:{pluginboutique:"$599.00",gear4music:"£489.00"},oos:["musicstore","zzounds"]},
+   32: {prices:{pluginboutique:"$599.00",amazon:"$599.00",gear4music:"£489.00",andertons:"£489.00",musicstore:"€599.00"},oos:["zzounds"]},
   33: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£659.00",gear4music:"£656.00",musicstore:"€669.00"}},
 
   39: {prices:{amazon:"$49.00",andertons:"£42.00",gear4music:"£53.50",musicstore:"€168.00"},oos:["zzounds"]},
@@ -796,7 +796,7 @@ function shopButtonsTest(p, lang) {
   const rows = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
-    const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'] };
+    const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
     const storeNote = storeNotes[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
