@@ -778,8 +778,8 @@ function shopButtonsTest(p, lang) {
   const isPlugins = p.category === 'plugins';
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
   const hasAmazon = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
-  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : hasAmazon ? 'amazon' : Object.keys(prices)[0] || avail[0] || 'official';
-  var pUrlRaw = isLogic ? stores.official : (dawHasAmazon ? stores.amazon : isDaw ? (stores.gear4music || stores.andertons || stores.musicstore || stores.zzounds || stores.pluginboutique) : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official) || stores[Object.keys(prices)[0]] || stores[avail[0]] || stores.official;
+  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : 'zzounds';
+  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.zzounds || 'https://www.zzounds.com/a--925521/');
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
   const primaryBtn =
@@ -796,14 +796,7 @@ function shopButtonsTest(p, lang) {
     const storeNote = storeNotes[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
-      const searchUrls = {
-        zzounds: 'https://www.zzounds.com/a--925521/',
-        reverb: 'https://reverb.com/marketplace?query=' + encodeURIComponent(p.title),
-        gear4music: 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title),
-        andertons: 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(p.title),
-        musicstore: 'https://www.musicstore.com/en_GB/search?SearchText=' + encodeURIComponent(p.title)
-      };
-      const naUrl = wrapAffiliate(k, searchUrls[k] || '#');
+      const naUrl = rowUrl(k);
       return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#a8a8a8;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('No disponible', 'Not Available') + '</span></a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
