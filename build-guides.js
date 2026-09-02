@@ -1737,22 +1737,19 @@ buildSitemap();
   html = html.replace(/<script>\(function\(\)\{try\{history\.scrollRestoration='manual'\}[\s\S]*?<\/script>/, verCheck);
   // Fallback: if pattern above did not match, replace the version literal only
   html = html.replace(/var v="[a-zA-Z0-9]+"/, 'var v="' + jsVer + '"');
-  var links = guides.map(function(g) {
-    var enUrl = '/guides/' + g.id + '.html';
-    var esUrl = '/guides/' + g.id + '_es.html';
-    var title = Y(g.title);
-    var titleEs = Y(g.title_es || g.title);
-    return '<a href="' + enUrl + '" hreflang="en">' + title.replace(/"/g, '&quot;') + '</a>\n<a href="' + esUrl + '" hreflang="es">' + titleEs.replace(/"/g, '&quot;') + '</a>';
-  }).join('\n');
   // Always write index.html (cache busters may have changed)
+  // The old .crawl-guides block injected ~5MB of ~50k hidden hreflang links into
+  // the homepage, which the browser had to parse before first paint (Lighthouse
+  // NO_FCP / slow home). All guide URLs are already fully indexed by
+  // sitemap.xml (built above) and listed in robots.txt, so discovery is
+  // preserved without the hidden-text block (which Google also discourages).
   var marker = '<!-- CRAWLABLE_GUIDE_LINKS -->';
   if (html.indexOf(marker) !== -1) {
-    html = html.replace(marker, '\n' + links + '\n' + marker + '\n');
-    // Ensure CSS class exists
-    var css = '.crawl-guides{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:1px;width:1px;margin:-1px;padding:0;border:0}';
-    if (html.indexOf('.crawl-guides') === -1) {
-      html = html.replace('</style>', css + '\n</style>');
-    }
+    // Remove the entire hidden crawl-guides div + marker from the homepage.
+    html = html.replace(/<div class="crawl-guides">[\s\S]*?<\/div>/, '');
+    html = html.replace(/<!--\s*CRAWLABLE_GUIDE_LINKS\s*-->/g, '');
+    // Drop the now-unused crawl-guides CSS rule if present.
+    html = html.replace(/\.crawl-guides\{[^}]*\}\s*/g, '');
   }
   fs.writeFileSync(indexFile, html, 'utf8');
   // Sync version.txt with the JS cache buster hash
