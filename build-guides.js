@@ -776,10 +776,12 @@ function shopButtonsTest(p, lang) {
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
   const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); return wrapAffiliate(k, u); };
   const isPlugins = p.category === 'plugins';
+  var isUsa = false;
+  try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const pPrice = prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon'] || '';
   const hasAmazon = !!(stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1);
-  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : 'zzounds';
-  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : (stores.zzounds || 'https://www.zzounds.com/a--925521/');
+  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : hasAmazon ? 'amazon' : Object.keys(prices)[0] || avail[0] || 'zzounds';
+  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : isUsa ? (stores.zzounds || 'https://www.zzounds.com/a--925521/') : (stores.amazon && (p.excludeStores||[]).indexOf('amazon')===-1) ? stores.amazon : stores[Object.keys(prices)[0]] || stores.zzounds;
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
   const primaryBtn =
