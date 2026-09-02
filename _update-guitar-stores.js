@@ -11,28 +11,28 @@ p270.stores.andertons='';
 var p272=p.find(function(x){return x.id===272});
 p272.stores.zzounds='';
 p272.stores.gear4music='https://www.gear4music.com/Guitar-and-Bass/Yamaha-SLG200S-Steel-String-Silent-Guitar/2B4W';
-p272.stores.musicstore='https://www.musicstore.com/en_OE/EUR/Yamaha-SLG200S-Silent-Guitar-Natural/art-GIT0025194-000';
+p272.stores.musicstore='https://www.musicstore.com/en_OT/EUR/Yamaha-SLG200S-Silent-Guitar-Natural/art-GIT0025194-000';
 
 // 273 Yamaha SLG200N - add zzounds, reverb, gear4music, musicstore
 var p273=p.find(function(x){return x.id===273});
 p273.stores.zzounds='';
 p273.stores.reverb='';
 p273.stores.gear4music='https://www.gear4music.com/Guitar-and-Bass/Yamaha-SLG200N-Nylon-String-Silent-Guitar/2B4X';
-p273.stores.musicstore='https://www.musicstore.com/en_OE/EUR/Yamaha-SLG200N-Silent-Guitar-Natural/art-GIT0025195-000';
+p273.stores.musicstore='https://www.musicstore.com/en_OT/EUR/Yamaha-SLG200N-Silent-Guitar-Natural/art-GIT0025195-000';
 
 // 274 Traveler Ultra-Light Steel - add zzounds, andertons, musicstore
 var p274=p.find(function(x){return x.id===274});
 p274.stores.zzounds='';
 p274.stores.gear4music='https://www.gear4music.com/Guitar-and-Bass/Traveler-Ultra-Light-Acoustic-Steel-Maple/47KR';
 p274.stores.andertons='';
-p274.stores.musicstore='https://www.musicstore.com/en_OE/EUR/Traveler-Guitar-Ultra-Light-Acoustic-Steel-Antique-Brown/art-GIT0038449-000';
+p274.stores.musicstore='https://www.musicstore.com/en_OT/EUR/Traveler-Guitar-Ultra-Light-Acoustic-Steel-Antique-Brown/art-GIT0038449-000';
 
 // 275 Traveler Ultra-Light Nylon - add reverb, gear4music, andertons, musicstore
 var p275=p.find(function(x){return x.id===275});
 p275.stores.reverb='';
 p275.stores.gear4music='https://www.gear4music.com/Guitar-and-Bass/Traveler-Ultra-Light-Nylon-Acoustic-Mahogany/47LD';
 p275.stores.andertons='';
-p275.stores.musicstore='https://www.musicstore.com/en_OE/EUR/Traveler-Guitar-Ultra-Light-Nylon-Mahogany-Natural/art-GIT0038450-000';
+p275.stores.musicstore='https://www.musicstore.com/en_OT/EUR/Traveler-Guitar-Ultra-Light-Nylon-Mahogany-Natural/art-GIT0038450-000';
 
 // 295 Enya Nova Go Sonic - add zzounds, reverb, gear4music, andertons, musicstore
 var p295=p.find(function(x){return x.id===295});
