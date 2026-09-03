@@ -1085,11 +1085,15 @@ function guideCompProgress() {
   return '<div class="guide-comp-progress"><div class="guide-comp-progress-bar"></div></div>';
 }
 
+function guideCompLeftArrow(isEs) {
+  return '<button type="button" class="guide-comp-arrow guide-comp-arrow-left" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:-Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la izquierda' : 'Scroll left') + '">' + icon('chevron-left', 'fa-solid') + '</button>';
+}
+function guideCompRightArrow(isEs) {
+  return '<button type="button" class="guide-comp-arrow guide-comp-arrow-right" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la derecha' : 'Scroll right') + '">' + icon('chevron-right', 'fa-solid') + '</button>';
+}
 function guideCompControls(isEs, extra) {
-  var l = '<button type="button" class="guide-comp-arrow guide-comp-arrow-left" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:-Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la izquierda' : 'Scroll left') + '">' + icon('chevron-left', 'fa-solid') + '</button>';
-  var r = '<button type="button" class="guide-comp-arrow guide-comp-arrow-right" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la derecha' : 'Scroll right') + '">' + icon('chevron-right', 'fa-solid') + '</button>';
   var cls = 'guide-comp-controls' + (extra ? ' ' + extra : '');
-  return '<div class="' + cls + '">' + l + guideCompProgress() + r + '</div>';
+  return '<div class="' + cls + '">' + guideCompLeftArrow(isEs) + guideCompProgress() + guideCompRightArrow(isEs) + '</div>';
 }
 
 function navDropdown(isEs) {
@@ -1113,7 +1117,7 @@ function buildGuidePage(guide, lang, idx) {
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
   const intro = esText(isEs && guide.intro_es, guide.intro);
   const introTableMatch = intro.match(/<table[\s\S]*?<\/table>/);
-  const introTable = introTableMatch ? '<div class="guide-table-wrap">' + introTableMatch[0] + '</div>' : '';
+  const introTable = introTableMatch ? '<div class="guide-comp-wrap"><div class="guide-comp-controls guide-comp-controls-top">' + guideCompLeftArrow(false) + guideCompProgress() + guideCompRightArrow(false) + '</div><div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll">' + introTableMatch[0] + '</div></div></div>' : '';
   const introWithoutTable = intro.replace(/<table[\s\S]*?<\/table>/, '').trim();
   const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
   const verdict = esText(isEs && guide.verdict_es, guide.verdict);
