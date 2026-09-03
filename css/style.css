@@ -2993,11 +2993,25 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   vertical-align: top;
 }
 
+.guide-compare-table thead th:first-child,
+.guide-compare-table tbody td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+.guide-compare-table thead th:first-child {
+  font-weight: 700;
+  color: var(--accent);
+  text-align: left;
+  background: var(--bg-card);
+}
 .guide-compare-table tbody td:first-child {
   font-weight: 700;
   color: var(--accent);
   white-space: nowrap;
   width: 80px;
+  background: var(--bg);
+  box-shadow: 1px 0 0 var(--border);
 }
 
 .guide-compare-table tbody td ul {
@@ -3055,6 +3069,13 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   .guide-compare-table { font-size: 13px; }
   .guide-compare-table thead th,
   .guide-compare-table tbody td { padding: 10px 10px; }
+  .guide-compare-table thead th:first-child,
+  .guide-compare-table tbody td:first-child {
+    position: sticky !important;
+    left: 0;
+    z-index: 5;
+    box-shadow: 2px 0 6px rgba(0,0,0,.5) !important;
+  }
 }
 
 @media print {
