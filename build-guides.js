@@ -1409,7 +1409,7 @@ ${ogMeta}
         </a>
         <nav aria-label="Main navigation">
           <a href="${isEs ? '/es/#guides' : '/#guides'}" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
-          <a href="/deals.html" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
+          <a href="${isEs ? '/deals_es.html' : '/deals.html'}" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
           ${navDropdown(isEs)}
         </nav>
       </div>
