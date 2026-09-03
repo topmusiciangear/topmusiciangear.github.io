@@ -6,7 +6,7 @@ var data = JSON.parse(text);
 
 var relatedMap = {
   "pro-headphones": ["budget-headphones", "open-headphones", "tracking-headphones", "best-headphones", "best-headphones-for-mixing", "pro-monitors"],
-  "pro-microphones": ["budget-mics", "usb-mics", "stage-mics", "tube-ribbon-mics", "best-microphone", "sm57-vs-sm58"],
+  "pro-microphones": ["budget-mics", "usb-mics", "stage-mics", "best-condenser-mics", "best-microphone", "sm57-vs-sm58"],
   "pro-monitors": ["budget-monitors", "best-monitors", "monitor-setup", "studio-subwoofers", "small-room-monitors", "hs8-vs-rokit-7"],
   "pro-interfaces": ["budget-interfaces", "best-interface", "portable-interfaces", "scarlett-vs-ssl", "scarlett-vs-volt", "apollo-vs-babyface"],
   "pro-guitars": ["best-electric-guitar", "beginner-guitar", "fender-guide", "american-pro-vs-les-paul", "player-strat-vs-pacifica", "best-electric-under-500"],
