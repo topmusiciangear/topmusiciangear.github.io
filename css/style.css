@@ -1770,7 +1770,11 @@ footer ul li a:hover { color: var(--accent); }
   background: var(--bg-card);
   color: var(--text-secondary);
 }
+.guide-comparison-table th:first-child,
 .guide-comparison-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
   background: var(--surface);
   color: var(--accent);
   font-weight: 600;
@@ -1783,6 +1787,14 @@ footer ul li a:hover { color: var(--accent); }
   .guide-comparison-table { font-size: 12px; }
   .guide-comparison-table th,
   .guide-comparison-table td { padding: 8px 10px; }
+  .guide-comparison-table th:first-child,
+  .guide-comparison-table td:first-child {
+    position: sticky !important;
+    left: 0;
+    z-index: 5;
+    background: var(--surface) !important;
+    box-shadow: 2px 0 6px rgba(0,0,0,.5) !important;
+  }
 }
 .guide-section-imgs {
   display: flex;
