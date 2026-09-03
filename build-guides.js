@@ -150,13 +150,33 @@ function ensurePbAff(url) {
   return url && url.indexOf('a_aid=') < 0 && url.indexOf('pluginboutique.com') >= 0 ? url + (url.includes('?') ? '&' : '?') + 'a_aid=6a01e859cbe1a' : url;
 }
 
+function normalizeMusicStore(url) {
+  if (!url) return url;
+  if (url.indexOf('awin1.com') >= 0) {
+    const m = url.match(/ued=([^&]+)/);
+    if (!m) return url;
+    const inner = decodeURIComponent(m[1]);
+    const norm = normalizeMusicStoreInner(inner);
+    return url.replace(m[1], encodeURIComponent(norm));
+  }
+  return normalizeMusicStoreInner(url);
+}
+function normalizeMusicStoreInner(u) {
+  if (u.indexOf('www.musicstore.com/') < 0) return u;
+  const withCurrency = /musicstore\.com\/[A-Za-z]{2}_[A-Za-z]{2}\/[A-Za-z]{3}\//;
+  if (withCurrency.test(u)) return u.replace(withCurrency, 'musicstore.com/en_OE/EUR/');
+  const localeOnly = /musicstore\.com\/[A-Za-z]{2}_[A-Za-z]{2}\//;
+  if (localeOnly.test(u)) return u.replace(localeOnly, 'musicstore.com/en_OE/EUR/');
+  return u;
+}
+
 function wrapAffiliate(storeKey, url) {
   if (!url) return url;
   if (storeKey === 'pluginboutique') return ensurePbAff(url);
   if (storeKey === 'amazon' && url.indexOf('tag=topmusicg-20') < 0 && (url.indexOf('/dp/') >= 0 || url.indexOf('amazon.com') >= 0 || url.indexOf('amazon.co.uk') >= 0)) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'tag=topmusicg-20';
   if (storeKey === 'andertons' && url.indexOf('irgwc=') < 0) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'irgwc=1&irpid=7292297';
   if (storeKey === 'reverb' && url.indexOf('awin1.com') < 0 && url.indexOf('reverb.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent(url);
-  if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(normalizeMusicStore(url));
   if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=' + encodeURIComponent(url);
   if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
   return url;
@@ -196,7 +216,7 @@ function shortTitle(title) {
 function getResolvedStores(product) {
   const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds','official','macappstore'];
   const searchUrls = {
-    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`, gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`, amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`, reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`, andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`, musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`, zzounds: () => 'https://www.zzounds.com/a--925521/'
+    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`, gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`, amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`, reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`, andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`, musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`, zzounds: () => 'https://www.zzounds.com/a--925521/'
   };
   const s = {};
   const isMacOnly = !!product.stores.macappstore;
@@ -224,7 +244,9 @@ function getResolvedStores(product) {
     s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
   if (s.musicstore && !s.musicstore.startsWith('https://www.awin1.com/cread.php?awinmid=63816')) {
-    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
+    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(normalizeMusicStore(s.musicstore))}`;
+  } else if (s.musicstore) {
+    s.musicstore = normalizeMusicStore(s.musicstore);
   }
   if (s.gear4music) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
@@ -685,7 +707,7 @@ const TEST_SHOP_BTN = {
   372: {prices:{amazon:"$795.00",andertons:"£517.00",gear4music:"£540.00",musicstore:"€453.78"},oos:["zzounds"]},
   373: {prices:{pluginboutique:"$199.00"}},
   374: {na:["andertons","gear4music","musicstore"],prices:{pluginboutique:"$99.00",amazon:"$99.00"},urls:{pluginboutique:"https://www.pluginboutique.com/product/2-Effects/6-Action/10606-ShaperBox-3",amazon:"https://www.amazon.com/dp/B0CM2Q8N1H"}},
-  375: {prices:{pluginboutique:"$99.00",gear4music:"£29.99",musicstore:"£42.00",amazon:"$99.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/XLN-Audio-RC-20-Retro-Color/3NGQ",pluginboutique:"https://www.pluginboutique.com/product/2-Effects/6-Action/6842-RC-20-Retro-Color",musicstore:"https://www.musicstore.com/en_GB/GBP/XLN-Audio-RC-20-Retro-Color/art-PCM0018798-000",amazon:"https://www.amazon.com/XLN-Audio-RC-20-Retro-Color/dp/B08JSYBDY1"}},
+  375: {prices:{pluginboutique:"$99.00",gear4music:"£29.99",musicstore:"€49.00",amazon:"$99.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/XLN-Audio-RC-20-Retro-Color/3NGQ",pluginboutique:"https://www.pluginboutique.com/product/2-Effects/6-Action/6842-RC-20-Retro-Color",musicstore:"https://www.musicstore.com/en_OE/EUR/XLN-Audio-RC-20-Retro-Color/art-PCM0018798-000",amazon:"https://www.amazon.com/XLN-Audio-RC-20-Retro-Color/dp/B08JSYBDY1"}},
   376: {na:["andertons","gear4music","musicstore"],prices:{pluginboutique:"$12.00",amazon:"$12.00"},urls:{pluginboutique:"https://www.pluginboutique.com/product/2-Effects/6-Action/6524-HalfTime",amazon:"https://www.amazon.com/Cableguys-HalfTime-Plugin/dp/B07QK2GMPM"}},
   377: {prices:{pluginboutique:"$129.00",gear4music:"£99.00",andertons:"£109",musicstore:"€108.40",amazon:"$129.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Transit-2/6RY2",andertons:"https://www.andertons.co.uk/baby-audio-transit-2-motion-effects-plugin/",pluginboutique:"https://www.pluginboutique.com/product/2-Effects/6-Action/10358-Transit-2",musicstore:"https://www.musicstore.com/en_OE/EUR/Baby-Audio-Transit-2-License-Code/art-PCM0018531-000",amazon:"https://www.amazon.com/Baby-Audio-Transit-2-Plugin/dp/B0DCJ5LPZL"}},
   378: {prices:{pluginboutique:"$89.00"}},
@@ -780,7 +802,7 @@ function shopButtonsTest(p, lang) {
     reverb: () => revUrl,
     gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title || ''),
     andertons: () => 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(p.title || '') + '&irgwc=1&irpid=7292297',
-    musicstore: () => 'https://www.musicstore.com/en_GB/search?SearchText=' + encodeURIComponent(p.title || '')
+    musicstore: () => 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(p.title || '')
   };
   const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   const isPlugins = p.category === 'plugins';
