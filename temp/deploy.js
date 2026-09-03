@@ -19,6 +19,18 @@ var shopHash = crypto.createHash('md5').update(shopContent).digest('hex').substr
 var indexHtml = fs.readFileSync('index.html', 'utf8');
 indexHtml = indexHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/, 'shop-buttons.js?v=' + shopHash);
 fs.writeFileSync('index.html', indexHtml);
+// keep the ES home's asset hashes in sync for cache parity
+var esIndex = 'es/index.html';
+if (fs.existsSync(esIndex)) {
+  var esHtml = fs.readFileSync(esIndex, 'utf8');
+  var cssHash = (indexHtml.match(/css\/style\.min\.css\?v=([a-f0-9]+)/) || [])[1];
+  var appHash = (indexHtml.match(/js\/app\.min\.js\?v=([a-f0-9]+)/) || [])[1];
+  esHtml = esHtml.replace(/css\/style\.min\.css\?v=[a-f0-9]+/g, 'css/style.min.css?v=' + cssHash);
+  esHtml = esHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/g, 'shop-buttons.js?v=' + shopHash);
+  esHtml = esHtml.replace(/js\/app\.min\.js\?v=[a-f0-9]+/g, 'js/app.min.js?v=' + appHash);
+  fs.writeFileSync(esIndex, esHtml);
+  console.log('   es/index.html hashes synced (css=' + cssHash + ' app=' + appHash + ')');
+}
 console.log('   shop-buttons.js?v=' + shopHash);
 
 // 4. Git commit

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>var l=localStorage.getItem("lang");if(l==="es"||l==="en")document.documentElement.lang=l;document.write('<style id="ls">.'+(l==="es"?"lang-show-en":"lang-show-es")+',.'+(l==="es"?"cookie-lang-en":"cookie-lang-es")+'{display:none!important}</style>')</script>
+  <script>var l="en";document.documentElement.lang="en";document.write('<style id="ls">.lang-show-es,.cookie-lang-es{display:none!important}</style>')</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -117,9 +117,9 @@
         </a>
         <nav aria-label="Main navigation">
           <a class="nav-link" data-nav="guides" data-i18n="navGuides" href="#guides" onclick="handleNavClick('guides');return false">Guides</a>
-          <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span><span class="lang-show-es">Ofertas</span></a>
+          <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span></a>
           <div class="nav-dd" id="nav-dd-desktop">
-            <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><span class="lang-show-es">Nuevos lanzamientos</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+            <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
             <div class="nav-dd-panel" role="menu">
               <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
               <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/?irgwc=1&amp;irpid=7292297" target="_blank" rel="noopener noreferrer sponsored"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -148,7 +148,7 @@
         <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener noreferrer" class="cuban3-link" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
         <div class="nav-dd nav-dd-mobile" id="nav-dd-mobile">
-          <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><span class="lang-show-es">Nuevos lanzamientos</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+          <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
           <div class="nav-dd-panel" role="menu">
             <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
             <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/?irgwc=1&amp;irpid=7292297" target="_blank" rel="noopener noreferrer sponsored"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -165,10 +165,10 @@
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" data-nav="guides" href="#guides" onclick="handleNavClick('guides');return false"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
-    <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span><span class="lang-show-es">Ofertas</span></a>
+    <a class="nav-link" data-nav="guides" href="#guides" onclick="handleNavClick('guides');return false"><span class="lang-show-en">Guides</span></a>
+    <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span></a>
     <div class="nav-dd" id="nav-dd-mobilenav">
-      <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><span class="lang-show-es">Nuevos lanzamientos</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+      <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
       <div class="nav-dd-panel" role="menu">
         <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
         <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/?irgwc=1&amp;irpid=7292297" target="_blank" rel="noopener noreferrer sponsored"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -184,11 +184,11 @@
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
-      <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> <span data-i18n="heroBadge"><span class="lang-show-en">Trusted by musicians worldwide</span><span class="lang-show-es">La confianza de m&uacute;sicos de todo el mundo</span></span></div>
-      <h1 data-i18n="heroTitle"><span class="lang-show-en">From Studio To Stage <span>Gear Reviewed By A Pro Musician</span></span><span class="lang-show-es">Del estudio al escenario <span>Equipo rese&ntilde;ado por un profesional</span></span></h1>
-      <p data-i18n="heroDesc"><span class="lang-show-en">Recommended by a musician with over 20 years of experience on the world's biggest stages &mdash; from Glastonbury to Broadway, Abbey Road to the silver screen.</span><span class="lang-show-es">Recomendado por un m&uacute;sico con m&aacute;s de 20 a&ntilde;os de experiencia en los escenarios m&aacute;s grandes del mundo &mdash; de Glastonbury a Broadway, de Abbey Road a la pantalla grande.</span></p>
+      <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> <span data-i18n="heroBadge"><span class="lang-show-en">Trusted by musicians worldwide</span></span></div>
+      <h1 data-i18n="heroTitle"><span class="lang-show-en">From Studio To Stage <span>Gear Reviewed By A Pro Musician</span></span></h1>
+      <p data-i18n="heroDesc"><span class="lang-show-en">Recommended by a musician with over 20 years of experience on the world's biggest stages &mdash; from Glastonbury to Broadway, Abbey Road to the silver screen.</span></p>
       <div class="hero-actions">
-        <a href="/deals.html" class="btn-primary"><span class="lang-show-en">Today's Deals</span><span class="lang-show-es">Ofertas de hoy</span></a>
+        <a href="/deals.html" class="btn-primary"><span class="lang-show-en">Today's Deals</span></a>
       </div>
     </div>
   </section>
@@ -271,7 +271,7 @@
     </div>
   </div>
 
-  <p style="text-align:center;color:var(--text-secondary,#a0a0a0);font-size:15px;margin-top:-32px;margin-bottom:48px;padding:0 32px"><span class="cookie-lang-en">Europe Tour 2026</span><span class="cookie-lang-es">Gira Europea 2026</span></p>
+  <p style="text-align:center;color:var(--text-secondary,#a0a0a0);font-size:15px;margin-top:-32px;margin-bottom:48px;padding:0 32px"><span class="cookie-lang-en">Europe Tour 2026</span></p>
 
   <!-- Trusted Stores -->
   <div class="stores-section">
@@ -341,8 +341,8 @@
         <ul>
           <li><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false" data-i18n="footerHome">Home</a></li>
           <li><a href="#about" onclick="document.getElementById('about')?.scrollIntoView({behavior:'smooth'});return false" data-i18n="footerAbout">About Me</a></li>
-          <li><a href="/deals.html"><span class="lang-show-en">Today's Deals</span><span class="lang-show-es">Ofertas de hoy</span></a></li>
-          <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> <span class="lang-show-en">Contact Us</span><span class="lang-show-es">Contáctanos</span></a></li>
+          <li><a href="/deals.html"><span class="lang-show-en">Today's Deals</span></a></li>
+          <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> <span class="lang-show-en">Contact Us</span></a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -361,7 +361,7 @@
           <li><a href="/privacy-policy.html" data-i18n="footerPrivacy">Privacy Policy</a></li>
           <li><a href="/terms.html" data-i18n="footerTerms">Terms of Service</a></li>
           <li><a href="/cookie-policy.html" data-i18n="footerCookies">Cookie Policy</a></li>
-          <li><a href="#cookie-settings" onclick="event.preventDefault();cookiePrefs()" style="cursor:pointer"><span class="lang-show-en">Cookie Settings</span><span class="lang-show-es">Configuración de cookies</span></a></li>
+          <li><a href="#cookie-settings" onclick="event.preventDefault();cookiePrefs()" style="cursor:pointer"><span class="lang-show-en">Cookie Settings</span></a></li>
           <li><a href="/affiliate-disclosure.html" data-i18n="footerAffiliate">Affiliate Disclosure</a></li>
         </ul>
       </div>
@@ -386,10 +386,10 @@
 
 <!-- Cookie Consent Banner -->
 <div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(calc(100% + 4px));transition:transform .3s ease">
-  <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize content, and analyze website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website's cookie use as described in our <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span><span class="cookie-lang-es">Usamos cookies esenciales para que nuestro sitio funcione. Con tu consentimiento, también podemos usar cookies no esenciales para mejorar la experiencia, personalizar contenido y analizar el tráfico. Por estas razones, podemos compartir tus datos de uso con nuestros socios de análisis. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies como se describe en nuestra <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Política de cookies</a>. Puedes cambiar tu configuración en cualquier momento haciendo clic en <strong>Preferencias</strong>.</span></p>
+  <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize content, and analyze website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website's cookie use as described in our <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span></p>
   <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap">
-    <button id="cb-prefs" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span><span class="cookie-lang-es">Preferencias</span></button>
-    <button id="cb-accept" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#2563eb;color:#fff"><span class="cookie-lang-en">Accept</span><span class="cookie-lang-es">Aceptar</span></button>
+    <button id="cb-prefs" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span></button>
+    <button id="cb-accept" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#2563eb;color:#fff"><span class="cookie-lang-en">Accept</span></button>
   </div>
 </div>
 
@@ -397,14 +397,14 @@
 <div id="cookie-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.85);align-items:center;justify-content:center;font-family:'Inter',sans-serif;transform:none!important">
   <div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0;position:relative">
     <button id="cm-close" style="position:absolute;top:16px;right:16px;background:none;border:none;color:#aaa;font-size:20px;cursor:pointer;line-height:1;padding:4px 8px">&times;</button>
-    <h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px"><span class="cookie-lang-en">Cookie Preferences</span><span class="cookie-lang-es">Preferencias de Cookies</span></h3>
-    <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6"><span class="cookie-lang-en">We use different types of cookies to optimize your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="/cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</span><span class="cookie-lang-es">Usamos diferentes tipos de cookies para optimizar tu experiencia. Haz clic en las categorías para conocer sus propósitos. Puedes elegir qué tipos de cookies permitir y cambiar tus preferencias en cualquier momento. Recuerda que deshabilitar cookies puede afectar tu experiencia. Puedes obtener más información visitando nuestra <a href="/cookie-policy.html" style="color:#60a5fa">Política de cookies</a>.</span></p>
+    <h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px"><span class="cookie-lang-en">Cookie Preferences</span></h3>
+    <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6"><span class="cookie-lang-en">We use different types of cookies to optimize your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="/cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</span></p>
     <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
       <div style="display:flex;align-items:flex-start;gap:10px">
         <input type="checkbox" checked disabled style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
         <div style="flex:1">
-          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Essential</span><span class="cookie-lang-es">Esenciales</span></strong>
-          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are necessary for the core functionality of our website and some of its features, such as access to secure areas.</span><span class="cookie-lang-es">Estas cookies son necesarias para la funcionalidad principal de nuestro sitio web y algunas de sus características, como el acceso a áreas seguras.</span></p>
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Essential</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are necessary for the core functionality of our website and some of its features, such as access to secure areas.</span></p>
         </div>
       </div>
     </div>
@@ -412,24 +412,24 @@
       <div style="display:flex;align-items:flex-start;gap:10px">
         <input type="checkbox" id="cm-analytics" checked aria-label="Enable analytics cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
         <div style="flex:1">
-          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span><span class="cookie-lang-es">Analíticas</span></strong>
-          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalized site experience for you.</span><span class="cookie-lang-es">Estas cookies recopilan información que nos ayuda a entender cómo se utilizan nuestros sitios web. También pueden usarse para medir la efectividad de nuestras campañas o para ofrecer una experiencia personalizada.</span></p>
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalized site experience for you.</span></p>
         </div>
       </div>
     </div>
-    
+
     <div style="padding:14px 0">
       <div style="display:flex;align-items:flex-start;gap:10px">
         <input type="checkbox" id="cm-affiliate" checked aria-label="Enable affiliate tracking cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
         <div style="flex:1">
-          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span><span class="cookie-lang-es">Seguimiento de Afiliados</span></strong>
-          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span><span class="cookie-lang-es">Estas cookies rastrean referencias a tiendas asociadas para que podamos ganar comisiones en compras.</span></p>
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span></p>
         </div>
       </div>
     </div>
     <div style="display:flex;gap:10px;margin-top:20px;justify-content:space-between;flex-wrap:wrap">
-      <button id="cm-decline" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap"><span class="cookie-lang-en">Decline All</span><span class="cookie-lang-es">Rechazar Todas</span></button>
-      <button id="cm-allow" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap"><span class="cookie-lang-en">Allow All</span><span class="cookie-lang-es">Permitir Todas</span></button>
+      <button id="cm-decline" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap"><span class="cookie-lang-en">Decline All</span></button>
+      <button id="cm-allow" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap"><span class="cookie-lang-en">Allow All</span></button>
     </div>
   </div>
 </div>
@@ -456,9 +456,6 @@
 })();
 </script>
 
-
-
 </body>
 </html>
-
 
