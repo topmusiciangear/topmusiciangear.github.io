@@ -774,7 +774,15 @@ function shopButtonsTest(p, lang) {
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
-  const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); return wrapAffiliate(k, u); };
+  const storeSearch = {
+    zzounds: () => 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '?tag=topmusicg-20',
+    amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '&tag=topmusicg-20',
+    reverb: () => revUrl,
+    gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title || ''),
+    andertons: () => 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(p.title || '') + '&irgwc=1&irpid=7292297',
+    musicstore: () => 'https://www.musicstore.com/en_GB/search?SearchText=' + encodeURIComponent(p.title || '')
+  };
+  const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   const isPlugins = p.category === 'plugins';
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
@@ -783,7 +791,7 @@ function shopButtonsTest(p, lang) {
   const pPrice = (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
   const zzoundsSearchUrl = 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '?tag=topmusicg-20';
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
-  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon) : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
+  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
   const primaryBtn =
