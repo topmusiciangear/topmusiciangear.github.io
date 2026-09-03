@@ -196,14 +196,16 @@ function setLang(lang) {
   } else {
     document.querySelector('meta[name="description"]').content = t("metaDescription");
     renderGuideGrid();
+    var onEsH = /^\/es(\/|$)/.test(window.location.pathname);
+    var esH = 'https://topmusiciangear.com/es/';
     var hl = document.querySelectorAll('link[rel="alternate"][hreflang]');
     hl.forEach(function(el) {
       if (el.getAttribute('hreflang') === 'en') el.href = 'https://topmusiciangear.com';
-      if (el.getAttribute('hreflang') === 'es') el.href = 'https://topmusiciangear.com';
+      if (el.getAttribute('hreflang') === 'es') el.href = esH;
       if (el.getAttribute('hreflang') === 'x-default') el.href = 'https://topmusiciangear.com';
     });
     var canon = document.querySelector('link[rel="canonical"]');
-    if (canon) canon.href = 'https://topmusiciangear.com';
+    if (canon) canon.href = onEsH ? esH : 'https://topmusiciangear.com';
   }
   renderAbout();
   updateAudioLabel();
@@ -469,7 +471,12 @@ function initLangSwitcher() {
   ).join("");
   container.addEventListener("click", e => {
     const btn = e.target.closest(".lang-btn");
-    if (btn) setLang(btn.dataset.lang);
+    if (!btn) return;
+    const t = btn.dataset.lang;
+    const onEs = /^\/es(\/|$)/.test(location.pathname);
+    if (t === 'es' && !onEs) { localStorage.setItem('lang', 'es'); location.href = '/es/'; return; }
+    if (t === 'en' && onEs) { localStorage.setItem('lang', 'en'); location.href = '/'; return; }
+    setLang(t);
   });
 }
 
@@ -1424,6 +1431,8 @@ document.addEventListener("DOMContentLoaded", () => {
     var pathMatch = window.location.pathname.match(/\/guides\/(.+?)\.html/);
     if (pathMatch) {
       currentLang = pathMatch[1].endsWith('_es') ? 'es' : 'en';
+    } else if (/^\/es(\/|$)/.test(window.location.pathname)) {
+      currentLang = "es";
     } else if (storedLang === 'es' || storedLang === 'en') {
       currentLang = storedLang;
     } else {
@@ -1442,7 +1451,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".cat-card").forEach(c => c.classList.toggle("active", c.dataset.cat === cat));
     renderGuideGrid();
     if (currentGuideId) {
-      history.replaceState({}, '', '/');
+      history.replaceState({}, '', (/^\/es(\/|$)/.test(location.pathname) ? '/es/' : '/'));
     }
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
@@ -1482,7 +1491,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGuideGrid();
     }
     if (catParam) {
-      history.replaceState({}, '', '/');
+      history.replaceState({}, '', (/^\/es(\/|$)/.test(location.pathname) ? '/es/' : '/'));
       window.filterCategory(catParam, { noScroll: true });
     } else {
       var goHome = null;
