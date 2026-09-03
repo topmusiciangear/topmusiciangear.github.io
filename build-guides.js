@@ -1401,14 +1401,14 @@ ${ogMeta}
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
       <div class="header-left">
-        <a href="/" class="logo">
+        <a href="${isEs ? '/es/' : '/'}" class="logo">
           <span class="logo-icon"><img src="/img/favicon.png?v=2" alt="TMG" style="width:36px;height:36px;border-radius:8px"></span>
           <div class="logo-text">
             <span>Top</span>MusicianGear
           </div>
         </a>
         <nav aria-label="Main navigation">
-          <a href="/#guides" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
+          <a href="${isEs ? '/es/#guides' : '/#guides'}" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
           <a href="/deals.html" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
           ${navDropdown(isEs)}
         </nav>
@@ -1450,7 +1450,7 @@ ${ogMeta}
   </header>
 
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" href="/#guides">${isEs ? 'Guías' : 'Guides'}</a>
+    <a class="nav-link" href="${isEs ? '/es/#guides' : '/#guides'}">${isEs ? 'Guías' : 'Guides'}</a>
     ${navDropdown(isEs)}
   </div>
 
