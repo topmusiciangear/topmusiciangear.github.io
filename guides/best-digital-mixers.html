@@ -693,6 +693,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     var pb=c.querySelector('.shop-btn-primary');
     if(!pb)return;
     var curStore=pb.getAttribute('data-store')||'';
+    if(curStore==='pluginboutique')return;
     var zRow=c.querySelector('[data-store="zzounds"]');
     if(!zRow){
       var ml=c.querySelector('.shop-more-list');
