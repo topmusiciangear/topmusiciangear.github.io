@@ -779,8 +779,14 @@ const TEST_SHOP_BTN = {
   448: {prices:{amazon:"$209.99",zzounds:"$209.99",gear4music:"£189.00",musicstore:"€166.40",andertons:"£198.00"}},
   449: {prices:{amazon:"$149.99",musicstore:"€133.60",andertons:"£139.00"}},
   450: {prices:{amazon:"$79.00",zzounds:"$79.00"}},
-  451: {prices:{amazon:"$229.00",gear4music:"£199.00",musicstore:"€209.20",andertons:"£199.00"},oos:["zzounds"]}
-};;;;
+  451: {prices:{amazon:"$229.00",gear4music:"£199.00",musicstore:"€209.20",andertons:"£199.00"},oos:["zzounds"]},
+  452: {prices:{zzounds:"$4,599.99",amazon:"$4,399.00",gear4music:"£4,749.00",andertons:"£4,599.00"},oos:["gear4music"]},
+  453: {prices:{andertons:"£6,799.00"},oos:["amazon"]},
+  454: {prices:{zzounds:"$5,999.00",gear4music:"£4,499.00"},oos:["amazon","gear4music"]},
+  455: {prices:{zzounds:"$8,999.00",gear4music:"£7,499.00"},oos:["amazon"]},
+  456: {prices:{zzounds:"$4,999.00",gear4music:"£4,599.00",andertons:"£4,199.00",musicstore:"€3,734.50"},oos:["amazon","gear4music"]},
+  457: {prices:{zzounds:"$5,699.00",gear4music:"£4,499.00",andertons:"£5,699.00",musicstore:"€4,031.90"},oos:["amazon"]}
+ };;;;
 
 function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};

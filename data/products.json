@@ -9552,5 +9552,147 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/L-R-Baggs-Para-Acoustic-DI-Preamp-EQ-DI-Box/art-GIT0015858-000",
       "reverb": "https://reverb.com/p/lr-baggs-para-di"
     }
+  },
+  {
+    "id": 452,
+    "title": "Martin D-28 Modern Deluxe",
+    "title_es": "Martin D-28 Modern Deluxe",
+    "brand": "Martin",
+    "category": "guitars",
+    "desc": "The elite of traditional tone. This Modern Deluxe takes the legendary D-28 and refines it with a thermally aged (VTS) Adirondack spruce top, a titanium two-way truss rod, liquid metal bridge pins and hide glue construction. Aging toner, gloss finish and antique white binding give it a vintage soul with modern playability and volume, projection and bass response that have to be heard to be believed.",
+    "desc_es": "La élite del tono tradicional. Esta Modern Deluxe toma la legendaria D-28 y la perfecciona con tapa de abeto Adirondack termotratada (VTS), barra de armadura de titanio de dos vías, pines de puente de metal líquido y construcción con cola de hueso. El toner de envejecido, el acabado brillante y el binding blanco antiguo le dan alma vintage con el rendimiento y la comodidad modernos, y un volumen, una proyección y un grave que hay que escuchar para creerlos.",
+    "img": "https://r2.gear4music.com/media/46/462186/1200/preview_1.jpg",
+    "price": 4599.99,
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B07MCWZRWS",
+      "zzounds": "https://www.zzounds.com/item--MRTD28MD",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28-Modern-Deluxe/2WVL",
+      "andertons": "https://www.andertons.co.uk/martin-d28-modern-deluxe-vts-top",
+      "reverb": "https://reverb.com/p/martin-d-28-modern-deluxe"
+    },
+    "oos": [
+      "gear4music"
+    ],
+    "excludeStores": [
+      "musicstore"
+    ]
+  },
+  {
+    "id": 453,
+    "title": "Martin OM-42",
+    "title_es": "Martin OM-42",
+    "brand": "Martin",
+    "category": "guitars",
+    "desc": "Style 42 taken to its most balanced expression. The Orchestra Model OM-42 pairs a solid Sitka spruce or Adirondack top with East Indian rosewood back and sides, wrapped in exquisite Style 42 abalone pearl trim, gold hardware and a 1 3/4\" modified V neck. Its balanced, articulate voice loves fingerstyle and studio session work, with plenty of headroom and a feather-light response that rewards every nuance.",
+    "desc_es": "El estilo 42 en su expresión más equilibrada. El OM-42 del modelo Orquesta combina una tapa sólida de abeto Sitka o Adirondack con fondo y aros de palo rosa de la India, envuelta en el exquisito fileteado de nácar estilo 42, herrajes dorados y un mástil modificado en V de 44,5 mm. Su voz equilibrada y articulada es perfecta para fingerstyle y trabajo de sesión en estudio, con mucha cabeza dinámica y una respuesta ligera que premia cada matiz.",
+    "img": "https://www.martinguitar.com/on/demandware.static/-/Sites-martin-master-catalog/default/dw7f293b91/images/OM-42/10Y25OM42/10Y25OM42_f.jpg",
+    "price": 6699.99,
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B079V26HMV",
+      "andertons": "https://www.andertons.co.uk/martin-om-42-re-imagined-acoustic",
+      "reverb": "https://reverb.com/p/martin-om-42"
+    },
+    "oos": [
+      "amazon"
+    ],
+    "excludeStores": [
+      "zzounds",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 454,
+    "title": "Taylor 914ce Builder's Edition",
+    "title_es": "Taylor 914ce Builder's Edition",
+    "brand": "Taylor",
+    "category": "guitars",
+    "desc": "The pinnacle of modern engineering. The Builder's Edition 914ce pairs a sinker redwood top with Honduran rosewood back and sides, driven by Taylor's V-Class bracing for longer sustain and more volume. A sculpted armrest, beveled cutaway and West African ebony binding make it as comfortable as it is gorgeous, with the ES2 electronics capturing every detail on stage or in the studio.",
+    "desc_es": "La cúspide de la ingeniería moderna. La Builder's Edition 914ce combina una tapa de secuoya roja hundida (sinker redwood) con fondo y aros de palo rosa de Honduras, impulsada por el varetaje V-Class de Taylor para más sustain y volumen. El apoyabrazos esculpido, el cutaway biselado y el ribete de ébano de África Occidental la hacen tan cómoda como hermosa, con la electrónica ES2 capturando cada detalle en el escenario o en el estudio.",
+    "img": "https://r2.gear4music.com/media/130/1306937/1200/preview.jpg",
+    "price": 5999,
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0D777R4L2",
+      "zzounds": "https://www.zzounds.com/item--TAYBE914CE",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Taylor-Builders-Edition-914ce-Sinker-Redwood-Top-Honduran-Rosewood-Back-and-Sides/7M78",
+      "reverb": "https://reverb.com/p/taylor-914ce-builder-s-edition"
+    },
+    "oos": [
+      "amazon",
+      "gear4music"
+    ],
+    "excludeStores": [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 455,
+    "title": "Taylor PS14ce Presentation Series",
+    "title_es": "Taylor PS14ce Presentation Series",
+    "brand": "Taylor",
+    "category": "guitars",
+    "desc": "Ultra-luxury with nothing left to wish for. The PS14ce from Taylor's Presentation Series marries exotic, museum-grade woods — sinker redwood top over a stunning Honduran rosewood back and sides — with the precision of V-Class bracing and the expressive ES2 pickup. Every guitar is a handcrafted showpiece with a resonant, articulate voice that sounds as expensive as it looks.",
+    "desc_es": "Ultralujo sin nada que desear. La PS14ce de la serie Presentation de Taylor une maderas exóticas de calidad de museo — tapa de secuoya roja hundida sobre un espectacular fondo y aros de palo rosa de Honduras — con la precisión del varetaje V-Class y la expresiva pastilla ES2. Cada guitarra es una pieza artesanal con una voz resonante y articulada que suena tan cara como se ve.",
+    "img": "https://r2.gear4music.com/media/131/1312861/1200/preview.jpg",
+    "price": 8999,
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0BD48TMYK",
+      "zzounds": "https://www.zzounds.com/item--TAYPS14CEV2",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Taylor-Presentation-PS14ce-Electro-Acoustic-Honduran-Rosewood-Adirondack-Spruce-1210053075/7N5S",
+      "reverb": "https://reverb.com/p/taylor-ps14ce"
+    },
+    "oos": [
+      "amazon"
+    ],
+    "excludeStores": [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 456,
+    "title": "Gibson Custom Shop 1942 Banner J-45",
+    "title_es": "Gibson Custom Shop 1942 Banner J-45",
+    "brand": "Gibson",
+    "category": "guitars",
+    "desc": "A warhorse reborn in Bozeman. The Historic 1942 Banner J-45 recreates the fabled wartime acoustic with a thermally aged Adirondack red spruce top and hide glue construction for that warm, wooly, deeply romantic pre-war tone that made the J-45 a studio and stage staple. Handcrafted in the Gibson Custom Shop, it is the banner J-45 players have chased for decades.",
+    "desc_es": "Un caballo de batalla renacido en Bozeman. La Historic 1942 Banner J-45 recrea la célebre acústica de la guerra con tapa de abeto rojo Adirondack termotratado y construcción con cola de hueso para lograr ese tono cálido, aterciopelado y profundamente romántico de preguerra que convirtió a la J-45 en un clásico de estudio y escenario. Hecha a mano en el Custom Shop de Gibson, es la banner J-45 que los músicos han perseguido durante décadas.",
+    "img": "https://r2.gear4music.com/media/53/533911/1200/preview.jpg",
+    "price": 4999,
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B001R2ITEE",
+      "zzounds": "https://www.zzounds.com/item--GIBCSRS4542",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Gibson-1942-Banner-J-45-Vintage-Sunburst/39E5",
+      "andertons": "https://www.andertons.co.uk/gibson-montana-1942-banner-j-45-vintage-sunburst",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Gibson-1942-Banner-J-45-VS/art-GIT0051865-000",
+      "reverb": "https://reverb.com/p/gibson-1942-banner-j-45"
+    },
+    "oos": [
+      "amazon",
+      "gear4music"
+    ]
+  },
+  {
+    "id": 457,
+    "title": "Gibson SJ-200",
+    "title_es": "Gibson SJ-200",
+    "brand": "Gibson",
+    "category": "guitars",
+    "desc": "The King of the Flat-Tops. Fifty years after it graced the fingers of Elvis Presley and Bob Dylan, the SJ-200 remains the most iconic jumbo acoustic ever made. Its flame maple back and sides and hand-scalloped Sitka spruce top deliver a huge, crystalline, studio-grade voice, while the legendary mustache bridge and moustache pickguard seal its unmistakable silhouette.",
+    "desc_es": "El Rey de las Flat-Tops. Cincuenta años después de pasar por las manos de Elvis Presley y Bob Dylan, la SJ-200 sigue siendo la jumbo acústica más icónica jamás fabricada. Su fondo y aros de arce flameado y su tapa de abeto Sitka con varetaje tallado a mano ofrecen una voz enorme, cristalina y de calidad de estudio, mientras que su legendario puente de bigotes y su púa característica sellan su silueta inconfundible.",
+    "img": "https://r2.gear4music.com/media/53/534787/1200/preview.jpg",
+    "price": 5699,
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0CTKDGRHP",
+      "zzounds": "https://www.zzounds.com/item--GIBMCJB20",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Gibson-SJ-200-Original-Antique-Natural/39DQ",
+      "andertons": "https://www.andertons.co.uk/gibson-sj-200-standard-electro-acoustic-guitar-in-classic-white",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Gibson-SJ-200-Standard-Maple-Tri-Burst/art-GIT0062717-000",
+      "reverb": "https://reverb.com/p/gibson-sj-200"
+    },
+    "oos": [
+      "amazon"
+    ]
   }
 ]
