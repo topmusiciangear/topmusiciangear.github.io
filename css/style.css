@@ -2273,8 +2273,6 @@ footer ul li a:hover { color: var(--accent); }
   grid-template-columns: 1fr 1fr;
   gap: 0;
   margin-top: 14px;
-  padding-top: 14px;
-  border-top: 1px solid rgba(59,130,246,.15);
 }
 
 .verdict-col {
