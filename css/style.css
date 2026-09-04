@@ -2281,15 +2281,12 @@ footer ul li a:hover { color: var(--accent); }
   min-width: 0;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(59,130,246,.15);
 }
 
 .verdict-col:nth-child(odd) {
   border-right: 1px solid rgba(59,130,246,.15);
-}
-
-.verdict-col:nth-child(even) {
-  padding-top: 20px;
-  border-top: 1px solid rgba(59,130,246,.15);
 }
 
 .verdict-product-name {
