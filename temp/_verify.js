@@ -1,0 +1,12 @@
+const path = require('path');
+const g = require(path.join(__dirname, '..', 'data', 'guides.json'));
+const x = g.find(v => v.id === 'best-beginner-electric-guitar');
+console.log('featuredProducts:', JSON.stringify(x.featuredProducts));
+x.sections.forEach((s, i) => console.log(i, JSON.stringify(s.products), '|', s.heading.slice(0, 55)));
+const bad = x.sections.flatMap(s => s.products).filter(p => [6, 7, 9, 10].indexOf(p) > -1);
+console.log('pro refs in sections:', JSON.stringify(bad));
+console.log('table cols:', x.productTable.columns.map(c => c.title));
+console.log('proscons:', x.verdictProsCons.map(v => v.name));
+const html = JSON.stringify(x);
+const proModels = ['American Professional II', 'Les Paul Standard', 'RG550', 'McCarty'];
+proModels.forEach(m => console.log('contains "' + m + '":', html.indexOf(m) > -1));

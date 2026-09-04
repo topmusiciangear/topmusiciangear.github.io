@@ -789,10 +789,11 @@ const TEST_SHOP_BTN = {
    458: {prices:{amazon:"$199.99"},oos:["gear4music"]},
     459: {prices:{zzounds:"$199.99",amazon:"$149.99",gear4music:"£125.50"}},
     460: {prices:{zzounds:"$229.99",gear4music:"£219.00"},oos:["amazon"]},
-    461: {prices:{amazon:"$169.00",gear4music:"£155.00"},oos:["zzounds"]}
-  };;;;
-
-function shopButtonsTest(p, lang) {
+      461: {prices:{amazon:"$169.00",gear4music:"£155.00"},oos:["zzounds"]},
+  462: {prices:{gear4music:"£159.00",amazon:"$249.99",zzounds:"$219.99",andertons:"£159.00"}},
+  463: {prices:{gear4music:"£199.00",andertons:"£209.00",musicstore:"€211.00",zzounds:"$229.99"}},
+  464: {prices:{gear4music:"£439.00",andertons:"£399.00",zzounds:"$549.99",amazon:"$539.99"}}
+  };function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
   const prices = cfg.prices || {};
   const stores = getResolvedStores(p);
@@ -1691,7 +1692,9 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     pb.insertAdjacentHTML('beforebegin',newPrimary);
     pb.remove();
     if(ml&&curStore==='amazon'&&!ml.querySelector('[data-store="amazon"]')){
-      var amazonRow='<a data-store="amazon" href="'+aUrl+'" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">'+globe+'Amazon</span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span></a>';
+      var aPrice='';var aMatch=pb.innerHTML.match(/- ([$\u00a3\u20ac][0-9.,]+)/);if(aMatch)aPrice=aMatch[1];
+      var amazonPrice=aPrice?'<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+aPrice+'</span></span>':'';
+      var amazonRow='<a data-store="amazon" href="'+aUrl+'" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">'+globe+'Amazon</span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span>'+amazonPrice+'</a>';
       ml.insertAdjacentHTML('afterbegin',amazonRow);
     }
   });
