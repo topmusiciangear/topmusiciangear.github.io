@@ -922,7 +922,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
   if(quick){doSwap(quick);return;}
   try{
     var cached=localStorage.getItem('tmgGeoSwap');
-    if(cached){if(cached!=='none')doSwap(cached);return;}
+    if(cached&&cached!=='none')doSwap(cached);
   }catch(e){}
   var x=new XMLHttpRequest();
   x.open('GET','https://ipinfo.io/json',true);
