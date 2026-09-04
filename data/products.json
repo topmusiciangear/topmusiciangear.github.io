@@ -9873,5 +9873,55 @@
       "reverb"
     ],
     "oos": []
+  },
+  {
+    "id": 465,
+    "title": "Epiphone Les Paul Special-II E1",
+    "title_es": "Epiphone Les Paul Special-II E1",
+    "brand": "Epiphone",
+    "category": "guitars",
+    "price": 219,
+    "rating": 4.6,
+    "reviews": 412,
+    "badge": "recommended",
+    "desc": "The Epiphone Les Paul Special-II E1 is the cheapest real Les Paul-style guitar you can buy without compromising on the classic recipe. A solid mahogany body and bolt-on mahogany neck with a 1960s SlimTaper \"D\" profile feel vintage and comfortable, while the 700T and 650R open-coil Alnico humbuckers deliver warm, expressive humbucker tone for rock, blues and classic styles. The tune-o-matic bridge with stopbar adds sustain and rock-solid tuning, all at a price that keeps it firmly in beginner territory — the perfect counterweight to the Fender-style pick in this guide.",
+    "desc_es": "La Epiphone Les Paul Special-II E1 es la Les Paul de verdad más barata que puedes comprar sin renunciar a la receta clásica. Un cuerpo sólido de caoba y mástil de caoba atornillado con perfil SlimTaper \"D\" de los 60 ofrecen una sensación vintage y cómoda, mientras que las humbuckers de bobina abierta 700T y 650R de Alnico dan un tono cálido y expresivo para rock, blues y estilos clásicos. El puente tune-o-matic con tope añade sustain y afinación estable, todo a un precio firmemente de principiante: el contrapeso perfecto a la opción de estilo Fender de esta guía.",
+    "img": "https://r2.gear4music.com/media/103/1037208/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/G4M/Epiphone-Les-Paul-Special-II-Electric-Guitar-Vintage-Sunburst/6753",
+      "amazon": "https://www.amazon.com/Epiphone-SPECIAL-II-Electric-Vintage-Sunburst/dp/B0002CZUV0"
+    },
+    "excludeStores": [
+      "andertons",
+      "musicstore",
+      "zzounds",
+      "reverb"
+    ],
+    "oos": []
+  },
+  {
+    "id": 466,
+    "title": "Jet Guitars JS-300",
+    "title_es": "Jet Guitars JS-300",
+    "brand": "Jet",
+    "category": "guitars",
+    "price": 179,
+    "rating": 4.5,
+    "reviews": 78,
+    "badge": "recommended",
+    "desc": "The Jet Guitars JS-300 is the budget Strat-style that punches far above its class thanks to a genuinely special neck. The Canadian roasted maple neck and roasted maple fingerboard are heat-treated for stability and a smooth, premium feel you rarely find at this price, and the bone nut improves open-string resonance and tuning stability. A basswood body, Modern C profile and 9.5-inch radius make it comfortable for beginners, while the three ceramic single-coils and synchronized tremolo deliver classic Strat tones. An easy-to-mod platform with locked-in value.",
+    "desc_es": "La Jet Guitars JS-300 es la Strat económica que rinde muy por encima de su clase gracias a un mástil realmente especial. El mástil de arce canadiense tostado y el diapasón de arce tostado están tratados con calor para lograr estabilidad y una sensación premium y suave que rara vez se encuentra a este precio, y la cejuela de hueso mejora la resonancia de las cuerdas al aire y la estabilidad de afinación. Un cuerpo de tilo, perfil C moderno y radio de 9,5\" la hacen cómoda para principiantes, mientras que las tres single coils cerámicas y el trémolo sincronizado dan el sonido Strat clásico. Una plataforma fácil de modificar con valor a prueba de balas.",
+    "img": "https://r2.gear4music.com/media/102/1029919/1200/preview_2.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/JET-Guitars-JS-300-Roasted-Maple-Black/57MC"
+    },
+    "excludeStores": [
+      "amazon",
+      "andertons",
+      "musicstore",
+      "zzounds",
+      "reverb"
+    ],
+    "oos": []
   }
 ]
