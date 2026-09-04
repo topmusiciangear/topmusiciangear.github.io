@@ -653,7 +653,7 @@ const TEST_SHOP_BTN = {
   313: {prices:{gear4music:"£149.00",amazon:"$249.99",zzounds:"$249.99",andertons:"£139.00",musicstore:"€159.00"}},
   314: {prices:{gear4music:"£398.00",amazon:"$419.99",musicstore:"€335.29"},oos:["andertons"]},
   315: {prices:{gear4music:"£295.00",amazon:"$259.99",zzounds:"$259.99",andertons:"£299.00",musicstore:"€293.28"}},
-  316: {prices:{amazon:"$449.99",zzounds:"$449.99",andertons:"£449.00",musicstore:"€412.27"}},
+  316: {prices:{amazon:"$449.99",zzounds:"$449.99",andertons:"£449.00",musicstore:"€412.27",gear4music:"£419.00"}},
   317: {prices:{zzounds:"$1,149.00",andertons:"£1,199.00"},oos:["gear4music"]},
   318: {prices:{gear4music:"£1,690.00",amazon:"$2,199.99",zzounds:"$2,199.99",andertons:"£1,699.00",musicstore:"€1,482.27"}},
   319: {prices:{amazon:"$2,275.00",zzounds:"$2,629.00",andertons:"£2,199.00"},urls:{gear4music:"https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-Tobacco-Sunburst/273H",musicstore:"€1,847.90"}},
