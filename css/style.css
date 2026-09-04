@@ -2287,7 +2287,7 @@ footer ul li a:hover { color: var(--accent); }
   border-right: 1px solid rgba(59,130,246,.15);
 }
 
-.verdict-col:nth-child(even) {
+.verdict-col:nth-child(n+3) {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid rgba(59,130,246,.15);
