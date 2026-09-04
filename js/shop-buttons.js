@@ -386,7 +386,7 @@ const TEST_SHOP_BTN = {
   360: {prices:{amazon:"$1,499.00",zzounds:"$1,499.00",musicstore:"€1,368.90"},oos:["andertons"]},
   361: {prices:{gear4music:"£886.00",amazon:"$999.00",zzounds:"$999.99",andertons:"£829.00",musicstore:"€755.46"}},
   362: {prices:{amazon:"$649.00",zzounds:"$649.00",andertons:"£479.00",gear4music:"£419.00",musicstore:"€377.31"}},
-  363: {prices:{amazon:"$279.99",zzounds:"$279.99",gear4music:"£222.00",andertons:"£209.00",musicstore:"€219.33"}},
+  363: {prices:{amazon:"$279.99",zzounds:"$279.99",gear4music:"£222.00",andertons:"£209.00",musicstore:"€269.00"}},
   364: {prices:{amazon:"$499.00",zzounds:"$499.00",andertons:"£549.00",gear4music:"£499.00",musicstore:"€461.34"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/beyerdynamic-M160-Double-Ribbon-Microphone/92T"}},
   365: {prices:{amazon:"$477.73",zzounds:"$519.00",andertons:"£466.00",gear4music:"£466.00",musicstore:"€436.13"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/sE-Electronics-VR2-Voodoo-Active-Ribbon-Mic/DRQ",zzounds:"https://www.zzounds.com/item--SEEVR2"}},
   366: {prices:{amazon:"$99.95",zzounds:"$99.95",musicstore:"€116.81"},oos:["andertons"]},
@@ -516,6 +516,29 @@ function wrapAffiliate(storeKey, url) {
   if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=' + encodeURIComponent(url);
   if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
   return url;
+}
+
+
+function normalizeMusicStore(url) {
+  if (!url) return url;
+  if (url.indexOf('awin1.com') >= 0) {
+    const m = url.match(/ued=([^&]+)/);
+    if (!m) return url;
+    const inner = decodeURIComponent(m[1]);
+    const norm = normalizeMusicStoreInner(inner);
+    return url.replace(m[1], encodeURIComponent(norm));
+  }
+  return normalizeMusicStoreInner(url);
+}
+
+function normalizeMusicStoreInner(u) {
+  if (u.indexOf('musicstore.com/') < 0) { u = u.replace(/https?:\/\/www\.musicstore\.de\//, 'https://www.musicstore.com/'); }
+  if (u.indexOf('www.musicstore.com/') < 0) return u;
+  const withCurrency = /musicstore\.com\/[A-Za-z]{2}_[A-Za-z]{2}\/[A-Za-z]{3}\//;
+  if (withCurrency.test(u)) return u.replace(withCurrency, 'musicstore.com/en_OE/EUR/');
+  const localeOnly = /musicstore\.com\/[A-Za-z]{2}_[A-Za-z]{2}\//;
+  if (localeOnly.test(u)) return u.replace(localeOnly, 'musicstore.com/en_OE/EUR/');
+  return u;
 }
 
 

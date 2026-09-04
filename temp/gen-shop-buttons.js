@@ -40,6 +40,14 @@ var wrapStart = src.indexOf('function wrapAffiliate(');
 var wrapEnd = src.indexOf('\nfunction ', wrapStart + 10);
 var wrapFn = src.substring(wrapStart, wrapEnd);
 
+// Extract normalizeMusicStore + normalizeMusicStoreInner functions
+var nmsInnerStart = src.indexOf('function normalizeMusicStoreInner(');
+var nmsInnerEnd = src.indexOf('\nfunction ', nmsInnerStart + 10);
+var nmsInnerFn = src.substring(nmsInnerStart, nmsInnerEnd);
+var nmsStart = src.indexOf('function normalizeMusicStore(');
+var nmsEnd = src.indexOf('\nfunction ', nmsStart + 10);
+var nmsFn = src.substring(nmsStart, nmsEnd);
+
 // Extract getResolvedStores function
 var grsStart = src.indexOf('function getResolvedStores(');
 var grsEnd = src.indexOf('\nfunction ', grsStart + 10);
@@ -127,6 +135,10 @@ ${shortTitleFn}
 ${pbAffFn}
 
 ${wrapFn}
+
+${nmsFn}
+
+${nmsInnerFn}
 
 ${grsFn}
 
