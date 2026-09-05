@@ -79,7 +79,7 @@ const guideExpectedCategories = {
   'precision-vs-jazz': ['basses'],
   'fender-bass-guide': ['basses'],
   'beginner-bass-guitars': ['basses'],
-  'best-electric-under-500': ['basses'],
+  'best-bass-under-700': ['basses'],
   'budget-bass-like-expensive': ['basses'],
   
   // Keyboards

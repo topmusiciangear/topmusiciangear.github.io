@@ -9,7 +9,7 @@ var relatedMap = {
   "pro-microphones": ["budget-mics", "usb-mics", "stage-mics", "best-condenser-mics", "best-microphone", "sm57-vs-sm58"],
   "pro-monitors": ["budget-monitors", "best-monitors", "monitor-setup", "studio-subwoofers", "small-room-monitors", "hs8-vs-rokit-7"],
   "pro-interfaces": ["budget-interfaces", "best-interface", "portable-interfaces", "scarlett-vs-ssl", "scarlett-vs-volt", "apollo-vs-babyface"],
-  "pro-guitars": ["best-electric-guitar", "beginner-guitar", "fender-guide", "american-pro-vs-les-paul", "player-strat-vs-pacifica", "best-electric-under-500"],
+  "pro-guitars": ["best-electric-guitar", "beginner-guitar", "fender-guide", "american-pro-vs-les-paul", "player-strat-vs-pacifica", "best-bass-under-700"],
   "pro-synths": ["best-synthesizers", "best-keyboard", "nord-stage-4-vs-montage-m8x", "best-digital-pianos"],
   "pro-drum-machines": ["best-drum-machine", "best-grooveboxes", "digitakt-ii-vs-tr8s", "beat-making"],
   "pro-plugins": ["best-plugins", "mixing-plugins", "fx-plugins", "vocal-plugins", "channel-strip-plugins", "fabfilter-vs-ozone"],

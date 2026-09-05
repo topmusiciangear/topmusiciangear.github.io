@@ -170,7 +170,7 @@ removeProduct('guitar-bass-amps', 1, 295); // Enya Nova Go Sonic
 // 33. best-guitar-home-office: amps (sections 3 and 4 are dedicated amp sections, keep sec 10 for context)
 // Actually, amps DO belong in a guitar home office guide — they're part of the setup
 
-// 34. best-electric-under-500: this IS a bass guide despite the name — keep basses
+// 34. best-bass-under-700: this IS a bass guide despite the name — keep basses
 // (name is misleading but content is correct)
 
 // 35. beginner-bass-guitars: this IS a bass guide — all basses are correct
@@ -234,7 +234,7 @@ removeProduct('guitar-bass-amps', 1, 295); // Enya Nova Go Sonic
 // 55. fender-bass-guide: guitars category basses — these ARE basses
 // Keep all — they're all Fender bass guitars
 
-// 56. best-electric-under-500: bass category basses — keep all (bass guide)
+// 56. best-bass-under-700: bass category basses — keep all (bass guide)
 
 // 57. beginner-bass-guitars: bass/guitars category — keep all (bass guide)
 

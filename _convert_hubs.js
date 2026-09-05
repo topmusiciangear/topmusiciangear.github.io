@@ -10,8 +10,8 @@ const guides = JSON.parse(fs.readFileSync(guidesPath, 'utf8'));
 const productMoves = [
   // Guitars from best-electric-guitar → best-electric-guitars-2026
   { from: 'best-electric-guitar', to: 'best-electric-guitars-2026', products: [317, 318, 319, 320] },
-  // Bass from beginner-bass-guitars → best-electric-under-500
-  { from: 'beginner-bass-guitars', to: 'best-electric-under-500', products: [326] },
+  // Bass from beginner-bass-guitars → best-bass-under-700
+  { from: 'beginner-bass-guitars', to: 'best-bass-under-700', products: [326] },
   // Streaming interfaces → stream-controllers
   { from: 'streaming-interfaces', to: 'stream-controllers', products: [239, 240, 327] },
   // UA Volt 276 → best-interface

@@ -41,8 +41,8 @@ Object.entries(hubProducts).forEach(([id, sectionProducts]) => {
 // ── BUTTON LINKS FOR EACH HUB ──
 const hubButtons = {
   'best-electric-guitar': {
-    0: [{href:'/guides/best-beginner-electric-guitar.html',text:'best beginner electric guitars'},{href:'/guides/best-electric-under-500.html',text:'best guitars under $500'}],
-    1: [{href:'/guides/best-electric-under-500.html',text:'best guitars under $500'},{href:'/guides/player-strat-vs-pacifica.html',text:'Player Strat vs Pacifica'}],
+    0: [{href:'/guides/best-beginner-electric-guitar.html',text:'best beginner electric guitars'},{href:'/guides/best-bass-under-700.html',text:'best basses under $700'}],
+    1: [{href:'/guides/best-bass-under-700.html',text:'best basses under $700'},{href:'/guides/player-strat-vs-pacifica.html',text:'Player Strat vs Pacifica'}],
     2: [{href:'/guides/pro-guitars.html',text:'professional guitar guide'},{href:'/guides/american-pro-vs-les-paul.html',text:'American Pro II vs Les Paul'}],
     3: [{href:'/guides/best-guitar-home-office.html',text:'best guitars for home recording'}]
   },
@@ -52,7 +52,7 @@ const hubButtons = {
     2: [{href:'/guides/acoustic-guitars-guide.html',text:'acoustic guitar guide'}]
   },
   'beginner-bass-guitars': {
-    0: [{href:'/guides/best-electric-under-500.html',text:'best basses under $500'},{href:'/guides/precision-vs-jazz.html',text:'Precision vs Jazz bass'},{href:'/guides/fender-bass-guide.html',text:'Fender bass guide'}]
+    0: [{href:'/guides/best-bass-under-700.html',text:'best basses under $700'},{href:'/guides/precision-vs-jazz.html',text:'Precision vs Jazz bass'},{href:'/guides/fender-bass-guide.html',text:'Fender bass guide'}]
   },
   'best-interface': {
     0: [{href:'/guides/budget-interfaces.html',text:'best budget interfaces'},{href:'/guides/scarlett-vs-volt.html',text:'Scarlett vs Volt'},{href:'/guides/scarlett-vs-ssl.html',text:'Scarlett vs SSL'}],

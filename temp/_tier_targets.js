@@ -1,6 +1,6 @@
 const path = require('path');
 const guides = require(path.join(__dirname, '..', 'data', 'guides.json'));
-const targets = ['best-electric-guitars-2026', 'best-electric-guitar', 'pro-guitars', 'best-electric-under-500', 'american-pro-vs-les-paul'];
+const targets = ['best-electric-guitars-2026', 'best-electric-guitar', 'pro-guitars', 'best-bass-under-700', 'american-pro-vs-les-paul'];
 targets.forEach(id => {
   const g = guides.find(v => v.id === id);
   if (!g) { console.log(id, 'NOT FOUND'); return; }

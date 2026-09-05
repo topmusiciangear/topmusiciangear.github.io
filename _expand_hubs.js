@@ -66,9 +66,9 @@ const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
   });
 }
 
-// ========== 3. best-electric-under-500 ==========
+// ========== 3. best-bass-under-700 ==========
 {
-  const h = g.find(x => x.id === 'best-electric-under-500');
+  const h = g.find(x => x.id === 'best-bass-under-700');
   // Overwrite thin sections with richer content
   h.sections[0] = {
     heading: "What Makes a Great Electric Guitar Under $500?",
@@ -291,7 +291,7 @@ fs.writeFileSync('data/guides.json', JSON.stringify(g, null, 2));
 console.log('All 13 hubs expanded with new sections');
 
 // Verify content growth
-const ids = ['live-sound-pa','best-digital-mixers','best-electric-under-500','best-looper-pedals','ts9-vs-bd2','best-drum-machine','best-practice-amps','best-overdrive-distortion','best-pa-speakers','best-digital-pianos','me90-vs-mx5','pro-guitars','pro-basses'];
+const ids = ['live-sound-pa','best-digital-mixers','best-bass-under-700','best-looper-pedals','ts9-vs-bd2','best-drum-machine','best-practice-amps','best-overdrive-distortion','best-pa-speakers','best-digital-pianos','me90-vs-mx5','pro-guitars','pro-basses'];
 ids.forEach(id => {
   const h = g.find(x => x.id === id);
   const total = [h.intro, ...h.sections.map(s => s.content)].join('').length;
