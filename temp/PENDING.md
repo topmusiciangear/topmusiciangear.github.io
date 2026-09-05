@@ -4,10 +4,9 @@
 - Las traducciones word-for-word suenan a IA y se leen fatal en español (ejemplo citado por el usuario: el intro ES de studio-subwoofers-setup).
 - REGLA PERMANENTE: cualquier texto ES debe escribirse directamente en español natural de cero, no como calco del inglés.
 
-## 0.1) REESCRIBIR el español de la guía studio-subwoofers-setup (EN y ES)
-- Hacerlo cuando termine la tarea actual (usuario: "apuntalo para hacerlo cuando termines").
-- Revisar con calma y en profundidad CADA texto de ESTA guía (intro, secciones, FAQ, conclusiones — páginas guides/studio-subwoofers-setup.html y _es.html; texto fuente en data/guides.json entry studio-subwoofers-setup).
-- El intro actual "Añadir un subwoofer a una cadena de monitoreo profesional es fácil — lograr que se integre sin costuras..." es un ejemplo del problema: literal, no se entiende, se ve feo.
+## 0.1) REESCRIBIR el español de la guía studio-subwoofers-setup (DONE 05/09/2026)
+- Completada: intro, titles/headings, todos los section content_es (KH 810 II, KH 750 DSP, ATC, PMC, Dynaudio, Genelec, crossover, fase), conclusion_es, verdict_es, featuredSnippet text_es, pros/cons_es PMC y faq_a2_es reescritos en español natural.
+- Cambios clave: "se integre sin costuras"→"se funda con tus monitores"; "cómo posicionarlo... y elegir graves de gama alta" (título, se mantuvo); eliminados "brief scan", "lo más parecido a un atajo", "fase escalonada", "Escucha la costura", "está construido como el mobiliario que se supone que es", "es la elección flagship", "filtros de límite", "te da el 80% del camino".
 
 ## 1) Waves SSL G-Master Buss Compressor — fix product 119 (DONE, local)
 - Modeled from the SSL 4000 G console's master buss compressor; "the sound of a million hit records".
