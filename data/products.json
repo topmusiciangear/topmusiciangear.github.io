@@ -1477,13 +1477,11 @@
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FSennheiser-EW-D-Dual-Wireless-System-with-ME2-and-835-S-U1-5-Band%2F3URI",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-EW-D-ME2-835-S-SET-U1-5-823-2-831-8-863-2-864-8-MHz/art-PAH0022391-000",
-      "amazon": "https://www.amazon.com/dp/B0BJ62PZV2",
+      "amazon": "https://www.amazon.com/dp/B094279V73",
       "zzounds": "https://www.zzounds.com/a--925521/item--SENEWDME2835S"
     },
     "excludeStores": [],
-    "oos": [
-      "zzounds"
-    ]
+    "oos": []
   },
   {
     "id": 95,
@@ -3255,6 +3253,7 @@
     "id": 170,
     "title": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
     "title_es": "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)",
+    "brand": "G4M",
     "category": "accessories",
     "price": 79,
     "rating": 4.5,
@@ -3597,7 +3596,7 @@
     "img": "https://r2.gear4music.com/media/80/802893/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FLewitt-LCT1040-Ultimate-Microphone-System%2F4MJK",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-1040/art-REC0015900-000?srsltid=AfmBOordmoJdsIXSFAIv2xQijlgIhsCBxkpazC5tk0Py5D8JUiZQMRgR&appgw_azwaf_jsc=k2TlPdktQOTYrwHCvR_OF7XSwhrbXROU2YIIhSA5TEzvrY4pSv6f9pXJh4qH2_IfOsBgAQJM7rat2d7k2LxOEhh7I2EgcIch9YrBoMof55iqpNk86JcZqb_co7K6vH59Qmn-IhxSLGgEi8nlOZsTHkyYPQAQaD8xGWMGazmbMEFnpq00AG_LtlEUa2wqGa-xuIZoaJzVO0tccMU738YsQj2mrM563gPiQyPS_ZIdkrIqfa3gDmyvp5r_8k4JDv8N1SUV1iRFP_gcHeNgWp6JSZSUsDryHPTptnAmSf_Qb9GOhs9h0yvylQgwXKi_ynJajMKyKKwlICPgblQ1NyIRwA",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-1040/art-REC0015900-000",
       "amazon": "https://www.amazon.com/dp/B09Q6LSYTX",
       "andertons": "https://www.andertons.co.uk/lewitt-lct1040-microphone-system/",
       "zzounds": "https://www.zzounds.com/a--925521/item--LEWLCT1040"
@@ -7176,7 +7175,7 @@
     "stores": {
       "zzounds": "https://www.zzounds.com/a--925521/item--GEN7050CPM",
       "andertons": "https://www.andertons.co.uk/genelec-7050c-active-sub-woofer/",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Genelec-7050CPM/art-REC0013804-000?srsltid=AfmBOorTjK4Txh5Ag6k0NdyjOVlHGeE0ltv4bDHsG7Sc0ZOnqCakFvGW",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Genelec-7050CPM/art-REC0013804-000",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7050C-Subwoofer%2F8M"
     },
     "oos": [

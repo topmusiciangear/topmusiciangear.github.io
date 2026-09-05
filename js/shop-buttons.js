@@ -54,10 +54,20 @@ function euFlag() {
 }
 
 function globeIcon() {
-  return flagBadge('<circle cx="12" cy="8" r="5.5" fill="none" stroke="#fff" stroke-width="1"/>' +
-    '<ellipse cx="12" cy="8" rx="2.5" ry="5.5" fill="none" stroke="#fff" stroke-width=".8"/>' +
-    '<line x1="6.5" y1="8" x2="17.5" y2="8" stroke="#fff" stroke-width=".7"/>' +
-    '<path d="M7.5 5.5h9M7.5 10.5h9" stroke="#fff" stroke-width=".5"/>');
+  const gid = 'gln' + (++FLAG_UID);
+  const gcid = 'glo' + (++FLAG_UID);
+  return '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px">' +
+    '<defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>' +
+    '<clipPath id="' + gcid + '"><circle cx="10" cy="10" r="8.75"/></clipPath></defs>' +
+    '<circle cx="10" cy="10" r="8.75" fill="url(#' + gid + ')"/>' +
+    '<g clip-path="url(#' + gcid + ')">' +
+    '<path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/>' +
+    '<path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/>' +
+    '<path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/>' +
+    '<path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/>' +
+    '<ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/>' +
+    '<path d="M1.25,10 H18.75" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/>' +
+    '</g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#fff" stroke-opacity=".4"/></svg>';
 };
 
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb", amazon: "Amazon" };;
@@ -66,7 +76,7 @@ const SHOP_LOGO_STYLE = {
   gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
 };
 
-const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: globeIcon, musicstore: euFlag, andertons: ukFlag };
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 
 const TEST_SHOP_BTN = {
   1: {prices:{amazon:"$439.00",zzounds:"$439.00",gear4music:"£381.50",andertons:"£379.00",musicstore:"€398.00"}},
@@ -129,8 +139,8 @@ const TEST_SHOP_BTN = {
   75: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£649.00",gear4music:"£649.00",musicstore:"€1,699.00"}},
   76: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£749.00",gear4music:"£749.00",musicstore:"€888.00"}},
   91: {prices:{amazon:"$1,839.99",zzounds:"$1,839.99",andertons:"£1,499.00",gear4music:"£1,549.00",musicstore:"€1,699.00"}},
-  92: {prices:{amazon:"$849.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band/2BBJ",musicstore:"€99.00"},oos:["andertons","zzounds"]},
-  93: {prices:{amazon:"$2,499.00",zzounds:"$1,099.00",gear4music:"£845.00",musicstore:"€868.00"},oos:["andertons","zzounds"]},
+  92: {prices:{amazon:"$849.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band/2BBJ"},oos:["andertons","zzounds"]},
+  93: {prices:{zzounds:"$999.00",gear4music:"£845.00",musicstore:"€868.00"},oos:["andertons"]},
   95: {prices:{amazon:"$749.00",zzounds:"$749.00",andertons:"£518.00",gear4music:"£518.00",musicstore:"€675.00"}},
   96: {prices:{amazon:"$99.00",zzounds:"$99.99",andertons:"£109.99",gear4music:"£110.00",musicstore:"€148.00"}},
   97: {prices:{amazon:"$186.20",zzounds:"$197.99",andertons:"£174.99",gear4music:"£166.00",musicstore:"€179.00"}},
@@ -226,7 +236,7 @@ const TEST_SHOP_BTN = {
   192: {prices:{amazon:"$424.99",zzounds:"$424.99",andertons:"£451.00",gear4music:"£263.00",musicstore:"€432.77"}},
   193: {prices:{gear4music:"£369.00",amazon:"$499.99",zzounds:"$499.99",andertons:"£349.00",musicstore:"€217.60"}},
   194: {prices:{amazon:"$199.00",zzounds:"$199.00",andertons:"£272.00",gear4music:"£273.50",musicstore:"€259.66"}},
-  195: {prices:{amazon:"$119.99"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Elgato-WAVE3-Microphone/43BD",musicstore:"€125.21"},oos:["andertons"]},
+  195: {prices:{amazon:"$119.99"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Elgato-WAVE3-Microphone/43BD"},oos:["andertons"]},
   196: {prices:{amazon:"$99.00",zzounds:"$99.00",andertons:"£79.00",gear4music:"£80.60",musicstore:"€82.35"}},
   197: {prices:{amazon:"$99.00",zzounds:"$86.00",andertons:"£86.00",gear4music:"£93.00",musicstore:"€68.91"}},
   198: {prices:{gear4music:"£106.50",amazon:"$79.00",zzounds:"$109.00",andertons:"£97.00",musicstore:"€119.00"}},
@@ -240,7 +250,7 @@ const TEST_SHOP_BTN = {
   206: {prices:{amazon:"$1,599.00",zzounds:"$1,599.00",andertons:"£1,399.00",gear4music:"£478.00",musicstore:"€1,799.00"}},
   207: {prices:{amazon:"$1,762.00",andertons:"£1,069.00",gear4music:"£1,099.00",musicstore:"€1,279.00"}},
   208: {prices:{amazon:"$849.00",zzounds:"$899.00",andertons:"£709.00",gear4music:"£709.28",musicstore:"€729.00"}},
-  209: {prices:{amazon:"$1,399.00",andertons:"£879.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/4PIK",musicstore:"€1,199.00"},oos:["zzounds"]},
+  209: {prices:{amazon:"$1,399.00",andertons:"£879.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/4PIK"},oos:["zzounds"]},
   210: {prices:{amazon:"$219.00",zzounds:"$219.00",andertons:"£149.00",gear4music:"£149.50",musicstore:"€149.00"}},
   211: {prices:{gear4music:"£372.00",amazon:"$399.00",zzounds:"$499.99",andertons:"£372.00",musicstore:"€349.00"}},
   212: {prices:{gear4music:"£193.50",amazon:"$219.00",zzounds:"$219.00",andertons:"£193.00",musicstore:"€209.00"}},
@@ -343,7 +353,7 @@ const TEST_SHOP_BTN = {
   316: {prices:{amazon:"$449.99",zzounds:"$449.99",andertons:"£449.00",musicstore:"€412.27",gear4music:"£419.00"}},
   317: {prices:{zzounds:"$1,149.00",andertons:"£1,199.00"},oos:["gear4music"]},
   318: {prices:{gear4music:"£1,690.00",amazon:"$2,199.99",zzounds:"$2,199.99",andertons:"£1,699.00",musicstore:"€1,482.27"}},
-  319: {prices:{amazon:"$2,275.00",zzounds:"$2,629.00",andertons:"£2,199.00"},urls:{gear4music:"https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-Tobacco-Sunburst/273H",musicstore:"€1,847.90"}},
+  319: {prices:{amazon:"$2,275.00",zzounds:"$2,629.00",andertons:"£2,199.00"},urls:{gear4music:"https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-Tobacco-Sunburst/273H"}},
   320: {prices:{gear4music:"£799.00",amazon:"$649.95",zzounds:"$949.00",andertons:"£799.00",musicstore:"€671.43"}},
   321: {prices:{gear4music:"£508.00",amazon:"$467.00",zzounds:"$549.00",andertons:"£505.00",musicstore:"€438.66"}},
   322: {prices:{gear4music:"£599.00",amazon:"$639.49",zzounds:"$749.00",andertons:"£598.00",musicstore:"€923.53"}},
@@ -360,7 +370,7 @@ const TEST_SHOP_BTN = {
   333: {prices:{gear4music:"£246.00",amazon:"$459.99",andertons:"£249.00",musicstore:"€239.50"}},
   334: {prices:{gear4music:"£1,708.00",amazon:"$3,299.99",zzounds:"$3,299.99",andertons:"£1,499.00",musicstore:"€2,100.00"}},
   335: {prices:{amazon:"$999.99",zzounds:"$744.95",andertons:"£649.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ"},oos:["musicstore"]},
-  336: {prices:{amazon:"$249.99",zzounds:"$249.99"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-Mobile-Mix-8-Channel-USB-Mixer/651Y",musicstore:"€217.60"},oos:["andertons"]},
+  336: {prices:{amazon:"$249.99",zzounds:"$249.99"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-Mobile-Mix-8-Channel-USB-Mixer/651Y"},oos:["andertons"]},
   337: {prices:{gear4music:"£1,565.79",amazon:"$1,999.00",zzounds:"$1,999.00",andertons:"£1,565.00",musicstore:"€1,259.66"}},
   338: {prices:{andertons:"£1,019.00",musicstore:"€587.39"},oos:["gear4music","zzounds"]},
   339: {prices:{gear4music:"£739.00",amazon:"$999.00",zzounds:"$999.00",andertons:"£949.00",musicstore:"€839.34"}},
@@ -900,3 +910,106 @@ window.tmgStoreButtons = function(p) {
   if (cat === 'daw') return '';
   try { return shopButtonsTest(p, isEs); } catch(e) { return ''; }
 };
+
+(function() {
+  var storeLabel = { zzounds: 'zZounds', gear4music: 'Gear4music', musicstore: 'Music Store' };
+  var storeStyles = {
+    zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",
+    gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",
+    andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",
+    musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px"
+  };
+  function targetSearch(T, root) {
+    var t = ((root && root.querySelector('.guide-product-card-title')) || document.querySelector('.guide-product-card-title') || {}).textContent || '';
+    if (T === 'zzounds') return 'https://www.zzounds.com/item--' + encodeURIComponent(t).replace(/%20/g, '+') + '?tag=topmusicg-20';
+    if (T === 'gear4music') return 'https://www.gear4music.com/search?q=' + encodeURIComponent(t);
+    return 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(t);
+  }
+  function doSwap(T) {
+    document.querySelectorAll('.guide-product-card-stores, .guide-section-buy, .shop-buttons-wrap').forEach(function(c) {
+      var pb = c.querySelector('.shop-btn-primary');
+      if (!pb) return;
+      var curStore = pb.getAttribute('data-store') || '';
+      if (curStore === 'pluginboutique') return;
+      if (curStore === T || curStore === 'msdirect') return;
+      var zRow = c.querySelector('[data-store="' + T + '"]');
+      if (!zRow) {
+        var ml = c.querySelector('.shop-more-list');
+        if (!ml) return;
+        var zHref = targetSearch(T, c);
+        var newPrimary = '<a href="' + zHref + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="' + storeStyles[T] + '">' + storeLabel[T] + '</span></span></span></a>';
+        pb.insertAdjacentHTML('beforebegin', newPrimary);
+        pb.remove();
+        return;
+      }
+      if (!zRow.getAttribute('href')) return;
+      var ml2 = c.querySelector('.shop-more-list');
+      var zUrl = zRow.getAttribute('href');
+      var zPrice = '';
+      var zMatch = zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);
+      if (zMatch) zPrice = zMatch[1];
+      var aUrl = pb.getAttribute('href');
+      var globe = '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px"><defs><linearGradient id="glgGeo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeo"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeo)"/><g clip-path="url(#glcGeo)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#fff" stroke-opacity=".4"/></svg>';
+      var newPrimary = '<a href="' + zUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="' + storeStyles[T] + '">' + storeLabel[T] + '</span>' + (zPrice ? ' - ' + zPrice : '') + '</span></span></a>';
+      zRow.style.display = 'none';
+      pb.insertAdjacentHTML('beforebegin', newPrimary);
+      pb.remove();
+      if (ml2 && curStore === 'amazon' && !ml2.querySelector('[data-store="amazon"]')) {
+        var aPrice = '';
+        var aMatch = pb.innerHTML.match(/- ([$£€][0-9.,]+)/);
+        if (aMatch) aPrice = aMatch[1];
+        var amazonPrice = aPrice ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + aPrice + '</span></span>' : '';
+        var amazonRow = '<a data-store="amazon" href="' + aUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + globe + 'Amazon</span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span>' + amazonPrice + '</a>';
+        ml2.insertAdjacentHTML('afterbegin', amazonRow);
+      }
+    });
+  }
+  function quickTarget() {
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+    var isUSTZ = /^America[/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay|Nassau|Fortaleza|Bahia_Banderas|Curacao|Guadeloupe|Martinique|St_Barthelemy|St_Kitts|St_Lucia|St_Thomas|St_Vincent|Aruba|Turks_and_Caicos|Cayman|Bermuda|Puerto_Rico|Virgin)/.test(tz);
+    if (isUSTZ) return 'zzounds';
+    if (/^Europe[/]London([/]|$)/.test(tz)) return 'gear4music';
+    return null;
+  }
+  function applyNow(T) {
+    try { window.__tmgGeoDone = T; window.__tmgGeoResolved = T; } catch (e) {}
+    doSwap(T);
+    var ev = null;
+    try { ev = window.__tmgGeoHandlers; } catch (e) {}
+    if (ev) {
+      for (var i = 0; i < ev.length; i++) { try { ev[i](T); } catch (e) {} }
+      ev.length = 0;
+    }
+  }
+  window.tmgGeoSwap = function() {
+    if (window.__tmgGeoResolved) { applyNow(window.__tmgGeoResolved); return; }
+    var q = quickTarget();
+    if (q) { applyNow(q); return; }
+    var cached = null;
+    try { cached = localStorage.getItem('tmgGeoSwap'); } catch (e) {}
+    if (cached && cached !== 'none') { applyNow(cached); return; }
+    if (window.__tmgGeoPending) return;
+    try { window.__tmgGeoPending = 1; } catch (e) {}
+    var x = new XMLHttpRequest();
+    x.open('GET', 'https://ipinfo.io/json', true);
+    x.timeout = 5000;
+    x.onload = function() {
+      try {
+        var r = JSON.parse(x.responseText);
+        var cc = (r.country || '').toUpperCase();
+        var MS = {'AT':1,'BE':1,'BA':1,'BG':1,'HR':1,'CZ':1,'DK':1,'EE':1,'FI':1,'FR':1,'DE':1,'GR':1,'HU':1,'IE':1,'IT':1,'LV':1,'LT':1,'LU':1,'NL':1,'NO':1,'PL':1,'PT':1,'RO':1,'RU':1,'RS':1,'SI':1,'ZA':1,'ES':1,'SE':1,'CH':1,'TR':1};
+        var t = cc === 'US' ? 'zzounds' : cc === 'GB' ? 'gear4music' : MS[cc] ? 'musicstore' : 'none';
+        try { localStorage.setItem('tmgGeoSwap', t); } catch (e) {}
+        try { window.__tmgGeoResolved = t; } catch (e) {}
+        if (t !== 'none') applyNow(t);
+      } catch (e) {}
+      try { window.__tmgGeoPending = 0; } catch (e) {}
+    };
+    x.onerror = x.ontimeout = function() {
+      try { localStorage.removeItem('tmgGeoSwap'); } catch (e) {}
+      try { window.__tmgGeoPending = 0; } catch (e) {}
+    };
+    x.send();
+  };
+})();

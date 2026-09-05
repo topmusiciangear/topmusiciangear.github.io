@@ -220,20 +220,30 @@ function setLang(lang) {
       var stem = function(s) { return s.replace(/(es|s)$/i, ''); };
       var toWords = function(s) { return norm(s).split(/[\s\-\/]+/).filter(Boolean); };
       var qn = norm(q);
-      var qStem = stem(qn);
+      var qWords = toWords(qn);
       var scored = products.reduce(function(acc, p) {
         var tWords = toWords(p.title);
         var teWords = toWords(p.title_es || "");
-        var allWords = tWords.concat(teWords).filter(function(w, i, a) { return a.indexOf(w) === i; });
+        var allWords = tWords.concat(teWords).concat(toWords(p.brand || "")).filter(function(w, i, a) { return a.indexOf(w) === i; });
         var b = norm(p.brand || "");
-        var score = 0;
-        for (var i = 0; i < allWords.length; i++) {
-          var w = allWords[i];
-          if (w === qn || w === qStem) { score += 10; break; }
-          if (w.indexOf(qn) === 0 || w.indexOf(qStem) === 0) { score += 5; break; }
+        var matched = 0, score = 0;
+        for (var iq = 0; iq < qWords.length; iq++) {
+          var qw = qWords[iq];
+          var best = 0, hit = false;
+          for (var iw = 0; iw < allWords.length; iw++) {
+            var w = allWords[iw];
+            if (w === qw) { best = 10; hit = true; }
+            else if (w === stem(qw)) { best = 10; hit = true; }
+            else if (w.indexOf(qw) === 0) { best = 6; hit = true; }
+            else if (stem(w) === stem(qw)) { best = 6; hit = true; }
+          }
+          if (hit) { matched++; score += best; }
         }
-        if (b.indexOf(qn) === 0) score += 1;
-        if (score > 0) acc.push({ product: p, score: score });
+        if (matched >= (qWords.length <= 4 ? qWords.length : qWords.length - 1)) {
+          score += matched * 2;
+          if (b.indexOf(qn) === 0) score += 1;
+          acc.push({ product: p, score: score });
+        }
         return acc;
       }, []).sort(function(a, b) { return b.score - a.score; }).map(function(x) { return x.product; });
       if (scored.length === 0) {
@@ -1540,19 +1550,28 @@ document.addEventListener("DOMContentLoaded", () => {
     const stem = s => s.replace(/(es|s)$/i, '');
     const toWords = s => norm(s).split(/[\s\-\/]+/).filter(Boolean);
     const qn = norm(q);
-    const qStem = stem(qn);
+    const qWords = toWords(qn);
     const scored = products.reduce((acc, p) => {
       const tWords = toWords(p.title);
       const teWords = toWords(p.title_es || "");
-      const allWords = [...new Set([...tWords, ...teWords])];
+      const allWords = [...new Set([...tWords, ...teWords, ...toWords(p.brand || "")])];
       const b = norm(p.brand || "");
-      let score = 0;
-      for (const w of allWords) {
-        if (w === qn || w === qStem) { score += 10; break; }
-        if (w.indexOf(qn) === 0 || w.indexOf(qStem) === 0) { score += 5; break; }
+      let matched = 0, score = 0;
+      for (const qw of qWords) {
+        let best = 0, hit = false;
+        for (const w of allWords) {
+          if (w === qw) { best = Math.max(best, 10); hit = true; }
+          else if (w === stem(qw)) { best = Math.max(best, 10); hit = true; }
+          else if (w.indexOf(qw) === 0) { best = Math.max(best, 6); hit = true; }
+          else if (stem(w) === stem(qw)) { best = Math.max(best, 6); hit = true; }
+        }
+        if (hit) { matched++; score += best; }
       }
-      if (b.indexOf(qn) === 0) score += 1;
-      if (score > 0) acc.push({ product: p, score });
+      if (matched >= (qWords.length <= 4 ? qWords.length : qWords.length - 1)) {
+        score += matched * 2;
+        if (b.indexOf(qn) === 0) score += 1;
+        acc.push({ product: p, score });
+      }
       return acc;
     }, []).sort((a, b) => b.score - a.score)
       .map(x => x.product);
@@ -1565,6 +1584,7 @@ document.addEventListener("DOMContentLoaded", () => {
     results.innerHTML = '<div class="product-search-grid">' + scored.map(p =>
       '<div class="product-search-item">' + renderProductCard(p.id) + productGuidesHtml(p.id) + '</div>'
     ).join("") + '</div>';
+    if (window.tmgGeoSwap) tmgGeoSwap();
     results.querySelectorAll(".guide-products-title").forEach(el => el.remove());
     setTimeout(function(){results.querySelectorAll('.guide-product-card-desc').forEach(function(e){var b=e.nextElementSibling;if(b&&b.classList.contains('guide-product-card-desc-toggle')&&e.scrollHeight<=e.clientHeight)b.remove()})},100);
     }, 250);
