@@ -360,7 +360,7 @@ const TEST_SHOP_BTN = {
   323: {prices:{amazon:"$99.00",zzounds:"$99.99",andertons:"£91.00",gear4music:"£91.30",musicstore:"€105.04"},urls:{zzounds:"https://www.zzounds.com/item--AKAMPKMINI3"}},
   324: {prices:{amazon:"$129.99",zzounds:"$129.99",andertons:"£89.00",gear4music:"£115.00",musicstore:"€111.00"}},
   325: {prices:{gear4music:"£380.00",amazon:"$549.00",zzounds:"$549.00",musicstore:"€503.36",andertons:"£379.00"}},
-  326: {prices:{gear4music:"£399.00"}},
+  326: {prices:{gear4music:"£399.00",andertons:"£399.00",zzounds:"$599.00"}},
   327: {prices:{amazon:"$109.97"},oos:["andertons","musicstore"]},
   328: {prices:{gear4music:"£139.99",amazon:"$219.00",zzounds:"$219.00",andertons:"£152.00",musicstore:"€199.16"}},
   329: {prices:{amazon:"$199.00",zzounds:"$229.00",andertons:"£164.00",gear4music:"£167.50"},oos:["musicstore"]},
