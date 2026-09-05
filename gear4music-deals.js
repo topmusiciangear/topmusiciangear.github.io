@@ -182,6 +182,19 @@ async function worker(items, history) {
   return out;
 }
 
+// Resolve an affiliate-wrapped URL (awin1.com/cread.php?ued=...) back to the
+// direct store URL. The scraper must never contact awin1.com: an unwrapped run
+// would burn affiliate clicks with no chance of a conversion (bot has no Awin
+// cookie). If the URL isn't wrapped, it's returned unchanged.
+function derefAwin(url) {
+  const m = String(url || '').match(/[?&]ued=([^&]*)/);
+  if (m && m[1]) {
+    try { return decodeURIComponent(m[1]); } catch (e) { /* fall back to raw match */ }
+    return m[1];
+  }
+  return url;
+}
+
 function byTitle(t) {
   return PRODUCTS.find(p => (p.title || '').toLowerCase() === (t || '').toLowerCase())
     || PRODUCTS.find(p => (p.title || '').toLowerCase().indexOf((t || '').toLowerCase()) > -1);
@@ -190,7 +203,7 @@ function byTitle(t) {
 async function main() {
   const watchlist = PRODUCTS
     .filter(p => p.stores && p.stores.gear4music)
-    .map(p => ({ id: p.id, title: p.title, img: p.img, gear4music: p.stores.gear4music }));
+    .map(p => ({ id: p.id, title: p.title, img: p.img, gear4music: derefAwin(p.stores.gear4music) }));
   console.log('gear4music-deals: watchlist =', watchlist.length, 'products');
 
   const limited = watchlist.slice(0, LIMIT);

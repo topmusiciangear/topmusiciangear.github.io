@@ -2,8 +2,10 @@ name: Auto Update Deals
 
 on:
   schedule:
-    # Run 4x/day. UTC; site audience EN + ES (US/EU), this covers both mornings.
-    - cron: '17 1,7,13,19 * * *'
+    # Run 1x/day at 06:00 UTC. Site audience EN + ES (US/EU); 06:00 UTC covers
+    # EU morning and catches US pre-market. Down from 4x/day so the price
+    # checkers don't hammer affiliate networks (they scrape direct store URLs).
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:

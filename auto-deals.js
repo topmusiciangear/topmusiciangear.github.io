@@ -87,9 +87,33 @@ async function worker(items, history, results) {
 
 function wait(ms) { return new Promise(res => setTimeout(res, ms)); }
 
+// Resolve an affiliate-wrapped or affiliate-tagged URL back to the clean
+// direct store URL before scraping. The bot has no affiliate cookies (Awin,
+// Impact, CJ, Amazon, Plugin Boutique), so opening a wrapped/tagged URL would
+// burn a click with no chance of a conversion. Supports:
+//   - Awin:   https://www.awin1.com/cread.php?...&ued=<encoded direct url>
+//   - direct store + tracking param: andertons.co.uk/...?irgwc=1&irpid=...
+// If the URL isn't wrapped/tagged, it's returned unchanged.
+function derefAffiliate(url) {
+  const u = String(url || '');
+  const m = u.match(/[?&]ued=([^&]*)/);
+  if (m && m[1]) {
+    try { return decodeURIComponent(m[1]); } catch (e) { /* fall back to raw match */ }
+    return m[1];
+  }
+  // Strip tracking params that would register an affiliate click on scrapes.
+  return u
+    .replace(/([&?])irgwc=[^&]*/, '$1')
+    .replace(/([&?])irpid=[^&]*/, '$1')
+    .replace(/[&?](?:a_aid|tag|url)=[^&]*/g, '')
+    .replace(/[?&]+$/g, '')
+    .replace(/[?]&/g, '?')
+    .replace(/\?{2,}/g, '?');
+}
+
 async function main() {
   // Build watchlist: products that have an Andertons buy link
-  const watchlist = PRODUCTS.filter(p => p.stores && p.stores.andertons).map(p => ({ id: p.id, title: p.title, priceUsd: p.price, img: p.img, andertons: p.stores.andertons }));
+  const watchlist = PRODUCTS.filter(p => p.stores && p.stores.andertons).map(p => ({ id: p.id, title: p.title, priceUsd: p.price, img: p.img, andertons: derefAffiliate(p.stores.andertons) }));
   console.log('auto-deals: watchlist =', watchlist.length, 'products');
 
   const history = loadHistory();
