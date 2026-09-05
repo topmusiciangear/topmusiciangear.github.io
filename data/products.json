@@ -9930,5 +9930,97 @@
       "reverb"
     ],
     "oos": []
+  },
+  {
+    "id": 468,
+    "title": "Neumann KH 810 II 10\" Powered Studio Subwoofer",
+    "title_es": "Neumann KH 810 II Subwoofer de Estudio Activo de 10\"",
+    "brand": "Neumann",
+    "category": "monitors",
+    "price": 3899,
+    "badge": "premium",
+    "unit": "each",
+    "unit_es": "cada uno",
+    "desc": "German DSP-controlled reference subwoofer built around a long-throw 10-inch ELFF woofer and a 180W amplifier that extends to 18 Hz (±3 dB) — about twice the output of the KH 750 DSP. Multichannel bass management covers stereo, surround and immersive formats up to 7.1.4, with MA 1 automatic alignment, AES3/BNC digital I/O and intelligent protection limiters making it the control centre of any Neumann monitoring chain.",
+    "desc_es": "Subwoofer de referencia alemán controlado por DSP construido en torno a un woofer ELFF de 10 pulgadas de gran excursión y un amplificador de 180W que llega hasta 18 Hz (±3 dB), con aproximadamente el doble de salida que el KH 750 DSP. La gestión de graves multicanal cubre formatos estéreo, envolventes e inmersivos hasta 7.1.4, y la alineación automática MA 1, la E/S digital AES3/BNC y los limitadores de protección inteligentes lo convierten en el centro de control de cualquier cadena de monitoreo Neumann.",
+    "img": "https://assets.sennheiser.com/assets/KH-810II_Left_Neumann-Studio-Subwoofer_Main.png/Zz05NmQ1NjliMmU3ZDkxMWYwODhkYjc2OGVlOGU5N2FlYQ==?width=730&format=webp&quality=80",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B0FSGYBWZQ",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-KH-810-II/art-REC0017051-000",
+      "reverb": "https://reverb.com/marketplace?query=Neumann%20KH%20810%20II"
+    },
+    "excludeStores": [
+      "zzounds",
+      "gear4music",
+      "andertons"
+    ]
+  },
+  {
+    "id": 469,
+    "title": "Dynaudio 9S Powered Studio Subwoofer",
+    "title_es": "Dynaudio 9S Subwoofer de Estudio Activo",
+    "brand": "Dynaudio",
+    "category": "monitors",
+    "price": 1149,
+    "badge": "premium",
+    "unit": "each",
+    "unit_es": "cada uno",
+    "desc": "Danish active subwoofer with a 9-inch MSP woofer driven by 300W of Class-D power in a sealed, vibration-free cabinet. It stays flat from 22 Hz to 175 Hz (±3 dB) up to a 106 dB max SPL, and the 50–150 Hz low-pass, 0/180° phase switch and switchable high-pass outputs integrate it cleanly into tight desktop monitoring chains.",
+    "desc_es": "Subwoofer activo danés con woofer MSP de 9 pulgadas impulsado por 300W de potencia Clase-D en un gabinete sellado sin vibración. Se mantiene plano de 22 Hz a 175 Hz (±3 dB) hasta 106 dB de SPL máximo, y el filtro de paso bajo de 50–150 Hz, el interruptor de fase 0/180° y las salidas de paso alto seleccionable lo integran limpiamente en cadenas de monitoreo de escritorio compactas.",
+    "img": "https://r2.gear4music.com/media/30/300451/1200/preview.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B07RVDLYZ6",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/DISC-Dynaudio-9S-Subwoofer/254Q",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Dynaudio-9S/art-REC0013417-000",
+      "reverb": "https://reverb.com/marketplace?query=Dynaudio%209S"
+    }
+  },
+  {
+    "id": 470,
+    "title": "ATC SCS120 Pro Active Studio Subwoofer",
+    "title_es": "ATC SCS120 Pro Subwoofer de Estudio Activo",
+    "brand": "ATC Loudspeakers",
+    "category": "monitors",
+    "price": 6990,
+    "badge": "premium",
+    "unit": "each",
+    "unit_es": "cada uno",
+    "desc": "Hand-built in England, the SCS120 Pro is a sealed reference subwoofer driving a 15-inch (375 mm) SS75-375SC driver with 300W of convection-cooled MOSFET Class AB power. No DSP and no room correction — just fast, articulate low end down to 20 Hz (−6 dB) with 113 dB continuous SPL for large control rooms and immersive rigs.",
+    "desc_es": "Construido a mano en Inglaterra, el SCS120 Pro es un subwoofer de referencia sellado que mueve un driver SS75-375SC de 15 pulgadas (375 mm) con 300W de potencia MOSFET Clase AB enfriada por convección. Sin DSP ni corrección de sala — solo graves rápidos y articulados hasta 20 Hz (−6 dB) con 113 dB de SPL continuo para salas de control grandes y sistemas inmersivos.",
+    "img": "https://atc.audio/wp-content/uploads/2025/09/SCS120-Pro_angles-dtop-3.jpg",
+    "stores": {
+      "reverb": "https://reverb.com/marketplace?query=ATC%20SCS120%20Pro"
+    },
+    "excludeStores": [
+      "zzounds",
+      "amazon",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 471,
+    "title": "PMC 8 SUB Active Studio Subwoofer",
+    "title_es": "PMC 8 SUB Subwoofer de Estudio Activo",
+    "brand": "PMC",
+    "category": "monitors",
+    "price": 3300,
+    "badge": "premium",
+    "unit": "each",
+    "unit_es": "cada uno",
+    "desc": "British reference sub only 21.7 inches wide, loading a custom 8-inch long-throw driver with PMC's 3-metre Advanced Transmission Line for clean 25 Hz – 500 Hz output. A 300W Class-D amp and the full DSP engine — parametric EQ, delay, phase inversion and XBD mode via SoundAlign — let it run as a standalone sub or the bass module of a PMC6 XBD system.",
+    "desc_es": "Sub de referencia británico de solo 55,1 cm de ancho que carga un driver de 8 pulgadas de gran excursión con la Línea de Transmisión Avanzada (ATL) de 3 metros de PMC para una salida limpia de 25 Hz – 500 Hz. El amplificador Clase-D de 300W y el motor DSP completo — EQ paramétrico, retardo, inversión de fase y modo XBD vía SoundAlign — le permiten funcionar como sub independiente o como módulo de graves de un sistema PMC6 XBD.",
+    "img": "https://www.thomann.de/thumb//prod/569209.jpg",
+    "stores": {
+      "reverb": "https://reverb.com/marketplace?query=PMC%208%20SUB"
+    },
+    "excludeStores": [
+      "zzounds",
+      "amazon",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
   }
 ]
