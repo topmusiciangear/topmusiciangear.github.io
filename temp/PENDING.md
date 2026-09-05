@@ -27,15 +27,15 @@
 - Byline de autor (build-guides.js): ahora DINÁMICO con `fmtMonthYear(guide.datePublished, es)` — antes "Agosto 2026" hardcodeado, incongruente con datePublished 2026-09-05 de esta guía. ES: "Por Daniel Carnago · septiembre 2026" etc.
 - REGLA PERMANENTE nueva (usuario): NUNCA "under $X" literal → "por menos de $X". NUNCA "se funda" (subuer/blend) → "se integre". Cualquier ES debe sonar como lo diría un humano.
 
-## 0.3) AUDITORÍA MASIVA DE CALCOS Y ACENTOS EN TODO EL SITIO (DONE local 05/09/2026, usuario aprobó "Corregir todo el sitio")
+## 0.3) AUDITORÍA MASIVA DE CALCOS Y ACENTOS EN TODO EL SITIO (DONE + DEPLOYED 05/09/2026, commit f32a52dedf)
 - 50 reemplazos de calcos EN→ES en guides.json + products.json: "es la elección para/principal/versátil/icónica/clásica"→"es la mejor opción para/la opción principal/versátil/icónica/clásica"; "sigue siendo la elección"→"sigue siendo una opción"/"la opción de los profesionales"; "la vía más rápida/fluida"→"el camino más rápido"/"la opción más fluida"; "paso adelante" (AT2035, AT2020, e825, Debut, SM58/PodMic, Player/Am Pro, "¿Quieres un paso que dure?", "Para el paso siguiente")→"salto frente a"/"mejora clara frente a"/"evolución de la Debut"/"siguiente paso".
 - 24 reemplazos de tildes/typos: bloque "estereo/alta precision/localizacion filosa/es mas facil/inversion, A $599" (pro-headphones + products[370]); "solucion precisa" (iLoud sub); "Tu decision...configuracion inalambrica"; "precision digital" (eW-d, ×2); "estereo" en tables de best-compact-mixers/best-live-sound-mixers/digital/analog mixers; "grabacion multitrack/directa/24-bit/96 pistas" (products 288/353/358/360/363); "(2 mono + 3 estereo)" guide[86].
 - Typos fuente corregidos de paso: "cambian el grabación"→"la grabación"; "salasin tratar"→"salas sin tratar"; "bateríasin"→"batería sin"; "notason"→"notas son"; "otrosistemas inalámbricosin"→"otros sistemas inalámbricos sin"; "guitarraservirá"→"guitarras servirá"; "los meten fundas"→"los meten en fundas"; "que tras usar"→"que he probado" (stage-mics intro); "fuente que  grabas".
 - Verificado con scripts (temp/es-site-audit.cjs + temp/es-accent2.cjs): 0 calcos reales; solo quedan falsos positivos legítimos ("en/al un DAW" = español correcto; "precision" = URL precision-vs-jazz / nombre de producto Precision Bass).
 - Rebuild 298 páginas OK. Build también re-boldó guides.json en sitio.
 
-## 0.4) PENDIENTE de deploy (NUNCA desplegar sin aprobación del usuario)
-- Todo lo de 0.3 + el fix del verdict_es ("la mejora más grande que puedes hacer", "es el que necesitas") + "la opción más rápida" (KH750) + "sigue siendo la mejor opción para gestión" (Genelec conclusión) + "En esta guía repasamos el proceso completo" (intro, tras commit 0074222e38). → `node temp/deploy.js "mensaje"` cuando el usuario apruebe.
+## 0.4) DEPLOYED (05/09/2026, commit f32a52dedf)
+- Todo lo de 0.3 + el fix del verdict_es ("la mejora más grande que puedes hacer", "es el que necesitas") + "la opción más rápida" (KH750) + "sigue siendo la mejor opción para gestión" (Genelec conclusión) + "En esta guía repasamos el proceso completo" (intro, tras commit 0074222e38).
 
 ## 1) Waves SSL G-Master Buss Compressor — fix product 119 (DONE, local)
 - Modeled from the SSL 4000 G console's master buss compressor; "the sound of a million hit records".
