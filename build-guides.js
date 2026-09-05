@@ -1050,6 +1050,15 @@ function fmtReviewDate(iso, es) {
   return es ? (d.getDate() + ' ' + mo[d.getMonth()] + ' ' + d.getFullYear()) : (mo[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear());
 }
 
+function fmtMonthYear(iso, es) {
+  var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
+  if (isNaN(d)) return String(iso);
+  var esmo = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  var enmo = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var mo = es ? esmo : enmo;
+  return mo[d.getMonth()] + ' ' + d.getFullYear();
+}
+
 function userReviewsSection(guide, isEs) {
   var pids = [...new Set(guide.sections.flatMap(s => s.products))];
   if (!pids.length) return '';
@@ -1221,7 +1230,7 @@ function buildGuidePage(guide, lang, idx) {
 
   const authorBoxHtml = `<div class="guide-author-box">
     <div class="guide-author-box-body">
-      <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago · Agosto 2026' : 'By Daniel Carnago · August 2026'}</span>
+      <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago · ' + fmtMonthYear(guide.datePublished, true) : 'By Daniel Carnago · ' + fmtMonthYear(guide.datePublished, false)}</span>
       <p class="guide-author-box-bio">${isEs ? 'Músico de directo y de sesión con más de 20 años sobre los escenarios de todo el mundo. Una gran cantidad de los equipos que recomiendo los he usado yo mismo, en giras, estudios profesionales o en mi propio estudio.' : 'Touring and session musician with 20+ years on stages around the world. A great deal of the gear I recommend here I have used myself, on tours, in professional studios, or in my own studio.'}</p>
       <span class="guide-author-box-note">${isEs ? 'Cómo pruebo el equipo: seré honesto, no he probado cada producto de esta web. Gran parte lo he usado yo mismo en directos y sesiones de grabación; otros los he visto probar a músicos y técnicos de sonido de confianza; y el resto los he investigado a fondo antes de recomendarlos.' : 'How I test gear: to be honest, I have not tested every product on this site. Much of it I have used myself in live shows and recording sessions; others I have seen tested by musicians and sound techs I trust; and the rest I have researched in depth before recommending.'}</span>
     </div>
