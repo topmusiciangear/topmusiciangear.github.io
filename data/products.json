@@ -8244,7 +8244,7 @@
     "badge": "",
     "desc": "Multi-effect processor for space, saturation and re-amplification. Transforms dry loops into professional-sounding elements with analog warmth.",
     "desc_es": "Procesador multi-efectos para espacio, saturación y re-amplificación. Transforma loops secos en elementos con sonido profesional y calidez analógica.",
-    "img": "https://banners.pluginboutique.com/gr34aw2l8kgeo0yl0mryavwnehe8panse.jpg",
+    "img": "https://banners.pluginboutique.com/hvx1cq66z8ukehyok4zi554f1jjf",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8036-Lifeline-Expanse"
     },
@@ -8382,10 +8382,11 @@
     "badge": "",
     "desc": "Dual-line delay modeled from classic processors. Adds analog color to any digital melody. Highly used in contemporary urban genres.",
     "desc_es": "Delay de doble línea modelado a partir de procesadores clásicos. Agrega color analógico a cualquier melodía digital. Muy utilizado en géneros urbanos contemporáneos.",
-    "img": "https://banners.pluginboutique.com/c5mcbb5hg4h9pjhwf7occeqbz9inpg",
+    "img": "https://r2.gear4music.com/media/70/702210/1200/preview.jpg",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/10-Delay/2970-Repeater",
-      "gear4music": "https://www.gear4music.com/Recording-and-Computers/D16-Group-Repeater-Vintage-Modelled-Delay/3XWM",
+      "zzounds": "https://www.zzounds.com/a--925521/item--DSXREPEATER",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Slate-Digital-Repeater-Delay/41TU",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/D16-Group-Repeater-License-Code/art-PCM0015075-000",
       "reverb": "https://reverb.com/marketplace?query=D16+Group+Repeater"
     },
@@ -8394,11 +8395,8 @@
     },
     "excludeStores": [
       "amazon",
-      "zzounds",
       "reverb",
-      "andertons",
-      "gear4music",
-      "musicstore"
+      "andertons"
     ]
   },
   {

@@ -725,7 +725,7 @@ const TEST_SHOP_BTN = {
   389: {prices:{gear4music:"£39.99",pluginboutique:"$49.00",musicstore:"€49.00"},urls:{amazon:"https://www.amazon.com/?tag=topmusicg-20"}},
   390: {prices:{gear4music:"£37.00",pluginboutique:"$49.00"},urls:{amazon:"https://www.amazon.com/?tag=topmusicg-20"}},
   391: {prices:{pluginboutique:"$49.00"}},
-  392: {prices:{pluginboutique:"$99.00",gear4music:"£75.00"}},
+  392: {prices:{pluginboutique:"$99.00",zzounds:"$89.00",gear4music:"£74.99",musicstore:"€89.00"},urls:{zzounds:"https://www.zzounds.com/item--DSXREPEATER",gear4music:"https://www.gear4music.com/Recording-and-Computers/Slate-Digital-Repeater-Delay/41TU",musicstore:"https://www.musicstore.com/en_OE/EUR/D16-Group-Repeater-License-Code/art-PCM0015075-000"}},
   393: {prices:{pluginboutique:"$45.00"}},
   394: {prices:{pluginboutique:"$79.00"}},
   395: {prices:{amazon:"$467.46",zzounds:"$499.99",gear4music:"£428.00",andertons:"£419.00",musicstore:"€529.00"}},
