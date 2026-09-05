@@ -723,7 +723,7 @@ const TEST_SHOP_BTN = {
   387: {na:["andertons","gear4music","musicstore"],prices:{pluginboutique:"$79.00",amazon:"$79.00"},urls:{pluginboutique:"https://www.pluginboutique.com/product/2-Effects/6-Action/11521-Lifeline-Expanse",amazon:"https://www.amazon.com/Excite-Audio-Lifeline-Expanse-Plugin/dp/B0DKF74MVH"}},
   388: {prices:{pluginboutique:"$149.00"}},
   389: {prices:{gear4music:"£126.55",pluginboutique:"$49.00"}},
-  390: {prices:{gear4music:"£39.30",pluginboutique:"$99.00"}},
+  390: {prices:{gear4music:"£39.30",pluginboutique:"$49.00"}},
   391: {prices:{pluginboutique:"$49.00"}},
   392: {prices:{pluginboutique:"$99.00",gear4music:"£75.00"}},
   393: {prices:{pluginboutique:"$45.00"}},
