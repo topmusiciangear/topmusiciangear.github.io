@@ -816,7 +816,7 @@ const TEST_SHOP_BTN = {
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
   const storeSearch = {
-    zzounds: () => 'https://www.zzounds.com/search.html?query=' + encodeURIComponent(p.title || '').replace(/%20/g, '+'),
+    zzounds: () => 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || '').replace(/%20/g, '+'),
     amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '&tag=topmusicg-20',
     reverb: () => revUrl,
     gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title || ''),
@@ -830,7 +830,7 @@ const TEST_SHOP_BTN = {
   const hasAmazon = !isLogic && !isPlugins;
   const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
   const pPrice = (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
-  const zzoundsSearchUrl = 'https://www.zzounds.com/search.html?query=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
+  const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
@@ -1676,7 +1676,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
   var storeStyles={zzounds:"font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",gear4music:"font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",andertons:"font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",musicstore:"font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px"};
   function targetSearch(T){
     var t=(document.querySelector('.guide-product-card-title')||{}).textContent||'';
-    if(T==='zzounds')return 'https://www.anrdoezrs.net/click-101857888-10439229?url='+encodeURIComponent('https://www.zzounds.com/search.html?query='+encodeURIComponent(t).replace(/%20/g,'+'));
+    if(T==='zzounds')return 'https://www.anrdoezrs.net/click-101857888-10439229?url='+encodeURIComponent('https://www.zzounds.com/prodsearch?form=search&q='+encodeURIComponent(t).replace(/%20/g,'+'));
     if(T==='gear4music')return 'https://www.gear4music.com/search?q='+encodeURIComponent(t);
     return 'https://www.musicstore.com/en_OE/EUR/search?SearchText='+encodeURIComponent(t);
   }
