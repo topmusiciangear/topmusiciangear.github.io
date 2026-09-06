@@ -210,7 +210,7 @@ window.tmgStoreButtons = function(p) {
   function applyNow(T) {
     if (T === 'none') T = 'amazon';
     if (!T) return;
-    try { window.__tmgGeoDone = T; window.__tmgGeoResolved = T; } catch (e) {}
+    try { window.__tmgGeoDone = T; } catch (e) {}
     doSwap(T);
     var ev = null;
     try { ev = window.__tmgGeoHandlers; } catch (e) {}
@@ -225,28 +225,29 @@ window.tmgStoreButtons = function(p) {
     return c === 'US' ? 'zzounds' : c === 'GB' ? 'gear4music' : MS[c] ? 'musicstore' : 'none';
   }
   window.tmgGeoSwap = function() {
-    if (window.__tmgGeoResolved) { applyNow(window.__tmgGeoResolved); return; }
+    try { if (window.__tmgGeoResolved) { applyNow(window.__tmgGeoResolved); return; } } catch (e) {}
     var q = quickTarget();
     if (q) applyNow(q);
     if (window.__tmgGeoPending) return;
     try { window.__tmgGeoPending = 1; } catch (e) {}
-    var gres = false;
-    function gApply(c) {
-      if (!c || gres) return;
-      c = (c || '').toUpperCase();
-      if (c === 'XX') return;
-      gres = true;
-      applyNow(geoZone(c));
+    function finish(cc) {
+      if (!cc) return;
+      cc = (cc || '').toUpperCase();
+      if (cc === 'XX') return;
+      try { if (window.__tmgGeoResolved) return; } catch (e) {}
+      var t = geoZone(cc);
+      try { window.__tmgGeoResolved = t; } catch (e) {}
+      applyNow(t);
     }
     function gFallback() {
-      if (gres) return;
+      try { if (window.__tmgGeoResolved) return; } catch (e) {}
       var y = new XMLHttpRequest();
       y.open('GET', 'https://ipinfo.io/json', true);
       y.timeout = 4000;
       y.onload = function() {
         try {
           var r = JSON.parse(y.responseText);
-          if (r && r.country) gApply(r.country);
+          if (r && r.country) finish(r.country);
         } catch (e) {}
         try { window.__tmgGeoPending = 0; } catch (e) {}
       };
@@ -259,7 +260,7 @@ window.tmgStoreButtons = function(p) {
     x.onload = function() {
       try {
         var m = /(?:^|\\n)loc=(\\S+)/.exec(x.responseText);
-        if (m && m[1]) gApply(m[1]);
+        if (m && m[1]) finish(m[1]);
       } catch (e) {}
       try { window.__tmgGeoPending = 0; } catch (e) {}
       gFallback();
