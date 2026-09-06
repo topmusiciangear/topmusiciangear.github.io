@@ -497,7 +497,7 @@ const TEST_SHOP_BTN = {
   464: {prices:{gear4music:"£412.00",andertons:"£399.00",zzounds:"$599.99",amazon:"$539.99"}},
    465: {prices:{gear4music:"£119.00",amazon:"$219.00"}},
    466: {prices:{gear4music:"£179.00"}},
-  472: {prices:{pluginboutique:"$129.00",gear4music:"£109.00",andertons:"£109.00"}},
+  472: {prices:{pluginboutique:"$129.00",gear4music:"£109.00",andertons:"£109.00",musicstore:"€129.00"}},
   473: {prices:{pluginboutique:"$125.00"}},
   474: {prices:{pluginboutique:"$80.00"}}
   };function shopButtonsTest(p, lang) {
