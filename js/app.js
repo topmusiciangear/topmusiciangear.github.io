@@ -610,7 +610,7 @@ function getResolvedStores(product) {
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
     andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
-    musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`,
+    musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`,
     zzounds: () => 'https://www.zzounds.com/a--925521/'
   };
   const s = {};
@@ -638,7 +638,7 @@ function getResolvedStores(product) {
   if (s.reverb) {
     s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
-  if (s.musicstore && !product.stores.musicstore) {
+  if (s.musicstore && !s.musicstore.startsWith('https://www.awin1.com/cread.php?awinmid=63816')) {
     s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
   }
   if (s.gear4music) {

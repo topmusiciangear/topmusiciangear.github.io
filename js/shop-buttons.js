@@ -927,8 +927,8 @@ window.tmgStoreButtons = function(p) {
   function targetSearch(T, root) {
     var t = ((root && root.querySelector('.guide-product-card-title')) || document.querySelector('.guide-product-card-title') || {}).textContent || '';
     if (T === 'zzounds') return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent('https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(t).replace(/%20/g, '+'));
-    if (T === 'gear4music') return 'https://www.gear4music.com/search?q=' + encodeURIComponent(t);
-    return 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(t);
+    if (T === 'gear4music') return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent('https://www.gear4music.com/search?q=' + encodeURIComponent(t));
+    return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent('https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(t));
   }
   function doSwap(T) {
     document.querySelectorAll('.guide-product-card-stores, .guide-section-buy, .shop-buttons-wrap').forEach(function(c) {
