@@ -513,7 +513,7 @@ const TEST_SHOP_BTN = {
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
   const storeSearch = {
-    zzounds: () => 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '?tag=topmusicg-20',
+    zzounds: () => 'https://www.zzounds.com/search.html?query=' + encodeURIComponent(p.title || '').replace(/%20/g, '+'),
     amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '&tag=topmusicg-20',
     reverb: () => revUrl,
     gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title || ''),
@@ -527,7 +527,7 @@ const TEST_SHOP_BTN = {
   const hasAmazon = !isLogic && !isPlugins;
   const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
   const pPrice = (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
-  const zzoundsSearchUrl = 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '?tag=topmusicg-20';
+  const zzoundsSearchUrl = 'https://www.zzounds.com/search.html?query=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
@@ -761,7 +761,7 @@ function wrapAffiliate(storeKey, url) {
   if (storeKey === 'andertons' && url.indexOf('irgwc=') < 0) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'irgwc=1&irpid=7292297';
   if (storeKey === 'reverb' && url.indexOf('awin1.com') < 0 && url.indexOf('reverb.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent(url);
   if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(normalizeMusicStore(url));
-  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=' + encodeURIComponent(url);
+  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(url);
   if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
   return url;
 }
@@ -829,7 +829,7 @@ function getResolvedStores(product) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
   }
   if (s.zzounds) {
-    s.zzounds = `https://www.anrdoezrs.net/click-101857888-10422044-1779394?url=${encodeURIComponent(s.zzounds.replace('/a--925521', ''))}`;
+    s.zzounds = `https://www.anrdoezrs.net/click-101857888-10439229?url=${encodeURIComponent(s.zzounds.replace('/a--925521', ''))}`;
   }
   return s;
 }
@@ -851,7 +851,7 @@ function shopButtonsTest(p, lang) {
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
   const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
   const storeSearch = {
-    zzounds: () => 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '?tag=topmusicg-20',
+    zzounds: () => 'https://www.zzounds.com/search.html?query=' + encodeURIComponent(p.title || '').replace(/%20/g, '+'),
     amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '&tag=topmusicg-20',
     reverb: () => revUrl,
     gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title || ''),
@@ -865,7 +865,7 @@ function shopButtonsTest(p, lang) {
   const hasAmazon = !isLogic && !isPlugins;
   const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
   const pPrice = (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
-  const zzoundsSearchUrl = 'https://www.zzounds.com/item--' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '?tag=topmusicg-20';
+  const zzoundsSearchUrl = 'https://www.zzounds.com/search.html?query=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
@@ -926,7 +926,7 @@ window.tmgStoreButtons = function(p) {
   };
   function targetSearch(T, root) {
     var t = ((root && root.querySelector('.guide-product-card-title')) || document.querySelector('.guide-product-card-title') || {}).textContent || '';
-    if (T === 'zzounds') return 'https://www.zzounds.com/item--' + encodeURIComponent(t).replace(/%20/g, '+') + '?tag=topmusicg-20';
+    if (T === 'zzounds') return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent('https://www.zzounds.com/search.html?query=' + encodeURIComponent(t).replace(/%20/g, '+'));
     if (T === 'gear4music') return 'https://www.gear4music.com/search?q=' + encodeURIComponent(t);
     return 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(t);
   }
@@ -942,7 +942,7 @@ window.tmgStoreButtons = function(p) {
         var ml = c.querySelector('.shop-more-list');
         if (!ml) return;
         var zHref = targetSearch(T, c);
-        var newPrimary = '<a href="' + zHref + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="' + storeStyles[T] + '">' + storeLabel[T] + '</span></span></span></a>';
+        var newPrimary = '<a href="' + zHref + '" target="_top" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="' + storeStyles[T] + '">' + storeLabel[T] + '</span></span></span></a>';
         pb.insertAdjacentHTML('beforebegin', newPrimary);
         pb.remove();
         return;
