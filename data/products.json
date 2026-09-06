@@ -10014,5 +10014,88 @@
       "andertons",
       "musicstore"
     ]
+  },
+  {
+    "id": 472,
+    "title": "Baby Audio Smooth Operator Pro",
+    "title_es": "Baby Audio Smooth Operator Pro",
+    "brand": "Baby Audio",
+    "category": "plugins",
+    "price": 129,
+    "rating": 4.8,
+    "reviews": 120,
+    "badge": "",
+    "desc": "Spectral compressor for taming harsh resonances with a single control. Built with Avedis Audio, it smooths resonant buildup on vocals, guitars and the mix bus while keeping the tone and dynamics intact — no EQ hunting, no phase artifacts.",
+    "desc_es": "Compresor espectral para domar resonancias duras con un solo control. Desarrollado con Avedis Audio, suaviza el acúmulo de resonancias en voces, guitarras y el bus de mezcla manteniendo intactos el tono y la dinámica — sin buscar frecuencias a mano ni artefactos de fase.",
+    "img": "https://r2.gear4music.com/media/120/1208359/1200/preview.jpg",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/16-EQ/14607-Smooth-Operator-Pro",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Smooth-Operator-Pro/754V",
+      "andertons": "https://www.andertons.co.uk/baby-audio-smooth-operator-pro-eq-plugin/"
+    },
+    "affiliate": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/16-EQ/14607-Smooth-Operator-Pro?a_aid=6a01e859cbe1a"
+    },
+    "excludeStores": [
+      "amazon",
+      "zzounds",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 473,
+    "title": "bx_clipper",
+    "title_es": "bx_clipper",
+    "brand": "Brainworx",
+    "category": "plugins",
+    "price": 125,
+    "rating": 4.6,
+    "reviews": 14,
+    "badge": "",
+    "desc": "Transparent software clipper that adds loudness by shaping the waveform instead of compressing it. Use it on drums, buses or the master to gain volume without pumping, distortion artifacts or unwanted coloration.",
+    "desc_es": "Clipper de software transparente que añade sonoridad moldeando la forma de onda en lugar de comprimirla. Úsalo en batería, buses o máster para ganar volumen sin pumping, artefactos de distorsión ni coloración no deseada.",
+    "img": "https://banners.pluginboutique.com/lob7z849jnplna5i2ujgancfd38b",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13281-bx-clipper"
+    },
+    "affiliate": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13281-bx-clipper?a_aid=6a01e859cbe1a"
+    },
+    "excludeStores": [
+      "amazon",
+      "zzounds",
+      "reverb",
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 474,
+    "title": "REFERENCE 3",
+    "title_es": "REFERENCE 3",
+    "brand": "Mastering The Mix",
+    "category": "plugins",
+    "price": 80,
+    "rating": 4.7,
+    "reviews": 6,
+    "badge": "",
+    "desc": "Reference and A/B checking plugin that loads your favorite commercial tracks and instantly balances gain and panning to compare them with your mix. Spectral overlays and loudness matching let you hear what is actually different instead of what is louder.",
+    "desc_es": "Plugin de referencia y comparación A/B que carga tus pistas comerciales favoritas y equilibra al instante ganancia y paneo para compararlas con tu mezcla. Las superposiciones espectrales y el emparejado de sonoridad te dejan oír qué es realmente distinto en lugar de qué es más fuerte.",
+    "img": "https://banners.pluginboutique.com/lpmuzyd3uwdtkfa6qi9pxjhlni4x",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/17100-REFERENCE-3"
+    },
+    "affiliate": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/17100-REFERENCE-3?a_aid=6a01e859cbe1a"
+    },
+    "excludeStores": [
+      "amazon",
+      "zzounds",
+      "reverb",
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
   }
 ]

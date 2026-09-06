@@ -216,7 +216,7 @@ const TEST_SHOP_BTN = {
   167: {prices:{amazon:"$1,099.00",zzounds:"$1,099.00",gear4music:"£899.00",musicstore:"€999.00"},oos:["andertons"]},
   170: {urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/G4M-Acoustics-Squarewave-4-Pack/5KYU"},oos:["gear4music","zzounds"]},
   173: {prices:{gear4music:"£17.99",amazon:"$23.00",musicstore:"€209.00"},oos:["andertons"]},
-  174: {prices:{gear4music:"£349.00",amazon:"$399.00",zzounds:"$399.00",andertons:"£2,999.00",musicstore:"€369.00"}},
+  174: {prices:{amazon:"$3,499.99",zzounds:"$3,599.99",gear4music:"£3,699.99",andertons:"£2,999.00",musicstore:"€3,399.00"}},
   175: {prices:{gear4music:"£599.00",amazon:"$699.00",zzounds:"$699.00",andertons:"£3,899.00",musicstore:"€649.00"}},
   176: {prices:{amazon:"$3,299.00",zzounds:"$3,499.00",andertons:"£2,778.00",gear4music:"£2,850.00",musicstore:"€3,149.00"}},
   177: {prices:{amazon:"$2,995.00",gear4music:"£2,899.00"},oos:["andertons","musicstore"]},
@@ -496,7 +496,10 @@ const TEST_SHOP_BTN = {
   463: {prices:{gear4music:"£199.00",andertons:"£209.00",musicstore:"€211.00",zzounds:"$269.99"}},
   464: {prices:{gear4music:"£412.00",andertons:"£399.00",zzounds:"$599.99",amazon:"$539.99"}},
    465: {prices:{gear4music:"£119.00",amazon:"$219.00"}},
-   466: {prices:{gear4music:"£179.00"}}
+   466: {prices:{gear4music:"£179.00"}},
+  472: {prices:{pluginboutique:"$129.00",gear4music:"£53.00",andertons:"£109.00"}},
+  473: {prices:{pluginboutique:"$125.00"}},
+  474: {prices:{pluginboutique:"$80.00"}}
   };function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
   const prices = cfg.prices || {};
