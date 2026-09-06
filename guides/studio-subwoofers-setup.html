@@ -768,13 +768,28 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
 </script>
 <script>
 (function(){
-  var storeLabel={zzounds:'zZounds',gear4music:'Gear4music',musicstore:'Music Store'};
-  var storeStyles={zzounds:"font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",gear4music:"font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",andertons:"font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",musicstore:"font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px"};
-  function targetSearch(T){
-    var t=(document.querySelector('.guide-product-card-title')||{}).textContent||'';
-    if(T==='zzounds')return 'https://www.anrdoezrs.net/click-101857888-10439229?url='+encodeURIComponent('https://www.zzounds.com/prodsearch?form=search&q='+encodeURIComponent(t).replace(/%20/g,'+'));
-    if(T==='gear4music')return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued='+encodeURIComponent('https://www.gear4music.com/search?q='+encodeURIComponent(t));
-    return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued='+encodeURIComponent('https://www.musicstore.com/en_OE/EUR/search?SearchText='+encodeURIComponent(t));
+  var gText={zzounds:'zZounds',gear4music:'Gear4music',musicstore:'Music Store',andertons:'Andertons',reverb:'Reverb',amazon:'Amazon'};
+  var gStyle={zzounds:"font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",gear4music:"font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",andertons:"font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",musicstore:"font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",reverb:"font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"};
+  function flagRect(inner){
+    return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px"><defs><clipPath id="flgcGeo"><rect width="24" height="16" rx="3.2"/></clipPath></defs><g clip-path="url(#flgcGeo)">'+inner+'</g><rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/></svg>';
+  }
+  function gFlag(k){
+    if(k==='zzounds'){
+      var s='<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
+      [0,2.46,4.92,7.38,9.85,12.31,14.77].forEach(function(y){s+='<rect y="'+y+'" width="24" height="1.23"/>';});
+      s+='</g><rect width="10" height="8.62" fill="#3C3B6E"/><g fill="#fff">';
+      [[1.9,1.8],[4.1,1.8],[6.3,1.8],[8.5,1.8],[3,3.1],[5.2,3.1],[7.4,3.1],[1.9,4.4],[4.1,4.4],[6.3,4.4],[8.5,4.4],[3,5.7],[5.2,5.7],[7.4,5.7]].forEach(function(p){s+='<circle cx="'+p[0]+'" cy="'+p[1]+'" r=".42"/>';});
+      return flagRect(s+'</g>');
+    }
+    if(k==='gear4music'||k==='andertons'){
+      return flagRect('<rect width="24" height="16" fill="#012169"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.4"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/><path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.6"/><path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
+    }
+    if(k==='musicstore'){
+      var scx=12,scy=8,sr=5.5,ssr=1.35,pts=[],i,a,cx,cy,j,ao,ai,sp;
+      for(i=0;i<12;i++){a=(i*30-90)*Math.PI/180;cx=scx+sr*Math.cos(a);cy=scy+sr*Math.sin(a);sp='';for(j=0;j<5;j++){ao=((j*72-90)*Math.PI/180);ai=(((j*72+36)-90)*Math.PI/180);sp+=(cx+ssr*Math.cos(ao)).toFixed(2)+','+(cy+ssr*Math.sin(ao)).toFixed(2)+' ';sp+=(cx+ssr*0.38*Math.cos(ai)).toFixed(2)+','+(cy+ssr*0.38*Math.sin(ai)).toFixed(2)+' ';}pts.push(sp.trim());}
+      return '<svg viewBox="0 0 24 16" width="19" height="16" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px"><defs><clipPath id="flgcGeo2"><rect width="24" height="16" rx="3.2"/></clipPath></defs><g clip-path="url(#flgcGeo2)"><rect width="24" height="16" fill="#003399"/>'+pts.map(function(p){return '<polygon points="'+p+'" fill="#FFCC00"/>';}).join('')+'</g><rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/></svg>';
+    }
+    return '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px"><defs><linearGradient id="glgGeo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeo"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeo)"/><g clip-path="url(#glcGeo)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#ffffff" stroke-opacity=".4"/></svg>';
   }
   function doSwap(T){
     document.querySelectorAll('.guide-product-card-stores, .guide-section-buy').forEach(function(c){
@@ -784,30 +799,24 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     if(curStore==='pluginboutique')return;
     if(curStore===T)return;
     var zRow=c.querySelector('[data-store="'+T+'"]');
-    if(!zRow){
-      var ml=c.querySelector('.shop-more-list');
-      if(!ml)return;
-      var zHref=targetSearch(T);
-      var newPrimary='<a href="'+zHref+'" target="_top" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="'+storeStyles[T]+'">'+storeLabel[T]+'</span></span></span></a>';
-      pb.insertAdjacentHTML('beforebegin',newPrimary);
-      pb.remove();
-      return;
-    }
+    if(!zRow)return;
     if(!zRow.getAttribute('href'))return;
     var ml=c.querySelector('.shop-more-list');
     var zUrl=zRow.getAttribute('href');
     var zPrice='';var zMatch=zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);if(zMatch)zPrice=zMatch[1];
     var aUrl=pb.getAttribute('href');
-    var globe='<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px"><defs><linearGradient id="glgGeo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeo"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeo)"/><g clip-path="url(#glcGeo)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#fff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#fff" stroke-opacity=".4"/></svg>';
-    var newPrimary='<a href="'+zUrl+'" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="'+storeStyles[T]+'">'+storeLabel[T]+'</span>'+(zPrice?' - '+zPrice:'')+'</span></span></a>';
+    var newPrimary='<a href="'+zUrl+'" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="'+(gStyle[T]||'font-weight:700')+'">'+(gText[T]||T)+'</span>'+(zPrice?' - '+zPrice:'')+'</span></span></a>';
     zRow.style.display='none';
     pb.insertAdjacentHTML('beforebegin',newPrimary);
     pb.remove();
-    if(ml&&curStore==='amazon'&&!ml.querySelector('[data-store="amazon"]')){
-      var aPrice='';var aMatch=pb.innerHTML.match(/- ([$£€][0-9.,]+)/);if(aMatch)aPrice=aMatch[1];
-      var amazonPrice=aPrice?'<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+aPrice+'</span></span>':'';
-      var amazonRow='<a data-store="amazon" href="'+aUrl+'" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">'+globe+'Amazon</span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span>'+amazonPrice+'</a>';
-      ml.insertAdjacentHTML('afterbegin',amazonRow);
+    if(ml&&!ml.querySelector('[data-store="'+curStore+'"]')){
+      var dispPrice='';var dispMatch=pb.innerHTML.match(/- ([$£€][0-9.,]+)/);if(dispMatch)dispPrice=dispMatch[1];
+      var dispPriceSpan=dispPrice?'<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+dispPrice+'</span></span>':'';
+      var dispNotes={zzounds:['(Planes de pago fáciles)','(Easy Payment Plans)'],reverb:['(Mercado nuevo y usado)','(New & Used Market)'],gear4music:['(Envíos rápidos UK)','(Fast UK Delivery)'],andertons:['(Soporte experto)','(Expert Support)'],musicstore:['(Garantía de 3 años)','(3-Year Warranty)'],amazon:['(Envío Prime)','(Prime Delivery)']};
+      var isEs=(document.documentElement.lang||'en').indexOf('es')===0;
+      var dispNote=dispNotes[curStore]?'<span style="color:#a8a8a8;font-size:12px;font-weight:600">'+(isEs?dispNotes[curStore][0]:dispNotes[curStore][1])+'</span>':'';
+      var dispRow='<a data-store="'+curStore+'" href="'+aUrl+'" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">'+gFlag(curStore)+'<span style="'+(gStyle[curStore]||'font-weight:700')+'">'+(gText[curStore]||curStore)+'</span></span>'+dispNote+dispPriceSpan+'</a>';
+      ml.insertAdjacentHTML('afterbegin',dispRow);
     }
   });
   }
@@ -818,12 +827,13 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     if(/^Europe[/]London([/]|$)/.test(tz))return 'gear4music';
     return null;
   }
+  function applyNow(T){
+    if(T==='none')T='amazon';
+    if(!T)return;
+    doSwap(T);
+  }
   var quick=quickTarget();
-  if(quick){doSwap(quick);return;}
-  try{
-    var cached=localStorage.getItem('tmgGeoSwap');
-    if(cached&&cached!=='none')doSwap(cached);
-  }catch(e){}
+  if(quick)applyNow(quick);
   var x=new XMLHttpRequest();
   x.open('GET','https://ipinfo.io/json',true);
   x.timeout=5000;
@@ -834,7 +844,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
       var MS={'AT':1,'BE':1,'BA':1,'BG':1,'HR':1,'CZ':1,'DK':1,'EE':1,'FI':1,'FR':1,'DE':1,'GR':1,'HU':1,'IE':1,'IT':1,'LV':1,'LT':1,'LU':1,'NL':1,'NO':1,'PL':1,'PT':1,'RO':1,'RU':1,'RS':1,'SI':1,'ZA':1,'ES':1,'SE':1,'CH':1,'TR':1};
       var t = cc==='US' ? 'zzounds' : cc==='GB' ? 'gear4music' : MS[cc] ? 'musicstore' : 'none';
       try{localStorage.setItem('tmgGeoSwap',t);}catch(e){}
-      if(t!=='none')doSwap(t);
+      applyNow(t);
     }catch(e){}
   };
   x.onerror=x.ontimeout=function(){
