@@ -36,6 +36,16 @@
 
 ## 0.4) DEPLOYED (05/09/2026, commit f32a52dedf)
 - Todo lo de 0.3 + el fix del verdict_es ("la mejora más grande que puedes hacer", "es el que necesitas") + "la opción más rápida" (KH750) + "sigue siendo la mejor opción para gestión" (Genelec conclusión) + "En esta guía repasamos el proceso completo" (intro, tras commit 0074222e38).
+- DEPLOYED también commit 676cf548f5 (studio-subwoofers-setup: "picos y valles", "en torno al que", "Neumann.Control", "es la opción más cara", "ajustes de proximidad a las paredes", "cruce fijo").
+
+## 0.5) PASADA MASIVA ES natural word-by-word en TODO el sitio (EN PASO: rebuild + auditors OK, falta deploy)
+- 20 batches de agentes auditaron palabra a palabra toda la ES: 16 batches de guías (119+188+189+176+203+147+228+208+125+181+157+77+22+138+196+164 fixes) + 4 de productos (P1 79 / P2 80 / P3 58 / P4 53). Total ~2.787 fixes aplicados (2781 en primera pasada; re-aplicación global 74 más; 12 falsos positivos "new contiene old" y 7 genuinos finales aplicados).
+- Calcos/typos corregidos de paso: "es la elección para→es la mejor opción para", "la vía más→el camino más", "paso adelante", "por dólar (calco per dollar)→por tu dinero" (25×), "A cuesta/cuestan" corrupto al inicio de frase→"Cuesta/Cuestan" (5×), "Fantom power→Phantom power", "A con funciones→Viene con funciones", "dJI mic 2→DJI Mic 2" + "la elección diaria→el micrófono diario", tildes faltantes, HTML tags corruptos.
+- "es/son la elección + adjetivo/para/si/cuando"→"es/son la opción..." (39 reemplazos). SE MANTIENEN los genitivo idiomáticos correctos: "es la elección de los profesionales/del rockero/de muchos compositores" (8 casos).
+- IMPORTANTE: el re-aplicación global por etiquetas contaminó campos EN (no-_es) de varias guías con texto ES (link-buttons, productTable values, 1 "Añother"). Detectado con script temp/restore-en.cjs → restaurados los 45 campos EN desde HEAD. products.json: 0 diferencias EN.
+- Rebuild 298 páginas OK. Auditors limpios: es-accent2 (20 hits = falsos positivos "al/en un DAW", "precision" producto/URL), es-site-audit SCAN_DONE. Banderas (hace sentido, en base a, eventualmente, tremendo, paso adelante) = 0.
+- fix files: es-fixes\applied\BATCH-1..16.json + PRODUCTS-P1..P4.json. Scripts temp/fix-eleccion.cjs, fix-residual.cjs, restore-en.cjs, ctx-*.cjs, banners.cjs.
+- PENDIENTE: revisar datos antes de deploy ✓ hecha (0.6 si hay más).
 
 ## 1) Waves SSL G-Master Buss Compressor — fix product 119 (DONE, local)
 - Modeled from the SSL 4000 G console's master buss compressor; "the sound of a million hit records".
