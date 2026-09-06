@@ -22936,8 +22936,8 @@
     ],
     "conclusion": "This guide covers the three main keyboard categories to help you find the right one. MIDI controllers are for DAW producers — affordable, lightweight, and packed with pads and faders. Digital pianos are for pianists who want authentic weighted keys and realistic piano sounds. Synthesizers are for sound designers and electronic music producers. Each category has its own specialized guide with detailed reviews and comparisons. <p><a class=\"guide-link-btn\" href=\"/guides/midi-keyboards.html\">Best MIDI Keyboards & Controllers</a> <a class=\"guide-link-btn\" href=\"/guides/best-digital-pianos.html\">Best Digital Pianos</a> <a class=\"guide-link-btn\" href=\"/guides/best-synthesizers.html\">Best Synthesizers</a> <a class=\"guide-link-btn\" href=\"/guides/best-drum-machine.html\">Best Drum Machines</a></p>",
     "conclusion_es": "Esta guía cubre las tres categorías principales de teclados para ayudarte a encontrar el correcto. Los controladores MIDI son para productores de DAW — económicos, ligeros y llenos de pads y faders. Los pianos digitales son para pianistas que quieren teclas ponderadas auténticas y sonidos de piano realistas. Los sintetizadores son para diseñadores de sonido y productores de música electrónica. Cada categoría tiene su propia guía especializada con reseñas detalladas y comparativas. <p>También te interesa: <a class=\"guide-link-btn\" href=\"/guides/midi-keyboards_es.html\">Mejores Teclados y Controladores MIDI</a> <a class=\"guide-link-btn\" href=\"/guides/best-digital-pianos_es.html\">Mejores Pianos Digitales</a> <a class=\"guide-link-btn\" href=\"/guides/best-synthesizers_es.html\">Mejores sintetizadores</a> <a class=\"guide-link-btn\" href=\"/guides/best-drum-machine_es.html\">Mejores Máquinas de Batería</a></p>",
-    "verdict": "MIDI controllers for DAW producers, digital pianos for pianists, synthesizers for sound designers. Start with the category that matches your workflow, and check our specialized guides for detailed reviews.",
-    "verdict_es": "Controladores MIDI para productores de DAW, pianos digitales para pianistas, sintetizadores para diseñadores de sonido. Empieza con la categoría que coincida con lo que grabas, y consulta nuestras guías especializadas para reseñas detalladas.",
+    "verdict": "MIDI controllers for DAW producers, digital pianos for pianists, synthesizers for sound designers. Choose your path below to see our deep-dive reviews, or scroll down to check our quick comparison of the top models across every category.",
+    "verdict_es": "Controladores MIDI para productores de DAW, pianos digitales para pianistas, sintetizadores para diseñadores de sonido. Elige tu camino a continuación para ver nuestras reseñas a fondo, o desplázate hacia abajo para consultar nuestra comparativa rápida de los mejores modelos de cada categoría.",
     "featuredProducts": [],
     "description": "BEST keyboard guide 2026. Find the right keyboard for your workflow — MIDI controllers, digital pianos, or synthesizers. Compare categories and find the perfect match.",
     "featuredSnippet": {
@@ -41342,7 +41342,11 @@
         "products": [
           12,
           142,
-          143
+          143,
+          475,
+          476,
+          477,
+          478
         ]
       },
       {
@@ -41390,7 +41394,11 @@
       142,
       143,
       12,
-      174
+      174,
+      475,
+      476,
+      477,
+      478
     ],
     "description": "BEST synthesizers for music production 2026. Korg Minilogue XD vs Moog Subsequent 37 vs Yamaha Montage M8x. Read the full verdict & prices before you buy.",
     "description_es": "MEJORES sintetizadores para producción 2026. Minilogue XD asequible, Subsequent 37 bajos y leads, Montage M8x workstation.",
@@ -41498,6 +41506,22 @@
         {
           "title": "Sequential OB-6 Keyboard",
           "title_es": "Teclado Sequential OB-6"
+        },
+        {
+          "title": "Arturia MicroFreak",
+          "title_es": "Arturia MicroFreak"
+        },
+        {
+          "title": "Behringer DeepMind 12",
+          "title_es": "Behringer DeepMind 12"
+        },
+        {
+          "title": "ASM Hydrasynth Keyboard",
+          "title_es": "ASM Hydrasynth Keyboard"
+        },
+        {
+          "title": "Sequential Take 5",
+          "title_es": "Sequential Take 5"
         }
       ],
       "rows": [
@@ -41520,6 +41544,22 @@
             {
               "value": "Huge analog poly for pads & leads",
               "value_es": "Polifonía analógica enorme para pads y leads"
+            },
+            {
+              "value": "Budget hybrid with endless digital tones",
+              "value_es": "Híbrido económico con tonos digitales infinitos"
+            },
+            {
+              "value": "Analog poly for bread & butter warmth",
+              "value_es": "Polifónico analógico con calidez de uso diario"
+            },
+            {
+              "value": "Deep sound design & PolyTouch playability",
+              "value_es": "Diseño sonoro profundo y expresividad PolyTouch"
+            },
+            {
+              "value": "Compact professional poly with key-split",
+              "value_es": "Polifónico profesional compacto con split de teclas"
             }
           ]
         },
@@ -41538,6 +41578,22 @@
             {
               "value": "Synth workstation",
               "value_es": "Workstation de sintetizadores"
+            },
+            {
+              "value": "Analog synth",
+              "value_es": "Sintetizador analógico"
+            },
+            {
+              "value": "Hybrid paraphonic synth",
+              "value_es": "Sintetizador parafónico híbrido"
+            },
+            {
+              "value": "Analog synth (12-voice)",
+              "value_es": "Sintetizador analógico (12 voces)"
+            },
+            {
+              "value": "Digital synth (wave morphing)",
+              "value_es": "Sintetizador digital (wave morphing)"
             },
             {
               "value": "Analog synth",
@@ -41564,6 +41620,22 @@
             {
               "value": "49 keys",
               "value_es": "49 teclas"
+            },
+            {
+              "value": "25 keys (capacitive, poly-AT)",
+              "value_es": "25 teclas (capacitivas, poly-AT)"
+            },
+            {
+              "value": "49 keys (semi-weighted)",
+              "value_es": "49 teclas (semi-ponderadas)"
+            },
+            {
+              "value": "49 keys (PolyTouch)",
+              "value_es": "49 teclas (PolyTouch)"
+            },
+            {
+              "value": "44 keys (semi-weighted)",
+              "value_es": "44 teclas (semi-ponderadas)"
             }
           ]
         },
@@ -41586,6 +41658,22 @@
             {
               "value": "2 osc SEM analog",
               "value_es": "2 osc SEM analógicos"
+            },
+            {
+              "value": "21 digital osc modes + analog SEM filter",
+              "value_es": "21 modos de oscilador digital + filtro SEM analógico"
+            },
+            {
+              "value": "3 osc analog, dual filter",
+              "value_es": "3 osc analógicos, filtro doble"
+            },
+            {
+              "value": "8-osc digital, 3 wave-morph per osc",
+              "value_es": "8 osc digitales, 3 wave-morph por oscilador"
+            },
+            {
+              "value": "2 osc analog + sub, classic filter",
+              "value_es": "2 osc analógicos + sub, filtro clásico"
             }
           ]
         },
@@ -41608,6 +41696,22 @@
             {
               "value": "6 voices",
               "value_es": "6 voces"
+            },
+            {
+              "value": "4 voices (paraphonic)",
+              "value_es": "4 voces (parafónico)"
+            },
+            {
+              "value": "12 voices",
+              "value_es": "12 voces"
+            },
+            {
+              "value": "8 voices",
+              "value_es": "8 voces"
+            },
+            {
+              "value": "5 voices",
+              "value_es": "5 voces"
             }
           ]
         },
@@ -41630,6 +41734,22 @@
             {
               "value": "LFO mod, no internal FX",
               "value_es": "Mod LFO, sin FX internos"
+            },
+            {
+              "value": "6 built-in FX (Space Echo, chorus…)",
+              "value_es": "6 FX integrados (Space Echo, chorus…)"
+            },
+            {
+              "value": "4 FX engines (TC/Klark, Lexicon)",
+              "value_es": "4 motores FX (TC/Klark, Lexicon)"
+            },
+            {
+              "value": "4 FX blocks (2 mod + delay + reverb)",
+              "value_es": "4 bloques FX (2 mod + delay + reverb)"
+            },
+            {
+              "value": "2 FX + analog drive",
+              "value_es": "2 FX + drive analógico"
             }
           ]
         },
@@ -41652,6 +41772,22 @@
             {
               "value": "600 presets",
               "value_es": "600 presets"
+            },
+            {
+              "value": "320 factory / 512 slots",
+              "value_es": "320 de fábrica / 512 slots"
+            },
+            {
+              "value": "1024 programs",
+              "value_es": "1024 programas"
+            },
+            {
+              "value": "1024 patches (8 banks x 128)",
+              "value_es": "1024 patches (8 bancos x 128)"
+            },
+            {
+              "value": "256 factory + 256 user",
+              "value_es": "256 de fábrica + 256 de usuario"
             }
           ]
         },
@@ -41674,6 +41810,22 @@
             {
               "value": "Arpeggiator",
               "value_es": "Arpegiador"
+            },
+            {
+              "value": "64-step sequencer + arpeggiator",
+              "value_es": "Secuenciador de 64 pasos + arpegiador"
+            },
+            {
+              "value": "32-step sequencer",
+              "value_es": "Secuenciador de 32 pasos"
+            },
+            {
+              "value": "Arpeggiator (64 phrases)",
+              "value_es": "Arpegiador (64 frases)"
+            },
+            {
+              "value": "Polyphonic step sequencer (64 steps)",
+              "value_es": "Secuenciador polifónico (64 pasos)"
             }
           ]
         },
@@ -41696,6 +41848,22 @@
             {
               "value": "MIDI, CV, USB",
               "value_es": "MIDI, CV, USB"
+            },
+            {
+              "value": "MIDI, USB, CV/Gate out",
+              "value_es": "MIDI, USB, salida CV/Gate"
+            },
+            {
+              "value": "MIDI, USB, Wi-Fi (apps)",
+              "value_es": "MIDI, USB, Wi-Fi (apps)"
+            },
+            {
+              "value": "MIDI, USB, CV/Gate",
+              "value_es": "MIDI, USB, CV/Gate"
+            },
+            {
+              "value": "MIDI, USB, CV/Gate",
+              "value_es": "MIDI, USB, CV/Gate"
             }
           ]
         },
@@ -41718,6 +41886,22 @@
             {
               "value": "21.8 lb (9.9 kg)",
               "value_es": "9,9 kg"
+            },
+            {
+              "value": "2.2 lb (1.02 kg)",
+              "value_es": "1,02 kg"
+            },
+            {
+              "value": "18.5 lb (8.4 kg)",
+              "value_es": "8,4 kg"
+            },
+            {
+              "value": "22 lb (10 kg)",
+              "value_es": "10 kg"
+            },
+            {
+              "value": "17 lb (7.7 kg)",
+              "value_es": "7,7 kg"
             }
           ]
         }
@@ -41830,6 +42014,112 @@
         "cons_es": [
           "Seis voces pueden quedarse cortas para acordes apilados grandes o patches complejos en capas",
           "El carácter solo analógico es menos versátil para sonidos digitales o de workstation"
+        ]
+      },
+      {
+        "name": "Arturia MicroFreak",
+        "name_es": "Arturia MicroFreak",
+        "pros": [
+          "Budget-friendly hybrid packing 21 digital oscillator modes",
+          "25-key capacitive keyboard with polyphonic aftertouch",
+          "Six built-in effects including Space Echo, Super Unison and Chorus/Flanger",
+          "64-step sequencer, arpeggiator and CV/Gate out in a 2.2 lb body"
+        ],
+        "pros_es": [
+          "Híbrido económico con 21 modos de oscilador digital",
+          "Teclado capacitivo de 25 teclas con aftertouch polifónico",
+          "Seis efectos integrados: Space Echo, Super Unison, Chorus/Flanger y más",
+          "Secuenciador de 64 pasos, arpegiador y salida CV/Gate en un cuerpo de 1,02 kg"
+        ],
+        "cons": [
+          "Single analog filter shared across all voices",
+          "25 keys are too few for two-handed playing",
+          "Paraphonic — chords share the filter, so it's not a true polyphonic synth",
+          "No speakers or battery — needs USB power or an adapter"
+        ],
+        "cons_es": [
+          "Un solo filtro analógico compartido entre todas las voces",
+          "25 teclas se quedan cortas para tocar a dos manos",
+          "Parafónico — los acordes comparten el filtro, así que no es un polifónico real",
+          "Sin altavoces ni batería — necesita alimentación USB o adaptador"
+        ]
+      },
+      {
+        "name": "Behringer DeepMind 12",
+        "name_es": "Behringer DeepMind 12",
+        "pros": [
+          "True 12-voice analog polyphony for under $1,000",
+          "1024 programmes with 4 TC/Klark effects engines and Lexicon reverbs",
+          "Adjustable 2/4-pole filter plus 4 envelopes, 3 LFOs and deep mod matrix",
+          "32-step sequencer with Wi-Fi connectivity for remote editing"
+        ],
+        "pros_es": [
+          "Polifonía analógica real de 12 voces por menos de $1,000",
+          "1024 programas con 4 motores de efectos TC/Klark y reverbs Lexicon",
+          "Filtro conmutable de 2/4 polos, 4 envolventes, 3 LFO y profunda matriz de modulación",
+          "Secuenciador de 32 pasos con Wi-Fi para edición remota"
+        ],
+        "cons": [
+          "Heavy 8.4 kg chassis — not a gig-friendly carry",
+          "Shared effects per voice-group routing can get complex",
+          "Semi-weighted keys feel softer than premium synth keybeds"
+        ],
+        "cons_es": [
+          "Chasis pesado de 8,4 kg — poco cómodo para cargar a conciertos",
+          "El enrutamiento de efectos compartido por grupos de voces puede complicarse",
+          "Las teclas semi-ponderadas se sienten más suaves que los teclados premium"
+        ]
+      },
+      {
+        "name": "ASM Hydrasynth Keyboard",
+        "name_es": "ASM Hydrasynth Keyboard",
+        "pros": [
+          "8-oscillator digital engine with three wave-morphable functions per osc",
+          "PolyTouch keybed — per-key pitch, vibrato and more",
+          "Four FX blocks (2 mod + delay + reverb) in every patch",
+          "1024 patches across 8 banks with a huge macro-control surface"
+        ],
+        "pros_es": [
+          "Motor digital de 8 osciladores con tres funciones wave-morphable por oscilador",
+          "Teclado PolyTouch — pitch, vibrato y más por cada tecla",
+          "Cuatro bloques FX (2 de modulación + delay + reverb) en cada patch",
+          "1024 patches en 8 bancos con una gran superficie de macro-controles"
+        ],
+        "cons": [
+          "No samples or analog oscillator warmth — best for modern digital sound",
+          "10 kg and a wide body demand a solid stand",
+          "Steeper menu-diving than knob-rich analogs like the OB-6"
+        ],
+        "cons_es": [
+          "Sin samples ni calidez de oscilador analógico — brilla en sonido digital moderno",
+          "10 kg y cuerpo ancho exigen un soporte sólido",
+          "Requiere más navegación de menús que los analógicos repletos de perillas como el OB-6"
+        ]
+      },
+      {
+        "name": "Sequential Take 5",
+        "name_es": "Sequential Take 5",
+        "pros": [
+          "5-voice analog polyphony in a compact, gig-friendly 7.7 kg chassis",
+          "44-key Fatar semi-weighted keybed that plays beautifully",
+          "Two FX + analog drive on every patch, plus key-split into two timbres",
+          "256 factory + 256 user presets with a 64-step polyphonic sequencer"
+        ],
+        "pros_es": [
+          "Polifonía analógica de 5 voces en un chasis compacto y cómodo de 7,7 kg",
+          "Teclado Fatar semi-ponderado de 44 teclas que se toca de maravilla",
+          "Dos FX + drive analógico en cada patch, más split de teclas en dos timbres",
+          "256 presets de fábrica + 256 de usuario con secuenciador polifónico de 64 pasos"
+        ],
+        "cons": [
+          "5 voices limit big pads or dense chords",
+          "No built-in speakers — needs an amp or interface",
+          "Premium price compared to other compact analog polys"
+        ],
+        "cons_es": [
+          "5 voces limitan pads grandes o acordes densos",
+          "Sin altavoces integrados — necesita amplificador o interfaz",
+          "Precio premium comparado con otros polifónicos analógicos compactos"
         ]
       }
     ],
@@ -64126,8 +64416,8 @@
     "category": "microphones",
     "image": "https://r2.gear4music.com/media/54/546970/1200/preview_1.jpg",
     "badge": "bestSeller",
-    "intro": "Building a professional studio setup around audio interface instead? Skip USB and see our tested picks in the <a href=\"/guides/budget-mics.html\" class=\"guide-link-btn\">23 Best Budget XLR Microphones </a> You don't need a mixer, an interface, or a mic to sound professional. A good USB microphone plugs straight into your computer and gets you broadcast-quality voice in minutes, and the best ones cost well.",
-    "intro_es": "¿Buscas un micrófono USB listo para conectar y grabar sin interfaz de audio? Esta guía cubre los 11 mejores micrófonos USB por menos de $100, probados para streaming, podcasting y home studio",
+    "intro": "You don't need a mixer, an audio interface, or an expensive studio setup to sound professional. A good budget USB microphone plugs straight into your computer and delivers broadcast-quality voice in minutes — that's why we've researched the market and hand-picked the 13 best budget USB microphones under $100 for 2026, tested across gaming, streaming, podcasting and calls. Already running an interface instead? Our <a href=\"/guides/budget-mics.html\" class=\"guide-link-btn\">23 Best Budget XLR Microphones</a> guide has you covered.",
+    "intro_es": "No necesitas un mixer, una interfaz de audio ni un setup caro para sonar profesional. Un buen micrófono USB económico se conecta directo a tu computadora y te da voz de calidad broadcast en minutos — por eso hemos analizado el mercado y seleccionado los 13 mejores micrófonos USB por menos de $100 para 2026, probados en gaming, streaming, podcasting y llamadas. ¿Ya usas una interfaz y prefieres XLR? Nuestra guía de los <a href=\"/guides/budget-mics_es.html\" class=\"guide-link-btn\">23 mejores micrófonos XLR por menos de $200</a> te lo cubre.",
     "sections": [
       {
         "heading": "What a Budget USB Mic Should Spend Its Money On",
@@ -64297,7 +64587,7 @@
       "mics-for-creators",
       "best-microphone"
     ],
-    "description": "11 BEST budget USB microphones for 2026: Samson Q2U, FIFINE, Rode, HyperX SoloCast 2 & more tested. Plug-and-play clear voice for gaming, streaming, podcasting & calls.",
+    "description": "13 BEST budget USB microphones for 2026: Samson Q2U, FIFINE, Rode, HyperX SoloCast 2 & more tested. Plug-and-play clear voice for gaming, streaming, podcasting & calls.",
     "featuredSnippet": {
       "title_en": "Best Budget USB Microphones for Gaming, Podcasting & Streaming",
       "text_en": "For the Samson Q2U is the best all-round USB mic with USB+XLR outputs, the HyperX SoloCast 2 is the best-sounding condenser value, and the Maono PD200X is the best dynamic for streamers.",
@@ -64348,7 +64638,7 @@
       "faq_q6_es": "¿Qué incluye el Samson Q2U en la caja?",
       "faq_a6_es": "El Q2U incluye un soporte de escritorio, un trípode, un filtro antipop, un cable USB y un cable XLR. Eso lo convierte en el micrófono económico más completo de fábrica de esta lista — nada más aquí viene con cable USB y XLR más filtro antipop."
     },
-    "description_es": "Los 11 MEJORES micrófonos USB económicos para 2026: Samson Q2U, FIFINE, Rode, HyperX SoloCast 2 y más probados. Voz clara plug-and-play para gaming, streaming, podcasting y llamadas.",
+    "description_es": "Los 13 MEJORES micrófonos USB económicos para 2026: Samson Q2U, FIFINE, Rode, HyperX SoloCast 2 y más probados. Voz clara plug-and-play para gaming, streaming, podcasting y llamadas.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",

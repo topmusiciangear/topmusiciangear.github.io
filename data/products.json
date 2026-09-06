@@ -10097,5 +10097,95 @@
       "gear4music",
       "musicstore"
     ]
+  },
+  {
+    "id": 475,
+    "title": "Arturia MicroFreak",
+    "title_es": "Arturia MicroFreak",
+    "brand": "Arturia",
+    "category": "keyboards",
+    "price": 349,
+    "rating": 4.7,
+    "reviews": 3124,
+    "badge": "bestSeller",
+    "desc": "Hybrid paraphonic synthesizer that pairs an analog SEM-style state-variable filter with versatile digital oscillators, including the open-source Plaits engine from Mutable Instruments. The 25-key capacitive keyboard with polyphonic aftertouch, 64-step sequencer, arpeggiator, preset cycling and CV/Gate connectivity make it a deep yet portable tool for performance, sound design and desktop setups.",
+    "desc_es": "Sintetizador híbrido parafónico que combina un filtro analógico de estado variable estilo SEM con osciladores digitales versátiles, incluido el motor open-source Plaits de Mutable Instruments. El teclado capacitivo de 25 teclas con aftertouch polifónico, el secuenciador de 64 pasos, el arpegiador, el ciclo de presets y la conectividad CV/Gate lo convierten en una herramienta profunda pero portátil para directo, diseño de sonido y setups de escritorio.",
+    "img": "https://r2.gear4music.com/media/89/894510/1200/preview_1.jpg",
+    "stores": {
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FArturia-MicroFreak%2Fart-SYN0006879-000",
+      "amazon": "https://www.amazon.com/dp/B07NC254QQ",
+      "andertons": "https://www.andertons.co.uk/arturia-microfreak-paraphonic-hybrid-analogue-digital-synth/?irgwc=1&irpid=7292297",
+      "zzounds": "https://www.zzounds.com/a--925521/item--ARAMICROFREAK"
+    },
+    "excludeStores": [
+      "gear4music"
+    ]
+  },
+  {
+    "id": 476,
+    "title": "Behringer DeepMind 12",
+    "title_es": "Behringer DeepMind 12",
+    "brand": "Behringer",
+    "category": "keyboards",
+    "price": 929,
+    "rating": 4.6,
+    "reviews": 2187,
+    "badge": "value",
+    "desc": "True 12-voice analog polyphonic synthesizer with two DCOs per voice, a 24dB/oct filter, three envelopes, dual LFOs and an 8-bus modulation matrix. Four independent effects engines from TC Electronic and Klark Teknik provide studio-grade reverbs (including Lexicon 480L emulations), delays, chorus and more, plus a 32-step sequencer, arpeggiator and Wi-Fi/tablet editing.",
+    "desc_es": "Sintetizador polifónico analógico de 12 voces reales con dos DCO por voz, filtro de 24 dB/octava, tres envolventes, dobles LFO y matriz de modulación de 8 buses. Cuatro motores de efectos independientes de TC Electronic y Klark Teknik aportan reverbs de nivel estudio (incluidas emulaciones Lexicon 480L), delays, chorus y más, junto a un secuenciador de 32 pasos, arpegiador y edición por Wi-Fi/tablet.",
+    "img": "https://r2.gear4music.com/media/27/274443/1200/preview.jpg",
+    "stores": {
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBehringer-DeepMind-12%2Fart-SYN0005543-000",
+      "amazon": "https://www.amazon.com/dp/B06VW1FQF2",
+      "andertons": "https://www.andertons.co.uk/behringer-deepmind-12-synthesizer/?irgwc=1&irpid=7292297"
+    },
+    "oos": [
+      "zzounds"
+    ],
+    "excludeStores": [
+      "gear4music"
+    ]
+  },
+  {
+    "id": 477,
+    "title": "ASM Hydrasynth",
+    "title_es": "ASM Hydrasynth",
+    "brand": "ASM",
+    "category": "keyboards",
+    "price": 1399,
+    "rating": 4.8,
+    "reviews": 1245,
+    "badge": "premium",
+    "desc": "49-key keyboard version of the flagship Hydrasynth with PolyTouch polyphonic aftertouch, 8 voices and a deep wavetable engine built on the BioTone oscillator with 219 wavetables and wave-morphing. Three oscillators, dual multimode filters, Mutators (FM, PWM, hard-sync, wavestack), five LFOs, five DAHDSR envelopes, a ribbon controller, CV/Gate I/O and an enormous patch memory.",
+    "desc_es": "Versión de 49 teclas del Hydrasynth insignia con aftertouch polifónico PolyTouch, 8 voces y un motor de wavetable profundo basado en el oscilador BioTone con 219 tablas de onda y morphing de onda. Tres osciladores, dobles filtros multimodo, Mutators (FM, PWM, hard-sync, wavestack), cinco LFO, cinco envolventes DAHDSR, cinta de control, entrada/salida CV/Gate y una enorme memoria de patches.",
+    "img": "https://r2.gear4music.com/media/79/796514/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FASM-Hydrasynth-Digital-Wave-Morphing-Synthesizer%2F35K2",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FASM-Hydrasynth-Keyboard%2Fart-SYN0007243-000",
+      "amazon": "https://www.amazon.com/dp/B07ZPWFYBS",
+      "andertons": "https://www.andertons.co.uk/asm-hydrasynth-synth-49-keys/?irgwc=1&irpid=7292297",
+      "zzounds": "https://www.zzounds.com/a--925521/item--ASOHYDRASYNTHKB"
+    }
+  },
+  {
+    "id": 478,
+    "title": "Sequential Take 5",
+    "title_es": "Sequential Take 5",
+    "brand": "Sequential",
+    "category": "keyboards",
+    "price": 1399,
+    "rating": 4.7,
+    "reviews": 674,
+    "badge": "topQuality",
+    "desc": "Five-voice polyphonic analog synthesizer born from the Prophet-5 rev4: two VCOs plus sub and noise per voice, the classic 24dB/oct Curtis filter, a vintage knob for old-school character and two DADSR envelopes with dual LFOs per voice. Adds digital effects, analog distortion, polyphonic portamento, 256 factory and 256 user sounds, arpeggiator, step sequencer and key-split on a compact 44-key Fatar keyboard.",
+    "desc_es": "Sintetizador analógico polifónico de cinco voces nacido del Prophet-5 rev4: dos VCO más sub y ruido por voz, el filtro Curtis clásico de 24 dB/octava, el mando vintage para el carácter de los modelos clásicos y dos envolventes DADSR con dobles LFO por voz. Añade efectos digitales, distorsión analógica, portamento polifónico, 256 sonidos de fábrica y 256 de usuario, arpegiador, secuenciador de pasos y key-split en un teclado Fatar compacto de 44 teclas.",
+    "img": "https://r2.gear4music.com/media/69/699130/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FSequential-Take-5-Five-Voice-Poly-Synth%2F41S8",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSequential-Take-5%2Fart-SYN0007969-000",
+      "amazon": "https://www.amazon.com/dp/B09FM1LJ6B",
+      "andertons": "https://www.andertons.co.uk/sequential-take-5/?irgwc=1&irpid=7292297",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SEQTAKE5"
+    }
   }
 ]
