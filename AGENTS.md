@@ -630,6 +630,14 @@ grep -E "app\.min\.js\?v=|style\.min\.css\?v=" index.html
 **Causa raíz:** `doSwap(T)` en `js/shop-buttons.js` (IIFE `tmgGeoSwap`, plantilla en `temp/gen-shop-buttons.js`): cuando el swap ocurría, (1) ocultaba la fila G4M del desplegable (`zRow.style.display='none'`), (2) eliminaba el botón primario zzounds, y (3) **solo re-añadía la tienda desplazada a la lista si era Amazon** (`curStore === 'amazon'`). Como el primario estático del build es zzounds (timezone del build = USA), nunca se reinsertaba → 4 filas.
 **Fix aplicado (06/09/2026):** el bloque de re-inserción ahora es general — tras el swap, si la lista NO contiene `[data-store="<curStore>"]`, se re-inserta la tienda primaria desplazada con su URL/afiliado original, bandera (`SHOP_FLAG`), wordmark (`SHOP_LOGO_TEXT`/`SHOP_LOGO_STYLE`), nota localizada (`dispNotes` ES/EN) y precio (regex `- [moneda]` sobre el innerHTML del primario eliminado). La fila Amazon ahora usa el mismo render que el resto de filas (globeIcon + "(Envío Prime)"). Código en `temp/gen-shop-buttons.js` (regenerar `js/shop-buttons.js` con `node temp/gen-shop-buttons.js`). Verificado: UK→G4M deja zZounds + Amazon + Reverb + Andertons + Music Store (5 filas).
 
+### ✅ REGLA FINAL geo-swap: primario FIJO por zona, NUNCA cambia
+**Directiva usuario (06/09/2026):** el primario es fijo por zona y no debe variar jamás tras la asignación: **UK→Gear4Music · USA→zZounds · Europa (países MS)→Music Store · resto de países→Amazon · Plugins→Plugin Boutique siempre**. Si el primario ya es el de la zona, el script no toca nada (idempotente por card en cada render del SPA).
+**Cómo se cumple en `temp/gen-shop-buttons.js` (regenerar `js/shop-buttons.js`):**
+- `applyNow(T)`: si `T === 'none'` pasa a `'amazon'`; si `!T` no hace nada. Sin este mapeo, `doSwap('none')` creaba un primario "Music Store search" (fallback de `targetSearch`, eliminado) reemplazando el bueno.
+- `doSwap(T)`: si el store de zona NO existe en el card (`!zRow`) hace `return` puro (nunca crea sustitutos ni muta el desplegable).
+- `quickTarget` (timezone, sin espera de red) gana siempre sobre ipinfo; el paso de `localStorage` cache (`tmgGeoSwap`) se eliminó para que la zona NO pueda quedarse obsoleta entre sesiones; ipinfo resuelve en cada sesión fresca y `applyNow(t)` corre SIEMPRE (incluso `t !== 'none'`).
+- El texto "Buy at zZounds" en el nuevo primario usa `storeStyles`/`storeLabel`; `targetSearch` se eliminó (era la fuente del bug `none`→Music Store search).
+
 ## ⭐ MANDATORY: Superar a la competencia en cada guía (SEO)
 
 En cada guía que se toque o cree, SIEMPRE:
