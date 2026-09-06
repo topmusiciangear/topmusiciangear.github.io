@@ -219,30 +219,54 @@ window.tmgStoreButtons = function(p) {
       ev.length = 0;
     }
   }
+  function geoZone(c) {
+    var MS = {'AT':1,'BE':1,'BA':1,'BG':1,'HR':1,'CZ':1,'DK':1,'EE':1,'FI':1,'FR':1,'DE':1,'GR':1,'HU':1,'IE':1,'IT':1,'LV':1,'LT':1,'LU':1,'NL':1,'NO':1,'PL':1,'PT':1,'RO':1,'RU':1,'RS':1,'SI':1,'ZA':1,'ES':1,'SE':1,'CH':1,'TR':1};
+    c = (c || '').toUpperCase();
+    return c === 'US' ? 'zzounds' : c === 'GB' ? 'gear4music' : MS[c] ? 'musicstore' : 'none';
+  }
   window.tmgGeoSwap = function() {
     if (window.__tmgGeoResolved) { applyNow(window.__tmgGeoResolved); return; }
     var q = quickTarget();
-    if (q) { applyNow(q); return; }
+    if (q) applyNow(q);
     if (window.__tmgGeoPending) return;
     try { window.__tmgGeoPending = 1; } catch (e) {}
+    var gres = false;
+    function gApply(c) {
+      if (!c || gres) return;
+      c = (c || '').toUpperCase();
+      if (c === 'XX') return;
+      gres = true;
+      applyNow(geoZone(c));
+    }
+    function gFallback() {
+      if (gres) return;
+      var y = new XMLHttpRequest();
+      y.open('GET', 'https://ipinfo.io/json', true);
+      y.timeout = 4000;
+      y.onload = function() {
+        try {
+          var r = JSON.parse(y.responseText);
+          if (r && r.country) gApply(r.country);
+        } catch (e) {}
+        try { window.__tmgGeoPending = 0; } catch (e) {}
+      };
+      y.onerror = y.ontimeout = function() { try { window.__tmgGeoPending = 0; } catch (e) {} };
+      y.send();
+    }
     var x = new XMLHttpRequest();
-    x.open('GET', 'https://ipinfo.io/json', true);
-    x.timeout = 5000;
+    x.open('GET', 'https://1.1.1.1/cdn-cgi/trace', true);
+    x.timeout = 4000;
     x.onload = function() {
       try {
-        var r = JSON.parse(x.responseText);
-        var cc = (r.country || '').toUpperCase();
-        var MS = {'AT':1,'BE':1,'BA':1,'BG':1,'HR':1,'CZ':1,'DK':1,'EE':1,'FI':1,'FR':1,'DE':1,'GR':1,'HU':1,'IE':1,'IT':1,'LV':1,'LT':1,'LU':1,'NL':1,'NO':1,'PL':1,'PT':1,'RO':1,'RU':1,'RS':1,'SI':1,'ZA':1,'ES':1,'SE':1,'CH':1,'TR':1};
-        var t = cc === 'US' ? 'zzounds' : cc === 'GB' ? 'gear4music' : MS[cc] ? 'musicstore' : 'none';
-        try { localStorage.setItem('tmgGeoSwap', t); } catch (e) {}
-        try { window.__tmgGeoResolved = t; } catch (e) {}
-        applyNow(t);
+        var m = /(?:^|\\n)loc=(\\S+)/.exec(x.responseText);
+        if (m && m[1]) gApply(m[1]);
       } catch (e) {}
       try { window.__tmgGeoPending = 0; } catch (e) {}
+      gFallback();
     };
     x.onerror = x.ontimeout = function() {
-      try { localStorage.removeItem('tmgGeoSwap'); } catch (e) {}
       try { window.__tmgGeoPending = 0; } catch (e) {}
+      gFallback();
     };
     x.send();
   };
