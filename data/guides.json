@@ -72439,6 +72439,246 @@
     "verdict_es": "La Radial J48 es la mejor DI activa para la mayoría — asequible, llena de funciones y construida para durar. La Rupert Neve RNDI es la opción premium para tono y margen. Si no puedes decidir entre ambas, consulta nuestra <a href=\"/guides/j48-vs-rndi_es.html\" class=\"guide-link-btn\">comparativa J48 vs RNDI</a>. La Tech 21 SansAmp es la única opción para bajistas que quieren tono tipo ampli directo. La Radial ProD2 maneja fuentes estéreo sin problemas. Para presupuestos ajustados, la Whirlwind IMP 2 es imbatible a $79, la Walrus Canvas Mono es la DI moderna para pedalboard, y la LR Baggs Para es el arma secreta del músico acústico.",
     "conclusion": "The Radial J48 is the best all-around active DI for most players — affordable, feature-packed, and built to last. The Rupert Neve RNDI is the premium choice for tone and headroom. If you can't decide between them, see our full <a href=\"/guides/j48-vs-rndi.html\" class=\"guide-link-btn\">J48 vs RNDI comparison</a>. The Tech 21 SansAmp is the only choice for bass players who want amp-style tone direct. The Radial ProD2 handles stereo sources flawlessly. For budget needs, the Whirlwind IMP 2 is unbeatable at $79, the Walrus Canvas Mono is the modern pedalboard DI, and the LR Baggs Para is the acoustic musician's secret weapon.",
     "conclusion_es": "La Radial J48 es la mejor DI activa para la mayoría — asequible, llena de funciones y construida para durar. La Rupert Neve RNDI es la opción premium para tono y margen. Si no puedes decidir entre ambas, consulta nuestra <a href=\"/guides/j48-vs-rndi_es.html\" class=\"guide-link-btn\">comparativa J48 vs RNDI</a>. La Tech 21 SansAmp es la única opción para bajistas que quieren tono tipo ampli directo. La Radial ProD2 maneja fuentes estéreo sin problemas. Para presupuestos ajustados, la Whirlwind IMP 2 es imbatible a $79, la Walrus Canvas Mono es la DI moderna para pedalboard, y la LR Baggs Para es el arma secreta del músico acústico.",
+    "productTable": {
+      "title": "Best DI Boxes Compared in This Guide",
+      "title_es": "Comparativa de cajas DI de esta guía",
+      "columns": [
+        {
+          "title": "Radial J48 MK2 Active Direct Box",
+          "title_es": "Caja Directa Activa Radial J48 MK2"
+        },
+        {
+          "title": "Rupert Neve Designs RNDI Active Direct Interface",
+          "title_es": "Interfaz Directa Activa Rupert Neve Designs RNDI"
+        },
+        {
+          "title": "Tech 21 SansAmp Bass Driver DI v2",
+          "title_es": "Tech 21 SansAmp Bass Driver DI v2"
+        },
+        {
+          "title": "Radial ProD2 Stereo Passive Direct Box",
+          "title_es": "Radial ProD2 Caja Directa Pasiva Estéreo"
+        },
+        {
+          "title": "Whirlwind IMP 2 Passive Direct Box",
+          "title_es": "Whirlwind IMP 2 Caja DI Pasiva"
+        },
+        {
+          "title": "Walrus Audio Canvas Mono Line Isolator / DI",
+          "title_es": "Walrus Audio Canvas Mono Aislador de Línea / DI"
+        },
+        {
+          "title": "LR Baggs Para Acoustic DI",
+          "title_es": "LR Baggs Para DI Acústico"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Price",
+          "label_es": "Precio",
+          "values": [
+            {
+              "value": "$259",
+              "value_es": "$259"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$210",
+              "value_es": "$210"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
+            }
+          ]
+        },
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Most rigs — transparent, reliable all-rounder",
+              "value_es": "La mayoría de equipos — opción versátil transparente y fiable"
+            },
+            {
+              "value": "Tone purists who want transformer character and speaker-level input",
+              "value_es": "Oídos exigentes que quieren carácter de transformador y entrada de nivel parlante"
+            },
+            {
+              "value": "Bass players wanting amp-style tone direct",
+              "value_es": "Bajistas que quieren tono tipo ampli directo"
+            },
+            {
+              "value": "Stereo sources — keyboards, digital pianos, DJ rigs",
+              "value_es": "Fuentes estéreo — teclados, pianos digitales, equipos DJ"
+            },
+            {
+              "value": "Budget live rigs and anything passive",
+              "value_es": "Equipos en vivo económicos y fuentes pasivas"
+            },
+            {
+              "value": "Pedalboard users who need a transparent passive DI",
+              "value_es": "Usuarios de pedalboard que necesitan una DI pasiva transparente"
+            },
+            {
+              "value": "Acoustic instruments with built-in EQ and notch filter",
+              "value_es": "Instrumentos acústicos con EQ integrada y filtro notch"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Active (48V phantom)",
+              "value_es": "Activa (48V phantom)"
+            },
+            {
+              "value": "Active (48V phantom)",
+              "value_es": "Activa (48V phantom)"
+            },
+            {
+              "value": "Active preamp/DI (phantom, 9V or DC)",
+              "value_es": "Preamp/DI activo (phantom, 9V o DC)"
+            },
+            {
+              "value": "Passive stereo transformer",
+              "value_es": "Pasiva estéreo por transformador"
+            },
+            {
+              "value": "Passive transformer",
+              "value_es": "Pasiva por transformador"
+            },
+            {
+              "value": "Passive transformer (DI/LI modes)",
+              "value_es": "Pasiva por transformador (modos DI/LI)"
+            },
+            {
+              "value": "Active preamp + DI (9V battery or phantom)",
+              "value_es": "Preamp + DI activo (batería 9V o phantom)"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de Frecuencia",
+          "values": [
+            {
+              "value": "10Hz–80kHz",
+              "value_es": "10Hz–80kHz"
+            },
+            {
+              "value": "Flat extension for instrument & speaker levels",
+              "value_es": "Extensión plana para niveles de instrumento y parlante"
+            },
+            {
+              "value": "Extended, amp-tuned response",
+              "value_es": "Extendida y ajustada al tono de ampli"
+            },
+            {
+              "value": "Flat, transparent (128dB dynamic range)",
+              "value_es": "Plana y transparente (128dB de rango dinámico)"
+            },
+            {
+              "value": "20Hz–20kHz ±1dB",
+              "value_es": "20Hz–20kHz ±1dB"
+            },
+            {
+              "value": "Flat 20Hz–20kHz",
+              "value_es": "Plana 20Hz–20kHz"
+            },
+            {
+              "value": "Optimized for acoustic pickups (10MΩ input)",
+              "value_es": "Optimizada para pastillas acústicas (entrada de 10MΩ)"
+            }
+          ]
+        },
+        {
+          "label": "Key Features",
+          "label_es": "Características Clave",
+          "values": [
+            {
+              "value": "-15dB pad, polarity reverse, merge, 80Hz high-pass",
+              "value_es": "Pad -15dB, inversión de polaridad, fusión, high-pass de 80Hz"
+            },
+            {
+              "value": "Rupert Neve transformers, +20.5dBu instrument / +41dBu speaker, LED meter",
+              "value_es": "Transformadores Rupert Neve, +20.5dBu instrumento / +41dBu parlante, medidor LED"
+            },
+            {
+              "value": "3-band EQ, drive knob, mid freq 500/1000Hz, bass shift, 3 outputs, cabinet sim",
+              "value_es": "EQ de 3 bandas, knob Drive, media 500/1000Hz, shift de graves, 3 salidas, simulación de gabinete"
+            },
+            {
+              "value": "Two channels, -15dB pads, ground lift per channel",
+              "value_es": "Dos canales, pads -15dB, elevación de tierra por canal"
+            },
+            {
+              "value": "Ground lift, steel chassis, 133:1 ratio",
+              "value_es": "Elevación de tierra, chasis de acero, relación 133:1"
+            },
+            {
+              "value": "DI/LI switch, -15dB pad, ground lift, stereo-to-mono sum",
+              "value_es": "Conmutador DI/LI, pad -15dB, elevación de tierra, suma estéreo a mono"
+            },
+            {
+              "value": "5-band parametric EQ, tunable notch, phase, effects loop",
+              "value_es": "EQ paramétrica de 5 bandas, notch sintonizable, fase, bucle de efectos"
+            }
+          ]
+        },
+        {
+          "label": "Weight",
+          "label_es": "Peso",
+          "values": [
+            {
+              "value": "1kg",
+              "value_es": "1kg"
+            },
+            {
+              "value": "0.9kg",
+              "value_es": "0.9kg"
+            },
+            {
+              "value": "397g",
+              "value_es": "397g"
+            },
+            {
+              "value": "0.54kg",
+              "value_es": "0.54kg"
+            },
+            {
+              "value": "250g",
+              "value_es": "250g"
+            },
+            {
+              "value": "370g",
+              "value_es": "370g"
+            },
+            {
+              "value": "0.7kg",
+              "value_es": "0.7kg"
+            }
+          ]
+        }
+      ]
+    },
     "verdictPros": [
       "J48: Best value active DI with most features",
       "RNDI: Best tone and headroom, speaker-level input",
@@ -72474,6 +72714,190 @@
       "Whirlwind IMP 2: Sin pad, sin polaridad, sin extras",
       "Canvas Mono: Solo 1 canal, sin EQ",
       "LR Baggs Para: Necesita batería o phantom, sin entrada XLR"
+    ],
+    "verdictProsCons": [
+      {
+        "name": "Radial J48 MK2 Active Direct Box",
+        "name_es": "Caja Directa Activa Radial J48 MK2",
+        "pros": [
+          "Maximum headroom from phantom power thanks to its switching supply",
+          "-15dB pad, polarity reverse, merge mode and an 80Hz high-pass on board",
+          "Transparent, uncolored sound that flatters any source",
+          "Steel chassis and Neutrik-grade build that survives years of gigging"
+        ],
+        "pros_es": [
+          "Máximo margen del phantom gracias a su fuente conmutada",
+          "Pad de -15dB, inversión de polaridad, modo merge y high-pass de 80Hz integrados",
+          "Sonido transparente y sin coloración que favorece cualquier fuente",
+          "Chasis de acero y construcción nivel Neutrik que aguanta años de directos"
+        ],
+        "cons": [
+          "Needs phantom power, so it won't run on battery",
+          "Not made for speaker-level signals like the RNDI",
+          "Pricier than a simple passive DI"
+        ],
+        "cons_es": [
+          "Necesita phantom, así que no funciona a pilas",
+          "No está hecha para nivel de parlante como la RNDI",
+          "Más cara que una DI pasiva sencilla"
+        ]
+      },
+      {
+        "name": "Rupert Neve Designs RNDI Active Direct Interface",
+        "name_es": "Interfaz Directa Activa Rupert Neve Designs RNDI",
+        "pros": [
+          "Custom Rupert Neve transformers add rich, musical harmonic color",
+          "Handles instruments up to +20.5 dBu and speaker level up to +41 dBu (1000W amp)",
+          "Under 40 ohms output impedance drives long cable runs without loss",
+          "Class-A discrete FET circuitry for effortless headroom"
+        ],
+        "pros_es": [
+          "Los transformadores Rupert Neve añaden un color armónico rico y musical",
+          "Maneja instrumentos de hasta +20.5 dBu y parlantes de hasta +41 dBu (amplificador de 1000W)",
+          "Con menos de 40 ohms de impedancia de salida, tiradas de cable largas sin pérdida",
+          "Circuitos FET discretos Clase A con margen de sobra"
+        ],
+        "cons": [
+          "Premium price tag with no pad or polarity switches",
+          "Needs phantom power to operate",
+          "Transformer color isn't for everyone who wants pure transparency"
+        ],
+        "cons_es": [
+          "Precio premium y sin pads ni inversión de polaridad",
+          "Necesita alimentación phantom para funcionar",
+          "El color del transformador no es para quien busca transparencia pura"
+        ]
+      },
+      {
+        "name": "Tech 21 SansAmp Bass Driver DI v2",
+        "name_es": "Tech 21 SansAmp Bass Driver DI v2",
+        "pros": [
+          "The tone of a great tube bass amp without hauling one to the gig",
+          "Three outputs — effected XLR, effected 1/4\" and clean parallel 1/4\"",
+          "Runs on phantom, a 9V battery or an optional DC adapter",
+          "Analog cabinet simulation on the XLR output"
+        ],
+        "pros_es": [
+          "El tono de un buen ampli de bajo de válvulas sin cargar con él al show",
+          "Tres salidas — XLR con efecto, 1/4\" con efecto y 1/4\" limpio en paralelo",
+          "Funciona con phantom, batería de 9V o adaptador DC opcional",
+          "Simulación de gabinete analógica en la salida XLR"
+        ],
+        "cons": [
+          "It's a preamp that colors your signal on purpose, not a transparent DI",
+          "More knobs and switches than a simple box, so there's a learning curve",
+          "Battery drains fast if you leave it plugged in"
+        ],
+        "cons_es": [
+          "Es un preamplificador que colorea la señal a propósito, no una DI transparente",
+          "Más knobs e interruptores que una caja simple, así que hay curva de aprendizaje",
+          "La batería se gasta rápido si la dejas conectada"
+        ]
+      },
+      {
+        "name": "Radial ProD2 Stereo Passive Direct Box",
+        "name_es": "Radial ProD2 Caja Directa Pasiva Estéreo",
+        "pros": [
+          "Two independent channels for keyboards, synths and DJ rigs in one box",
+          "Custom Eclipse ET-DB2 transformers with 128dB dynamic range and 0.01% THD",
+          "Per-channel -15dB pad and ground lift",
+          "14-gauge steel chassis with a 3-year transferable warranty"
+        ],
+        "pros_es": [
+          "Dos canales independientes para teclados, sintetizadores y equipos DJ en una sola caja",
+          "Transformadores Eclipse ET-DB2 con 128dB de rango dinámico y 0.01% THD",
+          "Pad de -15dB y elevación de tierra por canal",
+          "Chasis de acero calibre 14 con garantía transferible de 3 años"
+        ],
+        "cons": [
+          "Passive only, so no phantom-powered features or preamp stage",
+          "No polarity reverse per channel",
+          "Heavier price tag than a single mono DI"
+        ],
+        "cons_es": [
+          "Solo pasiva, sin funciones de phantom ni etapa de preamplificación",
+          "Sin inversión de polaridad por canal",
+          "Más cara que una DI mono sencilla"
+        ]
+      },
+      {
+        "name": "Whirlwind IMP 2 Passive Direct Box",
+        "name_es": "Whirlwind IMP 2 Caja DI Pasiva",
+        "pros": [
+          "The industry-standard budget DI — $79 and bolted under stages everywhere",
+          "TRHL transformer riveted to the steel chassis for reliable isolation",
+          "Honest 20Hz–20kHz ±1dB response and a ground lift switch",
+          "Weighs 250g and fits in a pocket"
+        ],
+        "pros_es": [
+          "La DI económica estándar de la industria — $79 y atornillada bajo los escenarios de todo el mundo",
+          "Transformador TRHL remachado al chasis de acero para un aislamiento fiable",
+          "Respuesta honesta de 20Hz–20kHz ±1dB e interruptor de elevación de tierra",
+          "Pesa 250g y cabe en un bolsillo"
+        ],
+        "cons": [
+          "No pad, polarity or other frills — just the basics",
+          "Transformer is decent but not in the same league as Radial or Neve",
+          "Straight 1/4\" jack with no locking design"
+        ],
+        "cons_es": [
+          "Sin pad, sin polaridad ni otros extras — solo lo básico",
+          "El transformador es decente pero no está a la altura de Radial o Neve",
+          "Jack de 1/4\" recto, sin diseño de bloqueo"
+        ]
+      },
+      {
+        "name": "Walrus Audio Canvas Mono Line Isolator / DI",
+        "name_es": "Walrus Audio Canvas Mono Aislador de Línea / DI",
+        "pros": [
+          "Pedal-sized enclosure that fits right on your board",
+          "Switchable DI/LI modes with a -15dB pad, ground lift and stereo-to-mono sum",
+          "Custom Sapphire transformers keep the tone flat and transparent",
+          "370g is light enough to mount with velcro"
+        ],
+        "pros_es": [
+          "Carcasa tamaño pedal que cabe directo en tu board",
+          "Modos DI/LI conmutable con pad -15dB, elevación de tierra y suma estéreo a mono",
+          "Los transformadores Sapphire mantienen el tono plano y transparente",
+          "370g, ligera para montar con velcro"
+        ],
+        "cons": [
+          "Single channel only — no stereo option",
+          "No EQ or active features",
+          "Pricier than basic passive DI boxes for similar specs"
+        ],
+        "cons_es": [
+          "Un solo canal — sin opción estéreo",
+          "Sin EQ ni funciones activas",
+          "Más cara que una DI pasiva básica con especificaciones similares"
+        ]
+      },
+      {
+        "name": "LR Baggs Para Acoustic DI",
+        "name_es": "LR Baggs Para DI Acústico",
+        "pros": [
+          "5-band parametric EQ and a tunable notch filter to kill feedback",
+          "10 megohm input impedance won't load down any acoustic pickup",
+          "Variable gain works with both passive and active pickups",
+          "Effects loop, phase inversion and 600-ohm output for clean long runs"
+        ],
+        "pros_es": [
+          "EQ paramétrica de 5 bandas y filtro notch sintonizable para eliminar la retroalimentación",
+          "Los 10 megaohms de impedancia de entrada no cargan ninguna pastilla acústica",
+          "Ganancia variable que funciona con pastillas pasivas y activas",
+          "Bucle de efectos, inversión de fase y salida de 600 ohms para tiradas largas y limpias"
+        ],
+        "cons": [
+          "Needs a 9V battery or phantom power at all times",
+          "Premium price — more than double a simple passive DI",
+          "No XLR input, so line-level sources need a separate converter"
+        ],
+        "cons_es": [
+          "Necesita batería de 9V o phantom en todo momento",
+          "Precio premium — más del doble de una DI pasiva sencilla",
+          "Sin entrada XLR, así que las fuentes de nivel de línea necesitan un conversor aparte"
+        ]
+      }
     ],
     "faq": [
       {
