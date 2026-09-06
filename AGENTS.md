@@ -625,10 +625,10 @@ grep -E "app\.min\.js\?v=|style\.min\.css\?v=" index.html
 **Causa:** Cloudflare cachea CSS/JS viejo.
 **Fix:** Purgar Cloudflare cache (Speed > Purge Cache > Purge Everything) + hard refresh.
 
-### 🐞 PENDIENTE REVISAR: geo-swap UK pierde zZounds en el desplegable (solo 4 tiendas)
-**Reportado:** usuario, sesión 06/09/2026. Con VPN USA el primario es zZounds (correcto) y el desplegable muestra las 5 filas. Con VPN UK el primario pasa a Gear4Music (correcto) pero el desplegable muestra SOLO 4 filas — falta zZounds — hasta un segundo refresh.
-**Causa raíz:** `doSwap(T)` en `js/shop-buttons.js` (IIFE `tmgGeoSwap`, plantilla en `temp/gen-shop-buttons.js`): cuando el swap ocurre, (1) oculta la fila G4M que estaba en el desplegable (`zRow.style.display='none'`, línea ~975), (2) elimina el botón primario zzounds (línea ~979), y (3) **solo re-añade la tienda desplazada a la lista si era Amazon** (`if (ml2 && curStore === 'amazon'...,` línea ~978). Como el primario estático del build es zzounds (timezone del build = USA), nunca se reinserta → 4 filas.
-**Fix (no aplicado todavía):** generalizar — en `doSwap`, re-insertar como fila la tienda primaria desplazada para CUALQUIER `curStore` (no solo amazon), conservando su URL/afiliado. Ese código vive en `temp/gen-shop-buttons.js` (no en build-guides.js). Revisar cuando se termine la tarea actual.
+### ✔️ FIJADO: geo-swap UK perdía zZounds en el desplegable (solo 4 tiendas)
+**Reportado:** usuario, sesión 06/09/2026. Con VPN USA el primario es zZounds (correcto) y el desplegable muestra las 5 filas. Con VPN UK el primario pasaba a Gear4Music (correcto) pero el desplegable mostraba SOLO 4 filas — faltaba zZounds — hasta un segundo refresh.
+**Causa raíz:** `doSwap(T)` en `js/shop-buttons.js` (IIFE `tmgGeoSwap`, plantilla en `temp/gen-shop-buttons.js`): cuando el swap ocurría, (1) ocultaba la fila G4M del desplegable (`zRow.style.display='none'`), (2) eliminaba el botón primario zzounds, y (3) **solo re-añadía la tienda desplazada a la lista si era Amazon** (`curStore === 'amazon'`). Como el primario estático del build es zzounds (timezone del build = USA), nunca se reinsertaba → 4 filas.
+**Fix aplicado (06/09/2026):** el bloque de re-inserción ahora es general — tras el swap, si la lista NO contiene `[data-store="<curStore>"]`, se re-inserta la tienda primaria desplazada con su URL/afiliado original, bandera (`SHOP_FLAG`), wordmark (`SHOP_LOGO_TEXT`/`SHOP_LOGO_STYLE`), nota localizada (`dispNotes` ES/EN) y precio (regex `- [moneda]` sobre el innerHTML del primario eliminado). La fila Amazon ahora usa el mismo render que el resto de filas (globeIcon + "(Envío Prime)"). Código en `temp/gen-shop-buttons.js` (regenerar `js/shop-buttons.js` con `node temp/gen-shop-buttons.js`). Verificado: UK→G4M deja zZounds + Amazon + Reverb + Andertons + Music Store (5 filas).
 
 ## ⭐ MANDATORY: Superar a la competencia en cada guía (SEO)
 

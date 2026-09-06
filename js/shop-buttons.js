@@ -975,13 +975,19 @@ window.tmgStoreButtons = function(p) {
       zRow.style.display = 'none';
       pb.insertAdjacentHTML('beforebegin', newPrimary);
       pb.remove();
-      if (ml2 && curStore === 'amazon' && !ml2.querySelector('[data-store="amazon"]')) {
-        var aPrice = '';
-        var aMatch = pb.innerHTML.match(/- ([$£€][0-9.,]+)/);
-        if (aMatch) aPrice = aMatch[1];
-        var amazonPrice = aPrice ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + aPrice + '</span></span>' : '';
-        var amazonRow = '<a data-store="amazon" href="' + aUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + globe + 'Amazon</span><span style="color:#a8a8a8;font-size:12px;font-weight:600">(Prime Delivery)</span>' + amazonPrice + '</a>';
-        ml2.insertAdjacentHTML('afterbegin', amazonRow);
+      if (ml2 && !ml2.querySelector('[data-store="' + curStore + '"]')) {
+        var dispPrice = '';
+        var dispMatch = pb.innerHTML.match(/- ([$£€][0-9.,]+)/);
+        if (dispMatch) dispPrice = dispMatch[1];
+        var dispPriceSpan = dispPrice ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + dispPrice + '</span></span>' : '';
+        var dispNotes = { zzounds: ['(Planes de pago fáciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Envíos rápidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garantía de 3 años)', '(3-Year Warranty)'], amazon: ['(Envío Prime)', '(Prime Delivery)'] };
+        var isEsPage = (document.documentElement.lang || 'en').indexOf('es') === 0;
+        var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
+        var dispSt = SHOP_LOGO_STYLE[curStore] || 'font-weight:700';
+        var dispFlag = SHOP_FLAG[curStore] ? SHOP_FLAG[curStore]() : '';
+        var dispNote = dispNotes[curStore] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + (isEsPage ? dispNotes[curStore][0] : dispNotes[curStore][1]) + '</span>' : '';
+        var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
+        ml2.insertAdjacentHTML('afterbegin', dispRow);
       }
     });
   }
