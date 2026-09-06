@@ -725,25 +725,25 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     gres=true;
     applyNow(geoZone(c));
   }
-  function gFallback(){
+  function gTrace(){
     if(gres)return;
-    var y=new XMLHttpRequest();
-    y.open('GET','https://ipinfo.io/json',true);
-    y.timeout=4000;
-    y.onload=function(){
-      try{var r=JSON.parse(y.responseText);if(r&&r.country)gApply(r.country);}catch(e){}
+    var t=new XMLHttpRequest();
+    t.open('GET','https://1.1.1.1/cdn-cgi/trace',true);
+    t.timeout=4000;
+    t.onload=function(){
+      try{var m=/(?:^|\n)loc=(\S+)/.exec(t.responseText);if(m&&m[1])gApply(m[1]);}catch(e){}
     };
-    y.send();
+    t.send();
   }
-  var x=new XMLHttpRequest();
-  x.open('GET','https://1.1.1.1/cdn-cgi/trace',true);
-  x.timeout=4000;
-  x.onload=function(){
-    try{var m=/(?:^|\n)loc=(\S+)/.exec(x.responseText);if(m&&m[1])gApply(m[1]);}catch(e){}
-    gFallback();
+  var y=new XMLHttpRequest();
+  y.open('GET','https://ipinfo.io/json',true);
+  y.timeout=4000;
+  y.onload=function(){
+    try{var r=JSON.parse(y.responseText);if(r&&r.country)gApply(r.country);}catch(e){}
+    gTrace();
   };
-  x.onerror=x.ontimeout=function(){gFallback();};
-  x.send();
+  y.onerror=y.ontimeout=function(){gTrace();};
+  y.send();
 })();
 </script>
 </body>

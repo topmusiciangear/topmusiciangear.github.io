@@ -232,44 +232,41 @@ window.tmgStoreButtons = function(p) {
     try { window.__tmgGeoPending = 1; } catch (e) {}
     function finish(cc) {
       if (!cc) return;
-      cc = (cc || '').toUpperCase();
+      cc = (cc + '').toUpperCase();
       if (cc === 'XX') return;
       try { if (window.__tmgGeoResolved) return; } catch (e) {}
       var t = geoZone(cc);
       try { window.__tmgGeoResolved = t; } catch (e) {}
       applyNow(t);
     }
-    function gFallback() {
-      try { if (window.__tmgGeoResolved) return; } catch (e) {}
-      var y = new XMLHttpRequest();
-      y.open('GET', 'https://ipinfo.io/json', true);
-      y.timeout = 4000;
-      y.onload = function() {
+    function clearPending() { try { window.__tmgGeoPending = 0; } catch (e) {} }
+    function tryTrace() {
+      try { if (window.__tmgGeoResolved) { clearPending(); return; } } catch (e) {}
+      var x = new XMLHttpRequest();
+      x.open('GET', 'https://1.1.1.1/cdn-cgi/trace', true);
+      x.timeout = 4000;
+      x.onload = function() {
         try {
-          var r = JSON.parse(y.responseText);
-          if (r && r.country) finish(r.country);
+          var m = /(?:^|\\n)loc=(\\S+)/.exec(x.responseText);
+          if (m && m[1]) finish(m[1]);
         } catch (e) {}
-        try { window.__tmgGeoPending = 0; } catch (e) {}
+        clearPending();
       };
-      y.onerror = y.ontimeout = function() { try { window.__tmgGeoPending = 0; } catch (e) {} };
-      y.send();
+      x.onerror = x.ontimeout = function() { clearPending(); };
+      x.send();
     }
-    var x = new XMLHttpRequest();
-    x.open('GET', 'https://1.1.1.1/cdn-cgi/trace', true);
-    x.timeout = 4000;
-    x.onload = function() {
+    var y = new XMLHttpRequest();
+    y.open('GET', 'https://ipinfo.io/json', true);
+    y.timeout = 4000;
+    y.onload = function() {
       try {
-        var m = /(?:^|\\n)loc=(\\S+)/.exec(x.responseText);
-        if (m && m[1]) finish(m[1]);
+        var r = JSON.parse(y.responseText);
+        if (r && r.country) finish(r.country);
       } catch (e) {}
-      try { window.__tmgGeoPending = 0; } catch (e) {}
-      gFallback();
+      tryTrace();
     };
-    x.onerror = x.ontimeout = function() {
-      try { window.__tmgGeoPending = 0; } catch (e) {}
-      gFallback();
-    };
-    x.send();
+    y.onerror = y.ontimeout = function() { tryTrace(); };
+    y.send();
   };
 })();
 `;
