@@ -17,6 +17,13 @@ if (storeIconsMatch) eval(storeIconsMatch[0].replace('const storeIcons', 'var st
 
 const allStoreKeys = ['thomann','pluginboutique','gear4music','amazon','reverb','andertons','musicstore'];
 
+function wrapAndertons(url) {
+  if (!url) return url;
+  if (url.indexOf('pxf.io') >= 0 || url.indexOf('andertonsmusiccompany.pxf.io') >= 0) return url;
+  const clean = url.replace(/([?&])(irpid|irgwc|afsrc|im_ref|sharedid)=[^&]*/g, '$1').replace(/([?&])+/g, '$1').replace(/[?&]+$/, '');
+  return 'https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=' + encodeURIComponent(clean);
+}
+
 function getResolvedStores(product) {
   const searchUrls = {
     thomann: (t) => `https://www.thomann.co.uk/search?q=${encodeURIComponent(t)}`,
@@ -25,7 +32,7 @@ function getResolvedStores(product) {
     sweetwater: (t) => `https://www.sweetwater.com/store/search.php?s=${encodeURIComponent(t)}`,
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
-    andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
+    andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}`,
     musicstore: (t) => `https://www.musicstore.com/en_GB/search?SearchText=${encodeURIComponent(t)}`
   };
   const s = {};
@@ -37,8 +44,6 @@ function getResolvedStores(product) {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
       } else if (key === 'amazon' && specificUrl.startsWith('https://www.amazon.com/dp/')) {
         s[key] = specificUrl + '?tag=topmusicg-20';
-      } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
-        s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
       } else {
         s[key] = specificUrl;
       }
@@ -51,6 +56,9 @@ function getResolvedStores(product) {
   }
   if (s.musicstore && !product.stores.musicstore) {
     s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(s.musicstore)}`;
+  }
+  if (s.andertons) {
+    s.andertons = wrapAndertons(s.andertons);
   }
   return s;
 }

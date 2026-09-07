@@ -35,6 +35,11 @@ var pbAffStart = src.indexOf('function ensurePbAff(');
 var pbAffEnd = src.indexOf('\nfunction ', pbAffStart + 10);
 var pbAffFn = src.substring(pbAffStart, pbAffEnd);
 
+// Extract wrapAndertons function (defined before wrapAffiliate)
+var waStart = src.indexOf('function wrapAndertons(');
+var waEnd = src.indexOf('\nfunction ', waStart + 10);
+var waFn = src.substring(waStart, waEnd);
+
 // Extract wrapAffiliate function
 var wrapStart = src.indexOf('function wrapAffiliate(');
 var wrapEnd = src.indexOf('\nfunction ', wrapStart + 10);
@@ -143,6 +148,8 @@ ${btnBlock}
 ${shortTitleFn}
 
 ${pbAffFn}
+
+${waFn}
 
 ${wrapFn}
 

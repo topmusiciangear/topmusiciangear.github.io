@@ -601,6 +601,13 @@ function shortTitle(title) {
   return result.length > 0 ? result.join(' ') : words.slice(0, 3).join(' ');
 }
 
+function wrapAndertons(url) {
+  if (!url) return url;
+  if (url.indexOf('pxf.io') >= 0 || url.indexOf('andertonsmusiccompany.pxf.io') >= 0) return url;
+  var clean = url.replace(/([?&])(irpid|irgwc|afsrc|im_ref|sharedid)=[^&]*/g, '$1').replace(/([?&])+/g, '$1').replace(/[?&]+$/, '');
+  return 'https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=' + encodeURIComponent(clean);
+}
+
 function getResolvedStores(product) {
   const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds','official','macappstore'];
   const searchUrls = {
@@ -609,7 +616,7 @@ function getResolvedStores(product) {
 
     amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`,
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
-    andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}&irgwc=1&irpid=7292297`,
+    andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}`,
     musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`,
     zzounds: () => 'https://www.zzounds.com/a--925521/'
   };
@@ -626,8 +633,6 @@ function getResolvedStores(product) {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(shortTitle(product.title))}`;
       } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
         s[key] = (product.amazonNotag || specificUrl.includes('tag=topmusicg-20')) ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
-      } else if (key === 'andertons' && !specificUrl.includes('irgwc=')) {
-        s[key] = specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'irgwc=1&irpid=7292297';
       } else {
         s[key] = specificUrl;
       }
@@ -646,6 +651,9 @@ function getResolvedStores(product) {
   }
   if (s.zzounds) {
     s.zzounds = `https://www.anrdoezrs.net/click-101857888-10439229?url=${encodeURIComponent(s.zzounds.replace('/a--925521', ''))}`;
+  }
+  if (s.andertons) {
+    s.andertons = wrapAndertons(s.andertons);
   }
   return s;
 }

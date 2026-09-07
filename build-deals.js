@@ -53,7 +53,7 @@ const buildPage = (lang) => {
     <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
     <div class="nav-dd-panel" role="menu">
       <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
-      <a class="nav-dd-link" href="https://www.andertons.co.uk/browse/new/?irgwc=1&amp;irpid=7292297" target="_blank" rel="noopener noreferrer sponsored"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
+      <a class="nav-dd-link" href="https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fbrowse%2Fnew%2F" target="_blank" rel="noopener noreferrer sponsored"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
       <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=63816&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNew-Products%2Fcat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored"><img src="img/musicstore-icon.png" alt="" class="nav-dd-link-icon">Music Store</a>
       <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=6a01e859cbe1a" target="_blank" rel="noopener noreferrer sponsored"><img src="img/pluginboutique-icon.png" alt="" class="nav-dd-link-icon">Plugin Boutique</a>
       <a class="nav-dd-link" href="https://www.amazon.com/gp/new-releases/musical-instruments?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored"><svg data-fa="amazon" class="nav-dd-link-icon" style="font-size:18px;color:#ff9900" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>Amazon</a>
@@ -143,12 +143,19 @@ const buildPage = (lang) => {
     zzounds: 'zZounds'
   };
 
+function wrapAndertons(url) {
+    if (!url) return url;
+    if (/pxf\.io/.test(url) || url.indexOf('andertonsmusiccompany.pxf.io') > -1) return url;
+    var clean = url.replace(/([?&])(irpid|irgwc|afsrc|im_ref|sharedid)=[^&]*/g, '$1').replace(/([?&])+/g, '$1').replace(/[?&]+$/, '');
+    return 'https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=' + encodeURIComponent(clean);
+  }
+
   function affWrap(store, url) {
     if (!url) return url;
     const q = url.indexOf("?") > -1 ? "&" : "?";
     switch (store) {
       case "andertons":
-        return /irgwc=/.test(url) ? url : url + q + "irgwc=1&irpid=7292297";
+        return wrapAndertons(url);
       case "gear4music":
         return url.indexOf("awin1.com") > -1 ? url : "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=" + encodeURIComponent(url);
       case "musicstore":
@@ -205,7 +212,7 @@ const buildPage = (lang) => {
     { name: 'Gear4Music', url: 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent('https://www.gear4music.com/us/en/Top-Deals') },
     { name: 'Amazon', url: 'https://www.amazon.com/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%252211965861%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=topmusicg-20' },
     { name: 'Reverb', url: 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/outlet') },
-    { name: 'Andertons', url: 'https://www.andertons.co.uk/browse/offers/?irgwc=1&irpid=7292297' },
+    { name: 'Andertons', url: 'https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=' + encodeURIComponent('https://www.andertons.co.uk/browse/offers/') },
     { name: 'Music Store', url: 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent('https://www.musicstore.com/en_GB/GBP/Bargains/cat-Retouren') },
     { name: 'zZounds', url: cjz('https://www.zzounds.com/a--925521/blowouts') }
   ];

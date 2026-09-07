@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-eval(fs.readFileSync(path.join(__dirname, '..', 'js', 'products.js'), 'utf8').replace(/^const /gm, 'var '));
+var products = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'products.json'), 'utf8'));
 
 var issues = [];
 var musicstoreAwin = 0, musicstoreFallback = 0;
@@ -81,11 +81,11 @@ products.forEach(function(p) {
     
     if (key === 'andertons') {
       andertonsLinks++;
-      if (url.indexOf('andertons.co.uk') === -1) {
+      if (url.indexOf('andertons.co.uk') === -1 && url.indexOf('pxf.io') === -1) {
         issues.push('ANDERTONS [' + p.id + '] ' + p.title + ': not an andertons URL');
       }
-      if (url.indexOf('irgwc=') === -1 && url.indexOf('irpid=7292297') === -1) {
-        issues.push('ANDERTONS [' + p.id + '] ' + p.title + ': missing affiliate params');
+      if (url.indexOf('irgwc=') !== -1 || url.indexOf('irpid=7292297') !== -1) {
+        issues.push('ANDERTONS [' + p.id + '] ' + p.title + ': legacy irgwc params on canonical URL (use clean or pxf.io deep-link)');
       }
     }
     
