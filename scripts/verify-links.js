@@ -9,6 +9,7 @@ var reverbLinks = 0, amazonLinks = 0, sweetwaterLinks = 0;
 var thomannLinks = 0, pluginboutiqueLinks = 0, gear4musicLinks = 0;
 var andertonsLinks = 0, baxmusicLinks = 0, musikproduktivLinks = 0;
 var fenderLinks = 0;
+var zzoundsLinks = 0;
 
 products.forEach(function(p) {
   var stores = p.stores || {};
@@ -98,6 +99,19 @@ products.forEach(function(p) {
       }
     }
     
+    if (key === 'zzounds') {
+      zzoundsLinks++;
+      if (url.indexOf('zzounds.com') === -1 && url.indexOf('anrdoezrs.net') === -1) {
+        issues.push('ZZOUNDS [' + p.id + '] ' + p.title + ': not a zzounds URL');
+      }
+      if (url.indexOf('anrdoezrs.net') !== -1) {
+        var zUed = url.match(/url=([^&]+)/);
+        if (zUed && decodeURIComponent(zUed[1]).indexOf('anrdoezrs.net') !== -1) {
+          issues.push('ZZOUNDS [' + p.id + '] ' + p.title + ': double-wrapped anrdoezrs link');
+        }
+      }
+    }
+    
     if (key === 'andertons') {
       andertonsLinks++;
       if (url.indexOf('andertons.co.uk') === -1 && url.indexOf('pxf.io') === -1) {
@@ -149,6 +163,7 @@ console.log('  Thomann: ' + thomannLinks);
 console.log('  Plugin Boutique: ' + pluginboutiqueLinks);
 console.log('  Gear4Music: ' + gear4musicLinks);
 console.log('  Andertons: ' + andertonsLinks);
+console.log('  zZounds: ' + zzoundsLinks);
 console.log('  Bax Music: ' + baxmusicLinks);
 
 console.log('  Fender: ' + fenderLinks);
