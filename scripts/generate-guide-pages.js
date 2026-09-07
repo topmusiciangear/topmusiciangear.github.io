@@ -43,7 +43,7 @@ function getResolvedStores(product) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
         s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(product.title)}`;
       } else if (key === 'amazon' && specificUrl.startsWith('https://www.amazon.com/dp/')) {
-        s[key] = specificUrl + '?tag=topmusicg-20';
+        s[key] = specificUrl.includes('tag=') ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else {
         s[key] = specificUrl;
       }
