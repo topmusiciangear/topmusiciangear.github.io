@@ -447,7 +447,7 @@ const TEST_SHOP_BTN = {
   72: {prices:{amazon:"$349.99",zzounds:"$299.99",andertons:"£259.00",gear4music:"£259.00",musicstore:"€328.00"}},
   73: {prices:{amazon:"$1,799.99",zzounds:"$1,799.99",andertons:"£1,629.00",gear4music:"£970.00",musicstore:"€1,149.00"}},
   74: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£599.00",gear4music:"£599.00",musicstore:"€699.00"}},
-  75: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£649.00",gear4music:"£649.00",musicstore:"€1,699.00"}},
+  75: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£649.00",gear4music:"£649.00",musicstore:"€729.00"}},
   76: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£749.00",gear4music:"£749.00",musicstore:"€888.00"}},
   91: {prices:{amazon:"$1,839.99",zzounds:"$1,839.99",andertons:"£589.00",gear4music:"£1,549.00",musicstore:"€1,699.00"}},
   92: {prices:{amazon:"$849.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band/2BBJ"},oos:["andertons","zzounds"]},
@@ -818,7 +818,10 @@ const TEST_SHOP_BTN = {
   475: {prices:{amazon:"$349.00",zzounds:"$349.00",andertons:"£264.00",musicstore:"€289.00"}},
   476: {prices:{amazon:"$929.00",andertons:"£449.00",musicstore:"€699.00"},oos:["zzounds"]},
   477: {prices:{amazon:"$1,399.00",zzounds:"$1,399.00",gear4music:"£1,199.00",andertons:"£1,014.00",musicstore:"€1,269.00"}},
-  478: {prices:{amazon:"$1,399.99",zzounds:"$1,699.99",gear4music:"£1,510.00",andertons:"£1,399.00",musicstore:"€1,499.00"}}
+  478: {prices:{amazon:"$1,399.99",zzounds:"$1,699.99",gear4music:"£1,510.00",andertons:"£1,399.00",musicstore:"€1,499.00"}},
+  483: {prices:{amazon:"$439.00",andertons:"£529.00"}},
+  484: {prices:{amazon:"$399.00",gear4music:"£259.00",andertons:"£269.00",zzounds:"$399.00"}},
+  485: {prices:{gear4music:"£999.00",andertons:"£899.00",amazon:"$1,099.99"}}
   };function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
   const prices = cfg.prices || {};

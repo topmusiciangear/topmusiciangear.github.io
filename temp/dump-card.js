@@ -1,0 +1,13 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/best-bass-amps.html', 'utf8');
+const seg = h.slice(205772, 232000);
+const anchorRe = /<a data-store="(\w+)" href="([^"]+)"/g;
+let m;
+console.log('=== 484 card anchors ===');
+while ((m = anchorRe.exec(seg))) console.log('  anchor:', m[1], '->', m[2].slice(0, 120));
+const priceRe = /[£$€][0-9,]+\.\d{2}/g;
+const prices = [...new Set(seg.match(priceRe) || [])];
+console.log('=== prices ===');
+console.log(prices.join(' | '));
+const oosRe = /Out of stock|Not available|Agotado|No disponible/g;
+console.log('oos/na markers:', (seg.match(oosRe) || []).join(', ') || 'none');
