@@ -12,6 +12,11 @@ execSync('node build-guides.js', { stdio: 'inherit' });
 console.log('\n2. Regenerating shop-buttons.js...');
 execSync('node temp/gen-shop-buttons.js', { stdio: 'inherit' });
 
+// 2b. Defer Andertons Impact affiliate links across all generated HTML
+// (href = clean andertons.co.uk for bots, data-aff = pxf restored on real click)
+console.log('\n2b. Deferring Andertons affiliate links...');
+execSync('node temp/defere-aff.js', { stdio: 'inherit' });
+
 // 3. Update version hash in index.html
 console.log('\n3. Updating cache hashes...');
 var shopContent = fs.readFileSync('js/shop-buttons.js');
