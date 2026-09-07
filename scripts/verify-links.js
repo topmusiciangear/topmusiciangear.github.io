@@ -141,16 +141,28 @@ products.forEach(function(p) {
 
 // Check Shop With Confidence badge
 var indexHtml = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
-var msBadge = indexHtml.match(/class="store-logo"[^>]*>[\s\S]*?Music Store[\s\S]*?<\/a>/);
-if (msBadge) {
-  var badgeUrl = msBadge[0].match(/href="([^"]+)"/);
-  if (badgeUrl) {
-    if (badgeUrl[1].indexOf('awin1.com/cread.php?awinmid=63816') === -1) {
-      issues.push('SHOP WITH CONFIDENCE badge: Music Store link is NOT Awin: ' + badgeUrl[1]);
-    } else {
-      console.log('Shop With Confidence Music Store badge: Awin link OK');
+var msIndex = indexHtml.lastIndexOf('Music Store');
+var badgeFound = false;
+while (msIndex >= 0) {
+  var anchorStart = indexHtml.lastIndexOf('<a ', msIndex);
+  if (anchorStart === -1) break;
+  var anchorBlock = indexHtml.slice(anchorStart, msIndex);
+  if (anchorBlock.indexOf('class="store-logo"') !== -1) {
+    var badgeUrl = anchorBlock.match(/href="([^"]+)"/);
+    if (badgeUrl) {
+      badgeFound = true;
+      if (badgeUrl[1].indexOf('awin1.com/cread.php?awinmid=63816') === -1) {
+        issues.push('SHOP WITH CONFIDENCE badge: Music Store link is NOT Awin: ' + badgeUrl[1]);
+      } else {
+        console.log('Shop With Confidence Music Store badge: Awin link OK');
+      }
     }
+    break;
   }
+  msIndex = indexHtml.lastIndexOf('Music Store', msIndex - 1);
+}
+if (!badgeFound) {
+  issues.push('SHOP WITH CONFIDENCE badge: Music Store badge not found in index.html');
 }
 
 console.log('\n=== COMPREHENSIVE LINK VERIFICATION ===');
