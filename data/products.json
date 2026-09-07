@@ -9935,16 +9935,16 @@
     "unit_es": "cada uno",
     "desc": "German DSP-controlled reference subwoofer built around a long-throw 10-inch ELFF woofer and a 180W amplifier that extends to 18 Hz (±3 dB) — about twice the output of the KH 750 DSP. Multichannel bass management covers stereo, surround and immersive formats up to 7.1.4, with MA 1 automatic alignment, AES3/BNC digital I/O and intelligent protection limiters making it the control centre of any Neumann monitoring chain.",
     "desc_es": "Subwoofer de referencia alemán controlado por DSP construido en torno a un woofer ELFF de 10 pulgadas de gran excursión y un amplificador de 180W que llega hasta 18 Hz (±3 dB), con aproximadamente el doble de salida que el KH 750 DSP. La gestión de graves multicanal cubre formatos estéreo, envolventes e inmersivos hasta 7.1.4, y la alineación automática MA 1, la E/S digital AES3/BNC y los limitadores de protección inteligentes lo convierten en el centro de control de cualquier cadena de monitoreo Neumann.",
-    "img": "https://assets.sennheiser.com/assets/KH-810II_Left_Neumann-Studio-Subwoofer_Main.png/Zz05NmQ1NjliMmU3ZDkxMWYwODhkYjc2OGVlOGU5N2FlYQ==?width=730&format=webp&quality=80",
+    "img": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/91g9Xo1OiBL._AC_SX466_.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0FSGYBWZQ",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-KH-810-II/art-REC0017051-000",
+      "andertons": "https://www.andertons.co.uk/neumann-kh-810-ii-10-active-subwoofer/",
+      "zzounds": "https://www.zzounds.com/item--NEMKH810II",
       "reverb": "https://reverb.com/marketplace?query=Neumann%20KH%20810%20II"
     },
     "excludeStores": [
-      "zzounds",
-      "gear4music",
-      "andertons"
+      "gear4music"
     ]
   },
   {
