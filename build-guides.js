@@ -246,7 +246,7 @@ function getResolvedStores(product) {
       s[key] = searchUrls[key](shortTitle(product.title));
     }
   });
-  if (s.reverb) {
+  if (s.reverb && !s.reverb.startsWith('https://www.awin1.com/cread.php?awinmid=67144')) {
     s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
   if (s.musicstore && !s.musicstore.startsWith('https://www.awin1.com/cread.php?awinmid=63816')) {
@@ -254,7 +254,7 @@ function getResolvedStores(product) {
   } else if (s.musicstore) {
     s.musicstore = normalizeMusicStore(s.musicstore);
   }
-  if (s.gear4music) {
+  if (s.gear4music && !s.gear4music.startsWith('https://www.awin1.com/cread.php?awinmid=1117')) {
     s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
   }
   if (s.zzounds) {

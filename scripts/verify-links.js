@@ -27,17 +27,30 @@ products.forEach(function(p) {
           if (decoded.indexOf('musicstore.com') === -1) {
             issues.push('MUSIC STORE [' + p.id + '] ' + p.title + ': ued does not point to musicstore.com');
           }
+          // Detect double-wrap (awin inside awin)
+          if (decoded.indexOf('awin1.com') !== -1) {
+            issues.push('MUSIC STORE [' + p.id + '] ' + p.title + ': double-wrapped awin link');
+          }
         }
       } else {
+        // Canonical clean URL is fine (wrapped at build time) — only flag non-musicstore domains
         musicstoreFallback++;
-        issues.push('MUSIC STORE [' + p.id + '] ' + p.title + ': NOT an Awin link');
+        if (url.indexOf('musicstore.com') === -1 && url.indexOf('awin1.com') === -1) {
+          issues.push('MUSIC STORE [' + p.id + '] ' + p.title + ': not a musicstore URL');
+        }
       }
     }
     
     if (key === 'reverb') {
       reverbLinks++;
-      if (!url.includes('reverb.com')) {
+      if (url.indexOf('reverb.com') === -1 && url.indexOf('awin1.com') === -1) {
         issues.push('REVERB [' + p.id + '] ' + p.title + ': not a reverb.com URL');
+      }
+      if (url.indexOf('awin1.com') !== -1) {
+        var rUed = url.match(/ued=([^&]+)/);
+        if (rUed && decodeURIComponent(rUed[1]).indexOf('awin1.com') !== -1) {
+          issues.push('REVERB [' + p.id + '] ' + p.title + ': double-wrapped awin link');
+        }
       }
     }
     
@@ -74,8 +87,14 @@ products.forEach(function(p) {
     
     if (key === 'gear4music') {
       gear4musicLinks++;
-      if (url.indexOf('gear4music.com') === -1) {
+      if (url.indexOf('gear4music.com') === -1 && url.indexOf('awin1.com') === -1) {
         issues.push('GEAR4MUSIC [' + p.id + '] ' + p.title + ': not a gear4music URL');
+      }
+      if (url.indexOf('awin1.com') !== -1) {
+        var gUed = url.match(/ued=([^&]+)/);
+        if (gUed && decodeURIComponent(gUed[1]).indexOf('awin1.com') !== -1) {
+          issues.push('GEAR4MUSIC [' + p.id + '] ' + p.title + ': double-wrapped awin link');
+        }
       }
     }
     
