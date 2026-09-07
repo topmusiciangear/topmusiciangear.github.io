@@ -1,29 +1,78 @@
-// Post-process: defer Andertons Impact affiliate links.
-// Converts <a href="pxf..."> -> <a href="<clean andertons.co.uk>" data-aff="<pxf>" so bots/crawlers
-// don't follow the pxf redirect (reduces ghost clicks in Impact), while a real user click
-// restores pxf via js/aff-defer.js (commission preserved). Generators remain untouched.
+// Post-process: defer affiliate redirect links so bots/crawlers see only the clean
+// store href, while a REAL user click restores the redirect via js/aff-defer.js
+// (commission preserved). Covers the redirect-based affiliate networks on the site:
+//   - Impact/pxf Andertons          andertonsmusiccompany.pxf.io ... ?u=<clean>
+//   - Awin gear4music/musicstore/reverb  awin1.com/cread.php ... &ued=<clean>
+//   - CJ zZounds                    anrdoezrs.net/click-... ... ?url=<clean>
+// Tag-based networks (Amazon ?tag=, Plugin Boutique ?a_aid=) do NOT count visits
+// as clicks, so they are left untouched. Generators remain untouched.
 // Usage:
 //   node temp/defere-aff.js            # apply to all site HTML
 //   node temp/defere-aff.js --check    # verify only, no writes
 
 const fs = require('fs');
-const path = require('path');
 
-const PXF_RE = /href="(https:\/\/andertonsmusiccompany\.pxf\.io\/[^"]*)"[^>]*>/;
+const AFF_RE = /<a\s[^>]*?href="((?:https:\/\/andertonsmusiccompany\.pxf\.io\/|https:\/\/www\.awin1\.com\/cread\.php\?|https:\/\/www\.anrdoezrs\.net\/click-)[^"]*)"[^>]*>/g;
 
-function transformTag(m, pxf) {
-  let clean = pxf;
-  try {
-    const uq = pxf.match(/[?&]u=([^&]+)/);
-    if (uq && uq[1]) clean = decodeURIComponent(uq[1]);
-  } catch (e) {}
-  if (!/^https:\/\/www\.andertons\.co\.uk\//.test(clean)) return m;
-  const withAff = m.replace('href="' + pxf + '"', 'data-aff="' + pxf + '"');
-  return '<a' + withAff.slice(2).replace('>', ' href="' + clean + '">');
+const NETWORKS = [
+  {
+    re: /^https:\/\/andertonsmusiccompany\.pxf\.io\//,
+    param: /[?&]u=([^&"']+)/,
+    clean: /^https:\/\/www\.andertons\.co\.uk\//
+  },
+  {
+    re: /^https:\/\/www\.awin1\.com\/cread\.php\?/,
+    param: /ued=([^&"']+)/,
+    clean: /^https:\/\/(?:www\.)?(?:gear4music\.com|musicstore\.com|reverb\.com)\//
+  },
+  {
+    re: /^https:\/\/www\.anrdoezrs\.net\/click-/,
+    param: /url=([^&"']+)/,
+    clean: /^https:\/\/www\.zzounds\.com\//
+  }
+];
+
+function hrefsLeft(html) {
+  return (html.match(/href="https:\/\/andertonsmusiccompany\.pxf\.io\/[^"]*"/g) || []).length +
+    (html.match(/href="https:\/\/www\.awin1\.com\/cread\.php\?[^"]*"/g) || []).length +
+    (html.match(/href="https:\/\/www\.anrdoezrs\.net\/click-[^"]*"/g) || []).length;
+}
+
+function hasManyHrefs(html) {
+  return hrefsLeft(html) > 0;
+}
+
+function dataAffCount(html) {
+  return (html.match(/data-aff="https:\/\/andertonsmusiccompany\.pxf\.io\//g) || []).length +
+    (html.match(/data-aff="https:\/\/www\.awin1\.com\/cread\.php\?/g) || []).length +
+    (html.match(/data-aff="https:\/\/www\.anrdoezrs\.net\/click-/g) || []).length;
+}
+
+function cleanFromAff(affUrl) {
+  for (const n of NETWORKS) {
+    if (!n.re.test(affUrl)) continue;
+    const m = affUrl.match(n.param);
+    if (!m) return null;
+    let clean;
+    try { clean = decodeURIComponent(m[1]); } catch (e) { return null; }
+    if (!n.clean.test(clean)) return null;
+    return clean;
+  }
+  return null;
+}
+
+function transformTag(m) {
+  const affMatch = m.match(/href="([^"]+)"/);
+  if (!affMatch) return m;
+  const affUrl = affMatch[1];
+  const clean = cleanFromAff(affUrl);
+  if (!clean) return m;
+  const cleanAttr = clean.replace(/&/g, '&amp;');
+  return m.split(' href="' + affUrl + '"').join(' data-aff="' + affUrl + '" href="' + cleanAttr + '"');
 }
 
 function transformHtml(html) {
-  return html.replace(/<a\s[^>]*?href="(https:\/\/andertonsmusiccompany\.pxf\.io\/[^"]*)"[^>]*>/g, transformTag);
+  return html.replace(AFF_RE, transformTag);
 }
 
 function ensureDeferScript(html) {
@@ -40,41 +89,37 @@ function collectPages() {
     'es/index.html', 'es/about.html', 'es/contact.html', 'es/affiliate-disclosure.html',
     'es/cookie-policy.html', 'es/privacy-policy.html', 'es/terms.html'];
   rootHtml.forEach(p => { if (fs.existsSync(p)) pages.push(p); });
-  // guides
   (fs.readdirSync('guides') || []).filter(f => f.endsWith('.html')).forEach(f => pages.push('guides/' + f));
   return pages;
 }
 
 const CHECK = process.argv.indexOf('--check') !== -1;
 const pages = collectPages();
-let totalAff = 0, totalHrefsLeft = 0, totalChanged = 0, errors = 0;
+let totalAff = 0, totalChanged = 0, totalLeaks = 0;
 
 pages.forEach(p => {
   let html;
   try { html = fs.readFileSync(p, 'utf8'); } catch (e) { return; }
   const before = html;
-  const affBefore = (html.match(/data-aff="https:\/\/andertonsmusiccompany\.pxf\.io\//g) || []).length;
-  const hrefBefore = (html.match(/href="https:\/\/andertonsmusiccompany\.pxf\.io\/[^"]*"/g) || []).length;
-  if (hrefBefore === 0 && affBefore === 0 && html.indexOf('js/aff-defer.js') === -1) return;
+  if (!hasManyHrefs(html) && html.indexOf('js/aff-defer.js') === -1 && dataAffCount(html) === 0) return;
 
   html = transformHtml(html);
   html = ensureDeferScript(html);
   const after = html;
-  const affAfter = (html.match(/data-aff="https:\/\/andertonsmusiccompany\.pxf\.io\//g) || []).length;
-  const hrefsLeft = (html.match(/href="https:\/\/andertonsmusiccompany\.pxf\.io\/[^"]*"/g) || []).length;
-  if (hrefsLeft > 0) errors++;
+  const left = hrefsLeft(after);
+  const aff = dataAffCount(after);
 
   if (before !== after) {
     totalChanged++;
-    totalAff += affAfter;
-    totalHrefsLeft += hrefsLeft;
+    totalAff += aff;
+    totalLeaks += left;
     if (!CHECK) fs.writeFileSync(p, after);
-    if (CHECK || true) console.log('  ' + p + ': href=' + hrefsLeft + ' left, data-aff=' + affAfter);
+    console.log('  ' + p + ': href-left=' + left + ', data-aff=' + aff);
   }
 });
 
 console.log('\nSUMMARY' + (CHECK ? ' (CHECK ONLY, no writes)' : ''));
 console.log('  pages changed: ' + totalChanged);
 console.log('  total data-aff added: ' + totalAff);
-console.log('  total pxf left in href (should be 0): ' + totalHrefsLeft);
-console.log(errors ? '  !! LEAK: some pxf remain in href' : '  OK');
+console.log('  total redirect hrefs left (should be 0): ' + totalLeaks);
+console.log(totalLeaks ? '  !! LEAK: some affiliate redirects remain in href' : '  OK');

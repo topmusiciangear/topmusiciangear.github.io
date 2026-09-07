@@ -38,6 +38,12 @@ jobs:
       - name: Check live prices and update deals
         run: node auto-deals.js
 
+      - name: Defer affiliate redirects in generated HTML
+        # deals.html/deals_es.html are regenerated above with raw affiliate hrefs
+        # (pxf/Awin/CJ). Post-process to clean href for bots + data-aff for the
+        # real-click restore (js/aff-defer.js), same as temp/deploy.js does.
+        run: node temp/defere-aff.js
+
       - name: Commit and push changes
         # NOTE: pushes made with GITHUB_TOKEN do NOT trigger other workflows,
         # so purge-cache.yml never runs for bot pushes. Cloudflare is purged
