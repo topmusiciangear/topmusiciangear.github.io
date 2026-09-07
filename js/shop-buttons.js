@@ -376,7 +376,7 @@ const TEST_SHOP_BTN = {
   334: {prices:{gear4music:"£1,708.00",amazon:"$3,299.99",zzounds:"$3,299.99",andertons:"£1,499.00",musicstore:"€2,100.00"}},
   335: {prices:{amazon:"$999.99",zzounds:"$744.95"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ"},oos:["musicstore","andertons"]},
   336: {prices:{amazon:"$249.99",zzounds:"$249.99"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-Mobile-Mix-8-Channel-USB-Mixer/651Y"},oos:["andertons"]},
-  337: {prices:{gear4music:"£1,565.79",amazon:"$1,999.00",zzounds:"$1,999.00",andertons:"£1,565.00",musicstore:"€1,259.66"}},
+  337: {prices:{gear4music:"£1,565.79",amazon:"$1,999.00",zzounds:"$1,999.00",andertons:"£1,565.00",musicstore:"€1,489.00"}},
   338: {prices:{andertons:"£1,019.00",musicstore:"€587.39"},oos:["gear4music","zzounds"]},
   339: {prices:{gear4music:"£739.00",amazon:"$999.00",zzounds:"$999.00",andertons:"£739.00",musicstore:"€839.34"}},
   340: {prices:{amazon:"$485.00",zzounds:"$485.00",andertons:"£472.00",gear4music:"£491.00",musicstore:"€478.15"}},
