@@ -3127,11 +3127,11 @@
     "verdict_es": "FabFilter Pro-Q para EQ, Valhalla VintageVerb para reverb, TDR Nova para EQ dinámico gratuito y Universal Audio 1176 para carácter analógico.",
     "featuredProducts": [],
     "relatedGuides": [
-      "best-free-plugins",
-      "soundtoys-vs-khorns",
-      "valhalla-vs-plates",
-      "fabfilter-pro-q-vs-eq1",
-      "best-vocal-plugins"
+      "mixing-plugins",
+      "fx-plugins",
+      "channel-strip-plugins",
+      "vocal-plugins",
+      "sidechain-modulation-plugins"
     ],
     "description": "Best plugins for music production guide. Covers free plugins, premium EQs, compressors, reverbs, and hardware-modeled effects. Deep-dives for mixing, mastering, vocals, and more.",
     "featuredSnippet": {
@@ -14767,9 +14767,9 @@
     "verdict_es": "El Boss Katana para práctica, el Fender Blues Junior para tono de válvulas con presupuesto ajustado, el Positive Grid Spark para modelado y el Ampeg SVT para uso de bajo en el escenario.",
     "featuredProducts": [],
     "relatedGuides": [
-      "boss-katana-vs-positive-grid-spark",
-      "best-guitar-amps",
-      "best-pedalboards",
+      "blues-junior-vs-ac30",
+      "katana-vs-dsl",
+      "best-practice-amps",
       "best-bass-under-700"
     ],
     "description": "Best guitar and bass amplifiers guide. Covers tube, solid-state, modeling amps, and bass amplification.",
@@ -15946,11 +15946,11 @@
       "faq_a6_es": "Sí, es el original. El EHX Small Stone entrega ese icónico phaser analógico cálido de 1974, y su diseño sencillo de una perilla con interruptor de color ofrece desde un remolino sutil hasta un swoosh psicodélico intenso. Para tono phaser vintage auténtico a un precio razonable, nada lo supera."
     },
     "relatedGuides": [
-      "best-pedalboards",
-      "best-reverbs",
-      "best-delays",
-      "best-overdrives",
-      "best-fuzz-pedals"
+      "best-overdrive-distortion",
+      "best-reverb-delay",
+      "ts9-vs-bd2",
+      "best-multi-effects-pedals",
+      "best-looper-pedals"
     ],
     "description_es": "Guía de mejores pedales de efectos de guitarra. Cubre drive, modulación, delay, reverb y esenciales de pedalboard.",
     "author": {
@@ -17241,7 +17241,7 @@
     "relatedGuides": [
       "best-pa-speakers",
       "best-digital-mixers",
-      "best-budget-mixers"
+      "budget-pa-systems"
     ],
     "description": "Best PA systems and live sound equipment. Covers powered vs passive speakers, digital mixers, and venue setup.",
     "featuredSnippet": {
@@ -17863,10 +17863,10 @@
     "verdict_es": "Reaper para grabación económica, Logic Pro para producción polivalente, Ableton Live para música electrónica y Pro Tools para estudios profesionales.",
     "featuredProducts": [],
     "relatedGuides": [
-      "best-daw",
       "best-daw-for-beginners",
-      "best-free-daw",
-      "logic-pro-vs-ableton"
+      "ableton-vs-logic",
+      "pro-tools-vs-cubase",
+      "ableton-vs-fl-studio"
     ],
     "products": [
       111
@@ -20160,7 +20160,7 @@
       "best-acoustic-guitars-for-beginners",
       "best-electric-guitars-2026",
       "fender-guide",
-      "best-songwriting-guitars"
+      "best-parlor-guitars"
     ],
     "description": "Complete guide to choosing your first guitar. Covers acoustic vs electric vs classical, what to look for, and the best budget models for beginners and songwriters.",
     "featuredSnippet": {
@@ -22405,7 +22405,7 @@
       "fender-guide",
       "american-pro-vs-les-paul",
       "player-strat-vs-pacifica",
-      "best-guitars-under-500"
+      "martin-d28-vs-taylor-314"
     ],
     "description_es": "Guía completa para elegir una guitarra eléctrica. Cubre modelos para principiantes, económicos, premium y de grabación casera con comparativas para ayudarte a elegir la correcta.",
     "author": {
@@ -33668,8 +33668,7 @@
     "relatedGuides": [
       "best-microphone",
       "usb-mics",
-      "best-mic-for-streaming",
-      "best-mic-stands",
+      "streaming-interfaces",
       "mics-for-creators"
     ],
     "description": "Best microphones for podcasting. Covers dynamic and condenser mics for solo and multi-host setups.",
@@ -42910,8 +42909,8 @@
     "relatedGuides": [
       "live-sound-pa",
       "best-pa-speakers",
-      "best-budget-mixers",
-      "best-studio-mixers"
+      "best-compact-mixers",
+      "xr18-vs-m32r"
     ],
     "aboutName": "Mixers",
     "author": {
@@ -62598,7 +62597,7 @@
       "usb-mics",
       "best-microphone",
       "best-mic-for-podcasting",
-      "best-mic-stands"
+      "wireless-lapel-mics"
     ],
     "description": "Best microphones for content creators. Helps you decide between USB and XLR for streaming, YouTube, and voiceover. Dedicated guides for USB mics and podcasting included.",
     "description_es": "Mejores micrófonos para creadores de contenido. Te ayudan a decidir entre USB y XLR para streaming, YouTube y voiceover. Incluye enlaces a guías dedicadas de micrófonos USB y podcast.",
@@ -71367,7 +71366,13 @@
     ],
     "conclusion": "The ribbon microphone market in 2026 spans from the ultra-affordable MXL R144 to the legendary Coles 4038 and the industry-standard Royer R-121. For guitar amp recording, the R-121 remains unmatched. For drum overheads and orchestral work, the Coles 4038 is a timeless classic. Budget-conscious studios will find extraordinary value in the MXL R144, while the sE Voodoo VR2 bridges the gap with active convenience. The Beyerdynamic M 160 stands alone with its hypercardioid pattern, solving isolation challenges that figure-8 ribbons cannot.",
     "conclusion_es": "El mercado de micrófonos ribbon en 2026 abarca desde la ultra-económica MXL R144 hasta la legendaria Coles 4038 y la estándar de la industria Royer R-121. Para la grabación de amplificadores de guitarra, la R-121 sigue siendo insuperable. Para overheads de batería y trabajo orquestal, la Coles 4038 es un clásico atemporal. Los estudios con presupuesto limitado encontrarán un valor extraordinario en la MXL R144, mientras que la sE Voodoo VR2 tiende el puente con su conveniencia activa. La Beyerdynamic M 160 se destaca sola con su patrón hipercardioide, resolviendo problemas de aislamiento que los ribbon figura-8 no logran resolver",
-    "datePublished": "2025-08-29"
+    "datePublished": "2025-08-29",
+    "relatedGuides": [
+      "best-condenser-mics",
+      "budget-mics",
+      "best-microphone",
+      "stage-mics"
+    ]
   },
   {
     "id": "ai-tools-plugins",
@@ -73341,6 +73346,12 @@
           "El procesamiento FLEX DSP es potente pero navegar por menús puede ralentizar el flujo de trabajo"
         ]
       }
+    ],
+    "relatedGuides": [
+      "best-digital-mixers",
+      "best-live-sound-mixers",
+      "best-compact-mixers",
+      "xr18-vs-m32r"
     ]
   },
   {
@@ -74216,6 +74227,12 @@
         "a": "You're paying for transformer quality, build quality, and R&D. Radial uses custom Eclipse transformers with extremely low distortion (0.01% THD on the ProD2), 14-gauge steel chassis, Neutrik connectors, and a 3-year transferable warranty. The J48's switching power supply is designed to extract maximum headroom from phantom power — something cheaper DIs don't attempt. In professional audio, a failed DI means a dead stage, so the premium is insurance as much as performance.",
         "a_es": "Estás pagando por calidad de transformador, calidad de construcción e I+D. Radial usa transformadores Eclipse personalizados con distorsión extremadamente baja (0.01% THD en la ProD2), chasis de acero calibre 14, conectores Neutrik y garantía transferible de 3 años. La fuente de alimentación conmutada de la J48 está diseñada para extraer el máximo margen de la alimentación phantom — algo que las DI baratas no intentan. En audio profesional, una DI que falla deja el escenario en silencio, así que la prima es tanto un seguro como un rendimiento."
       }
+    ],
+    "relatedGuides": [
+      "j48-vs-rndi",
+      "live-sound-pa",
+      "stage-wireless",
+      "active-vs-passive-pa"
     ]
   },
   {
@@ -74439,6 +74456,12 @@
         "a": "Both the J48 and RNDI require 48V phantom power to operate — they are active DI boxes that need power for their internal electronics. Without phantom power, neither will pass signal. Make sure your mixer or audio interface provides phantom power on the input channel before relying on either DI.",
         "a_es": "Tanto el J48 como el RNDI requieren alimentación fantasma de 48V para funcionar — son cajas DI activas que necesitan corriente para su electrónica interna. Sin alimentación fantasma, ninguna pasará señal. Asegúrate de que tu mezcladora o interfaz de audio proporcione alimentación fantasma en el canal de entrada antes de usar cualquiera de las dos DIs."
       }
+    ],
+    "relatedGuides": [
+      "di-box",
+      "live-sound-pa",
+      "stage-wireless",
+      "active-vs-passive-pa"
     ]
   }
 ]
