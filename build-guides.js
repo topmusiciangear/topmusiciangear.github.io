@@ -450,7 +450,7 @@ const TEST_SHOP_BTN = {
   75: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£649.00",gear4music:"£649.00",musicstore:"€729.00"}},
   76: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£749.00",gear4music:"£749.00",musicstore:"€888.00"}},
   91: {prices:{amazon:"$1,839.99",zzounds:"$1,839.99",andertons:"£589.00",gear4music:"£1,549.00",musicstore:"€1,699.00"}},
-  92: {prices:{amazon:"$849.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band/2BBJ"},oos:["andertons","zzounds"]},
+  92: {prices:{amazon:"$849.00",musicstore:"€769.00"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band/2BBJ"},oos:["andertons","zzounds"]},
   93: {prices:{zzounds:"$999.00",gear4music:"£845.00",musicstore:"€868.00"},oos:["andertons"]},
   95: {prices:{amazon:"$749.00",zzounds:"$749.00",andertons:"£518.00",gear4music:"£518.00",musicstore:"€675.00"}},
   96: {prices:{amazon:"$99.00",zzounds:"$99.99",andertons:"£109.99",gear4music:"£110.00",musicstore:"€148.00"}},
@@ -461,7 +461,7 @@ const TEST_SHOP_BTN = {
   101: {prices:{amazon:"$83.50",andertons:"£69.99",gear4music:"£67.90",musicstore:"€66.00"},oos:["zzounds"]},
   102: {prices:{amazon:"$229.00",andertons:"£299.00",gear4music:"£239.00",musicstore:"€139.00"},oos:["zzounds"]},
   103: {prices:{amazon:"$329.99",zzounds:"$359.99",andertons:"£269.00",musicstore:"€329.00"},oos:["gear4music"]},
-  104: {prices:{amazon:"$3,499.99",andertons:"£3,599.00",musicstore:"€3,499.00"},oos:["zzounds"]},
+  104: {prices:{amazon:"$3,499.99",andertons:"£3,599.00",musicstore:"€3,499.00"},oos:["zzounds","gear4music"]},
   105: {prices:{amazon:"$549.00",zzounds:"$549.00",andertons:"£436.00",gear4music:"£469.00",musicstore:"€599.00"}},
   106: {prices:{amazon:"$899.99",zzounds:"$899.99",andertons:"£845.00",gear4music:"£862.00",musicstore:"€999.00"}},
   107: {prices:{amazon:"$469.00",zzounds:"$469.00",andertons:"£398.00",gear4music:"£419.00",musicstore:"€444.00"},oos:["gear4music","zzounds"]},
@@ -547,7 +547,7 @@ const TEST_SHOP_BTN = {
   192: {prices:{amazon:"$424.99",zzounds:"$424.99",andertons:"£451.00",gear4music:"£263.00",musicstore:"€432.77"}},
   193: {prices:{gear4music:"£369.00",amazon:"$499.99",zzounds:"$499.99",andertons:"£349.00",musicstore:"€217.60"}},
   194: {prices:{amazon:"$199.00",zzounds:"$199.00",andertons:"£272.00",gear4music:"£273.50",musicstore:"€259.66"}},
-  195: {prices:{amazon:"$119.99"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Elgato-WAVE3-Microphone/43BD"},oos:["andertons"]},
+  195: {prices:{amazon:"$119.99"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Elgato-WAVE3-Microphone/43BD"},oos:["andertons","gear4music"]},
   196: {prices:{amazon:"$99.00",zzounds:"$99.00",andertons:"£79.00",gear4music:"£80.60",musicstore:"€82.35"}},
   197: {prices:{amazon:"$99.00",zzounds:"$86.00",andertons:"£86.00",gear4music:"£93.00",musicstore:"€68.91"}},
   198: {prices:{gear4music:"£106.50",amazon:"$79.00",zzounds:"$109.00",andertons:"£97.00",musicstore:"€119.00"}},
@@ -561,7 +561,7 @@ const TEST_SHOP_BTN = {
   206: {prices:{amazon:"$1,599.00",zzounds:"$1,599.00",andertons:"£1,399.00",gear4music:"£478.00",musicstore:"€1,799.00"}},
   207: {prices:{amazon:"$1,762.00",andertons:"£1,069.00",gear4music:"£1,099.00",musicstore:"€1,279.00"}},
   208: {prices:{amazon:"$849.00",zzounds:"$899.00",andertons:"£709.00",gear4music:"£709.28",musicstore:"€729.00"}},
-  209: {prices:{amazon:"$1,399.00",andertons:"£879.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/4PIK"},oos:["zzounds"]},
+  209: {prices:{amazon:"$1,399.00",andertons:"£879.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/4PIK"},oos:["zzounds","gear4music"]},
   210: {prices:{amazon:"$219.00",zzounds:"$219.00",andertons:"£149.00",gear4music:"£149.50",musicstore:"€149.00"}},
   211: {prices:{gear4music:"£372.00",amazon:"$399.00",zzounds:"$499.99",andertons:"£372.00",musicstore:"€349.00"}},
   212: {prices:{gear4music:"£193.50",amazon:"$219.00",zzounds:"$219.00",andertons:"£193.00",musicstore:"€209.00"}},
@@ -685,7 +685,7 @@ const TEST_SHOP_BTN = {
   332: {prices:{gear4music:"£540.00",amazon:"$599.00",zzounds:"$599.00",andertons:"£525.00",musicstore:"€472.44"}},
   333: {prices:{gear4music:"£246.00",amazon:"$459.99",andertons:"£246.00",musicstore:"€359.00"}},
   334: {prices:{gear4music:"£1,708.00",amazon:"$3,299.99",zzounds:"$3,299.99",andertons:"£1,499.00",musicstore:"€2,499.00"}},
-  335: {prices:{amazon:"$999.99",zzounds:"$744.95"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ"},oos:["musicstore","andertons"]},
+  335: {prices:{amazon:"$999.99",zzounds:"$744.95"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ"},oos:["musicstore","andertons","gear4music"]},
   336: {prices:{amazon:"$249.99",zzounds:"$249.99"},urls:{gear4music:"https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-Mobile-Mix-8-Channel-USB-Mixer/651Y"},oos:["andertons"]},
   337: {prices:{gear4music:"£1,565.79",amazon:"$1,999.00",zzounds:"$1,999.00",andertons:"£1,565.00",musicstore:"€1,489.00"}},
   338: {prices:{andertons:"£1,019.00",musicstore:"€587.39"},oos:["gear4music","zzounds"]},
@@ -1189,6 +1189,7 @@ function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const isVs = /-vs-/i.test(guide.id);
   const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
+  const titleTag = Y((isEs ? guide.titleTag_es : guide.titleTag) || title);
   const intro = esText(isEs && guide.intro_es, guide.intro);
   const introTableMatch = intro.match(/<table[\s\S]*?<\/table>/);
   const introTable = introTableMatch ? '<div class="guide-comp-wrap"><div class="guide-comp-controls guide-comp-controls-top">' + guideCompLeftArrow(false) + guideCompProgress() + guideCompRightArrow(false) + '</div><div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll">' + introTableMatch[0] + '</div></div></div>' : '';
@@ -1285,7 +1286,7 @@ function buildGuidePage(guide, lang, idx) {
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
   var ogMeta = `  <meta property="og:type" content="article">
-  <meta property="og:title" content="${title} | TopMusicianGear">
+  <meta property="og:title" content="${titleTag} | TopMusicianGear">
   <meta property="og:description" content="${d}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
@@ -1444,7 +1445,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>${title} | TopMusicianGear</title>
+  <title>${titleTag} | TopMusicianGear</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="${canonical}">
