@@ -10586,26 +10586,6 @@
     }
   },
   {
-    "id": 498,
-    "title": "JBL JRX212 Passive Stage Monitor",
-    "title_es": "Monitor de Escenario Pasivo JBL JRX212",
-    "brand": "JBL",
-    "category": "live_sound",
-    "price": 350,
-    "rating": 4.5,
-    "reviews": 3321,
-    "badge": "recommended",
-    "desc": "A 12-inch two-way passive stage monitor with a 64mm edgewound ribbon voice coil, 250W continuous / 1,000W peak into 8 ohms and 128 dB max SPL. The Progressive Transition waveguide and SonicGuard-protected 2414H-C compression driver deliver smooth, reliable sound with maximum gain before feedback. The 19mm MDF cabinet includes a dual-angle pole socket so it works equally well as front-of-house or floor monitor.",
-    "desc_es": "Un monitor de escenario pasivo de dos vías de 12 pulgadas con bobina de voz de cinta edgewound de 64mm, 250W continuos / 1.000W pico a 8 ohmios y 128 dB SPL máximo. El waveguide Progressive Transition y el driver de compresión 2414H-C protegido por SonicGuard ofrecen un sonido suave y fiable con el máximo gain antes del feedback. El gabinete de MDF de 19mm incluye un soporte de mástil de doble ángulo para funcionar igual de bien como PA frontal o monitor de suelo.",
-    "img": "https://r2.gear4music.com/media/28/286741/1200/preview.jpg",
-    "stores": {
-      "zzounds": "https://www.zzounds.com/a--925521/item--JBLJRX212",
-      "amazon": "https://www.amazon.com/dp/B00CYNTFB6",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FJBL-JRX212-12-Passive-PA-Speaker%2FUXH",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJBL-JRX-212%2Fart-PAH0013935-000"
-    }
-  },
-  {
     "id": 499,
     "title": "Yamaha CBR12 Passive Speaker",
     "title_es": "Altavoz Pasivo Yamaha CBR12",
@@ -10663,5 +10643,24 @@
       "andertons": "https://www.andertons.co.uk/turbosound-TFX122M-AN-powered-stage-monitor/",
       "amazon": "https://www.amazon.com/dp/B06Y4R9ZBF"
     }
-  }
-]
+  },
+  {
+    "id": 502,
+    "title": "Mackie SRT215 Active PA Speaker",
+    "title_es": "Altavoz PA Activo Mackie SRT215",
+    "brand": "Mackie",
+    "category": "live_sound",
+    "price": 780,
+    "rating": 4.6,
+    "reviews": 92,
+    "badge": "recommended",
+    "desc": "A 1,600W powered 15-inch two-way PA speaker with a 15-inch woofer and 1.4-inch polymer compression driver on a SymX horn, delivering 133 dB peak SPL, a 42 Hz–20 kHz response and 90° x 60° coverage. The Advanced Impulse DSP adds five acoustic voicings and system EQ, while SRT Mix Control runs a four-channel digital mixer with Bluetooth streaming — all controllable from the front panel or wirelessly via the SRT Connect app. The 45° tilt-back monitor angle and dual-angle pole mount let it work as main PA or floor wedge, and the 16.8 kg polypropylene cabinet also flies on M10 rigging points.",
+    "desc_es": "Un altavoz PA activo de dos vías de 15 pulgadas con 1.600W, woofer de 15 pulgadas y driver de compresión de polímero de 1.4 pulgadas sobre una trompa SymX, que entrega 133 dB de SPL pico, respuesta de 42 Hz–20 kHz y cobertura de 90° x 60°. El DSP Advanced Impulse añade cinco ecualizaciones acústicas y EQ del sistema, mientras que SRT Mix Control gestiona un mezclador digital de cuatro canales con streaming Bluetooth — todo controlable desde el panel frontal o de forma inalámbrica con la app SRT Connect. El ángulo de monitor de 45° y el soporte de mástil de doble ángulo lo dejan funcionar como PA principal o cuña de suelo, y el gabinete de polipropileno de 16,8 kg también cuelga de puntos de rigging M10.",
+    "img": "https://r2.gear4music.com/media/63/639323/1200/preview.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/a--925521/item--MACSRT215",
+      "amazon": "https://www.amazon.com/dp/B08TYGPMDG",
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FMackie-SRT215-15-Active-PA-Speaker%2F3Q8C",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMackie-SRT215%2Fart-PAH0022227-000"
+    }
+  }]

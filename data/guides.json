@@ -48438,11 +48438,11 @@
       {
         "heading": "What About Amplifier Matching and Power Handling?",
         "heading_es": "¿Qué pasa con la compatibilidad de amplificadores y el manejo de potencia?",
-        "content": "<p><strong>With active speakers, amplifier matching is done for you.</strong> The manufacturer has already selected the perfect amplifier for each driver. You don't need to calculate wattage, impedance, or RMS ratings. The DSP handles limiting and crossover points automatically. This removes the single biggest point of failure in live sound — mismatched amplifier and speaker combinations that lead to blown drivers.</p><p><strong>Good passive options still exist.</strong> The JBL JRX215 (15-inch), JBL JRX212 (12-inch), Yamaha CBR12 and EV ELX200-12 are proven, affordable passive speakers — pair them with an amplifier matched as described below.</p><p><strong>With passive speakers, you must match amplifier power carefully.</strong> A general rule: choose amplifier that delivers 1.5 to 2 times the speaker's continuous power rating (RMS). This gives you clean headroom without risking driver damage. The amplifier should be stable at the speaker's nominal impedance (usually 4 or 8 ohms). Running multiple passive speakers in parallel changes the impedance load — two 8-ohm speakers in parallel present a 4-ohm load. Incorrect matching is the most common cause of speaker failure in passive systems.</p><p><strong>Bi-amping vs passive crossover:</strong> High-end passive speakers use passive crossovers inside the cabinet to split the signal between woofer and tweeter. Bi-amping (or tri-amping) uses separate amplifier channels for each driver, with active crossover before amps. Active speakers are inherently bi-amped, each driver has its own amp channel and DSP crossover, which is why they often sound clearer and more efficient than equivalently priced passive setups.</p>",
-        "content_es": "<p><strong>Con altavoces activos, la compatibilidad del amplificador está resuelta.</strong> El fabricante ya ha seleccionado el amplificador perfecto para cada controlador. No necesitas calcular vataje, impedancia ni valores RMS. El DSP maneja la limitación y los crossovers automáticamente. Esto elimina el mayor punto de fallo en el sonido en vivo — combinaciones incorrectas de amplificador y altavoz que queman los controladores.</p><p><strong>Todavía existen buenas opciones pasivas.</strong> El JBL JRX215 (de 15\"), el JBL JRX212 (de 12\"), el Yamaha CBR12 y el EV ELX200-12 son altavoces pasivos probados y asequibles — acompáñalos con un amplificador igualado como se describe abajo.</p><p><strong>Con altavoces pasivos, debes igualar la potencia del amplificador cuidadosamente.</strong> Una regla general: elige un amplificador que entregue 1.5 a 2 veces la potencia nominal continua (RMS) del altavoz. Esto te da margen limpio sin arriesgar daños al controlador. El amplificador debe ser estable a la impedancia nominal del altavoz (generalmente 4 u 8 ohmios). Conectar varios altavoces pasivos en paralelo cambia la carga de impedancia — dos altavoces de 8 ohmios en paralelo presentan una carga de 4 ohmios. La compatibilidad incorrecta es la causa más común de fallo de altavoces en sistemas pasivos.</p><p><strong>Bi-amplificación vs crossover pasivo:</strong> Los altavoces pasivos de alta gama usan crossovers pasivos dentro de la caja para dividir la señal entre woofer y tweeter. La bi-amplificación (o tri-amplificación) usa canales de amplificador separados para cada controlador, con un crossover activo antes de los amplificadores. Los altavoces activos son inherentemente bi-amplificados — cada controlador tiene su propio canal de amplificación y crossover DSP, por lo que a menudo suenan más claros y eficientes que configuraciones pasivas de precio equivalente.</p>",
+        "content": "<p><strong>With active speakers, amplifier matching is done for you.</strong> The manufacturer has already selected the perfect amplifier for each driver. You don't need to calculate wattage, impedance, or RMS ratings. The DSP handles limiting and crossover points automatically. This removes the single biggest point of failure in live sound — mismatched amplifier and speaker combinations that lead to blown drivers.</p><p><strong>Good passive options still exist.</strong> The JBL JRX215 (15-inch), Yamaha CBR12 and EV ELX200-12 are proven, affordable passive speakers — pair them with an amplifier matched as described below. If you’d rather skip the amplifier rack entirely, the powered Mackie SRT215 in the cards below carries its own 1,600W Class-D amplifier and Advanced Impulse DSP in a 15-inch cabinet while still doubling as a 45° monitor wedge.</p><p><strong>With passive speakers, you must match amplifier power carefully.</strong> A general rule: choose amplifier that delivers 1.5 to 2 times the speaker's continuous power rating (RMS). This gives you clean headroom without risking driver damage. The amplifier should be stable at the speaker's nominal impedance (usually 4 or 8 ohms). Running multiple passive speakers in parallel changes the impedance load — two 8-ohm speakers in parallel present a 4-ohm load. Incorrect matching is the most common cause of speaker failure in passive systems.</p><p><strong>Bi-amping vs passive crossover:</strong> High-end passive speakers use passive crossovers inside the cabinet to split the signal between woofer and tweeter. Bi-amping (or tri-amping) uses separate amplifier channels for each driver, with active crossover before amps. Active speakers are inherently bi-amped, each driver has its own amp channel and DSP crossover, which is why they often sound clearer and more efficient than equivalently priced passive setups.</p>",
+        "content_es": "<p><strong>Con altavoces activos, la compatibilidad del amplificador está resuelta.</strong> El fabricante ya ha seleccionado el amplificador perfecto para cada controlador. No necesitas calcular vataje, impedancia ni valores RMS. El DSP maneja la limitación y los crossovers automáticamente. Esto elimina el mayor punto de fallo en el sonido en vivo — combinaciones incorrectas de amplificador y altavoz que queman los controladores.</p><p><strong>Todavía existen buenas opciones pasivas.</strong> El JBL JRX215 (de 15\"), el Yamaha CBR12 y el EV ELX200-12 son altavoces pasivos probados y asequibles — acompáñalos con un amplificador igualado como se describe abajo. Si prefieres saltarte el rack de amplificación por completo, el Mackie SRT215 activo de las tarjetas de abajo lleva su propio amplificador Class-D de 1.600W y DSP Advanced Impulse en una caja de 15\" que además funciona como cuña de monitor de 45°.</p><p><strong>Con altavoces pasivos, debes igualar la potencia del amplificador cuidadosamente.</strong> Una regla general: elige un amplificador que entregue 1.5 a 2 veces la potencia nominal continua (RMS) del altavoz. Esto te da margen limpio sin arriesgar daños al controlador. El amplificador debe ser estable a la impedancia nominal del altavoz (generalmente 4 u 8 ohmios). Conectar varios altavoces pasivos en paralelo cambia la carga de impedancia — dos altavoces de 8 ohmios en paralelo presentan una carga de 4 ohmios. La compatibilidad incorrecta es la causa más común de fallo de altavoces en sistemas pasivos.</p><p><strong>Bi-amplificación vs crossover pasivo:</strong> Los altavoces pasivos de alta gama usan crossovers pasivos dentro de la caja para dividir la señal entre woofer y tweeter. La bi-amplificación (o tri-amplificación) usa canales de amplificador separados para cada controlador, con un crossover activo antes de los amplificadores. Los altavoces activos son inherentemente bi-amplificados — cada controlador tiene su propio canal de amplificación y crossover DSP, por lo que a menudo suenan más claros y eficientes que configuraciones pasivas de precio equivalente.</p>",
         "products": [
           497,
-          498,
+          502,
           499,
           500
         ]
@@ -48483,10 +48483,10 @@
         "products": []
       }
     ],
-    "conclusion": "For nearly every portable PA application, active speakers make more sense — the JBL EON712 and the EV ELX200-15P are our picks for simple setup and strong sound. That said, the JBL JRX215 and JRX212, plus the Yamaha CBR12 and EV ELX200-12, prove passive still has a place: lighter cabinets you can drive from a single rack amplifier when you already run an amp rig. If you're building a large fixed installation or touring with a dedicated sound engineer, passive speakers may still be worth considering, but for the other 90% of users, go active and never look back. <p><a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/best-live-sound-mixers.html\" class=\"guide-link-btn\">Best Live Sound Mixers for Bands & Events</a> <a href=\"/guides/zlx-vs-k12.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
-    "conclusion_es": "Para casi cualquier aplicación PA portátil, los altavoces activos tienen más sentido — el JBL EON712 y el EV ELX200-15P son nuestras opciones por su configuración simple y gran sonido. Dicho esto, el JBL JRX215 y el JBL JRX212, además del Yamaha CBR12 y el EV ELX200-12, demuestran que el pasivo todavía tiene su lugar: cajas más ligeras que puedes alimentar desde un único amplificador de rack si ya cuentas con un equipo de amplificadores. Si estás construyendo una instalación fija grande o girando con un ingeniero de sonido dedicado, los pasivos pueden valer la pena — pero para el otro 90% de los usuarios, ve activo y no mires atrás. <p>También te interesa: <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/best-live-sound-mixers_es.html\" class=\"guide-link-btn\">Mejores Mezcladores de Sonido en Vivo para Bandas y Eventos</a> <a href=\"/guides/zlx-vs-k12_es.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
-    "verdict": "Active speakers win for nearly everyone — built-in amps, no separate rack, simpler setup. The JBL EON712 and EV ELX200-15P are our active picks here, with the JBL JRX215 and JRX212, plus the Yamaha CBR12 and EV ELX200-12, as solid passive alternatives for amp-matched systems.",
-    "verdict_es": "Los altavoces activos ganan para casi todos — amplificación integrada, sin rack aparte, configuración más simple. El JBL EON712 y el EV ELX200-15P son nuestras opciones activas aquí, con el JBL JRX215 y el JBL JRX212, además del Yamaha CBR12 y el EV ELX200-12, como alternativas pasivas sólidas para sistemas con amplificador.",
+    "conclusion": "For nearly every portable PA application, active speakers make more sense — the JBL EON712 and the EV ELX200-15P are our picks for simple setup and strong sound. That said, the JBL JRX215, plus the Yamaha CBR12 and EV ELX200-12, prove passive still has a place: lighter cabinets you can drive from a single rack amplifier when you already run an amp rig. If you're building a large fixed installation or touring with a dedicated sound engineer, passive speakers may still be worth considering, but for the other 90% of users, go active and never look back. If a powered floor monitor is what you need, the Mackie SRT215 is our featured active pick here. <p><a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/best-live-sound-mixers.html\" class=\"guide-link-btn\">Best Live Sound Mixers for Bands & Events</a> <a href=\"/guides/zlx-vs-k12.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
+    "conclusion_es": "Para casi cualquier aplicación PA portátil, los altavoces activos tienen más sentido — el JBL EON712 y el EV ELX200-15P son nuestras opciones por su configuración simple y gran sonido. Dicho esto, el JBL JRX215, además del Yamaha CBR12 y el EV ELX200-12, demuestran que el pasivo todavía tiene su lugar: cajas más ligeras que puedes alimentar desde un único amplificador de rack si ya cuentas con un equipo de amplificadores. Si estás construyendo una instalación fija grande o girando con un ingeniero de sonido dedicado, los pasivos pueden valer la pena — pero para el otro 90% de los usuarios, ve activo y no mires atrás. Si necesitas un monitor de suelo activo, el Mackie SRT215 es nuestra opción activa destacada aquí. <p>También te interesa: <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/best-live-sound-mixers_es.html\" class=\"guide-link-btn\">Mejores Mezcladores de Sonido en Vivo para Bandas y Eventos</a> <a href=\"/guides/zlx-vs-k12_es.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
+    "verdict": "Active speakers win for nearly everyone — built-in amps, no separate rack, simpler setup. The JBL EON712 and EV ELX200-15P are our active picks here, with the JBL JRX215, plus the Yamaha CBR12 and EV ELX200-12, as solid passive alternatives for amp-matched systems, and the powered Mackie SRT215 as a monitor-wedge option that needs no amplifier rack.",
+    "verdict_es": "Los altavoces activos ganan para casi todos — amplificación integrada, sin rack aparte, configuración más simple. El JBL EON712 y el EV ELX200-15P son nuestras opciones activas aquí, con el JBL JRX215, además del Yamaha CBR12 y el EV ELX200-12, como alternativas pasivas sólidas para sistemas con amplificador, y el Mackie SRT215 activo como opción de cuña de monitor sin rack de amplificador.",
     "featuredProducts": [
       105,
       106,
@@ -48494,7 +48494,7 @@
       493,
       495,
       497,
-      498,
+      502,
       499,
       500
     ],
@@ -48757,27 +48757,27 @@
         ]
       },
       {
-        "name": "JBL JRX212",
-        "name_es": "JBL JRX212",
+        "name": "Mackie SRT215",
+        "name_es": "Mackie SRT215",
         "pros": [
-          "Compact 12-inch enclosure that doubles as a solid stage monitor",
-          "1000W peak / 250W continuous with SonicGuard overload protection",
-          "60 Hz–20 kHz response and 128 dB peak SPL",
-          "Budget-friendly entry point into a full passive PA"
+          "1,600W peak Class-D amplifier with Advanced Impulse DSP and full system protection",
+          "133 dB peak SPL with a 42 Hz–20 kHz response from a 15-inch woofer and 1.4-inch compression driver",
+          "45° tilt-back wedge angle plus dual-angle pole mount — main PA or floor monitor in one box",
+          "SRT Mix Control: built-in 4-channel digital mixer with Bluetooth streaming and wireless SRT Connect app control"
         ],
         "pros_es": [
-          "Caja compacta de 12\" que funciona también como monitor de escenario",
-          "1000W pico / 250W continuos con protección SonicGuard",
-          "Respuesta de 60 Hz–20 kHz y 128 dB de SPL pico",
-          "Punto de entrada económico para un PA pasivo completo"
+          "Amplificador Class-D de 1.600W pico con DSP Advanced Impulse y protección total del sistema",
+          "133 dB de SPL pico con respuesta de 42 Hz–20 kHz desde un woofer de 15 pulgadas y un driver de compresión de 1.4\"",
+          "Ángulo de cuña de 45° más soporte de mástil de doble ángulo — PA principal o monitor de suelo en una caja",
+          "SRT Mix Control: mezclador digital de 4 canales integrado con streaming Bluetooth y control inalámbrico con la app SRT Connect"
         ],
         "cons": [
-          "60 Hz – 20 kHz response rolls off fast without a subwoofer",
-          "Needs an external amplifier and correct impedance matching"
+          "Pricier and heavier than the passive cabinets here — you pay for the built-in amplifier and DSP",
+          "37.1 lb (16.8 kg) still takes muscle when loading in"
         ],
         "cons_es": [
-          "La respuesta desde 60 Hz se queda corta sin un subwoofer",
-          "Requiere amplificador externo y coincidencia correcta de impedancia"
+          "Más caro y pesado que las cajas pasivas de aquí — pagas por el amplificador y el DSP integrados",
+          "Sus 16,8 kg aún exigen esfuerzo al cargar"
         ]
       },
       {
@@ -48847,8 +48847,8 @@
           "title_es": "JBL JRX215"
         },
         {
-          "title": "JBL JRX212",
-          "title_es": "JBL JRX212"
+          "title": "Mackie SRT215",
+          "title_es": "Altavoz Activo Mackie SRT215"
         },
         {
           "title": "Yamaha CBR12",
@@ -48877,8 +48877,8 @@
               "value_es": "Pasivo de 15\" para sistemas con amplificador"
             },
             {
-              "value": "Passive 12-inch budget workhorse",
-              "value_es": "Pasivo de 12\" económico todoterreno"
+              "value": "Powered 15-inch for FOH and floor monitoring",
+              "value_es": "Activo de 15\" para FOH y monitor de suelo"
             },
             {
               "value": "Lightweight 12-inch for amp-matched FOH and monitors",
@@ -48907,8 +48907,8 @@
               "value_es": "Altavoz PA pasivo"
             },
             {
-              "value": "Passive PA speaker",
-              "value_es": "Altavoz PA pasivo"
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA autoamplificado"
             },
             {
               "value": "Passive PA speaker",
@@ -48937,8 +48937,8 @@
               "value_es": "250W cont. / 1000W pico (8 Ω)"
             },
             {
-              "value": "250W cont. / 1000W peak (8Ω)",
-              "value_es": "250W cont. / 1000W pico (8 Ω)"
+              "value": "1600W (peak)",
+              "value_es": "1600W (pico)"
             },
             {
               "value": "175W cont. / 700W peak (8Ω)",
@@ -48967,8 +48967,8 @@
               "value_es": "15\" + 1\" HF"
             },
             {
-              "value": "12\" + 1\" HF",
-              "value_es": "12\" + 1\" HF"
+              "value": "15\" + 1.4\" HF",
+              "value_es": "15\" + 1.4\" HF"
             },
             {
               "value": "12\" + 1.4\" HF",
@@ -48997,8 +48997,8 @@
               "value_es": "41 Hz – 18 kHz"
             },
             {
-              "value": "60 Hz – 20 kHz",
-              "value_es": "60 Hz – 20 kHz"
+              "value": "42 Hz – 20 kHz",
+              "value_es": "42 Hz – 20 kHz"
             },
             {
               "value": "48 Hz – 20 kHz",
@@ -49027,8 +49027,8 @@
               "value_es": "129 dB"
             },
             {
-              "value": "128 dB",
-              "value_es": "128 dB"
+              "value": "133 dB",
+              "value_es": "133 dB"
             },
             {
               "value": "125 dB",
@@ -49057,8 +49057,8 @@
               "value_es": "90° x 50°"
             },
             {
-              "value": "90° x 50°",
-              "value_es": "90° x 50°"
+              "value": "90° x 60°",
+              "value_es": "90° x 60°"
             },
             {
               "value": "90° x 60°",
@@ -49087,8 +49087,8 @@
               "value_es": "Sin DSP — amplificador/crossover externo"
             },
             {
-              "value": "None — external amp/crossover",
-              "value_es": "Sin DSP — amplificador/crossover externo"
+              "value": "Advanced Impulse DSP + SRT Connect app",
+              "value_es": "DSP Advanced Impulse + app SRT Connect"
             },
             {
               "value": "None — external amp/crossover",
@@ -49117,8 +49117,8 @@
               "value_es": "NL4 + jack 6,35 mm"
             },
             {
-              "value": "NL4 + 0.25\" jack",
-              "value_es": "NL4 + jack 6,35 mm"
+              "value": "2x XLR/combo + 1/8\" aux + XLR out + Bluetooth",
+              "value_es": "2x XLR/combo + aux 1/8\" + salida XLR + Bluetooth"
             },
             {
               "value": "NL4 + 0.25\" jack",
@@ -49147,8 +49147,8 @@
               "value_es": "27,4 kg"
             },
             {
-              "value": "43 lb (19.5 kg)",
-              "value_es": "19,5 kg"
+              "value": "37.1 lb (16.8 kg)",
+              "value_es": "16,8 kg"
             },
             {
               "value": "30.6 lb (13.9 kg)",
