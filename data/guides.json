@@ -2639,20 +2639,12 @@
               "value_es": "Biamplificado de 2 vías"
             },
             {
+              "value": "2-way powered",
+              "value_es": "Biamplificado de 2 vías"
+            },
+            {
               "value": "3-way powered",
               "value_es": "Triamplificado de 3 vías"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
             },
             {
               "value": "2-way powered",
@@ -2707,28 +2699,32 @@
               "value_es": "1\""
             },
             {
-              "value": "1\"",
-              "value_es": "1\""
+              "value": "1\" textile dome",
+              "value_es": "1\" de cúpula de tela"
             },
             {
               "value": "1\" silk dome",
               "value_es": "1\" de cúpula de seda"
             },
             {
-              "value": "Powered PA speaker",
-              "value_es": "Altavoz PA autoamplificado"
+              "value": "1\" soft dome",
+              "value_es": "1\" de cúpula blanda"
             },
             {
-              "value": "Powered PA speaker",
-              "value_es": "Altavoz PA autoamplificado"
+              "value": "1.9\" X-ART ribbon",
+              "value_es": "1.9\" de cinta X-ART"
             },
             {
-              "value": "Powered PA speaker",
-              "value_es": "Altavoz PA autoamplificado"
+              "value": "1\" (coaxial)",
+              "value_es": "1\" (coaxial)"
             },
             {
-              "value": "Powered PA speaker",
-              "value_es": "Altavoz PA autoamplificado"
+              "value": "3/4\"",
+              "value_es": "3/4\""
+            },
+            {
+              "value": "1\" dome",
+              "value_es": "1\" de cúpula"
             }
           ]
         },
@@ -32178,20 +32174,8 @@
               "value_es": "Acero (eléctrica)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
-            },
-            {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
-            },
-            {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
-            },
-            {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "value": "Nylon (classical)",
+              "value_es": "Nylon (clásica)"
             }
           ]
         },
@@ -35723,6 +35707,14 @@
             {
               "value": "2-way/3-speaker with DSP",
               "value_es": "2 vías/3 altavoces con DSP"
+            },
+            {
+              "value": "2-way powered",
+              "value_es": "Biamplificado de 2 vías"
+            },
+            {
+              "value": "2-way powered",
+              "value_es": "Biamplificado de 2 vías"
             },
             {
               "value": "2-way powered",
@@ -61343,14 +61335,6 @@
               "value_es": "Audio de micrófono XLR de nivel profesional"
             },
             {
-              "value": "Touchscreen-guided podcast & streaming mixer",
-              "value_es": "Mezclador para podcast y streaming guiado por pantalla táctil"
-            },
-            {
-              "value": "Standalone dual-PC stream console",
-              "value_es": "Consola de streaming autónoma para doble PC"
-            },
-            {
               "value": "Big productions with many scenes & tools",
               "value_es": "Producciones grandes con muchas escenas y herramientas"
             }
@@ -61375,14 +61359,6 @@
             {
               "value": "Compact XLR mic interface",
               "value_es": "Interfaz XLR de micrófono compacta"
-            },
-            {
-              "value": "All-in-one digital mixer (XLR inputs)",
-              "value_es": "Mezclador digital todo-en-uno (entradas XLR)"
-            },
-            {
-              "value": "All-in-one production console (XLR inputs)",
-              "value_es": "Consola de producción todo-en-uno (entradas XLR)"
             },
             {
               "value": "Controller with 36 LCD keys, dials & touch strip",
@@ -61411,14 +61387,6 @@
               "value_es": "80dB ultrabaja en ruido"
             },
             {
-              "value": "80dB Onyx80 preamp",
-              "value_es": "80dB previo Onyx80"
-            },
-            {
-              "value": "76dB Revolution preamp",
-              "value_es": "76dB previo Revolution"
-            },
-            {
               "value": "None (software control only)",
               "value_es": "Ninguna (solo control de software)"
             }
@@ -61435,14 +61403,6 @@
             {
               "value": "4K30 capture / 4K60 passthrough",
               "value_es": "Captura 4K30 / paso de vídeo 4K60"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
             },
             {
               "value": "No",
@@ -63864,7 +63824,138 @@
         }
       ]
     },
-    "verdictProsCons": [],
+    "verdictProsCons": [
+      {
+        "name": "Line 6 Helix HX Stomp",
+        "name_es": "Line 6 Helix HX Stomp",
+        "pros": [
+          "300+ Helix amp, cab and effect models in a compact stompbox",
+          "Up to 6 simultaneous blocks plus looper, IR loading and USB audio interface",
+          "Pro-grade Helix engine shared with the flagship floor modeler",
+          "4.7/5 rating across over 3,000 reviews"
+        ],
+        "pros_es": [
+          "Más de 300 modelos de amplificador, cab y efectos Helix en un stompbox compacto",
+          "Hasta 6 bloques simultáneos más looper, carga de IR e interfaz de audio USB",
+          "Motor Helix de nivel profesional compartido con el modelador de piso insignia",
+          "Valorado 4.7/5 en más de 3,000 reseñas"
+        ],
+        "cons": [
+          "Most expensive pick on this list",
+          "Deeper block-based editing has a learning curve",
+          "Fewer physical footswitches than a full floor modeler"
+        ],
+        "cons_es": [
+          "La opción más cara de esta lista",
+          "La edición profunda basada en bloques tiene curva de aprendizaje",
+          "Menos footswitches físicos que un modelador de piso completo"
+        ]
+      },
+      {
+        "name": "Boss GX-1",
+        "name_es": "Boss GX-1",
+        "pros": [
+          "146 effects, 198 memories and 23 AIRD amp types in a compact floorboard",
+          "8 simultaneous effect blocks arranged like a real pedalboard",
+          "Built-in expression pedal and 38-second looper",
+          "4.6/5 rating across over 2,000 reviews"
+        ],
+        "pros_es": [
+          "146 efectos, 198 memorias y 23 tipos de amplificador AIRD en una pedalera compacta",
+          "8 bloques de efectos simultáneos ordenados como una pedalera real",
+          "Pedal de expresión integrado y looper de 38 segundos",
+          "Valorado 4.6/5 en más de 2,000 reseñas"
+        ],
+        "cons": [
+          "AIRD modeling sounds less realistic than capture-based or flagship modelers",
+          "No touchscreen — menu navigation via knobs",
+          "Tone depth trails the HX Stomp for critical ears"
+        ],
+        "cons_es": [
+          "El modelado AIRD suena menos realista que los modeladores basados en captures o de gama alta",
+          "Sin pantalla táctil — navegación de menús con perillas",
+          "La profundidad tonal queda por detrás del HX Stomp para oídos críticos"
+        ]
+      },
+      {
+        "name": "HeadRush Flex Prime",
+        "name_es": "HeadRush Flex Prime",
+        "pros": [
+          "4-inch color touchscreen — the most intuitive editing on stage",
+          "52 amp models, 15 cab models, 300 IRs and 74+ effects",
+          "Looper, expression pedal, MIDI and USB audio interface included",
+          "4.5/5 rating across over 1,400 reviews"
+        ],
+        "pros_es": [
+          "Pantalla táctil a color de 4 pulgadas — la edición más intuitiva en el escenario",
+          "52 modelos de amplificador, 15 modelos de cab, 300 IRs y más de 74 efectos",
+          "Looper, pedal de expresión, MIDI e interfaz de audio USB incluidos",
+          "Valorado 4.5/5 en más de 1,400 reseñas"
+        ],
+        "cons": [
+          "Costs more than the GX-1",
+          "Touchscreen workflow adds a learning curve for knob-and-switch players",
+          "Modeling sound is more studio-flavored than capture realism"
+        ],
+        "cons_es": [
+          "Cuesta más que el GX-1",
+          "El flujo con pantalla táctil añade curva de aprendizaje para quienes usan perillas",
+          "El sonido de modelado es más de estudio que el realismo de captures"
+        ]
+      },
+      {
+        "name": "Line 6 POD Go",
+        "name_es": "Line 6 POD Go",
+        "pros": [
+          "200+ Helix amps, cabs and effects in an ultra-portable floorboard",
+          "Shares the HX modeling engine with the flagship Helix",
+          "Simple 4-footswitch layout with snapshots",
+          "4.6/5 rating across nearly 1,000 reviews"
+        ],
+        "pros_es": [
+          "Más de 200 amplificadores, cabs y efectos Helix en una pedalera ultraportátil",
+          "Comparte el motor de modelado HX con el Helix insignia",
+          "Disposición simple de 4 footswitches con snapshots",
+          "Valorado 4.6/5 en casi 1,000 reseñas"
+        ],
+        "cons": [
+          "4-footswitch layout and single-screen workflow limit deep editing",
+          "No free assignable switch for extra effect control",
+          "Less block flexibility than the HX Stomp"
+        ],
+        "cons_es": [
+          "La disposición de 4 footswitches y el flujo de una sola pantalla limitan la edición profunda",
+          "Sin footswitch libre asignable para control extra de efectos",
+          "Menos flexibilidad de bloques que el HX Stomp"
+        ]
+      },
+      {
+        "name": "IK Multimedia TONEX ONE+",
+        "name_es": "IK Multimedia TONEX ONE+",
+        "pros": [
+          "Capture-based realism of real tube amps in a pocket-sized pedal",
+          "Bluetooth wireless editing and full MIDI control via TRS and USB",
+          "USB-C audio interface for direct recording",
+          "Access to 60,000+ shared Tone Models on ToneNET"
+        ],
+        "pros_es": [
+          "Realismo de captures de amplificadores de válvulas reales en un pedal de bolsillo",
+          "Edición inalámbrica Bluetooth y control MIDI completo por TRS y USB",
+          "Interfaz de audio USB-C para grabar directo",
+          "Acceso a más de 60,000 Tone Models compartidos en ToneNET"
+        ],
+        "cons": [
+          "Amp-in-a-box, not a full multi-fx chain",
+          "No built-in delay/reverb chain",
+          "Single onboard footswitch toggles just one preset or an A/B pair"
+        ],
+        "cons_es": [
+          "Amplificador-en-caja, no una cadena multi-fx completa",
+          "Sin cadena de delay/reverb integrada",
+          "El único footswitch integrado alterna solo un preset o un par A/B"
+        ]
+      }
+    ],
     "datePublished": "2026-08-19"
   },
   {
@@ -72640,6 +72731,48 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Best overall value & church/house bands",
+              "value_es": "Mejor relación calidad-precio y bandas de iglesia/establecimientos"
+            },
+            {
+              "value": "Premium sound for touring FOH",
+              "value_es": "Sonido premium para FOH en giras"
+            },
+            {
+              "value": "Future-proof 96 kHz + 36 mix buses",
+              "value_es": "A prueba de futuro a 96 kHz + 36 buses de mezcla"
+            },
+            {
+              "value": "Wireless rack-mount mixing",
+              "value_es": "Mezcla inalámbrica en rack"
+            },
+            {
+              "value": "Churches & schools via TouchFlow",
+              "value_es": "Iglesias y escuelas vía TouchFlow"
+            },
+            {
+              "value": "Budget 32-channel studios",
+              "value_es": "Estudios de 32 canales económicos"
+            },
+            {
+              "value": "Compact stage mixing",
+              "value_es": "Mezcla de escenario compacta"
+            },
+            {
+              "value": "Wireless rack-mount mixing",
+              "value_es": "Mezcla inalámbrica en rack"
+            },
+            {
+              "value": "Dante-ready installs",
+              "value_es": "Instalaciones preparadas para Dante"
+            }
+          ]
+        },
+        {
           "label": "Local I/O (XLR)",
           "label_es": "E/S Local (XLR)",
           "values": [
@@ -73453,6 +73586,184 @@
         {
           "title": "Sennheiser XSW IEM",
           "title_es": "Sennheiser XSW IEM"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Best For",
+          "label_es": "Ideal Para",
+          "values": [
+            {
+              "value": "Critical studio work & high-end touring",
+              "value_es": "Trabajo crítico de estudio y giras de alto nivel"
+            },
+            {
+              "value": "Professional touring wireless",
+              "value_es": "Inalámbrico profesional para giras"
+            },
+            {
+              "value": "Small-to-mid stages on a budget",
+              "value_es": "Escenarios pequeños y medianos con presupuesto ajustado"
+            },
+            {
+              "value": "First wireless rig for gigging bands",
+              "value_es": "Primer sistema inalámbrico para bandas en directo"
+            }
+          ]
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "values": [
+            {
+              "value": "Wired reference IEM (quad-BA)",
+              "value_es": "IEM de referencia con cable (4 BA)"
+            },
+            {
+              "value": "UHF stereo wireless system",
+              "value_es": "Sistema inalámbrico estéreo UHF"
+            },
+            {
+              "value": "2.4 GHz wireless system",
+              "value_es": "Sistema inalámbrico 2.4 GHz"
+            },
+            {
+              "value": "Entry-level UHF wireless system",
+              "value_es": "Sistema inalámbrico UHF de nivel básico"
+            }
+          ]
+        },
+        {
+          "label": "Wireless Band",
+          "label_es": "Banda",
+          "values": [
+            {
+              "value": "Wired (no RF)",
+              "value_es": "Con cable (sin RF)"
+            },
+            {
+              "value": "UHF E-band (823-865 MHz)",
+              "value_es": "UHF banda E (823-865 MHz)"
+            },
+            {
+              "value": "2.4 GHz",
+              "value_es": "2,4 GHz"
+            },
+            {
+              "value": "UHF",
+              "value_es": "UHF"
+            }
+          ]
+        },
+        {
+          "label": "Latency",
+          "label_es": "Latencia",
+          "values": [
+            {
+              "value": "N/A (wired)",
+              "value_es": "N/A (con cable)"
+            },
+            {
+              "value": "<5 ms",
+              "value_es": "<5 ms"
+            },
+            {
+              "value": "<5 ms",
+              "value_es": "<5 ms"
+            },
+            {
+              "value": "<5 ms",
+              "value_es": "<5 ms"
+            }
+          ]
+        },
+        {
+          "label": "Range",
+          "label_es": "Alcance",
+          "values": [
+            {
+              "value": "N/A (wired)",
+              "value_es": "N/A (con cable)"
+            },
+            {
+              "value": "100 m",
+              "value_es": "100 m"
+            },
+            {
+              "value": "27 m (90 ft)",
+              "value_es": "27 m (90 pies)"
+            },
+            {
+              "value": "50 m",
+              "value_es": "50 m"
+            }
+          ]
+        },
+        {
+          "label": "Receivers",
+          "label_es": "Receptores",
+          "values": [
+            {
+              "value": "N/A (wired)",
+              "value_es": "N/A (con cable)"
+            },
+            {
+              "value": "1 (expandable)",
+              "value_es": "1 (expandible)"
+            },
+            {
+              "value": "1 (add more)",
+              "value_es": "1 (agrega más)"
+            },
+            {
+              "value": "1",
+              "value_es": "1"
+            }
+          ]
+        },
+        {
+          "label": "Power",
+          "label_es": "Alimentación",
+          "values": [
+            {
+              "value": "N/A (wired)",
+              "value_es": "N/A (con cable)"
+            },
+            {
+              "value": "2x AA",
+              "value_es": "2x AA"
+            },
+            {
+              "value": "USB-C rechargeable",
+              "value_es": "Recargable USB-C"
+            },
+            {
+              "value": "2x AA",
+              "value_es": "2x AA"
+            }
+          ]
+        },
+        {
+          "label": "Earbuds",
+          "label_es": "Auriculares",
+          "values": [
+            {
+              "value": "Integrated (detachable MMCX)",
+              "value_es": "Integrado (MMCX desmontable)"
+            },
+            {
+              "value": "IE 4 included",
+              "value_es": "IE 4 incluidos"
+            },
+            {
+              "value": "None (use your own)",
+              "value_es": "Ninguno (usa los tuyos)"
+            },
+            {
+              "value": "IE 4 included",
+              "value_es": "IE 4 incluidos"
+            }
+          ]
         }
       ]
     },
