@@ -829,7 +829,7 @@ const TEST_SHOP_BTN = {
   490: {prices:{zzounds:"$269.99",andertons:"£319.00",gear4music:"£265.00",musicstore:"€251.30"}},
   491: {prices:{zzounds:"$249.00",amazon:"$249.00",andertons:"£179.00",gear4music:"£170.00",musicstore:"€194.25"}},
   492: {prices:{zzounds:"$449.99",amazon:"$328.98",andertons:"£399.00",gear4music:"£369.00",musicstore:"€335.30"}},
-   493: {prices:{zzounds:"$549.00",amazon:"$439.20",andertons:"£497.00",gear4music:"£520.00",musicstore:"€529.00"}},
+   493: {prices:{zzounds:"$569.00",amazon:"$439.20",andertons:"£459.00",gear4music:"£520.00",musicstore:"€549.00"}},
    494: {prices:{zzounds:"$529.99",andertons:"£368.00",gear4music:"£374.00",musicstore:"€429.00"}},
    495: {prices:{zzounds:"$949.00",amazon:"$849.00",gear4music:"£659.00",musicstore:"€819.00"},oos:["andertons"]},
    496: {prices:{zzounds:"$1,099.00",amazon:"$1,099.00",andertons:"£1,049.00",musicstore:"€1,199.00"},oos:["gear4music"]},
