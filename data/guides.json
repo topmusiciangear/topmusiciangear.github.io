@@ -46326,8 +46326,8 @@
         ]
       }
     ],
-    "conclusion": "Every band needs a PA system that sounds great, is reliable, and fits the budget. The Mackie Thump215XT is one of the most affordable options for getting started. The Alto TS412 delivers the most power per dollar with class-leading 2500W output. The EV ZLX-12P-G2 is the professional entry-level choice that working musicians trust night after night. And the Yamaha DBR12 is the best all-purpose budget PA speaker on the market — the #1 choice for musicians who want Yamaha reliability without breaking the bank. Whichever you choose, invest in good cables, stands, and a quality mixer. <p><a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/zlx-vs-k12.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
-    "conclusion_es": "Cada banda necesita un sistema PA que suene genial, sea confiable y quepa en el presupuesto. El Mackie Thump215XT es una de las opciones más asequibles para empezar. El Alto TS412 ofrece la mayor potencia por tu dinero con 2500W de salida. El EV ZLX-12P-G2 es la opción profesional de entrada que los músicos recomiendan. Y el Yamaha DBR12 es el mejor altavoz PA económico del mercado. Cualquiera que elijas, invierte en buenos cables, trípodes y un mezclador de calidad. <p>También te interesa: <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/zlx-vs-k12_es.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
+    "conclusion": "Every band needs a PA system that sounds great, is reliable, and fits the budget. The Mackie Thump215XT is one of the most affordable options for getting started. The Alto TS412 delivers the most power per dollar with class-leading 2500W output. The EV ZLX-12P-G2 is the professional entry-level choice that working musicians trust night after night. The Yamaha DBR12 is the best all-purpose budget PA speaker on the market — the #1 choice for musicians who want Yamaha reliability without breaking the bank. And the new JBL EON712 packs a 1300W Class-D amplifier, Bluetooth streaming, and dbx DriveRack DSP into a compact 32 lb wedge — the smartest modern pick if you want pro-grade processing at a budget price. Whichever you choose, invest in good cables, stands, and a quality mixer. <p><a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/zlx-vs-k12.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
+    "conclusion_es": "Cada banda necesita un sistema PA que suene genial, sea confiable y quepa en el presupuesto. El Mackie Thump215XT es una de las opciones más asequibles para empezar. El Alto TS412 ofrece la mayor potencia por tu dinero con 2500W de salida. El EV ZLX-12P-G2 es la opción profesional de entrada que los músicos recomiendan. El Yamaha DBR12 es el mejor altavoz PA económico del mercado. Y el nuevo JBL EON712 incluye un amplificador Clase D de 1300W, streaming Bluetooth y DSP dbx DriveRack en una cuña compacta de 32 lb — la opción moderna más inteligente si quieres procesamiento profesional a un precio económico. Cualquiera que elijas, invierte en buenos cables, trípodes y un mezclador de calidad. <p>También te interesa: <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/zlx-vs-k12_es.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
     "verdict": "You don't need to spend a fortune for good live sound. These budget PA systems — powered speakers and a small mixer — deliver clean, loud sound for band practice, small venues and events.",
     "verdict_es": "No necesitas gastar una fortuna para tener buen sonido en vivo. Estos sistemas PA económicos — altavoces con amplificación y una mesa pequeña — entregan sonido limpio y fuerte para ensayos de banda, locales pequeños y eventos.",
     "featuredProducts": [
@@ -46335,7 +46335,8 @@
       105,
       153,
       154,
-      152
+      152,
+      493
     ],
     "relatedGuides": [
       "active-vs-passive-pa",
@@ -46414,6 +46415,10 @@
         {
           "title": "Yamaha DBR12",
           "title_es": "Yamaha DBR12"
+        },
+        {
+          "title": "JBL EON712 Powered Speaker",
+          "title_es": "Altavoz Activo JBL EON712"
         }
       ],
       "rows": [
@@ -46436,6 +46441,10 @@
             {
               "value": "Compact clear-sounding budget PA",
               "value_es": "PA económico compacto y claro"
+            },
+            {
+              "value": "Versatile compact powered speaker",
+              "value_es": "Altavoz autoamplificado versátil y compacto"
             }
           ]
         },
@@ -46443,6 +46452,10 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
+            {
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA autoamplificado"
+            },
             {
               "value": "Powered PA speaker",
               "value_es": "Altavoz PA autoamplificado"
@@ -46480,6 +46493,10 @@
             {
               "value": "2000W (peak)",
               "value_es": "2000W (pico)"
+            },
+            {
+              "value": "1300W (peak)",
+              "value_es": "1300W (pico)"
             }
           ]
         },
@@ -46502,6 +46519,10 @@
             {
               "value": "12\" + 1.4\" HF",
               "value_es": "12\" + 1,4\" HF"
+            },
+            {
+              "value": "12\" + 1\" HF",
+              "value_es": "12\" + 1\" HF"
             }
           ]
         },
@@ -46524,6 +46545,10 @@
             {
               "value": "53 Hz – 20 kHz",
               "value_es": "53 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
             }
           ]
         },
@@ -46546,6 +46571,10 @@
             {
               "value": "129 dB",
               "value_es": "129 dB"
+            },
+            {
+              "value": "127 dB",
+              "value_es": "127 dB"
             }
           ]
         },
@@ -46568,6 +46597,10 @@
             {
               "value": "90° x 60°",
               "value_es": "90° x 60°"
+            },
+            {
+              "value": "100° x 60°",
+              "value_es": "100° x 60°"
             }
           ]
         },
@@ -46590,6 +46623,10 @@
             {
               "value": "DSP presets",
               "value_es": "Presets DSP"
+            },
+            {
+              "value": "dbx DriveRack DSP + presets",
+              "value_es": "DSP dbx DriveRack + presets"
             }
           ]
         },
@@ -46612,6 +46649,10 @@
             {
               "value": "2x XLR/combo + XLR out",
               "value_es": "2x XLR/combo + salida XLR"
+            },
+            {
+              "value": "2x XLR/combo + XLR thru + Bluetooth",
+              "value_es": "2x XLR/combo + salida XLR + Bluetooth"
             }
           ]
         },
@@ -46634,6 +46675,10 @@
             {
               "value": "34.8 lb (15.8 kg)",
               "value_es": "15,8 kg"
+            },
+            {
+              "value": "32.2 lb (14.6 kg)",
+              "value_es": "14,6 kg"
             }
           ]
         }
@@ -46750,6 +46795,30 @@
           "2000W de pico son suficientes pero no los más potentes de la lista",
           "Sin streaming Bluetooth integrado — necesitas un cable o un receptor externo para reproducir música del teléfono",
           "El gabinete de plástico no tiene la dureza de carretera de algunos rivales"
+        ]
+      },
+      {
+        "name": "JBL EON712 Powered Speaker",
+        "name_es": "JBL EON712 Powered Speaker",
+        "pros": [
+          "1300W Class-D amplifier with 127 dB peak SPL in a compact 12-inch cab",
+          "Built-in mixer — two mic/line channels plus Bluetooth streaming",
+          "dbx DriveRack DSP with presets (music, live, speech) and music ducking",
+          "Wide 100° x 60° coverage from the updated image-control waveguide"
+        ],
+        "pros_es": [
+          "Amplificador Clase D de 1300W con 127 dB de SPL pico en una caja compacta de 12\"",
+          "Mezclador integrado — dos canales mic/line más streaming Bluetooth",
+          "DSP dbx DriveRack con presets (music, live, speech) y music ducking",
+          "Cobertura amplia de 100° x 60° gracias al waveguide actualizado"
+        ],
+        "cons": [
+          "127 dB peak SPL trails bigger 15-inch powered speakers",
+          "One XLR thru output only — daisy-chaining more speakers needs a mixer"
+        ],
+        "cons_es": [
+          "Los 127 dB de SPL pico se quedan atrás frente a activos de 15\" más grandes",
+          "Solo una salida XLR thru — encadenar más altavoces requiere un mezclador"
         ]
       }
     ],
