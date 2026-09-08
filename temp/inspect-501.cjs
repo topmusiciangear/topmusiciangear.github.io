@@ -1,0 +1,11 @@
+var s = require('fs').readFileSync('data/products.json', 'utf8');
+var i = s.indexOf('    "id": 501,');
+if (i < 0) throw new Error('501 not found');
+var start = s.lastIndexOf('  {', i);
+var end = s.indexOf('  }', i);
+console.log('501 block:');
+console.log(JSON.stringify(s.slice(start, end + 4)));
+var unitPos = s.indexOf('    "unit": "each",');
+console.log('sample = each line context:');
+var su = s.slice(unitPos - 400, unitPos + 40);
+console.log(su);
