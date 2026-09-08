@@ -680,6 +680,8 @@ En cada guía que se toque o cree, SIEMPRE:
 - **Gu�a DI Box (category: accessories)**: 7 productos (Radial J48 MK2, Rupert Neve RNDI, Tech 21 SansAmp Bass Driver DI v2, Radial ProD2, Walrus Audio Canvas Mono, Whirlwind IMP 2, LR Baggs Para Acoustic DI). Tabla por instrumento, regla "Los opuestos se atraen" (Activa/Pasiva), fotos Gear4Music, FAQs humanas, pros/cons reales. Investigar precios y URLs verificadas.
 - **VS Radial J48 vs Rupert Neve RNDI (category: accessories)**: Transparencia vs Color Arm�nico. Tabla comparativa agresiva, �ngulos de venta por modelo (J48 = headroom vivo, RNDI = saturaci�n arm�nica estudio), veredicto tajante. Fotos Gear4Music, FAQs humanas, specs verificadas del fabricante.
 
+- **Contenido JBL EON712 (id 493) en `budget-pa-systems`**: la guía muestra su card (sections 0/1 incluyen 493) pero NO tiene fila en `productTable`, ni entrada en `verdictProsCons`, ni FAQ, ni conclusión/veredicto dedicados. Falta añadir el texto EN+ES (en `active-vs-passive-pa` y `live-sound-pa` sí tiene texto normal).
+
 ## 🖼️ REGLA FIJA: Añadir productos al catálogo (`data/products.json`)
 
 **SIEMPRE que se añada un producto nuevo al catálogo, seguir este orden exacto (NO repetírselo al usuario):**

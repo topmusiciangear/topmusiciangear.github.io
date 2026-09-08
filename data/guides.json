@@ -2715,24 +2715,20 @@
               "value_es": "1\" de cúpula de seda"
             },
             {
-              "value": "1\" dome",
-              "value_es": "1\" de cúpula"
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA autoamplificado"
             },
             {
-              "value": "X-ART ribbon",
-              "value_es": "Cinta X-ART"
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA autoamplificado"
             },
             {
-              "value": "1\" + 4\" mid",
-              "value_es": "1\" + 4\" medio"
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA autoamplificado"
             },
             {
-              "value": "0.75\"",
-              "value_es": "0.75\""
-            },
-            {
-              "value": "1\"",
-              "value_es": "1\""
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA autoamplificado"
             }
           ]
         },
@@ -46328,13 +46324,6 @@
         "products": [
           154
         ]
-      },
-      {
-        "heading": "Is the RCF ART 710-A MK5 the Best Overall Budget PA Speaker?",
-        "heading_es": "¿Es el RCF ART 710-A MK5 el mejor altavoz PA económico?",
-        "content": "<strong>The RCF ART 710-A MK5 is the best-sounding value in this guide.</strong> It packs a 10-inch 1400W Class-D bi-amp system, a 1-inch compression driver with RCF's custom dome, and a precision 2.5-inch voice-coil woofer - real pro-grade transducers from a maker that outfits touring systems worldwide. FiRPHASE DSP and a constant-directivity 90x70 horn deliver 129 dB max SPL with unusually clear, coherent sound for the money. The rear-profile cabinet doubles as a floor monitor, the road-tough PP composite and steel grille survive daily gigging, and it pole-mounts for FOH duty. For bands that want genuine pro audio without pro-audio prices, the ART 710-A MK5 is the smartest investment on this list.",
-        "content_es": "<strong>El RCF ART 710-A MK5 es la caja con mejor sonido de esta lista.</strong> Integra un sistema activo Clase-D de 10 pulgadas y 1400W, un driver de compresión de 1 pulgada con el domo personalizado de RCF y un woofer de bobina de 2.5 pulgadas - transductores de grado profesional de un fabricante que surte sistemas de gira en todo el mundo. El DSP FiRPHASE y la bocina de directividad constante 90x70 entregan 129 dB de SPL máximo con voces limpias y claras a este precio. El perfil trasero sirve como monitor de piso compacto, el polipropileno resistente y la rejilla de acero aguantan las giras diarias, y admite montaje en poste para FOH. Para bandas que quieren audio profesional real sin el precio profesional, el RCF ART 710-A MK5 es la mejor inversión de la lista.",
-        "products": []
       }
     ],
     "conclusion": "Every band needs a PA system that sounds great, is reliable, and fits the budget. The Mackie Thump215XT is one of the most affordable options for getting started. The Alto TS412 delivers the most power per dollar with class-leading 2500W output. The EV ZLX-12P-G2 is the professional entry-level choice that working musicians trust night after night. And the Yamaha DBR12 is the best all-purpose budget PA speaker on the market — the #1 choice for musicians who want Yamaha reliability without breaking the bank. Whichever you choose, invest in good cables, stands, and a quality mixer. <p><a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/zlx-vs-k12.html\" class=\"guide-link-btn\">EV ZLX-12P-G2 vs QSC K12.2</a></p>",
@@ -46346,7 +46335,6 @@
       105,
       153,
       154,
-      225,
       152
     ],
     "relatedGuides": [
@@ -46426,10 +46414,6 @@
         {
           "title": "Yamaha DBR12",
           "title_es": "Yamaha DBR12"
-        },
-        {
-          "title": "RCF ART 710-A MK5",
-          "title_es": "RCF ART 710-A MK5"
         }
       ],
       "rows": [
@@ -46452,10 +46436,6 @@
             {
               "value": "Compact clear-sounding budget PA",
               "value_es": "PA económico compacto y claro"
-            },
-            {
-              "value": "Lightweight pro-grade monitor",
-              "value_es": "Monitor pro ligero de alta calidad"
             }
           ]
         },
@@ -46463,10 +46443,6 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            {
-              "value": "Powered PA speaker",
-              "value_es": "Altavoz PA autoamplificado"
-            },
             {
               "value": "Powered PA speaker",
               "value_es": "Altavoz PA autoamplificado"
@@ -46504,10 +46480,6 @@
             {
               "value": "2000W (peak)",
               "value_es": "2000W (pico)"
-            },
-            {
-              "value": "700W (peak)",
-              "value_es": "700W (pico)"
             }
           ]
         },
@@ -46530,10 +46502,6 @@
             {
               "value": "12\" + 1.4\" HF",
               "value_es": "12\" + 1,4\" HF"
-            },
-            {
-              "value": "10\" + 1\" HF",
-              "value_es": "10\" + 1\" HF"
             }
           ]
         },
@@ -46556,10 +46524,6 @@
             {
               "value": "53 Hz – 20 kHz",
               "value_es": "53 Hz – 20 kHz"
-            },
-            {
-              "value": "60 Hz – 20 kHz",
-              "value_es": "60 Hz – 20 kHz"
             }
           ]
         },
@@ -46582,10 +46546,6 @@
             {
               "value": "129 dB",
               "value_es": "129 dB"
-            },
-            {
-              "value": "125 dB",
-              "value_es": "125 dB"
             }
           ]
         },
@@ -46593,10 +46553,6 @@
           "label": "Coverage",
           "label_es": "Cobertura",
           "values": [
-            {
-              "value": "90° x 60°",
-              "value_es": "90° x 60°"
-            },
             {
               "value": "90° x 60°",
               "value_es": "90° x 60°"
@@ -46634,10 +46590,6 @@
             {
               "value": "DSP presets",
               "value_es": "Presets DSP"
-            },
-            {
-              "value": "DSP presets",
-              "value_es": "Presets DSP"
             }
           ]
         },
@@ -46660,10 +46612,6 @@
             {
               "value": "2x XLR/combo + XLR out",
               "value_es": "2x XLR/combo + salida XLR"
-            },
-            {
-              "value": "XLR/combo + XLR out",
-              "value_es": "XLR/combo + salida XLR"
             }
           ]
         },
@@ -46686,10 +46634,6 @@
             {
               "value": "34.8 lb (15.8 kg)",
               "value_es": "15,8 kg"
-            },
-            {
-              "value": "22 lb (10 kg)",
-              "value_es": "10 kg"
             }
           ]
         }
@@ -46806,34 +46750,6 @@
           "2000W de pico son suficientes pero no los más potentes de la lista",
           "Sin streaming Bluetooth integrado — necesitas un cable o un receptor externo para reproducir música del teléfono",
           "El gabinete de plástico no tiene la dureza de carretera de algunos rivales"
-        ]
-      },
-      {
-        "name": "RCF ART 710-A MK5",
-        "name_es": "RCF ART 710-A MK5",
-        "pros": [
-          "Genuine RCF pro transducers — the best-sounding value in this guide",
-          "1400W Class-D bi-amp with FiRPHASE DSP and a 90x70 constant-directivity horn",
-          "Rear-profile cabinet doubles as a compact floor monitor",
-          "Road-tough PP composite with steel grille at just 10 inches"
-        ],
-        "pros_es": [
-          "Transductores pro genuinos de RCF — el mejor sonido por su precio de la guía",
-          "Bi-amp Clase-D de 1400W con DSP FiRPHASE y bocina de directividad constante 90x70",
-          "El perfil trasero sirve como monitor de piso compacto",
-          "Polipropileno resistente con rejilla de acero en solo 10 pulgadas"
-        ],
-        "cons": [
-          " it is at the top of the budget range",
-          "The 10-inch woofer limits low-end extension for heavier music",
-          "Continuous power means less sustained SPL than bigger cabs",
-          "A subwoofer is needed for full-range band PA"
-        ],
-        "cons_es": [
-          "A está en el tope del rango económico",
-          "El woofer de 10 pulgadas limita la extensión de graves para música pesada",
-          "La potencia continua ofrece menos SPL sostenido que cajas más grandes",
-          "Se necesita un subwoofer para un PA de banda de rango completo"
         ]
       }
     ],
