@@ -40,7 +40,10 @@ var tags = {
   'best-wireless-iems': ['Best Wireless In-Ear Monitor Systems', '7 Mejores Sistemas In-Ear Inalámbricos'],
   'best-ribbon-mics': ['Best Ribbon Microphones for Recording', 'Mejores Micrófonos de Cinta para Estudio'],
   'ai-tools-plugins': ['Best AI Tools for Music & Mixing', 'Mejores Herramientas IA para Producción Musical'],
-  'sidechain-modulation-plugins': ['Best Sidechain & Modulation Plugins', 'Mejores Plugins de Sidechain y Modulación']
+  'sidechain-modulation-plugins': ['Best Sidechain & Modulation Plugins', 'Mejores Plugins de Sidechain y Modulación'],
+  'daw-guide': ['Best DAW Software for Every Budget', 'Mejores DAWs para Cada Presupuesto'],
+  'ableton-vs-fl-studio': ['Ableton Live vs FL Studio: DAW Duel', 'Ableton Live vs FL Studio: Duelo de DAW'],
+  'best-daw-for-beginners': ['Best DAW for Beginners: What to Buy', 'El Mejor DAW para Principiantes']
 };
 
 var over = [];
@@ -53,8 +56,11 @@ if (over.length) { console.log('LEN OVER 52:\n' + over.join('\n')); process.exit
 
 var path = 'data/guides.json';
 var t = fs.readFileSync(path, 'utf8');
-var inserted = 0, missing = 0;
+var existing = {};
+JSON.parse(t).forEach(function (g) { if (g.titleTag || g.titleTag_es) existing[g.id] = 1; });
+var inserted = 0, missing = 0, skipped = 0;
 Object.keys(tags).forEach(function (id) {
+  if (existing[id]) { skipped++; return; }
   var marker = '    "id": "' + id + '",\n';
   var i = t.indexOf(marker);
   if (i < 0) { missing++; console.log('NO SE ENCONTRÓ id:', id); return; }
