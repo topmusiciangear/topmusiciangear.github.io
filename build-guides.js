@@ -468,10 +468,10 @@ const TEST_SHOP_BTN = {
   108: {prices:{amazon:"$909.99",zzounds:"$909.99",gear4music:"£659.00",musicstore:"€611.00"},oos:["andertons"]},
   109: {prices:{amazon:"$1,781.01",zzounds:"$1,899.00",andertons:"£1,359.00",gear4music:"£1,428.00",musicstore:"€1,699.00"}},
   110: 
-{prices:{amazon:"$749.00",andertons:"£599.00",gear4music:"£529.00",musicstore:"€503.36"}},
+{prices:{amazon:"$749.00",andertons:"£599.00",gear4music:"£529.00",musicstore:"€599.00"}},
   112: {prices:{amazon:"$165.00",zzounds:"$179.00",gear4music:"£192.25",musicstore:"€299.00",andertons:"£199.00"}},
   113: {prices:{gear4music:"£549.00",amazon:"$599.00",andertons:"£549.00",zzounds:"$599.00",musicstore:"€929.00",pluginboutique:"$805"}},
-  114: {prices:{gear4music:"£479.00",amazon:"$579.99",andertons:"£299.00",zzounds:"$579.99",musicstore:"€549.00",pluginboutique:"$579.99"}},
+  114: {prices:{gear4music:"£299.00",amazon:"$579.99",andertons:"£299.00",zzounds:"$579.99",musicstore:"€339.00",pluginboutique:"$579.99"}},
   115: {prices:{andertons:"£299.00",gear4music:"£245.00",amazon:"$399.00",pluginboutique:"$299.00"}},
   116: {prices:{amazon:"$129.00",andertons:"£112.00",gear4music:"£115.00",musicstore:"€155.00"},oos:["zzounds"]},
   117: {prices:{amazon:"$249.00",zzounds:"$249.00",andertons:"£169.00",gear4music:"£169.00",musicstore:"€199.00"}},
