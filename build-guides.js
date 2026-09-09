@@ -392,7 +392,7 @@ const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, mus
 const TEST_SHOP_BTN = {
   1: {prices:{amazon:"$439.00",zzounds:"$439.00",gear4music:"£381.50",andertons:"£379.00",musicstore:"€398.00"}},
   2: {prices:{amazon:"$3,750.00",zzounds:"$3,995.00",andertons:"£3,007.00",gear4music:"£2,908.40",musicstore:"€2,999.00"}},
-  3: {prices:{amazon:"$212.00",zzounds:"$249.00",gear4music:"£184.75",andertons:"£179.00",musicstore:"€167.23"}},
+  3: {prices:{amazon:"$212.00",zzounds:"$214.00",gear4music:"£184.75",andertons:"£182.00",musicstore:"€199.00"}},
   4: {prices:{amazon:"$1,225.00",zzounds:"$1,199.00",gear4music:"£893.00",andertons:"£849.00",musicstore:"€990.00"}},
   5: {prices:{amazon:"$109.00",zzounds:"$99.00",gear4music:"£103.75",andertons:"£103.00",musicstore:"€105.00"}},
   6: {prices:{amazon:"$1,839.99",zzounds:"$1,839.99",andertons:"£1,849.00",gear4music:"£1,799.00",musicstore:"€1,799.00"}},
