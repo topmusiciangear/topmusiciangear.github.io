@@ -1,0 +1,12 @@
+var fs = require('fs');
+var path = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+var g = JSON.parse(fs.readFileSync(path, 'utf8'));
+var x = g.find(function (y) { return y.id === 'best-monitors-for-small-rooms'; });
+console.log('before idx: ' + x.conclusion.indexOf('( each)'));
+x.conclusion = x.conclusion.replace(/\( each\) is the best 6.5-inch pick/, '(around $199 each) is the best 6.5-inch pick');
+console.log('after idx: ' + x.conclusion.indexOf('( each)'));
+console.log(JSON.stringify(x.conclusion.match(/LP-6 V2.{0,50}/)[0]));
+fs.writeFileSync(path, JSON.stringify(g, null, 2), 'utf8');
+var c = JSON.stringify(g);
+['( each)', '( a pair)', '(el par)', '( el par)', '( per pair)', '( cada uno)', '( por par)'].forEach(function (pt) { if (c.indexOf(pt) >= 0) console.log('REMAIN ' + pt); });
+console.log('JSON OK');

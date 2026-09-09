@@ -1,0 +1,776 @@
+[
+  {
+    "id": "mics-for-creators",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "best-hardware-samplers",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[1].content",
+        "snippet": "more proof thany sampler on this list",
+        "note": "Missing space; 'thany' should be 'than any'.",
+        "fix": "more proof than any sampler on this list"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "mean you carrange a full song",
+        "note": "'carrange' should be 'can arrange'.",
+        "fix": "mean you can arrange a full song"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "in one box, this the best standalone sampler money can buy today",
+        "note": "Missing verb; should be 'this is the best'.",
+        "fix": "in one box, this is the best standalone sampler money can buy today"
+      }
+    ]
+  },
+  {
+    "id": "best-amp-modelers",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "intro",
+        "snippet": "for more gigging guitarists thany other piece of gear this decade",
+        "note": "'thany' should be 'than any'.",
+        "fix": "for more gigging guitarists than any other piece of gear this decade"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[0].content",
+        "snippet": "if it has more tha couple of pedals",
+        "note": "'tha' should be 'than a'.",
+        "fix": "if it has more than a couple of pedals"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "conclusion",
+        "snippet": "the Boss GX-1 is hard to beat its price",
+        "note": "Awkward phrasing; missing preposition.",
+        "fix": "the Boss GX-1 is hard to beat at its price"
+      }
+    ]
+  },
+  {
+    "id": "rodecaster-pro2-vs-dlz-creator",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "stream-deck-plus-xl-vs-razer",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "rode-wireless-pro-vs-dji-mic-2",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "ew-iem-g4-twin-vs-psm300",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "intro",
+        "snippet": "the thing every musici cares about",
+        "note": "'musici' should be 'musician'.",
+        "fix": "the thing every musician cares about"
+      },
+      {
+        "severity": "low",
+        "type": "english_grammar",
+        "path": "intro",
+        "snippet": "After testing both at live shows and rehearsals to find out which one earns its price.",
+        "note": "Sentence fragment — the independent clause is missing (should follow from 'and both deliver...').",
+        "fix": "We tested both at live shows and rehearsals to find out which one earns its price."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[2].content",
+        "snippet": "keeps audio cleand artifact-free",
+        "note": "'cleand' should be 'clean and'.",
+        "fix": "keeps audio clean and artifact-free"
+      }
+    ]
+  },
+  {
+    "id": "ie900-vs-se846",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[0].content",
+        "snippet": "a treble so cleand extended that micro-detail becomes addictive",
+        "note": "'cleand' should be 'clean and'.",
+        "fix": "a treble so clean and extended that micro-detail becomes addictive"
+      }
+    ]
+  },
+  {
+    "id": "budget-usb-mics",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "featuredSnippet.faq_a4_en",
+        "snippet": "At yes — if you want a tiny, good-looking USB condenser with modern streaming controls.",
+        "note": "'At yes' is ungrammatical; should read 'Yes —'.",
+        "fix": "Yes — if you want a tiny, good-looking USB condenser with modern streaming controls."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "featuredSnippet.text_en",
+        "snippet": "For the Samson Q2U is the best all-round USB mic with USB+XLR outputs",
+        "note": "Broken sentence pattern 'For the X is...' — the product name should be the subject, not preceded by 'For the'.",
+        "fix": "The Samson Q2U is the best all-round USB mic with USB+XLR outputs"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "conclusion",
+        "snippet": "For the Samson Q2U is the best all-round budget USB mic",
+        "note": "Broken sentence pattern 'For the X is...'.",
+        "fix": "The Samson Q2U is the best all-round budget USB mic"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "conclusion",
+        "snippet": "and the Razer Seiren V3 Mini is the best compact condenser at.",
+        "note": "Sentence ends with a dangling 'at.'; a word (e.g. 'this price') is missing.",
+        "fix": "and the Razer Seiren V3 Mini is the best compact condenser at this price."
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "conclusion",
+        "snippet": "If you want the best build at the mark",
+        "note": "'the mark' is unclear; should be 'at the top of the budget' or similar.",
+        "fix": "If you want the best build at the top of the budget"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "conclusion",
+        "snippet": "the Razer Seiren V3 Mini is the compact pick at;",
+        "note": "Sentence ends with a dangling 'at;'.",
+        "fix": "the Razer Seiren V3 Mini is the compact pick at this price;"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[0].content",
+        "snippet": "does more for your audio thany software plugin",
+        "note": "'thany' should be 'than any'. Same typo appears later in this section: 'sound cleaner thany condenser' and 'matters far more thany bundled app'.",
+        "fix": "does more for your audio than any software plugin"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[1].content",
+        "snippet": "At the Q2U is the safest budget mic on this list.",
+        "note": "Broken sentence pattern 'At the X is...'; no price follows 'At'.",
+        "fix": "The Samson Q2U is the safest budget mic on this list."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[1].content",
+        "snippet": "Buy the Samson Q2U if consider a reliable all-rounder.",
+        "note": "Missing subject 'you'.",
+        "fix": "Buy the Samson Q2U if you want a reliable all-rounder."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[2].content",
+        "snippet": "At the PD200X is the dynamic USB/XLR mic that gives streamers the most hardware per dollar.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The Maono PD200X is the dynamic USB/XLR mic that gives streamers the most hardware per dollar."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "At the SoloCast 2 is the condenser that sounds more expensive than it is.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The HyperX SoloCast 2 is the condenser that sounds more expensive than it is."
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "and unlike the original, the 2 adds a headphone jack",
+        "note": "'the 2' is unclear; should name the product.",
+        "fix": "and unlike the original, the SoloCast 2 adds a headphone jack"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[4].content",
+        "snippet": "For the AmpliTank K688 gives you a broadcast look and a complete desk setup in one box.",
+        "note": "Broken sentence pattern 'For the X gives you...'.",
+        "fix": "The FIFINE AmpliTank K688 gives you a broadcast look and a complete desk setup in one box."
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[4].content",
+        "snippet": "it handles loud rooms far better tha condenser",
+        "note": "'tha' should be 'than a'.",
+        "fix": "it handles loud rooms far better than a condenser"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[5].content",
+        "snippet": "At the AM8 is the dynamic that ignores your keyboard clicks and keeps your voice upfront.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The FIFINE AM8 is the dynamic that ignores your keyboard clicks and keeps your voice upfront."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[5].content",
+        "snippet": "built for voice first — cleand intimate even in a noisy, untreated room",
+        "note": "'cleand' should be 'clean and'.",
+        "fix": "built for voice first — clean and intimate even in a noisy, untreated room"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[6].content",
+        "snippet": "At the Seiren V3 Mini is Razer's updated ultra-compact USB condenser.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The Razer Seiren V3 Mini is Razer's updated ultra-compact USB condenser."
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[6].content",
+        "snippet": "A 14mm supercardioid capsule keeps your voice cleand upfront",
+        "note": "'cleand' should be 'clean and'.",
+        "fix": "A 14mm supercardioid capsule keeps your voice clean and upfront"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[6].content",
+        "snippet": "and a condenser hears more room tha dynamic in echoey spaces",
+        "note": "'tha' should be 'than a'.",
+        "fix": "and a condenser hears more room than a dynamic in echoey spaces"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[7].content",
+        "snippet": "At the AmpliGame A6V is one of the new ultra-budget kings for gaming and streaming",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The FIFINE AmpliGame A6V is one of the new ultra-budget kings for gaming and streaming"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[7].content",
+        "snippet": "a cardioid condenser that keeps your speech cleand upfront",
+        "note": "'cleand' should be 'clean and'.",
+        "fix": "a cardioid condenser that keeps your speech clean and upfront"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[7].content",
+        "snippet": "If your budget is and you want a modern, feature-rich condenser",
+        "note": "Truncated sentence; a price is missing after 'budget is'.",
+        "fix": "If your budget is tight and you want a modern, feature-rich condenser"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[8].content",
+        "snippet": "At the NT-USB Mini is the premium pick at the top of this guide's budget",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The Rode NT-USB Mini is the premium pick at the top of this guide's budget"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[8].content",
+        "snippet": "the built-in pop filter saves you accessory",
+        "note": "Missing article.",
+        "fix": "the built-in pop filter saves you an accessory"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[8].content",
+        "snippet": "If you want a premium-brand mic that stays the NT-USB Mini is the best build on this list.",
+        "note": "Broken sentence; missing a clause after 'that stays'.",
+        "fix": "If you want a premium-brand mic that stays reliable, the NT-USB Mini is the best build on this list."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[9].content",
+        "snippet": "At the Yeti Nano is the compact condenser that gives you Blue's studio pedigree at a budget price.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The Blue Yeti Nano is the compact condenser that gives you Blue's studio pedigree at a budget price."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[11].content",
+        "snippet": "At the TC-777 is the most proven ultra-budget mic around",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The TONOR TC-777 is the most proven ultra-budget mic around"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[11].content",
+        "snippet": "its condenser nature means it hears more room tha dynamic",
+        "note": "'tha' should be 'than a'.",
+        "fix": "its condenser nature means it hears more room than a dynamic"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[12].content",
+        "snippet": "At the PM461 is a dependable cardioid condenser that keeps the essentials simple.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The Maono PM461 is a dependable cardioid condenser that keeps the essentials simple."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[13].content",
+        "snippet": "At the FIFINE T669 is the complete starter kit for anyone who wants a USB mic and every accessory in one box.",
+        "note": "Broken sentence pattern 'At the X is...'.",
+        "fix": "The FIFINE T669 is the complete starter kit for anyone who wants a USB mic and every accessory in one box."
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[13].content",
+        "snippet": "a tripod — everything consider buyinging anything extra.",
+        "note": "Garbled text; missing subject and duplicated verb.",
+        "fix": "a tripod — everything you need without buying anything extra."
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[13].content",
+        "snippet": "as a condenser it picks up room noise more tha dynamic",
+        "note": "'tha' should be 'than a'.",
+        "fix": "as a condenser it picks up room noise more than a dynamic"
+      }
+    ]
+  },
+  {
+    "id": "best-electric-guitars-2026",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "markup",
+        "path": "sections[0].content",
+        "snippet": "<p><strong></p><p>The Yamaha Pacifica 112V is the reference point for value.",
+        "note": "Malformed HTML: the opening <strong> is immediately closed by </p>, so the closing </strong> has no matching opener and the bold styling is lost. Affects 7 of the 7 product sections (Debut, Affinity, Pacifica 112V, Classic Vibe '50s, Sonic Mustang, PRS SE Custom 24, American Professional II).",
+        "fix": "Remove the stray <strong> before </p>: <p><strong>The Yamaha Pacifica 112V is the reference point for value.</strong></p>"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[2].content",
+        "snippet": "more versatility thany Squier at the price",
+        "note": "'thany' should be 'than any'.",
+        "fix": "more versatility than any Squier at the price"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "The Classic Vibe '50stratocaster is the closest you'll get to a vintage Fender",
+        "note": "Missing space and 's': should be ''50s Stratocaster'. Same typo repeats in the same section ('the '50strats are famous for').",
+        "fix": "The Classic Vibe '50s Stratocaster is the closest you'll get to a vintage Fender"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "If you want the classic look and sound of a vintage Fender on a budget, this it.",
+        "note": "Missing verb; should be 'this is it.'.",
+        "fix": "this is it."
+      }
+    ]
+  },
+  {
+    "id": "best-acoustic-guitars-for-beginners",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "atc-vs-genelec",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "studio-subwoofers-setup",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "kh750-vs-7050c",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "best-shotgun-mics",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[2].content",
+        "snippet": "Tonally it reads slightly warmer ththe 416 rather than brighter",
+        "note": "'ththe' should be 'than the'. Same section also has 'a 120 dB SPL ceiling... the 3.5mm jack feels less road-proof tha locking XLR' ('tha' should be 'than a').",
+        "fix": "Tonally it reads slightly warmer than the 416 rather than brighter"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "No shotgun has launched more indie careers ththe MKE 600.",
+        "note": "'ththe' should be 'than the'.",
+        "fix": "no budget shotgun has launched more indie careers than the MKE 600"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[5].content",
+        "snippet": "a measured 12 dBA self-noise - quieter ththe 416 on paper",
+        "note": "'ththe' should be 'than the'.",
+        "fix": "a measured 12 dBA self-noise - quieter than the 416 on paper"
+      }
+    ]
+  },
+  {
+    "id": "best-wireless-iems",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "verdictProsCons[7].cons",
+        "snippet": " costs more than the PTM-10 and Xvive routes",
+        "note": "Cons item for the Sennheiser XSW IEM starts with a bare space and no subject — the product name was dropped.",
+        "fix": "The XSW IEM costs more than the PTM-10 and Xvive routes"
+      },
+      {
+        "severity": "high",
+        "type": "spanish_grammar",
+        "path": "verdictProsCons[7].cons_es",
+        "snippet": " cuesta más que las rutas PTM-10 y Xvive",
+        "note": "Mirrors the English defect: starts with a bare space and no subject.",
+        "fix": "El XSW IEM cuesta más que las rutas PTM-10 y Xvive"
+      }
+    ]
+  },
+  {
+    "id": "best-parlor-guitars",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[5].content",
+        "snippet": "Tone is brighter and thinner ththe pricier picks",
+        "note": "'ththe' should be 'than the'.",
+        "fix": "Tone is brighter and thinner than the pricier picks"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "verdictProsCons[6].cons[0]",
+        "snippet": " prioritizes looks - plainer rivals deliver more wood for the money",
+        "note": "Cons item for the Gretsch G5021E Rancher Penguin starts with a bare space and no subject; also mixes EN cons list language.",
+        "fix": "The Rancher Penguin prioritizes looks - plainer rivals deliver more wood for the money"
+      }
+    ]
+  },
+  {
+    "id": "best-ribbon-mics",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "spanish_grammar",
+        "path": "verdictProsCons[0].pros_es[0]",
+        "snippet": "Ribbon el ribbon que más se usa para amplificadores y metales",
+        "note": "Broken Spanish opener: starts with the English word 'Ribbon' and a doubled noun.",
+        "fix": "Es el ribbon que más se usa para amplificadores y metales"
+      },
+      {
+        "severity": "low",
+        "type": "spanish_grammar",
+        "path": "verdictProsCons[3].cons_es[4]",
+        "snippet": "La respuesta de frecuencia atenua antes que algunos competidores",
+        "note": "Missing accent: 'atenua' should be 'atenúa'.",
+        "fix": "La respuesta de frecuencia atenúa antes que algunos competidores"
+      }
+    ]
+  },
+  {
+    "id": "ai-tools-plugins",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[2].content",
+        "snippet": "You remain control, but the AI gives you a starting point",
+        "note": "Missing preposition.",
+        "fix": "You remain in control, but the AI gives you a starting point"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[5].content",
+        "snippet": "it suggests starting points that you cthen blend and shape using the XY pad.",
+        "note": "'cthen' should be 'then'. Same section: 'means you cadd grit to the low end' ('cadd' should be 'add').",
+        "fix": "it suggests starting points that you then blend and shape using the XY pad."
+      }
+    ]
+  },
+  {
+    "id": "sidechain-modulation-plugins",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[1].content",
+        "snippet": "The Crash mode is what makeshaperBox 3 unique among modulation plugins.",
+        "note": "Missing space: 'makeshaperBox' should be 'makes ShaperBox'.",
+        "fix": "The Crash mode is what makes ShaperBox 3 unique among modulation plugins."
+      },
+      {
+        "severity": "high",
+        "type": "spanish_grammar",
+        "path": "sections[1].content_es",
+        "snippet": "con patrones preestablecidos que funcionan al instantentente para casi cualquier género",
+        "note": "Typo: 'instantentente' should be 'instante'.",
+        "fix": "con patrones preestablecidos que funcionan al instante para casi cualquier género"
+      },
+      {
+        "severity": "high",
+        "type": "spanish_grammar",
+        "path": "sections[2].content_es",
+        "snippet": "No no es solo un plugin de sidechain",
+        "note": "Doubled 'No'.",
+        "fix": "No es solo un plugin de sidechain"
+      },
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[4].content",
+        "snippet": "For producers who want delay effects that breaand move rather than repeat",
+        "note": "'breaand' should be 'breath and'.",
+        "fix": "For producers who want delay effects that breathe and move rather than repeat"
+      },
+      {
+        "severity": "medium",
+        "type": "spanish_grammar",
+        "path": "featuredSnippet.faq_a3_es",
+        "snippet": "con patrones de sidechain preestablecidos que funcionan al instantente.",
+        "note": "Typo: 'instantente' should be 'instante'. Same root error as sections[1].content_es above.",
+        "fix": "con patrones de sidechain preestablecidos que funcionan al instante."
+      }
+    ]
+  },
+  {
+    "id": "beatmaker-plugins",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "english_grammar",
+        "path": "sections[3].content",
+        "snippet": "What makescaler 3 valuable for beatmakers is its genre-specific presets.",
+        "note": "Missing space: 'makescaler' should be 'makes Scaler'.",
+        "fix": "What makes Scaler 3 valuable for beatmakers is its genre-specific presets."
+      }
+    ]
+  },
+  {
+    "id": "best-32-channel-digital-mixers",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "factual",
+        "path": "intro",
+        "snippet": "We analyzed eight top models to find the best combination of preamp quality",
+        "note": "The guide actually covers 9 models (X32, M32 LIVE, SQ-6, TF3, Ui24R, SE 32R, M32R LIVE, DL32SE, 32SC), as reflected in its 9-column productTable and 9 product sections. The intro (and intro_es 'ocho modelos') undercounts.",
+        "fix": "We analyzed nine top models to find the best combination of preamp quality"
+      },
+      {
+        "severity": "high",
+        "type": "factual",
+        "path": "sections[4].content",
+        "snippet": "At around,999, its TouchFlow Operation interface lets you EQ and compress channels",
+        "note": "Broken price: the digits were dropped. products.json id 418 (Yamaha TF3) price is $2,999.",
+        "fix": "At around $2,999, its TouchFlow Operation interface lets you EQ and compress channels"
+      },
+      {
+        "severity": "high",
+        "type": "factual",
+        "path": "sections[5].content",
+        "snippet": "At around,369, it eliminated the need for mobile apps entirely.",
+        "note": "Broken price: the digits were dropped. products.json id 410 (Soundcraft Ui24R) price is $1,369.",
+        "fix": "At around $1,369, it eliminated the need for mobile apps entirely."
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[5].content",
+        "snippet": "The Soundcraft Ui24R is absolute standard for self-managed bands",
+        "note": "Missing the article.",
+        "fix": "The Soundcraft Ui24R is the absolute standard for self-managed bands"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[9].content",
+        "snippet": "more thany other mixer in this roundup",
+        "note": "'thany' should be 'than any'.",
+        "fix": "more than any other mixer in this roundup"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "sections[8].content",
+        "snippet": "Connect up to 20 devices simultaneously — performers cadjust their own monitor mixes",
+        "note": "'cadjust' should be 'can adjust'.",
+        "fix": "Connect up to 20 devices simultaneously — performers can adjust their own monitor mixes"
+      },
+      {
+        "severity": "medium",
+        "type": "english_grammar",
+        "path": "conclusion",
+        "snippet": "Budget-conscious buyers get serious power from the PreSonustudioLive SE 32R",
+        "note": "Missing space: 'PreSonustudioLive' should be 'PreSonus StudioLive'.",
+        "fix": "Budget-conscious buyers get serious power from the PreSonus StudioLive SE 32R"
+      },
+      {
+        "severity": "medium",
+        "type": "consistency",
+        "path": "productTable.columns[7].title",
+        "snippet": "Mackie DL32S",
+        "note": "Naming inconsistency within the guide: the table column and verdictProsCons[7].name say 'Mackie DL32S', but the section heading, section content and verdict say 'Mackie DL32SE'. products.json id 408 title is 'Mackie DL32SE'.",
+        "fix": "Rename column and pros/cons entry to 'Mackie DL32SE'"
+      },
+      {
+        "severity": "high",
+        "type": "factual",
+        "path": "faq_a4",
+        "snippet": "The PreSonus StudioLive SE 32R at around $1,599 is the cheapest 32-channel mixer with 32 recallable XMAX preamps",
+        "note": "Contradicts the DL32SE section, which states 'At $1,399, it's the most affordable 32-channel option in this roundup'. Both claim to be the cheapest; the $1,399 DL32SE is cheaper. Mirrored in faq_a4_es.",
+        "fix": "The Mackie DL32SE at around $1,399 is the cheapest 32-channel mixer (the PreSonus StudioLive SE 32R at $1,599 is the cheapest with recallable XMAX preamps)"
+      }
+    ]
+  },
+  {
+    "id": "best-in-ear-monitors",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "spanish_grammar",
+        "path": "featuredSnippet.question_es",
+        "snippet": "¿¿Cuáles son los mejores monitores in-ear para uso profesional?",
+        "note": "Doubled opening question mark.",
+        "fix": "¿Cuáles son los mejores monitores in-ear para uso profesional?"
+      },
+      {
+        "severity": "low",
+        "type": "data_quality",
+        "path": "verdictProCons",
+        "snippet": "\"verdictProCons\": {}",
+        "note": "Stray empty 'verdictProCons' object alongside the populated 'verdictProsCons' array; appears to be a leftover/schema artifact.",
+        "fix": "Remove the empty 'verdictProCons' field (or populate it)"
+      }
+    ]
+  },
+  {
+    "id": "di-box",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "duplicate_content",
+        "path": "verdict",
+        "snippet": "The Radial J48 is the best all-around active DI for most players — affordable, feature-packed, and built to last.",
+        "note": "verdict and conclusion are byte-identical text (EN); verdict_es and conclusion_es are likewise identical. The recommendation paragraph is duplicated in both fields.",
+        "fix": "Rewrite the conclusion so it summarizes without repeating the verdict verbatim (EN and ES)"
+      },
+      {
+        "severity": "medium",
+        "type": "consistency",
+        "path": "productTable.rows[5]",
+        "snippet": "0.72 kg",
+        "note": "Weight conflict across guides: di-box lists J48 at '0.72 kg' and RNDI at '0.75 kg', while the j48-vs-rndi guide's featuredSnippet specs list J48 at '1.35 lbs (612g)' and RNDI at '1.8 lbs (816g)'. 0.72 kg = 720 g (not 612 g) and 0.75 kg = 750 g (not 816 g), so the two guides disagree about both products.",
+        "fix": "Align the weight figures between di-box and j48-vs-rndi (1.35 lbs / 612 g for the J48, verified against Radial's official spec)"
+      }
+    ]
+  },
+  {
+    "id": "j48-vs-rndi",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "factual",
+        "path": "verdictProsCons[0].cons",
+        "snippet": "No built-in pad or ground lift switch — relies on external solutions for level matching",
+        "note": "Factually wrong and contradicts the di-box guide: the J48 does include a -15dB pad (plus polarity reverse, merge function, and an 80Hz high-pass filter) and ground lift. The same claim is mirrored in cons_es ('Sin pad integrado ni interruptor de lifts de tierra — depende de soluciones externas para ajuste de nivel'), which also uses the awkward anglicism 'lifts de tierra'.",
+        "fix": "The J48 premium is lower than the RNDI at a glance, but it still includes a -15dB pad and ground lift"
+      },
+      {
+        "severity": "high",
+        "type": "spanish_grammar",
+        "path": "verdictProsCons[1].cons_es",
+        "snippet": "Precio premium de aproximadamente $399 — roughly $140 más que el J48 por la misma función básica",
+        "note": "The English word 'roughly' leaked into the Spanish text.",
+        "fix": "Precio premium de aproximadamente $399 — unos $140 más que el J48 por la misma función básica"
+      },
+      {
+        "severity": "medium",
+        "type": "consistency",
+        "path": "featuredSnippet.specs",
+        "snippet": "1.35 lbs (612g)",
+        "note": "Weight conflict with the di-box guide: this guide lists J48 at '1.35 lbs (612g)' and RNDI at '1.8 lbs (816g)', while di-box lists '0.72 kg' (720 g) and '0.75 kg' (750 g). The J48 figure here (612 g) matches Radial's official 1.35 lb spec, so di-box's 0.72 kg is likely the error.",
+        "fix": "Consolidate the weight figures in di-box to match the official specs (J48 1.35 lbs / 612 g)"
+      }
+    ]
+  }
+]

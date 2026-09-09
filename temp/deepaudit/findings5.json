@@ -1,0 +1,418 @@
+[
+ {
+  "id": "beginner-bass-guitars",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "english_grammar",
+    "path": "faq_a2",
+    "snippet": "Aim -.",
+    "note": "Incomplete sentence; text is truncated mid-thought.",
+    "fix": "Aim for $200–$500."
+   },
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "faq_a5",
+    "snippet": "a - bass can sound",
+    "note": "Missing word; should read 'a budget bass'.",
+    "fix": "a budget bass can sound"
+   }
+  ]
+ },
+ {
+  "id": "best-bass-under-700",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "factual",
+    "path": "faq_a2",
+    "snippet": "ESP LTD B-204SM) have a simpler, more natural tone",
+    "note": "The B-204SM is listed as Active in the product table (active humbuckers, active EQ 2-band). This FAQ answer incorrectly classifies it as passive.",
+    "fix": "Active basses (Yamaha TRBX304, Sterling StingRay Ray4) have a built-in preamp with EQ controls and higher output — great for modern genres. Passive basses (Sire Marcus Miller V5R, ESP LTD B-204SM) have a simpler, more natural tone that some players prefer."
+   },
+   {
+    "severity": "high",
+    "type": "english_grammar",
+    "path": "conclusion",
+    "snippet": "well under for well under $700",
+    "note": "Phrase is duplicated.",
+    "fix": "well under $700"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "faq_a2_es",
+    "snippet": "Los bajos activos tienen un previo incorporado",
+    "note": "'previo' used as a noun is unnatural in Spanish; should be 'preamplificador'. Also truncated: the answer omits the active bass models and the specific passive basses, unlike the English version.",
+    "fix": "Los bajos activos (Yamaha TRBX304, Sterling StingRay Ray4) tienen un preamplificador incorporado con controles de EQ y mayor salida. Los pasivos (Sire Marcus Miller V5R, ESP LTD B-204SM) tienen un tono más simple y natural que prefieren algunos músicos."
+   },
+   {
+    "severity": "low",
+    "type": "spanish_grammar",
+    "path": "faq_a3_es",
+    "snippet": "La escala corta y el cuerpo hueco del Hofner le dan un tono cálido y único que funciona muy bien para indie rock, folk y estilos retro.",
+    "note": "Truncated vs English; missing 'The lightweight design is comfortable for long sessions. But it's a niche sound, not a general-purpose bass.'",
+    "fix": "La escala corta y el cuerpo hueco del Hofner le dan un tono cálido y único que funciona muy bien para indie rock, folk y estilos retro. El diseño ligero es cómodo para sesiones largas, pero es un sonido de nicho, no un bajo polivalente."
+   }
+  ]
+ },
+ {
+  "id": "pro-microphones",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "spanish_grammar",
+    "path": "sections[0].content_es",
+    "snippet": "es a innovative",
+    "note": "Mixed English/Spanish and incorrect article. Should be 'es un micrófono innovador' or similar.",
+    "fix": "es un micrófono innovador"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "sections[1].heading_es",
+    "snippet": "Neumann u 87 ai",
+    "note": "Product name should preserve its original capitalization.",
+    "fix": "Neumann U 87 Ai"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "sections[2].heading_es",
+    "snippet": "Lewitt lCT1040",
+    "note": "Incorrect capitalization of model name.",
+    "fix": "Lewitt LCT1040"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "sections[4].content_es",
+    "snippet": "puede drift",
+    "note": "Untranslated English word in Spanish text.",
+    "fix": "puede desviarse"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "faq_a1_es",
+    "snippet": "el el plugin",
+    "note": "Doubled article 'el'.",
+    "fix": "el plugin"
+   }
+  ]
+ },
+ {
+  "id": "pro-headphones",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "factual",
+    "path": "featuredSnippet.specs",
+    "snippet": "\"Impedance\": { \"val1\": \"20 ohms\", \"val2\": \"20 ohms\" }",
+    "note": "Both LCD-MX4 and LCD-X are specified by Audeze at 20 ohms — this is correct. However, the LCD-MX4 is easier to drive (105dB vs 103dB sensitivity), which is the real differentiator. No factual error here; flagged only for completeness.",
+    "fix": null
+   }
+  ]
+ },
+ {
+  "id": "pro-daw",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "english_grammar",
+    "path": "sections[0].content",
+    "snippet": "Itsession View",
+    "note": "Missing space; should be 'Its Session View'.",
+    "fix": "Its Session View"
+   },
+   {
+    "severity": "high",
+    "type": "factual",
+    "path": "featuredSnippet.price1",
+    "snippet": "\"price1\": \" (perpetual)\"",
+    "note": "Missing price value. Should include the actual price (e.g., '$799').",
+    "fix": "\"price1\": \"$799 (perpetual)\""
+   },
+   {
+    "severity": "high",
+    "type": "factual",
+    "path": "featuredSnippet.price2",
+    "snippet": "\"price2\": \"/year or\"",
+    "note": "Missing price value. Should include the actual price (e.g., '$299/year or $599 perpetual').",
+    "fix": "\"price2\": \"$299/yr or $599 perpetual\""
+   },
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "sections[0].content",
+    "snippet": "Avid Pro Toolstudio (/year subscription or perpetual)",
+    "note": "Placeholder price text mixed into body content.",
+    "fix": "Avid Pro Tools Studio ($299/year subscription or $599 perpetual)"
+   },
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "verdictProsCons[1].cons[0]",
+    "snippet": "Subscription or perpetual licensing — /year or ",
+    "note": "Placeholder price text with no values filled in.",
+    "fix": "Subscription or perpetual licensing — $299/year or $599 perpetual"
+   },
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "verdictProsCons[1].cons_es[0]",
+    "snippet": "Licencia por suscripción o perpetua — /año",
+    "note": "Missing price in Spanish translation.",
+    "fix": "Licencia por suscripción o perpetua — $299/año o $599 perpetua"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "featuredSnippet.text_es",
+    "snippet": "es el el DAW",
+    "note": "Doubled article 'el'.",
+    "fix": "es el DAW"
+   },
+   {
+    "severity": "low",
+    "type": "factual",
+    "path": "comparison.rows[9].val1",
+    "snippet": "\"val1\": \" (perpetual)\"",
+    "note": "Missing price in comparison table.",
+    "fix": "\"val1\": \"$799 (perpetual)\""
+   },
+   {
+    "severity": "low",
+    "type": "factual",
+    "path": "comparison.rows[9].val2",
+    "snippet": "\"val2\": \"/yr or perpetual\"",
+    "note": "Missing price in comparison table.",
+    "fix": "\"val2\": \"$299/yr or $599 perpetual\""
+   }
+  ]
+ },
+ {
+  "id": "pro-plugins",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "factual",
+    "path": "faq_a1",
+    "snippet": "Pro-Q 3 is a surgical dynamic EQ",
+    "note": "The guide is about FabFilter Pro-Q 4 (stated in intro and sections). The FAQ answer references the older Pro-Q 3.",
+    "fix": "Pro-Q 4 is a surgical dynamic EQ"
+   },
+   {
+    "severity": "high",
+    "type": "factual",
+    "path": "faq_a1_es",
+    "snippet": "Pro-Q 3 es un EQ dinámico quirúrgico",
+    "note": "Same version mismatch in Spanish FAQ.",
+    "fix": "Pro-Q 4 es un EQ dinámico quirúrgico"
+   }
+  ]
+ },
+ {
+  "id": "pro-live-sound",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "english_grammar",
+    "path": "verdict",
+    "snippet": "riders that know the name",
+    "note": "Awkward phrasing; 'riders that know the name' is unclear.",
+    "fix": "riders that already list it"
+   }
+  ]
+ },
+ {
+  "id": "pro-mixers",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "conclusion",
+    "snippet": "The CQ-18T is a innovative",
+    "note": "Should be 'an innovative'.",
+    "fix": "The CQ-18T is an innovative"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "heading_es",
+    "snippet": "Allen & Heath sQ-5",
+    "note": "Incorrect capitalization of product name.",
+    "fix": "Allen & Heath SQ-5"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "heading_es",
+    "snippet": "Behringer x32 compact",
+    "note": "Incorrect capitalization of product name.",
+    "fix": "Behringer X32 Compact"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "heading_es",
+    "snippet": "Allen & Heath cQ-18t",
+    "note": "Incorrect capitalization of product name.",
+    "fix": "Allen & Heath CQ-18T"
+   },
+   {
+    "severity": "medium",
+    "type": "spanish_grammar",
+    "path": "heading_es",
+    "snippet": "Midas m32r LIVE",
+    "note": "Incorrect capitalization of product name.",
+    "fix": "Midas M32R LIVE"
+   },
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "verdictProsCons[1].cons[0]",
+    "snippet": " it costs more than double the CQ-18T's ",
+    "note": "Trailing/leading whitespace; sentence appears incomplete (missing price or object after 'CQ-18T's').",
+    "fix": "It costs more than double the CQ-18T's price"
+   },
+   {
+    "severity": "low",
+    "type": "english_grammar",
+    "path": "verdictProsCons[0].pros[4]",
+    "snippet": "Allen & Heath preamps carry the same pedigree as the company's touring consoles",
+    "note": "Minor: 'pedigree' is an unconventional spelling; 'pedigree' is standard.",
+    "fix": null
+   }
+  ]
+ },
+ {
+  "id": "me90-vs-mx5",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "english_grammar",
+    "path": "verdict",
+    "snippet": "footprint wins and the deeper effects engine of the MX5 keeps the edge for players who want every effect under one roof",
+    "note": "Run-on sentence; could use a period or semicolon after 'wins'.",
+    "fix": "footprint wins. The deeper effects engine of the MX5 keeps the edge for players who want every effect under one roof."
+   }
+  ]
+ },
+ {
+  "id": "best-looper-pedals",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "sections[0].content",
+    "snippet": "this it.",
+    "note": "Missing word; should be 'this is it.'",
+    "fix": "this is it."
+   }
+  ]
+ },
+ {
+  "id": "stage-wedges",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "spanish_grammar",
+    "path": "intro_es",
+    "snippet": "debería funcionar bien",
+    "note": "Literal translation of 'should work well'; in Spanish 'funciona bien' or 'funciona de maravilla' is more natural.",
+    "fix": "funciona de maravilla"
+   }
+  ]
+ },
+ {
+  "id": "pro-interfaces",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "spanish_grammar",
+    "path": "intro_es",
+    "snippet": "con enfoques de diseño contrastantes",
+    "note": "Missing article; should be 'con enfoques de diseño contrastantes' → acceptable, but slightly stiff. Consider 'con filosofías de diseño muy diferentes' for more natural phrasing.",
+    "fix": null
+   }
+  ]
+ },
+ {
+  "id": "streaming-interfaces",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "wireless-lapel-mics",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "stream-controllers",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "english_grammar",
+    "path": "sections[0].content",
+    "snippet": "something you c grab",
+    "note": "Missing letter; should be 'something you can grab'.",
+    "fix": "something you can grab"
+   }
+  ]
+ },
+ {
+  "id": "pro-synths",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "pro-drum-machines",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "pro-basses",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "pro-guitars",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "best-multi-effects-pedals",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "best-instrument-mics",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "nx912-vs-pxm12mp",
+  "status": "ok",
+  "issues": []
+ },
+ {
+  "id": "best-live-subwoofers",
+  "status": "ok",
+  "issues": []
+ }
+]

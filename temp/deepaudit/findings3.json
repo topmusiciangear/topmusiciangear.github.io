@@ -1,0 +1,361 @@
+[
+  {
+    "id": "sm7b-vs-nt1",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "sm57-vs-md421",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal del inglés ('it's worth it'). FAQ Q4 only — 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' (más natural en español peninsular) o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "c414-vs-u87",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence in FAQ Q4 ES.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      },
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "featuredSnippet.faq_a4_en",
+        "snippet": "world-class",
+        "note": "AI marketing fluff in FAQ answer. 1 occurrence.",
+        "fix": "Replace with specific descriptor (e.g. 'professional-grade', 'studio-standard')"
+      }
+    ]
+  },
+  {
+    "id": "re20-vs-sm7b",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "blx288-vs-ewd",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "zlx-vs-k12",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "dxr-vs-prx",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "player-strat-vs-pacifica",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "american-pro-vs-les-paul",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "martin-d28-vs-taylor-314",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_a3_es",
+        "snippet": "la elección para",
+        "note": "Calco literal de 'the choice for'. 1 occurrence.",
+        "fix": "Reemplazar por 'la opción ideal para' o 'la mejor opción para'"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "ableton-vs-fl-studio",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "pro-tools-vs-cubase",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "blues-junior-vs-ac30",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_a3_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence in FAQ A3.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence in FAQ Q4.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "katana-vs-dsl",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "fabfilter-vs-ozone",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "best-guitar-home-office",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q2_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      }
+    ]
+  },
+  {
+    "id": "fix-clipping-scarlett",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "best-mic-for-guitar-amps",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "sections[2].content_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal in section content. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "sections[4].content_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal in section content. 1 occurrence.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "verdictProsCons[1].cons_es",
+        "snippet": "imprescindible",
+        "note": "Overly formal/calco word in pros/cons. 1 occurrence.",
+        "fix": "Replace with 'necesario' or 'esencial' for more natural tone"
+      }
+    ]
+  },
+  {
+    "id": "best-mic-for-podcasting",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "id": "best-daw-for-beginners",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "verdictProsCons[2].pros_es",
+        "snippet": "fundamental",
+        "note": "Overly formal/calco word. 1 occurrence.",
+        "fix": "Replace with 'esencial' or 'clave' for more natural tone"
+      }
+    ]
+  },
+  {
+    "id": "best-headphones-for-mixing",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "sections[1].content",
+        "snippet": "elevate",
+        "note": "AI marketing fluff. 1 occurrence.",
+        "fix": "Replace with concrete verb ('improve', 'sharpen', 'refine')"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "sections[3].content_es",
+        "snippet": "merece la pena",
+        "note": "Calco literal. 1 occurrence in section body.",
+        "fix": "Reemplazar por 'vale la pena' o 'compensa'"
+      },
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "sections[4].content",
+        "snippet": "the ultimate",
+        "note": "AI marketing fluff. 1 occurrence.",
+        "fix": "Replace with specific descriptor or remove"
+      },
+      {
+        "severity": "low",
+        "type": "format",
+        "path": "verdictProsCons[0].cons_es",
+        "snippet": "Sennheiser HD 490 Pro Plus cons_es[0] leading/trailing space",
+        "note": "Leading or trailing whitespace in cons_es array item.",
+        "fix": "Trim the string"
+      }
+    ]
+  },
+  {
+    "id": "best-monitors-for-small-rooms",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "format",
+        "path": "verdictProsCons[2].cons_es",
+        "snippet": "KRK Rokit 7 G5 cons_es[2] leading space: ' más por altavoz que el JBL 305P MkII'",
+        "note": "Leading space in cons_es — appears to be missing text (e.g. 'Cuesta más'). Likely a truncated translation.",
+        "fix": "Add missing word and trim: e.g. 'Cuesta más por altavoz que el JBL 305P MkII'"
+      }
+    ]
+  },
+  {
+    "id": "best-beginner-electric-guitar",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "sections[2].content",
+        "snippet": "the ultimate",
+        "note": "AI marketing fluff. 1 occurrence.",
+        "fix": "Replace with specific descriptor or remove"
+      }
+    ]
+  },
+  {
+    "id": "best-samplers-drum-computers",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "featuredSnippet.faq_a1_en",
+        "snippet": "the ultimate",
+        "note": "AI marketing fluff in FAQ answer. 1 occurrence.",
+        "fix": "Replace with specific descriptor or remove"
+      },
+      {
+        "severity": "low",
+        "type": "format",
+        "path": "verdictProsCons[0].cons_es",
+        "snippet": "Roland TR-8S cons_es[0] leading/trailing space",
+        "note": "Leading or trailing whitespace in cons_es array item.",
+        "fix": "Trim the string"
+      }
+    ]
+  },
+  {
+    "id": "best-grooveboxes",
+    "status": "ok",
+    "issues": []
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "id": "sm7b-vs-nt1",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "sm57-vs-md421",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "c414-vs-u87",
+    "count": 2,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "featuredSnippet.faq_a4_en",
+        "snippet": "world-class",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "re20-vs-sm7b",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "blx288-vs-ewd",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "zlx-vs-k12",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "dxr-vs-prx",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "player-strat-vs-pacifica",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "american-pro-vs-les-paul",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "martin-d28-vs-taylor-314",
+    "count": 2,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_a3_es",
+        "snippet": "la elección para",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "ableton-vs-fl-studio",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "pro-tools-vs-cubase",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "blues-junior-vs-ac30",
+    "count": 2,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_a3_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "katana-vs-dsl",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q4_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "fabfilter-vs-ozone",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "best-guitar-home-office",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "featuredSnippet.faq_q2_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "fix-clipping-scarlett",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "best-mic-for-guitar-amps",
+    "count": 3,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "sections[2].content_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "sections[4].content_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "vpc[1].cons_es",
+        "snippet": "imprescindible",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "best-mic-for-podcasting",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "best-daw-for-beginners",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "vpc[2].pros_es",
+        "snippet": "fundamental",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "best-headphones-for-mixing",
+    "count": 3,
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "sections[1].content",
+        "snippet": "elevate",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "medium",
+        "type": "es_calco",
+        "path": "sections[3].content_es",
+        "snippet": "merece la pena",
+        "note": "1 occurrences"
+      },
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "sections[4].content",
+        "snippet": "the ultimate",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "best-monitors-for-small-rooms",
+    "count": 0,
+    "issues": []
+  },
+  {
+    "id": "best-beginner-electric-guitar",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "sections[2].content",
+        "snippet": "the ultimate",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "best-samplers-drum-computers",
+    "count": 1,
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en_ai",
+        "path": "featuredSnippet.faq_a1_en",
+        "snippet": "the ultimate",
+        "note": "1 occurrences"
+      }
+    ]
+  },
+  {
+    "id": "best-grooveboxes",
+    "count": 0,
+    "issues": []
+  }
+]
