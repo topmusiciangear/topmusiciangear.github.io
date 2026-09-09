@@ -5901,13 +5901,13 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0C2G4PGYS",
       "andertons": "https://www.andertons.co.uk/audio-technica-at2040-usb-microphone/",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudio-Technica-AT2040USB-Dynamic-Microphone%2F5NDI"
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudio-Technica-AT2040USB-Dynamic-Microphone%2F5NDI",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2040-USB/art-REC0016401-000",
+      "zzounds": "https://www.zzounds.com/a--925521/item--AUDAT2040USB"
     },
     "excludeStores": [
       "gear4music",
       "andertons",
-      "musicstore",
-      "zzounds",
       "reverb"
     ]
   },
