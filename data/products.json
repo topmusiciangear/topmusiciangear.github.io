@@ -188,56 +188,6 @@
     }
   },
   {
-    "id": 9,
-    "title": "Ibanez RG550 Genesis",
-    "title_es": "Ibanez RG550 Genesis",
-    "brand": "Ibanez",
-    "category": "guitars",
-    "price": 999,
-    "rating": 4.6,
-    "reviews": 6789,
-    "badge": "recommended",
-    "desc": "The original shred machine. Super Wizard neck, Edge tremolo, and DiMarzio pickups. Made for speed and precision.",
-    "desc_es": "La máquina de shred original. Mástil Super Wizard, trémolo Edge y pastillas DiMarzio. Hecha para velocidad y precisión.",
-    "img": "https://r2.gear4music.com/media/37/376945/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FIbanez-RG550-Genesis-Purple-Neon%2F28PZ",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FIbanez-Genesis-RG550-DY-Desert-Sun-Yellow%2Fart-GIT0044595-000",
-      "amazon": "https://www.amazon.com/dp/B0DR68LTMF",
-      "andertons": "https://www.andertons.co.uk/ibanez-genesis-collection-rg-ultra-thin-super-wizard-neck-edge-trem-black/",
-      "zzounds": "https://www.zzounds.com/a--925521/item--IBARG550"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "PRS McCarty 594",
-    "title_es": "PRS McCarty 594",
-    "brand": "PRS",
-    "category": "guitars",
-    "price": 5499,
-    "rating": 4.9,
-    "reviews": 2345,
-    "badge": "premium",
-    "desc": "Paul Reed Smith's tribute to the golden era of electric guitars. 58/15 LT pickups, pattern vintage neck, and impeccable build quality.",
-    "desc_es": "El tributo de Paul Reed Smith a la era dorada de las guitarras eléctricas. Pastillas 58/15 LT, mástil pattern vintage y calidad de construcción impecable.",
-    "img": "https://r2.gear4music.com/media/79/796002/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FPRS-McCarty-594-10-Top-Quilt-Dark-Cherry-Burst-0332245-2021%2F4KBQ",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPRS-McCarty-594-Dark-Cherry-Sunburst%2Fart-GIT0063401-007",
-      "andertons": "https://www.andertons.co.uk/prs-mccarty-594-vintage-tuners-mccarty-sunburst/",
-      "zzounds": "https://www.zzounds.com/a--925521/item--PAU594"
-    },
-    "excludeStores": [
-      "amazon"
-    ],
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
     "id": 11,
     "title": "Nord Stage 4 88",
     "title_es": "Nord Stage 4 88",
@@ -1153,29 +1103,6 @@
     }
   },
   {
-    "id": 64,
-    "title": "Fender American Ultra Stratocaster",
-    "title_es": "Fender American Ultra Stratocaster",
-    "brand": "Fender",
-    "category": "guitars",
-    "price": 2299,
-    "rating": 4.8,
-    "reviews": 2345,
-    "badge": "premium",
-    "desc": "Fender's most advanced Stratocaster. Ultra Noiseless pickups, sculpted neck heel for upper fret access, and a compound-radius fingerboard. From delicate jazz chords to screaming Latin rock leads, this is the ultimate Strat for the discerning professional.",
-    "desc_es": "La Stratocaster más avanzada de Fender. Pastillas Ultra Noiseless, talón esculpido para acceso a trastes superiores y diapasón de radio compuesto. Desde delicados acordes de jazz hasta desgarradores leads de rock latino, esta es la Strat definitiva para el profesional exigente.",
-    "img": "https://r2.gear4music.com/media/51/515381/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FFender-American-Ultra-Stratocaster-HSS-MN-Ultraburst%2F32KR",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Ultra-II-Stratocaster-EB-Ultraburst%2Fart-GIT0061889-001",
-      "amazon": "https://www.amazon.com/dp/B07SZSPR9V",
-      "zzounds": "https://www.zzounds.com/a--925521/item--FEN0118012"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
     "id": 65,
     "title": "Fender Player II Jazzmaster",
     "title_es": "Fender Player II Jazzmaster",
@@ -2030,31 +1957,6 @@
     "unit": "each",
     "unit_es": "cada uno",
     "oos": [
-      "zzounds"
-    ]
-  },
-  {
-    "id": 118,
-    "title": "Waves Mercury Bundle",
-    "title_es": "Waves Paquete Mercury",
-    "brand": "Waves",
-    "category": "plugins",
-    "price": 1699,
-    "rating": 4.8,
-    "reviews": 5670,
-    "badge": "premium",
-    "desc": "The ultimate Waves collection. 180+ plugins covering every mixing, mastering, and production task imaginable. From SSL console emulations to Abbey Road chambers, vocal tuning to bass enhancement. The industry standard plugin bundle for professional studios worldwide.",
-    "desc_es": "La colección definitiva de Waves. Más de 180 plugins que cubren cualquier tarea imaginable de mezcla, masterización y producción. Desde emulaciones de consola SSL hasta las cámaras de eco de Abbey Road, pasando por afinación vocal y mejora de graves. El bundle de plugins estándar de la industria para estudios profesionales en todo el mundo.",
-    "img": "https://r2.gear4music.com/media/125/1252735/1200/preview.jpg",
-    "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/97-Various-Category/12539-Mercury?a_aid=6a01e859cbe1a",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FWaves-Mercury-Bundle%2F7F1S"
-    },
-    "affiliate": {
-      "amazon": "https://www.amazon.com/s?k=Waves+Mercury+Bundle&tag=topmusicg-20",
-      "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+Mercury+Bundle&a_aid=6a01e859cbe1a"
-    },
-    "excludeStores": [
       "zzounds"
     ]
   },
@@ -3628,54 +3530,6 @@
     ]
   },
   {
-    "id": 189,
-    "title": "EVH 5150III 100W Head",
-    "title_es": "EVH 5150III 100W Cabeza",
-    "brand": "EVH",
-    "category": "amps",
-    "price": 1649,
-    "rating": 4.9,
-    "reviews": 1240,
-    "badge": "premium",
-    "desc": "Eddie Van Halen's legendary three-channel 100-watt all-tube amplifier head. Eight JJ ECC83S preamp tubes, four JJ 6L6 power tubes, independent gain/volume/EQ per channel. From pristine cleans to the most iconic high-gain lead tone in rock history. The definitive modern high-gain amp.",
-    "desc_es": "El legendario cabezal de amplificador todo-válvulas de 100 vatios y tres canales de Eddie Van Halen. Ocho válvulas de previo JJ ECC83S, cuatro válvulas de potencia JJ 6L6, ganancia/volumen/EQ independiente por canal. Desde limpios cristalinos hasta el tono de lead high-gain más icónico de la historia del rock. El amplificador high-gain moderno definitivo.",
-    "img": "https://r2.gear4music.com/media/12/128498/1200/preview_1.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FEVH-5150III-100W-Head-Black%2F18A8",
-      "andertons": "https://www.andertons.co.uk/evh-5150-iii-hypersonic-6l6-1x12-guitar-amp-combo-black/",
-      "amazon": "https://www.amazon.com/dp/B001R2NRYG",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/EVH-5150III-100W-Head/art-GIT0032423-000",
-      "zzounds": "https://www.zzounds.com/a--925521/item--EVH2251000"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
-    "id": 190,
-    "title": "Orange Rockerverb 100 MKIII Head",
-    "title_es": "Orange Rockerverb 100 MKIII Cabeza",
-    "brand": "Orange",
-    "category": "amps",
-    "price": 1899,
-    "rating": 4.8,
-    "reviews": 890,
-    "badge": "premium",
-    "desc": "The ultimate British valve amp head. 100 watts of all-tube power through two fully independent channels with footswitchable attenuation, valve-driven reverb, and effects loop. Clean channel delivers pristine, chimey cleans while the dirty channel produces Orange's signature crushing high-gain. The professional's choice for versatility and tone.",
-    "desc_es": "El cabezal de válvulas británico definitivo. 100 vatios de potencia todo-válvulas a través de dos canales totalmente independientes con atenuación conmutable a pie, reverberación de válvulas y bucle de efectos. El canal limpio ofrece limpios cristalinos y brillantes mientras que el canal saturado produce la característica distorsión aplastante de Orange. La opción profesional por excelencia en cuanto a versatilidad y tono.",
-    "img": "https://r2.gear4music.com/media/107/1072210/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FOrange-Rockerverb-100-MKIII-Head%2F18V8",
-      "andertons": "https://www.andertons.co.uk/orange-rockerverb-100-valve-head-mkiii/",
-      "amazon": "https://www.amazon.com/dp/B00WAK17SM",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Orange-Rockerverb-100-MKIII/art-GIT0055037-000",
-      "zzounds": "https://www.zzounds.com/a--925521/item--ORARK100HIII"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
     "id": 191,
     "title": "KRK S10.4",
     "title_es": "KRK S10.4",
@@ -4501,32 +4355,6 @@
       "amazon": "https://www.amazon.com/dp/B0B4139G51",
       "zzounds": "https://www.zzounds.com/a--925521/item--FOLFOPROTWIN6ST6",
       "andertons": "https://www.andertons.co.uk/focal-twin-6-st6-studio-monitors/"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
-    "id": 225,
-    "title": "RCF ART 710-A MK5",
-    "title_es": "RCF ART 710-A MK5",
-    "brand": "RCF",
-    "category": "monitors",
-    "price": 549,
-    "rating": 4.8,
-    "reviews": 230,
-    "badge": "topQuality",
-    "unit": "each",
-    "unit_es": "cada uno",
-    "desc": "RCF's ART 7 series flagship value: a 10-inch 1400W Class-D active speaker with a 1-inch compression driver, custom dome, and 2.5-inch voice coil woofer. FiRPHASE DSP, 129 dB max SPL and a 90x70 constant-directivity horn deliver clear, loud sound for venues, plus stage-monitor duty from the rear-profile cabinet.",
-    "desc_es": "El buque insignia de la serie ART 7 de RCF: altavoz activo de 10 pulgadas con 1400W Clase-D, driver de compresión de 1 pulgada, domo personalizado y woofer de bobina de voz de 2.5 pulgadas. DSP FiRPHASE, 129 dB de SPL máximo y bocina de directividad constante de 90x70. Sonido claro y con presencia de voz para salas y locales de todo tipo, que también funciona como monitor de piso.",
-    "img": "https://r2.gear4music.com/media/103/1035984/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FRCF-ART-710-A-MK5-10-Active-PA-Speaker%2F651K",
-      "amazon": "https://www.amazon.com/dp/B0DDV4P55Q",
-      "andertons": "https://www.andertons.co.uk/rcf-art-710-a-mk5-digital-active-speaker-system-10-175-vc-700wrms-1400w-peak/",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/RCF-ART-710-A-MK5/art-PAH0023641-002",
-      "zzounds": "https://www.zzounds.com/a--925521/item--RCFART710AMK5"
     },
     "oos": [
       "zzounds"
@@ -6736,54 +6564,6 @@
     ]
   },
   {
-    "id": 321,
-    "title": "Shure SM7dB",
-    "title_es": "Shure SM7dB",
-    "brand": "Shure",
-    "category": "microphones",
-    "price": 499,
-    "rating": 4.8,
-    "reviews": 4100,
-    "badge": "legend",
-    "desc": "The broadcast icon with a built-in preamp. Same warm, smooth SM7B sound, but with +18 or +28 dB of clean onboard gain — enough for any interface, so you can skip the Cloudlifter. Cardioid dynamic with bass roll-off, presence boost, internal shock mount and windscreen included.",
-    "desc_es": "El ícono de broadcast con previo integrado. El mismo sonido cálido y suave del SM7B, pero con +18 o +28 dB de ganancia limpia incorporada — suficiente para cualquier interfaz, así que puedes saltarte el Cloudlifter. Dinámico cardioide con corte de graves, realce de presencia, suspensión antigolpes interna y viento incluidos.",
-    "img": "https://r2.gear4music.com/media/101/1018905/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FShure-SM7dB-Active-Dynamic-Microphone%2F5W2X",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM7dB/art-REC0016525-000",
-      "amazon": "https://www.amazon.com/dp/B0CMFXN65Z",
-      "andertons": "https://www.andertons.co.uk/shure-sm7db-microphone/",
-      "zzounds": "https://www.zzounds.com/a--925521/item--SHUSM7DB"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
-    "id": 322,
-    "title": "Neumann TLM 102",
-    "title_es": "Neumann TLM 102",
-    "brand": "Neumann",
-    "category": "microphones",
-    "price": 699,
-    "rating": 4.8,
-    "reviews": 3200,
-    "badge": "premium",
-    "desc": "The most affordable true Neumann. A cardioid large-diaphragm condenser with a transformerless FET circuit, a presence lift above 6 kHz that makes vocals and acoustics sit forward, and a 144 dB max SPL that takes loud sources in stride. Needs 48V phantom power and a treated room.",
-    "desc_es": "El auténtico Neumann más asequible. Un condensador de gran diafragma cardioide con circuito FET sin transformador, un realce de presencia por encima de 6 kHz que asienta voces y acústicas al frente, y un SPL máximo de 144 dB que soporta fuentes fuertes sin inmutarse. Necesita phantom de 48V y una sala tratada.",
-    "img": "https://r2.gear4music.com/media/58/589921/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FNeumann-TLM-102-Condenser-Microphone-Black%2FC56",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-bk/art-REC0007196-000",
-      "amazon": "https://www.amazon.com/dp/B003HGJAL4",
-      "andertons": "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-black-finish/",
-      "zzounds": "https://www.zzounds.com/a--925521/item--NEUTLM102"
-    },
-    "oos": [
-      "zzounds"
-    ]
-  },
-  {
     "id": 323,
     "title": "Akai MPK Mini MK4",
     "title_es": "Akai MPK Mini MK4",
@@ -7832,34 +7612,6 @@
     ]
   },
   {
-    "id": 373,
-    "title": "Oeksound Soothe3",
-    "title_es": "Oeksound Soothe3",
-    "brand": "Oeksound",
-    "category": "plugins",
-    "price": 199,
-    "rating": 4.8,
-    "reviews": 3200,
-    "badge": "topQuality",
-    "desc": "Dynamic resonance suppressor that automatically detects and reduces problematic resonances. The industry standard for taming harshness in vocals, instruments, and mixes.",
-    "desc_es": "Supresor de resonancias dinámico que detecta y reduce automáticamente resonancias problemáticas. El estándar de la industria para controlar la dureza en voces, instrumentos y mezclas.",
-    "img": "https://www.pluginboutique.com/system/resources/srcs/000/106/967/main/soothe3_main_image_pluginboutique.jpg",
-    "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/16-EQ/12048-Soothe3?a_aid=6a01e859cbe1a"
-    },
-    "affiliate": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/16-EQ/12048-Soothe3?a_aid=6a01e859cbe1a"
-    },
-    "excludeStores": [
-      "amazon",
-      "zzounds",
-      "reverb",
-      "andertons",
-      "gear4music",
-      "musicstore"
-    ]
-  },
-  {
     "id": 374,
     "title": "Cableguys ShaperBox 3",
     "title_es": "Cableguys ShaperBox 3",
@@ -8254,34 +8006,6 @@
     ]
   },
   {
-    "id": 388,
-    "title": "Universal Audio Century Tube Channel Strip",
-    "title_es": "Universal Audio Century Tube Channel Strip",
-    "brand": "Universal Audio",
-    "category": "plugins",
-    "price": 149,
-    "rating": 4.8,
-    "reviews": 2100,
-    "badge": "",
-    "desc": "Tube channel strip with mic preamp, EQ and optical compression in one window. Intuitive workflow for fast results.",
-    "desc_es": "Channel strip de tubo con preamp de mic, EQ y compresión óptica en una ventana. Flujo de trabajo intuitivo para resultados rápidos.",
-    "img": "https://www.uaudio.com/cdn/shop/files/century_tube_gallery_1_explore_free.png?crop=center&height=480&v=1776185751&width=480e.jpg",
-    "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/25-Channel-Strip/7489-Century-Tube-Channel-Strip?a_aid=6a01e859cbe1a"
-    },
-    "affiliate": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/25-Channel-Strip/7489-Century-Tube-Channel-Strip?a_aid=6a01e859cbe1a"
-    },
-    "excludeStores": [
-      "amazon",
-      "zzounds",
-      "reverb",
-      "andertons",
-      "gear4music",
-      "musicstore"
-    ]
-  },
-  {
     "id": 389,
     "title": "Eventide H3000 Band Delays MK II",
     "title_es": "Eventide H3000 Band Delays MK II",
@@ -8336,34 +8060,6 @@
     ]
   },
   {
-    "id": 391,
-    "title": "Minimal Audio Cluster Delay",
-    "title_es": "Minimal Audio Cluster Delay",
-    "brand": "Minimal Audio",
-    "category": "plugins",
-    "price": 49,
-    "rating": 4.7,
-    "reviews": 600,
-    "badge": "",
-    "desc": "Spatial delay effect with clean, modern interface. Create echoes, ambient textures and rhythmic patterns. Popular in modern electronic music production.",
-    "desc_es": "Efecto de delay espacial con interfaz limpia y moderna. Crea ecos, texturas ambientales y patrones rítmicos. Popular en la producción de música electrónica moderna.",
-    "img": "https://public-static-assets.minimal.audio/Products/Feed/cluster_delay/feed_image.jpg?v=1786134657ay.jpg",
-    "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/14-Delay/10823-Cluster-Delay?a_aid=6a01e859cbe1a"
-    },
-    "affiliate": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/14-Delay/10823-Cluster-Delay?a_aid=6a01e859cbe1a"
-    },
-    "excludeStores": [
-      "amazon",
-      "zzounds",
-      "reverb",
-      "andertons",
-      "gear4music",
-      "musicstore"
-    ]
-  },
-  {
     "id": 392,
     "title": "D16 Group Repeater Delay",
     "title_es": "D16 Group Repeater Delay",
@@ -8390,34 +8086,6 @@
       "amazon",
       "reverb",
       "andertons"
-    ]
-  },
-  {
-    "id": 393,
-    "title": "QuikQuak Pitchwheel",
-    "title_es": "QuikQuak Pitchwheel",
-    "brand": "QuikQuak",
-    "category": "plugins",
-    "price": 45,
-    "rating": 4.5,
-    "reviews": 400,
-    "badge": "",
-    "desc": "Real-time pitch shifter for altering tone of voices and samples without changing duration. Widely used in contemporary urban music.",
-    "desc_es": "Cambiador de tono en tiempo real para alterar el tono de voces y samples sin cambiar la duración. Ampliamente usado en música urbana contemporánea.",
-    "img": "https://www.quikquak.com/image/Pitchwheel_5_3_ScreenFull.png.jpg",
-    "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/37-Pitch-Shift/1894-Pitchwheel?a_aid=6a01e859cbe1a"
-    },
-    "affiliate": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/37-Pitch-Shift/1894-Pitchwheel?a_aid=6a01e859cbe1a"
-    },
-    "excludeStores": [
-      "amazon",
-      "zzounds",
-      "reverb",
-      "andertons",
-      "gear4music",
-      "musicstore"
     ]
   },
   {
@@ -8799,84 +8467,6 @@
     "priceUSD": "$5,199",
     "img": "https://r2.gear4music.com/media/30/304479/1200/preview.jpg",
     "description": "Digital console with 24 motorized faders and 24 local XLR mic inputs. XCVI FPGA engine at 96 kHz processes up to 48 channels (with external stageboxes), 36 mix buses, and 32-channel USB recording without a computer. 7-inch touchscreen, optional Dante, and SLink expansion port."
-  },
-  {
-    "id": 415,
-    "title": "Allen & Heath Avantis Solo",
-    "title_es": "Allen & Heath Avantis Solo",
-    "price": 8999,
-    "img": "https://cdn11.bigcommerce.com/s-i96uyzqbhj/images/stencil/1280x1280/products/40749/52594/Avantis%5FSOLO%5FRight%5FTurn%5F%5F84123.1730743132.jpg?c=1",
-    "category": "studio",
-    "tags": [
-      "digital mixer",
-      "24-channel",
-      "allen heath",
-      "premium"
-    ],
-    "desc": "64-channel digital mixer with 42 mic/line inputs, dual-core SHARC processing, 12-inch capacitive touchscreen, 96kHz FPGA audio engine, and 32 built-in FX racks.",
-    "desc_es": "Mezcladora digital de 64 canales con 42 entradas mic/línea, procesamiento dual SHARC, pantalla táctil capacitiva de 12 pulgadas, motor de audio FPGA a 96 kHz y 32 racks de efectos incorporados.",
-    "stores": {
-      "amazon": "",
-      "zzounds": "",
-      "reverb": "https://reverb.com/marketplace?query=allen+heath+avantis+solo",
-      "andertons": "",
-      "gear4music": "",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Allen-Heath-Avantis-Solo/art-PRO0004453-000"
-    },
-    "priceGBP": "£6,240",
-    "priceUSD": "$8,999"
-  },
-  {
-    "id": 416,
-    "title": "Yamaha DM7",
-    "title_es": "Yamaha DM7",
-    "price": 25490,
-    "img": "https://usa.yamaha.com/files/DM7-front-4000_23bf706539f0afbf73626506c34356fc.jpg?impolicy=resize&imwid=4000&imhei=4000",
-    "category": "studio",
-    "tags": [
-      "digital mixer",
-      "32-channel",
-      "yamaha",
-      "premium"
-    ],
-    "desc": "72-channel digital mixer with 32 mic/line inputs, 48-bit float processing, 192kHz sampling rate, Dante built-in, and dual 12.1-inch capacitive touchscreens.",
-    "desc_es": "Mezcladora digital de 72 canales con 32 entradas mic/línea, procesamiento de 48 bits float, muestreo a 192 kHz, Dante integrado y dos pantallas táctiles capacitivas de 12,1 pulgadas.",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B0DFZGQV8K",
-      "zzounds": "",
-      "reverb": "https://reverb.com/marketplace?query=yamaha+dm7",
-      "andertons": "",
-      "gear4music": "",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-DM7/art-PRO0004454-000"
-    },
-    "priceGBP": "£24,390",
-    "priceUSD": "$25,490"
-  },
-  {
-    "id": 417,
-    "title": "Allen & Heath SQ-7",
-    "title_es": "Allen & Heath SQ-7",
-    "price": 5999,
-    "img": "https://cdn11.bigcommerce.com/s-bdgtlp/images/stencil/1280x1280/products/18316/58055/SQ7-Front-2800%5F%5F82539.1562253524.jpg?c=2",
-    "category": "studio",
-    "tags": [
-      "digital mixer",
-      "32-channel",
-      "allen heath",
-      "96khz"
-    ],
-    "desc": "48-channel digital mixer with 48 mic/line inputs, 96-track recording, optional Dante card, and 7-inch capacitive touchscreen.",
-    "desc_es": "Mezcladora digital de 48 canales con 48 entradas mic/línea, grabación de 96 pistas, tarjeta Dante opcional y pantalla táctil capacitiva de 7 pulgadas.",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B0787G5G8B",
-      "zzounds": "",
-      "reverb": "https://reverb.com/marketplace?query=allen+heath+sq-7",
-      "andertons": "",
-      "gear4music": "https://www.gear4music.com/Pro-Audio/Allen-and-Heath-SQ7-Digital-Mixer/3FMZ",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Allen-Heath-SQ-7/art-PRO0004455-000"
-    },
-    "priceGBP": "£5,249",
-    "priceUSD": "$5,999"
   },
   {
     "id": 418,
@@ -9947,26 +9537,6 @@
     ]
   },
   {
-    "id": 469,
-    "title": "Dynaudio 9S Powered Studio Subwoofer",
-    "title_es": "Dynaudio 9S Subwoofer de Estudio Activo",
-    "brand": "Dynaudio",
-    "category": "monitors",
-    "price": 1149,
-    "badge": "premium",
-    "unit": "each",
-    "unit_es": "cada uno",
-    "desc": "Danish active subwoofer with a 9-inch MSP woofer driven by 300W of Class-D peak power in a sealed, vibration-free cabinet. It stays flat from 22 Hz to 175 Hz (±3 dB) up to a 106 dB max SPL, and the 50–150 Hz low-pass, 0/180° phase switch and switchable high-pass outputs integrate it cleanly into tight desktop monitoring chains.",
-    "desc_es": "Subwoofer activo danés con woofer MSP de 9 pulgadas impulsado por 300W de potencia pico Clase-D en un gabinete sellado sin vibración. Se mantiene plano de 22 Hz a 175 Hz (±3 dB) hasta 106 dB de SPL máximo, y el filtro de paso bajo de 50–150 Hz, el interruptor de fase 0/180° y las salidas de paso alto seleccionable lo integran limpiamente en cadenas de monitoreo de escritorio compactas.",
-    "img": "https://r2.gear4music.com/media/30/300451/1200/preview.jpg",
-    "stores": {
-      "amazon": "https://www.amazon.com/dp/B07RVDLYZ6",
-      "gear4music": "https://www.gear4music.com/Recording-and-Computers/DISC-Dynaudio-9S-Subwoofer/254Q",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Dynaudio-9S/art-REC0013417-000",
-      "reverb": "https://reverb.com/marketplace?query=Dynaudio%209S"
-    }
-  },
-  {
     "id": 470,
     "title": "ATC SCS120 Pro Active Studio Subwoofer",
     "title_es": "ATC SCS120 Pro Subwoofer de Estudio Activo",
@@ -9981,30 +9551,6 @@
     "img": "https://atc.audio/wp-content/uploads/2025/09/SCS120-Pro_angles-dtop-3.jpg",
     "stores": {
       "reverb": "https://reverb.com/marketplace?query=ATC%20SCS120%20Pro"
-    },
-    "excludeStores": [
-      "zzounds",
-      "amazon",
-      "gear4music",
-      "andertons",
-      "musicstore"
-    ]
-  },
-  {
-    "id": 471,
-    "title": "PMC 8 SUB Active Studio Subwoofer",
-    "title_es": "PMC 8 SUB Subwoofer de Estudio Activo",
-    "brand": "PMC",
-    "category": "monitors",
-    "price": 3300,
-    "badge": "premium",
-    "unit": "each",
-    "unit_es": "cada uno",
-    "desc": "British reference sub only 21.7 inches wide, loading a custom 8-inch long-throw driver with PMC's 3-metre Advanced Transmission Line for clean 25 Hz – 500 Hz output. A 300W Class-D amp and the full DSP engine — parametric EQ, delay, phase inversion and XBD mode via SoundAlign — let it run as a standalone sub or the bass module of a PMC6 XBD system.",
-    "desc_es": "Sub de referencia británico de solo 55,1 cm de ancho que carga un driver de 8 pulgadas de gran excursión con la Línea de Transmisión Avanzada (ATL) de 3 metros de PMC para una salida limpia de 25 Hz – 500 Hz. El amplificador Clase-D de 300W y el motor DSP completo — EQ paramétrico, retardo, inversión de fase y modo XBD vía SoundAlign — le permiten funcionar como sub independiente o como módulo de graves de un sistema PMC6 XBD.",
-    "img": "https://media.sweetwater.com/m/products/image/8a69ba75d6dGYemvKIYnGKcDk9XJ6FrhGSF1uJ91.jpg?ha=8a69ba75d67ba31c4ee11bef1af246a4bb59a1a3&quality=82&width=750",
-    "stores": {
-      "reverb": "https://reverb.com/marketplace?query=PMC%208%20SUB"
     },
     "excludeStores": [
       "zzounds",
@@ -10671,4 +10217,5 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FMackie-SRT215-15-Active-PA-Speaker%2F3Q8C",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMackie-SRT215%2Fart-PAH0022227-000"
     }
-  }]
+  }
+]
