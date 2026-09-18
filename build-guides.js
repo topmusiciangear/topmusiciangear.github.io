@@ -187,6 +187,7 @@ function wrapAffiliate(storeKey, url) {
   if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(normalizeMusicStore(url));
   if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(url);
   if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'hollyland' && url.indexOf('awin1.com') < 0 && url.indexOf('hollyland.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=128051&awinaffid=2891111&ued=' + encodeURIComponent(url);
   return url;
 }
 
@@ -246,6 +247,9 @@ function getResolvedStores(product) {
       s[key] = searchUrls[key](shortTitle(product.title));
     }
   });
+  if (product.stores.hollyland) {
+    s.hollyland = wrapAffiliate('hollyland', product.stores.hollyland);
+  }
   if (s.reverb && !s.reverb.startsWith('https://www.awin1.com/cread.php?awinmid=67144')) {
     s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
   }
@@ -320,9 +324,9 @@ function storeChips(p, lang) {
 }
 
 const SHOP_LOGO_STYLE = {
-  gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"
+  gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px", hollyland: "font-family:'Poppins',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.3px;font-size:15px"
 };
-const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb", amazon: "Amazon" };
+const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb", amazon: "Amazon", hollyland: 'Hollyland' };
 let FLAG_UID = 0;
 function flagBadge(inner) {
   const cid = 'flgc' + (++FLAG_UID);
@@ -587,7 +591,7 @@ const TEST_SHOP_BTN = {
   248: {prices:{amazon:"$529.00",zzounds:"$595.00",andertons:"£523.00",gear4music:"£523.00",musicstore:"€533.61"}},
   249: {prices:{amazon:"$219.00",musicstore:"€276.47"},oos:["andertons"]},
   250: {prices:{gear4music:"£261.50",amazon:"$260.00",zzounds:"$260.00",andertons:"£258.00",musicstore:"€335.29"}},
-  251: {prices:{amazon:"$76.00"},oos:["andertons"]},
+  251: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/lark-m2",p:"€92.00"},us:{u:"https://store.hollyland.com/products/lark-m2",p:"$68.40"},uk:{u:"https://uk.hollyland.com/products/lark-m2",p:"£78.00"}},prices:{amazon:"$76.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
   252: {prices:{gear4music:"£169.75",amazon:"$173.85",zzounds:"$190.00",andertons:"£169.00",musicstore:"€199.00"}},
   253: {prices:{amazon:"$109.99"},oos:["andertons","musicstore"]},
   254: {prices:{amazon:"$79.00"},urls:{musicstore:"https://www.musicstore.com/en_OE/EUR/search?SearchText=DJI%20Mic%20Mini"},oos:["andertons"],na:["musicstore"]},
@@ -816,13 +820,33 @@ const TEST_SHOP_BTN = {
   500: {prices:{zzounds:"$466.95",gear4music:"£418.00",musicstore:"€469.00"}},
   501: {prices:{gear4music:"£379.00",andertons:"£379.00",musicstore:"€399.00"}},
   502: {prices:{zzounds:"$779.99",amazon:"$749.99",gear4music:"£749.00",musicstore:"€789.00"}},
-  503: {prices:{gear4music:"£439.00",amazon:"$599.99",zzounds:"$599.99",andertons:"£439.00",musicstore:"€499.00"}}
-};function shopButtonsTest(p, lang) {
+503: {prices:{gear4music:"£439.00",amazon:"$599.99",zzounds:"$599.99",andertons:"£439.00",musicstore:"€499.00"}},
+  504: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/lark-max",p:"€97.00"},us:{u:"https://store.hollyland.com/products/lark-max",p:"$139.00"}},na:["zzounds","reverb","gear4music","andertons","musicstore","amazon"]},
+  505: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/lark-a2",p:"€44.99"},us:{u:"https://store.hollyland.com/products/lark-a2",p:"$44.99"},uk:{u:"https://uk.hollyland.com/products/lark-a2",p:"£46.30"}},na:["zzounds","reverb","gear4music","andertons","musicstore","amazon"]},
+  506: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/lark-max-2",p:"€212.00"},us:{u:"https://store.hollyland.com/products/lark-max-2",p:"$269.00"},uk:{u:"https://uk.hollyland.com/products/lark-max-2",p:"£180.20"}},prices:{amazon:"$249.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
+  507: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/lark-max-2",p:"€277.00"},us:{u:"https://store.hollyland.com/products/lark-max-2",p:"$339.00"},uk:{u:"https://uk.hollyland.com/products/lark-max-2",p:"£235.45"}},prices:{amazon:"$339.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
+  508: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/melo-p1",p:"€369.00"},us:{u:"https://store.hollyland.com/products/melo-p1",p:"$249.00"},uk:{u:"https://uk.hollyland.com/products/melo-p1",p:"£301.00"}},prices:{amazon:"$249.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
+  509: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/solidcom-c1",p:"€3,455.00"},us:{u:"https://store.hollyland.com/products/solidcom-c1",p:"$399.00"},uk:{u:"https://uk.hollyland.com/products/solidcom-c1",p:"£309.40"}},prices:{amazon:"$799.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
+  510: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/solidcom-c1-pro",p:"€4,089.00"},us:{u:"https://store.hollyland.com/products/solidcom-c1-pro",p:"$649.00"},uk:{u:"https://uk.hollyland.com/products/solidcom-c1-pro",p:"£539.00"}},prices:{amazon:"$1,299.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]},
+  511: {holly:{eu:{u:"https://eu.hollyland.com/de-de/products/solidcom-se-pro",p:"€1,332.00"},us:{u:"https://store.hollyland.com/products/solidcom-se-pro",p:"$679.00"},uk:{u:"https://uk.hollyland.com/products/solidcom-se-pro",p:"£290.70"}},prices:{amazon:"$679.00"},na:["zzounds","reverb","gear4music","andertons","musicstore"]}
+ };function hollyDefaultRegion() {
+  var isUsa = false;
+  try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
+  return isUsa ? 'us' : 'eu';
+}
+function hollyPickEntry(cfg, r) {
+  if (!cfg || !cfg.holly) return null;
+  return cfg.holly[r] || cfg.holly.eu || cfg.holly.us || cfg.holly.uk || null;
+}
+function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
   const prices = cfg.prices || {};
   const stores = getResolvedStores(p);
   const isDaw = p.category === 'daw';
   const isLogic = isDaw && !!stores.official;
+  const isHolly = !!stores.hollyland;
+  const hollyRegion = hollyDefaultRegion();
+  const hollyPick = hollyPickEntry(cfg, hollyRegion);
   const dawHasAmazon = isDaw && !isLogic && prices.amazon;
   const t = (es, en) => lang === 'es' ? es : en;
   const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
@@ -852,21 +876,30 @@ const TEST_SHOP_BTN = {
   const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
-  const hasAmazon = !isLogic && !isPlugins;
-  const primaryStoreKey = isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
-  const pPrice = (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
+  const hasAmazon = !isLogic && !isPlugins && !isHolly;
+  const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
+  const pPrice = isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '';
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
-  var pUrlRaw = isLogic ? stores.official : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
+  var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
+  var hollyAttrs = '';
+  if (isHolly) {
+    ['eu', 'us', 'uk'].forEach(function(r) {
+      var he = hollyPickEntry(cfg, r);
+      if (he) {
+        hollyAttrs += ' data-hu-' + r + '="' + wrapAffiliate('hollyland', he.u || '') + '" data-hu-' + r + '-p="' + (he.p || '') + '"';
+      }
+    });
+  }
   const primaryBtn =
-    '<a data-store="' + (primaryStoreKey) + '" href="' + pUrl + '" target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
+    '<a data-store="' + (primaryStoreKey) + '" href="' + pUrl + '"' + hollyAttrs + ' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400\'>PLUG<span style=\'color:#000\'>IN</span>BOUTIQUE</span>' : (hasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : '<span style="' + (SHOP_LOGO_STYLE[primaryStoreKey]||'font-weight:700') + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '- ' + pPrice : '') + '</span></a>';
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_LOGO_STYLE.hollyland + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400\'>PLUG<span style=\'color:#000\'>IN</span>BOUTIQUE</span>' : (hasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800\'><span style=\'position:relative;display:inline-block\'>Amaz' + '<svg viewBox=\'86 114 320 72\' preserveAspectRatio=\'none\' style=\'position:absolute;left:17.8%;top:100%;height:7px;width:calc(80% - 1px);margin-top:-5px\'>' + '<path fill=\'#FF9900\' d=\'m 374.00642,142.18404 c -34.99948,25.79739 -85.72909,39.56123 -129.40634,39.56123 -61.24255,0 -116.37656,-22.65135 -158.08757,-60.32496 -3.2771,-2.96252 -0.34083,-6.9999 3.59171,-4.69283 45.01431,26.19064 100.67269,41.94697 158.16623,41.94697 38.774689,0 81.4295,-8.02237 120.6499,-24.67006 5.92501,-2.51683 10.87999,3.88009 5.08607,8.17965\'/>' + '<path fill=\'#FF9900\' d=\'m 388.55678,125.53635 c -4.45688,-5.71527 -29.57261,-2.70033 -40.84585,-1.36327 -3.43442,0.41947 -3.95874,-2.56925 -0.86517,-4.71905 20.00346,-14.07844 52.82696,-10.01483 56.65462,-5.2958 3.82764,4.74526 -0.99624,37.64741 -19.79373,53.35128 -2.88385,2.41195 -5.63662,1.12734 -4.35198,-2.07113 4.2209,-10.53917 13.68519,-34.16054 9.20211,-39.90203\'/>' + '</svg></span>on</span>' : '<span style="' + (SHOP_LOGO_STYLE[primaryStoreKey]||'font-weight:700') + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '- ' + pPrice : '') + '</span></a>';
   const rows = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
@@ -1338,13 +1371,16 @@ function buildGuidePage(guide, lang, idx) {
         var isPlugins = p.category === 'plugins';
         var isDaw = p.category === 'daw';
         var isLogic = isDaw && !!st.official;
+        var isHolly = !!st.hollyland;
         var dawHasAmazon = isDaw && !isLogic && pr.amazon;
-        var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
-        var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
-        var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
+        var holly = isHolly ? hollyPickEntry(cfg, hollyDefaultRegion()) : null;
+        var primaryStore = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
+        var priceStr = isHolly ? (holly ? holly.p || '' : '') : (pr[primaryStore] || pr[Object.keys(pr)[0]] || '');
+        var priceNum = priceStr ? parseFloat(priceStr.replace(/[,]/g, '').replace(/[^0-9.]/g, '')) : null;
+        var offerUrl = isHolly ? wrapAffiliate('hollyland', holly ? holly.u || '' : '') : wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
+        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD';
         if (offerUrl && priceNum) {
-          listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
+          listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": priceCurr, "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
           listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else {
@@ -1370,13 +1406,16 @@ function buildGuidePage(guide, lang, idx) {
         var isPlugins = p.category === 'plugins';
         var isDaw = p.category === 'daw';
         var isLogic = isDaw && !!st.official;
+        var isHolly = !!st.hollyland;
         var dawHasAmazon = isDaw && !isLogic && pr.amazon;
-        var primaryStore = isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
-        var priceStr = pr[primaryStore] || pr[Object.keys(pr)[0]] || '';
-        var priceNum = priceStr ? parseFloat(priceStr.replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
+        var holly = isHolly ? hollyPickEntry(cfg, hollyDefaultRegion()) : null;
+        var primaryStore = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
+        var priceStr = isHolly ? (holly ? holly.p || '' : '') : (pr[primaryStore] || pr[Object.keys(pr)[0]] || '');
+        var priceNum = priceStr ? parseFloat(priceStr.replace(/[,]/g, '').replace(/[^0-9.]/g, '')) : null;
+        var offerUrl = isHolly ? wrapAffiliate('hollyland', holly ? holly.u || '' : '') : wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
+        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD';
         if (offerUrl && priceNum) {
-          pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": offerUrl };
+          pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": priceCurr, "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
           pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
         } else {
@@ -1727,6 +1766,16 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     if(!pb)return;
     var curStore=pb.getAttribute('data-store')||'';
     if(curStore==='pluginboutique')return;
+    if(curStore==='hollyland'){
+      var hr=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
+      var hu=pb.getAttribute('data-hu-'+hr);
+      if(hu){
+        pb.setAttribute('href',hu);
+        var hp=pb.getAttribute('data-hu-'+hr+'-p');
+        if(hp)pb.innerHTML=pb.innerHTML.replace(/- [$£€][0-9.,]+/,'- '+hp);
+      }
+      return;
+    }
     if(curStore===T)return;
     var zRow=c.querySelector('[data-store="'+T+'"]');
     if(!zRow)return;

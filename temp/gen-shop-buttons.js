@@ -58,6 +58,14 @@ var grsStart = src.indexOf('function getResolvedStores(');
 var grsEnd = src.indexOf('\nfunction ', grsStart + 10);
 var grsFn = src.substring(grsStart, grsEnd);
 
+// Extract hollyDefaultRegion + hollyPickEntry functions (helpers used by shopButtonsTest)
+var hollyRegStart = src.indexOf('function hollyDefaultRegion(');
+var hollyRegEnd = src.indexOf('\nfunction ', hollyRegStart + 10);
+var hollyRegFn = src.substring(hollyRegStart, hollyRegEnd);
+var hollyPickStart = src.indexOf('function hollyPickEntry(');
+var hollyPickEnd = src.indexOf('\nfunction ', hollyPickStart + 10);
+var hollyPickFn = src.substring(hollyPickStart, hollyPickEnd);
+
 // Extract shopButtonsTest function
 var shopFnStart = src.indexOf('function shopButtonsTest(');
 var shopFnEnd = src.indexOf('\nfunction ', shopFnStart + 10);
@@ -159,6 +167,10 @@ ${nmsInnerFn}
 
 ${grsFn}
 
+${hollyRegFn}
+
+${hollyPickFn}
+
 ${shopFn}
 
 window.tmgStoreButtons = function(p) {
@@ -176,6 +188,16 @@ window.tmgStoreButtons = function(p) {
       if (!pb) return;
       var curStore = pb.getAttribute('data-store') || '';
       if (curStore === 'pluginboutique') return;
+      if (curStore === 'hollyland') {
+        var hr = (T === 'musicstore') ? 'eu' : (T === 'gear4music') ? 'uk' : 'us';
+        var hu = pb.getAttribute('data-hu-' + hr);
+        if (hu) {
+          pb.setAttribute('href', hu);
+          var hp = pb.getAttribute('data-hu-' + hr + '-p');
+          if (hp) pb.innerHTML = pb.innerHTML.replace(/- [$£€][0-9.,]+/, '- ' + hp);
+        }
+        return;
+      }
       if (curStore === T || curStore === 'msdirect') return;
       var zRow = c.querySelector('[data-store="' + T + '"]');
       if (!zRow) return;
