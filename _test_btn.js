@@ -2,7 +2,7 @@ var fs = require('fs');
 var src = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/build-guides.js', 'utf8');
 
 // Extract TEST_SHOP_BTN
-var m = src.match(/const TEST_SHOP_BTN\s*=\s*\{([\s\S]*?)\n  \};/);
+var m = src.match(/const TEST_SHOP_BTN\s*=\s*\{([\s\S]*?)\n *\};/);
 var btnSrc = 'var TEST_SHOP_BTN = {' + m[1] + '\n};';
 eval(btnSrc);
 
