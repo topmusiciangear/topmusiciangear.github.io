@@ -306,7 +306,7 @@ function openLightbox(src) {
   stage.style.cssText = "position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;cursor:grab";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:100%;max-height:calc(100vh - 60px);object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,.6);transition:transform .15s ease;will-change:transform";
+  img.style.cssText = "max-width:100%;max-height:calc(100vh - 60px);object-fit:contain;border-radius:8px;background:#fff;padding:16px;box-shadow:0 8px 40px rgba(0,0,0,.6);transition:transform .15s ease;will-change:transform";
   img.draggable = false;
   img.style.userSelect = "none";
   img.setAttribute("draggable", "false");
