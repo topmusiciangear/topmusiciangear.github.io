@@ -514,7 +514,7 @@ const TEST_SHOP_BTN = {
   164: {prices:{amazon:"$649.00",zzounds:"$649.00",andertons:"£599.00",gear4music:"£599.00"},oos:["musicstore"]},
   165: {prices:{zzounds:"$649.00",gear4music:"£579.00",amazon:"$599.00",musicstore:"€699.00"},oos:["andertons"]},
   166: {prices:{andertons:"£319.00",gear4music:"£349.00",amazon:"$399.00",musicstore:"€369.00"},urls:{zzounds:"https://www.zzounds.com/a--925521/item--HOFIVB"},oos:["zzounds"]},
-  167: {prices:{amazon:"$53.95",zzounds:"$65.95",gear4music:"£44.99"},oos:["andertons"]},
+  167: {prices:{amazon:"$53.95",zzounds:"$65.95",gear4music:"£44.99",musicstore:"€45.00"},urls:{andertons:"https://www.andertons.co.uk/mogami-2534-quad-neglex-3m-xlrf-xlrm-mic-cable-neutrik-black-gold-xlr/?search_query=Mogami%20%20xlr"},oos:["andertons"]},
   170: {urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/G4M-Acoustics-Squarewave-4-Pack/5KYU"},oos:["gear4music","zzounds"]},
   173: {prices:{gear4music:"£17.99",amazon:"$23.00",musicstore:"€17.90"},oos:["andertons"]},
   174: {prices:{amazon:"$3,599.99",zzounds:"$3,599.99",gear4music:"£3,699.99",andertons:"£2,999.00",musicstore:"€3,399.00"}},

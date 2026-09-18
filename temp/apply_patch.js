@@ -30,6 +30,7 @@ var PRICES = {
   254: { amazon: '$79.00', musicstore: 'REMOVE' },
   421: { gear4music: '£200.50', musicstore: '€215.00' },
   162: { amazon: '$749.00' },
+  167: { musicstore: '€45.00' },
   389: { gear4music: '£128.00' }
 };
 
