@@ -932,7 +932,7 @@ function shopButtonsTest(p, lang) {
 }
 
 function productCard(p, lang) {
-  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (cada uno)' : ' (each)') : p.unit === 'pair' ? (lang === 'es' ? ' (par)' : ' (pair)') : '';
+  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (cada uno)' : ' (each)') : p.unit === 'pair' ? (lang === 'es' ? ' (par)' : ' (pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
   const title = (lang === 'es' && p.title_es ? p.title_es : p.title) + unitLabel;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
