@@ -109,7 +109,7 @@ const TEST_SHOP_BTN = {
    32: {prices:{pluginboutique:"$599.00",amazon:"$599.00",gear4music:"£489.00",musicstore:"€599.00"},oos:["zzounds","andertons"]},
   33: {prices:{amazon:"$749.99",zzounds:"$749.99",andertons:"£659.00",gear4music:"£656.00",musicstore:"€669.00"}},
 
-  39: {prices:{amazon:"$49.00",andertons:"£42.00",gear4music:"£53.50",musicstore:"€168.00"},oos:["zzounds"]},
+  39: {prices:{amazon:"$49.00",andertons:"£45.00",gear4music:"£53.50",musicstore:"€49.00"},oos:["zzounds"]},
   42: {prices:{amazon:"$1,299.99",zzounds:"$1,299.99",andertons:"£1,039.00",gear4music:"£1,039.00",musicstore:"€1,099.00"}},
   50: {prices:{amazon:"$99.00",zzounds:"$109.00",gear4music:"£103.50",andertons:"£103.00",musicstore:"€119.00"}},
   51: {prices:{amazon:"$275.00",zzounds:"$319.00",gear4music:"£222.00",andertons:"£231.00",musicstore:"€249.00"}},
@@ -119,8 +119,8 @@ const TEST_SHOP_BTN = {
   55: {prices:{amazon:"$179.00",zzounds:"$199.00",gear4music:"£142.00",andertons:"£149.00",musicstore:"€168.00"}},
   56: {prices:{amazon:"$169.00",zzounds:"$199.99",andertons:"£149.00",gear4music:"£129.00",musicstore:"€199.00"}},
   57: {prices:{amazon:"$139.80",andertons:"£134.00",gear4music:"£125.00",musicstore:"€121.43"},oos:["zzounds"]},
-  58: {prices:{amazon:"$659.00",zzounds:"$659.00",andertons:"£54.00",gear4music:"£589.00",musicstore:"€539.00"}},
-  59: {prices:{amazon:"$165.99",andertons:"£77.00",gear4music:"£77.40",musicstore:"€539.00"},oos:["zzounds"]},
+  58: {prices:{amazon:"$108.99",zzounds:"$108.99",andertons:"£54.00",gear4music:"£54.70",musicstore:"€52.00"}},
+  59: {prices:{amazon:"$165.99",andertons:"£77.00",gear4music:"£77.40",musicstore:"€78.00"},oos:["zzounds"]},
    60: {prices:{pluginboutique:"$199.00",andertons:"£25.00"}},
   61: {prices:{pluginboutique:"$50.00",gear4music:"£41.99"},oos:["andertons","musicstore"]},
   62: {prices:{pluginboutique:"$199.00",zzounds:"$199.00",gear4music:"£119.00",musicstore:"€169.00",andertons:"£119.00"}},
@@ -205,9 +205,9 @@ const TEST_SHOP_BTN = {
   164: {prices:{amazon:"$649.00",zzounds:"$649.00",andertons:"£599.00",gear4music:"£599.00"},oos:["musicstore"]},
   165: {prices:{zzounds:"$649.00",gear4music:"£579.00",amazon:"$599.00",musicstore:"€699.00"},oos:["andertons"]},
   166: {prices:{andertons:"£319.00",gear4music:"£349.00",amazon:"$399.00",musicstore:"€369.00"},oos:["zzounds"]},
-  167: {prices:{amazon:"$1,099.00",zzounds:"$1,099.00",gear4music:"£899.00",musicstore:"€999.00"},oos:["andertons"]},
+  167: {prices:{amazon:"$53.95",zzounds:"$65.95",gear4music:"£44.99"},oos:["andertons"]},
   170: {urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/G4M-Acoustics-Squarewave-4-Pack/5KYU"},oos:["gear4music","zzounds"]},
-  173: {prices:{gear4music:"£17.99",amazon:"$23.00",musicstore:"€209.00"},oos:["andertons"]},
+  173: {prices:{gear4music:"£17.99",amazon:"$23.00",musicstore:"€17.90"},oos:["andertons"]},
   174: {prices:{amazon:"$3,599.99",zzounds:"$3,599.99",gear4music:"£3,699.99",andertons:"£2,999.00",musicstore:"€3,399.00"}},
   175: {prices:{gear4music:"£599.00",amazon:"$699.00",zzounds:"$699.00",andertons:"£3,899.00",musicstore:"€649.00"}},
   176: {prices:{amazon:"$3,299.00",zzounds:"$3,499.00",andertons:"£2,778.00",gear4music:"£2,850.00",musicstore:"€3,149.00"}},
@@ -541,7 +541,7 @@ const TEST_SHOP_BTN = {
     andertons: () => 'https://www.andertons.co.uk/',
     musicstore: () => 'https://www.musicstore.com/en_OE/EUR'
   };
-  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : (oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
+  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins;
@@ -896,7 +896,7 @@ function shopButtonsTest(p, lang) {
     andertons: () => 'https://www.andertons.co.uk/',
     musicstore: () => 'https://www.musicstore.com/en_OE/EUR'
   };
-  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : (oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
+  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins;
