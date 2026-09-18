@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/wireless-intercom-systems.html', 'utf8');
+const m = h.match(/\.guide-detail-img\{[^}]+\}/);
+console.log('guide-detail-img rule:', m ? m[0] : 'NOT FOUND');
+const mi = h.match(/\.guide-detail-img img\{[^}]+\}/);
+console.log('guide-detail-img img rule:', mi ? mi[0] : 'NOT FOUND');
+const pc = h.match(/\.guide-product-card-img\{[^}]+\}/);
+console.log('product-card-img rule:', pc ? pc[0] : 'NOT FOUND');
+const gi = h.match(/guide-detail-img"><img src="([^"]+)/);
+console.log('guide hero img src:', gi ? gi[1] : 'NF');
