@@ -1,10 +1,7 @@
 const https = require("https");
 const urls = [
-  "https://topmusiciangear.com/guides/best-live-sound-mixers.html",
-  "https://topmusiciangear.com/guides/best-live-sound-mixers_es.html",
-  "https://topmusiciangear.com/guides/wireless-intercom-systems.html",
-  "https://topmusiciangear.com/guides/starter-studio.html",
-  "https://topmusiciangear.com/guides/hs8-vs-rokit-7_es.html"
+  "https://topmusiciangear.com/guides/best-guitar-home-office.html",
+  "https://topmusiciangear.com/guides/best-guitar-home-office_es.html"
 ];
 let done = 0;
 urls.forEach(function(u) {
