@@ -1297,8 +1297,10 @@ function buildGuidePage(guide, lang, idx) {
 
   var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
   var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
+  var escapedTitleTag = titleTag.replace(/"/g, '&quot;');
+  var escapedTitle = title.replace(/"/g, '&quot;');
   var ogMeta = `  <meta property="og:type" content="article">
-  <meta property="og:title" content="${titleTag} | TopMusicianGear">
+  <meta property="og:title" content="${escapedTitleTag} | TopMusicianGear">
   <meta property="og:description" content="${d}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${fullImage}">
@@ -1310,7 +1312,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta property="article:published_time" content="${dPub}">
   <meta property="article:modified_time" content="${dMod}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:title" content="${escapedTitle}">
   <meta name="twitter:description" content="${d}">
   <meta name="twitter:image" content="${fullImage}">
   <meta name="twitter:site" content="@Cuban3Beats">
