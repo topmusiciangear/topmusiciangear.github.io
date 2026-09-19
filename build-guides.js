@@ -1200,8 +1200,8 @@ function buildGuidePage(guide, lang, idx) {
   CURRENT_GUIDE_CAT = guide.category;
   const isEs = lang === 'es';
   const isVs = /-vs-/i.test(guide.id);
-  const title = Y(isEs && guide.title_es ? guide.title_es : guide.title);
-  const titleTag = Y((isEs ? guide.titleTag_es : guide.titleTag) || title);
+  const title = Y((isEs ? guide.titleTag_es : guide.titleTag) || (isEs && guide.title_es ? guide.title_es : guide.title));
+  const titleTag = title;
   const intro = esText(isEs && guide.intro_es, guide.intro);
   const introTableMatch = intro.match(/<table[\s\S]*?<\/table>/);
   const introTable = introTableMatch ? '<div class="guide-comp-wrap"><div class="guide-comp-controls guide-comp-controls-top">' + guideCompLeftArrow(false) + guideCompProgress() + guideCompRightArrow(false) + '</div><div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll">' + introTableMatch[0] + '</div></div></div>' : '';
