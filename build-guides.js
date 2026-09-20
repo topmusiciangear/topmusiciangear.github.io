@@ -1219,7 +1219,7 @@ function buildGuidePage(guide, lang, idx) {
 
   const renderedProducts = new Set();
   const sectionsHtml = guide.sections.map((s, si) => {
-    const h = isEs && s.heading_es ? s.heading_es : s.heading;
+    const h = isEs && (s.heading_es || s.h_es || '') ? (s.heading_es || s.h_es || '') : (s.heading || s.h || '');
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
@@ -1863,7 +1863,9 @@ function ko(strings, ...values) {
 const outDir = path.join(dir, 'guides');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
+var onlyIds = process.env.ONLY_GUIDES ? process.env.ONLY_GUIDES.split(',') : null;
 guides.forEach((guide, idx) => {
+  if (onlyIds && onlyIds.indexOf(guide.id) === -1) return;
   ['en', 'es'].forEach(lang => {
     const html = buildGuidePage(guide, lang, idx);
     const filename = lang === 'es' ? `${guide.id}_es.html` : `${guide.id}.html`;
