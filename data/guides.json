@@ -7236,9 +7236,7 @@
           15,
           328,
           18,
-          16,
           55,
-          182,
           262,
           263
         ]
@@ -7252,10 +7250,8 @@
           263,
           15,
           54,
-          16,
           53,
           55,
-          182,
           262
         ]
       }
@@ -7371,12 +7367,32 @@
         {
           "title": "SSL 2+ MKII",
           "title_es": "SSL 2+ MKII"
+        },
+        {
+          "title": "Universal Audio Volt 2",
+          "title_es": "Universal Audio Volt 2"
+        },
+        {
+          "title": "Audient EVO 4",
+          "title_es": "Audient EVO 4"
+        },
+        {
+          "title": "Universal Audio Volt 276",
+          "title_es": "Universal Audio Volt 276"
+        },
+        {
+          "title": "MOTU M2",
+          "title_es": "MOTU M2"
+        },
+        {
+          "title": "Audient iD14 MKII",
+          "title_es": "Audient iD14 MKII"
         }
       ],
       "rows": [
         {
           "label": "Best For",
-          "label_es": "Ideal Para",
+          "label_es": "Best For",
           "values": [
             {
               "value": "Pro mobile recording",
@@ -7393,12 +7409,32 @@
             {
               "value": "High-headroom recording & MIDI",
               "value_es": "Grabación con gran margen dinámico y MIDI"
+            },
+            {
+              "value": "Voz/inst con Vintage 610, streaming",
+              "value_es": "Voz/inst con Vintage 610, streaming"
+            },
+            {
+              "value": "Podcast/streaming Smartgain, loopback",
+              "value_es": "Podcast/streaming Smartgain, loopback"
+            },
+            {
+              "value": "Vocal+76 compressor, MIDI",
+              "value_es": "Vocal con compresor 76, MIDI"
+            },
+            {
+              "value": "Bajo coste alto rendimiento, ESS",
+              "value_es": "Bajo coste, gran rendimiento, ESS"
+            },
+            {
+              "value": "2 headphone, ADAT, iD scroll",
+              "value_es": "2 auriculares, ADAT, ScrollControl"
             }
           ]
         },
         {
           "label": "Type",
-          "label_es": "Tipo",
+          "label_es": "Type",
           "values": [
             {
               "value": "Audio interface",
@@ -7415,16 +7451,56 @@
             {
               "value": "Audio interface",
               "value_es": "Interfaz de audio"
+            },
+            {
+              "value": "Desktop USB-C",
+              "value_es": "Escritorio USB-C"
+            },
+            {
+              "value": "Desktop USB-C",
+              "value_es": "Escritorio USB-C"
+            },
+            {
+              "value": "Desktop USB-C",
+              "value_es": "Escritorio USB-C"
+            },
+            {
+              "value": "Desktop USB-C",
+              "value_es": "Escritorio USB-C"
+            },
+            {
+              "value": "Desktop USB-C",
+              "value_es": "Escritorio USB-C"
             }
           ]
         },
         {
           "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
+          "label_es": "Inputs / Outputs",
           "values": [
             {
               "value": "4-in / 4-out (12 total)",
               "value_es": "4 entradas / 4 salidas (12 en total)"
+            },
+            {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
+            },
+            {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
+            },
+            {
+              "value": "2-in / 4-out",
+              "value_es": "2 entradas / 4 salidas"
+            },
+            {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
+            },
+            {
+              "value": "2-in / 2-out (loopback)",
+              "value_es": "2 entradas / 2 salidas (loopback)"
             },
             {
               "value": "2-in / 2-out",
@@ -7442,7 +7518,7 @@
         },
         {
           "label": "Preamps",
-          "label_es": "Preamplificadores",
+          "label_es": "Preamps",
           "values": [
             {
               "value": "2, +65 dB",
@@ -7459,12 +7535,32 @@
             {
               "value": "2, 64 dB gain",
               "value_es": "2, 64 dB de ganancia"
+            },
+            {
+              "value": "2, +66 dB, Vintage 610 mode",
+              "value_es": "2, +66 dB, modo Vintage 610"
+            },
+            {
+              "value": "2, +58 dB, EVO preamps",
+              "value_es": "2, +58 dB, preamp EVO"
+            },
+            {
+              "value": "2, +66 dB + 76 compressor",
+              "value_es": "2, +66 dB + compresor 76"
+            },
+            {
+              "value": "2, 60 dB gain",
+              "value_es": "2, 60 dB de ganancia"
+            },
+            {
+              "value": "2, Class-A, +58 dB",
+              "value_es": "2, Clase A, +58 dB"
             }
           ]
         },
         {
           "label": "Sample Rate",
-          "label_es": "Frecuencia de Muestreo",
+          "label_es": "Sample Rate",
           "values": [
             {
               "value": "192 kHz",
@@ -7481,12 +7577,32 @@
             {
               "value": "192 kHz",
               "value_es": "192 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "96 kHz",
+              "value_es": "96 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "96 kHz",
+              "value_es": "96 kHz"
             }
           ]
         },
         {
           "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
+          "label_es": "Bit Depth",
           "values": [
             {
               "value": "24-bit",
@@ -7503,12 +7619,32 @@
             {
               "value": "32-bit float",
               "value_es": "32 bits flotante"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
             }
           ]
         },
         {
           "label": "Connectivity",
-          "label_es": "Conectividad",
+          "label_es": "Connectivity",
           "values": [
             {
               "value": "USB 2.0",
@@ -7525,12 +7661,32 @@
             {
               "value": "USB-C",
               "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C, MIDI I/O",
+              "value_es": "USB-C, MIDI I/O"
+            },
+            {
+              "value": "USB-C, loopback",
+              "value_es": "USB-C, loopback"
+            },
+            {
+              "value": "USB-C, MIDI I/O",
+              "value_es": "USB-C, MIDI I/O"
+            },
+            {
+              "value": "USB-C, MIDI I/O",
+              "value_es": "USB-C, MIDI I/O"
+            },
+            {
+              "value": "USB-C, ADAT in, loopback",
+              "value_es": "USB-C, ADAT in, loopback"
             }
           ]
         },
         {
           "label": "Special Features",
-          "label_es": "Características Especiales",
+          "label_es": "Special Features",
           "values": [
             {
               "value": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
@@ -7547,6 +7703,26 @@
             {
               "value": "Legacy 4K, loopback, MIDI, DC-coupled",
               "value_es": "Legacy 4K, loopback, MIDI, DC-coupled"
+            },
+            {
+              "value": "610 Vintage preamp, direct monitor",
+              "value_es": "Preamplificador Vintage 610, monitor directo"
+            },
+            {
+              "value": "Smartgain, SmartClick, bus power",
+              "value_es": "Smartgain, SmartClick, bus power"
+            },
+            {
+              "value": "76 (derivado 1176), Vintage, MIDI",
+              "value_es": "76 (basado en 1176), Vintage, MIDI"
+            },
+            {
+              "value": "ESS Sabre32 120dB, 1-touch",
+              "value_es": "ESS Sabre32 120dB, monitoreo 1-touch"
+            },
+            {
+              "value": "2 headphone outs, talkback, launcher",
+              "value_es": "2 salidas auriculares, talkback, lanzador"
             }
           ]
         }
@@ -7669,6 +7845,146 @@
           "La frecuencia de muestreo baja a 44.1/48kHz en la conexión móvil directa",
           "Sin puertos MIDI de 5 pines (se eliminan frente al MiniFuse 2 estándar)",
           "Las funciones de loopback son solo para Windows"
+        ]
+      },
+      {
+        "name": "Universal Audio Volt 2",
+        "name_es": "Universal Audio Volt 2",
+        "pros": [
+          "Vintage 610 tube-emulation preamp on channel 1 delivers instant classic tone",
+          "192kHz/24-bit class-leading for the price",
+          "USB-C, bus-powered, portable",
+          "Generous bundle (Ableton Live Lite, plugins) and low-latency monitoring"
+        ],
+        "pros_es": [
+          "El previo con emulación de válvula Vintage 610 en el canal 1 entrega un tono clásico al instante",
+          "192kHz/24 bits de primera clase por el precio",
+          "USB-C, alimentado por bus, portátil",
+          "Paquete generoso (Ableton Live Lite, plugins) y monitoreo de baja latencia"
+        ],
+        "cons": [
+          "Only channel 1 gets the 610 circuit — channel 2 is a plain solid-state preamp",
+          "No MIDI I/O",
+          "Fewer routing options than the EVO 4's loopback",
+          "Plastic build vs metal rivals"
+        ],
+        "cons_es": [
+          "Solo el canal 1 recibe el circuito 610 — el canal 2 es un previo de estado sólido normal",
+          "Sin MIDI I/O",
+          "Menos opciones de ruteo que el loopback del EVO 4",
+          "Construcción de plástico frente a rivales de metal"
+        ]
+      },
+      {
+        "name": "Audient EVO 4",
+        "name_es": "Audient EVO 4",
+        "pros": [
+          "Smartgain auto-sets levels in seconds — ideal for podcasters",
+          "Built-in loopback makes streaming setup painless",
+          "+58dB JFET preamps with plenty of gain for dynamic mics",
+          "Compact, bus-powered and sturdy metal shell"
+        ],
+        "pros_es": [
+          "Smartgain ajusta los niveles automáticamente en segundos — ideal para podcasters",
+          "Loopback integrado que simplifica la configuración de streaming",
+          "Previos JFET de +58dB con ganancia de sobra para micrófonos dinámicos",
+          "Compacto, alimentado por bus y con carcasa de metal resistente"
+        ],
+        "cons": [
+          "Caps at 96kHz",
+          "Less gain than the RME Babyface",
+          "Scroll knob has no numeric display",
+          "No MIDI I/O"
+        ],
+        "cons_es": [
+          "Se limita a 96kHz",
+          "Menos ganancia que la RME Babyface",
+          "El mando giratorio no tiene pantalla numérica",
+          "Sin MIDI I/O"
+        ]
+      },
+      {
+        "name": "Universal Audio Volt 276",
+        "name_es": "Universal Audio Volt 276",
+        "pros": [
+          "Built-in 1176-style compressor rides hot vocals on the way in",
+          "Vintage 610 tube preamp on both channels",
+          "MIDI I/O and 192kHz/24-bit",
+          "Compressor and tube tone you don't get elsewhere at this price"
+        ],
+        "pros_es": [
+          "Compresor integrado estilo 1176 que doma voces calientes a la entrada",
+          "Previos de válvula Vintage 610 en ambos canales",
+          "MIDI I/O y 192kHz/24 bits",
+          "Compresor y tono de válvula que no encuentras en otros a este precio"
+        ],
+        "cons": [
+          "Costs significantly more than the Volt 2",
+          "Compressor adds just one fixed flavor, not full control",
+          "No loopback for streaming",
+          "No TotalMix-style routing software"
+        ],
+        "cons_es": [
+          "Cuesta bastante más que la Volt 2",
+          "El compresor añade solo un sabor fijo, sin control completo",
+          "Sin loopback para streaming",
+          "Sin software de ruteo tipo TotalMix"
+        ]
+      },
+      {
+        "name": "MOTU M2",
+        "name_es": "MOTU M2",
+        "pros": [
+          "ESS Sabre32 converters deliver 120dB dynamic range",
+          "+60dB preamps with independent 48V and plenty of headroom",
+          "Large screen meters both channels clearly",
+          "USB-C with MIDI I/O and 192kHz/24-bit"
+        ],
+        "pros_es": [
+          "Los convertidores ESS Sabre32 entregan 120dB de rango dinámico",
+          "Previos de +60dB con 48V independiente y mucho margen",
+          "Gran pantalla que mide ambos canales con claridad",
+          "USB-C con MIDI I/O y 192kHz/24 bits"
+        ],
+        "cons": [
+          "No loopback (the M4 adds it)",
+          "No built-in compression for hot sources",
+          "Bus-powered only via USB-C (no extra power option)",
+          "2-in limit pushes you to the M4 for more inputs"
+        ],
+        "cons_es": [
+          "Sin loopback (el M4 lo añade)",
+          "Sin compresión integrada para fuentes calientes",
+          "Solo alimentación por bus vía USB-C (sin opción de fuente extra)",
+          "El límite de 2 entradas te empuja al M4 si necesitas más"
+        ]
+      },
+      {
+        "name": "Audient iD14 MKII",
+        "name_es": "Audient iD14 MKII",
+        "pros": [
+          "Two independent headphone amps with class-leading clarity",
+          "ADAT input expands to 10-in capability",
+          "iD scroll control doubles as volume and scroll wheel",
+          "Class-A preamps at 96kHz/24-bit"
+        ],
+        "pros_es": [
+          "Dos amplificadores de auriculares independientes con claridad de primer nivel",
+          "La entrada ADAT amplía la capacidad a 10 entradas",
+          "El mando iD scroll funciona como volumen y rueda de scroll",
+          "Previos Clase A a 96kHz/24 bits"
+        ],
+        "cons": [
+          "2-in only — you need the iD44 for more line inputs",
+          "No MIDI I/O",
+          "ADAT expansion requires external gear",
+          "Lacks the Volt 276's built-in compression"
+        ],
+        "cons_es": [
+          "Solo 2 entradas — necesitas la iD44 para más entradas de línea",
+          "Sin MIDI I/O",
+          "La expansión ADAT requiere equipo externo",
+          "Sin la compresión integrada de la Volt 276"
         ]
       }
     ],
@@ -75660,9 +75976,7 @@
         "h": "Flagship Desktop & Portable Premium Interfaces",
         "h_es": "Interfaces Premium de Escritorio y Portátiles",
         "products": [
-          512,
-          16,
-          182
+          512
         ],
         "intro": "Flagship conversion, DSP routings and drivers that never crash — the premium tier that outlives the music.",
         "intro_es": "Conversión insignia, ruteo DSP y drivers que nunca fallan — la gama premium que sobrevive a la música.",
@@ -75690,10 +76004,8 @@
     "verdict": "The Apollo x16 is the UAD DSP workflow pick — record through classic analog emulations in real time. The Fireface UFX III is rock-solid reliability with routing and drivers that never let you down. Studios with UAD hardware go Apollo; engineers who need absolute stability go RME.",
     "verdict_es": "El Apollo x16 es la opción para el flujo de trabajo UAD DSP — graba a través de emulaciones analógicas clásicas en tiempo real. El Fireface UFX III es fiabilidad a prueba de todo con enrutamiento y drivers que nunca te fallan. Los estudios con hardware UAD van por Apollo; los ingenieros que necesitan estabilidad absoluta van por RME.",
     "featuredProducts": [
-      182,
       183,
       512,
-      16,
       513,
       514,
       515,
@@ -75795,36 +76107,6 @@
     "faqImage": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
     "verdictProsCons": [
       {
-        "name": "Universal Audio Apollo x16 Gen 2",
-        "name_es": "Universal Audio Apollo x16 Gen 2",
-        "pros": [
-          "HEXA Core UAD DSP with 6 SHARC+ processors enables massive real-time plugin processing",
-          "Unison preamp technology — authentic emulations of Neve, API, SSL and more",
-          "167dB dynamic range conversion — among the best in any interface",
-          "Thunderbolt 3 connectivity provides ultra-low latency performance",
-          "Dual-monitor support with integrated talkback"
-        ],
-        "pros_es": [
-          "HEXA Core UAD DSP con 6 procesadores SHARC+ permite procesamiento masivo en tiempo real",
-          "Tecnología de previo Unison — emulaciones auténticas de Neve, API, SSL y más",
-          "Rango dinámico de 167dB — entre los mejores de cualquier interfaz",
-          "Conectividad Thunderbolt 3 proporciona rendimiento de latencia ultra baja",
-          "Soporte para monitores duales con talkback integrado"
-        ],
-        "cons": [
-          "Requires UAD-2 plugins for DSP acceleration — an additional cost",
-          "Thunderbolt 3 limits compatibility with older computers",
-          "No onboard standalone recording without a computer connected",
-          "Higher price than the RME while offering fewer I/O channels"
-        ],
-        "cons_es": [
-          "Requiere plugins UAD-2 para aceleración DSP — un costo adicional",
-          "Thunderbolt 3 limita la compatibilidad con ordenadores antiguas",
-          "No tiene grabación independiente sin ordenador conectada",
-          "Precio más alto que el RME ofreciendo menos canales I/O"
-        ]
-      },
-      {
         "name": "RME Fireface UFX III",
         "name_es": "RME Fireface UFX III",
         "pros": [
@@ -75852,32 +76134,6 @@
           "Sin tecnología de modelado de previo estilo Unison",
           "USB 3.0 no iguala el techo de ancho de banda teórico de Thunderbolt 3",
           "Los efectos integrados son básicos comparados con la biblioteca premium de UAD"
-        ]
-      },
-      {
-        "name": "Universal Audio Apollo Twin X Gen 2",
-        "name_es": "Universal Audio Apollo Twin X Gen 2",
-        "pros": [
-          "Elite-class 10x6 Thunderbolt 3 interface for Mac and Windows",
-          "UAD-2 DUO Core DSP with real-time UAD plugin processing",
-          "Two Unison preamps with Auto-Gain for vintage-style tracking",
-          "24-bit/192kHz conversion for near-zero-latency tracking"
-        ],
-        "pros_es": [
-          "Interfaz de élite 10x6 Thunderbolt 3 para Mac y Windows",
-          "Procesamiento UAD-2 DUO Core con plugins UAD en tiempo real",
-          "Dos preamplificadores Unison con Auto-Gain para grabar con estilo vintage",
-          "Conversión de 24-bit/192kHz para grabar con latencia casi nula"
-        ],
-        "cons": [
-          "Fewer channels than the Apollo x16 — 10x6 caps larger tracking sessions",
-          "Thunderbolt 3 limits compatibility with older computers",
-          "Full DSP potential depends on the UAD plugin ecosystem"
-        ],
-        "cons_es": [
-          "Menos canales que el Apollo x16 — 10x6 limita sesiones de grabación más grandes",
-          "Thunderbolt 3 limita la compatibilidad con ordenadores antiguas",
-          "El potencial DSP completo depende del ecosistema de plugins UAD"
         ]
       }
     ],
@@ -76001,6 +76257,7 @@
         "Music Gear"
       ]
     },
-    "datePublished": "2026-08-19"
+    "datePublished": "2026-08-19",
+    "featuredSections": []
   }
 ]

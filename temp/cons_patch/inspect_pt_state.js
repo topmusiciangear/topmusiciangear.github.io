@@ -1,0 +1,17 @@
+const fs=require('fs');const R='C:/Users/Daniel/projects/topmusiciangear';
+const d=require(R+'/temp/cons_patch/pt5_data.js');
+console.log('pt5_data keys='+JSON.stringify(Object.keys(d)));
+console.log('names='+JSON.stringify(d.names));
+console.log('bestFor[0..4]='+JSON.stringify(d.bestFor));
+console.log('c1 URL link sample? '+JSON.stringify('zzounds' in d));
+const jg=JSON.parse(fs.readFileSync(R+'/data/guides.json','utf8'));
+const GS=Array.isArray(jg)?jg:(jg.guides||[]);
+const g=GS.find(x=>x&&x.id==='portable-interfaces');
+console.log('\nproductTable cols n='+(g.productTable&&g.productTable.columns?g.productTable.columns.length:0)+' | rows n='+(g.productTable&&g.productTable.rows?g.productTable.rows.length:0));
+console.log('cols titles='+JSON.stringify((g.productTable.columns||[]).map(c=>c.title)));
+console.log('rows labels='+JSON.stringify((g.productTable.rows||[]).map(r=>r.label)));
+console.log('row[0] labels values n='+((g.productTable.rows[0]||{}).values||[]).length);
+console.log('verdictProsCons n='+(g.verdictProsCons||[]).length+' names='+JSON.stringify((g.verdictProsCons||[]).map(v=>v.name)));
+console.log('featuredProducts='+JSON.stringify(g.featuredProducts));
+console.log('featuredSections n='+(Array.isArray(g.featuredSections)?g.featuredSections.length:'?')+(Array.isArray(g.featuredSections)?(' | prods='+JSON.stringify(g.featuredSections.map(f=>f&&f.products))):''));
+console.log('sections products='+JSON.stringify((g.sections||[]).map(s=>s&&s.products)));

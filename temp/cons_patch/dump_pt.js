@@ -1,0 +1,13 @@
+const fs=require('fs');
+const R='C:/Users/Daniel/projects/topmusiciangear/data';
+const jg=JSON.parse(fs.readFileSync(R+'/guides.json','utf8'));
+const GS=Array.isArray(jg)?jg:(jg.guides||[]);
+const g=GS.find(x=>x&&x.id==='portable-interfaces');
+console.log('=== portable productTable ===');
+console.log('keys='+JSON.stringify(Object.keys(g.productTable)));
+console.log('rows n='+(g.productTable.rows||[]).length);
+(g.productTable.rows||[]).forEach((r,i)=>{console.log('  row['+i+'] '+JSON.stringify(r).slice(0,500));});
+console.log('columns n='+(g.productTable.columns||[]).length);
+console.log('columns='+JSON.stringify(g.productTable.columns));
+console.log('\n=== portable sections products (9) ===');
+(g.sections||[]).forEach((s,i)=>{console.log('  sec['+i+'] products='+JSON.stringify(s.products));});
