@@ -1,0 +1,24 @@
+--- pro-monitors ---
+row0 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Year","label_es":"Año","val1":"2022","val2":"2019","val1_es":"2022","val2_es":"2019"}
+row1 keys=label,label_es,val1,val2 | {"label":"Design","label_es":"Diseño","val1":"3-way horizontal MTM","val2":"3-way with switchable Focus mode"}
+row2 keys=label,label_es,val1,val2 | {"label":"Mid Driver","label_es":"Driver Medio","val1":"4\" DCH (Dome/Cone Hybrid)","val2":"5\" (shared)"}
+row3 keys=label,label_es,val1,val2 | {"label":"Tweeter","label_es":"Tweeter","val1":"S-ART folded ribbon","val2":"1\" (27mm) pure beryllium inverted dome"}
+row4 keys=label,label_es,val1,val2 | {"label":"Woofer","label_es":"Woofer","val1":"Dual 7\" HexaCone","val2":"10\" (250mm)"}
+row5 keys=label,label_es,val1,val2 | {"label":"Amplifier Power","label_es":"Potencia del Amplificador","val1":"1350W peak (350W + 250W × 4)","val2":"450W (250W + 100W + 100W)"}
+row6 keys=label,label_es,val1,val2 | {"label":"DSP Room Correction","label_es":"Corrección DSP de Sala","val1":"6-band PEQ per channel","val2":"None"}
+row7 keys=label,label_es,val1,val2 | {"label":"Frequency Response","label_es":"Respuesta en Frecuencia","val1":"30Hz – 50kHz","val2":"30Hz – 40kHz"}
+row8 keys=label,label_es,val1,val2 | {"label":"Max SPL","label_es":"SPL Máximo","val1":"126dB peak","val2":"119dB peak"}
+row9 keys=label,label_es,val1,val2 | {"label":"Dimensions (H×W×D)","label_es":"Dimensiones (Al×An×Pr)","val1":"652×492×377mm","val2":"564×356×450mm"}
+row10 keys=label,label_es,val1,val2 | {"label":"Weight","label_es":"Peso","val1":"26.6 kg each","val2":"25 kg each"}
+--- pro-drum-machines ---
+row0 keys=label,label_es,val1,val2 | {"label":"Year","label_es":"Año","val1":"2024","val2":"2025"}
+row1 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Type","label_es":"Tipo","val1":"Drum computer/sampler","val2":"Standalone production station","val1_es":"Máquina de ritmos/sampler","val2_es":"Estación de producción standalone"}
+row2 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Audio Tracks","label_es":"Pistas de Audio","val1":"8","val2":"Up to 128","val1_es":"8","val2_es":"Hasta 128"}
+row3 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"MIDI Tracks","label_es":"Pistas MIDI","val1":"8","val2":"Up to 32 devices","val1_es":"8","val2_es":"Hasta 32 dispositivos"}
+row4 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Sequencer Type","label_es":"Tipo de Secuenciador","val1":"Elektron step sequencer","val2":"MPC pattern/grid","val1_es":"Secuenciador por pasos Elektron","val2_es":"Patrón/grid MPC"}
+row5 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Sampling Rate","label_es":"Tasa de Sampling","val1":"48kHz/24-bit","val2":"96kHz/24-bit","val1_es":"48kHz/24-bit","val2_es":"96kHz/24-bit"}
+row6 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Processor","label_es":"Procesador","val1":"ARM Cortex","val2":"8-core","val1_es":"ARM Cortex","val2_es":"8 núcleos"}
+row7 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Internal Storage","label_es":"Almacenamiento Interno","val1":"None (CFast card)","val2":"128 GB + expandable","val1_es":"Ninguno (tarjeta CFast)","val2_es":"128 GB + expandible"}
+row8 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Battery","label_es":"Batería","val1":"No","val2":"Yes (4 hours)","val1_es":"No","val2_es":"Sí (4 horas)"}
+row9 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Built-in Speakers","label_es":"Altavoces Integrados","val1":"No","val2":"Yes (stereo)","val1_es":"No","val2_es":"Sí (estéreo)"}
+row10 keys=label,label_es,val1,val2,val1_es,val2_es | {"label":"Computer Required","label_es":"Requiere Ordenador","val1":"No (for core use)","val2":"No","val1_es":"No (para uso básico)","val2_es":"No"}

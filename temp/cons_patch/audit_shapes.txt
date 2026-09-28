@@ -1,0 +1,11 @@
+GUIDES=152
+PRODUCTS type=array n=440
+PROD_KEYS=id,title,title_es,brand,category,price,rating,reviews,badge,desc,desc_es,img,stores,oos
+PROD_SAMPLE={"id":1,"title":"Shure SM7B","title_es":"Shure SM7B","brand":"Shure","category":"microphones","price":399,"rating":4.8,"reviews":18453,"badge":"legend","desc":"The industry-standard dynamic microphone for broadcast, podcasting, and vocal recording. Warm, smooth sound with excellent rejection.","desc_es":"El micrófono dinámico estándar de la industria para radio, podcasting y grabación de voz. Soni
+GUIDE0_KEYS=id,title,title_es,titleTag,titleTag_es,category,image,badge,intro,intro_es,sections,conclusion,conclusion_es,verdict,verdict_es,featuredProducts,relatedGuides,description,featuredSnippet,description_es,author,aboutName,productTable,verdictProsCons,datePublished
+TABLE_KEYS=title,title_es,columns,rows
+COL0_KEYS=title,title_es
+VPC_TYPE=array(8)
+VPC0={"name":"Focusrite Scarlett 2i2 4th Gen","name_es":"Focusrite Scarlett 2i2 4th Gen","pros":["120dB dynamic range with studio-grade conversion","Air mode adds a high-frequency lift inspired by vintage Neve consoles","Loopback routing built in for streaming and podcasting","The best-selling interface in its class, with clean preamps and a tough chassis"],"cons":["Only 2 inputs — a drummer or a band tracking live needs eight or more","Clean and neutral — without the analog character of the SSL 2+ M
+FEAT0=[15,5,25,20]
+COVERAGE={"table":88,"vpc":152,"feat":131,"comp":61,"faq":18,"fsn":149}

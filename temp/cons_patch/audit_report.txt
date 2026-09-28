@@ -1,0 +1,179 @@
+TOTAL FLAGS: 176
+BY KIND: {"TIER":4,"VS-MATCH":3,"TABLE-TC":95,"PRICE":2,"CMP":39,"PC-BOILER":4,"FAQ-DUP":29}
+
+starter-studio [TIER] cap $1 but prices 199,99,169,269
+rme-vs-motu [VS-MATCH] side "Entry-Level" key(Entry-Level) not in products
+rme-vs-motu [VS-MATCH] side "Premium Audio Interface: Is It Worth Pay" key(Premium/Audio/Worth) not in products
+budget-pa-systems [TIER] budget-title but max catalog price $1232
+budget-pa-systems [TIER] cap $600 but prices 1232
+precision-vs-jazz [VS-MATCH] side "P-Bass" key(P-Bass) not in products
+budget-usb-mics [TIER] cap $100 but prices 103
+starter-studio [TABLE-TC] label_es TitleCase: Ideal Para
+best-interface [TABLE-TC] label_es TitleCase: Ideal Para
+best-interface [TABLE-TC] label_es TitleCase: Frecuencia de Muestreo
+best-interface [TABLE-TC] label_es TitleCase: Características Especiales
+best-headphones [TABLE-TC] label_es TitleCase: Ideal Para
+best-microphone [TABLE-TC] label_es TitleCase: Ideal Para
+best-monitors [TABLE-TC] label_es TitleCase: Ideal Para
+best-plugins [TABLE-TC] label_es TitleCase: Ideal Para
+budget-mics [TABLE-TC] label_es TitleCase: Ideal Para
+usb-mics [TABLE-TC] label_es TitleCase: Ideal Para
+usb-mics [TABLE-TC] label_es TitleCase: Rango Dinámico
+stage-mics [TABLE-TC] label_es TitleCase: Ideal Para
+stage-mics [TABLE-TC] label_es TitleCase: Rango Dinámico
+open-headphones [TABLE-TC] label_es TitleCase: Ideal Para
+budget-headphones [TABLE-TC] label_es TitleCase: Ideal Para
+tracking-headphones [TABLE-TC] label_es TitleCase: Ideal Para
+budget-monitors [TABLE-TC] label_es TitleCase: Ideal Para
+monitor-setup [TABLE-TC] label_es TitleCase: Ideal Para
+mixing-plugins [TABLE-TC] label_es TitleCase: Ideal Para
+fx-plugins [TABLE-TC] label_es TitleCase: Ideal Para
+midi-controllers [TABLE-TC] label_es TitleCase: Ideal Para
+studio-furniture [TABLE-TC] label_es TitleCase: Ideal Para
+best-condenser-mics [TABLE-TC] label_es TitleCase: Ideal Para
+best-condenser-mics [TABLE-TC] label_es TitleCase: Rango Dinámico
+studio-subwoofers [TABLE-TC] label_es TitleCase: Ideal Para
+channel-strip-plugins [TABLE-TC] label_es TitleCase: Ideal Para
+fender-guide [TABLE-TC] label_es TitleCase: Ideal Para
+guitar-bass-amps [TABLE-TC] label_es TitleCase: Ideal Para
+stage-wireless [TABLE-TC] label_es TitleCase: Ideal Para
+guitar-pedals [TABLE-TC] label_es TitleCase: Ideal Para
+acoustic-guitars-guide [TABLE-TC] label_es TitleCase: Ideal Para
+live-sound-pa [TABLE-TC] label_es TitleCase: Ideal Para
+daw-guide [TABLE-TC] label_es TitleCase: Ideal Para
+midi-keyboards [TABLE-TC] label_es TitleCase: Ideal Para
+budget-interfaces [TABLE-TC] label_es TitleCase: Ideal Para
+budget-interfaces [TABLE-TC] label_es TitleCase: Frecuencia de Muestreo
+budget-interfaces [TABLE-TC] label_es TitleCase: Características Especiales
+vocal-plugins [TABLE-TC] label_es TitleCase: Ideal Para
+beginner-guitar [TABLE-TC] label_es TitleCase: Ideal Para
+best-electric-guitar [TABLE-TC] label_es TitleCase: Ideal Para
+best-drum-machine [TABLE-TC] label_es TitleCase: Ideal Para
+best-guitar-home-office [TABLE-TC] label_es TitleCase: Ideal Para
+best-mic-for-guitar-amps [TABLE-TC] label_es TitleCase: Ideal Para
+best-mic-for-guitar-amps [TABLE-TC] label_es TitleCase: Rango Dinámico
+best-mic-for-podcasting [TABLE-TC] label_es TitleCase: Ideal Para
+best-mic-for-podcasting [TABLE-TC] label_es TitleCase: Rango Dinámico
+best-daw-for-beginners [TABLE-TC] label_es TitleCase: Ideal Para
+best-headphones-for-mixing [TABLE-TC] label_es TitleCase: Ideal Para
+best-monitors-for-small-rooms [TABLE-TC] label_es TitleCase: Ideal Para
+best-beginner-electric-guitar [TABLE-TC] label_es TitleCase: Ideal Para
+best-beginner-electric-guitar [PRICE] table $219 vs catalog $199 (Epiphone LP Special-II E1)
+best-samplers-drum-computers [TABLE-TC] label_es TitleCase: Ideal Para
+best-grooveboxes [TABLE-TC] label_es TitleCase: Ideal Para
+best-practice-amps [TABLE-TC] label_es TitleCase: Ideal Para
+best-bass-amps [TABLE-TC] label_es TitleCase: Ideal Para
+best-overdrive-distortion [TABLE-TC] label_es TitleCase: Ideal Para
+best-reverb-delay [TABLE-TC] label_es TitleCase: Ideal Para
+best-live-sound-mixers [TABLE-TC] label_es TitleCase: Ideal Para
+best-pa-speakers [TABLE-TC] label_es TitleCase: Ideal Para
+best-digital-pianos [TABLE-TC] label_es TitleCase: Ideal Para
+best-synthesizers [TABLE-TC] label_es TitleCase: Ideal Para
+best-digital-mixers [TABLE-TC] label_es TitleCase: Ideal Para
+best-analog-mixers [TABLE-TC] label_es TitleCase: Ideal Para
+best-compact-mixers [TABLE-TC] label_es TitleCase: Ideal Para
+budget-pa-systems [TABLE-TC] label_es TitleCase: Ideal Para
+fender-bass-guide [TABLE-TC] label_es TitleCase: Ideal Para
+active-vs-passive-pa [TABLE-TC] label_es TitleCase: Ideal Para
+budget-bass-like-expensive [TABLE-TC] label_es TitleCase: Ideal Para
+beginner-bass-guitars [TABLE-TC] label_es TitleCase: Ideal Para
+pro-headphones [CMP] row[3] Frequency Response missing _es (EN+ES rule)
+pro-headphones [CMP] row[4] Impedance missing _es (EN+ES rule)
+pro-headphones [CMP] row[5] Sensitivity missing _es (EN+ES rule)
+pro-headphones [CMP] row[6] Weight missing _es (EN+ES rule)
+pro-microphones [CMP] row[4] Frequency Response missing _es (EN+ES rule)
+pro-microphones [CMP] row[5] Self-Noise missing _es (EN+ES rule)
+pro-monitors [CMP] row[1] Design missing _es (EN+ES rule)
+pro-monitors [CMP] row[2] Mid Driver missing _es (EN+ES rule)
+pro-monitors [CMP] row[3] Tweeter missing _es (EN+ES rule)
+pro-monitors [CMP] row[4] Woofer missing _es (EN+ES rule)
+pro-monitors [CMP] row[5] Amplifier Power missing _es (EN+ES rule)
+pro-monitors [CMP] row[6] DSP Room Correction missing _es (EN+ES rule)
+pro-monitors [CMP] row[7] Frequency Response missing _es (EN+ES rule)
+pro-monitors [CMP] row[8] Max SPL missing _es (EN+ES rule)
+pro-monitors [CMP] row[9] Dimensions (H×W×D) missing _es (EN+ES rule)
+pro-monitors [CMP] row[10] Weight missing _es (EN+ES rule)
+pro-interfaces [CMP] row[2] Connectivity missing _es (EN+ES rule)
+pro-interfaces [CMP] row[3] Dynamic Range (D/A) missing _es (EN+ES rule)
+pro-interfaces [CMP] row[7] Sample Rate missing _es (EN+ES rule)
+pro-guitars [CMP] row[7] Weight missing _es (EN+ES rule)
+pro-basses [CMP] row[7] Weight missing _es (EN+ES rule)
+pro-synths [CMP] row[5] LFOs missing _es (EN+ES rule)
+pro-synths [CMP] row[6] Envelopes missing _es (EN+ES rule)
+pro-synths [CMP] row[8] Keyboard missing _es (EN+ES rule)
+pro-drum-machines [CMP] row[0] Year missing _es (EN+ES rule)
+pro-live-sound [CMP] row[0] Year missing _es (EN+ES rule)
+pro-mixers [CMP] row[0] Year missing _es (EN+ES rule)
+beat-making [TABLE-TC] label_es TitleCase: Ideal Para
+best-looper-pedals [TABLE-TC] label_es TitleCase: Ideal Para
+best-multi-effects-pedals [TABLE-TC] label_es TitleCase: Ideal Para
+best-instrument-mics [TABLE-TC] label_es TitleCase: Ideal Para
+best-instrument-mics [TABLE-TC] label_es TitleCase: Rango Dinámico
+stage-wedges [TABLE-TC] label_es TitleCase: Ideal Para
+nx912-vs-pxm12mp [TABLE-TC] label_es TitleCase: Ideal Para
+best-live-subwoofers [TABLE-TC] label_es TitleCase: Ideal Para
+stream-controllers [TABLE-TC] label_es TitleCase: Ideal Para
+streaming-interfaces [TABLE-TC] label_es TitleCase: Ideal Para
+wireless-lapel-mics [TABLE-TC] label_es TitleCase: Ideal Para
+mics-for-creators [TABLE-TC] label_es TitleCase: Ideal Para
+best-hardware-samplers [TABLE-TC] label_es TitleCase: Ideal Para
+best-amp-modelers [TABLE-TC] label_es TitleCase: Ideal Para
+budget-usb-mics [TABLE-TC] label_es TitleCase: Ideal Para
+best-electric-guitars-2026 [TABLE-TC] label_es TitleCase: Ideal Para
+best-acoustic-guitars-for-beginners [TABLE-TC] label_es TitleCase: Ideal Para
+best-shotgun-mics [TABLE-TC] label_es TitleCase: Ideal Para
+best-wireless-iems [TABLE-TC] label_es TitleCase: Ideal Para
+best-parlor-guitars [TABLE-TC] label_es TitleCase: Ideal Para
+best-ribbon-mics [TABLE-TC] label_es TitleCase: Ideal Para
+best-ribbon-mics [PRICE] table $399 vs catalog $1499 (sE Voodoo VR2)
+ai-tools-plugins [CMP] row[0] Type val1 empty
+ai-tools-plugins [CMP] row[1] AI Features val1 empty
+ai-tools-plugins [CMP] row[2] Tracks val1 empty
+ai-tools-plugins [CMP] row[3] Best For val1 empty
+sidechain-modulation-plugins [CMP] row[0] Type val1 empty
+sidechain-modulation-plugins [CMP] row[1] Modulation val1 empty
+sidechain-modulation-plugins [CMP] row[2] Tracks val1 empty
+sidechain-modulation-plugins [CMP] row[3] Best For val1 empty
+beatmaker-plugins [CMP] row[0] Type val1 empty
+beatmaker-plugins [CMP] row[1] Main Use val1 empty
+beatmaker-plugins [CMP] row[2] Tracks val1 empty
+beatmaker-plugins [CMP] row[3] Best For val1 empty
+best-32-channel-digital-mixers [TABLE-TC] label_es TitleCase: Ideal Para
+best-32-channel-digital-mixers [TABLE-TC] label_es TitleCase: Frecuencia de Muestreo / Latencia
+best-in-ear-monitors [TABLE-TC] label_es TitleCase: Ideal Para
+di-box [TABLE-TC] label_es TitleCase: Ideal Para
+wireless-intercom-systems [TABLE-TC] label_es TitleCase: Ideal Para
+premium-interfaces [TABLE-TC] label_es TitleCase: Ideal Para
+GLOBAL [PC-BOILER] "no electronics for amplified playing..." reused x5 in fender-guide,acoustic-guitars-guide,best-acoustic-guitars-for-beginners
+GLOBAL [PC-BOILER] "no motorized faders or digital scene recall..." reused x4 in live-sound-pa,best-live-sound-mixers,best-digital-mixers,best-compact-mixers
+GLOBAL [PC-BOILER] "passive circuit lacks the onboard eq of active basses..." reused x4 in budget-bass-like-expensive,pro-basses
+GLOBAL [PC-BOILER] "premium us-made price..." reused x5 in budget-bass-like-expensive,pro-guitars,pro-basses
+pro-headphones [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-headphones [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-microphones [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-microphones [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-monitors [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-monitors [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-interfaces [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-interfaces [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-guitars [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-guitars [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-basses [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-basses [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-synths [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-synths [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-drum-machines [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-drum-machines [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-plugins [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-plugins [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-live-sound [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-live-sound [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-mixers [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-mixers [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-daw [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-daw [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+stage-wedges [FAQ-DUP] fsn_en3 ~ faq_en3 (j=0.67)
+j48-vs-rndi [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+j48-vs-rndi [FAQ-DUP] fsn_en2 ~ faq_en1 (j=1.00)
+premium-interfaces [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+premium-interfaces [FAQ-DUP] fsn_es1 ~ faq_es0 (j=0.72)

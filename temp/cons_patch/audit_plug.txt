@@ -1,0 +1,6 @@
+KEYS=id,title,title_es,titleTag,titleTag_es,category,image,badge,intro,intro_es,sections,conclusion,conclusion_es,verdict,verdict_es,featuredProducts,relatedGuides,description,description_es,author,aboutName,featuredSnippet,datePublished,verdictProsCons,comparison
+TITLE=Best AI Tools for Music Production || Mejores herramientas IA para producción musical
+CMPKEYS=headers,rows
+CMP_EXTRA={"headers":["Sonible smart:EQ 4","iZotope Neutron 5","Mastering The Mix MIXVAULT","Sonible smart:limit","iZotope Trash"],"rows":[{"label":"Type","val":"Smart EQ","val2":"Mixing Suite","val3":"Immersive 3D EQ","val4":"Smart Limiter","val5":"Distortion & Saturation","label_es":"Tipo","val_es":"EQ Inteligente","val2_es":"Suite de Mezcla","val3_es":"EQ 3D Inmersivo","val4_es":"Limitador Inteligente","val5_es":"Distorsión y Saturación"},{"label":"AI Features","val":"Spectral balancing, multi-track masking detection","val2":"Mix Assistant, Unmask, module suggestions","val3":"Reference track tonal matching","val4":"Real-time loudness adaptation","val5":"None — waveshaping-based","label_es":"Funciones IA","val_es":"Balance espectral, detección de enmascaramiento multitrack","val2_es":"Asistente de
+FEAT=[383,381,385,384,386]
+TABLECOLS=[]

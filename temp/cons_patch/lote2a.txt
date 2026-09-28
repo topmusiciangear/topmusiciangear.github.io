@@ -1,0 +1,51 @@
+== best-monitors
+TYPEROW=["2-way powered","2-way powered","2-way powered","2-way powered","2-way powered","2-way powered","3-way powered","2-way powered"]
+COLS=["JBL 305P MkII","Kali Audio LP-6 V2","KRK Rokit 7 G5","Yamaha HS8","Adam Audio A7V","Kali Audio IN-8 V2","Genelec 8010A","Neumann KH 80 DSP"]
+== open-headphones
+ROW[Sensitivity]=["105 dB","97 dB","97 dB","118 dB","96 dB","103 dB","94 dB","112 dB"]
+ROW[Cable]=["Detachable (2 included)","Detachable (single-sided)","Detachable (dual-sided)","Detachable (coiled & straight)","Detachable (single-sided)","Detachable (single-sided)","Detachable (single-sided)","Detachable (single-sided)"]
+== pro-interfaces
+CTX=al level, conversion quality and driver stability are paramount.</strong> The Universal Audio Apollo x16 Gen 2 delivers 167dB dynamic range conversion with HEXA Core UAD DSP processing. The Unison pre
+== premium-interfaces
+167dB CTX=tle_en":"Premium Interfaces Compared: 6 Flagship Picks","text_en":"The UA Apollo x16 Gen 2 delivers 167dB conversion with HEXA Core UAD DSP. The RME Fireface UF
+x16 Gen 2 CTX=aturedSnippet":{"title_en":"Premium Interfaces Compared: 6 Flagship Picks","text_en":"The UA Apollo x16 Gen 2 delivers 167dB conversion with HEXA Core UAD DSP. 
+== rme-vs-motu
+VPC={"name":"RME Babyface Pro FS","name_es":"RME Babyface Pro FS","pros":["TotalMix FX routing matrix with 8 stereo submixes EQ dynamics reverb","SteadyClock FS jitter suppression regardless of clock source","Class-compliant USB no drivers needed on any OS","32-sample buffer stable on modest hardware","DSP reverb zero-latency headphone monitoring"],"pros_es":["TotalMix FX con matriz de routing, 8 submezclas estéreo, EQ, dinámica y reverb","SteadyClock FS suprime el jitter sin importar la fuente de reloj","USB class-compliant sin necesidad de drivers en cualquier sistema operativo","Buffer de 32 muestras estable incluso en hardware modesto","Reverb DSP para monitoreo de auriculares con latencia cero"],"cons":["Breakout cable for I/O bulky and fragile","No DSP for third-party plugin emulations","Requires an external power supply — the USB connection alone does not power it","TotalMix FX has a steep learning curve before you can route signals without the manual"],"cons_es":["El cable de expansión para E/S es frágil y voluminoso","Sin DSP para emulaciones de plugins de terceros","Requiere una fuente de alimentación externa — la conexión USB por sí sola no lo alimenta","TotalMix FX tiene una curva de aprendizaje pronunciada antes de poder enrutar señales sin el manual"]}
+== apollo-vs-babyface
+VPC={"name":"Universal Audio Apollo Twin X Gen 2","name_es":"Universal Audio Apollo Twin X Gen 2","pros":["Onboard UAD-2 DSP lets you run UAD powered plugins with near-zero latency during tracking before signal reaches DAW","Unison preamp technology rewires input impedance and gain staging to match hardware being emulated","Realtime Console provides full software mixer with channel strip per-input and dual headphone outputs with separate mixes","Built-in talkback microphone on front panel communicates with talent through cue mix without external mic","Thunderbolt 3 delivers ultra-low round-trip latency under 2ms at 96kHz with DSP active"],"pros_es":["DSP UAD-2 permite ejecutar plugins UAD con la
+== katana-vs-dsl
+twelve amp :: atana 50 Gen 3 is the most popular modeling amp ever made.</strong> It delivers twelve amp characters covering clean, crunch, lead, brown, acoustic and more. Th
+100W/50W :: ectos Boss cargables vía Tone Studio sin pedales externos","Control de potencia 100W/50W/0.5W que permite practicar en casa a volumen útil sin atenuador","Graba
+5-inch :: rs","Speaker emulated out sounds boxy compared to miked cabinet for recording","5-inch speaker in 50-watt version lacks low-end weight of DSL 12-inch Celestion"
+1x12 :: 2_es":"40W (conmutable a 20W)"},{"label":"Speaker","label_es":"Altavoz","val1":"1x12\" custom Boss","val2":"1x12\" Celestion V-Type","val1_es":"1x12\" Boss pers
+== blues-junior-vs-ac30
+Jensen :: e?","content":"<p><strong>The Blues Junior IV at 15 watts with a single 12-inch Jensen speaker delivers that classic Fender clean tone at manageable volumes.</s
+40-watt :: incorporada proporciona el ambiente surf y blues auténtico de Fender"],"cons":["40-watt output too loud for home practice without attenuation below apartment-fr
+40W :: or","30-watt class AB delivers power tube compression earlier than Blues Junior 40W for breakup"],"pros_es":["El brillo icónico y la chispa de agudos del canal 
+15-watt :: g1":4.7,"rating2":4.8,"faq_q1_en":"I play blues at home and small gigs — is the 15-watt Fender enough or do I need the 30-watt Vox to actually be heard with a d
+15W :: _en":"Buy the Blues Junior IV for classic Fender tube tone in a light, portable 15W combo — perfect for home, recording and small gigs, with that warm clean and
+== guitar-pedals
+BYPASS=["True bypass","True bypass","True bypass","True bypass","True bypass","True bypass","True bypass"]
+== best-overdrive-distortion
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+BYPASS=["True bypass","True bypass","True bypass"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+COLS=["Ibanez TS9 Tube Screamer","Boss BD-2 Blues Driver","ProCo RAT 2"]
+== stream-deck-plus-xl-vs-razer
+36 physical ::  streamers and creators, but they play the game very differently. One gives you 36 physical LCD keys plus six dials in the deepest plugin ecosystem on the marke
+8x4 :: "<p><strong>The Stream Deck + XL gives you 36 fully customizable LCD keys in an 8x4 grid, a row of six tactile dials and a touch strip — your whole production f
+six tactile :: ls, the Elgato Stream Deck + XL wins.</strong> Thirty-six physical LCD keys and six tactile dials with the deepest plugin library in the industry make it the mo
+dials :: hey play the game very differently. One gives you 36 physical LCD keys plus six dials in the deepest plugin ecosystem on the market; the other puts 12 haptic to
+== rodecaster-pro2-vs-dlz-creator
+faders ::  you want a big 10.1-inch touchscreen to walk you through every step, nine real faders, and a second PC over NDI. No wrong answer — just the right one for how y
+NDI :: chscreen to walk you through every step, nine real faders, and a second PC over NDI. No wrong answer — just the right one for how you think about failure.</p>",
+== best-live-sound-mixers
+ROW[Channels]=["10 (6 mic)","10 (6 mono + 2 stereo)","32 (32 mic preamps)","48 total (32 mono)","16 (8 mono + 4 stereo)"]
+ROW[Preamps]=["6 D-PRE","8 x Ultra-HDDA","32 MIDAS","32 A&H","16 HiVolt (Greg Mackie & Peter Watts design)"]
+ROW[Weight]=["4.6 lb (2.1 kg)","4.3 kg (9.5 lb)","4.4 kg (9.7 lb)","30.9 lb (14 kg)","~20 lb (9 kg)"]
+COLS=["Yamaha MG10XU","Tascam Model 12","Behringer X32 Compact","Allen & Heath SQ-5","Korg MW-1608"]

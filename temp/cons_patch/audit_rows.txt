@@ -1,0 +1,7 @@
+GUIDE=starter-studio
+TABLE_TITLE=Starter Studio Gear Compared in This Guide
+NCOLS=8 NROWS=2
+ROW0={"label":"Best For","label_es":"Ideal Para","values":[{"value":"Best all-around entry interface","value_es":"La mejor interfaz de entrada versátil"},{"value":"Guitar amps & vocals","value_es":"Amplificadores de guitarra y voces"},{"value":"Portable production & tracking","value_es":"Producción portátil y grabación"},{"value":"Punchy rock & hip-hop mixing","value_es":"Mezcla con punch para rock y hip-hop"},{"value":"British console character & MIDI","value_es":"Carácter de consola británica y MIDI"},{"value":"Cleanest studio vocals","value_es":"Las voces de estudio más limpias"},{"value":"Budge
+ROW1={"label":"Type","label_es":"Tipo","values":[{"value":"Audio interface","value_es":"Interfaz de audio"},{"value":"Dynamic microphone","value_es":"Micrófono dinámico"},{"value":"Closed-back","value_es":"Cerrados"},{"value":"2-way powered","value_es":"Biamplificado de 2 vías"},{"value":"Audio interface","value_es":"Interfaz de audio"},{"value":"Condenser (LDC)","value_es":"Micrófono condensador (LDC)"},{"value":"Closed-back","value_es":"Cerrados"},{"value":"2-way powered","value_es":"Biamplificado de 2 vías"}]}
+COLS=["Focusrite Scarlett 2i2 4th Gen","Shure SM57","Audio-Technica ATH-M50x","KRK Rokit 7 G5","SSL 2+ MKII","Rode NT1 5th Generation","Sony MDR-7506","Yamaha HS8"]
+CMP_ROW0={"label":"Year","label_es":"Año","val1":"2020","val2":"2020","val1_es":"2020","val2_es":"2020"}
