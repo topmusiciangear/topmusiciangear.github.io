@@ -1,0 +1,10 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=A.find(function(x){return x&&x.id==='premium-interfaces';});
+var o=[];
+g.sections.forEach(function(s,i){ o.push('sec'+i+'='+s.h_es); });
+o.push('faq_q1='+(g.featuredSnippet&&g.featuredSnippet.faq_q1_es||(function(){var r=A.find(function(x){return x&&x.id==='rme-vs-motu';});return r.featuredSnippet.faq_q1_es;})()));
+var r=A.find(function(x){return x&&x.id==='rme-vs-motu';});
+o.push('rme_faq='+r.featuredSnippet.faq_q1_es);
+fs.writeFileSync('temp/cons_patch/verify1.txt', o.join('\n'),'utf8');
+console.log('ok');
