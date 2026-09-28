@@ -1,0 +1,11 @@
+var fs=require('fs');
+var P='data/products.json';
+var A=JSON.parse(fs.readFileSync(P,'utf8'));
+var o=A.find(x=>x.id===515);
+o.stores.amazon='https://www.amazon.com/dp/B0CTW4MD53';
+fs.writeFileSync(P, JSON.stringify(A,null,2),'utf8');
+console.log('products 515 amazon', o.stores.amazon);
+var bg=fs.readFileSync('build-guides.js','utf8');
+bg=bg.replace('515: {prices:{amazon:"$3,499.99",zzounds:"$3,499.99",gear4music:"£2,454.00",andertons:"£2,200.00",musicstore:"€3,239.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Audient-ORIA-Interface-and-Immersive-Monitor-Controller-for-Dolby-Atmos/66Y3",andertons:"https://www.andertons.co.uk/audient-oria-usb-interface/",amazon:"https://www.amazon.com/s?k=Audient+ORIA&tag=topmusicg-20",zzounds:"https://www.zzounds.com/item--ADIORIA",musicstore:"https://www.musicstore.com/en_OE/EUR/Audient-ORIA/art-PCM0017953-000"}','515: {prices:{amazon:"$3,499.99",zzounds:"$3,499.99",gear4music:"£2,454.00",andertons:"£2,200.00",musicstore:"€3,239.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Audient-ORIA-Interface-and-Immersive-Monitor-Controller-for-Dolby-Atmos/66Y3",andertons:"https://www.andertons.co.uk/audient-oria-usb-interface/",amazon:"https://www.amazon.com/dp/B0CTW4MD53",zzounds:"https://www.zzounds.com/item--ADIORIA",musicstore:"https://www.musicstore.com/en_OE/EUR/Audient-ORIA/art-PCM0017953-000"}');
+fs.writeFileSync('build-guides.js', bg);
+console.log('build 515 amazon fixed');
