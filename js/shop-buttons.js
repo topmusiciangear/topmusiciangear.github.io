@@ -4764,7 +4764,7 @@ window.tmgStoreButtons = function(p) {
       zRow.style.display = 'none';
       pb.insertAdjacentHTML('beforebegin', newPrimary);
       pb.remove();
-      if (ml2 && !ml2.querySelector('[data-store="' + curStore + '"]')) {
+      if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispPrice = '';
         var dispMatch = pb.innerHTML.match(/- ([$£€][0-9.,]+)/);
         if (dispMatch) dispPrice = dispMatch[1];
