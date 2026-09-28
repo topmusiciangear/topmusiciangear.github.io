@@ -1,0 +1,12 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=A.find(function(x){return x&&x.id==='rme-vs-motu';});
+g.title='Entry-Level vs Premium Audio Interface: Is It Worth Paying More?';
+g.titleTag='Entry-Level vs Premium Audio Interface: Worth It?';
+g.title_es='Interfaz de audio de gama de entrada vs premium: \u00bfvale la pena pagar m\u00e1s?';
+g.titleTag_es='Interfaz de audio de gama de entrada vs premium: \u00bfvale la pena?';
+fs.writeFileSync('data/guides.json', JSON.stringify(A,null,2),'utf8');
+console.log('title='+g.title);
+console.log('tag='+g.titleTag);
+console.log('title_es='+g.title_es);
+console.log('tag_es='+g.titleTag_es);
