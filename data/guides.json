@@ -1755,9 +1755,9 @@
   {
     "id": "best-microphone",
     "title": "Best Microphone for Vocals & Home Recording",
-    "title_es": "Mejor micrófono para músicos: voces y grabación casera: guía completa ",
+    "title_es": "Mejor micrófono para voces y grabación casera: guía completa",
     "titleTag": "Best Microphone for Vocals & Home Recording",
-    "titleTag_es": "Mejor micrófono para voces y grabación casera",
+    "titleTag_es": "Mejor micrófono para voces y grabación casera: guía completa",
     "category": "microphones",
     "image": "https://r2.gear4music.com/media/98/984194/1200/preview.jpg",
     "badge": "legend",
@@ -8714,7 +8714,7 @@
     "id": "budget-headphones",
     "title": "Best Cheap Studio Headphones Under $150 ",
     "title_es": "Mejores auriculares de estudio económicos por menos de $150 ",
-    "titleTag_es": "Mejores auriculares de estudio por menos de $150",
+    "titleTag_es": "Mejores auriculares de estudio económicos por menos de $150",
     "category": "headphones",
     "image": "img/budget-headphones.webp",
     "badge": "bestSeller",
@@ -9379,7 +9379,8 @@
         ]
       }
     ],
-    "datePublished": "2026-02-17"
+    "datePublished": "2026-02-17",
+    "titleTag": "Best Cheap Studio Headphones Under $150"
   },
   {
     "id": "tracking-headphones",
@@ -18772,7 +18773,7 @@
     "title": "Best MIDI Keyboards & Controllers for Your Home Studio ",
     "title_es": "Mejores controladores y teclados MIDI para tu estudio ",
     "titleTag": "Best MIDI Keyboards & Controllers",
-    "titleTag_es": "Mejores teclados y Controladores MIDI",
+    "titleTag_es": "Mejores teclados y controladores MIDI para tu home studio",
     "category": "keyboards",
     "image": "https://r2.gear4music.com/media/94/944268/1200/preview.jpg",
     "badge": "bestSeller",
@@ -19818,9 +19819,9 @@
   },
   {
     "id": "vocal-plugins",
-    "title": "Best Vocal Plugins: Full Processing Chain ",
-    "title_es": "Mejores plugins vocales: cadena de procesamiento completa ",
-    "titleTag_es": "Mejores plugins Vocales: Cadena Completa",
+    "title": "Best Vocal Plugins: Full Processing Chain",
+    "title_es": "Mejores plugins vocales: cadena de procesamiento completa: guía completa",
+    "titleTag_es": "Mejores plugins vocales: cadena completa",
     "category": "plugins",
     "image": "https://r2.gear4music.com/media/61/619957/1200/preview.jpg",
     "badge": "topQuality",
@@ -20526,7 +20527,8 @@
         ]
       }
     ],
-    "datePublished": "2026-04-17"
+    "datePublished": "2026-04-17",
+    "titleTag": "Best Vocal Plugins: Full Processing Chain"
   },
   {
     "id": "beginner-guitar",
@@ -21352,7 +21354,8 @@
     },
     "aboutName": "Microphones",
     "verdictSideBySide": false,
-    "datePublished": "2026-04-26"
+    "datePublished": "2026-04-26",
+    "titleTag_es": "SM57 vs SM58: ¿cuál para voz y amplis? (prueba real)"
   },
   {
     "id": "scarlett-vs-ssl",
@@ -22700,7 +22703,8 @@
     },
     "aboutName": "Headphones",
     "verdictSideBySide": true,
-    "datePublished": "2026-05-08"
+    "datePublished": "2026-05-08",
+    "titleTag_es": "ATH-M50x vs MDR-7506: ¿mejores auriculares cerrados?"
   },
   {
     "id": "best-electric-guitar",
@@ -27345,7 +27349,8 @@
     },
     "aboutName": "Headphones",
     "verdictSideBySide": true,
-    "datePublished": "2026-06-13"
+    "datePublished": "2026-06-13",
+    "titleTag": "AKG K371 vs Sony MDR-7506: Home Studio Comparison"
   },
   {
     "id": "sm7b-vs-nt1",
@@ -27983,7 +27988,8 @@
     },
     "aboutName": "Microphones",
     "verdictSideBySide": true,
-    "datePublished": "2026-06-19"
+    "datePublished": "2026-06-19",
+    "titleTag": "SM57 vs MD 421 Kompakt: Best Mic for Amps and Drums?"
   },
   {
     "id": "c414-vs-u87",
@@ -30193,7 +30199,8 @@
     },
     "aboutName": "Guitars",
     "verdictSideBySide": true,
-    "datePublished": "2026-07-10"
+    "datePublished": "2026-07-10",
+    "titleTag": "American Pro II vs Les Paul '60s: Pro Guitar Duel"
   },
   {
     "id": "martin-d28-vs-taylor-314",
@@ -31478,7 +31485,8 @@
     "verdictSideBySide": true,
     "datePublished": "2026-07-22",
     "price1": "789.99",
-    "price2": "1.8k"
+    "price2": "1.8k",
+    "titleTag": "Blues Junior vs AC30: Best Tube Combo for You?"
   },
   {
     "id": "katana-vs-dsl",
@@ -32061,7 +32069,8 @@
     },
     "aboutName": "Audio Plugins",
     "verdictSideBySide": true,
-    "datePublished": "2026-07-28"
+    "datePublished": "2026-07-28",
+    "titleTag": "FabFilter vs Ozone: Best Mixing/Mastering Suite?"
   },
   {
     "id": "best-guitar-home-office",
@@ -35857,7 +35866,7 @@
     "id": "best-monitors-for-small-rooms",
     "title": "Best Studio Monitors for Small Rooms",
     "title_es": "Mejores monitores de estudio para salas pequeñas",
-    "titleTag_es": "Mejores monitores de estudio para salas Pequeñas",
+    "titleTag_es": "Mejores monitores de estudio para salas pequeñas",
     "category": "monitors",
     "image": "https://r2.gear4music.com/media/23/237030/1200/preview.jpg",
     "badge": "recommended",
@@ -36887,10 +36896,10 @@
   },
   {
     "id": "best-beginner-electric-guitar",
-    "title": "Best Electric Guitar for Beginners: What to Buy & Why",
-    "title_es": "Mejor guitarra eléctrica para principiantes: qué comprar y por qué",
-    "titleTag": "Best Electric Guitar for Beginners: What to Buy",
-    "titleTag_es": "Mejor guitarra eléctrica para principiantes",
+    "title": "Best Beginner Electric Guitars: What to Buy",
+    "title_es": "Mejores guitarras eléctricas para principiantes: qué comprar",
+    "titleTag": "Best Beginner Electric Guitars: What to Buy",
+    "titleTag_es": "Mejores guitarras eléctricas para principiantes: qué comprar",
     "category": "guitars",
     "image": "https://r2.gear4music.com/media/37/376945/1200/preview.jpg",
     "badge": "topQuality",
@@ -49120,7 +49129,7 @@
     "title": "Active vs Passive PA Speakers: Which Is Right for You?",
     "title_es": "Altavoces activos vs pasivos: ¿cuál es mejor para ti?",
     "titleTag": "Active vs Passive PA Speakers: Which Is Right?",
-    "titleTag_es": "Altavoces activos vs Pasivos: ¿cuál elegir?",
+    "titleTag_es": "Altavoces activos vs pasivos: ¿cuál elegir?",
     "category": "live_sound",
     "image": "https://r2.gear4music.com/media/10/106433/1200/preview_1.jpg",
     "badge": "bestSeller",
@@ -49867,7 +49876,7 @@
     "id": "budget-bass-like-expensive",
     "title": "Best Value Bass Guitars That Sound Premium",
     "title_es": "Bajos con la mejor relación calidad-precio: instrumentos que suenan premium",
-    "titleTag_es": "Bajos con mejor relación Calidad-Precio",
+    "titleTag_es": "Bajos con mejor relación calidad-precio",
     "category": "basses",
     "image": "https://r2.gear4music.com/media/46/468749/1200/preview.jpg",
     "badge": "bestSeller",
@@ -66395,7 +66404,7 @@
     "title": "13 Best Budget USB Mics Under $100",
     "title_es": "Los 13 mejores micrófonos USB por menos de $100",
     "titleTag": "13 Best Budget USB Mics Under $100",
-    "titleTag_es": "Los 13 mejores micrófonos USB por menos de $100",
+    "titleTag_es": "13 mejores micrófonos USB económicos por menos de $100",
     "category": "microphones",
     "image": "https://r2.gear4music.com/media/54/546970/1200/preview_1.jpg",
     "badge": "bestSeller",
@@ -67991,9 +68000,9 @@
   {
     "id": "best-acoustic-guitars-for-beginners",
     "title": "Best Acoustic Guitars for Beginners: What to Buy",
-    "title_es": "Mejores guitarras acústicas para principiantes",
+    "title_es": "Mejores guitarras acústicas para principiantes: qué comprar",
     "titleTag": "Best Acoustic Guitars for Beginners: What to Buy",
-    "titleTag_es": "Mejores guitarras acústicas para principiantes",
+    "titleTag_es": "Mejores guitarras acústicas para principiantes: qué comprar",
     "category": "guitars",
     "image": "https://r2.gear4music.com/media/60/607830/1200/preview.jpg",
     "badge": "bestSeller",
@@ -69011,7 +69020,7 @@
     "title": "Studio Subwoofer Setup Guide: How to Position, Calibrate, and Choose High-End Low End",
     "title_es": "Cómo configurar un subwoofer de estudio: posición, calibración y los mejores modelos de gama alta",
     "titleTag": "Studio Subwoofer Setup & Calibration Guide",
-    "titleTag_es": "Cómo Configurar un Subwoofer de estudio",
+    "titleTag_es": "Cómo configurar un subwoofer de estudio: guía de calibración",
     "category": "monitors",
     "image": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/25450/95621/459706-gene27-2__81400.1716132132.jpg?c=1",
     "badge": "premium",
@@ -71902,9 +71911,9 @@
   },
   {
     "id": "best-ribbon-mics",
-    "title": "Best Ribbon Microphones for Recording",
+    "title": "Best Ribbon Microphones for Studio Recording",
     "title_es": "Mejores micrófonos de cinta para estudio",
-    "titleTag": "Best Ribbon Microphones for Recording",
+    "titleTag": "Best Ribbon Microphones for Studio Recording",
     "titleTag_es": "Mejores micrófonos de cinta para estudio",
     "category": "microphones",
     "description": "Best ribbon microphones 2026 tested. Royer R-121 vs Coles 4038 vs MXL R144 — warm vintage tone for guitar amps, brass and vocals. Best pick: Royer R-121.",
