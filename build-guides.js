@@ -1117,7 +1117,7 @@ function fmtReviewDate(iso, es) {
 function fmtMonthYear(iso, es) {
   var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
   if (isNaN(d)) return String(iso);
-  var esmo = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  var esmo = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
   var enmo = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var mo = es ? esmo : enmo;
   return mo[d.getMonth()] + ' ' + d.getFullYear();
