@@ -2,7 +2,7 @@ const translations = {
   en: {
     disclosureBar: "This site contains affiliate links. We earn a commission if you buy through them at no extra cost to you.",
     disclosureLink: "More info",
-    footerDisclosureText: '<strong>TopMusicianGear</strong> is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, and Music Store. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="#" id="disclosureLink">More info</a>',
+    footerDisclosureText: '<strong>TopMusicianGear</strong> is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store, and Hollyland. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="#" id="disclosureLink">More info</a>',
     heroBadge: "Trusted by musicians worldwide",
     heroTitle: "From Studio to Stage <span>Gear Reviewed by a Pro Musician</span>",
     heroDesc: "Recommended by a musician with over 20 years of experience on the world's biggest stages — from Glastonbury to Broadway, Abbey Road to the silver screen.",
@@ -104,7 +104,7 @@ const translations = {
   es: {
     disclosureBar: "Este sitio contiene enlaces de afiliado. Ganamos una comisión si compras a través de ellos sin costo extra para ti.",
     disclosureLink: "Más info",
-    footerDisclosureText: '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, y Music Store. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="#" id="disclosureLink">Más info</a>',
+    footerDisclosureText: '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store y Hollyland. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="#" id="disclosureLink">Más info</a>',
     heroBadge: "La confianza de músicos de todo el mundo",
     heroTitle: "Del estudio al escenario <span>Equipo reseñado por un profesional</span>",
     heroDesc: "Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.",
