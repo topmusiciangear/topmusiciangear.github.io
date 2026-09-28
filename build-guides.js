@@ -504,6 +504,7 @@ const TEST_SHOP_BTN = {
   149: {prices:{gear4music:"£504.00",amazon:"$675.00",zzounds:"$573.74",andertons:"£504.00",musicstore:"€599.00"}},
   150: {prices:{gear4music:"£188.50",amazon:"$268.00",andertons:"£169.00",musicstore:"€195.00"},urls:{zzounds:"https://www.zzounds.com/a--925521/item--BEHX1222USB"},oos:["zzounds"]},
   151: {prices:{gear4music:"£407.00",amazon:"$374.99",musicstore:"€335.29"},urls:{zzounds:"https://www.zzounds.com/a--925521/item--MACTHUMP215XT"},oos:["andertons","zzounds"]},
+  512: {prices:{amazon:"$1,995.00",zzounds:"$1,995.00",gear4music:"£1,525.00",andertons:"£1,525.00",musicstore:"€1,812.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Neumann-MT48-Premium-Audio-Interface/5E3S",amazon:"https://www.amazon.com/Neumann-MT-48-US-Connectivity/dp/B0BTGVGCJN",andertons:"https://www.andertons.co.uk/Neumann-MT-48-Audio-Interface-Universal-PSU-inc-USB-Connection/"},oos:["zzounds"]},
   152: {prices:{amazon:"$1,232.49",zzounds:"$1,232.49",andertons:"£975.00",gear4music:"£989.00",musicstore:"€917.31"}},
   153: {prices:{amazon:"$399.00",zzounds:"$399.00",andertons:"£295.00",gear4music:"£322.00",musicstore:"€489.00"}},
   154: {prices:{amazon:"$390.99",andertons:"£394.00",gear4music:"£394.00",musicstore:"€366.47"},urls:{zzounds:"https://www.zzounds.com/a--925521/item--YAMDBR12"},oos:["zzounds"]},
