@@ -1,0 +1,55 @@
+total array len: 152
+
+############ premium-interfaces ############
+  idx       : 151
+  title     : "The 7 Best Premium Audio Interfaces for Pro Studios"
+  title_es  : "Las 7 Mejores Interfaces de Audio Premium para Estudios Pro"
+  h1        : "(none)"
+  h1_es     : "(none)"
+  products  : 0
+  comparison key: comparison
+    headers  : []
+    headers_es: []
+    ROW[0] label="Year" | label_es="Año"
+    ROW[1] label="I/O Channels" | label_es="Canales I/O"
+    ROW[2] label="Connectivity" | label_es="Conectividad"
+    ROW[3] label="Dynamic Range (D/A)" | label_es="Rango Dinámico (D/A)"
+    ROW[4] label="DSP" | label_es="DSP"
+    ROW[5] label="Standalone Recording" | label_es="Grabación Independiente"
+    ROW[6] label="Preamp Emulation" | label_es="Emulación de Previo"
+    ROW[7] label="Sample Rate" | label_es="Tasa de Muestreo"
+    ROW[8] label="MIDI I/O" | label_es="MIDI E/S"
+    ROW[9] label="Rack Size" | label_es="Tamaño Rack"
+    ROW[10] label="Digital I/O" | label_es="I/O Digital"
+  verdict key: verdictSideBySide
+  verdict count: 0
+
+############ portable-interfaces ############
+  idx       : 9
+  title     : "Best Portable Audio Interfaces: Complete Guide "
+  title_es  : "Mejores interfaces de audio portátiles: guía completa "
+  h1        : "(none)"
+  h1_es     : "(none)"
+  products  : 0
+  comparison key: productTable
+    headers  : []
+    headers_es: []
+    ROW[0] label="Best For" | label_es="Best For"
+    ROW[1] label="Type" | label_es="Type"
+    ROW[2] label="Inputs / Outputs" | label_es="Inputs / Outputs"
+    ROW[3] label="Preamps" | label_es="Preamps"
+    ROW[4] label="Sample Rate" | label_es="Sample Rate"
+    ROW[5] label="Bit Depth" | label_es="Bit Depth"
+    ROW[6] label="Connectivity" | label_es="Connectivity"
+    ROW[7] label="Special Features" | label_es="Special Features"
+  verdict key: verdictProsCons
+  verdict count: 9
+    verdict[0] name="RME Babyface Pro FS" | es="RME Babyface Pro FS" pros=4 cons=5
+    verdict[1] name="Focusrite Scarlett 2i2 4th Gen" | es="Focusrite Scarlett 2i2 4th Gen" pros=4 cons=5
+    verdict[2] name="SSL 2+ MKII" | es="SSL 2+ MKII" pros=4 cons=5
+    verdict[3] name="Arturia MiniFuse 2 OTG" | es="Arturia MiniFuse 2 OTG" pros=4 cons=4
+    verdict[4] name="Universal Audio Volt 2" | es="Universal Audio Volt 2" pros=4 cons=4
+    verdict[5] name="Audient EVO 4" | es="Audient EVO 4" pros=4 cons=4
+    verdict[6] name="Universal Audio Volt 276" | es="Universal Audio Volt 276" pros=4 cons=4
+    verdict[7] name="MOTU M2" | es="MOTU M2" pros=4 cons=4
+    verdict[8] name="Audient iD14 MKII" | es="Audient iD14 MKII" pros=4 cons=4

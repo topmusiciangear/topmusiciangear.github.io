@@ -1,0 +1,27 @@
+PORT keys: id | title | title_es | titleTag | titleTag_es | category | image | badge | intro | intro_es | sections | conclusion | conclusion_es | verdict | verdict_es | featuredProducts | relatedGuides | description | featuredSnippet | description_es | author | aboutName | productTable | verdictProsCons | datePublished
+port productTable: YES rows=8
+  headers: []
+  ROW[0] label="Best For"
+  ROW[1] label="Type"
+  ROW[2] label="Inputs / Outputs"
+  ROW[3] label="Preamps"
+  ROW[4] label="Sample Rate"
+  ROW[5] label="Bit Depth"
+  ROW[6] label="Connectivity"
+  ROW[7] label="Special Features"
+
+PREM keys: id | title | title_es | titleTag | titleTag_es | category | image | badge | intro | intro_es | sections | conclusion | conclusion_es | verdict | verdict_es | featuredProducts | description | description_es | featuredSnippet | faq | aboutName | aboutName_es | faqTitle | faqTitle_es | faqImage | verdictProsCons | comparison | relatedGuides | verdictSideBySide | author | datePublished | featuredSections
+verdictSideBySide typeof: boolean
+prem comparison headers: []
+prem products: 0
+  ROW[0] label="Year"
+  ROW[1] label="I/O Channels"
+  ROW[2] label="Connectivity"
+  ROW[3] label="Dynamic Range (D/A)"
+  ROW[4] label="DSP"
+  ROW[5] label="Standalone Recording"
+  ROW[6] label="Preamp Emulation"
+  ROW[7] label="Sample Rate"
+  ROW[8] label="MIDI I/O"
+  ROW[9] label="Rack Size"
+  ROW[10] label="Digital I/O"
