@@ -1,32 +1,53 @@
-// Validates the geo-swap price regexes against real rendered HTML.
-const re = /- ((?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+)/;
-const reHol = /- (?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+/;
+// Validates the geo-swap price handling: prices are now moved as
+// `.shop-price` elements (outerHTML / data-price) instead of being parsed
+// out of innerHTML with a fragile regex.
+// Run after: node build-guides.js && node temp/gen-shop-buttons.js
+const fs = require('fs');
 
-const samples = [
-  'Buy at <span>zZounds</span> - Approx. $439',
-  'Buy at <span>Gear4music</span> - Approx. £381',
-  'Comprar en <span>zZounds</span> - Aprox. €398',
-  'Buy at <span>Music Store</span> - Approx. $1,839',
-  'Buy at <span>zZounds</span> - Approx. $1,000'
-  // NOTE: the " - " separator is always present; prices are rendered as
-  // `'- ' + pPrice` in shopButtonsTest, so no bare-prefix case can occur.
-];
 let fail = 0;
-for (const s of samples) {
-  const m = s.match(re);
-  if (!m) { fail++; console.log('FAIL  ' + s); continue; }
-  const expected = s.slice(s.lastIndexOf('- ') + 2);
-  const ok = m[1] === expected;
-  if (!ok) fail++;
-  console.log(`${ok ? 'ok  ' : 'FAIL'} captured ${JSON.stringify(m[1])} (expected ${JSON.stringify(expected)})`);
+const ok = (cond, msg) => { if (!cond) fail++; console.log((cond ? 'ok   ' : 'FAIL ') + msg); };
+
+const sources = {
+  'build-guides.js': fs.readFileSync('build-guides.js', 'utf8'),
+  'js/shop-buttons.js': fs.readFileSync('js/shop-buttons.js', 'utf8')
+};
+
+// 1. Old fragile regexes must be gone from both sources.
+const old = [
+  { re: /Approx\[\.\]\|Aprox\[\.\]/, name: 'escaped Approx[.] alternation' },
+  { re: /font-weight:700;color:#fff\[\^>\]\*\)/, name: 'innerHTML style-capture regex' },
+  { re: /dispMatch/, name: 'dispMatch variable' }
+];
+for (const [name, src] of Object.entries(sources)) {
+  for (const o of old) ok(!o.re.test(src), name + ': no ' + o.name);
 }
-// holly replace
-const hol = 'Buy at <span>Hollyland</span> - Approx. €1,332';
-const out = hol.replace(reHol, '- Aprox. €1,100');
-console.log((out === 'Buy at <span>Hollyland</span> - Aprox. €1,100' ? 'ok  ' : 'FAIL') + ' holly replace -> ' + out);
-if (!out.endsWith('- Aprox. €1,100')) fail++;
-// must NOT match non-price text
-const noPrice = 'Buy at <span>zZounds</span> - Verificar precio';
-if (noPrice.match(re)) { fail++; console.log('FAIL matched non-price text'); }
-else console.log('ok   does not match "Verificar precio"');
+
+// 2. New helpers present in both sources.
+for (const [name, src] of Object.entries(sources)) {
+  ok(/function tmgPriceHtml\(plain\)/.test(src), name + ': tmgPriceHtml helper');
+  ok(/function tmgIsEsDoc\(\)/.test(src), name + ': tmgIsEsDoc helper');
+  ok(/\.shop-price/.test(src), name + ': reads .shop-price elements');
+  ok(/getAttribute\('data-price'\)/.test(src), name + ': reads data-price attribute');
+  ok(/function fmtPricePlain\(/.test(src), name + ': fmtPricePlain present');
+}
+
+// 3. Generated pages: every price cell is a .shop-price element with a plain amount.
+const guide = fs.readFileSync('guides/best-microphone.html', 'utf8');
+const guideEs = fs.readFileSync('guides/best-microphone_es.html', 'utf8');
+const cells = guide.match(/<span class='shop-price' data-price='[^']*'>/g) || [];
+ok(cells.length > 0, 'best-microphone.html: ' + cells.length + ' .shop-price cells');
+const amounts = [...guide.matchAll(/<span class='shop-price' data-price='([^']*)'>/g)].map(m => m[1]);
+ok(amounts.every(a => /^[$£€]\d{1,3}(,\d{3})*$/.test(a)), 'all EN amounts are plain, no decimals, comma thousands');
+ok((guide.match(/<span style='font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic'>Approx\.<\/span>/g) || []).length === cells.length, 'EN label count matches cell count');
+const amountsEs = [...guideEs.matchAll(/<span class='shop-price' data-price='([^']*)'>/g)].map(m => m[1]);
+ok(amountsEs.length > 0 && amountsEs.every(a => /^[$£€]\d{1,3}(,\d{3})*$/.test(a)), 'all ES amounts are plain (' + amountsEs.length + ')');
+ok((guideEs.match(/<span style='font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic'>Aprox\.<\/span>/g) || []).length === amountsEs.length, 'ES label count matches cell count');
+
+// 4. Price span markup must not be duplicated by the "-" separator splitting the flex item.
+ok(!/'- '<span style="font-weight:700/.test(guide), 'row price stays inside one wrapper span');
+
+// 5. Amazon/Reverb "Check price" label must NOT have the .shop-price wrapper.
+ok((guide.match(/data-price='(Check price|Verificar precio)'/g) || []).length === 0, 'no Check price wrapped as shop-price');
+
+console.log('\nsample EN amounts: ' + amounts.slice(0, 8).join(' | '));
 console.log(fail ? '\n' + fail + ' FAILURES' : '\nALL PASS');
