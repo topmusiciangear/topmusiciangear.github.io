@@ -1557,8 +1557,8 @@ const TEST_SHOP_BTN = {
       amazon: "$99.00",
       zzounds: "$86.00",
       andertons: "£86.00",
-      gear4music: "£93.00",
-      musicstore: "€68.91"
+      gear4music: "£61.00",
+      musicstore: "€75.00"
     }
   },
   198: {
@@ -1832,16 +1832,16 @@ const TEST_SHOP_BTN = {
   },
 227: {
     prices: {
-      gear4music: "£150.00",
+      gear4music: "£153.50",
       amazon: "$199.95",
       zzounds: "$199.95",
-      andertons: "£149.00",
+      andertons: "£148.00",
       musicstore: "€179.00"
     }
   },
 228: {
     prices: {
-      gear4music: "£151.25",
+      gear4music: "£148.25",
       amazon: "$214.00",
       zzounds: "$219.00",
       andertons: "£149.00",
@@ -1885,7 +1885,7 @@ const TEST_SHOP_BTN = {
       amazon: "$169.00",
       zzounds: "$169.00",
       andertons: "£129.00",
-      gear4music: "£136.00",
+      gear4music: "£139.00",
       musicstore: "€189.00"
     }
   },
@@ -2443,7 +2443,7 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$154.00",
       zzounds: "$159.00",
-      andertons: "£122.00",
+      andertons: "£119.99",
       gear4music: "£119.99",
       musicstore: "€128.00"
     }
@@ -4791,6 +4791,7 @@ window.tmgStoreButtons = function(p) {
         var dispNote = dispNotes[curStore] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + (isEsPage ? dispNotes[curStore][0] : dispNotes[curStore][1]) + '</span>' : '';
         var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
         ml2.insertAdjacentHTML('afterbegin', dispRow);
+      }
       }
     });
   }

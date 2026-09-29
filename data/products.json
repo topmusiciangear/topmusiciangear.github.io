@@ -3596,7 +3596,7 @@
     "img": "https://r2.gear4music.com/media/43/434328/1200/preview_1.jpg",
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FRode-PodMic-Dynamic-Podcasting-Microphone%2F2RK9",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRode-PodMic-Schwarz%2Fart-MIC0007412-000",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRode-PodMic%2Fart-REC0014109-000",
       "amazon": "https://www.amazon.com/dp/B07MSCRCVK",
       "andertons": "https://www.andertons.co.uk/rode-podmic-dynamic-podcasting-mic/",
       "zzounds": "https://www.zzounds.com/a--925521/item--RODPODMIC"
@@ -5464,8 +5464,7 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Samson-Q2U-Recording-Podcasting-Pack/art-REC0006956-000"
     },
     "excludeStores": [
-      "andertons",
-      "musicstore"
+      "andertons"
     ],
     "oos": [
       "zzounds"
