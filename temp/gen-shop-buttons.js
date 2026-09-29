@@ -66,6 +66,11 @@ var hollyPickStart = src.indexOf('function hollyPickEntry(');
 var hollyPickEnd = src.indexOf('\nfunction ', hollyPickStart + 10);
 var hollyPickFn = src.substring(hollyPickStart, hollyPickEnd);
 
+// Extract fmtPrice function (price display formatter used by shopButtonsTest)
+var fmtStart = src.indexOf('function fmtPrice(');
+var fmtEnd = src.indexOf('\nfunction ', fmtStart + 10);
+var fmtFn = src.substring(fmtStart, fmtEnd);
+
 // Extract shopButtonsTest function
 var shopFnStart = src.indexOf('function shopButtonsTest(');
 var shopFnEnd = src.indexOf('\nfunction ', shopFnStart + 10);
@@ -171,6 +176,8 @@ ${hollyRegFn}
 
 ${hollyPickFn}
 
+${fmtFn}
+
 ${shopFn}
 
 window.tmgStoreButtons = function(p) {
@@ -194,7 +201,7 @@ window.tmgStoreButtons = function(p) {
         if (hu) {
           pb.setAttribute('href', hu);
           var hp = pb.getAttribute('data-hu-' + hr + '-p');
-          if (hp) pb.innerHTML = pb.innerHTML.replace(/- [$£€][0-9.,]+/, '- ' + hp);
+          if (hp) pb.innerHTML = pb.innerHTML.replace(/- (?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+/, '- ' + hp);
         }
         return;
       }
@@ -220,7 +227,7 @@ window.tmgStoreButtons = function(p) {
       pb.remove();
       if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispPrice = '';
-        var dispMatch = pb.innerHTML.match(/- ([$\u00a3\u20ac][0-9.,]+)/);
+        var dispMatch = pb.innerHTML.match(/- ((?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+)/);
         if (dispMatch) dispPrice = dispMatch[1];
         if (curStore === 'amazon') dispPrice = tmgCheckLabel;
         var tmgLabelSpan = '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>';

@@ -4621,6 +4621,21 @@ function hollyPickEntry(cfg, r) {
   if (!cfg || !cfg.holly) return null;
   return cfg.holly[r] || cfg.holly.eu || cfg.holly.us || cfg.holly.uk || null;
 }
+// Formats a store price for display: strips decimals (truncates) and
+// prefixes "Approx." (EN) / "Aprox." (ES). Always re-applies the thousands
+// separator so values above 999 keep the comma (AGENTS rule).
+
+function fmtPrice(raw, lang) {
+  if (!raw) return '';
+  var s = String(raw);
+  var m = s.match(/^([$\u00a3\u20ac])\s*([\d,]+)(?:\.(\d+))?\s*$/);
+  if (!m) return s;
+  var whole = parseInt(String(m[2]).replace(/,/g, ''), 10);
+  if (!isFinite(whole)) return s;
+  var out = String(whole).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return (lang === 'es' ? 'Aprox. ' : 'Approx. ') + m[1] + out;
+}
+
 
 function shopButtonsTest(p, lang) {
   const cfg = TEST_SHOP_BTN[p.id] || {};
@@ -4662,7 +4677,7 @@ function shopButtonsTest(p, lang) {
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
   const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
-  const pPrice = (primaryStoreKey === 'amazon') ? t('Verificar precio', 'Check price') : (isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '');
+  const pPrice = (primaryStoreKey === 'amazon') ? t('Verificar precio', 'Check price') : fmtPrice(isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '', lang);
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -4673,7 +4688,7 @@ function shopButtonsTest(p, lang) {
     ['eu', 'us', 'uk'].forEach(function(r) {
       var he = hollyPickEntry(cfg, r);
       if (he) {
-        hollyAttrs += ' data-hu-' + r + '="' + wrapAffiliate('hollyland', he.u || '') + '" data-hu-' + r + '-p="' + (he.p || '') + '"';
+        hollyAttrs += ' data-hu-' + r + '="' + wrapAffiliate('hollyland', he.u || '') + '" data-hu-' + r + '-p="' + fmtPrice(he.p || '', lang) + '"';
       }
     });
   }
@@ -4695,10 +4710,10 @@ function shopButtonsTest(p, lang) {
       return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : '') + '</a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
-      const oosPrice = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((cfg.prices && cfg.prices[k]) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#a8a8a8">' + cfg.prices[k] + '</span></span>' : '';
+      const oosPrice = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((cfg.prices && cfg.prices[k]) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#a8a8a8">' + fmtPrice(cfg.prices[k], lang) + '</span></span>' : '';
       return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
     }
-    const pr = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + '<span style="font-weight:700;color:#fff">' + prices[k] + '</span></span>' : '');
+    const pr = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(prices[k], lang) + '</span></span>' : '');
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
@@ -4736,7 +4751,7 @@ window.tmgStoreButtons = function(p) {
         if (hu) {
           pb.setAttribute('href', hu);
           var hp = pb.getAttribute('data-hu-' + hr + '-p');
-          if (hp) pb.innerHTML = pb.innerHTML.replace(/- [$£€][0-9.,]+/, '- ' + hp);
+          if (hp) pb.innerHTML = pb.innerHTML.replace(/- (?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+/, '- ' + hp);
         }
         return;
       }
@@ -4762,7 +4777,7 @@ window.tmgStoreButtons = function(p) {
       pb.remove();
       if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispPrice = '';
-        var dispMatch = pb.innerHTML.match(/- ([$£€][0-9.,]+)/);
+        var dispMatch = pb.innerHTML.match(/- ((?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+)/);
         if (dispMatch) dispPrice = dispMatch[1];
         if (curStore === 'amazon') dispPrice = tmgCheckLabel;
         var tmgLabelSpan = '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>';

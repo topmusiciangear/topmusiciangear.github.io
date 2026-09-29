@@ -698,7 +698,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
       if(hu){
         pb.setAttribute('href',hu);
         var hp=pb.getAttribute('data-hu-'+hr+'-p');
-        if(hp)pb.innerHTML=pb.innerHTML.replace(/- [$£€][0-9.,]+/,'- '+hp);
+        if(hp)pb.innerHTML=pb.innerHTML.replace(/- (?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+/,'- '+hp);
       }
       return;
     }
@@ -718,7 +718,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     pb.insertAdjacentHTML('beforebegin',newPrimary);
     pb.remove();
     if(ml&&!ml.querySelector('[data-store="'+curStore+'"]')){
-      var dispPrice='';var dispMatch=pb.innerHTML.match(/- ([$£€][0-9.,]+)/);if(dispMatch)dispPrice=dispMatch[1];if(curStore==='amazon')dispPrice=tmgCheckLabel;
+      var dispPrice='';var dispMatch=pb.innerHTML.match(/- ((?:Approx[.]|Aprox[.])? ?[$£€][0-9.,]+)/);if(dispMatch)dispPrice=dispMatch[1];if(curStore==='amazon')dispPrice=tmgCheckLabel;
       var tmgLabelSpan = '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>';
       var dispPriceSpan = dispPrice ? (dispPrice === tmgCheckLabel ? tmgLabelSpan : '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+dispPrice+'</span></span>') : '';
       var dispNotes={zzounds:['(Planes de pago fáciles)','(Easy Payment Plans)'],reverb:['(Mercado nuevo y usado)','(New & Used Market)'],gear4music:['(Envíos rápidos UK)','(Fast UK Delivery)'],andertons:['(Soporte experto)','(Expert Support)'],musicstore:['(Garantía de 3 años)','(3-Year Warranty)'],amazon:['(Envío Prime)','(Prime Delivery)']};
