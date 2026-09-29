@@ -5,14 +5,12 @@ const BASE = 'https://topmusiciangear.com';
   const r = await fetch(BASE + '/js/shop-buttons.js?v=' + Date.now(), { headers: { 'User-Agent': UA, 'Cache-Control': 'no-cache' } });
   const t = await r.text();
   console.log('shop-buttons.js status ' + r.status + ' bytes ' + t.length);
-  for (const id of ['433', '434']) {
-    const i = t.indexOf('\n  ' + id + ': {');
-    console.log(t.slice(i, t.indexOf('\n  },', i) + 4));
-  }
+  const i = t.indexOf('\n  435: {');
+  console.log(t.slice(i, t.indexOf('\n  },', i) + 4));
   for (const lang of ['', '_es']) {
     const p = await fetch(BASE + '/guides/budget-mics' + lang + '.html?v=' + Date.now(), { headers: { 'User-Agent': UA, 'Cache-Control': 'no-cache' } });
     const h = await p.text();
     const c = s => (h.match(s) || []).length;
-    console.log('--- ' + p.status + (lang || '_en') + ': Q9U OFFLINE/3JKA=' + c(/3JKA/g) + ' | P120/16B8=' + c(/16B8/g) + ' | 88.24=' + c(/88\.24/g));
+    console.log('--- ' + p.status + (lang || '_en') + ': B906 awin=' + c(/awinmid=1117[^"']*Behringer-B-906/g) + ' | awin 63816=' + c(/awinmid=63816[^"']*Behringer-B-906/g) + ' | old 26.70=' + c(/26\.70/g) + ' | old 38.70=' + c(/38\.70/g));
   }
 })();
