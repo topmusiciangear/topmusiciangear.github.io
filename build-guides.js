@@ -2033,8 +2033,7 @@ const TEST_SHOP_BTN = {
     prices: {
       gear4music: "£532.00",
       amazon: "$660.00",
-      andertons: "£405.00",
-      musicstore: "€461.34"
+      andertons: "£405.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--DPAVO4099D"
