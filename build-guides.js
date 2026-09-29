@@ -1053,17 +1053,9 @@ const TEST_SHOP_BTN = {
       amazon: "$469.00",
       zzounds: "$469.00",
       andertons: "£398.00",
-      gear4music: "£419.00",
-      musicstore: "€444.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX24R-SM58-K3E-Rack-Mount-Wireless-Microphone-System/TU6",
-      zzounds: "https://www.zzounds.com/a--925521/item--SHUBLX24RSM58"
-    },
-    oos: [
-      "gear4music",
-      "zzounds"
-    ]
+      gear4music: "£399.00",
+      musicstore: "€449.00"
+    }
   },
   108: {
     prices: {
