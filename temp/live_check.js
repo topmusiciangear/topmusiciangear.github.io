@@ -5,6 +5,6 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
   const t = await r.text();
   const block = id => { const i = t.indexOf('\n  ' + id + ': {'); return t.slice(i, t.indexOf('\n  },', i) + 4); };
   console.log('shop-buttons.js status ' + r.status + ' bytes ' + t.length);
-  console.log(block(311));
-  console.log(block(313));
+  console.log(block(318));
+  console.log(block(319));
 })();
