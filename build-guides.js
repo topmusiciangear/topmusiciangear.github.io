@@ -2005,7 +2005,7 @@ const TEST_SHOP_BTN = {
   },
   212: {
     prices: {
-      gear4music: "£193.50",
+      gear4music: "£196.00",
       amazon: "$219.00",
       zzounds: "$219.00",
       andertons: "£193.00",
@@ -2023,17 +2023,11 @@ const TEST_SHOP_BTN = {
   },
   214: {
     prices: {
-      amazon: "$429.00",
-      zzounds: "$429.00",
-      andertons: "£295.00",
-      musicstore: "€360.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/search?q=Sennheiser%20e604%203-Pack"
-    },
-    na: [
-      "gear4music"
-    ]
+      zzounds: "$159.00",
+      andertons: "£112.00",
+      gear4music: "£111.00",
+      musicstore: "€139.00"
+    }
   },
   215: {
     prices: {
