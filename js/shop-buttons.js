@@ -2641,14 +2641,15 @@ const TEST_SHOP_BTN = {
       amazon: "$2,199.99",
       zzounds: "$2,199.99",
       andertons: "£1,699.00",
-      musicstore: "€1,763.00"
+      musicstore: "€2,099.00"
     }
   },
   319: {
     prices: {
       amazon: "$2,275.00",
       zzounds: "$2,629.00",
-      andertons: "£2,699.00"
+      andertons: "£2,699.00",
+      musicstore: "€2,499.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-Tobacco-Sunburst/273H",
