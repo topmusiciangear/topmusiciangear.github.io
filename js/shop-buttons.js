@@ -604,11 +604,11 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
-  93: {
+93: {
     prices: {
       zzounds: "$999.00",
       gear4music: "£845.00",
-      musicstore: "€868.00"
+      musicstore: "€998.00"
     },
     oos: [
       "andertons"
@@ -1848,30 +1848,30 @@ const TEST_SHOP_BTN = {
       musicstore: "€153.00"
     }
   },
-  229: {
+229: {
     prices: {
       gear4music: "£249.00",
       amazon: "$249.00",
       zzounds: "$249.00",
       andertons: "£249.00",
-      musicstore: "€222.69"
+      musicstore: "€315.00"
     }
   },
-  230: {
+230: {
     prices: {
       gear4music: "£75.00",
       amazon: "$131.60",
       zzounds: "$139.00",
       andertons: "£99.00",
-      musicstore: "€125.21"
+      musicstore: "€89.00"
     }
   },
-  231: {
+231: {
     prices: {
       amazon: "$259.00",
       andertons: "£236.00",
       gear4music: "£236.50",
-      musicstore: "€335.29"
+      musicstore: "€225.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--AUDOM7"
@@ -1880,13 +1880,13 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
-  232: {
+232: {
     prices: {
       amazon: "$169.00",
       zzounds: "$169.00",
       andertons: "£129.00",
       gear4music: "£136.00",
-      musicstore: "€158.82"
+      musicstore: "€189.00"
     }
   },
   233: {
