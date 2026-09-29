@@ -1,0 +1,11 @@
+var fs = require('fs');
+var en = fs.readFileSync('guides/best-interface.html', 'utf8');
+var es = fs.readFileSync('guides/best-interface_es.html', 'utf8');
+var i = en.indexOf('Things to Keep in Mind');
+var after = en.slice(i, i + 300);
+console.log('EN note-header then row order:');
+console.log((after.indexOf('💵') < after.indexOf('💲') && after.indexOf('As an Amazon Associate') > -1) ? 'OK' : 'CHECK');
+var j = es.indexOf('Aspectos');
+var afterEs = es.slice(j, j + 300);
+console.log('ES order:');
+console.log((afterEs.indexOf('💵') < afterEs.indexOf('💲') && afterEs.indexOf('Como Asociado de Amazon') > -1) ? 'OK' : 'CHECK');
