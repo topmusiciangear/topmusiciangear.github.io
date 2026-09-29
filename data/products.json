@@ -9258,11 +9258,11 @@
     "img": "https://r2.gear4music.com/media/34/340557/1200/preview.jpg",
     "stores": {
       "zzounds": "https://www.zzounds.com/item--IBAAW54",
-      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-AW54-Artwood-Open-Pore-Natural/2992"
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-AW54-Artwood-Open-Pore-Natural/2992",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Ibanez-AW54-OPN-Open-Pore-Natural/art-GIT0033027-000",
+      "andertons": "https://www.andertons.co.uk/ibanez-artwood-acoustic-thermo-aged-dreadnought--solid-mahogany-top/"
     },
     "excludeStores": [
-      "andertons",
-      "musicstore",
       "reverb"
     ],
     "oos": [
