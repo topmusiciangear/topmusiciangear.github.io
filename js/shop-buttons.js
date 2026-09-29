@@ -1657,7 +1657,8 @@ const TEST_SHOP_BTN = {
   209: {
     prices: {
       amazon: "$1,399.00",
-      andertons: "£879.00"
+      andertons: "£879.00",
+      musicstore: "€1,199.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/4PIK",
