@@ -3659,7 +3659,13 @@ const TEST_SHOP_BTN = {
       amazon: "$143.39",
       zzounds: "$149.99",
       andertons: "£199.00"
-    }
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/us/en/Recording-and-Computers/OFFLINE-Samson-Q9U-USB-XLR-Dynamic-Broadcast-Microphone/3JKA"
+    },
+    oos: [
+      "gear4music"
+    ]
   },
   434: {
     prices: {
