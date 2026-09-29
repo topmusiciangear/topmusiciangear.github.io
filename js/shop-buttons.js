@@ -3665,7 +3665,7 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$79.99",
       gear4music: "£95.00",
-      musicstore: "€88.24"
+      musicstore: "€105.00"
     },
     oos: [
       "andertons"

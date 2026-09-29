@@ -3,8 +3,13 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
   await new Promise(r => setTimeout(r, 75000));
   const r = await fetch('https://topmusiciangear.com/js/shop-buttons.js?v=' + Date.now(), { headers: { 'User-Agent': UA, 'Cache-Control': 'no-cache' } });
   const t = await r.text();
-  const block = id => { const i = t.indexOf('\n  ' + id + ': {'); return t.slice(i, t.indexOf('\n  },', i) + 4); };
+  const i = t.indexOf('\n  126: {');
   console.log('shop-buttons.js status ' + r.status + ' bytes ' + t.length);
-  console.log(block(318));
-  console.log(block(319));
+  console.log(t.slice(i, t.indexOf('\n  },', i) + 4));
+  for (const lang of ['', '_es']) {
+    const p = await fetch('https://topmusiciangear.com/guides/best-electric-guitars-2026' + lang + '.html?v=' + Date.now(), { headers: { 'User-Agent': UA, 'Cache-Control': 'no-cache' } });
+    const h = await p.text();
+    const c = s => (h.match(s) || []).length;
+    console.log('--- ' + p.status + (lang || '_en') + ': nuevo art-GIT0054156=' + c(/GIT0054156/g) + ' | viejo Dark-Night=' + c(/Telecaster-RW-Dark-Night/g) + ' | 1,517.56=' + c(/1,517\.56/g));
+  }
 })();
