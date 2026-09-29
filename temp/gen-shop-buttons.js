@@ -198,6 +198,7 @@ window.tmgStoreButtons = function(p) {
         }
         return;
       }
+      var tmgCheckLabel = (document.documentElement.lang || 'en').indexOf('es') === 0 ? 'Verificar precio' : 'Check price';
       if (curStore === T || curStore === 'msdirect') return;
       var zRow = c.querySelector('[data-store="' + T + '"]');
       if (!zRow) return;
@@ -209,6 +210,7 @@ window.tmgStoreButtons = function(p) {
       var zPrice = '';
       var zMatch = zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);
       if (zMatch) zPrice = zMatch[1];
+      if (T === 'amazon') zPrice = tmgCheckLabel;
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';
@@ -220,7 +222,9 @@ window.tmgStoreButtons = function(p) {
         var dispPrice = '';
         var dispMatch = pb.innerHTML.match(/- ([$\u00a3\u20ac][0-9.,]+)/);
         if (dispMatch) dispPrice = dispMatch[1];
-        var dispPriceSpan = dispPrice ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + dispPrice + '</span></span>' : '';
+        if (curStore === 'amazon') dispPrice = tmgCheckLabel;
+        var tmgLabelSpan = '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>';
+      var dispPriceSpan = dispPrice ? (dispPrice === tmgCheckLabel ? tmgLabelSpan : '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+dispPrice+'</span></span>') : '';
         var dispNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
         var isEsPage = (document.documentElement.lang || 'en').indexOf('es') === 0;
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;

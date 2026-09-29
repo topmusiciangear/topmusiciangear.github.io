@@ -4849,7 +4849,7 @@ function shopButtonsTest(p, lang) {
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
   const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
-  const pPrice = (primaryStoreKey === 'amazon') ? '' : (isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '');
+  const pPrice = (primaryStoreKey === 'amazon') ? t('Verificar precio', 'Check price') : (isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '');
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -4879,7 +4879,7 @@ function shopButtonsTest(p, lang) {
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '</a>';
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="' + st + '">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : '') + '</a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
       const oosPrice = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((cfg.prices && cfg.prices[k]) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#a8a8a8">' + cfg.prices[k] + '</span></span>' : '';
@@ -5749,13 +5749,14 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
       return;
     }
     if(curStore===T)return;
+    var tmgCheckLabel=(document.documentElement.lang||'en').indexOf('es')===0?'Verificar precio':'Check price';
     var zRow=c.querySelector('[data-store="'+T+'"]');
     if(!zRow)return;
     if(!zRow.getAttribute('href'))return;
     var ml=c.querySelector('.shop-more-list');
     var zUrl=zRow.getAttribute('href');var zAff=zRow.getAttribute('data-aff');
     var zAffAttr=zAff?' data-aff="'+zAff+'"':'';
-    var zPrice='';var zMatch=zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);if(zMatch)zPrice=zMatch[1];
+    var zPrice='';var zMatch=zRow.innerHTML.match(/font-weight:700;color:#fff[^>]*>([^<]+)/);if(zMatch)zPrice=zMatch[1];if(T==='amazon')zPrice=tmgCheckLabel;
     var aUrl=pb.getAttribute('href');var aAff=pb.getAttribute('data-aff');
     var aAffAttr=aAff?' data-aff="'+aAff+'"':'';
     var newPrimary='<a href="'+zUrl+'"'+zAffAttr+' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\\'brightness(1.05)\\'" onmouseout="this.style.filter=\\'\\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">Buy at<span style="'+(gStyle[T]||'font-weight:700')+'">'+(gText[T]||T)+'</span>'+(zPrice?' - '+zPrice:'')+'</span></span></a>';
@@ -5763,8 +5764,9 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     pb.insertAdjacentHTML('beforebegin',newPrimary);
     pb.remove();
     if(ml&&!ml.querySelector('[data-store="'+curStore+'"]')){
-      var dispPrice='';var dispMatch=pb.innerHTML.match(/- ([$\u00a3\u20ac][0-9.,]+)/);if(dispMatch)dispPrice=dispMatch[1];
-      var dispPriceSpan=dispPrice?'<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+dispPrice+'</span></span>':'';
+      var dispPrice='';var dispMatch=pb.innerHTML.match(/- ([$\u00a3\u20ac][0-9.,]+)/);if(dispMatch)dispPrice=dispMatch[1];if(curStore==='amazon')dispPrice=tmgCheckLabel;
+      var tmgLabelSpan = '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>';
+      var dispPriceSpan = dispPrice ? (dispPrice === tmgCheckLabel ? tmgLabelSpan : '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">'+dispPrice+'</span></span>') : '';
       var dispNotes={zzounds:['(Planes de pago f\u00e1ciles)','(Easy Payment Plans)'],reverb:['(Mercado nuevo y usado)','(New & Used Market)'],gear4music:['(Env\u00edos r\u00e1pidos UK)','(Fast UK Delivery)'],andertons:['(Soporte experto)','(Expert Support)'],musicstore:['(Garant\u00eda de 3 a\u00f1os)','(3-Year Warranty)'],amazon:['(Env\u00edo Prime)','(Prime Delivery)']};
       var isEs=(document.documentElement.lang||'en').indexOf('es')===0;
       var dispNote=dispNotes[curStore]?'<span style="color:#a8a8a8;font-size:12px;font-weight:600">'+(isEs?dispNotes[curStore][0]:dispNotes[curStore][1])+'</span>':'';
