@@ -195,10 +195,11 @@ window.tmgStoreButtons = function(p) {
 
 (function() {
   function tmgIsEsDoc() { return (document.documentElement.lang || 'en').indexOf('es') === 0; }
-  function tmgPriceHtml(plain) {
+  function tmgPriceHtml(plain, primary) {
     if (!plain) return '';
     var lab = tmgIsEsDoc() ? 'Aprox.' : 'Approx.';
-    return '<span class="shop-price" data-price="' + plain + '"><span style="font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + lab + '</span> ' + plain + '</span>';
+    var col = primary ? '#ffffff' : '#a8a8a8';
+    return '<span class="shop-price" data-price="' + plain + '"><span style="font-size:12px;font-weight:600;color:' + col + ';font-style:italic">' + lab + '</span> ' + plain + '</span>';
   }
   function doSwap(T) {
     document.querySelectorAll('.guide-product-card-stores, .guide-section-buy, .shop-buttons-wrap').forEach(function(c) {
@@ -214,8 +215,8 @@ window.tmgStoreButtons = function(p) {
           var hp = pb.getAttribute('data-hu-' + hr + '-p');
           if (hp) {
             var hpEl = pb.querySelector('.shop-price');
-            if (hpEl) hpEl.outerHTML = tmgPriceHtml(hp);
-            else pb.innerHTML = pb.innerHTML.replace(/- [£$€][0-9.,]+/, '- ' + tmgPriceHtml(hp));
+            if (hpEl) hpEl.outerHTML = tmgPriceHtml(hp, true);
+            else pb.innerHTML = pb.innerHTML.replace(/- [£$€][0-9.,]+/, '- ' + tmgPriceHtml(hp, true));
           }
         }
         return;
@@ -230,7 +231,8 @@ window.tmgStoreButtons = function(p) {
       var zAff = zRow.getAttribute('data-aff');
       var zAffAttr = zAff ? ' data-aff="' + zAff + '"' : '';
       var zPriceEl = zRow.querySelector('.shop-price');
-      var zPriceHtml = zPriceEl ? zPriceEl.outerHTML : (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : '');
+      var zPlain = zPriceEl ? zPriceEl.getAttribute('data-price') : '';
+      var zPriceHtml = zPlain ? tmgPriceHtml(zPlain, true) : (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : '');
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';

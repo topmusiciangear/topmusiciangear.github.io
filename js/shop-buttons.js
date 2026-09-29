@@ -4635,14 +4635,16 @@ function fmtPricePlain(raw) {
 }
 
 // Formats a store price for display: strips decimals (truncates) and renders
-// the "Approx." label with the same styling as the "Check price" label
-// (12px, semibold, #a8a8a8, italic) followed by the plain amount.
+// the "Approx." label in the "Check price" typography (12px, semibold, italic)
+// followed by the plain amount.
+// Label color depends on the surface: #a8a8a8 on the dark store rows, and
+// #ffffff on the blue primary button where gray would not be readable.
 // Always re-applies the thousands separator so values above 999 keep the
 // comma (AGENTS rule). The plain amount is kept in data-price so the
 // geo-swap script can move prices between the primary button and the rows
 // without parsing HTML.
 
-function fmtPrice(raw, lang) {
+function fmtPrice(raw, lang, primary) {
   if (!raw) return '';
   var s = String(raw);
   var m = s.match(/^([$\u00a3\u20ac])\s*([\d,]+)(?:\.(\d+))?\s*$/);
@@ -4651,8 +4653,9 @@ function fmtPrice(raw, lang) {
   if (!isFinite(whole)) return s;
   var out = String(whole).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   var label = lang === 'es' ? 'Aprox.' : 'Approx.';
+  var color = primary ? '#ffffff' : '#a8a8a8';
   return '<span class=\'shop-price\' data-price=\'' + m[1] + out + '\'>' +
-    '<span style=\'font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic\'>' + label + '</span> ' +
+    '<span style=\'font-size:12px;font-weight:600;color:' + color + ';font-style:italic\'>' + label + '</span> ' +
     m[1] + out + '</span>';
 }
 
@@ -4697,7 +4700,7 @@ function shopButtonsTest(p, lang) {
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
   const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
-  const pPrice = (primaryStoreKey === 'amazon') ? t('Verificar precio', 'Check price') : fmtPrice(isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '', lang);
+  const pPrice = (primaryStoreKey === 'amazon') ? t('Verificar precio', 'Check price') : fmtPrice(isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '', lang, true);
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -4760,10 +4763,11 @@ window.tmgStoreButtons = function(p) {
 
 (function() {
   function tmgIsEsDoc() { return (document.documentElement.lang || 'en').indexOf('es') === 0; }
-  function tmgPriceHtml(plain) {
+  function tmgPriceHtml(plain, primary) {
     if (!plain) return '';
     var lab = tmgIsEsDoc() ? 'Aprox.' : 'Approx.';
-    return '<span class="shop-price" data-price="' + plain + '"><span style="font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + lab + '</span> ' + plain + '</span>';
+    var col = primary ? '#ffffff' : '#a8a8a8';
+    return '<span class="shop-price" data-price="' + plain + '"><span style="font-size:12px;font-weight:600;color:' + col + ';font-style:italic">' + lab + '</span> ' + plain + '</span>';
   }
   function doSwap(T) {
     document.querySelectorAll('.guide-product-card-stores, .guide-section-buy, .shop-buttons-wrap').forEach(function(c) {
@@ -4779,8 +4783,8 @@ window.tmgStoreButtons = function(p) {
           var hp = pb.getAttribute('data-hu-' + hr + '-p');
           if (hp) {
             var hpEl = pb.querySelector('.shop-price');
-            if (hpEl) hpEl.outerHTML = tmgPriceHtml(hp);
-            else pb.innerHTML = pb.innerHTML.replace(/- [£$€][0-9.,]+/, '- ' + tmgPriceHtml(hp));
+            if (hpEl) hpEl.outerHTML = tmgPriceHtml(hp, true);
+            else pb.innerHTML = pb.innerHTML.replace(/- [£$€][0-9.,]+/, '- ' + tmgPriceHtml(hp, true));
           }
         }
         return;
@@ -4795,7 +4799,8 @@ window.tmgStoreButtons = function(p) {
       var zAff = zRow.getAttribute('data-aff');
       var zAffAttr = zAff ? ' data-aff="' + zAff + '"' : '';
       var zPriceEl = zRow.querySelector('.shop-price');
-      var zPriceHtml = zPriceEl ? zPriceEl.outerHTML : (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : '');
+      var zPlain = zPriceEl ? zPriceEl.getAttribute('data-price') : '';
+      var zPriceHtml = zPlain ? tmgPriceHtml(zPlain, true) : (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : '');
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';
