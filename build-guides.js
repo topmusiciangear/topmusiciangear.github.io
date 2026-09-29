@@ -5605,6 +5605,13 @@ ${ogMeta}
     </div>
   </main>
 
+  <footer>
+    <div class="footer-bottom">
+      <p>${isEs ? '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store y Hollyland. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="/es/affiliate-disclosure.html" id="disclosureLink">M\u00e1s info</a>' : '<strong>TopMusicianGear</strong> is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store, and Hollyland. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="/affiliate-disclosure.html" id="disclosureLink">More info</a>'}</p>
+      <p>&copy; 2026 TopMusicianGear. ${isEs ? 'Todos los derechos reservados.' : 'All rights reserved.'} ${isEs ? 'Hecho por un m\u00fasico, para m\u00fasicos.' : 'Built by a musician, for musicians.'}</p>
+    </div>
+  </footer>
+
 
 
   <!-- Affiliate Disclosure Modal -->
