@@ -678,7 +678,7 @@ const TEST_SHOP_BTN = {
       amazon: "$229.00",
       andertons: "£299.00",
       gear4music: "£239.00",
-      musicstore: "€139.00"
+      musicstore: "€269.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--YAMFG800"
