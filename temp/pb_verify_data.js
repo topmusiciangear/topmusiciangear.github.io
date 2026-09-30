@@ -43,6 +43,7 @@ const APPROVED_NON_PB = {
   '158': { 'prices.musicstore': ['€217.65', '€299.00'] },
   '159': { 'prices.zzounds': ['$419.99', '$450.00'], 'prices.gear4music': ['£399.00', '£397.00'] },
   '160': { 'prices.musicstore': ['€389.00', '€369.00'] },
+  '161': { 'prices.musicstore': [undefined, '€539.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
