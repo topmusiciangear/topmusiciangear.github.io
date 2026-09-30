@@ -1,0 +1,1188 @@
+[
+ {
+  "id": "starter-studio",
+  "ncards": 15,
+  "ncols": 8,
+  "nverdict": 8,
+  "flags": [
+   "SIN_TABLA: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Aston Microphones Shield GN Pop Filter | Rode NT1 Signature Series | K&M 210/2 Mic Stand | Mogami Gold Studio XLR Cable | G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+   "SIN_VEREDICTO: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Aston Microphones Shield GN Pop Filter | Rode NT1 Signature Series | K&M 210/2 Mic Stand | Mogami Gold Studio XLR Cable | G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)"
+  ]
+ },
+ {
+  "id": "best-interface",
+  "ncards": 10,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Rode Rodecaster Duo | Roland Bridge Cast X",
+   "SIN_VEREDICTO: Rode Rodecaster Duo | Roland Bridge Cast X"
+  ]
+ },
+ {
+  "id": "best-microphone",
+  "ncards": 11,
+  "ncols": 9,
+  "nverdict": 9,
+  "flags": [
+   "SIN_TABLA: AKG C414 XLII | Rode NT1 Signature Series | MXL R144 | Royer R-121",
+   "TABLA_SIN_TARJETA: Rode PodMic | Rode Procaster | Elgato Wave:3",
+   "SIN_VEREDICTO: AKG C414 XLII | Rode NT1 Signature Series | MXL R144 | Royer R-121",
+   "VEREDICTO_SIN_TARJETA: Rode PodMic | Rode Procaster | Elgato Wave:3"
+  ]
+ },
+ {
+  "id": "best-plugins",
+  "ncards": 9,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: TDR Kotelnikov GE | Universal Audio UAD Ultimate 14",
+   "SIN_VEREDICTO: TDR Kotelnikov GE | Universal Audio UAD Ultimate 14"
+  ]
+ },
+ {
+  "id": "budget-mics",
+  "ncards": 23,
+  "ncols": 23,
+  "nverdict": 23,
+  "flags": [
+   "SIN_TABLA: MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+   "TABLA_SIN_TARJETA: MAONO PD100 XLR",
+   "SIN_VEREDICTO: MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+   "VEREDICTO_SIN_TARJETA: MAONO PD100 XLR"
+  ]
+ },
+ {
+  "id": "usb-mics",
+  "ncards": 15,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Rode XCM-50 Compact USB Condenser Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone | Rode PodMic USB | HyperX QuadCast 2 | Rode NT-USB Mini Studio Condenser Microphone",
+   "TABLA_SIN_TARJETA: Shure SM7B | Electro-Voice RE20",
+   "SIN_VEREDICTO: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Rode XCM-50 Compact USB Condenser Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone | Rode PodMic USB | HyperX QuadCast 2 | Rode NT-USB Mini Studio Condenser Microphone",
+   "VEREDICTO_SIN_TARJETA: Shure SM7B | Electro-Voice RE20"
+  ]
+ },
+ {
+  "id": "stage-mics",
+  "ncards": 10,
+  "ncols": 9,
+  "nverdict": 9,
+  "flags": [
+   "SIN_TABLA: Sennheiser EW-D Dual Wireless System | Electro-Voice ND86",
+   "TABLA_SIN_TARJETA: EV ND86",
+   "SIN_VEREDICTO: Sennheiser EW-D Dual Wireless System | Electro-Voice ND86",
+   "VEREDICTO_SIN_TARJETA: EV ND86"
+  ]
+ },
+ {
+  "id": "open-headphones",
+  "ncards": 7,
+  "ncols": 8,
+  "nverdict": 7,
+  "flags": [
+   "TABLA_SIN_TARJETA: Audeze LCD-X"
+  ]
+ },
+ {
+  "id": "tracking-headphones",
+  "ncards": 6,
+  "ncols": 7,
+  "nverdict": 6,
+  "flags": [
+   "TABLA_SIN_TARJETA: AKG K371"
+  ]
+ },
+ {
+  "id": "budget-monitors",
+  "ncards": 8,
+  "ncols": 4,
+  "nverdict": 4,
+  "flags": [
+   "SIN_TABLA: Kali Audio IN-8 V2 | Kali Audio IN-UNF | Kali Audio LP-UNF | Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
+   "SIN_VEREDICTO: Kali Audio IN-8 V2 | Kali Audio IN-UNF | Kali Audio LP-UNF | Genelec 8351B SAM 3-Way Coaxial Studio Monitor"
+  ]
+ },
+ {
+  "id": "monitor-setup",
+  "ncards": 1,
+  "ncols": 2,
+  "nverdict": 2,
+  "flags": [
+   "TABLA_SIN_TARJETA: K&M Monitor Stands (Pair)",
+   "VEREDICTO_SIN_TARJETA: K&M Monitor Stands (Pair)"
+  ]
+ },
+ {
+  "id": "midi-controllers",
+  "ncards": 7,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Mackie MCU Pro",
+   "SIN_VEREDICTO: Mackie MCU Pro"
+  ]
+ },
+ {
+  "id": "channel-strip-plugins",
+  "ncards": 6,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Brainworx bx_console SSL 4000 E",
+   "SIN_VEREDICTO: Brainworx bx_console SSL 4000 E"
+  ]
+ },
+ {
+  "id": "fender-guide",
+  "ncards": 9,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Fender Player II Telecaster | Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s",
+   "TABLA_SIN_TARJETA: Fender Player Telecaster",
+   "SIN_VEREDICTO: Fender Player II Telecaster | Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s",
+   "VEREDICTO_SIN_TARJETA: Fender Player Telecaster"
+  ]
+ },
+ {
+  "id": "guitar-bass-amps",
+  "ncards": 8,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Ampeg Rocket Bass RB-210 | Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2",
+   "TABLA_SIN_TARJETA: Ampeg RB-210",
+   "SIN_VEREDICTO: Ampeg Rocket Bass RB-210 | Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2",
+   "VEREDICTO_SIN_TARJETA: Ampeg RB-210"
+  ]
+ },
+ {
+  "id": "stage-wireless",
+  "ncards": 5,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Shure BLX24R/SM58 Wireless",
+   "TABLA_SIN_TARJETA: Shure SM58 Wireless",
+   "SIN_VEREDICTO: Shure BLX24R/SM58 Wireless",
+   "VEREDICTO_SIN_TARJETA: Shure SM58 Wireless"
+  ]
+ },
+ {
+  "id": "guitar-pedals",
+  "ncards": 8,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Electro-Harmonix Nano Small Stone | Strymon BigSky MX",
+   "TABLA_SIN_TARJETA: Electro-Harmonix Small Stone",
+   "SIN_VEREDICTO: Electro-Harmonix Nano Small Stone | Strymon BigSky MX",
+   "VEREDICTO_SIN_TARJETA: Electro-Harmonix Small Stone"
+  ]
+ },
+ {
+  "id": "acoustic-guitars-guide",
+  "ncards": 7,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Gibson Custom Shop 1942 Banner J-45",
+   "TABLA_SIN_TARJETA: Gibson 1942 Banner J-45"
+  ]
+ },
+ {
+  "id": "midi-keyboards",
+  "ncards": 6,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Novation Launchkey 49 MK4",
+   "SIN_VEREDICTO: Novation Launchkey 49 MK4"
+  ]
+ },
+ {
+  "id": "budget-interfaces",
+  "ncards": 7,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Audient EVO 4",
+   "SIN_VEREDICTO: Audient EVO 4"
+  ]
+ },
+ {
+  "id": "vocal-plugins",
+  "ncards": 9,
+  "ncols": 8,
+  "nverdict": 8,
+  "flags": [
+   "SIN_TABLA: Sonnox VoxDoubler",
+   "SIN_VEREDICTO: Sonnox VoxDoubler"
+  ]
+ },
+ {
+  "id": "beginner-guitar",
+  "ncards": 8,
+  "ncols": 5,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Yamaha C40 Classical (Nylon) Guitar | Squier Affinity Series Stratocaster | Enya Nova Go Sonic Smart Electric Guitar | Squier Sonic Mustang",
+   "TABLA_SIN_TARJETA: Squier Affinity Stratocaster",
+   "SIN_VEREDICTO: Enya Nova Go Sonic Smart Electric Guitar | Squier Sonic Mustang"
+  ]
+ },
+ {
+  "id": "sm57-vs-sm58",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Shure SM57 | Shure SM58"
+  ]
+ },
+ {
+  "id": "scarlett-vs-ssl",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: SSL 2+ MKII | Focusrite Scarlett 2i2 4th Gen"
+  ]
+ },
+ {
+  "id": "dt770-vs-dt990",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Beyerdynamic DT 770 Pro | Beyerdynamic DT 990 Pro"
+  ]
+ },
+ {
+  "id": "hs8-vs-rokit-7",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Yamaha HS8 | KRK Rokit 7 G5"
+  ]
+ },
+ {
+  "id": "m50x-vs-mdr7506",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Audio-Technica ATH-M50x | Sony MDR-7506"
+  ]
+ },
+ {
+  "id": "best-electric-guitar",
+  "ncards": 18,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Enya Nova Go Sonic Smart Electric Guitar | Squier Classic Vibe '50s Stratocaster | Squier Debut Series Stratocaster | Squier Affinity Series Stratocaster | Squier Sonic Mustang | Fender Player II Jazzmaster | Fender Player II Stratocaster HSS | Fender Player II Telecaster | Gibson Les Paul Standard '60s | Fender American Ultra II Stratocaster | Fender American Professional II Telecaster",
+   "SIN_VEREDICTO: Enya Nova Go Sonic Smart Electric Guitar | Squier Classic Vibe '50s Stratocaster | Squier Debut Series Stratocaster | Squier Affinity Series Stratocaster | Squier Sonic Mustang | Fender Player II Jazzmaster | Fender Player II Stratocaster HSS | Fender Player II Telecaster | Gibson Les Paul Standard '60s | Fender American Ultra II Stratocaster | Fender American Professional II Telecaster"
+  ]
+ },
+ {
+  "id": "apollo-vs-babyface",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Universal Audio Apollo Twin X Gen 2 | RME Babyface Pro FS"
+  ]
+ },
+ {
+  "id": "scarlett-vs-volt",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Focusrite Scarlett 2i2 4th Gen | Universal Audio Volt 2"
+  ]
+ },
+ {
+  "id": "audient-vs-motu",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Audient iD14 MkII | MOTU M2"
+  ]
+ },
+ {
+  "id": "rme-vs-motu",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: RME Babyface Pro FS | MOTU M2"
+  ]
+ },
+ {
+  "id": "adam-vs-genelec",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Adam Audio A7V | Genelec 8040B"
+  ]
+ },
+ {
+  "id": "jbl-vs-kali",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: JBL 305P MkII | Kali Audio LP-6 V2"
+  ]
+ },
+ {
+  "id": "hd490-pro-vs-dt990",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Sennheiser HD 490 Pro Plus | Beyerdynamic DT 990 Pro"
+  ]
+ },
+ {
+  "id": "m50x-vs-dt770",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Audio-Technica ATH-M50x | Beyerdynamic DT 770 Pro"
+  ]
+ },
+ {
+  "id": "k371-vs-mdr7506",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: AKG K371 | Sony MDR-7506"
+  ]
+ },
+ {
+  "id": "sm7b-vs-nt1",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Shure SM7B | Rode NT1 5th Generation"
+  ]
+ },
+ {
+  "id": "sm57-vs-md421",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Shure SM57 | Sennheiser MD 421 Kompakt"
+  ]
+ },
+ {
+  "id": "c414-vs-u87",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Neumann U 87 Ai | AKG C414 XLII"
+  ]
+ },
+ {
+  "id": "re20-vs-sm7b",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Electro-Voice RE20 | Shure SM7B"
+  ]
+ },
+ {
+  "id": "blx288-vs-ewd",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Shure BLX288/PG58 | Sennheiser EW-D Dual Wireless System"
+  ]
+ },
+ {
+  "id": "zlx-vs-k12",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: EV ZLX-12P-G2 Powered Speaker | QSC K12.2 Powered Speaker"
+  ]
+ },
+ {
+  "id": "dxr-vs-prx",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Yamaha DXR12mkII | JBL PRX ONE"
+  ]
+ },
+ {
+  "id": "player-strat-vs-pacifica",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Fender Player II Stratocaster HSS | Yamaha Pacifica 112V"
+  ]
+ },
+ {
+  "id": "american-pro-vs-les-paul",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s"
+  ]
+ },
+ {
+  "id": "martin-d28-vs-taylor-314",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Martin D-28 Dreadnought | Taylor 314ce Next Generation"
+  ]
+ },
+ {
+  "id": "ableton-vs-fl-studio",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: FL Studio Producer Edition | Ableton Live 12 Suite"
+  ]
+ },
+ {
+  "id": "pro-tools-vs-cubase",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Avid Pro Tools Studio | Steinberg Cubase Pro 15"
+  ]
+ },
+ {
+  "id": "blues-junior-vs-ac30",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Fender Blues Junior IV | Vox AC30"
+  ]
+ },
+ {
+  "id": "katana-vs-dsl",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Marshall DSL40CR | Boss Katana 50 Gen 3"
+  ]
+ },
+ {
+  "id": "fabfilter-vs-ozone",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: FabFilter Total Bundle | iZotope Ozone 12 Advanced"
+  ]
+ },
+ {
+  "id": "best-guitar-home-office",
+  "ncards": 9,
+  "ncols": 9,
+  "nverdict": 8,
+  "flags": [
+   "SIN_TABLA: Traveler Guitar Ultra-Light Steel",
+   "TABLA_SIN_TARJETA: Yamaha Pacifica 112V | Traveler Ultra-Light Steel"
+  ]
+ },
+ {
+  "id": "fix-clipping-scarlett",
+  "ncards": 9,
+  "ncols": 0,
+  "nverdict": 9,
+  "flags": [
+   "SIN_TABLA: Focusrite Scarlett 2i2 4th Gen | Shure SM7B | Universal Audio Apollo Twin X Gen 2 | Electro-Voice RE20 | Audient iD14 MkII | Universal Audio Volt 2 | Universal Audio UAD Ultimate 14 | Universal Audio Apollo x16 Gen 2 | Universal Audio Volt 276"
+  ]
+ },
+ {
+  "id": "best-mic-for-guitar-amps",
+  "ncards": 5,
+  "ncols": 3,
+  "nverdict": 3,
+  "flags": [
+   "SIN_TABLA: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone",
+   "SIN_VEREDICTO: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone"
+  ]
+ },
+ {
+  "id": "best-mic-for-podcasting",
+  "ncards": 10,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Rode NT1 Signature Series | Behringer XM8500 Ultravoice Dynamic Microphone | Shure MV7+ | Hollyland MELO P1",
+   "SIN_VEREDICTO: Rode NT1 Signature Series | Behringer XM8500 Ultravoice Dynamic Microphone | Shure MV7+ | Hollyland MELO P1"
+  ]
+ },
+ {
+  "id": "best-headphones-for-mixing",
+  "ncards": 5,
+  "ncols": 4,
+  "nverdict": 4,
+  "flags": [
+   "SIN_TABLA: Beyerdynamic DT 770 Pro",
+   "SIN_VEREDICTO: Beyerdynamic DT 770 Pro"
+  ]
+ },
+ {
+  "id": "best-monitors-for-small-rooms",
+  "ncards": 11,
+  "ncols": 11,
+  "nverdict": 11,
+  "flags": [
+   "SIN_TABLA: ADAM Audio D3V | Kali Audio LP-UNF | Kali Audio LP-6 V2 | ADAM Audio T5V",
+   "TABLA_SIN_TARJETA: Kali LP-6 V2 | ADAM D3V | Kali LP-UNF | ADAM T5V",
+   "SIN_VEREDICTO: ADAM Audio D3V | Kali Audio LP-UNF | Kali Audio LP-6 V2 | ADAM Audio T5V",
+   "VEREDICTO_SIN_TARJETA: Kali LP-6 V2 | ADAM D3V | Kali LP-UNF | ADAM T5V"
+  ]
+ },
+ {
+  "id": "best-beginner-electric-guitar",
+  "ncards": 10,
+  "ncols": 10,
+  "nverdict": 4,
+  "flags": [
+   "SIN_TABLA: Squier Affinity Series Stratocaster | Squier Sonic Stratocaster HT | Epiphone Les Paul Special-II E1 | Yamaha Revstar Element RSE20 | Squier Debut Series Stratocaster",
+   "TABLA_SIN_TARJETA: Squier Affinity Strat | Squier Sonic Strat HT | Epiphone LP Special-II E1 | Yamaha Revstar RSE20 | Squier Debut Strat",
+   "SIN_VEREDICTO: Squier Affinity Series Stratocaster | Epiphone Les Paul Special-II E1 | Jet Guitars JS-300 | Squier Sonic Mustang | Enya Nova Go Sonic Smart Electric Guitar | Yamaha Revstar Element RSE20 | Squier Debut Series Stratocaster",
+   "VEREDICTO_SIN_TARJETA: Squier Affinity Stratocaster"
+  ]
+ },
+ {
+  "id": "best-grooveboxes",
+  "ncards": 4,
+  "ncols": 3,
+  "nverdict": 3,
+  "flags": [
+   "SIN_TABLA: Roland TR-6S",
+   "SIN_VEREDICTO: Roland TR-6S"
+  ]
+ },
+ {
+  "id": "best-practice-amps",
+  "ncards": 6,
+  "ncols": 3,
+  "nverdict": 3,
+  "flags": [
+   "SIN_TABLA: Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2 | Boss Waza-Air",
+   "SIN_VEREDICTO: Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2 | Boss Waza-Air"
+  ]
+ },
+ {
+  "id": "best-bass-amps",
+  "ncards": 6,
+  "ncols": 3,
+  "nverdict": 3,
+  "flags": [
+   "SIN_TABLA: Ampeg Rocket Bass RB-210 | Positive Grid Spark LIVE 150W Smart Amp & PA | Orange Crush Bass 50 1x12 Bass Combo | Darkglass DG210A Microtubes 500 2x10 Bass Combo",
+   "TABLA_SIN_TARJETA: Ampeg RB-210",
+   "SIN_VEREDICTO: Ampeg Rocket Bass RB-210 | Positive Grid Spark LIVE 150W Smart Amp & PA | Orange Crush Bass 50 1x12 Bass Combo | Darkglass DG210A Microtubes 500 2x10 Bass Combo",
+   "VEREDICTO_SIN_TARJETA: Ampeg RB-210"
+  ]
+ },
+ {
+  "id": "best-reverb-delay",
+  "ncards": 3,
+  "ncols": 4,
+  "nverdict": 4,
+  "flags": [
+   "TABLA_SIN_TARJETA: Boss RC-5 Loop Station",
+   "VEREDICTO_SIN_TARJETA: Boss RC-5 Loop Station"
+  ]
+ },
+ {
+  "id": "ts9-vs-bd2",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Ibanez TS9 Tube Screamer | Boss BD-2 Blues Driver"
+  ]
+ },
+ {
+  "id": "best-live-sound-mixers",
+  "ncards": 8,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Yamaha MG16XU | Behringer X Air XR18 | Allen & Heath CQ-18T | Korg SoundLink MW-1608",
+   "TABLA_SIN_TARJETA: Korg MW-1608",
+   "SIN_VEREDICTO: Yamaha MG16XU | Behringer X Air XR18 | Allen & Heath CQ-18T | Korg SoundLink MW-1608",
+   "VEREDICTO_SIN_TARJETA: Korg MW-1608"
+  ]
+ },
+ {
+  "id": "best-digital-mixers",
+  "ncards": 6,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Soundcraft Ui24R | Soundcraft Ui16 | PreSonus StudioLive 32SC | Yamaha DM3 Standard | Behringer WING Compact",
+   "TABLA_SIN_TARJETA: Tascam Model 12 | Behringer X32 Compact | Korg SoundLink MW-1608 | Allen & Heath CQ-18T | Midas M32R LIVE",
+   "SIN_VEREDICTO: Soundcraft Ui24R | Soundcraft Ui16 | PreSonus StudioLive 32SC | Yamaha DM3 Standard | Behringer WING Compact",
+   "VEREDICTO_SIN_TARJETA: Tascam Model 12 | Behringer X32 Compact | Korg SoundLink MW-1608 | Allen & Heath CQ-18T | Midas M32R LIVE"
+  ]
+ },
+ {
+  "id": "best-analog-mixers",
+  "ncards": 5,
+  "ncols": 4,
+  "nverdict": 4,
+  "flags": [
+   "SIN_TABLA: Soundcraft Signature 12 MTK",
+   "SIN_VEREDICTO: Soundcraft Signature 12 MTK"
+  ]
+ },
+ {
+  "id": "best-compact-mixers",
+  "ncards": 3,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "TABLA_SIN_TARJETA: Mackie MobileMix | Yamaha MG10XU | Allen & Heath ZEDi-10FX",
+   "VEREDICTO_SIN_TARJETA: Mackie MobileMix | Yamaha MG10XU | Allen & Heath ZEDi-10FX"
+  ]
+ },
+ {
+  "id": "xr18-vs-m32r",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Behringer X Air XR18 | Midas M32R LIVE"
+  ]
+ },
+ {
+  "id": "xr18-vs-cq18t",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Behringer X Air XR18 | Allen & Heath CQ-18T"
+  ]
+ },
+ {
+  "id": "nord-stage-4-vs-montage-m8x",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Nord Stage 4 88 | Yamaha Montage M8x"
+  ]
+ },
+ {
+  "id": "digitakt-ii-vs-tr8s",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Elektron Digitakt II | Roland TR-8S"
+  ]
+ },
+ {
+  "id": "yamaha-mg-vs-behringer-xenyx",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Yamaha MG10XU | Behringer Xenyx X1222USB"
+  ]
+ },
+ {
+  "id": "precision-vs-jazz",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Fender Player II Jazz Bass | Fender Player II Precision Bass",
+   "SIN_VEREDICTO: Fender Player II Jazz Bass | Fender Player II Precision Bass",
+   "VEREDICTO_SIN_TARJETA: Fender Player Precision Bass | Fender Player Jazz Bass"
+  ]
+ },
+ {
+  "id": "fender-bass-guide",
+  "ncards": 7,
+  "ncols": 4,
+  "nverdict": 4,
+  "flags": [
+   "SIN_TABLA: Fender Player II Precision Bass | Fender Player II Jazz Bass | Squier Classic Vibe '60s Jazz Bass | Squier Affinity Series Precision Bass PJ | Fender American Ultra II Precision Bass",
+   "TABLA_SIN_TARJETA: Fender Player Precision Bass | Fender Player Jazz Bass",
+   "SIN_VEREDICTO: Fender Player II Precision Bass | Fender Player II Jazz Bass | Squier Classic Vibe '60s Jazz Bass | Squier Affinity Series Precision Bass PJ | Fender American Ultra II Precision Bass",
+   "VEREDICTO_SIN_TARJETA: Fender Player Precision Bass | Fender Player Jazz Bass"
+  ]
+ },
+ {
+  "id": "scarlett-vs-motu",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Focusrite Scarlett 2i2 4th Gen | MOTU M2"
+  ]
+ },
+ {
+  "id": "ableton-vs-logic",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Ableton Live 12 Suite | Logic Pro"
+  ]
+ },
+ {
+  "id": "active-vs-passive-pa",
+  "ncards": 8,
+  "ncols": 6,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: EV ZLX-12P-G2 Powered Speaker | QSC K12.2 Powered Speaker",
+   "SIN_VEREDICTO: JBL EON712 Powered Speaker | EV ELX200-15P Powered Speaker",
+   "VEREDICTO_SIN_TARJETA: Yamaha DBR12"
+  ]
+ },
+ {
+  "id": "budget-bass-like-expensive",
+  "ncards": 11,
+  "ncols": 6,
+  "nverdict": 11,
+  "flags": [
+   "SIN_TABLA: Fender Player II Jazz Bass | Fender American Professional II Jazz Bass | Fender Player II Precision Bass | Fender American Professional II Precision Bass | Fender American Ultra II Precision Bass"
+  ]
+ },
+ {
+  "id": "beginner-bass-guitars",
+  "ncards": 13,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Fender Player II Precision Bass | Fender Player II Jazz Bass | Fender American Professional II Precision Bass | Fender American Professional II Jazz Bass | Fender American Ultra II Precision Bass | Sire Marcus Miller V5 4-String Bass | ESP LTD B-204SM Bass Guitar",
+   "SIN_VEREDICTO: Fender Player II Precision Bass | Fender Player II Jazz Bass | Fender American Professional II Precision Bass | Fender American Professional II Jazz Bass | Fender American Ultra II Precision Bass | Sire Marcus Miller V5 4-String Bass | ESP LTD B-204SM Bass Guitar"
+  ]
+ },
+ {
+  "id": "best-bass-under-700",
+  "ncards": 8,
+  "ncols": 8,
+  "nverdict": 8,
+  "flags": [
+   "SIN_TABLA: Sterling by Music Man StingRay Ray4",
+   "TABLA_SIN_TARJETA: Sterling StingRay Ray4",
+   "SIN_VEREDICTO: Sterling by Music Man StingRay Ray4",
+   "VEREDICTO_SIN_TARJETA: Sterling StingRay Ray4"
+  ]
+ },
+ {
+  "id": "pro-headphones",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Audeze LCD-MX4 | Audeze LCD-X"
+  ]
+ },
+ {
+  "id": "pro-microphones",
+  "ncards": 5,
+  "ncols": 0,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Neumann U 87 Ai | Lewitt LCT1040 Ultimate Microphone System | Rode NT-USB Mini Studio Condenser Microphone | Rode XCM-50 Compact USB Condenser Microphone | Aston Microphones Shield GN Pop Filter"
+  ]
+ },
+ {
+  "id": "pro-monitors",
+  "ncards": 6,
+  "ncols": 0,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: ADAM Audio S3H | Focal Trio11 Be | Adam Audio A7V | ADAM Audio D3V | Genelec 8351B SAM 3-Way Coaxial Studio Monitor | IK Multimedia iLoud Micro Monitor Pro"
+  ]
+ },
+ {
+  "id": "pro-interfaces",
+  "ncards": 3,
+  "ncols": 0,
+  "nverdict": 3,
+  "flags": [
+   "SIN_TABLA: Universal Audio Apollo x16 Gen 2 | RME Fireface UFX III | Universal Audio Apollo Twin X Gen 2"
+  ]
+ },
+ {
+  "id": "pro-guitars",
+  "ncards": 9,
+  "ncols": 0,
+  "nverdict": 8,
+  "flags": [
+   "SIN_TABLA: Fender American Ultra II Stratocaster | Gibson Les Paul Standard '60s | Fender American Professional II Stratocaster | Fender American Ultra II Stratocaster | Fender American Professional II Telecaster | Fender American Professional II Precision Bass | Fender American Professional II Jazz Bass | Fender American Ultra II Precision Bass | Enya Nova Go Sonic Smart Electric Guitar"
+  ]
+ },
+ {
+  "id": "pro-basses",
+  "ncards": 7,
+  "ncols": 0,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Fender American Ultra II Precision Bass | Music Man StingRay Special | Fender Player II Precision Bass | Fender American Professional II Precision Bass | Fender American Professional II Jazz Bass | Squier Affinity Series Precision Bass PJ | Sterling by Music Man StingRay Ray4"
+  ]
+ },
+ {
+  "id": "pro-synths",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Moog Muse | Sequential Prophet-10"
+  ]
+ },
+ {
+  "id": "pro-drum-machines",
+  "ncards": 4,
+  "ncols": 0,
+  "nverdict": 4,
+  "flags": [
+   "SIN_TABLA: Elektron Digitakt II | Akai MPC Live III | Akai MPC One G2 | Akai MPC Sample"
+  ]
+ },
+ {
+  "id": "pro-plugins",
+  "ncards": 3,
+  "ncols": 0,
+  "nverdict": 3,
+  "flags": [
+   "SIN_TABLA: FabFilter Total Bundle | Native Instruments Komplete 26 Ultimate | Native Instruments Kontakt 8"
+  ]
+ },
+ {
+  "id": "pro-live-sound",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Allen & Heath SQ-5 | Behringer X32 Compact"
+  ]
+ },
+ {
+  "id": "pro-mixers",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Allen & Heath CQ-18T | Midas M32R LIVE"
+  ]
+ },
+ {
+  "id": "pro-daw",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Ableton Live 12 Suite | Avid Pro Tools Studio"
+  ]
+ },
+ {
+  "id": "beat-making",
+  "ncards": 9,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Akai MPC Live III | Akai MPC Sample",
+   "SIN_VEREDICTO: Akai MPC Live III | Akai MPC Sample"
+  ]
+ },
+ {
+  "id": "me90-vs-mx5",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Boss ME-90 | HeadRush Flex Prime"
+  ]
+ },
+ {
+  "id": "best-instrument-mics",
+  "ncards": 14,
+  "ncols": 13,
+  "nverdict": 14,
+  "flags": [
+   "SIN_TABLA: Shure Beta 58A"
+  ]
+ },
+ {
+  "id": "stage-wedges",
+  "ncards": 5,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Turbosound Flashline TFX122M-AN Stage Monitor",
+   "TABLA_SIN_TARJETA: Turbosound TFX122M-AN",
+   "SIN_VEREDICTO: Turbosound Flashline TFX122M-AN Stage Monitor",
+   "VEREDICTO_SIN_TARJETA: Turbosound TFX122M-AN"
+  ]
+ },
+ {
+  "id": "nx912-vs-pxm12mp",
+  "ncards": 2,
+  "ncols": 2,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Electro-Voice PXM-12MP",
+   "TABLA_SIN_TARJETA: EV PXM-12MP"
+  ]
+ },
+ {
+  "id": "best-live-subwoofers",
+  "ncards": 6,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Electro-Voice ELX200-18SP | JBL PRX ONE",
+   "TABLA_SIN_TARJETA: EV ELX200-18SP",
+   "SIN_VEREDICTO: Electro-Voice ELX200-18SP | JBL PRX ONE",
+   "VEREDICTO_SIN_TARJETA: EV ELX200-18SP"
+  ]
+ },
+ {
+  "id": "stream-controllers",
+  "ncards": 6,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Elgato Wave XLR Pro",
+   "SIN_VEREDICTO: Elgato Wave XLR Pro"
+  ]
+ },
+ {
+  "id": "streaming-interfaces",
+  "ncards": 10,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Universal Audio Apollo Twin X Gen 2 | Audient iD14 MkII | Focusrite Scarlett 2i2 4th Gen",
+   "SIN_VEREDICTO: Universal Audio Apollo Twin X Gen 2 | Audient iD14 MkII | Focusrite Scarlett 2i2 4th Gen"
+  ]
+ },
+ {
+  "id": "wireless-lapel-mics",
+  "ncards": 7,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "TABLA_SIN_TARJETA: LARK MAX 2 (2-Person)"
+  ]
+ },
+ {
+  "id": "mics-for-creators",
+  "ncards": 11,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Samson Q2U USB/XLR Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Rode NT-USB Mini Studio Condenser Microphone",
+   "SIN_VEREDICTO: Samson Q2U USB/XLR Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Rode NT-USB Mini Studio Condenser Microphone"
+  ]
+ },
+ {
+  "id": "best-amp-modelers",
+  "ncards": 5,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: IK Multimedia TONEX ONE+ | Line 6 Helix HX Stomp",
+   "TABLA_SIN_TARJETA: Line 6 HX Stomp | IK TONEX ONE+"
+  ]
+ },
+ {
+  "id": "rodecaster-pro2-vs-dlz-creator",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Mackie DLZ Creator | RØDE RØDECaster Pro II"
+  ]
+ },
+ {
+  "id": "stream-deck-plus-xl-vs-razer",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Razer Stream Controller | Elgato Stream Deck + XL"
+  ]
+ },
+ {
+  "id": "rode-wireless-pro-vs-dji-mic-2",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: DJI Mic 3 (2TX + 1RX + Charging Case) | Rode Wireless PRO"
+  ]
+ },
+ {
+  "id": "ew-iem-g4-twin-vs-psm300",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Sennheiser ew IEM G4-TWIN-E | Shure PSM300"
+  ]
+ },
+ {
+  "id": "ie900-vs-se846",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Sennheiser IE 900 | Shure SE846 Gen 2"
+  ]
+ },
+ {
+  "id": "best-electric-guitars-2026",
+  "ncards": 11,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Strandberg Boden Essential 6 | Ibanez AZ2402 Prestige | ESP E-II Eclipse DB | Fender American Professional II Telecaster",
+   "SIN_VEREDICTO: Strandberg Boden Essential 6 | Ibanez AZ2402 Prestige | ESP E-II Eclipse DB | Fender American Professional II Telecaster"
+  ]
+ },
+ {
+  "id": "atc-vs-genelec",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: ATC SCM25A Pro Mk2 | Genelec 8351B SAM 3-Way Coaxial Studio Monitor"
+  ]
+ },
+ {
+  "id": "studio-subwoofers-setup",
+  "ncards": 6,
+  "ncols": 0,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Neumann KH 810 II 10\" Powered Studio Subwoofer | ATC SCS120 Pro Active Studio Subwoofer | Focal Sub12 13\" Professional Studio Subwoofer | Genelec 7370A SAM 12\" Smart Active Studio Subwoofer | Barefoot Sound MicroSub45 Dual-Force 8\" Active Studio Subwoofer (Pair) | Neumann KH 750 DSP 10\" Powered Studio Subwoofer"
+  ]
+ },
+ {
+  "id": "kh750-vs-7050c",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Neumann KH 750 DSP 10\" Powered Studio Subwoofer | Genelec 7050C Studio Subwoofer"
+  ]
+ },
+ {
+  "id": "best-parlor-guitars",
+  "ncards": 7,
+  "ncols": 7,
+  "nverdict": 7,
+  "flags": [
+   "SIN_TABLA: Fender Highway Series Parlor All-Mahogany Acoustic-Electric",
+   "TABLA_SIN_TARJETA: Highway Parlor"
+  ]
+ },
+ {
+  "id": "best-ribbon-mics",
+  "ncards": 5,
+  "ncols": 5,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: sE Electronics Voodoo VR2",
+   "TABLA_SIN_TARJETA: sE Voodoo VR2",
+   "SIN_VEREDICTO: sE Electronics Voodoo VR2",
+   "VEREDICTO_SIN_TARJETA: sE Voodoo VR2"
+  ]
+ },
+ {
+  "id": "ai-tools-plugins",
+  "ncards": 5,
+  "ncols": 0,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Sonible smart:EQ 4 | iZotope Neutron 5 | Mastering The Mix MIXVAULT | Sonible smart:limit | iZotope Trash"
+  ]
+ },
+ {
+  "id": "sidechain-modulation-plugins",
+  "ncards": 5,
+  "ncols": 0,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: Cableguys ShaperBox 3 | Devious Machines Infiltrator 2 | Cableguys HalfTime | Eventide H3000 Band Delays MK II | Arturia Chorus JUN-6"
+  ]
+ },
+ {
+  "id": "beatmaker-plugins",
+  "ncards": 6,
+  "ncols": 0,
+  "nverdict": 5,
+  "flags": [
+   "SIN_TABLA: XLN Audio RC-20 Retro Color | Baby Audio Transit 2 | Plugin Boutique Scaler 3 | Excite Audio Lifeline Expanse | D16 Group Repeater Delay | Excite Audio Motion: Harmonic",
+   "SIN_VEREDICTO: D16 Group Repeater Delay | Excite Audio Motion: Harmonic",
+   "VEREDICTO_SIN_TARJETA: D16 Repeater"
+  ]
+ },
+ {
+  "id": "best-in-ear-monitors",
+  "ncards": 8,
+  "ncols": 4,
+  "nverdict": 8,
+  "flags": [
+   "SIN_TABLA: Sennheiser IE 900 | Xvive U4R4 Wireless IEM System (4 Receivers) | Phenyx Pro PTM-10 UHF Stereo IEM System"
+  ]
+ },
+ {
+  "id": "j48-vs-rndi",
+  "ncards": 2,
+  "ncols": 0,
+  "nverdict": 2,
+  "flags": [
+   "SIN_TABLA: Radial J48 MK2 Active Direct Box | Rupert Neve Designs RNDI Active Direct Interface",
+   "SIN_VEREDICTO: Rupert Neve Designs RNDI Active Direct Interface",
+   "VEREDICTO_SIN_TARJETA: Rupert Neve RNDI"
+  ]
+ },
+ {
+  "id": "premium-interfaces",
+  "ncards": 6,
+  "ncols": 6,
+  "nverdict": 6,
+  "flags": [
+   "SIN_TABLA: Apogee Symphony I/O Mk II 16x16 SE",
+   "TABLA_SIN_TARJETA: Apogee Symphony I/O Mk II 16×16 SE",
+   "SIN_VEREDICTO: Apogee Symphony I/O Mk II 16x16 SE",
+   "VEREDICTO_SIN_TARJETA: Apogee Symphony I/O Mk II 16×16 SE"
+  ]
+ }
+]

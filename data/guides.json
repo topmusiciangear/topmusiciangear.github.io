@@ -1924,14 +1924,6 @@
           "title_es": "Shure SM58"
         },
         {
-          "title": "Rode PodMic",
-          "title_es": "Rode PodMic"
-        },
-        {
-          "title": "Rode Procaster",
-          "title_es": "Rode Procaster"
-        },
-        {
           "title": "Rode NT1 5th Gen",
           "title_es": "Rode NT1 5ta Gen"
         },
@@ -1942,10 +1934,6 @@
         {
           "title": "Audio-Technica AT2020",
           "title_es": "Audio-Technica AT2020"
-        },
-        {
-          "title": "Elgato Wave:3",
-          "title_es": "Elgato Wave:3"
         },
         {
           "title": "Shure SM7dB",
@@ -1966,14 +1954,6 @@
               "value_es": "Podcast económico y vocales en vivo"
             },
             {
-              "value": "Budget podcasting & streaming",
-              "value_es": "Podcast y streaming económico"
-            },
-            {
-              "value": "Broadcast voice & serious podcasts",
-              "value_es": "Voz de broadcast y podcasts serios"
-            },
-            {
               "value": "Treated studio vocals",
               "value_es": "Vocales en estudio tratado"
             },
@@ -1986,10 +1966,6 @@
               "value_es": "Condensador de estudio económico"
             },
             {
-              "value": "USB streaming & podcasting",
-              "value_es": "Streaming y podcast por USB"
-            },
-            {
               "value": "Broadcast voice with built-in preamp",
               "value_es": "Voz de broadcast con previo integrado"
             }
@@ -1999,14 +1975,6 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
-            },
-            {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
-            },
             {
               "value": "Dynamic",
               "value_es": "Dinámico"
@@ -2028,10 +1996,6 @@
               "value_es": "Condensador (XLR)"
             },
             {
-              "value": "Condenser (USB)",
-              "value_es": "Condensador (USB)"
-            },
-            {
               "value": "Dynamic (with built-in preamp)",
               "value_es": "Dinámico (con previo integrado)"
             }
@@ -2044,18 +2008,6 @@
             {
               "value": "Cardioid",
               "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid (tight)",
-              "value_es": "Cardioide (ajustado)"
             },
             {
               "value": "Cardioid",
@@ -2096,20 +2048,8 @@
               "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "75 Hz – 18 kHz",
-              "value_es": "75 Hz – 18 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
               "value": "50 Hz – 16 kHz",
               "value_es": "50 Hz – 16 kHz"
-            },
-            {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
             },
             {
               "value": "20 Hz – 20 kHz",
@@ -2134,14 +2074,6 @@
               "value_es": "XLR"
             },
             {
-              "value": "XLR",
-              "value_es": "XLR"
-            },
-            {
-              "value": "XLR",
-              "value_es": "XLR"
-            },
-            {
               "value": "XLR + USB-C",
               "value_es": "XLR + USB-C"
             },
@@ -2152,10 +2084,6 @@
             {
               "value": "XLR",
               "value_es": "XLR"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
             },
             {
               "value": "XLR",
@@ -2216,58 +2144,6 @@
           "El tono de voz en vivo puede sonar algo oscuro o plano para voces de estudio",
           "Necesita una interfaz XLR, sin opción USB",
           "Detalle de agudos limitado frente a un condensador"
-        ]
-      },
-      {
-        "name": "Rode PodMic",
-        "name_es": "Rode PodMic",
-        "pros": [
-          "Broadcast-quality dynamic built for speech",
-          "Classic rich 'radio' tone on a budget",
-          "Tight cardioid pattern reduces background noise",
-          "Internal pop filter, shock mounting and swing mount included"
-        ],
-        "cons": [
-          "Voice-focused — not the first pick for instruments or music recording",
-          "Requires an interface or mixer over XLR",
-          "Larger body takes up more desk space than a USB mic"
-        ],
-        "pros_es": [
-          "Dinámico de calidad broadcast diseñado para la voz",
-          "Clásico tono 'radiofónico' rico con presupuesto ajustado",
-          "El patrón cardioide ajustado reduce el ruido de fondo",
-          "Incluye filtro antipop interno, montaje antivibraciones y soporte giratorio"
-        ],
-        "cons_es": [
-          "Enfocado a la voz — no es la primera opción para instrumentos o música",
-          "Requiere una interfaz o mesa por XLR",
-          "Su cuerpo grande ocupa más espacio de escritorio que un micrófono USB"
-        ]
-      },
-      {
-        "name": "Rode Procaster",
-        "name_es": "Rode Procaster",
-        "pros": [
-          "Full-size broadcast dynamic with a tight cardioid pattern",
-          "Frequency response tailored for radio, podcasting and voice-over",
-          "Internal pop filter, shock mounting and robust all-metal build",
-          "10-year warranty"
-        ],
-        "cons": [
-          "Voice-focused, so limited for instruments",
-          "Heavier all-metal body is not ultra-portable",
-          "Price higher than entry dynamics"
-        ],
-        "pros_es": [
-          "Dinámico de difusión a tamaño completo con patrón cardioide estrecho",
-          "Respuesta de frecuencia adaptada para radio, podcasting y locución",
-          "Filtro antipop interno, montaje antigolpes y construcción robusta de metal",
-          "Garantía de 10 años"
-        ],
-        "cons_es": [
-          "Enfocado a la voz, así que es limitado para instrumentos",
-          "El cuerpo de metal es pesado, no ultra-portátil",
-          "Precio más alto que los dinámicos de entrada"
         ]
       },
       {
@@ -2346,32 +2222,6 @@
           "Necesita alimentación fantasma de una interfaz",
           "Al ser condensador, es más sensible en salas sin tratar",
           "El modelo básico no incluye filtro antipop"
-        ]
-      },
-      {
-        "name": "Elgato Wave:3",
-        "name_es": "Elgato Wave:3",
-        "pros": [
-          "Premium USB condenser with a built-in pop filter",
-          "Capacitive mute and a multi-function dial for quick control",
-          "Wave Link software for mixing, routing and per-source effects",
-          "Plug-and-play with your computer — no interface needed"
-        ],
-        "cons": [
-          "USB-only, so it won't grow into an XLR studio chain",
-          "Voice/stream-focused, not ideal for instruments",
-          "Software integration is strongest within the Elgato ecosystem"
-        ],
-        "pros_es": [
-          "Condensador USB premium con filtro antipop integrado",
-          "Silencio capacitivo y dial multifunción para un control rápido",
-          "El software Wave Link permite mezclar, enrutar y aplicar efectos por fuente",
-          "Plug-and-play con tu ordenador — no necesitas interfaz"
-        ],
-        "cons_es": [
-          "Solo USB, así que no crece hacia una cadena de estudio XLR",
-          "Enfocado a voz y streaming, no ideal para instrumentos",
-          "La integración por software es más potente dentro del ecosistema Elgato"
         ]
       },
       {
@@ -4424,8 +4274,8 @@
           "title_es": "Behringer B 906"
         },
         {
-          "title": "MAONO PD100 XLR",
-          "title_es": "MAONO PD100 XLR"
+          "title": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+          "title_es": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone"
         },
         {
           "title": "Behringer XM8500 Ultravoice",
@@ -5057,8 +4907,8 @@
         ]
       },
       {
-        "name": "MAONO PD100 XLR",
-        "name_es": "MAONO PD100 XLR",
+        "name": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+        "name_es": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
         "pros": [
           "192kHz/24-bit audio capture delivers broadcast-quality resolution",
           "Tap-to-mute button provides instant silence when needed",
@@ -5714,14 +5564,6 @@
       "title_es": "Comparativa de micros para streaming en esta guía",
       "columns": [
         {
-          "title": "Shure SM7B",
-          "title_es": "Shure SM7B"
-        },
-        {
-          "title": "Electro-Voice RE20",
-          "title_es": "Electro-Voice RE20"
-        },
-        {
           "title": "Shure MV7+",
           "title_es": "Shure MV7+"
         },
@@ -5748,14 +5590,6 @@
           "label_es": "Ideal para",
           "values": [
             {
-              "value": "Broadcast & podcast vocals",
-              "value_es": "Radio y podcast"
-            },
-            {
-              "value": "Broadcast & voiceover",
-              "value_es": "Radio, locución y podcast"
-            },
-            {
               "value": "Hybrid USB-C/XLR vocals",
               "value_es": "Voces híbridas USB-C/XLR"
             },
@@ -5781,14 +5615,6 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            {
-              "value": "Dynamic (moving coil), passive",
-              "value_es": "Dinámico (bobina móvil), pasivo"
-            },
-            {
-              "value": "Dynamic (Variable-D)",
-              "value_es": "Dinámico (Variable-D)"
-            },
             {
               "value": "Dynamic (moving coil), USB-C + XLR",
               "value_es": "Dinámico (bobina móvil), USB-C + XLR"
@@ -5820,14 +5646,6 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Cardioid (Variable-D)",
-              "value_es": "Cardioide (Variable-D)"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
               "value": "Cardioid",
               "value_es": "Cardioide"
             },
@@ -5849,14 +5667,6 @@
           "label": "Frequency Response",
           "label_es": "Respuesta de frecuencia",
           "values": [
-            {
-              "value": "50 Hz – 20 kHz",
-              "value_es": "50 Hz – 20 kHz"
-            },
-            {
-              "value": "45 Hz – 18 kHz",
-              "value_es": "45 Hz – 18 kHz"
-            },
             {
               "value": "50 Hz – 16 kHz",
               "value_es": "50 Hz – 16 kHz"
@@ -5884,14 +5694,6 @@
           "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "-59.0 dBV/Pa (1.12 mV)",
-              "value_es": "–59 dBV/Pa (1.12 mV)"
-            },
-            {
-              "value": "1.5 mV/Pa (≈ -56.5 dBV)",
-              "value_es": "1.5 mV/Pa"
-            },
-            {
               "value": "XLR: -55 dBV/Pa (1.78 mV); USB: -33 dBFS",
               "value_es": "–55 dBV/Pa (XLR)"
             },
@@ -5917,14 +5719,6 @@
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
           "values": [
-            {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
-            },
-            {
-              "value": "N/A (dynamic)",
-              "value_es": "N/D (dinámico)"
-            },
             {
               "value": "N/A (dynamic)",
               "value_es": "N/D (dinámico)"
@@ -5952,14 +5746,6 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "Not officially rated (~180 dB est.)",
-              "value_es": "Sin clasificación oficial (~180 dB est.)"
-            },
-            {
-              "value": "Not published (rated immune to overloading)",
-              "value_es": "No publicado (clasificado inmune a la sobrecarga)"
-            },
-            {
               "value": "128 dB (USB output)",
               "value_es": "128 dB (salida USB)"
             },
@@ -5985,14 +5771,6 @@
           "label": "Output Impedance",
           "label_es": "Impedancia de salida",
           "values": [
-            {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            },
-            {
-              "value": "150 Ω",
-              "value_es": "150 Ω"
-            },
             {
               "value": "350 Ω (XLR)",
               "value_es": "350 Ω (XLR)"
@@ -6038,14 +5816,6 @@
             {
               "value": "Not published",
               "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
             }
           ]
         },
@@ -6053,14 +5823,6 @@
           "label": "Dynamic Range",
           "label_es": "Rango dinámico",
           "values": [
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
             {
               "value": "Not published",
               "value_es": "No publicado"
@@ -6106,14 +5868,6 @@
             {
               "value": "Not published",
               "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
             }
           ]
         },
@@ -6121,14 +5875,6 @@
           "label": "Capsule / Diaphragm",
           "label_es": "Cápsula / Diafragma",
           "values": [
-            {
-              "value": "Large-diaphragm dynamic (size not disclosed)",
-              "value_es": "Dinámico de diafragma grande (tamaño no divulgado)"
-            },
-            {
-              "value": "Variable-D dynamic element",
-              "value_es": "Elemento dinámico Variable-D"
-            },
             {
               "value": "Dynamic moving-coil (size not disclosed)",
               "value_es": "Dinámico de bobina móvil (tamaño no divulgado)"
@@ -6156,14 +5902,6 @@
           "label_es": "Pad y Filtro Paso Alto",
           "values": [
             {
-              "value": "Bass rolloff + presence boost switches",
-              "value_es": "Interruptores de filtro de graves y realce de presencia"
-            },
-            {
-              "value": "Mid-bass tilt switch (LF rolloff, -4.5 dB 400-100 Hz)",
-              "value_es": "Interruptor de graves (filtro LF, -4.5 dB 400-100 Hz)"
-            },
-            {
               "value": "DSP HPF (75/150 Hz), limiter, compressor, Auto-Level (USB)",
               "value_es": "HPF por DSP (75/150 Hz), limitador, compresor, Auto-Level (USB)"
             },
@@ -6189,14 +5927,6 @@
           "label": "Phantom Power",
           "label_es": "Alimentación Phantom",
           "values": [
-            {
-              "value": "None required",
-              "value_es": "No requiere"
-            },
-            {
-              "value": "None required",
-              "value_es": "No requiere"
-            },
             {
               "value": "USB bus power; phantom-protected XLR",
               "value_es": "Alimentado por USB; XLR protegido contra phantom"
@@ -6224,14 +5954,6 @@
           "label_es": "Dimensiones",
           "values": [
             {
-              "value": "190 × 148 × 96 mm",
-              "value_es": "190 × 148 × 96 mm"
-            },
-            {
-              "value": "217 × 54 mm",
-              "value_es": "217 × 54 mm"
-            },
-            {
               "value": "169.5 × 90 mm",
               "value_es": "169.5 × 90 mm"
             },
@@ -6258,14 +5980,6 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "765 g",
-              "value_es": "765 g"
-            },
-            {
-              "value": "737 g",
-              "value_es": "737 g"
-            },
-            {
               "value": "573 g",
               "value_es": "573 g"
             },
@@ -6290,66 +6004,6 @@
       ]
     },
     "verdictProsCons": [
-      {
-        "name": "Shure SM7B",
-        "name_es": "Shure SM7B",
-        "pros": [
-          "The default streamer microphone — the warm, intimate sound of every major podcast",
-          "Dynamic cardioid rejects room noise, keyboard clicks, and PC fan whine",
-          "Rolled-off highs tame sibilance so 'S' and 'T' sounds stay smooth, even when you lean into the mic",
-          "Built-in shock mount kills mechanical noise from your desk"
-        ],
-        "pros_es": [
-          "El micrófono de referencia para streaming — el sonido cálido e íntimo de cada gran podcast",
-          "El patrón cardioide dinámico rechaza ruido de sala, clics del teclado y el ventilador del PC",
-          "Los agudos suavizados controlan la sibilancia, así que las S y T suenan limpias incluso de cerca",
-          "El soporte antigolpes integrado elimina el ruido mecánico del escritorio"
-        ],
-        "cons": [
-          "Quiet mic — needs a clean interface or a Cloudlifter to stay noise-free",
-          " plus the cost of extra gain gear",
-          "XLR only — no single-cable USB option",
-          "No headphone output or built-in DSP — the MV7+ adds zero-latency monitoring and auto-level in the mic",
-          " it costs more than the NT1, which adds 32-bit float and USB-C recording for less"
-        ],
-        "cons_es": [
-          "Micrófono silencioso — necesita una interfaz limpia o un Cloudlifter para mantenerse sin ruido",
-          "Suma el costo del equipo de ganancia extra",
-          "Solo XLR — sin opción USB de un solo cable",
-          "Sin salida de auriculares ni DSP integrado — la MV7+ añade monitoreo sin latencia y auto-nivel en el propio micrófono",
-          "Cuesta más que la NT1, que ofrece 32 bits float y grabación USB-C a menor precio"
-        ]
-      },
-      {
-        "name": "Electro-Voice RE20",
-        "name_es": "Electro-Voice RE20",
-        "pros": [
-          "The radio broadcast standard — a flat, authoritative voice",
-          "Variable-D design kills the proximity effect — consistent low end from 2 to 6 inches",
-          "Smooth, natural response with a subtle presence lift — needs far less EQ than most dynamics",
-          "Equally legendary on kick drum, guitar cabs, and horns"
-        ],
-        "pros_es": [
-          "El estándar del broadcast radiofónico — una voz firme y con autoridad",
-          "El diseño Variable-D elimina el efecto de proximidad — graves consistentes de 2 a 6 pulgadas",
-          "Respuesta suave y natural con un sutil realce de presencia — necesita mucho menos EQ que la mayoría de dinámicos",
-          "Igualmente legendario en bombo, gabinetes de guitarra y metales"
-        ],
-        "cons": [
-          "XLR only, heavier than the SM7B, and wants a clean high-gain preamp or Cloudlifter",
-          " — more than the SM7B and the most expensive option here",
-          "Big and heavy on a desk or arm compared to the MV7+ or Wave:3",
-          "No built-in shock mount or pop filter — the MV7+ and NT1 ship with both",
-          "Its 45 Hz–18 kHz response is narrower than the NT1's 20 Hz–20 kHz at both extremes"
-        ],
-        "cons_es": [
-          "Solo XLR, más pesado que el SM7B y necesita un preamp limpio de alta ganancia o un Cloudlifter",
-          "Cuesta más que el SM7B y es la opción más cara de esta lista",
-          "Grande y pesado en un escritorio o brazo comparado con el MV7+ o el Wave:3",
-          "Sin soporte antigolpes ni filtro antipop — la MV7+ y la NT1 los incluyen de serie",
-          "Su respuesta de 45 Hz–18 kHz es más limitada que la de la NT1 (20 Hz–20 kHz) en ambos extremos"
-        ]
-      },
       {
         "name": "Shure MV7+",
         "name_es": "Shure MV7+",
@@ -6740,8 +6394,8 @@
           "title_es": "Audix OM7"
         },
         {
-          "title": "EV ND86",
-          "title_es": "EV ND86"
+          "title": "Electro-Voice ND86",
+          "title_es": "Electro-Voice ND86"
         },
         {
           "title": "Shure SM57",
@@ -7551,7 +7205,7 @@
         ]
       },
       {
-        "name": "EV ND86",
+        "name": "Electro-Voice ND86",
         "name_es": "Electro-Voice ND86",
         "pros": [
           "Engineered for the largest venues — present, smooth, detailed vocal tone even in arenas",
@@ -15092,8 +14746,8 @@
           "title_es": "Fender American Ultra II Stratocaster"
         },
         {
-          "title": "Fender Player Telecaster",
-          "title_es": "Fender Player Telecaster"
+          "title": "Fender Player II Telecaster",
+          "title_es": "Fender Player II Telecaster"
         },
         {
           "title": "Fender American Professional II Telecaster",
@@ -15383,8 +15037,8 @@
         ]
       },
       {
-        "name": "Fender Player Telecaster",
-        "name_es": "Fender Player Telecaster",
+        "name": "Fender Player II Telecaster",
+        "name_es": "Fender Player II Telecaster",
         "pros": [
           "Two Player Series single-coils deliver unmistakable Tele twang",
           "Bridge pickup twang defined country; roll the tone back and it becomes a blues machine",
@@ -15685,8 +15339,8 @@
           "title_es": "Marshall DSL40CR"
         },
         {
-          "title": "Ampeg RB-210",
-          "title_es": "Ampeg RB-210"
+          "title": "Ampeg Rocket Bass RB-210",
+          "title_es": "Ampeg Rocket Bass RB-210"
         },
         {
           "title": "Fender Rumble 500 V3",
@@ -16058,8 +15712,8 @@
         ]
       },
       {
-        "name": "Ampeg RB-210",
-        "name_es": "Ampeg RB-210",
+        "name": "Ampeg Rocket Bass RB-210",
+        "name_es": "Ampeg Rocket Bass RB-210",
         "pros": [
           "Ampeg's SVT-style bass voicing in a self-contained combo — no separate head and cab to haul",
           "450W of built-in power through two Custom10 speakers and a 1\" tweeter",
@@ -16304,8 +15958,8 @@
           "title_es": "Sennheiser EW-D Dual"
         },
         {
-          "title": "Shure SM58 Wireless",
-          "title_es": "Shure SM58 Wireless"
+          "title": "Shure BLX24R/SM58 Wireless",
+          "title_es": "Shure BLX24R/SM58 Wireless"
         }
       ],
       "rows": [
@@ -16635,8 +16289,8 @@
         ]
       },
       {
-        "name": "Shure SM58 Wireless",
-        "name_es": "Shure SM58 Wireless",
+        "name": "Shure BLX24R/SM58 Wireless",
+        "name_es": "Shure BLX24R/SM58 Wireless",
         "pros": [
           "The legendary SM58 sound without the cable",
           "Reliable UHF wireless transmission with durable construction",
@@ -16819,8 +16473,8 @@
           "title_es": "TC Electronic Hall of Fame 2"
         },
         {
-          "title": "Electro-Harmonix Small Stone",
-          "title_es": "Electro-Harmonix Small Stone"
+          "title": "Electro-Harmonix Nano Small Stone",
+          "title_es": "Electro-Harmonix Nano Small Stone"
         },
         {
           "title": "MXR Phase 95",
@@ -17254,8 +16908,8 @@
         ]
       },
       {
-        "name": "Electro-Harmonix Small Stone",
-        "name_es": "Electro-Harmonix Small Stone",
+        "name": "Electro-Harmonix Nano Small Stone",
+        "name_es": "Electro-Harmonix Nano Small Stone",
         "pros": [
           "Four analog phase-shifting stages with a warm, organic swoosh",
           "One-knob control plus a color switch from subtle to intense",
@@ -17490,8 +17144,8 @@
           "title_es": "Taylor PS14ce"
         },
         {
-          "title": "Gibson 1942 Banner J-45",
-          "title_es": "Gibson 1942 Banner J-45"
+          "title": "Gibson Custom Shop 1942 Banner J-45",
+          "title_es": "Gibson Custom Shop 1942 Banner J-45"
         },
         {
           "title": "Gibson SJ-200",
@@ -21083,8 +20737,8 @@
           "title_es": "Fender CD-60S Acústica"
         },
         {
-          "title": "Squier Affinity Stratocaster",
-          "title_es": "Squier Affinity Stratocaster"
+          "title": "Squier Affinity Series Stratocaster",
+          "title_es": "Squier Affinity Series Stratocaster"
         },
         {
           "title": "Epiphone Les Paul Special-I",
@@ -32674,10 +32328,6 @@
           "title_es": "Taylor GS Mini"
         },
         {
-          "title": "Yamaha Pacifica 112V",
-          "title_es": "Yamaha Pacifica 112V"
-        },
-        {
           "title": "Yamaha SLG200S",
           "title_es": "Yamaha SLG200S"
         },
@@ -32686,20 +32336,20 @@
           "title_es": "Yamaha SLG200N"
         },
         {
-          "title": "Traveler Ultra-Light Steel",
-          "title_es": "Traveler Ultra-Light Steel"
+          "title": "Traveler Guitar Ultra-Light Steel",
+          "title_es": "Traveler Guitar Ultra-Light Steel"
         },
         {
           "title": "Traveler Guitar Ultra-Light Nylon",
           "title_es": "Traveler Guitar Ultra-Light Nylon"
         },
         {
-          "title": "Enya Nova Go Sonic",
-          "title_es": "Enya Nova Go Sonic"
+          "title": "Enya Nova Go Sonic Smart Electric Guitar",
+          "title_es": "Enya Nova Go Sonic Smart Electric Guitar"
         },
         {
-          "title": "Lava ME 4",
-          "title_es": "Lava ME 4"
+          "title": "Lava Music Lava ME 4 Smart Guitar",
+          "title_es": "Lava Music Lava ME 4 Smart Guitar"
         }
       ],
       "rows": [
@@ -32714,10 +32364,6 @@
             {
               "value": "Compact acoustic for grab-and-play",
               "value_es": "Acústica compacta para tocar al vuelo"
-            },
-            {
-              "value": "Affordable all-round electric (HSS)",
-              "value_es": "Eléctrica versátil asequible (HSS)"
             },
             {
               "value": "Silent steel-string practice + recording",
@@ -32758,10 +32404,6 @@
               "value_es": "GS Mini compacto (44,7 cm largo)"
             },
             {
-              "value": "Solid alder",
-              "value_es": "Aliso sólido"
-            },
-            {
               "value": "Collapsible frame, 14 in (356 mm) wide",
               "value_es": "Marco plegable, 35,6 cm (14\") de ancho"
             },
@@ -32798,10 +32440,6 @@
             {
               "value": "Under 4 lb (1.8 kg)",
               "value_es": "Menos de 1,8 kg (4 lb)"
-            },
-            {
-              "value": "7.7 lb (3.5 kg)",
-              "value_es": "3,5 kg (7,7 lb)"
             },
             {
               "value": "4.6 lb (2.1 kg)",
@@ -32842,10 +32480,6 @@
               "value_es": "Picea sólida / sapeli laminado"
             },
             {
-              "value": "Solid alder / n/a",
-              "value_es": "Aliso sólido / n/d"
-            },
-            {
               "value": "Mahogany body, rosewood & maple frame",
               "value_es": "Cuerpo de caoba, marco de palo rosa y arce"
             },
@@ -32882,10 +32516,6 @@
             {
               "value": "Tropical mahogany, ebony",
               "value_es": "Caoba tropical, ébano"
-            },
-            {
-              "value": "Maple, 22 frets",
-              "value_es": "Arce, 22 trastes"
             },
             {
               "value": "Mahogany neck, rosewood fretboard",
@@ -32926,10 +32556,6 @@
               "value_es": "23,5\" (597 mm)"
             },
             {
-              "value": "25.5 in (648 mm)",
-              "value_es": "25,5\" (648 mm)"
-            },
-            {
               "value": "25 in (634 mm)",
               "value_es": "25\" (634 mm)"
             },
@@ -32966,10 +32592,6 @@
             {
               "value": "1 11/16 in (42.8 mm)",
               "value_es": "1 11/16\" (42,8 mm)"
-            },
-            {
-              "value": "1.61 in (41 mm)",
-              "value_es": "1,61\" (41 mm)"
             },
             {
               "value": "1 11/16 in (43 mm)",
@@ -33014,10 +32636,6 @@
               "value_es": "22"
             },
             {
-              "value": "22",
-              "value_es": "22"
-            },
-            {
               "value": "19",
               "value_es": "19"
             },
@@ -33050,10 +32668,6 @@
             {
               "value": "Steel",
               "value_es": "Acero"
-            },
-            {
-              "value": "Steel (electric)",
-              "value_es": "Acero (eléctrica)"
             },
             {
               "value": "Steel",
@@ -33094,10 +32708,6 @@
               "value_es": "Ninguna (modelos ES-B opcionales)"
             },
             {
-              "value": "HSS Alnico pickups",
-              "value_es": "Pastillas HSS Alnico"
-            },
-            {
               "value": "SRT Powered preamp, tuner, reverb/chorus",
               "value_es": "Previo SRT Powered, afinador, reverb/chorus"
             },
@@ -33134,10 +32744,6 @@
             {
               "value": "No (acoustic only)",
               "value_es": "No (solo acústica)"
-            },
-            {
-              "value": "No (needs amp or interface)",
-              "value_es": "No (necesita ampli o interfaz)"
             },
             {
               "value": "Yes, 1/8 in built-in",
@@ -33178,10 +32784,6 @@
               "value_es": "Ninguna (solo acústica)"
             },
             {
-              "value": "1/4 in output",
-              "value_es": "Salida 1/4\""
-            },
-            {
               "value": "1/8 in headphone + 1/4 in line + AUX-IN",
               "value_es": "Auriculares 1/8\" + línea 1/4\" + AUX-IN"
             },
@@ -33220,10 +32822,6 @@
               "value_es": "Ninguna (acústica)"
             },
             {
-              "value": "None (passive, needs amp)",
-              "value_es": "Ninguna (pasiva, necesita ampli)"
-            },
-            {
               "value": "2× AA (~22 h)",
               "value_es": "2× AA (~22 h)"
             },
@@ -33260,10 +32858,6 @@
             {
               "value": "Structured gig bag",
               "value_es": "Funda estructurada"
-            },
-            {
-              "value": "No case",
-              "value_es": "Sin estuche"
             },
             {
               "value": "Carry bag, stereo earphones",
@@ -36506,20 +36100,20 @@
           "title_es": "JBL 305P MkII"
         },
         {
-          "title": "Kali LP-6 V2",
-          "title_es": "Kali LP-6 V2"
+          "title": "Kali Audio LP-6 V2",
+          "title_es": "Kali Audio LP-6 V2"
         },
         {
           "title": "KRK Rokit 7 G5",
           "title_es": "KRK Rokit 7 G5"
         },
         {
-          "title": "ADAM D3V",
-          "title_es": "ADAM D3V"
+          "title": "ADAM Audio D3V",
+          "title_es": "ADAM Audio D3V"
         },
         {
-          "title": "Kali LP-UNF",
-          "title_es": "Kali LP-UNF"
+          "title": "Kali Audio LP-UNF",
+          "title_es": "Kali Audio LP-UNF"
         },
         {
           "title": "iLoud Micro Monitor Pro",
@@ -36538,8 +36132,8 @@
           "title_es": "Genelec 8010A"
         },
         {
-          "title": "ADAM T5V",
-          "title_es": "ADAM T5V"
+          "title": "ADAM Audio T5V",
+          "title_es": "ADAM Audio T5V"
         },
         {
           "title": "Genelec 8030C",
@@ -37029,8 +36623,8 @@
         ]
       },
       {
-        "name": "Kali LP-6 V2",
-        "name_es": "Kali LP-6 V2",
+        "name": "Kali Audio LP-6 V2",
+        "name_es": "Kali Audio LP-6 V2",
         "pros": [
           "Front low-noise port and Boundary EQ for near-wall placement in untreated rooms",
           "6.5-inch woofer digs deeper than the 305P without jumping to 7 inches",
@@ -37083,8 +36677,8 @@
         ]
       },
       {
-        "name": "ADAM D3V",
-        "name_es": "ADAM D3V",
+        "name": "ADAM Audio D3V",
+        "name_es": "ADAM Audio D3V",
         "pros": [
           "D-ART ribbon tweeter brings ADAM's signature transient detail to a desktop system",
           "Dual passive radiators extend bass to 45 Hz from a 3.5-inch aluminum woofer",
@@ -37109,8 +36703,8 @@
         ]
       },
       {
-        "name": "Kali LP-UNF",
-        "name_es": "Kali LP-UNF",
+        "name": "Kali Audio LP-UNF",
+        "name_es": "Kali Audio LP-UNF",
         "pros": [
           "Boundary EQ tames desk reflections and the front port allows near-wall placement",
           "3-D imaging waveguide widens the sweet spot at close distances",
@@ -37239,8 +36833,8 @@
         ]
       },
       {
-        "name": "ADAM T5V",
-        "name_es": "ADAM T5V",
+        "name": "ADAM Audio T5V",
+        "name_es": "ADAM Audio T5V",
         "pros": [
           "U-ART accelerated ribbon tweeter delivers ADAM's signature transient detail at a budget price",
           "106 dB SPL per pair with 45 Hz–25 kHz response from a 5-inch woofer",
@@ -37459,16 +37053,16 @@
           "title_es": "Yamaha Pacifica 112V"
         },
         {
-          "title": "Squier Affinity Strat",
-          "title_es": "Squier Affinity Strat"
+          "title": "Squier Affinity Series Stratocaster",
+          "title_es": "Squier Affinity Series Stratocaster"
         },
         {
-          "title": "Squier Sonic Strat HT",
-          "title_es": "Squier Sonic Strat HT"
+          "title": "Squier Sonic Stratocaster HT",
+          "title_es": "Squier Sonic Stratocaster HT"
         },
         {
-          "title": "Epiphone LP Special-II E1",
-          "title_es": "Epiphone LP Special-II E1"
+          "title": "Epiphone Les Paul Special-II E1",
+          "title_es": "Epiphone Les Paul Special-II E1"
         },
         {
           "title": "Jet Guitars JS-300",
@@ -37487,12 +37081,12 @@
           "title_es": "Enya Nova Go Sonic"
         },
         {
-          "title": "Yamaha Revstar RSE20",
-          "title_es": "Yamaha Revstar RSE20"
+          "title": "Yamaha Revstar Element RSE20",
+          "title_es": "Yamaha Revstar Element RSE20"
         },
         {
-          "title": "Squier Debut Strat",
-          "title_es": "Squier Debut Strat"
+          "title": "Squier Debut Series Stratocaster",
+          "title_es": "Squier Debut Series Stratocaster"
         }
       ],
       "rows": [
@@ -38012,8 +37606,8 @@
         ]
       },
       {
-        "name": "Squier Affinity Stratocaster",
-        "name_es": "Squier Affinity Stratocaster",
+        "name": "Squier Affinity Series Stratocaster",
+        "name_es": "Squier Affinity Series Stratocaster",
         "pros": [
           "Iconic Stratocaster look and feel — the most recorded guitar shape in history",
           "Slim C-shaped neck, sealed tuners and surprisingly good alnico pickups",
@@ -39473,8 +39067,8 @@
       "title_es": "Comparativa de los mejores amplis de bajo",
       "columns": [
         {
-          "title": "Ampeg RB-210",
-          "title_es": "Ampeg RB-210"
+          "title": "Ampeg Rocket Bass RB-210",
+          "title_es": "Ampeg Rocket Bass RB-210"
         },
         {
           "title": "Fender Rumble 500 V3",
@@ -39634,8 +39228,8 @@
     },
     "verdictProsCons": [
       {
-        "name": "Ampeg RB-210",
-        "name_es": "Ampeg RB-210",
+        "name": "Ampeg Rocket Bass RB-210",
+        "name_es": "Ampeg Rocket Bass RB-210",
         "pros": [
           "Classic Ampeg tone — the sound of countless bass records, in a self-contained combo",
           "450W of Class-D power through two Custom10 speakers and a 1-inch tweeter",
@@ -40803,10 +40397,6 @@
       "title_es": "Comparativa de pedales de reverb y delay",
       "columns": [
         {
-          "title": "Boss RC-5 Loop Station",
-          "title_es": "Boss RC-5 Loop Station"
-        },
-        {
           "title": "Boss DD-8 Digital Delay",
           "title_es": "Boss DD-8 Delay Digital"
         },
@@ -40824,10 +40414,6 @@
           "label": "Best For",
           "label_es": "Ideal para",
           "values": [
-            {
-              "value": "Big loops in a small pedal",
-              "value_es": "Loops grandes en pedal compacto"
-            },
             {
               "value": "Versatile digital delay & looper",
               "value_es": "Delay digital versátil y looper"
@@ -40847,10 +40433,6 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Loop station",
-              "value_es": "Loop station"
-            },
-            {
               "value": "Digital delay",
               "value_es": "Delay digital"
             },
@@ -40868,10 +40450,6 @@
           "label": "Controls",
           "label_es": "Controles",
           "values": [
-            {
-              "value": "Loop time, rhythm, drum sounds",
-              "value_es": "Tiempo de loop, ritmos, drums"
-            },
             {
               "value": "Mode, Time, Feedback, E.Level",
               "value_es": "Mode, Time, Feedback, E. Level"
@@ -40901,10 +40479,6 @@
             {
               "value": "True bypass",
               "value_es": "True bypass"
-            },
-            {
-              "value": "True bypass",
-              "value_es": "True bypass"
             }
           ]
         },
@@ -40912,10 +40486,6 @@
           "label": "Power",
           "label_es": "Alimentación",
           "values": [
-            {
-              "value": "9V DC",
-              "value_es": "9V DC"
-            },
             {
               "value": "9V DC (optional battery)",
               "value_es": "9V DC (pila opcional)"
@@ -40934,10 +40504,6 @@
           "label": "Current Draw",
           "label_es": "Consumo de Corriente",
           "values": [
-            {
-              "value": "100 mA",
-              "value_es": "100 mA"
-            },
             {
               "value": "65 mA",
               "value_es": "65 mA"
@@ -40961,10 +40527,6 @@
               "value_es": "Compacto (73 x 129 x 59 mm)"
             },
             {
-              "value": "Compact (73 x 129 x 59 mm)",
-              "value_es": "Compacto (73 x 129 x 59 mm)"
-            },
-            {
               "value": "Compact (72 x 131 x 54 mm)",
               "value_es": "Compacto (72 x 131 x 54 mm)"
             },
@@ -40978,10 +40540,6 @@
           "label": "Standout Feature",
           "label_es": "Característica Destacada",
           "values": [
-            {
-              "value": "13 hours loop, 57 drum patterns",
-              "value_es": "Loop 13 horas, 57 patrones de batería"
-            },
             {
               "value": "11 delay modes + 40s looper",
               "value_es": "11 modos de delay + looper 40s"
@@ -40999,30 +40557,6 @@
       ]
     },
     "verdictProsCons": [
-      {
-        "name": "Boss RC-5 Loop Station",
-        "name_es": "Boss RC-5 Loop Station",
-        "pros": [
-          "Records up to 13 hours of stereo audio across 99 phrase memories",
-          "57 rhythm patterns with 7 drum kits turn it into a full backing band",
-          "TRS MIDI I/O syncs it with any rig",
-          "Compact Boss form factor fits any pedalboard"
-        ],
-        "pros_es": [
-          "Graba hasta 13 horas de audio estéreo en 99 memorias de frase",
-          "57 patrones de ritmo con 7 kits de batería lo convierten en una banda de acompañamiento completa",
-          "MIDI TRS sincroniza con cualquier rig",
-          "Formato compacto Boss que cabe en cualquier pedalera"
-        ],
-        "cons": [
-          "It is a looper, not a delay or reverb — you still pair it with a dedicated time-based pedal for those sounds",
-          "Live looping without an external footswitch means reaching down to the pedal for every overdub"
-        ],
-        "cons_es": [
-          "Es un looper, no un delay ni una reverb — para esos efectos aún lo combinas con un pedal dedicado de tiempo",
-          "Hacer loops en vivo sin footswitch externo obliga a agacharte al pedal en cada sobregrabación"
-        ]
-      },
       {
         "name": "Boss DD-8 Digital Delay",
         "name_es": "Boss DD-8 Delay Digital",
@@ -41603,8 +41137,8 @@
           "title_es": "Allen & Heath SQ-5"
         },
         {
-          "title": "Korg MW-1608",
-          "title_es": "Korg MW-1608"
+          "title": "Korg SoundLink MW-1608",
+          "title_es": "Korg SoundLink MW-1608"
         }
       ],
       "rows": [
@@ -41980,8 +41514,8 @@
         ]
       },
       {
-        "name": "Korg MW-1608",
-        "name_es": "Korg MW-1608",
+        "name": "Korg SoundLink MW-1608",
+        "name_es": "Korg SoundLink MW-1608",
         "pros": [
           "16-channel hybrid analog/digital design with true 8-bus architecture",
           "8 HiVolt preamps with 3-band analog EQ and 31-band ParaGraphic GEQ per channel",
@@ -45160,20 +44694,8 @@
       "title_es": "Comparativa de las mejores mesas compactas",
       "columns": [
         {
-          "title": "Mackie MobileMix",
-          "title_es": "Mackie MobileMix"
-        },
-        {
-          "title": "Yamaha MG10XU",
-          "title_es": "Yamaha MG10XU"
-        },
-        {
           "title": "Mackie ProFX12v3",
           "title_es": "Mackie ProFX12v3"
-        },
-        {
-          "title": "Allen & Heath ZEDi-10FX",
-          "title_es": "Allen & Heath ZEDi-10FX"
         },
         {
           "title": "Behringer X Air XR18",
@@ -45190,20 +44712,8 @@
           "label_es": "Ideal para",
           "values": [
             {
-              "value": "Streaming & mobile A/V production",
-              "value_es": "Streaming y producción A/V móvil"
-            },
-            {
-              "value": "Simple analog mixer with FX",
-              "value_es": "Mesa analógica sencilla con FX"
-            },
-            {
               "value": "Affordable analog with FX for gigs",
               "value_es": "Analógica económica con FX para directo"
-            },
-            {
-              "value": "Home studios wanting analog sound + USB recording",
-              "value_es": "Home studios que quieren sonido analógico + grabación USB"
             },
             {
               "value": "Full digital rack mixer you control with a tablet",
@@ -45220,20 +44730,8 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Analog, USB/battery powered",
-              "value_es": "Analógica, alimentación USB/batería"
-            },
-            {
               "value": "Analog mixer",
               "value_es": "Mesa analógica"
-            },
-            {
-              "value": "Analog mixer",
-              "value_es": "Mesa analógica"
-            },
-            {
-              "value": "Analog hybrid with 4x4 USB interface",
-              "value_es": "Híbrida analógica con interfaz USB 4x4"
             },
             {
               "value": "Digital rack mixer",
@@ -45250,20 +44748,8 @@
           "label_es": "Canales",
           "values": [
             {
-              "value": "8 (2 mono + 3 stereo)",
-              "value_es": "8 (2 mono + 3 estéreo)"
-            },
-            {
-              "value": "10 (6 mic)",
-              "value_es": "10 (6 mic)"
-            },
-            {
               "value": "12 (8 mic)",
               "value_es": "12 (8 mic)"
-            },
-            {
-              "value": "10 (4 mono + 3 stereo)",
-              "value_es": "10 (4 mono + 3 estéreo)"
             },
             {
               "value": "18 (16 preamps)",
@@ -45280,20 +44766,8 @@
           "label_es": "Preamplificadores",
           "values": [
             {
-              "value": "2 x mic/instrument (48V, Hi-Z)",
-              "value_es": "2 x micro/instrumento (48V, Hi-Z)"
-            },
-            {
-              "value": "6 D-PRE",
-              "value_es": "6 D-PRE"
-            },
-            {
               "value": "8 Onyx",
               "value_es": "8 Onyx"
-            },
-            {
-              "value": "4 x GS-R",
-              "value_es": "4 x GS-R"
             },
             {
               "value": "16 MIDAS",
@@ -45310,20 +44784,8 @@
           "label_es": "EQ",
           "values": [
             {
-              "value": "Per-channel tone + low-cut",
-              "value_es": "Tono por canal + filtro graves"
-            },
-            {
               "value": "3-band per channel",
               "value_es": "3 bandas por canal"
-            },
-            {
-              "value": "3-band per channel",
-              "value_es": "3 bandas por canal"
-            },
-            {
-              "value": "MusiQ 3-band (mono), 2-band (stereo)",
-              "value_es": "MusiQ 3 bandas (mono), 2 bandas (estéreo)"
             },
             {
               "value": "4-band parametric",
@@ -45340,20 +44802,8 @@
           "label_es": "Envíos Aux",
           "values": [
             {
-              "value": "2 mix outs + smartphone/camera out",
-              "value_es": "2 salidas mix + salida móvil/cámara"
-            },
-            {
               "value": "2 aux sends",
               "value_es": "2 envíos aux"
-            },
-            {
-              "value": "2 aux sends",
-              "value_es": "2 envíos aux"
-            },
-            {
-              "value": "1 aux + 1 FX send",
-              "value_es": "1 aux + 1 envío FX"
             },
             {
               "value": "6 aux buses",
@@ -45370,20 +44820,8 @@
           "label_es": "FX Integrados",
           "values": [
             {
-              "value": "Yes (3 reverbs)",
-              "value_es": "Si (3 reverbs)"
-            },
-            {
-              "value": "SPX digital FX",
-              "value_es": "FX digital SPX"
-            },
-            {
               "value": "GigFX 24-bit",
               "value_es": "GigFX 24 bits"
-            },
-            {
-              "value": "Yes (multi-model reverb/delay)",
-              "value_es": "Si (reverb/delay multi-modelo)"
             },
             {
               "value": "4 FX engines",
@@ -45400,20 +44838,8 @@
           "label_es": "Conectividad",
           "values": [
             {
-              "value": "Bluetooth 5.1 w/ Mix Minus, TRRS, USB-C power",
-              "value_es": "Bluetooth 5.1 con Mix Minus, TRRS, alimentación USB-C"
-            },
-            {
-              "value": "USB, 2 groups",
-              "value_es": "USB, 2 grupos"
-            },
-            {
               "value": "USB, Bluetooth",
               "value_es": "USB, Bluetooth"
-            },
-            {
-              "value": "USB 4x4 24-bit/96kHz, XLR main outs",
-              "value_es": "USB 4x4 24-bit/96kHz, salidas main XLR"
             },
             {
               "value": "Wi-Fi, USB, 6 aux",
@@ -45430,20 +44856,8 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "0.8 kg (1.8 lb)",
-              "value_es": "0.8 kg"
-            },
-            {
-              "value": "4.6 lb (2.1 kg)",
-              "value_es": "2,1 kg"
-            },
-            {
               "value": "7.9 lb (3.6 kg)",
               "value_es": "3,6 kg"
-            },
-            {
-              "value": "2.3 kg (5.1 lb)",
-              "value_es": "2.3 kg"
             },
             {
               "value": "10.4 lb (4.7 kg)",
@@ -45458,62 +44872,6 @@
       ]
     },
     "verdictProsCons": [
-      {
-        "name": "Mackie MobileMix",
-        "name_es": "Mackie MobileMix",
-        "pros": [
-          "Runs entirely off USB power with a hidden rechargeable battery compartment",
-          "Eight channels with two full mic/instrument preamps, 48V and Hi-Z",
-          "Two-way Bluetooth channel with Mix Minus for echo-free calls",
-          "Dedicated outputs for smartphones and DSLR cameras plus three reverbs — just 0.8 kg"
-        ],
-        "pros_es": [
-          "Funciona sólo con alimentación USB con un compartimento oculto para batería recargable",
-          "Ocho canales con dos preamplificadores completos de micrófono/instrumento, 48V e Hi-Z",
-          "Canal Bluetooth bidireccional con Mix Minus para llamadas sin eco",
-          "Salidas dedicadas para móviles y cámaras DSLR más tres reverbs — solo 0.8 kg"
-        ],
-        "cons": [
-          "Only 2 mic preamps — not enough for full band setups",
-          "No motorized faders or digital scene recall",
-          "Built-in effects limited to three reverbs",
-          "Compact size means fewer physical controls per channel"
-        ],
-        "cons_es": [
-          "Solo 2 preamps de micrófono — no suficientes para configuraciones de banda completa",
-          "Sin faders motorizados ni recall digital de escenas",
-          "Efectos integrados limitados a tres reverbs",
-          "El tamaño compacto significa menos controles físicos por canal"
-        ]
-      },
-      {
-        "name": "Yamaha MG10XU",
-        "name_es": "Yamaha MG10XU",
-        "pros": [
-          "At 9.6 x 2.8 x 11.6 inches and 4.6 lb it fits almost anywhere",
-          "10 channels with 4 D-PRE preamps and SPX effects",
-          "One-knob compressors polish vocals and bass fast",
-          "USB interface records directly to a laptop"
-        ],
-        "pros_es": [
-          "Con 24.4 x 7.1 x 29.4 cm y 2.1 kg cabe en casi cualquier sitio",
-          "10 canales con 4 preamps D-PRE y efectos SPX",
-          "Los compresores one-knob pulen voces y bajos rápidamente",
-          "La interfaz USB graba directamente a un portátil"
-        ],
-        "cons": [
-          "Only 4 mic preamps mean a full band needs an external expander",
-          "2-in/2-out USB means no multi-track capture",
-          "No Bluetooth for wireless backing-track playback",
-          "SPX effects are serviceable but not as rich as the GigFX engine"
-        ],
-        "cons_es": [
-          "Solo 4 preamps de micrófono obligan a un expansor externo para banda completa",
-          "El USB 2x2 no permite captura multitrack",
-          "Sin Bluetooth para reproducir pistas de acompañamiento inalámbricamente",
-          "Los efectos SPX cumplen pero no son tan ricos como el motor GigFX"
-        ]
-      },
       {
         "name": "Mackie ProFX12v3",
         "name_es": "Mackie ProFX12v3",
@@ -45540,34 +44898,6 @@
           "El número de canales sigue limitando producciones con más micros",
           "Es la opción analógica más cara de esta guía",
           "Los efectos comparten un solo layout de envíos entre todos los canales"
-        ]
-      },
-      {
-        "name": "Allen & Heath ZEDi-10FX",
-        "name_es": "Allen & Heath ZEDi-10FX",
-        "pros": [
-          "Four GS-R preamps from A&H's touring-console team",
-          "Built-in 4x4 24-bit/96kHz USB interface for recording or podcasting",
-          "MusiQ 3-band EQ and multi-model ZED FX processor",
-          "Just 2.3 kg — the lightest way into pro-grade analog sound"
-        ],
-        "pros_es": [
-          "Cuatro preamps GS-R del equipo de consolas de gira de A&H",
-          "Interfaz USB 4x4 de 24-bit/96kHz integrada para grabación o podcasting",
-          "EQ MusiQ de 3 bandas y procesador ZED FX multi-modelo",
-          "Solo 2.3 kg — la forma más ligera de entrar en el sonido analógico profesional"
-        ],
-        "cons": [
-          "Only 10 channels with 4 mic preamps — not enough for full bands",
-          "No built-in compressors on individual channels",
-          "FX selection is limited compared to larger engines",
-          "USB interface is 4x4 — cannot record all channels simultaneously"
-        ],
-        "cons_es": [
-          "Solo 10 canales con 4 preamps de micrófono — insuficiente para bandas completas",
-          "Sin compresores incorporados en canales individuales",
-          "La selección de FX es limitada comparada con motores más grandes",
-          "La interfaz USB es 4x4 — no puede grabar todos los canales simultáneamente"
         ]
       },
       {
@@ -48008,7 +47338,7 @@
     "verdict_es": "El P-Bass te da potencia y simplicidad — un sonido, perfecto. El J-Bass añade versatilidad y velocidad con esa segunda pastilla, así que elige según quieras un gran tono o muchos.",
     "verdictProsCons": [
       {
-        "name": "Fender Player Precision Bass",
+        "name": "Fender Player II Precision Bass",
         "name_es": "Fender Player Precision Bajo",
         "pros": [
           "Split-coil humbucking pickup delivers permanent hum cancellation — zero noise even at high gain levels or in electrically noisy environments like live stages",
@@ -48038,7 +47368,7 @@
         ]
       },
       {
-        "name": "Fender Player Jazz Bass",
+        "name": "Fender Player II Jazz Bass",
         "name_es": "Fender Player Jazz Bajo",
         "pros": [
           "Dual single-coil pickups with individual volume controls provide a wide tonal range — from warm neck pickup tones to bright bridge pickup aggression and everything in between",
@@ -48447,11 +47777,11 @@
       "title_es": "Comparativa de bajos Fender en esta guía",
       "columns": [
         {
-          "title": "Fender Player Precision Bass",
+          "title": "Fender Player II Precision Bass",
           "title_es": "Fender Player Precision Bajo"
         },
         {
-          "title": "Fender Player Jazz Bass",
+          "title": "Fender Player II Jazz Bass",
           "title_es": "Fender Player Jazz Bajo"
         },
         {
@@ -48688,7 +48018,7 @@
     },
     "verdictProsCons": [
       {
-        "name": "Fender Player Precision Bass",
+        "name": "Fender Player II Precision Bass",
         "name_es": "Fender Player Precision Bajo",
         "pros": [
           "Legendary split-coil P tone that sits perfectly in any mix",
@@ -48716,7 +48046,7 @@
         ]
       },
       {
-        "name": "Fender Player Jazz Bass",
+        "name": "Fender Player II Jazz Bass",
         "name_es": "Fender Player Jazz Bajo",
         "pros": [
           "Dual single-coils blend from warm neck to aggressive bridge tones",
@@ -52016,8 +51346,8 @@
           "title_es": "Bajo Sire Marcus Miller V5R"
         },
         {
-          "title": "Sterling StingRay Ray4",
-          "title_es": "Sterling StingRay Ray4"
+          "title": "Sterling by Music Man StingRay Ray4",
+          "title_es": "Sterling by Music Man StingRay Ray4"
         },
         {
           "title": "Yamaha BB434",
@@ -52553,8 +51883,8 @@
         ]
       },
       {
-        "name": "Sterling StingRay Ray4",
-        "name_es": "Sterling StingRay Ray4",
+        "name": "Sterling by Music Man StingRay Ray4",
+        "name_es": "Sterling by Music Man StingRay Ray4",
         "pros": [
           "The definitive one-humbucker StingRay voice — thick, punchy, and mid-forward",
           "2-band active preamp adds tonal flexibility on top of that raw humbucker tone",
@@ -60483,8 +59813,8 @@
           "title_es": "Yamaha DHR12M"
         },
         {
-          "title": "Turbosound TFX122M-AN",
-          "title_es": "Turbosound TFX122M-AN"
+          "title": "Turbosound Flashline TFX122M-AN Stage Monitor",
+          "title_es": "Turbosound Flashline TFX122M-AN Stage Monitor"
         }
       ],
       "rows": [
@@ -60864,8 +60194,8 @@
         ]
       },
       {
-        "name": "Turbosound TFX122M-AN",
-        "name_es": "Turbosound TFX122M-AN",
+        "name": "Turbosound Flashline TFX122M-AN Stage Monitor",
+        "name_es": "Turbosound Flashline TFX122M-AN Stage Monitor",
         "pros": [
           "1100W Klark Teknik Class-D power at an entry-level price",
           "Coaxial 12-inch driver with a 1-inch titanium HF unit for a stable image",
@@ -61127,8 +60457,8 @@
       "title_es": "RCF NX 912-SMA vs EV pXM-12MP comparados en esta guía",
       "columns": [
         {
-          "title": "EV PXM-12MP",
-          "title_es": "EV PXM-12MP"
+          "title": "Electro-Voice PXM-12MP",
+          "title_es": "Electro-Voice PXM-12MP"
         },
         {
           "title": "RCF NX 912-SMA",
@@ -61470,7 +60800,7 @@
         ]
       },
       {
-        "name": "EV ELX200-18SP",
+        "name": "Electro-Voice ELX200-18SP",
         "name_es": "Electro-Voice ELX200-18SP",
         "pros": [
           "Only 29 kg, the easiest 18-inch sub to load",
@@ -61571,8 +60901,8 @@
           "title_es": "RCF SUB 8004-AS"
         },
         {
-          "title": "EV ELX200-18SP",
-          "title_es": "EV ELX200-18SP"
+          "title": "Electro-Voice ELX200-18SP",
+          "title_es": "Electro-Voice ELX200-18SP"
         },
         {
           "title": "JBL PRX918XLF",
@@ -63128,7 +62458,7 @@
           "title_es": "Hollyland LARK A2"
         },
         {
-          "title": "LARK MAX 2 (2-Person)",
+          "title": "Hollyland LARK MAX 2 Combo (2-Person)",
           "title_es": "LARK MAX 2 (2 personas)"
         }
       ],
@@ -64444,8 +63774,8 @@
       "title_es": "Comparativa de los mejores modeladores de amplificador",
       "columns": [
         {
-          "title": "Line 6 HX Stomp",
-          "title_es": "Line 6 HX Stomp"
+          "title": "Line 6 Helix HX Stomp",
+          "title_es": "Line 6 Helix HX Stomp"
         },
         {
           "title": "Boss GX-1",
@@ -64460,8 +63790,8 @@
           "title_es": "Line 6 POD Go"
         },
         {
-          "title": "IK TONEX ONE+",
-          "title_es": "IK TONEX ONE+"
+          "title": "IK Multimedia TONEX ONE+",
+          "title_es": "IK Multimedia TONEX ONE+"
         }
       ],
       "rows": [
@@ -71425,8 +70755,8 @@
           "title_es": "CP-60S"
         },
         {
-          "title": "Highway Parlor",
-          "title_es": "Highway Parlor"
+          "title": "Fender Highway Series Parlor All-Mahogany Acoustic-Electric",
+          "title_es": "Fender Highway Series Parlor All-Mahogany Acoustic-Electric"
         },
         {
           "title": "Rancher Penguin",
@@ -71948,8 +71278,8 @@
           "title_es": "MXL R144"
         },
         {
-          "title": "sE Voodoo VR2",
-          "title_es": "sE Voodoo VR2"
+          "title": "sE Electronics Voodoo VR2",
+          "title_es": "sE Electronics Voodoo VR2"
         },
         {
           "title": "Beyerdynamic M 160",
@@ -72272,8 +71602,8 @@
         ]
       },
       {
-        "name": "sE Voodoo VR2",
-        "name_es": "sE Voodoo VR2",
+        "name": "sE Electronics Voodoo VR2",
+        "name_es": "sE Electronics Voodoo VR2",
         "pros": [
           "Active design — no need for a high-gain preamp",
           "Higher output than passive ribbons for easier recording",
@@ -75497,8 +74827,8 @@
         ]
       },
       {
-        "name": "Rupert Neve RNDI",
-        "name_es": "Rupert Neve RNDI",
+        "name": "Rupert Neve Designs RNDI Active Direct Interface",
+        "name_es": "Rupert Neve Designs RNDI Active Direct Interface",
         "pros": [
           "Custom Rupert Neve transformers and Class-A FET amplifiers add warm, harmonically rich character that flatters bass and guitar",
           "Extraordinary headroom: handles instruments up to +20.5 dBu and speaker-level signals up to +41 dBu — never clips",
@@ -76230,8 +75560,8 @@
         ]
       },
       {
-        "name": "Apogee Symphony I/O Mk II 16×16 SE",
-        "name_es": "Apogee Symphony I/O Mk II 16×16 SE",
+        "name": "Apogee Symphony I/O Mk II 16x16 SE",
+        "name_es": "Apogee Symphony I/O Mk II 16x16 SE",
         "pros": [
           "Flagship conversion — A/D 124 dB (A-weighted), D/A 131 dB with Perfect Symmetry Circuitry",
           "Modular 16×16 SE (→32×32) — swap Thames/HD/Dante modules at home, plug-and-play",
@@ -76373,8 +75703,8 @@
           "title_es": "RME Fireface UFX III"
         },
         {
-          "title": "Apogee Symphony I/O Mk II 16×16 SE",
-          "title_es": "Apogee Symphony I/O Mk II 16×16 SE"
+          "title": "Apogee Symphony I/O Mk II 16x16 SE",
+          "title_es": "Apogee Symphony I/O Mk II 16x16 SE"
         },
         {
           "title": "Audient ORIA",
