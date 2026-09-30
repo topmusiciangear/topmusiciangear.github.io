@@ -56,6 +56,18 @@ const APPROVED_NON_PB = {
   // Squier Sonic Stratocaster HT: Music Store sale de excludeStores (30/09/2026).
   '462': { 'prices.musicstore': [undefined, '€189.00'] },
   // Yamaha Revstar Element RSE20: Music Store entra, G4M baja a £409 (30/09/2026).
+  // SJ-200: zzounds sube a $5,799 y MS a €4,798 CON IVA (antes €4,031,90 era neto) (30/09/2026).
+  '457': { 'prices.zzounds': ['$5,699.00', '$5,799.00'], 'prices.musicstore': ['€4,031.90', '€4,798.00'] },
+  // J-45: MS pasa a €4,444 CON IVA (antes €3,734,50 era el precio neto) (30/09/2026).
+  '456': { 'prices.musicstore': ['€3,734.50', '€4,444.00'] },
+  // Martin OM-42: Music Store entra con GIT0000224-000 (30/09/2026).
+  '453': { 'prices.musicstore': [undefined, '€6,599.00'] },
+  // Martin D-28 estandar: G4M pasa a £3,199 y sale de oos (30/09/2026).
+  '104': {
+    'prices.gear4music': [undefined, '£3,199.00'],
+    'urls.gear4music': ['https://www.gear4music.com/Guitar-and-Bass/Martin-D-28/26U7', undefined],
+    'oos': ['["zzounds","gear4music"]', '["zzounds"]']
+  },
   '464': { 'prices.musicstore': [undefined, '€479.00'], 'prices.gear4music': ['£412.00', '£409.00'] },
   // Yamaha C40: Music Store y Andertons entran (30/09/2026).
   '459': { 'prices.musicstore': [undefined, '€129.00'], 'prices.andertons': [undefined, '£129.00'] },

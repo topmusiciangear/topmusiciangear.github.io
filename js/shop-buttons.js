@@ -735,16 +735,13 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$3,499.99",
       andertons: "£3,599.00",
-      musicstore: "€3,499.00"
+      musicstore: "€3,499.00",
+      gear4music: "£3,199.00"
     },
     urls: {
-      zzounds: "https://www.zzounds.com/a--925521/item--MRTD28",
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28/26U7"
+      zzounds: "https://www.zzounds.com/a--925521/item--MRTD28"
     },
-    oos: [
-      "zzounds",
-      "gear4music"
-    ]
+    oos: ["zzounds"]
   },
   105: {
     prices: {
@@ -3954,14 +3951,13 @@ const TEST_SHOP_BTN = {
   },
   453: {
     prices: {
-      andertons: "£6,799.00"
+      andertons: "£6,799.00",
+      musicstore: "€6,599.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B079V26HMV"
     },
-    oos: [
-      "amazon"
-    ]
+    oos: ["amazon"]
   },
   454: {
     prices: {
@@ -3994,7 +3990,7 @@ const TEST_SHOP_BTN = {
       zzounds: "$4,999.00",
       gear4music: "£4,599.00",
       andertons: "£4,199.00",
-      musicstore: "€3,734.50"
+      musicstore: "€4,444.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B001R2ITEE",
@@ -4007,10 +4003,10 @@ const TEST_SHOP_BTN = {
   },
   457: {
     prices: {
-      zzounds: "$5,699.00",
+      zzounds: "$5,799.00",
       gear4music: "£4,499.00",
       andertons: "£5,699.00",
-      musicstore: "€4,031.90"
+      musicstore: "€4,798.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B0CTKDGRHP"

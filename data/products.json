@@ -1569,13 +1569,16 @@
     "desc_es": "La guitarra acústica que definió la música moderna. Tapa sólida de abeto Sitka, fondo y aros de palo rosa de la India. El estándar con el que se miden todas las demás guitarras acústicas.",
     "img": "https://r2.gear4music.com/media/41/419498/1200/preview.jpg",
     "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FMartin-D-28%2F26U7",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28-Satin-3019954/7W31",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMartin-Guitars-D-28-Satin-New%2Fart-GIT0062673-000",
       "amazon": "https://www.amazon.com/dp/B07629J68X",
       "andertons": "https://www.andertons.co.uk/martin-d-28-acoustic-guitar-pmd-28snt-1/",
       "zzounds": "https://www.zzounds.com/a--925521/item--MRTD28"
     },
     "oos": [
+      "zzounds"
+    ],
+    "excludeStores": [
       "zzounds"
     ]
   },
@@ -9072,22 +9075,22 @@
     "title_es": "Martin OM-42",
     "brand": "Martin",
     "category": "guitars",
-    "desc": "Style 42 taken to its most balanced expression. The Orchestra Model OM-42 pairs a solid Sitka spruce or Adirondack top with East Indian rosewood back and sides, wrapped in exquisite Style 42 abalone pearl trim, gold hardware and a 1 3/4\" modified V neck. Its balanced, articulate voice loves fingerstyle and studio session work, with plenty of headroom and a feather-light response that rewards every nuance.",
-    "desc_es": "El estilo 42 en su expresión más equilibrada. El OM-42 del modelo Orquesta combina una tapa sólida de abeto Sitka o Adirondack con fondo y aros de palo rosa de la India, envuelta en el exquisito fileteado de nácar estilo 42, herrajes dorados y un mástil modificado en V de 44,5 mm. Su voz equilibrada y articulada es perfecta para fingerstyle y trabajo de sesión en estudio, con mucha cabeza dinámica y una respuesta ligera que premia cada matiz.",
+    "desc": "Style 42 taken to its most balanced expression. The Orchestra Model OM-42 pairs a solid spruce top with East Indian rosewood back and sides, wrapped in exquisite Style 42 abalone pearl trim, gold hardware and a Golden Era modified low oval neck. Its balanced, articulate voice loves fingerstyle and studio session work, with plenty of headroom and a feather-light response that rewards every nuance.",
+    "desc_es": "El estilo 42 en su expresión más equilibrada. El OM-42 del modelo Orquesta combina una tapa sólida de picea con fondo y aros de palo rosa de la India, envuelta en el exquisito fileteado de nácar estilo 42, herrajes dorados y un mástil Golden Era low oval modificado con cejuela de 44,5 mm. Su voz equilibrada y articulada es perfecta para fingerstyle y trabajo de sesión en estudio, con mucha cabeza dinámica y una respuesta ligera que premia cada matiz.",
     "img": "https://www.martinguitar.com/on/demandware.static/-/Sites-martin-master-catalog/default/dw7f293b91/images/OM-42/10Y25OM42/10Y25OM42_f.jpg",
     "price": 6699.99,
     "stores": {
       "amazon": "https://www.amazon.com/dp/B079V26HMV",
       "andertons": "https://www.andertons.co.uk/martin-om-42-re-imagined-acoustic",
-      "reverb": "https://reverb.com/p/martin-om-42"
+      "reverb": "https://reverb.com/p/martin-om-42",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Martin-Guitars-OM-42-Standard-Series-000-Form-sol-Spruce-Top-Case/art-GIT0000224-000"
     },
     "oos": [
       "amazon"
     ],
     "excludeStores": [
       "zzounds",
-      "gear4music",
-      "musicstore"
+      "gear4music"
     ]
   },
   {
@@ -9099,7 +9102,7 @@
     "desc": "The pinnacle of modern engineering. The Builder's Edition 914ce pairs a sinker redwood top with Honduran rosewood back and sides, driven by Taylor's V-Class bracing for longer sustain and more volume. A sculpted armrest, beveled cutaway and West African ebony binding make it as comfortable as it is gorgeous, with the ES2 electronics capturing every detail on stage or in the studio.",
     "desc_es": "La cúspide de la ingeniería moderna. La Builder's Edition 914ce combina una tapa de secuoya roja hundida (sinker redwood) con fondo y aros de palo rosa de Honduras, impulsada por el varetaje V-Class de Taylor para más sustain y volumen. El apoyabrazos esculpido, el cutaway biselado y el ribete de ébano de África Occidental la hacen tan cómoda como hermosa, con la electrónica ES2 capturando cada detalle en el escenario o en el estudio.",
     "img": "https://r2.gear4music.com/media/130/1306937/1200/preview.jpg",
-    "price": 5999,
+    "price": 6999,
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0D777R4L2",
       "zzounds": "https://www.zzounds.com/item--TAYBE914CE",
