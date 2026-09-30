@@ -162,6 +162,12 @@ const APPROVED_NON_PB = {
   '26': {
     'prices.gear4music': ['£99.00', '£85.00']
   },
+  // 427 actualizado (sesion en curso).
+  '427': {
+    'prices.zzounds': [undefined, '$99.00'],
+    'prices.musicstore': ['€83.20', '€99.00'],
+    'urls.zzounds': [undefined, 'https://www.zzounds.com/item--AUDATHR30X']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],

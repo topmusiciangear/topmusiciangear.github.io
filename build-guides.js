@@ -4020,7 +4020,8 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$99.00",
       gear4music: "£87.40",
-      musicstore: "€83.20"
+      musicstore: "€99.00",
+      zzounds: "$99.00"
     }
   },
   428: {
