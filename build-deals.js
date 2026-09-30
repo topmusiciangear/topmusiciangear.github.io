@@ -294,7 +294,8 @@ function wrapAndertons(url) {
       <a href="/privacy-policy.html" style="color:var(--text-muted);font-size:12px;text-decoration:none">${t('Privacy Policy', 'Política de Privacidad')}</a>
       <a href="/affiliate-disclosure.html" style="color:var(--text-muted);font-size:12px;text-decoration:none">${t('Affiliate Disclosure', 'Divulgación de Afiliados')}</a>
     </div>
-    <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. All rights reserved.</p>
+    <p style="color: var(--text-secondary); font-size: 12px; max-width: 800px; margin: 0 auto 8px;">${t('<strong>TopMusicianGear</strong> is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store, and Hollyland. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="/affiliate-disclosure.html" style="color:#60a5fa;text-decoration:underline">More info</a>', '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store y Hollyland. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="/es/affiliate-disclosure.html" style="color:#60a5fa;text-decoration:underline">Más info</a>')}</p>
+    <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. All rights reserved. ${t('Built by a musician, for musicians.', 'Hecho por un músico, para músicos.')}</p>
   </footer>
   <script>
   window.toggleNavDropdown=function(b){var d=b.closest('.nav-dd');if(!d)return;var w=!d.classList.contains('open');document.querySelectorAll('.nav-dd.open').forEach(function(x){if(x!==d)x.classList.remove('open')});d.classList.toggle('open',w);if(b.getAttribute('aria-haspopup'))b.setAttribute('aria-expanded',w?'true':'false')};
