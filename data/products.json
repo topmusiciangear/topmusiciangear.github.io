@@ -9224,11 +9224,11 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-C40-III-Classical-Guitar/A20",
       "amazon": "https://www.amazon.com/dp/B00004UE2D",
-      "zzounds": "https://www.zzounds.com/item--YAMC40PK"
+      "zzounds": "https://www.zzounds.com/item--YAMC40PK",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-C40-Classical-Guitar-/art-GIT0000636-000",
+      "andertons": "https://www.andertons.co.uk/yamaha-c40ii-nylon-classical-guitar/"
     },
     "excludeStores": [
-      "andertons",
-      "musicstore",
       "reverb"
     ],
     "badge": "budget",
@@ -9343,21 +9343,21 @@
     "title_es": "Yamaha Revstar Element RSE20",
     "brand": "Yamaha",
     "category": "guitars",
-    "price": 439,
+    "price": 539.99,
     "rating": 4.8,
     "reviews": 33,
     "badge": "topQuality",
     "desc": "The Yamaha Revstar Element RSE20 is the higher-budget beginner guitar you will never outgrow. A chambered mahogany body with set-in neck gives warm, singing sustain, while the two Alnico V humbuckers (VH3n/VH3b) deliver rich classic-rock tone. The push-pull Dry Switch adds a high-pass filter for extra clarity, and the tune-o-matic bridge with stopbar keeps tuning rock-solid. A 24.75-inch scale and comfortable C-neck make it a joy to play from day one.",
     "desc_es": "La Yamaha Revstar Element RSE20 es la guitarra para principiantes con mejor relación calidad-precio que nunca superarás. Un cuerpo de caoba ahuecada con mástil set-in ofrece un sustain cálido y cantarín, mientras que las dos humbuckers de Alnico V (VH3n/VH3b) dan un tono de rock clásico rico. El Dry Switch push-pull añade un filtro de paso alto para más claridad, y el puente tune-o-matic con tope mantiene la afinación impecable. Una escala de 24,75\" y un mástil en C cómodo la hacen un placer desde el primer día.",
-    "img": "https://r2.gear4music.com/media/84/848538/1200/preview.jpg",
+    "img": "https://r2.gear4music.com/media/81/813079/1200/preview.jpg",
     "stores": {
-      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Revstar-Element-RSE20-Vintage-White/4PBT",
-      "andertons": "https://www.andertons.co.uk/yamaha-revstar-element-rse20-vintage-white/",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Revstar-Element-RSE20-Black/4PBW",
+      "andertons": "https://www.andertons.co.uk/yamaha-revstar-element-rse20-black/?search_query=Yamaha%20Revstar%20Element%20RSE20",
       "zzounds": "https://www.zzounds.com/item--YAMRSE20",
-      "amazon": "https://www.amazon.com/dp/B09NYLQF5L"
+      "amazon": "https://www.amazon.com/dp/B09NYLQF5L",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-Revstar-Element-RSE20-Black/art-GIT0058591-000"
     },
     "excludeStores": [
-      "musicstore",
       "reverb"
     ],
     "oos": []
