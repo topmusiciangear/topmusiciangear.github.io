@@ -1869,11 +1869,11 @@ const TEST_SHOP_BTN = {
   },
   193: {
     prices: {
-      gear4music: "£350.00",
+      gear4music: "£374.00",
       amazon: "$499.99",
       zzounds: "$499.99",
       andertons: "£349.00",
-      musicstore: "€419.00"
+      musicstore: "€399.00"
     }
   },
   194: {
