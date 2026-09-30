@@ -2100,6 +2100,9 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-currency-note .note-row:last-child {
   margin-bottom: 0;
 }
+.guide-product-card-currency-note .note-lead span:last-child {
+  color: #f59e0b;
+}
 .guide-product-card-currency-note .note-icon {
   flex-shrink: 0;
   font-size: 11px;
