@@ -22,6 +22,13 @@ const CASES = [
   { id: 157, store: 'musicstore', token: 'art-BAS0010203',         want: '\u20ac488' },
   { id: 156, store: 'musicstore', token: 'art-BAS0011248',         want: '\u20ac1,799' },
   { id: 156, store: 'andertons', token: 'professional-II-jazz-bass-v-in', want: '\u00a31,599' },
+  { id: 158, store: 'musicstore', token: 'art-BAS0011646', want: '\u20ac299' },
+  { id: 159, store: 'zzounds', token: 'YAMTRBX304', want: '$450' },
+  { id: 159, store: 'gear4music', token: 'TRBX304', want: '\u00a3397' },
+  { id: 160, store: 'musicstore', token: 'art-BAS0008299', want: '\u20ac369' },
+  { id: 185, store: 'musicstore', token: 'art-BAS0012728', want: '\u20ac2,349' },
+  { id: 185, store: 'gear4music', token: 'Ultra-II-Precision-Bass-EB', want: '\u00a32,165' },
+  { id: 185, store: 'andertons', token: 'ultra-ii-precision-bass-maple', want: '\u00a32,199' },
 ];
 const STALE = ['\u00a3178.75', '\u00a3213.50', '\u20ac354.12', 'art-BAS0011257'];
 const label = c => 'id ' + String(c.id).padEnd(3) + c.store.padEnd(11) + c.want.padEnd(9);

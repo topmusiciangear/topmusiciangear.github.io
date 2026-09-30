@@ -35,10 +35,15 @@ const untouchedBad = ka.filter(k => !B[k].pbCur && JSON.stringify(A[k]) !== JSON
 // respecto al baseline es un fallo: el patch PB no puede tocar otras entradas y
 // las correcciones de precio deben declararse aqui una a una.
 const APPROVED_NON_PB = {
-  '53':  { 'prices.gear4music': ['\u00a3178.75', '\u00a3175.00'] },
-  '54':  { 'prices.gear4music': ['\u00a3213.50', '\u00a3226.00'] },
-  '156': { 'prices.musicstore': ['\u20ac1,847.90', '\u20ac1,799.00'] },
-  '157': { 'prices.gear4music': ['\u00a3389.00', '\u00a3419.00'], 'prices.musicstore': ['\u20ac354.12', '\u20ac488.00'] },
+  '53':  { 'prices.gear4music': ['£178.75', '£175.00'] },
+  '54':  { 'prices.gear4music': ['£213.50', '£226.00'] },
+  '155': { 'prices.musicstore': ['€1,775.63', undefined] },
+  '156': { 'prices.musicstore': ['€1,847.90', '€1,799.00'], 'prices.andertons': ['£1,799.00', '£1,599.00'] },
+  '157': { 'prices.gear4music': ['£389.00', '£419.00'], 'prices.musicstore': ['€354.12', '€488.00'] },
+  '158': { 'prices.musicstore': ['€217.65', '€299.00'] },
+  '159': { 'prices.zzounds': ['$419.99', '$450.00'], 'prices.gear4music': ['£399.00', '£397.00'] },
+  '160': { 'prices.musicstore': ['€389.00', '€369.00'] },
+  '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
 function flat(o) {
