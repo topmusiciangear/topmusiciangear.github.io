@@ -851,15 +851,12 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$129.00",
       andertons: "£112.00",
-      gear4music: "£115.00",
+      gear4music: "£163.00",
       musicstore: "€155.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--JBLLSR305PMKII"
-    },
-    oos: [
-      "zzounds"
-    ]
+    }
   },
   117: {
     prices: {
@@ -2536,17 +2533,14 @@ const TEST_SHOP_BTN = {
   },
   303: {
     prices: {
-      gear4music: "£293.50",
+      gear4music: "£277.00",
       amazon: "$395.00",
       andertons: "£288.00",
-      musicstore: "€438.66"
+      musicstore: "€299.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--GEN8010APM"
-    },
-    oos: [
-      "zzounds"
-    ]
+    }
   },
   304: {
     prices: {
@@ -2568,7 +2562,7 @@ const TEST_SHOP_BTN = {
       amazon: "$593.75",
       zzounds: "$599.00",
       andertons: "£499.00",
-      musicstore: "€331.18"
+      musicstore: "€469.00"
     }
   },
   306: {

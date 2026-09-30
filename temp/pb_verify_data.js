@@ -106,6 +106,19 @@ const APPROVED_NON_PB = {
     'prices.gear4music': ['£169.00', '£194.00'],
     'urls.gear4music': ['https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-LP-6-2nd-Wave-Studio-Monitor-Single%2F434C', 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-LP-6-2nd-Wave-Black%2F6SIL']
   },
+  // 116 actualizado (sesion en curso).
+  '116': {
+    'prices.gear4music': ['£115.00', '£163.00']
+  },
+  // 303 actualizado (sesion en curso).
+  '303': {
+    'prices.musicstore': ['€438.66', '€299.00'],
+    'prices.gear4music': ['£293.50', '£277.00']
+  },
+  // 305 actualizado (sesion en curso).
+  '305': {
+    'prices.musicstore': ['€331.18', '€469.00']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
