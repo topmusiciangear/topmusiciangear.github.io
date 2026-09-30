@@ -2862,16 +2862,13 @@ const TEST_SHOP_BTN = {
   304: {
     prices: {
       andertons: "£449.00",
-      gear4music: "£249.99",
+      gear4music: "£499.00",
       amazon: "$599.00",
-      musicstore: "€250.42"
+      musicstore: "€649.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--KAAINUNF"
-    },
-    oos: [
-      "zzounds"
-    ]
+    }
   },
   305: {
     prices: {
