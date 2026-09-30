@@ -177,6 +177,11 @@ const APPROVED_NON_PB = {
     'urls.zzounds': [undefined, 'https://www.zzounds.com/item--SHUSRH440A'],
     'urls.andertons': [undefined, 'https://www.andertons.co.uk/shure-srh440a-professional-studio-headphones/?search_query=Shure%20SRH440A']
   },
+  // 428 actualizado (sesion en curso).
+  '428': {
+    'prices.zzounds': ['$37.49', '$50.00'],
+    'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSamson-SR850-Pro-Studio-Headphones%2FD7K']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],

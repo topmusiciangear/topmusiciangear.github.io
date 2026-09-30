@@ -4029,7 +4029,7 @@ const TEST_SHOP_BTN = {
   428: {
     prices: {
       amazon: "$37.49",
-      zzounds: "$37.49"
+      zzounds: "$50.00"
     }
   },
   429: {
