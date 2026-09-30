@@ -1116,17 +1116,49 @@ nav {
   flex-shrink: 0;
 }
 
-/* Wide wordmark logos (Music Store, zZounds, Hollyland): match the 20px
-   height of the square icons instead of shrinking into a 20x20 box */
+/* Wide wordmark logos (Music Store, Hollyland): fixed height, free width
+   (max-width stays above their natural 20px-height width: 89px / 94px)
+   so the browser never squeezes them */
 .store-logo-img-wide {
   width: auto;
-  max-width: 76px;
   height: 20px;
+  max-width: 96px;
 }
 
-/* Dark-on-transparent logos need a light tile to read on the dark card */
+/* Padded square marks (zZounds): slightly larger box for optical parity
+   with icons that fill their frame */
+.store-logo-img-pad {
+  width: 24px;
+  height: 24px;
+}
+
+/* Amazon glyph + Reverb/Andertons letter badges: same 20px box as images */
+.store-logo-svg {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: var(--store-color, #ff9900);
+  flex-shrink: 0;
+}
+.store-badge {
+  font-weight: 900;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* Dark-on-transparent logos need a light tile to read on the dark card.
+   Height compensates the tile padding (border-box) so the glyph itself
+   stays at the same 20px as the other icons */
 .store-logo-img-light {
   background: #ffffff;
+  height: 26px;
   padding: 3px 6px;
   border-radius: 4px;
 }
@@ -2579,7 +2611,11 @@ footer ul li a:hover { color: var(--accent); }
   .store-logo { padding: 6px 6px; font-size: 10px; }
   .store-logo i { font-size: 14px; }
   .store-logo-img { width: 14px; height: 14px; }
-  .store-logo-img-wide { height: 14px; max-width: 56px; }
+  .store-logo-img-wide { width: auto; height: 12px; max-width: 64px; }
+  .store-logo-img-pad { width: 16px; height: 16px; }
+  .store-logo-svg { width: 14px; height: 14px; font-size: 14px; }
+  .store-badge { width: 14px; height: 14px; font-size: 10px; border-radius: 2px; }
+  .store-logo-img-light { height: 16px; padding: 2px 4px; }
   .footer-grid { flex-wrap: wrap; }
   footer .footer-col { flex: 1; min-width: 0; text-align: center; }
   .guide-grid { grid-template-columns: 1fr; }
