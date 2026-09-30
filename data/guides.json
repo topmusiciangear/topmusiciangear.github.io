@@ -2429,7 +2429,8 @@
           199,
           303,
           305
-        ]
+        ],
+        "skipMedia": true
       },
       {
         "heading": "Is the JBL 305P MkII the Best Studio Monitor for Accurate Mixing?",
@@ -2459,7 +2460,7 @@
         "content": "<strong>The Rokit 7 G5 is everywhere for a reason. </strong>Kevlar drivers deliver clear mids, the front-firing bass port works well in small rooms, and the DSP-driven EQ lets you tune the speakers to your space. The bass response is generous — learn how it translates and you'll make consistently good mixes. I recommend these for bedroom producers and home studios.",
         "content_es": "<strong>El Rokit 7 G5 está en todas partes por una razón. </strong>Los drivers de Kevlar ofrecen medios claros, el puerto de graves frontal funciona bien en habitaciones pequeñas, y el ecualizador DSP te permite ajustar los altavoces a tu espacio. La respuesta de graves es generosa — aprende cómo se traduce y harás mezclas consistentemente buenas. Los recomiendo para productores de dormitorio y home studios.",
         "products": [
-          116
+          20
         ]
       },
       {
@@ -3139,7 +3140,8 @@
         "cons": [
           "Modest 5-inch woofer can run out of headroom on bass-heavy material",
           "Rear-panel controls are minimal compared to room-EQ rivals",
-          "No built-in room correction"
+          "No built-in room correction",
+          "Faint amplifier hiss audible in very quiet rooms"
         ],
         "pros_es": [
           "La guía de onda Image Control patentada crea un punto óptimo amplio e indulgente",
@@ -3150,7 +3152,8 @@
         "cons_es": [
           "El woofer modesto de 5 pulgadas puede quedarse corto en material con muchos graves",
           "Los controles del panel trasero son mínimos frente a rivales con EQ de sala",
-          "Sin corrección de sala integrada"
+          "Sin corrección de sala integrada",
+          "Leve siseo del amplificador audible en salas muy silenciosas"
         ]
       },
       {
@@ -3164,7 +3167,9 @@
         ],
         "cons": [
           "No coaxial design, so imaging is not as pinpoint as the IN-8 V2",
-          "Room EQ is set via dip switches, not automated software"
+          "Room EQ is set via dip switches, not automated software",
+          "Analog inputs only — no digital or USB connection",
+          "Boundary EQ trims placement issues but cannot replace real acoustic treatment"
         ],
         "pros_es": [
           "Los interruptores DIP de ecualización de límites corrigen los graves según coloques en escritorio, pared o esquina",
@@ -3174,7 +3179,9 @@
         ],
         "cons_es": [
           "Sin diseño coaxial, así que la imagen no es tan de precisión como la de la IN-8 V2",
-          "El EQ de sala se ajusta con interruptores DIP, no con software automatizado"
+          "El EQ de sala se ajusta con interruptores DIP, no con software automatizado",
+          "Solo entradas analógicas — sin conexión digital ni USB",
+          "El Boundary EQ corrige la colocación pero no sustituye el tratamiento acústico real"
         ]
       },
       {
@@ -3188,7 +3195,9 @@
         ],
         "cons": [
           "Bass is colored and generous, so it takes practice to mix on",
-          "Less flattering top-end than ribbon or MTM rivals"
+          "Less flattering top-end than ribbon or MTM rivals",
+          "Generous low end can overwhelm small untreated rooms",
+          "All tuning lives on the back panel — no app or digital control"
         ],
         "pros_es": [
           "Los drivers de Kevlar ofrecen medios claros y presentes",
@@ -3198,7 +3207,9 @@
         ],
         "cons_es": [
           "Los graves son coloreados y generosos, así que requiere práctica para mezclar con ellos",
-          "Extremo alto menos halagador que los rivales de cinta o MTM"
+          "Extremo alto menos halagador que los rivales de cinta o MTM",
+          "Los graves generosos pueden saturar salas pequeñas sin tratar",
+          "Todo el ajuste está en el panel trasero — sin app ni control digital"
         ]
       },
       {
@@ -3212,7 +3223,9 @@
         ],
         "cons": [
           "Forward, unforgiving midrange requires good room treatment",
-          "No built-in room correction or DSP"
+          "No built-in room correction or DSP",
+          "Large cabinet dominates small desks and needs breathing room",
+          "Rear bass port demands wall clearance to avoid boom"
         ],
         "pros_es": [
           "Traducción de referencia — si una mezcla suena bien en los HS8 suena bien en todas partes",
@@ -3222,7 +3235,9 @@
         ],
         "cons_es": [
           "Medios presentados y exigentes que requieren buen tratamiento de sala",
-          "Sin corrección de sala ni DSP integrados"
+          "Sin corrección de sala ni DSP integrados",
+          "El gabinete grande domina escritorios pequeños y necesita espacio",
+          "El puerto de graves trasero exige distancia a la pared para evitar retumbos"
         ]
       },
       {
@@ -3236,7 +3251,9 @@
         ],
         "cons": [
           "Premium price for the class",
-          "Folded ribbon is more delicate than a conventional dome"
+          "Ribbon tweeter is more delicate than a conventional dome",
+          "Rear-ported design needs wall clearance unlike front-ported rivals",
+          "DSP voicings and settings add complexity for plug-and-play buyers"
         ],
         "pros_es": [
           "El tweeter de cinta X-ART ofrece una respuesta transitoria impresionante",
@@ -3246,7 +3263,9 @@
         ],
         "cons_es": [
           "Precio premium para su clase",
-          "La cinta plegada es más delicada que un domo convencional"
+          "El tweeter de cinta es más delicado que un domo convencional",
+          "El puerto trasero necesita distancia a la pared, al contrario que rivales frontales",
+          "Los voicings y ajustes DSP añaden complejidad si buscas enchufar y listo"
         ]
       },
       {
@@ -3260,7 +3279,9 @@
         ],
         "cons": [
           "Large 8-inch driver needs more space than small nearfields",
-          "Premium price among Kali's own line"
+          "Premium price among Kali’s own line",
+          "No auto-calibration — all room tuning is manual via rear switches",
+          "The 8-inch woofer excites small-room modes, so placement matters"
         ],
         "pros_es": [
           "Diseño real de 3 vías con fuente puntual coaxial para imagen de precisión y coherencia de fase",
@@ -3270,7 +3291,9 @@
         ],
         "cons_es": [
           "El gran driver de 8 pulgadas necesita más espacio que los nearfields pequeños",
-          "Precio premium dentro de la propia línea de Kali"
+          "Precio premium dentro de la propia línea de Kali",
+          "Sin autocalibración — todo el ajuste de sala es manual con interruptores traseros",
+          "El woofer de 8 pulgadas excita los modos de salas pequeñas — la colocación importa"
         ]
       },
       {
@@ -3284,7 +3307,9 @@
         ],
         "cons": [
           "3-inch woofer keeps the low end present but not deep — bass-heavy mixes need a sub",
-          "Priciest per driver in this guide"
+          "Priciest per driver in this guide",
+          "104 dB max SPL limits loud tracking work",
+          "Volume and EQ live on the rear panel — no front controls"
         ],
         "pros_es": [
           "Precisión de grado de referencia con exactitud de ±2.5 dB en un nearfield diminuto",
@@ -3294,7 +3319,9 @@
         ],
         "cons_es": [
           "El woofer de 3 pulgadas mantiene los graves presentes pero no profundos — las mezclas con muchos graves necesitan un sub",
-          "El más caro por driver de esta guía"
+          "El más caro por driver de esta guía",
+          "Los 104 dB máximos limitan el trabajo de grabación a volumen alto",
+          "Volumen y EQ están en el panel trasero — sin controles frontales"
         ]
       },
       {
@@ -3308,7 +3335,9 @@
         ],
         "cons": [
           "Small driver limits bass depth on loud material",
-          "Premium price for the class"
+          "Premium price for the class",
+          "Full calibration needs the MA 1 kit, sold separately",
+          "Deep settings require the Neumann.Control app and a network connection"
         ],
         "pros_es": [
           "Con DSP e incluye la opción de calibración automática de sala Neumann MA 1",
@@ -3318,7 +3347,9 @@
         ],
         "cons_es": [
           "El driver pequeño limita la profundidad de graves en material fuerte",
-          "Precio premium para su clase"
+          "Precio premium para su clase",
+          "La calibración completa necesita el kit MA 1, vendido por separado",
+          "Los ajustes profundos exigen la app Neumann.Control y conexión de red"
         ]
       },
       {
@@ -3332,7 +3363,10 @@
         ],
         "cons": [
           "Costs more than the other eight monitors in this guide combined",
-          "Overkill for untreated bedrooms and small desks"
+          "Overkill for untreated bedrooms and small desks",
+          "GLM AutoCal needs the GLM measurement kit, sold separately",
+          "14.3 kg each — demands solid stands, not desktop placement",
+          "Sold individually — a stereo pair doubles the already huge outlay"
         ],
         "pros_es": [
           "Fuente puntual coaxial real con woofers duales ocultos para imagen de precisión",
@@ -3342,7 +3376,10 @@
         ],
         "cons_es": [
           "Cuesta más que los otros ocho monitores de esta guía juntos",
-          "Excesivo para dormitorios sin tratar y escritorios pequeños"
+          "Excesivo para dormitorios sin tratar y escritorios pequeños",
+          "GLM AutoCal necesita el kit de medición GLM, vendido por separado",
+          "14,3 kg cada uno — exigen soportes sólidos, no el escritorio",
+          "Se vende por unidad — un par estéreo duplica el ya enorme desembolso"
         ]
       },
       {
@@ -3356,7 +3393,9 @@
         ],
         "cons": [
           "It is a subwoofer — you still need a monitor pair on top",
-          "Adds another box, another cable run and another cost"
+          "Adds another box, another cable run and another cost",
+          "No auto-calibration — crossover, phase and level are set by ear",
+          "31 lbs of subwoofer — not a box you move around"
         ],
         "pros_es": [
           "Los woofers opuestos de 6,5 pulgadas cancelan la vibración — graves profundos sin traqueteo del gabinete",
@@ -3366,7 +3405,9 @@
         ],
         "cons_es": [
           "Es un subwoofer — sigues necesitando un par de monitores encima",
-          "Añade otra caja, otro cableado y otro coste"
+          "Añade otra caja, otro cableado y otro coste",
+          "Sin autocalibración — cruce, fase y nivel se ajustan a oído",
+          "31 libras de subwoofer — no es una caja para mover de un lado a otro"
         ]
       },
       {
@@ -3380,7 +3421,10 @@
         ],
         "cons": [
           "Designed for 0.8-meter listening — not room monitors",
-          "Overkill and over-complex for casual listening"
+          "Overkill and over-complex for casual listening",
+          "Three-piece system clutters a desk versus single-box monitors",
+          "Satellites must be aimed precisely at your ears — fussy positioning",
+          "Bass unit has to sit centered between the satellites, limiting desk layouts"
         ],
         "pros_es": [
           "Sistema ultra-cercano diseñado a propósito: unidad de graves más satélites coaxiales a la altura del oído",
@@ -3390,7 +3434,10 @@
         ],
         "cons_es": [
           "Diseñado para escucha a 0,8 metros — no son monitores de sala",
-          "Excesivo y demasiado complejo para escucha casual"
+          "Excesivo y demasiado complejo para escucha casual",
+          "El sistema de tres piezas recarga el escritorio frente a monitores de una sola caja",
+          "Los satélites deben apuntarse con precisión a tus oídos — colocación exigente",
+          "La unidad de graves debe ir centrada entre los satélites, lo que limita el escritorio"
         ]
       },
       {
@@ -3404,7 +3451,9 @@
         ],
         "cons": [
           "Small drivers limit output — will not fill a room",
-          "Bluetooth is convenient, not for critical mixing"
+          "Bluetooth is convenient, not for critical mixing",
+          "No XLR inputs — RCA, TRS and USB-C only",
+          "85 dB continuous output caps loud-tracking headroom"
         ],
         "pros_es": [
           "Par compacto con puerto frontal que funciona pegado a paredes y pantallas",
@@ -3414,7 +3463,9 @@
         ],
         "cons_es": [
           "Los drivers pequeños limitan la salida — no llenará una sala",
-          "El Bluetooth es cómodo, no para mezcla crítica"
+          "El Bluetooth es cómodo, no para mezcla crítica",
+          "Sin entradas XLR — solo RCA, TRS y USB-C",
+          "Los 85 dB continuos limitan el headroom para grabar fuerte"
         ]
       }
     ],

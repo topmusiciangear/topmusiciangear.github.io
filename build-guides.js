@@ -5364,7 +5364,7 @@ function buildGuidePage(guide, lang, idx) {
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
     let sectionChips = '', productImgs = '';
-    if (s.splitProducts && sectionProducts.length > 1) {
+    if (!s.skipMedia && s.splitProducts && sectionProducts.length > 1) {
       const blocks = sectionProducts.map(p => {
         if (renderedProducts.has(p.id)) return '';
         renderedProducts.add(p.id);
@@ -5386,7 +5386,7 @@ function buildGuidePage(guide, lang, idx) {
         '</div>';
       }).filter(Boolean).join('');
       productImgs = blocks ? '<div class="guide-section-prods">' + blocks + '</div>' : '';
-    } else {
+    } else if (!s.skipMedia) {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
       const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id);
       if (isFirstNew) {
