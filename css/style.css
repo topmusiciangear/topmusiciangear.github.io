@@ -1116,6 +1116,21 @@ nav {
   flex-shrink: 0;
 }
 
+/* Wide wordmark logos (Music Store, zZounds, Hollyland): match the 20px
+   height of the square icons instead of shrinking into a 20x20 box */
+.store-logo-img-wide {
+  width: auto;
+  max-width: 76px;
+  height: 20px;
+}
+
+/* Dark-on-transparent logos need a light tile to read on the dark card */
+.store-logo-img-light {
+  background: #ffffff;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
 /* Footer */
 footer {
   color: var(--text-muted);
@@ -2564,6 +2579,7 @@ footer ul li a:hover { color: var(--accent); }
   .store-logo { padding: 6px 6px; font-size: 10px; }
   .store-logo i { font-size: 14px; }
   .store-logo-img { width: 14px; height: 14px; }
+  .store-logo-img-wide { height: 14px; max-width: 56px; }
   .footer-grid { flex-wrap: wrap; }
   footer .footer-col { flex: 1; min-width: 0; text-align: center; }
   .guide-grid { grid-template-columns: 1fr; }
