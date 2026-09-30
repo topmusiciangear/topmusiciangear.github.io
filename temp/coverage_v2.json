@@ -22,13 +22,11 @@
  {
   "id": "best-microphone",
   "ncards": 11,
-  "ncols": 9,
-  "nverdict": 9,
+  "ncols": 6,
+  "nverdict": 6,
   "flags": [
    "SIN_TABLA: AKG C414 XLII | Rode NT1 Signature Series | MXL R144 | Royer R-121",
-   "TABLA_SIN_TARJETA: Rode PodMic | Rode Procaster | Elgato Wave:3",
-   "SIN_VEREDICTO: AKG C414 XLII | Rode NT1 Signature Series | MXL R144 | Royer R-121",
-   "VEREDICTO_SIN_TARJETA: Rode PodMic | Rode Procaster | Elgato Wave:3"
+   "SIN_VEREDICTO: AKG C414 XLII | Rode NT1 Signature Series | MXL R144 | Royer R-121"
   ]
  },
  {
@@ -42,27 +40,13 @@
   ]
  },
  {
-  "id": "budget-mics",
-  "ncards": 23,
-  "ncols": 23,
-  "nverdict": 23,
-  "flags": [
-   "SIN_TABLA: MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
-   "TABLA_SIN_TARJETA: MAONO PD100 XLR",
-   "SIN_VEREDICTO: MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
-   "VEREDICTO_SIN_TARJETA: MAONO PD100 XLR"
-  ]
- },
- {
   "id": "usb-mics",
   "ncards": 15,
-  "ncols": 7,
-  "nverdict": 7,
+  "ncols": 5,
+  "nverdict": 5,
   "flags": [
    "SIN_TABLA: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Rode XCM-50 Compact USB Condenser Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone | Rode PodMic USB | HyperX QuadCast 2 | Rode NT-USB Mini Studio Condenser Microphone",
-   "TABLA_SIN_TARJETA: Shure SM7B | Electro-Voice RE20",
-   "SIN_VEREDICTO: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Rode XCM-50 Compact USB Condenser Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone | Rode PodMic USB | HyperX QuadCast 2 | Rode NT-USB Mini Studio Condenser Microphone",
-   "VEREDICTO_SIN_TARJETA: Shure SM7B | Electro-Voice RE20"
+   "SIN_VEREDICTO: Maono PD200X Dynamic Microphone | Behringer XM8500 Ultravoice Dynamic Microphone | Rode XCM-50 Compact USB Condenser Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone | Rode PodMic USB | HyperX QuadCast 2 | Rode NT-USB Mini Studio Condenser Microphone"
   ]
  },
  {
@@ -71,10 +55,8 @@
   "ncols": 9,
   "nverdict": 9,
   "flags": [
-   "SIN_TABLA: Sennheiser EW-D Dual Wireless System | Electro-Voice ND86",
-   "TABLA_SIN_TARJETA: EV ND86",
-   "SIN_VEREDICTO: Sennheiser EW-D Dual Wireless System | Electro-Voice ND86",
-   "VEREDICTO_SIN_TARJETA: EV ND86"
+   "SIN_TABLA: Sennheiser EW-D Dual Wireless System",
+   "SIN_VEREDICTO: Sennheiser EW-D Dual Wireless System"
   ]
  },
  {
@@ -141,10 +123,8 @@
   "ncols": 6,
   "nverdict": 6,
   "flags": [
-   "SIN_TABLA: Fender Player II Telecaster | Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s",
-   "TABLA_SIN_TARJETA: Fender Player Telecaster",
-   "SIN_VEREDICTO: Fender Player II Telecaster | Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s",
-   "VEREDICTO_SIN_TARJETA: Fender Player Telecaster"
+   "SIN_TABLA: Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s",
+   "SIN_VEREDICTO: Fender American Professional II Stratocaster | Gibson Les Paul Standard '60s"
   ]
  },
  {
@@ -153,22 +133,8 @@
   "ncols": 6,
   "nverdict": 6,
   "flags": [
-   "SIN_TABLA: Ampeg Rocket Bass RB-210 | Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2",
-   "TABLA_SIN_TARJETA: Ampeg RB-210",
-   "SIN_VEREDICTO: Ampeg Rocket Bass RB-210 | Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2",
-   "VEREDICTO_SIN_TARJETA: Ampeg RB-210"
-  ]
- },
- {
-  "id": "stage-wireless",
-  "ncards": 5,
-  "ncols": 5,
-  "nverdict": 5,
-  "flags": [
-   "SIN_TABLA: Shure BLX24R/SM58 Wireless",
-   "TABLA_SIN_TARJETA: Shure SM58 Wireless",
-   "SIN_VEREDICTO: Shure BLX24R/SM58 Wireless",
-   "VEREDICTO_SIN_TARJETA: Shure SM58 Wireless"
+   "SIN_TABLA: Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2",
+   "SIN_VEREDICTO: Yamaha THR10II Desktop Modeling Amp | Positive Grid Spark 2"
   ]
  },
  {
@@ -177,20 +143,8 @@
   "ncols": 7,
   "nverdict": 7,
   "flags": [
-   "SIN_TABLA: Electro-Harmonix Nano Small Stone | Strymon BigSky MX",
-   "TABLA_SIN_TARJETA: Electro-Harmonix Small Stone",
-   "SIN_VEREDICTO: Electro-Harmonix Nano Small Stone | Strymon BigSky MX",
-   "VEREDICTO_SIN_TARJETA: Electro-Harmonix Small Stone"
-  ]
- },
- {
-  "id": "acoustic-guitars-guide",
-  "ncards": 7,
-  "ncols": 7,
-  "nverdict": 7,
-  "flags": [
-   "SIN_TABLA: Gibson Custom Shop 1942 Banner J-45",
-   "TABLA_SIN_TARJETA: Gibson 1942 Banner J-45"
+   "SIN_TABLA: Strymon BigSky MX",
+   "SIN_VEREDICTO: Strymon BigSky MX"
   ]
  },
  {
@@ -229,8 +183,7 @@
   "ncols": 5,
   "nverdict": 6,
   "flags": [
-   "SIN_TABLA: Yamaha C40 Classical (Nylon) Guitar | Squier Affinity Series Stratocaster | Enya Nova Go Sonic Smart Electric Guitar | Squier Sonic Mustang",
-   "TABLA_SIN_TARJETA: Squier Affinity Stratocaster",
+   "SIN_TABLA: Yamaha C40 Classical (Nylon) Guitar | Enya Nova Go Sonic Smart Electric Guitar | Squier Sonic Mustang",
    "SIN_VEREDICTO: Enya Nova Go Sonic Smart Electric Guitar | Squier Sonic Mustang"
   ]
  },
@@ -506,16 +459,6 @@
   ]
  },
  {
-  "id": "best-guitar-home-office",
-  "ncards": 9,
-  "ncols": 9,
-  "nverdict": 8,
-  "flags": [
-   "SIN_TABLA: Traveler Guitar Ultra-Light Steel",
-   "TABLA_SIN_TARJETA: Yamaha Pacifica 112V | Traveler Ultra-Light Steel"
-  ]
- },
- {
   "id": "fix-clipping-scarlett",
   "ncards": 9,
   "ncols": 0,
@@ -555,27 +498,12 @@
   ]
  },
  {
-  "id": "best-monitors-for-small-rooms",
-  "ncards": 11,
-  "ncols": 11,
-  "nverdict": 11,
-  "flags": [
-   "SIN_TABLA: ADAM Audio D3V | Kali Audio LP-UNF | Kali Audio LP-6 V2 | ADAM Audio T5V",
-   "TABLA_SIN_TARJETA: Kali LP-6 V2 | ADAM D3V | Kali LP-UNF | ADAM T5V",
-   "SIN_VEREDICTO: ADAM Audio D3V | Kali Audio LP-UNF | Kali Audio LP-6 V2 | ADAM Audio T5V",
-   "VEREDICTO_SIN_TARJETA: Kali LP-6 V2 | ADAM D3V | Kali LP-UNF | ADAM T5V"
-  ]
- },
- {
   "id": "best-beginner-electric-guitar",
   "ncards": 10,
   "ncols": 10,
   "nverdict": 4,
   "flags": [
-   "SIN_TABLA: Squier Affinity Series Stratocaster | Squier Sonic Stratocaster HT | Epiphone Les Paul Special-II E1 | Yamaha Revstar Element RSE20 | Squier Debut Series Stratocaster",
-   "TABLA_SIN_TARJETA: Squier Affinity Strat | Squier Sonic Strat HT | Epiphone LP Special-II E1 | Yamaha Revstar RSE20 | Squier Debut Strat",
-   "SIN_VEREDICTO: Squier Affinity Series Stratocaster | Epiphone Les Paul Special-II E1 | Jet Guitars JS-300 | Squier Sonic Mustang | Enya Nova Go Sonic Smart Electric Guitar | Yamaha Revstar Element RSE20 | Squier Debut Series Stratocaster",
-   "VEREDICTO_SIN_TARJETA: Squier Affinity Stratocaster"
+   "SIN_VEREDICTO: Epiphone Les Paul Special-II E1 | Jet Guitars JS-300 | Squier Sonic Mustang | Enya Nova Go Sonic Smart Electric Guitar | Yamaha Revstar Element RSE20 | Squier Debut Series Stratocaster"
   ]
  },
  {
@@ -604,20 +532,8 @@
   "ncols": 3,
   "nverdict": 3,
   "flags": [
-   "SIN_TABLA: Ampeg Rocket Bass RB-210 | Positive Grid Spark LIVE 150W Smart Amp & PA | Orange Crush Bass 50 1x12 Bass Combo | Darkglass DG210A Microtubes 500 2x10 Bass Combo",
-   "TABLA_SIN_TARJETA: Ampeg RB-210",
-   "SIN_VEREDICTO: Ampeg Rocket Bass RB-210 | Positive Grid Spark LIVE 150W Smart Amp & PA | Orange Crush Bass 50 1x12 Bass Combo | Darkglass DG210A Microtubes 500 2x10 Bass Combo",
-   "VEREDICTO_SIN_TARJETA: Ampeg RB-210"
-  ]
- },
- {
-  "id": "best-reverb-delay",
-  "ncards": 3,
-  "ncols": 4,
-  "nverdict": 4,
-  "flags": [
-   "TABLA_SIN_TARJETA: Boss RC-5 Loop Station",
-   "VEREDICTO_SIN_TARJETA: Boss RC-5 Loop Station"
+   "SIN_TABLA: Positive Grid Spark LIVE 150W Smart Amp & PA | Orange Crush Bass 50 1x12 Bass Combo | Darkglass DG210A Microtubes 500 2x10 Bass Combo",
+   "SIN_VEREDICTO: Positive Grid Spark LIVE 150W Smart Amp & PA | Orange Crush Bass 50 1x12 Bass Combo | Darkglass DG210A Microtubes 500 2x10 Bass Combo"
   ]
  },
  {
@@ -635,10 +551,8 @@
   "ncols": 5,
   "nverdict": 5,
   "flags": [
-   "SIN_TABLA: Yamaha MG16XU | Behringer X Air XR18 | Allen & Heath CQ-18T | Korg SoundLink MW-1608",
-   "TABLA_SIN_TARJETA: Korg MW-1608",
-   "SIN_VEREDICTO: Yamaha MG16XU | Behringer X Air XR18 | Allen & Heath CQ-18T | Korg SoundLink MW-1608",
-   "VEREDICTO_SIN_TARJETA: Korg MW-1608"
+   "SIN_TABLA: Yamaha MG16XU | Behringer X Air XR18 | Allen & Heath CQ-18T",
+   "SIN_VEREDICTO: Yamaha MG16XU | Behringer X Air XR18 | Allen & Heath CQ-18T"
   ]
  },
  {
@@ -661,16 +575,6 @@
   "flags": [
    "SIN_TABLA: Soundcraft Signature 12 MTK",
    "SIN_VEREDICTO: Soundcraft Signature 12 MTK"
-  ]
- },
- {
-  "id": "best-compact-mixers",
-  "ncards": 3,
-  "ncols": 6,
-  "nverdict": 6,
-  "flags": [
-   "TABLA_SIN_TARJETA: Mackie MobileMix | Yamaha MG10XU | Allen & Heath ZEDi-10FX",
-   "VEREDICTO_SIN_TARJETA: Mackie MobileMix | Yamaha MG10XU | Allen & Heath ZEDi-10FX"
   ]
  },
  {
@@ -724,9 +628,7 @@
   "ncols": 0,
   "nverdict": 2,
   "flags": [
-   "SIN_TABLA: Fender Player II Jazz Bass | Fender Player II Precision Bass",
-   "SIN_VEREDICTO: Fender Player II Jazz Bass | Fender Player II Precision Bass",
-   "VEREDICTO_SIN_TARJETA: Fender Player Precision Bass | Fender Player Jazz Bass"
+   "SIN_TABLA: Fender Player II Jazz Bass | Fender Player II Precision Bass"
   ]
  },
  {
@@ -735,10 +637,8 @@
   "ncols": 4,
   "nverdict": 4,
   "flags": [
-   "SIN_TABLA: Fender Player II Precision Bass | Fender Player II Jazz Bass | Squier Classic Vibe '60s Jazz Bass | Squier Affinity Series Precision Bass PJ | Fender American Ultra II Precision Bass",
-   "TABLA_SIN_TARJETA: Fender Player Precision Bass | Fender Player Jazz Bass",
-   "SIN_VEREDICTO: Fender Player II Precision Bass | Fender Player II Jazz Bass | Squier Classic Vibe '60s Jazz Bass | Squier Affinity Series Precision Bass PJ | Fender American Ultra II Precision Bass",
-   "VEREDICTO_SIN_TARJETA: Fender Player Precision Bass | Fender Player Jazz Bass"
+   "SIN_TABLA: Squier Classic Vibe '60s Jazz Bass | Squier Affinity Series Precision Bass PJ | Fender American Ultra II Precision Bass",
+   "SIN_VEREDICTO: Squier Classic Vibe '60s Jazz Bass | Squier Affinity Series Precision Bass PJ | Fender American Ultra II Precision Bass"
   ]
  },
  {
@@ -787,18 +687,6 @@
   "flags": [
    "SIN_TABLA: Fender Player II Precision Bass | Fender Player II Jazz Bass | Fender American Professional II Precision Bass | Fender American Professional II Jazz Bass | Fender American Ultra II Precision Bass | Sire Marcus Miller V5 4-String Bass | ESP LTD B-204SM Bass Guitar",
    "SIN_VEREDICTO: Fender Player II Precision Bass | Fender Player II Jazz Bass | Fender American Professional II Precision Bass | Fender American Professional II Jazz Bass | Fender American Ultra II Precision Bass | Sire Marcus Miller V5 4-String Bass | ESP LTD B-204SM Bass Guitar"
-  ]
- },
- {
-  "id": "best-bass-under-700",
-  "ncards": 8,
-  "ncols": 8,
-  "nverdict": 8,
-  "flags": [
-   "SIN_TABLA: Sterling by Music Man StingRay Ray4",
-   "TABLA_SIN_TARJETA: Sterling StingRay Ray4",
-   "SIN_VEREDICTO: Sterling by Music Man StingRay Ray4",
-   "VEREDICTO_SIN_TARJETA: Sterling StingRay Ray4"
   ]
  },
  {
@@ -938,37 +826,13 @@
   ]
  },
  {
-  "id": "stage-wedges",
-  "ncards": 5,
-  "ncols": 5,
-  "nverdict": 5,
-  "flags": [
-   "SIN_TABLA: Turbosound Flashline TFX122M-AN Stage Monitor",
-   "TABLA_SIN_TARJETA: Turbosound TFX122M-AN",
-   "SIN_VEREDICTO: Turbosound Flashline TFX122M-AN Stage Monitor",
-   "VEREDICTO_SIN_TARJETA: Turbosound TFX122M-AN"
-  ]
- },
- {
-  "id": "nx912-vs-pxm12mp",
-  "ncards": 2,
-  "ncols": 2,
-  "nverdict": 2,
-  "flags": [
-   "SIN_TABLA: Electro-Voice PXM-12MP",
-   "TABLA_SIN_TARJETA: EV PXM-12MP"
-  ]
- },
- {
   "id": "best-live-subwoofers",
   "ncards": 6,
   "ncols": 5,
   "nverdict": 5,
   "flags": [
-   "SIN_TABLA: Electro-Voice ELX200-18SP | JBL PRX ONE",
-   "TABLA_SIN_TARJETA: EV ELX200-18SP",
-   "SIN_VEREDICTO: Electro-Voice ELX200-18SP | JBL PRX ONE",
-   "VEREDICTO_SIN_TARJETA: EV ELX200-18SP"
+   "SIN_TABLA: JBL PRX ONE",
+   "SIN_VEREDICTO: JBL PRX ONE"
   ]
  },
  {
@@ -992,15 +856,6 @@
   ]
  },
  {
-  "id": "wireless-lapel-mics",
-  "ncards": 7,
-  "ncols": 7,
-  "nverdict": 7,
-  "flags": [
-   "TABLA_SIN_TARJETA: LARK MAX 2 (2-Person)"
-  ]
- },
- {
   "id": "mics-for-creators",
   "ncards": 11,
   "ncols": 5,
@@ -1008,16 +863,6 @@
   "flags": [
    "SIN_TABLA: Samson Q2U USB/XLR Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Rode NT-USB Mini Studio Condenser Microphone",
    "SIN_VEREDICTO: Samson Q2U USB/XLR Microphone | FIFINE AmpliGame AM8 Dynamic USB Microphone | Maono PM461 USB Microphone | TONOR TC-777 USB Microphone | Rode NT-USB Mini Studio Condenser Microphone"
-  ]
- },
- {
-  "id": "best-amp-modelers",
-  "ncards": 5,
-  "ncols": 5,
-  "nverdict": 5,
-  "flags": [
-   "SIN_TABLA: IK Multimedia TONEX ONE+ | Line 6 Helix HX Stomp",
-   "TABLA_SIN_TARJETA: Line 6 HX Stomp | IK TONEX ONE+"
   ]
  },
  {
@@ -1103,28 +948,6 @@
   ]
  },
  {
-  "id": "best-parlor-guitars",
-  "ncards": 7,
-  "ncols": 7,
-  "nverdict": 7,
-  "flags": [
-   "SIN_TABLA: Fender Highway Series Parlor All-Mahogany Acoustic-Electric",
-   "TABLA_SIN_TARJETA: Highway Parlor"
-  ]
- },
- {
-  "id": "best-ribbon-mics",
-  "ncards": 5,
-  "ncols": 5,
-  "nverdict": 5,
-  "flags": [
-   "SIN_TABLA: sE Electronics Voodoo VR2",
-   "TABLA_SIN_TARJETA: sE Voodoo VR2",
-   "SIN_VEREDICTO: sE Electronics Voodoo VR2",
-   "VEREDICTO_SIN_TARJETA: sE Voodoo VR2"
-  ]
- },
- {
   "id": "ai-tools-plugins",
   "ncards": 5,
   "ncols": 0,
@@ -1168,21 +991,7 @@
   "ncols": 0,
   "nverdict": 2,
   "flags": [
-   "SIN_TABLA: Radial J48 MK2 Active Direct Box | Rupert Neve Designs RNDI Active Direct Interface",
-   "SIN_VEREDICTO: Rupert Neve Designs RNDI Active Direct Interface",
-   "VEREDICTO_SIN_TARJETA: Rupert Neve RNDI"
-  ]
- },
- {
-  "id": "premium-interfaces",
-  "ncards": 6,
-  "ncols": 6,
-  "nverdict": 6,
-  "flags": [
-   "SIN_TABLA: Apogee Symphony I/O Mk II 16x16 SE",
-   "TABLA_SIN_TARJETA: Apogee Symphony I/O Mk II 16×16 SE",
-   "SIN_VEREDICTO: Apogee Symphony I/O Mk II 16x16 SE",
-   "VEREDICTO_SIN_TARJETA: Apogee Symphony I/O Mk II 16×16 SE"
+   "SIN_TABLA: Radial J48 MK2 Active Direct Box | Rupert Neve Designs RNDI Active Direct Interface"
   ]
  }
 ]
