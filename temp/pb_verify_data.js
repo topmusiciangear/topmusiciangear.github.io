@@ -53,6 +53,8 @@ const APPROVED_NON_PB = {
     'urls.zzounds': ['https://www.zzounds.com/a--925521/item--EPIEBTV', undefined],
     'oos': ['["musicstore","zzounds"]', undefined]
   },
+  // Squier Sonic Stratocaster HT: Music Store sale de excludeStores (30/09/2026).
+  '462': { 'prices.musicstore': [undefined, '€189.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
