@@ -29,6 +29,57 @@ console.log('changed entries:', changed.length);
 const pb = changed.filter(k => B[k].pbCur);
 console.log('changed WITH pbCur:', pb.length, '| changed WITHOUT pbCur:', changed.filter(k => !B[k].pbCur).map(k => k + (B[k].urls && B[k].urls.pluginboutique ? '(url only)' : '')).join(',') || 'none');
 const untouchedBad = ka.filter(k => !B[k].pbCur && JSON.stringify(A[k]) !== JSON.stringify(B[k]));
+
+// Lista blanca de cambios NO-PB autorizados por el usuario (30/09/2026).
+// id -> { campo: [valor antes, valor despues] }. Cualquier otro cambio no-PB
+// respecto al baseline es un fallo: el patch PB no puede tocar otras entradas y
+// las correcciones de precio deben declararse aqui una a una.
+const APPROVED_NON_PB = {
+  '53':  { 'prices.gear4music': ['\u00a3178.75', '\u00a3175.00'] },
+  '54':  { 'prices.gear4music': ['\u00a3213.50', '\u00a3226.00'] },
+  '156': { 'prices.musicstore': ['\u20ac1,847.90', '\u20ac1,799.00'] },
+  '157': { 'prices.gear4music': ['\u00a3389.00', '\u00a3419.00'], 'prices.musicstore': ['\u20ac354.12', '\u20ac488.00'] },
+};
+// aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
+function flat(o) {
+  const out = {};
+  for (const [k, v] of Object.entries(o || {})) {
+    if (v && typeof v === 'object' && !Array.isArray(v)) {
+      for (const [k2, v2] of Object.entries(v)) out[k + '.' + k2] = v2;
+    } else out[k] = Array.isArray(v) ? JSON.stringify(v) : v;
+  }
+  return out;
+}
+function diffFields(a, b) {
+  const A = flat(a), B = flat(b);
+  const out = {};
+  for (const k of new Set([...Object.keys(A), ...Object.keys(B)])) {
+    if (JSON.stringify(A[k]) !== JSON.stringify(B[k])) out[k] = [A[k], B[k]];
+  }
+  return out;
+}
+const bad = [];
+for (const k of untouchedBad) {
+  const want = APPROVED_NON_PB[k];
+  if (!want) { bad.push(k + ': cambiado sin estar en la lista blanca'); continue; }
+  const got = diffFields(A[k], B[k]);
+  const gotKeys = Object.keys(got).sort();
+  const wantKeys = Object.keys(want).sort();
+  if (JSON.stringify(gotKeys) !== JSON.stringify(wantKeys)) {
+    bad.push(k + ': campos cambiados ' + JSON.stringify(gotKeys) + ' != autorizado ' + JSON.stringify(wantKeys));
+    continue;
+  }
+  for (const f of wantKeys) {
+    const [from, to] = want[f];
+    const [gFrom, gTo] = got[f];
+    if (gFrom !== from || gTo !== to) {
+      bad.push(k + '.' + f + ': ' + JSON.stringify(gFrom) + '->' + JSON.stringify(gTo) + ' != autorizado ' + JSON.stringify(from) + '->' + JSON.stringify(to));
+    }
+  }
+}
+console.log('cambios no-PB autorizados:', untouchedBad.length, '/', Object.keys(APPROVED_NON_PB).length,
+  '->', untouchedBad.slice().sort().join(',') || 'none');
+console.log(bad.length ? 'FALLOS lista blanca:\n  ' + bad.join('\n  ') : 'lista blanca OK (sin cambios no-PB no autorizados)');
 // consistency of the 38
 const GBP = 0.7959;
 let errs = [];
@@ -51,3 +102,4 @@ sample.forEach(k => {
   console.log(('  ' + k).padEnd(5), (e.prices.pluginboutique + '').padEnd(16), (e.pbCur.us + '').padEnd(14), (e.pbCur.uk + '').padEnd(14), (e.urls && e.urls.pluginboutique || '').slice(-46));
 });
 console.log('\nids WITHOUT pbCur that have a pluginboutique price:', ka.filter(k => !B[k].pbCur && B[k].prices && B[k].prices.pluginboutique).join(',') || 'none');
+process.exit(bad.length ? 1 : 0);

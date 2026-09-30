@@ -424,7 +424,7 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$294.01",
       zzounds: "$399.99",
-      gear4music: "£178.75",
+      gear4music: "£175.00",
       andertons: "£175.00",
       musicstore: "€255.01"
     }
@@ -433,7 +433,7 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$199.95",
       zzounds: "$199.95",
-      gear4music: "£213.50",
+      gear4music: "£226.00",
       andertons: "£210.00",
       musicstore: "€235.00"
     }
@@ -1268,7 +1268,7 @@ const TEST_SHOP_BTN = {
       amazon: "$1,739.99",
       zzounds: "$1,939.99",
       andertons: "£1,799.00",
-      musicstore: "€1,847.90",
+      musicstore: "€1,799.00",
       gear4music: "£1,849.00"
     }
   },
@@ -1276,8 +1276,8 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$529.99",
       andertons: "£399.00",
-      gear4music: "£389.00",
-      musicstore: "€354.12"
+      gear4music: "£419.00",
+      musicstore: "€488.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--SQU0303075"
