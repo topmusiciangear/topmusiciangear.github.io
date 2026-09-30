@@ -5753,7 +5753,7 @@ ${ogMeta}
       })() : ''}
       <div class="guide-detail-sections">${sectionsHtml}</div>
       <div class="guide-product-card-currency-note">
-        <div class="note-header"><span class="note-icon">⚠️</span><span>${isEs ? 'Aspectos a tener en cuenta' : 'Things to Keep in Mind'}</span></div>
+        <div class="note-header"><span class="note-icon">ℹ️</span><span>${isEs ? 'Bueno saber' : 'Good to Know'}</span></div>
         <div class="note-row"><span class="note-icon">💵</span><span>${isEs ? 'Como Asociado de Amazon, gano por las compras que califican. También gano comisiones por las otras tiendas que aparecen aquí, sin coste adicional para ti.' : 'As an Amazon Associate I earn from qualifying purchases. I also earn commissions from the other stores listed, at no extra cost to you.'}</span></div>
         <div class="note-row"><span class="note-icon">💲</span><span>${isEs ? 'Los precios pueden variar según tu geolocalización; el total final se confirma en tu moneda local al pagar.' : 'Prices may vary depending on your location; your final total is confirmed in your local currency at checkout.'}</span></div>
         <div class="note-row"><span class="note-icon">📦</span><span>${isEs ? 'Cada tienda aplica su propia política de envío: algunas envían gratis, otras cobran envío y otras ofrecen envío gratuito a partir de un mínimo de compra. zZounds solo envía a EE.&nbsp;UU., sus territorios y Canadá.' : 'Each store applies its own shipping policy: some ship for free, others charge a fee, and others offer free shipping above a minimum order. zZounds only ships within the U.S., its territories, and Canada.'}</span></div>
