@@ -206,7 +206,16 @@ window.tmgStoreButtons = function(p) {
       var pb = c.querySelector('.shop-btn-primary');
       if (!pb) return;
       var curStore = pb.getAttribute('data-store') || '';
-      if (curStore === 'pluginboutique') return;
+      if (curStore === 'pluginboutique') {
+        var pbReg = (T === 'musicstore') ? 'eu' : (T === 'gear4music') ? 'uk' : 'us';
+        var pbP = pb.getAttribute('data-pb-' + pbReg + '-p');
+        if (pbP) {
+          var pbPE = pb.querySelector('.shop-price');
+          if (pbPE) pbPE.outerHTML = tmgPriceHtml(pbP, true);
+          else pb.innerHTML = pb.innerHTML.replace(/- [\u00a3$\u20ac][0-9.,]+/, '- ' + tmgPriceHtml(pbP, true));
+        }
+        return;
+      }
       if (curStore === 'hollyland') {
         var hr = (T === 'musicstore') ? 'eu' : (T === 'gear4music') ? 'uk' : 'us';
         var hu = pb.getAttribute('data-hu-' + hr);

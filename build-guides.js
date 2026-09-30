@@ -626,35 +626,51 @@ const TEST_SHOP_BTN = {
   },
   28: {
     prices: {
-      pluginboutique: "$299.00",
+      pluginboutique: "€301.50",
       andertons: "£269.00",
       gear4music: "£271.00",
       musicstore: "€295.00"
-    }
+    },
+    pbCur: {
+      us: "$299.00",
+      uk: "£237.97"
+    },
   },
   29: {
     prices: {
-      pluginboutique: "$1,069.00",
+      pluginboutique: "€906.50",
       andertons: "£639.00",
       zzounds: "$1,069.00",
       gear4music: "£639.00",
       musicstore: "€899.00"
-    }
+    },
+    pbCur: {
+      us: "$1,069.00",
+      uk: "£850.82"
+    },
   },
   30: {
     prices: {
-      pluginboutique: "$499.00",
+      pluginboutique: "€553.58",
       andertons: "£479.00",
       gear4music: "£479.00",
       musicstore: "€452.90"
-    }
+    },
+    pbCur: {
+      us: "$499.00",
+      uk: "£397.15"
+    },
   },
   32: {
     prices: {
-      pluginboutique: "$599.00",
+      pluginboutique: "€621.13",
       amazon: "$599.00",
       gear4music: "£489.00",
       musicstore: "€599.00"
+    },
+    pbCur: {
+      us: "$599.00",
+      uk: "£476.74"
     },
     oos: [
       "zzounds",
@@ -795,14 +811,22 @@ const TEST_SHOP_BTN = {
   },
   60: {
     prices: {
-      pluginboutique: "$199.00",
+      pluginboutique: "€29.25",
       andertons: "£25.00"
-    }
+    },
+    pbCur: {
+      us: "$199.00",
+      uk: "£158.38"
+    },
   },
   61: {
     prices: {
-      pluginboutique: "$50.00",
+      pluginboutique: "€50.41",
       gear4music: "£41.99"
+    },
+    pbCur: {
+      us: "$50.00",
+      uk: "£39.80"
     },
     oos: [
       "andertons",
@@ -811,21 +835,29 @@ const TEST_SHOP_BTN = {
   },
   62: {
     prices: {
-      pluginboutique: "$199.00",
+      pluginboutique: "€170.40",
       zzounds: "$199.00",
       gear4music: "£119.00",
       musicstore: "€169.00",
       andertons: "£119.00"
-    }
+    },
+    pbCur: {
+      us: "$199.00",
+      uk: "£158.38"
+    },
   },
   63: {
     prices: {
-      pluginboutique: "$199.00",
+      pluginboutique: "€170.40",
       zzounds: "$199.00",
       gear4music: "£145.00",
       musicstore: "€169.00",
       andertons: "£139.00"
-    }
+    },
+    pbCur: {
+      us: "$199.00",
+      uk: "£158.38"
+    },
   },
   65: {
     prices: {
@@ -1101,8 +1133,12 @@ const TEST_SHOP_BTN = {
       andertons: "£549.00",
       zzounds: "$599.00",
       musicstore: "€599.00",
-      pluginboutique: "$805"
-    }
+      pluginboutique: "€834.90"
+    },
+    pbCur: {
+      us: "$805.00",
+      uk: "£640.70"
+    },
   },
   114: {
     prices: {
@@ -1111,16 +1147,24 @@ const TEST_SHOP_BTN = {
       andertons: "£299.00",
       zzounds: "$579.99",
       musicstore: "€339.00",
-      pluginboutique: "$579.99"
-    }
+      pluginboutique: "€583.83"
+    },
+    pbCur: {
+      us: "$579.99",
+      uk: "£461.61"
+    },
   },
   115: {
     prices: {
       andertons: "£299.00",
       gear4music: "£245.00",
       amazon: "$399.00",
-      pluginboutique: "$299.00"
-    }
+      pluginboutique: "€289.19"
+    },
+    pbCur: {
+      us: "$299.00",
+      uk: "£237.97"
+    },
   },
   116: {
     prices: {
@@ -1147,7 +1191,11 @@ const TEST_SHOP_BTN = {
   },
   119: {
     prices: {
-      pluginboutique: "$39.00"
+      pluginboutique: "€168.19"
+    },
+    pbCur: {
+      us: "$166.79",
+      uk: "£132.75"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--WAVSSLNAT"
@@ -1162,20 +1210,28 @@ const TEST_SHOP_BTN = {
   },
   120: {
     prices: {
-      pluginboutique: "$99.00",
+      pluginboutique: "€99.83",
       zzounds: "$99.00",
       gear4music: "£74.99",
       amazon: "$119.00",
       musicstore: "€83.20",
       andertons: "£79.00"
-    }
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
   },
   121: {
     prices: {
-      pluginboutique: "$999.00",
+      pluginboutique: "€503.15",
       andertons: "£869.00",
       zzounds: "$999.00",
       gear4music: "£899.00"
+    },
+    pbCur: {
+      us: "$999.00",
+      uk: "£795.10"
     },
     oos: [
       "musicstore"
@@ -1183,20 +1239,28 @@ const TEST_SHOP_BTN = {
   },
   122: {
     prices: {
-      pluginboutique: "$1,399.00",
+      pluginboutique: "€1,511.50",
       gear4music: "£1,299.00",
       musicstore: "€1,349.00",
       andertons: "£1,299.00"
-    }
+    },
+    pbCur: {
+      us: "$1,399.00",
+      uk: "£1,113.46"
+    },
   },
   123: {
     prices: {
       gear4music: "£1,124.00",
-      pluginboutique: "$1,249.00",
+      pluginboutique: "€1,259.40",
       andertons: "£1,124.00",
       zzounds: "$1,249.00",
       musicstore: "€1,249.00"
-    }
+    },
+    pbCur: {
+      us: "$1,249.00",
+      uk: "£994.08"
+    },
   },
   124: {
     prices: {
@@ -2242,10 +2306,14 @@ const TEST_SHOP_BTN = {
   },
   238: {
     prices: {
-      pluginboutique: "$99.00",
+      pluginboutique: "€102.85",
       gear4music: "£39.00",
       amazon: "$99.00",
       musicstore: "€83.19"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
     },
     oos: [
       "andertons"
@@ -3455,10 +3523,14 @@ const TEST_SHOP_BTN = {
   },
   374: {
     prices: {
-      pluginboutique: "$99.00"
+      pluginboutique: "€99.83"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/10606-ShaperBox-3",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9819-ShaperBox-3-Bundle",
       amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
     },
     na: [
@@ -3469,24 +3541,32 @@ const TEST_SHOP_BTN = {
   },
   375: {
     prices: {
-      pluginboutique: "$99.00",
+      pluginboutique: "€99.83",
       gear4music: "£42.00",
       musicstore: "€49.00",
       amazon: "$99.00"
     },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/XLN-Audio-RC-20-Retro-Color/3NGQ",
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/6842-RC-20-Retro-Color",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-RC-20-Retro-Color",
       musicstore: "https://www.musicstore.com/en_OE/EUR/XLN-Audio-RC-20-Retro-Color/art-PCM0018798-000",
       amazon: "https://www.amazon.com/XLN-Audio-RC-20-Retro-Color/dp/B08JSYBDY1"
     }
   },
   376: {
     prices: {
-      pluginboutique: "$12.00"
+      pluginboutique: "€10.08"
+    },
+    pbCur: {
+      us: "$12.00",
+      uk: "£9.55"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/6524-HalfTime",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/3952-HalfTime",
       amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
     },
     na: [
@@ -3497,35 +3577,51 @@ const TEST_SHOP_BTN = {
   },
   377: {
     prices: {
-      pluginboutique: "$129.00",
+      pluginboutique: "€120.00",
       gear4music: "£111.00",
       andertons: "£99.00",
       musicstore: "€129.00",
       amazon: "$129.00"
     },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Transit-2/6RY2",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fbaby-audio-transit-2-motion-effects-plugin%2F",
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/10358-Transit-2",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/13431-Transit-2",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Baby-Audio-Transit-2-License-Code/art-PCM0018531-000",
       amazon: "https://www.amazon.com/Baby-Audio-Transit-2-Plugin/dp/B0DCJ5LPZL"
     }
   },
   378: {
     prices: {
-      pluginboutique: "$89.00",
+      pluginboutique: "€99.83",
       andertons: "£82.80",
       gear4music: "£82.80"
-    }
+    },
+    pbCur: {
+      us: "$89.00",
+      uk: "£70.84"
+    },
   },
   379: {
     prices: {
-      pluginboutique: "$175.00"
-    }
+      pluginboutique: "€42.35"
+    },
+    pbCur: {
+      us: "$175.00",
+      uk: "£139.28"
+    },
   },
   380: {
     prices: {
-      pluginboutique: "$129.99"
+      pluginboutique: "€120.99"
+    },
+    pbCur: {
+      us: "$129.99",
+      uk: "£103.46"
     },
     urls: {
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7627-Infiltrator-2",
@@ -3539,11 +3635,15 @@ const TEST_SHOP_BTN = {
   },
   381: {
     prices: {
-      pluginboutique: "$299.00",
+      pluginboutique: "€331.75",
       gear4music: "£231.00",
       andertons: "£252.00",
       musicstore: "€242.90",
       amazon: "$299"
+    },
+    pbCur: {
+      us: "$299.00",
+      uk: "£237.97"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Neutron-5-Advanced/6U5K",
@@ -3555,11 +3655,15 @@ const TEST_SHOP_BTN = {
   },
   382: {
     prices: {
-      pluginboutique: "$99.00",
+      pluginboutique: "€99.83",
       amazon: "$99.00"
     },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/4-Synth/11533-Scaler-3",
+      pluginboutique: "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/14563-Scaler-3",
       amazon: "https://www.amazon.com/Plugin-Boutique-Scaler-3-Software/dp/B0FKK2H83D"
     },
     na: [
@@ -3570,10 +3674,14 @@ const TEST_SHOP_BTN = {
   },
   383: {
     prices: {
-      pluginboutique: "$129.00",
+      pluginboutique: "€130.08",
       gear4music: "£62.00",
       musicstore: "€105.00",
       amazon: "$129.00"
+    },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonible-SmartEQ-4/65LT",
@@ -3587,14 +3695,18 @@ const TEST_SHOP_BTN = {
   },
   384: {
     prices: {
-      pluginboutique: "$129.00",
+      pluginboutique: "€130.08",
       gear4music: "£62.00",
       musicstore: "€105.00",
       amazon: "$129.00"
     },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonible-SmartLimit/4M4S",
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/9008-smartlimit",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/9-Limiter/8476-smart-limit",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-Smart-limit-License-Code/art-PCM0017210-000",
       amazon: "https://www.amazon.com/Sonible-smartlimit-Plugin/dp/B0C8J4WJF1"
     },
@@ -3604,32 +3716,44 @@ const TEST_SHOP_BTN = {
   },
   385: {
     prices: {
-      pluginboutique: "$80.00"
-    }
+      pluginboutique: "€70.54"
+    },
+    pbCur: {
+      us: "$80.00",
+      uk: "£63.67"
+    },
   },
   386: {
     prices: {
-      pluginboutique: "$99.00",
+      pluginboutique: "€109.90",
       gear4music: "£62.55",
       andertons: "£95.00",
       musicstore: "€83.20",
       amazon: "$99.00"
     },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Trash/6AAU",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fizotope-trash-creative-distortion-plugin%2F",
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/12095-Trash",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/30-Distortion/11987-Trash",
       musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Trash-License-Code/art-PCM0018334-000",
       amazon: "https://www.amazon.com/iZotope-Trash-Distortion-Plugin/dp/B0DF84C84J"
     }
   },
   387: {
     prices: {
-      pluginboutique: "$79.00",
+      pluginboutique: "€79.65",
       amazon: "$79.00"
     },
+    pbCur: {
+      us: "$79.00",
+      uk: "£62.88"
+    },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/6-Action/11521-Lifeline-Expanse",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8036-Lifeline-Expanse",
       amazon: "https://www.amazon.com/Excite-Audio-Lifeline-Expanse-Plugin/dp/B0DKF74MVH"
     },
     na: [
@@ -3641,8 +3765,12 @@ const TEST_SHOP_BTN = {
   389: {
     prices: {
       gear4music: "£128.00",
-      pluginboutique: "$49.00",
+      pluginboutique: "€99.83",
       musicstore: "€49.00"
+    },
+    pbCur: {
+      us: "$49.00",
+      uk: "£39.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
@@ -3651,7 +3779,11 @@ const TEST_SHOP_BTN = {
   390: {
     prices: {
       gear4music: "£37.00",
-      pluginboutique: "$49.00"
+      pluginboutique: "€51.43"
+    },
+    pbCur: {
+      us: "$49.00",
+      uk: "£39.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
@@ -3659,10 +3791,14 @@ const TEST_SHOP_BTN = {
   },
   392: {
     prices: {
-      pluginboutique: "$99.00",
+      pluginboutique: "€89.75",
       zzounds: "$89.00",
       gear4music: "£74.99",
       musicstore: "€89.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--DSXREPEATER",
@@ -3672,8 +3808,12 @@ const TEST_SHOP_BTN = {
   },
   394: {
     prices: {
-      pluginboutique: "$79.00"
-    }
+      pluginboutique: "€79.65"
+    },
+    pbCur: {
+      us: "$79.00",
+      uk: "£62.88"
+    },
   },
   395: {
     prices: {
@@ -4302,21 +4442,33 @@ const TEST_SHOP_BTN = {
   470: {},
   472: {
     prices: {
-      pluginboutique: "$129.00",
+      pluginboutique: "€120.00",
       gear4music: "£109.00",
       andertons: "£109.00",
       musicstore: "€129.00"
-    }
+    },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
   },
   473: {
     prices: {
-      pluginboutique: "$125.00"
-    }
+      pluginboutique: "€42.35"
+    },
+    pbCur: {
+      us: "$125.00",
+      uk: "£99.49"
+    },
   },
   474: {
     prices: {
-      pluginboutique: "$80.00"
-    }
+      pluginboutique: "€70.54"
+    },
+    pbCur: {
+      us: "$80.00",
+      uk: "£63.67"
+    },
   },
   475: {
     prices: {
@@ -4894,8 +5046,14 @@ function shopButtonsTest(p, lang) {
       }
     });
   }
+  var pbAttrs = '';
+  if (primaryStoreKey === 'pluginboutique' && cfg.pbCur) {
+    pbAttrs = ' data-pb-eu-p="' + fmtPricePlain(prices.pluginboutique || '') + '"';
+    if (cfg.pbCur.us) pbAttrs += ' data-pb-us-p="' + fmtPricePlain(cfg.pbCur.us) + '"';
+    if (cfg.pbCur.uk) pbAttrs += ' data-pb-uk-p="' + fmtPricePlain(cfg.pbCur.uk) + '"';
+  }
   const primaryBtn =
-    '<a data-store="' + (primaryStoreKey) + '" href="' + pUrl + '"' + hollyAttrs + ' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
+    '<a data-store="' + (primaryStoreKey) + '" href="' + pUrl + '"' + hollyAttrs + pbAttrs + ' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
@@ -5381,7 +5539,7 @@ function buildGuidePage(guide, lang, idx) {
         var priceStr = isHolly ? (holly ? holly.p || '' : '') : (pr[primaryStore] || pr[Object.keys(pr)[0]] || '');
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[,]/g, '').replace(/[^0-9.]/g, '')) : null;
         var offerUrl = isHolly ? wrapAffiliate('hollyland', holly ? holly.u || '' : '') : wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
-        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD';
+        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : (primaryStore === 'pluginboutique' ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD');
         if (offerUrl && priceNum) {
           listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": priceCurr, "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
@@ -5416,7 +5574,7 @@ function buildGuidePage(guide, lang, idx) {
         var priceStr = isHolly ? (holly ? holly.p || '' : '') : (pr[primaryStore] || pr[Object.keys(pr)[0]] || '');
         var priceNum = priceStr ? parseFloat(priceStr.replace(/[,]/g, '').replace(/[^0-9.]/g, '')) : null;
         var offerUrl = isHolly ? wrapAffiliate('hollyland', holly ? holly.u || '' : '') : wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
-        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD';
+        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : (primaryStore === 'pluginboutique' ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD');
         if (offerUrl && priceNum) {
           pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": priceCurr, "availability": "https://schema.org/InStock", "url": offerUrl };
         } else if (offerUrl) {
@@ -5783,7 +5941,16 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     var pb=c.querySelector('.shop-btn-primary');
     if(!pb)return;
     var curStore=pb.getAttribute('data-store')||'';
-    if(curStore==='pluginboutique')return;
+    if(curStore==='pluginboutique'){
+      var pbReg=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
+      var pbP=pb.getAttribute('data-pb-'+pbReg+'-p');
+      if(pbP){
+        var pbPE=pb.querySelector('.shop-price');
+        if(pbPE)pbPE.outerHTML=tmgPriceHtml(pbP,true);
+        else pb.innerHTML=pb.innerHTML.replace(/- [\u00a3$\u20ac][0-9.,]+/,'- '+tmgPriceHtml(pbP,true));
+      }
+      return;
+    }
     if(curStore==='hollyland'){
       var hr=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
       var hu=pb.getAttribute('data-hu-'+hr);

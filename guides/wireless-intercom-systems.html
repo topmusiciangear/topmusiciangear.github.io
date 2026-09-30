@@ -30,7 +30,7 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="article:published_time" content="2026-09-18">
-  <meta property="article:modified_time" content="2026-09-29">
+  <meta property="article:modified_time" content="2026-09-30">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Best Wireless Intercom Systems for Concerts & Live Events">
   <meta name="twitter:description" content="In 2026, The Hollyland SOLIDCOM C1, C1 Pro and SE PRO are true-wireless full-duplex intercom systems for live events, concerts and stage crews. Here is how they compare by range, headset build, battery and noise cancelling — and which wireless intercom to buy. Read the full verdict & prices before you buy.">
@@ -90,7 +90,7 @@
   },
   "thumbnailUrl": "https://eu.hollyland.com/cdn/shop/files/5803__master_slav_6a827316-a286-46ec-9202-85fc61cec186.jpg?v=1766049035",
   "datePublished": "2026-09-18",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://topmusiciangear.com/guides/wireless-intercom-systems.html"
@@ -745,7 +745,16 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     var pb=c.querySelector('.shop-btn-primary');
     if(!pb)return;
     var curStore=pb.getAttribute('data-store')||'';
-    if(curStore==='pluginboutique')return;
+    if(curStore==='pluginboutique'){
+      var pbReg=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
+      var pbP=pb.getAttribute('data-pb-'+pbReg+'-p');
+      if(pbP){
+        var pbPE=pb.querySelector('.shop-price');
+        if(pbPE)pbPE.outerHTML=tmgPriceHtml(pbP,true);
+        else pb.innerHTML=pb.innerHTML.replace(/- [£$€][0-9.,]+/,'- '+tmgPriceHtml(pbP,true));
+      }
+      return;
+    }
     if(curStore==='hollyland'){
       var hr=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
       var hu=pb.getAttribute('data-hu-'+hr);
