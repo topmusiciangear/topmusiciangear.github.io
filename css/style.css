@@ -1125,6 +1125,13 @@ nav {
   max-width: 96px;
 }
 
+/* Music Store wordmark: the visible red glyph sits high in its frame
+   (measured optical center at 32% from top); nudge down so it sits
+   level with the store name next to it */
+.store-logo-ms {
+  transform: translateY(3.5px);
+}
+
 /* Padded square marks (zZounds): slightly larger box for optical parity
    with icons that fill their frame */
 .store-logo-img-pad {
@@ -2612,6 +2619,7 @@ footer ul li a:hover { color: var(--accent); }
   .store-logo i { font-size: 14px; }
   .store-logo-img { width: 14px; height: 14px; }
   .store-logo-img-wide { width: auto; height: 12px; max-width: 64px; }
+  .store-logo-ms { transform: translateY(2px); }
   .store-logo-img-pad { width: 16px; height: 16px; }
   .store-logo-svg { width: 14px; height: 14px; font-size: 14px; }
   .store-badge { width: 14px; height: 14px; font-size: 10px; border-radius: 2px; }
