@@ -21,6 +21,7 @@ const CASES = [
   { id: 157, store: 'gear4music', token: 'Squier-Classic-Vibe-60s', want: '\u00a3419' },
   { id: 157, store: 'musicstore', token: 'art-BAS0010203',         want: '\u20ac488' },
   { id: 156, store: 'musicstore', token: 'art-BAS0011248',         want: '\u20ac1,799' },
+  { id: 156, store: 'andertons', token: 'professional-II-jazz-bass-v-in', want: '\u00a31,599' },
 ];
 const STALE = ['\u00a3178.75', '\u00a3213.50', '\u20ac354.12', 'art-BAS0011257'];
 const label = c => 'id ' + String(c.id).padEnd(3) + c.store.padEnd(11) + c.want.padEnd(9);
