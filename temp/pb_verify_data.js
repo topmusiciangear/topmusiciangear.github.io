@@ -1,7 +1,9 @@
 // Verify: nothing lost, only PB entries changed, and PB entries are internally consistent.
-// Baseline = the committed build-guides.js (git HEAD), i.e. the state before the PB geo patch.
+// Baseline = d556fa5ed5, the commit immediately before the Plugin Boutique geo patch.
+// Hardcoded so the check stays meaningful after this file is committed.
 const fs = require('fs');
 const { execSync } = require('child_process');
+const BASELINE = 'd556fa5ed5';
 function loadMap(src, head) {
   const h = src.indexOf(head);
   if (h === -1) throw new Error('TEST_SHOP_BTN not found');
@@ -17,7 +19,7 @@ function loadMap(src, head) {
   return eval('(' + src.slice(open, i + 1) + ')');
 }
 const HEAD = 'const TEST_SHOP_BTN = ';
-const BASE = execSync('git show HEAD:build-guides.js', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+const BASE = execSync('git show ' + BASELINE + ':build-guides.js', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
 const A = loadMap(BASE, HEAD);
 const B = loadMap(fs.readFileSync('build-guides.js', 'utf8'), HEAD);
 const ka = Object.keys(A), kb = Object.keys(B);
