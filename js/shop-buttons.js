@@ -1323,17 +1323,10 @@ const TEST_SHOP_BTN = {
   },
   162: {
     prices: {
-      amazon: "$749.00",
-      andertons: "£799.00",
-      gear4music: "£599.00"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/a--925521/item--EPIEBTV"
-    },
-    oos: [
-      "musicstore",
-      "zzounds"
-    ]
+      andertons: "£749.00",
+      gear4music: "£707.00",
+      musicstore: "€756.00"
+    }
   },
   163: {
     prices: {

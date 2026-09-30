@@ -44,6 +44,15 @@ const APPROVED_NON_PB = {
   '159': { 'prices.zzounds': ['$419.99', '$450.00'], 'prices.gear4music': ['£399.00', '£397.00'] },
   '160': { 'prices.musicstore': ['€389.00', '€369.00'] },
   '161': { 'prices.musicstore': [undefined, '€539.00'] },
+  // Epiphone Thunderbird '60s -> Thunderbird '64 (30/09/2026): modelo nuevo, no solo precio.
+  '162': {
+    'prices.amazon': ['$749.00', undefined],
+    'prices.andertons': ['£799.00', '£749.00'],
+    'prices.gear4music': ['£599.00', '£707.00'],
+    'prices.musicstore': [undefined, '€756.00'],
+    'urls.zzounds': ['https://www.zzounds.com/a--925521/item--EPIEBTV', undefined],
+    'oos': ['["musicstore","zzounds"]', undefined]
+  },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...

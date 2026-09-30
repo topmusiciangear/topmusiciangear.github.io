@@ -1,0 +1,24 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'budget-bass-like-expensive');
+const out = [];
+out.push('GUIDE ' + g.id + ' | ' + g.title);
+const s5 = g.sections[5];
+out.push('\n### sections[5]\nHEADING: ' + s5.heading + '\nHEADING_ES: ' + s5.heading_es + '\nCONTENT: ' + s5.content + '\nCONTENT_ES: ' + s5.content_es);
+out.push('\n### productTable\ncolumns: ' + JSON.stringify(g.productTable.columns.map(c => c.title)));
+out.push('\nCOLUMN 5 (' + g.productTable.columns[5].title + '): ' + JSON.stringify(g.productTable.columns[5], null, 1));
+out.push('\nROWS (label -> col5 value):');
+(g.productTable.rows || []).forEach((r, i) => {
+  out.push('  [' + i + '] ' + (r.label || r.label_es) + ' => ' + JSON.stringify((r.values || [])[5]));
+});
+const pc = g.verdictProsCons[10];
+out.push('\n### verdictProsCons[10]\n' + JSON.stringify(pc, null, 1));
+const ctx = t => { const i = t.indexOf('Thunderbird'); return i < 0 ? '(sin Thunderbird)' : '...' + t.slice(Math.max(0, i - 320), i + 320).replace(/\s+/g, ' ') + '...'; };
+out.push('\n### conclusion\n' + ctx(g.conclusion));
+out.push('\n### conclusion_es\n' + ctx(g.conclusion_es));
+out.push('\n### verdict\n' + ctx(g.verdict));
+out.push('\n### verdict_es\n' + ctx(g.verdict_es));
+out.push('\n### description\n' + ctx(g.description));
+out.push('\n### description_es\n' + ctx(g.description_es));
+fs.writeFileSync('temp/tb_dump.txt', out.join('\n'), 'utf8');
+console.log('escrito temp/tb_dump.txt', out.join('\n').length, 'chars');

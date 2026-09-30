@@ -1639,17 +1639,10 @@ const TEST_SHOP_BTN = {
   },
   162: {
     prices: {
-      amazon: "$749.00",
-      andertons: "£799.00",
-      gear4music: "£599.00"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/a--925521/item--EPIEBTV"
-    },
-    oos: [
-      "musicstore",
-      "zzounds"
-    ]
+      andertons: "£749.00",
+      gear4music: "£707.00",
+      musicstore: "€756.00"
+    }
   },
   163: {
     prices: {
@@ -5179,7 +5172,7 @@ var faqBase = {
   ],
   basses: [
     { q: "What is the best budget bass that sounds expensive?", q_es: "¿Cuál es el mejor bajo barato que suena a caro?", a: "The Squier Classic Vibe '60s Jazz Bass ($450) is widely considered the best budget bass that sounds like a much more expensive instrument. It delivers 90% of the tone of a vintage Fender Jazz Bass at a fraction of the cost. The Sire Marcus Miller V3 ($350) is another top contender with its active EQ and premium build quality.", a_es: "El Squier Classic Vibe '60s Jazz Bass ($450) es ampliamente considerado el mejor bajo barato que suena como uno mucho más caro. Ofrece el 90% del tono de un Fender Jazz Bass vintage a una fracción del costo." },
-    { q: "Which bass guitar is best for rock music on a budget?", q_es: "¿Qué bajo es mejor para rock con presupuesto ajustado?", a: "The Epiphone Thunderbird '60s Bass ($350) is the best budget bass for rock, featuring a neck-through-body construction typically found on $1,500+ basses. The Squier Affinity PJ Bass ($280) is also excellent for rock with its punchy split-coil pickup.", a_es: "El Epiphone Thunderbird '60s Bass ($350) es el mejor bajo económico para rock, con construcción neck-through-body típica de bajos de $1,500+. El Squier Affinity PJ Bass ($280) también es excelente para rock." },
+    { q: "Which bass guitar is best for rock music on a budget?", q_es: "¿Qué bajo es mejor para rock con presupuesto ajustado?", a: "The Squier Affinity PJ Bass ($280) is the best budget bass for rock, with a punchy split-coil pickup and a P-bass look that suits the style. If you want the iconic reverse-body shape instead, the Epiphone Thunderbird '64 ($849) is the modern revival, with a 9-ply neck-through build and dual ProBucker 760 humbuckers — but it sits well above budget level.", a_es: "El Squier Affinity PJ Bass ($280) es el mejor bajo económico para rock, con su pastilla split-coil y el aspecto de una P-bass que encaja con el estilo. Si prefieres la icónica silueta de cuerpo inverso, el Epiphone Thunderbird '64 ($849) es la resurrección moderna, con construcción neck-through de 9 capas y dos humbuckers ProBucker 760, pero queda muy por encima del presupuesto." },
     { q: "How much should I spend on a first bass guitar?", q_es: "¿Cuánto debería gastar en mi primer bajo?", a: "A budget of $250-$450 is the sweet spot for a quality beginner bass. The Squier Affinity PJ ($280) and Ibanez SR300E ($350) are excellent starters. Avoid basses under $200 as they often have playability issues. The Sterling Ray4 ($350) offers the best value for players interested in funk and slap styles.", a_es: "Un presupuesto de $250-$450 es el punto óptimo para un bajo de principiante de calidad. El Squier Affinity PJ ($280) y el Ibanez SR300E ($350) son excelentes para empezar. Evita bajos de menos de $200." },
     { q: "Should I get a 4-string or 5-string bass as a beginner?", q_es: "¿Debería comprar un bajo de 4 o 5 cuerdas como principiante?", a: "Start with a 4-string bass. It's easier to learn on, strings are cheaper, and most music is written for 4-string bass. The Squier Classic Vibe '60s Jazz Bass ($450) is an excellent 4-string choice. Upgrade to a 5-string like the Sterling Ray5 once you need that low B string for modern genres.", a_es: "Empieza con un bajo de 4 cuerdas. Es más fácil aprender, las cuerdas son más baratas y la mayoría de la música está escrita para 4 cuerdas. El Squier Classic Vibe '60s Jazz Bass ($450) es una excelente opción." },
     { q: "What is the difference between active and passive bass pickups?", q_es: "¿Cuál es la diferencia entre pastillas activas y pasivas?", a: "Active pickups use a battery-powered preamp for higher output and more tonal control via EQ. They're great for modern styles like metal and slap. Passive pickups have a warmer, more natural tone and don't need batteries. The Yamaha TRBX304 has an active EQ while the Squier Classic Vibe uses vintage-style passive pickups.", a_es: "Las pastillas activas usan un previo alimentado por batería para mayor salida y control de tono. Son ideales para estilos modernos. Las pasivas tienen un tono más cálido y natural. El Yamaha TRBX304 tiene EQ activo mientras el Squier Classic Vibe usa pastillas pasivas estilo vintage." }
