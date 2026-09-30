@@ -65869,7 +65869,8 @@
           279,
           281,
           292
-        ]
+        ],
+        "skipMedia": true
       },
       {
         "heading": "Is the Samson Q2U the Best Budget USB Microphone?",
@@ -66370,12 +66371,14 @@
         "cons": [
           "Warm, forward voicing — not the most detailed for singing",
           "USB port placement can be awkward on some desks",
-          "Older capsule design vs. newer budget options"
+          "Older capsule design vs. newer budget options",
+          "Mini-USB (not USB-C) port feels dated"
         ],
         "cons_es": [
           "Voz cálida y presente — no es la más detallada para cantar",
           "La posición del puerto USB puede ser incómoda en algunos escritorios",
-          "Diseño de cápsula más antiguo frente a opciones nuevas"
+          "Diseño de cápsula más antiguo frente a opciones nuevas",
+          "El puerto mini-USB (no USB-C) se siente anticuado"
         ]
       },
       {
@@ -66398,12 +66401,14 @@
         "cons": [
           "Heavier than desk condensers of the same price",
           "Software is nice-to-have but not essential",
-          "Takes up more desk space with the full stand"
+          "Takes up more desk space with the full stand",
+          "Dynamic capsule needs more gain than condensers — quiet voices need the knob up"
         ],
         "cons_es": [
           "Más pesado que los condensadores de escritorio del mismo precio",
           "El software es un extra agradable pero no esencial",
-          "Ocupa más espacio en el escritorio con el soporte completo"
+          "Ocupa más espacio en el escritorio con el soporte completo",
+          "La cápsula dinámica pide más ganancia que un condensador — las voces suaves necesitan subir la perilla"
         ]
       },
       {
@@ -66426,12 +66431,14 @@
         "cons": [
           "No headphone jack for monitoring",
           "Condenser hears more room than a dynamic",
-          "Gain is adjusted via software, not on the body"
+          "Gain is adjusted via software, not on the body",
+          "No XLR path for future upgrades"
         ],
         "cons_es": [
           "Sin salida de auriculares para monitorización",
           "El condensador oye más sala que un dinámico",
-          "La ganancia se ajusta por software, no en el cuerpo"
+          "La ganancia se ajusta por software, no en el cuerpo",
+          "Sin salida XLR para mejorar en el futuro"
         ]
       },
       {
@@ -66454,12 +66461,14 @@
         "cons": [
           "Bulky for small desks",
           "Broadcast voicing isn't the most detailed for singing",
-          "Fewer smart features than newer rivals"
+          "Fewer smart features than newer rivals",
+          "No companion app or software EQ"
         ],
         "cons_es": [
           "Voluminoso para escritorios pequeños",
           "La voz de broadcast no es la más detallada para cantar",
-          "Menos funciones inteligentes que rivales más nuevos"
+          "Menos funciones inteligentes que rivales más nuevos",
+          "Sin app compañera ni EQ por software"
         ]
       },
       {
@@ -66482,12 +66491,14 @@
         "cons": [
           "Not as detailed on voice as a good condenser",
           "RGB can't be fully turned off on some units",
-          "Body is lighter plastic on the base"
+          "Body is lighter plastic on the base",
+          "USB-only — no XLR upgrade path"
         ],
         "cons_es": [
           "Menos detalle en la voz que un buen condensador",
           "El RGB no se puede apagar por completo en algunas unidades",
-          "La base es de plástico más ligero"
+          "La base es de plástico más ligero",
+          "Solo USB — sin ruta de mejora a XLR"
         ]
       },
       {
@@ -66510,12 +66521,14 @@
         "cons": [
           "No headphone jack for monitoring",
           "Condenser hears some room in echoey spaces",
-          "Deeper gain and mix controls live in Razer Synapse"
+          "Deeper gain and mix controls live in Razer Synapse",
+          "Fixed pickup pattern — no polar options"
         ],
         "cons_es": [
           "Sin salida de auriculares para monitorización",
           "El condensador oye algo de sala en espacios con eco",
-          "Los controles más profundos de ganancia y mezcla viven en Razer Synapse"
+          "Los controles más profundos de ganancia y mezcla viven en Razer Synapse",
+          "Patrón de captación fijo — sin opciones polares"
         ]
       },
       {
@@ -66526,31 +66539,33 @@
           "Tap-to-mute, gain knob and RGB lighting",
           "Shock mount and pop filter included",
           "USB-C plug-and-play on PC, Mac and consoles",
-          "Best value of its kind "
+          "Best value of its kind"
         ],
         "cons": [
           "No headphone jack for monitoring",
           "Condenser picks up more room than a dynamic",
-          "RGB lighting can't be fully turned off on some units"
+          "RGB lighting can't be fully turned off on some units",
+          "USB-only with no XLR upgrade path"
         ],
         "pros_es": [
           "Precio ultra-económico con funciones modernas de streaming",
           "Silencio de un toque, perilla de ganancia e iluminación RGB",
           "Suspensión y filtro antipop incluidos",
           "USB-C plug-and-play en PC, Mac y consolas",
-          "El mejor relación calidad-precio de su tipo"
+          "La mejor relación calidad-precio de su tipo"
         ],
         "cons_es": [
           "Sin salida de auriculares para monitorización",
           "El condensador capta más sala que un dinámico",
-          "El RGB no se puede apagar del todo en algunas unidades"
+          "El RGB no se puede apagar del todo en algunas unidades",
+          "Solo USB, sin ruta a XLR"
         ]
       },
       {
         "name": "Rode NT-USB Mini Studio Condenser Microphone",
         "name_es": "Micrófono de Condensador de Estudio Rode NT-USB Mini",
         "pros": [
-          "Premium Rode build and brand ",
+          "Premium Rode build and brand",
           "Clear, natural cardioid voice",
           "Magnetic desk stand and built-in pop filter",
           "Headphone jack with zero-latency monitoring",
@@ -66559,7 +66574,8 @@
         "cons": [
           "No gain knob on the body",
           "Condenser prefers a quieter room",
-          "Price sits at the top of this budget range"
+          "Price sits at the top of this budget range",
+          "USB-only — no XLR version at this size"
         ],
         "pros_es": [
           "Construcción premium y marca Rode",
@@ -66571,7 +66587,8 @@
         "cons_es": [
           "Sin perilla de ganancia en el cuerpo",
           "El condensador prefiere una sala más silenciosa",
-          "El precio está al tope de este rango económico"
+          "El precio está al tope de este rango económico",
+          "Solo USB — sin versión XLR en este tamaño"
         ]
       },
       {
@@ -66594,12 +66611,14 @@
         "cons": [
           "No headphone jack — no live monitoring",
           "No gain control — relies on software adjustment",
-          "Condenser picks up room noise in untreated spaces"
+          "Condenser picks up room noise in untreated spaces",
+          "Basic desk stand — a boom arm is almost mandatory"
         ],
         "cons_es": [
           "Sin jack de auriculares — sin monitorización en vivo",
           "Sin control de ganancia — depende del ajuste por software",
-          "El condensador captura ruido de la sala en espacios sin tratar"
+          "El condensador captura ruido de la sala en espacios sin tratar",
+          "El soporte es básico — casi exige un brazo articulado"
         ]
       },
       {
@@ -66613,7 +66632,7 @@
           "Hard to beat at the price"
         ],
         "pros_es": [
-          "Unas 34.000 valoraciones — muy buenamente probado",
+          "Unas 34.000 valoraciones — ampliamente probado",
           "Condensador cardioide con perilla de ganancia frontal",
           "Soporte de escritorio metálico y resistente incluido",
           "USB plug-and-play sin drivers",
@@ -66622,12 +66641,14 @@
         "cons": [
           "Not the most detailed sound on this list",
           "Condenser picks up room noise in echoey spaces",
-          "Basic aesthetics"
+          "Basic aesthetics",
+          "Fixed USB cable — not detachable"
         ],
         "cons_es": [
           "No es el sonido más detallado de esta lista",
           "El condensador capta ruido de sala en espacios con eco",
-          "Estética básica"
+          "Estética básica",
+          "Cable USB fijo — no desmontable"
         ]
       },
       {
@@ -66650,12 +66671,14 @@
         "cons": [
           "Listing can be temporarily out of stock",
           "Condenser hears some room noise",
-          "Plastic build at the base"
+          "Plastic build at the base",
+          "No software or app support — hardware controls only"
         ],
         "cons_es": [
           "El listing puede estar temporalmente agotado",
           "El condensador oye algo de ruido de sala",
-          "Base de plástico"
+          "Base de plástico",
+          "Sin software ni app — solo controles físicos"
         ]
       },
       {
@@ -66664,22 +66687,26 @@
         "pros": [
           "Compact form factor fits any desk",
           "24-bit/48kHz recording quality",
-          "Blue VO!CE software for voice effects"
+          "Blue VO!CE software for voice effects",
+          "Headphone output with volume for direct monitoring"
         ],
         "pros_es": [
           "Formato compacto cabe en cualquier escritorio",
           "Calidad de grabación 24-bit/48kHz",
-          "Software Blue VO!CE para efectos de voz"
+          "Software Blue VO!CE para efectos de voz",
+          "Salida de auriculares con volumen para monitorización directa"
         ],
         "cons": [
           "No XLR output for future upgrades",
           "Fixed cardioid/omnidirectional pattern",
-          "Higher price than other budget USB mics"
+          "Higher price than other budget USB mics",
+          "VO!CE effects require G Hub software running"
         ],
         "cons_es": [
           "Sin salida XLR para futuras actualizaciones",
           "Patrón fijo cardioide/omnidireccional",
-          "Precio más alto que otros mic USB económicos"
+          "Precio más alto que otros mic USB económicos",
+          "Los efectos VO!CE exigen el software G Hub en segundo plano"
         ]
       },
       {
@@ -66688,22 +66715,26 @@
         "pros": [
           "Complete kit with boom arm and pop filter",
           "Plug-and-play USB connection",
-          "Budget price with solid build quality"
+          "Budget price with solid build quality",
+          "Headphone jack for latency-free monitoring"
         ],
         "pros_es": [
           "Kit completo con brazo articulado y filtro pop",
           "Conexión USB plug-and-play",
-          "Precio económico con buena calidad de construcción"
+          "Precio económico con buena calidad de construcción",
+          "Salida de auriculares para monitorización sin latencia"
         ],
         "cons": [
           "Condenser picks up room noise",
           "No XLR output",
-          "Boom arm feels light for heavy use"
+          "Boom arm feels light for heavy use",
+          "Pop filter and arm are basic quality at this price"
         ],
         "cons_es": [
           "Condensador captura ruido de sala",
           "Sin salida XLR",
-          "Brazo se siente ligero para uso intensivo"
+          "Brazo se siente ligero para uso intensivo",
+          "Filtro y brazo de calidad básica a este precio"
         ]
       }
     ],
