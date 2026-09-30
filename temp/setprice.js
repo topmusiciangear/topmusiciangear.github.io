@@ -81,8 +81,14 @@ if (arg.addStores || arg.removeExclude) {
   const p = P.find(x => x.id === id);
   if (!p) { console.log('!! id ' + id + ' no existe en products.json'); process.exit(1); }
   for (const [k, v] of Object.entries(arg.addStores || {})) {
+    // products.json guarda G4M/MS ya envueltos en Awin; envolver si llega limpio
+    let url = v;
+    if (k === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('awin1.com') !== 0)
+      url = 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
+    if (k === 'musicstore' && url.indexOf('musicstore.com') >= 0 && url.indexOf('awin1.com') < 0)
+      url = 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(url);
     const o = p.stores[k];
-    if (o !== v) { auth.push(['urls.' + k, o, v]); p.stores[k] = v; }
+    if (o !== url) { auth.push(['urls.' + k, o, url]); p.stores[k] = url; }
   }
   if (arg.removeExclude && p.excludeStores) {
     const o = p.excludeStores.join(',');
