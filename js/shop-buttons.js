@@ -472,7 +472,7 @@ const TEST_SHOP_BTN = {
       zzounds: "$108.99",
       andertons: "£54.00",
       gear4music: "£54.70",
-      musicstore: "€52.00"
+      musicstore: "€54.00"
     }
   },
   59: {
@@ -1367,14 +1367,12 @@ const TEST_SHOP_BTN = {
       amazon: "$53.95",
       zzounds: "$65.95",
       gear4music: "£44.99",
-      musicstore: "€45.00"
+      musicstore: "€45.00",
+      andertons: "£41.00"
     },
     urls: {
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fmogami-2534-quad-neglex-3m-xlrf-xlrm-mic-cable-neutrik-black-gold-xlr%2F"
-    },
-    oos: [
-      "andertons"
-    ]
+    }
   },
   170: {
     urls: {

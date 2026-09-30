@@ -182,6 +182,11 @@ const APPROVED_NON_PB = {
     'prices.zzounds': ['$37.49', '$50.00'],
     'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSamson-SR850-Pro-Studio-Headphones%2FD7K']
   },
+  // 58 actualizado (sesion en curso).
+  '58': {
+    'prices.musicstore': ['€52.00', '€54.00'],
+    'urls.musicstore': ['https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Mikrofonstativ%2Fart-PAH0015387-000', 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Microphone-Stand-Chrome-%2Fart-ACC0000029-002']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
