@@ -3041,10 +3041,7 @@ const TEST_SHOP_BTN = {
       zzounds: "$99.99",
       andertons: "£91.00",
       gear4music: "£91.30",
-      musicstore: "€105.04"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/item--AKAMPKMINI3"
+      musicstore: "€99.00"
     }
   },
   324: {

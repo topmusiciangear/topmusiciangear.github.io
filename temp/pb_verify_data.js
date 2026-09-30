@@ -56,6 +56,11 @@ const APPROVED_NON_PB = {
   // Squier Sonic Stratocaster HT: Music Store sale de excludeStores (30/09/2026).
   '462': { 'prices.musicstore': [undefined, '€189.00'] },
   // Yamaha Revstar Element RSE20: Music Store entra, G4M baja a £409 (30/09/2026).
+  // Akai MPK Mini MK4: MS baja a €99 y zZounds pasa a AKAMPKMINI4 (el anterior era el MK3) (30/09/2026).
+  '323': {
+    'prices.musicstore': ['€105.04', '€99.00'],
+    'urls.zzounds': ['https://www.zzounds.com/item--AKAMPKMINI3', undefined]
+  },
   // SJ-200: zzounds sube a $5,799 y MS a €4,798 CON IVA (antes €4,031,90 era neto) (30/09/2026).
   '457': { 'prices.zzounds': ['$5,699.00', '$5,799.00'], 'prices.musicstore': ['€4,031.90', '€4,798.00'] },
   // J-45: MS pasa a €4,444 CON IVA (antes €3,734,50 era el precio neto) (30/09/2026).
