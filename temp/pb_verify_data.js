@@ -87,6 +87,16 @@ const APPROVED_NON_PB = {
     'prices.musicstore': ['€199.00', '€235.00'],
     'urls.musicstore': [undefined, 'https://www.musicstore.com/en_OE/EUR/Xvive-U4-Monitor-Wireless-System/art-PAH0021563-000']
   },
+  // 348 actualizado (sesion en curso).
+  '348': {
+    'prices.zzounds': ['$599.99', '$478.00'],
+    'prices.musicstore': ['€499.00', undefined]
+  },
+  // 362 actualizado (sesion en curso).
+  '362': {
+    'prices.musicstore': ['€377.31', '€599.00'],
+    'prices.gear4music': ['£419.00', '£479.00']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],

@@ -47,6 +47,7 @@ const old = eval('(' + oldRaw + ')');
 
 const next = { prices: Object.assign({}, old.prices || {}) };
 for (const [k, v] of Object.entries(arg.prices || {})) next.prices[k] = v;
+for (const k of arg.delPrices || []) delete next.prices[k];
 if (arg.urls || old.urls) next.urls = Object.assign({}, old.urls || {}, arg.urls || {});
 if (arg.oos) next.oos = arg.oos;
 
@@ -57,6 +58,10 @@ const auth = [];
 for (const [k, v] of Object.entries(arg.prices || {})) {
   const o = (old.prices || {})[k];
   if (o !== v) auth.push(['prices.' + k, o, v]);
+}
+for (const k of arg.delPrices || []) {
+  const o = (old.prices || {})[k];
+  if (o !== undefined) auth.push(['prices.' + k, o, undefined]);
 }
 for (const [k, v] of Object.entries(arg.urls || {})) {
   const o = (old.urls || {})[k];
