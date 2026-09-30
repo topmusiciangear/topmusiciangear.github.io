@@ -119,6 +119,12 @@ const APPROVED_NON_PB = {
   '305': {
     'prices.musicstore': ['€331.18', '€469.00']
   },
+  // 300 actualizado (sesion en curso).
+  '300': {
+    'prices.musicstore': ['€503.40', '€599.00'],
+    'prices.gear4music': [undefined, '£499.00'],
+    'urls.gear4music': ['https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-WS-6.2-12-Studio-Subwoofer%2F6SIX', 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-WS-62-Subwoofer-Black%2F6SIX']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
