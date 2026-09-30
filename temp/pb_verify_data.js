@@ -168,6 +168,15 @@ const APPROVED_NON_PB = {
     'prices.musicstore': ['€83.20', '€99.00'],
     'urls.zzounds': [undefined, 'https://www.zzounds.com/item--AUDATHR30X']
   },
+  // 420 actualizado (sesion en curso).
+  '420': {
+    'prices.zzounds': [undefined, '$109.00'],
+    'prices.andertons': [undefined, '£90.00'],
+    'prices.gear4music': ['£51.80', '£92.00'],
+    'prices.musicstore': ['€98.00', '€111.00'],
+    'urls.zzounds': [undefined, 'https://www.zzounds.com/item--SHUSRH440A'],
+    'urls.andertons': [undefined, 'https://www.andertons.co.uk/shure-srh440a-professional-studio-headphones/?search_query=Shure%20SRH440A']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
