@@ -176,11 +176,6 @@ function wrapAndertons(url) {
 
   const cjz = (u) => /zzounds\.com/.test(u) && u.indexOf('anrdoezrs.net') < 0 ? 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(u.replace('/a--925521', '')) : u;
 
-  const storeLogo = (s) => {
-    const c = storeMeta[s.name] || { color: 'var(--accent)', mark: '' };
-    return `<a href="${cjz(s.url)}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store" style="--store-color:${c.color}">${c.mark}<span>${s.name}</span></a>`;
-  };
-
   const dealCard = (d) => {
     const badge = isEs ? (d.badge_es || '') : (d.badge_en || '');
     const desc = isEs ? (d.desc_es || d.desc) : d.desc;
@@ -207,16 +202,6 @@ function wrapAndertons(url) {
     </div>
   </div>`;
   };
-
-  const stores = [
-    { name: 'Plugin Boutique', url: 'https://www.pluginboutique.com/deals?a_aid=6a01e859cbe1a' },
-    { name: 'Gear4Music', url: 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent('https://www.gear4music.com/us/en/Top-Deals') },
-    { name: 'Amazon', url: 'https://www.amazon.com/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%252211965861%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=topmusicg-20' },
-    { name: 'Reverb', url: 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/outlet') },
-    { name: 'Andertons', url: 'https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=' + encodeURIComponent('https://www.andertons.co.uk/browse/offers/') },
-    { name: 'Music Store', url: 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent('https://www.musicstore.com/en_GB/GBP/Bargains/cat-Retouren') },
-    { name: 'zZounds', url: cjz('https://www.zzounds.com/a--925521/blowouts') }
-  ];
 
   return `<!DOCTYPE html>
 <html lang="${langOpts}">
@@ -270,14 +255,9 @@ function wrapAndertons(url) {
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; line-height: 1; display: inline-block; }
     .deals-store-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s; }
     .deals-store-btn:hover { background: #2563eb; color: #fff; }
-    .deals-stores { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
-    .deals-store { display: flex; align-items: center; gap: 10px; padding: 14px 18px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text-secondary); font-size: 14px; font-weight: 700; text-decoration: none; transition: var(--transition); }
-    .deals-store:hover { border-color: var(--store-color, var(--accent)); color: var(--white); transform: translateY(-2px); }
-    .deals-store img { width: 20px; height: 20px; flex-shrink: 0; object-fit: contain; }
-    .deals-store svg { flex-shrink: 0; }
     .deals-telegram { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: rgba(0,136,204,0.1); border: 1px solid rgba(0,136,204,0.25); color: #0088cc; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; transition: var(--transition); }
     .deals-telegram:hover { background: rgba(0,136,204,0.2); border-color: rgba(0,136,204,0.4); text-decoration: none; }
-    @media (max-width: 600px) { .deals-page { padding: 8px 16px 40px; } .deals-grid { grid-template-columns: 1fr; } .deal-card-top { flex-direction: column; } .deal-img { width: 100%; height: auto; } .deals-stores { grid-template-columns: 1fr; } }
+    @media (max-width: 600px) { .deals-page { padding: 8px 16px 40px; } .deals-grid { grid-template-columns: 1fr; } .deal-card-top { flex-direction: column; } .deal-img { width: 100%; height: auto; } }
   </style>
 </head>
 <body style="margin:0;padding:0;">${header}
@@ -304,13 +284,6 @@ function wrapAndertons(url) {
         ${deals.map(dealCard).join('')}
       </div>
 
-      <div class="deals-card" style="margin-top:32px;">
-        <h2 style="margin-bottom:12px;">${t('Shop These Trusted Stores', 'Compra en Estas Tiendas de Confianza')}</h2>
-        <p style="margin-bottom:16px;">${t('We compare prices across the most trusted music gear retailers. When you buy through our links, we may earn a commission at no extra cost to you.', 'Comparamos precios en las tiendas de equipo musical más confiables. Si compras a través de nuestros enlaces, podemos ganar una comisión sin coste extra para ti.')}</p>
-        <div class="deals-stores">
-          ${stores.map(storeLogo).join('')}
-        </div>
-      </div>
     </div>
   </main>
 
