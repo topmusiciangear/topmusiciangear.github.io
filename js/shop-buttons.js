@@ -297,16 +297,12 @@ const TEST_SHOP_BTN = {
   26: {
     prices: {
       amazon: "$113.00",
-      gear4music: "£99.00",
+      gear4music: "£85.00",
       musicstore: "€89.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--SNYMDR7506"
-    },
-    oos: [
-      "andertons",
-      "zzounds"
-    ]
+    }
   },
   28: {
     prices: {
