@@ -183,10 +183,10 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$839.95",
       zzounds: "$849.00",
-      andertons: "£595.00",
-      gear4music: "£595.00",
+      gear4music: "£699.00",
       musicstore: "€849.00"
-    }
+    },
+    oos: ["andertons"]
   },
   15: {
     prices: {
@@ -1120,9 +1120,9 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$1,899.00",
       zzounds: "$1,899.00",
-      andertons: "£1,525.00",
-      gear4music: "£1,634.00",
-      musicstore: "€1,999.00"
+      andertons: "£1,469.00",
+      gear4music: "£1,594.00",
+      musicstore: "€1,679.00"
     }
   },
   144: {
@@ -2226,20 +2226,20 @@ const TEST_SHOP_BTN = {
   },
   266: {
     prices: {
-      gear4music: "£1,135.00",
+      gear4music: "£1,180.00",
       amazon: "$1,749.00",
       zzounds: "$1,749.00",
       andertons: "£1,180.00",
-      musicstore: "€1,349.00"
+      musicstore: "€1,398.00"
     }
   },
   267: {
     prices: {
       amazon: "$419.99",
-      zzounds: "$419.99",
+      zzounds: "$989.00",
       andertons: "£859.00",
-      gear4music: "£819.00",
-      musicstore: "€399.00"
+      gear4music: "£875.00",
+      musicstore: "€959.00"
     }
   },
   268: {
@@ -2255,7 +2255,7 @@ const TEST_SHOP_BTN = {
       amazon: "$989.00",
       zzounds: "$999.00",
       andertons: "£866.00",
-      gear4music: "£813",
+      gear4music: "£902.00",
       musicstore: "€1,049.00"
     }
   },
@@ -2732,9 +2732,9 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$129.99",
       zzounds: "$129.99",
-      andertons: "£89.00",
-      gear4music: "£115.00",
-      musicstore: "€111.00"
+      andertons: "£99.00",
+      gear4music: "£102.00",
+      musicstore: "€99.00"
     }
   },
   325: {
@@ -2964,7 +2964,7 @@ const TEST_SHOP_BTN = {
       zzounds: "$249.99",
       andertons: "£175.00",
       amazon: "$199.99",
-      musicstore: "€199.00"
+      musicstore: "€235.00"
     }
   },
   348: {
@@ -2978,11 +2978,11 @@ const TEST_SHOP_BTN = {
   },
   349: {
     prices: {
+      amazon: "$1,090.00",
       zzounds: "$1,249.00",
       andertons: "£899.00",
-      amazon: "$1,090.00",
-      gear4music: "£881",
-      musicstore: "€599.00"
+      gear4music: "£881.00",
+      musicstore: "€949.00"
     }
   },
   350: {
@@ -3160,12 +3160,12 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$384.99",
       zzounds: "$384.99",
-      andertons: "£305.00",
-      gear4music: "£310.00",
-      musicstore: "€339.00"
+      andertons: "£319.00",
+      gear4music: "£315.00",
+      musicstore: "€349.00"
     },
     urls: {
-      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue/6AB8",
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FRoland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue%2F6AB8",
       zzounds: "https://www.zzounds.com/item--ROLGOKEYS3"
     }
   },
@@ -4149,8 +4149,9 @@ const TEST_SHOP_BTN = {
       amazon: "$349.00",
       zzounds: "$349.00",
       andertons: "£264.00",
-      musicstore: "€289.00"
-    }
+      musicstore: "€319.00"
+    },
+    oos: ["gear4music"]
   },
   476: {
     prices: {
@@ -4158,26 +4159,24 @@ const TEST_SHOP_BTN = {
       andertons: "£449.00",
       musicstore: "€699.00"
     },
-    oos: [
-      "zzounds"
-    ]
+    oos: ["gear4music", "zzounds"]
   },
   477: {
     prices: {
       amazon: "$1,399.00",
       zzounds: "$1,399.00",
-      gear4music: "£1,199.00",
-      andertons: "£1,014.00",
-      musicstore: "€1,269.00"
+      gear4music: "£1,099.00",
+      andertons: "£1,058.00",
+      musicstore: "€1,299.00"
     }
   },
   478: {
     prices: {
       amazon: "$1,399.99",
-      zzounds: "$1,699.99",
+      zzounds: "$1,499.00",
       gear4music: "£1,510.00",
       andertons: "£1,399.00",
-      musicstore: "€1,499.00"
+      musicstore: "€1,459.00"
     }
   },
   479: {

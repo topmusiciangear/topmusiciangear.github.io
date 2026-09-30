@@ -56,6 +56,74 @@ const APPROVED_NON_PB = {
   // Squier Sonic Stratocaster HT: Music Store sale de excludeStores (30/09/2026).
   '462': { 'prices.musicstore': [undefined, '€189.00'] },
   // Yamaha Revstar Element RSE20: Music Store entra, G4M baja a £409 (30/09/2026).
+  // Shure PSM300 + SE846 Gen2 (30/09/2026).
+  '267': {
+    'prices.zzounds': ['$419.99', '$989.00'],
+    'prices.gear4music': ['£819.00', '£875.00'],
+    'prices.musicstore': ['€399.00', '€959.00']
+  },
+  '269': {
+    'prices.gear4music': ['£813', '£902.00']
+  },
+  // Sennheiser EW IEM G4 Stereo (30/09/2026) + Launchkey Mini re-aplicado.
+  '324': {
+    'prices.andertons': ['£89.00', '£99.00'],
+    'prices.gear4music': ['£115.00', '£102.00'],
+    'prices.musicstore': ['€111.00', '€99.00']
+  },
+  '349': {
+    'urls.musicstore': [undefined, 'https://www.musicstore.com/en_OE/EUR/Sennheiser-ew-IEM-G4-B-Wireless-Monitor-Set/art-PAH0019940-000'],
+    'prices.gear4music': ['£881', '£881.00'],
+    'prices.musicstore': ['€599.00', '€949.00']
+  },
+  // 266 actualizado (sesion en curso).,
+  // 266 actualizado (sesion en curso).
+  '266': {
+    'prices.musicstore': ['€1,349.00', '€1,398.00'],
+    'prices.gear4music': ['£1,135.00', '£1,180.00']
+  },
+  // 347 actualizado (sesion en curso).
+  '347': {
+    'prices.musicstore': ['€199.00', '€235.00'],
+    'urls.musicstore': [undefined, 'https://www.musicstore.com/en_OE/EUR/Xvive-U4-Monitor-Wireless-System/art-PAH0021563-000']
+  },
+  // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
+  '14': {
+    'prices.gear4music': ['£595.00', '£699.00'],
+    'prices.andertons': ['£595.00', undefined],
+    'urls.andertons': ['https://www.andertons.co.uk/native-instruments-kontrol-s61-mk3/', 'https://www.andertons.co.uk/']
+  },
+  '143': {
+    'prices.andertons': ['£1,525.00', '£1,469.00'],
+    'prices.gear4music': ['£1,634.00', '£1,594.00'],
+    'prices.musicstore': ['€1,999.00', '€1,679.00']
+  },
+  '370': {
+    'prices.andertons': ['£305.00', '£319.00'],
+    'prices.gear4music': ['£310.00', '£315.00'],
+    'prices.musicstore': ['€339.00', '€349.00']
+  },
+  '475': {
+    'prices.musicstore': ['€289.00', '€319.00']
+  },
+  '476': {
+    'excludeStores': [['gear4music'], undefined]
+  },
+  '477': {
+    'prices.gear4music': ['£1,199.00', '£1,099.00'],
+    'prices.andertons': ['£1,014.00', '£1,058.00'],
+    'prices.musicstore': ['€1,269.00', '€1,299.00']
+  },
+  '478': {
+    'prices.zzounds': ['$1,699.99', '$1,499.00'],
+    'prices.musicstore': ['€1,499.00', '€1,459.00']
+  },
+  // Novation Launchkey Mini 25 MK4: precios enviados por el usuario (30/09/2026).
+  '324': {
+    'prices.andertons': ['£89.00', '£99.00'],
+    'prices.gear4music': ['£115.00', '£102.00'],
+    'prices.musicstore': ['€111.00', '€99.00']
+  },
   // Akai MPK Mini MK4: MS baja a €99 y zZounds pasa a AKAMPKMINI4 (el anterior era el MK3) (30/09/2026).
   '323': {
     'prices.musicstore': ['€105.04', '€99.00'],
