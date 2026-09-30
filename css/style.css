@@ -2103,6 +2103,9 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-currency-note .note-lead span:last-child {
   color: #f59e0b;
 }
+.guide-product-card-currency-note .note-toggle {
+  display: none;
+}
 .guide-product-card-currency-note .note-icon {
   flex-shrink: 0;
   font-size: 11px;
@@ -2124,6 +2127,32 @@ footer ul li a:hover { color: var(--accent); }
   }
   .guide-product-card-currency-note .note-row {
     gap: 8px;
+  }
+  .guide-product-card-currency-note .note-more {
+    display: none;
+  }
+  .guide-product-card-currency-note.is-open .note-more {
+    display: block;
+  }
+  .guide-product-card-currency-note .note-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    margin: 8px 0 0;
+    padding: 7px 0 0;
+    border: 0;
+    border-top: 1px solid rgba(245, 158, 11, 0.28);
+    background: none;
+    color: #f59e0b;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .guide-product-card-currency-note .note-toggle-arrow {
+    font-size: 9px;
+    line-height: 1;
   }
 }
 
