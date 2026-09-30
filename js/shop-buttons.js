@@ -2577,8 +2577,8 @@ const TEST_SHOP_BTN = {
       amazon: "$349.00",
       zzounds: "$349.00",
       andertons: "£276.99",
-      gear4music: "£295.00",
-      musicstore: "€250.42"
+      gear4music: "£259.00",
+      musicstore: "€349.00"
     }
   },
   308: {
