@@ -3073,13 +3073,10 @@ const TEST_SHOP_BTN = {
   329: {
     prices: {
       amazon: "$199.00",
-      zzounds: "$229.00",
+      zzounds: "$218.00",
       andertons: "£164.00",
-      gear4music: "£167.50"
-    },
-    oos: [
-      "musicstore"
-    ]
+      gear4music: "£164.00"
+    }
   },
   330: {
     prices: {
