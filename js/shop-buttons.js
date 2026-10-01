@@ -4601,18 +4601,6 @@ const TEST_SHOP_BTN = {
       "musicstore"
     ]
   },
-  517: {
-    prices: {
-      gear4music: "£135.50",
-      amazon: "$159.00",
-      musicstore: "€145.00",
-      zzounds: "$159.00",
-      andertons: "£129.00"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/item--AUDAT2040USB"
-    }
-  },
   518: {
     prices: {
       amazon: "$129.99"

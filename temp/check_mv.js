@@ -1,0 +1,11 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/mics-for-creators.html', 'utf8');
+const t = '<h3 class="guide-product-card-title">Shure MV7+</h3>';
+const i = h.indexOf(t);
+const cardStart = h.lastIndexOf('<div class="guide-product-card"', i);
+const nextCard = h.indexOf('<div class="guide-product-card"', i + 10);
+const seg = h.slice(cardStart, nextCard);
+console.log('MV7 stores: ' + [...new Set([...seg.matchAll(/data-store=(["'])(.*?)\1/g)].map(m => m[2]))].join(','));
+const amz = seg.indexOf('data-store="amazon"');
+console.log('--- amazon row sample ---');
+console.log(seg.slice(amz, amz + 700).replace(/\s+/g, ' ').slice(0, 700));

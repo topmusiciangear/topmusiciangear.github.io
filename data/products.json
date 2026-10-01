@@ -5628,21 +5628,16 @@
     "rating": 4.4,
     "reviews": 1931,
     "badge": "recommended",
-    "desc": "The Audio-Technica AT2040USB is a hypercardioid dynamic USB mic that delivers broadcast quality with plug-and-play simplicity. The hypercardioid pickup rejects room noise, the built-in headphone jack gives zero-latency monitoring, and the touch-sensitive mute button with LED ring keeps it stream-ready. 24-bit/96kHz capture via USB-C.",
-    "desc_es": "El Audio-Technica AT2040USB es un micrófono dinámico USB hipercardioide que ofrece calidad broadcast con simplicidad plug-and-play. La captación hipercardioide rechaza el ruido de la sala, la salida de auriculares integrada da monitorización sin latencia, y el botón de silencio táctil con anillo LED lo mantienen listo para el stream. Captura de 24 bits/96 kHz por USB-C.",
-    "img": "https://m.media-amazon.com/images/I/71xcYyywTQL._AC_SL1500_.jpg",
+    "desc": "Dynamic USB microphone with hypercardioid pickup for focused creator voice. 24-bit/96kHz conversion, headphone jack with volume and mix control, silent touch mute, integrated shock mount and pop filter.",
+    "desc_es": "Micrófono dinámico USB con captación hipercardioide para una voz enfocada. Conversión 24 bits/96 kHz, salida de auriculares con volumen y mezcla, silencio táctil, suspensión integrada y antipop.",
+    "img": "https://r2.gear4music.com/media/94/941224/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0C2G4PGYS",
       "andertons": "https://www.andertons.co.uk/audio-technica-at2040-usb-microphone/",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudio-Technica-AT2040USB-Dynamic-Microphone%2F5NDI",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2040-USB/art-REC0016401-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--AUDAT2040USB"
-    },
-    "excludeStores": [
-      "gear4music",
-      "andertons",
-      "reverb"
-    ]
+    }
   },
   {
     "id": 287,
@@ -10460,26 +10455,6 @@
     "excludeStores": [
       "zzounds"
     ]
-  },
-  {
-    "id": 517,
-    "title": "Audio-Technica AT2040USB",
-    "title_es": "Audio-Technica AT2040USB",
-    "brand": "Audio-Technica",
-    "category": "microphones",
-    "price": 159,
-    "rating": 4.4,
-    "reviews": 251,
-    "desc": "Dynamic USB microphone with hypercardioid pickup for focused creator voice. 24-bit/96kHz conversion, headphone jack with volume and mix control, silent touch mute, integrated shock mount and pop filter.",
-    "desc_es": "Micrófono dinámico USB con captación hipercardioide para una voz enfocada. Conversión 24 bits/96 kHz, salida de auriculares con volumen y mezcla, silencio táctil, suspensión integrada y antipop.",
-    "img": "https://r2.gear4music.com/media/94/941224/1200/preview.jpg",
-    "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudio-Technica-AT2040USB-Dynamic-Microphone%2F5NDI",
-      "amazon": "https://www.amazon.com/Audio-Technica-AT2040USB-Dynamic-Microphone-Black/dp/B0C2G4PGYS",
-      "zzounds": "https://www.zzounds.com/item--AUDAT2040USB",
-      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAudio-Technica-AT2040-USB%2Fart-REC0016401-000",
-      "andertons": "https://www.andertons.co.uk/audio-technica-at2040-usb-microphone/"
-    }
   },
   {
     "id": 518,
