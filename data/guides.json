@@ -12729,59 +12729,59 @@
       ],
       "rows": [
         {
-          "label": "Category",
+          "label": "Type",
           "values": [
             {
-              "value": "Multi-fx Creative Suite",
-              "value_es": "Suite multi-fx creativa"
+              "value": "Multi-FX Bundle (21 effects)",
+              "value_es": "Bundle Multi-FX (21 efectos)"
             },
             {
-              "value": "Creative Reverb",
-              "value_es": "Reverb creativo"
+              "value": "Algorithmic Reverb",
+              "value_es": "Reverb Algorítmico"
             },
             {
               "value": "Rhythmic Modulation Suite",
-              "value_es": "Suite modulación rítmica"
+              "value_es": "Suite Modulación Rítmica"
             },
             {
-              "value": "Lo-Fi Color / Degradation",
-              "value_es": "Color Lo-Fi / Degradación"
+              "value": "Lo-Fi / Character Processor",
+              "value_es": "Procesador Lo-Fi / Carácter"
             },
             {
-              "value": "Time-Stretch / Half-Speed",
-              "value_es": "Time-Stretch / Half-Speed"
+              "value": "Time-Stretch / Pitch Effect",
+              "value_es": "Time-Stretch / Efecto Pitch"
             },
             {
-              "value": "Creative Delay / Modulation",
-              "value_es": "Delay creativo / Modulación"
+              "value": "Dual-Engine Creative Delay",
+              "value_es": "Delay Creativo Dual-Engine"
             },
             {
-              "value": "Glitch Sequencer / Multi-FX",
-              "value_es": "Secuenciador Glitch / Multi-FX"
+              "value": "Step-Sequenced Multi-FX",
+              "value_es": "Multi-FX Secuenciado por Pasos"
             },
             {
-              "value": "Creative Distortion",
-              "value_es": "Distorsión creativa"
+              "value": "Multiband Distortion",
+              "value_es": "Distorsión Multibanda"
             },
             {
-              "value": "Creative Spatial / Reverb",
-              "value_es": "Espacial creativo / Reverb"
+              "value": "Spatial / Reverb (3 engines)",
+              "value_es": "Espacial / Reverb (3 motores)"
             },
             {
-              "value": "Harmonic Modulation",
-              "value_es": "Modulación armónica"
+              "value": "Harmonic Spectral Processor",
+              "value_es": "Procesador Espectral Armónico"
             },
             {
-              "value": "Creative Chorus",
-              "value_es": "Chorus creativo"
+              "value": "Chorus (Juno-106 modeling)",
+              "value_es": "Chorus (modelado Juno-106)"
             },
             {
-              "value": "Creative Delay",
-              "value_es": "Delay creativo"
+              "value": "Delay (23 models)",
+              "value_es": "Delay (23 modelos)"
             },
             {
-              "value": "Spectral Resonance Control",
-              "value_es": "Control resonancia espectral"
+              "value": "Spectral Resonance Suppressor",
+              "value_es": "Supresor Resonancia Espectral"
             }
           ]
         },
@@ -12843,173 +12843,287 @@
           ]
         },
         {
-          "label": "Format",
-          "values": [
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            },
-            {
-              "value": "VST/AU/AAX",
-              "value_es": "VST/AU/AAX"
-            }
-          ]
-        },
-        {
-          "label": "Price",
-          "values": [
-            {
-              "value": "$499",
-              "value_es": "$499"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$299",
-              "value_es": "$299"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$149",
-              "value_es": "$149"
-            },
-            {
-              "value": "$149",
-              "value_es": "$149"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            },
-            {
-              "value": "$99",
-              "value_es": "$99"
-            }
-          ]
-        },
-        {
           "label": "Key Feature",
           "values": [
             {
-              "value": "21 effects, modulation matrix, Effect Rack",
-              "value_es": "21 efectos, matriz modulación, Effect Rack"
+              "value": "Effect Rack: chain 5 effects, modulation matrix",
+              "value_es": "Effect Rack: encadena 5 efectos, matriz modulación"
             },
             {
-              "value": "Gravity reversal, 500+ presets, Ribbon ctrl",
-              "value_es": "Inversión Gravity, 500+ presets, control Ribbon"
+              "value": "Gravity knob reverses decay (time inversion)",
+              "value_es": "Knob Gravity invierte decaimiento (inversión tiempo)"
             },
             {
-              "value": "9 modulation bands, drawable curves, MIDI",
-              "value_es": "9 bandas modulación, curvas dibujables, MIDI"
+              "value": "9 drawable curves, Cable cross-modulation, MIDI",
+              "value_es": "9 curvas dibujables, Cable cross-modulación, MIDI"
             },
             {
-              "value": "6 modules: wobble, drop, noise, space, etc",
-              "value_es": "6 módulos: wobble, drop, noise, space, etc"
+              "value": "6 modules: Wobble, Drop, Noise, Space, Magnetic, Digital",
+              "value_es": "6 módulos: Wobble, Drop, Noise, Space, Magnetic, Digital"
             },
             {
-              "value": "Half-speed, quarter-speed, tape stop",
-              "value_es": "Half-speed, quarter-speed, tape stop"
+              "value": "Pitch/formant separation = natural slow-down",
+              "value_es": "Separación pitch/formante = slow-down natural"
             },
             {
-              "value": "Dual engines, groove, modulation, freeze",
-              "value_es": "Dual engines, groove, modulación, freeze"
+              "value": "Groove, Modulation, Freeze per engine, Macro morph",
+              "value_es": "Groove, Modulación, Freeze por motor, Macro morph"
             },
             {
-              "value": "28 modules, step sequencer, macro knobs",
-              "value_es": "28 módulos, secuenciador pasos, macros"
+              "value": "28 modules, probability per step, Macro knobs",
+              "value_es": "28 módulos, probabilidad por paso, Macro knobs"
             },
             {
-              "value": "Multiband, 6 models, convolution, envelopes",
-              "value_es": "Multibanda, 6 modelos, convolución, envolventes"
+              "value": "60+ models, 4 bands, envelopes, convolution, spectral",
+              "value_es": "60+ modelos, 4 bandas, envolventes, convolución, espectral"
             },
             {
-              "value": "3 engines, shimmer, swarm, reflect",
-              "value_es": "3 motores, shimmer, swarm, reflect"
+              "value": "Shimmer/Swarm/Reflect engines, full modulation",
+              "value_es": "Motores Shimmer/Swarm/Reflect, modulación total"
             },
             {
-              "value": "Harmonic/inharmonic, flux, drift, warp",
-              "value_es": "Armónico/inharmónico, flux, drift, warp"
+              "value": "Harmonic/inharmonic split, Flux/Drift/Warp modes",
+              "value_es": "Split armónico/inharmónico, modos Flux/Drift/Warp"
             },
             {
-              "value": "Authentic Juno-106 chorus, stereo width",
-              "value_es": "Chorus Juno-106 auténtico, ancho estéreo"
+              "value": "Authentic Juno-106 chorus circuit, 2 modes",
+              "value_es": "Circuito chorus Juno-106 auténtico, 2 modos"
             },
             {
-              "value": "Multi-tap, diffusion, modulation, ping-pong",
-              "value_es": "Multi-tap, difusión, modulación, ping-pong"
+              "value": "Tape/BBD/Digital/Diffusion, multi-tap, per-tap mod",
+              "value_es": "Tape/BBD/Digital/Difusión, multi-tap, mod por tap"
             },
             {
-              "value": "Auto-detect resonances, spectral smoothing",
-              "value_es": "Auto-detectar resonancias, suavizado espectral"
+              "value": "Real-time resonance detection, spectral smoothing",
+              "value_es": "Detección resonancias tiempo real, suavizado espectral"
+            }
+          ]
+        },
+        {
+          "label": "Modulation Depth",
+          "values": [
+            {
+              "value": "Extensive (per-effect + rack macros)",
+              "value_es": "Extensa (por efecto + macros rack)"
+            },
+            {
+              "value": "Deep (Gravity + LFOs + Ribbon)",
+              "value_es": "Profunda (Gravity + LFOs + Ribbon)"
+            },
+            {
+              "value": "Extreme (9 bands × drawable curves)",
+              "value_es": "Extrema (9 bandas × curvas dibujables)"
+            },
+            {
+              "value": "Moderate (per-module mix + rate)",
+              "value_es": "Moderada (mix + rate por módulo)"
+            },
+            {
+              "value": "None (fixed effect)",
+              "value_es": "Ninguna (efecto fijo)"
+            },
+            {
+              "value": "Deep (Groove + Mod + Macros per engine)",
+              "value_es": "Profunda (Groove + Mod + Macros por motor)"
+            },
+            {
+              "value": "Extreme (probability + 28 modules + Macros)",
+              "value_es": "Extrema (probabilidad + 28 módulos + Macros)"
+            },
+            {
+              "value": "Extensive (envelopes + LFOs + convolution)",
+              "value_es": "Extensa (envolventes + LFOs + convolución)"
+            },
+            {
+              "value": "Full (every parameter modulatable)",
+              "value_es": "Total (todo parámetro modulable)"
+            },
+            {
+              "value": "Extensive (Flux/Drift/Warp + LFOs)",
+              "value_es": "Extensa (Flux/Drift/Warp + LFOs)"
+            },
+            {
+              "value": "None (fixed circuit behavior)",
+              "value_es": "Ninguna (comportamiento circuito fijo)"
+            },
+            {
+              "value": "Deep (per-tap modulation + sync)",
+              "value_es": "Profunda (modulación por tap + sync)"
+            },
+            {
+              "value": "None (automatic adaptive)",
+              "value_es": "Ninguna (adaptativa automática)"
+            }
+          ]
+        },
+        {
+          "label": "Sound Design Potential",
+          "values": [
+            {
+              "value": "Infinite (21 effects + rack chaining)",
+              "value_es": "Infinita (21 efectos + encadenado rack)"
+            },
+            {
+              "value": "High (unique impossible spaces)",
+              "value_es": "Alta (espacios imposibles únicos)"
+            },
+            {
+              "value": "Extreme (rhythmic sound mangling)",
+              "value_es": "Extrema (destrucción sonora rítmica)"
+            },
+            {
+              "value": "High (instant character injection)",
+              "value_es": "Alta (inyección carácter instantánea)"
+            },
+            {
+              "value": "Specialized (time-domain manipulation)",
+              "value_es": "Especializada (manipulación dominio tiempo)"
+            },
+            {
+              "value": "High (delay as instrument)",
+              "value_es": "Alta (delay como instrumento)"
+            },
+            {
+              "value": "Extreme (controlled chaos generator)",
+              "value_es": "Extrema (generador caos controlado)"
+            },
+            {
+              "value": "Extreme (spectral destruction)",
+              "value_es": "Extrema (destrucción espectral)"
+            },
+            {
+              "value": "High (cinematic space design)",
+              "value_es": "Alta (diseño espacio cinematográfico)"
+            },
+            {
+              "value": "Specialized (harmonic animation)",
+              "value_es": "Especializada (animación armónica)"
+            },
+            {
+              "value": "Focused (classic chorus color)",
+              "value_es": "Enfocada (color chorus clásico)"
+            },
+            {
+              "value": "High (delay history in one box)",
+              "value_es": "Alta (historia delay en una caja)"
+            },
+            {
+              "value": "Utility (cleanup, not creative)",
+              "value_es": "Utilidad (limpieza, no creativa)"
+            }
+          ]
+        },
+        {
+          "label": "CPU Load",
+          "values": [
+            {
+              "value": "High (multiple instances heavy)",
+              "value_es": "Alta (múltiples instancias pesadas)"
+            },
+            {
+              "value": "Low-Moderate",
+              "value_es": "Baja-Moderada"
+            },
+            {
+              "value": "Moderate-High (9 bands)",
+              "value_es": "Moderada-Alta (9 bandas)"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
+            },
+            {
+              "value": "Moderate",
+              "value_es": "Moderada"
+            },
+            {
+              "value": "Moderate-High (28 modules)",
+              "value_es": "Moderada-Alta (28 módulos)"
+            },
+            {
+              "value": "High (4 bands + spectral)",
+              "value_es": "Alta (4 bandas + espectral)"
+            },
+            {
+              "value": "High (3 engines + modulation)",
+              "value_es": "Alta (3 motores + modulación)"
+            },
+            {
+              "value": "Moderate",
+              "value_es": "Moderada"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
+            },
+            {
+              "value": "Moderate",
+              "value_es": "Moderada"
+            },
+            {
+              "value": "Low-Moderate",
+              "value_es": "Baja-Moderada"
+            }
+          ]
+        },
+        {
+          "label": "Formats",
+          "values": [
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/AU/AAX (no VST3/CLAP)",
+              "value_es": "VST2/AU/AAX (sin VST3/CLAP)"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX",
+              "value_es": "VST2/VST3/AU/AAX"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
+            },
+            {
+              "value": "VST2/VST3/AU/AAX/CLAP",
+              "value_es": "VST2/VST3/AU/AAX/CLAP"
             }
           ]
         }
