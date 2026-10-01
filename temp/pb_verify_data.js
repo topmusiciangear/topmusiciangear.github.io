@@ -204,6 +204,10 @@ const APPROVED_NON_PB = {
     'prices.zzounds': ['$229.00', '$218.00'],
     'prices.gear4music': ['£167.50', '£164.00']
   },
+  // 1 actualizado (sesion en curso).
+  '1': {
+    'prices.gear4music': ['£381.50', '£387.00']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
