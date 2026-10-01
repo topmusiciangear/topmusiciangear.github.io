@@ -62146,6 +62146,10 @@
         {
           "title": "Sennheiser e 604",
           "title_es": "Sennheiser e 604 (Pack de 3)"
+        },
+        {
+          "title": "Shure Beta 58A",
+          "title_es": "Shure Beta 58A"
         }
       ],
       "rows": [
@@ -62204,6 +62208,10 @@
             {
               "value": "Toms & percussion with mounting clips",
               "value_es": "Toms y percusión con clips de fijación"
+            },
+            {
+              "value": "Live vocal workhorse",
+              "value_es": "Caballo de batalla vocal en vivo"
             }
           ]
         },
@@ -62262,6 +62270,10 @@
             {
               "value": "Dynamic (moving coil), clip-on",
               "value_es": "Dinámico (bobina móvil), clip"
+            },
+            {
+              "value": "Dynamic",
+              "value_es": "Dinámico"
             }
           ]
         },
@@ -62320,6 +62332,10 @@
             {
               "value": "Cardioid",
               "value_es": "Cardioide"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
             }
           ]
         },
@@ -62378,6 +62394,10 @@
             {
               "value": "40 Hz – 18 kHz",
               "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "50 Hz–16 kHz",
+              "value_es": "50 Hz–16 kHz"
             }
           ]
         },
@@ -62436,6 +62456,10 @@
             {
               "value": "1.8 mV/Pa (-55 dBV)",
               "value_es": "1.8 mV/Pa (–55 dBV)"
+            },
+            {
+              "value": "-51.5 dBV/Pa (2.7 mV)",
+              "value_es": "-51,5 dBV/Pa (2,7 mV)"
             }
           ]
         },
@@ -62494,6 +62518,10 @@
             {
               "value": "N/A (dynamic)",
               "value_es": "N/D (dinámico)"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
             }
           ]
         },
@@ -62552,6 +62580,10 @@
             {
               "value": ">160 dB (official)",
               "value_es": ">160 dB (oficial)"
+            },
+            {
+              "value": ">140 dB",
+              "value_es": ">140 dB"
             }
           ]
         },
@@ -62610,6 +62642,10 @@
             {
               "value": "350 Ω (min. load 1 kΩ)",
               "value_es": "350 Ω (carga mín. 1 kΩ)"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
             }
           ]
         },
@@ -62668,6 +62704,10 @@
             {
               "value": "Not published",
               "value_es": "No publicado"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
             }
           ]
         },
@@ -62726,6 +62766,10 @@
             {
               "value": "Not published",
               "value_es": "No publicado"
+            },
+            {
+              "value": "N/A (dynamic)",
+              "value_es": "N/A (dinámico)"
             }
           ]
         },
@@ -62784,6 +62828,10 @@
             {
               "value": "Not published (low-distortion rated)",
               "value_es": "No publicado (clasificado como de baja distorsión)"
+            },
+            {
+              "value": "<1% @ 140 dB",
+              "value_es": "<1% @ 140 dB"
             }
           ]
         },
@@ -62842,6 +62890,10 @@
             {
               "value": "Moving-coil, lightweight coil, glass-fibre body",
               "value_es": "Bobina móvil ligera, cuerpo de fibra de vidrio"
+            },
+            {
+              "value": "Dynamic capsule",
+              "value_es": "Cápsula dinámica"
             }
           ]
         },
@@ -62892,6 +62944,10 @@
             {
               "value": "80 Hz low-cut on DAD adapter",
               "value_es": "Filtro de 80 Hz en el adaptador DAD"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
             },
             {
               "value": "None",
@@ -62958,6 +63014,10 @@
             {
               "value": "None required",
               "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requerida"
             }
           ]
         },
@@ -63016,6 +63076,10 @@
             {
               "value": "Ø33 × 59 mm",
               "value_es": "Ø33 × 59 mm"
+            },
+            {
+              "value": "165 x 51 mm",
+              "value_es": "165 x 51 mm"
             }
           ]
         },
@@ -63074,6 +63138,10 @@
             {
               "value": "60 g",
               "value_es": "60 g"
+            },
+            {
+              "value": "298 g",
+              "value_es": "298 g"
             }
           ]
         }
@@ -63109,8 +63177,7 @@
         ]
       },
       {
-        "name": "Sennheiser e906",
-        "name_es": "Sennheiser e906",
+        "name": "Sennheiser e 906",
         "pros": [
           "Three-position voicing switch tailors the response to the source",
           "Built-in stand mount makes amp placement fast and secure",
@@ -63397,8 +63464,7 @@
         ]
       },
       {
-        "name": "Sennheiser e604",
-        "name_es": "Sennheiser e604",
+        "name": "Sennheiser e 604",
         "pros": [
           "Clips straight onto toms and stays put",
           "Compact bodies with reinforced fiberglass",
