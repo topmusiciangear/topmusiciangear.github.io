@@ -50814,6 +50814,18 @@
         {
           "title": "Fender American Professional II Jazz Bass",
           "title_es": "Fender American Professional II Jazz Bajo"
+        },
+        {
+          "title": "Squier Classic Vibe '60s Jazz Bass",
+          "title_es": "Squier Classic Vibe '60s Jazz Bass"
+        },
+        {
+          "title": "Squier Affinity Series Precision Bass PJ",
+          "title_es": "Squier Affinity Series Precision Bass PJ"
+        },
+        {
+          "title": "Fender American Ultra II Precision Bass",
+          "title_es": "Fender American Ultra II Precision Bass"
         }
       ],
       "rows": [
@@ -50836,6 +50848,18 @@
             {
               "value": "Pro J bass with modern feel",
               "value_es": "J bass pro con tacto moderno"
+            },
+            {
+              "value": "Vintage J tone for less",
+              "value_es": "Sonido J vintage por menos"
+            },
+            {
+              "value": "Cheapest P/J flexibility",
+              "value_es": "Flexibilidad P/J más barata"
+            },
+            {
+              "value": "Flagship active P bass",
+              "value_es": "Insignia P activo"
             }
           ]
         },
@@ -50854,6 +50878,18 @@
             {
               "value": "Alder",
               "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Poplar",
+              "value_es": "Álamo"
+            },
+            {
+              "value": "Poplar",
+              "value_es": "Álamo"
             },
             {
               "value": "Alder",
@@ -50880,6 +50916,18 @@
             {
               "value": "Deep C, 20 frets",
               "value_es": "Deep C, 20 trastes"
+            },
+            {
+              "value": "Maple, C shape",
+              "value_es": "Arce, forma C"
+            },
+            {
+              "value": "Maple, C shape",
+              "value_es": "Arce, forma C"
+            },
+            {
+              "value": "Quartersawn maple, Modern D, 21",
+              "value_es": "Arce cuartos, Modern D, 21"
             }
           ]
         },
@@ -50902,6 +50950,18 @@
             {
               "value": "20, maple",
               "value_es": "20, arce"
+            },
+            {
+              "value": "20, laurel",
+              "value_es": "20, laurel"
+            },
+            {
+              "value": "20, maple",
+              "value_es": "20, arce"
+            },
+            {
+              "value": "21, ebony or maple",
+              "value_es": "21, ébano o arce"
             }
           ]
         },
@@ -50924,6 +50984,18 @@
             {
               "value": "2x V-Mod II J single coils",
               "value_es": "2x singles V-Mod II J"
+            },
+            {
+              "value": "2x Fender alnico J",
+              "value_es": "2x Fender alnico J"
+            },
+            {
+              "value": "Ceramic P + J",
+              "value_es": "Cerámica P + J"
+            },
+            {
+              "value": "Ultra II Noiseless P + J",
+              "value_es": "Ultra II Noiseless P + J"
             }
           ]
         },
@@ -50946,6 +51018,18 @@
             {
               "value": "Passive",
               "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Active (S-1)",
+              "value_es": "Activo (S-1)"
             }
           ]
         },
@@ -50953,6 +51037,18 @@
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "values": [
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
             {
               "value": "34 in (864 mm)",
               "value_es": "34\" (864 mm)"
@@ -50990,6 +51086,18 @@
             {
               "value": "2x volume, tone",
               "value_es": "2x volumen, tono"
+            },
+            {
+              "value": "2x volume, tone",
+              "value_es": "2x volumen, tono"
+            },
+            {
+              "value": "2x volume, tone",
+              "value_es": "2x volumen, tono"
+            },
+            {
+              "value": "Vol, tone, 3-band active EQ",
+              "value_es": "Vol, tono, EQ activa 3 bandas"
             }
           ]
         },
@@ -51012,6 +51120,18 @@
             {
               "value": "Fender",
               "value_es": "Fender"
+            },
+            {
+              "value": "Vintage-style",
+              "value_es": "Vintage"
+            },
+            {
+              "value": "Vintage-style",
+              "value_es": "Vintage"
+            },
+            {
+              "value": "Deluxe fluted",
+              "value_es": "Deluxe estriadas"
             }
           ]
         },
@@ -51034,6 +51154,18 @@
             {
               "value": "8.3 lb (3.8 kg)",
               "value_es": "3,8 kg"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             }
           ]
         }
@@ -51150,6 +51282,90 @@
           "El diseño single-coil sigue captando zumbido en salas ruidosas",
           "Sin electrónica activa para tonos modernos de alta salida",
           "Es un especialista por género, no un bajo que lo haga todo"
+        ]
+      },
+      {
+        "name": "Squier Classic Vibe '60s Jazz Bass",
+        "name_es": "Squier Classic Vibe '60s Jazz Bass",
+        "pros": [
+          "Poplar body with Fender-designed alnico J pickups",
+          "Slim C neck with 9.5-inch laurel board and narrow-tall frets",
+          "Vintage tint, nickel hardware and tort guard looks",
+          "Best vintage-spec J under Classic Vibe money"
+        ],
+        "cons": [
+          "Poplar varies in weight unit to unit",
+          "Vintage-style tuners without locking stability",
+          "Gloss neck gets sticky on sweaty stages",
+          "No gig bag included"
+        ],
+        "pros_es": [
+          "Cuerpo de álamo con pastillas J alnico diseñadas por Fender",
+          "Mástil C fino con diapasón de laurel 9,5 y trastes narrow-tall",
+          "Estética vintage con mástil tintado y golpeador carey",
+          "Mejor J de specs vintage por dinero Classic Vibe"
+        ],
+        "cons_es": [
+          "El álamo varía de peso por unidad",
+          "Clavijas vintage sin estabilidad de bloqueo",
+          "El brillo del mástil se pega en escenario",
+          "Sin funda incluida"
+        ]
+      },
+      {
+        "name": "Squier Affinity Series Precision Bass PJ",
+        "name_es": "Squier Affinity Series Precision Bass PJ",
+        "pros": [
+          "P split plus J bridge covers Precision and Jazz tones",
+          "Thin lightweight poplar body with slim C neck",
+          "Open-gear tuners with smooth vintage feel",
+          "Cheapest route into a real Fender-family bass"
+        ],
+        "cons": [
+          "Ceramic pickups lack alnico complexity",
+          "Basic electronics beg for upgrades",
+          "Thin finish wears faster with gigging",
+          "Fretwork varies unit to unit"
+        ],
+        "pros_es": [
+          "Split P más J cubren tonos Precision y Jazz",
+          "Cuerpo fino y ligero de álamo con mástil C fino",
+          "Clavijas abiertas con tacto vintage suave",
+          "La ruta más barata a un bajo familia Fender"
+        ],
+        "cons_es": [
+          "Las cerámicas carecen de complejidad alnico",
+          "La electrónica básica pide mejora",
+          "El acabado fino se gasta antes con bolos",
+          "Los trastes varían de unidad a unidad"
+        ]
+      },
+      {
+        "name": "Fender American Ultra II Precision Bass",
+        "name_es": "Fender American Ultra II Precision Bass",
+        "pros": [
+          "Ultra II Noiseless P plus J with zero hum",
+          "Active preamp with S-1 switching and 3-band EQ",
+          "Modern D quartersawn neck with 10-14-inch compound radius",
+          "HiMass bridge with sculpted-heel access"
+        ],
+        "cons": [
+          "Flagship price far above Player series",
+          "Active preamp needs battery management",
+          "Modern voice divides vintage purists",
+          "Anodized guard scratches show easily"
+        ],
+        "pros_es": [
+          "Ultra II Noiseless P más J sin ruido",
+          "Previo activo conmutación S-1 y EQ 3 bandas",
+          "Mástil Modern D de cuartos con radio compuesto 10-14",
+          "Puente HiMass con acceso al talón"
+        ],
+        "cons_es": [
+          "Precio insignia muy por encima de Player",
+          "El previo activo pide gestionar batería",
+          "La voz moderna divide a puristas vintage",
+          "Los arañazos se notan en el golpeador"
         ]
       }
     ],
@@ -53673,6 +53889,34 @@
         {
           "title": "Sire Marcus Miller V5R",
           "title_es": "Sire Marcus Miller V5R"
+        },
+        {
+          "title": "Fender Player II Precision Bass",
+          "title_es": "Fender Player II Precision Bass"
+        },
+        {
+          "title": "Fender Player II Jazz Bass",
+          "title_es": "Fender Player II Jazz Bass"
+        },
+        {
+          "title": "Fender American Professional II Precision Bass",
+          "title_es": "Fender American Professional II Precision Bass"
+        },
+        {
+          "title": "Fender American Professional II Jazz Bass",
+          "title_es": "Fender American Professional II Jazz Bass"
+        },
+        {
+          "title": "Fender American Ultra II Precision Bass",
+          "title_es": "Fender American Ultra II Precision Bass"
+        },
+        {
+          "title": "Sire Marcus Miller V5 4-String Bass",
+          "title_es": "Sire Marcus Miller V5 4-String Bass"
+        },
+        {
+          "title": "ESP LTD B-204SM Bass Guitar",
+          "title_es": "ESP LTD B-204SM Bass Guitar"
         }
       ],
       "rows": [
@@ -53703,6 +53947,34 @@
             {
               "value": "Vintage jazz bass tone",
               "value_es": "Tono jazz bass vintage"
+            },
+            {
+              "value": "Thick, punchy vintage Precision tone",
+              "value_es": "Sonido Precision vintage grueso y punzante"
+            },
+            {
+              "value": "Snappy, articulate Jazz bass",
+              "value_es": "Bajo Jazz articulado y brillante"
+            },
+            {
+              "value": "Pro P bass with V-Mod II punch",
+              "value_es": "P bass pro con punch V-Mod II"
+            },
+            {
+              "value": "Pro J bass with modern feel",
+              "value_es": "J bass pro con tacto moderno"
+            },
+            {
+              "value": "Flagship active P bass",
+              "value_es": "Insignia P activo"
+            },
+            {
+              "value": "Vintage J tone, modern price",
+              "value_es": "Sonido J vintage, precio moderno"
+            },
+            {
+              "value": "Modern active 24-fret rock",
+              "value_es": "Rock moderno activo de 24 trastes"
             }
           ]
         },
@@ -53733,6 +54005,34 @@
             {
               "value": "Alder",
               "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Ash + spalted maple",
+              "value_es": "Fresno + arce spalted"
             }
           ]
         },
@@ -53763,6 +54063,34 @@
             {
               "value": "Roasted hard maple C-shape, 20 frets",
               "value_es": "Arce duro tostado forma C, 20 trastes"
+            },
+            {
+              "value": "Maple, 20 frets",
+              "value_es": "Arce, 20 trastes"
+            },
+            {
+              "value": "Maple, 20 frets",
+              "value_es": "Arce, 20 trastes"
+            },
+            {
+              "value": "Deep C, 20 frets",
+              "value_es": "Deep C, 20 trastes"
+            },
+            {
+              "value": "Deep C, 20 frets",
+              "value_es": "Deep C, 20 trastes"
+            },
+            {
+              "value": "Quartersawn maple, Modern D, 21",
+              "value_es": "Arce cuartos, Modern D, 21"
+            },
+            {
+              "value": "Roasted maple, C shape",
+              "value_es": "Arce tostado, forma C"
+            },
+            {
+              "value": "Maple/jatoba, thin U",
+              "value_es": "Arce/jatoba, U fina"
             }
           ]
         },
@@ -53793,6 +54121,34 @@
             {
               "value": "20, rosewood w/ rolled edges",
               "value_es": "20, palo rosa con bordes redondeados"
+            },
+            {
+              "value": "20, maple",
+              "value_es": "20, arce"
+            },
+            {
+              "value": "20, maple",
+              "value_es": "20, arce"
+            },
+            {
+              "value": "20, maple",
+              "value_es": "20, arce"
+            },
+            {
+              "value": "20, maple",
+              "value_es": "20, arce"
+            },
+            {
+              "value": "21, ebony or maple",
+              "value_es": "21, ébano o arce"
+            },
+            {
+              "value": "20, roasted maple",
+              "value_es": "20, arce tostado"
+            },
+            {
+              "value": "24, jatoba",
+              "value_es": "24, jatoba"
             }
           ]
         },
@@ -53823,6 +54179,34 @@
             {
               "value": "2x Marcus Vintage-J Revolution",
               "value_es": "2x Marcus Vintage-J Revolution"
+            },
+            {
+              "value": "Player split coil P",
+              "value_es": "Split coil P Player"
+            },
+            {
+              "value": "2x Player Alnico 5 J",
+              "value_es": "2x Player Alnico 5 J"
+            },
+            {
+              "value": "V-Mod II split coil",
+              "value_es": "Split coil V-Mod II"
+            },
+            {
+              "value": "2x V-Mod II J single coils",
+              "value_es": "2x singles V-Mod II J"
+            },
+            {
+              "value": "Ultra II Noiseless P + J",
+              "value_es": "Ultra II Noiseless P + J"
+            },
+            {
+              "value": "Marcus Vintage-J set",
+              "value_es": "Set Marcus Vintage-J"
+            },
+            {
+              "value": "ESP SB-4 + ABQ-3 EQ",
+              "value_es": "ESP SB-4 + EQ ABQ-3"
             }
           ]
         },
@@ -53853,6 +54237,34 @@
             {
               "value": "Passive",
               "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Active (S-1)",
+              "value_es": "Activo (S-1)"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasivo"
+            },
+            {
+              "value": "Active",
+              "value_es": "Activo"
             }
           ]
         },
@@ -53860,6 +54272,34 @@
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "values": [
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34\" (864 mm)"
+            },
             {
               "value": "34 in (864 mm)",
               "value_es": "34\" (864 mm)"
@@ -53913,6 +54353,34 @@
             {
               "value": "2x volume, master tone",
               "value_es": "2x volumen, tono maestro"
+            },
+            {
+              "value": "Volume, tone",
+              "value_es": "Volumen, tono"
+            },
+            {
+              "value": "2x volume, tone",
+              "value_es": "2x volumen, tono"
+            },
+            {
+              "value": "Volume, tone (Greasebucket)",
+              "value_es": "Volumen, tono (Greasebucket)"
+            },
+            {
+              "value": "2x volume, tone",
+              "value_es": "2x volumen, tono"
+            },
+            {
+              "value": "Vol, tone, 3-band active EQ",
+              "value_es": "Vol, tono, EQ activa 3 bandas"
+            },
+            {
+              "value": "2x vol, master tone",
+              "value_es": "2x vol, tono master"
+            },
+            {
+              "value": "Vol, balance, 3-band EQ",
+              "value_es": "Vol, balance, EQ 3 bandas"
             }
           ]
         },
@@ -53943,6 +54411,34 @@
             {
               "value": "Open-gear",
               "value_es": "Abiertos"
+            },
+            {
+              "value": "Fender",
+              "value_es": "Fender"
+            },
+            {
+              "value": "Fender",
+              "value_es": "Fender"
+            },
+            {
+              "value": "Fender",
+              "value_es": "Fender"
+            },
+            {
+              "value": "Fender",
+              "value_es": "Fender"
+            },
+            {
+              "value": "Deluxe fluted",
+              "value_es": "Deluxe estriadas"
+            },
+            {
+              "value": "Premium open-gear",
+              "value_es": "Premium abiertas"
+            },
+            {
+              "value": "Sealed die-cast",
+              "value_es": "Selladas fundidas"
             }
           ]
         },
@@ -53973,6 +54469,34 @@
             {
               "value": "—",
               "value_es": "—"
+            },
+            {
+              "value": "8.3 lb (3.8 kg)",
+              "value_es": "3,8 kg"
+            },
+            {
+              "value": "8.2 lb (3.7 kg)",
+              "value_es": "3,7 kg"
+            },
+            {
+              "value": "8.4 lb (3.8 kg)",
+              "value_es": "3,8 kg"
+            },
+            {
+              "value": "8.3 lb (3.8 kg)",
+              "value_es": "3,8 kg"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             }
           ]
         }
@@ -54143,6 +54667,202 @@
           "Sin preamplificador activo ni controles de EQ",
           "Las pastillas single coil pueden captar zumbido a alta ganancia",
           "El tono pasivo requerirá EQ del amplificador para moldear el sonido"
+        ]
+      },
+      {
+        "name": "Fender Player II Precision Bass",
+        "name_es": "Fender Player Precision Bajo",
+        "pros": [
+          "Legendary split-coil P tone that sits perfectly in any mix",
+          "Thick, mid-forward punch for rock, punk, Motown, and country",
+          "C-shape neck profile with a familiar rounded grip suits driving grooves and fingerstyle playing",
+          " it delivers iconic Fender tone at a working-player price"
+        ],
+        "pros_es": [
+          "Legendario tono P de split-coil que se asienta perfectamente en cualquier mezcla",
+          "Golpe grueso y presente en medios para rock, punk, Motown y country",
+          "Perfil de mástil en C con agarre redondeado y familiar para grooves con fuerza y fingerstyle",
+          "A ofrece el tono icónico Fender a precio de músico trabajador"
+        ],
+        "cons": [
+          "Single-pickup design limits tonal variety vs a J-Bass",
+          "The wider 1.625-inch nut may feel bulky for small hands",
+          "No active electronics or noise-canceling circuit",
+          "The American Pro II adds a sculpted heel and V-Mod II punch"
+        ],
+        "cons_es": [
+          "El diseño de una sola pastilla limita la variedad tonal frente a un J-Bass",
+          "La cejilla más ancha de 1.625 pulgadas puede sentirse voluminosa para manos pequeñas",
+          "Sin electrónica activa ni circuito antirruido",
+          "El American Pro II añade talón esculpido y punch V-Mod II"
+        ]
+      },
+      {
+        "name": "Fender Player II Jazz Bass",
+        "name_es": "Fender Player Jazz Bajo",
+        "pros": [
+          "Dual single-coils blend from warm neck to aggressive bridge tones",
+          "Slim 1.5-inch tapered neck makes fast runs and slap easy",
+          "Articulate midrange cuts through horns and percussion",
+          " it is the most versatile Fender bass at a fair price"
+        ],
+        "pros_es": [
+          "Dos single-coils que mezclan desde tonos cálidos de mástil hasta mordiente de puente",
+          "El mástil cónico de 1.5 pulgadas hace fáciles los runs rápidos y el slap",
+          "El medio articulado corta a través de vientos y percusión",
+          "Es el Fender más versátil a un precio justo"
+        ],
+        "cons": [
+          "Single-coils can hum in high-noise environments",
+          "Passive electronics lack the punch of active preamps",
+          "Some players prefer the chunkier P-Bass neck feel",
+          "The American Pro II adds rolled edges and V-Mod II refinement"
+        ],
+        "cons_es": [
+          "Las single-coils pueden zumbar en entornos con mucho ruido",
+          "La electrónica pasiva no tiene el golpe de los preamps activos",
+          "Algunos músicos prefieren la sensación más robusta del mástil P-Bass",
+          "El American Pro II añade bordes redondeados y refinamiento V-Mod II"
+        ]
+      },
+      {
+        "name": "Fender American Professional II Precision Bass",
+        "name_es": "Fender American Professional II Precision Bajo",
+        "pros": [
+          "V-Mod II split-coil delivers richer harmonics and more punch",
+          "Rounded body contours and rolled fingerboard edges for all-day comfort",
+          "Treble bleed circuit keeps clarity when rolling back volume",
+          "Premium USA fit and finish for working professionals"
+        ],
+        "pros_es": [
+          "El split-coil V-Mod II ofrece armónicos más ricos y más punch",
+          "Contornos redondeados y bordes de diapasón pulidos para comodidad todo el día",
+          "El circuito treble bleed mantiene la claridad al bajar el volumen",
+          "Acabado y construcción USA premium para profesionales en activo"
+        ],
+        "cons": [
+          " it is roughly double the Player series",
+          "The single split-coil voice still lacks J-Bass versatility",
+          "No active EQ for tone shaping on stage",
+          "For a first bass, the Player P delivers 80% at half the price"
+        ],
+        "cons_es": [
+          "Cuesta aproximadamente el doble que la serie Player",
+          "La voz de split-coil único sigue sin la versatilidad de un J-Bass",
+          "Sin EQ activo para moldear el tono en directo",
+          "Para un primer bajo, el Player P rinde un 80% a la mitad de precio"
+        ]
+      },
+      {
+        "name": "Fender American Professional II Jazz Bass",
+        "name_es": "Fender American Professional II Jazz Bajo",
+        "pros": [
+          "V-Mod II single-coils deliver the richest, most expressive J tone ever",
+          "Slim-taper neck with rolled edges makes tumbaos and solos fluid",
+          "Treble bleed maintains sparkling highs when rolling back volume",
+          "Posiflex graphite rods keep the neck stable on tour"
+        ],
+        "pros_es": [
+          "Las single-coils V-Mod II ofrecen el tono J más rico y expresivo jamás creado",
+          "El mástil slim-taper con bordes pulidos hace fáciles los tumbaos y solos",
+          "El treble bleed mantiene agudos brillantes al bajar el volumen",
+          "Las varillas Posiflex de grafito mantienen el mástil estable en gira"
+        ],
+        "cons": [
+          "The price is a premium over the Player Jazz Bass",
+          "Single-coil design still picks up hum in noisy rooms",
+          "No active electronics for modern high-output tones",
+          "It is a genre specialist, not a one-bass-does-all pick"
+        ],
+        "cons_es": [
+          "Los Son un precio premium sobre el Player Jazz Bass",
+          "El diseño single-coil sigue captando zumbido en salas ruidosas",
+          "Sin electrónica activa para tonos modernos de alta salida",
+          "Es un especialista por género, no un bajo que lo haga todo"
+        ]
+      },
+      {
+        "name": "Fender American Ultra II Precision Bass",
+        "name_es": "Fender American Ultra II Precision Bass",
+        "pros": [
+          "Ultra II Noiseless P plus J with zero hum",
+          "Active preamp with S-1 switching and 3-band EQ",
+          "Modern D quartersawn neck with compound radius",
+          "HiMass bridge with sculpted-heel access"
+        ],
+        "cons": [
+          "Flagship price far above beginner budgets",
+          "Active preamp needs battery management",
+          "Modern voice divides vintage purists",
+          "Overkill weight and features for learning"
+        ],
+        "pros_es": [
+          "Ultra II Noiseless P más J sin ruido",
+          "Previo activo conmutación S-1 y EQ 3 bandas",
+          "Mástil Modern D de cuartos con radio compuesto",
+          "Puente HiMass con acceso al talón"
+        ],
+        "cons_es": [
+          "Precio insignia muy por encima de principiante",
+          "El previo activo pide gestionar batería",
+          "La voz moderna divide a puristas vintage",
+          "Peso y funciones excesivos para aprender"
+        ]
+      },
+      {
+        "name": "Sire Marcus Miller V5 4-String Bass",
+        "name_es": "Sire Marcus Miller V5 4-String Bass",
+        "pros": [
+          "North American alder with Marcus Vintage-J pickups",
+          "Roasted maple neck with rolled edges, stable and fast",
+          "True passive V/V/T wiring with organic dynamics",
+          "Premium open-gear tuners and bone nut"
+        ],
+        "cons": [
+          "Passive only — no active EQ onboard",
+          "Vintage tint and blocks divide modern tastes",
+          "Heavier than headless or short-scale rivals",
+          "Finish options cost extra on some colors"
+        ],
+        "pros_es": [
+          "Aliso norteamericano con pastillas Marcus Vintage-J",
+          "Mástil de arce tostado con bordes matados, rápido",
+          "Cableado pasivo V/V/T real con dinámica orgánica",
+          "Clavijas premium abiertas y cejuela de hueso"
+        ],
+        "cons_es": [
+          "Solo pasivo — sin EQ activa a bordo",
+          "El tinte vintage y bloques dividen gustos",
+          "Más pesado que rivales headless o cortos",
+          "Algunas opciones de color cuestan extra"
+        ]
+      },
+      {
+        "name": "ESP LTD B-204SM Bass Guitar",
+        "name_es": "ESP LTD B-204SM Bass Guitar",
+        "pros": [
+          "Ash plus spalted maple top that looks custom-shop",
+          "Thin U 5-piece neck with 24 XJ frets for shredders",
+          "SB-4 pickups with ABQ-3 3-band active EQ",
+          "String-through BB-604 bridge adds sustain"
+        ],
+        "cons": [
+          "Spalted top varies wildly piece to piece",
+          "Active EQ needs battery discipline",
+          "Metal-oriented voice less versátil for vintage gigs",
+          "Black nickel hardware shows wear"
+        ],
+        "pros_es": [
+          "Fresno más tapa spalted que parece custom",
+          "Mástil U fino de 5 piezas con 24 trastes XJ",
+          "Pastillas SB-4 con EQ activa ABQ-3 de 3 bandas",
+          "Puente BB-604 string-through que suma sustain"
+        ],
+        "cons_es": [
+          "La tapa spalted varía mucho pieza a pieza",
+          "La EQ activa pide disciplina de batería",
+          "Voz metalera menos versátil para bolos vintage",
+          "El hardware negro muestra desgaste"
         ]
       }
     ],
