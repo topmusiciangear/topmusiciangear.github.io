@@ -67197,6 +67197,26 @@
         {
           "title": "Elgato Stream Deck + XL",
           "title_es": "Elgato Stream Deck + XL"
+        },
+        {
+          "title": "Elgato Stream Deck MK.2",
+          "title_es": "Elgato Stream Deck MK.2"
+        },
+        {
+          "title": "Razer Stream Controller X",
+          "title_es": "Razer Stream Controller X"
+        },
+        {
+          "title": "BEACN Mix",
+          "title_es": "BEACN Mix"
+        },
+        {
+          "title": "Loupeedeck Live S",
+          "title_es": "Loupeedeck Live S"
+        },
+        {
+          "title": "Tascam Stream Controller",
+          "title_es": "Tascam Stream Controller"
         }
       ],
       "rows": [
@@ -67223,6 +67243,26 @@
             {
               "value": "Big productions with many scenes & tools",
               "value_es": "Producciones grandes con muchas escenas y herramientas"
+            },
+            {
+              "value": "Entry Stream Deck, 15 keys",
+              "value_es": "Stream Deck entrada, 15 teclas"
+            },
+            {
+              "value": "Budget 15-key controller",
+              "value_es": "Controlador 15 teclas presupuesto"
+            },
+            {
+              "value": "Audio-focused, 4 faders + knobs",
+              "value_es": "Enfoque audio, 4 faders + perillas"
+            },
+            {
+              "value": "Creative workflow, touch + dials",
+              "value_es": "Flujo creativo, touch + diales"
+            },
+            {
+              "value": "Broadcast-style, motorized faders",
+              "value_es": "Estilo broadcast, faders motorizados"
             }
           ]
         },
@@ -67249,6 +67289,26 @@
             {
               "value": "Controller with 36 LCD keys, dials & touch strip",
               "value_es": "Controlador con 36 teclas LCD, diales y tira táctil"
+            },
+            {
+              "value": "15 LCD keys",
+              "value_es": "15 teclas LCD"
+            },
+            {
+              "value": "15 LCD keys",
+              "value_es": "15 teclas LCD"
+            },
+            {
+              "value": "4 faders + 8 knobs + 8 keys",
+              "value_es": "4 faders + 8 perillas + 8 teclas"
+            },
+            {
+              "value": "Touchscreen + 6 dials + 8 keys",
+              "value_es": "Pantalla táctil + 6 diales + 8 teclas"
+            },
+            {
+              "value": "5 motorized faders + 10 keys",
+              "value_es": "5 faders motorizados + 10 teclas"
             }
           ]
         },
@@ -67275,6 +67335,26 @@
             {
               "value": "None (software control only)",
               "value_es": "Ninguna (solo control de software)"
+            },
+            {
+              "value": "N/A (no audio interface)",
+              "value_es": "N/A (sin interfaz audio)"
+            },
+            {
+              "value": "N/A (no audio interface)",
+              "value_es": "N/A (sin interfaz audio)"
+            },
+            {
+              "value": "Analog preamp control (0-60 dB)",
+              "value_es": "Control preamp analógico (0-60 dB)"
+            },
+            {
+              "value": "Software-controlled",
+              "value_es": "Controlado por software"
+            },
+            {
+              "value": "Software-controlled",
+              "value_es": "Controlado por software"
             }
           ]
         },
@@ -67301,6 +67381,126 @@
             {
               "value": "No",
               "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            }
+          ]
+        },
+        {
+          "label": "Keys / Controls",
+          "values": [
+            {
+              "value": "15 LCD keys",
+              "value_es": "15 teclas LCD"
+            },
+            {
+              "value": "15 LCD keys",
+              "value_es": "15 teclas LCD"
+            },
+            {
+              "value": "4 faders, 8 knobs, 8 keys",
+              "value_es": "4 faders, 8 perillas, 8 teclas"
+            },
+            {
+              "value": "Touchscreen, 6 dials, 8 keys",
+              "value_es": "Táctil, 6 diales, 8 teclas"
+            },
+            {
+              "value": "5 motorized faders, 10 keys",
+              "value_es": "5 faders motorizados, 10 teclas"
+            }
+          ]
+        },
+        {
+          "label": "Connectivity",
+          "values": [
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            }
+          ]
+        },
+        {
+          "label": "Software",
+          "values": [
+            {
+              "value": "Stream Deck App",
+              "value_es": "Stream Deck App"
+            },
+            {
+              "value": "Razer Synapse",
+              "value_es": "Razer Synapse"
+            },
+            {
+              "value": "BEACN App",
+              "value_es": "BEACN App"
+            },
+            {
+              "value": "Loupeedeck Software",
+              "value_es": "Loupeedeck Software"
+            },
+            {
+              "value": "Tascam Stream Controller App",
+              "value_es": "Tascam Stream Controller App"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
             }
           ]
         }
@@ -67311,144 +67511,236 @@
         "name": "Elgato Stream Deck+",
         "name_es": "Elgato Stream Deck+",
         "pros": [
-          "Best-selling streaming controller — #1 Best Seller in DAW controllers",
-          "8 LCD keys, 4 haptic dials and a 108x14mm touch strip",
-          "The Wave Link plugin puts your whole audio mix at your fingertips",
-          "Hundreds of plugins for OBS, Twitch, Spotify, Discord and smart home"
-        ],
-        "pros_es": [
-          "El controlador de streaming más vendido — #1 Best Seller en controladores DAW",
-          "8 teclas LCD, 4 diales hápticos y una tira táctil de 108x14mm",
-          "El plugin Wave Link pone toda tu mezcla de audio al alcance de la mano",
-          "Cientos de plugins para OBS, Twitch, Spotify, Discord y domótica"
+          "Tactile dial + touchstrip add analog feel",
+          "Iconic Stream Deck ecosystem/plugins",
+          "Infinitely customizable per app",
+          "Solid build quality"
         ],
         "cons": [
-          "Not a mixer — it controls software but does not process audio",
-          "Needs the Elgato ecosystem (Wave Link) for full audio control",
-          "No built-in XLR input or mic preamp",
-          "The 8 keys feel cramped for macros that need page-switching to reach all your actions"
+          "No audio interface built in",
+          "Pricey for 8 keys + dial",
+          "Software Windows/Mac only"
+        ],
+        "pros_es": [
+          "Dial táctil + touchstrip añaden tacto analógico",
+          "Ecosistema/iconico Stream Deck plugins",
+          "Infinitamente personalizable por app",
+          "Calidad construcción sólida"
         ],
         "cons_es": [
-          "No es un mezclador — controla software pero no procesa audio",
-          "Requiere el ecosistema Elgato (Wave Link) para control total del audio",
-          "Sin entrada XLR integrada ni previo de micrófono",
-          "Las 8 teclas se quedan cortas para macros que necesitan cambiar de página para llegar a todas tus acciones"
+          "Sin interfaz de audio integrada",
+          "Caro para 8 teclas + dial",
+          "Software solo Windows/Mac"
         ]
       },
       {
         "name": "Rode Streamer X",
         "name_es": "Rode Streamer X",
         "pros": [
-          "Replaces an audio interface, 4K capture card and stream deck in one box",
-          "76dB Revolution preamp drives the SM7B and RE20 with no Cloudlifter",
-          "Onboard APHEX processing adds polish with zero added latency",
-          "4 SMART pads trigger sounds, voice FX and MIDI commands"
-        ],
-        "pros_es": [
-          "Sustituye a una interfaz de audio, tarjeta de captura 4K y stream deck en una sola caja",
-          "El previo Revolution de 76dB mueve el SM7B y el RE20 sin Cloudlifter",
-          "El procesamiento APHEX integrado añade pulido sin latencia añadida",
-          "4 pads SMART disparan sonidos, efectos de voz y comandos MIDI"
+          "All-in-one: capture card + audio interface + controller",
+          "4K30/1080p60 capture, XLR preamp",
+          "Smart pads for scenes/samples",
+          "Great value for streamers"
         ],
         "cons": [
-          "The software can be unstable upon reboots and requires precise power-cycling",
-          "Generic or weak USB-C cables cause black-screen capture drops",
-          "No power switch — the unit stays warm 24/7 and needs a cable pull to restart",
-          "Single XLR combo input — a two-mic podcast needs a second interface"
+          "Large footprint",
+          "Rode Central software Windows/Mac only",
+          "Only 4 smart pads"
+        ],
+        "pros_es": [
+          "Todo-en-uno: capture + interfaz audio + controlador",
+          "Captura 4K30/1080p60, preamp XLR",
+          "Smart pads para escenas/samples",
+          "Gran valor para streamers"
         ],
         "cons_es": [
-          "El software puede volverse inestable al reiniciar y requiere ciclos de encendido precisos",
-          "Los cables USB-C genéricos o débiles causan caídas de captura con pantalla negra",
-          "Sin botón de apagado — la unidad se mantiene caliente 24/7 y hay que tirar del cable para reiniciar",
-          "Una sola entrada combo XLR — un podcast a dos micros necesita una segunda interfaz"
+          "Huella grande",
+          "Rode Central solo Windows/Mac",
+          "Solo 4 smart pads"
         ]
       },
       {
         "name": "BEACN Mix Create",
         "name_es": "BEACN Mix Create",
         "pros": [
-          "From the same team that built the GoXLR",
-          "Separate Personal and Audience mixes with an unlink button",
-          "Unlimited channels via knob paging — four knobs control every app",
-          "Dedicated VOD track routes DMCA-safe archives automatically",
-          "Simple routing-table grid replaces virtual-cable setup"
-        ],
-        "pros_es": [
-          "Del mismo equipo que construyó el GoXLR",
-          "Mezclas Personal y de Audiencia separadas con botón de desvinculación",
-          "Canales ilimitados con paginado de perillas — cuatro perillas controlan cada app",
-          "La pista VOD dedicada enruta archivos seguros ante DMCA automáticamente",
-          "La rejilla de enrutamiento sustituye a la configuración de cables virtuales"
+          "Dedicated audio mixer: 4 faders + submix",
+          "Submix per app (game/chat/music)",
+          "Physical knobs for quick adjustments",
+          "Great for dual-PC setups"
         ],
         "cons": [
-          "No XLR input — you still need an interface for a professional mic",
-          "Fully dependent on the BEACN app, which can be finicky after updates",
-          "All-plastic build feels less premium than the price suggests",
-          "Four knobs page through unlimited channels, but there is no visual label on each knob for fast reads"
+          "No video capture",
+          "No LCD keys for scenes",
+          "BEACN App learning curve",
+          "Requires PC (no standalone)"
+        ],
+        "pros_es": [
+          "Mezclador audio dedicado: 4 faders + submix",
+          "Submix por app (juego/chat/música)",
+          "Perillas físicas ajustes rápidos",
+          "Genial para setups dual-PC"
         ],
         "cons_es": [
-          "Sin entrada XLR — todavínecesitas una interfaz para un micrófono profesional",
-          "Depende por completo de la app BEACN, que puede volverse inestable tras las actualizaciones",
-          "El cuerpo de plástico se siente menos premium de lo que sugiere el precio",
-          "Cuatro perillas pasan por canales ilimitados, pero no hay etiqueta visual en cada perilla para leer rápido"
+          "Sin captura video",
+          "Sin teclas LCD para escenas",
+          "Curva aprendizaje BEACN App",
+          "Requiere PC (no standalone)"
         ]
       },
       {
         "name": "Elgato Wave XLR MK.2",
         "name_es": "Elgato Wave XLR MK.2",
         "pros": [
-          "80dB of ultra-low-noise gain — no booster needed for the SM7B",
-          "Wave FX Processor runs 5 onboard DSP effects with zero-latency monitoring",
-          "Clipguard 2.0 delivers 135dB of dynamic range so you never clip",
-          "Compact and integrates with Wave Link and Stream Deck"
-        ],
-        "pros_es": [
-          "80dB de ganancia ultrabaja en ruido — sin booster necesario para el SM7B",
-          "El Wave FX Processor ejecuta 5 efectos DSP integrados con monitorización de latencia cero",
-          "Clipguard 2.0 ofrece 135dB de rango dinámico para no distorsionar nunca",
-          "Compacto y se integra con Wave Link y Stream Deck"
+          "XLR preamp with 75 dB gain",
+          "Clipguard prevents digital clipping",
+          "Works with Stream Deck ecosystem",
+          "Compact desktop form"
         ],
         "cons": [
-          "Not a controller — you still need a Stream Deck or software for scenes",
-          "Single XLR input only, no line or instrument input",
-          "Needs Wave Link software to unlock the full DSP feature set",
-          "No MIDI control — scenes and mutes must be triggered from Wave Link or a Stream Deck"
+          "Single channel only",
+          "No physical faders",
+          "Elgato Wave Link software required"
+        ],
+        "pros_es": [
+          "Preamp XLR con 75 dB ganancia",
+          "Clipguard evita clipping digital",
+          "Funciona con ecosistema Stream Deck",
+          "Formato escritorio compacto"
         ],
         "cons_es": [
-          "No es un controlador — aún necesitas un Stream Deck o software para las escenas",
-          "Solo una entrada XLR, sin entrada de línea ni de instrumento",
-          "Requiere el software Wave Link para aprovechar todas las funciones DSP",
-          "Sin control MIDI — las escenas y los silencios deben dispararse desde Wave Link o un Stream Deck"
+          "Solo un canal",
+          "Sin faders físicos",
+          "Requiere Elgato Wave Link software"
         ]
       },
       {
-        "name": "Elgato Stream Deck + XL",
-        "name_es": "Elgato Stream Deck + XL",
+        "name": "Elgato Stream Deck MK.2",
+        "name_es": "Elgato Stream Deck MK.2",
         "pros": [
-          "36 LCD keys put your whole production on one page",
-          "Six tactile dials mix audio and mutes with a push",
-          "Touch strip adds a scrubber-style control surface",
-          "Same deep plugin ecosystem as every other Stream Deck",
-          "Adjustable magnetic stand tilts to a comfortable angle and locks without tools"
-        ],
-        "pros_es": [
-          "36 teclas LCD ponen toda tu producción en una sola página",
-          "Seis diales táctiles mezclan audio y silencian con una pulsación",
-          "La tira táctil añade una superficie de control tipo scrubber",
-          "El mismo ecosistema profundo de plugins que cualquier Stream Deck",
-          "El soporte magnético ajustable se inclina a un ángulo cómodo y se fija sin herramientas"
+          "Classic 15 keys, infinite pages",
+          "Massive plugin ecosystem",
+          "USB-C, detachable stand",
+          "Most supported by streaming tools"
         ],
         "cons": [
-          "It is a lot if you won't actually use 36 keys",
-          "Controls software — it does not mix audio or process your mic",
-          "Takes up real desk space compared to smaller decks",
-          "Three rows of keys make lower-row macros harder to reach during a live stream"
+          "No dial/touchstrip",
+          "No audio interface",
+          "Keys can feel mushy"
+        ],
+        "pros_es": [
+          "15 teclas clásicas, páginas infinitas",
+          "Ecosistema plugins masivo",
+          "USB-C, soporte desmontable",
+          "Más soportado por herramientas streaming"
         ],
         "cons_es": [
-          "Es mucho si no vas a usar realmente las 36 teclas",
-          "Controla software — no mezcla audio ni procesa tu micrófono",
-          "Ocupa más espacio en el escritorio que los decks pequeños",
-          "Tres filas de teclas hacen que las macros de la fila inferior sean más difíciles de alcanzar en directo"
+          "Sin dial/touchstrip",
+          "Sin interfaz audio",
+          "Teclas pueden sentirse blandas"
+        ]
+      },
+      {
+        "name": "Razer Stream Controller X",
+        "name_es": "Razer Stream Controller X",
+        "pros": [
+          "15 LCD keys at lower price",
+          "Razer Synapse integration",
+          "Haptic feedback on keys",
+          "Compact"
+        ],
+        "cons": [
+          "Synapse software required",
+          "Fewer plugins than Stream Deck",
+          "Build quality feels cheaper"
+        ],
+        "pros_es": [
+          "15 teclas LCD precio menor",
+          "Integración Razer Synapse",
+          "Feedback háptico teclas",
+          "Compacto"
+        ],
+        "cons_es": [
+          "Requiere Synapse",
+          "Menos plugins que Stream Deck",
+          "Calidad construcción se siente más barata"
+        ]
+      },
+      {
+        "name": "BEACN Mix",
+        "name_es": "BEACN Mix",
+        "pros": [
+          "Simplified Mix Create: 4 faders, 8 knobs",
+          "Same submix power, lower price",
+          "Great for single-PC streamers",
+          "Compact"
+        ],
+        "cons": [
+          "No LCD keys",
+          "No audio interface (separate)",
+          "App required for setup"
+        ],
+        "pros_es": [
+          "Mix Create simplificado: 4 faders, 8 perillas",
+          "Mismo poder submix, menor precio",
+          "Genial streamers single-PC",
+          "Compacto"
+        ],
+        "cons_es": [
+          "Sin teclas LCD",
+          "Sin interfaz audio (separada)",
+          "App requerida para setup"
+        ]
+      },
+      {
+        "name": "Loupeedeck Live S",
+        "name_es": "Loupeedeck Live S",
+        "pros": [
+          "Touchscreen + dials = tactile + visual",
+          "Deep DAW/creative app integration",
+          "Custom workspaces per app",
+          "Great for editors/streamers"
+        ],
+        "cons": [
+          "Premium price",
+          "Steeper learning curve",
+          "Software can be resource heavy"
+        ],
+        "pros_es": [
+          "Táctil + diales = táctil + visual",
+          "Integración profunda DAW/apps creativas",
+          "Workspaces personalizados por app",
+          "Genial editores/streamers"
+        ],
+        "cons_es": [
+          "Precio premium",
+          "Curva aprendizaje pronunciada",
+          "Software puede ser pesado recursos"
+        ]
+      },
+      {
+        "name": "Tascam Stream Controller",
+        "name_es": "Tascam Stream Controller",
+        "pros": [
+          "Motorized faders = pro broadcast feel",
+          "5 faders + 10 keys + 8 knobs",
+          "Tascam audio heritage",
+          "Standalone operation possible"
+        ],
+        "cons": [
+          "Highest price",
+          "Large desktop footprint",
+          "Software less mature than Elgato"
+        ],
+        "pros_es": [
+          "Faders motorizados = sensación broadcast pro",
+          "5 faders + 10 teclas + 8 perillas",
+          "Herencia audio Tascam",
+          "Operación standalone posible"
+        ],
+        "cons_es": [
+          "Precio más alto",
+          "Huella escritorio grande",
+          "Software menos maduro que Elgato"
         ]
       }
     ],
