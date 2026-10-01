@@ -4607,7 +4607,8 @@ const TEST_SHOP_BTN = {
   517: {
     prices: {
       gear4music: "£135.50",
-      amazon: "$159.00"
+      amazon: "$159.00",
+      musicstore: "€145.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--AUDAT2040USB"

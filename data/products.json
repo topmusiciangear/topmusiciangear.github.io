@@ -10476,11 +10476,11 @@
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudio-Technica-AT2040USB-Dynamic-Microphone%2F5NDI",
       "amazon": "https://www.amazon.com/Audio-Technica-AT2040USB-Dynamic-Microphone-Black/dp/B0C2G4PGYS",
-      "zzounds": "https://www.zzounds.com/item--AUDAT2040USB"
+      "zzounds": "https://www.zzounds.com/item--AUDAT2040USB",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAudio-Technica-AT2040-USB%2Fart-REC0016401-000"
     },
     "excludeStores": [
-      "andertons",
-      "musicstore"
+      "andertons"
     ]
   },
   {
