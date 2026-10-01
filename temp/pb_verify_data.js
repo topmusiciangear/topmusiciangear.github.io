@@ -188,9 +188,12 @@ const APPROVED_NON_PB = {
     'urls.musicstore': ['https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Mikrofonstativ%2Fart-PAH0015387-000', 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Microphone-Stand-Chrome-%2Fart-ACC0000029-002']
   },
   // 517 actualizado (sesion en curso).,
+  // 517 actualizado (sesion en curso).,
   // 517 actualizado (sesion en curso).
   '517': {
-    'prices.zzounds': [undefined, '$159.00']
+    'prices.andertons': [undefined, '£129.00'],
+    'urls.andertons': [undefined, 'https://www.andertons.co.uk/audio-technica-at2040-usb-microphone/'],
+    'excludeStores': ['andertons', undefined]
   },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
