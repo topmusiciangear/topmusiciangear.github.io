@@ -27862,6 +27862,26 @@
         {
           "title": "Roland TR-8S",
           "title_es": "Roland TR-8S"
+        },
+        {
+          "title": "Arturia DrumBrute Impact",
+          "title_es": "Arturia DrumBrute Impact"
+        },
+        {
+          "title": "Korg Volca Beats",
+          "title_es": "Korg Volca Beats"
+        },
+        {
+          "title": "Behringer RD-8",
+          "title_es": "Behringer RD-8"
+        },
+        {
+          "title": "Elektron Analog Rytm MKII",
+          "title_es": "Elektron Analog Rytm MKII"
+        },
+        {
+          "title": "Polyend Tracker",
+          "title_es": "Polyend Tracker"
         }
       ],
       "rows": [
@@ -27880,6 +27900,26 @@
             {
               "value": "Iconic Roland sounds and live performance",
               "value_es": "Sonidos Roland icónicos y directo"
+            },
+            {
+              "value": "Analog drum machine, performance",
+              "value_es": "Máquina bateria analógica, directo"
+            },
+            {
+              "value": "Budget analog kick/snare/hats",
+              "value_es": "Kick/snare/hats analógico presupuesto"
+            },
+            {
+              "value": "808 clone, authentic Roland sound",
+              "value_es": "Clon 808, sonido Roland auténtico"
+            },
+            {
+              "value": "High-end analog + sampling hybrid",
+              "value_es": "Híbrido analógico + sampling alta gama"
+            },
+            {
+              "value": "Tracker workflow, sampling, performance",
+              "value_es": "Flujo tracker, sampling, directo"
             }
           ]
         },
@@ -27898,6 +27938,26 @@
             {
               "value": "Rhythm performer",
               "value_es": "Performer de ritmo"
+            },
+            {
+              "value": "Analog Drum Machine",
+              "value_es": "Máquina Bateria Analógica"
+            },
+            {
+              "value": "Analog Drum Machine",
+              "value_es": "Máquina Bateria Analógica"
+            },
+            {
+              "value": "Analog Drum Machine (808 clone)",
+              "value_es": "Máquina Bateria Analógica (clon 808)"
+            },
+            {
+              "value": "Analog/Digital Hybrid",
+              "value_es": "Híbrido Analógico/Digital"
+            },
+            {
+              "value": "Tracker / Sampler",
+              "value_es": "Tracker / Sampler"
             }
           ]
         },
@@ -27916,6 +27976,26 @@
             {
               "value": "11 instrument parts + trigger out",
               "value_es": "11 partes de instrumento + trigger out"
+            },
+            {
+              "value": "10 tracks (8 synth + 1 sample + 1 FM)",
+              "value_es": "10 pistas (8 synth + 1 sample + 1 FM)"
+            },
+            {
+              "value": "6 analog tracks",
+              "value_es": "6 pistas analógicas"
+            },
+            {
+              "value": "16 tracks (11 analog + 5 sample)",
+              "value_es": "16 pistas (11 analógicas + 5 sample)"
+            },
+            {
+              "value": "12 analog + 8 sample tracks",
+              "value_es": "12 analógicas + 8 sample"
+            },
+            {
+              "value": "8 tracks (sample-based)",
+              "value_es": "8 pistas (basadas en samples)"
             }
           ]
         },
@@ -27934,6 +28014,26 @@
             {
               "value": "ACB (808, 909, 707, 727, 606), FM, samples",
               "value_es": "ACB (808, 909, 707, 727, 606), FM, samples"
+            },
+            {
+              "value": "Analog synthesis + PCM samples",
+              "value_es": "Síntesis analógica + samples PCM"
+            },
+            {
+              "value": "Analog synthesis",
+              "value_es": "Síntesis analógica"
+            },
+            {
+              "value": "Analog (808 circuit replica)",
+              "value_es": "Analógico (réplica circuito 808)"
+            },
+            {
+              "value": "Analog circuits + digital sampling",
+              "value_es": "Circuitos analógicos + sampling digital"
+            },
+            {
+              "value": "Sample playback + synthesis",
+              "value_es": "Reproducción sample + síntesis"
             }
           ]
         },
@@ -27952,6 +28052,26 @@
             {
               "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
               "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
+            },
+            {
+              "value": "64-step, polyrhythms, probability",
+              "value_es": "64 pasos, polirritmos, probabilidad"
+            },
+            {
+              "value": "16-step, motion sequence",
+              "value_es": "16 pasos, motion sequence"
+            },
+            {
+              "value": "64-step, pattern chaining",
+              "value_es": "64 pasos, encadenado patrones"
+            },
+            {
+              "value": "64-step, parameter locks, scenes",
+              "value_es": "64 pasos, parameter locks, escenas"
+            },
+            {
+              "value": "Tracker pattern sequencer",
+              "value_es": "Secuenciador patrón tracker"
             }
           ]
         },
@@ -27970,6 +28090,26 @@
             {
               "value": "SD card (SDHC), ~600 s user samples",
               "value_es": "Tarjeta SD (SDHC), ~600 s de samples"
+            },
+            {
+              "value": "128 MB user samples",
+              "value_es": "128 MB samples usuario"
+            },
+            {
+              "value": "None (synthesis only)",
+              "value_es": "Ninguno (solo síntesis)"
+            },
+            {
+              "value": "7.5 MB samples",
+              "value_es": "7.5 MB samples"
+            },
+            {
+              "value": "1 GB + drive",
+              "value_es": "1 GB + disco"
+            },
+            {
+              "value": "8 GB internal",
+              "value_es": "8 GB interno"
             }
           ]
         },
@@ -27988,6 +28128,26 @@
             {
               "value": "Inst FX, reverb, delay, master FX, sidechain",
               "value_es": "Inst FX, reverb, delay, master FX, sidechain"
+            },
+            {
+              "value": "Distortion, stutter, randomizer",
+              "value_es": "Distorsión, stutter, aleatorizador"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "Compression, distortion",
+              "value_es": "Compresión, distorsión"
+            },
+            {
+              "value": "Drive, compression, delay, reverb",
+              "value_es": "Drive, compresión, delay, reverb"
+            },
+            {
+              "value": "Reverb, delay, chorus, filter",
+              "value_es": "Reverb, delay, chorus, filtro"
             }
           ]
         },
@@ -28006,6 +28166,26 @@
             {
               "value": "6 assignable outs, ext in, MIDI, USB audio",
               "value_es": "6 salidas asignables, ext in, MIDI, USB audio"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, Sync",
+              "value_es": "USB, MIDI I/O, CV/Gate, Sync"
+            },
+            {
+              "value": "USB, MIDI I/O, Sync",
+              "value_es": "USB, MIDI I/O, Sync"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, Sync",
+              "value_es": "USB, MIDI I/O, CV/Gate, Sync"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, ADAT",
+              "value_es": "USB, MIDI I/O, CV/Gate, ADAT"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, SD card",
+              "value_es": "USB, MIDI I/O, CV/Gate, SD card"
             }
           ]
         },
@@ -28024,6 +28204,26 @@
             {
               "value": "AC adaptor",
               "value_es": "Adaptador de corriente"
+            },
+            {
+              "value": "9V DC",
+              "value_es": "9V DC"
+            },
+            {
+              "value": "9V DC / USB",
+              "value_es": "9V DC / USB"
+            },
+            {
+              "value": "9V DC",
+              "value_es": "9V DC"
+            },
+            {
+              "value": "12V DC",
+              "value_es": "12V DC"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
             }
           ]
         },
@@ -28042,6 +28242,26 @@
             {
               "value": "2.1 kg (4 lb 11 oz)",
               "value_es": "2,1 kg (4 lb 11 oz)"
+            },
+            {
+              "value": "2.1 kg",
+              "value_es": "2.1 kg"
+            },
+            {
+              "value": "0.4 kg",
+              "value_es": "0.4 kg"
+            },
+            {
+              "value": "1.8 kg",
+              "value_es": "1.8 kg"
+            },
+            {
+              "value": "2.5 kg",
+              "value_es": "2.5 kg"
+            },
+            {
+              "value": "0.6 kg",
+              "value_es": "0.6 kg"
             }
           ]
         }
@@ -28052,86 +28272,208 @@
         "name": "Roland TR-6S",
         "name_es": "Roland TR-6S",
         "pros": [
-          "Packs the legendary TR-808, TR-909, and TR-707 sounds into a compact, battery-powered unit",
-          "Six tracks of drums and percussion plus FM synthesis",
-          "Hands-on controls with per-instrument level knobs for live mixing",
-          "Perfect for producers who need classic drum machine sounds on the go"
-        ],
-        "pros_es": [
-          "Incluye los legendarios sonidos TR-808, TR-909 y TR-707 en una unidad compacta con batería",
-          "Seis pistas de batería y percusión más síntesis FM",
-          "Controles manuales con perillas de nivel por instrumento para mezcla en vivo",
-          "Perfecto para productores que necesitan sonidos clásicos de máquina de batería sobre la marcha"
+          "6 ACB analog models + samples",
+          "Compact, battery or USB powered",
+          "Probability, sub-step, groove",
+          "Great value for Roland sound"
         ],
         "cons": [
-          "Only six tracks — limited for complex beat arrangements",
-          "No built-in sampling — relies on preset sounds and FM",
-          "Small form factor means tiny knobs that can be hard to adjust live",
-          "Battery life is limited for extended sessions"
+          "Only 6 tracks",
+          "Small screen",
+          "No analog outputs (digital only)"
+        ],
+        "pros_es": [
+          "6 modelos ACB analógicos + samples",
+          "Compacto, bateria o USB",
+          "Probabilidad, sub-paso, groove",
+          "Gran valor por sonido Roland"
         ],
         "cons_es": [
-          "Solo seis pistas — limitado para arreglos de beats complejos",
-          "Sin sampling integrado — depende de sonidos preestablecidos y FM",
-          "El factor de forma pequeño significa perillas diminutas que pueden ser difíciles de ajustar en vivo",
-          "La duración de la batería es limitada para sesiones extendidas"
+          "Solo 6 pistas",
+          "Pantalla pequeña",
+          "Sin salidas analógicas (solo digital)"
         ]
       },
       {
         "name": "Akai MPC One G2",
         "name_es": "Akai MPC One G2",
         "pros": [
-          "Same MPC workflow that created countless hip-hop classics on an 8-core processor",
-          "16 velocity-sensitive pads and the legendary MPC swing quantize",
-          "Fully standalone with 16GB internal storage and built-in synth engines",
-          "7-inch touchscreen and USB-C with 24x24 audio"
-        ],
-        "pros_es": [
-          "El mismo flujo de trabajo MPC que creó innumerables clásicos del hip-hop en un procesador de 8 núcleos",
-          "16 pads sensibles a la velocidad y el legendario swing quantize de MPC",
-          "Totalmente autónomo con 16GB de almacenamiento interno y motores de sintetizador integrados",
-          "Pantalla táctil de 7 pulgadas y USB-C con audio 24x24"
+          "Standalone MPC workflow, no computer needed",
+          "16 GB storage, WiFi, Bluetooth",
+          "Touchscreen, 16 velocity pads",
+          "Plugin synths (Mellotron, etc.)"
         ],
         "cons": [
-          "Pad-and-touchscreen workflow is less immediate than the TR-8S's faders for step sequencing",
-          "Deep editing is faster on a computer than on the built-in screen",
-          "Runs on the included AC adaptor — no battery power for the road",
-          "Loading large kits and sample packs from SD takes time before you can jam"
+          "Single stereo out (no multitrack audio)",
+          "Fan can be audible",
+          "Menu diving for deep edit"
+        ],
+        "pros_es": [
+          "Flujo MPC standalone, sin PC",
+          "16 GB, WiFi, Bluetooth",
+          "Pantalla táctil, 16 pads velocity",
+          "Sintetizadores plugins (Mellotron, etc.)"
         ],
         "cons_es": [
-          "El flujo de pads y pantalla táctil es menos inmediato que los faders del TR-8S para secuenciación por pasos",
-          "La edición profunda es más rápida en una ordenador que en su pantalla integrada",
-          "Funciona con el adaptador AC incluido — sin batería para la carretera",
-          "Cargar kits grandes y packs de samples desde la SD tarda antes de poder tocar"
+          "Solo salida estéreo (sin multitrack audio)",
+          "Ventilador audible",
+          "Menu diving edición profunda"
         ]
       },
       {
         "name": "Roland TR-8S",
         "name_es": "Roland TR-8S",
         "pros": [
-          "ACB modeling delivers authentic 808, 909, 707, 727, and 606 sounds",
-          "Sample playback opens unlimited sound-design options",
-          "Hands-on faders per instrument and real-time step sequencing",
-          "6 assignable outputs, external in, and sidechain for live performance"
-        ],
-        "pros_es": [
-          "El modelado ACB ofrece sonidos auténticos de 808, 909, 707, 727 y 606",
-          "La reproducción de samples abre infinitas opciones de diseño sonoro",
-          "Faders por instrumento y secuenciación por pasos en tiempo real",
-          "6 salidas asignables, entrada externa y sidechain para el directo"
+          "11 ACB models + 400+ samples",
+          "SD card for user samples",
+          "Probability, sub-step, last step",
+          "Stereo outs + 6 assignable outs"
         ],
         "cons": [
-          "It is the priciest machine in this guide",
-          "Rhythm-focused — no built-in keyboard for melodic parts",
-          "SD card sample storage is small versus the MPC One G2's 16GB internal",
-          "The 11 fixed instrument slots cannot be expanded to build larger custom kits",
-          "No battery or built-in speaker — it needs AC power to compose away from the studio"
+          "Complex menu system",
+          "No battery option",
+          "Plastic build"
+        ],
+        "pros_es": [
+          "11 modelos ACB + 400+ samples",
+          "SD card samples usuario",
+          "Probabilidad, sub-paso, last step",
+          "Salidas estéreo + 6 asignables"
         ],
         "cons_es": [
-          "Es la máquina más cara de esta guía",
-          "Centrada en el ritmo — sin teclado integrado para partes melódicas",
-          "El almacenamiento de samples en tarjeta SD es pequeño frente a los 16GB internos del MPC One G2",
-          "Los 11 slots fijos de instrumento no se pueden ampliar para construir kits más grandes",
-          "Sin batería ni altavoz integrado — necesita corriente para componer fuera del estudio"
+          "Sistema menús complejo",
+          "Sin opción bateria",
+          "Construcción plástico"
+        ]
+      },
+      {
+        "name": "Arturia DrumBrute Impact",
+        "name_es": "Arturia DrumBrute Impact",
+        "pros": [
+          "10 analog tracks, distinct character",
+          "Performance-focused: roller, looper, random",
+          "CV/Gate for modular integration",
+          "Great price for analog"
+        ],
+        "cons": [
+          "No sample playback",
+          "Fixed analog voices (no editing)",
+          "No MIDI over USB (only DIN)"
+        ],
+        "pros_es": [
+          "10 pistas analógicas, carácter distinto",
+          "Enfoque directo: roller, looper, random",
+          "CV/Gate integración modular",
+          "Gran precio para analógico"
+        ],
+        "cons_es": [
+          "Sin reproducción samples",
+          "Voces analógicas fijas (sin edición)",
+          "Sin MIDI por USB (solo DIN)"
+        ]
+      },
+      {
+        "name": "Korg Volca Beats",
+        "name_es": "Korg Volca Beats",
+        "pros": [
+          "Authentic analog kick/snare/hats",
+          "Tiny, battery, super portable",
+          "16-step sequencer, motion sequence",
+          "Insanely affordable"
+        ],
+        "cons": [
+          "Only 6 tracks",
+          "No MIDI over USB",
+          "Limited sound palette"
+        ],
+        "pros_es": [
+          "Kick/snare/hats analógico auténtico",
+          "Pequeño, bateria, ultra-portable",
+          "Secuenciador 16 pasos, motion sequence",
+          "Increíblemente asequible"
+        ],
+        "cons_es": [
+          "Solo 6 pistas",
+          "Sin MIDI por USB",
+          "Paleta sonora limitada"
+        ]
+      },
+      {
+        "name": "Behringer RD-8",
+        "name_es": "Behringer RD-8",
+        "pros": [
+          "Faithful 808 circuit replica",
+          "Analog filter, wave designer",
+          "64-step sequencer, pattern chain",
+          "Fraction of vintage 808 price"
+        ],
+        "cons": [
+          "Build quality not Roland-level",
+          "No USB (MIDI DIN only)",
+          "Can be noisy"
+        ],
+        "pros_es": [
+          "Réplica fiel circuito 808",
+          "Filtro analógico, wave designer",
+          "Secuenciador 64 pasos, cadena patrones",
+          "Fracción precio 808 vintage"
+        ],
+        "cons_es": [
+          "Calidad construcción no nivel Roland",
+          "Sin USB (solo MIDI DIN)",
+          "Puede ser ruidoso"
+        ]
+      },
+      {
+        "name": "Elektron Analog Rytm MKII",
+        "name_es": "Elektron Analog Rytm MKII",
+        "pros": [
+          "12 analog + 8 sample tracks = best of both",
+          "Parameter locks, scenes, performance mode",
+          "Overbridge = DAW integration",
+          "Legendary sound quality"
+        ],
+        "cons": [
+          "Very expensive",
+          "Steep learning curve",
+          "Large footprint"
+        ],
+        "pros_es": [
+          "12 analógicas + 8 sample = lo mejor ambos mundos",
+          "Parameter locks, escenas, modo directo",
+          "Overbridge = integración DAW",
+          "Calidad sonido legendaria"
+        ],
+        "cons_es": [
+          "Muy caro",
+          "Curva aprendizaje pronunciada",
+          "Huella grande"
+        ]
+      },
+      {
+        "name": "Polyend Tracker",
+        "name_es": "Polyend Tracker",
+        "pros": [
+          "Tracker workflow = unique creative approach",
+          "8 tracks, sampling, slicing, synthesis",
+          "SD card, USB-C, CV/Gate",
+          "Performance mode, chance operations"
+        ],
+        "cons": [
+          "Vertical screen orientation unusual",
+          "No analog synthesis",
+          "Learning curve if new to trackers"
+        ],
+        "pros_es": [
+          "Flujo tracker = enfoque creativo único",
+          "8 pistas, sampling, slicing, síntesis",
+          "SD card, USB-C, CV/Gate",
+          "Modo directo, operaciones chance"
+        ],
+        "cons_es": [
+          "Orientación pantalla vertical inusual",
+          "Sin síntesis analógica",
+          "Curva aprendizaje si nuevo en trackers"
         ]
       }
     ],
