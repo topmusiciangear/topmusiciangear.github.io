@@ -2261,14 +2261,12 @@ const TEST_SHOP_BTN = {
       amazon: "$499.00",
       andertons: "£449.00",
       gear4music: "£425.00",
-      musicstore: "€485.00"
+      musicstore: "€485.00",
+      zzounds: "$499.00"
     },
     urls: {
-      zzounds: "https://www.zzounds.com/item--TAYGSMINI"
-    },
-    oos: [
-      "zzounds"
-    ]
+      zzounds: "https://www.zzounds.com/item--TAYGSMINISV2"
+    }
   },
   272: {
     prices: {
