@@ -10460,5 +10460,49 @@
     "excludeStores": [
       "zzounds"
     ]
+  },
+  {
+    "id": 517,
+    "title": "Audio-Technica AT2040USB",
+    "title_es": "Audio-Technica AT2040USB",
+    "brand": "Audio-Technica",
+    "category": "microphones",
+    "price": 159,
+    "rating": 4.4,
+    "reviews": 251,
+    "desc": "Dynamic USB microphone with hypercardioid pickup for focused creator voice. 24-bit/96kHz conversion, headphone jack with volume and mix control, silent touch mute, integrated shock mount and pop filter.",
+    "desc_es": "Micrófono dinámico USB con captación hipercardioide para una voz enfocada. Conversión 24 bits/96 kHz, salida de auriculares con volumen y mezcla, silencio táctil, suspensión integrada y antipop.",
+    "img": "https://r2.gear4music.com/media/94/941224/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudio-Technica-AT2040USB-Dynamic-Microphone%2F5NDI",
+      "amazon": "https://www.amazon.com/Audio-Technica-AT2040USB-Dynamic-Microphone-Black/dp/B0C2G4PGYS",
+      "zzounds": "https://www.zzounds.com/item--AUDAT2040USB"
+    },
+    "excludeStores": [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  {
+    "id": 518,
+    "title": "Blue Yeti USB Microphone",
+    "title_es": "Blue Yeti USB Microphone",
+    "brand": "Logitech",
+    "category": "microphones",
+    "price": 129.99,
+    "rating": 4.7,
+    "reviews": 33108,
+    "desc": "The classic multi-pattern USB mic: cardioid, omni, bidirectional and stereo from three 14mm capsules. 16-bit/48kHz plug-and-play with headphone volume, gain and mute on the body.",
+    "desc_es": "El clásico micro USB multipatrón: cardioide, omni, bidireccional y estéreo desde tres cápsulas de 14 mm. Plug-and-play 16 bits/48 kHz con volumen de auriculares, ganancia y silencio en el cuerpo.",
+    "img": "https://r2.gear4music.com/media/138/1381221/1200/preview.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/Blue-Microphones-Yeti-Microphone-Blackout/dp/B00N1YPXW2",
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FBlue-Yeti-USB-Microphone%2F8453"
+    },
+    "excludeStores": [
+      "zzounds",
+      "andertons",
+      "musicstore"
+    ]
   }
 ]

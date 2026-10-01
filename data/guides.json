@@ -63887,7 +63887,9 @@
           284,
           287,
           291,
-          292
+          292,
+          517,
+          518
         ]
       },
       {
@@ -63898,10 +63900,10 @@
         "products": []
       }
     ],
-    "conclusion": "Start with a Samson Q2U ($70) for the best value — it has both USB and XLR outputs. Upgrade to a Rode NT-USB Mini or Elgato Wave:3 for better sound quality. Add a boom arm and pop filter for professional results. USB is fine for most creators; XLR is only needed if you're doing professional recording.\n\n<a href=\"/guides/best-microphone.html\" class=\"guide-link-btn\">best microphones guide</a> <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best podcast microphones</a>",
-    "conclusion_es": "Empieza con un Samson Q2U ($70) por el mejor valor — tiene salidas USB y XLR. Actualiza a un Rode NT-USB Mini o Elgato Wave:3 para mejor calidad de sonido. Agrega un brazo de micrófono y filtro pop para resultados profesionales. USB está bien para la mayoría de creadores; XLR solo se necesita si estás haciendo grabación profesional.\n\n<a href=\"/guides/best-microphone_es.html\" class=\"guide-link-btn\">guía de mejores micrófonos</a> <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasts</a>",
-    "verdict": "Samson Q2U for budget creators, Rode NT-USB Mini for premium USB, Elgato Wave:3 for streaming, Audio-Technica AT2020USB+ for voiceover.",
-    "verdict_es": "El Shure MV7+ es la mejor opción versátil para creadores — USB, XLR y ese look de broadcast. El Rode PodMic USB es valor de broadcast económico y el QuadCast 2 es valor de streaming; si grabas en movimiento, consulta la guía de micrófonos de solapa inalámbricos. Cubre tu voz, luego tu proceso.",
+    "conclusion": "Start with a Samson Q2U ($70) for the best value — it has both USB and XLR outputs. Upgrade to a Rode NT-USB Mini or Elgato Wave:3 for better sound quality. Add a boom arm and pop filter for professional results. USB is fine for most creators; XLR is only needed if you're doing professional recording. Need maximum isolation in a noisy room? The AT2040USB hypercardioid pattern helps. Want four mics in one? The Yeti covers cardioid, omni, bidirectional and stereo.\n\n<a href=\"/guides/best-microphone.html\" class=\"guide-link-btn\">best microphones guide</a> <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best podcast microphones</a>",
+    "conclusion_es": "Empieza con un Samson Q2U ($70) por el mejor valor — tiene salidas USB y XLR. Actualiza a un Rode NT-USB Mini o Elgato Wave:3 para mejor calidad de sonido. Agrega un brazo de micrófono y filtro pop para resultados profesionales. USB está bien para la mayoría de creadores; XLR solo es necesario si haces grabación profesional. ¿Necesitas máximo aislamiento en una sala ruidosa? El hipercardioide del AT2040USB ayuda. ¿Quieres cuatro micros en uno? El Yeti cubre cardioide, omni, bidireccional y estéreo.\n\n<a href=\"/guides/best-microphone_es.html\" class=\"guide-link-btn\">guía de mejores micrófonos</a> <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasts</a>",
+    "verdict": "Samson Q2U for budget creators, Rode NT-USB Mini for premium USB, Elgato Wave:3 for streaming, Audio-Technica AT2020USB+ for voiceover. AT2040USB for noisy rooms, Yeti for multi-pattern flexibility.",
+    "verdict_es": "El Shure MV7+ es la mejor opción versátil para creadores — USB, XLR y ese look de broadcast. El Rode PodMic USB es valor de broadcast económico y el QuadCast 2 es valor de streaming; si grabas en movimiento, consulta la guía de micrófonos de solapa inalámbricos. Cubre tu voz, luego tu proceso. AT2040USB para salas ruidosas, Yeti para flexibilidad multipatrón.",
     "featuredProducts": [
       194,
       252,
@@ -64028,6 +64030,14 @@
         {
           "title": "Rode NT-USB Mini",
           "title_es": "Rode NT-USB Mini"
+        },
+        {
+          "title": "Audio-Technica AT2040USB",
+          "title_es": "Audio-Technica AT2040USB"
+        },
+        {
+          "title": "Blue Yeti USB Microphone",
+          "title_es": "Blue Yeti USB Microphone"
         }
       ],
       "rows": [
@@ -64078,6 +64088,14 @@
             {
               "value": "Premium compact USB",
               "value_es": "USB compacto premium"
+            },
+            {
+              "value": "Dynamic USB for noisy rooms",
+              "value_es": "Dinámico USB para salas ruidosas"
+            },
+            {
+              "value": "Multi-pattern versatility",
+              "value_es": "Versatilidad multipatrón"
             }
           ]
         },
@@ -64128,6 +64146,14 @@
             {
               "value": "USB-C",
               "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB",
+              "value_es": "USB"
             }
           ]
         },
@@ -64178,6 +64204,14 @@
             {
               "value": "Condenser cardioid",
               "value_es": "Condensador cardioide"
+            },
+            {
+              "value": "Dynamic hypercardioid",
+              "value_es": "Dinámico hipercardioide"
+            },
+            {
+              "value": "Condenser multi-pattern",
+              "value_es": "Condensador multipatrón"
             }
           ]
         },
@@ -64228,6 +64262,246 @@
             {
               "value": "24-bit/48kHz",
               "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            }
+          ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid/Omni/Bi/Stereo",
+              "value_es": "Cardioide/Omni/Bi/Stereo"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Hypercardioid",
+              "value_es": "Hipercardioide"
+            },
+            {
+              "value": "Cardioid/Omni/Bi/Stereo",
+              "value_es": "Cardioide/Omni/Bi/Estéreo"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de frecuencia",
+          "values": [
+            {
+              "value": "50Hz–16kHz",
+              "value_es": "50Hz–16kHz"
+            },
+            {
+              "value": "50Hz–15kHz",
+              "value_es": "50Hz–15kHz"
+            },
+            {
+              "value": "20Hz–20kHz",
+              "value_es": "20Hz–20kHz"
+            },
+            {
+              "value": "70Hz–20kHz",
+              "value_es": "70Hz–20kHz"
+            },
+            {
+              "value": "20Hz–20kHz",
+              "value_es": "20Hz–20kHz"
+            },
+            {
+              "value": "20Hz–20kHz",
+              "value_es": "20Hz–20kHz"
+            },
+            {
+              "value": "50Hz–15kHz",
+              "value_es": "50Hz–15kHz"
+            },
+            {
+              "value": "50Hz–16kHz",
+              "value_es": "50Hz–16kHz"
+            },
+            {
+              "value": "20Hz–20kHz",
+              "value_es": "20Hz–20kHz"
+            },
+            {
+              "value": "100Hz–16kHz",
+              "value_es": "100Hz–16kHz"
+            },
+            {
+              "value": "20Hz–20kHz",
+              "value_es": "20Hz–20kHz"
+            },
+            {
+              "value": "80Hz–16kHz",
+              "value_es": "80Hz–16kHz"
+            },
+            {
+              "value": "20Hz–20kHz",
+              "value_es": "20Hz–20kHz"
+            }
+          ]
+        },
+        {
+          "label": "Bit Depth / Sample Rate",
+          "label_es": "Bits / Frecuencia de muestreo",
+          "values": [
+            {
+              "value": "24-bit/48kHz",
+              "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "24-bit/48kHz",
+              "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "Analog XLR — interface decides",
+              "value_es": "Analog XLR — interface decides"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "16-bit/44.1kHz",
+              "value_es": "16-bit/44.1kHz"
+            },
+            {
+              "value": "24-bit/48kHz",
+              "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            }
+          ]
+        },
+        {
+          "label": "Headphone Monitoring",
+          "label_es": "Monitorización con auriculares",
+          "values": [
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
             }
           ]
         }
@@ -64546,6 +64820,62 @@
           "Solo USB, sin ruta a XLR",
           "Precio en lo alto del rango económico",
           "El condensador prefiere una sala silenciosa"
+        ]
+      },
+      {
+        "name": "Audio-Technica AT2040USB",
+        "name_es": "Audio-Technica AT2040USB",
+        "pros": [
+          "Hypercardioid pattern rejects room and fan noise",
+          "24-bit/96kHz with headphone volume and mix control",
+          "Shock mount and pop filter built in, silent touch mute",
+          "Broadcast AT2040 sound with no interface needed"
+        ],
+        "cons": [
+          "USB-only with no XLR upgrade path",
+          "80Hz low end thins deep voices",
+          "600g body needs a sturdy arm",
+          "$159 costs double the Q2U"
+        ],
+        "pros_es": [
+          "El hipercardioide rechaza sala y ventilador",
+          "24 bits/96 kHz con volumen de auriculares y mezcla",
+          "Suspensión y antipop integrados, silencio táctil",
+          "Sonido broadcast AT2040 sin interfaz"
+        ],
+        "cons_es": [
+          "Solo USB, sin ruta a XLR",
+          "Los 80Hz adelgazan voces profundas",
+          "El cuerpo de 600 g pide un brazo sólido",
+          "$159 cuesta el doble que el Q2U"
+        ]
+      },
+      {
+        "name": "Blue Yeti USB Microphone",
+        "name_es": "Blue Yeti USB Microphone",
+        "pros": [
+          "Four patterns in one mic for any scenario",
+          "Headphone volume, gain and mute on the body",
+          "16-bit/48kHz plug-and-play on any system",
+          "Most reviewed USB mic ever — proven by millions"
+        ],
+        "cons": [
+          "Large heavy body dominates desks",
+          "16-bit ceiling in a 24-bit world",
+          "Cardioid picks up room versus dynamics",
+          "VO!CE effects need G Hub software"
+        ],
+        "pros_es": [
+          "Cuatro patrones en un micro para cada caso",
+          "Volumen de auriculares, ganancia y silencio en el cuerpo",
+          "Plug-and-play 16 bits/48 kHz en cualquier sistema",
+          "El USB más reseñado de la historia — probado"
+        ],
+        "cons_es": [
+          "El cuerpo grande y pesado domina escritorios",
+          "Techo de 16 bits en un mundo de 24 bits",
+          "El cardioide capta sala frente a dinámicos",
+          "Los efectos VO!CE necesitan G Hub"
         ]
       }
     ],

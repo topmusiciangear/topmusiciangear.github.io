@@ -4603,7 +4603,24 @@ const TEST_SHOP_BTN = {
     oos: [
       "musicstore"
     ]
-  }
+  },
+  517: {
+    prices: {
+      gear4music: "£135.50",
+      amazon: "$159.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AUDAT2040USB"
+    }
+  },
+  518: {
+    prices: {
+      amazon: "$129.99"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone/8453"
+    }
+  },
 }
 
 function shortTitle(title) {

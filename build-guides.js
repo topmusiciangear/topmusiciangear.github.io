@@ -4919,7 +4919,24 @@ const TEST_SHOP_BTN = {
     oos: [
       "musicstore"
     ]
-  }
+  },
+  517: {
+    prices: {
+      gear4music: "£135.50",
+      amazon: "$159.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AUDAT2040USB"
+    }
+  },
+  518: {
+    prices: {
+      amazon: "$129.99"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone/8453"
+    }
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
