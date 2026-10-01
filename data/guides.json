@@ -4878,8 +4878,8 @@
               "value_es": "148 dB"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "130 dB",
+              "value_es": "130 dB"
             },
             {
               "value": "Not published",
@@ -4928,6 +4928,104 @@
             {
               "value": ">140 dB",
               "value_es": ">140 dB"
+            }
+          ]
+        },
+        {
+          "label": "Phantom Power",
+          "label_es": "Phantom",
+          "values": [
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "48V required",
+              "value_es": "Requiere 48V"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "48V required",
+              "value_es": "Requiere 48V"
+            },
+            {
+              "value": "48V required",
+              "value_es": "Requiere 48V"
+            },
+            {
+              "value": "48V required",
+              "value_es": "Requiere 48V"
+            },
+            {
+              "value": "48V required",
+              "value_es": "Requiere 48V"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "Not required",
+              "value_es": "No requiere"
             }
           ]
         }
