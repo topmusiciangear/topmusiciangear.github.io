@@ -35029,8 +35029,8 @@
     ],
     "conclusion": "For untreated rooms, get a dynamic mic (Shure SM7B for premium, AT2005USB for budget). For treated studios, a condenser (Rode NT1) captures more detail. For multi-host podcasts, use matching mics (Rode PodMic) with a multi-channel interface (multi-channel interface). For travel, remote guests and two-person table setups, the Hollyland MELO P1 is a wireless record-and-mix studio that needs no interface at all.\n\n<a href=\"/guides/best-microphone.html\" class=\"guide-link-btn\">best microphones guide</a> <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/mics-for-creators.html\" class=\"guide-link-btn\">best mics for content creators</a> <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interfaces</a>",
     "conclusion_es": "Para salas sin tratamiento, consigue un micrófono dinámico (Shure SM7B para premium, AT2005USB para económico). Para estudios tratados, un condensador (Rode NT1) captura más detalle. Para podcasts multi-host, usa micrófonos que coincidan (Rode PodMic) con una interfaz multicanal. Para viajes, invitados remotos y setups de mesa a dos personas, el Hollyland MELO P1 es un estudio inalámbrico de grabación y mezcla que no necesita interfaz en absoluto. <a href=\"/guides/best-microphone_es.html\" class=\"guide-link-btn\">guía de mejores micrófonos</a> <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> <a href=\"/guides/mics-for-creators_es.html\" class=\"guide-link-btn\">mejores micrófonos para creadores de contenido</a> <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">mejores interfaces de audio</a>",
-    "verdict": "Shure SM7B for premium podcasting, Audio-Technica AT2005USB for budget, Rode NT1 for treated studios, Rode PodMic for multi-host shows, Hollyland MELO P1 for wireless all-in-one podcast studios.",
-    "verdict_es": "Shure SM7B para podcasting premium, Audio-Technica AT2005USB para económico, Rode NT1 para estudios tratados, Rode PodMic para programas multi-host, Hollyland MELO P1 para estudios de podcast inalámbricos todo-en-uno.",
+    "verdict": "Shure SM7B for premium podcasting, Audio-Technica AT2005USB for budget, Rode NT1 for treated studios, Rode PodMic for multi-host shows, Hollyland MELO P1 for wireless all-in-one podcast studios. NT1 Signature for silent treated rooms, XM8500 for $25 spares, MV7+ for USB/XLR DSP flexibility.",
+    "verdict_es": "Shure SM7B para podcasting premium, Audio-Technica AT2005USB para económico, Rode NT1 para estudios tratados, Rode PodMic para programas multi-host, Hollyland MELO P1 para estudios de podcast inalámbricos todo-en-uno. NT1 Signature para salas tratadas silenciosas, XM8500 como repuesto de $25, MV7+ por flexibilidad DSP USB/XLR.",
     "featuredProducts": [
       508,
       50,
@@ -35144,6 +35144,26 @@
         {
           "title": "Rode NT1 5th Gen",
           "title_es": "Rode NT1 5th Gen"
+        },
+        {
+          "title": "Rode NT1 Signature Series",
+          "title_es": "Rode NT1 Signature Series"
+        },
+        {
+          "title": "Behringer XM8500 Ultravoice",
+          "title_es": "Behringer XM8500 Ultravoice"
+        },
+        {
+          "title": "Shure MV7+",
+          "title_es": "Shure MV7+"
+        },
+        {
+          "title": "Hollyland MELO P1",
+          "title_es": "Hollyland MELO P1"
+        },
+        {
+          "title": "Rode PodMic USB",
+          "title_es": "Rode PodMic USB"
         }
       ],
       "rows": [
@@ -35170,6 +35190,26 @@
             {
               "value": "Versatile studio vocals (treated room)",
               "value_es": "Voces de estudio versátiles (sala tratada)"
+            },
+            {
+              "value": "Silent studio vocals",
+              "value_es": "Voces de estudio silenciosas"
+            },
+            {
+              "value": "Ultra-budget vocals",
+              "value_es": "Voces ultra-económicas"
+            },
+            {
+              "value": "USB/XLR podcasting with DSP",
+              "value_es": "Podcasting USB/XLR con DSP"
+            },
+            {
+              "value": "Wireless multi-source recording",
+              "value_es": "Grabación inalámbrica multifuente"
+            },
+            {
+              "value": "Multi-host USB podcasting",
+              "value_es": "Podcasting USB multianfitrión"
             }
           ]
         },
@@ -35196,6 +35236,26 @@
             {
               "value": "Condenser (1-inch LDC), XLR + USB-C",
               "value_es": "Condensador (LDC de 1 pulg), XLR + USB-C"
+            },
+            {
+              "value": "Condenser (1-inch LDC), XLR",
+              "value_es": "Condensador (1 pulgada), XLR"
+            },
+            {
+              "value": "Dynamic, passive",
+              "value_es": "Dinámico, pasivo"
+            },
+            {
+              "value": "Dynamic hybrid, USB-C + XLR",
+              "value_es": "Dinámico híbrido, USB-C + XLR"
+            },
+            {
+              "value": "Wireless system (dynamic + condenser)",
+              "value_es": "Sistema inalámbrico (dinámico + condensador)"
+            },
+            {
+              "value": "Dynamic hybrid, USB-C + XLR",
+              "value_es": "Dinámico híbrido, USB-C + XLR"
             }
           ]
         },
@@ -35214,6 +35274,26 @@
             {
               "value": "Cardioid (tight)",
               "value_es": "Cardioide (estrecho)"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
@@ -35248,6 +35328,26 @@
             {
               "value": "20 Hz – 20 kHz",
               "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz (condenser)",
+              "value_es": "20 Hz – 20 kHz (condensador)"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
             }
           ]
         },
@@ -35274,6 +35374,26 @@
             {
               "value": "-32 dB re 1 V/Pa (25 mV)",
               "value_es": "–32 dB (25 mV/Pa)"
+            },
+            {
+              "value": "-32 dB re 1V/Pa (25 mV)",
+              "value_es": "-32 dB re 1V/Pa (25 mV)"
+            },
+            {
+              "value": "-70 dB (mfr)",
+              "value_es": "-70 dB (fabricante)"
+            },
+            {
+              "value": "-55 dBV/Pa (XLR)",
+              "value_es": "-55 dBV/Pa (XLR)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "-57 dBV (analog path)",
+              "value_es": "-57 dBV (ruta analógica)"
             }
           ]
         },
@@ -35300,6 +35420,26 @@
             {
               "value": "4 dBA",
               "value_es": "4 dBA"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
+            },
+            {
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "N/A (passive dynamic)",
+              "value_es": "N/D (dinámico pasivo)"
             }
           ]
         },
@@ -35308,24 +35448,44 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "Not officially rated (~160 dB est.)",
-              "value_es": "Sin clasificación oficial (~160 dB est.)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "Not officially rated (~160 dB est.)",
-              "value_es": "Sin clasificación oficial (~160 dB est.)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "Not officially rated (~160 dB est.)",
-              "value_es": "Sin clasificación oficial (~160 dB est.)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "Not officially rated (~180 dB est.)",
-              "value_es": "Sin clasificación oficial (~180 dB est.)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
               "value": "142 dB SPL",
               "value_es": "142 dB"
+            },
+            {
+              "value": "142 dB SPL",
+              "value_es": "142 dB SPL"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "128 dB (USB)",
+              "value_es": "128 dB (USB)"
+            },
+            {
+              "value": "132 dB (condenser)",
+              "value_es": "132 dB (condensador)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -35352,6 +35512,26 @@
             {
               "value": "100 Ω",
               "value_es": "100 Ω"
+            },
+            {
+              "value": "100 Ω",
+              "value_es": "100 Ω"
+            },
+            {
+              "value": "150 Ω",
+              "value_es": "150 Ω"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -35359,6 +35539,26 @@
           "label": "Signal-to-Noise Ratio",
           "label_es": "Relación Señal-Ruido",
           "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
             {
               "value": "Not published",
               "value_es": "No publicado"
@@ -35402,8 +35602,28 @@
               "value_es": "No publicado"
             },
             {
-              "value": "126 dB via USB 32-bit float (marketing)",
-              "value_es": "126 dB vía USB 32-bit float (marketing)"
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "116 dB (system)",
+              "value_es": "116 dB (sistema)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -35411,6 +35631,26 @@
           "label": "THD at Max SPL",
           "label_es": "THD al SPL máximo",
           "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
             {
               "value": "Not published",
               "value_es": "No publicado"
@@ -35456,6 +35696,26 @@
             {
               "value": "HF6 1-inch gold-sputtered condenser",
               "value_es": "Cápsula condensadora HF6 de 1 pulg con baño de oro"
+            },
+            {
+              "value": "HF6 1-inch true condenser",
+              "value_es": "HF6 real de 1 pulgada"
+            },
+            {
+              "value": "Dynamic vocal capsule",
+              "value_es": "Cápsula dinámica vocal"
+            },
+            {
+              "value": "Dynamic broadcast capsule",
+              "value_es": "Cápsula dinámica broadcast"
+            },
+            {
+              "value": "1-inch LDC + dynamic (interchangeable)",
+              "value_es": "LDC de 1 pulgada + dinámico (intercambiables)"
+            },
+            {
+              "value": "Dynamic broadcast capsule",
+              "value_es": "Cápsula dinámica broadcast"
             }
           ]
         },
@@ -35482,6 +35742,26 @@
             {
               "value": "DSP HPF (75/150 Hz), compressor, gate, APHEX (USB)",
               "value_es": "HPF por DSP (75/150 Hz), compresor, puerta, APHEX (USB)"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "DSP HPF (USB)",
+              "value_es": "HPF por DSP (USB)"
+            },
+            {
+              "value": "None (AI denoise instead)",
+              "value_es": "Ninguno (denoise por IA)"
+            },
+            {
+              "value": "None (internal pop filter only)",
+              "value_es": "Ninguno (solo antipop interno)"
             }
           ]
         },
@@ -35508,6 +35788,26 @@
             {
               "value": "+48 V (XLR); 5 V (USB)",
               "value_es": "+48 V (XLR); 5 V (USB)"
+            },
+            {
+              "value": "+48 V",
+              "value_es": "+48 V"
+            },
+            {
+              "value": "None required",
+              "value_es": "No requiere"
+            },
+            {
+              "value": "5 V (USB); none (XLR)",
+              "value_es": "5 V (USB); ninguno (XLR)"
+            },
+            {
+              "value": "Rechargeable batteries",
+              "value_es": "Baterías recargables"
+            },
+            {
+              "value": "5 V (USB); none (XLR)",
+              "value_es": "5 V (USB); ninguno (XLR)"
             }
           ]
         },
@@ -35534,6 +35834,26 @@
             {
               "value": "52 × 52 × 189 mm",
               "value_es": "52 × 52 × 189 mm"
+            },
+            {
+              "value": "52 × 52 × 189 mm",
+              "value_es": "52 × 52 × 189 mm"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Ø55 × 199 mm (mic)",
+              "value_es": "Ø55 × 199 mm (micro)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -35560,6 +35880,26 @@
             {
               "value": "308 g",
               "value_es": "308 g"
+            },
+            {
+              "value": "313 g",
+              "value_es": "313 g"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "312 g dynamic / 255 g condenser",
+              "value_es": "312 g dinámico / 255 g condensador"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         }
@@ -35710,6 +36050,146 @@
           "Como condensador necesita alimentación fantasma de 48V desde la interfaz",
           "El 32-bit float solo se aprovecha en software que lo soporte — algunos DAWs aún limitan a 24-bit",
           "está por encima del SM58, y su detalle extra se desperdicia hasta tratar la sala"
+        ]
+      },
+      {
+        "name": "Rode NT1 Signature Series",
+        "name_es": "Rode NT1 Signature Series",
+        "pros": [
+          "4dBA self-noise with 142dB max SPL — silence plus headroom",
+          "HF6 1-inch capsule with shockmount, pop filter and XLR cable included",
+          "Simple P48 operation with no software or menus",
+          "Warm silky NT1 character that flatters any voice"
+        ],
+        "cons": [
+          "Needs a treated room and an interface to shine",
+          "No pad or filter switches onboard",
+          "Single cardioid pattern only",
+          "Costs six times the XM8500"
+        ],
+        "pros_es": [
+          "4dBA de ruido propio con 142dB de SPL — silencio más margen",
+          "HF6 de 1 pulgada con suspensión, antipop y cable XLR incluidos",
+          "Operación simple P48 sin software ni menús",
+          "Carácter NT1 cálido que favorece cualquier voz"
+        ],
+        "cons_es": [
+          "Necesita sala tratada e interfaz para brillar",
+          "Sin pad ni filtros a bordo",
+          "Solo patrón cardioide",
+          "Cuesta seis veces el XM8500"
+        ]
+      },
+      {
+        "name": "Behringer XM8500 Ultravoice",
+        "name_es": "Behringer XM8500 Ultravoice",
+        "pros": [
+          "SM58-adjacent sound for the price of a cable",
+          "Nothing to lose at $25 — perfect live spare",
+          "No phantom or power needed, ever",
+          "Works for vocals, amps and podcasting alike"
+        ],
+        "cons": [
+          "A step below the SM58 in blind tests",
+          "Finish and grille wear faster with gigging",
+          "Low output needs clean interface gain",
+          "No USB path for direct recording"
+        ],
+        "pros_es": [
+          "Sonido cercano al SM58 por el precio de un cable",
+          "Nada que perder a $25 — repuesto perfecto en vivo",
+          "Sin phantom ni alimentación, nunca",
+          "Vale para voces, amplis y podcast por igual"
+        ],
+        "cons_es": [
+          "Un paso por debajo del SM58 en pruebas ciegas",
+          "Acabado y rejilla se gastan antes con bolos",
+          "La salida baja pide ganancia limpia",
+          "Sin ruta USB para grabación directa"
+        ]
+      },
+      {
+        "name": "Shure MV7+",
+        "name_es": "Shure MV7+",
+        "pros": [
+          "USB-C plus XLR — record now, upgrade to interface later",
+          "Onboard DSP: Auto Level, denoiser, popper stopper and reverb",
+          "Touch panel with customizable LED mute indicator",
+          "-55dBV output hot enough to skip Cloudlifters"
+        ],
+        "cons": [
+          "MOTIV app required for the full DSP feature set",
+          "USB caps at 48kHz while rivals reach 96kHz",
+          "Bulkier on a desk stand than compact rivals",
+          "Premium price over USB-only alternatives"
+        ],
+        "pros_es": [
+          "USB-C más XLR — graba hoy, mejora a interfaz después",
+          "DSP a bordo: Auto Level, denoise, popper stopper y reverb",
+          "Panel táctil con LED de silencio personalizable",
+          "-55dBV suficientes para prescindir de Cloudlifters"
+        ],
+        "cons_es": [
+          "La app MOTIV es necesaria para todo el DSP",
+          "El USB topa en 48kHz mientras rivales llegan a 96kHz",
+          "Más voluminoso que rivales compactos",
+          "Precio premium sobre alternativas solo USB"
+        ]
+      },
+      {
+        "name": "Hollyland MELO P1",
+        "name_es": "Hollyland MELO P1",
+        "pros": [
+          "Dynamic plus condenser capsules swap for any source",
+          "32-bit float with 116dB range — clipping is history",
+          "25dB AI denoise cleans noisy rooms automatically",
+          "12-hour battery with 60m range; mixer blends four sources"
+        ],
+        "cons": [
+          "Young ecosystem with fewer long-term reviews",
+          "Phone and app dependent workflow",
+          "Heaviest handheld here at 312g",
+          "Premium price for podcast-first buyers"
+        ],
+        "pros_es": [
+          "Cápsulas dinámica y de condensador intercambiables para cada fuente",
+          "32 bits flotantes con 116dB — el clipping es historia",
+          "Denoise por IA de 25dB limpia salas ruidosas solo",
+          "12 horas de batería con 60m de alcance; mezcla cuatro fuentes"
+        ],
+        "cons_es": [
+          "Ecosistema joven con menos reseñas a largo plazo",
+          "Flujo dependiente de teléfono y app",
+          "El mano más pesado aquí con 312g",
+          "Precio premium para compradores de podcast"
+        ]
+      },
+      {
+        "name": "Rode PodMic USB",
+        "name_es": "Rode PodMic USB",
+        "pros": [
+          "Classic PodMic broadcast sound with USB-C attached",
+          "APHEX DSP with VoxLab, gate, compressor and exciter",
+          "Zero-latency headphone output with volume control",
+          "Internal pop filter plus external pop filter included"
+        ],
+        "cons": [
+          "XLR path bypasses all DSP features",
+          "Premium over the XLR-only PodMic",
+          "Needs Rode software for full APHEX control",
+          "Large broadcast body for small desks"
+        ],
+        "pros_es": [
+          "El clásico sonido broadcast PodMic con USB-C añadido",
+          "DSP APHEX con VoxLab, puerta, compresor y exciter",
+          "Salida de auriculares sin latencia con volumen",
+          "Antipop interno más antipop externo incluido"
+        ],
+        "cons_es": [
+          "La ruta XLR evita todas las funciones DSP",
+          "Más caro que el PodMic solo XLR",
+          "Necesita software Rode para el control APHEX completo",
+          "Cuerpo broadcast grande para escritorios pequeños"
         ]
       }
     ],
