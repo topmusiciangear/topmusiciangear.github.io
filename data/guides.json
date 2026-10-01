@@ -12723,8 +12723,8 @@
           "title_es": "D16 Group Repeater Delay"
         },
         {
-          "title": "Baby Audio Smooth Operator Pro",
-          "title_es": "Baby Audio Smooth Operator Pro"
+          "title": "Baby Audio Spaced Out",
+          "title_es": "Baby Audio Spaced Out"
         }
       ],
       "rows": [
@@ -12780,8 +12780,8 @@
               "value_es": "Delay (23 modelos)"
             },
             {
-              "value": "Spectral Resonance Suppressor",
-              "value_es": "Supresor Resonancia Espectral"
+              "value": "Delay / Reverb / Spatial",
+              "value_es": "Delay / Reverb / Espacial"
             }
           ]
         },
@@ -12837,8 +12837,8 @@
               "value_es": "Patrones delay complejos, ecos rítmicos"
             },
             {
-              "value": "Auto-suppress harsh resonances, clarity",
-              "value_es": "Auto-suprimir resonancias duras, claridad"
+              "value": "Futuristic spatial delay & reverb",
+              "value_es": "Delay espacial y reverb futurista"
             }
           ]
         },
@@ -12878,24 +12878,24 @@
               "value_es": "60+ modelos, 4 bandas, envolventes, convolución, espectral"
             },
             {
-              "value": "Shimmer/Swarm/Reflect engines, full modulation",
-              "value_es": "Motores Shimmer/Swarm/Reflect, modulación total"
+              "value": "5 modules: Format, Dirt, Reave, Width, Space",
+              "value_es": "5 módulos: Format, Dirt, Reave, Width, Space"
             },
             {
               "value": "Harmonic/inharmonic split, Flux/Drift/Warp modes",
               "value_es": "Split armónico/inharmónico, modos Flux/Drift/Warp"
             },
             {
-              "value": "Authentic Juno-106 chorus circuit, 2 modes",
-              "value_es": "Circuito chorus Juno-106 auténtico, 2 modos"
+              "value": "Authentic Juno-106 chorus, 2 modes, $49",
+              "value_es": "Authentic Juno-106 chorus, 2 modos, $49"
             },
             {
               "value": "Tape/BBD/Digital/Diffusion, multi-tap, per-tap mod",
               "value_es": "Tape/BBD/Digital/Difusión, multi-tap, mod por tap"
             },
             {
-              "value": "Real-time resonance detection, spectral smoothing",
-              "value_es": "Detección resonancias tiempo real, suavizado espectral"
+              "value": "8 delay modes, reverb, pitch, filter, freeze",
+              "value_es": "8 modos delay, reverb, pitch, filter, freeze"
             }
           ]
         },
@@ -12951,8 +12951,8 @@
               "value_es": "Profunda (modulación por tap + sync)"
             },
             {
-              "value": "None (automatic adaptive)",
-              "value_es": "Ninguna (adaptativa automática)"
+              "value": "Deep (LFOs + envelopes + macros)",
+              "value_es": "Profunda (LFOs + envolventes + macros)"
             }
           ]
         },
@@ -13008,8 +13008,8 @@
               "value_es": "Alta (historia delay en una caja)"
             },
             {
-              "value": "Utility (cleanup, not creative)",
-              "value_es": "Utilidad (limpieza, no creativa)"
+              "value": "High (delay as spatial instrument)",
+              "value_es": "Alta (delay como instrumento espacial)"
             }
           ]
         },
@@ -13196,7 +13196,6 @@
           "Ultimate creative gating/stutter tool"
         ],
         "cons": [
-          "No VST3/CLAP yet",
           "Can be overwhelming at first",
           "No preset sharing across DAWs",
           "Requires rhythmic thinking"
@@ -13208,7 +13207,6 @@
           "Herramienta creativa gating/stutter definitiva"
         ],
         "cons_es": [
-          "Sin VST3/CLAP aún",
           "Puede abrumar al principio",
           "Sin compartir presets entre DAWs",
           "Requiere pensamiento rítmico"
@@ -13226,7 +13224,6 @@
         "cons": [
           "Limited deep editing per module",
           "Can sound \"samey\" if overused",
-          "No VST3/CLAP",
           "Not for subtle enhancement"
         ],
         "pros_es": [
@@ -13238,7 +13235,6 @@
         "cons_es": [
           "Edición profunda limitada por módulo",
           "Puede sonar \"igual\" si se abusa",
-          "Sin VST3/CLAP",
           "No para realce sutil"
         ]
       },
@@ -13253,7 +13249,6 @@
         ],
         "cons": [
           "Single-purpose (but does it perfectly)",
-          "No VST3/CLAP",
           "Limited parameters",
           "Can sound gimmicky if overused"
         ],
@@ -13265,7 +13260,6 @@
         ],
         "cons_es": [
           "Propósito único (pero lo hace perfecto)",
-          "Sin VST3/CLAP",
           "Parámetros limitados",
           "Puede sonar truco si se abusa"
         ]
@@ -13281,7 +13275,6 @@
         ],
         "cons": [
           "Can get chaotic fast",
-          "No VST3/CLAP",
           "Preset browser could be better",
           "Not for bread-and-butter delays"
         ],
@@ -13293,7 +13286,6 @@
         ],
         "cons_es": [
           "Puede volverse caótico rápido",
-          "Sin VST3/CLAP",
           "Navegador presets mejorable",
           "No para delays pan-comidos"
         ]
@@ -13309,7 +13301,6 @@
         ],
         "cons": [
           "Steep learning curve",
-          "No VST3/CLAP",
           "Can destroy audio if not careful",
           "Niche workflow"
         ],
@@ -13321,7 +13312,6 @@
         ],
         "cons_es": [
           "Curva aprendizaje pronunciada",
-          "Sin VST3/CLAP",
           "Puede destruir audio si no cuidas",
           "Flujo trabajo nicho"
         ]
@@ -13336,10 +13326,9 @@
           "From subtle warmth to total destruction"
         ],
         "cons": [
-          "iZotope license system (Product Portal)",
+          "iZotope Product Portal license system",
           "CPU heavy with all bands active",
-          "Overkill for simple saturation",
-          "Subscription model for updates"
+          "Overkill for simple saturation"
         ],
         "pros_es": [
           "Distorsión multibanda con 60+ modelos",
@@ -13350,35 +13339,32 @@
         "cons_es": [
           "Sistema licencias iZotope (Product Portal)",
           "CPU pesado con todas bandas activas",
-          "Excesivo para saturación simple",
-          "Modelo suscripción actualizaciones"
+          "Excesivo para saturación simple"
         ]
       },
       {
         "name": "Excite Audio Lifeline Expanse",
         "name_es": "Excite Audio Lifeline Expanse",
         "pros": [
-          "3 engines: shimmer, swarm, reflect",
-          "Evolving spatial textures",
+          "5 modules: Format, Dirt, Reave, Width, Space",
+          "Evolving spatial textures, cinematic",
           "Modulation on every parameter",
           "Cinematic sound design powerhouse"
         ],
         "cons": [
           "Niche — not a bread-and-butter verb",
           "High CPU",
-          "No VST3/CLAP",
           "Can be hard to tame in mix"
         ],
         "pros_es": [
-          "3 motores: shimmer, swarm, reflect",
-          "Texturas espaciales evolutivas",
+          "5 módulos: Format, Dirt, Reave, Width, Space",
+          "Texturas espaciales evolutivas, cinematográficas",
           "Modulación en cada parámetro",
           "Potencia diseño sonoro cinematográfico"
         ],
         "cons_es": [
           "Nicho — no es reverb pan-comido",
           "CPU alto",
-          "Sin VST3/CLAP",
           "Puede ser difícil domar en mezcla"
         ]
       },
@@ -13394,7 +13380,6 @@
         "cons": [
           "Very niche use case",
           "High CPU",
-          "No VST3/CLAP",
           "Steep learning curve"
         ],
         "pros_es": [
@@ -13406,7 +13391,6 @@
         "cons_es": [
           "Caso uso muy nicho",
           "CPU alto",
-          "Sin VST3/CLAP",
           "Curva aprendizaje pronunciada"
         ]
       },
@@ -13415,26 +13399,22 @@
         "name_es": "Arturia Chorus JUN-6",
         "pros": [
           "Authentic Juno-106 chorus circuit modeling",
-          "Simple 2-button UI (I/II modes)",
+          "Includes Mix & Depth controls (expanded from hardware)",
           "Instant stereo width and movement",
-          "Incredible value at $99"
+          "Incredible value at $49"
         ],
         "cons": [
           "Only chorus — no other FX",
-          "No depth/rate controls (fixed)",
-          "No VST3/CLAP",
           "Mono in / stereo out only"
         ],
         "pros_es": [
           "Modelado circuito chorus Juno-106 auténtico",
-          "UI simple 2 botones (modos I/II)",
+          "Incluye controles Mix & Depth (expandido vs hardware)",
           "Ancho estéreo y movimiento instantáneo",
-          "Valor increíble a $99"
+          "Valor increíble a $49"
         ],
         "cons_es": [
           "Solo chorus — sin otros FX",
-          "Sin controles depth/rate (fijos)",
-          "Sin VST3/CLAP",
           "Solo mono in / stereo out"
         ]
       },
@@ -13449,7 +13429,6 @@
         ],
         "cons": [
           "UI feels dated",
-          "No VST3/CLAP",
           "Can be CPU heavy",
           "Overwhelming parameter count"
         ],
@@ -13461,37 +13440,34 @@
         ],
         "cons_es": [
           "UI se siente antigua",
-          "Sin VST3/CLAP",
           "Puede ser CPU pesado",
           "Cantidad parámetros abrumadora"
         ]
       },
       {
-        "name": "Baby Audio Smooth Operator Pro",
-        "name_es": "Baby Audio Smooth Operator Pro",
+        "name": "Baby Audio Spaced Out",
+        "name_es": "Baby Audio Spaced Out",
         "pros": [
-          "Auto-detects & suppresses harsh resonances",
-          "Spectral smoothing without dulling",
-          "Sidechain input for dynamic control",
-          "Saves hours of surgical EQ work"
+          "8 delay modes + reverb + pitch + filter + freeze",
+          "Futuristic spatial sound design",
+          "Deep modulation with LFOs/envelopes/macros",
+          "Incredible value, VST3/CLAP native"
         ],
         "cons": [
-          "Not a creative effect per se",
-          "Can remove \"character\" if overdone",
-          "No VST3/CLAP",
-          "Pro version needed for full features"
+          "Can be overwhelming at first",
+          "Not for simple delay tasks",
+          "Freeze can create CPU spikes"
         ],
         "pros_es": [
-          "Auto-detecta y suprime resonancias duras",
-          "Suavizado espectral sin apagar",
-          "Entrada sidechain para control dinámico",
-          "Ahorra horas de EQ quirúrgico"
+          "8 modos delay + reverb + pitch + filter + freeze",
+          "Diseño sonoro espacial futurista",
+          "Modulación profunda con LFOs/envolventes/macros",
+          "Valor increíble, VST3/CLAP nativo"
         ],
         "cons_es": [
-          "No es efecto creativo per se",
-          "Puede quitar \"carácter\" si se abusa",
-          "Sin VST3/CLAP",
-          "Versión Pro necesaria para features completas"
+          "Puede abrumar al principio",
+          "No para delays simples",
+          "Freeze puede crear picos CPU"
         ]
       }
     ],
