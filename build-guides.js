@@ -5601,7 +5601,7 @@ function buildGuidePage(guide, lang, idx) {
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>${titleTag} | TopMusicianGear</title>
+  <title>${titleTag}</title>
   <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="${canonical}">
