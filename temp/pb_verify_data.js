@@ -217,6 +217,11 @@ const APPROVED_NON_PB = {
     'prices.zzounds': [undefined, '$499.00'],
     'urls.zzounds': ['https://www.zzounds.com/item--TAYGSMINI', 'https://www.zzounds.com/item--TAYGSMINISV2']
   },
+  // 467 actualizado (sesion en curso).
+  '467': {
+    'prices.musicstore': ['€579.00', '€669.00'],
+    'prices.zzounds': ['$599.99', '$629.00']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],

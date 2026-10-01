@@ -15286,7 +15286,7 @@
         "content_es": "<strong>La Stratocaster es la columna vertebral de la música latina. </strong>Su ataque brillante y percusivo corta través de un conjunto completo de salsa — trompetas, piano, congas y todo. El interruptor de 5 posiciones te da ritmo, lead y todo lo demás. Para el tono latino auténtico, las posiciones intermedias de la pastilla (2 y 4) ofrecen ese quack que define las partes de guitarra de timba y songo. La Player Stratocaster es el punto de entrada perfecto, pero la American Ultra II Stratocaster con sus pastillas Noiseless es lo que elegiría para sesiones latinas profesionales, sin zumbido, sin ruido, solo un tono puro y cantarín que se asienta perfectamente en una mezcla latina densa. Para el son cubano y bolero, la pastilla del mástil con el tono bajado te da ese sonido cálido y romántico que definió a los guitarristas cubanos clásicos.",
         "products": [
           124,
-          184,
+          440,
           440
         ]
       },
@@ -15323,8 +15323,8 @@
     ],
     "conclusion": "Fender instruments are the most versatile tools a musician can own. For Latin music, nothing beats a Stratocaster — the Player Strat is your entry, the Ultra Strat is your destination. For rock, blues, and country, you want a Telecaster — the Player Tele gives you the tone, the American Pro II gives you the refinement. For jazz and alternative, the Jazzmaster's unique voice is irreplaceable. And don't overlook the CD-60S. The best value beginner acoustic guitar period. <p><a href=\"/guides/acoustic-guitars-guide.html\" class=\"guide-link-btn\">Best Acoustic Guitars</a> <a href=\"/guides/beginner-guitar.html\" class=\"guide-link-btn\">Best Beginner Guitars for Songwriting</a> <a href=\"/guides/best-beginner-electric-guitar.html\" class=\"guide-link-btn\">Best Electric Guitar for Beginners</a></p>",
     "conclusion_es": "Los instrumentos Fender son las herramientas más versátiles que un músico puede tener. Para música latina, pocas guitarras superan una Stratocaster — la Player Strat es tu entrada, la Ultra Strat es tu destino. Para rock, blues y country, una Telecaster no puede faltar — la Player Tele te da el tono, la American Pro II te da el refinamiento. Para jazz y alternativa, la voz única de la Jazzmaster es irremplazable. Y no pases por alto la CD-60S — la mejor guitarra acústica para principiantes por su relación calidad-precio. <p>También te interesa: <a href=\"/guides/acoustic-guitars-guide_es.html\" class=\"guide-link-btn\">Mejores Guitarras Acústicas</a> <a href=\"/guides/beginner-guitar_es.html\" class=\"guide-link-btn\">Mejores Guitarras para Principiantes y Composición</a> <a href=\"/guides/best-beginner-electric-guitar_es.html\" class=\"guide-link-btn\">Mejor Guitarra Eléctrica para Principiantes</a></p>",
-    "verdict": "The Stratocaster is the backbone of Latin music — that tremolo, that middle pickup, that versatility. The Telecaster is pure rock snap, the Jazzmaster covers alternative textures, and there's a Fender here for every style you play.",
-    "verdict_es": "La Stratocaster es la columna vertebral de la música latina — ese tremolo, esa pastilla del medio, esa versatilidad. La Telecaster es puro mordisco rock, la Jazzmaster cubre texturas alternativas, y aquí hay una Fender para cada estilo que toques.",
+    "verdict": "The Stratocaster is the backbone of Latin music — that tremolo, that middle pickup, that versatility. The Telecaster is pure rock snap, the Jazzmaster covers alternative textures, and there's a Fender here for every style you play. The American Professional II Stratocaster is the pro SSS reference, and the Les Paul Standard '60s brings classic rock authority.",
+    "verdict_es": "La Stratocaster es la columna vertebral de la música latina — ese tremolo, esa pastilla del medio, esa versatilidad. La Telecaster es puro mordisco rock, la Jazzmaster cubre texturas alternativas, y aquí hay una Fender para cada estilo que toques. La American Professional II Stratocaster es la referencia SSS pro, y la Les Paul Standard '60s aporta la autoridad del rock clásico.",
     "relatedGuides": [
       "player-strat-vs-pacifica",
       "acoustic-guitars-guide",
@@ -15441,6 +15441,14 @@
         {
           "title": "Fender CD-60S Acoustic",
           "title_es": "Fender CD-60S Acústica"
+        },
+        {
+          "title": "Fender American Professional II Stratocaster",
+          "title_es": "Fender American Professional II Stratocaster"
+        },
+        {
+          "title": "Gibson Les Paul Standard '60s",
+          "title_es": "Gibson Les Paul Standard '60s"
         }
       ],
       "rows": [
@@ -15471,6 +15479,14 @@
             {
               "value": "Affordable full-size beginner acoustic",
               "value_es": "Acústica de tamaño completo asequible para empezar"
+            },
+            {
+              "value": "Pro SSS Stratocaster",
+              "value_es": "Stratocaster SSS pro"
+            },
+            {
+              "value": "Classic rock authority",
+              "value_es": "Autoridad del rock clásico"
             }
           ]
         },
@@ -15501,6 +15517,14 @@
             {
               "value": "Spruce top / mahogany back",
               "value_es": "Picea / caoba"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Mahogany + maple top",
+              "value_es": "Caoba + tapa de arce"
             }
           ]
         },
@@ -15531,6 +15555,14 @@
             {
               "value": "Nato",
               "value_es": "Nato"
+            },
+            {
+              "value": "Maple, Deep C",
+              "value_es": "Arce, Deep C"
+            },
+            {
+              "value": "Mahogany, SlimTaper",
+              "value_es": "Caoba, SlimTaper"
             }
           ]
         },
@@ -15561,6 +15593,14 @@
             {
               "value": "20, rosewood",
               "value_es": "20, palo rosa"
+            },
+            {
+              "value": "22, maple or rosewood",
+              "value_es": "22, arce o palisandro"
+            },
+            {
+              "value": "22, rosewood",
+              "value_es": "22, palisandro"
             }
           ]
         },
@@ -15591,6 +15631,14 @@
             {
               "value": "None (acoustic)",
               "value_es": "Ninguna (acústica)"
+            },
+            {
+              "value": "V-Mod II single-coils",
+              "value_es": "Single-coils V-Mod II"
+            },
+            {
+              "value": "60s Burstbucker HH",
+              "value_es": "Burstbucker 60s HH"
             }
           ]
         },
@@ -15621,6 +15669,14 @@
             {
               "value": "25.3 in (643 mm)",
               "value_es": "25,3\" (643 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "24.75 in (629 mm)",
+              "value_es": "24,75\" (629 mm)"
             }
           ]
         },
@@ -15651,6 +15707,14 @@
             {
               "value": "Chrome sealed",
               "value_es": "Cromados sellados"
+            },
+            {
+              "value": "Fender locking",
+              "value_es": "Fender con bloqueo"
+            },
+            {
+              "value": "Grover Rotomatic",
+              "value_es": "Grover Rotomatic"
             }
           ]
         },
@@ -15681,6 +15745,14 @@
             {
               "value": "4.2 lb (1.9 kg)",
               "value_es": "1,9 kg"
+            },
+            {
+              "value": "7.8 lb (3.5 kg)",
+              "value_es": "3,5 kg"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             }
           ]
         }
@@ -15865,6 +15937,62 @@
           "El cuerpo dreadnought se siente voluminoso para los más pequeños",
           "Las clavijas cromadas básicas están bien en casa pero se sienten lentas bajo presión de escenario",
           "Sin cutaway, los trastes superiores son un estirón para líneas solistas"
+        ]
+      },
+      {
+        "name": "Fender American Professional II Stratocaster",
+        "name_es": "Fender American Professional II Stratocaster",
+        "pros": [
+          "V-Mod II single-coils with true SSS Strat voice",
+          "Deep C neck with narrow-tall frets for easy bending",
+          "2-point tremolo with pop-in arm stays in tune",
+          "Treble bleed keeps highs when rolling volume down"
+        ],
+        "cons": [
+          "Costs multiples of the Player II Strat",
+          "Single-coils hum under stage lights",
+          "Gloss neck finish divides satin lovers",
+          "Molded case adds to carry weight"
+        ],
+        "pros_es": [
+          "Single-coils V-Mod II con verdadera voz SSS Strat",
+          "Mástil Deep C con trastes narrow-tall fáciles de bendear",
+          "Trémolo de 2 puntos con brazo pop-in que aguanta afinación",
+          "Treble bleed mantiene agudos al bajar volumen"
+        ],
+        "cons_es": [
+          "Cuesta múltiplos de la Player II Strat",
+          "Las singles zumban bajo focos",
+          "El acabado brillante divide a amantes del satinado",
+          "El estuche añade peso al transportar"
+        ]
+      },
+      {
+        "name": "Gibson Les Paul Standard '60s",
+        "name_es": "Gibson Les Paul Standard '60s",
+        "pros": [
+          "Non-weight-relieved mahogany plus AA maple cap sustain",
+          "60s Burstbuckers with Orange Drop hand-wired controls",
+          "SlimTaper neck with 12-inch radius for fast lead work",
+          "ABR-1 bridge with aluminum stop bar resonance"
+        ],
+        "cons": [
+          "Heaviest guitar here by a wide margin",
+          "No weight relief — back and shoulder feel it",
+          "Premium price over Fender counterparts",
+          "Nitro finish needs more care than poly"
+        ],
+        "pros_es": [
+          "Caoba maciza más tapa de arce AA que sostienen el sustain",
+          "Burstbuckers 60s con controles Orange Drop cableados a mano",
+          "Mástil SlimTaper con radio de 12 pulgadas para solos rápidos",
+          "Puente ABR-1 con cordal de aluminio resonante"
+        ],
+        "cons_es": [
+          "La guitarra más pesada aquí por diferencia",
+          "Sin aligerado — espalda y hombro lo notan",
+          "Precio premium sobre contrapartes Fender",
+          "El nitro necesita más cuidado que el poli"
         ]
       }
     ],
@@ -23689,7 +23817,7 @@
           7,
           440,
           126,
-          320
+          312
         ]
       },
       {
@@ -23706,8 +23834,8 @@
     ],
     "conclusion": "Electric guitars fall into four main categories: beginner models for learning, budget guitars that punch above their price, premium instruments for professional use, and silent or direct-recording models for home studios. Start with the category that matches where you are right now — you can always upgrade later, but the right first guitar makes the difference between sticking with it and quitting.\n\n<a href=\"/guides/beginner-guitar.html\" class=\"guide-link-btn\">beginner guitar guide</a> <a href=\"/guides/best-beginner-electric-guitar.html\" class=\"guide-link-btn\">best electric guitars for beginners</a> <a href=\"/guides/fender-guide.html\" class=\"guide-link-btn\">Fender buyer's guide</a> <a href=\"/guides/american-pro-vs-les-paul.html\" class=\"guide-link-btn\">American Pro II vs Les Paul comparison</a> <a href=\"/guides/best-bass-under-700.html\" class=\"guide-link-btn\">best basses under $700</a> <a href=\"/guides/player-strat-vs-pacifica.html\" class=\"guide-link-btn\">Player Strat vs Pacifica</a> <a href=\"/guides/best-guitar-home-office.html\" class=\"guide-link-btn\">guitars for small spaces</a>",
     "conclusion_es": "Las guitarras eléctricas se dividen en cuatro categorías principales: modelos para principiantes, guitarras económicas que superan su precio, instrumentos premium para uso profesional, y modelos silenciosos o de grabación directa para estudios caseros. Empieza por la categoría que encaje con dónde estás ahora — siempre puedes actualizar después, pero la guitarra correcta marca la diferencia entre seguir tocando y dejarlo. <a href=\"/guides/beginner-guitar_es.html\" class=\"guide-link-btn\">guía de guitarra para principiantes</a> <a href=\"/guides/best-beginner-electric-guitar_es.html\" class=\"guide-link-btn\">mejores guitarras eléctricas para principiantes</a> <a href=\"/guides/fender-guide_es.html\" class=\"guide-link-btn\">guía de compras Fender</a> <a href=\"/guides/american-pro-vs-les-paul_es.html\" class=\"guide-link-btn\">comparativa American Pro II vs Les Paul</a> <a href=\"/guides/best-bass-under-700_es.html\" class=\"guide-link-btn\">mejores bajos por debajo de $700</a> <a href=\"/guides/player-strat-vs-pacifica_es.html\" class=\"guide-link-btn\">Player Strat vs Pacifica</a> <a href=\"/guides/best-guitar-home-office_es.html\" class=\"guide-link-btn\">guitarras para espacios pequeños</a>",
-    "verdict": "Beginner guitars from Yamaha and Squier for starting out, mid-range Fender Player and PRS SE for gigging, premium Gibson and PRS for professionals, and silent guitars for home recording.",
-    "verdict_es": "Guitarras de iniciación de Yamaha y Squier para empezar, Fender Player y PRS SE de gama media para tocar en vivo, Gibson y PRS premium para profesionales, y guitarras silenciosas para grabación casera.",
+    "verdict": "Beginner guitars from Yamaha and Squier for starting out, mid-range Fender Player and PRS SE for gigging, premium Gibson and PRS for professionals, and silent guitars for home recording. Also covered: Player II HSS and Telecaster workhorses, Jazzmaster offset textures, Ultra II noiseless flagship, AmPro II Tele twang, LP 60s authority, plus Squier Debut, Affinity, Classic Vibe 50s and Sonic Mustang budgets and the carbon Enya Nova Go.",
+    "verdict_es": "Guitarras de iniciación de Yamaha y Squier para empezar, Fender Player y PRS SE de gama media para tocar en vivo, Gibson y PRS premium para profesionales, y guitarras silenciosas para grabación casera. También cubiertas: Player II HSS y Telecaster de batalla, texturas offset Jazzmaster, insignia Ultra II sin ruido, twang AmPro II Tele, autoridad LP 60s, más presupuestos Squier Debut, Affinity, Classic Vibe 50s y Sonic Mustang y la Enya Nova Go de carbono.",
     "featuredProducts": [],
     "description": "Complete guide to choosing an electric guitar 2026. Covers beginner, budget, premium, and home recording models with comparisons to help you pick the",
     "featuredSnippet": {
@@ -23823,6 +23951,50 @@
         {
           "title": "PRS SE Custom 24",
           "title_es": "PRS SE Custom 24"
+        },
+        {
+          "title": "Enya Nova Go Sonic Smart Electric Guitar",
+          "title_es": "Enya Nova Go Sonic Smart Electric Guitar"
+        },
+        {
+          "title": "Squier Classic Vibe '50s Stratocaster",
+          "title_es": "Squier Classic Vibe '50s Stratocaster"
+        },
+        {
+          "title": "Squier Debut Series Stratocaster",
+          "title_es": "Squier Debut Series Stratocaster"
+        },
+        {
+          "title": "Squier Affinity Series Stratocaster",
+          "title_es": "Squier Affinity Series Stratocaster"
+        },
+        {
+          "title": "Squier Sonic Mustang",
+          "title_es": "Squier Sonic Mustang"
+        },
+        {
+          "title": "Fender Player II Jazzmaster",
+          "title_es": "Fender Player II Jazzmaster"
+        },
+        {
+          "title": "Fender Player II Stratocaster HSS",
+          "title_es": "Fender Player II Stratocaster HSS"
+        },
+        {
+          "title": "Fender Player II Telecaster",
+          "title_es": "Fender Player II Telecaster"
+        },
+        {
+          "title": "Gibson Les Paul Standard '60s",
+          "title_es": "Gibson Les Paul Standard '60s"
+        },
+        {
+          "title": "Fender American Ultra II Stratocaster",
+          "title_es": "Fender American Ultra II Stratocaster"
+        },
+        {
+          "title": "Fender American Professional II Telecaster",
+          "title_es": "Fender American Professional II Telecaster"
         }
       ],
       "rows": [
@@ -23853,6 +24025,50 @@
             {
               "value": "Best mid-range versatile guitar",
               "value_es": "La mejor guitarra versátil de gama media"
+            },
+            {
+              "value": "Indestructible smart guitar",
+              "value_es": "Guitarra inteligente indestructible"
+            },
+            {
+              "value": "Vintage vibe on budget",
+              "value_es": "Vibe vintage económico"
+            },
+            {
+              "value": "Cheapest playable Strat",
+              "value_es": "Strat tocable más barata"
+            },
+            {
+              "value": "Budget Stratocaster",
+              "value_es": "Stratocaster económica"
+            },
+            {
+              "value": "Short-scale fun",
+              "value_es": "Diversión de escala corta"
+            },
+            {
+              "value": "Offset indie textures",
+              "value_es": "Texturas indie offset"
+            },
+            {
+              "value": "Versatile HSS workhorse",
+              "value_es": "HSS versátil de batalla"
+            },
+            {
+              "value": "Twang for tracking",
+              "value_es": "Twang para grabar"
+            },
+            {
+              "value": "Classic rock authority",
+              "value_es": "Autoridad del rock clásico"
+            },
+            {
+              "value": "Flagship noiseless Strat",
+              "value_es": "Strat insignia sin ruido"
+            },
+            {
+              "value": "Pro Tele twang",
+              "value_es": "Twang Tele pro"
             }
           ]
         },
@@ -23883,6 +24099,50 @@
             {
               "value": "Mahogany with maple top",
               "value_es": "Caoba con tapa de arce"
+            },
+            {
+              "value": "Carbon fiber",
+              "value_es": "Fibra de carbono"
+            },
+            {
+              "value": "Pine",
+              "value_es": "Pino"
+            },
+            {
+              "value": "Poplar",
+              "value_es": "Álamo"
+            },
+            {
+              "value": "Poplar",
+              "value_es": "Álamo"
+            },
+            {
+              "value": "Poplar",
+              "value_es": "Álamo"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Mahogany + maple top",
+              "value_es": "Caoba + tapa de arce"
+            },
+            {
+              "value": "Select alder",
+              "value_es": "Aliso selecto"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
             }
           ]
         },
@@ -23913,6 +24173,50 @@
             {
               "value": "Maple, Wide Thin",
               "value_es": "Arce, Wide Thin"
+            },
+            {
+              "value": "Carbon, asymmetrical",
+              "value_es": "Carbono, asimétrico"
+            },
+            {
+              "value": "Maple, C shape",
+              "value_es": "Arce, forma C"
+            },
+            {
+              "value": "Maple, C shape",
+              "value_es": "Arce, forma C"
+            },
+            {
+              "value": "Maple, C shape",
+              "value_es": "Arce, forma C"
+            },
+            {
+              "value": "Maple, C shape",
+              "value_es": "Arce, forma C"
+            },
+            {
+              "value": "Maple, Modern C",
+              "value_es": "Arce, Modern C"
+            },
+            {
+              "value": "Maple, Modern C",
+              "value_es": "Arce, Modern C"
+            },
+            {
+              "value": "Maple, Modern C",
+              "value_es": "Arce, Modern C"
+            },
+            {
+              "value": "Mahogany, SlimTaper",
+              "value_es": "Caoba, SlimTaper"
+            },
+            {
+              "value": "Quartersawn maple, Modern D",
+              "value_es": "Arce cuartos, Modern D"
+            },
+            {
+              "value": "Maple, Deep C",
+              "value_es": "Arce, Deep C"
             }
           ]
         },
@@ -23943,6 +24247,50 @@
             {
               "value": "24, rosewood",
               "value_es": "24, palo rosa"
+            },
+            {
+              "value": "22, carbon fiber",
+              "value_es": "22, fibra de carbono"
+            },
+            {
+              "value": "21, maple",
+              "value_es": "21, arce"
+            },
+            {
+              "value": "21, laurel",
+              "value_es": "21, laurel"
+            },
+            {
+              "value": "21, maple/laurel",
+              "value_es": "21, arce/laurel"
+            },
+            {
+              "value": "22, maple",
+              "value_es": "22, arce"
+            },
+            {
+              "value": "22, rosewood",
+              "value_es": "22, palisandro"
+            },
+            {
+              "value": "22, maple/rosewood",
+              "value_es": "22, arce/palisandro"
+            },
+            {
+              "value": "21, maple",
+              "value_es": "21, arce"
+            },
+            {
+              "value": "22, rosewood",
+              "value_es": "22, palisandro"
+            },
+            {
+              "value": "22, ebony/maple compound",
+              "value_es": "22, ébano/arce compuesto"
+            },
+            {
+              "value": "22, maple/rosewood",
+              "value_es": "22, arce/palisandro"
             }
           ]
         },
@@ -23973,6 +24321,50 @@
             {
               "value": "85/15 'S' humbuckers",
               "value_es": "Humbuckers 85/15 'S'"
+            },
+            {
+              "value": "Alnico II/V HH",
+              "value_es": "Alnico II/V HH"
+            },
+            {
+              "value": "Fender alnico SSS",
+              "value_es": "Alnico Fender SSS"
+            },
+            {
+              "value": "Ceramic SSS",
+              "value_es": "Cerámicas SSS"
+            },
+            {
+              "value": "Ceramic SSS",
+              "value_es": "Cerámicas SSS"
+            },
+            {
+              "value": "Ceramic SS",
+              "value_es": "Cerámicas SS"
+            },
+            {
+              "value": "2x Player Alnico 5 JM",
+              "value_es": "2x Player Alnico 5 JM"
+            },
+            {
+              "value": "Player Alnico 2/5 HSS",
+              "value_es": "Player Alnico 2/5 HSS"
+            },
+            {
+              "value": "2x Player Alnico 5 single coils",
+              "value_es": "2x singles Player Alnico 5"
+            },
+            {
+              "value": "60s Burstbucker HH",
+              "value_es": "Burstbucker 60s HH"
+            },
+            {
+              "value": "Ultra II Noiseless SSS",
+              "value_es": "Ultra II Noiseless SSS"
+            },
+            {
+              "value": "V-Mod II Tele SS",
+              "value_es": "V-Mod II Tele SS"
             }
           ]
         },
@@ -24003,6 +24395,50 @@
             {
               "value": "25 in (635 mm)",
               "value_es": "25\" (635 mm)"
+            },
+            {
+              "value": "24.75 in (629 mm)",
+              "value_es": "24,75\" (629 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "24 in (610 mm)",
+              "value_es": "24\" (610 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "24.75 in (629 mm)",
+              "value_es": "24,75\" (629 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
+            },
+            {
+              "value": "25.5 in (648 mm)",
+              "value_es": "25,5\" (648 mm)"
             }
           ]
         },
@@ -24033,6 +24469,50 @@
             {
               "value": "PRS tremolo",
               "value_es": "Trémolo PRS"
+            },
+            {
+              "value": "Tune-o-matic",
+              "value_es": "Tune-o-matic"
+            },
+            {
+              "value": "Vintage tremolo",
+              "value_es": "Trémolo vintage"
+            },
+            {
+              "value": "Synchronized tremolo",
+              "value_es": "Trémolo sincronizado"
+            },
+            {
+              "value": "2-point tremolo",
+              "value_es": "Trémolo 2 puntos"
+            },
+            {
+              "value": "Hardtail",
+              "value_es": "Hardtail"
+            },
+            {
+              "value": "Floating tremolo",
+              "value_es": "Trémolo flotante"
+            },
+            {
+              "value": "2-point tremolo",
+              "value_es": "Trémolo 2 puntos"
+            },
+            {
+              "value": "3-saddle Tele",
+              "value_es": "Tele 3 selletas"
+            },
+            {
+              "value": "Tune-o-matic",
+              "value_es": "Tune-o-matic"
+            },
+            {
+              "value": "2-point tremolo",
+              "value_es": "Trémolo 2 puntos"
+            },
+            {
+              "value": "3-saddle Tele",
+              "value_es": "Tele 3 selletas"
             }
           ]
         },
@@ -24063,6 +24543,50 @@
             {
               "value": "PRS-designed",
               "value_es": "Diseñados por PRS"
+            },
+            {
+              "value": "Custom sealed",
+              "value_es": "Selladas custom"
+            },
+            {
+              "value": "Vintage-style",
+              "value_es": "Vintage"
+            },
+            {
+              "value": "Die-cast sealed",
+              "value_es": "Selladas fundidas"
+            },
+            {
+              "value": "Sealed die-cast",
+              "value_es": "Selladas fundidas"
+            },
+            {
+              "value": "Sealed die-cast",
+              "value_es": "Selladas fundidas"
+            },
+            {
+              "value": "ClassicGear",
+              "value_es": "ClassicGear"
+            },
+            {
+              "value": "Player",
+              "value_es": "Player"
+            },
+            {
+              "value": "Player",
+              "value_es": "Player"
+            },
+            {
+              "value": "Grover Rotomatic",
+              "value_es": "Grover Rotomatic"
+            },
+            {
+              "value": "Locking",
+              "value_es": "Con bloqueo"
+            },
+            {
+              "value": "Fender locking",
+              "value_es": "Fender con bloqueo"
             }
           ]
         },
@@ -24093,6 +24617,50 @@
             {
               "value": "7.6 lb (3.45 kg)",
               "value_es": "3,45 kg"
+            },
+            {
+              "value": "6.6 lb (3.0 kg)",
+              "value_es": "3,0 kg"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "7.6 lb (3.4 kg)",
+              "value_es": "3,4 kg"
+            },
+            {
+              "value": "7.3 lb (3.3 kg)",
+              "value_es": "3,3 kg"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             }
           ]
         }
@@ -24269,6 +24837,314 @@
           "El promedio de 3,5 estrellas refleja variaciones de control de calidad entre unidades",
           "No está hecha para alta ganancia extrema como la E-II",
           "El trémolo necesita un buen ajuste para mantener la afinación"
+        ]
+      },
+      {
+        "name": "Enya Nova Go Sonic Smart Electric Guitar",
+        "name_es": "Enya Nova Go Sonic Smart Electric Guitar",
+        "pros": [
+          "Carbon unibody shrugs off weather, drops and travel",
+          "10W speaker plus BT, headphone and USB-C with no amp needed",
+          "Alnico II/V humbuckers with coil-split push-pull",
+          "24.75-inch scale with 22 medium frets plays familiar"
+        ],
+        "cons": [
+          "Composite feel divides wood purists",
+          "Onboard speaker cannot replace a real amp on stage",
+          "Charging routine adds gig-day logistics",
+          "Resale market thinner than Fender or Gibson"
+        ],
+        "pros_es": [
+          "El monocasco de carbono aguanta clima, golpes y viajes",
+          "Altavoz de 10W más BT, auriculares y USB-C sin ampli",
+          "Humbuckers Alnico II/V con coil-split push-pull",
+          "Escala 24,75 con 22 trastes medios que resulta familiar"
+        ],
+        "cons_es": [
+          "El tacto composite divide a puristas de madera",
+          "El altavoz no sustituye un ampli real en escenario",
+          "La rutina de carga añade logística de bolo",
+          "Reventa más floja que Fender o Gibson"
+        ]
+      },
+      {
+        "name": "Squier Classic Vibe '50s Stratocaster",
+        "name_es": "Squier Classic Vibe '50s Stratocaster",
+        "pros": [
+          "Pine body with Fender-designed alnico pickups for real Strat chime",
+          "Narrow-tall frets with 9.5-inch radius bend easily",
+          "Vintage styling with tinted neck and aged plastics",
+          "Best fit and finish per dollar in the Squier range"
+        ],
+        "cons": [
+          "Pine dents easier than alder or ash",
+          "Vintage-style tuners without locking stability",
+          "Gloss neck gets sticky on sweaty stages",
+          "No gig bag included at this price"
+        ],
+        "pros_es": [
+          "Cuerpo de pino con alnicos Fender para el chime Strat real",
+          "Trastes narrow-tall con radio 9,5 fáciles de bendear",
+          "Estética vintage con mástil tintado y plásticos aged",
+          "Mejor acabado por euro en el rango Squier"
+        ],
+        "cons_es": [
+          "El pino se abolla antes que aliso o fresno",
+          "Clavijas vintage sin estabilidad de bloqueo",
+          "El brillo del mástil se pega en escenario",
+          "Sin funda incluida a este precio"
+        ]
+      },
+      {
+        "name": "Squier Debut Series Stratocaster",
+        "name_es": "Squier Debut Series Stratocaster",
+        "pros": [
+          "Lowest-priced playable full-size Strat",
+          "Light poplar body with comfy C neck",
+          "Simple volume-tone controls for beginners",
+          "Real 25.5-inch scale transfers technique"
+        ],
+        "cons": [
+          "Ceramic pickups sound thin next to alnico",
+          "Basic hardware wears faster with use",
+          "21 frets limit high-register soloing",
+          "Factory setup often needs a tech visit"
+        ],
+        "pros_es": [
+          "La Strat de tamaño real tocable más barata",
+          "Cuerpo ligero de álamo con mástil C cómodo",
+          "Controles simples volumen-tono para principiantes",
+          "Escala real 25,5 que transfiere técnica"
+        ],
+        "cons_es": [
+          "Las cerámicas suenan finas junto a alnico",
+          "El hardware básico se gasta antes con uso",
+          "21 trastes limitan solos agudos",
+          "El ajuste de fábrica suele pedir luthier"
+        ]
+      },
+      {
+        "name": "Squier Affinity Series Stratocaster",
+        "name_es": "Squier Affinity Series Stratocaster",
+        "pros": [
+          "Thin lightweight body with 2-point tremolo",
+          "Sealed die-cast tuners with split shafts hold tune",
+          "Comfortable slim C neck for small hands",
+          "Upgradable platform with standard parts"
+        ],
+        "cons": [
+          "Ceramic pickups lack alnico complexity",
+          "Thin body resonates less than full-depth Strats",
+          "Electronics beg for upgrades within a year",
+          "Fretwork varies unit to unit"
+        ],
+        "pros_es": [
+          "Cuerpo fino y ligero con trémolo de 2 puntos",
+          "Clavijas selladas con eje partido que aguantan",
+          "Mástil C fino cómodo para manos pequeñas",
+          "Plataforma mejorable con piezas estándar"
+        ],
+        "cons_es": [
+          "Las cerámicas carecen de complejidad alnico",
+          "El cuerpo fino resuena menos que un Strat pleno",
+          "La electrónica pide mejora antes del año",
+          "Los trastes varían de unidad a unidad"
+        ]
+      },
+      {
+        "name": "Squier Sonic Mustang",
+        "name_es": "Squier Sonic Mustang",
+        "pros": [
+          "24-inch short scale suits small hands and beginners",
+          "Light poplar body with hardtail tuning stability",
+          "Two ceramic single-coils with clear Mustang voice",
+          "Cheapest offset route into Fender style"
+        ],
+        "cons": [
+          "Short scale crowds wide chord stretches",
+          "Ceramic pickups sound bright and thin clean",
+          "Basic sealed tuners with no locking",
+          "No tremolo option on this model"
+        ],
+        "pros_es": [
+          "Escala corta de 24 pulgadas para manos pequeñas",
+          "Cuerpo ligero de álamo con hardtail estable",
+          "Dos singles cerámicas con voz Mustang clara",
+          "La ruta offset más barata al estilo Fender"
+        ],
+        "cons_es": [
+          "La escala corta aprieta aperturas amplias",
+          "Las cerámicas suenan brillantes y finas en limpio",
+          "Clavijas selladas básicas sin bloqueo",
+          "Sin opción de trémolo en este modelo"
+        ]
+      },
+      {
+        "name": "Fender Player II Jazzmaster",
+        "name_es": "Fender Player II Jazzmaster",
+        "pros": [
+          "Player Alnico V JM pickups with surf-to-shoegaze range",
+          "Floating tremolo with Mustang saddles stays musical",
+          "Modern C neck with 9.5-inch rosewood board",
+          "Offset looks that stand out on any stage"
+        ],
+        "cons": [
+          "Jazzmaster quirks need setup knowledge",
+          "Bridge buzzes without proper setup",
+          "Heavier than a Mustang for long sets",
+          "No rhythm circuit — purists notice"
+        ],
+        "pros_es": [
+          "Pastillas Player Alnico V JM del surf al shoegaze",
+          "Trémolo flotante con selletas Mustang musical",
+          "Mástil Modern C con palisandro de 9,5",
+          "Estética offset que destaca en escenario"
+        ],
+        "cons_es": [
+          "Los caprichos Jazzmaster piden saber ajustar",
+          "El puente zumba sin buen ajuste",
+          "Más pesada que una Mustang en sets largos",
+          "Sin circuito rítmico — los puristas lo notan"
+        ]
+      },
+      {
+        "name": "Fender Player II Stratocaster HSS",
+        "name_es": "Fender Player II Stratocaster HSS",
+        "pros": [
+          "Humbucker bridge adds rock weight to Strat versatility",
+          "Alnico 2 neck plus Alnico 5 bridge balance well",
+          "Modern C neck suits most hand sizes",
+          "Best sub-$1000 HSS value in the Fender line"
+        ],
+        "cons": [
+          "No coil split stock for single-coil cleans",
+          "Single-coils hum under stage lights",
+          "Tremolo setup takes patience for beginners",
+          "Poly finish scratches show on dark colors"
+        ],
+        "pros_es": [
+          "La humbucker añade peso rock a la versatilidad Strat",
+          "Alnico 2 en mástil más Alnico 5 en puente equilibran bien",
+          "Mástil Modern C para casi todas las manos",
+          "Mejor HSS sub-$1000 de la línea Fender"
+        ],
+        "cons_es": [
+          "Sin split de serie para limpios single",
+          "Las singles zumban bajo focos",
+          "Ajustar el trémolo pide paciencia al empezar",
+          "Los arañazos se notan en colores oscuros"
+        ]
+      },
+      {
+        "name": "Fender Player II Telecaster",
+        "name_es": "Fender Player II Telecaster",
+        "pros": [
+          "Alnico 5 Tele pickups with classic twang and snap",
+          "Simple slab body with workhorse reliability",
+          "Modern C neck plays fast in any genre",
+          "Holds tuning well for the price point"
+        ],
+        "cons": [
+          "Single-coils hum with gain and lights",
+          "21 frets limit the very top register",
+          "Slab body digs ribs without contours",
+          "Ashtray bridge limits palm mute comfort"
+        ],
+        "pros_es": [
+          "Pastillas Alnico 5 Tele con twang clásico",
+          "Cuerpo slab simple y fiable de batalla",
+          "Mástil Modern C rápido en cualquier género",
+          "Aguanta afinación por su precio"
+        ],
+        "cons_es": [
+          "Las singles zumban con ganancia y focos",
+          "21 trastes limitan el registro agudo",
+          "El slab se clava sin contornos",
+          "El puente cenicero incomoda el palm mute"
+        ]
+      },
+      {
+        "name": "Gibson Les Paul Standard '60s",
+        "name_es": "Gibson Les Paul Standard '60s",
+        "pros": [
+          "Non-weight-relieved mahogany plus AA maple cap sustain",
+          "60s Burstbuckers with Orange Drop hand-wired controls",
+          "SlimTaper neck with 12-inch radius for fast lead work",
+          "ABR-1 bridge with aluminum stop bar resonance"
+        ],
+        "cons": [
+          "Heaviest guitar here by a wide margin",
+          "No weight relief — back and shoulder feel it",
+          "Premium price over Fender counterparts",
+          "Nitro finish needs more care than poly"
+        ],
+        "pros_es": [
+          "Caoba maciza más tapa de arce AA que sostienen el sustain",
+          "Burstbuckers 60s con controles Orange Drop cableados a mano",
+          "Mástil SlimTaper con radio de 12 pulgadas para solos rápidos",
+          "Puente ABR-1 con cordal de aluminio resonante"
+        ],
+        "cons_es": [
+          "La guitarra más pesada aquí por diferencia",
+          "Sin aligerado — espalda y hombro lo notan",
+          "Precio premium sobre contrapartes Fender",
+          "El nitro necesita más cuidado que el poli"
+        ]
+      },
+      {
+        "name": "Fender American Ultra II Stratocaster",
+        "name_es": "Fender American Ultra II Stratocaster",
+        "pros": [
+          "Ultra II Noiseless pickups with true single-coil voice, zero hum",
+          "Modern D quartersawn neck with 10-14-inch compound radius",
+          "S-1 switch plus locking tuners for studio versatility",
+          "Sculpted contours with neck-heel access up top"
+        ],
+        "cons": [
+          "Flagship price far above Player series",
+          "Noiseless voicing divides vintage purists",
+          "Compound radius setup confuses some techs",
+          "Anodized guard scratches show easily"
+        ],
+        "pros_es": [
+          "Pastillas Ultra II Noiseless con voz single real, cero ruido",
+          "Mástil Modern D de cuartos con radio compuesto 10-14",
+          "Switch S-1 más clavijas de bloqueo versátiles",
+          "Contornos esculpidos con acceso al talón"
+        ],
+        "cons_es": [
+          "Precio insignia muy por encima de Player",
+          "La voz noiseless divide a puristas vintage",
+          "El radio compuesto confunde a algunos técnicos",
+          "Los arañazos se notan en el golpeador"
+        ]
+      },
+      {
+        "name": "Fender American Professional II Telecaster",
+        "name_es": "Fender American Professional II Telecaster",
+        "pros": [
+          "V-Mod II Tele pickups with articulate twang and snap",
+          "Top-load/string-through bullet bridge for feel options",
+          "Deep C neck with narrow-tall frets bends easy",
+          "Treble bleed keeps highs when rolling volume down"
+        ],
+        "cons": [
+          "Costs multiples of the Player II Tele",
+          "Single-coils still hum with gain",
+          "No belly contour on the slab body",
+          "Molded case adds travel weight"
+        ],
+        "pros_es": [
+          "Pastillas V-Mod II Tele con twang articulado",
+          "Puente top-load/string-through para opciones de tacto",
+          "Mástil Deep C con narrow-tall fáciles de bendear",
+          "Treble bleed mantiene agudos al bajar volumen"
+        ],
+        "cons_es": [
+          "Cuesta múltiplos de la Player II Tele",
+          "Las singles aún zumban con ganancia",
+          "Sin contour ventral en el slab",
+          "El estuche añade peso de viaje"
         ]
       }
     ],
@@ -55585,7 +56461,7 @@
         "content": "<strong>Every guitarist needs the two core tones: Fender chime and Gibson crunch.</strong> The Fender American Ultra II Stratocaster is Fender's most advanced Strat ever. Ultra II Noiseless Vintage pickups with S-1 switching deliver 10 voicings — from glassy cleans to fat humbucker tones. The sculpted neck heel and compound-radius ebony fingerboard make it the most playable Strat I have ever touched. The Gibson Les Paul Standard '60s is the guitar that defined rock — Burstbucker pickups, a hand-wired harness, and that thick, sustaining mahogany/maple construction. Together, they cover every electric guitar tone you will ever need.",
         "content_es": "<strong>Todo guitarrista necesita los dos tonos que todo guitarrista domina: el brillo Fender y la contundencia Gibson.</strong> La Fender American Ultra II Stratocaster es la Strat más avanzada de Fender. Las pastillas Ultra II Noiseless Vintage con conmutación S-1 ofrecen 10 voces — desde limpios cristalinos hasta tonos gruesos de humbucker. El talón esculpido y el diapasón de ébano de radio compuesto la convierten en la Strat más tocable que jamás he probado. La Gibson Les Paul Standard '60s es la guitarra de rock por excelencia — pastillas Burstbucker, cableado a mano y esa construcción gruesa y sostenida de caoba/arce. Juntas cubren cada tono de guitarra eléctrica que necesitarás.",
         "products": [
-          184,
+          440,
           7,
           6,
           440,
@@ -55602,7 +56478,7 @@
         "content": "<strong>Fender's most advanced Stratocaster ever.</strong> Ultra II Noiseless Vintage pickups with S-1 switching deliver 10 voicings — from pristine cleans to searing leads. The sculpted neck heel, compound-radius ebony fingerboard, and locking tuners make it the most playable Strat ever created. A professional Strat that works across any genre.",
         "content_es": "<strong>La Stratocaster más avanzada de Fender.</strong> Pastillas Ultra II Noiseless Vintage con conmutación S-1 ofrecen 10 voces — desde limpios prístinos hasta leads estridentes. El talón esculpido, diapasón de ébano de radio compuesto y afinadores de bloqueo la convierten en la Strat más tocable jamás creada. Una Strat profesional que funciona en cualquier género.",
         "products": [
-          184
+          440
         ]
       },
       {
