@@ -40135,6 +40135,18 @@
         {
           "title": "Orange Crush 35RT",
           "title_es": "Orange Crush 35RT"
+        },
+        {
+          "title": "Yamaha THR10II",
+          "title_es": "Yamaha THR10II"
+        },
+        {
+          "title": "Positive Grid Spark 2",
+          "title_es": "Positive Grid Spark 2"
+        },
+        {
+          "title": "Boss Waza-Air",
+          "title_es": "Boss Waza-Air"
         }
       ],
       "rows": [
@@ -40153,6 +40165,18 @@
             {
               "value": "Warm tones & built-in reverb for home",
               "value_es": "Tonos cálidos con reverb integrado para casa"
+            },
+            {
+              "value": "Desktop tone with Bluetooth",
+              "value_es": "Tono de sobremesa con Bluetooth"
+            },
+            {
+              "value": "Smart fun with app",
+              "value_es": "Diversión inteligente con app"
+            },
+            {
+              "value": "Silent wireless practice",
+              "value_es": "Práctica silenciosa inalámbrica"
             }
           ]
         },
@@ -40171,6 +40195,18 @@
             {
               "value": "Solid-state",
               "value_es": "Estado sólido"
+            },
+            {
+              "value": "Desktop modeling",
+              "value_es": "Modelado de sobremesa"
+            },
+            {
+              "value": "Smart modeling combo",
+              "value_es": "Combo inteligente"
+            },
+            {
+              "value": "Wireless headphone amp",
+              "value_es": "Ampli inalámbrico de auriculares"
             }
           ]
         },
@@ -40189,6 +40225,18 @@
             {
               "value": "35W",
               "value_es": "35W"
+            },
+            {
+              "value": "20W",
+              "value_es": "20W"
+            },
+            {
+              "value": "50W RMS",
+              "value_es": "50W RMS"
+            },
+            {
+              "value": "Battery (5h)",
+              "value_es": "Batería (5h)"
             }
           ]
         },
@@ -40207,6 +40255,18 @@
             {
               "value": "2",
               "value_es": "2"
+            },
+            {
+              "value": "5 amp types (+10 via app)",
+              "value_es": "5 amplis (+10 por app)"
+            },
+            {
+              "value": "Amp models via app",
+              "value_es": "Modelos por app"
+            },
+            {
+              "value": "5 Katana amps + 50 FX",
+              "value_es": "5 amplis Katana + 50 FX"
             }
           ]
         },
@@ -40225,6 +40285,18 @@
             {
               "value": "1x10\" Voice of the World",
               "value_es": "1x10\" Voice of the World"
+            },
+            {
+              "value": "2x3.1\"",
+              "value_es": "2x3,1\""
+            },
+            {
+              "value": "2x4\"",
+              "value_es": "2x4\""
+            },
+            {
+              "value": "50mm headphone drivers",
+              "value_es": "Drivers de 50 mm"
             }
           ]
         },
@@ -40243,6 +40315,18 @@
             {
               "value": "Headphones, AUX in",
               "value_es": "Auriculares, entrada AUX"
+            },
+            {
+              "value": "Phones, USB, AUX",
+              "value_es": "Auriculares, USB, AUX"
+            },
+            {
+              "value": "Phones, USB, line outs",
+              "value_es": "Auriculares, USB, salidas"
+            },
+            {
+              "value": "Phones only, USB charge",
+              "value_es": "Solo auriculares, carga USB"
             }
           ]
         },
@@ -40261,6 +40345,18 @@
             {
               "value": "Built-in reverb",
               "value_es": "Reverb integrado"
+            },
+            {
+              "value": "Reverb, chorus, delay + app",
+              "value_es": "Reverb, chorus, delay + app"
+            },
+            {
+              "value": "App FX + looper",
+              "value_es": "FX por app + looper"
+            },
+            {
+              "value": "Spatial + 50 FX via app",
+              "value_es": "Espacial + 50 FX por app"
             }
           ]
         },
@@ -40279,6 +40375,18 @@
             {
               "value": "25.8 lb (11.7 kg)",
               "value_es": "11,7 kg"
+            },
+            {
+              "value": "3.0 kg (6.6 lb)",
+              "value_es": "3,0 kg"
+            },
+            {
+              "value": "5.5 kg (12.1 lb)",
+              "value_es": "5,5 kg"
+            },
+            {
+              "value": "320 g",
+              "value_es": "320 g"
             }
           ]
         }
@@ -40368,6 +40476,90 @@
           "11,7 kg es el combo más pesado de los tres",
           "Solo canales clean/dirty: sin modelado ni control por app"
         ]
+      },
+      {
+        "name": "Yamaha THR10II",
+        "name_es": "Yamaha THR10II",
+        "pros": [
+          "Hi-fi stereo sound from 2x3.1-inch speakers doubles as Bluetooth speaker",
+          "15 amp models with app editing plus acoustic, bass and flat modes",
+          "USB recording out of the box with Extended Stereo playback",
+          "Loved by desktop players for a decade of refinements"
+        ],
+        "cons": [
+          "20W will not gig without PA support",
+          "AC outlet required — no battery onboard",
+          "Small speakers thin out at volume",
+          "App needed for deep editing"
+        ],
+        "pros_es": [
+          "Sonido estéreo hi-fi con 2x3,1 pulgadas que sirve de altavoz Bluetooth",
+          "15 amplis con edición por app más modos acústico, bajo y plano",
+          "Grabación USB directa con reproducción estéreo extendida",
+          "Querido por usuarios de escritorio tras una década de refinamientos"
+        ],
+        "cons_es": [
+          "20W no dan para bolos sin PA",
+          "Necesita enchufe — sin batería a bordo",
+          "Los altavoces pequeños adelgazan a volumen",
+          "La app es necesaria para edición profunda"
+        ]
+      },
+      {
+        "name": "Positive Grid Spark 2",
+        "name_es": "Positive Grid Spark 2",
+        "pros": [
+          "Loudest desktop amp here with 50W RMS and 120dB peak",
+          "Looper plus app backing tracks for endless jamming",
+          "Line outs plus USB for recording and PA",
+          "Stereo 2x4-inch speakers with real low end"
+        ],
+        "cons": [
+          "Battery sold separately, not included",
+          "5.5 kg — least portable of the desktop trio",
+          "App required for full FX control",
+          "Mono instrument input only"
+        ],
+        "pros_es": [
+          "El ampli de escritorio más potente aquí con 50W RMS y 120dB de pico",
+          "Looper más pistas de la app para jamear sin fin",
+          "Salidas de línea más USB para grabar y PA",
+          "Estéreo 2x4 pulgadas con graves reales"
+        ],
+        "cons_es": [
+          "La batería se vende por separado",
+          "5,5 kg — el menos portable del trío",
+          "La app es necesaria para control total de FX",
+          "Solo una entrada de instrumento"
+        ]
+      },
+      {
+        "name": "Boss Waza-Air",
+        "name_es": "Boss Waza-Air",
+        "pros": [
+          "Total silence with amp-in-room gyro sound",
+          "No cables at all — wireless transmitter included",
+          "5 Katana amps plus 50 FX via Tone Studio app",
+          "5-hour battery with Bluetooth streaming onboard"
+        ],
+        "cons": [
+          "Headphones only — never fills a room",
+          "320g on the head gets heavy in long sessions",
+          "Two devices to keep charged",
+          "Premium price for a practice tool"
+        ],
+        "pros_es": [
+          "Silencio total con sonido amp-in-room por giroscopio",
+          "Cero cables — transmisor inalámbrico incluido",
+          "5 amplis Katana más 50 FX por la app Tone Studio",
+          "5 horas de batería con streaming Bluetooth"
+        ],
+        "cons_es": [
+          "Solo auriculares — nunca llena una sala",
+          "320 g en la cabeza pesan en sesiones largas",
+          "Dos aparatos que mantener cargados",
+          "Precio premium para practicar"
+        ]
       }
     ],
     "datePublished": "2026-08-19"
@@ -40432,8 +40624,8 @@
         ]
       }
     ],
-    "conclusion": "The Ampeg RB-210 is the complete Ampeg combo — 450W of solid-state power through a 2x10 with the Super Grit Technology overdrive for that SVT grind. The Fender Rumble 500 V3 is the lightweight portable standard that every gigging bassist should consider, and the Markbass Mini CMD 121P V is the iconic pro combo if lightweight premium tone is your priority. For modern options, the Darkglass DG210A brings the Microtubes 500 Class-D head into a punchy 2x10 with cab-emulated XLR for the tone purist, the Positive Grid Spark LIVE is a 150W smart combo, mini PA and studio speaker in one wireless box, and the Orange Crush Bass 50 is the value analog pick with a sweepable semi-parametric mid control that cuts through any mix. <p><a href=\"/guides/precision-vs-jazz.html\" class=\"guide-link-btn\">P-Bass vs J-Bass</a> <a href=\"/guides/beginner-bass-guitars.html\" class=\"guide-link-btn\">Best Bass for Beginners</a> <a href=\"/guides/fender-bass-guide.html\" class=\"guide-link-btn\">Fender Bass Guide</a></p>",
-    "conclusion_es": "El Ampeg RB-210 es el combo Ampeg completo — 450W de potencia de estado sólido a través de un 2x10 con el overdrive Super Grit Technology para ese grind del SVT. El Fender Rumble 500 es el estándar portátil ligero que todo bajista de directo debería considerar, y el Markbass Mini CMD 121P V es el combo profesional icónico si tu prioridad es un tono premium y ligero. Y si buscas opciones modernas, el Darkglass DG210A mete el cabezal Microtubes 500 de Clase D en un 2x10 contundente con XLR con emulación de cabina para el purista del tono, el Positive Grid Spark LIVE es un combo inteligente de 150W, mini PA y altavoz de estudio en una sola caja inalámbrica, y el Orange Crush Bass 50 es el analógico con mejor relación precio-calidad gracias a su control paramétrico de medios ajustable, que hace que el bajo se abra paso en cualquier mezcla. <p>También te interesa: <a href=\"/guides/precision-vs-jazz_es.html\" class=\"guide-link-btn\">P-Bass vs J-Bass</a> <a href=\"/guides/beginner-bass-guitars_es.html\" class=\"guide-link-btn\">Mejores Bajos para Principiantes</a> <a href=\"/guides/fender-bass-guide_es.html\" class=\"guide-link-btn\">Guía de Bajos Fender</a></p>",
+    "conclusion": "The Ampeg RB-210 is the complete Ampeg combo — 500W of solid-state power through a 2x10 with the Super Grit Technology overdrive for that SVT grind. The Fender Rumble 500 V3 is the lightweight portable standard that every gigging bassist should consider, and the Markbass Mini CMD 121P V is the iconic pro combo if lightweight premium tone is your priority. For modern options, the Darkglass DG210A brings the Microtubes 500 Class-D head into a punchy 2x10 with cab-emulated XLR for the tone purist, the Positive Grid Spark LIVE is a 150W smart combo, mini PA and studio speaker in one wireless box, and the Orange Crush Bass 50 is the value analog pick with a sweepable semi-parametric mid control that cuts through any mix. <p><a href=\"/guides/precision-vs-jazz.html\" class=\"guide-link-btn\">P-Bass vs J-Bass</a> <a href=\"/guides/beginner-bass-guitars.html\" class=\"guide-link-btn\">Best Bass for Beginners</a> <a href=\"/guides/fender-bass-guide.html\" class=\"guide-link-btn\">Fender Bass Guide</a></p>",
+    "conclusion_es": "El Ampeg RB-210 es el combo Ampeg completo — 500W de potencia de estado sólido a través de un 2x10 con el overdrive Super Grit Technology para ese grind del SVT. El Fender Rumble 500 es el estándar portátil ligero que todo bajista de directo debería considerar, y el Markbass Mini CMD 121P V es el combo profesional icónico si tu prioridad es un tono premium y ligero. Y si buscas opciones modernas, el Darkglass DG210A mete el cabezal Microtubes 500 de Clase D en un 2x10 contundente con XLR con emulación de cabina para el purista del tono, el Positive Grid Spark LIVE es un combo inteligente de 150W, mini PA y altavoz de estudio en una sola caja inalámbrica, y el Orange Crush Bass 50 es el analógico con mejor relación precio-calidad gracias a su control paramétrico de medios ajustable, que hace que el bajo se abra paso en cualquier mezcla. <p>También te interesa: <a href=\"/guides/precision-vs-jazz_es.html\" class=\"guide-link-btn\">P-Bass vs J-Bass</a> <a href=\"/guides/beginner-bass-guitars_es.html\" class=\"guide-link-btn\">Mejores Bajos para Principiantes</a> <a href=\"/guides/fender-bass-guide_es.html\" class=\"guide-link-btn\">Guía de Bajos Fender</a></p>",
     "verdict": "The Rumble 500 is the portability pick with lightweight power for gigging bassists. The RB-210 is classic Ampeg tone in a complete combo, and the Markbass Mini CMD 121P V is the iconic lightweight tone pros reach for. The Darkglass DG210A is the modern pro choice for massive, cab-ready low end, the Spark LIVE is the versatile 4-in-1 smart amp for rehearsals and silent practice, and the Orange Crush Bass 50 is the budget analog combo that cuts through any mix.",
     "verdict_es": "El Rumble 500 es la opción de portabilidad con potencia ligera para bajistas de directo. El RB-210 es el tono clásico Ampeg en un combo completo, y el Markbass Mini CMD 121P V es el tono ligero icónico al que recurren los pros. El Darkglass DG210A es la elección pro moderna para unos graves enormes y listos para la mesa de mezclas, el Spark LIVE es el amplificador inteligente 4 en 1 versátil para ensayos y práctica silenciosa, y el Orange Crush Bass 50 es el combo analógico económico que se abre paso en cualquier mezcla.",
     "featuredProducts": [
@@ -40545,6 +40737,18 @@
         {
           "title": "Markbass Mini CMD 121P V",
           "title_es": "Markbass Mini CMD 121P V"
+        },
+        {
+          "title": "Positive Grid Spark LIVE",
+          "title_es": "Positive Grid Spark LIVE"
+        },
+        {
+          "title": "Orange Crush Bass 50",
+          "title_es": "Orange Crush Bass 50"
+        },
+        {
+          "title": "Darkglass DG210A Microtubes 500",
+          "title_es": "Darkglass DG210A Microtubes 500"
         }
       ],
       "rows": [
@@ -40563,6 +40767,18 @@
             {
               "value": "Lightweight pro bass combo",
               "value_es": "Combo de bajo profesional ligero"
+            },
+            {
+              "value": "Smart rehearsals and silent practice",
+              "value_es": "Ensayos inteligentes y práctica silenciosa"
+            },
+            {
+              "value": "Analog tone on a budget",
+              "value_es": "Tono analógico económico"
+            },
+            {
+              "value": "Modern pro stage power",
+              "value_es": "Potencia pro moderna"
             }
           ]
         },
@@ -40581,6 +40797,18 @@
             {
               "value": "Solid-state, 250W",
               "value_es": "Estado sólido, 250W"
+            },
+            {
+              "value": "Smart modeling combo + PA",
+              "value_es": "Combo inteligente + PA"
+            },
+            {
+              "value": "All-analog solid-state",
+              "value_es": "Estado sólido analógico"
+            },
+            {
+              "value": "Analog Class-D, 500W",
+              "value_es": "Analógico Clase D, 500W"
             }
           ]
         },
@@ -40599,6 +40827,18 @@
             {
               "value": "250W",
               "value_es": "250W"
+            },
+            {
+              "value": "150W",
+              "value_es": "150W"
+            },
+            {
+              "value": "50W",
+              "value_es": "50W"
+            },
+            {
+              "value": "500W (4Ω)",
+              "value_es": "500W (4Ω)"
             }
           ]
         },
@@ -40613,6 +40853,18 @@
             {
               "value": "1 (2 modes)",
               "value_es": "1 (2 modos)"
+            },
+            {
+              "value": "1",
+              "value_es": "1"
+            },
+            {
+              "value": "1 + app models",
+              "value_es": "1 + modelos por app"
+            },
+            {
+              "value": "1",
+              "value_es": "1"
             },
             {
               "value": "1",
@@ -40635,6 +40887,18 @@
             {
               "value": "1x12\" + tweeter",
               "value_es": "1x12\" + tweeter"
+            },
+            {
+              "value": "Full-range smart speaker",
+              "value_es": "Altavoz inteligente"
+            },
+            {
+              "value": "1x12\"",
+              "value_es": "1x12\""
+            },
+            {
+              "value": "2x10\" Eminence + horn",
+              "value_es": "2x10\" Eminence + trompeta"
             }
           ]
         },
@@ -40653,6 +40917,18 @@
             {
               "value": "XLR D.I., headphones",
               "value_es": "D. I. XLR, auriculares"
+            },
+            {
+              "value": "Phones, USB, line outs",
+              "value_es": "Auriculares, USB, salidas"
+            },
+            {
+              "value": "XLR DI, FX loop, phones, tuner",
+              "value_es": "XLR DI, loop, auriculares, afinador"
+            },
+            {
+              "value": "XLR DI, phones, ext. cab out",
+              "value_es": "XLR DI, auriculares, salida cabina"
             }
           ]
         },
@@ -40671,6 +40947,18 @@
             {
               "value": "None",
               "value_es": "Ninguno"
+            },
+            {
+              "value": "App FX and models",
+              "value_es": "FX y modelos por app"
+            },
+            {
+              "value": "Overdrive + 3-band sweepable EQ",
+              "value_es": "Overdrive + EQ 3 bandas barrido"
+            },
+            {
+              "value": "VMT/B3K drives + 4-band EQ",
+              "value_es": "Drives VMT/B3K + EQ 4 bandas"
             }
           ]
         },
@@ -40689,6 +40977,18 @@
             {
               "value": "26.6 lb (12.1 kg)",
               "value_es": "12,1 kg"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "14.45 kg (31.9 lb)",
+              "value_es": "14,45 kg"
+            },
+            {
+              "value": "17.3 kg (38.1 lb)",
+              "value_es": "17,3 kg"
             }
           ]
         }
@@ -40781,6 +41081,90 @@
           "Un solo altavoz de 12 pulgadas tiene menos área de cono que el 2x10 del Rumble",
           "Sin overdrive ni efectos integrados — tono orientado a la limpieza",
           "El tweeter piezo brillante no es para quienes buscan solo sub-graves puros"
+        ]
+      },
+      {
+        "name": "Positive Grid Spark LIVE",
+        "name_es": "Positive Grid Spark LIVE",
+        "pros": [
+          "150W combo, mini PA and streamer in one wireless box",
+          "App tones with Bluetooth streaming built in",
+          "USB recording plus silent headphone practice",
+          "Lighter rig than any 2x10 combo here"
+        ],
+        "cons": [
+          "Modeling feel divides analog purists",
+          "Deep control lives in the app",
+          "Single-box bass cannot move 4x10 air",
+          "Premium price for the feature set"
+        ],
+        "pros_es": [
+          "Combo de 150W, mini PA y streamer en una caja inalámbrica",
+          "Tonos por app con streaming Bluetooth integrado",
+          "Grabación USB más práctica silenciosa con auriculares",
+          "Equipo más ligero que cualquier 2x10 de aquí"
+        ],
+        "cons_es": [
+          "El tacto digital divide a puristas analógicos",
+          "El control profundo vive en la app",
+          "Una sola caja no mueve el aire de un 4x10",
+          "Precio premium por las funciones"
+        ]
+      },
+      {
+        "name": "Orange Crush Bass 50",
+        "name_es": "Orange Crush Bass 50",
+        "pros": [
+          "All-analog Orange tone through a 12-inch speaker",
+          "Sweepable parametric mid cuts any mix",
+          "CabSim headphone out plus tuner and FX loop aboard",
+          "Gig-ready volume for rehearsals and small shows"
+        ],
+        "cons": [
+          "31.9 lb — heaviest small combo here",
+          "Single channel with no presets",
+          "Footswitch sold separately",
+          "No USB recording onboard"
+        ],
+        "pros_es": [
+          "Tono Orange analógico con altavoz de 12 pulgadas",
+          "Medio paramétrico barrido que corta cualquier mezcla",
+          "Salida CabSim más afinador y loop a bordo",
+          "Volumen de bolo para ensayos y salas pequeñas"
+        ],
+        "cons_es": [
+          "14,45 kg — el combo pequeño más pesado aquí",
+          "Un solo canal sin presets",
+          "Pedal vendido por separado",
+          "Sin grabación USB a bordo"
+        ]
+      },
+      {
+        "name": "Darkglass DG210A Microtubes 500",
+        "name_es": "Darkglass DG210A Microtubes 500",
+        "pros": [
+          "500W Microtubes analog power with VMT/B3K drives",
+          "Cab-emulated XLR DI straight to front of house",
+          "Eminence 2x10 plus horn punch with 4-band EQ",
+          "Compressor and effects loop aboard"
+        ],
+        "cons": [
+          "$1,230 premium price",
+          "38 lb to carry to the gig",
+          "Needs an extra cab for the full 500W",
+          "Analog only — no presets or app"
+        ],
+        "pros_es": [
+          "500W analógicos Microtubes con drives VMT/B3K",
+          "XLR con emulación de cabina directo a mesa",
+          "Pegada Eminence 2x10 más trompeta con EQ de 4 bandas",
+          "Compresor y loop de efectos a bordo"
+        ],
+        "cons_es": [
+          "Precio premium de $1.230",
+          "17,3 kg hasta el bolo",
+          "Necesita otra cabina para los 500W completos",
+          "Solo analógico — sin presets ni app"
         ]
       }
     ],
@@ -42483,10 +42867,10 @@
         "heading_es": "Mejor mezclador analógico para más canales"
       }
     ],
-    "conclusion": "The Yamaha MG10XU is the perfect analog mixer for small gigs and beginners. The Behringer X32 Compact is the world's most popular digital mixer for bands — versatile, powerful, and affordable. The Allen & Heath SQ-5 is the premium choice for touring professionals who demand the best preamps and build quality. <p><a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/stage-wireless.html\" class=\"guide-link-btn\">Best Wireless Microphone Systems for Stage</a></p>",
-    "conclusion_es": "El Yamaha MG10XU es perfecto para pequeños conciertos. El Behringer X32 Compact es el más popular y versátil. El Allen & Heath SQ-5 es la opción premium. <p>También te interesa: <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/stage-wireless_es.html\" class=\"guide-link-btn\">Mejores Micrófonos Inalámbricos para Escenario</a></p>",
-    "verdict": "The X32 Compact is one of the band-versatility kings with effects and routing for almost any gig. The MG10XU covers small gigs on a budget, and the SQ-5 is the pro touring pick with superior audio quality.",
-    "verdict_es": "El X32 Compact es uno de los reyes de la versatilidad para bandas, con efectos y enrutamiento para casi cualquier concierto. El MG10XU cubre conciertos pequeños con presupuesto, y el SQ-5 es la opción pro para giras con calidad de audio superior.",
+    "conclusion": "The Yamaha MG10XU is the perfect analog mixer for small gigs and beginners. The Behringer X32 Compact is the world's most popular digital mixer for bands — versatile, powerful, and affordable. The Allen & Heath SQ-5 is the premium choice for touring professionals who demand the best preamps and build quality. Need more channels in analog? The MG16XU doubles the MG10XU. Going stageless? The XR18 lives in a rack, and the CQ-18T mixes from its own touchscreen. <p><a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/stage-wireless.html\" class=\"guide-link-btn\">Best Wireless Microphone Systems for Stage</a></p>",
+    "conclusion_es": "El Yamaha MG10XU es perfecto para pequeños conciertos. El Behringer X32 Compact es el más popular y versátil. El Allen & Heath SQ-5 es la opción premium. ¿Necesitas más canales en analógico? El MG16XU dobla al MG10XU. ¿Sin escenario? El XR18 vive en un rack y el CQ-18T mezcla desde su pantalla. <p>También te interesa: <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/stage-wireless_es.html\" class=\"guide-link-btn\">Mejores Micrófonos Inalámbricos para Escenario</a></p>",
+    "verdict": "The X32 Compact is one of the band-versatility kings with effects and routing for almost any gig. The MG10XU covers small gigs on a budget, and the SQ-5 is the pro touring pick with superior audio quality. MG16XU is the analog step-up with 16 channels, XR18 the rack stagebox value, CQ-18T the touchscreen modern pick.",
+    "verdict_es": "El X32 Compact es uno de los reyes de la versatilidad para bandas, con efectos y enrutamiento para casi cualquier concierto. El MG10XU cubre conciertos pequeños con presupuesto, y el SQ-5 es la opción pro para giras con calidad de audio superior. MG16XU es el salto analógico con 16 canales, XR18 el stagebox en rack, CQ-18T la opción táctil moderna.",
     "featuredProducts": [
       137,
       332,
@@ -42609,6 +42993,18 @@
         {
           "title": "Korg SoundLink MW-1608",
           "title_es": "Korg SoundLink MW-1608"
+        },
+        {
+          "title": "Yamaha MG16XU",
+          "title_es": "Yamaha MG16XU"
+        },
+        {
+          "title": "Behringer X Air XR18",
+          "title_es": "Behringer X Air XR18"
+        },
+        {
+          "title": "Allen & Heath CQ-18T",
+          "title_es": "Allen & Heath CQ-18T"
         }
       ],
       "rows": [
@@ -42635,6 +43031,18 @@
             {
               "value": "Medium bands wanting analog control with advanced digital effects",
               "value_es": "Bandas medianas que quieren control analógico con efectos digitales avanzados"
+            },
+            {
+              "value": "Analog mixer for more channels",
+              "value_es": "Mezcla analógica con más canales"
+            },
+            {
+              "value": "Rack digital stagebox mixing",
+              "value_es": "Mezcla digital en rack"
+            },
+            {
+              "value": "Touchscreen digital mixing",
+              "value_es": "Mezcla digital táctil"
             }
           ]
         },
@@ -42661,6 +43069,18 @@
             {
               "value": "Hybrid Analog/Digital Mixer",
               "value_es": "Mezclador Híbrido Analógico/Digital"
+            },
+            {
+              "value": "Analog mixer",
+              "value_es": "Mezcladora analógica"
+            },
+            {
+              "value": "Digital mixer",
+              "value_es": "Mezcladora digital"
+            },
+            {
+              "value": "Digital mixer",
+              "value_es": "Mezcladora digital"
             }
           ]
         },
@@ -42685,6 +43105,18 @@
             {
               "value": "16 (8 mono + 4 stereo)",
               "value_es": "16 (8 mono + 4 estéreo)"
+            },
+            {
+              "value": "16 (8 mic)",
+              "value_es": "16 (8 micro)"
+            },
+            {
+              "value": "18 (16 mic)",
+              "value_es": "18 (16 micro)"
+            },
+            {
+              "value": "16 mono + 3 stereo",
+              "value_es": "16 mono + 3 estéreo"
             }
           ]
         },
@@ -42709,6 +43141,18 @@
             {
               "value": "16 HiVolt (Greg Mackie & Peter Watts design)",
               "value_es": "16 HiVolt (diseño de Greg Mackie & Peter Watts)"
+            },
+            {
+              "value": "8 D-PRE",
+              "value_es": "8 D-PRE"
+            },
+            {
+              "value": "16 Midas",
+              "value_es": "16 Midas"
+            },
+            {
+              "value": "16 recallable digital",
+              "value_es": "16 digitales recuperables"
             }
           ]
         },
@@ -42735,6 +43179,18 @@
             {
               "value": "3-band with sweepable mid + 31-band ParaGraphic main EQ",
               "value_es": "3 bandas con medios ajustables + ecualizador ParaGráfico de 31 bandas"
+            },
+            {
+              "value": "3-band + 1-knob comp",
+              "value_es": "3 bandas + compresor 1-knob"
+            },
+            {
+              "value": "4-band fully parametric",
+              "value_es": "Paramétrico 4 bandas"
+            },
+            {
+              "value": "Parametric + Quick Channels",
+              "value_es": "Paramétrico + Quick Channels"
             }
           ]
         },
@@ -42761,6 +43217,18 @@
             {
               "value": "4 Aux sends",
               "value_es": "4 envíos Aux"
+            },
+            {
+              "value": "4 aux sends",
+              "value_es": "4 envíos aux"
+            },
+            {
+              "value": "6 aux buses",
+              "value_es": "6 buses aux"
+            },
+            {
+              "value": "6 aux outputs",
+              "value_es": "6 salidas aux"
             }
           ]
         },
@@ -42787,6 +43255,18 @@
             {
               "value": "Korg 32-bit digital FX (up to 10 simultaneously)",
               "value_es": "Efectos digitales Korg de 32-bit (hasta 10 simultáneos)"
+            },
+            {
+              "value": "SPX digital FX",
+              "value_es": "FX digitales SPX"
+            },
+            {
+              "value": "4 FX engines",
+              "value_es": "4 motores FX"
+            },
+            {
+              "value": "4 FX engines",
+              "value_es": "4 motores FX"
             }
           ]
         },
@@ -42813,6 +43293,18 @@
             {
               "value": "USB stereo, 8-bus architecture",
               "value_es": "USB estéreo, arquitectura de 8 buses"
+            },
+            {
+              "value": "USB, 4 groups",
+              "value_es": "USB, 4 grupos"
+            },
+            {
+              "value": "USB 18x18, Ultranet, WiFi",
+              "value_es": "USB 18x18, Ultranet, WiFi"
+            },
+            {
+              "value": "USB 24x22, SD, BT, WiFi",
+              "value_es": "USB 24x22, SD, BT, WiFi"
             }
           ]
         },
@@ -42839,6 +43331,18 @@
             {
               "value": "~20 lb (9 kg)",
               "value_es": "~20 lb (9 kg)"
+            },
+            {
+              "value": "6.8 kg (15.0 lb)",
+              "value_es": "6,8 kg"
+            },
+            {
+              "value": "3.2 kg (7.1 lb)",
+              "value_es": "3,2 kg"
+            },
+            {
+              "value": "3 kg (6.6 lb)",
+              "value_es": "3 kg"
             }
           ]
         },
@@ -42865,6 +43369,18 @@
             {
               "value": "4 Aux sends",
               "value_es": "4 envíos Aux"
+            },
+            {
+              "value": "2 stereo",
+              "value_es": "2 estéreo"
+            },
+            {
+              "value": "6 aux buses",
+              "value_es": "6 buses aux"
+            },
+            {
+              "value": "6 aux outputs",
+              "value_es": "6 salidas aux"
             }
           ]
         }
@@ -43009,6 +43525,90 @@
           "Menos opciones de routing que competidores totalmente digitales como el X32 Compact",
           "Presencia de marca más pequeña en el mercado de mezcladoras de sonido en vivo",
           "La grabación USB se limita a mezcla estéreo en lugar de multitrack"
+        ]
+      },
+      {
+        "name": "Yamaha MG16XU",
+        "name_es": "Yamaha MG16XU",
+        "pros": [
+          "16 channels with D-PRE pres and 1-knob compressors",
+          "4 aux plus 4 groups for monitors and routing",
+          "SPX effects with 24 programs aboard",
+          "USB recording with rack kit included"
+        ],
+        "cons": [
+          "No tablet control or app mixing",
+          "6.8 kg rack format needs stage space",
+          "2-track USB only, no multitrack",
+          "FX editing via small screen"
+        ],
+        "pros_es": [
+          "16 canales con previos D-PRE y compresores 1-knob",
+          "4 aux más 4 grupos para monitores y ruteo",
+          "Efectos SPX con 24 programas a bordo",
+          "Grabación USB con kit de rack incluido"
+        ],
+        "cons_es": [
+          "Sin control por tablet ni app",
+          "El formato rack de 6,8 kg pide espacio",
+          "USB solo 2 pistas, sin multipista",
+          "Edición de FX en pantalla pequeña"
+        ]
+      },
+      {
+        "name": "Behringer X Air XR18",
+        "name_es": "Behringer X Air XR18",
+        "pros": [
+          "18x18 USB interface records the whole band live",
+          "16 Midas pres with 6 aux monitor mixes",
+          "Stagebox format hides at the side of the stage",
+          "4 FX engines plus Ultranet personal mixing"
+        ],
+        "cons": [
+          "No physical faders — tablet required",
+          "Built-in WiFi drops in crowded venues",
+          "48kHz ceiling, no 96k option",
+          "Real learning curve on the app"
+        ],
+        "pros_es": [
+          "Interfaz USB 18x18 que graba a toda la banda en vivo",
+          "16 previos Midas con 6 mezclas de monitores",
+          "El formato stagebox se esconde al lado del escenario",
+          "4 motores FX más mezcla personal Ultranet"
+        ],
+        "cons_es": [
+          "Sin faders físicos — tablet obligatoria",
+          "El WiFi integrado cae en recintos saturados",
+          "Techo de 48kHz, sin opción 96k",
+          "Curva de aprendizaje real en la app"
+        ]
+      },
+      {
+        "name": "Allen & Heath CQ-18T",
+        "name_es": "Allen & Heath CQ-18T",
+        "pros": [
+          "7-inch touchscreen mixes with no tablet needed",
+          "Auto gain plus feedback assistant set up fast",
+          "24x22 USB and SD multitrack recording",
+          "3 kg featherweight with Bluetooth streaming"
+        ],
+        "cons": [
+          "No motor faders for tactile mixing",
+          "Small screen for 16-plus channels",
+          "Young platform with fewer scene libraries",
+          "External PSU brick to carry"
+        ],
+        "pros_es": [
+          "Pantalla táctil de 7 pulgadas sin tablet",
+          "Auto-gain más asistente anti-feedback rapidísimos",
+          "Grabación multipista USB 24x22 y SD",
+          "Pluma de 3 kg con streaming Bluetooth"
+        ],
+        "cons_es": [
+          "Sin faders motorizados para mezcla táctil",
+          "Pantalla pequeña para más de 16 canales",
+          "Plataforma joven con menos librerías",
+          "Fuente externa que cargar"
         ]
       }
     ],
@@ -63317,12 +63917,39 @@
         "heading_es": "¿Es el Maono Maonocaster E2 Gen2 la mejor consola económica?",
         "content": "<p><strong>The Maono Maonocaster E2 Gen2 is the cheapest true console here — a mini Rodecaster for a fraction of the price.</strong> Users rate it 4.3/5 across nearly 300 reviews, and for it packs two XLR combo preamps with up to 60dB of gain, eight programmable sound pads, loopback, Bluetooth music input and an 8-hour built-in battery.</p><p><strong>The sound pads are the reason it wins its tier.</strong> You can load intros, drops and sound effects onto eight pads and trigger them live. The same workflow that makes the Rodecaster Duo a streamer favorite. Two-level noise reduction and six preset reverbs give your voice polish without plugins.</p><p><strong>The honest limits: 48kHz/24-bit audio with no 32-bit float, a plastic build, and no video capture.</strong> If you already need dual broadcast-grade preamps and touchscreen routing, the Rodecaster Duo is the upgrade path. But if you want a battery-powered, pad-loaded streaming console the E2 Gen2 is the pick.</p>",
         "content_es": "<p><strong>El Maono Maonocaster E2 Gen2 es la consola más económica aquí — un mini Rodecaster por una fracción del precio.</strong> Los usuarios lo puntúan con 4.3/5 en casi 300 reseñas, y por ese precio incluye dos previos combo XLR con hasta 60dB de ganancia, ocho pads de sonido programables, loopback, entrada Bluetooth para música y batería integrada de 8 horas.</p><p><strong>Los pads de sonido son la razón por la que gana su categoría.</strong> Puedes cargar intros, drops y efectos de sonido en ocho pads y dispararlos en directo — el mismo proceso que hace del Rodecaster Duo un favorito de los streamers. La reducción de ruido de dos niveles y seis reverbs preestablecidas pulen tu voz sin plugins.</p><p><strong>Los límites honestos: audio de 48kHz/24-bit sin 32-bit float, construcción de plástico y sin captura de vídeo.</strong> Si ya necesitas previos dobles de calidad broadcast y enrutado táctil, el Rodecaster Duo es la ruta de actualización. Pero si quieres una consola de streaming con pads y batería, el E2 Gen2 es la mejor opción.</p>"
+      },
+      {
+        "heading": "Is the Apollo Twin X the Best Interface for UAD Tracking?",
+        "heading_es": "¿Es el Apollo Twin X la mejor interfaz para grabar con UAD?",
+        "content": "<p><strong>The Apollo Twin X Gen 2 records through plugins, not after them.</strong> Two Unison preamps become Neve, API or Manley with UAD DSP running at near-zero latency, tracked straight into LUNA. Talkback, monitor control and premium conversion make it a desktop studio centerpiece.</p><p><strong>The catch: </strong>Thunderbolt only, two inputs, and the UAD plugin habit gets expensive. But for UAD tracking tone, nothing else here qualifies.</p>",
+        "content_es": "<p><strong>El Apollo Twin X Gen 2 graba a través de plugins, no después.</strong> Dos previos Unison se convierten en Neve, API o Manley con DSP UAD a latencia casi nula, directo en LUNA. Talkback, control de monitores y conversión premium lo hacen centro del estudio.</p><p><strong>El inconveniente: </strong>solo Thunderbolt, dos entradas, y el hábito UAD sale caro. Pero para tono UAD grabando, nada más aquí califica.</p>",
+        "products": [
+          16
+        ]
+      },
+      {
+        "heading": "Is the Audient iD14 MkII the Best Desktop Interface Value?",
+        "heading_es": "¿Es la Audient iD14 MkII la mejor interfaz de escritorio?",
+        "content": "<p><strong>The Audient iD14 MkII puts console pres on any desk.</strong> Two clean console-grade preamps, ScrollControl monitor knob, ADAT expansion to 10 inputs, JFET DI and dual headphone outs in a steel box. No menus, no apps — gain knobs and go.</p><p><strong>The catch: </strong>no MIDI, no DSP tracking FX, and one USB-C port. But per preamp dollar, nothing here touches it.</p>",
+        "content_es": "<p><strong>La Audient iD14 MkII pone previos de consola en cualquier escritorio.</strong> Dos previos limpios de consola, knob ScrollControl, expansión ADAT a 10 entradas, DI JFET y doble salida de auriculares en caja de acero. Sin menús ni apps — perillas de ganancia y listo.</p><p><strong>El inconveniente: </strong>sin MIDI, sin FX DSP para grabar y un solo USB-C. Pero por previo y euro, nada aquí la toca.</p>",
+        "products": [
+          54
+        ]
+      },
+      {
+        "heading": "Is the Scarlett 2i2 the Best First Interface?",
+        "heading_es": "¿Es la Scarlett 2i2 la mejor primera interfaz?",
+        "content": "<p><strong>The Scarlett 2i2 4th Gen is the default answer for a reason.</strong> 69dB of clean gain drives SM7B-class dynamics without a booster, Auto Gain plus Clip Safe set levels for you, and Air mode, loopback and bundled software cover streaming day one. The biggest user community in audio means every question is already answered.</p><p><strong>The catch: </strong>no MIDI, no expansion, latency above Thunderbolt rivals. But as a first interface, it is the safest money in recording.</p>",
+        "content_es": "<p><strong>La Scarlett 2i2 4th Gen es la respuesta por defecto por algo.</strong> 69dB de ganancia limpia mueven dinámicos tipo SM7B sin booster, Auto Gain más Clip Safe ajustan niveles por ti, y el modo Air, loopback y software incluido cubren el streaming desde el día uno. La mayor comunidad del audio significa que cada duda ya está respondida.</p><p><strong>El inconveniente: </strong>sin MIDI, sin expansión, latencia mayor que rivales Thunderbolt. Pero como primera interfaz, es el dinero más seguro de la grabación.</p>",
+        "products": [
+          15
+        ]
       }
     ],
     "conclusion": "If you want the full broadcast-console experience and can stretch the budget, the Rodecaster Duo is the one that stands out — it is the most complete streaming interface here. Gamers with consoles should look hard at the Bridge Cast X for its audio-plus-capture combo. The Universal Audio Volt 276 earns its price if you want analog compression and Vintage preamp tone on the way in, the Audient EVO 4 is the smart budget start, and the Maono Maonocaster E2 Gen2 is the budget console pick if you want sound pads, loopback and a battery without the Rodecaster price. Whatever you pick, make sure the preamp has enough gain for your mic and the software feels like home, because that is what you will live with. <p>Want to build out the rest of the setup? See <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces guide</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics.html\">Best USB microphones</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers.html\">Streaming mixers & controllers</a></p>",
     "conclusion_es": "Si quieres la experiencia completa de consola broadcast y puedes estirar el presupuesto, el Rodecaster Duo es el que destaca — es simplemente la interfaz de streaming más completa de todas. Los gamers de consola deberían fijarse en el Bridge Cast X por su combo de audio y captura. El Universal Audio Volt 276 justifica su precio si quieres compresión analógica y tono Vintage a la entrada, el Audient EVO 4 es el inicio económico inteligente, y el Maono Maonocaster E2 Gen2 es la consola económica si quieres pads de sonido, loopback y batería sin el precio del Rodecaster. Sea cual sea tu elección, asegúrate de que el preamp tenga suficiente ganancia para tu micófono y que el software te resulte familiar, porque es con lo que vas a convivir. <p>¿Quieres completar el resto del setup? Consulta nuestra <a class=\"guide-link-btn\" href=\"/guides/best-interface_es.html\">Guía de las mejores interfaces de audio</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics_es.html\">Mejores micrófonos USB</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers_es.html\">Mezcladores y controladores para streaming</a></p>",
-    "verdict": "The Rodecaster Duo is the full console for streamers who want everything built in. The Bridge Cast X is the console gaming pick, the EVO 4 is the budget streaming interface, and the Volt 276 adds analog compression for polished voice. Pick by your setup's complexity.",
-    "verdict_es": "El Rodecaster Duo es la consola completa para streamers que quieren todo integrado. El Bridge Cast X es la opción de gaming de consola, el EVO 4 es la interfaz económica de streaming, y el Volt 276 añade compresión analógica para una voz pulida. Elige según la complejidad de tu configuración.",
+    "verdict": "The Rodecaster Duo is the full console for streamers who want everything built in. The Bridge Cast X is the console gaming pick, the EVO 4 is the budget streaming interface, and the Volt 276 adds analog compression for polished voice. Pick by your setup's complexity. Apollo Twin X is the UAD tracking pick, iD14 the console-value pick, Scarlett 2i2 the beginner standard.",
+    "verdict_es": "El Rodecaster Duo es la consola completa para streamers que quieren todo integrado. El Bridge Cast X es la opción de gaming de consola, el EVO 4 es la interfaz económica de streaming, y el Volt 276 añade compresión analógica para una voz pulida. Elige según la complejidad de tu configuración. Apollo Twin X es la opción UAD, iD14 la de valor con consola, Scarlett 2i2 el estándar principiante.",
     "featuredProducts": [
       239,
       240,
@@ -63442,6 +64069,18 @@
         {
           "title": "Maono Maonocaster E2 Gen2",
           "title_es": "Maono Maonocaster E2 Gen2"
+        },
+        {
+          "title": "Universal Audio Apollo Twin X Gen 2",
+          "title_es": "Universal Audio Apollo Twin X Gen 2"
+        },
+        {
+          "title": "Audient iD14 MkII",
+          "title_es": "Audient iD14 MkII"
+        },
+        {
+          "title": "Focusrite Scarlett 2i2 4th Gen",
+          "title_es": "Focusrite Scarlett 2i2 4th Gen"
         }
       ],
       "rows": [
@@ -63472,6 +64111,18 @@
             {
               "value": "Budget all-in-one console with sound pads",
               "value_es": "Consola todo-en-uno económica con pads de sonido"
+            },
+            {
+              "value": "Pro tracking with UAD plugins",
+              "value_es": "Grabación pro con plugins UAD"
+            },
+            {
+              "value": "Console-grade desktop recording",
+              "value_es": "Grabación de escritorio con calidad de consola"
+            },
+            {
+              "value": "Beginner interface standard",
+              "value_es": "Estándar para principiantes"
             }
           ]
         },
@@ -63502,6 +64153,18 @@
             {
               "value": "All-in-one mixer/interface + sound pads",
               "value_es": "Mezclador/interfaz todo-en-uno + pads de sonido"
+            },
+            {
+              "value": "Desktop interface + DSP",
+              "value_es": "Interfaz de escritorio + DSP"
+            },
+            {
+              "value": "USB-C interface",
+              "value_es": "Interfaz USB-C"
+            },
+            {
+              "value": "USB-C interface",
+              "value_es": "Interfaz USB-C"
             }
           ]
         },
@@ -63532,6 +64195,18 @@
             {
               "value": "2 XLR combo preamps, 60dB + Bluetooth",
               "value_es": "2 previos combo XLR, 60dB + Bluetooth"
+            },
+            {
+              "value": "2 Unison pres",
+              "value_es": "2 previos Unison"
+            },
+            {
+              "value": "2 Audient console pres",
+              "value_es": "2 previos de consola"
+            },
+            {
+              "value": "2 Scarlett pres, 69dB",
+              "value_es": "2 previos, 69dB"
             }
           ]
         },
@@ -63562,6 +64237,18 @@
             {
               "value": "1500mAh battery (~8h) + USB-C",
               "value_es": "Batería 1500mAh (~8h) + USB-C"
+            },
+            {
+              "value": "External PSU (Thunderbolt)",
+              "value_es": "Fuente externa (Thunderbolt)"
+            },
+            {
+              "value": "USB bus-powered",
+              "value_es": "USB por bus"
+            },
+            {
+              "value": "USB bus-powered",
+              "value_es": "USB por bus"
             }
           ]
         },
@@ -63592,6 +64279,18 @@
             {
               "value": "Internal battery, Bluetooth, sound pads, loopback",
               "value_es": "Batería interna, Bluetooth, pads de sonido, loopback"
+            },
+            {
+              "value": "UAD HEXA DSP, Unison pres, LUNA",
+              "value_es": "UAD HEXA DSP, previos Unison, LUNA"
+            },
+            {
+              "value": "ScrollControl, ADAT, JFET DI, 2 HP outs",
+              "value_es": "ScrollControl, ADAT, DI JFET, 2 salidas"
+            },
+            {
+              "value": "Auto Gain, Clip Safe, loopback, Air mode",
+              "value_es": "Auto Gain, Clip Safe, loopback, modo Air"
             }
           ]
         },
@@ -63606,6 +64305,18 @@
             {
               "value": "Yes — HDMI capture",
               "value_es": "Sí — captura HDMI"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
             },
             {
               "value": "No",
@@ -63796,6 +64507,90 @@
           "La construcción de plástico se siente menos premium que las consolas broadcast",
           "Sin captura de vídeo ni enrutado por pantalla táctil",
           "Sin grabación de respaldo a bordo"
+        ]
+      },
+      {
+        "name": "Universal Audio Apollo Twin X Gen 2",
+        "name_es": "Universal Audio Apollo Twin X Gen 2",
+        "pros": [
+          "Unison pres recreate Neve and API through UAD DSP",
+          "HEXA Core tracks plugins with near-zero latency",
+          "LUNA integration with premium conversion",
+          "Talkback and monitor control aboard"
+        ],
+        "cons": [
+          "Thunderbolt only — no USB option",
+          "UAD plugin costs stack up fast",
+          "Two inputs limit bands and drums",
+          "Premium price per channel"
+        ],
+        "pros_es": [
+          "Los previos Unison recrean Neve y API con DSP UAD",
+          "HEXA Core graba plugins con latencia casi nula",
+          "Integración LUNA con conversión premium",
+          "Talkback y control de monitores a bordo"
+        ],
+        "cons_es": [
+          "Solo Thunderbolt — sin opción USB",
+          "Los plugins UAD se acumulan en precio",
+          "Dos entradas limitan bandas y baterías",
+          "Precio premium por canal"
+        ]
+      },
+      {
+        "name": "Audient iD14 MkII",
+        "name_es": "Audient iD14 MkII",
+        "pros": [
+          "Console-grade pres with ScrollControl monitor knob",
+          "ADAT expansion grows to 10 inputs",
+          "JFET DI plus dual headphone outs",
+          "Compact steel chassis built to last"
+        ],
+        "cons": [
+          "No MIDI I/O aboard",
+          "Software mixer takes learning",
+          "Single USB-C port — hub life",
+          "No DSP tracking effects"
+        ],
+        "pros_es": [
+          "Previos de consola con knob ScrollControl",
+          "La expansión ADAT crece a 10 entradas",
+          "DI JFET más doble salida de auriculares",
+          "Chasis de acero compacto duradero"
+        ],
+        "cons_es": [
+          "Sin MIDI a bordo",
+          "El mezclador por software pide aprendizaje",
+          "Un solo puerto USB-C — vida con hub",
+          "Sin FX DSP para grabar"
+        ]
+      },
+      {
+        "name": "Focusrite Scarlett 2i2 4th Gen",
+        "name_es": "Focusrite Scarlett 2i2 4th Gen",
+        "pros": [
+          "69dB gain range drives SM7B-class dynamics",
+          "Auto Gain plus Clip Safe nail levels fast",
+          "Air mode plus loopback for streamers",
+          "Huge community with bundled software"
+        ],
+        "cons": [
+          "No MIDI I/O on the 2i2",
+          "Latency above Thunderbolt rivals",
+          "USB-C only with no expansion",
+          "Knobs feel lighter than premium rivals"
+        ],
+        "pros_es": [
+          "69dB de ganancia mueven dinámicos tipo SM7B",
+          "Auto Gain más Clip Safe clavan niveles rápido",
+          "Modo Air más loopback para streamers",
+          "Comunidad enorme con software incluido"
+        ],
+        "cons_es": [
+          "Sin MIDI en el 2i2",
+          "Latencia mayor que rivales Thunderbolt",
+          "Solo USB-C sin expansión",
+          "Knobs más ligeros que rivales premium"
         ]
       }
     ],
