@@ -195,6 +195,10 @@ const APPROVED_NON_PB = {
     'urls.andertons': [undefined, 'https://www.andertons.co.uk/audio-technica-at2040-usb-microphone/'],
     'excludeStores': ['andertons', undefined]
   },
+  // 518 actualizado (sesion en curso).
+  '518': {
+    'urls.gear4music': ['https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FBlue-Yeti-USB-Microphone%2F8453', 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FBlue-Yeti-USB-Microphone-Slate%2F3U30']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
