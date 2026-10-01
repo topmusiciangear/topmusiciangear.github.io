@@ -67258,6 +67258,238 @@
               "value_es": "USB"
             }
           ]
+        },
+        {
+          "label": "Polar Pattern",
+          "label_es": "Patrón polar",
+          "values": [
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid/Omni",
+              "value_es": "Cardioide/Omni"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            }
+          ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de frecuencia",
+          "values": [
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "100 Hz – 16 kHz",
+              "value_es": "100 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "40 Hz – 16 kHz",
+              "value_es": "40 Hz – 16 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "60 Hz – 18 kHz",
+              "value_es": "60 Hz – 18 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Bit Depth / Sample Rate",
+          "label_es": "Bits / Frecuencia de muestreo",
+          "values": [
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "24-bit/48kHz",
+              "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "16-bit/44.1kHz",
+              "value_es": "16-bit/44.1kHz"
+            },
+            {
+              "value": "24-bit/48kHz",
+              "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "24-bit/48kHz",
+              "value_es": "24-bit/48kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "24-bit/96kHz",
+              "value_es": "24-bit/96kHz"
+            },
+            {
+              "value": "16-bit/48kHz",
+              "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "16-bit/44.1kHz",
+              "value_es": "16-bit/44.1kHz"
+            }
+          ]
+        },
+        {
+          "label": "Headphone Monitoring",
+          "label_es": "Monitorización con auriculares",
+          "values": [
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "Yes",
+              "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            }
+          ]
         }
       ]
     },
@@ -67626,26 +67858,26 @@
         "pros": [
           "Complete kit with boom arm and pop filter",
           "Plug-and-play USB connection",
-          "Budget price with solid build quality",
-          "Headphone jack for latency-free monitoring"
+          "Budget price with solid build quality"
         ],
         "pros_es": [
           "Kit completo con brazo articulado y filtro pop",
           "Conexión USB plug-and-play",
-          "Precio económico con buena calidad de construcción",
-          "Salida de auriculares para monitorización sin latencia"
+          "Precio económico con buena calidad de construcción"
         ],
         "cons": [
           "Condenser picks up room noise",
           "No XLR output",
           "Boom arm feels light for heavy use",
-          "Pop filter and arm are basic quality at this price"
+          "Pop filter and arm are basic quality at this price",
+          "No headphone jack — monitor through your software instead"
         ],
         "cons_es": [
           "Condensador captura ruido de sala",
           "Sin salida XLR",
           "Brazo se siente ligero para uso intensivo",
-          "Filtro y brazo de calidad básica a este precio"
+          "Filtro y brazo de calidad básica a este precio",
+          "Sin salida de auriculares — monitoriza por software"
         ]
       }
     ],
