@@ -24,11 +24,19 @@ const A = loadMap(BASE, HEAD);
 const B = loadMap(fs.readFileSync('build-guides.js', 'utf8'), HEAD);
 const ka = Object.keys(A), kb = Object.keys(B);
 console.log('keys before/after:', ka.length, kb.length, '| same set:', JSON.stringify(ka) === JSON.stringify(kb));
-const changed = ka.filter(k => JSON.stringify(A[k]) !== JSON.stringify(B[k]));
+const changed = ka.filter(k => B[k] && JSON.stringify(A[k]) !== JSON.stringify(B[k]));
 console.log('changed entries:', changed.length);
+// Fusiones/eliminaciones autorizadas (AT2040USB 517->286, Ultra II 184->440,
+// PRS 320->312) y altas nuevas (518 Yeti): no son cambios de precio.
+const removed = ka.filter(k => !B[k]);
+const added = kb.filter(k => !A[k]);
+console.log('removed:', removed.join(',') || 'none', '| added:', added.join(',') || 'none');
+const REMOVED_OK = ['184', '320', '517'];
+const ADDED_OK = ['518'];
+const badKeys = [...removed.filter(k => !REMOVED_OK.includes(k)), ...added.filter(k => !ADDED_OK.includes(k))];
 const pb = changed.filter(k => B[k].pbCur);
 console.log('changed WITH pbCur:', pb.length, '| changed WITHOUT pbCur:', changed.filter(k => !B[k].pbCur).map(k => k + (B[k].urls && B[k].urls.pluginboutique ? '(url only)' : '')).join(',') || 'none');
-const untouchedBad = ka.filter(k => !B[k].pbCur && JSON.stringify(A[k]) !== JSON.stringify(B[k]));
+const untouchedBad = ka.filter(k => B[k] && !B[k].pbCur && JSON.stringify(A[k]) !== JSON.stringify(B[k]));
 
 // Lista blanca de cambios NO-PB autorizados por el usuario (30/09/2026).
 // id -> { campo: [valor antes, valor despues] }. Cualquier otro cambio no-PB
@@ -72,7 +80,6 @@ const APPROVED_NON_PB = {
     'prices.musicstore': ['€111.00', '€99.00']
   },
   '349': {
-    'urls.musicstore': [undefined, 'https://www.musicstore.com/en_OE/EUR/Sennheiser-ew-IEM-G4-B-Wireless-Monitor-Set/art-PAH0019940-000'],
     'prices.gear4music': ['£881', '£881.00'],
     'prices.musicstore': ['€599.00', '€949.00']
   },
@@ -84,8 +91,7 @@ const APPROVED_NON_PB = {
   },
   // 347 actualizado (sesion en curso).
   '347': {
-    'prices.musicstore': ['€199.00', '€235.00'],
-    'urls.musicstore': [undefined, 'https://www.musicstore.com/en_OE/EUR/Xvive-U4-Monitor-Wireless-System/art-PAH0021563-000']
+    'prices.musicstore': ['€199.00', '€235.00']
   },
   // 348 actualizado (sesion en curso).
   '348': {
@@ -103,8 +109,7 @@ const APPROVED_NON_PB = {
   },
   // 117 actualizado (sesion en curso).
   '117': {
-    'prices.gear4music': ['£169.00', '£194.00'],
-    'urls.gear4music': ['https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-LP-6-2nd-Wave-Studio-Monitor-Single%2F434C', 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-LP-6-2nd-Wave-Black%2F6SIL']
+    'prices.gear4music': ['£169.00', '£194.00']
   },
   // 116 actualizado (sesion en curso).
   '116': {
@@ -119,11 +124,15 @@ const APPROVED_NON_PB = {
   '305': {
     'prices.musicstore': ['€331.18', '€469.00']
   },
+  // 167 actualizado (sesion en curso): Andertons con precio, sale de oos.
+  '167': {
+    'prices.andertons': [undefined, '£41.00'],
+    'oos': ['["andertons"]', undefined]
+  },
   // 300 actualizado (sesion en curso).
   '300': {
     'prices.musicstore': ['€503.40', '€599.00'],
-    'prices.gear4music': [undefined, '£499.00'],
-    'urls.gear4music': ['https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-WS-6.2-12-Studio-Subwoofer%2F6SIX', 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKali-Audio-WS-62-Subwoofer-Black%2F6SIX']
+    'prices.gear4music': [undefined, '£499.00']
   },
   // 304 actualizado (sesion en curso).
   '304': {
@@ -156,7 +165,8 @@ const APPROVED_NON_PB = {
   // 301 actualizado (sesion en curso).,
   // 301 actualizado (sesion en curso).
   '301': {
-    'prices.amazon': ['$759.00', '$599.99']
+    'prices.amazon': ['$759.00', '$599.99'],
+    'prices.musicstore': ['€587.40', '€699.00']
   },
   // 26 actualizado (sesion en curso).
   '26': {
@@ -165,27 +175,22 @@ const APPROVED_NON_PB = {
   // 427 actualizado (sesion en curso).
   '427': {
     'prices.zzounds': [undefined, '$99.00'],
-    'prices.musicstore': ['€83.20', '€99.00'],
-    'urls.zzounds': [undefined, 'https://www.zzounds.com/item--AUDATHR30X']
+    'prices.musicstore': ['€83.20', '€99.00']
   },
   // 420 actualizado (sesion en curso).
   '420': {
     'prices.zzounds': [undefined, '$109.00'],
     'prices.andertons': [undefined, '£90.00'],
     'prices.gear4music': ['£51.80', '£92.00'],
-    'prices.musicstore': ['€98.00', '€111.00'],
-    'urls.zzounds': [undefined, 'https://www.zzounds.com/item--SHUSRH440A'],
-    'urls.andertons': [undefined, 'https://www.andertons.co.uk/shure-srh440a-professional-studio-headphones/?search_query=Shure%20SRH440A']
+    'prices.musicstore': ['€98.00', '€111.00']
   },
   // 428 actualizado (sesion en curso).
   '428': {
-    'prices.zzounds': ['$37.49', '$50.00'],
-    'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSamson-SR850-Pro-Studio-Headphones%2FD7K']
+    'prices.zzounds': ['$37.49', '$50.00']
   },
   // 58 actualizado (sesion en curso).
   '58': {
-    'prices.musicstore': ['€52.00', '€54.00'],
-    'urls.musicstore': ['https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Mikrofonstativ%2Fart-PAH0015387-000', 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Microphone-Stand-Chrome-%2Fart-ACC0000029-002']
+    'prices.musicstore': ['€52.00', '€54.00']
   },
   // 517 actualizado (sesion en curso).,
   // 517 actualizado (sesion en curso).,
@@ -215,18 +220,31 @@ const APPROVED_NON_PB = {
   // 271 actualizado (sesion en curso).
   '271': {
     'prices.zzounds': [undefined, '$499.00'],
-    'urls.zzounds': ['https://www.zzounds.com/item--TAYGSMINI', 'https://www.zzounds.com/item--TAYGSMINISV2']
+    'urls.zzounds': ['https://www.zzounds.com/item--TAYGSMINI', 'https://www.zzounds.com/item--TAYGSMINISV2'],
+    'oos': ['["zzounds"]', undefined]
   },
   // 467 actualizado (sesion en curso).
   '467': {
     'prices.musicstore': ['€579.00', '€669.00'],
     'prices.zzounds': ['$599.99', '$629.00']
   },
+  // 25 actualizado (sesion en curso).
+  '25': {
+    'prices.musicstore': ['€125.21', '€149.00']
+  },
+  // 56 actualizado (sesion en curso).
+  '56': {
+    'prices.gear4music': ['£129.00', '£140.00']
+  },
+  // 57 actualizado (sesion en curso).
+  '57': {
+    'prices.gear4music': ['£125.00', '£134.00']
+  },
   // Lote 30/09/2026: Kontrol S61, Subsequent 37, GO:KEYS 3, MicroFreak, DeepMind 12, Hydrasynth, Take 5.
   '14': {
     'prices.gear4music': ['£595.00', '£699.00'],
     'prices.andertons': ['£595.00', undefined],
-    'urls.andertons': ['https://www.andertons.co.uk/native-instruments-kontrol-s61-mk3/', 'https://www.andertons.co.uk/']
+    'oos': [undefined, '["andertons"]']
   },
   '143': {
     'prices.andertons': ['£1,525.00', '£1,469.00'],
@@ -236,13 +254,15 @@ const APPROVED_NON_PB = {
   '370': {
     'prices.andertons': ['£305.00', '£319.00'],
     'prices.gear4music': ['£310.00', '£315.00'],
-    'prices.musicstore': ['€339.00', '€349.00']
+    'prices.musicstore': ['€339.00', '€349.00'],
+    'urls.gear4music': ['https://www.gear4music.com/Keyboards-and-Pianos/Roland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue/6AB8', 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FRoland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue%2F6AB8']
   },
   '475': {
-    'prices.musicstore': ['€289.00', '€319.00']
+    'prices.musicstore': ['€289.00', '€319.00'],
+    'oos': [undefined, '["gear4music"]']
   },
   '476': {
-    'excludeStores': [['gear4music'], undefined]
+    'oos': ['["zzounds"]', '["gear4music","zzounds"]']
   },
   '477': {
     'prices.gear4music': ['£1,199.00', '£1,099.00'],
@@ -321,6 +341,7 @@ for (const k of untouchedBad) {
 console.log('cambios no-PB autorizados:', untouchedBad.length, '/', Object.keys(APPROVED_NON_PB).length,
   '->', untouchedBad.slice().sort().join(',') || 'none');
 console.log(bad.length ? 'FALLOS lista blanca:\n  ' + bad.join('\n  ') : 'lista blanca OK (sin cambios no-PB no autorizados)');
+if (badKeys.length) console.log('FALLOS altas/bajas: ' + badKeys.join(','));
 // consistency of the 38
 const GBP = 0.7959;
 let errs = [];
@@ -342,5 +363,5 @@ sample.forEach(k => {
   const e = B[k];
   console.log(('  ' + k).padEnd(5), (e.prices.pluginboutique + '').padEnd(16), (e.pbCur.us + '').padEnd(14), (e.pbCur.uk + '').padEnd(14), (e.urls && e.urls.pluginboutique || '').slice(-46));
 });
-console.log('\nids WITHOUT pbCur that have a pluginboutique price:', ka.filter(k => !B[k].pbCur && B[k].prices && B[k].prices.pluginboutique).join(',') || 'none');
-process.exit(bad.length ? 1 : 0);
+console.log('\nids WITHOUT pbCur that have a pluginboutique price:', ka.filter(k => B[k] && !B[k].pbCur && B[k].prices && B[k].prices.pluginboutique).join(',') || 'none');
+process.exit(bad.length || badKeys.length ? 1 : 0);

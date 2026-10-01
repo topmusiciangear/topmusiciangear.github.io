@@ -291,7 +291,7 @@ const TEST_SHOP_BTN = {
       zzounds: "$159.00",
       gear4music: "£148.00",
       andertons: "£133.00",
-      musicstore: "€125.21"
+      musicstore: "€149.00"
     }
   },
   26: {
@@ -302,7 +302,11 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--SNYMDR7506"
-    }
+    },
+    oos: [
+      "andertons",
+      "zzounds"
+    ]
   },
   28: {
     prices: {
@@ -448,7 +452,7 @@ const TEST_SHOP_BTN = {
       amazon: "$169.00",
       zzounds: "$199.99",
       andertons: "£149.00",
-      gear4music: "£129.00",
+      gear4music: "£140.00",
       musicstore: "€199.00"
     }
   },
@@ -456,15 +460,13 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$139.80",
       andertons: "£134.00",
-      gear4music: "£125.00",
+      gear4music: "£134.00",
       musicstore: "€121.43"
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--AKGK371"
     },
-    oos: [
-      "zzounds"
-    ]
+    oos: ["zzounds"]
   },
   58: {
     prices: {
@@ -852,7 +854,10 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--JBLLSR305PMKII"
-    }
+    },
+    oos: [
+      "zzounds"
+    ]
   },
   117: {
     prices: {
@@ -1525,7 +1530,10 @@ const TEST_SHOP_BTN = {
       amazon: "$479.00",
       zzounds: "$479.00",
       musicstore: "€379.00"
-    }
+    },
+    oos: [
+      "andertons"
+    ]
   },
   192: {
     prices: {
@@ -2521,7 +2529,10 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--GEN8010APM"
-    }
+    },
+    oos: [
+      "zzounds"
+    ]
   },
   304: {
     prices: {
@@ -2532,7 +2543,10 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--KAAINUNF"
-    }
+    },
+    oos: [
+      "zzounds"
+    ]
   },
   305: {
     prices: {
@@ -2740,7 +2754,10 @@ const TEST_SHOP_BTN = {
       zzounds: "$218.00",
       andertons: "£164.00",
       gear4music: "£164.00"
-    }
+    },
+    oos: [
+      "musicstore"
+    ]
   },
   330: {
     prices: {

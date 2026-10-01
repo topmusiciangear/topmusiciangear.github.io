@@ -49,7 +49,7 @@ const next = { prices: Object.assign({}, old.prices || {}) };
 for (const [k, v] of Object.entries(arg.prices || {})) next.prices[k] = v;
 for (const k of arg.delPrices || []) delete next.prices[k];
 if (arg.urls || old.urls) next.urls = Object.assign({}, old.urls || {}, arg.urls || {});
-if (arg.oos) next.oos = arg.oos;
+if (arg.oos || old.oos) next.oos = arg.oos || old.oos;
 
 b = b.slice(0, at + 1) + ser(next) + b.slice(close + 1);
 fs.writeFileSync(bf, b, 'utf8');
