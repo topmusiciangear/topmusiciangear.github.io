@@ -14908,64 +14908,180 @@
       "title_es": "Comparativa de condensadores Pro en esta guía",
       "columns": [
         {
-          "title": "Neumann U 87 Ai",
-          "title_es": "Neumann U 87 Ai"
+          "title": "Audio-Technica AT2020",
+          "title_es": "Audio-Technica AT2020"
+        },
+        {
+          "title": "Rode NT1 Signature Series",
+          "title_es": "Rode NT1 Signature Series"
+        },
+        {
+          "title": "Lewitt LCT 440 PURE",
+          "title_es": "Lewitt LCT 440 PURE"
+        },
+        {
+          "title": "Neumann TLM 102",
+          "title_es": "Neumann TLM 102"
+        },
+        {
+          "title": "Neumann TLM 103",
+          "title_es": "Neumann TLM 103"
         },
         {
           "title": "AKG C414 XLII",
           "title_es": "AKG C414 XLII"
+        },
+        {
+          "title": "Warm Audio WA-8000",
+          "title_es": "Warm Audio WA-8000"
+        },
+        {
+          "title": "Neumann U 87 Ai",
+          "title_es": "Neumann U 87 Ai"
         }
       ],
       "rows": [
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Price Tier",
           "values": [
             {
-              "value": "The studio standard vocal",
-              "value_es": "La voz estándar de estudio"
+              "value": "Budget (<$250)",
+              "value_es": "Presupuesto (<$250)"
             },
             {
-              "value": "Studio vocals & instruments",
-              "value_es": "Voces e instrumentos de estudio"
+              "value": "Budget (<$250)",
+              "value_es": "Presupuesto (<$250)"
+            },
+            {
+              "value": "Mid-Range ($300-800)",
+              "value_es": "Medio ($300-800)"
+            },
+            {
+              "value": "Mid-Range ($300-800)",
+              "value_es": "Medio ($300-800)"
+            },
+            {
+              "value": "Pro ($900-3500)",
+              "value_es": "Pro ($900-3500)"
+            },
+            {
+              "value": "Pro ($900-3500)",
+              "value_es": "Pro ($900-3500)"
+            },
+            {
+              "value": "Pro ($900-3500)",
+              "value_es": "Pro ($900-3500)"
+            },
+            {
+              "value": "Pro ($900-3500)",
+              "value_es": "Pro ($900-3500)"
             }
           ]
         },
         {
           "label": "Type",
-          "label_es": "Tipo",
           "values": [
             {
-              "value": "Condenser (LDC, transformer-coupled)",
-              "value_es": "Condensador (LDC, acoplado por transformador)"
+              "value": "Condenser, Cardioid",
+              "value_es": "Condensador, Cardioide"
             },
             {
-              "value": "Condenser (1-inch LDC, dual-diaphragm)",
-              "value_es": "Condensador (LDC de 1 pulg, doble diafragma)"
+              "value": "Condenser, Cardioid",
+              "value_es": "Condensador, Cardioide"
+            },
+            {
+              "value": "Condenser, Cardioid",
+              "value_es": "Condensador, Cardioide"
+            },
+            {
+              "value": "Condenser, Cardioid",
+              "value_es": "Condensador, Cardioide"
+            },
+            {
+              "value": "Condenser, Cardioid",
+              "value_es": "Condensador, Cardioide"
+            },
+            {
+              "value": "Condenser, Multi-pattern (9)",
+              "value_es": "Condensador, Multi-patrón (9)"
+            },
+            {
+              "value": "Tube Condenser, Cardioid",
+              "value_es": "Condensador de Tubo, Cardioide"
+            },
+            {
+              "value": "Condenser, Multi-pattern (3)",
+              "value_es": "Condensador, Multi-patrón (3)"
             }
           ]
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
           "values": [
             {
-              "value": "Omni / Cardioid / Fig-8",
-              "value_es": "Omni / Cardioide / Fig-8"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
-              "value": "9 switchable patterns",
-              "value_es": "9 patrones conmutables"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "9 patterns: Omni, Wide Cardioid, Cardioid, Hypercardioid, Figure-8 + 4 intermediates",
+              "value_es": "9 patrones: Omni, Wide Cardioid, Cardioide, Hypercardioide, Figura-8 + 4 intermedios"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid, Omni, Figure-8",
+              "value_es": "Cardioide, Omni, Figura-8"
             }
           ]
         },
         {
           "label": "Frequency Response",
-          "label_es": "Respuesta de frecuencia",
           "values": [
             {
               "value": "20 Hz – 20 kHz",
               "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 18 kHz",
+              "value_es": "20 Hz – 18 kHz"
             },
             {
               "value": "20 Hz – 20 kHz",
@@ -14975,169 +15091,223 @@
         },
         {
           "label": "Sensitivity",
-          "label_es": "Sensibilidad",
           "values": [
             {
-              "value": "20/28/22 mV/Pa (omni/cardioid/8)",
-              "value_es": "28 mV/Pa (cardioide)"
+              "value": "-37 dBV/Pa (14.1 mV)",
+              "value_es": "-37 dBV/Pa (14,1 mV)"
             },
             {
-              "value": "23 mV/Pa (-33 dBV ±0.5 dB)",
-              "value_es": "–33 dBV ± 0.5 dB (23 mV/Pa)"
+              "value": "-29 dBV/Pa (35 mV)",
+              "value_es": "-29 dBV/Pa (35 mV)"
+            },
+            {
+              "value": "-32 dBV/Pa (25 mV)",
+              "value_es": "-32 dBV/Pa (25 mV)"
+            },
+            {
+              "value": "-33 dBV/Pa (22 mV)",
+              "value_es": "-33 dBV/Pa (22 mV)"
+            },
+            {
+              "value": "-26 dBV/Pa (50 mV)",
+              "value_es": "-26 dBV/Pa (50 mV)"
+            },
+            {
+              "value": "-34 dBV/Pa (20 mV)",
+              "value_es": "-34 dBV/Pa (20 mV)"
+            },
+            {
+              "value": "-36 dBV/Pa (16 mV)",
+              "value_es": "-36 dBV/Pa (16 mV)"
+            },
+            {
+              "value": "-37 dBV/Pa (14 mV)",
+              "value_es": "-37 dBV/Pa (14 mV)"
             }
           ]
         },
         {
           "label": "Self-Noise",
-          "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "15/12/14 dB-A (omni/cardioid/8)",
-              "value_es": "15/12/14 dB-A (omni/cardioide/8)"
+              "value": "12 dB-A",
+              "value_es": "12 dB-A"
+            },
+            {
+              "value": "4 dB-A",
+              "value_es": "4 dB-A"
+            },
+            {
+              "value": "7 dB-A",
+              "value_es": "7 dB-A"
+            },
+            {
+              "value": "11 dB-A",
+              "value_es": "11 dB-A"
+            },
+            {
+              "value": "7 dB-A",
+              "value_es": "7 dB-A"
             },
             {
               "value": "6 dB-A",
               "value_es": "6 dB-A"
+            },
+            {
+              "value": "7 dB-A (tube)",
+              "value_es": "7 dB-A (tubo)"
+            },
+            {
+              "value": "12 dB-A",
+              "value_es": "12 dB-A"
             }
           ]
         },
         {
           "label": "Max SPL",
-          "label_es": "SPL máximo",
           "values": [
             {
-              "value": "117 dB (0.5% THD); 127 dB with -10 dB pad",
-              "value_es": "117 dB (0.5% THD); 127 dB con pad de -10 dB"
+              "value": "144 dB",
+              "value_es": "144 dB"
             },
             {
-              "value": "140 dB (0.5% THD); 158 dB with -18 dB pad",
-              "value_es": "140 dB (0.5% THD); 158 dB con pad de -18 dB"
-            }
-          ]
-        },
-        {
-          "label": "Output Impedance",
-          "label_es": "Impedancia de salida",
-          "values": [
-            {
-              "value": "200 Ω",
-              "value_es": "200 Ω"
+              "value": "132 dB",
+              "value_es": "132 dB"
             },
             {
-              "value": "≤200 Ω (load ≥ 2.2 kΩ)",
-              "value_es": "≤200 Ω (carga ≥ 2.2 kΩ)"
-            }
-          ]
-        },
-        {
-          "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal-Ruido",
-          "values": [
-            {
-              "value": "82 dB-A (cardioid)",
-              "value_es": "82 dB-A (cardioide)"
+              "value": "140 dB",
+              "value_es": "140 dB"
             },
             {
-              "value": "88 dB-A",
-              "value_es": "88 dB-A"
-            }
-          ]
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango dinámico",
-          "values": [
+              "value": "144 dB",
+              "value_es": "144 dB"
+            },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "138 dB",
+              "value_es": "138 dB"
+            },
+            {
+              "value": "140 dB (0 dB pad)",
+              "value_es": "140 dB (pad 0 dB)"
             },
             {
               "value": "134 dB",
               "value_es": "134 dB"
+            },
+            {
+              "value": "127 dB (0 dB pad)",
+              "value_es": "127 dB (pad 0 dB)"
             }
           ]
         },
         {
-          "label": "THD at Max SPL",
-          "label_es": "THD al SPL máximo",
+          "label": "Pad & High-Pass",
           "values": [
             {
-              "value": "0.5% @ 117 dB SPL (cardioid)",
-              "value_es": "0.5% @ 117 dB SPL (cardioide)"
+              "value": "None",
+              "value_es": "Ninguno"
             },
             {
-              "value": "0.5% @ 140 dB SPL",
-              "value_es": "0.5% @ 140 dB SPL"
-            }
-          ]
-        },
-        {
-          "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
-          "values": [
-            {
-              "value": "K87 dual-diaphragm (34 mm commonly cited)",
-              "value_es": "Doble diafragma K87 (34 mm comúnmente citado)"
+              "value": "None",
+              "value_es": "Ninguno"
             },
             {
-              "value": "25 mm edge-terminated large diaphragm",
-              "value_es": "Diafragma grande de 25 mm con terminación en borde"
-            }
-          ]
-        },
-        {
-          "label": "Pad & High-Pass Filter",
-          "label_es": "Pad y Filtro Paso Alto",
-          "values": [
-            {
-              "value": "-10 dB pad; 3-position bass rolloff (linear/100 Hz/80 Hz)",
-              "value_es": "Pad de -10 dB; filtro de graves de 3 posiciones (lineal/100 Hz/80 Hz)"
+              "value": "None",
+              "value_es": "Ninguno"
             },
             {
-              "value": "3 pads (-6/-12/-18 dB); 3 bass-cut filters (160 Hz 6 dB/oct; 80/40 Hz 12 dB/oct)",
-              "value_es": "3 pads (-6/-12/-18 dB); 3 filtros de graves (160 Hz 6 dB/oct; 80/40 Hz 12 dB/oct)"
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "-6/-12/-18 dB pads, 40/80/160 Hz HPF",
+              "value_es": "-6/-12/-18 dB pads, 40/80/160 Hz corte alto"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguno"
+            },
+            {
+              "value": "-10 dB pad, 80 Hz HPF",
+              "value_es": "-10 dB pad, 80 Hz corte alto"
             }
           ]
         },
         {
           "label": "Phantom Power",
-          "label_es": "Alimentación Phantom",
           "values": [
             {
-              "value": "+48 V ±4 V, 0.8 mA",
-              "value_es": "+48 V ±4 V, 0.8 mA"
+              "value": "48 V",
+              "value_es": "48 V"
             },
             {
-              "value": "+48 V, ~4.5 mA",
-              "value_es": "+48 V, ~4.5 mA"
+              "value": "48 V",
+              "value_es": "48 V"
+            },
+            {
+              "value": "48 V",
+              "value_es": "48 V"
+            },
+            {
+              "value": "48 V",
+              "value_es": "48 V"
+            },
+            {
+              "value": "48 V",
+              "value_es": "48 V"
+            },
+            {
+              "value": "48 V",
+              "value_es": "48 V"
+            },
+            {
+              "value": "48 V + dedicated PSU",
+              "value_es": "48 V + fuente dedicada"
+            },
+            {
+              "value": "48 V",
+              "value_es": "48 V"
             }
           ]
         },
         {
-          "label": "Dimensions",
-          "label_es": "Dimensiones",
+          "label": "Best For",
           "values": [
             {
-              "value": "Ø56 × 200 mm",
-              "value_es": "Ø56 × 200 mm"
+              "value": "Entry standard for home studios",
+              "value_es": "Estándar entrada home studios"
             },
             {
-              "value": "50 × 38 × 160 mm",
-              "value_es": "50 × 38 × 160 mm"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "500 g",
-              "value_es": "500 g"
+              "value": "Lowest noise budget mic, complete kit",
+              "value_es": "Menor ruido presupuesto, kit completo"
             },
             {
-              "value": "300 g",
-              "value_es": "300 g"
+              "value": "Modern clarity, high SPL handling",
+              "value_es": "Claridad moderna, alto SPL"
+            },
+            {
+              "value": "Neumann entry, compact, smooth highs",
+              "value_es": "Entrada Neumann, compacto, agudos suaves"
+            },
+            {
+              "value": "K103 capsule, vocal presence boost",
+              "value_es": "Cápsula K103, presencia vocal"
+            },
+            {
+              "value": "Maximum versatility, 9 patterns",
+              "value_es": "Máxima versatilidad, 9 patrones"
+            },
+            {
+              "value": "Sony C800G tube clone, harmonic warmth",
+              "value_es": "Clon Sony C800G tubo, calidez armónica"
+            },
+            {
+              "value": "The legend, flat response, investment",
+              "value_es": "La leyenda, respuesta plana, inversión"
             }
           ]
         }
@@ -15145,59 +15315,184 @@
     },
     "verdictProsCons": [
       {
-        "name": "Neumann U 87 Ai",
-        "name_es": "Neumann U 87 Ai",
+        "name": "Audio-Technica AT2020",
+        "name_es": "Audio-Technica AT2020",
         "pros": [
-          "The reference condenser that every tube and ribbon mic gets compared to",
-          "Transformer-balanced output with three polar patterns delivers unmistakable Neumann presence",
-          "Adds weight and dimension that make vocals feel three-dimensional",
-          "Delivers tube-like richness and euphonic saturation without vintage maintenance headaches"
-        ],
-        "pros_es": [
-          "El condensador de referencia con el que se compara cada micrófono de tubo y cinta",
-          "La salida balanceada por transformador y los tres patrones polares ofrecen la inconfundible presencia Neumann",
-          "Aporta peso y dimensión que hacen que las voces se sientan tridimensionales",
-          "Ofrece riqueza tipo tubo y saturación eufónica sin los dolores de cabeza del mantenimiento vintage"
+          "Absolute entry standard for home studios",
+          "Excellent transient handling",
+          "Unbeatable price",
+          "Durable build"
         ],
         "cons": [
-          "It's an heirloom purchase, so the premium price is a serious investment",
-          "Needs 48V phantom power and a clean preamp to deliver its full detail",
-          "Its reference character only pays off on the right sources, not loud stage work"
+          "Self-noise could be better (12 dBA)",
+          "No shockmount included (only rigid adapter)",
+          "Rolled-off bass response"
+        ],
+        "pros_es": [
+          "Estándar absoluto para iniciar home studio",
+          "Excelente manejo de transitorios",
+          "Precio imbatible",
+          "Construcción duradera"
         ],
         "cons_es": [
-          "Es una compra para toda la vida (herencia), así que el precio premium es una inversión seria",
-          "Necesita alimentación phantom de 48V y un preamplificador limpio para ofrecer todo su detalle",
-          "Su carácter de referencia solo se amortiza en las fuentes adecuadas, no en escenarios ruidosos"
+          "Ruido propio mejorable (12 dBA)",
+          "No incluye araña antichoque (solo adaptador rígido)",
+          "Respuesta de graves recortada"
+        ]
+      },
+      {
+        "name": "Rode NT1 Signature Series",
+        "name_es": "Rode NT1 Signature Series",
+        "pros": [
+          "Ridiculously low self-noise (4 dBA)",
+          "Complete kit with premium shockmount & pop filter",
+          "Balanced 1\" capsule",
+          "Great value"
+        ],
+        "cons": [
+          "Fixed cardioid pattern",
+          "No physical pad or high-pass switches"
+        ],
+        "pros_es": [
+          "Nivel de ruido propio ridículamente bajo (4 dBA)",
+          "Incluye kit completo con montura antichoque y filtro antipop premium",
+          "Cápsula 1\" muy equilibrada"
+        ],
+        "cons_es": [
+          "Patrón polar cardioide fijo",
+          "Carece de interruptores físicos para atenuador (pad) o filtro de corte de graves"
+        ]
+      },
+      {
+        "name": "Lewitt LCT 440 PURE",
+        "name_es": "Lewitt LCT 440 PURE",
+        "pros": [
+          "Modern crystalline clarity",
+          "Excellent signal-to-noise ratio",
+          "Handles 140 dB SPL without distortion"
+        ],
+        "cons": [
+          "Can sound too analytical/cold for vintage warmth",
+          "Angular modern aesthetic not for everyone"
+        ],
+        "pros_es": [
+          "Claridad moderna y cristalina",
+          "Excelente relación señal/ruido",
+          "Soporta hasta 140 dB SPL sin distorsionar"
+        ],
+        "cons_es": [
+          "Puede resultar demasiado analítico o frío para calidez vintage",
+          "Estética angular muy moderna"
+        ]
+      },
+      {
+        "name": "Neumann TLM 102",
+        "name_es": "Neumann TLM 102",
+        "pros": [
+          "Most affordable entry to Neumann brand",
+          "Compact size for flexible placement",
+          "Smooth high-frequency presence flatters vocals"
+        ],
+        "cons": [
+          "Slightly smaller capsule than TLM 103/U87",
+          "Lower dynamic range than bigger siblings"
+        ],
+        "pros_es": [
+          "Punto entrada más económico a marca alemana",
+          "Tamaño compacto ideal para colocación",
+          "Presencia suave en agudos embellece voces"
+        ],
+        "cons_es": [
+          "Cápsula ligeramente menor que TLM 103/U87",
+          "Rango dinámico menor que hermanos mayores"
+        ]
+      },
+      {
+        "name": "Neumann TLM 103",
+        "name_es": "Neumann TLM 103",
+        "pros": [
+          "K103 capsule derived from legendary U87 K87",
+          "Massive mid-high presence cuts through dense mixes",
+          "Transformerless circuit, ultra-quiet (7 dBA)"
+        ],
+        "cons": [
+          "No pad or high-pass switch",
+          "Official kit with shockmount adds significant cost"
+        ],
+        "pros_es": [
+          "Cápsula K103 derivada de legendaria K87 U87",
+          "Empuje masivo en medias-altas resalta voces",
+          "Circuito sin transformador ultra silencioso (7 dBA)"
+        ],
+        "cons_es": [
+          "Carece de atenuador o corte de graves",
+          "Kit oficial con suspensión eleva coste notablemente"
         ]
       },
       {
         "name": "AKG C414 XLII",
         "name_es": "AKG C414 XLII",
         "pros": [
-          "Nine polar patterns including figure-8 for ribbon-style mid-side techniques",
-          "Bridges modern condenser precision with vintage warmth",
-          "Transformer-coupled output imparts subtle harmonic saturation",
-          "Five pad and three filter settings adapt the mic to any source",
-          "Smooth, unhyped top end that excels on drum overheads where ribbons run too dark"
-        ],
-        "pros_es": [
-          "Nueve patrones polares, incluida la figura-8 para técnicas mid-side estilo cinta",
-          "Tiende un puente entre la precisión del condensador moderno y la calidez vintage",
-          "La salida acoplada por transformador aporta una saturación armónica sutil",
-          "Cinco ajustes de pad y tres de filtro adaptan el micrófono a cualquier fuente",
-          "Parte alta suave y sin realzar que brilla en overheads donde las cintas quedan demasiado oscuras"
+          "Maximum versatility with 9 selectable polar patterns",
+          "LED overload indicators",
+          "Three pads (-6/-12/-18 dB) + three high-pass filters"
         ],
         "cons": [
-          "Not a true ribbon, so the figure-8 is only an approximation for ribbon techniques",
-          "Many switchable patterns and pad/filter switches add setup steps mid-session",
-          "Requires 48V phantom power like any condenser",
-          "Premium pricing buys versatility, not a genuine vintage ribbon tone"
+          "High-frequency response can be harsh on strings/brass",
+          "Digital button interface prone to long-term wear"
+        ],
+        "pros_es": [
+          "Máxima versatilidad con 9 patrones polares",
+          "Indicadores LED de saturación",
+          "Atenuación tres niveles (-6/-12/-18 dB) y tres filtros corte"
         ],
         "cons_es": [
-          "No es una cinta real, así que la figura-8 solo es una aproximación a las técnicas de cinta",
-          "Muchos patrones conmutables e interruptores de pad/filtro añaden pasos de configuración en plena sesión",
-          "Requiere alimentación phantom de 48V como todo condensador",
-          "El precio premium compra versatilidad, no el tono vintage real de una cinta"
+          "Respuesta agudos puede ser estridente en cuerdas/metales",
+          "Interfaz botones digitales propensa a desgaste largo plazo"
+        ]
+      },
+      {
+        "name": "Warm Audio WA-8000",
+        "name_es": "Warm Audio WA-8000",
+        "pros": [
+          "Exact circuit clone of mythical Sony C800G",
+          "Tube condenser (6AU6) for unique harmonic warmth",
+          "External heatsink for component stability"
+        ],
+        "cons": [
+          "Heavy, needs heavy-duty mic stand",
+          "Tube requires warm-up time before recording"
+        ],
+        "pros_es": [
+          "Clon exacto a nivel circuito del mítico Sony C800G",
+          "Condensador tubo (válvula 6AU6) calidez armónica única",
+          "Disipador térmico externo estabilidad componentes"
+        ],
+        "cons_es": [
+          "Sistema robusto y pesado requiere pie alta resistencia",
+          "Tubo requiere tiempo calentamiento previo"
+        ]
+      },
+      {
+        "name": "Neumann U 87 Ai",
+        "name_es": "Neumann U 87 Ai",
+        "pros": [
+          "Most famous studio condenser in history",
+          "Exceptionally flat frequency response works on anything",
+          "Retains resale value better than any gear"
+        ],
+        "cons": [
+          "Prohibitive capital investment",
+          "Requires impeccably treated room for true potential"
+        ],
+        "pros_es": [
+          "Micrófono condensador estudio más famoso historia",
+          "Respuesta frecuencia excepcionalmente plana",
+          "Retiene valor comercial mejor que cualquier equipo"
+        ],
+        "cons_es": [
+          "Inversión capital sumamente prohibitiva",
+          "Requiere sala con tratamiento acústico impecable"
         ]
       }
     ],
