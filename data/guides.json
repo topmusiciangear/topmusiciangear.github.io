@@ -11387,34 +11387,178 @@
         {
           "title": "K&M Monitor Stands (Pair)",
           "title_es": "K&M Monitor Stands (Pair)"
+        },
+        {
+          "title": "ISO Acoustics ISO-200 (Pair)",
+          "title_es": "ISO Acoustics ISO-200 (Pair)"
+        },
+        {
+          "title": "Sonarworks SoundID Reference",
+          "title_es": "Sonarworks SoundID Reference"
+        },
+        {
+          "title": "MiniDSP UMIK-1",
+          "title_es": "MiniDSP UMIK-1"
+        },
+        {
+          "title": "Genelec GLM Kit",
+          "title_es": "Genelec GLM Kit"
+        },
+        {
+          "title": "Auralex MoPADs (4-pack)",
+          "title_es": "Auralex MoPADs (4-pack)"
+        },
+        {
+          "title": "Ultimate Support MS-100 (Pair)",
+          "title_es": "Ultimate Support MS-100 (Pair)"
         }
       ],
       "rows": [
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Category",
           "values": [
             {
-              "value": "Flat reference mixing",
-              "value_es": "Mezcla de referencia plana"
+              "value": "Studio Monitor",
+              "value_es": "Monitor de estudio"
             },
             {
-              "value": "Stable speaker placement",
-              "value_es": "Colocación estable de los monitores"
+              "value": "Monitor Stands",
+              "value_es": "Soportes de monitor"
+            },
+            {
+              "value": "Isolation Stands",
+              "value_es": "Soportes de aislamiento"
+            },
+            {
+              "value": "Room Correction SW",
+              "value_es": "SW corrección sala"
+            },
+            {
+              "value": "Measurement Mic",
+              "value_es": "Micrófono medición"
+            },
+            {
+              "value": "Room Calibration Kit",
+              "value_es": "Kit calibración sala"
+            },
+            {
+              "value": "Isolation Pads",
+              "value_es": "Almohadillas aislamiento"
+            },
+            {
+              "value": "Monitor Stands",
+              "value_es": "Soportes de monitor"
             }
           ]
         },
         {
-          "label": "Type",
-          "label_es": "Tipo",
+          "label": "Best For",
           "values": [
             {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
+              "value": "Reference mixing in untreated rooms",
+              "value_es": "Mezcla de referencia en salas sin tratar"
             },
             {
-              "value": "Monitor stands (pair)",
-              "value_es": "Soportes de monitores (par)"
+              "value": "Ear-level positioning on desk/floor",
+              "value_es": "Posicionamiento a altura de oído"
+            },
+            {
+              "value": "Decoupling monitors from desk resonance",
+              "value_es": "Desacoplar monitores de resonancia mesa"
+            },
+            {
+              "value": "Flattening frequency response at listen pos",
+              "value_es": "Aplanar respuesta en posición escucha"
+            },
+            {
+              "value": "Measuring room response accurately",
+              "value_es": "Medir respuesta sala con precisión"
+            },
+            {
+              "value": "Auto-calibrating Genelec SAM monitors",
+              "value_es": "Auto-calibrar monitores Genelec SAM"
+            },
+            {
+              "value": "Budget decoupling for small monitors",
+              "value_es": "Desacoplo económico monitores pequeños"
+            },
+            {
+              "value": "Heavy monitors up to 100 lb each",
+              "value_es": "Monitores pesados hasta 45 kg cada uno"
+            }
+          ]
+        },
+        {
+          "label": "Key Feature",
+          "values": [
+            {
+              "value": "8\" woofer, 120 W bi-amp, room control",
+              "value_es": "Woofer 8\", 120 W bi-amp, control sala"
+            },
+            {
+              "value": "Height 35.4–53.1\", 40 lb capacity",
+              "value_es": "Altura 90–135 cm, capacidad 18 kg"
+            },
+            {
+              "value": "Patented isolator, tilt -6.5° to +8.5°",
+              "value_es": "Aislador patentado, inclinación -6,5° a +8,5°"
+            },
+            {
+              "value": "500+ headphone profiles, measurement mic incl",
+              "value_es": "500+ perfiles auriculares, mic medición incl"
+            },
+            {
+              "value": "Omnidirectional, calibrated, 20 Hz–20 kHz",
+              "value_es": "Omnidireccional, calibrado, 20 Hz–20 kHz"
+            },
+            {
+              "value": "Network-controlled, 20+ filter groups",
+              "value_es": "Control en red, 20+ grupos filtro"
+            },
+            {
+              "value": "High-density foam, 4° or 8° tilt",
+              "value_es": "Espuma alta densidad, inclinación 4° u 8°"
+            },
+            {
+              "value": "Height 36–54\", 100 lb capacity, cable mgmt",
+              "value_es": "Altura 91–137 cm, capacidad 45 kg, gestión cables"
+            }
+          ]
+        },
+        {
+          "label": "Price (approx.)",
+          "values": [
+            {
+              "value": "$399 each",
+              "value_es": "$399 c/u"
+            },
+            {
+              "value": "$149 pair",
+              "value_es": "$149 par"
+            },
+            {
+              "value": "$299 pair",
+              "value_es": "$299 par"
+            },
+            {
+              "value": "$299 (mic included)",
+              "value_es": "$299 (mic incluido)"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$49 (4-pack)",
+              "value_es": "$49 (pack 4)"
+            },
+            {
+              "value": "$299 pair",
+              "value_es": "$299 par"
             }
           ]
         }
@@ -11425,58 +11569,224 @@
         "name": "Yamaha HS8",
         "name_es": "Yamaha HS8",
         "pros": [
-          "Brutally honest frequency response reveals mix flaws other monitors hide",
-          "Room control switches (low cut, high trim, mid EQ) compensate for placement issues",
-          "8-inch Kevlar-coated woofer reaches problem frequencies below 40Hz",
-          "The industry reference monitor used in studios worldwide"
-        ],
-        "pros_es": [
-          "Respuesta de frecuencia brutalmente honesta que revela fallos que otros monitores ocultan",
-          "Controles de sala (low cut, high trim, mid EQ) que compensan problemas de colocación",
-          "Woofer de 8 pulgadas con revestimiento de Kevlar que llega a frecuencias problemáticas por debajo de 40Hz",
-          "El monitor de referencia de la industria usado en estudios de todo el mundo"
+          "Honest midrange reveals mix flaws",
+          "Room Control / High Trim adapt to placement",
+          "Legendary reliability, 10+ year track record",
+          "Wide sweet spot for collaborative sessions"
         ],
         "cons": [
-          "Rear-ported, so they need breathing room from the wall",
-          "No built-in DSP room correction — you add your own calibration software",
-          "Sold per speaker, so a pair costs a significant amount",
-          "The hyped presence range sounds harsh in untreated rooms, exaggerating mix flaws",
-          "No auto standby — the monitors keep drawing power when left on"
+          "Bass roll-off below 50 Hz needs sub",
+          "Bright tweeter fatigues at high SPL",
+          "Large footprint for small desks",
+          "No DSP or room correction built-in"
+        ],
+        "pros_es": [
+          "Medios honestos revelan fallos de mezcla",
+          "Room Control / High Trim se adaptan a colocación",
+          "Fiabilidad legendaria, 10+ años probados",
+          "Punto dulce amplio para sesiones colaborativas"
         ],
         "cons_es": [
-          "Puerto trasero, así que necesitan espacio de respiración de la pared",
-          "Sin corrección de sala DSP integrada — añades tu propio software de calibración",
-          "Se venden por altavoz, así que un par cuesta una cantidad significativa",
-          "La zona de presencia realzada suena dura en salas sin tratar, exagerando los fallos de la mezcla",
-          "Sin modo de espera automático — los monitores siguen consumiendo energía si se dejan encendidos"
+          "Roll-off de graves bajo 50 Hz pide sub",
+          "Tweeter brillante fatiga a alto SPL",
+          "Gran huella para escritorios pequeños",
+          "Sin DSP ni corrección de sala integrada"
         ]
       },
       {
         "name": "K&M Monitor Stands (Pair)",
-        "name_es": "Soportes de Monitor K&M (Par)",
+        "name_es": "K&M Monitor Stands (Pair)",
         "pros": [
-          "German-engineered steel construction for stability and durability",
-          "Height-adjustable to get tweeters exactly at ear level",
-          "Floor spikes mechanically decouple the speaker from the floor — tightening bass response",
-          "The cheapest upgrade that makes the biggest difference to your mixes"
-        ],
-        "pros_es": [
-          "Construcción de acero con ingeniería alemana para estabilidad y durabilidad",
-          "Ajustables en altura para poner los tweeters exactamente al nivel del oído",
-          "Las puntas de piso desacoplan mecánicamente el altavoz del suelo — ajustando la respuesta de graves",
-          "La mejora más barata que marca la mayor diferencia en tus mezclas"
+          "Steel construction, rock-solid stability",
+          "Height range covers sit/stand positions",
+          "Cable management clips keep runs tidy",
+          "Fits most 5–8\" monitors securely"
         ],
         "cons": [
-          "Metal stands can reflect sound and create early reflections in small rooms",
-          "Floor spikes can damage hardwood or tile floors without protective pads",
-          "Adjustment requires loosening bolts — not quick during a session",
-          "Pricier than foam isolation pads for basic decoupling"
+          "No isolation — transmits desk vibration",
+          "Base feet can scratch hardwood floors",
+          "Assembly required, tools not included",
+          "Fixed top plate angle (no tilt)"
+        ],
+        "pros_es": [
+          "Construcción acero, estabilidad a prueba de bombas",
+          "Rango altura cubre posiciones sentado/de pie",
+          "Clips gestión cables mantienen orden",
+          "Acepta la mayoría monitores 5–8\""
         ],
         "cons_es": [
-          "Los soportes de metal pueden reflejar sonido y crear reflexiones tempranas en salas pequeñas",
-          "Las puntas de piso pueden dañar suelos de madera o baldosas sin almohadillas protectoras",
-          "El ajuste requiere aflojar tornillos — no es rápido durante una sesión",
-          "Más caros que las almohadillas de espuma de aislamiento para desacoplamiento básico"
+          "Sin aislamiento — transmite vibración mesa",
+          "Patas base pueden rayar suelos madera",
+          "Requiere montaje, herramientas no incluidas",
+          "Placa superior ángulo fijo (sin inclinación)"
+        ]
+      },
+      {
+        "name": "ISO Acoustics ISO-200 (Pair)",
+        "name_es": "ISO Acoustics ISO-200 (Pair)",
+        "pros": [
+          "Patented isolator kills desk resonance",
+          "Continuous tilt -6.5° to +8.5° for alignment",
+          "Supports up to 60 lb per stand",
+          "Immediate stereo imaging improvement"
+        ],
+        "cons": [
+          "Premium price vs basic stands",
+          "Limited height range (fixed)",
+          "Plastic housings feel less premium",
+          "Large footprint on small desks"
+        ],
+        "pros_es": [
+          "Aislador patentado elimina resonancia mesa",
+          "Inclinación continua -6,5° a +8,5° para alinear",
+          "Soporta hasta 27 kg por soporte",
+          "Mejora inmediata imagen estéreo"
+        ],
+        "cons_es": [
+          "Precio premium vs soportes básicos",
+          "Rango altura limitado (fijo)",
+          "Carcasas plástico se sienten menos premium",
+          "Gran huella en escritorios pequeños"
+        ]
+      },
+      {
+        "name": "Sonarworks SoundID Reference",
+        "name_es": "Sonarworks SoundID Reference",
+        "pros": [
+          "Flattens response to ±0.5 dB at listen pos",
+          "500+ headphone calibration profiles",
+          "Includes measurement mic (OMNI)",
+          "Works with any monitors/headphones"
+        ],
+        "cons": [
+          "Software-only — no hardware fix",
+          "Subscription model for updates",
+          "Cannot fix deep nulls from room modes",
+          "Latency added in DAW (monitoring path)"
+        ],
+        "pros_es": [
+          "Aplana respuesta a ±0,5 dB en posición escucha",
+          "500+ perfiles calibración auriculares",
+          "Incluye micrófono medición (OMNI)",
+          "Funciona con cualquier monitor/auriculares"
+        ],
+        "cons_es": [
+          "Solo software — sin corrección hardware",
+          "Modelo suscripción para actualizaciones",
+          "No corrige nulos profundos por modos sala",
+          "Latencia añadida en DAW (ruta monitoreo)"
+        ]
+      },
+      {
+        "name": "MiniDSP UMIK-1",
+        "name_es": "MiniDSP UMIK-1",
+        "pros": [
+          "Individually calibrated, calibration file included",
+          "USB plug-and-play, no interface needed",
+          "Omnidirectional, 20 Hz–20 kHz ±1 dB",
+          "Works with REW, Sonarworks, Dirac"
+        ],
+        "cons": [
+          "Requires software (REW/Sonarworks) to use",
+          "Single mic — no multi-point averaging",
+          "Build quality feels lightweight",
+          "Cable length only 2 m"
+        ],
+        "pros_es": [
+          "Calibrado individualmente, archivo incluido",
+          "USB plug-and-play, sin interfaz necesaria",
+          "Omnidireccional, 20 Hz–20 kHz ±1 dB",
+          "Funciona con REW, Sonarworks, Dirac"
+        ],
+        "cons_es": [
+          "Requiere software (REW/Sonarworks) para usar",
+          "Un solo mic — sin promediado multi-punto",
+          "Calidad construcción se siente ligera",
+          "Longitud cable solo 2 m"
+        ]
+      },
+      {
+        "name": "Genelec GLM Kit",
+        "name_es": "Genelec GLM Kit",
+        "pros": [
+          "Auto-calibrates Genelec SAM monitors in minutes",
+          "Network control of 20+ filter groups",
+          "Stores multiple room profiles",
+          "Phase-aligned multi-sub integration"
+        ],
+        "cons": [
+          "Only works with Genelec SAM series",
+          "Requires GLM network adapter (extra cost)",
+          "Proprietary ecosystem lock-in",
+          "Overkill for stereo-only setups"
+        ],
+        "pros_es": [
+          "Auto-calibra monitores Genelec SAM en minutos",
+          "Control red de 20+ grupos filtro",
+          "Almacena múltiples perfiles sala",
+          "Integración multi-sub alineada fase"
+        ],
+        "cons_es": [
+          "Solo funciona con serie Genelec SAM",
+          "Requiere adaptador red GLM (costo extra)",
+          "Bloqueo ecosistema propietario",
+          "Excesivo para setups solo estéreo"
+        ]
+      },
+      {
+        "name": "Auralex MoPADs (4-pack)",
+        "name_es": "Auralex MoPADs (4-pack)",
+        "pros": [
+          "Ultra-affordable decoupling solution",
+          "Two angle options (4° or 8°)",
+          "High-density foam absorbs vibration",
+          "Fits under any small monitor"
+        ],
+        "cons": [
+          "Compresses under heavy monitors",
+          "No height adjustment",
+          "Foam degrades over years",
+          "Less effective than true isolators"
+        ],
+        "pros_es": [
+          "Solución desacoplo ultra-económica",
+          "Dos opciones ángulo (4° u 8°)",
+          "Espuma alta densidad absorbe vibración",
+          "Cabe bajo cualquier monitor pequeño"
+        ],
+        "cons_es": [
+          "Se comprime bajo monitores pesados",
+          "Sin ajuste altura",
+          "Espuma degrada con los años",
+          "Menos efectivo que aisladores verdaderos"
+        ]
+      },
+      {
+        "name": "Ultimate Support MS-100 (Pair)",
+        "name_es": "Ultimate Support MS-100 (Pair)",
+        "pros": [
+          "Massive 100 lb capacity per stand",
+          "Height 36–54\" with fine adjustment",
+          "Integrated cable management channels",
+          "Locking casters for mobile rigs"
+        ],
+        "cons": [
+          "Industrial look, not studio aesthetic",
+          "Heavy (35 lb each) — hard to move",
+          "Overkill for 5–6\" nearfields",
+          "Premium price"
+        ],
+        "pros_es": [
+          "Capacidad masiva 45 kg por soporte",
+          "Altura 91–137 cm con ajuste fino",
+          "Canales gestión cables integrados",
+          "Ruedas con freno para racks móviles"
+        ],
+        "cons_es": [
+          "Estética industrial, no de estudio",
+          "Pesados (16 kg c/u) — difíciles mover",
+          "Excesivo para nearfields 5–6\"",
+          "Precio premium"
         ]
       }
     ],
