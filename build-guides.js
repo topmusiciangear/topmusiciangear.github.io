@@ -4937,7 +4937,7 @@ const TEST_SHOP_BTN = {
       amazon: "$129.99"
     },
     urls: {
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone/8453"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone-Slate/3U30"
     }
   },
 };function hollyDefaultRegion() {
