@@ -4734,6 +4734,202 @@
               "value_es": "Supercardioide"
             }
           ]
+        },
+        {
+          "label": "Frequency Response",
+          "label_es": "Respuesta de frecuencia",
+          "values": [
+            {
+              "value": "40 Hz – 19 kHz",
+              "value_es": "40 Hz – 19 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "40 Hz – 15 kHz",
+              "value_es": "40 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 18 kHz",
+              "value_es": "50 Hz – 18 kHz"
+            },
+            {
+              "value": "50 Hz – 14 kHz",
+              "value_es": "50 Hz – 14 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "50 Hz – 15 kHz",
+              "value_es": "50 Hz – 15 kHz"
+            },
+            {
+              "value": "40 Hz – 16 kHz",
+              "value_es": "40 Hz – 16 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 16 kHz",
+              "value_es": "50 Hz – 16 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "70 Hz – 20 kHz",
+              "value_es": "70 Hz – 20 kHz"
+            },
+            {
+              "value": "Close 30 Hz – 17 kHz",
+              "value_es": "Close 30 Hz – 17 kHz"
+            }
+          ]
+        },
+        {
+          "label": "Max SPL",
+          "label_es": "SPL máximo",
+          "values": [
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": ">140 dB",
+              "value_es": ">140 dB"
+            },
+            {
+              "value": "130 dB (150 dB w/ pad)",
+              "value_es": "130 dB (150 dB con pad)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "127 dB",
+              "value_es": "127 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "148 dB",
+              "value_es": "148 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": ">130 dB",
+              "value_es": ">130 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "144 dB",
+              "value_es": "144 dB"
+            },
+            {
+              "value": "136 dB",
+              "value_es": "136 dB"
+            },
+            {
+              "value": "148 dB (158 dB w/ pad)",
+              "value_es": "148 dB (158 dB con pad)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "147 dB",
+              "value_es": "147 dB"
+            },
+            {
+              "value": ">140 dB",
+              "value_es": ">140 dB"
+            }
+          ]
         }
       ]
     },
