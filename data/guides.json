@@ -42392,6 +42392,22 @@
         {
           "title": "Elektron Digitakt II",
           "title_es": "Elektron Digitakt II"
+        },
+        {
+          "title": "Akai MPC Live II",
+          "title_es": "Akai MPC Live II"
+        },
+        {
+          "title": "Polyend Tracker",
+          "title_es": "Polyend Tracker"
+        },
+        {
+          "title": "Roland SP-404 MKII",
+          "title_es": "Roland SP-404 MKII"
+        },
+        {
+          "title": "Native Instruments Maschine+",
+          "title_es": "Native Instruments Maschine+"
         }
       ],
       "rows": [
@@ -42410,6 +42426,26 @@
             {
               "value": "Deep sampling and complex sequencing",
               "value_es": "Sampling profundo y secuenciación compleja"
+            },
+            {
+              "value": "Modern sampling, sequencing, Overbridge",
+              "value_es": "Sampling moderno, secuenciación, Overbridge"
+            },
+            {
+              "value": "Standalone MPC workflow, 16 GB",
+              "value_es": "Flujo MPC standalone, 16 GB"
+            },
+            {
+              "value": "Tracker workflow, sampling, performance",
+              "value_es": "Flujo tracker, sampling, directo"
+            },
+            {
+              "value": "Lo-fi sampling, effects, performance",
+              "value_es": "Sampling lo-fi, efectos, directo"
+            },
+            {
+              "value": "Standalone + controller hybrid",
+              "value_es": "Híbrido standalone + controlador"
             }
           ]
         },
@@ -42428,6 +42464,26 @@
             {
               "value": "16-track drum computer & stereo sampler",
               "value_es": "Drum computer de 16 pistas y sampler estéreo"
+            },
+            {
+              "value": "Sampler / Sequencer",
+              "value_es": "Sampler / Secuenciador"
+            },
+            {
+              "value": "Standalone MPC / Sampler",
+              "value_es": "MPC Standalone / Sampler"
+            },
+            {
+              "value": "Tracker / Sampler",
+              "value_es": "Tracker / Sampler"
+            },
+            {
+              "value": "Sampler / Effects Processor",
+              "value_es": "Sampler / Procesador Efectos"
+            },
+            {
+              "value": "Standalone Sampler / Controller",
+              "value_es": "Sampler Standalone / Controlador"
             }
           ]
         },
@@ -42446,6 +42502,26 @@
             {
               "value": "16 audio or MIDI tracks, 32 voices",
               "value_es": "16 pistas de audio o MIDI, 32 voces"
+            },
+            {
+              "value": "8 audio + 8 MIDI tracks",
+              "value_es": "8 audio + 8 MIDI pistas"
+            },
+            {
+              "value": "16 audio + 128 MIDI tracks",
+              "value_es": "16 audio + 128 MIDI pistas"
+            },
+            {
+              "value": "8 sample tracks",
+              "value_es": "8 pistas sample"
+            },
+            {
+              "value": "16 sample tracks",
+              "value_es": "16 pistas sample"
+            },
+            {
+              "value": "8 groups x 16 pads = 128 sounds",
+              "value_es": "8 grupos x 16 pads = 128 sonidos"
             }
           ]
         },
@@ -42464,6 +42540,26 @@
             {
               "value": "400 MB RAM (35 min stereo), 20 GB +Drive",
               "value_es": "400 MB RAM (35 min estéreo), 20 GB +Drive"
+            },
+            {
+              "value": "1 GB + Overbridge streaming",
+              "value_es": "1 GB + streaming Overbridge"
+            },
+            {
+              "value": "16 GB internal",
+              "value_es": "16 GB interno"
+            },
+            {
+              "value": "8 GB internal",
+              "value_es": "8 GB interno"
+            },
+            {
+              "value": "16 GB internal (SD card)",
+              "value_es": "16 GB interno (SD card)"
+            },
+            {
+              "value": "16 GB internal",
+              "value_es": "16 GB interno"
             }
           ]
         },
@@ -42482,6 +42578,26 @@
             {
               "value": "128-step Elektron, euclidean, song mode",
               "value_es": "128 pasos Elektron, euclidiano, modo canción"
+            },
+            {
+              "value": "64-step, parameter locks, trig conditions",
+              "value_es": "64 pasos, parameter locks, trig conditions"
+            },
+            {
+              "value": "128-track, 64-step, pad perform",
+              "value_es": "128-pista, 64-paso, perform pads"
+            },
+            {
+              "value": "Tracker pattern sequencer",
+              "value_es": "Secuenciador patrón tracker"
+            },
+            {
+              "value": "16-step, pattern chaining",
+              "value_es": "16-paso, encadenado patrones"
+            },
+            {
+              "value": "64-step, scenes, lock snapshots",
+              "value_es": "64-paso, escenas, lock snapshots"
             }
           ]
         },
@@ -42500,6 +42616,26 @@
             {
               "value": "Delay, reverb, chorus, bit/SR reduction, drive",
               "value_es": "Delay, reverb, chorus, bit/SR reduction, drive"
+            },
+            {
+              "value": "Per-track FX, master send/insert",
+              "value_es": "FX por pista, master send/insert"
+            },
+            {
+              "value": "Per-pad FX, master bus",
+              "value_es": "FX por pad, bus master"
+            },
+            {
+              "value": "Reverb, delay, chorus, filter",
+              "value_es": "Reverb, delay, chorus, filtro"
+            },
+            {
+              "value": "12 effects per pattern, DJ FX",
+              "value_es": "12 efectos por patrón, DJ FX"
+            },
+            {
+              "value": "Per-group FX, master bus",
+              "value_es": "FX por grupo, bus master"
             }
           ]
         },
@@ -42518,6 +42654,26 @@
             {
               "value": "2x 1/4\" TRS in, 2x TRS out, phones",
               "value_es": "2x 1/4\" TRS in, 2x TRS out, phones"
+            },
+            {
+              "value": "2 in / 4 out + Headphones",
+              "value_es": "2 in / 4 out + Auriculares"
+            },
+            {
+              "value": "2 in / 6 out + Headphones",
+              "value_es": "2 in / 6 out + Auriculares"
+            },
+            {
+              "value": "1 in / 2 out + Headphones",
+              "value_es": "1 in / 2 out + Auriculares"
+            },
+            {
+              "value": "2 in / 2 out + Headphones",
+              "value_es": "2 in / 2 out + Auriculares"
+            },
+            {
+              "value": "2 in / 2 out + Headphones",
+              "value_es": "2 in / 2 out + Auriculares"
             }
           ]
         },
@@ -42536,6 +42692,26 @@
             {
               "value": "MIDI in/out/thru, DIN sync, USB 2.0",
               "value_es": "MIDI in/out/thru, DIN sync, USB 2.0"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, Overbridge",
+              "value_es": "USB, MIDI I/O, CV/Gate, Overbridge"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, WiFi",
+              "value_es": "USB, MIDI I/O, CV/Gate, WiFi"
+            },
+            {
+              "value": "USB, MIDI I/O, CV/Gate, SD",
+              "value_es": "USB, MIDI I/O, CV/Gate, SD"
+            },
+            {
+              "value": "USB, MIDI I/O, SD card",
+              "value_es": "USB, MIDI I/O, SD card"
+            },
+            {
+              "value": "USB, MIDI I/O, WiFi, Bluetooth",
+              "value_es": "USB, MIDI I/O, WiFi, Bluetooth"
             }
           ]
         },
@@ -42554,6 +42730,26 @@
             {
               "value": "1.48 kg (3.25 lb)",
               "value_es": "1,48 kg (3,25 lb)"
+            },
+            {
+              "value": "1.1 kg",
+              "value_es": "1.1 kg"
+            },
+            {
+              "value": "2.2 kg",
+              "value_es": "2.2 kg"
+            },
+            {
+              "value": "0.6 kg",
+              "value_es": "0.6 kg"
+            },
+            {
+              "value": "0.5 kg",
+              "value_es": "0.5 kg"
+            },
+            {
+              "value": "1.8 kg",
+              "value_es": "1.8 kg"
             }
           ]
         }
@@ -42561,87 +42757,185 @@
     },
     "verdictProsCons": [
       {
-        "name": "Elektron Digitakt II",
-        "name_es": "Elektron Digitakt II",
-        "pros": [
-          "16-track drum computer and stereo sampler with 32 voices and analog overdrive per track",
-          "400 MB RAM (35 min stereo) plus a 20 GB +Drive for deep sample libraries",
-          "Elektron sequencer with probability and conditional trigs, euclidean steps and song mode",
-          "Overbridge integration delivers multitrack USB audio straight into your DAW"
-        ],
-        "pros_es": [
-          "Drum computer y sampler estéreo de 16 pistas con 32 voces y overdrive analógico por pista",
-          "400 MB de RAM (35 min en estéreo) más un +Drive de 20 GB para bibliotecas de samples profundas",
-          "Secuenciador Elektron con probabilidad y trigs condicionales, pasos euclidianos y modo canción",
-          "La integración Overbridge envía audio USB multitrack directo a tu DAW"
-        ],
-        "cons": [
-          "It is double the MPC One G2 for anyone seeking an all-in-one station",
-          "No speakers or battery: needs headphones/monitors and mains power",
-          "The menu-based flow has a steeper learning curve than the MPC One G2",
-          "Routing is limited to 2x TRS in/out without an external interface"
-        ],
-        "cons_es": [
-          "Es el doble que la MPC One G2 para quien busca una estación todo-en-uno",
-          "Sin altavoces ni batería: necesita auriculares/monitores y corriente",
-          "El flujo basado en menús tiene más curva de aprendizaje que la MPC One G2",
-          "El ruteo se limita a 2x TRS in/out sin una interfaz externa"
-        ]
-      },
-      {
         "name": "Akai MPC One G2",
         "name_es": "Akai MPC One G2",
         "pros": [
-          "Complete standalone beat station — 128 MIDI + 8 audio tracks with 16 GB storage",
-          "16 velocity-sensitive pads with the legendary MPC workflow",
-          "Wi-Fi and Bluetooth let you sample from a phone or tablet wirelessly",
-          "100+ AIR FX plugins and grid/step sequencing — the best entry into the MPC ecosystem"
-        ],
-        "pros_es": [
-          "Estación de beats standalone completa — 128 pistas MIDI + 8 de audio con 16 GB de almacenamiento",
-          "16 pads sensibles a la velocidad con el legendario flujo de trabajo MPC",
-          "Wi-Fi y Bluetooth permiten samplear desde un teléfono o tablet de forma inalámbrica",
-          "Más de 100 plugins AIR FX y secuenciación grid/pasos a — la mejor entrada al ecosistema MPC"
+          "Standalone MPC, no computer needed",
+          "16 GB, WiFi, Bluetooth, touchscreen",
+          "16 velocity pads, plugin synths",
+          "Great value for standalone"
         ],
         "cons": [
-          "The touchscreen flow has a steeper curve than the TR-8S direct faders",
-          "Only 8 audio tracks versus the Digitakt II 16 for deep sampling",
-          "At 2.1 kg it is heavier than the Digitakt II (1.48 kg) and has no internal battery",
-          "Sampling from a phone depends on a stable wireless connection"
+          "Single stereo out",
+          "Fan noise",
+          "Menu diving"
+        ],
+        "pros_es": [
+          "MPC standalone, sin PC",
+          "16 GB, WiFi, Bluetooth, táctil",
+          "16 pads velocity, plugins sintes",
+          "Gran valor standalone"
         ],
         "cons_es": [
-          "El flujo táctil por pantalla tiene más curva que los faders directos de la TR-8S",
-          "Solo 8 pistas de audio frente a las 16 del Digitakt II para sampling profundo",
-          "Con 2,1 kg es más pesada que la Digitakt II (1,48 kg) y no tiene batería interna",
-          "Samplear desde el teléfono depende de una conexión inalámbrica estable"
+          "Solo salida estéreo",
+          "Ruido ventilador",
+          "Menu diving"
         ]
       },
       {
         "name": "Roland TR-8S",
         "name_es": "Roland TR-8S",
         "pros": [
-          "Hands-on layout: per-instrument faders, dedicated FX controls and real-time step sequencing",
-          "ACB modeling of 808, 909, 707 and 727 circuits for authentic vintage drums",
-          "Sample import layers your own sounds on top of the Roland circuits",
-          "6 assignable outs plus trigger out; 128 patterns with 8 variations"
-        ],
-        "pros_es": [
-          "Control directo: faders por instrumento, controles FX dedicados y secuenciación por pasos en tiempo real",
-          "Modelado ACB de los circuitos 808, 909, 707 y 727 para baterías vintage auténticas",
-          "La importación de samples superpone tus propios sonidos a los circuitos Roland",
-          "6 salidas asignables más trigger out; 128 patrones con 8 variaciones"
+          "ACB modeling + samples = versatile",
+          "SD card for user samples",
+          "Probability, sub-step, 6 assignable outs",
+          "Roland sound quality"
         ],
         "cons": [
-          " and it is a drum machine only: no sampler chops or melodic engine like the MPC or the Digitakt",
-          "2.1 kg and mains-powered only, no battery for travel",
-          "~600 seconds of user samples versus the 35 minutes of memory on the Digitakt II",
-          "11 instrument parts limit depth versus the 128 tracks of the MPC One G2"
+          "Complex menus",
+          "No battery",
+          "Plastic build"
+        ],
+        "pros_es": [
+          "Modelado ACB + samples = versátil",
+          "SD card samples usuario",
+          "Probabilidad, sub-paso, 6 salidas asignables",
+          "Calidad sonido Roland"
         ],
         "cons_es": [
-          " y es solo una caja de ritmos: no tiene chops de sampler ni motor melódico como la MPC o la Digitakt",
-          "2,1 kg y solo con corriente, sin batería para viajar",
-          "~600 segundos de samples de usuario frente a los 35 minutos de memoria de la Digitakt II",
-          "11 partes de instrumento limitan la profundidad frente a las 128 pistas de la MPC One G2"
+          "Menús complejos",
+          "Sin bateria",
+          "Construcción plástico"
+        ]
+      },
+      {
+        "name": "Elektron Digitakt II",
+        "name_es": "Elektron Digitakt II",
+        "pros": [
+          "8 audio + 8 MIDI tracks, Overbridge",
+          "Parameter locks, trig conditions = deep",
+          "1 GB + streaming, CV/Gate",
+          "Elektron sequencer = best in class"
+        ],
+        "cons": [
+          "No touchscreen",
+          "Stereo out only",
+          "Steep learning curve"
+        ],
+        "pros_es": [
+          "8 audio + 8 MIDI pistas, Overbridge",
+          "Parameter locks, trig conditions = profundo",
+          "1 GB + streaming, CV/Gate",
+          "Secuenciador Elektron = mejor clase"
+        ],
+        "cons_es": [
+          "Sin pantalla táctil",
+          "Solo salida estéreo",
+          "Curva aprendizaje pronunciada"
+        ]
+      },
+      {
+        "name": "Akai MPC Live II",
+        "name_es": "Akai MPC Live II",
+        "pros": [
+          "16 audio tracks, 16 GB, battery",
+          "WiFi, Bluetooth, 7\" touchscreen",
+          "16 pads, standalone + controller",
+          "Speaker for sketching"
+        ],
+        "cons": [
+          "Heavy (2.2 kg)",
+          "Single stereo out",
+          "Expensive"
+        ],
+        "pros_es": [
+          "16 pistas audio, 16 GB, bateria",
+          "WiFi, Bluetooth, 7\" táctil",
+          "16 pads, standalone + controlador",
+          "Altavoz para bocetos"
+        ],
+        "cons_es": [
+          "Pesado (2.2 kg)",
+          "Solo salida estéreo",
+          "Caro"
+        ]
+      },
+      {
+        "name": "Polyend Tracker",
+        "name_es": "Polyend Tracker",
+        "pros": [
+          "Tracker workflow = unique creativity",
+          "8 tracks, sampling, slicing, synthesis",
+          "SD card, USB-C, CV/Gate",
+          "Performance mode, chance ops"
+        ],
+        "cons": [
+          "Vertical screen unusual",
+          "No analog synth",
+          "Learning curve for trackers"
+        ],
+        "pros_es": [
+          "Flujo tracker = creatividad única",
+          "8 pistas, sampling, slicing, síntesis",
+          "SD card, USB-C, CV/Gate",
+          "Modo directo, chance ops"
+        ],
+        "cons_es": [
+          "Pantalla vertical inusual",
+          "Sin synth analógico",
+          "Curva aprendizaje trackers"
+        ]
+      },
+      {
+        "name": "Roland SP-404 MKII",
+        "name_es": "Roland SP-404 MKII",
+        "pros": [
+          "16 sample tracks, 16 GB SD",
+          "12 FX per pattern + DJ FX looper",
+          "Skip back sampling, resample",
+          "Iconic lo-fi workflow"
+        ],
+        "cons": [
+          "No MIDI sequencing",
+          "Small screen",
+          "No velocity-sensitive pads"
+        ],
+        "pros_es": [
+          "16 pistas sample, 16 GB SD",
+          "12 FX patrón + DJ FX looper",
+          "Skip back sampling, resample",
+          "Flujo lo-fi icónico"
+        ],
+        "cons_es": [
+          "Sin secuenciación MIDI",
+          "Pantalla pequeña",
+          "Pads sin velocity"
+        ]
+      },
+      {
+        "name": "Native Instruments Maschine+",
+        "name_es": "Native Instruments Maschine+",
+        "pros": [
+          "Standalone + controller in one",
+          "16 GB, WiFi, Bluetooth",
+          "8 groups x 16 pads, lock snapshots",
+          "Massive factory library"
+        ],
+        "cons": [
+          "Expensive",
+          "Fan noise",
+          "Software ecosystem lock-in"
+        ],
+        "pros_es": [
+          "Standalone + controlador en uno",
+          "16 GB, WiFi, Bluetooth",
+          "8 grupos x 16 pads, lock snapshots",
+          "Librería fábrica masiva"
+        ],
+        "cons_es": [
+          "Caro",
+          "Ruido ventilador",
+          "Bloqueo ecosistema software"
         ]
       }
     ],
