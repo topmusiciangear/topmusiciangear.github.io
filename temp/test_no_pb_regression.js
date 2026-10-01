@@ -5,7 +5,7 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 
-const BASELINE = 'd556fa5ed5';
+const BASELINE = 'HEAD';
 
 const files = [
   'guides/wireless-lapel-mics.html',

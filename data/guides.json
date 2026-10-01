@@ -204,6 +204,18 @@
         {
           "title": "Yamaha HS8",
           "title_es": "Yamaha HS8"
+        },
+        {
+          "title": "Price",
+          "title_es": "Price"
+        },
+        {
+          "title": "Connectivity",
+          "title_es": "Connectivity"
+        },
+        {
+          "title": "Key Specs",
+          "title_es": "Key Specs"
         }
       ],
       "rows": [
@@ -280,6 +292,117 @@
             {
               "value": "2-way powered",
               "value_es": "Biamplificado de 2 vías"
+            }
+          ]
+        },
+        {
+          "label": "Price",
+          "values": [
+            {
+              "value": "$189.99",
+              "value_es": "$189.99"
+            },
+            {
+              "value": "$99.00",
+              "value_es": "$99.00"
+            },
+            {
+              "value": "$149.00",
+              "value_es": "$149.00"
+            },
+            {
+              "value": "$249.00",
+              "value_es": "$249.00"
+            },
+            {
+              "value": "$299.00",
+              "value_es": "$299.00"
+            },
+            {
+              "value": "$249.00",
+              "value_es": "$249.00"
+            },
+            {
+              "value": "$99.00",
+              "value_es": "$99.00"
+            },
+            {
+              "value": "$399.00",
+              "value_es": "$399.00"
+            }
+          ]
+        },
+        {
+          "label": "Connectivity",
+          "values": [
+            {
+              "value": "USB-C, 2x XLR/TRS combo, MIDI I/O",
+              "value_es": "USB-C, 2x XLR/TRS combo, MIDI I/O"
+            },
+            {
+              "value": "XLR (balanced)",
+              "value_es": "XLR (balanceado)"
+            },
+            {
+              "value": "3.5 mm TRS + 1/4\" adapter",
+              "value_es": "3.5 mm TRS + adaptador 1/4\""
+            },
+            {
+              "value": "XLR, TRS, RCA",
+              "value_es": "XLR, TRS, RCA"
+            },
+            {
+              "value": "USB-C, 2x XLR/TRS combo, MIDI I/O",
+              "value_es": "USB-C, 2x XLR/TRS combo, MIDI I/O"
+            },
+            {
+              "value": "XLR (balanced)",
+              "value_es": "XLR (balanceado)"
+            },
+            {
+              "value": "3.5 mm TRS + 1/4\" adapter",
+              "value_es": "3.5 mm TRS + adaptador 1/4\""
+            },
+            {
+              "value": "XLR, TRS",
+              "value_es": "XLR, TRS"
+            }
+          ]
+        },
+        {
+          "label": "Key Specs",
+          "values": [
+            {
+              "value": "24-bit/192 kHz, Air mode, 56 dB gain",
+              "value_es": "24-bit/192 kHz, modo Air, 56 dB ganancia"
+            },
+            {
+              "value": "Cardioid, 150 Ω, 1–100 kHz response",
+              "value_es": "Cardioide, 150 Ω, respuesta 1–100 kHz"
+            },
+            {
+              "value": "45 mm drivers, 15–28,000 Hz, 38 Ω",
+              "value_es": "Drivers 45 mm, 15–28,000 Hz, 38 Ω"
+            },
+            {
+              "value": "7\" Kevlar woofer, 1\" tweeter, 145 W Class D",
+              "value_es": "Woofer 7\" Kevlar, tweeter 1\", 145 W Clase D"
+            },
+            {
+              "value": "24-bit/192 kHz, Legacy 4K mode, SSL preamps",
+              "value_es": "24-bit/192 kHz, modo Legacy 4K, previos SSL"
+            },
+            {
+              "value": "1\" gold-sputtered capsule, cardioid, self-noise 7 dB-A",
+              "value_es": "Cápsula 1\" gold-sputtered, cardioide, auto-ruido 7 dB-A"
+            },
+            {
+              "value": "40 mm drivers, 10–20,000 Hz, 63 Ω",
+              "value_es": "Drivers 40 mm, 10–20,000 Hz, 63 Ω"
+            },
+            {
+              "value": "8\" cone woofer, 1\" dome tweeter, 120 W bi-amp",
+              "value_es": "Woofer 8\" cono, tweeter 1\" cúpula, 120 W bi-amp"
             }
           ]
         }
