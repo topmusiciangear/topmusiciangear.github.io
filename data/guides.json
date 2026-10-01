@@ -12576,40 +12576,48 @@
           "title_es": "Eventide Blackhole"
         },
         {
-          "title": "FabFilter Pro-Q 4",
-          "title_es": "FabFilter Pro-Q 4"
+          "title": "Cableguys ShaperBox 3",
+          "title_es": "Cableguys ShaperBox 3"
         },
         {
-          "title": "FabFilter Pro-R 2",
-          "title_es": "FabFilter Pro-R 2"
+          "title": "XLN Audio RC-20 Retro Color",
+          "title_es": "XLN Audio RC-20 Retro Color"
         },
         {
-          "title": "Valhalla VintageVerb",
-          "title_es": "Valhalla VintageVerb"
+          "title": "Cableguys HalfTime",
+          "title_es": "Cableguys HalfTime"
         },
         {
-          "title": "Soundtoys Decapitator",
-          "title_es": "Soundtoys Decapitator"
+          "title": "Baby Audio Transit 2",
+          "title_es": "Baby Audio Transit 2"
         },
         {
-          "title": "Slate Digital VerbSuite Classics",
-          "title_es": "Slate Digital VerbSuite Classics"
+          "title": "Devious Machines Infiltrator 2",
+          "title_es": "Devious Machines Infiltrator 2"
         },
         {
-          "title": "Waves H-Reverb",
-          "title_es": "Waves H-Reverb"
+          "title": "iZotope Trash",
+          "title_es": "iZotope Trash"
         },
         {
-          "title": "D16 Group Toraverb 2",
-          "title_es": "D16 Group Toraverb 2"
+          "title": "Excite Audio Lifeline Expanse",
+          "title_es": "Excite Audio Lifeline Expanse"
         },
         {
-          "title": "Kush Audio Goldplate",
-          "title_es": "Kush Audio Goldplate"
+          "title": "Excite Audio Motion: Harmonic",
+          "title_es": "Excite Audio Motion: Harmonic"
         },
         {
-          "title": "Eventide UltraChannel",
-          "title_es": "Eventide UltraChannel"
+          "title": "Arturia Chorus JUN-6",
+          "title_es": "Arturia Chorus JUN-6"
+        },
+        {
+          "title": "D16 Group Repeater Delay",
+          "title_es": "D16 Group Repeater Delay"
+        },
+        {
+          "title": "Baby Audio Smooth Operator Pro",
+          "title_es": "Baby Audio Smooth Operator Pro"
         }
       ],
       "rows": [
@@ -12617,48 +12625,56 @@
           "label": "Category",
           "values": [
             {
-              "value": "Multi-fx Bundle",
-              "value_es": "Bundle multi-fx"
+              "value": "Multi-fx Creative Suite",
+              "value_es": "Suite multi-fx creativa"
             },
             {
-              "value": "Reverb",
-              "value_es": "Reverb"
+              "value": "Creative Reverb",
+              "value_es": "Reverb creativo"
             },
             {
-              "value": "EQ",
-              "value_es": "EQ"
+              "value": "Rhythmic Modulation Suite",
+              "value_es": "Suite modulación rítmica"
             },
             {
-              "value": "Reverb",
-              "value_es": "Reverb"
+              "value": "Lo-Fi Color / Degradation",
+              "value_es": "Color Lo-Fi / Degradación"
             },
             {
-              "value": "Reverb",
-              "value_es": "Reverb"
+              "value": "Time-Stretch / Half-Speed",
+              "value_es": "Time-Stretch / Half-Speed"
             },
             {
-              "value": "Saturation/Distortion",
-              "value_es": "Saturación/Distorsión"
+              "value": "Creative Delay / Modulation",
+              "value_es": "Delay creativo / Modulación"
             },
             {
-              "value": "Reverb Bundle",
-              "value_es": "Bundle Reverb"
+              "value": "Glitch Sequencer / Multi-FX",
+              "value_es": "Secuenciador Glitch / Multi-FX"
             },
             {
-              "value": "Reverb",
-              "value_es": "Reverb"
+              "value": "Creative Distortion",
+              "value_es": "Distorsión creativa"
             },
             {
-              "value": "Reverb",
-              "value_es": "Reverb"
+              "value": "Creative Spatial / Reverb",
+              "value_es": "Espacial creativo / Reverb"
             },
             {
-              "value": "Saturation/EQ",
-              "value_es": "Saturación/EQ"
+              "value": "Harmonic Modulation",
+              "value_es": "Modulación armónica"
             },
             {
-              "value": "Channel Strip",
-              "value_es": "Tira de canal"
+              "value": "Creative Chorus",
+              "value_es": "Chorus creativo"
+            },
+            {
+              "value": "Creative Delay",
+              "value_es": "Delay creativo"
+            },
+            {
+              "value": "Spectral Resonance Control",
+              "value_es": "Control resonancia espectral"
             }
           ]
         },
@@ -12666,48 +12682,56 @@
           "label": "Best For",
           "values": [
             {
-              "value": "Creative sound design, all-in-one",
-              "value_es": "Diseño sonoro creativo, todo en uno"
+              "value": "All-in-one creative sound design",
+              "value_es": "Diseño sonoro creativo todo en uno"
             },
             {
-              "value": "Massive spaces, sound design, ambient",
-              "value_es": "Espacios masivos, diseño sonoro, ambient"
+              "value": "Massive impossible spaces, ambient",
+              "value_es": "Espacios imposibles masivos, ambient"
             },
             {
-              "value": "Surgical EQ, mastering, mixing",
-              "value_es": "EQ quirúrgico, mastering, mezcla"
+              "value": "Rhythmic gating, sidechain, stutter, tape stop",
+              "value_es": "Gating rítmico, sidechain, stutter, tape stop"
             },
             {
-              "value": "Natural reverb tails, mixing, post",
-              "value_es": "Colas reverb naturales, mezcla, post"
+              "value": "Instant vintage lo-fi vibe, character",
+              "value_es": "Vibe vintage lo-fi instantánea, carácter"
             },
             {
-              "value": "Instant classic reverb sounds",
-              "value_es": "Sonidos reverb clásicos instantáneos"
+              "value": "Half-speed effects, slow-mo textures",
+              "value_es": "Efectos half-speed, texturas slow-mo"
             },
             {
-              "value": "Analog-style saturation, drums, vocals",
-              "value_es": "Saturación estilo analógico, bateria, voces"
+              "value": "Complex modulated delays, rhythmic echoes",
+              "value_es": "Delays modulados complejos, ecos rítmicos"
             },
             {
-              "value": "Classic hardware emulations in one",
-              "value_es": "Emulaciones hardware clásico en uno"
+              "value": "Glitch, IDM, micro-rhythms, chaos",
+              "value_es": "Glitch, IDM, micro-ritmos, caos"
             },
             {
-              "value": "Hybrid algorithmic/convolution reverb",
-              "value_es": "Reverb híbrido algorítmico/convolución"
+              "value": "Multiband distortion, tone destruction",
+              "value_es": "Distorsión multibanda, destrucción tonal"
             },
             {
-              "value": "Vintage plate/spring/hall algorithms",
-              "value_es": "Algoritmos vintage plate/spring/hall"
+              "value": "Evolving spatial textures, cinematic",
+              "value_es": "Texturas espaciales evolutivas, cinematográficas"
             },
             {
-              "value": "Tube-style saturation + 3-band EQ",
-              "value_es": "Saturación estilo tubo + EQ 3 bandas"
+              "value": "Harmonic animation, spectral movement",
+              "value_es": "Animación armónica, movimiento espectral"
             },
             {
-              "value": "All-in-one channel strip, mixing",
-              "value_es": "Tira canal todo-en-uno, mezcla"
+              "value": "Lush chorus, Juno-style width",
+              "value_es": "Chorus exuberante, ancho estilo Juno"
+            },
+            {
+              "value": "Complex delay patterns, rhythmic echoes",
+              "value_es": "Patrones delay complejos, ecos rítmicos"
+            },
+            {
+              "value": "Auto-suppress harsh resonances, clarity",
+              "value_es": "Auto-suprimir resonancias duras, claridad"
             }
           ]
         },
@@ -12723,12 +12747,20 @@
               "value_es": "VST/AU/AAX"
             },
             {
-              "value": "VST/AU/AAX/CLAP",
-              "value_es": "VST/AU/AAX/CLAP"
+              "value": "VST/AU/AAX",
+              "value_es": "VST/AU/AAX"
             },
             {
-              "value": "VST/AU/AAX/CLAP",
-              "value_es": "VST/AU/AAX/CLAP"
+              "value": "VST/AU/AAX",
+              "value_es": "VST/AU/AAX"
+            },
+            {
+              "value": "VST/AU/AAX",
+              "value_es": "VST/AU/AAX"
+            },
+            {
+              "value": "VST/AU/AAX",
+              "value_es": "VST/AU/AAX"
             },
             {
               "value": "VST/AU/AAX",
@@ -12772,24 +12804,20 @@
               "value_es": "$199"
             },
             {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$199",
-              "value_es": "$199"
-            },
-            {
-              "value": "$50",
-              "value_es": "$50"
+              "value": "$299",
+              "value_es": "$299"
             },
             {
               "value": "$99",
               "value_es": "$99"
             },
             {
-              "value": "$199",
-              "value_es": "$199"
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
             },
             {
               "value": "$199",
@@ -12804,8 +12832,20 @@
               "value_es": "$149"
             },
             {
-              "value": "$299",
-              "value_es": "$299"
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
             }
           ]
         },
@@ -12813,48 +12853,56 @@
           "label": "Key Feature",
           "values": [
             {
-              "value": "21 effects, modulation matrix, preset browser",
-              "value_es": "21 efectos, matriz modulación, navegador presets"
+              "value": "21 effects, modulation matrix, Effect Rack",
+              "value_es": "21 efectos, matriz modulación, Effect Rack"
             },
             {
-              "value": "Gravity/Blackhole algorithms, 500+ presets",
-              "value_es": "Algoritmos Gravity/Blackhole, 500+ presets"
+              "value": "Gravity reversal, 500+ presets, Ribbon ctrl",
+              "value_es": "Inversión Gravity, 500+ presets, control Ribbon"
             },
             {
-              "value": "24-band dynamic EQ, spectrum analyzer",
-              "value_es": "EQ dinámico 24 bandas, analizador espectro"
+              "value": "9 modulation bands, drawable curves, MIDI",
+              "value_es": "9 bandas modulación, curvas dibujables, MIDI"
             },
             {
-              "value": "Decay rate EQ, stereo width, modulation",
-              "value_es": "EQ tasa decaimiento, ancho estéreo, modulación"
+              "value": "6 modules: wobble, drop, noise, space, etc",
+              "value_es": "6 módulos: wobble, drop, noise, space, etc"
             },
             {
-              "value": "18 algorithms, 3-color UI, modulation",
-              "value_es": "18 algoritmos, UI 3 colores, modulación"
+              "value": "Half-speed, quarter-speed, tape stop",
+              "value_es": "Half-speed, quarter-speed, tape stop"
             },
             {
-              "value": "5 analog models, tone shaping, mix knob",
-              "value_es": "5 modelos analógicos, moldeo tono, mix knob"
+              "value": "Dual engines, groove, modulation, freeze",
+              "value_es": "Dual engines, groove, modulación, freeze"
             },
             {
-              "value": "7 classic plates/halls/chambers",
-              "value_es": "7 placas/salas/cámaras clásicas"
+              "value": "28 modules, step sequencer, macro knobs",
+              "value_es": "28 módulos, secuenciador pasos, macros"
             },
             {
-              "value": "FIR engine, hybrid algos, 150+ presets",
-              "value_es": "Motor FIR, algos híbridos, 150+ presets"
+              "value": "Multiband, 6 models, convolution, envelopes",
+              "value_es": "Multibanda, 6 modelos, convolución, envolventes"
             },
             {
-              "value": "12 algorithms, modulation, early/late",
-              "value_es": "12 algoritmos, modulación, early/late"
+              "value": "3 engines, shimmer, swarm, reflect",
+              "value_es": "3 motores, shimmer, swarm, reflect"
             },
             {
-              "value": "3 saturation models, 3-band EQ, auto-gain",
-              "value_es": "3 modelos saturación, EQ 3 bandas, auto-ganancia"
+              "value": "Harmonic/inharmonic, flux, drift, warp",
+              "value_es": "Armónico/inharmónico, flux, drift, warp"
             },
             {
-              "value": "Comp/EQ/Gate/Comp, soft-sat, 200+ presets",
-              "value_es": "Comp/EQ/Gate/Comp, soft-sat, 200+ presets"
+              "value": "Authentic Juno-106 chorus, stereo width",
+              "value_es": "Chorus Juno-106 auténtico, ancho estéreo"
+            },
+            {
+              "value": "Multi-tap, diffusion, modulation, ping-pong",
+              "value_es": "Multi-tap, difusión, modulación, ping-pong"
+            },
+            {
+              "value": "Auto-detect resonances, spectral smoothing",
+              "value_es": "Auto-detectar resonancias, suavizado espectral"
             }
           ]
         }
@@ -12865,28 +12913,28 @@
         "name": "Soundtoys 5.5 Bundle",
         "name_es": "Soundtoys 5.5 Bundle",
         "pros": [
-          "21 creative effects in one bundle",
-          "Powerful modulation with rhythm sync",
-          "Excellent preset browser with search",
-          "Industry standard for creative FX"
+          "21 creative effects in one rack",
+          "Effect Rack for parallel chains",
+          "Rhythm-sync modulation on everything",
+          "Industry standard for creative producers"
         ],
         "cons": [
-          "Expensive upfront cost",
-          "No individual plugin purchases",
+          "Expensive upfront",
+          "No individual purchases",
           "CPU heavy with multiple instances",
-          "Learning curve for deep features"
+          "Deep learning curve"
         ],
         "pros_es": [
-          "21 efectos creativos en un bundle",
-          "Modulación potente con sincronía rítmica",
-          "Navegador presets excelente con búsqueda",
-          "Estándar de la industria para FX creativos"
+          "21 efectos creativos en un rack",
+          "Effect Rack para cadenas paralelas",
+          "Modulación sync-rítmica en todo",
+          "Estándar para productores creativos"
         ],
         "cons_es": [
           "Costoso pago inicial",
-          "No venta plugins individuales",
-          "Pesado en CPU con múltiples instancias",
-          "Curva aprendizaje funciones profundas"
+          "No venta individual",
+          "CPU pesado con múltiples instancias",
+          "Curva aprendizaje profunda"
         ]
       },
       {
@@ -12894,279 +12942,335 @@
         "name_es": "Eventide Blackhole",
         "pros": [
           "Unique massive spaces impossible in hardware",
-          "Gravity modulation creates evolving textures",
-          "500+ presets cover all genres",
-          "Ribbon controller for live performance"
+          "Gravity modulation reverses decay",
+          "500+ presets, Ribbon for live play",
+          "Secret weapon for ambient/cinematic"
         ],
         "cons": [
-          "Niche sound — not for realistic rooms",
+          "Niche — not for realistic rooms",
           "No early reflections control",
           "Can overwhelm dense mixes",
-          "No VST3/CLAP (VST2/AU/AAX only)"
+          "VST2/AU/AAX only (no VST3/CLAP)"
         ],
         "pros_es": [
           "Espacios masivos únicos imposibles en hardware",
-          "Modulación Gravity crea texturas evolutivas",
-          "500+ presets cubren todos géneros",
-          "Control Ribbon para actuación en vivo"
+          "Modulación Gravity invierte decaimiento",
+          "500+ presets, Ribbon para directo",
+          "Arma secreta para ambient/cinematográfico"
         ],
         "cons_es": [
-          "Sonido nicho — no para salas realistas",
+          "Nicho — no para salas realistas",
           "Sin control reflexiones tempranas",
           "Puede abrumar mezclas densas",
-          "Sin VST3/CLAP (solo VST2/AU/AAX)"
+          "Solo VST2/AU/AAX (sin VST3/CLAP)"
         ]
       },
       {
-        "name": "FabFilter Pro-Q 4",
-        "name_es": "FabFilter Pro-Q 4",
+        "name": "Cableguys ShaperBox 3",
+        "name_es": "Cableguys ShaperBox 3",
         "pros": [
-          "24 bands with dynamic EQ per band",
-          "Stunning spectrum analyzer with collision detect",
-          "Natural phase / linear phase / zero latency",
-          "Intuitive drag-and-drop workflow"
+          "9 bands of drawable rhythmic modulation",
+          "Volume/Filter/Pan/Width/Time/Flanger/Drive",
+          "MIDI trigger + cable for sidechain",
+          "Ultimate creative gating/stutter tool"
         ],
         "cons": [
-          "No saturation/color — purely surgical",
-          "Pricey for \"just an EQ\"",
-          "No mid/side per band (global only)",
-          "Overkill for simple tonal shaping"
+          "No VST3/CLAP yet",
+          "Can be overwhelming at first",
+          "No preset sharing across DAWs",
+          "Requires rhythmic thinking"
         ],
         "pros_es": [
-          "24 bandas con EQ dinámico por banda",
-          "Analizador espectro impresionante con detección colisión",
-          "Fase natural / lineal / latencia cero",
-          "Flujo trabajo intuitivo arrastrar-soltar"
+          "9 bandas modulación rítmica dibujables",
+          "Volumen/Filtro/Pan/Ancho/Tiempo/Flanger/Drive",
+          "Trigger MIDI + cable para sidechain",
+          "Herramienta creativa gating/stutter definitiva"
         ],
         "cons_es": [
-          "Sin saturación/color — puramente quirúrgico",
-          "Caro para \"solo un EQ\"",
-          "Sin mid/side por banda (solo global)",
-          "Excesivo para moldeo tonal simple"
+          "Sin VST3/CLAP aún",
+          "Puede abrumar al principio",
+          "Sin compartir presets entre DAWs",
+          "Requiere pensamiento rítmico"
         ]
       },
       {
-        "name": "FabFilter Pro-R 2",
-        "name_es": "FabFilter Pro-R 2",
+        "name": "XLN Audio RC-20 Retro Color",
+        "name_es": "XLN Audio RC-20 Retro Color",
         "pros": [
-          "Decay Rate EQ shapes reverb tail musically",
-          "Stereo width and distance controls",
-          "Natural phase, zero latency mode",
-          "Beautiful, musical reverb out of the box"
+          "6 modules: wobble, drop, noise, space, magnetic, digital",
+          "Instant lo-fi character on anything",
+          "Simple UI, immediate results",
+          "Great on drums, synths, vocals"
         ],
         "cons": [
-          "Less tweakable than algorithmic verbs",
-          "No convolution/IR loading",
-          "Higher CPU than basic reverbs",
-          "Limited creative sound design"
+          "Limited deep editing per module",
+          "Can sound \"samey\" if overused",
+          "No VST3/CLAP",
+          "Not for subtle enhancement"
         ],
         "pros_es": [
-          "EQ Tasa Decaimiento moldea cola musicalmente",
-          "Controles ancho estéreo y distancia",
-          "Fase natural, modo latencia cero",
-          "Reverb hermoso, musical desde el inicio"
+          "6 módulos: wobble, drop, noise, space, magnetic, digital",
+          "Carácter lo-fi instantáneo en cualquier cosa",
+          "UI simple, resultados inmediatos",
+          "Genial en bateria, sintes, voces"
         ],
         "cons_es": [
-          "Menos ajustable que verbs algorítmicos",
-          "Sin carga convolución/IR",
-          "CPU superior a reverbs básicos",
-          "Diseño sonoro creativo limitado"
+          "Edición profunda limitada por módulo",
+          "Puede sonar \"igual\" si se abusa",
+          "Sin VST3/CLAP",
+          "No para realce sutil"
         ]
       },
       {
-        "name": "Valhalla VintageVerb",
-        "name_es": "Valhalla VintageVerb",
+        "name": "Cableguys HalfTime",
+        "name_es": "Cableguys HalfTime",
         "pros": [
-          "18 algorithms covering classics",
-          "Incredible value at $50",
-          "Three color modes (Modern/Vintage/Dirty)",
-          "Low CPU, instant loading"
+          "Half-speed, quarter-speed, tape stop modes",
+          "Pitch-formant separation sounds natural",
+          "MIDI trigger for live performance",
+          "Instant slow-mo texture generator"
         ],
         "cons": [
-          "UI looks dated (by design)",
-          "No convolution/IR support",
-          "Limited modulation vs premium verbs",
-          "No surround/Atmos support"
+          "Single-purpose (but does it perfectly)",
+          "No VST3/CLAP",
+          "Limited parameters",
+          "Can sound gimmicky if overused"
         ],
         "pros_es": [
-          "18 algoritmos cubriendo clásicos",
-          "Valor increíble a $50",
-          "Tres modos color (Modern/Vintage/Dirty)",
-          "CPU bajo, carga instantánea"
+          "Modos half-speed, quarter-speed, tape stop",
+          "Separación pitch-formante suena natural",
+          "Trigger MIDI para directo",
+          "Generador texturas slow-mo instantáneo"
         ],
         "cons_es": [
-          "UI parece antigua (por diseño)",
-          "Sin soporte convolución/IR",
-          "Modulación limitada vs verbs premium",
-          "Sin soporte surround/Atmos"
+          "Propósito único (pero lo hace perfecto)",
+          "Sin VST3/CLAP",
+          "Parámetros limitados",
+          "Puede sonar truco si se abusa"
         ]
       },
       {
-        "name": "Soundtoys Decapitator",
-        "name_es": "Soundtoys Decapitator",
+        "name": "Baby Audio Transit 2",
+        "name_es": "Baby Audio Transit 2",
         "pros": [
-          "5 distinct analog saturation models",
-          "Punish button for extreme distortion",
-          "Tone shaping with high/low cut",
-          "Mix knob for parallel processing"
+          "Dual delay engines with groove & modulation",
+          "Freeze button for infinite textures",
+          "Macro knobs for quick morphing",
+          "Super fun for sound design"
         ],
         "cons": [
-          "Single effect — not a bundle",
-          "No mid/side processing",
-          "Can alias at high sample rates",
-          "Less versatile than full bundle"
+          "Can get chaotic fast",
+          "No VST3/CLAP",
+          "Preset browser could be better",
+          "Not for bread-and-butter delays"
         ],
         "pros_es": [
-          "5 modelos saturación analógica distintos",
-          "Botón Punish para distorsión extrema",
-          "Moldeo tono con corte alto/bajo",
-          "Mix knob para procesamiento paralelo"
+          "Dual engines delay con groove y modulación",
+          "Botón Freeze para texturas infinitas",
+          "Macros para morphing rápido",
+          "Súper divertido para diseño sonoro"
         ],
         "cons_es": [
-          "Efecto único — no es bundle",
-          "Sin procesamiento mid/side",
-          "Puede hacer aliasing sample rates altos",
-          "Menos versátil que bundle completo"
+          "Puede volverse caótico rápido",
+          "Sin VST3/CLAP",
+          "Navegador presets mejorable",
+          "No para delays pan-comidos"
         ]
       },
       {
-        "name": "Slate Digital VerbSuite Classics",
-        "name_es": "Slate Digital VerbSuite Classics",
+        "name": "Devious Machines Infiltrator 2",
+        "name_es": "Devious Machines Infiltrator 2",
         "pros": [
-          "7 legendary hardware emulations",
-          "Fusion IR technology sounds authentic",
-          "Modulation and stereo controls",
-          "Great value for classic verb tones"
+          "28 effects modules in step sequencer",
+          "Probability per step = controlled chaos",
+          "Macro knobs for live performance",
+          "Turns loops into IDM/glitch instantly"
         ],
         "cons": [
-          "Only reverb — no other FX types",
-          "No algorithmic engine (IR only)",
-          "Higher CPU than algorithmic verbs",
-          "Limited creative parameters"
+          "Steep learning curve",
+          "No VST3/CLAP",
+          "Can destroy audio if not careful",
+          "Niche workflow"
         ],
         "pros_es": [
-          "7 emulaciones hardware legendarias",
-          "Tecnología Fusion IR suena auténtica",
-          "Controles modulación y estéreo",
-          "Gran valor por tonos verb clásicos"
+          "28 módulos efectos en secuenciador pasos",
+          "Probabilidad por paso = caos controlado",
+          "Macros para actuación en vivo",
+          "Convierte loops en IDM/glitch al instante"
         ],
         "cons_es": [
-          "Solo reverb — sin otros tipos FX",
-          "Sin motor algorítmico (solo IR)",
-          "CPU superior a verbs algorítmicos",
-          "Parámetros creativos limitados"
+          "Curva aprendizaje pronunciada",
+          "Sin VST3/CLAP",
+          "Puede destruir audio si no cuidas",
+          "Flujo trabajo nicho"
         ]
       },
       {
-        "name": "Waves H-Reverb",
-        "name_es": "Waves H-Reverb",
+        "name": "iZotope Trash",
+        "name_es": "iZotope Trash",
         "pros": [
-          "FIR engine = pristine, hybrid algorithms",
-          "150+ presets from top engineers",
-          "Advanced modulation section",
-          "Finite Impulse Response = no aliasing"
+          "Multiband distortion with 60+ models",
+          "Convolution + envelopes + modulation",
+          "Spectral display with real-time control",
+          "From subtle warmth to total destruction"
         ],
         "cons": [
-          "Waves license system (Waves Central)",
-          "Subscription model for updates",
-          "Complex UI for beginners",
-          "High CPU on large sessions"
+          "iZotope license system (Product Portal)",
+          "CPU heavy with all bands active",
+          "Overkill for simple saturation",
+          "Subscription model for updates"
         ],
         "pros_es": [
-          "Motor FIR = pristino, algorítmicos híbridos",
-          "150+ presets de ingenieros top",
-          "Sección modulación avanzada",
-          "Respuesta Impulso Finita = sin aliasing"
+          "Distorsión multibanda con 60+ modelos",
+          "Convolución + envolventes + modulación",
+          "Display espectral con control tiempo real",
+          "Desde calidez sutil a destrucción total"
         ],
         "cons_es": [
-          "Sistema licencias Waves (Waves Central)",
-          "Modelo suscripción para actualizaciones",
-          "UI compleja para principiantes",
-          "CPU alto en sesiones grandes"
+          "Sistema licencias iZotope (Product Portal)",
+          "CPU pesado con todas bandas activas",
+          "Excesivo para saturación simple",
+          "Modelo suscripción actualizaciones"
         ]
       },
       {
-        "name": "D16 Group Toraverb 2",
-        "name_es": "D16 Group Toraverb 2",
+        "name": "Excite Audio Lifeline Expanse",
+        "name_es": "Excite Audio Lifeline Expanse",
         "pros": [
-          "12 algorithms: plates, halls, springs, rooms",
-          "Independent early/late modulation",
-          "Mid/side processing built-in",
-          "Affordable vintage flavor"
+          "3 engines: shimmer, swarm, reflect",
+          "Evolving spatial textures",
+          "Modulation on every parameter",
+          "Cinematic sound design powerhouse"
         ],
         "cons": [
-          "UI can feel cluttered",
-          "No convolution/IR",
-          "Less polished than premium verbs",
-          "Manual somewhat sparse"
+          "Niche — not a bread-and-butter verb",
+          "High CPU",
+          "No VST3/CLAP",
+          "Can be hard to tame in mix"
         ],
         "pros_es": [
-          "12 algoritmos: placas, salas, springs, rooms",
-          "Modulación early/late independiente",
-          "Procesamiento mid/side integrado",
-          "Sabor vintage asequible"
+          "3 motores: shimmer, swarm, reflect",
+          "Texturas espaciales evolutivas",
+          "Modulación en cada parámetro",
+          "Potencia diseño sonoro cinematográfico"
         ],
         "cons_es": [
-          "UI puede sentirse recargada",
-          "Sin convolución/IR",
-          "Menos pulido que verbs premium",
-          "Manual algo escaso"
+          "Nicho — no es reverb pan-comido",
+          "CPU alto",
+          "Sin VST3/CLAP",
+          "Puede ser difícil domar en mezcla"
         ]
       },
       {
-        "name": "Kush Audio Goldplate",
-        "name_es": "Kush Audio Goldplate",
+        "name": "Excite Audio Motion: Harmonic",
+        "name_es": "Excite Audio Motion: Harmonic",
         "pros": [
-          "Tube-style saturation + 3-band EQ in one",
-          "Auto-gain compensates level changes",
-          "Silky high-end from \"Silk\" circuit",
-          "Great on vocals, drums, mix bus"
+          "Harmonic/inharmonic spectral processing",
+          "Flux, drift, warp modulation modes",
+          "Creates movement from static sounds",
+          "Unique spectral animation tool"
         ],
         "cons": [
-          "Only 3 saturation models",
-          "No mid/side or multi-band",
-          "No presets (by design)",
-          "Niche use case"
+          "Very niche use case",
+          "High CPU",
+          "No VST3/CLAP",
+          "Steep learning curve"
         ],
         "pros_es": [
-          "Saturación estilo tubo + EQ 3 bandas en uno",
-          "Auto-ganancia compensa cambios nivel",
-          "Agudos sedosos del circuito \"Silk\"",
-          "Genial en voces, bateria, bus mezcla"
+          "Procesamiento espectral armónico/inharmónico",
+          "Modos modulación flux, drift, warp",
+          "Crea movimiento desde sonidos estáticos",
+          "Herramienta única animación espectral"
         ],
         "cons_es": [
-          "Solo 3 modelos saturación",
-          "Sin mid/side ni multi-banda",
-          "Sin presets (por diseño)",
-          "Caso uso nicho"
+          "Caso uso muy nicho",
+          "CPU alto",
+          "Sin VST3/CLAP",
+          "Curva aprendizaje pronunciada"
         ]
       },
       {
-        "name": "Eventide UltraChannel",
-        "name_es": "Eventide UltraChannel",
+        "name": "Arturia Chorus JUN-6",
+        "name_es": "Arturia Chorus JUN-6",
         "pros": [
-          "Complete channel strip: Gate/Comp/EQ/Comp",
-          "Soft saturation (tube/tape/transformer)",
-          "Micro pitch shift for widening",
-          "200+ presets from hit records"
+          "Authentic Juno-106 chorus circuit modeling",
+          "Simple 2-button UI (I/II modes)",
+          "Instant stereo width and movement",
+          "Incredible value at $99"
         ],
         "cons": [
-          "Overkill for simple tasks",
-          "Complex routing options",
-          "Eventide iLok authorization",
-          "Higher CPU than strip plugins"
+          "Only chorus — no other FX",
+          "No depth/rate controls (fixed)",
+          "No VST3/CLAP",
+          "Mono in / stereo out only"
         ],
         "pros_es": [
-          "Tira canal completa: Gate/Comp/EQ/Comp",
-          "Saturación suave (tubo/cinta/transformador)",
-          "Micro pitch shift para ensanchar",
-          "200+ presets de discos exitosos"
+          "Modelado circuito chorus Juno-106 auténtico",
+          "UI simple 2 botones (modos I/II)",
+          "Ancho estéreo y movimiento instantáneo",
+          "Valor increíble a $99"
         ],
         "cons_es": [
-          "Excesivo para tareas simples",
-          "Opciones ruteo complejas",
-          "Autorización iLok Eventide",
-          "CPU superior a plugins strip"
+          "Solo chorus — sin otros FX",
+          "Sin controles depth/rate (fijos)",
+          "Sin VST3/CLAP",
+          "Solo mono in / stereo out"
+        ]
+      },
+      {
+        "name": "D16 Group Repeater Delay",
+        "name_es": "D16 Group Repeater Delay",
+        "pros": [
+          "23 delay models: tape, BBD, digital, diffusion",
+          "Multi-tap with ping-pong, stereo spread",
+          "Modulation section per tap",
+          "Great for dub, ambient, rhythmic echoes"
+        ],
+        "cons": [
+          "UI feels dated",
+          "No VST3/CLAP",
+          "Can be CPU heavy",
+          "Overwhelming parameter count"
+        ],
+        "pros_es": [
+          "23 modelos delay: tape, BBD, digital, difusión",
+          "Multi-tap con ping-pong, spread estéreo",
+          "Sección modulación por tap",
+          "Genial para dub, ambient, ecos rítmicos"
+        ],
+        "cons_es": [
+          "UI se siente antigua",
+          "Sin VST3/CLAP",
+          "Puede ser CPU pesado",
+          "Cantidad parámetros abrumadora"
+        ]
+      },
+      {
+        "name": "Baby Audio Smooth Operator Pro",
+        "name_es": "Baby Audio Smooth Operator Pro",
+        "pros": [
+          "Auto-detects & suppresses harsh resonances",
+          "Spectral smoothing without dulling",
+          "Sidechain input for dynamic control",
+          "Saves hours of surgical EQ work"
+        ],
+        "cons": [
+          "Not a creative effect per se",
+          "Can remove \"character\" if overdone",
+          "No VST3/CLAP",
+          "Pro version needed for full features"
+        ],
+        "pros_es": [
+          "Auto-detecta y suprime resonancias duras",
+          "Suavizado espectral sin apagar",
+          "Entrada sidechain para control dinámico",
+          "Ahorra horas de EQ quirúrgico"
+        ],
+        "cons_es": [
+          "No es efecto creativo per se",
+          "Puede quitar \"carácter\" si se abusa",
+          "Sin VST3/CLAP",
+          "Versión Pro necesaria para features completas"
         ]
       }
     ],
