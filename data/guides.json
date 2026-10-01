@@ -44691,6 +44691,26 @@
         {
           "title": "ProCo RAT 2",
           "title_es": "ProCo RAT 2"
+        },
+        {
+          "title": "Fulltone OCD v2",
+          "title_es": "Fulltone OCD v2"
+        },
+        {
+          "title": "Wampler Tumnus Deluxe",
+          "title_es": "Wampler Tumnus Deluxe"
+        },
+        {
+          "title": "JHS Morning Glory V4",
+          "title_es": "JHS Morning Glory V4"
+        },
+        {
+          "title": "MXR Distortion+",
+          "title_es": "MXR Distortion+"
+        },
+        {
+          "title": "Boss BD-2W Blues Driver Waza Craft",
+          "title_es": "Boss BD-2W Blues Driver Waza Craft"
         }
       ],
       "rows": [
@@ -44709,6 +44729,26 @@
             {
               "value": "Gritty, distorted rock tone",
               "value_es": "Sonido rock distorsionado y rasposo"
+            },
+            {
+              "value": "Transparent low-gain, touch-sensitive",
+              "value_es": "Low-gain transparente, sensible tacto"
+            },
+            {
+              "value": "Klon-style, 3-band EQ, buffer switch",
+              "value_es": "Estilo Klon, EQ 3 bandas, switch buffer"
+            },
+            {
+              "value": "Transparent overdrive, JFET design",
+              "value_es": "Overdrive transparente, diseño JFET"
+            },
+            {
+              "value": "Classic 70s distortion, simple",
+              "value_es": "Distorsión 70s clásica, simple"
+            },
+            {
+              "value": "Waza Craft BD-2, 2 modes, premium",
+              "value_es": "BD-2 Waza Craft, 2 modos, premium"
             }
           ]
         },
@@ -44727,6 +44767,26 @@
             {
               "value": "Distortion",
               "value_es": "Distorsión"
+            },
+            {
+              "value": "Overdrive",
+              "value_es": "Overdrive"
+            },
+            {
+              "value": "Overdrive",
+              "value_es": "Overdrive"
+            },
+            {
+              "value": "Overdrive",
+              "value_es": "Overdrive"
+            },
+            {
+              "value": "Distortion",
+              "value_es": "Distorsión"
+            },
+            {
+              "value": "Overdrive",
+              "value_es": "Overdrive"
             }
           ]
         },
@@ -44745,6 +44805,26 @@
             {
               "value": "Distortion, Filter, Volume",
               "value_es": "Distortion, Filter, Volume"
+            },
+            {
+              "value": "Volume, Drive, Tone",
+              "value_es": "Volumen, Drive, Tono"
+            },
+            {
+              "value": "Volume, Gain, Treble, Mid, Bass, Buffer",
+              "value_es": "Volumen, Gain, Agudos, Medios, Graves, Buffer"
+            },
+            {
+              "value": "Volume, Drive, Tone",
+              "value_es": "Volumen, Drive, Tono"
+            },
+            {
+              "value": "Output, Distortion",
+              "value_es": "Salida, Distorsión"
+            },
+            {
+              "value": "Level, Tone, Drive, Mode switch",
+              "value_es": "Nivel, Tono, Drive, Switch modo"
             }
           ]
         },
@@ -44763,6 +44843,26 @@
             {
               "value": "True bypass",
               "value_es": "True bypass"
+            },
+            {
+              "value": "True Bypass",
+              "value_es": "True Bypass"
+            },
+            {
+              "value": "Buffered / True Bypass switchable",
+              "value_es": "Buffered / True Bypass conmutable"
+            },
+            {
+              "value": "True Bypass",
+              "value_es": "True Bypass"
+            },
+            {
+              "value": "True Bypass",
+              "value_es": "True Bypass"
+            },
+            {
+              "value": "Buffered / True Bypass switchable",
+              "value_es": "Buffered / True Bypass conmutable"
             }
           ]
         },
@@ -44781,6 +44881,26 @@
             {
               "value": "9V battery/DC",
               "value_es": "Pila 9V/DC"
+            },
+            {
+              "value": "9V DC / Battery",
+              "value_es": "9V DC / Batería"
+            },
+            {
+              "value": "9V DC",
+              "value_es": "9V DC"
+            },
+            {
+              "value": "9V DC / Battery",
+              "value_es": "9V DC / Batería"
+            },
+            {
+              "value": "9V DC / Battery",
+              "value_es": "9V DC / Batería"
+            },
+            {
+              "value": "9V DC",
+              "value_es": "9V DC"
             }
           ]
         },
@@ -44799,6 +44919,26 @@
             {
               "value": "2 mA",
               "value_es": "2 mA"
+            },
+            {
+              "value": "15 mA",
+              "value_es": "15 mA"
+            },
+            {
+              "value": "30 mA",
+              "value_es": "30 mA"
+            },
+            {
+              "value": "8 mA",
+              "value_es": "8 mA"
+            },
+            {
+              "value": "5 mA",
+              "value_es": "5 mA"
+            },
+            {
+              "value": "25 mA",
+              "value_es": "25 mA"
             }
           ]
         },
@@ -44817,6 +44957,26 @@
             {
               "value": "Compact (69 x 114 x 57 mm)",
               "value_es": "Compacto (69 x 114 x 57 mm)"
+            },
+            {
+              "value": "112 x 60 x 50 mm",
+              "value_es": "112 x 60 x 50 mm"
+            },
+            {
+              "value": "112 x 60 x 50 mm",
+              "value_es": "112 x 60 x 50 mm"
+            },
+            {
+              "value": "112 x 60 x 50 mm",
+              "value_es": "112 x 60 x 50 mm"
+            },
+            {
+              "value": "73 x 111 x 50 mm",
+              "value_es": "73 x 111 x 50 mm"
+            },
+            {
+              "value": "112 x 60 x 50 mm",
+              "value_es": "112 x 60 x 50 mm"
             }
           ]
         },
@@ -44835,6 +44995,26 @@
             {
               "value": "LM308 chip, legendary RAT tone",
               "value_es": "Chip LM308, sonido RAT legendario"
+            },
+            {
+              "value": "Mosfet clipping, amp-like feel",
+              "value_es": "Clipping MOSFET, sensación amp"
+            },
+            {
+              "value": "3-band EQ + buffer switch",
+              "value_es": "EQ 3 bandas + switch buffer"
+            },
+            {
+              "value": "JFET input, transparent boost",
+              "value_es": "Entrada JFET, boost transparente"
+            },
+            {
+              "value": "Germanium-style clipping, simple",
+              "value_es": "Clipping estilo germanio, simple"
+            },
+            {
+              "value": "Standard/Custom modes, premium parts",
+              "value_es": "Modos Standard/Custom, partes premium"
             }
           ]
         }
@@ -44845,84 +45025,208 @@
         "name": "Ibanez TS9 Tube Screamer",
         "name_es": "Ibanez TS9 Tube Screamer",
         "pros": [
-          "The most recorded overdrive pedal in history — from Stevie Ray Vaughan to John Mayer",
-          "Mid-frequency bump pushes tube amps into sweet harmonic saturation and tightens the low end",
-          "Simple 3-knob layout (Drive, Tone, Level) with true bypass",
-          "Compact 74 x 129 x 60 mm footprint drawing just 8 mA"
-        ],
-        "pros_es": [
-          "El pedal de overdrive más grabado de la historia — de Stevie Ray Vaughan a John Mayer",
-          "El realce de medios empuja los amplificadores de válvulas a una saturación armónica dulce y aprieta los graves",
-          "Disposición sencilla de 3 perillas (Drive, Tone, Level) con true bypass",
-          "Huella compacta de 74 x 129 x 60 mm con solo 8 mA de consumo"
+          "The classic mid-hump overdrive",
+          "Cuts through mix perfectly",
+          "Simple 3-knob operation",
+          "Industry standard for decades"
         ],
         "cons": [
-          "The mid bump colors the amp's natural EQ — it is not transparent",
-          "The Tone knob's bass roll-off shows up in clean-boost duties",
-          "It is the priciest of the three drives here, with the RAT ",
-          "Can sound thin on solid-state or digital amps without a tube front end"
+          "Mid-hump not for everyone",
+          "No bass control",
+          "Buffer can affect some fuzz pedals"
+        ],
+        "pros_es": [
+          "El overdrive mid-hump clásico",
+          "Corta la mezcla perfectamente",
+          "Operación 3 perillas simple",
+          "Estándar industria décadas"
         ],
         "cons_es": [
-          "El realce de medios colorea el EQ natural del ampli — no es transparente",
-          "La caída de graves del knob Tone se nota en tareas de clean boost",
-          "Es el más caro de los tres drives aquí, con la RAT",
-          "Puede sonar fino en amplificadores de estado sólido o digitales sin front-end de válvulas"
+          "Mid-hump no para todos",
+          "Sin control graves",
+          "Buffer puede afectar algunos fuzz"
         ]
       },
       {
         "name": "Boss BD-2 Blues Driver",
         "name_es": "Boss BD-2 Blues Driver",
         "pros": [
-          "Responsive to picking dynamics — cleans up beautifully when you roll back the guitar volume",
-          "Asymmetrical clipping preserves note definition even at high gain",
-          "Covers subtle blues grit to saturated rock crunch at ",
-          "Compact Boss build with true bypass and only 8 mA draw"
-        ],
-        "pros_es": [
-          "Responde a la dinámica de la púa — se limpia maravillosamente al bajar el volumen de la guitarra",
-          "El clipping asimétrico preserva la definición de las notas incluso con alta ganancia",
-          "Cubre desde el grit sutil de blues hasta el crunch rock saturado por solo",
-          "Construcción compacta Boss con true bypass y solo 8 mA de consumo"
+          "Transparent, amp-like breakup",
+          "Huge gain range, cleans up with volume",
+          "Great as clean boost or dirt",
+          "Affordable workhorse"
         ],
         "cons": [
-          "At extreme gain settings it can sound fizzy next to the RAT's saturation",
-          "Only one Tone knob for shaping: no gain toggle or extra EQ",
-          "As an overdrive it doesn't reach full-distortion territory like the RAT",
-          "Benefits from a tube amp; on modelers it can lose naturalness"
+          "Can sound harsh at high gain",
+          "No mid control",
+          "Buffer always on"
+        ],
+        "pros_es": [
+          "Transparente, breakup tipo amp",
+          "Enorme rango ganancia, limpia con volumen",
+          "Genial como clean boost o dirt",
+          "Caballo de batalla asequible"
         ],
         "cons_es": [
-          "En ajustes de ganancia extrema puede sonar fizz frente a la saturación de la RAT",
-          "Solo un knob Tone para dar forma: sin toggle de ganancia ni EQ extra",
-          "Como overdrive no llega a territorio de distorsión total como la RAT",
-          "Se beneficia de un ampli de válvulas; en modeladores puede perder naturalidad"
+          "Puede sonar duro alta ganancia",
+          "Sin control medios",
+          "Buffer siempre activo"
         ]
       },
       {
         "name": "ProCo RAT 2",
         "name_es": "ProCo RAT 2",
         "pros": [
-          "The distortion that defined grunge, punk and indie — legendary LM308 character",
-          "Huge range from gritty overdrive at low settings to searing, saturated distortion",
-          "The best bang-for-buck distortion pedal ever made ",
-          "Only 2 mA draw — negligible load on any pedalboard power supply"
-        ],
-        "pros_es": [
-          "La distorsión que definió el grunge, punk e indie — el legendario carácter del LM308",
-          "Gran rango: desde overdrive rasposo en ajustes bajos hasta distorsión saturada y penetrante",
-          "La mejor distorsión calidad-precio jamás creada",
-          "Solo 2 mA de consumo — carga insignificante para cualquier fuente de pedalera"
+          "Iconic distortion, versatile gain range",
+          "Filter knob = powerful tone shaping",
+          "Legendary on bass and synths too",
+          "Built like a tank"
         ],
         "cons": [
-          "The Filter knob is a low-pass that darkens the tone as you raise it — it can sound dull if used carelessly",
-          "Its raw character is no good for subtle or transparent boosts like the TS9",
-          "No clean-boost setting — the RAT colors everything it touches",
-          "The Filter control needs trial and error to dial in the tone well"
+          "Can be noisy at high gain",
+          "No true bypass (buffered)",
+          "No mid control"
+        ],
+        "pros_es": [
+          "Distorsión icónica, rango ganancia versátil",
+          "Filter knob = moldeo tono poderoso",
+          "Legendaria en bajo y sintes también",
+          "Construida como tanque"
         ],
         "cons_es": [
-          "El knob Filter es un low-pass que oscurece el tono al subirlo — puede sonar apagado si se usa mal",
-          "Su carácter crudo no sirve para boosts sutiles o transparentes como el TS9",
-          "No tiene ajuste de clean boost — la RAT colorea todo lo que toca",
-          "El control Filter requiere prueba y error para afinar bien el tono"
+          "Puede ser ruidosa alta ganancia",
+          "No true bypass (buffered)",
+          "Sin control medios"
+        ]
+      },
+      {
+        "name": "Fulltone OCD v2",
+        "name_es": "Fulltone OCD v2",
+        "pros": [
+          "MOSFET clipping feels like tube amp",
+          "Touch-sensitive, cleans up beautifully",
+          "High/Low peak switch for voicing",
+          "Huge headroom"
+        ],
+        "cons": [
+          "Large footprint",
+          "Expensive",
+          "v1/v2 confusion in used market"
+        ],
+        "pros_es": [
+          "Clipping MOSFET siente como amp tubo",
+          "Sensible al tacto, limpia hermoso",
+          "Switch High/Low peak para voicing",
+          "Enorme headroom"
+        ],
+        "cons_es": [
+          "Huella grande",
+          "Caro",
+          "Confusión v1/v2 mercado segunda mano"
+        ]
+      },
+      {
+        "name": "Wampler Tumnus Deluxe",
+        "name_es": "Wampler Tumnus Deluxe",
+        "pros": [
+          "Klon Centaur circuit, 3-band EQ",
+          "Buffer switch (on/off/auto)",
+          "Transparent, musical, versatile",
+          "Top-tier build quality"
+        ],
+        "cons": [
+          "Pricey for overdrive",
+          "Can be too transparent for some",
+          "Large for pedalboard"
+        ],
+        "pros_es": [
+          "Circuito Klon Centaur, EQ 3 bandas",
+          "Switch buffer (on/off/auto)",
+          "Transparente, musical, versátil",
+          "Calidad construcción top-tier"
+        ],
+        "cons_es": [
+          "Caro para overdrive",
+          "Puede ser demasiado transparente",
+          "Grande para pedalboard"
+        ]
+      },
+      {
+        "name": "JHS Morning Glory V4",
+        "name_es": "JHS Morning Glory V4",
+        "pros": [
+          "JFET design, ultra-transparent",
+          "Red remote switch for gain boost",
+          "Incredible as always-on boost",
+          "Small footprint"
+        ],
+        "cons": [
+          "Low gain only",
+          "No tone control (fixed)",
+          "Red remote sold separately"
+        ],
+        "pros_es": [
+          "Diseño JFET, ultra-transparente",
+          "Switch remoto rojo para boost ganancia",
+          "Increíble como boost always-on",
+          "Huella pequeña"
+        ],
+        "cons_es": [
+          "Solo low-gain",
+          "Sin control tono (fijo)",
+          "Remote rojo se vende por separado"
+        ]
+      },
+      {
+        "name": "MXR Distortion+",
+        "name_es": "MXR Distortion+",
+        "pros": [
+          "Classic 70s hard-clipping distortion",
+          "Simple 2-knob operation",
+          "Used by Randy Rhoads, Jerry Garcia",
+          "Tiny, affordable"
+        ],
+        "cons": [
+          "No tone control",
+          "Can be fizzy/harsh",
+          "Single gain stage"
+        ],
+        "pros_es": [
+          "Distorsión hard-clipping 70s clásica",
+          "Operación 2 perillas simple",
+          "Usada por Randy Rhoads, Jerry Garcia",
+          "Pequeña, asequible"
+        ],
+        "cons_es": [
+          "Sin control tono",
+          "Puede ser fizzy/duro",
+          "Solo una etapa ganancia"
+        ]
+      },
+      {
+        "name": "Boss BD-2W Blues Driver Waza Craft",
+        "name_es": "Boss BD-2W Blues Driver Waza Craft",
+        "pros": [
+          "Two modes: Standard (BD-2) + Custom",
+          "Custom = smoother, more midrange",
+          "Premium components, made in Japan",
+          "Buffered/True bypass switch"
+        ],
+        "cons": [
+          "Twice the price of standard BD-2",
+          "Custom mode less \"Blues Driver\" character",
+          "Still no mid control"
+        ],
+        "pros_es": [
+          "Dos modos: Standard (BD-2) + Custom",
+          "Custom = más suave, más medios",
+          "Componentes premium, hecho en Japón",
+          "Switch Buffered/True bypass"
+        ],
+        "cons_es": [
+          "Doble precio BD-2 estándar",
+          "Modo Custom menos carácter \"Blues Driver\"",
+          "Todavía sin control medios"
         ]
       }
     ],
@@ -45097,6 +45401,26 @@
         {
           "title": "Strymon BigSky MX",
           "title_es": "Strymon BigSky MX"
+        },
+        {
+          "title": "Strymon TimeLine",
+          "title_es": "Strymon TimeLine"
+        },
+        {
+          "title": "Meris LVX",
+          "title_es": "Meris LVX"
+        },
+        {
+          "title": "Chase Bliss Habit",
+          "title_es": "Chase Bliss Habit"
+        },
+        {
+          "title": "Eventide TimeFactor",
+          "title_es": "Eventide TimeFactor"
+        },
+        {
+          "title": "Source Audio Nemesis",
+          "title_es": "Source Audio Nemesis"
         }
       ],
       "rows": [
@@ -45115,6 +45439,26 @@
             {
               "value": "Massive, lush reverbs",
               "value_es": "Reverbs masivas de nivel estudio"
+            },
+            {
+              "value": "The gold standard delay pedal",
+              "value_es": "El estándar oro pedal delay"
+            },
+            {
+              "value": "Modular reverb/delay workstation",
+              "value_es": "Workstation reverb/delay modular"
+            },
+            {
+              "value": "Experimental delay, collecting sounds",
+              "value_es": "Delay experimental, coleccionar sonidos"
+            },
+            {
+              "value": "Classic rack delay in pedal form",
+              "value_es": "Delay rack clásico en pedal"
+            },
+            {
+              "value": "Deep editing, Neuro app, stereo",
+              "value_es": "Edición profunda, app Neuro, estéreo"
             }
           ]
         },
@@ -45133,6 +45477,26 @@
             {
               "value": "Multi-algorithm reverb",
               "value_es": "Reverb multi-algoritmo"
+            },
+            {
+              "value": "Delay",
+              "value_es": "Delay"
+            },
+            {
+              "value": "Reverb / Delay",
+              "value_es": "Reverb / Delay"
+            },
+            {
+              "value": "Delay / Looper",
+              "value_es": "Delay / Looper"
+            },
+            {
+              "value": "Delay",
+              "value_es": "Delay"
+            },
+            {
+              "value": "Delay",
+              "value_es": "Delay"
             }
           ]
         },
@@ -45151,6 +45515,26 @@
             {
               "value": "Encoders, mini-display",
               "value_es": "Encoders, mini-pantalla"
+            },
+            {
+              "value": "12 knobs + 2 footswitches + display",
+              "value_es": "12 perillas + 2 footswitches + display"
+            },
+            {
+              "value": "8 knobs + 3 footswitches + display",
+              "value_es": "8 perillas + 3 footswitches + display"
+            },
+            {
+              "value": "6 knobs + 3 footswitches + display",
+              "value_es": "6 perillas + 3 footswitches + display"
+            },
+            {
+              "value": "10 knobs + 3 footswitches + display",
+              "value_es": "10 perillas + 3 footswitches + display"
+            },
+            {
+              "value": "4 knobs + 3 footswitches + display",
+              "value_es": "4 perillas + 3 footswitches + display"
             }
           ]
         },
@@ -45169,6 +45553,26 @@
             {
               "value": "True bypass",
               "value_es": "True bypass"
+            },
+            {
+              "value": "Buffered / True Bypass selectable",
+              "value_es": "Buffered / True Bypass seleccionable"
+            },
+            {
+              "value": "Buffered",
+              "value_es": "Buffered"
+            },
+            {
+              "value": "Buffered",
+              "value_es": "Buffered"
+            },
+            {
+              "value": "Buffered",
+              "value_es": "Buffered"
+            },
+            {
+              "value": "Buffered / True Bypass selectable",
+              "value_es": "Buffered / True Bypass seleccionable"
             }
           ]
         },
@@ -45187,6 +45591,26 @@
             {
               "value": "9V DC (center negative)",
               "value_es": "9V DC (centro negativo)"
+            },
+            {
+              "value": "9V DC (300 mA)",
+              "value_es": "9V DC (300 mA)"
+            },
+            {
+              "value": "9V DC (300 mA)",
+              "value_es": "9V DC (300 mA)"
+            },
+            {
+              "value": "9V DC (150 mA)",
+              "value_es": "9V DC (150 mA)"
+            },
+            {
+              "value": "9V DC (400 mA)",
+              "value_es": "9V DC (400 mA)"
+            },
+            {
+              "value": "9V DC (200 mA)",
+              "value_es": "9V DC (200 mA)"
             }
           ]
         },
@@ -45205,6 +45629,26 @@
             {
               "value": "500 mA",
               "value_es": "500 mA"
+            },
+            {
+              "value": "300 mA",
+              "value_es": "300 mA"
+            },
+            {
+              "value": "300 mA",
+              "value_es": "300 mA"
+            },
+            {
+              "value": "150 mA",
+              "value_es": "150 mA"
+            },
+            {
+              "value": "400 mA",
+              "value_es": "400 mA"
+            },
+            {
+              "value": "200 mA",
+              "value_es": "200 mA"
             }
           ]
         },
@@ -45223,6 +45667,26 @@
             {
               "value": "Wide (168 x 139 x 66 mm)",
               "value_es": "Ancho (168 x 139 x 66 mm)"
+            },
+            {
+              "value": "112 x 112 x 55 mm",
+              "value_es": "112 x 112 x 55 mm"
+            },
+            {
+              "value": "112 x 112 x 55 mm",
+              "value_es": "112 x 112 x 55 mm"
+            },
+            {
+              "value": "112 x 60 x 50 mm",
+              "value_es": "112 x 60 x 50 mm"
+            },
+            {
+              "value": "112 x 112 x 55 mm",
+              "value_es": "112 x 112 x 55 mm"
+            },
+            {
+              "value": "112 x 60 x 50 mm",
+              "value_es": "112 x 60 x 50 mm"
             }
           ]
         },
@@ -45241,6 +45705,26 @@
             {
               "value": "300 presets, 12 algorithms",
               "value_es": "300 presets, 12 algoritmos"
+            },
+            {
+              "value": "12 delay machines, 200 presets, MIDI",
+              "value_es": "12 máquinas delay, 200 presets, MIDI"
+            },
+            {
+              "value": "Structures: combine reverb+delay",
+              "value_es": "Structures: combinar reverb+delay"
+            },
+            {
+              "value": "Habit: records everything, scan/loop",
+              "value_es": "Habit: graba todo, escanear/loop"
+            },
+            {
+              "value": "10 delay types, looper, MIDI",
+              "value_es": "10 tipos delay, looper, MIDI"
+            },
+            {
+              "value": "Neuro app deep edit, 27 engines",
+              "value_es": "App Neuro edición profunda, 27 motores"
             }
           ]
         }
@@ -45249,86 +45733,210 @@
     "verdictProsCons": [
       {
         "name": "Boss DD-8 Digital Delay",
-        "name_es": "Boss DD-8 Delay Digital",
+        "name_es": "Boss DD-8 Digital Delay",
         "pros": [
-          "11 delay modes — analog, tape, reverse, shimmer — cover every delay sound",
-          "40 seconds of loop time turns the pedal into a capable looper",
-          "Compact Boss form factor (73 x 129 x 59 mm) fits any pedalboard",
-          "Only 65 mA draw with true bypass and optional battery power"
-        ],
-        "pros_es": [
-          "11 modos de delay — analógico, cinta, reverso, shimmer — cubren cualquier sonido de delay",
-          "40 segundos de tiempo de loop convierten el pedal en un looper capaz",
-          "Formato compacto Boss (73 x 129 x 59 mm) que cabe en cualquier pedalera",
-          "Solo 65 mA de consumo con true bypass y alimentación opcional por pila"
+          "11 delay modes in compact box",
+          "Looper (40 sec), tap tempo, carryover",
+          "Stereo I/O, MIDI, expression pedal",
+          "Great value for features"
         ],
         "cons": [
-          "No dedicated tap-tempo footswitch — requires the optional external switch",
-          "Mono input/output: no stereo delays like the BigSky MX",
-          "Adjusting secondary functions (assign, carryover) requires the manual",
-          "The looper mode shares the pedal: you can't use loop and long delay at once"
+          "Menu diving for deep params",
+          "No dedicated knobs per param",
+          "Looper basic vs dedicated"
+        ],
+        "pros_es": [
+          "11 modos delay en caja compacta",
+          "Looper (40 seg), tap tempo, carryover",
+          "I/O estéreo, MIDI, pedal expresión",
+          "Gran valor por features"
         ],
         "cons_es": [
-          "Sin footswitch de tap tempo dedicado — requiere el switch externo opcional",
-          "Entrada/salida mono: sin delays estéreo como el BigSky MX",
-          "Ajustar funciones secundarias (assign, carryover) exige el manual",
-          "El modo looper comparte el pedal: no puedes usar loop y delay largo a la vez"
+          "Menu diving params profundos",
+          "Sin perillas dedicadas por param",
+          "Looper básico vs dedicado"
         ]
       },
       {
         "name": "TC Electronic Hall of Fame 2",
         "name_es": "TC Electronic Hall of Fame 2",
         "pros": [
-          "8 reverb types from spring to shimmer plus TonePrint custom slots",
-          "TonePrint lets you download artist-designed algorithms via Bluetooth",
-          "Mash footswitch adds expression control over decay and FX",
-          "Compact 72 x 131 x 54 mm pedal that punches well above its price"
-        ],
-        "pros_es": [
-          "8 tipos de reverb, de spring a shimmer, más ranuras TonePrint personalizables",
-          "TonePrint permite descargar algoritmos diseñados por artistas vía Bluetooth",
-          "El footswitch Mash añade control de expresión sobre decay y FX",
-          "Pedal compacto de 72 x 131 x 54 mm que rinde muy por encima de su precio"
+          "10 reverb algorithms, TonePrint",
+          "MASH footswitch = expressive control",
+          "Stereo I/O, true bypass option",
+          "Great value"
         ],
         "cons": [
-          "150 mA is high draw versus the DD-8's 65 mA — check your power supply",
-          "Mono input/output: no true stereo reverbs",
-          "Only 3 active TonePrint slots at a time",
-          "Tone and Decay controls are shared — fine adjustment requires the app"
+          "No dedicated delay section",
+          "Editor required for deep editing",
+          "Single footswitch limited"
+        ],
+        "pros_es": [
+          "10 algoritmos reverb, TonePrint",
+          "MASH footswitch = control expresivo",
+          "I/O estéreo, opción true bypass",
+          "Gran valor"
         ],
         "cons_es": [
-          "150 mA es un consumo alto frente a los 65 mA del DD-8 — revisa tu fuente",
-          "Entrada/salida mono: sin reverbs estéreo reales",
-          "Solo 3 ranuras TonePrint activas a la vez",
-          "Los controles de Tone y Decay son compartidos — el ajuste fino requiere la app"
+          "Sin sección delay dedicada",
+          "Editor requerido edición profunda",
+          "Footswitch único limitado"
         ]
       },
       {
         "name": "Strymon BigSky MX",
         "name_es": "Strymon BigSky MX",
         "pros": [
-          "16 reverb machines with true stereo processing",
-          "New V2 engine adds dynamic reverb, freeze effects and live looping",
-          "300 presets in a wide, road-ready enclosure",
-          "The gold standard used by touring professionals and top studios"
-        ],
-        "pros_es": [
-          "16 máquinas de reverb con procesamiento estéreo real",
-          "El nuevo motor V2 añade reverb dinámica, efectos freeze y looping en vivo",
-          "300 presets en un chasis ancho y listo para la carretera",
-          "El estándar de oro usado por profesionales de gira y estudios top"
+          "12 reverb machines, studio quality",
+          "MIDI, 300 presets, stereo I/O",
+          "New: cabinet modeling, freeze enhancements",
+          "The reverb pedal benchmark"
         ],
         "cons": [
-          "It is 4x the price of the Hall of Fame 2 — an investment few hobbyists need",
-          "500 mA draw demands an isolated, high-current power supply",
-          "The wide chassis (168 x 139 x 66 mm) takes up a lot of board space",
-          "The menu system makes preset editing slower than the HoF2's knobs"
+          "Expensive",
+          "Large footprint",
+          "Complex menu system"
+        ],
+        "pros_es": [
+          "12 máquinas reverb, calidad estudio",
+          "MIDI, 300 presets, I/O estéreo",
+          "Nuevo: cabinet modeling, freeze mejorado",
+          "El pedal reverb referencia"
         ],
         "cons_es": [
-          "Es 4x el precio de la Hall of Fame 2 — una inversión que pocos aficionados necesitan",
-          "500 mA de consumo exigen una fuente aislada de alta corriente",
-          "El chasis ancho (168 x 139 x 66 mm) ocupa mucho espacio en la pedalera",
-          "El sistema de menús hace la edición de presets más lenta que las perillas de la HoF2"
+          "Caro",
+          "Huella grande",
+          "Sistema menús complejo"
+        ]
+      },
+      {
+        "name": "Strymon TimeLine",
+        "name_es": "Strymon TimeLine",
+        "pros": [
+          "12 delay machines, 200 presets",
+          "Looper (30 sec), MIDI, stereo I/O",
+          "Filter, grit, modulation per machine",
+          "Delay gold standard"
+        ],
+        "cons": [
+          "Very expensive",
+          "Large, complex",
+          "No dedicated tap tempo footswitch"
+        ],
+        "pros_es": [
+          "12 máquinas delay, 200 presets",
+          "Looper (30 seg), MIDI, I/O estéreo",
+          "Filtro, grit, modulación por máquina",
+          "Estándar oro delay"
+        ],
+        "cons_es": [
+          "Muy caro",
+          "Grande, complejo",
+          "Sin footswitch tap tempo dedicado"
+        ]
+      },
+      {
+        "name": "Meris LVX",
+        "name_es": "Meris LVX",
+        "pros": [
+          "Structures: modular reverb+delay",
+          "8 simultaneous engines, stereo",
+          "MIDI, 99 presets, expression control",
+          "Unique sound design tool"
+        ],
+        "cons": [
+          "Steep learning curve",
+          "No dedicated knobs per param",
+          "Expensive"
+        ],
+        "pros_es": [
+          "Structures: modular reverb+delay",
+          "8 motores simultáneos, estéreo",
+          "MIDI, 99 presets, control expresión",
+          "Herramienta diseño sonoro única"
+        ],
+        "cons_es": [
+          "Curva aprendizaje pronunciada",
+          "Sin perillas dedicadas por param",
+          "Caro"
+        ]
+      },
+      {
+        "name": "Chase Bliss Habit",
+        "name_es": "Chase Bliss Habit",
+        "pros": [
+          "Records everything, scan/loop past",
+          "Experimental delay/looper hybrid",
+          "MIDI, dip switches, expression",
+          "Inspires happy accidents"
+        ],
+        "cons": [
+          "Very niche workflow",
+          "Expensive",
+          "Can be confusing live"
+        ],
+        "pros_es": [
+          "Graba todo, escanear/loop pasado",
+          "Híbrido delay/looper experimental",
+          "MIDI, dip switches, expresión",
+          "Inspira accidentes felices"
+        ],
+        "cons_es": [
+          "Flujo trabajo muy nicho",
+          "Caro",
+          "Puede ser confuso en vivo"
+        ]
+      },
+      {
+        "name": "Eventide TimeFactor",
+        "name_es": "Eventide TimeFactor",
+        "pros": [
+          "10 delay types, vintage + modern",
+          "Looper (12 sec), MIDI, stereo",
+          "Modulation, filtering per algorithm",
+          "Classic rack sound in pedal"
+        ],
+        "cons": [
+          "Older platform, larger",
+          "No USB, limited preset management",
+          "High current draw (400 mA)"
+        ],
+        "pros_es": [
+          "10 tipos delay, vintage + moderno",
+          "Looper (12 seg), MIDI, estéreo",
+          "Modulación, filtrado por algoritmo",
+          "Sonido rack clásico en pedal"
+        ],
+        "cons_es": [
+          "Plataforma antigua, más grande",
+          "Sin USB, gestión presets limitada",
+          "Consumo alto (400 mA)"
+        ]
+      },
+      {
+        "name": "Source Audio Nemesis",
+        "name_es": "Source Audio Nemesis",
+        "pros": [
+          "27 delay engines, Neuro app deep edit",
+          "Stereo I/O, MIDI, expression",
+          "Compact, 128 presets onboard",
+          "Best value for tweakers"
+        ],
+        "cons": [
+          "App required for deep editing",
+          "Small knobs, tight spacing",
+          "No dedicated looper"
+        ],
+        "pros_es": [
+          "27 motores delay, app Neuro edición profunda",
+          "I/O estéreo, MIDI, expresión",
+          "Compacto, 128 presets onboard",
+          "Mejor valor para tweakers"
+        ],
+        "cons_es": [
+          "App requerida edición profunda",
+          "Perillas pequeñas, espaciado ajustado",
+          "Sin looper dedicado"
         ]
       }
     ],
@@ -83219,183 +83827,155 @@
     "faqImage": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop",
     "verdictProsCons": [
       {
-        "name": "Neumann MT 48 (U) Premium Audio Interface",
-        "name_es": "Neumann MT 48 (U) Premium Audio Interface",
+        "name": "Neumann MT 48 (U)",
+        "name_es": "Neumann MT 48 (U)",
         "pros": [
-          "Reference 136 dB-A AD conversion — Merging-designed, four times the resolution of class rivals",
-          "2 Neumann mic pres to 78 dB plus 2 line/instrument ins with -129 dBu EIN; drives ribbons cleanly",
-          "Touchscreen + 4 independent monitor mixes and DSP EQ/dynamics/reverb — no app hopping",
-          "USB-C plus ADAT/S/PDIF and AES67 (Dante Ready) with Monitor Mission up to 22.2 / 32×16 over USB",
-          "Two ultra-low-impedance headphone amps (0.035 Ω) with crossfeed — mix-check without a separate amp"
+          "Shared conversion with Merging Technologies = reference grade",
+          "136 dB dynamic range — desktop interface benchmark",
+          "Touchscreen for standalone routing/monitoring",
+          "Dante/AES67 + MADI + ADAT + USB-C"
         ],
         "cons": [
-          "Only two built-in mic pres — octet sessions need external pres via ADAT or network",
-          "Network audio adds setup (ANEMAN, AES67/Dante licence) if you have never run AoIP",
-          "MIDI via TRS-to-DIN adapter (Cat. 700261) not included",
-          "Desktop format — you trade rack density for hands-on control"
+          "Touchscreen can feel cramped for complex routing sessions, forces computer software"
         ],
         "pros_es": [
-          "Conversión de referencia 136 dB-A — diseño Merging, cuatro veces más resolución que la competencia",
-          "2 previos Neumann hasta 78 dB más 2 entradas de línea/instrumento con EIN de -129 dBu; mueve cintas sin ruido",
-          "Pantalla táctil + 4 mezclas de monitores independientes y EQ/dinámica/reverb por DSP — sin ir a la app",
-          "USB-C más ADAT/S/PDIF y AES67 (Dante Ready) con Monitor Mission hasta 22.2 / 32×16 por USB",
-          "Dos amplis de auriculares de impedancia ultrabaja (0,035 Ω) con crossfeed — compruebas mezcla sin otro ampli"
+          "Conversión compartida con Merging Technologies = grado referencia",
+          "136 dB rango dinámico — referencia interfaces escritorio",
+          "Pantalla táctil para routing/monitoreo standalone",
+          "Dante/AES67 + MADI + ADAT + USB-C"
         ],
         "cons_es": [
-          "Solo dos previos de micro integrados — para ocho micros necesitas previos externos por ADAT o red",
-          "El audio en red añade configuración (ANEMAN, licencia AES67/Dante) si nunca has usado AoIP",
-          "MIDI por adaptador TRS a DIN (Cat. 700261) no incluido",
-          "Formato de sobremesa — cambias densidad de rack por control a mano"
+          "Pantalla táctil puede quedarse justa en sesiones routing complejas, obliga a usar software PC"
         ]
       },
       {
         "name": "Universal Audio Apollo x8p Gen 2",
         "name_es": "Universal Audio Apollo x8p Gen 2",
         "pros": [
-          "8 Unison mic pres that change impedance/gain structure to match Neve/API/Manley emulations in real time",
-          "HEXA Core (6 SHARC) for sub-2 ms realtime UAD plug-ins plus hybrid native DSP in the DAW",
-          "Elite Gen 2 conversion: 130 dB D/A, -127 dB THD, Dual-Crystal clocking — monitor path you trust",
-          "16×22 I/O (8×14 analog) with DB25, ADAT/S/PDIF and 7.1 surround plus Bass Management",
-          "Auto-Gain, Plug-In Scenes and Apollo Monitor Correction by Sonarworks on the DSP itself"
+          "Gen 2 HEXA Core DSP: 6 cores, massive UAD plugin power",
+          "Elite preamps with Unison technology",
+          "Thunderbolt 3 native on Windows & Mac",
+          "Auto-Gain, Relay Switching, LUFS metering"
         ],
         "cons": [
-          "Thunderbolt 3 required for DSP — not class-compliant USB audio",
-          "Best UAD plug-ins are add-on cost (Essentials+/Studio+ only bundles a starter set)",
-          "1U depth plus fan and DB25 cabling needs rack planning",
-          "Headphone knobs are close together on the front panel"
+          "Requires physical Thunderbolt 3/4 port on motherboard (common PC confusion with USB-C)"
         ],
         "pros_es": [
-          "8 previos Unison que cambian impedancia y ganancia para clavar Neve/API/Manley en tiempo real",
-          "HEXA Core (6 SHARC) para plugins UAD por debajo de 2 ms más DSP nativo híbrido en el DAW",
-          "Conversión Gen 2 de elite: 130 dB D/A, -127 dB THD, reloj Dual-Crystal — ruta de monitor en la que confías",
-          "16×22 E/S (8×14 analógicas) con DB25, ADAT/S/PDIF y surround 7.1 con gestión de graves",
-          "Auto-Gain, escenas de plugins y Monitor Correction de Sonarworks corriendo en el propio DSP"
+          "Gen 2 HEXA Core DSP: 6 núcleos, poder UAD masivo",
+          "Preamps élite con tecnología Unison",
+          "Thunderbolt 3 nativo en Windows y Mac",
+          "Auto-Gain, Relay Switching, medición LUFS"
         ],
         "cons_es": [
-          "Exige Thunderbolt 3 para usar el DSP — no es audio USB genérico",
-          "Los mejores plugins UAD son compra aparte (Essentials+/Studio+ solo traen base)",
-          "Fondo 1U con ventilador y cableado DB25 pide planificar rack",
-          "Los potes de auriculares quedan muy juntos en el frontal"
+          "Requiere puerto Thunderbolt 3/4 físico en placa base (confusión común PC con USB-C)"
         ]
       },
       {
         "name": "RME Fireface UFX III",
         "name_es": "RME Fireface UFX III",
         "pros": [
-          "188 channels with MADI + USB 3.0 — SteadyClock FS holds lock where others drift",
-          "TotalMix FX 48-channel mixer with DIGICheck metering and loopback",
-          "DURec to USB for standalone multitrack without a laptop",
-          "4 hi-Z instrument inputs and 2 ultra-low-latency headphone amps",
-          "Drivers that survive a decade of OS updates — RME's long-term support reputation"
+          "Legendary driver stability — sessions never crash",
+          "TotalMix FX = most powerful routing matrix",
+          "MADI + ADAT + AES + Analog all in 1U",
+          "SteadyClock FS = ultra-low jitter"
         ],
         "cons": [
-          "TotalMix is deep — first week is a learning curve",
-          "Transparent by design, no analogue colour emulation on the pres",
-          "2U, cable-dense rear — not a throw-in-a-backpack box",
-          "Front display is small versus a full touchscreen"
+          "Rear panel cable density is extreme due to massive connectivity"
         ],
         "pros_es": [
-          "188 canales con MADI + USB 3.0 — SteadyClock FS se queda clavado donde otros se van",
-          "Mezclador TotalMix FX de 48 canales con medición DIGICheck y loopback",
-          "DURec a USB para multipista autónomo sin portátil",
-          "4 entradas hi-Z y dos amplis de auriculares de latencia ínfima",
-          "Drivers que sobreviven una década de cambios de sistema — la fama de RME en soporte"
+          "Estabilidad drivers legendaria — sesiones nunca caen",
+          "TotalMix FX = matriz routing más potente",
+          "MADI + ADAT + AES + Analógico todo en 1U",
+          "SteadyClock FS = jitter ultra-bajo"
         ],
         "cons_es": [
-          "TotalMix es profundo — la primera semana tiene curva",
-          "Transparente por diseño, sin emulación de color analógico en previos",
-          "2U y trasera densa en cableado — no es una caja de llevar en mochila",
-          "Pantalla frontal pequeña frente a una táctil completa"
+          "Densidad cables panel trasero extrema por inmensa conectividad"
         ]
       },
       {
         "name": "Apogee Symphony I/O Mk II 16x16 SE",
         "name_es": "Apogee Symphony I/O Mk II 16x16 SE",
         "pros": [
-          "Flagship conversion — A/D 124 dB (A-weighted), D/A 131 dB with Perfect Symmetry Circuitry",
-          "Modular 16×16 SE (→32×32) — swap Thames/HD/Dante modules at home, plug-and-play",
-          "DualView touchscreen plus Symphony Control — deep yet fast to navigate",
-          "Daisy-chain 2 chassis for 64 channels; ultra-low 1.35 ms latency at 96 kHz/32 buffer",
-          "Constant Current Drive headphone output that stays flat with any load"
+          "16x16 analog I/O line-level conversion, reference grade",
+          "Special Edition ~$6,999 complete (chassis ~$3,999 + modules)"
         ],
         "cons": [
-          "Chassis alone ~$3,999 — modules extra and SE ships with no mic pres",
-          "Thunderbolt is Mac-centric; HD/Dante installs need option cards",
-          "2U, 150 W and deeper chassis than a 1U converter",
-          "No MIDI I/O on the chassis itself"
+          "Zero mic preamps included — purely line-level AD/DA converter unless preamp module purchased separately"
         ],
         "pros_es": [
-          "Conversión insignia — A/D 124 dB, D/A 131 dB con Perfect Symmetry Circuitry",
-          "Modular 16×16 SE (→32×32) — cambias módulos Thames/HD/Dante en casa, plug-and-play",
-          "Táctil DualView más Symphony Control — profundo y rápido de navegar",
-          "Encadena 2 chasis para 64 canales; latencia 1,35 ms a 96 kHz/32 buffer",
-          "Salida de auriculares Constant Current Drive que se mantiene plana con cualquier carga"
+          "16x16 I/O analógico conversión nivel línea, grado referencia",
+          "Special Edition ~$6,999 completa (chasis ~$3,999 + módulos)"
         ],
         "cons_es": [
-          "Solo chasis ~3.999 $ — módulos aparte y la SE viene sin previos",
-          "Thunderbolt centrado en Mac; HD/Dante pide tarjetas opcionales",
-          "2U, 150 W y chasis más profundo que un conversor 1U",
-          "Sin MIDI en el propio chasis"
+          "Cero preamplificadores micrófono incluidos — puramente convertidor AD/DA nivel línea salvo compra módulo previos aparte"
         ]
       },
       {
         "name": "Audient ORIA Immersive Audio Interface",
         "name_es": "Audient ORIA Immersive Audio Interface",
         "pros": [
-          "Built for Atmos — 16 analogue + 16 AES outs, true 9.1.6 with 530 correction filters and bass management",
-          "2 remote-controlled Audient Console pres (60 dB) that work as mic/line/Hi-Z",
-          "Advanced Speaker Processing on dual DSP — 32 profiles, per-channel 8-band EQ, trim 0.1 dB, delay 0-75 ms",
-          "Sonarworks + Dolby certified integration plus iPad/Stream Deck/Eucon remote",
-          "Doubles as standalone monitor controller via ADAT or optional AoIP Dante card"
+          "Only interface built for Dolby Atmos / immersive calibration",
+          "DSP room correction processor included",
+          "7.1.4 / 9.1.6 monitoring from single unit",
+          "ADAT + Dante + USB-C, monitor controller built-in"
         ],
         "cons": [
-          "ADAT halves channels above 48 kHz (SMUX) — 16ch only up to 48 kHz",
-          "Word Clock limited to 96 kHz",
-          "If you only mix stereo, you pay for immersive you will not use",
-          "60-day Sonarworks multichannel licence is trial — €499 to keep it"
+          "Massive premium paid for DSP calibration wasted if not expanding to 7.1.4+ immersive"
         ],
         "pros_es": [
-          "Nacida para Atmos — 16 analógicas + 16 AES, 9.1.6 real con 530 filtros y gestión de graves",
-          "2 previos Console Audient (60 dB) por control remoto que sirven como micro/línea/Hi-Z",
-          "Procesado de altavoces en DSP dual — 32 perfiles, EQ 8 bandas por canal, trim 0,1 dB, delay 0-75 ms",
-          "Integración Sonarworks + Dolby certificada con remoto iPad/Stream Deck/Eucon",
-          "También funciona como controlador solo por ADAT o tarjeta AoIP Dante opcional"
+          "Única interfaz hecha para calibración Dolby Atmos / inmersivo",
+          "Procesador DSP corrección sala incluido",
+          "Monitoreo 7.1.4 / 9.1.6 desde una unidad",
+          "ADAT + Dante + USB-C, controlador monitor integrado"
         ],
         "cons_es": [
-          "ADAT recorta a la mitad por encima de 48 kHz (SMUX) — 16 canales solo hasta 48 kHz",
-          "Word Clock limitado a 96 kHz",
-          "Si solo mezclas en estéreo, pagas inmersivo que no vas a usar",
-          "La licencia multicanal Sonarworks de 60 días es prueba — 499 € para quedártela"
+          "Prima enorme por DSP calibración desperdiciada si no expandes a 7.1.4+ inmersivo"
         ]
       },
       {
-        "name": "Lynx Aurora-n 16 (USB)",
-        "name_es": "Lynx Aurora-n 16 (USB)",
+        "name": "Lynx Aurora-n 16 TB3",
+        "name_es": "Lynx Aurora-n 16 TB3",
         "pros": [
-          "Hilo-derived conversion with discrete converter per channel pair — crosstalk -130 dB, THD+N -113 dB",
-          "SynchroLock 2 clock: 300,000:1 jitter reduction, 5 s lock, 1-in 3-out word clock",
-          "LSlot future-proof: swap USB / Thunderbolt / Dante / Pro Tools HD",
-          "32-channel microSD recorder (66 h on 2 TB at 32×96k) plus two audiophile headphone amps",
-          "Expandable 8→16→24→32 channels — add LM-DIG/LM-PRE4 modules later"
+          "SynchroLock 2 clock = mastering-grade jitter performance",
+          "Thunderbolt 3 = massive bandwidth, ultra-low latency vs USB",
+          "16x16 analog, ADAT, MADI optional",
+          "Legendary Lynx transparency"
         ],
         "cons": [
-          "DB25 analogue I/O needs breakout cables (Tascam pinout)",
-          "No mic pres in base unit — line converter only",
-          "No MIDI I/O",
-          "AES digital I/O requires optional LM-DIG module"
+          "Premium price, Thunderbolt 3 required"
         ],
         "pros_es": [
-          "Conversión derivada de Hilo con convertidor dedicado por par — diafonía -130 dB, THD+N -113 dB",
-          "Reloj SynchroLock 2: reducción de jitter 300.000:1, enganche 5 s, word clock 1-in 3-out",
-          "LSlot a prueba de futuro: cambia USB / Thunderbolt / Dante / Pro Tools HD",
-          "Grabador microSD 32 canales (66 h en 2 TB a 32×96k) y dos amplis de auriculares audiófilos",
-          "Ampliable 8→16→24→32 canales — sumas módulos LM-DIG/LM-PRE4 después"
+          "Reloj SynchroLock 2 = jitter rendimiento mastering",
+          "Thunderbolt 3 = ancho banda masivo, latencia ultra-baja vs USB",
+          "16x16 analógico, ADAT, MADI opcional",
+          "Transparencia legendaria Lynx"
         ],
         "cons_es": [
-          "E/S analógica por DB25 pide breakout (pinout Tascam)",
-          "Sin previos en la unidad base — solo conversor de línea",
-          "Sin MIDI",
-          "La E/S digital AES pide módulo opcional LM-DIG"
+          "Precio premium, Thunderbolt 3 requerido"
+        ]
+      },
+      {
+        "name": "Antelope Audio Galaxy 32 Synergy Core",
+        "name_es": "Antelope Audio Galaxy 32 Synergy Core",
+        "pros": [
+          "32 channels conversion in 1U rack",
+          "Atomic clock precision + Synergy Core FPGA/DSP",
+          "64 hardware effects emulate classics without CPU hit",
+          "Thunderbolt 3 / USB-C / MADI / ADAT"
+        ],
+        "cons": [
+          "Complex ecosystem (AFX Control), steep learning curve",
+          "Premium price for 1U"
+        ],
+        "pros_es": [
+          "32 canales conversión en 1U rack",
+          "Reloj atómico + Synergy Core FPGA/DSP",
+          "64 efectos hardware emulan clásicos sin tocar CPU",
+          "Thunderbolt 3 / USB-C / MADI / ADAT"
+        ],
+        "cons_es": [
+          "Ecosistema complejo (AFX Control), curva aprendizaje pronunciada",
+          "Precio premium para 1U"
         ]
       }
     ],
@@ -83460,8 +84040,12 @@
           "title_es": "Audient ORIA"
         },
         {
-          "title": "Lynx Aurora-n 16 (USB)",
-          "title_es": "Lynx Aurora-n 16 (USB)"
+          "title": "Lynx Aurora-n 16 TB3",
+          "title_es": "Lynx Aurora-n 16 TB3"
+        },
+        {
+          "title": "Antelope Audio Galaxy 32 Synergy Core",
+          "title_es": "Antelope Audio Galaxy 32 Synergy Core"
         }
       ],
       "rows": [
@@ -83492,6 +84076,10 @@
             {
               "value": "Mastering-grade transparent conversion",
               "value_es": "Conversión transparente para mastering"
+            },
+            {
+              "value": "Mastering-grade conversion + FPGA FX",
+              "value_es": "Conversión mastering + FX FPGA"
             }
           ]
         },
@@ -83522,6 +84110,10 @@
             {
               "value": "1U rack, 16×16 line via DB25",
               "value_es": "Rack 1U, 16×16 línea por DB25"
+            },
+            {
+              "value": "1U Rack",
+              "value_es": "1U Rack"
             }
           ]
         },
@@ -83552,6 +84144,10 @@
             {
               "value": "USB (LSlot: TB/Dante/HD), Word Clock 1-in 3-out",
               "value_es": "USB (LSlot: TB/Dante/HD), Word Clock 1-in 3-out"
+            },
+            {
+              "value": "Thunderbolt 3 / USB-C / MADI / ADAT",
+              "value_es": "Thunderbolt 3 / USB-C / MADI / ADAT"
             }
           ]
         },
@@ -83582,6 +84178,10 @@
             {
               "value": "A/D -108 dB, D/A -114 dB, 119/121 dB range, HCT",
               "value_es": "A/D -108 dB, D/A -114 dB, 119/121 dB rango, HCT"
+            },
+            {
+              "value": "Atomic clock + FPGA DSP",
+              "value_es": "Reloj atómico + DSP FPGA"
             }
           ]
         },
@@ -83612,6 +84212,10 @@
             {
               "value": "None — line converter (transparent)",
               "value_es": "Ninguno — conversor de línea (transparente)"
+            },
+            {
+              "value": "None (line-level converter)",
+              "value_es": "Ninguno (convertidor nivel línea)"
             }
           ]
         },
@@ -83642,6 +84246,10 @@
             {
               "value": "32-ch microSD recorder, 2 HP amps",
               "value_es": "Grabador microSD 32 canales, 2 amps de auriculares"
+            },
+            {
+              "value": "64 Synergy Core effects, MADI/ADAT",
+              "value_es": "64 efectos Synergy Core, MADI/ADAT"
             }
           ]
         }
