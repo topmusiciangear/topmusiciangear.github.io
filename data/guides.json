@@ -43120,6 +43120,22 @@
         {
           "title": "Roland TR-6S",
           "title_es": "Roland TR-6S"
+        },
+        {
+          "title": "Elektron Model:Samples",
+          "title_es": "Elektron Model:Samples"
+        },
+        {
+          "title": "Novation Circuit Rhythm",
+          "title_es": "Novation Circuit Rhythm"
+        },
+        {
+          "title": "Polyend Play",
+          "title_es": "Polyend Play"
+        },
+        {
+          "title": "Teenage Engineering OP-Z",
+          "title_es": "Teenage Engineering OP-Z"
         }
       ],
       "rows": [
@@ -43142,6 +43158,22 @@
             {
               "value": "Compact ACB classics on battery",
               "value_es": "Clásicos ACB compactos a batería"
+            },
+            {
+              "value": "Budget Elektron sampling/sequencing",
+              "value_es": "Sampling/secuenciación Elektron presupuesto"
+            },
+            {
+              "value": "Sample-based groovebox, portable",
+              "value_es": "Groovebox sample-based, portátil"
+            },
+            {
+              "value": "Playful grid sequencing, sampling",
+              "value_es": "Secuenciación grid lúdica, sampling"
+            },
+            {
+              "value": "Ultra-portable, wireless, multimedia",
+              "value_es": "Ultra-portátil, inalámbrico, multimedia"
             }
           ]
         },
@@ -43186,6 +43218,22 @@
             {
               "value": "ACB (808, 909, 606, 707, 727, CR-78), FM, samples",
               "value_es": "ACB (808, 909, 606, 707, 727, CR-78), FM, samples"
+            },
+            {
+              "value": "Sample playback + synthesis",
+              "value_es": "Reproducción sample + síntesis"
+            },
+            {
+              "value": "Sample playback + synthesis",
+              "value_es": "Reproducción sample + síntesis"
+            },
+            {
+              "value": "Sample playback + wavetable + FM",
+              "value_es": "Reproducción sample + wavetable + FM"
+            },
+            {
+              "value": "Sample + FM + analog modeling",
+              "value_es": "Sample + FM + modelado analógico"
             }
           ]
         },
@@ -43208,6 +43256,22 @@
             {
               "value": "6 instrument parts",
               "value_es": "6 partes"
+            },
+            {
+              "value": "6 sample tracks + 6 MIDI",
+              "value_es": "6 pistas sample + 6 MIDI"
+            },
+            {
+              "value": "8 sample tracks + 8 MIDI",
+              "value_es": "8 pistas sample + 8 MIDI"
+            },
+            {
+              "value": "8 tracks (sample/synth)",
+              "value_es": "8 pistas (sample/synth)"
+            },
+            {
+              "value": "16 tracks (8 synth + 8 sample)",
+              "value_es": "16 pistas (8 synth + 8 sample)"
             }
           ]
         },
@@ -43230,6 +43294,22 @@
             {
               "value": "16 steps, 8 variations, probability, motion rec",
               "value_es": "16 pasos, 8 variaciones, probabilidad, grab. movimiento"
+            },
+            {
+              "value": "64-step, parameter locks, trig conditions",
+              "value_es": "64-paso, parameter locks, trig conditions"
+            },
+            {
+              "value": "32-step, probability, pattern chain",
+              "value_es": "32-paso, probabilidad, cadena patrones"
+            },
+            {
+              "value": "64-step, Euclidean, chance",
+              "value_es": "64-paso, Euclidiano, chance"
+            },
+            {
+              "value": "128-step, tape-style, chance",
+              "value_es": "128-paso, estilo cinta, chance"
             }
           ]
         },
@@ -43252,6 +43332,22 @@
             {
               "value": "Inst FX, reverb, delay, master FX, sidechain",
               "value_es": "FX inst., reverb, delay, FX master, sidechain"
+            },
+            {
+              "value": "Per-track FX, master send",
+              "value_es": "FX por pista, master send"
+            },
+            {
+              "value": "Per-track FX, master",
+              "value_es": "FX por pista, master"
+            },
+            {
+              "value": "Per-track FX, master, reverb/delay",
+              "value_es": "FX por pista, master, reverb/delay"
+            },
+            {
+              "value": "Master FX, per-track send",
+              "value_es": "Master FX, send por pista"
             }
           ]
         },
@@ -43274,6 +43370,22 @@
             {
               "value": "4xAA or USB bus",
               "value_es": "4 pilas AA o bus USB"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C / Battery (6h)",
+              "value_es": "USB-C / Bateria (6h)"
+            },
+            {
+              "value": "USB-C / Battery (5h)",
+              "value_es": "USB-C / Bateria (5h)"
+            },
+            {
+              "value": "USB-C / Battery (8h)",
+              "value_es": "USB-C / Bateria (8h)"
             }
           ]
         },
@@ -43296,6 +43408,22 @@
             {
               "value": "0.7 kg (1 lb 9 oz)",
               "value_es": "0,7 kg"
+            },
+            {
+              "value": "0.8 kg",
+              "value_es": "0.8 kg"
+            },
+            {
+              "value": "0.8 kg",
+              "value_es": "0.8 kg"
+            },
+            {
+              "value": "1.1 kg",
+              "value_es": "1.1 kg"
+            },
+            {
+              "value": "0.4 kg",
+              "value_es": "0.4 kg"
             }
           ]
         }
@@ -43303,115 +43431,213 @@
     },
     "verdictProsCons": [
       {
-        "name": "Novation Circuit Tracks",
-        "name_es": "Novation Circuit Tracks",
-        "pros": [
-          "8 tracks (2 polyphonic synths, 4 drums, 2 MIDI) in a complete standalone groovebox",
-          "Built-in Li-ion battery (~4 hours) for sketching ideas anywhere",
-          "32-step sequencer with pattern chaining to 256 steps and 16 scenes",
-          "Built-in reverb, delay, sidechain and master filter — no extra pedals needed"
-        ],
-        "pros_es": [
-          "8 pistas (2 synths polifónicos, 4 de batería, 2 MIDI) en una groovebox independiente completa",
-          "Batería Li-ion integrada (~4 h) para crear ideas en cualquier lugar",
-          "Secuenciador de 32 pasos con encadenamiento de patrones hasta 256 pasos y 16 escenas",
-          "Reverb, delay, sidechain y filtro master integrados — sin pedales extra"
-        ],
-        "cons": [
-          "No user sample loading: you are limited to the internal engine's sounds",
-          "No built-in speaker — you need headphones or monitors even though it's 'portable'",
-          "Synth tracks are limited to 6 voices with little sound-design headroom",
-          "Sequencing depth (32 steps/pattern) is less than Elektron's 64 steps with parameter locks"
-        ],
-        "cons_es": [
-          "No permite cargar samples propios: te limitas a los sonidos del motor interno",
-          "Sin altavoz integrado — necesitas auriculares o monitores aunque sea 'portátil'",
-          "Las pistas de synth están limitadas a 6 voces con poco margen de diseño de sonido",
-          "La profundidad de secuenciación (32 pasos/patrón) es menor que los 64 pasos con param locks de Elektron"
-        ]
-      },
-      {
         "name": "Elektron Model:Cycles",
         "name_es": "Elektron Model:Cycles",
         "pros": [
-          "6-track FM groovebox with 6 distinct Machines (Kick, Snare, Metal, Perc, Tone, Chord)",
-          "Powerful Elektron sequencer with 64 steps, parameter locks, micro timing and trig conditions",
-          "Delay and reverb sends plus overdrive built in",
-          " it's the most affordable entry into the Elektron ecosystem"
-        ],
-        "pros_es": [
-          "Groovebox FM de 6 pistas con 6 Máquinas distintas (Kick, Snare, Metal, Perc, Tone, Chord)",
-          "Potente secuenciador Elektron con 64 pasos, parameter locks, micro timing y trig conditions",
-          "Envíos de delay y reverb más overdrive integrados",
-          "Es la entrada más asequible al ecosistema Elektron"
+          "Elektron sequencing at entry price",
+          "6 FM tracks, parameter locks",
+          "CV/Gate out for modular",
+          "Compact, USB-C powered"
         ],
         "cons": [
-          "FM synthesis has a steeper learning curve for beginners than the Circuit Tracks",
-          "No battery — runs only on the included 5V PSU",
-          "6 tracks mean little melodic polyphony beyond the Tone and Chord machines",
-          "No sample import: it is a purely synthetic groovebox"
+          "No sampling (FM only)",
+          "No touchscreen",
+          "Small screen"
+        ],
+        "pros_es": [
+          "Secuenciación Elektron precio entrada",
+          "6 pistas FM, parameter locks",
+          "CV/Gate out modular",
+          "Compacto, USB-C"
         ],
         "cons_es": [
-          "La síntesis FM tiene más curva de aprendizaje para principiantes que la Circuit Tracks",
-          "Sin batería — funciona solo con el PSU de 5V incluido",
-          "6 pistas significan poca polifonía melódica más allá de las máquinas Tone y Chord",
-          "No hay importación de samples: es una groovebox puramente sintética"
+          "Sin sampling (solo FM)",
+          "Sin pantalla táctil",
+          "Pantalla pequeña"
+        ]
+      },
+      {
+        "name": "Novation Circuit Tracks",
+        "name_es": "Novation Circuit Tracks",
+        "pros": [
+          "8 tracks, sample + synth, polyphonic",
+          "Built-in battery, 4h portable",
+          "Probability, mutate, pattern chain",
+          "Great value, fun workflow"
+        ],
+        "cons": [
+          "No velocity-sensitive pads",
+          "Limited sound design vs Elektron",
+          "No CV/Gate"
+        ],
+        "pros_es": [
+          "8 pistas, sample + synth, polifónico",
+          "Bateria integrada, 4h portátil",
+          "Probabilidad, mutate, cadena patrones",
+          "Gran valor, flujo divertido"
+        ],
+        "cons_es": [
+          "Pads sin velocity",
+          "Diseño sonido limitado vs Elektron",
+          "Sin CV/Gate"
         ]
       },
       {
         "name": "Roland TR-8S",
         "name_es": "Roland TR-8S",
         "pros": [
-          "Exceptional hands-on control: per-instrument faders, dedicated FX and real-time sequencing",
-          "ACB modeling of 808, 909, 707 and 727 plus sample import for virtually unlimited sound design",
-          "128 patterns, 8 variations and 2 fills for live arrangement",
-          "Inst FX, reverb, delay, master FX and sidechain built in"
-        ],
-        "pros_es": [
-          "Control directo excepcional: faders por instrumento, FX dedicados y secuenciación en tiempo real",
-          "Modelado ACB de 808, 909, 707 y 727 más importación de samples para un diseño de sonido casi ilimitado",
-          "128 patrones, 8 variaciones y 2 fills para arreglos en vivo",
-          "Inst FX, reverb, delay, master FX y sidechain integrados"
+          "ACB analog + samples = best of both",
+          "SD card, probability, sub-step",
+          "6 assignable outs",
+          "Roland sound quality"
         ],
         "cons": [
-          " it costs double the Circuit Tracks for someone who only sketches ideas at home",
-          "2.1 kg and adapter power — not as portable as the battery-powered Circuit Tracks",
-          "No melodic engine: drums and samples only",
-          "Sample capacity (~600s) is limited compared to modern samplers"
+          "Complex menus",
+          "No battery",
+          "Plastic build"
+        ],
+        "pros_es": [
+          "ACB analógico + samples = lo mejor ambos",
+          "SD card, probabilidad, sub-paso",
+          "6 salidas asignables",
+          "Calidad sonido Roland"
         ],
         "cons_es": [
-          "Cuesta el doble que la Circuit Tracks para quien solo hace ideas en casa",
-          "2,1 kg y alimentación por adaptador — no es tan viajera como la Circuit Tracks con batería",
-          "Sin motor melódico: solo batería y samples",
-          "La capacidad de samples (~600s) es limitada frente a los samplers modernos"
+          "Menús complejos",
+          "Sin bateria",
+          "Construcción plástico"
         ]
       },
       {
         "name": "Roland TR-6S",
         "name_es": "Roland TR-6S",
         "pros": [
-          "ACB models of the 808, 909, 606, 707 and 727 plus editable FM and samples in one compact box",
-          "Deep sequencer with sub-steps, probability, motion recording and 8 variations per pattern",
-          "Runs on AA batteries or USB bus and doubles as a USB audio interface",
-          "300+ preset tones plus user samples via SD card"
+          "6 ACB models + samples, compact",
+          "Battery or USB powered",
+          "Probability, sub-step, groove",
+          "Great value for Roland sound"
         ],
         "cons": [
-          "Only 6 tracks against 11 on the TR-8S",
-          "Small screen means menu-diving for deep edits",
-          "No individual outputs — stereo mix only",
-          "Compact plastic build for the price"
+          "Only 6 tracks",
+          "Small screen",
+          "Digital outs only"
         ],
         "pros_es": [
-          "Modelos ACB de 808, 909, 606, 707 y 727 más FM editable y samples en una caja compacta",
-          "Secuenciador profundo con sub-pasos, probabilidad, grabación de movimiento y 8 variaciones por patrón",
-          "Funciona con pilas AA o bus USB y además es interfaz de audio USB",
-          "Más de 300 sonidos de fábrica más samples de usuario por SD"
+          "6 modelos ACB + samples, compacto",
+          "Bateria o USB",
+          "Probabilidad, sub-paso, groove",
+          "Gran valor sonido Roland"
         ],
         "cons_es": [
-          "Solo 6 pistas frente a las 11 de la TR-8S",
-          "La pantalla pequeña obliga a navegar menús para edición profunda",
-          "Sin salidas individuales — solo mezcla estéreo",
-          "Construcción compacta de plástico para su precio"
+          "Solo 6 pistas",
+          "Pantalla pequeña",
+          "Solo salidas digitales"
+        ]
+      },
+      {
+        "name": "Elektron Model:Samples",
+        "name_es": "Elektron Model:Samples",
+        "pros": [
+          "Elektron sequencing + sampling, cheap",
+          "6 sample tracks, parameter locks",
+          "CV/Gate, Overbridge ready",
+          "Sample slicing, timestretch"
+        ],
+        "cons": [
+          "No synthesis (sampling only)",
+          "Small screen",
+          "Mono outs"
+        ],
+        "pros_es": [
+          "Secuenciación Elektron + sampling barato",
+          "6 pistas sample, parameter locks",
+          "CV/Gate, Overbridge ready",
+          "Sample slicing, timestretch"
+        ],
+        "cons_es": [
+          "Sin síntesis (solo sampling)",
+          "Pantalla pequeña",
+          "Salidas mono"
+        ]
+      },
+      {
+        "name": "Novation Circuit Rhythm",
+        "name_es": "Novation Circuit Rhythm",
+        "pros": [
+          "Sample-based, 8 tracks, battery",
+          "Probability, mutate, slice",
+          "MicroSD for samples",
+          "Fun, immediate workflow"
+        ],
+        "cons": [
+          "No velocity pads",
+          "No synth engine",
+          "No CV/Gate"
+        ],
+        "pros_es": [
+          "Basado en samples, 8 pistas, bateria",
+          "Probabilidad, mutate, slice",
+          "MicroSD para samples",
+          "Divertido, flujo inmediato"
+        ],
+        "cons_es": [
+          "Pads sin velocity",
+          "Sin motor síntesis",
+          "Sin CV/Gate"
+        ]
+      },
+      {
+        "name": "Polyend Play",
+        "name_es": "Polyend Play",
+        "pros": [
+          "8 tracks, sample + wavetable + FM",
+          "64-step Euclidean, chance ops",
+          "Battery, 5h, USB-C",
+          "Playful grid = instant inspiration"
+        ],
+        "cons": [
+          "No velocity pads",
+          "No CV/Gate",
+          "Newer platform"
+        ],
+        "pros_es": [
+          "8 pistas, sample + wavetable + FM",
+          "64-paso Euclidiano, chance ops",
+          "Bateria, 5h, USB-C",
+          "Grid lúdico = inspiración instantánea"
+        ],
+        "cons_es": [
+          "Pads sin velocity",
+          "Sin CV/Gate",
+          "Plataforma nueva"
+        ]
+      },
+      {
+        "name": "Teenage Engineering OP-Z",
+        "name_es": "Teenage Engineering OP-Z",
+        "pros": [
+          "16 tracks, tape-style sequencer",
+          "Tiny, battery 8h, wireless",
+          "Multimedia: video, lights, DMX",
+          "Unique creative instrument"
+        ],
+        "cons": [
+          "Tiny keys/pads",
+          "No velocity",
+          "Steep learning curve",
+          "Expensive for size"
+        ],
+        "pros_es": [
+          "16 pistas, secuenciador estilo cinta",
+          "Pequeño, bateria 8h, inalámbrico",
+          "Multimedia: video, luces, DMX",
+          "Instrumento creativo único"
+        ],
+        "cons_es": [
+          "Teclas/pads minúsculos",
+          "Sin velocity",
+          "Curva aprendizaje pronunciada",
+          "Caro para tamaño"
         ]
       }
     ],
