@@ -4759,8 +4759,15 @@ const TEST_SHOP_BTN = {
   543: {
     prices: {
       gear4music: "£759.00",
-      amazon: "$659.99"
-    }
+      amazon: "$659.99",
+      musicstore: "€799.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMBB435"
+    },
+    oos: [
+      "zzounds"
+    ]
   },
   544: {
     urls: {
