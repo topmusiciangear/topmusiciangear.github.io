@@ -4733,8 +4733,15 @@ const TEST_SHOP_BTN = {
   540: {
     prices: {
       gear4music: "£416.00",
-      andertons: "£429.00"
-    }
+      andertons: "£429.00",
+      musicstore: "€499.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMTRBX305"
+    },
+    oos: [
+      "zzounds"
+    ]
   },
   541: {
     prices: {
