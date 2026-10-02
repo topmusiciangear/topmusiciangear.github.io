@@ -5025,6 +5025,101 @@ const TEST_SHOP_BTN = {
       musicstore: "€229.00"
     }
   },
+  538: {
+    prices: {
+      gear4music: "£309.00",
+      musicstore: "€293.30"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--IBAGSR205"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  539: {
+    prices: {
+      andertons: "£449.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--SBMRAY5"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  540: {
+    prices: {
+      gear4music: "£416.00",
+      andertons: "£429.00"
+    }
+  },
+  541: {
+    prices: {
+      zzounds: "$399.99",
+      andertons: "£279.00"
+    }
+  },
+  542: {
+    prices: {
+      andertons: "£729.00"
+    }
+  },
+  543: {
+    prices: {
+      gear4music: "£759.00",
+      amazon: "$659.99"
+    }
+  },
+  544: {
+    urls: {
+      zzounds: "https://www.zzounds.com/item--IBASR505E"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  545: {
+    prices: {
+      gear4music: "£439.00",
+      zzounds: "$479.99"
+    }
+  },
+  546: {
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Jazz-Bass-V-RW-Olympic-White/3J06"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  547: {
+    prices: {
+      zzounds: "$2799.00"
+    }
+  },
+  548: {
+    prices: {
+      gear4music: "£1044.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--IBAEHB1005MS"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  549: {
+    prices: {
+      andertons: "£2049.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_US/USD/Dingwall-Combustion-5-3PU-MN-Natural-13734/art-BAS0012293-000"
+    },
+    oos: [
+      "musicstore"
+    ]
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
