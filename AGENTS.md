@@ -664,7 +664,8 @@ En cada guía que se toque o cree, SIEMPRE:
 3. **Datos oficiales del fabricante** — NUNCA inventar precios/specs. Buscar spec sheet oficial (Shure/AKG/Neumann/Rode/Sennheiser/EV, etc.).
 4. **Tabla de comparación (`productTable`)** debe incluir: Producto, Precio, "Best For", y todas las specs clave que la competencia muestra (tipo, patrón polar, frecuencia, sensibilidad, ruido propio, max SPL, impedancia, + específicas de la categoría: woofer/potencia/memoria/peso, etc.).
 5. **Corregir errores factuales** detectados durante la verificación (ej. U 87 Ai Max SPL real = 117 dB, no 128 dB).
-6. Rebuild + verificar EN/ES + commit + push.
+6. **Veredictos (`verdictProsCons`): MÍNIMO 4 pros + 4 contras por producto, EN y ES (REGLA FIJA del usuario, 02/10/2026)**. Un veredicto con 1-2 contras se ve pobre frente a la competencia; si un producto parece "perfecto", buscar contras honestos (precio, peso, curva de aprendizaje, ecosistema cerrado, formato, consumo CPU, accesorios aparte).
+7. Rebuild + verificar EN/ES + commit + push.
 
 ## 💰 REGLA FIJA: URLs + PRECIOS SIEMPRE JUNTOS
 

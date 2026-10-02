@@ -85377,7 +85377,10 @@
           "Dante/AES67 + MADI + ADAT + USB-C"
         ],
         "cons": [
-          "Touchscreen can feel cramped for complex routing sessions, forces computer software"
+          "Touchscreen feels cramped for complex routing, forces computer software",
+          "Premium desktop price for the channel count",
+          "Dante/AES67 network setup overkill for stereo-only rooms",
+          "No UAD-style onboard DSP plugin ecosystem"
         ],
         "pros_es": [
           "Conversión compartida con Merging Technologies = grado referencia",
@@ -85386,7 +85389,10 @@
           "Dante/AES67 + MADI + ADAT + USB-C"
         ],
         "cons_es": [
-          "Pantalla táctil puede quedarse justa en sesiones routing complejas, obliga a usar software PC"
+          "Pantalla táctil justa para routing complejo, obliga a software PC",
+          "Precio desktop premium para el conteo de canales",
+          "Red Dante/AES67 excesiva para salas solo estéreo",
+          "Sin ecosistema DSP de plugins estilo UAD"
         ]
       },
       {
@@ -85399,7 +85405,10 @@
           "Auto-Gain, Relay Switching, LUFS metering"
         ],
         "cons": [
-          "Requires physical Thunderbolt 3/4 port on motherboard (common PC confusion with USB-C)"
+          "Requires physical Thunderbolt 3/4 port (common PC confusion with USB-C)",
+          "UAD plugins cost extra on top of the hardware",
+          "Internal fan audible in very quiet rooms",
+          "Locked to UA Console + UAD-2 ecosystem"
         ],
         "pros_es": [
           "Gen 2 HEXA Core DSP: 6 núcleos, poder UAD masivo",
@@ -85408,7 +85417,10 @@
           "Auto-Gain, Relay Switching, medición LUFS"
         ],
         "cons_es": [
-          "Requiere puerto Thunderbolt 3/4 físico en placa base (confusión común PC con USB-C)"
+          "Requiere puerto Thunderbolt 3/4 físico (confusión común PC con USB-C)",
+          "Plugins UAD cuestan extra sobre el hardware",
+          "Ventilador interno audible en salas silenciosas",
+          "Atado al ecosistema UA Console + UAD-2"
         ]
       },
       {
@@ -85421,7 +85433,10 @@
           "SteadyClock FS = ultra-low jitter"
         ],
         "cons": [
-          "Rear panel cable density is extreme due to massive connectivity"
+          "Rear panel cable density is extreme from massive connectivity",
+          "TotalMix FX has a steep learning curve",
+          "Premium price for the channel count",
+          "Rack-only form factor, no desktop version"
         ],
         "pros_es": [
           "Estabilidad drivers legendaria — sesiones nunca caen",
@@ -85430,7 +85445,10 @@
           "SteadyClock FS = jitter ultra-bajo"
         ],
         "cons_es": [
-          "Densidad cables panel trasero extrema por inmensa conectividad"
+          "Densidad cables trasera extrema por inmensa conectividad",
+          "TotalMix FX tiene curva aprendizaje pronunciada",
+          "Precio premium para el conteo de canales",
+          "Solo formato rack, sin versión escritorio"
         ]
       },
       {
@@ -85438,17 +85456,27 @@
         "name_es": "Apogee Symphony I/O Mk II 16x16 SE",
         "pros": [
           "16x16 analog I/O line-level conversion, reference grade",
-          "Special Edition ~$6,999 complete (chassis ~$3,999 + modules)"
+          "Special Edition ~$6,999 complete (chassis ~$3,999 + modules)",
+          "Legendary Apogee conversion clarity",
+          "Thunderbolt plus optional Dante/SoundGrid/HDX connectivity"
         ],
         "cons": [
-          "Zero mic preamps included — purely line-level AD/DA converter unless preamp module purchased separately"
+          "Zero mic preamps — purely line-level AD/DA unless preamp module added",
+          "Modular pricing escalates fast once configured",
+          "Mac-centric workflow, limited Windows story",
+          "Overkill unless running a booked commercial room"
         ],
         "pros_es": [
-          "16x16 I/O analógico conversión nivel línea, grado referencia",
-          "Special Edition ~$6,999 completa (chasis ~$3,999 + módulos)"
+          "16x16 I/O analógico nivel línea, grado referencia",
+          "Special Edition ~$6,999 completa (chasis ~$3,999 + módulos)",
+          "Claridad de conversión Apogee legendaria",
+          "Thunderbolt más conectividad opcional Dante/SoundGrid/HDX"
         ],
         "cons_es": [
-          "Cero preamplificadores micrófono incluidos — puramente convertidor AD/DA nivel línea salvo compra módulo previos aparte"
+          "Cero preamps — puro AD/DA nivel línea salvo módulo previos",
+          "Precio modular escala rápido al configurar",
+          "Flujo Mac-céntrico, historia Windows limitada",
+          "Excesivo salvo sala comercial con reservas"
         ]
       },
       {
@@ -85461,16 +85489,22 @@
           "ADAT + Dante + USB-C, monitor controller built-in"
         ],
         "cons": [
-          "Massive premium paid for DSP calibration wasted if not expanding to 7.1.4+ immersive"
+          "Massive premium for DSP calibration wasted without 7.1.4+ expansion",
+          "Premium price over stereo monitor controllers",
+          "Calibration mic workflow has a learning curve",
+          "Deep functions live in software, not the front panel"
         ],
         "pros_es": [
-          "Única interfaz hecha para calibración Dolby Atmos / inmersivo",
+          "Única interfaz para calibración Dolby Atmos / inmersivo",
           "Procesador DSP corrección sala incluido",
           "Monitoreo 7.1.4 / 9.1.6 desde una unidad",
           "ADAT + Dante + USB-C, controlador monitor integrado"
         ],
         "cons_es": [
-          "Prima enorme por DSP calibración desperdiciada si no expandes a 7.1.4+ inmersivo"
+          "Prima enorme por DSP desperdiciada sin expansión 7.1.4+",
+          "Precio premium sobre controladores estéreo",
+          "Flujo micrófono calibración con curva aprendizaje",
+          "Funciones profundas en software, no en panel frontal"
         ]
       },
       {
@@ -85483,16 +85517,22 @@
           "Legendary Lynx transparency"
         ],
         "cons": [
-          "Premium price, Thunderbolt 3 required"
+          "Premium price for conversion alone",
+          "Thunderbolt 3 only — no USB fallback on this version",
+          "No onboard DSP effects or monitor-controller features",
+          "MADI/Dante expansion via paid option cards"
         ],
         "pros_es": [
-          "Reloj SynchroLock 2 = jitter rendimiento mastering",
-          "Thunderbolt 3 = ancho banda masivo, latencia ultra-baja vs USB",
-          "16x16 analógico, ADAT, MADI opcional",
-          "Transparencia legendaria Lynx"
+          "Precio premium solo por conversión",
+          "Solo Thunderbolt 3 — sin respaldo USB en esta versión",
+          "Sin efectos DSP ni funciones controlador monitor",
+          "Expansión MADI/Dante vía tarjetas opcionales de pago"
         ],
         "cons_es": [
-          "Precio premium, Thunderbolt 3 requerido"
+          "Precio premium solo por conversión",
+          "Solo Thunderbolt 3 — sin respaldo USB en esta versión",
+          "Sin efectos DSP ni funciones controlador monitor",
+          "Expansión MADI/Dante vía tarjetas opcionales de pago"
         ]
       },
       {
@@ -85506,7 +85546,9 @@
         ],
         "cons": [
           "Complex ecosystem (AFX Control), steep learning curve",
-          "Premium price for 1U"
+          "Premium price for 1U",
+          "AFX2DAW required to use FPGA FX inside the DAW",
+          "32 channels demand serious cabling/patchbay planning"
         ],
         "pros_es": [
           "32 canales conversión en 1U rack",
@@ -85515,8 +85557,10 @@
           "Thunderbolt 3 / USB-C / MADI / ADAT"
         ],
         "cons_es": [
-          "Ecosistema complejo (AFX Control), curva aprendizaje pronunciada",
-          "Precio premium para 1U"
+          "Ecosistema complejo (AFX Control), curva pronunciada",
+          "Precio premium para 1U",
+          "AFX2DAW requerido para usar FPGA FX dentro del DAW",
+          "32 canales exigen cableado/patchbay serios"
         ]
       }
     ],
