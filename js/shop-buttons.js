@@ -4719,13 +4719,15 @@ const TEST_SHOP_BTN = {
   },
   539: {
     prices: {
-      andertons: "£449.00"
+      andertons: "£449.00",
+      zzounds: "$400.00",
+      musicstore: "€489.00"
     },
     urls: {
-      zzounds: "https://www.zzounds.com/item--SBMRAY5"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Sterling-SUB-Ray5-Bass-RW-Walnut-Satin/VF1"
     },
     oos: [
-      "zzounds"
+      "gear4music"
     ]
   },
   540: {
