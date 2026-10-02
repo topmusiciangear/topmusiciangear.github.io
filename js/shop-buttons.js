@@ -4712,14 +4712,10 @@ const TEST_SHOP_BTN = {
   538: {
     prices: {
       gear4music: "£309.00",
-      musicstore: "€293.30"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/item--IBAGSR205"
-    },
-    oos: [
-      "zzounds"
-    ]
+      musicstore: "€349.00",
+      zzounds: "$299.00",
+      andertons: "£289.00"
+    }
   },
   539: {
     prices: {
