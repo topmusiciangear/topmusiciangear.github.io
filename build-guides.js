@@ -5143,6 +5143,15 @@ const TEST_SHOP_BTN = {
       musicstore: "€2,440.00"
     }
   },
+  550: {
+    prices: {
+      zzounds: "$219.99",
+      amazon: "$219.99",
+      gear4music: "£185.00",
+      musicstore: "€239.00",
+      andertons: "£185.00"
+    }
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
