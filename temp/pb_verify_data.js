@@ -32,7 +32,7 @@ const removed = ka.filter(k => !B[k]);
 const added = kb.filter(k => !A[k]);
 console.log('removed:', removed.join(',') || 'none', '| added:', added.join(',') || 'none');
 const REMOVED_OK = ['184', '320', '517'];
-const ADDED_OK = ['518', '527'];
+const ADDED_OK = ['518', '527', '528', '529', '530', '531', '532', '533', '534', '535'];
 const badKeys = [...removed.filter(k => !REMOVED_OK.includes(k)), ...added.filter(k => !ADDED_OK.includes(k))];
 const pb = changed.filter(k => B[k].pbCur);
 console.log('changed WITH pbCur:', pb.length, '| changed WITHOUT pbCur:', changed.filter(k => !B[k].pbCur).map(k => k + (B[k].urls && B[k].urls.pluginboutique ? '(url only)' : '')).join(',') || 'none');

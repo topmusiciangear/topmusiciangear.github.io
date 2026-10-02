@@ -4615,6 +4615,77 @@ const TEST_SHOP_BTN = {
       uk: "£86.67"
     }
   },
+  528: {
+    prices: {
+      andertons: "£949.00",
+      musicstore: "€973.90",
+      amazon: "$1299.99"
+    }
+  },
+  529: {
+    prices: {
+      andertons: "£699.00"
+    }
+  },
+  530: {
+    prices: {
+      gear4music: "£419.00"
+    }
+  },
+  531: {
+    prices: {
+      amazon: "$549.99"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TRATB4P"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  532: {
+    prices: {
+      amazon: "$369.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Kala-U-Bass-Solid-Body-Fretted-Red/74VX"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  533: {
+    prices: {
+      gear4music: "£679.00",
+      andertons: "£679.00",
+      musicstore: "€735.00",
+      zzounds: "$849.99"
+    }
+  },
+  534: {
+    urls: {
+      amazon: "https://www.amazon.com/Gretsch-G2220-Junior-Bass-Short-Scale/dp/B09NYLL9QK",
+      gear4music: "https://www.gear4music.com/G4M/Gretsch-G2220-Electromatic-Jr-Jet-II-Bass-Torino-Green/28HL"
+    },
+    oos: [
+      "gear4music",
+      "amazon"
+    ]
+  },
+  535: {
+    prices: {
+      amazon: "$219.99",
+      andertons: "£179.00",
+      gear4music: "£179.00",
+      musicstore: "€175.60"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--JAC2915555"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
 }
 
 function shortTitle(title) {
