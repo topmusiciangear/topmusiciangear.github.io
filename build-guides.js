@@ -5104,7 +5104,8 @@ const TEST_SHOP_BTN = {
   },
   546: {
     prices: {
-      musicstore: "€1,899.00"
+      musicstore: "€1,899.00",
+      andertons: "£1,599.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Jazz-Bass-V-RW-Olympic-White/3J06",
