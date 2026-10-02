@@ -4807,14 +4807,10 @@ const TEST_SHOP_BTN = {
   },
   548: {
     prices: {
-      gear4music: "£1044.00"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/item--IBAEHB1005MS"
-    },
-    oos: [
-      "zzounds"
-    ]
+      gear4music: "£1044.00",
+      zzounds: "$1,400.00",
+      andertons: "£1,149.00"
+    }
   },
   549: {
     prices: {
