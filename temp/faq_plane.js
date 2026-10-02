@@ -1,0 +1,11 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-bass-home-office');
+const f4 = g.faq.find(f => /plane|avión/.test(f.q));
+f4.a += ' The Bronco, Mikro and Minion have normal headstocks, so plan on hold luggage for those.';
+f4.a_es += ' El Bronco, el Mikro y el Minion tienen pala normal, así que con esos cuenta con bodega.';
+const s = g.featuredSnippet;
+s.faq_a4_en += ' The Bronco, Mikro and Minion have normal headstocks, so plan on hold luggage for those.';
+s.faq_a4_es += ' El Bronco, el Mikro y el Minion tienen pala normal, así que con esos cuenta con bodega.';
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+console.log('ok');
