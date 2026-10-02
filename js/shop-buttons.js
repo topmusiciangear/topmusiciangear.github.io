@@ -4770,12 +4770,9 @@ const TEST_SHOP_BTN = {
     ]
   },
   544: {
-    urls: {
-      zzounds: "https://www.zzounds.com/item--IBASR505E"
-    },
-    oos: [
-      "zzounds"
-    ]
+    prices: {
+      andertons: "£629.00"
+    }
   },
   545: {
     prices: {
