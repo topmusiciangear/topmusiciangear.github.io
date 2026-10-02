@@ -1,0 +1,11 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const idx = [];
+G.forEach((g, i) => { if (g.id === 'best-5-string-basses') idx.push(i); });
+console.log('ocurrencias: ' + idx.join(','));
+console.log('sec0: ' + G[idx[0]].sections.length + ' | sec1: ' + (G[idx[1]] ? G[idx[1]].sections.length : '-'));
+G.splice(idx[idx.length - 1], 1);
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+const G2 = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G2.find(x => x.id === 'best-5-string-basses');
+console.log('tras limpiar: total=' + G2.length + ' | sections=' + g.sections.length + ' faq=' + g.faq.length + ' cols=' + g.productTable.columns.length);
