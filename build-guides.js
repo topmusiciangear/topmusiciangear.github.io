@@ -4949,8 +4949,15 @@ const TEST_SHOP_BTN = {
   },
   530: {
     prices: {
-      gear4music: "£419.00"
-    }
+      gear4music: "£419.00",
+      musicstore: "€444.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TRAULB"
+    },
+    oos: [
+      "zzounds"
+    ]
   },
   531: {
     prices: {
