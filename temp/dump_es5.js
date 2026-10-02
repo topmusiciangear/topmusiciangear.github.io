@@ -1,0 +1,18 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-5-string-basses');
+const out = [];
+out.push('TITLE_ES: ' + g.title_es);
+out.push('TAG_ES: ' + g.titleTag_es);
+out.push('DESC_ES: ' + g.description_es);
+out.push('INTRO_ES: ' + g.intro_es);
+g.sections.forEach((s, i) => { out.push('--- S' + i + ' H: ' + s.heading_es); out.push('S' + i + ': ' + s.content_es); });
+out.push('CONC_ES: ' + g.conclusion_es);
+out.push('VERD_ES: ' + g.verdict_es);
+g.productTable.rows.forEach(r => r.values.forEach(v => out.push('TBL [' + r.label + ']: ' + v.value_es)));
+g.verdictProsCons.forEach(v => { out.push('V ' + v.name_es + ' P: ' + v.pros_es.join(' ~ ')); out.push('  C: ' + v.cons_es.join(' ~ ')); });
+g.faq.forEach((f, i) => { out.push('Q' + i + ': ' + f.q_es); out.push('A' + i + ': ' + f.a_es); });
+const s = g.featuredSnippet;
+out.push('SNIP: ' + s.text_es + ' | ' + s.best1_es + ' | ' + s.key1_es + ' | ' + s.best2_es + ' | ' + s.key2_es);
+fs.writeFileSync('temp/es5str.txt', out.join('\n'));
+console.log(out.length + ' lineas');
