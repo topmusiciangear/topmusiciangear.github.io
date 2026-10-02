@@ -1,0 +1,14 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-bass-home-office');
+const ci = g.productTable.columns.findIndex(c => c.title === 'Sire Marcus Miller M6 Headless Bass');
+const bodyRow = g.productTable.rows.find(r => r.label === 'Body');
+bodyRow.values[ci] = { value: 'Swamp ash / mahogany (by finish)', value_es: 'Fresno / caoba (según acabado)' };
+const sec = g.sections.find(s => (s.products || []).includes(529));
+sec.content = sec.content.split('mahogany body, five-piece maple and mahogany C neck').join('swamp-ash/mahogany body depending on finish, five-piece maple and mahogany C neck');
+sec.content_es = sec.content_es.split('cuerpo de caoba, mástil C de cinco piezas arce/caoba').join('cuerpo de fresno/caoba según acabado, mástil C de cinco piezas arce/caoba');
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+const gg = JSON.parse(fs.readFileSync('data/guides.json', 'utf8')).find(x => x.id === 'best-bass-home-office');
+const c2 = gg.productTable.columns.findIndex(c => c.title === 'Sire Marcus Miller M6 Headless Bass');
+console.log('body: ' + gg.productTable.rows.find(r => r.label === 'Body').values[c2].value);
+console.log('sec ok: ' + gg.sections.find(s => (s.products || []).includes(529)).content.includes('swamp-ash'));
