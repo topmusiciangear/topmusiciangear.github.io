@@ -4487,6 +4487,9 @@ const TEST_SHOP_BTN = {
       andertons: "£2,599.00",
       musicstore: "€2,829.00"
     },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN"
+    },
     oos: [
       "zzounds"
     ]
