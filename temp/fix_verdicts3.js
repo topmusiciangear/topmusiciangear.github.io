@@ -1,0 +1,14 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const src = G.find(x => x.id === 'best-beginner-electric-guitar');
+const v = JSON.parse(JSON.stringify(src.verdictProsCons.find(x => x.name === 'Enya Nova Go Sonic')));
+v.name = 'Enya Nova Go Sonic Smart Electric Guitar';
+v.name_es = 'Enya Nova Go Sonic Smart Electric Guitar';
+const dst = G.find(x => x.id === 'beginner-guitar');
+if (!dst.verdictProsCons.some(x => x.name === v.name)) dst.verdictProsCons.push(v);
+const src2 = G.find(x => x.id === 'live-sound-pa');
+const v2 = JSON.parse(JSON.stringify(src2.verdictProsCons.find(x => x.name === 'JBL PRX ONE')));
+const dst2 = G.find(x => x.id === 'best-live-subwoofers');
+if (!dst2.verdictProsCons.some(x => x.name === v2.name)) dst2.verdictProsCons.push(JSON.parse(JSON.stringify(v2)));
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+console.log('done');
