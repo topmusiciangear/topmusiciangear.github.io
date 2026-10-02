@@ -4693,6 +4693,32 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
+  536: {
+    prices: {
+      gear4music: "£169.00",
+      andertons: "£149.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--SQU0373800"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  537: {
+    prices: {
+      gear4music: "£190.00",
+      andertons: "£219.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--IBAGSRM20",
+      musicstore: "https://www.musicstore.com/en_GB/GBP/Ibanez-miKro-GSRM20B-WNF-Walnut-Flat/art-BAS0008309-000"
+    },
+    oos: [
+      "zzounds",
+      "musicstore"
+    ]
+  },
 }
 
 function shortTitle(title) {

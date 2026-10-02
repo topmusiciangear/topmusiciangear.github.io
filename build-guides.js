@@ -5009,6 +5009,32 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
+  536: {
+    prices: {
+      gear4music: "£169.00",
+      andertons: "£149.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--SQU0373800"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  537: {
+    prices: {
+      gear4music: "£190.00",
+      andertons: "£219.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--IBAGSRM20",
+      musicstore: "https://www.musicstore.com/en_GB/GBP/Ibanez-miKro-GSRM20B-WNF-Walnut-Flat/art-BAS0008309-000"
+    },
+    oos: [
+      "zzounds",
+      "musicstore"
+    ]
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
