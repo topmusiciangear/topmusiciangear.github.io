@@ -5130,14 +5130,9 @@ const TEST_SHOP_BTN = {
   },
   549: {
     prices: {
-      andertons: "£2049.00"
-    },
-    urls: {
-      musicstore: "https://www.musicstore.com/en_US/USD/Dingwall-Combustion-5-3PU-MN-Natural-13734/art-BAS0012293-000"
-    },
-    oos: [
-      "musicstore"
-    ]
+      andertons: "£2049.00",
+      musicstore: "€2,440.00"
+    }
   },
 };function hollyDefaultRegion() {
   var isUsa = false;
