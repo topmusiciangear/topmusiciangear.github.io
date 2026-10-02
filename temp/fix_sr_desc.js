@@ -1,0 +1,16 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-5-string-basses');
+g.description = g.description.split('StingRay Special leads premium').join('Ultra II Jazz V leads premium');
+g.description_es = g.description_es.split('StingRay Special premium').join('Ultra II Jazz V premium');
+const fq = g.faq.find(f => /floppy|flojo/.test(f.q));
+fq.a = fq.a.split('V7, StingRay, EHB1005MS').join('V7, Ultra II Jazz V, EHB1005MS');
+fq.a_es = fq.a_es.split('V7, StingRay, EHB1005MS').join('V7, Ultra II Jazz V, EHB1005MS');
+const fq2 = g.faq.find(f => /Active or passive|Activo o pasivo/.test(f.q));
+fq2.a = fq2.a.split('V7, StingRay, EHB1005MS').join('V7, Ultra II Jazz V, EHB1005MS');
+fq2.a_es = fq2.a_es.split('V7, StingRay, EHB1005MS').join('V7, Ultra II Jazz V, EHB1005MS');
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+const s = JSON.stringify(G.find(x => x.id === 'best-5-string-basses'));
+const left = s.match(/StingRay Special 5|StingRay Special premium|StingRay Special leads/g);
+console.log('restos Special: ' + (left ? left.length : 0));
+console.log('desc: ' + G.find(x => x.id === 'best-5-string-basses').description.length + 'ch');
