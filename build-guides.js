@@ -5011,15 +5011,11 @@ const TEST_SHOP_BTN = {
   },
   536: {
     prices: {
-      gear4music: "£169.00",
-      andertons: "£149.00"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/item--SQU0373800"
-    },
-    oos: [
-      "zzounds"
-    ]
+      gear4music: "£179.00",
+      andertons: "£195.00",
+      zzounds: "$260.00",
+      musicstore: "€219.00"
+    }
   },
   537: {
     prices: {
