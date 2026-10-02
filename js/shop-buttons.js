@@ -4606,6 +4606,15 @@ const TEST_SHOP_BTN = {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone-Slate/3U30"
     }
   },
+  527: {
+    prices: {
+      pluginboutique: "€89.00"
+    },
+    pbCur: {
+      us: "$108.90",
+      uk: "£86.67"
+    }
+  },
 }
 
 function shortTitle(title) {

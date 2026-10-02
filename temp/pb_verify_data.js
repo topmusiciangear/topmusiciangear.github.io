@@ -27,12 +27,12 @@ console.log('keys before/after:', ka.length, kb.length, '| same set:', JSON.stri
 const changed = ka.filter(k => B[k] && JSON.stringify(A[k]) !== JSON.stringify(B[k]));
 console.log('changed entries:', changed.length);
 // Fusiones/eliminaciones autorizadas (AT2040USB 517->286, Ultra II 184->440,
-// PRS 320->312) y altas nuevas (518 Yeti): no son cambios de precio.
+// PRS 320->312) y altas nuevas (518 Yeti, 527 Spaced Out): no son cambios de precio.
 const removed = ka.filter(k => !B[k]);
 const added = kb.filter(k => !A[k]);
 console.log('removed:', removed.join(',') || 'none', '| added:', added.join(',') || 'none');
 const REMOVED_OK = ['184', '320', '517'];
-const ADDED_OK = ['518'];
+const ADDED_OK = ['518', '527'];
 const badKeys = [...removed.filter(k => !REMOVED_OK.includes(k)), ...added.filter(k => !ADDED_OK.includes(k))];
 const pb = changed.filter(k => B[k].pbCur);
 console.log('changed WITH pbCur:', pb.length, '| changed WITHOUT pbCur:', changed.filter(k => !B[k].pbCur).map(k => k + (B[k].urls && B[k].urls.pluginboutique ? '(url only)' : '')).join(',') || 'none');
