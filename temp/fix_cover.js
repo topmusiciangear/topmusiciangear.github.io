@@ -1,0 +1,10 @@
+const fs = require('fs');
+let t = fs.readFileSync('data/guides.json', 'utf8');
+const i = t.indexOf('"id": "best-5-string-basses"');
+const imgIdx = t.indexOf('"image":', i);
+const endIdx = t.indexOf(',', imgIdx);
+const before = t.slice(0, imgIdx);
+const after = t.slice(endIdx);
+const newImg = '"image": "https://r2.gear4music.com/media/44/447474/1200/preview.jpg",';
+fs.writeFileSync('data/guides.json', before + newImg + after);
+console.log('done');
