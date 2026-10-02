@@ -1,0 +1,12 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-bass-home-office');
+console.log('g.faq silent: ' + g.faq[2].a.slice(0, 80));
+const s = g.featuredSnippet;
+s.faq_a2_en = 'Plug into any small USB interface and closed-back headphones for full tone at midnight with any of these eight basses. Skip traditional amps in shared spaces.';
+s.faq_a2_es = 'Conéctate a cualquier interfaz USB pequeña y auriculares cerrados para tono completo a medianoche con cualquiera de estos ocho bajos. Olvida amplis tradicionales en espacios compartidos.';
+s.faq_a4_en = s.faq_a4_en.split('The TB-4P at 35.25 inches usually fits too. ').join('');
+s.faq_a4_es = s.faq_a4_es.split('El TB-4P con 89,5 cm suele caber también. ').join('');
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+const left = JSON.stringify(G.find(x => x.id === 'best-bass-home-office')).match(/TB-4P|TB4P|TRAULB|Traveler Guitar TB/g);
+console.log('restos TB-4P en guia: ' + (left ? left.length : 0));

@@ -4961,14 +4961,10 @@ const TEST_SHOP_BTN = {
   },
   531: {
     prices: {
-      amazon: "$549.99"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/item--TRATB4P"
-    },
-    oos: [
-      "zzounds"
-    ]
+      gear4music: "£399.00",
+      zzounds: "$499.00",
+      amazon: "$499.00"
+    }
   },
   532: {
     prices: {
