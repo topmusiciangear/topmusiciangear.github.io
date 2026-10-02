@@ -4668,11 +4668,15 @@ const TEST_SHOP_BTN = {
   534: {
     urls: {
       amazon: "https://www.amazon.com/Gretsch-G2220-Junior-Bass-Short-Scale/dp/B09NYLL9QK",
-      gear4music: "https://www.gear4music.com/G4M/Gretsch-G2220-Electromatic-Jr-Jet-II-Bass-Torino-Green/28HL"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gretsch-G2220-Junior-Jet-Bass-II-Bass-Guitar-Black/QIO",
+      zzounds: "https://www.zzounds.com/item--GRE2514620",
+      musicstore: "https://www.musicstore.com/en_OT/EUR/Gretsch-G2220-Junior-Jet-II-Bass-Guita-r-Black-/art-BAS0005818-000"
     },
     oos: [
       "gear4music",
-      "amazon"
+      "amazon",
+      "zzounds",
+      "musicstore"
     ]
   },
   535: {
