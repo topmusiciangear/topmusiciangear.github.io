@@ -300,7 +300,6 @@ const APPROVED_NON_PB = {
   // Yamaha C40: Music Store y Andertons entran (30/09/2026).
   '459': { 'prices.musicstore': [undefined, '€129.00'], 'prices.andertons': [undefined, '£129.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
-  '480': { 'prices.gear4music': [undefined, '£2,910.00'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
 function flat(o) {
