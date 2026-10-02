@@ -1,0 +1,11 @@
+const fs = require('fs');
+const b = fs.readFileSync('guides/best-bass-home-office.html', 'utf8');
+const idx = [];
+let j = -1;
+while ((j = b.indexOf('data-store="gear4music"', j + 1)) > -1) idx.push(j);
+console.log('filas gear4music en pagina: ' + idx.length);
+const k = b.indexOf('EHB1000: Escala completa');
+console.log('seccion EHB en: ' + k);
+const sec = b.slice(k, k + 3000);
+const prices = [...sec.matchAll(/(€|\$|£)[\d,.]+/g)].map(m => m[0]);
+console.log('precios en seccion EHB: ' + [...new Set(prices)].join(' | '));

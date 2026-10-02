@@ -1,0 +1,12 @@
+const fs = require('fs');
+const b = fs.readFileSync('guides/best-bass-home-office.html', 'utf8');
+const cards = [];
+let j = -1;
+while ((j = b.indexOf('guide-product-card', j + 1)) > -1) cards.push(j);
+console.log('cards: ' + cards.length);
+const ehb = cards.find(c => b.slice(c, c + 2000).includes('EHB1000'));
+const slice = b.slice(ehb, ehb + 9000);
+const prices = [...slice.matchAll(/(€|\$|£)[\d,.]+/g)].map(m => m[0]);
+console.log('precios card EHB: ' + [...new Set(prices)].join(' | '));
+const stores = [...slice.matchAll(/data-store="([a-z]+)"/g)].map(m => m[1]);
+console.log('tiendas card EHB: ' + [...new Set(stores)].join(', '));
