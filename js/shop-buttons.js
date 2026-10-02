@@ -4653,14 +4653,9 @@ const TEST_SHOP_BTN = {
   },
   532: {
     prices: {
-      amazon: "$369.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Kala-U-Bass-Solid-Body-Fretted-Red/74VX"
-    },
-    oos: [
-      "gear4music"
-    ]
+      amazon: "$369.00",
+      gear4music: "£289.00"
+    }
   },
   533: {
     prices: {
