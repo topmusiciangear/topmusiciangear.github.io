@@ -4785,16 +4785,22 @@ const TEST_SHOP_BTN = {
     }
   },
   546: {
+    prices: {
+      musicstore: "€1,899.00"
+    },
     urls: {
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Jazz-Bass-V-RW-Olympic-White/3J06"
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Jazz-Bass-V-RW-Olympic-White/3J06",
+      zzounds: "https://www.zzounds.com/item--FEN0193992"
     },
     oos: [
-      "gear4music"
+      "gear4music",
+      "zzounds"
     ]
   },
   547: {
     prices: {
-      zzounds: "$2799.00"
+      zzounds: "$2799.00",
+      gear4music: "£2,999.00"
     }
   },
   548: {
