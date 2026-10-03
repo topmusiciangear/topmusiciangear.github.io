@@ -5143,6 +5143,29 @@ const TEST_SHOP_BTN = {
       musicstore: "€2,440.00"
     }
   },
+  550: {
+    prices: {
+      gear4music: "£150.50",
+      andertons: "£179.00",
+      musicstore: "€159.00",
+      amazon: "$229.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B01ET9GCGS?tag=topmusicg-20"
+    }
+  },
+  551: {
+    prices: {
+      zzounds: "$149.00",
+      amazon: "$199.00",
+      gear4music: "£125.00",
+      andertons: "£115.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B09HL4GZF9?tag=topmusicg-20",
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FArturia-MiniFuse-2-Black%2Fart-PCM0017077-000"
+    }
+  },
   
 };function hollyDefaultRegion() {
   var isUsa = false;
