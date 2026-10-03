@@ -1,7 +1,12 @@
 const P = require('../data/products.json');
-[148, 412].forEach(id => {
-  const p = P.find(x => x.id === id);
-  console.log('=== ' + id + ' ' + p.title + ' $' + p.price);
-  console.log('desc: ' + (p.desc || '').slice(0, 200));
-  console.log('stores: ' + JSON.stringify(p.stores, null, 1));
-});
+P.forEach(p => { if (/32S/i.test(p.title)) console.log(p.id, ':', p.title, '|$' + p.price); });
+const G = require('../data/guides.json');
+const g = G.find(x => x.id === 'best-32-channel-digital-mixers');
+const ci = g.productTable.columns.findIndex(c => /M32R/.test(c.title));
+console.log('M32R col idx:', ci);
+g.productTable.rows.forEach(r => console.log('ROW ' + r.label + ' | ' + JSON.stringify(r.values[ci])));
+const vi = g.verdictProsCons.findIndex(v => /M32R/.test(v.name));
+console.log('VERDICT:', JSON.stringify(g.verdictProsCons[vi]));
+g.sections.forEach((s, n) => { if ((s.products || []).includes(412)) console.log('SEC' + n + ' EN: ' + (s.content || '').replace(/\s+/g, ' ').slice(0, 1000) + '\nSEC' + n + ' ES: ' + (s.content_es || '').replace(/\s+/g, ' ').slice(0, 1000)); });
+const sAll = JSON.stringify(g);
+['M32R', 'M32 R'].forEach(k => console.log(k + ' count:', sAll.split(k).length - 1));

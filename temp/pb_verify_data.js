@@ -300,7 +300,7 @@ const APPROVED_NON_PB = {
   // Yamaha C40: Music Store y Andertons entran (30/09/2026).
   '459': { 'prices.musicstore': [undefined, '€129.00'], 'prices.andertons': [undefined, '£129.00'] },
   '262': { 'prices.zzounds': ['$129.99', '$179.00'], 'prices.gear4music': ['£93.10', '£94.00'], 'prices.musicstore': ['€167.23', '€115.00'] },
-  '412': { 'prices.gear4music': [undefined, '£2,106.00'], 'prices.musicstore': ['€1,678.99', '€2,099.00'], 'prices.andertons': ['£1,614.00', '£1,699.00'] },
+  '412': { 'prices.amazon': ['$2,499.00', undefined], 'prices.andertons': ['£1,614.00', '£2,159.00'], 'prices.musicstore': ['€1,678.99', undefined], 'prices.gear4music': [undefined, '£2,399.00'], 'urls.zzounds': [undefined, 'https://www.zzounds.com/item--PRSSTUDIOLIVE32S'], 'urls.musicstore': [undefined, 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPresonus-StudioLive-32S%2Fart-REC0014236-000'] },
   '152': { 'prices.zzounds': ['$1,232.49', '$1,450.00'], 'prices.gear4music': ['£989.00', '£975.00'], 'prices.musicstore': ['€917.31', '€1,299.00'] },
   '414': { 'prices.amazon': ['$5,199.00', undefined], 'prices.gear4music': ['£4,499.00', '£3,799.00'], 'prices.musicstore': ['€2,889.92', '€4,499.00'], 'prices.zzounds': [undefined, '$5,999.00'], 'prices.andertons': [undefined, '£3,799.00'], 'urls.andertons': [undefined, 'https://www.andertons.co.uk/allen-heath-sq-6-digital-mixer-2/?search_query=Allen%20%26%20Heath%20SQ-6'], 'oos': ['["andertons"]', undefined] },
   '406': { 'prices.zzounds': ['$1,599.99', '$1,599.00'], 'prices.musicstore': ['€1,503.36', '€1,789.00'] },

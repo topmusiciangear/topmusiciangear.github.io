@@ -3574,10 +3574,12 @@ const TEST_SHOP_BTN = {
   },
   412: {
     prices: {
-      amazon: "$2,499.00",
-      andertons: "£1,699.00",
-      musicstore: "€2,099.00",
-      gear4music: "£2,106.00"
+      gear4music: "£2,399.00",
+      andertons: "£2,159.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--PRSSTUDIOLIVE32S",
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPresonus-StudioLive-32S%2Fart-REC0014236-000"
     }
   },
   413: {
