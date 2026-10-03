@@ -3148,10 +3148,10 @@ const TEST_SHOP_BTN = {
   371: {
     prices: {
       amazon: "$199.99",
-      zzounds: "$199.99",
-      andertons: "£149.00",
-      gear4music: "£155.00",
-      musicstore: "€167.98"
+      zzounds: "$239.99",
+      andertons: "£118.00",
+      gear4music: "£125.00",
+      musicstore: "€159.00"
     }
   },
   372: {
@@ -4167,8 +4167,12 @@ const TEST_SHOP_BTN = {
   },
   480: {
     prices: {
+      gear4music: "£2,910.00",
       andertons: "£2,599.00",
       musicstore: "€2,829.00"
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN"
     },
     oos: [
       "zzounds"
@@ -4823,6 +4827,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€2,440.00"
     }
   },
+  
 }
 
 function shortTitle(title) {

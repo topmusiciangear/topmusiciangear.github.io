@@ -6368,6 +6368,14 @@ function buildImageSitemap() {
 buildImageSitemap();
 
 // Write back pre-bolded data/guides.json for SPA consumption
+// GUARD: never persist stringified-guide corruption (e.g. whole JSON dumped into
+// intro/intro_es/conclusion/verdict). Fail loudly instead of deploying broken pages.
+guides.forEach(g => {
+  ['intro', 'intro_es', 'conclusion', 'conclusion_es', 'verdict', 'verdict_es', 'description', 'description_es'].forEach(f => {
+    var v = g[f];
+    if (typeof v === 'string' && v.indexOf('{"id":') > -1) throw new Error('CORRUPT ' + g.id + '.' + f + ': contains stringified guide JSON. Restore from git history, do not deploy.');
+  });
+});
 fs.writeFileSync(path.join(dir, 'data', 'guides.json'), JSON.stringify(guides, null, 2), 'utf8');
 console.log('Updated: data/guides.json with pre-bolded content');
 
