@@ -195,11 +195,11 @@ window.tmgStoreButtons = function(p) {
 
 (function() {
   function tmgIsEsDoc() { return (document.documentElement.lang || 'en').indexOf('es') === 0; }
-  function tmgPriceHtml(plain, primary) {
+  function tmgPriceHtml(plain, primary, short) {
     if (!plain) return '';
     var lab = tmgIsEsDoc() ? 'Aprox.' : 'Approx.';
     var col = primary ? '#ffffff' : '#a8a8a8';
-    return '<span class="shop-price" data-price="' + plain + '"><span style="font-size:12px;font-weight:600;color:' + col + ';font-style:italic">' + lab + '</span> ' + plain + '</span>';
+    return '<span class="shop-price" data-price="' + plain + '">' + (short ? '' : '<span style="font-size:12px;font-weight:600;color:' + col + ';font-style:italic">' + lab + '</span> ') + plain + '</span>';
   }
   function doSwap(T) {
     document.querySelectorAll('.guide-product-card-stores, .guide-section-buy, .shop-buttons-wrap').forEach(function(c) {
@@ -252,7 +252,7 @@ window.tmgStoreButtons = function(p) {
       if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispEl = pb.querySelector('.shop-price');
         var dispPlain = dispEl ? dispEl.getAttribute('data-price') : '';
-        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '');
+        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain, false, true) + '</span></span>' : '');
         var dispNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
         var isEsPage = tmgIsEsDoc();
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
