@@ -300,6 +300,7 @@ const APPROVED_NON_PB = {
   // Yamaha C40: Music Store y Andertons entran (30/09/2026).
   '459': { 'prices.musicstore': [undefined, '€129.00'], 'prices.andertons': [undefined, '£129.00'] },
   '262': { 'prices.zzounds': ['$129.99', '$179.00'], 'prices.gear4music': ['£93.10', '£94.00'], 'prices.musicstore': ['€167.23', '€115.00'] },
+  '412': { 'prices.gear4music': [undefined, '£2,106.00'], 'prices.musicstore': ['€1,678.99', '€2,099.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
   '371': { 'prices.zzounds': ['$199.99', '$239.99'], 'prices.andertons': ['£149.00', '£118.00'], 'prices.gear4music': ['£155.00', '£125.00'], 'prices.musicstore': ['€167.98', '€159.00'] },
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },
