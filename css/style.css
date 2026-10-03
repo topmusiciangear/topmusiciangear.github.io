@@ -50,6 +50,7 @@ body {
   background: var(--bg);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  zoom: 1.1;
   max-width: 100%;
   overflow-wrap: break-word;
   word-wrap: break-word;
