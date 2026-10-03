@@ -327,6 +327,8 @@ const APPROVED_NON_PB = {
   '501': { 'urls.zzounds': [undefined, 'https://www.zzounds.com/item--TURTFX122MAN'] },
   '216': { 'prices.musicstore': ['€1,091.60', '€1,249.00'] },
   '114': { 'prices.gear4music': ['£299.00', '£479.00'], 'prices.andertons': ['£299.00', '£479.00'], 'prices.musicstore': ['€339.00', '€569.00'] },
+  '260': { 'prices.gear4music': ['£329.99', undefined], 'prices.musicstore': ['€293.28', undefined] },
+  '243': { 'prices.musicstore': ['€167.23', '€199.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
   '371': { 'prices.zzounds': ['$199.99', '$239.99'], 'prices.andertons': ['£149.00', '£118.00'], 'prices.gear4music': ['£155.00', '£125.00'], 'prices.musicstore': ['€167.98', '€159.00'] },
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },
