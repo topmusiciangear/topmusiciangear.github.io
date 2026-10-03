@@ -3564,11 +3564,11 @@ const TEST_SHOP_BTN = {
   },
   406: {
     prices: {
-      zzounds: "$1,599.99",
+      zzounds: "$1,599.00",
       gear4music: "£1,510.00",
       amazon: "$1,599.99",
       andertons: "£1,510.00",
-      musicstore: "€1,503.36"
+      musicstore: "€1,789.00"
     }
   },
   408: {
@@ -3615,19 +3615,21 @@ const TEST_SHOP_BTN = {
   },
   414: {
     prices: {
-      amazon: "$5,199.00",
-      gear4music: "£4,499.00",
-      musicstore: "€2,889.92"
+      zzounds: "$5,999.00",
+      gear4music: "£3,799.00",
+      musicstore: "€4,499.00",
+      andertons: "£3,799.00"
     },
-    oos: [
-      "andertons"
-    ]
+    urls: {
+      andertons: "https://www.andertons.co.uk/allen-heath-sq-6-digital-mixer-2/?search_query=Allen%20%26%20Heath%20SQ-6"
+    }
   },
   418: {
     prices: {
       amazon: "$2,999.00",
+      zzounds: "$3,099.00",
       andertons: "£3,449.00",
-      musicstore: "€3,360.50"
+      musicstore: "€4,498.00"
     }
   },
   419: {
