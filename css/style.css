@@ -50,7 +50,6 @@ body {
   background: var(--bg);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  zoom: 1.1;
   max-width: 100%;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -77,6 +76,11 @@ body {
 
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; display: block; }
+
+/* Base 110% look on desktop only — mobile/tablet stay at 100% */
+@media (min-width: 769px) {
+  body { zoom: 1.1; }
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 8px; }
