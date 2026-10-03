@@ -1,0 +1,7 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-32-channel-digital-mixers');
+g.intro = 'Digital mixers in the 24 to 32 channel range cover most live sound situations — from small worship bands to full stage setups. We analyzed the standout models to find the best combination of preamp quality, bus routing, effects, recording capability, and value. <strong>A note on channel counts:</strong> we rank mixers by architecture and ability to cover 24- to 32-channel events. Rack-mount or subcompact models (like the PreSonus 32SC or the SQ-6+) save rear-panel space with fewer local connections, but still handle up to 32 or 48 channels via digital network expanders.';
+g.intro_es = 'Las mezcladoras digitales de 24 a 32 canales cubren la mayoría de situaciones de sonido en vivo, desde grupos de alabanza pequeños hasta montajes completos de escenario. Analizamos los modelos más destacados para encontrar la mejor combinación de previos, ruteo de buses, efectos, grabación y relación calidad-precio. <strong>Una nota sobre los canales:</strong> en esta guía clasificamos las mezcladoras por su arquitectura y por su capacidad para cubrir eventos de 24 a 32 canales. Ten en cuenta que los modelos en rack o subcompactos (como la PreSonus 32SC o la SQ-6+) ahorran espacio con menos conexiones locales en el panel trasero, pero rinden hasta 32 o 48 canales con expansores digitales por red.';
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+console.log('intros updated');
