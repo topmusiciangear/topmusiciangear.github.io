@@ -1,0 +1,24 @@
+const G = require('../data/guides.json');
+const show = (id, idx) => {
+  const g = G.find(x => x.id === id);
+  const s = g.sections[idx];
+  console.log('=== ' + id + ' sec' + idx + ' ' + (s.heading || '').slice(0, 60));
+  console.log('prods:', JSON.stringify(s.products));
+  console.log('EN:', (s.content || '').slice(0, 400).replace(/\s+/g, ' '));
+  console.log('ES:', (s.content_es || '').slice(0, 400).replace(/\s+/g, ' '));
+};
+show('best-monitors-for-small-rooms', 7);
+show('best-monitors-for-small-rooms', 9);
+show('sm57-vs-sm58', 3);
+show('budget-pa-systems', 1);
+show('best-mic-for-podcasting', 3);
+show('scarlett-vs-ssl', 2);
+show('studio-furniture', 4);
+const P = require('../data/products.json');
+const px = (id) => { const p = P.find(x => x.id === id); console.log('prod' + id, p ? p.title + ' $' + p.price : '?'); };
+[1, 50, 51].forEach(px);
+const kh = G.find(x => x.id === 'kh750-vs-7050c');
+console.log('kh verdicts:', JSON.stringify(kh.verdictProsCons.map(v => v.name)));
+const ms = G.find(x => x.id === 'monitor-setup');
+console.log('monitor-setup conclusion:', ms.conclusion);
+console.log('monitor-setup conclusion_es:', ms.conclusion_es);
