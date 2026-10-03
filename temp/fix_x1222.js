@@ -1,0 +1,13 @@
+const fs = require('fs');
+const P = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
+P.find(x => x.id === 150).stores.zzounds = 'https://www.zzounds.com/item--BEHX1222USB';
+fs.writeFileSync('data/products.json', JSON.stringify(P, null, 2));
+let t = fs.readFileSync('build-guides.js', 'utf8');
+t = t.split('urls: { zzounds: "https://www.zzounds.com/a--925521/item--BEHX1222USB" }').join('urls: { zzounds: "https://www.zzounds.com/item--BEHX1222USB" }');
+fs.writeFileSync('build-guides.js', t);
+let v = fs.readFileSync('temp/pb_verify_data.js', 'utf8');
+const anchor = "  '185': {";
+const entry = "  '150': { 'urls.zzounds': ['https://www.zzounds.com/a--925521/item--BEHX1222USB', 'https://www.zzounds.com/item--BEHX1222USB'] },\n";
+v = v.split(anchor).join(entry + anchor);
+fs.writeFileSync('temp/pb_verify_data.js', v);
+console.log('done');
