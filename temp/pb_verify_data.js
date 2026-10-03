@@ -311,6 +311,7 @@ const APPROVED_NON_PB = {
   '333': { 'prices.zzounds': [undefined, '$460.00'] },
   '137': { 'prices.zzounds': ['$250.74', '$325.00'] },
   '150': { 'urls.zzounds': ['https://www.zzounds.com/a--925521/item--BEHX1222USB', 'https://www.zzounds.com/item--BEHX1222USB'] },
+  '147': { 'prices.gear4music': ['£835', '£819.00'], 'prices.musicstore': ['€929.00', '€1,059.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
   '371': { 'prices.zzounds': ['$199.99', '$239.99'], 'prices.andertons': ['£149.00', '£118.00'], 'prices.gear4music': ['£155.00', '£125.00'], 'prices.musicstore': ['€167.98', '€159.00'] },
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },
