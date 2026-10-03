@@ -1439,28 +1439,19 @@ function injectGuideJsonLd(guide) {
   addJsonLd({ "@context": "https://schema.org", "@type": "Person", "name": "Daniel Carnago", "givenName": "Daniel", "familyName": "Carnago", "alternateName": "Cuban3Beats", "jobTitle": "Professional Musician & Audio Engineer", "description": "Touring musician with 20+ years of experience on world stages including Glastonbury, Broadway, and Abbey Road.", "url": "https://topmusiciangear.com/about.html", "sameAs": ["https://www.youtube.com/@Cuban3Beats","https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX","https://www.tiktok.com/@cuban3beats","https://www.facebook.com/Cuban3Beats/","https://www.instagram.com/cuban3beats","https://x.com/Cuban3Beats"], "knowsAbout": ["Audio Engineering","Music Production","Live Sound","Studio Recording","Music Gear"] });
 }
 
-// Desktop-site overview compensation: if the browser zooms the page out so the
-// visual viewport ends up wider than the layout viewport (Chrome Android
-// "Desktop site"), in-flow content stays at layout width and leaves an empty
-// gap on the right while sticky/fixed chrome spans the full visual width.
-// Scale the body up to fill the visual viewport. Small screens only.
-function tmgFitVisual() {
-  try {
-    if (!document.body) return;
-    if (window.screen && window.screen.width > 820) return;
-    var vv = window.visualViewport;
-    var layoutW = window.innerWidth || document.documentElement.clientWidth || 0;
-    var visualW = vv ? vv.width : layoutW;
-    if (layoutW > 0 && visualW > layoutW + 2) {
-      document.body.style.zoom = (visualW / layoutW).toFixed(3);
-    } else if (document.body.style.zoom) {
-      document.body.style.zoom = "";
-    }
-  } catch (e) {}
+// TEMP DEBUG (?dbg=1): show viewport/layout widths on screen.
+if (new URLSearchParams(window.location.search).get("dbg") === "1") {
+  window.addEventListener("load", function() {
+    setTimeout(function() {
+      var de = document.documentElement;
+      function r(el) { if (!el) return "n/a"; var b = el.getBoundingClientRect(); return Math.round(b.width) + "x" + Math.round(b.height); }
+      var d = document.createElement("div");
+      d.style.cssText = "position:fixed;left:0;top:0;z-index:99999;background:#000;color:#0f0;font:12px monospace;padding:8px;white-space:pre;";
+      d.textContent = "innerWidth=" + window.innerWidth + "\nclientWidth=" + de.clientWidth + "\nscreen=" + window.screen.width + "x" + window.screen.height + "\nvisual=" + (window.visualViewport ? Math.round(window.visualViewport.width) : "n/a") + "\nmain=" + r(document.getElementById("mainContent")) + "\nhero=" + r(document.querySelector(".hero")) + "\nheader=" + r(document.querySelector("header"));
+      document.body.appendChild(d);
+    }, 800);
+  });
 }
-if (window.visualViewport) window.visualViewport.addEventListener("resize", tmgFitVisual);
-window.addEventListener("orientationchange", function() { setTimeout(tmgFitVisual, 350); });
-tmgFitVisual();
 document.addEventListener("DOMContentLoaded", () => {
   dataPromise.then(function() {
   var langParam = new URLSearchParams(window.location.search).get('lang');
