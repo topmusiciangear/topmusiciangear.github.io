@@ -821,11 +821,11 @@ const TEST_SHOP_BTN = {
   },
   114: {
     prices: {
-      gear4music: "£299.00",
+      gear4music: "£479.00",
       amazon: "$579.99",
-      andertons: "£299.00",
+      andertons: "£479.00",
       zzounds: "$579.99",
-      musicstore: "€339.00",
+      musicstore: "€569.00",
       pluginboutique: "€583.83"
     },
     pbCur: {
