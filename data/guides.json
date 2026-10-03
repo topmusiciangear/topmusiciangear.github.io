@@ -63941,6 +63941,7 @@
       {
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
+        "skipMedia": true,
         "content": "<strong>These two microphones represent the pinnacle of studio microphone design.</strong> The Neumann U 87 Ai is the most legendary studio condenser ever made — three polar patterns, impeccable build, and that unmistakable Neumann top-end air. It is the standard. The Lewitt LCT 1040 is an innovative dual-circuit microphone that seamlessly blends tube warmth with FET clarity. Its gold-sputtered 1-inch capsule, premium E88CC/6DJ8 tube, and four analog tube modes (Clear, Warm, Dark, Saturated) make it the most versatile premium microphone ever built. The U 87 is the pro standard; the LCT 1040 is the future.",
         "content_es": "<strong>Estos dos micrófonos representan lo mejor del diseño de micrófonos de estudio.</strong> El Neumann U 87 Ai es uno de los condensadores de estudio más legendarios jamás creados — tres patrones polares, construcción impecable y ese inconfundible aire en agudos de Neumann. Es el estándar. El Lewitt LCT 1040 es un micrófono innovador de doble circuito que combina perfectamente la calidez del tubo con la claridad FET. Su cápsula de 1 pulgada bañada en oro, tubo premium E88CC/6DJ8 y cuatro modos de tubo analógicos (Clear, Warm, Dark, Saturated) lo convierten en el micrófono premium más versátil jamás construido. El U 87 es el estándar profesional; el LCT 1040 es el futuro.",
         "products": [
@@ -64099,90 +64100,6 @@
           "Marca más nueva con menos herencia de estudio que Neumann o Sony",
           "Más pesado que muchos micrófonos de circuito simple debido al diseño de doble circuito",
           "Depende de una fuente de alimentación y cables propietarios"
-        ]
-      },
-      {
-        "name": "Rode NT-USB Mini Studio Condenser Microphone",
-        "name_es": "Rode NT-USB Mini Micrófono de Condensador de Estudio",
-        "pros": [
-          "Cardioid capsule voiced for clear, natural voice capture",
-          "Built-in pop filter and magnetic desk stand for quick setup",
-          "Headphone jack for zero-latency monitoring during recording",
-          "USB-C plug-and-play on PC and Mac with Rode Connect software support"
-        ],
-        "pros_es": [
-          "Cápsula cardioide ajustada para captura de voz clara y natural",
-          "Filtro antipop integrado y base magnética de escritorio para configuración rápida",
-          "Salida de auriculares para monitorización sin latencia durante la grabación",
-          "USB-C plug-and-play en PC y Mac con soporte de software Rode Connect"
-        ],
-        "cons": [
-          "Only cardioid pattern — no omni or figure-8 for versatile recording",
-          "Fixed cable and no XLR output for use with traditional interfaces",
-          "Built-in stand is not adjustable for height or angle",
-          "No pad or low-cut filter for loud sources"
-        ],
-        "cons_es": [
-          "Solo patrón cardioide — sin omni o figura-8 para grabación versátil",
-          "Cable fijo y sin salida XLR para usar con interfaces tradicionales",
-          "La base integrada no es ajustable en altura ni ángulo",
-          "Sin pad ni filtro de corte de graves para fuentes fuertes"
-        ]
-      },
-      {
-        "name": "Rode XCM-50 Compact USB Condenser Microphone",
-        "name_es": "Rode XCM-50 Micrófono de Condensador USB Compacto",
-        "pros": [
-          "24-bit/48 kHz USB-C output for high-quality streaming and recording",
-          "Headphone output for zero-latency monitoring with mute button on the mic",
-          "360-degree swing mount and tripod for flexible desk placement",
-          "Pairs with Rode UNIFY software for advanced routing and processing"
-        ],
-        "pros_es": [
-          "Salida USB-C de 24-bit/48 kHz para streaming y grabación de alta calidad",
-          "Salida de auriculares para monitorización sin latencia con botón de silencio en el micro",
-          "Soporte pivotante de 360 grados y trípode para colocación flexible en escritorio",
-          "Se integra con el software UNIFY de Rode para routing y procesamiento avanzados"
-        ],
-        "cons": [
-          "Only cardioid pattern — limited for multi-purpose recording",
-          "Built for streaming rather than studio condenser flexibility",
-          "No XLR output for use with traditional preamps",
-          "No built-in compression or effects processing"
-        ],
-        "cons_es": [
-          "Solo patrón cardioide — limitado para grabación multipropósito",
-          "Diseñado para streaming en lugar de la versatilidad de un condensador de estudio",
-          "Sin salida XLR para usar con preamplificadores tradicionales",
-          "Sin compresión ni procesamiento de efectos incorporados"
-        ]
-      },
-      {
-        "name": "Aston Microphones Shield GN Pop Filter",
-        "name_es": "Aston Microphones Shield GN Filtro Pop",
-        "pros": [
-          "Premium stainless steel construction with HexTech filter holes for ultimate plosive reduction",
-          "Deluxe gooseneck for precise positioning in front of any microphone",
-          "Ultra-fast mounting system attaches without tools",
-          "Durable and elegant — built to match high-end studio setups"
-        ],
-        "pros_es": [
-          "Construcción premium de acero inoxidable con orificios HexTech para reducción definitiva de oclusivas",
-          "Cuello de ganso de lujo para posicionamiento preciso frente a cualquier micrófono",
-          "Sistema de montaje ultrarrápido que se acopla sin herramientas",
-          "Duradero y elegante — construido para combinar con setups de estudio de gama alta"
-        ],
-        "cons": [
-          "Pop filter only — no microphone or shock mount included",
-          "Premium price for a single accessory",
-          "Gooseneck can drift over time with heavy use",
-          "Stainless steel mesh may be harder to clean than nylon filters"
-        ],
-        "cons_es": [
-          "Solo filtro pop — sin micrófono ni soporte antigolpes incluido",
-          "Precio premium para un solo accesorio",
-          "El cuello de ganso puede desviarse con el tiempo tras uso intensivo",
-          "La malla de acero inoxidable puede ser más difícil de limpiar que los filtros de nylon"
         ]
       }
     ],
@@ -64345,6 +64262,7 @@
       {
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
+        "skipMedia": true,
         "content": "<strong>Professional monitors are the most important investment you will make for your mix room.</strong> The ADAM Audio S3H features the S-ART folded ribbon tweeter — a hand-crafted driver that delivers exceptional transient response and detail with virtually no distortion. The S-ART accelerates air between its folded Kapton diaphragm pleats, producing a fast, open top end that reveals every nuance in your mix. The Focal Trio11 Be is a technical marvel with its pure beryllium inverted dome tweeter and switchable Focus mode. The Focus mode lets you toggle between 3-way and 2-way operation, effectively giving you two monitors in one — a full midfield system and a compact nearfield reference. ADAM for its ribbon-tweeter speed and DSP room correction; Focal for versatility and top-end detail.",
         "content_es": "<strong>Los monitores profesionales son la inversión más importante que harás para tu sala de mezcla.</strong> El ADAM Audio S3H presenta el tweeter de cinta plegada S-ART — un driver hecho a mano que ofrece una respuesta transitoria y detalle excepcionales con prácticamente cero distorsión. El S-ART acelera el aire entre los pliegues de su diafragma Kapton plegado, produciendo agudos rápidos y abiertos que revelan cada matiz de la mezcla. El Focal Trio11 Be es una maravilla técnica con su tweeter de cúpula invertida de berilio puro y modo Focus conmutable. El modo Focus te permite alternar entre operación de 3 vías y 2 vías, dándote en la práctica dos monitores en uno. ADAM por la velocidad de su tweeter de cinta y corrección DSP de sala; Focal para versatilidad y detalle de agudos.",
         "products": [
@@ -64506,110 +64424,6 @@
           "Sin corrección DSP de sala incorporada — se necesita hardware o software externo",
           "Sin sistema de calibración de sala incorporado",
           "La transición del modo Focus requiere ajuste de posición de escucha"
-        ]
-      },
-      {
-        "name": "Adam Audio A7V",
-        "name_es": "ADAM Audio A7V",
-        "pros": [
-          "S-ART folded ribbon tweeter with exceptional transient response",
-          "Built-in DSP room correction via A.Control app",
-          "7-inch woofer delivers deep bass for its compact size",
-          "3D imaging with precise stereo placement"
-        ],
-        "pros_es": [
-          "Tweeter de cinta plegada S-ART con respuesta transitoria excepcional",
-          "Corrección DSP de sala incorporada vía la aplicación A.Control",
-          "Woofer de 7 pulgadas ofrece graves profundos para su tamaño compacto",
-          "Imagen 3D con colocación estéreo precisa"
-        ],
-        "cons": [
-          "Smaller woofer than the S3H limits low-frequency extension",
-          "S-ART ribbon tweeter has a different presentation than dome tweeters",
-          "DSP room correction requires a measurement mic and app setup"
-        ],
-        "cons_es": [
-          "Woofer más pequeño que el S3H limita la extensión de bajas frecuencias",
-          "El tweeter de cinta S-ART tiene una presentación diferente a los tweeter de cúpula",
-          "La corrección DSP de sala requiere un micrófono de medición y configuración de la aplicación"
-        ]
-      },
-      {
-        "name": "ADAM Audio D3V",
-        "name_es": "ADAM Audio D3V",
-        "pros": [
-          "D-ART ribbon tweeter brings ADAM's signature sound to a desktop system",
-          "240W total power with dual 3.5-inch woofers and passive radiators",
-          "USB-C and dual TRS inputs plus headphone out — a complete audio hub",
-          "Most affordable way into ADAM ribbon-tweeter sound"
-        ],
-        "pros_es": [
-          "El tweeter de cinta D-ART lleva el sonido característico de ADAM a un sistema de escritorio",
-          "240W de potencia total con woofers duales de 3,5 pulgadas y radiadores pasivos",
-          "Entradas USB-C y doble TRS más salida de auriculares — un hub de audio completo",
-          "La forma más asequible de entrar al sonido de cinta de ADAM"
-        ],
-        "cons": [
-          "3.5-inch woofers can't match the low-end authority of larger monitors",
-          "Passive radiators add bass but not the depth of a ported or sealed 5-inch design",
-          "Best suited for nearfield desktop use, not midfield critical listening"
-        ],
-        "cons_es": [
-          "Los woofers de 3,5 pulgadas no igualan la autoridad de graves de monitores más grandes",
-          "Los radiadores pasivos añaden graves pero no la profundidad de un diseño de 5 pulgadas",
-          "Ideal para uso de escritorio nearfield, no para escucha crítica midfield"
-        ]
-      },
-      {
-        "name": "Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
-        "name_es": "Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
-        "pros": [
-          "Coaxial point-source driver delivers accurate imaging from any angle",
-          "Acoustically Concealed Woofers reduce diffraction for cleaner sound",
-          "GLM DSP room calibration adapts the monitor to any room automatically",
-          "550W Class D power with 113dB max SPL"
-        ],
-        "pros_es": [
-          "Driver coaxial de fuente puntual ofrece imagen precisa desde cualquier ángulo",
-          "Woofers acústicamente ocultos reducen difracción para un sonido más limpio",
-          "La calibración DSP GLM adapta el monitor a cualquier sala automáticamente",
-          "550W de potencia clase D con 113dB SPL máximo"
-        ],
-        "cons": [
-          "Coaxial design has a different tonal character than traditional separated-driver monitors",
-          "GLM calibration requires a measurement mic and software setup",
-          "Premium Genelec pricing"
-        ],
-        "cons_es": [
-          "El diseño coaxial tiene un carácter tonal diferente al de monitores tradicionales con drivers separados",
-          "La calibración GLM requiere un micrófono de medición y configuración de software",
-          "Precio premium de Genelec"
-        ]
-      },
-      {
-        "name": "IK Multimedia iLoud Micro Monitor Pro",
-        "name_es": "IK Multimedia iLoud Micro Monitor Pro",
-        "pros": [
-          "Smallest reference-grade system — fits in a backpack",
-          "ARC 4 room correction system built in",
-          "107 dB SPL and 60Hz bass from coaxial 3.5-inch drivers",
-          "24-bit/192kHz internal processing"
-        ],
-        "pros_es": [
-          "El sistema de referencia más pequeño — cabe en una mochila",
-          "Sistema de corrección de sala ARC 4 incorporado",
-          "107 dB de SPL y 60 Hz de graves desde drivers coaxiales de 3,5 pulgadas",
-          "Procesamiento interno de 24 bits/192 kHz"
-        ],
-        "cons": [
-          "3.5-inch drivers can't match the authority of 5-inch or larger monitors",
-          "Bass extension to 60Hz is impressive for the size but not full-range",
-          "Small size means less headroom for very loud monitoring"
-        ],
-        "cons_es": [
-          "Los drivers de 3,5 pulgadas no igualan la autoridad de monitores de 5 pulgadas o más",
-          "La extensión de graves hasta 60Hz es impresionante para su tamaño pero no es rango completo",
-          "El tamaño pequeño significa menos headroom para monitoreo a alto volumen"
         ]
       }
     ],
