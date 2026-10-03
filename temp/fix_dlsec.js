@@ -1,0 +1,11 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = G.find(x => x.id === 'best-32-channel-digital-mixers');
+const sec = g.sections[8];
+console.log('EN has:', JSON.stringify((sec.content.match(/.{0,60}3U.{0,60}/) || ['?'])[0]));
+console.log('ES has:', JSON.stringify((sec.content_es.match(/.{0,60}3U.{0,60}/) || ['?'])[0]));
+sec.content = sec.content.split('The 3U rack-mount form factor is road-ready.').join('The 4U rack-mount form factor is road-ready.');
+sec.content_es = sec.content_es.split('El formato de rack de 3U está pensado para la carretera.').join('El formato de rack de 4U está pensado para la carretera.');
+fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
+const chk = JSON.stringify(g);
+console.log('3U left:', (chk.match(/3U/g) || []).length);
