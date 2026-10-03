@@ -4828,6 +4828,12 @@ const TEST_SHOP_BTN = {
     }
   },
   
+  552: {
+    prices: {
+      andertons: "£379.00",
+      gear4music: "£339.00"
+    }
+  },
 }
 
 function shortTitle(title) {
