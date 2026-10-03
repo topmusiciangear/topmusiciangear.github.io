@@ -5145,21 +5145,23 @@ const TEST_SHOP_BTN = {
   },
   550: {
     prices: {
-      gear4music: "£150.50",
+      gear4music: "£142.00",
       andertons: "£179.00",
-      musicstore: "€159.00",
+      musicstore: "€179.00",
       amazon: "$229.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B01ET9GCGS?tag=topmusicg-20"
+      amazon: "https://www.amazon.com/dp/B01ET9GCGS?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/prodsearch?q=Behringer+U-Phoria+UMC1820&key=q&form=search"
     }
   },
   551: {
     prices: {
-      zzounds: "$149.00",
+      zzounds: "$199.00",
       amazon: "$199.00",
-      gear4music: "£125.00",
-      andertons: "£115.00"
+      gear4music: "£115.00",
+      andertons: "£114.00",
+      musicstore: "€139.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B09HL4GZF9?tag=topmusicg-20",
