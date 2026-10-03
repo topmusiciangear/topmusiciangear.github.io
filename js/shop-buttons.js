@@ -4836,7 +4836,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B01ET9GCGS?tag=topmusicg-20",
-      zzounds: "https://www.zzounds.com/prodsearch?q=Behringer+U-Phoria+UMC1820&key=q&form=search"
+      zzounds: "https://www.zzounds.com/item--BEHUMC1820"
     }
   },
   551: {
