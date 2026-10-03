@@ -3891,7 +3891,8 @@ const TEST_SHOP_BTN = {
   412: {
     prices: {
       gear4music: "£2,399.00",
-      andertons: "£2,159.00"
+      andertons: "£2,159.00",
+      musicstore: "€1,899.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--PRSSTUDIOLIVE32S",
