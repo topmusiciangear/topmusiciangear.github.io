@@ -1452,6 +1452,29 @@ if (new URLSearchParams(window.location.search).get("dbg") === "1") {
     }, 800);
   });
 }
+// Desktop-site overview compensation (fixed): when the browser shows a visual
+// viewport wider than the layout document (Chrome Android "Desktop site"
+// overview-out), in-flow content stays at document width and leaves an empty
+// gap on the right. NOTE: window.innerWidth tracks the VISUAL viewport in
+// that state (innerWidth==visual), so the layout reference MUST be
+// documentElement.clientWidth. Scale the body to fill the visual viewport.
+// Small screens only.
+function tmgFitVisual() {
+  try {
+    if (!document.body) return;
+    if (window.screen && window.screen.width > 820) return;
+    var layoutW = document.documentElement.clientWidth || 0;
+    var visualW = window.visualViewport ? window.visualViewport.width : layoutW;
+    if (layoutW > 0 && visualW > layoutW + 2) {
+      document.body.style.zoom = (visualW / layoutW).toFixed(3);
+    } else if (document.body.style.zoom) {
+      document.body.style.zoom = "";
+    }
+  } catch (e) {}
+}
+if (window.visualViewport) window.visualViewport.addEventListener("resize", tmgFitVisual);
+window.addEventListener("orientationchange", function() { setTimeout(tmgFitVisual, 350); });
+tmgFitVisual();
 document.addEventListener("DOMContentLoaded", () => {
   dataPromise.then(function() {
   var langParam = new URLSearchParams(window.location.search).get('lang');
