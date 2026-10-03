@@ -5090,7 +5090,7 @@ function shopButtonsTest(p, lang) {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
     const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
-    const storeNote = storeNotes[k] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600;min-width:0">' + t(storeNotes[k][0], storeNotes[k][1]) + '</span>' : '';
+    const storeNote = '';
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
@@ -5190,7 +5190,7 @@ window.tmgStoreButtons = function(p) {
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
         var dispSt = SHOP_LOGO_STYLE[curStore] || 'font-weight:700';
         var dispFlag = SHOP_FLAG[curStore] ? SHOP_FLAG[curStore]() : '';
-        var dispNote = dispNotes[curStore] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600;min-width:0">' + (isEsPage ? dispNotes[curStore][0] : dispNotes[curStore][1]) + '</span>' : '';
+        var dispNote = '';
         var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="white-space:nowrap;flex-shrink:0;' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
         ml2.insertAdjacentHTML('afterbegin', dispRow);
       }

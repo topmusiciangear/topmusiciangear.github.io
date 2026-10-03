@@ -258,7 +258,7 @@ window.tmgStoreButtons = function(p) {
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
         var dispSt = SHOP_LOGO_STYLE[curStore] || 'font-weight:700';
         var dispFlag = SHOP_FLAG[curStore] ? SHOP_FLAG[curStore]() : '';
-        var dispNote = dispNotes[curStore] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600;min-width:0">' + (isEsPage ? dispNotes[curStore][0] : dispNotes[curStore][1]) + '</span>' : '';
+        var dispNote = '';
         var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="white-space:nowrap;flex-shrink:0;' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
         ml2.insertAdjacentHTML('afterbegin', dispRow);
       }
