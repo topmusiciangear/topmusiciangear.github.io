@@ -64570,12 +64570,12 @@
       {
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
+        "skipMedia": true,
         "content": "<strong>Your interface touches every recording you make — at the professional level, conversion quality and driver stability are paramount.</strong> The Universal Audio Apollo x16 Gen 2 delivers 167dB dynamic range conversion with HEXA Core UAD DSP processing. The Unison preamps and real-time UAD plugin processing let you track through vintage compressors and EQs with near-zero latency. The RME Fireface UFX III is the gold standard for rock-solid driver stability — 188 channels over USB 3.0 and ASIO drivers trusted by studios worldwide, 135dB D/A conversion, SteadyClock FS jitter suppression, and TotalMix FX routing. It also records standalone to USB via DURec. Apollo for UAD DSP workflow; RME for rock-solid reliability and routing flexibility.",
         "content_es": "<strong>La interfaz afecta cada grabación — en entorno profesional, la calidad de conversión y la estabilidad de drivers son primordiales.</strong> La Universal Audio Apollo x16 Gen 2 ofrece conversión de 167dB de rango dinámico con procesamiento HEXA Core UAD DSP. Los preamplificadores Unison y el procesamiento de plugins UAD en tiempo real te permiten grabar a través de compresores y EQs vintage con latencia casi nula. La RME Fireface UFX III es la referencia para estabilidad de drivers — 188 canales sobre USB 3.0 y drivers ASIO de confianza en estudios de todo el mundo, conversión D/A de 135dB, supresión de jitter SteadyClock FS y enrutamiento TotalMix FX. También graba independientemente a USB con DURec. Apollo para proceso UAD DSP; RME para fiabilidad a prueba de todo y flexibilidad de enrutamiento.",
         "products": [
           182,
-          183,
-          16
+          183
         ]
       },
       {
@@ -64722,32 +64722,6 @@
           "Sin tecnología de modelado de previo estilo Unison",
           "USB 3.0 no iguala el techo de ancho de banda teórico de Thunderbolt 3",
           "Los efectos integrados son básicos comparados con la biblioteca premium de UAD"
-        ]
-      },
-      {
-        "name": "Universal Audio Apollo Twin X Gen 2",
-        "name_es": "Universal Audio Apollo Twin X Gen 2",
-        "pros": [
-          "Elite-class 10x6 Thunderbolt 3 interface for Mac and Windows",
-          "UAD-2 DUO Core DSP with real-time UAD plugin processing",
-          "Two Unison preamps with Auto-Gain for vintage-style tracking",
-          "24-bit/192kHz conversion for near-zero-latency tracking"
-        ],
-        "pros_es": [
-          "Interfaz de élite 10x6 Thunderbolt 3 para Mac y Windows",
-          "Procesamiento UAD-2 DUO Core con plugins UAD en tiempo real",
-          "Dos preamplificadores Unison con Auto-Gain para grabar con estilo vintage",
-          "Conversión de 24-bit/192kHz para grabar con latencia casi nula"
-        ],
-        "cons": [
-          "Fewer channels than the Apollo x16 — 10x6 caps larger tracking sessions",
-          "Thunderbolt 3 limits compatibility with older computers",
-          "Full DSP potential depends on the UAD plugin ecosystem"
-        ],
-        "cons_es": [
-          "Menos canales que el Apollo x16 — 10x6 limita sesiones de grabación más grandes",
-          "Thunderbolt 3 limita la compatibilidad con ordenadores antiguas",
-          "El potencial DSP completo depende del ecosistema de plugins UAD"
         ]
       }
     ],
