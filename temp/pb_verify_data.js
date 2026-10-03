@@ -305,6 +305,8 @@ const APPROVED_NON_PB = {
   '414': { 'prices.amazon': ['$5,199.00', undefined], 'prices.gear4music': ['£4,499.00', '£3,799.00'], 'prices.musicstore': ['€2,889.92', '€4,499.00'], 'prices.zzounds': [undefined, '$5,999.00'], 'prices.andertons': [undefined, '£3,799.00'], 'urls.andertons': [undefined, 'https://www.andertons.co.uk/allen-heath-sq-6-digital-mixer-2/?search_query=Allen%20%26%20Heath%20SQ-6'], 'oos': ['["andertons"]', undefined] },
   '406': { 'prices.zzounds': ['$1,599.99', '$1,599.00'], 'prices.musicstore': ['€1,503.36', '€1,789.00'] },
   '418': { 'prices.zzounds': [undefined, '$3,099.00'], 'prices.musicstore': ['€3,360.50', '€4,498.00'] },
+  '402': { 'prices.gear4music': ['£1,447.00', '£1,348.00'], 'prices.musicstore': ['€1,306.72', '€1,555.00'], 'urls.zzounds': ['https://www.zzounds.com/a--925521/item--BEHX32', 'https://www.zzounds.com/item--BEHX32'] },
+  '403': { 'prices.gear4music': ['£3,139.00', '£2,969.00'], 'prices.andertons': ['£2,599.00', '£2,659.00'], 'prices.musicstore': ['€2,501.68', '€2,977.00'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
   '371': { 'prices.zzounds': ['$199.99', '$239.99'], 'prices.andertons': ['£149.00', '£118.00'], 'prices.gear4music': ['£155.00', '£125.00'], 'prices.musicstore': ['€167.98', '€159.00'] },
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },

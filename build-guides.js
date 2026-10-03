@@ -3850,34 +3850,8 @@ const TEST_SHOP_BTN = {
       zzounds: "$999.00"
     }
   },
-  402: {
-    prices: {
-      amazon: "$1,999.00",
-      gear4music: "£1,447.00",
-      andertons: "£1,234.00",
-      musicstore: "€1,306.72"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/a--925521/item--BEHX32"
-    },
-    oos: [
-      "zzounds"
-    ]
-  },
-  403: {
-    prices: {
-      gear4music: "£3,139.00",
-      amazon: "$2,499",
-      andertons: "£2,599.00",
-      musicstore: "€2,501.68"
-    },
-    urls: {
-      zzounds: "https://www.zzounds.com/a--925521/item--MIDM32LIVE"
-    },
-    oos: [
-      "zzounds"
-    ]
-  },
+  402: { prices: { amazon: "$1,999.00", gear4music: "£1,348.00", andertons: "£1,234.00", musicstore: "€1,555.00" }, urls: { zzounds: "https://www.zzounds.com/item--BEHX32" }, oos: [ "zzounds" ] },
+  403: { prices: { gear4music: "£2,969.00", amazon: "$2,499", andertons: "£2,659.00", musicstore: "€2,977.00" }, urls: { zzounds: "https://www.zzounds.com/a--925521/item--MIDM32LIVE" }, oos: [ "zzounds" ] },
   406: {
     prices: {
       zzounds: "$1,599.00",
