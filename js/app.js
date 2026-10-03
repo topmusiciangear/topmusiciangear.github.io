@@ -1447,7 +1447,7 @@ if (new URLSearchParams(window.location.search).get("dbg") === "1") {
       function r(el) { if (!el) return "n/a"; var b = el.getBoundingClientRect(); return Math.round(b.width) + "x" + Math.round(b.height); }
       var d = document.createElement("div");
       d.style.cssText = "position:fixed;left:0;top:0;z-index:99999;background:#000;color:#0f0;font:12px monospace;padding:8px;white-space:pre;";
-      d.textContent = "innerWidth=" + window.innerWidth + "\nclientWidth=" + de.clientWidth + "\nscreen=" + window.screen.width + "x" + window.screen.height + "\nvisual=" + (window.visualViewport ? Math.round(window.visualViewport.width) : "n/a") + "\nmain=" + r(document.getElementById("mainContent")) + "\nhero=" + r(document.querySelector(".hero")) + "\nheader=" + r(document.querySelector("header"));
+      d.textContent = "innerWidth=" + window.innerWidth + "\nclientWidth=" + de.clientWidth + "\nscreen=" + window.screen.width + "x" + window.screen.height + "\nvisual=" + (window.visualViewport ? Math.round(window.visualViewport.width) : "n/a") + "\nscale=" + (window.visualViewport ? window.visualViewport.scale : "n/a") + "\nbodyZoom=" + (document.body.style.zoom || "none") + "\nmain=" + r(document.getElementById("mainContent")) + "\nhero=" + r(document.querySelector(".hero")) + "\nheader=" + r(document.querySelector("header"));
       document.body.appendChild(d);
     }, 800);
   });
