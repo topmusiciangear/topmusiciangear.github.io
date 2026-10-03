@@ -5056,7 +5056,7 @@ function shopButtonsTest(p, lang) {
     andertons: () => 'https://www.andertons.co.uk/',
     musicstore: () => 'https://www.musicstore.com/en_OE/EUR'
   };
-  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
+  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]) || ((oosList.indexOf(k) > -1 && storeHome[k]) ? storeHome[k]() : null)); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
