@@ -1,0 +1,10 @@
+const fs = require('fs');
+let t = fs.readFileSync('data/guides.json', 'utf8');
+const i = t.indexOf('"id": "budget-interfaces"');
+const imgIdx = t.indexOf('"image":', i);
+const endIdx = t.indexOf(',', imgIdx);
+const before = t.slice(0, imgIdx);
+const after = t.slice(endIdx);
+const newImg = '"image": "https://r2.gear4music.com/media/60/609791/1200/preview.jpg",';
+fs.writeFileSync('data/guides.json', before + newImg + after);
+console.log('Cover updated');
