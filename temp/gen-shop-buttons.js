@@ -252,14 +252,14 @@ window.tmgStoreButtons = function(p) {
       if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispEl = pb.querySelector('.shop-price');
         var dispPlain = dispEl ? dispEl.getAttribute('data-price') : '';
-        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '');
+        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '');
         var dispNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
         var isEsPage = tmgIsEsDoc();
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
         var dispSt = SHOP_LOGO_STYLE[curStore] || 'font-weight:700';
         var dispFlag = SHOP_FLAG[curStore] ? SHOP_FLAG[curStore]() : '';
-        var dispNote = dispNotes[curStore] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600">' + (isEsPage ? dispNotes[curStore][0] : dispNotes[curStore][1]) + '</span>' : '';
-        var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
+        var dispNote = dispNotes[curStore] ? '<span style="color:#a8a8a8;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0">' + (isEsPage ? dispNotes[curStore][0] : dispNotes[curStore][1]) + '</span>' : '';
+        var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:0 16px;height:40px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="white-space:nowrap;flex-shrink:0;' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
         ml2.insertAdjacentHTML('afterbegin', dispRow);
       }
       }

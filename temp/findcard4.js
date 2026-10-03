@@ -1,0 +1,12 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-5-string-basses.html', 'utf8');
+const start = 467532;
+const listAt = h.indexOf('shop-more-list', start);
+console.log('list at offset:', listAt - start);
+const seg = h.slice(listAt, listAt + 9000);
+const stores = ['amazon', 'reverb', 'zzounds', 'andertons', 'musicstore', 'gear4music'];
+stores.forEach(s => console.log(s, seg.includes('data-store="' + s + '"')));
+const mi = seg.indexOf('data-store="musicstore"');
+if (mi > -1) console.log(seg.slice(mi - 500, mi + 500));
+else console.log('NO musicstore row in this card dropdown');
+console.log('--- card ends at:', h.indexOf('guide-products-cards', listAt) > -1 ? 'more cards follow' : 'last?');
