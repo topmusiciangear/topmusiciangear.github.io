@@ -22,6 +22,61 @@ function sectionTopicProduct(s, prods) {
   return bestCount > 0 ? best : (prods.length ? prods[0] : null);
 }
 
+var TMG_STORE_NAMES = { amazon: 'Amazon', zzounds: 'zZounds', gear4music: 'Gear4Music', andertons: 'Andertons', musicstore: 'Music Store', reverb: 'Reverb', pluginboutique: 'Plugin Boutique', hollyland: 'Hollyland', official: 'Official Store' };
+function tmgPriceParts(priceStr) {
+  if (!priceStr) return null;
+  var num = parseFloat(String(priceStr).replace(/[,]/g, '').replace(/[^0-9.]/g, ''));
+  if (!isFinite(num)) return null;
+  return { price: num, priceCurrency: String(priceStr).indexOf('€') > -1 ? 'EUR' : String(priceStr).indexOf('£') > -1 ? 'GBP' : 'USD' };
+}
+// Multi-store offers for SEO: one Offer per store (with seller + real availability)
+// plus an AggregateOffer (low/high/count) over the largest same-currency group.
+function tmgOffers(p, fallbackUrl) {
+  var cfg = (typeof TEST_SHOP_BTN !== 'undefined' ? TEST_SHOP_BTN[p.id] : null) || {};
+  var pr = cfg.prices || {};
+  var st = getResolvedStores(p);
+  var oos = cfg.oos || [], na = cfg.na || [];
+  var isHolly = !!st.hollyland;
+  var offers = [];
+  function pushOffer(storeKey, rawUrl, priceStr) {
+    var url = storeKey === 'hollyland' ? wrapAffiliate('hollyland', rawUrl || '') : wrapAffiliate(storeKey, rawUrl || '');
+    if (!url) return;
+    var o = { "@type": "Offer", "availability": (oos.indexOf(storeKey) > -1 || na.indexOf(storeKey) > -1) ? "https://schema.org/OutOfStock" : "https://schema.org/InStock", "url": url };
+    var pp = tmgPriceParts(priceStr);
+    if (pp) { o.price = pp.price; o.priceCurrency = pp.priceCurrency; }
+    if (TMG_STORE_NAMES[storeKey]) o.seller = { "@type": "Organization", "name": TMG_STORE_NAMES[storeKey] };
+    offers.push(o);
+  }
+  if (isHolly) {
+    var holly = hollyPickEntry(cfg, hollyDefaultRegion());
+    pushOffer('hollyland', holly ? holly.u || '' : '', holly ? holly.p || '' : '');
+  } else {
+    ['amazon', 'zzounds', 'gear4music', 'andertons', 'musicstore', 'reverb', 'pluginboutique'].forEach(function(k) {
+      if (k === 'amazon' && p.category === 'plugins') return;
+      var u = (cfg.urls && cfg.urls[k]) || st[k] || '';
+      if (!u) return;
+      pushOffer(k, u, pr[k] || '');
+    });
+  }
+  if (!offers.length) {
+    var anyUrl = st[Object.keys(st)[0]] || '';
+    offers.push({ "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl || fallbackUrl || '' });
+  }
+  var priced = offers.filter(function(o) { return isFinite(o.price); });
+  if (priced.length >= 2) {
+    var groups = {};
+    priced.forEach(function(o) { (groups[o.priceCurrency] = groups[o.priceCurrency] || []).push(o); });
+    var gkeys = Object.keys(groups).sort(function(a, b) {
+      if (groups[b].length !== groups[a].length) return groups[b].length - groups[a].length;
+      if (a === 'USD') return -1; if (b === 'USD') return 1; return 0;
+    });
+    var g = groups[gkeys[0]];
+    var nums = g.map(function(o) { return o.price; });
+    return [{ "@type": "AggregateOffer", "offerCount": g.length, "lowPrice": Math.min.apply(null, nums), "highPrice": Math.max.apply(null, nums), "priceCurrency": gkeys[0] }].concat(offers);
+  }
+  return offers.length === 1 ? offers[0] : offers;
+}
+
 function criticalCss() {
   return [
     '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:swap;font-weight:400 900;font-style:normal}',
@@ -2507,7 +2562,7 @@ const TEST_SHOP_BTN = {
   264: {
     prices: {
       gear4music: "£229.99",
-      amazon: "$229.99"
+      amazon: "$349.99"
     },
     oos: [
       "andertons"
@@ -5731,30 +5786,7 @@ function buildGuidePage(guide, lang, idx) {
           "negativeNotes": cn
         }
       };
-      (function(){
-        var cfg = TEST_SHOP_BTN[p.id] || {};
-        var pr = cfg.prices || {};
-        var st = getResolvedStores(p);
-        var isPlugins = p.category === 'plugins';
-        var isDaw = p.category === 'daw';
-        var isLogic = isDaw && !!st.official;
-        var isHolly = !!st.hollyland;
-        var dawHasAmazon = isDaw && !isLogic && pr.amazon;
-        var holly = isHolly ? hollyPickEntry(cfg, hollyDefaultRegion()) : null;
-        var primaryStore = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
-        var priceStr = isHolly ? (holly ? holly.p || '' : '') : (pr[primaryStore] || pr[Object.keys(pr)[0]] || '');
-        var priceNum = priceStr ? parseFloat(priceStr.replace(/[,]/g, '').replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = isHolly ? wrapAffiliate('hollyland', holly ? holly.u || '' : '') : wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
-        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : (primaryStore === 'pluginboutique' ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD');
-        if (offerUrl && priceNum) {
-          listItem.item.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": priceCurr, "availability": "https://schema.org/InStock", "url": offerUrl };
-        } else if (offerUrl) {
-          listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
-        } else {
-          var anyUrl = st[Object.keys(st)[0]] || '';
-          listItem.item.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl || 'https://topmusiciangear.com/guides/' + guide.id + '.html' };
-        }
-      })();
+      listItem.item.offers = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
       if (agg) listItem.item.aggregateRating = agg;
       if (reviewEnts.length) listItem.item.review = reviewEnts;
       items.push(listItem);
@@ -5766,30 +5798,7 @@ function buildGuidePage(guide, lang, idx) {
         "positiveNotes": pn,
         "negativeNotes": cn
       };
-      (function(){
-        var cfg = TEST_SHOP_BTN[p.id] || {};
-        var pr = cfg.prices || {};
-        var st = getResolvedStores(p);
-        var isPlugins = p.category === 'plugins';
-        var isDaw = p.category === 'daw';
-        var isLogic = isDaw && !!st.official;
-        var isHolly = !!st.hollyland;
-        var dawHasAmazon = isDaw && !isLogic && pr.amazon;
-        var holly = isHolly ? hollyPickEntry(cfg, hollyDefaultRegion()) : null;
-        var primaryStore = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : 'amazon';
-        var priceStr = isHolly ? (holly ? holly.p || '' : '') : (pr[primaryStore] || pr[Object.keys(pr)[0]] || '');
-        var priceNum = priceStr ? parseFloat(priceStr.replace(/[,]/g, '').replace(/[^0-9.]/g, '')) : null;
-        var offerUrl = isHolly ? wrapAffiliate('hollyland', holly ? holly.u || '' : '') : wrapAffiliate(primaryStore, st[primaryStore] || st.official || '');
-        var priceCurr = isHolly ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : (primaryStore === 'pluginboutique' ? (priceStr.indexOf('€') > -1 ? 'EUR' : priceStr.indexOf('£') > -1 ? 'GBP' : 'USD') : 'USD');
-        if (offerUrl && priceNum) {
-          pSchema.offers = { "@type": "Offer", "price": priceNum, "priceCurrency": priceCurr, "availability": "https://schema.org/InStock", "url": offerUrl };
-        } else if (offerUrl) {
-          pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": offerUrl };
-        } else {
-          var anyUrl = st[Object.keys(st)[0]] || '';
-          pSchema.offers = { "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl || 'https://topmusiciangear.com/guides/' + guide.id + '.html' };
-        }
-      })();
+      pSchema.offers = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
       if (agg) pSchema.aggregateRating = agg;
       if (reviewEnts.length) pSchema.review = reviewEnts;
       productSchemas.push(pSchema);
