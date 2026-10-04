@@ -5797,7 +5797,7 @@ function buildGuidePage(guide, lang, idx) {
   });
 
   function guideFaqs(guide) {
-    if (guide.faq) return guide.faq;
+    if (guide.faq && guide.faq.length) return guide.faq;
     if (guide.featuredSnippet && guide.featuredSnippet.faq_q1_en) {
       return [1,2,3,4,5,6,7,8].map(function(i) {
         return { q: guide.featuredSnippet['faq_q' + i + '_en'], q_es: guide.featuredSnippet['faq_q' + i + '_es'], a: guide.featuredSnippet['faq_a' + i + '_en'], a_es: guide.featuredSnippet['faq_a' + i + '_es'] };
