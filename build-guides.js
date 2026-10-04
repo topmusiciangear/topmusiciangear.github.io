@@ -1336,9 +1336,9 @@ const TEST_SHOP_BTN = {
   127: {
     prices: {
       amazon: "$1,099.00",
-      zzounds: "$999.00",
-      andertons: "£765.00",
-      gear4music: "£829.00",
+      zzounds: "$1,099.00",
+      andertons: "£799.00",
+      gear4music: "£799.00",
       musicstore: "€868.00"
     }
   },
@@ -1891,7 +1891,10 @@ const TEST_SHOP_BTN = {
       zzounds: "$1,699.00",
       andertons: "£1,399.00",
       gear4music: "£1,399.00",
-      musicstore: "€1,129.16"
+      musicstore: "€1,599.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-Live-III/art-SYN0009363-000"
     }
   },
   191: {
@@ -2007,16 +2010,16 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$599.99",
       zzounds: "$599.99",
-      andertons: "£479.00",
-      gear4music: "£549.00",
-      musicstore: "€649.00"
+      andertons: "£499.00",
+      gear4music: "£526.00",
+      musicstore: "€599.00"
     }
   },
   203: {
     prices: {
       amazon: "$228.50",
       zzounds: "$229.99",
-      gear4music: "£219.00",
+      gear4music: "£199.00",
       musicstore: "€259.00",
       andertons: "£219.00"
     }
@@ -2036,7 +2039,7 @@ const TEST_SHOP_BTN = {
       amazon: "$449.00",
       zzounds: "$499.00",
       andertons: "£439.00",
-      musicstore: "€419.33"
+      musicstore: "€495.00"
     }
   },
   206: {
@@ -2514,16 +2517,16 @@ const TEST_SHOP_BTN = {
       amazon: "$249.99",
       zzounds: "$199.99",
       andertons: "£249.00",
-      musicstore: "€335.29"
+      musicstore: "€269.00"
     }
   },
   259: {
     prices: {
-      gear4music: "£414.00",
+      gear4music: "£399.00",
       amazon: "$499.99",
       zzounds: "$599.99",
       andertons: "£399.00",
-      musicstore: "€503.36"
+      musicstore: "€498.00"
     }
   },
   260: {
