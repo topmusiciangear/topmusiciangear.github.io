@@ -3,9 +3,9 @@ const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
 const G = require(F);
 // fixes embedded below (batches ES1..ES3)
 const FIXES = [];
-FIXES.push(...require('C:/Users/Daniel/projects/topmusiciangear/temp/es1.json'));
-FIXES.push(...require('C:/Users/Daniel/projects/topmusiciangear/temp/es2.json'));
-FIXES.push(...require('C:/Users/Daniel/projects/topmusiciangear/temp/es3.json'));
+FIXES.push(...require('C:/Users/Daniel/projects/topmusiciangear/temp/deep1.json'));
+FIXES.push(...require('C:/Users/Daniel/projects/topmusiciangear/temp/deep2.json'));
+FIXES.push(...require('C:/Users/Daniel/projects/topmusiciangear/temp/deep3.json'));
 function* walk(o, path) {
   if (typeof o === 'string') { yield [path, o]; return; }
   if (Array.isArray(o)) {
@@ -26,6 +26,7 @@ const byGuide = {};
 G.forEach(g => { byGuide[g.id] = g; });
 let ok = 0; const problems = [];
 FIXES.forEach(f => {
+  if (!f || typeof f.guide !== 'string' || typeof f.old !== 'string' || typeof f.new !== 'string') return;
   const g = byGuide[f.guide];
   if (!g) { problems.push(f.guide + ' NOGUIDE :: ' + f.old.slice(0, 40)); return; }
   const hits = [];
