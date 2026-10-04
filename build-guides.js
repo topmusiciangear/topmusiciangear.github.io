@@ -23,6 +23,24 @@ function sectionTopicProduct(s, prods) {
 }
 
 var TMG_STORE_NAMES = { amazon: 'Amazon', zzounds: 'zZounds', gear4music: 'Gear4Music', andertons: 'Andertons', musicstore: 'Music Store', reverb: 'Reverb', pluginboutique: 'Plugin Boutique', hollyland: 'Hollyland', official: 'Official Store' };
+var TMG_CAT_NAMES = {
+  microphones: ['Microphones', 'Micrófonos'], strings: ['Strings', 'Cuerdas'],
+  keyboards: ['Keyboards', 'Teclados'], interfaces: ['Interfaces', 'Interfaces'],
+  monitors: ['Monitors', 'Monitores'], headphones: ['Headphones', 'Auriculares'],
+  'drum-machine': ['Drum Machines', 'Máquinas de batería'], guitars: ['Guitars', 'Guitarras'],
+  basses: ['Basses', 'Bajos'], tres: ['Cuban Tres', 'Tres Cubano'],
+  plugins: ['Plugins', 'Plugins'], accessories: ['Accessories', 'Accesorios'],
+  amps: ['Amps', 'Amplificadores'], pedals: ['Pedales', 'Pedales'],
+  live_sound: ['Live Sound', 'Sonido en vivo'], mixers: ['Mixers', 'Mezcladores'],
+  daw: ['DAW', 'DAW'], streaming: ['Streaming & Creators', 'Streaming y creadores'],
+  production: ['Top Gear', 'Top Gear']
+};
+function tmgCatCrumb(cat, isEs) {
+  var e = TMG_CAT_NAMES[cat];
+  var name = e ? (isEs ? e[1] : e[0]) : String(cat || '').replace(/_/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+  var url = (isEs ? '/es/' : '/') + '?cat=' + encodeURIComponent(cat || '') + '#guides';
+  return { name: name, url: url };
+}
 function tmgPriceParts(priceStr) {
   if (!priceStr) return null;
   var num = parseFloat(String(priceStr).replace(/[,]/g, '').replace(/[^0-9.]/g, ''));
@@ -5888,7 +5906,8 @@ ${ogMeta}
   ${productSchemas.length ? jsonLdScript({ "@context": "https://schema.org", "@graph": productSchemas }) : ''}
   ${jsonLdScript({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/" },
-    { "@type": "ListItem", "position": 2, "name": title, "item": canonical }
+    { "@type": "ListItem", "position": 2, "name": tmgCatCrumb(guide.category, isEs).name, "item": "https://topmusiciangear.com" + tmgCatCrumb(guide.category, isEs).url },
+    { "@type": "ListItem", "position": 3, "name": title, "item": canonical }
   ]})}
   ${jsonLdScript(genFaq(guide, isEs))}
   ${guide.steps && guide.steps.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "HowTo", "name": title, "description": guideDesc(guide, intro, isEs), "step": guide.steps.map(function(s, i) { return { "@type": "HowToStep", "position": i + 1, "name": isEs && s.name_es ? s.name_es : s.name, "text": isEs && s.text_es ? s.text_es : s.text, "url": s.url || canonical }; }) }) : ''}
@@ -5961,10 +5980,10 @@ ${ogMeta}
 
     <div class="guide-detail">
       <nav class="guide-breadcrumb" aria-label="Breadcrumb">
-        <a href="${isEs ? '/es/' : '/'}">Home</a> / <a href="${isEs ? '/es/#guides' : '/#guides'}">${isEs ? 'Guías' : 'Guides'}</a> / <span>${title}</span>
+        <a href="${isEs ? '/es/' : '/'}">Home</a> / <a href="${tmgCatCrumb(guide.category, isEs).url}">${tmgCatCrumb(guide.category, isEs).name}</a> / <span>${title}</span>
       </nav>
       <div class="guide-back-row">
-        <a href="${isEs ? '/es/' : '/?cat=' + guide.category + '#guides'}" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <a href="${isEs ? '/es/' : '/'}?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
