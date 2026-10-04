@@ -4838,10 +4838,14 @@ const TEST_SHOP_BTN = {
   },
   553: {
     prices: {
-      gear4music: "£189.00"
+      gear4music: "£189.00",
+      andertons: "£189.00",
+      musicstore: "€215.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B07K2JLS56"
+      amazon: "https://www.amazon.com/dp/B07K2JLS56",
+      andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/?search_query=Fender%20CN-60S",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000"
     }
   },
   554: {

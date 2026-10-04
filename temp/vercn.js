@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/beginner-guitar.html', 'utf8');
+const i = h.indexOf('Fender CN-60S (Nylon): A Closer Look');
+const j = h.indexOf('guide-section-heading', i + 50);
+const seg = h.slice(i, j);
+const rows = [...seg.matchAll(/data-store="([a-z]+)"/g)].map(m => m[1]);
+console.log('filas:', rows.join(','));
+console.log('MS 215:', seg.includes('215'));
+console.log('And 189:', seg.includes('andertons'));
+console.log('MS url:', seg.includes('GIT0049159'));
