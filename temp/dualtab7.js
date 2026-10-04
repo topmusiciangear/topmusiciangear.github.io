@@ -1,0 +1,11 @@
+const G = require('C:/Users/Daniel/projects/topmusiciangear/data/guides.json');
+const g = G.find(x => x.id === 'portable-interfaces');
+console.log('PT keys:', Object.keys(g.productTable).join(','));
+console.log('has headers:', Array.isArray(g.productTable.headers));
+const fs = require('fs');
+const en = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/portable-interfaces.html', 'utf8');
+console.log('EN guide-comparison-table:', en.includes('guide-comparison-table'));
+console.log('EN Ultra:', en.includes('Ultra-Compact'));
+const es = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/portable-interfaces_es.html', 'utf8');
+const i = es.indexOf('guide-comparison-table');
+console.log('ES context:', es.slice(Math.max(0, i - 600), i).replace(/<[^>]*>/g, '|').slice(-300));

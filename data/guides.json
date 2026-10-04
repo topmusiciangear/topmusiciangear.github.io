@@ -457,7 +457,8 @@
               "value": "XLR, TRS",
               "value_es": "XLR, TRS"
             }
-          ]
+          ],
+          "label_es": "Conectividad"
         },
         {
           "label": "Key Specs",
@@ -494,7 +495,8 @@
               "value": "8\" cone woofer, 1\" dome tweeter, 120 W bi-amp",
               "value_es": "Woofer 8\" cono, tweeter 1\" cúpula, 120 W bi-amp"
             }
-          ]
+          ],
+          "label_es": "Datos clave"
         }
       ]
     },
@@ -801,7 +803,8 @@
         "pros_es": [
           "Nivel de ruido propio ridículamente bajo (4 dBA)",
           "Incluye kit completo con montura antichoque y filtro antipop premium",
-          "Cápsula 1\" muy equilibrada"
+          "Cápsula 1\" muy equilibrada",
+          "Gran relación calidad-precio"
         ],
         "cons_es": [
           "Patrón polar cardioide fijo",
@@ -940,8 +943,8 @@
     "category": "interfaces",
     "image": "https://r2.gear4music.com/media/97/977881/1200/preview.jpg",
     "badge": "topQuality",
-    "intro": "An audio interface is the bridge between your instruments and your computer. It converts analog signals (from microphones and guitars) into digital data your DAW can record, and converts digital audio back into analog so you can hear it through headphones or speakers. This guide covers every type of interface — from budget USB sticks to professional rackmount units.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>USB Bus-Powered</th><th>Desktop</th><th>En rack</th><th>All-in-One</th></tr></thead><tbody><tr><td class=\"label\">Channels</td><td class=\"val\">1–2 in</td><td class=\"val\">2–4 in</td><td class=\"val\">8–64 in</td><td class=\"val\">2–4 in</td></tr><tr><td class=\"label\">Best for</td><td class=\"val\">Podcasting, solo</td><td class=\"val\">Home studio</td><td class=\"val\">Professional</td><td class=\"val\">Streaming, podcasting</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$50–$200</td><td class=\"val\">$200–$600</td><td class=\"val\">$500–$2,000+</td><td class=\"val\">$300–$800</td></tr></tbody></table>",
-    "intro_es": "Una interfaz de audio es el puente entre los instrumentos y tu ordenador. Convierte señales analógicas (de micrófonos y guitarras) en datos digitales que el DAW puede grabar, y convierte audio digital de vuelta a analógico para que puedas escucharlo por auriculares o altavoces. Esta guía cubre cada tipo de interfaz — desde interfaces USB compactas económicas hasta unidades rackmount profesionales.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Alimentación por USB</th><th>Sobremesa</th><th>En rack</th><th>Todos en Uno</th></tr></thead><tbody><tr><td class=\"label\">Canales</td><td class=\"val\">1–2 entradas</td><td class=\"val\">2–4 entradas</td><td class=\"val\">8–64 entradas</td><td class=\"val\">2–4 entradas</td></tr><tr><td class=\"label\">Ideal para</td><td class=\"val\">Podcasting, solista</td><td class=\"val\">Estudio casero</td><td class=\"val\">Profesional</td><td class=\"val\">Streaming, podcasting</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$50–$200</td><td class=\"val\">$200–$600</td><td class=\"val\">$500–$2,000+</td><td class=\"val\">$300–$800</td></tr></tbody></table>",
+    "intro": "An audio interface is the bridge between your instruments and your computer. It converts analog signals (from microphones and guitars) into digital data your DAW can record, and converts digital audio back into analog so you can hear it through headphones or speakers. This guide covers every type of interface — from budget USB sticks to professional rackmount units.",
+    "intro_es": "Una interfaz de audio es el puente entre los instrumentos y tu ordenador. Convierte señales analógicas (de micrófonos y guitarras) en datos digitales que el DAW puede grabar, y convierte audio digital de vuelta a analógico para que puedas escucharlo por auriculares o altavoces. Esta guía cubre cada tipo de interfaz — desde interfaces USB compactas económicas hasta unidades rackmount profesionales.",
     "sections": [
       {
         "heading": "Budget Audio Interfaces (Under $300)",
@@ -2429,8 +2432,8 @@
     "category": "microphones",
     "image": "https://r2.gear4music.com/media/98/984194/1200/preview.jpg",
     "badge": "legend",
-    "intro": "Choosing the right microphone depends on what you record and how you work. This guide breaks down the five main microphone categories so you can pick the right type before comparing models.\n<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Dynamic</th><th>Condenser</th><th>USB</th><th>Live &amp; Stage</th><th>Ribbon</th></tr></thead><tbody><tr><td><strong>How it works</strong></td><td>Moving coil diaphragm</td><td>Electrified diaphragm</td><td>Built-in digital converter</td><td>Rugged moving coil built for the road</td><td>Thin metal ribbon</td></tr><tr><td><strong>Phantom power?</strong></td><td>No</td><td>Yes (48V)</td><td>No (bus-powered)</td><td>No</td><td>Some models</td></tr><tr><td><strong>Best for</strong></td><td>Live vocals, amps, drums</td><td>Studio vocals, acoustic, overheads</td><td>Streaming, podcasting, home use</td><td>Live vocals, monitors, loud stages</td><td>Vocals, strings, brass (vintage warmth)</td></tr><tr><td><strong>Sensitivity</strong></td><td>Low — rejects room noise</td><td>High — captures detail</td><td>Varies by model</td><td>Low — rejects stage noise and feedback</td><td>High — natural, warm tone</td></tr><tr><td><strong>Durability</strong></td><td>Extremely rugged</td><td>Fragile — handle with care</td><td>Varies</td><td>Extremely rugged</td><td>Fragile — avoid wind blasts</td></tr><tr><td><strong>Price range</strong></td><td>$100–$450</td><td>$100–$3,750</td><td>$50–$250</td><td>$99–$500</td><td>$100–$5,000+</td></tr></tbody></table>",
-    "intro_es": "Elegir el micrófono correcto depende de lo que grabes y cómo trabajes. Esta guía desglosa las cinco categorías principales de micrófonos para que puedas elegir el tipo correcto antes de comparar modelos. <table class=\"guide-comparison-table\"><thead><tr><th></th><th>Dinámico</th><th>Condensador</th><th>USB</th><th>Escenario</th><th>Cinta</th></tr></thead><tbody><tr><td><strong>Cómo funciona</strong></td><td>Bobina móvil con diafragma</td><td>Diafragma electrificado</td><td>Convertidor digital integrado</td><td>Bobina móvil robusta hecha para la gira</td><td>Cinta metálica delgada</td></tr><tr><td><strong>¿Alimentación phantom?</strong></td><td>No</td><td>Sí (48V)</td><td>No (alimentado por bus)</td><td>No</td><td>Algunos modelos</td></tr><tr><td><strong>Ideal para</strong></td><td>Voces en vivo, amplificadores, batería</td><td>Voces de estudio, acústicos, overheads</td><td>Streaming, podcasts, uso casero</td><td>Voces en vivo, monitores, escenarios ruidosos</td><td>Voces, cuerdas, metales (calidez vintage)</td></tr><tr><td><strong>Sensibilidad</strong></td><td>Baja — rechaza ruido de sala</td><td>Alta — captura detalle</td><td>Varía por modelo</td><td>Baja — rechaza ruido y realimentación de escenario</td><td>Alta — tono natural y cálido</td></tr><tr><td><strong>Durabilidad</strong></td><td>Extremadamente resistente</td><td>Frágil — manejar con cuidado</td><td>Varía</td><td>Extremadamente resistente</td><td>Frágil — evitar ráfagas de aire</td></tr><tr><td><strong>Rango de precio</strong></td><td>$100–$450</td><td>$100–$3,750</td><td>$50–$250</td><td>$99–$500</td><td>$100–$5,000+</td></tr></tbody></table>",
+    "intro": "Choosing the right microphone depends on what you record and how you work. This guide breaks down the five main microphone categories so you can pick the right type before comparing models.\n",
+    "intro_es": "Elegir el micrófono correcto depende de lo que grabes y cómo trabajes. Esta guía desglosa las cinco categorías principales de micrófonos para que puedas elegir el tipo correcto antes de comparar modelos. ",
     "sections": [
       {
         "heading": "Dynamic Microphones: Dependable and Rugged",
@@ -3090,7 +3093,8 @@
         "pros_es": [
           "Nivel de ruido propio ridículamente bajo (4 dBA)",
           "Incluye kit completo con montura antichoque y filtro antipop premium",
-          "Cápsula 1\" muy equilibrada"
+          "Cápsula 1\" muy equilibrada",
+          "Gran relación calidad-precio"
         ],
         "cons_es": [
           "Patrón polar cardioide fijo",
@@ -3618,7 +3622,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "values": [
             {
               "value": "5\"",
@@ -3672,7 +3676,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "values": [
             {
               "value": "1\"",
@@ -4369,8 +4373,8 @@
     "category": "plugins",
     "image": "https://r2.gear4music.com/media/137/1376381/1200/preview.jpg",
     "badge": "premium",
-    "intro": "Plugins are the backbone of modern production — from EQs and compressors to synthesizers and effects, they replace racks of hardware and open up sounds that analog gear can't. This guide is your starting point: every category at a glance, with dedicated deep-dives linked below for mixing, mastering, vocals, and more.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Free</th><th>Budget ($10–$50)</th><th>Premium ($50–$500)</th><th>Hardware Modeled</th></tr></thead><tbody><tr><td class=\"label\">EQ</td><td class=\"val\">TDR Nova</td><td class=\"val\">FabFilter Pro-Q</td><td class=\"val\">Slate VTM</td><td class=\"val\">Waves Puigtec</td></tr><tr><td class=\"label\">Compressor</td><td class=\"val\">TDR Kotelnikov</td><td class=\"val\">Waves CLA-2A</td><td class=\"val\">FabFilter Pro-C</td><td class=\"val\">Universal Audio 1176</td></tr><tr><td class=\"label\">Reverb</td><td class=\"val\">Valhalla Supermassive</td><td class=\"val\">Valhalla VintageVerb</td><td class=\"val\">FabFilter Pro-R</td><td class=\"val\">Lexicon 224</td></tr></tbody></table>",
-    "intro_es": "Los plugins son la columna vertebral de la producción moderna — desde ecualizadores y compresores hasta sintetizadores y efectos, reemplazan racks de hardware y abren sonidos que el equipo analógico no puede ofrecer. Esta guía es tu punto de partida: cada categoría de un vistazo, con enlaces a guías dedicadas de mezcla, masterización, vocales y más.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Gratis</th><th>Económico ($10–$50)</th><th>Premium ($50–$500)</th><th>Modelado de Hardware</th></tr></thead><tbody><tr><td class=\"label\">EQ</td><td class=\"val\">TDR Nova</td><td class=\"val\">FabFilter Pro-Q</td><td class=\"val\">Slate VTM</td><td class=\"val\">Waves Puigtec</td></tr><tr><td class=\"label\">Compresor</td><td class=\"val\">TDR Kotelnikov</td><td class=\"val\">Waves CLA-2A</td><td class=\"val\">FabFilter Pro-C</td><td class=\"val\">Universal Audio 1176</td></tr><tr><td class=\"label\">Reverb</td><td class=\"val\">Valhalla Supermassive</td><td class=\"val\">Valhalla VintageVerb</td><td class=\"val\">FabFilter Pro-R</td><td class=\"val\">Lexicon 224</td></tr></tbody></table>",
+    "intro": "Plugins are the backbone of modern production — from EQs and compressors to synthesizers and effects, they replace racks of hardware and open up sounds that analog gear can't. This guide is your starting point: every category at a glance, with dedicated deep-dives linked below for mixing, mastering, vocals, and more.",
+    "intro_es": "Los plugins son la columna vertebral de la producción moderna — desde ecualizadores y compresores hasta sintetizadores y efectos, reemplazan racks de hardware y abren sonidos que el equipo analógico no puede ofrecer. Esta guía es tu punto de partida: cada categoría de un vistazo, con enlaces a guías dedicadas de mezcla, masterización, vocales y más.",
     "sections": [
       {
         "heading": "Free Plugins That Rival Premium",
@@ -10021,8 +10025,8 @@
     "category": "interfaces",
     "image": "https://r2.gear4music.com/media/60/609791/1200/preview.jpg",
     "badge": "recommended",
-    "intro": "A portable audio interface needs to do one thing well: work reliably wherever you are. Whether you're recording in a hotel room, backstage at a gig, or at a friend's house, it needs to be compact, bus-powered (no wall outlet needed), and sound good enough for professional work. This guide covers the best options for traveling producers.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Ultra-Compact</th><th>Compact 2-Ch</th><th>Compact 4-Ch</th></tr></thead><tbody><tr><td class=\"label\">Inputs</td><td class=\"val\">1–2</td><td class=\"val\">2</td><td class=\"val\">4</td></tr><tr><td class=\"label\">Best for</td><td class=\"val\">Podcast, vocals</td><td class=\"val\">Solo recording</td><td class=\"val\">Small ensemble</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$50–$130</td><td class=\"val\">$130–$300</td><td class=\"val\">$300–$600</td></tr></tbody></table>",
-    "intro_es": "Una interfaz de audio portátil necesita hacer una cosa bien: funcionar de manera confiable donde sea que estés. Ya estés grabando en una habitación de hotel, backstage en un concierto, o en casa de un amigo, necesita ser compacta, alimentada por bus (sin necesidad de enchufe) y sonar lo suficientemente bien para trabajo profesional. Esta guía cubre las mejores opciones para productores que viajan.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Ultra-Compacta</th><th>Compacta 2-Canales</th><th>Compacta 4-Canales</th></tr></thead><tbody><tr><td class=\"label\">Entradas</td><td class=\"val\">1–2</td><td class=\"val\">2</td><td class=\"val\">4</td></tr><tr><td class=\"label\">Ideal para</td><td class=\"val\">Podcast, voces</td><td class=\"val\">Grabación solista</td><td class=\"val\">Pequeño ensemble</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$50–$130</td><td class=\"val\">$130–$300</td><td class=\"val\">$300–$600</td></tr></tbody></table>",
+    "intro": "A portable audio interface needs to do one thing well: work reliably wherever you are. Whether you're recording in a hotel room, backstage at a gig, or at a friend's house, it needs to be compact, bus-powered (no wall outlet needed), and sound good enough for professional work. This guide covers the best options for traveling producers.",
+    "intro_es": "Una interfaz de audio portátil necesita hacer una cosa bien: funcionar de manera confiable donde sea que estés. Ya estés grabando en una habitación de hotel, backstage en un concierto, o en casa de un amigo, necesita ser compacta, alimentada por bus (sin necesidad de enchufe) y sonar lo suficientemente bien para trabajo profesional. Esta guía cubre las mejores opciones para productores que viajan.",
     "sections": [
       {
         "heading": "What Makes a Good Portable Interface",
@@ -10274,7 +10278,7 @@
       "rows": [
         {
           "label": "Best For",
-          "label_es": "Best For",
+          "label_es": "Ideal para",
           "values": [
             {
               "value": "Pro mobile recording",
@@ -10358,7 +10362,7 @@
         },
         {
           "label": "Type",
-          "label_es": "Type",
+          "label_es": "Tipo",
           "values": [
             {
               "value": "Audio interface",
@@ -10400,7 +10404,7 @@
         },
         {
           "label": "Inputs / Outputs",
-          "label_es": "Inputs / Outputs",
+          "label_es": "Entradas / Salidas",
           "values": [
             {
               "value": "4-in / 4-out (12 total)",
@@ -10442,7 +10446,7 @@
         },
         {
           "label": "Preamps",
-          "label_es": "Preamps",
+          "label_es": "Previos",
           "values": [
             {
               "value": "2, +65 dB",
@@ -10484,7 +10488,7 @@
         },
         {
           "label": "Sample Rate",
-          "label_es": "Sample Rate",
+          "label_es": "Frecuencia de muestreo",
           "values": [
             {
               "value": "192 kHz",
@@ -10526,7 +10530,7 @@
         },
         {
           "label": "Bit Depth",
-          "label_es": "Bit Depth",
+          "label_es": "Profundidad de bits",
           "values": [
             {
               "value": "24-bit",
@@ -10568,7 +10572,7 @@
         },
         {
           "label": "Connectivity",
-          "label_es": "Connectivity",
+          "label_es": "Conectividad",
           "values": [
             {
               "value": "USB 2.0",
@@ -10610,7 +10614,7 @@
         },
         {
           "label": "Special Features",
-          "label_es": "Special Features",
+          "label_es": "Características especiales",
           "values": [
             {
               "value": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
@@ -10634,7 +10638,7 @@
             },
             {
               "value": "Smartgain, SmartClick, bus power",
-              "value_es": "Smartgain, SmartClick, bus power"
+              "value_es": "Smartgain, SmartClick, alimentación por bus"
             },
             {
               "value": "76 (derivado 1176), Vintage, MIDI",
@@ -13429,7 +13433,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "values": [
             {
               "value": "5\"",
@@ -13459,7 +13463,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "values": [
             {
               "value": "1\"",
@@ -14017,7 +14021,8 @@
               "value": "Monitor Stands",
               "value_es": "Soportes de monitor"
             }
-          ]
+          ],
+          "label_es": "Categoría"
         },
         {
           "label": "Best For",
@@ -14054,7 +14059,8 @@
               "value": "Heavy studio monitors on stands",
               "value_es": "Monitores pesados de estudio en soporte"
             }
-          ]
+          ],
+          "label_es": "Ideal para"
         },
         {
           "label": "Key Feature",
@@ -14091,7 +14097,8 @@
               "value": "Height 36–54\", 100 lb capacity, cable mgmt",
               "value_es": "Altura 91–137 cm, capacidad 45 kg, gestión cables"
             }
-          ]
+          ],
+          "label_es": "Característica destacada"
         },
         {
           "label": "Estimated Price",
@@ -15400,7 +15407,8 @@
               "value": "Delay + Reverb Wet-FX Generator",
               "value_es": "Generador Wet-FX Delay + Reverb"
             }
-          ]
+          ],
+          "label_es": "Tipo"
         },
         {
           "label": "Best For",
@@ -15457,7 +15465,8 @@
               "value": "Rhythmic echoes + evolving spaces in one",
               "value_es": "Ecos rítmicos + espacios evolutivos en uno"
             }
-          ]
+          ],
+          "label_es": "Ideal para"
         },
         {
           "label": "Estimated Price",
@@ -15572,7 +15581,8 @@
               "value": "16-step Echo sequencer + Space reverb + X-Y mixer + Generate dice",
               "value_es": "Secuenciador Echo 16 pasos + reverb Space + mezclador X-Y + dado Generate"
             }
-          ]
+          ],
+          "label_es": "Característica destacada"
         },
         {
           "label": "Modulation Depth",
@@ -15629,7 +15639,8 @@
               "value": "Deep (Ducker + Sync + Lift-Off + X-Y morph)",
               "value_es": "Profunda (Ducker + Sync + Lift-Off + morph X-Y)"
             }
-          ]
+          ],
+          "label_es": "Profundidad de modulación"
         },
         {
           "label": "Sound Design Potential",
@@ -15686,7 +15697,8 @@
               "value": "High (50+ effects, 125 presets, Generate)",
               "value_es": "Alta (50+ efectos, 125 presets, Generate)"
             }
-          ]
+          ],
+          "label_es": "Potencial de diseño sonoro"
         },
         {
           "label": "CPU Load",
@@ -15743,7 +15755,8 @@
               "value": "Low-Moderate",
               "value_es": "Baja-Moderada"
             }
-          ]
+          ],
+          "label_es": "Carga de CPU"
         },
         {
           "label": "Formats",
@@ -15800,7 +15813,8 @@
               "value": "VST/VST3/AU/AAX",
               "value_es": "VST/VST3/AU/AAX"
             }
-          ]
+          ],
+          "label_es": "Formatos"
         }
       ]
     },
@@ -17709,7 +17723,8 @@
               "value": "Pro ($900-3500)",
               "value_es": "Pro ($900-3500)"
             }
-          ]
+          ],
+          "label_es": "Gama de precios"
         },
         {
           "label": "Type",
@@ -17746,7 +17761,8 @@
               "value": "Condenser, Multi-pattern (3)",
               "value_es": "Condensador, Multi-patrón (3)"
             }
-          ]
+          ],
+          "label_es": "Tipo"
         },
         {
           "label": "Polar Pattern",
@@ -17783,7 +17799,8 @@
               "value": "Cardioid, Omni, Figure-8",
               "value_es": "Cardioide, Omni, Figura-8"
             }
-          ]
+          ],
+          "label_es": "Patrón polar"
         },
         {
           "label": "Frequency Response",
@@ -17820,7 +17837,8 @@
               "value": "20 Hz – 20 kHz",
               "value_es": "20 Hz – 20 kHz"
             }
-          ]
+          ],
+          "label_es": "Respuesta en frecuencia"
         },
         {
           "label": "Sensitivity",
@@ -17857,7 +17875,8 @@
               "value": "-37 dBV/Pa (14 mV)",
               "value_es": "-37 dBV/Pa (14 mV)"
             }
-          ]
+          ],
+          "label_es": "Sensibilidad"
         },
         {
           "label": "Self-Noise",
@@ -17894,7 +17913,8 @@
               "value": "12 dB-A",
               "value_es": "12 dB-A"
             }
-          ]
+          ],
+          "label_es": "Ruido propio"
         },
         {
           "label": "Max SPL",
@@ -17931,7 +17951,8 @@
               "value": "127 dB (0 dB pad)",
               "value_es": "127 dB (pad 0 dB)"
             }
-          ]
+          ],
+          "label_es": "SPL máximo"
         },
         {
           "label": "Pad & High-Pass",
@@ -17968,7 +17989,8 @@
               "value": "-10 dB pad, 80 Hz HPF",
               "value_es": "-10 dB pad, 80 Hz corte alto"
             }
-          ]
+          ],
+          "label_es": "Pad y corte de graves"
         },
         {
           "label": "Phantom Power",
@@ -18005,7 +18027,8 @@
               "value": "48 V",
               "value_es": "48 V"
             }
-          ]
+          ],
+          "label_es": "Alimentación phantom"
         },
         {
           "label": "Best For",
@@ -18042,7 +18065,8 @@
               "value": "Flagship vocals for pro studios",
               "value_es": "Voces insignia para estudios pro"
             }
-          ]
+          ],
+          "label_es": "Ideal para"
         },
         {
           "label": "Estimated Price",
@@ -18131,7 +18155,8 @@
         "pros_es": [
           "Nivel de ruido propio ridículamente bajo (4 dBA)",
           "Incluye kit completo con montura antichoque y filtro antipop premium",
-          "Cápsula 1\" muy equilibrada"
+          "Cápsula 1\" muy equilibrada",
+          "Gran relación calidad-precio"
         ],
         "cons_es": [
           "Patrón polar cardioide fijo",
@@ -18717,7 +18742,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "values": [
             {
               "value": "10\"",
@@ -20477,8 +20502,8 @@
     "category": "amps",
     "image": "https://r2.gear4music.com/media/33/336323/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "An amplifier shapes your tone as much as your guitar or bass does. From tiny practice combos to full stacks, the amp you choose defines your sound. This guide covers every type of amplifier for guitar and bass players, including modeling amps that give you many amp sounds in one unit.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Practice Combo</th><th>Gig Combo</th><th>Modeling Amp</th><th>Head + Cab</th></tr></thead><tbody><tr><td class=\"label\">Wattage</td><td class=\"val\">5–20W</td><td class=\"val\">40–100W</td><td class=\"val\">20–100W</td><td class=\"val\">50–150W</td></tr><tr><td class=\"label\">Best for</td><td class=\"val\">Home practice</td><td class=\"val\">Small–medium venues</td><td class=\"val\">Versatility</td><td class=\"val\">Large venues</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$50–$300</td><td class=\"val\">$500–$1,500</td><td class=\"val\">$200–$600</td><td class=\"val\">$1,000–$3,000+</td></tr></tbody></table>",
-    "intro_es": "Un amplificador moldea el tono tanto como la guitarra o bajo. Desde combos diminutos para práctica hasta stacks completos, el amplificador que eliges define el sonido. Esta guía cubre cada tipo de amplificador para guitarristas y bajistas, incluyendo amplificadores de modelado que te dan docenas de sonidos de amplificador en una unidad.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Combo Práctica</th><th>Combo para Gig</th><th>Amplificador de Modelado</th><th>Cabeza + Gabinete</th></tr></thead><tbody><tr><td class=\"label\">Vataje</td><td class=\"val\">5–20W</td><td class=\"val\">40–100W</td><td class=\"val\">20–100W</td><td class=\"val\">50–150W</td></tr><tr><td class=\"label\">Ideal para</td><td class=\"val\">Práctica en casa</td><td class=\"val\">Espacios pequeños–medianos</td><td class=\"val\">Versatilidad</td><td class=\"val\">Espacios grandes</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$50–$300</td><td class=\"val\">$500–$1,500</td><td class=\"val\">$200–$600</td><td class=\"val\">$1,000–$3,000+</td></tr></tbody></table>",
+    "intro": "An amplifier shapes your tone as much as your guitar or bass does. From tiny practice combos to full stacks, the amp you choose defines your sound. This guide covers every type of amplifier for guitar and bass players, including modeling amps that give you many amp sounds in one unit.",
+    "intro_es": "Un amplificador moldea el tono tanto como la guitarra o bajo. Desde combos diminutos para práctica hasta stacks completos, el amplificador que eliges define el sonido. Esta guía cubre cada tipo de amplificador para guitarristas y bajistas, incluyendo amplificadores de modelado que te dan docenas de sonidos de amplificador en una unidad.",
     "sections": [
       {
         "heading": "Tube vs Solid-State vs Modeling",
@@ -21883,8 +21908,8 @@
     "category": "pedals",
     "image": "https://r2.gear4music.com/media/35/353694/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Guitar pedals are the building blocks of your sound. From drive and distortion to modulation and delay, each pedal category shapes your tone in different ways. A well-chosen pedalboard gives you more sonic options than any amplifier alone. This guide covers every category of guitar effects pedal.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Drive/Distortion</th><th>Modulation</th><th>Delay/Reverb</th><th>Tuner</th></tr></thead><tbody><tr><td class=\"label\">Signal chain</td><td class=\"val\">First</td><td class=\"val\">After drive</td><td class=\"val\">Last</td><td class=\"val\">Very first</td></tr><tr><td class=\"label\">Key choice</td><td class=\"val\">Analog vs digital</td><td class=\"val\">Analog vs digital</td><td class=\"val\">Analog vs digital</td><td class=\"val\">Accuracy</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$20–$300</td><td class=\"val\">$30–$400</td><td class=\"val\">$30–$500</td><td class=\"val\">$15–$80</td></tr></tbody></table>",
-    "intro_es": "Los pedales de guitarra son los la base de tu sonido. Desde drive y distorsión hasta modulación y delay, cada categoría de pedal moldea el tono de diferentes maneras. Un pedalboard bien elegido te da más opciones sónicas que un amplificador por sí solo. Esta guía cubre cada categoría de pedal de efectos de guitarra.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Drive/Distorsión</th><th>Modulación</th><th>Delay/Reverb</th><th>Afinador</th></tr></thead><tbody><tr><td class=\"label\">Cadena de señal</td><td class=\"val\">Primero</td><td class=\"val\">Después de drive</td><td class=\"val\">Último</td><td class=\"val\">Lo primero</td></tr><tr><td class=\"label\">Elección clave</td><td class=\"val\">Analógico vs digital</td><td class=\"val\">Analógico vs digital</td><td class=\"val\">Analógico vs digital</td><td class=\"val\">Precisión</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$20–$300</td><td class=\"val\">$30–$400</td><td class=\"val\">$30–$500</td><td class=\"val\">$15–$80</td></tr></tbody></table>",
+    "intro": "Guitar pedals are the building blocks of your sound. From drive and distortion to modulation and delay, each pedal category shapes your tone in different ways. A well-chosen pedalboard gives you more sonic options than any amplifier alone. This guide covers every category of guitar effects pedal.",
+    "intro_es": "Los pedales de guitarra son los la base de tu sonido. Desde drive y distorsión hasta modulación y delay, cada categoría de pedal moldea el tono de diferentes maneras. Un pedalboard bien elegido te da más opciones sónicas que un amplificador por sí solo. Esta guía cubre cada categoría de pedal de efectos de guitarra.",
     "sections": [
       {
         "heading": "The Four Pedal Categories Every Player Needs",
@@ -22177,6 +22202,40 @@
             {
               "value": "$108.57–$115.99",
               "value_es": "$108.57–$115.99"
+            }
+          ]
+        },
+        {
+          "label": "Signal Chain",
+          "label_es": "Cadena de señal",
+          "values": [
+            {
+              "value": "First",
+              "value_es": "Al principio"
+            },
+            {
+              "value": "Last",
+              "value_es": "Al final"
+            },
+            {
+              "value": "Very first",
+              "value_es": "Lo primero"
+            },
+            {
+              "value": "First",
+              "value_es": "Al principio"
+            },
+            {
+              "value": "Last",
+              "value_es": "Al final"
+            },
+            {
+              "value": "After drive",
+              "value_es": "Tras el drive"
+            },
+            {
+              "value": "After drive",
+              "value_es": "Tras el drive"
             }
           ]
         },
@@ -23419,8 +23478,8 @@
     "category": "live_sound",
     "image": "https://r2.gear4music.com/media/104/1045197/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "PA systems project sound to audience. From small venue installations to large concert rigs, every live sound setup needs speakers, mixing, and signal processing. This guide covers every component of a live sound system, from powered speakers to digital mixers.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Small Venue</th><th>Medium Venue</th><th>Large Venue</th></tr></thead><tbody><tr><td class=\"label\">Speaker power</td><td class=\"val\">500–1,000W</td><td class=\"val\">1,000–2,000W</td><td class=\"val\">2,000–5,000W</td></tr><tr><td class=\"label\">Mixer</td><td class=\"val\">8–16 ch</td><td class=\"val\">16–32 ch</td><td class=\"val\">32+ ch</td></tr><tr><td class=\"label\">Price range</td><td class=\"val\">$500–$2,000</td><td class=\"val\">$2,000–$8,000</td><td class=\"val\">$8,000–$30,000+</td></tr></tbody></table>",
-    "intro_es": "Los sistemas PA proyectan sonido a una audiencia. Desde instalaciones en espacios pequeños hasta rigs de conciertos grandes, cada configuración de sonido en vivo necesita altavoces, un mezclador y procesamiento de señal. Esta guía cubre cada componente de un sistema de sonido en vivo, desde altavoces activos hasta mezcladores digitales.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Espacio Pequeño</th><th>Espacio Mediano</th><th>Espacio Grande</th></tr></thead><tbody><tr><td class=\"label\">Potencia del altavoz</td><td class=\"val\">500–1,000W</td><td class=\"val\">1,000–2,000W</td><td class=\"val\">2,000–5,000W</td></tr><tr><td class=\"label\">Mezclador</td><td class=\"val\">8–16 ch</td><td class=\"val\">16–32 ch</td><td class=\"val\">32+ ch</td></tr><tr><td class=\"label\">Rango de precio</td><td class=\"val\">$500–$2,000</td><td class=\"val\">$2,000–$8,000</td><td class=\"val\">$8,000–$30,000+</td></tr></tbody></table>",
+    "intro": "PA systems project sound to audience. From small venue installations to large concert rigs, every live sound setup needs speakers, mixing, and signal processing. This guide covers every component of a live sound system, from powered speakers to digital mixers.",
+    "intro_es": "Los sistemas PA proyectan sonido a una audiencia. Desde instalaciones en espacios pequeños hasta rigs de conciertos grandes, cada configuración de sonido en vivo necesita altavoces, un mezclador y procesamiento de señal. Esta guía cubre cada componente de un sistema de sonido en vivo, desde altavoces activos hasta mezcladores digitales.",
     "sections": [
       {
         "heading": "Powered vs Passive Speakers",
@@ -24144,8 +24203,8 @@
     "category": "daw",
     "image": "https://r2.gear4music.com/media/105/1054975/1200/preview.jpg",
     "badge": "premium",
-    "intro": "A DAW (Digital Audio Workstation) is where you record, edit, mix, and produce music. Every producer and engineer needs one. The best DAW is the one you know well, but some DAWs are better suited for specific tasks than others. This guide covers every major DAW and helps you choose the right one.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Beginner</th><th>Pro Recording</th><th>Beat Making</th><th>Post-Production</th></tr></thead><tbody><tr><td class=\"label\">DAW</td><td class=\"val\">GarageBand, Reaper</td><td class=\"val\">Logic Pro, Cubase</td><td class=\"val\">Ableton, FL Studio</td><td class=\"val\">Pro Tools, Nuendo</td></tr><tr><td class=\"label\">Learning curve</td><td class=\"val\">Low</td><td class=\"val\">Medium</td><td class=\"val\">Medium</td><td class=\"val\">High</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">Free–$60</td><td class=\"val\">$200–$600</td><td class=\"val\">$100–$500</td><td class=\"val\">$300–$600</td></tr></tbody></table>",
-    "intro_es": "Una DAW (Estación de Trabajo de Audio Digital) es donde grabas, editas, mezclas y produces música. Todo productor e ingeniero necesita una. La mejor DAW es la que conoces bien — pero algunas DAWs son mejor para tareas específicas que otras. Esta guía cubre cada DAW importante y te ayuda a elegir la correcta.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Principiante</th><th>Grabación Profesional</th><th>Creación de Beats</th><th>Post-Producción</th></tr></thead><tbody><tr><td class=\"label\">DAW</td><td class=\"val\">GarageBand, Reaper</td><td class=\"val\">Logic Pro, Cubase</td><td class=\"val\">Ableton, FL Studio</td><td class=\"val\">Pro Tools, Nuendo</td></tr><tr><td class=\"label\">Curva de aprendizaje</td><td class=\"val\">Baja</td><td class=\"val\">Media</td><td class=\"val\">Media</td><td class=\"val\">Alta</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">Gratis–$60</td><td class=\"val\">$200–$600</td><td class=\"val\">$100–$500</td><td class=\"val\">$300–$600</td></tr></tbody></table>",
+    "intro": "A DAW (Digital Audio Workstation) is where you record, edit, mix, and produce music. Every producer and engineer needs one. The best DAW is the one you know well, but some DAWs are better suited for specific tasks than others. This guide covers every major DAW and helps you choose the right one.",
+    "intro_es": "Una DAW (Estación de Trabajo de Audio Digital) es donde grabas, editas, mezclas y produces música. Todo productor e ingeniero necesita una. La mejor DAW es la que conoces bien — pero algunas DAWs son mejor para tareas específicas que otras. Esta guía cubre cada DAW importante y te ayuda a elegir la correcta.",
     "sections": [
       {
         "heading": "Choosing Your First DAW",
@@ -27128,8 +27187,8 @@
     "category": "guitars",
     "image": "https://r2.gear4music.com/media/47/475716/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Starting guitar is overwhelming — many models, confusing terminology, and advice from people who already know what they're doing. This guide cuts through the noise. Whether you want acoustic or electric, songwriting or jamming, here's what matters when you're buying your first guitar.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Acoustic</th><th>Electric</th><th>Classical</th></tr></thead><tbody><tr><td class=\"label\">Price range</td><td class=\"val\">$100–$500</td><td class=\"val\">$150–$500</td><td class=\"val\">$100–$400</td></tr><tr><td class=\"label\">Best for</td><td class=\"val\">Songwriting, campfire jams</td><td class=\"val\">Rock, blues, metal</td><td class=\"val\">Classical, fingerstyle</td></tr><tr><td class=\"label\">String type</td><td class=\"val\">Steel</td><td class=\"val\">Steel</td><td class=\"val\">Nylon</td></tr><tr><td class=\"label\">Need amp?</td><td class=\"val\">No</td><td class=\"val\">Yes</td><td class=\"val\">No</td></tr></tbody></table>",
-    "intro_es": "Empezar a tocar guitarra es abrumador — muchos modelos, terminología confusa y consejos de personas que ya saben lo que hacen. Esta guía va al grano. Quieras acústica o eléctrica, composición o tocar en grupo, esto es lo que importa cuando compras tu primera guitarra.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Acústica</th><th>Eléctrica</th><th>Clásica</th></tr></thead><tbody><tr><td class=\"label\">Rango de precio</td><td class=\"val\">$100–$500</td><td class=\"val\">$150–$500</td><td class=\"val\">$100–$400</td></tr><tr><td class=\"label\">Ideal para</td><td class=\"val\">Composición, jams</td><td class=\"val\">Rock, blues, metal</td><td class=\"val\">Clásica, fingerstyle</td></tr><tr><td class=\"label\">Tipo de cuerdas</td><td class=\"val\">Acero</td><td class=\"val\">Acero</td><td class=\"val\">Nylon</td></tr><tr><td class=\"label\">¿Necesita ampli?</td><td class=\"val\">No</td><td class=\"val\">Sí</td><td class=\"val\">No</td></tr></tbody></table>",
+    "intro": "Starting guitar is overwhelming — many models, confusing terminology, and advice from people who already know what they're doing. This guide cuts through the noise. Whether you want acoustic or electric, songwriting or jamming, here's what matters when you're buying your first guitar.",
+    "intro_es": "Empezar a tocar guitarra es abrumador — muchos modelos, terminología confusa y consejos de personas que ya saben lo que hacen. Esta guía va al grano. Quieras acústica o eléctrica, composición o tocar en grupo, esto es lo que importa cuando compras tu primera guitarra.",
     "sections": [
       {
         "heading": "Acoustic vs Electric: Which First?",
@@ -28509,14 +28568,14 @@
           "val1": "2x combo XLR/TRS mic/line/inst + Air",
           "val2": "2x combo XLR/TRS mic/line/inst + Legacy 4K",
           "val1_es": "2x combo XLR/TRS mic/line/inst + Air",
-          "val2_es": "2x combo XLR/TRS mic/line/inst + Legacy 4K"
+          "val2_es": "2x combos XLR/TRS micro/línea/inst + Legacy 4K"
         },
         {
           "label": "Outputs",
           "label_es": "Salidas",
           "val1": "2x TRS monitor + 1x HP",
           "val2": "4x line out + 2x HP",
-          "val1_es": "2x TRS monitor + 1x HP",
+          "val1_es": "2x TRS de monitor + 1x de auriculares",
           "val2_es": "4x line out + 2x HP"
         },
         {
@@ -28553,7 +28612,7 @@
         },
         {
           "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
+          "label_es": "MIDI E/S",
           "val1": "No",
           "val2": "Yes",
           "val1_es": "No",
@@ -28883,7 +28942,7 @@
         },
         {
           "label": "Driver",
-          "label_es": "Driver",
+          "label_es": "Transductor",
           "val1": "45 mm dynamic",
           "val2": "45 mm dynamic",
           "val1_es": "45 mm dinámico",
@@ -29185,7 +29244,7 @@
           "label_es": "Tipo",
           "val1": "2-way bi-amp, bass-reflex",
           "val2": "2-way bi-amp",
-          "val1_es": "2-way bi-amp, bass-reflex",
+          "val1_es": "2 vías biamplificado, bass-reflex",
           "val2_es": "2-way bi-amp"
         },
         {
@@ -29198,7 +29257,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "8\" cone (cellulose)",
           "val2": "7\" Kevlar cone",
           "val1_es": "8\" cono (celulosa)",
@@ -29206,7 +29265,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "val1": "1\" dome",
           "val2": "1\" silk dome",
           "val1_es": "1\" domo",
@@ -29552,7 +29611,7 @@
         },
         {
           "label": "Driver",
-          "label_es": "Driver",
+          "label_es": "Transductor",
           "val1": "45 mm CCAW",
           "val2": "40 mm dynamic",
           "val1_es": "45 mm CCAW",
@@ -29694,8 +29753,8 @@
     "category": "guitars",
     "image": "https://r2.gear4music.com/media/113/1139621/1200/preview.jpg",
     "badge": "topQuality",
-    "intro": "Choosing an electric guitar comes down to three things: the type of music you play, how much you want to spend, and whether you need something quiet for home or loud for stage. This guide covers every category — from budget starter guitars to professional instruments, so you can narrow down what fits your situation.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Beginner</th><th>Mid-Range</th><th>Premium</th><th>Home Recording</th></tr></thead><tbody><tr><td class=\"label\">Best for</td><td class=\"val\">Learning, first guitar</td><td class=\"val\">Gigging, recording</td><td class=\"val\">Professional use</td><td class=\"val\">Silent practice, direct recording</td></tr><tr><td class=\"label\">Pickups</td><td class=\"val\">Humbucker or single-coil</td><td class=\"val\">Depends on style</td><td class=\"val\">Premium components</td><td class=\"val\">Silent or piezo</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$150–$500</td><td class=\"val\">$500–$1,200</td><td class=\"val\">$1,200–$3,000+</td><td class=\"val\">$200–$1,500</td></tr></tbody></table>",
-    "intro_es": "Elegir una guitarra eléctrica se reduce a tres cosas: el tipo de música que tocas, cuánto quieres gastar, y si necesitas algo silencioso para casa o potente para escenario. Esta guía cubre cada categoría — desde guitarras económicas para empezar hasta instrumentos profesionales — para que puedas acotar lo que encaja con tu situación.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Principiante</th><th>Gama Media</th><th>Premium</th><th>Grabación Casera</th></tr></thead><tbody><tr><td class=\"label\">Ideal para</td><td class=\"val\">Aprender, primera guitarra</td><td class=\"val\">Actuar en directo, grabar</td><td class=\"val\">Uso profesional</td><td class=\"val\">Práctica silenciosa, grabación directa</td></tr><tr><td class=\"label\">Pastillas</td><td class=\"val\">Humbucker o single-coil</td><td class=\"val\">Depende del estilo</td><td class=\"val\">Componentes premium</td><td class=\"val\">Silenciosas o piezo</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$150–$500</td><td class=\"val\">$500–$1,200</td><td class=\"val\">$1,200–$3,000+</td><td class=\"val\">$200–$1,500</td></tr></tbody></table>",
+    "intro": "Choosing an electric guitar comes down to three things: the type of music you play, how much you want to spend, and whether you need something quiet for home or loud for stage. This guide covers every category — from budget starter guitars to professional instruments, so you can narrow down what fits your situation.",
+    "intro_es": "Elegir una guitarra eléctrica se reduce a tres cosas: el tipo de música que tocas, cuánto quieres gastar, y si necesitas algo silencioso para casa o potente para escenario. Esta guía cubre cada categoría — desde guitarras económicas para empezar hasta instrumentos profesionales — para que puedas acotar lo que encaja con tu situación.",
     "sections": [
       {
         "heading": "Beginner Electric Guitars",
@@ -31588,7 +31647,7 @@
           "values": [
             {
               "value": "USB, MIDI, Audio Out",
-              "value_es": "USB, MIDI, Audio Out"
+              "value_es": "USB, MIDI, salida de audio"
             },
             {
               "value": "USB-MIDI, Bluetooth",
@@ -32969,7 +33028,7 @@
           "label_es": "Salidas",
           "val1": "2x monitor TRS + 2x line out + 1x HP",
           "val2": "2x line XLR + 2x HP + ADAT out",
-          "val1_es": "2x monitor TRS + 2x line out + 1x HP",
+          "val1_es": "2x TRS de monitor + 2x salidas de línea + 1x de auriculares",
           "val2_es": "2x line XLR + 2x HP + ADAT out"
         },
         {
@@ -33006,7 +33065,7 @@
         },
         {
           "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
+          "label_es": "MIDI E/S",
           "val1": "No",
           "val2": "Yes",
           "val1_es": "No",
@@ -33312,14 +33371,14 @@
           "val1": "2x combo XLR/TRS mic/line/inst + Air",
           "val2": "2x combo XLR/TRS (Vintage pre ch 1)",
           "val1_es": "2x combo XLR/TRS mic/line/inst + Air",
-          "val2_es": "2x combo XLR/TRS (Vintage pre ch 1)"
+          "val2_es": "2x combos XLR/TRS (previo Vintage canal 1)"
         },
         {
           "label": "Outputs",
           "label_es": "Salidas",
           "val1": "2x TRS monitor + 1x HP",
           "val2": "2x line out + 1x HP",
-          "val1_es": "2x TRS monitor + 1x HP",
+          "val1_es": "2x TRS de monitor + 1x de auriculares",
           "val2_es": "2x line out + 1x HP"
         },
         {
@@ -33356,7 +33415,7 @@
         },
         {
           "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
+          "label_es": "MIDI E/S",
           "val1": "No",
           "val2": "Yes (1-in/1-out)",
           "val1_es": "No",
@@ -33702,12 +33761,12 @@
           "label_es": "DSP",
           "val1": "N/A (software mixer)",
           "val2": "N/A (ESS Sabre32 Ultra DAC)",
-          "val1_es": "N/A (software mixer)",
+          "val1_es": "N/D (mezclador por software)",
           "val2_es": "N/A (ESS Sabre32 Ultra DAC)"
         },
         {
           "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
+          "label_es": "MIDI E/S",
           "val1": "No",
           "val2": "Yes (5-pin DIN)",
           "val1_es": "No",
@@ -34063,7 +34122,7 @@
         },
         {
           "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
+          "label_es": "MIDI E/S",
           "val1": "Yes",
           "val2": "Yes (5-pin DIN)",
           "val1_es": "Sí",
@@ -34367,7 +34426,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "7\" MLM",
           "val2": "6.5\" (165 mm) paper",
           "val1_es": "7\" MLM",
@@ -34375,7 +34434,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "val1": "X-ART ribbon (HPS waveguide)",
           "val2": "0.75\" metal dome",
           "val1_es": "X-ART cinta (waveguide HPS)",
@@ -34403,7 +34462,7 @@
           "val1": "105 dB @1m",
           "val2": "105 dB @1m (115 dB pair)",
           "val1_es": "105 dB @1m",
-          "val2_es": "105 dB @1m (115 dB pair)"
+          "val2_es": "105 dB a 1 m (115 dB el par)"
         },
         {
           "label": "Crossover",
@@ -34683,8 +34742,8 @@
           "label_es": "Tipo",
           "val1": "2-way, rear-port",
           "val2": "2-way, front-port",
-          "val1_es": "2-way, rear-port",
-          "val2_es": "2-way, front-port"
+          "val1_es": "2 vías, puerto trasero",
+          "val2_es": "2 vías, puerto delantero"
         },
         {
           "label": "Best For",
@@ -34696,7 +34755,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "5\" (126 mm)",
           "val2": "6.5\" paper",
           "val1_es": "5\" (126 mm)",
@@ -34704,7 +34763,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "val1": "1\" soft dome",
           "val2": "1\" textile dome",
           "val1_es": "1\" domo suave",
@@ -35049,7 +35108,7 @@
         },
         {
           "label": "Driver",
-          "label_es": "Driver",
+          "label_es": "Transductor",
           "val1": "42 mm dynamic",
           "val2": "45 mm dynamic",
           "val1_es": "42 mm dinámico",
@@ -35378,7 +35437,7 @@
         },
         {
           "label": "Driver",
-          "label_es": "Driver",
+          "label_es": "Transductor",
           "val1": "45 mm CCAW",
           "val2": "45 mm dynamic",
           "val1_es": "45 mm CCAW",
@@ -35704,7 +35763,7 @@
         },
         {
           "label": "Driver",
-          "label_es": "Driver",
+          "label_es": "Transductor",
           "val1": "50 mm titanium-coated",
           "val2": "40 mm dynamic",
           "val1_es": "50 mm con recubrimiento de titanio",
@@ -36702,7 +36761,7 @@
           "label_es": "Pads / Filtros",
           "val1": "-6/-12/-18 dB pads + bass cut",
           "val2": "-10 dB pad + low cut",
-          "val1_es": "-6/-12/-18 dB pads + bass cut",
+          "val1_es": "Pads -6/-12/-18 dB + corte de graves",
           "val2_es": "-10 dB pad + low cut"
         },
         {
@@ -37255,7 +37314,7 @@
           "val1": "Analog UHF",
           "val2": "Digital UHF",
           "val1_es": "Analogo UHF",
-          "val2_es": "Digital UHF"
+          "val2_es": "UHF digital"
         },
         {
           "label": "Transmitters",
@@ -37637,7 +37696,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "12\"",
           "val2": "12\" (305 mm)",
           "val1_es": "12\"",
@@ -37959,7 +38018,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "12\"",
           "val2": "12\" + 12 x 2.5\" array",
           "val1_es": "12\"",
@@ -42874,8 +42933,8 @@
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/47/479259/1200/preview.jpg",
     "badge": "topQuality",
-    "intro": "A podcast microphone needs to capture clear, detailed voice without picking up room noise. Dynamic mics reject background noise better than condensers, making them ideal for untreated rooms. Condenser mics capture more detail and nuance, making them better for treated studios. This guide covers the best podcast microphones at every price point — and the Hollyland MELO P1 if you want a wireless all-in-one studio that mixes two mics plus a phone call without an interface.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Budget Dynamic</th><th>Premium Dynamic</th><th>Budget Condenser</th><th>Premium Condenser</th></tr></thead><tbody><tr><td class=\"label\">Best for</td><td class=\"val\">Untreated rooms</td><td class=\"val\">Professional podcast</td><td class=\"val\">Treated studios</td><td class=\"val\">Professional studio</td></tr><tr><td class=\"label\">Pattern</td><td class=\"val\">Cardioid</td><td class=\"val\">Cardioid</td><td class=\"val\">Cardioid</td><td class=\"val\">Cardioid/Multi</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$50–$100</td><td class=\"val\">$100–$250</td><td class=\"val\">$50–$150</td><td class=\"val\">$150–$400</td></tr></tbody></table>",
-    "intro_es": "Un micrófono de podcast necesita capturar voz clara y detallada sin captar ruido de sala. Los micrófonos dinámicos rechazan mejor el ruido de fondo que los condensadores, haciéndolos ideales para salas sin tratamiento. Los condensadores capturan más detalle y sutileza, haciéndolos mejores para estudios tratados. Esta guía cubre los mejores micrófonos de podcast en cada rango de precio — y el Hollyland MELO P1 si quieres un estudio inalámbrico todo-en-uno que mezcla dos micrófonos más una llamada de teléfono sin interfaz.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Dinámico Económico</th><th>Dinámico Premium</th><th>Condensador Económico</th><th>Condensador Premium</th></tr></thead><tbody><tr><td class=\"label\">Ideal para</td><td class=\"val\">Salas sin tratamiento</td><td class=\"val\">Podcast profesional</td><td class=\"val\">Estudios tratados</td><td class=\"val\">Estudio profesional</td></tr><tr><td class=\"label\">Patrón</td><td class=\"val\">Cardioide</td><td class=\"val\">Cardioide</td><td class=\"val\">Cardioide</td><td class=\"val\">Cardioide/Multi</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$50–$100</td><td class=\"val\">$100–$250</td><td class=\"val\">$50–$150</td><td class=\"val\">$150–$400</td></tr></tbody></table>",
+    "intro": "A podcast microphone needs to capture clear, detailed voice without picking up room noise. Dynamic mics reject background noise better than condensers, making them ideal for untreated rooms. Condenser mics capture more detail and nuance, making them better for treated studios. This guide covers the best podcast microphones at every price point — and the Hollyland MELO P1 if you want a wireless all-in-one studio that mixes two mics plus a phone call without an interface.",
+    "intro_es": "Un micrófono de podcast necesita capturar voz clara y detallada sin captar ruido de sala. Los micrófonos dinámicos rechazan mejor el ruido de fondo que los condensadores, haciéndolos ideales para salas sin tratamiento. Los condensadores capturan más detalle y sutileza, haciéndolos mejores para estudios tratados. Esta guía cubre los mejores micrófonos de podcast en cada rango de precio — y el Hollyland MELO P1 si quieres un estudio inalámbrico todo-en-uno que mezcla dos micrófonos más una llamada de teléfono sin interfaz.",
     "sections": [
       {
         "heading": "Dynamic vs Condenser for Podcasts",
@@ -45848,7 +45907,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "values": [
             {
               "value": "5\"",
@@ -45898,7 +45957,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "values": [
             {
               "value": "1\"",
@@ -47973,7 +48032,7 @@
         },
         {
           "label": "Audio I/O",
-          "label_es": "Audio I/O",
+          "label_es": "E/S de audio",
           "values": [
             {
               "value": "2x 1/4\" TRS in/out",
@@ -53202,10 +53261,12 @@
           "label_es": "Canales",
           "values": [
             {
-              "value": "18 (16 preamps)"
+              "value": "18 (16 preamps)",
+              "value_es": "18 (16 previos)"
             },
             {
-              "value": "18 (16 preamps)"
+              "value": "18 (16 preamps)",
+              "value_es": "18 (16 previos)"
             },
             {
               "value": "32 (32 mic preamps)",
@@ -53238,10 +53299,12 @@
           "label_es": "Preamplificadores",
           "values": [
             {
-              "value": "16 (8 mono + 4 stereo)"
+              "value": "16 (8 mono + 4 stereo)",
+              "value_es": "16 (8 mono + 4 estéreo)"
             },
             {
-              "value": "16 (8 mono + 4 stereo)"
+              "value": "16 (8 mono + 4 stereo)",
+              "value_es": "16 (8 mono + 4 estéreo)"
             },
             {
               "value": "32 MIDAS",
@@ -56194,8 +56257,8 @@
     "category": "mixers",
     "image": "https://r2.gear4music.com/media/12/129179/1200/preview_1.jpg",
     "badge": "topQuality",
-    "intro": "A digital mixer combines preamps, EQ, dynamics, effects, and routing in a single unit controlled by software. From budget boards with iPad control to touring-grade consoles with motorized faders, digital mixers are the standard for modern live sound and studio recording.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Budget Digital</th><th>Mid-Range</th><th>Touring Grade</th></tr></thead><tbody><tr><td class=\"label\">Channels</td><td class=\"val\">16–18</td><td class=\"val\">24–32</td><td class=\"val\">32–64+</td></tr><tr><td class=\"label\">Best for</td><td class=\"val\">Bands, small venues</td><td class=\"val\">Churches, theaters</td><td class=\"val\">Touring, large venues</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$500–$1,500</td><td class=\"val\">$2,000–$6,000</td><td class=\"val\">$8,000–$20,000+</td></tr></tbody></table>",
-    "intro_es": "Un mezclador digital combina previos, ecualización, dinámica, efectos y enrutamiento en una unidad controlada por software. Desde consolas económicas con control iPad hasta consolas de gira con faders motorizados, los mezcladores digitales son el estándar para el sonido en vivo moderno y la grabación en estudio.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Digital Económico</th><th>Gama Media</th><th>Gama para giras</th></tr></thead><tbody><tr><td class=\"label\">Canales</td><td class=\"val\">16–18</td><td class=\"val\">24–32</td><td class=\"val\">32–64+</td></tr><tr><td class=\"label\">Ideal para</td><td class=\"val\">Bandas, espacios pequeños</td><td class=\"val\">Iglesias, teatros</td><td class=\"val\">Giras, espacios grandes</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$500–$1,500</td><td class=\"val\">$2,000–$6,000</td><td class=\"val\">$8,000–$20,000+</td></tr></tbody></table>",
+    "intro": "A digital mixer combines preamps, EQ, dynamics, effects, and routing in a single unit controlled by software. From budget boards with iPad control to touring-grade consoles with motorized faders, digital mixers are the standard for modern live sound and studio recording.",
+    "intro_es": "Un mezclador digital combina previos, ecualización, dinámica, efectos y enrutamiento en una unidad controlada por software. Desde consolas económicas con control iPad hasta consolas de gira con faders motorizados, los mezcladores digitales son el estándar para el sonido en vivo moderno y la grabación en estudio.",
     "sections": [
       {
         "heading": "Budget vs Professional Digital Mixers",
@@ -56498,10 +56561,12 @@
           "label_es": "Canales",
           "values": [
             {
-              "value": "18 (16 preamps)"
+              "value": "18 (16 preamps)",
+              "value_es": "18 (16 previos)"
             },
             {
-              "value": "18 (16 preamps)"
+              "value": "18 (16 preamps)",
+              "value_es": "18 (16 previos)"
             },
             {
               "value": "32 (32 mic preamps)",
@@ -56513,7 +56578,7 @@
             },
             {
               "value": "18 (16 preamps)",
-              "value_es": "18 (16 preamps)"
+              "value_es": "18 (16 previos)"
             },
             {
               "value": "40 (32 preamps)",
@@ -58518,7 +58583,7 @@
         },
         {
           "label": "Preamps",
-          "label_es": "Preamps",
+          "label_es": "Previos",
           "val1": "16 Midas",
           "val2": "16 Midas PRO",
           "val1_es": "16 Midas",
@@ -58880,7 +58945,7 @@
         },
         {
           "label": "Phantom Power",
-          "label_es": "Phantom Power",
+          "label_es": "Alimentación phantom",
           "val1": "+48V per channel",
           "val2": "+48V global",
           "val1_es": "+48V por canal",
@@ -62165,7 +62230,7 @@
         },
         {
           "label": "MIDI I/O",
-          "label_es": "MIDI I/O",
+          "label_es": "MIDI E/S",
           "val1": "No",
           "val2": "Yes (5-pin DIN)",
           "val1_es": "No",
@@ -62649,8 +62714,8 @@
       {
         "heading": "Active vs Passive: Pros and Cons at a Glance",
         "heading_es": "Activo vs pasivo: pros y contras de un vistazo",
-        "content": "<p><strong>This guide compares active (powered) and passive PA speakers side by side, because each works best in different situations. Here's a breakdown of why:</strong></p><div class=\"guide-table-wrap\"><table class=\"guide-compare-table\"><thead><tr><th></th><th>Active (Powered) Speakers</th><th>Passive Speakers</th></tr></thead><tbody><tr><td class=\"guide-pros-label\"><strong>Pros</strong></td><td class=\"guide-pros-cell\"><ul><li>Built-in amplifier — no extra gear needed</li><li>Perfect power matching — impossible to mismatch</li><li>Built-in DSP with presets</li><li>Bi-amped by design — clearer sound</li><li>Portable — one box per speaker</li><li>Faster setup and teardown</li></ul></td><td class=\"guide-pros-cell\"><ul><li>Separate components — easier to repair</li><li>One amp can power multiple speakers</li><li>Amps rack-mounted in controlled environment</li><li>Standard for large installed systems</li><li>No electronics built into the speaker cabinet</li></ul></td></tr><tr><td class=\"guide-cons-label\"><strong>Cons</strong></td><td class=\"guide-cons-cell\"><ul><li>If amp fails, whole speaker is down</li><li>Heavier per cabinet (amp built in)</li><li>Less flexible for large custom installations</li></ul></td><td class=\"guide-cons-cell\"><ul><li>Requires separate amplifier purchase and setup</li><li>Risk of mismatched amp — blown drivers</li><li>No built-in DSP without external processor</li><li>More cables, more complexity, heavier total weight</li><li>Slower setup and teardown</li></ul></td></tr></tbody></table></div><p><strong>When passive still wins:</strong> Passive speakers make sense for large fixed installations, theaters with centralized amp rooms, and high-end touring systems with dedicated sound engineers. For everyone else — including most musicians, DJs, event organizers, and houses of worship — active speakers are simpler, sound better for the price, and are far less likely to suffer from operator error. The cost of a comparable passive setup (speakers + amplifier + DSP + cables) quickly exceeds the price of quality active speakers, and added complexity introduces failure points that most users don't need.</p>",
-        "content_es": "<p><strong>Esta guía compara los altavoces PA activos y pasivos lado a lado, porque cada uno funciona mejor en situaciones diferentes. Aquí tienes un desglose de por qué:</strong></p><div class=\"guide-table-wrap\"><table class=\"guide-compare-table\"><thead><tr><th></th><th>Altavoces Activos</th><th>Altavoces Pasivos</th></tr></thead><tbody><tr><td class=\"guide-pros-label\"><strong>Pros</strong></td><td class=\"guide-pros-cell\"><ul><li>Amplificador incorporado, sin equipo extra</li><li>Emparejamiento perfecto de potencia</li><li>DSP incorporado con preajustes</li><li>Bi-amplificados de diseño — sonido más claro</li><li>Portátiles — una caja por altavoz</li><li>Configuración y desmontaje más rápidos</li></ul></td><td class=\"guide-pros-cell\"><ul><li>Componentes separados — más fáciles de reparar</li><li>Un amplificador puede alimentar varios altavoces</li><li>Amplificadores en rack en entorno controlado</li><li>Estándar para sistemas instalados grandes</li><li>Sin electrónica dentro del altavoz</li></ul></td></tr><tr><td class=\"guide-cons-label\"><strong>Contras</strong></td><td class=\"guide-cons-cell\"><ul><li>Si falla el amp, todo el altavoz queda fuera</li><li>Más pesados por caja (amplificador incluido)</li><li>Menos flexibles para instalaciones grandes</li></ul></td><td class=\"guide-cons-cell\"><ul><li>Requiere compra y configuración de amplificador aparte</li><li>Riesgo de desajuste — altavoces quemados</li><li>Sin DSP si no añades un procesador externo</li><li>Más cables, más complejidad, más peso total</li><li>Configuración y desmontaje más lentos</li></ul></td></tr></tbody></table></div><p><strong>Cuándo sigue ganando el pasivo:</strong> Los altavoces pasivos tienen sentido para instalaciones fijas grandes, teatros con salas de amplificadores centralizadas y sistemas de gira de alta gama con ingenieros de sonido dedicados. Para todos los demás — incluyendo la mayoría de músicos, DJs, organizadores de eventos e iglesias — los altavoces activos son más simples, dan mejor sonido por su precio y tienen muchas menos probabilidades de sufrir errores del operador. El costo de un sistema pasivo comparable (altavoces + amplificador + DSP + cables) supera rápidamente el precio de altavoces activos de calidad, y la complejidad adicional introduce puntos de fallo que la mayoría de los usuarios no necesitan.</p>",
+        "content": "<p><strong>This guide compares active (powered) and passive PA speakers side by side, because each works best in different situations. Here's a breakdown of why:</strong></p><p><strong>Active pros:</strong> built-in amplifier, perfect power matching, built-in DSP with presets, bi-amped clarity, portable one-box design, faster setup. <strong>Active cons:</strong> a dead amp kills the speaker, heavier per cabinet, less flexible for huge custom installs.</p><p><strong>Passive pros:</strong> separate repairable components, one amp powers many speakers, rack-mounted amps, standard for large installs, no electronics in the cabinet. <strong>Passive cons:</strong> separate amp purchase and setup, mismatch risk, no onboard DSP, more cables and weight, slower setup.</p><p><strong>When passive still wins:</strong> Passive speakers make sense for large fixed installations, theaters with centralized amp rooms, and high-end touring systems with dedicated sound engineers. For everyone else — including most musicians, DJs, event organizers, and houses of worship — active speakers are simpler, sound better for the price, and are far less likely to suffer from operator error. The cost of a comparable passive setup (speakers + amplifier + DSP + cables) quickly exceeds the price of quality active speakers, and added complexity introduces failure points that most users don't need.</p>",
+        "content_es": "<p><strong>Esta guía compara los altavoces PA activos y pasivos lado a lado, porque cada uno funciona mejor en situaciones diferentes. Aquí tienes un desglose de por qué:</strong></p><p><strong>Ventajas activas:</strong> amplificador incorporado, emparejamiento perfecto, DSP con preajustes, claridad bi-amplificada, diseño portátil todo en uno, montaje rápido. <strong>Contras activas:</strong> si falla el amp muere el altavoz, más peso por caja, menos flexible en instalaciones gigantes.</p><p><strong>Ventajas pasivas:</strong> componentes separados fáciles de reparar, un amp alimenta varios altavoces, amps en rack, estándar en instalaciones grandes, sin electrónica en la caja. <strong>Contras pasivas:</strong> comprar y configurar el amp aparte, riesgo de desajuste, sin DSP integrado, más cables y peso, montaje lento.</p><p><strong>Cuándo sigue ganando el pasivo:</strong> Los altavoces pasivos tienen sentido para instalaciones fijas grandes, teatros con salas de amplificadores centralizadas y sistemas de gira de alta gama con ingenieros de sonido dedicados. Para todos los demás — incluyendo la mayoría de músicos, DJs, organizadores de eventos e iglesias — los altavoces activos son más simples, dan mejor sonido por su precio y tienen muchas menos probabilidades de sufrir errores del operador. El costo de un sistema pasivo comparable (altavoces + amplificador + DSP + cables) supera rápidamente el precio de altavoces activos de calidad, y la complejidad adicional introduce puntos de fallo que la mayoría de los usuarios no necesitan.</p>",
         "products": []
       },
       {
@@ -64483,8 +64548,8 @@
     "category": "basses",
     "image": "https://r2.gear4music.com/media/6/67660/1200/preview_1.jpg",
     "badge": "recommended",
-    "intro": "The bass is the backbone of every band — it connects the rhythm of the drums with the melody of the guitars and vocals. If you're starting bass, you need an instrument that's comfortable to hold, stays in tune, and sounds good through a practice amp. This guide covers what to look for and which models give you the best start.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Precision Style</th><th>Jazz Style</th><th>Modern</th></tr></thead><tbody><tr><td class=\"label\">Sound</td><td class=\"val\">Punchy, thumpy</td><td class=\"val\">Bright, growly</td><td class=\"val\">Versatile, modern</td></tr><tr><td class=\"label\">Best for</td><td class=\"val\">Rock, punk, motown</td><td class=\"val\">Funk, jazz, pop</td><td class=\"val\">All genres</td></tr><tr><td class=\"label\">Neck</td><td class=\"val\">Wider</td><td class=\"val\">Narrower</td><td class=\"val\">Varies</td></tr></tbody></table>",
-    "intro_es": "El bajo es la columna vertebral de toda banda — conecta el ritmo de la batería con la melodía de las guitarras y voces. Si estás empezando con el bajo, necesitas un instrumento que sea cómodo de sostener, se mantenga afinado y suene bien con un amplificador de práctica. Esta guía cubre qué buscar y qué modelos te dan el mejor inicio.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>Estilo Precision</th><th>Estilo Jazz</th><th>Moderno</th></tr></thead><tbody><tr><td class=\"label\">Sonido</td><td class=\"val\">Contundente, grave</td><td class=\"val\">Brillante, con garra</td><td class=\"val\">Versátil, moderno</td></tr><tr><td class=\"label\">Ideal para</td><td class=\"val\">Rock, punk, motown</td><td class=\"val\">Funk, jazz, pop</td><td class=\"val\">Todos los géneros</td></tr><tr><td class=\"label\">Mástil</td><td class=\"val\">Más ancho</td><td class=\"val\">Más angosto</td><td class=\"val\">Varía</td></tr></tbody></table>",
+    "intro": "The bass is the backbone of every band — it connects the rhythm of the drums with the melody of the guitars and vocals. If you're starting bass, you need an instrument that's comfortable to hold, stays in tune, and sounds good through a practice amp. This guide covers what to look for and which models give you the best start.",
+    "intro_es": "El bajo es la columna vertebral de toda banda — conecta el ritmo de la batería con la melodía de las guitarras y voces. Si estás empezando con el bajo, necesitas un instrumento que sea cómodo de sostener, se mantenga afinado y suene bien con un amplificador de práctica. Esta guía cubre qué buscar y qué modelos te dan el mejor inicio.",
     "sections": [
       {
         "heading": "Your First Bass: What Matters",
@@ -67612,7 +67677,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "val1": "S-ART folded ribbon",
           "val2": "1\" (27mm) pure beryllium inverted dome",
           "val1_es": "S-ART folded ribbon",
@@ -67620,7 +67685,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "Dual 7\" HexaCone",
           "val2": "10\" (250mm)",
           "val1_es": "Dual 7\" HexaCone",
@@ -74761,7 +74826,8 @@
           "Está más especializado en amplificadores e instrumentos que en voces generales",
           "La cápsula más fina es menos indestructible que la del SM57",
           "El frontal plano capta golpes si se roza en el escenario"
-        ]
+        ],
+        "name_es": "Sennheiser e 906"
       },
       {
         "name": "Beyerdynamic M 201",
@@ -75068,7 +75134,8 @@
           "Comprar el pack de tres resulta caro si solo necesitas uno",
           "El patrón cardioide fijo no ofrece flexibilidad polar",
           "El cuerpo compacto no deja espacio para interruptores"
-        ]
+        ],
+        "name_es": "Sennheiser e 604"
       },
       {
         "name": "Shure Beta 58A",
@@ -76059,7 +76126,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "values": [
             {
               "value": "12\" coaxial",
@@ -76596,7 +76663,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "values": [
             {
               "value": "18\" long-excursion",
@@ -77287,7 +77354,8 @@
               "value": "15 touch buttons + 2 dials + 4 tactile buttons",
               "value_es": "15 botones táctiles + 2 diales + 4 botones físicos"
             }
-          ]
+          ],
+          "label_es": "Teclas y controles"
         },
         {
           "label": "Connectivity",
@@ -77328,7 +77396,8 @@
               "value": "USB-C (USB-A adapter included)",
               "value_es": "USB-C (adaptador a USB-A incluido)"
             }
-          ]
+          ],
+          "label_es": "Conectividad"
         },
         {
           "label": "Software",
@@ -77369,7 +77438,8 @@
               "value": "Loupedeck Software",
               "value_es": "Software Loupedeck"
             }
-          ]
+          ],
+          "label_es": "Software"
         },
         {
           "label": "Estimated Price",
@@ -79126,8 +79196,8 @@
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/93/934994/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Content creators need microphones that sound good with minimal setup. Whether you're streaming, recording voiceovers, or making YouTube videos, the right mic makes a bigger difference than any other piece of gear. This guide helps you decide between USB and XLR — for detailed product picks, see our dedicated guides linked below.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>USB Plug & Play</th><th>USB Premium</th><th>XLR + Interface</th></tr></thead><tbody><tr><td class=\"label\">Best for</td><td class=\"val\">Beginners, streaming</td><td class=\"val\">Voiceover, YouTube</td><td class=\"val\">Professional recording</td></tr><tr><td class=\"label\">Setup</td><td class=\"val\">Plug in and go</td><td class=\"val\">Plug in and go</td><td class=\"val\">Needs audio interface</td></tr><tr><td class=\"label\">Price</td><td class=\"val\">$50–$150</td><td class=\"val\">$150–$300</td><td class=\"val\">$200–$400+ (mic + interface)</td></tr></tbody></table>",
-    "intro_es": "Los creadores de contenido necesitan micrófonos que suenen bien con configuración mínima. Hagas streaming, grabes locuciones o hagas videos de YouTube, el micrófono correcto marca más diferencia que cualquier otra pieza de equipo. Esta guía te ayuda a decidir entre USB y XLR — para recomendaciones específicas, consulta nuestras guías dedicadas más abajo.<table class=\"guide-comparison-table\"><thead><tr><th></th><th>USB Plug & Play</th><th>USB Premium</th><th>XLR + Interfaz</th></tr></thead><tbody><tr><td class=\"label\">Ideal para</td><td class=\"val\">Principiantes, streaming</td><td class=\"val\">Voiceover, YouTube</td><td class=\"val\">Grabación profesional</td></tr><tr><td class=\"label\">Configuración</td><td class=\"val\">Conectar y listo</td><td class=\"val\">Conectar y listo</td><td class=\"val\">Necesita interfaz de audio</td></tr><tr><td class=\"label\">Precio</td><td class=\"val\">$50–$150</td><td class=\"val\">$150–$300</td><td class=\"val\">$200–$400+ (mic + interfaz)</td></tr></tbody></table>",
+    "intro": "Content creators need microphones that sound good with minimal setup. Whether you're streaming, recording voiceovers, or making YouTube videos, the right mic makes a bigger difference than any other piece of gear. This guide helps you decide between USB and XLR — for detailed product picks, see our dedicated guides linked below.",
+    "intro_es": "Los creadores de contenido necesitan micrófonos que suenen bien con configuración mínima. Hagas streaming, grabes locuciones o hagas videos de YouTube, el micrófono correcto marca más diferencia que cualquier otra pieza de equipo. Esta guía te ayuda a decidir entre USB y XLR — para recomendaciones específicas, consulta nuestras guías dedicadas más abajo.",
     "sections": [
       {
         "heading": "USB vs XLR for Content Creators",
@@ -82224,7 +82294,7 @@
         },
         {
           "label": "Timecode",
-          "label_es": "Timecode",
+          "label_es": "Código de tiempo",
           "val1": "Yes",
           "val2": "Yes (within one frame over 24h)",
           "val1_es": "Sí",
@@ -85875,7 +85945,7 @@
         },
         {
           "label": "Woofer",
-          "label_es": "Woofer",
+          "label_es": "Graves",
           "val1": "6.5\" (164 mm) SB50-164SC",
           "val2": "2 x 8.63\" (219 mm) oval ACW",
           "val1_es": "6.5\" (164 mm) SB50-164SC",
@@ -85891,7 +85961,7 @@
         },
         {
           "label": "Tweeter",
-          "label_es": "Tweeter",
+          "label_es": "Agudos",
           "val1": "1\" (25 mm) SH25-76S Dual Suspension",
           "val2": "1\" (25.4 mm) metal dome coaxial",
           "val1_es": "1\" (25 mm) SH25-76S de doble suspensión",
@@ -85931,7 +86001,7 @@
         },
         {
           "label": "Crossover",
-          "label_es": "Crossover",
+          "label_es": "Frecuencia de corte",
           "val1": "4th-order Linkwitz-Riley 380 Hz / 3.5 kHz",
           "val2": "DSP-based, GLM adjustable",
           "val1_es": "Linkwitz-Riley de 4º orden 380 Hz / 3.5 kHz",
@@ -89957,7 +90027,7 @@
           "val3": "Master bus",
           "val4": "Master bus",
           "val5": "Per-instance",
-          "label_es": "Tracks",
+          "label_es": "Pistas",
           "val_es": "Análisis multitrack",
           "val3_es": "Bus principal",
           "val4_es": "Bus principal",
@@ -90341,7 +90411,7 @@
           "val3": "Per-instance",
           "val4": "Per-instance",
           "val5": "Per-instance",
-          "label_es": "Tracks",
+          "label_es": "Pistas",
           "val_es": "Por instancia",
           "val3_es": "Por instancia",
           "val4_es": "Por instancia",
@@ -90727,7 +90797,7 @@
           "val3": "MIDI instrument",
           "val4": "Per-instance",
           "val5": "Per-instance",
-          "label_es": "Tracks",
+          "label_es": "Pistas",
           "val_es": "Por instancia",
           "val3_es": "Instrumento MIDI",
           "val4_es": "Por instancia",
@@ -94866,7 +94936,8 @@
               "value": "Compact groove for beginners",
               "value_es": "Groove compacto para empezar"
             }
-          ]
+          ],
+          "label_es": "Ideal para"
         },
         {
           "label": "Estimated Price",
@@ -94957,7 +95028,8 @@
               "value": "Micro-scale solid-body",
               "value_es": "Sólido micro-escala"
             }
-          ]
+          ],
+          "label_es": "Tipo"
         },
         {
           "label": "Scale Length",
@@ -95002,7 +95074,8 @@
               "value": "28.6 in (726 mm)",
               "value_es": "28,6\" (726 mm)"
             }
-          ]
+          ],
+          "label_es": "Longitud de escala"
         },
         {
           "label": "Weight",
@@ -95047,7 +95120,8 @@
               "value": "Not published (varies by unit)",
               "value_es": "No publicado (varía por unidad)"
             }
-          ]
+          ],
+          "label_es": "Peso"
         },
         {
           "label": "Body",
@@ -95092,7 +95166,8 @@
               "value": "Poplar, SR Mikro",
               "value_es": "Álamo, SR Mikro"
             }
-          ]
+          ],
+          "label_es": "Cuerpo"
         },
         {
           "label": "Neck & Fretboard",
@@ -95137,7 +95212,8 @@
               "value": "Maple GSRM4, jatoba/pine, 22 medium",
               "value_es": "Arce GSRM4, jatoba/pino, 22 medium"
             }
-          ]
+          ],
+          "label_es": "Mástil y Diapasón"
         },
         {
           "label": "Pickups",
@@ -95182,7 +95258,8 @@
               "value": "Dynamix P + J (passive)",
               "value_es": "Dynamix P + J (pasivas)"
             }
-          ]
+          ],
+          "label_es": "Pastillas"
         },
         {
           "label": "Electronics",
@@ -95227,7 +95304,8 @@
               "value": "2x Vol + Tone",
               "value_es": "2x Volumen + Tono"
             }
-          ]
+          ],
+          "label_es": "Electrónica"
         },
         {
           "label": "Gig Bag Included",
@@ -95272,7 +95350,8 @@
               "value": "No",
               "value_es": "No"
             }
-          ]
+          ],
+          "label_es": "Funda incluida"
         }
       ]
     },
@@ -96054,7 +96133,8 @@
               "value": "Premium (over $1,300)",
               "value_es": "Premium (más de $1.300)"
             }
-          ]
+          ],
+          "label_es": "Gama de precios"
         },
         {
           "label": "Body",
@@ -96107,7 +96187,8 @@
               "value": "Swamp ash, 2-3 piece",
               "value_es": "Fresno, 2-3 piezas"
             }
-          ]
+          ],
+          "label_es": "Cuerpo"
         },
         {
           "label": "Neck",
@@ -96160,7 +96241,8 @@
               "value": "5-pc maple, medium-thin C",
               "value_es": "5 piezas arce, C medio-fino"
             }
-          ]
+          ],
+          "label_es": "Mástil"
         },
         {
           "label": "Scale Length",
@@ -96213,7 +96295,8 @@
               "value": "34-37 in multiscale (G34-B37)",
               "value_es": "34-37\" multiescala (G34-B37)"
             }
-          ]
+          ],
+          "label_es": "Longitud de escala"
         },
         {
           "label": "Frets & Fretboard",
@@ -96266,7 +96349,8 @@
               "value": "Banjo frets, 240 mm, maple/pau ferro",
               "value_es": "Trastes banjo, 240 mm, arce/pau ferro"
             }
-          ]
+          ],
+          "label_es": "Trastes y diapasón"
         },
         {
           "label": "Pickups",
@@ -96319,7 +96403,8 @@
               "value": "2-3 FD-3N neodymium",
               "value_es": "2-3 FD-3N neodimio"
             }
-          ]
+          ],
+          "label_es": "Pastillas"
         },
         {
           "label": "Electronics",
@@ -96372,7 +96457,8 @@
               "value": "EMG 3-band + Quad-tone + A/P",
               "value_es": "EMG 3 bandas + Quad-tone + A/P"
             }
-          ]
+          ],
+          "label_es": "Electrónica"
         },
         {
           "label": "Active / Passive",
@@ -96425,7 +96511,8 @@
               "value": "Active/passive (EMG)",
               "value_es": "Activo/pasivo (EMG)"
             }
-          ]
+          ],
+          "label_es": "Activo / Pasivo"
         },
         {
           "label": "Bridge",
@@ -96478,7 +96565,8 @@
               "value": "Dingwall minimalist",
               "value_es": "Dingwall minimalista"
             }
-          ]
+          ],
+          "label_es": "Puente"
         }
       ]
     },
