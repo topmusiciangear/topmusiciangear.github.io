@@ -5249,7 +5249,7 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000"
     }
   },
-  554: {
+554: {
     prices: {
       gear4music: "£209.00",
       amazon: "$349.00",
@@ -5261,6 +5261,34 @@ const TEST_SHOP_BTN = {
       amazon: "https://www.amazon.com/dp/B00EOADUTU",
       zzounds: "https://www.zzounds.com/item--TAKGC1?siid=178306",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Takamine-GC1N/art-GIT0063165-001"
+    }
+  },
+  555: {
+    prices: {
+      zzounds: "$541.00",
+      gear4music: "£689.00",
+      andertons: "£649.00",
+      musicstore: "€659.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--FEN2370500",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-200-1x15-Bass-Combo/X0Q",
+      andertons: "https://www.andertons.co.uk/fender-rumble-200-v3-bass-amp/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-Rumble-200-V3-Combo-/art-BAS0007200-000"
+    }
+  },
+  556: {
+    prices: {
+      zzounds: "$629.00",
+      gear4music: "£519.00",
+      andertons: "£539.00",
+      musicstore: "€599.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AMPRB115",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ampeg-Rocket-Bass-115/3T6U",
+      andertons: "https://www.andertons.co.uk/ampeg-rocket-rb-115-200w-bass-combo/?search_query=Ampeg%20Rocket%20Bass%20RB-115",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Ampeg-RB-115-Rocket-Bass-Amplifier/art-BAS0011676-000"
     }
   },
 };function hollyDefaultRegion() {
