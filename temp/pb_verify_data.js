@@ -339,7 +339,7 @@ const APPROVED_NON_PB = {
   '181': { 'prices.musicstore': ['€2,520.17', '€3,585.00'] },
   '182': { 'prices.zzounds': ['$3,899.00', '$3,999.00'], 'prices.gear4music': ['£3,859.00', '£4,255.00'], 'prices.musicstore': [undefined, '€3,640.00'], 'urls.musicstore': ['https://www.musicstore.com/en_OE/EUR/search?SearchText=Universal%20Audio%20Apollo%20x16', 'https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-x16-with-UAD-Analog-Classics/art-PCM0018211-000'], 'na': ['["musicstore"]', undefined] },
   '183': { 'prices.andertons': ['£2,035.00', '£2,434.00'], 'prices.musicstore': ['€1,797.48', '€2,899.00'] },
-  '264': { 'prices.amazon': ['$229.99', '$349.99'] },
+  '264': { 'prices.amazon': ['$229.99', '$349.99'], 'prices.gear4music': ['£229.99', '£329.99'] },
   '185': { 'prices.andertons': ['£2,049.00', '£2,199.00'], 'prices.gear4music': ['£2,079.00', '£2,165.00'], 'prices.musicstore': ['€1,998.00', '€2,349.00'] },
   '371': { 'prices.zzounds': ['$199.99', '$239.99'], 'prices.andertons': ['£149.00', '£118.00'], 'prices.gear4music': ['£155.00', '£125.00'], 'prices.musicstore': ['€167.98', '€159.00'] },
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },
