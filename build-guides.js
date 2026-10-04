@@ -5273,7 +5273,7 @@ const TEST_SHOP_BTN = {
     urls: {
       zzounds: "https://www.zzounds.com/item--FEN2370500",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-200-1x15-Bass-Combo/X0Q",
-      andertons: "https://www.andertons.co.uk/fender-rumble-200-v3-bass-amp/",
+      andertons: "https://www.andertons.co.uk/Fender-Rumble-200-V3-Bass-Amp-230V-uk/?search_query=Fender%20Rumble%20200%20V3",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-Rumble-200-V3-Combo-/art-BAS0007200-000"
     }
   },
