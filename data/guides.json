@@ -65766,13 +65766,12 @@
       {
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
+        "skipMedia": true,
         "content": "<strong>Two approaches to beatmaking — deep sequencing vs standalone production.</strong> The Elektron Digitakt II is a powerful drum computer and sampler built around the well-regarded Elektron sequencer. 8 audio tracks with sampling, 8 MIDI tracks, Overbridge integration, and a compact form factor designed for hands-on sound design and performance. The Akai MPC Live III is a complete standalone music production system with an 8-core processor, 8GB RAM, 128GB storage, MPC3 OS, new MPCe 3D-sensing pads, built-in mic and speakers, and rechargeable battery. It's a full studio that fits in a backpack.",
         "content_es": "<strong>Dos enfoques para hacer beats — secuenciación profunda vs producción standalone.</strong> El Elektron Digitakt II es una potente máquina de ritmos y sampler construido alrededor del legendario secuenciador Elektron. 8 pistas de audio con sampling, 8 pistas MIDI, integración Overbridge y un formato compacto pensado para el diseño sonoro práctico y performance. El Akai MPC Live III es un sistema de producción musical standalone completo con procesador de 8 núcleos, 8GB RAM, 128GB de almacenamiento, MPC3 OS, nuevos pads MPCe con detección 3D, micrófono y altavoces integrados y batería recargable. Es un estudio completo que cabe en una mochila.",
         "products": [
           127,
-          188,
-          256,
-          257
+          188
         ]
       },
       {
@@ -65954,62 +65953,6 @@
           "La interfaz de pantalla táctil puede ser complicada en situaciones en vivo",
           "No es tan profundo para diseño sonoro como el sistema de parameter locks de Elektron"
         ]
-      },
-      {
-        "name": "Akai MPC One G2",
-        "name_es": "Akai MPC One G2",
-        "pros": [
-          "Same MPC workflow that created countless hip-hop classics on an 8-core processor",
-          "16 velocity-sensitive pads and the legendary MPC swing quantize",
-          "Fully standalone with 16GB internal storage and built-in synth engines",
-          "7-inch touchscreen and USB-C with 24x24 audio"
-        ],
-        "pros_es": [
-          "El mismo flujo de trabajo MPC que creó innumerables clásicos del hip-hop en un procesador de 8 núcleos",
-          "16 pads sensibles a la velocidad y el legendario swing quantize de MPC",
-          "Totalmente autónomo con 16GB de almacenamiento interno y motores de sintetizador integrados",
-          "Pantalla táctil de 7 pulgadas y USB-C con audio 24x24"
-        ],
-        "cons": [
-          "Pad-and-touchscreen workflow is less immediate than the TR-8S's faders for step sequencing",
-          "Deep editing is faster on a computer than on the built-in screen",
-          "Runs on the included AC adaptor — no battery power for the road",
-          "Loading large kits and sample packs from SD takes time before you can jam"
-        ],
-        "cons_es": [
-          "El flujo de pads y pantalla táctil es menos inmediato que los faders del TR-8S para secuenciación por pasos",
-          "La edición profunda es más rápida en una ordenador que en su pantalla integrada",
-          "Funciona con el adaptador AC incluido — sin batería para la carretera",
-          "Cargar kits grandes y packs de samples desde la SD tarda antes de poder tocar"
-        ]
-      },
-      {
-        "name": "Akai MPC Sample",
-        "name_es": "Akai MPC Sample",
-        "pros": [
-          "Portable sampler that brings the classic MPC60 workflow to a battery-powered format",
-          "16 responsive MPC pads and a 2.4-inch color display",
-          "Built-in mic and speaker, 60 effect types across four FX processors",
-          "USB-C sampling from phones and tablets — no computer required"
-        ],
-        "pros_es": [
-          "Sampler portátil que lleva el clásico flujo MPC60 a un formato con batería",
-          "16 pads MPC responsivos y una pantalla a color de 2.4 pulgadas",
-          "Micrófono y altavoz integrados, 60 tipos de efecto en cuatro procesadores FX",
-          "Muestreo por USB-C desde teléfonos y tablets — sin necesidad de ordenador"
-        ],
-        "cons": [
-          "Smaller screen and fewer controls than the MPC One G2",
-          "No built-in synth engines like the One G2 or Live III",
-          "Limited to around 5 hours of battery life",
-          "Over 100 factory kits is generous but the storage is limited for custom content"
-        ],
-        "cons_es": [
-          "Pantalla más pequeña y menos controles que el MPC One G2",
-          "Sin motores de sintetizador integrados como el One G2 o Live III",
-          "Limitado a unas 5 horas de duración de batería",
-          "Más de 100 kits de fábrica es generoso pero el almacenamiento es limitado para contenido personalizado"
-        ]
       }
     ],
     "comparison": {
@@ -66153,12 +66096,12 @@
       {
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
+        "skipMedia": true,
         "content": "<strong>Two completely different approaches to music production software.</strong> The FabFilter Total Bundle is the go-to bundle for mixing, mastering, and sound processing. Each plugin is meticulously crafted with pristine sound quality, intuitive interfaces, and exceptional visual feedback. Pro-Q 4 alone is used on more professional mixes than any other EQ. Native Instruments Komplete 26 Ultimate is the most comprehensive production suite ever assembled — 90+ virtual instruments, 200+ effects spanning every genre, including Kontakt 8, Massive X, Guitar Rig 7, and Reaktor 7. It's a complete production ecosystem.",
         "content_es": "<strong>Dos enfoques completamente diferentes para el software de producción musical.</strong> El FabFilter Total Bundle es el bundle de referencia para mezcla, masterización y procesamiento de sonido. Cada plugin está meticulosamente elaborado con calidad de sonido prístina, interfaces intuitivas y retroalimentación visual excepcional. Pro-Q 4 sólo se usa en más mezclas profesionales que cualquier otro EQ. Native Instruments Komplete 26 Ultimate es la suite de producción más completa jamás ensamblada — más de 90 instrumentos virtuales, más de 200 efectos que abarcan todos los géneros, incluyendo Kontakt 8, Massive X, Guitar Rig 7 y Reaktor 7. Es un ecosistema de producción completo.",
         "products": [
           29,
-          123,
-          28
+          123
         ]
       },
       {
@@ -66338,30 +66281,6 @@
           "Algunos plugins antiguos muestran su edad en interfaz y motor",
           "Requiere Native Access para instalación y gestión",
           "Las actualizaciones de versiones principales no son gratuitas"
-        ]
-      },
-      {
-        "name": "Native Instruments Kontakt 8",
-        "name_es": "Native Instruments Kontakt 8",
-        "pros": [
-          "The world's leading sampler platform and industry standard for sampled instruments",
-          "900+ instruments right out of the box",
-          "New browser, wavetable module and MIDI tools for a faster workflow",
-          "A vast third-party library ecosystem is built around Kontakt"
-        ],
-        "pros_es": [
-          "La plataforma de sampler líder mundial y el estándar de la industria para instrumentos sampleados",
-          "Más de 900 instrumentos listos para usar",
-          "Nuevo navegador, módulo wavetable y herramientas MIDI para un flujo de trabajo más rápido",
-          "Un enorme ecosistema de librerías de terceros está construido alrededor de Kontakt"
-        ],
-        "cons": [
-          "It is a sampler, not a mixing or mastering processor like FabFilter",
-          "Large sample libraries demand considerable storage and fast drives"
-        ],
-        "cons_es": [
-          "Es un sampler, no un procesador de mezcla o masterización como FabFilter",
-          "Las grandes librerías de samples exigen mucho almacenamiento y discos rápidos"
         ]
       }
     ],
