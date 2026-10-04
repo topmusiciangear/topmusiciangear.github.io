@@ -65162,16 +65162,12 @@
       {
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
+        "skipMedia": true,
         "content": "<strong>The Precision Bass and the StingRay are the two most important bass designs in history.</strong> The Fender American Ultra II Precision Bass refines Leo Fender's original masterpiece — Ultra II Noiseless P-Bass pickup, redesigned body contours, sculpted neck heel, and HiMass bridge. It delivers that iconic P-Bass thump with modern playability and zero hum. The Music Man StingRay Special is aggressive, punchy alternative — lightweight ash body, roasted maple neck, neodymium pickup with 18V active preamp. It cuts through any mix with authority. The P-Bass for classic, round tones; the StingRay for modern, aggressive articulation.",
         "content_es": "<strong>El Precision Bass y el StingRay son los dos diseños de bajo más importantes de la historia.</strong> El Fender American Ultra II Precision Bass refina la obra maestra original de Leo Fender — pastilla Ultra II Noiseless P-Bass, contornos de cuerpo rediseñados, talón esculpido y puente HiMass. Ofrece ese icónico golpe P-Bass con tocabilidad moderna y cero ruido. El Music Man StingRay Special es la alternativa agresiva y contundente — cuerpo de fresno ligero, mástil de arce tostado, pastilla de neodimio con previo activo de 18V. Corta cualquier mezcla con autoridad. El P-Bass para tonos clásicos y redondos; el StingRay para articulación moderna y agresiva.",
         "products": [
           185,
-          186,
-          441,
-          155,
-          156,
-          158,
-          161
+          186
         ]
       },
       {
@@ -65180,10 +65176,7 @@
         "content": "<strong>Fender's most advanced Precision Bass.</strong> Ultra II Noiseless P-Bass pickup, redesigned body contours, sculpted neck heel, compound-radius ebony fingerboard, and HiMass bridge. Delivers that iconic P-Bass thump with modern playability and zero hum. The definitive precision bass for the modern professional.",
         "content_es": "<strong>El Precision Bass más avanzado de Fender.</strong> Pastilla Ultra II Noiseless P-Bass, contornos de cuerpo rediseñados, talón esculpido, diapasón de ébano de radio compuesto y puente HiMass. Ofrece ese icónico golpe P-Bass con tocabilidad moderna y cero ruido. El bajo de precisión definitivo para el profesional moderno.",
         "products": [
-          185,
-          441,
-          155,
-          158
+          185
         ]
       },
       {
@@ -65329,136 +65322,6 @@
           "El rango medio agresivo puede no funcionar en todas las mezclas o géneros",
           "La pastilla de neodimio tiene mayor salida que puede saturar algunos previos",
           "Sin opción de bypass pasivo — si la batería muere, el bajo no suena"
-        ]
-      },
-      {
-        "name": "Fender Player II Precision Bass",
-        "name_es": "Fender Player II Precision Bass",
-        "pros": [
-          "Player Series Alnico V split-coil delivers that classic P-Bass punch",
-          "Alder body with a comfortable Modern C maple neck",
-          "Rolled fretboard edges and medium jumbo frets for smooth playability",
-          "4-saddle bridge with single-groove steel saddles holds tuning"
-        ],
-        "pros_es": [
-          "La pastilla Alnico V split-coil de la serie Player ofrece el punch clásico del P-Bass",
-          "Cuerpo de aliso con mástil de arce Modern C cómodo",
-          "Bordes de diapasón redondeados y trastes medium jumbo para una ejecución suave",
-          "Puente de 4 sillas con sillas de acero de ranura simple mantiene la afinación"
-        ],
-        "cons": [
-          "Passive electronics limit tonal shaping compared to active models",
-          "Alder body and maple neck are heavier than lighter tonewoods",
-          "No upgrade to the HiMass bridge or compound-radius fingerboard of the Pro line"
-        ],
-        "cons_es": [
-          "Electrónica pasiva limita el moldeado tonal frente a modelos activos",
-          "El cuerpo de aliso y mástil de arce son más pesados que maderas ligeras",
-          "Sin el puente HiMass o el diapasón de radio compuesto de la línea Pro"
-        ]
-      },
-      {
-        "name": "Fender American Professional II Precision Bass",
-        "name_es": "Fender American Professional II Precision Bass",
-        "pros": [
-          "V-Mod II split-coil pickup adds modern punch while preserving vintage warmth",
-          "The thick, punchy P-Bass sound that defined Motown, country, and classic rock",
-          "Rounded body contours and slim C-shape neck for comfortable playing",
-          "Professional-grade build and tone at the classic P-Bass price"
-        ],
-        "pros_es": [
-          "La pastilla V-Mod II split-coil añade punch moderno preservando la calidez vintage",
-          "El sonido grueso y contundente de P-Bass que definió Motown, country y rock clásico",
-          "Contornos redondeados y mástil slim C-shape para tocar cómodamente",
-          "Tono y construcción de grado profesional al precio clásico del P-Bass"
-        ],
-        "cons": [
-          "Single pickup configuration — less tonal versatility than a PJ or dual-pickup design",
-          "Passive circuit lacks the onboard EQ of active basses",
-          "Premium US-made price on American Ultra II"
-        ],
-        "cons_es": [
-          "Esquema de una sola pastilla — menos versatilidad tonal que un diseño PJ o de dos pastillas",
-          "El circuito pasivo carece del EQ incorporado de los bajos activos",
-          "Precio premium de fabricación estadounidense"
-        ]
-      },
-      {
-        "name": "Fender American Professional II Jazz Bass",
-        "name_es": "Fender American Professional II Jazz Bass",
-        "pros": [
-          "V-Mod II single-coil pickups deliver richer harmonics and a more articulate voice",
-          "Slim-taper neck with rolled fingerboard edges makes complex runs feel effortless",
-          "Treble bleed circuit maintains clarity when rolling back the volume",
-          "Professional-grade Jazz Bass for session and touring players"
-        ],
-        "pros_es": [
-          "Las pastillas V-Mod II single-coil ofrecen armónicos más ricos y una voz más articulada",
-          "El mástil slim-taper con bordes redondeados hace que los pasajes complejos sean sin esfuerzo",
-          "El circuito treble bleed mantiene la claridad al bajar el volumen",
-          "Jazz Bass de grado profesional para músicos de sesión y giras"
-        ],
-        "cons": [
-          "Jazz Bass single-coils differ clearly from the P-Bass split-coil punch",
-          "Passive circuit lacks the onboard EQ of active basses",
-          "Premium US-made price on American Ultra II"
-        ],
-        "cons_es": [
-          "Los single-coil del Jazz Bass difieren claramente del punch split-coil del P-Bass",
-          "El circuito pasivo carece del EQ incorporado de los bajos activos",
-          "Precio premium de fabricación estadounidense"
-        ]
-      },
-      {
-        "name": "Squier Affinity Series Precision Bass PJ",
-        "name_es": "Squier Affinity Series Precision Bass PJ",
-        "pros": [
-          "Combines a punchy split-coil Precision with a bridge single-coil Jazz pickup for tonal versatility",
-          "Lightweight poplar body with comfortable contours",
-          "Maple neck with 20-fret laurel fingerboard delivers fast, comfortable playability",
-          "The ultimate budget bass that punches way above its weight class"
-        ],
-        "pros_es": [
-          "Combina una pastilla split-coil Precision contundente con una single-coil Jazz en el puente para versatilidad tonal",
-          "Cuerpo de álamo ligero con contornos cómodos",
-          "Mástil de arce con diapasón de laurel de 20 trastes ofrece una ejecución rápida y cómoda",
-          "El bajo económico definitivo que golpea muy por encima de su clase de peso"
-        ],
-        "cons": [
-          "Poplar body is lighter and less resonant than alder or ash",
-          "Electronics and hardware are budget-grade versus the American Pro line",
-          "The PJ pickup switch requires some experimentation to dial in"
-        ],
-        "cons_es": [
-          "El cuerpo de álamo es más ligero y menos resonante que el aliso o el fresno",
-          "La electrónica y los herrajes son de grado económico frente a la línea American Pro",
-          "El conmutador PJ requiere experimentar para encontrar el sonido ideal"
-        ]
-      },
-      {
-        "name": "Sterling by Music Man StingRay Ray4",
-        "name_es": "Sterling by Music Man StingRay Ray4",
-        "pros": [
-          "Single ceramic humbucker delivers that signature thick, punchy StingRay tone",
-          "2-band active preamp lets you shape your sound with precision",
-          "Lightweight basswood body with hard maple neck",
-          "The definitive affordable StingRay experience"
-        ],
-        "pros_es": [
-          "Una humbucker cerámica ofrece el tono grueso y contundente característico del StingRay",
-          "El preamp activo de 2 bandas permite moldear tu sonido con precisión",
-          "Cuerpo de tilo ligero con mástil de arce duro",
-          "La experiencia StingRay asequible definitiva"
-        ],
-        "cons": [
-          "Ceramic pickup differs from the neodymium tone of the StingRay Special",
-          "2-band EQ is less flexible than the Special's 3-band active tone stack",
-          "Build quality and hardware reflect the more affordable price point"
-        ],
-        "cons_es": [
-          "La pastilla cerámica difiere del tono de neodimio del StingRay Special",
-          "El EQ de 2 bandas es menos flexible que el tono activo de 3 bandas del Special",
-          "La calidad de construcción y herrajes reflejan un precio más asequible"
         ]
       }
     ],
