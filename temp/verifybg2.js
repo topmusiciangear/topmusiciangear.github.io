@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/beginner-guitar.html', 'utf8');
+const i = h.indexOf('Fender CN-60S Nylon: A Closer Look');
+const seg = h.slice(i, i + 6000);
+console.log('G4M row:', seg.includes('data-store="gear4music"'));
+console.log('G4M 189:', seg.includes('£189'));
+console.log('amazon row:', seg.includes('B07K2JLS56'));
+const j = h.indexOf('Takamine GC1 Classical: A Closer Look');
+const seg2 = h.slice(j, j + 7000);
+console.log('GC1 zz:', seg2.includes('TAKGC1'), '| GC1 349:', seg2.includes('$349'));

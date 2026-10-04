@@ -4836,6 +4836,26 @@ const TEST_SHOP_BTN = {
       musicstore: "€399.00"
     }
   },
+  553: {
+    prices: {
+      gear4music: "£189.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B07K2JLS56"
+    }
+  },
+  554: {
+    prices: {
+      gear4music: "£209.00",
+      amazon: "$349.00",
+      zzounds: "$349.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1-Classical-Guitar-Natural/1FSN",
+      amazon: "https://www.amazon.com/dp/B00EOADUTU",
+      zzounds: "https://www.zzounds.com/a--925521/item--TAKGC1"
+    }
+  },
 }
 
 function shortTitle(title) {

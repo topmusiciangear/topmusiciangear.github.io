@@ -1,0 +1,20 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/beginner-guitar.html', 'utf8');
+console.log('sec CN-60S:', h.includes('Fender CN-60S Nylon: A Closer Look'));
+console.log('sec GC1:', h.includes('Takamine GC1 Classical: A Closer Look'));
+console.log('sec H2H:', h.includes('Head-to-Head: Fender CN-60S vs. Takamine GC1'));
+console.log('foto CN:', h.includes('71/719445'));
+console.log('foto GC1:', h.includes('52/527882'));
+console.log('FAQ nylon:', h.includes('Nylon or steel strings for a total beginner?'));
+console.log('veredicto CN:', h.includes('Rolled edges and walnut board feel broken-in'));
+console.log('veredicto GC1:', h.includes('Tank build holds tuning'));
+console.log('tabla CN col:', h.includes('<th>Fender CN-60S Nylon</th>'));
+console.log('tabla GC1 col:', h.includes('<th>Takamine GC1 Classical</th>'));
+console.log('tabla BestFor CN:', h.includes('Nylon comfort for small hands'));
+console.log('tabla precio GC1:', h.includes('~$349'));
+console.log('ES H2H:', fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/beginner-guitar_es.html', 'utf8').includes('Cara a cara: Fender CN-60S vs. Takamine GC1'));
+// JSON-LD valid?
+const blocks = [...h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+let bad = 0;
+blocks.forEach(m => { try { JSON.parse(m[1]); } catch (e) { bad++; } });
+console.log('jsonld bad:', bad);
