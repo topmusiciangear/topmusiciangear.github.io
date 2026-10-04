@@ -6,7 +6,7 @@ const { icon } = require('./js/icons.js');
 function normHead(s) {
   return (s || '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
 }
-const STOP_TOKENS = new Set(['audio','pro','live','series','edition','mk','the','and','vs','for','your','studio','best','what','which','with','from','how','why','es','el','la','los','las','para','una','un','mejor','del','de','y','o','a','en','que','como','cuando','donde','cual','son','se','su','this','that','are','is','do','does','should','buy','get','use']);
+const STOP_TOKENS = new Set(['audio','pro','live','series','edition','mk','the','and','vs','for','your','studio','best','what','which','with','from','how','why','es','el','la','los','las','para','una','un','mejor','del','de','y','o','a','en','que','como','cuando','donde','cual','son','se','su','this','that','are','is','do','does','should','buy','get','use','system','wireless','digital','microphone','mic','interface','monitor','monitors','guitar','bass','drums','piano','synth','pedal','pedals','speaker','speakers','mixer','mixers','headphones','keyboard','keyboards','amp','amps','preamp','console','software','usb','pair']);
 function prodTokens(p) {
   const t = normHead((p.title || '') + ' ' + (p.brand || ''));
   return t.split(' ').filter(function (w) { return w.length > 2 && !STOP_TOKENS.has(w); });
@@ -16,10 +16,18 @@ function sectionTopicProduct(s, prods) {
   let best = null, bestCount = 0;
   prods.forEach(function (p) {
     const toks = prodTokens(p);
-    const count = toks.filter(function (t) { return head.indexOf(t) > -1; }).length;
+    const count = topicScore(head, toks);
     if (count > bestCount) { best = p; bestCount = count; }
   });
   return bestCount > 0 ? best : (prods.length ? prods[0] : null);
+}
+
+function topicScore(head, toks) {
+  var s = 0;
+  toks.forEach(function (t) {
+    if (head.indexOf(t) > -1) s += /[0-9]/.test(t) ? 3 : 1;
+  });
+  return s;
 }
 
 var TMG_STORE_NAMES = { amazon: 'Amazon', zzounds: 'zZounds', gear4music: 'Gear4Music', andertons: 'Andertons', musicstore: 'Music Store', reverb: 'Reverb', pluginboutique: 'Plugin Boutique', hollyland: 'Hollyland', official: 'Official Store' };
@@ -5687,6 +5695,32 @@ function buildGuidePage(guide, lang, idx) {
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
 
   const renderedProducts = new Set();
+  // Photo ownership: each product's photo belongs to its dedicated section —
+  // the single-product section whose heading names it (first wins on ties).
+  // Generic overviews never steal the photo from the dedicated one.
+  const photoOwner = {};
+  (function() {
+    var byPid = {};
+    guide.sections.forEach(function(s, si) {
+      if (s.skipMedia) return;
+      var prods = s.products || [];
+      if (prods.length !== 1) return;
+      var pid = prods[0];
+      var head = normHead(((s.heading_es || '') + ' ' + (s.heading || '')));
+      var pr = null;
+      try { pr = products.find(function(x) { return x.id === pid; }); } catch (e) { pr = null; }
+      var score = 0;
+      if (pr) {
+        var toks = prodTokens(pr);
+        score = topicScore(head, toks);
+      }
+      (byPid[pid] = byPid[pid] || []).push({ si: si, score: score });
+    });
+    Object.keys(byPid).forEach(function(pid) {
+      var c = byPid[pid].sort(function(a, b) { return (b.score - a.score) || (a.si - b.si); });
+      photoOwner[pid] = c[0].si;
+    });
+  })();
   const sectionsHtml = guide.sections.map((s, si) => {
     const h = isEs && (s.heading_es || s.h_es || '') ? (s.heading_es || s.h_es || '') : (s.heading || s.h || '');
     const c = esText(isEs && s.content_es, s.content);
@@ -5696,6 +5730,7 @@ function buildGuidePage(guide, lang, idx) {
     if (!s.skipMedia && s.splitProducts && sectionProducts.length > 1) {
       const blocks = sectionProducts.map(p => {
         if (renderedProducts.has(p.id)) return '';
+        if ((p.id in photoOwner) && photoOwner[p.id] !== si) return '';
         renderedProducts.add(p.id);
         const t = isEs && p.title_es ? p.title_es : p.title;
         var prodVideo = p.video || null;
@@ -5717,7 +5752,8 @@ function buildGuidePage(guide, lang, idx) {
       productImgs = blocks ? '<div class="guide-section-prods">' + blocks + '</div>' : '';
     } else if (!s.skipMedia) {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
-      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id);
+      const ownedElsewhere = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
+      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id) && !ownedElsewhere;
       if (isFirstNew) {
         renderedProducts.add(firstProduct.id);
         sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
