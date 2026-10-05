@@ -42234,8 +42234,8 @@
               "value_es": "-55 dBV/Pa (XLR)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "-36 dBV/Pa (condenser capsule)",
+              "value_es": "-36 dBV/Pa (cápsula de condensador)"
             },
             {
               "value": "-57 dBV (analog path)",
@@ -42248,44 +42248,44 @@
           "label_es": "Ruido Propio",
           "values": [
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
+              "value": "N/A (passive analog capsule, no hiss)",
+              "value_es": "N/D (cápsula pasiva analógica sin siseo)"
             },
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
+              "value": "N/A (passive analog capsule, no hiss)",
+              "value_es": "N/D (cápsula pasiva analógica sin siseo)"
             },
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
+              "value": "N/A (passive analog capsule, no hiss)",
+              "value_es": "N/D (cápsula pasiva analógica sin siseo)"
             },
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
-            },
-            {
-              "value": "4 dBA",
-              "value_es": "4 dBA"
+              "value": "N/A (passive analog capsule, no hiss)",
+              "value_es": "N/D (cápsula pasiva analógica sin siseo)"
             },
             {
               "value": "4 dBA",
               "value_es": "4 dBA"
             },
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
+              "value": "4 dBA",
+              "value_es": "4 dBA"
             },
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
+              "value": "N/A (passive analog capsule, no hiss)",
+              "value_es": "N/D (cápsula pasiva analógica sin siseo)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (XLR) / DSP-processed (USB)",
+              "value_es": "N/D (XLR) / procesado por DSP (USB)"
             },
             {
-              "value": "N/A (passive dynamic)",
-              "value_es": "N/D (dinámico pasivo)"
+              "value": "16 dBA",
+              "value_es": "16 dBA"
+            },
+            {
+              "value": "N/A (XLR) / 19 dBA (USB-C)",
+              "value_es": "N/D (XLR) / 19 dBA (USB-C)"
             }
           ]
         },
@@ -42294,16 +42294,16 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "~160 dB SPL (physical capsule limit)",
+              "value_es": "~160 dB SPL (límite físico de la cápsula)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": ">140 dB SPL",
+              "value_es": ">140 dB SPL"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": ">140 dB SPL",
+              "value_es": ">140 dB SPL"
             },
             {
               "value": "Virtually infinite (passive dynamic)",
@@ -42318,8 +42318,8 @@
               "value_es": "142 dB SPL"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "~150 dB SPL",
+              "value_es": "~150 dB SPL"
             },
             {
               "value": "128 dB (USB)",
@@ -42330,8 +42330,8 @@
               "value_es": "132 dB (condensador)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "148 dB SPL (USB) / >140 dB (XLR)",
+              "value_es": "148 dB SPL (USB) / >140 dB (XLR)"
             }
           ]
         },
@@ -42372,12 +42372,12 @@
               "value_es": "350 Ω"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "2.4 GHz digital wireless",
+              "value_es": "Inalámbrico digital 2,4 GHz"
             },
             {
-              "value": "320 Ω (XLR)",
-              "value_es": "320 Ω (XLR)"
+              "value": "460 Ω (XLR)",
+              "value_es": "460 Ω (XLR)"
             }
           ]
         },
@@ -42386,40 +42386,40 @@
           "label_es": "Relación Señal-Ruido",
           "values": [
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (set by your interface/preamp)",
+              "value_es": "N/D (lo determina tu interfaz/previo)"
+            },
+            {
+              "value": "N/A (set by your interface/preamp)",
+              "value_es": "N/D (lo determina tu interfaz/previo)"
+            },
+            {
+              "value": "N/A (set by your interface/preamp)",
+              "value_es": "N/D (lo determina tu interfaz/previo)"
+            },
+            {
+              "value": "N/A (set by your interface/preamp)",
+              "value_es": "N/D (lo determina tu interfaz/previo)"
+            },
+            {
+              "value": "90 dBA",
+              "value_es": "90 dBA"
+            },
+            {
+              "value": "90 dBA",
+              "value_es": "90 dBA"
+            },
+            {
+              "value": "N/A (set by your interface/preamp)",
+              "value_es": "N/D (lo determina tu interfaz/previo)"
             },
             {
               "value": "Not published",
               "value_es": "No publicado"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "78 dB",
+              "value_es": "78 dB"
             },
             {
               "value": "Not published",
@@ -42432,32 +42432,32 @@
           "label_es": "Rango dinámico",
           "values": [
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (set by external preamp)",
+              "value_es": "N/D (lo determina el previo externo)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (set by external preamp)",
+              "value_es": "N/D (lo determina el previo externo)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (set by external preamp)",
+              "value_es": "N/D (lo determina el previo externo)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (set by external preamp)",
+              "value_es": "N/D (lo determina el previo externo)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "138 dB (XLR) / virtually infinite (32-bit float USB)",
+              "value_es": "138 dB (XLR) / prácticamente infinito (USB 32-bit float)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "138 dB",
+              "value_es": "138 dB"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (set by external preamp)",
+              "value_es": "N/D (lo determina el previo externo)"
             },
             {
               "value": "Not published",
@@ -42478,40 +42478,40 @@
           "label_es": "THD al SPL máximo",
           "values": [
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "N/A (virtually no harmonic saturation)",
+              "value_es": "N/D (saturación armónica prácticamente inexistente)"
+            },
+            {
+              "value": "N/A (none in normal voice use)",
+              "value_es": "N/D (inexistente en uso de voz normal)"
+            },
+            {
+              "value": "N/A (distortion-free dynamic design)",
+              "value_es": "N/D (diseño dinámico libre de distorsión)"
+            },
+            {
+              "value": "N/A (no distortion at voice frequencies)",
+              "value_es": "N/D (sin distorsión en frecuencias de voz)"
+            },
+            {
+              "value": "<1% THD",
+              "value_es": "<1% THD"
+            },
+            {
+              "value": "<1% THD",
+              "value_es": "<1% THD"
+            },
+            {
+              "value": "N/A (imperceptible harmonic saturation)",
+              "value_es": "N/D (saturación armónica imperceptible)"
             },
             {
               "value": "Not published",
               "value_es": "No publicado"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "<0.5% THD",
+              "value_es": "<0.5% THD"
             },
             {
               "value": "Not published",
