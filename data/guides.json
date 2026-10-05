@@ -88974,86 +88974,44 @@
           ]
         },
         {
-          "label": "Local I/O (XLR)",
-          "label_es": "E/S Local (XLR)",
+          "label": "Channels",
+          "label_es": "Canales",
           "values": [
             {
-              "value": "32 XLR",
-              "value_es": "32 XLR"
+              "value": "32 channels (up to 40)",
+              "value_es": "32 canales (hasta 40)"
             },
             {
-              "value": "32 XLR",
-              "value_es": "32 XLR"
+              "value": "32 channels (up to 40)",
+              "value_es": "32 canales (hasta 40)"
             },
             {
-              "value": "24 XLR (recallable)",
-              "value_es": "24 XLR (recallables)"
-            },
-            {
-              "value": "24 inputs (20 XLR + line)",
-              "value_es": "24 entradas (20 XLR + línea)"
-            },
-            {
-              "value": "24 XLR",
-              "value_es": "24 XLR"
-            },
-            {
-              "value": "32 combo XLR/TRS",
-              "value_es": "32 combo XLR/TRS"
-            },
-            {
-              "value": "32 XLR",
-              "value_es": "32 XLR"
-            },
-            {
-              "value": "16 XLR + 16 Combo",
-              "value_es": "16 XLR + 16 combo"
-            },
-            {
-              "value": "16 XLR",
-              "value_es": "16 XLR"
-            }
-          ]
-        },
-        {
-          "label": "Processing Capacity",
-          "label_es": "Capacidad de Procesamiento",
-          "values": [
-            {
-              "value": "40 channels (32 mic + 8 aux)",
-              "value_es": "40 canales (32 mic + 8 aux)"
-            },
-            {
-              "value": "40 channels (32 mic + 8 aux)",
-              "value_es": "40 canales (32 mic + 8 aux)"
-            },
-            {
-              "value": "48 channels",
-              "value_es": "48 canales"
+              "value": "24 channels (up to 48)",
+              "value_es": "24 canales (hasta 48)"
             },
             {
               "value": "24 channels",
               "value_es": "24 canales"
             },
             {
-              "value": "48 channels",
-              "value_es": "48 canales"
+              "value": "24 channels (up to 48)",
+              "value_es": "24 canales (hasta 48)"
             },
             {
               "value": "32 channels",
               "value_es": "32 canales"
             },
             {
-              "value": "32 channels (expandable to 40)",
-              "value_es": "32 canales (expandible a 40)"
+              "value": "32 channels (up to 40)",
+              "value_es": "32 canales (hasta 40)"
             },
             {
               "value": "32 channels",
               "value_es": "32 canales"
             },
             {
-              "value": "32 channels",
-              "value_es": "32 canales"
+              "value": "32 channels (16 local, expands to 32)",
+              "value_es": "32 canales (16 físicos, expande a 32)"
             }
           ]
         },
@@ -89188,40 +89146,40 @@
           "label_es": "Faders Físicos",
           "values": [
             {
-              "value": "25 motorized",
-              "value_es": "25 motorizados"
+              "value": "16 motorized",
+              "value_es": "16 motorizados"
             },
             {
-              "value": "25 motorized",
-              "value_es": "25 motorizados"
+              "value": "16 motorized",
+              "value_es": "16 motorizados"
             },
             {
-              "value": "25 motorized",
-              "value_es": "25 motorizados"
-            },
-            {
-              "value": "0 (app only)",
-              "value_es": "0 (solo app)"
-            },
-            {
-              "value": "25 motorized",
-              "value_es": "25 motorizados"
+              "value": "24 motorized",
+              "value_es": "24 motorizados"
             },
             {
               "value": "0 (app only)",
               "value_es": "0 (solo app)"
             },
             {
-              "value": "33 motorized",
-              "value_es": "33 motorizados"
+              "value": "24 motorized",
+              "value_es": "24 motorizados"
             },
             {
               "value": "0 (app only)",
               "value_es": "0 (solo app)"
             },
             {
-              "value": "17 motorized",
-              "value_es": "17 motorizados"
+              "value": "32 motorized",
+              "value_es": "32 motorizados"
+            },
+            {
+              "value": "0 (app only)",
+              "value_es": "0 (solo app)"
+            },
+            {
+              "value": "16 motorized",
+              "value_es": "16 motorizados"
             }
           ]
         },
