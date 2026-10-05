@@ -4893,6 +4893,20 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Ampeg-RB-115-Rocket-Bass-Amplifier/art-BAS0011676-000"
     }
   },
+  557: {
+    prices: {
+      gear4music: "£324.50",
+      andertons: "£359.00",
+      musicstore: "€419.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BOSKTN50EXV3",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-Katana-50-EX-Gen-3-1x12-Combo/6E9C",
+      andertons: "https://www.andertons.co.uk/boss-katana-50-ex-gen-3-50w-guitar-amp-combo/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Boss-Katana-50-EX-Gen-3-Combo/art-GIT0061743-000",
+      amazon: "https://www.amazon.com/Katana-50-50-watt-12-inch-Combo-Amplifier/dp/B0D1ZCK91X"
+    }
+  },
 }
 
 function shortTitle(title) {
