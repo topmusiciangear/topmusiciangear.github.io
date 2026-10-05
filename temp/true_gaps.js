@@ -7,8 +7,8 @@ const STOP = new Set(['audio', 'pro', 'live', 'series', 'edition', 'studio', 'be
 function distinctive(title, brand) {
   const toks = normHead((title || '') + ' ' + (brand || '')).split(' ').filter(w => w.length > 1);
   return {
-    model: toks.filter(t => /[0-9]/.test(t) && t.length > 2),
-    names: toks.filter(t => t.length >= 4 && !STOP.has(t))
+    model: toks.filter(t => /[0-9]/.test(t) && t.length > 1),
+    names: toks.filter(t => t.length >= 3 && !STOP.has(t))
   };
 }
 // TRUE gaps: product in guide with NO section naming it (model token OR >=2 name tokens)
