@@ -436,7 +436,7 @@
           "120dB dynamic range with studio-grade conversion",
           "Air mode adds a high-frequency lift inspired by vintage Neve consoles",
           "Loopback routing built in for streaming and podcasting",
-          "The best-selling interface in its class, with clean preamps and a tough chassis"
+          "Proven interface with clean preamps and a tough chassis"
         ],
         "cons": [
           "Only 2 inputs — a drummer or a band tracking live needs eight or more",
@@ -448,7 +448,7 @@
           "120dB de rango dinámico con conversión de grado estudio",
           "El modo Air añade un realce de altas frecuencias inspirado en consolas Neve vintage",
           "Enrutamiento Loopback integrado para streaming y podcasting",
-          "La interfaz más vendida de su clase, con preamplificadores limpios y un chasis resistente"
+          "Interfaz probada con preamplificadores limpios y un chasis resistente"
         ],
         "cons_es": [
           "Solo 2 entradas — un baterista o una banda grabando en vivo necesita ocho o más",
@@ -461,7 +461,7 @@
         "name": "Shure SM57",
         "name_es": "Shure SM57",
         "pros": [
-          "One of the most recorded microphones in history",
+          "Die-cast body that survives drops, heat and decades of stage abuse",
           "Indestructible — handles vocals, guitar amps and podcasts",
           "Tight cardioid rejects off-axis sound, keeping bleed from other instruments out of the take",
           "150Ω output works with any mixer or interface"
@@ -473,7 +473,7 @@
           "No pad or filter on the mic, so very loud sources can clip without careful gain"
         ],
         "pros_es": [
-          "Es uno de los micrófonos más grabados de la historia",
+          "Cuerpo fundido que sobrevive a caídas, calor y décadas de escenario",
           "Indestructible — maneja voces, amplificadores de guitarra y podcasts",
           "El cardioide ajustado rechaza el sonido fuera de eje, manteniendo la fuga de otros instrumentos fuera de la toma",
           "La salida de 150Ω funciona con cualquier mesa o interfaz"
@@ -520,7 +520,7 @@
           "Built-in DSP room correction lets you tune the bass to your room without treatment",
           "Front-firing bass port works well in small rooms",
           "Kevlar drivers deliver punchy, detailed mids",
-          "The best-selling beginner monitor at a great price per pair"
+          "Front-ported design that works close to walls in untreated bedrooms"
         ],
         "cons": [
           "Generous bass needs a learning curve — check mixes on other systems",
@@ -532,7 +532,7 @@
           "La corrección de sala DSP integrada permite ajustar los graves a tu habitación sin tratamiento",
           "El puerto de graves frontal funciona bien en salas pequeñas",
           "Los drivers de Kevlar ofrecen medios contundentes y detallados",
-          "El monitor más vendido entre principiantes, con un gran precio por par"
+          "Diseño con puerto frontal que funciona pegado a la pared en dormitorios sin tratar"
         ],
         "cons_es": [
           "Los graves generosos requieren aprendizaje — comprueba tus mezclas en otros sistemas",
@@ -2854,13 +2854,13 @@
         "name": "MXL R144",
         "name_es": "MXL R144",
         "pros": [
-          "Most affordable way to get real ribbon sound",
+          "Passive ribbon smoothness for guitar cabs and overheads at the lowest price",
           "Warm, vintage tone great for guitar cabs and vocals",
           "More character than any condenser at this price",
           "Figure-8 pattern for natural stereo recording"
         ],
         "pros_es": [
-          "La forma más económica de obtener sonido ribbon real",
+          "Suavidad ribbon pasiva para pantallas de guitarra y overheads al precio más bajo",
           "Tono cálido y vintage excelente para cabinas y voces",
           "Más carácter que cualquier condensador a este precio",
           "Patrón figura-8 para grabación estéreo natural"
@@ -3508,8 +3508,8 @@
               "value_es": "50W (25W + 25W)"
             },
             {
-              "value": "90W (45W + 45W)",
-              "value_es": "90W (45W + 45W)"
+              "value": "140W (90W + 50W)",
+              "value_es": "140W (90W + 50W)"
             },
             {
               "value": "550W (250W + 150W + 150W)",
@@ -4721,13 +4721,13 @@
         "name_es": "Native Instruments Komplete 26 Definitivo",
         "pros": [
           "Over 150 instruments and effects covering every sound imaginable",
-          "Kontakt 8 — the ultimate sampler platform with thousands of libraries",
+          "Kontakt 8 — the sampler platform with thousands of third-party libraries",
           "Massive X wavetable synthesis, Guitar Rig 7, Session Strings, and Cremona Quartet",
           "Replaces a studio full of hardware"
         ],
         "pros_es": [
           "Más de 150 instrumentos y efectos que cubren todo sonido imaginable",
-          "Kontakt 8 — la plataforma de sampler definitiva con miles de librerías",
+          "Kontakt 8 — la plataforma de sampler con miles de librerías de terceros",
           "Síntesis wavetable Massive X, Guitar Rig 7, Session Strings y Cremona Quartet",
           "Sustituye a un estudio lleno de hardware"
         ],
@@ -4735,13 +4735,13 @@
           "The biggest single spend in this guide",
           "Huge installation — hundreds of gigabytes and long load times",
           "Instruments only — you still need FabFilter and Soundtoys for mixing and effects",
-          "Ultimate is more than producers need who just want Kontakt plus a few synths"
+          "Huge library size and price punish producers who only want Kontakt plus a few synths"
         ],
         "cons_es": [
           "El mayor desembolso único de esta guía",
           "Instalación enorme — cientos de gigabytes y tiempos de carga largos",
           "Solo instrumentos — aún necesitas FabFilter y Soundtoys para mezclar y efectos",
-          "Ultimate es más de lo que necesita un productor que solo quiere Kontakt y algunos sintetizadores"
+          "El tamaño y precio de la librería castigan a quien solo quiere Kontakt y pocos sintes"
         ]
       },
       {
@@ -6056,7 +6056,7 @@
         "name": "Shure SM57",
         "name_es": "Shure SM57",
         "pros": [
-          "The most recorded microphone in history — legendary reliability",
+          "Die-cast body and capsule that survive drops, heat and decades of stage abuse",
           "Handles guitar amps, snares, and horns with authority no other mic matches",
           "Tight cardioid gives excellent off-axis rejection for multi-mic setups",
           "Indestructible build survives drops, kicks, and decades of use"
@@ -6068,7 +6068,7 @@
           "Leans on proximity effect, so placement strongly shapes the tone"
         ],
         "pros_es": [
-          "El micrófono más grabado de la historia — fiabilidad legendaria",
+          "Cuerpo fundido y cápsula que sobreviven a caídas, calor y décadas de escenario",
           "Maneja amplificadores, cajas y metales con una autoridad que ningún otro mic iguala",
           "Cardioide ajustado ofrece excelente rechazo fuera del eje para setups multi-mic",
           "Construcción indestructible sobrevive caídas, patadas y décadas de uso"
@@ -7749,7 +7749,7 @@
           "4 patterns cover every use case",
           "Iconic design, plug-and-play",
           "Headphone jack with volume control",
-          "Best-selling USB mic ever"
+          "Four pickup patterns (cardioid, stereo, omni, bidirectional) cover podcasting and music"
         ],
         "cons": [
           "Self-noise higher than modern rivals (22 dBA)",
@@ -7761,7 +7761,7 @@
           "4 patrones cubren todo caso de uso",
           "Diseño icónico, plug-and-play",
           "Jack auriculares con control volumen",
-          "Micrófono USB más vendido historia"
+          "Cuatro patrones (cardioide, estéreo, omni, bidireccional) cubren pódcast y música"
         ],
         "cons_es": [
           "Ruido propio superior a rivales modernos (22 dBA)",
@@ -12355,14 +12355,14 @@
         "name": "Audio-Technica ATH-M50x",
         "name_es": "Audio-Technica ATH-M50x",
         "pros": [
-          "One of the best-selling studio headphones — does many things well",
+          "Foldable closed-back design with detailed mids for tracking and cue mixes",
           "Slightly forward, engaging sound with bass emphasis that suits long sessions",
           "Collapsible frame and detachable cable make them practical for travel",
           "Three included cables cover every connection scenario",
           "Versatile enough for vocalist, guitarist, and producer in one studio"
         ],
         "pros_es": [
-          "Uno de los auriculares de estudio más vendidos — hace muchas cosas bien",
+          "Diseño cerrado plegable con medios detallados para grabar y mezclas de referencia",
           "Sonido ligeramente adelantado y envolvente con énfasis en graves ideal para sesiones largas",
           "El chasis plegable y el cable desmontable los hacen prácticos para viajar",
           "Los tres cables incluidos cubren cada escenario de conexión",
@@ -15189,7 +15189,7 @@
           "9 bands of drawable rhythmic modulation",
           "Volume/Filter/Pan/Width/Time/Flanger/Drive",
           "MIDI trigger + cable for sidechain",
-          "Ultimate creative gating/stutter tool"
+          "Draw-your-own volume, filter and time curves synced to the DAW grid"
         ],
         "cons": [
           "Can be overwhelming at first",
@@ -15201,7 +15201,7 @@
           "9 bandas modulación rítmica dibujables",
           "Volumen/Filtro/Pan/Ancho/Tiempo/Flanger/Drive",
           "Trigger MIDI + cable para sidechain",
-          "Herramienta creativa gating/stutter definitiva"
+          "Dibuja tus propias curvas de volumen, filtro y tiempo sincronizadas a la rejilla del DAW"
         ],
         "cons_es": [
           "Puede abrumar al principio",
@@ -17422,7 +17422,7 @@
         "pros": [
           "Absolute entry standard for home studios",
           "Excellent transient handling",
-          "Unbeatable price",
+          "Full-size condenser sound at the lowest street price in its class",
           "Durable build"
         ],
         "cons": [
@@ -17434,7 +17434,7 @@
         "pros_es": [
           "Estándar absoluto para iniciar home studio",
           "Excelente manejo de transitorios",
-          "Precio imbatible",
+          "Sonido de condensador de tamaño completo al precio de calle más bajo de su clase",
           "Construcción duradera"
         ],
         "cons_es": [
@@ -17616,7 +17616,7 @@
         "name": "Neumann U 87 Ai",
         "name_es": "Neumann U 87 Ai",
         "pros": [
-          "Most famous studio condenser in history",
+          "The reference vocal condenser engineers reach for when nothing may fail",
           "Exceptionally flat frequency response works on anything",
           "Retains resale value better than any gear",
           "Three patterns cover vocals, rooms and stereo"
@@ -17628,7 +17628,7 @@
           "Switch clicks can leak into quiet takes"
         ],
         "pros_es": [
-          "Micrófono condensador estudio más famoso historia",
+          "El condensador vocal de referencia cuando nada puede fallar",
           "Respuesta frecuencia excepcionalmente plana",
           "Retiene valor comercial mejor que cualquier equipo",
           "Tres patrones que cubren voces, salas y estéreo"
@@ -19524,13 +19524,13 @@
           "Two Player Series single-coils deliver unmistakable Tele twang",
           "Bridge pickup twang defined country; roll the tone back and it becomes a blues machine",
           "Simple, rugged layout — two pickups, three knobs, one switch",
-          "The most recorded electric guitar in history"
+          "Two single-coils with Tele snap that cuts through any mix"
         ],
         "pros_es": [
           "Dos single-coils Player Series ofrecen el inconfundible twang de Tele",
           "El twang del puente definió el country; baja el tono y se vuelve una máquina de blues",
           "Configuración simple y robusta — dos pastillas, tres mandos, un selector",
-          "La guitarra eléctrica más grabada de la historia"
+          "Dos single-coils con chasquido Tele que corta cualquier mezcla"
         ],
         "cons": [
           "No humbucker option for heavier genres",
@@ -20028,7 +20028,7 @@
           "values": [
             {
               "value": "Small-venue blues and rock gigs",
-              "value_es": "bolos pequeños de blues y rock"
+              "value_es": "presentaciones pequeñas de blues y rock"
             },
             {
               "value": "Gig-ready modeling amp for home and stage",
@@ -20044,7 +20044,7 @@
             },
             {
               "value": "Live bass gigs with classic tone",
-              "value_es": "bolos de bajo con tono clásico"
+              "value_es": "presentaciones de bajo con tono clásico"
             },
             {
               "value": "Gigging bassists needing portability",
@@ -21855,13 +21855,13 @@
         "name": "Ibanez TS9 Tube Screamer",
         "name_es": "Ibanez TS9 Tube Screamer",
         "pros": [
-          "The most recorded overdrive pedal in history",
+          "Mid-hump drive that pushes tube amps into singing sustain",
           "Signature mid-boost around 800Hz cuts through a dense band mix",
           "Works three ways — clean boost, standalone overdrive or tone shaper",
           "Responds to the guitar's volume knob — roll back for clean, roll up for grit"
         ],
         "pros_es": [
-          "El pedal de overdrive más grabado de la historia",
+          "Drive con empuje de medios que lleva amplis de válvulas al sustain cantarín",
           "El realce de medios característico alrededor de 800Hz corta una mezcla de banda densa",
           "Funciona de tres maneras — boost limpio, overdrive independiente o moldeador de tono",
           "Responde al control de volumen de la guitarra — baja para limpio, sube para mugre"
@@ -22756,13 +22756,13 @@
         "name": "Gibson SJ-200",
         "name_es": "Gibson SJ-200",
         "pros": [
-          "The King of the Flat-Tops — the most iconic jumbo acoustic ever made, played by Elvis and Bob Dylan",
+          "Jumbo maple body with huge headroom for strummers and vocal accompaniment",
           "Flame maple back and sides and hand-scalloped Sitka top deliver a huge, crystalline voice that records beautifully",
           "Super Jumbo body produces enormous bass and projection for a commanding stage presence",
           "A timeless collector's guitar with strong resale value"
         ],
         "pros_es": [
-          "El Rey de las Flat-Tops — la jumbo acústica más icónica jamás fabricada, tocada por Elvis y Bob Dylan",
+          "Cuerpo jumbo de arce con gran margen para rasgueos y acompañar la voz",
           "El fondo y aros de arce flameado y la tapa Sitka escallopada a mano entregan una voz enorme y cristalina que graba de maravilla",
           "El cuerpo Super Jumbo produce graves y proyección enormes para una presencia imponente en el escenario",
           "Una guitarra de colección atemporal con fuerte valor de reventa"
@@ -22949,11 +22949,11 @@
           "values": [
             {
               "value": "Small gigs and rehearsals on a budget",
-              "value_es": "Bolos pequeños y ensayos económicos"
+              "value_es": "Presentaciones pequeñas y ensayos económicos"
             },
             {
               "value": "Small-venue gigs and monitoring",
-              "value_es": "bolos pequeños y monitorización"
+              "value_es": "presentaciones pequeñas y monitorización"
             },
             {
               "value": "Coaxial all-rounder, full-range + monitor",
@@ -22961,15 +22961,15 @@
             },
             {
               "value": "All-in-one column system for small gigs",
-              "value_es": "Sistema de columna todo-en-uno para bolos pequeños"
+              "value_es": "Sistema de columna todo-en-uno para presentaciones pequeñas"
             },
             {
               "value": "Loud live gigs and outdoor events",
-              "value_es": "bolos potentes y eventos al aire libre"
+              "value_es": "presentaciones potentes y eventos al aire libre"
             },
             {
               "value": "Mobile gigs and street performances",
-              "value_es": "bolos móviles y actuaciones callejeras"
+              "value_es": "presentaciones móviles y actuaciones callejeras"
             }
           ]
         },
@@ -29988,7 +29988,7 @@
         "cons_es": [
           "El tacto composite divide a puristas de madera",
           "El altavoz no sustituye un ampli real en escenario",
-          "La rutina de carga añade logística de bolo",
+          "La rutina de carga añade logística de presentaciones",
           "Reventa más floja que Fender o Gibson"
         ]
       },
@@ -30851,7 +30851,7 @@
         "name": "Akai MPK Mini MK4",
         "name_es": "Akai MPK Mini MK4",
         "pros": [
-          "The best-selling compact MIDI controller — fits in a backpack",
+          "25 mini keys plus 8 pads in a backpack-sized footprint",
           "25 velocity-sensitive mini keys and 8 MPC-style RGB pads",
           "Real pitch and mod wheels, a colour screen and 1,000+ bundled sounds (AIR, Akai Pro, Moog)",
           "USB-C with a 5-pin MIDI output for DAW-less hardware"
@@ -30863,7 +30863,7 @@
           "Tiny knobs crowd tweaks for larger hands"
         ],
         "pros_es": [
-          "El controlador MIDI compacto más vendido — perfecto para portátil y mochila",
+          "25 miniteclas más 8 pads en un formato de tamaño mochila",
           "25 mini teclas sensibles a la velocidad y 8 pads RGB estilo MPC",
           "Ruedas reales de pitch y mod, pantalla a color y más de 1,000 sonidos incluidos (AIR, Akai Pro, Moog)",
           "USB-C con salida MIDI de 5 pines para hardware sin DAW"
@@ -36457,7 +36457,7 @@
           105
         ],
         "heading": "Is the EV ZLX-12P-G2 the Best Budget PA Speaker?",
-        "content_es": "<strong>Para bandas que compran su primer PA serio, esta caja de segunda generación clava el equilibrio entre potencia y sencillez.</strong> La amplificación Clase-D con generoso margen de pico mantiene bombo y voces limpios al apretar, mientras los preajustes DSP basados en FIR adaptan la respuesta para música, directo, voz y club, sin procesador externo. El woofer de 12 pulgadas con driver de compresión de titanio equilibra alcance y claridad, todo en una caja ligera que una sola persona puede levantar. He mezclado bolos en bares con cajas de preajustes así y el montaje llevó minutos, no horas. Ideales para DJs móviles y bandas que giran. Revisa los pies, la cobertura y la combinación con subgraves antes de comprar."
+        "content_es": "<strong>Para bandas que compran su primer PA serio, esta caja de segunda generación clava el equilibrio entre potencia y sencillez.</strong> La amplificación Clase-D con generoso margen de pico mantiene bombo y voces limpios al apretar, mientras los preajustes DSP basados en FIR adaptan la respuesta para música, directo, voz y club, sin procesador externo. El woofer de 12 pulgadas con driver de compresión de titanio equilibra alcance y claridad, todo en una caja ligera que una sola persona puede levantar. He mezclado presentaciones en bares con cajas de preajustes así y el montaje llevó minutos, no horas. Ideales para DJs móviles y bandas que giran. Revisa los pies, la cobertura y la combinación con subgraves antes de comprar."
       },
       {
         "content": "<p><strong>Buy the QSC K12.2 if you need professional-grade output, clarity, and reliability for touring and larger venues.</strong> The K12.2 is the portable PA speaker others get measured against. Its class-D amplification delivers 2000 watts peak with pristine clarity across the frequency range. The waveguide provides a 75-degree coverage pattern that sounds consistent across the venue. The DSP includes multiple presets. The rugged ABS enclosure handles years of touring abuse. With its massive headroom, the K12.2 produces clean sound levels that smaller speakers cannot approach without distorting.</p>",
@@ -36551,7 +36551,7 @@
       "best2_es": "PA profesional versátil",
       "key1_es": "El Campeón económico con Versatilidad DSP",
       "key2_es": "El Estándar profesional con Potencia Clase D",
-      "faq_q1_es": "Mi banda necesita altavoces de 12 pulgadas que aguanten bolos semanales sin fundirse — ¿basta el EV o estiro al QSC por fiabilidad?",
+      "faq_q1_es": "Mi banda necesita altavoces de 12 pulgadas que aguanten presentaciones semanales sin fundirse — ¿basta el EV o estiro al QSC por fiabilidad?",
       "faq_a1_es": "Compra el ZLX-12P-G2 para un altavoz autoamplificado económico y fiable para conciertos pequeños, bares y eventos escolares — suena sorprendentemente bien por el precio. Compra el QSC K12.2 si trabajas profesionalmente y necesitas más potencia, un gabinete más robusto y la fiabilidad de gira en la que confían las empresas de alquiler. El ZLX es el campeón del valor; el K12.2 es el estándar pro.",
       "faq_q2_es": "¿Cuál es la diferencia entre el EV ZLX-12P-G2 y el QSC K12.2?",
       "faq_a2_es": "El ZLX-12P-G2 es un altavoz de 12 pulgadas con 2000W pico, presets DSP y mezclador de dos canales con Bluetooth, en un gabinete de polipropileno ligero. El QSC K12.2 es de 12 pulgadas con 2000W pico, carcasa compuesta de madera más pesada, DSP avanzado y más headroom de salida y claridad a alto SPL. El ZLX es ligero y portátil por su precio; el K12.2 es más pesado, más fuerte y hecho para años de maltrato profesional.",
@@ -36777,7 +36777,7 @@
           108
         ],
         "heading": "Is the DXR12mkII the Best Traditional PA Speaker?",
-        "content_es": "<strong>Cuando la fiabilidad importa más que los adornos, la respuesta neutra de Yamaha gana bolos.</strong> La eficiente amplificación Clase-D mueve el woofer de 12 pulgadas y el driver de compresión con margen limpio, mientras el ajuste FIR-X mantiene la fase coherente para que las voces sigan inteligibles a volumen alto. El procesado D-XSUB extiende el control de graves sin embarrar. La caja robusta con rejilla metálica y múltiples puntos de colgado sirve como PA, cuña o sistema volado. He sonorizado salas con cajas neutras así al lado de rivales con graves pasados y necesité mucha menos ecualización. Ideales para bandas, DJs y locales que buscan una respuesta fiable. Revisa el peso, el colgado y si se solapa con el DSP de tu mesa."
+        "content_es": "<strong>Cuando la fiabilidad importa más que los adornos, la respuesta neutra de Yamaha consigue presentaciones.</strong> La eficiente amplificación Clase-D mueve el woofer de 12 pulgadas y el driver de compresión con margen limpio, mientras el ajuste FIR-X mantiene la fase coherente para que las voces sigan inteligibles a volumen alto. El procesado D-XSUB extiende el control de graves sin embarrar. La caja robusta con rejilla metálica y múltiples puntos de colgado sirve como PA, cuña o sistema volado. He sonorizado salas con cajas neutras así al lado de rivales con graves pasados y necesité mucha menos ecualización. Ideales para bandas, DJs y locales que buscan una respuesta fiable. Revisa el peso, el colgado y si se solapa con el DSP de tu mesa."
       },
       {
         "content": "<p><strong>The PRX ONE is an innovative all-in-one PA system.</strong> It combines a powered column array subwoofer with a 12-channel digital mixer featuring Class 1 Bluetooth audio, automatic feedback suppression, and dbx compression. The column array design provides even coverage across the venue without the hot spots typical of traditional speakers. Packing and cabling are incredibly fast for solo acts with limited load-in time. The built-in mixer eliminates the need for a separate mixing console, making it ideal for solo performers and small bands.</p>",
@@ -37041,7 +37041,7 @@
         ]
       }
     ],
-    "description_es": "En 2026, Uso el par DXR para conciertos de banda y el PRX ONE para shows solistas. Uno escala, el otro vacía la furgoneta. Distintos bolos, distintas",
+    "description_es": "En 2026, Uso el par DXR para conciertos de banda y el PRX ONE para actuaciones como solista. Uno escala, el otro vacía la furgoneta. Distintas presentaciones, distintas",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -38851,7 +38851,7 @@
       "best2_es": "Brillo británico y rock independiente",
       "key1_es": "15 Vatios con Altavoz Jensen de 12 Pulgadas",
       "key2_es": "30 Vatios con Canal Top Boost",
-      "faq_q1_es": "Toco blues en casa y bolos pequeños — ¿basta el Fender de 15 vatios o necesito el Vox de 30 para que me oigan con el batería?",
+      "faq_q1_es": "Toco blues en casa y presentaciones pequeñas — ¿basta el Fender de 15 vatios o necesito el Vox de 30 para que me oigan con el batería?",
       "faq_a1_es": "Compra el Blues Junior IV por el clásico tono de válvulas Fender en un combo ligero y portátil de 15W — perfecto para casa, grabación y conciertos pequeños, con ese limpio cálido y el break-up. Compra el Vox AC30 si necesitas el chime británico completo — el sonido Top Boost brillante y jangle de innumerables discos — y puedes cargar con un ampli de 70 libras. El BJ es el clásico práctico; el AC30 es el icono con carácter.",
       "faq_q2_es": "¿Cuál es la diferencia entre el Blues Junior IV y el AC30?",
       "faq_a2_es": "El Blues Junior IV es un combo de válvulas de 15W con altavoz Jensen de 12 pulgadas, reverb de muelle y una voz Fender cálida, pesando unas 31 libras. El Vox AC30 es un ampli de válvulas de 30W con el famoso canal Top Boost y altavoces Celestion, entregando ese sonido británico brillante y chimey a mucho más volumen — y superando las 70 libras. El BJ es el limpio Fender portátil; el AC30 es el brillo británico, ruidoso y con carácter.",
@@ -42949,7 +42949,7 @@
         ],
         "cons_es": [
           "Un paso por debajo del SM58 en pruebas ciegas",
-          "Acabado y rejilla se gastan antes con bolos",
+          "Acabado y rejilla se gastan antes con las presentaciones",
           "La salida baja pide ganancia limpia",
           "Sin ruta USB para grabación directa"
         ]
@@ -45064,13 +45064,13 @@
           "D-ART ribbon tweeter brings ADAM's signature transient detail to a desktop system",
           "Dual passive radiators extend bass to 45 Hz from a 3.5-inch aluminum woofer",
           "240W peak amplification and DSP room compensation; USB-C + dual TRS + headphone out",
-          "The most affordable way into ADAM ribbon-tweeter sound at ~$350 for the pair"
+          "Coaxial USB-powered monitors that fit on crowded desks"
         ],
         "pros_es": [
           "El tweeter de cinta D-ART aporta el detalle transitorio característico de ADAM a un sistema de escritorio",
           "Los dobles radiadores pasivos extienden los graves hasta 45 Hz desde un woofer de aluminio de 3.5 pulgadas",
           "240W de amplificación pico y compensación DSP de sala; USB-C + doble TRS + salida de auriculares",
-          "La forma más asequible de entrar al sonido de cinta de ADAM a ~$350 el par"
+          "Monitores coaxiales alimentados por USB que caben en escritorios llenos"
         ],
         "cons": [
           "3.5-inch woofer limits max output — 96 dB SPL max",
@@ -46012,13 +46012,13 @@
         "name": "Squier Affinity Series Stratocaster",
         "name_es": "Squier Affinity Series Stratocaster",
         "pros": [
-          "Iconic Stratocaster look and feel — the most recorded guitar shape in history",
+          "Comfortable contoured body with three single-coils for clean-to-crunch versatility",
           "Slim C-shaped neck, sealed tuners and surprisingly good alnico pickups",
           "Highly modifiable — great platform to upgrade pickups and hardware later",
           "The world's most popular beginner guitar for good reason"
         ],
         "pros_es": [
-          "Aspecto y sensación icónicos de Stratocaster — la forma de guitarra más grabada de la historia",
+          "Cuerpo contorneado cómodo con tres single-coils versátiles de limpio a crunch",
           "Mástil en C delgado, afinadores sellados y pastillas alnico sorprendentemente buenas",
           "Altamente modificable — gran base para mejorar pastillas y herrajes después",
           "La guitarra de principiante más popular del mundo, con razón"
@@ -47767,7 +47767,7 @@
         "heading": "Is the Boss Katana 50 Gen 3 the Best Amp for Guitar and Bass?",
         "heading_es": "¿Es el Boss Katana 50 Gen 3 el mejor amplificador para guitarra y bajo?",
         "content": "<strong>If you want one amp that covers bedroom practice and small gigs without a pedalboard, this is the safe bet I recommend most.</strong> Twelve amp characters span pristine cleans to modern high gain, and the huge built-in effect library means drive, modulation, delay and ambience are already inside. Switchable output levels are the clever part: full voice for rehearsal, whisper level at home, with Cab Resonance and multiband EQ keeping tone full when quiet. I have dialed a gig-ready crunch in minutes with no menu diving. Ideal as a do-everything first serious amp; check that you will use the editor software to unlock its depth.",
-        "content_es": "<strong>Si quieres un ampli que cubra la práctica en casa y los bolos pequeños sin pedalera, esta es la apuesta segura que más recomiendo.</strong> Doce caracteres de amplificador van del limpio cristalino a la alta ganancia moderna, y la enorme librería de efectos ya incluye saturación, modulación, delay y ambiente. Los niveles de salida conmutables son la clave: voz completa para ensayar y nivel susurro en casa, con Cab Resonance y ecualización multibanda manteniendo el cuerpo a bajo volumen. He logrado un crunch listo para el bolo en minutos sin perderme en menús. Ideal como primer ampli serio todoterreno; comprueba que usarás el software editor para exprimirlo.",
+        "content_es": "<strong>Si quieres un ampli que cubra la práctica en casa y las presentaciones pequeñas sin pedalera, esta es la apuesta segura que más recomiendo.</strong> Doce caracteres de amplificador van del limpio cristalino a la alta ganancia moderna, y la enorme librería de efectos ya incluye saturación, modulación, delay y ambiente. Los niveles de salida conmutables son la clave: voz completa para ensayar y nivel susurro en casa, con Cab Resonance y ecualización multibanda manteniendo el cuerpo a bajo volumen. He logrado un crunch listo para la presentación en minutos sin perderme en menús. Ideal como primer ampli serio todoterreno; comprueba que usarás el software editor para exprimirlo.",
         "products": [
           72
         ]
@@ -48314,7 +48314,7 @@
           "Querido por usuarios de escritorio tras una década de refinamientos"
         ],
         "cons_es": [
-          "20W no dan para bolos sin PA",
+          "20W no dan para presentaciones sin PA",
           "Necesita enchufe — sin batería a bordo",
           "Los altavoces pequeños adelgazan a volumen",
           "La app es necesaria para edición profunda"
@@ -48405,7 +48405,7 @@
         "heading": "Is the Ampeg RB-210 the Best Complete Bass Combo for Legendary Tone?",
         "heading_es": "¿Es el Ampeg RB-210 el mejor combo de bajo completo para tono legendario?",
         "content": "<strong>If you want classic Ampeg punch in one grab-and-go box, this dual-speaker combo is the shortcut.</strong> Two custom ten-inch speakers plus a high-frequency horn deliver that mid-forward thunder that sits so well in a band mix. Super Grit overdrive is simply the famous grind on demand: dial a little for warmth, push it for SVT-style snarl. I love the practical side for gigs, with three-band EQ plus Ultra Hi and Lo shaping, effects loop and direct out for the desk. Best for gigging bassists; check that the weight and size fit your transport.",
-        "content_es": "<strong>Si quieres la pegada clásica de Ampeg en una sola caja lista para llevar, este combo de dos altavoces es el atajo.</strong> Dos altavoces personalizados de diez pulgadas más una bocina de agudos entregan ese trueno con medios al frente que encaja tan bien en la mezcla de la banda. El overdrive Super Grit es la famosa garra a petición: un poco para calidez, más para el gruñido estilo SVT. Me encanta su lado práctico para bolos, con EQ de tres bandas más Ultra Hi y Lo, loop de efectos y salida directa para mesa. Ideal para bajistas de directo; comprueba que el peso y el tamaño encajan en tu transporte.",
+        "content_es": "<strong>Si quieres la pegada clásica de Ampeg en una sola caja lista para llevar, este combo de dos altavoces es el atajo.</strong> Dos altavoces personalizados de diez pulgadas más una bocina de agudos entregan ese trueno con medios al frente que encaja tan bien en la mezcla de la banda. El overdrive Super Grit es la famosa garra a petición: un poco para calidez, más para el gruñido estilo SVT. Me encanta su lado práctico para presentaciones, con EQ de tres bandas más Ultra Hi y Lo, loop de efectos y salida directa para mesa. Ideal para bajistas de directo; comprueba que el peso y el tamaño encajan en tu transporte.",
         "products": [
           75
         ]
@@ -48432,7 +48432,7 @@
         "heading": "What Are the Best Modern Bass Amps for Gigs in 2026?",
         "heading_es": "¿Cuáles son los mejores amplificadores de bajo modernos para tocar en vivo en 2026?",
         "content": "<strong>Today's gigging bassist has options that go far beyond a traditional combo.</strong> The Boss Katana-110 Bass is a 60W modeling combo with three amp voices, 60+ Boss effects and a 10-inch woofer plus tweeter — ideal for gigs, rehearsals and silent recording. The Orange Crush Bass 50 keeps it all-analog: a Class A/B transistor combo with a sweepable semi-parametric mid control and a drive channel with Blend, so the bass cuts through the mix at home or on a small stage. And for the tone purist, the Darkglass DG210A brings the 500W Class-D Microtubes 500 head into a compact 2x10 with Eminence neodymium drivers and a cab-emulated XLR out, so pros get that huge punchy low end even at quiet bedroom volume.",
-        "content_es": "<strong>El bajista de directo de hoy tiene opciones que van mucho más allá del combo tradicional.</strong> El Boss Katana-110 Bass es un combo de modelado de 60W con tres voces de ampli, más de 60 efectos Boss y woofer de 10 pulgadas más tweeter — ideal para bolos, ensayos y grabación silenciosa. El Orange Crush Bass 50 se mantiene 100% analógico: un combo de transistores Clase A/B con control paramétrico de medios ajustable y canal de drive con Blend, para que el bajo se abra paso en la mezcla en casa o en escenarios pequeños. Y para el purista del tono, el Darkglass DG210A mete el cabezal Microtubes 500 de 500W Clase D en un 2x10 compacto con drivers de neodimio Eminence y salida XLR con emulación de cabina, de modo que los pros consiguen ese grave enorme y contundente incluso a volumen bajo en el dormitorio.",
+        "content_es": "<strong>El bajista de directo de hoy tiene opciones que van mucho más allá del combo tradicional.</strong> El Boss Katana-110 Bass es un combo de modelado de 60W con tres voces de ampli, más de 60 efectos Boss y woofer de 10 pulgadas más tweeter — ideal para presentaciones, ensayos y grabación silenciosa. El Orange Crush Bass 50 se mantiene 100% analógico: un combo de transistores Clase A/B con control paramétrico de medios ajustable y canal de drive con Blend, para que el bajo se abra paso en la mezcla en casa o en escenarios pequeños. Y para el purista del tono, el Darkglass DG210A mete el cabezal Microtubes 500 de 500W Clase D en un 2x10 compacto con drivers de neodimio Eminence y salida XLR con emulación de cabina, de modo que los pros consiguen ese grave enorme y contundente incluso a volumen bajo en el dormitorio.",
         "products": [
           552,
           484,
@@ -48443,7 +48443,7 @@
         "heading": "Fender Rumble 40 V3: The Bedroom-to-Stage Standard",
         "heading_es": "Fender Rumble 40 V3: El estándar de casa al escenario",
         "content": "<strong>If you are buying your first real bass amp for home, rehearsal and the occasional small gig, this is the safest recommendation.</strong> Forty watts through a ten-inch Special Design speaker hits the sweet spot: loud enough to rehearse with brushes and light drums, compact enough for the bedroom. Foot-switchable overdrive plus Bright, Contour and Vintage voicings teach you how EQ shapes feel, and the XLR out with ground lift sends clean signal to recorder or house. I keep aux in and headphone practice in daily use. Great first amp; check that you will use the DI when you step on stage.",
-        "content_es": "<strong>Si compras tu primer ampli de bajo serio para casa, ensayo y algún bolo pequeño, esta es la recomendación más segura.</strong> Cuarenta vatios por un Special Design de diez pulgadas dan en el punto ideal: suficiente para ensayar con batería contenida y compacto para el dormitorio. El overdrive conmutable por pedal más las voces Bright, Contour y Vintage enseñan cómo la EQ cambia la sensación, y la salida XLR con ground lift envía señal limpia a grabador o mesa. Uso a diario la entrada aux y la práctica con auriculares. Gran primer ampli; comprueba que usarás la DI al subir al escenario.",
+        "content_es": "<strong>Si compras tu primer ampli de bajo serio para casa, ensayo y alguna presentación pequeña, esta es la recomendación más segura.</strong> Cuarenta vatios por un Special Design de diez pulgadas dan en el punto ideal: suficiente para ensayar con batería contenida y compacto para el dormitorio. El overdrive conmutable por pedal más las voces Bright, Contour y Vintage enseñan cómo la EQ cambia la sensación, y la salida XLR con ground lift envía señal limpia a grabador o mesa. Uso a diario la entrada aux y la práctica con auriculares. Gran primer ampli; comprueba que usarás la DI al subir al escenario.",
         "products": [
           490
         ]
@@ -48452,7 +48452,7 @@
     "conclusion": "The Ampeg RB-210 is the complete Ampeg combo — 500W of solid-state power through a 2x10 with the Super Grit Technology overdrive for that SVT grind. The Fender Rumble 500 V3 is the lightweight portable standard that every gigging bassist should consider, and the Markbass Mini CMD 121P V is the iconic pro combo if lightweight premium tone is your priority. For modern options, the Darkglass DG210A brings the Microtubes 500 Class-D head into a punchy 2x10 with cab-emulated XLR for the tone purist, the Boss Katana-110 Bass is a 60W modeling combo with Boss effects, the Fender Rumble 40 V3 is the bedroom-to-stage standard at $270, and the Orange Crush Bass 50 is the value analog pick with a sweepable semi-parametric mid control that cuts through any mix. <p><a href=\"/guides/precision-vs-jazz.html\" class=\"guide-link-btn\">P-Bass vs J-Bass</a> <a href=\"/guides/beginner-bass-guitars.html\" class=\"guide-link-btn\">Best Bass for Beginners</a> <a href=\"/guides/fender-bass-guide.html\" class=\"guide-link-btn\">Fender Bass Guide</a></p>",
     "conclusion_es": "El Ampeg RB-210 es el combo Ampeg completo — 500W de potencia de estado sólido a través de un 2x10 con el overdrive Super Grit Technology para ese grind del SVT. El Fender Rumble 500 es el estándar portátil ligero que todo bajista de directo debería considerar, y el Markbass Mini CMD 121P V es el combo profesional icónico si tu prioridad es un tono premium y ligero. Y si buscas opciones modernas, el Darkglass DG210A mete el cabezal Microtubes 500 de Clase D en un 2x10 contundente con XLR con emulación de cabina para el purista del tono, el Boss Katana-110 Bass es un combo de modelado de 60W con efectos Boss, el Fender Rumble 40 V3 es el estándar de casa al escenario a $270, y el Orange Crush Bass 50 es el analógico con mejor relación precio-calidad gracias a su control paramétrico de medios ajustable, que hace que el bajo se abra paso en cualquier mezcla. <p>También te interesa: <a href=\"/guides/precision-vs-jazz_es.html\" class=\"guide-link-btn\">P-Bass vs J-Bass</a> <a href=\"/guides/beginner-bass-guitars_es.html\" class=\"guide-link-btn\">Mejores Bajos para Principiantes</a> <a href=\"/guides/fender-bass-guide_es.html\" class=\"guide-link-btn\">Guía de Bajos Fender</a></p>",
     "verdict": "The Rumble 500 is the portability pick with lightweight power for gigging bassists. The RB-210 is classic Ampeg tone in a complete combo, and the Markbass Mini CMD 121P V is the iconic lightweight tone pros reach for. The Darkglass DG210A is the modern pro choice for massive, cab-ready low end, the Katana-110 Bass is the gig-ready modeling combo, the Rumble 40 V3 is the safe first-amp pick, and the Orange Crush Bass 50 is the budget analog combo that cuts through any mix.",
-    "verdict_es": "El Rumble 500 es la opción de portabilidad con potencia ligera para bajistas de directo. El RB-210 es el tono clásico Ampeg en un combo completo, y el Markbass Mini CMD 121P V es el tono ligero icónico al que recurren los pros. El Darkglass DG210A es la elección pro moderna para unos graves enormes y listos para la mesa de mezclas, el Katana-110 Bass es el combo de modelado listo para bolos, el Rumble 40 V3 es la compra segura como primer ampli, y el Orange Crush Bass 50 es el combo analógico económico que se abre paso en cualquier mezcla.",
+    "verdict_es": "El Rumble 500 es la opción de portabilidad con potencia ligera para bajistas de directo. El RB-210 es el tono clásico Ampeg en un combo completo, y el Markbass Mini CMD 121P V es el tono ligero icónico al que recurren los pros. El Darkglass DG210A es la elección pro moderna para unos graves enormes y listos para la mesa de mezclas, el Katana-110 Bass es el combo de modelado listo para presentaciones, el Rumble 40 V3 es la compra segura como primer ampli, y el Orange Crush Bass 50 es el combo analógico económico que se abre paso en cualquier mezcla.",
     "featuredProducts": [
       75,
       76,
@@ -48463,7 +48463,7 @@
       490
     ],
     "description": "Best bass amps 2026: Ampeg RB-210 vs Fender Rumble 500 vs Markbass Mini CMD. Compare combo amps for gigs and rehearsal.",
-    "description_es": "Mejores amplis de bajo 2026: Ampeg RB-210 vs Fender Rumble 500 vs Markbass Mini CMD. Compara combos para bolos y ensayo.",
+    "description_es": "Mejores amplis de bajo 2026: Ampeg RB-210 vs Fender Rumble 500 vs Markbass Mini CMD. Compara combos para presentaciones y ensayo.",
     "featuredSnippet": {
       "title_en": "Best Bass Amps for Every Player ",
       "text_en": "The Ampeg RB-210 is the definitive Ampeg combo — 500 watts of solid-state power through two Custom10 speakers and a 1\" tweeter, with the Super Grit Technology overdrive for SVT-style grind. Classic Ampeg tone in a self-contained 2x10.",
@@ -48600,7 +48600,7 @@
             },
             {
               "value": "Gig-ready modeling combo",
-              "value_es": "Combo de modelado para bolos"
+              "value_es": "Combo de modelado para presentaciones"
             },
             {
               "value": "Warm bass for rehearsals",
@@ -48612,7 +48612,7 @@
             },
             {
               "value": "Bedroom-to-stage classic tone",
-              "value_es": "Tono clásico de casa al bolo"
+              "value_es": "Tono clásico de casa a la presentación"
             }
           ]
         },
@@ -48896,25 +48896,25 @@
         "name_es": "Ampeg Rocket Bass RB-210",
         "pros": [
           "Classic Ampeg tone — the sound of countless bass records, in a self-contained combo",
-          "450W of Class-D power through two Custom10 speakers and a 1-inch tweeter",
-          "Super Grit Technology overdrive delivers that legendary SVT grind on demand",
+          "500W with an extension cab (250W standalone) through two custom 10-inch Lavoce speakers and a tweeter",
+          "Super Grit Technology overdrive adds SVT-style saturation on demand",
           "Complete package: XLR DI out, FX loop, aux in, headphone out, extension speaker out"
         ],
         "pros_es": [
           "Tono clásico de Ampeg — el sonido de innumerables discos de bajo, en un combo autónomo",
-          "450W de potencia de estado sólido a través de dos altavoces Custom10 y un tweeter de 1\"",
-          "El overdrive Super Grit Technology ofrece ese legendario grind del SVT cuando lo pides",
+          "500W con cabina de extensión (250W solo) a través de dos altavoces Lavoce de 10 pulgadas y tweeter",
+          "El overdrive Super Grit Technology añade saturación estilo SVT a demanda",
           "Paquete completo: salida DI XLR, loop de FX, entrada aux, salida de auriculares y salida para gabinete extra"
         ],
         "cons": [
-          "At 48 lb (21.8 kg) it is heavier than Class-D combos like the Rumble 500",
+          "At 39 lb (17.7 kg) it is heavier than Class-D combos like the Rumble 500",
           "One channel — the Super Grit Technology is the only built-in voice",
           "No tuner or built-in effects processor",
           "Transistor-based (not tube), so purists may still prefer a separate tube head",
           "The XLR DI is post-EQ and post-master with no independent level control — the board receives exactly what the stage volume is"
         ],
         "cons_es": [
-          "Con 21,8 kg pesa más que combos Clase D como el Rumble 500",
+          "Con 17,7 kg pesa más que combos Clase D como el Rumble 500",
           "Un solo canal — el Super Grit Technology es la única voz incorporada",
           "Sin afinador ni procesador de efectos integrado",
           "De estado sólido (no de válvulas), así que los puristas quizá prefieran un cabezal de válvulas aparte",
@@ -48955,16 +48955,16 @@
         "name": "Markbass Mini CMD 121P V",
         "name_es": "Markbass Mini CMD 121P V",
         "pros": [
-          "Legendary Italian tone: 500W through a 12-inch Markbass Neodymium Custom speaker with piezo tweeter",
+          "Italian 4-band EQ with Old School Filter plus bi-band limiter; 500W with extension cab (300W standalone)",
           "Just 26.6 lb — the world's most portable 500W combo",
           "4-band EQ with Old School Filter, bi-band limiter and mute switch",
-          "The best-selling Markbass amp worldwide with the iconic yellow-on-black design"
+          "Single-knob Old School Filter rolls off highs for instant vintage thump"
         ],
         "pros_es": [
-          "Legendario tono italiano: 500W a través de un altavoz Markbass Neodymium Custom de 12\" con tweeter piezo",
+          "EQ italiana de 4 bandas con Old School Filter más limitador bi-banda; 500W con cabina de extensión (300W solo)",
           "Solo 12,1 kg — el combo de 500W más portátil del mundo",
           "EQ de 4 bandas con Old School Filter, limitador bi-banda e interruptor mute",
-          "El amplificador Markbass más vendido del mundo con el icónico diseño amarillo sobre negro"
+          "El filtro Old School de una perilla recorta agudos para thump vintage instantáneo"
         ],
         "cons": [
           "It is the most expensive combo here — more than the Rumble 500",
@@ -49026,7 +49026,7 @@
           "Tono Orange analógico con altavoz de 12 pulgadas",
           "Medio paramétrico barrido que corta cualquier mezcla",
           "Salida CabSim más afinador y loop a bordo",
-          "Volumen de bolo para ensayos y salas pequeñas"
+          "Volumen de presentación para ensayos y salas pequeñas"
         ],
         "cons_es": [
           "14,45 kg — el combo pequeño más pesado aquí",
@@ -49058,7 +49058,7 @@
         ],
         "cons_es": [
           "Precio premium de $1.230",
-          "17,3 kg hasta el bolo",
+          "17,3 kg para llevar a la presentación",
           "Necesita otra cabina para los 500W completos",
           "Solo analógico — sin presets ni app"
         ]
@@ -49070,7 +49070,7 @@
           "40W classic Fender tone at just 8.2 kg",
           "Foot-switchable overdrive plus Bright/Contour/Vintage",
           "XLR line out with ground lift for FOH",
-          "Proven first amp with thousands of positive reviews from gigging bassists"
+          "Ported lightweight cabinet that sounds big in rehearsals and small gigs"
         ],
         "cons": [
           "40W runs out of headroom with loud drummers",
@@ -49082,7 +49082,7 @@
           "Tono clásico Fender de 40W con solo 8,2 kg",
           "Overdrive conmutable por pedal más Bright/Contour/Vintage",
           "Salida de línea XLR con ground lift para FOH",
-          "$270 de calle con 4,5 estrellas en más de 5.000 reseñas"
+          "Caja portada ligera que suena grande en ensayos y conciertos pequeños"
         ],
         "cons_es": [
           "40W se quedan cortos con baterías ruidosas",
@@ -49121,7 +49121,7 @@
         "heading": "Is the Fender Rumble 40 V3 the Best All-Round Bass Practice Combo?",
         "heading_es": "¿Es el Fender Rumble 40 V3 el mejor combo de bajo para practicar?",
         "content": "<strong>The Fender Rumble 40 V3 is the most convincing all-round bass practice combo you can buy.</strong> Behind a manageable weight it hides 40 watts of clean, punchy solid-state tone through a 10\" Special Design speaker, with a 4-band EQ, bright, contour and vintage switches and an overdrive circuit for dirty grind. The balanced XLR direct out lets you record or run to a front of house, the aux input plays along to records, and the headphone jack gives you silent practice with cab-simulated tone. It is the combo I recommend when a bassist wants one amp that works for quiet practice, loud jams and even small gigs — and it is why it tops most practice amp lists worldwide.",
-        "content_es": "<strong>El Fender Rumble 40 V3 es el combo de bajo para practicar más convincente que puedes comprar.</strong> En un peso manejable esconde 40 vatios de tono limpio y contundente de estado sólido a través de un altavoz Special Design de 10\", con EQ de 4 bandas e interruptores bright, contour y vintage, además de un circuito de overdrive para el grind sucio. La salida XLR balanceada te permite grabar o ir a la mesa de mezclas, la entrada aux reproduce tus discos y la salida de auriculares ofrece práctica en silencio con simulación de cabina. Es el combo que recomiendo cuando un bajista quiere un solo amplificador para practicar en silencio, ensayos fuertes e incluso bolos pequeños — y por eso encabeza la mayoría de las listas de amplificadores de práctica del mundo.",
+        "content_es": "<strong>El Fender Rumble 40 V3 es el combo de bajo para practicar más convincente que puedes comprar.</strong> En un peso manejable esconde 40 vatios de tono limpio y contundente de estado sólido a través de un altavoz Special Design de 10\", con EQ de 4 bandas e interruptores bright, contour y vintage, además de un circuito de overdrive para el grind sucio. La salida XLR balanceada te permite grabar o ir a la mesa de mezclas, la entrada aux reproduce tus discos y la salida de auriculares ofrece práctica en silencio con simulación de cabina. Es el combo que recomiendo cuando un bajista quiere un solo amplificador para practicar en silencio, ensayos fuertes e incluso presentaciones pequeñas — y por eso encabeza la mayoría de las listas de amplificadores de práctica del mundo.",
         "products": [
           490
         ]
@@ -49166,7 +49166,7 @@
         "heading": "Can the Darkglass DG210A Be a Practice Amp?",
         "heading_es": "¿Puede el Darkglass DG210A ser un amplificador para practicar?",
         "content": "<strong>With the Darkglass DG210A, practice amps reach their premium ceiling.</strong> The Microtubes 500V Class-D head drives a 2x10 cabinet, but the secret for home players is the cab-emulated balanced XLR output, which delivers that polished Darkglass tone — from clean Microtubes textures to modern high-gain — straight to an interface, mixer or headphones without running the speakers at full volume. That makes it the practice amp for the player who wants studio-quality low end and the exact same tone they will use at a gig or in a session. If you want the best bass practice tone money can buy and can record through it, the DG210A is the answer.",
-        "content_es": "<strong>Con el Darkglass DG210A, los amplificadores de práctica alcanzan su techo premium.</strong> El cabezal Microtubes 500V de Clase D mueve una cabina 2x10, pero el secreto para tocar en casa es la salida XLR balanceada con emulación de cabina, que entrega ese tono Darkglass pulido — desde texturas Microtubes limpias hasta el high-gain moderno — directo a una interfaz, una mesa o unos auriculares sin hacer funcionar los altavoces a pleno volumen. Eso lo convierte en el amplificador de práctica para quien quiere graves de nivel estudio y el mismo tono exacto que usará en un bolo o una sesión. Si quieres el mejor tono de práctica que el dinero puede comprar y puedes grabar a través de él, el DG210A es la respuesta.",
+        "content_es": "<strong>Con el Darkglass DG210A, los amplificadores de práctica alcanzan su techo premium.</strong> El cabezal Microtubes 500V de Clase D mueve una cabina 2x10, pero el secreto para tocar en casa es la salida XLR balanceada con emulación de cabina, que entrega ese tono Darkglass pulido — desde texturas Microtubes limpias hasta el high-gain moderno — directo a una interfaz, una mesa o unos auriculares sin hacer funcionar los altavoces a pleno volumen. Eso lo convierte en el amplificador de práctica para quien quiere graves de nivel estudio y el mismo tono exacto que usará en una presentación o una sesión. Si quieres el mejor tono de práctica que el dinero puede comprar y puedes grabar a través de él, el DG210A es la respuesta.",
         "products": [
           485
         ]
@@ -49667,8 +49667,8 @@
         "pros_es": [
           "Tono Microtubes de nivel estudio a través de una cabina 2x10",
           "Salida XLR balanceada con emulación de cabina para grabar y practicar en silencio",
-          "El mismo tono premium en casa que en un bolo o una sesión",
-          "Construcción lista para la carretera que aguanta bolos"
+          "El mismo tono premium en casa que en una presentación o una sesión",
+          "Construcción lista para la carretera que aguanta presentaciones"
         ],
         "cons": [
           "Big, heavy and expensive for quiet home practice",
@@ -50485,7 +50485,7 @@
         "heading": "Is the TC Electronic Hall of Fame 2 the Best Pedal for Your Pedalboard?",
         "heading_es": "¿Es el TC electronic hall of fame 2 el mejor pedal para tu pedalera?",
         "content": "<strong>If you want studio-style space without studio money or size, this is the clever value pick.</strong> Eight core algorithms move from tight room and classic spring to lush hall and ethereal shimmer, all sounding polished in stereo. TonePrint is the fun difference: beam down artist-made sounds through your phone instead of tweaking for an hour. The pressure-sensitive switch adds swell-like expression underfoot. I have matched small club rooms and huge ambient tails in one set. Great for explorers; check that you enjoy app-based sound swapping.",
-        "content_es": "<strong>Si quieres espacio estilo estudio sin precio ni tamaño de estudio, esta es la elección inteligente.</strong> Ocho algoritmos centrales van de sala ajustada y spring clásico a hall generoso y shimmer etéreo, todos pulidos en estéreo. TonePrint marca la diferencia divertida: descarga sonidos creados por artistas desde el móvil en lugar de ajustar una hora. El interruptor sensible a la presión añade expresión tipo swell bajo el pie. He cubierto desde salas pequeñas hasta colas ambientales enormes en el mismo bolo. Genial para exploradores; comprueba que disfrutas intercambiar sonidos desde la app.",
+        "content_es": "<strong>Si quieres espacio estilo estudio sin precio ni tamaño de estudio, esta es la elección inteligente.</strong> Ocho algoritmos centrales van de sala ajustada y spring clásico a hall generoso y shimmer etéreo, todos pulidos en estéreo. TonePrint marca la diferencia divertida: descarga sonidos creados por artistas desde el móvil en lugar de ajustar una hora. El interruptor sensible a la presión añade expresión tipo swell bajo el pie. He cubierto desde salas pequeñas hasta colas ambientales enormes en la misma presentación. Genial para exploradores; comprueba que disfrutas intercambiar sonidos desde la app.",
         "products": [
           100
         ]
@@ -51525,7 +51525,7 @@
         "heading": "Is the Yamaha MG10XU the Best Small-Format Mixer for Live Gigs?",
         "heading_es": "¿Es el Yamaha MG10XU el mejor mezclador compacto para conciertos en vivo?",
         "content": "<strong>If your band needs a small mixer that just works every weekend, this is the one I see on stages most.</strong> Ten channels with respected low-noise preamps give clean vocals and instruments, while one-knob compressors on the first channels tame peaks without learning curves. Built-in studio-style effects add polish to voices, and USB recording captures rehearsals or gigs straight to laptop. I have mixed voices, guitars and playback in a backpack-size footprint. Ideal for small gigs and podcasts; check channel count against your drum needs.",
-        "content_es": "<strong>Si tu banda necesita una mesa pequeña que funcione cada fin de semana, esta es la que más veo en escenarios.</strong> Diez canales con preamplificadores reputados de bajo ruido dan voces e instrumentos limpios, mientras los compresores de un solo botón en los primeros canales doman picos sin curva de aprendizaje. Los efectos integrados estilo estudio pulen las voces y la grabación USB captura ensayos o bolos directo al portátil. He mezclado voces, guitarras y pistas en un formato tamaño mochila. Ideal para bolos pequeños y pódcast; comprueba que los canales cubren tu batería.",
+        "content_es": "<strong>Si tu banda necesita una mesa pequeña que funcione cada fin de semana, esta es la que más veo en escenarios.</strong> Diez canales con preamplificadores reputados de bajo ruido dan voces e instrumentos limpios, mientras los compresores de un solo botón en los primeros canales doman picos sin curva de aprendizaje. Los efectos integrados estilo estudio pulen las voces y la grabación USB captura ensayos o presentaciones directo al portátil. He mezclado voces, guitarras y pistas en un formato tamaño mochila. Ideal para presentaciones pequeñas y pódcast; comprueba que los canales cubren tu batería.",
         "products": [
           137
         ]
@@ -51534,7 +51534,7 @@
         "heading": "Is the Tascam Model 12 the Best Hybrid Mixer for Gigging Bands?",
         "heading_es": "¿Es el Tascam Model 12 la mejor mesa híbrida para bandas que tocan en directo?",
         "content": "<strong>If you want the mixer, the recorder and the interface to be one box, this hybrid finally delivers it.</strong> Ten analog channels with detailed preamps, single-knob compression and sweepable mid EQ get live sound right quickly, with aux sends feeding monitors and built-in effects adding finish. The magic is integration: multitrack straight to memory card, multichannel USB for the laptop and remote-style DAW control in one chassis. I have left a gig with a full multitrack to mix later, no extra recorder carried. Perfect for gigging bands; check that you will use its recording depth.",
-        "content_es": "<strong>Si quieres que mesa, grabadora e interfaz sean una sola caja, este híbrido por fin lo consigue.</strong> Diez canales analógicos con previos detallados, compresión de un botón y medios barridos afinan el directo rápido, con envíos aux para monitores y efectos para el acabado. La magia es la integración: multipista directo a tarjeta, USB multicanal para el portátil y control remoto del DAW en el mismo chasis. He salido de un bolo con la multipista completa para mezclar luego, sin cargar grabadora extra. Perfecto para bandas de directo; comprueba que aprovecharás su grabación.",
+        "content_es": "<strong>Si quieres que mesa, grabadora e interfaz sean una sola caja, este híbrido por fin lo consigue.</strong> Diez canales analógicos con previos detallados, compresión de un botón y medios barridos afinan el directo rápido, con envíos aux para monitores y efectos para el acabado. La magia es la integración: multipista directo a tarjeta, USB multicanal para el portátil y control remoto del DAW en el mismo chasis. He salido de una presentación con la multipista completa para mezclar luego, sin cargar grabadora extra. Perfecto para bandas de directo; comprueba que aprovecharás su grabación.",
         "products": [
           332
         ]
@@ -55560,7 +55560,7 @@
         "heading": "Is the Yamaha MG10XU the Best Small Analog Mixer?",
         "heading_es": "¿Es el Yamaha MG10XU el mejor mezclador analógico pequeño?",
         "content": "<strong>If you need a small mixer that just works for gigs, rehearsals and home recording, start here.</strong> The MG10XU gives you ten channels built around four D-PRE mic preamps that sound clean and open, so vocals and acoustic guitars need little EQ to sit right. The built-in SPX effects add usable reverb and delay without extra boxes, and the one-knob compressors on the first channels tame uneven singing in seconds. I have mixed small duos with it straight to USB and the stereo capture sounded honest and balanced. Great for beginners and duos. Check your input count and whether you need more aux sends before buying.",
-        "content_es": "<strong>Si necesitas una mesa pequeña que simplemente funcione para bolos, ensayos y grabación casera, empieza aquí.</strong> El MG10XU ofrece diez canales con cuatro previos D-PRE que suenan limpios y abiertos, así la voz y la guitarra acústica necesitan poca ecualización para encajar. Los efectos SPX integrados aportan reverberación y retardo utilizables sin cacharros extra, y los compresores de un solo mando en los primeros canales controlan voces irregulares en segundos. He mezclado dúos pequeños con él grabando por USB y la captura estéreo sonó honesta y equilibrada. Genial para empezar. Revisa cuántas entradas necesitas y si te basta con su envío auxiliar.",
+        "content_es": "<strong>Si necesitas una mesa pequeña que simplemente funcione para presentaciones, ensayos y grabación casera, empieza aquí.</strong> El MG10XU ofrece diez canales con cuatro previos D-PRE que suenan limpios y abiertos, así la voz y la guitarra acústica necesitan poca ecualización para encajar. Los efectos SPX integrados aportan reverberación y retardo utilizables sin cacharros extra, y los compresores de un solo mando en los primeros canales controlan voces irregulares en segundos. He mezclado dúos pequeños con él grabando por USB y la captura estéreo sonó honesta y equilibrada. Genial para empezar. Revisa cuántas entradas necesitas y si te basta con su envío auxiliar.",
         "products": [
           137
         ]
@@ -56185,7 +56185,7 @@
         "heading": "Is the Behringer XR18 the Best Compact Digital Rack Mixer?",
         "heading_es": "¿Es el Behringer XR18 el mejor mezclador digital rack compacto?",
         "content": "<strong>If you want digital mixing power that lives in a rack and leaves the stage clean, this is the classic move.</strong> The XR18 packs eighteen inputs with programmable Midas preamps you recall per song, so scene changes take seconds instead of minutes. Control from a tablet anywhere in the room means you can walk the venue and fix monitors while the band plays. I have mixed bar gigs from the back of the room and the built-in effects and multitrack USB capture made virtual soundcheck easy. Perfect for bands running their own sound. Check you are comfortable mixing without physical faders and have a solid tablet.",
-        "content_es": "<strong>Si buscas potencia digital que viva en un rack y deje el escenario despejado, este es el movimiento clásico.</strong> El XR18 reúne dieciocho entradas con previos Midas programables que recuperas por canción, así los cambios de escena llevan segundos en lugar de minutos. Controlarlo desde una tableta en cualquier punto de la sala permite pasear por el local y ajustar monitores mientras la banda toca. He mezclado bolos en bares desde el fondo y los efectos integrados más la grabación multicanal por USB facilitaron la prueba virtual. Perfecto para bandas que llevan su propio sonido. Asegúrate de sentirte cómodo sin faders físicos y de tener una tableta fiable.",
+        "content_es": "<strong>Si buscas potencia digital que viva en un rack y deje el escenario despejado, este es el movimiento clásico.</strong> El XR18 reúne dieciocho entradas con previos Midas programables que recuperas por canción, así los cambios de escena llevan segundos en lugar de minutos. Controlarlo desde una tableta en cualquier punto de la sala permite pasear por el local y ajustar monitores mientras la banda toca. He mezclado presentaciones en bares desde el fondo y los efectos integrados más la grabación multicanal por USB facilitaron la prueba virtual. Perfecto para bandas que llevan su propio sonido. Asegúrate de sentirte cómodo sin faders físicos y de tener una tableta fiable.",
         "products": [
           145
         ]
@@ -56194,7 +56194,7 @@
         "heading": "Is the Allen & Heath CQ-18T the Most Portable Digital Mixer?",
         "heading_es": "¿Es el Allen & Heath CQ-18T el mezclador digital más portátil?",
         "content": "<strong>If you travel light but still want a full digital mix with modern helpers, look closely here.</strong> The CQ-18T fits backpack routines with sixteen mic preamps and high-resolution processing that keeps vocals detailed and drums punchy at low stage volumes. The touchscreen plus smart assistants for gain, feedback and effects speed up setup when you have no sound engineer. I have set up duos in noisy cafés in minutes and the Bluetooth playback plus multitrack recording to card or USB saved both break music and the show capture. Ideal for modern working bands. Check channel count against future growth and tablet workflow.",
-        "content_es": "<strong>Si viajas ligero pero quieres una mezcla digital completa con ayudas modernas, mira esto con atención.</strong> El CQ-18T entra en rutinas de mochila con dieciséis previos y procesamiento de alta resolución que mantiene voces detalladas y baterías contundentes con poco volumen en escena. La pantalla táctil más los asistentes inteligentes de ganancia, acople y efectos aceleran el montaje cuando no hay técnico. He montado dúos en cafés ruidosos en minutos y la reproducción por Bluetooth más la grabación multipista en tarjeta o USB resolvieron tanto la música de pausa como la captura del bolo. Ideal para bandas actuales. Revisa que el número de canales cubra tu crecimiento futuro.",
+        "content_es": "<strong>Si viajas ligero pero quieres una mezcla digital completa con ayudas modernas, mira esto con atención.</strong> El CQ-18T entra en rutinas de mochila con dieciséis previos y procesamiento de alta resolución que mantiene voces detalladas y baterías contundentes con poco volumen en escena. La pantalla táctil más los asistentes inteligentes de ganancia, acople y efectos aceleran el montaje cuando no hay técnico. He montado dúos en cafés ruidosos en minutos y la reproducción por Bluetooth más la grabación multipista en tarjeta o USB resolvieron tanto la música de pausa como la captura de la presentación. Ideal para bandas actuales. Revisa que el número de canales cubra tu crecimiento futuro.",
         "products": [
           147
         ]
@@ -56212,7 +56212,7 @@
         "heading": "Allen & Heath ZEDi-10FX: British EQ With Interface Built In",
         "heading_es": "Allen & Heath ZEDi-10FX: EQ británica con interfaz integrada",
         "content": "<strong>If you mix and record the same shows and love a musical British EQ, this desk earns its place.</strong> The ZEDi-10FX centers on GSPre preamps with generous headroom, so drums and loud guitars stay open rather than pinched, and the MusiQ EQ shapes mids without making vocals nasal. Tap-tempo effects plus dedicated guitar inputs mean fewer boxes to carry. I have tracked a trio direct to computer while mixing monitors and the files needed little cleanup later. Perfect for players who double as engineers. Check that ten inputs cover you and that the USB multitrack format fits your DAW routine.",
-        "content_es": "<strong>Si mezclas y grabas los mismos bolos y te gusta una ecualización británica musical, esta mesa se gana su sitio.</strong> El ZEDi-10FX gira en torno a previos GSPre con gran margen dinámico, así batería y guitarras fuertes suenan abiertas en lugar de apretadas, y la EQ MusiQ moldea medios sin nasalizar la voz. Los efectos con tap tempo más entradas dedicadas de guitarra reducen cacharros a transportar. He grabado un trío directo al ordenador mientras mezclaba monitores y los archivos necesitaron poco retoque después. Perfecto para músicos que hacen de técnicos. Revisa que diez entradas te cubran y que el formato multipista USB encaje con tu DAW.",
+        "content_es": "<strong>Si mezclas y grabas las mismas presentaciones y te gusta una ecualización británica musical, esta mesa se gana su sitio.</strong> El ZEDi-10FX gira en torno a previos GSPre con gran margen dinámico, así batería y guitarras fuertes suenan abiertas en lugar de apretadas, y la EQ MusiQ moldea medios sin nasalizar la voz. Los efectos con tap tempo más entradas dedicadas de guitarra reducen cacharros a transportar. He grabado un trío directo al ordenador mientras mezclaba monitores y los archivos necesitaron poco retoque después. Perfecto para músicos que hacen de técnicos. Revisa que diez entradas te cubran y que el formato multipista USB encaje con tu DAW.",
         "products": [
           333
         ]
@@ -56370,7 +56370,7 @@
             },
             {
               "value": "Compact USB mixing for streaming/small gigs",
-              "value_es": "Mezcla USB compacta para streaming/bolos pequeños"
+              "value_es": "Mezcla USB compacta para streaming/presentaciones pequeñas"
             },
             {
               "value": "British EQ + 4x4 USB interface built in",
@@ -56758,7 +56758,7 @@
           "Preamps D-PRE Clase-A limpios y abiertos",
           "Efectos SPX usables sin outboard",
           "USB 2x2 para streaming/grabación",
-          "Chasis metal aguanta fundas de bolo"
+          "Chasis metal aguanta fundas para presentaciones"
         ],
         "cons_es": [
           "Un solo aux compartido con FX limita monitores",
@@ -56845,7 +56845,7 @@
           145
         ],
         "heading": "Is the Behringer XR18 the Best Affordable Digital Mixer?",
-        "content_es": "<strong>Si tu banda quiere entrar en la mezcla digital sin una gran consola, este rack es la puerta probada.</strong> Dieciséis previos diseñados por Midas ofrecen voces claras y llenas que cortan sin aspereza, y la app gratuita para tableta pone ecualización, dinámica, efectos y ruteo bajo tus dedos. La red inalámbrica integrada reduce cacharros y el USB multipista permite grabar cada bolo para prueba virtual después. He ajustado monitores desde el escenario en la prueba y esa libertad cambió lo compacta que sonó la banda. Ideal para bandas autoproducidas. Asegúrate de tener una tableta fiable y un plan B si la red se satura."
+        "content_es": "<strong>Si tu banda quiere entrar en la mezcla digital sin una gran consola, este rack es la puerta probada.</strong> Dieciséis previos diseñados por Midas ofrecen voces claras y llenas que cortan sin aspereza, y la app gratuita para tableta pone ecualización, dinámica, efectos y ruteo bajo tus dedos. La red inalámbrica integrada reduce cacharros y el USB multipista permite grabar cada presentación para prueba virtual después. He ajustado monitores desde el escenario en la prueba y esa libertad cambió lo compacta que sonó la banda. Ideal para bandas autoproducidas. Asegúrate de tener una tableta fiable y un plan B si la red se satura."
       },
       {
         "content": "<strong>If you run sound night after night and want real faders under your hands, this console feels like home.</strong> Its PRO preamps, inherited from large touring desks, keep vocals silky and transients natural even when the stage is loud. Forty input channels with generous buses and stereo effects engines handle festivals without running out of room, while motorized faders make scene recalls instant. I have mixed theater shows where dual card recording saved a take after a computer glitch. Built for professionals. Check rack space, transport weight and that your crew is ready for a pro-level workflow.",
@@ -56884,7 +56884,7 @@
       148
     ],
     "description": "In 2026, I have mixed weekend gigs on the XR18 and festival stages on the M32R. Midas preamps in both, but one has faders you can throw. Read the full",
-    "description_es": "En 2026, He mezclado bolos de fin de semana con el XR18 y escenarios de festival con el M32R. Previos Midas en ambos, pero uno tiene faders que puedes",
+    "description_es": "En 2026, He mezclado presentaciones de fin de semana con el XR18 y escenarios de festival con el M32R. Previos Midas en ambos, pero uno tiene faders que puedes",
     "featuredSnippet": {
       "title_en": "Behringer XR18 vs Midas M32R LIVE: Which Digital Mixer for Your Band? ",
       "text_en": "The Behringer XR18 is the most affordable rack-mount digital mixer with Midas preamps and tablet control. The Midas M32R LIVE is the professional choice with PRO series preamps and motorized faders.",
@@ -57163,7 +57163,7 @@
           147
         ],
         "heading": "Is the Allen & Heath CQ-18T the Best Portable and Innovative Digital Mixer?",
-        "content_es": "<strong>Si tocas en salas pequeñas y medianas y quieres montaje rápido con pantalla táctil, esto es difícil de superar.</strong> Dieciocho canales de procesamiento de alta resolución mantienen guitarras acústicas aéreas y voces al frente sin aspereza, incluso con PA compactas. Las herramientas inteligentes de ganancia, control de acoples y efectos hacen el trabajo tedioso mientras te centras en el equilibrio. He controlado toda la noche solo desde la pantalla cuando la tableta se quedó sin batería, y luego usé la multipista en tarjeta para repasar el bolo. Genial para bandas sin técnico. Revisa el tamaño de la PA y que el formato compacto encaje con tu transporte."
+        "content_es": "<strong>Si tocas en salas pequeñas y medianas y quieres montaje rápido con pantalla táctil, esto es difícil de superar.</strong> Dieciocho canales de procesamiento de alta resolución mantienen guitarras acústicas aéreas y voces al frente sin aspereza, incluso con PA compactas. Las herramientas inteligentes de ganancia, control de acoples y efectos hacen el trabajo tedioso mientras te centras en el equilibrio. He controlado toda la noche solo desde la pantalla cuando la tableta se quedó sin batería, y luego usé la multipista en tarjeta para repasar la presentación. Genial para bandas sin técnico. Revisa el tamaño de la PA y que el formato compacto encaje con tu transporte."
       },
       {
         "content": "<p><strong>The CQ-18T offers higher sample rate processing, built-in touchscreen, and smart mixing assistants, while the XR18 provides proven reliability, Midas preamp quality, and broader ecosystem support with proven tablet workflow and broad ecosystem support for bands that already run in-ear mixes from stage.</strong> The XR18 relies entirely on tablet control — you must bring your own iPad or Android device. The CQ-18T has a 7-inch touchscreen built right in, so no tablet is needed to mix. The CQ-18T processes at 96kHz versus the XR18's 48kHz, delivering higher audio fidelity. The CQ-18T includesmartFX, Gain Assistant, and Feedback Assistant for automated mixing. The XR18 has a larger user base, more online resources, and many proven setups. The CQ-18T records to SD card directly; the XR18 requires a computer for multitrack recording. For bands that want the latest technology and portability, the CQ-18T is ahead. For budget-conscious bands who want proven reliability, the XR18 remains the best value.</p>",
@@ -58194,7 +58194,7 @@
       150
     ],
     "description": "In 2026, I have wired rehearsal rooms with both. MG builds like a tank; Xenyx packs compression, graphic EQ and feedback detection for small bands and speech that need quick fixes without outboard. Same gig, different priorities.",
-    "description_es": "En 2026, He cableado salas de ensayo con ambas. MG construida como un tanque; Xenyx llena de funciones por la mitad de precio. Mismo bolo, distintas",
+    "description_es": "En 2026, He cableado salas de ensayo con ambas. MG construida como un tanque; Xenyx llena de funciones por la mitad de precio. Misma presentación, distintas",
     "featuredSnippet": {
       "title_en": "Yamaha MG vs Behringer Xenyx: Which Analog Mixer Series is Best for Your Band? ",
       "text_en": "The Yamaha MG series offers superior build quality and audio fidelity with D-PRE preamps and SPX effects. The Behringer Xenyx X1222USB offers more features including compression, graphic EQ, and feedback detection at a lower price.",
@@ -58274,7 +58274,7 @@
       "faq_a1_en": "Buy a Yamaha MG (-) if you prioritize build quality and audio fidelity — D-PRE preamps, quiet operation and better SPX effects make it the reliable choice for clean sound. Buy the Behringer Xenyx X1222USB if you want the most features per dollar — built-in compression, a 7-band graphic EQ with feedback detection and British-style EQs. Yamaha is the quality pick; Xenyx is the feature pick.",
       "faq_q2_en": "What is the difference between Yamaha MG and Behringer Xenyx mixers?",
       "faq_a2_en": "Yamaha MG mixers (-) use D-PRE preamps with better headroom and lower noise, deliver cleaner SPX reverb effects and feel more solidly built — the choice for gigging bands that need reliability. The Behringer Xenyx X1222USB packs more features per dollar, including one-knob compression, a 7-band graphic EQ with FBQ feedback detection and Xenyx preamps that are clean enough for most gigs. Yamaha is quieter and better built; Xenyx gives you more control for less money.",
-      "faq_q1_es": "Mi banda necesita una mesa pequeña para ensayos y bolos pequeños que no se rompa en la furgoneta — ¿pago la fiabilidad Yamaha o tomo las funciones Xenyx?",
+      "faq_q1_es": "Mi banda necesita una mesa pequeña para ensayos y presentaciones pequeñas que no se rompa en la furgoneta — ¿pago la fiabilidad Yamaha o tomo las funciones Xenyx?",
       "faq_a1_es": "Compra una Yamaha MG (-) si priorizas calidad de construcción y fidelidad de audio — preamps D-PRE, funcionamiento silencioso y mejores efectos SPX la convierten en la opción fiable para sonido limpio. Compra la Behringer Xenyx X1222USB si quieres más funciones por tu dinero — compresión integrada, un EQ gráfico de 7 bandas con detección de feedback y EQs de estilo británico. Yamaha es la opción de calidad; Xenyx es la opción de funciones.",
       "faq_q2_es": "¿Cuál es la diferencia entre los mezcladores Yamaha MG y Behringer Xenyx?",
       "faq_a2_es": "Los mezcladores Yamaha MG (-) usan preamps D-PRE con mejor headroom y menos ruido, entregan efectos de reverb SPX más limpios y están mejor construidos — la opción para bandas de gira que necesitan fiabilidad. La Behringer Xenyx X1222USB mete más funciones por tu dinero, incluyendo compresión de un botón, un EQ gráfico de 7 bandas con detección de feedback FBQ y preamps Xenyx suficientemente limpios para la mayoría de conciertos. Yamaha es más silenciosa y mejor construida; Xenyx te da más control por menos dinero.",
@@ -58767,7 +58767,7 @@
             },
             {
               "value": "Small gigs for working bands",
-              "value_es": "Bolos pequeños para bandas activas"
+              "value_es": "Presentaciones pequeñas para bandas activas"
             },
             {
               "value": "Light budget PA with low end",
@@ -58779,7 +58779,7 @@
             },
             {
               "value": "Portable PA for small gigs",
-              "value_es": "PA portátil para bolos pequeños"
+              "value_es": "PA portátil para presentaciones pequeñas"
             }
           ]
         },
@@ -59078,13 +59078,13 @@
         "name": "EV ZLX-12P-G2 Powered Speaker",
         "name_es": "Altavoz Activo EV ZLX-12P-G2",
         "pros": [
-          "Best-selling professional PA speaker with 8,900+ reviews",
+          "1000W Class-D power with DSP presets and Bluetooth control",
           "Clean 2000W output through a 12-inch woofer and titanium tweeter",
           "EV DSP presets for Music, Speech, Club, and Monitoring",
           "Lightweight 34.3 lb ABS cabinet that survives years of gigging"
         ],
         "pros_es": [
-          "El altavoz PA profesional más vendido por con más de 8,900 reseñas",
+          "1000W Clase-D con presets DSP y control Bluetooth",
           "Salida limpia de 2000W a través de un woofer de 12 pulgadas y tweeter de titanio",
           "Presets DSP de EV para Música, Voz, Club y Monitoreo",
           "Gabinete ABS ligero de 15.6 kg que sobrevive años de conciertos"
@@ -59280,14 +59280,14 @@
         "name_es": "Fender Player Precision Bajo",
         "pros": [
           "Split-coil humbucking pickup delivers permanent hum cancellation — zero noise even at high gain levels or in electrically noisy environments like live stages",
-          "Thick, fundamental-heavy tone with natural midrange compression that sits in a dense mix without needing any EQ sculpting — the most recorded bass sound in history",
+          "Thick, fundamental-heavy tone with natural midrange compression that sits in a dense mix without needing any EQ sculpting",
           "Wider 1.625-inch nut provides more string spacing for accurate fingerstyle playing and reduces accidental string buzz, especially for players with larger hands",
           "Simple one-volume, one-tone control layout eliminates decision fatigue during live performance — you focus on playing, not tweaking knob positions between songs",
           "Symmetrical body and consistent C-shape neck give a familiar, predictable feel that has stayed essentially unchanged since 1954"
         ],
         "pros_es": [
           "Pastilla split-coil humbucking ofrece cancelación de ruido permanente — cero ruido incluso a altos niveles de ganancia o en entornos eléctricamente ruidosos como escenarios en vivo",
-          "Tono grueso con énfasis en fundamentales y compresión natural de medios que se sienta en una mezcla densa sin necesidad de esculpir con EQ — el sonido de bajo más grabado de la historia",
+          "Tono grueso con énfasis en fundamentales y compresión natural de medios que se sienta en una mezcla densa sin necesidad de esculpir con EQ",
           "Cejilla más ancha de 1.625 pulgadas proporciona más espacio entre cuerdas para tocar con los dedos con precisión y reduce el contacto accidental entre cuerdas",
           "Disposición simple de un volumen y un tono elimina la fatiga de decisiones durante presentaciones en vivo — te concentras en tocar, no en ajustar perillas entre canciones",
           "El cuerpo simétrico y el mástil C-shape consistente ofrecen una sensación familiar y predecible que apenas ha cambiado desde 1954"
@@ -59759,7 +59759,7 @@
           "values": [
             {
               "value": "Rock and Motown live gigging",
-              "value_es": "bolos de rock y Motown"
+              "value_es": "presentaciones de rock y Motown"
             },
             {
               "value": "Funk and fusion live playing",
@@ -59779,7 +59779,7 @@
             },
             {
               "value": "Beginner P/J practice and gigs",
-              "value_es": "Práctica y bolos P/J para empezar"
+              "value_es": "Práctica y presentaciones P/J para empezar"
             },
             {
               "value": "Pro session and tour playing",
@@ -60165,13 +60165,13 @@
           "Dual single-coils blend from warm neck to aggressive bridge tones",
           "Slim 1.5-inch tapered neck makes fast runs and slap easy",
           "Articulate midrange cuts through horns and percussion",
-          " it is the most versatile Fender bass at a fair price"
+          "Two single-coils with independent volumes cover fingerstyle, slap and pick"
         ],
         "pros_es": [
           "Dos single-coils que mezclan desde tonos cálidos de mástil hasta mordiente de puente",
           "El mástil cónico de 1.5 pulgadas hace fáciles los runs rápidos y el slap",
           "El medio articulado corta a través de vientos y percusión",
-          "Es el Fender más versátil a un precio justo"
+          "Dos single-coils con volúmenes independientes cubren dedos, slap y púa"
         ],
         "cons": [
           "Single-coils can hum in high-noise environments",
@@ -60294,7 +60294,7 @@
         "cons_es": [
           "Las cerámicas carecen de complejidad alnico",
           "La electrónica básica pide mejora",
-          "El acabado fino se gasta antes con bolos",
+          "El acabado fino se gasta antes con las presentaciones",
           "Los trastes varían de unidad a unidad"
         ]
       },
@@ -61597,7 +61597,7 @@
           "values": [
             {
               "value": "Portable PA for small gigs",
-              "value_es": "PA portátil para bolos pequeños"
+              "value_es": "PA portátil para presentaciones pequeñas"
             },
             {
               "value": "Loud FOH for live bands",
@@ -62000,7 +62000,7 @@
         "heading": "Passive vs Active Bass Electronics: The Real Difference and How to Choose",
         "heading_es": "Bajo pasivo vs activo: la diferencia real y cómo elegir",
         "content": "<p><strong>Before you pick a bass, you need to know which side of the passive/active fence you belong on.</strong> It's the first question that changes what you hear when you plug in, and it's simpler than most forums make it sound.</p><p><strong>A passive bass has no battery.</strong> The pickups send their signal straight to the volume and tone knobs and out to amp. That's it. The result is a sound that's honest, open and alive. The pickups and the wood do the talking, and the treble roll-off has that soft, round behavior people call \"vintage\". It can only cut frequencies, never boost them, which is why passive basses rely on amp to add character when you want more.</p><p><strong>An active bass runs its pickups through a small preamp powered by a 9V battery.</strong> That preamp can boost frequencies, not just cut them, so you get that punchy, present, almost-compressed-in-the-right-way sound that sits right at the front of a mix. That's where the \"hi-fi\" and \"studio ready\" words come from. The trade-off: if the battery dies mid-gig the bass goes silent, and if you crank the bass boost too far the tone can turn thin and harsh.</p><p><strong>So which should you choose?</strong> If you play rock, blues or funk with a pick, or you like letting your amp shape the tone, a passive bass like the Squier Classic Vibe or the Sterling Ray4 is the more flexible, foolproof choice — no battery to babysit and a sound that records beautifully. If you play modern metal, slap, R&B or you plug straight into an interface or the PA without amp, active electronics on the Yamaha TRBX304 or the Ibanez SR300E give you the punch and control you can't get any other way.</p><p><strong>And the good news for this guide?</strong> Four of our picks are passive and two are active, so whatever your style, there's a bass here that already comes wired the way you like it. That's not a compromise. It's a choice you finally get to make with your ears instead of your wallet.</p>",
-        "content_es": "<p><strong>Antes de elegir un bajo, tienes que tener claro si quieres un bajo pasivo o uno activo.</strong> Es la primera pregunta que cambia lo que oyes al conectar, y es más simple de lo que parece en los foros.</p><p><strong>Un bajo pasivo no lleva pila.</strong> Las pastillas mandan su señal directo a las perillas de volumen y tono y de ahí al amplificador. Nada más. El resultado es un sonido honesto, abierto y vivo — las pastillas y la madera hablan solas, y la bajada de agudos tiene ese comportamiento suave y redondo que la gente llama \"vintage\". Solo puede atenuar frecuencias, nunca realzarlas, por eso los bajos pasivos dependen del amplificador para aportar carácter cuando quieres más.</p><p><strong>Un bajo activo pasa sus pastillas por un pequeño preamplificador alimentado con una pila de 9V.</strong> Ese preamplificador sí puede realzar frecuencias, no solo cortarlas, así que consigues ese sonido con golpe, presente y casi comprimido en el buen sentido, que se coloca justo al frente de la mezcla. De ahí vienen las palabras \"hi-fi\" y \"listo para estudio\". La contra: si la pila muere a mitad del bolo, el bajo se queda mudo, y si subes demasiado el realce de graves, el tono puede volverse delgado y áspero.</p><p><strong>Entonces, ¿cuál eliges?</strong> Si tocas rock, blues o funk con púa, o te gusta dejar que el amplificador modele el tono, un bajo pasivo como el Squier Classic Vibe o el Sterling Ray4 es la opción más flexible y a prueba de fallos, sin pila que cuidar y un sonido que graba precioso. Si tocas metal moderno, slap, R&B o te conectas directo a una interfaz o a la mesa sin amplificador, la electrónica activa del Yamaha TRBX304 o del Ibanez SR300E te da el golpe y el control que no consigues de otra forma.</p><p><strong>¿Y la buena noticia en esta guía?</strong> Cuatro de nuestras opciones son pasivas y dos activas, así que sea cual sea tu estilo, aquí hay un bajo que ya viene cableado como te gusta. Eso no es un compromiso — es una decisión que por fin tomas con los oídos en vez de con la cartera.</p>",
+        "content_es": "<p><strong>Antes de elegir un bajo, tienes que tener claro si quieres un bajo pasivo o uno activo.</strong> Es la primera pregunta que cambia lo que oyes al conectar, y es más simple de lo que parece en los foros.</p><p><strong>Un bajo pasivo no lleva pila.</strong> Las pastillas mandan su señal directo a las perillas de volumen y tono y de ahí al amplificador. Nada más. El resultado es un sonido honesto, abierto y vivo — las pastillas y la madera hablan solas, y la bajada de agudos tiene ese comportamiento suave y redondo que la gente llama \"vintage\". Solo puede atenuar frecuencias, nunca realzarlas, por eso los bajos pasivos dependen del amplificador para aportar carácter cuando quieres más.</p><p><strong>Un bajo activo pasa sus pastillas por un pequeño preamplificador alimentado con una pila de 9V.</strong> Ese preamplificador sí puede realzar frecuencias, no solo cortarlas, así que consigues ese sonido con golpe, presente y casi comprimido en el buen sentido, que se coloca justo al frente de la mezcla. De ahí vienen las palabras \"hi-fi\" y \"listo para estudio\". La contra: si la pila muere a mitad de la presentación, el bajo se queda mudo, y si subes demasiado el realce de graves, el tono puede volverse delgado y áspero.</p><p><strong>Entonces, ¿cuál eliges?</strong> Si tocas rock, blues o funk con púa, o te gusta dejar que el amplificador modele el tono, un bajo pasivo como el Squier Classic Vibe o el Sterling Ray4 es la opción más flexible y a prueba de fallos, sin pila que cuidar y un sonido que graba precioso. Si tocas metal moderno, slap, R&B o te conectas directo a una interfaz o a la mesa sin amplificador, la electrónica activa del Yamaha TRBX304 o del Ibanez SR300E te da el golpe y el control que no consigues de otra forma.</p><p><strong>¿Y la buena noticia en esta guía?</strong> Cuatro de nuestras opciones son pasivas y dos activas, así que sea cual sea tu estilo, aquí hay un bajo que ya viene cableado como te gusta. Eso no es un compromiso — es una decisión que por fin tomas con los oídos en vez de con la cartera.</p>",
         "products": [
           157,
           159,
@@ -62181,7 +62181,7 @@
             },
             {
               "value": "Versatile active bass for gigging",
-              "value_es": "Bajo activo versátil para bolos"
+              "value_es": "Bajo activo versátil para presentaciones"
             },
             {
               "value": "Lightweight groove for beginners",
@@ -62589,13 +62589,13 @@
         "name_es": "Squier Affinity Series Precision Bass PJ",
         "pros": [
           "PJ configuration gives Precision thump AND Jazz bite in one bass",
-          "The world's best-selling bass at an accessible price",
+          "Split-coil P plus Jazz bridge pickup cover vintage thump and modern growl",
           "Versatile enough to cover Motown, rock, and jazz tones",
           "Lightweight poplar body with comfortable contours"
         ],
         "pros_es": [
           "La configuración PJ da el golpe Precision Y el mordiente Jazz en un solo bajo",
-          "El bajo más vendido del mundo a un precio asequible",
+          "Pastilla P split-coil más puente Jazz cubren thump vintage y growl moderno",
           "Lo bastante versátil para cubrir tonos de Motown, rock y jazz",
           "Cuerpo de álamo ligero con contornos cómodos"
         ],
@@ -62890,7 +62890,7 @@
         "heading": "Yamaha TRBX304: Active Modern Workhorse",
         "heading_es": "Yamaha TRBX304: Todoterreno activo moderno",
         "content": "<strong>If you want modern slap and rock tones with onboard control, this workhorse delivers.</strong> Dual humbuckers feeding an active circuit with a five-way voicing switch move from deep vintage thump to aggressive bite without touching the amp. The sculpted body and five-piece neck feel solid and sustain well. I have cut funk verses and picked choruses in one song and the switch made the change instant. Great for versatile gigging bassists. Check battery access, weight on long sets and whether you prefer active punch or passive simplicity before committing.",
-        "content_es": "<strong>Si buscas slap moderno y tonos rock con control a bordo, este caballo de batalla cumple.</strong> Dobles humbuckers con circuito activo y selector de cinco posiciones pasan de golpe vintage profundo a mordida agresiva sin tocar el ampli. El cuerpo esculpido y el mástil de cinco piezas se sienten sólidos y con buen sustain. He tocado versos funk con dedos y estribillos con púa en un mismo tema y el selector hizo el cambio al instante. Genial para bajistas versátiles. Revisa acceso a pila, peso en bolos largos y si prefieres pegada activa o sencillez pasiva antes de decidir.",
+        "content_es": "<strong>Si buscas slap moderno y tonos rock con control a bordo, este caballo de batalla cumple.</strong> Dobles humbuckers con circuito activo y selector de cinco posiciones pasan de golpe vintage profundo a mordida agresiva sin tocar el ampli. El cuerpo esculpido y el mástil de cinco piezas se sienten sólidos y con buen sustain. He tocado versos funk con dedos y estribillos con púa en un mismo tema y el selector hizo el cambio al instante. Genial para bajistas versátiles. Revisa acceso a pila, peso en presentaciones largas y si prefieres pegada activa o sencillez pasiva antes de decidir.",
         "products": [
           159
         ]
@@ -62926,7 +62926,7 @@
         "heading": "Sire Marcus Miller V5R: Roasted Passive Value",
         "heading_es": "Sire Marcus Miller V5R: Valor pasivo tostado",
         "content": "<strong>If you love passive simplicity but want a neck that feels played-in from day one, try this.</strong> An alder body with a roasted maple neck and softly rolled edges feels smooth up and down, while vintage-voiced passive pickups with seventies spacing give punchy, open jazz tone through simple volume and tone knobs. I have played long wedding sets on one and hand fatigue stayed low while the tone cut through horns. Ideal for traditionalists who ride dynamics. Check string height, neck relief and that passive output matches your amp gain staging.",
-        "content_es": "<strong>Si amas la sencillez pasiva pero quieres un mástil que se sienta rodado desde el primer día, prueba este.</strong> El cuerpo de aliso con mástil de arce tostado y bordes suavemente redondeados se siente fluido arriba y abajo, mientras las pastillas pasivas de voz vintage con separación setentera dan un tono jazz contundente y abierto con simples mandos de volumen y tono. He tocado bolos largos de bodas con uno y la fatiga fue baja mientras el tono cortaba entre vientos. Ideal para tradicionalistas que juegan con dinámica. Revisa altura de cuerdas, alivio de mástil y que la salida pasiva encaje con la ganancia de tu ampli.",
+        "content_es": "<strong>Si amas la sencillez pasiva pero quieres un mástil que se sienta rodado desde el primer día, prueba este.</strong> El cuerpo de aliso con mástil de arce tostado y bordes suavemente redondeados se siente fluido arriba y abajo, mientras las pastillas pasivas de voz vintage con separación setentera dan un tono jazz contundente y abierto con simples mandos de volumen y tono. He tocado presentaciones largas de bodas con uno y la fatiga fue baja mientras el tono cortaba entre vientos. Ideal para tradicionalistas que juegan con dinámica. Revisa altura de cuerdas, alivio de mástil y que la salida pasiva encaje con la ganancia de tu ampli.",
         "products": [
           326
         ]
@@ -62962,7 +62962,7 @@
         "heading": "Fender AmPro II Jazz: The Working Pro J",
         "heading_es": "Fender AmPro II Jazz: El J pro trabajador",
         "content": "<strong>If your Jazz Bass has to survive nightly gigs and stay crystal clear, this is the working standard.</strong> V-Mod II single-coils bring richer harmonics and an articulate voice that keeps complex runs intelligible, while the slim-taper neck with smooth edges makes fast position shifts effortless. A treble-bleed circuit preserves sparkle when you roll volume back. I have played soul and theatre pits where dynamics changed every bar and the tone stayed present without touching the amp. Made for pros. Check weight balance on strap and test the volume taper with your pedals and amp.",
-        "content_es": "<strong>Si tu Jazz Bass debe sobrevivir a bolos nocturnos y mantenerse cristalino, este es el estándar de trabajo.</strong> Las simples V-Mod II aportan armónicos más ricos y voz articulada que mantiene inteligibles las líneas rápidas, mientras el mástil estrecho con bordes suaves hace sin esfuerzo los cambios de posición. El circuito de retención de agudos conserva brillo al bajar volumen. He tocado soul y fosos de teatro donde la dinámica cambiaba cada compás y el tono siguió presente sin tocar el ampli. Hecho para profesionales. Revisa equilibrio con correa y prueba el recorrido de volumen con tus pedales y ampli.",
+        "content_es": "<strong>Si tu Jazz Bass debe sobrevivir a presentaciones nocturnas y mantenerse cristalino, este es el estándar de trabajo.</strong> Las simples V-Mod II aportan armónicos más ricos y voz articulada que mantiene inteligibles las líneas rápidas, mientras el mástil estrecho con bordes suaves hace sin esfuerzo los cambios de posición. El circuito de retención de agudos conserva brillo al bajar volumen. He tocado soul y fosos de teatro donde la dinámica cambiaba cada compás y el tono siguió presente sin tocar el ampli. Hecho para profesionales. Revisa equilibrio con correa y prueba el recorrido de volumen con tus pedales y ampli.",
         "products": [
           156
         ]
@@ -63169,7 +63169,7 @@
             },
             {
               "value": "Versatile active bass for gigging",
-              "value_es": "Bajo activo versátil para bolos"
+              "value_es": "Bajo activo versátil para presentaciones"
             },
             {
               "value": "Lightweight groove for beginners",
@@ -63807,13 +63807,13 @@
           "Best value beginner bass at ",
           "PJ pickups give you Precision thump AND Jazz growl in one instrument",
           "Comfortable maple neck and lightweight poplar body",
-          "The world's best-selling bass — proven by thousands of beginners"
+          "Split-coil P plus Jazz bridge pickup cover vintage thump and modern growl"
         ],
         "pros_es": [
           "El mejor bajo económico para principiantes por solo",
           "Las pastillas PJ dan el golpe Precision y el growl Jazz en un solo instrumento",
           "Mástil de arce cómodo y cuerpo de álamo ligero",
-          "El bajo más vendido del mundo — probado por miles de principiantes"
+          "Pastilla P split-coil más puente Jazz cubren thump vintage y growl moderno"
         ],
         "cons": [
           "Entry-level pickups and hardware invite future upgrades",
@@ -64003,13 +64003,13 @@
           "Dual single-coils blend from warm neck to aggressive bridge tones",
           "Slim 1.5-inch tapered neck makes fast runs and slap easy",
           "Articulate midrange cuts through horns and percussion",
-          " it is the most versatile Fender bass at a fair price"
+          "Two single-coils with independent volumes cover fingerstyle, slap and pick"
         ],
         "pros_es": [
           "Dos single-coils que mezclan desde tonos cálidos de mástil hasta mordiente de puente",
           "El mástil cónico de 1.5 pulgadas hace fáciles los runs rápidos y el slap",
           "El medio articulado corta a través de vientos y percusión",
-          "Es el Fender más versátil a un precio justo"
+          "Dos single-coils con volúmenes independientes cubren dedos, slap y púa"
         ],
         "cons": [
           "Single-coils can hum in high-noise environments",
@@ -64160,7 +64160,7 @@
         "cons_es": [
           "La tapa spalted varía mucho pieza a pieza",
           "La EQ activa pide disciplina de batería",
-          "Voz metalera menos versátil para bolos vintage",
+          "Voz metalera menos versátil para presentaciones vintage",
           "El hardware negro muestra desgaste"
         ]
       }
@@ -64210,7 +64210,7 @@
         "heading": "Yamaha TRBX304: The Active All-Purpose Bass",
         "heading_es": "Yamaha TRBX304: el versátil activo",
         "content": "<strong>If you play in several bands and need one bass that covers vintage thump to modern bite, start here.</strong> The five-position Performance EQ switch is Yamaha at its practical best: preset mid curves you flip with a finger instead of rebuilding your amp sound, from deep and round to scooped and aggressive. Paired with a sculpted mahogany body and a five-piece maple and mahogany neck, you get solid sustain and a broken-in feel that stays stable. I have lent this style of TRBX for weekend session work and it sat well in soul, rock and worship sets with tiny tweaks. Perfect for session players, church gigs and versatile cover work. Check pickup balance and fret finish on arrival, then set your favorite switch position as home base.",
-        "content_es": "<strong>Si tocas en varios grupos y necesitas un bajo que vaya del golpe vintage al mordisco moderno, empieza por aquí.</strong> El conmutador Performance EQ de cinco posiciones es Yamaha en estado práctico: curvas de medios preseleccionadas que cambias con un dedo en lugar de rehacer tu sonido en el ampli, de profundo y redondo a afilado y agresivo. Junto al cuerpo de caoba esculpido y el mástil de cinco piezas de arce y caoba, obtienes buen sustain y un tacto asentado que se mantiene estable. He prestado un TRBX de este estilo para bolos de fin de semana y encajó en soul, rock y repertorio variado con ajustes mínimos. Perfecto para músicos de sesión, bolos versátiles y versiones.",
+        "content_es": "<strong>Si tocas en varios grupos y necesitas un bajo que vaya del golpe vintage al mordisco moderno, empieza por aquí.</strong> El conmutador Performance EQ de cinco posiciones es Yamaha en estado práctico: curvas de medios preseleccionadas que cambias con un dedo en lugar de rehacer tu sonido en el ampli, de profundo y redondo a afilado y agresivo. Junto al cuerpo de caoba esculpido y el mástil de cinco piezas de arce y caoba, obtienes buen sustain y un tacto asentado que se mantiene estable. He prestado un TRBX de este estilo para presentaciones de fin de semana y encajó en soul, rock y repertorio variado con ajustes mínimos. Perfecto para músicos de sesión, presentaciones versátiles y versiones.",
         "products": [
           159
         ]
@@ -64228,7 +64228,7 @@
         "heading": "Sterling StingRay Ray4: The Funk Machine",
         "heading_es": "Sterling StingRay Ray4: la opción para funk",
         "content": "<strong>If slap, funk punch and rock grind live in the same setlist, that single humbucker is famous for a reason.</strong> One ceramic humbucker placed in the sweet spot plus a two-band active preamp gives thick mids, tight lows and a glassy top you shape with bass and treble right on the bass. It is the Music Man recipe: forward, aggressive and always audible without stomping the kick drum. I have cut funk sessions with a Ray-style bass next to a dual-pickup instrument and the single-pickup focus needed almost no mixing to sit. Lightweight basswood body and hard maple neck keep long gigs easy. Ideal for funk, slap, pop-rock and anyone chasing that Flea-style bark. Check battery access and preamp hiss at high treble before committing.",
-        "content_es": "<strong>Si el slap, la pegada funk y la caña rockera conviven en el mismo repertorio, esa humbucker única es famosa por algo.</strong> Una sola humbucker cerámica colocada en el punto ideal más un previo activo de dos bandas entrega medios gruesos, graves prietos y un brillo cristalino que moldeas con graves y agudos desde el propio bajo. Es la receta Music Man: presencia, agresividad y siempre audible sin pisar el bombo. He grabado sesiones funk con un bajo estilo Ray junto a un instrumento de dos pastillas y el enfoque de una sola pastilla casi no pidió mezcla para encajar. El cuerpo ligero de tilo y el mástil de arce facilitan los bolos largos. Ideal para funk, slap, pop-rock y quien busque ese ladrido agresivo.",
+        "content_es": "<strong>Si el slap, la pegada funk y la caña rockera conviven en el mismo repertorio, esa humbucker única es famosa por algo.</strong> Una sola humbucker cerámica colocada en el punto ideal más un previo activo de dos bandas entrega medios gruesos, graves prietos y un brillo cristalino que moldeas con graves y agudos desde el propio bajo. Es la receta Music Man: presencia, agresividad y siempre audible sin pisar el bombo. He grabado sesiones funk con un bajo estilo Ray junto a un instrumento de dos pastillas y el enfoque de una sola pastilla casi no pidió mezcla para encajar. El cuerpo ligero de tilo y el mástil de arce facilitan las presentaciones largas. Ideal para funk, slap, pop-rock y quien busque ese ladrido agresivo.",
         "products": [
           161
         ]
@@ -64237,7 +64237,7 @@
         "heading": "Yamaha BB434: The Passive Studio Go-To",
         "heading_es": "Yamaha BB434: la favorita pasiva de estudio",
         "content": "<strong>If you record a lot and want a no-battery bass that engineers trust, this passive hybrid is gold.</strong> A split coil at the neck plus a single coil at the bridge — wound as YGD Custom V5 with Alnico magnets — blends precision punch with jazz clarity, from fat fingerstyle to burpy bridge lines. Passive volume-volume-tone controls mean what you dial is what the desk gets, with no preamp surprises. The five-piece maple and mahogany neck with a six-bolt miter joint feels rock solid and holds intonation gig after gig. I have tracked P/J-style basses like this next to active five-strings and mixes needed less low-mid cleanup. For studio players, indie, soul and classic rock. Check pickup heights and shielding noise with single-coil soloed.",
-        "content_es": "<strong>Si grabas mucho y quieres un bajo sin pila en el que los técnicos confían, este híbrido pasivo es oro.</strong> Una split coil en el mástil más una single coil en el puente, bobinadas como YGD Custom V5 con imanes de álnico, mezclan la pegada precision con la claridad jazz, del fingerstyle gordo a las líneas nasales del puente. Los controles pasivos de volumen, volumen y tono hacen que lo que ajustas es lo que llega a la mesa, sin sorpresas de previo. El mástil de cinco piezas de arce y caoba con unión de seis tornillos se siente rocoso y mantiene la entonación bolo tras bolo. He grabado bajos P/J de este estilo junto a activos de cinco cuerdas y la mezcla pidió menos limpieza en medios-graves. Para músicos de estudio, indie, soul y rock clásico.",
+        "content_es": "<strong>Si grabas mucho y quieres un bajo sin pila en el que los técnicos confían, este híbrido pasivo es oro.</strong> Una split coil en el mástil más una single coil en el puente, bobinadas como YGD Custom V5 con imanes de álnico, mezclan la pegada precision con la claridad jazz, del fingerstyle gordo a las líneas nasales del puente. Los controles pasivos de volumen, volumen y tono hacen que lo que ajustas es lo que llega a la mesa, sin sorpresas de previo. El mástil de cinco piezas de arce y caoba con unión de seis tornillos se siente rocoso y mantiene la entonación presentación tras presentación. He grabado bajos P/J de este estilo junto a activos de cinco cuerdas y la mezcla pidió menos limpieza en medios-graves. Para músicos de estudio, indie, soul y rock clásico.",
         "products": [
           467
         ]
@@ -64421,7 +64421,7 @@
             },
             {
               "value": "Versatile active bass for gigging",
-              "value_es": "Bajo activo versátil para bolos"
+              "value_es": "Bajo activo versátil para presentaciones"
             },
             {
               "value": "Vintage jazz-bass tone with modern playability",
@@ -64433,7 +64433,7 @@
             },
             {
               "value": "Punchy P/J for gigging bassists",
-              "value_es": "P/J contundente para bolos"
+              "value_es": "P/J contundente para presentaciones"
             },
             {
               "value": "Lightweight modern bass with versatile active EQ",
@@ -64912,13 +64912,13 @@
         "name": "Yamaha TRBX304",
         "name_es": "Yamaha TRBX304",
         "pros": [
-          "Most versatile bass with a 5-way active EQ",
+          "5-way active EQ switch with humbucking pickups for slap-ready tones",
           "The alder/maple body and 24-fret neck show Yamaha's tight factory tolerances",
           "24-fret neck and modern active punch",
           "Session-ready tone that sounds pro in any genre"
         ],
         "pros_es": [
-          "El bajo más versátil en su categoría, con EQ activo de 5 vías",
+          "Selector activo de 5 vías con humbuckers para tonos listos para slap",
           "El cuerpo de aliso/arce y el mástil de 24 trastes muestran las ajustadas tolerancias de fábrica de Yamaha",
           "Mástil de 24 trastes y golpe activo moderno",
           "Tono listo para sesión que suena pro en cualquier género"
@@ -65542,14 +65542,14 @@
           "Revolutionary dual-circuit design — tube warmth and FET clarity in one microphone",
           "Four all-analog tube modes (Clear, Warm, Dark, Saturated) for endless tonal options",
           "Seamless blend between tube and FET circuits for unique hybrid tones",
-          "Five polar patterns selectable via remote control — most versatile in its class",
+          "Five polar patterns with tube and solid-state voicings via remote control",
           "Complete premium package: shock mount, pop filter, remote, mil-spec case included"
         ],
         "pros_es": [
           "Diseño revolucionario de doble circuito — calidez de tubo y claridad FET en un micrófono",
           "Cuatro modos de tubo analógicos (Clear, Warm, Dark, Saturated) para opciones tonales infinitas",
           "Fusión perfecta entre circuitos de tubo y FET para tonos híbridos únicos",
-          "Cinco patrones polares seleccionables con control remoto — el más versátil de su clase",
+          "Cinco patrones polares con voces de válvulas y estado sólido por control remoto",
           "Paquete premium completo: soporte, filtro pop, control remoto, estuche militar incluido"
         ],
         "cons": [
@@ -66466,7 +66466,7 @@
       "faq_a1_en": "For covering sessions, the Ultra II; for that specific rock sound clients ask for, nothing replaces the Les Paul.",
       "faq_a1_es": "Para cubrir sesiones, la Ultra II; para ese sonido de rock específico que piden los clientes, nada sustituye a la Les Paul.",
       "faq_q2_en": "Which one is more comfortable for a three-hour gig?",
-      "faq_q2_es": "¿Cuál es más cómoda para un bolo de tres horas?",
+      "faq_q2_es": "¿Cuál es más cómoda para una presentación de tres horas?",
       "faq_a2_en": "The Strat — lighter body and contoured heel win over a long night. The Les Paul rewards you with tone, not ergonomics.",
       "faq_a2_es": "La Strat — menos peso y talón redondeado ganan en una noche larga. La Les Paul te premia con tono, no con ergonomía.",
       "faq_q3_en": "Single-coils or humbuckers for recording versatility?",
@@ -66707,7 +66707,7 @@
         "heading": "Fender American Ultra II Precision Bass",
         "heading_es": "Fender American Ultra II Precision Bass",
         "content": "<strong>If the Precision thump must stay but hum, heel bulk and vintage limits have to go, this is the modern answer.</strong> The Ultra II Noiseless split pickup keeps that round, sits-anywhere low-mid punch while canceling single-coil buzz for silent stages and studio takes. Redesigned contours plus a sculpted heel mean longer comfort and cleaner high-fret runs, the compound-radius ebony board shifts from round chording to flat soloing, and the HiMass bridge adds sustain and rock-steady intonation. I have gigged P-style basses like this next to vintage reissues and the Ultra stayed quiet under lights and cut with less amp work. For touring pros, session bassists and modern classicists. Check setup, string choice and bridge saddle feel to taste.",
-        "content_es": "<strong>Si el golpe Precision debe quedarse pero el zumbido, el talón grueso y los límites vintage tienen que irse, esta es la respuesta moderna.</strong> La pastilla dividida Ultra II Noiseless mantiene esa pegada redonda de medios-graves que encaja en todo mientras cancela el zumbido single para escenarios silenciosos y tomas de estudio. Los contornos rediseñados más el talón esculpido dan más comodidad y pasajes agudos más limpios, el diapasón de ébano de radio compuesto pasa de acordes redondos a solos planos, y el puente HiMass suma sustain y una entonación rocosa. He tocado bolos con bajos estilo P así junto a reediciones vintage y el Ultra se mantuvo silencioso bajo focos y cortó con menos trabajo de ampli. Para profesionales de gira, sesionistas y clasicistas modernos.",
+        "content_es": "<strong>Si el golpe Precision debe quedarse pero el zumbido, el talón grueso y los límites vintage tienen que irse, esta es la respuesta moderna.</strong> La pastilla dividida Ultra II Noiseless mantiene esa pegada redonda de medios-graves que encaja en todo mientras cancela el zumbido single para escenarios silenciosos y tomas de estudio. Los contornos rediseñados más el talón esculpido dan más comodidad y pasajes agudos más limpios, el diapasón de ébano de radio compuesto pasa de acordes redondos a solos planos, y el puente HiMass suma sustain y una entonación rocosa. He tocado presentaciones con bajos estilo P así junto a reediciones vintage y el Ultra se mantuvo silencioso bajo focos y cortó con menos trabajo de ampli. Para profesionales de gira, sesionistas y clasicistas modernos.",
         "products": [
           185
         ]
@@ -66796,7 +66796,7 @@
       "faq_q3_en": "Do I need a five-string?",
       "faq_q3_es": "¿Necesito un cinco cuerdas?",
       "faq_a3_en": "Not to start — both of these are four-strings and cover nearly everything. Add a five when gigs demand the low B.",
-      "faq_a3_es": "Para empezar no — estos dos son de cuatro y cubren casi todo. Suma un cinco cuando los bolos pidan el si grave.",
+      "faq_a3_es": "Para empezar no — estos dos son de cuatro y cubren casi todo. Suma un cinco cuando las presentaciones pidan el Si grave.",
       "faq_q4_en": "Which bass for worship versus rock?",
       "faq_q4_es": "¿Qué bajo para worship frente a rock?",
       "faq_a4_en": "The P's round warmth flatters worship and soul; the StingRay's aggression owns rock and funk.",
@@ -68498,7 +68498,7 @@
       "faq_a1_en": "Solo, the CQ-18T's automatic mixing saves you; with a full band and time to mix, the M32R's faders give control.",
       "faq_a1_es": "Solo, la mezcla automática del CQ-18T te salva; con banda completa y tiempo para mezclar, los faders del M32R dan control.",
       "faq_q2_en": "Can the CQ record the show?",
-      "faq_q2_es": "¿La CQ puede grabar el bolo?",
+      "faq_q2_es": "¿La CQ puede grabar la presentación?",
       "faq_a2_en": "Yes — multitrack to SD plus a stereo mix, no computer needed. The M32R records over USB just as easily.",
       "faq_a2_es": "Sí — multipista a SD más mezcla estéreo, sin ordenador. La M32R graba por USB igual de fácil.",
       "faq_q3_en": "Which survives life on the road?",
@@ -68506,7 +68506,7 @@
       "faq_a3_en": "The M32R's faders and chassis take touring abuse; the CQ's sealed surface shrugs off dust and drinks.",
       "faq_a3_es": "Los faders y el chasis de la M32R aguantan el trote de gira; la superficie sellada de la CQ ni se inmuta con polvo y copas.",
       "faq_q4_en": "Which is better for streaming my gigs?",
-      "faq_q4_es": "¿Cuál es mejor para retransmitir mis bolos?",
+      "faq_q4_es": "¿Cuál es mejor para retransmitir mis presentaciones?",
       "faq_a4_en": "The CQ — USB audio plus automatic mixing gives you a polished stream with nobody at the desk.",
       "faq_a4_es": "La CQ — audio USB más mezcla automática te dan un streaming pulido sin nadie en la mesa."
     },
@@ -69523,13 +69523,13 @@
         "name": "Focusrite Scarlett 2i2 4th Gen",
         "name_es": "Focusrite Scarlett 2i2 4th Gen",
         "pros": [
-          "The world's best-selling audio interface for a reason",
+          "Clean preamps with Air mode and rock-solid USB-C drivers",
           "120dB dynamic range and studio-grade conversion",
           "Air mode adds clarity to vocals and acoustic instruments",
           "Loopback makes streaming and routing effortless"
         ],
         "pros_es": [
-          "La interfaz de audio más vendida del mundo por una razón",
+          "Previos limpios con modo Air y drivers USB-C sólidos",
           "120dB de rango dinámico y conversión de nivel profesional",
           "El modo Air añade claridad a voces e instrumentos acústicos",
           "Loopback facilita el streaming y el routing"
@@ -70670,7 +70670,7 @@
             },
             {
               "value": "Compact tones for gigging players",
-              "value_es": "Sonidos compactos para bolos"
+              "value_es": "Sonidos compactos para presentaciones"
             },
             {
               "value": "Full rig tones for gigging",
@@ -72935,13 +72935,13 @@
         "name": "Shure SM57",
         "name_es": "Shure SM57",
         "pros": [
-          "The most recorded instrument microphone in history",
+          "Handles screaming guitar cabs without distortion or damage",
           "5-7kHz presence bite that cuts through any mix",
           "Indestructible, affordable, and incredible on guitar cabs, snares, and horns",
           "Grabs everything from snare crack to percussion with simple placement"
         ],
         "pros_es": [
-          "El micrófono de instrumento más grabado de la historia",
+          "Aguanta pantallas a todo volumen sin distorsión ni daños",
           "Un mordiente de presencia de 5-7kHz que corta cualquier mezcla",
           "Indestructible, asequible e increíble en gabinetes de guitarra, cajas y vientos",
           "Captura desde el crack de la caja hasta percusión y cajón con una colocación simple"
@@ -73363,7 +73363,7 @@
         "heading": "Is the Electro-Voice PXM-12MP the Best Powered Stage Wedge?",
         "heading_es": "¿Es la Electro-Voice PXM-12MP el mejor monitor de piso activo?",
         "content": "<strong>The Electro-Voice PXM-12MP proves that a coaxial driver is made for wedge duty.</strong> The 12-inch/1.75-inch coaxial unit shares a single axis, so the sound reaches your ears from one point instead of two overlapping sources. The 700W Class-D amplifier was designed with EV's sibling brand Dynacord, and the QuickSmart DSP gives you EQ presets, a notch filter and system matching from a clear LCD. A 55° tilt and a recessed panel with built-in cable management keep stages tidy and set-up fast. It hits 129 dB, which is plenty for most clubs and smaller outdoor gigs. It's the middle option, and the one I'd recommend to most working bands.",
-        "content_es": "<strong>La Electro-Voice PXM-12MP demuestra que un driver coaxial está hecho para trabajar como cuña.</strong> El conjunto coaxial de 12\"/1,75\" comparte un mismo eje, así que el sonido llega a los oídos desde un solo punto en vez de desde dos fuentes superpuestas. El amplificador Class-D de 700W fue diseñado junto a Dynacord, la marca hermana de EV, y el DSP QuickSmart ofrece presets de EQ, filtro notch y emparejado de sistema desde una pantalla LCD clara. Una inclinación de 55° y un panel empotrado con gestión de cables integrada mantienen el escenario ordenado y el montaje rápido. Alcanza 129 dB, suficiente para la mayoría de clubs y bolos al aire libre de tamaño medio. Es la opción intermedia, y la que recomendaría la mayoría de bandas que trabajan.",
+        "content_es": "<strong>La Electro-Voice PXM-12MP demuestra que un driver coaxial está hecho para trabajar como cuña.</strong> El conjunto coaxial de 12\"/1,75\" comparte un mismo eje, así que el sonido llega a los oídos desde un solo punto en vez de desde dos fuentes superpuestas. El amplificador Class-D de 700W fue diseñado junto a Dynacord, la marca hermana de EV, y el DSP QuickSmart ofrece presets de EQ, filtro notch y emparejado de sistema desde una pantalla LCD clara. Una inclinación de 55° y un panel empotrado con gestión de cables integrada mantienen el escenario ordenado y el montaje rápido. Alcanza 129 dB, suficiente para la mayoría de clubs y presentaciones al aire libre de tamaño medio. Es la opción intermedia, y la que recomendaría la mayoría de bandas que trabajan.",
         "products": [
           217
         ]
@@ -73397,7 +73397,7 @@
       }
     ],
     "conclusion": "The RCF NX 912-SMA is the power pick for loud stages and demanding monitoring. The Electro-Voice PXM-12MP is the best all-round wedge for most working bands. The Yamaha DHR12M is the balanced value choice with serious DSP. The LD Systems MON 12 A G3 is the budget wedge that still sounds full and clear. The Turbosound Flashline TFX122M-AN is the value-powered pick: a 1100W coaxial wedge with Klark Teknik DSP and ULTRANET networking for about what some passive cabinets cost — and it lands on stage ready to plug in. If I had to pick one for my own rig, it would be the PXM-12MP — enough power for real gigs, a coaxial driver that behaves, and a panel designed by people who have carried monitors. <p><a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/best-live-sound-mixers.html\" class=\"guide-link-btn\">Best Live Sound Mixers for Bands & Events</a></p>",
-    "conclusion_es": "La RCF NX 912-SMA es la opción potente para escenarios exigentes. La Electro-Voice PXM-12MP es la cuña más equilibrada para la mayoría de bandas que trabajan. La Yamaha DHR12M es la opción equilibrada con DSP serio. La LD Systems MON 12 A G3 es la cuña económica que igual suena llena y clara. El Turbosound Flashline TFX122M-AN es la opción activa con mejor valor: una cuña coaxial de 1100W con DSP Klark Teknik y conexión ULTRANET por lo que cuestan algunas cajas pasivas — y llega al escenario lista para enchufar. Si tuviera que quedarme con una para mi propio equipo, sería la PXM-12MP: potencia de sobra para bolos reales, un driver coaxial que se porta bien y un panel diseñado por gente que ha cargado monitores. <p>También te interesa: <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/best-live-sound-mixers_es.html\" class=\"guide-link-btn\">Mejores Mezcladores de Sonido en Vivo para Bandas y Eventos</a></p>",
+    "conclusion_es": "La RCF NX 912-SMA es la opción potente para escenarios exigentes. La Electro-Voice PXM-12MP es la cuña más equilibrada para la mayoría de bandas que trabajan. La Yamaha DHR12M es la opción equilibrada con DSP serio. La LD Systems MON 12 A G3 es la cuña económica que igual suena llena y clara. El Turbosound Flashline TFX122M-AN es la opción activa con mejor valor: una cuña coaxial de 1100W con DSP Klark Teknik y conexión ULTRANET por lo que cuestan algunas cajas pasivas — y llega al escenario lista para enchufar. Si tuviera que quedarme con una para mi propio equipo, sería la PXM-12MP: potencia de sobra para presentaciones reales, un driver coaxial que se porta bien y un panel diseñado por gente que ha cargado monitores. <p>También te interesa: <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/best-live-sound-mixers_es.html\" class=\"guide-link-btn\">Mejores Mezcladores de Sonido en Vivo para Bandas y Eventos</a></p>",
     "verdict": "The PXM-12MP is the most practical for most working bands. The NX 912-SMA is for maximum power on loud stages, the DHR12M is the balanced value pick, and the MON 12 A G3 is the budget option that still performs. The Turbosound TFX122M-AN is the coax value pick: 1100W, full Klark Teknik DSP and ULTRANET wiring at an entry-level price.",
     "verdict_es": "El PXM-12MP es el más práctico para la mayoría de las bandas que trabajan. El NX 912-SMA es para máxima potencia en escenarios ruidosos, el DHR12M es la opción con mejor equilibrio de valor, y el MON 12 A G3 es la opción económica que aun así funciona. El Turbosound TFX122M-AN es la opción coaxial con mejor relación calidad-precio: 1100W, DSP Klark Teknik completo y conexión ULTRANET a un precio de entrada.",
     "featuredProducts": [
@@ -73504,7 +73504,7 @@
         "q": "How many dB do I actually need from a floor monitor?",
         "a": "For most clubs and smaller outdoor stages, 125-130 dB of SPL is enough. That range covers loud rock bands playing at stage volumes without the wedge running at its limit. If you're regularly on big festival stages with a loud band behind you, aim for the top of that range or add a second wedge per position.",
         "q_es": "¿Cuántos dB necesito de verdad en un monitor de piso?",
-        "a_es": "Para la mayoría de clubs y bolos al aire libre de tamaño medio, con 125-130 dB de SPL basta. Ese rango cubre bandas de rock que tocan a volumen alto sin llevar la cuña al límite. Si tocas a menudo en festivales grandes con una banda ruidosa detrás, apunta al tope de ese rango o añade una segunda cuña por posición.",
+        "a_es": "Para la mayoría de clubs y presentaciones al aire libre de tamaño medio, con 125-130 dB de SPL basta. Ese rango cubre bandas de rock que tocan a volumen alto sin llevar la cuña al límite. Si tocas a menudo en festivales grandes con una banda ruidosa detrás, apunta al tope de ese rango o añade una segunda cuña por posición.",
         "answer": "This depends on your specific needs and budget. All products in this guide have been selected for their quality and value. Review the comparison table and individual product cards for detailed specifications and current pricing."
       },
       {
@@ -73518,7 +73518,7 @@
         "q": "Can I use a powered wedge as a small PA main?",
         "a": "You can, and it works better than you'd think. The Electro-Voice PXM-12MP and Yamaha DHR12M both switch into FOH or main voicings, and a 12-inch coaxial will cover a small room on vocals and acoustic gigs. It's a useful backup, but for a real PA show you'll still want dedicated tops and a sub.",
         "q_es": "¿Puedo usar una cuña activa como PA principal para un evento pequeño?",
-        "a_es": "Se puede, y funciona mejor de lo que parece. La Electro-Voice PXM-12MP y la Yamaha DHR12M se cambian a curvas FOH o de PA principal, y un coaxial de 12 pulgadas cubre una sala pequeña para voces y directos acústicos. Sirve como plan B, pero para un bolo de PA de verdad seguirás queriendo tops dedicados y un sub.",
+        "a_es": "Se puede, y funciona mejor de lo que parece. La Electro-Voice PXM-12MP y la Yamaha DHR12M se cambian a curvas FOH o de PA principal, y un coaxial de 12 pulgadas cubre una sala pequeña para voces y directos acústicos. Sirve como plan B, pero para una presentación con PA de verdad seguirás queriendo tops dedicados y un sub.",
         "answer": "This depends on your specific needs and budget. All products in this guide have been selected for their quality and value. Review the comparison table and individual product cards for detailed specifications and current pricing."
       },
       {
@@ -73890,7 +73890,7 @@
         "pros_es": [
           "El driver coaxial ofrece una imagen de un solo punto y coherente en fase",
           "Amplificador Class-D diseñado por Dynacord con DSP QuickSmart",
-          "129 dB SPL son suficientes para clubs y bolos al aire libre pequeños",
+          "129 dB SPL son suficientes para clubs y presentaciones pequeñas al aire libre",
           "El panel empotrado con gestión de cables acelera el montaje"
         ],
         "cons": [
@@ -74003,7 +74003,7 @@
     "image": "https://r2.gear4music.com/media/92/928188/1200/preview.jpg",
     "badge": "topQuality",
     "intro": "Every band that has ever hauled its own wedges has had the same argument: do we buy the loud one or the smart one? I have played on stages with both the RCF NX 912-SMA and the Electro-Voice PXM-12MP more times than I can count, and the truth is they don’t compete for the same gig. The RCF is a powerhouse that doesn’t flinch on a loud stage. The EV is a clever coaxial wedge that costs half as much and weighs 6.5 kilos less per box. Both are 12-inch actives that work as floor wedges or small mains. The one you need depends on how loud you really play, and how much your back can take at load-out.",
-    "intro_es": "Toda banda que ha cargado con sus propias cuñas ha tenido el mismo debate: ¿compramos la potente o la sensata? He tocado en escenarios con la RCF NX 912-SMA y con la Electro-Voice PXM-12MP más veces de las que puedo contar, y la verdad es que no compiten por el mismo bolo. La RCF es un monstruo que no se inmuta en un escenario ruidoso. La EV es la cuña coaxial sensata que cuesta la mitad y pesa 6,5 kilos menos por caja. Ambas son activas de 12 pulgadas que funcionan como cuña de piso o como caja principal pequeña. La que necesitas depende de lo fuerte que toques y de cuánto aguante tu espalda a la hora de desmontar",
+    "intro_es": "Toda banda que ha cargado con sus propias cuñas ha tenido el mismo debate: ¿compramos la potente o la sensata? He tocado en escenarios con la RCF NX 912-SMA y con la Electro-Voice PXM-12MP más veces de las que puedo contar, y la verdad es que no compiten por la misma presentación. La RCF es un monstruo que no se inmuta en un escenario ruidoso. La EV es la cuña coaxial sensata que cuesta la mitad y pesa 6,5 kilos menos por caja. Ambas son activas de 12 pulgadas que funcionan como cuña de piso o como caja principal pequeña. La que necesitas depende de lo fuerte que toques y de cuánto aguante tu espalda a la hora de desmontar",
     "sections": [
       {
         "heading": "Is the RCF NX 912-SMA the Best Stage Wedge for Loud Shows?",
@@ -74034,7 +74034,7 @@
         "heading": "Verdict: Which Stage Wedge Should You Buy?",
         "heading_es": "Veredicto: ¿qué cuña de escenario deberías comprar?",
         "content": "<strong>If you can afford it and your gigs are loud, the RCF NX 912-SMA is the safer bet, it runs out of headroom later.</strong> If you play clubs, bars and small outdoor shows, the EV PXM-12MP is the smarter buy: half the price, almost the same SPL, and 6.5 kilos lighter per box, which matters when you load out at 3 a.m. My honest pick for most bands is the EV. My honest pick for the band that plays louder than the room can handle is the RCF. There is no wrong answer, just the wrong box for the wrong gig.",
-        "content_es": "<strong>Si puedes pagarla y tus bolos son ruidosos, la RCF NX 912-SMA es la apuesta segura: simplemente se queda sin margen más tarde.</strong> Si tocas en clubes, bares y bolos pequeños al aire libre, la EV PXM-12MP es la compra más sensata: la mitad de precio, casi el mismo SPL, y 6,5 kilos más ligera por caja, cosa que importa cuando desmontas a las 3 de la mañana. Mi elección honesta para la mayoría de bandas es la EV. Mi elección honesta para la banda que toca más fuerte de lo que la sala puede aguantar es la RCF. No hay respuesta equivocada, solo la caja equivocada para el bolo equivocado.",
+        "content_es": "<strong>Si puedes pagarla y tus presentaciones son ruidosas, la RCF NX 912-SMA es la apuesta segura: simplemente se queda sin margen más tarde.</strong> Si tocas en clubes, bares y presentaciones pequeñas al aire libre, la EV PXM-12MP es la compra más sensata: la mitad de precio, casi el mismo SPL, y 6,5 kilos más ligera por caja, cosa que importa cuando desmontas a las 3 de la mañana. Mi elección honesta para la mayoría de bandas es la EV. Mi elección honesta para la banda que toca más fuerte de lo que la sala puede aguantar es la RCF. No hay respuesta equivocada, solo la caja equivocada para la presentación equivocada.",
         "products": []
       }
     ],
@@ -74129,7 +74129,7 @@
       "best1_es": "La mayoría de bandas que trabajan",
       "best2_es": "Escenarios ruidosos y máximo margen",
       "faq_q1_es": "¿Qué cuña es mejor para una banda de rock ruidosa?",
-      "faq_a1_es": "La RCF NX 912-SMA tiene 2100W de pico y 130 dB SPL, así que mantiene la cabeza en escenarios donde la EV PXM-12MP estaría trabajando cerca de su límite. Para bolos en clubes y bares los 129 dB de la EV son suficientes, y menos por caja.",
+      "faq_a1_es": "La RCF NX 912-SMA tiene 2100W de pico y 130 dB SPL, así que mantiene la cabeza en escenarios donde la EV PXM-12MP estaría trabajando cerca de su límite. Para presentaciones en clubes y bares los 129 dB de la EV son suficientes, y menos por caja.",
       "faq_q2_es": "¿Por qué importa un driver coaxial en un monitor de escenario?",
       "faq_a2_es": "Un driver coaxial sitúa el woofer y el driver de compresión en el mismo eje, así que los agudos y los graves llegan a tus oídos desde un solo punto. Eso evita la filtración de peine de las cuñas con bocina cuando te mueves por el escenario, por eso la EV PXM-12MP suena igual desde cualquier sitio.",
       "faq_q3_es": "¿Puedo usar estas cuñas como cajas principales?",
@@ -74245,7 +74245,7 @@
           "values": [
             {
               "value": "Most working bands, clubs & small outdoor gigs",
-              "value_es": "La mayoría de bandas, clubes y bolos al aire libre"
+              "value_es": "La mayoría de bandas, clubes y presentaciones al aire libre"
             },
             {
               "value": "Loud stages and maximum headroom",
@@ -74464,7 +74464,7 @@
       }
     ],
     "conclusion": "The QSC KS118 is one of the venue kings with the best cardioid anti-feedback. The RCF SUB 8004-AS is the fast, articulate pick for rock and metal. The EV ELX200-18SP is the lightest and the best value for most working bands. The JBL PRX918XLF is the Bluetooth-friendly choice for events and weddings. The Yamaha DXS18XLF is the road-proof sub with the deepest lows. If I had to pick one for my own rig, it would be the ELX200-18SP: light enough to load alone, loud enough for real gigs, and app makes me look prepared at every soundcheck. <p><a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">Best Powered PA Speakers for Live Sound</a> <a href=\"/guides/live-sound-pa.html\" class=\"guide-link-btn\">Best PA Systems for Bands</a> <a href=\"/guides/stage-wedges.html\" class=\"guide-link-btn\">Best Powered Stage Wedges for Live Sound</a></p>",
-    "conclusion_es": "La QSC KS118 es una de las reinas de los recintos con el mejor modo cardioide anti-acoples. La RCF SUB 8004-AS es la rápida y articulada para rock y metal. La EV ELX200-18SP es la más ligera y la mejor relación calidad-precio para la mayoría de bandas. La JBL PRX918XLF es la opción con Bluetooth para eventos y bodas. La Yamaha DXS18XLF es el sub a prueba de carretera con los graves más profundos. Si tuviera que quedarme con una para mi equipo, sería la ELX200-18SP: ligera para cargarla solo, potente para bolos reales, y la app me hace parecer preparado en cada prueba de sonido. <p>También te interesa: <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/stage-wedges_es.html\" class=\"guide-link-btn\">Mejores Monitores de Piso Activos para Directo</a></p>",
+    "conclusion_es": "La QSC KS118 es una de las reinas de los recintos con el mejor modo cardioide anti-acoples. La RCF SUB 8004-AS es la rápida y articulada para rock y metal. La EV ELX200-18SP es la más ligera y la mejor relación calidad-precio para la mayoría de bandas. La JBL PRX918XLF es la opción con Bluetooth para eventos y bodas. La Yamaha DXS18XLF es el sub a prueba de carretera con los graves más profundos. Si tuviera que quedarme con una para mi equipo, sería la ELX200-18SP: ligera para cargarla solo, potente para presentaciones reales, y la app me hace parecer preparado en cada prueba de sonido. <p>También te interesa: <a href=\"/guides/best-pa-speakers_es.html\" class=\"guide-link-btn\">Mejores Altavoces PA Activos para Sonido en Vivo</a> <a href=\"/guides/live-sound-pa_es.html\" class=\"guide-link-btn\">Mejores sistemas PA para Bandas</a> <a href=\"/guides/stage-wedges_es.html\" class=\"guide-link-btn\">Mejores Monitores de Piso Activos para Directo</a></p>",
     "verdict": "ELX200-18SP for most bands, KS118 for mid-size venues with cardioid, SUB 8004-AS for rock and metal, PRX918XLF for events and weddings, DXS18XLF for touring durability.",
     "verdict_es": "ELX200-18SP para la mayoría de bandas, KS118 para recintos medianos con cardioide, SUB 8004-AS para rock y metal, PRX918XLF para eventos y bodas, DXS18XLF para durabilidad en gira.",
     "featuredProducts": [
@@ -75032,14 +75032,14 @@
         "q": "Do I need an 18-inch subwoofer or is 15-inch enough?",
         "a": "For live bands it depends on what's in the arrangement. If you have a kick drum, a bass guitar or a synth pushing low frequencies, an 18-inch is the standard because it moves enough air for the room without straining. A 15-inch makes sense for acoustic, pop or jazz in small venues where you want tight bass and a lighter box. All five subs in this guide are 18-inch for a reason: they cover the widest range of gigs.",
         "q_es": "¿Necesito un subwoofer de 18 pulgadas o basta con uno de 15?",
-        "a_es": "Para bandas en directo depende de lo que haya en el arreglo. Si tienes bombo, bajo o un sintetizador empujando frecuencias bajas, un 18 es el estándar porque mueve el aire suficiente para la sala sin forzarse. Un 15 tiene sentido para acústico, pop o jazz en salas pequeñas donde quieres graves apretados y una caja más ligera. Los cinco subs de esta guía son de 18 por una razón: cubren la gama más amplia de bolos.",
+        "a_es": "Para bandas en directo depende de lo que haya en el arreglo. Si tienes bombo, bajo o un sintetizador empujando frecuencias bajas, un 18 es el estándar porque mueve el aire suficiente para la sala sin forzarse. Un 15 tiene sentido para acústico, pop o jazz en salas pequeñas donde quieres graves apretados y una caja más ligera. Los cinco subs de esta guía son de 18 por una razón: cubren la gama más amplia de presentaciones.",
         "answer": "This depends on your specific needs and budget. All products in this guide have been selected for their quality and value. Review the comparison table and individual product cards for detailed specifications and current pricing."
       },
       {
         "q": "How many dB of SPL do I need from a live subwoofer?",
         "a": "For most clubs and smaller outdoor gigs, 130-136 dB peak is the sweet spot. That range covers loud rock bands and DJ-driven events without the sub running at its limit, which keeps the limiter out of your sound. If you're regularly filling rooms of a few hundred people, aim for the top of that range or run two subs to split the work and reduce distortion.",
         "q_es": "¿Cuántos dB de SPL necesito de un subwoofer para directo?",
-        "a_es": "Para la mayoría de clubes y bolos al aire libre de tamaño medio, el punto óptimo está entre 130 y 136 dB de pico. Ese rango cubre bandas de rock ruidosas y eventos de DJ sin llevar el sub al límite, lo que mantiene el limitador fuera de tu sonido. Si llenas a menudo salas de varios cientos de personas, apunta al tope del rango o usa dos subs para repartir el trabajo y reducir la distorsión.",
+        "a_es": "Para la mayoría de clubes y presentaciones al aire libre de tamaño medio, el punto óptimo está entre 130 y 136 dB de pico. Ese rango cubre bandas de rock ruidosas y eventos de DJ sin llevar el sub al límite, lo que mantiene el limitador fuera de tu sonido. Si llenas a menudo salas de varios cientos de personas, apunta al tope del rango o usa dos subs para repartir el trabajo y reducir la distorsión.",
         "answer": "This depends on your specific needs and budget. All products in this guide have been selected for their quality and value. Review the comparison table and individual product cards for detailed specifications and current pricing."
       },
       {
@@ -78744,13 +78744,13 @@
         "name_es": "Akai MPC Sample",
         "pros": [
           "Iconic MPC pads at the lowest price",
-          "Best-selling budget sampler ",
+          "16 iconic velocity-sensitive pads with chop and time-stretch",
           "Battery-powered with mic, speaker and 5-hour life",
           "Instant Sample Chop Mode for fast beats"
         ],
         "pros_es": [
           "Icónicos pads MPC al precio más bajo",
-          "El sampler económico más vendido",
+          "16 pads icónicos sensibles a la velocidad con chop y time-stretch",
           "Con batería, micrófono, altavoz y 5 horas de duración",
           "Instant Sample Chop Mode para beats rápidos"
         ],
@@ -83521,13 +83521,13 @@
           "Solid spruce top at an affordable price",
           "Comfortable neck and easy-to-reach frets for beginners",
           "Balanced tone that suits any playing style",
-          "Proven reliability from the world's most famous guitar brand"
+          "Dreadnought with rolled fingerboard edges for easy chording"
         ],
         "pros_es": [
           "Tapa sólida de abeto a un precio asequible",
           "Mástil cómodo y trastes fáciles de alcanzar para principiantes",
           "Tono equilibrado que se adapta a cualquier estilo",
-          "Fiabilidad probada de la marca de guitarras más famosa del mundo"
+          "Dreadnought con bordes de diapasón redondeados para cejillas fáciles"
         ],
         "cons": [
           "Laminate mahogany back and sides sound less rich than solid wood",
@@ -86517,7 +86517,7 @@
           357
         ],
         "content": "<strong>If you want your small guitar to own the stage visually and still do the gig, look at the Penguin.</strong> The white finish, gold hardware and thumbnail inlays give it a fifties showpiece vibe, but it is a working tool: the Fishman Presys III with onboard tuner makes swaps between songs fast and silent. Sonically the arched maple back with a solid spruce top means a punchier, snappier response than soft mahogany boxes, with a quicker attack that cuts through a band mix surprisingly well for the size. I have strummed one next to plain parlors and it projects with more edge and definition. Made for gigging performers who want persona and practicality; check that you like a bright, direct voice rather than a warm, mellow one.",
-        "content_es": "<strong>Si quieres que tu guitarra pequeña brille en el escenario y además cumpla en el bolo, mira la Penguin.</strong> El acabado blanco, los herrajes dorados y las incrustaciones thumbnail le dan un aire de joya de los cincuenta, pero es una herramienta de trabajo: el Fishman Presys III con afinador integrado permite cambios de tema rápidos y silenciosos. En sonido, el fondo arqueado de arce con tapa maciza de picea se traduce en una respuesta más contundente y chispeante que las cajas suaves de caoba, con un ataque más veloz que atraviesa la mezcla del grupo bien para su tamaño. Hecha para músicos de directo que quieren imagen y practicidad; comprueba que te guste una voz brillante y directa en lugar de una cálida y dulce."
+        "content_es": "<strong>Si quieres que tu guitarra pequeña brille en el escenario y además cumpla en la presentación, mira la Penguin.</strong> El acabado blanco, los herrajes dorados y las incrustaciones thumbnail le dan un aire de joya de los cincuenta, pero es una herramienta de trabajo: el Fishman Presys III con afinador integrado permite cambios de tema rápidos y silenciosos. En sonido, el fondo arqueado de arce con tapa maciza de picea se traduce en una respuesta más contundente y chispeante que las cajas suaves de caoba, con un ataque más veloz que atraviesa la mezcla del grupo bien para su tamaño. Hecha para músicos de directo que quieren imagen y practicidad; comprueba que te guste una voz brillante y directa en lugar de una cálida y dulce."
       }
     ],
     "conclusion": "The Gretsch G9500 Jim Dandy owns vintage vibe; the Yamaha CSF1M is the best all-around parlor with a solid top and pickup; the PRS SE P20e wins on boutique build. Slide players should grab the Epiphone L-00 Studio, budget buyers the Fender CP-60S, and stage personalities the Rancher Penguin. <p><a href=\"/guides/acoustic-guitars-guide.html\" class=\"guide-link-btn\">Best Acoustic Guitars</a> <a href=\"/guides/best-acoustic-guitars-for-beginners.html\" class=\"guide-link-btn\">Acoustic Guitars for Beginners</a> <a href=\"/guides/martin-d28-vs-taylor-314.html\" class=\"guide-link-btn\">Martin D-28 vs Taylor 314ce</a></p>",
@@ -86926,13 +86926,13 @@
         "name": "Gretsch G9500 Jim Dandy",
         "name_es": "Gretsch G9500 Jim Dandy",
         "pros": [
-          "Authentic 1930s bark at an unbeatable price",
+          "Ladder-braced parlor tone for couch picking and recording",
           "Short 24-inch scale and light strings make bending smooth and easy",
           "Greta Garbo-approved looks with vintage open-gear tuning",
           "Featherweight comfort for couch and porch sessions"
         ],
         "pros_es": [
-          "Auténtico ladrido de los años 30 a un precio imbatible",
+          "Tono parlor con varetaje ladder para tocar en el sofá y grabar",
           "Escala corta de 24 pulgadas y cuerdas ligeras hacen los bends suaves y naturales",
           "Apariencia vintage con clavijero abierto de estilo antiguo",
           "Comodidad plumífera para sofá y porch sessions"
@@ -87466,13 +87466,13 @@
         "name": "MXL R144",
         "name_es": "MXL R144",
         "pros": [
-          "Most affordable way to get real ribbon sound",
+          "Passive ribbon smoothness for guitar cabs and overheads at the lowest price",
           "Warm, vintage tone great for guitar cabs and vocals",
           "More character than any condenser at this price",
           "Figure-8 pattern for natural stereo recording"
         ],
         "pros_es": [
-          "La forma más económica de obtener sonido ribbon real",
+          "Suavidad ribbon pasiva para pantallas de guitarra y overheads al precio más bajo",
           "Tono cálido y vintage excelente para cabinas y voces",
           "Más carácter que cualquier condensador a este precio",
           "Patrón figura-8 para grabación estéreo natural"
@@ -88108,14 +88108,14 @@
         "name": "Cableguys ShaperBox 3",
         "name_es": "Cableguys ShaperBox 3",
         "pros": [
-          "Most versatile rhythmic modulation toolkit available",
+          "Volume, filter, pan, width and time modules in one window",
           "Volume, filter, pan, and distortion shapers in one",
           "Crash mode restarts the LFO on every transient to lock patterns to the beat",
           "Multi-band mode ducks the low end while leaving the highs untouched",
           "Preset library of over 200 rhythmic patterns"
         ],
         "pros_es": [
-          "El toolkit de modulación rítmica más versátil disponible",
+          "Módulos de volumen, filtro, paneo, anchura y tiempo en una ventana",
           "Formadores de volumen, filtro, pan y distorsión en uno",
           "El modo Crash reinicia el LFO en cada transiente para bloquear patrones al beat",
           "El modo multibanda atenúa los graves sin tocar los agudos",
@@ -90061,7 +90061,7 @@
         "pros_es": [
           "Inalámbrico UHF pro de giras mundiales",
           "Modo focus estéreo para RF saturado",
-          "Petaca metal aguanta fundas bolo",
+          "Petaca metal aguanta fundas para presentaciones",
           "Hasta 100 m alcance visual"
         ],
         "cons_es": [
@@ -91518,7 +91518,7 @@
         "h": "Is the RME Fireface UFX III the Best Tour-Proof Interface for Reliability?",
         "h_es": "¿Es la RME Fireface UFX III la interfaz más fiable para giras?",
         "intro": "188 channels, SteadyClock FS and DURec when the show cannot stop.",
-        "intro_es": "188 canales, SteadyClock FS y DURec cuando el bolo no puede parar.",
+        "intro_es": "188 canales, SteadyClock FS y DURec cuando la presentación no puede parar.",
         "content": "<p><strong>The RME Fireface UFX III is the uptime pick.</strong> 94 analogue/digital channels expandable to 188 with MADI over USB 3.0, SteadyClock FS that stays locked where others drift, TotalMix FX 48-channel mixer with DIGICheck metering and loopback, DURec direct-to-USB multitrack without a laptop, four hi-Z instrument inputs and two low-latency headphone amps. Drivers that survive a decade of OS updates — TotalMix is deep at first, but it never lets a session down. Transparent by design, no colour emulation, and a 2U cable-dense rear you plan your rack around.</p>",
         "content_es": "<p><strong>La RME Fireface UFX III es la elección para no fallar.</strong> 94 canales analógico/digital ampliables a 188 con MADI por USB 3.0, SteadyClock FS que se queda clavado donde otros se van, mesa TotalMix FX de 48 canales con medición DIGICheck y loopback, DURec directo a USB para multipista sin portátil, cuatro entradas hi-Z y dos amplis de auriculares de baja latencia. Drivers que sobreviven una década de actualizaciones — TotalMix impone al principio, pero nunca deja tirada una sesión. Transparente por diseño, sin emulación de color, y trasera densa en 2U que obliga a planificar el rack.</p>",
         "products": [
@@ -92164,7 +92164,7 @@
         "heading": "Is the Taylor GS Mini the Best Small Acoustic for the Desk?",
         "heading_es": "¿Es la Taylor GS Mini la mejor acústica pequeña para el escritorio?",
         "content": "<p><strong>The GS Mini is a real Taylor that fits the couch.</strong> Solid spruce top over layered sapele in a body three-quarters the size of a dreadnought, with a 23.5-inch scale that stays friendly on the fingers through long sitting sessions. No cables, no batteries, no headphones: pick it up between renders and play. It speaks at conversation volume — present in the room, gone behind a closed door.</p><p><strong>The catch: </strong>it is still an acoustic, so thin walls will hear it. The short scale crowds complex chords, and the base model carries no pickup for gigs or recording direct.</p>",
-        "content_es": "<p><strong>La GS Mini es una Taylor de verdad que cabe en el sofá.</strong> Tapa maciza de abeto sobre aros y fondo de sapeli en capas, en un cuerpo de tres cuartos de dreadnought, con escala de 23,5 pulgadas amable con los dedos en sesiones largas sentado. Sin cables, sin pilas, sin auriculares: la agarras entre render y render y tocas. Suena a volumen de conversación — presente en la sala, inaudible tras una puerta cerrada.</p><p><strong>El inconveniente: </strong>sigue siendo una acústica, así que con paredes finas se oye. La escala corta aprieta los acordes complejos, y el modelo base no lleva pastilla para bolos ni grabar en línea.</p>",
+        "content_es": "<p><strong>La GS Mini es una Taylor de verdad que cabe en el sofá.</strong> Tapa maciza de abeto sobre aros y fondo de sapeli en capas, en un cuerpo de tres cuartos de dreadnought, con escala de 23,5 pulgadas amable con los dedos en sesiones largas sentado. Sin cables, sin pilas, sin auriculares: la agarras entre render y render y tocas. Suena a volumen de conversación — presente en la sala, inaudible tras una puerta cerrada.</p><p><strong>El inconveniente: </strong>sigue siendo una acústica, así que con paredes finas se oye. La escala corta aprieta los acordes complejos, y el modelo base no lleva pastilla para presentaciones ni grabar en línea.</p>",
         "products": [
           271
         ]
@@ -92375,7 +92375,7 @@
         "cons_es": [
           "Se oye a través de paredes finas",
           "La escala corta aprieta acordes complejos",
-          "Sin pastilla en el modelo base para bolos o grabación directa",
+          "Sin pastilla en el modelo base para presentaciones o grabación directa",
           "El cuerpo pequeño da menos graves que un dreadnought"
         ]
       }
@@ -93502,16 +93502,16 @@
         "heading": "Sterling SUB Ray5: StingRay Thump for Working Bassists",
         "heading_es": "Sterling SUB Ray5: Thump StingRay para trabajar",
         "content": "<strong>If you crave StingRay punch for loud rehearsals, this is the working-player shortcut.</strong> One high-output ceramic humbucker with a 9-volt two-band preamp means instant funk-rock authority: dig in and the front end growls, back off and it cleans up without touching the amp. The basswood body keeps long sets friendly, while the hard maple neck and board with 12-inch radius and 21 medium frets play fast and predictable. I have gigged this formula next to the American original and it delivers most of the attitude in a dense band mix. With a comfortable 45 mm nut and six-bolt joint, it suits gigging bassists on a budget; note that no gig bag is included.",
-        "content_es": "<strong>Si ansías la pegada StingRay para ensayos fuertes, este es el atajo del músico currante.</strong> Una humbucker cerámica de alta salida con previo de dos bandas a 9 voltios significa autoridad funk-rock inmediata: aprieta y el ataque gruñe, suaviza y se limpia sin tocar el ampli. El cuerpo de tilo mantiene amables los bolos largos, mientras el mástil y diapasón de arce duro con radio de 12 pulgadas y 21 trastes medianos resultan veloces y previsibles. He tocado esta fórmula junto al original americano y entrega casi toda la actitud dentro de una mezcla densa. Con cómoda cejuela de 45 mm y unión de seis tornillos, encaja con bajistas de bolo y presupuesto; ten en cuenta que no incluye funda.",
+        "content_es": "<strong>Si ansías la pegada StingRay para ensayos fuertes, este es el atajo del músico currante.</strong> Una humbucker cerámica de alta salida con previo de dos bandas a 9 voltios significa autoridad funk-rock inmediata: aprieta y el ataque gruñe, suaviza y se limpia sin tocar el ampli. El cuerpo de tilo hace más llevaderas las presentaciones largas, mientras el mástil y diapasón de arce duro con radio de 12 pulgadas y 21 trastes medianos resultan veloces y previsibles. He tocado esta fórmula junto al original americano y entrega casi toda la actitud dentro de una mezcla densa. Con cómoda cejuela de 45 mm y unión de seis tornillos, encaja con bajistas que tocan en presentaciones con presupuesto ajustado; ten en cuenta que no incluye funda.",
         "products": [
           539
         ]
       },
       {
         "heading": "Yamaha TRBX305: The Versatility King for Gigging",
-        "heading_es": "Yamaha TRBX305: El rey de la versatilidad para bolos",
+        "heading_es": "Yamaha TRBX305: El rey de la versatilidad para presentaciones",
         "content": "<strong>If you play weddings, covers and church gigs, this is the one-bass solution.</strong> Dual YGD M3 ceramics with master Volume plus balancer plus two-band EQ and a five-way Performance EQ switch let you jump from slap to pick to fingers without walking to the amp. In plain words the switch reshapes mids and lows for you, so each technique sits right in the PA. I have covered mixed sets next to single-sound fives and the time saved between songs is real. The solid mahogany body adds warmth, and the five-piece maple and mahogany neck with rosewood board and 24 medium frets stays stable through long nights. The versatility king for players who do a bit of everything; check weight and neck profile preference.",
-        "content_es": "<strong>Si tocas bodas, versiones y bolos de iglesia, esta es la solución de un solo bajo.</strong> Dos cerámicas YGD M3 con Volumen master más balance más EQ de dos bandas y un selector Performance EQ de cinco posiciones permiten saltar de slap a púa y dedos sin ir al ampli. En sencillo, el selector remodela medios y graves por ti para que cada técnica se siente bien en la PA. He cubierto repertorios variados junto a cincos de un solo sonido y el tiempo ahorrado entre temas es real. el mástil de cinco piezas en arce y caoba con diapasón de palisandro y 24 trastes medium aguanta estable noches largas. El rey de la versatilidad para quien toca un poco de todo; revisa peso y perfil de mástil según tu gusto.",
+        "content_es": "<strong>Si tocas bodas, haces versiones y tocas en iglesias, esta es la solución de un solo bajo.</strong> Dos cerámicas YGD M3 con Volumen master más balance más EQ de dos bandas y un selector Performance EQ de cinco posiciones permiten saltar de slap a púa y dedos sin ir al ampli. En sencillo, el selector remodela medios y graves por ti para que cada técnica se siente bien en la PA. He cubierto repertorios variados junto a cincos de un solo sonido y el tiempo ahorrado entre temas es real. el mástil de cinco piezas en arce y caoba con diapasón de palisandro y 24 trastes medium aguanta estable noches largas. El rey de la versatilidad para quien toca un poco de todo; revisa peso y perfil de mástil según tu gusto.",
         "products": [
           540
         ]
@@ -93547,7 +93547,7 @@
         "heading": "Ibanez SR505A: Roasted Neck Speed",
         "heading_es": "Ibanez SR505A: Velocidad con mástil tostado",
         "content": "<strong>If small hands want modern active tone without a baseball-bat neck, this slim roasted five is the fix.</strong> The SR5 five-piece roasted maple and walnut neck feels fast and stable, while passive Bartolini BH2 pickups feed a Custom three-band EQ with bypass plus mid switch. In plain words you get hi-fi slap, scooped fingerstyle and honest passive vintage in one bass. The MR5S bridge with adjustable spacing lets you widen or tighten string gaps to match your slap or pick technique. I have played slim Ibanez fives next to chunkier competitors and hand fatigue drops noticeably on long sets. With okoume body and rosewood board with 24 medium frets, it suits fusion and prog players; check that modern hi-fi is your flavor.",
-        "content_es": "<strong>Si unas manos pequeñas quieren tono activo moderno sin un mástil como un bate, este cinco fino y tostado es la solución.</strong> El mástil SR5 de cinco piezas en arce tostado y nogal se siente veloz y estable, mientras las pastillas pasivas Bartolini BH2 alimentan una EQ Custom de tres bandas con bypass más selector de medios. En sencillo, tienes slap hi-fi, fingerstyle recortado y vintage pasivo honesto en un solo bajo. El puente MR5S con espaciado ajustable permite abrir o cerrar la separación para adaptarla a tu slap o tu púa. He tocado cincos Ibanez finos junto a competidores más toscos y la fatiga cae notablemente en bolos largos. Con cuerpo de okoume y diapasón de palisandro con 24 trastes medium, encaja con fusión y prog; comprueba que lo hi-fi moderno sea tu sabor.",
+        "content_es": "<strong>Si unas manos pequeñas quieren tono activo moderno sin un mástil como un bate, este cinco fino y tostado es la solución.</strong> El mástil SR5 de cinco piezas en arce tostado y nogal se siente veloz y estable, mientras las pastillas pasivas Bartolini BH2 alimentan una EQ Custom de tres bandas con bypass más selector de medios. En sencillo, tienes slap hi-fi, fingerstyle recortado y vintage pasivo honesto en un solo bajo. El puente MR5S con espaciado ajustable permite abrir o cerrar la separación para adaptarla a tu slap o tu púa. He tocado cincos Ibanez finos junto a competidores más toscos y la fatiga cae notablemente en presentaciones largas. Con cuerpo de okoume y diapasón de palisandro con 24 trastes medium, encaja con fusión y prog; comprueba que lo hi-fi moderno sea tu sabor.",
         "products": [
           544
         ]
@@ -93583,7 +93583,7 @@
         "heading": "EHB1005MS: The Clearest Low B",
         "heading_es": "EHB1005MS: El Si grave más claro",
         "content": "<strong>If your low B must sound like a piano note, fan geometry is the honest fix.</strong> Running 33 inches on the G to 35 on the B gives each string closer to ideal tension, so the fifth string stays tight and defined instead of wobbling under hard attack. Passive Bartolini BH2 pickups with Vari-mid three-band EQ plus bypass move from aggressive modern to open passive voice, while the chambered basswood body keeps long gigs light. At 18 mm spacing with a headless body it balances on a strap like nothing else here. I have played multiscale headless fives next to straight 35s and intonation across the board feels more even. With graphite-reinforced roasted neck, stainless frets and gig bag included, it suits prog and extended-range players.",
-        "content_es": "<strong>Si tu Si grave debe sonar como una nota de piano, la geometría en abanico es la solución honesta.</strong> Pasar de 33 pulgadas en Sol a 35 en Si deja cada cuerda más cerca de su tensión ideal, así la quinta se mantiene firme y definida en lugar de bailar con ataque fuerte. Las pastillas pasivas Bartolini BH2 con EQ Vari-mid de tres bandas más bypass van de lo moderno agresivo a la voz pasiva abierta, mientras el cuerpo aligerado de tilo mantiene ligeros los bolos largos. Con espaciado de 18 mm y cuerpo headless, equilibra colgado como ningún otro. He tocado cincos headless multiescala junto a 35 rectos y la afinación en todo el mástil se siente más pareja. Con mástil tostado reforzado con grafito, trastes inoxidables y funda incluida, encaja con prog y rangos extendidos.",
+        "content_es": "<strong>Si tu Si grave debe sonar como una nota de piano, la geometría en abanico es la solución honesta.</strong> Pasar de 33 pulgadas en Sol a 35 en Si deja cada cuerda más cerca de su tensión ideal, así la quinta se mantiene firme y definida en lugar de bailar con ataque fuerte. Las pastillas pasivas Bartolini BH2 con EQ Vari-mid de tres bandas más bypass van de lo moderno agresivo a la voz pasiva abierta, mientras el cuerpo aligerado de tilo mantiene ligeras las presentaciones largas. Con espaciado de 18 mm y cuerpo headless, equilibra colgado como ningún otro. He tocado cincos headless multiescala junto a 35 rectos y la afinación en todo el mástil se siente más pareja. Con mástil tostado reforzado con grafito, trastes inoxidables y funda incluida, encaja con prog y rangos extendidos.",
         "products": [
           548
         ]
@@ -93606,7 +93606,7 @@
       }
     ],
     "conclusion": "Budget winners: the Yamaha TRBX305 for versatility and the Squier Affinity Jazz V for classic passive voice. Mid-range winners: the Yamaha BB435 for passive tone and the Schecter Stiletto Stealth-5 for modern active metal. Premium winners: the Ultra II Jazz V for noiseless active versatility, the EHB1005MS for the clearest low B, and the Dingwall Combustion for progressive metal. Match the tier to your gigs, not your dreams. <p><a href=\"/guides/beginner-bass-guitars.html\" class=\"guide-link-btn\">Best Beginner Bass Guitars: How to Start</a> <a href=\"/guides/best-bass-under-700.html\" class=\"guide-link-btn\">Best Budget Bass Guitars Under $700</a> <a href=\"/guides/fender-bass-guide.html\" class=\"guide-link-btn\">Best Fender Bass Guitars: Jazz, Precision & More</a></p>",
-    "conclusion_es": "Ganadores económicos: Yamaha TRBX305 por versatilidad y Squier Affinity Jazz V por su voz clásica pasiva. Ganadores medios: Yamaha BB435 por tono pasivo y Schecter Stiletto Stealth-5 por metal activo moderno. Ganadores premium: Ultra II Jazz V por versatilidad activa sin ruido, EHB1005MS por el Si grave más claro y Dingwall Combustion por metal progresivo. Ajusta la gama a tus bolos, no a tus sueños. <p>También te interesa: <a href=\"/guides/beginner-bass-guitars_es.html\" class=\"guide-link-btn\">Mejores bajos para principiantes</a> <a href=\"/guides/best-bass-under-700_es.html\" class=\"guide-link-btn\">Mejores bajos por menos de $700</a> <a href=\"/guides/fender-bass-guide_es.html\" class=\"guide-link-btn\">Mejores bajos Fender: Jazz, Precision y más</a></p>",
+    "conclusion_es": "Ganadores económicos: Yamaha TRBX305 por versatilidad y Squier Affinity Jazz V por su voz clásica pasiva. Ganadores medios: Yamaha BB435 por tono pasivo y Schecter Stiletto Stealth-5 por metal activo moderno. Ganadores premium: Ultra II Jazz V por versatilidad activa sin ruido, EHB1005MS por el Si grave más claro y Dingwall Combustion por metal progresivo. Ajusta la gama a tus presentaciones, no a tus sueños. <p>También te interesa: <a href=\"/guides/beginner-bass-guitars_es.html\" class=\"guide-link-btn\">Mejores bajos para principiantes</a> <a href=\"/guides/best-bass-under-700_es.html\" class=\"guide-link-btn\">Mejores bajos por menos de $700</a> <a href=\"/guides/fender-bass-guide_es.html\" class=\"guide-link-btn\">Mejores bajos Fender: Jazz, Precision y más</a></p>",
     "verdict": "Starting on five strings? GSR205B, Ray5, TRBX305 or Affinity Jazz V. Gigging weekly? Schecter Stiletto Stealth-5, BB435, SR505A or Classic Vibe 70s Jazz V. Recording flagship? AmPro II Jazz V, Ultra II Jazz V, EHB1005MS or Dingwall Combustion.",
     "verdict_es": "¿Empezando con cinco cuerdas? GSR205B, Ray5, TRBX305 o Affinity Jazz V. ¿Tocando cada semana? Schecter Stiletto Stealth-5, BB435, SR505A o Classic Vibe 70s Jazz V. ¿Buscando insignia de grabación? AmPro II Jazz V, Ultra II Jazz V, EHB1005MS o Dingwall Combustion.",
     "featuredProducts": [
@@ -93667,7 +93667,7 @@
       "faq_q2_es": "¿Cómo evito un Si grave flojo?",
       "faq_a2_es": "La tensión viene de escala más ajuste: los 34\" piden ajuste correcto y el encordado a través del cuerpo ayuda (BB435, AmPro II). Los multiescala (EHB1005MS 33-35\", Combustion 34-37\") afinan cada cuerda a su tensión ideal. Los previos de mayor voltaje (StingRay 18V) mantienen limpios los graves realzados.",
       "faq_q3_es": "¿Activo o pasivo para un primer cinco cuerdas?",
-      "faq_a3_es": "Pasivo (Affinity, BB435, CV 70s) significa cero baterías y tono atemporal. Activo (Ray5, TRBX305, V7, StingRay, EHB1005MS, Dingwall) significa moldeo a bordo y salidas calientes. Para principiantes, mejor pasivo; los músicos de bolo aprovechan la EQ activa.",
+      "faq_a3_es": "Pasivo (Affinity, BB435, CV 70s) significa cero baterías y tono atemporal. Activo (Ray5, TRBX305, V7, StingRay, EHB1005MS, Dingwall) significa moldeo a bordo y salidas calientes. Para principiantes, mejor pasivo; quienes tocan en presentaciones aprovechan la EQ activa.",
       "faq_q4_es": "¿Vale la pena el multiescala en cinco cuerdas?",
       "faq_a4_es": "Para el Si grave, sí: EHB1005MS (33-35\") y Dingwall Combustion (34-37\") producen las quintas más claras, casi piano, a estos precios. El costo es trastes abanico que piden adaptar la izquierda.",
       "faq_q5_es": "¿Sire V7 Gen 2 o New Gen?",
@@ -93771,11 +93771,11 @@
             },
             {
               "value": "Funk punch for gigging bassists",
-              "value_es": "Pegada funk para bolos"
+              "value_es": "Pegada funk para presentaciones"
             },
             {
               "value": "Versatile active five for gigging",
-              "value_es": "Cinco cuerdas activo y versátil para bolos"
+              "value_es": "Cinco cuerdas activo y versátil para presentaciones"
             },
             {
               "value": "Classic Jazz tone for beginners",
@@ -94578,7 +94578,7 @@
         "cons_es": [
           "Arce blando o álamo varía por acabado",
           "Puente vintage 5 selletas, sin ajuste rápido",
-          "Mástil brillo se pega en bolos húmedos",
+          "Mástil brillo se pega en presentaciones con humedad",
           "20 trastes limitan acceso al registro agudo"
         ]
       },
@@ -94713,7 +94713,7 @@
         "q": "Active or passive for a first 5-string bass?",
         "a": "Passive (Affinity, BB435, CV 70s) means zero batteries and timeless tone. Active (Ray5, TRBX305, Ultra II Jazz V, EHB1005MS, Dingwall) means onboard shaping and hotter outputs. Beginners should start passive; gigging players benefit from active EQ.",
         "q_es": "¿Activo o pasivo para un primer bajo de 5 cuerdas?",
-        "a_es": "Pasivo (Affinity, BB435, CV 70s) significa cero baterías y tono atemporal. Activo (Ray5, TRBX305, Ultra II Jazz V, EHB1005MS, Dingwall) significa moldeo a bordo y salidas calientes. Para principiantes, mejor pasivo; los músicos de bolo aprovechan la EQ activa."
+        "a_es": "Pasivo (Affinity, BB435, CV 70s) significa cero baterías y tono atemporal. Activo (Ray5, TRBX305, Ultra II Jazz V, EHB1005MS, Dingwall) significa moldeo a bordo y salidas calientes. Para principiantes, mejor pasivo; quienes tocan en presentaciones aprovechan la EQ activa."
       },
       {
         "q": "Is multiscale worth it on a 5-string bass?",
@@ -94895,7 +94895,7 @@
       "faq_a3_es": "FP-30X — Bluetooth de audio y MIDI conecta apps de lecciones y DAWs; el P-225 solo transmite audio por Bluetooth.",
       "faq_q4_en": "Which should I carry to gigs?",
       "faq_a4_en": "P-225 — 11.5 kg against 14.8 kg makes a real difference loading in and out every weekend.",
-      "faq_q4_es": "¿Cuál es el mejor para transportar a conciertos y presentaciones en vivo?",
+      "faq_q4_es": "¿Cuál es ideal para transportar a conciertos y presentaciones en vivo?",
       "faq_a4_es": "P-225 — 11,5 kg frente a 14,8 kg marcan una diferencia abismal si tienes que cargar el instrumento en su funda cada fin de semana."
     },
     "faq": [],
