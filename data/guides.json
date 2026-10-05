@@ -42414,16 +42414,16 @@
               "value_es": "N/D (lo determina tu interfaz/previo)"
             },
             {
-              "value": "69 dB (A-weighted @ 1 kHz)",
-              "value_es": "69 dB (ponderado A @ 1 kHz)"
+              "value": "60 dB (measured at 94 dB SPL / 1 kHz)",
+              "value_es": "60 dB (medido a 94 dB SPL / 1 kHz)"
             },
             {
               "value": "78 dB",
               "value_es": "78 dB"
             },
             {
-              "value": "60 dB (native USB digital path)",
-              "value_es": "60 dB (ruta digital USB nativa)"
+              "value": "97 dB (USB digital path)",
+              "value_es": "97 dB (ruta digital USB)"
             }
           ]
         },
@@ -42460,16 +42460,16 @@
               "value_es": "N/D (lo determina el previo externo)"
             },
             {
-              "value": "118 dB (USB digital mode)",
-              "value_es": "118 dB (modo digital USB)"
+              "value": "Not published (digital path)",
+              "value_es": "No publicado (ruta digital)"
             },
             {
               "value": "116 dB (system)",
               "value_es": "116 dB (sistema)"
             },
             {
-              "value": "132 dB (high-resolution USB-C mode)",
-              "value_es": "132 dB (modo USB-C de alta resolución)"
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -42506,16 +42506,16 @@
               "value_es": "N/D (saturación armónica imperceptible)"
             },
             {
-              "value": "<1% THD (at 128 dB SPL)",
-              "value_es": "<1% THD (a 128 dB SPL)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
               "value": "<0.5% THD",
               "value_es": "<0.5% THD"
             },
             {
-              "value": "<1% THD (at 148 dB SPL digital limit)",
-              "value_es": "<1% THD (al límite digital de 148 dB SPL)"
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
