@@ -11003,5 +11003,98 @@
       "andertons": "https://www.andertons.co.uk/boss-katana-50-ex-gen-3-50w-guitar-amp-combo/",
       "zzounds": "https://www.zzounds.com/item--BOSKTN50EXV3"
     }
+  },
+  {
+    "id": 558,
+    "title": "Behringer WING Rack",
+    "title_es": "Behringer WING Rack",
+    "brand": "Behringer",
+    "category": "mixers",
+    "price": 1799,
+    "desc": "The 48-channel full-stereo WING engine in a 6U rack. 48 stereo channels with full stereo processing, 28 buses, 24 MIDAS PRO preamps onboard, a tilting 10-inch multi-touch screen, 16 true-stereo FX engines, triple AES50, 48x48 USB interface and a pre-installed WING-LIVE SD recorder. Vintage hardware emulations ride on every channel strip.",
+    "desc_es": "El motor WING de 48 canales totalmente estéreo en rack de 6U. 48 canales estéreo con procesado estéreo completo, 28 buses, 24 previos MIDAS PRO a bordo, pantalla multitáctil reclinable de 10 pulgadas, 16 motores FX estéreo reales, triple AES50, interfaz USB de 48x48 y grabador SD WING-LIVE preinstalado. Emulaciones de hardware vintage en cada canal.",
+    "img": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/products/31370/images/134343/Image_BE_0604-AAE_WING-RACK_Dark-Front__19562.1728293902.386.513.jpg?c=1",
+    "stores": {
+      "amazon": "https://www.amazon.com/Behringer-WING-48-channel-Digital-Mixer/dp/B0D7QLX7MG",
+      "andertons": "https://www.andertons.co.uk/behringer-wing-rack-48channel-28-bus-full-stereo-digital-mixing-engine",
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-WING-RACK-Rackmount-Digital-Mixer/6J9R",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Behringer-Wing-Rack/art-PAH0023909-000"
+    }
+  },
+  {
+    "id": 559,
+    "title": "Behringer X32 Rack",
+    "title_es": "Behringer X32 Rack",
+    "brand": "Behringer",
+    "category": "mixers",
+    "price": 979,
+    "desc": "The 40-input, 25-bus X32 core in a 3U rack. 16 MIDAS-designed programmable preamps, 40 input channels, 16 mix buses, 8 true-stereo FX engines, dual AES50 plus Ultranet, 32x32 USB interface and a 5-inch TFT. The monitor-mixing standard for in-ear rigs worldwide.",
+    "desc_es": "El núcleo X32 de 40 entradas y 25 buses en rack de 3U. 16 previos programables diseñados por MIDAS, 40 canales de entrada, 16 buses de mezcla, 8 motores FX estéreo reales, doble AES50 más Ultranet, interfaz USB de 32x32 y TFT de 5 pulgadas. El estándar de mezcla de monitores para in-ears en todo el mundo.",
+    "img": "https://cf1.zzounds.com/media/productmedia/fit,600by600/quality,85/X32-RACK_P0AWN_Top-Front_XXL-2df1bbb1e121fc81e06eeb41c3e55c54.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B00DNNSOIG",
+      "andertons": "https://www.andertons.co.uk/behringer-x32-rack-3u-rackmount-digital-mixer/",
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-X32-RACK-Digital-Mixing-Console/PNO",
+      "musicstore": "https://www.musicstore.com/en_US/USD/Behringer-X32-Rack/art-REC0010352-000",
+      "zzounds": "https://www.zzounds.com/item--BEHX32RACK"
+    },
+    "oos": [
+      "zzounds"
+    ]
+  },
+  {
+    "id": 560,
+    "title": "Midas M32C",
+    "title_es": "Midas M32C",
+    "brand": "Midas",
+    "category": "mixers",
+    "price": 1299,
+    "desc": "The entire M32 engine in a single rack unit. No local analog inputs: 40 input channels and 25 buses fed purely through dual AES50 from DL16/DL32 stage boxes, with MIDAS PRO algorithms, 8 true-stereo FX engines, 32x32 USB and Ultranet. The fly-rig brain for touring bands counting every kilo.",
+    "desc_es": "Todo el motor M32 en una sola unidad de rack. Sin entradas analógicas locales: 40 canales y 25 buses alimentados solo por doble AES50 desde stage boxes DL16/DL32, con algoritmos MIDAS PRO, 8 motores FX estéreo reales, USB de 32x32 y Ultranet. El cerebro fly-rig para bandas de gira que cuentan cada kilo.",
+    "img": "https://cdn-media.empowertribe.com/cc848335ca514caba69e7bef6986f9a9/Image_MI_0604-AAC_M32C_Front_XL.png",
+    "stores": {
+      "amazon": "https://www.amazon.com/Midas-M32C-MIDAS-Mixer-Unpowered/dp/B014SZKAY8",
+      "andertons": "https://www.andertons.co.uk/midas-m32c-digital-mixer/",
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Midas-M32C-Digital-Rack-Mixer/2KXC",
+      "musicstore": "https://www.musicstore.com/en_GB/GBP/Midas-M32C/art-PAH0016482-000",
+      "zzounds": "https://www.zzounds.com/item--MIAM32C"
+    },
+    "oos": [
+      "zzounds"
+    ]
+  },
+  {
+    "id": 561,
+    "title": "Allen & Heath CQ-20B",
+    "title_es": "Allen & Heath CQ-20B",
+    "brand": "Allen & Heath",
+    "category": "mixers",
+    "price": 999.99,
+    "desc": "A 20-input stagebox mixer with no screen to babysit. 16 mic preamps (8 XLR + 8 combi), 96kHz FPGA processing under 0.7 ms, Gain Assistant, Feedback Assistant and FX Assist, 4 multi-FX engines, 24x24 USB plus 24x24 SD recording, dual-band Wi-Fi and Bluetooth playback at 2.6 kg.",
+    "desc_es": "Mezclador stagebox de 20 entradas sin pantalla que cuidar. 16 previos de micro (8 XLR + 8 combo), procesado FPGA a 96kHz bajo 0,7 ms, Gain Assistant, Feedback Assistant y FX Assist, 4 motores multi-FX, USB de 24x24 más SD de 24x24, Wi-Fi de doble banda y reproducción Bluetooth con 2,6 kg.",
+    "img": "https://cf1.zzounds.com/media/productmedia/fit%2C600by600/quality%2C85/CQ-20B_Left_030523_874160-98a1396249c32426d99f7c272e2ce933.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/Allen-Heath-Digital-Bluetooth-Connectivity/dp/B0CBHCX3HG",
+      "andertons": "https://www.andertons.co.uk/allen-heath-cq20b",
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Allen-and-Heath-CQ20B-20-Channel-Rackmount-Digital-Mixer/5WMK",
+      "zzounds": "https://www.zzounds.com/item--ALLAHCQ20B"
+    }
+  },
+  {
+    "id": 562,
+    "title": "PreSonus StudioLive 24R",
+    "title_es": "PreSonus StudioLive 24R",
+    "brand": "PreSonus",
+    "category": "mixers",
+    "price": 1069,
+    "desc": "24 recallable XMAX mic preamps and 26 inputs feeding 40 mix channels in 2U. Works standalone with Universal Control or as an AVB stagebox and monitor mixer for Series III consoles, with 64x64 USB, AVB networking, onboard SD recording, FLEX DSP Fat Channel processing and deep Studio One integration.",
+    "desc_es": "24 previos de micro XMAX recallables y 26 entradas alimentando 40 canales de mezcla en 2U. Funciona solo con Universal Control o como stagebox AVB y mezclador de monitores para consolas Series III, con USB de 64x64, red AVB, grabación SD a bordo, procesado Fat Channel FLEX DSP e integración profunda con Studio One.",
+    "img": "https://cdn11.bigcommerce.com/s-tsw2okvg64/images/stencil/1280x1280/products/15203/66228/9667-2__78762.1528301997.jpg?c=2",
+    "stores": {
+      "amazon": "https://www.amazon.com/PreSonus-StudioLive-24R-26-input-32-channel/dp/B0761Y7RPV",
+      "andertons": "https://www.andertons.co.uk/presonus-studiolive-24r/",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Presonus-StudioLive-24R-Digital-Rack-Mixer/2536",
+      "reverb": "https://reverb.com/p/presonus-studiolive-24r-32-channel-digital-mixer"
+    }
   }
 ]

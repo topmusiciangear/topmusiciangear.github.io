@@ -4907,6 +4907,54 @@ const TEST_SHOP_BTN = {
       amazon: "https://www.amazon.com/Katana-50-50-watt-12-inch-Combo-Amplifier/dp/B0D1ZCK91X"
     }
   },
+  558: {
+    prices: {
+      andertons: "£1,169.00",
+      gear4music: "£1,169.00",
+      musicstore: "$1,348.00"
+    }
+  },
+  559: {
+    prices: {
+      amazon: "$979.00",
+      andertons: "£669.00",
+      gear4music: "£699.00",
+      musicstore: "$777.00"
+    },
+    oos: [
+      "zzounds"
+    ],
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BEHX32RACK"
+    }
+  },
+  560: {
+    prices: {
+      amazon: "$1,299.00",
+      andertons: "£580.00",
+      gear4music: "£952.00",
+      musicstore: "£700.00"
+    },
+    oos: [
+      "zzounds"
+    ],
+    urls: {
+      zzounds: "https://www.zzounds.com/item--MIAM32C"
+    }
+  },
+  561: {
+    prices: {
+      amazon: "$999.99",
+      zzounds: "$999.99",
+      andertons: "£730.00",
+      gear4music: "£724.00"
+    }
+  },
+  562: {
+    prices: {
+      amazon: "$1,069.00"
+    }
+  },
 }
 
 function shortTitle(title) {
