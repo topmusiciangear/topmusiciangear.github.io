@@ -1,0 +1,4 @@
+const fs=require('fs');
+const guides=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+const wanted=["best-guitar-home-office","fix-clipping-scarlett","best-daw-for-beginners","best-headphones-for-mixing","best-monitors-for-small-rooms","best-beginner-electric-guitar","best-samplers-drum-computers","best-practice-amps","best-bass-amps","best-bass-practice-amps","best-overdrive-distortion","best-live-sound-mixers","best-pa-speakers","best-synthesizers","best-digital-mixers","best-analog-mixers","precision-vs-jazz"];
+for(const g of guides){ if(!wanted.includes(g.id)) continue; const pt=g.productTable; if(!pt){console.log('\n==='+g.id+' NO TABLE'); continue;} console.log('\n==='+g.id+' COLS:'+(pt.columns||[]).map(c=>c.title).join('|')); for(const r of (pt.rows||[]).slice(0,12)){ console.log(r.label+': '+r.values.map(v=>typeof v==='string'?v:(v.value||'')).join(' // ').slice(0,500)); } }
