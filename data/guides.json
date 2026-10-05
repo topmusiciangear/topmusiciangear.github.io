@@ -9760,7 +9760,7 @@
     "sections": [
       {
         "heading": "What Makes a Good Portable Interface",
-        "heading_es": "Qué hace una buena interfaz portátil",
+        "heading_es": "Qué hace que una interfaz portátil sea buena",
         "content": "<p><strong>Portability comes down to size, power requirements, and build quality.</strong> The best portable interfaces fit in a laptop bag pocket, run off USB bus power (no separate power supply), and have metal chassis that survive being thrown in a bag with cables and adapters. Plastic bodies crack; metal ones dent but keep working.</p><p>Bus power is critical — it means the interface draws all its power from the USB connection to your laptop. Some interfaces need more power than USB can provide and require an external power supply, which defeats the purpose of portability. The Focusrite Scarlett 2i2, Universal Audio Volt 2, and Audient EVO 4 are all fully bus-powered.</p><p>For the full interface breakdown, see <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces</a> <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces</a> <a class=\"guide-link-btn\" href=\"/guides/budget-interfaces.html\">Best budget interfaces</a></p>",
         "content_es": "<p><strong>La portabilidad depende de tres cosas: tamaño, requisitos de energía y calidad de construcción.</strong> Las mejores interfaces portátiles caben en el bolsillo de una funda de portátil, funcionan con alimentación por bus USB (sin fuente de alimentación separada) y tienen chasis metálicos que aguantan el traqueteo en una mochila con cables y adaptadores. Los cuerpos de plástico se rompen; los de metal se abollan pero siguen funcionando.</p><p>La alimentación por bus es crítica — significa que la interfaz obtiene toda su energía de la conexión USB a tu portátil. Algunas interfaces necesitan más energía de la que USB puede proveer y requieren una fuente de poder externa, lo cual anula el propósito de portabilidad. La Focusrite Scarlett 2i2, Universal Audio Volt 2 y Audient EVO 4 son todas completamente alimentadas por bus.</p><p>Para la guía completa de interfaces, consulta nuestra <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Guía de mejores interfaces de audio</a> <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Mejores interfaces de audio</a> <a class=\"guide-link-btn\" href=\"/guides/budget-interfaces.html\">Mejores interfaces económicas</a></p>",
         "products": [
@@ -27047,15 +27047,6 @@
         "products": [
           295
         ]
-      },
-      {
-        "heading": "Enya Nova Go Sonic: A Closer Look",
-        "heading_es": "Enya Nova Go Sonic: análisis detallado",
-        "content": "<strong>An electric guitar that forgot it needs an amplifier.</strong> Carbon-fiber body shrugs off humidity, knocks and weather, while the built-in 10W speaker with four DSP presets plays clean to lead with zero extra gear. Bluetooth backing tracks, headphone practice and USB-C phone recording complete the anywhere package.</p><p>For beginners the logic is unbeatable: every practice session sounds finished, anywhere, with no setup friction to kill motivation. Purists will want wood and tubes eventually — but nobody quits guitar for lack of inspiration on this one.",
-        "content_es": "<strong>Una eléctrica que olvidó que necesita amplificador.</strong> El cuerpo de fibra de carbono se encoge de hombros ante humedad, golpes e intemperie, mientras el altavoz integrado de 10W con cuatro presets DSP va de limpio a lead sin equipo extra. Pistas por Bluetooth, práctica con auriculares y grabación USB-C al teléfono completan el paquete para cualquier sitio.</p><p>Para principiantes la lógica es imbatible: cada sesión suena terminada, en cualquier parte, sin fricción de montaje que mate la motivación. Los puristas querrán madera y válvulas con el tiempo — pero nadie deja la guitarra por falta de inspiración con esta.",
-        "products": [
-          295
-        ]
       }
     ],
     "conclusion": "Your first guitar should match the music you want to play, feel comfortable in your hands, and stay in tune. Don't overthink it — any decent guitar with stable tuning and comfortable action will serve you well while you learn. For acoustics, the Yamaha FG800 and Fender CD-60S are the proven picks; the Yamaha C40 is the gentlest option if you want nylon strings. On the electric side, the Pacifica 112V, Squier Affinity Stratocaster and Epiphone Les Paul Special-I cover every budget and style. The most important thing is that you pick it up and play every day.\n\n<a href=\"/guides/best-beginner-electric-guitar.html\" class=\"guide-link-btn\">best beginner electric guitars</a> <a href=\"/guides/acoustic-guitars-guide.html\" class=\"guide-link-btn\">acoustic guitar guide</a> <a href=\"/guides/best-electric-guitar.html\" class=\"guide-link-btn\">best electric guitars</a> <a href=\"/guides/player-strat-vs-pacifica.html\" class=\"guide-link-btn\">Player Strat vs Pacifica</a>",
@@ -38833,7 +38824,9 @@
         "heading_es": "¿Es FL Studio el mejor para creación de beats y hip-hop?",
         "content": "<p><strong>Buy FL Studio All Plugins Edition if you make beats or produce hip-hop and want lifetime free updates with the best piano roll in any DAW.</strong> FL Studio's pattern-based workflow revolutionized beat-making. Its Piano Roll is widely considered the best in any DAW, offering a fluid experience for programming drums and melodies. The lifetime free updates policy means you buy once and get every future version forever. The step sequencer is iconic for drum programming. FL Studio excels at loop-based production and has become the primary DAW for hip-hop, trap, and modern pop producers.</p>",
         "content_es": "<p><strong>Compra FL Studio All Plugins Edition si haces beats o produces hip-hop y quieres actualizaciones gratuitas de por vida con el mejor piano roll de cualquier DAW.</strong> El proceso basado en patrones de FL Studio revolucionó la creación de beats. Su Piano Roll es ampliamente considerado el mejor de cualquier DAW, ofreciendo una experiencia fluida para programar baterías y melodías. La política de actualizaciones gratuitas de por vida significa que compras una vez y obtienes cada versión futura para siempre. El secuenciador de pasos es icónico para la programación de batería. FL Studio sobresale en la producción basada en loops y se ha convertido en el DAW principal para productores de hip-hop, trap y pop moderno.</p>",
-        "products": []
+        "products": [
+          112
+        ]
       },
       {
         "heading": "Which Workflow Is Better — Session Clips or Pattern-Based?",
@@ -72465,7 +72458,8 @@
         "products": [
           204,
           205
-        ]
+        ],
+        "skipMedia": true
       },
       {
         "heading": "Which Pedal Sounds Better for Amp Modeling and Tones?",
@@ -80770,7 +80764,8 @@
         "products": [
           247,
           248
-        ]
+        ],
+        "skipMedia": true
       },
       {
         "heading": "Why the RØDECaster Pro II Is the Reliability Pick",
@@ -81739,14 +81734,17 @@
         "products": [
           266,
           267
-        ]
+        ],
+        "skipMedia": true
       },
       {
         "heading": "Why the ew IEM G4-TWIN-E Is the Two-Performer Pro Set",
         "heading_es": "Por qué el ew IEM G4-TWIN-E es el set pro de dos intérpretes",
         "content": "<p><strong>The G4-TWIN-E is built around the twin set: one transmitter, two receivers, two performers.</strong> The SR IEM G4 half-rack transmitter drives two EK IEM G4 bodypacks at once over 42 MHz of tuning bandwidth with 1680 selectable frequencies and up to 16 compatible channels, so even in dense RF environments you can find clean space. The RF output goes up to 50 mW for a range up to 100 m (300 ft), the two XLR-3/4\" combo inputs let a monitor desk feed both channels, and the >90 dB signal-to-noise ratio with HDX compander keeps audio clean and artifact-free. Both bodypacks get IR sync for fast pairing, and the system works with Sennheiser's WSM software for coordinated frequency planning. The price is the trade-off: you pay for two full receiver channels out of the box even if you only need one tonight.</p>",
         "content_es": "<p><strong>El G4-TWIN-E está construido alrededor del set gemelo: un transmisor, dos receptores, dos intérpretes.</strong> El transmisor SR IEM G4 de media unidad de rack alimenta dos bodypacks EK IEM G4 a la vez sobre 42 MHz de ancho de banda de sintonización con 1680 frecuencias seleccionables y hasta 16 canales compatibles, así que incluso en entornos RF densos encuentras espacio limpio. La salida RF llega hasta 50 mW para un alcance de hasta 100 m (300 ft), las dos entradas combo XLR-3/4\" permiten que la mesa de monitoreo alimente ambos canales, y la relación señal-ruido superior a 90 dB con compresor-expansor HDX mantiene el audio limpio y sin artefactos. Ambos bodypacks tienen sincronización IR para un emparejamiento rápido, y el sistema funciona con el software WSM de Sennheiser para planificar frecuencias coordinadas. El precio es la contra: pagas por dos canales completos de receptor de fábrica aunque esta noche solo necesites uno.</p>",
-        "products": []
+        "products": [
+          266
+        ]
       },
       {
         "heading": "Why the PSM300 Is the Easy System That Grows With You",
