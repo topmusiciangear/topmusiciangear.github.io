@@ -41793,8 +41793,8 @@
       {
         "heading": "Dynamic vs Condenser for Podcasts",
         "heading_es": "Dinámico vs condensador para podcasts",
-        "content": "<p><strong>Dynamic microphones are the safe choice for most podcasters.</strong> The Shure SM7B is the most famous podcast microphone for untreated rooms where rejection and broadcast tone matter in the world. It's been used on many shows including The Joe Rogan Experience. The Audio-Technica AT2005USB is the starter equivalent with USB and XLR outputs for creators upgrading later with both USB and XLR outputs.</p><p>Condenser microphones like the Rode NT1 capture more detail and high-frequency presence but need a treated room and interface to shine and high-frequency information, making voices sound richer and more present. But they also pick up more room noise, keyboard clicks, and computer fans. If your room isn't acoustically treated, a condenser will make your podcast sound worse, not better.</p><p>For podcast microphone comparisons, see our For streaming specifically, check <a class=\"guide-link-btn\" href=\"/guides/mics-for-creators.html\">Best mic for streaming</a> <a class=\"guide-link-btn\" href=\"/guides/best-microphone.html\">Best microphones guide</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics.html\">Best USB microphones</a> <a class=\"guide-link-btn\" href=\"/guides/mics-for-creators.html\">Best mic for streaming</a></p>",
-        "content_es": "<p><strong>Los micrófonos dinámicos son la opción segura para la mayoría de podcasters.</strong> El Shure SM7B es el micrófono de podcast más famoso para salas sin tratar donde importan el rechazo y el tono broadcast del mundo — ha sido usado en innumerables shows incluyendo The Joe Rogan Experience. El Audio-Technica AT2005USB ($80) es el equivalente económico con salidas USB y XLR.</p><p>Los micrófonos condensadores como el Rode NT1 ($230) capturan más detalle e información de alta frecuencia, haciendo que las voces suenen más ricas y presentes. Pero también capturan más ruido de sala, clics de teclado y ventiladores de ordenador. Si tu sala no está tratada acústicamente, un condensador hará que tu podcast suene peor, no mejor.</p><p>Para comparativas de micrófonos de podcast, consulta nuestra guía. Para streaming específicamente, revisa <a class=\"guide-link-btn\" href=\"/guides/mics-for-creators.html\">Mejor micrófono para streaming</a> <a class=\"guide-link-btn\" href=\"/guides/best-microphone.html\">Guía de micrófonos</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics.html\">Mejores micrófonos USB</a> <a class=\"guide-link-btn\" href=\"/guides/mics-for-creators.html\">Mejor micrófono para streaming</a></p>",
+        "content": "<p><strong>Dynamic microphones are the safe choice for most podcasters.</strong> The Shure SM7B is the reference broadcast microphone for untreated rooms, where rejection and a ready-to-air tone matter. The Audio-Technica AT2005USB is the starter equivalent with USB and XLR outputs for creators who upgrade their setup later.</p><p>Condenser microphones like the Rode NT1 capture more detail and high-frequency presence, making voices sound richer and more present — but they need a treated room and an interface to shine. They also pick up more room noise, keyboard clicks, and computer fans. If your room is not acoustically treated, a condenser will make your podcast sound worse, not better.</p><p>For podcast microphone comparisons, see our <a class=\"guide-link-btn\" href=\"/guides/best-microphone.html\">Best microphones guide</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics.html\">Best USB microphones</a> <a class=\"guide-link-btn\" href=\"/guides/mics-for-creators.html\">Best mic for streaming</a></p>",
+        "content_es": "<p><strong>Los micrófonos dinámicos son la opción segura para la mayoría de podcasters.</strong> El Shure SM7B es el micrófono broadcast de referencia para salas sin tratar, donde importan el rechazo al ruido y un tono listo para emitir. El Audio-Technica AT2005USB es su equivalente inicial con salidas USB y XLR para quien mejora su equipo más adelante.</p><p>Los condensadores como el Rode NT1 capturan más detalle y presencia en agudos, con voces más ricas y presentes — pero piden sala tratada e interfaz para brillar. También recogen más ruido de la habitación, clics de teclado y ventiladores del ordenador. Si tu sala no está tratada acústicamente, un condensador hará que tu podcast suene peor, no mejor.</p><p>Para comparar micrófonos de podcast, consulta nuestra <a class=\"guide-link-btn\" href=\"/guides/best-microphone.html\">Guía de micrófonos</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics.html\">Mejores micrófonos USB</a> <a class=\"guide-link-btn\" href=\"/guides/mics-for-creators.html\">Mejor micrófono para streaming</a></p>",
         "products": [
           50,
           197,
@@ -41808,14 +41808,86 @@
       {
         "heading": "Multi-Host Podcast Setup",
         "heading_es": "Configuración de podcast multi-host",
-        "content": "<p><strong>Multi-host podcasts need matching microphones and a multi-channel interface.</strong> Each host should use the same microphone model for consistent sound. The Rode PodMic and Shure MV7+ are popular choices for multi-host setups because they reject bleed from other mics for multi-host setups because they reject bleed from other hosts' microphones.</p><p>For consistent sound, use the same microphone model for every host. The Rode PodMic and Shure MV7+ are popular choices for multi-host setups because they reject bleed. For larger shows with 3–4 hosts, a multi-channel interface with built-in processing handles multiple inputs. For audio recording interfaces specifically, see <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interface guide</a></p><p>For more multi-host setup recommendations, see <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces</a></p>",
-        "content_es": "<p><strong>Los podcasts multi-host necesitan micrófonos que coincidan y una interfaz multi-canal.</strong> Cada host debe usar el mismo modelo de micrófono para sonido consistente. El Rode PodMic ($100) y Shure MV7+ ($270) son elecciones populares para configuraciones multi-host porque rechazan el bleed de los micrófonos de otros hosts.</p><p>Para sonido consistente, usa el mismo modelo de micrófono para cada presentador. Para shows más grandes con 3–4 hosts, un equipo con múltiples micrófonos idénticos y una interfaz multicanal proporciona suficientes entradas. Para interfaces de grabación de audio específicamente, consulta nuestra <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Guía de mejores interfaces de audio</a></p><p>Para más recomendaciones de configuración multi-host, consulta nuestra <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Mejores interfaces de audio</a></p>",
+        "content": "<p><strong>Multi-host podcasts need matching microphones and a multi-channel interface.</strong> Each host should use the same microphone model for consistent sound. The Rode PodMic and Shure MV7+ are popular choices for multi-host setups because their tight pickup rejects bleed from the other hosts.</p><p>For larger shows with 3–4 hosts, a multi-channel interface with built-in processing handles every input. For audio recording interfaces specifically, see <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interface guide</a></p>",
+        "content_es": "<p><strong>Los podcasts con varios presentadores necesitan el mismo micrófono y una interfaz multicanal.</strong> Cada voz debería usar el mismo modelo para un sonido consistente. El Rode PodMic y el Shure MV7+ son elecciones habituales en estos montajes porque su captación cerrada rechaza el sonido de los demás micros.</p><p>En programas grandes de 3–4 voces, una interfaz multicanal con procesado integrado maneja todas las entradas. Para interfaces de grabación, consulta la <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Guía de mejores interfaces de audio</a></p>",
         "products": [
           197,
           194,
           252
         ],
         "skipMedia": true
+      },
+      {
+        "heading": "Shure SM58: A Closer Look",
+        "heading_es": "Shure SM58: análisis detallado",
+        "content": "<strong>The vocal mic that survives everything the stage throws at it.</strong> A cardioid dynamic with a pneumatic shock mount and a steel-mesh ball grille: plosives and handling thumps die before reaching the capsule, while the tailored presence rise keeps vocals intelligible over loud bands. No power needed, no switches to bump, no fragility — it works in rain, heat and drops that kill condensers. The standard nightmare-free choice for live vocals, rehearsals and podcast guests who have never held a mic.",
+        "content_es": "<strong>El micro de voz que sobrevive a todo lo que le echa el escenario.</strong> Dinámico cardioide con suspensión neumática y rejilla esférica de acero: los golpes de voz y el ruido de manejo mueren antes de llegar a la cápsula, mientras el realce de presencia mantiene la voz inteligible sobre bandas ruidosas. Sin alimentación, sin interruptores que mover por error, sin fragilidad — funciona con lluvia, calor y caídas que matan a un condensador. La opción sin dramas para directo, ensayos e invitados de podcast que nunca han sujetado un micro.",
+        "products": [
+          50
+        ]
+      },
+      {
+        "heading": "Rode PodMic: A Closer Look",
+        "heading_es": "Rode PodMic: análisis detallado",
+        "content": "<strong>Broadcast tone without the broadcast budget or the gain headache.</strong> A cardioid dynamic tuned for speech, with an internal pop filter and shock mounting plus a swing mount in the box. The tight pickup keeps untreated rooms and co-hosts out of the recording, and the voicing flatters thin or harsh voices with broadcast-style warmth. Pairs with any interface or mixer — the default recommendation for first serious podcast setups.",
+        "content_es": "<strong>Tono broadcast sin presupuesto broadcast ni dolores de ganancia.</strong> Dinámico cardioide ajustado para la voz, con filtro antipop y suspensión internos más soporte giratorio en la caja. Su captación cerrada deja fuera la sala sin tratar y a los compañeros de mesa, y su ecualización favorece voces finas o ásperas con calidez radiofónica. Funciona con cualquier interfaz o mesa — la recomendación por defecto para el primer montaje de podcast serio.",
+        "products": [
+          197
+        ]
+      },
+      {
+        "heading": "Rode Procaster: A Closer Look",
+        "heading_es": "Rode Procaster: análisis detallado",
+        "content": "<strong>When the PodMic is not enough mic.</strong> A full-size broadcast dynamic with a large neodymium capsule, tight cardioid pattern and 10-year warranty. Compared with its smaller sibling it sounds bigger and more authoritative, with deeper low-end weight for deep voices — at the cost of size, weight and gain hunger that demands a strong preamp or inline booster. Built for dedicated podcast studios and radio booths.",
+        "content_es": "<strong>Cuando el PodMic se queda corto.</strong> Dinámico broadcast de tamaño completo con cápsula grande de neodimio, cardioide estrecho y 10 años de garantía. Frente a su hermano pequeño suena más grande y autoritario, con más peso en graves para voces profundas — a cambio de tamaño, peso y un apetito de ganancia que pide un previo potente o un booster en línea. Pensado para estudios de podcast dedicados y cabinas de radio.",
+        "products": [
+          329
+        ]
+      },
+      {
+        "heading": "Shure SM7B: A Closer Look",
+        "heading_es": "Shure SM7B: análisis detallado",
+        "content": "<strong>The broadcast standard that forgives bad rooms.</strong> A large-diaphragm dynamic with internal shock mounting, detachable windscreens and bass-rolloff plus presence switches. Rejection and a smooth, sibilance-free top end make untreated bedrooms sound treated — the trade is very low output that demands serious clean gain from the interface or an inline booster. The mic of radio legends and the no-risk pick for flagship vocal chains.",
+        "content_es": "<strong>El estándar broadcast que perdona salas malas.</strong> Dinámico de diafragma grande con suspensión interna, paravientos desmontables e interruptores de recorte de graves y presencia. Su rechazo y su agudo suave sin sibilancia hacen que un dormitorio sin tratar suene tratado — a cambio de una salida muy baja que exige ganancia limpia seria de la interfaz o un booster en línea. El micro de las leyendas de la radio y la apuesta segura para cadenas vocales insignia.",
+        "products": [
+          1
+        ]
+      },
+      {
+        "heading": "Rode NT1 5th Generation: A Closer Look",
+        "heading_es": "Rode NT1 5.ª generación: análisis detallado",
+        "content": "<strong>Silence you can measure, with a USB cable attached.</strong> A 1-inch condenser at 4 dBA self-noise — quieter than most treated rooms — with Dual Connect offering classic 48V XLR and 32-bit float USB-C from the same body. Detail, air and low-end honesty that dynamics cannot reach, provided the room is treated and background noise is controlled. The studio vocal upgrade once the space is ready.",
+        "content_es": "<strong>Silencio medible, con cable USB incluido.</strong> Condensador de 1 pulgada con 4 dBA de ruido propio — más silencioso que la mayoría de salas tratadas — con Dual Connect que ofrece XLR clásico de 48V y USB-C en flotante de 32 bits en el mismo cuerpo. Detalle, aire y honestidad en graves que ningún dinámico alcanza, siempre que la sala esté tratada y el ruido de fondo controlado. La mejora de estudio cuando el espacio está listo.",
+        "products": [
+          3
+        ]
+      },
+      {
+        "heading": "Rode NT1 Signature Series: A Closer Look",
+        "heading_es": "Rode NT1 Signature Series: análisis detallado",
+        "content": "<strong>Classic NT1 sound without the bundle price.</strong> The same HF6 1-inch capsule and 4 dBA noise floor in a streamlined package with shock mount, pop filter and XLR cable included. Neutral with a gentle 10 kHz lift that puts vocals and acoustic guitars forward without harshness. XLR-only and 48V-powered, it is the condenser most home studios graduate to after outgrowing a starter mic.",
+        "content_es": "<strong>El sonido NT1 clásico sin precio de bundle.</strong> La misma cápsula HF6 de 1 pulgada y 4 dBA de ruido en un paquete esencial con suspensión, antipop y cable XLR incluidos. Neutro con un leve realce sobre 10 kHz que adelanta voces y acústicas sin dureza. Solo XLR con phantom de 48V: el condensador al que llegan la mayoría de home studios tras superar el micro inicial.",
+        "products": [
+          297
+        ]
+      },
+      {
+        "heading": "Shure MV7+: A Closer Look",
+        "heading_es": "Shure MV7+: análisis detallado",
+        "content": "<strong>SM7B character with training wheels.</strong> A hybrid dynamic with USB-C and XLR outputs, built-in headphone monitoring, touch panel metering and auto-level DSP that keeps voice consistent on stream. Less demanding than the SM7B on preamp gain, with the XLR path ready when the setup grows. The streamer-proof bridge between USB convenience and pro XLR.",
+        "content_es": "<strong>Carácter SM7B con ruedines.</strong> Dinámico híbrido con salidas USB-C y XLR, monitoreo por auriculares integrado, medidores táctiles y DSP de nivel automático que mantiene la voz consistente en directo. Menos exigente que el SM7B con la ganancia del previo, con la vía XLR lista cuando el montaje crece. El puente a prueba de streamers entre la comodidad USB y el XLR profesional.",
+        "products": [
+          194
+        ]
+      },
+      {
+        "heading": "Rode PodMic USB: A Closer Look",
+        "heading_es": "Rode PodMic USB: análisis detallado",
+        "content": "<strong>The PodMic that plugs straight into the laptop.</strong> The classic broadcast dynamic voice plus USB-C with Revolution preamp and APHEX DSP, zero-latency headphone monitoring and 32-bit float recording that rescues clipped takes in post. Heavier than it looks at nearly 900 grams, so budget a real boom arm. Ideal for solo podcasters recording to computer with no interface on the desk.",
+        "content_es": "<strong>El PodMic que se enchufa directo al portátil.</strong> La voz broadcast del clásico más USB-C con previo Revolution y DSP APHEX, monitoreo sin latencia y grabación en flotante de 32 bits que rescata tomas saturadas en postproducción. Más pesado de lo que parece con casi 900 gramos, así que reserva un brazo articulado de verdad. Ideal para podcasters en solitario que graban al ordenador sin interfaz en la mesa.",
+        "products": [
+          252
+        ]
       },
       {
         "heading": "Is the Hollyland MELO P1 the Ultimate Wireless Podcast Studio?",
