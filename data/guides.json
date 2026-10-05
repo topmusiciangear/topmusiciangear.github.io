@@ -1162,8 +1162,8 @@
               "value_es": "4 entradas / 4 salidas (12 en total)"
             },
             {
-              "value": "2-in / 2-out (+ ADAT)",
-              "value_es": "2 entradas / 2 salidas (+ ADAT)"
+              "value": "2-in / 4-out (+ ADAT)",
+              "value_es": "2 entradas / 4 salidas (+ ADAT)"
             },
             {
               "value": "2-in / 2-out",
@@ -1218,8 +1218,8 @@
               "value_es": "192 kHz"
             },
             {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
+              "value": "192 kHz / 32-bit",
+              "value_es": "192 kHz / 32 bits"
             },
             {
               "value": "192 kHz",
@@ -1302,8 +1302,8 @@
               "value_es": "USB-C"
             },
             {
-              "value": "USB-C",
-              "value_es": "USB-C"
+              "value": "USB-C (USB 2.0)",
+              "value_es": "USB-C (USB 2.0)"
             },
             {
               "value": "USB-C",
@@ -3488,8 +3488,8 @@
               "value_es": "80W (40W + 40W)"
             },
             {
-              "value": "145W RMS (234W peak)",
-              "value_es": "145W RMS (234W pico)"
+              "value": "145W RMS (97W LF + 48W HF)",
+              "value_es": "145W RMS (97W LF + 48W HF)"
             },
             {
               "value": "120W (75W + 45W)",
@@ -3542,8 +3542,8 @@
               "value_es": "47 Hz – 21 kHz (±3 dB)"
             },
             {
-              "value": "45 Hz – 36 kHz",
-              "value_es": "45 Hz – 36 kHz"
+              "value": "45 Hz – 36 kHz (±3 dB)",
+              "value_es": "45 Hz – 36 kHz (±3 dB)"
             },
             {
               "value": "38 Hz – 30 kHz (-10 dB)",
@@ -9772,8 +9772,8 @@
               "value_es": "2, 64 dB de ganancia"
             },
             {
-              "value": "2, +66 dB, Vintage 610 mode",
-              "value_es": "2, +66 dB, modo Vintage 610"
+              "value": "2, 55 dB gain",
+              "value_es": "2, 55 dB de ganancia"
             },
             {
               "value": "2, +58 dB, EVO preamps",
@@ -9810,8 +9810,8 @@
               "value_es": "192 kHz (44.1/48 kHz vía OTG)"
             },
             {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
+              "value": "192 kHz / 32-bit",
+              "value_es": "192 kHz / 32 bits"
             },
             {
               "value": "192 kHz",
@@ -9910,8 +9910,8 @@
               "value_es": "USB-C, MIDI I/O"
             },
             {
-              "value": "USB-C, MIDI I/O",
-              "value_es": "USB-C, MIDI I/O"
+              "value": "USB-C (USB 2.0)",
+              "value_es": "USB-C (USB 2.0)"
             },
             {
               "value": "USB-C, ADAT in, loopback",
@@ -12185,8 +12185,8 @@
               "value_es": "1.4 m, desmontable"
             },
             {
-              "value": "3 m, detachable",
-              "value_es": "3 m, desmontable"
+              "value": "Detachable, 3 cables included (coiled + 2 straight)",
+              "value_es": "Desmontable, 3 cables incluidos (espiral + 2 rectos)"
             },
             {
               "value": "1.2 m, detachable",
@@ -12811,8 +12811,8 @@
               "value_es": "80W (40W + 40W)"
             },
             {
-              "value": "145W RMS (234W peak)",
-              "value_es": "145W RMS (234W pico)"
+              "value": "145W RMS (97W LF + 48W HF)",
+              "value_es": "145W RMS (97W LF + 48W HF)"
             },
             {
               "value": "120W (75W + 45W)",
@@ -12841,8 +12841,8 @@
               "value_es": "47 Hz – 21 kHz (±3 dB)"
             },
             {
-              "value": "45 Hz – 36 kHz",
-              "value_es": "45 Hz – 36 kHz"
+              "value": "45 Hz – 36 kHz (±3 dB)",
+              "value_es": "45 Hz – 36 kHz (±3 dB)"
             },
             {
               "value": "38 Hz – 30 kHz (-10 dB)",
@@ -25010,8 +25010,8 @@
               "value_es": "2 entradas / 4 salidas"
             },
             {
-              "value": "2-in / 2-out (+ ADAT)",
-              "value_es": "2 entradas / 2 salidas (+ ADAT)"
+              "value": "2-in / 4-out (+ ADAT)",
+              "value_es": "2 entradas / 4 salidas (+ ADAT)"
             },
             {
               "value": "2-in / 2-out",
@@ -25090,12 +25090,12 @@
               "value_es": "192 kHz"
             },
             {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
+              "value": "192 kHz / 32-bit",
+              "value_es": "192 kHz / 32 bits"
             },
             {
-              "value": "192 kHz",
-              "value_es": "192 kHz"
+              "value": "96 kHz / 24-bit",
+              "value_es": "96 kHz / 24 bits"
             },
             {
               "value": "96 kHz",
@@ -25166,8 +25166,8 @@
               "value_es": "USB-C"
             },
             {
-              "value": "USB-C",
-              "value_es": "USB-C"
+              "value": "USB-C (USB 2.0)",
+              "value_es": "USB-C (USB 2.0)"
             },
             {
               "value": "USB-C",
@@ -27365,9 +27365,9 @@
         {
           "label": "Output Impedance",
           "label_es": "Impedancia de salida",
-          "val1": "150 Ω",
+          "val1": "150 Ω rated (310 Ω actual)",
           "val2": "150 Ω",
-          "val1_es": "150 Ω",
+          "val1_es": "150 Ω nominales (310 Ω reales)",
           "val2_es": "150 Ω"
         },
         {
@@ -28342,25 +28342,25 @@
           "label": "Frequency Response",
           "label_es": "Respuesta de frecuencia",
           "val1": "38 Hz – 30 kHz (-10 dB)",
-          "val2": "43 Hz – 40 kHz (±3 dB)",
+          "val2": "45 Hz – 36 kHz (±3 dB)",
           "val1_es": "38 Hz – 30 kHz (-10 dB)",
-          "val2_es": "43 Hz – 40 kHz (±3 dB)"
+          "val2_es": "45 Hz – 36 kHz (±3 dB)"
         },
         {
           "label": "Power",
           "label_es": "Potencia",
           "val1": "120W (75W LF + 45W HF)",
-          "val2": "145W (97W LF + 48W HF)",
+          "val2": "145W RMS (97W LF + 48W HF)",
           "val1_es": "120W (75W LF + 45W HF)",
-          "val2_es": "145W (97W LF + 48W HF)"
+          "val2_es": "145W RMS (97W LF + 48W HF)"
         },
         {
           "label": "Max SPL",
           "label_es": "SPL máximo",
-          "val1": "120 dB",
-          "val2": "109 dB",
-          "val1_es": "120 dB",
-          "val2_es": "109 dB"
+          "val1": "Not published",
+          "val2": "110 dB",
+          "val1_es": "No publicado",
+          "val2_es": "110 dB"
         },
         {
           "label": "Crossover",
@@ -28704,9 +28704,9 @@
           "label": "Cable",
           "label_es": "Cable",
           "val1": "Detachable (3 included)",
-          "val2": "Fixed coiled, 3 m",
+          "val2": "Fixed coiled cable (3 m extended)",
           "val1_es": "Desmontable (3 incluidos)",
-          "val2_es": "Fijo en espiral, 3 m"
+          "val2_es": "Cable fijo en espiral (3 m extendido)"
         },
         {
           "label": "Weight",
@@ -31961,9 +31961,9 @@
           "label": "Dynamic Range",
           "label_es": "Rango dinámico",
           "val1": "127 dB A-wt (out)",
-          "val2": "118 dBA (out)",
+          "val2": "117 dBA (AD) / 118 dBA (DA)",
           "val1_es": "127 dB A-wt (out)",
-          "val2_es": "118 dBA (out)"
+          "val2_es": "117 dBA (AD) / 118 dBA (DA)"
         },
         {
           "label": "DSP",
@@ -33017,9 +33017,9 @@
         {
           "label": "Dynamic Range",
           "label_es": "Rango dinámico",
-          "val1": "117 dB (AD)",
+          "val1": "117 dBA (AD) / 118 dBA (DA)",
           "val2": "120 dB (ESS Sabre32)",
-          "val1_es": "117 dB (AD)",
+          "val1_es": "117 dBA (AD) / 118 dBA (DA)",
           "val2_es": "120 dB (ESS Sabre32)"
         },
         {
@@ -34691,9 +34691,9 @@
           "label": "Cable",
           "label_es": "Cable",
           "val1": "Detachable (mini-XLR)",
-          "val2": "Fixed coiled, 3 m",
+          "val2": "Fixed coiled cable (3 m extended)",
           "val1_es": "Desmontable (mini-XLR)",
-          "val2_es": "Fijo en espiral, 3 m"
+          "val2_es": "Cable fijo en espiral (3 m extendido)"
         },
         {
           "label": "Weight",
@@ -35329,9 +35329,9 @@
         {
           "label": "Output Impedance",
           "label_es": "Impedancia de salida",
-          "val1": "150 Ω",
+          "val1": "150 Ω rated (310 Ω actual)",
           "val2": "250 Ω",
-          "val1_es": "150 Ω",
+          "val1_es": "150 Ω nominales (310 Ω reales)",
           "val2_es": "250 Ω"
         },
         {
@@ -41450,8 +41450,8 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "Not officially rated (~160 dB est.)",
-              "value_es": "Sin clasificación oficial (~160 dB est.)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
               "value": ">160 dB (commonly cited; not official)",
@@ -44729,12 +44729,12 @@
               "value_es": "82W (41W + 41W)"
             },
             {
-              "value": "80W Class-D (40W + 40W)",
-              "value_es": "80W Clase-D (40W + 40W)"
+              "value": "80W (40W + 40W)",
+              "value_es": "80W (40W + 40W)"
             },
             {
-              "value": "145W RMS (234W peak)",
-              "value_es": "145W RMS (234W pico)"
+              "value": "145W RMS (97W LF + 48W HF)",
+              "value_es": "145W RMS (97W LF + 48W HF)"
             },
             {
               "value": "240W peak (pair)",
@@ -44783,8 +44783,8 @@
               "value_es": "47 Hz – 21 kHz (±3 dB)"
             },
             {
-              "value": "45 Hz – 36 kHz",
-              "value_es": "45 Hz – 36 kHz"
+              "value": "45 Hz – 36 kHz (±3 dB)",
+              "value_es": "45 Hz – 36 kHz (±3 dB)"
             },
             {
               "value": "45 Hz – 23.2 kHz (-6 dB)",
@@ -55208,8 +55208,8 @@
               "value_es": "3 kg"
             },
             {
-              "value": "31.7 lb (14.4 kg)",
-              "value_es": "14,4 kg"
+              "value": "31.5 lbs (14.3 kg)",
+              "value_es": "31,5 lb (14,3 kg)"
             }
           ]
         }
@@ -55969,8 +55969,8 @@
               "value_es": "2.3 kg"
             },
             {
-              "value": "8.6 lb (3.9 kg)",
-              "value_es": "3,9 kg"
+              "value": "7.9 lb (3.6 kg)",
+              "value_es": "7,9 lb (3,6 kg)"
             },
             {
               "value": "10 kg (22 lb)",
@@ -56463,8 +56463,8 @@
               "value_es": "10 entradas (4 mic + 3 línea estéreo)"
             },
             {
-              "value": "10-input (4 mic/line + 2 stereo)",
-              "value_es": "10 entradas (4 mic/línea + 2 estéreo)"
+              "value": "10 (4 mono + 2 stereo)",
+              "value_es": "10 (4 mono + 2 estéreo)"
             },
             {
               "value": "16-input (6 mic + stereo line)",
@@ -56553,8 +56553,8 @@
               "value_es": "1 (compartido con FX)"
             },
             {
-              "value": "1 (FX send)",
-              "value_es": "1 (envío FX)"
+              "value": "1 AUX + 1 FX send",
+              "value_es": "1 envío AUX + 1 envío FX"
             },
             {
               "value": "2 (FX + MON)",
@@ -56583,8 +56583,8 @@
               "value_es": "SPX: 24 programas (reverb/delay)"
             },
             {
-              "value": "16 FX models with tap tempo",
-              "value_es": "16 modelos FX con tap tempo"
+              "value": "61 presets with tap tempo",
+              "value_es": "61 presets con tap tempo"
             },
             {
               "value": "24-bit FX: 100 presets",
@@ -56643,8 +56643,8 @@
               "value_es": "2,1 kg"
             },
             {
-              "value": "3.3 kg",
-              "value_es": "3,3 kg"
+              "value": "2.3 kg (5.1 lb)",
+              "value_es": "2,3 kg (5,1 lb)"
             },
             {
               "value": "3.7 kg",
@@ -57016,9 +57016,9 @@
           "label": "Year",
           "label_es": "Año",
           "val1": "2013",
-          "val2": "2022",
+          "val2": "2016",
           "val1_es": "2013",
-          "val2_es": "2022"
+          "val2_es": "2016"
         },
         {
           "label": "Channels",
@@ -57064,9 +57064,9 @@
           "label": "Weight",
           "label_es": "Peso",
           "val1": "5.1 lbs",
-          "val2": "31.5 lbs",
+          "val2": "31.5 lbs (14.3 kg)",
           "val1_es": "5.1 lbs",
-          "val2_es": "31.5 lbs"
+          "val2_es": "31,5 lb (14,3 kg)"
         }
       ]
     },
@@ -57337,9 +57337,9 @@
         {
           "label": "Wi-Fi",
           "label_es": "Wi-Fi",
-          "val1": "Built-in 2.4 GHz",
+          "val1": "Built-in Tri-Mode Wi-Fi (2.4 GHz)",
           "val2": "Dual-band (2.4 + 5 GHz)",
-          "val1_es": "Integrado 2.4 GHz",
+          "val1_es": "Wi-Fi trimodo integrado (2,4 GHz)",
           "val2_es": "Dual-band (2.4 y 5 GHz)"
         },
         {
@@ -62274,8 +62274,8 @@
               "value_es": "Arce, 24 trastes"
             },
             {
-              "value": "Ibanez SR5 thin",
-              "value_es": "SR5 fino Ibanez"
+              "value": "SR4 5-pc maple/walnut, jatoba board, 24 frets",
+              "value_es": "SR4 de 5 piezas arce/nogal, diapasón de jatoba, 24 trastes"
             },
             {
               "value": "Maple, 21 frets",
@@ -62338,8 +62338,8 @@
               "value_es": "2x PowerSpan dual coil"
             },
             {
-              "value": "Music Man humbucker",
-              "value_es": "Humbucker Music Man"
+              "value": "1x ceramic humbucker (Sterling by Music Man)",
+              "value_es": "1x humbucker cerámico (Sterling by Music Man)"
             },
             {
               "value": "2x ProBucker 760 humbuckers",
@@ -62424,12 +62424,12 @@
               "value_es": "EQ activo 3 bandas"
             },
             {
-              "value": "Active EQ 2-band",
-              "value_es": "EQ activo 2 bandas"
+              "value": "Active 3-band EQ with 3-way Power Tap",
+              "value_es": "EQ activo de 3 bandas con Power Tap de 3 posiciones"
             },
             {
-              "value": "Volume, tone, active EQ",
-              "value_es": "Volumen, tono, EQ activo"
+              "value": "2-band active preamp, 9V",
+              "value_es": "Preamplificador activo de 2 bandas, 9V"
             },
             {
               "value": "2 volumes + master tone",
@@ -62476,20 +62476,20 @@
               "value_es": "3,6 kg"
             },
             {
-              "value": "7.9 lb (3.6 kg)",
-              "value_es": "3,6 kg"
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             },
             {
               "value": "8.6 lb (3.9 kg)",
               "value_es": "3,9 kg"
             },
             {
-              "value": "7.9 lb (3.6 kg)",
-              "value_es": "3,6 kg"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "8.6 lb (3.9 kg)",
-              "value_es": "3,9 kg"
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             },
             {
               "value": "8.8 lb (4.0 kg)",
@@ -63346,8 +63346,8 @@
               "value_es": "Arce, 24 trastes"
             },
             {
-              "value": "Ibanez SR5 thin",
-              "value_es": "SR5 fino Ibanez"
+              "value": "SR4 5-pc maple/walnut, jatoba board, 24 frets",
+              "value_es": "SR4 de 5 piezas arce/nogal, diapasón de jatoba, 24 trastes"
             },
             {
               "value": "Maple, 21 frets",
@@ -63466,8 +63466,8 @@
               "value_es": "2x PowerSpan dual coil"
             },
             {
-              "value": "Music Man humbucker",
-              "value_es": "Humbucker Music Man"
+              "value": "1x ceramic humbucker (Sterling by Music Man)",
+              "value_es": "1x humbucker cerámico (Sterling by Music Man)"
             },
             {
               "value": "2x Alnico J single coils",
@@ -63636,12 +63636,12 @@
               "value_es": "EQ activo 3 bandas"
             },
             {
-              "value": "Active EQ 2-band",
-              "value_es": "EQ activo 2 bandas"
+              "value": "Active 3-band EQ with 3-way Power Tap",
+              "value_es": "EQ activo de 3 bandas con Power Tap de 3 posiciones"
             },
             {
-              "value": "Volume, tone, active EQ",
-              "value_es": "Volumen, tono, EQ activo"
+              "value": "2-band active preamp, 9V",
+              "value_es": "Preamplificador activo de 2 bandas, 9V"
             },
             {
               "value": "2x volume, tone",
@@ -63744,20 +63744,20 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "7.9 lb (3.6 kg)",
-              "value_es": "3,6 kg"
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             },
             {
               "value": "8.6 lb (3.9 kg)",
               "value_es": "3,9 kg"
             },
             {
-              "value": "7.9 lb (3.6 kg)",
-              "value_es": "3,6 kg"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
-              "value": "8.6 lb (3.9 kg)",
-              "value_es": "3,9 kg"
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             },
             {
               "value": "8.0 lb (3.6 kg)",
@@ -64526,8 +64526,8 @@
               "value_es": "Arce, 24 trastes"
             },
             {
-              "value": "Maple, 24 frets",
-              "value_es": "Arce, 24 trastes"
+              "value": "5-pc maple/jatoba, Thin U, 24 XJ frets",
+              "value_es": "5 piezas arce/jatoba, Thin U, 24 trastes XJ"
             },
             {
               "value": "Maple, short scale",
@@ -64576,8 +64576,8 @@
               "value_es": "24, palo rosa"
             },
             {
-              "value": "22, rosewood Edgeless",
-              "value_es": "22, palo rosa Edgeless"
+              "value": "20 medium frets, rosewood Edgeless",
+              "value_es": "20 trastes medium, palisandro Edgeless"
             },
             {
               "value": "21, hard maple",
@@ -64808,8 +64808,8 @@
               "value_es": "4,3 kg"
             },
             {
-              "value": "9.3 lb (4.2 kg)",
-              "value_es": "4,2 kg"
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             },
             {
               "value": "—",
@@ -66923,9 +66923,9 @@
         {
           "label": "Electronics",
           "label_es": "Electrónica",
-          "val1": "Passive (volume + tone)",
+          "val1": "Active/passive switchable (S-1), 3-band active EQ",
           "val2": "Active 18V (volume + 2-band EQ)",
-          "val1_es": "Pasiva (volumen + tono)",
+          "val1_es": "Conmutable activo/pasivo (S-1), EQ activo de 3 bandas",
           "val2_es": "Activa 18V (volumen + EQ 2 bandas)"
         },
         {
@@ -68676,9 +68676,9 @@
           "label": "Weight",
           "label_es": "Peso",
           "val1": "~5 lbs",
-          "val2": "~33 lbs",
+          "val2": "31.5 lbs (14.3 kg)",
           "val1_es": "~5 lbs",
-          "val2_es": "~33 lbs"
+          "val2_es": "31,5 lb (14,3 kg)"
         }
       ]
     },
@@ -72313,8 +72313,8 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "Not officially rated (~160 dB est.)",
-              "value_es": "Sin clasificación oficial (~160 dB est.)"
+              "value": "Not published",
+              "value_es": "No publicado"
             },
             {
               "value": ">160 dB @ 1 kHz (>135 dB @ 20 Hz)",
