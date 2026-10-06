@@ -5896,7 +5896,7 @@ function buildGuidePage(guide, lang, idx) {
     const bodyHtml = splitSide
       ? '<div class="guide-section-split"><div class="guide-section-split-text">' + boldedC + '</div>' + productImgs + '</div>'
       : boldedC + mediaBuy;
-    return `<div class="guide-section">
+    return `<div class="guide-section${splitSide ? ' guide-section-wide' : ''}">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
       <div class="guide-section-content">${bodyHtml}</div>
     </div>`;
