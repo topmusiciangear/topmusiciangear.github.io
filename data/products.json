@@ -11081,23 +11081,6 @@
     }
   },
   {
-    "id": 562,
-    "title": "PreSonus StudioLive 24R",
-    "title_es": "PreSonus StudioLive 24R",
-    "brand": "PreSonus",
-    "category": "mixers",
-    "price": 1069,
-    "desc": "24 recallable XMAX mic preamps and 26 inputs feeding 40 mix channels in 2U. Works standalone with Universal Control or as an AVB stagebox and monitor mixer for Series III consoles, with 64x64 USB, AVB networking, onboard SD recording, FLEX DSP Fat Channel processing and deep Studio One integration.",
-    "desc_es": "24 previos de micro XMAX recallables y 26 entradas alimentando 40 canales de mezcla en 2U. Funciona solo con Universal Control o como stagebox AVB y mezclador de monitores para consolas Series III, con USB de 64x64, red AVB, grabación SD a bordo, procesado Fat Channel FLEX DSP e integración profunda con Studio One.",
-    "img": "https://cdn11.bigcommerce.com/s-tsw2okvg64/images/stencil/1280x1280/products/15203/66228/9667-2__78762.1528301997.jpg?c=2",
-    "stores": {
-      "amazon": "https://www.amazon.com/PreSonus-StudioLive-24R-26-input-32-channel/dp/B0761Y7RPV",
-      "andertons": "https://www.andertons.co.uk/presonus-studiolive-24r/",
-      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Presonus-StudioLive-24R-Digital-Rack-Mixer/2536",
-      "reverb": "https://reverb.com/p/presonus-studiolive-24r-32-channel-digital-mixer"
-    }
-  },
-  {
     "id": 563,
     "title": "Allen & Heath SQ-Rack Digital Mixer",
     "title_es": "Allen & Heath SQ-Rack Digital Mixer",
@@ -11111,6 +11094,23 @@
       "andertons": "https://www.andertons.co.uk/allen--heath-sqrack-digital-rack-mixer/",
       "zzounds": "https://www.zzounds.com/item--ALLAHSQRACK",
       "musicstore": "https://www.musicstore.com/en_US/USD/Allen-Heath-SQ-Rack/art-PAH0024059-000"
+    }
+  },
+  {
+    "id": 564,
+    "title": "PreSonus StudioLive SE 24R",
+    "title_es": "PreSonus StudioLive SE 24R",
+    "brand": "PreSonus",
+    "category": "mixers",
+    "price": 1299.99,
+    "desc": "The current 24-channel rack mixer: 40 mix channels with 24 recallable XMAX-R preamps, 16 FlexMixes, 4 subgroups and 4 FX mixes, 64x64 USB, stereo SD capture, Milan-certified AVB and Fender Studio Pro included. Standalone mixer, monitor mixer or Series III stagebox in 2U.",
+    "desc_es": "El actual rack de 24 canales: 40 canales de mezcla con 24 previos XMAX-R recallables, 16 FlexMixes, 4 subgrupos y 4 mixes FX, USB de 64x64, captura SD estéreo, AVB con certificado Milan y Fender Studio Pro incluido. Mesa sola, mesa de monitores o stagebox Series III en 2U.",
+    "img": "https://r2.gear4music.com/media/134/1347457/1200/preview.jpg",
+    "stores": {
+      "andertons": "https://www.andertons.co.uk/presonus-studiolive-series-iii-se-24r-digital-rack-mixer/",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Presonus-StudioLive-SE-24R-Rack-Mixer/7XJY",
+      "musicstore": "https://www.musicstore.com/en_GB/GBP/Presonus-StudioLive-Series-III-SE-24R/art-REC0017143-000",
+      "zzounds": "https://www.zzounds.com/item--PRSSLIIISE24R"
     }
   }
 ]
