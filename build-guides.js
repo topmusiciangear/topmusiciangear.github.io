@@ -5357,8 +5357,8 @@ const TEST_SHOP_BTN = {
   563: {
     prices: {
       andertons: "£1,999.00",
-      zzounds: "$2,999.00",
-      musicstore: "$2,150.00"
+      zzounds: "$2,799.00",
+      musicstore: "€2,499.00"
     }
   },
 };function hollyDefaultRegion() {
