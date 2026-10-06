@@ -1,5 +1,11 @@
 const fs = require('fs');
-let t = fs.readFileSync('data/guides.json', 'utf8');
-t = t.replace('Doce bajos en tres gamas', 'Bajos de 5 cuerdas en 3 gamas');
-fs.writeFileSync('data/guides.json', t);
-console.log('done');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gFile = DIR + 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const g = G.find(x => x.id === 'best-digital-pianos');
+if (!g.intro.includes('to find your perfect match.')) throw new Error('EN intro changed');
+if (!g.intro_es.includes('y encuentra tu modelo.')) throw new Error('ES intro changed');
+g.intro = '<p>Not sure whether you need a digital piano or a MIDI controller? Take a look at our <a class="guide-link-btn" href="/guides/best-keyboard.html">master guide to the best keyboards for musicians</a> and find your ideal option.</p><p>A digital piano should feel like a genuine grand piano, not a toy keyboard. After comparing graded hammer actions, console cabinets and speaker systems head to head, these are the only models truly worth buying for your home or recording studio.</p>';
+g.intro_es = '<p>\u00bfNo tienes claro si necesitas un piano digital o un controlador MIDI? Echa un vistazo a nuestra <a class="guide-link-btn" href="/guides/best-keyboard_es.html">gu\u00eda maestra sobre los mejores teclados para m\u00fasicos</a> y encuentra tu opci\u00f3n ideal.</p><p>Un piano digital debe sentirse como un aut\u00e9ntico piano de cola, no como un teclado de juguete. Tras comparar frente a frente mecanismos de martillo graduado, muebles de consola y sistemas de altavoces, estos son los \u00fanicos modelos que realmente merece la pena comprar para tu hogar o estudio de grabaci\u00f3n.</p>';
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('intro replaced EN+ES');
