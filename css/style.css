@@ -2339,7 +2339,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-prod-name {
   font-size: 14px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--accent);
   margin-bottom: 10px;
 }
 .guide-section-prod-imgs {
