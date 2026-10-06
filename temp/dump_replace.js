@@ -1,0 +1,21 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const G = require(DIR + 'data/guides.json');
+const g = G.find(x => x.id === 'best-digital-pianos');
+const t = g.productTable;
+console.log('COL5:', JSON.stringify(t.columns[5]));
+console.log('NCOLS:', t.columns.length);
+t.rows.forEach((r, i) => {
+  const c = r.values[5];
+  console.log('ROW' + i, JSON.stringify(r.label), '=> EN:', JSON.stringify(c.value), '| ES:', JSON.stringify(c.value_es));
+});
+const r0 = t.rows[0];
+console.log('RP107 bestfor EN:', JSON.stringify(r0.values[4].value), '| ES:', JSON.stringify(r0.values[4].value_es));
+console.log('T_map tail:');
+const b = fs.readFileSync(DIR + 'build-guides.js', 'utf8').split(/\r?\n/);
+const i572 = b.findIndex(l => /^\s*572:/.test(l));
+console.log(b.slice(i572, i572 + 4).join('\n'));
+console.log('ADDED_OK tail:');
+const p = fs.readFileSync(DIR + 'temp/pb_verify_data.js', 'utf8').split(/\r?\n/);
+const ia = p.findIndex(l => l.includes('ADDED_OK = '));
+console.log(p[ia].slice(-120));

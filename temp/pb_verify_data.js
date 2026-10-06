@@ -32,7 +32,7 @@ const removed = ka.filter(k => !B[k]);
 const added = kb.filter(k => !A[k]);
 console.log('removed:', removed.join(',') || 'none', '| added:', added.join(',') || 'none');
 const REMOVED_OK = ['184', '320', '517'];
-const ADDED_OK = ['518', '527', '528', '529', '530', '531', '532', '533', '534', '535', '536', '537', '538', '539', '540', '541', '542', '543', '544', '545', '546', '547', '548', '549', '550', '551', '552', '553', '554', '555', '556', '557', '558', '559', '560', '561', '563', '564', '565', '566', '567', '568', '569', '570', '571', '572'];
+const ADDED_OK = ['518', '527', '528', '529', '530', '531', '532', '533', '534', '535', '536', '537', '538', '539', '540', '541', '542', '543', '544', '545', '546', '547', '548', '549', '550', '551', '552', '553', '554', '555', '556', '557', '558', '559', '560', '561', '563', '564', '565', '566', '567', '568', '569', '570', '571', '572', '573'];
 const badKeys = [...removed.filter(k => !REMOVED_OK.includes(k)), ...added.filter(k => !ADDED_OK.includes(k))];
 const pb = changed.filter(k => B[k].pbCur);
 console.log('changed WITH pbCur:', pb.length, '| changed WITHOUT pbCur:', changed.filter(k => !B[k].pbCur).map(k => k + (B[k].urls && B[k].urls.pluginboutique ? '(url only)' : '')).join(',') || 'none');
@@ -351,6 +351,7 @@ const APPROVED_NON_PB = {
   '371': { 'prices.zzounds': ['$199.99', '$239.99'], 'prices.andertons': ['£149.00', '£118.00'], 'prices.gear4music': ['£155.00', '£125.00'], 'prices.musicstore': ['€167.98', '€159.00'] },
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },
   '410': { 'prices.zzounds': ['$1,499.00', '$999.00'], 'prices.gear4music': ['£719.00', '£730.00'] },
+  '140': { 'prices.gear4music': ['£495.00', '£489.00'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
 function flat(o) {

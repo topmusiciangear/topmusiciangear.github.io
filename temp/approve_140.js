@@ -1,0 +1,10 @@
+const fs = require('fs');
+const pFile = 'temp/pb_verify_data.js';
+let s = fs.readFileSync(pFile, 'utf8');
+const anchor = "'410': { 'prices.zzounds': ['$1,499.00', '$999.00'], 'prices.gear4music': ['£719.00', '£730.00'] },";
+if (!s.includes(anchor)) throw new Error('410 anchor not found');
+if (s.includes("'140': {")) throw new Error('140 already approved');
+const eol = s.includes('\r\n') ? '\r\n' : '\n';
+s = s.replace(anchor, anchor + eol + '  \'140\': { \'prices.gear4music\': [\'£495.00\', \'£489.00\'] },');
+fs.writeFileSync(pFile, s);
+console.log('140 change approved');
