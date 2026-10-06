@@ -5839,7 +5839,7 @@ function buildGuidePage(guide, lang, idx) {
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
-    let sectionChips = '', productImgs = '';
+    let sectionChips = '', productImgs = '', splitSide = false;
     if (!s.skipMedia && s.splitProducts && sectionProducts.length > 1) {
       const blocks = sectionProducts.map(p => {
         if (renderedProducts.has(p.id)) return '';
@@ -5863,6 +5863,7 @@ function buildGuidePage(guide, lang, idx) {
         '</div>';
       }).filter(Boolean).join('');
       productImgs = blocks ? '<div class="guide-section-prods">' + blocks + '</div>' : '';
+      splitSide = !!s.sideProducts && !!blocks;
     } else if (!s.skipMedia) {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
       const ownedElsewhere = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
@@ -5892,9 +5893,12 @@ function buildGuidePage(guide, lang, idx) {
     const mediaBuy = (productImgs && sectionChips)
       ? '<div class="guide-section-mediabuy">' + productImgs + sectionChips + '</div>'
       : productImgs + sectionChips;
+    const bodyHtml = splitSide
+      ? '<div class="guide-section-split"><div class="guide-section-split-text">' + boldedC + '</div>' + productImgs + '</div>'
+      : boldedC + mediaBuy;
     return `<div class="guide-section">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
-      <div class="guide-section-content">${boldedC}${mediaBuy}</div>
+      <div class="guide-section-content">${bodyHtml}</div>
     </div>`;
   }).join('');
 

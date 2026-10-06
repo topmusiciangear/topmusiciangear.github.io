@@ -2350,6 +2350,27 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-prod .guide-section-buy {
   margin-top: 10px;
 }
+.guide-section-split {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+.guide-section-split-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.guide-section-split .guide-section-prods {
+  flex: 0 0 340px;
+  width: 340px;
+  max-width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 900px) {
+  .guide-section-split { flex-direction: column; }
+  .guide-section-split .guide-section-prods { flex: 1 1 auto; width: 100%; max-width: none; }
+}
 
 /* Guide Verdict */
 .guide-verdict {
