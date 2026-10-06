@@ -8228,7 +8228,7 @@
     "reviews": 380,
     "badge": "wireless-champ",
     "desc": "24-channel rack-mount digital mixer with 20 Studer-designed preamps, built-in dual-band Wi-Fi, Lexicon/dbx/DigiTech processing, and 24-track USB recording.",
-    "desc_es": "Mezcladora digital de rack de 24 canales con 20 preamplificadores Studer, Wi-Fi dual integrado, procesamiento Lexicon/dbx/DigiTech y grabación USB de 24 pistas.",
+    "desc_es": "Mezcladora digital de rack de 24 canales con 20 preamplificadores Studer, Wi-Fi dual integrado, procesamiento Lexicon/dbx/DigiTech y grabación multipista directa a USB (22 canales + Master L/R) o como interfaz DAW.",
     "img": "https://r2.gear4music.com/media/23/234962/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B079L75NBL",
@@ -11049,8 +11049,8 @@
     "brand": "Midas",
     "category": "mixers",
     "price": 1299,
-    "desc": "The entire M32 engine in a single rack unit. No local analog inputs: 40 input channels and 25 buses fed purely through dual AES50 from DL16/DL32 stage boxes, with MIDAS PRO algorithms, 8 true-stereo FX engines, 32x32 USB and Ultranet. The fly-rig brain for touring bands counting every kilo.",
-    "desc_es": "Todo el motor M32 en una sola unidad de rack. Sin entradas analógicas locales: 40 canales y 25 buses alimentados solo por doble AES50 desde stage boxes DL16/DL32, con algoritmos MIDAS PRO, 8 motores FX estéreo reales, USB de 32x32 y Ultranet. El cerebro fly-rig para bandas de gira que cuentan cada kilo.",
+    "desc": "The entire M32 engine in a single rack unit. No local analog inputs: 40 input channels and 25 buses fed purely through dual AES50 from DL16/DL32 stage boxes, with the same mixing engine and DSP as the M32/X32 series, 8 true-stereo FX engines, 32x32 USB and Ultranet. The fly-rig brain for touring productions counting every kilo.",
+    "desc_es": "Todo el motor M32 en una sola unidad de rack. Sin entradas analógicas locales: 40 canales y 25 buses alimentados solo por doble AES50 desde stage boxes DL16/DL32, con el mismo motor de mezcla y DSP de la serie M32/X32, 8 motores FX estéreo reales, USB de 32x32 y Ultranet. El cerebro fly-rig para producciones en gira que optimizan el peso.",
     "img": "https://r2.gear4music.com/media/38/385703/1200/preview_1.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/Midas-M32C-MIDAS-Mixer-Unpowered/dp/B014SZKAY8",
@@ -11071,7 +11071,7 @@
     "category": "mixers",
     "price": 999.99,
     "desc": "A 20-input stagebox mixer with no screen to babysit. 16 mic preamps (8 XLR + 8 combi), 96kHz FPGA processing under 0.7 ms, Gain Assistant, Feedback Assistant and FX Assist, 4 multi-FX engines, 24x24 USB plus 24x24 SD recording, dual-band Wi-Fi and Bluetooth playback at 2.6 kg.",
-    "desc_es": "Mezclador stagebox de 20 entradas sin pantalla que cuidar. 16 previos de micro (8 XLR + 8 combo), procesado FPGA a 96kHz bajo 0,7 ms, Gain Assistant, Feedback Assistant y FX Assist, 4 motores multi-FX, USB de 24x24 más SD de 24x24, Wi-Fi de doble banda y reproducción Bluetooth con 2,6 kg.",
+    "desc_es": "Mezclador stagebox de 20 entradas sin pantalla que cuidar. 16 previos de micro (8 XLR + 8 combo), procesado FPGA a 96kHz bajo 0,7 ms, Gain Assistant, Feedback Assistant y FX Assist, 4 motores multi-FX, interfaz USB 24x24, grabación en SD a 48kHz (máx. 24 ch) o 96kHz (máx. 16 ch), Wi-Fi de doble banda y reproducción Bluetooth (ocupa últimas entradas de línea) con 2,6 kg.",
     "img": "https://r2.gear4music.com/media/98/988808/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/Allen-Heath-Digital-Bluetooth-Connectivity/dp/B0CBHCX3HG",
@@ -11105,8 +11105,8 @@
     "brand": "PreSonus",
     "category": "mixers",
     "price": 1299.99,
-    "desc": "The current 24-channel rack mixer: 40 mix channels with 24 recallable XMAX Class A preamps, 16 FlexMixes, 4 subgroups and 4 FX mixes, 64x64 USB, stereo SD capture, Milan-certified AVB and Fender Studio Pro included. Standalone mixer, monitor mixer or Series III stagebox in 2U.",
-    "desc_es": "El actual rack de 24 canales: 40 canales de mezcla con 24 previos XMAX Class A recallables, 16 FlexMixes, 4 subgrupos y 4 mixes FX, USB de 64x64, captura SD estéreo, AVB con certificado Milan y Fender Studio Pro incluido. Mesa sola, mesa de monitores o stagebox Series III en 2U.",
+"desc": "The current 24-channel rack mixer: 40 mix channels with 24 recallable XMAX Class A preamps, 16 FlexMixes, 4 subgroups and 4 FX mixes, 64x64 USB, stereo SD capture, Milan-certified AVB and Studio One Professional / Artist included. Standalone mixer, monitor mixer or Series III stagebox in 2U.",
+"desc_es": "El actual rack de 24 canales: 40 canales de mezcla con 24 previos XMAX Class A recallables, 16 FlexMixes, 4 subgrupos y 4 mixes FX, USB de 64x64, captura SD estéreo (2 canales, no multipista), AVB con certificado Milan y Studio One Professional / Artist incluido. Mesa sola, mesa de monitores o stagebox Series III en 2U.",
     "img": "https://r2.gear4music.com/media/134/1347457/1200/preview.jpg",
     "stores": {
       "andertons": "https://www.andertons.co.uk/presonus-studiolive-series-iii-se-24r-digital-rack-mixer/",
