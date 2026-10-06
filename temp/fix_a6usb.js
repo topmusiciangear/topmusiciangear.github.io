@@ -1,0 +1,14 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gFile = DIR + 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const g = G.find(x => x.id === 'best-digital-pianos');
+const f = g.featuredSnippet;
+const oldEn = 'The P-225 and CLP-835 also stream audio over USB, and the CLP-835 doubles as a USB audio interface for direct recording.';
+const oldEs = 'La P-225 y el CLP-835 adem\u00e1s env\u00edan audio por USB, y el CLP-835 sirve tambi\u00e9n como interfaz de audio USB para grabar directamente.';
+if (!f.faq_a6_en.includes(oldEn)) throw new Error('EN A6 changed');
+if (!f.faq_a6_es.includes(oldEs)) throw new Error('ES A6 changed');
+f.faq_a6_en = f.faq_a6_en.replace(oldEn, 'The P-225, FP-30X and CLP-835 also stream audio over USB, and the CLP-835 doubles as a USB audio interface for direct recording.');
+f.faq_a6_es = f.faq_a6_es.replace(oldEs, 'La P-225, el FP-30X y el CLP-835 adem\u00e1s env\u00edan audio por USB, y el CLP-835 sirve tambi\u00e9n como interfaz de audio USB para grabar directamente.');
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('FAQ A6 USB-audio fixed');
