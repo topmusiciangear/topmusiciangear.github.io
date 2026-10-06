@@ -13311,8 +13311,8 @@
               "value_es": "1\" de cúpula"
             },
             {
-              "value": "1\" (coaxial)",
-              "value_es": "1\" (coaxial)"
+              "value": "1\" + 4\" coaxial mid",
+              "value_es": "1\" + medios coaxiales de 4\""
             },
             {
               "value": "1\" textile dome",
@@ -13493,14 +13493,14 @@
           "Boundary EQ is a fixed dip-switch preset rather than measurement-calibrated",
           "Bigger and heavier than the 305P for tight desks",
           "The rear-panel dip switches are set once at install — fine for a fixed desk, but awkward if you move the monitors between rooms",
-          "Its 80W total output is the lowest of the four, so very loud monitoring runs out of headroom first"
+          "Its 80W output suits nearfield work but runs short if you try to fill a large room"
         ],
         "cons_es": [
           "$398 el par — $100 más que el par de la JBL 305P",
           "El EQ de límites es un ajuste fijo por interruptores en lugar de calibrado por medición",
           "Más grande y pesado que el 305P para escritorios ajustados",
           "Los interruptores de EQ de límites se ajustan una vez en la instalación — bien para un escritorio fijo, pero incómodo si mueves los monitores entre salas",
-          "Su salida total de 80W es la más baja de las cuatro, así que la monitorización muy fuerte se queda sin margen primero"
+          "Su potencia de 80W es idónea para campo cercano, pero se queda justa si intentas sonorizar una sala grande"
         ]
       },
       {
@@ -13552,14 +13552,12 @@
           "Costs around $798 a pair — it stretches past the budget",
           "8-inch woofer needs space and treatment to be honest in a small room",
           "No DSP room EQ — just room control switches, unlike the KRK Rokit",
-          "The 120W amplifier is split 75W bass / 45W treble, so the tweeter runs out of headroom first on loud high-frequency material",
           "Its flat response exposes source problems — useful for mixing but unforgiving for casual listening"
         ],
         "cons_es": [
           "Cuesta unos $798 el par — se sale del presupuesto",
           "El woofer de 8 pulgadas necesita espacio y tratamiento para ser honesto en una sala pequeña",
           "Sin EQ de sala DSP — solo interruptores de control de sala, a diferencia del KRK Rokit",
-          "El amplificador de 120W se reparte 75W para graves y 45W para agudos, así que el tweeter se queda sin margen antes en material brillante",
           "Su respuesta plana expone los problemas de la fuente — útil para mezclar pero implacable para escucha casual"
         ]
       },
@@ -13604,7 +13602,7 @@
           "Small drivers limit output — will not fill a room",
           "Bluetooth is convenient, not for critical mixing",
           "No XLR inputs — RCA, TRS and USB-C only",
-          "85 dB continuous output caps loud-tracking headroom"
+          "The second speaker tethers via cable — the stereo pair is not fully wireless"
         ],
         "pros_es": [
           "Par compacto con puerto frontal que funciona pegado a paredes y pantallas",
@@ -13616,7 +13614,7 @@
           "Los drivers pequeños limitan la salida — no llenará una sala",
           "El Bluetooth es cómodo, no para mezcla crítica",
           "Sin entradas XLR — solo RCA, TRS y USB-C",
-          "Los 85 dB continuos limitan el headroom para grabar fuerte"
+          "El segundo altavoz va conectado por cable — el par estéreo no es totalmente inalámbrico"
         ]
       }
     ],
