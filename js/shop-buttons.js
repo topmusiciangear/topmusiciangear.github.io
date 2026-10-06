@@ -4955,6 +4955,13 @@ const TEST_SHOP_BTN = {
       amazon: "$1,069.00"
     }
   },
+  563: {
+    prices: {
+      andertons: "£1,999.00",
+      zzounds: "$2,999.00",
+      musicstore: "$2,150.00"
+    }
+  },
 }
 
 function shortTitle(title) {
