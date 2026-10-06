@@ -5839,9 +5839,9 @@ function buildGuidePage(guide, lang, idx) {
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
     const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
-    let sectionChips = '', productImgs = '', splitSide = false;
+    let sectionChips = '', productImgs = '', belowImgs = '', splitSide = false;
     if (!s.skipMedia && s.splitProducts && sectionProducts.length > 1) {
-      const blocks = sectionProducts.map(p => {
+      const blockArr = sectionProducts.map(p => {
         if (renderedProducts.has(p.id)) return '';
         if ((p.id in photoOwner) && photoOwner[p.id] !== si) return '';
         renderedProducts.add(p.id);
@@ -5861,9 +5861,16 @@ function buildGuidePage(guide, lang, idx) {
           '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
           '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
         '</div>';
-      }).filter(Boolean).join('');
+      }).filter(Boolean);
+      const blocks = blockArr.join('');
       productImgs = blocks ? '<div class="guide-section-prods">' + blocks + '</div>' : '';
       splitSide = !!s.sideProducts && !!blocks;
+      if (splitSide && blockArr.length > 2) {
+        const side = blockArr.slice(0, 2).join('');
+        const below = blockArr.slice(2).join('');
+        productImgs = side ? '<div class="guide-section-prods">' + side + '</div>' : '';
+        belowImgs = below ? '<div class="guide-section-prods-below">' + below + '</div>' : '';
+      }
     } else if (!s.skipMedia) {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
       const ownedElsewhere = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
@@ -5894,7 +5901,7 @@ function buildGuidePage(guide, lang, idx) {
       ? '<div class="guide-section-mediabuy">' + productImgs + sectionChips + '</div>'
       : productImgs + sectionChips;
     const bodyHtml = splitSide
-      ? '<div class="guide-section-split"><div class="guide-section-split-text">' + boldedC + '</div>' + productImgs + '</div>'
+      ? '<div class="guide-section-split"><div class="guide-section-split-text">' + boldedC + '</div>' + productImgs + '</div>' + belowImgs
       : boldedC + mediaBuy;
     return `<div class="guide-section${splitSide ? ' guide-section-wide' : ''}">
       <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
