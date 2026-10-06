@@ -1,0 +1,14 @@
+const fs = require('fs');
+const gFile = 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const gd = G.find(x => x.id === 'best-digital-pianos');
+const idxPremium = gd.sections.findIndex(s => (s.products || []).length === 1 && s.products[0] === 570);
+const idxConsole = gd.sections.findIndex(s => (s.products || []).includes(565));
+if (idxPremium < 0 || idxConsole < 0) throw new Error('sections not found: ' + idxPremium + ',' + idxConsole);
+console.log('before:', gd.sections.map(s => (s.products || []).join('+')).join(' | '));
+const [premium] = gd.sections.splice(idxPremium, 1);
+const at = gd.sections.findIndex(s => (s.products || []).includes(565));
+gd.sections.splice(at, 0, premium);
+console.log('after:', gd.sections.map(s => (s.products || []).join('+')).join(' | '));
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('sections reordered');
