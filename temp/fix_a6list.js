@@ -1,0 +1,14 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gFile = DIR + 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const g = G.find(x => x.id === 'best-digital-pianos');
+const f = g.featuredSnippet;
+const oldEn = 'while Bluetooth audio (P-225, PX-S1100, FP-30X and the consoles) lets you play along with tracks through the piano\u2019s speakers.';
+const oldEs = 'y el Bluetooth audio (P-225, PX-S1100, FP-30X y los muebles) te deja tocar sobre tus pistas con los altavoces del propio piano.';
+if (!f.faq_a6_en.includes(oldEn)) throw new Error('EN A6 changed');
+if (!f.faq_a6_es.includes(oldEs)) throw new Error('ES A6 changed');
+f.faq_a6_en = f.faq_a6_en.replace(oldEn, 'while Bluetooth audio (on the P-225, PX-S1100, FP-30X, RP107, YDP-166 and CLP-835) lets you play along with tracks through the piano\u2019s speakers.');
+f.faq_a6_es = f.faq_a6_es.replace(oldEs, 'y el Bluetooth audio (en la P-225, el PX-S1100, el FP-30X, el RP107, el YDP-166 y el CLP-835) te deja tocar sobre tus pistas con los altavoces del propio piano.');
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('FAQ A6 explicit BT-audio list applied');
