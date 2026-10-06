@@ -1,0 +1,11 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const G = require(DIR + 'data/guides.json');
+const g = G.find(x => x.id === 'best-digital-pianos');
+const f = g.featuredSnippet;
+console.log('ES A6:', f.faq_a6_es);
+console.log('EN A6:', f.faq_a6_en);
+const r6 = g.productTable.rows[6];
+console.log('R6 label:', r6.label, '|', r6.label_es);
+r6.values.forEach((c, i) => console.log(i, 'EN:', JSON.stringify(c.value), '| ES:', JSON.stringify(c.value_es)));
+console.log('existing verdict name_es:', JSON.stringify(g.verdictProsCons[0].name_es));

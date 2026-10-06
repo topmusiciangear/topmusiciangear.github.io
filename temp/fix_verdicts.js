@@ -1,92 +1,121 @@
-// Missing verdicts: LCD-X (open), K371 (tracking), DT770 (mixing),
-// 6 beginner electrics, rebuild 4 IEM verdicts aligned to columns.
 const fs = require('fs');
-const G = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
-const VD = (name, pros, cons, pros_es, cons_es) => ({ name, name_es: name, pros, cons, pros_es, cons_es });
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gFile = DIR + 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const g = G.find(x => x.id === 'best-digital-pianos');
 
-G.find(x => x.id === 'open-headphones').verdictProsCons.push(
-  VD('Audeze LCD-X',
-    ['Planar magnetic drivers with huge, precise soundstage', '20-ohm impedance runs on any interface', 'Reference tuning trusted by top mixers', 'Removable mini-XLR cables'],
-    ['612 g — neck workout for long sessions', 'Clamp force needs break-in', 'Open-back leaks everything (no tracking)', 'Premium price'],
-    ['Drivers planar magnéticos con escena enorme y precisa', 'Impedancia 20 ohmios funciona con cualquier interfaz', 'Afinación referencia de mezcladores top', 'Cables mini-XLR removibles'],
-    ['612 g — gimnasio de cuello en sesiones largas', 'La presión necesita rodaje', 'Abierto fuga todo (no sirve para grabar)', 'Precio premium'])
-);
+// 1) Table R6 Bluetooth fixes
+const r6 = g.productTable.rows[6];
+if (r6.label !== 'Bluetooth') throw new Error('R6 not Bluetooth');
+const set = (i, en, es) => { r6.values[i].value = en; r6.values[i].value_es = es; };
+if (r6.values[0].value !== 'Audio + MIDI (adapter incl.)') throw new Error('cell0 changed: ' + r6.values[0].value);
+set(0, 'Audio + MIDI', 'Audio + MIDI');
+if (r6.values[2].value !== 'MIDI') throw new Error('cell2 changed: ' + r6.values[2].value);
+set(2, 'Audio', 'Audio');
+console.log('R6 fixed');
 
-G.find(x => x.id === 'tracking-headphones').verdictProsCons.push(
-  VD('AKG K371',
-    ['Tuned to the Harman target — mixes translate', 'Closed-back isolation for live tracking', 'Foldable with detachable cables (3 included)', 'Lightweight for long sessions'],
-    ['Hinge durability varies unit to unit', 'Earpads wear faster than Beyerdynamic velour', 'Single-sided cable only'],
-    ['Afinados al objetivo Harman — las mezclas trasladan', 'Aislamiento cerrado para grabar en vivo', 'Plegables con cables desmontables (3 incluidos)', 'Ligeros para sesiones largas'],
-    ['Durabilidad bisagras varía por unidad', 'Almohadillas se gastan antes que terciopelo Beyerdynamic', 'Solo cable unilateral'])
-);
+// 2) FAQ A6 fixes (BT groups + envíen typo)
+const f = g.featuredSnippet;
+f.faq_a6_en = 'Yes \u2014 every model here has USB-MIDI, so it works as a controller for your DAW and virtual instruments. The P-225 and CLP-835 also stream audio over USB, and the CLP-835 doubles as a USB audio interface for direct recording. Bluetooth MIDI (FP-10, KDP120) cuts the cable to an iPad or laptop, while Bluetooth audio (P-225, PX-S1100, FP-30X and the consoles) lets you play along with tracks through the piano\u2019s speakers.';
+f.faq_a6_es = 'S\u00ed \u2014 todos los modelos de aqu\u00ed llevan USB-MIDI, as\u00ed que funcionan como controladores de tu DAW y de los instrumentos virtuales. La P-225 y el CLP-835 adem\u00e1s env\u00edan audio por USB, y el CLP-835 sirve tambi\u00e9n como interfaz de audio USB para grabar directamente. El Bluetooth MIDI (FP-10, KDP120) elimina el cable hacia el iPad u ordenador, y el Bluetooth audio (P-225, PX-S1100, FP-30X y los muebles) te deja tocar sobre tus pistas con los altavoces del propio piano.';
+console.log('FAQ A6 fixed');
 
-G.find(x => x.id === 'best-headphones-for-mixing').verdictProsCons.push(
-  VD('Beyerdynamic DT 770 Pro',
-    ['Closed-back isolation with honest midrange', 'Velour pads comfortable for hours', '80-ohm runs on interfaces, 250-ohm scales with amps', 'Tracking and mixing in one pair'],
-    ['Coiled cable is heavy and tugs', 'Bass emphasis needs mental compensation', 'No detachable cable'],
-    ['Aislamiento cerrado con medios honestos', 'Almohadillas terciopelo cómodas por horas', '80 ohmios en interfaces, 250 escala con amplis', 'Grabación y mezcla en un par'],
-    ['Cable espiral pesado que tira', 'Énfasis graves pide compensación mental', 'Sin cable desmontable'])
-);
+// 3) Conclusion ES wording
+if (!g.conclusion_es.includes('la acci\u00f3n de martillo realista de su precio')) throw new Error('conclusion ES changed');
+g.conclusion_es = g.conclusion_es.replace('la acci\u00f3n de martillo realista de su precio', 'la acci\u00f3n de martillo m\u00e1s realista de su gama de precios');
+console.log('conclusion ES fixed');
 
-const bg = G.find(x => x.id === 'best-beginner-electric-guitar');
-bg.verdictProsCons.push(
-  VD('Epiphone Les Paul Special-II E1',
-    ['Real mahogany body with humbuckers at entry price', '700T/650R pickups handle rock gain well', 'Comfortable worn finish neck', 'Gibson-style 24.75-inch scale, easier bends'],
-    ['Bolt-on neck (not set like Gibson)', 'Tuners beg for upgrade', 'Fret edges can be sharp unit to unit'],
-    ['Cuerpo caoba real con humbuckers a precio entrada', 'Pastillas 700T/650R aguantan ganancia rock', 'Mástil acabado worn cómodo', 'Escala 24,75 estilo Gibson, bends fáciles'],
-    ['Mástil atornillado (no encolado como Gibson)', 'Clavijas piden mejora', 'Bordes trastes filosos según unidad']),
-  VD('Jet Guitars JS-300',
-    ['Roasted maple neck with 22 medium-jumbo frets', 'Alnico pickups outperform the price class', 'Bone nut and locking tuners stock', 'Fretwork rivals guitars twice the price'],
-    ['Newer brand, resale value unproven', 'Body shapes divide traditionalists', 'Limited finish options'],
-    ['Mástil arce tostado con 22 trastes medium-jumbo', 'Pastillas alnico superan su rango precio', 'Cejuela hueso y clavijas bloqueo de serie', 'Trastes rivalizan guitarras doble precio'],
-    ['Marca nueva, reventa sin probar', 'Formas cuerpo dividen tradicionalistas', 'Opciones acabado limitadas']),
-  VD('Squier Sonic Mustang',
-    ['24-inch short scale = easiest fretting for small hands', 'Single coils with genuine Fender sparkle', 'Lightweight offset body', 'Cheapest real Fender-family guitar'],
-    ['Short scale feels cramped for large hands', 'Thin tone needs amp help for rock', 'Basic hardware, plan tuner upgrade'],
-    ['Escala corta 24" = trastes fáciles manos pequeñas', 'Single coils con brillo Fender genuino', 'Cuerpo offset ligero', 'Guitarra familia Fender real más barata'],
-    ['Escala corta estrecha para manos grandes', 'Tono fino necesita ayuda del ampli para rock', 'Hardware básico, planea mejora clavijas']),
-  VD('Enya Nova Go Sonic',
-    ['Carbon fiber body immune to humidity/temperature', 'Built-in speaker + effects (no amp needed)', 'Zero-fret design for low action', 'Gig bag friendly, travel-proof'],
-    ['Carbon tone divides wood purists', 'Electronics add weight and complexity', 'Neck profile suits modern players only'],
-    ['Cuerpo fibra carbono inmune a humedad/temperatura', 'Altavoz + efectos integrados (sin ampli)', 'Diseño zero-fret para acción baja', 'Resistente a viajes con funda'],
-    ['Tono carbono divide puristas madera', 'Electrónica añade peso y complejidad', 'Perfil mástil solo para modernos']),
-  VD('Yamaha Revstar Element RSE20',
-    ['Chambered mahogany body, resonant and light', 'Dry Switch high-pass tightens humbuckers', 'Yamaha build quality and fretwork', 'Distinct looks outside Strat/LP clones'],
-    ['Pickups good, not boutique', 'Dry Switch learning curve', 'Heavier than Pacifica'],
-    ['Cuerpo caoba chambered, resonante y ligero', 'Dry Switch pasa-altos ajusta humbuckers', 'Calidad construcción y trastes Yamaha', 'Estética propia fuera de clones Strat/LP'],
-    ['Pastillas buenas, no boutique', 'Curva aprendizaje Dry Switch', 'Más pesada que Pacifica']),
-  VD('Squier Debut Series Stratocaster',
-    ['Lowest-priced real Stratocaster ever', 'Full 25.5-inch scale teaches proper technique', 'Lightweight poplar body', 'Free Fender Play lessons included'],
-    ['Hardware is bare minimum', 'Pickups thin, plan amp EQ help', 'Setup out of box often needed'],
-    ['Stratocaster real más barata historia', 'Escala completa 25,5 enseña técnica correcta', 'Cuerpo álamo ligero', 'Lecciones Fender Play gratis incluidas'],
-    ['Hardware mínimo imprescindible', 'Pastillas finas, planea ayuda EQ ampli', 'Setup inicial suele necesario'])
-);
-
-G.find(x => x.id === 'best-in-ear-monitors').verdictProsCons = [
-  VD('Shure SE846 Gen 2',
-    ['Four balanced armatures with true subwoofer low-end', 'Replaceable nozzle inserts tune the signature', 'Detachable MMCX cable, huge aftermarket', 'Reference IEM for a decade'],
-    ['Fit is deep and fiddly for small ears', 'Premium price', 'Cable microphonics without shirt clip'],
-    ['Cuatro armaduras balanceadas con sub-graves reales', 'Filtros boquilla intercambiables afinan firma', 'Cable MMCX desmontable, gran aftermarket', 'IEM referencia por una década'],
-    ['Ajuste profundo complicado orejas pequeñas', 'Precio premium', 'Microfonía cable sin clip camisa']),
-  VD('Sennheiser EW IEM G4',
-    ['Pro UHF wireless trusted on world tours', 'Stereo focus mode for crowded RF', 'Metal bodypack survives gig bags', 'Up to 325 ft range line-of-sight'],
-    ['System price before earpieces', 'Frequency coordination needed in cities', 'AA batteries (rechargeables recommended)'],
-    ['Inalámbrico UHF pro de giras mundiales', 'Modo focus estéreo para RF saturado', 'Petaca metal aguanta fundas bolo', 'Hasta 100 m alcance visual'],
-    ['Precio sistema antes de auriculares', 'Coordinación frecuencias necesaria en ciudad', 'Pilas AA (recargables recomendadas)']),
-  VD('Xvive U4 Wireless',
-    ['2.4 GHz digital — no license, no coordination', 'Tiny receiver clips to shirt/strap', '107 dB dynamic range, under 5 ms latency', 'Cheapest honest wireless IEM'],
-    ['2.4 GHz shares band with Wi-Fi (dropouts possible)', 'Mono only (no stereo image)', 'Plastic build, handle with care'],
-    ['Digital 2,4 GHz — sin licencia ni coordinación', 'Receptor mini al clip de camisa/correa', '107 dB rango dinámico, menos de 5 ms latencia', 'IEM inalámbrico honesto más barato'],
-    ['2,4 GHz comparte banda con Wi-Fi (cortes posibles)', 'Solo mono (sin imagen estéreo)', 'Construcción plástico, tratar con cuidado']),
-  VD('Sennheiser XSW IEM',
-    ['Sennheiser wireless at entry price', 'Stereo transmission (unlike 2.4 GHz monos)', 'Simple one-touch setup', 'Up to 10-hour bodypack runtime'],
-    ['Fixed frequency banks (less RF flexibility)', 'Stock earphones are basic — budget upgrade', 'Plastic bodypack'],
-    ['Inalámbrico Sennheiser a precio entrada', 'Transmisión estéreo (vs monos 2,4 GHz)', 'Setup simple un toque', 'Hasta 10 horas petaca'],
-    ['Bancos frecuencia fijos (menos flexibilidad RF)', 'Auriculares stock básicos — planea mejora', 'Petaca plástico'])
+// 4) Missing verdicts
+if (!Array.isArray(g.verdictProsCons)) throw new Error('verdictProsCons not array');
+if (g.verdictProsCons.length !== 5) throw new Error('expected 5 verdicts, got ' + g.verdictProsCons.length);
+const V = [
+  {
+    name: 'Casio PX-S1100', name_es: 'Casio PX-S1100',
+    pros: [
+      'Slimmest 88-key hammer-action cabinet ever made \u2014 just 232 mm deep, fits where no other real piano does',
+      'Only 11.2 kg and runs on batteries, so it plays anywhere with no power outlet in sight',
+      'Bluetooth audio and MIDI built in \u2014 play along with tracks and connect apps with no cables',
+      'AiR sound engine with 192-note polyphony at a $599 street price'
+    ],
+    cons: [
+      'Smart Scaled action feels lighter and less controlled than PHA-4 Standard or GHC on fast repeats',
+      '8 W x 2 speakers sound thin at room-filling volume',
+      'USB is MIDI only \u2014 no audio interface for direct recording',
+      'No display; deeper settings live in the Casio app, not on the panel'
+    ],
+    pros_es: [
+      'El mueble con 88 teclas de martillo m\u00e1s fino que existe \u2014 solo 232 mm de fondo, cabe donde ning\u00fan otro piano real',
+      'Solo 11,2 kg y funciona con pilas, as\u00ed que suena en cualquier sitio sin enchufe a la vista',
+      'Bluetooth audio y MIDI integrados \u2014 toca sobre tus temas y conecta apps sin cables',
+      'Motor de sonido AiR con 192 notas de polifon\u00eda por 599 d\u00f3lares'
+    ],
+    cons_es: [
+      'La acci\u00f3n Smart Scaled se siente m\u00e1s ligera y menos precisa que la PHA-4 Standard o la GHC en repeticiones r\u00e1pidas',
+      'Los altavoces de 8 W x 2 se quedan finos cuando subes el volumen',
+      'El USB es solo MIDI \u2014 no sirve como interfaz de audio para grabar',
+      'Sin pantalla; los ajustes a fondo est\u00e1n en la app de Casio, no en el panel'
+    ]
+  },
+  {
+    name: 'Roland FP-10', name_es: 'Roland FP-10',
+    pros: [
+      'PHA-4 Standard hammer action with escapement at $499 \u2014 the best key feel per dollar here',
+      'SuperNATURAL modeling responds to how hard you play instead of triggering flat samples',
+      'Twin Piano mode splits the keyboard so student and teacher play side by side',
+      'Quiet key action plus headphone jack for silent practice at any hour'
+    ],
+    cons: [
+      '96-note polyphony can clip on dense sustains with layered sounds',
+      'Bluetooth is MIDI only \u2014 no wireless audio streaming from your phone',
+      '6 W x 2 speakers are the weakest in this guide',
+      'No display and only 15 tones from the panel \u2014 the other 21 need the Roland app'
+    ],
+    pros_es: [
+      'Acci\u00f3n de martillo PHA-4 Standard con escape por 499 d\u00f3lares \u2014 el mejor tacto por precio de la gu\u00eda',
+      'El modelado SuperNATURAL responde a la fuerza con la que tocas en vez de disparar muestras planas',
+      'El modo Twin Piano divide el teclado para que alumno y profesor toquen lado a lado',
+      'Teclado silencioso m\u00e1s salida de auriculares para practicar a cualquier hora'
+    ],
+    cons_es: [
+      'La polifon\u00eda de 96 notas puede cortarse con pedales largos y sonidos en capas',
+      'El Bluetooth es solo MIDI \u2014 sin streaming de audio desde el m\u00f3vil',
+      'Los altavoces de 6 W x 2 son los m\u00e1s justos de la gu\u00eda',
+      'Sin pantalla y solo 15 sonidos desde el panel \u2014 los otros 21 exigen la app de Roland'
+    ]
+  },
+  {
+    name: 'Yamaha P-225', name_es: 'Yamaha P-225',
+    pros: [
+      'Concert-grand CFX sampling with VRM Lite resonance that rings like the real thing',
+      'USB audio and MIDI interface built in \u2014 record stereo audio straight into your DAW',
+      'Only 11.5 kg with AUX out and dual headphone jacks \u2014 ready for lessons and small gigs',
+      'Bluetooth audio streams backing tracks through the piano speakers (where available)'
+    ],
+    cons: [
+      'GHC action has no escapement simulation \u2014 pianissimo control trails the PHA-4 Standard',
+      '24 voices stay piano-focused; no big general-purpose palette',
+      'Single user-song recorder \u2014 one song, then it overwrites',
+      'Bluetooth audio depends on region and may be missing in some countries'
+    ],
+    pros_es: [
+      'Muestras del gran cola CFX con resonancia VRM Lite que suenan como el piano de verdad',
+      'Interfaz USB de audio y MIDI integrada \u2014 graba est\u00e9reo directo en tu DAW',
+      'Solo 11,5 kg con salida AUX y doble toma de auriculares \u2014 listo para clases y bolos peque\u00f1os',
+      'El Bluetooth audio pasa tus bases por los altavoces del piano (seg\u00fan regi\u00f3n)'
+    ],
+    cons_es: [
+      'La acci\u00f3n GHC no simula el escape \u2014 el control en pian\u00edsimo queda por detr\u00e1s de la PHA-4 Standard',
+      'Sus 24 voces se centran en el piano; sin gran paleta generalista',
+      'Grabador de una sola canci\u00f3n \u2014 graba una y la siguiente la borra',
+      'El Bluetooth audio depende de la regi\u00f3n y puede faltar en algunos pa\u00edses'
+    ]
+  }
 ];
-
-fs.writeFileSync('data/guides.json', JSON.stringify(G, null, 2));
-['open-headphones', 'tracking-headphones', 'best-headphones-for-mixing', 'best-beginner-electric-guitar', 'best-in-ear-monitors'].forEach(id => {
-  const g = G.find(x => x.id === id);
-  console.log(id + ': cols=' + g.productTable.columns.length + ' verdict=' + g.verdictProsCons.length);
+V.forEach(v => {
+  if (!v.pros.length === false) {}
+  ['pros', 'cons', 'pros_es', 'cons_es'].forEach(k => { if (v[k].length < 4) throw new Error(v.name + '.' + k + ' < 4'); });
+  g.verdictProsCons.push(v);
 });
+console.log('verdicts added:', g.verdictProsCons.length);
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('guides.json written');
