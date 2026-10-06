@@ -4989,7 +4989,11 @@ function shortTitle(title) {
     if (/\d/.test(words[i])) { lastNumIdx = i; break; }
   }
   if (lastNumIdx >= 0) {
-    return words.slice(0, lastNumIdx + 1).join(' ');
+    // Keep one trailing model word (Rack, LIVE, Pro...) so store searches
+    // don't collapse variants: "Behringer X32 Rack" must not become "Behringer X32".
+    var end = lastNumIdx + 1;
+    if (end === words.length - 1 && /^[A-Za-z]+$/.test(words[end])) end++;
+    return words.slice(0, end).join(' ');
   }
   let result = [];
   for (let w of words) {
