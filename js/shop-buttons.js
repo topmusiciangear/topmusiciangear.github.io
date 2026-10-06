@@ -4973,7 +4973,7 @@ const TEST_SHOP_BTN = {
   569: { prices: { amazon: "$3,099.99", gear4music: "£2,146.00", andertons: "£2,146.00", musicstore: "€2,095.00" }, na: ["zzounds"] },
   570: { prices: { amazon: "$3,299.99", gear4music: "£1,469.00", andertons: "£1,513.00" }, na: ["zzounds", "musicstore"] },
   571: { prices: { zzounds: "$729.99", gear4music: "€505.00", andertons: "£399.00", musicstore: "€499.00" } },
-  572: { prices: { amazon: "$499.99", andertons: "£399.00", gear4music: "£355.00", musicstore: "€398.00" }, oos: ["zzounds"] },
+  572: { prices: { amazon: "$499.99", andertons: "£399.00", gear4music: "£355.00", musicstore: "€419.00" }, oos: ["zzounds"] },
 }
 
 function shortTitle(title) {
