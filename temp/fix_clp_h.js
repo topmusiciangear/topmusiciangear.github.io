@@ -1,0 +1,10 @@
+const fs = require('fs');
+const gFile = 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const gd = G.find(x => x.id === 'best-digital-pianos');
+const s = gd.sections.find(x => /Premium Console Piano/.test(x.heading || ''));
+if (!s) throw new Error('CLP section not found');
+s.heading = 'Best Premium Console Piano';
+s.heading_es = 'El mejor piano de mueble premium';
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('CLP heading simplified');

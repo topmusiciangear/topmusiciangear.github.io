@@ -2331,8 +2331,8 @@ footer ul li a:hover { color: var(--accent); }
   margin-top: 18px;
 }
 .guide-section-prod {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border);
+  background: transparent;
+  border: 1px solid transparent;
   border-radius: var(--radius);
   padding: 16px;
 }
