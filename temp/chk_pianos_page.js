@@ -1,0 +1,15 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/best-digital-pianos.html', 'utf8');
+const bad = ['XXYY', 'REC00XXXXX', 'item--KORB2SP', 'undefined', 'Artikel'];
+console.log('bad markers: ' + bad.map(b => b + '=' + (h.split(b).length - 1)).join(' '));
+console.log('new g4m imgs: ' + (h.match(/r2\.gear4music\.com\/media\/(84\/845938|139\/1392781|46\/468553|108\/1089098|70\/705149|64\/643027)/g) || []).length);
+console.log('amazon dp B0937L2JGW: ' + (h.split('/dp/B0937L2JGW').length - 1));
+console.log('price row $3,299.99: ' + (h.split('$3,299.99').length - 1));
+console.log('btn $1,319.99: ' + (h.split('$1,319.99').length - 1));
+console.log('btn £1,175.00: ' + (h.split('£1,175.00').length - 1));
+console.log('zzounds ROLRP10: ' + (h.split('item--ROLRP10').length - 1));
+console.log('old $2,499: ' + (h.split('$2,499').length - 1) + ' | old $999: ' + (h.split('$999').length - 1));
+console.log('bad img r2/88/881234: ' + (h.split('media/88/881234').length - 1));
+console.log('Korg cdn img: ' + (h.split('cdn.korg.com').length - 1));
+console.log('GrandTouch-E mentions: ' + (h.split('GrandTouch-E').length - 1) + ' | GH3: ' + (h.split('GH3').length - 1));
+console.log('under $800: ' + (h.split('under $800').length - 1) + ' | under $550: ' + (h.split('under $550').length - 1) + ' | 2026 flagship: ' + (h.split('2026 flagship').length - 1));
