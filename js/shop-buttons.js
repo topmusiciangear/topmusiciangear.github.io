@@ -4987,7 +4987,7 @@ const TEST_SHOP_BTN = {
   583: { prices: { zzounds: "$199.00" } },
   584: { prices: { zzounds: "$99.99" } },
   585: { prices: { zzounds: "$186.99" } },
-  586: { prices: { zzounds: "$351.99", gear4music: "£273.00" } },
+  586: { prices: { zzounds: "$351.99", gear4music: "£273.00", andertons: "£299.00", musicstore: "€299.00" } },
   587: { prices: { gear4music: "£146.50" }, urls: { zzounds: "https://www.zzounds.com/item--TCEDITTOX4LOOPER" }, oos: ["zzounds"] },
   588: { prices: { zzounds: "$181.40", gear4music: "£149.00" } },
   590: { prices: { zzounds: "$159.99", gear4music: "£159.00", musicstore: "€199.00" } },
