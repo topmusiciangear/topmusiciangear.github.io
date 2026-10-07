@@ -1,0 +1,97 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const btn = fs.readFileSync(DIR + 'build-guides.js', 'utf8');
+const prod = fs.readFileSync(DIR + 'data/products.json', 'utf8');
+// [label, where-to-find, expected snippet]
+const checks = [
+  ['GTCORE MS', 'prod+btn', ['art-GIT0054641-000', '€777']],
+  ['GTCORE And', 'prod+btn', ['boss-gt-1000core-guitar-effects-processor-pedal', '£649']],
+  ['GTCORE G4M', 'btn', ['£635.00']],
+  ['QC MS', 'prod+btn', ['art-GIT0060299-000', '€1,585']],
+  ['QC And', 'prod+btn', ['neural-dsp-quad-cortex-digital-effects-processor-and-amp-modeller', '£1,449']],
+  ['GE300 MS', 'prod+btn', ['art-GIT0050316-000', '€599']],
+  ['G11 G4M', 'btn', ['£445.00']],
+  ['M104 rename', 'prod+guide', ['MXR M104 Distortion+']],
+  ['M104 photo', 'prod', ['media/27/274347/1200/preview_9.jpg']],
+  ['BD2W photo', 'prod', ['media/68/689230/1200/preview.jpg']],
+  ['TF photo', 'prod', ['media/42/428493/1200/preview.jpg']],
+  ['DV photo', 'prod', ['media/92/925163/1200/preview_1.jpg']],
+  ['M169 rename', 'prod+guide', ['MXR M169 Carbon Copy']],
+  ['CC photo', 'prod', ['media/79/797914/1200/preview.jpg']],
+  ['CC G4M', 'prod+btn', ['MXR-M169-Carbon-Copy-Analog-Delay-Pedal/DBH', '£159']],
+  ['GOLD photo', 'prod', ['media/68/686799/1200/preview.jpg']],
+  ['GOLD G4M', 'prod+btn', ['Universal-Audio-UAFX-Golden-Reverberator-Pedal/3QL2', '£299']],
+  ['RV photo', 'prod', ['media/101/1014785/1200/preview.jpg']],
+  ['RV G4M', 'prod+btn', ['Boss-RV-200-200-Series-Reverb-Pedal/633P', '£243']],
+  ['RC500 photo', 'prod', ['media/60/603490/1200/preview.jpg']],
+  ['RC500 G4M', 'prod+btn', ['Boss-RC-500-Loop-Station-Dual-Track-Looper-Pedal/3LJV', '£273']],
+  ['720 photo', 'prod', ['media/16/166372/1200/preview.jpg']],
+  ['720 G4M', 'prod+btn', ['Electro-Harmonix-720-Stereo-Looper/1GJN', '£149']],
+  ['M303 rename', 'prod+guide', ['MXR M303 Clone Looper']],
+  ['Clone photo', 'prod', ['media/50/504603/1200/preview.jpg']],
+  ['Clone G4M', 'prod+btn', ['MXR-M303-Clone-Looper/34DU', '£159']],
+  ['Clone MS', 'prod+btn', ['art-GIT0051390-000', '€199']],
+  ['Ditto photo', 'prod', ['media/43/434900/1200/preview.jpg']],
+  ['RC600 photo', 'prod', ['media/71/715684/1200/preview.jpg']],
+  ['RC600 G4M', 'prod+btn', ['Boss-RC-600-6-Track-Loop-Station/44NJ', '£461']],
+  ['RC500 MS', 'prod+btn', ['art-GIT0054643-000', '€299']],
+  ['RC500 And', 'prod+btn', ['boss-rc-500-loop-station-pedal', '£299']],
+  ['X4 MS', 'prod+btn', ['art-GIT0037748-000', '€239']],
+  ['X4 And', 'prod+btn', ['tc-electronic-ditto-x4-looper', '£150']],
+  ['X4 G4M', 'btn', ['£150.00']],
+  ['RC5 MS', 'btn', ['€229.00']],
+  ['RC5 G4M', 'btn', ['£196.00']],
+  ['Ditto G4M', 'btn', ['£58.00']],
+  ['720 MS', 'prod+btn', ['art-GIT0037434-000', '€158']],
+  ['720 And', 'prod+btn', ['electro-harmonix-720-stereo-looper-pedal', '£150']],
+  ['Clone And', 'prod+btn', ['mxr-m303-clone-looper-pedal', '£160']],
+  ['1440 G4M', 'btn', ['£199.00']],
+  ['RC600 MS', 'prod+btn', ['art-GIT0057517-000', '€499']],
+  ['RC600 And', 'prod+btn', ['boss-rc-600-loop-station', '£499']],
+  ['TL MS', 'prod+btn', ['art-GIT0022461-000', '€469']],
+  ['TL And', 'prod+btn', ['strymon-timeline-delay-pedal', '£429']],
+  ['TL G4M', 'prod+btn', ['Strymon-TimeLine-Delay-Pedal/1LRL', '£429']],
+  ['LVX MS', 'prod+btn', ['art-GIT0058964-000', '€799']],
+  ['LVX And', 'prod+btn', ['meris-lvx-modular-delay-system-pedal', '£619']],
+  ['LVX G4M', 'prod+btn', ['Meris-LVX-Modular-Delay-System-Pedal/4V7F', '£668']],
+  ['TF G4M', 'prod+btn', ['Eventide-Time-Factor-Twin-Delay-Pedal/FA4', '£384']],
+  ['NEM And', 'prod+btn', ['source-audio-nemesis-delay-adt-pedal', '£319']],
+  ['CAV And', 'prod', ['keeley-caverns-delay-reverb-v2']],
+  ['DV zz', 'btn', ['$399.00']],
+  ['DV G4M', 'prod+btn', ['Universal-Audio-UAFX-Del-Verb-Ambience-Companion/5J58', '£293']],
+  ['DV And', 'prod+btn', ['universal-audio-uafx-del-verb-ambience-companion-ped', '£319']],
+  ['DV MS', 'prod+btn', ['art-GIT0060302-000', '€369']],
+  ['CC zz', 'btn', ['$160.00']],
+  ['CC And', 'prod+btn', ['mxr-m169-carbon-copy-analog-delay-pedal', '£160']],
+  ['CC MS', 'prod+btn', ['art-GIT0012901-000', '€199']],
+  ['GOLD And', 'prod+btn', ['universal-audio-golden-reverberator-pedal', '£379']],
+  ['GOLD MS', 'prod+btn', ['art-GIT0056042-000', '€349']],
+  ['RV MS', 'prod+btn', ['art-GIT0061054-000', '€289']],
+  ['RV And', 'prod+btn', ['boss-rv-200-reverb-pedal', '£259']],
+  ['TS9 And+G4M', 'btn', ['£105.00']],
+  ['TUM MS', 'prod+btn', ['art-GIT0051731-000', '€215']],
+  ['TUM And', 'prod+btn', ['wampler-tumnus-deluxe-guitar-pedal', '£189']],
+  ['TUM G4M', 'prod+btn', ['Wampler-Tumnus-Deluxe-Overdrive-Pedal/270Q', '£189']],
+  ['MG MS', 'prod+btn', ['art-GIT0036556-000', '€259']],
+  ['MG And', 'prod+btn', ['jhs-pedals-morning-glory-overdrive-v4', '£174']],
+  ['MG G4M', 'prod+btn', ['JHS-Pedals-Morning-Glory-V4-Transparent-Overdrive/1GXS', '£175']],
+  ['M104 MS', 'prod+btn', ['art-ACC0000415-000', '€109']],
+  ['M104 And', 'prod+btn', ['mxr-m104-distortion-plus-pedal', '£109']],
+  ['M104 G4M', 'prod+btn', ['MXR-M104-Distortion-Plus-Guitar-Effects-Pedal/3F7', '£109']],
+  ['BD2W MS', 'prod+btn', ['art-GIT0032558-000', '€169']],
+  ['BD2W And', 'prod+btn', ['boss-bd-2w-blues-driver-guitar-effects-pedal', '£169']],
+  ['BD2W G4M', 'prod+btn', ['Boss-BD-2W-Waza-Craft-Custom-Blues-Driver-Pedal/12UU', '£157']],
+  ['P95 G4M', 'btn', ['£119.00']],
+  ['OCD And', 'prod+btn', ['fulltone-usa-ocd-v2-overdrive-pedal', '£180']],
+  ['OCD G4M', 'prod+btn', ['Fulltone-OCD-V2-Overdrive/68VP', '£159']]
+];
+const guide = fs.readFileSync(DIR + 'data/guides.json', 'utf8');
+let bad = 0;
+checks.forEach(([label, where, arr]) => {
+  arr.forEach(snip => {
+    const inB = btn.includes(snip), inP = prod.includes(snip), inG = guide.includes(snip);
+    const ok = where === 'btn' ? inB : (where === 'prod' ? inP : (where === 'prod+btn' ? (inP && inB) : (where === 'prod+guide' ? (inP && inG) : inB)));
+    if (!ok) { bad++; console.log('MISS [' + label + '] :: ' + snip.slice(0, 50)); }
+  });
+});
+console.log(bad === 0 ? 'ALL ' + checks.length + ' CHECKS OK' : bad + ' MISSES');
