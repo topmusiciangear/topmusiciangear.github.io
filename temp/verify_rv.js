@@ -1,0 +1,21 @@
+const fs = require('fs');
+const base = 'C:/Users/Daniel/projects/topmusiciangear/guides/';
+const chk = (f, s) => {
+  const t = fs.readFileSync(base + f, 'utf8');
+  console.log(f + ' [' + s.slice(0, 44) + '] = ' + (t.includes(s) ? 'OK' : 'MISSING'));
+};
+chk('best-reverb-delay.html', 'Twelve Machines, Endless Echoes');
+chk('best-reverb-delay.html', 'Design Your Own Delay');
+chk('best-reverb-delay.html', 'Golden Springs and German Plates');
+chk('best-reverb-delay.html', 'Twelve Verbs, 127 Memories');
+chk('best-reverb-delay_es.html', 'Doce máquinas, ecos infinitos');
+chk('best-reverb-delay.html', '$299.99');
+chk('best-reverb-delay.html', '$296.99');
+chk('best-reverb-delay.html', 'item--STMTIMELINE');
+chk('best-reverb-delay.html', 'item--UADGOLD');
+chk('best-reverb-delay.html', 'item--BOSRV200');
+chk('best-reverb-delay.html', 'item--EVTTIMEFACTOR');
+chk('best-reverb-delay.html', 'item--SORNEMESISADT');
+chk('best-reverb-delay.html', 'item--KEECAVERNSV2');
+chk('best-reverb-delay.html', 'item--UADDELVERB');
+chk('best-reverb-delay.html', 'item--MXRCC');
