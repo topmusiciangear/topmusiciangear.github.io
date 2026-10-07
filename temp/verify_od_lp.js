@@ -1,0 +1,20 @@
+const fs = require('fs');
+const base = 'C:/Users/Daniel/projects/topmusiciangear/guides/';
+const chk = (f, s) => {
+  const t = fs.readFileSync(base + f, 'utf8');
+  console.log(f + ' [' + s.slice(0, 46) + '] = ' + (t.includes(s) ? 'OK' : 'MISSING'));
+};
+chk('best-overdrive-distortion.html', 'MOSFET Clipping, Amp-Like Feel');
+chk('best-overdrive-distortion.html', 'Klon Magic With a 3-Band EQ');
+chk('best-overdrive-distortion.html', 'Waza Craft Grit');
+chk('best-overdrive-distortion_es.html', 'Dos mandos de crunch 70s');
+chk('best-overdrive-distortion.html', '$168.45');
+chk('best-overdrive-distortion.html', '$184.99');
+chk('best-looper-pedals.html', 'Two Tracks, One Mic, Zero Excuses');
+chk('best-looper-pedals.html', 'Flip Between Two Loops Mid-Song');
+chk('best-looper-pedals.html', 'Six Hi-Fi Minutes in a Mini Box');
+chk('best-looper-pedals_es.html', 'Doce minutos, diez loops, sin');
+chk('best-looper-pedals.html', '$351.99');
+chk('best-looper-pedals.html', '$181.40');
+chk('best-looper-pedals.html', 'item--MXRM303');
+chk('best-looper-pedals.html', '1JQZ');

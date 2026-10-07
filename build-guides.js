@@ -5383,6 +5383,15 @@ const TEST_SHOP_BTN = {
   578: { prices: { zzounds: "$659.99", gear4music: "£539.00", andertons: "£649.00", musicstore: "€777.00" } },
   579: { prices: { zzounds: "$1,799.00", andertons: "£1,449.00", musicstore: "€1,585.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Neural-DSP-Quad-Cortex/61MZ" } },
   580: { prices: { musicstore: "€599.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-Multi-Effects-Pedal/2UHQ" }, oos: ["gear4music"] },
+  581: { prices: { zzounds: "$168.45" } },
+  582: { prices: { zzounds: "$199.97" } },
+  583: { prices: { zzounds: "$199.00" } },
+  584: { prices: { zzounds: "$99.99" } },
+  585: { prices: { zzounds: "$186.99" } },
+  586: { prices: { zzounds: "$351.99" } },
+  587: { prices: { gear4music: "£146.50" }, urls: { zzounds: "https://www.zzounds.com/item--TCEDITTOX4LOOPER" }, oos: ["zzounds"] },
+  588: { prices: { zzounds: "$181.40" } },
+  590: { prices: { zzounds: "$159.99" } },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
