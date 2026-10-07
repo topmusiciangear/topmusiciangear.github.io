@@ -1,0 +1,20 @@
+const fs = require('fs');
+const base = 'C:/Users/Daniel/projects/topmusiciangear/guides/';
+const chk = (f, s) => {
+  const t = fs.readFileSync(base + f, 'utf8');
+  console.log(f + ' [' + s + '] = ' + (t.includes(s) ? 'OK' : 'MISSING'));
+};
+chk('best-multi-effects-pedals.html', '$799.99');
+chk('best-multi-effects-pedals.html', '$599.99\u2013$659.99');
+chk('best-multi-effects-pedals.html', '$1,799.00');
+chk('best-multi-effects-pedals.html', '$475.00');
+chk('best-overdrive-distortion.html', '$179.00');
+chk('best-overdrive-distortion.html', '$193.41\u2013$199.97');
+chk('best-overdrive-distortion.html', '$99.99');
+chk('best-looper-pedals.html', '$319.99\u2013$349.99');
+chk('best-looper-pedals.html', '$219.00\u2013$229.00');
+chk('best-looper-pedals.html', '$149.99\u2013$159.99');
+chk('guitar-pedals.html', '$679.00');
+chk('guitar-pedals.html', '$83.50');
+chk('guitar-pedals.html', '$99.99');
+chk('guitar-pedals_es.html', '$129.00');
