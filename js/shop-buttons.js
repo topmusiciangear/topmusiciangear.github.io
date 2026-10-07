@@ -4978,6 +4978,10 @@ const TEST_SHOP_BTN = {
   574: { prices: { amazon: "$1,469.99", zzounds: "$1,499.99", gear4music: "£1,349.00", andertons: "£1,399.00" } },
   575: { prices: { official: "$1,099.99" } },
   576: { prices: { official: "$699.99", gear4music: "£559.00" } },
+  577: { prices: { zzounds: "$799.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor/54OK" }, oos: ["gear4music"] },
+  578: { prices: { zzounds: "$659.99", gear4music: "£539.00" } },
+  579: { prices: { zzounds: "$1,799.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Neural-DSP-Quad-Cortex/61MZ" } },
+  580: { urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-Multi-Effects-Pedal/2UHQ" }, oos: ["gear4music"] },
 }
 
 function shortTitle(title) {

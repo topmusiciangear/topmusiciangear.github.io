@@ -1,0 +1,20 @@
+const fs = require('fs');
+const base = 'C:/Users/Daniel/projects/topmusiciangear/guides/';
+const chk = (f, s) => {
+  const t = fs.readFileSync(base + f, 'utf8');
+  console.log(f + ' [' + s.slice(0, 50) + '] = ' + (t.includes(s) ? 'OK' : 'MISSING'));
+};
+chk('best-multi-effects-pedals.html', 'Is the Zoom G11 the Best Pedal');
+chk('best-multi-effects-pedals.html', 'Is the Boss GT-1000CORE the Best Pedal');
+chk('best-multi-effects-pedals.html', 'Is the Neural DSP Quad Cortex the Best Pedal');
+chk('best-multi-effects-pedals.html', 'Is the Mooer GE300 the Best Pedal');
+chk('best-multi-effects-pedals_es.html', '¿Es el Zoom G11 el mejor pedal');
+chk('best-multi-effects-pedals_es.html', '¿Es el Neural DSP Quad Cortex el mejor pedal');
+chk('best-multi-effects-pedals.html', '$799.99');
+chk('best-multi-effects-pedals.html', '5-minute looper, 68 rhythm patterns');
+chk('best-multi-effects-pedals.html', '495 x 253 x 64 mm');
+chk('best-multi-effects-pedals.html', '290 x 190 x 49 mm');
+chk('best-multi-effects-pedals.html', 'item--ZOMZG11');
+chk('best-multi-effects-pedals.html', 'item--BOSGT1000CORE');
+chk('best-multi-effects-pedals.html', 'item--NERQC');
+chk('best-multi-effects-pedals.html', 'Mooer-GE300-Multi-Effects-Pedal/2UHQ');

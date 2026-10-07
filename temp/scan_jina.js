@@ -1,0 +1,10 @@
+const fs = require('fs');
+const f = 'C:/Users/Daniel/.local/share/opencode/tool-output/tool_116a217c1001vYZZ3d0vi2m2w8';
+const s = fs.readFileSync(f, 'utf8');
+console.log('len', s.length);
+const gbp = [...new Set(s.match(/£[0-9,]+\.\d\d/g) || [])];
+console.log('gbp:', gbp.slice(0, 10).join(' | ') || 'NONE');
+const r2 = [...new Set(s.match(/https:\/\/r2\.gear4music\.com[^)\s"']*/g) || [])];
+console.log('r2:', r2.slice(0, 6).join(' | ') || 'NONE');
+const idx = s.indexOf('Zoom G11 Multi Effects Processor at Gear4music');
+console.log('product title at:', idx);
