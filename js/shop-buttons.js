@@ -4999,7 +4999,7 @@ const TEST_SHOP_BTN = {
   596: { prices: { zzounds: "$399.00", gear4music: "£293.00", andertons: "£319.00", musicstore: "€369.00" } },
   597: { prices: { zzounds: "$160.00", gear4music: "£159.00", andertons: "£160.00", musicstore: "€199.00" } },
   598: { prices: { zzounds: "$349.00", gear4music: "£299.00", andertons: "£379.00", musicstore: "€349.00" } },
-  599: { prices: { zzounds: "$320.99", gear4music: "£243.00" } },
+  599: { prices: { zzounds: "$320.99", gear4music: "£243.00", andertons: "£259.00", musicstore: "€289.00" } },
   600: { prices: { gear4music: "£199.00" }, urls: { zzounds: "https://www.zzounds.com/item--EHXSNCO03E" }, oos: ["zzounds"] },
   601: { prices: { zzounds: "$659.99", gear4music: "£461.00", andertons: "£499.00", musicstore: "€499.00" } },
 }
