@@ -1,0 +1,12 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const G = JSON.parse(fs.readFileSync(DIR + 'data/guides.json', 'utf8'));
+const g = G.find(v => v.id === 'best-reverb-delay');
+const row = g.productTable.rows.find(r => r.label === 'Estimated Price');
+const i = g.productTable.columns.findIndex(c => c.title === 'MXR M169 Carbon Copy');
+if (i < 0) throw new Error('col not found');
+console.log('col idx: ' + i + ' price: ' + row.values[i].value);
+if (row.values[i].value !== '$149.99–$159.99') throw new Error('unexpected');
+row.values[i].value = '$155.48–$160.00'; row.values[i].value_es = '$155.48–$160.00';
+fs.writeFileSync(DIR + 'data/guides.json', JSON.stringify(G, null, 2) + '\n');
+console.log('Carbon Copy table price updated');
