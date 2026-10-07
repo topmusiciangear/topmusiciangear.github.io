@@ -5000,7 +5000,7 @@ const TEST_SHOP_BTN = {
   597: { prices: { zzounds: "$149.99", gear4music: "£159.00" } },
   598: { prices: { zzounds: "$349.00", gear4music: "£299.00" } },
   599: { prices: { zzounds: "$320.99", gear4music: "£243.00" } },
-  600: { prices: { gear4music: "£241.00" }, urls: { zzounds: "https://www.zzounds.com/item--EHXSNCO03E" }, oos: ["zzounds"] },
+  600: { prices: { gear4music: "£199.00" }, urls: { zzounds: "https://www.zzounds.com/item--EHXSNCO03E" }, oos: ["zzounds"] },
   601: { prices: { zzounds: "$659.99", gear4music: "£461.00" } },
 }
 
