@@ -4999,7 +4999,7 @@ const TEST_SHOP_BTN = {
   596: { prices: { zzounds: "$349.00" } },
   597: { prices: { zzounds: "$149.99", gear4music: "£159.00" } },
   598: { prices: { zzounds: "$349.00", gear4music: "£299.00" } },
-  599: { prices: { zzounds: "$320.99" } },
+  599: { prices: { zzounds: "$320.99", gear4music: "£243.00" } },
 }
 
 function shortTitle(title) {
