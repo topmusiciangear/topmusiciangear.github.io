@@ -1,0 +1,11 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gFile = DIR + 'data/guides.json';
+const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
+const g = G.find(x => x.id === 'sidechain-modulation-plugins');
+const from = 'secuenciadores de efectos de 28 pasos';
+const c = g.sections[0].content_es.split(from).length - 1;
+if (c !== 1) throw new Error('found ' + c);
+g.sections[0].content_es = g.sections[0].content_es.split(from).join('secuenciadores de efectos de 32 pasos');
+fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
+console.log('32 pasos fixed');
