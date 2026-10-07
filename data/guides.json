@@ -50948,6 +50948,10 @@
         {
           "title": "Boss BD-2W Blues Driver Waza Craft",
           "title_es": "Boss BD-2W Blues Driver Waza Craft"
+        },
+        {
+          "title": "MXR Phase 95",
+          "title_es": "MXR Phase 95"
         }
       ],
       "rows": [
@@ -50986,6 +50990,10 @@
             {
               "value": "Dynamic blues drive for gigging",
               "value_es": "Drive dinámico de blues para el escenario"
+            },
+            {
+              "value": "Live rock textures on small boards",
+              "value_es": "Texturas rock en directo con poco espacio"
             }
           ]
         },
@@ -51024,6 +51032,10 @@
             {
               "value": "$184.99–$186.99",
               "value_es": "$184.99–$186.99"
+            },
+            {
+              "value": "$108.57–$115.99",
+              "value_es": "$108.57–$115.99"
             }
           ]
         },
@@ -51062,6 +51074,10 @@
             {
               "value": "Overdrive",
               "value_es": "Overdrive"
+            },
+            {
+              "value": "Phaser",
+              "value_es": "Phaser"
             }
           ]
         },
@@ -51100,6 +51116,10 @@
             {
               "value": "Level, Tone, Drive, Mode switch",
               "value_es": "Nivel, Tono, Drive, Switch modo"
+            },
+            {
+              "value": "Speed, 45/90/Phase 95 switch",
+              "value_es": "Speed, switch 45/90/Phase 95"
             }
           ]
         },
@@ -51138,6 +51158,10 @@
             {
               "value": "Buffered",
               "value_es": "Buffered"
+            },
+            {
+              "value": "True Bypass",
+              "value_es": "True Bypass"
             }
           ]
         },
@@ -51176,6 +51200,10 @@
             {
               "value": "9V DC / Battery",
               "value_es": "9V DC / Batería"
+            },
+            {
+              "value": "9V battery/DC",
+              "value_es": "Pila 9V/DC"
             }
           ]
         },
@@ -51214,6 +51242,10 @@
             {
               "value": "18 mA",
               "value_es": "18 mA"
+            },
+            {
+              "value": "4 mA",
+              "value_es": "4 mA"
             }
           ]
         },
@@ -51252,6 +51284,10 @@
             {
               "value": "73 x 129 x 59 mm",
               "value_es": "73 x 129 x 59 mm"
+            },
+            {
+              "value": "Mini (50 x 94 x 57 mm)",
+              "value_es": "Mini (50 x 94 x 57 mm)"
             }
           ]
         },
@@ -51290,6 +51326,10 @@
             {
               "value": "Standard/Custom modes, premium parts",
               "value_es": "Modos Standard/Custom, partes premium"
+            },
+            {
+              "value": "Script/Block 45 & 90 modes",
+              "value_es": "Modos Script/Block 45 y 90"
             }
           ]
         }
@@ -51518,6 +51558,34 @@
           "Modo Custom menos carácter \"Blues Driver\"",
           "Todavía sin control medios",
           "Consume más pila que el BD-2 estándar"
+        ]
+      },
+      {
+        "name": "MXR Phase 95",
+        "name_es": "MXR Phase 95",
+        "pros": [
+          "Script + Block circuits in one mini box",
+          "Adds movement before or after drive",
+          "Simple one-knob operation",
+          "Tiny footprint, battery or adapter"
+        ],
+        "cons": [
+          "One knob only, no depth control",
+          "Subtle at slow speeds on some rigs",
+          "Gets buried before heavy distortion for some players",
+          "No tap tempo or presets"
+        ],
+        "pros_es": [
+          "Circuitos Script + Block en caja mini",
+          "Añade movimiento antes o después del drive",
+          "Operación simple de un mando",
+          "Huella mínima, pila o adaptador"
+        ],
+        "cons_es": [
+          "Un solo mando, sin control de depth",
+          "Sutil a velocidades lentas en algunos equipos",
+          "Se pierde antes de distorsión fuerte para algunos",
+          "Sin tap tempo ni presets"
         ]
       }
     ],
