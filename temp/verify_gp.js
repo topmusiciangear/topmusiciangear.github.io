@@ -1,0 +1,16 @@
+const fs = require('fs');
+const t = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/guitar-pedals.html', 'utf8');
+const e = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/guitar-pedals_es.html', 'utf8');
+const chk = (f, s, src) => console.log(f + ' [' + s.slice(0, 42) + '] = ' + (src.includes(s) ? 'OK' : 'MISSING'));
+chk('EN', 'Buffered', t);
+chk('EN', 'Hardwire', t);
+chk('EN', 'Industry-standard wah, rugged build', t);
+chk('EN', 'Buffered bypass and a mute function', t);
+chk('EN', 'To build a balanced, pro pedalboard', t);
+chk('EN', 'Script and Block modes', t);
+chk('ES', 'El mismo dise', e);
+console.log('ES italian-claim removed: ' + (!e.includes('Crybabies italianos') ? 'OK' : 'STILL THERE'));
+console.log('ES bluetooth-claim removed: ' + (!e.includes('Bluetooth TonePrint') ? 'OK' : 'STILL THERE'));
+chk('ES', 'Para construir una pedalera equilibrada', e);
+chk('ES', 'pieza por pieza...'.slice(0, 10), e);
+console.log('SD-1 in verdict: ' + (!t.includes('Boss SD-1 for overdrive') ? 'OK removed' : 'STILL THERE'));
