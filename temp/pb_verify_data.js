@@ -352,6 +352,7 @@ const APPROVED_NON_PB = {
   '480': { 'prices.gear4music': [undefined, '£2,910.00'], 'urls.gear4music': [undefined, 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN'] },
   '410': { 'prices.zzounds': ['$1,499.00', '$999.00'], 'prices.gear4music': ['£719.00', '£730.00'] },
   '140': { 'prices.gear4music': ['£495.00', '£489.00'] },
+  '128': { 'prices.zzounds': ['$469.99', '$453.99'] },
 };
 // aplana un nivel: prices.gear4music, urls.musicstore, oos[0]...
 function flat(o) {

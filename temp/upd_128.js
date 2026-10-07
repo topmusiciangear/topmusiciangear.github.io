@@ -1,0 +1,18 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const bFile = DIR + 'build-guides.js';
+let s = fs.readFileSync(bFile, 'utf8');
+const before = s;
+s = s.replace(/(\n\s*128:\s*\{\s*\n\s*prices:\s*\{\s*\n\s*amazon:\s*"\$469\.99",\r?\n\s*)zzounds:\s*"\$469\.99",/, '$1zzounds: "$453.99",');
+if (s === before) throw new Error('128 zzounds replace failed');
+fs.writeFileSync(bFile, s);
+console.log('128 zzounds -> $453.99');
+const vFile = DIR + 'temp/pb_verify_data.js';
+let v = fs.readFileSync(vFile, 'utf8');
+if (v.includes("'128': {")) throw new Error('128 already approved');
+const anchor = "'140': { 'prices.gear4music': ['£495.00', '£489.00'] },";
+if (!v.includes(anchor)) throw new Error('140 anchor not found');
+const eol = v.includes('\r\n') ? '\r\n' : '\n';
+v = v.replace(anchor, anchor + eol + '  \'128\': { \'prices.zzounds\': [\'$469.99\', \'$453.99\'] },');
+fs.writeFileSync(vFile, v);
+console.log('128 change approved');
