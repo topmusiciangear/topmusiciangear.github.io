@@ -51667,24 +51667,24 @@
               "value_es": "~$679"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "~$449",
+              "value_es": "~$449"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "~$599",
+              "value_es": "~$599"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "~$399",
+              "value_es": "~$399"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "~$499",
+              "value_es": "~$499"
             },
             {
-              "value": "—",
-              "value_es": "—"
+              "value": "~$349",
+              "value_es": "~$349"
             }
           ]
         },
@@ -51709,12 +51709,12 @@
               "value_es": "Delay"
             },
             {
-              "value": "Reverb / Delay",
-              "value_es": "Reverb / Delay"
+              "value": "Modular delay workstation",
+              "value_es": "Workstation modular de delay"
             },
             {
-              "value": "Delay / Looper",
-              "value_es": "Delay / Looper"
+              "value": "Delay / Looper (discontinued)",
+              "value_es": "Delay / Looper (descatalogado)"
             },
             {
               "value": "Delay",
@@ -51785,8 +51785,8 @@
               "value_es": "Buffered / True Bypass seleccionable"
             },
             {
-              "value": "Buffered",
-              "value_es": "Buffered"
+              "value": "Buffered / True Bypass selectable",
+              "value_es": "Buffered / True Bypass seleccionable"
             },
             {
               "value": "Buffered",
@@ -51879,6 +51879,44 @@
           ]
         },
         {
+          "label": "DSP / Processing",
+          "label_es": "DSP / Procesamiento",
+          "values": [
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "ARM tri-core 800 MHz, 32-bit float",
+              "value_es": "ARM tri-core 800 MHz, 32 bits flotantes"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "ARM, 32-bit float",
+              "value_es": "ARM, 32 bits flotantes"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
+            }
+          ]
+        },
+        {
           "label": "Size",
           "label_es": "Tamaño",
           "values": [
@@ -51891,28 +51929,28 @@
               "value_es": "Compacto (72 x 131 x 54 mm)"
             },
             {
-              "value": "Wide (168 x 139 x 66 mm)",
-              "value_es": "Ancho (168 x 139 x 66 mm)"
+              "value": "Wide (172 x 127 x 48 mm)",
+              "value_es": "Ancho (172 x 127 x 48 mm)"
             },
             {
-              "value": "112 x 112 x 55 mm",
-              "value_es": "112 x 112 x 55 mm"
+              "value": "171 x 127 x 47 mm",
+              "value_es": "171 x 127 x 47 mm"
             },
             {
-              "value": "112 x 112 x 55 mm",
-              "value_es": "112 x 112 x 55 mm"
+              "value": "184 x 114 x 51 mm",
+              "value_es": "184 x 114 x 51 mm"
             },
             {
-              "value": "112 x 60 x 50 mm",
-              "value_es": "112 x 60 x 50 mm"
+              "value": "73 x 124 x 58 mm",
+              "value_es": "73 x 124 x 58 mm"
             },
             {
-              "value": "112 x 112 x 55 mm",
-              "value_es": "112 x 112 x 55 mm"
+              "value": "190 x 122 x 54 mm",
+              "value_es": "190 x 122 x 54 mm"
             },
             {
-              "value": "112 x 60 x 50 mm",
-              "value_es": "112 x 60 x 50 mm"
+              "value": "117 x 112 x 56 mm",
+              "value_es": "117 x 112 x 56 mm"
             }
           ]
         },
@@ -51949,8 +51987,8 @@
               "value_es": "10 tipos delay, looper, MIDI"
             },
             {
-              "value": "Neuro app deep edit, 27 engines",
-              "value_es": "App Neuro edición profunda, 27 motores"
+              "value": "26 delay engines, full MIDI, 128 presets, Neuro app",
+              "value_es": "26 motores delay, MIDI total, 128 presets, app Neuro"
             }
           ]
         }
@@ -52157,7 +52195,7 @@
         "name": "Source Audio Nemesis",
         "name_es": "Source Audio Nemesis",
         "pros": [
-          "27 delay engines, Neuro app deep edit",
+          "26 delay engines, full MIDI, 128 presets, Neuro app",
           "Stereo I/O, MIDI, expression",
           "Compact, 128 presets onboard",
           "Best value for tweakers"
@@ -52169,7 +52207,7 @@
           "Scrolling presets without the app means tapping banks blind"
         ],
         "pros_es": [
-          "27 motores delay, app Neuro edición profunda",
+          "26 motores delay, MIDI total, 128 presets, app Neuro",
           "I/O estéreo, MIDI, expresión",
           "Compacto, 128 presets onboard",
           "Mejor valor para tweakers"
