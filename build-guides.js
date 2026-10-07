@@ -5391,7 +5391,7 @@ const TEST_SHOP_BTN = {
   586: { prices: { zzounds: "$351.99", gear4music: "£273.00", andertons: "£299.00", musicstore: "€299.00" } },
   587: { prices: { gear4music: "£150.00", andertons: "£150.00", musicstore: "€239.00" }, urls: { zzounds: "https://www.zzounds.com/item--TCEDITTOX4LOOPER" }, oos: ["zzounds"] },
   588: { prices: { zzounds: "$181.40", gear4music: "£149.00", andertons: "£150.00", musicstore: "€158.00" } },
-  590: { prices: { zzounds: "$159.99", gear4music: "£159.00", musicstore: "€199.00" } },
+  590: { prices: { zzounds: "$159.99", gear4music: "£159.00", musicstore: "€199.00", andertons: "£160.00" } },
   591: { prices: { zzounds: "$449.00" } },
   592: { urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Meris-LVX-Modular-Delay-System-Pedal/4V7F" } },
   593: { urls: { zzounds: "https://www.zzounds.com/item--EVTTIMEFACTOR" }, oos: ["zzounds"] },
