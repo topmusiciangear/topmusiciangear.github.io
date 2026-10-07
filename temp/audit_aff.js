@@ -1,23 +1,34 @@
-// Audit 2: affiliate wrapping correctness per store across catalog.
-const P = require('../data/products.json');
-const issues = [];
-const count = (s, sub) => s.split(sub).length - 1;
-P.forEach(p => {
-  const st = p.stores || {};
-  Object.entries(st).forEach(([k, u]) => {
-    if (typeof u !== 'string' || !u.startsWith('http')) { issues.push(p.id + '.' + k + ': NOT-A-URL ' + u); return; }
-    if (count(u, 'awin1.com') > 1) issues.push(p.id + '.' + k + ': DOUBLE-WRAPPED awin');
-    if (count(u, 'anrdoezrs.net') > 1) issues.push(p.id + '.' + k + ': DOUBLE-WRAPPED cj');
-    if (count(u, 'tag=topmusicg-20') > 1) issues.push(p.id + '.' + k + ': DOUBLE-TAG amazon');
-    if (k === 'gear4music' && u.includes('awin1.com') && !u.includes('awinmid=1117')) issues.push(p.id + '.g4m: WRONG MID ' + u.slice(0, 80));
-    if (k === 'musicstore' && u.includes('awin1.com') && !u.includes('awinmid=63816')) issues.push(p.id + '.ms: WRONG MID ' + u.slice(0, 80));
-    if (k === 'reverb' && u.includes('awin1.com') && !u.includes('awinmid=67144')) issues.push(p.id + '.rev: WRONG MID ' + u.slice(0, 80));
-    if (k === 'andertons' && /irgwc=1|irpid=7292297/.test(u)) issues.push(p.id + '.andertons: OLD FORMAT ' + u.slice(0, 100));
-    if (k === 'andertons' && u.includes('awin1.com')) issues.push(p.id + '.andertons: AWIN INSTEAD OF IMPACT');
-    if (k === 'pluginboutique' && /65fd7463b5f28/.test(u)) issues.push(p.id + '.pb: OLD AID');
-    if (k === 'pluginboutique' && u.includes('pluginboutique.com') && !u.includes('a_aid=')) issues.push(p.id + '.pb: NO AID');
-    if (k === 'amazon' && /\/s\?k=/.test(u)) issues.push(p.id + '.amazon: SEARCH URL not dp ' + u.slice(0, 80));
+const fs = require('fs');
+const t = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-reverb-delay.html', 'utf8');
+const t2 = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-looper-pedals.html', 'utf8');
+const t3 = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-multi-effects-pedals.html', 'utf8');
+const t4 = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-overdrive-distortion.html', 'utf8');
+function aff(url) {
+  if (!url || url === '#') return 'NO-LINK';
+  if (url.includes('awin1.com/cread.php')) return 'awin-OK';
+  if (url.includes('pxf.io')) return 'pxf-OK';
+  if (url.includes('anrdoezrs.net')) return 'cj-OK';
+  if (url.includes('tag=topmusicg-20')) return 'amz-OK';
+  return 'BARE?!';
+}
+function audit(html, ids) {
+  // split by product cards via data-store rows: find each shop button block
+  ids.forEach(id => {
+    const marker = 'data-pid="' + id + '"';
+    let i = html.indexOf(marker);
+    if (i < 0) { console.log(id + ': CARD NOT FOUND'); return; }
+    const seg = html.slice(i, i + 9000);
+    const re = /data-store="([a-z]+)"[^>]*href="([^"]+)"/g;
+    let m; const rows = [];
+    while ((m = re.exec(seg)) && rows.length < 7) rows.push(m[1] + '=' + aff(m[2]));
+    console.log(id + ': ' + rows.join(' | '));
   });
-});
-console.log('products:', P.length, '| issues:', issues.length);
-console.log(issues.slice(0, 60).join('\n'));
+}
+console.log('--- reverb-delay (591-599, skip Habit) ---');
+audit(t, [591, 592, 593, 594, 595, 596, 597, 598, 599]);
+console.log('--- looper (586-588,590,600,601) ---');
+audit(t2, [586, 587, 588, 590, 600, 601]);
+console.log('--- multiefx (577-580,574-576 n/a) ---');
+audit(t3, [577, 578, 579, 580]);
+console.log('--- overdrive (581-585) ---');
+audit(t4, [581, 582, 583, 584, 585]);
