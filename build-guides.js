@@ -5402,7 +5402,7 @@ const TEST_SHOP_BTN = {
   598: { prices: { zzounds: "$349.00", gear4music: "£299.00" } },
   599: { prices: { zzounds: "$320.99", gear4music: "£243.00" } },
   600: { prices: { gear4music: "£199.00" }, urls: { zzounds: "https://www.zzounds.com/item--EHXSNCO03E" }, oos: ["zzounds"] },
-  601: { prices: { zzounds: "$659.99", gear4music: "£461.00" } },
+  601: { prices: { zzounds: "$659.99", gear4music: "£461.00", andertons: "£499.00", musicstore: "€499.00" } },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
