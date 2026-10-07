@@ -84,11 +84,10 @@ function tmgOffers(p, fallbackUrl) {
       pushOffer(k, u, pr[k] || '');
     });
   }
-  if (!offers.length) {
-    var anyUrl = st[Object.keys(st)[0]] || '';
-    offers.push({ "@type": "Offer", "availability": "https://schema.org/InStock", "url": anyUrl || fallbackUrl || '' });
-  }
+  // Google rejects Offers without price: only priced offers are emitted.
+  // Products with no verified price get no offers key (valid, just no snippet).
   var priced = offers.filter(function(o) { return isFinite(o.price); });
+  if (!priced.length) return null;
   if (priced.length >= 2) {
     var groups = {};
     priced.forEach(function(o) { (groups[o.priceCurrency] = groups[o.priceCurrency] || []).push(o); });
@@ -98,9 +97,9 @@ function tmgOffers(p, fallbackUrl) {
     });
     var g = groups[gkeys[0]];
     var nums = g.map(function(o) { return o.price; });
-    return [{ "@type": "AggregateOffer", "offerCount": g.length, "lowPrice": Math.min.apply(null, nums), "highPrice": Math.max.apply(null, nums), "priceCurrency": gkeys[0] }].concat(offers);
+    return [{ "@type": "AggregateOffer", "offerCount": g.length, "lowPrice": Math.min.apply(null, nums), "highPrice": Math.max.apply(null, nums), "priceCurrency": gkeys[0] }].concat(priced);
   }
-  return offers.length === 1 ? offers[0] : offers;
+  return priced[0];
 }
 
 function criticalCss() {
@@ -5986,7 +5985,8 @@ function buildGuidePage(guide, lang, idx) {
           "negativeNotes": cn
         }
       };
-      listItem.item.offers = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
+      var _off = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
+      if (_off) listItem.item.offers = _off;
       if (agg) listItem.item.aggregateRating = agg;
       if (reviewEnts.length) listItem.item.review = reviewEnts;
       items.push(listItem);
@@ -5998,7 +5998,8 @@ function buildGuidePage(guide, lang, idx) {
         "positiveNotes": pn,
         "negativeNotes": cn
       };
-      pSchema.offers = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
+      var _off2 = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
+      if (_off2) pSchema.offers = _off2;
       if (agg) pSchema.aggregateRating = agg;
       if (reviewEnts.length) pSchema.review = reviewEnts;
       productSchemas.push(pSchema);
