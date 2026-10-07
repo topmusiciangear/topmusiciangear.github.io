@@ -11499,20 +11499,6 @@
     }
   },
   {
-    "id": 589,
-    "title": "Pigtronix Infinity 2",
-    "title_es": "Pigtronix Infinity 2",
-    "brand": "Pigtronix",
-    "category": "pedals",
-    "price": 199,
-    "desc": "Pigtronix’s hi-fi stereo double looper: two seamless-switching loops, five selectable modes, 24-bit/48kHz audio, USB backup, buffered bypass, 9V and 100mA.",
-    "desc_es": "El double looper estéreo hi-fi de Pigtronix: dos loops con cambio fluido, cinco modos, audio 24 bits/48 kHz, backup USB, bypass con buffer, 9V y 100 mA.",
-    "img": "https://www.pigtronix.com/uploads/pigtronix/2020/11/Infinity_2_Product_Page_Image-01-1440x1278.png",
-    "stores": {
-      "official": "https://www.pigtronix.com/pedals/infinity-2-double-looper/"
-    }
-  },
-  {
     "id": 590,
     "title": "MXR M303 Clone Looper",
     "title_es": "MXR M303 Clone Looper",
@@ -11656,6 +11642,35 @@
     "stores": {
       "zzounds": "https://www.zzounds.com/item--BOSRV200",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-RV-200-200-Series-Reverb-Pedal/633P"
+    }
+  },
+  {
+    "id": 600,
+    "title": "Electro-Harmonix 1440 Stereo Looper",
+    "title_es": "Electro-Harmonix 1440 Stereo Looper",
+    "brand": "Electro-Harmonix",
+    "category": "pedals",
+    "price": 263.1,
+    "desc": "EHX’s compact stereo workstation: 24 minutes across 20 loops, unlimited overdubs, reverse and octave FX, 1-Shot playback, MIDI sync, USB backup app and included adapter.",
+    "desc_es": "La estación estéreo compacta de EHX: 24 minutos en 20 loops, overdubs ilimitados, FX reverse y octava, playback 1-Shot, MIDI sync, app backup USB y adaptador incluido.",
+    "img": "https://r2.gear4music.com/media/98/989561/1200/preview.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/item--EHXSNCO03E",
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-1440-Stereo-Looper/5XK9"
+    }
+  },
+  {
+    "id": 601,
+    "title": "Boss RC-600 Loop Station",
+    "title_es": "Boss RC-600 Loop Station",
+    "brand": "Boss",
+    "category": "pedals",
+    "price": 659.99,
+    "desc": "Boss’s flagship floor looper: six stereo tracks with 32-bit audio, nine assignable footswitches, dual XLR inputs with phantom power, 200+ rhythms, 49 input FX plus 53 track FX, 99 memories, MIDI and USB.",
+    "desc_es": "El looper insignia de suelo de Boss: seis pistas estéreo con audio 32 bits, nueve footswitches asignables, doble XLR con fantasma, más de 200 ritmos, 49 FX de entrada más 53 de pista, 99 memorias, MIDI y USB.",
+    "img": "https://static.roland.com/assets/images/products/main/rc-600_main.jpg",
+    "stores": {
+      "zzounds": "https://www.zzounds.com/item--BOSRC600"
     }
   }
 ]
