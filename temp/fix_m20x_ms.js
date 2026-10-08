@@ -1,0 +1,17 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const P = JSON.parse(fs.readFileSync(DIR + 'data/products.json', 'utf8'));
+const m = P.find(p => p.id === 609);
+if (!m) throw new Error('609 missing');
+m.stores.musicstore = 'https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M20X/art-REC0011126-000';
+fs.writeFileSync(DIR + 'data/products.json', JSON.stringify(P, null, 2) + '\n');
+let bg = fs.readFileSync(DIR + 'build-guides.js', 'utf8');
+const i = bg.indexOf('  609: {');
+if (i < 0) throw new Error('609 TEST missing');
+const j = bg.indexOf('\n  },', i);
+let block = bg.slice(i, j);
+if (!block.includes('gear4music: "£48.00"')) throw new Error('609 block changed');
+block = block.split('      gear4music: "£48.00"').join('      gear4music: "£48.00",\n      musicstore: "€59.00",\n      zzounds: "$59.00"');
+bg = bg.slice(0, i) + block + bg.slice(j);
+fs.writeFileSync(DIR + 'build-guides.js', bg);
+console.log('609: MS store+59, zzounds 59 added');
