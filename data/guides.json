@@ -48517,8 +48517,8 @@
       ]
     },
     "productTable": {
-      "title": "Best Samplers & Drum Computers Compared in This Guide",
-      "title_es": "Los mejores samplers y drum computers comparados en esta guía",
+      "title": "Best Samplers & Beat-Making Machines Compared in This Guide",
+      "title_es": "Los mejores samplers y máquinas de beats comparados en esta guía",
       "columns": [
         {
           "title": "Akai MPC One G2",
@@ -48566,160 +48566,460 @@
           "label": "Best For",
           "label_es": "Ideal para",
           "values": [
-            "Hip-hop, urban production",
-            "Electronic sound design",
-            "Portable all-in-one workstation",
-            "Lo-fi, boom-bap",
-            "Software + hardware integration",
-            "Pocket sketching",
-            "Keys + pads hybrid",
-            "Granular sampling",
-            "Screenless grid workflow",
-            "Flagship studio center"
+            {
+              "value": "Song production and deep editing at best entry value",
+              "value_es": "Producción de canciones y edición honda al mejor valor de entrada"
+            },
+            {
+              "value": "Deep stereo sound design and complex rhythms",
+              "value_es": "Diseño estéreo profundo y ritmos complejos"
+            },
+            {
+              "value": "Mobile production with Stems and 3D expression",
+              "value_es": "Producción móvil con Stems y expresión 3D"
+            },
+            {
+              "value": "Live performance, resampling and lo-fi beats",
+              "value_es": "Directo, resampling y beats lo-fi"
+            },
+            {
+              "value": "Standalone integration for NI ecosystem fans",
+              "value_es": "Integración autónoma para fans del ecosistema NI"
+            },
+            {
+              "value": "Fast pocket sketching and punch-in performance FX",
+              "value_es": "Bocetos rápidos de bolsillo y punch-in en vivo"
+            },
+            {
+              "value": "Keyboard-centric beatmakers and synth control",
+              "value_es": "Beat-makers de teclado y control de sintes"
+            },
+            {
+              "value": "Micro-sampling, granular soundscapes and travel",
+              "value_es": "Micro-sampling, paisajes granulares y viaje"
+            },
+            {
+              "value": "Grid-based intuitive sampling and DAWless jams",
+              "value_es": "Sampling intuitivo en rejilla y jams DAWless"
+            },
+            {
+              "value": "Flagship studio centerpiece and hardware routing",
+              "value_es": "Pieza central insignia y ruteo hardware"
+            }
           ]
         },
         {
           "label": "Estimated Price",
           "label_es": "Precio estimado",
           "values": [
-            "",
-            ",299",
-            ",499",
-            "",
-            "",
-            "",
-            "$799",
-            "",
-            "",
-            ",499"
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$1,699",
+              "value_es": "$1,699"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$2,499",
+              "value_es": "$2,499"
+            }
           ]
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            "Standalone sampler",
-            "Standalone sampler",
-            "Standalone workstation",
-            "Standalone sampler",
-            "Standalone groovebox",
-            "Pocket sampler",
-            "Standalone keyboard",
-            "Pocket sampler",
-            "Standalone sampler",
-            "Standalone workstation"
+            {
+              "value": "Standalone Workstation",
+              "value_es": "Estación autónoma"
+            },
+            {
+              "value": "Stereo Drum Computer / Groovebox",
+              "value_es": "Caja de ritmos estéreo / Groovebox"
+            },
+            {
+              "value": "Portable Standalone Workstation",
+              "value_es": "Estación autónoma portátil"
+            },
+            {
+              "value": "Creative Sampler / Effector",
+              "value_es": "Sampler creativo / Efectos"
+            },
+            {
+              "value": "Standalone Groovebox / Controller",
+              "value_es": "Groovebox autónoma / Controlador"
+            },
+            {
+              "value": "Pocket Sampler / Composer",
+              "value_es": "Sampler de bolsillo / Compositor"
+            },
+            {
+              "value": "Standalone Keyboard Workstation",
+              "value_es": "Estación autónoma de teclado"
+            },
+            {
+              "value": "Ultra-Portable Granular Sampler",
+              "value_es": "Sampler granular ultraportátil"
+            },
+            {
+              "value": "Standalone Sample Groovebox",
+              "value_es": "Groovebox de samples autónoma"
+            },
+            {
+              "value": "Premium Standalone Studio Hub",
+              "value_es": "Hub de estudio autónomo premium"
+            }
           ]
         },
         {
           "label": "Tracks",
           "label_es": "Pistas",
           "values": [
-            "16",
-            "8",
-            "16",
-            "16",
-            "8",
-            "16",
-            "16",
-            "16",
-            "8",
-            "16"
+            {
+              "value": "32 plugin + 16 stereo audio",
+              "value_es": "32 de plugin + 16 de audio estéreo"
+            },
+            {
+              "value": "16 stereo audio or MIDI",
+              "value_es": "16 de audio estéreo o MIDI"
+            },
+            {
+              "value": "32 plugin + 16 stereo audio",
+              "value_es": "32 de plugin + 16 de audio estéreo"
+            },
+            {
+              "value": "160 samples per project",
+              "value_es": "160 samples por proyecto"
+            },
+            {
+              "value": "8 groups x 16 pads",
+              "value_es": "8 grupos x 16 pads"
+            },
+            {
+              "value": "4 groups x 99 patterns",
+              "value_es": "4 grupos x 99 patrones"
+            },
+            {
+              "value": "8 plugin + 8 stereo audio",
+              "value_es": "8 de plugin + 8 de audio estéreo"
+            },
+            {
+              "value": "48 samples (8 banks x 6 pads)",
+              "value_es": "48 samples (8 bancos x 6 pads)"
+            },
+            {
+              "value": "8 monophonic audio tracks",
+              "value_es": "8 pistas de audio monofónicas"
+            },
+            {
+              "value": "32 plugin + 16 stereo audio",
+              "value_es": "32 de plugin + 16 de audio estéreo"
+            }
           ]
         },
         {
           "label": "Sample Memory",
-          "label_es": "Memoria de sample",
+          "label_es": "Memoria de samples",
           "values": [
-            "16 GB",
-            "1 GB + streaming",
-            "16 GB",
-            "16 GB SD",
-            "16 GB",
-            "64 MB",
-            "16 GB",
-            "16 GB",
-            "32 packs",
-            "16 GB"
+            {
+              "value": "4 GB RAM / 64 GB storage",
+              "value_es": "4 GB RAM / 64 GB almacenamiento"
+            },
+            {
+              "value": "400 MB RAM / 20 GB storage",
+              "value_es": "400 MB RAM / 20 GB almacenamiento"
+            },
+            {
+              "value": "8 GB RAM / 128 GB storage",
+              "value_es": "8 GB RAM / 128 GB almacenamiento"
+            },
+            {
+              "value": "16 GB internal + SD card",
+              "value_es": "16 GB internos + tarjeta SD"
+            },
+            {
+              "value": "4 GB RAM / 32 GB + 64 GB SD",
+              "value_es": "4 GB RAM / 32 GB + SD de 64 GB"
+            },
+            {
+              "value": "128 MB internal (999 slots)",
+              "value_es": "128 MB internos (999 slots)"
+            },
+            {
+              "value": "2 GB RAM / 32 GB storage",
+              "value_es": "2 GB RAM / 32 GB almacenamiento"
+            },
+            {
+              "value": "285 s mono total (140 s stereo)",
+              "value_es": "285 s mono total (140 s estéreo)"
+            },
+            {
+              "value": "228 s per pack + microSD",
+              "value_es": "228 s por pack + microSD"
+            },
+            {
+              "value": "4 GB RAM / 48 GB + SATA bay",
+              "value_es": "4 GB RAM / 48 GB + bahía SATA"
+            }
           ]
         },
         {
           "label": "Sequencer",
           "label_es": "Secuenciador",
           "values": [
-            "MPC step sequencer",
-            "Elektron sequencer",
-            "MPC step sequencer",
-            "Pattern-based",
-            "Maschine sequencer",
-            "Punch-in sequencer",
-            "MPC step sequencer",
-            "Step sequencer",
-            "Grid sequencer",
-            "MPC step sequencer"
+            {
+              "value": "Linear arranger / step",
+              "value_es": "Arreglo lineal / pasos"
+            },
+            {
+              "value": "128-step with p-locks and Euclidean",
+              "value_es": "128 pasos con p-locks y euclidiano"
+            },
+            {
+              "value": "Linear arranger / step / clip matrix",
+              "value_es": "Arreglo lineal / pasos / matriz de clips"
+            },
+            {
+              "value": "Real-time loop / TR-REC step",
+              "value_es": "Loop en vivo / pasos TR-REC"
+            },
+            {
+              "value": "Pattern / clip-based",
+              "value_es": "Por patrones / clips"
+            },
+            {
+              "value": "Multi-track step / real-time",
+              "value_es": "Multipista por pasos / en vivo"
+            },
+            {
+              "value": "Linear arranger / step / clip matrix",
+              "value_es": "Arreglo lineal / pasos / matriz de clips"
+            },
+            {
+              "value": "64-step with probability and sub-steps",
+              "value_es": "64 pasos con probabilidad y sub-pasos"
+            },
+            {
+              "value": "32-step grid with micro-timing",
+              "value_es": "Rejilla de 32 pasos con micro-timing"
+            },
+            {
+              "value": "Linear arranger / step / clip matrix",
+              "value_es": "Arreglo lineal / pasos / matriz de clips"
+            }
           ]
         },
         {
           "label": "Effects",
           "label_es": "Efectos",
           "values": [
-            "MPC plugins",
-            "Overbridge FX",
-            "MPC plugins",
-            "12 FX per pattern",
-            "Maschine FX",
-            "Punch-in 2.0 FX",
-            "MPC plugins",
-            "Roland MFX",
-            "Grid FX",
-            "MPC plugins"
+            {
+              "value": "MPC FX rack insert chains",
+              "value_es": "Cadenas de inserción MPC FX"
+            },
+            {
+              "value": "Overdrive, bit reduction, delay, reverb, chorus, master comp",
+              "value_es": "Overdrive, reducción de bits, delay, reverb, chorus, comp master"
+            },
+            {
+              "value": "MPC3 Pro FX pack, XYFX",
+              "value_es": "Pack MPC3 Pro FX, XYFX"
+            },
+            {
+              "value": "41 multi-FX + 17 input FX (Vinyl Sim, DJFX, Vocoder)",
+              "value_es": "41 multi-FX + 17 de entrada (Vinyl Sim, DJFX, Vocoder)"
+            },
+            {
+              "value": "Factory FX (Raum, Phasis and more)",
+              "value_es": "FX de fábrica (Raum, Phasis y más)"
+            },
+            {
+              "value": "6 master FX + 12 punch-in FX",
+              "value_es": "6 master FX + 12 punch-in FX"
+            },
+            {
+              "value": "MPC FX rack insert chains",
+              "value_es": "Cadenas de inserción MPC FX"
+            },
+            {
+              "value": "Granular engine, 20 MFX, Vinyl Sim",
+              "value_es": "Motor granular, 20 MFX, Vinyl Sim"
+            },
+            {
+              "value": "Grid FX, delay and reverb sends",
+              "value_es": "Grid FX, envíos de delay y reverb"
+            },
+            {
+              "value": "Full MPC premium FX suite",
+              "value_es": "Suite premium completa MPC FX"
+            }
           ]
         },
         {
           "label": "Audio I/O",
-          "label_es": "Audio I/O",
+          "label_es": "Audio E/S",
           "values": [
-            "2 out",
-            "2 out",
-            "2 out",
-            "2 out",
-            "2 out",
-            "1 out",
-            "2 out",
-            "1 out",
-            "2 out",
-            "8 out"
+            {
+              "value": "2x 1/4\" in, 2x 1/4\" out, headphone",
+              "value_es": "2x 1/4\" entrada, 2x 1/4\" salida, auriculares"
+            },
+            {
+              "value": "2x 1/4\" in, 2x 1/4\" out, headphone",
+              "value_es": "2x 1/4\" entrada, 2x 1/4\" salida, auriculares"
+            },
+            {
+              "value": "2x XLR/TRS combo in, RCA in, 6x 1/4\" out, headphone",
+              "value_es": "2x XLR/TRS combo entrada, RCA entrada, 6x 1/4\" salida, auriculares"
+            },
+            {
+              "value": "2x 1/4\" in, mic/guitar in, 2x 1/4\" out, 2x headphones",
+              "value_es": "2x 1/4\" entrada, micro/guitarra entrada, 2x 1/4\" salida, 2x auriculares"
+            },
+            {
+              "value": "2x 1/4\" in, mic in, 2x 1/4\" out, headphone",
+              "value_es": "2x 1/4\" entrada, micro entrada, 2x 1/4\" salida, auriculares"
+            },
+            {
+              "value": "1x 3.5 mm stereo in/out, onboard mic",
+              "value_es": "1x 3,5 mm estéreo entrada/salida, micro integrado"
+            },
+            {
+              "value": "2x 1/4\" in, 2x 1/4\" out, pedals, headphone",
+              "value_es": "2x 1/4\" entrada, 2x 1/4\" salida, pedales, auriculares"
+            },
+            {
+              "value": "1x 3.5 mm in, 1x 3.5 mm out/headphone",
+              "value_es": "1x 3,5 mm entrada, 1x 3,5 mm salida/auriculares"
+            },
+            {
+              "value": "2x 1/4\" in, 2x 1/4\" out, headphone",
+              "value_es": "2x 1/4\" entrada, 2x 1/4\" salida, auriculares"
+            },
+            {
+              "value": "2x XLR/TRS combo in, 2x 1/4\" in, phono in, 8x 1/4\" out, 2x headphones",
+              "value_es": "2x XLR/TRS combo entrada, 2x 1/4\" entrada, phono entrada, 8x 1/4\" salida, 2x auriculares"
+            }
           ]
         },
         {
           "label": "Connectivity",
           "label_es": "Conectividad",
           "values": [
-            "WiFi, Bluetooth",
-            "USB, Overbridge",
-            "WiFi, Bluetooth",
-            "USB, MIDI",
-            "WiFi, Bluetooth",
-            "USB-C",
-            "USB, MIDI, CV/Gate",
-            "USB-C",
-            "USB, MIDI, SD",
-            "USB, MIDI, CV/Gate"
+            {
+              "value": "USB-C, MIDI I/O, WiFi, Bluetooth",
+              "value_es": "USB-C, MIDI E/S, WiFi, Bluetooth"
+            },
+            {
+              "value": "USB (Overbridge), MIDI In/Out/Thru",
+              "value_es": "USB (Overbridge), MIDI entrada/salida/thru"
+            },
+            {
+              "value": "USB-C, MIDI I/O, CV/Gate, WiFi, Bluetooth",
+              "value_es": "USB-C, MIDI E/S, CV/Gate, WiFi, Bluetooth"
+            },
+            {
+              "value": "USB-C audio/MIDI, MIDI I/O, SD slot",
+              "value_es": "USB-C audio/MIDI, MIDI E/S, slot SD"
+            },
+            {
+              "value": "USB-A/B, MIDI I/O, WiFi, Link",
+              "value_es": "USB-A/B, MIDI E/S, WiFi, Link"
+            },
+            {
+              "value": "USB-C, MIDI I/O, sync I/O",
+              "value_es": "USB-C, MIDI E/S, sync E/S"
+            },
+            {
+              "value": "USB-A/B, MIDI I/O, WiFi, Bluetooth, CV/Gate",
+              "value_es": "USB-A/B, MIDI E/S, WiFi, Bluetooth, CV/Gate"
+            },
+            {
+              "value": "USB-C audio/MIDI, MIDI I/O, sync I/O",
+              "value_es": "USB-C audio/MIDI, MIDI E/S, sync E/S"
+            },
+            {
+              "value": "USB-C, MIDI In/Out/Thru, sync out",
+              "value_es": "USB-C, MIDI entrada/salida/thru, sync salida"
+            },
+            {
+              "value": "2x USB-A, USB-B, 2x MIDI in, 4x MIDI out, 8x CV/Gate",
+              "value_es": "2x USB-A, USB-B, 2x MIDI entrada, 4x MIDI salida, 8x CV/Gate"
+            }
           ]
         },
         {
           "label": "Weight",
           "label_es": "Peso",
           "values": [
-            "2.5 kg",
-            "1.2 kg",
-            "2.2 kg",
-            "1.3 kg",
-            "1.5 kg",
-            "0.45 kg",
-            "4.0 kg",
-            "0.3 kg",
-            "0.78 kg",
-            "6.5 kg"
+            {
+              "value": "2.1 kg",
+              "value_es": "2,1 kg"
+            },
+            {
+              "value": "1.48 kg",
+              "value_es": "1,48 kg"
+            },
+            {
+              "value": "3.9 kg",
+              "value_es": "3,9 kg"
+            },
+            {
+              "value": "1.1 kg",
+              "value_es": "1,1 kg"
+            },
+            {
+              "value": "2.5 kg",
+              "value_es": "2,5 kg"
+            },
+            {
+              "value": "0.62 kg",
+              "value_es": "0,62 kg"
+            },
+            {
+              "value": "4.0 kg",
+              "value_es": "4,0 kg"
+            },
+            {
+              "value": "0.30 kg",
+              "value_es": "0,30 kg"
+            },
+            {
+              "value": "0.78 kg",
+              "value_es": "0,78 kg"
+            },
+            {
+              "value": "5.6 kg",
+              "value_es": "5,6 kg"
+            }
           ]
         }
       ]
@@ -48827,13 +49127,13 @@
         "cons": [
           "No serious MIDI sequencing to speak of",
           "Small screen complicates waveform edits",
-          "Pads ignore velocity completely",
+          "No song mode for full arrangements",
           "Resampling sessions eat SD cards fast"
         ],
         "cons_es": [
           "Sin secuenciación MIDI seria de la que hablar",
           "La pantalla pequeña complica editar ondas",
-          "Los pads ignoran la velocidad por completo",
+          "Sin modo canción para arreglos completos",
           "Las sesiones de resampling devoran tarjetas SD"
         ]
       },
@@ -49276,224 +49576,368 @@
           "label": "Best For",
           "label_es": "Ideal para",
           "values": [
-            "Granular pocket sampling",
-            "Viral pocket sketching",
-            "Backpack all-in-one studio",
-            "Affordable Elektron sequencing",
-            "Screenless live sampling",
-            "12-bit lo-fi nostalgia",
-            "Cheapest hardware sampling",
-            "Tracker composing anywhere",
-            "FM groove sketching",
-            "ACB classics to go"
-          ],
-          "values_es": [
-            "Sampling granular de bolsillo",
-            "Bocetos virales de bolsillo",
-            "Estudio todo en uno de mochila",
-            "Secuenciación Elektron asequible",
-            "Sampling en vivo sin pantalla",
-            "Nostalgia lo-fi de 12 bits",
-            "Sampling hardware más barato",
-            "Componer con tracker en cualquier parte",
-            "Bocetos groove FM",
-            "Clásicos ACB para llevar"
+            {
+              "value": "Granular pocket sampling",
+              "value_es": "Sampling granular de bolsillo"
+            },
+            {
+              "value": "Viral pocket sketching",
+              "value_es": "Bocetos virales de bolsillo"
+            },
+            {
+              "value": "Backpack all-in-one studio",
+              "value_es": "Estudio todo en uno de mochila"
+            },
+            {
+              "value": "Affordable Elektron sequencing",
+              "value_es": "Secuenciación Elektron asequible"
+            },
+            {
+              "value": "Screenless live sampling",
+              "value_es": "Sampling en vivo sin pantalla"
+            },
+            {
+              "value": "12-bit lo-fi nostalgia",
+              "value_es": "Nostalgia lo-fi de 12 bits"
+            },
+            {
+              "value": "Cheapest hardware sampling",
+              "value_es": "Sampling hardware más barato"
+            },
+            {
+              "value": "Tracker composing anywhere",
+              "value_es": "Componer con tracker en cualquier parte"
+            },
+            {
+              "value": "FM groove sketching",
+              "value_es": "Bocetos groove FM"
+            },
+            {
+              "value": "ACB classics to go",
+              "value_es": "Clásicos ACB para llevar"
+            }
           ]
         },
         {
           "label": "Estimated Price",
           "label_es": "Precio estimado",
           "values": [
-            "$269",
-            "$299",
-            "$299",
-            "$349",
-            "$429",
-            "$239",
-            "$149",
-            "$699",
-            "$349",
-            "$449"
-          ],
-          "values_es": [
-            "$269",
-            "$299",
-            "$299",
-            "$349",
-            "$429",
-            "$239",
-            "$149",
-            "$699",
-            "$349",
-            "$449"
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$429",
+              "value_es": "$429"
+            },
+            {
+              "value": "$239",
+              "value_es": "$239"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            }
           ]
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            "Pocket sampler",
-            "Pocket sampler",
-            "Bar workstation",
-            "Groovebox",
-            "Groovebox",
-            "Groovebox",
-            "Pocket sampler",
-            "Handheld tracker",
-            "Groovebox",
-            "Compact drum machine"
-          ],
-          "values_es": [
-            "Sampler de bolsillo",
-            "Sampler de bolsillo",
-            "Estación en barra",
-            "Groovebox",
-            "Groovebox",
-            "Groovebox",
-            "Sampler de bolsillo",
-            "Tracker de mano",
-            "Groovebox",
-            "Caja de ritmos compacta"
+            {
+              "value": "Pocket sampler",
+              "value_es": "Sampler de bolsillo"
+            },
+            {
+              "value": "Pocket sampler",
+              "value_es": "Sampler de bolsillo"
+            },
+            {
+              "value": "Bar workstation",
+              "value_es": "Estación en barra"
+            },
+            {
+              "value": "Groovebox",
+              "value_es": "Groovebox"
+            },
+            {
+              "value": "Groovebox",
+              "value_es": "Groovebox"
+            },
+            {
+              "value": "Groovebox",
+              "value_es": "Groovebox"
+            },
+            {
+              "value": "Pocket sampler",
+              "value_es": "Sampler de bolsillo"
+            },
+            {
+              "value": "Handheld tracker",
+              "value_es": "Tracker de mano"
+            },
+            {
+              "value": "Groovebox",
+              "value_es": "Groovebox"
+            },
+            {
+              "value": "Compact drum machine",
+              "value_es": "Caja de ritmos compacta"
+            }
           ]
         },
         {
           "label": "Sound Engine",
           "label_es": "Motor de sonido",
           "values": [
-            "Granular + sampling",
-            "Sampling + punch-in FX",
-            "AWM2 + FM + sampling",
-            "Sampling",
-            "Sampling",
-            "12-bit sampling",
-            "Sampling",
-            "Sampling + 5 synth engines",
-            "FM synthesis",
-            "ACB + FM + samples"
-          ],
-          "values_es": [
-            "Granular + sampling",
-            "Sampling + punch-in FX",
-            "AWM2 + FM + sampling",
-            "Sampling",
-            "Sampling",
-            "Sampling 12 bits",
-            "Sampling",
-            "Sampling + 5 motores",
-            "Síntesis FM",
-            "ACB + FM + samples"
+            {
+              "value": "Granular + sampling",
+              "value_es": "Granular + sampling"
+            },
+            {
+              "value": "Sampling + punch-in FX",
+              "value_es": "Sampling + punch-in FX"
+            },
+            {
+              "value": "AWM2 + FM + sampling",
+              "value_es": "AWM2 + FM + sampling"
+            },
+            {
+              "value": "Sampling",
+              "value_es": "Sampling"
+            },
+            {
+              "value": "Sampling",
+              "value_es": "Sampling"
+            },
+            {
+              "value": "12-bit sampling",
+              "value_es": "Sampling 12 bits"
+            },
+            {
+              "value": "Sampling",
+              "value_es": "Sampling"
+            },
+            {
+              "value": "Sampling + 5 synth engines",
+              "value_es": "Sampling + 5 motores"
+            },
+            {
+              "value": "FM synthesis",
+              "value_es": "Síntesis FM"
+            },
+            {
+              "value": "ACB + FM + samples",
+              "value_es": "ACB + FM + samples"
+            }
           ]
         },
         {
           "label": "Tracks",
           "label_es": "Pistas",
           "values": [
-            "16 voices",
-            "12 voices",
-            "128-note poly",
-            "6 tracks",
-            "8 tracks",
-            "10 voices",
-            "10 parts",
-            "16 tracks",
-            "6 tracks",
-            "6 tracks"
-          ],
-          "values_es": [
-            "16 voces",
-            "12 voces",
-            "Polifonía 128 notas",
-            "6 pistas",
-            "8 pistas",
-            "10 voces",
-            "10 partes",
-            "16 pistas",
-            "6 pistas",
-            "6 pistas"
+            {
+              "value": "16 voices",
+              "value_es": "16 voces"
+            },
+            {
+              "value": "12 voices",
+              "value_es": "12 voces"
+            },
+            {
+              "value": "128-note poly",
+              "value_es": "Polifonía 128 notas"
+            },
+            {
+              "value": "6 tracks",
+              "value_es": "6 pistas"
+            },
+            {
+              "value": "8 tracks",
+              "value_es": "8 pistas"
+            },
+            {
+              "value": "10 voices",
+              "value_es": "10 voces"
+            },
+            {
+              "value": "10 parts",
+              "value_es": "10 partes"
+            },
+            {
+              "value": "16 tracks",
+              "value_es": "16 pistas"
+            },
+            {
+              "value": "6 tracks",
+              "value_es": "6 pistas"
+            },
+            {
+              "value": "6 tracks",
+              "value_es": "6 pistas"
+            }
           ]
         },
         {
           "label": "Sequencer",
           "label_es": "Secuenciador",
           "values": [
-            "64-step + probability",
-            "Punch-in live seq.",
-            "Step seq. + automation",
-            "64-step p-locks",
-            "32-step grid + FX",
-            "4-track step seq.",
-            "16-step motion seq.",
-            "Vertical tracker",
-            "64-step p-locks",
-            "Step seq. + probability"
-          ],
-          "values_es": [
-            "64 pasos + probabilidad",
-            "Sec. punch-in en vivo",
-            "Pasos + automatización",
-            "64 pasos p-locks",
-            "Rejilla 32 pasos + FX",
-            "4 pistas por pasos",
-            "16 pasos con motion",
-            "Tracker vertical",
-            "64 pasos p-locks",
-            "Pasos + probabilidad"
+            {
+              "value": "64-step + probability",
+              "value_es": "64 pasos + probabilidad"
+            },
+            {
+              "value": "Punch-in live seq.",
+              "value_es": "Sec. punch-in en vivo"
+            },
+            {
+              "value": "Step seq. + automation",
+              "value_es": "Pasos + automatización"
+            },
+            {
+              "value": "64-step p-locks",
+              "value_es": "64 pasos p-locks"
+            },
+            {
+              "value": "32-step grid + FX",
+              "value_es": "Rejilla 32 pasos + FX"
+            },
+            {
+              "value": "4-track step seq.",
+              "value_es": "4 pistas por pasos"
+            },
+            {
+              "value": "16-step motion seq.",
+              "value_es": "16 pasos con motion"
+            },
+            {
+              "value": "Vertical tracker",
+              "value_es": "Tracker vertical"
+            },
+            {
+              "value": "64-step p-locks",
+              "value_es": "64 pasos p-locks"
+            },
+            {
+              "value": "Step seq. + probability",
+              "value_es": "Pasos + probabilidad"
+            }
           ]
         },
         {
           "label": "Effects",
           "label_es": "Efectos",
           "values": [
-            "20 MFX + delay/reverb",
-            "Punch-in 2.0 FX",
-            "Insert + master FX",
-            "Delay + reverb sends",
-            "Grid FX + delay/reverb",
-            "12 track + 9 master FX",
-            "Reverb + isolator",
-            "Performance + master FX",
-            "Delay + reverb sends",
-            "Reverb + delay"
-          ],
-          "values_es": [
-            "20 MFX + delay/reverb",
-            "Punch-in 2.0 FX",
-            "Inserción + master FX",
-            "Envíos delay/reverb",
-            "Grid FX + delay/reverb",
-            "12 por pista + 9 master FX",
-            "Reverb + isolador",
-            "Performance + master FX",
-            "Envíos delay/reverb",
-            "Reverb + delay"
+            {
+              "value": "20 MFX + delay/reverb",
+              "value_es": "20 MFX + delay/reverb"
+            },
+            {
+              "value": "Punch-in 2.0 FX",
+              "value_es": "Punch-in 2.0 FX"
+            },
+            {
+              "value": "Insert + master FX",
+              "value_es": "Inserción + master FX"
+            },
+            {
+              "value": "Delay + reverb sends",
+              "value_es": "Envíos delay/reverb"
+            },
+            {
+              "value": "Grid FX + delay/reverb",
+              "value_es": "Grid FX + delay/reverb"
+            },
+            {
+              "value": "12 track + 9 master FX",
+              "value_es": "12 por pista + 9 master FX"
+            },
+            {
+              "value": "Reverb + isolator",
+              "value_es": "Reverb + isolador"
+            },
+            {
+              "value": "Performance + master FX",
+              "value_es": "Performance + master FX"
+            },
+            {
+              "value": "Delay + reverb sends",
+              "value_es": "Envíos delay/reverb"
+            },
+            {
+              "value": "Reverb + delay",
+              "value_es": "Reverb + delay"
+            }
           ]
         },
         {
           "label": "Battery",
           "label_es": "Batería",
           "values": [
-            "3 h rechargeable",
-            "Battery powered",
-            "Rechargeable battery",
-            "USB powered",
-            "4 h rechargeable",
-            "Battery powered",
-            "6xAA batteries",
-            "8 h rechargeable",
-            "USB powered",
-            "AA / USB"
-          ],
-          "values_es": [
-            "3 h recargable",
-            "A baterías",
-            "Batería recargable",
-            "Por USB",
-            "4 h recargable",
-            "A baterías",
-            "6 pilas AA",
-            "8 h recargable",
-            "Por USB",
-            "AA / USB"
+            {
+              "value": "3 h rechargeable",
+              "value_es": "3 h recargable"
+            },
+            {
+              "value": "Battery powered",
+              "value_es": "A baterías"
+            },
+            {
+              "value": "Rechargeable battery",
+              "value_es": "Batería recargable"
+            },
+            {
+              "value": "USB powered",
+              "value_es": "Por USB"
+            },
+            {
+              "value": "4 h rechargeable",
+              "value_es": "4 h recargable"
+            },
+            {
+              "value": "Battery powered",
+              "value_es": "A baterías"
+            },
+            {
+              "value": "6xAA batteries",
+              "value_es": "6 pilas AA"
+            },
+            {
+              "value": "8 h rechargeable",
+              "value_es": "8 h recargable"
+            },
+            {
+              "value": "USB powered",
+              "value_es": "Por USB"
+            },
+            {
+              "value": "AA / USB",
+              "value_es": "AA / USB"
+            }
           ]
         }
       ]
