@@ -4006,7 +4006,9 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$99.00",
       gear4music: "£75.00",
-      musicstore: "€74.80"
+      musicstore: "€89.00",
+      zzounds: "$99.95",
+      andertons: "£75.00"
     }
   },
   420: {
@@ -4063,11 +4065,13 @@ const TEST_SHOP_BTN = {
   },
   605: {
     prices: {
-      amazon: "$89.99",
-      zzounds: "$99.95",
-      andertons: "£75.00",
-      gear4music: "£75.00",
-      musicstore: "€89.00"
+      amazon: "$549.00",
+      zzounds: "$599.00",
+      andertons: "£434.00",
+      gear4music: "£434.04"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-NDH-20/art-REC0014175-000"
     }
   },
   604: {

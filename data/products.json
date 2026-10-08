@@ -8367,7 +8367,9 @@
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSennheiser-HD-280-PRO-II-Closed-Back-Headphones%2F1ONJ",
       "amazon": "https://www.amazon.com/dp/B00IT0IHOY",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-280-Pro/art-REC0012791-000"
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-280-Pro/art-REC0012791-000",
+      "andertons": "https://www.andertons.co.uk/sennheiser-hd280-pro-headphones/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SENHD280PRO"
     }
   },
   {
@@ -11782,23 +11784,23 @@
   },
   {
     "id": 605,
-    "title": "Sennheiser HD 280 Pro II",
-    "title_es": "Sennheiser HD 280 Pro II",
-    "brand": "Sennheiser",
+    "title": "Neumann NDH 20",
+    "title_es": "Neumann NDH 20",
+    "brand": "Neumann",
     "category": "headphones",
-    "price": 99,
-    "rating": 4.8,
-    "reviews": 5200,
-    "badge": "recommended",
-    "desc": "Closed-back tracking classic with up to 32 dB of isolation. Linear 8 Hz – 25 kHz response, 64-ohm drivers, collapsible earcups and a tough coiled cable. Zero bleed into live mics.",
-    "desc_es": "Clásico cerrado para grabar con hasta 32 dB de aislamiento. Respuesta lineal de 8 Hz a 25 kHz, drivers de 64 ohmios, copas plegables y cable en espiral resistente. Cero fuga hacia los micrófonos en vivo.",
-    "img": "https://r2.gear4music.com/media/64/644189/1200/preview.jpg",
+    "price": 549,
+    "rating": 4.7,
+    "reviews": 1200,
+    "badge": "premium",
+    "desc": "Closed-back flagship with 38mm neodymium drivers, 150-ohm impedance and over 34 dB of isolation. Mix-grade neutrality from Neumann monitors in a foldable aluminum frame with two detachable cables.",
+    "desc_es": "Insignia cerrado con drivers de neodimio de 38 mm, impedancia de 150 ohmios y más de 34 dB de aislamiento. Neutralidad de mezcla digna de monitores Neumann en chasis plegable de aluminio con dos cables desmontables.",
+    "img": "https://r2.gear4music.com/media/45/450504/1200/preview.jpg",
     "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSennheiser-HD-280-PRO-II-Closed-Back-Headphones%2F1ONJ",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-280-Pro/art-REC0012791-000",
-      "amazon": "https://www.amazon.com/dp/B01LM0CI6U",
-      "andertons": "https://www.andertons.co.uk/sennheiser-hd280-pro-headphones/",
-      "zzounds": "https://www.zzounds.com/a--925521/item--SENHD280PRO"
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FNeumann-NDH-20-Closed-Back-Headphones%2F2UNS",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-NDH-20/art-REC0014175-000",
+      "amazon": "https://www.amazon.com/dp/B07M6RVR1Y",
+      "andertons": "https://www.andertons.co.uk/neumann-ndh-20-closed-back-studio-headphones/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--NEUNDH20"
     }
   }
 ]
