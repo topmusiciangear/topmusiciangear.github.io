@@ -4063,6 +4063,11 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
+  607: {
+    prices: {
+      amazon: "$269.99"
+    }
+  },
   606: {
     prices: {
       amazon: "$186.78",
