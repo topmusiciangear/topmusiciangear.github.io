@@ -1,0 +1,25 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(DIR + 'data/products.json', 'utf8'));
+const lofi = products.find(y => y.id === 623);
+lofi.img = 'https://r2.gear4music.com/media/89/894404/1200/preview.jpg';
+lofi.stores.gear4music = 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSonicware-LIVEN-LoFi-12%2F5AR3';
+lofi.stores.musicstore = 'https://www.musicstore.com/en_OE/EUR/Sonicware-LIVEN-Lofi-12/art-SYN0008472-000';
+lofi.stores.andertons = 'https://www.andertons.co.uk/sonicware-liven-lofi-12-sampling-groovebox/';
+const mini = products.find(y => y.id === 625);
+mini.img = 'https://r2.gear4music.com/media/92/927463/1200/preview.jpg';
+mini.stores.gear4music = 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FPolyend-Tracker-Mini-Portable-Audio-Workstation%2F5K7D';
+fs.writeFileSync(DIR + 'data/products.json', JSON.stringify(products, null, 2));
+
+let src = fs.readFileSync(DIR + 'build-guides.js', 'utf8');
+const line623 = '  623: { prices: { amazon: "$239.00", andertons: "\\u00a3229.00", musicstore: "\\u20ac319.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonicware-LIVEN-LoFi-12/5AR3", musicstore: "https://www.musicstore.com/en_OE/EUR/Sonicware-LIVEN-Lofi-12/art-SYN0008472-000", andertons: "https://www.andertons.co.uk/sonicware-liven-lofi-12-sampling-groovebox/" } },';
+if (!/^  623:.*$/m.test(src)) throw new Error('623 missing');
+src = src.replace(/^  623:.*$/m, line623);
+const line625 = '  625: { prices: { andertons: "\\u00a3659.00", zzounds: "$799.00" }, urls: { zzounds: "https://www.zzounds.com/item--PLYTRACKERMINI?siid=335703", gear4music: "https://www.gear4music.com/Recording-and-Computers/Polyend-Tracker-Mini-Portable-Audio-Workstation/5K7D" } },';
+if (!/^  625:.*$/m.test(src)) throw new Error('625 missing');
+src = src.replace(/^  625:.*$/m, line625);
+fs.writeFileSync(DIR + 'build-guides.js', src);
+const m = src.match(/const TEST_SHOP_BTN\s*=\s*\{([\s\S]*?)\n *\};/);
+const map = Function('return {' + m[1] + '\n}')();
+console.log('623:', JSON.stringify(map[623]));
+console.log('625:', JSON.stringify(map[625]));
