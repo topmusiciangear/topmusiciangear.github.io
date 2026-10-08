@@ -48484,7 +48484,7 @@
     },
     "relatedGuides": [
       "best-drum-machine",
-      "best-grooveboxes",
+      "compact-rhythm-devices",
       "best-hardware-samplers",
       "midi-controllers",
       "digitakt-ii-vs-tr8s",
@@ -48588,7 +48588,7 @@
             "",
             "",
             "",
-            "",
+            "$799",
             "",
             "",
             ",499"
@@ -49012,79 +49012,134 @@
     }
   },
   {
-    "id": "best-grooveboxes",
-    "title": "Best Grooveboxes & Compact Drum Machines",
-    "title_es": "Mejores grooveboxes y máquinas de batería compactas",
-    "titleTag_es": "Mejores Grooveboxes y Máquinas de batería",
+    "id": "compact-rhythm-devices",
+    "title": "Top Compact Rhythm Devices & Pocket Samplers",
+    "title_es": "Los mejores dispositivos de ritmo compactos y samplers de bolsillo",
+    "titleTag_es": "Dispositivos de Ritmo Compactos y Samplers de Bolsillo",
     "category": "drum-machine",
     "image": "https://r2.gear4music.com/media/70/709021/1200/preview.jpg",
     "badge": "recommended",
-    "intro": "Not everyone needs a massive studio rig; check portability and battery needs for sketching ideas anywhere. Sometimes the best ideas come from a compact box you can take anywhere. These grooveboxes prove that power comes in small packages.",
-    "intro_es": "No todo el mundo necesita un estudio a gran escala. A veces las mejores ideas vienen de una caja compacta. Estas grooveboxes demuestran que el poder cabe en paquetes pequeños",
+    "intro": "Big studios stay home; these ten boxes fit in a backpack and run on batteries. From viral pocket samplers to bar-shaped workstations, these are the compact rhythm devices that prove small hits harder.",
+    "intro_es": "Los grandes estudios se quedan en casa; estas diez cajas caben en una mochila y funcionan con batería. Del sampler de bolsillo viral a la estación en forma de barra, estos son los dispositivos compactos de ritmo que demuestran que lo pequeño pega más fuerte.",
     "sections": [
       {
-        "heading": "How to Choose the Best Groovebox or Compact Drum Machine?",
-        "heading_es": "¿Cómo elegir la mejor groovebox o máquina de batería compacta?",
-        "content": "<strong>The key to choosing a groovebox is understanding how you work.</strong> The Novation Circuit Tracks is the most accessible—its intuitive layout and battery power make it perfect for sketching ideas anywhere. The Elektron Model:Cycles brings powerful FM synthesis in a travel-friendly size. The Roland TR-8S, while larger, offers the most hands-on control for live performance. Consider portability, battery life, and how deep you want to go with sound design.",
-        "content_es": "<strong>La clave para elegir una groovebox es entender cómo trabajas.</strong> La Novation Circuit Tracks es la más accesible—su diseño intuitivo y batería la hacen perfecta para esbozar ideas en cualquier lugar. La Elektron Model:Cycles ofrece una potente síntesis FM en formato compacto. La Roland TR-8S ofrece el control más táctil en directo.",
+        "heading": "How to Pick a Beat Box That Fits Your Bag",
+        "heading_es": "Cómo elegir una caja de beats que quepa en tu mochila",
+        "content": "<p><strong>Battery, weight and one-hand control decide everything when the studio is your backpack.</strong> Pocket samplers sketch ideas anywhere but demand menu shortcuts; bar and grid grooveboxes trade pocketability for playability. Pick by travel habit first, sound engine second.</p><p>The ten below all run portable and cost less than a flagship workstation — sorted from smallest to most complete, with honest trade-offs for each.</p>",
+        "content_es": "<p><strong>Batería, peso y control con una mano lo deciden todo cuando el estudio es tu mochila.</strong> Los samplers de bolsillo bocetan en cualquier parte pero exigen atajos de menú; las grooveboxes de barra y rejilla cambian bolsillo por tocabilidad. Elige primero por hábito de viaje, segundo por motor de sonido.</p><p>Las diez de abajo funcionan portátiles y cuestan menos que una estación insignia — ordenadas de menor a más completa, con concesiones honestas cada una.</p>"
+      },
+      {
+        "heading": "Grain Surgery in Your Palm: AIRA Compact P-6",
+        "heading_es": "Cirugía granular en la palma: AIRA Compact P-6",
+        "content": "<p><strong>Sixteen voices, a granular engine and twenty master effects in 300 grams.</strong> The P-6 samples phones over USB-C, twists grains into textures and sequences 64 steps with probability — the deepest pocket sampler Roland ever made.</p><p>The four-character screen speaks in shortcuts and the mini pads resist finger-drumming. For sound designers who travel light, nothing this small goes this deep.</p>",
+        "content_es": "<p><strong>Dieciséis voces, motor granular y veinte efectos master en 300 gramos.</strong> El P-6 samplea móviles por USB-C, retuerce granos hasta texturas y secuencia 64 pasos con probabilidad — el sampler de bolsillo más profundo que Roland hizo jamás.</p><p>La pantalla de cuatro caracteres habla en atajos y los minipads se resisten al finger-drumming. Para diseñadores de sonido que viajan ligeros, nada tan pequeño llega tan hondo.</p>",
         "products": [
-          33,
-          129,
+          617
+        ]
+      },
+      {
+        "heading": "The Viral Sketchpad: EP-133 K.O. II",
+        "heading_es": "El bloc viral: EP-133 K.O. II",
+        "content": "<p><strong>A calculator that outsells grooveboxes — because ideas become beats in seconds.</strong> The K.O. II records the world through its mic, chops on pressure-sensitive keys and slams punch-in effects live, all in a tablet-thin chassis.</p><p>Sixty-four megabytes fill fast, there is no song mode and the plastic asks for care. As pure portable fun that fits any bag, it remains undefeated.</p>",
+        "content_es": "<p><strong>Una calculadora que vende más que grooveboxes — porque las ideas se vuelven beats en segundos.</strong> El K.O. II graba el mundo con su micro, trocea en teclas sensibles a la presión y dispara punch-in en vivo, todo en un chasis fino como tableta.</p><p>Los 64 MB se llenan rápido, no hay modo canción y el plástico pide cuidado. Como diversión portátil pura que cabe en cualquier bolso, sigue invicto.</p>",
+        "products": [
+          615
+        ]
+      },
+      {
+        "heading": "The Bar That Replaced the OP-Z: Yamaha SEQTRAK",
+        "heading_es": "La barra que jubiló al OP-Z: Yamaha SEQTRAK",
+        "content": "<p><strong>Two thousand sounds, two real synth engines and sampling in a 500-gram bar.</strong> SEQTRAK pairs AWM2 breadth with four-operator FM depth, records over Wi-Fi, plays through its own speaker and edits from a best-in-class phone app.</p><p>Deep editing lives in the app, not the hardware, and there is no native sample slicing on the unit. For travelers wanting one complete studio bar, it is the new default.</p>",
+        "content_es": "<p><strong>Dos mil sonidos, dos motores de sinte reales y sampling en una barra de 500 gramos.</strong> SEQTRAK junta la amplitud AWM2 con la profundidad FM de cuatro operadores, graba por Wi-Fi, suena por su propio altavoz y se edita desde una app de móvil de primera.</p><p>La edición profunda vive en la app, no en el hardware, y no hay troceo nativo en la unidad. Para viajeros que quieren una sola barra-estudio completa, es el nuevo estándar.</p>",
+        "products": [
+          621
+        ]
+      },
+      {
+        "heading": "Elektron Thinking, Entry Money: Model:Samples",
+        "heading_es": "Pensar Elektron, pagar entrada: Model:Samples",
+        "content": "<p><strong>Six sample tracks wired to parameter locks and trig conditions for the price of a plugin bundle.</strong> One knob per function, 64 steps per pattern and 300 Splice-curated sounds make it the fastest Elektron to learn.</p><p>It plays samples but records none — everything arrives over USB — and 64 MB is gone quickly. For DAWless sequencing on a budget, no workflow teaches more per dollar.</p>",
+        "content_es": "<p><strong>Seis pistas de samples cableadas a parameter locks y trig conditions por el precio de un paquete de plugins.</strong> Un mando por función, 64 pasos por patrón y 300 sonidos curados por Splice lo hacen el Elektron más rápido de aprender.</p><p>Reproduce samples pero no graba ninguno — todo llega por USB — y los 64 MB vuelan. Para secuenciar DAWless con poco presupuesto, ningún flujo enseña más por dólar.</p>",
+        "products": [
+          622
+        ]
+      },
+      {
+        "heading": "No Pixels, Just Ears: Circuit Rhythm",
+        "heading_es": "Sin píxeles, solo oídos: Circuit Rhythm",
+        "content": "<p><strong>Thirty-two glowing pads, eight sample tracks and zero menus between you and the beat.</strong> Rhythm samples straight in, slices and resamples in the box, fires Grid FX from the grid and runs four hours unplugged.</p><p>Backup lives in the Components app, memory per project is finite and you will memorize light combos. For live performers who mix with their ears, that is pure speed.</p>",
+        "content_es": "<p><strong>Treinta y dos pads luminosos, ocho pistas de sample y cero menús entre tú y el beat.</strong> Rhythm samplea directo, trocea y resamplea dentro, dispara Grid FX desde la rejilla y aguanta cuatro horas sin cables.</p><p>El respaldo vive en la app Components, la memoria por proyecto es finita y memorizarás combos de luces. Para directos que mezclan con los oídos, eso es velocidad pura.</p>",
+        "products": [
+          618
+        ]
+      },
+      {
+        "heading": "Dust by Design: Liven Lofi-12",
+        "heading_es": "Polvo por diseño: Liven Lofi-12",
+        "content": "<p><strong>Twelve-bit grit, a four-track sequencer and a Laidback knob for instant drunk swing.</strong> The Lofi-12 samples in crusty 12-bit, plays chromatically across two octaves of keys and stacks twelve track effects plus nine master effects.</p><p>Four-second samples cap ambitions, time-stretch is basic and the plastic feels budget. For nineties-texture beats on the couch, nothing fakes it this honestly.</p>",
+        "content_es": "<p><strong>Crudeza de 12 bits, secuenciador de cuatro pistas y mando Laidback para swing borracho instantáneo.</strong> El Lofi-12 samplea en 12 bits crujientes, toca cromático en dos octavas de teclas y apila doce efectos por pista más nueve master.</p><p>Los samples de cuatro segundos topan ambiciones, el time-stretch es básico y el plástico se siente barato. Para beats con textura noventera en el sofá, nada lo finge tan honesto.</p>",
+        "products": [
+          623
+        ]
+      },
+      {
+        "heading": "The Cheapest Way In: Volca Sample 2",
+        "heading_es": "La entrada más barata: Volca Sample 2",
+        "content": "<p><strong>Two hundred sample slots, ten parts and motion sequencing for pocket money.</strong> The Volca Sample 2 doubles memory over the original, chains sixteen patterns into songs and dumps libraries over USB in seconds.</p><p>Eight megabytes total, AA batteries and a single reverb keep expectations honest. As the first hardware sampler for curious beginners, it has no rival at the price.</p>",
+        "content_es": "<p><strong>Doscientos slots de sample, diez partes y motion sequencing por calderilla.</strong> El Volca Sample 2 dobla la memoria del original, encadena dieciséis patrones en canciones y vuelca librerías por USB en segundos.</p><p>Ocho megas totales, pilas AA y una sola reverb mantienen honestas las expectativas. Como primer sampler hardware para curiosos, no tiene rival a ese precio.</p>",
+        "products": [
+          624
+        ]
+      },
+      {
+        "heading": "Math You Can Hold: Tracker Mini",
+        "heading_es": "Matemáticas que se tocan: Tracker Mini",
+        "content": "<p><strong>Sixteen vertical tracks of samples, five synth engines and a mic in 350 grams.</strong> The Mini composes, resamples, mixes and masters whole songs on eight hours of battery — then streams fourteen stereo tracks to the DAW.</p><p>The button-and-cursor workflow takes weeks, and clicky keys hate quiet nights. For composers who think in numbers, no portable box goes further.</p>",
+        "content_es": "<p><strong>Dieciséis pistas verticales de samples, cinco motores de sinte y un micro en 350 gramos.</strong> El Mini compone, resamplea, mezcla y masteriza temas enteros con ocho horas de batería — y luego envía catorce pistas estéreo al DAW.</p><p>El flujo de botones y cursor tarda semanas, y las teclas ruidosas odian las noches silenciosas. Para compositores que piensan en números, ninguna caja portátil llega más lejos.</p>",
+        "products": [
+          625
+        ]
+      },
+      {
+        "heading": "FM on a Knob Budget: Model:Cycles",
+        "heading_es": "FM con presupuesto de mandos: Model:Cycles",
+        "content": "<p><strong>Six FM Machines, Elektron sequencing and USB-C power in 800 grams.</strong> Cycles turns FM inside out: every machine is a playable instrument, and parameter locks animate them into evolving grooves.</p><p>There is no sampling at all, the screen is tiny and knob steps feel coarse. For textured electronic sketches anywhere, it is the cheapest Elektron brain.</p>",
+        "content_es": "<p><strong>Seis Machines FM, secuenciación Elektron y alimentación USB-C en 800 gramos.</strong> Cycles pone el FM del revés: cada máquina es un instrumento tocable, y los parameter locks las animan en grooves vivos.</p><p>No hay sampling en absoluto, la pantalla es mini y los saltos de mando se sienten toscos. Para bocetos electrónicos con textura en cualquier parte, es el cerebro Elektron más barato.</p>",
+        "products": [
           144
         ]
       },
       {
-        "heading": "Is the Novation Circuit Tracks the Best Drum Machine for Beat-Making?",
-        "heading_es": "¿Es el Novation Circuit Tracks la mejor caja de ritmos para creación de beats?",
-        "content": "<strong>If you want to start making tracks away from the computer without getting lost in menus, this groovebox suits beginners first.</strong> The concept is easy to grasp: eight drum tracks carry the rhythm, two polyphonic synth tracks handle chords and bass, and two MIDI tracks drive outside gear, all playing together. Pattern chaining is what makes it musical in practice. Sketching full arrangement ideas on a flight works well, linking patterns into verse-like sections while the built-in reverb and delay glue everything together. Battery power means the sofa, the park or a plane all count as studio time. Best for a first portable station; check that you enjoy pad-based step sequencing before buying.",
-        "content_es": "<strong>Si quieres empezar a crear temas fuera del ordenador sin perderte en menús, esta es la groovebox que recomiendo primero a quien empieza.</strong> La idea es sencilla de entender: ocho pistas de batería llevan el ritmo, dos pistas de sinte polifónico se encargan de acordes y bajo, y dos pistas MIDI controlan equipo externo, todo sonando a la vez. El encadenado de patrones es lo que lo vuelve musical en la práctica. Bocetar ideas de arreglos completos en un vuelo resulta eficaz, uniendo patrones en secciones tipo estrofa mientras la reverberación y el delay integrados unen el conjunto. Al funcionar con batería, el sofá, el parque o el avión cuentan como horas de estudio. Ideal como primera estación portátil; comprueba que disfrutas secuenciando por pasos con pads antes de decidirte.",
-        "products": [
-          129
-        ]
-      },
-      {
-        "heading": "Is the Elektron Model:Cycles the Best Drum Machine for Beat-Making?",
-        "heading_es": "¿Es el Elektron model:cycles la mejor caja de ritmos para creación de beats?",
-        "content": "<strong>If you learn best by twisting knobs and hearing what happens, this little FM box rewards curiosity like few others.</strong> FM synthesis simply means shaping tone with interacting digital oscillators instead of classic filters, so small knob moves turn a kick into a bass or a metallic hit into a chord. Starting from an empty pattern works well, letting one sound suggest the next through hands-on controls and velocity-sensitive pads for a human feel. The send effects for delay and reverb add space without menu diving. It suits explorers and first-time Elektron buyers; check that you like compact mini-knobs and a sequencer-first workflow.",
-        "content_es": "<strong>Si aprendes mejor girando botones y escuchando qué pasa, esta pequeña caja FM premia la curiosidad como pocas.</strong> La síntesis FM consiste en modelar el timbre con osciladores digitales que interactúan entre sí, en lugar de filtros clásicos, así que un pequeño giro convierte un bombo en un bajo o un golpe metálico en un acorde. Partir de un patrón vacío funciona muy bien, dejando que un sonido sugiera el siguiente con controles directos y pads sensibles para un resultado natural. Los envíos de delay y reverberación aportan espacio sin menús. Ideal para exploradores; comprueba que te adaptas a los mini-botones y a trabajar desde el secuenciador.",
-        "products": [
-          144
-        ]
-      },
-      {
-        "heading": "Is the Roland TR-8S the Best Drum Machine for Beat-Making?",
-        "heading_es": "¿Es el Roland TR-8S la mejor caja de ritmos para creación de beats?",
-        "content": "<strong>The Roland TR-8S justifies its size with exceptional hands-on control.</strong> Individual faders per instrument, dedicated effects controls, and real-time step sequencing make it the most performable drum machine on the market. The full ACB modeling engine plus sample import gives you virtually unlimited sound design. For live performers who value tactile control, the TR-8S earns its price.",
-        "content_es": "<strong>La Roland TR-8S justifica su tamaño con control táctil excepcional.</strong> Faders individuales, control de efectos dedicado y secuenciación en tiempo real. El motor ACB completo y la importación de samples dan posibilidades ilimitadas. Para intérpretes en vivo que valoran el control táctil, justifica su precio.",
-        "products": [
-          33,
-          128
-        ]
-      },
-      {
-        "heading": "Is the Roland TR-6S the Best Compact Drum Machine?",
-        "heading_es": "¿Es la Roland TR-6S la mejor caja de ritmos compacta?",
-        "content": "<p><strong>The Roland TR-6S squeezes the TR-8S formula into a battery-powered box half the size.</strong> Six tracks of ACB models — 808, 909, 606, 707, 727 and CR-78 — plus editable FM, 300+ preset samples and user samples via SD. The sequencer goes deep with sub-steps, probability, motion recording and 8 variations per pattern, and it doubles as a USB audio interface.</p><p><strong>The catch: </strong>six tracks against the TR-8S eleven, no individual outputs and a small screen with menu-diving. But for desk producing and mobile beats, nothing this small sounds this big.</p>",
-        "content_es": "<p><strong>La Roland TR-6S comprime la fórmula de la TR-8S en una caja a baterías de medio tamaño.</strong> Seis pistas de modelos ACB — 808, 909, 606, 707, 727 y CR-78 — más FM editable, más de 300 samples de fábrica y samples de usuario por SD. El secuenciador es profundo con sub-pasos, probabilidad, grabación de movimiento y 8 variaciones por patrón, y además funciona como interfaz de audio USB.</p><p><strong>El inconveniente: </strong>seis pistas frente a las once de la TR-8S, sin salidas individuales y pantalla pequeña con menús. Pero para producir en el escritorio y beats en marcha, nada tan pequeño suena tan grande.</p>",
+        "heading": "Roland Classics to Go: TR-6S",
+        "heading_es": "Clásicos Roland para llevar: TR-6S",
+        "content": "<p><strong>The 808, 909 and 606 in a battery-powered box half the size of its big sister.</strong> The TR-6S runs authentic ACB models plus editable FM and samples, with probability, sub-steps and motion recording.</p><p>Six tracks, one shared knob and digital-only outputs remind you of the compromise. For Roland drums in a backpack, it is the smart buy over the flagship.</p>",
+        "content_es": "<p><strong>La 808, 909 y 606 en una caja a baterías de medio tamaño que su hermana mayor.</strong> La TR-6S corre modelos ACB auténticos más FM editable y samples, con probabilidad, sub-pasos y grabación de movimiento.</p><p>Seis pistas, un solo mando compartido y salidas solo digitales recuerdan la concesión. Para baterías Roland en la mochila, es la compra inteligente frente al insignia.</p>",
         "products": [
           128
         ]
       }
     ],
-    "conclusion": "The Novation Circuit Tracks suits portable, intuitive sketching anywhere. The Elektron Model:Cycles delivers powerful FM synthesis in a compact format. The Roland TR-8S is one of the kings of hands-on performance. Need the Roland classics in a portable box? The TR-6S runs the same ACB sounds on batteries. For most producers, the Circuit Tracks offers the best balance of features, portability, and price. <p><a href=\"/guides/best-drum-machine.html\" class=\"guide-link-btn\">Best Drum Machines & Beat Production</a> <a href=\"/guides/best-samplers-drum-computers.html\" class=\"guide-link-btn\">Best Samplers & Drum Computers for Beat Makers</a> <a href=\"/guides/best-keyboard.html\" class=\"guide-link-btn\">Best Keyboard & Digital Piano for Home Studio</a></p>",
-    "conclusion_es": "La Novation Circuit Tracks resulta ideal para esbozar ideas en cualquier lugar. La Elektron Model:Cycles ofrece potente síntesis FM en formato compacto. La TR-8S es una de las reinas del control táctil en vivo. ¿Necesitas los clásicos Roland en una caja portable? La TR-6S lleva los mismos sonidos ACB a baterías. <p>También te interesa: <a href=\"/guides/best-drum-machine_es.html\" class=\"guide-link-btn\">Mejores Máquinas de Batería y Producción de Beats</a> <a href=\"/guides/best-samplers-drum-computers_es.html\" class=\"guide-link-btn\">Mejores samplers y ordenadores de Batería para Creadores de Beats</a> <a href=\"/guides/best-keyboard_es.html\" class=\"guide-link-btn\">Mejor Teclado y Piano Digital para Home Studio</a></p>",
-    "verdict": "The Circuit Tracks is for portable sketching — two synths, drums, effects, all battery-powered. The Model:Cycles is the FM specialist for textural, electronic ideas. The TR-6S is the compact Roland — same ACB classics in a battery-powered box.",
-    "verdict_es": "El Circuit Tracks es para esbozar ideas sobre la marcha — dos sintetizadores, batería, efectos, todo con baterías. El Model:Cycles es el especialista FM para ideas electrónicas y texturales. La TR-6S es la Roland compacta — los mismos clásicos ACB en una caja a baterías.",
+    "conclusion": "Pick by travel habit: pocket sketchers belong with the EP-133 K.O. II, the P-6 or the Volca Sample 2; backpack studios with SEQTRAK or the Tracker Mini; live hands with Circuit Rhythm or the Lofi-12. The Model:Samples and Model:Cycles teach Elektron thinking cheaply, and the TR-6S keeps Roland classics portable. <p><a href=\"/guides/best-drum-machine.html\" class=\"guide-link-btn\">Best Drum Machines & Beat Production</a> <a href=\"/guides/best-samplers-drum-computers.html\" class=\"guide-link-btn\">Best Samplers & Drum Computers for Beat Makers</a></p>",
+    "conclusion_es": "Elige por hábito de viaje: los bocetos de bolsillo piden el EP-133 K.O. II, el P-6 o el Volca Sample 2; los estudios de mochila piden SEQTRAK o Tracker Mini; las manos en vivo piden Circuit Rhythm o Lofi-12. Los Model:Samples y Model:Cycles enseñan a pensar Elektron por poco, y la TR-6S mantiene clásicos Roland portátiles. <p>También te interesa: <a href=\"/guides/best-drum-machine_es.html\" class=\"guide-link-btn\">Mejores Máquinas de Ritmo y Producción de Beats</a> <a href=\"/guides/best-samplers-drum-computers_es.html\" class=\"guide-link-btn\">Mejores samplers y cajas de ritmo para creadores de beats</a></p>",
+    "verdict": "The EP-133 K.O. II is the hype king of pocket sketching, the P-6 the deepest pocket sampler, and SEQTRAK the most complete travel studio. Model:Samples and Model:Cycles are the cheapest Elektron brains, Circuit Rhythm and Lofi-12 the live-hands picks, Volca Sample 2 the budget door, Tracker Mini the composer’s choice, and TR-6S the portable Roland.",
+    "verdict_es": "El EP-133 K.O. II es el rey del hype en bocetos de bolsillo, el P-6 el sampler de bolsillo más profundo, y SEQTRAK el estudio de viaje más completo. Model:Samples y Model:Cycles son los cerebros Elektron más baratos, Circuit Rhythm y Lofi-12 las opciones de manos en vivo, Volca Sample 2 la puerta barata, Tracker Mini la elección del compositor, y TR-6S la Roland portátil.",
     "featuredProducts": [
-      129,
+      617,
+      615,
+      621,
+      622,
+      618,
+      623,
+      624,
+      625,
       144,
-      33
+      128
     ],
-    "description": "Best grooveboxes & compact drum machines 2026. Novation Circuit Tracks vs Elektron Model:Cycles vs TR-8S. Portable beat-making power. Read the full",
-    "description_es": "Mejores grooveboxes compactas 2026. Circuit Tracks para ideas portátiles, Model:Cycles para síntesis FM. Máquinas de batería en el bolsillo. Lee el",
+    "description": "Top compact rhythm devices & pocket samplers 2026: EP-133 vs P-6 vs SEQTRAK vs Model:Samples. Ten battery-powered beat boxes compared. Read the verdict.",
+    "description_es": "Mejores dispositivos de ritmo compactos y samplers de bolsillo 2026: EP-133 vs P-6 vs SEQTRAK vs Model:Samples. Diez cajas de beats a batería comparadas. Lee el veredicto.",
     "featuredSnippet": {
-      "title_en": "Best Grooveboxes & Compact Drum Machines ",
-      "text_en": "The Novation Circuit Tracks is a very intuitive groovebox with a fast hands-on workflow.",
+      "title_en": "Top Compact Rhythm Devices & Pocket Samplers",
+      "text_en": "The Teenage Engineering EP-133 K.O. II is the fastest pocket sketchpad; the Roland P-6 is the deepest pocket sampler with a granular engine. Ten battery-powered beat boxes compared.",
       "name1_en": "",
       "name2_en": "",
       "name1_es": "",
@@ -49105,37 +49160,37 @@
       "brand2": "",
       "rating1": 0,
       "rating2": 0,
-      "title_es": "Mejores Grooveboxes y Máquinas de batería Compactas ",
-      "text_es": "La Novation Circuit Tracks es la groovebox más intuitiva.",
+      "title_es": "Mejores dispositivos de ritmo compactos y samplers de bolsillo",
+      "text_es": "El Teenage Engineering EP-133 K.O. II es el bloc de bolsillo más rápido; el Roland P-6 es el sampler de bolsillo más profundo con motor granular. Diez cajas de beats a batería comparadas.",
       "specs": [],
-      "faq_q1_en": "Is the Novation Circuit Tracks the best groovebox for portable beat-making?",
-      "faq_a1_en": "For getting started, yes. The Novation Circuit Tracks is the most accessible groovebox — battery-powered, intuitive layout, 8 drum tracks plus 2 synth tracks. You can sketch full beats anywhere without a computer, which is what makes it the best portable entry point.",
-      "faq_q2_en": "What makes the Elektron Model:Cycles a great compact groovebox?",
-      "faq_a2_en": "The Elektron Model:Cycles delivers 6 FM-based Machines with a powerful sequencer in a lightweight, portable format.",
-      "faq_q3_en": "Why is the Roland TR-8S the best choice for hands-on performance?",
-      "faq_a3_en": "The Roland TR-8S delivers individual fader control per instrument and real-time step sequencing.",
-      "faq_q1_es": "¿Es la Novation Circuit Tracks la mejor groovebox para crear beats de forma portátil?",
-      "faq_a1_es": "Para empezar, sí. La Novation Circuit Tracks es la groovebox más accesible — alimentada por batería, con diseño intuitivo, 8 pistas de batería más 2 de synth. Puedes esbozar beats completos en cualquier sitio sin ordenador: el mejor punto de entrada portátil.",
-      "faq_q2_es": "¿Qué hace del Elektron Model:Cycles una gran groovebox compacta?",
-      "faq_a2_es": "El Elektron Model:Cycles ofrece 6 Máquinas FM con un potente secuenciador en formato ligero y portátil.",
-      "faq_q3_es": "¿Por qué es la Roland TR-8S la mejor opción para control táctil?",
-      "faq_a3_es": "La Roland TR-8S ofrece control por fader individual y secuenciación en tiempo real.",
-      "faq_q4_en": "Do grooveboxes work well for live performance?",
-      "faq_a4_en": "Yes — that is their main strength. Grooveboxes like the TR-8S and Circuit Tracks are designed for hands-on performance: you can mute tracks, tweak effects, and build arrangements live without menus. The TR-8S is the best for electronic performance with individual faders per instrument. The Circuit Tracks is more portable for sketching on the move.",
-      "faq_q4_es": "¿Las grooveboxes funcionan bien para presentaciones en vivo?",
-      "faq_a4_es": "Sí — esa es su principal fortaleza. Las grooveboxes como la TR-8S y Circuit Tracks están diseñadas para tocar en vivo: puedes silenciar pistas, ajustar efectos y construir arreglos sin menús. La TR-8S es la mejor opción para actuaciones electrónicas con faders individuales por instrumento. La Circuit Tracks es más portátil para esbozar ideas en movimiento.",
-      "faq_q5_en": "Can a groovebox replace a DAW?",
-      "faq_a5_en": "For live performance and sketching, yes. For full production, no. A groovebox lets you build patterns and songs, sequence drums and synths, and perform without a computer. But mixing, mastering, recording multiple takes, and advanced editing still live best in a DAW. The typical workflow is groovebox for ideas and performance, DAW for the final polish.",
+      "faq_q1_en": "Is the Teenage Engineering EP-133 the best pocket sampler for beginners?",
+      "faq_a1_en": "For speed and fun, yes. The EP-133 K.O. II turns ideas into beats in seconds with its mic, pressure-sensitive keys and punch-in effects. The 64 MB memory and missing song mode limit full productions — pair it with a DAW or step up to the P-6 for deeper sampling.",
+      "faq_q2_en": "Roland P-6 vs EP-133: which pocket sampler wins?",
+      "faq_a2_en": "Depth goes to the P-6: granular engine, 20 master effects, 64-step probability sequencing. Speed and charm go to the EP-133: faster sketching, better live punch-in fun. Sound designers pick the P-6; song sketchers pick the EP-133.",
+      "faq_q3_en": "Does the Yamaha SEQTRAK work without the phone app?",
+      "faq_a3_en": "Beats and performance work standalone: sampling, sequencing, speaker and battery need no phone. Deep sound editing lives in the SEQTRAK app, and there is no on-device sample slicing. Think of the hardware as the instrument and the app as the editor.",
+      "faq_q1_es": "¿Es el Teenage Engineering EP-133 el mejor sampler de bolsillo para empezar?",
+      "faq_a1_es": "Por velocidad y diversión, sí. El EP-133 K.O. II convierte ideas en beats en segundos con su micro, teclas sensibles y punch-in. Los 64 MB y la falta de modo canción limitan producciones enteras — combínalo con un DAW o sube al P-6 para sampling más hondo.",
+      "faq_q2_es": "Roland P-6 vs EP-133: ¿qué sampler de bolsillo gana?",
+      "faq_a2_es": "La profundidad es del P-6: motor granular, 20 master FX, 64 pasos con probabilidad. La velocidad y el encanto son del EP-133: bocetos más rápidos, punch-in más divertido. Diseñadores eligen P-6; bocetadores eligen EP-133.",
+      "faq_q3_es": "¿Funciona el Yamaha SEQTRAK sin la app del móvil?",
+      "faq_a3_es": "Beats y directo funcionan autónomos: sampling, secuenciación, altavoz y batería no piden móvil. La edición profunda vive en la app SEQTRAK, y no hay troceo en la unidad. Piensa el hardware como instrumento y la app como editor.",
+      "faq_q4_en": "Elektron Model:Samples vs Model:Cycles: which one?",
+      "faq_a4_en": "Samples plays your sounds: six sample tracks with the Elektron sequencer, but it records nothing. Cycles synthesizes its own: six FM Machines, no sampling at all. Want your library on stage? Samples. Want FM textures from thin air? Cycles.",
+      "faq_q4_es": "Elektron Model:Samples vs Model:Cycles: ¿cuál?",
+      "faq_a4_es": "Samples toca tus sonidos: seis pistas de sample con secuenciador Elektron, pero no graba nada. Cycles sintetiza lo suyo: seis Machines FM, cero sampling. ¿Tu librería en el escenario? Samples. ¿Texturas FM de la nada? Cycles.",
+      "faq_q5_en": "Can a pocket groovebox replace a DAW?",
+      "faq_a5_en": "For sketching and live play, yes. Pocket boxes build patterns and songs, sequence drums and synths, and perform without a computer. Mixing, mastering and detailed editing still belong in a DAW — the classic flow is groovebox for ideas, DAW for polish.",
       "faq_q5_es": "¿Una groovebox puede reemplazar un DAW?",
-      "faq_a5_es": "Para tocar en vivo y esbozar, sí. Para producción completa, no. Una groovebox te permite construir patrones y canciones, secuenciar baterías y synths y tocar sin ordenador. Pero mezclar, masterizar, grabar múltiples tomas y edición avanzada siguen siendo mejores en un DAW. El flujo típico es groovebox para esbozos y directos, DAW para el pulido final.",
-      "faq_q6_en": "Which groovebox is easiest for a beginner?",
-      "faq_a6_en": "The Novation Circuit Tracks is the most beginner-friendly. Its color-coded grid and visual workflow let you build a full track in minutes with no menu diving — 8 drum tracks, 2 synth tracks, and 4 sample slots. The Elektron Model:Cycles is also approachable but has a deeper learning curve for its FM engine. The TR-8S is easy for drums but aimed more at performers than beginners.",
-      "faq_q6_es": "¿Qué groovebox es la más fácil para un principiante?",
-      "faq_a6_es": "La Novation Circuit Tracks es la más amigable para principiantes. Su rejilla codificada por colores y flujo visual te permiten construir un track completo en minutos sin bucear en menús — 8 pistas de batería, 2 de synth y 4 slots de samples. La Elektron Model:Cycles también es accesible pero tiene una curva de aprendizaje más profunda por su motor FM. La TR-8S es fácil para baterías pero está más pensada para intérpretes que para principiantes.",
-      "faq_q7_en": "Is the Roland TR-6S enough compared to the TR-8S?",
-      "faq_a7_en": "For most beat-makers, yes. The TR-6S packs the same ACB models, editable FM, samples and a deep sequencer with probability and motion recording into a battery-powered box half the size. You lose five tracks, individual outputs and hands-on faders — if you perform live with full control, the TR-8S earns its price. If you produce on the desk or on the move, the 6S is the smarter buy.",
-      "faq_q7_es": "¿Basta la Roland TR-6S frente a la TR-8S?",
-      "faq_a7_es": "Para la mayoría, sí. La TR-6S mete los mismos modelos ACB, FM editable, samples y un secuenciador profundo con probabilidad y grabación de movimiento en una caja a baterías de medio tamaño. Pierdes cinco pistas, salidas individuales y faders físicos — si actúas en vivo con control total, la TR-8S justifica su precio. Si produces en el escritorio o en marcha, la 6S es la compra inteligente."
+      "faq_a5_es": "Para bocetar y tocar en vivo, sí. Las cajas de bolsillo arman patrones y canciones, secuencian baterías y sintes y tocan sin PC. Mezclar, masterizar y editar fino siguen siendo del DAW — el flujo clásico es groovebox para ideas, DAW para pulir.",
+      "faq_q6_en": "Which compact box is easiest for a beginner?",
+      "faq_a6_en": "The Korg Volca Sample 2 is the cheapest start: 200 slots, motion sequencing and pattern chaining with almost no learning curve. The EP-133 is the most fun start. The Tracker Mini and Model:Cycles reward patience with far deeper instruments.",
+      "faq_q6_es": "¿Qué caja compacta es más fácil para empezar?",
+      "faq_a6_es": "El Korg Volca Sample 2 es el inicio más barato: 200 slots, motion sequencing y cadena de patrones con curva casi nula. El EP-133 es el inicio más divertido. Tracker Mini y Model:Cycles premian la paciencia con instrumentos mucho más hondos.",
+      "faq_q7_en": "Is the Roland TR-6S enough for portable Roland drums?",
+      "faq_a7_en": "For most beat-makers, yes. The TR-6S packs authentic ACB models, editable FM, samples and probability sequencing into a battery-powered box. You lose tracks, individual outputs and faders versus the flagship — for the desk or the backpack, the 6S is the smarter buy.",
+      "faq_q7_es": "¿Basta la Roland TR-6S para baterías Roland portátiles?",
+      "faq_a7_es": "Para la mayoría, sí. La TR-6S mete modelos ACB auténticos, FM editable, samples y probabilidad en una caja a baterías. Pierdes pistas, salidas individuales y faders frente al insignia — para el escritorio o la mochila, la 6S es la compra inteligente."
     },
     "relatedGuides": [
       "best-drum-machine",
@@ -49172,24 +49227,20 @@
       ]
     },
     "productTable": {
-      "title": "Best Grooveboxes Compared in This Guide",
-      "title_es": "Los mejores grooveboxes comparados en esta guía",
+      "title": "Top Compact Rhythm Devices Compared in This Guide",
+      "title_es": "Los mejores dispositivos compactos de ritmo comparados en esta guía",
       "columns": [
         {
-          "title": "Elektron Model:Cycles",
-          "title_es": "Elektron Model:Cycles"
+          "title": "Roland AIRA Compact P-6",
+          "title_es": "Roland AIRA Compact P-6"
         },
         {
-          "title": "Novation Circuit Tracks",
-          "title_es": "Novation Circuit Tracks"
+          "title": "Teenage Engineering EP-133 K.O. II",
+          "title_es": "Teenage Engineering EP-133 K.O. II"
         },
         {
-          "title": "Roland TR-8S",
-          "title_es": "Roland TR-8S"
-        },
-        {
-          "title": "Roland TR-6S",
-          "title_es": "Roland TR-6S"
+          "title": "Yamaha SEQTRAK",
+          "title_es": "Yamaha SEQTRAK"
         },
         {
           "title": "Elektron Model:Samples",
@@ -49200,12 +49251,24 @@
           "title_es": "Novation Circuit Rhythm"
         },
         {
-          "title": "Polyend Play",
-          "title_es": "Polyend Play"
+          "title": "Sonicware Liven Lofi-12",
+          "title_es": "Sonicware Liven Lofi-12"
         },
         {
-          "title": "Teenage Engineering OP-Z",
-          "title_es": "Teenage Engineering OP-Z"
+          "title": "Korg Volca Sample 2",
+          "title_es": "Korg Volca Sample 2"
+        },
+        {
+          "title": "Polyend Tracker Mini",
+          "title_es": "Polyend Tracker Mini"
+        },
+        {
+          "title": "Elektron Model:Cycles",
+          "title_es": "Elektron Model:Cycles"
+        },
+        {
+          "title": "Roland TR-6S",
+          "title_es": "Roland TR-6S"
         }
       ],
       "rows": [
@@ -49213,347 +49276,453 @@
           "label": "Best For",
           "label_es": "Ideal para",
           "values": [
-            {
-              "value": "FM grooves for beginners",
-              "value_es": "Grooves FM para empezar"
-            },
-            {
-              "value": "Portable sketching with battery power",
-              "value_es": "Sketching portátil con batería"
-            },
-            {
-              "value": "Classic Roland sounds and live control",
-              "value_es": "Sonidos Roland clásicos y control en directo"
-            },
-            {
-              "value": "Compact ACB classics on battery",
-              "value_es": "Clásicos ACB compactos a batería"
-            },
-            {
-              "value": "Budget Elektron sampling/sequencing",
-              "value_es": "Sampling/secuenciación Elektron presupuesto"
-            },
-            {
-              "value": "Sample-based groovebox, portable",
-              "value_es": "Groovebox sample-based, portátil"
-            },
-            {
-              "value": "Playful grid sequencing, sampling",
-              "value_es": "Secuenciación grid lúdica, sampling"
-            },
-            {
-              "value": "Ultra-portable, wireless, multimedia",
-              "value_es": "Ultra-portátil, inalámbrico, multimedia"
-            }
+            "Granular pocket sampling",
+            "Viral pocket sketching",
+            "Backpack all-in-one studio",
+            "Affordable Elektron sequencing",
+            "Screenless live sampling",
+            "12-bit lo-fi nostalgia",
+            "Cheapest hardware sampling",
+            "Tracker composing anywhere",
+            "FM groove sketching",
+            "ACB classics to go"
+          ],
+          "values_es": [
+            "Sampling granular de bolsillo",
+            "Bocetos virales de bolsillo",
+            "Estudio todo en uno de mochila",
+            "Secuenciación Elektron asequible",
+            "Sampling en vivo sin pantalla",
+            "Nostalgia lo-fi de 12 bits",
+            "Sampling hardware más barato",
+            "Componer con tracker en cualquier parte",
+            "Bocetos groove FM",
+            "Clásicos ACB para llevar"
           ]
         },
         {
           "label": "Estimated Price",
           "label_es": "Precio estimado",
           "values": [
-            {
-              "value": "$299–$299.99",
-              "value_es": "$299–$299.99"
-            },
-            {
-              "value": "$404.40–$469.99",
-              "value_es": "$404.40–$469.99"
-            },
-            {
-              "value": "~$749.99",
-              "value_es": "~$749.99"
-            },
-            {
-              "value": "~$469.99",
-              "value_es": "~$469.99"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
-              "value": "—",
-              "value_es": "—"
-            }
+            "$269",
+            "$299",
+            "$299",
+            "$349",
+            "$429",
+            "$239",
+            "$149",
+            "$699",
+            "$349",
+            "$449"
+          ],
+          "values_es": [
+            "$269",
+            "$299",
+            "$299",
+            "$349",
+            "$429",
+            "$239",
+            "$149",
+            "$699",
+            "$349",
+            "$449"
           ]
         },
         {
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            {
-              "value": "6-track FM groovebox",
-              "value_es": "Groovebox FM de 6 pistas"
-            },
-            {
-              "value": "Groovebox with synths, drums & MIDI",
-              "value_es": "Groovebox con synths, drums y MIDI"
-            },
-            {
-              "value": "Rhythm performer",
-              "value_es": "Performer de ritmo"
-            },
-            {
-              "value": "6-track rhythm performer",
-              "value_es": "Rhythm performer de 6 pistas"
-            },
-            {
-              "value": "6-track sample-based groovebox",
-              "value_es": "Groovebox de samples de 6 pistas"
-            },
-            {
-              "value": "Sample-based groovebox with synth engines",
-              "value_es": "Groovebox de samples con motores de sinte"
-            },
-            {
-              "value": "Sample and MIDI groovebox workstation",
-              "value_es": "Groovebox workstation de samples y MIDI"
-            },
-            {
-              "value": "Portable multimedia synthesizer sequencer",
-              "value_es": "Secuenciador sintetizador multimedia portátil"
-            }
+            "Pocket sampler",
+            "Pocket sampler",
+            "Bar workstation",
+            "Groovebox",
+            "Groovebox",
+            "Groovebox",
+            "Pocket sampler",
+            "Handheld tracker",
+            "Groovebox",
+            "Compact drum machine"
+          ],
+          "values_es": [
+            "Sampler de bolsillo",
+            "Sampler de bolsillo",
+            "Estación en barra",
+            "Groovebox",
+            "Groovebox",
+            "Groovebox",
+            "Sampler de bolsillo",
+            "Tracker de mano",
+            "Groovebox",
+            "Caja de ritmos compacta"
           ]
         },
         {
           "label": "Sound Engine",
-          "label_es": "Motor de Sonido",
+          "label_es": "Motor de sonido",
           "values": [
-            {
-              "value": "6 FM machines (Kick, Snare, Metal, Perc, Tone, Chord)",
-              "value_es": "6 máquinas FM (Kick, Snare, Metal, Perc, Tone, Chord)"
-            },
-            {
-              "value": "2x 6-voice digital synths + 4 drum tracks",
-              "value_es": "2 synths digitales de 6 voces + 4 pistas de drums"
-            },
-            {
-              "value": "ACB (808, 909, 707, 727, 606), FM, samples",
-              "value_es": "ACB (808, 909, 707, 727, 606), FM, samples"
-            },
-            {
-              "value": "ACB (808, 909, 606, 707, 727, CR-78), FM, samples",
-              "value_es": "ACB (808, 909, 606, 707, 727, CR-78), FM, samples"
-            },
-            {
-              "value": "Sample playback + synthesis",
-              "value_es": "Reproducción sample + síntesis"
-            },
-            {
-              "value": "Sample playback + synthesis",
-              "value_es": "Reproducción sample + síntesis"
-            },
-            {
-              "value": "Sample playback + wavetable + FM",
-              "value_es": "Reproducción sample + wavetable + FM"
-            },
-            {
-              "value": "Sample + FM + analog modeling",
-              "value_es": "Sample + FM + modelado analógico"
-            }
+            "Granular + sampling",
+            "Sampling + punch-in FX",
+            "AWM2 + FM + sampling",
+            "Sampling",
+            "Sampling",
+            "12-bit sampling",
+            "Sampling",
+            "Sampling + 5 synth engines",
+            "FM synthesis",
+            "ACB + FM + samples"
+          ],
+          "values_es": [
+            "Granular + sampling",
+            "Sampling + punch-in FX",
+            "AWM2 + FM + sampling",
+            "Sampling",
+            "Sampling",
+            "Sampling 12 bits",
+            "Sampling",
+            "Sampling + 5 motores",
+            "Síntesis FM",
+            "ACB + FM + samples"
           ]
         },
         {
           "label": "Tracks",
           "label_es": "Pistas",
           "values": [
-            {
-              "value": "6 audio or MIDI tracks",
-              "value_es": "6 pistas de audio o MIDI"
-            },
-            {
-              "value": "8 tracks (2 synth, 4 drum, 2 MIDI)",
-              "value_es": "8 pistas (2 synth, 4 drum, 2 MIDI)"
-            },
-            {
-              "value": "11 instrument parts + trigger out",
-              "value_es": "11 partes de instrumento + trigger out"
-            },
-            {
-              "value": "6 instrument parts",
-              "value_es": "6 partes"
-            },
-            {
-              "value": "6 sample tracks + 6 MIDI",
-              "value_es": "6 pistas sample + 6 MIDI"
-            },
-            {
-              "value": "8 sample tracks + 8 MIDI",
-              "value_es": "8 pistas sample + 8 MIDI"
-            },
-            {
-              "value": "8 tracks (sample/synth)",
-              "value_es": "8 pistas (sample/synth)"
-            },
-            {
-              "value": "16 tracks (8 synth + 8 sample)",
-              "value_es": "16 pistas (8 synth + 8 sample)"
-            }
+            "16 voices",
+            "12 voices",
+            "128-note poly",
+            "6 tracks",
+            "8 tracks",
+            "10 voices",
+            "10 parts",
+            "16 tracks",
+            "6 tracks",
+            "6 tracks"
+          ],
+          "values_es": [
+            "16 voces",
+            "12 voces",
+            "Polifonía 128 notas",
+            "6 pistas",
+            "8 pistas",
+            "10 voces",
+            "10 partes",
+            "16 pistas",
+            "6 pistas",
+            "6 pistas"
           ]
         },
         {
           "label": "Sequencer",
           "label_es": "Secuenciador",
           "values": [
-            {
-              "value": "64 steps, param locks, trig conditions",
-              "value_es": "64 pasos, param locks, trig conditions"
-            },
-            {
-              "value": "32 steps (256 chained), 16 scenes",
-              "value_es": "32 pasos (256 encadenados), 16 escenas"
-            },
-            {
-              "value": "TR-REC, 128 patterns, 8 variations, 2 fills",
-              "value_es": "TR-REC, 128 patrones, 8 variaciones, 2 fills"
-            },
-            {
-              "value": "16 steps, 8 variations, probability, motion rec",
-              "value_es": "16 pasos, 8 variaciones, probabilidad, grab. movimiento"
-            },
-            {
-              "value": "64-step, parameter locks, trig conditions",
-              "value_es": "64-paso, parameter locks, trig conditions"
-            },
-            {
-              "value": "32-step, probability, pattern chain",
-              "value_es": "32-paso, probabilidad, cadena patrones"
-            },
-            {
-              "value": "64-step, Euclidean, chance",
-              "value_es": "64-paso, Euclidiano, chance"
-            },
-            {
-              "value": "128-step, tape-style, chance",
-              "value_es": "128-paso, estilo cinta, chance"
-            }
+            "64-step + probability",
+            "Punch-in live seq.",
+            "Step seq. + automation",
+            "64-step p-locks",
+            "32-step grid + FX",
+            "4-track step seq.",
+            "16-step motion seq.",
+            "Vertical tracker",
+            "64-step p-locks",
+            "Step seq. + probability"
+          ],
+          "values_es": [
+            "64 pasos + probabilidad",
+            "Sec. punch-in en vivo",
+            "Pasos + automatización",
+            "64 pasos p-locks",
+            "Rejilla 32 pasos + FX",
+            "4 pistas por pasos",
+            "16 pasos con motion",
+            "Tracker vertical",
+            "64 pasos p-locks",
+            "Pasos + probabilidad"
           ]
         },
         {
           "label": "Effects",
           "label_es": "Efectos",
           "values": [
-            {
-              "value": "Delay & reverb sends, overdrive",
-              "value_es": "Envíos de delay y reverb, overdrive"
-            },
-            {
-              "value": "Reverb, delay, sidechain, master filter",
-              "value_es": "Reverb, delay, sidechain, master filter"
-            },
-            {
-              "value": "Inst FX, reverb, delay, master FX, sidechain",
-              "value_es": "Inst FX, reverb, delay, master FX, sidechain"
-            },
-            {
-              "value": "Inst FX, reverb, delay, master FX, sidechain",
-              "value_es": "FX inst., reverb, delay, FX master, sidechain"
-            },
-            {
-              "value": "Per-track FX, master send",
-              "value_es": "FX por pista, master send"
-            },
-            {
-              "value": "Per-track FX, master",
-              "value_es": "FX por pista, master"
-            },
-            {
-              "value": "Per-track FX, master, reverb/delay",
-              "value_es": "FX por pista, master, reverb/delay"
-            },
-            {
-              "value": "Master FX, per-track send",
-              "value_es": "Master FX, send por pista"
-            }
+            "20 MFX + delay/reverb",
+            "Punch-in 2.0 FX",
+            "Insert + master FX",
+            "Delay + reverb sends",
+            "Grid FX + delay/reverb",
+            "12 track + 9 master FX",
+            "Reverb + isolator",
+            "Performance + master FX",
+            "Delay + reverb sends",
+            "Reverb + delay"
+          ],
+          "values_es": [
+            "20 MFX + delay/reverb",
+            "Punch-in 2.0 FX",
+            "Inserción + master FX",
+            "Envíos delay/reverb",
+            "Grid FX + delay/reverb",
+            "12 por pista + 9 master FX",
+            "Reverb + isolador",
+            "Performance + master FX",
+            "Envíos delay/reverb",
+            "Reverb + delay"
           ]
         },
         {
-          "label": "Power",
-          "label_es": "Alimentación",
+          "label": "Battery",
+          "label_es": "Batería",
           "values": [
-            {
-              "value": "5V DC (PSU-4 included)",
-              "value_es": "5V DC (PSU-4 incluido)"
-            },
-            {
-              "value": "Built-in Li-ion battery (~4 h)",
-              "value_es": "Batería Li-ion integrada (~4 h)"
-            },
-            {
-              "value": "AC adaptor",
-              "value_es": "Adaptador de corriente"
-            },
-            {
-              "value": "4xAA or USB bus",
-              "value_es": "4 pilas AA o bus USB"
-            },
-            {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C / Battery (6h)",
-              "value_es": "USB-C / Bateria (6h)"
-            },
-            {
-              "value": "USB-C / Battery (5h)",
-              "value_es": "USB-C / Bateria (5h)"
-            },
-            {
-              "value": "USB-C / Battery (8h)",
-              "value_es": "USB-C / Bateria (8h)"
-            }
-          ]
-        },
-        {
-          "label": "Weight",
-          "label_es": "Peso",
-          "values": [
-            {
-              "value": "0.8 kg (1.8 lb)",
-              "value_es": "0,8 kg (1,8 lb)"
-            },
-            {
-              "value": "0.78 kg (1.7 lb)",
-              "value_es": "0,78 kg (1,7 lb)"
-            },
-            {
-              "value": "2.1 kg (4 lb 11 oz)",
-              "value_es": "2,1 kg (4 lb 11 oz)"
-            },
-            {
-              "value": "0.7 kg (1 lb 9 oz)",
-              "value_es": "0,7 kg"
-            },
-            {
-              "value": "0.8 kg",
-              "value_es": "0.8 kg"
-            },
-            {
-              "value": "0.8 kg",
-              "value_es": "0.8 kg"
-            },
-            {
-              "value": "1.1 kg",
-              "value_es": "1.1 kg"
-            },
-            {
-              "value": "0.4 kg",
-              "value_es": "0.4 kg"
-            }
+            "3 h rechargeable",
+            "Battery powered",
+            "Rechargeable battery",
+            "USB powered",
+            "4 h rechargeable",
+            "Battery powered",
+            "6xAA batteries",
+            "8 h rechargeable",
+            "USB powered",
+            "AA / USB"
+          ],
+          "values_es": [
+            "3 h recargable",
+            "A baterías",
+            "Batería recargable",
+            "Por USB",
+            "4 h recargable",
+            "A baterías",
+            "6 pilas AA",
+            "8 h recargable",
+            "Por USB",
+            "AA / USB"
           ]
         }
       ]
     },
     "verdictProsCons": [
+      {
+        "name": "Roland AIRA Compact P-6",
+        "name_es": "Roland AIRA Compact P-6",
+        "pros": [
+          "Granular engine in a 300-gram pocket box",
+          "20 master FX inherited from the SP series",
+          "USB-C sampling straight from phones",
+          "64-step sequencer with probability"
+        ],
+        "cons": [
+          "4-character screen demands menu shortcuts",
+          "Mini pads resist finger-drumming",
+          "Limited polyphony for dense stacks",
+          "3-hour battery ends long sessions"
+        ],
+        "pros_es": [
+          "Motor granular en caja de 300 gramos",
+          "20 master FX heredados de la serie SP",
+          "Sampling por USB-C directo del móvil",
+          "Secuenciador de 64 pasos con probabilidad"
+        ],
+        "cons_es": [
+          "La pantalla de 4 caracteres exige atajos",
+          "Los minipads se resisten al finger-drumming",
+          "Polifonía limitada para pilas densas",
+          "La batería de 3 horas corta sesiones largas"
+        ]
+      },
+      {
+        "name": "Teenage Engineering EP-133 K.O. II",
+        "name_es": "Teenage Engineering EP-133 K.O. II",
+        "pros": [
+          "Fastest idea-to-beat workflow under $300",
+          "Punch-in 2.0 FX for live flair",
+          "Built-in mic plus pressure-sensitive keys",
+          "Tablet-thin design goes anywhere"
+        ],
+        "cons": [
+          "64 MB memory caps longer phrases",
+          "No song mode for full arrangements",
+          "Delicate plastic needs careful hands",
+          "No serious resampling inside"
+        ],
+        "pros_es": [
+          "El flujo más rápido de la idea al beat por menos de 300 $",
+          "Punch-in 2.0 para lucirse en vivo",
+          "Micro integrado más teclas sensibles",
+          "Diseño fino como tableta que va a todas partes"
+        ],
+        "cons_es": [
+          "Los 64 MB topan frases largas",
+          "Sin modo canción para arreglos",
+          "El plástico delicado pide cuidado",
+          "Sin resampling serio dentro"
+        ]
+      },
+      {
+        "name": "Yamaha SEQTRAK",
+        "name_es": "Yamaha SEQTRAK",
+        "pros": [
+          "AWM2 + FM engines with 2,000 sounds",
+          "Onboard sampling, speaker and mic",
+          "Wi-Fi sample transfer, no cables",
+          "Best-in-class phone app editing"
+        ],
+        "cons": [
+          "Deep editing needs the mobile app",
+          "No native sample slicing on hardware",
+          "Bar shape fits bags, not pockets",
+          "Wireless features vary by region"
+        ],
+        "pros_es": [
+          "Motores AWM2 + FM con 2.000 sonidos",
+          "Sampling, altavoz y micro integrados",
+          "Samples por Wi-Fi, sin cables",
+          "Edición en app de móvil de primera"
+        ],
+        "cons_es": [
+          "La edición profunda pide la app móvil",
+          "Sin troceo nativo en el hardware",
+          "La forma de barra cabe en mochilas, no en bolsillos",
+          "Lo inalámbrico varía por región"
+        ]
+      },
+      {
+        "name": "Elektron Model:Samples",
+        "name_es": "Elektron Model:Samples",
+        "pros": [
+          "Real Elektron sequencer at entry price",
+          "Knob-per-function, no menu diving",
+          "Per-track polyrhythm and scale settings",
+          "300 Splice-curated sounds included"
+        ],
+        "cons": [
+          "Plays samples but records none",
+          "64 MB memory fills quickly",
+          "File browsing feels clunky",
+          "No battery without optional handle"
+        ],
+        "pros_es": [
+          "Secuenciador Elektron real a precio de entrada",
+          "Un mando por función, sin menús",
+          "Polirritmia y escala por pista",
+          "300 sonidos curados por Splice incluidos"
+        ],
+        "cons_es": [
+          "Reproduce samples pero no graba ninguno",
+          "Los 64 MB se llenan rápido",
+          "Navegar archivos se siente torpe",
+          "Sin batería sin el mango opcional"
+        ]
+      },
+      {
+        "name": "Novation Circuit Rhythm",
+        "name_es": "Novation Circuit Rhythm",
+        "pros": [
+          "Screenless grid keeps ears in charge",
+          "Samples, slices and resamples in the box",
+          "Grid FX built for live transitions",
+          "4-hour rechargeable battery included"
+        ],
+        "cons": [
+          "No waveform view anywhere",
+          "Backup depends on the Components app",
+          "Limited memory per project",
+          "8 monophonic tracks restrict layering"
+        ],
+        "pros_es": [
+          "La rejilla sin pantalla deja el mando en los oídos",
+          "Samplea, trocea y resamplea dentro",
+          "Grid FX hechos para transiciones en vivo",
+          "Batería recargable de 4 horas incluida"
+        ],
+        "cons_es": [
+          "Sin vista de onda en ningún lado",
+          "El respaldo depende de la app Components",
+          "Memoria limitada por proyecto",
+          "8 pistas monofónicas limitan las capas"
+        ]
+      },
+      {
+        "name": "Sonicware Liven Lofi-12",
+        "name_es": "Sonicware Liven Lofi-12",
+        "pros": [
+          "True 12-bit retro sampling engine",
+          "Laidback knob for instant organic swing",
+          "Two-octave keyboard for chromatic play",
+          "Battery plus speaker for couch sessions"
+        ],
+        "cons": [
+          "Rigid plastic feels budget",
+          "4-second samples cap ambitions",
+          "No advanced time-stretching",
+          "Niche sound, not an all-rounder"
+        ],
+        "pros_es": [
+          "Motor retro real de sampling a 12 bits",
+          "Mando Laidback para swing orgánico al instante",
+          "Teclado de dos octavas para tocar cromático",
+          "Batería más altavoz para sesiones de sofá"
+        ],
+        "cons_es": [
+          "El plástico rígido se siente barato",
+          "Los samples de 4 segundos topan ambiciones",
+          "Sin time-stretching avanzado",
+          "Sonido de nicho, no todoterreno"
+        ]
+      },
+      {
+        "name": "Korg Volca Sample 2",
+        "name_es": "Korg Volca Sample 2",
+        "pros": [
+          "Unbeatable price for real hardware",
+          "200 slots with fast USB transfer",
+          "Motion sequencing automates on the fly",
+          "Pattern chaining builds full songs"
+        ],
+        "cons": [
+          "8 MB total memory is tiny",
+          "AA batteries, no lithium inside",
+          "Single reverb, basic effects",
+          "Tiny knobs punish big fingers"
+        ],
+        "pros_es": [
+          "Precio imbatible por hardware real",
+          "200 slots con transferencia USB veloz",
+          "El motion sequencing automatiza al vuelo",
+          "La cadena de patrones arma canciones enteras"
+        ],
+        "cons_es": [
+          "8 MB totales son minúsculos",
+          "Pilas AA, sin litio dentro",
+          "Una sola reverb, efectos básicos",
+          "Los mini mandos castigan dedos grandes"
+        ]
+      },
+      {
+        "name": "Polyend Tracker Mini",
+        "name_es": "Polyend Tracker Mini",
+        "pros": [
+          "Full tracker workflow in 350 grams",
+          "Stereo sampling plus 5 synth/drum engines",
+          "8-hour battery with travel case",
+          "14 stereo USB tracks to the DAW"
+        ],
+        "cons": [
+          "Button-and-cursor learning curve is steep",
+          "Clicky keys hate quiet nights",
+          "No grid pads for rhythmic live play",
+          "Premium price for the size"
+        ],
+        "pros_es": [
+          "Flujo tracker completo en 350 gramos",
+          "Sampling estéreo más 5 motores",
+          "8 horas de batería con funda de viaje",
+          "14 pistas USB estéreo al DAW"
+        ],
+        "cons_es": [
+          "La curva de botones y cursor es empinada",
+          "Las teclas ruidosas odian noches tranquilas",
+          "Sin pads de rejilla para directo rítmico",
+          "Precio premium para el tamaño"
+        ]
+      },
       {
         "name": "Elektron Model:Cycles",
         "name_es": "Elektron Model:Cycles",
@@ -49573,69 +49742,13 @@
           "Secuenciación Elektron a precio de entrada",
           "6 pistas FM, parameter locks",
           "CV/Gate out modular",
-          "Compacto, USB-C"
+          "Compacto, por USB-C"
         ],
         "cons_es": [
           "Sin sampling (solo FM)",
           "Sin pantalla táctil",
           "Pantalla pequeña",
           "Los saltos de mando entorpecen barridos suaves"
-        ]
-      },
-      {
-        "name": "Novation Circuit Tracks",
-        "name_es": "Novation Circuit Tracks",
-        "pros": [
-          "8 tracks, sample + synth, polyphonic",
-          "Built-in battery, 4h portable",
-          "Probability, mutate, pattern chain",
-          "Battery-powered standalone groovebox with two synth tracks and four drum tracks"
-        ],
-        "cons": [
-          "No velocity-sensitive pads",
-          "Limited sound design vs Elektron",
-          "No CV/Gate",
-          "Battery capacity fades after years of use"
-        ],
-        "pros_es": [
-          "8 pistas, sample + synth, polifónico",
-          "Bateria integrada, 4h portátil",
-          "Probabilidad, mutate, cadena patrones",
-          "Groovebox autónoma a pilas con dos pistas de sinte y cuatro de batería"
-        ],
-        "cons_es": [
-          "Pads sin velocity",
-          "Diseño sonido limitado vs Elektron",
-          "Sin CV/Gate",
-          "La batería pierde capacidad con los años"
-        ]
-      },
-      {
-        "name": "Roland TR-8S",
-        "name_es": "Roland TR-8S",
-        "pros": [
-          "ACB analog + samples = best of both",
-          "SD card, probability, sub-step",
-          "6 assignable outs",
-          "Roland sound quality"
-        ],
-        "cons": [
-          "Complex menus",
-          "No battery",
-          "Plastic build",
-          "Kit edits overwrite without undo"
-        ],
-        "pros_es": [
-          "ACB analógico + samples = lo mejor ambos",
-          "SD card, probabilidad, sub-paso",
-          "6 salidas asignables",
-          "Calidad sonido Roland"
-        ],
-        "cons_es": [
-          "Menús complejos",
-          "Sin bateria",
-          "Construcción plástico",
-          "Editar kits sobrescribe sin deshacer"
         ]
       },
       {
@@ -49655,7 +49768,7 @@
         ],
         "pros_es": [
           "6 modelos ACB + samples, compacto",
-          "Bateria o USB",
+          "Batería o USB",
           "Probabilidad, sub-paso, groove",
           "Baterías ACB a pilas que caben en una mochila"
         ],
@@ -49665,121 +49778,12 @@
           "Solo salidas digitales",
           "Un solo mando ralentiza niveles en directo"
         ]
-      },
-      {
-        "name": "Elektron Model:Samples",
-        "name_es": "Elektron Model:Samples",
-        "pros": [
-          "Elektron sequencing + sampling, cheap",
-          "6 sample tracks, parameter locks",
-          "CV/Gate, Overbridge ready",
-          "Sample slicing, timestretch"
-        ],
-        "cons": [
-          "No synthesis (sampling only)",
-          "Small screen",
-          "Mono outs",
-          "Sample transfer crawls over USB"
-        ],
-        "pros_es": [
-          "Secuenciación Elektron + sampling barato",
-          "6 pistas sample, parameter locks",
-          "CV/Gate, Overbridge ready",
-          "Sample slicing, timestretch"
-        ],
-        "cons_es": [
-          "Sin síntesis (solo sampling)",
-          "Pantalla pequeña",
-          "Salidas mono",
-          "Transferir samples por USB es lento"
-        ]
-      },
-      {
-        "name": "Novation Circuit Rhythm",
-        "name_es": "Novation Circuit Rhythm",
-        "pros": [
-          "Sample-based, 8 tracks, battery",
-          "Probability, mutate, slice",
-          "MicroSD for samples",
-          "Fun, immediate workflow"
-        ],
-        "cons": [
-          "No velocity pads",
-          "No synth engine",
-          "No CV/Gate",
-          "Grid pads smudge with finger oils"
-        ],
-        "pros_es": [
-          "Basado en samples, 8 pistas, bateria",
-          "Probabilidad, mutate, slice",
-          "MicroSD para samples",
-          "Divertido, flujo inmediato"
-        ],
-        "cons_es": [
-          "Pads sin velocity",
-          "Sin motor síntesis",
-          "Sin CV/Gate",
-          "Los pads se ensucian con grasa de dedos"
-        ]
-      },
-      {
-        "name": "Polyend Play",
-        "name_es": "Polyend Play",
-        "pros": [
-          "8 tracks, sample + wavetable + FM",
-          "64-step Euclidean, chance ops",
-          "Battery, 5h, USB-C",
-          "Playful grid = instant inspiration"
-        ],
-        "cons": [
-          "No velocity pads",
-          "No CV/Gate",
-          "Newer platform",
-          "No arranger for full song structures"
-        ],
-        "pros_es": [
-          "8 pistas, sample + wavetable + FM",
-          "64-paso Euclidiano, chance ops",
-          "Bateria, 5h, USB-C",
-          "Grid lúdico = inspiración instantánea"
-        ],
-        "cons_es": [
-          "Pads sin velocity",
-          "Sin CV/Gate",
-          "Plataforma nueva",
-          "Sin arreglador para canciones completas"
-        ]
-      },
-      {
-        "name": "Teenage Engineering OP-Z",
-        "name_es": "Teenage Engineering OP-Z",
-        "pros": [
-          "16 tracks, tape-style sequencer",
-          "Tiny, battery 8h, wireless",
-          "Multimedia: video, lights, DMX",
-          "Unique creative instrument"
-        ],
-        "cons": [
-          "Tiny keys/pads",
-          "No velocity",
-          "Steep learning curve",
-          "Expensive for size"
-        ],
-        "pros_es": [
-          "16 pistas, secuenciador estilo cinta",
-          "Pequeño, bateria 8h, inalámbrico",
-          "Multimedia: video, luces, DMX",
-          "Instrumento creativo único"
-        ],
-        "cons_es": [
-          "Teclas/pads minúsculos",
-          "Sin velocity",
-          "Curva aprendizaje pronunciada",
-          "Caro para tamaño"
-        ]
       }
     ],
-    "datePublished": "2026-08-19"
+    "datePublished": "2026-08-19",
+    "comparison": {
+      "rows": []
+    }
   },
   {
     "id": "best-practice-amps",
@@ -60861,7 +60865,7 @@
       "best-drum-machine",
       "best-samplers-drum-computers",
       "best-hardware-samplers",
-      "best-grooveboxes",
+      "compact-rhythm-devices",
       "starter-studio"
     ],
     "aboutName": "Drum Machines",
@@ -70735,7 +70739,7 @@
     },
     "relatedGuides": [
       "best-drum-machine",
-      "best-grooveboxes",
+      "compact-rhythm-devices",
       "digitakt-ii-vs-tr8s",
       "beat-making"
     ],
@@ -72289,7 +72293,7 @@
     ],
     "relatedGuides": [
       "best-drum-machine",
-      "best-grooveboxes",
+      "compact-rhythm-devices",
       "best-hardware-samplers",
       "daw-guide",
       "midi-controllers",
@@ -81914,7 +81918,7 @@
     "relatedGuides": [
       "best-samplers-drum-computers",
       "best-drum-machine",
-      "best-grooveboxes",
+      "compact-rhythm-devices",
       "digitakt-ii-vs-tr8s",
       "beat-making"
     ],
