@@ -1,15 +1,5 @@
-var fs = require('fs');
-var g = fs.readFileSync('guides/scarlett-vs-motu.html', 'utf8');
-var t = g.match(/<title>([\s\S]*?)<\/title>/)[1];
-var h1 = g.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1].replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').trim();
-var og = g.match(/property="og:title" content="([^"]*)"/)[1];
-console.log('TITLE:', t);
-console.log('H1   :', h1);
-console.log('OG   :', og);
-console.log('H1 coreo matches TITLE core:', h1 === t.replace(/ \| TopMusicianGear$/, ''));
-var es = fs.readFileSync('guides/scarlett-vs-motu_es.html', 'utf8');
-var tes = es.match(/<title>([\s\S]*?)<\/title>/)[1];
-var hes = es.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1].replace(/<[^>]+>/g, '').trim();
-console.log('TITLE_ES:', tes);
-console.log('H1_ES   :', hes);
-console.log('ES core matches:', hes === tes.replace(/ \| TopMusicianGear$/, ''));
+const p = require('C:/Users/Daniel/projects/topmusiciangear/data/products.json');
+[105, 493, 494, 109, 108, 152, 106, 153, 626, 630, 631, 233, 235, 236, 495, 496].forEach(id => {
+  const x = p.find(y => y.id === id);
+  console.log(id, '| TITLE:', x.title, '| TITLE_ES:', x.title_es);
+});

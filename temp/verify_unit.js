@@ -1,0 +1,17 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+let bad = 0;
+const ck = (c, n) => { console.log((c ? 'ok ' : 'FAIL ') + n); if (!c) bad++; };
+const pa = fs.readFileSync(DIR + 'guides/live-sound-pa.html', 'utf8');
+const paEs = fs.readFileSync(DIR + 'guides/live-sound-pa_es.html', 'utf8');
+ck(pa.includes('LD Systems ICOA 12 A BT (each)'), 'PA EN ICOA title (each)');
+ck(pa.includes('Electro-Voice EVERSE 12 (each)'), 'PA EN EVERSE title (each)');
+ck(paEs.includes('LD Systems ICOA 12 A BT (cada uno)'), 'PA ES ICOA title (cada uno)');
+ck(paEs.includes('Electro-Voice EVERSE 12 (cada uno)'), 'PA ES EVERSE title (cada uno)');
+const sub = fs.readFileSync(DIR + 'guides/best-live-subwoofers.html', 'utf8');
+const subEs = fs.readFileSync(DIR + 'guides/best-live-subwoofers_es.html', 'utf8');
+ck(sub.includes('Alto Professional TS18S (each)'), 'SUB EN TS18S title (each)');
+ck(sub.includes('JBL EON718S (each)'), 'SUB EN EON718S title (each)');
+ck(subEs.includes('Alto Professional TS18S (cada uno)'), 'SUB ES TS18S title');
+ck(subEs.includes('JBL EON718S (cada uno)'), 'SUB ES EON718S title');
+process.exit(bad ? 1 : 0);
