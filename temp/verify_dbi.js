@@ -1,0 +1,11 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-drum-machine.html', 'utf8');
+const t = h.indexOf('DrumBrute Impact');
+const region = h.slice(t, t + 12000);
+let bad = 0;
+const ck = (c, n) => { console.log((c ? 'ok ' : 'FAIL ') + n); if (!c) bad++; };
+ck(region.includes('388616/1200/preview_1.jpg'), 'new photo');
+ck(!region.includes('61YYUmzMpwL'), 'old photo gone');
+ck(region.includes('246'), 'G4M 246');
+ck(region.includes('259'), 'MS 259');
+process.exit(bad ? 1 : 0);
