@@ -3691,7 +3691,7 @@ const TEST_SHOP_BTN = {
   613: {
     prices: {
       gear4music: "£1,649.00",
-      musicstore: "€1,789.00"
+      musicstore: "€1,965.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B0CFVZNN89"
