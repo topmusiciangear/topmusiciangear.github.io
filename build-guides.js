@@ -5560,7 +5560,8 @@ const TEST_SHOP_BTN = {
   624: { prices: { andertons: "£119.00" } },
   625: { prices: { andertons: "£659.00" } },
   626: { prices: { gear4music: "£879.00" } },
-  631: { prices: { gear4music: "£877.00" } },
+  630: { prices: { andertons: "\u00a3575.00", gear4music: "\u00a3579.00", zzounds: "$799.00" }, urls: { andertons: "https://www.andertons.co.uk/alto-professional-ts18s-x-subwoofer/?search_query=Alto%20Professional%20TS18S", zzounds: "https://www.zzounds.com/item--APATS18SXUS?siid=339921" } },
+  631: { prices: { andertons: "\u00a3833.00", gear4music: "\u00a3825.00", zzounds: "$1,099.00", musicstore: "\u20ac1,099.00" }, urls: { musicstore: "https://www.musicstore.com/en_OE/EUR/JBL-EON-718S/art-PAH0022714-000", andertons: "https://www.andertons.co.uk/jbl-eon718s-18-15kw-subwoofer-with-3-channel-mixer-dsp-bluetooth/", zzounds: "https://www.zzounds.com/item--JBLEON718S?siid=308811" } },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
