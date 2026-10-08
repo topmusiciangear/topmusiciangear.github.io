@@ -4063,12 +4063,23 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
+  606: {
+    prices: {
+      amazon: "$186.78",
+      andertons: "£145.00",
+      gear4music: "£148.50"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-300-PRO/art-REC0013894-000"
+    }
+  },
   605: {
     prices: {
       amazon: "$549.00",
       zzounds: "$599.00",
       andertons: "£434.00",
-      gear4music: "£434.04"
+      gear4music: "£434.04",
+      musicstore: "€479.00"
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-NDH-20/art-REC0014175-000"

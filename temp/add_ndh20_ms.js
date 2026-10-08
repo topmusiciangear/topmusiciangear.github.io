@@ -1,0 +1,13 @@
+const fs = require('fs');
+const f = 'C:/Users/Daniel/projects/topmusiciangear/build-guides.js';
+let s = fs.readFileSync(f, 'utf8');
+const i = s.indexOf('  605: {');
+if (i < 0) throw new Error('605 missing');
+const j = s.indexOf('  604: {', i);
+if (j < 0) throw new Error('604 anchor missing');
+let block = s.slice(i, j);
+if (!block.includes('gear4music: "£434.04"')) throw new Error('605 block changed');
+block = block.replace('      gear4music: "£434.04"\n', '      gear4music: "£434.04",\n      musicstore: "€479.00"\n');
+s = s.slice(0, i) + block + s.slice(j);
+fs.writeFileSync(f, s);
+console.log('605 MS €479 added');
