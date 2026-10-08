@@ -5536,7 +5536,7 @@ const TEST_SHOP_BTN = {
   601: { prices: { zzounds: "$659.99", gear4music: "£461.00", andertons: "£499.00", musicstore: "€499.00" } },
   615: { prices: { andertons: "£289.00" } },
 
-  617: { prices: { andertons: "£177.00" } },
+  617: { prices: { andertons: "\u00a3177.00", gear4music: "\u00a3179.00", zzounds: "$269.00", musicstore: "\u20ac199.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-P-6-Creative-Sampler/6MDZ", zzounds: "https://www.zzounds.com/item--ROLP6?siid=360113", musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-P-6-Creative-Sampler/art-SYN0009091-000" } },
   618: { prices: { andertons: "£342.00" } },
   619: { prices: { andertons: "£1,299.00" } },
   620: { prices: { andertons: "£749.00" } },
