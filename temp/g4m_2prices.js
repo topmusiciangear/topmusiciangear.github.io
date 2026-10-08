@@ -1,0 +1,11 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/build-guides.js';
+let s = fs.readFileSync(F, 'utf8');
+const a = 'gear4music: "£862.00"';
+const b = 'gear4music: "£856.00"';
+const c = 'gear4music: "£322.00"';
+const dd = 'gear4music: "£315.00"';
+if (!s.includes(a) || !s.includes(c)) throw new Error('anchors not found');
+s = s.replace(a, b).replace(c, dd);
+fs.writeFileSync(F, s);
+console.log('patched 106 -> £856.00, 153 -> £315.00');
