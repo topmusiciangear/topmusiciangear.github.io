@@ -5537,7 +5537,7 @@ const TEST_SHOP_BTN = {
   615: { prices: { andertons: "\u00a3289.00", gear4music: "\u00a3289.00", zzounds: "$329.00", musicstore: "\u20ac349.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Teenage-Engineering-EP-133-128-MB-KO-II/7TH8", zzounds: "https://www.zzounds.com/item--TEEEP133KOII?siid=345972", musicstore: "https://www.musicstore.com/en_OE/EUR/Teenage-Engineering-EP-133-K-O-II-128MB/art-SYN0009460-000" } },
 
   617: { prices: { andertons: "\u00a3177.00", gear4music: "\u00a3179.00", zzounds: "$269.00", musicstore: "\u20ac199.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-P-6-Creative-Sampler/6MDZ", zzounds: "https://www.zzounds.com/item--ROLP6?siid=360113", musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-P-6-Creative-Sampler/art-SYN0009091-000" } },
-  618: { prices: { andertons: "£342.00" } },
+  618: { prices: { andertons: "\u00a3342.00", gear4music: "\u00a3360.00", zzounds: "$430.00", musicstore: "\u20ac375.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Novation-Circuit-Rhythm/3V5S", zzounds: "https://www.zzounds.com/item--NOVCIRCUITRHYTHM?siid=298357", musicstore: "https://www.musicstore.com/en_OE/EUR/Novation-Circuit-Rhythm/art-SYN0007908-000" } },
   619: { prices: { andertons: "£1,299.00" } },
   620: { prices: { andertons: "£749.00" } },
   621: { prices: { gear4music: "\u00a3445.00", zzounds: "$299.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-SEQTRAK-Black/66QJ", zzounds: "https://www.zzounds.com/item--YAMSEQTRAK?siid=347183", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-SEQTRAK-ORANGE/art-SYN0008890-000" } },
