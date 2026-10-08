@@ -1,0 +1,11 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-drum-machine.html', 'utf8');
+const t = h.indexOf('Syntakt');
+const region = h.slice(t, t + 12000);
+let bad = 0;
+const ck = (c, n) => { console.log((c ? 'ok ' : 'FAIL ') + n); if (!c) bad++; };
+ck(region.includes('825946/1200/preview.jpg'), 'new photo');
+ck(region.includes('920'), 'G4M 920');
+ck(region.includes('1,149'), 'zzounds 1149');
+ck(region.includes('ELKSYNTAKT'), 'zzounds link');
+process.exit(bad ? 1 : 0);

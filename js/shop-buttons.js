@@ -3676,13 +3676,13 @@ const TEST_SHOP_BTN = {
   },
   612: {
     prices: {
-      gear4music: "£922.00",
+      gear4music: "£920.00", zzounds: "$1,149.00",
       andertons: "£799.00",
       musicstore: "€997.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B09YPSR8N5",
-      zzounds: "https://www.zzounds.com/a--925521/item--ELKSYNTAKT"
+      zzounds: "https://www.zzounds.com/item--ELKSYNTAKT?siid=318234"
     },
     oos: [
       "andertons"
