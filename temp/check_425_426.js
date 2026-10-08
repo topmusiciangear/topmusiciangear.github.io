@@ -1,0 +1,11 @@
+const g = require('C:/Users/Daniel/projects/topmusiciangear/data/guides.json');
+const o = g.find(x => x.id === 'open-headphones');
+console.log(JSON.stringify(o.productTable.columns.slice(5, 8)));
+const with425 = g.filter(x => x.id !== 'open-headphones' && JSON.stringify(x.featuredProducts || []).includes('425')).map(x => x.id);
+console.log('guides feat 425:', with425.join(','));
+const with426 = g.filter(x => x.id !== 'open-headphones' && JSON.stringify(x.featuredProducts || []).includes('426')).map(x => x.id);
+console.log('guides feat 426:', with426.join(','));
+const sec425 = g.filter(x => x.id !== 'open-headphones' && (x.sections || []).some(s => (s.products || []).includes(425))).map(x => x.id);
+console.log('guides section 425:', sec425.join(','));
+const sec426 = g.filter(x => x.id !== 'open-headphones' && (x.sections || []).some(s => (s.products || []).includes(426))).map(x => x.id);
+console.log('guides section 426:', sec426.join(','));

@@ -4059,6 +4059,26 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
+  602: {
+    prices: {
+      amazon: "$279.99",
+      zzounds: "$319.99",
+      andertons: "£219.00",
+      gear4music: "£239.50",
+      musicstore: "€229.00"
+    }
+  },
+  603: {
+    prices: {
+      amazon: "$599.99",
+      zzounds: "$649.99",
+      andertons: "£475.00",
+      gear4music: "£557.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/beyerdynamic-DT-1990-PRO-MKII/art-REC0016806-000"
+    }
+  },
   426: {
     prices: {
       amazon: "$149.00",
