@@ -982,10 +982,10 @@ const TEST_SHOP_BTN = {
   129: {
     prices: {
       amazon: "$404.40",
-      zzounds: "$469.99",
+      zzounds: "$479.00",
       andertons: "£319.00",
-      gear4music: "£314.00",
-      musicstore: "€349.00"
+      gear4music: "£358.00",
+      musicstore: "€281.00"
     }
   },
   130: {
@@ -3663,18 +3663,7 @@ const TEST_SHOP_BTN = {
     ]
   },
 
-  610: {
-    prices: {
-      andertons: "£177.00"
-    },
-    urls: {
-      amazon: "https://www.amazon.com/dp/B0B11K62XF",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
+  610: { prices: { andertons: "£177.00", gear4music: "£178.00", zzounds: "$249.00" }, urls: { amazon: "https://www.amazon.com/dp/B0B11K62XF", gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY", zzounds: "https://www.zzounds.com/item--ROLT8?siid=318855" } },
   611: {
     urls: {
       amazon: "https://www.amazon.com/dp/B0C3RN1RTS",
