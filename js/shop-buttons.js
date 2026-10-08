@@ -3663,6 +3663,62 @@ const TEST_SHOP_BTN = {
     ]
   },
 
+  610: {
+    prices: {
+      andertons: "£177.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0B11K62XF",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  611: {
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0C3RN1RTS",
+      zzounds: "https://www.zzounds.com/a--925521/item--AKAMPCONEPLUS",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  612: {
+    prices: {
+      gear4music: "£922.00",
+      andertons: "£799.00",
+      musicstore: "€997.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B09YPSR8N5",
+      zzounds: "https://www.zzounds.com/a--925521/item--ELKSYNTAKT"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  613: {
+    prices: {
+      gear4music: "£1,649.00",
+      musicstore: "€1,789.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0CFVZNN89"
+    }
+  },
+  614: {
+    prices: {
+      andertons: "£222.00",
+      zzounds: "$299.00",
+      gear4music: "£256.00",
+      musicstore: "€255.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B07FPYBVHP"
+    }
+  },
   609: {
     prices: {
       amazon: "$59.00",
