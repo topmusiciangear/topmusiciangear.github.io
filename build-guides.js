@@ -4073,7 +4073,8 @@ const TEST_SHOP_BTN = {
       amazon: "$599.99",
       zzounds: "$649.99",
       andertons: "£475.00",
-      gear4music: "£557.00"
+      gear4music: "£557.00",
+      musicstore: "€499.00"
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/beyerdynamic-DT-1990-PRO-MKII/art-REC0016806-000"
