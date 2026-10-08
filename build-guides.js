@@ -4072,7 +4072,8 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$186.78",
       andertons: "£145.00",
-      gear4music: "£148.50"
+      gear4music: "£148.50",
+      musicstore: "€175.00"
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-300-PRO/art-REC0013894-000"
