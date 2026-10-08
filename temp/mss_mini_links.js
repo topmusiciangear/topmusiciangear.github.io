@@ -1,0 +1,25 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(DIR + 'data/products.json', 'utf8'));
+const ms = products.find(y => y.id === 622);
+ms.img = 'https://r2.gear4music.com/media/70/708998/1200/preview.jpg';
+ms.stores.gear4music = 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FElektron-ModelSamples-Six-Track-Sample-Player%2F2UHB';
+ms.stores.zzounds = 'https://www.zzounds.com/item--ELKMODELSAMPLES?siid=254275';
+ms.stores.musicstore = 'https://www.musicstore.com/en_OE/EUR/Elektron-Model-Samples/art-SYN0006852-000';
+const tm = products.find(y => y.id === 625);
+tm.img = 'https://cf1.zzounds.com/media/productmedia/fit%2C2018by3200/quality%2C85/standalone-portable-audio-workstation-3_869287-1f6a86cc651c318e9ccc527e28e3aaab.jpg';
+tm.stores.zzounds = 'https://www.zzounds.com/item--PLYTRACKERMINI?siid=335703';
+fs.writeFileSync(DIR + 'data/products.json', JSON.stringify(products, null, 2));
+
+let src = fs.readFileSync(DIR + 'build-guides.js', 'utf8');
+const line622 = '  622: { prices: { andertons: "\\u00a3249.00", gear4music: "\\u00a3249.00", zzounds: "$306.00", musicstore: "\\u20ac299.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Elektron-ModelSamples-Six-Track-Sample-Player/2UHB", zzounds: "https://www.zzounds.com/item--ELKMODELSAMPLES?siid=254275", musicstore: "https://www.musicstore.com/en_OE/EUR/Elektron-Model-Samples/art-SYN0006852-000" } },';
+if (!/^  622:.*$/m.test(src)) throw new Error('622 missing');
+src = src.replace(/^  622:.*$/m, line622);
+const line625 = '  625: { prices: { andertons: "\\u00a3659.00", zzounds: "$799.00" }, urls: { zzounds: "https://www.zzounds.com/item--PLYTRACKERMINI?siid=335703" } },';
+if (!/^  625:.*$/m.test(src)) throw new Error('625 missing');
+src = src.replace(/^  625:.*$/m, line625);
+fs.writeFileSync(DIR + 'build-guides.js', src);
+const m = src.match(/const TEST_SHOP_BTN\s*=\s*\{([\s\S]*?)\n *\};/);
+const map = Function('return {' + m[1] + '\n}')();
+console.log('622:', JSON.stringify(map[622]));
+console.log('625:', JSON.stringify(map[625]));
