@@ -8405,9 +8405,11 @@
     "desc_es": "Auriculares cerrados de referencia con tecnología exclusiva de cono. Precisión, neutralidad y control total sobre el espectro de audio con excelente aislamiento.",
     "img": "https://r2.gear4music.com/media/33/330040/1200/preview_1.jpg",
     "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FHeadphones%2FFocal-Listen-Professional-Closed-Back-Headphones%2F20CI",
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FFocal-Listen-Professional-Headphones%2F2BDG",
       "amazon": "https://www.amazon.com/dp/B07C5BXV58",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Focal-Listen-Professional/art-REC0013585-000"
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Focal-Listen-Professional/art-REC0013585-000",
+      "zzounds": "https://www.zzounds.com/a--925521/item--FOLFOPROLISPRO",
+      "andertons": "https://www.andertons.co.uk/focal-listen-pro-professional-closed-back-reference-headphones-32ohm/?search_query=Focal%20Listen%20Professional"
     }
   },
   {
@@ -11755,6 +11757,47 @@
       "amazon": "https://www.amazon.com/dp/B0DGTHKCZ3",
       "andertons": "https://www.andertons.co.uk/beyerdynamic-dt-1990-pro-mkii--open-back-premium-tesla-studio-headphones/",
       "zzounds": "https://www.zzounds.com/a--925521/item--BEYDT1990PROMKII"
+    }
+  },
+  {
+    "id": 604,
+    "title": "AKG K240 Studio",
+    "title_es": "AKG K240 Studio",
+    "brand": "AKG",
+    "category": "headphones",
+    "price": 89,
+    "rating": 4.7,
+    "reviews": 8500,
+    "badge": "legend",
+    "desc": "Semi-open studio classic since 1975. 30mm Varimotion drivers, 55-ohm impedance that runs from any device, detachable mini-XLR cable and self-adjusting headband. Wider stage than any closed-back at this price.",
+    "desc_es": "Clásico semiabierto de estudio desde 1975. Drivers Varimotion de 30 mm, impedancia de 55 ohmios que funciona con cualquier equipo, cable desmontable mini-XLR y diadema autoajustable. Escenario más amplio que cualquier cerrado a este precio.",
+    "img": "https://r2.gear4music.com/media/36/361851/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FAKG-K240-Studio-Semi-Open-Headphones%2FTLC",
+      "amazon": "https://www.amazon.com/dp/B0001ARCFA",
+      "andertons": "https://www.andertons.co.uk/akg-k240-studiosemi-open-back-monitoring-headphones/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--AKGK240STU"
+    }
+  },
+  {
+    "id": 605,
+    "title": "Sennheiser HD 280 Pro II",
+    "title_es": "Sennheiser HD 280 Pro II",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "price": 99,
+    "rating": 4.8,
+    "reviews": 5200,
+    "badge": "recommended",
+    "desc": "Closed-back tracking classic with up to 32 dB of isolation. Linear 8 Hz – 25 kHz response, 64-ohm drivers, collapsible earcups and a tough coiled cable. Zero bleed into live mics.",
+    "desc_es": "Clásico cerrado para grabar con hasta 32 dB de aislamiento. Respuesta lineal de 8 Hz a 25 kHz, drivers de 64 ohmios, copas plegables y cable en espiral resistente. Cero fuga hacia los micrófonos en vivo.",
+    "img": "https://r2.gear4music.com/media/64/644189/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSennheiser-HD-280-PRO-II-Closed-Back-Headphones%2F1ONJ",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-280-Pro/art-REC0012791-000",
+      "amazon": "https://www.amazon.com/dp/B01LM0CI6U",
+      "andertons": "https://www.andertons.co.uk/sennheiser-hd280-pro-headphones/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--SENHD280PRO"
     }
   }
 ]
