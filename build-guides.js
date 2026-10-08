@@ -4064,6 +4064,19 @@ const TEST_SHOP_BTN = {
     ]
   },
 
+  609: {
+    prices: {
+      amazon: "$59.00",
+      gear4music: "£48.00",
+      andertons: "£48.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--AUTATHM20X"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
   608: {
     prices: {
       gear4music: "£241.00",
