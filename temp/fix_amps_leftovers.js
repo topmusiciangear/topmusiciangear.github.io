@@ -1,0 +1,12 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const guides = JSON.parse(fs.readFileSync(DIR + 'data/guides.json', 'utf8'));
+const d = guides.find(x => x.id === 'guitar-bass-amps');
+d.sections.find(s => s.heading === 'Tube vs Solid-State vs Modeling').products = [71, 557, 73, 74, 76, 556, 503, 294, 627, 628, 629];
+const rb = d.verdictProsCons.find(v => v.name === 'Ampeg Rocket Bass RB-115');
+const i = rb.cons_es.findIndex(c => /Rumble 200/.test(c));
+if (i >= 0) rb.cons_es[i] = '100 W solos hasta cabina de extensión para los 200 W';
+const j = rb.cons.findIndex(c => /Rumble 200/.test(c));
+console.log('es fixed:', i >= 0, '| en has ref:', j >= 0, j >= 0 ? rb.cons[j] : '');
+fs.writeFileSync(DIR + 'data/guides.json', JSON.stringify(guides, null, 2));
+console.log('patched');
