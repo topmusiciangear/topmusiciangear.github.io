@@ -4063,10 +4063,20 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
-  607: {
+
+  608: {
     prices: {
-      amazon: "$269.99"
-    }
+      gear4music: "£252.00",
+      andertons: "£253.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B00SC80YLM",
+      zzounds: "https://www.zzounds.com/a--925521/item--AUTATHM70X",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M70X/art-REC0011133-000"
+    },
+    oos: [
+      "andertons"
+    ]
   },
   606: {
     prices: {
