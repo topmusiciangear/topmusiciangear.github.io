@@ -3683,10 +3683,7 @@ const TEST_SHOP_BTN = {
     urls: {
       amazon: "https://www.amazon.com/dp/B09YPSR8N5",
       zzounds: "https://www.zzounds.com/item--ELKSYNTAKT?siid=318234"
-    },
-    oos: [
-      "andertons"
-    ]
+    }
   },
   613: {
     prices: {
