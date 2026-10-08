@@ -1,0 +1,11 @@
+const fs = require('fs');
+const DIR = 'C:/Users/Daniel/projects/topmusiciangear/';
+const guides = JSON.parse(fs.readFileSync(DIR + 'data/guides.json', 'utf8'));
+const d = guides.find(x => x.id === 'best-drum-machine');
+const f = d.featuredSnippet;
+f.faq_q2_en = 'Is the MPC One G2 better than using a computer and DAW for beat-making?';
+f.faq_a2_en = 'For hands-on, distraction-free work, yes. The Akai MPC One G2 runs standalone on a G2 8-core chip — sampling, sequencing and finishing tracks with pads, 32 plugin tracks, Stems separation and 100+ effects, no computer needed. A DAW offers more power and screen, but the MPC gives a tactile hip-hop environment many producers find faster.';
+f.faq_q2_es = '¿Es la MPC One G2 mejor que usar ordenador y DAW para hacer beats?';
+f.faq_a2_es = 'Para trabajo táctil sin distracciones, sí. La Akai MPC One G2 funciona autónoma con chip G2 de 8 núcleos — samplear, secuenciar y terminar temas con pads, 32 pistas de plugin, separación Stems y más de 100 efectos, sin ordenador. Un DAW da más potencia y pantalla, pero la MPC da un entorno hip-hop táctil que muchos encuentran más rápido.';
+fs.writeFileSync(DIR + 'data/guides.json', JSON.stringify(guides, null, 2));
+console.log('One+ left:', JSON.stringify(d).includes('One+'));
