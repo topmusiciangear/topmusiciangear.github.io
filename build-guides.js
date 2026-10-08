@@ -4074,10 +4074,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/a--925521/item--AUTATHM20X"
-    },
-    oos: [
-      "andertons"
-    ]
+    }
   },
   608: {
     prices: {
