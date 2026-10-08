@@ -24368,6 +24368,33 @@
         "products": [
           493
         ]
+      },
+      {
+        "heading": "The Rider-Friendly Standard: QSC K12.2",
+        "heading_es": "El estándar de los riders: QSC K12.2",
+        "content": "<p><strong>When the venue asks what you are bringing, K12.2 ends the conversation.</strong> Two thousand watts, 132 dB peak and Intrinsic Correction DSP in a 39 lb ABS box — the reference bands, DJs and rental houses have trusted for a decade.</p><p>You pay for the badge, there is no battery, and deep DSP scenes hide in menus. For working pros who bill by the gig, no speaker holds value like it.</p>",
+        "content_es": "<p><strong>Cuando la sala pregunta qué traes, K12.2 termina la conversación.</strong> Dos mil vatios, 132 dB pico y DSP Intrinsic Correction en caja ABS de 17,7 kg — la referencia que bandas, DJs y rentadoras confían hace una década.</p><p>Pagas la insignia, no hay batería, y las escenas DSP hondas se esconden en menús. Para pros que facturan por fecha, ningún altavoz conserva valor como él.</p>",
+        "products": [
+          106
+        ]
+      },
+      {
+        "heading": "Loud for Less: Alto TS412",
+        "heading_es": "Fuerte por poco: Alto TS412",
+        "content": "<p><strong>Twenty-five hundred watts and 132 dB for the price of a dinner date.</strong> The TS412 pairs Bluetooth streaming and app control with a 3-channel mixer and fanless Class-D cool — the loudest box per dollar in the 12-inch class.</p><p>The cabinet is molded plastic, there is one XLR out, and custom EQ needs the app. For emerging bands counting every bill, nothing touches it.</p>",
+        "content_es": "<p><strong>Dos mil quinientos vatios y 132 dB por el precio de una cena.</strong> El TS412 junta streaming Bluetooth y app con mezclador de 3 canales y frío Class-D sin ventilador — la caja más fuerte por dólar en 12 pulgadas.</p><p>La caja es plástico moldeado, hay una sola salida XLR, y el EQ personalizado pide la app. Para bandas emergentes que cuentan cada billete, nada lo toca.</p>",
+        "products": [
+          153
+        ]
+      },
+      {
+        "heading": "No Outlet, No Problem: EV EVERSE 12",
+        "heading_es": "Sin enchufe, sin problema: EV EVERSE 12",
+        "content": "<p><strong>Twelve hours of battery, 126 dB and a full mixer where no cable reaches.</strong> The EVERSE 12 runs weddings, street sets and ceremonies on its Li-ion pack, with phantom power, feedback suppression and app control onboard.</p><p>Four hundred watts will not cover big rooms, battery freedom costs premium, and deep lows need a sub. For cordless ceremonies and outdoor gigs, it stands alone.</p>",
+        "content_es": "<p><strong>Doce horas de batería, 126 dB y mezclador completo donde no llega ningún cable.</strong> El EVERSE 12 corre bodas, calle y ceremonias con su pack de litio, con phantom, anti-feedback y app a bordo.</p><p>Cuatrocientos vatios no cubren salas grandes, la libertad a batería cuesta premium, y los graves hondos piden sub. Para ceremonias sin cables y aire libre, no tiene rival.</p>",
+        "products": [
+          626
+        ]
       }
     ],
     "conclusion": "Start with powered speakers (JBL EON712) and a digital mixer (Behringer XR18) for small venues. Scale up to passive speakers with separate amplifiers for larger spaces. Digital mixers with wireless control are the modern standard for live sound.\n\n<a href=\"/guides/best-pa-speakers.html\" class=\"guide-link-btn\">best PA speakers</a> <a href=\"/guides/best-live-sound-mixers.html\" class=\"guide-link-btn\">best live sound mixers</a> <a href=\"/guides/active-vs-passive-pa.html\" class=\"guide-link-btn\">active vs passive PA</a> <a href=\"/guides/best-live-subwoofers.html\" class=\"guide-link-btn\">best live subwoofers</a>",
@@ -24482,6 +24509,18 @@
         {
           "title": "Yamaha Stagepas 1K MKII",
           "title_es": "Yamaha Stagepas 1K MKII"
+        },
+        {
+          "title": "QSC K12.2 Powered Speaker",
+          "title_es": "QSC K12.2 Powered Speaker"
+        },
+        {
+          "title": "Alto Professional TS412",
+          "title_es": "Alto Professional TS412"
+        },
+        {
+          "title": "Electro-Voice EVERSE 12",
+          "title_es": "Electro-Voice EVERSE 12"
         }
       ],
       "rows": [
@@ -24512,6 +24551,18 @@
             {
               "value": "Mobile gigs and street performances",
               "value_es": "presentaciones móviles y actuaciones callejeras"
+            },
+            {
+              "value": "Pro bands and DJs, the reference standard",
+              "value_es": "Bandas y DJs pro, el estándar de referencia"
+            },
+            {
+              "value": "Maximum SPL per dollar for budget gigs",
+              "value_es": "Máximo SPL por dólar para conciertos baratos"
+            },
+            {
+              "value": "Battery-powered outdoor gigs and events",
+              "value_es": "Conciertos y eventos al aire libre a batería"
             }
           ]
         },
@@ -24542,6 +24593,18 @@
             {
               "value": "$1,232.49–$1,450",
               "value_es": "$1,232.49–$1,450"
+            },
+            {
+              "value": "$899.99",
+              "value_es": "$899.99"
+            },
+            {
+              "value": "$349.00–$399",
+              "value_es": "$349.00–$399"
+            },
+            {
+              "value": "$999.00",
+              "value_es": "$999.00"
             }
           ]
         },
@@ -24572,6 +24635,18 @@
             {
               "value": "Column PA",
               "value_es": "PA de columna"
+            },
+            {
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA activo"
+            },
+            {
+              "value": "Powered PA speaker",
+              "value_es": "Altavoz PA activo"
+            },
+            {
+              "value": "Battery-powered PA speaker",
+              "value_es": "Altavoz PA a batería"
             }
           ]
         },
@@ -24602,6 +24677,18 @@
             {
               "value": "2000W",
               "value_es": "2000W"
+            },
+            {
+              "value": "2000W (peak)",
+              "value_es": "2000W (peak)"
+            },
+            {
+              "value": "2500W (peak)",
+              "value_es": "2500W (peak)"
+            },
+            {
+              "value": "400W (peak)",
+              "value_es": "400W (peak)"
             }
           ]
         },
@@ -24632,6 +24719,18 @@
             {
               "value": "10\" sub + 8x 1\" array",
               "value_es": "Sub 10\" + array 8x 1\""
+            },
+            {
+              "value": "12\" + 1.4\" HF",
+              "value_es": "12\" + 1.4\" HF"
+            },
+            {
+              "value": "12\" + 1\" HF",
+              "value_es": "12\" + 1\" HF"
+            },
+            {
+              "value": "12\" + 1\" HF",
+              "value_es": "12\" + 1\" HF"
             }
           ]
         },
@@ -24662,6 +24761,18 @@
             {
               "value": "40 Hz – 20 kHz",
               "value_es": "40 Hz – 20 kHz"
+            },
+            {
+              "value": "50 Hz – 20 kHz",
+              "value_es": "50 Hz – 20 kHz"
+            },
+            {
+              "value": "53 Hz – 20 kHz",
+              "value_es": "53 Hz – 20 kHz"
+            },
+            {
+              "value": "45 Hz – 20 kHz",
+              "value_es": "45 Hz – 20 kHz"
             }
           ]
         },
@@ -24692,6 +24803,18 @@
             {
               "value": "123 dB",
               "value_es": "123 dB"
+            },
+            {
+              "value": "132 dB",
+              "value_es": "132 dB"
+            },
+            {
+              "value": "132 dB",
+              "value_es": "132 dB"
+            },
+            {
+              "value": "126 dB",
+              "value_es": "126 dB"
             }
           ]
         },
@@ -24722,6 +24845,18 @@
             {
               "value": "120° x 30°",
               "value_es": "120° x 30°"
+            },
+            {
+              "value": "75° axisymmetric",
+              "value_es": "75° axisimétrico"
+            },
+            {
+              "value": "90° x 60°",
+              "value_es": "90° x 60°"
+            },
+            {
+              "value": "100° x 60°",
+              "value_es": "100° x 60°"
             }
           ]
         },
@@ -24752,6 +24887,18 @@
             {
               "value": "FX + app EQ",
               "value_es": "FX + EQ por app"
+            },
+            {
+              "value": "Intrinsic Correction DSP + presets",
+              "value_es": "DSP Intrinsic Correction + presets"
+            },
+            {
+              "value": "DSP + app control + Bluetooth",
+              "value_es": "DSP + app + Bluetooth"
+            },
+            {
+              "value": "QuickSmart DSP + app + Bluetooth",
+              "value_es": "QuickSmart DSP + app + Bluetooth"
             }
           ]
         },
@@ -24782,6 +24929,18 @@
             {
               "value": "4x mic/line + Bluetooth + app",
               "value_es": "4x mic/line + Bluetooth + app"
+            },
+            {
+              "value": "2x XLR/combo + 3.5mm + XLR thru",
+              "value_es": "2x XLR/combo + 3,5 mm + XLR thru"
+            },
+            {
+              "value": "2x XLR/combo + XLR out + Bluetooth",
+              "value_es": "2x XLR/combo + XLR salida + Bluetooth"
+            },
+            {
+              "value": "2x XLR/combo + 3.5mm + XLR out",
+              "value_es": "2x XLR/combo + 3,5 mm + XLR salida"
             }
           ]
         },
@@ -24812,6 +24971,18 @@
             {
               "value": "50.7 lb (23.0 kg)",
               "value_es": "23 kg"
+            },
+            {
+              "value": "39 lb (17.7 kg)",
+              "value_es": "39 lb (17,7 kg)"
+            },
+            {
+              "value": "33 lb (15 kg)",
+              "value_es": "33 lb (15 kg)"
+            },
+            {
+              "value": "31.2 lb (14.16 kg)",
+              "value_es": "31,2 lb (14,16 kg)"
             }
           ]
         }
@@ -24990,6 +25161,90 @@
           "El SPL máximo es modesto comparado con altavoces activos más grandes",
           "Sin faders motorizados ni recall digital de escenas",
           "El diseño de columna array significa control limitado de cobertura horizontal"
+        ]
+      },
+      {
+        "name": "QSC K12.2 Powered Speaker",
+        "name_es": "QSC K12.2 Powered Speaker",
+        "pros": [
+          "Industry-standard reliability bands ask for by name",
+          "2000W with 132 dB of clean headroom",
+          "Intrinsic Correction DSP plus deep preset library",
+          "75° axisymmetric coverage fills rooms evenly"
+        ],
+        "cons": [
+          "Premium price over budget boxes",
+          "No battery option for outdoor gigs",
+          "ABS cabinet scuffs with heavy touring",
+          "Menu diving for advanced DSP scenes"
+        ],
+        "pros_es": [
+          "Fiabilidad estándar que las bandas piden por nombre",
+          "2000 W con 132 dB de headroom limpio",
+          "DSP Intrinsic Correction más gran librería de presets",
+          "Cobertura axisimétrica de 75° que llena parejo"
+        ],
+        "cons_es": [
+          "Precio premium frente a cajas baratas",
+          "Sin opción a batería para exteriores",
+          "El ABS se marca con giras duras",
+          "Buceo por menús para escenas DSP avanzadas"
+        ]
+      },
+      {
+        "name": "Alto Professional TS412",
+        "name_es": "Alto Professional TS412",
+        "pros": [
+          "2500W peak and 132 dB for very little money",
+          "Bluetooth streaming plus free app control",
+          "Fanless cooling runs silent and reliable",
+          "Pole, wedge or flown with M10 points"
+        ],
+        "cons": [
+          "Plastic cabinet, not birch ply",
+          "Single XLR output limits linking",
+          "App needed for custom EQ curves",
+          "Resale value below big brands"
+        ],
+        "pros_es": [
+          "2500 W pico y 132 dB por muy poco dinero",
+          "Streaming Bluetooth más app gratis",
+          "Sin ventilador: silenciosa y fiable",
+          "Trípode, cuña o volada con puntos M10"
+        ],
+        "cons_es": [
+          "Caja plástica, no contrachapado",
+          "Una sola salida XLR limita enlaces",
+          "La app es necesaria para EQ personalizada",
+          "Reventa menor que grandes marcas"
+        ]
+      },
+      {
+        "name": "Electro-Voice EVERSE 12",
+        "name_es": "Electro-Voice EVERSE 12",
+        "pros": [
+          "12+ hours of battery for cordless gigs",
+          "126 dB from a 31 lb grab-and-go box",
+          "4-channel mixer with phantom and FX",
+          "IP43 weatherized for outdoor shows"
+        ],
+        "cons": [
+          "400W runs out before big rooms",
+          "Premium price for battery freedom",
+          "Single 12-inch, no deep sub lows",
+          "App pairing fumbles mid-gig sometimes"
+        ],
+        "pros_es": [
+          "12+ horas de batería para conciertos sin cables",
+          "126 dB en caja de 14 kg para llevar",
+          "Mezclador de 4 canales con phantom y FX",
+          "IP43 contra clima para shows fuera"
+        ],
+        "cons_es": [
+          "Los 400 W se quedan cortos en salas grandes",
+          "Precio premium por libertad a batería",
+          "Un solo 12 pulgadas, sin subgraves hondos",
+          "El enlace de app falla a mitad de show a veces"
         ]
       }
     ],

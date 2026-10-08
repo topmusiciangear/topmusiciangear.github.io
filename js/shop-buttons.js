@@ -5158,6 +5158,7 @@ const TEST_SHOP_BTN = {
   623: { prices: { amazon: "$239.00" } },
   624: { prices: { andertons: "£119.00" } },
   625: { prices: { andertons: "£659.00" } },
+  626: { prices: { gear4music: "£879.00" } },
 }
 
 function shortTitle(title) {

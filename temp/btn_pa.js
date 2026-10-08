@@ -1,0 +1,10 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/build-guides.js';
+let src = fs.readFileSync(F, 'utf8');
+const anchor = src.match(/^  625:.*$/m);
+if (!anchor) throw new Error('625 anchor not found');
+src = src.replace(anchor[0], anchor[0] + '\n  626: { prices: { gear4music: "£879.00" } },');
+fs.writeFileSync(F, src);
+const m = src.match(/const TEST_SHOP_BTN\s*=\s*\{([\s\S]*?)\n *\};/);
+const map = Function('return {' + m[1] + '\n}')();
+console.log('626:', JSON.stringify(map[626]));
