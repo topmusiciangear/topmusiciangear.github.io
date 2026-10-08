@@ -78536,8 +78536,7 @@
         "content": "<strong>The JBL PRX918XLF suits social events and weddings, thanks to the Bluetooth EQ.</strong> A 2000-watt peak Class-D amplifier drives the 918SG 18-inch ferrite woofer to 134 dB with a 30-110 Hz response, and the 18 mm birch cabinet stays quiet and tight. The color LCD plus the JBL Pro Connect app give you a 6-band parametric EQ, a lowpass filter and 20 ms of delay, and you can tweak the sound from your phone in the middle of a reception without touching the rack. The fanless design means no mechanical noise when the room goes quiet. Backed by a seven-year warranty, it's and the safest choice if your gig list is full of celebrations.",
         "content_es": "<strong>La JBL PRX918XLF es a la que recurro en eventos sociales y bodas, y la EQ por Bluetooth es el motivo.</strong> Un amplificador Class-D de 2000 vatios de pico mueve el woofer 918SG de ferrita de 18\" hasta 134 dB con una respuesta de 30-110 Hz, y el gabinete de abedul de 18 mm se mantiene silencioso y firme. El LCD a color más la app JBL Pro Connect te dan EQ paramétrica de 6 bandas, un filtro lowpass y 20 ms de delay, y puedes ajustar el sonido desde el móvil en plena recepción sin tocar el rack. El diseño sin ventilador significa cero ruido mecánico cuando la sala se queda en silencio. Con una garantía de siete años, es la opción más segura si tu agenda está llena de celebraciones.",
         "products": [
-          236,
-          109
+          236
         ]
       },
       {
@@ -78550,12 +78549,21 @@
         ]
       },
       {
-        "heading": "JBL PRX ONE: A Closer Look",
-        "heading_es": "JBL PRX ONE: análisis detallado",
-        "content": "<strong>Column-array thinking reframes the subwoofer conversation around the PRX ONE.</strong> Rather than a standalone low-frequency cabinet, this all-in-one system combines a twelve-inch sub section with a seven-channel digital mixer, Bluetooth streaming, and 2000W peak output reaching 130 dB. Setup collapses mixer, loudspeaker, and low-end support into a single trip. Solo operators gain enormously.\n\nThe system suits mobile DJs, duos, and speech events needing quick deployment without separate desks and subs. Integrated mixing trims luggage and cabling. The honest limitation follows the format: column dispersion and compact sub volume cannot displace large dedicated eighteen-inch subs on thunderous dancefloors, so high-energy EDM crowds still demand bigger separated low-frequency artillery.",
-        "content_es": "<strong>El pensamiento de columna replantea la conversación sobre subgraves alrededor del PRX ONE.</strong> Más que un recinto independiente de baja frecuencia, este sistema todo en uno combina una sección de sub de doce pulgadas con mezclador digital de siete canales, reproducción Bluetooth y 2000 W de pico hasta 130 dB. El montaje colapsa mezclador, altavoz y refuerzo grave en un solo viaje. Los operadores en solitario ganan enormemente.\n\nEl sistema encaja con DJs móviles, dúos y actos de palabra que necesitan despliegue veloz sin mesas ni subs separados. La mezcla integrada recorta bultos y cableado. La limitación honesta sigue al formato: la dispersión de columna y el volumen compacto del sub no desplazan a los grandes subs dedicados de dieciocho pulgadas en pistas atronadoras, así que los públicos enérgicos de electrónica todavía exigen artillería grave separada de mayor tamaño.",
+        "heading": "Chest-Thump per Dollar: Alto TS18S",
+        "heading_es": "Pegada por dólar: Alto TS18S",
+        "content": "<p><strong>Twenty-five hundred watts and 137 dB for the price of a dinner date.</strong> The TS18S is the loudest budget 18 there is: braced MDF, DSP tunings for Live and DJ, and phase alignment in four steps so tops and subs agree.</p><p>Ninety-three pounds with no app and no Bluetooth — this is old-school muscle. For emerging bands counting every bill, nothing moves more air per dollar.</p>",
+        "content_es": "<p><strong>Dos mil quinientos vatios y 137 dB por el precio de una cena.</strong> El TS18S es el 18 barato más fuerte que existe: MDF reforzado, DSP para Live y DJ, y alineación de fase en cuatro pasos para que tops y subs se entiendan.</p><p>Cuarenta y dos kilos sin app ni Bluetooth — músculo de la vieja escuela. Para bandas emergentes que cuentan cada billete, nada mueve más aire por dólar.</p>",
         "products": [
-          109
+          630
+        ]
+      },
+      {
+        "heading": "The Touring Default: JBL EON718S",
+        "heading_es": "El estándar itinerante: JBL EON718S",
+        "content": "<p><strong>Fifteen hundred watts of JBL-trusted low end with an LCD on the back.</strong> The EON718S pairs a custom 18 with dbx DriveRack brains — parametric EQ, delay, polarity — plus Bluetooth app control and a birch-ply cab with a 7-year warranty.</p><p>At 81.5 lb it is no featherweight, and you pay for the badge. For DJs and bands who live on the road, it is the safe pair of hands.</p>",
+        "content_es": "<p><strong>Mil quinientos vatios de graves con sello JBL y LCD atrás.</strong> El EON718S junta un 18 a medida con cerebro dbx DriveRack — EQ paramétrico, delay, polaridad — más app Bluetooth y caja de abedul con 7 años de garantía.</p><p>Con 37 kilos no es pluma, y la insignia se paga. Para DJs y bandas que viven en la ruta, es la apuesta segura.</p>",
+        "products": [
+          631
         ]
       }
     ],
@@ -78568,7 +78576,9 @@
       234,
       235,
       236,
-      237
+      237,
+      630,
+      631
     ],
     "description": "Best powered subwoofers 2026 for live bands. QSC KS118 vs RCF SUB 8004-AS vs EV ELX200-18SP vs JBL PRX918XLF vs Yamaha DXS18XLF. Active 18-inch subs",
     "description_es": "Mejores subwoofers activos 2026 para bandas en vivo. Subs activos de 18 pulgadas comparados con precios.",
@@ -78771,33 +78781,59 @@
         ]
       },
       {
-        "name": "JBL PRX ONE",
-        "name_es": "JBL PRX ONE",
+        "name": "Alto Professional TS18S",
+        "name_es": "Alto Professional TS18S",
         "pros": [
-          "2000W peak power with a 12-inch subwoofer for room-filling sound",
-          "Built-in 7-channel digital mixer — no separate board needed",
-          "130dB SPL loud enough for bands and DJs",
-          "All-in-one column array system that stacks the sub and array into one unit"
-        ],
-        "pros_es": [
-          "2000W de potencia pico con subwoofer de 12 pulgadas para un sonido que llena la sala",
-          "Mezclador digital de 7 canales incorporado — sin mesa separada",
-          "130dB SPL suficiente para bandas y DJs",
-          "Sistema column array todo-en-uno que apila el sub y el array en una sola unidad"
+          "2500W peak and 137 dB for very little money",
+          "DSP tunings plus 4-step phase alignment",
+          "Braced MDF cab with pole socket",
+          "Loudest budget 18-inch by far"
         ],
         "cons": [
-          "The most expensive system in the guide",
-          "7-channel mixer limits bigger bands",
-          "Single system — stereo coverage needs a second unit",
-          "At 56.6 lb (25.7 kg) the stacked unit is a two-person job to move",
-          "The 40-degree vertical throw is modest — outdoor crowds need a second array for distance"
+          "93 lb beast, bring a friend",
+          "No Bluetooth or app control",
+          "MDF, not birch ply",
+          "Needs a big van, not a hatchback"
+        ],
+        "pros_es": [
+          "2500 W pico y 137 dB por muy poco dinero",
+          "DSP más alineación de fase en 4 pasos",
+          "Caja MDF reforzada con vaso para mástil",
+          "El 18\" barato más fuerte por lejos"
         ],
         "cons_es": [
-          "El sistema más caro de la guía",
-          "El mezclador de 7 canales limita a bandas más grandes",
-          "Un solo sistema — la cobertura estéreo necesita una segunda unidad",
-          "Con 25.7 kg la unidad apilada es un trabajo para dos personas",
-          "El alcance vertical de 40 grados es modesto — el público exterior necesita un segundo array para la distancia"
+          "Bestia de 42 kg, trae un amigo",
+          "Sin Bluetooth ni app",
+          "MDF, no abedul",
+          "Pide furgón grande, no utilitario"
+        ]
+      },
+      {
+        "name": "JBL EON718S",
+        "name_es": "JBL EON718S",
+        "pros": [
+          "1500W peak with trusted JBL reliability",
+          "dbx DriveRack DSP plus backlit LCD",
+          "Bluetooth app control from the dancefloor",
+          "Birch-ply cab with 7-year warranty"
+        ],
+        "cons": [
+          "81.5 lb, heavier than plastic rivals",
+          "Premium price over budget subs",
+          "No stereo imaging, omni as always",
+          "App pairing fumbles mid-gig sometimes"
+        ],
+        "pros_es": [
+          "1500 W pico con fiabilidad JBL probada",
+          "DSP dbx DriveRack más LCD retroiluminada",
+          "App Bluetooth desde la pista",
+          "Caja de abedul con 7 años de garantía"
+        ],
+        "cons_es": [
+          "37 kg, más pesado que rivales plásticos",
+          "Precio premium sobre subs baratos",
+          "Sin imagen estéreo, omni como siempre",
+          "La app falla a mitad de show a veces"
         ]
       }
     ],
@@ -78824,6 +78860,14 @@
         {
           "title": "Yamaha DXS18XLF",
           "title_es": "Yamaha DXS18XLF"
+        },
+        {
+          "title": "Alto Professional TS18S",
+          "title_es": "Alto Professional TS18S"
+        },
+        {
+          "title": "JBL EON718S",
+          "title_es": "JBL EON718S"
         }
       ],
       "rows": [
@@ -78850,6 +78894,14 @@
             {
               "value": "Touring durability & deepest lows",
               "value_es": "Durabilidad en gira y graves profundos"
+            },
+            {
+              "value": "Maximum chest-thump per dollar, budget gigs",
+              "value_es": "Máxima pegada por dólar, conciertos baratos"
+            },
+            {
+              "value": "Touring DJs and bands, the reliable standard",
+              "value_es": "DJs itinerantes y bandas, el estándar fiable"
             }
           ]
         },
@@ -78876,6 +78928,14 @@
             {
               "value": "~$1,739.99",
               "value_es": "~$1,739.99"
+            },
+            {
+              "value": "$799.00",
+              "value_es": "$799.00"
+            },
+            {
+              "value": "$1,089.00",
+              "value_es": "$1,089.00"
             }
           ]
         },
@@ -78902,6 +78962,14 @@
             {
               "value": "Active, bass reflex",
               "value_es": "Activo, bass reflex"
+            },
+            {
+              "value": "Powered subwoofer",
+              "value_es": "Subwoofer activo"
+            },
+            {
+              "value": "Powered subwoofer",
+              "value_es": "Subwoofer activo"
             }
           ]
         },
@@ -78928,6 +78996,14 @@
             {
               "value": "18\" with 4\" voice coil",
               "value_es": "18\" con bobina de 4\""
+            },
+            {
+              "value": "18\" woofer",
+              "value_es": "18\" woofer"
+            },
+            {
+              "value": "18\" woofer",
+              "value_es": "18\" woofer"
             }
           ]
         },
@@ -78954,6 +79030,14 @@
             {
               "value": "1600W max Class-D",
               "value_es": "1600W máx Class-D"
+            },
+            {
+              "value": "2500W (peak)",
+              "value_es": "2500W (peak)"
+            },
+            {
+              "value": "1500W (peak)",
+              "value_es": "1500W (peak)"
             }
           ]
         },
@@ -78980,6 +79064,14 @@
             {
               "value": "30-150 Hz (-10 dB)",
               "value_es": "30-150 Hz (-10 dB)"
+            },
+            {
+              "value": "35 Hz – 100 Hz",
+              "value_es": "35 Hz – 100 Hz"
+            },
+            {
+              "value": "40 Hz – 120 Hz",
+              "value_es": "40 Hz – 120 Hz"
             }
           ]
         },
@@ -79006,6 +79098,14 @@
             {
               "value": "136 dB",
               "value_es": "136 dB"
+            },
+            {
+              "value": "137 dB",
+              "value_es": "137 dB"
+            },
+            {
+              "value": "131 dB",
+              "value_es": "131 dB"
             }
           ]
         },
@@ -79032,6 +79132,14 @@
             {
               "value": "Yes",
               "value_es": "Sí"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes, stackable",
+              "value_es": "Sí, apilable"
             }
           ]
         },
@@ -79058,6 +79166,14 @@
             {
               "value": "D-XSUB modes + cardioid, FIR-X",
               "value_es": "Modos D-XSUB + cardioide, FIR-X"
+            },
+            {
+              "value": "DSP tunings + phase switch, no app",
+              "value_es": "DSP + fase, sin app"
+            },
+            {
+              "value": "dbx DSP + LCD + Bluetooth app",
+              "value_es": "dbx DSP + LCD + app Bluetooth"
             }
           ]
         },
@@ -79084,6 +79200,14 @@
             {
               "value": "48.9 kg (107.8 lb)",
               "value_es": "48,9 kg (107,8 lb)"
+            },
+            {
+              "value": "93 lb (42.2 kg)",
+              "value_es": "93 lb (42,2 kg)"
+            },
+            {
+              "value": "81.5 lb (37 kg)",
+              "value_es": "81,5 lb (37 kg)"
             }
           ]
         }
