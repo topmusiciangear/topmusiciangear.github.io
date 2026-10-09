@@ -49355,13 +49355,13 @@
           "La entrada más barata a producción autónoma real"
         ],
         "cons": [
-          "Single stereo output limits routing",
+          "USB-C allows up to 24 channels of bidirectional audio (24 in / 24 out) to a computer or compatible interface, so routing is no longer severely limited in the studio",
           "Audible fan noise in quiet rooms",
           "Deep menus slow quick edits",
           "Pads demand firm hits for full velocity"
         ],
         "cons_es": [
-          "Una sola salida estéreo limita el ruteo",
+          "USB-C permite hasta 24 canales de audio bidireccional (24 entradas / 24 salidas) a un ordenador o interfaz compatible, por lo que el ruteo ya no queda muy limitado en el estudio",
           "Ventilador audible en salas silenciosas",
           "Los menús profundos frenan ediciones rápidas",
           "Los pads exigen golpes firmes para toda la velocidad"
@@ -49384,13 +49384,13 @@
         ],
         "cons": [
           "No touchscreen, encoders and buttons only",
-          "Stereo output only, no individual outs",
+          "Overbridge via USB provides individual track outputs directly to the computer in digital format, so the physical output limitation can be bypassed with the official software",
           "Steep learning curve for Elektron newcomers",
           "Overbridge stutters on crowded USB hubs"
         ],
         "cons_es": [
           "Sin pantalla táctil, solo encoders y botones",
-          "Solo salida estéreo, sin salidas individuales",
+          "Overbridge vía USB ofrece salidas individuales por pista directamente al ordenador en formato digital, así que la limitación de salidas físicas puede evitarse con el software oficial",
           "Curva de aprendizaje empinada si vienes de fuera",
           "Overbridge tartamudea en hubs USB saturados"
         ]
@@ -49412,13 +49412,13 @@
         ],
         "cons": [
           "Heavy 2.2 kg chassis, no pocket box",
-          "Single stereo output despite the track count",
+          "6 physical line outputs (3 stereo pairs) inherited from the Live II, plus up to 24 independent audio channels via USB-C",
           "Premium price for the portable privilege",
           "Built-in speaker rattles on sub-bass notes"
         ],
         "cons_es": [
           "Chasis pesado de 2,2 kg, nada de bolsillo",
-          "Una sola salida estéreo pese a tantas pistas",
+          "6 salidas de línea físicas (3 pares estéreo) heredadas del Live II, además de hasta 24 canales de audio independientes vía USB-C",
           "Precio premium por el privilegio portátil",
           "El altavoz integrado vibra con subgraves"
         ]
@@ -49526,13 +49526,13 @@
           "Much larger footprint than desktop MPCs",
           "Seven-inch screen feels small beside the keys",
           "Extra keyboard weight complicates travel",
-          "Touchscreen workflow feels tight next to 37 keys"
+          "MPC 3 OS adds the Linear Arranger (DAW-style linear sequencer), solving the old menu-driven workflow issues for song structuring with a physical keyboard"
         ],
         "cons_es": [
           "Huella mucho mayor que los MPC de escritorio",
           "La pantalla de 7 pulgadas se queda pequeña junto a teclas",
           "El peso extra del teclado complica viajar",
-          "El flujo táctil se queda justo junto a 37 teclas"
+          "MPC 3 OS incorpora el Linear Arranger (secuenciador lineal tipo DAW), resolviendo los antiguos problemas de flujo por menús al estructurar canciones con teclado físico"
         ]
       },
       {
@@ -49597,25 +49597,25 @@
         "pros": [
           "Flagship studio center with 10.1-inch touchscreen",
           "Sixteen motorized Q-Link knobs with OLED screens",
-          "Eight DC-coupled outputs plus interface duties",
+          "16 CV/Gate outputs across 8 TRS connectors",
           "The largest pads and best ergonomics in MPC land"
         ],
         "pros_es": [
           "Centro insignia con pantalla táctil de 10,1 pulgadas",
           "Dieciséis knobs Q-Link motorizados con OLED",
-          "Ocho salidas DC-coupled más funciones de interfaz",
+          "16 salidas CV/Gate en 8 conectores TRS",
           "Los pads más grandes y la mejor ergonomía MPC"
         ],
         "cons": [
           "Flagship price, the dearest box here",
           "Desk-filling footprint, zero portability",
-          "Fan noise can reach sensitive microphones",
+          "The massive chassis dissipates heat passively and efficiently, with no fan noise interfering with close studio microphones",
           "Overkill for producers making simple loops"
         ],
         "cons_es": [
           "Precio insignia, la caja más cara de aquí",
           "Ocupa el escritorio entero, cero portátil",
-          "El ventilador puede llegar a micros sensibles",
+          "El chasis masivo disipa el calor de forma pasiva y eficiente, sin ruido de ventilador que interfiera con micrófonos de estudio cercanos",
           "Excesivo para quien solo hace loops sencillos"
         ]
       }
