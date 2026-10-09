@@ -48951,8 +48951,8 @@
               "value_es": "$299"
             },
             {
-              "value": "$799",
-              "value_es": "$799"
+              "value": "$999",
+              "value_es": "$999"
             },
             {
               "value": "$269",
@@ -49043,12 +49043,12 @@
               "value_es": "4 grupos x 99 patrones"
             },
             {
-              "value": "8 plugin + 8 stereo audio",
-              "value_es": "8 de plugin + 8 de audio estéreo"
+              "value": "32 plugin + 16 stereo audio",
+              "value_es": "32 de plugin + 16 de audio estéreo"
             },
             {
-              "value": "48 samples (8 banks x 6 pads)",
-              "value_es": "48 samples (8 bancos x 6 pads)"
+              "value": "6 audio tracks",
+              "value_es": "6 pistas de audio"
             },
             {
               "value": "8 monophonic audio tracks",
@@ -49069,8 +49069,8 @@
               "value_es": "4 GB RAM / 64 GB almacenamiento"
             },
             {
-              "value": "400 MB RAM / 20 GB storage",
-              "value_es": "400 MB RAM / 20 GB almacenamiento"
+              "value": "400 MB per project / 20 GB internal",
+              "value_es": "400 MB por proyecto / 20 GB internos"
             },
             {
               "value": "8 GB RAM / 128 GB storage",
@@ -49089,8 +49089,8 @@
               "value_es": "128 MB internos (999 slots)"
             },
             {
-              "value": "2 GB RAM / 32 GB storage",
-              "value_es": "2 GB RAM / 32 GB almacenamiento"
+              "value": "4 GB RAM / 64 GB storage",
+              "value_es": "4 GB RAM / 64 GB almacenamiento"
             },
             {
               "value": "285 s mono total (140 s stereo)",
@@ -49101,8 +49101,8 @@
               "value_es": "228 s por pack + microSD"
             },
             {
-              "value": "4 GB RAM / 48 GB + SATA bay",
-              "value_es": "4 GB RAM / 48 GB + bahía SATA"
+              "value": "16 GB RAM / 256 GB NVMe SSD + SATA bay",
+              "value_es": "16 GB RAM / SSD NVMe 256 GB + bahía SATA"
             }
           ]
         },
@@ -49211,8 +49211,8 @@
               "value_es": "2x 1/4\" entrada, 2x 1/4\" salida, auriculares"
             },
             {
-              "value": "2x XLR/TRS combo in, RCA in, 6x 1/4\" out, headphone",
-              "value_es": "2x XLR/TRS combo entrada, RCA entrada, 6x 1/4\" salida, auriculares"
+              "value": "2x 1/4\" line in, Phono RCA in, 6x 1/4\" out, headphone",
+              "value_es": "2x 1/4\" entrada de línea, entrada RCA Phono, 6x 1/4\" salida, auriculares"
             },
             {
               "value": "2x 1/4\" in, mic/guitar in, 2x 1/4\" out, 2x headphones",
@@ -49239,8 +49239,8 @@
               "value_es": "2x 1/4\" entrada, 2x 1/4\" salida, auriculares"
             },
             {
-              "value": "2x XLR/TRS combo in, 2x 1/4\" in, phono in, 8x 1/4\" out, 2x headphones",
-              "value_es": "2x XLR/TRS combo entrada, 2x 1/4\" entrada, phono entrada, 8x 1/4\" salida, 2x auriculares"
+              "value": "2x XLR/TRS combo in, 2x 1/4\" line in, Phono RCA in, 2x TS instrument in, 8x 1/4\" out, 2x headphones",
+              "value_es": "2x XLR/TRS combo entrada, 2x 1/4\" entrada de línea, entrada RCA Phono, 2x TS instrumento entrada, 8x 1/4\" salida, 2x auriculares"
             }
           ]
         },
@@ -49285,8 +49285,8 @@
               "value_es": "USB-C, MIDI entrada/salida/thru, sync salida"
             },
             {
-              "value": "2x USB-A, USB-B, 2x MIDI in, 4x MIDI out, 8x CV/Gate",
-              "value_es": "2x USB-A, USB-B, 2x MIDI entrada, 4x MIDI salida, 8x CV/Gate"
+              "value": "2x USB-A, USB-B, 2x MIDI in, 4x MIDI out, 16x CV/Gate via 8x TRS",
+              "value_es": "2x USB-A, USB-B, 2x MIDI entrada, 4x MIDI salida, 16x CV/Gate mediante 8x TRS"
             }
           ]
         },
@@ -49295,8 +49295,8 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "2.1 kg",
-              "value_es": "2,1 kg"
+              "value": "2.6 kg",
+              "value_es": "2,6 kg"
             },
             {
               "value": "1.48 kg",
@@ -49319,8 +49319,8 @@
               "value_es": "0,62 kg"
             },
             {
-              "value": "4.0 kg",
-              "value_es": "4,0 kg"
+              "value": "4.35 kg",
+              "value_es": "4,35 kg"
             },
             {
               "value": "0.30 kg",
@@ -49331,8 +49331,8 @@
               "value_es": "0,78 kg"
             },
             {
-              "value": "5.6 kg",
-              "value_es": "5,6 kg"
+              "value": "7.2 kg",
+              "value_es": "7,2 kg"
             }
           ]
         }
