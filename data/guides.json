@@ -4916,7 +4916,17 @@
     "conclusion_es": "Empieza con plugins gratuitos (TDR Nova, Valhalla Supermassive, Voxengo SPAN) y actualiza premium a medida que identifiques qué necesitas. FabFilter Pro-Q es la mejor opción inversión de plugin para mezcla. Los plugins modelados de hardware agregan carácter pero no son necesarios para buenas mezclas. <a href=\"/guides/pro-plugins_es.html\" class=\"guide-link-btn\">guía de plugins profesionales</a> <a href=\"/guides/mixing-plugins_es.html\" class=\"guide-link-btn\">mejores plugins de mezcla</a> <a href=\"/guides/vocal-plugins_es.html\" class=\"guide-link-btn\">mejores plugins para vocales</a> <a href=\"/guides/fabfilter-vs-ozone_es.html\" class=\"guide-link-btn\">FabFilter vs Ozone</a> <span style=\"color:#f59e0b;font-size:13px\">Ciertas compras en Plugin Boutique incluyen un regalo gratuito — elige entre una selección según cuánto gastes <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a></span>",
     "verdict": "FabFilter Pro-Q for EQ, Valhalla VintageVerb for reverb, TDR Nova for free dynamic EQ, Universal Audio 1176 for analog character.",
     "verdict_es": "FabFilter Pro-Q para EQ, Valhalla VintageVerb para reverb, TDR Nova para EQ dinámico gratuito y Universal Audio 1176 para carácter analógico.",
-    "featuredProducts": [],
+    "featuredProducts": [
+      29,
+      62,
+      63,
+      30,
+      32,
+      120,
+      123,
+      61,
+      121
+    ],
     "relatedGuides": [
       "mixing-plugins",
       "fx-plugins",
@@ -5030,6 +5040,14 @@
         {
           "title": "Native Instruments Komplete 26 Ultimate",
           "title_es": "Native Instruments Komplete 26 Definitivo"
+        },
+        {
+          "title": "TDR Kotelnikov GE",
+          "title_es": "TDR Kotelnikov GE"
+        },
+        {
+          "title": "Universal Audio UAD Ultimate 14",
+          "title_es": "Universal Audio UAD Ultimate 14"
         }
       ],
       "rows": [
