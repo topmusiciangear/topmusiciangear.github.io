@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/best-monitors-for-small-rooms.html', 'utf8');
+const i = h.indexOf('632:');
+console.log('632 entry found: ' + (i >= 0));
+if (i >= 0) console.log(h.slice(i, i + 600));
+console.log('has \\u00A3: ' + h.includes('\\u00A3'));
+const sb = fs.readFileSync('js/shop-buttons.js', 'utf8');
+const j = sb.indexOf('632:');
+console.log('shop-buttons 632 found: ' + (j >= 0));
+if (j >= 0) console.log(sb.slice(j, j + 400));

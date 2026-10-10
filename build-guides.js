@@ -5555,8 +5555,9 @@ const TEST_SHOP_BTN = {
   632: {
     prices: {
       andertons: "£145.00",
-      gear4music: "£152.00",
-      zzounds: "$199.99"
+      gear4music: "£150.00",
+      zzounds: "$200.00",
+      musicstore: "€165.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS5-Active-Studio-Monitor/QSS",

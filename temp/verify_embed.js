@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/best-monitors-for-small-rooms.html', 'utf8');
+console.log('has 116: ' + (h.indexOf('116:') >= 0));
+console.log('has TEST_SHOP_BTN: ' + h.includes('TEST_SHOP_BTN'));
+console.log('has shop-buttons.js script tag: ' + h.includes('shop-buttons.js'));
+console.log('has Yamaha HS5: ' + (h.split('Yamaha HS5').length - 1));
+console.log('has 145.00: ' + h.includes('145.00'));
+console.log('has 150.00: ' + h.includes('150.00'));
+console.log('has 200.00: ' + h.includes('200.00'));
+console.log('has 165.00: ' + h.includes('165.00'));
