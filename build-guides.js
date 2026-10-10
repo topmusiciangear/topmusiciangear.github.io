@@ -5552,6 +5552,18 @@ const TEST_SHOP_BTN = {
   629: { prices: { andertons: "\u00a31,079.00", gear4music: "\u00a31,079.00", zzounds: "$1,199.00", musicstore: "\u20ac1,219.00" }, urls: { andertons: "https://www.andertons.co.uk/fender-tone-master-deluxe-reverb-1x12-guitar-amp-combo/", zzounds: "https://www.zzounds.com/item--FEN2274100?siid=264387", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-Tone-Master-Deluxe-Reverb/art-GIT0050563-000" } },
   630: { prices: { andertons: "\u00a3575.00", gear4music: "\u00a3579.00", zzounds: "$799.00" }, urls: { andertons: "https://www.andertons.co.uk/alto-professional-ts18s-x-subwoofer/?search_query=Alto%20Professional%20TS18S", zzounds: "https://www.zzounds.com/item--APATS18SXUS?siid=339921" } },
   631: { prices: { andertons: "\u00a3833.00", gear4music: "\u00a3825.00", zzounds: "$1,099.00", musicstore: "\u20ac1,099.00" }, urls: { musicstore: "https://www.musicstore.com/en_OE/EUR/JBL-EON-718S/art-PAH0022714-000", andertons: "https://www.andertons.co.uk/jbl-eon718s-18-15kw-subwoofer-with-3-channel-mixer-dsp-bluetooth/", zzounds: "https://www.zzounds.com/item--JBLEON718S?siid=308811" } },
+  632: {
+    prices: {
+      andertons: "£145.00",
+      gear4music: "£152.00",
+      zzounds: "$199.99"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS5-Active-Studio-Monitor/QSS",
+      zzounds: "https://www.zzounds.com/a--925521/item--YAMHS5",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-5-5-/art-REC0010557-000"
+    }
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}

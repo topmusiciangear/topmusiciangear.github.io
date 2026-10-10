@@ -1,0 +1,32 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const guide = g.find(x => x.id === 'best-monitors-for-small-rooms');
+const cols = guide.productTable.columns.map(c => c.title);
+console.log('COLS: ' + cols.join(' | '));
+console.log('');
+console.log('TABLE VALUES (col0 JBL, col2 Rokit):');
+guide.productTable.rows.forEach(r => {
+  console.log('[' + r.label + ']');
+  console.log('  JBL: ' + JSON.stringify(r.values[0]));
+  console.log('  Rokit: ' + JSON.stringify(r.values[2]));
+});
+console.log('');
+[0, 1, 3, 12].forEach(i => {
+  const s = guide.sections[i];
+  console.log('=== SEC ' + i + ' :: ' + s.heading + ' | prods=' + JSON.stringify(s.products));
+  console.log('EN: ' + s.content);
+  console.log('ES: ' + s.content_es);
+  console.log('');
+});
+const vpc = guide.verdictProsCons.find(v => v.name.includes('Rokit'));
+console.log('=== VERDICT Rokit ===');
+console.log(JSON.stringify(vpc, null, 1));
+console.log('=== CONCLUSION ===');
+console.log('EN: ' + guide.conclusion);
+console.log('ES: ' + guide.conclusion_es);
+console.log('=== VERDICT ===');
+console.log('EN: ' + guide.verdict);
+console.log('ES: ' + guide.verdict_es);
+console.log('=== FAQ ===');
+const sn = guide.featuredSnippet || {};
+Object.keys(sn).filter(k => k.startsWith('faq_')).forEach(k => console.log(k + ': ' + sn[k]));
