@@ -736,3 +736,5 @@ La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
 - `data/price-history.json` es la memoria del bot; se versiona en el repo para que el historial persista entre corridas.
 
 **Chequeo manual:** `node auto-deals.js` → verifica en `deals.html`/`deals_es.html`: header completo + `bg-hero` + botón azul `guide-back-btn` + cuadrícula + precio original tachado (`text-decoration: line-through`) + iconos de las 7 tiendas + hreflang/canonical por idioma.
+
+**REGLA FIJA del usuario (11/10/2026): rondas de ofertas cubren las 7 tiendas.** En cada ronda de caza de ofertas para Telegram (sesión manual con búsqueda web real), buscar rebajas en **Andertons, Plugin Boutique, zZounds, Music Store, Gear4Music, Amazon y Reverb** — NO solo Andertons/PB. `telegram-deals.js` ya acepta las 7 (`parseDeal` + moneda inferida del mensaje); basta publicar `Título + Tienda + Was: £X -> Now: £Y + Buy here` y el cron lo importa solo.
