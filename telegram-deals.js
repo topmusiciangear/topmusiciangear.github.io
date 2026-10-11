@@ -7,11 +7,26 @@ const path = require('path');
 // "Was: £X Now: £Y (-%) Buy here"), and writes them into data/manual-deals.json.
 // These are real, bot-verified prices, so they merge into the deals page on
 // every auto-deals run and are never overwritten.
+//
+// Expiry rule (user directive): a telegram deal stays listed while the channel
+// keeps posting it. If it hasn't been seen in the channel for 2+ days, the
+// offer is assumed over and it is dropped automatically. Only source:
+// 'telegram' entries expire; other sources are never touched. If the channel
+// can't be read or parses to zero deals, the existing file is kept untouched.
 
 const OUT_DIR = __dirname;
 const PRODUCTS = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'data', 'products.json'), 'utf8'));
 const MANUAL_FILE = path.join(OUT_DIR, 'data', 'manual-deals.json');
 const CHANNEL_URL = 'https://t.me/s/topmusiciangear';
+
+// BLOCKLIST: deals the user removed by hand. Even if the channel keeps
+// posting them, they are never written back. Add titles here (case-insensitive
+// substring match) when the user says "elimina este de ofertas".
+const BLOCKLIST = ['Sennheiser e604 3-Pack', 'RCF ART 710-A MK5'];
+function isBlocked(title) {
+  const t = (title || '').toLowerCase();
+  return BLOCKLIST.some(b => t.indexOf(b.toLowerCase()) > -1);
+}
 
 function byTitle(t) {
   const q = (t || '').toLowerCase().replace(/[^\x20-\x7E]/g, '').trim();
@@ -73,10 +88,12 @@ async function main() {
   const deals = [];
   const seenId = new Set();
   const seenTitle = new Set();
+  const today = new Date().toISOString().slice(0, 10);
   for (const msg of messages) {
     if (!/Was:/.test(msg)) continue;
     const d = parseDeal(msg);
     if (!d) continue;
+    if (isBlocked(d.title)) { console.log(`  blocked, skipped: ${d.title}`); continue; }
     if (seenTitle.has(d.title)) continue;
     seenTitle.add(d.title);
 
@@ -98,14 +115,43 @@ async function main() {
       badge_es: `Ahorra ${sym}${(d.was - d.now).toFixed((d.was - d.now) % 1 ? 1 : 0)}`,
       desc: (prod && prod.desc) || d.title,
       desc_es: (prod && prod.desc_es) || (prod && prod.title_es) || d.title,
-      date_added: new Date().toISOString().slice(0, 10),
+      date_added: today,
+      last_seen: today,
       source: 'telegram'
     });
     console.log(`  ${d.title}: ${sym}${d.was} -> ${sym}${d.now} (${d.store})${prod ? '' : ' [NO MATCH]'}`);
   }
 
-  fs.writeFileSync(MANUAL_FILE, JSON.stringify(deals, null, 2) + '\n', 'utf8');
-  console.log('telegram-deals: wrote', deals.length, 'deals to data/manual-deals.json');
+  // Guard: successful fetch but zero parsed deals = probable format change,
+  // not "all offers over". Keep the existing file untouched.
+  if (!deals.length) {
+    console.log('telegram-deals: WARNING 0 parsed deals, keeping existing file');
+    return;
+  }
+
+  // Merge with previous file: refresh last_seen for re-posted deals, keep
+  // first date_added. Drop source:'telegram' deals unseen for 2+ days.
+  // Other sources are never expired here.
+  let prev = [];
+  try { prev = JSON.parse(fs.readFileSync(MANUAL_FILE, 'utf8')); } catch (e) { prev = []; }
+  const prevByKey = new Map(prev.map(p => [`${p.title}||${p.store}`, p]));
+  const out = deals.map(d => {
+    const old = prevByKey.get(`${d.title}||${d.store}`);
+    if (old) { d.date_added = old.date_added || d.date_added; }
+    return d;
+  });
+  const cutoff = new Date(Date.parse(today + 'T00:00:00Z') - 2 * 86400000).toISOString().slice(0, 10);
+  for (const p of prev) {
+    if (p.source !== 'telegram') continue; // other sources: never expire here
+    if (isBlocked(p.title)) { console.log(`  blocked, dropped: ${p.title}`); continue; }
+    const key = `${p.title}||${p.store}`;
+    if (out.some(d => `${d.title}||${d.store}` === key)) continue; // re-posted
+    if ((p.last_seen || p.date_added || today) >= cutoff) out.push(p); // grace: <2 days unseen
+    else console.log(`  expired, dropped: ${p.title} (${p.store}, last seen ${p.last_seen || p.date_added || '?'})`);
+  }
+
+  fs.writeFileSync(MANUAL_FILE, JSON.stringify(out, null, 2) + '\n', 'utf8');
+  console.log('telegram-deals: wrote', out.length, 'deals to data/manual-deals.json');
 }
 
 main().catch(e => { console.error('telegram-deals error:', e.message); process.exit(1); });
