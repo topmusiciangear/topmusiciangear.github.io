@@ -5164,6 +5164,18 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-5-5-/art-REC0010557-000"
     }
   },
+  633: {
+    prices: {
+      gear4music: "£141.00",
+      zzounds: "$199.00",
+      musicstore: "€195.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP5-G5-Studio-Monitor-Single/674P",
+      zzounds: "https://www.zzounds.com/a--925521/item--KRKRP5G5NA",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/KRK-Rokit-RP5-G5/art-REC0016599-000"
+    }
+  },
 }
 
 function shortTitle(title) {

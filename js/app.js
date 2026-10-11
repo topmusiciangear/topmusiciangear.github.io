@@ -748,7 +748,7 @@ function findProductGuides(productId) {
     for (var i = 0; i < names.length; i++) {
       var n = normName(names[i]);
       if (!n || n.length < 4) continue;
-      if (pt.indexOf(n) === 0 || n.indexOf(pt) === 0 || (pte && (pte.indexOf(n) === 0 || n.indexOf(pte) === 0))) {
+      if (n === pt || (pte && n === pte)) {
         pushGuide(g);
         break;
       }

@@ -5565,6 +5565,18 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-5-5-/art-REC0010557-000"
     }
   },
+  633: {
+    prices: {
+      gear4music: "£141.00",
+      zzounds: "$199.00",
+      musicstore: "€195.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP5-G5-Studio-Monitor-Single/674P",
+      zzounds: "https://www.zzounds.com/a--925521/item--KRKRP5G5NA",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/KRK-Rokit-RP5-G5/art-REC0016599-000"
+    }
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}

@@ -7686,7 +7686,8 @@
       3,
       252,
       253,
-      291
+      291,
+      518
     ],
     "relatedGuides": [
       "best-microphone",
@@ -13113,7 +13114,8 @@
       198,
       605,
       606,
-      608
+      608,
+      57
     ],
     "relatedGuides": [
       "dt770-vs-dt990",
@@ -18378,7 +18380,9 @@
     "verdict_es": "El U 87 Ai es el micrófono de voces que marca el estándar — si puedes justificarlo, es una compra para toda la vida. Elige el C414 cuando necesites un micrófono que se adapte a voces, instrumentos y distintos patrones polares.",
     "featuredProducts": [
       2,
-      4
+      4,
+      196,
+      297
     ],
     "relatedGuides": [
       "c414-vs-u87",
@@ -46794,6 +46798,15 @@
         "content_es": "<p><strong>El Genelec 8030C es la elección de los profesionales cuando el espacio es ajustado pero el compromiso no — un monitor compacto de 5 pulgadas fabricado en Finlandia con el mismo gabinete de aluminio fundido MDE y la guía de onda DCW que se encuentran en la serie 8000 de alta gama de Genelec.</strong> Dos amplificadores Clase-D de 50W impulsan un woofer de 130 mm y un tweeter de cúpula metálica de 19 mm hasta 104 dB SPL, con una respuesta de 47 Hz a 25 kHz (-6 dB) y precisión de ±2 dB de 54 Hz a 20 kHz — la tolerancia más ajustada de esta guía.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El soporte Iso-Pod desacopla el monitor de tu escritorio y te permite inclinarlo para un alineamiento acústico preciso. Los interruptores de compensación de respuesta de sala en el panel trasero (inclinación de graves, inclinación de agudos, atenuación de graves, control de escritorio) te permiten ajustar la respuesta para tu colocación exacta — cerca de una pared, en un escritorio o en soportes. El auto-standby ISS ahorra energía cuando te alejas.</p><p><strong>El inconveniente: </strong>Con un precio de alrededor de $599 por unidad, es el monitor de 5 pulgadas más caro de esta guía, y necesitarás un par para mezcla estéreo. Pero la calidad de construcción, la consistencia entre unidades y la respuesta plana lo convierten en el estándar de referencia en estudios de proyecto en todo el mundo. Si tu presupuesto lo permite, este es el monitor con el que crecerás.</p>"
       },
       {
+        "heading": "KRK Rokit 5 G5: DSP Room Tuning on a Budget",
+        "heading_es": "KRK Rokit 5 G5: afinación DSP de sala con poco presupuesto",
+        "content": "<p><strong>The only monitor under $400 a pair with a rear LCD, DSP room tuning and three voicings in one box.</strong> The Rokit 5 G5 pairs a 5-inch Kevlar woofer with a 1-inch silk-dome tweeter, bi-amped at 55W Class-D, delivering 54 Hz – 30 kHz with the flat Mix voicing plus Focus (mid-forward) and Create (inspiring) modes — three monitors in one for writing, checking mids and final mixing.</p><p><strong>Why it works in small rooms: </strong>The front-firing slot port sits inches from the wall without muddy bass, and 25 boundary/EQ combinations plus the KRK App dial out room modes without extra software. At 28.8 x 19.1 x 24.2 cm it fits cramped desks while moving enough air for honest low-end calls.</p><p><strong>Sound signature: </strong>Flat and precise in Mix mode — a different animal from the bass-hyped KRKs of old — with Focus mode exposing vocal-range problems other monitors gloss over. The 5-inch cone runs out of steam below 54 Hz, so check sub lows on headphones. At ~$199 each (~$398 a pair), no rival packs DSP, three voicings and a front port for less.</p>",
+        "content_es": "<p><strong>El único monitor por menos de $400 el par con LCD trasera, afinación DSP de sala y tres modos en una sola caja.</strong> El Rokit 5 G5 junta un woofer de Kevlar de 5 pulgadas con una cúpula de seda de 1 pulgada, biamplificados a 55W en Clase-D, entregando 54 Hz – 30 kHz con el modo plano Mix más los modos Focus (medios al frente) y Create (inspirador) — tres monitores en uno para componer, revisar medios y mezclar de verdad.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El puerto ranurado frontal se pega a la pared sin embarrar los graves, y 25 combinaciones Boundary/EQ más la KRK App eliminan los modos de sala sin software extra. Con 28.8 x 19.1 x 24.2 cm cabe en escritorios apretados moviendo aire suficiente para decidir graves con honestidad.</p><p><strong>Firma sonora: </strong>Plano y preciso en modo Mix — otra especie frente a los KRK antiguos de graves inflados — con el modo Focus exponiendo problemas vocales que otros monitores disimulan. El cono de 5 pulgadas se queda sin fuelle bajo 54 Hz, así que revisa los subgraves en auriculares. A ~$199 cada uno (~$398 el par), ningún rival mete DSP, tres modos y puerto frontal por menos.</p>",
+        "products": [
+          633
+        ]
+      },
+      {
         "heading": "What Acoustic Treatment Do You Need for Small-Room Mixing?",
         "heading_es": "¿Qué tratamiento acústico necesitas para mezclar en salas pequeñas?",
         "products": [
@@ -46805,10 +46818,10 @@
         "skipMedia": true
       }
     ],
-    "conclusion": "For most small rooms, The JBL 305P MkII is the best choice for most small rooms with Boundary EQ and wide waveguide for neutral response — its Boundary EQ, wide waveguide and neutral response deliver the most accuracy for the money. Want more low end without jumping to 7 inches? The Kali LP-6 V2 is the best 6.5-inch pick with front port and Boundary EQ for near-wall placement, with a front port and Boundary EQ for near-wall placement. For the industry-standard reference that translates everywhere, the Yamaha HS5 (around $398 a pair) brings brutally honest midrange plus Room Control and HIGH TRIM switches to tame small-room bass. On a cramped desk, the ADAM D3V brings ribbon-tweeter detail, the Kali LP-UNF brings near-wall bass with Boundary EQ, the iLoud Micro Monitor Pro is the backpack-sized reference, and the iLoud MTM MKII is the most powerful compact for serious mixing. The Neumann KH 80 DSP is the most adjustable monitor here for room correction, the Genelec 8010A is the reference compact for those who can pay for it, the ADAM T5V brings ADAM's ribbon-tweeter detail at the most affordable price in this guide, and the Genelec 8030C is the professional reference with the tightest ±2 dB tolerance. Whichever you choose, invest in bass traps and first-reflection absorption before upgrading your monitors.  <a href=\"/guides/jbl-vs-kali.html\" class=\"guide-link-btn\">JBL 305P vs Kali LP-6</a> <a href=\"/guides/adam-vs-genelec.html\" class=\"guide-link-btn\">Adam A7V vs Genelec 8040B</a></p>",
-    "conclusion_es": "Para la mayoría de las salas pequeñas, los JBL 305P MkII son la mejor elección — su Boundary EQ, guía de onda amplia y respuesta neutra entregan la mayor precisión por su precio. ¿Quieres más graves sin saltar a 7 pulgadas? El Kali LP-6 V2 es la mejor opción opción de 6.5 pulgadas, con puerto frontal y Boundary EQ para colocación cerca de la pared. Para la referencia estándar que se traduce en todas partes, el Yamaha HS5 (unos $398 el par) aporta un rango medio brutalmente honesto más interruptores Room Control y HIGH TRIM para domar los graves de salas pequeñas. En un escritorio apretado, el ADAM D3V aporta detalle de tweeter de cinta, el Kali LP-UNF aporta graves cerca de la pared con Boundary EQ, el iLoud Micro Monitor Pro es la referencia del tamaño de una mochila, y el iLoud MTM MKII es el compacto más potente para mezcla seria. El Neumann KH 80 DSP es el monitor más ajustable de esta guía para corrección de sala, el Genelec 8010A es el compacto de referencia para quien pueda pagarlo, el ADAM T5V aporta el detalle de tweeter de cinta de ADAM al precio más asequible de esta guía, y el Genelec 8030C es la referencia profesional con la tolerancia más ajustada de ±2 dB. Sea cual sea tu elección, invierte en trampas de graves y absorción de primeras reflexiones antes de actualizar las monitores. <p>También te interesa: <a href=\"/guides/jbl-vs-kali_es.html\" class=\"guide-link-btn\">JBL 305P vs Kali LP-6</a> <a href=\"/guides/adam-vs-genelec_es.html\" class=\"guide-link-btn\">Adam A7V vs Genelec 8040B</a></p>",
-    "verdict": "The JBL 305P MkII is the top pick for most small rooms — the most accurate monitor per pair. Want more bass without the 7-inch jump? The Kali LP-6 V2 is the best 6.5-inch pick with front port and Boundary EQ for near-wall placement, with front port and Boundary EQ for near-wall placement. For the reference standard that translates everywhere, the Yamaha HS5 is the honest midrange king with room-tuning switches. On a tight desk, the ADAM D3V and Kali LP-UNF bring ribbon-tweeter detail and near-wall bass, while the iLoud Micro Monitor Pro is the ultra-compact champ. For serious compact mixing, the iLoud MTM MKII and Neumann KH 80 DSP give you the most control — the Genelec 8010A is the reference compact, the ADAM T5V brings ribbon-tweeter detail at the lowest price, and the Genelec 8030C is the professional reference with the tightest tolerance.",
-    "verdict_es": "El JBL 305P MkII es la opción principal para la mayoría de las salas pequeñas — el monitor más preciso por el par. ¿Quieres más graves sin saltar a 7 pulgadas? El Kali LP-6 V2 es la mejor opción opción de 6.5 pulgadas, con puerto frontal y Boundary EQ para colocación cerca de la pared. Para la referencia estándar que se traduce en todas partes, el Yamaha HS5 es el rey del rango medio honesto con interruptores de ajuste de sala. En un escritorio apretado, el ADAM D3V y el Kali LP-UNF aportan detalle de tweeter de cinta y graves cerca de la pared, mientras el iLoud Micro Monitor Pro es el campeón ultracompacto. Para mezcla compacta seria, el iLoud MTM MKII y el Neumann KH 80 DSP te dan el mayor control — el Genelec 8010A es el compacto de referencia, el ADAM T5V aporta detalle de tweeter de cinta al precio más bajo, y el Genelec 8030C es la referencia profesional con la tolerancia más ajustada.",
+    "conclusion": "For most small rooms, The JBL 305P MkII is the best choice for most small rooms with Boundary EQ and wide waveguide for neutral response — its Boundary EQ, wide waveguide and neutral response deliver the most accuracy for the money. Want more low end without jumping to 7 inches? The Kali LP-6 V2 is the best 6.5-inch pick with front port and Boundary EQ for near-wall placement, with a front port and Boundary EQ for near-wall placement. For the industry-standard reference that translates everywhere, the Yamaha HS5 (around $398 a pair) brings brutally honest midrange plus Room Control and HIGH TRIM switches to tame small-room bass. On a cramped desk, the ADAM D3V brings ribbon-tweeter detail, the Kali LP-UNF brings near-wall bass with Boundary EQ, the iLoud Micro Monitor Pro is the backpack-sized reference, and the iLoud MTM MKII is the most powerful compact for serious mixing. The Neumann KH 80 DSP is the most adjustable monitor here for room correction, the Genelec 8010A is the reference compact for those who can pay for it, the ADAM T5V brings ADAM's ribbon-tweeter detail at the most affordable price in this guide, and the Genelec 8030C is the professional reference with the tightest ±2 dB tolerance. The KRK Rokit 5 G5 adds DSP room correction with three voicings for under $400 a pair. Whichever you choose, invest in bass traps and first-reflection absorption before upgrading your monitors.  <a href=\"/guides/jbl-vs-kali.html\" class=\"guide-link-btn\">JBL 305P vs Kali LP-6</a> <a href=\"/guides/adam-vs-genelec.html\" class=\"guide-link-btn\">Adam A7V vs Genelec 8040B</a></p>",
+    "conclusion_es": "Para la mayoría de las salas pequeñas, los JBL 305P MkII son la mejor elección — su Boundary EQ, guía de onda amplia y respuesta neutra entregan la mayor precisión por su precio. ¿Quieres más graves sin saltar a 7 pulgadas? El Kali LP-6 V2 es la mejor opción opción de 6.5 pulgadas, con puerto frontal y Boundary EQ para colocación cerca de la pared. Para la referencia estándar que se traduce en todas partes, el Yamaha HS5 (unos $398 el par) aporta un rango medio brutalmente honesto más interruptores Room Control y HIGH TRIM para domar los graves de salas pequeñas. En un escritorio apretado, el ADAM D3V aporta detalle de tweeter de cinta, el Kali LP-UNF aporta graves cerca de la pared con Boundary EQ, el iLoud Micro Monitor Pro es la referencia del tamaño de una mochila, y el iLoud MTM MKII es el compacto más potente para mezcla seria. El Neumann KH 80 DSP es el monitor más ajustable de esta guía para corrección de sala, el Genelec 8010A es el compacto de referencia para quien pueda pagarlo, el ADAM T5V aporta el detalle de tweeter de cinta de ADAM al precio más asequible de esta guía, y el Genelec 8030C es la referencia profesional con la tolerancia más ajustada de ±2 dB. El KRK Rokit 5 G5 añade corrección DSP de sala con tres modos por menos de $400 el par. Sea cual sea tu elección, invierte en trampas de graves y absorción de primeras reflexiones antes de actualizar las monitores. <p>También te interesa: <a href=\"/guides/jbl-vs-kali_es.html\" class=\"guide-link-btn\">JBL 305P vs Kali LP-6</a> <a href=\"/guides/adam-vs-genelec_es.html\" class=\"guide-link-btn\">Adam A7V vs Genelec 8040B</a></p>",
+    "verdict": "The JBL 305P MkII is the top pick for most small rooms — the most accurate monitor per pair. Want more bass without the 7-inch jump? The Kali LP-6 V2 is the best 6.5-inch pick with front port and Boundary EQ for near-wall placement, with front port and Boundary EQ for near-wall placement. For the reference standard that translates everywhere, the Yamaha HS5 is the honest midrange king with room-tuning switches. On a tight desk, the ADAM D3V and Kali LP-UNF bring ribbon-tweeter detail and near-wall bass, while the iLoud Micro Monitor Pro is the ultra-compact champ. For serious compact mixing, the iLoud MTM MKII and Neumann KH 80 DSP give you the most control — the Genelec 8010A is the reference compact, the ADAM T5V brings ribbon-tweeter detail at the lowest price, and the Genelec 8030C is the professional reference with the tightest tolerance. The KRK Rokit 5 G5 adds DSP tuning with three voicings under $400 a pair.",
+    "verdict_es": "El JBL 305P MkII es la opción principal para la mayoría de las salas pequeñas — el monitor más preciso por el par. ¿Quieres más graves sin saltar a 7 pulgadas? El Kali LP-6 V2 es la mejor opción opción de 6.5 pulgadas, con puerto frontal y Boundary EQ para colocación cerca de la pared. Para la referencia estándar que se traduce en todas partes, el Yamaha HS5 es el rey del rango medio honesto con interruptores de ajuste de sala. En un escritorio apretado, el ADAM D3V y el Kali LP-UNF aportan detalle de tweeter de cinta y graves cerca de la pared, mientras el iLoud Micro Monitor Pro es el campeón ultracompacto. Para mezcla compacta seria, el iLoud MTM MKII y el Neumann KH 80 DSP te dan el mayor control — el Genelec 8010A es el compacto de referencia, el ADAM T5V aporta detalle de tweeter de cinta al precio más bajo, y el Genelec 8030C es la referencia profesional con la tolerancia más ajustada. El KRK Rokit 5 G5 añade afinación DSP con tres modos por menos de $400 el par.",
     "featuredProducts": [
       116,
       117,
@@ -46820,7 +46833,8 @@
       308,
       303,
       371,
-      372
+      372,
+      633
     ],
     "relatedGuides": [
       "hs8-vs-rokit-7",
@@ -46830,7 +46844,7 @@
       "budget-monitors",
       "monitor-setup"
     ],
-    "description": "Best monitors for small rooms & apartments 2026. 5-inch picks from Kali, JBL, Yamaha, iLoud, Genelec, ADAM & Neumann. Read the full verdict & prices before",
+    "description": "Best monitors for small rooms & apartments 2026. 5-inch picks from Kali, JBL, Yamaha, iLoud, Genelec, ADAM, KRK & Neumann. Read the full verdict & prices before",
     "featuredSnippet": {
       "title_en": "Best Studio Monitors for Small Rooms (2026 Picks)",
       "text_en": "Mixing in a small untreated room is one of the biggest challenges for home studio producers. The wrong monitors will give you false information — making your bass sound full when it is actually thin, or making your mix sound balanced when it is actually a mess. After testing dozens of monitors in small rooms, the picks that really work are the JBL 305P MkII, the Kali LP-6 V2 for 6.5-inch low end, the Yamaha HS5 as the honest reference, and compact desktop systems like the ADAM D3V, Kali LP-UNF and iLoud Micro Monitor Pro that tame room modes with DSP and clever design.",
@@ -46878,7 +46892,7 @@
       "faq_q5_es": "¿Puedo mezclar en una sala pequeña sin tratamiento?",
       "faq_a5_es": "Sí, pero tus decisiones de graves no serán fiables. Verifica tus mezclas en auriculares y otros sistemas — consulta nuestra <a href=\"/guides/best-headphones_es.html\">guía de auriculares de estudio</a>."
     },
-    "description_es": "Mejores monitores para salas pequeñas y apartamentos 2026. 5 pulgadas de Kali, JBL, Yamaha, iLoud, Genelec, ADAM y Neumann. Lee el veredicto completo y los",
+    "description_es": "Mejores monitores para salas pequeñas y apartamentos 2026. 5 pulgadas de Kali, JBL, Yamaha, iLoud, Genelec, ADAM, KRK y Neumann. Lee el veredicto completo y los",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -46952,6 +46966,10 @@
         {
           "title": "Genelec 8030C",
           "title_es": "Genelec 8030C"
+        },
+        {
+          "title": "KRK Rokit 5 G5",
+          "title_es": "KRK Rokit 5 G5"
         }
       ],
       "rows": [
@@ -47002,6 +47020,10 @@
             {
               "value": "Professional reference monitoring",
               "value_es": "Monitoreo de referencia profesional"
+            },
+            {
+              "value": "DSP-tuned mixing against the wall",
+              "value_es": "Mezcla con DSP pegada a la pared"
             }
           ]
         },
@@ -47052,6 +47074,10 @@
             {
               "value": "~$795",
               "value_es": "~$795"
+            },
+            {
+              "value": "~$199 each",
+              "value_es": "~$199 cada uno"
             }
           ]
         },
@@ -47102,6 +47128,10 @@
             {
               "value": "2-way powered",
               "value_es": "Biamplificado de 2 vías"
+            },
+            {
+              "value": "2-way bi-amped, DSP",
+              "value_es": "Biamplificado de 2 vías, DSP"
             }
           ]
         },
@@ -47152,6 +47182,10 @@
             {
               "value": "5\" (130 mm)",
               "value_es": "5\" (130 mm)"
+            },
+            {
+              "value": "5\" Kevlar",
+              "value_es": "5\" de Kevlar"
             }
           ]
         },
@@ -47202,6 +47236,10 @@
             {
               "value": "3/4\" metal dome",
               "value_es": "3/4\" de cúpula metálica"
+            },
+            {
+              "value": "1\" silk dome",
+              "value_es": "1\" de cúpula de seda"
             }
           ]
         },
@@ -47252,6 +47290,10 @@
             {
               "value": "100W Class-D (50W + 50W)",
               "value_es": "100W Clase-D (50W + 50W)"
+            },
+            {
+              "value": "55W RMS (35W LF + 20W HF)",
+              "value_es": "55W RMS (35W LF + 20W HF)"
             }
           ]
         },
@@ -47302,6 +47344,10 @@
             {
               "value": "47 Hz – 25 kHz (-6 dB)",
               "value_es": "47 Hz – 25 kHz (-6 dB)"
+            },
+            {
+              "value": "54 Hz – 30 kHz (±3 dB)",
+              "value_es": "54 Hz – 30 kHz (±3 dB)"
             }
           ]
         },
@@ -47348,6 +47394,10 @@
             {
               "value": "106 dB",
               "value_es": "106 dB"
+            },
+            {
+              "value": "104 dB",
+              "value_es": "104 dB"
             },
             {
               "value": "104 dB",
@@ -47402,6 +47452,10 @@
             {
               "value": "11.8 x 7.4 x 7.0 in",
               "value_es": "29.9 x 18.9 x 17.8 cm"
+            },
+            {
+              "value": "11.3 x 7.5 x 9.5 in",
+              "value_es": "28.8 x 19.1 x 24.2 cm"
             }
           ]
         },
@@ -47452,6 +47506,10 @@
             {
               "value": "Rear",
               "value_es": "Trasero"
+            },
+            {
+              "value": "Front",
+              "value_es": "Frontal"
             }
           ]
         }
@@ -47764,6 +47822,34 @@
           "El puerto trasero aún necesita espacio desde la pared a pesar de los interruptores de respuesta de sala",
           "Solo entrada XLR — sin RCA ni TRS para equipo de consumo",
           "La inclinación Iso-Pod cede con cables pesados"
+        ]
+      },
+      {
+        "name": "KRK Rokit 5 G5",
+        "name_es": "KRK Rokit 5 G5",
+        "pros": [
+          "Front-firing slot port for wall-close placement without muddy bass",
+          "Rear LCD with 25 boundary/EQ combos plus KRK App tames room modes",
+          "Three voicings (Mix, Focus, Create) cover writing, midrange checks and final mixing",
+          "~$199 each — DSP tuning no rival offers under $400 a pair"
+        ],
+        "pros_es": [
+          "Puerto ranurado frontal para pegarlo a la pared sin embarrar los graves",
+          "LCD trasera con 25 combinaciones Boundary/EQ más KRK App que doma los modos de sala",
+          "Tres modos (Mix, Focus, Create) que cubren componer, revisar medios y mezclar de verdad",
+          "~$199 cada uno — afinación DSP que ningún rival ofrece por menos de $400 el par"
+        ],
+        "cons": [
+          "5-inch cone fades below 54 Hz — check deep lows on headphones",
+          "Rear-panel LCD and data knob are fiddly in dark racks",
+          "4.95 kg — heavier than the JBL 305P MkII",
+          "Focus and Create modes can mislead if you forget to switch back to Mix"
+        ],
+        "cons_es": [
+          "El cono de 5 pulgadas se apaga bajo 54 Hz — revisa los graves profundos en auriculares",
+          "La LCD trasera y su rueda son engorrosas en racks oscuros",
+          "4.95 kg — más pesado que el JBL 305P MkII",
+          "Los modos Focus y Create pueden engañar si olvidas volver a Mix"
         ]
       }
     ],
@@ -58438,7 +58524,13 @@
     "conclusion_es": "Empieza con un Behringer XR18 para sonido en vivo económico, sube a un Yamaha TF3 o un Allen & Heath SQ-5 para aplicaciones profesionales. Los usuarios de estudio deberían fijarse en el SSL SiX. Para los equipos de gira grandes, el Yamaha CL5 y DiGiCo SD12 son los estándares. <a href=\"/guides/best-live-sound-mixers_es.html\" class=\"guide-link-btn\">mejores mezcladoras para sonido en vivo</a> <a href=\"/guides/best-compact-mixers_es.html\" class=\"guide-link-btn\">mejores mezcladores compactos</a> <a href=\"/guides/xr18-vs-m32r_es.html\" class=\"guide-link-btn\">comparativa XR18 vs M32R</a> <a href=\"/guides/pro-mixers_es.html\" class=\"guide-link-btn\">comparativa de mezcladores profesionales</a>",
     "verdict": "Behringer XR18 for budget live sound, Yamaha TF3 for professional live, SSL SiX for studio, Yamaha CL5 for large touring.",
     "verdict_es": "Behringer XR18 para sonido en vivo económico, Yamaha TF3 para directo de nivel serio, SSL SiX para estudio, Yamaha CL5 para giras grandes.",
-    "featuredProducts": [],
+    "featuredProducts": [
+      138,
+      147,
+      148,
+      332,
+      335
+    ],
     "description": "Best digital mixers for live sound and studio 2026. Covers budget, mid-range, and touring-grade options. Read the full verdict & prices before you buy.",
     "description_es": "Mejores mezcladores digitales para sonido en vivo y estudio 2026. Cubre opciones económicas, gama media y grado gira. Lee el veredicto completo y los",
     "featuredSnippet": {
