@@ -167,6 +167,13 @@ async function main() {
   const results = [];
   await worker(watchlist, history, results);
 
+  // SAFEGUARD: total block (all fetches 403) must never wipe the page.
+  // Keep previous deals.json untouched and skip the build.
+  if (!results.length) {
+    console.log('auto-deals: WARNING 0/' + watchlist.length + ' pages readable (store blocking?) — keeping previous deals.json');
+    return;
+  }
+
   // Update price history. Baseline rule: the store page is the truth.
   // Offer on page (strike-through was-price) -> baseline = was, deal open.
   // No offer on page -> baseline = live price (stale deals close by themselves).
