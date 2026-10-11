@@ -1,0 +1,10 @@
+var fs = require('fs');
+var prods = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
+var p = prods.find(function (x) { return x.id === 527; });
+p.img = 'https://r2.gear4music.com/media/72/726635/1200/preview.jpg';
+p.stores.andertons = 'https://www.andertons.co.uk/baby-audio-spaced-out-reverb-plugin/?search_query=Baby%20Audio%20Spaced%20Out';
+p.stores.musicstore = 'https://www.musicstore.com/en_OE/EUR/Baby-Audio-Spaced-Out-License-Code/art-PCM0018528-000';
+p.stores.gear4music = 'https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Spaced-Out/46NE';
+p.stores.zzounds = 'https://www.zzounds.com/item--BBYSPACEDOUT?siid=307771';
+fs.writeFileSync('data/products.json', JSON.stringify(prods, null, 2));
+console.log('527 img+stores OK: ' + Object.keys(p.stores).join(','));

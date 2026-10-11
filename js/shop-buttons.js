@@ -4725,11 +4725,21 @@ const TEST_SHOP_BTN = {
   },
   527: {
     prices: {
-      pluginboutique: "€89.00"
+      pluginboutique: "€89.00",
+      andertons: "£76.00",
+      musicstore: "€99.00",
+      gear4music: "£76.00",
+      zzounds: "$99.00"
     },
     pbCur: {
       us: "$108.90",
       uk: "£86.67"
+    },
+    urls: {
+      andertons: "https://www.andertons.co.uk/baby-audio-spaced-out-reverb-plugin/?search_query=Baby%20Audio%20Spaced%20Out",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Baby-Audio-Spaced-Out-License-Code/art-PCM0018528-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Spaced-Out/46NE",
+      zzounds: "https://www.zzounds.com/item--BBYSPACEDOUT?siid=307771"
     }
   },
   528: {
