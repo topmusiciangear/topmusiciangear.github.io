@@ -3810,9 +3810,9 @@ const TEST_SHOP_BTN = {
   },
   389: {
     prices: {
-      gear4music: "£128.00",
+      gear4music: "£82.00",
       pluginboutique: "€99.83",
-      musicstore: "€49.00"
+      musicstore: "€95.00"
     },
     pbCur: {
       us: "$49.00",
