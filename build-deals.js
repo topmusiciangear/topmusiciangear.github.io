@@ -304,9 +304,7 @@ function wrapAndertons(url) {
         <button type="button" class="guide-more-btn" id="dealsMoreBtn" onclick="var h=document.querySelectorAll('.deal-extra');for(var i=0;i<h.length;i++){h[i].style.display='';}var b=document.getElementById('dealsMoreBtn');if(b)b.style.display='none';">${t('Show more', 'Ver más')}</button>
       </div>` : ''}
 
-    </div>
-  </main>
-
+    
 <div class="deals-card" style="text-align:center;">
         <h2 style="margin-bottom:12px;">${t('Get Daily Deals on Telegram', 'Ofertas Diarias en Telegram')}</h2>
         <p style="margin-bottom:16px;">${t('We post new gear deals every 12 hours on our free Telegram channel. Deals, price drops and coupon codes — no spam, ever.', 'Publicamos ofertas nuevas cada 12 horas en nuestro canal gratuito de Telegram. Ofertas, bajadas de precio y códigos de descuento — sin spam, nunca.')}</p>
@@ -315,6 +313,10 @@ function wrapAndertons(url) {
           ${t('Join the Telegram channel', 'Únete al canal de Telegram')}
         </a>
       </div>
+</div>
+  </main>
+
+
 
   <footer style="padding: 32px; text-align: center; border-top: 1px solid var(--border);">
     <div style="display:flex;justify-content:center;gap:20px;margin-bottom:12px;flex-wrap:wrap">
