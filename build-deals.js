@@ -187,6 +187,7 @@ function wrapAndertons(url) {
   }
 
   const cjz = (u) => /zzounds\.com/.test(u) && u.indexOf('anrdoezrs.net') < 0 ? 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(u.replace('/a--925521', '')) : u;
+  const dealUrl = (d) => d.store === 'zzounds' ? 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(String(d.store_url || '').replace('/a--925521', '')) : affWrap(d.store, d.store_url);
 
   const dealCard = (d, i) => {
     const badge = isEs ? (d.badge_es || '') : (d.badge_en || '');
@@ -198,19 +199,19 @@ function wrapAndertons(url) {
     const pctLabel = pct > 0 ? ` <span class="deal-sep">·</span> <span class="deal-percent">${pct}% ${t('off', 'dto.')}</span>` : '';
     const storeName = slugToName[d.store] || d.store;
     const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
-    const storeLink = `<a href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
+    const storeLink = `<a href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
     const extra = i >= 20 ? ' deal-extra" style="display:none' : '';
     return `
   <div class="deals-card deal-card${extra}">
     <div class="deal-store-row">${storeLink}</div>
     <div class="deal-card-top">
-      ${d.img ? `<a class="deal-img" href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>` : ``}
+      ${d.img ? `<a class="deal-img" href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>` : ``}
       <div class="deal-body">
         <h2>${isEs ? (d.title_es || d.title) : d.title}</h2>
         <p>${desc}</p>
         <div class="deal-price-row"><span class="deal-price">${price}</span>${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</div>
         <div class="deal-save-row">${old}${pctLabel}</div>
-        <a href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
+        <a href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
         ${d.product_id != null ? (() => { const gl = guidesFor(d.product_id); return gl.length ? `<div class="deal-guides"><span class="deal-guides-label">${t('Find in guide:', 'Ver guía:')}</span> ` + gl.map(g => `<a class="deal-guide-link" href="/guides/${g.id}${isEs ? '_es' : ''}.html">${g.id}</a>`).join(' ') + `</div>` : ''; })() : ''}
       </div>
     </div>
