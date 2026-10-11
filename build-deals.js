@@ -176,7 +176,7 @@ function wrapAndertons(url) {
 
   const cjz = (u) => /zzounds\.com/.test(u) && u.indexOf('anrdoezrs.net') < 0 ? 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(u.replace('/a--925521', '')) : u;
 
-  const dealCard = (d) => {
+  const dealCard = (d, i) => {
     const badge = isEs ? (d.badge_es || '') : (d.badge_en || '');
     const desc = isEs ? (d.desc_es || d.desc) : d.desc;
     const cur = d.currency || '$';
@@ -187,8 +187,9 @@ function wrapAndertons(url) {
     const storeName = slugToName[d.store] || d.store;
     const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
     const storeLink = `<a href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
+    const extra = i >= 20 ? ' deal-extra" style="display:none' : '';
     return `
-  <div class="deals-card deal-card">
+  <div class="deals-card deal-card${extra}">
     <div class="deal-store-row">${storeLink}</div>
     <div class="deal-card-top">
       <a class="deal-img" href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>
@@ -283,6 +284,10 @@ function wrapAndertons(url) {
       <div class="deals-grid">
         ${deals.map(dealCard).join('')}
       </div>
+      ${deals.length > 20 ? `
+      <div class="deals-more-wrap" style="text-align:center;margin-top:28px;">
+        <button type="button" class="guide-more-btn" id="dealsMoreBtn" onclick="var h=document.querySelectorAll('.deal-extra');for(var i=0;i<h.length;i++){h[i].style.display='';}var b=document.getElementById('dealsMoreBtn');if(b)b.style.display='none';">${t('Show more', 'Ver más')}</button>
+      </div>` : ''}
 
     </div>
   </main>
