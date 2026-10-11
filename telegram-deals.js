@@ -140,6 +140,12 @@ async function main() {
     if (old) { d.date_added = old.date_added || d.date_added; }
     return d;
   });
+  // Non-telegram entries (manual rounds, gear4music) are preserved as-is.
+  for (const p of prev) {
+    if (p.source === 'telegram') continue;
+    if (isBlocked(p.title)) { console.log(`  blocked, dropped: ${p.title}`); continue; }
+    if (!out.some(d => `${d.title}||${d.store}` === `${p.title}||${p.store}`)) out.push(p);
+  }
   const cutoff = new Date(Date.parse(today + 'T00:00:00Z') - 2 * 86400000).toISOString().slice(0, 10);
   for (const p of prev) {
     if (p.source !== 'telegram') continue; // other sources: never expire here
