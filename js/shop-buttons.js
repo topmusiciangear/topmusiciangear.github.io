@@ -3188,7 +3188,7 @@ const TEST_SHOP_BTN = {
     prices: {
       pluginboutique: "€99.83",
       gear4music: "£42.00",
-      musicstore: "€49.00",
+      musicstore: "€91.00",
       amazon: "$99.00"
     },
     pbCur: {
@@ -3371,9 +3371,9 @@ const TEST_SHOP_BTN = {
   386: {
     prices: {
       pluginboutique: "€109.90",
-      gear4music: "£62.55",
+      gear4music: "£95.00",
       andertons: "£95.00",
-      musicstore: "€83.20",
+      musicstore: "€99.00",
       amazon: "$99.00"
     },
     pbCur: {
@@ -3424,20 +3424,24 @@ const TEST_SHOP_BTN = {
   390: {
     prices: {
       gear4music: "£37.00",
-      pluginboutique: "€51.43"
+      pluginboutique: "€51.43",
+      zzounds: "$99.00",
+      andertons: "£37.00"
     },
     pbCur: {
       us: "$49.00",
       uk: "£39.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--ARACHORUSJUN6?siid=351840",
+      andertons: "https://www.andertons.co.uk/arturia-chorus-jun-6/"
     }
   },
   392: {
     prices: {
       pluginboutique: "€89.75",
-      zzounds: "$89.00",
+      zzounds: "$99.00",
       gear4music: "£74.99",
       musicstore: "€89.00"
     },
