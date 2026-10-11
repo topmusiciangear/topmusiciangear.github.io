@@ -3682,9 +3682,9 @@ const TEST_SHOP_BTN = {
   381: {
     prices: {
       pluginboutique: "€331.75",
-      gear4music: "£231.00",
+      gear4music: "£252.00",
       andertons: "£252.00",
-      musicstore: "€242.90",
+      musicstore: "€309.00",
       amazon: "$299"
     },
     pbCur: {
@@ -3721,8 +3721,8 @@ const TEST_SHOP_BTN = {
   383: {
     prices: {
       pluginboutique: "€130.08",
-      gear4music: "£62.00",
-      musicstore: "€105.00",
+      gear4music: "£119.00",
+      musicstore: "€99.00",
       amazon: "$129.00"
     },
     pbCur: {
