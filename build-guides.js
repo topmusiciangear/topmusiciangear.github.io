@@ -5573,7 +5573,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP5-G5-Studio-Monitor-Single/674P",
-      zzounds: "https://www.zzounds.com/a--925521/item--KRKRP5G5NA",
+      zzounds: "https://www.zzounds.com/item--KRKRP5G5NA?siid=343049",
       musicstore: "https://www.musicstore.com/en_OE/EUR/KRK-Rokit-RP5-G5/art-REC0016599-000"
     }
   },
