@@ -3187,7 +3187,7 @@ const TEST_SHOP_BTN = {
   375: {
     prices: {
       pluginboutique: "€99.83",
-      gear4music: "£42.00",
+      gear4music: "£22.00",
       musicstore: "€91.00",
       amazon: "$99.00"
     },
