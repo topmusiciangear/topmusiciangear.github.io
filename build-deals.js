@@ -305,7 +305,7 @@ function wrapAndertons(url) {
       </div>` : ''}
 
     
-<div class="deals-card" style="text-align:center;">
+<div class="deals-card" style="text-align:center;margin-top:36px;">
         <h2 style="margin-bottom:12px;">${t('Get Daily Deals on Telegram', 'Ofertas Diarias en Telegram')}</h2>
         <p style="margin-bottom:16px;">${t('We post new gear deals every 12 hours on our free Telegram channel. Deals, price drops and coupon codes — no spam, ever.', 'Publicamos ofertas nuevas cada 12 horas en nuestro canal gratuito de Telegram. Ofertas, bajadas de precio y códigos de descuento — sin spam, nunca.')}</p>
         <a class="deals-telegram" href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer">
