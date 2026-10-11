@@ -210,6 +210,7 @@ async function main() {
   const history = loadHistory();
   const g4mDeals = await worker(limited, history);
   saveHistory(history);
+  if (!g4mDeals.length && limited.length) console.log('gear4music-deals: WARNING 0/' + limited.length + ' pages readable (likely Cloudflare block on this runner)');
 
   // Merge into manual-deals.json without losing the telegram deals.
   // Replace any previous gear4music entries with the freshly computed set.

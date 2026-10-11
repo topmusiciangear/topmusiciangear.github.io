@@ -45,14 +45,24 @@ function parseMessages(html) {
 
 function parseDeal(text) {
   // Expected: "<Title> <Store> Was: £278 -> Now: £227 (-18%) Buy here ..."
-  const was = (text.match(/Was:\s*(?:GBP|EUR|\$)?\s*(\d+(?:\.\d+)?)/) || [])[1];
-  const now = (text.match(/Now:\s*(?:GBP|EUR|\$)?\s*(\d+(?:\.\d+)?)/) || [])[1];
-  const store = /Plugin Boutique/i.test(text) ? 'pluginboutique' : (/Andertons/i.test(text) ? 'andertons' : null);
+  const wasM = text.match(/Was:\s*(GBP|EUR|\$|£|€)?\s*(\d+(?:\.\d+)?)/);
+  const nowM = text.match(/Now:\s*(GBP|EUR|\$|£|€)?\s*(\d+(?:\.\d+)?)/);
+  const was = wasM && wasM[2];
+  const now = nowM && nowM[2];
+  const curTok = (nowM && nowM[1]) || (wasM && wasM[1]) || '';
+  const store =
+    /Plugin Boutique/i.test(text) ? 'pluginboutique' :
+    /Andertons/i.test(text) ? 'andertons' :
+    /zZounds/i.test(text) ? 'zzounds' :
+    /Music ?Store/i.test(text) ? 'musicstore' :
+    /Gear4Music/i.test(text) ? 'gear4music' :
+    /Amazon/i.test(text) ? 'amazon' :
+    /Reverb/i.test(text) ? 'reverb' : null;
   if (!was || !now || !store) return null;
   let title = text.split('Was:')[0].replace(/\s+/, ' ').trim();
-  title = title.replace(/Andertons\s*$/i, '').replace(/Plugin Boutique\s*$/i, '').trim();
+  title = title.replace(/Andertons\s*$/i, '').replace(/Plugin Boutique\s*$/i, '').replace(/zZounds\s*$/i, '').replace(/Music ?Store\s*$/i, '').replace(/Gear4Music\s*$/i, '').replace(/Amazon\s*$/i, '').replace(/Reverb\s*$/i, '').trim();
   if (!title) return null;
-  return { title, was: Number(was), now: Number(now), store };
+  return { title, was: Number(was), now: Number(now), store, curTok };
 }
 
 async function main() {
@@ -73,7 +83,7 @@ async function main() {
     const prod = byTitle(d.title);
     if (prod && prod.id != null && seenId.has(prod.id)) continue;
     if (prod && prod.id != null) seenId.add(prod.id);
-    const sym = d.store === 'pluginboutique' ? '$' : '£';
+    const sym = /^(GBP|£)$/.test(d.curTok) ? '£' : (/^(EUR|€)$/.test(d.curTok) ? '€' : (d.store === 'musicstore' ? '€' : (d.store === 'andertons' || d.store === 'gear4music' ? '£' : '$')));
     deals.push({
       product_id: prod ? prod.id : null,
       title: d.title,
