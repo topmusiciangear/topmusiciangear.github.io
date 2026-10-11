@@ -1,18 +1,18 @@
-const G = require('../data/guides.json');
-const w = G.find(x => x.id === 'wireless-intercom-systems');
-const rep = (obj, path) => {
-  Object.keys(obj).forEach(k => {
-    const v = obj[k];
-    if (typeof v === 'string' && v.indexOf('inalámbrico real') > -1 && !/_es$/.test(k)) console.log('ENFIELD', path + '.' + k);
-    if (Array.isArray(v)) v.forEach((x, i) => { if (typeof x === 'string' && x.indexOf('inalámbrico real') > -1) console.log('ENARR', path + '.' + k + '[' + i + ']'); else if (x && typeof x === 'object') rep(x, path + '.' + k + '[' + i + ']'); });
+var fs = require('fs');
+var guides = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+var targets = ['opción opción', 'mejor opción compra', 'caballo de batalla', 'EMG 81/60'];
+guides.forEach(function (x) {
+  var s = JSON.stringify(x);
+  targets.forEach(function (t) {
+    var i = -1;
+    while ((i = s.indexOf(t, i + 1)) >= 0) {
+      // find nearest key context
+      var k1 = s.lastIndexOf('"faq_', i);
+      var k2 = s.lastIndexOf('"content', i);
+      var k3 = s.lastIndexOf('"verdict', i);
+      var k4 = s.lastIndexOf('"conclusion', i);
+      var m = Math.max(k1, k2, k3, k4);
+      console.log(x.id + ' :: [' + t + '] near: ' + s.slice(Math.max(0, m), m + 30));
+    }
   });
-};
-rep(w, 'wireless');
-const dm = G.find(x => x.id === 'best-drum-machine');
-const rep2 = (obj, path) => {
-  Object.keys(obj).forEach(k => {
-    const v = obj[k];
-    if (typeof v === 'string' && v.indexOf('beatmaking') > -1) console.log('drum', path + '.' + k + ' isES=' + /_es$/.test(k));
-  });
-};
-rep2(dm, 'drum');
+});
