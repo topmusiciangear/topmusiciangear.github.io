@@ -192,7 +192,7 @@ function wrapAndertons(url) {
   <div class="deals-card deal-card${extra}">
     <div class="deal-store-row">${storeLink}</div>
     <div class="deal-card-top">
-      <a class="deal-img" href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>
+      ${d.img ? `<a class="deal-img" href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>` : ``}
       <div class="deal-body">
         <h2>${isEs ? (d.title_es || d.title) : d.title}</h2>
         <p>${desc}</p>
@@ -234,6 +234,9 @@ function wrapAndertons(url) {
     .deals-page h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 900; color: var(--white); margin-bottom: 8px; letter-spacing: -.5px; }
     .deals-page .updated { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
     .back-row { margin: 4px 0 8px; }
+    .deals-search-wrap { max-width: 560px; margin: 20px auto 0; }
+    .deals-search { width: 100%; padding: 12px 18px; border-radius: 24px; border: 1px solid var(--border); background: var(--bg-card); color: var(--white); font-size: 15px; outline: none; }
+    .deals-search:focus { border-color: var(--accent); }
     .deals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin-top: 24px; }
     .deal-card { padding: 20px; }
     .deal-card-top { display: flex; gap: 16px; align-items: flex-start; }
@@ -281,7 +284,10 @@ function wrapAndertons(url) {
         </a>
       </div>
 
-      <div class="deals-grid">
+      <div class="deals-search-wrap">
+        <input id="dealsSearch" class="deals-search" type="search" placeholder="${t('Search deals by product name', 'Buscar ofertas por producto')}">
+      </div>
+      <div class="deals-grid" id="dealsGrid">
         ${deals.map(dealCard).join('')}
       </div>
       ${deals.length > 20 ? `
@@ -303,7 +309,7 @@ function wrapAndertons(url) {
     <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. All rights reserved. ${t('Built by a musician, for musicians.', 'Hecho por un músico, para músicos.')}</p>
   </footer>
   <script>
-  window.toggleNavDropdown=function(b){var d=b.closest('.nav-dd');if(!d)return;var w=!d.classList.contains('open');document.querySelectorAll('.nav-dd.open').forEach(function(x){if(x!==d)x.classList.remove('open')});d.classList.toggle('open',w);if(b.getAttribute('aria-haspopup'))b.setAttribute('aria-expanded',w?'true':'false')};
+  (function(){var si=document.getElementById('dealsSearch');if(si){si.addEventListener('input',function(){var q=si.value.toLowerCase().trim();document.querySelectorAll('#dealsGrid .deal-card').forEach(function(c){c.style.display=(!q||c.textContent.toLowerCase().indexOf(q)>-1)?'':'none';});});}})();window.toggleNavDropdown=function(b){var d=b.closest('.nav-dd');if(!d)return;var w=!d.classList.contains('open');document.querySelectorAll('.nav-dd.open').forEach(function(x){if(x!==d)x.classList.remove('open')});d.classList.toggle('open',w);if(b.getAttribute('aria-haspopup'))b.setAttribute('aria-expanded',w?'true':'false')};
   document.addEventListener('click',function(e){var dd=e.target.closest('.nav-dd');document.querySelectorAll('.nav-dd.open').forEach(function(d){if(!dd||dd!==d)d.classList.remove('open')})});
   </script>
 <script src="https://www.anrdoezrs.net/am/101857888/include/allCj/impressions/page/am.js"></script>
