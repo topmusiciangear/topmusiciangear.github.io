@@ -2,6 +2,18 @@ const fs = require('fs');
 const { icon } = require('./js/icons.js');
 
 const deals = JSON.parse(fs.readFileSync('data/deals.json', 'utf8'));
+const guidesIdx = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+// guide ids featuring a product (for the "Find in guide" links on deal cards)
+function guidesFor(pid) {
+  if (pid == null) return [];
+  const out = [];
+  for (const g of guidesIdx) {
+    let hit = (g.featuredProducts || []).includes(pid) || (g.products || []).includes(pid);
+    if (!hit) for (const s of (g.sections || [])) { if ((s.products || []).includes(pid)) { hit = true; break; } }
+    if (hit) out.push({ id: g.id, title: g.title });
+  }
+  return out;
+}
 
 const social = (name) => {
   const links = {
@@ -199,6 +211,7 @@ function wrapAndertons(url) {
         <div class="deal-price-row"><span class="deal-price">${price}</span>${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</div>
         <div class="deal-save-row">${old}${pctLabel}</div>
         <a href="${cjz(affWrap(d.store, d.store_url))}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
+        ${d.product_id != null ? (() => { const gl = guidesFor(d.product_id); return gl.length ? `<div class="deal-guides"><span class="deal-guides-label">${t('Find in guide:', 'Ver guía:')}</span> ` + gl.map(g => `<a class="deal-guide-link" href="/guides/${g.id}${isEs ? '_es' : ''}.html">${g.id}</a>`).join(' ') + `</div>` : ''; })() : ''}
       </div>
     </div>
   </div>`;
@@ -259,6 +272,9 @@ function wrapAndertons(url) {
     .deal-price { color: var(--accent); font-size: 22px; font-weight: 900; line-height: 1; display: inline-block; }
     .deals-store-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s; }
     .deals-store-btn:hover { background: #2563eb; color: #fff; }
+    .deal-guides { margin-top: 10px; font-size: 12px; color: var(--text-muted); }
+    .deal-guides-label { font-weight: 700; margin-right: 4px; }
+    .deal-guide-link { color: #60a5fa; text-decoration: underline; margin-right: 6px; }
     .deals-telegram { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: rgba(0,136,204,0.1); border: 1px solid rgba(0,136,204,0.25); color: #0088cc; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; transition: var(--transition); }
     .deals-telegram:hover { background: rgba(0,136,204,0.2); border-color: rgba(0,136,204,0.4); text-decoration: none; }
     @media (max-width: 600px) { .deals-page { padding: 8px 16px 40px; } .deals-grid { grid-template-columns: 1fr; } .deal-card-top { flex-direction: column; } .deal-img { width: 100%; height: auto; } }
