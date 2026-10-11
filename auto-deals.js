@@ -76,6 +76,33 @@ function loadManual() {
   try { return JSON.parse(fs.readFileSync(MANUAL_FILE, 'utf8')); } catch (e) { return []; }
 }
 
+// Re-check manual Andertons deals against the live store page. Drops the ones
+// whose offer expired (no strike-through was-price). Returns the kept list.
+async function verifyManual(manual) {
+  const keep = [];
+  for (const d of manual) {
+    if (d.store !== 'andertons' || !d.store_url) { keep.push(d); continue; }
+    try {
+      const { status, html } = await fetchWithTimeout(derefAffiliate(d.store_url), FETCH_TIMEOUT);
+      if (status !== 200) { keep.push(d); continue; } // transient error: keep, retry tomorrow
+      const was = parseWas(html);
+      const live = parsePrice(html);
+      if (was && live && was > live.price && (was - live.price) / was >= MIN_DROP_PCT) {
+        d.price = live.price; d.old_price = Math.round(was * 100) / 100;
+        const sym = d.currency || '£';
+        const sv = was - live.price;
+        d.badge_en = `Save ${sym}${sv.toFixed(sv % 1 ? 1 : 0)}`;
+        d.badge_es = `Ahorra ${sym}${sv.toFixed(sv % 1 ? 1 : 0)}`;
+        keep.push(d);
+      } else {
+        console.log(`  manual expired, dropped: ${d.title}`);
+      }
+    } catch (e) { keep.push(d); }
+    await wait(250);
+  }
+  return keep;
+}
+
 async function worker(items, history, results) {
   const queue = [...items];
   const run = async () => {
@@ -190,8 +217,11 @@ async function main() {
     }
   }
 
-  // Merge manual verified deals
-  const manual = loadManual();
+  // Merge manual verified deals. Manual Andertons deals are re-verified too:
+  // if the store page no longer shows a strike-through offer, the manual
+  // deal expired and is dropped automatically. Other stores can't be scraped
+  // (bot blocking), so those manual deals are kept as-is.
+  const manual = await verifyManual(loadManual());
   const merged = [];
   const seenId = new Set();
   const seenTitle = new Set();
