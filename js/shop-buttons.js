@@ -3964,16 +3964,14 @@ const TEST_SHOP_BTN = {
   451: {
     prices: {
       amazon: "$229.00",
-      gear4music: "£199.00",
-      musicstore: "€209.20",
-      andertons: "£199.00"
+      gear4music: "£249.00",
+      musicstore: "€249.00",
+      andertons: "£199.00",
+      zzounds: "$229.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--LRBPARADI"
-    },
-    oos: [
-      "zzounds"
-    ]
+    }
   },
   452: {
     prices: {
