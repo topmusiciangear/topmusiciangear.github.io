@@ -125,8 +125,15 @@ function derefAffiliate(url) {
 }
 
 async function main() {
-  // Build watchlist: products that have an Andertons buy link
-  const watchlist = PRODUCTS.filter(p => p.stores && p.stores.andertons).map(p => ({ id: p.id, title: p.title, priceUsd: p.price, img: p.img, andertons: derefAffiliate(p.stores.andertons) }));
+  // Build watchlist: products that have an Andertons buy link AND appear in
+  // at least one guide (no orphan deals for products the site doesn't cover).
+  const GUIDES = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'data', 'guides.json'), 'utf8'));
+  const used = new Set();
+  for (const gd of GUIDES) {
+    for (const arr of [gd.featuredProducts || [], gd.products || []]) for (const id of arr) used.add(id);
+    for (const s of (gd.sections || [])) for (const id of (s.products || [])) used.add(id);
+  }
+  const watchlist = PRODUCTS.filter(p => p.stores && p.stores.andertons && used.has(p.id)).map(p => ({ id: p.id, title: p.title, priceUsd: p.price, img: p.img, andertons: derefAffiliate(p.stores.andertons) }));
   console.log('auto-deals: watchlist =', watchlist.length, 'products');
 
   const history = loadHistory();
