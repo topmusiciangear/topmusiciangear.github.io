@@ -4320,8 +4320,8 @@ const TEST_SHOP_BTN = {
       amazon: "$259.99",
       zzounds: "$259.99",
       gear4music: "£256.00",
-      musicstore: "€217.60",
-      andertons: "£229.00"
+      musicstore: "€259.00",
+      andertons: "£260.00"
     }
   },
   446: {
@@ -4329,15 +4329,19 @@ const TEST_SHOP_BTN = {
       amazon: "$399.00",
       zzounds: "$399.00",
       gear4music: "£349.00",
-      musicstore: "€335.30"
+      musicstore: "€399.00"
     }
   },
   447: {
     prices: {
       amazon: "$269.95",
-      gear4music: "£252.50",
-      musicstore: "€251.30",
-      andertons: "£259.00"
+      gear4music: "£259.00",
+      musicstore: "€299.00",
+      andertons: "£259.00",
+      zzounds: "$269.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TECBSDRV2?siid=189179"
     }
   },
   448: {
@@ -4345,7 +4349,7 @@ const TEST_SHOP_BTN = {
       amazon: "$209.99",
       zzounds: "$209.99",
       gear4music: "£206.00",
-      musicstore: "€166.40",
+      musicstore: "€198.00",
       andertons: "£198.00"
     }
   },
