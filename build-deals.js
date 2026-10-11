@@ -289,8 +289,8 @@ function wrapAndertons(url) {
         <a href="/" class="guide-back-btn">${t('Back', 'Volver Atrás')}</a>
       </div>
 
-      <h1>${t("Today's Music Gear Deals", 'Ofertas de Hoy en Equipo Musical')}</h1>
-      <p class="updated">${t('Hand-picked daily discounts on the gear real musicians use.', 'Descuentos diarios seleccionados en el equipo que usan los músicos de verdad.')}</p>
+      <h1 style="text-align:center;">${t("Today's Music Gear Deals", 'Ofertas de Hoy en Equipo Musical')}</h1>
+      <p class="updated" style="text-align:center;">${t('Hand-picked daily deals on the gear professional musicians use.', 'Ofertas diarias en el equipo que usan los músicos profesionales.')}</p>
 
       
       <div class="deals-search-wrap">
