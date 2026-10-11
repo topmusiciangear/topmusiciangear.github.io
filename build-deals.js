@@ -292,15 +292,7 @@ function wrapAndertons(url) {
       <h1>${t("Today's Music Gear Deals", 'Ofertas de Hoy en Equipo Musical')}</h1>
       <p class="updated">${t('Hand-picked daily discounts on the gear real musicians use.', 'Descuentos diarios seleccionados en el equipo que usan los músicos de verdad.')}</p>
 
-      <div class="deals-card">
-        <h2 style="margin-bottom:12px;">${t('Get Daily Deals on Telegram', 'Ofertas Diarias en Telegram')}</h2>
-        <p style="margin-bottom:16px;">${t('We post new gear deals every 12 hours on our free Telegram channel. Deals, price drops and coupon codes — no spam, ever.', 'Publicamos ofertas nuevas cada 12 horas en nuestro canal gratuito de Telegram. Ofertas, bajadas de precio y códigos de descuento — sin spam, nunca.')}</p>
-        <a class="deals-telegram" href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer">
-          ${icon('telegram', 'fa-brands')}
-          ${t('Join the Telegram channel', 'Únete al canal de Telegram')}
-        </a>
-      </div>
-
+      
       <div class="deals-search-wrap">
         <input id="dealsSearch" class="deals-search" type="search" placeholder="${t('Search deals by product name', 'Buscar ofertas por producto')}">
       </div>
@@ -314,6 +306,15 @@ function wrapAndertons(url) {
 
     </div>
   </main>
+
+<div class="deals-card">
+        <h2 style="margin-bottom:12px;">${t('Get Daily Deals on Telegram', 'Ofertas Diarias en Telegram')}</h2>
+        <p style="margin-bottom:16px;">${t('We post new gear deals every 12 hours on our free Telegram channel. Deals, price drops and coupon codes — no spam, ever.', 'Publicamos ofertas nuevas cada 12 horas en nuestro canal gratuito de Telegram. Ofertas, bajadas de precio y códigos de descuento — sin spam, nunca.')}</p>
+        <a class="deals-telegram" href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer">
+          ${icon('telegram', 'fa-brands')}
+          ${t('Join the Telegram channel', 'Únete al canal de Telegram')}
+        </a>
+      </div>
 
   <footer style="padding: 32px; text-align: center; border-top: 1px solid var(--border);">
     <div style="display:flex;justify-content:center;gap:20px;margin-bottom:12px;flex-wrap:wrap">
