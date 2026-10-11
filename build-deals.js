@@ -196,7 +196,7 @@ function wrapAndertons(url) {
     const old = d.old_price ? `<span class="deal-old-price">${cur}${d.old_price}</span>` : '';
     const price = `${cur}${d.price}`;
     const pct = d.old_price && d.price ? Math.round((1 - d.price / d.old_price) * 100) : 0;
-    const pctLabel = pct > 0 ? ` <span class="deal-sep">·</span> <span class="deal-percent">${pct}%</span>` : '';
+    const pctLabel = pct > 0 ? ` <span class="deal-sep">·</span> <span class="deal-percent">${pct}% off</span>` : '';
     const storeName = slugToName[d.store] || d.store;
     const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
     const storeLink = `<a href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
