@@ -4,10 +4,12 @@ const { execSync } = require('child_process');
 
 // auto-deals.js
 // Learns real prices from Andertons product pages (JSON-LD) for watchlisted
-// products, tracks a running "normal" price per product, and auto-adds a deal
-// when the live price drops below normal (observed price drop = real deal).
-// When the price returns to normal (>= baseline), the deal is removed
-// automatically. NEVER invents prices: everything read from the store.
+// products, and lists a deal ONLY when the store page itself declares an
+// offer (strike-through was-price with class "line-through" next to the live
+// "pdp-price"). No strike-through on the page = no deal, and the running
+// baseline is reset to the live price so stale deals disappear automatically.
+// NEVER invents prices: everything read from the store (live price from
+// JSON-LD, was-price from the store's own strike-through).
 //
 // Manual verified deals (checked by the bot in a session via real web search)
 // live in data/manual-deals.json and are merged in on every run.
@@ -54,6 +56,16 @@ function parsePrice(html) {
   return null;
 }
 
+// Store-declared was-price: the strike-through figure next to the live price
+// (class "line-through" on real offer pages, e.g. "Save £10.00!" badges).
+// Returns null when the page shows no offer.
+function parseWas(html) {
+  const m = html.match(/line-through[^>]*>\s*£?\s*([\d,]+(?:\.\d+)?)/);
+  if (!m) return null;
+  const v = Number(m[1].replace(/,/g, ''));
+  return isFinite(v) && v > 0 ? v : null;
+}
+
 function loadHistory() {
   try { return JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8')); } catch (e) { return {}; }
 }
@@ -74,8 +86,9 @@ async function worker(items, history, results) {
         if (status !== 200) { wait(300); continue; }
         const parsed = parsePrice(html);
         if (!parsed) { wait(300); continue; }
-        results.push({ product: item, live: parsed });
-        console.log(`  ${item.title}: ${parsed.currency}${parsed.price}`);
+        const was = parseWas(html);
+        results.push({ product: item, live: parsed, was });
+        console.log(`  ${item.title}: ${parsed.currency}${parsed.price}${was && was > parsed.price ? ` (offer, was ${parsed.currency}${was})` : ' (no offer on page)'}`);
       } catch (e) {
         console.log(`  ${item.title}: fetch error (${e.message})`);
       }
@@ -120,28 +133,33 @@ async function main() {
   const results = [];
   await worker(watchlist, history, results);
 
-  // Update price history (baseline = first observed price; track running normal)
+  // Update price history. Baseline rule: the store page is the truth.
+  // Offer on page (strike-through was-price) -> baseline = was, deal open.
+  // No offer on page -> baseline = live price (stale deals close by themselves).
   for (const r of results) {
     const key = String(r.product.id);
     const rec = history[key] || { firstSeen: r.live.price, normal: r.live.price, low: r.live.price, lastPrice: r.live.price, lastSeen: new Date().toISOString().slice(0, 10) };
     rec.lastPrice = r.live.price;
     rec.lastSeen = new Date().toISOString().slice(0, 10);
     rec.low = Math.min(rec.low, r.live.price);
-    // A price at/above our running normal ends the deal window; below (by >= MIN_DROP_PCT) opens/keeps one
-    if (r.live.price >= rec.normal) {
+    if (r.was && r.was > r.live.price) {
+      rec.normal = r.was;
+    } else {
       rec.normal = r.live.price;
     }
     history[key] = rec;
   }
   saveHistory(history);
 
-  // Build active deals from observed price drops
+  // Build active deals: only store-declared offers with a real (>=5%) saving.
   const autoDeals = [];
   for (const r of results) {
+    if (!(r.was && r.was > r.live.price)) continue;
+    const saving = r.was - r.live.price;
+    if (saving <= 0 || saving / r.was < MIN_DROP_PCT) continue;
     const key = String(r.product.id);
     const rec = history[key];
-    const saving = rec.normal - r.live.price;
-    if (saving > 0 && saving / rec.normal >= MIN_DROP_PCT) {
+    {
       const prod = byTitle(r.product.title);
       const cur = r.live.currency || 'GBP';
       const sym = cur === 'GBP' ? '£' : (cur === 'EUR' ? '€' : '$');
@@ -150,7 +168,7 @@ async function main() {
         title: r.product.title,
         title_es: (prod && prod.title_es) || r.product.title,
         price: r.live.price,
-        old_price: Math.round(rec.normal * 100) / 100,
+        old_price: Math.round(r.was * 100) / 100,
         currency: sym,
         store: 'andertons',
         store_url: r.product.andertons,
