@@ -336,7 +336,7 @@ window.tmgStoreButtons = function(p) {
       try { if (window.__tmgGeoResolved) return; } catch (e) {}
       var tz='';
       try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
-      if (/^Europe\//.test(tz)) { applyNow('musicstore'); }
+      if (/^Europe\\//.test(tz)) { applyNow('musicstore'); }
       try { clearPending(); } catch (e) {}
     }
     function trySecond() {
