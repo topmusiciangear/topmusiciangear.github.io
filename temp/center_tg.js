@@ -1,0 +1,10 @@
+var fs = require('fs');
+var f = 'build-deals.js';
+var s = fs.readFileSync(f, 'utf8');
+var i = s.indexOf('Join the Telegram channel');
+var j = s.lastIndexOf('<div class="deals-card">', i);
+console.log(JSON.stringify(s.slice(j, j + 60)));
+var a = s.slice(j, j + 24);
+s = s.slice(0, j) + '<div class="deals-card" style="text-align:center;">' + s.slice(j + 24);
+fs.writeFileSync(f, s);
+console.log('centered OK');
