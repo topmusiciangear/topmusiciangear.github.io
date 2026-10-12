@@ -15,6 +15,14 @@ var logoBlock = logoMatch ? logoMatch[0] : '';
 var logoStyleMatch = src.match(/const SHOP_LOGO_STYLE = \{[\s\S]*?\};/);
 var logoStyleBlock = logoStyleMatch ? logoStyleMatch[0] : '';
 
+// Extract SHOP_PRIMARY_FONT
+var fontMatch = src.match(/const SHOP_PRIMARY_FONT = "[^"]+";/);
+var fontBlock = fontMatch ? fontMatch[0] : '';
+
+// Extract SHOP_ROW_FONT
+var rowFontMatch = src.match(/const SHOP_ROW_FONT = "[^"]+";/);
+var rowFontBlock = rowFontMatch ? rowFontMatch[0] : '';
+
 // Extract SHOP_FLAG (simplified)
 var flagMatch = src.match(/const SHOP_FLAG = \{[^}]+\};/);
 var flagBlock = flagMatch ? flagMatch[0] : '';
@@ -157,6 +165,10 @@ const SHOP_LOGO_TEXT = ${logoBlock.replace('const SHOP_LOGO_TEXT = ', '')};
 
 ${logoStyleBlock}
 
+${fontBlock}
+
+${rowFontBlock}
+
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 
 ${btnBlock}
@@ -256,7 +268,7 @@ window.tmgStoreButtons = function(p) {
         var dispNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
         var isEsPage = tmgIsEsDoc();
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
-        var dispSt = SHOP_LOGO_STYLE[curStore] || 'font-weight:700';
+        var dispSt = SHOP_ROW_FONT;
         var dispFlag = SHOP_FLAG[curStore] ? SHOP_FLAG[curStore]() : '';
         var dispNote = '';
         var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="white-space:nowrap;flex-shrink:0;' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';

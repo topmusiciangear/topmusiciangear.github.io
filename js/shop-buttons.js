@@ -76,6 +76,10 @@ const SHOP_LOGO_STYLE = {
   gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px", hollyland: "font-family:'Poppins',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.3px;font-size:15px"
 };
 
+const SHOP_PRIMARY_FONT = "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#FFC107;font-size:18px;letter-spacing:.5px";
+
+const SHOP_ROW_FONT = "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px";
+
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 
 const TEST_SHOP_BTN = {
@@ -5376,10 +5380,10 @@ function shopButtonsTest(p, lang) {
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_LOGO_STYLE.hollyland + ';color:#FFC107' + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#FFC107\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400;color:#FFC107\'>Plug<span style=\'color:#FFC107\'>in</span>Boutique</span>' : (hasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#FFC107\'>Amazon</span>' : '<span style="' + (SHOP_LOGO_STYLE[primaryStoreKey]||'font-weight:700') + ';color:#FFC107' + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'" + SHOP_PRIMARY_FONT + "\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'" + SHOP_PRIMARY_FONT + "\'>PluginBoutique</span>' : (hasAmazon ? '<span style=\'" + SHOP_PRIMARY_FONT + "\'>Amazon</span>' : '<span style="' + SHOP_PRIMARY_FONT + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
   const rows = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
-    const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
+    const st = SHOP_ROW_FONT;
     const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
     const storeNote = '';
     const ds = ' data-store="' + k + '"';
@@ -5480,7 +5484,7 @@ window.tmgStoreButtons = function(p) {
         var dispNotes = { zzounds: ['(Planes de pago fáciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Envíos rápidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garantía de 3 años)', '(3-Year Warranty)'], amazon: ['(Envío Prime)', '(Prime Delivery)'] };
         var isEsPage = tmgIsEsDoc();
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
-        var dispSt = SHOP_LOGO_STYLE[curStore] || 'font-weight:700';
+        var dispSt = SHOP_ROW_FONT;
         var dispFlag = SHOP_FLAG[curStore] ? SHOP_FLAG[curStore]() : '';
         var dispNote = '';
         var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="white-space:nowrap;flex-shrink:0;' + dispSt + '">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
