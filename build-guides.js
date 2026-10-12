@@ -5641,8 +5641,9 @@ const TEST_SHOP_BTN = {
   641: {
     prices: {
       zzounds: "$3,299.00",
-      gear4music: "£1,655.47",
-      andertons: "£1,929.00"
+      gear4music: "£1,899.00",
+      andertons: "£1,929.00",
+      musicstore: "€2,219.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--NORELECTRO7D61",
