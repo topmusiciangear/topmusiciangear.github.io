@@ -1299,8 +1299,10 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     t.open('GET','https://1.1.1.1/cdn-cgi/trace',true);
     t.timeout=4000;
     t.onload=function(){
-      try{var m=/(?:^|\n)loc=(\S+)/.exec(t.responseText);if(m&&m[1])gApply(m[1]);}catch(e){}
+      try{var m=/(?:^|\n)loc=(\S+)/.exec(t.responseText);if(m&&m[1]){gApply(m[1]);return;}}catch(e){}
+      gTz();
     };
+    t.onerror=t.ontimeout=function(){gTz();};
     t.send();
   }
   var y=new XMLHttpRequest();
@@ -1311,6 +1313,11 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     gSecond();
   };
   y.onerror=y.ontimeout=function(){gSecond();};
+  function gTz(){
+    if(typeof gres!=='undefined'&&gres)return;
+    var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+    if(/^Europe//.test(tz)){try{gres=true;}catch(e){}applyNow('musicstore');}
+  }
   y.send();
   function gSecond(){
     if(gres)return;

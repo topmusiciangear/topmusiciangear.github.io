@@ -5636,7 +5636,7 @@ function shopButtonsTest(p, lang) {
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_LOGO_STYLE.hollyland + ';color:#FFC107\'">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#FFC107\'><span style=\'position:relative;display:inline-block\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400;color:#FFC107\'>Plug<span style=\'color:#FFC107\'>in</span>Boutique</span>' : (hasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#FFC107\'><span style=\'position:relative;display:inline-block\'>Amazon</span>' : '<span style="' + (SHOP_LOGO_STYLE[primaryStoreKey]||'font-weight:700') + ';color:#FFC107\'">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_LOGO_STYLE.hollyland + ';color:#FFC107\'">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#FFC107\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_LOGO_STYLE.gear4music + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:400;color:#FFC107\'>Plug<span style=\'color:#FFC107\'>in</span>Boutique</span>' : (hasAmazon ? '<span style=\'font-family:Arial,Helvetica,sans-serif;font-weight:800;color:#FFC107\'>Amazon</span>' : '<span style="' + (SHOP_LOGO_STYLE[primaryStoreKey]||'font-weight:700') + ';color:#FFC107\'">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
   const rows = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_LOGO_STYLE[k] || 'font-weight:700';
@@ -6597,8 +6597,10 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     t.open('GET','https://1.1.1.1/cdn-cgi/trace',true);
     t.timeout=4000;
     t.onload=function(){
-      try{var m=/(?:^|\\n)loc=(\\S+)/.exec(t.responseText);if(m&&m[1])gApply(m[1]);}catch(e){}
+      try{var m=/(?:^|\\n)loc=(\\S+)/.exec(t.responseText);if(m&&m[1]){gApply(m[1]);return;}}catch(e){}
+      gTz();
     };
+    t.onerror=t.ontimeout=function(){gTz();};
     t.send();
   }
   var y=new XMLHttpRequest();
@@ -6609,6 +6611,11 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     gSecond();
   };
   y.onerror=y.ontimeout=function(){gSecond();};
+  function gTz(){
+    if(typeof gres!=='undefined'&&gres)return;
+    var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+    if(/^Europe\//.test(tz)){try{gres=true;}catch(e){}applyNow('musicstore');}
+  }
   y.send();
   function gSecond(){
     if(gres)return;

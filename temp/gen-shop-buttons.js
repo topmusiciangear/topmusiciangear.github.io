@@ -314,11 +314,11 @@ window.tmgStoreButtons = function(p) {
       x.onload = function() {
         try {
           var m = /(?:^|\\n)loc=(\\S+)/.exec(x.responseText);
-          if (m && m[1]) finish(m[1]);
+          if (m && m[1]) { finish(m[1]); return; }
         } catch (e) {}
-        clearPending();
+        tzFallback();
       };
-      x.onerror = x.ontimeout = function() { clearPending(); };
+      x.onerror = x.ontimeout = function() { tzFallback(); };
       x.send();
     }
     var y = new XMLHttpRequest();
@@ -332,6 +332,13 @@ window.tmgStoreButtons = function(p) {
       trySecond();
     };
     y.onerror = y.ontimeout = function() { trySecond(); };
+    function tzFallback() {
+      try { if (window.__tmgGeoResolved) return; } catch (e) {}
+      var tz='';
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+      if (/^Europe\//.test(tz)) { applyNow('musicstore'); }
+      try { clearPending(); } catch (e) {}
+    }
     function trySecond() {
       var q = new XMLHttpRequest();
       q.open('GET', 'https://ipapi.co/json/', true);
