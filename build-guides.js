@@ -5594,15 +5594,16 @@ const TEST_SHOP_BTN = {
   638: {
     prices: {
       andertons: "£2,441.00",
-      musicstore: "€2,352.10",
-      zzounds: "$3,199.99"
+      musicstore: "€2,799.00",
+      zzounds: "$3,199.99",
+      gear4music: "£2,398.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--YAMYC88",
       amazon: "https://www.amazon.com/dp/B08RNKDLMN",
       andertons: "https://www.andertons.co.uk/yamaha-yc88-88-key-drawbar-organ-stage-keyboard",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-YC88/art-KEY0005386-000",
-      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YC61-Digital-Stage-Keyboard-with-Drawbars/3AK8"
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YC88-Digital-Stage-Keyboard-with-Drawbars/3Q2G"
     }
   },
   639: {
