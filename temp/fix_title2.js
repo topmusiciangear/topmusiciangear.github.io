@@ -1,0 +1,12 @@
+var fs = require('fs');
+var p = 'data/guides.json';
+var d = JSON.parse(fs.readFileSync(p, 'utf8'));
+var g = d.find(function (x) { return x.id === 'best-stage-keyboards'; });
+console.log('BEFORE title_es: ' + g.title_es);
+console.log('BEFORE tag_es: ' + g.titleTag_es);
+console.log('EN (ref): ' + g.title);
+g.title_es = 'Mejores teclados para directo';
+g.titleTag_es = 'Mejores teclados para directo (pros, contras y guía de compra 2026)';
+fs.writeFileSync(p, JSON.stringify(d, null, 2));
+console.log('AFTER title_es: ' + g.title_es);
+console.log('AFTER tag_es: ' + g.titleTag_es);
