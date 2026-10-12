@@ -1,0 +1,15 @@
+var fs=require('fs');
+var d=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var hub=d.find(function(x){return x.id==='best-keyboard'});
+console.log('image: '+hub.image);
+console.log('badge: '+hub.badge);
+console.log('author: '+hub.author+' | aboutName: '+hub.aboutName);
+console.log('datePublished: '+hub.datePublished);
+console.log('description: '+(hub.description||'').slice(0,300));
+console.log('description_es: '+(hub.description_es||'').slice(0,300));
+console.log('fs keys: '+Object.keys(hub.featuredSnippet||{}).join(','));
+var src=fs.readFileSync('build-guides.js','utf8');
+console.log('BTN 11: '+(src.indexOf('\n  11: {')>-1?'EXISTS':'MISSING'));
+var ps=JSON.parse(fs.readFileSync('data/products.json','utf8'));
+var s4=ps.find(function(x){return x.id===11});
+console.log('STAGE4: '+s4.title+' $'+s4.price+' badge:'+s4.badge+' stores:'+Object.keys(s4.stores||{}).join(','));
