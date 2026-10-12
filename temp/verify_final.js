@@ -1,17 +1,17 @@
-const fs = require("fs");
-const files = fs.readdirSync("guides").filter(f => f.endsWith(".html"));
-let issues = [], capIssues = [];
-files.forEach(f => {
-  const h = fs.readFileSync("guides/" + f, "utf8");
-  const t = (h.match(/<title>(.*?)<\/title>/) || [])[1] || "";
-  const h1 = (h.match(/<h1[^>]*>(.*?)<\/h1>/) || [])[1] || "";
-  const og = (h.match(/property="og:title" content="(.*?)"/) || [])[1] || "";
-  if (t !== h1 + " | TopMusicianGear") issues.push(f + ': TITLE!=H1 "' + t + '" vs "' + h1 + ' | TopMusicianGear"');
-  if (t !== og) issues.push(f + ": TITLE!=OG");
-  if (/<title>(BEST|MEJOR|MEJORES|ULTIMATE|COMPLETE|GUÍA|CADENA)|2026/.test(h.match(/<title>(.*?)<\/title>/)[1])) capIssues.push(f + ": " + t);
-});
-console.log("Total files:", files.length);
-console.log("Title/H1/OG issues:", issues.length);
-issues.slice(0, 20).forEach(i => console.log("  ", i));
-console.log("CAPS/año en <title>:", capIssues.length);
-capIssues.slice(0, 10).forEach(i => console.log("  ", i));
+var fs = require('fs');
+var fails = 0;
+function check(f, substr, label, absent) {
+  var s = fs.readFileSync(f, 'utf8');
+  var n = s.split(substr).length - 1;
+  var ok = absent ? n === 0 : n > 0;
+  console.log(f + ' | ' + label + ': ' + n + (ok ? ' OK' : ' FAIL'));
+  if (!ok) fails++;
+}
+// amber declarations well-formed: ;color:#FFC107"> with NO stray quote
+check('guides/best-plugins.html', [";color:#FFC107\">", 'clean amber decls', 5]);
+check('guides/best-plugins.html', [";color:#FFC107'\">", 'stray-quote decls', 0, true]);
+check('guides/best-plugins.html', ['86 114 320 72', 'smile svg left', 0, true]);
+check('guides/best-plugins_es.html', [";color:#FFC107\">", 'clean amber es', 5]);
+check('js/shop-buttons.js', [";color:#FFC107\">", 'spa clean amber', 3]);
+check('js/shop-buttons.js', ['86 114 320 72', 'spa smile left', 0, true]);
+console.log(fails ? 'FAILURES ' + fails : 'ALL GREEN');

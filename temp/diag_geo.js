@@ -1,0 +1,10 @@
+var fs = require('fs');
+var s = fs.readFileSync('guides/best-plugins.html', 'utf8');
+var i = s.indexOf('function tmgIsEsDoc');
+console.log('=== tmgIsEsDoc ===');
+console.log(s.slice(i, i + 300));
+var j = s.indexOf('function quickTarget');
+console.log('=== quickTarget ===');
+console.log(s.slice(j, j + 800));
+var k = s.indexOf('ipinfo.io');
+console.log('has ipinfo: ' + (k >= 0));
