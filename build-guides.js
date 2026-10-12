@@ -6109,7 +6109,7 @@ function buildGuidePage(guide, lang, idx) {
 
   const authorBoxHtml = `<div class="guide-author-box">
     <div class="guide-author-box-body">
-      <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago · ' + fmtMonthYear(guide.datePublished, true) : 'By Daniel Carnago · ' + fmtMonthYear(guide.datePublished, false)}</span>
+      <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago · ' + fmtMonthYear(guideDates(guide, idx).modified, true) : 'By Daniel Carnago · ' + fmtMonthYear(guideDates(guide, idx).modified, false)}</span>
       <p class="guide-author-box-bio">${isEs ? 'Músico de directo y de sesión con más de 20 años sobre los escenarios de todo el mundo. Una gran cantidad de los equipos que recomiendo los he usado yo mismo, en giras, estudios profesionales o en mi propio estudio.' : 'Touring and session musician with 20+ years on stages around the world. A great deal of the gear I recommend here I have used myself, on tours, in professional studios, or in my own studio.'}</p>
     </div>
   </div>`;

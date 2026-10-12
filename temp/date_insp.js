@@ -1,0 +1,10 @@
+var fs=require('fs');
+var d=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var dist={};
+d.forEach(function(g){ var k=g.datePublished||'(none)'; dist[k]=(dist[k]||0)+1; });
+console.log('datePublished values: '+JSON.stringify(dist));
+var src=fs.readFileSync('build-guides.js','utf8');
+var i=src.indexOf('function fmtMonthYear');
+console.log(src.slice(i,i+700));
+var j=src.indexOf('function guideDates');
+console.log(src.slice(j,j+900));
