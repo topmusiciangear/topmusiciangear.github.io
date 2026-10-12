@@ -151,7 +151,7 @@ function criticalCss() {
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
     '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:10px;font-weight:500;color:var(--text-muted);letter-spacing:.3px}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
-    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}',
+    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}',
     '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
@@ -6109,6 +6109,30 @@ function navDropdown(isEs) {
   </div>`;
 }
 
+// Helper: get product names from guide's featuredProducts
+function getGuideProductNames(guide, isEs) {
+  if (!guide.featuredProducts || !guide.featuredProducts.length) return [];
+  return guide.featuredProducts.map(function(pid) {
+    var p = products.find(function(pr) { return pr.id === pid; });
+    return p ? (isEs && p.title_es ? p.title_es : p.title) : '';
+  }).filter(Boolean);
+}
+
+// Helper: wrap product names in text with blue span
+function highlightProductNames(text, productNames) {
+  if (!text || !productNames || !productNames.length) return text;
+  var result = text;
+  // Sort by length descending to match longer names first
+  var sortedNames = productNames.slice().sort(function(a, b) { return b.length - a.length; });
+  sortedNames.forEach(function(name) {
+    if (!name) return;
+    var escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    var regex = new RegExp('(?<!<span class="product-name">)' + escaped + '(?!<\/span>)', 'g');
+    result = result.replace(regex, '<span class="product-name">$&</span>');
+  });
+  return result;
+}
+
 function buildGuidePage(guide, lang, idx) {
   CURRENT_GUIDE_CAT = guide.category;
   const isEs = lang === 'es';
@@ -6121,6 +6145,9 @@ function buildGuidePage(guide, lang, idx) {
   const introWithoutTable = intro.replace(/<table[\s\S]*?<\/table>/, '').trim();
   const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
   const verdict = esText(isEs && guide.verdict_es, guide.verdict);
+  const productNames = getGuideProductNames(guide, isEs);
+  const verdictHighlighted = highlightProductNames(verdict, productNames);
+  const conclusionHighlighted = highlightProductNames(conclusion, productNames);
   const image = guide.image || '../img/og-image.png';
   const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (normImg(guide.image) || 'img/og-image.png');
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
@@ -6470,7 +6497,7 @@ ${ogMeta}
       ${introTable}
       ${guide.verdict ? `<div class="guide-verdict">
         <div class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</div>
-        <div class="verdict-text">${verdict}</div>
+        <div class="verdict-text">${verdictHighlighted}</div>
         ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
       </div>` : ''}
       ${guide.comparison ? (function(){ var comp = guide.comparison; var oldSchema = Array.isArray(comp.headers); var headers = oldSchema ? comp.headers : []; var valKeys = oldSchema ? ['val','val2','val3','val4','val5'] : ['val1','val2','val3','val4','val5']; if(!oldSchema){ var fs = guide.featuredSnippet || {}; if(fs.name1_en && fs.name2_en){ headers = [isEs ? (fs.name1_es || fs.name1_en) : fs.name1_en, isEs ? (fs.name2_es || fs.name2_en) : fs.name2_en]; } else if((guide.verdictProsCons||[]).length === 2){ headers = guide.verdictProsCons.map(function(p){ return isEs && p.name_es ? p.name_es : p.name; }); } } if(headers && headers.length > 0){ valKeys = valKeys.slice(0, headers.length); } var colMin = 0; headers.forEach(function(h){ if(String(h).length>colMin) colMin=String(h).length; }); colMin += 2; var thHtml = headers.map(function(h,i){ var hn = h; if(oldSchema && isEs && comp['header'+(i+1)+'_es']) hn = comp['header'+(i+1)+'_es']; return '<th>'+hn+'</th>'; }).join(''); var trs = comp.rows.filter(function(r){ var l=(r.label||'').trim().toLowerCase(); if(l==='rating') return false; return true; }).map(function(r){ var tds = '<td class="label">'+(isEs?r.label_es:r.label)+'</td>'; valKeys.forEach(function(k){ var esK = k+'_es'; var v = isEs && r[esK] ? r[esK] : r[k]; tds += '<td class="val">'+(v||'')+'</td>'; }); return '<tr>'+tds+'</tr>'; }).join(''); return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">'+(isEs?'¿Cómo se Comparan?':'How Do They Compare?')+'</h2>'+guideCompControls(isEs,'guide-comp-controls-top')+'<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:'+colMin+'ch"><thead><tr><th></th>'+thHtml+'</tr></thead><tbody>'+trs+'</tbody></table></div>'+guideCompControls(isEs)+'</div></div>'; })() : ''}
@@ -6504,7 +6531,7 @@ ${ogMeta}
       </div>
       <script>(function(){var b=document.querySelector('.guide-product-card-currency-note .note-toggle');if(!b)return;var box=b.parentNode,ar=b.querySelector('.note-toggle-arrow'),tx=b.querySelector('.note-toggle-text');b.addEventListener('click',function(){var open=box.classList.toggle('is-open');b.setAttribute('aria-expanded',open?'true':'false');ar.textContent=open?'▲':'▼';tx.textContent=open?b.getAttribute('data-close'):b.getAttribute('data-open')})})();</script>
       ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
-      ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs && guide.conclusion_title_es ? guide.conclusion_title_es : (guide.conclusion_title || (isEs ? 'Conclusión' : 'Conclusion'))}</h2><div class="guide-conclusion-content">${conclusion.replace(/<strong>/g, '<strong style="color:var(--accent)">')}</div></div>` : ''}
+      ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs && guide.conclusion_title_es ? guide.conclusion_title_es : (guide.conclusion_title || (isEs ? 'Conclusión' : 'Conclusion'))}</h2><div class="guide-conclusion-content">${conclusionHighlighted.replace(/<strong>/g, '<strong style="color:var(--accent)">')}</div></div>` : ''}
 
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué productos hay en esta guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       ${userReviewsSection(guide, isEs)}
