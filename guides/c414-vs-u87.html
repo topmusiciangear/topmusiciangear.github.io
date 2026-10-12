@@ -1026,11 +1026,23 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
   y.open('GET','https://ipinfo.io/json',true);
   y.timeout=4000;
   y.onload=function(){
-    try{var r=JSON.parse(y.responseText);if(r&&r.country)gApply(r.country);}catch(e){}
-    gTrace();
+    try{var r=JSON.parse(y.responseText);if(r&&r.country){gApply(r.country);return;}}catch(e){}
+    gSecond();
   };
-  y.onerror=y.ontimeout=function(){gTrace();};
+  y.onerror=y.ontimeout=function(){gSecond();};
   y.send();
+  function gSecond(){
+    if(gres)return;
+    var q=new XMLHttpRequest();
+    q.open('GET','https://ipapi.co/json/',true);
+    q.timeout=4000;
+    q.onload=function(){
+      try{var r2=JSON.parse(q.responseText);if(r2&&r2.country_code){gApply(r2.country_code);return;}}catch(e){}
+      gTrace();
+    };
+    q.onerror=q.ontimeout=function(){gTrace();};
+    q.send();
+  }
 })();
 </script>
 <script defer src="/js/aff-defer.js"></script>

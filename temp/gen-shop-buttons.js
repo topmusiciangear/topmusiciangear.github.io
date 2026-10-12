@@ -327,11 +327,25 @@ window.tmgStoreButtons = function(p) {
     y.onload = function() {
       try {
         var r = JSON.parse(y.responseText);
-        if (r && r.country) finish(r.country);
+        if (r && r.country) { finish(r.country); return; }
       } catch (e) {}
-      tryTrace();
+      trySecond();
     };
-    y.onerror = y.ontimeout = function() { tryTrace(); };
+    y.onerror = y.ontimeout = function() { trySecond(); };
+    function trySecond() {
+      var q = new XMLHttpRequest();
+      q.open('GET', 'https://ipapi.co/json/', true);
+      q.timeout = 4000;
+      q.onload = function() {
+        try {
+          var r2 = JSON.parse(q.responseText);
+          if (r2 && r2.country_code) { finish(r2.country_code); return; }
+        } catch (e) {}
+        tryTrace();
+      };
+      q.onerror = q.ontimeout = function() { tryTrace(); };
+      q.send();
+    }
     y.send();
   };
 })();
