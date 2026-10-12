@@ -5179,12 +5179,15 @@ const TEST_SHOP_BTN = {
 
   637: {
     prices: {
+      zzounds: "$2,899.00",
       gear4music: "£2,333.00",
-      musicstore: "€2,439.00"
+      andertons: "£2,299.00",
+      musicstore: "€2,888.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--ROLRD2000EX",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-RD-2000-EX-Digital-Stage-Piano/6KU9",
+      andertons: "https://www.andertons.co.uk/roland-rd2000-ex-stage-piano/",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-RD-2000-EX/art-KEY0006021-000",
       reverb: "https://reverb.com/p/roland-rd-2000ex-88-key-digital-stage-piano"
     }
