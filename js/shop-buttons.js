@@ -78,7 +78,7 @@ const SHOP_LOGO_STYLE = {
 
 const SHOP_PRIMARY_FONT = "font-weight:800;color:#FFC107";
 
-const SHOP_ROW_FONT = "font-weight:800;color:#fff";
+const SHOP_ROW_FONT = "font-weight:800";
 
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 
