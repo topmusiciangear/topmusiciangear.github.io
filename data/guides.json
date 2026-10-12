@@ -32209,6 +32209,98 @@
           ]
         },
         {
+          "label": "Sounds",
+          "label_es": "Sonidos",
+          "values": [
+            {
+              "value": "3 engines: Piano/Organ/Synth",
+              "value_es": "3 motores: piano/órgano/sinte"
+            },
+            {
+              "value": "24 voices, CFX + VRM Lite",
+              "value_es": "24 voces, CFX + VRM Lite"
+            },
+            {
+              "value": "321 tones, SuperNATURAL",
+              "value_es": "321 sonidos, SuperNATURAL"
+            },
+            {
+              "value": "None (Analog Lab software)",
+              "value_es": "Ninguno (software Analog Lab)"
+            },
+            {
+              "value": "None (controller)",
+              "value_es": "Ninguno (controlador)"
+            },
+            {
+              "value": "None (controller)",
+              "value_es": "Ninguno (controlador)"
+            },
+            {
+              "value": "None (controller)",
+              "value_es": "Ninguno (controlador)"
+            },
+            {
+              "value": "1,154 tones, ZEN-Core",
+              "value_es": "1.154 sonidos, ZEN-Core"
+            },
+            {
+              "value": "None (controller)",
+              "value_es": "Ninguno (controlador)"
+            },
+            {
+              "value": "None (Komplete software)",
+              "value_es": "Ninguno (software Komplete)"
+            }
+          ]
+        },
+        {
+          "label": "Speakers",
+          "label_es": "Altavoces",
+          "values": [
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes, 7 W x 2",
+              "value_es": "Sí, 7 W x 2"
+            },
+            {
+              "value": "Yes, 11 W x 2",
+              "value_es": "Sí, 11 W x 2"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes, built-in stereo",
+              "value_es": "Sí, estéreo integrados"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            }
+          ]
+        },
+        {
           "label": "Connectivity",
           "label_es": "Conectividad",
           "values": [
