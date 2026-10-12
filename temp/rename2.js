@@ -1,0 +1,16 @@
+var fs=require('fs');
+var p='data/guides.json';
+var d=JSON.parse(fs.readFileSync(p,'utf8'));
+var a=d.find(function(x){return x.id==='slg200s-vs-gs-mini'});
+var TEN1='Yamaha SLG200S vs Taylor GS Mini: Best Home Office Guitar Comparison';
+var TES1='Yamaha SLG200S vs Taylor GS Mini: comparativa de guitarras para home office';
+a.title=TEN1; a.titleTag=TEN1; a.title_es=TES1; a.titleTag_es=TES1;
+var b=d.find(function(x){return x.id==='best-bass-home-office'});
+var TEN2='Best Basses for Home Office & Travel (Pros, Cons & Buying Guide 2026)';
+var TES2='Mejores bajos para home office y viajes (pros, contras y guía de compra 2026)';
+b.title=TEN2; b.titleTag=TEN2; b.title_es=TES2; b.titleTag_es=TES2;
+fs.writeFileSync(p,JSON.stringify(d,null,2));
+console.log('1 EN: '+a.titleTag);
+console.log('1 ES: '+a.titleTag_es);
+console.log('2 EN: '+b.titleTag);
+console.log('2 ES: '+b.titleTag_es);
