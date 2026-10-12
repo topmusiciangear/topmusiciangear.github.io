@@ -5148,7 +5148,8 @@ const TEST_SHOP_BTN = {
       zzounds: "$105.00",
       amazon: "$94.63",
       gear4music: "£95.30",
-      andertons: "£91.00"
+      andertons: "£91.00",
+      musicstore: "€115.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--AUDI5",
@@ -5162,8 +5163,9 @@ const TEST_SHOP_BTN = {
   636: {
     prices: {
       zzounds: "$159.00",
-      gear4music: "£151.25",
-      andertons: "£151.00"
+      gear4music: "£153.00",
+      andertons: "£151.00",
+      musicstore: "€149.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--SHUBETA57A",
