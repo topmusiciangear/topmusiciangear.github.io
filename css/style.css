@@ -3319,3 +3319,6 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   }
 }
 
+
+.shop-more-list .shop-wm{transition:color .18s ease}
+.shop-more-list a:hover .shop-wm{color:#FFC107}
