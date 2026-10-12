@@ -5271,13 +5271,15 @@ const TEST_SHOP_BTN = {
   },
   643: {
     prices: {
-      gear4music: "£1,300.00",
-      andertons: "£1,159.00"
+      zzounds: "$1,599.00",
+      gear4music: "£1,399.00",
+      andertons: "£1,159.00",
+      musicstore: "€1,369.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--ARAASTROLAB",
       amazon: "https://www.amazon.com/dp/B0CVBHTGVR",
-      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Arturia-Astrolab-61-Note-Stage-Keyboard/6AMY",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Arturia-Astrolab-61-Note-Stage-Keyboard-Silver/82CQ",
       andertons: "https://www.andertons.co.uk/arturia-astrolab-61-key-synth",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Arturia-AstroLab-61/art-SYN0008965-000"
     }
@@ -5285,6 +5287,8 @@ const TEST_SHOP_BTN = {
   644: {
     prices: {
       andertons: "£1,188.00",
+      gear4music: "£1,188.00",
+      musicstore: "€1,399.00",
       zzounds: "$1,499.99"
     },
     urls: {
