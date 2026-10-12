@@ -5822,7 +5822,7 @@ function shopButtonsTest(p, lang) {
       return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : '') + '</a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
-      const oosPrice = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((cfg.prices && cfg.prices[k]) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#a8a8a8">' + fmtPrice(cfg.prices[k], lang) + '</span></span>' : '';
+      const oosPrice = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((cfg.prices && cfg.prices[k]) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(cfg.prices[k], lang) + '</span></span>' : '';
       return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
     }
     const pr = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(prices[k], lang) + '</span></span>' : '');
@@ -6118,15 +6118,57 @@ function getGuideProductNames(guide, isEs) {
   }).filter(Boolean);
 }
 
+// Helper: generate variations of a product name for flexible matching
+function generateNameVariations(name) {
+  var variations = [name];
+  // Common patterns: remove brand prefix, remove suffixes, etc.
+  // "Martin D-28 Dreadnought" -> also match "Martin D-28", "D-28"
+  // "Taylor PS14ce Presentation Series" -> also match "PS14ce", "Taylor PS14ce"
+  // "Gibson Custom Shop 1942 Banner J-45" -> also match "Gibson 1942 Banner J-45", "1942 Banner J-45", "J-45"
+  // "Gibson SJ-200" -> also match "SJ-200"
+  
+  // Remove common brand prefixes
+  var brands = ['Martin ', 'Taylor ', 'Gibson ', 'Gibson Custom Shop ', 'Fender ', 'Yamaha ', 'Epiphone ', 'Takamine ', 'Guild ', 'Seagull ', 'Larrivee ', 'Collings ', 'Santa Cruz ', 'Bourgeois ', 'Huss & Dalton '];
+  brands.forEach(function(brand) {
+    if (name.startsWith(brand)) {
+      variations.push(name.slice(brand.length)); // "D-28 Dreadnought"
+      // Also try just the model
+      var model = name.slice(brand.length).split(' ')[0]; // "D-28"
+      if (model.length > 2) variations.push(model);
+    }
+  });
+  
+  // Remove common suffixes
+  var suffixes = [' Dreadnought', ' Presentation Series', ' Builder\'s Edition', ' Vintage Sunburst', ' Standard', ' Custom', ' Deluxe', ' Modern Deluxe', ' Custom Shop', ' Next Generation'];
+  suffixes.forEach(function(suffix) {
+    if (name.endsWith(suffix)) {
+      variations.push(name.slice(0, -suffix.length)); // "Martin D-28", "Taylor PS14ce"
+    }
+  });
+  
+  // Handle possessive forms: "Taylor's 914ce" -> "Taylor 914ce"
+  variations.forEach(function(v) {
+    variations.push(v.replace(/^([A-Z][a-z]+)'s /, '$1 '));
+  });
+  
+  // Remove duplicates
+  return [...new Set(variations)].filter(function(v) { return v.length > 2; });
+}
+
 // Helper: wrap product names in text with blue span
 function highlightProductNames(text, productNames) {
   if (!text || !productNames || !productNames.length) return text;
   var result = text;
+  // Build all variations for all product names
+  var allVariations = [];
+  productNames.forEach(function(name) {
+    generateNameVariations(name).forEach(function(v) { allVariations.push(v); });
+  });
   // Sort by length descending to match longer names first
-  var sortedNames = productNames.slice().sort(function(a, b) { return b.length - a.length; });
-  sortedNames.forEach(function(name) {
-    if (!name) return;
-    var escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  allVariations.sort(function(a, b) { return b.length - a.length; });
+  allVariations.forEach(function(variation) {
+    if (!variation) return;
+    var escaped = variation.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     var regex = new RegExp('(?<!<span class="product-name">)' + escaped + '(?!<\/span>)', 'g');
     result = result.replace(regex, '<span class="product-name">$&</span>');
   });
