@@ -1,8 +1,8 @@
-const fs = require('fs');
-const gFile = 'data/guides.json';
-const G = JSON.parse(fs.readFileSync(gFile, 'utf8'));
-const gd = G.find(x => x.id === 'best-digital-pianos');
-if (gd.titleTag_es !== 'Mejores pianos digitales para cada presupuesto') throw new Error('unexpected titleTag_es: ' + gd.titleTag_es);
-gd.titleTag_es = 'Mejores pianos digitales para estudio y hogar';
-fs.writeFileSync(gFile, JSON.stringify(G, null, 2) + '\n');
-console.log('titleTag_es restored');
+var fs=require('fs');
+var p='data/guides.json';
+var d=JSON.parse(fs.readFileSync(p,'utf8'));
+var g=d.find(function(x){return x.id==='budget-usb-mics'});
+var T='13 Best Budget USB Mics Under $110 (Pros, Cons & Buying Guide 2026)';
+g.title=T; g.titleTag=T;
+fs.writeFileSync(p,JSON.stringify(d,null,2));
+console.log('fixed: ['+g.titleTag+']');
