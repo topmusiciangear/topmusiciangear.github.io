@@ -1,0 +1,14 @@
+var fs=require('fs');
+var ps=JSON.parse(fs.readFileSync('data/products.json','utf8'));
+var ids=ps.map(function(p){return p.id});
+console.log('MAX ID: '+Math.max.apply(null,ids)+' COUNT: '+ps.length);
+var s280=ps.find(function(p){return p.id===280});
+console.log('--- 280 FULL ---');
+console.log(JSON.stringify(s280,null,1).slice(0,3000));
+var d=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var users211=d.filter(function(g){return (g.featuredProducts||[]).indexOf(211)>-1}).map(function(g){return g.id});
+console.log('GUIDES USING 211: '+users211.join(', '));
+var g=d.find(function(x){return x.id==='best-mic-for-guitar-amps'});
+console.log('--- SEC0 ---'); console.log(g.sections[0].content.slice(0,2500));
+console.log('--- SEC0_ES ---'); console.log((g.sections[0].content_es||'').slice(0,2500));
+console.log('--- SEC4 ---'); console.log(g.sections[4].content.slice(0,2500));

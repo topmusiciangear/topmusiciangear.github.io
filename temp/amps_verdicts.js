@@ -1,0 +1,11 @@
+var fs=require('fs');
+var p='data/guides.json';
+var d=JSON.parse(fs.readFileSync(p,'utf8'));
+var g=d.find(function(x){return x.id==='best-mic-for-guitar-amps'});
+var before=g.verdictProsCons.map(function(v){return v.name});
+var gone=before.filter(function(n){return /PD200X|XM8500/.test(n)});
+console.log('removing verdicts: '+gone.join(' | '));
+g.verdictProsCons=g.verdictProsCons.filter(function(v){return !/PD200X|XM8500/.test(v.name)});
+console.log('remaining: '+g.verdictProsCons.map(function(v){return v.name}).join(' | '));
+fs.writeFileSync(p,JSON.stringify(d,null,2));
+console.log('VERDICT CLEANUP OK');
