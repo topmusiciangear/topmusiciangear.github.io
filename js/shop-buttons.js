@@ -76,9 +76,9 @@ const SHOP_LOGO_STYLE = {
   gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px", hollyland: "font-family:'Poppins',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.3px;font-size:15px"
 };
 
-const SHOP_PRIMARY_FONT = "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#FFC107;font-size:15px;letter-spacing:.5px";
+const SHOP_PRIMARY_FONT = "font-weight:800;color:#FFC107";
 
-const SHOP_ROW_FONT = "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:15px;letter-spacing:.5px";
+const SHOP_ROW_FONT = "font-weight:800;color:#fff";
 
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 

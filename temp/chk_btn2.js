@@ -1,0 +1,10 @@
+var fs = require('fs');
+var mic = fs.readFileSync('guides/best-microphone.html', 'utf8');
+var i = mic.indexOf('>Amazon</span>');
+console.log('PRI:', JSON.stringify(mic.slice(Math.max(0, i - 90), i + 16)));
+var pb = fs.readFileSync('guides/best-plugins.html', 'utf8');
+var j = pb.indexOf('>PluginBoutique</span>');
+console.log('PB:', JSON.stringify(pb.slice(Math.max(0, j - 90), j + 22)));
+var k = mic.indexOf('white-space:nowrap;flex-shrink:0;');
+console.log('ROW:', JSON.stringify(mic.slice(k, k + 90)));
+console.log('CONDENSED-LEFT:', mic.split('Open Sans Condensed').length - 1);

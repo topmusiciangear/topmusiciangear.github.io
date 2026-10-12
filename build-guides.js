@@ -413,8 +413,8 @@ const SHOP_LOGO_STYLE = {
   gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px", hollyland: "font-family:'Poppins',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.3px;font-size:15px"
 };
 const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb", amazon: "Amazon", hollyland: 'Hollyland' };
-const SHOP_PRIMARY_FONT = "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#FFC107;font-size:15px;letter-spacing:.5px";
-const SHOP_ROW_FONT = "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:15px;letter-spacing:.5px";
+const SHOP_PRIMARY_FONT = "font-weight:800;color:#FFC107";
+const SHOP_ROW_FONT = "font-weight:800;color:#fff";
 let FLAG_UID = 0;
 function flagBadge(inner) {
   const cid = 'flgc' + (++FLAG_UID);
@@ -6479,7 +6479,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
 <script>
 (function(){
   var gText={zzounds:'zZounds',gear4music:'Gear4music',musicstore:'Music Store',andertons:'Andertons',reverb:'Reverb',amazon:'Amazon'};
-  var gPrimFont="font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#FFC107;font-size:15px;letter-spacing:.5px";var gRowFont="font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:15px;letter-spacing:.5px";
+  var gPrimFont="font-weight:800;color:#FFC107";var gRowFont="font-weight:800;color:#fff";
   var gStyle={zzounds:"font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",gear4music:"font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",andertons:"font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",musicstore:"font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",reverb:"font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"};
   function flagRect(inner){
     return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px"><defs><clipPath id="flgcGeo"><rect width="24" height="16" rx="3.2"/></clipPath></defs><g clip-path="url(#flgcGeo)">'+inner+'</g><rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/></svg>';
