@@ -5656,18 +5656,17 @@ const TEST_SHOP_BTN = {
     prices: {
       zzounds: "$1,999.99",
       gear4music: "£1,749.00",
-      andertons: "£1,749.00"
+      andertons: "£1,749.00",
+      musicstore: "€2,299.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--KORGRANDSTAGEX",
       amazon: "https://www.amazon.com/dp/B0DKN7FL2J",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Korg-Grandstage-X/6707",
       andertons: "https://www.andertons.co.uk/Korg-Grandstage-X-Stage-Piano",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Korg-Grandstage-X-inkl-Wooden-stand/art-KEY0005938-000",
       reverb: "https://reverb.com/p/korg-grandstage-x-88-key-digital-piano"
-    },
-    oos: [
-      "andertons"
-    ]
+    }
   },
   643: {
     prices: {
