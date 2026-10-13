@@ -5340,6 +5340,20 @@ const TEST_SHOP_BTN = {
       amazon: "https://www.amazon.com/Ultimate-Support-MS-100B-Professional-Adjustable/dp/B005OWHATS"
     }
   },
+  652: {
+    prices: {
+      gear4music: "£215.00",
+      musicstore: "€264.00",
+      zzounds: "$249.00",
+      andertons: "£205.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-440-PURE-Condenser-Microphone/1ZJI",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-440-Pure/art-REC0013117-000",
+      zzounds: "https://www.zzounds.com/item--LEWLCT440PURE",
+      andertons: "https://www.andertons.co.uk/lewitt-lct-440-pure-large-diaphragm-condenser-microphone/"
+    }
+  },
   656: {
     prices: {
       gear4music: "£1,283.00"
