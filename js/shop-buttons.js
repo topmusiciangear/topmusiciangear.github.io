@@ -2279,10 +2279,12 @@ const TEST_SHOP_BTN = {
       amazon: "$169.00",
       zzounds: "$169.00",
       andertons: "£141.00",
-      musicstore: "€179.00"
+      gear4music: "£141.00",
+      musicstore: "€209.00"
     },
     urls: {
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Rode-NT-USBplus/58QD"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Rode-NT-USBplus/58QD",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Rode-NT-USB-/art-REC0016237-000"
     }
   },
   667: {
