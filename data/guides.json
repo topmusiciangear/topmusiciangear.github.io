@@ -7632,7 +7632,7 @@
         "products": [
           194,
           277,
-          330
+          276
         ]
       },
       {
@@ -7683,7 +7683,7 @@
           291,
           277,
           292,
-          330
+          276
         ]
       },
       {
@@ -7696,12 +7696,12 @@
         ]
       },
       {
-        "heading": "Behringer XM8500 Ultravoice Dynamic Microphone: A Closer Look",
-        "heading_es": "Behringer XM8500 Ultravoice Dynamic Microphone: análisis detallado",
-        "content": "<strong>Rehearsal rooms rarely forgive fragile gear, especially when microphones travel in backpacks between gigs.</strong> The XM8500 arrives as a cardioid moving-coil vocal microphone with a presence rise that helps voices sit above guitars, plus a two-stage pop filter, shock mounting and an all-metal body with case and stand adapter. Connection runs through phantom-free XLR into interfaces or mixers.\n\nThe microphone suits beginners building a first vocal chain around an inexpensive interface for demos and small shows. The compromise appears in refinement: handling noise control and off-axis smoothness lag behind costlier dynamics, so critical studio leads may call for an upgrade once ears sharpen.",
-        "content_es": "<strong>Los locales de ensayo rara vez perdonan el equipo frágil, sobre todo cuando el micrófono viaja en la mochila entre conciertos.</strong> El XM8500 llega como micrófono vocal cardioide de bobina móvil con realce de presencia que ayuda a la voz a colocarse sobre las guitarras, más filtro antipop de dos etapas, suspensión y cuerpo metálico con estuche y adaptador. La conexión va por XLR sin phantom hacia interfaces o mesas.\n\nEl micrófono conviene a quienes arman su primera cadena vocal con una interfaz asequible para maquetas y conciertos pequeños. La concesión aparece en el refinamiento: el control de golpes y la suavidad fuera de eje quedan detrás de dinámicos costosos, así que las voces solistas exigentes pueden pedir un salto cuando el oído afina.",
+        "heading": "Start on USB, Grow to XLR: The Samson Q2U Workhorse",
+        "heading_es": "Empieza por USB y crece a XLR: el todoterreno Samson Q2U",
+        "content": "<strong>Untreated rooms punish sensitive condensers, and an XLR-only mic forces you to buy an interface — the Q2U sidesteps both.</strong> It is a handheld dynamic cardioid with USB and XLR outputs that work simultaneously, so it plugs straight into a laptop for streaming today and into a mixer or interface tomorrow. The dynamic capsule stays focused on the voice and rejects rear and side noise, which is exactly what untreated rooms need. Zero-latency monitoring comes from the 1/8-inch headphone jack with its own level control, and the on/off switch mutes both outputs at once.</p><p><strong>The box is the argument.</strong> Tripod desk stand with extension piece, mic clip, windscreen, a 2.25m USB cable and a 3m XLR cable — everything needed to record out of the box, with 148dB max SPL headroom for loud voices. The honest trade: USB tops out at 16-bit/48kHz with no 24-bit option, and the 50Hz–15kHz response trades top-end air for room rejection. For a first streaming mic that grows with you, that trade is easy to take.",
+        "content_es": "<strong>Las habitaciones sin tratar castigan a los condensadores sensibles, y un micro solo XLR te obliga a comprar una interfaz — el Q2U esquiva ambas cosas.</strong> Es un dinámico cardioide de mano con salidas USB y XLR que funcionan a la vez, así que se enchufa directo al portátil para transmitir hoy y a una mesa o interfaz mañana. La cápsula dinámica se mantiene enfocada en la voz y rechaza el ruido trasero y lateral, que es justo lo que necesitan las habitaciones sin tratar. La monitorización sin latencia sale del jack de auriculares de 1/8 de pulgada con su propio control de nivel, y el interruptor de encendido silencia ambas salidas a la vez.</p><p><strong>La caja es el argumento.</strong> Trípode de escritorio con extensión, pinza de micro, antipop, cable USB de 2,25m y cable XLR de 3m — todo lo necesario para grabar nada más abrir la caja, con margen de 148dB de SPL máximo para voces potentes. El trato honesto: el USB llega hasta 16-bit/48kHz sin opción de 24-bit, y la respuesta de 50Hz–15kHz cambia el aire en agudos por rechazo de ruido. Para un primer micro de streaming que crece contigo, ese trato se acepta fácil.",
         "products": [
-          330
+          276
         ]
       },
       {
@@ -9199,31 +9199,33 @@
         ]
       },
       {
-        "name": "Behringer XM8500 Ultravoice Dynamic Microphone",
-        "name_es": "Behringer XM8500 Ultravoice Dynamic Microphone",
+        "name": "Samson Q2U USB/XLR Microphone",
+        "name_es": "Samson Q2U USB/XLR Microphone",
         "pros": [
-          "SM58-class performance for live vocals and rehearsal",
-          "Cardioid pattern with good feedback rejection",
-          "Rugged build that survives gig bags",
-          "Best first vocal mic, period"
+          "Hybrid USB + XLR outputs work simultaneously — start on USB, move to an interface with the same mic",
+          "Dynamic cardioid capsule rejects rear and side noise, made for untreated rooms",
+          "Zero-latency 1/8-inch headphone output with level control plus on/off switch for both outputs",
+          "Complete pack in the box: tripod stand with extension, mic clip, windscreen, USB and XLR cables",
+          "148dB max SPL headroom with a solid die-cast body for loud voices and mobile use"
         ],
         "cons": [
-          "More handling noise than an SM58",
-          "Less top-end clarity than premium dynamics",
-          "No on/off switch versión standard",
-          "Clip and pouch feel cheap"
+          "USB audio tops out at 16-bit/48kHz — no 24-bit recording option",
+          "50Hz–15kHz response trades top-end air for room rejection",
+          "Tripod stand sits low on the desk — a boom arm works better for streaming",
+          "No software mixer ecosystem like Elgato Wave Link or Seiren tools"
         ],
         "pros_es": [
-          "Rendimiento clase SM58 para directo y ensayos",
-          "Patrón cardioide con buen rechazo de acople",
-          "Construcción robusta que aguanta fundas",
-          "Mejor primer micro vocal, punto"
+          "Salidas híbridas USB + XLR que funcionan a la vez — empieza por USB y pasa a interfaz con el mismo micro",
+          "Cápsula dinámica cardioide que rechaza el ruido trasero y lateral, hecha para habitaciones sin tratar",
+          "Salida de auriculares de 1/8 sin latencia con control de nivel más interruptor para ambas salidas",
+          "Pack completo en la caja: trípode con extensión, pinza, antipop y cables USB y XLR",
+          "Margen de 148dB de SPL máximo con cuerpo metálico sólido para voces potentes y uso móvil"
         ],
         "cons_es": [
-          "Más ruido de manejo que un SM58",
-          "Menos claridad aguda que dinámicos premium",
-          "Sin versión estándar con interruptor",
-          "Clip y funda se sienten baratos"
+          "El audio por USB llega hasta 16-bit/48kHz — sin opción de grabación en 24-bit",
+          "La respuesta de 50Hz–15kHz cambia el aire en agudos por rechazo de ruido",
+          "El trípode queda bajo en el escritorio — un brazo articulado funciona mejor para streaming",
+          "Sin ecosistema de software de mezcla como Elgato Wave Link o las herramientas de Seiren"
         ]
       }
     ],
