@@ -870,9 +870,7 @@ const TEST_SHOP_BTN = {
   },
   59: {
     prices: {
-      amazon: "$165.99",
-      andertons: "£77.00",
-      gear4music: "£77.40",
+      gear4music: "£82.20",
       musicstore: "€78.00"
     },
     urls: {
@@ -5698,6 +5696,20 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-CK88/art-KEY0005768-000"
     }
   },
+  645: {
+    prices: {
+      gear4music: "£277.00",
+      andertons: "£275.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Focal-Alpha-65-Evo-Active-Studio-Monitor/3T37",
+      andertons: "https://www.andertons.co.uk/focal-alpha-65-evo-active-studio-monitor-each/",
+      amazon: "https://www.amazon.com/Focal-Professional-Alpha-Studio-Monitors/dp/B0989ZV9BH"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
@@ -6109,13 +6121,22 @@ function navDropdown(isEs) {
   </div>`;
 }
 
-// Helper: get product names from guide's featuredProducts
+// Helper: get product names from guide's featuredProducts (+ verdictProsCons fallback)
 function getGuideProductNames(guide, isEs) {
-  if (!guide.featuredProducts || !guide.featuredProducts.length) return [];
-  return guide.featuredProducts.map(function(pid) {
-    var p = products.find(function(pr) { return pr.id === pid; });
-    return p ? (isEs && p.title_es ? p.title_es : p.title) : '';
-  }).filter(Boolean);
+  var names = [];
+  if (guide.featuredProducts && guide.featuredProducts.length) {
+    guide.featuredProducts.forEach(function(pid) {
+      var p = products.find(function(pr) { return pr.id === pid; });
+      if (p) names.push(isEs && p.title_es ? p.title_es : p.title);
+    });
+  }
+  if (guide.verdictProsCons && guide.verdictProsCons.length) {
+    guide.verdictProsCons.forEach(function(v) {
+      var n = isEs && v.name_es ? v.name_es : v.name;
+      if (n && names.indexOf(n) === -1) names.push(n);
+    });
+  }
+  return names;
 }
 
 // Helper: generate variations of a product name for flexible matching

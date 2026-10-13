@@ -946,23 +946,22 @@
   },
   {
     "id": 59,
-    "title": "K&M Monitor Stands (Pair)",
-    "title_es": "Soportes de Monitor K&M (Par)",
+    "title": "K&M 26722 Monitor Stands (Each)",
+    "title_es": "Soportes de Monitor K&M 26722 (Unidad)",
     "brand": "König & Meyer",
-    "mpn": "26725",
+    "mpn": "26722",
     "category": "accessories",
     "price": 89,
     "rating": 4.7,
     "reviews": 5678,
     "badge": "recommended",
-    "desc": "Height-adjustable steel monitor stands with floor spikes for mechanical decoupling. Get tweeters at ear level for accurate monitoring. The cheapest upgrade that makes the biggest difference.",
-    "desc_es": "Soportes de monitor de acero ajustables en altura con puntas de piso para desacoplamiento mecánico. Coloca los tweeters a la altura de los oídos para un monitoreo preciso. La mejora más barata con el mayor impacto.",
+    "desc": "Height-adjustable steel monitor stands (677–1132 mm) with 35 kg capacity, large rubber decoupling pads and internal cable routing. Get tweeters at ear level for accurate monitoring. Sold each (~€156 the pair).",
+    "desc_es": "Soportes de monitor de acero ajustables en altura (677–1132 mm) con 35 kg de capacidad, grandes almohadillas de goma de desacoplamiento y canalización interna de cables. Coloca los tweeters a la altura de los oídos. Se venden por unidad (~€156 el par).",
     "img": "https://r2.gear4music.com/media/91/910192/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0BYZD4VPJ",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKandM-26722-Monitor-Stand%2F5EY5",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Koenig-Meyer-26722-Monitor-stand/art-REC0016508-000",
-      "andertons": "https://www.andertons.co.uk/km-26720-steel-monitor-stand-with-3-leg-base-black/",
       "zzounds": "https://www.zzounds.com/a--925521/item--KMS26754"
     },
     "excludeStores": [
@@ -12356,6 +12355,25 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FYamaha-CK88-Stage-Keyboard%2F5HLE",
       "andertons": "https://www.andertons.co.uk/yamaha-ck88-88-key-ghs-graded-hammer-standard-keyboard/",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-CK88%2Fart-KEY0005768-000"
+    }
+  },
+  {
+    "id": 645,
+    "title": "Focal Alpha 65 Evo",
+    "title_es": "Focal Alpha 65 Evo",
+    "brand": "Focal",
+    "category": "monitors",
+    "price": 499,
+    "rating": 4.8,
+    "reviews": 1234,
+    "badge": "recommended",
+    "desc": "Front-ported 6.5-inch studio monitor with Slatefiber cone woofer and 1-inch aluminium inverted dome tweeter. Class D bi-amp (55 W LF + 30 W HF), 104 dB max SPL, 40 Hz–22 kHz. XLR + TRS + RCA. Ideal when the desk must sit against the wall.",
+    "desc_es": "Monitor de estudio bass-reflex frontal de 6,5 pulgadas con woofer Slatefiber y tweeter de cúpula invertida de aluminio de 1 pulgada. Bi-amplificación Clase D (55 W graves + 30 W agudos), 104 dB SPL máximo, 40 Hz–22 kHz. XLR + TRS + RCA. Ideal cuando el escritorio va pegado a la pared.",
+    "img": "https://r2.gear4music.com/media/65/655758/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FFocal-Alpha-65-Evo-Active-Studio-Monitor%2F3T37",
+      "andertons": "https://www.andertons.co.uk/focal-alpha-65-evo-active-studio-monitor-each/",
+      "amazon": "https://www.amazon.com/Focal-Professional-Alpha-Studio-Monitors/dp/B0989ZV9BH"
     }
   }
 ]
