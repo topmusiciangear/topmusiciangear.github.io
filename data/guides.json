@@ -80223,22 +80223,25 @@
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/93/933907/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can grab with your hands. The Stream Deck+, the GoXLR Mini, the Yamaha ZG02, the Mackie MainStream, the Streamer X and the Wave XLR are the top streaming controllers and mixers — here is what each one does best.",
-    "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. El Stream Deck+, el GoXLR Mini, el Yamaha ZG02, el Mackie MainStream, el Streamer X y el Wave XLR son los mejores controladores y mezcladores de streaming — esto es lo que hace cada uno.",
+    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can grab with your hands. The Stream Deck+, the GoXLR Mini, the RODECaster Pro II, the Mackie MainStream, the Streamer X and the Wave XLR are the top streaming controllers and mixers — here is what each one does best.",
+    "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. El Stream Deck+, el GoXLR Mini, el RODECaster Pro II, el Mackie MainStream, el Streamer X y el Wave XLR son los mejores controladores y mezcladores de streaming — esto es lo que hace cada uno.",
     "sections": [
       {
         "heading": "How to Choose a Streaming Mixer and Controller",
         "heading_es": "Cómo elegir un mezclador y controlador de streaming",
-        "content": "<p><strong>A streaming mixer is the physical brain of your stream audio.</strong> It keeps your mic, your game, your music and your chat on separate channels so viewers hear a clean mix instead of one giant muddled blob. Most people start with cheap software routing and buy a real unit the first time something goes wrong mid-stream.</p><p><strong>First, pick the shape.</strong> Do you want a controller that drives your existing software, a dedicated mixer that processes audio, or all-in-one box? The Elgato Stream Deck+ is the best-selling controller, period — it sits next to whatever you already own and gives you buttons and dials for everything. The TC Helicon GoXLR Mini is the streamer-first mixer with real faders, a Midas preamp and per-app routing. The Yamaha ZG02 puts game, chat and mic on physical knobs for console and PC players. The Mackie MainStream merges interface and HDMI capture in one USB-C cable. The Streamer X throws an interface and a 4K capture card into the same compact box. And the Wave XLR is just a really good mic interface that plugs into the Elgato world.</p><p><strong>Now check the software, because that is what you will live with.</strong> All of these run through desktop apps, and that app shapes your whole workflow. The one you enjoy using every single day is the one you will keep on your desk. Note the OS limits: GoXLR Mini and MainStream Matrix are Windows only, while Yamaha ZG Controller runs on Windows and Mac.</p>",
-        "content_es": "<p><strong>Un mezclador de streaming es el cerebro físico del audio de tu directo.</strong> Mantiene el micrófono, tu juego, tu música y tu chat en canales separados para que los espectadores escuchen una mezcla limpia en lugar de un pegote embarrado. La mayoría empieza con enrutamiento barato por software y compra un aparato la primera vez que algo falla en pleno directo.</p><p><strong>Primero, elige la forma.</strong>¿Quieres un controlador que maneje el software existente, un mezclador dedicado que procese audio, o una caja todo-en-uno? El Elgato Stream Deck+ es el controlador más vendido, sin discusión — se coloca junto a lo que ya tengas y te da botones y diales para todo. El TC Helicon GoXLR Mini es el mezclador de streamers con faders reales, previo Midas y enrutamiento por app. El Yamaha ZG02 pone juego, chat y micro en perillas físicas para jugadores de consola y PC. El Mackie MainStream fusiona interfaz y captura HDMI en un cable USB-C. El Streamer X mete una interfaz y una tarjeta de captura 4K en la misma caja compacta. Y el Wave XLR es simplemente una interfaz de micrófono muy buena que se enchufa al mundo Elgato.</p><p><strong>Ahora revisa el software, porque es con lo que vas a convivir.</strong> Todos se manejan desde apps de escritorio, y esa app define todo tu proceso. La que disfrutes usando cada día es la que terminarás dejando en tu escritorio. Ojo con los sistemas: GoXLR Mini y Matrix de MainStream solo van en Windows, mientras ZG Controller va en Windows y Mac.</p>",
+        "content": "<p><strong>A streaming mixer is the physical brain of your stream audio.</strong> It keeps your mic, your game, your music and your chat on separate channels so viewers hear a clean mix instead of one giant muddled blob. Most people start with cheap software routing and buy a real unit the first time something goes wrong mid-stream.</p><p><strong>First, pick the shape.</strong> Do you want a controller that drives your existing software, a dedicated mixer that processes audio, or all-in-one box? The Elgato Stream Deck+ is the best-selling controller, period — it sits next to whatever you already own and gives you buttons and dials for everything. The TC Helicon GoXLR Mini is the streamer-first mixer with real faders, a Midas preamp and per-app routing. The Rode RODECaster Pro II runs the whole broadcast on hardware for streamers and podcasters. The Mackie MainStream merges interface and HDMI capture in one USB-C cable. The Streamer X throws an interface and a 4K capture card into the same compact box. And the Wave XLR is just a really good mic interface that plugs into the Elgato world.</p><p><strong>Now check the software, because that is what you will live with.</strong> All of these run through desktop apps, and that app shapes your whole workflow. The one you enjoy using every single day is the one you will keep on your desk. Note the OS limits: GoXLR Mini and MainStream Matrix are Windows only, while Rode Central and Roland software cover both systems.</p>",
+        "content_es": "<p><strong>Un mezclador de streaming es el cerebro físico del audio de tu directo.</strong> Mantiene el micrófono, tu juego, tu música y tu chat en canales separados para que los espectadores escuchen una mezcla limpia en lugar de un pegote embarrado. La mayoría empieza con enrutamiento barato por software y compra un aparato la primera vez que algo falla en pleno directo.</p><p><strong>Primero, elige la forma.</strong>¿Quieres un controlador que maneje el software existente, un mezclador dedicado que procese audio, o una caja todo-en-uno? El Elgato Stream Deck+ es el controlador más vendido, sin discusión — se coloca junto a lo que ya tengas y te da botones y diales para todo. El TC Helicon GoXLR Mini es el mezclador de streamers con faders reales, previo Midas y enrutamiento por app. El Rode RODECaster Pro II ejecuta todo el programa en hardware para streamers y podcasters. El Mackie MainStream fusiona interfaz y captura HDMI en un cable USB-C. El Streamer X mete una interfaz y una tarjeta de captura 4K en la misma caja compacta. Y el Wave XLR es simplemente una interfaz de micrófono muy buena que se enchufa al mundo Elgato.</p><p><strong>Ahora revisa el software, porque es con lo que vas a convivir.</strong> Todos se manejan desde apps de escritorio, y esa app define todo tu proceso. La que disfrutes usando cada día es la que terminarás dejando en tu escritorio. Ojo con los sistemas: GoXLR Mini y Matrix de MainStream solo van en Windows, mientras Rode Central y el software Roland cubren ambos sistemas.</p>",
         "products": [
           243,
+          244,
           246,
-          260,
           264,
           659,
-          660,
-          661
+          248,
+          661,
+          260,
+          240,
+          327
         ],
         "skipMedia": true
       },
@@ -80312,15 +80315,6 @@
         ]
       },
       {
-        "heading": "Game, Chat and Mic on Knobs: Yamaha ZG02",
-        "heading_es": "Juego, chat y micro en perillas: Yamaha ZG02",
-        "content": "<strong>Console and PC gamers mix three things all night: game, chat and mic.</strong> The Yamaha ZG02 puts exactly those on physical knobs in a compact box: an XLR combo with +48 V phantom plus headset input, USB-C to PC or Mac and a dedicated USB port straight into PS5 or Switch, with voice changer, game effects and 3D surround on top. The ZG Controller app (Windows/Mac) handles the deep settings, and it even plays nice with an Elgato Stream Deck beside it. At $199.95 MSRP it undercuts the HDMI-equipped ZG01 while keeping the parts streamers actually touch.</p><p><strong>The honest trade.</strong> No HDMI switching, fewer one-touch buttons than the ZG01, and consoles need a separate power supply. Retail coverage is thin — Amazon is the verified buy link. For multiplayer nights where chat balance decides the game, the knobs beat menus every time.",
-        "content_es": "<strong>Los jugadores de consola y PC mezclan tres cosas toda la noche: juego, chat y micro.</strong> El Yamaha ZG02 pone justo eso en perillas físicas en una caja compacta: combo XLR con phantom +48 V más entrada de headset, USB-C a PC o Mac y puerto USB dedicado directo a PS5 o Switch, con cambia-voces, efectos de juego y surround 3D encima. La app ZG Controller (Windows/Mac) lleva los ajustes profundos, y hasta se entiende con un Stream Deck al lado. Por $199,95 PVP queda bajo el ZG01 con HDMI quedándose con lo que los streamers tocan de verdad.</p><p><strong>El trato honesto.</strong> Sin conmutación HDMI, menos botones que el ZG01, y las consolas piden fuente aparte. La cobertura en tiendas es fina — Amazon es el enlace verificado. Para noches multijugador donde el balance del chat decide la partida, las perillas ganan a los menús siempre.",
-        "products": [
-          660
-        ]
-      },
-      {
         "heading": "Video and Audio in One Cable: Mackie MainStream",
         "heading_es": "Vídeo y audio en un cable: Mackie MainStream",
         "content": "<strong>Console streamers hate the three-box shuffle: interface, capture card, controller.</strong> The Mackie MainStream eats all three: an XLR/TRS combo with +48 V and 60 dB of gain, HDMI input capturing 1080p60 with 4K60 passthrough for Switch, Xbox and PlayStation, and 6 programmable keys on the face — all reaching the PC through a single bus-powered USB-C cable with a dual USB-C hub for the rest of the desk. The free Matrix software adds 6 virtual inputs like Discord or Spotify and 24 virtual pads for samples and transitions.</p><p><strong>The honest trade.</strong> Matrix is Windows only, Mackie currently lists the unit on backorder so stock comes and goes, and capture tops at 1080p where the Streamer X records 4K. At $299.99 direct it is the one-cable answer for console-to-Twitch desks.",
@@ -80328,23 +80322,41 @@
         "products": [
           661
         ]
+      },
+      {
+        "heading": "The Console That Replaces Three Boxes: Rode RODECaster Pro II",
+        "heading_es": "La consola que sustituye tres cajas: Rode RODECaster Pro II",
+        "content": "<strong>When the stream is the job, the mixer cannot depend on the PC.</strong> The Rode RODECaster Pro II processes everything on hardware: four Neutrik combo inputs with 76dB Revolution preamps, six physical faders plus three virtual ones, eight SMART pads with 64 assignable actions, and studio-grade APHEX chains with per-channel EQ, gate and de-esser under a 5.5-inch touchscreen. Dual USB-C hangs two computers at once, Bluetooth and WiFi take phone calls, and multitrack records to microSD or USB with no computer attached.</p><p><strong>The honest trade.</strong> No motorized faders, a genuine learning curve with occasional firmware quirks, and ~$595 of pro money. For single-mic streamers it is overkill — for broadcast desks that must survive a frozen PC, it is the desk.",
+        "content_es": "<strong>Cuando el directo es el trabajo, la mesa no puede depender del PC.</strong> El Rode RODECaster Pro II procesa todo en hardware: cuatro entradas combo Neutrik con previos Revolution de 76dB, seis faders físicos más tres virtuales, ocho pads SMART con 64 acciones, y cadenas APHEX con EQ, puerta y de-esser por canal bajo una táctil de 5,5 pulgadas. El doble USB-C cuelga dos ordenadores a la vez, Bluetooth y WiFi toman llamadas, y la multipista graba a microSD o USB sin ordenador.</p><p><strong>El trato honesto.</strong> Sin faders motorizados, curva real de aprendizaje con algún fallo de firmware, y ~$595 de dinero pro. Para streamers de un micro es excesivo — para escritorios broadcast que deben sobrevivir a un PC congelado, es LA mesa.",
+        "products": [
+          248
+        ]
+      },
+      {
+        "heading": "Two Mics, Zero Compromises: Elgato Wave XLR Pro",
+        "heading_es": "Dos micros, cero concesiones: Elgato Wave XLR Pro",
+        "content": "<strong>Co-hosted shows break single-channel interfaces.</strong> The Elgato Wave XLR Pro doubles the MK.2 formula: two studio-grade preamps with up to 80dB of clean gain each, so gain-hungry dynamics need no Cloudlifter on either channel. The Wave FX Processor runs five independent hardware mixes with zero-latency monitoring, Clipguard 2.0, onboard DSP effects plus VST support, dual USB-C for a second PC or console, and a standalone mode that keeps settings alive with no computer attached.</p><p><strong>The honest trade.</strong> Bigger, pricier (~$349.99) and still desk-bound — no faders, no capture, no scenes. For duos who outgrew one dial, it is the straight upgrade inside the Elgato world.",
+        "content_es": "<strong>Los programas con dos voces rompen las interfaces de un canal.</strong> El Elgato Wave XLR Pro dobla la fórmula del MK.2: dos previos de estudio con hasta 80dB de ganancia limpia cada uno, así que los dinámicos hambrientos no piden Cloudlifter en ningún canal. El Wave FX Processor ejecuta cinco mezclas hardware independientes con monitoreo de latencia cero, Clipguard 2.0, DSP a bordo más VST, doble USB-C para segundo PC o consola, y modo independiente que mantiene los ajustes sin ordenador.</p><p><strong>El trato honesto.</strong> Más grande, más caro (~$349,99) y aún de escritorio — sin faders, sin captura, sin escenas. Para dúos que superaron un dial, es la mejora directa dentro del mundo Elgato.",
+        "products": [
+          260
+        ]
       }
     ],
-    "conclusion": "If you want your hands on everything, get the Stream Deck+ — nothing else makes your whole stream so instantly controllable. If you want real faders on stream audio, the <strong>TC Helicon GoXLR Mini</strong> is the streamer-first pick with a Midas preamp and per-app routing. If you play on console or PC with voice chat, the <strong>Yamaha ZG02</strong> puts game, chat and mic on knobs. If you want one cable for console video and audio, the <strong>Mackie MainStream</strong> merges interface and HDMI capture. If you stream from a console and want one compact box that does audio and video, the Streamer X is the value pick. And if you just need your mic to sound remarkable, the Wave XLR MK.2 delivers. There is no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? If you have outgrown a controller plus a separate interface, <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> comparison covers the full broadcast consoles. Check <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interfaces guide</a> the <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best mics for podcasting</a></p>",
-    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ — nada hace tu directo tan instantáneamente controlable. Si quieres faders reales en el audio, el <strong>TC Helicon GoXLR Mini</strong> es la opción de streamers con previo Midas y enrutamiento por app. Si juegas en consola o PC con chat de voz, el <strong>Yamaha ZG02</strong> pone juego, chat y micro en perillas. Si quieres un cable para vídeo y audio de consola, el <strong>Mackie MainStream</strong> fusiona interfaz y captura HDMI. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X es la opción de valor. Y si solo necesitas que el micrófono suene notable, el Wave XLR MK.2 lo logra. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se adapta mejor a ti. <p>¿Buscas más? Si has superado un controlador más una interfaz por separado, nuestra comparativa <a href=\"/guides/rodecaster-pro2-vs-dlz-creator_es.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> cubre las consolas broadcast completas. Consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">guía de mejores interfaces de audio</a> los <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasting</a></p>",
-    "verdict": "The Stream Deck+ is the total control pick with buttons, dials and a touch strip for every stream setup. The GoXLR Mini is the streamer-first mixer with real faders and a Midas preamp, the Yamaha ZG02 is the gamer pick with game/chat/mic on knobs, and the Mackie MainStream is the one-cable console pick with HDMI capture. The Streamer X stays the 4K value box and the Wave XLR MK.2 the mic upgrade. Match the tool to how you stream.",
-    "verdict_es": "El Stream Deck+ es la mejor opción para control total con botones, perillas y tira táctil para cualquier configuración de streaming. El GoXLR Mini es el mezclador de streamers con faders reales y previo Midas, el Yamaha ZG02 es la opción gamer con juego/chat/micro en perillas, y el Mackie MainStream es la opción de un cable para consolas con captura HDMI. El Streamer X sigue siendo la caja 4K de valor y el Wave XLR MK.2 la mejora de micro. Haz coincidir la herramienta con cómo haces streaming.",
+    "conclusion": "If you want your hands on everything, get the Stream Deck+ — nothing else makes your whole stream so instantly controllable. If you want real faders on stream audio, the <strong>TC Helicon GoXLR Mini</strong> is the streamer-first pick with a Midas preamp and per-app routing. If you want the whole broadcast on hardware, the <strong>Rode RODECaster Pro II</strong> runs 4 Neutrik inputs with SMART pads and APHEX. If you want one cable for console video and audio, the <strong>Mackie MainStream</strong> merges interface and HDMI capture. If you stream from a console and want one compact box that does audio and video, the Streamer X is the value pick. And if you just need your mic to sound remarkable, the Wave XLR MK.2 delivers. There is no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? If you have outgrown a controller plus a separate interface, <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> comparison covers the full broadcast consoles. Check <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interfaces guide</a> the <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best mics for podcasting</a></p>",
+    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ — nada hace tu directo tan instantáneamente controlable. Si quieres faders reales en el audio, el <strong>TC Helicon GoXLR Mini</strong> es la opción de streamers con previo Midas y enrutamiento por app. Si quieres todo el programa en hardware, el <strong>Rode RODECaster Pro II</strong> lleva 4 entradas Neutrik con pads SMART y APHEX. Si quieres un cable para vídeo y audio de consola, el <strong>Mackie MainStream</strong> fusiona interfaz y captura HDMI. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X es la opción de valor. Y si solo necesitas que el micrófono suene notable, el Wave XLR MK.2 lo logra. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se adapta mejor a ti. <p>¿Buscas más? Si has superado un controlador más una interfaz por separado, nuestra comparativa <a href=\"/guides/rodecaster-pro2-vs-dlz-creator_es.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> cubre las consolas broadcast completas. Consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">guía de mejores interfaces de audio</a> los <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasting</a></p>",
+    "verdict": "The Stream Deck+ is the total control pick with buttons, dials and a touch strip for every stream setup. The GoXLR Mini is the streamer-first mixer with real faders and a Midas preamp, the RODECaster Pro II is the broadcast-console pick that survives a frozen PC, and the Mackie MainStream is the one-cable console pick with HDMI capture. The Streamer X stays the 4K value box and the Wave XLR MK.2 the mic upgrade. Match the tool to how you stream.",
+    "verdict_es": "El Stream Deck+ es la mejor opción para control total con botones, perillas y tira táctil para cualquier configuración de streaming. El GoXLR Mini es el mezclador de streamers con faders reales y previo Midas, el RODECaster Pro II es la consola broadcast que sobrevive a un PC congelado, y el Mackie MainStream es la opción de un cable para consolas con captura HDMI. El Streamer X sigue siendo la caja 4K de valor y el Wave XLR MK.2 la mejora de micro. Haz coincidir la herramienta con cómo haces streaming.",
     "featuredProducts": [
       243,
-      244,
       246,
-      239,
-      240,
-      327,
+      260,
       264,
       659,
-      660,
-      661
+      248,
+      661,
+      244,
+      240,
+      327
     ],
     "relatedGuides": [
       "rodecaster-pro2-vs-dlz-creator",
@@ -80356,11 +80368,11 @@
       "best-digital-mixers",
       "wireless-lapel-mics"
     ],
-    "description": "In 2026, I swapped the Stream Deck+, GoXLR Mini, Yamaha ZG02, Mackie MainStream, Rode Streamer X and Wave XLR MK. Here is which stream controller or mixer to buy and why, before",
-    "description_es": "En 2026, Pasé semanas intercambiando el Stream Deck+, el GoXLR Mini, el Yamaha ZG02, el Mackie MainStream, el Streamer X y el Wave XLR MK. Lee el veredicto completo y los precios",
+    "description": "In 2026, I swapped the Stream Deck+, GoXLR Mini, RODECaster Pro II, Mackie MainStream, Rode Streamer X and Wave XLR MK. Here is which stream controller or mixer to buy and why, before",
+    "description_es": "En 2026, Pasé semanas intercambiando el Stream Deck+, el GoXLR Mini, el RODECaster Pro II, el Mackie MainStream, el Streamer X y el Wave XLR MK. Lee el veredicto completo y los precios",
     "featuredSnippet": {
       "title_en": "Best Streaming Mixers & Stream Deck Alternatives ",
-      "text_en": "The Stream Deck+ is the best-selling controller with 8 LCD keys, 4 dials and a touch strip. The GoXLR Mini brings real faders and a Midas preamp to stream mixing. The Yamaha ZG02 puts game, chat and mic on knobs for console and PC players. The Mackie MainStream merges interface and HDMI capture in one USB-C cable. The Streamer X packs an interface, 4K capture and a control surface into one box. The Wave XLR MK.2 adds broadcast-grade mic audio to any XLR mic.",
+      "text_en": "The Stream Deck+ is the best-selling controller with 8 LCD keys, 4 dials and a touch strip. The GoXLR Mini brings real faders and a Midas preamp to stream mixing. The RODECaster Pro II runs the whole broadcast on hardware with 4 Neutrik inputs and 8 SMART pads. The Mackie MainStream merges interface and HDMI capture in one USB-C cable. The Streamer X packs an interface, 4K capture and a control surface into one box. The Wave XLR MK.2 adds broadcast-grade mic audio to any XLR mic.",
       "name1_en": "",
       "name2_en": "",
       "price1": "",
@@ -80376,7 +80388,7 @@
       "rating1": 0,
       "rating2": 0,
       "title_es": "Mejores mezcladores de Streaming y Alternativas al Stream Deck ",
-      "text_es": "El Stream Deck+ es el controlador más vendido con 8 teclas LCD, 4 diales y una tira táctil. El GoXLR Mini trae faders reales y previo Midas a la mezcla de stream. El Yamaha ZG02 pone juego, chat y micro en perillas para jugadores de consola y PC. El Mackie MainStream fusiona interfaz y captura HDMI en un cable USB-C. El Streamer X mete interfaz, captura 4K y superficie de control en una sola caja. El Wave XLR MK.2 añade audio de micrófono de nivel broadcast a cualquier micrófono XLR.",
+      "text_es": "El Stream Deck+ es el controlador más vendido con 8 teclas LCD, 4 diales y una tira táctil. El GoXLR Mini trae faders reales y previo Midas a la mezcla de stream. El RODECaster Pro II ejecuta todo el programa en hardware con 4 entradas Neutrik y 8 pads SMART. El Mackie MainStream fusiona interfaz y captura HDMI en un cable USB-C. El Streamer X mete interfaz, captura 4K y superficie de control en una sola caja. El Wave XLR MK.2 añade audio de micrófono de nivel broadcast a cualquier micrófono XLR.",
       "name1_es": "",
       "name2_es": "",
       "best1_es": "",
@@ -80384,11 +80396,11 @@
       "key1_es": "",
       "key2_es": "",
       "faq_q1_en": "What is the best streaming mixer and controller?",
-      "faq_a1_en": "It depends on your workflow. The Elgato Stream Deck+ is the best-selling controller for hands-on control of your entire stream. The TC Helicon GoXLR Mini is the streamer-first mixer with real faders, a Midas preamp and per-app routing. For console and PC gamers, the Yamaha ZG02 puts game, chat and mic on physical knobs. If you want an all-in-one mixer that runs its processing on the hardware itself, the RØDECaster Pro II and the Mackie DLZ Creator are the professional picks.",
+      "faq_a1_en": "It depends on your workflow. The Elgato Stream Deck+ is the best-selling controller for hands-on control of your entire stream. The TC Helicon GoXLR Mini is the streamer-first mixer with real faders, a Midas preamp and per-app routing. For console and PC gamers, the Roland Bridge Cast X mixes game, chat and mic with dual buses. If you want an all-in-one mixer that runs its processing on the hardware itself, the RØDECaster Pro II and the Mackie DLZ Creator are the professional picks.",
       "faq_q2_en": "Is the Rode Streamer X worth it despite the software issues?",
       "faq_a2_en": "For most streamers, yes. The Streamer X replaces a separate interface, capture card and stream deck for less money, and its 76dB Revolution preamp drives demanding mics like the SM7B without a booster. The weak spot is the UNIFY software, which can be unstable upon reboots and requires precise power-cycling. If you stream from a console or single PC on a budget, it is excellent value; if you run a complex dual-PC setup and need software that never flinches, the Elgato ecosystem is more reliable.",
       "faq_q1_es": "¿Cuál es el mejor mezclador y controlador de streaming?",
-      "faq_a1_es": "Depende de tu flujo de trabajo. El Elgato Stream Deck+ es el controlador más vendido para control total del directo. El TC Helicon GoXLR Mini es el mezclador de streamers con faders reales, previo Midas y enrutamiento por app. Para jugadores de consola y PC, el Yamaha ZG02 pone juego, chat y micro en perillas físicas. Si buscas un mezclador todo-en-uno que corra su procesamiento en el propio hardware, el RØDECaster Pro II y el Mackie DLZ Creator son las opciones profesionales.",
+      "faq_a1_es": "Depende de tu flujo de trabajo. El Elgato Stream Deck+ es el controlador más vendido para control total del directo. El TC Helicon GoXLR Mini es el mezclador de streamers con faders reales, previo Midas y enrutamiento por app. Para jugadores de consola y PC, el Roland Bridge Cast X mezcla juego, chat y micro con buses duales. Si buscas un mezclador todo-en-uno que corra su procesamiento en el propio hardware, el RØDECaster Pro II y el Mackie DLZ Creator son las opciones profesionales.",
       "faq_q2_es": "¿Merece la pena el Rode Streamer X a pesar de los problemas de software?",
       "faq_a2_es": "Para la mayoría de streamers, sí. El Streamer X sustituye a una interfaz, una tarjeta capturadora y un stream deck separados por menos dinero, y su previo Revolution de 76dB mueve micrófonos exigentes como el SM7B sin booster. La contrapartida honesta es el software UNIFY, que puede volverse inestable al reiniciar y requiere ciclos de encendido precisos. Si transmites desde una consola o un solo PC con presupuesto ajustado, es una compra excelente; si montas una configuración compleja de doble PC y necesitas un software que nunca parpadee, el ecosistema Elgato es más fiable.",
       "specs": [],
@@ -80452,24 +80464,28 @@
           "title_es": "Elgato Stream Deck + XL"
         },
         {
-          "title": "Elgato Stream Deck MK.2",
-          "title_es": "Elgato Stream Deck MK.2"
-        },
-        {
-          "title": "Razer Stream Controller X",
-          "title_es": "Razer Stream Controller X"
-        },
-        {
           "title": "TC Helicon GoXLR Mini",
           "title_es": "TC Helicon GoXLR Mini"
         },
         {
-          "title": "Yamaha ZG02",
-          "title_es": "Yamaha ZG02"
-        },
-        {
           "title": "Mackie MainStream",
           "title_es": "Mackie MainStream"
+        },
+        {
+          "title": "Rode RODECaster Pro II",
+          "title_es": "Rode RODECaster Pro II"
+        },
+        {
+          "title": "Elgato Wave XLR Pro",
+          "title_es": "Elgato Wave XLR Pro"
+        },
+        {
+          "title": "Roland Bridge Cast X",
+          "title_es": "Roland Bridge Cast X"
+        },
+        {
+          "title": "Maono Maonocaster E2 Gen2",
+          "title_es": "Maono Maonocaster E2 Gen2"
         }
       ],
       "rows": [
@@ -80494,24 +80510,28 @@
               "value_es": "Producciones grandes con muchas escenas y herramientas"
             },
             {
-              "value": "Beginner stream control and switching",
-              "value_es": "Control de directos para empezar"
-            },
-            {
-              "value": "Budget stream control and macros",
-              "value_es": "Control de directos económico con macros"
-            },
-            {
               "value": "Stream mixing with real faders + voice FX",
               "value_es": "Mezcla de stream con faders reales + FX de voz"
             },
             {
-              "value": "Game streaming with chat mix",
-              "value_es": "Game streaming con mezcla de chat"
-            },
-            {
               "value": "Video + audio streaming in one box",
               "value_es": "Vídeo + audio en una caja"
+            },
+            {
+              "value": "All-in-one broadcast console",
+              "value_es": "Consola broadcast todo-en-uno"
+            },
+            {
+              "value": "Dual-mic streaming hardware mixes",
+              "value_es": "Mezclas hardware para dos micros"
+            },
+            {
+              "value": "Console + PC game streaming",
+              "value_es": "Streaming de consola + PC"
+            },
+            {
+              "value": "Budget podcasting on battery",
+              "value_es": "Pódcast económico con batería"
             }
           ]
         },
@@ -80536,24 +80556,28 @@
               "value_es": "Controlador con 36 teclas LCD, diales y tira táctil"
             },
             {
-              "value": "15 LCD keys",
-              "value_es": "15 teclas LCD"
-            },
-            {
-              "value": "15 LCD keys",
-              "value_es": "15 teclas LCD"
-            },
-            {
               "value": "4-channel USB streaming mixer",
               "value_es": "Mezclador USB de 4 canales"
             },
             {
-              "value": "Compact game streaming mixer",
-              "value_es": "Mezclador compacto de juego"
-            },
-            {
               "value": "Streaming + video capture interface",
               "value_es": "Interfaz de streaming + captura de vídeo"
+            },
+            {
+              "value": "Production console + interface",
+              "value_es": "Consola de producción + interfaz"
+            },
+            {
+              "value": "Dual-XLR interface + hardware mixer",
+              "value_es": "Interfaz dual-XLR + mezclador hardware"
+            },
+            {
+              "value": "Dual-bus streaming mixer + capture",
+              "value_es": "Mezclador dual-bus + captura"
+            },
+            {
+              "value": "All-in-one podcast console",
+              "value_es": "Consola pódcast todo-en-uno"
             }
           ]
         },
@@ -80578,24 +80602,28 @@
               "value_es": "Ninguna (solo control de software)"
             },
             {
-              "value": "N/A (no audio interface)",
-              "value_es": "N/A (sin interfaz audio)"
-            },
-            {
-              "value": "N/A (no audio interface)",
-              "value_es": "N/A (sin interfaz audio)"
-            },
-            {
               "value": "Midas preamp (+24 V phantom)",
               "value_es": "Previo Midas (phantom +24 V)"
             },
             {
-              "value": "XLR combo +48 V phantom",
-              "value_es": "Combo XLR + phantom 48 V"
-            },
-            {
               "value": "XLR/TRS combo +48 V (60 dB)",
               "value_es": "Combo XLR/TRS +48 V (60 dB)"
+            },
+            {
+              "value": "4x Neutrik combo, 76dB Revolution",
+              "value_es": "4x combo Neutrik, 76dB Revolution"
+            },
+            {
+              "value": "2x 80dB ultra-low-noise",
+              "value_es": "2x 80dB ultrabaja en ruido"
+            },
+            {
+              "value": "XLR + phantom power",
+              "value_es": "XLR + phantom"
+            },
+            {
+              "value": "2x XLR combo (60 dB)",
+              "value_es": "2x combo XLR (60 dB)"
             }
           ]
         },
@@ -80624,20 +80652,24 @@
               "value_es": "No"
             },
             {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
               "value": "1080p60 capture / 4K60 passthrough",
               "value_es": "Captura 1080p60 / paso 4K60"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "HDMI capture",
+              "value_es": "Captura HDMI"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
             }
           ]
         },
@@ -80661,24 +80693,28 @@
               "value_es": "36 teclas LCD + 6 diales + tira táctil"
             },
             {
-              "value": "15 LCD keys",
-              "value_es": "15 teclas LCD"
-            },
-            {
-              "value": "15 Switchblade LCD buttons",
-              "value_es": "15 botones LCD Switchblade"
-            },
-            {
               "value": "4 faders + cough/censor buttons",
               "value_es": "4 faders + botones de tos/censura"
             },
             {
-              "value": "Game/chat/mic knobs + voice/game FX",
-              "value_es": "Perillas juego/chat/micro + FX de voz/juego"
-            },
-            {
               "value": "6 programmable keys + Matrix pads",
               "value_es": "6 teclas programables + pads Matrix"
+            },
+            {
+              "value": "6 faders + 8 SMART pads + touchscreen",
+              "value_es": "6 faders + 8 pads SMART + táctil"
+            },
+            {
+              "value": "Dual dials + tap-to-mute",
+              "value_es": "Diales duales + silencio táctil"
+            },
+            {
+              "value": "Assignable pads + dual buses",
+              "value_es": "Pads asignables + buses duales"
+            },
+            {
+              "value": "8 sound pads + faders",
+              "value_es": "8 pads de sonido + faders"
             }
           ],
           "label_es": "Teclas y controles"
@@ -80703,24 +80739,28 @@
               "value_es": "USB-C"
             },
             {
-              "value": "USB-C",
-              "value_es": "USB-C"
-            },
-            {
-              "value": "USB-C device, USB-A host (2m cable)",
-              "value_es": "USB-C al equipo, USB-A al PC (cable de 2 m)"
-            },
-            {
               "value": "USB (Windows only)",
               "value_es": "USB (solo Windows)"
             },
             {
-              "value": "USB-C PC/Mac + console USB",
-              "value_es": "USB-C PC/Mac + USB de consola"
-            },
-            {
               "value": "Single USB-C, HDMI in, USB-C hub",
               "value_es": "Un USB-C, HDMI in, hub USB-C"
+            },
+            {
+              "value": "Dual USB-C, BT, WiFi, microSD",
+              "value_es": "Doble USB-C, BT, WiFi, microSD"
+            },
+            {
+              "value": "Dual USB-C, 2x XLR, headphone",
+              "value_es": "Doble USB-C, 2x XLR, auriculares"
+            },
+            {
+              "value": "USB-C, HDMI in/out",
+              "value_es": "USB-C, HDMI entrada/salida"
+            },
+            {
+              "value": "USB, Bluetooth, 8h battery",
+              "value_es": "USB, Bluetooth, batería 8h"
             }
           ],
           "label_es": "Conectividad"
@@ -80745,24 +80785,28 @@
               "value_es": "App Stream Deck"
             },
             {
-              "value": "Stream Deck app",
-              "value_es": "App Stream Deck"
-            },
-            {
-              "value": "Loupedeck Software (vía Razer Synapse)",
-              "value_es": "Software Loupedeck (desde Razer Synapse)"
-            },
-            {
               "value": "GoXLR app (Windows only)",
               "value_es": "App GoXLR (solo Windows)"
             },
             {
-              "value": "ZG Controller (Win/Mac)",
-              "value_es": "ZG Controller (Win/Mac)"
-            },
-            {
               "value": "Matrix (Windows)",
               "value_es": "Matrix (Windows)"
+            },
+            {
+              "value": "Onboard (Rode Central setup)",
+              "value_es": "A bordo (ajuste Rode Central)"
+            },
+            {
+              "value": "Wave Link + onboard DSP/VST",
+              "value_es": "Wave Link + DSP/VST a bordo"
+            },
+            {
+              "value": "Roland Bridge Cast app",
+              "value_es": "App Roland Bridge Cast"
+            },
+            {
+              "value": "Maono app",
+              "value_es": "App Maono"
             }
           ],
           "label_es": "Software"
@@ -80787,24 +80831,28 @@
               "value_es": "~$349.99"
             },
             {
-              "value": "~$149.99",
-              "value_es": "~$149.99"
-            },
-            {
-              "value": "~$149.99",
-              "value_es": "~$149.99"
-            },
-            {
               "value": "~$189",
               "value_es": "~$189"
             },
             {
-              "value": "~$199.95",
-              "value_es": "~$199,95"
-            },
-            {
               "value": "~$299.99",
               "value_es": "~$299,99"
+            },
+            {
+              "value": "~$595",
+              "value_es": "~$595"
+            },
+            {
+              "value": "~$349.99",
+              "value_es": "~$349,99"
+            },
+            {
+              "value": "~$499",
+              "value_es": "~$499"
+            },
+            {
+              "value": "~$109.97",
+              "value_es": "~$109,97"
             }
           ],
           "label_es": "Precio estimado"
@@ -80897,90 +80945,6 @@
         ]
       },
       {
-        "name": "Elgato Stream Deck MK.2",
-        "name_es": "Elgato Stream Deck MK.2",
-        "pros": [
-          "Classic 15 keys, infinite pages",
-          "Massive plugin ecosystem",
-          "USB-C, detachable stand",
-          "Most supported by streaming tools"
-        ],
-        "cons": [
-          "No dial/touchstrip",
-          "No audio interface",
-          "Keys can feel mushy",
-          "Plastic stand wobbles on light desks"
-        ],
-        "pros_es": [
-          "15 teclas clásicas, páginas infinitas",
-          "Ecosistema plugins masivo",
-          "USB-C, soporte desmontable",
-          "Más soportado por herramientas streaming"
-        ],
-        "cons_es": [
-          "Sin dial/touchstrip",
-          "Sin interfaz audio",
-          "Teclas pueden sentirse blandas",
-          "El soporte de plástico cojea en mesas ligeras"
-        ]
-      },
-      {
-        "name": "Razer Stream Controller X",
-        "name_es": "Razer Stream Controller X",
-        "pros": [
-          "15 LCD keys at lower price",
-          "Razer Synapse integration",
-          "Haptic feedback on keys",
-          "Compact"
-        ],
-        "cons": [
-          "Synapse software required",
-          "Fewer plugins than Stream Deck",
-          "Build quality feels cheaper",
-          "No dials for analog-style level rides"
-        ],
-        "pros_es": [
-          "15 teclas LCD precio menor",
-          "Integración Razer Synapse",
-          "Feedback háptico teclas",
-          "Compacto"
-        ],
-        "cons_es": [
-          "Requiere Synapse",
-          "Menos plugins que Stream Deck",
-          "Calidad construcción se siente más barata",
-          "Sin diales para rides de nivel analógicos"
-        ]
-      },
-      {
-        "name": "Tascam Stream Controller",
-        "name_es": "Tascam Stream Controller",
-        "pros": [
-          "Motorized faders = pro broadcast feel",
-          "5 faders + 10 keys + 8 knobs",
-          "Tascam audio heritage",
-          "Standalone operation possible"
-        ],
-        "cons": [
-          "Highest price",
-          "Large desktop footprint",
-          "Software less mature than Elgato",
-          "Motorized faders add noise in quiet rooms"
-        ],
-        "pros_es": [
-          "Faders motorizados = sensación broadcast pro",
-          "5 faders + 10 teclas + 8 perillas",
-          "Herencia audio Tascam",
-          "Operación standalone posible"
-        ],
-        "cons_es": [
-          "Precio más alto",
-          "Huella escritorio grande",
-          "Software menos maduro que Elgato",
-          "Los faders motorizados meten ruido en salas calladas"
-        ]
-      },
-      {
         "name": "Elgato Wave XLR Pro",
         "name_es": "Elgato Wave XLR Pro",
         "pros": [
@@ -81037,34 +81001,6 @@
         ]
       },
       {
-        "name": "Yamaha ZG02",
-        "name_es": "Yamaha ZG02",
-        "pros": [
-          "Game, chat and mic on physical knobs — mix without looking",
-          "XLR combo with +48 V phantom plus headset mic input",
-          "Direct USB to PS5/Switch plus PC/Mac, Stream Deck compatible",
-          "Voice changer, game FX and 3D surround at $199.95 MSRP"
-        ],
-        "cons": [
-          "No HDMI switching — that is the bigger ZG01",
-          "Fewer one-touch buttons than the ZG01",
-          "Consoles need a separate power supply (single USB powers PC only)",
-          "Thin coverage in our stores — Amazon is the verified link"
-        ],
-        "pros_es": [
-          "Juego, chat y micro en perillas físicas — mezcla sin mirar",
-          "Combo XLR con phantom +48 V más entrada de headset",
-          "USB directo a PS5/Switch más PC/Mac, compatible con Stream Deck",
-          "Cambia-voces, FX de juego y surround 3D por $199,95 PVP"
-        ],
-        "cons_es": [
-          "Sin conmutación HDMI — eso es el ZG01 grande",
-          "Menos botones directos que el ZG01",
-          "Las consolas piden fuente aparte (un USB solo alimenta en PC)",
-          "Cobertura fina en tiendas — Amazon es el enlace verificado"
-        ]
-      },
-      {
         "name": "Mackie MainStream",
         "name_es": "Mackie MainStream",
         "pros": [
@@ -81090,6 +81026,34 @@
           "Mackie lo lista bajo pedido — el stock va y viene",
           "Captura 1080p, sin grabación 4K como el Streamer X",
           "Sin faders motorizados para mezcla táctil"
+        ]
+      },
+      {
+        "name": "Rode RODECaster Pro II",
+        "name_es": "Rode RODECaster Pro II",
+        "pros": [
+          "Four Neutrik combo inputs with 76dB Revolution preamps",
+          "Six faders plus 8 SMART pads (64 actions) and 5.5-inch touchscreen",
+          "APHEX processing with per-channel EQ, gate and de-esser",
+          "Dual USB-C, Bluetooth, WiFi and microSD multitrack — runs without a PC"
+        ],
+        "cons": [
+          "No motorized faders at this price",
+          "Real learning curve plus firmware quirks reported by owners",
+          "~$595 is pro money for single-mic streamers",
+          "Overkill if you only need one mic and OBS"
+        ],
+        "pros_es": [
+          "Cuatro entradas combo Neutrik con previos Revolution de 76dB",
+          "Seis faders más 8 pads SMART (64 acciones) y táctil de 5,5 pulgadas",
+          "Proceso APHEX con EQ, puerta y de-esser por canal",
+          "Doble USB-C, Bluetooth, WiFi y multipista microSD — va sin PC"
+        ],
+        "cons_es": [
+          "Sin faders motorizados a este precio",
+          "Curva real de aprendizaje más fallos de firmware reportados",
+          "~$595 es dinero pro para streamers de un micro",
+          "Excesivo si solo necesitas un micro y OBS"
         ]
       }
     ],

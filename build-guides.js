@@ -2607,11 +2607,6 @@ const TEST_SHOP_BTN = {
     },
     oos: ["zzounds","andertons"]
   },
-  660: {
-    urls: {
-      amazon: "https://www.amazon.com/Yamaha-Gaming-Mixer-Voice-Streaming/dp/B0CQZ25H1M"
-    }
-  },
   661: {
     prices: {
       andertons: "£101.00",
