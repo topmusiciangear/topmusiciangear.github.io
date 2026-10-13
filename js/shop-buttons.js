@@ -2535,15 +2535,21 @@ const TEST_SHOP_BTN = {
   },
   291: {
     prices: {
-      gear4music: "£149.00",
       amazon: "$168.00",
-      zzounds: "$169.00"
+      zzounds: "$169.00",
+      andertons: "£111.00",
+      musicstore: "€135.00"
     },
     urls: {
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audio-Technica-AT2020USBX-Cardioid-Condenser-Microphone/528M"
+      // G4M sigue en la fila pero SIN precio (agotado); la URL real se conserva para
+      // que la fila "Agotado" enlace a la ficha del producto, no a la home.
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audio-Technica-AT2020USBX-Cardioid-Condenser-Microphone/528M",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2020USB-X-USB-Condenser-Mic-with-Stand-Black-/art-REC0016176-000",
+      andertons: "https://www.andertons.co.uk/audio-technica-at2020usb-x-cardioid-condenser-mic-with-headphone-amp/"
     },
     oos: [
-      "gear4music"
+      "gear4music",
+      "zzounds"
     ]
   },
   292: {
