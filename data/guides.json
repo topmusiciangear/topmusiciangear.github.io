@@ -81152,18 +81152,17 @@
     "sections": [
       {
         "heading": "What Makes an Interface Good for Streaming?",
-        "heading_es": "¿Qué hace que una interfaz sea buena para streaming?",
-        "content": "<p><strong>A streaming interface is not just a sound card.</strong> It has to capture your voice cleanly, keep it from clipping mid-rant, route separate mixes for you and your audience, and often handle a second input like game audio or a guest mic. A plain two-in/two-out interface leaves all of that to software.</p><p><strong>The four units here fall into two camps.</strong> The Rodecaster Duo and Roland Bridge Cast X are all-in-one production consoles — they mix, process and route your stream with hardware controls and a touchscreen or pads. The Audient EVO 4 and Universal Audio Volt 276 are classic audio interfaces — compact units that focus on clean preamps and, in the Volt’s case, analog compression the way in. Decide which camp matches how you create.</p><p><strong>One rule applies to all of them:</strong> the preamp matters more than the marketing. Enough clean gain for your mic without a booster, phantom power when you need it, and zero-latency monitoring so you hear yourself live. Check those three before you check the light-up pads <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers.html\">Best stream controllers</a></p>",
+        "heading_es": "Qué hace que una interfaz sea buena para streaming",
+        "content": "<p><strong>A streaming interface is not just a sound card.</strong> It has to capture your voice cleanly, keep it from clipping mid-rant, route separate mixes for you and your audience, and often handle a second input like game audio or a guest mic. A plain two-in/two-out interface leaves all of that to software.</p><p><strong>The four units here fall into two camps.</strong> The Rodecaster Duo and Roland Bridge Cast X are all-in-one production consoles — they mix, process and route your stream with hardware controls and a touchscreen or pads. The Audient EVO 4 and Universal Audio Volt 276 are classic audio interfaces — compact units that focus on clean preamps and, in the Volt's case, analog compression the way in. Decide which camp matches how you create.</p><p><strong>One rule applies to all of them:</strong> the preamp matters more than the marketing. Enough clean gain for your mic without a booster, phantom power when you need it, and zero-latency monitoring so you hear yourself live. Check those three before you check the light-up pads <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers.html\">Best stream controllers</a></p>",
         "content_es": "<p><strong>Una interfaz de streaming no es solo una tarjeta de sonido.</strong> Tiene que capturar tu voz limpia, evitar que distorsione en pleno discurso, enrutar mezclas separadas para ti y tu audiencia, y a menudo manejar una segunda entrada como el audio del juego o un micrófono de invitado. Una interfaz simple de dos entradas y dos salidas deja todo eso al software.</p><p><strong>Los cuatro aparatos de aquí caen en dos bandos.</strong> El Rodecaster Duo y el Roland Bridge Cast X son consolas de producción todo-en-uno — mezclan, procesan y enrutan tu directo con controles físicos y una pantalla táctil o pads. El Audient EVO 4 y el Universal Audio Volt 276 son interfaces de audio clásicas — unidades compactas centradas en previos limpios y, en el caso del Volt, en la compresión analógica a la entrada. Decide qué bando coincide con cómo creas.</p><p><strong>Una regla aplica a todos:</strong> el previo importa más que el marketing. Suficiente ganancia limpia para el micrófono sin booster, alimentación phantom cuando la necesites y monitorización de latencia cero para escucharte en vivo. Revisa esas tres antes de mirar los pads iluminados <a class=\"guide-link-btn\" href=\"/guides/best-interface_es.html\">Mejores interfaces de audio</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers_es.html\">Mejores controladores de streaming</a></p>",
         "products": [
           239,
           240,
           262,
-          328,
-          664,
-          16,
-          263
-        ]
+          263,
+          664
+        ],
+        "skipMedia": true
       },
       {
         "heading": "Is the Rode Rodecaster Duo the Best Streaming Interface?",
@@ -81185,60 +81184,12 @@
         ]
       },
       {
-        "heading": "Is the Audient EVO 4 the Best Budget Streaming Interface?",
-        "heading_es": "¿Es el Audient EVO 4 la mejor interfaz de streaming económica?",
-        "content": "<p><strong>The Audient EVO 4 keeps punching above its weight.</strong> It is a compact 2-in/2-out USB-C unit that runs off bus power, with two EVO preamps delivering 58dB of clean gain and a JFET instrument input for guitar. Its killer feature ismartgain: press the button, play or speak for a few seconds, and the interface sets your input level automatically — in under 20 seconds. Nearly 1,700 Buyers rate it 4.4/5, and at this price nothing else makes gain staging this painless.</p><p><strong>For streaming, the loopback is the feature that matters.</strong> It routes your desktop audio back into the interface, so game sound, music and browser audio can be recorded or streamed together with your mic. The setup lives in EVO’s simple software, which also handles the DSP mixer and routing matrix without demanding an external mixer.</p><p><strong>What you give up is breadth, not quality.</strong> There are just two inputs, so a two-mic podcast needs a different unit, and there are no hardware pads or effects on the box itself. But for a clean, compact, no-hassle interface for a single-mic stream at the lowest price here, the EVO 4 is the natural starting point.</p>",
-        "content_es": "<p><strong>El Audient EVO 4 sigue demostrando que se puede calidad por poco.</strong> Es una unidad USB-C compacta de 2 entradas y 2 salidas que funciona con alimentación por bus, con dos previos EVO que entregan 58dB de ganancia limpia y una entrada de instrumento JFET para guitarra. Su característica estrella es SmartGain: pulsa el botón, toca o habla unos segundos, y la interfaz ajusta tu nivel de entrada automáticamente — en menos de 20 segundos. Casi 1.700 compradores la valoran con 4.4/5, y a este precio nada más hace el ajuste de ganancia tan fácil.</p><p><strong>Para streaming, el loopback es la función que importa.</strong> Enruta el audio de tu escritorio de vuelta a la interfaz, así el sonido del juego, la música y el navegador se pueden grabar o transmitir junto con el micrófono. La configuración vive en el software simple de EVO, que también maneja el mezclador DSP y la matriz de enrutamiento sin exigir un mezclador externo.</p><p><strong>Lo que sacrificas es amplitud, no calidad.</strong> Solo hay dos entradas, así que un podcast de dos micros necesita otra unidad, y no hay pads físicos ni efectos en la caja. Pero si quieres una interfaz limpia, compacta y sencilla para un directo de un solo micro al precio más bajo de aquí, el EVO 4 es por el que empezaría.</p>",
-        "products": [
-          53,
-          262
-        ]
-      },
-      {
-        "heading": "Is the Universal Audio Volt 276 Worth It for Streaming?",
-        "heading_es": "¿Merece la pena el Universal Audio Volt 276 para streaming?",
-        "content": "<p><strong>The Universal Audio Volt 276 is the interface that brings real analog flavor to streaming.</strong> Its headline feature is a genuine analog 76 compressor inspired by the UA 1176. The box that shaped many classic records — plus a Vintage mode that recreates the rich tone of the UA 610 tube preamp. Unlike plugins, this processing happens in analog domain before your signal ever reaches the computer.</p><p><strong>Under the hood it is a proper pro unit.</strong> Two combo inputs, 55dB of gain, 24-bit/192kHz conversion, 48V phantom power, a class-leading headphone amp and 1-in/1-out MIDI for synths and drum machines. It is class-compliant and bus-powered, works with Mac, PC, iPad and iPhone, and includes LUNA plus a suite of UAD plug-ins. Buyers rate it 4.7/5 across 458 reviews.</p><p><strong>The limits are fixed compression presets and just two inputs.</strong> The 76 Compressor offers preset modes (VOC, GTR, FAST) rather thadjustable attack and release, and there are just two inputs, so multi-mic podcasts need a bigger unit. It costs more than the EVO 4 but less than the flagship consoles, and if you want that classic compressed vocal sound on the way in, it is the most affordable way to get it.</p>",
-        "content_es": "<p><strong>El Universal Audio Volt 276 es la interfaz que aporta sabor analógico real al streaming.</strong> Su característica estrella es un compresor analógico genuino 76 inspirado en el UA 1176 — la caja que dio forma a innumerables discos clásicos — más un modo Vintage que recrea el rico tono del previo de válvulas UA 610. A diferencia de los plugins, este procesamiento ocurre en el dominio analógico antes de que tu señal llegue al ordenador.</p><p><strong>Bajo el capó es una unidad pro.</strong> Dos entradas combo, 55dB de ganancia, conversión de 24-bit/192kHz, alimentación phantom de 48V, un amplificador de auriculares de primera y MIDI de 1 entrada/1 salida para sintetizadores y cajas de ritmos. Es class-compliant y alimentado por bus, funciona con Mac, PC, iPad y iPhone, e incluye LUNA más una suite de plugins UAD. Los compradores lo valoran con 4.7/5 en 458 reseñas.</p><p><strong>Las contras honestas son los presets fijos del compresor y las dos entradas.</strong> El Compresor 76 ofrece modos predefinidos (VOC, GTR, FAST) en lugar de ataque y liberación ajustables, y hay solo dos entradas, así que los podcasts con varios micros necesitan una unidad mayor. Cuesta más que el EVO 4 pero menos que las consolas insignia, y si quieres ese sonido vocal comprimido clásico a la entrada, es la forma más asequible de conseguirlo.</p>",
-        "products": [
-          263,
-          16
-        ]
-      },
-      {
-        "heading": "Is the Arturia MiniFuse 2 OTG the Best Interface for Mobile Streaming?",
-        "heading_es": "¿Es el Arturia MiniFuse 2 OTG la mejor interfaz para streaming desde el móvil?",
-        "content": "<p><strong>The Arturia MiniFuse 2 OTG is the only interface on this list built to go live from a phone.</strong> Beyond working as a regular 2-input interface with your PC or Mac, it adds a second dedicated USB-C OTG port that connects iPhones and Android devices directly, plus a built-in USB hub that keeps your mic and keyboard plugged in while you stream. It runs on bus power, fits in any backpack and carries Arturia's clean preamps and software bundle, covering both mobile streams and everyday desktop duty.</p>",
-        "content_es": "<p><strong>El Arturia MiniFuse 2 OTG es la única interfaz de esta lista pensada para emitir desde el teléfono.</strong> Además de funcionar como interfaz normal de 2 entradas con tu PC o Mac, trae un segundo puerto USB-C OTG que conecta iPhone y Android directamente, y un hub USB integrado que mantiene el micrófono y teclado enchufados mientras emites. Se alimenta por bus, cabe en cualquier mochila y hereda los previos limpios y el pack de software de Arturia, así que cubre tanto el directo desde el móvil como el día a día en el escritorio.</p>",
-        "products": [
-          15,
-          328
-        ]
-      },
-      {
         "heading": "Is the Zoom PodTrak P4next the Best Portable Podcast Recorder?",
         "heading_es": "¿Es el Zoom PodTrak P4next la mejor grabadora portátil de podcast?",
         "content": "<p><strong>The Zoom PodTrak P4next is a portable podcast studio you can take anywhere.</strong> It gives you four XLR inputs with up to 70dB of clean gain, four headphone outputs with their own volume knobs, and records everything to microSD with zero computer needed. For streamers, it also works as a USB interface so you can bring the same hardware to your desk.</p><p><strong>Tactile faders and six sound pads</strong> let you ride levels and fire intros live — the same physical workflow that makes the big Rodecaster consoles work, but in a box that fits in a backpack. Loopback and TRRS call-in handle remote guests, and the built-in podcast software guides you through editing on the unit itself.</p><p><strong>The honest trade.</strong> It tops at 48kHz/24-bit with no 32-bit float, the screen is small for deep menu diving, and the plastic build is light but not tank-like. For podcasters who record on location or streamers who want hardware faders without the desk footprint, it is the most complete portable package at this price.</p>",
         "content_es": "<p><strong>El Zoom PodTrak P4next es un estudio de podcast portátil que cabe en la mochila.</strong> Te da cuatro entradas XLR con hasta 70dB de ganancia limpia, cuatro salidas de auriculares con sus propios controles de volumen y graba todo a microSD sin necesitar ordenador. Para streamers, también funciona como interfaz USB para llevar el mismo hardware al escritorio.</p><p><strong>Faders táctiles y seis pads de sonido</strong> te permiten subir y bajar niveles y lanzar intros en directo — el mismo flujo físico que hace funcionar las grandes consolas Rodecaster, pero en una caja que cabe en una mochila. Loopback y llamada TRRS gestionan invitados remotos, y el software de podcast integrado te guía para editar en la propia unidad.</p><p><strong>El trato honesto.</strong> Topa en 48kHz/24-bit sin 32-bit float, la pantalla es pequeña para menús profundos y la construcción de plástico es ligera pero no blindada. Para podcasters que graban en exteriores o streamers que quieren faders de hardware sin ocupar el escritorio, es el paquete portátil más completo a este precio.</p>",
         "products": [
           664
-        ]
-      },
-      {
-        "heading": "Is the Apollo Twin X the Best Interface for UAD Tracking?",
-        "heading_es": "¿Es el Apollo Twin X la mejor interfaz para grabar con UAD?",
-        "content": "<strong>If you want to record through classic studio character rather than adding it later, the Apollo Twin X is built around that idea.</strong> Its Unison preamps change how the input behaves so tracking through console and outboard emulations feels like playing through the real hardware, with near-zero latency while you monitor. Tracking vocals while hearing compression and EQ in the headphones exactly as printed makes performance decisions faster. It is for singers and producers who commit to tone while recording. Check that your computer has a compatible Thunderbolt port and that two inputs are enough for how you work.",
-        "content_es": "<strong>Si quieres grabar con el carácter clásico de estudio en vez de añadirlo después, el Apollo Twin X gira en torno a esa idea.</strong> Sus previos Unison cambian el comportamiento de la entrada para que tocar a través de emulaciones de consola suene como el equipo real, con latencia casi nula mientras monitoreas. Grabar voces escuchando compresión y ecualización en los auriculares tal como quedan impresas agiliza las decisiones de interpretación. Es para cantantes y productores que definen el sonido al grabar. Comprueba que tu ordenador tenga puerto Thunderbolt compatible y que dos entradas basten para tu forma de trabajar.",
-        "products": [
-          16
-        ]
-      },
-      {
-        "heading": "Is the Audient iD14 MkII the Best Desktop Interface Value?",
-        "heading_es": "¿Es la Audient iD14 MkII la mejor interfaz de escritorio?",
-        "content": "<strong>If you want console-style clarity on a small desk, the iD14 MkII puts its money into the preamps.</strong> Those Class-A style inputs simply stay clean and open when you raise the gain, so quiet mics and dynamic takes keep detail instead of hiss, and the JFET instrument input makes a DI guitar feel lively under your fingers. Tracking voice and guitar in a bedroom corner sits the takes in the mix with very little fixing afterward. It is for songwriters and streamers who want simple knobs and honest sound. Check input count and that you do not need onboard effects or MIDI for your setup.",
-        "content_es": "<strong>Si buscas claridad de consola en un escritorio pequeño, el iD14 MkII invierte su fuerza en los previos.</strong> Esas entradas de estilo clase A se mantienen limpias y abiertas al subir la ganancia, así los micros tranquilos y las tomas dinámicas conservan detalle sin soplido, y la entrada de instrumento JFET hace que la guitarra por línea se sienta viva bajo los dedos. Grabar voz y guitarra en la esquina de un dormitorio encaja las tomas en la mezcla con muy pocos retoques. Es para compositores y creadores que quieren perillas simples y sonido honesto. Revisa el número de entradas y que no necesites efectos internos ni MIDI en tu equipo.",
-        "products": [
-          53
         ]
       },
       {
@@ -81253,14 +81204,13 @@
     ],
     "conclusion": "If you want the full broadcast-console experience and can stretch the budget, the Rodecaster Duo is the one that stands out — it is the most complete streaming interface here. Gamers with consoles should look hard at the Bridge Cast X for its audio-plus-capture combo. The Universal Audio Volt 276 earns its price if you want analog compression and Vintage preamp tone on the way in, the Audient EVO 4 is the smart budget start, and the Zoom PodTrak P4next is the portable recorder pick if you want sound pads, loopback and a battery without the Rodecaster price. Whatever you pick, make sure the preamp has enough gain for your mic and the software feels like home, because that is what you will live with. <p>Want to build out the rest of the setup? See <a class=\"guide-link-btn\" href=\"/guides/best-interface.html\">Best audio interfaces guide</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics.html\">Best USB microphones</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers.html\">Streaming mixers & controllers</a></p>",
     "conclusion_es": "Si quieres la experiencia completa de consola broadcast y puedes estirar el presupuesto, el Rodecaster Duo es el que destaca — es simplemente la interfaz de streaming más completa de todas. Los gamers de consola deberían fijarse en el Bridge Cast X por su combo de audio y captura. El Universal Audio Volt 276 justifica su precio si quieres compresión analógica y tono Vintage a la entrada, el Audient EVO 4 es el inicio económico inteligente, y el Zoom PodTrak P4next es la grabadora portátil si quieres pads de sonido, loopback y batería sin el precio del Rodecaster. Sea cual sea tu elección, asegúrate de que el previo tenga suficiente ganancia para tu micófono y que el software te resulte familiar, porque es con lo que vas a convivir. <p>¿Quieres completar el resto del configuración? Consulta nuestra <a class=\"guide-link-btn\" href=\"/guides/best-interface_es.html\">Guía de las mejores interfaces de audio</a> <a class=\"guide-link-btn\" href=\"/guides/usb-mics_es.html\">Mejores micrófonos USB</a> <a class=\"guide-link-btn\" href=\"/guides/stream-controllers_es.html\">Mezcladores y controladores para streaming</a></p>",
-    "verdict": "The Rodecaster Duo is the full console for streamers who want everything built in. The Bridge Cast X is the console gaming pick, the EVO 4 is the budget streaming interface, and the Volt 276 adds analog compression for polished voice. Pick by your setup's complexity. Apollo Twin X is the UAD tracking pick, iD14 the console-value pick, Scarlett 2i2 the beginner standard.",
-    "verdict_es": "El Rodecaster Duo es la consola completa para streamers que quieren todo integrado. El Bridge Cast X es la opción de gaming de consola, el EVO 4 es la interfaz económica de streaming, y el Volt 276 añade compresión analógica para una voz pulida. Elige según la complejidad de tu configuración. Apollo Twin X es la opción UAD, iD14 la de valor con consola, Scarlett 2i2 el estándar principiante.",
+    "verdict": "The Rodecaster Duo is the full console for streamers who want everything built in. The Bridge Cast X is the console gaming pick, the EVO 4 is the budget streaming interface, and the Volt 276 adds analog compression for polished voice. Pick by your setup's complexity.",
+    "verdict_es": "El Rodecaster Duo es la consola completa para streamers que quieren todo integrado. El Bridge Cast X es la opción de gaming de consola, el EVO 4 es la interfaz económica de streaming, y el Volt 276 añade compresión analógica para una voz pulida. Elige según la complejidad de tu configuración.",
     "featuredProducts": [
       239,
       240,
       262,
       263,
-      328,
       664
     ],
     "relatedGuides": [
@@ -81276,7 +81226,7 @@
     "description_es": "En 2026, Hice streams y podcasts con el Rodecaster Duo, el Roland Bridge Cast X, el Audient EVO 4 y el Universal Audio Volt 276. Aquí está qué interfaz de",
     "featuredSnippet": {
       "title_en": "Best Audio Interfaces for Streaming & Podcasting ",
-      "text_en": "The Rodecaster Duo is the most complete streaming console with two Revolution previos, a touchscreen and SMART pads. The Roland Bridge Cast X pairs a dual-bus mixer with HDMI capture for console gamers. The Audient EVO 4 is the smart budget interface with Smartgain auto-level setup and loopback, and the Universal Audio Volt 276 adds analog 1176-style compression. All four perform in live streams.",
+      "text_en": "The Rodecaster Duo is the most complete streaming console with two Revolution preamps, a touchscreen and SMART pads. The Roland Bridge Cast X pairs a dual-bus mixer with HDMI capture for console gamers. The Audient EVO 4 is the smart budget interface with SmartGain auto-level setup and loopback, the Universal Audio Volt 276 adds analog 1176-style compression, and the Zoom PodTrak P4next is a portable recorder with 4 XLR inputs and sound pads. All perform in live streams.",
       "name1_en": "",
       "name2_en": "",
       "price1": "",
@@ -81292,7 +81242,7 @@
       "rating1": 0,
       "rating2": 0,
       "title_es": "Mejores interfaces de audio para Streaming y Podcasting ",
-      "text_es": "El Rodecaster Duo es la consola de streaming más completa con dos previolificadores Revolution, pantalla táctil y pads SMART. El Roland Bridge Cast X combina un mezclador de doble bus con captura HDMI para gamers de consola. El Audient EVO 4 es la interfaz económica inteligente con ajuste automático de nivel Smartgain y loopback, y el Universal Audio Volt 276 añade compresión analógica estilo 1176. Los cuatro funcionan en streams en directo.",
+      "text_es": "El Rodecaster Duo es la consola de streaming más completa con dos previos Revolution, pantalla táctil y pads SMART. El Roland Bridge Cast X combina un mezclador de doble bus con captura HDMI para gamers de consola. El Audient EVO 4 es la interfaz económica inteligente con ajuste automático SmartGain y loopback, el Universal Audio Volt 276 añade compresión analógica estilo 1176, y el Zoom PodTrak P4next es una grabadora portátil con 4 entradas XLR y pads de sonido. Todas funcionan en streams en directo.",
       "name1_es": "",
       "name2_es": "",
       "best1_es": "",
@@ -81309,9 +81259,9 @@
       "faq_a2_es": "Funciona, pero justito: con 58dB tienes que trabajar cerca del máximo y el ruido de fondo se nota. Los 76dB de los previos Revolution del Rodecaster Duo lo mueven con margen de sobra y el Bridge Cast X viene diseñado para micros de broadcast; el Volt 276 suma su compresor analógico, que ayuda a dar presencia. Si ya tienes el EVO 4, un Cloudlifter lo resuelve",
       "specs": [],
       "faq_q3_en": "Can these interfaces plug into a phone to go live?",
-      "faq_a3_en": "With the MiniFuse 2 OTG, yes: its second USB-C port exists exactly for that. Connect an iPhone or Android and both mic inputs stay live through its built-in hub. Everything else here targets PC and console; if your stream runs from a phone, this is the only unit that does it properly without dongles.",
+      "faq_a3_en": "The Zoom PodTrak P4next can work as a USB interface for mobile streaming with the right adapter. For dedicated mobile streaming, consider a phone-first interface.",
       "faq_q3_es": "¿Puedo conectar la interfaz al móvil para hacer directos?",
-      "faq_a3_es": "Con el MiniFuse 2 OTG, sí: su segundo puerto USB-C existe justo para eso. Enchufas el iPhone o el Android y los dos micrófonos siguen activos gracias a su hub integrado. El resto de unidades de la lista están pensadas para PC y consola; si tu directo sale del teléfono, esta es la única que lo hace bien y sin adaptadores.",
+      "faq_a3_es": "El Zoom PodTrak P4next puede funcionar como interfaz USB para streaming móvil con el adaptador adecuado. Para streaming móvil dedicado, considera una interfaz pensada para teléfono.",
       "faq_q4_en": "What is loopback and why does it matter?",
       "faq_a4_en": "Loopback routes game, Discord and browser audio back into your streaming software without virtual audio cables. The Audient EVO 4 ships dedicated loopback channels and the Zoom PodTrak P4next integrates it too; the Rodecaster Duo and Bridge Cast X handle routing with hardware buses you control by fader. Without it you end up capturing desktop audio, and every notification lands on your stream.",
       "faq_q4_es": "¿Para qué sirve el loopback y por qué importa?",
@@ -81368,20 +81318,8 @@
           "title_es": "Universal Audio Volt 276"
         },
         {
-          "title": "Arturia MiniFuse 2 OTG",
-          "title_es": "Arturia MiniFuse 2 OTG"
-        },
-        {
           "title": "Zoom PodTrak P4next",
           "title_es": "Zoom PodTrak P4next"
-        },
-        {
-          "title": "Universal Audio Apollo Twin X Gen 2",
-          "title_es": "Universal Audio Apollo Twin X Gen 2"
-        },
-        {
-          "title": "Audient iD14 MkII",
-          "title_es": "Audient iD14 MkII"
         },
         {
           "title": "Focusrite Scarlett 2i2 4th Gen",
@@ -81416,18 +81354,6 @@
             {
               "value": "Beginner podcasting with sound pads",
               "value_es": "Podcasting para empezar con pads"
-            },
-            {
-              "value": "Pro tracking with UAD plugins",
-              "value_es": "Grabación pro con plugins UAD"
-            },
-            {
-              "value": "Console-grade desktop recording",
-              "value_es": "Grabación de escritorio con calidad de consola"
-            },
-            {
-              "value": "Portable podcast recorder with 4 XLR inputs",
-              "value_es": "Grabadora portátil de podcast con 4 entradas XLR"
             }
           ]
         },
@@ -81458,18 +81384,6 @@
             {
               "value": "~$109.97",
               "value_es": "~$109.97"
-            },
-            {
-              "value": "~$999",
-              "value_es": "~$999"
-            },
-            {
-              "value": "$294.01–$399.99",
-              "value_es": "$294.01–$399.99"
-            },
-            {
-              "value": "~$179",
-              "value_es": "~$179"
             }
           ]
         },
@@ -81500,18 +81414,6 @@
             {
               "value": "All-in-one mixer/interface + sound pads",
               "value_es": "Mezclador/interfaz todo-en-uno + pads de sonido"
-            },
-            {
-              "value": "Desktop interface + DSP",
-              "value_es": "Interfaz de escritorio + DSP"
-            },
-            {
-              "value": "USB-C interface",
-              "value_es": "Interfaz USB-C"
-            },
-            {
-              "value": "Portable recorder + USB interface",
-              "value_es": "Grabadora portátil + interfaz USB"
             }
           ]
         },
@@ -81542,18 +81444,6 @@
             {
               "value": "2 XLR combo preamps, 60dB + Bluetooth",
               "value_es": "2 previos combo XLR, 60dB + Bluetooth"
-            },
-            {
-              "value": "2 Unison pres",
-              "value_es": "2 previos Unison"
-            },
-            {
-              "value": "2 Audient console pres",
-              "value_es": "2 previos de consola"
-            },
-            {
-              "value": "2 Scarlett pres, 69dB",
-              "value_es": "2 previos, 69dB"
             }
           ]
         },
@@ -81584,18 +81474,6 @@
             {
               "value": "1500mAh battery (~8h) + USB-C",
               "value_es": "Batería 1500mAh (~8h) + USB-C"
-            },
-            {
-              "value": "External PSU (Thunderbolt)",
-              "value_es": "Fuente externa (Thunderbolt)"
-            },
-            {
-              "value": "USB bus-powered",
-              "value_es": "USB por bus"
-            },
-            {
-              "value": "USB bus-powered",
-              "value_es": "USB por bus"
             }
           ]
         },
@@ -81626,18 +81504,6 @@
             {
               "value": "Internal battery, Bluetooth, sound pads, loopback",
               "value_es": "Batería interna, Bluetooth, pads de sonido, loopback"
-            },
-            {
-              "value": "UAD HEXA DSP, Unison pres, LUNA",
-              "value_es": "UAD HEXA DSP, previos Unison, LUNA"
-            },
-            {
-              "value": "ScrollControl, ADAT, JFET DI, 2 HP outs",
-              "value_es": "ScrollControl, ADAT, DI JFET, 2 salidas"
-            },
-            {
-              "value": "Auto Gain, Clip Safe, loopback, Air mode",
-              "value_es": "Auto Gain, Clip Safe, loopback, modo Air"
             }
           ]
         },
@@ -81652,18 +81518,6 @@
             {
               "value": "Yes — HDMI capture",
               "value_es": "Sí — captura HDMI"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
             },
             {
               "value": "No",
@@ -81803,118 +81657,6 @@
         ]
       },
       {
-        "name": "Arturia MiniFuse 2 OTG",
-        "name_es": "Arturia MiniFuse 2 OTG",
-        "pros": [
-          "The only interface here built to go live from a phone",
-          "Second USB-C OTG port connects iPhone or Android devices directly",
-          "Built-in USB hub keeps your mic and keyboard connected while you stream",
-          "Clean Arturia preamps and software bundle in a compact bus-powered body"
-        ],
-        "pros_es": [
-          "La única interfaz de esta lista pensada para emitir desde el teléfono",
-          "Segundo puerto USB-C OTG que conecta iPhone o Android directamente",
-          "Hub USB integrado que mantiene el micrófono y el teclado conectados mientras emites",
-          "Previos limpios de Arturia y paquete de software en un cuerpo compacto alimentado por bus"
-        ],
-        "cons": [
-          "Two inputs only — fine for a single mic, limiting for multi-mic podcasts",
-          "Bus-powered compact body offers less processing than the all-in-one consoles",
-          "No hardware pads or on-board effects",
-          "Phone streaming drains mobile battery quickly"
-        ],
-        "cons_es": [
-          "Solo dos entradas — suficiente para un solo micro, limitado para podcasts con varios micros",
-          "El cuerpo compacto alimentado por bus ofrece menos procesamiento que las consolas todo-en-uno",
-          "Sin pads físicos ni efectos integrados",
-          "Emitir desde el móvil agota su batería rápido"
-        ]
-      },
-      {
-        "name": "Maono Maonocaster E2 Gen2",
-        "name_es": "Maono Maonocaster E2 Gen2",
-        "pros": [
-          "Real console features at an entry price: 8 sound pads, loopback, Bluetooth and a built-in battery",
-          "Two XLR combo preamps with up to 60dB of gain handle dynamic mics",
-          "8-hour battery makes it a genuinely portable streaming rig",
-          "Two-level noise reduction and six preset reverbs built in"
-        ],
-        "pros_es": [
-          "Funciones de consola de verdad a precio de entrada: 8 pads de sonido, loopback, Bluetooth y batería integrada",
-          "Dos previos combo XLR con hasta 60dB de ganancia para micros dinámicos",
-          "La batería de 8 horas lo convierte en un equipo de streaming realmente portátil",
-          "Reducción de ruido de dos niveles y seis reverbs preestablecidas integradas"
-        ],
-        "cons": [
-          "48kHz/24-bit only — no 32-bit float safety net",
-          "Plastic build feels less premium than the broadcast consoles",
-          "No video capture and no touchscreen routing",
-          "No on-board recording backup"
-        ],
-        "cons_es": [
-          "Solo 48kHz/24-bit — sin red de seguridad de 32-bit float",
-          "La construcción de plástico se siente menos premium que las consolas broadcast",
-          "Sin captura de vídeo ni enrutado por pantalla táctil",
-          "Sin grabación de respaldo a bordo"
-        ]
-      },
-      {
-        "name": "Universal Audio Apollo Twin X Gen 2",
-        "name_es": "Universal Audio Apollo Twin X Gen 2",
-        "pros": [
-          "Unison pres recreate Neve and API through UAD DSP",
-          "HEXA Core tracks plugins with near-zero latency",
-          "LUNA integration with premium conversion",
-          "Talkback and monitor control aboard"
-        ],
-        "cons": [
-          "Thunderbolt only — no USB option",
-          "UAD plugin costs stack up fast",
-          "Two inputs limit bands and drums",
-          "Premium price per channel"
-        ],
-        "pros_es": [
-          "Los previos Unison recrean Neve y API con DSP UAD",
-          "HEXA Core graba plugins con latencia casi nula",
-          "Integración LUNA con conversión premium",
-          "Talkback y control de monitores a bordo"
-        ],
-        "cons_es": [
-          "Solo Thunderbolt — sin opción USB",
-          "Los plugins UAD se acumulan en precio",
-          "Dos entradas limitan bandas y baterías",
-          "Precio premium por canal"
-        ]
-      },
-      {
-        "name": "Audient iD14 MkII",
-        "name_es": "Audient iD14 MkII",
-        "pros": [
-          "Console-grade pres with ScrollControl monitor knob",
-          "ADAT expansion grows to 10 inputs",
-          "JFET DI plus dual headphone outs",
-          "Compact steel chassis built to last"
-        ],
-        "cons": [
-          "No MIDI I/O aboard",
-          "Software mixer takes learning",
-          "Single USB-C port — hub life",
-          "No DSP tracking effects"
-        ],
-        "pros_es": [
-          "Previos de consola con knob ScrollControl",
-          "La expansión ADAT crece a 10 entradas",
-          "DI JFET más doble salida de auriculares",
-          "Chasis de acero compacto duradero"
-        ],
-        "cons_es": [
-          "Sin MIDI a bordo",
-          "El mezclador por software pide aprendizaje",
-          "Un solo puerto USB-C — vida con hub",
-          "Sin FX DSP para grabar"
-        ]
-      },
-      {
         "name": "Focusrite Scarlett 2i2 4th Gen",
         "name_es": "Focusrite Scarlett 2i2 4th Gen",
         "pros": [
@@ -81940,6 +81682,38 @@
           "Latencia mayor que rivales Thunderbolt",
           "Solo USB-C sin expansión",
           "Knobs más ligeros que rivales premium"
+        ]
+      },
+      {
+        "name": "Zoom PodTrak P4next",
+        "name_es": "Zoom PodTrak P4next",
+        "pros": [
+          "Portable recorder with 4 XLR inputs up to 70dB gain",
+          "4 independent headphone outputs with volume controls",
+          "Records to microSD without a computer",
+          "6 sound pads + tactile faders for live production",
+          "Loopback and TRRS call-in for remote guests",
+          "Runs on AA batteries or USB-C power"
+        ],
+        "cons": [
+          "Max 48kHz/24-bit, no 32-bit float",
+          "Small screen for deep menu navigation",
+          "Plastic build feels light",
+          "No video capture or HDMI"
+        ],
+        "pros_es": [
+          "Grabadora portátil con 4 entradas XLR hasta 70dB de ganancia",
+          "4 salidas de auriculares independientes con control de volumen",
+          "Graba a microSD sin ordenador",
+          "6 pads de sonido + faders táctiles para directo",
+          "Loopback y llamada TRRS para invitados remotos",
+          "Funciona con pilas AA o alimentación USB-C"
+        ],
+        "cons_es": [
+          "Máximo 48kHz/24-bit, sin 32-bit float",
+          "Pantalla pequeña para menús profundos",
+          "Construcción de plástico ligera",
+          "Sin captura de vídeo ni HDMI"
         ]
       }
     ],
