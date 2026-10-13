@@ -2340,8 +2340,8 @@
     "rating": 4.7,
     "reviews": 8901,
     "badge": "topQuality",
-    "desc": "The most popular digital mixer in the world, now in a compact format. 25 motorized faders, 40 input channels, 25 bus outputs, and powerful digital routing. Scene automation, built-in effects, and iPad remote control make it the centerpiece of any live sound rig.",
-    "desc_es": "El mezclador digital más popular del mundo, ahora en formato compacto. 25 faders motorizados, 40 canales de entrada, 25 buses de salida y potente enrutamiento digital. Automatización de escenas, efectos incorporados y control remoto por iPad lo convierten en el corazón de cualquier equipo de sonido en vivo.",
+    "desc": "The most popular digital mixer in the world, now in a compact format. 17 motorized faders, 40 input channels, 25 bus outputs, and powerful digital routing. Scene automation, built-in effects, and iPad remote control make it the centerpiece of any live sound rig.",
+    "desc_es": "El mezclador digital más popular del mundo, ahora en formato compacto. 17 faders motorizados, 40 canales de entrada, 25 buses de salida y potente enrutamiento digital. Automatización de escenas, efectos incorporados y control remoto por iPad lo convierten en el corazón de cualquier equipo de sonido en vivo.",
     "img": "https://r2.gear4music.com/media/43/435308/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FBehringer-X32-Compact-Digital-Mixer%2FPNM",
@@ -12585,6 +12585,25 @@
       "andertons": "https://www.andertons.co.uk/se-electronics-se2200a-microphone",
       "zzounds": "https://www.zzounds.com/a--925521/item--SEESE2200",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/sE-electronics-sE2200/art-REC0013378-000"
+    }
+  },
+  {
+    "id": 658,
+    "title": "Bose T8S ToneMatch",
+    "title_es": "Bose T8S ToneMatch",
+    "brand": "Bose",
+    "category": "live_sound",
+    "price": 999,
+    "rating": 4.7,
+    "badge": "recommended",
+    "desc": "Compact 8-channel digital mixer for performers: 8 ToneMatch presets per channel, 4 aux outs, 5 user scenes, per-channel EQ/dynamics/FX and USB interface. Stand-mountable at 1.9 kg; needs its own PSU (no ToneMatch-link power like the T4S). Official price $999.",
+    "desc_es": "Mezcladora digital compacta de 8 canales para músicos: presets ToneMatch por canal, 4 aux, 5 escenas de usuario, EQ/dinámica/FX por canal e interfaz USB. Se monta en soporte con 1,9 kg; exige su propia fuente (sin alimentación por ToneMatch como el T4S). Precio oficial $999.",
+    "img": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/products/5305/images/18823/258517-T48_ToneMatch_8Chan_Ortho_Top__13011.1714812908.386.513.jpg?c=1",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Bose-T8S-ToneMatch-Digital-Mixer/2ADL",
+      "amazon": "https://www.amazon.com/BOSE-785491-0110-Bose-T8S-toneMatch/dp/B07CG81TLC",
+      "zzounds": "https://www.zzounds.com/item--BOET8STONEMATCH",
+      "andertons": "https://www.andertons.co.uk/bose-t8s-tonematch/"
     }
   }
 ]
