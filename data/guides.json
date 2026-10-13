@@ -101522,17 +101522,17 @@
         ],
         "cons": [
           "Single XLR input — a guest sitting next to you has nowhere to plug a second mic",
-          "No standalone multitrack or SD recording like a broadcast console offers",
+          "No standalone recording — there is no microSD slot, so a computer has to capture every single take",
           "Gaming-first knobs and pads cannot ride music as smoothly as long-throw faders",
-          "Mic preamp gain figure is not published, so there is no 70dB-plus clean-gain claim to lean on",
-          "Needs USB bus power at 5V/3A or a compatible PD adapter, which is sold separately"
+          "No physical level meter — you have to read the software or the colour-changing knob LEDs to catch a clip before it is in the take",
+          "Heavy USB appetite — it only runs off a PC bus when you use the USB II port and the PC delivers 5V/3A; otherwise it needs a USB PD adapter (sold separately)"
         ],
         "cons_es": [
           "Una sola entrada XLR — un invitado sentado a tu lado no tiene dónde enchufar un segundo micro",
-          "Sin grabación multitrack autónoma ni a SD como ofrece una consola de broadcast",
+          "Sin grabación autónoma — no tiene ranura microSD, así que un ordenador tiene que capturar cada toma",
           "Las perillas y pads de enfoque gamer no pasean la música con la suavidad de unos faders largos",
-          "La cifra de ganancia del previo no está publicada, así que no hay reclamo de 70dB limpios en que apoyarse",
-          "Necesita alimentación USB de 5V/3A o un adaptador PD compatible, que se vende por separado"
+          "Sin medidor de nivel físico — tienes que mirar el software o el color de los LED de las perillas para coger un clipping antes de que llegue a la toma",
+          "Apetito USB exigente — solo se alimenta del bus del PC si usas el puerto USB II y el PC entrega 5V/3A; si no, necesita un adaptador USB PD que se vende aparte"
         ]
       },
       {
