@@ -5384,13 +5384,17 @@ const TEST_SHOP_BTN = {
   },
   656: {
     prices: {
-      gear4music: "£1,283.00"
+      gear4music: "£1,283.00",
+      andertons: "£1,226.00",
+      zzounds: "$1,499.00",
+      musicstore: "€1,489.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Sphere-DLX-Modeling-Microphone/5B0C",
       amazon: "https://www.amazon.com/Universal-Audio-Sphere-Modeling-Microphone/dp/B0C35LC2JZ",
       zzounds: "https://www.zzounds.com/item--UADSPHEREDLX",
-      andertons: "https://www.andertons.co.uk/universal-audio-sphere-dlx-modelling-microphone"
+      andertons: "https://www.andertons.co.uk/universal-audio-sphere-dlx-modelling-microphone",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Sphere-DLX-Modeling-Microphone/art-REC0016277-000"
     }
   },
   657: {
