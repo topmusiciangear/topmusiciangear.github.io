@@ -3780,13 +3780,11 @@ const TEST_SHOP_BTN = {
   429: {
     urls: {
       zzounds: "https://www.zzounds.com/item--BLUYETINANO",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone-Slate/3U30",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Blue-Microphones-Yeti-USB-Microphone/art-REC0007433-000"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-Nano-USB-Mic-Black/3U2R"
     },
     oos: [
       "zzounds",
       "gear4music",
-      "musicstore",
       "andertons"
     ]
   },
