@@ -2022,11 +2022,13 @@ const TEST_SHOP_BTN = {
   },
   247: {
     prices: {
-      gear4music: "£699.00",
       amazon: "$799.99",
-      zzounds: "$799.99",
+      zzounds: "$799.00",
       andertons: "£521.00",
       musicstore: "€649.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-DLZ-Creator-Digital-Streaming-Mixer/5NE6"
     }
   },
   248: {

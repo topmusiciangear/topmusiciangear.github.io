@@ -80223,8 +80223,8 @@
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/93/933907/1200/preview.jpg",
     "badge": "bestSeller",
-    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can grab with your hands. The Stream Deck+, the GoXLR Mini, the RODECaster Pro II, the Yamaha AG08, the Mackie MainStream, the Streamer X and the Wave XLR are the top streaming controllers and mixers — here is what each one does best.",
-    "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. El Stream Deck+, el GoXLR Mini, el RODECaster Pro II, el Yamaha AG08, el Mackie MainStream, el Streamer X y el Wave XLR son los mejores controladores y mezcladores de streaming — esto es lo que hace cada uno.",
+    "intro": "Streaming sound is 90% routing, and the gear below turns that routing into something you can grab with your hands. The Stream Deck+, the GoXLR Mini, the RODECaster Pro II, the Yamaha AG08, the Mackie MainStream, the Streamer X, the DLZ Creator and the Wave XLR are the top streaming controllers and mixers — here is what each one does best.",
+    "intro_es": "El sonido del streaming es 90% enrutamiento, y el equipo de abajo convierte ese enrutamiento en algo que puedes tocar con las manos. El Stream Deck+, el GoXLR Mini, el RODECaster Pro II, el Yamaha AG08, el Mackie MainStream, el Streamer X, el DLZ Creator y el Wave XLR son los mejores controladores y mezcladores de streaming — esto es lo que hace cada uno.",
     "sections": [
       {
         "heading": "How to Choose a Streaming Mixer and Controller",
@@ -80239,7 +80239,7 @@
           248,
           661,
           240,
-          327,
+          247,
           662
         ],
         "skipMedia": true
@@ -80282,15 +80282,6 @@
         ]
       },
       {
-        "heading": "Maono Maonocaster E2 Gen2: A Closer Look",
-        "heading_es": "Maono Maonocaster E2 Gen2: análisis detallado",
-        "content": "<strong>Portable podcasting on a modest outlay shapes the Maonocaster E2 Gen2 brief.</strong> Dual XLR combo preamps offering up to 60 dB of gain meet eight programmable sound pads, loopback routing for remote guests, Bluetooth music input, and an eight-hour internal battery for park or rooftop recording. Cables stay home more often. Spontaneity leads.\n\nThe console suits beginners launching interview shows from bedrooms and creators filming outdoors without mains access. Battery operation liberates location choice considerably. The limitation shows in refinement: preamp noise, pad feel, and software polish trail premium broadcast desks, so growing networks with exacting sonic standards eventually migrate toward more robust interfaces and controllers as audiences expand.",
-        "content_es": "<strong>El pódcast portátil con desembolso modesto moldea el planteamiento del Maonocaster E2 Gen2.</strong> Dos previos combo XLR con hasta 60 dB de ganancia se encuentran con ocho pads programables, enrutamiento loopback para invitados remotos, entrada Bluetooth de música y batería interna de ocho horas para grabar en parques o azoteas. Los cables se quedan en casa más a menudo. La espontaneidad manda.\n\nLa consola encaja con quienes lanzan programas de entrevistas desde dormitorios y creadores que filman al aire libre sin acceso a red eléctrica. La autonomía libera notablemente la elección de localizaciones. La limitación se muestra en el refinamiento: ruido de previo, tacto de pads y pulido de software quedan por detrás de los escritorios broadcast premium, así que las redes en crecimiento con estándares sonoros exigentes tarde o temprano migran hacia interfaces y controladores más sólidos a medida que la audiencia crece.",
-        "products": [
-          327
-        ]
-      },
-      {
         "heading": "Real Faders for Stream Audio: TC Helicon GoXLR Mini",
         "heading_es": "Faders de verdad para el directo: TC Helicon GoXLR Mini",
         "content": "<strong>The king of stream mixers is still a GoXLR.</strong> The TC Helicon GoXLR Mini gives streamers what controllers never will: four physical faders riding real audio, driven by the same ultra-low-noise Midas preamp as the full-size GoXLR with phantom power. It creates 12 virtual sound cards on the PC, so game, chat, music and system each get their own fader, while onboard DSP EQ, compressor and gate keep the voice broadcast-ready with zero CPU load. Cough and censor buttons sit under the thumb for sponsor-safe slip-ups.</p><p><strong>The honest trade.</strong> Windows only — macOS streamers need not apply — there is no sampler soundboard on the Mini, and phantom runs at +24 V rather than full +48 V. At ~$189 street with stock in major stores, it remains the default answer for hands-on stream audio.",
@@ -80325,12 +80316,21 @@
         "products": [
           662
         ]
+      },
+      {
+        "heading": "Setup in Minutes, Not Hours: Mackie DLZ Creator",
+        "heading_es": "Configurado en minutos, no en horas: Mackie DLZ Creator",
+        "content": "<strong>Podcast crews do not have a sound engineer — so the DLZ brings one.</strong> The Mackie DLZ Creator is an adaptive digital mixer that sets itself up: Mix Agent walks the whole desk into shape while AutoMix balances up to four mics live, behind four Onyx80 preamps, nine 100mm faders and a 10.1-inch touchscreen. Three modes reshape the desk — Easy for guests, Enhanced for regulars, Pro for engineers — and multitrack records to PC over USB-C, to SD card or to a USB stick with no computer tricks.</p><p><strong>The honest trade.</strong> Around $799 makes it the priciest desk here, the big touchscreen eats small desks, and touch-first mixing slows riders who think in faders. For two-to-four-mic shows that must sound right without an engineer, it earns the money.",
+        "content_es": "<strong>Los equipos de pódcast no tienen técnico — así que el DLZ trae uno.</strong> El Mackie DLZ Creator es un mezclador digital adaptativo que se configura solo: Mix Agent pone todo el escritorio en forma mientras AutoMix equilibra hasta cuatro micros en directo, tras cuatro previos Onyx80, nueve faders de 100mm y una táctil de 10,1 pulgadas. Tres modos remodelan la mesa — Easy para invitados, Enhanced para habituales, Pro para técnicos — y la multipista graba a PC por USB-C, a SD o a USB sin trucos.</p><p><strong>El trato honesto.</strong> Por ~$799 es el escritorio más caro aquí, la gran táctil llena mesas pequeñas, y mezclar con tacto frena a los que piensan en faders. Para programas de dos a cuatro micros que deben sonar bien sin técnico, se gana el dinero.",
+        "products": [
+          247
+        ]
       }
     ],
-    "conclusion": "If you want your hands on everything, get the Stream Deck+ — nothing else makes your whole stream so instantly controllable, and the official XLR Dock turns it into a complete XLR interface. If you want real faders on stream audio, the <strong>TC Helicon GoXLR Mini</strong> is the streamer-first pick with a Midas preamp and per-app routing. If you want analog feel on many sources, the <strong>Yamaha AG08</strong> gives every app a 60 mm fader. If you want the whole broadcast on hardware, the <strong>Rode RODECaster Pro II</strong> runs 4 Neutrik inputs with SMART pads and APHEX. If you want one cable for console video and audio, the <strong>Mackie MainStream</strong> merges interface and HDMI capture. If you stream from a console and want one compact box that does audio and video, the Streamer X is the value pick. And if you just need your mic to sound remarkable, the Wave XLR MK.2 delivers. There is no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? If you have outgrown a controller plus a separate interface, <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> comparison covers the full broadcast consoles. Check <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interfaces guide</a> the <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best mics for podcasting</a></p>",
-    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ — nada hace tu directo tan instantáneamente controlable, y el XLR Dock oficial lo convierte en una interfaz XLR completa. Si quieres faders reales en el audio, el <strong>TC Helicon GoXLR Mini</strong> es la opción de streamers con previo Midas y enrutamiento por app. Si quieres tacto analógico en muchas fuentes, el <strong>Yamaha AG08</strong> da un fader de 60 mm a cada app. Si quieres todo el programa en hardware, el <strong>Rode RODECaster Pro II</strong> lleva 4 entradas Neutrik con pads SMART y APHEX. Si quieres un cable para vídeo y audio de consola, el <strong>Mackie MainStream</strong> fusiona interfaz y captura HDMI. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X es la opción de valor. Y si solo necesitas que el micrófono suene notable, el Wave XLR MK.2 lo logra. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se adapta mejor a ti. <p>¿Buscas más? Si has superado un controlador más una interfaz por separado, nuestra comparativa <a href=\"/guides/rodecaster-pro2-vs-dlz-creator_es.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> cubre las consolas broadcast completas. Consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">guía de mejores interfaces de audio</a> los <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasting</a></p>",
-    "verdict": "The Stream Deck+ is the total control pick with buttons, dials and a touch strip for every stream setup — plus the XLR Dock turns it into a full interface. The GoXLR Mini is the streamer-first mixer with real faders and a Midas preamp, the Yamaha AG08 is the analog-feel pick with a fader per app, the RODECaster Pro II is the broadcast-console pick that survives a frozen PC, and the Mackie MainStream is the one-cable console pick with HDMI capture. The Streamer X stays the 4K value box and the Wave XLR MK.2 the mic upgrade. Match the tool to how you stream.",
-    "verdict_es": "El Stream Deck+ es la mejor opción para control total con botones, perillas y tira táctil para cualquier configuración de streaming — más el XLR Dock que lo vuelve interfaz completa. El GoXLR Mini es el mezclador de streamers con faders reales y previo Midas, el Yamaha AG08 es la opción de tacto analógico con un fader por app, el RODECaster Pro II es la consola broadcast que sobrevive a un PC congelado, y el Mackie MainStream es la opción de un cable para consolas con captura HDMI. El Streamer X sigue siendo la caja 4K de valor y el Wave XLR MK.2 la mejora de micro. Haz coincidir la herramienta con cómo haces streaming.",
+    "conclusion": "If you want your hands on everything, get the Stream Deck+ — nothing else makes your whole stream so instantly controllable, and the official XLR Dock turns it into a complete XLR interface. If you want real faders on stream audio, the <strong>TC Helicon GoXLR Mini</strong> is the streamer-first pick with a Midas preamp and per-app routing. If you want analog feel on many sources, the <strong>Yamaha AG08</strong> gives every app a 60 mm fader. If you want the whole broadcast on hardware, the <strong>Rode RODECaster Pro II</strong> runs 4 Neutrik inputs with SMART pads and APHEX. If you want one cable for console video and audio, the <strong>Mackie MainStream</strong> merges interface and HDMI capture. If you stream from a console and want one compact box that does audio and video, the Streamer X is the value pick. If your show runs two to four mics with no engineer, the <strong>Mackie DLZ Creator</strong> sets itself up with Mix Agent and AutoMix. And if you just need your mic to sound remarkable, the Wave XLR MK.2 delivers. There is no wrong answer here — it comes down to which workflow feels like yours. <p>Looking for more? If you have outgrown a controller plus a separate interface, <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> comparison covers the full broadcast consoles. Check <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interfaces guide</a> the <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best mics for podcasting</a></p>",
+    "conclusion_es": "Si quieres tenerlo todo al alcance de la mano, compra el Stream Deck+ — nada hace tu directo tan instantáneamente controlable, y el XLR Dock oficial lo convierte en una interfaz XLR completa. Si quieres faders reales en el audio, el <strong>TC Helicon GoXLR Mini</strong> es la opción de streamers con previo Midas y enrutamiento por app. Si quieres tacto analógico en muchas fuentes, el <strong>Yamaha AG08</strong> da un fader de 60 mm a cada app. Si quieres todo el programa en hardware, el <strong>Rode RODECaster Pro II</strong> lleva 4 entradas Neutrik con pads SMART y APHEX. Si quieres un cable para vídeo y audio de consola, el <strong>Mackie MainStream</strong> fusiona interfaz y captura HDMI. Si transmites desde una consola y quieres una caja compacta que haga audio y vídeo, el Streamer X es la opción de valor. Si tu programa lleva de dos a cuatro micros sin técnico, el <strong>Mackie DLZ Creator</strong> se configura solo con Mix Agent y AutoMix. Y si solo necesitas que el micrófono suene notable, el Wave XLR MK.2 lo logra. No hay respuesta equivocada aquí — todo se reduce a qué flujo de trabajo se adapta mejor a ti. <p>¿Buscas más? Si has superado un controlador más una interfaz por separado, nuestra comparativa <a href=\"/guides/rodecaster-pro2-vs-dlz-creator_es.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> cubre las consolas broadcast completas. Consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">guía de mejores interfaces de audio</a> los <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> y los <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasting</a></p>",
+    "verdict": "The Stream Deck+ is the total control pick with buttons, dials and a touch strip for every stream setup — plus the XLR Dock turns it into a full interface. The GoXLR Mini is the streamer-first mixer with real faders and a Midas preamp, the Yamaha AG08 is the analog-feel pick with a fader per app, the RODECaster Pro II is the broadcast-console pick that survives a frozen PC, and the Mackie MainStream is the one-cable console pick with HDMI capture. The Streamer X stays the 4K value box, the DLZ Creator is the self-setting podcast desk, and the Wave XLR MK.2 the mic upgrade. Match the tool to how you stream.",
+    "verdict_es": "El Stream Deck+ es la mejor opción para control total con botones, perillas y tira táctil para cualquier configuración de streaming — más el XLR Dock que lo vuelve interfaz completa. El GoXLR Mini es el mezclador de streamers con faders reales y previo Midas, el Yamaha AG08 es la opción de tacto analógico con un fader por app, el RODECaster Pro II es la consola broadcast que sobrevive a un PC congelado, y el Mackie MainStream es la opción de un cable para consolas con captura HDMI. El Streamer X sigue siendo la caja 4K de valor, el DLZ Creator el escritorio que se configura solo, y el Wave XLR MK.2 la mejora de micro. Haz coincidir la herramienta con cómo haces streaming.",
     "featuredProducts": [
       243,
       246,
@@ -80339,7 +80339,7 @@
       661,
       244,
       240,
-      327,
+      247,
       662
     ],
     "relatedGuides": [
@@ -80460,8 +80460,8 @@
           "title_es": "Roland Bridge Cast X"
         },
         {
-          "title": "Maono Maonocaster E2 Gen2",
-          "title_es": "Maono Maonocaster E2 Gen2"
+          "title": "Mackie DLZ Creator",
+          "title_es": "Mackie DLZ Creator"
         },
         {
           "title": "Yamaha AG08",
@@ -80502,8 +80502,8 @@
               "value_es": "Streaming de consola + PC"
             },
             {
-              "value": "Budget podcasting on battery",
-              "value_es": "Pódcast económico con batería"
+              "value": "Adaptive podcast/stream console",
+              "value_es": "Consola adaptativa de pódcast/stream"
             },
             {
               "value": "Analog-style multi-source streaming",
@@ -80544,8 +80544,8 @@
               "value_es": "Mezclador dual-bus + captura"
             },
             {
-              "value": "All-in-one podcast console",
-              "value_es": "Consola pódcast todo-en-uno"
+              "value": "Adaptive digital mixer + interface",
+              "value_es": "Mezclador digital adaptativo + interfaz"
             },
             {
               "value": "8-channel livestreaming mixer",
@@ -80586,8 +80586,8 @@
               "value_es": "XLR + phantom"
             },
             {
-              "value": "2x XLR combo (60 dB)",
-              "value_es": "2x combo XLR (60 dB)"
+              "value": "4x Onyx80 preamps",
+              "value_es": "4x previos Onyx80"
             },
             {
               "value": "2x combo +48 V phantom",
@@ -80669,8 +80669,8 @@
               "value_es": "Pads asignables + buses duales"
             },
             {
-              "value": "8 sound pads + faders",
-              "value_es": "8 pads de sonido + faders"
+              "value": "Nine 100mm faders + 10.1in touchscreen",
+              "value_es": "Nueve faders 100mm + táctil 10,1"
             },
             {
               "value": "60 mm faders + 6 sound pads",
@@ -80711,8 +80711,8 @@
               "value_es": "USB-C, HDMI entrada/salida"
             },
             {
-              "value": "USB, Bluetooth, 8h battery",
-              "value_es": "USB, Bluetooth, batería 8h"
+              "value": "USB-C, SD, USB drive",
+              "value_es": "USB-C, SD, USB"
             },
             {
               "value": "USB 8in/14out, smartphone, AUX",
@@ -80753,8 +80753,8 @@
               "value_es": "App Roland Bridge Cast"
             },
             {
-              "value": "Maono app",
-              "value_es": "App Maono"
+              "value": "Mix Agent + 3 modes",
+              "value_es": "Mix Agent + 3 modos"
             },
             {
               "value": "AG Controller (Win/Mac/iOS)",
@@ -80795,8 +80795,8 @@
               "value_es": "~$499"
             },
             {
-              "value": "~$109.97",
-              "value_es": "~$109,97"
+              "value": "~$799",
+              "value_es": "~$799"
             },
             {
               "value": "~$499",
@@ -81002,6 +81002,34 @@
           "Solo 2 entradas mono de micro pese al nombre de 8 canales",
           "USB máximo 48 kHz mientras los AG pequeños llegan más alto",
           "La edición DSP completa exige la app Controller"
+        ]
+      },
+      {
+        "name": "Mackie DLZ Creator",
+        "name_es": "Mackie DLZ Creator",
+        "pros": [
+          "Mix Agent guides setup and AutoMix balances 4 mics at once",
+          "Four Onyx80 preamps with nine 100mm faders and 10.1-inch touchscreen",
+          "Three modes (Easy/Enhanced/Pro) match beginners and pros",
+          "Records multitrack to PC, SD card or USB drive"
+        ],
+        "cons": [
+          "~$799 is the priciest desk here for mic-only streamers",
+          "Big touchscreen footprint eats small desks",
+          "Touch-first workflow slows fader-per-channel riders",
+          "Overkill if OBS plus one mic already covers you"
+        ],
+        "pros_es": [
+          "Mix Agent guía el montaje y AutoMix equilibra 4 micros a la vez",
+          "Cuatro previos Onyx80 con nueve faders de 100mm y táctil de 10,1 pulgadas",
+          "Tres modos (Easy/Enhanced/Pro) para novatos y pros",
+          "Graba multipista a PC, tarjeta SD o USB"
+        ],
+        "cons_es": [
+          "~$799 es el escritorio más caro aquí para streamers de un micro",
+          "La gran táctil llena escritorios pequeños",
+          "El flujo táctil frena a los de fader por canal",
+          "Excesivo si OBS más un micro ya te cubren"
         ]
       }
     ],
