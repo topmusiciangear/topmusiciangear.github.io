@@ -2242,6 +2242,21 @@ const TEST_SHOP_BTN = {
     },
     oos: ["andertons"]
   },
+  664: {
+    prices: {
+      gear4music: "£157.00",
+      andertons: "£157.00",
+      zzounds: "$179.00",
+      musicstore: "€172.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Zoom-Podtrak-P4Next-Podcasting-Interface/7TPP",
+      andertons: "https://www.andertons.co.uk/podtrak-p4next--next-generation-podcast-recorder/",
+      zzounds: "https://www.zzounds.com/item--ZOOZP4NEXT",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Zoom-PodTrak-P4next-4-Track-Podcast-Recorder/art-REC0017137-000"
+    },
+    oos: ["andertons"]
+  },
   266: {
     prices: {
       gear4music: "£1,180.00",
