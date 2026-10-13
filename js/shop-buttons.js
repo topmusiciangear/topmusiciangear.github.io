@@ -2214,9 +2214,16 @@ const TEST_SHOP_BTN = {
     }
   },
   661: {
+    prices: {
+      andertons: "£101.00",
+      zzounds: "$299.00",
+      musicstore: "€329.00"
+    },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Mackie-MainStream-Streaming-Interface/651X",
-      zzounds: "https://www.zzounds.com/item--MACMAINSTREAM"
+      zzounds: "https://www.zzounds.com/item--MACMAINSTREAM",
+      andertons: "https://www.andertons.co.uk/mackie-mainstream-live-streaming-video-capture-interface/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Mackie-MainStream/art-LIG0019371-000"
     }
   },
   266: {
