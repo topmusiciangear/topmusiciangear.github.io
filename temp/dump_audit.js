@@ -1,0 +1,41 @@
+var fs=require('fs');
+var d=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=d.find(function(x){return x.id==='stream-controllers';});
+var out=[];
+out.push('=== TITLE === '+g.title+' /// '+g.title_es);
+out.push('=== INTRO EN === '+g.intro);
+out.push('=== INTRO ES === '+g.intro_es);
+out.push('');
+g.sections.forEach(function(s,i){
+  out.push('--- SECTION '+i+' EN: '+s.heading+' prods='+JSON.stringify(s.products));
+  out.push(s.content);
+  out.push('--- SECTION '+i+' ES: '+s.heading_es);
+  out.push(s.content_es);
+  out.push('');
+});
+out.push('=== TABLE ===');
+out.push('COLS: '+g.productTable.columns.map(function(c){return c.title;}).join(' | '));
+g.productTable.rows.forEach(function(r){
+  out.push('ROW '+r.label+' / '+r.label_es+': '+r.values.map(function(v){return v.value;}).join(' | '));
+  out.push('ROW ES: '+r.values.map(function(v){return v.value_es;}).join(' | '));
+});
+out.push('');
+out.push('=== VPC ===');
+g.verdictProsCons.forEach(function(v){
+  out.push('## '+v.name);
+  out.push('PROS: '+v.pros.join(' ; '));
+  out.push('CONS: '+v.cons.join(' ; '));
+  out.push('PROS_ES: '+v.pros_es.join(' ; '));
+  out.push('CONS_ES: '+v.cons_es.join(' ; '));
+});
+out.push('');
+out.push('=== CONCLUSION EN === '+g.conclusion);
+out.push('=== CONCLUSION ES === '+g.conclusion_es);
+out.push('=== VERDICT EN === '+g.verdict);
+out.push('=== VERDICT ES === '+g.verdict_es);
+out.push('=== DESC === '+g.description+' /// '+g.description_es);
+var F=g.featuredSnippet;
+['title_en','text_en','title_es','text_es','faq_q1_en','faq_a1_en','faq_q2_en','faq_a2_en','faq_q3_en','faq_a3_en','faq_q4_en','faq_a4_en','faq_q5_en','faq_a5_en','faq_q1_es','faq_a1_es','faq_q2_es','faq_a2_es','faq_q3_es','faq_a3_es','faq_q4_es','faq_a4_es','faq_q5_es','faq_a5_es'].forEach(function(k){out.push(k+': '+(F[k]||''));});
+out.push('featured='+JSON.stringify(g.featuredProducts));
+fs.writeFileSync('temp/audit_stream.txt',out.join('\n'));
+console.log('written, chars='+out.join('\n').length);
