@@ -3778,13 +3778,15 @@ const TEST_SHOP_BTN = {
     }
   },
   429: {
-    prices: {
-      amazon: "$75.99",
-      zzounds: "$79.99",
-      gear4music: "£69.00",
-      musicstore: "€63.03"
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BLUYETINANO",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone-Slate/3U30",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Blue-Microphones-Yeti-USB-Microphone/art-REC0007433-000"
     },
     oos: [
+      "zzounds",
+      "gear4music",
+      "musicstore",
       "andertons"
     ]
   },
