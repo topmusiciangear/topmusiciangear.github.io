@@ -2318,6 +2318,19 @@ const TEST_SHOP_BTN = {
     },
     oos: ["gear4music", "andertons", "zzounds"]
   },
+  670: {
+    prices: {
+      amazon: "$169.00",
+      zzounds: "$169.00",
+      andertons: "£139.00",
+      gear4music: "£139.00",
+      musicstore: "€159.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-NEOM-USB/GBX",
+      andertons: "https://www.andertons.co.uk/se-electronics-neom-usb-microphone/"
+    }
+  },
   266: {
     prices: {
       gear4music: "£1,180.00",
