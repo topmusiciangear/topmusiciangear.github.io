@@ -5331,14 +5331,59 @@ const TEST_SHOP_BTN = {
     }
   },
   648: {
+    prices: {
+      amazon: "$79.00"
+    },
     urls: {
       amazon: "https://www.amazon.com/dp/B00N4Q25R8"
+    },
+    na: ["musicstore","gear4music","zzounds","andertons","reverb"]
+  },
+  647: {
+    prices: {
+      musicstore: "€299.00",
+      zzounds: "$299.00",
+      gear4music: "£269.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/SONARWORKS-SoundID-Reference-Multichannel-with-Mic/art-PCM0017394-000",
+      zzounds: "https://www.zzounds.com/item--SNWSOUNDIDSPHP",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonarworks-SoundID-Reference-Speaker-and-Headphone/6RQC"
     }
   },
-  651: {
+  649: {
+    prices: {
+      musicstore: "€264.70",
+      gear4music: "£249.00"
+    },
     urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Genelec-GLM-Set/art-REC0012270-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-GLM-3-Genelec-Loudspeaker-Manager-User-Kit/226N"
+    },
+    na: ["zzounds","andertons","reverb","amazon"]
+  },
+  650: {
+    prices: {
+      musicstore: "€39.99",
+      amazon: "$39.99"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-Speaker-Pad-Set/art-REC0004624-000",
+      amazon: "https://www.amazon.com/dp/B0002D0B4K"
+    },
+    oos: ["zzounds"],
+    na: ["gear4music","andertons","reverb"]
+  },
+  651: {
+    prices: {
+      zzounds: "$399.15",
+      amazon: "$599.99"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--ULTMS100B",
       amazon: "https://www.amazon.com/Ultimate-Support-MS-100B-Professional-Adjustable/dp/B005OWHATS"
-    }
+    },
+    na: ["musicstore","gear4music","andertons","reverb"]
   },
   652: {
     prices: {
