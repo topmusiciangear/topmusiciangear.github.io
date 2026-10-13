@@ -7891,8 +7891,8 @@
               "value_es": "Streamers que vienen de Yeti, DSP APHEX interno"
             },
             {
-              "value": "Gaming/streaming with RGB and tap-to-mute",
-              "value_es": "Gaming/streaming con RGB y silencio al toque"
+              "value": "Gaming/streaming with three hardware knobs and a LED level ring on the gain knob",
+              "value_es": "Gaming/streaming con tres perillas físicas y un anillo de LED de nivel en la perilla de ganancia"
             },
             {
               "value": "Broadcast dynamic with USB-C plus XLR backup",
@@ -7983,8 +7983,8 @@
               "value_es": "Condensador, cardioide, USB-C"
             },
             {
-              "value": "Condenser, cardioid, USB",
-              "value_es": "Condensador, cardioide, USB"
+              "value": "Condenser, cardioid, USB-C",
+              "value_es": "Condensador, cardioide, USB-C"
             },
             {
               "value": "Dynamic (moving coil), cardioid, USB-C + XLR",
@@ -8013,8 +8013,8 @@
               "value_es": "24 bits / 48 kHz"
             },
             {
-              "value": "24-bit / 96 kHz",
-              "value_es": "24 bits / 96 kHz"
+              "value": "16 or 24-bit / up to 96 kHz",
+              "value_es": "16 o 24 bits / hasta 96 kHz"
             },
             {
               "value": "Not published",
@@ -8129,8 +8129,8 @@
               "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "20 – 20,000 Hz",
-              "value_es": "20 – 20.000 Hz"
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
             },
             {
               "value": "50 Hz – 15 kHz",
@@ -8301,12 +8301,12 @@
               "value_es": "100 Ω"
             },
             {
-              "value": "16 Ω",
-              "value_es": "16 Ω"
+              "value": "Not published",
+              "value_es": "No publicada"
             },
             {
-              "value": "16 Ω",
-              "value_es": "16 Ω"
+              "value": "Not published",
+              "value_es": "No publicada"
             },
             {
               "value": "460 Ω (XLR)",
@@ -8323,140 +8323,48 @@
           ]
         },
         {
-          "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal/Ruido",
+          "label": "Headphone Monitoring",
+          "label_es": "Monitorización con auriculares",
           "values": [
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "Zero-latency headphone output with on-board level control",
+              "value_es": "Salida de auriculares sin latencia con control de nivel en el propio micrófono"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "Zero-latency 3.5 mm headphone output",
+              "value_es": "Salida de auriculares de 3,5 mm sin latencia"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "3.5 mm headphone jack, 77 mW into 32 Ω; zero-latency",
+              "value_es": "Jack de auriculares de 3,5 mm, 77 mW sobre 32 Ω; sin latencia"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "Zero-latency 3.5 mm output with a dedicated level knob",
+              "value_es": "Salida de 3,5 mm sin latencia con perilla de nivel propia"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "Zero-latency headphone output",
+              "value_es": "Salida de auriculares sin latencia"
             },
             {
-              "value": "74 dB",
-              "value_es": "74 dB"
+              "value": "3.5 mm headphone jack with volume and playback-mix knobs",
+              "value_es": "Jack de auriculares de 3,5 mm con perillas de volumen y de mezcla"
             },
             {
-              "value": "72 dB",
-              "value_es": "72 dB"
+              "value": "Zero-latency monitoring with independent headphone level knob",
+              "value_es": "Monitorización sin latencia con perilla independiente de nivel de auriculares"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicada"
+              "value": "3.5 mm headphone jack with on-board volume control",
+              "value_es": "Jack de auriculares de 3,5 mm con control de volumen en el cuerpo"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicada"
+              "value": "3.5 mm headphone jack with level and mix controls",
+              "value_es": "Jack de auriculares de 3,5 mm con controles de nivel y de mezcla"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicada"
-            }
-          ]
-        },
-        {
-          "label": "Dynamic Range",
-          "label_es": "Rango Dinámico",
-          "values": [
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "126 dB via USB 32-bit float",
-              "value_es": "126 dB vía USB 32-bit float"
-            },
-            {
-              "value": "97 dB",
-              "value_es": "97 dB"
-            },
-            {
-              "value": "96 dB",
-              "value_es": "96 dB"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicada"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicada"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicada"
-            }
-          ]
-        },
-        {
-          "label": "THD at Max SPL",
-          "label_es": "THD a SPL Máx",
-          "values": [
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "<1%",
-              "value_es": "<1%"
-            },
-            {
-              "value": "<1%",
-              "value_es": "<1%"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicada"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicada"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicada"
+              "value": "1/8 in headphone jack, no on-board level control (volume lives in software)",
+              "value_es": "Jack de auriculares de 1/8 pulgada, sin control de nivel en el micrófono (el volumen va por software)"
             }
           ]
         },
@@ -8519,8 +8427,8 @@
               "value_es": "Clipguard anti-distorsión; low-cut en Wave Link"
             },
             {
-              "value": "80 Hz low-cut",
-              "value_es": "80 Hz low-cut"
+              "value": "80 Hz low-cut, 18 dB/octave (hardware)",
+              "value_es": "Corte 80 Hz, 18 dB/octava (hardware)"
             },
             {
               "value": "Gain/mix/headphone controls, mute",
@@ -8535,8 +8443,8 @@
               "value_es": "DSP: HPF, compresor, noise gate, APHEX Aural Exciter + Big Bottom"
             },
             {
-              "value": "Software -10 dB pad",
-              "value_es": "Software pad -10 dB"
+              "value": "Not published",
+              "value_es": "No publicada"
             },
             {
               "value": "Not published",
@@ -8649,8 +8557,8 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "573 g",
-              "value_es": "573 g"
+              "value": "574 g",
+              "value_es": "574 g"
             },
             {
               "value": "280 g (mic + mount)",

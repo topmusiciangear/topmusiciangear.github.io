@@ -1,43 +1,68 @@
 const fs = require('fs');
-const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
-const guide = g.find(x => x.id === 'best-samplers-drum-computers');
-const cols = guide.productTable.columns.map(c => c.title);
-const rows = guide.productTable.rows;
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gj = BASE + 'data/guides.json';
+const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const g = guides.find(x => x.id === 'usb-mics');
+const R = {};
+g.productTable.rows.forEach(r => { R[r.label] = r; });
 
-function fixRow(labelEn, colTitle, valEn, valEs) {
-  const row = rows.find(r => r.label === labelEn);
-  if (!row) { console.log('MISSING ROW:', labelEn); return; }
-  const ci = cols.indexOf(colTitle);
-  if (ci < 0) { console.log('MISSING COL:', colTitle); return; }
-  row.values[ci].value = valEn;
-  row.values[ci].value_es = valEs;
-  console.log('Fixed:', labelEn, '/', colTitle, '->', valEn);
-}
+const NP = 'Not published', NP_ES = 'No publicada';
+const NEOM = 6, NTUSB = 5, AT2020X = 8;
+const log = [];
+const set = (label, col, en, es) => {
+  R[label].values[col] = { value: en, value_es: es };
+  console.log(label + ' col' + col + ':');
+  console.log('   antes: ' + R[label].values[col].value);
+};
 
-// 1. MPC One G2 (256)
-fixRow('Weight', 'Akai MPC One G2', '2.6 kg', '2,6 kg');
-fixRow('Sample Memory', 'Akai MPC One G2', '4 GB RAM / 64 GB storage', '4 GB RAM / 64 GB almacenamiento');
+// ============================================================
+// 1) sE NEOM "Best For": RGB y "tap-to-mute" NO EXISTEN
+//    Pagina oficial sE: "smart input level LEDs integrated into the NEOM's
+//    gain knob". No hay RGB en ninguna parte. El texto venía del Razer
+//    Seiren V3 Pro, que se eliminó de la guía, y además contradecía su
+//    propio contra ("No RGB lighting or gaming aesthetics").
+// ============================================================
+set('Best For', NEOM,
+  'Gaming/streaming with three hardware knobs and a LED level ring on the gain knob',
+  'Gaming/streaming con tres perillas físicas y un anillo de LED de nivel en la perilla de ganancia');
 
-// 2. MPC Key 37 Gen 2 (616)
-fixRow('Weight', 'Akai MPC Key 37 Gen 2', '4.35 kg', '4,35 kg');
-fixRow('Sample Memory', 'Akai MPC Key 37 Gen 2', '4 GB RAM / 64 GB storage', '4 GB RAM / 64 GB almacenamiento');
-fixRow('Tracks', 'Akai MPC Key 37 Gen 2', '32 plugin + 16 stereo audio', '32 de plugin + 16 de audio estéreo');
-fixRow('Estimated Price', 'Akai MPC Key 37 Gen 2', '$999', '$999');
+// ============================================================
+// 2) sE NEOM "Pad & High-Pass Filter": "Software -10 dB pad" NO PUBLICADO
+//    La ficha oficial de sE no menciona pad, -10 dB, low-cut, high-pass ni DSP.
+// ============================================================
+set('Pad & High-Pass Filter', NEOM, NP, NP_ES);
 
-// 3. MPC Live III (188) - no XLR combo, has 1/4" line in + Phono RCA
-fixRow('Audio I/O', 'Akai MPC Live III', '2x 1/4" line in, Phono RCA in, 6x 1/4" out, headphone', '2x 1/4" entrada de línea, entrada RCA Phono, 6x 1/4" salida, auriculares');
+// ============================================================
+// 3) sE NEOM "Type": la ficha dice conector USB-C integrado
+// ============================================================
+set('Type', NEOM, 'Condenser, cardioid, USB-C', 'Condensador, cardioide, USB-C');
 
-// 4. MPC XL (619)
-fixRow('Weight', 'Akai MPC XL', '7.2 kg', '7,2 kg');
-fixRow('Sample Memory', 'Akai MPC XL', '16 GB RAM / 256 GB NVMe SSD + SATA bay', '16 GB RAM / SSD NVMe 256 GB + bahía SATA');
-fixRow('Audio I/O', 'Akai MPC XL', '2x XLR/TRS combo in, 2x 1/4" line in, Phono RCA in, 2x TS instrument in, 8x 1/4" out, 2x headphones', '2x XLR/TRS combo entrada, 2x 1/4" entrada de línea, entrada RCA Phono, 2x TS instrumento entrada, 8x 1/4" salida, 2x auriculares');
-fixRow('Connectivity', 'Akai MPC XL', '2x USB-A, USB-B, 2x MIDI in, 4x MIDI out, 16x CV/Gate via 8x TRS', '2x USB-A, USB-B, 2x MIDI entrada, 4x MIDI salida, 16x CV/Gate mediante 8x TRS');
+// ============================================================
+// 4) Output Impedance: Rode y sE no publican impedancia de salida
+//    NT-USB+ (rode.com/en/products/nt-usb-plus): la ficha publica sensibilidad,
+//    self-noise, max SPL, rango dinamico, peso y medidas. NO impedancia de salida.
+//    sE NEOM: la ficha publica componentes, sonido, medidas y peso. NO impedancia.
+// ============================================================
+set('Output Impedance', NTUSB, NP, NP_ES);
+set('Output Impedance', NEOM, NP, NP_ES);
 
-// 5. Digitakt II (127)
-fixRow('Sample Memory', 'Elektron Digitakt II', '400 MB per project / 20 GB internal', '400 MB por proyecto / 20 GB internos');
+// ============================================================
+// 5) Normalizar formato: la unica celda con "20 - 20.000 Hz" en vez de "20 Hz - 20 kHz"
+//    (mantiene el dato de la ficha oficial de Audio-Technica, solo cambia el formato)
+// ============================================================
+set('Frequency Response', AT2020X, '20 Hz – 20 kHz', '20 Hz – 20 kHz');
 
-// 6. P-6 (617)
-fixRow('Tracks', 'Roland Aira Compact P-6', '6 audio tracks', '6 pistas de audio');
+// ============================================================
+// 6) Coherencia interna: el "Best For" del NEOM ya no debe mencionar RGB
+//    y su contra sobre RGB vuelve a ser coherente.
+// ============================================================
+const vpcNeom = g.verdictProsCons[NEOM];
+const rgbCons = vpcNeom.cons.filter(c => /RGB/i.test(c));
+console.log('\nContras del NEOM sobre RGB: ' + rgbCons.length + '  -> "' + (rgbCons[0] || '').slice(0, 90) + '"');
+const bf = R['Best For'].values[NEOM].value;
+if (/RGB/i.test(bf)) { console.log('[!!] el Best For sigue mencionando RGB'); process.exit(1); }
+console.log('Best For ya NO menciona RGB -> coherente con su contra [OK]');
 
-fs.writeFileSync('data/guides.json', JSON.stringify(g, null, 2) + '\n');
-console.log('Done. JSON valid.');
+fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
+console.log('\nCORRECCIONES APLICADAS: ' + (log.length + 6));
+log.forEach(l => console.log('  - ' + l));
