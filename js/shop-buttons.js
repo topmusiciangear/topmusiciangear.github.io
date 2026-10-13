@@ -3552,13 +3552,16 @@ const TEST_SHOP_BTN = {
   658: {
     prices: {
       zzounds: "$999.00",
-      andertons: "£799.00"
+      andertons: "£799.00",
+      musicstore: "€899.00",
+      gear4music: "£728.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Bose-T8S-ToneMatch-Digital-Mixer/2ADL",
       amazon: "https://www.amazon.com/BOSE-785491-0110-Bose-T8S-toneMatch/dp/B07CG81TLC",
       zzounds: "https://www.zzounds.com/item--BOET8STONEMATCH",
-      andertons: "https://www.andertons.co.uk/bose-t8s-tonematch/"
+      andertons: "https://www.andertons.co.uk/bose-t8s-tonematch/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Bose-T8S-ToneMatch-Mixer/art-PAH0019778-000"
     }
   },
   412: {
