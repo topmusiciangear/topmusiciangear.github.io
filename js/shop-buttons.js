@@ -2257,6 +2257,23 @@ const TEST_SHOP_BTN = {
     },
     oos: ["andertons"]
   },
+  665: {
+    prices: {
+      gear4music: "£89.00",
+      andertons: "£69.00",
+      zzounds: "$149.00",
+      musicstore: "€89.00",
+      amazon: "$69.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Vocaster-One/4UI2",
+      andertons: "https://www.andertons.co.uk/focusrite-vocaster-one-podcast-interface/",
+      zzounds: "https://www.zzounds.com/item--FOCVOCASTERONE",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Focusrite-Vocaster-One-Podcast-USB-Audio-Interface/art-PCM0017400-000",
+      amazon: "https://www.amazon.com/dp/B09K9VQKQ3"
+    },
+    oos: ["andertons","zzounds"]
+  },
   266: {
     prices: {
       gear4music: "£1,180.00",
