@@ -5767,6 +5767,20 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM103-ni-Condenser-Microphone/art-REC0000317-000"
     }
   },
+  655: {
+    prices: {
+      gear4music: "£1,020.00",
+      andertons: "£949.00",
+      zzounds: "$1,299.00",
+      musicstore: "€1,149.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Warm-Audio-WA-8000-Condenser-Microphone/436V",
+      andertons: "https://www.andertons.co.uk/warm-audio-wa-8000-large-diaphragm-condenser-microphone/",
+      zzounds: "https://www.zzounds.com/item--WAUWA8000",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Warm-Audio-WA-8000/art-REC0015721-000"
+    }
+  },
   656: {
     prices: {
       gear4music: "£1,283.00"
