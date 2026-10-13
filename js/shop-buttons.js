@@ -2274,6 +2274,50 @@ const TEST_SHOP_BTN = {
     },
     oos: ["andertons","zzounds"]
   },
+  666: {
+    prices: {
+      amazon: "$169.00",
+      zzounds: "$169.00",
+      andertons: "£141.00",
+      musicstore: "€179.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Rode-NT-USBplus/58QD"
+    }
+  },
+  667: {
+    prices: {
+      amazon: "$129.00",
+      zzounds: "$124.95",
+      andertons: "£159.00",
+      musicstore: "€139.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-MV6-USB-Gaming-Microphone/6OHD"
+    },
+    oos: ["gear4music"]
+  },
+  668: {
+    prices: {
+      amazon: "$219.00",
+      zzounds: "$219.00",
+      musicstore: "€189.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/Audio-Technica-AT2020USB-XP-Cardioid-Condenser-USB-Microphone/5PYF"
+    },
+    oos: ["andertons"]
+  },
+  669: {
+    prices: {
+      amazon: "$149.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_US/USD/AKG-Lyra/art-REC0014609-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/AKG-Lyra-USB-Microphone/35V1"
+    },
+    oos: ["gear4music", "andertons", "zzounds"]
+  },
   266: {
     prices: {
       gear4music: "£1,180.00",
