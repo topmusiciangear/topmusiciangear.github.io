@@ -5373,7 +5373,8 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-Speaker-Pad-Set/art-REC0004624-000",
-      amazon: "https://www.amazon.com/dp/B0002D0B4K"
+      amazon: "https://www.amazon.com/dp/B0002D0B4K",
+      zzounds: "https://www.zzounds.com/item--AURMOPAD"
     },
     oos: ["zzounds"],
     na: ["gear4music","andertons","reverb"]
