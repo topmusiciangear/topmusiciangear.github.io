@@ -2334,13 +2334,6 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-NEOM/art-REC0015955-000"
     }
   },
-  671: {
-    // Samson G-Track Pro: specs verified on samsontech.com, but not carried by any of
-    // the 5 shops (zZounds / Andertons return 404, Gear4Music + Music Store have no
-    // product page). No price or URL can be verified, so every store row shows as
-    // unavailable rather than showing invented data.
-    oos: ["amazon", "zzounds", "andertons", "gear4music", "musicstore"]
-  },
   266: {
     prices: {
       gear4music: "£1,180.00",
