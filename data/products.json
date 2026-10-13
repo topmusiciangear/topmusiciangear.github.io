@@ -4815,8 +4815,8 @@
     "rating": 4.3,
     "reviews": 1257,
     "badge": "",
-    "desc": "Rode's PodMic USB pairs the broadcast sound of the classic dynamic PodMic with a USB-C output, so it works straight into a laptop or phone without an interface. It keeps the internal shock mount and magnetic pop filter, adds a headphone output for zero-latency monitoring and records in 32-bit float, which makes clipped takes recoverable in post.",
-    "desc_es": "El PodMic USB de Rode combina el sonido broadcast del clásico PodMic dinámico con una salida USB-C, así que funciona directo a un portátil o teléfono sin interfaz. Mantiene la suspensión interna y el filtro anti-pop magnético, añade salida de auriculares para monitorización sin latencia y graba en 32-bit float, lo que hace que las tomas saturadas sean recuperables en postproducción.",
+    "desc": "Rode's PodMic USB pairs the broadcast sound of the classic dynamic PodMic with both XLR and USB-C outputs, so it works straight into a laptop or phone without an interface. It keeps the integrated swing mount and internal pop filter, adds a zero-latency headphone output with level control, and runs Rode's high-gain Revolution Preamp plus on-board APHEX DSP at 24-bit/48kHz.",
+    "desc_es": "El PodMic USB de Rode combina el sonido broadcast del clásico PodMic dinámico con salidas XLR y USB-C, así que funciona directo a un portátil o teléfono sin interfaz. Mantiene el soporte basculante integrado y el filtro antipop interno, añade salida de auriculares sin latencia con control de nivel, y trabaja con el preamp Revolution de alta ganancia de Rode y DSP APHEX a bordo a 24-bit/48kHz.",
     "img": "https://r2.gear4music.com/media/93/934993/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0BQM4TKF7",
@@ -5646,15 +5646,13 @@
     "rating": 4.5,
     "reviews": 794,
     "badge": "pro",
-    "desc": "The AT2020USB-X brings Audio-Technica's studio condenser sound to USB: a cardioid capsule with 24-bit/96 kHz conversion, a headphone jack with mix control, a capacitive mute button and an LED ring. It's a genuine step-up for podcasters and streamers who want a real studio condenser without an interface, and the desk stand is included.",
-    "desc_es": "El AT2020USB-X lleva el sonido de condensador de estudio de Audio-Technica a USB: una cápsula cardioide con conversión de 24-bit/96 kHz, salida de auriculares con control de mezcla, botón de silencio capacitivo y anillo LED. Es un gran salto para podcasters y streamers que quieren un condensador de estudio genuino sin interfaz, e incluye el soporte de escritorio.",
+    "desc": "The AT2020USB-X brings Audio-Technica's studio AT2020 condenser sound to USB-C. Its standout feature is a real mix control that blends your mic with computer audio in hardware, plus a separate headphone level knob and a silent touch mute. 24-bit conversion up to 96 kHz, cardioid pickup, and the custom AT8702 desk stand, threaded adapter and 2 m USB-C cable are all included.",
+    "desc_es": "El AT2020USB-X lleva el sonido del condensador de estudio AT2020 de Audio-Technica al USB-C. Su rasgo estrella es un control de mezcla real que combina tu micrófono con el audio del ordenador en hardware, más una perilla aparte de nivel de auriculares y un mute táctil silencioso. Conversión de 24 bits hasta 96 kHz, captación cardioide, y vienen incluidos el soporte de escritorio AT8702, el adaptador de rosca y el cable USB-C de 2 m.",
     "img": "https://r2.gear4music.com/media/96/961880/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0B823S1NR",
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audio-Technica-AT2020USBX-Cardioid-Condenser-Microphone/528M",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2020USB-XP-USB-Condenser-Mic-with-Stand-Pop-Filter-Black-/art-REC0016402-000",
-      "zzounds": "https://www.zzounds.com/a--925521/item--AUDAT2020USBX",
-      "andertons": "https://www.andertons.co.uk/audio-technica-at2020usb-xp-cardioid-condenser-usb-microphone/"
+      "zzounds": "https://www.zzounds.com/a--925521/item--AUDAT2020USBX"
     },
     "oos": [
       "zzounds"
@@ -12799,5 +12797,27 @@
       "zzounds": "https://www.zzounds.com/item--SEENEOMUSB"
     },
     "oos": []
+  },
+  {
+    "id": 671,
+    "title": "Samson G-Track Pro",
+    "title_es": "Samson G-Track Pro",
+    "brand": "Samson",
+    "category": "microphones",
+    "price": 149,
+    "rating": 4.5,
+    "badge": "bestSeller",
+    "desc": "The Samson G-Track Pro is a USB condenser microphone with a 1-inch back-electret capsule, three switchable polar patterns (cardioid, figure-8, omnidirectional) and a 1/4-inch instrument input so you can record guitar or bass alongside your voice. 16 or 24-bit USB conversion, an onboard monitor mixer and a 3.5 mm headphone output at 83 mW into 32 ohm, in a solid 1.6 kg metal body.",
+    "desc_es": "El Samson G-Track Pro es un micrófono condensador USB con cápsula back-electret de 1 pulgada, tres patrones polares conmutables (cardioide, figura-8, omnidireccional) y entrada de instrumento de 1/4 pulgada para grabar guitarra o bajo junto a tu voz. Conversión USB de 16 o 24 bits, mezclador de monitoreo integrado y salida de auriculares de 3,5 mm a 83 mW sobre 32 ohmios, en un cuerpo firme de metal de 1,6 kg.",
+    "img": "https://storage.googleapis.com/samson-production/uploads/original_images/G-Track-Pro-HO.jpg",
+    "stores": {},
+    "oos": [
+      "amazon",
+      "zzounds",
+      "andertons",
+      "gear4music",
+      "musicstore",
+      "reverb"
+    ]
   }
 ]
