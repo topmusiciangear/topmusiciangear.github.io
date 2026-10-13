@@ -5754,14 +5754,16 @@ const TEST_SHOP_BTN = {
   },
   649: {
     prices: {
-      musicstore: "€264.70",
-      gear4music: "£249.00"
+      musicstore: "€315.00",
+      gear4music: "£249.00",
+      andertons: "£309.00"
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Genelec-GLM-Set/art-REC0012270-000",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-GLM-3-Genelec-Loudspeaker-Manager-User-Kit/226N"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-GLM-3-Genelec-Loudspeaker-Manager-User-Kit/226N",
+      andertons: "https://www.andertons.co.uk/genelec-glm-3-loudspeaker-manager-user-kit/"
     },
-    na: ["zzounds","andertons","reverb","amazon"]
+    na: ["zzounds","reverb","amazon"]
   },
   650: {
     prices: {
