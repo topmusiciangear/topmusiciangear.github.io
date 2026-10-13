@@ -101611,7 +101611,7 @@
       "faq_q2_en": "Can I stream a PS5 or Switch without a separate capture card?",
       "faq_a2_en": "With the Roland Bridge Cast X, yes: two HDMI inputs plus HDMI thru take consoles and cameras with up to 4K60 on input and thru and up to 1080p60 out over USB to the stream computer. With the RØDECaster Pro II, no: it is audio-only, so console streamers still need a separate video capture card.",
       "faq_q3_en": "Which sounds better with a Shure SM7B?",
-      "faq_a3_en": "The RØDECaster Pro II is the safer choice for an SM7B: its 76dB Revolution preamps with -131.5dBV EIN drive the mic cleanly with no external booster, plus APHEX processing on every channel. Roland says the Bridge Cast X runs broadcast-grade XLR mics with no activators, but it publishes no gain figure, so there is no comparable clean-gain claim.",
+      "faq_a3_en": "The RØDECaster Pro II is the safer choice for an SM7B: its 76dB Revolution preamps with -131.5dBV EIN drive the mic cleanly with no external booster, plus APHEX processing on every channel. Roland publishes no gain figure for the Bridge Cast X — its spec sheet lists only the input level range (-87 to -12 dBu, max 0 dBu) and an 8 kΩ input impedance — so there is no comparable clean-gain claim to put next to those 76dB.",
       "faq_q4_en": "Which is better for a dual-PC streaming setup?",
       "faq_a4_en": "It is a tie. The RØDECaster Pro II feeds two computers at once over dual USB-C while the whole mix keeps running on hardware. The Bridge Cast X dedicates its two USB-C ports to gaming and streaming computers, including single-cable audio and video to the stream PC. Pick by format, not by dual-PC support.",
       "faq_q5_en": "Which should a beginner buy?",
@@ -101621,7 +101621,7 @@
       "faq_q2_es": "¿Puedo transmitir una PS5 o Switch sin capturadora aparte?",
       "faq_a2_es": "Con el Roland Bridge Cast X, sí: dos entradas HDMI más HDMI thru aceptan consolas y cámaras con hasta 4K60 en entrada y thru y hasta 1080p60 por USB al ordenador de stream. Con el RØDECaster Pro II, no: es solo audio, así que los streamers de consola siguen necesitando una capturadora de vídeo aparte.",
       "faq_q3_es": "¿Cuál suena mejor con un Shure SM7B?",
-      "faq_a3_es": "El RØDECaster Pro II es la opción más segura para un SM7B: sus previos Revolution de 76dB con -131.5dBV EIN mueven el micro limpiamente sin booster externo, más procesado APHEX en cada canal. Roland dice que el Bridge Cast X mueve micros XLR de broadcast sin activadores, pero no publica cifra de ganancia, así que no hay reclamo comparable de ganancia limpia.",
+      "faq_a3_es": "El RØDECaster Pro II es la opción más segura para un SM7B: sus previos Revolution de 76dB con -131.5dBV EIN mueven el micro limpiamente sin booster externo, más procesado APHEX en cada canal. Roland no publica ninguna cifra de ganancia para el Bridge Cast X: su ficha técnica solo recoge el rango de nivel de entrada (-87 a -12 dBu, máx 0 dBu) y una impedancia de entrada de 8 kΩ, así que no hay un reclamo de ganancia limpia comparable que poner al lado de esos 76dB.",
       "faq_q4_es": "¿Cuál es mejor para un setup de streaming con doble PC?",
       "faq_a4_es": "Hay empate. El RØDECaster Pro II alimenta dos ordenadores a la vez por doble USB-C mientras toda la mezcla sigue corriendo en hardware. El Bridge Cast X dedica sus dos puertos USB-C a los ordenadores de juego y streaming, incluido audio y vídeo por un solo cable al PC de stream. Elige por formato, no por el soporte de doble PC.",
       "faq_q5_es": "¿Cuál debería comprar un principiante?",
@@ -101648,7 +101648,7 @@
         {
           "label_en": "Mic Preamps",
           "label_es": "Preámplificadores",
-          "val1": "Not published (XLR in -87 to -12 dBu)",
+          "val1": "Not published — input range -87 to -12 dBu (max 0 dBu), 8 kΩ impedance",
           "val2": "76dB Revolution, -131.5dBV EIN"
         },
         {
@@ -101684,7 +101684,7 @@
         {
           "label_en": "Recording",
           "label_es": "Grabación",
-          "val1": "Not published — via USB to computer",
+          "val1": "No standalone recorder — 2 mix buses (Stream + Personal) on separate USB outputs, 24-bit AD/DA with 32-bit float internal processing",
           "val2": "Multitrack/stereo to microSD, USB or computer"
         },
         {
@@ -101732,9 +101732,9 @@
         {
           "label": "Mic Preamps",
           "label_es": "Preámplificadores",
-          "val1": "Not published (XLR in -87 to -12 dBu)",
+          "val1": "Not published — input range -87 to -12 dBu (max 0 dBu), 8 kΩ impedance",
           "val2": "76dB Revolution, -131.5dBV EIN",
-          "val1_es": "No publicado (entrada XLR de -87 a -12 dBu)",
+          "val1_es": "No publicado — rango de entrada de -87 a -12 dBu (máx 0 dBu), impedancia de 8 kΩ",
           "val2_es": "76dB Revolution, -131.5dBV EIN"
         },
         {
@@ -101780,9 +101780,9 @@
         {
           "label": "Recording",
           "label_es": "Grabación",
-          "val1": "Not published — via USB to computer",
+          "val1": "No standalone recorder — 2 mix buses (Stream + Personal) on separate USB outputs, 24-bit AD/DA with 32-bit float internal processing",
           "val2": "Multitrack/stereo to microSD, USB or computer",
-          "val1_es": "No publicado — por USB al ordenador",
+          "val1_es": "Sin grabador independiente — 2 buses de mezcla (Stream + Personal) en salidas USB separadas, AD/DA de 24 bits con procesamiento interno en 32 bits flotantes",
           "val2_es": "Multitrack/estéreo a microSD, USB u ordenador"
         }
       ]
