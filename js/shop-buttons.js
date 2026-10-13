@@ -5354,6 +5354,20 @@ const TEST_SHOP_BTN = {
       andertons: "https://www.andertons.co.uk/lewitt-lct-440-pure-large-diaphragm-condenser-microphone/"
     }
   },
+  654: {
+    prices: {
+      gear4music: "£976.00",
+      zzounds: "$1,295.00",
+      andertons: "£966.00",
+      musicstore: "€1,039.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-103-Condenser-Microphone-Nickel/22FD",
+      zzounds: "https://www.zzounds.com/item--NEUTLM103",
+      andertons: "https://www.andertons.co.uk/neumann-tlm103-studio-condenser-mic/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM103-ni-Condenser-Microphone/art-REC0000317-000"
+    }
+  },
   656: {
     prices: {
       gear4music: "£1,283.00"
