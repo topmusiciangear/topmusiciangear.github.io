@@ -12466,5 +12466,61 @@
     "stores": {
       "amazon": "https://www.amazon.com/Ultimate-Support-MS-100B-Professional-Adjustable/dp/B005OWHATS"
     }
+  },
+  {
+    "id": 652,
+    "title": "Lewitt LCT 440 PURE",
+    "title_es": "Lewitt LCT 440 PURE",
+    "brand": "Lewitt",
+    "category": "microphones",
+    "price": null,
+    "rating": 4.7,
+    "badge": "recommended",
+    "desc": "1-inch true-condenser cardioid mic with 27.4 mV/Pa sensitivity, 7 dB-A self-noise and 140 dB max SPL. Record-ready sound with shock mount, magnetic pop filter and windscreen included. No pad or filters — pure simplicity.",
+    "desc_es": "Micrófono de condensador verdadero de 1 pulgada, cardioide, con 27,4 mV/Pa, 7 dB-A de ruido propio y 140 dB SPL máximo. Sonido listo para grabar con soporte, filtro antipop magnético y paravientos incluidos. Sin pad ni filtros — simplicidad pura.",
+    "img": "https://d2pucgucjvdva3.cloudfront.net/sites/default/files/styles/wide_cover_small/public/2023-03/lct-440-pure.jpg",
+    "stores": {}
+  },
+  {
+    "id": 653,
+    "title": "Neumann TLM 102",
+    "title_es": "Neumann TLM 102",
+    "brand": "Neumann",
+    "category": "microphones",
+    "price": null,
+    "rating": 4.7,
+    "badge": "recommended",
+    "desc": "The most affordable Neumann large-diaphragm condenser: cardioid, 20 Hz–20 kHz, 11 mV/Pa, 12 dB-A self-noise, 144 dB max SPL, transformerless with integrated pop screen. Huge 132 dB dynamic range for small studios.",
+    "desc_es": "El Neumann de gran diafragma más asequible: cardioide, 20 Hz–20 kHz, 11 mV/Pa, 12 dB-A de ruido, 144 dB SPL máximo, sin transformador y con antipop integrado. Enorme rango dinámico de 132 dB para estudios pequeños.",
+    "img": "https://assets.sennheiser.com/assets/TLM-102-with-EA4_Neumann-Studio-Microphone_M.png/Zz1kN2U3ZDIyZWU3YWIxMWYwOGNiZDJhMzQxNzliYzkxZA==?width=730&format=webp&quality=80",
+    "stores": {}
+  },
+  {
+    "id": 654,
+    "title": "Neumann TLM 103",
+    "title_es": "Neumann TLM 103",
+    "brand": "Neumann",
+    "category": "microphones",
+    "price": null,
+    "rating": 4.8,
+    "badge": "topQuality",
+    "desc": "The modern vocal standard with U87-derived capsule: cardioid, 23 mV/Pa, 7 dB-A self-noise, 138 dB max SPL, transformerless with presence boost above 5 kHz. Pristine definition from whispers to kick drums.",
+    "desc_es": "El estándar vocal moderno con cápsula derivada del U87: cardioide, 23 mV/Pa, 7 dB-A de ruido, 138 dB SPL máximo, sin transformador y con realce de presencia sobre 5 kHz. Definición impecable del susurro al bombo.",
+    "img": "https://assets.sennheiser.com/assets/TLM-103-with-EA1_Neumann-Studio-Microphone_M.png/Zz1kZTJmOTBjY2U3YWIxMWYwOGNiZDJhMzQxNzliYzkxZA==?width=730&format=webp&quality=80",
+    "stores": {}
+  },
+  {
+    "id": 655,
+    "title": "Warm Audio WA-8000",
+    "title_es": "Warm Audio WA-8000",
+    "brand": "Warm Audio",
+    "category": "microphones",
+    "price": 1299,
+    "rating": 4.8,
+    "badge": "premium",
+    "desc": "Tube condenser in the 90s 800 style for rap, hip-hop and R&B: NOS 6AU6 tube, Lundahl transformer, brass K67-style capsule. Cardioid + omni, 131/134 dB max SPL, external PSU included. MSRP $1,299.",
+    "desc_es": "Condensador de válvulas estilo 800 de los 90 para rap, hip-hop y R&B: válvula NOS 6AU6, transformador Lundahl, cápsula K67 de latón. Cardioide + omni, 131/134 dB SPL máximo, fuente externa incluida. PVP $1.299.",
+    "img": "https://images.ctfassets.net/h4x5uvaoia7v/7rnMS9gQvkKXl9PW1DOIWC/87a8ef713e75b13af706a9548dc14822/8000-product-card.png",
+    "stores": {}
   }
 ]
