@@ -2626,6 +2626,21 @@ const TEST_SHOP_BTN = {
       zzounds: "https://www.zzounds.com/item--YAMAG08"
     }
   },
+  663: {
+    prices: {
+      gear4music: "£371.00",
+      andertons: "£368.00",
+      zzounds: "$499.00",
+      musicstore: "€449.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Tascam-Mixcast-4-Podcast-Recording-Console/41NY",
+      andertons: "https://www.andertons.co.uk/tascam-mixcast-4-podcast-recording-console-with-built-in-recorder-usb-interface/",
+      zzounds: "https://www.zzounds.com/item--TASMIXCAST4",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Tascam-Mixcast-4/art-REC0015460-000"
+    },
+    oos: ["andertons"]
+  },
   266: {
     prices: {
       gear4music: "£1,180.00",
