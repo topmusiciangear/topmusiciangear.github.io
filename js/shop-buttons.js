@@ -2149,15 +2149,7 @@ const TEST_SHOP_BTN = {
       andertons: "£399.00",
       musicstore: "€498.00"
     }
-  },
-  260: {
-    prices: {
-      amazon: "$349.99"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
+  },
   262: {
     prices: {
       amazon: "$129.99",
@@ -2219,6 +2211,18 @@ const TEST_SHOP_BTN = {
       zzounds: "https://www.zzounds.com/item--MACMAINSTREAM",
       andertons: "https://www.andertons.co.uk/mackie-mainstream-live-streaming-video-capture-interface/",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Mackie-MainStream/art-LIG0019371-000"
+    }
+  },
+  662: {
+    prices: {
+      musicstore: "€459.00",
+      andertons: "£405.00",
+      zzounds: "$499.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-AG08-BL/art-REC0016318-000",
+      andertons: "https://www.andertons.co.uk/yamaha-ag08-bl/",
+      zzounds: "https://www.zzounds.com/item--YAMAG08"
     }
   },
   266: {

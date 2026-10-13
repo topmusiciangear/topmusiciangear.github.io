@@ -4719,7 +4719,7 @@
     "badge": "premium",
     "desc": "Rode's RØDECaster Pro II is a standalone production console that processes your mic, music and alerts on the hardware itself, so a frozen PC never kills your stream. Four Neutrik combo inputs feed 76dB Revolution preamps, and it packs dual USB-C (two computers at once), eight SMART pads, APHEX processing, a 5.5-inch touchscreen and multitrack recording to microSD or USB.",
     "desc_es": "El RØDECaster Pro II de Rode es una consola de producción autónoma que procesa tu micro, tu música y tus alertas en el propio hardware, así que un PC congelado nunca arruina tu directo. Cuatro entradas combo Neutrik alimentan los previos Revolution de 76dB, e incluye doble USB-C (dos ordenadores a la vez), ocho pads SMART, procesamiento APHEX, una pantalla táctil de 5.5 pulgadas y grabación multitrack a microSD o USB.",
-    "img": "https://r2.gear4music.com/media/82/829851/1200/preview_2.jpg",
+    "img": "https://r2.gear4music.com/media/106/1068690/1200/preview.jpg",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0B17V8NGX",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FRode-RodeCaster-Pro-II%2F4U7L",
@@ -4995,29 +4995,6 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--LINPODGO"
     },
     "oos": [
-      "zzounds"
-    ]
-  },
-  {
-    "id": 260,
-    "title": "Elgato Wave XLR Pro",
-    "title_es": "Elgato Wave XLR Pro",
-    "brand": "Elgato",
-    "category": "streaming",
-    "price": 350,
-    "rating": 4.3,
-    "reviews": 11,
-    "badge": "topQuality",
-    "desc": "Elgato's Wave XLR Pro is a dual-XLR USB audio interface and hardware mixer built for podcasting and streaming. Two studio-grade preamps deliver up to 80dB of clean gain each, so gain-hungry dynamics like the SM7B need no Cloudlifter, and the Wave FX Processor runs five independent hardware mixes with zero-latency monitoring, Clipguard 2.0 anti-clipping, onboard DSP effects, VST plugin support, dual USB-C for a second PC or console, and a standalone mode that keeps your settings running with no computer attached.",
-    "desc_es": "El Wave XLR Pro de Elgato es una interfaz de audio USB dual-XLR y mezclador de hardware para podcasting y streaming. Dos previos de nivel estudio entregan hasta 80dB de ganancia limpia cada uno, así que dinámicos hambrientos como el SM7B no necesitan Cloudlifter, y el Wave FX Processor ejecuta cinco mezclas de hardware independientes con monitoreo de latencia cero, Clipguard 2.0 antidistorsión, efectos DSP integrados, soporte de plugins VST, doble USB-C para un segundo PC o consola, y un modo independiente que mantiene tus ajustes sin ordenador conectada.",
-    "img": "https://m.media-amazon.com/images/I/61iKyAG0U5L._AC_SL1500_.jpg",
-    "stores": {
-      "official": "https://www.elgato.com/us/en/p/wave-xlr-pro",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FElgato-Wave-XLR-Audio-Interface%2F43BM",
-      "amazon": "https://www.amazon.com/Elgato-Wave-XLR-Pro-Podcasting/dp/B0GXYKBY7N",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Elgato-Wave-XLR-Pro/art-REC0017355-000"
-    },
-    "excludeStores": [
       "zzounds"
     ]
   },
@@ -12623,6 +12600,24 @@
       "zzounds": "https://www.zzounds.com/item--MACMAINSTREAM",
       "andertons": "https://www.andertons.co.uk/mackie-mainstream-live-streaming-video-capture-interface/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Mackie-MainStream/art-LIG0019371-000"
+    }
+  },
+  {
+    "id": 662,
+    "title": "Yamaha AG08",
+    "title_es": "Yamaha AG08",
+    "brand": "Yamaha",
+    "category": "streaming",
+    "price": 499,
+    "rating": 4.5,
+    "badge": "recommended",
+    "desc": "8-channel livestreaming mixer with analog-style 60 mm faders: 2 combo inputs with +48 V phantom (CH2 Hi-Z for guitar), 4 stereo USB streams (Streaming/Voice/AUX/DAW) so every app gets a physical fader, onboard DSP (voice changer, amp sim, SPX reverb, comp) and 6 sound pads. No standalone recording — needs PC/iPad. ~$499.",
+    "desc_es": "Mezclador de streaming de 8 canales con faders analógicos de 60 mm: 2 entradas combo con phantom +48 V (CH2 Hi-Z para guitarra), 4 streams USB estéreo (Streaming/Voice/AUX/DAW) para dar un fader físico a cada app, DSP a bordo (cambia-voces, amp sim, reverb SPX, comp) y 6 pads. Sin grabación autónoma — exige PC/iPad. ~$499.",
+    "img": "https://images.musicstore.de/images/0960/yamaha-ag08-bl_1_REC0016318-000.jpg",
+    "stores": {
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-AG08-BL/art-REC0016318-000",
+      "andertons": "https://www.andertons.co.uk/yamaha-ag08-bl/",
+      "zzounds": "https://www.zzounds.com/item--YAMAG08"
     }
   }
 ]
