@@ -2556,15 +2556,7 @@ const TEST_SHOP_BTN = {
     oos: [
       "andertons"
     ]
-  },
-  261: {
-    prices: {
-      amazon: "$229.00"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
+  },
   262: {
     prices: {
       amazon: "$129.99",
@@ -2599,6 +2591,32 @@ const TEST_SHOP_BTN = {
     oos: [
       "andertons"
     ]
+  },
+  659: {
+    prices: {
+      gear4music: "£110.25",
+      musicstore: "€132.80",
+      andertons: "£153.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/TC-Helicon-GoXLR-Mini/3R1T",
+      amazon: "https://www.amazon.com/Helicon-Online-Broadcast-Interface-Preamp/dp/B07XH41DLN",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/TC-Helicon-GoXLR-Mini/art-REC0014497-000",
+      zzounds: "https://www.zzounds.com/item--TCEGOXLRMINI",
+      andertons: "https://www.andertons.co.uk/tc-helicon-go-xlr-mini-in-white/"
+    },
+    oos: ["zzounds","andertons"]
+  },
+  660: {
+    urls: {
+      amazon: "https://www.amazon.com/Yamaha-Gaming-Mixer-Voice-Streaming/dp/B0CQZ25H1M"
+    }
+  },
+  661: {
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Mackie-MainStream-Streaming-Interface/651X",
+      zzounds: "https://www.zzounds.com/item--MACMAINSTREAM"
+    }
   },
   266: {
     prices: {
