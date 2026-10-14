@@ -1,0 +1,17 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gj = BASE + 'data/guides.json';
+const die = (m) => { console.log('!! ' + m); process.exit(1); };
+const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const g = guides.find(x => x.id === 'premium-interfaces');
+const s = g.sections.find(x => (x.heading || '') === 'What Flagship Money Actually Buys');
+if (!s) die('no encontrada');
+console.log('EN: ' + s.heading);
+console.log('ES: ' + s.heading_es);
+console.log('prods: ' + JSON.stringify(s.products));
+console.log('EN body: ' + String(s.content).replace(/<[^>]+>/g, ' ').slice(0, 300));
+console.log('ES body: ' + String(s.content_es || '').replace(/<[^>]+>/g, ' ').slice(0, 200));
+s.heading_es = 'Qu\u00e9 compra de verdad el dinero de gama insignia';
+fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
+const chk = JSON.parse(fs.readFileSync(gj, 'utf8')).find(x => x.id === 'premium-interfaces');
+console.log('\nnuevo heading_es: ' + chk.sections.find(x => x.heading === 'What Flagship Money Actually Buys').heading_es);
