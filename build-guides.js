@@ -6505,7 +6505,10 @@ function buildGuidePage(guide, lang, idx) {
   const isEs = lang === 'es';
   const isVs = /-vs-/i.test(guide.id);
   const title = Y((isEs ? guide.titleTag_es : guide.titleTag) || (isEs && guide.title_es ? guide.title_es : guide.title));
-  const titleTag = /20\d\d/.test(title) ? title : title + ' (2026)';
+  // El año NO se añade al título: Google corta los <title> a los ~60 caracteres
+  // (unos 580px) y el sufijo automático empujaba al límite (o lo pasaba) en casi
+  // todas las páginas. El año vive en el schema y en la firma de autor.
+  const titleTag = title;
   const intro = esText(isEs && guide.intro_es, guide.intro);
   const introTableMatch = intro.match(/<table[\s\S]*?<\/table>/);
   const introTable = introTableMatch ? '<div class="guide-comp-wrap"><div class="guide-comp-controls guide-comp-controls-top">' + guideCompLeftArrow(false) + guideCompProgress() + guideCompRightArrow(false) + '</div><div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll">' + introTableMatch[0] + '</div></div></div>' : '';
