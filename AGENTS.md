@@ -687,10 +687,37 @@ y uno de 60 con muchos i/l puede no llegar. **Límites del sitio:**
   tipo de instrumento (`for Bass, Guitar & Keyboards`).
 
 **Auditoría permanente:** `npm run seo` (= `node scripts/seo-audit.js`, exit 1 si falla).
-Analiza las 314 páginas generadas (EN + ES), ignora los stubs de redirección y avisa de
+Analiza las 314 páginas generadas (EN + ES), ignora los stubs de redirección y avisa de:
 títulos > 60, descripciones > 155, títulos con año, páginas sin `<h1>` y sin meta
 description. **Ejecutarlo SIEMPRE después de tocar títulos, descripciones o
 `build-guides.js`**, y antes de cada deploy. `--json` para salida legible por máquina.
+
+**También comprueba el contenido de los veredictos** (añadido 14/10/2026):
+
+- **Pro/contra fragmentado**: un pro o contra se partió en dos y la segunda mitad
+  quedó como fragmento con espacio o raya inicial (`" it costs more than the Adam T10S"`).
+  El render concatena los `<li>` sin separador, así que en la web se lee como una
+  frase rota. Se detecta por **espacio/raya inicial**, que es la única señal
+  fiable: los detectores por sintaxis y por longitud dan cientos de falsos
+  positivos (`"cups isolate you from room noise"` NO está roto).
+  **No fusionar el fragmento con el item anterior**: rompería el mínimo de 4 pros + 4 contras.
+- **Palabra española en página inglesa**: `"versión"` colado en textos EN (51 casos
+  históricos en pros/cons, secciones, FAQ y `featuredSnippet`). En ES es correcta,
+  así que solo se mira en páginas EN.
+
+Dos trampas al escribir estas comprobaciones (las cometí):
+1. `versi[oó]n` **también casa con "version"** (la `o` sin tilde) — para detectar la
+   palabra española hay que buscar solo `versi[ó]n`.
+2. `<li>\s*([^<]*)` **se come el espacio inicial** del item y la comprobación nunca
+   lo ve. Capturar con `<li>([^<]*)`, sin `\s*`.
+   Y los datos del veredicto aparecen **dos veces** en el HTML (en el JSON
+   `window.__VPC__` y en el `<li>` renderizado): al probar, inyectar en el `<li>`
+   literal, o el `replace` toca el JSON y la prueba no prueba nada.
+
+**Prueba negativa:** `npm run seo` siempre está en verde sobre el sitio ya
+arreglado, así que una comprobación puede no disparar y nadie se entera. Al tocar
+esta parte del script, **inyectar cada bug a mano en un `<li>` real y comprobar
+que sale como `FALLOS`** antes de dar por buena la comprobación.
 
 **El sitemap NO hay que resubmitarlo** para esto: `sitemap.xml` se regenera en cada build
 con el `lastmod` del día y ya está declarado en `robots.txt`. Lo que hay que cambiar es el

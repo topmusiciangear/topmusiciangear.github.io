@@ -65,6 +65,54 @@ const DANGLING = new Set(['y', 'e', 'o', 'u', 'ni', 'que', 'de', 'del', 'la', 'e
 // cuanto se anade o quita un producto de la guia.
 const COUNT_RE = /\b\d{1,2}\s+(best|mejores|top|modelos|premium|interfaces|mics|microfonos|desk-friendly)\b/i;
 
+// --- Contenido de los veredictos (pros/cons) -------------------------------
+// BUG HISTORICO: un pro/contra se partia en dos y la segunda mitad quedaba
+// como fragmento con espacio inicial (" it costs more than the Adam T10S").
+// El render lo concatena sin separador, asi que en la pagina se lee como una
+// sola frase rota: "...monitor alignment alone it costs more than...".
+// La firma inequivoca es el espacio inicial / la raya inicial. NO intentar
+// detectarlo por sintaxis ni por longitud: ambos dan cientos de falsos
+// positivos ("cups isolate you from room noise" NO esta roto).
+//
+// Segundo bug: "versión" (palabra espanola) colada en textos ingleses, 51
+// casos historicos. OJO al detectar: /versi[oó]n/ TAMBIEN casa con "version",
+// hay que buscar SOLO la forma acentuada /versi[ó]n/.
+// La version espanola de esas mismas palabras es CORRECTA -> solo se mira EN.
+function contentIssues(html, isEs) {
+  const out = [];
+
+  // 1) fragmentos SOLO dentro de las listas de veredicto.
+  // Hay que acotar a <ul class="verdict-pros-list|verdict-cons-list">: si se
+  // recorre cualquier <li> de la pagina saltan falsos positivos de menús,
+  // FAQs y tablas ("dbx DriveRack DSP with presets..." empieza en minuscula y
+  // esta perfecto).
+  const blockRe = /<ul class="verdict-(?:pros|cons)-list">([\s\S]*?)<\/ul>/gi;
+  let b;
+  while ((b = blockRe.exec(html))) {
+    // OJO: capturar SIN \s* delante. "<li>\s*([^<]*)" se come el espacio
+    // inicial del item y la comprobacion nunca lo ve (fallo real, 2026-10-14).
+    const re = /<li>([^<]*)<\/li>/gi;
+    let m;
+    while ((m = re.exec(b[1]))) {
+      const raw = m[1];
+      const t = raw.trim();
+      if (!t) continue;
+      // firma inequivoca del bug: espacio inicial o raya inicial
+      if (/^\s/.test(raw) || /^[—–-]\s/.test(t)) {
+        out.push('pro/contra fragmentado: "' + t.slice(0, 50) + '"');
+      }
+    }
+  }
+
+  // 2) palabra espanola en pagina inglesa
+  if (!isEs && /versi[ó]n/i.test(html)) {
+    const hit = html.match(/.{0,40}versi[ó]n.{0,25}/i);
+    out.push('texto espanol "versión" en pagina EN' + (hit ? ': ...' + hit[0].replace(/<[^>]+>/g, ' ').trim() + '...' : ''));
+  }
+
+  return out;
+}
+
 function descProblems(desc, title) {
   const out = [];
   if (!desc) return out;
@@ -112,6 +160,7 @@ files.forEach(function (f) {
   }
   if (!h1) issues.push('sin <h1>');
   if (ogTitle && pxWidth(ogTitle) > 700) issues.push('og:title ' + pxWidth(ogTitle) + 'px ancho');
+  contentIssues(html, isEs).forEach(p => issues.push(p));
 
   rows.push({
     file: f, lang: isEs ? 'ES' : 'EN',
