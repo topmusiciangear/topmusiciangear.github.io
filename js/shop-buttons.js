@@ -5670,6 +5670,16 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
     }
   },
+  680: {
+    prices: {
+      andertons: "£159.00",
+      musicstore: "€202.30"
+    },
+    urls: {
+      andertons: "https://www.andertons.co.uk/squier-sonic-bronco-bass-guitar-black/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Squier-Sonic-Bronco-Bass-IL-Black/art-BAS0012451-000"
+    }
+  },
   679: {
     prices: {
       zzounds: "$399.00",
