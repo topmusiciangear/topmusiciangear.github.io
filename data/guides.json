@@ -64975,12 +64975,12 @@
           "label_es": "Trastes y Diapasón",
           "values": [
             {
-              "value": "20, maple",
-              "value_es": "20, arce"
+              "value": "20, maple or rosewood, rolled edges",
+              "value_es": "20, arce o palisandro, bordes redondeados"
             },
             {
-              "value": "20, maple",
-              "value_es": "20, arce"
+              "value": "20, maple or rosewood, rolled edges",
+              "value_es": "20, arce o palisandro, bordes redondeados"
             },
             {
               "value": "20, maple",
@@ -65067,8 +65067,8 @@
               "value_es": "Pasivo"
             },
             {
-              "value": "Active (S-1)",
-              "value_es": "Activo (S-1)"
+              "value": "Active/Passive (S-1 switch on volume)",
+              "value_es": "Activo/Pasivo (S-1 en el volumen)"
             }
           ]
         },
@@ -65135,8 +65135,8 @@
               "value_es": "2x volumen, tono"
             },
             {
-              "value": "Vol, tone, 3-band active EQ",
-              "value_es": "Vol, tono, EQ activa 3 bandas"
+              "value": "Passive tone, 3-band active EQ, S-1 active/passive, midrange 325/750 Hz",
+              "value_es": "Tono pasivo, EQ activa 3 bandas, S-1 activo/pasivo, medios 325/750 Hz"
             }
           ]
         },
