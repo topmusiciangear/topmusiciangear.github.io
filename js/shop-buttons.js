@@ -5206,7 +5206,7 @@ const TEST_SHOP_BTN = {
   570: { prices: { amazon: "$3,299.99", gear4music: "£1,469.00", andertons: "£1,513.00", musicstore: "€1,799.00" }, na: ["zzounds"] },
   571: { prices: { zzounds: "$729.99", gear4music: "€505.00", andertons: "£399.00", musicstore: "€499.00" } },
   572: { prices: { amazon: "$499.99", andertons: "£399.00", gear4music: "£355.00", musicstore: "€419.00" }, oos: ["zzounds"] },
-  573: { prices: { amazon: "$1,299.99", zzounds: "$1,299.99", andertons: "£899.00", gear4music: "£899.00", musicstore: "€1,049.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YDP-146-Digital-Piano-Black/86R5" } },
+  573: { prices: { amazon: "$1,299.99", zzounds: "$1,299.99", andertons: "£899.00", gear4music: "£899.00", musicstore: "€1,049.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YDP-146-Digital-Piano-Black/86R5" } },
   577: { prices: { zzounds: "$799.99", gear4music: "£445.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor/54OK" } },
   578: { prices: { zzounds: "$659.99", gear4music: "£635.00", andertons: "£649.00", musicstore: "€777.00" } },
   579: { prices: { zzounds: "$1,799.00", andertons: "£1,449.00", musicstore: "€1,585.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Neural-DSP-Quad-Cortex/61MZ" } },
@@ -5539,7 +5539,7 @@ const TEST_SHOP_BTN = {
   652: {
     prices: {
       gear4music: "£215.00",
-      musicstore: "€264.00",
+      musicstore: "€268.00",
       zzounds: "$249.00",
       andertons: "£205.00"
     },
@@ -5627,7 +5627,40 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Behringer-Flow-8/art-PAH0022110-000"
     }
   },
-
+  672: {
+    prices: {
+      zzounds: "$129.00",
+      musicstore: "€132.30"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B072F5J32C",
+      zzounds: "https://www.zzounds.com/item--LEWLCT240PRO",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000"
+    }
+  },
+  673: {
+    prices: {
+      gear4music: "£198.25"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Origin-Cardioid-Condenser-Microphone/1F3F",
+      amazon: "https://www.amazon.com/dp/B019RVU0C0",
+      zzounds: "https://www.zzounds.com/item--ASTORIGIN"
+    }
+  },
+  674: {
+    prices: {
+      zzounds: "$799.00",
+      gear4music: "£599.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-102-Condenser-Microphone-Black/C56",
+      amazon: "https://www.amazon.com/dp/B003HGLPC6",
+      zzounds: "https://www.zzounds.com/item--NEUTLM102",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-Studio-Microphone-Nickel/art-REC0007197-000"
+    }
+  },
+
 }
 
 function shortTitle(title) {

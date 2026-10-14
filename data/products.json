@@ -12448,7 +12448,7 @@
     "title_es": "Lewitt LCT 440 PURE",
     "brand": "Lewitt",
     "category": "microphones",
-    "price": null,
+    "price": 269,
     "rating": 4.7,
     "badge": "recommended",
     "desc": "1-inch true-condenser cardioid mic with 27.4 mV/Pa sensitivity, 7 dB-A self-noise and 140 dB max SPL. Record-ready sound with shock mount, magnetic pop filter and windscreen included. No pad or filters — pure simplicity.",
@@ -12819,5 +12819,72 @@
     "excludeStores": [],
     "desc": "Eight-input digital mixer with six 60 mm channel faders, two independent studio-grade FX engines and a 10x2 USB audio interface, controlled from the free FLOW app over Bluetooth.",
     "desc_es": "Mezclador digital de ocho entradas con seis faders de canal de 60 mm, dos motores de efectos independientes de calidad estudio y una interfaz USB 10x2, controlable desde la app FLOW gratuita por Bluetooth."
+  },
+  {
+    "id": 672,
+    "title": "Lewitt LCT 240 PRO",
+    "title_es": "Lewitt LCT 240 PRO",
+    "brand": "Lewitt",
+    "category": "microphones",
+    "price": 149,
+    "rating": 4.6,
+    "reviews": 604,
+    "desc": "Cardioid XLR condenser for home recording with 17mm capsule, 20Hz-20kHz response, 16.7 mV/Pa sensitivity, 19 dB-A self-noise and 142dB max SPL. Mount, windscreen and bag included; needs 48V phantom power.",
+    "desc_es": "Condensador XLR cardioide para grabar en casa con cápsula de 17 mm, respuesta 20Hz-20kHz, 16,7 mV/Pa, 19 dB-A de ruido propio y 142dB SPL máximo. Soporte, antipop y funda incluidos; necesita phantom 48V.",
+    "img": "https://d2pucgucjvdva3.cloudfront.net/sites/default/files/styles/max_720x720/public/shopimages/Webshop_LCT240PROBLACK_2560x2560_B.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B072F5J32C",
+      "zzounds": "https://www.zzounds.com/item--LEWLCT240PRO",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000"
+    },
+    "excludeStores": [
+      "gear4music",
+      "andertons",
+      "reverb"
+    ]
+  },
+  {
+    "id": 673,
+    "title": "Aston Microphones Origin",
+    "title_es": "Aston Microphones Origin",
+    "brand": "Aston Microphones",
+    "category": "microphones",
+    "price": 269,
+    "rating": 4.6,
+    "reviews": 337,
+    "desc": "British large-diaphragm cardioid condenser with hand-selected 1-inch capsule, transformerless circuitry, 20Hz-20kHz response, 127dB max SPL, -10dB pad and bass roll-off. Wave-form mesh head with built-in pop filter; needs 48V phantom power.",
+    "desc_es": "Condensador británico de diafragma grande, cardioide, con cápsula seleccionada de 1 pulgada, circuito sin transformador, respuesta 20Hz-20kHz, 127dB SPL máximo, pad de -10dB y corte de graves. Cabezal wave-form con antipop integrado; necesita phantom 48V.",
+    "img": "https://f2c-cdn.empowertribe.com/aston-microphones/Musicradaroriginreview1copy_0181c7635b.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Origin-Cardioid-Condenser-Microphone/1F3F",
+      "amazon": "https://www.amazon.com/dp/B019RVU0C0",
+      "zzounds": "https://www.zzounds.com/item--ASTORIGIN"
+    },
+    "excludeStores": [
+      "musicstore",
+      "andertons",
+      "reverb"
+    ]
+  },
+  {
+    "id": 674,
+    "title": "Neumann TLM 102",
+    "title_es": "Neumann TLM 102",
+    "brand": "Neumann",
+    "category": "microphones",
+    "price": 699,
+    "desc": "Neumann most affordable large-diaphragm condenser: cardioid, 20Hz-20kHz, 11 mV/Pa sensitivity, 12 dB-A self-noise, 144dB max SPL and 132dB dynamic range. Transformerless circuit with gentle 10kHz lift and integrated pop screen; needs 48V phantom power.",
+    "desc_es": "El condensador de diafragma grande más asequible de Neumann: cardioide, 20Hz-20kHz, 11 mV/Pa, 12 dB-A de ruido propio, 144dB SPL máximo y 132dB de rango dinámico. Circuito sin transformador con realce suave a 10kHz y antipop integrado; necesita phantom 48V.",
+    "img": "https://assets.sennheiser.com/assets/TLM-102-with-SG2_Neumann-Studio-Microphone_M.png/Zz1kNzk4ZWM5YWU3YWIxMWYwYjk1OWNlM2Q3NWM0MGYwNw==?height=150&format=webp&quality=80",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-102-Condenser-Microphone-Black/C56",
+      "amazon": "https://www.amazon.com/dp/B003HGLPC6",
+      "zzounds": "https://www.zzounds.com/item--NEUTLM102",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-Studio-Microphone-Nickel/art-REC0007197-000"
+    },
+    "excludeStores": [
+      "andertons",
+      "reverb"
+    ]
   }
 ]
