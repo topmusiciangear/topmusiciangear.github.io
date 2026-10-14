@@ -5685,11 +5685,18 @@ const TEST_SHOP_BTN = {
   },
   682: {
     prices: {
-      musicstore: "€241.00"
+      gear4music: "£219.00",
+      zzounds: "$249.00",
+      andertons: "£229.00",
+      musicstore: "€239.00",
+      amazon: "$249.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Ibanez-Standard-TMB30-MGR-Mint-Green/art-BAS0010182-000"
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FIbanez-TMB30-Talman-Bass-Black%2F297J",
+      zzounds: "https://www.zzounds.com/item--IBATMB30?siid=227612",
+      andertons: "https://www.andertons.co.uk/ibanez-tmb30-bk-30-short-scale-bass-in-black/?search_query=Ibanez%20TMB30%20Talman",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Ibanez-Standard-TMB30-BK-Black/art-BAS0008306-000",
+      amazon: "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250"
     }
   },
   680: {
