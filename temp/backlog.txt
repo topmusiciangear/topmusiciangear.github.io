@@ -1,239 +1,83 @@
-tpl (153)
-starter-studio :: "Sony MDR-7506: A Closer Look"
-starter-studio :: "Mogami Gold Studio XLR Cable: A Closer Look"
-starter-studio :: "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack): A Closer Look"
-starter-studio :: "Maono PD200X Dynamic Microphone: A Closer Look"
-starter-studio :: "Behringer XM8500 Ultravoice Dynamic Microphone: A Closer Look"
-starter-studio :: "SSL 2+ MKII: A Closer Look"
-starter-studio :: "Rode NT1 5th Generation: A Closer Look"
-starter-studio :: "Aston Microphones Shield GN Pop Filter: A Closer Look"
-starter-studio :: "Yamaha HS8: A Closer Look"
-starter-studio :: "K&M 210/2 Mic Stand: A Closer Look"
-best-interface :: "Focusrite Scarlett 2i2 4th Gen: A Closer Look"
-best-interface :: "SSL 2+ MKII: A Closer Look"
-best-interface :: "Universal Audio Apollo Twin X Gen 2: A Closer Look"
-best-interface :: "RME Babyface Pro FS: A Closer Look"
-best-interface :: "MOTU M2: A Closer Look"
-best-plugins :: "FabFilter Total Bundle: A Closer Look"
-best-plugins :: "iZotope Ozone 12 Advanced: A Closer Look"
-best-plugins :: "Celemony Melodyne 5: A Closer Look"
-best-plugins :: "Native Instruments Komplete 26 Ultimate: A Closer Look"
-best-plugins :: "TDR Kotelnikov GE: A Closer Look"
-portable-interfaces :: "RME Babyface Pro FS: A Closer Look"
-portable-interfaces :: "Focusrite Scarlett 2i2 4th Gen: A Closer Look"
-portable-interfaces :: "Arturia MiniFuse 2 OTG: A Closer Look"
-portable-interfaces :: "SSL 2+ MKII: A Closer Look"
-portable-interfaces :: "Universal Audio Volt 2: A Closer Look"
-portable-interfaces :: "Audient EVO 4: A Closer Look"
-portable-interfaces :: "MOTU M2: A Closer Look"
-portable-interfaces :: "Universal Audio Volt 276: A Closer Look"
-portable-interfaces :: "Audient iD14 MkII: A Closer Look"
-open-headphones :: "Audeze LCD-X: A Closer Look"
-fender-guide :: "Gibson Les Paul Standard '60s: A Closer Look"
-guitar-pedals :: "Ibanez TS9 Tube Screamer: A Closer Look"
-guitar-pedals :: "Boss DD-8 digital Delay: A Closer Look"
-guitar-pedals :: "Dunlop GCB95 Crybaby Wah: A Closer Look"
-guitar-pedals :: "TC Electronic Hall of Fame 2: A Closer Look"
-guitar-pedals :: "MXR Phase 95: A Closer Look"
-guitar-pedals :: "Strymon BigSky MX: A Closer Look"
-guitar-pedals :: "Electro-Harmonix Nano Small Stone: A Closer Look"
-live-sound-pa :: "JBL PRX ONE: A Closer Look"
-live-sound-pa :: "Yamaha DXR12mkII: A Closer Look"
-live-sound-pa :: "JBL EON712: A Closer Look"
-daw-guide :: "Ableton Live 12 Suite: A Closer Look"
-daw-guide :: "FL Studio Producer Edition: A Closer Look"
-daw-guide :: "Avid Pro Tools Studio: A Closer Look"
-daw-guide :: "Steinberg Cubase Pro 15: A Closer Look"
-daw-guide :: "Logic Pro: A Closer Look"
-daw-guide :: "Reason Studios Reason 14: A Closer Look"
-beginner-guitar :: "Fender CN-60S (Nylon): A Closer Look"
-beginner-guitar :: "Yamaha Pacifica 112V: A Closer Look"
-beginner-guitar :: "Squier Affinity Series Stratocaster: A Closer Look"
-beginner-guitar :: "Epiphone Les Paul Special-I: A Closer Look"
-beginner-guitar :: "Enya Nova Go Sonic: A Closer Look"
-scarlett-vs-ssl :: "SSL 2+ MKII: A Closer Look"
-best-electric-guitar :: "Strandberg Boden Essential 6: A Closer Look"
-best-electric-guitar :: "Ibanez AZ2402 Prestige: A Closer Look"
-best-electric-guitar :: "ESP E-II Eclipse DB: A Closer Look"
-best-electric-guitar :: "Yamaha Pacifica 112V: A Closer Look"
-best-electric-guitar :: "PRS SE Custom 24: A Closer Look"
-best-electric-guitar :: "Squier Classic Vibe '50s Stratocaster: A Closer Look"
-best-electric-guitar :: "Fender Player II Jazzmaster: A Closer Look"
-best-electric-guitar :: "Gibson Les Paul Standard '60s: A Closer Look"
-best-electric-guitar :: "Enya Nova Go Sonic: A Closer Look"
-ableton-vs-fl-studio :: "FL Studio Producer Edition: A Closer Look"
-best-guitar-home-office :: "Donner HUSH-I EVO2: A Closer Look"
-best-guitar-home-office :: "Lava ME 4: A Closer Look"
-fix-clipping-scarlett :: "Shure SM7B: A Closer Look"
-fix-clipping-scarlett :: "Universal Audio Apollo Twin X Gen 2: A Closer Look"
-fix-clipping-scarlett :: "Electro-Voice RE20: A Closer Look"
-fix-clipping-scarlett :: "Audient iD14 MkII: A Closer Look"
-best-mic-for-podcasting :: "Shure SM58: A Closer Look"
-best-mic-for-podcasting :: "Rode PodMic: A Closer Look"
-best-mic-for-podcasting :: "Behringer XM8500: A Closer Look"
-best-daw-for-beginners :: "FL Studio Producer Edition: A Closer Look"
-best-daw-for-beginners :: "Reason Studios Reason 14: A Closer Look"
-best-daw-for-beginners :: "Steinberg Cubase Pro 15: A Closer Look"
-best-headphones-for-mixing :: "Sony MDR-7506: A Closer Look"
-best-beginner-electric-guitar :: "Yamaha Pacifica 112V: A Closer Look"
-best-beginner-electric-guitar :: "Squier Affinity Series Stratocaster: A Closer Look"
-best-beginner-electric-guitar :: "Ibanez Gio GRG121DX: A Closer Look"
-best-beginner-electric-guitar :: "Epiphone Les Paul Special-II E1: A Closer Look"
-best-beginner-electric-guitar :: "Jet Guitars JS-300: A Closer Look"
-best-beginner-electric-guitar :: "Enya Nova Go Sonic: A Closer Look"
-best-bass-amps :: "Boss Katana-110 Bass: A Closer Look"
-best-overdrive-distortion :: "MXR Phase 95: A Closer Look"
-best-live-sound-mixers :: "Korg SoundLink MW-1608: A Closer Look"
-best-pa-speakers :: "Mackie Thump215XT: A Closer Look"
-best-pa-speakers :: "EV ELX200-15P: A Closer Look"
-best-pa-speakers :: "JBL PRX915: A Closer Look"
-best-synthesizers :: "Arturia MicroFreak: A Closer Look"
-best-synthesizers :: "Behringer DeepMind 12: A Closer Look"
-best-synthesizers :: "ASM Hydrasynth: A Closer Look"
-best-digital-mixers :: "Behringer X Air XR18: A Closer Look"
-best-digital-mixers :: "Soundcraft Ui24R: A Closer Look"
-best-digital-mixers :: "PreSonus StudioLive 32SC: A Closer Look"
-best-digital-mixers :: "Yamaha DM3S: A Closer Look"
-best-compact-mixers :: "Behringer X32 Rack: A Closer Look"
-best-compact-mixers :: "Soundcraft Ui24R: A Closer Look"
-best-compact-mixers :: "Behringer WING Rack: A Closer Look"
-best-compact-mixers :: "Allen & Heath SQ-Rack: A Closer Look"
-best-compact-mixers :: "Behringer X Air XR18: A Closer Look"
-best-compact-mixers :: "Midas M32C: A Closer Look"
-best-compact-mixers :: "Allen & Heath CQ-20B: A Closer Look"
-best-compact-mixers :: "PreSonus StudioLive SE 24R: A Closer Look"
-budget-pa-systems :: "JBL EON712: A Closer Look"
-precision-vs-jazz :: "Fender Player II Jazz Bass: A Closer Look"
-scarlett-vs-motu :: "Focusrite Scarlett 2i2 4th Gen: A Closer Look"
-ableton-vs-logic :: "Ableton Live 12 Suite: A Closer Look"
-ableton-vs-logic :: "Logic Pro: A Closer Look"
-active-vs-passive-pa :: "JBL EON712 Powered Speaker: A Closer Look"
-active-vs-passive-pa :: "JBL JRX215: A Closer Look"
-pro-microphones :: "Austrian Audio OC818: A Closer Look"
-pro-microphones :: "Sennheiser e 906: A Closer Look"
-pro-microphones :: "Beyerdynamic M 201: A Closer Look"
-pro-monitors :: "Neumann KH 120-II: A Closer Look"
-pro-monitors :: "Dynaudio Core 7: A Closer Look"
-pro-plugins :: "UA 1176 Classic Limiter Collection: A Closer Look"
-pro-plugins :: "TDR Kotelnikov GE: A Closer Look"
-pro-plugins :: "iZotope RX 12 Advanced: A Closer Look"
-beat-making :: "Focusrite Scarlett 2i2 4th Gen: A Closer Look"
-beat-making :: "Beyerdynamic DT 770 Pro: A Closer Look"
-me90-vs-mx5 :: "Boss ME-90: A Closer Look"
-best-instrument-mics :: "Sennheiser e 906: A Closer Look"
-best-instrument-mics :: "Beyerdynamic M 201: A Closer Look"
-best-instrument-mics :: "Audix D6: A Closer Look"
-best-instrument-mics :: "Shure Beta 52A: A Closer Look"
-stream-controllers :: "Roland Bridge Cast X: A Closer Look"
-wireless-lapel-mics :: "DJI Mic 3 (2TX + 1RX + Charging Case): A Closer Look"
-mics-for-creators :: "Shure MV7+: A Closer Look"
-mics-for-creators :: "Rode PodMic USB: A Closer Look"
-mics-for-creators :: "HyperX QuadCast 2: A Closer Look"
-mics-for-creators :: "Elgato Wave:3: A Closer Look"
-mics-for-creators :: "Audio-Technica AT2020: A Closer Look"
-mics-for-creators :: "Samson Q2U USB/XLR Microphone: A Closer Look"
-mics-for-creators :: "FIFINE AmpliGame AM8 Dynamic USB Microphone: A Closer Look"
-mics-for-creators :: "Maono PM461 USB Microphone: A Closer Look"
-mics-for-creators :: "TONOR TC-777 USB Microphone: A Closer Look"
-mics-for-creators :: "Blue Yeti USB Microphone: A Closer Look"
-rode-wireless-pro-vs-dji-mic-2 :: "DJI Mic 3 (2TX + 1RX + Charging Case): A Closer Look"
-best-electric-guitars-2026 :: "Strandberg Boden Essential 6: A Closer Look"
-best-electric-guitars-2026 :: "Ibanez AZ2402 Prestige: A Closer Look"
-best-electric-guitars-2026 :: "ESP E-II Eclipse DB: A Closer Look"
-best-shotgun-mics :: "Rode NTG3: A Closer Look"
-best-shotgun-mics :: "Audio-Technica AT897: A Closer Look"
-best-ribbon-mics :: "sE Electronics Voodoo VR2: A Closer Look"
-best-ribbon-mics :: "Beyerdynamic M 160: A Closer Look"
-best-ribbon-mics :: "Coles 4038: A Closer Look"
-best-ribbon-mics :: "Royer R-121: A Closer Look"
-best-in-ear-monitors :: "Sennheiser IE 900: A Closer Look"
-best-in-ear-monitors :: "Shure SE846 Gen 2: A Closer Look"
-best-in-ear-monitors :: "Xvive U4 Wireless In-Ear Monitor System: A Closer Look"
-best-in-ear-monitors :: "Phenyx Pro PTM-10 UHF Stereo IEM System: A Closer Look"
-di-box :: "Whirlwind IMP 2 Passive Direct Box: A Closer Look"
-di-box :: "Walrus Audio Canvas Mono Line Isolator / DI: A Closer Look"
+tpl (0)
 
-noReview (51)
-starter-studio -> 15, 5, 25, 20
-best-headphones -> 56, 57
-best-monitors -> 117, 303
-budget-mics -> 5, 330, 278, 50, 197, 297, 196
-stage-mics -> 228
-budget-monitors -> 117
-monitor-setup -> 647, 648, 649, 650, 651
-studio-furniture -> 39
-fender-guide -> 124, 444, 126, 440
-stage-wireless -> 91, 92, 95
-guitar-pedals -> 98
-acoustic-guitars-guide -> 104, 452, 454, 455, 456, 457
-live-sound-pa -> 105, 494, 152
-budget-interfaces -> 53
-best-electric-guitar -> 6, 309, 310, 313, 124, 444, 440, 126
-hd490-pro-vs-dt990 -> 56
-k371-vs-mdr7506 -> 26
-re20-vs-sm7b -> 1
+
+noReview (1)
 blx288-vs-ewd -> 91, 93
-katana-vs-dsl -> 72
-best-guitar-home-office -> 271, 295
-fix-clipping-scarlett -> 18
-best-mic-for-guitar-amps -> 51
-best-mic-for-podcasting -> 329, 1, 3
-best-daw-for-beginners -> 110
-best-headphones-for-mixing -> 56, 25, 24
-best-monitors-for-small-rooms -> 117, 308
-best-beginner-electric-guitar -> 462
-best-bass-amps -> 485, 484
-best-live-sound-mixers -> 139
-best-pa-speakers -> 105, 106, 108
-best-digital-pianos -> 141, 565, 573, 567
-best-synthesizers -> 478
-best-analog-mixers -> 333, 149
-budget-pa-systems -> 151
-precision-vs-jazz -> 441
-scarlett-vs-motu -> 54
-active-vs-passive-pa -> 105, 106, 495, 502, 499, 500
-pro-monitors -> 223, 224
-pro-plugins -> 62, 63
-beat-making -> 256, 1
-best-instrument-mics -> 5, 208, 214, 215
-stream-controllers -> 243
-streaming-interfaces -> 240
-wireless-lapel-mics -> 254
-best-hardware-samplers -> 255, 256, 127
-ie900-vs-se846 -> 268
-budget-usb-mics -> 276, 284, 287, 277, 280, 439, 289
-best-electric-guitars-2026 -> 6
-best-in-ear-monitors -> 266, 349, 362
-di-box -> 445, 446, 451
 
-noVPC (27)
-starter-studio (prod 4 / verd 15)
+noVPC (73)
+starter-studio (prod 10 / verd 15)
+best-headphones (prod 10 / verd 12)
+best-monitors (prod 10 / verd 12)
+budget-mics (prod 16 / verd 23)
 stage-mics (prod 9 / verd 10)
 portable-interfaces (prod 9 / verd 10)
-budget-monitors (prod 4 / verd 6)
-midi-controllers (prod 4 / verd 7)
-fender-guide (prod 7 / verd 8)
-stage-wireless (prod 4 / verd 5)
-best-guitar-home-office (prod 9 / verd 8)
-fix-clipping-scarlett (prod 4 / verd 9)
-best-mic-for-podcasting (prod 6 / verd 10)
-best-daw-for-beginners (prod 3 / verd 6)
-best-headphones-for-mixing (prod 5 / verd 6)
-best-beginner-electric-guitar (prod 4 / verd 10)
-best-practice-amps (prod 3 / verd 6)
-best-digital-pianos (prod 5 / verd 8)
-best-digital-mixers (prod 5 / verd 11)
-pro-microphones (prod 5 / verd 2)
-pro-monitors (prod 6 / verd 2)
-pro-plugins (prod 7 / verd 2)
-beat-making (prod 7 / verd 9)
+budget-monitors (prod 5 / verd 6)
+monitor-setup (prod 4 / verd 9)
+studio-furniture (prod 6 / verd 7)
+fender-guide (prod 3 / verd 8)
+stage-wireless (prod 1 / verd 5)
+guitar-pedals (prod 7 / verd 8)
+acoustic-guitars-guide (prod 1 / verd 7)
+live-sound-pa (prod 6 / verd 9)
+budget-interfaces (prod 8 / verd 9)
+scarlett-vs-ssl (prod 3 / verd 2)
+best-electric-guitar (prod 9 / verd 17)
+scarlett-vs-volt (prod 4 / verd 2)
+audient-vs-motu (prod 4 / verd 2)
+rme-vs-motu (prod 3 / verd 2)
+adam-vs-genelec (prod 4 / verd 2)
+jbl-vs-kali (prod 4 / verd 2)
+hd490-pro-vs-dt990 (prod 1 / verd 2)
+m50x-vs-dt770 (prod 4 / verd 2)
+k371-vs-mdr7506 (prod 1 / verd 2)
+sm7b-vs-nt1 (prod 3 / verd 2)
+sm57-vs-md421 (prod 3 / verd 2)
+c414-vs-u87 (prod 4 / verd 2)
+re20-vs-sm7b (prod 1 / verd 2)
+zlx-vs-k12 (prod 4 / verd 2)
+dxr-vs-prx (prod 3 / verd 2)
+player-strat-vs-pacifica (prod 3 / verd 2)
+american-pro-vs-les-paul (prod 3 / verd 2)
+ableton-vs-fl-studio (prod 4 / verd 2)
+pro-tools-vs-cubase (prod 3 / verd 2)
+blues-junior-vs-ac30 (prod 3 / verd 2)
+katana-vs-dsl (prod 1 / verd 2)
+best-guitar-home-office (prod 7 / verd 8)
+fix-clipping-scarlett (prod 9 / verd 5)
+best-mic-for-guitar-amps (prod 6 / verd 7)
+best-mic-for-podcasting (prod 4 / verd 10)
+best-daw-for-beginners (prod 4 / verd 6)
+best-headphones-for-mixing (prod 2 / verd 6)
+best-monitors-for-small-rooms (prod 10 / verd 12)
+best-beginner-electric-guitar (prod 6 / verd 10)
+best-bass-amps (prod 5 / verd 7)
+best-live-sound-mixers (prod 9 / verd 10)
+best-pa-speakers (prod 3 / verd 6)
+best-digital-pianos (prod 1 / verd 8)
+best-synthesizers (prod 7 / verd 8)
+best-analog-mixers (prod 4 / verd 5)
+xr18-vs-m32r (prod 4 / verd 2)
+xr18-vs-cq18t (prod 3 / verd 2)
+yamaha-mg-vs-behringer-xenyx (prod 3 / verd 2)
+budget-pa-systems (prod 4 / verd 5)
+scarlett-vs-motu (prod 5 / verd 2)
+active-vs-passive-pa (prod 3 / verd 9)
+pro-monitors (prod 6 / verd 4)
+pro-plugins (prod 7 / verd 4)
+beat-making (prod 5 / verd 9)
 best-looper-pedals (prod 8 / verd 9)
-best-instrument-mics (prod 6 / verd 14)
+best-instrument-mics (prod 4 / verd 14)
+stream-controllers (prod 10 / verd 11)
 streaming-interfaces (prod 6 / verd 7)
-mics-for-creators (prod 5 / verd 16)
-best-parlor-guitars (prod 5 / verd 7)
-best-ribbon-mics (prod 2 / verd 5)
-best-in-ear-monitors (prod 5 / verd 8)
+wireless-lapel-mics (prod 6 / verd 7)
+mics-for-creators (prod 13 / verd 16)
+best-hardware-samplers (prod 4 / verd 7)
+rode-wireless-pro-vs-dji-mic-2 (prod 3 / verd 2)
+budget-usb-mics (prod 6 / verd 13)
+best-electric-guitars-2026 (prod 9 / verd 10)
+beatmaker-plugins (prod 6 / verd 5)
+best-in-ear-monitors (prod 4 / verd 8)
+di-box (prod 4 / verd 7)
 
 noTitleEs (0)
 
