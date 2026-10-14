@@ -13014,5 +13014,40 @@
     "excludeStores": [
       "reverb"
     ]
+  },
+  {
+    "id": 681,
+    "title": "Yamaha BB234",
+    "title_es": "Yamaha BB234",
+    "brand": "Yamaha",
+    "category": "bass",
+    "price": 359,
+    "desc": "Indestructible alder workhorse with ceramic V3 P/J pickups, slim maple neck and passive Vol/Vol/Tone. 21 frets, 34-inch scale, open-gear tuners — a decade-long beginner bass.",
+    "desc_es": "Caballo de batalla de aliso con pastillas cerámicas V3 P/J, mástil fino de maple y Vol/Vol/Tono pasivos. 21 trastes, escala 34 pulgadas, clavijas abiertas: un bajo para una década.",
+    "img": "https://shop.usa.yamaha.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/a/3a070ac30dcf4e068153143e124a2af8_12073_a4053d844079393a84ee7aeb40287db9.jpg",
+    "image": "https://shop.usa.yamaha.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/a/3a070ac30dcf4e068153143e124a2af8_12073_a4053d844079393a84ee7aeb40287db9.jpg",
+    "stores": {},
+    "excludeStores": [
+      "reverb"
+    ]
+  },
+  {
+    "id": 682,
+    "title": "Ibanez TMB30 Talman",
+    "title_es": "Ibanez TMB30 Talman",
+    "brand": "Ibanez",
+    "category": "bass",
+    "price": 249,
+    "desc": "30-inch short-scale offset bass with Dynamix P/J pickups, poplar body and jatoba board. Passive 2xVol/Tone, vintage tuners — PJ versatility with zero stretch.",
+    "desc_es": "Bajo offset de escala corta 30 pulgadas con pastillas Dynamix P/J, cuerpo de álamo y diapasón de jatoba. Pasivo 2xVol/Tono, clavijas vintage: versatilidad PJ sin estirarse.",
+    "img": "https://www.ibanez.com/common/product_artist_file/file/p_region_TMB30_BK_1P_03.png",
+    "image": "https://www.ibanez.com/common/product_artist_file/file/p_region_TMB30_BK_1P_03.png",
+    "stores": {
+      "amazon": "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Ibanez-Standard-TMB30-MGR-Mint-Green/art-BAS0010182-000"
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   }
 ]

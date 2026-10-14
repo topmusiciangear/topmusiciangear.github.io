@@ -68019,7 +68019,9 @@
           161,
           157,
           326,
-          680
+          680,
+          681,
+          682
         ]
       },
       {
@@ -68117,6 +68119,24 @@
         ],
         "content": "<p><strong>The Sonic Bronco is the shortest path to playing bass.</strong> A 30-inch short scale with slim C maple neck, narrow 1.5-inch nut and light poplar body means small hands reach everything without stretching. One ceramic single-coil with volume and tone keeps the choices to zero — plug in and play.</p><p><strong>The honest trade.</strong> A single middle pickup covers classic thump but not J-style articulation or modern active bite, and 19 frets end the story early for soloists. Around ~$259, it is the cheapest comfortable start here — ideal for kids, guitar converts and small hands.</p>",
         "content_es": "<p><strong>El Sonic Bronco es el camino más corto a tocar el bajo.</strong> Escala corta de 30 pulgadas con mástil C de maple, cejuela estrecha de 1,5 pulgadas y cuerpo ligero de álamo: las manos pequeñas llegan a todo sin estirarse. Una single-coil cerámica con volumen y tono deja las decisiones en cero: enchufar y tocar.</p><p><strong>Lo honesto.</strong> Una sola pastilla central cubre el thump clásico pero no la articulación J ni la mordida activa moderna, y 19 trastes cierran pronto la historia para solistas. Por ~$259, es el inicio cómodo más barato aquí: ideal para niños, conversos de guitarra y manos pequeñas.</p>"
+      },
+      {
+        "heading": "Yamaha BB234: A PJ Workhorse for a Decade",
+        "heading_es": "Yamaha BB234: un PJ todoterreno para una década",
+        "products": [
+          681
+        ],
+        "content": "<p><strong>The BB234 is the buy-it-once beginner bass.</strong> A solid alder body with ceramic V3 P/J pickups delivers clean, punchy tone with serious output, while the slim maple neck (thinner than previous BBs) and 21 medium frets keep learning fatigue-free. Passive Vol/Vol/Tone means zero batteries and zero menus.</p><p><strong>The honest trade.</strong> Full 34-inch scale demands real stretching from small hands, there is no active EQ option for modern slap tones, and plain finishes bore players who want stage flash. Around ~$359, it is the safe pick that lasts a decade.</p>",
+        "content_es": "<p><strong>El BB234 es el bajo de principiante para comprar una sola vez.</strong> Cuerpo sólido de aliso con pastillas cerámicas V3 P/J de tono limpio y pegada con salida seria, mientras el mástil fino de maple (más delgado que BBs anteriores) y 21 trastes medianos evitan la fatiga. Vol/Vol/Tono pasivos: cero baterías y cero menús.</p><p><strong>Lo honesto.</strong> La escala completa de 34 pulgadas exige estirar manos pequeñas, no hay opción activa para slap moderno y los acabados sobrios aburren a quien quiere flash. Por ~$359, es la compra segura que dura una década.</p>"
+      },
+      {
+        "heading": "Ibanez TMB30: Short-Scale PJ on a Budget",
+        "heading_es": "Ibanez TMB30: PJ de escala corta económico",
+        "products": [
+          682
+        ],
+        "content": "<p><strong>The TMB30 answers the Bronco with two pickups.</strong> A 30-inch short scale in an offset Talman body with poplar warmth, Dynamix P/J pickups cover thump to snap while low tension keeps beginner fingers pain-free. Passive 2xVol/Tone, jatoba board, vintage tuners and B10 bridge — photogenic and simple.</p><p><strong>The honest trade.</strong> 20 frets and basic hardware cap soloing and finesse, and short scale flops with heavy strings. Around ~$249, it is silly value for a compact PJ — ideal for kids, converts and couch practice.</p>",
+        "content_es": "<p><strong>El TMB30 responde al Bronco con dos pastillas.</strong> Escala corta de 30 pulgadas en cuerpo offset Talman con calidez de álamo, pastillas Dynamix P/J del thump al snap mientras la baja tensión cuida dedos principiantes. Pasivo 2xVol/Tono, jatoba, clavijas vintage y puente B10: fotogénico y simple.</p><p><strong>Lo honesto.</strong> 20 trastes y hardware básico limitan solos y finura, y la escala corta flojea con cuerdas gruesas. Por ~$249, es valor absurdo para un PJ compacto: ideal para niños, conversos y sillón.</p>"
       }
     ],
     "conclusion": "Start with a Yamaha TRBX304 or Squier Affinity PJ for the best combination of comfort, tone, and value. The P-Bass vs J-Bass decision comes down to whether you want a thick, punchy sound (P-Bass) or a bright, versatile tone (J-Bass). Either way, you're building on a design that's been proven for over 60 years.\n\n<a href=\"/guides/precision-vs-jazz.html\" class=\"guide-link-btn\">P-Bass vs J-Bass comparison</a> <a href=\"/guides/fender-bass-guide.html\" class=\"guide-link-btn\">Fender bass guide</a> <a href=\"/guides/budget-bass-like-expensive.html\" class=\"guide-link-btn\">budget basses that sound premium</a> <a href=\"/guides/best-bass-under-700.html\" class=\"guide-link-btn\">best basses under $700</a>",
@@ -68131,7 +68151,9 @@
       157,
       326,
       163,
-      680
+      680,
+      681,
+      682
     ],
     "relatedGuides": [
       "best-bass-under-700",
@@ -68277,6 +68299,14 @@
         {
           "title": "Squier Sonic Bronco Bass",
           "title_es": "Squier Sonic Bronco Bass"
+        },
+        {
+          "title": "Yamaha BB234",
+          "title_es": "Yamaha BB234"
+        },
+        {
+          "title": "Ibanez TMB30 Talman",
+          "title_es": "Ibanez TMB30 Talman"
         }
       ],
       "rows": [
@@ -68315,6 +68345,14 @@
             {
               "value": "Short-scale comfort on a budget",
               "value_es": "Escala corta con poco presupuesto"
+            },
+            {
+              "value": "Tough PJ workhorse for years",
+              "value_es": "PJ todoterreno para años"
+            },
+            {
+              "value": "Short-scale PJ versatility",
+              "value_es": "PJ versátil en escala corta"
             }
           ]
         },
@@ -68353,6 +68391,14 @@
             {
               "value": "~$259",
               "value_es": "~$259"
+            },
+            {
+              "value": "~$359",
+              "value_es": "~$359"
+            },
+            {
+              "value": "~$249",
+              "value_es": "~$249"
             }
           ]
         },
@@ -68383,6 +68429,14 @@
             {
               "value": "Alder",
               "value_es": "Aliso"
+            },
+            {
+              "value": "Alder",
+              "value_es": "Aliso"
+            },
+            {
+              "value": "Poplar",
+              "value_es": "Álamo"
             },
             {
               "value": "Alder",
@@ -68429,6 +68483,14 @@
             {
               "value": "Maple C, 19 frets",
               "value_es": "Maple C, 19 trastes"
+            },
+            {
+              "value": "Maple, 21 frets",
+              "value_es": "Maple, 21 trastes"
+            },
+            {
+              "value": "Maple, 20 frets",
+              "value_es": "Maple, 20 trastes"
             }
           ]
         },
@@ -68467,6 +68529,14 @@
             {
               "value": "19, laurel",
               "value_es": "19, laurel"
+            },
+            {
+              "value": "21, rosewood",
+              "value_es": "21, palisandro"
+            },
+            {
+              "value": "20, jatoba",
+              "value_es": "20, jatoba"
             }
           ]
         },
@@ -68505,6 +68575,14 @@
             {
               "value": "1x ceramic single-coil",
               "value_es": "1x single-coil cerámica"
+            },
+            {
+              "value": "Ceramic P/J (V3)",
+              "value_es": "Cerámica P/J (V3)"
+            },
+            {
+              "value": "Dynamix P/J",
+              "value_es": "Dynamix P/J"
             }
           ]
         },
@@ -68539,6 +68617,14 @@
             {
               "value": "Passive",
               "value_es": "Pasivo"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasiva"
+            },
+            {
+              "value": "Passive",
+              "value_es": "Pasiva"
             },
             {
               "value": "Passive",
@@ -68581,6 +68667,14 @@
             {
               "value": "30 in (762 mm)",
               "value_es": "30 in (762 mm)"
+            },
+            {
+              "value": "34 in (864 mm)",
+              "value_es": "34 in (864 mm)"
+            },
+            {
+              "value": "30 in (762 mm)",
+              "value_es": "30 in (762 mm)"
             }
           ]
         },
@@ -68619,6 +68713,14 @@
             {
               "value": "Volume, tone",
               "value_es": "Volumen, tono"
+            },
+            {
+              "value": "Vol, vol, tone",
+              "value_es": "Vol, vol, tono"
+            },
+            {
+              "value": "2x vol, tone",
+              "value_es": "2x vol, tono"
             }
           ]
         },
@@ -68657,6 +68759,14 @@
             {
               "value": "Die-cast sealed",
               "value_es": "Selladas die-cast"
+            },
+            {
+              "value": "Lightweight open-gear",
+              "value_es": "Open-gear ligeras"
+            },
+            {
+              "value": "Vintage-style",
+              "value_es": "Estilo vintage"
             }
           ]
         },
@@ -68683,6 +68793,14 @@
             {
               "value": "8.0 lb (3.6 kg)",
               "value_es": "3,6 kg"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
+            },
+            {
+              "value": "Not published (varies by unit)",
+              "value_es": "No publicado (varía por unidad)"
             },
             {
               "value": "Not published (varies by unit)",
@@ -68923,6 +69041,62 @@
           "19 trastes limitan solos en registro agudo",
           "Hardware y electrónica básicos según el precio",
           "La escala corta se afloja con cuerdas gruesas"
+        ]
+      },
+      {
+        "name": "Yamaha BB234",
+        "name_es": "Yamaha BB234",
+        "pros": [
+          "Ceramic V3 P/J with serious clean output",
+          "Slim maple neck, 21 frets, fatigue-free learning",
+          "Passive Vol/Vol/Tone — no batteries, no menus",
+          "Alder body and open-gear tuners built for the road"
+        ],
+        "cons": [
+          "34-inch scale stretches small hands",
+          "No active EQ for modern slap tones",
+          "Plain finishes bore flash seekers",
+          "~$359 costs more than short-scale rivals"
+        ],
+        "pros_es": [
+          "P/J cerámicas V3 con salida seria y limpia",
+          "Mástil fino de maple, 21 trastes, aprendizaje sin fatiga",
+          "Vol/Vol/Tono pasivos: sin baterías ni menús",
+          "Aliso y clavijas abiertas hechos para la gira"
+        ],
+        "cons_es": [
+          "La escala de 34 estira manos pequeñas",
+          "Sin EQ activa para slap moderno",
+          "Los acabados sobrios aburren",
+          "~$359 cuesta más que rivales cortos"
+        ]
+      },
+      {
+        "name": "Ibanez TMB30 Talman",
+        "name_es": "Ibanez TMB30 Talman",
+        "pros": [
+          "30-inch short scale, zero stretch, low tension",
+          "Dynamix P/J covers thump to snap",
+          "Passive simplicity with photogenic offset style",
+          "Ridiculous value near ~$249"
+        ],
+        "cons": [
+          "20 frets and basic hardware cap finesse",
+          "Short scale flops with heavy strings",
+          "Single pickup character per position, no blending magic",
+          "Light body can neck-dive on cheap straps"
+        ],
+        "pros_es": [
+          "Escala corta de 30: cero estirón, baja tensión",
+          "Dynamix P/J del thump al snap",
+          "Simplicidad pasiva con estilo offset fotogénico",
+          "Valor absurdo por ~$249"
+        ],
+        "cons_es": [
+          "20 trastes y hardware básico limitan finura",
+          "La escala corta flojea con cuerdas gruesas",
+          "Un carácter por pastilla, sin magia de mezcla",
+          "El cuerpo ligero cabecea con correas baratas"
         ]
       }
     ],

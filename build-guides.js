@@ -6069,6 +6069,21 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
     }
   },
+  681: {
+    prices: {
+    },
+    urls: {
+    }
+  },
+  682: {
+    prices: {
+      musicstore: "€241.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Ibanez-Standard-TMB30-MGR-Mint-Green/art-BAS0010182-000"
+    }
+  },
   680: {
     prices: {
       andertons: "£159.00",
