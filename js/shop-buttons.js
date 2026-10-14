@@ -5539,7 +5539,7 @@ const TEST_SHOP_BTN = {
   652: {
     prices: {
       gear4music: "£215.00",
-      musicstore: "€268.00",
+      musicstore: "€264.00",
       zzounds: "$249.00",
       andertons: "£205.00"
     },
@@ -5644,12 +5644,16 @@ const TEST_SHOP_BTN = {
   },
   673: {
     prices: {
-      gear4music: "£198.25"
+      gear4music: "£198.25",
+      musicstore: "€299.00",
+      andertons: "£199.00"
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Origin-Cardioid-Condenser-Microphone/1F3F",
       amazon: "https://www.amazon.com/dp/B019RVU0C0",
-      zzounds: "https://www.zzounds.com/item--ASTORIGIN"
+      zzounds: "https://www.zzounds.com/item--ASTORIGIN",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Aston-Microphones-Origin-Black-Bundle/art-REC0014747-000",
+      andertons: "https://www.andertons.co.uk/aston-origin-cardioid-condenser-microphone/"
     }
   },
   674: {
@@ -5664,7 +5668,7 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-Studio-Microphone-Nickel/art-REC0007197-000"
     }
   },
-
+
 }
 
 function shortTitle(title) {
