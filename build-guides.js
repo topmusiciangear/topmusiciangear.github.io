@@ -6069,6 +6069,13 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
     }
   },
+  679: {
+    prices: {
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B07MWZ9FMR"
+    }
+  },
   678: {
     prices: {
       musicstore: "€749.00",

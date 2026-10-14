@@ -12973,5 +12973,23 @@
     "excludeStores": [
       "reverb"
     ]
+  },
+  {
+    "id": 679,
+    "title": "IK Multimedia AXE I/O",
+    "title_es": "IK Multimedia AXE I/O",
+    "brand": "IK Multimedia",
+    "category": "interfaces",
+    "price": 399,
+    "desc": "Guitar-first 2-in/5-out USB interface with triple-topology Hi-Z inputs (JFET/PURE/ACTIVE), Z-TONE impedance, onboard tuner and noiseless Amp Out. 2 mic pres with phantom, MIDI, 24-bit/192kHz, AmpliTube 5 SE + TONEX SE included.",
+    "desc_es": "Interfaz USB 2-in/5-out pensada para guitarra con Hi-Z de triple topología (JFET/PURE/ACTIVE), impedancia Z-TONE, afinador a bordo y Amp Out sin ruido. 2 previos de micro con phantom, MIDI, 24 bits/192kHz, AmpliTube 5 SE + TONEX SE incluidos.",
+    "img": "https://r2.gear4music.com/media/44/448466/1200/preview.jpg",
+    "image": "https://r2.gear4music.com/media/44/448466/1200/preview.jpg",
+    "stores": {
+      "amazon": "https://www.amazon.com/dp/B07MWZ9FMR"
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   }
 ]
