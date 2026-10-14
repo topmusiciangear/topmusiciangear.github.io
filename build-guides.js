@@ -6057,8 +6057,16 @@ const TEST_SHOP_BTN = {
   },
   676: {
     prices: {
+      gear4music: "£2,199.00",
+      zzounds: "$3,499.00",
+      andertons: "£2,199.00",
+      musicstore: "€2,489.00"
     },
     urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audient-Horizon-8P-Thunderbolt-3-Audio-Interface/8EJC",
+      zzounds: "https://www.zzounds.com/item--ADIHORIZON8P?siid=398233",
+      andertons: "https://www.andertons.co.uk/audient-horizon-8p-audio-interface/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
     }
   },
   677: {

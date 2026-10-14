@@ -12922,9 +12922,14 @@
     "badge": "flagship",
     "desc": "Flagship 24x32 Thunderbolt 3 interface with 8 discrete console pres (75dB, Smartgain, ORBIT impedance), ESS 32-bit/192kHz conversion at 133dB and 0.99ms native tracking. DB25, ADAT, dual speakers; macOS only.",
     "desc_es": "Insignia 24x32 Thunderbolt 3 con 8 previos discretos de consola (75dB, Smartgain, impedancia ORBIT), conversión ESS 32 bits/192kHz a 133dB y tracking nativo a 0,99ms. DB25, ADAT, doble monitor; solo macOS.",
-    "img": "https://audient.com/wp-content/uploads/2026/08/horizon8p-angled.jpg",
-    "image": "https://audient.com/wp-content/uploads/2026/08/horizon8p-angled.jpg",
-    "stores": {},
+    "img": "https://r2.gear4music.com/media/142/1428719/1200/preview_1.jpg",
+    "image": "https://r2.gear4music.com/media/142/1428719/1200/preview_1.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audient-Horizon-8P-Thunderbolt-3-Audio-Interface/8EJC",
+      "zzounds": "https://www.zzounds.com/item--ADIHORIZON8P?siid=398233",
+      "andertons": "https://www.andertons.co.uk/audient-horizon-8p-audio-interface/",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
+    },
     "excludeStores": []
   },
   {
