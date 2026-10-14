@@ -5656,6 +5656,18 @@ const TEST_SHOP_BTN = {
       andertons: "https://www.andertons.co.uk/aston-origin-cardioid-condenser-microphone/"
     }
   },
+  676: {
+    prices: {
+    },
+    urls: {
+    }
+  },
+  677: {
+    prices: {
+    },
+    urls: {
+    }
+  },
   675: {
     prices: {
       zzounds: "$249.00",

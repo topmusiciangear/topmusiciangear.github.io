@@ -12911,5 +12911,35 @@
     "excludeStores": [
       "reverb"
     ]
+  },
+  {
+    "id": 676,
+    "title": "Audient Horizon 8P",
+    "title_es": "Audient Horizon 8P",
+    "brand": "Audient",
+    "category": "interfaces",
+    "price": 2199,
+    "badge": "flagship",
+    "desc": "Flagship 24x32 Thunderbolt 3 interface with 8 discrete console pres (75dB, Smartgain, ORBIT impedance), ESS 32-bit/192kHz conversion at 133dB and 0.99ms native tracking. DB25, ADAT, dual speakers; macOS only.",
+    "desc_es": "Insignia 24x32 Thunderbolt 3 con 8 previos discretos de consola (75dB, Smartgain, impedancia ORBIT), conversión ESS 32 bits/192kHz a 133dB y tracking nativo a 0,99ms. DB25, ADAT, doble monitor; solo macOS.",
+    "img": "https://audient.com/wp-content/uploads/2026/08/horizon8p-angled.jpg",
+    "image": "https://audient.com/wp-content/uploads/2026/08/horizon8p-angled.jpg",
+    "stores": {},
+    "excludeStores": []
+  },
+  {
+    "id": 677,
+    "title": "Antelope Orion Studio Synergy Core",
+    "title_es": "Antelope Orion Studio Synergy Core",
+    "brand": "Antelope Audio",
+    "category": "interfaces",
+    "price": 2895,
+    "badge": "flagship",
+    "desc": "1U 30x44 Thunderbolt/USB interface with 12 discrete 75dB pres and 6DSP+2FPGA running 50 FX at near-zero latency. AFC clocking, 130dB conversion, room correction, dual-host backup recording.",
+    "desc_es": "Interfaz 1U 30x44 Thunderbolt/USB con 12 previos discretos de 75dB y 6DSP+2FPGA con 50 efectos en latencia casi cero. Reloj AFC, conversión 130dB, room correction, doble host de respaldo.",
+    "img": "https://en.antelopeaudio.com/wp-content/uploads/2026/06/Orion_Studio_SC_Front-1_new_logo.png",
+    "image": "https://en.antelopeaudio.com/wp-content/uploads/2026/06/Orion_Studio_SC_Front-1_new_logo.png",
+    "stores": {},
+    "excludeStores": []
   }
 ]
