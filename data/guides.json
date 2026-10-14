@@ -965,16 +965,6 @@
         "skipMedia": true
       },
       {
-        "heading": "Interfaces for Streaming & Podcasting",
-        "heading_es": "Interfaces para streaming y podcasting",
-        "content": "<p><strong>Streaming interfaces handle multiple audio sources in real-time.</strong> Unlike standard recording interfaces, they let you mix your mic, game audio, music, and notifications without routing through your DAW. Built-in effects, physical faders, and app integration are common features.</p><p>For our complete guide to streaming interfaces, visit <a class=\"guide-link-btn\" href=\"/guides/streaming-interfaces.html\">Best Streaming Interfaces</a> guide.</p>",
-        "content_es": "<p><strong>Las interfaces de streaming manejan múltiples fuentes de audio en tiempo real.</strong> A diferencia de las interfaces de grabación estándar, te permiten mezclar el micrófono, audio de juego, música y notificaciones sin pasar por el DAW. Efectos integrados, faders físicos e integración con apps son características comunes.</p><p>Para nuestra guía completa de interfaces de streaming, visita nuestra guía de <a class=\"guide-link-btn\" href=\"/guides/streaming-interfaces_es.html\">Mejores Interfaces de Streaming</a></p>",
-        "products": [
-          239,
-          240
-        ]
-      },
-      {
         "heading": "Focusrite Scarlett 2i2 4th Gen: A Closer Look",
         "heading_es": "Focusrite Scarlett 2i2 4th Gen: análisis detallado",
         "content": "<strong>Value in interfaces shows up as fewer retakes, not longer spec sheets.</strong> The Scarlett 2i2 fourth generation builds that case with two microphone preamps offering up to 69 dB of gain, 120 dB of dynamic range, and conversion rated at 24-bit and 192 kHz. Air mode lifts dull sources, while Auto Gain, Clip Safe, and loopback simplify tracking and streaming. The USB-C 2-in/2-out layout covers a mic plus guitar or keys without menu diving.\n\nThe unit suits recordists wanting the most forgiving all-around entry point for vocals and instruments at home. Twin inputs and bus power cap simultaneous sources and headroom-hungry dynamics, so growing drum setups or ribbon collections eventually demand a larger sibling rather than another adapter.",
@@ -1018,30 +1008,12 @@
         "products": [
           54
         ]
-      },
-      {
-        "heading": "Rode Rodecaster Duo: A Closer Look",
-        "heading_es": "Rode Rodecaster Duo: análisis detallado",
-        "content": "<strong>Podcast desks overflow with gadgets that refuse to cooperate.</strong> The Rodecaster Duo consolidates the mess into one compact production console carrying two Revolution preamps, a 5.5-inch touchscreen, six SMART pads, and a built-in wireless receiver. Faders, routing, effects, and recording live together, so interviews, co-hosts, and call-ins run from a single surface. The footprint fits beside a keyboard rather than demanding its own table.\n\nThe console suits podcasters and streamers who direct shows solo and value tactile pads plus touchscreen recall over open-ended DAW routing. Seasoned music engineers tracking drums or mixing stems through outboard chains find the broadcast focus restrictive, since the box optimizes spoken word instead of multitrack song craft.",
-        "content_es": "<strong>Los escritorios de pódcast se saturan de cacharros que no cooperan.</strong> El Rodecaster Duo concentra el desorden en una consola compacta con dos previos Revolution, pantalla táctil de 5,5 pulgadas, seis pads SMART y receptor inalámbrico integrado. Faders, ruteo, efectos y grabación conviven, así que entrevistas, coanfitriones y llamadas se dirigen desde una sola superficie. El tamaño cabe junto al teclado sin pedir mesa propia.\n\nLa consola conviene a podcasters y streamers que dirigen el programa en solitario y valoran pads táctiles y memoria de pantalla sobre el ruteo abierto del DAW. Los ingenieros musicales veteranos que graban baterías o mezclan stems con cadenas externas notarán el enfoque broadcast restrictivo, pues la caja optimiza palabra hablada en lugar de canciones multipista.",
-        "products": [
-          239
-        ]
-      },
-      {
-        "heading": "Roland Bridge Cast X: A Closer Look",
-        "heading_es": "Roland Bridge Cast X: análisis detallado",
-        "content": "<strong>The streaming interface for setups with a console, a PC and a camera at once.</strong> Dual-bus mixing separates the stream mix from the headphone mix, while XLR with phantom power, assignable control pads and voice processing cover the microphone side. Multiple USB-C and HDMI ports swallow consoles, PCs and cameras without a separate capture card.</p><p>Gamers and IRL creators juggling several sources get a single control surface instead of three boxes and a tangle of cables. Pure podcasters who only need two mics and a phone will find it oversized — this box earns its keep where video and multi-source audio collide.",
-        "content_es": "<strong>La interfaz de streaming para montajes con consola, PC y cámara a la vez.</strong> La mezcla de doble bus separa la mezcla del directo de la de auriculares, mientras el XLR con phantom, los pads asignables y el procesado de voz cubren el micro. Varios puertos USB-C y HDMI tragan consolas, PCs y cámaras sin capturadora aparte.</p><p>Gamers y creadores IRL malabareando fuentes consiguen una sola superficie de control en vez de tres cajas y un nudo de cables. Podcasters puros que solo necesitan dos micros y un teléfono la verán sobredimensionada — esta caja se gana el sueldo donde el vídeo y el audio multifuente chocan.",
-        "products": [
-          240
-        ]
       }
     ],
-    "conclusion": "Start with a Focusrite Scarlett 2i2 or Audient iD14 for general home recording. If you need portability, the Universal Audio Volt 2 or Audient EVO 4 travel well. For streaming and podcasting, get a dedicated streaming interface like the Rode Rodecaster Duo. The right interface depends on how many inputs you need and whether you're recording or streaming.\n\n<a href=\"/guides/budget-interfaces.html\" class=\"guide-link-btn\">best interfaces under $300</a> <a href=\"/guides/portable-interfaces.html\" class=\"guide-link-btn\">best portable interfaces</a> <a href=\"/guides/streaming-interfaces.html\" class=\"guide-link-btn\">best interfaces for streaming</a> <a href=\"/guides/scarlett-vs-ssl.html\" class=\"guide-link-btn\">Scarlett vs SSL comparison</a> <a href=\"/guides/starter-studio.html\" class=\"guide-link-btn\">home studio starter kit</a>",
-    "conclusion_es": "Empieza con una Focusrite Scarlett 2i2 o Audient iD14 para grabación casera general. Si necesitas portabilidad, la Universal Audio Volt 2 o Audient EVO 4 viajan bien. Para streaming y podcasting, consigue una interfaz de streaming dedicada como la Rode Rodecaster Duo. La interfaz adecuada depende de cuántas entradas necesitas y si estás grabando o haciendo stream. <a href=\"/guides/budget-interfaces_es.html\" class=\"guide-link-btn\">mejores interfaces por menos de $300</a> <a href=\"/guides/portable-interfaces_es.html\" class=\"guide-link-btn\">mejores interfaces portátiles</a> <a href=\"/guides/streaming-interfaces_es.html\" class=\"guide-link-btn\">mejores interfaces para streaming</a> <a href=\"/guides/scarlett-vs-ssl_es.html\" class=\"guide-link-btn\">comparativa Scarlett vs SSL</a> <a href=\"/guides/starter-studio_es.html\" class=\"guide-link-btn\">kit de inicio para estudio casero</a>",
-    "verdict": "Focusrite Scarlett 2i2 for beginners, Audient iD14 for better preamps, Universal Audio Volt 2 for portability, Rode Rodecaster Duo for streaming and podcasting.",
-    "verdict_es": "La Scarlett 2i2 es ideal para principiantes, la Audient iD14 para mejores previos, la Universal Audio Volt 2 para portabilidad y la Rode Rodecaster Duo para streaming y podcasting.",
+    "conclusion": "Start with a Focusrite Scarlett 2i2 or Audient iD14 for general home recording. If you need portability, the Universal Audio Volt 2 or Audient EVO 4 travel well. The right interface depends on how many inputs you need and whether you're recording or streaming.\n\n<a href=\"/guides/budget-interfaces.html\" class=\"guide-link-btn\">best interfaces under $300</a> <a href=\"/guides/portable-interfaces.html\" class=\"guide-link-btn\">best portable interfaces</a> <a href=\"/guides/streaming-interfaces.html\" class=\"guide-link-btn\">best interfaces for streaming</a> <a href=\"/guides/scarlett-vs-ssl.html\" class=\"guide-link-btn\">Scarlett vs SSL comparison</a> <a href=\"/guides/starter-studio.html\" class=\"guide-link-btn\">home studio starter kit</a>",
+    "conclusion_es": "Empieza con una Focusrite Scarlett 2i2 o Audient iD14 para grabación casera general. Si necesitas portabilidad, la Universal Audio Volt 2 o Audient EVO 4 viajan bien. La interfaz adecuada depende de cuántas entradas necesitas y si estás grabando o haciendo stream. <a href=\"/guides/budget-interfaces_es.html\" class=\"guide-link-btn\">mejores interfaces por menos de $300</a> <a href=\"/guides/portable-interfaces_es.html\" class=\"guide-link-btn\">mejores interfaces portátiles</a> <a href=\"/guides/streaming-interfaces_es.html\" class=\"guide-link-btn\">mejores interfaces para streaming</a> <a href=\"/guides/scarlett-vs-ssl_es.html\" class=\"guide-link-btn\">comparativa Scarlett vs SSL</a> <a href=\"/guides/starter-studio_es.html\" class=\"guide-link-btn\">kit de inicio para estudio casero</a>",
+    "verdict": "Focusrite Scarlett 2i2 for beginners, Audient iD14 for better preamps and Universal Audio Volt 2 for portability.",
+    "verdict_es": "La Scarlett 2i2 es ideal para principiantes, la Audient iD14 para mejores previos y la Universal Audio Volt 2 para portabilidad.",
     "featuredProducts": [
       15,
       18,
@@ -1050,9 +1022,7 @@
       53,
       54,
       55,
-      263,
-      239,
-      240
+      263
     ],
     "relatedGuides": [
       "budget-interfaces",
@@ -1679,62 +1649,6 @@
           "El modo Vintage añade unos dB, así que debes reajustar la ganancia al activarlo",
           "Parte del software incluido y algunas funciones se orientan a macOS",
           "Sin expansión ADAT para ampliar entradas"
-        ]
-      },
-      {
-        "name": "Rode Rodecaster Duo",
-        "name_es": "Rode Rodecaster Duo",
-        "pros": [
-          "Full broadcast studio in a desk-sized unit",
-          "Two Revolution preamps drive demanding mics with no booster",
-          "Touchscreen, SMART pads and wireless receiver built in",
-          "APHEX processing makes mics sound expensive"
-        ],
-        "pros_es": [
-          "estudio de radiodifusión completo en una unidad de escritorio",
-          "Dos previos Revolution mueven micrófonos exigentes sin booster",
-          "Pantalla táctil, pads SMART y receptor inalámbrico integrados",
-          "El procesamiento APHEX hace que los micros suenen caros"
-        ],
-        "cons": [
-          "It costs more than the Audient EVO 4 and UA Volt 276 combined for fewer input channels",
-          "Overkill if you already own a capable interface",
-          "Software learning curve on first setup",
-          "Bluetooth input is mono, so streaming from a phone or tablet loses the stereo image"
-        ],
-        "cons_es": [
-          "cuesta más que la Audient EVO 4 y la UA Volt 276 juntas por menos canales de entrada",
-          "Excesivo si ya tienes una interfaz capaz",
-          "Curva de aprendizaje del software en la primera configuración",
-          "La entrada Bluetooth es monoaural, así que al transmitir desde un teléfono o tableta se pierde la imagen estéreo"
-        ]
-      },
-      {
-        "name": "Roland Bridge Cast X",
-        "name_es": "Roland Bridge Cast X",
-        "pros": [
-          "Dual-bus mixer with independent stream and headphone mixes",
-          "HDMI video capture for console setups",
-          "XLR input with phantom power and voice processing",
-          "Assignable control pads for scenes, sounds and effects"
-        ],
-        "pros_es": [
-          "Mezclador de doble bus con mezclas independientes para directo y auriculares",
-          "Captura de vídeo HDMI para setups de consola",
-          "Entrada XLR con alimentación phantom y procesamiento de voz",
-          "Pads de control asignables para escenas, sonidos y efectos"
-        ],
-        "cons": [
-          "Same price as the more mature Rodecaster Duo",
-          "Its app and firmware are younger than Rode's, with fewer community presets and less tested workflows",
-          "No built-in wireless mic receiver, so wireless podcasting still needs a separate transmitter kit",
-          "One XLR input only, so multi-mic podcasts need an external mixer or a second unit"
-        ],
-        "cons_es": [
-          "Mismo precio que el más maduro Rodecaster Duo",
-          "Su app y firmware son más jóvenes que los de Rode, con menos presets de comunidad y flujos menos probados",
-          "Sin receptor de micrófono inalámbrico integrado, así que el podcasting inalámbrico aún necesita un kit de transmisor aparte",
-          "Solo una entrada XLR, así que los podcasts con varios micros necesitan una mesa externa o una segunda unidad"
         ]
       }
     ],
