@@ -6575,9 +6575,10 @@ function buildGuidePage(guide, lang, idx) {
     let sectionChips = '', productImgs = '', splitSide = false;
     if (!s.skipMedia && s.splitProducts && sectionProducts.length > 1) {
       const blocks = sectionProducts.map(p => {
-        if (renderedProducts.has(p.id)) return '';
-        if ((p.id in photoOwner) && photoOwner[p.id] !== si) return '';
-        renderedProducts.add(p.id);
+        if (renderedProducts.has(p.id) && !s.comparePhotos) return '';
+        var ownedElsewhere = (p.id in photoOwner) && photoOwner[p.id] !== si;
+        if (ownedElsewhere && !s.comparePhotos) return '';
+        if (!ownedElsewhere) renderedProducts.add(p.id);
         const t = isEs && p.title_es ? p.title_es : p.title;
         var prodVideo = p.video || null;
         var prodVideoHtml = '';
