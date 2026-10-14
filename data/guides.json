@@ -82053,6 +82053,108 @@
               "value_es": "Sí — HDMI 4K/60"
             }
           ]
+        },
+        {
+          "label": "Loopback",
+          "label_es": "Loopback",
+          "values": [
+            {
+              "value": "Yes — hardware buses",
+              "value_es": "Sí — buses por hardware"
+            },
+            {
+              "value": "Yes — hardware dual-bus",
+              "value_es": "Sí — doble bus por hardware"
+            },
+            {
+              "value": "Yes — dedicated channels",
+              "value_es": "Sí — canales dedicados"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes — built-in",
+              "value_es": "Sí — integrado"
+            },
+            {
+              "value": "Yes — stereo",
+              "value_es": "Sí — estéreo"
+            },
+            {
+              "value": "Yes — Multi-Stream ×3",
+              "value_es": "Sí — Multi-Stream ×3"
+            }
+          ]
+        },
+        {
+          "label": "Virtual USB Channels",
+          "label_es": "Canales USB virtuales",
+          "values": [
+            {
+              "value": "Yes — 7 assignable (4+3)",
+              "value_es": "Sí — 7 asignables (4+3)"
+            },
+            {
+              "value": "Yes — STREAM + PERSONAL",
+              "value_es": "Sí — STREAM + PERSONAL"
+            },
+            {
+              "value": "No — single device",
+              "value_es": "No — un solo dispositivo"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No — 12-in/2-out",
+              "value_es": "No — 12 entradas/2 salidas"
+            },
+            {
+              "value": "No — stereo only",
+              "value_es": "No — solo estéreo"
+            },
+            {
+              "value": "Yes — MAIN/SUB buses",
+              "value_es": "Sí — buses MAIN/SUB"
+            }
+          ]
+        },
+        {
+          "label": "Dual USB",
+          "label_es": "USB dual",
+          "values": [
+            {
+              "value": "Yes — 2× USB-C",
+              "value_es": "Sí — 2× USB-C"
+            },
+            {
+              "value": "Yes — USB I + II",
+              "value_es": "Sí — USB I + II"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "No",
+              "value_es": "No"
+            },
+            {
+              "value": "Yes — MAIN + SUB",
+              "value_es": "Sí — MAIN + SUB"
+            }
+          ]
         }
       ]
     },
