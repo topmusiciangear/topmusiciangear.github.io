@@ -6071,8 +6071,15 @@ const TEST_SHOP_BTN = {
   },
   681: {
     prices: {
+      gear4music: "£369.00",
+      andertons: "£379.00",
+      musicstore: "€399.00"
     },
     urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FYamaha-BB-234-4-String-Bass-Guitar-Black%2F21QT",
+      zzounds: "https://www.zzounds.com/item--YAMBB234",
+      andertons: "https://www.andertons.co.uk/yamaha-bb234-bass-guitar-in-black/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-BB234-Black/art-BAS0009147-000"
     }
   },
   682: {
