@@ -5699,6 +5699,12 @@ const TEST_SHOP_BTN = {
       amazon: "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250"
     }
   },
+  683: {
+    prices: {
+    },
+    urls: {
+    }
+  },
   680: {
     prices: {
       gear4music: "£170.00",

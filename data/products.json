@@ -9276,8 +9276,8 @@
     "img": "https://r2.gear4music.com/media/27/272942/1200/preview.jpg",
     "category": "bass",
     "brand": "Yamaha",
-    "desc": "The Yamaha BB434 is the passive studio workhorse of the historic BB 400 series. A solid alder body, 5-piece maple/mahogany neck and rock-solid 6-bolt miter neck joint deliver the stability and clarity that made the BB name famous. Custom-wound YGD Custom V5 pickups (Alnico V) — a split single coil in the neck, a single coil in the bridge — nail the definitive hybrid P/J voice. Passive volume, volume, tone controls keep it simple, reliable, and always ready to record.",
-    "desc_es": "La Yamaha BB434 es la bestia de carga pasiva de estudio de la histórica serie BB 400. El cuerpo de aliso macizo, el mástil de 5 piezas arce/caoba y la unión de 6 tornillos ofrecen la estabilidad y claridad que hicieron famoso el nombre BB. Las pastillas YGD Custom V5 (Alnico V) — una split coil en el mástil, una single coil en el puente — logran la voz híbrida P/J definitiva. Controles pasivos de volumen, volumen y tono la mantienen simple, confiable y siempre lista para grabar.",
+    "desc": "The Yamaha BB434 is the passive studio workhorse of the BB 400 series. Solid alder body, 5-piece maple/mahogany neck, 6-bolt miter joint and YGD Custom V5 Alnico V pickups (split single-coil neck plus single-coil bridge) for the definitive P/J voice. Its Vintage Plus Light bridge offers convertible stringing, including Diagonal Body Thru Stringing at 45 degrees for less string stress and faster sustain.",
+    "desc_es": "El Yamaha BB434 es la bestia pasiva de estudio de la serie BB 400. Cuerpo sólido de aliso, mástil de 5 piezas arce/caoba, unión de 6 tornillos y pastillas YGD Custom V5 Alnico V (split single-coil en el mástil más single-coil en el puente) para la voz P/J definitiva. Su puente Vintage Plus Light admite cordaje convertible, incluido el Diagonal Body Thru Stringing a 45 grados para menos tensión en las cuerdas y más sustain.",
     "stores": {
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FYamaha-BB-434-Bass-Tobacco-Brown-Sunburst%2F21RQ",
       "amazon": "https://www.amazon.com/dp/B074F3SPML",
@@ -13055,6 +13055,22 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Ibanez-Standard-TMB30-BK-Black/art-BAS0008306-000",
       "amazon": "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250"
     },
+    "excludeStores": [
+      "reverb"
+    ]
+  },
+  {
+    "id": 683,
+    "title": "G&L Tribute L-2000",
+    "title_es": "G&L Tribute L-2000",
+    "brand": "G&L",
+    "category": "bass",
+    "price": 0,
+    "desc": "Leo Fender's 1980 design with G&L Magnetic Field Design humbuckers built in Fullerton, California, and the Tri-Tone preamp: three mini toggles for pickup selection, series/parallel routing and passive/active operation. Ash top over poplar, hard-rock maple C neck, 21 medium jumbo frets, Saddle-Lock bridge.",
+    "desc_es": "El diseño de Leo Fender de 1980 con humbuckers G&L Magnetic Field Design construidos en Fullerton, California, y el previo Tri-Tone: tres miniswitches para selección de pastilla, ruteo serie/paralelo y operación pasiva/activa. Tapa de fresno sobre álamo, mástil en C de hard rock maple, 21 trastes medium jumbo, puente Saddle-Lock.",
+    "img": "https://media.musicshop360.com/THUMB_10989/IMG_3617.jpg",
+    "image": "https://media.musicshop360.com/THUMB_10989/IMG_3617.jpg",
+    "stores": {},
     "excludeStores": [
       "reverb"
     ]
