@@ -12811,17 +12811,12 @@
     "img": "https://r2.gear4music.com/media/72/726611/1200/preview.jpg",
     "stores": {
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-FLOW-8-8-Channel-Digital-Mixer/3N67",
-      "amazon": "https://www.amazon.com/dp/B08NDBQM5W"
+      "amazon": "https://www.amazon.com/dp/B08NDBQM5W",
+      "zzounds": "https://www.zzounds.com/item--BEHFLOW8",
+      "andertons": "https://www.andertons.co.uk/behringer-flow-8-8-input-digital-mixer-with-bluetooth-audio-app-contro/",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Behringer-Flow-8/art-PAH0022110-000"
     },
-    "excludeStores": [
-      "zzounds",
-      "musicstore",
-      "andertons",
-      "reverb"
-    ],
-    "oos": [
-      "gear4music"
-    ],
+    "excludeStores": [],
     "desc": "Eight-input digital mixer with six 60 mm channel faders, two independent studio-grade FX engines and a 10x2 USB audio interface, controlled from the free FLOW app over Bluetooth.",
     "desc_es": "Mezclador digital de ocho entradas con seis faders de canal de 60 mm, dos motores de efectos independientes de calidad estudio y una interfaz USB 10x2, controlable desde la app FLOW gratuita por Bluetooth."
   }

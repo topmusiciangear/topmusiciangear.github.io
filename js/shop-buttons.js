@@ -51,7 +51,7 @@ function euFlag() {
     '</g>' +
     '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
     '</svg>';
-}
+};
 
 function globeIcon() {
   const gid = 'gln' + (++FLAG_UID);
@@ -2151,7 +2151,7 @@ const TEST_SHOP_BTN = {
       andertons: "£399.00",
       musicstore: "€498.00"
     }
-  },
+  },
   262: {
     prices: {
       amazon: "$129.99",
@@ -5202,11 +5202,11 @@ const TEST_SHOP_BTN = {
     }
   },
   565: { prices: { amazon: "$1,319.99", zzounds: "$1,319.99", gear4music: "£799.00", andertons: "£839.00", musicstore: "€989.00" } },
-  567: { prices: { amazon: "$1,749.99", zzounds: "$1,749.99", gear4music: "£1,175.00", andertons: "£1,175.00", musicstore: "€1,399.00" } },
+  567: { prices: { amazon: "$1,749.99", zzounds: "$1,749.99", gear4music: "£1,175.00", andertons: "£1,175.00", musicstore: "€1,399.00" } },
   570: { prices: { amazon: "$3,299.99", gear4music: "£1,469.00", andertons: "£1,513.00", musicstore: "€1,799.00" }, na: ["zzounds"] },
   571: { prices: { zzounds: "$729.99", gear4music: "€505.00", andertons: "£399.00", musicstore: "€499.00" } },
   572: { prices: { amazon: "$499.99", andertons: "£399.00", gear4music: "£355.00", musicstore: "€419.00" }, oos: ["zzounds"] },
-  573: { prices: { amazon: "$1,299.99", zzounds: "$1,299.99", andertons: "£899.00", gear4music: "£899.00", musicstore: "€1,049.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YDP-146-Digital-Piano-Black/86R5" } },
+  573: { prices: { amazon: "$1,299.99", zzounds: "$1,299.99", andertons: "£899.00", gear4music: "£899.00", musicstore: "€1,049.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YDP-146-Digital-Piano-Black/86R5" } },
   577: { prices: { zzounds: "$799.99", gear4music: "£445.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor/54OK" } },
   578: { prices: { zzounds: "$659.99", gear4music: "£635.00", andertons: "£649.00", musicstore: "€777.00" } },
   579: { prices: { zzounds: "$1,799.00", andertons: "£1,449.00", musicstore: "€1,585.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Neural-DSP-Quad-Cortex/61MZ" } },
@@ -5611,16 +5611,23 @@ const TEST_SHOP_BTN = {
 
   671: {
     prices: {
-      gear4music: "£123.00",
-      amazon: "$199.00"
+      gear4music: "£144.00",
+      amazon: "$199.00",
+      andertons: "£144.00",
+      musicstore: "€169.00"
     },
-    na: ["musicstore","zzounds","andertons","reverb"],
+    oos: [
+      "zzounds"
+    ],
     urls: {
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-FLOW-8-8-Channel-Digital-Mixer/3N67",
-      amazon: "https://www.amazon.com/dp/B08NDBQM5W"
+      amazon: "https://www.amazon.com/dp/B08NDBQM5W",
+      zzounds: "https://www.zzounds.com/item--BEHFLOW8",
+      andertons: "https://www.andertons.co.uk/behringer-flow-8-8-input-digital-mixer-with-bluetooth-audio-app-contro/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Behringer-Flow-8/art-PAH0022110-000"
     }
   },
-
+
 }
 
 function shortTitle(title) {
@@ -5934,7 +5941,7 @@ window.tmgStoreButtons = function(p) {
         if (pbP) {
           var pbPE = pb.querySelector('.shop-price');
           if (pbPE) pbPE.outerHTML = tmgPriceHtml(pbP, true);
-          else pb.innerHTML = pb.innerHTML.replace(/- [£$€][0-9.,]+/, '- ' + tmgPriceHtml(pbP, true));
+          else pb.innerHTML = pb.innerHTML.replace(/- [\u00a3$\u20ac][0-9.,]+/, '- ' + tmgPriceHtml(pbP, true));
         }
         return;
       }
@@ -5947,7 +5954,7 @@ window.tmgStoreButtons = function(p) {
           if (hp) {
             var hpEl = pb.querySelector('.shop-price');
             if (hpEl) hpEl.outerHTML = tmgPriceHtml(hp, true);
-            else pb.innerHTML = pb.innerHTML.replace(/- [£$€][0-9.,]+/, '- ' + tmgPriceHtml(hp, true));
+            else pb.innerHTML = pb.innerHTML.replace(/- [\u00a3$\u20ac][0-9.,]+/, '- ' + tmgPriceHtml(hp, true));
           }
         }
         return;
@@ -5983,14 +5990,13 @@ window.tmgStoreButtons = function(p) {
         var dispNote = '';
         var dispRow = '<a data-store="' + curStore + '" href="' + aUrl + '"' + aAffAttr + ' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">' + dispFlag + '<span style="white-space:nowrap;flex-shrink:0;' + dispSt + '" class="shop-wm">' + dispNm + '</span></span>' + dispNote + dispPriceSpan + '</a>';
         ml2.insertAdjacentHTML('afterbegin', dispRow);
-      }
-      }
+      } }
     });
   }
   function quickTarget() {
     var tz = '';
     try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
-    var isUSTZ = /^America[/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay|Nassau|Fortaleza|Bahia_Banderas|Curacao|Guadeloupe|Martinique|St_Barthelemy|St_Kitts|St_Lucia|St_Thomas|St_Vincent|Aruba|Turks_and_Caicos|Cayman|Bermuda|Puerto_Rico|Virgin)/.test(tz);
+    var isUSTZ = /^America[/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay|Nassau|Fortaleza|Bahia_Banderas|Curacao|Guadeloupe|Martinique|St_Barthelemy|St_Kitts|St_Lucia|St_Thomas|St_Vincent|Aruba|Turks_and_Caicos|Cayman|Bermuda|Puerto_Rico|Virgin)\b/.test(tz);
     if (isUSTZ) return 'zzounds';
     if (/^Europe[/]London([/]|$)/.test(tz)) return 'gear4music';
     return null;
@@ -6043,17 +6049,6 @@ window.tmgStoreButtons = function(p) {
       x.onerror = x.ontimeout = function() { tzFallback(); };
       x.send();
     }
-    var y = new XMLHttpRequest();
-    y.open('GET', 'https://ipinfo.io/json', true);
-    y.timeout = 4000;
-    y.onload = function() {
-      try {
-        var r = JSON.parse(y.responseText);
-        if (r && r.country) { finish(r.country); return; }
-      } catch (e) {}
-      trySecond();
-    };
-    y.onerror = y.ontimeout = function() { trySecond(); };
     function tzFallback() {
       try { if (window.__tmgGeoResolved) return; } catch (e) {}
       var tz='';
@@ -6075,6 +6070,17 @@ window.tmgStoreButtons = function(p) {
       q.onerror = q.ontimeout = function() { tryTrace(); };
       q.send();
     }
+    var y = new XMLHttpRequest();
+    y.open('GET', 'https://ipinfo.io/json', true);
+    y.timeout = 4000;
+    y.onload = function() {
+      try {
+        var r = JSON.parse(y.responseText);
+        if (r && r.country) { finish(r.country); return; }
+      } catch (e) {}
+      trySecond();
+    };
+    y.onerror = y.ontimeout = function() { trySecond(); };
     y.send();
   };
 })();
