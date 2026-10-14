@@ -1008,6 +1008,15 @@
         "products": [
           54
         ]
+      },
+      {
+        "heading": "Universal Audio Volt 276: The One With the 1176 Compressor Built In",
+        "heading_es": "Universal Audio Volt 276: el que trae el compresor 1176 integrado",
+        "products": [
+          263
+        ],
+        "content": "<p><strong>The Volt 276 is the Volt 2 with one big addition: a real analog compressor on the way in.</strong> Everything else is familiar UA territory: a 2-in/2-out USB-C interface, two preamps with 55 dB of clean gain, phantom power, MIDI I/O and a class-leading headphone amp, running at 24-bit/192 kHz. The Vintage mode voices the preamp after the classic UA 610 tube preamp, the same circuit found in studios since the 1960s.</p><p><strong>The 76 compressor is the reason to pay the extra $100 over the Volt 2.</strong> It is an analog circuit inspired by the UA 1176, the FET compressor heard on countless records, and it works before the signal reaches your computer. That means peaks are tamed on the way in, so you can record hotter without clipping and skip the compressor plugin later. It has a fixed, musical character rather than deep controls, which is exactly what a beginner wants: one button that makes vocals and guitars sit.</p><p><strong>Know the limits before you buy.</strong> There are only two analog inputs and no ADAT expansion, so a drum kit or a full band is out of reach. If you will never touch a compressor, the cheaper Volt 2 gives you the same preamps and conversion for about $100 less.</p>",
+        "content_es": "<p><strong>El Volt 276 es el Volt 2 con un gran añadido: un compresor analógico real en la entrada.</strong> Todo lo demás es territorio UA familiar: una interfaz USB-C de 2 entradas y 2 salidas, dos previos con 55 dB de ganancia limpia, alimentación phantom, MIDI I/O y un amplificador de auriculares de primera, funcionando a 24 bits/192 kHz. El modo Vintage colorea el previo como el clásico previo de tubo UA 610, el mismo circuito de los estudios desde los años 60.</p><p><strong>El compresor 76 es el motivo para pagar los $100 extra sobre el Volt 2.</strong> Es un circuito analógico inspirado en el UA 1176, el compresor FET de infinidad de discos, y trabaja antes de que la señal llegue al ordenador. Eso significa que los picos se doman en la entrada, así que puedes grabar más caliente sin saturar y saltarte el plugin de compresor después. Tiene un carácter musical fijo en vez de controles profundos, que es justo lo que quiere un principiante: un botón que asienta voces y guitarras.</p><p><strong>Conviene saber los límites antes de comprar.</strong> Solo hay dos entradas analógicas y no hay expansión ADAT, así que una batería o una banda completa quedan fuera. Si nunca vas a tocar un compresor, el Volt 2 más barato te da los mismos previos y la misma conversión por unos $100 menos.</p>"
       }
     ],
     "conclusion": "Start with a Focusrite Scarlett 2i2 or Audient iD14 for general home recording. If you need portability, the Universal Audio Volt 2 or Audient EVO 4 travel well. The right interface depends on how many inputs you need and whether you're recording or streaming.\n\n<a href=\"/guides/budget-interfaces.html\" class=\"guide-link-btn\">best interfaces under $300</a> <a href=\"/guides/portable-interfaces.html\" class=\"guide-link-btn\">best portable interfaces</a> <a href=\"/guides/streaming-interfaces.html\" class=\"guide-link-btn\">best interfaces for streaming</a> <a href=\"/guides/scarlett-vs-ssl.html\" class=\"guide-link-btn\">Scarlett vs SSL comparison</a> <a href=\"/guides/starter-studio.html\" class=\"guide-link-btn\">home studio starter kit</a>",
@@ -1077,7 +1086,7 @@
       "faq_q3_es": "¿Necesito un Apollo Twin X Gen 2 para grabar con plugins UAD?",
       "faq_a3_es": "Sí — los plugins UAD que importan requieren hardware Apollo o una unidad DSP UAD-2. El Apollo Twin X Gen 2 ejecuta emulaciones de previo Unison y plugins integrados con latencia casi nula, una ventaja real al grabar voces o guitarras con efectos. Si no quieres comprometerte con UAD, los plugins nativos de FabFilter, Waves y SSL dan resultados comparables con cualquier interfaz.",
       "faq_q4_en": "Is the RME Babyface Pro FS worth the premium price?",
-      "faq_a4_en": "For professionals who rely on stability, yes. The RME Babyface Pro FS is renowned for rock-solid drivers, ultra-low latency and TotalMix FX routing — it fits in a backpack yet delivers conversion that outclasses interfaces twice its price. The trade-off is a small unit with minimal hands-on controls. If driver reliability and pristine conversion matter most, it is worth every cent; if not, cheaper interfaces sound great too.",
+      "faq_a4_en": "For professionals who rely on stability, yes. The RME Babyface Pro FS is renowned for rock-solid drivers, ultra-low latency and TotalMix FX routing — it fits in a backpack yet delivers conversion that outclasses interfaces twice its price. The trade-off is a small unit with minimal hands-on controls. If driver reliability and clean conversion matter most, it is worth every cent; if not, cheaper interfaces sound great too.",
       "faq_q4_es": "¿Merece la pena el precio premium del RME Babyface Pro FS?",
       "faq_a4_es": "Para profesionales que dependen de la estabilidad, sí. El RME Babyface Pro FS es famoso por sus drivers ultrafiables, latencia ultrabaja y enrutamiento TotalMix FX — cabe en una mochila y ofrece conversión que supera a interfaces del doble de precio. La contrapartida es una unidad pequeña con pocos controles manuales. Si la fiabilidad de drivers y la conversión impecable importan más, vale cada céntimo; si no, las interfaces baratas también suenan genial.",
       "faq_q5_en": "Is the Audient iD14 MkII a good interface for guitarists?",
@@ -1143,6 +1152,10 @@
         {
           "title": "Universal Audio Volt 2",
           "title_es": "Universal Audio Volt 2"
+        },
+        {
+          "title": "Universal Audio Volt 276",
+          "title_es": "Universal Audio Volt 276"
         }
       ],
       "rows": [
@@ -1177,6 +1190,10 @@
             {
               "value": "Vintage tone for home recording",
               "value_es": "Tono vintage para grabar en casa"
+            },
+            {
+              "value": "Analog compression on the way in",
+              "value_es": "Compresión analógica en la entrada"
             }
           ]
         },
@@ -1211,6 +1228,10 @@
             {
               "value": "$179–$199",
               "value_es": "$179–$199"
+            },
+            {
+              "value": "~$299",
+              "value_es": "~$299"
             }
           ]
         },
@@ -1218,6 +1239,10 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
+            {
+              "value": "Audio interface",
+              "value_es": "Interfaz de audio"
+            },
             {
               "value": "Audio interface",
               "value_es": "Interfaz de audio"
@@ -1279,6 +1304,10 @@
             {
               "value": "2-in / 2-out",
               "value_es": "2 entradas / 2 salidas"
+            },
+            {
+              "value": "2-in / 2-out",
+              "value_es": "2 entradas / 2 salidas"
             }
           ]
         },
@@ -1309,6 +1338,10 @@
             {
               "value": "2, 60 dB gain",
               "value_es": "2, 60 dB de ganancia"
+            },
+            {
+              "value": "2, 55 dB gain",
+              "value_es": "2, 55 dB de ganancia"
             },
             {
               "value": "2, 55 dB gain",
@@ -1347,6 +1380,10 @@
             {
               "value": "192 kHz",
               "value_es": "192 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
             }
           ]
         },
@@ -1361,6 +1398,10 @@
             {
               "value": "32-bit float",
               "value_es": "32 bits flotante"
+            },
+            {
+              "value": "24-bit",
+              "value_es": "24 bits"
             },
             {
               "value": "24-bit",
@@ -1415,6 +1456,10 @@
             {
               "value": "USB-C",
               "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
             }
           ]
         },
@@ -1449,6 +1494,10 @@
             {
               "value": "Vintage Preamp mode, MIDI I/O, direct monitoring",
               "value_es": "Modo Vintage Preamp, MIDI I/O, monitoreo directo"
+            },
+            {
+              "value": "76 compressor, Vintage mode, MIDI",
+              "value_es": "Compresor 76, modo Vintage, MIDI"
             }
           ]
         }
@@ -1649,6 +1698,34 @@
           "El modo Vintage añade unos dB, así que debes reajustar la ganancia al activarlo",
           "Parte del software incluido y algunas funciones se orientan a macOS",
           "Sin expansión ADAT para ampliar entradas"
+        ]
+      },
+      {
+        "name": "Universal Audio Volt 276",
+        "name_es": "Universal Audio Volt 276",
+        "pros": [
+          "Built-in analog 76 compressor inspired by the UA 1176, no plugin needed",
+          "Vintage mode based on the classic UA 610 tube preamp",
+          "55 dB of clean gain plus phantom power and MIDI I/O",
+          "24-bit/192 kHz conversion with a class-leading headphone amp"
+        ],
+        "cons": [
+          "Only 2 analog inputs, no room to grow into multi-mic recording",
+          "No ADAT expansion for growing input count",
+          "Compressor has a fixed character, less flexible than a plugin",
+          "Costs about $100 more than the Volt 2, essentially for the compressor"
+        ],
+        "pros_es": [
+          "Compresor analógico 76 integrado inspirado en el UA 1176, sin plugins",
+          "Modo Vintage basado en el clásico previo de tubo UA 610",
+          "55 dB de ganancia limpia más alimentación phantom y MIDI I/O",
+          "Conversión de 24 bits/192 kHz con un amplificador de auriculares de primera"
+        ],
+        "cons_es": [
+          "Solo 2 entradas analógicas, sin margen para crecer a multi-mic",
+          "Sin expansión ADAT para ampliar entradas",
+          "El compresor tiene un carácter fijo, menos flexible que un plugin",
+          "Cuesta unos $100 más que el Volt 2 básicamente por el compresor"
         ]
       }
     ],
