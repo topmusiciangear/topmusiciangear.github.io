@@ -1,0 +1,18 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8')).find(x => x.id === 'beginner-bass-guitars');
+console.log('### TITLE: ' + g.title);
+console.log('### TITLE_ES: ' + g.title_es);
+console.log('### DESC: ' + g.description);
+console.log('### DESC_ES: ' + g.description_es);
+console.log('\n### INTRO: ' + g.intro);
+console.log('\n### INTRO_ES: ' + g.intro_es);
+console.log('\n### VERDICT: ' + g.verdict);
+console.log('\n### VERDICT_ES: ' + g.verdict_es);
+console.log('\n### CONCLUSION: ' + g.conclusion);
+console.log('\n### CONCLUSION_ES: ' + g.conclusion_es);
+console.log('\n### TABLA cols: ' + g.productTable.columns.map(c => c.title).join(' | '));
+g.productTable.rows.forEach(r => console.log('  [' + r.label + '] ' + r.values.map(v => v.value).join(' | ')));
+console.log('\n### VERDICT_PROS_CONS:');
+g.verdictProsCons.forEach(v => console.log('- ' + v.name + ' | ' + v.name_es));
+console.log('\n### SECCIONES:');
+(g.sections || []).forEach((s, i) => console.log(' [' + i + '] ' + (s ? (s.heading || s.h) + '  prods=' + JSON.stringify(s.products) : 'NULA')));
