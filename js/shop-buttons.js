@@ -5658,10 +5658,16 @@ const TEST_SHOP_BTN = {
   },
   675: {
     prices: {
+      zzounds: "$249.00",
+      gear4music: "£149.00",
+      musicstore: "€229.00",
+      andertons: "£149.00"
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-X1R-Ribbon-Microphone-/art-REC0009426-000",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-sE-X1R-Ribbon-Microphone/I6K"
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-sE-X1R-Ribbon-Microphone/I6K",
+      zzounds: "https://www.zzounds.com/item--SEEX1SSTUDBUN?siid=227155",
+      andertons: "https://www.andertons.co.uk/se-electronics-se-x1-r-ribbon-mic/"
     }
   },
   674: {
