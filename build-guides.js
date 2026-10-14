@@ -6028,13 +6028,17 @@ const TEST_SHOP_BTN = {
   },
   672: {
     prices: {
-      zzounds: "$129.00",
-      musicstore: "€132.30"
+      zzounds: "$99.00",
+      musicstore: "€129.00",
+      gear4music: "£82.00",
+      andertons: "£82.00"
     },
     urls: {
       amazon: "https://www.amazon.com/dp/B072F5J32C",
       zzounds: "https://www.zzounds.com/item--LEWLCT240PRO",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-240-PRO-Large-Diaphragm-Condenser-Microphone-Black/24PS",
+      andertons: "https://www.andertons.co.uk/lewitt-lct-240-pro-bk-ea-condenser-microphone-fet-sound/?search_query=Lewitt%20LCT%20240%20PRO"
     }
   },
   673: {
@@ -6059,7 +6063,7 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-Studio-Microphone-Nickel/art-REC0007197-000"
     }
   },
-
+
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}

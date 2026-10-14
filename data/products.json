@@ -12835,11 +12835,11 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B072F5J32C",
       "zzounds": "https://www.zzounds.com/item--LEWLCT240PRO",
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000"
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-240-PRO-Large-Diaphragm-Condenser-Microphone-Black/24PS",
+      "andertons": "https://www.andertons.co.uk/lewitt-lct-240-pro-bk-ea-condenser-microphone-fet-sound/?search_query=Lewitt%20LCT%20240%20PRO"
     },
     "excludeStores": [
-      "gear4music",
-      "andertons",
       "reverb"
     ]
   },
