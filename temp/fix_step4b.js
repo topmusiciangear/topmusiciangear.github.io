@@ -1,0 +1,12 @@
+const fs = require('fs');
+const f = 'C:/Users/Daniel/projects/topmusiciangear/temp/bbl_step4.js';
+let s = fs.readFileSync(f, 'utf8');
+s = s.replace("const\nif (!g.conclusion.includes(cEn))", "if (!g.conclusion.includes(cEn))");
+s = s.replace("const if (!g.conclusion", "if (!g.conclusion");
+s = s.replace('mejor触感 de esta lista', 'el que mejor se toca de esta lista');
+s = s.replace('f.text_es = f.text_es.replace(', '// ya corregido arriba\n// f.text_es = f.text_es.replace(');
+fs.writeFileSync(f, s, 'utf8');
+const left = s.match(/[^\x00-\x7F\u00A0-\u024F\u2010-\u203A]/g);
+console.log('no latinos: ' + JSON.stringify([...new Set(left || [])]));
+const i = s.indexOf('conclusion.includes(cEn)');
+console.log('contexto:\n' + s.slice(i - 120, i + 60));

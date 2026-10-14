@@ -1,0 +1,12 @@
+const fs = require('fs');
+const G = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8')).find(x => x.id === 'budget-bass-like-expensive');
+const solo = G.sections.filter(s => (s.products || []).length === 1);
+const ids = solo.map(s => s.products[0]);
+console.log('reviews:', solo.length, '| unicos:', new Set(ids).size);
+console.log('ids:', JSON.stringify(ids));
+console.log('featured:', JSON.stringify(G.featuredProducts));
+console.log('mismo set:', JSON.stringify([...new Set(ids)].sort((a, b) => a - b)) === JSON.stringify([...new Set(G.featuredProducts)].sort((a, b) => a - b)));
+const hs = G.sections.map(s => s.heading);
+console.log('headings:', hs.length, '| unicos:', new Set(hs).size);
+const dup = hs.filter((h, i) => hs.indexOf(h) !== i);
+console.log('duplicados:', JSON.stringify(dup));
