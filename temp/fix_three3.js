@@ -1,0 +1,13 @@
+const fs = require('fs');
+const f = 'C:/Users/Daniel/projects/topmusiciangear/temp/three_reviews.js';
+let s = fs.readFileSync(f, 'utf8');
+s = s.split('sin tratar loFinding igualmente').join('sin tratar lo encuentra igualmente');
+s = s.split('la más barata能satisfacen a casi todos').join('la más barata satisface a casi todos');
+s = s.split('la más barata能满足 a casi todos').join('la más barata satisface a casi todos');
+fs.writeFileSync(f, s, 'utf8');
+const cjk = s.match(/[\u4e00-\u9fff]/g);
+console.log('CJK: ' + (cjk ? JSON.stringify([...new Set(cjk)]) : 'ninguno'));
+const i = s.indexOf('más barata');
+console.log('ctx: ' + JSON.stringify(s.slice(i - 20, i + 90)));
+const j = s.indexOf('lo encuentra igualmente');
+console.log('ctx: ' + JSON.stringify(s.slice(j - 60, j + 30)));

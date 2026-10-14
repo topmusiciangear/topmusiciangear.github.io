@@ -1,0 +1,12 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gj = BASE + 'data/guides.json';
+let s = fs.readFileSync(gj, 'utf8');
+const before = (s.match(/[\u4e00-\u9fff]/g) || []).length;
+const i = s.indexOf('\u8865\u507f');
+console.log('contexto monitors: ' + JSON.stringify(s.slice(Math.max(0, i - 90), i + 70)));
+const hits = [];
+s.replace(/[\u4e00-\u9fff]+/g, (m, off) => { hits.push(JSON.stringify(s.slice(Math.max(0, off - 80), off + 50))); return m; });
+hits.forEach(h => console.log('--- ' + h));
+fs.writeFileSync(gj, s, 'utf8');
+console.log('\nCJK totales: ' + before);
