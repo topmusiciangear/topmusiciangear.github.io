@@ -1,0 +1,13 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gj = BASE + 'data/guides.json';
+const die = (m) => { console.log('!! ' + m); process.exit(1); };
+const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const g = guides.find(x => x.id === 'budget-bass-like-expensive');
+const s = g.sections.find(x => (x.products || [])[0] === 683);
+const bad = 'rondan lon $899';
+if (!s.content.includes(bad)) die('no encuentro la errata');
+s.content = s.content.split(bad).join('rondan los $899');
+fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
+console.log('corregido: "' + bad + '" -> "rondan los $899"');
+console.log('ES intacto: ' + (s.content_es.includes('rondan los $899') ? 'ok' : 'ok (sin cambios)'));

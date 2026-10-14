@@ -1,0 +1,11 @@
+const fs = require('fs');
+const guides = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'budget-bass-like-expensive');
+const s = g.sections.find(x => (x.products || [])[0] === 683);
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/budget-bass-like-expensive.html', 'utf8');
+const i = h.indexOf('rondan');
+console.log('HTML EN: ...' + h.slice(i - 90, i + 40) + '...');
+const j = s.content.indexOf('rondan');
+console.log('\nJSON EN: ...' + s.content.slice(j - 90, j + 40) + '...');
+const k = s.content_es.indexOf('rondan');
+console.log('\nJSON ES: ...' + s.content_es.slice(k - 90, k + 40) + '...');

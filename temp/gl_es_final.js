@@ -1,0 +1,38 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const die = (m) => { console.log('!! ' + m); process.exit(1); };
+const gj = BASE + 'data/guides.json';
+const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const g = guides.find(x => x.id === 'budget-bass-like-expensive');
+const s = g.sections.find(x => (x.products || [])[0] === 683);
+if (!s) die('no encuentro la review del L-2000');
+console.log('EN actual (' + s.content.length + ' car), ES actual (' + s.content_es.length + ' car)');
+
+// ---------- ES: texto del usuario, casi literal ----------
+s.content_es =
+  '<p><strong>Leo Fender diseñó este bajo en 1980 y nada más se acerca a ese rango.</strong> Dos humbuckers G&L Magnetic Field Design —las mismas pastillas L-spec que G&L fabrica en su planta de Fullerton, California— alimentan el previo Tri-Tone: tres miniswitches para selección de pastilla, ruteo serie/paralelo y operación pasiva/activa, más controles de volumen, agudos y graves. El puente Saddle-Lock empuja la energía de las cuerdas directo a la madera del cuerpo para lograr una base resonante y con un sustain eterno.</p>' +
+  '<p><strong>Nota del editor:</strong> La línea Tribute se ensambla fuera de EE. UU., pero las pastillas no son el sacrificio que muchos suponen. G&L especifica las humbuckers MFD L-spec como fabricadas en Fullerton, California; es decir, la misma voz que los instrumentos de gama alta que se montan al lado. Pagas precio de gama media por la parte que decide el tono de un instrumento insignia.</p>' +
+  '<p><strong>Nota del editor:</strong> G&L ha dejado de fabricar instrumentos, y eso cambia por completo cómo se compra este bajo. La fábrica de Fullerton fundada por Leo Fender cerró a finales de septiembre de 2025 (la plantilla fue suspendida el 15 de septiembre y despedida el 29, y la matriz BBE Sound anuló su personalidad jurídica ese mismo octubre). Fender compró la marca "Leo Fender" y la propiedad intelectual, mientras que el stock restante fabricado en Estados Unidos fue a la empresa de liquidación MIRC, en Tennessee. No es que haya salido una versión nueva que sustituya a la anterior: es el final definitivo de una línea de producción.</p>' +
+  '<p><strong>Qué significa eso en la práctica:</strong> No esperes entrar en una gran cadena de tiendas y encontrarlo en el mostrador. Las tiendas independientes y los vendedores de segunda mano en plataformas como Reverb son ahora la única vía realista, ya sea para conseguir stock antiguo sin estrenar (NOS) o modelos seminuevos. También significa que el precio ya no es la cifra de gama media de siempre: las unidades en tiendas independientes rondan los $899 frente a un precio de calle histórico de unos $700 a $800, y las buenas unidades vuelan. Las pastillas MFD siguen justificando cada céntimo, pero ten en cuenta que estás comprando un instrumento descatalogado, no una gama con stock continuo para el próximo año.</p>' +
+  '<p><strong>Si buscas este terreno pero necesitas stock disponible hoy mismo:</strong> El <strong>Sterling by Music Man StingRay Ray4</strong> y el <strong>Sire Marcus Miller V5</strong> son tus mejores alternativas vivas. El Ray4 ofrece el mejor tono activo y agresivo por menos de $400, mientras que el V5 te da la mejor construcción pasiva y tacto del mercado. Ambos se distribuyen con total normalidad.</p>' +
+  '<p><strong>Nota del editor:</strong> No esperes que sea un bajo de "enchufar y tocar". Esos tres switches son una verdadera navaja suiza (pasivo para una redondez vintage, activo para una mordida moderna, y activo con boost de agudos para slap y metal) y vas a necesitar unos días de experimentar antes de que dejen de intimidarte. No es un Fender tradicional que conectas y olvidas. Si vienes de un bajo tipo P o J sencillo, resérvate el fin de semana para conocerlo a fondo.</p>';
+console.log('ES aplicado: ' + s.content_es.length + ' car (4 notas, la de "enchufar y tocar" al final)');
+
+// ---------- EN: misma estructura y paridad de contenido ----------
+s.content =
+  '<p><strong>Leo Fender designed this bass in 1980 and nothing else comes close to the range.</strong> Two G&L Magnetic Field Design humbuckers — the same L-spec pickups G&L builds in its Fullerton, California facility — feed the Tri-Tone preamp: three mini toggles for pickup selection, series/parallel routing and passive/active operation, plus volume, treble and bass controls. The Saddle-Lock bridge pushes string energy straight into the body wood for a resonant platform with endless sustain.</p>' +
+  '<p><strong>Editor\'s note:</strong> The Tribute line is assembled outside the United States, but the pickups are not the sacrifice many assume. G&L specifies the L-spec MFD humbuckers as made in Fullerton, California — the same voice as the high-end instruments built next door. You pay a mid-range price for the part that decides the tone of a flagship instrument.</p>' +
+  '<p><strong>Editor\'s note:</strong> G&L has stopped making instruments, and that changes completely how you buy this bass. The Fullerton factory founded by Leo Fender closed at the end of September 2025 (staff were furloughed on 15 September and let go on 29, and parent company BBE Sound dissolved its corporate status that same October). Fender bought the "Leo Fender" trademark and the intellectual property, while the remaining US-made stock went to the liquidation firm MIRC in Tennessee. This is not a new version replacing an old one: it is the definitive end of a production line.</p>' +
+  '<p><strong>What that means in practice:</strong> Do not expect to walk into a large chain store and find it on the counter. Independent shops and second-hand sellers on platforms like Reverb are now the only realistic route, whether you are after new-old-stock (NOS) or lightly used units. It also means the price is no longer the mid-range figure it used to be: units in independent shops run around $899 against a historical street price of roughly $700 to $800, and the good ones move fast. The MFD pickups still justify every cent, but keep in mind you are buying a discontinued instrument, not a range with continuous stock for next year.</p>' +
+  '<p><strong>If you want this territory but need stock available today:</strong> The <strong>Sterling by Music Man StingRay Ray4</strong> and the <strong>Sire Marcus Miller V5</strong> are your best live alternatives. The Ray4 delivers the best aggressive active tone under $400, while the V5 gives you the best-feeling passive build on the market. Both are distributed completely normally.</p>' +
+  '<p><strong>Editor\'s note:</strong> Do not expect a plug-and-play bass. Those three switches are a genuine Swiss-army knife (passive for vintage roundness, active for modern bite, and active with treble boost for slap and metal), and you will need a few days of experimenting before they stop being intimidating. It is not a traditional Fender you connect and forget. If you are coming from a simple P or J bass, budget that weekend to learn it properly.</p>';
+console.log('EN aplicado: ' + s.content.length + ' car (misma estructura, 4 notas)');
+
+fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
+
+// ---------- paridad ----------
+const paras = (t) => (t.match(/<p>/g) || []).length;
+console.log('\nparidad: EN ' + paras(s.content) + ' parrafos / ES ' + paras(s.content_es) + ' parrafos');
+const must = ['Fullerton', 'MIRC', 'BBE', '$899', '$400', 'Reverb', '2025'];
+must.forEach(w => console.log('  "' + w + '": EN=' + s.content.includes(w) + ' ES=' + s.content_es.includes(w)));
+console.log('\nOK');
