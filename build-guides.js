@@ -6071,10 +6071,16 @@ const TEST_SHOP_BTN = {
   },
   678: {
     prices: {
-      musicstore: "€645.00"
+      musicstore: "€749.00",
+      gear4music: "£587.00",
+      andertons: "£587.00",
+      zzounds: "$699.00"
     },
     urls: {
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-URX44V-Black/art-PCM0018734-000"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-URX44V-Black/art-PCM0018734-000",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-URX44V-USB-Streaming-Mixer-with-HDMI-Black/7QPI",
+      andertons: "https://www.andertons.co.uk/yamaha-urx44v-b-premium-audio-interface-with-video-thru/",
+      zzounds: "https://www.zzounds.com/item--YAMURX44V?siid=383385"
     }
   },
   677: {
