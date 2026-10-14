@@ -52,6 +52,33 @@ function pxWidth(str) {
 function read(p) { try { return fs.readFileSync(p, 'utf8'); } catch (e) { return null; } }
 function pick(html, re) { const m = html.match(re); return m ? m[1] : ''; }
 
+// Una meta description cortada a media frase ("... Both are heavy —.",
+// "... Lee el.") se ve rota en el SERP. Se comprueba la ULTIMA PALABRA real.
+// OJO: NO usar \b para esto — en JS \b es ASCII, y las tildes cuentan como
+// separador, asi que "bateria." casaria con \ba\b\ y daria un falso positivo.
+const DANGLING = new Set(['y', 'e', 'o', 'u', 'ni', 'que', 'de', 'del', 'la', 'el', 'los', 'las',
+  'un', 'una', 'para', 'por', 'con', 'sin', 'desde', 'como', 'mas', 'más', 'no',
+  'the', 'and', 'for', 'with', 'from', 'than', 'that', 'which', 'to', 'in', 'on', 'of', 'or',
+  'is', 'are', 'as', 'by', 'a', 'at', 'al', 'en', 'tu', 'se', 'le', 'lo', 'ya', 'muy', 'cada',
+  'pero', 'sobre', 'hasta', 'entre', 'este', 'esta', 'su', 'sus']);
+// Conteo de productos en el titulo o la descripcion: se desincroniza en
+// cuanto se anade o quita un producto de la guia.
+const COUNT_RE = /\b\d{1,2}\s+(best|mejores|top|modelos|premium|interfaces|mics|microfonos|desk-friendly)\b/i;
+
+function descProblems(desc, title) {
+  const out = [];
+  if (!desc) return out;
+  const trimmed = desc.replace(/[.!?,;:…"')\]]*$/, '').trim();
+  const words = trimmed.split(/\s+/);
+  const last = (words[words.length - 1] || '').toLowerCase();
+  if (DANGLING.has(last)) out.push('desc termina en "' + last + '"');
+  if (/[,;:—–-]$/.test(trimmed)) out.push('desc termina en separador');
+  if (COUNT_RE.test(desc)) out.push('desc con conteo de productos');
+  if (COUNT_RE.test(title)) out.push('titulo con conteo de productos');
+  if (/^\s*\d/.test(title)) out.push('titulo empieza por numero');
+  return out;
+}
+
 const files = fs.readdirSync(GUIDES).filter(f => f.endsWith('.html'));
 const rows = [];
 let stubs = 0;
@@ -81,6 +108,7 @@ files.forEach(function (f) {
   else {
     if (desc.length > D_CHARS) issues.push('desc ' + desc.length + ' chars (> ' + D_CHARS + ')');
     if (pxWidth(desc) > D_PX) issues.push('desc ' + pxWidth(desc) + 'px (> ' + D_PX + ')');
+    descProblems(desc, title).forEach(p => issues.push(p));
   }
   if (!h1) issues.push('sin <h1>');
   if (ogTitle && pxWidth(ogTitle) > 700) issues.push('og:title ' + pxWidth(ogTitle) + 'px ancho');

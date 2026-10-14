@@ -676,7 +676,15 @@ y uno de 60 con muchos i/l puede no llegar. **Límites del sitio:**
   caracteres, **se reescribe a mano** más corto (normalmente quitando el descriptor tras
   los dos puntos: *"X vs Y: Duelo de consolas estándar de la industria"* → *"X vs Y"*).
 - Las **descripciones sí se pueden recortar**, siempre en frontera de palabra y respetando
-  ambos límites (caracteres y píxeles).
+  ambos límites (caracteres y píxeles). **Pero NUNCA a media frase**: cortar por palabras
+  deja basura visible en el SERP (`"... Both are heavy —."`, `"... Lee el."`). Si al recortar
+  la frase queda colgando, reescribir el cierre a mano. `npm run seo` lo detecta.
+- **Ningún conteo de productos en el `<title>` ni en la meta description**
+  (REGLA del usuario, 14/10/2026). `"13 Best Budget USB Mics"` obliga a reeditar el título
+  cada vez que se añade o quita un producto, y ya se desincronizó en 4 de las 8 guías que lo
+  tenían ("6 premium interfaces" con 7 en tabla, "5 subwoofers" con 14, "9 shotgun" con 11).
+  En su lugar, un modificador estable: precio (`Under $200`), caso de uso (`for Mixing`),
+  tipo de instrumento (`for Bass, Guitar & Keyboards`).
 
 **Auditoría permanente:** `npm run seo` (= `node scripts/seo-audit.js`, exit 1 si falla).
 Analiza las 314 páginas generadas (EN + ES), ignora los stubs de redirección y avisa de
