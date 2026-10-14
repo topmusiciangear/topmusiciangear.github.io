@@ -12951,5 +12951,24 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/ANTELOPE-Orion-Studio-Synergy-Core/art-PCM0015924-000"
     },
     "excludeStores": []
+  },
+  {
+    "id": 678,
+    "title": "Yamaha URX44V",
+    "title_es": "Yamaha URX44V",
+    "brand": "Yamaha",
+    "category": "interfaces",
+    "price": 699,
+    "badge": "streaming",
+    "desc": "6x4 USB-C streaming interface with 4 URX pres (78dB), HDMI 4K/60 capture and passthrough, microSD 16-track recording and DSP FX on a 4.3-inch touchscreen. Dual USB MAIN/SUB, Cubase AI included.",
+    "desc_es": "Interfaz de streaming 6x4 USB-C con 4 previos URX (78dB), captura y passthrough HDMI 4K/60, grabación microSD de 16 pistas y DSP en táctil de 4,3 pulgadas. USB dual MAIN/SUB, Cubase AI incluido.",
+    "img": "https://r2.gear4music.com/media/132/1326215/1200/preview.jpg",
+    "image": "https://r2.gear4music.com/media/132/1326215/1200/preview.jpg",
+    "stores": {
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-URX44V-Black/art-PCM0018734-000"
+    },
+    "excludeStores": [
+      "reverb"
+    ]
   }
 ]

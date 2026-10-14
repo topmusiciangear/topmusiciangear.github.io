@@ -6069,6 +6069,14 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
     }
   },
+  678: {
+    prices: {
+      musicstore: "€645.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-URX44V-Black/art-PCM0018734-000"
+    }
+  },
   677: {
     prices: {
       zzounds: "$2,995.00",
