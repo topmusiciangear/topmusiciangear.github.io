@@ -1,0 +1,14 @@
+const fs = require('fs');
+const f = 'C:/Users/Daniel/projects/topmusiciangear/temp/eg_bm_reviews.js';
+let s = fs.readFileSync(f, 'utf8');
+s = s.split(' con<Block> que aguantan').join(' de acero que aguantan');
+s = s.split('quesequently crecerá').join('que no crece');
+s = s.split('jangly').join('jangly');
+s = s.split('la vozjangly').join('la voz jangly');
+fs.writeFileSync(f, s, 'utf8');
+const bad = ['<Block>', '_action', 'esananemen', 'quesequently', 'vozjangly', 'sequently'];
+let ok = true;
+bad.forEach(w => { if (s.includes(w)) { console.log('QUEDA: ' + w); ok = false; } });
+console.log(ok ? 'limpio' : 'aun quedan residuos');
+const i = s.indexOf('voz jangly');
+console.log('contexto: ' + s.slice(i - 60, i + 30));

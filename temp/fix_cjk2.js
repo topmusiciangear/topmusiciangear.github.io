@@ -1,0 +1,16 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const gj = BASE + 'data/guides.json';
+const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const g = guides.find(x => x.id === 'best-electric-guitar');
+const s = g.sections[13];
+const i = s.content_es.indexOf('升');
+console.log('antes: ' + JSON.stringify(s.content_es.slice(i - 30, i + 30)));
+s.content_es = s.content_es.split('，升tremolo').join(' trémolo');
+s.content_es = s.content_es.split('升').join('');
+fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
+const chk = JSON.parse(fs.readFileSync(gj, 'utf8')).find(x => x.id === 'best-electric-guitar').sections[13];
+const j = chk.content_es.indexOf('trémolo de la misma');
+console.log('despues: ' + JSON.stringify(chk.content_es.slice(j - 40, j + 30)));
+const rest = chk.content_es.match(/[\u4e00-\u9fff]/g) || [];
+console.log('CJK restante: ' + JSON.stringify([...new Set(rest)]));
