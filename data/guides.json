@@ -82077,10 +82077,10 @@
   },
   {
     "id": "mics-for-creators",
-    "title": "Best Budget Microphones for Content Creators: Complete Guide",
-    "title_es": "Mejores micrófonos económicos para creadores",
-    "titleTag": "Best Budget Microphones for Content Creators",
-    "titleTag_es": "Mejores micrófonos económicos para creadores",
+    "title": "Best Budget Microphones for Creators: $35 to $299",
+    "title_es": "Mejores micrófonos económicos para creadores: $35 a $299",
+    "titleTag": "Best Budget Microphones for Creators: $35 to $299",
+    "titleTag_es": "Mejores micrófonos económicos para creadores: $35 a $299",
     "category": "streaming",
     "image": "https://r2.gear4music.com/media/93/934994/1200/preview.jpg",
     "badge": "bestSeller",
@@ -82204,12 +82204,30 @@
         "products": [
           518
         ]
+      },
+      {
+        "heading": "Razer Seiren V3 Mini: The Mic That Disappears From the Frame",
+        "heading_es": "Razer Seiren V3 Mini: el micro que desaparece del encuadre",
+        "content": "<strong>Camera framing is the constraint most USB mics ignore.</strong> The Seiren V3 Mini is built around it: a 14 mm supercardioid capsule in a body small enough to sit at the edge of a laptop screen without appearing in shot, and a detachable tilt stand with an integrated shock mount so it holds that angle instead of sagging. The tap-to-mute sensor on the top is the detail that matters most in practice — tap once and the LED goes red, which is faster and less visible on stream than reaching for a physical switch or a keyboard mute.<br><br>What you give up for that footprint is transparency about the electronics. Razer publishes the capsule size, the supercardioid pattern and the tap-to-mute behaviour, but the frequency response, bit depth and whether the mic offers a headphone output are all unpublished, so treat the audio claims as marketing rather than measurement. Gain and mix controls route through Razer Synapse rather than sitting on the body, which is fine if you already run Synapse and pointless if you do not.",
+        "content_es": "<strong>El encuadre es la condición que ignoran casi todos los micro USB.</strong> El Seiren V3 Mini está pensado para eso: una cápsula supercardioide de 14 mm en un cuerpo lo bastante pequeño para quedarse en el borde de la pantalla sin entrar en plano, y un soporte inclinable desmontable con suspensión integrada que mantiene ese ángulo en vez de vencerse. El sensor de silencio del capacitive es el detalle que más importa en el día a día: un toque y el LED se pone rojo, que es más rápido y menos visible en directo que buscar un interruptor físico o una tecla de mute.<br><br>Lo que se pierde con ese tamaño es transparencia sobre la electrónica. Razer publica el tamaño de la cápsula, el patrón supercardioide y el silencio por toque, pero la respuesta de frecuencia, los bits y si el micro ofrece salida de auriculares no están publicados: tómate esas afirmaciones como marketing, no como medida. Los controles de ganancia y mezcla pasan por Razer Synapse en vez de estar en el cuerpo, lo cual no importa si ya usas Synapse y no sirve de nada si no.",
+        "products": [
+          280
+        ]
+      },
+      {
+        "heading": "Rode XCM-50: When the Software Is the Product",
+        "heading_es": "Rode XCM-50: cuando el software es el producto",
+        "content": "<strong>The XCM-50 is the only condenser in this guide built around a host application rather than around a signal path.</strong> Its internal DSP carries APHEX processing — compressor, high-pass filter, Aural Exciter and Big Bottom — and all of it is tuned from RØDE Central and UNIFY rather than from hardware on the mic. That reframes the price: you are not only paying for a capsule, you are paying for a member of the RØDE X family and the tools that come with it.<br><br>The hardware underneath is genuinely good for streaming. A tight cardioid pattern, 24-bit/48 kHz over USB-C, an internal pop shield and capsule shock mount, and a 3.5 mm headphone output with level control and a mute button for zero-latency monitoring. It ships with a 360-degree swing mount, a desktop tripod and a 3 m headphone extension cable, and it takes a PSA1+ boom arm if you outgrow the desk stands.<br><br>Two limits worth knowing. It is USB only — there is no XLR, so it cannot feed an interface or a live mixer directly. And RØDE publishes the feature list rather than measurements: frequency response, sensitivity, maximum SPL and self-noise are all absent from the official specification table, so if you care about knowing the noise floor, you will not find it here.",
+        "content_es": "<strong>El XCM-50 es el único condensador de esta guía pensado alrededor de una aplicación de host y no de una cadena de señal.</strong> Su DSP interno incluye procesado APHEX — compresor, filtro de agudos, Aural Exciter y Big Bottom — y todo se ajusta desde RØDE Central y UNIFY en lugar de desde el propio micro. Eso cambia cómo leer el precio: no solo estás pagando una cápsula, estás pagando ser parte de la familia RØDE X con las herramientas que trae.<br><br>El hardware que hay debajo es realmente bueno para streaming. Patrón cardioide cerrado, 24 bits/48 kHz por USB-C, filtro antipop interno y shock mount de cápsula, y salida de auriculares de 3,5 mm con control de nivel y botón de silencio para monitorizar sin latencia. Incluye soporte pivotante de 360 grados, trípode de escritorio y un cable de auriculares de 3 metros, y admite un brazo PSA1+ si se te queda corta la mesa.<br><br>Dos límites que conviene saber. Es solo USB: no tiene XLR, así que no lo puedes llevar directamente a una interfaz ni a una mesa de directo. Y RØDE publica la lista de funciones en lugar de las medidas: la respuesta de frecuencia, la sensibilidad, el SPL máximo y el ruido propio no están en la tabla de especificaciones oficial, así que si te importa conocer el suelo de ruido, aquí no lo vas a encontrar.",
+        "products": [
+          290
+        ]
       }
     ],
     "conclusion": "Start with a Samson Q2U for the best value with USB and XLR outputs and an upgrade path to an interface — it has both USB and XLR outputs. Upgrade to a Rode NT-USB Mini or Elgato Wave:3 for better sound quality. Add a boom arm and pop filter for professional results. USB is fine for most creators; XLR is only needed if you're doing professional recording. Need maximum isolation in a noisy room? The AT2040USB hypercardioid pattern helps. Want four mics in one? The Yeti covers cardioid, omni, bidirectional and stereo.\n\n<a href=\"/guides/best-microphone.html\" class=\"guide-link-btn\">best microphones guide</a> <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best podcast microphones</a>",
     "conclusion_es": "Empieza con un Samson Q2U por el mejor valor con salidas USB y XLR y ruta de mejora a interfaz — tiene salidas USB y XLR. Actualiza a un Rode NT-USB Mini o Elgato Wave:3 para mejor calidad de sonido. Agrega un brazo de micrófono y filtro pop para resultados profesionales. USB está bien para la mayoría de creadores; XLR solo es necesario si haces grabación profesional. ¿Necesitas máximo aislamiento en una sala ruidosa? El hipercardioide del AT2040USB ayuda. ¿Quieres cuatro micros en uno? El Yeti cubre cardioide, omni, bidireccional y estéreo.\n\n<a href=\"/guides/best-microphone_es.html\" class=\"guide-link-btn\">guía de mejores micrófonos</a> <a href=\"/guides/usb-mics_es.html\" class=\"guide-link-btn\">mejores micrófonos USB</a> <a href=\"/guides/best-mic-for-podcasting_es.html\" class=\"guide-link-btn\">mejores micrófonos para podcasts</a>",
-    "verdict": "Samson Q2U for budget creators, Rode NT-USB Mini for premium USB, Elgato Wave:3 for streaming, Audio-Technica AT2020USB+ for voiceover. AT2040USB for noisy rooms, Yeti for multi-pattern flexibility.",
-    "verdict_es": "El Shure MV7+ es la mejor opción versátil para creadores — USB, XLR y ese look de broadcast. El Rode PodMic USB es valor de broadcast económico y el QuadCast 2 es valor de streaming; si grabas en movimiento, consulta la guía de micrófonos de solapa inalámbricos. Cubre tu voz, luego tu proceso. AT2040USB para salas ruidosas, Yeti para flexibilidad multipatrón.",
+    "verdict": "The Samson Q2U at $70 is the one to beat for beginners: USB and XLR in the same body, and it takes an untreated room better than any condenser here. In a treated space the Rode NT-USB Mini sounds cleaner, and the HyperX QuadCast 2 wins if your priority is streaming software rather than raw audio. The Elgato Wave:3 is the pick when you want a full production chain in the box, and the Shure MV7+ is where you go if you need USB and XLR in one body with broadcast polish and can stretch to $299. For voiceover in a loud room, the AT2040USB handles hot sources; the Blue Yeti is the only one here with switchable polar patterns, and the XLR-only AT2020 is the budget entry point into the studio world — with the caveat that it also needs an interface.",
+    "verdict_es": "El Samson Q2U por $70 es el que hay que mirar si empiezas: lleva USB y XLR en el mismo cuerpo y aguanta mucho mejor que cualquier condensador de esta lista una sala sin tratar. En una sala ya tratada el Rode NT-USB Mini suena más limpio, y si lo que te importa es el software de streaming antes que el audio en bruto, el HyperX QuadCast 2 es la compra. El Elgato Wave:3 es para quien quiere una cadena de producción completa en la caja, y el Shure MV7+ es el salto cuando quieres USB y XLR juntos con acabado de broadcast y puedes llegar a $299. Para voz en una sala ruidosa, el AT2040USB aguanta fuentes cálidas; el Blue Yeti es el único con patrón polar conmutable, y el AT2020, que es solo XLR, es la puerta más barata al mundo del estudio — con la condición de que además necesitas una interfaz.",
     "featuredProducts": [
       194,
       252,
@@ -82344,6 +82362,14 @@
         {
           "title": "Blue Yeti USB Microphone",
           "title_es": "Blue Yeti USB Microphone"
+        },
+        {
+          "title": "Razer Seiren V3 Mini",
+          "title_es": "Razer Seiren V3 Mini"
+        },
+        {
+          "title": "Rode XCM-50",
+          "title_es": "Rode XCM-50"
         }
       ],
       "rows": [
@@ -82402,6 +82428,14 @@
             {
               "value": "Multi-pattern streaming and podcasting",
               "value_es": "Streaming y podcast multipatrón"
+            },
+            {
+              "value": "Compact streaming on a small desk",
+              "value_es": "Streaming compacto en un escritorio pequeño"
+            },
+            {
+              "value": "Streamers who want UNIFY processing",
+              "value_es": "Streamers que quieren el procesado de UNIFY"
             }
           ]
         },
@@ -82410,56 +82444,64 @@
           "label_es": "Precio estimado",
           "values": [
             {
-              "value": "$199–$299",
-              "value_es": "$199–$299"
+              "value": "$299",
+              "value_es": "$299"
             },
             {
-              "value": "$173.85–$190",
-              "value_es": "$173.85–$190"
+              "value": "$199",
+              "value_es": "$199"
             },
             {
-              "value": "~$109.99",
-              "value_es": "~$109.99"
+              "value": "$110",
+              "value_es": "$110"
             },
             {
-              "value": "~$119.99",
-              "value_es": "~$119.99"
+              "value": "$150",
+              "value_es": "$150"
             },
             {
-              "value": "~$149",
-              "value_es": "~$149"
+              "value": "$149",
+              "value_es": "$149"
             },
             {
-              "value": "$99–$119",
-              "value_es": "$99–$119"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
-              "value": "$69.99–$99.99",
-              "value_es": "$69.99–$99.99"
+              "value": "$70",
+              "value_es": "$70"
             },
             {
-              "value": "~$54.99",
-              "value_es": "~$54.99"
+              "value": "$58",
+              "value_es": "$58"
             },
             {
-              "value": "~$30",
-              "value_es": "~$30"
+              "value": "$50",
+              "value_es": "$50"
             },
             {
-              "value": "~$19.99",
-              "value_es": "~$19.99"
+              "value": "$35",
+              "value_es": "$35"
             },
             {
-              "value": "$103–$105",
-              "value_es": "$103–$105"
+              "value": "$103",
+              "value_es": "$103"
             },
             {
-              "value": "~$159",
-              "value_es": "~$159"
+              "value": "$159",
+              "value_es": "$159"
             },
             {
-              "value": "~$129.99",
-              "value_es": "~$129.99"
+              "value": "$129.99",
+              "value_es": "$129.99"
+            },
+            {
+              "value": "$60",
+              "value_es": "$60"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
             }
           ]
         },
@@ -82518,6 +82560,14 @@
             {
               "value": "USB",
               "value_es": "USB"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
+            },
+            {
+              "value": "USB-C",
+              "value_es": "USB-C"
             }
           ]
         },
@@ -82576,6 +82626,14 @@
             {
               "value": "Condenser multi-pattern",
               "value_es": "Condensador multipatrón"
+            },
+            {
+              "value": "Condenser, 14 mm capsule",
+              "value_es": "Condensador, cápsula de 14 mm"
+            },
+            {
+              "value": "Condenser cardioid",
+              "value_es": "Condensador cardioide"
             }
           ]
         },
@@ -82634,6 +82692,14 @@
             {
               "value": "16-bit/48kHz",
               "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "24-bit/48 kHz, internal APHEX DSP via UNIFY",
+              "value_es": "24 bits/48 kHz, DSP interno APHEX vía UNIFY"
             }
           ]
         },
@@ -82692,6 +82758,14 @@
             {
               "value": "Cardioid/Omni/Bi/Stereo",
               "value_es": "Cardioide/Omni/Bi/Estéreo"
+            },
+            {
+              "value": "Supercardioid",
+              "value_es": "Supercardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             }
           ]
         },
@@ -82750,6 +82824,14 @@
             {
               "value": "20Hz–20kHz",
               "value_es": "20Hz–20kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
             }
           ]
         },
@@ -82808,6 +82890,14 @@
             {
               "value": "16-bit/48kHz",
               "value_es": "16-bit/48kHz"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "24-bit/48 kHz",
+              "value_es": "24 bits/48 kHz"
             }
           ]
         },
@@ -82866,6 +82956,14 @@
             {
               "value": "Yes",
               "value_es": "Sí"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Yes, 3.5 mm zero-latency with level + mute",
+              "value_es": "Sí, 3,5 mm sin latencia con nivel y silencio"
             }
           ]
         }
@@ -83242,6 +83340,62 @@
           "Techo de 16 bits en un mundo de 24 bits",
           "El cardioide capta sala frente a dinámicos",
           "Los efectos VO!CE necesitan G Hub"
+        ]
+      },
+      {
+        "name": "Razer Seiren V3 Mini",
+        "name_es": "Razer Seiren V3 Mini",
+        "pros": [
+          "14 mm supercardioid capsule keeps your voice forward and rejects room sound",
+          "Tap-to-mute sensor with LED indicator, so you know instantly when it is live",
+          "USB-C plug-and-play on PC, Mac and consoles with no drivers to install",
+          "Detachable tilt stand with a built-in shock mount keeps it steady on a small desk"
+        ],
+        "pros_es": [
+          "La cápsula supercardioide de 14 mm mantiene tu voz al frente y rechaza el ruido de la sala",
+          "Sensor de silencio de un toque con indicador LED, así que sabes al instante cuándo está abierto",
+          "USB-C conectar y usar en PC, Mac y consolas sin instalar drivers",
+          "Soporte inclinable desmontable con suspensión integrada para que no se mueva en un escritorio pequeño"
+        ],
+        "cons": [
+          "Razer does not publish the frequency response, bit depth or headphone output",
+          "Takes gain and mix controls through Razer Synapse rather than on the body",
+          "Condenser capsule picks up more room than a dynamic at this price",
+          "Fixed supercardioid pattern — no omnidirectional or figure-8 option"
+        ],
+        "cons_es": [
+          "Razer no publica la respuesta de frecuencia, los bits ni la salida de auriculares",
+          "Los controles de ganancia y mezcla pasan por Razer Synapse en lugar de estar en el propio micro",
+          "La cápsula de condensador recoge más sala que un dinámico a este precio",
+          "Patrón supercardioide fijo: sin opción omnidireccional ni en figura-8"
+        ]
+      },
+      {
+        "name": "Rode XCM-50",
+        "name_es": "Rode XCM-50",
+        "pros": [
+          "Condenser capsule with a tight cardioid pattern for detailed, close voice capture",
+          "24-bit/48 kHz USB-C with internal APHEX DSP for compression, high-pass and Aural Exciter",
+          "Zero-latency 3.5 mm headphone output with level control and a mute button on the mic",
+          "Ships with a 360-degree swing mount, a desktop tripod and a 3 m headphone extension"
+        ],
+        "pros_es": [
+          "Cápsula de condensador con cardioide cerrado para captar la voz cercana y con detalle",
+          "24 bits/48 kHz por USB-C con DSP interno APHEX para compresión, filtro de agudos y Aural Exciter",
+          "Salida de auriculares de 3,5 mm sin latencia con control de nivel y botón de silencio en el micro",
+          "Incluye soporte pivotante de 360 grados, trípode de escritorio y un cable de auriculares de 3 m"
+        ],
+        "cons": [
+          "RØDE does not publish the frequency response, sensitivity, max SPL or self-noise",
+          "Needs RØDE Central for firmware and UNIFY for the processing, so software is part of the deal",
+          "No XLR output — USB only, so it cannot feed an interface or a mixer",
+          "Condenser capsule wants a treated room more than the dynamic options at this price"
+        ],
+        "cons_es": [
+          "RØDE no publica la respuesta de frecuencia, la sensibilidad, el SPL máximo ni el ruido propio",
+          "Necesita RØDE Central para el firmware y UNIFY para el procesado: el software es parte del trato",
+          "Sin salida XLR: solo USB, así que no lo puedes llevar a una interfaz ni a una mesa",
+          "La cápsula de condensador pide más una sala tratada que las opciones dinámicas a este precio"
         ]
       }
     ],

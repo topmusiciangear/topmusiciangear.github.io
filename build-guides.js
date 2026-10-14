@@ -2864,17 +2864,7 @@ const TEST_SHOP_BTN = {
       "andertons"
     ]
   },
-  280: {
-    prices: {
-      amazon: "$41.00",
-      zzounds: "$39.99",
-      gear4music: "£36.00",
-      musicstore: "€32.77"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
+  280: { prices: { amazon: "$59.99" }, urls: { amazon: "https://www.amazon.com/dp/B0CT787NLW" } },
   281: {
     prices: {
       amazon: "$45.00",
