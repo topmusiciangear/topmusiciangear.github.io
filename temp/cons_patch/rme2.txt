@@ -1,0 +1,179 @@
+title_es=Interfaz de audio de gama media vs premium: ¿vale la pena pagar más?
+
+titleTag_es=Interfaz de Audio: ¿Vale la Pena Pagar Más?
+
+featuredSnippet={
+  "title_en": "RME Babyface Pro FS vs MOTU M2: Which One Should You Choose?",
+  "text_en": "The RME Babyface Pro FS is the best audio interface for professional portable recording, offering legendary driver stability and ultra-low latency. The MOTU M2 is the top audio interface for budget home recording, with ESS Sabre32 DAC and class-leading dynamic range.",
+  "name1_en": "RME Babyface Pro FS",
+  "name2_en": "MOTU M2",
+  "price1": "949",
+  "price2": "199",
+  "type1": "Audio Interface",
+  "type2": "Audio Interface",
+  "key1": "Legendary Drivers and SteadyClock FS Stability",
+  "key2": "ESS Sabre32 Ultra DAC and Hardware Loopback",
+  "best1_en": "Professional portable recording",
+  "best2_en": "Budget home recording",
+  "brand1": "RME",
+  "brand2": "MOTU",
+  "rating1": 4.9,
+  "rating2": 4.6,
+  "faq_q1_en": "I am a working engineer who never wants a driver to fail mid-session — is the RME worth 4x the MOTU for that peace of mind?",
+  "faq_a1_en": "Buy the MOTU M2 for the best value — ESS Sabre32 Ultra conversion, real-time LCD metering and hardware loopback at a budget price. Buy the RME Babyface Pro FS if you need professional-grade driver stability, TotalMix FX routing and near-zero latency for years of studio work. The M2 is the smart budget buy; the Babyface is a lifetime pro investment.",
+  "faq_q2_en": "What is the difference between the RME Babyface Pro FS and the MOTU M2?",
+  "faq_a2_en": "The MOTU M2 is a 2-in/2-out bus-powered interface with an ESS Sabre32 Ultra DAC, full-color LCD meters and hardware loopback for streaming. The RME Babyface Pro FS is a 4-in/4-out unit with up to 24 channels via ADAT, the SteadyClock FS jitter suppression, TotalMix FX routing and a metal chassis with decades of driver support. The M2 wins on value and meters; the Babyface wins on routing, expansion and rock-solid drivers.",
+  "specs": [
+    {
+      "label_es": "Preamplificadores",
+      "label_en": "Preamps",
+      "val1": "2 x mic pre (RME)",
+      "val2": "2 x mic pre (MOTU)"
+    },
+    {
+      "label_es": "Rango Dinámico",
+      "label_en": "Dynamic Range",
+      "val1": "117 dB (AD)",
+      "val2": "120 dB (ESS Sabre32)"
+    },
+    {
+      "label_es": "Frecuencia de Muestreo",
+      "label_en": "Sample Rate",
+      "val1": "192 kHz / 24-bit",
+      "val2": "192 kHz / 24-bit"
+    },
+    {
+      "label_es": "Conexión",
+      "label_en": "Connectivity",
+      "val1": "USB 2.0 (USB-C compatible)",
+      "val2": "USB-C"
+    },
+    {
+      "label_es": "Latencia (RTL 48kHz/64)",
+      "label_en": "Latency (RTL 48kHz/64)",
+      "val1": "~2.5 ms",
+      "val2": "~4.5 ms"
+    }
+  ],
+  "title_es": "RME Babyface Pro FS vs MOTU M2: ¿Cuál deberías elegir?",
+  "text_es": "La RME Babyface Pro FS es la mejor interfaz de audio para grabación portátil profesional, con drivers legendarios y SteadyClock FS. La MOTU M2 es la mejor interfaz de audio para grabación casera económica, con DAC ESS Sabre32 y rango dinámico líder en su clase.",
+  "name1_es": "RME Babyface Pro 
+
+verdict_es=El RME Babyface Pro FS es la opción pro por fiabilidad y latencia ultrabaja que configuras y olvidas. La MOTU M2 es la opción con una relación calidad-precio muy buena con conversores ESS que suenan muy por encima de su precio. El presupuesto decide, pero ninguna te limitará.
+
+comparison={
+  "rows": [
+    {
+      "label": "Year",
+      "label_es": "Año",
+      "val1": "2020",
+      "val2": "2020",
+      "val1_es": "2020",
+      "val2_es": "2020"
+    },
+    {
+      "label": "Best For",
+      "label_es": "Ideal Para",
+      "val1": "Professional portable recording",
+      "val2": "Budget home recording",
+      "val1_es": "Grabación portátil profesional",
+      "val2_es": "Grabación doméstica económica"
+    },
+    {
+      "label": "Connectivity",
+      "label_es": "Conectividad",
+      "val1": "USB 2.0 (USB-C)",
+      "val2": "USB-C (USB 2.0)",
+      "val1_es": "USB 2.0 (USB-C)",
+      "val2_es": "USB-C (USB 2.0)"
+    },
+    {
+      "label": "Inputs",
+      "label_es": "Entradas",
+      "val1": "2x XLR mic + 2x line/Hi-Z + ADAT in",
+      "val2": "2x combo XLR/TRS mic/line/Hi-Z",
+      "val1_es": "2x XLR mic + 2x line/Hi-Z + ADAT in",
+      "val2_es": "2x combo XLR/TRS mic/line/Hi-Z"
+    },
+    {
+      "label": "Outputs",
+      "label_es": "Salidas",
+      "val1": "2x line XLR + 2x HP + ADAT out",
+      "val2": "2x TRS line + 2x RCA + 1x HP",
+      "val1_es": "2x line XLR + 2x HP + ADAT out",
+      "val2_es": "2x TRS line + 2x RCA + 1x HP"
+    },
+    {
+      "label": "Sample Rate",
+      "label_es": "Tasa de Muestreo",
+      "val1": "192 kHz / 24-bit",
+      "val2": "192 kHz / 24-bit",
+      "val1_es": "192 kHz / 24-bit",
+      "val2_es": "192 kHz / 24-bit"
+    },
+    {
+      "label": "Preamp Gain",
+      "label_es": "Ganancia de Preamplificador",
+      "val1": "76 dB in 1 dB steps",
+      "val2": "+60 dB (mic) / +57 dB (line)",
+      "val1_es": "76 dB en pasos de 1 dB",
+      "val2_es": "+60 dB (mic) / +57 dB (line)"
+    },
+    {
+      "label": "Dynamic Range",
+      "label_es": "Rango Dinámico",
+      "val1": "117 dB (AD)",
+      "val2": "120 dB (ESS Sabre32)",
+      "val1_es": "117 dB (AD)",
+      "val2_es": "120 dB (ESS Sabre32)"
+    },
+    {
+      "label": "DSP",
+      "label_es": "DSP",
+      "val1": "TotalMix FX + SteadyClock FS",
+      "val2": "N/A (ESS Sabre32 Ultra DAC)",
+      "val1_es": "TotalMix FX + SteadyClock FS",
+      "val2_es": "N/A (ESS Sabre32 Ultra DAC)"
+    },
+    {
+      "label": "MIDI I/O",
+      "label_es": "MIDI I/O",
+      "val1": "Yes",
+      "val2": "Yes (5-pin DIN)",
+      "val1_es": "Sí",
+      "val2_es": "Sí (DIN 5-pin)"
+    },
+    {
+      "label": "Loopback",
+      "label_es": "Loopback",
+      "val1": "Yes (TotalMix FX)",
+      "val2": "Yes (driver)",
+      "val1_es": "Sí (TotalMix FX)",
+      "val2_es": "Sí (driver)"
+    },
+    {
+      "label": "Bus Powered",
+      "label_es": "Alimentación USB",
+      "val1": "Yes",
+      "val2": "Yes",
+      "val1_es": "Sí",
+      "val2_es": "Sí"
+    },
+    {
+      "label": "Weight",
+      "label_es": "Peso",
+      "val1": "680 g",
+      "val2": "1.35 lbs / 0.61 kg",
+      "val1_es": "680 g",
+      "val2_es": "1.35 lbs / 0.61 kg"
+    },
+    {
+      "label": "Special Features",
+      "label_es": "Características Especiales",
+      "val1": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
+      "val1_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
+      "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
+      "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "sm57-vs-md421": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "american-pro-vs-les-paul": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "blues-junior-vs-ac30": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "fabfilter-vs-ozone": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "best-guitar-home-office": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "best-mic-for-guitar-amps": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "best-mic-for-podcasting": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ],
+  "best-headphones-for-mixing": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    },
+    {
+      "type": "format",
+      "note": "Sennheiser HD 490 Pro Plus cons_es[0] has leading/trailing space",
+      "severity": "low"
+    }
+  ],
+  "best-monitors-for-small-rooms": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    },
+    {
+      "type": "format",
+      "note": "KRK Rokit 7 G5 cons_es[2] has leading/trailing space",
+      "severity": "low"
+    }
+  ],
+  "best-samplers-drum-computers": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    },
+    {
+      "type": "format",
+      "note": "Roland TR-8S cons_es[0] has leading/trailing space",
+      "severity": "low"
+    }
+  ],
+  "best-grooveboxes": [
+    {
+      "type": "translation_parity",
+      "note": "titleTag missing EN",
+      "severity": "medium"
+    }
+  ]
+}

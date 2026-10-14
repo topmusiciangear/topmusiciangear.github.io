@@ -1,0 +1,11 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=A.find(function(x){return x.id==='rme-vs-motu'||x.slug==='rme-vs-motu';});
+fs.writeFileSync('temp/cons_patch/rme_keys.txt', Object.keys(g).join(',')+'\n','utf8');
+var out=[];
+out.push('title_es='+g.title_es);
+out.push('titleTag_es='+g.titleTag_es);
+['faq','faqs','FAQ','questions'].forEach(function(k){ if(g[k]) out.push(k+'='+JSON.stringify(g[k],null,2).slice(0,6000)); });
+if(g.sections) g.sections.forEach(function(s,i){ out.push('sec'+i+'_h_es='+s.heading_es); });
+fs.writeFileSync('temp/cons_patch/rme_dump.txt', out.join('\n\n'),'utf8');
+console.log('wrote rme_dump');

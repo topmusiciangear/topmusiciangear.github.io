@@ -1,0 +1,19 @@
+title     : "The 7 Best Premium Audio Interfaces for Pro Studios"
+title_es  : "Las 7 Mejores Interfaces de Audio Premium para Estudios Pro"
+heading   : ""
+heading_es: ""
+products[0]:
+comparison: present rows=11
+   ROW[0] label="Year" | label_es="Año" | cells=0
+   ROW[1] label="I/O Channels" | label_es="Canales I/O" | cells=0
+   ROW[2] label="Connectivity" | label_es="Conectividad" | cells=0
+   ROW[3] label="Dynamic Range (D/A)" | label_es="Rango Dinámico (D/A)" | cells=0
+   ROW[4] label="DSP" | label_es="DSP" | cells=0
+   ROW[5] label="Standalone Recording" | label_es="Grabación Independiente" | cells=0
+   ROW[6] label="Preamp Emulation" | label_es="Emulación de Previo" | cells=0
+   ROW[7] label="Sample Rate" | label_es="Tasa de Muestreo" | cells=0
+   ROW[8] label="MIDI I/O" | label_es="MIDI E/S" | cells=0
+   ROW[9] label="Rack Size" | label_es="Tamaño Rack" | cells=0
+   ROW[10] label="Digital I/O" | label_es="I/O Digital" | cells=0
+verdicts[1]
+   verdict[0] name="RME Fireface UFX III" pros=5 cons=4

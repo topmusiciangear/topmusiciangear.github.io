@@ -1,0 +1,13 @@
+var fs=require('fs');
+var P='data/products.json';
+var A=JSON.parse(fs.readFileSync(P,'utf8'));
+var list=Array.isArray(A)?A:A.products;
+var a=list.find(x=>x.id===514);
+a.stores.amazon='https://www.amazon.com/s?k=Apogee+Symphony+I%2FO+Mk+II+16x16&tag=topmusicg-20';
+a.excludeStores=["zzounds"];
+var l=list.find(x=>x.id===516);
+l.stores.amazon='https://www.amazon.com/s?k=Lynx+Aurora-n+16+USB&tag=topmusicg-20';
+l.excludeStores=["zzounds"];
+fs.writeFileSync(P, JSON.stringify(A,null,2),'utf8');
+console.log('514 amazon:', a.stores.amazon.slice(0,50), 'excl:', a.excludeStores);
+console.log('516 amazon:', l.stores.amazon.slice(0,50), 'excl:', l.excludeStores);

@@ -1,0 +1,819 @@
+[
+ {
+  "id": "starter-studio",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "es_calco",
+    "path": "description_es",
+    "snippet": "Los 6 imprescindibles, ordenados por lo que realmente usé a diario.",
+    "note": "Robot: 'imprescindibles' — AI filler word",
+    "fix": "Los 6 elementos que necesitas, ordenados por lo que realmente usé a diario."
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "conclusion",
+    "snippet": "you can record, mix, and release professional music for.",
+    "note": "Truncated sentence — 'for.' should end with a duration or price, e.g. 'for under $1,000.'",
+    "fix": "you can record, mix, and release professional music for under $1,000."
+   },
+   {
+    "severity": "medium",
+    "type": "format",
+    "path": "featuredSnippet.title_es",
+    "snippet": "Kit de Home Studio por Menos de $1,000 (2026)",
+    "note": "Year (2026) still present in featuredSnippet title_es — should have been removed per project rule",
+    "fix": "Kit de Home Studio por Menos de $1,000"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[2].content",
+    "snippet": "It's, indestructible, and it's been used on more hit records thanything else",
+    "note": "Two issues: extra comma after 'It's' + 'thanything' is missing space ('than anything')",
+    "fix": "It's indestructible, and it's been used on more hit records than anything else"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else in history",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else in history"
+   }
+  ]
+ },
+ {
+  "id": "best-interface",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Audio Interface: Complete Guide for Home Recording (2026)",
+    "note": "Year (2026) still in title — was supposed to be removed",
+    "fix": "Best Audio Interface: Complete Guide for Home Recording"
+   },
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejor interfaz de audio: guía completa para grabación casera (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejor interfaz de audio: guía completa para grabación casera"
+   },
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "titleTag",
+    "snippet": "Best Audio Interface for Home Recording",
+    "note": "OK — no year here, this is fine"
+   },
+   {
+    "severity": "high",
+    "type": "es_calco",
+    "path": "verdictProsCons[1].pros_es",
+    "snippet": "MIDI entrado/salida completo para sintetizadores y cajas de ritmos hardware",
+    "note": "Grammar error: 'entrado' should be 'entrada' (noun, not past participle). 'MIDI entrada/salida'",
+    "fix": "MIDI entrada/salida completo para sintetizadores y cajas de ritmos hardware"
+   },
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "titleTag",
+    "snippet": "Best Audio Interface for Home Recording",
+    "note": "titleTag has no year — OK. But featuredSnippet.title_en has (2026)",
+    "fix": "No change needed for titleTag"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_en",
+    "snippet": "Best Audio Interface for Home Recording (2026)",
+    "note": "Year still in featuredSnippet title_en",
+    "fix": "Best Audio Interface for Home Recording"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_es",
+    "snippet": "Mejor Interfaz de Audio para Grabación Casera (2026)",
+    "note": "Year still in featuredSnippet title_es",
+    "fix": "Mejor Interfaz de Audio para Grabación Casera"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "Audient iD14 ($200) has preamps that sound noticeably better ththe competition",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "Audient iD14 ($200) has preamps that sound noticeably better than the competition"
+   }
+  ]
+ },
+ {
+  "id": "best-headphones",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Studio Headphones: Complete Guide (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Studio Headphones: Complete Guide"
+   },
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores auriculares de estudio: guía completa (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores auriculares de estudio: guía completa"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_en",
+    "snippet": "Best Studio Headphones (2026)",
+    "note": "Year in featuredSnippet title_en",
+    "fix": "Best Studio Headphones"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_es",
+    "snippet": "Mejores Auriculares de Estudio para Mezcla y Monitoreo (2026)",
+    "note": "Year in featuredSnippet title_es",
+    "fix": "Mejores Auriculares de Estudio para Mezcla y Monitoreo"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[4].content",
+    "snippet": "They're, fold flat, and sound remarkably good",
+    "note": "Extra comma after 'They're' — should be 'They fold flat'",
+    "fix": "They fold flat and sound remarkably good"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[5].content",
+    "snippet": "more present ththe DT 770",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "more present than the DT 770"
+   }
+  ]
+ },
+ {
+  "id": "best-microphone",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "critical",
+    "type": "fact",
+    "path": "description_es",
+    "snippet": "Compara categorías y encuentra el teclado perfecto.",
+    "note": "Wrong word: 'teclado' (keyboard) should be 'micrófono' (microphone) — complete mistranslation",
+    "fix": "Compara categorías y encuentra el micrófono perfecto."
+   },
+   {
+    "severity": "high",
+    "type": "fact",
+    "path": "productTable.title",
+    "snippet": "Podcast Microphones Compared in This Guide",
+    "note": "This is a general microphone guide (dynamic, condenser, USB, stage, ribbon) — the productTable title incorrectly says 'Podcast Microphones'",
+    "fix": "Microphones Compared in This Guide"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_en",
+    "snippet": "Best Microphone for Musicians: Vocals & Home Recording (2026)",
+    "note": "Year in featuredSnippet title_en",
+    "fix": "Best Microphone for Musicians: Vocals & Home Recording"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_es",
+    "snippet": "Mejor Micrófono para Músicos: Voces y Grabación Casera (2026)",
+    "note": "Year in featuredSnippet title_es",
+    "fix": "Mejor Micrófono para Músicos: Voces y Grabación Casera"
+   }
+  ]
+ },
+ {
+  "id": "best-monitors",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Studio Monitors: Complete Guide for Every Room (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Studio Monitors: Complete Guide for Every Room"
+   },
+   {
+    "severity": "high",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores monitores de estudio: guía completa para cada sala (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores monitores de estudio: guía completa para cada sala"
+   },
+   {
+    "severity": "high",
+    "type": "format",
+    "path": "intro_es",
+    "snippet": "Los buenos monitores los revelan..",
+    "note": "Double period at end of intro_es",
+    "fix": "Los buenos monitores los revelan."
+   },
+   {
+    "severity": "high",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "Each, they're excellent for beginners and small rooms",
+    "note": "Wrong word: 'Each,' should be 'At this price,' — appears to be a copy-paste or generation error",
+    "fix": "At this price, they're excellent for beginners and small rooms"
+   },
+   {
+    "severity": "high",
+    "type": "en_ai",
+    "path": "sections[2].content",
+    "snippet": "Each, these are the monitors that made me rethink",
+    "note": "Wrong word: 'Each,' should be 'At this price,' or similar",
+    "fix": "These are the monitors that made me rethink"
+   },
+   {
+    "severity": "high",
+    "type": "en_ai",
+    "path": "sections[7].content",
+    "snippet": "Each it is also the priciest per-driver in this guide",
+    "note": "Wrong word: 'Each' should be 'At this price' — garbled sentence",
+    "fix": "At this price, it is also the priciest per-driver in this guide"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_en",
+    "snippet": "Best Studio Monitors (2026)",
+    "note": "Year in featuredSnippet title_en",
+    "fix": "Best Studio Monitors"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "featuredSnippet.title_es",
+    "snippet": "Mejores Monitores de Estudio por Menos de $1,000 (2026)",
+    "note": "Year in featuredSnippet title_es; also says 'por Menos de $1,000' but this is a general monitors guide, not a budget guide",
+    "fix": "Mejores Monitores de Estudio"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "more tha any monitor does",
+    "note": "Missing 'n' in 'than'",
+    "fix": "more than any monitor does"
+   }
+  ]
+ },
+ {
+  "id": "best-plugins",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Plugins for Music Production: Complete Guide (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Plugins for Music Production: Complete Guide"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores plugins para producción musical: guía completa (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores plugins para producción musical: guía completa"
+   }
+  ]
+ },
+ {
+  "id": "budget-mics",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "23 Best Budget Microphones Under $200: XLR (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "23 Best Budget Microphones Under $200: XLR"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Los 23 mejores micrófonos económicos por menos de $200: XLR (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Los 23 mejores micrófonos económicos por menos de $200: XLR"
+   },
+   {
+    "severity": "medium",
+    "type": "es_calco",
+    "path": "conclusion_es",
+    "snippet": "vale la pena",
+    "note": "Calco: 'vale la pena' — acceptable in some contexts but can sound robotic; consider 'compensa' or 'merece la pena'",
+    "fix": "No change needed — this is borderline acceptable"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "ththe competition at this price point",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the competition at this price point"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "thananything else in history",
+    "note": "Missing space: 'than anything' → 'thananything'",
+    "fix": "than anything else in history"
+   }
+  ]
+ },
+ {
+  "id": "usb-mics",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best USB Microphones for Streaming (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best USB Microphones for Streaming"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores micrófonos USB para streaming (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores micrófonos USB para streaming"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "ththe same warm SM7B voice",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the same warm SM7B voice"
+   }
+  ]
+ },
+ {
+  "id": "stage-mics",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Live & Stage Microphones (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Live & Stage Microphones"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores micrófonos de escenario y directo (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores micrófonos de escenario y directo"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[2].content",
+    "snippet": "ththe room",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the room"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[8].content",
+    "snippet": "ththe DT 770",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the DT 770"
+   }
+  ]
+ },
+ {
+  "id": "portable-interfaces",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Portable Audio Interfaces: Complete Guide (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Portable Audio Interfaces: Complete Guide"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores interfaces de audio portátiles: guía completa (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores interfaces de audio portátiles: guía completa"
+   },
+   {
+    "severity": "low",
+    "type": "format",
+    "path": "conclusion_es",
+    "snippet": "...suficientemente confiables para trabajo profesional en carretera",
+    "note": "Missing period at end of conclusion_es",
+    "fix": "...suficientemente confiables para trabajo profesional en carretera."
+   }
+  ]
+ },
+ {
+  "id": "open-headphones",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Open-Back Headphones: Complete Guide (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Open-Back Headphones: Complete Guide"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores auriculares abiertos: guía completa (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores auriculares abiertos: guía completa"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[5].content",
+    "snippet": "ththe DT 770",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the DT 770"
+   }
+  ]
+ },
+ {
+  "id": "budget-headphones",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Cheap Studio Headphones Under $150 (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Cheap Studio Headphones Under $150"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores auriculares de estudio económicos por menos de $150 (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores auriculares de estudio económicos por menos de $150"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "ththe best budget mixing headphones",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the best budget mixing headphones"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[2].content",
+    "snippet": "ththe best",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the best"
+   }
+  ]
+ },
+ {
+  "id": "tracking-headphones",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Closed-Back Studio Headphones for Recording & Vocal Isolation",
+    "note": "No year in title — OK"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "description",
+    "snippet": "BEST closed-back headphones for tracking 2026",
+    "note": "Year (2026) in description but not in title — inconsistent. Also featuredSnippet.title_en has (2026)",
+    "fix": "Remove year from description or add to title for consistency"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "budget-monitors",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Studio Monitors Under $500 (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Studio Monitors Under $500"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores monitores de estudio por menos de $500 (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores monitores de estudio por menos de $500"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[2].content",
+    "snippet": "ththe same warm SM7B voice",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the same warm SM7B voice"
+   }
+  ]
+ },
+ {
+  "id": "monitor-setup",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "en_ai",
+    "path": "conclusion",
+    "snippet": "The HS8s plus solid K&M stands give you honest, accurate monitoring you can trust for years.",
+    "note": "Conclusion starts with price '$X' that was truncated — the sentence preceding this in the full text is broken",
+    "fix": "Review full conclusion for missing price/cost context"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "ththe best budget mixing headphones",
+    "note": "Missing space: 'than the' → 'ththe'",
+    "fix": "than the best budget mixing headphones"
+   }
+  ]
+ },
+ {
+  "id": "mixing-plugins",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Mixing & Mastering Plugins",
+    "note": "No year in title — OK, consistent with removal"
+   },
+   {
+    "severity": "low",
+    "type": "es_calco",
+    "path": "description_es",
+    "snippet": "grabacion",
+    "note": "Missing accent: should be 'grabación' (with tilde). Also 'grabacion' appears in intro_es.",
+    "fix": "grabación"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else in history",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else in history"
+   }
+  ]
+ },
+ {
+  "id": "fx-plugins",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "es_calco",
+    "path": "verdict_es",
+    "snippet": "el bundle imprescindible — cada plugin que contiene es un clásico",
+    "note": "Robot: 'imprescindible' — AI filler word",
+    "fix": "el bundle que necesitas — cada plugin que contiene es un clásico"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "midi-controllers",
+  "status": "ok"
+ },
+ {
+  "id": "studio-furniture",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "conclusion",
+    "snippet": "level up your studio",
+    "note": "AI hype phrase 'level up' — borderline, but flagged per audit rules",
+    "fix": "improve your studio"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "best-condenser-mics",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "studio-subwoofers",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "5 Best Studio Subwoofers Under $700 for Accurate Low End (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "5 Best Studio Subwoofers Under $700 for Accurate Low End"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Los 5 mejores subwoofers de estudio por menos de $700 para un grave preciso (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Los 5 mejores subwoofers de estudio por menos de $700 para un grave preciso"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "channel-strip-plugins",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[2].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "fender-guide",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[0].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   },
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[1].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ },
+ {
+  "id": "guitar-bass-amps",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title",
+    "snippet": "Best Guitar & Bass Amplifiers: Complete Guide (2026)",
+    "note": "Year (2026) still in title",
+    "fix": "Best Guitar & Bass Amplifiers: Complete Guide"
+   },
+   {
+    "severity": "medium",
+    "type": "contradiction",
+    "path": "title_es",
+    "snippet": "Mejores amplificadores de guitarra y bajo: guía completa (2026)",
+    "note": "Year (2026) still in title_es",
+    "fix": "Mejores amplificadores de guitarra y bajo: guía completa"
+   }
+  ]
+ },
+ {
+  "id": "stage-wireless",
+  "status": "issues",
+  "issues": [
+   {
+    "severity": "low",
+    "type": "en_ai",
+    "path": "sections[4].content",
+    "snippet": "thanything else",
+    "note": "Missing space: 'than anything' → 'thanything'",
+    "fix": "than anything else"
+   }
+  ]
+ }
+]

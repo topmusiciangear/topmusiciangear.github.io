@@ -1,0 +1,11 @@
+const fs = require('fs');
+const P = 'C:/Users/Daniel/projects/topmusiciangear/data/products.json';
+const p = JSON.parse(fs.readFileSync(P, 'utf8'));
+const arr = Array.isArray(p) ? p : p.products;
+const o673 = arr.find(x => x.id === 673);
+const o674 = arr.find(x => x.id === 674);
+o673.img = 'https://r2.gear4music.com/media/30/300826/1200/preview.jpg';
+o674.img = 'https://r2.gear4music.com/media/58/589934/1200/preview.jpg';
+fs.writeFileSync(P, JSON.stringify(p, null, 2));
+console.log('673:', o673.img);
+console.log('674:', o674.img);

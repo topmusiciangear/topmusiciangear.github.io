@@ -1,0 +1,11 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=A.find(function(x){return x&&x.id==='premium-interfaces';});
+var o=[];
+o.push('KEYS='+Object.keys(g).join(','));
+o.push('title_es='+g.title_es);
+o.push('titleTag_es='+g.titleTag_es);
+o.push('nsections='+(g.sections&&g.sections.length));
+if(g.sections) g.sections.forEach(function(s,i){ o.push('sec'+i+' keys='+Object.keys(s).join(',')+' | h='+(s.heading||s.h||s.heading_es||s.h_es||'(none)').toString().slice(0,120)+' | h_es='+(s.heading_es||s.h_es||'(none)').toString().slice(0,120)); });
+fs.writeFileSync('temp/cons_patch/prem_struct2.txt', o.join('\n'),'utf8');
+console.log('ok');

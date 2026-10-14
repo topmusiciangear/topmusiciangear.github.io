@@ -1,0 +1,524 @@
+[
+ {
+  "id": "starter-studio",
+  "cards": 15,
+  "flags": [
+   "TABLA(8)<>TARJETAS(15)",
+   "VEREDICTO(8)<>TARJETAS(15)"
+  ]
+ },
+ {
+  "id": "best-interface",
+  "cards": 10,
+  "flags": [
+   "TABLA(7)<>TARJETAS(10)",
+   "VEREDICTO(7)<>TARJETAS(10)"
+  ]
+ },
+ {
+  "id": "best-microphone",
+  "cards": 11,
+  "flags": [
+   "TABLA(9)<>TARJETAS(11)",
+   "VEREDICTO(9)<>TARJETAS(11)",
+   "VEREDICTO_HUERFANO:Rode PodMic;Rode Procaster;Elgato Wave:3",
+   "TABLA_HUERFANA:Rode PodMic;Rode Procaster;Elgato Wave:3"
+  ]
+ },
+ {
+  "id": "best-plugins",
+  "cards": 9,
+  "flags": [
+   "TABLA(7)<>TARJETAS(9)",
+   "VEREDICTO(7)<>TARJETAS(9)"
+  ]
+ },
+ {
+  "id": "budget-mics",
+  "cards": 23,
+  "flags": [
+   "VEREDICTO_HUERFANO:MAONO PD100 XLR",
+   "TABLA_HUERFANA:MAONO PD100 XLR"
+  ]
+ },
+ {
+  "id": "usb-mics",
+  "cards": 15,
+  "flags": [
+   "TABLA(7)<>TARJETAS(15)",
+   "VEREDICTO(7)<>TARJETAS(15)",
+   "VEREDICTO_HUERFANO:Shure SM7B;Electro-Voice RE20",
+   "TABLA_HUERFANA:Shure SM7B;Electro-Voice RE20"
+  ]
+ },
+ {
+  "id": "stage-mics",
+  "cards": 10,
+  "flags": [
+   "TABLA(9)<>TARJETAS(10)",
+   "VEREDICTO(9)<>TARJETAS(10)",
+   "VEREDICTO_HUERFANO:EV ND86",
+   "TABLA_HUERFANA:EV ND86"
+  ]
+ },
+ {
+  "id": "open-headphones",
+  "cards": 7,
+  "flags": [
+   "TABLA(8)<>TARJETAS(7)",
+   "TABLA_HUERFANA:Audeze LCD-X"
+  ]
+ },
+ {
+  "id": "tracking-headphones",
+  "cards": 6,
+  "flags": [
+   "TABLA(7)<>TARJETAS(6)",
+   "TABLA_HUERFANA:AKG K371"
+  ]
+ },
+ {
+  "id": "budget-monitors",
+  "cards": 8,
+  "flags": [
+   "TABLA(4)<>TARJETAS(8)",
+   "VEREDICTO(4)<>TARJETAS(8)"
+  ]
+ },
+ {
+  "id": "monitor-setup",
+  "cards": 1,
+  "flags": [
+   "TABLA(2)<>TARJETAS(1)",
+   "VEREDICTO(2)<>TARJETAS(1)",
+   "VEREDICTO_HUERFANO:K&M Monitor Stands (Pair)",
+   "TABLA_HUERFANA:K&M Monitor Stands (Pair)"
+  ]
+ },
+ {
+  "id": "midi-controllers",
+  "cards": 7,
+  "flags": [
+   "TABLA(6)<>TARJETAS(7)",
+   "VEREDICTO(6)<>TARJETAS(7)"
+  ]
+ },
+ {
+  "id": "channel-strip-plugins",
+  "cards": 6,
+  "flags": [
+   "TABLA(5)<>TARJETAS(6)",
+   "VEREDICTO(5)<>TARJETAS(6)"
+  ]
+ },
+ {
+  "id": "fender-guide",
+  "cards": 9,
+  "flags": [
+   "TABLA(6)<>TARJETAS(9)",
+   "VEREDICTO(6)<>TARJETAS(9)",
+   "VEREDICTO_HUERFANO:Fender Player Telecaster",
+   "TABLA_HUERFANA:Fender Player Telecaster"
+  ]
+ },
+ {
+  "id": "guitar-bass-amps",
+  "cards": 8,
+  "flags": [
+   "TABLA(6)<>TARJETAS(8)",
+   "VEREDICTO(6)<>TARJETAS(8)",
+   "VEREDICTO_HUERFANO:Ampeg RB-210",
+   "TABLA_HUERFANA:Ampeg RB-210"
+  ]
+ },
+ {
+  "id": "stage-wireless",
+  "cards": 5,
+  "flags": [
+   "VEREDICTO_HUERFANO:Shure SM58 Wireless",
+   "TABLA_HUERFANA:Shure SM58 Wireless"
+  ]
+ },
+ {
+  "id": "guitar-pedals",
+  "cards": 8,
+  "flags": [
+   "TABLA(7)<>TARJETAS(8)",
+   "VEREDICTO(7)<>TARJETAS(8)",
+   "VEREDICTO_HUERFANO:Electro-Harmonix Small Stone",
+   "TABLA_HUERFANA:Electro-Harmonix Small Stone"
+  ]
+ },
+ {
+  "id": "acoustic-guitars-guide",
+  "cards": 7,
+  "flags": [
+   "TABLA_HUERFANA:Gibson 1942 Banner J-45"
+  ]
+ },
+ {
+  "id": "midi-keyboards",
+  "cards": 6,
+  "flags": [
+   "TABLA(5)<>TARJETAS(6)",
+   "VEREDICTO(5)<>TARJETAS(6)"
+  ]
+ },
+ {
+  "id": "budget-interfaces",
+  "cards": 7,
+  "flags": [
+   "TABLA(5)<>TARJETAS(7)",
+   "VEREDICTO(5)<>TARJETAS(7)"
+  ]
+ },
+ {
+  "id": "vocal-plugins",
+  "cards": 9,
+  "flags": [
+   "TABLA(8)<>TARJETAS(9)",
+   "VEREDICTO(8)<>TARJETAS(9)"
+  ]
+ },
+ {
+  "id": "beginner-guitar",
+  "cards": 8,
+  "flags": [
+   "TABLA(5)<>TARJETAS(8)",
+   "VEREDICTO(6)<>TARJETAS(8)",
+   "TABLA_HUERFANA:Squier Affinity Stratocaster"
+  ]
+ },
+ {
+  "id": "best-electric-guitar",
+  "cards": 18,
+  "flags": [
+   "TABLA(6)<>TARJETAS(18)",
+   "VEREDICTO(6)<>TARJETAS(18)"
+  ]
+ },
+ {
+  "id": "best-guitar-home-office",
+  "cards": 9,
+  "flags": [
+   "VEREDICTO(8)<>TARJETAS(9)",
+   "TABLA_HUERFANA:Yamaha Pacifica 112V;Traveler Ultra-Light Steel"
+  ]
+ },
+ {
+  "id": "best-mic-for-guitar-amps",
+  "cards": 5,
+  "flags": [
+   "TABLA(3)<>TARJETAS(5)",
+   "VEREDICTO(3)<>TARJETAS(5)"
+  ]
+ },
+ {
+  "id": "best-mic-for-podcasting",
+  "cards": 10,
+  "flags": [
+   "TABLA(5)<>TARJETAS(10)",
+   "VEREDICTO(5)<>TARJETAS(10)"
+  ]
+ },
+ {
+  "id": "best-headphones-for-mixing",
+  "cards": 5,
+  "flags": [
+   "TABLA(4)<>TARJETAS(5)",
+   "VEREDICTO(4)<>TARJETAS(5)"
+  ]
+ },
+ {
+  "id": "best-monitors-for-small-rooms",
+  "cards": 11,
+  "flags": [
+   "VEREDICTO_HUERFANO:Kali LP-6 V2;ADAM D3V;Kali LP-UNF;ADAM T5V",
+   "TABLA_HUERFANA:Kali LP-6 V2;ADAM D3V;Kali LP-UNF;ADAM T5V"
+  ]
+ },
+ {
+  "id": "best-beginner-electric-guitar",
+  "cards": 10,
+  "flags": [
+   "VEREDICTO(4)<>TARJETAS(10)",
+   "VEREDICTO_HUERFANO:Squier Affinity Stratocaster",
+   "TABLA_HUERFANA:Squier Affinity Strat;Squier Sonic Strat HT;Epiphone LP Special-II E1;Yamaha Revstar RSE20;Squier Debut Strat"
+  ]
+ },
+ {
+  "id": "best-grooveboxes",
+  "cards": 4,
+  "flags": [
+   "TABLA(3)<>TARJETAS(4)",
+   "VEREDICTO(3)<>TARJETAS(4)"
+  ]
+ },
+ {
+  "id": "best-practice-amps",
+  "cards": 6,
+  "flags": [
+   "TABLA(3)<>TARJETAS(6)",
+   "VEREDICTO(3)<>TARJETAS(6)"
+  ]
+ },
+ {
+  "id": "best-bass-amps",
+  "cards": 6,
+  "flags": [
+   "TABLA(3)<>TARJETAS(6)",
+   "VEREDICTO(3)<>TARJETAS(6)",
+   "VEREDICTO_HUERFANO:Ampeg RB-210",
+   "TABLA_HUERFANA:Ampeg RB-210"
+  ]
+ },
+ {
+  "id": "best-reverb-delay",
+  "cards": 3,
+  "flags": [
+   "TABLA(4)<>TARJETAS(3)",
+   "VEREDICTO(4)<>TARJETAS(3)",
+   "VEREDICTO_HUERFANO:Boss RC-5 Loop Station",
+   "TABLA_HUERFANA:Boss RC-5 Loop Station"
+  ]
+ },
+ {
+  "id": "best-live-sound-mixers",
+  "cards": 8,
+  "flags": [
+   "TABLA(5)<>TARJETAS(8)",
+   "VEREDICTO(5)<>TARJETAS(8)",
+   "VEREDICTO_HUERFANO:Korg MW-1608",
+   "TABLA_HUERFANA:Korg MW-1608"
+  ]
+ },
+ {
+  "id": "best-digital-mixers",
+  "cards": 6,
+  "flags": [
+   "VEREDICTO_HUERFANO:Tascam Model 12;Behringer X32 Compact;Korg SoundLink MW-1608;Allen & Heath CQ-18T;Midas M32R LIVE",
+   "TABLA_HUERFANA:Tascam Model 12;Behringer X32 Compact;Korg SoundLink MW-1608;Allen & Heath CQ-18T;Midas M32R LIVE"
+  ]
+ },
+ {
+  "id": "best-analog-mixers",
+  "cards": 5,
+  "flags": [
+   "TABLA(4)<>TARJETAS(5)",
+   "VEREDICTO(4)<>TARJETAS(5)"
+  ]
+ },
+ {
+  "id": "best-compact-mixers",
+  "cards": 3,
+  "flags": [
+   "TABLA(6)<>TARJETAS(3)",
+   "VEREDICTO(6)<>TARJETAS(3)",
+   "VEREDICTO_HUERFANO:Mackie MobileMix;Yamaha MG10XU;Allen & Heath ZEDi-10FX",
+   "TABLA_HUERFANA:Mackie MobileMix;Yamaha MG10XU;Allen & Heath ZEDi-10FX"
+  ]
+ },
+ {
+  "id": "precision-vs-jazz",
+  "cards": 2,
+  "flags": [
+   "VEREDICTO_HUERFANO:Fender Player Precision Bass;Fender Player Jazz Bass"
+  ]
+ },
+ {
+  "id": "fender-bass-guide",
+  "cards": 7,
+  "flags": [
+   "TABLA(4)<>TARJETAS(7)",
+   "VEREDICTO(4)<>TARJETAS(7)",
+   "VEREDICTO_HUERFANO:Fender Player Precision Bass;Fender Player Jazz Bass",
+   "TABLA_HUERFANA:Fender Player Precision Bass;Fender Player Jazz Bass"
+  ]
+ },
+ {
+  "id": "active-vs-passive-pa",
+  "cards": 8,
+  "flags": [
+   "TABLA(6)<>TARJETAS(8)",
+   "VEREDICTO(7)<>TARJETAS(8)",
+   "VEREDICTO_HUERFANO:Yamaha DBR12"
+  ]
+ },
+ {
+  "id": "budget-bass-like-expensive",
+  "cards": 11,
+  "flags": [
+   "TABLA(6)<>TARJETAS(11)"
+  ]
+ },
+ {
+  "id": "beginner-bass-guitars",
+  "cards": 13,
+  "flags": [
+   "TABLA(6)<>TARJETAS(13)",
+   "VEREDICTO(6)<>TARJETAS(13)"
+  ]
+ },
+ {
+  "id": "best-bass-under-700",
+  "cards": 8,
+  "flags": [
+   "VEREDICTO_HUERFANO:Sterling StingRay Ray4",
+   "TABLA_HUERFANA:Sterling StingRay Ray4"
+  ]
+ },
+ {
+  "id": "pro-microphones",
+  "cards": 5,
+  "flags": [
+   "VEREDICTO_HUERFANO:Lewitt LCT 1040 Ultimate Microphone System"
+  ]
+ },
+ {
+  "id": "pro-guitars",
+  "cards": 9,
+  "flags": [
+   "VEREDICTO(8)<>TARJETAS(9)"
+  ]
+ },
+ {
+  "id": "beat-making",
+  "cards": 9,
+  "flags": [
+   "TABLA(7)<>TARJETAS(9)",
+   "VEREDICTO(7)<>TARJETAS(9)"
+  ]
+ },
+ {
+  "id": "best-instrument-mics",
+  "cards": 14,
+  "flags": [
+   "TABLA(13)<>TARJETAS(14)",
+   "TABLA_HUERFANA:Sennheiser e 906;Sennheiser e 604"
+  ]
+ },
+ {
+  "id": "stage-wedges",
+  "cards": 5,
+  "flags": [
+   "VEREDICTO_HUERFANO:Turbosound TFX122M-AN",
+   "TABLA_HUERFANA:Turbosound TFX122M-AN"
+  ]
+ },
+ {
+  "id": "nx912-vs-pxm12mp",
+  "cards": 2,
+  "flags": [
+   "TABLA_HUERFANA:EV PXM-12MP"
+  ]
+ },
+ {
+  "id": "best-live-subwoofers",
+  "cards": 6,
+  "flags": [
+   "TABLA(5)<>TARJETAS(6)",
+   "VEREDICTO(5)<>TARJETAS(6)",
+   "VEREDICTO_HUERFANO:EV ELX200-18SP",
+   "TABLA_HUERFANA:EV ELX200-18SP"
+  ]
+ },
+ {
+  "id": "stream-controllers",
+  "cards": 6,
+  "flags": [
+   "TABLA(5)<>TARJETAS(6)",
+   "VEREDICTO(5)<>TARJETAS(6)"
+  ]
+ },
+ {
+  "id": "streaming-interfaces",
+  "cards": 10,
+  "flags": [
+   "TABLA(6)<>TARJETAS(10)",
+   "VEREDICTO(6)<>TARJETAS(10)"
+  ]
+ },
+ {
+  "id": "wireless-lapel-mics",
+  "cards": 7,
+  "flags": [
+   "TABLA_HUERFANA:LARK MAX 2 (2-Person)"
+  ]
+ },
+ {
+  "id": "mics-for-creators",
+  "cards": 11,
+  "flags": [
+   "TABLA(5)<>TARJETAS(11)",
+   "VEREDICTO(5)<>TARJETAS(11)"
+  ]
+ },
+ {
+  "id": "best-amp-modelers",
+  "cards": 5,
+  "flags": [
+   "TABLA_HUERFANA:Line 6 HX Stomp;IK TONEX ONE+"
+  ]
+ },
+ {
+  "id": "best-electric-guitars-2026",
+  "cards": 11,
+  "flags": [
+   "TABLA(7)<>TARJETAS(11)",
+   "VEREDICTO(7)<>TARJETAS(11)"
+  ]
+ },
+ {
+  "id": "best-wireless-iems",
+  "cards": 7,
+  "flags": [
+   "VEREDICTO_HUERFANO:Shure PSM 300 Twin Pack Pro",
+   "TABLA_HUERFANA:PSM 300"
+  ]
+ },
+ {
+  "id": "best-parlor-guitars",
+  "cards": 7,
+  "flags": [
+   "TABLA_HUERFANA:Highway Parlor"
+  ]
+ },
+ {
+  "id": "best-ribbon-mics",
+  "cards": 5,
+  "flags": [
+   "VEREDICTO_HUERFANO:sE Voodoo VR2",
+   "TABLA_HUERFANA:sE Voodoo VR2"
+  ]
+ },
+ {
+  "id": "beatmaker-plugins",
+  "cards": 6,
+  "flags": [
+   "VEREDICTO(5)<>TARJETAS(6)",
+   "VEREDICTO_HUERFANO:D16 Repeater"
+  ]
+ },
+ {
+  "id": "best-in-ear-monitors",
+  "cards": 8,
+  "flags": [
+   "TABLA(4)<>TARJETAS(8)"
+  ]
+ },
+ {
+  "id": "j48-vs-rndi",
+  "cards": 2,
+  "flags": [
+   "VEREDICTO_HUERFANO:Rupert Neve RNDI"
+  ]
+ },
+ {
+  "id": "premium-interfaces",
+  "cards": 6,
+  "flags": [
+   "VEREDICTO_HUERFANO:Apogee Symphony I/O Mk II 16×16 SE",
+   "TABLA_HUERFANA:Apogee Symphony I/O Mk II 16×16 SE"
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+TOTAL FLAGS: 50
+BY KIND: {"TIER":2,"VS-MATCH":3,"CMP":12,"PC-BOILER":4,"FAQ-DUP":29}
+
+starter-studio [TIER] cap $1 but prices 199,99,169,269
+rme-vs-motu [VS-MATCH] side "Entry-Level" key(Entry-Level) not in products
+rme-vs-motu [VS-MATCH] side "Premium Audio Interface: Is It Worth Pay" key(Premium/Audio/Worth) not in products
+precision-vs-jazz [VS-MATCH] side "P-Bass" key(P-Bass) not in products
+budget-usb-mics [TIER] cap $100 but prices 103
+ai-tools-plugins [CMP] row[0] Type val1 empty
+ai-tools-plugins [CMP] row[1] AI Features val1 empty
+ai-tools-plugins [CMP] row[2] Tracks val1 empty
+ai-tools-plugins [CMP] row[3] Best For val1 empty
+sidechain-modulation-plugins [CMP] row[0] Type val1 empty
+sidechain-modulation-plugins [CMP] row[1] Modulation val1 empty
+sidechain-modulation-plugins [CMP] row[2] Tracks val1 empty
+sidechain-modulation-plugins [CMP] row[3] Best For val1 empty
+beatmaker-plugins [CMP] row[0] Type val1 empty
+beatmaker-plugins [CMP] row[1] Main Use val1 empty
+beatmaker-plugins [CMP] row[2] Tracks val1 empty
+beatmaker-plugins [CMP] row[3] Best For val1 empty
+GLOBAL [PC-BOILER] "no electronics for amplified playing..." reused x5 in fender-guide,acoustic-guitars-guide,best-acoustic-guitars-for-beginners
+GLOBAL [PC-BOILER] "no motorized faders or digital scene recall..." reused x4 in live-sound-pa,best-live-sound-mixers,best-digital-mixers,best-compact-mixers
+GLOBAL [PC-BOILER] "passive circuit lacks the onboard eq of active basses..." reused x4 in budget-bass-like-expensive,pro-basses
+GLOBAL [PC-BOILER] "premium us-made price..." reused x5 in budget-bass-like-expensive,pro-guitars,pro-basses
+pro-headphones [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-headphones [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-microphones [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-microphones [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-monitors [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-monitors [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-interfaces [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-interfaces [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-guitars [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-guitars [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-basses [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-basses [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-synths [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-synths [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-drum-machines [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-drum-machines [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-plugins [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-plugins [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-live-sound [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-live-sound [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-mixers [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-mixers [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+pro-daw [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+pro-daw [FAQ-DUP] fsn_es1 ~ faq_es0 (j=1.00)
+stage-wedges [FAQ-DUP] fsn_en3 ~ faq_en3 (j=0.67)
+j48-vs-rndi [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+j48-vs-rndi [FAQ-DUP] fsn_en2 ~ faq_en1 (j=1.00)
+premium-interfaces [FAQ-DUP] fsn_en1 ~ faq_en0 (j=1.00)
+premium-interfaces [FAQ-DUP] fsn_es1 ~ faq_es0 (j=0.72)

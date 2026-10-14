@@ -1,0 +1,20 @@
+--- ai-tools-plugins ---
+row0 [Type] val1=undefined val2="Mixing Suite" val1_es=undefined val2_es="Suite de Mezcla"
+row1 [AI Features] val1=undefined val2="Mix Assistant, Unmask, module suggestions" val1_es=undefined val2_es="Asistente de mezcla, Unmask, sugerencias de módulos"
+row2 [Tracks] val1=undefined val2="Single or multi-track" val1_es=undefined val2_es="Individual o multitrack"
+row3 [Best For] val1=undefined val2="Individual track mixing assistance" val1_es=undefined val2_es="Asistencia de mezcla por pista"
+--- sidechain-modulation-plugins ---
+row0 [Type] val1=undefined val2="Vintage color chain" val1_es=undefined val2_es="Cadena de color vintage"
+row1 [Modulation] val1=undefined val2="Static presets" val1_es=undefined val2_es="Presets estáticos"
+row2 [Tracks] val1=undefined val2="Per-instance" val1_es=undefined val2_es="Por instancia"
+row3 [Best For] val1=undefined val2="Lo-fi, vinyl, tape character" val1_es=undefined val2_es="Lo-fi, carácter de vinilo y cinta"
+--- beatmaker-plugins ---
+row0 [Type] val1=undefined val2="Transition builder" val1_es=undefined val2_es="Constructor de transiciones"
+row1 [Main Use] val1=undefined val2="Buildups, drops, movement" val1_es=undefined val2_es="Buildups, drops, movimiento"
+row2 [Tracks] val1=undefined val2="Per-instance" val1_es=undefined val2_es="Por instancia"
+row3 [Best For] val1=undefined val2="Creating movement in transitions" val1_es=undefined val2_es="Crear movimiento en transiciones"
+--- premium fsn1 vs faq0 ---
+fsn_q1_en=My studio is upgrading its core interface — do I commit to the UAD plugin ecosystem or the RME reliability legend?
+faq0_en=My studio is upgrading its core interface — do I commit to the UAD plugin ecosystem or the RME reliability legend?
+fsn_q1_es=Voy a renovar la interfaz principal: ¿apuesto por UAD o por la fiabilidad de RME?
+faq0_es=Voy a renovar la interfaz principal del estudio: ¿apuesto por el ecosistema UAD o por la fiabilidad legendaria de RME?

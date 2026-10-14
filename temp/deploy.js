@@ -1,0 +1,58 @@
+var fs = require('fs');
+var { execSync } = require('child_process');
+var crypto = require('crypto');
+
+console.log('=== DEPLOY COMPLETO ===\n');
+
+// 1. Rebuild guides
+console.log('1. Rebuilding guides...');
+execSync('node build-guides.js', { stdio: 'inherit' });
+
+// 2. Regenerate shop-buttons.js
+console.log('\n2. Regenerating shop-buttons.js...');
+execSync('node temp/gen-shop-buttons.js', { stdio: 'inherit' });
+
+// 2b. Defer Andertons Impact affiliate links across all generated HTML
+console.log('\n2b. Deferring Andertons affiliate links...');
+execSync('node temp/defere-aff.js', { stdio: 'inherit' });
+
+// 3. Updating cache hashes...
+console.log('\n3. Updating cache hashes...');
+var shopContent = fs.readFileSync('js/shop-buttons.js');
+var shopHash = crypto.createHash('md5').update(shopContent).digest('hex').substring(0, 8);
+var indexHtml = fs.readFileSync('index.html', 'utf8');
+indexHtml = indexHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/, 'shop-buttons.js?v=' + shopHash);
+fs.writeFileSync('index.html', indexHtml);
+var esIndex = 'es/index.html';
+if (fs.existsSync(esIndex)) {
+  var esHtml = fs.readFileSync(esIndex, 'utf8');
+  var cssHash = (indexHtml.match(/css\/style\.min\.css\?v=([a-f0-9]+)/) || [])[1];
+  var appHash = (indexHtml.match(/js\/app\.min\.js\?v=([a-f0-9]+)/) || [])[1];
+  esHtml = esHtml.replace(/css\/style\.min\.css\?v=[a-f0-9]+/g, 'css/style.min.css?v=' + cssHash);
+  esHtml = esHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/g, 'shop-buttons.js?v=' + shopHash);
+  esHtml = esHtml.replace(/js\/app\.min\.js\?v=[a-f0-9]+/g, 'js/app.min.js?v=' + appHash);
+  fs.writeFileSync(esIndex, esHtml);
+  console.log('   es/index.html hashes synced (css=' + cssHash + ' app=' + appHash + ')');
+}
+console.log('   shop-buttons.js?v=' + shopHash);
+
+// 4. Git commit
+console.log('\n4. Committing...');
+execSync('git add -A', { stdio: 'inherit' });
+try {
+  var msg = process.argv[2] || 'deploy: rebuild all guides';
+  execSync('git commit -m "' + msg + '"', { stdio: 'inherit' });
+} catch(e) {
+  console.log('   No changes to commit');
+  process.exit(0);
+}
+
+// 5. Git push
+console.log('\n5. Pushing...');
+execSync('git push', { stdio: 'inherit' });
+
+// 6. Trigger GitHub Pages build
+console.log('\n6. Triggering deploy...');
+execSync('gh api repos/topmusiciangear/topmusiciangear.github.io/pages/builds -X POST', { stdio: 'inherit' });
+
+console.log('\n=== DONE ===');

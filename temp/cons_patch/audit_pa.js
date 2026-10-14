@@ -1,0 +1,12 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=A.find(function(x){return x&&x.id==='budget-pa-systems';});
+var o=[];
+o.push('TITLE='+g.title+' || '+g.title_es);
+o.push('FEAT='+JSON.stringify(g.featuredProducts));
+o.push('COLS='+JSON.stringify((g.productTable&&g.productTable.columns||[]).map(function(c){return c.title;})));
+o.push('SECPRODS='+JSON.stringify(g.sections.map(function(s){return (s.products||[]);}).filter(function(p){return p.length;})));
+var t=g.productTable;
+if(t) t.rows.forEach(function(r){ if(/precio|price|best for|ideal/i.test(r.label||'')) o.push('ROW['+r.label+']='+JSON.stringify(r.values.map(function(v){return v.value||v.value_es;}))); });
+fs.writeFileSync('temp/cons_patch/audit_pa.txt', o.join('\n'),'utf8');
+console.log('ok');

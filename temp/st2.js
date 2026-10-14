@@ -1,0 +1,12 @@
+const { execSync } = require('child_process');
+const cwd = 'C:/Users/Daniel/projects/topmusiciangear';
+const run = (c) => execSync(c, { cwd, encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 });
+console.log('=== fee2613257 incluye temp/? ===');
+console.log(run('git show --stat fee2613257').split('\n').slice(0, 12).join('\n'));
+console.log('\n=== diff staged (cached) ===');
+console.log(run('git diff --cached --stat').split('\n').slice(-5).join('\n'));
+console.log('\n=== guides/ unstaged: contenido real o solo CRLF? ===');
+const d = run('git diff --numstat -- guides/ableton-vs-fl-studio.html').trim();
+console.log('numstat:', d);
+console.log('\n=== es fee2613257 ancestro de HEAD? ===');
+console.log(run('git merge-base --is-ancestor fee2613257 HEAD && echo SI || echo NO'));

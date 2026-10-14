@@ -1,0 +1,13 @@
+const { execSync } = require('child_process');
+const cwd = 'C:/Users/Daniel/projects/topmusiciangear';
+const run = (c) => execSync(c, { cwd, encoding: 'utf8' });
+console.log('=== HEAD ===');
+console.log(run('git log --oneline -1').trim());
+console.log('\n=== stat HEAD (primeras 15 lineas) ===');
+console.log(run('git show --stat HEAD').split('\n').slice(0, 15).join('\n'));
+console.log('\n=== temp/ aun en repo? ===');
+const t = run('git ls-files temp/').trim();
+console.log(t ? t.split('\n').length + ' archivos' : '0 archivos (limpio)');
+console.log('\n=== working tree pendiente ===');
+console.log(run('git status --short').split('\n').slice(0, 10).join('\n'));
+console.log('...total lineas:', run('git status --short').trim().split('\n').length);

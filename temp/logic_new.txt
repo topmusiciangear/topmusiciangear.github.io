@@ -1,0 +1,58 @@
+{
+    document.querySelectorAll('').forEach(function(c){
+    var pb=c.querySelector('');
+    if(!pb)return;
+    var curStore=pb.getAttribute('')||'';
+    if(curStore===''){
+      var pbReg=(T==='')?'':(T==='')?'':'';
+      var pbP=pb.getAttribute(''+pbReg+'');
+      if(pbP){
+        var pbPE=pb.querySelector('');
+        if(pbPE)pbPE.outerHTML=tmgPriceHtml(pbP,true);
+        else pb.innerHTML=pb.innerHTML.replace(/- [\u00a3$\u20ac][0-9.,]+/,''+tmgPriceHtml(pbP,true));
+      }
+      return;
+    }
+    if(curStore===''){
+      var hr=(T==='')?'':(T==='')?'':'';
+      var hu=pb.getAttribute(''+hr);
+      if(hu){
+        pb.setAttribute('',hu);
+        var hp=pb.getAttribute(''+hr+'');
+        if(hp){
+          var hpEl=pb.querySelector('');
+          if(hpEl)hpEl.outerHTML=tmgPriceHtml(hp,true);
+          else pb.innerHTML=pb.innerHTML.replace(/- [£$€][0-9.,]+/,''+tmgPriceHtml(hp,true));
+        }
+      }
+      return;
+    }
+    if(curStore===T)return;
+    var tmgCheckLabel=tmgIsEsDoc()?'':'';
+    var zRow=c.querySelector(''+T+'');
+    if(!zRow)return;
+    if(!zRow.getAttribute(''))return;
+    var ml=c.querySelector('');
+    var zUrl=zRow.getAttribute('');var zAff=zRow.getAttribute('');
+    var zAffAttr=zAff?''+zAff+'':'';
+    var zPriceEl=zRow.querySelector('');
+    var zPlain=zPriceEl?zPriceEl.getAttribute(''):'';
+    var zPriceHtml=zPlain?tmgPriceHtml(zPlain,true):(T===''?''+tmgCheckLabel+'':'');
+    var aUrl=pb.getAttribute('');var aAff=pb.getAttribute('');
+    var aAffAttr=aAff?''+aAff+'':'';
+    var newPrimary=''+zUrl+''+zAffAttr+''brightness(1.05)\\''\\''+(tmgIsEsDoc()?'':'')+''+(gStyle[T]||'')+''+(gText[T]||T)+''+(zPriceHtml?''+zPriceHtml:'')+'';
+    zRow.style.display='';
+    pb.insertAdjacentHTML('',newPrimary);
+    pb.remove();
+    if(ml&&!ml.querySelector(''+curStore+'')){
+      var dispEl=pb.querySelector('');
+      var dispPlain=dispEl?dispEl.getAttribute(''):'';
+      var dispPriceSpan = curStore==='' ? ''+tmgCheckLabel+'' : (dispPlain ? ''+tmgPriceHtml(dispPlain)+'' : '');
+      var dispNotes={zzounds:['',''],reverb:['',''],gear4music:['',''],andertons:['',''],musicstore:['',''],amazon:['','']};
+      var isEs=tmgIsEsDoc();
+      var dispNote='';
+      var dispRow=''+curStore+''+aUrl+''+aAffAttr+''+gFlag(curStore)+''+(gStyle[curStore]||'')+''+(gText[curStore]||curStore)+''+dispNote+dispPriceSpan+'';
+      ml.insertAdjacentHTML('',dispRow);
+    }
+  });
+  }

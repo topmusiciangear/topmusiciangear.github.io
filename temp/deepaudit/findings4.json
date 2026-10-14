@@ -1,0 +1,762 @@
+[
+  {
+    "id": "best-practice-amps",
+    "status": "clean",
+    "issues": []
+  },
+  {
+    "id": "best-bass-amps",
+    "status": "clean",
+    "issues": []
+  },
+  {
+    "id": "best-bass-practice-amps",
+    "status": "clean",
+    "issues": []
+  },
+  {
+    "id": "best-overdrive-distortion",
+    "status": "clean",
+    "issues": []
+  },
+  {
+    "id": "best-reverb-delay",
+    "status": "minor",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "parity",
+        "path": "guide (all fields)",
+        "snippet": "EN=11098 chars, ES=5707 chars",
+        "note": "ES text is only ~51% of EN length. Sample the ES prose for missing sections/paragraphs vs EN before shipping.",
+        "fix": "Expand ES content to reach parity with the EN guide; verify each section pair cross-references the same products/FAQs."
+      }
+    ]
+  },
+  {
+    "id": "ts9-vs-bd2",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "data-mismatch",
+        "path": "featuredSnippet.price1",
+        "snippet": "149",
+        "note": "FeaturedSnippet shows $149 for the Ibanez TS9 Tube Screamer, but data/products.json id 96 (Ibanez TS9 Tube Screamer) lists price=100. The guide card price contradicts the product catalog.",
+        "fix": "Set featuredSnippet.price1 to match products.json (100) or update the catalog if the price genuinely changed."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[0].heading_es",
+        "snippet": "TS9 vs bD-2 — ¿cómo se comparan estos overdrives clásicos?",
+        "note": "Product token 'bD-2' should be 'BD-2' (Boss BD-2).",
+        "fix": "Change to 'TS9 vs BD-2 — ¿cómo se comparan estos overdrives clásicos?'"
+      }
+    ]
+  },
+  {
+    "id": "best-live-sound-mixers",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[?].content (chunk4.json:2574)",
+        "snippet": "If you are a gigging band on a budget, this the product to get.",
+        "note": "Missing verb 'is': 'this the product' should be 'this is the product'. Same paragraph also has the XR18 price issue below.",
+        "fix": "Rewrite as 'if you are a gigging band on a budget, this is the product to get.'"
+      },
+      {
+        "severity": "medium",
+        "type": "data-mismatch",
+        "path": "sections[?].content (chunk4.json:2574)",
+        "snippet": "At around $699, it delivers 16 MIDAS preamps, an 18x18 USB interface...",
+        "note": "Claims the Behringer XR18 costs 'around $699', but data/products.json id 145 (Behringer X Air XR18) lists price=509. The XR18 is also shown as $739 in the two XR18 comparison guides (see xr18-vs-m32r / xr18-vs-cq18t). Three different prices for the same product across the site.",
+        "fix": "Align all XR18 price mentions with the catalog price (509) or update the catalog."
+      }
+    ]
+  },
+  {
+    "id": "best-pa-speakers",
+    "status": "minor",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "parity",
+        "path": "guide (all fields)",
+        "snippet": "EN=13420 chars, ES=6521 chars",
+        "note": "ES text is only ~49% of EN length — the lowest ratio along with best-synthesizers. Sample the ES prose for missing paragraph-level content.",
+        "fix": "Expand ES content to reach parity with the EN guide."
+      }
+    ]
+  },
+  {
+    "id": "best-digital-pianos",
+    "status": "clean",
+    "issues": []
+  },
+  {
+    "id": "best-synthesizers",
+    "status": "minor",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "parity",
+        "path": "guide (all fields)",
+        "snippet": "EN=16453 chars, ES=7370 chars",
+        "note": "ES text is only ~45% of EN length — the lowest ratio in chunk4. Likely missing substantial ES prose; verify each section end-to-end.",
+        "fix": "Expand ES content to reach parity with the EN guide."
+      }
+    ]
+  },
+  {
+    "id": "best-digital-mixers",
+    "status": "minor",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "lang_link",
+        "path": "sections[0].content_es",
+        "snippet": "<a class=\"guide-link-btn\" href=\"/guides/best-compact-mixers.html\">Mejores mezcladores econó...</a>",
+        "note": "ES content links to the EN page '/guides/best-compact-mixers.html' while sibling links in the same paragraph use '_es.html'. A Spanish reader is sent to the English guide.",
+        "fix": "Point the link to '/guides/best-compact-mixers_es.html'."
+      }
+    ]
+  },
+  {
+    "id": "best-analog-mixers",
+    "status": "clean",
+    "issues": []
+  },
+  {
+    "id": "best-compact-mixers",
+    "status": "minor",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "truncation_en",
+        "path": "sections[?].content (chunk4.json:6147)",
+        "snippet": "It's the most portable analog mixer with professional features at.",
+        "note": "Sentence ends with a dangling 'at.' — the price/qualifier is missing (compare the pattern 'professional features at a price/at $X'). Looks like a truncated price insertion.",
+        "fix": "Complete the sentence, e.g. '...with professional features at a budget price.'"
+      },
+      {
+        "severity": "low",
+        "type": "parity",
+        "path": "guide (all fields)",
+        "snippet": "EN=13517 chars, ES=7320 chars",
+        "note": "ES text is only ~54% of EN length. Sample the ES prose for missing sections.",
+        "fix": "Expand ES content to reach parity with the EN guide."
+      }
+    ]
+  },
+  {
+    "id": "xr18-vs-m32r",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "data-mismatch",
+        "path": "featuredSnippet.price1",
+        "snippet": "739",
+        "note": "FeaturedSnippet prices the Behringer XR18 at $739, but data/products.json id 145 (Behringer X Air XR18) lists price=509. The same $739 figure is used in xr18-vs-cq18t; best-live-sound-mixers prose says 'around $699'. Three inconsistent prices across the site.",
+        "fix": "Align the XR18 price in all three guides with the catalog (509) or update the catalog/productTable."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[3].heading_es",
+        "snippet": "Decisión: Behringer xR18 o Midas m32r LIVE",
+        "note": "Product tokens lowercased in ES ('xR18', 'm32r'). Correct forms: 'XR18' and 'M32R LIVE'.",
+        "fix": "Rewrite as 'Decisión: Behringer XR18 o Midas M32R LIVE'."
+      }
+    ]
+  },
+  {
+    "id": "xr18-vs-cq18t",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "data-mismatch",
+        "path": "featuredSnippet.price1",
+        "snippet": "739",
+        "note": "FeaturedSnippet prices the Behringer XR18 at $739 vs data/products.json id 145 price=509. See xr18-vs-m32r.",
+        "fix": "Align with the catalog price (509)."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[2].heading_es, sections[3].heading_es",
+        "snippet": "XR18 o cQ-18t: ¿cuál se adapta mejor a tu banda? | Decisión: Behringer xR18 o Allen & Heath cQ-18t",
+        "note": "Product tokens lowercased in ES ('cQ-18t', 'xR18'). Correct forms: 'CQ-18T' and 'XR18'.",
+        "fix": "Use consistent product casing across both headings."
+      },
+      {
+        "severity": "medium",
+        "type": "truncation_en",
+        "path": "verdictProsCons[1].cons[2]",
+        "snippet": "Priced — more than double the XR18's ",
+        "note": "Sentence cut off after possessive 'the XR18's' — a price/noun was expected (e.g. 'the XR18's price').",
+        "fix": "Complete as 'Priced — more than double the XR18's price.'"
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "verdictProsCons[1].cons_es[2]",
+        "snippet": "A — más del doble que los de la XR18",
+        "note": "Orphan 'a' at sentence start (calco of EN 'Priced —'). Spanish should read 'Cuesta — más del doble que los de la XR18' (and mirror the finished EN sentence when fixed).",
+        "fix": "Rewrite as 'Cuesta — más del doble que los de la XR18.'"
+      }
+    ]
+  },
+  {
+    "id": "nord-stage-4-vs-montage-m8x",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "mistranslation_es",
+        "path": "featuredSnippet.faq_a5_es",
+        "snippet": "La Montage M8x tiene modo performance de 8 partes, secuenciador completo y más de 400 sonidos de fábrica que te",
+        "note": "Three problems: (1) article 'La' is wrong — 'El Montage M8x' (elsewhere consistently 'El Montage'); (2) 'performance' is an anglicism calco ('modo de actuación' would be more natural, though 'performance mode' is a Yamaha term — keep consistent and lowercase); (3) 'más de 400 sonidos de fábrica' mistranslates EN '400+ preset performances' — 'performances' (performances/actuaciones) were rendered as 'sonidos'.",
+        "fix": "Rewrite as 'El Montage M8x tiene un modo de actuación de 8 partes... y más de 400 performances/presets de fábrica...'"
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[3].heading_es",
+        "snippet": "Decisión: Nord stage 4 88 o Yamaha montage m8x",
+        "note": "Product tokens lowercased in ES ('stage 4', 'montage m8x'). Correct forms: 'Nord Stage 4 88' and 'Yamaha Montage M8x'.",
+        "fix": "Use consistent product casing."
+      }
+    ]
+  },
+  {
+    "id": "digitakt-ii-vs-tr8s",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "sections[3].content_es",
+        "snippet": "alguien que quiere control total sobre cada aspecto de tusonidos de batería, el Digitakt II es la opción más profunda",
+        "note": "Glue word 'tusonidos' should be 'tus sonidos' (no space lost in translation).",
+        "fix": "Split into 'tus sonidos de batería'."
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "verdictProsCons[0].cons_es[0]",
+        "snippet": "Caro a — más que la TR-8S",
+        "note": "Orphan 'a' before the em dash (calco of EN 'Expensive — more than the TR-8S'). Same 'X a —' defect as active-vs-passive-pa ('Caro a —', 'Ligero a —', 'Mejor compra a —').",
+        "fix": "Rewrite as 'Caro — más que la TR-8S'."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[1].heading_es, sections[2].heading_es, sections[3].heading_es",
+        "snippet": "¿Es el Roland tR-8s la mejor máquina de ritmos? | ¿Digitakt II o tR-8s para tus beats? | Decisión: Digitakt II o tR-8s",
+        "note": "Product token 'TR-8S' lowercased to 'tR-8s' in three ES headings.",
+        "fix": "Use 'TR-8S' consistently."
+      }
+    ]
+  },
+  {
+    "id": "yamaha-mg-vs-behringer-xenyx",
+    "status": "minor",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[2].heading_es, sections[3].heading_es",
+        "snippet": "Yamaha mG vs Behringer xenyx: ¿cuál es mejor para tu banda? | Decisión: Yamaha mG vs Behringer xenyx",
+        "note": "Product tokens lowercased in ES ('mG', 'xenyx'). Correct forms: 'MG' and 'Xenyx'.",
+        "fix": "Use consistent product casing in both headings."
+      }
+    ]
+  },
+  {
+    "id": "budget-pa-systems",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "truncation_en",
+        "path": "verdictProsCons[0].pros[0]",
+        "snippet": "One of the most affordable 15-inch options each — a pair costs ",
+        "note": "Pro sentence ends with 'a pair costs ' and the price was never inserted. Visible truncation on the guide card.",
+        "fix": "Insert the pair price, e.g. 'a pair costs around $699.'"
+      },
+      {
+        "severity": "high",
+        "type": "truncation_es",
+        "path": "verdictProsCons[0].pros_es[0]",
+        "snippet": "Una de las opciones de 15 pulgadas más económicas a cada uno — un par cuesta",
+        "note": "ES counterpart of the same card stops right after 'un par cuesta' with no price.",
+        "fix": "Insert the pair price to match the fixed EN sentence."
+      },
+      {
+        "severity": "medium",
+        "type": "data-mismatch",
+        "path": "featuredSnippet.price1 / price2, featuredSnippet.rating1 / rating2",
+        "snippet": "price1='' price2='' | rating1=4.4 rating2=4.4",
+        "note": "Snippet prices are empty for both competitors though data/products.json has them (id 151 Mackie Thump215XT price=400, id 153 Alto TS412 price=399). Snippet ratings (4.4/4.4) also disagree with the catalog (both 4.0).",
+        "fix": "Fill snippet prices from the catalog and correct ratings to 4.0/4.0 (or update the catalog if ratings changed)."
+      }
+    ]
+  },
+  {
+    "id": "precision-vs-jazz",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "data-mismatch",
+        "path": "featuredSnippet.price1 / price2",
+        "snippet": "899 | 899",
+        "note": "Snippet prices both $899, but data/products.json lists Fender Player II Precision Bass (id 441) at 849 and Player II Jazz Bass (id 442) at 849. If the guide references the Player II pair, 899 is inconsistent; if it references American Pro II (1599 each), 899 is low. Verify which models the guide actually sells and align.",
+        "fix": "Confirm the intended P/J models and set snippet prices to match products.json."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "title",
+        "snippet": "P-bass vs j-bass: ¿cuál bajo Fender es el tuyo?",
+        "note": "Product tokens lowercased in the ES title ('P-bass', 'j-bass').",
+        "fix": "Use 'P-Bass vs J-Bass'."
+      }
+    ]
+  },
+  {
+    "id": "fender-bass-guide",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "typo_glue",
+        "path": "sections[3].content",
+        "snippet": "takes the well-regarded P-Bass formuland refines every detail",
+        "note": "Glue word 'formuland' should be 'formula and'.",
+        "fix": "Rewrite as 'takes the well-regarded P-Bass formula and refines every detail.'"
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[3].content",
+        "snippet": "maintains clarity when reducing volume. This the P-Bass for working professionals who need",
+        "note": "Missing verb 'is': 'This the P-Bass' should be 'This is the P-Bass'.",
+        "fix": "Insert 'is'."
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[4].content",
+        "snippet": "iflex graphite rods for neck stability. This the J-Bass for professionals who need articul...",
+        "note": "Missing verb 'is' ('This the J-Bass').",
+        "fix": "Insert 'is'."
+      }
+    ]
+  },
+  {
+    "id": "scarlett-vs-motu",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "truncation_en",
+        "path": "sections[0].content",
+        "snippet": "<strong>Both cost, both are USB-C bus-powered, both have 2 inputs and 2 outputs...</strong>",
+        "note": "'Both cost' never states the price ($199 each in the catalog). Reads like a truncated price insertion.",
+        "fix": "Write 'Both cost $199 (see prices in the comparison table below)...' or state the price."
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "sections[2].heading_es",
+        "snippet": "Medición y monitoreo: la característica mata de la MOTU",
+        "note": "'la característica mata' is a literal calco of 'the killer feature' ('killer' → 'mata'). Natural Spanish: 'la función estrella' / 'el punto fuerte'.",
+        "fix": "Rewrite as 'Medición y monitoreo: el punto fuerte de la MOTU'."
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "sections[4].heading_es",
+        "snippet": "Veredicto: ¿qué interfaz gana a ?",
+        "note": "Orphan 'a' before the question mark — the object of 'gana' is missing. Reads as 'which interface wins to ?'.",
+        "fix": "Rewrite as 'Veredicto: ¿qué interfaz gana?'"
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "title",
+        "snippet": "Scarlett 2i2 vs MOTU m2: ¿cuál es la mejor interfaz?",
+        "note": "Product token 'M2' lowercased to 'm2' in the ES title.",
+        "fix": "Use 'MOTU M2'."
+      }
+    ]
+  },
+  {
+    "id": "ableton-vs-logic",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "truncation_en",
+        "path": "sections[3].content",
+        "snippet": "Ableton Live 12 Suite costs, and it works on both Windows and Mac.",
+        "note": "Price missing after 'costs' — the sentence was meant to quote a price.",
+        "fix": "Write 'Ableton Live 12 Suite costs $799, and it works on both Windows and Mac.' (align with catalog price 749/799 decision and featuredSnippet)."
+      },
+      {
+        "severity": "high",
+        "type": "truncation_en",
+        "path": "sections[3].content",
+        "snippet": "Logic Pro costs — one-time purchase, and includes every feature, instrument, and sound Apple makes.",
+        "note": "Price missing after the dash.",
+        "fix": "Write 'Logic Pro costs $199 — a one-time purchase that includes every feature...'"
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[3].content",
+        "snippet": "There's no tier system: gets you everything.",
+        "note": "Missing subject/verb. Should be 'there's no tier system: one purchase gets you everything.'",
+        "fix": "Add the subject, e.g. '...one purchase gets you everything.'"
+      },
+      {
+        "severity": "medium",
+        "type": "typo_glue",
+        "path": "sections[1].content",
+        "snippet": "Ableton Live'session View is unique. It's a non-linear, clip-based environment",
+        "note": "Lost space/apostrophe: 'Live'session' should be 'Live's Session'.",
+        "fix": "Rewrite as 'Ableton Live's Session View is unique.'"
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "conclusion",
+        "snippet": "Logic Pro is the complete production studio for Mac users. The best value in professional audio with an instrument library that rivals Kontakt Komplete.",
+        "note": "Second sentence is a fragment (missing subject/verb).",
+        "fix": "Rewrite as 'It's the best value in professional audio, with an instrument library that rivals Kontakt Komplete.'"
+      },
+      {
+        "severity": "medium",
+        "type": "typo_en",
+        "path": "conclusion",
+        "snippet": "And if you cafford both, they complement each other perfectly",
+        "note": "'cafford' should be 'can afford'.",
+        "fix": "Fix typo."
+      },
+      {
+        "severity": "medium",
+        "type": "typo_en",
+        "path": "conclusion",
+        "snippet": "Ableton is the creative powerhouse for electronic music producers and live performers — itsession View, warping engine, and Max for Live ecosystem are hard to match.",
+        "note": "'itsession' should be 'its Session'.",
+        "fix": "Fix glue word."
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "conclusion_es",
+        "snippet": "Logic Pro es el estudio de producción completo para usuarios de Mac — la mejor compra en audio profesional a, con una biblioteca de instrumentos que rivaliza con Komplete Kontrol de Native Instruments.",
+        "note": "Two problems: (1) orphan 'a,' after 'profesional' (part of the broken EN sentence 'The best value in professional audio...'); (2) ES names 'Komplete Kontrol de Native Instruments' while EN names 'Kontakt Komplete' — two different NI products are cited in the two languages (Komplete Kontrol is NI's plugin host/keyboard ecosystem; the intended reference is the Kontakt-based library). Fix the sentence and make the product name consistent EN/ES.",
+        "fix": "Rewrite as '...la mejor compra en audio profesional, con una biblioteca de instrumentos que rivaliza con Kontakt (Komplete) de Native Instruments.'"
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "featuredSnippet.text_es",
+        "snippet": "Logic Pro ofrece un estudio de producción completo por con AI Session Players, Dolby Atmos y la mejor",
+        "note": "Orphan doubled preposition 'por con' — should be 'por/para con' or just 'con'. Likely 'completo por con' is a broken 'complete... with' calco.",
+        "fix": "Write 'un estudio de producción completo con AI Session Players...'"
+      },
+      {
+        "severity": "medium",
+        "type": "casing",
+        "path": "sections[0].heading_es, sections[4].heading_es",
+        "snippet": "La respuesta rápida: ¿qué dAW deberías comprar? | Veredicto: ¿qué dAW deberías elegir?",
+        "note": "'dAW' should be 'DAW' in both ES headings (rule: 'IA'/'DAW' acronyms in caps).",
+        "fix": "Use 'DAW'."
+      },
+      {
+        "severity": "medium",
+        "type": "data-mismatch",
+        "path": "featuredSnippet.price1 / price2",
+        "snippet": "799 | 199",
+        "note": "Snippet prices: Ableton Live 12 Suite $799 vs data/products.json id 110 price=749; Logic Pro $199 vs catalog id 111 price=200. Note the AGENTS.md history normalized Ableton Suite to $799 in guides earlier — decide the canonical value and keep snippet + catalog in sync.",
+        "fix": "Align featuredSnippet prices with data/products.json (749 / 200) or update the catalog deliberately."
+      },
+      {
+        "severity": "medium",
+        "type": "internal_contradiction",
+        "path": "featuredSnippet.specs (Plugin Format) vs comparison.rows (Plugin Format)",
+        "snippet": "VST, AU, AAX  |  VST, AU (no AAX)",
+        "note": "featuredSnippet specs claim Ableton/Logic support 'VST, AU, AAX', while the comparison table row says 'VST, AU (no AAX)'. Both cannot be right for the same products.",
+        "fix": "Pick one consistent plugin-format claim for both DAWs and apply it to the snippet and the comparison table."
+      },
+      {
+        "severity": "low",
+        "type": "anglicism_es",
+        "path": "featuredSnippet.text_es, best1_es, key1_es, faq_a4_es, comparison.rows[2].val1_es, comparison.rows[10].label_es, sections[0].content_es, sections[1].content_es, sections[4].content_es",
+        "snippet": "performance en vivo | El Motor de Performance en Vivo",
+        "note": "The anglicism 'performance en vivo' appears ~9 times across ES fields (plus nord 'modo performance'). Natural Spanish: 'actuación en vivo'. Not all instances need changing if treated as a stylistic choice, but 'El Motor de Performance en Vivo' reads poorly.",
+        "fix": "Normalize to 'actuación en vivo' (or at least fix the Err 'Motor de Performance'). Keep consistent site-wide."
+      },
+      {
+        "severity": "low",
+        "type": "grammar_es",
+        "path": "featuredSnippet.text_es",
+        "snippet": "potente motor warping y Max for Live para producción",
+        "note": "Missing preposition: 'motor warping' should be 'motor de warping'.",
+        "fix": "Add 'de'."
+      }
+    ]
+  },
+  {
+    "id": "active-vs-passive-pa",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[3].content",
+        "snippet": "The EV ZLX-12P-G2 is the best-selling powered PA speaker for a reason. </strong> you get 2000W peak power, a 12-inch woofer...",
+        "note": "After the closing </strong> the sentence resumes lowercase and reads as a fragment splice: '...for a reason. you get 2000W...' Should be a connecting sentence.",
+        "fix": "Rewrite, e.g. '...for a reason: you get 2000W peak power...'"
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[5].content",
+        "snippet": "The Yamaha DBR12 delivers pro features at an entry-level price. </strong>At you get 2000W peak power...",
+        "note": "Orphan 'At' at the start of a sentence ('At you get 2000W') — looks like a truncated 'At this price you get...'.",
+        "fix": "Rewrite as '...entry-level price. </strong> At this price you get 2000W peak power...'"
+      },
+      {
+        "severity": "medium",
+        "type": "data_internal",
+        "path": "sections[3].content vs featuredSnippet.specs[4].val1 vs verdictProsCons[0].pros[1]",
+        "snippet": "It weighs only 30 lbs  |  34.3 lbs  |  Lightweight at 34.3 lbs",
+        "note": "The same speaker's weight is given as '30 lbs' in the section prose and '34.3 lbs' in the spec table and the pros card. Official EV figure (~32 lb) matches neither exactly; at minimum the prose and the table must agree.",
+        "fix": "Reconcile to one weight (verify against the EV ZLX-12P-G2 spec sheet) and use it in prose, spec table, and pros."
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "verdictProsCons[0].pros_es[0], verdictProsCons[0].pros_es[1], verdictProsCons[0].cons_es[0]",
+        "snippet": "Mejor compra a — el único de estos tres con Bluetooth | Ligero a 34.3 lbs — unas 5 lbs menos que el QSC K12.2 | Caro a — más que el EV ZLX-12P-G2",
+        "note": "Three orphan 'a' before '—' in the ES verdict cards (calco of EN '...at.' / '...a —'). Same defect as digitakt-ii-vs-tr8s 'Caro a —'.",
+        "fix": "Drop the orphan 'a': 'Mejor compra — ...', 'Ligero — 34.3 lbs...', 'Caro — más que el EV ZLX-12P-G2'."
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "verdictProsCons[1].cons[3]",
+        "snippet": "The - premium over the ZLX-12P-G2 and DBR12 only pays off if you truly need 2000W and 131 dB",
+        "note": "Orphan dash 'The - premium' — a price was expected between 'The' and 'premium' (e.g. 'The $400 premium').",
+        "fix": "Insert the actual price premium: 'The $XXX premium over the ZLX-12P-G2 and DBR12...'"
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "verdictProsCons[1].cons_es[3]",
+        "snippet": "La prima de - sobre la ZLX-12P-G2",
+        "note": "ES mirror of the same orphan dash ('la prima de -').",
+        "fix": "Mirror the finished EN sentence: 'La prima de $XXX sobre la ZLX-12P-G2...'"
+      },
+      {
+        "severity": "low",
+        "type": "data_gap",
+        "path": "featuredSnippet.specs (Price row, chunk4.json:10836-10839)",
+        "snippet": "\"Price\": \"\" (val1/val2 empty)",
+        "note": "The snippet spec 'Price' row is blank while featuredSnippet.price1=599 / price2=999 exist. The price row renders empty on the page.",
+        "fix": "Fill the Price spec row from the snippet prices."
+      }
+    ]
+  },
+  {
+    "id": "budget-bass-like-expensive",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "truncation_en",
+        "path": "intro, sections[3].content, sections[5].content, faq_a3",
+        "snippet": "You don't need to + to get a bass that sounds and plays like a premium instrument.",
+        "note": "Four spots with an orphan '+' price slot that was never filled: (1) intro 'need to +'; (2) sections[3].content 'only found on basses costing +.'; (3) sections[5].content 'something you normally only see on + basses.'; (4) faq_a3 'without +.'  In each case a figure (e.g. 'over $500', 'more than $1,000') was intended.",
+        "fix": "Replace each '+' with a real figure, e.g. intro: 'You don't need to spend over $1,000 to get a bass...'"
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[0].content",
+        "snippet": "...and aged white pickguard nails aesthetic perfectly.",
+        "note": "Missing article: 'nails aesthetic' should be 'nails the aesthetic'.",
+        "fix": "Insert 'the'."
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[2].content",
+        "snippet": "This the bass that session players buy when they n...",
+        "note": "Missing 'is' ('This the bass' → 'This is the bass').",
+        "fix": "Insert 'is'."
+      },
+      {
+        "severity": "medium",
+        "type": "typo_en",
+        "path": "sections[4].content",
+        "snippet": "Ray sound at a price that normal humans cafford.",
+        "note": "'cafford' should be 'can afford'.",
+        "fix": "Fix typo."
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[4].content",
+        "snippet": "...anything that needs to cut through a loud band, this the best budget option available.",
+        "note": "Missing 'is'.",
+        "fix": "Insert 'is'."
+      },
+      {
+        "severity": "medium",
+        "type": "truncation_en",
+        "path": "sections[4].content",
+        "snippet": "This the same circuit design used in StingRays that cost.",
+        "note": "Two defects: missing 'is' AND the sentence ends 'that cost.' with no figure (compare the sibling card text expecting a price).",
+        "fix": "Rewrite as 'This is the same circuit design used in StingRays that cost $2,000+' (insert the real figure)."
+      },
+      {
+        "severity": "medium",
+        "type": "grammar_en",
+        "path": "sections[6].content",
+        "snippet": "That preamp c boost frequencies, not just cut them, so...",
+        "note": "Stray 'c' — 'preamp c boost' should be 'preamp can boost'.",
+        "fix": "Fix to 'preamp can boost'."
+      },
+      {
+        "severity": "medium",
+        "type": "typo_en",
+        "path": "sections[7].content",
+        "snippet": "Yamahand Ibanez have the best quality control in the t...",
+        "note": "'Yamahand' should be 'Yamaha and'. Same paragraph also has 'it's one of absolute kings' (missing 'the').",
+        "fix": "Fix both: 'Yamaha and Ibanez have...' and 'one of the absolute kings'."
+      },
+      {
+        "severity": "high",
+        "type": "fact_es",
+        "path": "sections[4].content_es",
+        "snippet": "La pastilla humbucker de Alnico es el corazón del Ray4.",
+        "note": "EN content says 'a ceramic humbucker' (and product specs confirm ceramic); the ES text claims Alnico. Direct factual contradiction between languages.",
+        "fix": "Change ES to 'pastilla humbucker de cerámica' to match EN and the real spec."
+      },
+      {
+        "severity": "high",
+        "type": "fact_es",
+        "path": "sections[5].content_es",
+        "snippet": "Las pastillas Thunderbird humbucker con EQ activo te dan ese growl grave y potente perfecto para rock.",
+        "note": "The Epiphone Thunderbird '60s Bass is a passive instrument (TB Plus humbuckers, no active electronics). Claiming 'EQ activo' is a fabricated spec; EN content says only 'The Thunderbird humbuckers deliver that deep, resonant growl'.",
+        "fix": "Remove 'con EQ activo' from the ES sentence."
+      },
+      {
+        "severity": "medium",
+        "type": "calco_es",
+        "path": "verdict_es",
+        "snippet": "Estos bajos económicos pegan muy por encima de su precio: el Squier Classic Vibe por su aire vintage...",
+        "note": "Literal calco of EN verdict 'These budget basses punch far above their price' — 'pegan' is the wrong verb (to hit); natural Spanish is 'rinden muy por encima de su precio'. The same guide's introduction uses a different idiom, so the wording is also internally inconsistent.",
+        "fix": "Rewrite as 'Estos bajos económicos rinden muy por encima de su precio...' and align the intro wording."
+      },
+      {
+        "severity": "medium",
+        "type": "data_gap",
+        "path": "featuredSnippet.price1 / price2",
+        "snippet": "price1='' price2=''",
+        "note": "Snippet prices are empty for both featured basses while data/products.json has Squier Classic Vibe '60s Jazz Bass (id 157) price=450 and Squier Affinity Series Precision Bass PJ (id 158) price=280.",
+        "fix": "Fill snippet prices from the catalog."
+      },
+      {
+        "severity": "high",
+        "type": "data-mismatch",
+        "path": "productTable.rows[Body Wood].values[4]",
+        "snippet": "Ash",
+        "note": "Ray4 column shows body wood 'Ash'; content_es says 'El cuerpo de tilo' (basswood) and the official spec is basswood. 'Ash' is wrong.",
+        "fix": "Set the Ray4 Body Wood cell to 'Basswood' / 'Tilo'."
+      },
+      {
+        "severity": "medium",
+        "type": "data_internal",
+        "path": "productTable.rows[Body Wood].values[2]",
+        "snippet": "Alder / maple",
+        "note": "TRBX304 body shown as 'Alder / maple', but the guide's own content_es says 'El cuerpo de caoba esculpido' and verdictProsCons says 'Mahogany body...' (official TRBX304 body is mahogany).",
+        "fix": "Change to 'Mahogany' / 'Caoba'."
+      },
+      {
+        "severity": "medium",
+        "type": "data_internal",
+        "path": "productTable.rows[Body Wood].values[3]",
+        "snippet": "Mahogany / maple",
+        "note": "SR300E body shown as 'Mahogany / maple', but the guide's own content says 'ultra-lightweight nyatoh body' and verdictProsCons pros/cons both say 'nyatoh'. (Official spec: mahogany body.)",
+        "fix": "Reconcile: either the table or the prose is wrong — align both to one verified body wood."
+      },
+      {
+        "severity": "medium",
+        "type": "data_internal",
+        "path": "productTable.rows[Electronics].values[3]",
+        "snippet": "Active EQ 2-band",
+        "note": "SR300E electronics shown as 'Active EQ 2-band' while content says 'active 3-band EQ' (official: 3-band EQ). The 2-band spec belongs to the Ray4 column next door.",
+        "fix": "Change SR300E to 'Active EQ 3-band' / 'EQ activo 3 bandas'."
+      },
+      {
+        "severity": "medium",
+        "type": "data_internal",
+        "path": "productTable.rows[Electronics].values[2] vs sections[2].content_es",
+        "snippet": "Active EQ 3-band  |  El interruptor activo de 5 posiciones Performance EQ te permite pasar desde el golpe P-Bass vintage",
+        "note": "Table says TRBX304 has a 3-band EQ, but content_es claims a '5 posiciones Performance EQ' switch. Official TRBX304 spec is a 3-band EQ (no 5-position Performance EQ switch, which belongs on higher TRBX models).",
+        "fix": "Align the ES prose with the 3-band EQ spec."
+      },
+      {
+        "severity": "medium",
+        "type": "data-mismatch",
+        "path": "productTable.rows[Tuners].values[4]",
+        "snippet": "Schaller",
+        "note": "Ray4 tuners shown as 'Schaller'; the official Sterling Ray4 ships open-gear tuners. 'Schaller' is fabricated/inaccurate.",
+        "fix": "Change to 'Open gear' / 'Clavijas abiertas'."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[1].heading_es",
+        "snippet": "Squier affinity series precision bass pJ: el versátil económico",
+        "note": "ES heading lowercases the product name and mangles 'PJ' to 'pJ'. EN heading: 'Squier Affinity Series Precision Bass PJ: The Versatile Bargain'.",
+        "fix": "Use 'Squier Affinity Series Precision Bass PJ: el versátil económico'."
+      },
+      {
+        "severity": "low",
+        "type": "casing",
+        "path": "sections[4].heading_es",
+        "snippet": "Sterling by music man stingRay ray4: el sonido icónico en un presupuesto",
+        "note": "ES heading lowercases the product name. EN heading: 'Sterling by Music Man StingRay Ray4: The Iconic Sound on a Budget'.",
+        "fix": "Use 'Sterling by Music Man StingRay Ray4: el sonido icónico en un presupuesto'."
+      },
+      {
+        "severity": "low",
+        "type": "calco_es",
+        "path": "verdictProsCons[3].pros_es[0]",
+        "snippet": "La configuración PJ da el golpe Precision Y el mordiente Jazz en un solo bajo",
+        "note": "Uppercase 'Y' mid-sentence (carried from EN 'AND'). Should be lowercase 'y'.",
+        "fix": "Lowercase 'y'."
+      },
+      {
+        "severity": "low",
+        "type": "parity",
+        "path": "guide (all fields)",
+        "snippet": "EN=26063 chars, ES=13342 chars",
+        "note": "ES text is ~51% of EN length. The ES prose read end-to-end appeared complete for the sections sampled, so this may reflect terse ESP translation — but flag for a final paragraph-by-paragraph parity review.",
+        "fix": "Verify each EN paragraph has its ES counterpart."
+      }
+    ]
+  }
+]

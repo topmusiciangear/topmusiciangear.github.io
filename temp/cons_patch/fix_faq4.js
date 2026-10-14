@@ -1,0 +1,10 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+var g=A.find(function(x){return x&&x.id==='rme-vs-motu';});
+var f=g.featuredSnippet;
+f.faq_q4_en='I use Windows \u2014 will I have driver problems with the MOTU M2, or do I need the RME?';
+f.faq_a4_en='On Windows, the MOTU M2 can suffer crackling and dropouts on some modern motherboard chipsets, and fixing it means tweaking buffer sizes, USB ports, and power settings \u2014 on a Mac it is plug-and-play with no drivers needed. The RME Babyface Pro FS uses RME\u2019s own in-house drivers and stays rock-solid on any system: old Windows, Windows 11, or Mac. If you record on Windows and cannot afford surprises mid-session, the RME is the safer buy.';
+f.faq_q4_es='\u00bfUso Windows \u2014 tendr\u00e9 problemas de drivers con la MOTU M2 o necesito la RME?';
+f.faq_a4_es='En Windows, la MOTU M2 puede sufrir microcortes y chasquidos en algunos chipsets modernos de placas base, y solucionarlo exige ajustar b\u00faferes, puertos USB y opciones de energ\u00eda \u2014 en Mac funciona al conectar, sin drivers. La RME Babyface Pro FS usa drivers propios de RME y se mantiene s\u00f3lida en cualquier sistema: Windows antiguo, Windows 11 o Mac. Si grabas en Windows y no puedes permitirte sorpresas a mitad de sesi\u00f3n, la RME es la compra m\u00e1s segura.';
+fs.writeFileSync('data/guides.json', JSON.stringify(A,null,2),'utf8');
+console.log('Q4 replaced EN+ES');

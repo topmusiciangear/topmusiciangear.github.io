@@ -1,0 +1,2352 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Tue Sep 22 2026 22:43:22 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="babyaud.io" data-wf-page="689b78a3dfa8369237914303" data-wf-site="687ee2fa7f073e59ed93f259" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Spaced Out by Baby Audio - Reverb, Delay and Modulation Plugin (VST/AU/AAX)</title><meta content="Get Spaced Out by Baby Audio or download the free trial. Spaced Out is a hybrid reverb, delay, echo and modulation effects plugin for creative ambience effects. Send your sounds into orbit with an inspiring workflow that brings together up to 50 individual effects in a simple package. (VST/AU/AAX)" name="description"/><meta content="Spaced Out by Baby Audio - Reverb, Delay and Modulation Plugin (VST/AU/AAX)" property="og:title"/><meta content="Get Spaced Out by Baby Audio or download the free trial. Spaced Out is a hybrid reverb, delay, echo and modulation effects plugin for creative ambience effects. Send your sounds into orbit with an inspiring workflow that brings together up to 50 individual effects in a simple package. (VST/AU/AAX)" property="og:description"/><meta content="Spaced Out by Baby Audio - Reverb, Delay and Modulation Plugin (VST/AU/AAX)" name="twitter:title"/><meta content="Get Spaced Out by Baby Audio or download the free trial. Spaced Out is a hybrid reverb, delay, echo and modulation effects plugin for creative ambience effects. Send your sounds into orbit with an inspiring workflow that brings together up to 50 individual effects in a simple package. (VST/AU/AAX)" name="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/css/baby-audio-staging.webflow.shared.07859c590.min.css" rel="stylesheet" type="text/css" integrity="sha384-B4WcWQY31qQ+164GGIP58Uh0If1G2/Wut/v8l/Hj81YYGCqpsWnxeKv+wGfBxjAu" crossorigin="anonymous"/><link href="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/css/baby-audio-staging.webflow.689b78a3dfa8369237914303.34495e541.opt.min.css" rel="stylesheet" type="text/css" integrity="sha384-NEleVBXnJezyU9PJgmPR12R77WEeKVer/q7rdPx2lEwBpaZyC/nw+Ghnlxa4A1+B" crossorigin="anonymous"/><style>html.w-mod-js:not(.w-mod-ix3) :is(.cart-sidebar, .cart-pill) {visibility: hidden !important;}</style><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68c72cb737bccaed9d6fd69d_favicon.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)"/><link href="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/6a7e63e95cda30de5466de2d_ba-favicon.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)"/><link href="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68c72cbb2f003332efcd6006_favicon%20(1).png" rel="apple-touch-icon"/><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://load.sgtm.babyaud.io/b0lfydcuqk.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','4kvad=AhVIJDA0SzwoITcgPEA2Sh1MR01VXwICVhMUAR0YEwhFGBo%3D');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+  function decorateURL(url) {
+    if (window.clsid) {
+      var _pl = '&clientId=' + window.clsid.client_id
+        + '&sessionId=' + window.clsid.session_id;
+      return url + '?' + _pl;
+    }
+    return url;
+  }
+</script>
+
+<script>
+(function () {
+var sf = location.hostname.endsWith(".webflow.io")
+? "babyaudio.test.onfastspring.com/embedded-webflow-test"
+: "babyaudio.onfastspring.com/embedded-webflow";
+
+document.write(
+'<scr' + 'ipt id="fsc-api"' +
+' src="https://sbl.onfastspring.com/sbl/1.0.9/fastspring-builder.min.js"' +
+' data-storefront="' + sf + '"' +
+' data-continuous="true"' +
+' data-data-callback="fsUpdateBadge"' +
+' data-error-callback="fsError"' +
+' data-decorate-callback="decorateURL"' +
+' data-access-key="-B7ZDZQAT66TXKCJNIXRFW"><\/scr' + 'ipt>'
+);
+})();
+</script>
+
+<!-- Renders the shopping cart -->
+<script type="text/x-handlebars-template" data-fsc-template-for="shopping-cart">
+{{#if items}}
+  <ul class="cart-list">
+    {{#each items}}
+      {{#each items}}
+        <li class="cart-row">
+          {{#if attributes.url}}
+            <a href="{{attributes.url}}" class="cart-thumb-link">
+              <img class="cart-thumb" src="{{image}}" alt="{{display}}">
+            </a>
+          {{else}}
+            <img class="cart-thumb" src="{{image}}" alt="{{display}}">
+          {{/if}}
+          <div class="cart-info">
+            {{#if attributes.url}}
+              <a href="{{attributes.url}}" class="cart-name-link">
+                <div class="cart-name">{{display}}</div>
+  		      </a>
+            {{else}}
+              <div class="cart-name">{{display}}</div>
+            {{/if}}
+            <div class="cart-prices">
+              <span class="price">{{unitPrice}}</span>
+              {{#if unitListPrice}}<s class="price-compare">{{unitListPrice}}</s>{{/if}}
+            </div>
+  		  </div>
+          <button class="cart-remove" aria-label="Remove"
+            data-fsc-action="Remove" data-fsc-item-path-value="{{path}}"><span>&times;</span></button>
+        </li>
+      {{/each}}
+    {{/each}}
+  </ul>
+{{else}}
+  <div class="cart-empty">Your cart is empty.</div>
+{{/if}}
+</script>
+
+<!-- Spinner animation on buttons when adding/removing cart items -->
+<script>
+(function () {
+  window.ADD_SEL = '[data-fsc-action="Add"]';
+  window.REMOVE_SEL = '[data-fsc-action="Remove"]';
+  window.RESET_SEL = '[data-fsc-action="Reset"]';
+
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest(ADD_SEL + ',' + REMOVE_SEL + ',' + RESET_SEL);
+    if (!btn) return;
+    btn.classList.add('is-loading');
+
+    // Safety timeout: always remove spinner after 5s
+    setTimeout(() => {
+      if (btn.classList.contains('is-loading')) {
+        btn.classList.remove('is-loading');
+      }
+    }, 5000);
+  });
+
+  window.fsError = function (err) {
+    clearLoaders();
+    window.__openCartIntentUntil = undefined;
+    console.error('FastSpring error:', err);
+  };
+})();
+</script>
+
+<style>
+/* Manual fix to horizontal scrollbars / page width variation on product pages due to hotspots
+   pushing the page wider */
+.section-product-points {
+  overflow-x: clip;
+}
+  
+/* Ensures sticky header dropdown product menus don't get cut off
+   Tried changing this in webflow for hours and can't get "overflow: hidden"
+   to disappear from base class. Convinced this is a bug */
+.page-header {
+  overflow: visible !important;
+}
+  
+/* Ensures consistent vertical positioning in preset cards */
+.pack-card-wrapper .product-card.js-filter-item {
+  height: 100%
+}
+
+/* Some manual footer cleanup since there are a lot of links */
+@media screen and (max-width: 1066px) {
+  .footer-links {
+    grid-row-gap: 1em;
+    flex-flow: column;
+  }
+}  
+
+/* Product card buttons get a bit cramped between these widths, so use the mobile styling,
+   as it looks better */
+@media (min-width: 990px) and (max-width: 1250px) {
+  .product-card .button-group{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .product-card .button {
+    width: 100%;
+  }
+}
+  
+.product-hero .button {
+  flex: 1 1 0;
+}
+
+html:not(.w-mod-ix3) .cart-sidebar {
+  visibility: hidden !important;
+}
+  
+html:not(.w-mod-ix3) .cart-pill {
+  visibility: hidden !important;
+}
+  
+#CookiebotWidget {
+  z-index: 2147483647 !important; /* Makes sure the widget is in front of the FS embedded checkout */
+}
+
+/* Ensures the account dropdown menu doesn't push around other elements */
+@media screen and (max-width: 991px) {
+  .account-drop-menu.w--open {
+    position: absolute;
+  }
+}
+  
+/* General cart layout */
+.cart-sidebar { display:flex; flex-direction:column; height:100%; }
+.cart-header { border-bottom:1px solid rgba(255, 255, 255, 0.08); }
+.button-cart-clear {
+  background: none;        /* remove button background */
+  border: none;            /* remove border */
+  padding: 0;              /* remove padding */
+  margin: 0 0 0 8px;       /* optional: small space next to "Cart" */
+  color: inherit;          /* inherit text color */
+  font: inherit;           /* match surrounding font style */
+  font-weight: 400;        /* lighter weight like the link */
+  text-decoration: underline; 
+  cursor: pointer;
+}
+.button-cart-clear:hover {
+  background: none !important;
+  color: #fff !important;             /* brighten on hover if you want */
+  text-decoration: none !important;   /* mimic link hover */
+}
+.button-cart-clear svg {
+  display: block;          /* remove inline spacing */
+  width: 18px; 
+  height: 18px;
+}
+.cart-content { flex:1 1 auto; min-height:0; overflow: auto; display:flex; flex-direction:column; align-items:stretch }
+.cart-content:has(.fs-items[style*="display: none"]) .cart-empty { display:flex; }
+.cart-content:has(.fs-items:not([style*="display: none"])) .cart-empty { display:none; }
+.fs-items { flex:1 1 auto; min-height:0; overflow:auto; }
+.cart-empty { display:none; flex:1 1 auto; align-items:center; justify-content:center; color:#bdbdbd; }
+
+/* Cart contents */
+.cart-list{list-style:none;margin:0;padding:0;border-bottom:1px solid rgba(255,255,255,.08);}
+.cart-row{
+  display:grid;
+  grid-template-columns: 56px 1fr auto;
+  align-items:center;
+  gap:12px;
+  padding:14px 16px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.cart-row:last-child { border-bottom:none; }
+.cart-thumb{width:56px;height:56px;border-radius:14px;object-fit:cover;background:#2b2b2b}
+.cart-info{min-width:0}
+.cart-name-link {
+  text-decoration: none;
+}
+.cart-name{font-weight:600;line-height:1.2;margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cart-prices{display:flex;gap:8px;align-items:center}
+.price{font-weight:600}
+.price-compare{opacity:.5}
+  
+.cart-summary { padding:12px 16px; border-top:1px solid rgba(255,255,255,.08); }
+.cart-summary__line {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:6px 0; font-size:14px;
+}
+.cart-summary__line--bold { font-weight:600; }
+
+/* Hints that the cart is already open */
+.cart-icon--disabled { opacity: .7; cursor: default; }
+
+/* “×” button for cart item removal */
+.cart-close, .cart-remove{
+  background:transparent;
+  border:0;
+  color:#bbb;
+  font-size:20px;
+  cursor:pointer;
+  padding:6px 8px;
+  border-radius:8px;
+}
+
+@media (min-width: 480px){
+  .cart-close:hover,.cart-remove:hover{background:rgba(255,255,255,.06);color:#fff}
+}
+  
+.cart-close { width:28px; height:28px; padding:0; }
+  
+/* Add/remove animations */
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.button { position: relative; }
+.button.is-loading { pointer-events: none; opacity: .85; }
+
+.button.is-loading .button-label { visibility: hidden; }
+
+.button.is-loading::after{
+  content:"";
+  position:absolute; inset:0; margin:auto;
+  width:10px; height:10px;
+  border:2px solid #fff; border-right-color: transparent;
+  border-radius:50%;
+  animation: spin .8s linear infinite;
+}
+  
+.cart-remove { 
+  position: relative; 
+}
+
+.cart-remove.is-loading { 
+  pointer-events: none; 
+  opacity: .6; 
+}
+
+.cart-remove.is-loading::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  margin:auto;
+  width:10px; height:10px;
+  border:2px solid currentColor;
+  border-right-color: transparent;
+  border-radius:50%;
+  animation: spin .8s linear infinite;
+}
+  
+.cart-remove.is-loading span {
+  visibility: hidden;
+}
+  
+#cart-badge { --badge-spinner: currentColor; }
+#cart-badge.is-loading {
+  position: relative;
+  font-size: 0;
+}
+#cart-badge.is-loading::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--badge-spinner);
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin .75s linear infinite;
+}
+
+/* Mobile floating cart pill */
+.cart-pill{
+  display:flex;
+  position:fixed;
+  left:50%;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  transform:translateX(-50%);
+  z-index: 10000;
+  pointer-events:none; /* container passes events only to button */
+}
+.cart-pill[aria-hidden="false"]{ display:block; }
+.button-cart-mobile{
+  pointer-events:auto;
+  color:#fff;
+  border:none;
+  border-radius:999px;
+  padding:12px 16px;
+  font-size:15px;
+  font-weight:600;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  box-shadow:0 8px 20px rgba(0,0,0,.25);
+  cursor:pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.button-cart-mobile:active{ transform:scale(.98); }
+/* Only show on small screens */
+@media (min-width: 992px){
+  .cart-pill{ display:none !important; }
+}
+
+/* Disable state for checkout button(s) */
+.button-cart-checkout[disabled],
+.button-cart-checkout.is-disabled{
+  pointer-events: none;
+  opacity: .6;
+  filter: grayscale(20%);
+}
+</style><script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head><body><div class="site-content"><div class="header-assembly"><div class="w-embed"><style>
+	.svg-icon svg {
+  	width: 100%;
+    height: 100%;
+  }
+  .svg-icon svg path{
+  	stroke: currentColor;
+  }
+  .splide__sr{display: none !important; }
+  .cta-card{
+  	overflow: visible;
+  }
+</style>
+
+<style>
+  :root{
+    --bg:#1f1f21;
+    --bg-soft:#262629;
+    --text:#e7e7ea;
+    --muted:#9b9ba1;
+    --accent:#3e55ff;
+    --track:#2b2b2f;
+    --track-hi:#3a3a40;
+  }
+  .ap-player{
+    width:680px; max-width:90vw;
+    background:var(--bg);
+    border-radius:999px; padding:16px 22px;;
+    display:flex; align-items:center; gap:18px;
+  }
+  .ap-btn{
+    height:56px; width:56px; border-radius:999px;
+    border:1px solid #33343a; background:linear-gradient(#202024,#1c1c1f);
+    display:grid; place-items:center; cursor:pointer; flex:0 0 auto;
+  }
+  .ap-btn svg{height:22px; width:22px; stroke:#cfcfd6}
+  .ap-meta{min-width:0; flex:1}
+  .ap-title{font-weight:700; font-size:14px; margin-bottom:10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .ap-bar{height:8px; border-radius:3px; background:var(--track); position:relative; cursor:pointer}
+  .ap-bar .ap-fill{position:absolute; inset:0 auto 0 0; width:0%; background:var(--accent); border-radius:3px}
+  .ap-right{display:flex; align-items:center; gap:10px; margin-left:8px}
+  .ap-label{color:var(--muted); font-size:14px}
+
+  /* toggle */
+  .ap-toggle{ --w:48px; --h:28px; position:relative; width:var(--w); height:var(--h); border-radius:999px; background:#2a2b31; border:1px solid #33343a; cursor:pointer}
+  .ap-toggle::after{
+    content:""; position:absolute; top:50%; left:2px; translate:0 -50%;
+    width:24px; height:24px; border-radius:50%; background:#fff;
+    transition:left .18s ease;
+  }
+  .ap-toggle.ap-on{ background:var(--accent) }
+  .ap-toggle.ap-on::after{ left:calc(100% - 26px) }
+
+  /* hover */
+  .ap-btn:hover{border-color:#3a3b42}
+  .ap-bar:hover{background:var(--track-hi)}
+  
+  .wf-design-mode .video-slide{
+  	width: 33%;
+  }
+  .wf-design-mode .videos-slider{
+  	flex-wrap: wrap;
+  }
+  
+:root {
+  --hs-dot-size: 32px;
+  --hs-dot-color-closed: #4eff93;
+  --hs-dot-color-open: #19191a;
+  --hs-dot-ring: rgba(25, 25, 26, 1);
+  --hs-focus: #4eff93;
+  --hs-popover-bg: #19191a;
+  --hs-popover-text: #f5f5f6;
+  --hs-popover-text-secondary: #aeafb2;
+  --hs-popover-shadow: 0px 4px 14.7px 0px rgba(0,0,0,0.25);
+  --hs-popover-border: #2f2f33;
+  --hs-radius: 7px;
+  --hs-font: 'Switzer', var(--font-fallback, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+}
+
+/* Stage maintains aspect ratio responsively */
+.hs-stage {
+  position: relative;
+  width: 100%;
+}
+
+.hs-stage__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Hide the original span elements - they're just data containers */
+.hs-stage > .hs-hotspot,
+.hs-stage .hotspots > .hs-hotspot {
+  display: none;
+}
+
+/* Container used by JS to group dot + popover */
+.hs-node {
+  position: absolute;
+}
+
+/* Dot button */
+.hs-dot {
+  position: absolute;
+  width: var(--hs-dot-size);
+  height: var(--hs-dot-size);
+  margin-left: calc(var(--hs-dot-size) / -2);
+  margin-top: calc(var(--hs-dot-size) / -2);
+  border-radius: 999px;
+  border: 0;
+  background: var(--hs-dot-color-closed);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 1px var(--hs-dot-ring);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.hs-dot:focus-visible {
+  outline: 2px solid var(--hs-focus);
+  outline-offset: 2px;
+}
+
+.hs-dot:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 0 1px var(--hs-dot-ring);
+}
+
+.hs-dot[aria-expanded="true"] {
+  background: var(--hs-dot-color-open);
+}
+
+/* Plus icon inside the dot */
+.hs-dot::before,
+.hs-dot::after {
+  content: '';
+  display: block;
+  background: #19191a;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  transition: background 160ms ease;
+}
+
+.hs-dot::after {
+  transform: rotate(90deg);
+  position: absolute;
+}
+
+.hs-dot[aria-expanded="true"]::before,
+.hs-dot[aria-expanded="true"]::after {
+  background: #4eff93;
+}
+
+/* Popover */
+.hs-popover {
+  position: absolute;
+  min-width: 250px;
+  max-width: min(320px, 70vw);
+  background: var(--hs-popover-bg);
+  color: var(--hs-popover-text);
+  border-radius: var(--hs-radius);
+  box-shadow: var(--hs-popover-shadow);
+  padding: 24px;
+  z-index: 10;
+  /* dynamic safety nudges applied from JS to prevent overflow */
+  --hs-nudge-x: 0px;
+  --hs-nudge-y: 0px;
+  /* ensure 1em spacing from the hotspot edge, not its center */
+  --hs-gap-edge: 0.5em;
+  --hs-gap: calc(var(--hs-gap-edge) + (var(--hs-dot-size) / 2));
+  transform: translate(-50%, calc(-100% - var(--hs-gap))) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+  border: 1px solid var(--hs-popover-border);
+}
+
+.hs-dot[aria-expanded="true"] + .hs-popover {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hs-popover__title {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.hs-popover__body {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--hs-popover-text-secondary);
+}
+
+/* Arrow */
+/* Remove arrow: tooltips are simple rounded rectangles */
+.hs-popover::after {
+  content: none !important;
+  border: 0 !important;
+}
+
+/* Placement variations */
+.hs-popover[data-placement="right"] {
+  left: 100%;
+  top: 50%;
+  transform: translate(var(--hs-gap), -50%) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-popover[data-placement="right"]::after { content: none !important; }
+
+.hs-popover[data-placement="left"] {
+  left: 0;
+  top: 50%;
+  transform: translate(calc(-100% - var(--hs-gap)), -50%) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-popover[data-placement="left"]::after { content: none !important; }
+
+.hs-popover[data-placement="top"] {
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, calc(-100% - var(--hs-gap))) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-popover[data-placement="top"]::after { content: none !important; }
+
+.hs-popover[data-placement="bottom"] {
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, var(--hs-gap)) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-popover[data-placement="bottom"]::after { content: none !important; }
+
+/* Active state nudges popover into view */
+.hs-dot[aria-expanded="true"] + .hs-popover[data-placement="right"] {
+  transform: translate(var(--hs-gap), -50%) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-dot[aria-expanded="true"] + .hs-popover[data-placement="left"] {
+  transform: translate(calc(-100% - var(--hs-gap)), -50%) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-dot[aria-expanded="true"] + .hs-popover[data-placement="top"] {
+  transform: translate(-50%, calc(-100% - var(--hs-gap))) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+.hs-dot[aria-expanded="true"] + .hs-popover[data-placement="bottom"] {
+  transform: translate(-50%, var(--hs-gap)) translate(var(--hs-nudge-x), var(--hs-nudge-y));
+}
+
+/* Responsive helpers */
+@media (max-width: 640px) {
+  :root {
+    --hs-dot-size: 28px;
+  }
+  .hs-popover {
+    min-width: 240px;
+    padding: 20px;
+  }
+}
+
+ul {
+	list-style-type: '✱';
+}
+
+.badge.type-filter[data-active="true"] {
+  background-color: var(--theme--green--primary);
+  color: var(--theme--background--bg-1);
+}
+
+.badge.sale-filter[data-sale="true"] {
+  background-color: var(--theme--red--primary);
+  color: var(--theme--text--primary);
+}
+
+.w-input, .w-select{
+color: #fff;
+}
+
+.site-header{
+	overflow: visible;
+}
+
+.lph-sticky-header.lph-is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.lph-sticky-placeholder {
+  display: block;
+  width: 100%;
+}
+
+</style></div><div class="site-notification-wrapper"><div data-figma-id="1795:1793" class="notification-bar"><p data-figma-id="I1795:1793;1795:1774" class="notification-bar-text">Add 3 products and get 1 free</p></div></div><div class="site-header"><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="site-nav w-nav"><div data-figma-id="I1795:1845;1795:1776;2034:22226" class="container"><div data-figma-id="I1795:1845;1795:1776;2034:23745" class="site-header-content"><div class="site-logo-column"><a href="/" class="site-logo w-inline-block"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68991e75b856928cc94b7b46_67cf125388b687eb716d9939_baby%20audio%20logo%202025.svg" loading="lazy" alt="Baby Audio Logo" class="site-logo-img"/></a></div><nav role="navigation" class="site-nav-wrap w-nav-menu"><div class="site-nav-main"><a href="/all-products" class="menu-tab w-inline-block"><div>Products</div></a><a href="/freebies" class="menu-tab w-inline-block"><div>Freebies</div></a><a href="/downloads" class="menu-tab w-inline-block"><div>Trials</div></a><a href="/support" class="menu-tab w-inline-block"><div>Support</div></a><a href="/about" class="menu-tab w-inline-block"><div>About</div></a><div class="mobile-menu-only"><a href="https://babyaudio.onfastspring.com/account" target="_blank" class="menu-tab w-inline-block"><div>Baby Audio Account</div></a><a href="https://my.babyaud.io/auth/login?ref=www.babyaud.io" target="_blank" class="menu-tab w-inline-block"><div>Plugin Collection Plan</div></a></div></div><div data-figma-id="I1795:1845;1795:1776;1682:7425" class="site-right"><div class="icon-button-group"><a href="#" class="icon-button icon-button-cart w-inline-block"><div id="cart-badge" class="badge cart-badge"><p class="badge-label">0</p></div><div class="svg-icon svg-icon-sm w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 17C6.53043 17 7.03914 17.2107 7.41421 17.5858C7.78929 17.9609 8 18.4696 8 19C8 19.5304 7.78929 20.0391 7.41421 20.4142C7.03914 20.7893 6.53043 21 6 21C5.46957 21 4.96086 20.7893 4.58579 20.4142C4.21071 20.0391 4 19.5304 4 19C4 18.4696 4.21071 17.9609 4.58579 17.5858C4.96086 17.2107 5.46957 17 6 17ZM6 17H17M6 17V3H4M17 17C17.5304 17 18.0391 17.2107 18.4142 17.5858C18.7893 17.9609 19 18.4696 19 19C19 19.5304 18.7893 20.0391 18.4142 20.4142C18.0391 20.7893 17.5304 21 17 21C16.4696 21 15.9609 20.7893 15.5858 20.4142C15.2107 20.0391 15 19.5304 15 19C15 18.4696 15.2107 17.9609 15.5858 17.5858C15.9609 17.2107 16.4696 17 17 17ZM6 5L20 6L19 13H6" stroke="#AEAFB2" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></a><a href="/login" class="icon-button w-inline-block"><div class="svg-icon svg-icon-sm w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21M8 7C8 8.06087 8.42143 9.07828 9.17157 9.82843C9.92172 10.5786 10.9391 11 12 11C13.0609 11 14.0783 10.5786 14.8284 9.82843C15.5786 9.07828 16 8.06087 16 7C16 5.93913 15.5786 4.92172 14.8284 4.17157C14.0783 3.42143 13.0609 3 12 3C10.9391 3 9.92172 3.42143 9.17157 4.17157C8.42143 4.92172 8 5.93913 8 7Z" stroke="#AEAFB2" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div><div>Login</div></a></div></div></nav><div class="site-menu-icon w-nav-button"><div class="w-icon-nav-menu"></div></div></div></div></div></div></div><div class="cart-sidebar div-block-3"><div class="cart-header"><div class="heading-sm">Cart</div><div id="cart-badge" class="badge cart-badge in-cart-badge"><p class="badge-label">0</p></div><a data-fsc-action="Reset" data-wf--fs-cart-clear--style="primary---lg" href="#" class="button button-cart-clear w-inline-block"><div class="button-content"><div class="button-label w-embed"><svg xmlns="http://www.w3.org/2000/svg" 
+     width="16" height="16" 
+     viewBox="0 0 24 24" fill="none" 
+     stroke="currentColor" stroke-width="2" 
+     stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 6h18"/>
+  <path d="M19 6l-1 14H6L5 6"/>
+  <path d="M10 11v6"/>
+  <path d="M14 11v6"/>
+</svg></div></div></a><a href="#" class="cart-close w-button">×</a></div><div class="cart-content"><div class="w-layout-blockcontainer cart-content w-container"><div data-fsc-filter="selected=true" data-fsc-selections-smartdisplay="" data-fsc-items-container="shopping-cart" class="fs-items"></div><div class="cart-empty">No items in cart</div><div class="cart-notif">Buy 2 Get 1 Free<br/>Add 3 products to the cart and get the cheapest for free at checkout.</div><div class="cart-subtotal w-embed"><div class="cart-summary">
+  <div class="cart-summary__line">
+    <!--<span>Tax</span>
+    <strong data-fsc-order-tax></strong>-->
+    <span>Subtotal</span>
+    <strong data-fsc-order-total></strong>
+  </div>
+</div></div></div></div><div class="cart-footer"><a href="#" class="button button-cart-close w-button">Close</a><a href="/checkout" class="button button-cart-checkout w-button">Checkout</a></div></div><div class="cart-pill"><a href="#" class="button button-cart-mobile w-button">View Cart</a><a id="cart-pill-open" href="#" class="button-pill-open w-button">Button Text</a><a id="cart-pill-close" href="#" class="button-pill-close w-button">Button Text</a></div><div id="fs-path" class="fs-path">spaced-out</div><div id="top" data-wf--lp---product-hero--variant="base" class="product-hero"><div data-figma-id="2029:21638" class="container"><div data-figma-id="1745:5387" class="product-hero-grid"><div class="hero-product-header mobile"><div class="product-logo-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03a92c0dcd624f707d_Spaced%20Out%20Icon.avif" alt="" class="product-logo-img"/></div><div data-figma-id="I2034:16500;1745:11435" class="product-title-wrapper"><p class="product-title">Spaced Out</p><p class="product-subtitle">Modern Space Echo Effect</p></div></div><div data-figma-id="2029:21639" class="product-hero-media"><img class="product-hero-img" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out.avif" data-figma-image-id="688bda0145b2a7480fa0b114" alt="Spaced Out by Baby Audio plugin UI" sizes="(max-width: 3134px) 100vw, 3134px, 100vw" data-figma-id="1745:5388" data-figma-image-hash="2a6218035c98a99b73114d8aaaa2d3f0" loading="lazy" srcset="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-500.png 500w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-800.png 800w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-1080.png 1080w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-1600.png 1600w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-2000.png 2000w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-2600.png 2600w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-3200.png 3200w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out.avif 3444w"/></div><div class="hero-content"><div class="hero-product-header desktop"><div class="product-logo-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03a92c0dcd624f707d_Spaced%20Out%20Icon.avif" alt="" class="product-logo-img"/></div><div data-figma-id="I2034:16500;1745:11435" class="product-title-wrapper"><p class="product-title">Spaced Out</p><p class="product-subtitle">Modern Space Echo Effect</p></div></div><div class="mobile-button-group"><div class="button-group"><a data-fsc-action="Add" data-fsc-item-path-value="spaced-out" data-wf--button-fs-add-lp--style="primary---lg" href="#" class="button w-inline-block"><div class="button-content button-content-lp"><div class="button-label">Buy Now -</div><h1 data-fsc-item-total="" data-fsc-item-path="spaced-out" class="button-label">...</h1></div></a><a data-wf--button-pcp--style="secondary---lg" href="https://plan.babyaud.io/" target="_blank" class="button w-variant-6e26bd87-eb74-3bae-6f8f-80b7d64a6c8d w-inline-block"><div class="button-content"><div class="button-label button-label-pcp">Sub to Own - .../month</div></div></a></div></div><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h1 data-wf--heading--heading-size="heading-md" class="base-heading w-variant-2dae6615-aee9-55ca-a057-2889f28d2b9e order-summary"><strong>Create heavenly FX textures</strong></h1></div><div class="w-richtext"><ul role="list"><li>Add lush and modern FX textures to your vocals, instruments and beyond</li><li>Combines delay, reverb and modulation into one streamlined plugin</li><li>Intuitive workflow allows you to create complex effect chains fast</li><li>‍<strong>Existing customers:</strong> <a href="https://babyaud.io/account" target="_blank">Log in</a> to see your loyalty discount</li></ul></div></div><div class="desktop-button-group"><div class="button-group"><a data-fsc-action="Add" data-fsc-item-path-value="spaced-out" data-wf--button-fs-add-lp--style="primary---lg" href="#" class="button w-inline-block"><div class="button-content button-content-lp"><div class="button-label">Buy Now -</div><h1 data-fsc-item-total="" data-fsc-item-path="spaced-out" class="button-label">...</h1></div></a><a data-wf--button-pcp--style="secondary---lg" href="https://plan.babyaud.io/" target="_blank" class="button w-variant-6e26bd87-eb74-3bae-6f8f-80b7d64a6c8d w-inline-block"><div class="button-content"><div class="button-label button-label-pcp">Sub to Own - .../month</div></div></a></div></div></div></div></div></div><div class="page-content"><div data-figma-id="2034:16457" data-wf--lp---accolades--variant="base" class="section-accolades"><div data-figma-id="2029:21654" class="container"><div>Praise for our plugins</div><div data-wf--spacer--variant="2" class="spacer w-variant-d972773d-cd7c-dc33-b3cd-3e3aca449f9e"></div><div data-figma-id="1745:5415" class="accolade-list"><img class="accolade-image long" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0acfcdd5693ee2d817b4_accolade-logo.avif" data-figma-image-id="688bda015e3f2b4eb93639cd" alt="Baby Audio selected a Winner in the 2025 Sound on Sound Awards" data-figma-id="1812:15612" data-figma-image-hash="3aba90fe91fbe6de215edbe3d2eeb111" loading="lazy"/><img class="accolade-image" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0acf3522e37033891c40_accolade-logo-1.avif" data-figma-image-id="688bda02dcdb1a96c9856a75" alt="KVR Reader&#x27;s Choice Award for Most Innovative Plugin awarded to Baby Audio in 2023" data-figma-id="1812:15608" data-figma-image-hash="fac22385147ecf228be2f21a6fb5e626" loading="lazy"/><img class="accolade-image" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0acf738d972bef739d53_accolade-logo-2.avif" data-figma-image-id="689036a2b4f740bb5aa37643" alt="Music Radar Awards 2022 winner Baby Audio" data-figma-id="1812:15611" data-figma-image-hash="696c70b151c227b22011a4848c6da18e" loading="lazy"/><img class="accolade-image" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0acfa435ac8f1ba400ce_accolade-logo-3.avif" data-figma-image-id="689036a32285cc205d5de71c" alt="Baby Audio selected for the Computer Music Editor&#x27;s Choice Award" data-figma-id="1812:15609" data-figma-image-hash="d4f57f96e9f95baedc0a63ed2910ca3d" loading="lazy"/><img class="accolade-image" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0acfafeed8d2e6bd7434_accolade-logo-4.avif" data-figma-image-id="688bda03870f5dacb42a0365" alt="Baby Audio&#x27;s Music Tech 10/10 Excellence Award" data-figma-id="1812:15610" data-figma-image-hash="4db6206d68c87c09e0bbf7bfd0091ed6" loading="lazy"/><img class="accolade-image" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0acfe83bdf0f568e8cdc_accolade-logo-5.avif" data-figma-image-id="688bda031d3b8a3e9074797f" alt="Plugin Boutique Awards 2024 Multi-Effect title awarded to Baby Audio" data-figma-id="1812:15613" data-figma-image-hash="71774a4f5f259ab2d33c52c11744e2c8" loading="lazy"/><img class="accolade-image" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68c710a2f8ae66316f48f85f_ECA%20Badge%202025.avif" data-figma-image-id="688bda031d3b8a3e9074797f" alt="Magnetic Mag Editor&#x27;s Choice Award 2025 awarded to Baby Audio" sizes="(max-width: 1800px) 100vw, 1800px" data-figma-id="1812:15613" data-figma-image-hash="71774a4f5f259ab2d33c52c11744e2c8" loading="lazy" srcset="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68c710a2f8ae66316f48f85f_ECA%20Badge%202025-p-500.avif 500w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68c710a2f8ae66316f48f85f_ECA%20Badge%202025.avif 1800w"/></div></div></div><div data-figma-id="1854:1721" class="section-intro"><div data-figma-id="1854:1722" class="container"><div data-wf--content---content-block--layout="text-right---large-media" class="lp-flow-row w-variant-b83bfdfb-6023-c71c-63d8-94f34cd5acb2"><div class="lp-flow-media w-variant-b83bfdfb-6023-c71c-63d8-94f34cd5acb2"><div style="padding-top:56.17021276595745%" class="lp-flow-video w-video w-embed"><iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FGwC8qFFS3Ng%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGwC8qFFS3Ng&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FGwC8qFFS3Ng%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen title="Add 🪐COSMIC🪐 Reverbs and Delays to your tracks- This plugin Spaced me OUT!"></iframe></div></div><div class="lp-flow-text"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h2 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">The dream machine</h2></div><div class="w-richtext"><p>Combining reverb, delay and modulation can result in effects that are greater than the sum of the parts. Spaced Out is designed for this process with an intuitive workflow and a huge sound.</p></div></div></div></div><div class="audio-player-grid"><div class="ap-player ap-dual-player"><button aria-label="Play/Pause" class="ap-btn ap-play"><div class="svg-icon svg-icon-sm w-embed"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="7,5 19,12 7,19"></polygon>
+    </svg></div></button><div class="ap-meta"><div class="ap-title">Guitar  /  Dry → Wet</div><div role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" class="ap-bar"><div class="ap-fill"></div></div></div><audio src="" preload="none" playsinline="" class="ap-audio-fx"></audio><audio src="https://dl.dropboxusercontent.com/scl/fi/qg7vnlkxwdq3gk39la700/Spaced-Out-Guitar-dry-wet.mp3?rlkey=fghlu4olsy9toqnks01e83xmk&amp;dl=0" preload="none" playsinline="" class="ap-audio-dry"></audio></div><div class="ap-player ap-dual-player"><button aria-label="Play/Pause" class="ap-btn ap-play"><div class="svg-icon svg-icon-sm w-embed"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="7,5 19,12 7,19"></polygon>
+    </svg></div></button><div class="ap-meta"><div class="ap-title">Synth Bass  /  Dry → Wet</div><div role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" class="ap-bar"><div class="ap-fill"></div></div></div><audio src="" preload="none" playsinline="" class="ap-audio-fx"></audio><audio src="https://dl.dropboxusercontent.com/scl/fi/0kps03ovcuroej3z73tlp/Spaced-Out-Synth-Bass-dry-wet.mp3?rlkey=tklgx2r12idmyge18yo9pk5dh&amp;dl=0" preload="none" playsinline="" class="ap-audio-dry"></audio></div><div class="ap-player ap-dual-player"><button aria-label="Play/Pause" class="ap-btn ap-play"><div class="svg-icon svg-icon-sm w-embed"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="7,5 19,12 7,19"></polygon>
+    </svg></div></button><div class="ap-meta"><div class="ap-title">Electric Piano  /  Dry → Wet</div><div role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" class="ap-bar"><div class="ap-fill"></div></div></div><audio src="" preload="none" playsinline="" class="ap-audio-fx"></audio><audio src="https://dl.dropboxusercontent.com/scl/fi/pq101cfq3b4tspyxt3y72/Spaced-Out-Electric-Piano-dry-wet.mp3?rlkey=zcad3rbzbrzftckvzidj6e7d8&amp;dl=0" preload="none" playsinline="" class="ap-audio-dry"></audio></div><div class="ap-player ap-dual-player"><button aria-label="Play/Pause" class="ap-btn ap-play"><div class="svg-icon svg-icon-sm w-embed"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="7,5 19,12 7,19"></polygon>
+    </svg></div></button><div class="ap-meta"><div class="ap-title">Synth Arp  /  Dry → Wet</div><div role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" class="ap-bar"><div class="ap-fill"></div></div></div><audio src="" preload="none" playsinline="" class="ap-audio-fx"></audio><audio src="https://dl.dropboxusercontent.com/scl/fi/b687h3o867ptcgbu8gdvt/Spaced-Out-Synth-Arp-dry-wet.mp3?rlkey=072lcel92r4xe3kx9hv8dln1k&amp;dl=0" preload="none" playsinline="" class="ap-audio-dry"></audio></div></div></div></div><div data-figma-id="1812:13285" class="page-header-wrapper"><div class="page-header"><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="page-nav w-nav"><div data-figma-id="I1795:1845;1795:1776;2034:22226" class="container"><div data-figma-id="I1795:1845;1795:1776;2034:23745" class="page-nav-container"><div data-hover="false" data-delay="0" class="page-header-dropdown w-dropdown"><div class="page-header-drop-toggle w-dropdown-toggle"><div data-figma-id="I1812:13285;1812:13244" class="page-header-logo"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03a92c0dcd624f707d_Spaced%20Out%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title product-title-sticky-nav">Spaced Out</p></div><div class="page-header-drop-icon w-icon-dropdown-toggle"></div></div><nav class="product-nav-drop w-dropdown-list"><div class="product-nav-drop-menu"><a href="/all-products" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/696405f16067e060703d65e9_68ed1ebb1a0a43eaeb8fbb0d_BA%20brand%20icon%20new.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">All Products</p></a><a href="/atoms" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a02a855686c7518cfe2_Atoms%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Atoms</p></a><a href="/ba-1" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a028b13da1eb918aeb4_BA-1%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">BA-1</p></a><a href="/comeback-kid-delay-plugin" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a021227dc30a34ea620_Comeback%20Kid%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Comeback Kid</p></a><a href="/crystalline" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a02a6195bede189bc3a_Crystalline%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Crystalline</p></a><a href="/grainferno" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/69a8b762cf3502b8530e8dc8_4e8d3ab0aeaef605f9279162d8e1c1e8_PCP%20Grainferno.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Grainferno</p></a><a href="/humanoid" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a021cdfcd220d32d20b_Humanoid%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Humanoid</p></a><a href="/i-heart-ny-parallel-compression-plugin" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68f04c179b5434858ccc1d39_IHNY.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">I Heart NY</p></a><a href="/ihny-2" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a02881ccdfe2edddfd1_IHNY2%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">IHNY-2</p></a><a href="/parallel-aggressor-plugin" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a0388a5d5a35c8bb48f_Parallel%20Agressor%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Parallel Agressor</p></a><a href="/smooth-operator-plugin" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03348e911209559154_SOPro%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Smooth Operator Pro</p></a><a href="/spaced-out-plugin" aria-current="page" class="product-dropdown-link w-inline-block w--current"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03a92c0dcd624f707d_Spaced%20Out%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Spaced Out</p></a><a href="/subculture" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/6a446576e17c5684105f23fc_SubCulture_Icon_Dark_iOS_1K.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" sizes="100vw" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy" srcset="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/6a446576e17c5684105f23fc_SubCulture_Icon_Dark_iOS_1K-p-500.avif 500w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/6a446576e17c5684105f23fc_SubCulture_Icon_Dark_iOS_1K-p-800.avif 800w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/6a446576e17c5684105f23fc_SubCulture_Icon_Dark_iOS_1K.avif 1024w"/></div><p class="product-title xs">SubCulture</p></a><a href="/super-vhs-multi-fx-plugin" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03c8107db03dfe7be2_Super%20VHS%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Super VHS</p></a><a href="/taip-plugin" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03ded094f8f73d8bf1_Taip%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">TAIP</p></a><a href="/tekno" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03ea9c458b1bb2d120_Tekno%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Tekno</p></a><a href="/transit" class="product-dropdown-link w-inline-block"><div data-figma-id="I2034:16500;1745:11434" class="product-logo-wrapper xs"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03086eb3b65596e03c_Transit%202%20Icon.avif" data-figma-image-id="6890362e61fb0477ca4883c4" alt="" data-figma-id="I2034:16500;2034:16498" data-figma-image-hash="03b1487719dca1f21b25e23c61f5c0ab" loading="lazy"/></div><p class="product-title xs">Transit 2</p></a></div></nav></div><div><a data-wf--button--style="primary---sm" href="#top" class="button w-variant-7053357f-7562-ca23-c829-9cb0156d9db0 w-inline-block"><div class="button-content"><div class="button-label">Buy Now</div></div></a></div></div></div></div></div></div><div data-figma-id="1745:5425" data-wf--lp---basic-section--variant="base" class="section-lp"><div data-figma-id="2034:26344" class="container"><div class="section-container"><div data-wf--content---content-block--layout="text-right" class="lp-flow-row"><div class="lp-flow-media"><video src="https://player.vimeo.com/progressive_redirect/playback/1123042653/rendition/1440p/file.mp4?loc=external&amp;signature=68ca20bf394635dd0d4033aba5fb21ecb2c2e3a24e64d7a19f01dfd9754e0692" autoplay="true" muted="" playsinline="true" loop="" class="lp-flow-video-loop"></video></div><div class="lp-flow-text"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h2 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">Add a touch of magic</h2></div><div class="w-richtext"><p>Spaced Out unites delay, reverb and modulation into a singular wet-FX powerhouse with a rich and contemporary sound. The plugin hosts more than 50 effect parameters under the hood, controlled via a simple interface with no submenus.</p><p>Elevate vocals with lush spaces or bring deep and otherworldly effect textures to your drums and instruments.</p></div></div></div></div><div data-wf--content---content-block--layout="text-left" class="lp-flow-row w-variant-d5bc21da-d856-dda5-63c9-822269ac81cb"><div class="lp-flow-media"><video src="https://player.vimeo.com/progressive_redirect/playback/1123286775/rendition/1440p/file.mp4?loc=external&amp;signature=104d4adcf6a91ced70c9c227aba01159f191e41f04b22d9d89c2a5d4ad222666" autoplay="true" muted="" playsinline="true" loop="" class="lp-flow-video-loop"></video></div><div class="lp-flow-text"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h2 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">Explore the outer bounds of sound design</h2></div><div class="w-richtext"><p>Program the step-sequencer interface to create unpredictable delay patterns. Navigate an array of deeply modulated reverb spaces with the circular joystick control. Use the bottom panels for injecting texture and unpredictability.</p><p>And if you don&#x27;t know where to start, hit the dice icon in the center panel to generate musically calibrated new FX chains on repeat.</p></div></div></div></div></div></div></div><div data-figma-id="1745:5458" class="section-quotes"><div data-figma-id="2034:26379" class="container"><div data-figma-id="1752:7830" class="slider-container"><div class="splide splide-quotes"><div data-figma-id="1752:7829" class="slider-header"><h2 data-wf--heading--heading-size="heading-md" class="base-heading w-variant-2dae6615-aee9-55ca-a057-2889f28d2b9e order-summary">What people are saying</h2><div data-figma-id="1752:7831" class="splide__arrows"><button class="icon-button icon-button-2 splide__arrow splide__arrow--prev"><div class="svg-icon svg-icon-sm w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 12.7217L5 12.7217M5 12.7217L11 6.72168M5 12.7217L11 18.7217" stroke="#F5F5F6" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></button><button class="icon-button icon-button-2 splide__arrow splide__arrow--next"><div class="svg-icon svg-icon-sm w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12.7217H19M19 12.7217L13 18.7217M19 12.7217L13 6.72168" stroke="#F5F5F6" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></button></div></div><div data-splide="{type: &#x27;loop&#x27;, autoplay: true, pagination: false,}" class="splide__track w-dyn-list"><div role="list" class="splide__list w-dyn-items"><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/68cc5f8433f1c84e21cf88ba_*%20Emre%20Ramazanoglu.jpg" data-figma-image-id="68903732bc05764047df491c" alt="Emre Ramazanoglu on Spaced Out by Baby Audio" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“Spaced Out is the most immediate and powerful sonic spatial playground I’ve ever used. Baby Audio have really understood what producers need right at their fingertips and Spaced Out has an amazing selection of instantly effective and killer sounding functions to get you to that atmosphere, effect or insanity the track needs.”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Emre Ramazanoglu</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Engineer and Producer - Brian Eno, David Bowie, Noel Gallagher</p></div></div></div></div><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/6a501b6dde39cb17591ac935_Craig%20Bauer%20Square.jpg" data-figma-image-id="68903732bc05764047df491c" alt="" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“Spaced Out brings a brilliant and never ending palette of vocal FX sounds to modern mixes. It looks like nothing else. It sounds like nothing else. A fresh take on reverb and delay FX.”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Craig Bauer</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Grammy Award-Winning Mixer, Engineer, and Producer - Wu-Tang Clan, Lupe Fiasco, Ed Sheeran, Pharrell Williams</p></div></div></div></div><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/68cadfbcf69059a5d669eb5d_*Mick%20Schultz.jpg" data-figma-image-id="68903732bc05764047df491c" alt="Mike Schultz on Spaced Out by Baby Audio" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“Spaced Out has been breathing new life into my productions and sound design. Having a plugin that can offer up such unique and abstract sounds that is also easy to tweak is a gold mine.”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Mick Schulz</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Grammy-Nominated Producer - Jeremih, 50 Cent, YG, Gracie Abrams</p></div></div></div></div><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/68cc3a466f75274a8e03dcde_*%20Chris%20Godbey.jpg" data-figma-image-id="68903732bc05764047df491c" alt="Chris Godbey on Spaced Out by Baby Audio" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“What a genius way to control a delay! Normally, I would put delays on delays to get a multi-tap thing going, but this is way better and makes it so easy to create unconventional tap patterns. The accenting is a nice touch as well. Hats off to Baby Audio for making complex but simple plugins that are fun and amazing!”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Chris Godbey</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Producer and Mixer - Beyoncé, Justin Timberlake, Timbaland, Jay-Z</p></div></div></div></div><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/68cade7c581329fabda4f307_*Lindgren.jpg" data-figma-image-id="68903732bc05764047df491c" alt="Lindgren on Spaced Out by Baby Audio" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“Spaced Out’s step sequencer delay is something I’ve always wished for. It’s so well executed and instantly comprehensive and you’ll hear it on a lot of my upcoming releases. Another Baby Audio must-have!”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Lindgren</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Songwriter and Producer - Dua Lipa, BTS, John Legend, Halsey</p></div></div></div></div><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/68cc39e2c75be96a3e8267ef_*Filip%20Nikolic.jpg" data-figma-image-id="68903732bc05764047df491c" alt="Filip Nikolic on Spaced Out" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“I’m obsessed with Baby Audio’s Spaced Out plugin. It’s super inspiring and it does so much more than just delay and reverb. The interface is simple but you will be surprised at the amount of excellent features. I love the ducking function, before Spaced Out I had to build my own plugin chain to get that effect, now it’s just clicking one button....”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Filip Nikolic</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Artist, Producer, and DJ - Poolside, Migos, Lil Peep, Azealia Banks</p></div></div></div></div><div role="listitem" class="splide__slide w-dyn-item"><div data-figma-id="1745:5462" class="quote-slide"><img class="quote-img" src="https://cdn.prod.website-files.com/68993180d2e3e342ea2cc3d9/68cadc590e16dcd2da5ad27b_*Germaine%20Franco.jpg" data-figma-image-id="68903732bc05764047df491c" alt="Germain Franco on Spaced Out by Baby Audio" data-figma-id="I1745:5462;764:11680" data-figma-image-hash="f292dfd94a3b669d3ebb2f131b69844a" loading="lazy"/><div data-figma-id="I1745:5462;1752:6957" class="quote-content"><p data-figma-id="I1745:5462;764:11676" class="quote-text">“Spaced Out is one of my go to plugins to transform a dry sound source into a sound source filled with motion, depth and space. I find the plugin to be particularly useful on percussion and guitars.”</p><div data-figma-id="I1745:5462;764:11716" class="quote-attr"><p data-figma-id="I1745:5462;764:11675" class="quote-attr-name">Germaine Franco</p><p data-figma-id="I1745:5462;764:11691" class="quote-attr-description">Grammy Award-Winning Composer and Producer - Encanto, Coco, Dora and the Lost City of Gold</p></div></div></div></div></div></div></div></div></div></div><div data-figma-id="1745:5425" data-wf--lp---basic-section--variant="base" class="section-lp"><div data-figma-id="2034:26344" class="container"><div class="section-container"><div data-wf--content---content-block--layout="text-right" class="lp-flow-row"><div class="lp-flow-media"><img loading="lazy" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68da912bfcb1eb3140c6f570_Spaced%20Out%20space.avif" alt="Spaced Out plugin dark mode colorway." sizes="100vw" srcset="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68da912bfcb1eb3140c6f570_Spaced%20Out%20space-p-500.avif 500w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68da912bfcb1eb3140c6f570_Spaced%20Out%20space-p-800.avif 800w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68da912bfcb1eb3140c6f570_Spaced%20Out%20space-p-1080.avif 1080w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68da912bfcb1eb3140c6f570_Spaced%20Out%20space.avif 1500w" class="lp-flow-img"/></div><div class="lp-flow-text"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h2 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">A space echo for the 21st century</h2></div><div class="w-richtext"><p>The irony of emulating vintage gear is that it&#x27;s a backwards looking effort to capture instruments that were trying to look forward at the time. That&#x27;s why we don&#x27;t do straight-up emulations.</p><p>However, while developing Spaced Out, we asked ourselves this: How would we design a &#x27;space echo&#x27; style effect today - 50 years after the original - with the abundance of computer power at our disposal? We set out to create an effect as fun and futuristic for the 21st century as the space echo was for its own time, combining reverb, delay and modulation into a new plugin with a forward-looking ethos.</p></div></div></div></div><div data-wf--content---content-block--layout="text-left" class="lp-flow-row w-variant-d5bc21da-d856-dda5-63c9-822269ac81cb"><div class="lp-flow-media"><video src="https://player.vimeo.com/progressive_redirect/playback/1122860316/rendition/1080p/file.mp4?loc=external&amp;signature=1c15257782b8fe49f3d2d222c1482b81bc687e49416adba04045172506b3e86f" autoplay="true" muted="" playsinline="true" loop="" class="lp-flow-video-loop"></video></div><div class="lp-flow-text"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h2 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">Awards and accolades</h2></div><div class="w-richtext"><p>Spaced Out was the first plugin that truly put Baby Audio on the map. Here are a few of the awards it&#x27;s received since its release in late 2020:<br/>‍<br/>✱ Future Music ‘Plugin Of The Year’ Award<br/>✱ Computer Music Magazine ‘Plugin Of The Year’ Award<br/>✱ Computer Music ‘Editor’s Choice’ Award<br/>✱ Computer Music ‘Performance’ Award<br/>✱ MusicTech ‘Choice’ Award<br/>✱ Nominated for the 2022 SOS Awards<br/></p><p>‍</p></div></div></div></div></div></div></div><div data-figma-id="1745:5484" data-wf--lp---product-hotspot--image-size="base" class="section-product-points"><div data-figma-id="2034:26437" class="container"><div data-figma-id="1745:5485" class="product-explorer-container"><div class="center-title"><div data-wf--text-block--alignment="center" class="text-block w-variant-92b697a7-56c9-49aa-e37c-d3db40b670ef"><div class="heading-wrapper"><h2 data-wf--heading--heading-size="heading-md" class="base-heading w-variant-2dae6615-aee9-55ca-a057-2889f28d2b9e order-summary">Explore the features</h2></div></div></div><div role="region" class="hs-stage"><div class="hotspots"><span data-x="17" data-y="8" data-title="Delay Mode Selector" data-body="Choose from Straight, 2x, Dotted and Triplet tempo divisions" class="hs-hotspot"></span><span data-x="28" data-y="25" data-title="16 Step Delay Sequencer" data-body="Create a unique pattern of delay repeats synced to your DAW&#x27;s host tempo." class="hs-hotspot"></span><span data-x="10" data-y="82" data-title="Intensity &amp; Dimension" data-body="Sets the sequencer&#x27;s sustain and feedback parameters with the intensity control and add stereo width with the Dimension control." class="hs-hotspot"></span><span data-x="23" data-y="80" data-title="Texture" data-body="Choose from Clean, Wonky Tape, Lofi and Hazy echo styles ." class="hs-hotspot"></span><span data-x="45" data-y="33" data-title="X/Y Mix and Blend" data-body="Set the wet/dry blend and balance of delay and reverb effects with an intuitive X/Y pad." class="hs-hotspot"></span><span data-x="76" data-y="64" data-title="Space" data-body="X/Y joystick control for intuitively morphing between reverb length and modulation behavior" class="hs-hotspot"></span><span data-x="85" data-y="8" data-title="Programs" data-body="Select from 4 reverb styles: Vacuum, Small Space, Medium Space and Outer Space" class="hs-hotspot"></span><span data-x="77" data-y="77" data-title="Stardust &amp; Mellow" data-body="Add an angelic, sustained shimmer to the reverb tail with Stardust or control dual low and high damping filters with Mellow " class="hs-hotspot"></span><span data-x="52.5" data-y="72" data-title="Generate" data-body="Musically tuned randomizer for instantly generating new effect configurations" class="hs-hotspot"></span><span data-x="47" data-y="80" data-title="Lift-Off" data-body="Glues the wet signals together through a combination of compression, mid-side processing and EQ." class="hs-hotspot"></span><span data-x="44.5" data-y="89.5" data-title="Ducker &amp; Sync" data-body="Ducks the wet signal when the dry signal is playing for increased clarity. Enable sync for a pumping &#x27;four-on-the-floor&#x27; effect in time with the host tempo." class="hs-hotspot"></span><span data-x="90.5" data-y="77" data-title="Clean-Up &amp; Width" data-body="Trim excess frequencies from the dry signal that feeds the reverb algorithm using the Clean-Up control and set the overall stereo spread with the Width control. " class="hs-hotspot"></span></div><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out.avif" loading="lazy" alt="Spaced Out by Baby Audio plugin UI" sizes="100vw" srcset="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-500.png 500w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-800.png 800w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-1080.png 1080w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-1600.png 1600w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-2000.png 2000w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-2600.png 2600w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out-p-3200.png 3200w, https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0fb20d2c5df5bf5b5a10_*spaced%20out.avif 3444w" class="hs-stage__image"/></div><div class="code-embed w-embed"></div></div></div></div><div data-wf--lp---video-gallery--variant="less-than-4" class="section-quotes"><div data-figma-id="2034:26379" class="container"><div data-figma-id="1752:7830" class="slider-container"><div class="splide splide-videos"><div data-figma-id="1752:7829" class="slider-header"><h2 data-wf--heading--heading-size="heading-md" class="base-heading w-variant-2dae6615-aee9-55ca-a057-2889f28d2b9e order-summary">Videos</h2><div data-figma-id="1752:7831" class="splide__arrows w-variant-b1a57be0-ccbc-7fc1-1642-4d82032f284a"><button class="icon-button icon-button-2 splide__arrow splide__arrow--prev"><div class="svg-icon svg-icon-sm w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 12.7217L5 12.7217M5 12.7217L11 6.72168M5 12.7217L11 18.7217" stroke="#F5F5F6" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></button><button class="icon-button icon-button-2 splide__arrow splide__arrow--next"><div class="svg-icon svg-icon-sm w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12.7217H19M19 12.7217L13 18.7217M19 12.7217L13 6.72168" stroke="#F5F5F6" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></button></div></div><div class="splide__track"><div class="splide__list videos-slider"><div class="video-slide splide__slide"><div class="lp-flow-media"><div style="padding-top:56.17021276595745%" class="lp-flow-video w-video w-embed"><iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fwlzd9Ya9JX0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dwlzd9Ya9JX0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fwlzd9Ya9JX0%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen title="A Modern Space Echo Plugin - Spaced Out by Baby Audio"></iframe></div></div><div class="video-slide-footer"><div class="heading-xs">CJ Beatz walkthrough</div><div></div></div></div><div class="video-slide splide__slide"><div class="lp-flow-media"><div style="padding-top:56.17021276595745%" class="lp-flow-video w-video w-embed"><iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FiSlcmJKMiPs%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiSlcmJKMiPs&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FiSlcmJKMiPs%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen title="Spaced Out Deep Dive Tutorial - by Matt Lange"></iframe></div></div><div class="video-slide-footer"><div class="heading-xs">Matt Lange deep dive</div><div></div></div></div><div class="video-slide splide__slide"><div class="lp-flow-media"><div style="padding-top:56.17021276595745%" class="lp-flow-video w-video w-embed"><iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FpuTzFFIAFhY%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DpuTzFFIAFhY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FpuTzFFIAFhY%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen title="Spaced Out Plugin by Baby Audio is Dope!!!! [Review]"></iframe></div></div><div class="video-slide-footer"><div class="heading-xs">Bolo review</div><div></div></div></div></div></div></div></div></div></div><div class="section-faq"><div class="container container-sm"><h2 data-wf--heading--heading-size="heading-md" class="base-heading w-variant-2dae6615-aee9-55ca-a057-2889f28d2b9e order-summary">More details</h2><div data-wf--spacer--variant="2" class="spacer w-variant-d972773d-cd7c-dc33-b3cd-3e3aca449f9e"></div><div class="fs_accordion-2_embed code-embed w-embed w-script"><!-- [Finsweet Attributes] Accordion -->
+<script>(()=>{var t="https://cdn.jsdelivr.net/npm/@finsweet/attributes-accordion@1/accordion.js",e=document.querySelector(`script[src="${t}"]`);e||(e=document.createElement("script"),e.async=!0,e.src=t,document.head.append(e));})();</script></div><div fs-accordion-single="true" fs-accordion-element="group" fs-accordion-initial="1" class="fs_accordion-2_component"><div fs-accordion-element="accordion" class="fs_accordion-2_item"><div id="accordion-2-header-1" tabindex="0" role="button" aria-controls="accordion-2-content-1" aria-expanded="false" fs-accordion-element="trigger" class="fs_accordion-2_header"><div class="fs_accordion-2_label">What are the tech specs?</div><div fs-accordion-element="arrow" class="fs_accordion-2_arrow-wrapper is-active-accordion"><div class="fs_accordion-2_icon w-icon-dropdown-toggle"></div></div></div><div id="accordion-2-content-1" aria-labelledby="accordion-2-header-1" fs-accordion-element="content" class="fs_accordion-2_content"><div class="fs_accordion-2_body"><div class="w-richtext"><p>✱ Plugin formats: VST, VST3, AU, AAX (64-bit).</p><p>✱ Platforms supported: Mac OS 10.11 and up (including Native Apple Silicon M-Chip Compatibility). PC Windows 10 and newer.</p><p>✱ DAWs supported: All major DAWs, including Ableton Live, Pro Tools, Logic Pro, FL Studio, Cubase, Studio One, Bitwig, Reaper, Reason etc.</p><p><a href="https://babyaudiosoftware.s3.us-east-2.amazonaws.com/Spaced+Out+Baby+Audio+Manual.pdf" target="_blank">Download User Manual</a></p></div></div></div></div><div fs-accordion-element="accordion" class="fs_accordion-2_item"><div id="accordion-2-header-1" tabindex="0" role="button" aria-controls="accordion-2-content-1" aria-expanded="false" fs-accordion-element="trigger" class="fs_accordion-2_header"><div class="fs_accordion-2_label">Features</div><div fs-accordion-element="arrow" class="fs_accordion-2_arrow-wrapper is-active-accordion"><div class="fs_accordion-2_icon w-icon-dropdown-toggle"></div></div></div><div id="accordion-2-content-1" aria-labelledby="accordion-2-header-1" fs-accordion-element="content" class="fs_accordion-2_content"><div class="fs_accordion-2_body"><div class="w-richtext"><p>✱<strong> Echoes:<br/>- </strong>16-step delay sequencer synced to your DAW’s tempo<br/>- Delay modes: Straight, 2x, Dotted, Triplet<br/>- Intensity: Sets the sequencer’s behavior through sustain and feedback controls<br/>- Dimension: Off, Ultra-Wide and Motion modes<br/>- Texture buttons: Clean, Wonky Tape, Lofi and Hazy<br/>- Reverse: Reverses the delay playback<br/>- Filter: Analog-modeled low and high pass filters</p><p>✱<strong> Space:</strong> <br/>- X-Y based joystick control for intuitively morphing between reverb length and modulation behavior<br/>- Programs: Vacuum, Small Space, Medium Space, Outer Space<br/>- Pre-Delay: 0-250 milliseconds<br/>- Stardust: Adds an angelic, sustained shimmer to the reverb tail<br/>- Mellow: Dual low and high end dampening filter<br/>- Clean-Up: Feeds a trimmed dry signal into the reverb algorithm resulting in a less dense response<br/>- Width: Sets the reverb width between wide and mono</p><p><strong>✱ Central Mixer:</strong><br/>- X-Y joystick control for seamlessly morphing between the Echoes/Space and Wet/Dry signals<br/>- Generate: Musically tuned randomizer for instantly generating new effect configurations<br/>- Lift-Off: Glues the wet signals together through a combination of compression, mid-side processing and EQ<br/>- Ducker: Ducks the wet signal when the dry signal is playing<br/>- Ducker Sync: Syncs the ducker to your DAW’s BPM for a pumping ‘four-on-the-floor’ effect<br/>- Output: Controls the global effect output</p><p>✱<strong> Display Options: <br/></strong>- Switch between black and white background colors. Fully resizable plugin window</p></div></div></div></div><div fs-accordion-element="accordion" class="fs_accordion-2_item"><div id="accordion-2-header-1" tabindex="0" role="button" aria-controls="accordion-2-content-1" aria-expanded="false" fs-accordion-element="trigger" class="fs_accordion-2_header"><div class="fs_accordion-2_label">Preset creators</div><div fs-accordion-element="arrow" class="fs_accordion-2_arrow-wrapper is-active-accordion"><div class="fs_accordion-2_icon w-icon-dropdown-toggle"></div></div></div><div id="accordion-2-content-1" aria-labelledby="accordion-2-header-1" fs-accordion-element="content" class="fs_accordion-2_content"><div class="fs_accordion-2_body"><div class="w-richtext"><p>Spaced Out comes with 125 presets created by friends of BABY Audio - including: </p><p>✱ Filip Nikolic (Poolside, Migos, Lil Peep, Azealia Banks)<br/>✱ Tushar Apte (Demi Lovato, BTS, Noah Cyrus, Nicki Minaj)<br/>✱ David Nakaji (Kendrick Lamar, Gesaffelstein, Post Malone, Doja Cat, Glass Animals)<br/>✱ Richie Beretta (Beyoncé, Diplo, Jillionaire)<br/>✱ John Nathaniel (One Republic, Kygo, Switchfoot, Shawn Mendes)<br/>✱ Anthony Saffery (Portugal. The Man, Dirty Vegas, Cornershop)</p></div></div></div></div><div fs-accordion-element="accordion" class="fs_accordion-2_item"><div id="accordion-2-header-1" tabindex="0" role="button" aria-controls="accordion-2-content-1" aria-expanded="false" fs-accordion-element="trigger" class="fs_accordion-2_header"><div class="fs_accordion-2_label">Loyalty discount for existing customers</div><div fs-accordion-element="arrow" class="fs_accordion-2_arrow-wrapper is-active-accordion"><div class="fs_accordion-2_icon w-icon-dropdown-toggle"></div></div></div><div id="accordion-2-content-1" aria-labelledby="accordion-2-header-1" fs-accordion-element="content" class="fs_accordion-2_content"><div class="fs_accordion-2_body"><div class="w-richtext"><p>Sign up or sign in to your owner&#x27;s account <a href="https://babyaud.io/account" target="_blank"><strong>here</strong></a> to unlock your personal loyalty discount.</p></div></div></div></div></div></div></div><div id="purchase" class="section-product-cta"><div data-figma-id="1745:5514" class="container"><div class="cta-headline"><img src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689a2a03a92c0dcd624f707d_Spaced%20Out%20Icon.avif" loading="lazy" alt="" class="product-logo"/><h2 data-wf--heading--heading-size="heading-xl" class="base-heading order-summary">Spaced Out</h2><p class="subtitle">Reverb / Delay / Modulation Multi-FX</p></div><div data-wf--spacer--variant="3" class="spacer w-variant-8c2669b7-6af2-d9a2-761c-8b731815b52e"></div><div data-figma-id="1745:5520" class="cta-cards"><div class="cta-card card-1"><div class="cta-card-main"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h3 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">Buy Spaced Out</h3></div><div class="w-richtext"><ul role="list"><li>One time purchase to own Spaced Out forever</li><li>‍<strong>Existing customers:</strong> <a href="https://babyaud.io/account" target="_blank">Log in</a> to see your loyalty discount</li></ul></div></div><div data-wf--spacer--variant="3" class="spacer w-variant-8c2669b7-6af2-d9a2-761c-8b731815b52e"></div></div><div data-wf--spacer--variant="2" class="spacer w-variant-d972773d-cd7c-dc33-b3cd-3e3aca449f9e"></div><div class="cta-card-footer"><div class="link-group"><a href="/downloads">Download Free Trial</a></div><a data-fsc-action="Add" data-fsc-item-path-value="spaced-out" data-wf--button-fs-add-lp--style="primary---lg" href="#" class="button w-inline-block"><div class="button-content button-content-lp"><div class="button-label">Buy Now -</div><h1 data-fsc-item-total="" data-fsc-item-path="spaced-out" class="button-label">...</h1></div></a></div></div><div class="cta-card"><div class="cta-card-badge-wrapper"><div data-wf--badge--variant="green" class="badge"><p class="badge-label">Popular</p></div></div><div data-figma-id="1745:5522" class="cta-card-main"><div data-wf--text-block--alignment="left" class="text-block"><div class="heading-wrapper"><h3 data-wf--heading--heading-size="heading-sm" class="base-heading w-variant-a773c81f-1dbd-40ec-80b6-c34e3db4f143 order-summary">Subscribe to Own in 6 Months</h3></div><div class="w-richtext"><ul role="list"><li>Full access to all Baby Audio and Denise Audio products</li><li>Choose any plugin to own forever every 6 months</li><li>Cancel any time and keep the plugins you collected</li><li>Get first month for $0.99 with code &quot;COLLECT&quot;</li></ul></div></div></div><div data-wf--spacer--variant="2" class="spacer w-variant-d972773d-cd7c-dc33-b3cd-3e3aca449f9e"></div><div class="cta-card-footer"><a data-wf--button-pcp--style="primary---lg" href="https://plan.babyaud.io/" target="_blank" class="button w-inline-block"><div class="button-content"><div class="button-label button-label-pcp">Start Now - .../month</div></div></a></div></div></div></div></div></div><div data-figma-id="1682:12459" class="site-footer"><div class="container"><div class="footer-content"><div data-figma-id="1682:12441" class="footer-links"><a href="/all-products" class="footer-link">All Products</a><a href="https://apps.apple.com/tt/developer/baby-audio-inc/id1674621630" target="_blank" class="footer-link">App Store</a><a href="/support" class="footer-link">Support</a><a href="https://forum.babyaud.io" class="footer-link">Forum</a><a href="/blog" class="footer-link">Blog</a><a href="/refund-policy" class="footer-link">Refund Policy</a><a href="/privacy-policy" class="footer-link">Privacy Policy</a><a href="/jobs" class="footer-link">Jobs</a><a href="/grants-for-good" class="footer-link">Grants for Good</a></div><div data-figma-id="1682:12520" class="footer-social-logos"><a href="https://www.instagram.com/babyaud.io/" target="_blank" class="social-link w-inline-block"><img class="mdiinstagram" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689037babc62a57eb20630fc_mdiinstagram.svg" data-figma-image-id="689037babc62a57eb20630fc" alt="Instagram icon" data-figma-id="1682:12516" data-figma-image-hash="55dd01b75cd5b4f31968c9b14235b18f" loading="lazy"/></a><a href="https://www.facebook.com/babyaudio/" target="_blank" class="social-link w-inline-block"><img class="icbaseline-facebook" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689037bb5b562db6bb725b8d_icbaseline-facebook.svg" data-figma-image-id="689037bb5b562db6bb725b8d" alt="Facebook icon" data-figma-id="1682:12505" data-figma-image-hash="ff4b177925bf86641ffb565e9d3e937d" loading="lazy"/></a><a href="https://www.youtube.com/channel/UCNypPXheQuh4vGnSPuIvQLw" target="_blank" class="social-link w-inline-block"><img class="mdiyoutube" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689037bb3dce1d45ad8c0d3a_mdiyoutube.svg" data-figma-image-id="689037bb3dce1d45ad8c0d3a" alt="YouTube icon" data-figma-id="1682:12507" data-figma-image-hash="62d5052d074514882668c0022348fc84" loading="lazy"/></a><a href="https://www.tiktok.com/@babyaud.io" target="_blank" class="social-link w-inline-block"><img class="primetwitter" src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/68db00c3261e430a1ab989f3_tiktok%20grey.svg" data-figma-image-id="689037bb48959810d11f0f87" alt="" data-figma-id="1682:12509" data-figma-image-hash="ce07e892f636ec1dc4129409c384ffc9" loading="lazy"/></a></div></div></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=687ee2fa7f073e59ed93f259" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/js/webflow.966b0f8d.5fead1da5af8b950.js" type="text/javascript" integrity="sha384-nPmUufasd+w6l1WcxFNx/EeVQClhf4UH2vHglJSzHi3s4Q+XJxtyFx57iwzs5LVF" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js" type="text/javascript"></script><noscript><iframe src="https://load.sgtm.babyaud.io/ns.html?id=GTM-PCPBCX9P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+
+<script>
+  Paddle.Initialize({
+    token: "live_e7e36537cbf99891b31c8288fdb"
+  });
+</script>
+
+<script>
+function fillPricesPCP() {
+  fetch("https://my.babyaud.io/api/webshop/region/price-id")
+    .then(async (response) => {
+      try {
+        if (!response.ok) {
+          throw new Error("Failed to fetch price id");
+        }
+        const { priceId } = await response.json();
+        return priceId;
+      } catch (error) {
+        console.error("Could not fetch price id, falling back to EU.", error);
+        return "pri_01jftqa1sjf3v0q90b2v6h7ps9";
+      }
+    })
+    .then((priceId) => {
+      var request = {
+        items: [
+          {
+            quantity: 1,
+            priceId: priceId,
+          },
+        ],
+      };
+
+      Paddle.PricePreview(request)
+        .then((result) => {
+          let currencyCode = result.data.currencyCode;
+          let countryCode = result.data.address.countryCode;
+
+        	let localizedPrice;
+          let promoPrice;
+          let bundleValue;
+        	if (priceId === "pri_01jftqa1sjf3v0q90b2v6h7ps9") {
+            localizedPrice = result.data.details.lineItems[0].formattedTotals.total;
+          	({promoPrice, bundleValue, upgradePrice} = getPromoPrices(localizedPrice, "EU", currencyCode));
+          } else {
+          	localizedPrice = result.data.details.lineItems[0].formattedTotals.subtotal;
+            ({promoPrice, bundleValue, upgradePrice} = getPromoPrices(localizedPrice, "Global", currencyCode));
+          }
+
+          localizedPrice = formatCurrency(localizedPrice, currencyCode, countryCode);
+          promoPrice = formatCurrency(promoPrice, currencyCode, countryCode);
+          bundleValue = formatCurrency(bundleValue, currencyCode, countryCode);
+          upgradePrice = formatCurrency(upgradePrice, currencyCode, countryCode);
+
+          document.querySelectorAll(".pcp-old-price-card").forEach((el) => {
+            el.textContent = "";
+          });
+          document.querySelectorAll(".pcp-price-card").forEach((el) => {
+            el.textContent = `${localizedPrice}/mo`;
+          });
+          document.querySelectorAll(".button-label-pcp").forEach((el) => {
+            el.textContent = el.textContent.replace("...", localizedPrice);
+          });
+
+          const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+          const nodesToUpdate = [];
+          while (walker.nextNode()) {
+            const node = walker.currentNode;
+            if (node.nodeValue.includes("$0.99") 
+              || node.nodeValue.includes("[...]")
+              || node.nodeValue.includes("[+++]")) {
+              nodesToUpdate.push(node);
+            }
+          }
+
+          nodesToUpdate.forEach((node) => {
+            node.nodeValue = node.nodeValue
+              .replace(/\$0\.99/g, promoPrice)
+              .replace(/\[\.\.\.\]/g, bundleValue)
+              .replace(/\[\+\+\+\]/g, upgradePrice);
+          });
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    });
+}
+
+function getPromoPrices(price, locality, currencyCode) {
+  let trimmed = price.trim();
+
+  const hasLeadingSymbol = isNaN(trimmed[0]);
+  const hasTrailingSymbol = isNaN(trimmed[trimmed.length - 1]);
+
+  const symbol = trimmed.replace(/[0-9.,\s]/g, "");
+
+  let replaceComma = false;
+  const commaDecimal = new Set(["BRL", "DKK"]);
+
+  if (commaDecimal.has(currencyCode)) {
+    trimmed = trimmed.replace(/\./g, "").replace(",", ".");
+    replaceComma = true;
+  }
+
+  const base = parseFloat(trimmed.replace(/[^0-9.]/g, ""));
+
+  const multipliers = {
+    EU: 0.0636168692,
+    Global: 0.0660440294
+  };
+  const multiplier = multipliers[locality] ?? 0.065;
+  const promoPriceNum = (base * multiplier).toFixed(2);
+
+  const path = window.location.pathname.toLowerCase();
+
+  const BUNDLE_MULTIPLIERS = {
+    "/complete-bundle/": 1460.60606061,
+    "/modern-vocal-production-bundle/": 360.60606061,
+    "/synthwave-essentials/": 319.19191919
+  };
+  let bundle_multiplier = 0;
+  for (const [key, value] of Object.entries(BUNDLE_MULTIPLIERS)) {
+    if (path.includes(key.replace(/\//g, ""))) bundle_multiplier = value;
+  }
+  const bundleValueNum = Math.round(promoPriceNum * bundle_multiplier);
+
+  const UPGRADE_MULTIPLIERS = {
+    "/ihny/": 25.252525,
+    "/smooth-operator/": 29.292929,
+    "/transit/": 29.292929
+  }
+  let upgrade_multiplier = 0;
+  for (const [key, value] of Object.entries(UPGRADE_MULTIPLIERS)) {
+    if (path.includes(key.replace(/\//g, ""))) upgrade_multiplier = value;
+  }
+  const upgradePriceNum = Math.round(promoPriceNum * upgrade_multiplier);
+
+  let promoPrice = promoPriceNum;
+  let bundleValue = bundleValueNum;
+  let upgradePrice = upgradePriceNum;
+  
+  if (hasLeadingSymbol) {
+    promoPrice = `${symbol}${promoPriceNum}`;
+    bundleValue = `${symbol}${bundleValueNum}`;
+    upgradePrice = `${symbol}${upgradePriceNum}`;
+  }
+  if (hasTrailingSymbol) {
+    promoPrice = `${promoPriceNum} ${symbol}`;
+    bundleValue = `${bundleValueNum} ${symbol}`;
+    upgradePrice = `${upgradePriceNum} ${symbol}`;
+  }
+
+  if (replaceComma) {
+    promoPrice = promoPrice.replace(".", ",");
+  }
+
+  return { promoPrice, bundleValue, upgradePrice };
+}
+
+function formatCurrency(price, currencyCode, countryCode) {
+  let formatted = price.trim();
+
+  switch (currencyCode) {
+    case "DKK":
+    case "SEK":
+      formatted = formatted.replace("kr", "").trim();
+      formatted = `${formatted} kr.`;
+      break;
+    case "NZD":
+      formatted = `${formatted} NZD`;
+      break;
+    case "CAD":
+      formatted = `${formatted} CAD`;
+      break;
+    case "SGD":
+      formatted = formatted.replace("S$", "$") + " SGD";
+      break;
+    case "MXN":
+      formatted = "MX$" + formatted;
+      break;
+    default:
+  }
+
+  switch (countryCode) {
+    case "AT":
+    case "BE":
+    case "FI":
+    case "DE":
+    case "NE":
+    case "NL":
+    case "SE":
+    case "SI":
+      formatted = formatted.replace(".", ",");
+      break;
+    case "CH":
+      formatted = formatted.replace(".", ",");
+      formatted = formatted.replace(/^([\d.,\s]+)\s*([^\d\s]+)$/, '$2 $1'); // "1,23 CHF" to "CHF 1,23"
+      break;
+    case "BR":
+      formatted = formatted.replace(",", ".");
+      break;
+    default:
+  }
+
+  return formatted;
+}
+
+fillPricesPCP();
+</script>
+
+<script>
+  (function () {
+    window.splides = window.splides || [];
+
+    document.querySelectorAll(".splide-videos").forEach(function (root) {
+      if (root.__splide) return;
+
+      var opts = {
+        type: "loop",
+        autoplay: false,
+        pagination: false,
+        speed: 1000,
+        perPage: 3,
+        gap: "1em",
+        drag: false,
+        breakpoints: {
+          1000: {
+            perPage: 1,
+          },
+        },
+      };
+
+      var instance = new Splide(root, opts);
+      instance.mount();
+
+      root.__splide = instance;
+      window.splides.push(instance);
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    window.splides = window.splides || [];
+
+    document.querySelectorAll(".splide-quotes").forEach(function (root) {
+      if (root.__splide) return;
+
+      var opts = {
+        type: "loop",
+        autoplay: false,
+        pagination: false,
+        speed: 1000,
+        gap: "1em",
+        drag: false,
+      };
+
+      var instance = new Splide(root, opts);
+      instance.mount();
+
+      root.__splide = instance;
+      window.splides.push(instance);
+    });
+  })();
+</script>
+
+<style>
+.ap-btn {
+  position: relative;
+}
+
+.ap-btn.is-loading svg {
+  opacity: 0;
+}
+
+.ap-btn.is-loading::after {
+  content: "";
+  position: absolute;
+  inset: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -8px 0 0 -8px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  animation: ap-spin 0.7s linear infinite;
+}
+
+@keyframes ap-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>
+
+<script>
+  $(function () {
+    const playersRegistry = (window.__dualPlayersRegistry =
+      window.__dualPlayersRegistry || []);
+    $(".ap-dual-player").each(function () {
+      initPlayer($(this));
+    });
+
+    function initPlayer($player) {
+      const $btn = $player.find(".ap-btn.ap-play");
+      const $toggle = $player.find(".ap-toggle");
+      const $toggleWrap = $player.find(".ap-right");
+      const $bar = $player.find(".ap-bar");
+      const $fill = $bar.find(".ap-fill");
+
+      const fx = $player.find(".ap-audio-fx")[0];
+      const dry = $player.find(".ap-audio-dry")[0];
+      const hasFx = !!fx;
+      const hasDry = !!dry;
+      const numSources = (hasFx ? 1 : 0) + (hasDry ? 1 : 0);
+      if (numSources < 2) {
+        $toggleWrap.hide();
+      }
+
+      let isDragging = false;
+      let isPlaying = false;
+      let rafId = null;
+      let xfadeTimer = null;
+
+      function setLoading(loading) {
+        if (loading) {
+          $btn.addClass("is-loading");
+          $btn.attr("aria-busy", "true");
+        } else {
+          $btn.removeClass("is-loading");
+          $btn.removeAttr("aria-busy");
+        }
+      }
+
+      function fxIsAudible() {
+        if (numSources < 2) return hasFx;
+        return $toggle.hasClass("ap-on");
+      }
+
+      function crossfade(toFx) {
+        if (numSources < 2) {
+          if (hasFx) {
+            fx.muted = false;
+            fx.volume = 1;
+          }
+          if (hasDry) {
+            dry.muted = false;
+            dry.volume = 1;
+          }
+          return;
+        }
+        const durationMs = 40;
+        const steps = 8;
+        const interval = durationMs / steps;
+        let i = 0;
+        const startFx = (hasFx ? fx.volume : 0) || 0;
+        const startDry = (hasDry ? dry.volume : 0) || 0;
+        const endFx = toFx ? 1 : 0;
+        const endDry = toFx ? 0 : 1;
+        if (xfadeTimer) clearInterval(xfadeTimer);
+        if (hasFx) fx.muted = false;
+        if (hasDry) dry.muted = false;
+        xfadeTimer = setInterval(() => {
+          i++;
+          const k = i / steps;
+          if (hasFx) fx.volume = startFx + (endFx - startFx) * k;
+          if (hasDry) dry.volume = startDry + (endDry - startDry) * k;
+          if (i >= steps) {
+            clearInterval(xfadeTimer);
+            if (hasFx) fx.volume = endFx;
+            if (hasDry) dry.volume = endDry;
+          }
+        }, interval);
+      }
+
+      function setAudibleFromToggle() {
+        const on = fxIsAudible();
+        crossfade(on);
+        $toggle.attr("aria-checked", on ? "true" : "false");
+        if (isPlaying) {
+          if (fx.paused) fx.play().catch(() => {});
+          if (dry.paused) dry.play().catch(() => {});
+        }
+      }
+
+      function duration() {
+        if (numSources === 0) return 0;
+
+        const fxReady = hasFx && fx.readyState >= 1;
+        const dryReady = hasDry && dry.readyState >= 1;
+
+        if (numSources === 1) {
+          if (hasFx && fxReady) return fx.duration || 0;
+          if (hasDry && dryReady) return dry.duration || 0;
+          return 0;
+        }
+
+        const fxDur = fxReady ? fx.duration || 0 : 0;
+        const dryDur = dryReady ? dry.duration || 0 : 0;
+        return Math.max(fxDur, dryDur) || 0;
+      }
+
+      function updateProgress() {
+        const d = duration();
+        if (!d) return;
+        const t =
+          numSources < 2
+            ? (hasFx ? fx.currentTime : dry.currentTime) || 0
+            : Math.max(fx.currentTime || 0, dry.currentTime || 0);
+        const pct = Math.min(100, (t / d) * 100);
+        $fill.css("width", pct + "%");
+        $bar.attr("aria-valuenow", Math.round(pct));
+        if (numSources === 2) {
+          const diff = Math.abs(fx.currentTime - dry.currentTime);
+          if (diff > 0.05) {
+            if (fxIsAudible()) dry.currentTime = fx.currentTime;
+            else fx.currentTime = dry.currentTime;
+          }
+        }
+        if (isPlaying) rafId = requestAnimationFrame(updateProgress);
+      }
+
+      function pauseOthers() {
+        playersRegistry.forEach((ctrl) => {
+          if (ctrl.root !== $player[0]) ctrl.pause();
+        });
+      }
+
+      function playBoth() {
+        pauseOthers();
+
+        setLoading(true);
+
+        let t = 0;
+        if (numSources === 2)
+          t = Math.max(fx.currentTime || 0, dry.currentTime || 0);
+        else if (numSources === 1)
+          t = (hasFx ? fx.currentTime : dry.currentTime) || 0;
+        if (hasFx) fx.currentTime = t;
+        if (hasDry) dry.currentTime = t;
+        const on = fxIsAudible();
+        if (numSources < 2) {
+          if (hasFx) {
+            fx.muted = false;
+            fx.volume = 1;
+          }
+          if (hasDry) {
+            dry.muted = false;
+            dry.volume = 1;
+          }
+        } else {
+          fx.muted = false;
+          dry.muted = false;
+          fx.volume = on ? 1 : 0;
+          dry.volume = on ? 0 : 1;
+        }
+        const playPromises = [];
+        if (hasFx) playPromises.push(fx.play());
+        if (hasDry) playPromises.push(dry.play());
+        Promise.allSettled(playPromises).then((results) => {
+          const allRejected =
+            results.length > 0 && results.every((r) => r.status === "rejected");
+          if (allRejected) {
+            const primary =
+              numSources === 2 ? (on ? fx : dry) : hasFx ? fx : dry;
+            primary
+              .play()
+              .then(() => {
+                isPlaying = true;
+                swapIcon(true);
+                updateProgress();
+              })
+              .catch(() => {
+                isPlaying = false;
+                swapIcon(false);
+              });
+            return;
+          }
+          isPlaying = true;
+          swapIcon(true);
+          updateProgress();
+          setLoading(false);
+        });
+      }
+
+      function pauseBoth() {
+        fx.pause();
+        dry.pause();
+        isPlaying = false;
+        cancelAnimationFrame(rafId);
+        swapIcon(false);
+      }
+
+      function swapIcon(playing) {
+        const svg = playing
+          ? `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+             <rect x="6" y="5" width="4" height="14"></rect>
+             <rect x="14" y="5" width="4" height="14"></rect>
+           </svg>`
+          : `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+             <polygon points="7,5 19,12 7,19"></polygon>
+           </svg>`;
+        $btn.html(svg);
+      }
+
+      $btn.on("click", function () {
+        if (isPlaying) pauseBoth();
+        else playBoth();
+      });
+
+      $toggle.on("click keydown", function (e) {
+        if (e.type === "click" || e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          $toggle.toggleClass("ap-on");
+          setAudibleFromToggle();
+        }
+      });
+
+      function seekTo(clientX) {
+        const rect = $bar[0].getBoundingClientRect();
+        const pct = Math.min(
+          1,
+          Math.max(0, (clientX - rect.left) / rect.width)
+        );
+        const d = duration();
+        const newTime = d * pct;
+        if (hasFx) fx.currentTime = newTime;
+        if (hasDry) dry.currentTime = newTime;
+        $fill.css("width", pct * 100 + "%");
+      }
+      $bar.on("mousedown", function (e) {
+        isDragging = true;
+        seekTo(e.clientX);
+      });
+      $(window).on("mousemove.dual" + $player.index(), function (e) {
+        if (isDragging) seekTo(e.clientX);
+      });
+      $(window).on("mouseup.dual" + $player.index(), function () {
+        if (isDragging) {
+          isDragging = false;
+          if (isPlaying) updateProgress();
+        }
+      });
+
+      [fx, dry].filter(Boolean).forEach((a) => {
+        a.addEventListener("timeupdate", () => {
+          if (!isDragging && !isPlaying) updateProgress();
+        });
+        a.addEventListener("ended", () => {
+          pauseBoth();
+          if (hasFx) fx.currentTime = 0;
+          if (hasDry) dry.currentTime = 0;
+          updateProgress();
+        });
+      });
+
+      [fx, dry]
+        .filter(Boolean)
+        .forEach((a) => a.addEventListener("loadedmetadata", updateProgress));
+
+      playersRegistry.push({ root: $player[0], pause: pauseBoth });
+
+      if (numSources < 2) {
+        if (hasFx) {
+          fx.muted = false;
+          fx.volume = 1;
+        }
+        if (hasDry) {
+          dry.muted = false;
+          dry.volume = 1;
+        }
+      } else {
+        fx.muted = false;
+        dry.muted = false;
+        fx.volume = 1;
+        dry.volume = 0;
+      }
+      setAudibleFromToggle();
+    }
+  });
+</script>
+
+<script>
+  (function () {
+    function pauseAllDualPlayers() {
+      (window.__dualPlayersRegistry || []).forEach((ctrl) => {
+        try {
+          ctrl.pause();
+        } catch (_) {}
+      });
+    }
+
+    function isHidden(el) {
+      if (!el) return true;
+      if (el.hidden) return true;
+      const aria = el.getAttribute("aria-hidden");
+      if (aria === "true") return true;
+      const cs = getComputedStyle(el);
+      return (
+        cs.display === "none" ||
+        cs.visibility === "hidden" ||
+        cs.opacity === "0"
+      );
+    }
+
+    document.querySelectorAll(".pack-card-overlay").forEach((modal) => {
+      new MutationObserver(() => {
+        if (isHidden(modal)) pauseAllDualPlayers();
+      }).observe(modal, {
+        attributes: true,
+        attributeFilter: ["style", "class", "hidden", "aria-hidden"],
+      });
+    });
+  })();
+</script>
+
+<script>
+  $(document).ready(function () {
+    function applyFilters() {
+      const typeFilter =
+        $(".type-filter[data-active='true']").data("type") || "all";
+      const $saleBtn = $(".sale-filter");
+      const saleFilter = $saleBtn.length
+        ? $saleBtn.attr("data-sale") || "false"
+        : "false";
+
+      $(".js-filter-item").each(function () {
+        const type = $(this).attr("data-type-term") || "";
+        const sale = $(this).attr("data-sale") || "false";
+
+        const showByType = typeFilter === "all" || type === String(typeFilter);
+        const showBySale =
+          saleFilter === "false" || (saleFilter === "true" && sale === "true");
+
+        $(this).toggle(showByType && showBySale);
+      });
+    }
+
+    $(document).on("click", ".type-filter", function () {
+      $(".type-filter").attr("data-active", "false");
+      $(this).attr("data-active", "true");
+
+      $(".sale-filter").attr("data-sale", "false");
+
+      applyFilters();
+    });
+
+    $(document).on("click", ".sale-filter", function () {
+      const next = $(this).attr("data-sale") === "true" ? "false" : "true";
+      $(this).attr("data-sale", next);
+      applyFilters();
+    });
+
+    applyFilters();
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $(document).on("click", ".pack-card-wrapper .modal-trigger", function (e) {
+      e.stopPropagation();
+      const $overlay = $(this)
+        .closest(".pack-card-wrapper")
+        .find(".pack-card-overlay");
+
+      $overlay.addClass("is-open").fadeIn(200);
+    });
+
+    $(document).on("click", ".pack-card-wrapper .modal-close", function (e) {
+      e.stopPropagation();
+      const $overlay = $(this).closest(".pack-card-overlay");
+
+      $overlay.fadeOut(200, function () {
+        $overlay.removeClass("is-open");
+      });
+    });
+
+    $(document).on("click", ".pack-card-overlay.is-open", function (e) {
+      if ($(e.target).closest(".pack-card-detail").length === 0) {
+        const $overlay = $(this);
+        $overlay.fadeOut(200, function () {
+          $overlay.removeClass("is-open");
+        });
+      }
+    });
+  });
+</script>
+
+<script>
+  (function ($) {
+    "use strict";
+
+    $.fn.hotspot = function hotspotPlugin(options) {
+      const settings = $.extend({}, options);
+
+      const $root = $(this);
+      if ($root.length === 0) return this;
+
+      $root.each(function init() {
+        const $stage = $(this);
+
+        const $layer = $("<div/>", { class: "hs-layer" }).css({
+          position: "absolute",
+          inset: 0,
+        });
+
+        $stage.append($layer);
+
+        function getEmPx(el) {
+          const size = parseFloat(window.getComputedStyle(el).fontSize || "16");
+          return Number.isFinite(size) ? size : 16;
+        }
+
+        function clampPopoverWithinStage(popEl, stageRect, spacingPx) {
+          const rect = popEl.getBoundingClientRect();
+          const pad = spacingPx;
+          let nudgeX = 0;
+          let nudgeY = 0;
+          if (rect.left < stageRect.left + pad)
+            nudgeX = stageRect.left + pad - rect.left;
+          if (rect.right > stageRect.right - pad)
+            nudgeX = -(rect.right - (stageRect.right - pad));
+          if (rect.top < stageRect.top + pad)
+            nudgeY = stageRect.top + pad - rect.top;
+          if (rect.bottom > stageRect.bottom - pad)
+            nudgeY = -(rect.bottom - (stageRect.bottom - pad));
+          popEl.style.setProperty("--hs-nudge-x", nudgeX + "px");
+          popEl.style.setProperty("--hs-nudge-y", nudgeY + "px");
+        }
+
+        function chooseBestPlacement($popover, spacingPx) {
+          const preferred = "top";
+          const stageRect = {
+            left: 0,
+            top: 0,
+            right: window.innerWidth,
+            bottom: window.innerHeight,
+          };
+          const candidates = [preferred, "top", "right", "bottom", "left"];
+          for (const p of candidates) {
+            $popover.attr("data-placement", p);
+            $popover[0].style.setProperty("--hs-nudge-x", "0px");
+            $popover[0].style.setProperty("--hs-nudge-y", "0px");
+            const r = $popover[0].getBoundingClientRect();
+            const fits =
+              r.left >= stageRect.left + spacingPx &&
+              r.right <= stageRect.right - spacingPx &&
+              r.top >= stageRect.top + spacingPx &&
+              r.bottom <= stageRect.bottom - spacingPx;
+            if (fits) return p;
+          }
+          return preferred;
+        }
+
+        function layoutPopover($popover) {
+          const spacingPx = getEmPx($popover[0]);
+          $popover[0].style.setProperty("--hs-nudge-x", "0px");
+          $popover[0].style.setProperty("--hs-nudge-y", "0px");
+          $popover[0].offsetHeight;
+          const best = chooseBestPlacement($popover, spacingPx);
+          $popover.attr("data-placement", best);
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              const viewportRect = {
+                left: 0,
+                top: 0,
+                right: window.innerWidth,
+                bottom: window.innerHeight,
+              };
+              clampPopoverWithinStage($popover[0], viewportRect, spacingPx);
+            });
+          });
+        }
+
+        function createHotspot(h) {
+          const left = h.xPercent;
+          const top = h.yPercent;
+          const placement = h.placement || "top";
+          const title = h.title || "Details";
+          const body = h.body || "";
+
+          const $node = $("<div/>", { class: "hs-node" }).css({
+            position: "absolute",
+            left: left + "%",
+            top: top + "%",
+          });
+
+          const $button = $("<button/>", {
+            class: "hs-dot",
+            type: "button",
+            "aria-expanded": "false",
+            "aria-haspopup": "dialog",
+            "aria-label": title,
+          }).css({ left: 0, top: 0 });
+
+          const $popover = $("<div/>", {
+            class: "hs-popover",
+            role: "dialog",
+            "aria-modal": "false",
+          }).attr("data-placement", placement);
+
+          $popover.append(
+            $("<h3/>", { class: "hs-popover__title", text: title }),
+            $("<p/>", { class: "hs-popover__body", text: body })
+          );
+
+          $node.append($button, $popover);
+          $layer.append($node);
+
+          function closeAll() {
+            $layer.find('.hs-dot[aria-expanded="true"]').each(function () {
+              $(this).attr("aria-expanded", "false");
+              const $popover = $(this).siblings(".hs-popover");
+              $popover[0].style.setProperty("--hs-nudge-x", "0px");
+              $popover[0].style.setProperty("--hs-nudge-y", "0px");
+            });
+          }
+
+          function toggle() {
+            const isOpen = $button.attr("aria-expanded") === "true";
+            closeAll();
+            $button.attr("aria-expanded", String(!isOpen));
+            if (!isOpen) {
+              layoutPopover($popover);
+            }
+          }
+
+          $button.on("click", toggle);
+          $button.on("keydown", function onKey(e) {
+            if (e.key === "Escape") {
+              $button.attr("aria-expanded", "false");
+              $button.trigger("blur");
+            }
+          });
+
+          $(document).on("click", function onDocClick(ev) {
+            if (!$node[0].contains(ev.target)) {
+              $button.attr("aria-expanded", "false");
+              $popover[0].style.setProperty("--hs-nudge-x", "0px");
+              $popover[0].style.setProperty("--hs-nudge-y", "0px");
+            }
+          });
+
+          $(window).on("resize", function () {
+            if ($button.attr("aria-expanded") === "true") {
+              layoutPopover($popover);
+            }
+          });
+        }
+
+        let $hotspotSpans = $stage.find("> .hs-hotspot");
+        if ($hotspotSpans.length === 0) {
+          $hotspotSpans = $stage.find("> .hotspots > .hs-hotspot");
+        }
+        const hotspots = [];
+
+        $hotspotSpans.each(function () {
+          const $span = $(this);
+          hotspots.push({
+            xPercent: parseFloat($span.data("x")),
+            yPercent: parseFloat($span.data("y")),
+            title: $span.data("title") || "Details",
+            body: $span.data("body") || "",
+            placement: $span.data("placement") || "top",
+          });
+        });
+
+        hotspots.forEach(createHotspot);
+
+        $stage.on("hotspot:update", function handleUpdate(_, nextOptions) {
+          const merged = $.extend({}, settings, nextOptions);
+          $stage.hotspot(merged);
+        });
+
+        $layer.on("click", function (e) {
+          if (!(e.altKey || e.metaKey)) return;
+          if ($(e.target).closest(".hs-dot, .hs-popover").length > 0) return;
+          const rect = $layer[0].getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const xPercent = Math.round((x / rect.width) * 1000) / 10;
+          const yPercent = Math.round((y / rect.height) * 1000) / 10;
+          console.log("Hotspot coords:", { xPercent, yPercent });
+        });
+      });
+
+      return this;
+    };
+  })(jQuery);
+</script>
+
+<script>
+  $(function initHotspots() {
+    $(".hs-stage").hotspot();
+  });
+</script>
+
+<script>
+const params = new URLSearchParams(location.search);
+
+const ttclid = params.get("ttclid");
+if (ttclid) localStorage.setItem("ttclid", ttclid);
+
+const oppref = params.get("oppref");
+if (oppref) localStorage.setItem("oppref", oppref);
+</script>
+
+<script>
+  const BADGE_SEL = "#cart-badge, .cart-badge, [data-cart-badge]";
+  const CART_ICON_SEL = "a.icon-button-cart";
+  const ADD_SEL = '[data-fsc-action="Add"]';
+  const REMOVE_SEL = '[data-fsc-action="Remove"]';
+  const RESET_SEL = '[data-fsc-action="Reset"]';
+  const CHECKOUT_SEL = ".button-cart-checkout";
+
+  window.__lastCartCount =
+    typeof window.__lastCartCount === "number"
+      ? window.__lastCartCount
+      : undefined;
+  window.__openCartIntentUntil = window.__openCartIntentUntil || undefined;
+
+  function showLoading(el) {
+    if (el) el.classList.add("is-loading");
+  }
+  function hideLoading(el) {
+    if (el) el.classList.remove("is-loading");
+  }
+
+  function clearLoaders(sel) {
+    document.querySelectorAll(sel + ".is-loading").forEach((btn) => {
+      btn.classList.remove("is-loading");
+      delete btn.dataset.fsPath;
+    });
+  }
+
+  function setCheckoutEnabled(enabled) {
+    document.querySelectorAll(CHECKOUT_SEL).forEach((btn) => {
+      if (!enabled) {
+        btn.setAttribute("disabled", "");
+        btn.setAttribute("aria-disabled", "true");
+        btn.classList.add("is-disabled");
+      } else {
+        btn.removeAttribute("disabled");
+        btn.setAttribute("aria-disabled", "false");
+        btn.classList.remove("is-disabled");
+      }
+    });
+  }
+
+  document.addEventListener(
+    "click",
+    (e) => {
+      const el = e.target.closest(CHECKOUT_SEL);
+      if (!el) return;
+      const disabled =
+        el.hasAttribute("disabled") ||
+        el.classList.contains("is-disabled") ||
+        el.getAttribute("aria-disabled") === "true";
+      if (disabled) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+    },
+    true
+  );
+
+  function setBadgeCount(count) {
+    const badges = document.querySelectorAll(BADGE_SEL);
+    badges.forEach((badge) => {
+      badge.textContent = count;
+      hideLoading(badge);
+      badge.classList.toggle("has-items", count > 0);
+      badge.setAttribute("aria-live", "polite");
+      badge.setAttribute("aria-label", `${count} items in cart`);
+      try {
+        window.__cartBadge?.hideLoading?.(badge);
+      } catch (err) {
+        console.error("Error hiding loading state for badge:", err);
+      }
+    });
+  }
+
+  function dataLayerPush(event, items, params = {}, user = {}) {
+    dataLayer = window.dataLayer || [];
+    dataLayer.push({ecommerce: null});
+    dataLayer.push({
+      event,
+      ecommerce: {
+        ...params,
+        items: items.map(function(i) {
+          let category =
+            i.path.includes("exp")    ? "Preset Pack" :
+            i.path.includes("bundle") ? "Audio Plugin Bundle" :
+                                        "Audio Plugin";
+
+          return {
+            item_name: i.display,
+            item_id: i.path,
+            item_category: category,
+            price: i.totalValue,
+            quantity: i.quantity
+          };
+        })
+      },
+      user_data: user
+    });
+  }
+
+  const SESSION_KEY = 'fs-session-start';
+  const SESSION_TTL = 1000 * 60 * 60; // 1hr
+
+  function ensureFreshSession() {
+    const start = Number(localStorage.getItem(SESSION_KEY)) || 0;
+    if (start !== 0 && Date.now() - start > SESSION_TTL) {
+      ['deal-active', 'fs-cart-paths'].forEach(k => localStorage.removeItem(k));
+    }
+    localStorage.setItem(SESSION_KEY, String(Date.now())); // always refresh
+  }
+
+  function fsUpdateBadge(data) {
+    ensureFreshSession();
+
+    window.__lastFsData = data;
+
+    const isMobile = () => window.matchMedia("(max-width: 991px)").matches;
+
+    const isCatalogPage = () => {
+      const CATALOG_PAGES = [
+        /^\/$/i,
+        /^\/all-products\/?$/i,
+        /^\/atoms-expansion-packs\/?$/i,
+        /^\/ba1-expansion-packs\/?$/i,
+        /^\/tekno-expansion-packs\/?$/i,
+        /^\/grainferno-expansion-packs\/?$/i,
+      ];
+
+      try {
+        const path = location.pathname.replace(/(?<=.)\/+$/, "");
+        return CATALOG_PAGES.some((rx) => rx.test(path));
+      } catch {
+        return false;
+      }
+    }
+
+    const isCheckoutPage = () => {
+      return /^\/checkout/i.test(location.pathname) || /^\/admin\/checkout-test/i.test(location.pathname);
+    }
+
+    async function applyCustomDeals(data) {
+      const items = data?.groups?.[0]?.items ?? [];
+      const selected = items.filter(i => i.selected);
+
+      payload = {
+        currency: data?.currency,
+        paths: selected.map(i => i.pid)
+      };
+
+      const res = await fetch("https://ba-website-backend.vercel.app/api/deals/b2g1", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(`/api/deals/b2g1 error: ${res.status}: ${text}`);
+      }
+
+      return res.json();
+    }
+
+    async function clearCustomDeals(data) {
+      const items = data?.groups?.[0]?.items ?? [];
+      const selected = items.filter(i => i.selected);
+
+      payload = {
+        currency: data?.currency,
+        paths: selected.map(i => i.pid)
+      };
+
+      const res = await fetch("https://ba-website-backend.vercel.app/api/deals/clear", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(`/api/deals/clear error: ${res.status}: ${text}`);
+      }
+
+      return res.json();
+    }
+
+    const DEALS_KEY = 'deal-active';
+
+    function getDealActive() {
+      try {
+        const raw = localStorage.getItem(DEALS_KEY);
+        return raw ? JSON.parse(raw) : false;
+      } catch (e) {
+        console.log('Error reading deal active: ', e);
+        return false;
+      }
+    }
+
+    function setDealActive(status) {
+      try {
+        localStorage.setItem(DEALS_KEY, JSON.stringify(status));
+      } catch (e) {
+        console.log('Error setting deal active: ', e);
+      }
+    }
+
+    const CART_KEY = 'fs-cart-paths';
+
+    function getStoredPaths() {
+      try {
+        const raw = localStorage.getItem(CART_KEY);
+        return raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        console.log('Error reading stored paths: ', e);
+        return [];
+      }
+    }
+
+    function saveStoredPaths(paths) {
+      try {
+        localStorage.setItem(CART_KEY, JSON.stringify(paths));
+      } catch (e) {
+        console.log('Error saving stored paths: ', e);
+      }
+    }
+
+    function storeDiscounts(items) {
+      const DISCOUNT_KEY = 'fs-discounts';
+      const discounts = {};
+      items.forEach(i => {
+        discounts[i.path] = i.discountTotalValue;
+      });
+      localStorage.setItem(DISCOUNT_KEY, JSON.stringify(discounts));
+    }
+
+    function storeItemMeta(items) {
+      const KEY = 'fs-item-meta';
+      const existing = JSON.parse(localStorage.getItem(KEY) || '{}');
+      const meta = {};
+      items.forEach(i => {
+        meta[i.path] = {
+          discount: i.discountTotalValue,
+          item_revenue_source: existing[i.path]?.item_revenue_source ?? (location.pathname === '/checkout' ? '/account' : location.pathname)
+        };
+      });
+      localStorage.setItem(KEY, JSON.stringify(meta));
+    }
+
+    (function handleCartChange(data) {
+      const items = (data?.groups?.[0]?.items ?? []);
+      const selected = items.filter(i => i.selected);
+
+      storeItemMeta(selected);
+
+      const previousPaths = getStoredPaths();
+      const currentPaths = selected.map(i => i.path);
+
+      const addedPaths = currentPaths.filter(p => !previousPaths.includes(p));
+      const removedPaths = previousPaths.filter(p => !currentPaths.includes(p));
+
+      const addedItems = [];
+      const removedItems = [];
+
+      dataLayer = window.dataLayer || [];
+
+      addedPaths.forEach(path => {
+        const item = selected.find(i => i.path === path);
+        if (!item) return;
+
+        addedItems.push({
+          display: item.display,
+          path: item.path,
+          totalValue: item.totalValue,
+          quantity: item.quantity
+        });
+      });
+
+      if (addedItems.length) {
+        const addValue = addedItems
+          .reduce((sum, i) => sum + (i.totalValue * i.quantity), 0).toFixed(2);
+        
+        dataLayerPush('add_to_cart', addedItems, {currency: data.currency, value: Number(addValue), ecomm_pagetype: 'product'});
+      }
+
+      removedPaths.forEach(path => {
+        const item = items.find(i => i.path === path);
+        if (!item) return;
+
+        removedItems.push({
+          display: item.display,
+          path: item.path,
+          totalValue: item.totalValue,
+          quantity: item.quantity
+        });
+      });
+
+      if (removedItems.length) {
+        const removeValue = removedItems
+          .reduce((sum, i) => sum + (i.totalValue * i.quantity), 0).toFixed(2);
+        
+        if (window.location.pathname !== '/order-thank-you') {
+          dataLayerPush('remove_from_cart', removedItems, {currency: data.currency, value: Number(removeValue), ecomm_pagetype: 'product'});
+        }
+      }
+
+      saveStoredPaths(currentPaths);
+
+      let paths = getStoredPaths();
+
+      const notif = document.querySelector(".cart-notif");
+      const originalHTML = `
+        <strong class="bold-text" style="color:#f5f5f6;">Buy 2 Get 1 Free</strong>
+        <br>
+        Add 3 products to the cart and get the cheapest for free at checkout.
+      `;
+      const activeHTML = `
+        <strong class="bold-text" style="color:#f5f5f6;">
+          Buy 2 Get 1 Free - <span style="color:#4eff93;">Deal Active!</span>
+        </strong>
+        <br>
+        Add 3 products to the cart and get the cheapest for free at checkout.
+      `;
+
+      if (notif) notif.innerHTML = paths.length >= 3 ? activeHTML : originalHTML;
+
+      const qs = new URLSearchParams(location.search);
+
+      const hasInvalidFreeItem = selected.length < 3 && selected.some(i => i.totalValue === 0);
+
+      if (isCheckoutPage() && paths.length >= 3 && !getDealActive() && !qs.has("items")) {
+        let res = applyCustomDeals(data);
+        res.then(r => {
+          if (r.apply) {
+            fastspring.builder.secure(r.securePayload, r.secureKey);
+
+            const notif = document.querySelector(".deal-notif-checkout");
+            if (notif) {
+              notif.style.display = "block";
+            }
+
+            setDealActive(true);
+          }
+        }).catch(err => {
+          console.error('Error fetching custom deal:', err);
+        });
+      } else if ((!isCheckoutPage() && getDealActive()) || (isCheckoutPage() && hasInvalidFreeItem)) {
+        let res = clearCustomDeals(data);
+        res.then(r => {
+          fastspring.builder.secure(r.securePayload, r.secureKey);
+
+          setDealActive(false);
+        }).catch(err => {
+          console.error('Error fetching custom deal:', err);
+        });
+      }
+    })(data);
+
+    window.__fsViewItemSent = window.__fsViewItemSent || false;
+    (function handleViewItem(data) {
+      if (window.__fsViewItemSent) return;
+
+      const pathEl = document.getElementById('fs-path');
+      if (!pathEl) return;
+
+      const path = pathEl.textContent.trim();
+
+      const items = (data?.groups?.[0]?.items ?? []);
+      const item = items.filter(i => i.path === path);
+
+      dataLayerPush('view_item', item, {currency: data.currency, value: item.totalValue, ecomm_pagetype: 'product'});
+
+      window.__fsViewItemSent = true;
+    })(data);
+
+    window.__fsViewItemListSent = window.__fsViewItemListSent || false;
+    (function handleViewItemList(data) {
+      if (window.__fsViewItemListSent) return;
+
+      const pathsEl = document.getElementById('fs-paths');
+      const catalogIdEl = document.getElementById('catalog-id');
+      const catalogNameEl = document.getElementById('catalog-name');
+      if (!pathsEl || !catalogIdEl || !catalogNameEl) return;
+
+      const paths = pathsEl.textContent.trim();
+      const catalogId = catalogIdEl.textContent.trim();
+      const catalogName = catalogNameEl.textContent.trim();
+
+      const items = (data?.groups?.[0]?.items ?? []);
+
+      const isExpansion = (p) => p.includes("-exp-");
+      const pageHasExpansion = paths.includes("-exp-");
+
+      const filtered = items.filter((i) => {
+        if (!paths.includes(i.path)) return false;
+
+        if (pageHasExpansion && !isExpansion(i.path)) return false;
+
+        return true;
+      });
+
+      dataLayerPush('view_item_list', filtered, {currency: data.currency, item_list_id: catalogId, item_list_name: catalogName, ecomm_pagetype: 'category'});
+
+      window.__fsViewItemListSent = true;
+    })(data);
+
+    window.__fsBeginCheckoutSent = window.__fsBeginCheckoutSent || false;
+    (function handleBeginCheckout(data) {
+      if (isCheckoutPage() && !window.__fsBeginCheckoutSent) {
+        const items = (data?.groups?.[0]?.items ?? []).filter(i => i.selected);
+        dataLayerPush('begin_checkout', items, {currency: data.currency, value: data.totalValue, ecomm_pagetype: 'basket'});
+      }
+
+      window.__fsBeginCheckoutSent = true;
+    })(data);
+
+    const count = (data?.groups?.[0]?.items ?? []).filter(
+      (i) => i.selected
+    ).length;
+    setBadgeCount(count);
+
+    setCheckoutEnabled(count > 0);
+
+    const total = data?.total;
+    window.__lastCartTotal = total;
+    window.updateCartPill?.({ count, total });
+
+    try {
+      const intentActive =
+        typeof window.__openCartIntentUntil === "number" &&
+        Date.now() < window.__openCartIntentUntil;
+      if (intentActive) {
+        if (isMobile()) {
+          if (isCatalogPage()) {
+            window.showCartPill?.();
+          } else {
+            setTimeout(() => {
+              window.openCartIfClosed();
+            }, 300);
+          }
+        } else {
+          window.hideCartPill?.();
+          window.openCartIfClosed();
+        }
+        window.__openCartIntentUntil = undefined;
+      }
+    } catch (err) {
+      console.error("Error attempting to open cart on add:", err);
+    }
+
+    try {
+      localStorage.setItem(
+        "cart-count",
+        JSON.stringify({ c: count, t: Date.now() })
+      );
+    } catch (err) {
+      console.error("Error persisting cart count to localStorage:", err);
+    }
+
+    [ADD_SEL, REMOVE_SEL, RESET_SEL].forEach(clearLoaders);
+
+    window.__lastCartCount = count;
+
+    try {
+      const items = (data?.groups?.[0]?.items || []).filter((i) => i.selected);
+      const has = (id) => items.some((i) => i.path && i.path.includes(id));
+
+      const xsellRoot = document.querySelector(".section-card-grid-cross-sell");
+
+      if (xsellRoot) {
+        if (has("BA-1") || has("atoms") || has("Tekno") || has("Grainferno")) {
+          xsellRoot.style.display = "block";
+        } else {
+          xsellRoot.style.display = "none";
+        }
+      }
+    } catch (err) {
+      console.warn("x-sell update failed:", err);
+    }
+
+    pushSessionFromQueryParams();
+
+    if (window.__fsQuerySessionApplied && !isCheckoutPage()) {
+      window.openCartIfClosed();
+    }
+  }
+
+  function getCookie(name) {
+    const match = document.cookie.match(new RegExp("(^| )" + name + "=([^;]+)"));
+    return match ? match[2] : "";
+  }
+
+  async function pushSessionFromQueryParams() {
+    if (window.__fsQuerySessionApplied) return;
+
+    const qs = new URLSearchParams(location.search);
+    const items = qs.get("items");
+    const coupon = qs.get("coupon");
+    if (!items) return;
+
+    const res = await fetch("https://ba-website-backend.vercel.app/api/fs/paths", {
+      method: "GET"
+    });
+
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`/api/fs/paths error: ${res.status}: ${text}`);
+    }
+    
+    const data = await res.json();
+    const allowed = data.paths;
+
+    const requested = items.split(",");
+
+    const allValid = requested.every(item => allowed.includes(item));
+
+    if (allValid) {
+      fastspring.builder.push({
+        reset: true,
+        products: requested.map(path => ({ path, quantity: 1 })),
+        ...(coupon ? { coupon } : {}),
+        tags: {
+          user_agent: navigator.userAgent,
+          _fbp: getCookie("_fbp"),
+          _fbc: getCookie("_fbc"),
+          _rdt_cid: getCookie("_rdt_cid"),
+          _gcl_aw: getCookie("_gcl_aw"),
+          _ga: getCookie("_ga").split('.').slice(-2).join('.'),
+          _ttp: getCookie("_ttp"),
+          ttclid: localStorage.getItem("ttclid") || "",
+          __obref: localStorage.getItem("__obref") || "",
+          oppref: localStorage.getItem("oppref") || ""
+        },
+      });
+
+      window.__fsQuerySessionApplied = true;
+    }
+  }
+
+  window.fsUpdateBadge = fsUpdateBadge;
+
+  (function primeFromCache() {
+    const badges = document.querySelectorAll(BADGE_SEL);
+    const raw = localStorage.getItem("cart-count");
+    if (!raw) {
+      badges.forEach((badge) => {
+        showLoading(badge);
+      });
+      setCheckoutEnabled(false);
+      return;
+    }
+    const { c, t } = JSON.parse(raw);
+    if (typeof c === "number" && Date.now() - t < 5 * 60 * 1000) {
+      setBadgeCount(c);
+      window.__lastCartCount = c;
+      setCheckoutEnabled(c > 0);
+    } else {
+      badges.forEach((badge) => {
+        showLoading(badge);
+      });
+      setCheckoutEnabled(false);
+    }
+  })();
+</script>
+
+<script>
+  (function () {
+    const cartPill = document.querySelector(".cart-pill");
+    const btn = document.querySelector(".button-cart-mobile");
+    const cartPillOpenBtn = document.querySelector(".button-pill-open");
+    const cartPillCloseBtn = document.querySelector(".button-pill-close");
+
+    if (cartPill) cartPill.setAttribute("aria-hidden", "true");
+
+    function isMobile() {
+      return window.matchMedia("(max-width: 991px)").matches;
+    }
+
+    window.showCartPill = function () {
+      if (!cartPill || !btn) return;
+
+      if (
+        cartPill.getAttribute("aria-hidden") === "false" ||
+        window.cartIsOpen()
+      )
+        return;
+      if (typeof window.__lastCartTotal !== "string") return;
+      cartPill.setAttribute("aria-hidden", "false");
+      cartPillOpenBtn?.click();
+    };
+
+    window.hideCartPill = function () {
+      if (!cartPill || !btn) return;
+
+      if (cartPill.getAttribute("aria-hidden") === "true") return;
+      cartPill.setAttribute("aria-hidden", "true");
+      cartPillCloseBtn?.click();
+    };
+
+    window.updateCartPill = function ({ count, total }) {
+      if (!cartPill || !btn) return;
+
+      btn.textContent = `View Cart - ${total}`;
+
+      if (isMobile() && count > 0) {
+        window.showCartPill?.();
+      } else {
+        window.hideCartPill?.();
+      }
+    };
+
+    btn?.addEventListener("click", function () {
+      window.openCartIfClosed();
+    });
+
+    window.addEventListener("resize", function () {
+      if (!isMobile()) {
+        window.hideCartPill?.();
+      }
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    const sidebar = document.querySelector(".cart-sidebar");
+    if (!sidebar) return;
+
+    const BADGE_SEL = "#cart-badge, .cart-badge, [data-cart-badge]";
+    const CART_ICON_SEL = "a.icon-button-cart";
+
+    window.cartIsOpen = function() {
+      const r = sidebar.getBoundingClientRect();
+      const opaque = parseFloat(getComputedStyle(sidebar).opacity || "0") > 0.2;
+      return r.left < window.innerWidth - 10 && opaque;
+    };
+
+    let lastCartOpen = window.cartIsOpen();
+
+    function handleCartStateChange() {
+      const nowOpen = window.cartIsOpen();
+      
+      if (nowOpen && !lastCartOpen) { pushViewCartEvent(); }
+
+      lastCartOpen = nowOpen;
+    }
+
+    function pushViewCartEvent() {
+      const data = window.__lastFsData;
+      if (!data) return;
+
+      const items = (data?.groups?.[0]?.items || []).filter((i) => i.selected);
+
+      dataLayerPush('view_cart', items, {currency: data.currency, value: data.totalValue, ecomm_pagetype: 'basket'});
+    }
+
+    function getCartIcons() {
+      return Array.from(document.querySelectorAll(CART_ICON_SEL)).filter(
+        (icon) => icon.querySelector(BADGE_SEL)
+      );
+    }
+
+    function getPrimaryCartIcon() {
+      const icons = getCartIcons();
+      if (icons && icons.length) return icons[0];
+      return document.querySelector(CART_ICON_SEL);
+    }
+    window.getPrimaryCartIcon = getPrimaryCartIcon;
+
+    window.openCartIfClosed = function () {
+      try {
+        if (window.cartIsOpen()) return;
+        const icon = getPrimaryCartIcon();
+        if (!icon) return;
+        icon.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
+      } catch (err) {
+        console.error("openCartIfClosed error:", err);
+      }
+    };
+
+    document.addEventListener("click", (e) => {
+      const btn = e.target.closest(ADD_SEL);
+      if (!btn) return;
+      window.__openCartIntentUntil = Date.now() + 4000;
+    });
+
+    document.addEventListener(
+      "click",
+      (e) => {
+        const icon = e.target.closest(CART_ICON_SEL);
+        if (!icon || !icon.querySelector(BADGE_SEL)) return;
+
+        if (window.cartIsOpen()) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          icon.classList.add("is-disabled");
+          setTimeout(() => icon.classList.remove("is-disabled"), 150);
+        }
+      },
+      true
+    );
+
+    function syncDisabledAll() {
+      const disabled = window.cartIsOpen();
+      getCartIcons().forEach((icon) => {
+        icon.toggleAttribute("aria-disabled", disabled);
+        icon.classList.toggle("cart-icon--disabled", disabled);
+      });
+    }
+
+    function syncPillWithSidebar() {
+      const isMobile = () => window.matchMedia("(max-width: 991px)").matches;
+      const count =
+        typeof window.__lastCartCount === "number" ? window.__lastCartCount : 0;
+
+      if (window.cartIsOpen()) { window.hideCartPill?.(); } else {
+        if (isMobile() && count > 0) { window.showCartPill?.(); }
+        else { window.hideCartPill?.(); }
+      }
+    }
+
+    new MutationObserver(function () {
+      syncDisabledAll();
+      syncPillWithSidebar();
+      handleCartStateChange();
+    }).observe(sidebar, {
+      attributes: true,
+      attributeFilter: ["style", "class"],
+    });
+
+    window.addEventListener("resize", function () {
+      syncDisabledAll();
+      syncPillWithSidebar();
+      handleCartStateChange();
+    });
+
+    new MutationObserver(syncDisabledAll).observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+    });
+
+    syncDisabledAll();
+    handleCartStateChange();
+  })();
+</script>
+
+<script>
+  $(document).ready(function () {
+    var $header = $(".page-header");
+    var $wrapper = $(".page-header-wrapper");
+
+    if ($header.length === 0 || $wrapper.length === 0) return;
+
+    $(window).on("scroll", function () {
+      var wrapperTop = $wrapper.offset().top;
+      var scrollTop = $(window).scrollTop();
+
+      if (scrollTop >= wrapperTop) {
+        $header.addClass("is-sticky");
+      } else {
+        $header.removeClass("is-sticky");
+      }
+    });
+  });
+</script></body></html>

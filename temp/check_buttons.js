@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/best-microphone.html', 'utf8');
+const m = h.match(/data-shop[^>]*/g);
+console.log('data-shop attrs:', m ? m.slice(0, 3).join(' | ') : 'ninguno');
+const m2 = h.match(/shop-btn[^>]*/g);
+console.log('shop-btn:', m2 ? m2.slice(0, 2).join(' | ') : 'ninguno');
+const m3 = h.match(/class="[^"]*btn[^"]*"[^>]*>[^<]*<\/a>/g);
+console.log('botones:', m3 ? m3.slice(0, 3).join(' | ') : 'ninguno');
+const m4 = h.match(/tmg-offers[^;]*/g);
+console.log('tmg-offers:', m4 ? m4.slice(0, 2).join(' | ') : 'ninguno');

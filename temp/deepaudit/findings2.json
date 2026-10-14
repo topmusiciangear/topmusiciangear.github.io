@@ -1,0 +1,372 @@
+[
+  {
+    "id": "guitar-pedals",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "intro",
+        "snippet": "more options thany amplifier alone",
+        "note": "\"thany\" is a typo — missing space and missing word. Should be \"than any\" or \"than your\".",
+        "fix": "more options than any amplifier alone"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "sections[0].content",
+        "snippet": "the BossD-1 ($50)",
+        "note": "Missing space between brand and model. Should be \"Boss SD-1\" (the pedal is the SD-1, not D-1).",
+        "fix": "the Boss SD-1 ($50)"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "conclusion",
+        "snippet": "overdrive (BossD-1)",
+        "note": "Same missing space + wrong model name as in sections.",
+        "fix": "overdrive (Boss SD-1)"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "verdict",
+        "snippet": "Boss SD-1 for overdrive, Boss CE-2W for modulation, Boss DD-8 for delay, TC Electronic PolyTune 3 for tuning, Strymon Timeline for premium delay.",
+        "note": "Verdict uses correct \"Boss SD-1\" but the content and conclusion use \"BossD-1\" — internal inconsistency.",
+        "fix": "Verify content and conclusion match the verdict's \"Boss SD-1\"."
+      }
+    ]
+  },
+  {
+    "id": "acoustic-guitars-guide",
+    "status": "ok"
+  },
+  {
+    "id": "live-sound-pa",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en-duplicate-link",
+        "path": "sections[0].content",
+        "snippet": "Best PA speakers</a> <a class=\"guide-link-btn\" href=\"/guides/best-pa-speakers.html\">Best PA speakers</a>",
+        "note": "The same \"Best PA speakers\" link appears twice consecutively in the English content.",
+        "fix": "Remove one of the duplicate links."
+      }
+    ]
+  },
+  {
+    "id": "daw-guide",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "featuredSnippet.faq_a1_en",
+        "snippet": "what you want to makee",
+        "note": "Double 'e' at end of \"makee\" — should be \"make\".",
+        "fix": "what you want to make"
+      },
+      {
+        "severity": "medium",
+        "type": "es-untranslated",
+        "path": "sections[0].content_es",
+        "snippet": "Best DAW for beginners</a>",
+        "note": "This English text is not translated to Spanish in the ES version of the link text.",
+        "fix": "Mejor DAW para principiantes</a>"
+      }
+    ]
+  },
+  {
+    "id": "midi-keyboards",
+    "status": "ok"
+  },
+  {
+    "id": "budget-interfaces",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[0].content",
+        "snippet": "worth more thany single hardware spec",
+        "note": "\"thany\" — missing space and missing word. Should be \"than any\".",
+        "fix": "worth more than any single hardware spec"
+      },
+      {
+        "severity": "high",
+        "type": "en-missing-data",
+        "path": "conclusion",
+        "snippet": "Audient iD14 MkII ( each)",
+        "note": "Price placeholder is empty — the parenthetical is missing the actual price value.",
+        "fix": "Audient iD14 MkII (about $299 each) or similar with the actual price."
+      },
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "featuredSnippet.faq_a1_en",
+        "snippet": "nothing It is easier",
+        "note": "Capital \"I\" in \"It\" mid-sentence — should be lowercase \"nothing is easier\".",
+        "fix": "nothing is easier"
+      },
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "featuredSnippet.faq_a4_en",
+        "snippet": "The Scarlett less is the smarter buy",
+        "note": "\"less\" should be \"2i2\" — likely a typo or auto-correct error.",
+        "fix": "The Scarlett 2i2 is the smarter buy"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "conclusion",
+        "snippet": "the Scarlett 2i2 is the safest bet",
+        "note": "Conclusion sentence starts with lowercase \"the\" — should be capitalized.",
+        "fix": "The Scarlett 2i2 is the safest bet"
+      }
+    ]
+  },
+  {
+    "id": "vocal-plugins",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "high",
+        "type": "en-typo",
+        "path": "intro",
+        "snippet": "more ththe mic",
+        "note": "\"ththe\" — missing space. Should be \"than the mic\".",
+        "fix": "more than the mic"
+      },
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[5].content",
+        "snippet": "The WavesSL G-Master Buss Compressor",
+        "note": "Missing space between \"Waves\" and \"SSL\" — should be \"Waves SSL\".",
+        "fix": "The Waves SSL G-Master Buss Compressor"
+      },
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "conclusion",
+        "snippet": "The WavesSL G-Master glues everything",
+        "note": "Same missing space as in the section content.",
+        "fix": "The Waves SSL G-Master glues everything"
+      },
+      {
+        "severity": "low",
+        "type": "en-inconsistency",
+        "path": "sections[1].content vs featuredSnippet.faq_a1_en",
+        "snippet": "Pro-Q 3 is the best EQ ever made (section) vs Pro-Q 4 for surgical EQ (FAQ)",
+        "note": "FabFilter plugin version numbers are inconsistent between the section content (Pro-Q 3, Pro-C 2) and the FAQ (Pro-Q 4, Pro-C 3). The ES content uses Pro-Q 4/Pro-C 3. Should be consistent — likely the FAQ is correct (newer versions).",
+        "fix": "Update section content to use Pro-Q 4 and Pro-C 3 to match FAQ and ES."
+      }
+    ]
+  },
+  {
+    "id": "beginner-guitar",
+    "status": "ok"
+  },
+  {
+    "id": "sm57-vs-sm58",
+    "status": "ok"
+  },
+  {
+    "id": "scarlett-vs-ssl",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[0].content",
+        "snippet": "better preamps ththe Scarlett 2i2",
+        "note": "\"ththe\" — missing space. Should be \"than the\".",
+        "fix": "better preamps than the Scarlett 2i2"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "sections[3].content",
+        "snippet": " the Scarlett 2i2 is the best value",
+        "note": "Verdict section starts with a space before \"the\" — minor formatting.",
+        "fix": "The Scarlett 2i2 is the best value"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "conclusion",
+        "snippet": "After testing both. The Scarlett stays",
+        "note": "Sentence fragment — \"After testing both.\" should flow into the next sentence or be restructured.",
+        "fix": "After testing both, the Scarlett stays in my travel bag."
+      }
+    ]
+  },
+  {
+    "id": "dt770-vs-dt990",
+    "status": "ok"
+  },
+  {
+    "id": "hs8-vs-rokit-7",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "intro",
+        "snippet": "under--per-pair range",
+        "note": "Double dash with no price value — should include the actual price like \"under $700 per pair\".",
+        "fix": "under $700 per-pair range (verify actual price threshold)"
+      },
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[2].content",
+        "snippet": "reaches deeper bass (38Hz) ththe KRK",
+        "note": "\"ththe\" — missing space. Should be \"than the\".",
+        "fix": "reaches deeper bass (38Hz) than the KRK"
+      },
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[2].content",
+        "snippet": "extended low end c be a problem",
+        "note": "\"c be\" — should be \"can be\".",
+        "fix": "extended low end can be a problem"
+      }
+    ]
+  },
+  {
+    "id": "m50x-vs-mdr7506",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[1].content",
+        "snippet": "cost far less ththe M50x's",
+        "note": "\"ththe\" — missing space. Should be \"than the\".",
+        "fix": "cost far less than the M50x's"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "sections[1].content",
+        "snippet": "If consider a reliable reference",
+        "note": "Missing word — should be \"If you consider\".",
+        "fix": "If you consider a reliable reference"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "sections[3].content",
+        "snippet": " the ATH-M50x is the better choice",
+        "note": "Verdict starts with a space before \"the\".",
+        "fix": "The ATH-M50x is the better choice"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "sections[3].content",
+        "snippet": " the MDR-7506 is the better value",
+        "note": "Second verdict paragraph starts with a space before \"the\".",
+        "fix": "The MDR-7506 is the better value"
+      }
+    ]
+  },
+  {
+    "id": "best-electric-guitar",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "sections[0].content",
+        "snippet": "Squier Classic Vibe '60stratocaster",
+        "note": "Missing space between '60s and Stratocaster. Should be \"'60s Stratocaster\".",
+        "fix": "Squier Classic Vibe '60s Stratocaster"
+      },
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "conclusion",
+        "snippet": "you calways upgrade later",
+        "note": "\"calways\" — should be \"can always\".",
+        "fix": "you can always upgrade later"
+      }
+    ]
+  },
+  {
+    "id": "best-keyboard",
+    "status": "ok"
+  },
+  {
+    "id": "best-drum-machine",
+    "status": "ok"
+  },
+  {
+    "id": "apollo-vs-babyface",
+    "status": "ok"
+  },
+  {
+    "id": "scarlett-vs-volt",
+    "status": "ok"
+  },
+  {
+    "id": "audient-vs-motu",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "low",
+        "type": "en-typo",
+        "path": "conclusion",
+        "snippet": "Scarlett 2i2 vsSL 2+",
+        "note": "Missing space between \"vs\" and \"SSL\". Should be \"Scarlett 2i2 vs SSL 2+\".",
+        "fix": "Scarlett 2i2 vs SSL 2+"
+      },
+      {
+        "severity": "low",
+        "type": "es-typo",
+        "path": "title_es",
+        "snippet": "duelo de interfaces uSB-c",
+        "note": "Lowercase \"m2\" should be \"M2\" and \"uSB-c\" should be \"USB-C\".",
+        "fix": "duelo de interfaces USB-C"
+      }
+    ]
+  },
+  {
+    "id": "rme-vs-motu",
+    "status": "issues",
+    "issues": [
+      {
+        "severity": "medium",
+        "type": "en-typo",
+        "path": "sections[0].content",
+        "snippet": "more thany interface in its class",
+        "note": "\"thany\" — missing space and missing word. Should be \"than any\".",
+        "fix": "more than any interface in its class"
+      }
+    ]
+  },
+  {
+    "id": "adam-vs-genelec",
+    "status": "ok"
+  },
+  {
+    "id": "jbl-vs-kali",
+    "status": "ok"
+  },
+  {
+    "id": "hd490-pro-vs-dt990",
+    "status": "ok"
+  },
+  {
+    "id": "m50x-vs-dt770",
+    "status": "ok"
+  },
+  {
+    "id": "k371-vs-mdr7506",
+    "status": "ok"
+  }
+]

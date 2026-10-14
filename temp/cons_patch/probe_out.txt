@@ -1,0 +1,45 @@
+﻿1856: }
+1857: 
+1858: function ko(strings, ...values) {
+1859:   return strings.reduce((acc, s, i) => acc + s + (values[i] || ''), '');
+1860: }
+1861: 
+1862: // ===== GENERATE =====
+1863: const outDir = path.join(dir, 'guides');
+1864: if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
+1865: 
+1866: guides.forEach((guide, idx) => {
+1867:   ['en', 'es'].forEach(lang => {
+1868:     const html = buildGuidePage(guide, lang, idx);
+1869:     const filename = lang === 'es' ? `${guide.id}_es.html` : `${guide.id}.html`;
+1870:     fs.writeFileSync(path.join(outDir, filename), html, 'utf8');
+1871:     console.log(`Generated: guides/${filename}`);
+1872:   });
+1873: });
+1874: 
+1875: // ===== GENERATE SITEMAP =====
+1876: function buildSitemap() {
+1877:   const site = 'https://topmusiciangear.com';
+1878:   const staticPages = [
+1879:     { loc: '/', priority: '1.0', changefreq: 'weekly' },
+1880:     { loc: '/about.html', priority: '0.7', changefreq: 'monthly' },
+1881:     { loc: '/contact.html', priority: '0.5', changefreq: 'monthly' },
+1882:     { loc: '/affiliate-disclosure.html', priority: '0.4', changefreq: 'monthly' },
+1883:     { loc: '/cookie-policy.html', priority: '0.4', changefreq: 'monthly' },
+1884:     { loc: '/terms.html', priority: '0.4', changefreq: 'monthly' },
+1885:     { loc: '/privacy-policy.html', priority: '0.4', changefreq: 'monthly' },
+1886:     { loc: '/404.html', priority: '0.1', changefreq: 'monthly' }
+1887:   ];
+1888:   var urls = staticPages.map(p => `<url><lastmod>${today}</lastmod><loc>${site}${p.loc}</loc><changefreq>${p.changefreq}</changefreq><priority>${p.pri
+1889:   guides.forEach((guide, idx) => {
+1890:     var d = guideDates(guide, idx).modified;
+1891:     ['', '_es'].forEach(sfx => {
+1892:       urls.push(`<url><lastmod>${d}</lastmod><loc>${site}/guides/${guide.id}${sfx}.html</loc><changefreq>monthly</changefreq><priority>0.8</priority><
+1893:     });
+1894:   });
+1895:   var xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>'
+1896:   fs.writeFileSync(path.join(dir, 'sitemap.xml'), xml, 'utf8');
+1897:   console.log('Generated: sitemap.xml (' + (urls.length) + ' URLs)');
+1898: }
+1899: buildSitemap();
+1900: 

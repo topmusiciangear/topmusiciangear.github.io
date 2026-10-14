@@ -1,0 +1,12 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const g = JSON.parse(fs.readFileSync(BASE + 'data/guides.json', 'utf8')).find(x => x.id === 'best-microphone');
+console.log('=== VERDICT ==='); console.log(g.verdict);
+console.log('\n=== VERDICT_ES ==='); console.log(g.verdict_es);
+const dyn = (g.sections || []).find(x => x && x.heading === 'Dynamic Microphones: Dependable and Rugged');
+console.log('\n=== DYNAMIC ES (SM58?) ===');
+const i = dyn.content_es.indexOf('SM58');
+console.log(dyn.content_es.slice(Math.max(0, i - 120), i + 80));
+console.log('\n=== DYNAMIC EN (SM58?) ===');
+const j = dyn.content.indexOf('SM58');
+console.log(dyn.content.slice(Math.max(0, j - 120), j + 80));

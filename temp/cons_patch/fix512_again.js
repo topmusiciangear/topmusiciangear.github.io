@@ -1,0 +1,12 @@
+var fs=require('fs');
+var A=JSON.parse(fs.readFileSync('data/products.json','utf8'));
+var p=A.find(x=>x.id===512);
+console.log('before',p.img);
+p.img='https://r2.gear4music.com/media/91/914607/1200/preview.jpg';
+p.stores.gear4music='https://www.gear4music.com/Recording-and-Computers/Neumann-MT48-Premium-Audio-Interface/5E3S';
+if(!p.stores.amazon || p.stores.amazon.includes('B0BTGVGCJN')==false) p.stores.amazon='https://www.amazon.com/Neumann-MT-48-US-Connectivity/dp/B0BTGVGCJN';
+fs.writeFileSync('data/products.json', JSON.stringify(A,null,2),'utf8');
+console.log('after',p.img);
+var bg=fs.readFileSync('build-guides.js','utf8');
+if(bg.includes('512:')) console.log('512 entry exists');
+else console.log('512 missing - need to add');
