@@ -6086,12 +6086,16 @@ const TEST_SHOP_BTN = {
   },
   680: {
     prices: {
+      gear4music: "£170.00",
+      zzounds: "$259.00",
       andertons: "£159.00",
-      musicstore: "€202.30"
+      musicstore: "€199.00"
     },
     urls: {
-      andertons: "https://www.andertons.co.uk/squier-sonic-bronco-bass-guitar-black/",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Squier-Sonic-Bronco-Bass-IL-Black/art-BAS0012451-000"
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FSquier-Sonic-Bronco-Bass-Black%2F5E5O",
+      zzounds: "https://www.zzounds.com/item--SQU0373800?siid=334385",
+      andertons: "https://www.andertons.co.uk/squier-sonic-bronco-bass-guitar-black/?im_ref=RXMUIbRfWxyZTGWz-ZyhoTUcUkr1igXv5Sfr3I0&sharedid=&irpid=7292297&irgwc=1&afsrc=1",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Squier-Sonic-Bronco-Bass-IL-Black/art-BAS0012451-000?utm_source=awin&sv1=affiliate&sv_campaign_id=2891111&awc=63816_1792002030_39c2c8c452e5613efa90f53100a9b635&ProgramUUID=_FwKAQMErFkAAAGNPHB7dnnu"
     }
   },
   679: {
