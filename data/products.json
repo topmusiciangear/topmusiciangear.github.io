@@ -12942,9 +12942,14 @@
     "badge": "flagship",
     "desc": "1U 30x44 Thunderbolt/USB interface with 12 discrete 75dB pres and 6DSP+2FPGA running 50 FX at near-zero latency. AFC clocking, 130dB conversion, room correction, dual-host backup recording.",
     "desc_es": "Interfaz 1U 30x44 Thunderbolt/USB con 12 previos discretos de 75dB y 6DSP+2FPGA con 50 efectos en latencia casi cero. Reloj AFC, conversión 130dB, room correction, doble host de respaldo.",
-    "img": "https://en.antelopeaudio.com/wp-content/uploads/2026/06/Orion_Studio_SC_Front-1_new_logo.png",
-    "image": "https://en.antelopeaudio.com/wp-content/uploads/2026/06/Orion_Studio_SC_Front-1_new_logo.png",
-    "stores": {},
+    "img": "https://r2.gear4music.com/media/50/501201/1200/preview.jpg",
+    "image": "https://r2.gear4music.com/media/50/501201/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Antelope-Audio-Orion-Studio-Synergy-Core/33P8",
+      "zzounds": "https://www.zzounds.com/item--ANEORNSTDSYNCORE?siid=268656",
+      "andertons": "https://www.andertons.co.uk/antelope-audio-orion-studio-synergy-core/?search_query=Antelope%20Orion%20Studio%20Synergy%20Core",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/ANTELOPE-Orion-Studio-Synergy-Core/art-PCM0015924-000"
+    },
     "excludeStores": []
   }
 ]

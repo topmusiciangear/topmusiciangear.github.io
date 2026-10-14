@@ -6071,8 +6071,15 @@ const TEST_SHOP_BTN = {
   },
   677: {
     prices: {
+      zzounds: "$2,995.00",
+      andertons: "£2,039.00",
+      musicstore: "€2,399.00"
     },
     urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Antelope-Audio-Orion-Studio-Synergy-Core/33P8",
+      zzounds: "https://www.zzounds.com/item--ANEORNSTDSYNCORE?siid=268656",
+      andertons: "https://www.andertons.co.uk/antelope-audio-orion-studio-synergy-core/?search_query=Antelope%20Orion%20Studio%20Synergy%20Core",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/ANTELOPE-Orion-Studio-Synergy-Core/art-PCM0015924-000"
     }
   },
   675: {
