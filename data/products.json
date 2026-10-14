@@ -5625,11 +5625,11 @@
     "stores": {
       "zzounds": "https://www.zzounds.com/item--RODXCM50",
       "amazon": "https://www.amazon.com/dp/B0BF8ZVNWB",
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FRode-X-XCM-50-USB-Condenser-Microphone-For-Streamers-and-Gamers%2F5WWD"
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FRode-X-XCM-50-USB-Condenser-Microphone-For-Streamers-and-Gamers%2F5WWD",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Rode-X-XCM-50/art-REC0016293-000"
     },
     "excludeStores": [
       "andertons",
-      "musicstore",
       "reverb"
     ],
     "oos": [
@@ -12799,5 +12799,30 @@
       "zzounds": "https://www.zzounds.com/item--SEENEOMUSB"
     },
     "oos": []
+  },
+  {
+    "id": 671,
+    "title": "Behringer FLOW 8",
+    "title_es": "Behringer FLOW 8",
+    "brand": "Behringer",
+    "category": "streaming",
+    "price": 199,
+    "badge": "value",
+    "img": "https://r2.gear4music.com/media/61/616453/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-FLOW-8-8-Channel-Digital-Mixer/3N67",
+      "amazon": "https://www.amazon.com/dp/B08NDBQM5W"
+    },
+    "excludeStores": [
+      "zzounds",
+      "musicstore",
+      "andertons",
+      "reverb"
+    ],
+    "oos": [
+      "gear4music"
+    ],
+    "desc": "Eight-input digital mixer with six 60 mm channel faders, two independent studio-grade FX engines and a 10x2 USB audio interface, controlled from the free FLOW app over Bluetooth.",
+    "desc_es": "Mezclador digital de ocho entradas con seis faders de canal de 60 mm, dos motores de efectos independientes de calidad estudio y una interfaz USB 10x2, controlable desde la app FLOW gratuita por Bluetooth."
   }
 ]

@@ -80028,6 +80028,15 @@
         "products": [
           663
         ]
+      },
+      {
+        "heading": "Behringer FLOW 8: What Six Faders and Bluetooth Control Actually Buy You",
+        "heading_es": "Behringer FLOW 8: lo que te compran seis faders y el control por Bluetooth",
+        "products": [
+          671
+        ],
+        "content": "<p><strong>The FLOW 8 is the one in this list that behaves like a studio mixer instead of a creator gadget, and it costs less than half what a RØDECaster does.</strong> It is not an audio interface with some buttons bolted on. It is a genuine eight-channel digital mixer: two XLR mic inputs, two combo XLR/TRS inputs, two pairs of balanced stereo line inputs with a Hi-Z jack for guitar or bass, and balanced XLR main outputs with monitor sends on 1/4\" TRS. Six 60mm channel faders ride on top, with the two on the far right each combining a stereo pair, so channels 5/6 and 7/8 share one fader.</p><p><strong>What sets it apart from the other boxes here is where the processing lives.</strong> Every channel gets four-band EQ and a compressor, and the monitor and main buses get a nine-band EQ with a limiter on the output. The maths runs in 32-bit floating point, which is the same internal precision the RØDECaster Pro II uses. Two independent effects engines sit on top, each with 16 presets, plus 12 reverb programs.</p><p><strong>You drive all of it from the free FLOW app.</strong> The app talks to the mixer over Bluetooth, and Behringer is explicit that it does not need a Wi-Fi network, which means you can adjust EQ, recall FX and change routing from your phone during a stream. That same Bluetooth chip also does A2DP, so your phone can stream audio into the mixer as another source. Over USB it is a 10-in/2-out interface at 48 kHz and 24-bit, recording up to 10 tracks.</p><p><strong>Two things to know before you buy.</strong> The faders are not motorized, so on a show the app and the physical fader can drift apart and the offset LEDs are there to tell you when they have. And EQ, effects and routing are only reachable in the app, not from the surface, so this is not the box for someone who wants to tweak everything with their hands mid-show.</p>",
+        "content_es": "<p><strong>El FLOW 8 es el único de esta lista que se comporta como un mezclador de estudio en vez de como un juguete para creadores, y cuesta menos de la mitad que una RØDECaster.</strong> No es una interfaz de audio con unos botones pegados encima. Es un mezclador digital de ocho canales de verdad: dos entradas de micrófono XLR, dos entradas combo XLR/TRS, dos pares de entradas de línea estéreo balanceadas con jack Hi-Z para guitarra o bajo, y salidas main balanceadas en XLR con envíos de monitor en jack de 1/4\" TRS. Encima cabalgan seis faders de canal de 60 mm, y los dos de la derecha combinan un par estéreo cada uno, así que los canales 5/6 y 7/8 comparten fader.</p><p><strong>Lo que lo distingue del resto de cajas de esta lista es dónde vive el procesamiento.</strong> Cada canal recibe un EQ de cuatro bandas y un compresor, y los buses de monitor y main reciben un EQ de nueve bandas con un limitador a la salida. El procesado corre en coma flotante de 32 bits, la misma precisión interna que usa la RØDECaster Pro II. Encima hay dos motores de efectos independientes, cada uno con 16 presets, más 12 programas de reverb.</p><p><strong>Tú controlas todo eso desde la app FLOW gratuita.</strong> La app se comunica con el mezclador por Bluetooth, y Behringer deja claro que no hace falta red Wi-Fi, así que puedes tocar el EQ, recuperar FX y cambiar el ruteo desde el móvil en mitad de un directo. Ese mismo chip de Bluetooth también hace A2DP, de modo que el teléfono puede enviar audio al mezclador como una fuente más. Por USB es una interfaz de 10 entradas y 2 salidas a 48 kHz y 24 bits, grabando hasta 10 pistas.</p><p><strong>Dos cosas que conviene saber antes de comprar.</strong> Los faders no son motorizados, así que en un directo el fader de la app y el fader físico pueden separarse y los LEDs de offset están ahí para avisarte cuando lo hacen. Y el EQ, los efectos y el ruteo solo se alcanzan desde la app, no desde la superficie, así que no es la caja para quien quiere tocarlo todo con las manos en medio de un directo.</p>"
       }
     ],
     "conclusion": "If you want your hands on everything, get the Stream Deck+: nothing else makes your whole stream so instantly controllable, and the official XLR Dock turns it into a complete XLR interface. If you want real faders on stream audio, the <strong>TC Helicon GoXLR Mini</strong> is the streamer-first pick with a Midas preamp and per-app routing. If you want analog feel on many sources, the <strong>Yamaha AG08</strong> gives every app a 60 mm fader. If you want the whole broadcast on hardware, the <strong>Rode RODECaster Pro II</strong> runs 4 Neutrik inputs with SMART pads and APHEX. If you want one cable for console video and audio, the <strong>Mackie MainStream</strong> merges interface and HDMI capture. If you stream from a console and want one compact box that does audio and video, the Streamer X is the value pick. If your show runs two to four mics with no engineer, the <strong>Mackie DLZ Creator</strong> sets itself up with Mix Agent and AutoMix. If your show is four mics around a table, the <strong>Tascam Mixcast 4</strong> records everyone to SD with auto-mix and mix-minus calls. And if you just need your mic to sound remarkable, the Wave XLR MK.2 delivers. There is no wrong answer here: it comes down to which workflow feels like yours. <p>Looking for more? If you have outgrown a controller plus a separate interface, <a href=\"/guides/rodecaster-pro2-vs-dlz-creator.html\" class=\"guide-link-btn\">RØDECaster Pro II vs Mackie DLZ Creator</a> comparison covers the full broadcast consoles. Check <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interfaces guide</a> and the <a href=\"/guides/usb-mics.html\" class=\"guide-link-btn\">best USB microphones</a> <a href=\"/guides/best-mic-for-podcasting.html\" class=\"guide-link-btn\">best mics for podcasting</a></p>",
@@ -80044,7 +80053,8 @@
       240,
       247,
       662,
-      663
+      663,
+      671
     ],
     "relatedGuides": [
       "rodecaster-pro2-vs-dlz-creator",
@@ -80174,6 +80184,10 @@
         {
           "title": "Tascam Mixcast 4",
           "title_es": "Tascam Mixcast 4"
+        },
+        {
+          "title": "Behringer FLOW 8",
+          "title_es": "Behringer FLOW 8"
         }
       ],
       "rows": [
@@ -80220,6 +80234,10 @@
             {
               "value": "4-person podcast without a computer",
               "value_es": "Pódcast de 4 sin ordenador"
+            },
+            {
+              "value": "Full-featured digital mixing on a tight budget",
+              "value_es": "Mezcla digital completa con presupuesto ajustado"
             }
           ]
         },
@@ -80266,6 +80284,10 @@
             {
               "value": "Podcast console + recorder",
               "value_es": "Consola pódcast + grabadora"
+            },
+            {
+              "value": "8-input digital mixer + USB audio interface",
+              "value_es": "Mezclador digital de 8 entradas + interfaz de audio USB"
             }
           ]
         },
@@ -80312,6 +80334,10 @@
             {
               "value": "4x XLR combo with auto-mix",
               "value_es": "4x combo XLR con auto-mix"
+            },
+            {
+              "value": "2 Midas preamps, 48V on 2 channels",
+              "value_es": "2 previos Midas, 48V en 2 canales"
             }
           ]
         },
@@ -80358,6 +80384,10 @@
             {
               "value": "No",
               "value_es": "No"
+            },
+            {
+              "value": "None",
+              "value_es": "Ninguna"
             }
           ]
         },
@@ -80403,6 +80433,10 @@
             {
               "value": "Faders + 8 lit sound pads",
               "value_es": "Faders + 8 pads iluminados"
+            },
+            {
+              "value": "6 × 60mm channel faders + app control",
+              "value_es": "6 faders de canal de 60 mm + control por app"
             }
           ],
           "label_es": "Teclas y controles"
@@ -80449,6 +80483,10 @@
             {
               "value": "USB, Bluetooth, TRRS call, SD",
               "value_es": "USB, Bluetooth, TRRS, SD"
+            },
+            {
+              "value": "Bluetooth app control + 10×2 USB",
+              "value_es": "Control por app vía Bluetooth + USB 10×2"
             }
           ],
           "label_es": "Conectividad"
@@ -80495,6 +80533,10 @@
             {
               "value": "Podcast Editor (beginner easy)",
               "value_es": "Podcast Editor (fácil)"
+            },
+            {
+              "value": "FLOW app for iOS and Android",
+              "value_es": "App FLOW para iOS y Android"
             }
           ],
           "label_es": "Software"
@@ -80541,6 +80583,10 @@
             {
               "value": "~$499",
               "value_es": "~$499"
+            },
+            {
+              "value": "~$199",
+              "value_es": "~$199"
             }
           ],
           "label_es": "Precio estimado"
@@ -80826,6 +80872,34 @@
           "Controles compactos sin faders reales",
           "Sin grabación multipista a SD a bordo",
           "Los ajustes profundos piden la app, no la superficie"
+        ]
+      },
+      {
+        "name": "Behringer FLOW 8",
+        "name_es": "Behringer FLOW 8",
+        "pros": [
+          "Six 60mm channel faders give real hands-on level control",
+          "Two independent studio-grade FX engines, 16 presets each",
+          "Bluetooth app control works without a Wi-Fi network",
+          "EZ-GAIN sets gain levels automatically"
+        ],
+        "cons": [
+          "Two faders each share two channels (5/6 and 7/8)",
+          "No video capture, unlike the Mackie MainStream",
+          "Back-ordered at Gear4Music at time of writing",
+          "EQ, effects and routing are only reachable in the app"
+        ],
+        "pros_es": [
+          "Seis faders de canal de 60 mm dan control real con la mano",
+          "Dos motores de efectos independientes de calidad estudio, 16 presets cada uno",
+          "El control por app vía Bluetooth funciona sin red Wi-Fi",
+          "EZ-GAIN ajusta los niveles de ganancia automáticamente"
+        ],
+        "cons_es": [
+          "Dos faders comparten canal cada uno (5/6 y 7/8)",
+          "Sin captura de vídeo, a diferencia del Mackie MainStream",
+          "A pedido en Gear4Music en el momento de escribir esto",
+          "El EQ, los efectos y el ruteo solo se alcanzan desde la app"
         ]
       }
     ],
