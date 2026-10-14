@@ -6055,6 +6055,14 @@ const TEST_SHOP_BTN = {
       andertons: "https://www.andertons.co.uk/aston-origin-cardioid-condenser-microphone/"
     }
   },
+  675: {
+    prices: {
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-X1R-Ribbon-Microphone-/art-REC0009426-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-sE-X1R-Ribbon-Microphone/I6K"
+    }
+  },
   674: {
     prices: {
       zzounds: "$799.00",
