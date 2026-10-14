@@ -5672,9 +5672,16 @@ const TEST_SHOP_BTN = {
   },
   679: {
     prices: {
+      zzounds: "$399.00",
+      andertons: "£279.00",
+      musicstore: "€399.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B07MWZ9FMR"
+      amazon: "https://www.amazon.com/dp/B07MWZ9FMR",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-AXE-IO/2SMV",
+      zzounds: "https://www.zzounds.com/item--IKMAXEIO?siid=253067",
+      andertons: "https://www.andertons.co.uk/ik-multimedia-axe-i-o-usb-audio-interface-w-advanced-guitar-tone-shaping/?search_query=IK%20Multimedia%20AXE%20IO",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/IK-Multimedia-AXE-I-O-AmpliTube-5-Max/art-PCM0016881-000"
     }
   },
   678: {
