@@ -1,0 +1,18 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const die = (m) => { console.log('!! ' + m); process.exit(1); };
+const gj = BASE + 'data/guides.json';
+const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const g = guides.find(x => x.id === 'beginner-bass-guitars');
+const f = g.featuredSnippet;
+if (!f.faq_q3_en || f.faq_q4_en) die('faqs inesperadas');
+f.faq_q4_en = 'Should a beginner choose active or passive pickups?';
+f.faq_a4_en = 'Start passive. No battery to die mid-practice, warm natural tone, and your hands learn dynamics instead of hiding behind EQ. Active basses like the TRBX304 or SR300E make sense once you play slap or modern metal and want onboard shaping — until then, passive keeps it simple.';
+f.faq_q4_es = '¿Un principiante debe elegir pastillas activas o pasivas?';
+f.faq_a4_es = 'Empieza pasivo. Sin batería que muera a mitad de práctica, tono cálido y natural, y tus manos aprenden dinámica en vez de esconderse tras la EQ. Activos como el TRBX304 o el SR300E tienen sentido cuando toques slap o metal moderno y quieras moldeo a bordo; hasta entonces, pasivo y simple.';
+f.faq_q5_en = 'Do I need an amp to start practicing bass?';
+f.faq_a5_en = 'You need to hear yourself, but not necessarily through an amp. A small practice amp is the classic start; a headphone amp or your audio interface with amp plugins works silently and records too. Whatever you choose, add a tuner, strap, cable and picks — the bass alone is not enough to practice.';
+f.faq_q5_es = '¿Necesito un ampli para empezar a practicar bajo?';
+f.faq_a5_es = 'Necesitas escucharte, pero no necesariamente por un ampli. Un ampli pequeño de práctica es el inicio clásico; un ampli de auriculares o tu interfaz con plugins sirve en silencio y además graba. Elijas lo que elijas, suma afinador, correa, cable y púas: solo el bajo no basta para practicar.';
+fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
+console.log('FAQs: 3 -> 5');
