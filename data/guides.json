@@ -3429,6 +3429,156 @@
           ]
         },
         {
+          "label": "Max SPL",
+          "label_es": "SPL máximo",
+          "values": [
+            {
+              "value": "135 dB",
+              "value_es": "135 dB"
+            },
+            {
+              "value": "144 dB",
+              "value_es": "144 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "127 dB",
+              "value_es": "127 dB"
+            },
+            {
+              "value": "140 dB",
+              "value_es": "140 dB"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "144 dB",
+              "value_es": "144 dB"
+            },
+            {
+              "value": "140 dB",
+              "value_es": "140 dB"
+            }
+          ]
+        },
+        {
+          "label": "Self-Noise",
+          "label_es": "Ruido propio",
+          "values": [
+            {
+              "value": "23 dB",
+              "value_es": "23 dB"
+            },
+            {
+              "value": "20 dB",
+              "value_es": "20 dB"
+            },
+            {
+              "value": "19 dB-A",
+              "value_es": "19 dB-A"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "4 dBA",
+              "value_es": "4 dBA"
+            },
+            {
+              "value": "18 dB-A",
+              "value_es": "18 dB-A"
+            },
+            {
+              "value": "7 dB-A",
+              "value_es": "7 dB-A"
+            },
+            {
+              "value": "N/A (passive)",
+              "value_es": "N/A (pasivo)"
+            },
+            {
+              "value": "Not published",
+              "value_es": "No publicado"
+            },
+            {
+              "value": "12 dB-A",
+              "value_es": "12 dB-A"
+            },
+            {
+              "value": "6 dB-A",
+              "value_es": "6 dB-A"
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity",
+          "label_es": "Sensibilidad",
+          "values": [
+            {
+              "value": "1.8 mV/Pa",
+              "value_es": "1.8 mV/Pa"
+            },
+            {
+              "value": "14.1 mV/Pa",
+              "value_es": "14.1 mV/Pa"
+            },
+            {
+              "value": "16.7 mV/Pa",
+              "value_es": "16.7 mV/Pa"
+            },
+            {
+              "value": "25 mV/Pa",
+              "value_es": "25 mV/Pa"
+            },
+            {
+              "value": "25 mV/Pa",
+              "value_es": "25 mV/Pa"
+            },
+            {
+              "value": "23 mV/Pa",
+              "value_es": "23 mV/Pa"
+            },
+            {
+              "value": "27.4 mV/Pa",
+              "value_es": "27.4 mV/Pa"
+            },
+            {
+              "value": "1.1 mV/Pa",
+              "value_es": "1.1 mV/Pa"
+            },
+            {
+              "value": "1.1 mV/Pa + preamp",
+              "value_es": "1.1 mV/Pa + preamp"
+            },
+            {
+              "value": "11 mV/Pa",
+              "value_es": "11 mV/Pa"
+            },
+            {
+              "value": "23 mV/Pa",
+              "value_es": "23 mV/Pa"
+            }
+          ]
+        },
+        {
           "label": "Connection",
           "label_es": "Conexión",
           "values": [
