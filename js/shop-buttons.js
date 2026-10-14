@@ -5703,7 +5703,11 @@ const TEST_SHOP_BTN = {
     prices: {
     },
     urls: {
-    }
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2Fus%2Fen%2FGuitar-and-Bass%2FGandL-Tribute-L-2000-Electric-Bass-Black-Gloss%2F1YLG",
+      zzounds: "https://www.zzounds.com/item--GLGTL2000",
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FG-L-Tribute-L-2000-Premium-MN-BB-Blueburst%2Fart-BAS0002876-000"
+    },
+    oos: [ "andertons" ]
   },
   680: {
     prices: {

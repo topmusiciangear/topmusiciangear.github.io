@@ -1,0 +1,10 @@
+const fs = require('fs');
+const sb = fs.readFileSync('js/shop-buttons.js', 'utf8');
+const i = sb.indexOf('\n  683: {');
+console.log('--- BLOQUE 683 ---');
+console.log(sb.slice(i, i + 800));
+const h = fs.readFileSync('guides/budget-bass-like-expensive.html', 'utf8');
+console.log('\n--- "No publicado" en la pagina: ' + (h.match(/No publicado/g) || []).length + ' apariciones');
+console.log('--- celda del L-2000 en tabla:');
+const m = /G&amp;L Tribute L-2000[\s\S]{0,3000}?Estimated Price/.exec(h);
+console.log(h.slice(h.indexOf('G&amp;L Tribute L-2000'), h.indexOf('G&amp;L Tribute L-2000') + 1200).replace(/<[^>]+>/g, ' | ').slice(0, 600));
