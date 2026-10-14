@@ -656,6 +656,38 @@ grep -E "app\.min\.js\?v=|style\.min\.css\?v=" index.html
 - **Fix anti-rebote SPA (solo `temp/gen-shop-buttons.js`; las guías inline ya eran correctas):** `window.__tmgGeoResolved` es la zona PEGAJOSA de la sesión y ahora SOLO la red la fija, una única vez, vía `finish(cc)` (trace primario → ipinfo respaldo). Antes `applyNow` la fijaba en CADA aplicada, incluido el candidato transitorio de `quickTarget()` (p.ej. `'zzounds'` cuando el timezone era USA) → si una segunda llamada a `tmgGeoSwap` (re-render de búsqueda en la home) corría ANTES de que la red resolviera, el guard de primera línea `if (window.__tmgGeoResolved)` re-aplicaba el valor transitorio viejo (zZounds) tras el cambio a Amazon → botón flipeaba zZounds→Amazon→zZounds. Ahora `applyNow` solo fija `window.__tmgGeoDone`; `finish()` comprueba `__tmgGeoResolved` antes de aplicar (equivalente al `gres`), `gFallback` aborta si ya está resuelto, y la primera línea solo re-aplica la zona real de red. Sin esto, cualquier candidato instantáneo contaminaba la memoria de sesión.
 - **Las guías inline de `build-guides.js` (bloque `<script>` embebido ~1680-1770) fueron portadas a la misma lógica nueva**: mapas locales `gText`/`gStyle` (6 tiendas incl. amazon+reverb), builders de banderas `flagRect`/`gFlag` (ids fijos `flgcGeo`/`flgcGeo2`/`glgGeo`/`glcGeo`), `doSwap` con `!zRow`→return y re-insert GENERAL (`dispNotes` ES/EN + precio), `applyNow` con 'none'→amazon, `quickTarget` + ipinfo `applyNow(t)` siempre, SIN cache read ni return temprano. Antes las guías corrían la versión VIEJA (solo amazon reinsert, targetSearch, cache) → bugs de letras y de primario en guías aunque el SPA estuviera arreglado. Verificado: wordmark swap = wordmark fila, byte-idéntico en los 6 stores (ZZ/G4M/MS/Andertons/Reverb/Amazon) tanto en `js/shop-buttons.js` como en el bloque inline.
 
+## 📏 REGLA FIJA: títulos y meta descriptions NO se cortan en Google (14/10/2026)
+
+Google recorta por **píxeles**, no por caracteres: el `<title>` a los ~580 px y el
+snippet a los ~920 px. Un título de 60 caracteres lleno de W y M puede pasar de 580 px,
+y uno de 60 con muchos i/l puede no llegar. **Límites del sitio:**
+
+| Campo | Caracteres | Píxeles estimados |
+|---|---|---|
+| `<title>` | **≤ 60** | ≤ 580 |
+| meta description | **≤ 155** | ≤ 920 |
+
+**Reglas adicionales:**
+- **El año NUNCA va en el `<title>`** (` (2026)` etc.). El año vive en el JSON-LD
+  (`datePublished`) y en la firma de autor. Ya se eliminó el sufijo automático de
+  `build-guides.js` (`const titleTag = title;`) — **no reintroducirlo**.
+- **Nunca recortar títulos automáticamente.** Cortar a media frase deja basura del tipo
+  *"Mejores auriculares cerrados de estudio para grabación y."*. Si un título pasa de 60
+  caracteres, **se reescribe a mano** más corto (normalmente quitando el descriptor tras
+  los dos puntos: *"X vs Y: Duelo de consolas estándar de la industria"* → *"X vs Y"*).
+- Las **descripciones sí se pueden recortar**, siempre en frontera de palabra y respetando
+  ambos límites (caracteres y píxeles).
+
+**Auditoría permanente:** `npm run seo` (= `node scripts/seo-audit.js`, exit 1 si falla).
+Analiza las 314 páginas generadas (EN + ES), ignora los stubs de redirección y avisa de
+títulos > 60, descripciones > 155, títulos con año, páginas sin `<h1>` y sin meta
+description. **Ejecutarlo SIEMPRE después de tocar títulos, descripciones o
+`build-guides.js`**, y antes de cada deploy. `--json` para salida legible por máquina.
+
+**El sitemap NO hay que resubmitarlo** para esto: `sitemap.xml` se regenera en cada build
+con el `lastmod` del día y ya está declarado en `robots.txt`. Lo que hay que cambiar es el
+`<title>` del HTML; luego Googlebot re-rastrea solo.
+
 ## ⭐ MANDATORY: Superar a la competencia en cada guía (SEO)
 
 En cada guía que se toque o cree, SIEMPRE:
