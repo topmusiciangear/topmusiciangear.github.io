@@ -23,7 +23,10 @@
         "heading_es": "Los tres presupuestos: qué compra de verdad $1.000",
         "content": "<p><strong>These are not factory bundles.</strong> They are three builds assembled from individual products, each one priced from our own catalogue and each one verifiable on the shelf.</p><p><strong>The Budget Essentials at $485</strong> covers the whole chain at the lowest sensible price: a Scarlett 2i2 to capture, an SM57 to capture with, a stand so the mic is not in your hand, ATH-M20x headphones so you are not mixing blind, and four acoustic panels so the room stops lying to you. Every part is the entry model in its category, which is the only way four of them fit under five hundred dollars.</p><p><strong>The Pro Producer at $816</strong> swaps the dynamic for a quiet condenser and adds the ATH-M50x. This is the tier most people should buy: the NT1 5th Generation is the quietest large-diaphragm condenser available new, and the M50x will not lie to you about what you mixed.</p><p><strong>The Ultimate Powerhouse at $905</strong> is the same interface, the NT1 Signature condenser, the broadcast-standard MDR-7506, and real monitors — a KRK Rokit 7 G5 pair. It is the only tier that can mix a full arrangement without switching to headphones.</p><p>All three stay under $1,000 with the room treatment already paid for, which is the part most \"under $1,000\" lists leave out.</p>",
         "content_es": "<p><strong>No son packs de fábrica.</strong> Son tres montajes armados con productos sueltos, cada uno con precio de nuestro propio catálogo y cada uno verificable en el estante.</p><p><strong>El Básico Esencial por $485</strong> cubre toda la cadena al precio más bajo que tiene sentido: una Scarlett 2i2 para capturar, un SM57 con el que capturar, un soporte para que el micro no esté en tu mano, auriculares ATH-M20x para no mezclar a ciegas y cuatro paneles acústicos para que la sala deje de mentirte. Cada pieza es el modelo de entrada de su categoría, que es la única forma de que quepan cuatro por menos de quinientos dólares.</p><p><strong>El Productor Profesional por $816</strong> cambia el dinámico por un condensador silencioso y añade los ATH-M50x. Este es el tier que debería comprar la mayoría: el NT1 5th Generation es el condensador de diafragma grande más silencioso que hay nuevo, y el M50x no te va a mentir sobre lo que has mezclado.</p><p><strong>El Definitivo por $905</strong> es la misma interfaz, el condensador NT1 Signature, el MDR-7506 estándar de radiodifusión, y monitores de verdad — un par de KRK Rokit 7 G5. Es el único tier que puede mezclar un arreglo completo sin pasarse a auriculares.</p><p>Los tres se quedan por debajo de $1.000 con el tratamiento de sala ya pagado, que es justo la parte que casi todas las listas de \"menos de $1.000\" se dejan.</p>",
-        "products": []
+        "products": [
+          609,
+          297
+        ]
       },
       {
         "heading": "Why a $299 Interface Can Beat a $199 One",
@@ -43,7 +46,8 @@
         "products": [
           5,
           3,
-          170
+          170,
+          297
         ]
       },
       {
@@ -54,7 +58,8 @@
         "products": [
           20,
           25,
-          26
+          26,
+          609
         ]
       },
       {
@@ -83,16 +88,16 @@
     "verdict": "This is the best overall starter studio: a reliable interface, a real dynamic mic, decent headphones, and monitoring that doesn't lie. Start here, learn the chain, then upgrade one piece at a time.",
     "verdict_es": "Este es el mejor estudio inicial completo: una interfaz fiable, un micrófono dinámico real, buenos auriculares y un monitoreo que no miente. Empieza aquí, aprende la cadena y luego mejora pieza por pieza.",
     "featuredProducts": [
-      15,
+      609,
+      297,
       18,
+      15,
       5,
       3,
-      297,
-      25,
-      609,
-      26,
-      20,
       170,
+      20,
+      25,
+      26,
       58,
       39,
       167
@@ -660,6 +665,64 @@
           "Sin chasis plegable: no se colapsa plano para una mochila",
           "La afinación plana no tiene pegada de graves para escuchar solo por gusto",
           "Solo 30 mm de acolchado alrededor de la oreja — las sesiones largas se calientan"
+        ]
+      },
+      {
+        "name": "Aston Microphones Shield GN Pop Filter",
+        "name_es": "Filtro Antipop Aston Microphones Shield GN",
+        "productId": 39,
+        "pros": [
+          "Stainless steel body and a curved frame that clamps to almost any desk or stand",
+          "HexTech filter holes kill plosives without the sibilance of a thick foam windscreen",
+          "The go-to pop filter in studios that record spoken word — podcasters and voiceover artists",
+          "Works on any condenser without taking anything off the tone"
+        ],
+        "cons": [
+          "At $49 it costs more than the dynamic microphone it protects",
+          "Needs a separate mic arm or desk clamp — the mount is included but the stand is not",
+          "The HexTech pattern is less effective on sibilance than a foam screen",
+          "Metal surface can ring if you bump it while recording"
+        ],
+        "pros_es": [
+          "Cuerpo de acero inoxidable y marco curvado que se fija a casi cualquier escritorio o pie",
+          "Los agujeros HexTech matan las explosivas sin la sibilancia de un antiviento de espuma gruesa",
+          "El filtro de referencia en estudios de voz: podcasters y locutores",
+          "Funciona con cualquier condensador sin quitarle nada al tono"
+        ],
+        "cons_es": [
+          "A $49 cuesta más que el micrófono dinámico que protege",
+          "Necesita brazo de micro o pinza aparte — el soporte viene incluido, el pie no",
+          "El patrón HexTech es menos eficaz contra la sibilancia que una pantalla de espuma",
+          "La superficie metálica puede sonar si la golpeas durante la grabación"
+        ]
+      },
+      {
+        "name": "Mogami Gold Studio XLR Cable",
+        "name_es": "Cable Mogami Gold Studio XLR",
+        "productId": 167,
+        "pros": [
+          "Reference-grade Neglex quad conductor — the standard in top studios for decades",
+          "Gold-plated connectors with a locking mechanism that will not pop loose mid-take",
+          "Runs from interface to mic with no hum, no buzz and no loss of top end",
+          "A cable that stops being a suspect: one less thing to debug when a take is wrong"
+        ],
+        "cons": [
+          "At $53 it costs more than a third of a dynamic microphone",
+          "Better than a $12 cable at stopping hum, but not a tone-shaping upgrade",
+          "One length only — a long cable into a small room creates cable clutter",
+          "No color coding or labeling on the connector, so it blends into a bundle"
+        ],
+        "pros_es": [
+          "Conductor cuádruple Neglex de grado referencia — el estándar en estudios top desde hace décadas",
+          "Conectores dorados con mecanismo de bloqueo que no se suelta a mitad de toma",
+          "Va de la interfaz al micro sin zumbido, sin ruido y sin pérdida de agudos",
+          "Un cable que deja de ser sospechoso: una cosa menos que depurar cuando una toma sale mal"
+        ],
+        "cons_es": [
+          "A $53 cuesta más de un tercio de un micrófono dinámico",
+          "Mejor que un cable de $12 para evitar zumbido, pero no es una mejora de tono",
+          "Un solo largo — un cable largo en una sala pequeña genera enredo",
+          "Sin código de colores ni etiqueta en el conector, se pierde dentro de un manojo"
         ]
       }
     ],
