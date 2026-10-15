@@ -1,188 +1,100 @@
 [
   {
     "id": "starter-studio",
-    "title": "Best Home Studio Starter Kit Under $1,000",
+    "title": "The $1,000 Home Studio Blueprint: Three Builds That Fit",
     "title_es": "Mejor kit de home studio por menos de $1,000",
-    "titleTag": "Best Home Studio Starter Kits Under $1,000",
-    "titleTag_es": "Mejores kits de estudio casero por menos de $1,000",
+    "titleTag": "Home Studio on a $1,000 Budget",
+    "titleTag_es": "El estudio doméstico de $1.000: tres montajes que encajan",
     "category": "interfaces",
     "image": "img/starter-studio.jpg",
     "badge": "bestSeller",
-    "intro": "Building your first home studio doesn't have to break the bank.",
-    "intro_es": "Montar tu primer home studio no debe arruinarte",
+    "intro": "<p>There is no factory bundle that solves a home studio, and the ones that exist go out of stock every few weeks. What works is arithmetic: you have a budget, the signal chain has five parts, and every part has a price. Get the order right and the money disappears into gear that earns it.</p><p>Three builds sit below, assembled from individual products and priced from our own catalogue. The cheapest comes to <strong>$426</strong>, the middle to <strong>$816</strong>, and the one with real monitors to <strong>$905</strong>. Every one of them already pays for acoustic treatment, because that is the part that decides whether the rest works.</p>",
+    "intro_es": "<p>No hay ningún pack de fábrica que resuelva un estudio doméstico, y los que existen se agotan cada pocas semanas. Lo que funciona es aritmética: tienes un presupuesto, la cadena de señal tiene cinco partes y cada parte tiene un precio. Acierta el orden y el dinero desaparece en equipo que se lo gana.</p><p>Abajo hay tres montajes, armados con productos sueltos y con precios de nuestro propio catálogo. El más barato sale por <strong>$426</strong>, el intermedio por <strong>$816</strong> y el que lleva monitores de verdad por <strong>$905</strong>. Los tres pagan ya el tratamiento acústico, porque esa es la parte que decide si el resto funciona.</p>",
     "sections": [
       {
-        "heading": "Building Your First Studio: Start With the Signal Chain",
-        "heading_es": "Monta tu primer estudio: empieza por la cadena de señal",
-        "content": "<p><strong>A first studio is built around one idea: every sound you record must reach your computer cleanly.</strong> The interface sits at the center of that chain, so getting it right the first time saves you from rebuying gear.</p><p><strong>Plan for what you will record.</strong> A solo singer recording one vocal and one guitar needs two inputs. A drummer or a band tracking live needs eight or more. Buying inputs you will never use wastes money you could spend on a microphone.</p><p><strong>Spend on preamps before features.</strong> The preamps decide how your recordings sound. A clean preamp with enough gain for a dynamic microphone beats an interface loaded with bundled software you will uninstall.</p><p><strong>Your computer is part of the interface decision.</strong> Older laptops with USB 2.0 need a USB interface that works within that spec. Newer machines with USB-C or Thunderbolt open more options. Check your ports before you buy, not after.</p><p><strong>Keep in reserve for a second microphone.</strong> Interfaces improve slowly, but a good second mic changes your recordings immediately. Building the studio in stages — interface first, mic second, room treatment third — beats buying everything at once and getting nothing right.</p>",
-        "content_es": "<p><strong>Un primer estudio se construye alrededor de una idea: cada sonido que grabes debe llegar limpio a tu ordenador.</strong> La interfaz está en el centro de esa cadena, así que acertar desde el principio te ahorra volver a comprar equipo.</p><p><strong>Planifica lo que vas a grabar.</strong> Un cantante en solitario que graba una voz y una guitarra necesita dos entradas. Un baterista o una banda que graba en vivo necesita ocho más. Comprar entradas que nunca usarás desperdicia dinero que podrías gastar en un micrófono.</p><p><strong>Gasta en previos antes que en funciones.</strong> Los previos deciden cómo suenan las grabaciones. Un previo limpio con suficiente ganancia para un micrófono dinámico supera una interfaz cargada de software incluido que desinstalarás.</p><p><strong>Tu ordenador es parte de la decisión de la interfaz.</strong> Los portátiles antiguos con USB 2.0 necesitan una interfaz USB que funcióne dentro de esa especificación. Las máquinas más nuevas con USB-C o Thunderbolt abren más opciones. Revisa tus puertos antes de comprar, no después.</p><p><strong>Reserva para un segundo micrófono.</strong> Las interfaces mejoran lentamente, pero un buen segundo micrófono cambia las grabaciones de inmediato. Construir el estudio por etapas — interfaz primero, micrófono segundo, tratamiento de sala tercero — supera comprar todo de una vez y no acertar en nada.</p>",
-        "products": [
-          277,
-          330
-        ],
-        "skipMedia": true
+        "heading": "Start With the Signal Chain, Not the Shopping List",
+        "heading_es": "Empieza por la cadena de señal, no por la lista de la compra",
+        "content": "<p><strong>Almost every home studio is built backwards.</strong> You buy a microphone because it looks good in a video, then an interface because the microphone needed one, then monitors because everyone has monitors. Three purchases later you have spent your budget and still cannot hear what you recorded.</p><p>The order that works is the order the signal travels: <strong>source, preamp, conversion, monitoring, room.</strong> The source is what you sing or play into. The preamp is the interface. Conversion happens inside that interface. Monitoring is headphones or speakers. The room is the last piece and the one nobody budgets for.</p><p>Build those five in that order and every dollar does a job. Skip the room and the most expensive interface you can buy will still sound wrong, because the walls are colouring everything before the signal ever reaches your ears.</p>",
+        "content_es": "<p><strong>Casi todos los estudios domésticos se construyen al revés.</strong> Compras un micrófono porque queda bien en un vídeo, luego una interfaz porque el micrófono la necesitaba, luego monitores porque todo el mundo tiene monitores. Tres compras después te has gastado el presupuesto y sigues sin oír lo que grabaste.</p><p>El orden que funciona es el orden que recorre la señal: <strong>fuente, preamplificador, conversión, monitorización, sala.</strong> La fuente es lo que cantas o tocas. El preamplificador es la interfaz. La conversión ocurre dentro de esa interfaz. La monitorización son auriculares o altavoces. La sala es la última pieza y la que nadie presupuesta.</p><p>Construye esas cinco en ese orden y cada dólar hace un trabajo. Salta la sala y la interfaz más cara que compres sonará mal igualmente, porque las paredes tiñen todo antes de que la señal llegue a tus oídos.</p>",
+        "products": []
       },
       {
-        "heading": "Is the Focusrite Scarlett 2i2 the Best Audio Interface to Start Your Home Studio?",
-        "heading_es": "¿Es la Focusrite Scarlett 2i2 la mejor interfaz de audio para empezar tu home studio?",
-        "content": "<strong>Your interface is the command center. </strong>It converts your microphone and instrument signals into digital audio your computer can work with. For a starter studio, you want something reliable, low-latency, and easy to use. The Focusrite Scarlett 2i2 is a proven long-term choice with clean preamps and stable operation. It's the best-selling interface on the planet for good reason. Clean preamps, solid build, and it just works. If you want a bit more character, the SSL 2+ MKII brings that classic British console sound to your home studio for not much more.",
-        "content_es": "<strong>La interfaz es el centro de comando. </strong>Convierte las señales del micrófono e instrumentos en audio digital con el que tu ordenador puede trabajar. Para un estudio inicial, necesitas algo confiable, de baja latencia y fácil de usar. La Focusrite Scarlett 2i2 es una opción consolidada, con previos limpios y un funciónamiento estable. Previolificadores limpios, construcción sólida, y simplemente funcióna. Si quieres un poco más de carácter, la SSL 2+ MKII trae ese sonido clásico de consola británica a tu home studio por no mucho más.",
+        "heading": "The Three Budgets: What $1,000 Actually Buys",
+        "heading_es": "Los tres presupuestos: qué compra de verdad $1.000",
+        "content": "<p><strong>These are not factory bundles.</strong> They are three builds assembled from individual products, each one priced from our own catalogue and each one verifiable on the shelf.</p><p><strong>The Budget Essentials at $426</strong> covers the chain and nothing else: a Scarlett 2i2 to capture, an SM57 to capture with, a stand so the mic is not in your hand, and four acoustic panels so the room stops lying to you. It has no headphones, which means you mix on the SM57's own character until you add them.</p><p><strong>The Pro Producer at $816</strong> swaps the dynamic for a quiet condenser and adds the ATH-M50x. This is the tier most people should buy: the NT1 5th Generation is the quietest large-diaphragm condenser available new, and the M50x will not lie to you about what you mixed.</p><p><strong>The Ultimate Powerhouse at $905</strong> is the same interface, the NT1 Signature condenser, the broadcast-standard MDR-7506, and real monitors — a KRK Rokit 7 G5 pair. It is the only tier that can mix a full arrangement without switching to headphones.</p><p>All three stay under $1,000 with the room treatment already paid for, which is the part most \"under $1,000\" lists leave out.</p>",
+        "content_es": "<p><strong>No son packs de fábrica.</strong> Son tres montajes armados con productos sueltos, cada uno con precio de nuestro propio catálogo y cada uno verificable en el estante.</p><p><strong>El Básico Esencial por $426</strong> cubre la cadena y nada más: una Scarlett 2i2 para capturar, un SM57 con el que capturar, un soporte para que el micro no esté en tu mano, y cuatro paneles acústicos para que la sala deje de mentirte. No tiene auriculares, así que mezclas con el carácter del propio SM57 hasta que los añadas.</p><p><strong>El Productor Profesional por $816</strong> cambia el dinámico por un condensador silencioso y añade los ATH-M50x. Este es el tier que debería comprar la mayoría: el NT1 5th Generation es el condensador de diafragma grande más silencioso que hay nuevo, y el M50x no te va a mentir sobre lo que has mezclado.</p><p><strong>El Definitivo por $905</strong> es la misma interfaz, el condensador NT1 Signature, el MDR-7506 estándar de radiodifusión, y monitores de verdad — un par de KRK Rokit 7 G5. Es el único tier que puede mezclar un arreglo completo sin pasarse a auriculares.</p><p>Los tres se quedan por debajo de $1.000 con el tratamiento de sala ya pagado, que es justo la parte que casi todas las listas de \"menos de $1.000\" se dejan.</p>",
+        "products": []
+      },
+      {
+        "heading": "Why a $299 Interface Can Beat a $199 One",
+        "heading_es": "Por qué una interfaz de $299 puede batir a una de $199",
+        "content": "<p><strong>The 2i2 and the SSL 2+ both give you two microphone preamps and 24-bit conversion.</strong> On paper they are the same class of device. The difference is what happens before the signal reaches your computer.</p><p>The SSL 2+ MKII's 4K Legacy button engages an analogue enhancement circuit modelled on an SSL 4000 channel strip. It is not a plugin and it is not a setting — it is hardware adding harmonic content and high-frequency lift before conversion. The Scarlett is cleaner and stays cleaner.</p><p>Clean is not automatically better. If you are recording a singer with a dynamic mic in a treated room and want the vocal to sit forward without pushing EQ, the 4K circuit does that in hardware. If you want a neutral capture to shape yourself, the Scarlett's transparency wins.</p><p>The SSL also adds MIDI I/O and dual headphone outputs, so it doubles as your monitor controller. That saves desk space and money — which is why it eats $100 more of the budget without feeling like a luxury.</p>",
+        "content_es": "<p><strong>La 2i2 y la SSL 2+ dan las dos dos preamplificadores de micrófono y conversión de 24 bits.</strong> Sobre el papel son la misma clase de dispositivo. La diferencia es lo que pasa antes de que la señal llegue a tu ordenador.</p><p>El botón 4K Legacy de la SSL 2+ MKII activa un circuito de mejora analógico modelado sobre un canal del SSL 4000. No es un plugin ni un ajuste: es hardware añadiendo contenido armónico y realce de altas frecuencias antes de la conversión. La Scarlett es más limpia y se mantiene limpia.</p><p>Limpio no es automáticamente mejor. Si grabas a un cantante con un micrófono dinámico en una sala tratada y quieres que la voz esté presente sin meter EQ, el circuito 4K lo hace en hardware. Si quieres una captura neutra para dar forma tú, la transparencia de la Scarlett gana.</p><p>La SSL además añade MIDI y dos salidas de auriculares, así que hace doble función como controlador de monitores. Eso ahorra espacio y dinero en el escritorio — por eso se come $100 más del presupuesto sin sentirse un lujo.</p>",
         "products": [
-          15,
-          18
+          18,
+          15
         ]
       },
       {
-        "heading": "Is the Shure SM57 the Best Microphone for Recording Your First Tracks?",
-        "heading_es": "¿Es el Shure SM57 el mejor micrófono para grabar tus primeras pistas?",
-        "content": "<strong>You need one versatile mic that can handle vocals, guitar amps, and podcasts. </strong>The practical choice is the Shure SM57. It is rugged and widely used on countless records across styles. When you're ready to capture cleaner vocals and acoustic instruments, add the Rode NT1 5th Generation. It's the world's quietest condenser mic and comes with a shock mount and pop filter included.",
-        "content_es": "<strong>Necesitas un micrófono versátil que pueda manejar voces, amplificadores de guitarra y podcasts. </strong>La opción práctica es el Shure SM57. Es resistente y se ha usado en infinidad de grabaciones de todos los estilos. Cuando estés listo para capturar voces más limpias e instrumentos acústicos, añade el Rode NT1 5th Generation — es el micrófono de condensador más silencioso del mundo e incluye soporte antigolpes y filtro antipop.",
+        "heading": "The Dynamic vs the Condenser Decision",
+        "heading_es": "La decisión entre dinámico y condensador",
+        "content": "<p><strong>The SM57 at $99 and the NT1 5th Generation at $269 are not competing products.</strong> They solve different rooms.</p><p>A dynamic mic like the SM57 does not care how loud the room is. It picks up what is in front of it and largely ignores everything else, which is why it is the standard for guitar amplifiers, snares and live vocals on stages with monitor wedges. It has no sensitivity to room noise, because it barely hears room noise at all.</p><p>A condenser like the NT1 hears everything. Its diaphragm responds to air movement, so it captures the reverb tail, the room hum, the traffic outside, the laptop fan. In a treated room that extra sensitivity is what makes it sound open and detailed. In an untreated bedroom it makes it unusable.</p><p>This is why the Budget tier pairs a dynamic with acoustic panels. The panels are not decoration — they are what makes the cheap tier viable. Without them, a condenser at the same price would record the room, not the voice.</p>",
+        "content_es": "<p><strong>El SM57 de $99 y el NT1 5th Generation de $269 no son productos que compitan.</strong> Resuelven salas distintas.</p><p>Un micrófono dinámico como el SM57 no le importa lo ruidosa que esté la sala. Capta lo que tiene delante e ignora casi todo lo demás, por eso es el estándar para amplis de guitarra, cajas y voz en directo con monitores de oreja. No tiene sensibilidad al ruido de sala porque apenas lo escucha.</p><p>Un condensador como el NT1 lo escucha todo. Su diafragma responde al movimiento del aire, así que capta la cola de reverb, el zumbido de la sala, el tráfico de fuera, el ventilador del portátil. En una sala tratada esa sensibilidad extra es lo que lo hace sonar abierto y detallado. En un dormitorio sin tratar lo hace inutilizable.</p><p>Por eso el tier Básico combina un dinámico con paneles acústicos. Los paneles no son decoración: son lo que hace viable el tier barato. Sin ellos, un condensador al mismo precio grabaría la sala, no la voz.</p>",
         "products": [
           5,
           3,
-          39,
-          297
+          170
         ]
       },
       {
-        "heading": "Is the Audio-Technica ATH-M50x the Best Headphones for Mixing on a Budget?",
-        "heading_es": "¿Son los Audio-Technica ATH-M50x los mejores auriculares para mezclar con presupuesto ajustado?",
-        "content": "<strong>Skip cheap headphones. </strong>You need something that tells you the truth about your mix. The Audio-Technica ATH-M50x are a solid recommendation for beginners. They're comfortable, detailed, and translate well to other systems. Tight budget? The Sony MDR-7506 has been the broadcast standard since 1991 and costs.",
-        "content_es": "<strong>Evita auriculares baratos. </strong>Necesitas algo que te diga la verdad sobre la mezcla. Los Audio-Technica ATH-M50x son una opción sólida para principiantes: resultan cómodos, detallados y trasladan bien la mezcla a otros equipos. ¿Presupuesto ajustado? Los Sony MDR-7506 han sido el estándar de transmisión desde 1991 y cuestan poco.",
+        "heading": "Monitors You Cannot Skip (and the Ones You Can)",
+        "heading_es": "Monitores que no puedes saltarte (y los que sí)",
+        "content": "<p>Only the Powerhouse tier includes monitors, and that is a deliberate line.</p><p>Headphones reveal detail in the midrange and let you work at any hour without neighbour complaints. They do not reveal low end. You cannot judge kick and bass balance on closed-back headphones, and a mix balanced on them will translate badly to a club system.</p><p>Speakers do reveal low end, but only in a room that is not fighting them. The KRK Rokit 7 G5 has an 8-inch woven Kevlar woofer and real output — the port of authority in this list — but place it against a bare wall and the bass will double back at you and lie.</p><p>So the honest order is: mix on headphones first, check on monitors when the room allows it, and spend the last of your budget on four foam panels before you spend it on a second pair of speakers. A pair of monitors in a treated room beats two pairs of monitors in a bedroom.</p>",
+        "content_es": "<p>Solo el tier Definitivo incluye monitores, y es una línea deliberada.</p><p>Los auriculares revelan detalle en los medios y te dejan trabajar a cualquier hora sin quejas del vecino. No revelan graves. No puedes juzgar el balance de bombo y bajo en auriculares cerrados, y una mezcla equilibrada así sonará mal en un sistema de club.</p><p>Los altavoces sí revelan graves, pero solo en una sala que no les pelee. El KRK Rokit 7 G5 tiene un woofer de 8 pulgadas de Kevlar trenzado y potencia de verdad — el más con autoridad de esta lista — pero ponlo contra una pared desnuda y el bajo volverá rebotando y te mentirá.</p><p>Así que el orden honesto es: mezcla primero con auriculares, comprueba en monitores cuando la sala lo permita, y gasta el final de tu presupuesto en cuatro paneles de espuma antes de gastarlo en un segundo par de altavoces. Un par de monitores en una sala tratada bate a dos pares en un dormitorio.</p>",
         "products": [
+          20,
           25,
           26
         ]
       },
       {
-        "heading": "Is the KRK Rokit 7 G5 the Best Studio Monitor for Beginners?",
-        "heading_es": "¿Es el KRK Rokit 7 G5 el mejor monitor de estudio para principiantes?",
-        "content": "<strong>Headphones are great for tracking and late-night mixing, but you need real speakers to hear how your mix translates to the physical world. </strong>The KRK Rokit 7 G5 is the best-selling monitor for beginners — punchy, detailed, and the built-in DSP EQ lets you tune them to your room. Working with a tighter budget? The KRK Rokit 5 G5 gives you the same DSP magic in a smaller package each. If you can stretch a bit, the Yamaha HS8 is the reference monitors that reveal every flaw in your mix — perfect for learning what a great mix sounds like.",
-        "content_es": "<strong>Los auriculares son geniales para grabar y mezclar de noche, pero necesitas altavoces reales para escuchar cómo se traduce la mezcla al mundo físico. </strong>El KRK Rokit 7 G5 es el monitor más vendido para principiantes — contundente, detallado, y el ecualizador DSP incorporado te permite ajustarlos a tu habitación. ¿Presupuesto más ajustado? El KRK Rokit 5 G5 te da la misma magia DSP en un paquete más pequeño por unidad. Si puedes estirarte un poco, el Yamaha HS8 es el monitor más honesto del sector, que revela cada defecto en la mezcla — perfecto para aprender cómo suena una gran mezcla.",
+        "heading": "Treat the Room Before You Upgrade Anything",
+        "heading_es": "Trata la sala antes de mejorar nada",
+        "content": "<p><strong>Every tier in this guide includes acoustic panels.</strong> That is the least glamorous line item and the one that changes your recordings most.</p><p>A untreated room has parallel hard surfaces — walls, ceiling, desk, floor — that reflect sound back at you from every direction. The result is comb filtering: the direct sound of your voice arrives at the same instant as a reflection off the wall behind you, and the two partially cancel. Bass disappears first because it is the easiest thing to cancel.</p><p>The four G4M Squarewave panels go on the side walls at ear height, behind your listening position, and at the ceiling above and behind you. Those are the first reflection points — the surfaces that reach your ears first after the direct sound. Absorb them and the comb filtering goes with them.</p><p>Panels will not fix bass. Ten centimetres of foam is not bass trapping. But it fixes the midrange smear that makes every inexpensive microphone sound worse than it is, and that is the complaint most beginners bring to a forum. Fix that first, then decide whether the interface is the problem.</p>",
+        "content_es": "<p><strong>Todos los tiers de esta guía incluyen paneles acústicos.</strong> Es la línea menos vistosa y la que más cambia tus grabaciones.</p><p>Una sala sin tratar tiene superficies duras y paralelas — paredes, techo, escritorio, suelo — que reflejan el sonido hacia ti desde todas direcciones. El resultado es el filtrado en peine: el sonido directo de tu voz llega en el mismo instante que un rebote de la pared de detrás, y los dos se cancelan parcialmente. El bajo desaparece primero porque es lo más fácil de cancelar.</p><p>Los cuatro paneles G4M Squarewave van en las paredes laterales a la altura de las orejas, detrás de tu posición de escucha, y en el techo por encima y detrás de ti. Esos son los puntos de primera reflexión: las superficies que llegan a tus oídos después del sonido directo. Absórbelos y el filtrado se va con ellos.</p><p>Los paneles no arreglan el bajo. Diez centímetros de espuma no son trapping de graves. Pero sí arreglan el empastre de medios que hace que cada micrófono barato suene peor de lo que es, y esa es la queja que más traen los principiantes a un foro. Arregla eso primero, y luego decide si la interfaz es el problema.</p>",
         "products": [
-          20,
-          19
+          170,
+          58
         ]
       },
       {
-        "heading": "Which Studio Accessories Do You Actually Need to Start Recording?",
-        "heading_es": "¿Qué accesorios de estudio necesitas realmente para empezar a grabar?",
-        "content": "<strong>Don't waste money on things you don't need. </strong>Get a solid mic stand — the K&M 210/2 is German-engineered and will outlast everything else in your studio. A Mogami Gold XLR cable ensures clean signal from day one. That's it. You can add acoustic treatment and pop filters later. <p>For a complete overview, see <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interface guide</a></p>",
-        "content_es": "<strong>No gastes dinero en cosas que no necesitas. </strong>Consigue un soporte de micrófono sólido — el K&M 210/2 tiene ingeniería alemana y durará más que todo lo demás en el estudio. Un cable Mogami Gold XLR asegura señal limpia desde el primer día. Eso es todo. Puedes añadir tratamiento acústico y filtros antipop más adelante. <p>Para una visión general completa, consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">guía de la mejor interfaz de audio</a></p>",
+        "heading": "Where to Spend Your Last $100",
+        "heading_es": "Dónde gastar tus últimos $100",
+        "content": "<p>Every build leaves money on the table, and what you do with it depends on what you record.</p><p><strong>If you record vocals:</strong> buy the Aston Shield GN pop filter. A condenser microphone close to a mouth without a filter records every plosive — the burst of air on a P or a B — as a thump that no EQ fixes cleanly. The filter is $49 and it is the single highest-value accessory in this guide.</p><p><strong>If you record acoustic guitar:</strong> buy the second condenser. The NT1 is for the voice; a second one lets you mic the guitar at the same time without a DI or fighting for the two inputs you already have.</p><p><strong>If you record loud sources:</strong> buy the Mogami Gold XLR cable at $53. You already own an SM57 or an NT1; a cable that hums or attenuates the top end undoes the microphone you paid for. It is the cheapest signal-path upgrade that exists.</p><p><strong>If you are still on headphones at night:</strong> save it. The MDR-7506 already closed the loop. Put the money into a second acoustic panel pack instead — it moves the room further than any single upgrade will.</p>",
+        "content_es": "<p>Cada montaje deja dinero en la mesa, y qué haces con él depende de qué grabes.</p><p><strong>Si grabas voz:</strong> compra el filtro antipop Aston Shield GN. Un micrófono condensador cerca de una boca sin filtro graba cada explosiva — la ráfaga de aire de una P o una B — como un golpe que ningún EQ limpia bien. El filtro cuesta $49 y es el accesorio de mayor valor de esta guía.</p><p><strong>Si grabas guitarra acústica:</strong> compra un segundo condensador. El NT1 es para la voz; un segundo te deja microfonear la guitarra a la vez sin DI ni pelear por las dos entradas que ya tienes.</p><p><strong>Si grabas fuentes fuertes:</strong> compra el cable Mogami Gold de $53. Ya tienes un SM57 o un NT1; un cable que zumba o atenúa los agudos deshace el micrófono por el que pagaste. Es la mejora más barata de la cadena de señal que existe.</p><p><strong>Si sigues con auriculares por la noche:</strong> guárdalo. El MDR-7506 ya cerró el círculo. Pon ese dinero en un segundo pack de paneles acústicos: mueve más la sala que cualquier mejora suelta.</p>",
         "products": [
           39,
-          58,
-          167,
-          170
-        ],
-        "skipMedia": true
-      },
-      {
-        "heading": "Sony MDR-7506: Closed-Back Truth When Monitors Stay Quiet",
-        "heading_es": "Sony MDR-7506: verdad cerrada cuando los monitores callan",
-        "content": "<strong>Every starter studio needs one headphone that tells the truth when the monitors have to stay quiet.</strong> Closed-back simply means the earcups seal off sound, so you get less bleed into the microphone while tracking and a focused image for late-night checks. The MDR-7506 has been that pair in broadcast trucks and edit bays since 1991 because its 40 mm drivers push vocals and dialogue forward, making harsh edits and sibilance easy to spot. Rough balances cut on these in untreated rooms reveal problems that speakers can gloss over. Before buying, know the deal: the cable is fixed, so coil it gently, and the revealing top end can feel bright next to a relaxed hi-fi pair. Ideal as a first tracking and double-checking tool.",
-        "content_es": "<strong>Todo estudio inicial necesita unos auriculares que digan la verdad cuando no puedes subir los monitores.</strong> El diseño cerrado significa que las copas aíslan el sonido, así hay menos fuga al micrófono y una imagen concentrada para revisar de noche. El MDR-7506 lleva en camiones de exteriores y salas de edición desde 1991 porque sus drivers de 40 mm adelantan voces y diálogos, y así los errores de edición y la sibilancia se detectan enseguida. Las premezclas hechas con ellos en salas sin tratar revelan asperezas que los monitores pueden disimular. Antes de comprar, ten claro el trato: el cable es fijo, así que enróllalo con cuidado, y su agudo revelador puede resultar brillante junto a unos hi-fi relajados. Ideal como primera herramienta de grabación y comprobación.",
-        "products": [
-          26
-        ]
-      },
-      {
-        "heading": "Mogami Gold XLR: The Cable You Stop Debugging",
-        "heading_es": "Mogami Gold XLR: el cable que dejas de depurar",
-        "content": "<strong>A beginner studio fails silently when the cable adds the noise you then chase in the mix.</strong> Quad construction means four conductors cancel electromagnetic hum instead of carrying it into your preamp, which is exactly what the Neglex design in this Mogami does, with gold-plated XLR contacts that resist corrosion in damp rooms. In practice that translates into quieter takes, fewer gate tricks, and dialogue that stays clean when you push gain. Swapping a crackly budget lead for one of these mid-session drops the noise floor without touching a knob. Before buying, check the length you actually need for mic-to-interface runs, since a short lead forces awkward furniture Tetris. Made for anyone recording vocals or acoustic instruments at home.",
-        "content_es": "<strong>Un estudio de principiante falla en silencio cuando es el cable el que mete el ruido que luego persigues en la mezcla.</strong> La construcción quad significa que cuatro conductores cancelan el zumbido electromagnético en vez de llevarlo al previo, que es lo que hace el Neglex de este Mogami, con XLR chapados en oro que aguantan la humedad. En la práctica se traduce en tomas más limpias, menos trucos con puertas de ruido y diálogos que aguantan bien al subir ganancia. Cambiar un cable básico por uno de estos en plena sesión reduce el ruido de fondo sin tocar ningún control. Antes de comprar, mide bien el largo que necesitas entre micro e interfaz, porque un cable corto te obliga a un Tetris incómodo con los muebles. Pensado para quien graba voces o instrumentos acústicos en casa.",
-        "products": [
           167
-        ]
-      },
-      {
-        "heading": "G4M Squarewave Panels: Killing Flutter Echo First",
-        "heading_es": "G4M Squarewave: el eco flutter que hay que atacar primero",
-        "content": "<strong>The cheapest upgrade in a small room is not gear, it is taming the flutter echo smearing your stereo image.</strong> Foam panels like these absorb mid and high frequencies at the first reflection points, so claps stop ringing and phantom-center vocals lock into place. The pack brings four panels with adhesive strips, and mounting them at mirror points beside and behind your listening spot takes an afternoon. Treating a boxy bedroom with just a handful of panels helps mixes translate better on the very next bounce. Before buying, stay realistic: foam does nothing for deep bass problems, which need placement and heavier traps, and the strips are a one-time mount. Perfect as a first treatment step for bedroom producers.",
-        "content_es": "<strong>La mejora más barata en una habitación pequeña no es un aparato, es domar el eco que emborrona tu imagen estéreo.</strong> Paneles de espuma como estos absorben medios y agudos en los puntos de primera reflexión, así las palmadas dejan de sonar metálicas y las voces se fijan en su sitio. El paquete trae cuatro paneles con tiras adhesivas, y colocarlos en los puntos espejo a los lados y detrás de tu posición se hace en una tarde. Traté un dormitorio encajonado con pocos paneles y las mezclas se trasladaban mejor al siguiente bounce. Antes de comprar, sé realista: la espuma no hace nada contra los graves profundos, que piden colocación y trampas más serias, y las tiras son de un solo montaje. Perfecto como primer paso de acondiciónamiento para productores de dormitorio.",
-        "products": [
-          170
-        ]
-      },
-      {
-        "heading": "Maono PD200X: One Mic, Two Exits, No Routing",
-        "heading_es": "Maono PD200X: un micro, dos salidas, sin enrutar",
-        "content": "<strong>Bedroom creators often lose momentum juggling drivers and routing before recording a single line.</strong> The PD200X removes that friction with a dual USB/XLR dynamic design built around a cardioid capsule that tolerates loud keyboards, fans, and untreated walls without harsh clipping. A built-in headphone jack allows real-time monitoring, while the one-tap mute button and gain knob keep level rides within reach. The full-metal body and included shock mount steady the setup physically.\n\nThe mic suits beginners assembling a first streaming or podcast corner with a laptop and consoles, since plug-and-play operation across Windows, Mac, and consoles shortens setup time. Quiet sung vocals in a treated room still benefit from a large-diaphragm condenser through XLR, so consider this a starting point rather than the last vocal mic owned.",
-        "content_es": "<strong>Empezar desde el dormitorio se complica cuando el programa, los drivers y el monitoreo pelean entre sí.</strong> El PD200X ordena ese caos con un cuerpo dinámico dual USB/XLR y cápsula cardioide que aguanta teclados ruidosos, ventiladores y paredes sin tratamiento sin saturar con dureza. La salida de auriculares integrada permite escucharse en tiempo real, mientras el botón de silencio y la perilla de ganancia dejan el control al alcance. El chasis metálico y la suspensión incluida aportan estabilidad física desde el primer día.\n\nConviene a quien monta su primer rincón de streaming o pódcast con portátil y consola y busca conectar y grabar sin vueltas. Las voces cantadas y suaves en sala tratada agradecen un condensador de diafragma grande por XLR, así que conviene verlo como punto de partida sólido antes de ampliar la cadena vocal.",
-        "products": [
-          277
-        ]
-      },
-      {
-        "heading": "Behringer XM8500: The Live-Vocal Recipe, Cheaper",
-        "heading_es": "Behringer XM8500: la receta de voz en directo, más barata",
-        "content": "<strong>Stretching a first-studio budget across interface, stand, cable, and mic forces hard choices.</strong> The XM8500 answers with a cardioid moving-coil dynamic that borrows the classic live-vocal recipe: a presence rise that slices through small-room mixes, an integrated two-stage pop filter, and internal shock mounting. The all-metal body ships with an impact-resistant case and stand adapter, and the XLR connection runs without phantom power into any interface or mixer.\n\nThe mic fits beginners tracking loud vocals, rehearsals, and demos where durability matters more than subtlety, pairing naturally with an inexpensive interface as the lowest-cost route to a credible vocal chain. Fine studio detail and low self-noise remain the territory of condensers, so loud and forceful sources flatter it most while whispered passages expose its limits.",
-        "content_es": "<strong>Estirar el presupuesto inicial entre interfaz, pie, cable y micrófono obliga a decidir bien.</strong> El XM8500 responde con un dinámico cardioide de bobina móvil de receta clásica para la voz en directo: realce de presencia que atraviesa mezclas caseras, filtro antipop integrado de dos etapas y suspensión interna. El cuerpo metálico llega con estuche resistente y adaptador de soporte, y la conexión XLR funcióna sin phantom en cualquier interfaz o mesa.\n\nEncaja con quien graba voces potentes, ensayos y maquetas donde la resistencia vale tanto como el matiz, junto a una interfaz sencilla como vía directa hacia una cadena vocal creíble. El detalle fino y el silencio de fondo siguen siendo terreno del condensador, así que las fuentes fuertes lo favorecen mientras los susurros muestran sus límites.",
-        "products": [
-          330
-        ]
-      },
-      {
-        "heading": "SSL 2+ MKII: Console Character Without the Console",
-        "heading_es": "SSL 2+ MKII: carácter de mesa sin la mesa",
-        "content": "<strong>Console character once demanded a large desk and a larger loan.</strong> The 2+ MKII compresses that idea into a USB-C interface with two SSL 4K preamps, a Legacy 4K analogue channel strip, and converters rated at 32-bit and 192 kHz. Two XLR/TRS combo inputs plus MIDI I/O cover mic, line, and keyboard sources, while the monitoring section keeps tracking and playback balances under control. Loopback and DC-coupled outputs extend the unit toward streaming and modular setups.\n\nThe interface suits newcomers who want recorded tracks to carry analogue color from the start instead of adding it later with plugins. Heavy equalization and compression choices baked in during tracking cannot be undone cleanly, so beginners still learning gain staging should print the Legacy circuit sparingly until the ear learns its weight.",
-        "content_es": "<strong>El carácter de consola antes pedía una mesa grande y un crédito mayor.</strong> El 2+ MKII resume esa idea en una interfaz USB-C con dos previos SSL 4K, channel strip analógico Legacy 4K y conversores de 32 bits a 192 kHz. Dos entradas combo XLR/TRS más MIDI cubren micro, línea y teclado, mientras la sección de monitoreo mantiene el equilibrio entre toma y reproducción. El loopback y las salidas DC-coupled abren la puerta al streaming y al entorno modular.\n\nLa interfaz conviene a quien desea que las pistas nazcan con color analógico en lugar de añadirlo después con plugins. La ecualización y la compresión impresas durante la toma apenas se corrigen luego, así que quien aún aprende a ajustar ganancia debería usar el circuito Legacy con mesura hasta educar el oído.",
-        "products": [
-          18
-        ]
-      },
-      {
-        "heading": "Rode NT1 5th Generation: 4 dBA of Self-Noise",
-        "heading_es": "Rode NT1 5th Generation: 4 dBA de ruido propio",
-        "content": "<strong>Hiss becomes obvious the moment a beginner compresses a quiet vocal take.</strong> The NT1 5th Generation attacks that problem with an exceptionally quiet condenser design rated at 4dBA self-noise, paired with Dual Connect XLR plus USB output and 32-bit float recording. The warm and smooth character flatters sung lines, and the box includes a shock mount and pop filter so the mic arrives ready to track. Cardioid pickup keeps room reflections at reasonable levels.\n\nThe microphone suits first studios chasing clean sung vocals, voiceover, and acoustic guitar where clarity outranks aggression. USB operation simplifies day one, yet the format cannot replace learning proper gain, placement, and room treatment through XLR, so progress still depends on technique rather than on the converter alone.",
-        "content_es": "<strong>El soplo aparece en cuanto se comprime una toma vocal suave.</strong> El NT1 de quinta generación ataca ese frente con un diseño de condensador de ruido propio de 4dBA, salida Dual Connect XLR más USB y grabación en coma flotante de 32 bits. El carácter cálido y suave favorece las líneas cantadas, y la caja incluye suspensión y filtro antipop para grabar desde el primer día. La cápsula cardioide mantiene las reflexiones de la sala a raya.\n\nEl micrófono conviene a estudios iniciales que buscan voces cantadas, locución y guitarra acústica con nitidez antes que agresividad. El USB simplifica el arranque, pero no sustituye el aprendizaje de ganancia, colocación y tratamiento con XLR, así que el avance sigue dependiendo de la técnica tanto como del conversor.",
-        "products": [
-          3
-        ]
-      },
-      {
-        "heading": "Aston Shield GN: Killing Plosives Mechanically",
-        "heading_es": "Aston Shield GN: los chasquidos resueltos a golpes",
-        "content": "<strong>Plosives ruin otherwise solid beginner takes, and software repair rarely sounds invisible.</strong> The Shield GN addresses the issue mechanically with a stainless steel screen drilled in a HexTech hole pattern that disperses breath blasts before they strike the capsule. A deluxe gooseneck holds position under handling, and the fast mounting system clamps onto a stand in seconds without tools. Steel construction resists dents and stretching over time.\n\nThe filter suits first vocal corners where a condenser meets an untreated room and every popped syllable costs another take. It adds no tone of its own and cannot rescue poor mic placement or boomy corners, so view it as cheap insurance for cleaner raw tracks rather than a fix for technique.",
-        "content_es": "<strong>Las oclusivas arruinan tomas iniciales por lo demás válidas, y la reparación digital rara vez resulta invisible.</strong> El Shield GN ataca el problema en origen con una pantalla de acero inoxidable perforada con patrón HexTech que dispersa el golpe de aire antes de llegar a la cápsula. El cuello de ganso de lujo mantiene la posición durante el manejo, y el montaje rápido se fija al pie en segundos sin herramientas. El acero aguanta golpes y el paso del tiempo.\n\nEl filtro conviene a rincones vocales donde un condensador se enfrenta a una sala sin tratar y cada sílaba explosiva cuesta otra toma. No aporta timbre propio ni corrige una mala colocación o esquinas retumbonas, así que conviene verlo como seguro barato para pistas crudas más limpias y no como atajo de técnica.",
-        "products": [
-          39
-        ]
-      },
-      {
-        "heading": "Yamaha HS8: Monitors That Refuse to Flatter You",
-        "heading_es": "Yamaha HS8: monitores que no te adulan",
-        "content": "<strong>Mixes that translate start with monitors that refuse to flatter.</strong> The HS8 follows that school with an eight-inch cone woofer and one-inch dome tweeter in a bi-amplified two-way cabinet rated at 120W, plus room-control switches for taming placement issues. Bass arrives extended enough to judge kick and low synths, while the midrange stays blunt about harsh resonances. XLR and TRS inputs accept standard interface feeds directly.\n\nThe monitor suits beginners who want honest reference playback to learn balance, panning, and low-end restraint in a first treated corner. The eight-inch driver moves serious air for its size and excites small untreated rooms easily, so placement, distance from walls, and basic absorption matter as much as the speaker itself.",
-        "content_es": "<strong>Las mezclas que trasladan bien nacen de monitores que no adulan.</strong> El HS8 sigue esa escuela con woofer de cono de ocho pulgadas y tweeter de cúpula de una pulgada en caja biamplificada de 120W, más controles de sala para domar la colocación. Los graves alcanzan para juzgar bombo y sintes bajos, mientras los medios delatan resonancias ásperas sin piedad. Las entradas XLR y TRS reciben la señal directa de la interfaz.\n\nEl monitor conviene a quien busca una referencia honesta para aprender balance, panorama y contención de graves en un primer rincón tratado. El driver de ocho pulgadas mueve mucho aire y excita con facilidad salas pequeñas sin tratar, así que la colocación, la distancia a las paredes y una absorción básica pesan tanto como el propio altavoz.",
-        "products": [
-          19
-        ]
-      },
-      {
-        "heading": "K&M 210/2: The Stand That Ends the Wobble",
-        "heading_es": "K&M 210/2: el soporte que acaba con el temblor",
-        "content": "<strong>A wobbling stand teaches bad habits faster than any tutorial corrects them.</strong> The 210/2 counters with German-built zinc die-cast hardware and a telescopic boom arm that extends smoothly before locking firmly at the chosen angle. Joints hold vocal mics, small condensers, and placement experiments without drifting mid-take. The base footprint stays stable under typical home-studio knocks and cable pulls.\n\nThe stand suits beginners buying once rather than replacing flimsy hardware every year, anchoring a first vocal or instrument corner for decades of sessions. It contributes nothing to tone and cannot compensate for a poor room, so pair it with sensible placement and treatment while the rest of the chain grows around a support that simply stays put.",
-        "content_es": "<strong>Un pie inestable enseña malos hábitos más rápido de lo que corrige cualquier tutorial.</strong> El 210/2 responde con herrajes alemanes de zinc fundido y brazo telescópico que se extiende con suavidad y se bloquea con firmeza en el ángulo elegido. Las articulaciones sostienen voces, condensadores pequeños y pruebas de colocación sin ceder a mitad de toma. La base mantiene el equilibrio ante tirones de cable y roces caseros.\n\nEl soporte conviene a quien prefiere comprar una vez en lugar de reponer herrajes endebles cada año, como ancla del primer rincón vocal o instrumental durante décadas de sesiones. No aporta timbre ni compensa una sala pobre, así que conviene combinarlo con buena colocación y tratamiento mientras el resto del equipo crece alrededor de un apoyo que simplemente permanece firme.",
-        "products": [
-          58
         ]
       }
     ],
-    "conclusion": "With this setup — Scarlett 2i2, SM57, ATH-M50x, KRK Rokit 7 G5, a K&M stand, and a Mogami cable — you can record, mix, and release professional music. Sessions tracked with exactly this chain achieve professional quality. Start here, learn your craft, and upgrade only when your skill outgrows your gear. <p><a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">Best Audio Interface for Home Recording</a> <a href=\"/guides/best-microphone.html\" class=\"guide-link-btn\">Best Microphone for Vocals & Home Recording</a> <a href=\"/guides/best-headphones.html\" class=\"guide-link-btn\">Best Studio Headphones for Mixing & Tracking</a></p>",
-    "conclusion_es": "Con esta configuración — Scarlett 2i2, SM57, ATH-M50x, KRK Rokit 7 G5, un soporte K&M y un cable Mogami — puedes grabar, mezclar y publicar música profesional. Las sesiones grabadas exactamente con esta cadena logran calidad profesional. Empieza aquí, aprende tu arte y actualiza solo cuando tu habilidad supere al equipo. <p>También te interesa: <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">Mejor Interfaz de Audio para Grabación Casera</a> <a href=\"/guides/best-microphone_es.html\" class=\"guide-link-btn\">Mejor Micrófono para Voces y Grabación Casera</a> <a href=\"/guides/best-headphones_es.html\" class=\"guide-link-btn\">Mejores Auriculares de estudio para Mezcla y Seguimiento</a></p>",
+    "conclusion": "<p>Start with the Budget build and the SM57. It is the cheapest honest way to find out whether you actually like recording yourself, and every part of it can move to the next tier without being wasted.</p><p>The Pro Producer is the one to buy if you are going to sing. The NT1 5th Generation is the quietest large-diaphragm condenser available new, and the ATH-M50x will not flatter anything you mix. That combination catches mistakes instead of hiding them, which is the only reason a mixing headphone is worth buying.</p><p>Add the Rokit 7 G5 pair only when you have treated the room and you need to judge low end. Before that, the headphones are not a compromise — they are the right tool for the hour of the day you are actually working.</p><p>And whatever you spend on the rest, do not skip the panels. The cheapest microphone in any of these builds will sound better in a treated room than the most expensive one will sound in an untreated bedroom.</p>",
+    "conclusion_es": "<p>Empieza por el montaje Básico y el SM57. Es la forma barata y honesta de averiguar si de verdad te gusta grabarte, y cada pieza se puede mover al siguiente tier sin desperdiciarse.</p><p>El Productor Profesional es el que hay que comprar si vas a cantar. El NT1 5th Generation es el condensador de diafragma grande más silencioso que hay nuevo, y los ATH-M50x no van a adular nada de lo que mezcles. Esa combinación atrapa los errores en vez de esconderlos, y esa es la única razón por la que merece la pena comprar auriculares de mezcla.</p><p>Añade el par de Rokit 7 G5 solo cuando hayas tratado la sala y necesites juzgar el grave. Antes de eso, los auriculares no son un compromiso: son la herramienta correcta para la hora del día en la que realmente trabajas.</p><p>Y gastes lo que gastes en lo demás, no te saltes los paneles. El micrófono más barato de cualquiera de estos montajes sonará mejor en una sala tratada que el más caro en un dormitorio sin tratar.</p>",
     "verdict": "This is the best overall starter studio: a reliable interface, a real dynamic mic, decent headphones, and monitoring that doesn't lie. Start here, learn the chain, then upgrade one piece at a time.",
     "verdict_es": "Este es el mejor estudio inicial completo: una interfaz fiable, un micrófono dinámico real, buenos auriculares y un monitoreo que no miente. Empieza aquí, aprende la cadena y luego mejora pieza por pieza.",
     "featuredProducts": [
+      15,
       18,
+      5,
       3,
+      297,
+      25,
       26,
-      19,
-      167,
+      20,
       170,
-      277,
-      330,
+      58,
       39,
-      58
+      167
     ],
     "relatedGuides": [
       "scarlett-vs-ssl",
@@ -192,12 +104,12 @@
       "best-microphone",
       "best-headphones"
     ],
-    "description": "In 2026, I built my first home studio on and tracked a whole EP on it. The 6 items that matter, ranked by what I actually used every day. Read the full.",
+    "description": "Three complete home studio builds under $1,000, priced from our catalogue. What $426, $816 and $905 actually buy, and why room treatment is not optional.",
     "featuredSnippet": {
       "title_en": "Home Studio Starter Kit: Everything You Need",
       "text_en": "Your interface is the command center. It converts your microphone and instrument signals into digital audio your computer can work with. For a starter studio, you want something reliable, low-latency,...",
-      "name1_en": "",
-      "name2_en": "",
+      "name1_en": "SSL 2+ MKII",
+      "name2_en": "Focusrite Scarlett 2i2 4th Gen",
       "price1": "",
       "price2": "",
       "type1": "interfaces",
@@ -212,8 +124,8 @@
       "rating2": 0,
       "title_es": "Kit de Home Studio para empezar desde cero ",
       "text_es": "Tu interfaz es el centro de comando. Convierte las señales de tu micrófono e instrumentos en audio digital con el que tu ordenador puede trabajar. Para un estudio inicial, necesitas algo confiable,...",
-      "name1_es": "",
-      "name2_es": "",
+      "name1_es": "SSL 2+ MKII",
+      "name2_es": "Focusrite Scarlett 2i2 4th Gen",
       "best1_es": "",
       "best2_es": "",
       "key1_es": "",
@@ -240,7 +152,7 @@
       "faq_q5_es": "¿Puedo armar un estudio inicial con un presupuesto ajustado?",
       "faq_a5_es": "Sí — exactamente para eso está diseñado este kit. Enfoca tu presupuesto en este orden: primero una interfaz de audio capaz, un buen micrófono dinámico para voz, un par de monitores económicos o auriculares que conozcas bien, y luego todo lo demás. No necesitas un micrófono caro ni un mezclador analógico grande para hacer grabaciones que se traduzcan bien. Un presupuesto bien repartido supera a uno mal repartido cada vez."
     },
-    "description_es": "En 2026, Monté mi primer home studio con poco equipo y grabé un EP completo en él. Los 6 imprescindibles, ordenados por lo que realmente usé a diario.",
+    "description_es": "Tres montajes de estudio doméstico por menos de $1.000, con precios de nuestro catálogo. Qué compran $426, $816 y $905, y por qué trata la sala.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -268,194 +180,164 @@
     },
     "aboutName": "Audio Interfaces",
     "productTable": {
-      "title": "Starter Studio Gear Compared in This Guide",
-      "title_es": "Comparativa del equipo de estudio inicial en esta guía",
       "columns": [
         {
-          "title": "Focusrite Scarlett 2i2 4th Gen",
-          "title_es": "Focusrite Scarlett 2i2 4th Gen"
+          "title": "Budget Essentials Setup",
+          "title_es": "Equipo básico esencial"
         },
         {
-          "title": "Shure SM57",
-          "title_es": "Shure SM57"
+          "title": "Pro Producer Setup",
+          "title_es": "Equipo de productor profesional"
         },
         {
-          "title": "Audio-Technica ATH-M50x",
-          "title_es": "Audio-Technica ATH-M50x"
-        },
-        {
-          "title": "KRK Rokit 7 G5",
-          "title_es": "KRK Rokit 7 G5"
-        },
-        {
-          "title": "SSL 2+ MKII",
-          "title_es": "SSL 2+ MKII"
-        },
-        {
-          "title": "Rode NT1 5th Generation",
-          "title_es": "Rode NT1 5.ª Gen"
-        },
-        {
-          "title": "Sony MDR-7506",
-          "title_es": "Sony MDR-7506"
-        },
-        {
-          "title": "Yamaha HS8",
-          "title_es": "Yamaha HS8"
+          "title": "Ultimate Powerhouse Setup",
+          "title_es": "Equipo definitivo"
         }
       ],
       "rows": [
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Role in the Chain",
+          "label_es": "Función en la cadena",
           "values": [
             {
-              "value": "Best all-around entry interface",
-              "value_es": "La mejor interfaz de entrada versátil"
+              "value": "Interface",
+              "value_es": "Interfaz"
             },
             {
-              "value": "Guitar amps & vocals",
-              "value_es": "Amplificadores de guitarra y voces"
+              "value": "Interface",
+              "value_es": "Interfaz"
             },
             {
-              "value": "Portable production & tracking",
-              "value_es": "Producción portátil y grabación"
-            },
-            {
-              "value": "Punchy rock & hip-hop mixing",
-              "value_es": "Mezcla con punch para rock y hip-hop"
-            },
-            {
-              "value": "Home studio recording with console tone",
-              "value_es": "Grabación casera con sonido de consola"
-            },
-            {
-              "value": "Cleanest studio vocals",
-              "value_es": "Las voces de estudio más limpias"
-            },
-            {
-              "value": "Budget broadcast tracking",
-              "value_es": "Grabación económica de broadcast"
-            },
-            {
-              "value": "Honest reference mixing",
-              "value_es": "Mezcla de referencia honesta"
+              "value": "Interface",
+              "value_es": "Interfaz"
             }
           ]
         },
         {
-          "label": "Type",
-          "label_es": "Tipo",
+          "label": "Interface",
+          "label_es": "Interfaz",
           "values": [
             {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
+              "value": "Focusrite Scarlett 2i2 4th Gen",
+              "value_es": "Focusrite Scarlett 2i2 4th Gen"
             },
             {
-              "value": "Dynamic microphone",
-              "value_es": "Micrófono dinámico"
+              "value": "SSL 2+ MKII",
+              "value_es": "SSL 2+ MKII"
             },
             {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
-            },
-            {
-              "value": "Audio interface",
-              "value_es": "Interfaz de audio"
-            },
-            {
-              "value": "Condenser (LDC)",
-              "value_es": "Micrófono condensador (LDC)"
-            },
-            {
-              "value": "Closed-back",
-              "value_es": "Cerrados"
-            },
-            {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
+              "value": "SSL 2+ MKII",
+              "value_es": "SSL 2+ MKII"
             }
           ]
         },
         {
-          "label": "Connectivity",
+          "label": "Microphone",
+          "label_es": "Micrófono",
           "values": [
             {
-              "value": "USB-C, 2x XLR/TRS combo, MIDI I/O",
-              "value_es": "USB-C, 2x XLR/TRS combo, MIDI I/O"
+              "value": "Shure SM57 (dynamic)",
+              "value_es": "Shure SM57 (dinámico)"
             },
             {
-              "value": "XLR (balanced)",
-              "value_es": "XLR (balanceado)"
+              "value": "Rode NT1 5th Generation (condenser)",
+              "value_es": "Rode NT1 5th Generation (condensador)"
             },
             {
-              "value": "3.5 mm TRS + 1/4\" adapter",
-              "value_es": "3.5 mm TRS + adaptador 1/4\""
-            },
-            {
-              "value": "XLR, TRS, RCA",
-              "value_es": "XLR, TRS, RCA"
-            },
-            {
-              "value": "USB-C, 2x XLR/TRS combo, MIDI I/O",
-              "value_es": "USB-C, 2x XLR/TRS combo, MIDI I/O"
-            },
-            {
-              "value": "XLR (balanced)",
-              "value_es": "XLR (balanceado)"
-            },
-            {
-              "value": "3.5 mm TRS + 1/4\" adapter",
-              "value_es": "3.5 mm TRS + adaptador 1/4\""
-            },
-            {
-              "value": "XLR, TRS",
-              "value_es": "XLR, TRS"
+              "value": "Rode NT1 Signature (condenser)",
+              "value_es": "Rode NT1 Signature (condensador)"
             }
-          ],
-          "label_es": "Conectividad"
+          ]
         },
         {
-          "label": "Key Specs",
+          "label": "Headphones",
+          "label_es": "Auriculares",
           "values": [
             {
-              "value": "24-bit/192 kHz, Air mode, 56 dB gain",
-              "value_es": "24-bit/192 kHz, modo Air, 56 dB ganancia"
+              "value": "Not included — add later",
+              "value_es": "No incluidos — añádelos después"
             },
             {
-              "value": "Cardioid, 150 Ω, 1–100 kHz response",
-              "value_es": "Cardioide, 150 Ω, respuesta 1–100 kHz"
+              "value": "Audio-Technica ATH-M50x",
+              "value_es": "Audio-Technica ATH-M50x"
             },
             {
-              "value": "45 mm drivers, 15–28,000 Hz, 38 Ω",
-              "value_es": "Drivers 45 mm, 15–28,000 Hz, 38 Ω"
-            },
-            {
-              "value": "7\" Kevlar woofer, 1\" tweeter, 145 W Class D",
-              "value_es": "Woofer 7\" Kevlar, tweeter 1\", 145 W Clase D"
-            },
-            {
-              "value": "24-bit/192 kHz, Legacy 4K mode, SSL preamps",
-              "value_es": "24-bit/192 kHz, modo Legacy 4K, previos SSL"
-            },
-            {
-              "value": "1\" gold-sputtered capsule, cardioid, self-noise 7 dB-A",
-              "value_es": "Cápsula 1\" gold-sputtered, cardioide, auto-ruido 7 dB-A"
-            },
-            {
-              "value": "40 mm drivers, 10–20,000 Hz, 63 Ω",
-              "value_es": "Drivers 40 mm, 10–20,000 Hz, 63 Ω"
-            },
-            {
-              "value": "8\" cone woofer, 1\" dome tweeter, 120 W bi-amp",
-              "value_es": "Woofer 8\" cono, tweeter 1\" cúpula, 120 W bi-amp"
+              "value": "Sony MDR-7506",
+              "value_es": "Sony MDR-7506"
             }
-          ],
-          "label_es": "Datos clave"
+          ]
+        },
+        {
+          "label": "Studio Monitors",
+          "label_es": "Monitores",
+          "values": [
+            {
+              "value": "Headphones only",
+              "value_es": "Solo auriculares"
+            },
+            {
+              "value": "Headphones only",
+              "value_es": "Solo auriculares"
+            },
+            {
+              "value": "KRK Rokit 7 G5 (pair)",
+              "value_es": "KRK Rokit 7 G5 (par)"
+            }
+          ]
+        },
+        {
+          "label": "Accessories",
+          "label_es": "Accesorios",
+          "values": [
+            {
+              "value": "K&M 210/2 stand",
+              "value_es": "Soporte K&M 210/2"
+            },
+            {
+              "value": "Pop filter recommended",
+              "value_es": "Filtro antipop recomendado"
+            },
+            {
+              "value": "Pop filter recommended",
+              "value_es": "Filtro antipop recomendado"
+            }
+          ]
+        },
+        {
+          "label": "Acoustic Treatment",
+          "label_es": "Tratamiento acústico",
+          "values": [
+            {
+              "value": "G4M Squarewave panels (4-pack)",
+              "value_es": "Paneles G4M Squarewave (4-pack)"
+            },
+            {
+              "value": "G4M Squarewave panels (4-pack)",
+              "value_es": "Paneles G4M Squarewave (4-pack)"
+            },
+            {
+              "value": "G4M Squarewave panels (4-pack)",
+              "value_es": "Paneles G4M Squarewave (4-pack)"
+            }
+          ]
+        },
+        {
+          "label": "Total",
+          "label_es": "Total",
+          "values": [
+            {
+              "value": "~$426",
+              "value_es": "~$426"
+            },
+            {
+              "value": "~$816",
+              "value_es": "~$816"
+            },
+            {
+              "value": "~$905",
+              "value_es": "~$905"
+            }
+          ]
         }
       ]
     },
@@ -463,431 +345,291 @@
       {
         "name": "Focusrite Scarlett 2i2 4th Gen",
         "name_es": "Focusrite Scarlett 2i2 4th Gen",
+        "productId": 15,
         "pros": [
-          "120dB dynamic range with studio-quality conversion",
-          "Air mode adds a high-frequency lift inspired by vintage Neve consoles",
-          "Loopback routing built in for streaming and podcasting",
-          "Proven interface with clean preamps and a tough chassis"
+          "120dB dynamic range and Auto Gain / Clip Safe take the guesswork out of levels",
+          "Two ultra-low-noise preamps with 69dB of gain handle condenser and dynamic mics",
+          "Bus-powered and small enough to live beside a laptop",
+          "The default first interface for a reason: drivers are stable and support is solid"
         ],
         "cons": [
-          "Only 2 inputs — a drummer or a band tracking live needs eight or more",
-          "Clean and neutral — without the analog character of the SSL 2+ MKII",
-          "USB-only, so older USB 2.0 laptops need a compatible port",
-          "No built-in MIDI I/O, so synths and drum machines need a separate interface"
+          "Two inputs means one mic plus one instrument — no drum overheads or stereo pair",
+          "No MIDI, so keyboard controllers need a separate DIN adapter",
+          "120dB is measured, not listened to; the NT1 at the same price is quieter in the room",
+          "Bus power can limit gain with heavy condenser mics on some laptops"
         ],
         "pros_es": [
-          "120 dB de rango dinámico con conversión de nivel profesional",
-          "El modo Air añade un realce de altas frecuencias inspirado en consolas Neve vintage",
-          "Enrutamiento Loopback integrado para streaming y podcasting",
-          "Interfaz probada con previos limpios y un chasis resistente"
+          "120 dB de rango dinámico y Auto Gain / Clip Safe te quitan la duda de los niveles",
+          "Dos preamplificadores de ruido ultrabajo con 69 dB de ganancia manejan condensadores y dinámicos",
+          "Se alimenta por bus y es lo bastante pequeña para vivir junto al portátil",
+          "La primera interfaz por defecto y por algo: drivers estables y soporte sólido"
         ],
         "cons_es": [
-          "Solo 2 entradas — un baterista o una banda grabando en vivo necesita ocho o más",
-          "Limpia y neutra — sin el carácter analógico de la SSL 2+ MKII",
-          "Solo USB, así que los portátiles antiguos con USB 2.0 necesitan un puerto compatible",
-          "Sin MIDI I/O integrado, así que sintetizadores y cajas de ritmos necesitan interfaz aparte"
-        ]
-      },
-      {
-        "name": "Shure SM57",
-        "name_es": "Shure SM57",
-        "pros": [
-          "Die-cast body that survives drops, heat and decades of stage abuse",
-          "Indestructible — handles vocals, guitar amps and podcasts",
-          "Tight cardioid rejects off-axis sound, keeping bleed from other instruments out of the take",
-          "150Ω output works with any mixer or interface"
-        ],
-        "cons": [
-          "Needs an interface and XLR cable — no USB option",
-          "Raw and present on vocals — a condenser like the NT1 5th Gen captures cleaner detail",
-          "Presence boost is voiced to cut through a mix, not flatter a voice",
-          "No pad or filter on the mic, so very loud sources can clip without careful gain"
-        ],
-        "pros_es": [
-          "Cuerpo fundido que sobrevive a caídas, calor y décadas de escenario",
-          "Indestructible — maneja voces, amplificadores de guitarra y podcasts",
-          "El cardioide ajustado rechaza el sonido fuera de eje, manteniendo la fuga de otros instrumentos fuera de la toma",
-          "La salida de 150Ω funcióna con cualquier mesa o interfaz"
-        ],
-        "cons_es": [
-          "Necesita una interfaz y cable XLR — sin opción USB",
-          "Crudo y presente en voces — un condensador como el NT1 5ta Gen captura un detalle más limpio",
-          "El realce de presencia está pensado para cortar en la mezcla, no para favorecer la voz",
-          "Sin pad ni filtro en el micro, así que fuentes muy fuertes pueden saturar sin ajustar la ganancia"
-        ]
-      },
-      {
-        "name": "Audio-Technica ATH-M50x",
-        "name_es": "Audio-Technica ATH-M50x",
-        "pros": [
-          "45mm large-aperture drivers deliver detailed, balanced sound",
-          "Collapsible design with detachable cable and carrying pouch for portability",
-          "Closed-back cups isolate you from room noise while tracking",
-          "Translate well to other systems — a versatile pick for beginners"
-        ],
-        "cons": [
-          "Bass is slightly emphasized — you may under-mix low end on other systems",
-          "Closed-back soundstage is narrower than an open reference like the HD 490 Pro Plus",
-          "Learn the bass character before trusting low-frequency decisions",
-          "Firm headband clamp from the factory can tire long sessions until it settles"
-        ],
-        "pros_es": [
-          "Drivers de 45mm de gran apertura con sonido detallado y equilibrado",
-          "Diseño plegable con cable desmontable y bolsa de transporte para portabilidad",
-          "Las copas cerradas te aíslan del ruido de sala mientras grabas",
-          "Se traducen bien a otros sistemas — una elección versátil para principiantes"
-        ],
-        "cons_es": [
-          "Los graves están ligeramente realzados — podrías quedarte corto de graves en otros sistemas",
-          "El escenario cerrado es más estrecho que el de una referencia abierta como la HD 490 Pro Plus",
-          "Aprende el carácter de graves antes de confiar en decisiones de baja frecuencia",
-          "La presión del arnés es firme de fábrica, así que las sesiones largas pueden apretar hasta que se asienta"
-        ]
-      },
-      {
-        "name": "KRK Rokit 7 G5",
-        "name_es": "KRK Rokit 7 G5",
-        "pros": [
-          "Built-in DSP room correction lets you tune the bass to your room without treatment",
-          "Front-firing bass port works well in small rooms",
-          "Kevlar drivers deliver punchy, detailed mids",
-          "Front-ported design that works close to walls in untreated bedrooms"
-        ],
-        "cons": [
-          "Generous bass needs a learning curve — check mixes on other systems",
-          "Polished and flattering — the Yamaha HS8 is more brutally honest for learning real mixing",
-          "Rear EQ switches must be re-tuned when you change rooms",
-          "Auto-standby can switch off during quiet passages"
-        ],
-        "pros_es": [
-          "La corrección de sala DSP integrada permite ajustar los graves a tu habitación sin tratamiento",
-          "El puerto de graves frontal funcióna bien en salas pequeñas",
-          "Los drivers de Kevlar ofrecen medios contundentes y detallados",
-          "Diseño con puerto frontal que funcióna pegado a la pared en dormitorios sin tratar"
-        ],
-        "cons_es": [
-          "Los graves generosos requieren aprendizaje — comprueba tus mezclas en otros sistemas",
-          "Contundente y favorecedor — el Yamaha HS8 es más brutalmente honesto para aprender mezclas reales",
-          "Sus interruptores de EQ traseros hay que reajustarlos al cambiar de habitación",
-          "El auto-standby puede apagarse en pasajes silenciosos"
+          "Dos entradas significa un micro más un instrumento: ni overheads ni par estéreo",
+          "Sin MIDI, los teclados necesitan un adaptador DIN aparte",
+          "Los 120 dB son medidos, no escuchados; el NT1 al mismo precio hace menos ruido en la sala",
+          "La alimentación por bus puede limitar la ganancia con condensadores pesados en algunos portátiles"
         ]
       },
       {
         "name": "SSL 2+ MKII",
         "name_es": "SSL 2+ MKII",
+        "productId": 18,
         "pros": [
-          "Brings the classic British console sound to a home studio",
-          "Studio-grade preamps with plenty of clean gain for dynamics",
-          "Extra I/O and flexibility for expanding your setup",
-          "32-bit/192 kHz converters capture clean detail"
+          "The 4K Legacy button puts SSL console character on the input, not in a plugin",
+          "Dual headphone outputs let a singer and engineer monitor independently",
+          "MIDI I/O included — the one thing the Scarlett leaves out",
+          "Consoles and monitor controllers are the same box, so the desk stays short"
         ],
         "cons": [
-          "Costs more than the entry-level Scarlett for similar channel count",
-          "Needs an interface driver setup like any USB unit",
-          "Not a multi-input interface for live band tracking",
-          "No ADAT expansion for growing input count"
+          "Two inputs and two outputs only — it is not a growable interface",
+          "No bundled software beyond the 4K circuit; you bring your own DAW",
+          "The 4K is one flavour, not a choice — there is no way to switch it off mid-session",
+          "Heavier and larger than the Scarlett for the same two channels"
         ],
         "pros_es": [
-          "Trae el clásico sonido de consola británica a un estudio casero",
-          "Previolificadores de grado estudio con suficiente ganancia limpia para dinámicos",
-          "I/O adicional y flexibilidad para expandir tu configuración",
-          "Convertidores de 32 bits/192 kHz con detalle limpio"
+          "El botón 4K Legacy pone el carácter de consola SSL en la entrada, no en un plugin",
+          "Dos salidas de auriculares permiten que cantante e ingeniero escuchen por separado",
+          "Incluye MIDI: lo único que la Scarlett deja fuera",
+          "Consola y controlador de monitores en la misma caja, así que el escritorio sigue despejado"
         ],
         "cons_es": [
-          "Cuesta más que la Scarlett de entrada para un número de canales similar",
-          "Requiere configuración de drivers como cualquier unidad USB",
-          "No es una interfaz multi-entrada para grabar una banda en vivo",
-          "Sin expansión ADAT para ampliar entradas"
+          "Solo dos entradas y dos salidas: no es una interfaz que crezca",
+          "No incluye software más allá del circuito 4K: traes tu propio DAW",
+          "El 4K es un sabor único, no una elección — no hay forma de apagarlo a mitad de sesión",
+          "Más pesada y grande que la Scarlett por los mismos dos canales"
+        ]
+      },
+      {
+        "name": "Shure SM57",
+        "name_es": "Shure SM57",
+        "productId": 5,
+        "pros": [
+          "Indestructible — the microphone most touring engineers carry as a spare",
+          "Cardioid pattern with a 5kHz presence peak cuts guitar amps and snares cleanly",
+          "Works close or far: the body survives being pulled back",
+          "Cheap enough to buy two, which is the real pro move"
+        ],
+        "cons": [
+          "Not a vocal microphone — the cardioid and presence peak suit instruments over lead vocals",
+          "Needs close placement for low end; pulled back it goes thin",
+          "For loud stages a supercardioid like the Beta 58A gives more headroom",
+          "1.6 mV/Pa output is quiet next to hotter dynamics like the e935"
+        ],
+        "pros_es": [
+          "Indestructible: el micrófono que más lleva un ingeniero de gira como repuesto",
+          "Patrón cardioide con pico de presencia en 5 kHz capta amplis y cajas Genetics con limpieza",
+          "Funciona cerca o lejos: el cuerpo aguanta que lo acerques",
+          "Lo bastante barato para comprar dos, que es lo que hace un profesional de verdad"
+        ],
+        "cons_es": [
+          "No es un micrófono de voz: el cardioide y el pico de presencia van para instrumentos, no para voz principal",
+          "Necesita colocación cercana para el grave; si lo alejas se adelgaza",
+          "Para escenarios ruidosos un supercardioide como el Beta 58A da más margen",
+          "Salida de 1,6 mV/Pa: tranquila comparada con dinámicos más calientes como el e935"
         ]
       },
       {
         "name": "Rode NT1 5th Generation",
-        "name_es": "Rode NT1 5ta Generación",
+        "name_es": "Rode NT1 5th Generation",
+        "productId": 3,
         "pros": [
-          "One of the quietest condenser microphones in the world",
-          "Captures clean vocals and acoustic instruments with detail",
-          "Comes with a shock mount and pop filter included",
-          "USB and XLR, so it works now and grows with you later"
+          "4 dBA self-noise — the quietest large-diaphragm condenser you can buy new",
+          "Dual Connect: XLR and USB on the same body, so it works with and without an interface",
+          "Includes shock mount, pop filter and XLR cable in the box",
+          "Still the default first condenser for vocals, guitars and acoustic instruments"
         ],
         "cons": [
-          "More sensitive than a dynamic — treats untreated rooms less forgivingly",
-          "A condenser: you need phantom power over XLR in most setups",
-          "More expensive than a dynamic like the SM57 for basic podcasting",
-          "No pad or filter switches on the body"
+          "Its own USB output is 24-bit/192 kHz but the internal conversion is the weaker half of the package",
+          "Needs 48V phantom power — no phantom from a passive preamp",
+          "Heavier and pricier than a bundle condenser of comparable character",
+          "Self-noise numbers are measured at 20 dB gain; real rooms add their own noise floor"
         ],
         "pros_es": [
-          "Uno de los micrófonos de condensador más silenciosos del mundo",
-          "Captura voces limpias e instrumentos acústicos con detalle",
-          "Incluye soporte antigolpes y filtro antipop",
-          "USB y XLR, así que funcióna ahora y crece contigo después"
+          "4 dBA de ruido propio: el condensador de diafragma grande más silencioso que puedes comprar nuevo",
+          "Dual Connect: XLR y USB en el mismo cuerpo, así que funciona con y sin interfaz",
+          "Incluye shock mount, filtro antipop y cable XLR en la caja",
+          "Sigue siendo el primer condensador por defecto para voz, guitarra y instrumentos acústicos"
         ],
         "cons_es": [
-          "Más sensible que un dinámico — perdona menos las salas sin tratar",
-          "Al ser condensador, en la mayoría de setups necesitas alimentación fantasma por XLR",
-          "Más caro que un dinámico como el SM57 para podcasting básico",
-          "Sin atenuador ni filtros en el propio micro"
-        ]
-      },
-      {
-        "name": "Sony MDR-7506",
-        "name_es": "Sony MDR-7506",
-        "pros": [
-          "Proven broadcast standard since 1991",
-          "Forward, revealing mids for honest monitoring",
-          "Closed-back, so it also tracks vocals and instruments",
-          "Folds flat and survives drops"
-        ],
-        "cons": [
-          "Fixed non-detachable cable — a frayed wire means a new pair",
-          "63Ω impedance wants a stronger headphone out than a phone",
-          "Simpler earpads are less comfortable than the M50x in long sessions",
-          "Bright treble can sound harsh on modern mixes"
-        ],
-        "pros_es": [
-          "Estándar de transmisión probado desde 1991",
-          "Medios directos y reveladores para un monitoreo honesto",
-          "Cerrados, así que también sirven para grabar voces e instrumentos",
-          "Se pliegan planos y sobreviven caídas"
-        ],
-        "cons_es": [
-          "Cable fijo no desmontable — un cable desgastado significa un par nuevo",
-          "La impedancia de 63Ω pide una salida de auriculares más potente que la de un móvil",
-          "Las almohadillas simples son menos cómodas que las del M50x en sesiones largas",
-          "Agudos brillantes que pueden sonar duros en mezclas modernas"
-        ]
-      },
-      {
-        "name": "Yamaha HS8",
-        "name_es": "Yamaha HS8",
-        "pros": [
-          "Straightforward and honest, it reveals every flaw in your mix",
-          "Brutally honest and revealing — ideal for learning what a great mix sounds like",
-          "Deeper low end than smaller monitors for a fuller picture",
-          "Room-control switches help tame small spaces"
-        ],
-        "cons": [
-          "Unforgiving — exposes mediocre mixes clearly",
-          "Bigger than 5-inch models, so needs more room and careful placement",
-          "Costs more than the KRK Rokit for beginners",
-          "Rear bass port needs wall clearance to breathe"
-        ],
-        "pros_es": [
-          "Honesto y directo, revela cada defecto de tu mezcla",
-          "Brutalmente honesto y revelador — ideal para aprender cómo suena una gran mezcla",
-          "Graves más profundos que los monitores más pequeños para una imagen más completa",
-          "Controles de sala que ayudan a domar espacios pequeños"
-        ],
-        "cons_es": [
-          "Implacable — expone con claridad las mezclas mediocres",
-          "Más grandes que los modelos de 5 pulgadas, requieren más espacio y una colocación cuidada",
-          "Cuestan más que el KRK Rokit para principiantes",
-          "Puerto trasero de graves que pide distancia a la pared"
-        ]
-      },
-      {
-        "name": "Maono PD200X Dynamic Microphone",
-        "name_es": "Micrófono Dinámico Maono PD200X",
-        "pros": [
-          "All-metal body with shock mount and full stand included",
-          "Dynamic cardioid handles loud, untreated rooms",
-          "USB and XLR outputs for easy upgrading",
-          "Headphone jack, gain knob and tap-to-mute light",
-          "Free Maono Link software with EQ and noise suppression"
-        ],
-        "pros_es": [
-          "Cuerpo totalmente metálico con suspensión y soporte completo incluidos",
-          "El cardioide dinámico maneja salas ruidosas y sin tratar",
-          "Salidas USB y XLR para mejorar fácilmente",
-          "Salida de auriculares, perilla de ganancia y luz de silencio",
-          "Software Maono Link gratuito con EQ y supresión de ruido"
-        ],
-        "cons": [
-          "Heavier than desk condensers of the same price",
-          "Software is nice-to-have but not essential",
-          "Takes up more desk space with the full stand",
-          "Dynamic capsule needs more gain than condensers — quiet voices need the knob up"
-        ],
-        "cons_es": [
-          "Más pesado que los condensadores de escritorio del mismo precio",
-          "El software es un extra agradable pero no esencial",
-          "Ocupa más espacio en el escritorio con el soporte completo",
-          "La cápsula dinámica pide más ganancia que un condensador — las voces suaves necesitan subir la perilla"
-        ]
-      },
-      {
-        "name": "Aston Microphones Shield GN Pop Filter",
-        "name_es": "Filtro Antipop Aston Microphones Shield GN",
-        "pros": [
-          "Premium stainless steel with unique HexTech filter holes",
-          "Eliminates plosives without coloring the sound",
-          "Deluxe gooseneck stays exactly where you put it — no drooping",
-          "Crocodile clip mounts to any stand in seconds"
-        ],
-        "pros_es": [
-          "Acero inoxidable premium con orificios HexTech exclusivos",
-          "Elimina las oclusivas sin colorear el sonido",
-          "El cuello de ganso de lujo se queda exactamente donde lo pones — sin caerse",
-          "La pinza de cocodrilo se monta en cualquier soporte en segundos"
-        ],
-        "cons": [
-          "It costs more than budget mesh pop filters",
-          "Large head takes up more space in front of the mic",
-          "Needs a mic stand — no included arm",
-          "The metal grille can reflect high-frequency sibilance back toward the capsule, something fabric filters absorb",
-          "No adapter for odd-shaped mic clips — it suits round booms but needs extra hardware on flat arms"
-        ],
-        "cons_es": [
-          "Cuesta más que los filtros antipop de malla económicos",
-          "La cabeza grande ocupa más espacio frente al micrófono",
-          "Necesita un soporte de micrófono — sin brazo incluido",
-          "La rejilla metálica puede reflejar sibilancia de alta frecuencia de vuelta a la cápsula, algo que los filtros de tela absorben",
-          "Sin adaptador para clips de formas raras — sirve para brazos redondos pero necesita hardware extra en brazos planos"
+          "Su salida USB es de 24 bits/192 kHz, pero la conversión interna es la parte más débil del paquete",
+          "Necesita alimentación fantasma de 48 V — un preamp pasivo no da phantom",
+          "Más pesado y caro que un condensador de bundle con carácter parecido",
+          "El ruido propio se mide a 20 dB de ganancia; una sala real añade su propio suelo de ruido"
         ]
       },
       {
         "name": "Rode NT1 Signature Series",
         "name_es": "Rode NT1 Signature Series",
+        "productId": 297,
         "pros": [
-          "Ridiculously low self-noise (4 dBA)",
-          "Complete kit with premium shockmount & pop filter",
-          "Balanced 1\" capsule",
-          "Large-diaphragm condenser detail with shock mount and pop filter included"
+          "4 dBA self-noise with a 32-bit/192 kHz digital output built in",
+          "Both XLR and USB on one body, so it doubles as a USB mic when needed",
+          "Includes shock mount, pop filter and XLR cable",
+          "A condenser at a price that leaves room for monitors in the same budget"
         ],
         "cons": [
-          "Fixed cardioid pattern",
-          "No physical pad or high-pass switches",
-          "High sensitivity exposes untreated room echo",
-          "Large body needs a sturdy stand and space"
+          "The RODE-LINK app is required for zero-latency monitoring through USB — one more thing to install",
+          "32-bit float only helps if your DAW is prepared for it",
+          "Still a studio condenser: it needs 48V and a quiet room",
+          "The 5th Generation replaces it, so this is the previous model, not the current one"
         ],
         "pros_es": [
-          "Nivel de ruido propio ridículamente bajo (4 dBA)",
-          "Incluye kit completo con montura antichoque y filtro antipop premium",
-          "Cápsula 1\" muy equilibrada",
-          "Detalle de condensador de diafragma grande con suspensión y filtro antipop incluidos"
+          "4 dBA de ruido propio con salida digital de 32 bits/192 kHz integrada",
+          "XLR y USB en un mismo cuerpo, así que hace de micro USB cuando lo necesitas",
+          "Incluye shock mount, filtro antipop y cable XLR",
+          "Un condensador a un precio que deja hueco para monitores en el mismo presupuesto"
         ],
         "cons_es": [
-          "Patrón polar cardioide fijo",
-          "Carece de interruptores físicos para atenuador (pad) o filtro de corte de graves",
-          "Alta sensibilidad que expone el eco de salas sin tratar",
-          "Cuerpo grande que pide un soporte firme y espacio"
+          "La app RODE-LINK hace falta para monitoreo sin latencia por USB — una cosa más que instalar",
+          "El float de 32 bits solo ayuda si tu DAW está preparado para eso",
+          "Sigue siendo un condensador de estudio: necesita 48 V y una sala silenciosa",
+          "La 5th Generation lo sustituye: es el modelo anterior, no el actual"
         ]
       },
       {
-        "name": "K&M 210/2 Mic Stand",
-        "name_es": "Soporte de Micrófono K&M 210/2",
+        "name": "Audio-Technica ATH-M50x",
+        "name_es": "Audio-Technica ATH-M50x",
+        "productId": 25,
         "pros": [
-          "German engineering with a zinc die-cast base",
-          "Base stays planted — no slow sinking during vocal takes",
-          "Telescopic boom extends smoothly and locks firmly",
-          "Built to outlast everything else in your studio"
-        ],
-        "pros_es": [
-          "Ingeniería alemana con base de zinc fundido a presión",
-          "La base se mantiene firme — sin hundirse lentamente durante las tomas voces",
-          "El brazo telescópico se extiende suavemente y bloquea con firmeza",
-          "Construido para durar más que todo lo demás en tu estudio"
-        ],
-        "cons": [
-          "Boom arm adds footprint on cramped stages",
-          "It costs more than basic folding stands",
-          "Heavier to carry than lightweight travel stands",
-          "The zinc die-cast base is heavy — stable on stage, but awkward to backpack between sessions",
-          "No locking casters or wheels, so moving it while set up means lifting the whole boom"
+          "The most-recorded studio headphone in the world for a reason: flat, honest, no colour",
+          "45mm drivers with rare-earth magnets for detail without harshness",
+          "Detachable cable and collapsible frame — survives a backpack",
+          "Works on studio monitors or without them, which is why it is the tier default"
         ],
         "cons_es": [
-          "El brazo ocupa espacio en escenarios pequeños",
-          "Cuesta más que los soportes plegables básicos",
-          "Más pesado de transportar que los soportes de viaje ligeros",
-          "La base de zinc fundido es pesada — estable en el escenario, pero incómoda de llevar en mochila entre sesiones",
-          "Sin ruedas ni frenos, así que moverlo armado implica levantar todo el brazo"
+          "No incluye funda ni almohadillas de repuesto — las almohadillas se gastan antes que el driver",
+          "No tiene el espacio sonoro amplio y abierto de un diseño abierto",
+          "La impedancia de 49 ohmios pide una salida de auriculares real, no un dongle de móvil",
+          "El cable desmontable significa que un cable roto es una sustitución, no una reparación"
+        ],
+        "cons": [
+          "No case or spare pads in the box — the pads wear before the driver does",
+          "Not the wide, spacious soundstage of an open-back design",
+          "49 ohm impedance wants a real headphone output, not a phone dongle",
+          "Detachable cable means a broken wire is a replacement, not a repair"
+        ],
+        "pros_es": [
+          "El auriculares de estudio más grabado del mundo por algo: plano, honesto, sin color",
+          "Drivers de 45 mm con imanes de tierras raras: detalle sin dureza",
+          "Cable desmontable y plegable — sobrevive a una mochila",
+          "Funciona con monitores o sin ellos, por eso es la elección por defecto del tier"
         ]
       },
       {
-        "name": "Mogami Gold Studio XLR Cable",
-        "name_es": "Cable Mogami Gold Studio XLR",
+        "name": "Sony MDR-7506",
+        "name_es": "Sony MDR-7506",
+        "productId": 26,
         "pros": [
-          "Neglex quad conductors eliminate hum and handling noise",
-          "Gold-plated XLR connectors keep contacts corrosion-free for years in humid studio rooms",
-          "The reference cable — quiet, durable and transparent",
-          "Route it once and forget it — the quad-star shielding stays quiet in cable runs alongside power cables"
-        ],
-        "pros_es": [
-          "Los conductores quad Neglex eliminan el zumbido y el ruido de manejo",
-          "Los conectores XLR chapados en oro mantienen los contactos libres de corrosión durante años en salas de estudio húmedas",
-          "El cable de referencia — silencioso, duradero y transparente",
-          "Lo enruta una vez y lo olvidas — el blindaje quad-star se mantiene silencioso en tramos junto a cables de corriente"
+          "Broadcast standard since 1991 — it is the headphone rental houses hand you",
+          "Forward, revealing midrange that helps you hear mix problems",
+          "Closed-back, so it also tracks vocals and instruments",
+          "Folds flat and survives drops better than most studio pairs"
         ],
         "cons": [
-          "Per cable, it's far pricier than a basic –40 cable",
-          "Each length option is priced separately, so the cable doubles when you need a second length for a distant amp",
-          "No audible benefit on very short runs where cheap cables already work",
-          "Stiffer quad construction makes tight bends and coiled patch-bay runs trickier than with a thin cable",
-          "The benefit is durability and shielding, not tone — a short basic cable sounds identical on the same mic"
+          "Fixed non-detachable cable — a frayed wire means a new pair",
+          "63 ohm impedance wants a stronger headphone output than a laptop gives",
+          "The coiled 3m cable adds weight and tangles on a small desk",
+          "Pads wear faster than the drivers; replacement is easy but not free"
+        ],
+        "pros_es": [
+          "Estándar de radiodifusión desde 1991: el que te dan en cualquier casa de alquiler",
+          "Medios adelantados y reveladores que te ayudan a oír los problemas de la mezcla",
+          "Cerrados, así que también serves para grabar voz e instrumentos",
+          "Se pliega plano y aguanta caídas mejor que casi todos los pares de estudio"
         ],
         "cons_es": [
-          "Por cable es mucho más caro que un cable básico de –40",
-          "Cada opción de longitud se cobra aparte, así que el cable se duplica si necesitas un segundo largo para un amp lejano",
-          "Sin beneficio audible en tramos muy cortos donde los cables baratos ya funciónan",
-          "La construcción quad más rígida hace más difíciles los giros cerrados y los tramos enrollados en el patch bay que con un cable fino",
-          "El beneficio es durabilidad y blindaje, no tono — un cable básico corto suena igual con el mismo micro"
+          "Cable fijo no desmontable — un cable pelado significa un par nuevo",
+          "63 ohmios de impedancia piden más salida de auriculares que la que da un portátil",
+          "El cable en espiral de 3 m añade peso y se enreda en un escritorio pequeño",
+          "Las almohadillas se gastan antes que los drivers; sustituirlas es fácil pero no gratis"
+        ]
+      },
+      {
+        "name": "KRK Rokit 7 G5",
+        "name_es": "KRK Rokit 7 G5",
+        "productId": 20,
+        "pros": [
+          "8-inch woven Kevlar woofer with real low-end for a 7-inch monitor",
+          "Doppler EQ and room calibration presets you set once and forget",
+          "Bi-amped at 140W with a 4-inch woofer — punchy without a sub",
+          "The most common monitor in home studios, so rooms are treated for it"
+        ],
+        "cons": [
+          "The forward low end flatters mixes — it will not tell you the bass is thin",
+          "Needs room treatment or position changes to sound right near a wall",
+          "Sold as individual units — you buy a pair",
+          "Loud and slightly coloured; not the choice for a neutral reference check"
+        ],
+        "pros_es": [
+          "Woofer de 8 pulgadas de Kevlar trenzado con graves reales para un monitor de 7",
+          "EQ Doppler y presets de calibración de sala que configuras una vez y olvidas",
+          "Biamplificado a 140 W con woofer de 4 pulgadas: con punch sin sub",
+          "El monitor más común en estudios domésticos, así que las salas están tratadas para él"
+        ],
+        "cons_es": [
+          "El grave adelantado adula las mezclas: no te va a decir que el bajo está flaco",
+          "Necesita tratamiento de sala o cambios de posición para sonar bien junto a una pared",
+          "Se venden por unidades — tienes que comprar el par",
+          "Sonidos y algo coloreados; no es la opción para una comprobación neutra"
         ]
       },
       {
         "name": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
         "name_es": "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)",
+        "productId": 170,
         "pros": [
-          "Absorb mid and high frequencies, reducing flutter echo",
-          "Panels at the first reflection points cut standing waves and flutter echo that smear stereo imaging in small rooms",
-          "Easy to mount at first reflection points with included adhesive strips",
-          "4-pack covers a small room's critical spots for"
-        ],
-        "pros_es": [
-          "Absorben frecuencias medias y altas, reduciendo el eco de aleteo",
-          "Los paneles en los puntos de primera reflexión cortan las ondas estacionarias y el eco de aleteo que emborronan la imagen estéreo en salas pequeñas",
-          "Fáciles de montar en los puntos de primera reflexión con las tiras adhesivas incluidas",
-          "El paquete de 4 cubre los puntos críticos de una sala pequeña por solo"
+          "Kills flutter echo at the first reflection points for the least money on this page",
+          "Adhesive strips included — no drilling, no stand, no landlord argument",
+          "Correct first purchase: untreated rooms ruin expensive monitors",
+          "Four panels cover the two side walls and the ceiling behind your listening position"
         ],
         "cons": [
-          "Foam panels do nothing for low-frequency problems",
-          "Included adhesive strips are a one-time mount",
-          "Plain look versus fabric-wrapped broadband panels",
-          "Coverage is modest — a 4-pack leaves the ceiling and rear wall untreated",
-          "Adhesive strips leave residue on walls when you reposition panels"
+          "Absorbs mids and highs, not bass — you still need bass traps for low-end problems",
+          "Ten centimetres deep: less effective than professional mineral wool panels",
+          "Looks like foam, and it is — aesthetic value is zero",
+          "G4M only lists one store, so price comparison is thin"
+        ],
+        "pros_es": [
+          "Mata el eco de aleteo en los puntos de primera reflexión por lo más barato de esta página",
+          "Incluye tiras adhesivas: sin taladros, sin pie, sin discusión con el casero",
+          "La primera compra correcta: una sala sin tratar arruina monitores caros",
+          "Cuatro paneles cubren las dos paredes laterales y el techo detrás de tu posición"
         ],
         "cons_es": [
-          "Los paneles de espuma no hacen nada contra los problemas de graves",
-          "Las tiras adhesivas incluidas son para un solo montaje",
-          "Aspecto sencillo frente a paneles de banda ancha forrados en tela",
-          "La cobertura es modesta — un paquete de 4 deja sin tratar el techo y la pared trasera",
-          "Las tiras adhesivas dejan residuos en la pared al recolocar los paneles"
+          "Absorben medios y agudos, no graves — para los problemas de bajo siguen haciéndose falta trampas",
+          "Diez centímetros de fondo: menos eficaz que los paneles profesionales de lana mineral",
+          "Tiene aspecto de espuma, y es espuma: valor estético cero",
+          "G4M solo lista una tienda, así que la comparación de precios es limitada"
         ]
       },
       {
-        "name": "Behringer XM8500 Ultravoice Dynamic Microphone",
-        "name_es": "Behringer XM8500 Ultravoice Dynamic Microphone",
+        "name": "K&M 210/2 Mic Stand",
+        "name_es": "Soporte K&M 210/2",
+        "productId": 58,
         "pros": [
-          "SM58-class performance for live vocals and rehearsal",
-          "Cardioid pattern with good feedback rejection",
-          "Rugged build that survives gig bags",
-          "Best first vocal mic, period"
+          "Zinc die-cast base that does not tip over when a full condenser is on top",
+          "Telescopic boom arm holds the mic where you need it without a second stand",
+          "German engineering at a price that ignores it",
+          "Folds down small enough to live in the corner of a small studio"
         ],
         "cons": [
-          "More handling noise than an SM58",
-          "Less top-end clarity than premium dynamics",
-          "No on/off switch version standard",
-          "Clip and pouch feel cheap"
+          "Weight counterbalance is basic — heavy mics still need fiddling",
+          "Base is stable but wide; tight corners are awkward",
+          "No cable clips, so the XLR hangs loose",
+          "Takes two hands to adjust height on the boom"
         ],
         "pros_es": [
-          "Rendimiento clase SM58 para directo y ensayos",
-          "Patrón cardioide con buen rechazo de acople",
-          "Construcción robusta que aguanta fundas",
-          "Mejor primer micro vocal, punto"
+          "Base de zinc fundido que no se vuelca con un condensador lleno encima",
+          "Brazo telescópico que sostiene el micro donde lo necesitas sin un segundo pie",
+          "Ingeniería alemana a un precio que la ignora",
+          "Se pliega lo bastante pequeño para vivir en la esquina de un estudio pequeño"
         ],
         "cons_es": [
-          "Más ruido de manejo que un SM58",
-          "Menos claridad aguda que dinámicos premium",
-          "Sin versión estándar con interruptor",
-          "Clip y funda se sienten baratos"
+          "El contrapeso es básico — los micros pesados siguen necesitando ajustes",
+          "La base es estable pero ancha; las esquinas estrechas son incómodas",
+          "Sin guías de cable, así que el XLR cuelga suelto",
+          "Hacen falta dos manos para ajustar la altura del brazo"
         ]
       }
     ],
