@@ -1,5 +1,4 @@
-// Verificacion final en vivo: cada tarjeta debe tener veredicto y review propia,
-// y cada columna de tabla debe ser una tarjeta. Matcher fiable por tokens.
+// Auditoria final corregida — veredictos anclados a <div class="verdict-product-name">
 const https = require('https');
 const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
 const ids = require(BASE+'data/guides.json').map(g=>g.id);
@@ -22,46 +21,51 @@ function mismo(p, t) {
     Promise.all(ids.map(g=>get('https://topmusiciangear.com/guides/'+g+'_es.html')))
   ]);
   const R = {
-    'Columna de tabla que no es tarjeta': [],
+    'Columna que no es tarjeta': [],
     'Veredicto que no es tarjeta': [],
-    'Tarjeta con tabla pero sin veredicto': [],
-    'Tarjeta con veredicto pero sin tabla': [],
-    'Producto con veredicto y SIN review propia': [],
+    'Tarjeta con tabla sin veredicto': [],
+    'Tarjeta con veredicto sin tabla': [],
+    'Producto SIN review propia': [],
     'Tabla con celdas vacias': [],
     'Tabla con importes': [],
     'Secciones EN != ES': [],
-    'Veredicto <4 pros o <4 contras': [],
+    'Veredicto <4+4': [],
     'Pagina no cargada': []
   };
   EN.forEach((r,k)=>{
     const gid = ids[k];
-    if (r.s!==200) { R['Pagina no cargada'].push(gid+' EN'); return; }
+    if (r.s!==200) { R['Pagina no cargada'].push(gid+' EN HTTP '+r.s); return; }
     const d = r.d;
-    const cards = [...new Set([...d.matchAll(/guide-product-card-title[^>]*>([\s\S]*?)<\/h3>/g)].map(m=>clean(m[1]).replace(/\s*\((each|par|set|pareja)\)\s*$/i,'')))];
+    const cards = [...new Set([...d.matchAll(/guide-product-card-title[^>]*>([\s\S]*?)<\/h3>/g)].map(m=>clean(m[1]).replace(/\s*\((each|cada uno|par|set|pareja)\)\s*$/i,'')))];
     if (!cards.length) return;
     const thead = (d.match(/<table class="guide-comp-table"[\s\S]*?<\/thead>/i)||[''])[0];
     const cols = [...thead.matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gi)].map(m=>clean(m[1])).filter(Boolean);
-    const bloques = [...d.matchAll(/verdict-product-name[^>]*>([\s\S]*?)<\/div>([\s\S]*?)(?=verdict-product-name|<\/section>|$)/g)];
-    const vps = bloques.map(m=>clean(m[1]));
+    // veredictos: SOLO <div class="verdict-product-name"> (anclado, no script)
+    const vdivs = [...d.matchAll(/<div class="verdict-product-name">([\s\S]*?)<\/div>/gi)];
+    const vps = vdivs.map(m=>clean(m[1])).filter(Boolean);
+    const vpos = vdivs.map(m=>m.index);
+    vps.forEach((v,i)=>{
+      const ini = vpos[i];
+      const fin = i+1 < vpos.length ? vpos[i+1] : d.length;
+      const bloque = d.slice(ini, fin);
+      const np = ((bloque.match(/verdict-pros-list[\s\S]*?<\/ul>/)||[''])[0].match(/<li>/g)||[]).length;
+      const nc = ((bloque.match(/verdict-cons-list[\s\S]*?<\/ul>/)||[''])[0].match(/<li>/g)||[]).length;
+      if (np<4||nc<4) R['Veredicto <4+4'].push(gid+' | '+v+' ('+np+'/'+nc+')');
+    });
     const heads = [...d.matchAll(/<h2 class="guide-section-heading"[^>]*>([\s\S]*?)<\/h2>/gi)].map(m=>clean(m[1]));
-    cols.forEach(c=>{ if(!cards.some(x=>mismo(x,c))) R['Columna de tabla que no es tarjeta'].push(gid+' | '+c); });
+    cols.forEach(c=>{ if(!cards.some(x=>mismo(x,c))) R['Columna que no es tarjeta'].push(gid+' | '+c); });
     vps.forEach(v=>{ if(!cards.some(x=>mismo(x,v))) R['Veredicto que no es tarjeta'].push(gid+' | '+v); });
     if (cols.length||vps.length) cards.forEach(t=>{
       const ec=cols.some(c=>mismo(t,c)), ev=vps.some(v=>mismo(t,v));
-      if(ec&&!ev) R['Tarjeta con tabla pero sin veredicto'].push(gid+' | '+t);
-      if(ev&&!ec) R['Tarjeta con veredicto pero sin tabla'].push(gid+' | '+t);
+      if(ec&&!ev) R['Tarjeta con tabla sin veredicto'].push(gid+' | '+t);
+      if(ev&&!ec) R['Tarjeta con veredicto sin tabla'].push(gid+' | '+t);
     });
-    vps.forEach(v=>{ if(!heads.some(h=>mismo(v,h))) R['Producto con veredicto y SIN review propia'].push(gid+' | '+v); });
-    bloques.forEach(m=>{
-      const np=((m[2].match(/verdict-pros-list[\s\S]*?<\/ul>/)||[''])[0].match(/<li>/g)||[]).length;
-      const nc=((m[2].match(/verdict-cons-list[\s\S]*?<\/ul>/)||[''])[0].match(/<li>/g)||[]).length;
-      if(np<4||nc<4) R['Veredicto <4 pros o <4 contras'].push(gid+' | '+clean(m[1])+' ('+np+'/'+nc+')');
-    });
+    vps.forEach(v=>{ if(!heads.some(h=>mismo(v,h))) R['Producto SIN review propia'].push(gid+' | '+v); });
     const tabla = (d.match(/<table class="guide-comp-table"[\s\S]*?<\/tbody>/i)||[''])[0];
     if (/<td class="val"><\/td>/.test(tabla)) R['Tabla con celdas vacias'].push(gid);
     if (/[$€£]\s?[0-9]/.test(tabla)) R['Tabla con importes'].push(gid);
     const e = ES[k];
-    if (e.s!==200) { R['Pagina no cargada'].push(gid+' ES'); return; }
+    if (e.s!==200) { R['Pagina no cargada'].push(gid+' ES HTTP '+e.s); return; }
     const hEN=heads.length, hES=(e.d.match(/<h2 class="guide-section-heading"/g)||[]).length;
     if(hEN!==hES) R['Secciones EN != ES'].push(gid+' (EN '+hEN+' / ES '+hES+')');
   });
@@ -71,9 +75,9 @@ function mismo(p, t) {
   let total=0;
   Object.keys(R).forEach(k=>{
     const n=R[k].length; total+=n;
-    console.log((n===0?'  OK   ':'       ') + k.padEnd(46) + n);
-    if(n) R[k].slice(0,10).forEach(x=>console.log('            - '+x));
-    if(n>10) console.log('            ... y '+(n-10)+' mas');
+    console.log((n===0?'  OK   ':'       ') + k.padEnd(40) + n);
+    if(n) R[k].slice(0,15).forEach(x=>console.log('            - '+x));
+    if(n>15) console.log('            ... y '+(n-15)+' mas');
   });
   console.log('\n' + '-'.repeat(70));
   console.log('  TOTAL: ' + total);
