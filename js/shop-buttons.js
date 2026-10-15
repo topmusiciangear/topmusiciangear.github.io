@@ -897,7 +897,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€1,298.00"
     },
     urls: {
-      zzounds: "https://www.zzounds.com/productreview--BEHX32COMPACT"
+      zzounds: "https://www.zzounds.com/prodsearch?form=search&q=Behringer+X32+Compact"
     },
     oos: [
       "zzounds"
@@ -970,7 +970,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€369.00"
     },
     urls: {
-      zzounds: "https://www.zzounds.com/productreview--BEHXR18"
+      zzounds: "https://www.zzounds.com/prodsearch?form=search&q=Behringer+XR18"
     },
     oos: [
       "zzounds"
@@ -2163,17 +2163,15 @@ const TEST_SHOP_BTN = {
   670: {
     prices: {
       amazon: "$169.00",
-      zzounds: "$169.00",
       andertons: "£69.00",
       gear4music: "£69.00",
       musicstore: "€115.00"
     },
-    urls: {
+    urls: { zzounds: "https://www.zzounds.com/prodsearch?form=search&q=sE+Electronics+Neom",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-NEOM-USB-Condenser-Microphone/4OZA",
       andertons: "https://www.andertons.co.uk/se-electronics-neom-usb-cardioid-condenser-microphone/?search_query=sE%20Electronics%20NEOM%20USB",
       musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-NEOM/art-REC0015955-000"
-    }
-  },
+     }, oos: [ "zzounds" ] },
   266: {
     prices: {
       gear4music: "£1,180.00",
@@ -3599,13 +3597,12 @@ const TEST_SHOP_BTN = {
       musicstore: "€215.00"
     }
   },
-  422: {
+  422: { urls: { zzounds: "https://www.zzounds.com/item--SENHD600" },
     prices: {
       amazon: "$279.00",
       gear4music: "£149.00",
       musicstore: "€304.00"
-    }
-  },
+     }, oos: [ "zzounds" ] },
   423: {
     prices: {
       zzounds: "$379.00",
@@ -3777,7 +3774,6 @@ const TEST_SHOP_BTN = {
   430: {
     prices: {
       amazon: "$39.99",
-      zzounds: "$39.99",
       gear4music: "£35.00",
       musicstore: "€31.93"
     },
@@ -3943,12 +3939,12 @@ const TEST_SHOP_BTN = {
       andertons: "£198.00"
     }
   },
-  449: {
+  449: { urls: { zzounds: "https://www.zzounds.com/item--WLRCANVAS" },
     prices: {
       amazon: "$149.99",
       musicstore: "€133.60",
-      andertons: "£139.00"
-    }
+      andertons: "£139.00",
+     zzounds: "$149.99" }
   },
   450: {
     prices: {
@@ -5742,7 +5738,7 @@ function normalizeMusicStoreInner(u) {
 function getResolvedStores(product) {
   const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds','official','macappstore'];
   const searchUrls = {
-    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`, gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`, amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`, reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`, andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}`, musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`, zzounds: () => 'https://www.zzounds.com/a--925521/'
+    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`, gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`, amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`, reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`, andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}`, musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`, zzounds: (t) => `https://www.zzounds.com/prodsearch?form=search&q=${encodeURIComponent(t).replace(/%20/g, '+')}`
   };
   const s = {};
   const isMacOnly = !!product.stores.macappstore;

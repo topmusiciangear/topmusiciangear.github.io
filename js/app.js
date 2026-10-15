@@ -620,7 +620,7 @@ function getResolvedStores(product) {
     reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`,
     andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}`,
     musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`,
-    zzounds: () => 'https://www.zzounds.com/a--925521/'
+    zzounds: (t) => `https://www.zzounds.com/prodsearch?form=search&q=${encodeURIComponent(t).replace(/%20/g, '+')}`
   };
   const s = {};
   const isMacOnly = !!product.stores.macappstore;
