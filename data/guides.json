@@ -63587,10 +63587,10 @@
     "featuredSnippet": {
       "title_en": "Yamaha MG vs Behringer Xenyx: Which Analog Mixer Series is Best for Your Band? ",
       "text_en": "The Yamaha MG series offers superior build quality and audio fidelity with D-PRE previos and SPX effects. The Behringer Xenyx X1222USB offers more features including compression, graphic EQ, and feedback detection at a lower price.",
-      "name1_en": "Yamaha MG Series",
-      "name2_en": "Behringer Xenyx Series",
-      "name1_es": "Serie Yamaha MG",
-      "name2_es": "Serie Behringer Xenyx",
+      "name1_en": "Yamaha MG10XU",
+      "name2_en": "Behringer Xenyx X1222USB",
+      "name1_es": "Yamaha MG10XU",
+      "name2_es": "Behringer Xenyx X1222USB",
       "price1": "267.99",
       "price2": "269",
       "type1": "mixers",
@@ -85590,9 +85590,18 @@
               "value": "2x line in, 2x out, USB, MIDI In/Out/Thru",
               "value_es": "2x entrada de línea, 2x salida, USB, MIDI In/Out/Thru"
             },
-            {},
-            {},
-            {}
+            {
+              "value": "3.5mm line in/out, sync, MIDI in/out, USB-C, built-in mic",
+              "value_es": "Entrada/salida de línea de 3,5 mm, sync, MIDI in/out, USB-C, micrófono integrado"
+            },
+            {
+              "value": "USB-C, MIDI in/out, built-in mic and speakers",
+              "value_es": "USB-C, MIDI in/out, micrófono y altavoces integrados"
+            },
+            {
+              "value": "Built-in mic, stereo line I/O, USB-C",
+              "value_es": "Micrófono integrado, E/S de línea estéreo, USB-C"
+            }
           ]
         },
         {
@@ -85615,9 +85624,18 @@
               "value": "No (power adapter)",
               "value_es": "No (adaptador de corriente)"
             },
-            {},
-            {},
-            {}
+            {
+              "value": "4x AAA or USB-C bus power",
+              "value_es": "4 pilas AAA o alimentación por USB-C"
+            },
+            {
+              "value": "Rechargeable battery",
+              "value_es": "Batería recargable"
+            },
+            {
+              "value": "Up to 8 hours",
+              "value_es": "Hasta 8 horas"
+            }
           ]
         }
       ]
@@ -95199,9 +95217,17 @@
           "label": "Estimated Price",
           "label_es": "Precio estimado",
           "val1": "~$129",
-          "val2": "~$299",
+          "val2": "€331.75",
           "val1_es": "~$129",
-          "val2_es": "~$299"
+          "val2_es": "€331.75",
+          "val": "€130.08",
+          "val_es": "€130.08",
+          "val3": "€70.54",
+          "val3_es": "€70.54",
+          "val4": "€130.08",
+          "val4_es": "€130.08",
+          "val5": "€109.90",
+          "val5_es": "€109.90"
         },
         {
           "label": "Type",
@@ -95215,7 +95241,9 @@
           "val4_es": "Limitador Inteligente",
           "val5_es": "Distorsión y Saturación",
           "val1": "Mixing Suite",
-          "val1_es": "Suite de Mezcla"
+          "val1_es": "Suite de Mezcla",
+          "val2": "AI mixing suite (8 modules)",
+          "val2_es": "Suite de mezcla con IA (8 módulos)"
         },
         {
           "label": "AI Features",
@@ -95229,7 +95257,9 @@
           "val4_es": "Adaptación de loudness en tiempo real",
           "val5_es": "Ninguna — basado en waveshaping",
           "val1": "Mix Assistant, Unmask, module suggestions",
-          "val1_es": "Asistente de mezcla, Unmask, sugerencias de módulos"
+          "val1_es": "Asistente de mezcla, Unmask, sugerencias de módulos",
+          "val2": "Masking detection, automatic EQ and balance",
+          "val2_es": "Detección de enmascaramiento, EQ y balance automáticos"
         },
         {
           "label": "Tracks",
@@ -95243,7 +95273,9 @@
           "val4_es": "Bus principal",
           "val5_es": "Por instancia",
           "val1": "Single or multi-track",
-          "val1_es": "Individual o multitrack"
+          "val1_es": "Individual o multitrack",
+          "val2": "Multi-track",
+          "val2_es": "Multitrack"
         },
         {
           "label": "Best For",
@@ -95257,7 +95289,9 @@
           "val4_es": "Limitación final con LUFS inteligente",
           "val5_es": "Distorsión creativa y diseño sonoro",
           "val1": "Individual track mixing assistance",
-          "val1_es": "Asistencia de mezcla por pista"
+          "val1_es": "Asistencia de mezcla por pista",
+          "val2": "Fast, repeatable mix decisions",
+          "val2_es": "Decisiones de mezcla rápidas y repetibles"
         }
       ]
     }
@@ -96063,7 +96097,9 @@
           "val1": "Transition builder",
           "val1_es": "Constructor de transiciones",
           "val6": "Distortion / bitcrush / filter",
-          "val6_es": "Distorsión / bitcrush / filtro"
+          "val6_es": "Distorsión / bitcrush / filtro",
+          "val2": "Transition FX with motion modes",
+          "val2_es": "FX de transición con modos de movimiento"
         },
         {
           "label": "Main Use",
@@ -96079,7 +96115,9 @@
           "val1": "Buildups, drops, movement",
           "val1_es": "Buildups, drops, movimiento",
           "val6": "Harmonic distortion, filter sweeps",
-          "val6_es": "Distorsión armónica, barridos de filtro"
+          "val6_es": "Distorsión armónica, barridos de filtro",
+          "val2": "Transitions, rhythmic FX motion",
+          "val2_es": "Transiciones, movimiento rítmico de FX"
         },
         {
           "label": "Tracks",
@@ -96095,7 +96133,9 @@
           "val1": "Per-instance",
           "val1_es": "Por instancia",
           "val6": "Per-instance",
-          "val6_es": "Por instancia"
+          "val6_es": "Por instancia",
+          "val2": "Per-instance",
+          "val2_es": "Por instancia"
         },
         {
           "label": "Best For",
@@ -96111,7 +96151,9 @@
           "val1": "Creating movement in transitions",
           "val1_es": "Crear movimiento en transiciones",
           "val6": "Movement and evolving texture on beats",
-          "val6_es": "Movimiento y textura cambiante en los beats"
+          "val6_es": "Movimiento y textura cambiante en los beats",
+          "val2": "Filling gaps between sections",
+          "val2_es": "Rellenar huecos entre secciones"
         }
       ]
     }
