@@ -1,0 +1,21 @@
+const fs = require('fs');
+const d = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/starter-studio.html', 'utf8');
+console.log('--- scripts con src ---');
+[...d.matchAll(/<script[^>]*src="([^"]+)"/g)].forEach(m => console.log('  ' + m[1]));
+const inline = [...d.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m => m[1]).filter(s => s.length > 400);
+console.log('\n--- scripts inline >400 chars: ' + inline.length);
+inline.forEach((s, i) => {
+  console.log('  [' + i + '] ' + s.length + ' chars');
+  console.log('      inicio: ' + s.slice(0, 130).replace(/\s+/g, ' '));
+  const mapa = s.match(/(\d+):\s*\{\s*prices/g);
+  console.log('      entradas con "prices": ' + (mapa ? mapa.length : 0));
+  const hayPRECIOS = /\$|£|€/.test(s);
+  console.log('      contiene simbolos de moneda: ' + hayPRECIOS);
+  const funcs = [...s.matchAll(/function\s+([A-Za-z_$][\w$]*)/g)].map(m => m[1]);
+  if (funcs.length) console.log('      funciones: ' + funcs.slice(0, 14).join(', '));
+});
+console.log('\n--- hay algun importe con moneda en toda la pagina? ---');
+const importes = [...d.matchAll(/[£$€]\s?[0-9][0-9,]*\.[0-9]{2}/g)].map(m => m[0]);
+console.log('  total: ' + importes.length + (importes.length ? ' -> ' + [...new Set(importes)].slice(0, 10).join(', ') : ''));
+console.log('  "Check price": ' + ((d.match(/Check price/g) || []).length));
+console.log('  "No disponible": ' + ((d.match(/No disponible/g) || []).length));
