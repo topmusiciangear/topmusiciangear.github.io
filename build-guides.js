@@ -6033,6 +6033,8 @@ const TEST_SHOP_BTN = {
     }
   },
 
+  18: {prices:{gear4music:"£230.00"}},
+  15: {prices:{gear4music:"£189.00"}},
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
@@ -6118,7 +6120,21 @@ function shopButtonsTest(p, lang) {
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
   const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
-  const pPrice = (primaryStoreKey === 'amazon') ? t('Verificar precio', 'Check price') : fmtPrice(isHolly ? (hollyPick ? hollyPick.p || '' : '') : (cfg.prices && cfg.prices[primaryStoreKey]) || prices[isLogic ? 'official' : isPlugins ? 'pluginboutique' : dawHasAmazon ? 'amazon' : isDaw ? 'gear4music' : primaryStoreKey] || '', lang, true);
+  // Precio del boton primario. Amazon no tiene precio propio en casi ningun
+  // producto (Amazon solo aporta el enlace con tag), asi que antes se
+  // sustituia por "Check price" y se descartaba el precio que si existe en
+  // otra tienda. Ahora: si hay precio de Amazon se usa; si no, se cae al
+  // primer precio disponible. El geo-swap del navegador sigue cambiando
+  // tienda e importe por zona.
+  const _ownPrice = (k) => (cfg.prices && cfg.prices[k]) || prices[k] || '';
+  const _order = [primaryStoreKey, isLogic ? 'official' : isPlugins ? 'pluginboutique' : null,
+                  isUsa ? 'zzounds' : null, 'gear4music', 'musicstore', 'andertons',
+                  dawHasAmazon ? 'amazon' : null, 'zzounds'].filter(Boolean);
+  let _precio = '';
+  for (const k of _order) { if (!_precio && _ownPrice(k)) _precio = _ownPrice(k); }
+  const pPrice = isHolly
+    ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
+    : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check price'));
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
