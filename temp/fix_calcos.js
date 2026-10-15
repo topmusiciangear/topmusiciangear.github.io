@@ -1,70 +1,51 @@
+// La frase ES que acabo de escribir tiene dos anglicismos: "tier" y "que quepan".
+// Arreglar a espanol natural.
 const fs = require('fs');
 const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
-const gj = BASE + 'data/guides.json';
-const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
+const gf = BASE + 'data/guides.json';
+const guides = JSON.parse(fs.readFileSync(gf, 'utf8'));
+const g = guides.find(x => x.id === 'starter-studio');
+const sec = g.sections.find(s => /Three Budgets/.test(s.heading));
 
-let fixes = 0;
+console.log('ANTES ES:');
+console.log('  ' + sec.content_es.split('</p>')[1].replace(/<[^>]+>/g,'').trim());
 
-function fixText(text) {
-  if (!text) return text;
-  let fixed = text;
+sec.content_es = sec.content_es.replace(
+  'Cada pieza es el modelo de entrada de su categoría, y que cinco quepan por menos de quinientos dólares es lo único que permite que este tier llegue a la cifra sin recortar el tratamiento acústico.',
+  'Cada pieza es el modelo de entrada de su categoría, y conseguir que cinco quepan por menos de quinientos dólares es lo único que permite que este nivel llegue a la cifra sin recortar el tratamiento acústico.'
+);
+// "tier" tambien aparece en las otras frases de la seccion
+sec.content_es = sec.content_es.split('este tier').join('este nivel');
+sec.content_es = sec.content_es.split('el tier que').join('el nivel que');
 
-  // "suena como" -> "suena a" (calco de "sounds like")
-  if (fixed.includes('suena como ')) {
-    fixed = fixed.replace(/suena como ([aeiou])/g, 'suena a $1');
-    fixed = fixed.replace(/suena como ([bcdfghjklmnpqrstvwxyz])/g, 'suena a $1');
-    fixes++;
-  }
+fs.writeFileSync(gf, JSON.stringify(guides, null, 2), 'utf8');
 
-  // "lo que hace que" -> "asi que" or context-dependent
-  if (fixed.includes('lo que hace que ')) {
-    fixed = fixed.replace(/lo que hace que /g, 'asi que ');
-    fixes++;
-  }
+console.log('\nDESPUES ES:');
+console.log('  ' + sec.content_es.split('</p>')[1].replace(/<[^>]+>/g,'').trim());
 
-  // "punto justo" -> "punto ideal" (calco de "sweet spot")
-  if (fixed.includes('punto justo')) {
-    fixed = fixed.replace(/punto justo/g, 'punto ideal');
-    fixes++;
-  }
+// ═══ VERIFICACION: barrido de anglicismos en toda la guia ES ═══
+const CAMPOS_ES = [];
+['intro_es','conclusion_es','title_es','description_es','titleTag_es'].forEach(c=>CAMPOS_ES.push([c,g[c]]));
+g.sections.forEach((s,i)=>{ CAMPOS_ES.push(['sec['+i+'].heading_es',s.heading_es]); CAMPOS_ES.push(['sec['+i+'].content_es',s.content_es]); });
+g.verdictProsCons.forEach(v=>{ CAMPOS_ES.push([v.name+'.pros_es',(v.pros_es||[]).join(' | ')]); CAMPOS_ES.push([v.name+'.cons_es',(v.cons_es||[]).join(' | ')]); });
 
-  // "es el mejor para" -> "es ideal para"
-  if (fixed.includes('es el mejor para ')) {
-    fixed = fixed.replace(/es el mejor para /g, 'es ideal para ');
-    fixes++;
-  }
-
-  // "atrás" -> context-dependent
-  // "la parte de atrás" -> "la parte trasera"
-  if (fixed.includes('de atrás')) {
-    fixed = fixed.replace(/de atrás/g, 'de detras');
-    fixes++;
-  }
-
-  return fixed;
-}
-
-guides.forEach(g => {
-  (g.sections || []).forEach(s => {
-    if (s.content_es) s.content_es = fixText(s.content_es);
+// anglicismos que el sitio ya evita (regla: ES natural, nada de calcos)
+const CALCOS = ['tier','setup','build','builds','gear','pack','packs','bundle','bundles','check','starter kit'];
+const CON_PALABRAS = /\b(the|and|with|for|your|from|that|this|you|your)\b/gi;
+const hallazgos = [];
+CAMPOS_ES.forEach(([campo,txt])=>{
+  if(!txt) return;
+  CALCOS.forEach(w=>{
+    const re = new RegExp('\\b'+w+'\\b','gi');
+    const m = txt.match(re);
+    if(m) hallazgos.push(campo+': "'+w+'" x'+m.length+'  ->  ...'+txt.substr(Math.max(0,txt.toLowerCase().indexOf(w.toLowerCase())-50), 100).replace(/\s+/g,' ')+'...');
   });
-  if (g.intro_es) g.intro_es = fixText(g.intro_es);
-  if (g.verdict_es) g.verdict_es = fixText(g.verdict_es);
-  if (g.conclusion_es) g.conclusion_es = fixText(g.conclusion_es);
-
-  (g.verdictProsCons || []).forEach(v => {
-    v.pros_es = v.pros_es.map(fixText);
-    v.cons_es = v.cons_es.map(fixText);
-  });
-
-  if (g.productTable && g.productTable.rows) {
-    g.productTable.rows.forEach(r => {
-      if (r.values) r.values.forEach(v => {
-        if (v.value_es) v.value_es = fixText(v.value_es);
-      });
-    });
-  }
+  const en = (txt.match(CON_PALABRAS)||[]).length;
+  if (en > 0) hallazgos.push(campo+': '+en+' palabras inglesas (the/and/with/for...)');
 });
 
-fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
-console.log('Calcos corregidos:', fixes);
+console.log('\n=== anglicismos y palabras inglesas en campos ES ===');
+console.log(hallazgos.length ? '' : '  ninguno');
+hallazgos.forEach(h=>console.log('  ' + h));
+const cjk = (JSON.stringify(guides).match(/[\u4e00-\u9fff]/g)||[]);
+console.log('\nCJK: ' + (cjk.length ? [...new Set(cjk)].join('') : 'ninguno'));
