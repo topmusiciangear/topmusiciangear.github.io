@@ -1,0 +1,17 @@
+const fs = require('fs');
+const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
+const guides = JSON.parse(fs.readFileSync(BASE+'data/guides.json','utf8'));
+const s = guides.find(x=>x.id==='starter-studio');
+const sec = s.sections.find(x=>/Three Budgets/.test(x.heading));
+const clean = h => String(h).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+console.log('--- EN ---');
+console.log(clean(sec.content));
+console.log('');
+console.log('--- ES ---');
+console.log(clean(sec.content_es));
+console.log('');
+console.log('=== INTRO EN ===');
+console.log(clean(s.intro));
+console.log('');
+console.log('=== INTRO ES ===');
+console.log(clean(s.intro_es));
