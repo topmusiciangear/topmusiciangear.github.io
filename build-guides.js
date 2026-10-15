@@ -2041,45 +2041,8 @@ const TEST_SHOP_BTN = {
       musicstore: "€749.00"
     }
   },
-  220: {
-    prices: {
-      gear4music: "£666.63",
-      zzounds: "$949.00",
-      amazon: "$949.00",
-      musicstore: "€646.22",
-      andertons: "£699.00"
-    }
-  },
-  221: {
-    prices: {
-      amazon: "$2,100.00",
-      musicstore: "€1,847.90"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
-  222: {},
-  223: {
-    prices: {
-      gear4music: "£2,149.99",
-      amazon: "$3,499.00",
-      musicstore: "€2,629.00"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
-  224: {
-    prices: {
-      gear4music: "£1,786.00",
-      amazon: "$2,299.00",
-      zzounds: "$2,299.00",
-      musicstore: "€1,998.00",
-      andertons: "£1,675.00"
-    }
-  },
-226: {
+    222: {},
+  226: {
     prices: {
       amazon: "$179.00",
       zzounds: "$179.00",
@@ -2496,24 +2459,7 @@ const TEST_SHOP_BTN = {
     },
     oos: ["andertons"]
   },
-  665: {
-    prices: {
-      gear4music: "£89.00",
-      andertons: "£69.00",
-      zzounds: "$149.00",
-      musicstore: "€89.00",
-      amazon: "$69.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Focusrite-Vocaster-One/4UI2",
-      andertons: "https://www.andertons.co.uk/focusrite-vocaster-one-podcast-interface/",
-      zzounds: "https://www.zzounds.com/item--FOCVOCASTERONE",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Focusrite-Vocaster-One-Podcast-USB-Audio-Interface/art-PCM0017400-000",
-      amazon: "https://www.amazon.com/dp/B09K9VQKQ3"
-    },
-    oos: ["andertons","zzounds"]
-  },
-  666: {
+   666: {
     prices: {
       amazon: "$169.00",
       zzounds: "$169.00",
@@ -2526,40 +2472,7 @@ const TEST_SHOP_BTN = {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Rode-NT-USB-/art-REC0016237-000"
     }
   },
-  667: {
-    prices: {
-      amazon: "$129.00",
-      zzounds: "$124.95",
-      andertons: "£159.00",
-      musicstore: "€139.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-MV6-USB-Gaming-Microphone/6OHD"
-    },
-    oos: ["gear4music"]
-  },
-  668: {
-    prices: {
-      amazon: "$219.00",
-      zzounds: "$219.00",
-      musicstore: "€189.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/Audio-Technica-AT2020USB-XP-Cardioid-Condenser-USB-Microphone/5PYF"
-    },
-    oos: ["andertons"]
-  },
-  669: {
-    prices: {
-      amazon: "$149.00"
-    },
-    urls: {
-      musicstore: "https://www.musicstore.com/en_OE/EUR/AKG-Lyra/art-REC0014609-000",
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/AKG-Lyra-USB-Microphone/35V1"
-    },
-    oos: ["gear4music", "andertons", "zzounds"]
-  },
-  670: {
+     670: {
     prices: {
       amazon: "$169.00",
       andertons: "£69.00",
@@ -3088,16 +3001,7 @@ const TEST_SHOP_BTN = {
       zzounds: "$599.00"
     }
   },
-  327: {
-    prices: {
-      amazon: "$109.97"
-    },
-    oos: [
-      "andertons",
-      "musicstore"
-    ]
-  },
-  328: {
+   328: {
     prices: {
       gear4music: "£139.99",
       amazon: "$219.00",
@@ -5017,18 +4921,7 @@ const TEST_SHOP_BTN = {
     },
     oos: []
   },
-  514: {
-    prices: {
-      andertons: "£5,015.00"
-    },
-    urls: {
-      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fapogee-symphony-i-o-mkii-thunderbolt-chassis-with-16x16-module%2F"
-    },
-    oos: [
-      "andertons"
-    ]
-  },
-  515: {
+   515: {
     prices: {
       amazon: "$3,499.99",
       zzounds: "$3,499.99",
@@ -5045,16 +4938,7 @@ const TEST_SHOP_BTN = {
     },
     oos: []
   },
-  516: {
-    prices: {},
-    urls: {
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Lynx-Studio-Technology-Aurora-n-16-USB/art-REC0013406-000"
-    },
-    oos: [
-      "musicstore"
-    ]
-  },
-  518: {
+   518: {
     prices: {
       amazon: "$129.99"
     },
