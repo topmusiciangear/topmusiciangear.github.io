@@ -5646,7 +5646,10 @@ const TEST_SHOP_BTN = {
   23: {prices:{amazon:"$199.99",andertons:"£129.00",gear4music:"£129.00",musicstore:"€149.00",zzounds:"$199.99"}},
   24: {prices:{amazon:"$489.00",zzounds:"$499.00",andertons:"£357.00",gear4music:"£355.00",musicstore:"€432.00"}},
   25: {prices:{amazon:"$169.00",zzounds:"$159.00",gear4music:"£148.00",andertons:"£133.00",musicstore:"€149.00"}},
-  26: {prices:{amazon:"$113.00",gear4music:"£85.00",musicstore:"€89.00"}},
+  26: {
+    prices: { amazon: "$113.00", gear4music: "£85.00", musicstore: "€89.00" },
+    oos: ["zzounds"]
+  },
   29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"}},
 }
 
@@ -5706,7 +5709,7 @@ function wrapAffiliate(storeKey, url) {
   if (storeKey === 'andertons') return wrapAndertons(url);
   if (storeKey === 'reverb' && url.indexOf('awin1.com') < 0 && url.indexOf('reverb.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent(url);
   if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(normalizeMusicStore(url));
-  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(url);
+  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(url.replace('/a--925521', ''));
   if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
   if (storeKey === 'hollyland' && url.indexOf('awin1.com') < 0 && url.indexOf('hollyland.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=128051&awinaffid=2891111&ued=' + encodeURIComponent(url);
   return url;
