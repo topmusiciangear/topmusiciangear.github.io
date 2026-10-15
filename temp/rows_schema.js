@@ -1,0 +1,11 @@
+const fs = require('fs');
+const guides = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json','utf8'));
+const g = guides.find(x => x.id === 'best-reverb-delay');
+console.log('claves de productTable: ' + Object.keys(g.productTable).join(', '));
+console.log('columna 0: ' + JSON.stringify(g.productTable.columns[0]));
+const r0 = g.productTable.rows[0];
+console.log('\ntipo de fila: ' + (Array.isArray(r0) ? 'array' : typeof r0));
+console.log('fila 0: ' + JSON.stringify(r0).slice(0, 500));
+if (r0 && !Array.isArray(r0)) console.log('claves: ' + Object.keys(r0).join(','));
+console.log('\nTODAS LAS FILAS:');
+g.productTable.rows.forEach((r, i) => console.log(i + ') ' + JSON.stringify(r).slice(0, 260)));
