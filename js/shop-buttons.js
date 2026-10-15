@@ -5647,6 +5647,7 @@ const TEST_SHOP_BTN = {
     oos: ["zzounds"]
   },
   29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"}},
+ 684: { prices: { amazon: "$149.99", gear4music: "£117.00", andertons: "£105.00", musicstore: "€139.00" } , na: [ "zzounds" ] }
 }
 
 function shortTitle(title) {
