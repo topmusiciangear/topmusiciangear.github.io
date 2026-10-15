@@ -1,71 +1,56 @@
+// Reproducir los totales actuales y calcular los nuevos
 const fs = require('fs');
-const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
-const arr = JSON.parse(fs.readFileSync(BASE + 'data/products.json', 'utf8'));
-const list = Array.isArray(arr) ? arr : arr.products;
-const byId = {}; list.forEach(p => byId[p.id] = p);
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const p = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const s = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const ini = s.indexOf('const TEST_SHOP_BTN = {');
+const mapa = new Function('return ' + s.slice(ini + 'const TEST_SHOP_BTN = '.length, s.indexOf('\n};', ini) + 2))();
 
-const g = JSON.parse(fs.readFileSync(BASE + 'data/guides.json', 'utf8'));
-const guia = g.find(x => x.id === 'starter-studio');
+function precio(id) {
+  const x = p.find(y => y.id === id);
+  const cfg = mapa[id];
+  const amz = cfg && cfg.prices && cfg.prices.amazon;
+  return { n: (amz ? parseFloat(amz.replace(/[^0-9.]/g, '')) : x.price), de: amz ? 'Amazon' : 'catalogo', t: x.title };
+}
+const par = id => { const q = precio(id); return { n: q.n * 2, de: q.de, t: q.t + ' (par)' }; };
+const uno = id => { const q = precio(id); return { n: q.n, de: q.de, t: q.t }; };
 
-console.log('=== PRECIOS DE CATALOGO ===');
-const IDS = { 'Scarlett 2i2': 15, 'SM57': 5, 'NT1 5th Gen': 3, 'NT1 Signature': 297,
-  'SSL 2+ MKII': 18, 'ATH-M20x': 609, 'ATH-M50x': 25, 'MDR-7506': 26, 'Rokit 7 G5': 20,
-  'K&M 210/2': 58, 'paneles G4M': 170, 'pop filter': 39, 'Mogami': 167 };
-Object.entries(IDS).forEach(([k, id]) => {
-  const p = byId[id];
-  console.log('  ' + k.padEnd(16) + 'id ' + String(id).padStart(4) + '  $' + (p ? p.price : '?'));
-});
+const PANELES = 170, POP = 39, MOGAMI = 167;
 
-// los tres montajes segun la tabla
-const filas = guia.productTable.rows;
-function col(r) { return filas.find(x => (x.label || '').toLowerCase().includes(r.toLowerCase())); }
+const TIERS = {
+  1: { base: [15, 297, 609], monitor: 633 },
+  2: { base: [18, 3, 25], monitor: 116 },
+  3: { base: [16, 674, 26], monitor: 20 }
+};
+const PANEL_ID = 170;
 
-console.log('\n=== LOS TRES MONTAJES SEGUN LA TABLA ===');
-['interfaz', 'micrófono', 'auriculares', 'monitores', 'accesorios', 'tratamiento', 'total']
-  .forEach(r => {
-    const f = col(r);
-    if (!f) return;
-    console.log('  ' + (f.label_es || f.label).padEnd(24) +
-      f.values.map(v => (v.value_es || v.value)).join('  |  '));
-  });
-
-// precio de los botones segun TEST_SHOP_BTN
-const src = fs.readFileSync(BASE + 'build-guides.js', 'utf8');
-const ini = src.indexOf('const TEST_SHOP_BTN = {');
-const bloque = src.slice(ini, src.indexOf('\n};', ini));
-function emp(t, i) { let d = 0; for (let j = i; j < t.length; j++) { if (t[j] === '{') d++; else if (t[j] === '}') { d--; if (!d) return j; } } return -1; }
-function preciosDe(id) {
-  const m = new RegExp('(?:^|\\n)(\\s*)' + id + ':\\s*\\{').exec(bloque);
-  if (!m) return {};
-  const i0 = m.index + m[1].length;
-  const f = emp(bloque, i0 + (m[0].length - m[1].length) - 1);
-  const ent = bloque.slice(i0, f + 1);
-  const pm = /prices:\s*\{([\s\S]*?)\}/.exec(ent);
-  const o = {};
-  if (pm) [...pm[1].matchAll(/(\w+):\s*"([^"]+)"/g)].forEach(x => o[x[1]] = x[2]);
-  return o;
+function total(tier, monitorId) {
+  const t = TIERS[tier];
+  const partes = t.base.map(id => uno(id)).concat([par(monitorId), uno(PANEL_ID)]);
+  return { partes, suma: partes.reduce((a, x) => a + x.n, 0) };
 }
 
-console.log('\n=== BOTONES: SM57 vs NT1 Signature ===');
-console.log('  SM57 (id 5)           : ' + JSON.stringify(preciosDe(5)));
-console.log('  NT1 Signature (id 297): ' + JSON.stringify(preciosDe(297)));
+console.log('=== TOTALES ACTUALES (deben dar 998 / 1077 / 2537) ===');
+[1, 2, 3].forEach(t => {
+  const r = total(t, TIERS[t].monitor);
+  console.log('  Nivel ' + t + ': $' + r.suma.toFixed(2));
+  r.partes.forEach(x => console.log('      ' + ('$' + x.n.toFixed(2)).padStart(10) + '  ' + x.de.padEnd(9) + x.t));
+});
 
-// recalculo del montaje Basico
-console.log('\n=== RECALCULO DEL MONTAJE BASICO ===');
-const base = [
-  ['Scarlett 2i2', 15], ['microfono (actual SM57)', 5], ['K&M 210/2', 58],
-  ['ATH-M20x', 609], ['paneles G4M 4-pack', 170]
-];
-let suma = 0;
-base.forEach(([k, id]) => { const v = byId[id].price; suma += v; console.log('  ' + k.padEnd(24) + '$' + v); });
-console.log('  ' + '-'.repeat(32));
-console.log('  ' + 'SUMA ACTUAL'.padEnd(24) + '$' + suma + '   (la guia dice ~$485)');
+console.log('\n=== PROPUESTA: Eris 684 / Rokit 7 (20) / Yamaha HS8 (19) ===');
+const PROPUESTA = { 1: 684, 2: 20, 3: 19 };
+[1, 2, 3].forEach(t => {
+  const r = total(t, PROPUESTA[t]);
+  console.log('  Nivel ' + t + ': $' + r.suma.toFixed(2));
+  r.partes.forEach(x => console.log('      ' + ('$' + x.n.toFixed(2)).padStart(10) + '  ' + x.de.padEnd(9) + x.t));
+});
 
-const sig = byId[297].price;
-console.log('\n  quitando SM57 ($' + byId[5].price + ') y poniendo NT1 Signature ($' + sig + '):');
-console.log('  ' + 'NUEVO TOTAL'.padEnd(24) + '$' + (suma - byId[5].price + sig));
-
-// con el precio del boton Amazon
-const pz = preciosDe(297);
-const amz = (pz.amazon || '').replace(/[^0-9.]/g, '');
-if (amz) console.log('  con precio Amazon ($' + amz + '):            $' + (suma - byId[5].price + Number(amz)));
+console.log('\n=== PRECIO DE LOS MONITORES POR PAR ===');
+console.log('  ' + 'id'.padEnd(6) + 'monitor'.padEnd(22) + 'unidad   par');
+[116, 633, 684, 20, 19, 192, 632].forEach(id => {
+  const x = p.find(y => y.id === id);
+  const cfg = mapa[id];
+  const u = (cfg && cfg.prices && cfg.prices.amazon ? cfg.prices.amazon : '$' + x.price);
+  const n = parseFloat(String(u).replace(/[^0-9.]/g, ''));
+  console.log('  ' + String(id).padEnd(6) + (x.title || '').padEnd(22) + ('$' + n.toFixed(2)).padEnd(9) + '$' + (n * 2).toFixed(2));
+});
