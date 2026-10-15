@@ -6032,9 +6032,21 @@ const TEST_SHOP_BTN = {
       andertons: "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-nickel-finish/"
     }
   },
-
-  18: {prices:{gear4music:"£230.00"}},
-  15: {prices:{gear4music:"£189.00"}},
+  13: {prices:{amazon:"$299.00",zzounds:"$299.00",andertons:"£215.00",gear4music:"£215.00",musicstore:"€249.00"}},
+  14: {prices:{amazon:"$839.95",zzounds:"$849.00",gear4music:"£699.00",musicstore:"€849.00"}},
+  15: {prices:{amazon:"$199.00",zzounds:"$224.99",gear4music:"£189.00",andertons:"£185.00",musicstore:"€172.00"}},
+  16: {prices:{amazon:"$999.00",zzounds:"$999.00",gear4music:"£849.00",andertons:"£849.00",musicstore:"€945.00"}},
+  17: {prices:{amazon:"$999.00",zzounds:"$999.00",gear4music:"£715.00",andertons:"£715.00",musicstore:"€889.00"}},
+  18: {prices:{amazon:"$249.99",zzounds:"$299.99",gear4music:"£230.00",andertons:"£227.00",musicstore:"€295.00"}},
+  19: {prices:{amazon:"$398.99",zzounds:"$398.99",gear4music:"£263.00",andertons:"£254.00",musicstore:"€289.00"}},
+  20: {prices:{amazon:"$269.00",zzounds:"$269.00",gear4music:"£199.25",musicstore:"€266.00"}},
+  21: {prices:{amazon:"$899.99",zzounds:"$939.00",andertons:"£600.00",gear4music:"£600.00",musicstore:"€649.00"}},
+  22: {prices:{amazon:"$1,175.00",andertons:"£959.00",gear4music:"£812.00",musicstore:"€949.00"}},
+  23: {prices:{amazon:"$199.99",andertons:"£129.00",gear4music:"£129.00",musicstore:"€149.00",zzounds:"$199.99"}},
+  24: {prices:{amazon:"$489.00",zzounds:"$499.00",andertons:"£357.00",gear4music:"£355.00",musicstore:"€432.00"}},
+  25: {prices:{amazon:"$169.00",zzounds:"$159.00",gear4music:"£148.00",andertons:"£133.00",musicstore:"€149.00"}},
+  26: {prices:{amazon:"$113.00",gear4music:"£85.00",musicstore:"€89.00"}},
+  29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"}},
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
@@ -6173,10 +6185,22 @@ function shopButtonsTest(p, lang) {
       return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : '') + '</a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
-      const oosPrice = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((cfg.prices && cfg.prices[k]) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(cfg.prices[k], lang) + '</span></span>' : '';
+      const _oosPr = (cfg.prices && cfg.prices[k]) ? cfg.prices[k] : '';
+      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
       return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
     }
-    const pr = (k === 'amazon') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (prices[k] ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(prices[k], lang) + '</span></span>' : '');
+    // Amazon no tiene precio propio en casi ningun producto (solo aporta el
+    // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
+    // precio que si existe en otra tienda: ahora se cae al primer precio
+    // disponible, igual que en el boton primario.
+    const _rowPrice = (k) => {
+      if (prices[k]) return prices[k];
+      if (k !== 'amazon') return '';
+      for (const alt of ['zzounds','gear4music','musicstore','andertons']) if (prices[alt]) return prices[alt];
+      return '';
+    };
+    const _pr = _rowPrice(k);
+    const pr = (!_pr) ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + t('Verificar precio', 'Check price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(_pr, lang) + '</span></span>' : '');
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
