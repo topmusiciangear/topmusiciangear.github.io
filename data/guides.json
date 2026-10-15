@@ -8,8 +8,8 @@
     "category": "interfaces",
     "image": "img/starter-studio.jpg",
     "badge": "bestSeller",
-    "intro": "<p>There is no factory bundle that solves a home studio, and the ones that exist go out of stock every few weeks. What works is arithmetic: you have a budget, the signal chain has five parts, and every part has a price. Get the order right and the money disappears into gear that earns it.</p><p>Three builds sit below, assembled from individual products and priced from our own catalogue. The cheapest comes to <strong>$605</strong>, the middle to <strong>$925</strong>, and the one with real monitors to <strong>$1.393</strong>. Every one of them already pays for acoustic treatment, because that is the part that decides whether the rest works.</p>",
-    "intro_es": "<p>No hay ningún pack de fábrica que resuelva un estudio doméstico, y los que existen se agotan cada pocas semanas. Lo que funciona es aritmética: tienes un presupuesto, la cadena de señal tiene cinco partes y cada parte tiene un precio. Acierta el orden y el dinero desaparece en equipo que se lo gana.</p><p>Abajo hay tres montajes, armados con productos sueltos y con precios de nuestro propio catálogo. El más barato sale por <strong>$605</strong>, el intermedio por <strong>$925</strong> y el que lleva monitores de verdad por <strong>$1.393</strong>. Los tres pagan ya el tratamiento acústico, porque esa es la parte que decide si el resto funciona.</p>",
+    "intro": "<p>There is no factory bundle that solves a home studio, and the ones that exist go out of stock every few weeks. What works is arithmetic: you have a budget, the signal chain has five parts, and every part has a price. Get the order right and the money disappears into gear that earns it.</p><p>Three builds sit below, assembled from individual products and priced from our own catalogue. Every one of them ships with powered studio monitors — which is where most budget guides stop. Tier 1 comes to <strong>$1,003</strong>, Tier 2 to <strong>$1,113</strong>, and the one with 7-inch monitors to <strong>$1,393</strong>. Every one of them already pays for acoustic treatment, because that is the part that decides whether the rest works.</p>",
+    "intro_es": "<p>No hay ningún pack de fábrica que resuelva un estudio doméstico, y los que existen se agotan cada pocas semanas. Lo que funciona es aritmética: tienes un presupuesto, la cadena de señal tiene cinco partes y cada parte tiene un precio. Acierta el orden y el dinero desaparece en equipo que se lo gana.</p><p>Abajo hay tres montajes, armados con productos sueltos y con precios de nuestro propio catálogo. Los tres vienen con monitores de estudio alimentados, que es justo donde la mayoría de guías económicas se detiene. El Nivel 1 sale por <strong>$1.003</strong>, el Nivel 2 por <strong>$1.113</strong> y el de monitores de 7 pulgadas por <strong>$1.393</strong>. Los tres pagan ya el tratamiento acústico, porque esa es la parte que decide si el resto funciona.</p>",
     "sections": [
       {
         "heading": "Start With the Signal Chain, Not the Shopping List",
@@ -19,10 +19,10 @@
         "products": []
       },
       {
-        "heading": "The Three Budgets: What $605, $925 and $1,393 Buy",
-        "heading_es": "Los tres presupuestos: qué compran $605, $925 y $1.393",
-        "content": "<p><strong>These are not factory bundles.</strong> They are three builds assembled from individual products, each one priced from our own catalogue and each one verifiable on the shelf.</p><p><strong>The Budget Essentials at $605</strong> covers the whole chain at the lowest sensible price: a Scarlett 2i2 to capture, an NT1 Signature condenser to capture with, a stand so the mic is not in your hand, ATH-M20x headphones so you are not mixing blind, and four acoustic panels so the room stops lying to you. Every part is the entry model in its category, and the acoustic treatment is the one line here that is not optional: cut the panels and you save eighty dollars you would only spend again fixing the room.</p><p><strong>The Pro Producer at $925</strong> swaps the Scarlett for the SSL 2+ MKII, moves up to the NT1 5th Generation — the quietest large-diaphragm condenser available new — and adds the ATH-M50x. This is the tier most people should buy: nothing in that list is a luxury, and the M50x will not lie to you about what you mixed.</p><p><strong>The Ultimate Powerhouse at $1,393</strong> is the same interface and the same microphone, swaps the headphones for the broadcast-standard MDR-7506, and adds real monitors — a KRK Rokit 7 G5 pair, which is where most of the extra $468 goes. It is the only tier that can mix a full arrangement without switching to headphones.</p><p>The first two sit under $1,000 and the third does not, because a pair of nearfield monitors plus everything else simply costs more than that. What all three have in common is the room treatment already paid for, which is the part most budget lists leave out.</p>",
-        "content_es": "<p><strong>No son packs de fábrica.</strong> Son tres montajes armados con productos sueltos, cada uno con precio de nuestro propio catálogo y cada uno verificable en el estante.</p><p><strong>El Básico Esencial por $605</strong> cubre toda la cadena al precio más bajo que tiene sentido: una Scarlett 2i2 para capturar, un condensador NT1 Signature con el que capturar, un soporte para no tener que sostener el micrófono en la mano, auriculares ATH-M20x para no mezclar a ciegas y cuatro paneles acústicos para que la sala deje de mentirte. Cada pieza es el modelo de entrada de su categoría, y el tratamiento acústico es la única línea de aquí que no es opcional: quítalos y ahorras ochenta dólares que volverás a gastar en arreglar la sala.</p><p><strong>El Productor Profesional por $925</strong> cambia la Scarlett por la SSL 2+ MKII, sube al NT1 5th Generation —el condensador de diafragma grande más silencioso que hay nuevo— y añade los ATH-M50x. Este es el nivel que debería comprar la mayoría: nada de esa lista es un lujo, y el M50x no te va a mentir sobre lo que has mezclado.</p><p><strong>El Definitivo por $1.393</strong> usa la misma interfaz y el mismo micrófono, cambia los auriculares por el MDR-7506 estándar de radiodifusión y añade monitores de verdad: un par de KRK Rokit 7 G5, que es donde se van casi los $468 de diferencia. Es el único montaje que puede mezclar un arreglo completo sin pasarse a auriculares.</p><p>Los dos primeros se quedan por debajo de $1.000 y el tercero no, porque un par de monitores de estudio cerca más todo lo demás. Lo que comparten los tres es el tratamiento de sala ya pagado, que es justo la parte que casi todas las listas economical se dejan.</p>",
+        "heading": "The Three Budgets: What Each Tier Actually Buys",
+        "heading_es": "Los tres presupuestos: qué compra cada nivel",
+        "content": "<p><strong>These are not factory bundles.</strong> They are three builds assembled from individual products, each one priced from our own catalogue and each one verifiable on the shelf. What separates them is not a better brand, it is a bigger part of the signal chain.</p><p><strong>Tier 1 at $1,003</strong> is already a finished studio: a Scarlett 2i2, an NT1 Signature, a pair of powered 5-inch monitors, ATH-M20x headphones, a stand and four acoustic panels. Nothing in that list is aspirational. The KRK Rokit 5 G5 pair is the reason it works as a first home: powered, with a rear LCD you can re-aim for the corner it ends up in.</p><p><strong>Tier 2 at $1,113</strong> spends the extra $110 on two things that change how you work rather than what you hear: the SSL 2+ MKII with its analogue 4K preamps, and the ATH-M50x as a proper mixing reference. The monitors change too — the JBL 305P MkII pair swaps in a waveguide, and the sweet spot gets noticeably wider. This is the tier most people should buy.</p><p><strong>Tier 3 at $1,393</strong> is the same interface and the same monitor class, with two upgrades: the NT1 5th Generation for a quieter floor and native USB, and a KRK Rokit 7 G5 pair, which is where most of the extra $280 goes. Seven inches is not marketing. It is the difference between judging a kick and guessing at one.</p><p>All three already pay for acoustic treatment, because that is the part that decides whether the rest works. A $269 microphone in an untreated bedroom records the bedroom.</p>",
+        "content_es": "<p><strong>No son packs de fábrica.</strong> Son tres montajes armados con productos sueltos, cada uno con precio de nuestro propio catálogo y cada uno verificable en el estante. Lo que los separa no es una marca mejor, es una parte más grande de la cadena de señal.</p><p><strong>El Nivel 1 por $1.003</strong> ya es un estudio terminado: una Scarlett 2i2, un NT1 Signature, un par de monitores alimentados de 5 pulgadas, auriculares ATH-M20x, un soporte y cuatro paneles acústicos. Nada de esa lista es aspiracional. El par de KRK Rokit 5 G5 es la razón por la que funciona como primer hogar: van alimentados y con una pantalla LCD trasera que puedes reorientar según la esquina en la que acaben.</p><p><strong>El Nivel 2 por $1.113</strong> gasta los $110 de más en dos cosas que cambian cómo trabajas, no lo que oyes: la SSL 2+ MKII con sus previos analógicos 4K y los ATH-M50x como referencia de mezcla de verdad. Los monitores también cambian: el par de JBL 305P MkII trae una guía de onda y la zona de escucha se ensancha claramente. Este es el nivel que debería comprar la mayoría.</p><p><strong>El Nivel 3 por $1.393</strong> usa la misma interfaz y la misma gama de monitores, con dos subidas: el NT1 5th Generation por un suelo de ruido más bajo y USB nativo, y un par de KRK Rokit 7 G5, que es donde se van casi los $280 de diferencia. Siete pulgadas no es marketing: es la diferencia entre juzgar un bombo y adivinarlo.</p><p>Los tres pagan ya el tratamiento acústico, porque esa es la parte que decide si el resto funciona. Un micrófono de $269 en un dormitorio sin tratar graba el dormitorio.</p>",
         "products": [
           297
         ]
@@ -38,15 +38,35 @@
         ]
       },
       {
-        "heading": "Monitors You Cannot Skip (and the Ones You Can)",
-        "heading_es": "Monitores que no puedes ignorar (y los que sí)",
-        "content": "<p>Only the Powerhouse tier includes monitors, and that is a deliberate line.</p><p>Headphones reveal detail in the midrange and let you work at any hour without neighbour complaints. They do not reveal low end. You cannot judge kick and bass balance on closed-back headphones, and a mix balanced on them will translate badly to a club system.</p><p>Speakers do reveal low end, but only in a room that is not fighting them. The KRK Rokit 7 G5 has a 7-inch woven Kevlar aramid woofer and 145 watts of Class D amplification — the most authority in this list — but place it against a bare wall and the bass will double back at you and lie.</p><p>So the honest order is: mix on headphones first, check on monitors when the room allows it, and spend the last of your budget on four foam panels before you spend it on a second pair of speakers. A pair of monitors in a treated room beats two pairs of monitors in a bedroom.</p>",
-        "content_es": "<p>Solo el montaje Definitivo incluye monitores, y es una línea deliberada.</p><p>Los auriculares revelan detalle en los medios y te dejan trabajar a cualquier hora sin quejas del vecino. No revelan graves. No puedes juzgar el balance de bombo y bajo en auriculares cerrados, y una mezcla equilibrada así sonará mal en un sistema de club.</p><p>Los altavoces sí revelan graves, pero solo en una sala que no les pelee. El KRK Rokit 7 G5 monta un woofer de 7 pulgadas de fibra de Kevlar trenzada y 145 vatios de amplificación Clase D — el componente con más autoridad de esta lista — pero ponlo contra una pared desnuda y el bajo rebotará contra ti y te mentirá.</p><p>Así que el orden honesto es: mezcla primero con auriculares, comprueba en monitores cuando la sala lo permita, y gasta el final de tu presupuesto en cuatro paneles de espuma antes de gastarlo en un segundo par de altavoces. Un par de monitores en una sala tratada bate a dos pares en un dormitorio.</p>",
+        "heading": "Monitors in Every Tier: What Size Does What",
+        "heading_es": "Monitores en los tres niveles: qué hace cada tamaño",
+        "content": "<p><strong>Every tier here ships with powered monitors, and that is a deliberate reversal of most budget guides.</strong> The standard advice is to mix on headphones first and move to speakers when the budget allows. The problem is that many people never get there, and a mix judged only on closed-back headphones has no way of knowing how it will translate.</p><p>What speaker size buys you is not fidelity, it is reach. The <strong>5-inch</strong> pair sits at the bottom of the audible range you can actually judge: kick and bass relationship, the low mids, whether a mix is too thin or too heavy. It will not tell you what is happening at 40 Hz, and it does not claim to. Two 5-inch options sit at either end of the three tiers, and they are not interchangeable — the KRK Rokit 5 G5 gives you a rear LCD and three voicing modes, while the JBL 305P MkII gives you a waveguide and a much wider sweet spot. Pick for your room, not for the spec sheet.</p><p>The <strong>7-inch</strong> pair at the top tier is the only thing in this guide that reproduces low end with physical force. That matters for one specific job: judging whether the bottom of your mix is actually there or whether you are imagining it from headphone reverb. Everything below 50 Hz stays a guess on a 5-inch. It is not a guess on a 7-inch.</p><p>The rule that survives all of it: buy the room first. A $199 pair of powered monitors in a treated room beats an expensive pair against bare drywall, and the gap is not close. That is why every tier here already includes four acoustic panels.</p>",
+        "content_es": "<p><strong>Los tres niveles van con monitores alimentados, y eso es un giro deliberado respecto a la mayoría de guías económicas.</strong> El consejo habitual es mezclar primero con auriculares y pasar a altavoces cuando el presupuesto lo permita. El problema es que mucha gente nunca llega, y una mezcla juzgada solo con auriculares cerrados no tiene forma de saber cómo va a sonar traducida.</p><p>Lo que compra el tamaño del monitor no es fidelidad, es alcance. El par de <strong>5 pulgadas</strong> se mueve en la parte baja del rango que de verdad puedes juzgar: la relación entre bombo y bajo, los medios graves, si una mezcla está demasiado flaca o demasiado cargada. No te va a decir qué pasa a 40 Hz, y no lo pretende. Hay dos opciones de 5 pulgadas en los tres niveles, y no son intercambiables: el KRK Rokit 5 G5 te da pantalla LCD y tres modos de voz, mientras que el JBL 305P MkII te da guía de onda y una zona de escucha mucho más ancha. Elige por tu sala, no por la ficha técnica.</p><p>El par de <strong>7 pulgadas</strong> del nivel superior es lo único de esta guía que reproduce graves con fuerza física. Importa para un trabajo concreto: juzgar si el fondo de tu mezcla está realmente ahí o si te lo estás imaginando por el reverb de los auriculares. Por debajo de 50 Hz sigue siendo una suposición en un monitor de 5 pulgadas. En uno de 7, no.</p><p>La regla que sobrevive a todo esto: compra primero la sala. Un par de monitores alimentados de $199 en una sala tratada le gana a un par caro contra pladur desnudo, y la diferencia no es ajustada. Por eso los tres niveles de aquí ya incluyen cuatro paneles acústicos.</p>",
         "products": [
           20,
           25,
           26,
-          609
+          609,
+          633,
+          116
+        ]
+      },
+      {
+        "heading": "Five Inches on a Desk: The Monitor That Ships With a Mixing Brain",
+        "heading_es": "Cinco pulgadas sobre la mesa: el monitor que viene con cerebro de mezcla",
+        "content": "<p><strong>The KRK Rokit 5 G5 is the cheapest powered monitor in this guide with a rear LCD.</strong> That screen is the whole argument. Twenty-five boundary and tuning EQ combinations live behind it, and you pick the one that matches where the speaker is sitting — corner, wall, or close to your listening position. Set it once and forget it.</p><p>The voicing switch does something the Rokit 7 cannot: three modes on the same driver. <strong>Mix</strong> is the neutral one for referencing. <strong>Focus</strong> pulls the low end back and lifts the mids, which is what you want when the bass is flattering your mix. <strong>Create</strong> adds top and bottom for tracking. They are not three monitors pretending to be one — they are one monitor you can re-aim.</p><p>Underneath is a 5-inch woven Kevlar aramid woofer and a 1-inch silk dome tweeter on 55 watts of Class D, ported at the front so it can sit against a wall. Peak output is 104 dB. That is not much, and you will feel it on a drum-heavy mix: at normal listening levels the midrange is honest and the image is stable, but it simply cannot produce the low impact of the 7-inch at the top tier. That is precisely why it belongs here — it is the monitor you stop fighting once you have treated the room.</p>",
+        "content_es": "<p><strong>El KRK Rokit 5 G5 es el monitor alimentado más barato de esta guía con pantalla LCD detrás.</strong> Esa pantalla es todo el argumento. Detrás hay veinticinco combinaciones de Boundary y EQ de ajuste, y eliges la que corresponde a dónde está sitting el monitor — esquina, pared o cerca de tu posición de escucha. Lo configuras una vez y te olvidas.</p><p>El selector de modos hace algo que el Rokit 7 no puede: tres Sonidos sobre el mismo transductor. <strong>Mix</strong> es el neutro, para referenciar. <strong>Focus</strong> recorta el grave y levanta los medios, que es lo que quieres cuando el bajo está adulando tu mezcla. <strong>Create</strong> suma agudos y graves para la grabación. No son tres monitores disfrazados de uno: es un monitor que puedes reorientar.</p><p>Debajo hay un woofer de 5 pulgadas de aramida de Kevlar trenzado y un tweeter de cúpula de seda de 1 pulgada, con 55 vatios en Clase D y puerto frontal para poder pegarlo a la pared. Su pico es de 104 dB. No es mucho, y se nota en una mezcla con mucha percusión: a volumen normal los medios son honestos y la imagen es estable, pero sencillamente no tiene el impacto de graves del de 7 pulgadas del nivel superior. Y por eso encaja aquí: es el monitor con el que dejas de pelear una vez que has tratado la sala.</p>",
+        "products": [
+          633
+        ]
+      },
+      {
+        "heading": "Eighty-Two Watts and a Waveguide: Why the Middle Tier Sounds Wider",
+        "heading_es": "Ochenta y dos vatios y una guía de onda: por qué el nivel medio suena más abierto",
+        "content": "<p><strong>The JBL 305P MkII is the only monitor in this guide with a waveguide, and that single decision explains its stereo image.</strong> The Image Control Waveguide puts a physical flare around the tweeter that behaves like a shallow horn. It controls directivity, so the speaker sends energy where you are sitting and much less at the walls. The practical result is a broad, forgiving sweet spot — you can move your head a foot to the left and the mix does not change shape.</p><p>It is properly powered, which matters on a budget: dual Class-D amplification, 41 watts on the tweeter and 41 on the woofer, 82 watts per monitor, so there is no amplifier to buy. The transducers are a 5-inch driver and a 1-inch soft dome crossing over at 1725 Hz through a fourth-order Linkwitz-Riley network. Frequency response is 49 Hz to 20 kHz within 3 dB, extending to 43 Hz at minus 10 dB. Continuous output is 94 dB, peak 108.</p><p>Two switches on the back do quiet, unglamorous work. <strong>Boundary EQ</strong> offers three settings of low-shelf correction at 50 Hz, and if the speakers end up too close to a wall you dial off the bass you know is being reinforced. <strong>HF Trim</strong> steps the tweeter by plus or minus 2 dB. Neither is a feature you will ever talk about. Both are the reason a JBL pair stays trustworthy in a room that is not a perfect room.</p>",
+        "content_es": "<p><strong>El JBL 305P MkII es el único monitor de esta guía con guía de onda, y esa única decisión explica su imagen estéreo.</strong> La Image Control Waveguide rodea el tweeter con un reborde físico que se comporta como una bocina poco profunda. Controla la directividad, así que el monitor envía energía hacia donde estás sentado y muy poca hacia las paredes. El resultado práctico es una zona de escucha ancha y permisiva: mueves la cabeza un palmo a la izquierda y la mezcla no cambia de forma.</p><p>Viene amplificado de verdad, y en un presupuesto eso importa: doble amplificación en Clase D, 41 vatios en el tweeter y 41 en el woofer, 82 vatios por monitor, así que no hay que comprar amplificador. Los transductores son un driver de 5 pulgadas y una cúpula blanda de 1 pulgada que cruzan a 1725 Hz con una red Linkwitz-Riley de cuarto orden. La respuesta es de 49 Hz a 20 kHz con 3 dB, extendiéndose hasta 43 Hz a menos 10 dB. Potencia continua de 94 dB y pico de 108.</p><p>Dos interruptores detrás hacen un trabajo silencioso y poco glamuroso. <strong>Boundary EQ</strong> ofrece tres ajustes de corrección de graves sobre 50 Hz: si los monitores acaban demasiado pegados a una pared, quitas el bajo que sabes que se está sumando. <strong>HF Trim</strong> sube o baja el tweeter 2 dB. Ninguno es una función de la que vayas a presumir. Las dos son la razón de que un par de JBL siga siendo fiable en una sala que no es una sala perfecta.</p>",
+        "products": [
+          116
         ]
       },
       {
@@ -178,8 +198,8 @@
         ]
       }
     ],
-    "conclusion": "<p>Start with the Budget build. It is the cheapest honest way to find out whether you actually like recording yourself, and every part of it can move to the next tier without being wasted.</p><p>The Pro Producer is the one to buy if you are going to sing. The NT1 5th Generation is the quietest large-diaphragm condenser available new, and the ATH-M50x will not flatter anything you mix. That combination catches mistakes instead of hiding them, which is the only reason a mixing headphone is worth buying.</p><p>Add the Rokit 7 G5 pair only when you have treated the room and you need to judge low end. Before that, the headphones are not a compromise — they are the right tool for the hour of the day you are actually working.</p><p>And whatever you spend on the rest, do not skip the panels. The cheapest microphone in any of these builds will sound better in a treated room than the most expensive one will sound in an untreated bedroom.</p>",
-    "conclusion_es": "<p>Empieza por el montaje Básico. Es la forma barata y honesta de averiguar si de verdad te gusta grabarte, y cada pieza se puede pasar al siguiente montaje sin desperdiciarse.</p><p>El Productor Profesional es el que hay que comprar si vas a cantar. El NT1 5th Generation es el condensador de diafragma grande más silencioso que hay nuevo, y los ATH-M50x no van a adular nada de lo que mezcles. Esa combinación atrapa los errores en vez de esconderlos, y esa es la única razón por la que merece la pena comprar auriculares de mezcla.</p><p>Añade el par de Rokit 7 G5 solo cuando hayas tratado la sala y necesites juzgar el grave. Antes de eso, los auriculares no son un compromiso: son la herramienta correcta para la hora del día en la que realmente trabajas.</p><p>Y gastes lo que gastes en lo demás, no te saltes los paneles. El micrófono más barato de cualquiera de estos montajes sonará mejor en una sala tratada que el más caro en un dormitorio sin tratar.</p>",
+    "conclusion": "<p>Start with Tier 1. It is the cheapest honest way to find out whether you actually like recording yourself, and every part of it can move to the next tier without being wasted.</p><p>The Pro Producer is the one to buy if you are going to sing. The NT1 5th Generation is the quietest large-diaphragm condenser available new, and the ATH-M50x will not flatter anything you mix. That combination catches mistakes instead of hiding them, which is the only reason a mixing headphone is worth buying.</p><p>Move up to Tier 2 when you are mixing other people’s work or selling it; move to Tier 3 when you need to judge low end physically rather than guess at it. Before that, the headphones are not a compromise — they are the right tool for the hour of the day you are actually working.</p><p>And whatever you spend on the rest, do not skip the panels. The cheapest microphone in any of these builds will sound better in a treated room than the most expensive one will sound in an untreated bedroom.</p>",
+    "conclusion_es": "<p>Empieza por el Nivel 1. Es la forma barata y honesta de averiguar si de verdad te gusta grabarte, y cada pieza se puede pasar al siguiente montaje sin desperdiciarse.</p><p>El Productor Profesional es el que hay que comprar si vas a cantar. El NT1 5th Generation es el condensador de diafragma grande más silencioso que hay nuevo, y los ATH-M50x no van a adular nada de lo que mezcles. Esa combinación atrapa los errores en vez de esconderlos, y esa es la única razón por la que merece la pena comprar auriculares de mezcla.</p><p>Sube al Nivel 2 cuando ya mezcles o vendas trabajo de otros; pasa al Nivel 3 cuando necesites juzgar el grave de forma física en vez de suponerlo. Antes de eso, los auriculares no son un compromiso: son la herramienta correcta para la hora del día en la que realmente trabajas.</p><p>Y gastes lo que gastes en lo demás, no te saltes los paneles. El micrófono más barato de cualquiera de estos montajes sonará mejor en una sala tratada que el más caro en un dormitorio sin tratar.</p>",
     "verdict": "This is the best overall starter studio: a reliable interface, a real dynamic mic, decent headphones, and monitoring that doesn't lie. Start here, learn the chain, then upgrade one piece at a time.",
     "verdict_es": "Este es el mejor estudio inicial completo: una interfaz fiable, un micrófono dinámico real, buenos auriculares y un monitoreo que no miente. Empieza aquí, aprende la cadena y luego mejora pieza por pieza.",
     "featuredProducts": [
@@ -194,7 +214,9 @@
       26,
       58,
       39,
-      167
+      167,
+      633,
+      116
     ],
     "relatedGuides": [
       "scarlett-vs-ssl",
@@ -204,7 +226,7 @@
       "best-microphone",
       "best-headphones"
     ],
-    "description": "Three complete home studio builds, priced from our catalogue. What $605, $925 and $1,393 actually buy, and why room treatment is not optional.",
+    "description": "Three complete home studio builds, priced from our catalogue. What $1,003, $1,113 and $1,393 actually buy, and why room treatment is not optional.",
     "featuredSnippet": {
       "title_en": "Home Studio Starter Kit: Everything You Need",
       "text_en": "Your interface is the command center. It converts your microphone and instrument signals into digital audio your computer can work with. For a starter studio, you want something reliable, low-latency,...",
@@ -233,11 +255,11 @@
       "faq_q1_en": "What is the best first audio interface for a starter home studio?",
       "faq_a1_en": "The Scarlett 2i2 is the safest first purchase. It is the best-selling audio interface in the world for a reason: 120dB dynamic range, Air mode for enhanced high frequencies and rock-solid USB-C drivers make it reliable and good enough to grow with. It is the interface most starter studios should begin with.",
       "faq_q2_en": "Which microphone should I buy first for a starter studio?",
-      "faq_a2_en": "Start with the NT1 Signature. It is the cheapest large-diaphragm condenser that ships with a shock mount, a pop filter and an XLR cable, so nothing else has to be bought before the first take. Pair it with the four acoustic panels before anything else — an untreated room records the room, not the voice. As you grow, step up to the NT1 5th Generation, which is quieter at 4 dBA and adds native USB.",
+      "faq_a2_en": "Start with the NT1 Signature. It is the cheapest large-diaphragm condenser that ships with a shock mount, a pop filter and an XLR cable, so nothing else has to be bought before the first take. Pair it with the four acoustic panels and a pair of powered monitors before anything else — an untreated room records the room, not the voice. As you grow, step up to the NT1 5th Generation, which is quieter at 4 dBA and adds native USB.",
       "faq_q1_es": "¿Cuál es la mejor opción primera interfaz de audio para un home studio de inicio?",
       "faq_a1_es": "La Scarlett 2i2 es la compra inicial más segura. Es la interfaz más vendida del mundo por una razón: 120dB de rango dinámico, modo Air para agudos realzados y drivers USB-C ultrafiables la hacen fiable y lo bastante buena para crecer contigo. Es la interfaz con la que la mayoría de estudios de inicio deberían comenzar.",
       "faq_q2_es": "¿Qué micrófono debería comprar primero para un estudio de inicio?",
-      "faq_a2_es": "Empieza con el NT1 Signature. Es el condensador de diafragma grande más barato que ya incluye soporte, filtro antipop y cable XLR, así que no hay que comprar nada más antes de la primera toma. Pairéalo con los cuatro paneles acústicos antes que con cualquier otra cosa: una sala sin tratar graba la sala, no la voz. A medida que crezcas, sube al NT1 5th Generation, que es más silencioso (4 dBA) y añade USB nativo.",
+      "faq_a2_es": "Empieza con el NT1 Signature. Es el condensador de diafragma grande más barato que ya incluye soporte, filtro antipop y cable XLR, así que no hay que comprar nada más antes de la primera toma. Pairéalo con los cuatro paneles acústicos y con un par de monitores alimentados antes que con cualquier otra cosa: una sala sin tratar graba la sala, no la voz. A medida que crezcas, sube al NT1 5th Generation, que es más silencioso (4 dBA) y añade USB nativo.",
       "specs": [],
       "faq_q3_en": "Are the Audio-Technica ATH-M50x good headphones for mixing on a budget?",
       "faq_a3_en": "Yes, they are the best budget mixing headphones for a starter studio. The ATH-M50x delivers a detailed, balanced sound with 45mm large-aperture drivers, a collapsible design for portability and excellent isolation — making them the most versatile closed-back headphones for mixing, tracking and everyday use.",
@@ -248,11 +270,11 @@
       "faq_q4_es": "¿Son los KRK Rokit 7 G5 buenos monitores para un estudio de principiante?",
       "faq_a4_es": "Sí, están hechos para productores de dormitorio. El KRK Rokit 7 G5 (unos $538 el par) tiene corrección de sala DSP y puerto frontal, así que un principiante puede ajustar la respuesta de graves a su acústica sin gastar en tratamiento. Por su precio, dan a los principiantes un monitoreo útil y flexible que ayuda a aprender a oír las mezclas.",
       "faq_q5_en": "Can I build a starter studio on a budget?",
-      "faq_a5_en": "Yes — that is exactly what this guide is designed for. Focus your budget in this order: a capable audio interface first, a large-diaphragm condenser, a pair of monitors or headphones you know well, acoustic panels, and then everything else. You do not need an expensive microphone or a large analogue mixer to make recordings that translate well. A well-spread budget beats a badly spread one every time.",
+      "faq_a5_en": "Yes — that is exactly what this guide is designed for. Focus your budget in this order: a capable audio interface first, a large-diaphragm condenser, a pair of powered monitors, acoustic panels, and then the headphones. You do not need an expensive microphone or a large analogue mixer to make recordings that translate well. A well-spread budget beats a badly spread one every time.",
       "faq_q5_es": "¿Puedo armar un estudio inicial con un presupuesto ajustado?",
-      "faq_a5_es": "Sí — exactamente para eso está diseñada esta guía. Enfoca tu presupuesto en este orden: primero una interfaz de audio capaz, un condensador de diafragma grande, un par de monitores o auriculares que conozcas bien, paneles acústicos y luego todo lo demás. No necesitas un micrófono caro ni una mezcladora analógica grande para hacer grabaciones que se traduzcan bien. Un presupuesto bien repartido supera a uno mal repartido cada vez."
+      "faq_a5_es": "Sí — exactamente para eso está diseñada esta guía. Enfoca tu presupuesto en este orden: primero una interfaz de audio capaz, un condensador de diafragma grande, un par de monitores alimentados, paneles acústicos y después los auriculares. No necesitas un micrófono caro ni una mezcladora analógica grande para hacer grabaciones que se traduzcan bien. Un presupuesto bien repartido supera a uno mal repartido cada vez."
     },
-    "description_es": "Tres montajes de estudio doméstico con precios de nuestro catálogo. Qué compran $605, $925 y $1.393, y por qué trata la sala.",
+    "description_es": "Tres montajes de estudio doméstico con precios de nuestro catálogo. Qué compran $1.003, $1.113 y $1.393, y por qué trata la sala.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -282,70 +304,70 @@
     "productTable": {
       "columns": [
         {
-          "title": "Budget Essentials Setup",
-          "title_es": "Equipo básico esencial"
+          "title": "Tier 1: Essential",
+          "title_es": "Nivel 1: Esencial"
         },
         {
-          "title": "Pro Producer Setup",
-          "title_es": "Equipo de productor profesional"
+          "title": "Tier 2: Pro Producer (Recommended)",
+          "title_es": "Nivel 2: Productor Pro (recomendado)"
         },
         {
-          "title": "Ultimate Powerhouse Setup",
-          "title_es": "Equipo definitivo"
+          "title": "Tier 3: The Definitive Studio",
+          "title_es": "Nivel 3: El estudio definitivo"
         }
       ],
       "rows": [
         {
-          "label": "What This Build Is For",
-          "label_es": "Para qué sirve este montaje",
+          "label": "User Profile",
+          "label_es": "Perfil de usuario",
           "values": [
             {
-              "value": "Record and back up ideas without spending up",
-              "value_es": "Grabar y respaldar ideas sin gastarte todo"
+              "value": "The one who wants a finished studio with real speakers without touching their savings.",
+              "value_es": "El que quiere un estudio terminado con altavoces de verdad sin rematar cada ahorro."
             },
             {
-              "value": "Record vocals properly and mix what you capture",
-              "value_es": "Grabar voz en condiciones y mezclar lo que capturas"
+              "value": "The producer who mixes, travels and sells instrumentals or audio services.",
+              "value_es": "El productor que mezcla, viaja y vende instrumentales o servicios de audio."
             },
             {
-              "value": "Mix full arrangements with monitors, not headphones",
-              "value_es": "Mezclar arreglos completos con monitores, no con auriculares"
+              "value": "The engineer who masters for streaming and wants physical low end in the room.",
+              "value_es": "El ingeniero que masteriza para plataformas y quiere graves físicos en la sala."
             }
           ]
         },
         {
-          "label": "Interface",
-          "label_es": "Interfaz",
+          "label": "Audio Interface",
+          "label_es": "Interfaz de audio",
           "values": [
             {
               "value": "Focusrite Scarlett 2i2 4th Gen",
               "value_es": "Focusrite Scarlett 2i2 4th Gen"
             },
             {
-              "value": "SSL 2+ MKII",
-              "value_es": "SSL 2+ MKII"
+              "value": "SSL 2+ MKII — analogue 4K preamps",
+              "value_es": "SSL 2+ MKII — previos analógicos 4K"
             },
             {
-              "value": "SSL 2+ MKII",
-              "value_es": "SSL 2+ MKII"
+              "value": "SSL 2+ MKII — 32-bit converters",
+              "value_es": "SSL 2+ MKII — convertidores de 32 bits"
             }
           ]
         },
         {
-          "label": "Microphone",
-          "label_es": "Micrófono",
+          "label": "Main Microphone",
+          "label_es": "Micrófono principal",
           "values": [
             {
-              "value": "Rode NT1 Signature (condenser)",
-              "value_es": "Rode NT1 Signature (condensador)"
+              "value": "Rode NT1 Signature (pure XLR)",
+              "value_es": "Rode NT1 Signature (XLR puro)"
             },
             {
-              "value": "Rode NT1 5th Generation (condenser)",
-              "value_es": "Rode NT1 5th Generation (condensador)"
+              "value": "Rode NT1 Signature (pure XLR)",
+              "value_es": "Rode NT1 Signature (XLR puro)"
             },
             {
-              "value": "Rode NT1 5th Generation (condenser)",
-              "value_es": "Rode NT1 5th Generation (condensador)"
+              "value": "Rode NT1 5th Gen (USB/XLR hybrid, 32-bit float)",
+              "value_es": "Rode NT1 5th Gen (híbrido USB/XLR, 32 bits float)"
             }
           ]
         },
@@ -354,52 +376,34 @@
           "label_es": "Auriculares",
           "values": [
             {
-              "value": "Audio-Technica ATH-M20x",
-              "value_es": "Audio-Technica ATH-M20x"
+              "value": "Audio-Technica ATH-M20x — basic isolation",
+              "value_es": "Audio-Technica ATH-M20x — aislamiento básico"
             },
             {
-              "value": "Audio-Technica ATH-M50x",
-              "value_es": "Audio-Technica ATH-M50x"
+              "value": "Audio-Technica ATH-M50x — the modern reference",
+              "value_es": "Audio-Technica ATH-M50x — la referencia moderna"
             },
             {
-              "value": "Sony MDR-7506",
-              "value_es": "Sony MDR-7506"
+              "value": "Sony MDR-7506 — the clinical loupe for catching errors",
+              "value_es": "Sony MDR-7506 — la lupa clínica para cazar errores"
             }
           ]
         },
         {
           "label": "Studio Monitors",
-          "label_es": "Monitores",
+          "label_es": "Monitores de estudio",
           "values": [
             {
-              "value": "Headphones only",
-              "value_es": "Solo auriculares"
+              "value": "KRK Rokit 5 G5 (pair) — the king of small rooms",
+              "value_es": "KRK Rokit 5 G5 (par) — el rey de las habitaciones"
             },
             {
-              "value": "Headphones only",
-              "value_es": "Solo auriculares"
+              "value": "JBL 305P MkII (pair) — three-dimensional stereo image",
+              "value_es": "JBL 305P MkII (par) — imagen estéreo tridimensional"
             },
             {
-              "value": "KRK Rokit 7 G5 (pair)",
-              "value_es": "KRK Rokit 7 G5 (par)"
-            }
-          ]
-        },
-        {
-          "label": "Accessories",
-          "label_es": "Accesorios",
-          "values": [
-            {
-              "value": "K&M 210/2 Mic Stand",
-              "value_es": "Soporte K&M 210/2"
-            },
-            {
-              "value": "K&M 210/2 Mic Stand",
-              "value_es": "Soporte K&M 210/2"
-            },
-            {
-              "value": "K&M 210/2 Mic Stand",
-              "value_es": "Soporte K&M 210/2"
+              "value": "KRK Rokit 7 G5 (pair) — 7-inch low-end impact",
+              "value_es": "KRK Rokit 7 G5 (par) — impacto de graves de 7 pulgadas"
             }
           ]
         },
@@ -409,36 +413,53 @@
           "values": [
             {
               "value": "G4M Squarewave panels (4-pack)",
-              "value_es": "Paneles G4M Squarewave (4-pack)"
+              "value_es": "Paneles G4M Squarewave (paquete de 4)"
             },
             {
               "value": "G4M Squarewave panels (4-pack)",
-              "value_es": "Paneles G4M Squarewave (4-pack)"
+              "value_es": "Paneles G4M Squarewave (paquete de 4)"
             },
             {
               "value": "G4M Squarewave panels (4-pack)",
-              "value_es": "Paneles G4M Squarewave (4-pack)"
+              "value_es": "Paneles G4M Squarewave (paquete de 4)"
             }
           ]
         },
         {
-          "label": "Total",
-          "label_es": "Total",
+          "label": "Standout Strengths",
+          "label_es": "Puntos fuertes",
           "values": [
             {
-              "value": "~$605",
-              "value_es": "~$605"
+              "value": "A complete chain with powered speakers from day one. Rear LCD on every monitor.",
+              "value_es": "Cadena completa con altavoces alimentados desde el primer día. Pantalla LCD en cada monitor."
             },
             {
-              "value": "~$925",
-              "value_es": "~$925"
+              "value": "Pure acoustic accuracy. The sweet spot for balancing frequencies without fighting the bass.",
+              "value_es": "Precisión acústica pura. El punto ideal para equilibrar frecuencias sin pelear con el grave."
+            },
+            {
+              "value": "The complete ecosystem. 145 watts per monitor without distortion.",
+              "value_es": "El ecosistema completo. 145 vatios por monitor sin distorsión."
+            }
+          ]
+        },
+        {
+          "label": "Estimated Cost",
+          "label_es": "Inversión estimada",
+          "values": [
+            {
+              "value": "~$1,003",
+              "value_es": "~$1.003"
+            },
+            {
+              "value": "~$1,113",
+              "value_es": "~$1.113"
             },
             {
               "value": "~$1,393",
               "value_es": "~$1.393"
             }
-          ],
-          "rows": null
+          ]
         }
       ]
     },
@@ -789,6 +810,64 @@
           "Mejor que un cable de $12 para evitar zumbido, pero no es una mejora de tono",
           "Un solo largo — un cable largo en una sala pequeña genera enredo",
           "Sin código de colores ni etiqueta en el conector, se pierde dentro de un manojo"
+        ]
+      },
+      {
+        "name": "KRK Rokit 5 G5",
+        "name_es": "KRK Rokit 5 G5",
+        "productId": 633,
+        "pros": [
+          "Rear LCD with 25 boundary and tuning EQ combinations — the only monitor here that lets you re-aim it for its position",
+          "Three voicing modes on one driver: Mix to reference, Focus to cut a flattering bass, Create to track",
+          "Front bass port, so it can sit against a wall without the boom a rear port would add",
+          "5-inch aramid woofer and 1-inch silk dome on 55W of Class D — a full monitoring chain for the price of a pair of headphones"
+        ],
+        "cons": [
+          "104 dB peak is low next to the Rokit 7: on a drum-heavy mix you will want the volume higher than it wants to go",
+          "Below roughly 50 Hz it is guessing, not measuring — you cannot judge a kick and bass relationship on it",
+          "The rear LCD and controls are small and unlit; you are dialling them in with the speakers at listening distance",
+          "The voicing switch is a temptation: Focus mode flatters mixes, and it is one click away from the reference you were trying to avoid"
+        ],
+        "pros_es": [
+          "Pantalla LCD trasera con 25 combinaciones de Boundary y EQ: el único monitor de aquí que puedes reorientar según su posición",
+          "Tres modos de voz sobre un solo transductor: Mix para referenciar, Focus para recortar un grave que adula y Create para grabar",
+          "Puerto de graves frontal, así que puede ir pegado a la pared sin el retumbe que añadiría uno trasero",
+          "Woofer de aramida de 5 pulgadas y cúpula de seda de 1 pulgada con 55 W en Clase D: una cadena de monitorización completa por lo que cuesta un par de auriculares"
+        ],
+        "cons_es": [
+          "Su pico de 104 dB es bajo comparado con el Rokit 7: en una mezcla con mucha percusión querrás más volumen del que ofrece",
+          "Por debajo de unos 50 Hz no mide, estima — no puedes juzgar en él la relación entre bombo y bajo",
+          "La pantalla y los mandos de atrás son pequeños y no se iluminan: los ajustas con los monitores a distancia de escucha",
+          "El selector de modos es una tentación: el modo Focus adula mezclas y está a un clic de la referencia que intentabas evitar"
+        ]
+      },
+      {
+        "name": "JBL 305P MkII",
+        "name_es": "JBL 305P MkII",
+        "productId": 116,
+        "pros": [
+          "Image Control Waveguide gives the widest, most forgiving sweet spot of any monitor here — you move your head and the mix holds",
+          "Genuinely powered: 82 watts per monitor of bi-amped Class D, so there is no amplifier in the budget",
+          "Boundary EQ at 50 Hz and HF Trim on the back fix the two problems a bedroom room always has",
+          "At 43 Hz low-frequency extension it reaches lower than its price suggests, and stays clean doing it"
+        ],
+        "cons": [
+          "94 dB continuous output is honest and modest — it is a nearfield monitor, not a drum room reference",
+          "The waveguide that widens the image also narrows what you hear off-axis: the mix you check off-centre is not the mix",
+          "43 Hz is extension at minus 10 dB, not a flat response, so do not read it as a usable 43",
+          "No DSP presets and no app: the room correction is two switches, which is all you get and all you need"
+        ],
+        "pros_es": [
+          "La Image Control Waveguide da la zona de escucha más ancha y permisiva de todos los monitores de aquí: mueves la cabeza y la mezcla se mantiene",
+          "Viene amplificado de verdad: 82 vatios por monitor en Clase D bi-amplificada, así que no hay amplificador en el presupuesto",
+          "El Boundary EQ de 50 Hz y el HF Trim de atrás resuelven los dos problemas que una sala de dormitorio siempre tiene",
+          "Con 43 Hz de extensión baja más de lo que sugiere su precio, y lo hace sin ensuciar"
+        ],
+        "cons_es": [
+          "Sus 94 dB de potencia continua son honestos y modestos: es un monitor de nearfield, no una referencia de sala de ensayo",
+          "La guía de onda que abre la imagen también reduce lo que oyes fuera de eje: la mezcla que compruebas desplazado no es la mezcla",
+          "Los 43 Hz son extensión a menos 10 dB, no respuesta plana, así que no lo leas como un 43 Hz útil",
+          "Sin presets de DSP ni app: la corrección de sala son dos interruptores, que es todo lo que hay y todo lo que necesitas"
         ]
       }
     ],

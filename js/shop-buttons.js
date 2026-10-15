@@ -5099,7 +5099,7 @@ const TEST_SHOP_BTN = {
     }
   },
   633: {
-    prices: {
+    prices: { amazon: "$199.00",
       gear4music: "£141.00",
       zzounds: "$199.00",
       musicstore: "€195.00"
