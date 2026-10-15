@@ -5888,6 +5888,10 @@ function shopButtonsTest(p, lang) {
                   dawHasAmazon ? 'amazon' : null, 'zzounds'].filter(Boolean);
   let _precio = '';
   for (const k of _order) { if (!_precio && _ownPrice(k)) _precio = _ownPrice(k); }
+  // REGLA FIJA: Amazon nunca muestra precio en el boton primario, solo
+  // "Check price" / "Verificar precio". El precio de Amazon sigue en
+  // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
+  if (primaryStoreKey === 'amazon') _precio = '';
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check price'));
@@ -5937,10 +5941,11 @@ function shopButtonsTest(p, lang) {
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
     // precio que si existe en otra tienda: ahora se cae al primer precio
     // disponible, igual que en el boton primario.
+    // REGLA FIJA: Amazon nunca muestra precio en la fila, solo
+    // "Check price" / "Verificar precio" (ni el suyo ni el de otra tienda).
     const _rowPrice = (k) => {
+      if (k === 'amazon') return '';
       if (prices[k]) return prices[k];
-      if (k !== 'amazon') return '';
-      for (const alt of ['zzounds','gear4music','musicstore','andertons']) if (prices[alt]) return prices[alt];
       return '';
     };
     const _pr = _rowPrice(k);
@@ -6018,7 +6023,7 @@ window.tmgStoreButtons = function(p) {
       var zAffAttr = zAff ? ' data-aff="' + zAff + '"' : '';
       var zPriceEl = zRow.querySelector('.shop-price');
       var zPlain = zPriceEl ? zPriceEl.getAttribute('data-price') : '';
-      var zPriceHtml = zPlain ? tmgPriceHtml(zPlain, true) : (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : '');
+      var zPriceHtml = (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (zPlain ? tmgPriceHtml(zPlain, true) : ''));
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';

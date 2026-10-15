@@ -252,7 +252,7 @@ window.tmgStoreButtons = function(p) {
       var zAffAttr = zAff ? ' data-aff="' + zAff + '"' : '';
       var zPriceEl = zRow.querySelector('.shop-price');
       var zPlain = zPriceEl ? zPriceEl.getAttribute('data-price') : '';
-      var zPriceHtml = zPlain ? tmgPriceHtml(zPlain, true) : (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : '');
+      var zPriceHtml = (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (zPlain ? tmgPriceHtml(zPlain, true) : ''));
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';

@@ -6146,6 +6146,10 @@ function shopButtonsTest(p, lang) {
                   dawHasAmazon ? 'amazon' : null, 'zzounds'].filter(Boolean);
   let _precio = '';
   for (const k of _order) { if (!_precio && _ownPrice(k)) _precio = _ownPrice(k); }
+  // REGLA FIJA: Amazon nunca muestra precio en el boton primario, solo
+  // "Check price" / "Verificar precio". El precio de Amazon sigue en
+  // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
+  if (primaryStoreKey === 'amazon') _precio = '';
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check price'));
@@ -6195,10 +6199,11 @@ function shopButtonsTest(p, lang) {
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
     // precio que si existe en otra tienda: ahora se cae al primer precio
     // disponible, igual que en el boton primario.
+    // REGLA FIJA: Amazon nunca muestra precio en la fila, solo
+    // "Check price" / "Verificar precio" (ni el suyo ni el de otra tienda).
     const _rowPrice = (k) => {
+      if (k === 'amazon') return '';
       if (prices[k]) return prices[k];
-      if (k !== 'amazon') return '';
-      for (const alt of ['zzounds','gear4music','musicstore','andertons']) if (prices[alt]) return prices[alt];
       return '';
     };
     const _pr = _rowPrice(k);
@@ -7161,7 +7166,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     var zAffAttr=zAff?' data-aff="'+zAff+'"':'';
     var zPriceEl=zRow.querySelector('.shop-price');
     var zPlain=zPriceEl?zPriceEl.getAttribute('data-price'):'';
-    var zPriceHtml=zPlain?tmgPriceHtml(zPlain,true):(T==='amazon'?'<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">'+tmgCheckLabel+'</span>':'');
+    var zPriceHtml=(T==='amazon')?'<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">'+tmgCheckLabel+'</span>':(zPlain?tmgPriceHtml(zPlain,true):'');
     var aUrl=pb.getAttribute('href');var aAff=pb.getAttribute('data-aff');
     var aAffAttr=aAff?' data-aff="'+aAff+'"':'';
     var newPrimary='<a href="'+zUrl+'"'+zAffAttr+' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\\'brightness(1.05)\\'" onmouseout="this.style.filter=\\'\\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">'+(tmgIsEsDoc()?'Comprar en':'Buy at')+'<span style="'+gPrimFont+'">'+(gText[T]||T)+'</span>'+(zPriceHtml?' - '+zPriceHtml:'')+'</span></span></a>';

@@ -1,0 +1,12 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const d = fs.readFileSync(B + 'guides/starter-studio.html', 'utf8');
+const NUEVO = "var zPriceHtml=(T==='amazon')";
+const VIEJO = 'var zPriceHtml=zPlain';
+console.log('guia inline con fix : ' + (d.split(NUEVO).length - 1));
+console.log('guia resto viejo    : ' + (d.split(VIEJO).length - 1));
+const j = fs.readFileSync(B + 'js/shop-buttons.js', 'utf8');
+const NUEVO2 = "var zPriceHtml = (T === 'amazon')";
+const VIEJO2 = 'var zPriceHtml = zPlain';
+console.log('shop-buttons con fix: ' + (j.split(NUEVO2).length - 1));
+console.log('shop-buttons viejo  : ' + (j.split(VIEJO2).length - 1));
