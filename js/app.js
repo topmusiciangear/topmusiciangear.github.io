@@ -732,27 +732,6 @@ function findProductGuides(productId) {
     if (g.products) ids = ids.concat(g.products);
     if (g.sections) g.sections.forEach(function(s) { if (s.products) ids = ids.concat(s.products); });
     if (ids.indexOf(productId) !== -1) { pushGuide(g); return; }
-    // Fallback: match productTable column titles / verdict names against catalog titles
-    var p = (typeof products !== 'undefined' && products) ? products.find(function(x) { return x.id === productId; }) : null;
-    if (!p) return;
-    var pt = normName(p.title), pte = normName(p.title_es);
-    var names = [];
-    if (g.productTable && g.productTable.columns) g.productTable.columns.forEach(function(c) {
-      if (c.title) names.push(c.title);
-      if (c.title_es) names.push(c.title_es);
-    });
-    if (g.verdictProsCons) g.verdictProsCons.forEach(function(v) {
-      if (v.name) names.push(v.name);
-      if (v.name_es) names.push(v.name_es);
-    });
-    for (var i = 0; i < names.length; i++) {
-      var n = normName(names[i]);
-      if (!n || n.length < 4) continue;
-      if (n === pt || (pte && n === pte)) {
-        pushGuide(g);
-        break;
-      }
-    }
   });
   return out;
 }
