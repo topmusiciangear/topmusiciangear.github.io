@@ -1,0 +1,907 @@
+[
+ {
+  "sev": "AVISO",
+  "donde": "producto 654",
+  "msg": "sin precio canonico: Neumann TLM 103"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-headphones",
+  "msg": "seccion con 56 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-headphones",
+  "msg": "seccion con 57 no esta en featured"
+ },
+ {
+  "sev": "ERROR",
+  "donde": "guia best-microphone",
+  "msg": "veredicto Aston Microphones Origin pros[2] fragmentado: \"-10dB pad and bass roll-off switches onboard\""
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors",
+  "msg": "seccion con 117 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors",
+  "msg": "seccion con 303 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors",
+  "msg": "veredicto \"Genelec 8351B\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"sE Electronics V7\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Elgato Wave DX\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Samson Q9U XLR/USB\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"AKG P120 Large-Diaphragm\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Behringer B 906\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Behringer XM8500 Ultravoice\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"FIFINE K669D XLR\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Samson Q2U USB/XLR\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"FIFINE AmpliTank K688\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Maono PD200X Dynamic\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Rode NT1 Signature\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-mics",
+  "msg": "veredicto \"Samson C01 Studio\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia usb-mics",
+  "msg": "veredicto \"Audio-Technica AT2020USB-X\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia usb-mics",
+  "msg": "veredicto \"Samson Q2U\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia stage-mics",
+  "msg": "seccion con 228 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia portable-interfaces",
+  "msg": "veredicto \"Audient iD14 MKII\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-headphones",
+  "msg": "veredicto \"Sennheiser HD 280 Pro II\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-monitors",
+  "msg": "seccion con 117 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia midi-controllers",
+  "msg": "veredicto \"SSL UF8\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-furniture",
+  "msg": "seccion con 39 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia stage-wireless",
+  "msg": "veredicto \"Sennheiser EW-D 835-S Vocal Set\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia stage-wireless",
+  "msg": "veredicto \"Sennheiser EW-D Dual\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia guitar-pedals",
+  "msg": "seccion con 98 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia guitar-pedals",
+  "msg": "veredicto \"Boss DD-8 digital Delay\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia acoustic-guitars-guide",
+  "msg": "veredicto \"Taylor PS14ce\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia live-sound-pa",
+  "msg": "seccion con 105 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia live-sound-pa",
+  "msg": "seccion con 494 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia live-sound-pa",
+  "msg": "seccion con 152 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-interfaces",
+  "msg": "seccion con 53 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia hd490-pro-vs-dt990",
+  "msg": "seccion con 56 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia k371-vs-mdr7506",
+  "msg": "seccion con 26 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia re20-vs-sm7b",
+  "msg": "seccion con 1 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia blx288-vs-ewd",
+  "msg": "veredicto \"Sennheiser EW-D Dual\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia katana-vs-dsl",
+  "msg": "seccion con 72 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-guitar-home-office",
+  "msg": "seccion con 295 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-guitar-home-office",
+  "msg": "seccion con 271 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia fix-clipping-scarlett",
+  "msg": "seccion con 55 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia fix-clipping-scarlett",
+  "msg": "seccion con 121 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia fix-clipping-scarlett",
+  "msg": "seccion con 182 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia fix-clipping-scarlett",
+  "msg": "seccion con 263 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-mic-for-guitar-amps",
+  "msg": "seccion con 51 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-mic-for-podcasting",
+  "msg": "veredicto \"Rode NT1 5th Gen\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-mic-for-podcasting",
+  "msg": "veredicto \"Behringer XM8500 Ultravoice\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-daw-for-beginners",
+  "msg": "seccion con 110 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-daw-for-beginners",
+  "msg": "seccion con 113 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors-for-small-rooms",
+  "msg": "seccion con 117 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors-for-small-rooms",
+  "msg": "seccion con 308 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors-for-small-rooms",
+  "msg": "veredicto \"iLoud Micro Monitor Pro\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-monitors-for-small-rooms",
+  "msg": "veredicto \"iLoud MTM MKII\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-beginner-electric-guitar",
+  "msg": "seccion con 462 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-beginner-electric-guitar",
+  "msg": "seccion con 313 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-beginner-electric-guitar",
+  "msg": "seccion con 464 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-beginner-electric-guitar",
+  "msg": "seccion con 309 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-beginner-electric-guitar",
+  "msg": "veredicto \"Enya Nova Go Sonic\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-samplers-drum-computers",
+  "msg": "veredicto \"Akai MPC Key 37 Gen 2\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia compact-rhythm-devices",
+  "msg": "veredicto \"Roland AIRA Compact P-6\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-practice-amps",
+  "msg": "veredicto \"Yamaha THR10II\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-amps",
+  "msg": "seccion con 484 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-amps",
+  "msg": "seccion con 485 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-amps",
+  "msg": "veredicto \"Orange Crush Bass 50\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-amps",
+  "msg": "veredicto \"Darkglass DG210A Microtubes 500\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-practice-amps",
+  "msg": "veredicto \"Yamaha THR30II\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-practice-amps",
+  "msg": "veredicto \"Darkglass DG210A\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-live-sound-mixers",
+  "msg": "seccion con 139 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-pa-speakers",
+  "msg": "seccion con 106 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-pa-speakers",
+  "msg": "seccion con 108 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-pa-speakers",
+  "msg": "seccion con 105 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-pa-speakers",
+  "msg": "veredicto \"JBL PRX915\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 571 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 572 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 141 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 140 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 565 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 573 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "seccion con 567 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "veredicto \"Roland RP107\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "veredicto \"Yamaha YDP-146\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "veredicto \"Yamaha YDP-166\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "veredicto \"Yamaha CLP-835\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "veredicto \"Casio PX-S1100\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-digital-pianos",
+  "msg": "veredicto \"Roland FP-10\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-synthesizers",
+  "msg": "seccion con 478 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-synthesizers",
+  "msg": "veredicto \"ASM Hydrasynth Keyboard\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-analog-mixers",
+  "msg": "seccion con 333 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-compact-mixers",
+  "msg": "veredicto \"Allen & Heath SQ-Rack\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-pa-systems",
+  "msg": "seccion con 151 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia precision-vs-jazz",
+  "msg": "seccion con 441 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia scarlett-vs-motu",
+  "msg": "seccion con 54 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia active-vs-passive-pa",
+  "msg": "seccion con 502 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia active-vs-passive-pa",
+  "msg": "seccion con 499 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia active-vs-passive-pa",
+  "msg": "seccion con 500 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia active-vs-passive-pa",
+  "msg": "seccion con 105 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia active-vs-passive-pa",
+  "msg": "seccion con 106 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia active-vs-passive-pa",
+  "msg": "seccion con 495 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia beginner-bass-guitars",
+  "msg": "veredicto \"Sire Marcus Miller V5R\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-bass-under-700",
+  "msg": "veredicto \"Sire Marcus Miller V5R\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia beat-making",
+  "msg": "seccion con 256 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia beat-making",
+  "msg": "seccion con 188 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia beat-making",
+  "msg": "seccion con 257 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia beat-making",
+  "msg": "seccion con 1 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-instrument-mics",
+  "msg": "veredicto \"Beyerdynamic M 201\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-live-subwoofers",
+  "msg": "veredicto \"QSC KS118\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia stream-controllers",
+  "msg": "seccion con 243 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia streaming-interfaces",
+  "msg": "seccion con 240 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia wireless-lapel-mics",
+  "msg": "seccion con 254 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia wireless-lapel-mics",
+  "msg": "veredicto \"DJI Mic 3\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia wireless-lapel-mics",
+  "msg": "veredicto \"DJI Mic Mini 2\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "seccion con 291 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "seccion con 292 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "seccion con 286 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"Samson Q2U USB/XLR\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"FIFINE AmpliGame AM8\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"Maono PM461 USB\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"TONOR TC-777 USB\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"Rode NT-USB Mini\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"Rode XCM-50\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia mics-for-creators",
+  "msg": "veredicto \"FIFINE AmpliTank K688\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-hardware-samplers",
+  "msg": "seccion con 256 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-hardware-samplers",
+  "msg": "seccion con 255 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-hardware-samplers",
+  "msg": "seccion con 127 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia rodecaster-pro2-vs-dlz-creator",
+  "msg": "veredicto \"RØDECaster Pro II\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia rode-wireless-pro-vs-dji-mic-2",
+  "msg": "veredicto \"DJI Mic 3\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia ie900-vs-se846",
+  "msg": "seccion con 268 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-usb-mics",
+  "msg": "seccion con 439 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia budget-usb-mics",
+  "msg": "veredicto \"HyperX SoloCast USB Condenser Microphone\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-electric-guitars-2026",
+  "msg": "seccion con 6 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-electric-guitars-2026",
+  "msg": "seccion con 126 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-acoustic-guitars-for-beginners",
+  "msg": "veredicto \"Epiphone DR-100 Acoustic\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-acoustic-guitars-for-beginners",
+  "msg": "veredicto \"Ibanez AW54 Artwood\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia atc-vs-genelec",
+  "msg": "veredicto \"Genelec 8351B\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-subwoofers-setup",
+  "msg": "veredicto \"Neumann KH 810 II\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-subwoofers-setup",
+  "msg": "veredicto \"Neumann KH 750 DSP\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-subwoofers-setup",
+  "msg": "veredicto \"ATC SCS120 Pro\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-subwoofers-setup",
+  "msg": "veredicto \"Focal Sub12\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-subwoofers-setup",
+  "msg": "veredicto \"Genelec 7370A SAM\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia studio-subwoofers-setup",
+  "msg": "veredicto \"Barefoot Sound MicroSub45\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia kh750-vs-7050c",
+  "msg": "veredicto \"Neumann KH 750 DSP\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia kh750-vs-7050c",
+  "msg": "veredicto \"Genelec 7050C\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Sennheiser MKH 416\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Rode NTG5\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Sennheiser MKE 600\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Audio-Technica AT875R\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Deity S-Mic 3\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Rode VideoMic NTG\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Rode VideoMic GO II\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Sennheiser MKE 400\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Sennheiser MKH 50\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Rode NTG3\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-shotgun-mics",
+  "msg": "veredicto \"Audio-Technica AT897\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-wireless-iems",
+  "msg": "veredicto \"Sennheiser EW IEM G4\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-wireless-iems",
+  "msg": "veredicto \"Xvive U4\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-wireless-iems",
+  "msg": "veredicto \"Xvive U4R4\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-wireless-iems",
+  "msg": "veredicto \"Phenyx Pro PTM-10\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-wireless-iems",
+  "msg": "veredicto \"Sennheiser XSW IEM\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-parlor-guitars",
+  "msg": "veredicto \"Gretsch G9500 Jim Dandy\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-parlor-guitars",
+  "msg": "veredicto \"Yamaha CSF1M\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-parlor-guitars",
+  "msg": "veredicto \"Epiphone L-00 Studio\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-parlor-guitars",
+  "msg": "veredicto \"Fender CP-60S\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-parlor-guitars",
+  "msg": "veredicto \"Fender Highway Series Parlor\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-parlor-guitars",
+  "msg": "veredicto \"Gretsch G5021E Rancher Penguin\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "seccion con 266 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "seccion con 348 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "seccion con 349 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "seccion con 362 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "veredicto \"Sennheiser EW IEM G4\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "veredicto \"Xvive U4 Wireless\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia best-in-ear-monitors",
+  "msg": "veredicto \"Sennheiser XSW IEM\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia di-box",
+  "msg": "seccion con 445 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia di-box",
+  "msg": "seccion con 446 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia di-box",
+  "msg": "seccion con 451 no esta en featured"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia j48-vs-rndi",
+  "msg": "veredicto \"Radial J48 MK2\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia premium-interfaces",
+  "msg": "veredicto \"Neumann MT 48 (U)\" no casa con ningun titulo de catalogo"
+ },
+ {
+  "sev": "ERROR",
+  "donde": "guia premium-interfaces",
+  "msg": "seccion [0] sin heading EN/ES"
+ },
+ {
+  "sev": "AVISO",
+  "donde": "guia bridge-cast-x-vs-rodecaster-pro2",
+  "msg": "veredicto \"RØDECaster Pro II\" no casa con ningun titulo de catalogo"
+ }
+]
