@@ -2,7 +2,7 @@
   {
     "id": "starter-studio",
     "title": "The $1,000 Home Studio Blueprint: Three Builds That Fit",
-    "title_es": "Mejor kit de home studio por menos de $1,000",
+    "title_es": "El estudio doméstico de $1.000: tres montajes que encajan",
     "titleTag": "Home Studio on a $1,000 Budget",
     "titleTag_es": "El estudio doméstico de $1.000: tres montajes que encajan",
     "category": "interfaces",
@@ -196,20 +196,20 @@
       ],
       "rows": [
         {
-          "label": "Role in the Chain",
-          "label_es": "Función en la cadena",
+          "label": "What This Build Is For",
+          "label_es": "Para qué sirve este montaje",
           "values": [
             {
-              "value": "Interface",
-              "value_es": "Interfaz"
+              "value": "Record and back up ideas without spending up",
+              "value_es": "Grabar y respaldar ideas sin gastarte todo"
             },
             {
-              "value": "Interface",
-              "value_es": "Interfaz"
+              "value": "Record vocals properly and mix what you capture",
+              "value_es": "Grabar voz en condiciones y mezclar lo que capturas"
             },
             {
-              "value": "Interface",
-              "value_es": "Interfaz"
+              "value": "Mix full arrangements with monitors, not headphones",
+              "value_es": "Mezclar arreglos completos con monitores, no con auriculares"
             }
           ]
         },
