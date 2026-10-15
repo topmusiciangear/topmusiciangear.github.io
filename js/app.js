@@ -1610,6 +1610,27 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 250);
   });
 
+  var productSearchField = document.getElementById("productSearchInput");
+  var productSearchClearBtn = document.getElementById("productSearchClear");
+  function tmgSyncSearchClear() {
+    if (!productSearchField || !productSearchClearBtn) return;
+    var has = productSearchField.value.length > 0;
+    productSearchClearBtn.style.display = has ? "block" : "none";
+    productSearchClearBtn.setAttribute("aria-label", (document.documentElement.lang || "en").indexOf("es") === 0 ? "Limpiar búsqueda" : "Clear search");
+  }
+  function tmgClearProductSearch() {
+    if (!productSearchField) return;
+    productSearchField.value = "";
+    var results = document.getElementById("productSearchResults");
+    if (results) { results.style.display = "none"; results.innerHTML = ""; }
+    tmgSyncSearchClear();
+    productSearchField.focus();
+  }
+  productSearchField?.addEventListener("input", tmgSyncSearchClear);
+  productSearchField?.addEventListener("keydown", function(e) { if (e.key === "Escape" && productSearchField.value) tmgClearProductSearch(); });
+  productSearchClearBtn?.addEventListener("click", tmgClearProductSearch);
+  tmgSyncSearchClear();
+
   document.querySelectorAll(".nav-link[data-nav]").forEach(btn => {
     btn.addEventListener("click", () => handleNavClick(btn.dataset.nav));
   });

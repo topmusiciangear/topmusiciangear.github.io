@@ -224,7 +224,8 @@
         </div>
         <div class="product-search-wrap" style="position:relative;max-width:260px;width:100%;min-width:160px;">
           <svg data-fa="magnifying-glass" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:13px;z-index:1;" class="icon fa-solid fa-magnifying-glass" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-          <input type="text" id="productSearchInput" aria-label="Search products" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 14px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);font-family:inherit;">
+          <input type="text" id="productSearchInput" aria-label="Search products" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 32px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);font-family:inherit;">
+          <button type="button" id="productSearchClear" aria-label="Clear search" style="display:none;position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:transparent;color:var(--text-muted);font-size:16px;line-height:1;padding:4px 6px;cursor:pointer;z-index:1;">×</button>
         </div>
       </div>
       <div id="productSearchResults" style="display:none;margin:16px 0 32px;"></div>
@@ -387,7 +388,7 @@
 <script defer src="js/translations.v4.min.js?v=348a7cd8a709"></script>
   <script defer src="js/shop-buttons.js?v=5ba99cec"></script>
 <script defer src="js/constants.min.js?v=80e4a0ed2dbf"></script>
-  <script defer src="js/app.min.js?v=84a1bf047c31da"></script>
+  <script defer src="js/app.min.js?v=8cd30c417c31da"></script>
 <style>.cookie-visible{transform:translateY(0)!important}</style>
 <style></style>
 <div class="bg-hero"></div>
