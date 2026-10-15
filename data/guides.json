@@ -318,6 +318,24 @@
       ],
       "rows": [
         {
+          "label": "What Each Build Is For",
+          "label_es": "Para qué sirve cada montaje",
+          "values": [
+            {
+              "value": "Record and mix in a small room, with real powered speakers from day one.",
+              "value_es": "Grabar y mezclar en una habitación pequeña, con altavoces alimentados de verdad desde el primer día."
+            },
+            {
+              "value": "Record vocals properly and mix what you capture, with real stereo image instead of a guess.",
+              "value_es": "Grabar voz en condiciones y mezclar lo que capturas, con imagen estéreo real en vez de suposiciones."
+            },
+            {
+              "value": "Judge low end physically and master for streaming without leaving the house.",
+              "value_es": "Juzgar el grave de forma física y masterizar para plataformas sin salir de casa."
+            }
+          ]
+        },
+        {
           "label": "User Profile",
           "label_es": "Perfil de usuario",
           "values": [
