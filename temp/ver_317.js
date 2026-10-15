@@ -1,0 +1,11 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const p = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const x = p.find(y => y.id === 317);
+console.log('317 ' + x.title);
+console.log('stores: ' + JSON.stringify(x.stores, null, 1));
+console.log('excludeStores: ' + JSON.stringify(x.excludeStores || []));
+const src = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const ini = src.indexOf('const TEST_SHOP_BTN = {');
+const mapa = new Function('return ' + src.slice(ini + 'const TEST_SHOP_BTN = '.length, src.indexOf('\n};', ini) + 2))();
+console.log('TEST_SHOP_BTN[317]: ' + JSON.stringify(mapa[317]));
