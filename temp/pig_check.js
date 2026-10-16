@@ -1,0 +1,10 @@
+fetch('https://r2.gear4music.com/media/134/1340036/1200/preview.jpg', { method: 'HEAD' }).then(r => console.log('foto: ' + r.status + ' | ' + r.headers.get('content-type'))).catch(e => console.log('foto ERROR: ' + e.message));
+const products = require('C:/Users/Daniel/projects/topmusiciangear/data/products.json');
+const p = products.find(x => x.id === 1001);
+console.log('producto: ' + p.brand + ' | ' + p.title + ' | price-field=' + p.price);
+console.log('stores: ' + JSON.stringify(p.stores, null, 1));
+console.log('image: ' + (p.image || p.img));
+const fs = require('fs');
+const bg = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/build-guides.js', 'utf8');
+const i = bg.indexOf('\n  1001:');
+console.log('TEST: ' + (i > -1 ? bg.slice(i + 1, i + 250).replace(/\n\s*/g, ' ') : 'SIN ENTRADA'));
