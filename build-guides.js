@@ -6609,7 +6609,17 @@ function buildGuidePage(guide, lang, idx) {
 
   const items = [];
   const productSchemas = [];
-  allProductIds.forEach((pid, idx) => {
+  // Google marca como invalido el Product sin offers, review ni aggregateRating:
+  // solo entran en el JSON-LD los que tengan al menos uno de los tres.
+  const qualifiedIds = allProductIds.filter(function(pid) {
+    const pp = products.find(function(pr) { return pr.id === pid; });
+    if (!pp) return false;
+    if (tmgOffers(pp, 'https://topmusiciangear.com/guides/' + guide.id + '.html')) return true;
+    if (reviewStats(pid)) return true;
+    if (reviews.some(function(r) { return r.productId === pid; })) return true;
+    return false;
+  });
+  qualifiedIds.forEach((pid, idx) => {
     const p = products.find(pr => pr.id === pid);
     if (p) {
       const generatedSku = "TMG-" + (p.category || "gear").toUpperCase() + "-" + String(p.id).padStart(3, "0");
