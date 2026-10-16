@@ -5955,7 +5955,7 @@ const TEST_SHOP_BTN = {
 1021: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
 1022: {prices:{pluginboutique:"€70.58"},pbCur:{us:"$69.99",uk:"£55.71"}},
 1023: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
-1025: {prices:{pluginboutique:"€402.35"},pbCur:{us:"$399.00",uk:"£317.56"}},
+1025: {prices:{pluginboutique:"€402.35",andertons:"£389.00"},pbCur:{us:"$399.00",uk:"£317.56"}},
 1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£102.67"}},
 1028: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
 1030: {prices:{pluginboutique:"€279.00"},pbCur:{us:"$269.00",uk:"£214.10"}},
