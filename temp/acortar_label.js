@@ -1,0 +1,11 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const s = g.find(x => x.id === 'starter-studio');
+const r = s.productTable.rows[0];
+console.log('antes: EN(' + r.label.length + ') "' + r.label + '"  ES(' + r.label_es.length + ') "' + r.label_es + '"');
+r.label = "What It's For";
+r.label_es = 'Para qué sirve';
+console.log('ahora: EN(' + r.label.length + ') "' + r.label + '"  ES(' + r.label_es.length + ') "' + r.label_es + '"');
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
