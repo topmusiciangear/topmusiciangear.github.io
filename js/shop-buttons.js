@@ -5560,7 +5560,7 @@ const TEST_SHOP_BTN = {
 1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£102.67"}},
 1028: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
 1030: {prices:{pluginboutique:"€279.00"},pbCur:{us:"$269.00",uk:"£214.10"}},
-1031: {prices:{pluginboutique:"€462.86"},pbCur:{us:"$459.00",uk:"£365.32"}},
+1040: {prices:{pluginboutique:"€150.25",gear4music:"£125.00"},pbCur:{us:"$149.00",uk:"£118.59"}},
 1032: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
 1033: {prices:{pluginboutique:"€503.19"},pbCur:{us:"$499.00",uk:"£397.15"}},
 1034: {prices:{pluginboutique:"€523.36"},pbCur:{us:"$519.00",uk:"£413.07"}},

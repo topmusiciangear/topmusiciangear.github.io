@@ -13179,18 +13179,6 @@
     "img": "https://banners.pluginboutique.com/wj6te3gyn6px8qo8lugrjd0a73wu"
   },
   {
-    "id": 1031,
-    "brand": "Antares",
-    "price": 459,
-    "category": "plugins",
-    "subcategory": "pitch",
-    "stores": {},
-    "image": "https://www.antarestech.com/images/products/autotune-2026/autotune-2026.jpg",
-    "desc": "The industry-standard real-time pitch correction plugin, from transparent tuning to the modern vocal effect, for stage and studio.",
-    "title": "Auto-Tune Pro 11",
-    "img": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg"
-  },
-  {
     "id": 1032,
     "brand": "Celemony",
     "price": 99,
@@ -13289,5 +13277,20 @@
     "reviews": 60,
     "badge": "bundle",
     "img": "https://banners.pluginboutique.com/3bhwnpoh5wihvumtoon7jm18z2mp"
+  },
+  {
+    "id": 1040,
+    "brand": "Synchro Arts",
+    "price": 149,
+    "category": "plugins",
+    "subcategory": "pitch",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/16199-RePitch-2-Standard",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Synchro-Arts-RePitch-2-Standard/7MWD"
+    },
+    "image": "https://r2.gear4music.com/media/130/1304045/1200/preview_1.jpg",
+    "desc": "Natural-sounding vocal pitch correction with multi-track editing, SmartAttack timing, tuning macros and SynchroLink to VocAlign and Revoice Pro.",
+    "title": "RePitch 2 Standard",
+    "img": "https://banners.pluginboutique.com/ykauphxwp8x50g4rcc1pq5ktop6i"
   }
 ]
