@@ -1,0 +1,13 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const gg = g.find(x => x.id === 'budget-monitors');
+let S = JSON.stringify(gg);
+const de = ' <a class=\\"guide-link-btn\\" href=\\"/guides/budget-monitors_es.html\\">Mejores monitores por menos de $500</a>';
+console.log(S.includes(de) ? 'encontrado' : 'FALLA');
+S = S.split(de).join('');
+g[g.indexOf(gg)] = JSON.parse(S);
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+const t = JSON.stringify(g.find(x => x.id === 'budget-monitors'));
+console.log('self-links restantes: ' + (t.match(/budget-monitors_es\.html/g) || []).length + ' (solo menu/nav esperado: 0 en contenido)');
+console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);

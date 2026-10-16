@@ -1,0 +1,11 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const gg = g.find(x => x.id === 'best-monitors');
+let S = JSON.stringify(gg);
+const de = 'El inconveniente: </strong>es un sistema de escritorio, no monitores de sala — retrocede dos metros y la magia se disipa';
+console.log(S.includes(de) ? 'encontrado' : 'FALLA');
+S = S.split(de).join('El inconveniente: </strong>es un sistema de escritorio, no monitores de sala; siéntate dos metros más atrás y la magia se disipa');
+g[g.indexOf(gg)] = JSON.parse(S);
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
