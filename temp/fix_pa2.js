@@ -1,23 +1,23 @@
 const fs = require('fs');
 const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
 const g = JSON.parse(fs.readFileSync(F, 'utf8'));
-const gg = g.find(x => x.id === 'best-pa-speakers');
+const gg = g.find(x => x.id === 'best-practice-amps');
 let S = JSON.stringify(gg);
+let n = 0; const fallos = [];
 function swap(de, a) {
-  if (!S.includes(de)) { console.log('  FALLA ' + de.slice(0, 60)); return; }
+  if (!S.includes(de)) { fallos.push(de.slice(0, 70)); return; }
+  n += S.split(de).length - 1;
   S = S.split(de).join(a);
-  console.log('  ok ' + a.slice(0, 60));
 }
-swap('El EV ZLX-12P-G2 es la mejor opción económica. El QSC K12.2 es el estándar de gira.',
-  'El EV ZLX-12P-G2 es la mejor opción económica, el QSC K12.2 es el estándar de gira');
-swap('<strong>El QSC K12.2 es el altavoz activo más confiable en audio profesional.</strong>',
-  '<strong>El QSC K12.2 es el altavoz activo más fiable en audio profesional.</strong>');
-swap('<strong>La Yamaha DXR12mkII combina componentes premium con DSP avanzado para una calidad de sonido excepcional.</strong>',
-  '<strong>La Yamaha DXR12mkII combina componentes premium con DSP avanzado para una calidad de sonido excepcional.</strong>');
-swap('Para sistemas de 15\\", el ELX200-15P y el PRX915 aportan los graves extra',
-  'Para sistemas de 15 pulgadas, el ELX200-15P y el PRX915 aportan los graves extra');
+swap('El Fender Champion II 25 es un amplificador sencillo y con gran sonido con 4 voces', 'El Fender Champion II 25 es un amplificador sencillo de gran sonido con 4 voces');
+swap('esta es la apuesta segura que más recomiendo.', 'esta es la apuesta segura más recomendada.');
+swap('moviendo aire suficiente para zapar.', 'moviendo aire suficiente para improvisar.');
+swap('Grabar ideas por USB funcionando como interfaz resulta práctico', 'Grabar ideas por USB con el ampli como interfaz resulta práctico');
+swap('>Mejores Amplificadores de Guitarra y Bajo</a>', '>Mejores amplificadores de guitarra y bajo: guía completa</a>');
+swap('>Mejores Amplificadores de Bajo para Cada Músico</a>', '>Mejores amplificadores de bajo para cada músico</a>');
+swap('>Mejor Guitarra Eléctrica para Grabación Casera</a>', '>Mejor guitarra eléctrica para cada guitarrista</a>');
 g[g.indexOf(gg)] = JSON.parse(S);
 fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
-const t = JSON.stringify(g.find(x => x.id === 'best-pa-speakers'));
-console.log('restos 15\\": ' + (t.match(/15\\"/g) || []).length);
+console.log('\naplicados: ' + n + '  fallos: ' + fallos.length);
+fallos.forEach(f => console.log('  FALLA: ' + f));
 console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
