@@ -149,7 +149,7 @@ function guideDates(guide, idx) {
 }
 
 const dataPromise = Promise.all([
-  fetch('https://topmusiciangear.com/data/guides.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load guides'); return r.json(); }).then(function(d) { guides = d; }),
+  fetch('data/guides.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load guides'); return r.json(); }).then(function(d) { guides = d; }),
   fetch('https://topmusiciangear.com/data/products.json?v=' + Date.now()).then(function(r) { if (!r.ok) throw new Error('Failed to load products'); return r.json(); }).then(function(d) { products = d; }),
   fetch('https://topmusiciangear.com/data/reviews.json?v=' + Date.now()).then(function(r) { if (!r.ok) return []; return r.json(); }).then(function(d) { reviews = d || []; }).catch(function() { reviews = []; })
 ]).catch(function(err) {
