@@ -1,0 +1,11 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8'));
+const s = g.find(x => x.id === 'mics-for-creators');
+console.log('SEC2 content_es (primeros 800 chars):');
+console.log(s.sections[2].content_es.slice(0, 800));
+console.log('\nSEC6 content_es (primeros 800 chars):');
+console.log(s.sections[6].content_es.slice(0, 800));
+console.log('\nSEC8 content_es (primeros 800 chars):');
+console.log(s.sections[8].content_es.slice(0, 800));
+console.log('\nCONCLUSION (primeros 800 chars):');
+console.log(s.conclusion_es.slice(0, 800));
