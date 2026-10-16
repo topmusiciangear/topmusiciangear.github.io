@@ -1,0 +1,15 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const gg = g.find(x => x.id === 'player-strat-vs-pacifica');
+let S = JSON.stringify(gg);
+function swap(de, a) {
+  if (!S.includes(de)) { console.log('  FALLA ' + de.slice(0, 60)); return; }
+  S = S.split(de).join(a);
+  console.log('  ok ' + a.slice(0, 60));
+}
+swap('mientras que la Pacifica ofrece versatilidad HSS a una fracción del precio.</strong> La Player Strat cuesta aproximadamente dos veces y media el precio de la Pacifica, y esa diferencia se nota. La Player Strat tiene pastillas',
+  'mientras que la Pacifica ofrece versatilidad HSS a una fracción del precio, y esa diferencia se nota.</strong> La Player Strat tiene pastillas');
+g[g.indexOf(gg)] = JSON.parse(S);
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
