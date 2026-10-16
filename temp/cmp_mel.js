@@ -1,8 +1,9 @@
 const fs = require('fs');
 const B = 'C:/Users/Daniel/projects/topmusiciangear/';
-['guides/repitch-vs-melodyne.html', 'guides/best-plugins.html', 'guides/vocal-plugins.html'].forEach(f => {
+['guides/repitch-vs-melodyne.html', 'guides/repitch-vs-melodyne_es.html'].forEach(f => {
   const h = fs.readFileSync(B + f, 'utf8');
-  const has99 = h.includes('99.00') || h.includes('99<');
-  const hasOld = h.includes('83.20') || h.includes('79.00');
-  console.log(f + ': nuevo MS/And present=' + (h.includes('99') ? 'SI' : 'NO') + ' | restos 83.20/79.00=' + (hasOld ? 'SI!' : 'no'));
+  const names = [...h.matchAll(/verdict-product-name">([^<]+)</g)].map(m => m[1]);
+  const table = (h.match(/Formantes|Formants/g) || []).length;
+  const caveat = h.includes('monof') ? 'caveat-OK' : 'caveat-FALTA';
+  console.log(f + ': verdictos=' + JSON.stringify(names) + ' formantes-tabla=' + table + ' ' + caveat);
 });

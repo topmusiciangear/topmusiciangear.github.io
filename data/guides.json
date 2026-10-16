@@ -4538,8 +4538,8 @@
     "category": "plugins",
     "metaDesc": "RePitch 2 Standard vs Melodyne 5 Essential: two surgical pitch editors compared on workflow, timing tools, price and best uses so you buy right.",
     "metaDesc_es": "RePitch 2 Standard vs Melodyne 5 Essential: dos editores de afinación comparados en flujo, herramientas de tiempo, precio y usos para comprar bien.",
-    "intro": "If you record vocals, you will eventually need pitch correction. The two most respected surgical editors are Synchro Arts RePitch 2 and Celemony Melodyne 5. Both work offline, note by note, and both can make a vocal sound perfectly tuned without anyone noticing. The difference is workflow: RePitch 2 is built for speed, with multi-track editing, tuning macros and timing tools in one window, while Melodyne 5 goes deeper, with polyphonic editing and formant control that no rival matches. This guide compares them head to head so you can buy the right editor first.",
-    "intro_es": "Si grabas voces, eventualmente necesitarás corrección de tono. Los dos editores quirúrgicos más respetados son Synchro Arts RePitch 2 y Celemony Melodyne 5. Ambos trabajan offline, nota por nota, y ambos pueden hacer que una voz suene perfectamente afinada sin que nadie lo note. La diferencia es el flujo: RePitch 2 está hecho para velocidad, con edición multipista, macros de afinación y herramientas de tiempo en una ventana, mientras Melodyne 5 va más hondo, con edición polifónica y control de formantes que ningún rival iguala. Esta guía los compara frente a frente para que compres el editor correcto primero.",
+    "intro": "If you record vocals, you will eventually need pitch correction. The two most respected surgical editors are Synchro Arts RePitch 2 and Celemony Melodyne 5. Both work offline, note by note, and both can make a vocal sound perfectly tuned without anyone noticing. The difference is workflow: RePitch 2 is built for speed, with multi-track editing, tuning macros and timing tools in one window, while Melodyne 5 offers the industry-reference engine with an upgrade path to polyphonic editing and formant control in higher tiers. This guide compares them head to head so you can buy the right editor first.",
+    "intro_es": "Si grabas voces, eventualmente necesitarás corrección de tono. Los dos editores quirúrgicos más respetados son Synchro Arts RePitch 2 y Celemony Melodyne 5. Ambos trabajan offline, nota por nota, y ambos pueden hacer que una voz suene perfectamente afinada sin que nadie lo note. La diferencia es el flujo: RePitch 2 está hecho para velocidad, con edición multipista, macros de afinación y herramientas de tiempo en una ventana, mientras Melodyne 5 ofrece el motor de referencia de la industria con ruta de mejora a edición polifónica y control de formantes en niveles superiores. Esta guía los compara frente a frente para que compres el editor correcto primero.",
     "sections": [
       {
         "heading": "RePitch 2 Standard: Fast, Natural Tuning With Multi-Track Editing",
@@ -4547,8 +4547,8 @@
         "products": [
           1040
         ],
-        "content": "<p><strong>RePitch 2 Standard tunes vocals fast without ever sounding processed.</strong> Its pitch engine keeps the natural character of the performance while you drag notes, reshape vibrato and fix timing with macros that handle repetitive moves in one click. Multi-track editing shows every take side by side in a single view, so comping and matching doubles takes minutes instead of an hour.</p><p>SmartAttack snaps vocals to your DAW grid or to another track for pocket-perfect timing, and SynchroLink keeps tuning in sync with VocAlign and Revoice Pro if you own them. For engineers who tune vocals every day and bill by the hour, RePitch 2 pays for itself in the first week.</p>",
-        "content_es": "<p><strong>RePitch 2 Standard afina voces rápido sin sonar procesado nunca.</strong> Su motor de tono conserva el carácter natural de la interpretación mientras arrastras notas, remodelas vibrato y corriges tiempo con macros que resuelven movimientos repetitivos en un clic. La edición multipista muestra cada toma lado a lado en una sola vista, así compear e igualar dobles toma minutos en lugar de una hora.</p><p>SmartAttack ajusta voces a la rejilla de tu DAW o a otra pista para un tiempo perfecto, y SynchroLink mantiene la afinación sincronizada con VocAlign y Revoice Pro si los tienes. Para ingenieros que afinan voces cada día y cobran por hora, RePitch 2 se amortiza en la primera semana.</p>",
+        "content": "<p><strong>RePitch 2 Standard tunes vocals lightning-fast without ever leaving that artificial, processed sound.</strong> Its advanced pitch engine keeps the natural character of the original performance intact while you drag notes, reshape vibrato or fix timing. Macros handle repetitive moves in a single click, and the real competitive edge is multi-track editing: every take side by side in one window, so comping and matching doubles takes minutes instead of hours.</p><p>SmartAttack snaps vocal timing to your DAW grid or a reference track for pocket-perfect results, and SynchroLink keeps your tuning in sync with VocAlign or Revoice Pro if you own them. For mix engineers and producers who tune vocals every day and bill by the hour, RePitch 2 Standard pays for itself in the first week.</p>",
+        "content_es": "<p><strong>RePitch 2 Standard afina voces de forma ultrarrápida sin dejar nunca ese sonido artificial o procesado.</strong> Su motor de tono avanzado conserva intacto el carácter natural de la interpretación original mientras arrastras notas, remodelas el vibrato o corriges el tiempo. Todo esto se potencia gracias a sus macros integradas, diseñadas para resolver movimientos repetitivos en un solo clic. Su verdadera ventaja competitiva es la edición multipista: te permite visualizar cada toma lado a lado en una sola ventana, logrando que el proceso de comping e igualación de voces dobles tome solo minutos en lugar de horas.</p><p>La función SmartAttack ajusta el tiempo de las voces a la rejilla de tu DAW o a otra pista de referencia para lograr un tiempo perfecto. Además, la tecnología SynchroLink mantiene tu afinación sincronizada con VocAlign o Revoice Pro si trabajas con ellos. Para ingenieros de mezcla y productores que afinan voces todos los días y cobran por hora de estudio, RePitch 2 Standard se amortiza por completo durante la primera semana de uso.</p>",
         "pros": [
           "Transparent tuning that keeps the performance character",
           "Multi-track editing shows every take in one view",
@@ -4562,46 +4562,46 @@
           "SynchroLink sincroniza con VocAlign y Revoice Pro"
         ],
         "cons": [
-          "No polyphonic pitch editing like Melodyne Studio",
-          "No real-time or live performance mode",
-          "Standard tier costs more than Melodyne Essential",
-          "Fewer third-party tutorials than Melodyne"
+          "No polyphonic pitch editing",
+          "Standard costs more than Melodyne Essential",
+          "Smaller tutorial ecosystem than Melodyne",
+          "No automatic double alignment (pair it with VocAlign)"
         ],
         "cons_es": [
-          "Sin edición polifónica como Melodyne Studio",
-          "Sin modo en tiempo real ni para directo",
-          "El nivel Standard cuesta más que Melodyne Essential",
-          "Menos tutoriales de terceros que Melodyne"
+          "Sin edición de tono polifónica",
+          "Standard cuesta más que Melodyne Essential",
+          "Ecosistema de tutoriales más pequeño que Melodyne",
+          "Sin alineación automática de dobles (combínalo con VocAlign)"
         ]
       },
       {
         "heading": "Melodyne: The Surgical Editor That Makes Perfect Sound Natural",
         "heading_es": "Melodyne: El Editor Quirúrgico Que Hace Que lo Perfecto Suene Natural",
-        "content": "<p><strong>Melodyne does not process audio in real time.</strong> You record or import a vocal, and Melodyne analyzes it into individual notes, syllables, and formants. You then drag notes to correct pitch, adjust timing, modify formants, and reshape the performance with surgical precision. The result is a vocal that sounds perfectly tuned but completely natural: no robotic artifacts, no pitch correction tells.</p><p>The polyphonic capabilities are unmatched. Melodyne Studio can edit chords, polyphonic instruments, and mixed audio, identifying individual notes within a chord. For classical vocals, jazz, and any production where the vocal must sound untouched, Melodyne is the professional standard.</p>",
-        "content_es": "<p><strong>Melodyne no procesa audio en tiempo real.</strong> Grabas o importas una voz, y Melodyne la analiza en notas individuales, sílabas y formantes. Luego arrastras notas para corregir el tono, ajustar el timing, modificar formantes y remodelar la actuación con precisión quirúrgica. El resultado es una voz que suena perfectamente afinada pero completamente natural: sin artefactos robóticos, sin señales de corrección de tono.</p><p>Las capacidades polifónicas son inigualables. Melodyne Studio puede editar acordes, instrumentos polifónicos y audio mezclado, identificando notas individuales dentro de un acorde. Para voces clásicas, jazz y cualquier producción donde la voz debe sonar intacta, Melodyne es el estándar profesional.</p>",
+        "content": "<p><strong>Melodyne 5 Essential does not process audio in real time like a regular insert plugin.</strong> When you import or transfer a vocal track, the software analyzes the audio and breaks it down visually into individual notes and syllables. You drag each blob by hand to fix exact pitch, adjust timing and reshape the performance with pinpoint surgical precision. The end result is flawless: a perfectly tuned vocal that sounds completely natural, with no robotic artifacts and no audible trace of editing.</p><p>One thing must be clear: Melodyne 5 Essential focuses exclusively on monophonic audio (solo vocals or single-note melodic instruments). While Celemony technology is world-famous for its polyphonic capabilities (editing chords or separating instruments from a full mix), those advanced features and formant control are reserved for its paid higher tiers (Melodyne Assistant, Editor or Studio). Still, for producers seeking maximum transparency on lead vocals on a tight entry budget, Essential remains the absolute professional standard.</p>",
+        "content_es": "<p><strong>Melodyne 5 Essential no procesa el audio en tiempo real como un plugin de inserción común.</strong> Al importar o transferir una pista de voz, el software analiza el audio y lo desglosa visualmente en notas individuales y sílabas. Esto te permite arrastrar cada bloque de audio de forma manual para corregir el tono preciso, ajustar el timing y remodelar la interpretación con una precisión quirúrgica milimétrica. El resultado final es impecable: una voz perfectamente afinada pero que suena natural, sin artefactos robóticos y sin dejar rastro de edición.</p><p>Es fundamental aclarar que la versión Melodyne 5 Essential se enfoca exclusivamente en audio monofónico (voces solistas o instrumentos melódicos de una sola nota). Si bien la tecnología de Celemony es mundialmente famosa por sus capacidades polifónicas (para editar acordes o separar instrumentos de una mezcla completa), estas funciones avanzadas y el control de formantes quedan reservados para sus versiones superiores de pago (Melodyne Assistant, Editor o Studio). No obstante, para productores que buscan la máxima transparencia en voces principales con un presupuesto de entrada ajustado, la versión Essential sigue siendo el estándar profesional absoluto.</p>",
         "pros": [
-          "Note-by-note editing with surgical precision",
-          "Polyphonic pitch editing: edit chords and mixed audio",
-          "Formant control for tonal character",
-          "Natural results: no robotic artifacts"
+          "Transparent monophonic pitch correction",
+          "Timing correction note by note",
+          "Natural results without artifacts",
+          "Cheapest entry into Melodyne with upgrade path"
         ],
         "pros_es": [
-          "Edición nota por nota con precisión quirúrgica",
-          "Edición de tono polifónica: edita acordes y audio mezclado",
-          "Control de formantes para carácter tonal",
-          "Resultados naturales: sin artefactos robóticos"
+          "Corrección de tono monofónica y transparente",
+          "Corrección de tiempo nota por nota",
+          "Resultados naturales sin artefactos",
+          "La entrada más barata a Melodyne con ruta de mejora"
         ],
         "cons": [
-          "Not real-time: requires offline analysis",
-          "Not suitable for live performance",
-          "Steep learning curve for advanced features",
-          "More expensive for Studio version"
+          "No multi-track editing in a single window",
+          "No polyphonic or formant tools in Essential",
+          "Steeper learning curve than RePitch",
+          "No tuning macros or auto-timing"
         ],
         "cons_es": [
-          "No es en tiempo real: requiere análisis offline",
-          "No adecuado para interpretación en vivo",
-          "Curva de aprendizaje pronunciada para funciones avanzadas",
-          "Más caro para la versión Studio"
+          "Sin edición multipista en una sola ventana",
+          "Sin herramientas polifónicas ni de formantes en Essential",
+          "Curva de aprendizaje más pronunciada que RePitch",
+          "Sin macros de afinación ni tiempo automático"
         ],
         "products": [
           1032
@@ -4626,44 +4626,44 @@
         ],
         "cons": [
           "No polyphonic editing",
-          "No live mode",
           "Costs more than Essential",
-          "Fewer tutorials"
+          "Fewer tutorials",
+          "No auto double alignment"
         ],
         "cons_es": [
           "Sin edición polifónica",
-          "Sin modo en vivo",
           "Cuesta más que Essential",
-          "Menos tutoriales"
+          "Menos tutoriales",
+          "Sin alineación auto de dobles"
         ]
       },
       {
+        "name": "Melodyne 5 Essential",
+        "name_es": "Melodyne 5 Essential",
         "pros": [
-          "Surgical note-by-note precision",
-          "Polyphonic editing capabilities",
-          "Formant control for tonal shaping",
-          "Natural results without artifacts"
+          "Transparent monophonic tuning",
+          "Timing correction per note",
+          "Natural results, no artifacts",
+          "Cheapest tier, upgrade path"
         ],
         "pros_es": [
-          "Precisión quirúrgica nota por nota",
-          "Capacidades de edición polifónica",
-          "Control de formantes para modelado tonal",
-          "Resultados naturales sin artefactos"
+          "Afinación monofónica transparente",
+          "Corrección de tiempo por nota",
+          "Resultados naturales sin artefactos",
+          "Nivel más barato, ruta de mejora"
         ],
         "cons": [
-          "Not real-time",
-          "Not for live performance",
-          "Steep learning curve",
-          "Studio version is expensive"
+          "No multi-track single view",
+          "No polyphonic/formant in Essential",
+          "Steeper learning curve",
+          "No tuning macros"
         ],
         "cons_es": [
-          "No es en tiempo real",
-          "No para interpretación en vivo",
+          "Sin vista multipista única",
+          "Sin polifonía/formantes en Essential",
           "Curva de aprendizaje pronunciada",
-          "La versión Studio es cara"
-        ],
-        "name": "Melodyne 5 Essential",
-        "name_es": "Melodyne 5 Essential"
+          "Sin macros de afinación"
+        ]
       }
     ],
     "faq": [
@@ -4676,8 +4676,8 @@
       {
         "q": "Is Melodyne worth the learning curve over RePitch 2?",
         "q_es": "¿Merece Melodyne su curva de aprendizaje frente a RePitch 2?",
-        "a": "It depends on your material. If you tune pop, hip-hop and singer-songwriter vocals all day, RePitch 2 gets you to finished faster with less study. If you edit choirs, polyphonic instruments or productions where formant character must be reshaped, Melodyne depth justifies the learning time.",
-        "a_es": "Depende de tu material. Si afinas voces pop, hip-hop y cantautor todo el día, RePitch 2 llega al terminado más rápido con menos estudio. Si editas coros, instrumentos polifónicos o producciones donde el carácter de formantes debe remodelarse, la profundidad de Melodyne justifica el tiempo de aprendizaje."
+        "a": "It depends on your material. If you tune pop, hip-hop and singer-songwriter vocals all day, RePitch 2 gets you to finished faster with less study. If you edit choirs, polyphonic instruments or need formant reshaping, budget for Melodyne Assistant or higher instead: Essential cannot do polyphonic or formant editing, so its learning curve only pays off once you step up a tier.",
+        "a_es": "Depende de tu material. Si afinas voces pop, hip-hop y cantautor todo el día, RePitch 2 llega al terminado más rápido con menos estudio. Si editas coros, instrumentos polifónicos o necesitas remodelar formantes, apunta a Melodyne Assistant o superior: Essential no hace edición polifónica ni de formantes, así que su curva solo se amortiza al subir de nivel."
       },
       {
         "q": "Should I buy RePitch 2 or Melodyne 5 Essential first?",
@@ -4717,26 +4717,26 @@
           "label_es": "Ideal para",
           "values": [
             {
-              "value": "Fast daily vocal tuning",
-              "value_es": "Afinación vocal diaria y veloz"
+              "value": "Fast daily multi-track vocal tuning",
+              "value_es": "Afinación vocal diaria, veloz y multipista"
             },
             {
-              "value": "Budget transparent correction",
-              "value_es": "Corrección transparente con presupuesto"
+              "value": "Transparent correction on a tight budget",
+              "value_es": "Corrección transparente con presupuesto ajustado"
             }
           ]
         },
         {
-          "label": "Editing",
-          "label_es": "Edición",
+          "label": "Editing Type",
+          "label_es": "Tipo de edición",
           "values": [
             {
-              "value": "Note-by-note + multi-track view",
-              "value_es": "Nota por nota + vista multipista"
+              "value": "Monophonic (smart multi-track view)",
+              "value_es": "Monofónica (vista multipista inteligente)"
             },
             {
-              "value": "Note-by-note, monophonic",
-              "value_es": "Nota por nota, monofónico"
+              "value": "Basic monophonic (one track per window)",
+              "value_es": "Monofónica básica (una sola pista por ventana)"
             }
           ]
         },
@@ -4745,40 +4745,40 @@
           "label_es": "Herramientas de tiempo",
           "values": [
             {
-              "value": "SmartAttack + tuning macros",
-              "value_es": "SmartAttack + macros de afinación"
+              "value": "Automatic SmartAttack + macros",
+              "value_es": "SmartAttack + macros automáticas"
             },
             {
-              "value": "Manual note timing",
-              "value_es": "Tiempo de notas manual"
+              "value": "Manual note-by-note timing",
+              "value_es": "Ajuste de tiempo manual nota por nota"
+            }
+          ]
+        },
+        {
+          "label": "Formants & Polyphony",
+          "label_es": "Formantes y polifonía",
+          "values": [
+            {
+              "value": "Not included",
+              "value_es": "No incluye"
+            },
+            {
+              "value": "Not included (paid higher tiers only)",
+              "value_es": "No incluye (solo en versiones superiores de pago)"
             }
           ]
         },
         {
           "label": "Ecosystem",
-          "label_es": "Ecosistema",
+          "label_es": "Ecosistema integrado",
           "values": [
             {
-              "value": "SynchroLink to VocAlign/Revoice",
-              "value_es": "SynchroLink a VocAlign/Revoice"
+              "value": "Direct SynchroLink to VocAlign & Revoice",
+              "value_es": "SynchroLink directo a VocAlign y Revoice"
             },
             {
-              "value": "Standalone, ARA in most DAWs",
-              "value_es": "Independiente, ARA en la mayoría de DAW"
-            }
-          ]
-        },
-        {
-          "label": "Standout Feature",
-          "label_es": "Característica destacada",
-          "values": [
-            {
-              "value": "Multi-track editing with tuning macros",
-              "value_es": "Edición multipista con macros de afinación"
-            },
-            {
-              "value": "Polyphonic editing in higher tiers",
-              "value_es": "Edición polifónica en niveles superiores"
+              "value": "Standalone (needs ARA or manual transfer)",
+              "value_es": "Independiente (requiere ARA o transferencia manual)"
             }
           ]
         }
