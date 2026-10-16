@@ -5932,51 +5932,44 @@ const TEST_SHOP_BTN = {
   29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"}},
   684: {prices:{amazon:"$149.99",gear4music:"£115.00",andertons:"£105.00",zzounds:"$149.99",musicstore:"€138.00"}},
 
-  1001: {prices:{pluginboutique:"$199.00"}},
-  1002: {prices:{pluginboutique:"$179.00"}},
-  1003: {prices:{pluginboutique:"$199.00"}},
-  1004: {prices:{pluginboutique:"$249.00"}},
-  1005: {prices:{pluginboutique:"$189.00"}},
-  1006: {prices:{pluginboutique:"$199.00"}},
-  1007: {prices:{pluginboutique:"$99.00"}},
-  1008: {prices:{pluginboutique:"$99.00"}},
-  1009: {prices:{pluginboutique:"€130.08"}},
-  1010: {prices:{pluginboutique:"$89.00"}},
-  1011: {prices:{pluginboutique:"$99.00"}},
-  1012: {prices:{pluginboutique:"$149.00"}},
-  1013: {prices:{pluginboutique:"$399.00"}},
-  1014: {prices:{pluginboutique:"$299.00"}},
-  1015: {prices:{pluginboutique:"$699.00"}},
-  1016: {prices:{pluginboutique:"$99.00"}},
-  1017: {prices:{pluginboutique:"€399.00"}},
-  1018: {prices:{pluginboutique:"$149.00"}},
-  1019: {prices:{pluginboutique:"$199.99"}},
-  1020: {prices:{pluginboutique:"$299.00"}},
-  1021: {prices:{pluginboutique:"$149.00"}},
-  1022: {prices:{pluginboutique:"$269.00"}},
-  1023: {prices:{pluginboutique:"$99.00"}},
-  1024: {prices:{pluginboutique:"$199.00"}},
-  1025: {prices:{pluginboutique:"$199.00"}},
-  1026: {prices:{pluginboutique:"$249.00"}},
-  1027: {prices:{pluginboutique:"$129.00"}},
-  1028: {prices:{pluginboutique:"$99.00"}},
-  1029: {prices:{pluginboutique:"$249.00"}},
-  1030: {prices:{pluginboutique:"$269.00"}},
-  1031: {prices:{pluginboutique:"$250.00"}},
-  1032: {prices:{pluginboutique:"$99.00"}},
-  1033: {prices:{pluginboutique:"$499.00"}},
-  1034: {prices:{pluginboutique:"$519.00"}},
-  1035: {prices:{pluginboutique:"$249.00"}},
-  1036: {prices:{pluginboutique:"$499.00"}},
+1001: {prices:{pluginboutique:"€200.67"},pbCur:{us:"$199.00",uk:"£158.38"}},
+1002: {prices:{pluginboutique:"€180.50"},pbCur:{us:"$179.00",uk:"£142.47"}},
+1003: {prices:{pluginboutique:"€200.67"},pbCur:{us:"$199.00",uk:"£158.38"}},
+1004: {prices:{pluginboutique:"€251.09"},pbCur:{us:"$249.00",uk:"£198.18"}},
+1005: {prices:{pluginboutique:"€190.59"},pbCur:{us:"$189.00",uk:"£150.43"}},
+1006: {prices:{pluginboutique:"€200.67"},pbCur:{us:"$199.00",uk:"£158.38"}},
+1007: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1008: {prices:{pluginboutique:"€129.08"},pbCur:{us:"$128.00",uk:"£101.88"}},
+1009: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£102.67"}},
+1010: {prices:{pluginboutique:"€89.75"},pbCur:{us:"$89.00",uk:"£70.84"}},
+1011: {prices:{pluginboutique:"€79.66"},pbCur:{us:"$79.00",uk:"£62.88"}},
+1012: {prices:{pluginboutique:"€149.00"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1013: {prices:{pluginboutique:"€301.51"},pbCur:{us:"$299.00",uk:"£237.97"}},
+1014: {prices:{pluginboutique:"€301.51"},pbCur:{us:"$299.00",uk:"£237.97"}},
+1015: {prices:{pluginboutique:"€704.87"},pbCur:{us:"$699.00",uk:"£556.33"}},
+1016: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1017: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1018: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1019: {prices:{pluginboutique:"€200.67"},pbCur:{us:"$199.00",uk:"£158.38"}},
+1020: {prices:{pluginboutique:"€200.67"},pbCur:{us:"$199.00",uk:"£158.38"}},
+1021: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1022: {prices:{pluginboutique:"€70.58"},pbCur:{us:"$69.99",uk:"£55.71"}},
+1023: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1025: {prices:{pluginboutique:"€402.35"},pbCur:{us:"$399.00",uk:"£317.56"}},
+1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£102.67"}},
+1028: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1030: {prices:{pluginboutique:"€279.00"},pbCur:{us:"$269.00",uk:"£214.10"}},
+1031: {prices:{pluginboutique:"€462.86"},pbCur:{us:"$459.00",uk:"£365.32"}},
+1032: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1033: {prices:{pluginboutique:"€503.19"},pbCur:{us:"$499.00",uk:"£397.15"}},
+1034: {prices:{pluginboutique:"€523.36"},pbCur:{us:"$519.00",uk:"£413.07"}},
+1035: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1036: {prices:{pluginboutique:"€301.51"},pbCur:{us:"$299.00",uk:"£237.97"}},
 
-  1037: {prices:{pluginboutique:"$209.99"}},
-  1038: {prices:{pluginboutique:"$149.00"}},
-  1039: {prices:{pluginboutique:"$249.00"}},
+1038: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1039: {prices:{pluginboutique:"€251.09"},pbCur:{us:"$249.00",uk:"£198.18"}},
 
-  1037: {prices:{pluginboutique:"$209.99"}},
-  1038: {prices:{pluginboutique:"$149.00"}},
-  1039: {prices:{pluginboutique:"$249.00"}},
-};function hollyDefaultRegion() {
+  };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   return isUsa ? 'us' : 'eu';
@@ -6157,7 +6150,7 @@ function productCard(p, lang) {
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${p.img.startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
+    <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
     <div class="guide-product-card-body">
       ${productRatingLine(p, lang)}
       <h3 class="guide-product-card-title">${title}</h3>
@@ -6555,7 +6548,7 @@ function buildGuidePage(guide, lang, idx) {
         }
         return '<div class="guide-section-prod">' +
           '<div class="guide-section-prod-name">' + t + '</div>' +
-          '<div class="guide-section-prod-imgs"><img src="' + (p.img.startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
+          '<div class="guide-section-prod-imgs"><img src="' + ((p.img||"").startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
           '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
         '</div>';
       }).filter(Boolean).join('');
@@ -6572,7 +6565,7 @@ function buildGuidePage(guide, lang, idx) {
       var sectionVideo = s.video || (firstProduct && firstProduct.video) || null;
       if (isFirstNew && sectionVideo) {
         const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
-        const psrc = firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
+        const psrc = (firstProduct.img||"").startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
         productImgs = '<div class="guide-section-imgs">' +
           '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
           '<div class="guide-video-thumb lb-video" data-yt="' + sectionVideo + '" role="button" aria-label="Play video" tabindex="0">' +
@@ -6582,7 +6575,7 @@ function buildGuidePage(guide, lang, idx) {
         '</div>';
       } else if (isFirstNew) {
         productImgs = '<div class="guide-section-imgs">' +
-          '<img src="' + (firstProduct.img.startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+          '<img src="' + ((firstProduct.img||"").startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
           '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
         '</div>';
       }
@@ -6687,7 +6680,7 @@ function buildGuidePage(guide, lang, idx) {
           "mpn": p.mpn || generatedSku,
           "sku": generatedSku,
           "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 155),
-          "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
+          "image": (p.img||"").startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
           "positiveNotes": pn,
           "negativeNotes": cn
         }
@@ -6701,7 +6694,7 @@ function buildGuidePage(guide, lang, idx) {
         "@type": "Product",
         "name": title,
         "brand": { "@type": "Brand", "name": p.brand || "" },
-        "image": p.img.startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
+        "image": (p.img||"").startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
         "positiveNotes": pn,
         "negativeNotes": cn
       };
@@ -7304,7 +7297,7 @@ function buildImageSitemap() {
   });
   // product images that are self-hosted
   products.forEach(p => {
-    if (p.img && !p.img.startsWith('http')) {
+    if (p.img && !(p.img||"").startsWith('http')) {
       var imgPath = site + '/' + normImg(p.img);
       if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
     }
