@@ -4682,8 +4682,8 @@
       {
         "q": "Should I buy RePitch 2 or Melodyne 5 Essential first?",
         "q_es": "¿Debería comprar RePitch 2 o Melodyne 5 Essential primero?",
-        "a": "Buy Melodyne 5 Essential first if budget is tight: at $99 it handles transparent vocal tuning and costs $50 less. Buy RePitch 2 Standard first if you tune vocals daily and value speed: multi-track editing, macros and SynchroLink with VocAlign pay back the $149 quickly. Many engineers end up owning both.",
-        "a_es": "Compra Melodyne 5 Essential primero si el presupuesto es justo: a $99 maneja afinación vocal transparente y cuesta $50 menos. Compra RePitch 2 Standard primero si afinas voces a diario y valoras la velocidad: la edición multipista, las macros y SynchroLink con VocAlign amortizan los $149 rápido. Muchos ingenieros terminan con ambos."
+        "a": "Buy Melodyne 5 Essential first if budget is tight: at $99 it handles transparent vocal tuning and costs $50 less. Buy RePitch 2 Standard first if you tune vocals daily and value speed: multi-track editing, macros and SynchroLink with VocAlign pay for itself quickly. Many engineers end up owning both.",
+        "a_es": "Compra Melodyne 5 Essential primero si el presupuesto es justo: a $99 maneja afinación vocal transparente y cuesta $50 menos. Compra RePitch 2 Standard primero si afinas voces a diario y valoras la velocidad: la edición multipista, las macros y SynchroLink con VocAlign se amortizan rápido. Muchos ingenieros terminan con ambos."
       },
       {
         "q": "Do I still need Auto-Tune if I own RePitch or Melodyne?",
@@ -4769,16 +4769,16 @@
           ]
         },
         {
-          "label": "Price",
-          "label_es": "Precio",
+          "label": "Standout Feature",
+          "label_es": "Característica destacada",
           "values": [
             {
-              "value": "$149",
-              "value_es": "$149"
+              "value": "Multi-track editing with tuning macros",
+              "value_es": "Edición multipista con macros de afinación"
             },
             {
-              "value": "$99",
-              "value_es": "$99"
+              "value": "Polyphonic editing in higher tiers",
+              "value_es": "Edición polifónica en niveles superiores"
             }
           ]
         }
