@@ -1,0 +1,21 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+products.find(x => x.id === 1033).title = 'iZotope Ozone 12 Advanced';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'ozone-vs-fabfilter');
+let s = JSON.stringify(g);
+let n = 0;
+s = s.replace(/iZotope Ozone 12 Advanced/g, '%%KEPT%%');
+s = s.split('Ozone 12 Advanced').join('iZotope Ozone 12 Advanced');
+n = s.split('iZotope Ozone 12 Advanced').length - 1;
+s = s.split('%%KEPT%%').join('iZotope Ozone 12 Advanced');
+const g2 = JSON.parse(s);
+Object.keys(g).forEach(k => delete g[k]);
+Object.assign(g, g2);
+fs.writeFileSync(B + 'data/guides.json', JSON.stringify(guides, null, 2), 'utf8');
+// verificar dobles
+const chk = JSON.stringify(g);
+console.log('iZotope iZotope: ' + (chk.includes('iZotope iZotope') ? 'HAY!' : 'no'));
+console.log('Ozone sin marca restante: ' + (chk.replace(/iZotope Ozone 12 Advanced/g, '').includes('Ozone 12 Advanced') ? 'SI' : 'no'));
