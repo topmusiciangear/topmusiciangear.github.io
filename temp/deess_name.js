@@ -1,0 +1,25 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const p = products.find(x => x.id === 1027);
+console.log('antes: brand=' + p.brand + ' title=' + p.title);
+p.title = 'Sonible smart:deess';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
+guides.forEach(g => {
+  let s = JSON.stringify(g);
+  if (!s.includes('smart:deess')) return;
+  s = s.split('Sonible Sonible smart:deess').join('Sonible smart:deess');
+  s = s.split('Sonible smart:deess').join('%%KEPT%%');
+  const c = s.split('smart:deess').length - 1;
+  s = s.split('smart:deess').join('Sonible smart:deess');
+  s = s.split('%%KEPT%%').join('Sonible smart:deess');
+  const g2 = JSON.parse(s);
+  Object.keys(g).forEach(k => delete g[k]);
+  Object.assign(g, g2);
+  console.log('guia ' + g.id + ': ' + c + ' reemplazos');
+});
+fs.writeFileSync(B + 'data/guides.json', JSON.stringify(guides, null, 2), 'utf8');
+const chk = JSON.stringify(guides.filter(g => g.id === 'best-audio-repair-plugins'));
+console.log('dobles: ' + (chk.includes('Sonible Sonible') ? 'HAY!' : 'no'));
+console.log('deess sin marca: ' + (chk.replace(/Sonible smart:deess/g, '').includes('smart:deess') ? 'SI' : 'no'));
