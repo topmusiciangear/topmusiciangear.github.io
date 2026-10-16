@@ -1,103 +1,53 @@
 const fs = require('fs');
-const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
-const gj = BASE + 'data/guides.json';
-const guides = JSON.parse(fs.readFileSync(gj, 'utf8'));
-
-let fixes = 0;
-
-const g = guides.find(x => x.id === 'best-pa-speakers');
-
-// Fix 1: ES "2000W" -> "1000W" (EN is correct)
-// Fix 2: EN "2500W peak" -> "1000W peak"
-// Fix 3: FAQ "1250W" -> "1000W" (EN+ES)
-// Fix 5: ES "30 lb" -> "32.67 lb"
-
-// Check sections
-(g.sections || []).forEach(s => {
-  if (s.content.includes('2000W')) {
-    s.content = s.content.replace(/2000W/g, '1000W');
-    fixes++;
-    console.log('Fix 1 (EN section): 2000W -> 1000W');
-  }
-  if (s.content_es.includes('2000W')) {
-    s.content_es = s.content_es.replace(/2000W/g, '1000W');
-    fixes++;
-    console.log('Fix 1 (ES section): 2000W -> 1000W');
-  }
-  if (s.content.includes('2500W')) {
-    s.content = s.content.replace(/2500W/g, '1000W');
-    fixes++;
-    console.log('Fix 2 (EN section): 2500W -> 1000W');
-  }
-  if (s.content.includes('1250W')) {
-    s.content = s.content.replace(/1250W/g, '1000W');
-    fixes++;
-    console.log('Fix 3 (EN section): 1250W -> 1000W');
-  }
-  if (s.content_es.includes('1250W')) {
-    s.content_es = s.content_es.replace(/1250W/g, '1000W');
-    fixes++;
-    console.log('Fix 3 (ES section): 1250W -> 1000W');
-  }
-  if (s.content_es.includes('30 libras')) {
-    s.content_es = s.content_es.replace(/30 libras/g, '32.67 libras');
-    fixes++;
-    console.log('Fix 5 (ES section): 30 libras -> 32.67 libras');
-  }
-  if (s.content_es.includes('30 lb')) {
-    s.content_es = s.content_es.replace(/30 lb/g, '32.67 lb');
-    fixes++;
-    console.log('Fix 5 (ES section): 30 lb -> 32.67 lb');
-  }
-});
-
-// Check pros/cons
-(g.verdictProsCons || []).forEach(v => {
-  v.pros = v.pros.map(p => {
-    if (p.includes('2000W')) { fixes++; console.log('Fix 1 (EN pro): 2000W -> 1000W'); return p.replace(/2000W/g, '1000W'); }
-    if (p.includes('2500W')) { fixes++; console.log('Fix 2 (EN pro): 2500W -> 1000W'); return p.replace(/2500W/g, '1000W'); }
-    if (p.includes('1250W')) { fixes++; console.log('Fix 3 (EN pro): 1250W -> 1000W'); return p.replace(/1250W/g, '1000W'); }
-    return p;
-  });
-  v.cons = v.cons.map(c => {
-    if (c.includes('2000W')) { fixes++; console.log('Fix 1 (EN con): 2000W -> 1000W'); return c.replace(/2000W/g, '1000W'); }
-    if (c.includes('2500W')) { fixes++; console.log('Fix 2 (EN con): 2500W -> 1000W'); return c.replace(/2500W/g, '1000W'); }
-    if (c.includes('1250W')) { fixes++; console.log('Fix 3 (EN con): 1250W -> 1000W'); return c.replace(/1250W/g, '1000W'); }
-    return c;
-  });
-  v.pros_es = v.pros_es.map(p => {
-    if (p.includes('2000W')) { fixes++; console.log('Fix 1 (ES pro): 2000W -> 1000W'); return p.replace(/2000W/g, '1000W'); }
-    if (p.includes('1250W')) { fixes++; console.log('Fix 3 (ES pro): 1250W -> 1000W'); return p.replace(/1250W/g, '1000W'); }
-    if (p.includes('30 libras')) { fixes++; console.log('Fix 5 (ES pro): 30 libras -> 32.67 libras'); return p.replace(/30 libras/g, '32.67 libras'); }
-    if (p.includes('30 lb')) { fixes++; console.log('Fix 5 (ES pro): 30 lb -> 32.67 lb'); return p.replace(/30 lb/g, '32.67 lb'); }
-    return p;
-  });
-  v.cons_es = v.cons_es.map(c => {
-    if (c.includes('2000W')) { fixes++; console.log('Fix 1 (ES con): 2000W -> 1000W'); return c.replace(/2000W/g, '1000W'); }
-    if (c.includes('1250W')) { fixes++; console.log('Fix 3 (ES con): 1250W -> 1000W'); return c.replace(/1250W/g, '1000W'); }
-    if (c.includes('30 libras')) { fixes++; console.log('Fix 5 (ES con): 30 libras -> 32.67 libras'); return c.replace(/30 libras/g, '32.67 libras'); }
-    if (c.includes('30 lb')) { fixes++; console.log('Fix 5 (ES con): 30 lb -> 32.67 lb'); return c.replace(/30 lb/g, '32.67 lb'); }
-    return c;
-  });
-});
-
-// Check productTable
-if (g.productTable && g.productTable.rows) {
-  g.productTable.rows.forEach(r => {
-    if (r.values) r.values.forEach(v => {
-      if (v.value && v.value.includes('2000W')) {
-        v.value = v.value.replace(/2000W/g, '1000W');
-        fixes++;
-        console.log('Fix 1 (table): 2000W -> 1000W');
-      }
-      if (v.value_es && v.value_es.includes('2000W')) {
-        v.value_es = v.value_es.replace(/2000W/g, '1000W');
-        fixes++;
-        console.log('Fix 1 (table ES): 2000W -> 1000W');
-      }
-    });
-  });
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const gg = g.find(x => x.id === 'zlx-vs-k12');
+let S = JSON.stringify(gg);
+let n = 0; const fallos = [];
+function swap(de, a) {
+  if (!S.includes(de)) { fallos.push(de.slice(0, 70)); return; }
+  n += S.split(de).length - 1;
+  S = S.split(de).join(a);
 }
-
-fs.writeFileSync(gj, JSON.stringify(guides, null, 2));
-console.log('Total fixes:', fixes);
+// INTRO
+swap('son los altavoces autoamplificados más populares para sonido en vivo portátil',
+  'son los altavoces activos más populares para sonido en vivo portátil');
+// SEC0
+swap('esta caja de segunda generación clava el equilibrio entre potencia y sencillez',
+  'esta caja de segunda generación logra el equilibrio entre potencia y sencillez');
+swap('La amplificación Clase-D con generoso margen de pico mantiene bombo y voces limpios al apretar',
+  'La amplificación en Clase D con generoso margen de pico mantiene bombo y voces limpios al subir el volumen');
+swap('Las presentaciones en bares con cajas de preajustes de esta clase suelen montarse en minutos, no en horas',
+  'Las presentaciones en bares con cajas de esta clase con preajustes suelen montarse en minutos, no en horas');
+swap('Ideales para DJs móviles y bandas que giran. Revisa los pies, la cobertura y la combinación con subgraves antes de comprar',
+  'Ideales para DJs móviles y bandas de gira. Revisa los soportes, la cobertura y la combinación con subgraves antes de comprar');
+// SEC1
+swap('Su amplificación clase D ofrece 2000 vatios pico con claridad cristalina en toda la respuesta en frecuencia',
+  'Su amplificación en clase D ofrece 2.000 vatios de pico con claridad cristalina en toda la respuesta en frecuencia');
+swap('La guía de onda proporciona un patrón de cobertura de 75 grados que suena consistente en todo el espacio',
+  'La guía de onda proporciona un patrón de cobertura de 75 grados con cobertura consistente en todo el espacio');
+swap('Con su margen dinámico a gran escala, el K12.2 produce niveles de sonido limpios que los altavoces más pequeños no pueden alcanzar sin distorsionar',
+  'Con su margen dinámico de sobra, el K12.2 produce niveles de sonido limpios que los altavoces más pequeños no pueden alcanzar sin distorsionar');
+// SEC2 + heading
+swap('¿Vale la pena el costo extra del QSC K12.2 sobre el EV ZLX-12P-G2?', '¿Vale la pena el coste extra del QSC K12.2 sobre el EV ZLX-12P-G2?');
+swap('El K12.2 mantiene la compostura a niveles de concierto donde el ZLX comienza a forzarse',
+  'El K12.2 aguanta el tipo a niveles de concierto, donde el ZLX empieza a ir forzado');
+swap('Para bodas, eventos corporativos y lugares pequeños, el ZLX-12P-G2 es más que adecuado',
+  'Para bodas, eventos corporativos y salas pequeñas, el ZLX-12P-G2 es más que adecuado');
+swap('Para giras y lugares grandes donde la fiabilidad y la salida son críticas, la inversión extra del K12.2 se amortiza en rendimiento y longevidad',
+  'Para giras y recintos grandes donde la fiabilidad y la salida son críticas, la inversión extra del K12.2 se amortiza en rendimiento y longevidad');
+// SEC3
+swap('Para compradores con presupuesto ajustado, bandas con poco presupuesto y lugares pequeños, el EV ZLX-12P-G2 ofrece una buena relación calidad-precio que manejará la mayoría de los conciertos con facilidad',
+  'Para compradores con presupuesto ajustado, bandas con poco presupuesto y salas pequeñas, el EV ZLX-12P-G2 ofrece una buena relación calidad-precio que cubrirá la mayoría de los conciertos con facilidad');
+swap('Para empresas de sonido profesionales, músicos de gira y lugares que necesitan fiabilidad ultrafiable y audio cristalino a alto SPL',
+  'Para empresas de sonido profesionales, músicos de gira y salas que necesitan fiabilidad a toda prueba y audio cristalino a alto SPL');
+// CONCLUSION + anchors
+swap('>Mejores Sistemas PA para Bandas</a>', '>Mejores sistemas PA para sonido en vivo: guía completa</a>');
+swap('>Mejores Micrófonos Inalámbricos para Escenario</a>', '>Mejores sistemas de micrófono inalámbricos para escenario</a>');
+swap('>DXR12mkII vs PRX ONE</a>', '>Yamaha DXR12 vs JBL PRX ONE: altavoz vs columna</a>');
+swap('>guía de PA para sonido en vivo</a>', '>Mejores sistemas PA para sonido en vivo: guía completa</a>');
+g[g.indexOf(gg)] = JSON.parse(S);
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+console.log('\naplicados: ' + n + '  fallos: ' + fallos.length);
+fallos.forEach(f => console.log('  FALLA: ' + f));
+console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
