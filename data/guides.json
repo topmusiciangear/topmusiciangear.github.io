@@ -4755,16 +4755,44 @@
           ]
         },
         {
-          "label": "Formants & Polyphony",
-          "label_es": "Formantes y polifonía",
+          "label": "Formant Editing",
+          "label_es": "Edición de formantes",
           "values": [
             {
-              "value": "Not included",
-              "value_es": "No incluye"
+              "value": "Included: reshape vocal timbre and character",
+              "value_es": "Incluido: remodela el timbre y carácter vocal"
             },
             {
-              "value": "Not included (paid higher tiers only)",
-              "value_es": "No incluye (solo en versiones superiores de pago)"
+              "value": "Not included (Assistant and higher only)",
+              "value_es": "No incluye (solo Assistant y superiores)"
+            }
+          ]
+        },
+        {
+          "label": "Audio-to-MIDI",
+          "label_es": "Audio a MIDI",
+          "values": [
+            {
+              "value": "Not included (audio processing only)",
+              "value_es": "No incluye (solo procesado de audio)"
+            },
+            {
+              "value": "Not included (Assistant and higher only)",
+              "value_es": "No incluye (solo Assistant y superiores)"
+            }
+          ]
+        },
+        {
+          "label": "Multi-Track View",
+          "label_es": "Vista multipista",
+          "values": [
+            {
+              "value": "Yes: several takes side by side",
+              "value_es": "Sí: varias tomas lado a lado"
+            },
+            {
+              "value": "No: one track per window (Studio only)",
+              "value_es": "No: una pista por ventana (solo Studio)"
             }
           ]
         },
