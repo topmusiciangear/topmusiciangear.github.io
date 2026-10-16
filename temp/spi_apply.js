@@ -1,0 +1,21 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const p = products.find(x => x.id === 1005);
+const clean = 'https://r2.gear4music.com/media/141/1413021/1200/preview.jpg';
+p.image = clean;
+p.img = clean;
+p.stores.gear4music = 'https://www.gear4music.com/Recording-and-Computers/Reveal-Sound-Spire/3NUS';
+p.stores.zzounds = 'https://www.zzounds.com/item--REESPIRE';
+p.stores.andertons = 'https://www.andertons.co.uk/reveal-sound-spire-synth-plugin/';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+const us = (115 / 1.0084).toFixed(2);
+const uk = (us * 0.7959).toFixed(2);
+let bg = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const oldE = '1005: {prices:{pluginboutique:"€190.59"},pbCur:{us:"$189.00",uk:"£150.43"}},\n';
+const newE = '1005: {prices:{pluginboutique:"€115.00",gear4music:"£67.00",andertons:"£125.00",zzounds:"$189.00"},pbCur:{us:"$' + us + '",uk:"£' + uk + '"}},\n';
+if (!bg.includes(oldE)) { console.log('ENTRADA 1005 NO ENCONTRADA'); process.exit(1); }
+bg = bg.split(oldE).join(newE);
+fs.writeFileSync(B + 'build-guides.js', bg, 'utf8');
+new Function(bg);
+console.log('1005 OK: foto + 3 tiendas + PB 115 geo ' + us + '/' + uk);
