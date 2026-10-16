@@ -5573,6 +5573,10 @@ const TEST_SHOP_BTN = {
   1037: {prices:{pluginboutique:"$209.99"}},
   1038: {prices:{pluginboutique:"$149.00"}},
   1039: {prices:{pluginboutique:"$249.00"}},
+
+  1037: {prices:{pluginboutique:"$209.99"}},
+  1038: {prices:{pluginboutique:"$149.00"}},
+  1039: {prices:{pluginboutique:"$249.00"}},
 }
 
 function shortTitle(title) {
