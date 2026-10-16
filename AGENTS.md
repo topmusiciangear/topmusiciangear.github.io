@@ -604,6 +604,16 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 - Nueva guía **DI Box** y **VS Radial J48 vs RNDI** (category: accessories, ver "Pendiente para mañana") — investigar precios/URLs verificadas antes de escribir
 - Auditoría ES natural puntual si el usuario reporta otra frase literal (el patrón de checklist ya está limpio; usar `node temp/es_audit.js`)
 
+## ✍️ REGLA FIJA: Texto natural EN/ES — sin calcos, sin AI
+
+**SIEMPRE que se escriba o edite texto EN o ES en guías:**
+- Sin traducciones calcadas del otro idioma. Sonar natural, no literal.
+- Sin frases AI-sounding ("game-changer", "seamless", "In conclusion", "It's worth noting"...)
+- Sin errores ortográficos ni typos.
+- Tono de review real, como un ingeniero/ productor escribiendo, no un traductor.
+- Tool: `temp/audit_en.js` (patrones AI/clichés) y `temp/audit_en_typos.js` (typos comunes).
+- Correr ambos scripts después de escribir guías nuevas o editar texto existente.
+
 ## ⚠️ FIRST CHECK when page is broken
 
 **Siempre verificar `css/style.min.css` primero.** Si el CSS está corrupto (todo pegado, sin `{}:;,.`), la causa es el bug de PowerShell `$1` al minificar inline. Correr `node _minify_css.js` para regenerarlo. No pierdas tiempo debugueando JS cuando el CSS está roto.

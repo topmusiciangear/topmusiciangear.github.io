@@ -5930,9 +5930,44 @@ const TEST_SHOP_BTN = {
     oos: ["zzounds"]
   },
   29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"}},
- 684: {
-     prices: { amazon: "$149.99", gear4music: "£115.00", andertons: "£105.00", zzounds: "$149.99", musicstore: "€138.00" }
-   }
+  684: {prices:{amazon:"$149.99",gear4music:"£115.00",andertons:"£105.00",zzounds:"$149.99",musicstore:"€138.00"}},
+
+  1001: {prices:{pluginboutique:"$199.00"}},
+  1002: {prices:{pluginboutique:"$179.00"}},
+  1003: {prices:{pluginboutique:"$199.00"}},
+  1004: {prices:{pluginboutique:"$249.00"}},
+  1005: {prices:{pluginboutique:"$189.00"}},
+  1006: {prices:{pluginboutique:"$199.00"}},
+  1007: {prices:{pluginboutique:"$99.00"}},
+  1008: {prices:{pluginboutique:"$99.00"}},
+  1009: {prices:{pluginboutique:"€130.08"}},
+  1010: {prices:{pluginboutique:"$89.00"}},
+  1011: {prices:{pluginboutique:"$99.00"}},
+  1012: {prices:{pluginboutique:"$149.00"}},
+  1013: {prices:{pluginboutique:"$399.00"}},
+  1014: {prices:{pluginboutique:"$299.00"}},
+  1015: {prices:{pluginboutique:"$699.00"}},
+  1016: {prices:{pluginboutique:"$99.00"}},
+  1017: {prices:{pluginboutique:"€399.00"}},
+  1018: {prices:{pluginboutique:"$149.00"}},
+  1019: {prices:{pluginboutique:"$199.99"}},
+  1020: {prices:{pluginboutique:"$299.00"}},
+  1021: {prices:{pluginboutique:"$149.00"}},
+  1022: {prices:{pluginboutique:"$269.00"}},
+  1023: {prices:{pluginboutique:"$99.00"}},
+  1024: {prices:{pluginboutique:"$199.00"}},
+  1025: {prices:{pluginboutique:"$199.00"}},
+  1026: {prices:{pluginboutique:"$249.00"}},
+  1027: {prices:{pluginboutique:"$129.00"}},
+  1028: {prices:{pluginboutique:"$99.00"}},
+  1029: {prices:{pluginboutique:"$249.00"}},
+  1030: {prices:{pluginboutique:"$269.00"}},
+  1031: {prices:{pluginboutique:"$250.00"}},
+  1032: {prices:{pluginboutique:"$99.00"}},
+  1033: {prices:{pluginboutique:"$499.00"}},
+  1034: {prices:{pluginboutique:"$519.00"}},
+  1035: {prices:{pluginboutique:"$249.00"}},
+  1036: {prices:{pluginboutique:"$499.00"}},
 };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}

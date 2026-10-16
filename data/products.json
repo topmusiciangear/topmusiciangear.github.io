@@ -12799,5 +12799,473 @@
     },
     "unit": "each",
     "unit_es": "cada uno"
+  },
+  {
+    "id": 1001,
+    "brand": "Arturia",
+    "price": 199,
+    "category": "plugins",
+    "subcategory": "synth",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11867-Pigments-7"
+    },
+    "image": "https://www.arturia.com/images/products/pigments-7/pigments-7-main.jpg",
+    "desc": "A powerful wavetable and granular synth with a visual modulation matrix, dual engines, and 104 filter types.",
+    "title": "Pigments 7"
+  },
+  {
+    "id": 1002,
+    "brand": "u-he",
+    "price": 179,
+    "category": "plugins",
+    "subcategory": "synth",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1396-Diva"
+    },
+    "image": "https://u-he.com/images/products/diva/diva-front.jpg",
+    "desc": "Virtual analog synthesizer emulating five decades of classic synths through circuit-level modeling of oscillators, filters, and envelopes.",
+    "title": "Diva"
+  },
+  {
+    "id": 1003,
+    "brand": "Kilohearts",
+    "price": 199,
+    "category": "plugins",
+    "subcategory": "synth",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5391-Phase-Plant"
+    },
+    "image": "https://kilohearts.com/images/products/phase-plant/phase-plant.jpg",
+    "desc": "Semi-modular softsynth with three flexible oscillator lanes, 40+ modulation generators, and over 300 snapin effects.",
+    "title": "Phase Plant"
+  },
+  {
+    "id": 1004,
+    "brand": "Vengeance Sound",
+    "price": 249,
+    "category": "plugins",
+    "subcategory": "synth",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11545-VPS-Avenger-2"
+    },
+    "image": "https://www.vengeance-sound.com/images/plugins/avenger2/avenger2.jpg",
+    "desc": "Massive workstation synth combining wavetable, sample, FM, and virtual analog with 12 oscillators, 8-step envelopes, and 3000+ presets.",
+    "title": "VPS Avenger 2"
+  },
+  {
+    "id": 1005,
+    "brand": "Xfer Records",
+    "price": 189,
+    "category": "plugins",
+    "subcategory": "synth",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7761-Serum"
+    },
+    "image": "https://xferrecords.com/images/serum/serum-front.jpg",
+    "desc": "The industry-standard wavetable synth for bass music, EDM, and sound design. Visual editing, high-quality filters, and distortion.",
+    "title": "Serum"
+  },
+  {
+    "id": 1006,
+    "brand": "Native Instruments",
+    "price": 199,
+    "category": "plugins",
+    "subcategory": "synth",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10604-MASSIVE-X"
+    },
+    "image": "https://www.native-instruments.com/fileadmin/ni_media/products/software/massive-x/assets/massive-x-hero.jpg",
+    "desc": "Successor to the legendary Massive. Two wavetable oscillators, 10 wavetable modes, and a deep modulation system for aggressive sound design.",
+    "title": "Massive X"
+  },
+  {
+    "id": 1007,
+    "brand": "Scaler Music",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "midi",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/14563-Scaler-3"
+    },
+    "image": "https://www.scalermusic.com/images/scaler-3/scaler-3-hero.jpg",
+    "desc": "Music theory workstation that detects your key and suggests chord progressions, basslines, melodies, and arpeggios in real time.",
+    "title": "Scaler 3"
+  },
+  {
+    "id": 1008,
+    "brand": "Mixed In Key",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "midi",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/14112-Captain-Plugins-Epic"
+    },
+    "image": "https://mixedinkey.com/images/captain-plugins/captain-plugins-epic.jpg",
+    "desc": "Five-plugin composition suite: Captain Chords, Captain Melody, Captain Bass, Captain Arpeggio, and Captain Deep. Write full songs without music theory.",
+    "title": "Captain Plugins Epic"
+  },
+  {
+    "id": 1009,
+    "brand": "W.A. Production",
+    "price": 130.08,
+    "category": "plugins",
+    "subcategory": "midi",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/13923-Loop-Engine-3"
+    },
+    "image": "https://www.waproduction.com/images/products/loop-engine-3/loop-engine-3.jpg",
+    "desc": "Loop sequencer and groove generator with intelligent pattern creation, multi-track looping, and drag-and-drop MIDI export.",
+    "title": "Loop Engine 3"
+  },
+  {
+    "id": 1010,
+    "brand": "Audiomodern",
+    "price": 89,
+    "category": "plugins",
+    "subcategory": "midi",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/14265-Playbeat-4"
+    },
+    "image": "https://audiomodern.com/images/products/playbeat-4/playbeat-4.jpg",
+    "desc": "AI-powered drum pattern generator with smart genre detection, velocity control, and one-click pattern variation.",
+    "title": "Playbeat 4"
+  },
+  {
+    "id": 1011,
+    "brand": "Orb Plugins",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "midi",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15024-Orb-Producer-Suite-3"
+    },
+    "image": "https://www.landr.com/images/plugins/producer-suite-3/orb-producer-suite-3.jpg",
+    "desc": "Four AI-powered plugins (Melody, Bass, Arpeggios, Chords) that generate musical ideas based on your key, scale, and style choices.",
+    "title": "Orb Producer Suite 3"
+  },
+  {
+    "id": 1012,
+    "brand": "Zynaptiq",
+    "price": 149,
+    "category": "plugins",
+    "subcategory": "midi",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/2701-PITCHMAP"
+    },
+    "image": "https://www.zynaptiq.com/images/products/pitchmap/pitchmap.jpg",
+    "desc": "World's first real-time polyphonic pitch mapper. Change individual notes within a mixed audio signal and route them to a MIDI keyboard.",
+    "title": "PitchMap"
+  },
+  {
+    "id": 1013,
+    "brand": "Spectrasonics",
+    "price": 399,
+    "category": "plugins",
+    "subcategory": "piano",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13201-Keyscape"
+    },
+    "image": "https://www.spectrasonics.net/images/products/keyscape/keyscape-main.jpg",
+    "desc": "The definitive virtual keyboard collection. 500+ sounds from rare and collector grand pianos, uprights, electric pianos, organs, and harpsichords.",
+    "title": "Keyscape"
+  },
+  {
+    "id": 1014,
+    "brand": "Native Instruments",
+    "price": 299,
+    "category": "plugins",
+    "subcategory": "piano",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13195-Kontakt-8"
+    },
+    "image": "https://www.native-instruments.com/fileadmin/ni_media/products/software/kontakt-8/assets/kontakt-8-hero.jpg",
+    "desc": "The industry-standard sampler platform. Runs the world's best piano libraries with advanced scripting, effects, and time-stretching.",
+    "title": "Kontakt 8"
+  },
+  {
+    "id": 1015,
+    "brand": "Arturia",
+    "price": 699,
+    "category": "plugins",
+    "subcategory": "piano",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/58-Instrument-Bundles/14665-V-Collection-11-Pro"
+    },
+    "image": "https://www.arturia.com/images/products/v-collection-11-pro/v-collection-11-pro-main.jpg",
+    "desc": "45 meticulously modeled instruments: vintage electric pianos, acoustic grands, organs, and analog synths. 12,000+ presets with Analog Lab Pro included.",
+    "title": "V Collection 11 Pro"
+  },
+  {
+    "id": 1016,
+    "brand": "XLN Audio",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "piano",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/1191-Addictive-Keys-Studio-Grand"
+    },
+    "image": "https://www.xlnaudio.com/images/products/addictive-keys/addictive-keys.jpg",
+    "desc": "Studio grand, upright, and electric piano with mic mixing, effects, and envelope control. Great for pop, lo-fi, and singer-songwriter productions.",
+    "title": "Addictive Keys"
+  },
+  {
+    "id": 1017,
+    "brand": "Modartt",
+    "price": 399,
+    "category": "plugins",
+    "subcategory": "piano",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15147-Pianoteq-9-Pro"
+    },
+    "image": "https://www.modartt.com/images/products/pianoteq/pianoteq-9.jpg",
+    "desc": "Physically modeled piano (no samples). Ultra-lightweight, responsive dynamics, customizable string resonance, and 12 instrument packs included.",
+    "title": "Pianoteq 9 Pro"
+  },
+  {
+    "id": 1018,
+    "brand": "UVI",
+    "price": 149,
+    "category": "plugins",
+    "subcategory": "piano",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/9804-Augmented-GRAND-PIANO"
+    },
+    "image": "https://www.uvi.net/images/products/augmented-piano/augmented-piano.jpg",
+    "desc": "A 1909 Pleyel grand piano meets abstract synthesis. 24 preparations blend real piano samples with processed and synthesized layers for cinematic soundtracks.",
+    "title": "Augmented Piano"
+  },
+  {
+    "id": 1019,
+    "brand": "IK Multimedia",
+    "price": 199.99,
+    "category": "plugins",
+    "subcategory": "guitar",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/12669-AmpliTube-5"
+    },
+    "image": "https://www.ikmultimedia.com/images/products/amplitube-5/amplitube-5-max.jpg",
+    "desc": "Massive amp and pedal emulation suite with 400+ gear models, 10,000+ presets, and Tonex integration for real captured tones.",
+    "title": "AmpliTube 5"
+  },
+  {
+    "id": 1020,
+    "brand": "Positive Grid",
+    "price": 299,
+    "category": "plugins",
+    "subcategory": "guitar",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/13826-BIAS-FX-2"
+    },
+    "image": "https://www.positivegrid.com/images/products/bias-fx-2/bias-fx-2.jpg",
+    "desc": "Tone matching and amp modeling with cloud community, ToneCloud with 100,000+ presets, and Split Signal Path for dual amp rigs.",
+    "title": "BIAS FX 2"
+  },
+  {
+    "id": 1021,
+    "brand": "Universal Audio",
+    "price": 149,
+    "category": "plugins",
+    "subcategory": "guitar",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11503-UAD-Sound-City-Studios-Plugin"
+    },
+    "image": "https://www.uaudio.com/images/products/uad-sound-city-studios/uad-sound-city-studios.jpg",
+    "desc": "Legendary rock room emulation. Vintage mics, custom British console, outboard gear, and the famous reverb chamber of Sound City Studios Studio A.",
+    "title": "UAD Sound City Studios"
+  },
+  {
+    "id": 1022,
+    "brand": "Overloud",
+    "price": 269,
+    "category": "plugins",
+    "subcategory": "guitar",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14809-TH-U-Premium"
+    },
+    "image": "https://www.overloud.com/images/products/th-u/th-u.jpg",
+    "desc": "All-in-one guitar suite with 15 amp models, Fluid IR processing, amp modeling, and 89 effects. One of the fastest and most accurate modelers.",
+    "title": "TH-U Premium"
+  },
+  {
+    "id": 1023,
+    "brand": "Softube",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "guitar",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/meta_product/2-Effects/18-Amp-Simulator/6861-Softube-Amp-Room"
+    },
+    "image": "https://www.softube.com/images/products/amp-room/amp-room.jpg",
+    "desc": "Scandinavian clean and high-gain amp sim. Vintage, Metal, Bass, and Marshall suites with classic amps, cabs, stompboxes, and effects.",
+    "title": "Amp Room"
+  },
+  {
+    "id": 1024,
+    "brand": "Brainworx",
+    "price": 199,
+    "category": "plugins",
+    "subcategory": "guitar",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14955-bx-rockrack-V3"
+    },
+    "image": "https://www.plugin-alliance.com/images/products/bx_rockrack_v3/bx_rockrack_v3.jpg",
+    "desc": "8 amp emulations from Marshall, Mesa Boogie, and ENGL. Clean to Metal with 40 recording chains, multiple mic positions, and FX.",
+    "title": "bx_rockrack V3"
+  },
+  {
+    "id": 1025,
+    "brand": "iZotope",
+    "price": 199,
+    "category": "plugins",
+    "subcategory": "restoration",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/14642-iZotope-RX-12-Standard"
+    },
+    "image": "https://www.izotope.com/images/products/rx/rx-12/rx-12-standard.jpg",
+    "desc": "The industry standard for audio repair. Spectral editing, dialogue de-noise, de-reverb, de-ess, and music rebalance.",
+    "title": "RX 12 Standard"
+  },
+  {
+    "id": 1026,
+    "brand": "Oeksound",
+    "price": 249,
+    "category": "plugins",
+    "subcategory": "restoration",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/16734-Soothe3"
+    },
+    "image": "https://oeksound.com/images/products/soothe3/soothe3.jpg",
+    "desc": "The most famous dynamic resonance suppressor. AI-driven detection smooths harsh resonances in real time without artifacts.",
+    "title": "Soothe3"
+  },
+  {
+    "id": 1027,
+    "brand": "Sonible",
+    "price": 129,
+    "category": "plugins",
+    "subcategory": "restoration",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/11480-smart-deess"
+    },
+    "image": "https://www.sonible.com/images/products/smart-deess/smart-deess.jpg",
+    "desc": "AI-powered de-esser that identifies sibilance and plosives in real time and adjusts processing automatically for natural results.",
+    "title": "smart:deess"
+  },
+  {
+    "id": 1028,
+    "brand": "Acon Digital",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "restoration",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/5791-Restoration-Suite-2"
+    },
+    "image": "https://www.acondigital.com/images/products/restoration-suite-2/restoration-suite-2.jpg",
+    "desc": "Four specialized tools: DeNoise 2, DeHum 2, DeClick 2, and DeReverb 2. Effective and affordable noise reduction suite.",
+    "title": "Restoration Suite 2"
+  },
+  {
+    "id": 1029,
+    "brand": "Accentize",
+    "price": 249,
+    "category": "plugins",
+    "subcategory": "restoration",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/15322-Chameleon"
+    },
+    "image": "https://www.accentize.com/images/products/chameleon/chameleon.jpg",
+    "desc": "Neural network-based reverb analysis. Estimates and models the exact reverb content of any recording, then removes or replaces it.",
+    "title": "Chameleon"
+  },
+  {
+    "id": 1030,
+    "brand": "Zynaptiq",
+    "price": 269,
+    "category": "plugins",
+    "subcategory": "restoration",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/9020-UNVEIL"
+    },
+    "image": "https://www.zynaptiq.com/images/products/unveil/unveil.jpg",
+    "desc": "De-mixing-based de-reverb processor. Surgical removal of room acoustics from recordings made in problematic spaces.",
+    "title": "UNVEIL"
+  },
+  {
+    "id": 1031,
+    "brand": "Antares",
+    "price": 250,
+    "category": "plugins",
+    "subcategory": "pitch",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/17161-AutoTune-2026"
+    },
+    "image": "https://www.antarestech.com/images/products/autotune-2026/autotune-2026.jpg",
+    "desc": "The industry-standard real-time pitch correction plugin. The T-Pain effect, live tuning, and natural vocal correction in one tool.",
+    "title": "AutoTune 2026"
+  },
+  {
+    "id": 1032,
+    "brand": "Celemony",
+    "price": 99,
+    "category": "plugins",
+    "subcategory": "pitch",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/6446-Melodyne-5-Essential"
+    },
+    "image": "https://www.celemony.com/images/products/melodyne-5/melodyne-5.jpg",
+    "desc": "Surgical note-by-note pitch correction. The standard for natural-sounding vocal tuning and polyphonic audio editing.",
+    "title": "Melodyne 5 Essential"
+  },
+  {
+    "id": 1033,
+    "brand": "iZotope",
+    "price": 499,
+    "category": "plugins",
+    "subcategory": "mastering",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15503-Ozone-12-Advanced"
+    },
+    "image": "https://www.izotope.com/images/products/ozone/ozone-12/ozone-12-advanced.jpg",
+    "desc": "AI-powered mastering suite with 20 pro modules. Assistant, Tonal Balance Control, and Master Rebalance for modern workflows.",
+    "title": "Ozone 12 Advanced"
+  },
+  {
+    "id": 1034,
+    "brand": "FabFilter",
+    "price": 519,
+    "category": "plugins",
+    "subcategory": "mastering",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/39-Effects-Bundles/16651-FabFilter-Mastering-Bundle"
+    },
+    "image": "https://www.fabfilter.com/images/products/mastering-bundle/mastering-bundle.jpg",
+    "desc": "Pro-Q 3, Pro-L 2, Pro-C 2, and Pro-MB. Surgical EQ, limiting, compression, and multiband for mastering and mixing.",
+    "title": "Mastering Bundle"
+  },
+  {
+    "id": 1035,
+    "brand": "Synchro Arts",
+    "price": 249,
+    "category": "plugins",
+    "subcategory": "vocals",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/17164-VocAlign-7-Pro"
+    },
+    "image": "https://www.synchroarts.com/images/products/vocalign-7-pro/vocalign-7-pro.jpg",
+    "desc": "Multi-track vocal alignment with pitch and timing control. Align entire vocal stacks in seconds with per-track and per-clip control.",
+    "title": "VocAlign 7 Pro"
+  },
+  {
+    "id": 1036,
+    "brand": "Synchro Arts",
+    "price": 499,
+    "category": "plugins",
+    "subcategory": "vocals",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/17165-Revoice-Pro"
+    },
+    "image": "https://www.synchroarts.com/images/products/revoice-pro/revoice-pro.jpg",
+    "desc": "Standalone vocal production suite for large-scale projects. Advanced pitch, timing, and level control across multiple tracks simultaneously.",
+    "title": "Revoice Pro"
   }
 ]
