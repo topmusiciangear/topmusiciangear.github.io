@@ -1,0 +1,18 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8'));
+const s = g.find(x => x.id === 'budget-usb-mics');
+console.log('SEC1 rechaza/rechazan:');
+const sec1 = s.sections[1].content_es;
+console.log(sec1.includes('rechaza el ruido') ? 'OK: rechaza el ruido' : 'FALLA: no encontrado');
+console.log(sec1.includes('rechazan') ? 'AÚN TIENE rechazan' : 'LIMPIO');
+console.log('\nSEC10 than/que:');
+const sec10 = s.sections[10].content_es;
+console.log(sec10.includes('más sala que un dinámico') ? 'OK: más sala que un dinámico' : 'FALLA: no encontrado');
+console.log(sec10.includes('than') ? 'AÚN TIENE than' : 'LIMPIO');
+console.log('\nSEC19 The/La:');
+const sec19 = s.sections[19].content_es;
+console.log(sec19.includes('La cápsula cardioide') ? 'OK: La cápsula cardioide' : 'FALLA: no encontrado');
+console.log(sec19.includes('The') ? 'AÚN TIENE The' : 'LIMPIO');
+console.log('\nCONCLUSION El Samson:');
+console.log(s.conclusion_es.includes('El Samson Q2U es el mejor') ? 'OK: El Samson Q2U' : 'FALLA: no encontrado');
+console.log(s.conclusion_es.includes('The Samson') ? 'AÚN TIENE The Samson' : 'LIMPIO');

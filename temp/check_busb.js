@@ -1,0 +1,11 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8'));
+const s = g.find(x => x.id === 'budget-usb-mics');
+console.log('SEC1 content_es (primeros 500 chars):');
+console.log(s.sections[1].content_es.slice(0, 500));
+console.log('\nSEC10 content_es (primeros 500 chars):');
+console.log(s.sections[10].content_es.slice(0, 500));
+console.log('\nSEC19 content_es (primeros 500 chars):');
+console.log(s.sections[19].content_es.slice(0, 500));
+console.log('\nCONCLUSION (primeros 500 chars):');
+console.log(s.conclusion_es.slice(0, 500));
