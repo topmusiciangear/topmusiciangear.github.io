@@ -28,15 +28,6 @@
  },
  {
   "guia": "best-headphones",
-  "campo": "sections[7].content_es",
-  "patron": "hype",
-  "n": 1,
-  "ejs": [
-   "Antes de los foros, antes del hype, estaba el HD 600 — y nunca se fue. Desde 1997 esta ha sido la vara"
-  ]
- },
- {
-  "guia": "best-headphones",
   "campo": "sections[11].content_es",
   "patron": "premium",
   "n": 1,
@@ -59,52 +50,7 @@
   "patron": "premium",
   "n": 1,
   "ejs": [
-   "onviene a podcasters, streamers y vocalistas tras un sonido broadcast premium que perdona salas brillantes y dicción sibilante. La salida ba"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "sections[9].heading_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "Rode NT1 Signature Series: silencio insignia sin bundle insignia"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "sections[9].content_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "Silencio insignia sin bundle insignia. La cápsula HF6 de 1 pulgada con 4 dBA de ruido propio — má"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "sections[10].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "poco EQ. Su cápsula de 17 mm cubre 20 Hz a 20 kHz con 16,7 mV/Pa, 19 dB-A de ruido propio y 142 dB SPL, así que pasa de voces a acústicas y "
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "sections[11].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "el mic que mata subidas de nivel: condensador real de 1 pulgada con 7 dB-A, 140 dB SPL y 27,4 mV/Pa sobre respuesta plana 20 Hz a 20 kHz. So"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "sections[13].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "pasaporte Neumann real: cápsula auténtica de diafragma grande con 12 dB-A, 144 dB SPL y 132 dB de rango dinámico. El circuito sin transforma"
+   "onviene a podcasters, streamers y vocalistas tras un sonido broadcast premium que perdona salas brillantes y dicción sibilante. Su salida ba"
   ]
  },
  {
@@ -126,57 +72,12 @@
   ]
  },
  {
-  "guia": "best-microphone",
-  "campo": "productTable.rows[5].values[2].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "19 dB-A"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "productTable.rows[5].values[5].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "18 dB-A"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "productTable.rows[5].values[6].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "7 dB-A"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "productTable.rows[5].values[9].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "12 dB-A"
-  ]
- },
- {
-  "guia": "best-microphone",
-  "campo": "productTable.rows[5].values[10].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "6 dB-A"
-  ]
- },
- {
   "guia": "best-monitors",
   "campo": "sections[2].content_es",
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "precio. La extensión de graves es sorprendentemente profunda para un driver de 6.5 pulgadas, y el balance general es natural y sin exageraci"
+   "precio. La extensión de graves es sorprendentemente profunda para un driver de 6,5 pulgadas, y el balance general es natural y sin exageraci"
   ]
  },
  {
@@ -363,15 +264,6 @@
  },
  {
   "guia": "best-plugins",
-  "campo": "productTable.rows[1].values[6].value_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "Bundle (basado en Kontakt)"
-  ]
- },
- {
-  "guia": "best-plugins",
   "campo": "verdictProsCons[0].name_es",
   "patron": "bundle",
   "n": 1,
@@ -386,24 +278,6 @@
   "n": 1,
   "ejs": [
    "Soundtoys 5.5 Bundle"
-  ]
- },
- {
-  "guia": "budget-mics",
-  "campo": "sections[21].content_es",
-  "patron": "hype",
-  "n": 1,
-  "ejs": [
-   "sin pilas: voz dentro, señal fuera, siempre. El tono es limpio y sin hype en vez de broadcast grueso, lo que ayuda a salas sin tratar a segu"
-  ]
- },
- {
-  "guia": "budget-mics",
-  "campo": "sections[23].content_es",
-  "patron": "setup",
-  "n": 1,
-  "ejs": [
-   "El micro streamer que cubre tu setup actual y el futuro. Doble salida USB/XLR con monitoreo por auricular"
   ]
  },
  {
@@ -429,46 +303,10 @@
  {
   "guia": "usb-mics",
   "campo": "sections[1].content_es",
-  "patron": "premium",
-  "n": 1,
-  "ejs": [
-   "limpia y detallada sin tocar una interfaz. Su cápsula de condensador premium captura más aire y matices que un dinámico, y el filtro antipop"
-  ]
- },
- {
-  "guia": "usb-mics",
-  "campo": "sections[1].content_es",
   "patron": "clipping (revisar)",
   "n": 1,
   "ejs": [
-   "mantiene las plosivas bajo control. La tecnología Clipguard evita el clipping cuando te emocionas, el mute capacitivo es silencioso, y el di"
-  ]
- },
- {
-  "guia": "usb-mics",
-  "campo": "featuredSnippet.faq_a1_es",
-  "patron": "setup",
-  "n": 1,
-  "ejs": [
-   "Depende de tu setup. El Shure MV7+ es el mejor para voz broadcast con auto-nivel y resp"
-  ]
- },
- {
-  "guia": "usb-mics",
-  "campo": "productTable.rows[6].values[5].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "14 dB-A (ponderado A)"
-  ]
- },
- {
-  "guia": "usb-mics",
-  "campo": "productTable.rows[6].values[6].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "24 dB-A"
+   "mantiene las plosivas bajo control. La tecnología Clipguard evita el clipping cuando te emocionas, el botón de silencio capacitivo es silenc"
   ]
  },
  {
@@ -486,7 +324,7 @@
   "patron": "premium",
   "n": 1,
   "ejs": [
-   "¿Es el Telefunken m80 el mejor micrófono de escenario premium?"
+   "¿Es el Telefunken M80 el mejor micrófono de escenario premium?"
   ]
  },
  {
@@ -514,15 +352,6 @@
   "n": 1,
   "ejs": [
    "Voces principales premium"
-  ]
- },
- {
-  "guia": "stage-mics",
-  "campo": "productTable.rows[7].values[5].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "76 dB-A"
   ]
  },
  {
@@ -684,10 +513,9 @@
   "guia": "mixing-plugins",
   "campo": "sections[2].content_es",
   "patron": "bundle",
-  "n": 2,
+  "n": 1,
   "ejs": [
-   "El FabFilter Total Bundle es el mejor kit completo de mezcla para producción de audio. Pro-Q 4",
-   "Timeless 3 hace delay, Volcano 3 maneja filtrado. Cada plugin en este bundle es el mejor en su clase. Es caro, pero es el último bundle de m"
+   "El FabFilter Total Bundle es el mejor kit completo de mezcla para producción de audio. Pro-Q 4"
   ]
  },
  {
@@ -719,38 +547,11 @@
  },
  {
   "guia": "mixing-plugins",
-  "campo": "featuredSnippet.faq_q1_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "¿Cuál es el mejor bundle de plugins para masterizar para principiantes?"
-  ]
- },
- {
-  "guia": "mixing-plugins",
   "campo": "featuredSnippet.faq_q2_es",
   "patron": "bundle",
   "n": 1,
   "ejs": [
    "¿Deberías comprar el FabFilter Total Bundle para mezclar?"
-  ]
- },
- {
-  "guia": "mixing-plugins",
-  "campo": "featuredSnippet.faq_a2_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "punch agresivo, y Pro-L 2 es el limitador más limpio del mercado. El bundle es caro, pero cada plugin es de primera clase y probablemente no"
-  ]
- },
- {
-  "guia": "mixing-plugins",
-  "campo": "featuredSnippet.faq_a4_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "un gran ingeniero con plugins nativos supera a un principiante con un bundle caro. Compra plugins de pago cuando una herramienta específica "
   ]
  },
  {
@@ -800,15 +601,6 @@
  },
  {
   "guia": "fx-plugins",
-  "campo": "sections[1].content_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "juntos en una sola instancia de plugin. Por veintitrés efectos, es el bundle más creativo e inspirador del mundo de los plugins. Uso algo de"
-  ]
- },
- {
-  "guia": "fx-plugins",
   "campo": "sections[13].content_es",
   "patron": "clean",
   "n": 2,
@@ -828,15 +620,6 @@
  },
  {
   "guia": "fx-plugins",
-  "campo": "verdict_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "Para efectos creativos, Soundtoys 5.5 es el bundle imprescindible — cada plugin que contiene es un clásico que suena gen"
-  ]
- },
- {
-  "guia": "fx-plugins",
   "campo": "featuredSnippet.faq_q1_es",
   "patron": "bundle",
   "n": 1,
@@ -848,10 +631,9 @@
   "guia": "fx-plugins",
   "campo": "featuredSnippet.faq_a1_es",
   "patron": "bundle",
-  "n": 2,
+  "n": 1,
   "ejs": [
-   "Para carácter creativo, sí. El Soundtoys 5.5 Bundle es la colección de efectos definitiva — Decapitator para saturación a",
-   "sional. Si quieres que tus producciones suenen menos estériles, es el bundle más divertido y con mejor relación calidad-precio."
+   "Para carácter creativo, sí. El Soundtoys 5.5 Bundle es la colección de efectos definitiva — Decapitator para saturación a"
   ]
  },
  {
@@ -865,48 +647,11 @@
  },
  {
   "guia": "fx-plugins",
-  "campo": "featuredSnippet.faq_a3_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "ezclas suenan \"limpias pero aburridas\", los efectos creativos como el bundle de Soundtoys les dan personalidad. Empieza con los nativos y añ"
-  ]
- },
- {
-  "guia": "fx-plugins",
-  "campo": "featuredSnippet.faq_a5_es",
-  "patron": "bundle",
-  "n": 2,
-  "ejs": [
-   "No necesariamente — el bundle Soundtoys 5.5 cubre los tres y más. Incluye reverbs, delays, distorsi",
-   "s presupuesto para un plugin más después de tus EQs y compresores, un bundle creativo como Soundtoys te da más opciones por tu dinero."
-  ]
- },
- {
-  "guia": "fx-plugins",
-  "campo": "description_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "modulación y saturación. Con ejemplos de audio — Soundtoys 5.5 es el bundle clave. Oye."
-  ]
- },
- {
-  "guia": "fx-plugins",
   "campo": "productTable.columns[0].title_es",
   "patron": "bundle",
   "n": 1,
   "ejs": [
    "Soundtoys 5.5 Bundle"
-  ]
- },
- {
-  "guia": "fx-plugins",
-  "campo": "productTable.rows[0].values[0].value_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "Bundle Multi-FX (21 efectos)"
   ]
  },
  {
@@ -951,7 +696,7 @@
   "patron": "premium",
   "n": 2,
   "ejs": [
-   "No todos necesitan ocho faders. El SSL UF1 es un controlador premium de fader único con pantalla IPS de 4.3 pulgadas, perilla de transport",
+   "No todos necesitan ocho faders. El SSL UF1 es un controlador premium de fader único con pantalla IPS de 4,3 pulgadas, perilla de transport",
    "mezclas en el ordenador y solo quieres un fader maestro con sensación premium, el UF1 es difícil de superar."
   ]
  },
@@ -971,114 +716,6 @@
   "n": 1,
   "ejs": [
    "s al tacto siguen el DAW en tiempo real, y la calidad de construcción premium hace que cada movimiento se sienta intencional. El UF8 captura"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "sections[4].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "ciosa, el ruido propio manda. El Rode NT1 Signature Series anuncia 4 dB-A — el condensador de estudio más silencioso del mundo — con cápsula"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "sections[5].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "es un cardioide de condensador verdadero de 1 pulgada (27,4 mV/Pa, 7 dB-A de ruido, 140 dB SPL máximo) con sonido listo para grabar en voces"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "sections[6].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "ada del U87 con electrónica sin transformador: cardioide, 23 mV/Pa, 7 dB-A de ruido y 138 dB SPL máximo, con realce de presencia sobre 5 kHz"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "sections[7].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   ",3 libras con su fuente externa y cable de 7 pines, el ruido es 15–17 dB-A, y no hay pad ni filtro. Para el brillo estilo C800 sin precio vi"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "sections[8].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "Clase A sin ICs. La salida cardioide corre caliente a 24 mV/Pa con 8 dB-A de ruido, e interruptores físicos dan pads -10/-20 dB más cortes 8"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "verdict_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "echnica AT2020; compra silencio con el Rode NT1 Signature Series de 4 dB-A. El Lewitt LCT 440 PURE es simplicidad lista para grabar, el sE E"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "productTable.rows[5].values[1].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "4 dB-A"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "productTable.rows[5].values[2].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "7 dB-A"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "productTable.rows[5].values[3].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "8 dB-A"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "productTable.rows[5].values[4].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "7 dB-A"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "productTable.rows[5].values[5].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "6 dB-A"
-  ]
- },
- {
-  "guia": "best-condenser-mics",
-  "campo": "productTable.rows[5].values[7].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "12 dB-A"
   ]
  },
  {
@@ -1129,15 +766,6 @@
  },
  {
   "guia": "channel-strip-plugins",
-  "campo": "featuredSnippet.faq_a3_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "es lograr mezclas profesionales con plugins nativos y de terceros. El bundle UAD Ultimate 14 incluye más de 200 emulaciones de hardware vint"
-  ]
- },
- {
-  "guia": "channel-strip-plugins",
   "campo": "featuredSnippet.faq_q6_es",
   "patron": "bundle",
   "n": 1,
@@ -1147,30 +775,11 @@
  },
  {
   "guia": "channel-strip-plugins",
-  "campo": "featuredSnippet.faq_a6_es",
-  "patron": "bundle",
-  "n": 2,
-  "ejs": [
-   "El bundle es excesivo si sólo necesitas una o dos herramientas — puedes comprar",
-   "Pro-Q y Pro-C por separado. El bundle tiene sentido cuando quieres el set completo (EQ, dinámicas, saturaci"
-  ]
- },
- {
-  "guia": "channel-strip-plugins",
   "campo": "productTable.columns[1].title_es",
   "patron": "bundle",
   "n": 1,
   "ejs": [
    "FabFilter Total Bundle"
-  ]
- },
- {
-  "guia": "channel-strip-plugins",
-  "campo": "productTable.rows[1].values[4].value_es",
-  "patron": "bundle",
-  "n": 1,
-  "ejs": [
-   "Bundle de plugins"
   ]
  },
  {
@@ -1296,7 +905,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "dor Clase-D de 1000W que mueve un woofer WECA2128 de 12 pulgadas y un driver de compresión de titanio DECA2516 de 1.4 pulgadas alcanza 127 d"
+   "dor Clase-D de 1000W que mueve un woofer WECA2128 de 12 pulgadas y un driver de compresión de titanio DECA2516 de 1,4 pulgadas alcanza 127 d"
   ]
  },
  {
@@ -1521,7 +1130,7 @@
   "patron": "premium",
   "n": 1,
   "ejs": [
-   "Las guitarras premium van de sensaciones, no solo de sonido. Una PRS Custom 24 de $2,000 y"
+   "Las guitarras premium van de sensaciones, no solo de sonido. Una PRS Custom 24 de $2.000 y"
   ]
  },
  {
@@ -1602,16 +1211,16 @@
   "patron": "premium",
   "n": 1,
   "ejs": [
-   "epresentan los dos pesos pesados en el mercado de interfaces de audio premium de escritorio"
+   "representan los dos pesos pesados del mercado de interfaces de audio premium de escritorio"
   ]
  },
  {
   "guia": "apollo-vs-babyface",
-  "campo": "verdict_es",
-  "patron": "hype",
+  "campo": "conclusion_es",
+  "patron": "premium",
   "n": 1,
   "ejs": [
-   "el Babyface Pro FS gana. Elige la caja según tu proceso, no según el hype."
+   "s RME Fireface UFX III: DSP vs ruteo Interfaz de gama de entrada vs premium: ¿vale la pena?"
   ]
  },
  {
@@ -1674,7 +1283,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "Su woofer de 6.5 pulgadas y diseño con puerto llegan más abajo que el driver de 5 pulgadas de los JBL 305P MkII, y el boundary EQ permite aj"
+   "Su woofer de 6,5 pulgadas y diseño con puerto llegan más abajo que el driver de 5 pulgadas de los JBL 305P MkII, y el boundary EQ permite aj"
   ]
  },
  {
@@ -2178,15 +1787,6 @@
  },
  {
   "guia": "best-mic-for-guitar-amps",
-  "campo": "sections[6].content_es",
-  "patron": "caballo de batalla",
-  "n": 1,
-  "ejs": [
-   "El Audix i5 es el caballo de batalla hecho en EE. UU. para quien lleva el ampli al límite: un dinámico car"
-  ]
- },
- {
-  "guia": "best-mic-for-guitar-amps",
   "campo": "verdict_es",
   "patron": "premium",
   "n": 1,
@@ -2227,8 +1827,8 @@
   "patron": "imaging",
   "n": 2,
   "ejs": [
-   "olocación cerca de la pared. Su puerto frontal de bajo ruido, el 3-D Imaging Waveguide y el Boundary EQ lo convierten en la forma más inteli",
-   "los LP-6 V2 a centímetros de la pared sin graves embarrados, y el 3-D Imaging Waveguide ofrece un punto óptimo amplio y tolerante. La caract"
+   "e colocación cerca de la pared. Su puerto frontal silencioso, el 3-D Imaging Waveguide y el Boundary EQ lo convierten en la forma más inteli",
+   "los LP-6 V2 a centímetros de la pared sin graves embarrados, y el 3-D Imaging Waveguide ofrece un punto ideal amplio y permisivo. La caracte"
   ]
  },
  {
@@ -2255,7 +1855,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "pulgadas entrega la misma construcción de aluminio fundido y 25W por driver que sus hermanos mayores en un paquete de 195mm. La respuesta es"
+   "pulgadas entrega la misma construcción de aluminio fundido y 25 W por driver que sus hermanos mayores en un paquete de 195mm. La respuesta e"
   ]
  },
  {
@@ -2676,15 +2276,6 @@
   ]
  },
  {
-  "guia": "best-live-sound-mixers",
-  "campo": "conclusion_es",
-  "patron": "caballo de batalla",
-  "n": 1,
-  "ejs": [
-   "El Yamaha MG16XU es el caballo de batalla analógico para bandas que necesitan canales reales sin menús. El Behr"
-  ]
- },
- {
   "guia": "best-pa-speakers",
   "campo": "sections[0].content_es",
   "patron": "premium",
@@ -2817,7 +2408,7 @@
   "patron": "premium",
   "n": 1,
   "ejs": [
-   "o Yamaha CL5 ($12,000) y Allen & Heath dLive ($15,000) añaden previos premium, faders motorizados, automatización avanzada, redundancia (fue"
+   "o Yamaha CL5 ($12.000) y Allen & Heath dLive ($15.000) añaden previos premium, faders motorizados, automatización avanzada, redundancia (fue"
   ]
  },
  {
@@ -2826,7 +2417,7 @@
   "patron": "premium",
   "n": 1,
   "ejs": [
-   "os mezcladores de estudio como SSL SiX ($2,500) se enfocan en previos premium, suma analógica e integración de plugins. Los de sonido en viv"
+   "os mezcladores de estudio como SSL SiX ($2.500) se enfocan en previos premium, suma analógica e integración de plugins. Los de sonido en viv"
   ]
  },
  {
@@ -2952,7 +2543,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "erencia. El woofer de 12 pulgadas con bobina de voz de 2.5 pulgadas y driver cerámico de 1 pulgada ofrecen claridad y contundencia que compi"
+   "erencia. El woofer de 12 pulgadas con bobina de voz de 2,5 pulgadas y driver cerámico de 1 pulgada ofrecen claridad y contundencia que compi"
   ]
  },
  {
@@ -2961,7 +2552,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "de potencia pico a través de un woofer personalizado de 12 pulgadas y driver de compresión de 1.4 pulgadas, produciendo 131dB SPL con clarid"
+   "de potencia pico a través de un woofer personalizado de 12 pulgadas y driver de compresión de 1,4 pulgadas, produciendo 131dB SPL con clarid"
   ]
  },
  {
@@ -3043,7 +2634,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "ficación Clase D ofrece margen de sobra. El woofer de 12 pulgadas con driver de compresión de diafragma de 1.75 pulgadas produce sonido clar"
+   "ficación Clase D ofrece margen de sobra. El woofer de 12 pulgadas con driver de compresión de diafragma de 1,75 pulgadas produce sonido clar"
   ]
  },
  {
@@ -3052,7 +2643,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "e sonido basado en el nivel de volumen. El woofer de 12 pulgadas y el driver de compresión de 1.4 pulgadas entregan 131dB SPL — suficienteme"
+   "e sonido basado en el nivel de volumen. El woofer de 12 pulgadas y el driver de compresión de 1,4 pulgadas entregan 131dB SPL — suficienteme"
   ]
  },
  {
@@ -3070,16 +2661,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "o de \"lo pasivo es más barato por dB\". Un woofer de 15 pulgadas y un driver de compresión de polímero de 1.4 pulgadas sobre bocina SymX entr"
-  ]
- },
- {
-  "guia": "active-vs-passive-pa",
-  "campo": "sections[9].heading_es",
-  "patron": "caballo de batalla",
-  "n": 1,
-  "ejs": [
-   "Yamaha CBR12: el caballo de batalla pasivo que solo espera una señal"
+   "o de \"lo pasivo es más barato por dB\". Un woofer de 15 pulgadas y un driver de compresión de polímero de 1,4 pulgadas sobre bocina SymX entr"
   ]
  },
  {
@@ -3088,7 +2670,7 @@
   "patron": "driver (revisar)",
   "n": 1,
   "ejs": [
-   "ue ya tienes. Un woofer de 12 pulgadas con bobina de 2 pulgadas y un driver de compresión de 1.4 pulgadas maneja 175W continuos, 350W de pro"
+   "ue ya tienes. Un woofer de 12 pulgadas con bobina de 2 pulgadas y un driver de compresión de 1,4 pulgadas maneja 175W continuos, 350W de pro"
   ]
  },
  {
@@ -3188,15 +2770,6 @@
   "n": 1,
   "ejs": [
    "Suena como: Ibanez SR Premium El Ibanez SR300E trae la legendaria tocabilidad de la serie SR a l"
-  ]
- },
- {
-  "guia": "budget-bass-like-expensive",
-  "campo": "sections[4].content_es",
-  "patron": "punchy",
-  "n": 1,
-  "ejs": [
-   "lla humbucker de cerámica es el corazón del Ray4. Tiene ese carácter punchy y medio que corta en la mezcla sin necesidad de ecualización. El"
   ]
  },
  {
@@ -3616,33 +3189,6 @@
   ]
  },
  {
-  "guia": "best-instrument-mics",
-  "campo": "productTable.rows[0].values[13].value_es",
-  "patron": "caballo de batalla",
-  "n": 1,
-  "ejs": [
-   "Caballo de batalla vocal en vivo"
-  ]
- },
- {
-  "guia": "best-instrument-mics",
-  "campo": "productTable.rows[5].values[6].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "13 dB-A"
-  ]
- },
- {
-  "guia": "best-instrument-mics",
-  "campo": "productTable.rows[8].values[6].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "81 dB-A"
-  ]
- },
- {
   "guia": "stage-wedges",
   "campo": "sections[0].content_es",
   "patron": "driver (revisar)",
@@ -3935,24 +3481,6 @@
  },
  {
   "guia": "best-amp-modelers",
-  "campo": "sections[1].content_es",
-  "patron": "gig",
-  "n": 1,
-  "ejs": [
-   "formato de baraja cabe en cualquier pedalboard o bolsillo de bolsa de gig. La contra sigue siendo el alcance. Es un amplificador-en-caja, no"
-  ]
- },
- {
-  "guia": "best-amp-modelers",
-  "campo": "sections[2].content_es",
-  "patron": "gig",
-  "n": 1,
-  "ejs": [
-   "alera real, y es un sistema completo que puedes tirar en una bolsa de gig. La fiabilidad Boss es el verdadero gancho. El GX-1 suena bien des"
-  ]
- },
- {
-  "guia": "best-amp-modelers",
   "campo": "sections[5].content_es",
   "patron": "premium",
   "n": 1,
@@ -4002,7 +3530,7 @@
   "patron": "crossover",
   "n": 1,
   "ejs": [
-   "alanceada — dos graves, un medio, un agudo — funciónan a través de un crossover de tres vías para una respuesta de 15 Hz-20 kHz, y un filtro"
+   "alanceada — dos graves, un medio, un agudo — funcionan a través de un crossover de tres vías para una respuesta de 15 Hz-20 kHz, y un filtro"
   ]
  },
  {
@@ -4384,7 +3912,7 @@
   "patron": "headroom",
   "n": 1,
   "ejs": [
-   "s de hasta +20.5 dBu y señales de nivel de altavoz de hasta +41 dBu — headroom extraordinario que significa que nunca satura, ni siquiera co"
+   "s de hasta +20,5 dBu y señales de nivel de altavoz de hasta +41 dBu — headroom extraordinario que significa que nunca satura, ni siquiera co"
   ]
  },
  {
@@ -4480,15 +4008,6 @@
  },
  {
   "guia": "premium-interfaces",
-  "campo": "sections[1].content_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "la tecnología de Merging Technologies, tasada en unos asombrosos 136 dB-A de rango dinámico hasta 192 kHz. Al mismo tiempo, su conectividad "
-  ]
- },
- {
-  "guia": "premium-interfaces",
   "campo": "sections[3].content_es",
   "patron": "premium",
   "n": 1,
@@ -4521,15 +4040,6 @@
   "n": 1,
   "ejs": [
    "Comparativa de Interfaces Premium en Esta Guía"
-  ]
- },
- {
-  "guia": "premium-interfaces",
-  "campo": "productTable.rows[3].values[0].value_es",
-  "patron": "dB-A",
-  "n": 1,
-  "ejs": [
-   "A/D 136 dB-A, 192 kHz, tecnología Merging"
   ]
  },
  {
@@ -4639,24 +4149,6 @@
   "n": 1,
   "ejs": [
    "Premium"
-  ]
- },
- {
-  "guia": "bridge-cast-x-vs-rodecaster-pro2",
-  "campo": "sections[1].content_es",
-  "patron": "setup",
-  "n": 1,
-  "ejs": [
-   "en la mezcla — sin capturadora externa, sin recablear para cambiar de setup. El diseño de doble bus corre una mezcla STREAM para la audienci"
-  ]
- },
- {
-  "guia": "bridge-cast-x-vs-rodecaster-pro2",
-  "campo": "featuredSnippet.faq_q4_es",
-  "patron": "setup",
-  "n": 1,
-  "ejs": [
-   "¿Cuál es mejor para un setup de streaming con doble PC?"
   ]
  }
 ]
