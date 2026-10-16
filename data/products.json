@@ -13267,5 +13267,50 @@
     "image": "https://www.synchroarts.com/images/products/revoice-pro/revoice-pro.jpg",
     "desc": "Standalone vocal production suite for large-scale projects. Advanced pitch, timing, and level control across multiple tracks simultaneously.",
     "title": "Revoice Pro"
+  },
+  {
+    "id": 1037,
+    "title": "Solid State Logic SSL Mastering Bundle",
+    "brand": "Solid State Logic",
+    "price": 209.99,
+    "category": "plugins",
+    "subcategory": "mastering",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/39-Effects-Bundles/14036-Solid-State-Logic-SSL-Fusion-Bundle"
+    },
+    "desc": "Premium mastering suite with the legendary SSL Bus Compressor and Fusion Stereo Enhancer. The official SSL analog console sound in your DAW.",
+    "rating": 4.7,
+    "reviews": 120,
+    "badge": "premium"
+  },
+  {
+    "id": 1038,
+    "title": "NUGEN Audio ISL 2st",
+    "brand": "NUGEN Audio",
+    "price": 149,
+    "category": "plugins",
+    "subcategory": "mastering",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/9-Limiter/1787-ISL-2st"
+    },
+    "desc": "True-peak limiter for broadcast and streaming. Surgical transparency with inter-sample peak detection.",
+    "rating": 4.8,
+    "reviews": 85,
+    "badge": "pro"
+  },
+  {
+    "id": 1039,
+    "title": "Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle",
+    "brand": "Synchro Arts",
+    "price": 249,
+    "category": "plugins",
+    "subcategory": "vocals",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/84-Mix-Master/17933-RePitch-2-Standard-VocAlign-7-Pro-Bundle"
+    },
+    "desc": "Complete vocal production bundle: natural pitch correction and industry-standard timing alignment in one package.",
+    "rating": 4.5,
+    "reviews": 60,
+    "badge": "bundle"
   }
 ]

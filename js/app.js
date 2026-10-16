@@ -1023,7 +1023,7 @@ function renderGuideGrid(fanFrom) {
       <div class="guide-card-wrap${typeof fanFrom === 'number' && i >= fanFrom ? ' fan-in' : ''}" style="${typeof fanFrom === 'number' && i >= fanFrom ? '--fan-i:' + (i - fanFrom) : ''}">
         <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; window.location.href='/guides/'+id+(currentLang==='es'?'_es':'')+'.html';">
           <div class="guide-card-img">
-            <img src="${g.image.replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
+            <img src="${(g.image||'').replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
             <span class="guide-card-cat">${catName}</span>
             <button type="button" class="guide-card-share" aria-label="Share" title="Share" onclick="event.preventDefault(); event.stopPropagation(); shareProduct(this, 'https://topmusiciangear.com/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html')"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>
           </div>
