@@ -1,0 +1,24 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const p = products.find(x => x.id === 1035);
+const clean = 'https://r2.gear4music.com/media/108/1089402/1200/preview.jpg';
+p.image = clean;
+p.img = clean;
+p.stores.gear4music = 'https://www.gear4music.com/Recording-and-Computers/Synchro-Arts-VocAlign-Pro/6H7Q';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+const us = (216.59 / 1.0084).toFixed(2);
+const uk = (us * 0.7959).toFixed(2);
+console.log('geo: EUR 216.59 -> USD ' + us + ' -> GBP ' + uk);
+let bg = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const oldE = '1035: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$149.00",uk:"£118.59"}},\n';
+const newE = '1035: {prices:{pluginboutique:"€216.59",gear4music:"£155.00"},pbCur:{us:"$' + us + '",uk:"£' + uk + '"}},\n';
+if (!bg.includes(oldE)) { console.log('ENTRADA 1035 NO ENCONTRADA'); process.exit(1); }
+bg = bg.split(oldE).join(newE);
+fs.writeFileSync(B + 'build-guides.js', bg, 'utf8');
+new Function(bg);
+const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'vocalign-vs-revoice-pro');
+g.image = clean;
+fs.writeFileSync(B + 'data/guides.json', JSON.stringify(guides, null, 2), 'utf8');
+console.log('1035 + portada OK');
