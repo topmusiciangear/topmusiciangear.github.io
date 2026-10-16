@@ -1,0 +1,20 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const p = products.find(x => x.id === 1002);
+const clean = 'https://r2.gear4music.com/media/69/690020/1200/preview.jpg';
+p.image = clean;
+p.img = clean;
+p.stores.gear4music = 'https://www.gear4music.com/Recording-and-Computers/u-he-Diva-Virtual-Analog-Synthesizer/3YVM';
+p.stores.zzounds = 'https://www.zzounds.com/item--UHEDIVA';
+p.stores.andertons = 'https://www.andertons.co.uk/u-he-diva-vintage-analog-esd/';
+p.stores.musicstore = 'https://www.musicstore.com/en_OE/EUR/u-he-Diva/art-PCM0014846-000';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+let bg = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const oldE = '1002: {prices:{pluginboutique:"€180.50"},pbCur:{us:"$179.00",uk:"£142.47"}},\n';
+const newE = '1002: {prices:{pluginboutique:"€180.50",gear4music:"£125.00",andertons:"£128.00",zzounds:"$179.00",musicstore:"€159.00"},pbCur:{us:"$179.00",uk:"£142.47"}},\n';
+if (!bg.includes(oldE)) { console.log('ENTRADA 1002 NO ENCONTRADA'); process.exit(1); }
+bg = bg.split(oldE).join(newE);
+fs.writeFileSync(B + 'build-guides.js', bg, 'utf8');
+new Function(bg);
+console.log('1002 OK: foto + 4 tiendas + precios');
