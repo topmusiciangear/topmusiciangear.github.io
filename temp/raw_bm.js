@@ -1,0 +1,11 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8'));
+const s = g.find(x => x.id === 'best-microphone');
+const raw1 = s.sections[1].content_es;
+const i = raw1.indexOf('Consulta nuestra');
+console.log('SEC1 links: ' + raw1.slice(i, i + 300));
+const raw2 = s.sections[2].content_es;
+const j = raw2.indexOf('Consulta nuestra');
+console.log('\nSEC2 links: ' + raw2.slice(j, j + 300));
+console.log('\nCONCLUSION cola:');
+console.log(s.conclusion_es.slice(-600));

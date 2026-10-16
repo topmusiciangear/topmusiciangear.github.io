@@ -1,0 +1,12 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const gg = g.find(x => x.id === 'budget-mics');
+let S = JSON.stringify(gg);
+const de = 'Guía de los 13 mejores micrófonos USB económicos';
+console.log(S.includes(de) ? 'encontrado' : 'FALLA');
+S = S.split(de).join('Guía de micrófonos USB para streaming');
+g[g.indexOf(gg)] = JSON.parse(S);
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+const t = JSON.stringify(g.find(x => x.id === 'budget-mics'));
+console.log('restos "13 mejores": ' + (t.match(/13 mejores/g) || []).length);
