@@ -3316,6 +3316,9 @@ a.chip-store[href*="fender.com"] { display: none !important; }
     line-height: 1.5;
     max-width: 100%;
     box-sizing: border-box;
+    display: block;
+    width: fit-content;
+    margin-top: 12px;
   }
 }
 
