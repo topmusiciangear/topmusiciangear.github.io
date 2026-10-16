@@ -1,0 +1,23 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+products.find(x => x.id === 1025).title = 'iZotope RX 12 Standard';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
+guides.forEach(g => {
+  let s = JSON.stringify(g);
+  if (!s.includes('RX 12 Standard')) return;
+  s = s.split('iZotope iZotope RX 12 Standard').join('iZotope RX 12 Standard');
+  s = s.split('iZotope RX 12 Standard').join('%%KEPT%%');
+  const c = s.split('RX 12 Standard').length - 1;
+  s = s.split('RX 12 Standard').join('iZotope RX 12 Standard');
+  s = s.split('%%KEPT%%').join('iZotope RX 12 Standard');
+  const g2 = JSON.parse(s);
+  Object.keys(g).forEach(k => delete g[k]);
+  Object.assign(g, g2);
+  console.log('guia ' + g.id + ': ' + c + ' reemplazos');
+});
+fs.writeFileSync(B + 'data/guides.json', JSON.stringify(guides, null, 2), 'utf8');
+const chk = JSON.stringify(guides.filter(g => g.id === 'best-audio-repair-plugins'));
+console.log('dobles: ' + (chk.includes('iZotope iZotope') ? 'HAY!' : 'no'));
+console.log('sin marca: ' + (chk.replace(/iZotope RX 12 Standard/g, '').includes('RX 12 Standard') ? 'SI' : 'no'));
