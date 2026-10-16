@@ -1,0 +1,1 @@
+fetch('https://banners.pluginboutique.com/f0ra3uhncubiuc7j5lkjzv380y7b', { method: 'HEAD' }).then(r => console.log('foto: ' + r.status + ' | ' + r.headers.get('content-type'))).catch(e => console.log('ERROR: ' + e.message));
