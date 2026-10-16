@@ -1,0 +1,20 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+const p = products.find(x => x.id === 1036);
+const clean = 'https://r2.gear4music.com/media/102/1025054/1200/preview.jpg';
+p.image = clean;
+p.img = clean;
+p.stores.gear4music = 'https://www.gear4music.com/Recording-and-Computers/Synchro-Arts-Revoice-Pro-5/64VN';
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
+const us = (325.49 / 1.0084).toFixed(2);
+const uk = (us * 0.7959).toFixed(2);
+console.log('geo: EUR 325.49 -> USD ' + us + ' -> GBP ' + uk);
+let bg = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const oldE = '1036: {prices:{pluginboutique:"€301.51"},pbCur:{us:"$299.00",uk:"£237.97"}},\n';
+const newE = '1036: {prices:{pluginboutique:"€325.49",gear4music:"£250.00"},pbCur:{us:"$' + us + '",uk:"£' + uk + '"}},\n';
+if (!bg.includes(oldE)) { console.log('ENTRADA 1036 NO ENCONTRADA'); process.exit(1); }
+bg = bg.split(oldE).join(newE);
+fs.writeFileSync(B + 'build-guides.js', bg, 'utf8');
+new Function(bg);
+console.log('1036 OK');
