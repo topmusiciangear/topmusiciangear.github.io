@@ -13260,12 +13260,17 @@
     "price": 149,
     "category": "plugins",
     "subcategory": "mastering",
-    "stores": {},
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/9-Limiter/1787-ISL-2st",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/NUGEN-ISL-2ST/4WXD",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/NUGEN-Audio-ISL-2-License-Code/art-PCM0016569-000"
+    },
     "desc": "True-peak limiter for broadcast and streaming. Surgical transparency with inter-sample peak detection.",
     "rating": 4.8,
     "reviews": 85,
     "badge": "pro",
-    "img": "https://nugenaudio.com/wp-content/uploads/2017/05/ISL_2-AppropriateSize-Copy-1.jpg"
+    "img": "https://r2.gear4music.com/media/88/882775/1200/preview.jpg",
+    "image": "https://r2.gear4music.com/media/88/882775/1200/preview.jpg"
   },
   {
     "id": 1039,
