@@ -11761,10 +11761,10 @@
     "title": "Best Audio Repair & Noise Restoration Plugins for Professional Studios",
     "title_es": "Mejores Plugins de Reparación de Audio y Restauración de Ruido para Estudios Profesionales",
     "category": "plugins",
-    "metaDesc": "RX 12, Smooth Operator Pro, smart:deess, Acon Restoration Suite 2 and UNVEIL: the top audio repair and noise restoration plugins for professional studios.",
-    "metaDesc_es": "RX 12, Smooth Operator Pro, smart:deess, Acon Restoration Suite 2 y UNVEIL: los mejores plugins de reparación de audio y restauración de ruido para estudios profesionales.",
-    "intro": "Bad audio is a fact of life. Recordings have noise, harsh resonances, reverb, and clicks that ruin otherwise great performances. These plugins fix those problems with surgical precision. We tested the tools that professional engineers rely on: iZotope RX 12 Standard for spectral repair, Baby Audio Smooth Operator Pro for one-knob resonance control, Sonible smart:deess for AI de-essing, Acon Digital Acon Restoration Suite 2 for affordable noise reduction, Zynaptiq UNVEIL for de-reverbing rescue missions.",
-    "intro_es": "El audio malo es un hecho de la vida. Las grabaciones tienen ruido, resonancias duras, reverb y clics que arruinan actuaciones que de otro modo serían geniales. Estos plugins resuelven esos problemas con precisión quirúrgica. Probamos las herramientas en las que confían los ingenieros profesionales: iZotope RX 12 Standard para reparación espectral, Baby Audio Smooth Operator Pro para control de resonancias de una perilla, Sonible smart:deess para de-essing con IA, Acon Digital Acon Restoration Suite 2 para reducción de ruido asequible, Zynaptiq UNVEIL para misiones de rescate de de-reverb.",
+    "metaDesc": "RX 12, Smooth Operator Pro, smart:deess, Acon Restoration Suite 2 and Zynaptiq Unveil: the top audio repair and noise restoration plugins for professional studios.",
+    "metaDesc_es": "RX 12, Smooth Operator Pro, smart:deess, Acon Restoration Suite 2 y Zynaptiq Unveil: los mejores plugins de reparación de audio y restauración de ruido para estudios profesionales.",
+    "intro": "Bad audio is a fact of life. Recordings have noise, harsh resonances, reverb, and clicks that ruin otherwise great performances. These plugins fix those problems with surgical precision. We tested the tools that professional engineers rely on: iZotope RX 12 Standard for spectral repair, Baby Audio Smooth Operator Pro for one-knob resonance control, Sonible smart:deess for AI de-essing, Acon Digital Acon Restoration Suite 2 for affordable noise reduction, Zynaptiq Unveil for de-reverbing rescue missions.",
+    "intro_es": "El audio malo es un hecho de la vida. Las grabaciones tienen ruido, resonancias duras, reverb y clics que arruinan actuaciones que de otro modo serían geniales. Estos plugins resuelven esos problemas con precisión quirúrgica. Probamos las herramientas en las que confían los ingenieros profesionales: iZotope RX 12 Standard para reparación espectral, Baby Audio Smooth Operator Pro para control de resonancias de una perilla, Sonible smart:deess para de-essing con IA, Acon Digital Acon Restoration Suite 2 para reducción de ruido asequible, Zynaptiq Unveil para misiones de rescate de de-reverb.",
     "sections": [
       {
         "heading": "iZotope RX 12 Standard: The Spectral Repair Tool That Rescues Unsalvageable Recordings",
@@ -11899,10 +11899,10 @@
         ]
       },
       {
-        "heading": "Zynaptiq UNVEIL: The De-Reverb Processor That Rescues Live Recordings",
-        "heading_es": "Zynaptiq UNVEIL: El Procesador de De-Reverb Que Rescata Grabaciones en Vivo",
-        "content": "<p><strong>UNVEIL is a de-mixing-based de-reverb processor.</strong> Instead of filtering frequencies, it separates the direct sound from the room reflections using phase cancellation. The result is a dramatic reduction of reverb that preserves the clarity and presence of the original performance.</p><p>It is particularly effective on live recordings, podcast interviews, and dialogue captured in reflective rooms. The processing is surgical: you can adjust the amount of reverb removal and the recovery of direct sound. For engineers who rescue recordings made in bad rooms, UNVEIL is a specialized but powerful tool.</p>",
-        "content_es": "<p><strong>UNVEIL es un procesador de de-reverb basado de-mixing.</strong> En lugar de filtrar frecuencias, separa el sonido directo de las reflexiones de la sala usando cancelación de fase. El resultado es una reducción drástica del reverb que preserva la claridad y presencia de la actuación original.</p><p>Es particularmente efectivo en grabaciones en vivo, entrevistas de podcast y diálogo capturado en salas reflectantes. El procesamiento es quirúrgico: puedes ajustar la cantidad de eliminación de reverb y la recuperación del sonido directo. Para ingenieros que rescatan grabaciones hechas en salas malas, UNVEIL es una herramienta especializada pero poderosa.</p>",
+        "heading": "Zynaptiq Unveil: The De-Reverb Processor That Rescues Live Recordings",
+        "heading_es": "Zynaptiq Unveil: El Procesador de De-Reverb Que Rescata Grabaciones en Vivo",
+        "content": "<p><strong>Zynaptiq Unveil is a de-mixing-based de-reverb processor.</strong> Instead of filtering frequencies, it separates the direct sound from the room reflections using phase cancellation. The result is a dramatic reduction of reverb that preserves the clarity and presence of the original performance.</p><p>It is particularly effective on live recordings, podcast interviews, and dialogue captured in reflective rooms. The processing is surgical: you can adjust the amount of reverb removal and the recovery of direct sound. For engineers who rescue recordings made in bad rooms, Zynaptiq Unveil is a specialized but powerful tool.</p>",
+        "content_es": "<p><strong>Zynaptiq Unveil es un procesador de de-reverb basado de-mixing.</strong> En lugar de filtrar frecuencias, separa el sonido directo de las reflexiones de la sala usando cancelación de fase. El resultado es una reducción drástica del reverb que preserva la claridad y presencia de la actuación original.</p><p>Es particularmente efectivo en grabaciones en vivo, entrevistas de podcast y diálogo capturado en salas reflectantes. El procesamiento es quirúrgico: puedes ajustar la cantidad de eliminación de reverb y la recuperación del sonido directo. Para ingenieros que rescatan grabaciones hechas en salas malas, Zynaptiq Unveil es una herramienta especializada pero poderosa.</p>",
         "pros": [
           "De-mixing-based: separates direct sound from reflections",
           "Dramatic reverb reduction preserves clarity",
@@ -12070,8 +12070,8 @@
           "Requiere fuente limpia",
           "Menos efectivo en audio procesado"
         ],
-        "name": "UNVEIL",
-        "name_es": "UNVEIL"
+        "name": "Zynaptiq Unveil",
+        "name_es": "Zynaptiq Unveil"
       }
     ],
     "faq": [
@@ -12094,14 +12094,14 @@
         "a_es": "Smooth Operator Pro doma resonancias en todo el rango de frecuencia con un solo control, mientras un de-esser se enfoca en sibilancia en una banda estrecha, generalmente 4-8 kHz. Usa Smooth Operator cuando mezclas o instrumentos enteros suenan duros. Usa smart:deess cuando solo las eses vocales necesitan control preciso con IA."
       },
       {
-        "q": "Can UNVEIL remove reverb from a finished mix?",
-        "q_es": "¿Puede UNVEIL eliminar el reverb de una mezcla terminada?",
-        "a": "No. UNVEIL works on individual tracks or stems, not finished mixes. It separates direct sound from room reflections using de-mixing, which rescues live recordings, podcast interviews and dialogue tracked in reflective rooms. For reducing reverb before mixing, process each track individually, then balance with automation and EQ.",
-        "a_es": "No. UNVEIL funciona en pistas individuales o stems, no en mezclas terminadas. Separa el sonido directo de las reflexiones de la sala usando de-mixing, lo que rescata grabaciones en vivo, entrevistas de podcast y diálogo capturado en salas reflectantes. Para reducir reverb antes de mezclar, procesa cada pista individualmente, luego balancea con automatización y EQ."
+        "q": "Can Zynaptiq Unveil remove reverb from a finished mix?",
+        "q_es": "¿Puede Zynaptiq Unveil eliminar el reverb de una mezcla terminada?",
+        "a": "No. Zynaptiq Unveil works on individual tracks or stems, not finished mixes. It separates direct sound from room reflections using de-mixing, which rescues live recordings, podcast interviews and dialogue tracked in reflective rooms. For reducing reverb before mixing, process each track individually, then balance with automation and EQ.",
+        "a_es": "No. Zynaptiq Unveil funciona en pistas individuales o stems, no en mezclas terminadas. Separa el sonido directo de las reflexiones de la sala usando de-mixing, lo que rescata grabaciones en vivo, entrevistas de podcast y diálogo capturado en salas reflectantes. Para reducir reverb antes de mezclar, procesa cada pista individualmente, luego balancea con automatización y EQ."
       }
     ],
-    "conclusion": "The best audio repair plugin depends on the problem you face. RX 12 is the industry standard for spectral repair. Smooth Operator Pro tames resonances that traditional tools cannot touch. smart:deess provides precise AI-powered de-essing. Acon Restoration Suite 2 covers the basics at a budget price. UNVEIL rescues live recordings from bad rooms. For most engineers, a combination of RX 12 for complex repairs and Acon Restoration Suite 2 for quick fixes covers 90% of real-world problems. <p><a href=\"/guides/mixing-plugins.html\" class=\"guide-link-btn\">Best Mixing & Mastering Plugins</a> <a href=\"/guides/vocal-plugins.html\" class=\"guide-link-btn\">Best Vocal Plugins: Full Processing Chain</a> <a href=\"/guides/ozone-vs-fabfilter.html\" class=\"guide-link-btn\">iZotope Ozone Advanced vs FabFilter Mastering Bundle: Which is Better for Mastering?</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Selected Plugin Boutique purchases include a free gift — choose from a selection based on your spending level <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></span>",
-    "conclusion_es": "El mejor plugin de reparación de audio depende del problema que enfrentas. RX 12 es el estándar de la industria para reparación espectral. Smooth Operator Pro doma resonancias que las herramientas tradicionales no pueden tocar. smart:deess proporciona de-essing preciso impulsado por IA. Acon Restoration Suite 2 cubre lo básico a un precio económico. UNVEIL rescata grabaciones en vivo de salas malas. Para la mayoría de los ingenieros, una combinación de RX 12 para reparaciones complejas y Acon Restoration Suite 2 para arreglos rápidos cubre el 90% de los problemas del mundo real. <p>También te interesa: <a href=\"/guides/mixing-plugins_es.html\" class=\"guide-link-btn\">Mejores plugins de mezcla y masterización</a> <a href=\"/guides/vocal-plugins_es.html\" class=\"guide-link-btn\">Mejores plugins vocales: cadena de procesamiento completa</a> <a href=\"/guides/ozone-vs-fabfilter_es.html\" class=\"guide-link-btn\">iZotope Ozone Advanced vs FabFilter Mastering Bundle: ¿Cuál es Mejor para Mastering?</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Ciertas compras en Plugin Boutique incluyen un regalo gratuito — elige entre una selección según cuánto gastes <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a></span>",
+    "conclusion": "The best audio repair plugin depends on the problem you face. RX 12 is the industry standard for spectral repair. Smooth Operator Pro tames resonances that traditional tools cannot touch. smart:deess provides precise AI-powered de-essing. Acon Restoration Suite 2 covers the basics at a budget price. Zynaptiq Unveil rescues live recordings from bad rooms. For most engineers, a combination of RX 12 for complex repairs and Acon Restoration Suite 2 for quick fixes covers 90% of real-world problems. <p><a href=\"/guides/mixing-plugins.html\" class=\"guide-link-btn\">Best Mixing & Mastering Plugins</a> <a href=\"/guides/vocal-plugins.html\" class=\"guide-link-btn\">Best Vocal Plugins: Full Processing Chain</a> <a href=\"/guides/ozone-vs-fabfilter.html\" class=\"guide-link-btn\">iZotope Ozone Advanced vs FabFilter Mastering Bundle: Which is Better for Mastering?</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Selected Plugin Boutique purchases include a free gift — choose from a selection based on your spending level <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></span>",
+    "conclusion_es": "El mejor plugin de reparación de audio depende del problema que enfrentas. RX 12 es el estándar de la industria para reparación espectral. Smooth Operator Pro doma resonancias que las herramientas tradicionales no pueden tocar. smart:deess proporciona de-essing preciso impulsado por IA. Acon Restoration Suite 2 cubre lo básico a un precio económico. Zynaptiq Unveil rescata grabaciones en vivo de salas malas. Para la mayoría de los ingenieros, una combinación de RX 12 para reparaciones complejas y Acon Restoration Suite 2 para arreglos rápidos cubre el 90% de los problemas del mundo real. <p>También te interesa: <a href=\"/guides/mixing-plugins_es.html\" class=\"guide-link-btn\">Mejores plugins de mezcla y masterización</a> <a href=\"/guides/vocal-plugins_es.html\" class=\"guide-link-btn\">Mejores plugins vocales: cadena de procesamiento completa</a> <a href=\"/guides/ozone-vs-fabfilter_es.html\" class=\"guide-link-btn\">iZotope Ozone Advanced vs FabFilter Mastering Bundle: ¿Cuál es Mejor para Mastering?</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Ciertas compras en Plugin Boutique incluyen un regalo gratuito — elige entre una selección según cuánto gastes <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a></span>",
     "featuredProducts": [
       1025,
       472,
@@ -12130,8 +12130,8 @@
           "title_es": "Acon Digital Acon Restoration Suite 2"
         },
         {
-          "title": "Zynaptiq UNVEIL",
-          "title_es": "Zynaptiq UNVEIL"
+          "title": "Zynaptiq Unveil",
+          "title_es": "Zynaptiq Unveil"
         }
       ],
       "rows": [
@@ -12267,8 +12267,8 @@
         }
       ]
     },
-    "verdict": "iZotope RX 12 Standard is the rescue toolkit for any unusable recording: spectral editing plus dialogue tools. Add Baby Audio Smooth Operator Pro for one-knob harshness control, Sonible smart:deess for AI vocal de-essing, Acon Digital Acon Restoration Suite 2 for everyday budget cleanup, and Zynaptiq UNVEIL to pull room reflections off live tracks.",
-    "verdict_es": "iZotope RX 12 Standard es el kit de rescate para cualquier grabación inservible: edición espectral más herramientas de diálogo. Añade Baby Audio Smooth Operator Pro para control de dureza con una perilla, Sonible smart:deess para de-essing vocal con IA, Acon Digital Acon Restoration Suite 2 para limpieza diaria con presupuesto y Zynaptiq UNVEIL para quitar reflexiones de sala en pistas en vivo.",
+    "verdict": "iZotope RX 12 Standard is the rescue toolkit for any unusable recording: spectral editing plus dialogue tools. Add Baby Audio Smooth Operator Pro for one-knob harshness control, Sonible smart:deess for AI vocal de-essing, Acon Digital Acon Restoration Suite 2 for everyday budget cleanup, and Zynaptiq Unveil to pull room reflections off live tracks.",
+    "verdict_es": "iZotope RX 12 Standard es el kit de rescate para cualquier grabación inservible: edición espectral más herramientas de diálogo. Añade Baby Audio Smooth Operator Pro para control de dureza con una perilla, Sonible smart:deess para de-essing vocal con IA, Acon Digital Acon Restoration Suite 2 para limpieza diaria con presupuesto y Zynaptiq Unveil para quitar reflexiones de sala en pistas en vivo.",
     "image": "https://r2.gear4music.com/media/137/1374743/1200/preview.jpg"
   },
   {
