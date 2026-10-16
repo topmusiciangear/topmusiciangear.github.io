@@ -5963,7 +5963,7 @@ const TEST_SHOP_BTN = {
 1040: {prices:{pluginboutique:"€72.00",gear4music:"£125.00"},pbCur:{us:"$71.40",uk:"£56.83"}},
 1032: {prices:{pluginboutique:"€99.83",zzounds:"$99.00",gear4music:"£74.99",amazon:"$119.00",musicstore:"€99.00",andertons:"£74.00"},pbCur:{us:"$99.00",uk:"£78.79"}},
 1033: {prices:{pluginboutique:"€503.19"},pbCur:{us:"$499.00",uk:"£397.15"}},
-1034: {prices:{pluginboutique:"€523.36",gear4music:"£379.00",andertons:"£319.00",zzounds:"$519.00",musicstore:"€439.00"},pbCur:{us:"$519.00",uk:"£413.07"}},
+1034: {prices:{pluginboutique:"€442.65",gear4music:"£379.00",andertons:"£319.00",zzounds:"$519.00",musicstore:"€439.00"},pbCur:{us:"$438.96",uk:"£349.37"}},
 1035: {prices:{pluginboutique:"€216.59",gear4music:"£155.00"},pbCur:{us:"$214.79",uk:"£170.95"}},
 1036: {prices:{pluginboutique:"€325.49",gear4music:"£250.00"},pbCur:{us:"$322.78",uk:"£256.90"}},
 
