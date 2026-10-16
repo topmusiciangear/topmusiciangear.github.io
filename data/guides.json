@@ -76683,12 +76683,45 @@
         "products": [
           1038
         ]
+      },
+      {
+        "heading": "Pro-Q 4: The Surgical EQ Every Mix Needs",
+        "heading_es": "Pro-Q 4: El EQ Quirúrgico Que Toda Mezcla Necesita",
+        "products": [
+          62
+        ],
+        "content": "<p><strong>Pro-Q 4 is the EQ other EQs get measured against.</strong> Twenty-four bands, per-band dynamic mode, linear-phase operation and a spectrum analyzer that shows what you are cutting before you touch it. From high-passing mud to notching resonances to gentle mastering air, one instance replaces three plugins.</p><p>If the Total Bundle is more than you need, this single purchase covers EQ for mixing and mastering. It is the most-bought plugin in this guide for a reason: nobody outgrows it.</p>",
+        "content_es": "<p><strong>Pro-Q 4 es el EQ contra el que se miden los demás.</strong> Veinticuatro bandas, modo dinámico por banda, operación de fase lineal y un analizador que muestra lo que cortas antes de tocarlo. Desde limpiar graves con pasa-altos hasta recortar resonancias o dar aire en mastering, una instancia reemplaza tres plugins.</p><p>Si el Total Bundle es más de lo que necesitas, esta sola compra cubre el EQ de mezcla y mastering. Es el plugin más vendido de esta guía por algo: nadie lo supera con el tiempo.</p>",
+        "pros": [
+          "24 bands with per-band dynamic mode",
+          "Linear-phase operation for mastering",
+          "Spectrum analyzer shows problems first",
+          "Replaces three EQ plugins in one"
+        ],
+        "pros_es": [
+          "24 bandas con modo dinámico por banda",
+          "Fase lineal para mastering",
+          "El analizador muestra problemas primero",
+          "Reemplaza tres EQs en uno"
+        ],
+        "cons": [
+          "No analog color or saturation",
+          "Feature depth overwhelms beginners",
+          "No bundle discount when bought alone",
+          "Interface rewards precision over speed"
+        ],
+        "cons_es": [
+          "Sin color analógico ni saturación",
+          "La profundidad abruma a principiantes",
+          "Sin descuento de bundle al comprar solo",
+          "La interfaz premia precisión sobre velocidad"
+        ]
       }
     ],
     "conclusion": "Start with Ozone 12 Advanced for mastering that sounds professional out of the gate, and add the FabFilter Total Bundle for the most advanced mixing tools available. For punch and character on individual tracks, the UA 1176 Classic Limiter Collection adds the energy of the most famous analog compressor ever made. Then finish the modern chain with three focused tools: Smooth Operator Pro to remove resonant harshness in seconds, bx_clipper for transparent loudness, and REFERENCE 3 to check your mix against commercial references. Together they form a complete mixing and mastering toolkit that handles any project. <p><a href=\"/guides/best-plugins.html\" class=\"guide-link-btn\">Best Mixing Plugins That Make a Real Difference</a> <a href=\"/guides/channel-strip-plugins.html\" class=\"guide-link-btn\">Best Channel Strip & Console Emulation Plugins</a> <a href=\"/guides/fx-plugins.html\" class=\"guide-link-btn\">Best Creative Effects Plugins</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Selected Plugin Boutique purchases include a free gift — choose from a selection based on your spending level <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></span>",
     "conclusion_es": "Empieza con Ozone 12 Advanced para masterización que suena profesional desde el principio y añade el FabFilter Total Bundle con las herramientas de mezcla más avanzadas disponibles. Para punch y carácter en pistas individuales, la Colección UA 1176 Classic Limiter aporta la energía del compresor analógico más famoso jamás creado. Y completa la cadena moderna con tres herramientas enfocadas: Smooth Operator Pro para eliminar resonancias duras en segundos, bx_clipper para sonoridad transparente y REFERENCE 3 para comparar tu mezcla con referencias comerciales. Juntas forman un kit completo de mezcla y masterización para cualquier proyecto. <p>También te interesa: <a href=\"/guides/best-plugins_es.html\" class=\"guide-link-btn\">Mejores plugins para producción musical: guía completa</a> <a href=\"/guides/channel-strip-plugins_es.html\" class=\"guide-link-btn\">Emulación analógica en el DAW: mejores plugins channel strip</a> <a href=\"/guides/fx-plugins_es.html\" class=\"guide-link-btn\">Mejores plugins de efectos creativos para producción</a></p> <span style=\"color:#f59e0b;font-size:13px\">Ciertas compras en Plugin Boutique incluyen un regalo gratuito — elige entre una selección según cuánto gastes <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a></span>",
-    "verdict": "FabFilter Total Bundle is the precision toolset for surgical mixing and mastering. Add Smooth Operator Pro to tame resonant harshness, bx_clipper to push loudness without pumping, and REFERENCE 3 to check the mix against commercial references — a complete, modern chain.",
-    "verdict_es": "FabFilter Total Bundle es el conjunto de precisión para mezcla y masterización quirúrgica. Añade Smooth Operator Pro para domar resonancias duras, bx_clipper para ganar sonoridad sin bombeo, y REFERENCE 3 para comparar la mezcla con referencias comerciales — una cadena moderna y completa.",
+    "verdict": "FabFilter Total Bundle is the precision toolset for surgical mixing and mastering. Add Smooth Operator Pro to tame resonant harshness, bx_clipper to push loudness without pumping, and REFERENCE 3 to check the mix against commercial references — a complete, modern chain. Pro-Q 4 on its own covers all EQ duties for a fraction of the bundle.",
+    "verdict_es": "FabFilter Total Bundle es el conjunto de precisión para mezcla y masterización quirúrgica. Añade Smooth Operator Pro para domar resonancias duras, bx_clipper para ganar sonoridad sin bombeo, y REFERENCE 3 para comparar la mezcla con referencias comerciales — una cadena moderna y completa. Pro-Q 4 por sí solo cubre todo el EQ por una fracción del bundle.",
     "featuredProducts": [
       30,
       29,
@@ -76696,7 +76729,8 @@
       472,
       473,
       474,
-      1038
+      1038,
+      62
     ],
     "relatedGuides": [
       "fabfilter-vs-ozone",
@@ -76808,6 +76842,10 @@
         {
           "title": "NUGEN Audio ISL 2st",
           "title_es": "NUGEN Audio ISL 2st"
+        },
+        {
+          "title": "FabFilter Pro-Q 4",
+          "title_es": "FabFilter Pro-Q 4"
         }
       ],
       "rows": [
@@ -76842,6 +76880,10 @@
             {
               "value": "True-peak limiting for broadcast and streaming",
               "value_es": "Limitación de picos verdaderos para broadcast y streaming"
+            },
+            {
+              "value": "Surgical EQ for mixing & mastering",
+              "value_es": "EQ quirúrgico para mezcla y mastering"
             }
           ]
         },
@@ -76876,6 +76918,10 @@
             {
               "value": "True-peak limiter",
               "value_es": "Limitador de picos verdaderos"
+            },
+            {
+              "value": "Dynamic/parametric EQ",
+              "value_es": "EQ paramétrico/dinámico"
             }
           ]
         },
@@ -76883,6 +76929,10 @@
           "label": "Format",
           "label_es": "Formato",
           "values": [
+            {
+              "value": "VST2/VST3/AU/AAX",
+              "value_es": "VST2/VST3/AU/AAX"
+            },
             {
               "value": "VST2/VST3/AU/AAX",
               "value_es": "VST2/VST3/AU/AAX"
@@ -76944,6 +76994,10 @@
             {
               "value": "macOS & Windows",
               "value_es": "macOS y Windows"
+            },
+            {
+              "value": "macOS & Windows",
+              "value_es": "macOS y Windows"
             }
           ]
         },
@@ -76978,6 +77032,10 @@
             {
               "value": "iLok",
               "value_es": "iLok"
+            },
+            {
+              "value": "License file",
+              "value_es": "Archivo de licencia"
             }
           ]
         },
@@ -77012,6 +77070,10 @@
             {
               "value": "Low",
               "value_es": "Baja"
+            },
+            {
+              "value": "Ultra-low",
+              "value_es": "Ultrabaja"
             }
           ]
         },
@@ -77046,6 +77108,10 @@
             {
               "value": "Inter-sample peak detection",
               "value_es": "Detección de picos entre muestras"
+            },
+            {
+              "value": "24 bands + dynamic EQ + linear phase",
+              "value_es": "24 bandas + EQ dinámico + fase lineal"
             }
           ]
         }
@@ -77247,6 +77313,34 @@
         ],
         "name": "NUGEN Audio ISL 2st",
         "name_es": "NUGEN Audio ISL 2st"
+      },
+      {
+        "name": "FabFilter Pro-Q 4",
+        "name_es": "FabFilter Pro-Q 4",
+        "pros": [
+          "Surgical 24-band EQ",
+          "Dynamic mode per band",
+          "Linear phase + analyzer",
+          "One EQ for mix and master"
+        ],
+        "pros_es": [
+          "EQ quirúrgico de 24 bandas",
+          "Modo dinámico por banda",
+          "Fase lineal + analizador",
+          "Un EQ para mezcla y master"
+        ],
+        "cons": [
+          "No analog color",
+          "Deep for beginners",
+          "No bundle discount",
+          "Precision over speed"
+        ],
+        "cons_es": [
+          "Sin color analógico",
+          "Profundo para principiantes",
+          "Sin descuento bundle",
+          "Precisión sobre velocidad"
+        ]
       }
     ],
     "datePublished": "2026-03-01"
