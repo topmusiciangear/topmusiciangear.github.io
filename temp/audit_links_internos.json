@@ -1,19 +1,6 @@
 {
- "rotos": [
-  "best-guitar-home-office -> /guides/best-guitar (NO EXISTE)  texto: \"Best Electric Guitars\"",
-  "best-guitar-home-office -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Best Grooveboxes\"",
-  "best-guitar-home-office -> /guides/best-guitar (NO EXISTE)  texto: \"Mejores Guitarras Eléctricas\"",
-  "best-guitar-home-office -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Mejores Grooveboxes\"",
-  "digitakt-ii-vs-tr8s -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Best Grooveboxes & Compact Drum Machines\"",
-  "digitakt-ii-vs-tr8s -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Mejores Grooveboxes y Máquinas de Batería Compactas\"",
-  "pro-drum-machines -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Best Grooveboxes & Compact Drum Machines\"",
-  "pro-drum-machines -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Mejores Grooveboxes y Máquinas de Batería Compactas\"",
-  "beat-making -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Best Grooveboxes & Compact Drum Machines\"",
-  "beat-making -> /guides/best-grooveboxes (slug fuera de guides.json, solo stub)  texto: \"Mejores Grooveboxes y Máquinas de Batería Compactas\""
- ],
- "viejos": [
-  "budget-mics -> budget-usb-mics  texto viejo: \"13 Best Budget USB Microphones\"  actual: \"Best Budget USB Mics Under $110 (Pros & Cons)\""
- ],
+ "rotos": [],
+ "viejos": [],
  "distintos": [
   "best-interface -> budget-interfaces  texto: \"Best audio interfaces under $300\"  vs titulo: \"Best Audio Interface Under $300\"",
   "best-interface -> budget-interfaces  texto: \"Best budget interfaces\"  vs titulo: \"Best Audio Interface Under $300\"",
@@ -903,7 +890,6 @@
   "best-stage-keyboards -> best-keyboard  texto: \"Mejores teclados: piano, synth y MIDI\"  vs titulo: \"Mejores teclados y controladores MIDI: piano, synth y DAW\""
  ],
  "sinLinks": [
-  "starter-studio",
   "best-drum-machine",
   "best-samplers-drum-computers",
   "compact-rhythm-devices",
