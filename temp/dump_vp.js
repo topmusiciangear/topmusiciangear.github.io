@@ -1,0 +1,11 @@
+const guides = require('C:/Users/Daniel/projects/topmusiciangear/data/guides.json');
+const g = guides.find(x => x.id === 'vocal-plugins');
+console.log('KEYS: ' + Object.keys(g).join(','));
+console.log('TITLE: ' + g.title + ' (' + g.title.length + ')');
+console.log('SECCIONES:');
+g.sections.forEach((s, i) => console.log(' ' + i + '. ' + s.heading + ' | products=' + JSON.stringify(s.products)));
+console.log('FEATURED: ' + JSON.stringify(g.featuredProducts));
+console.log('VPC: ' + g.verdictProsCons.map(v => v.name).join(' | '));
+console.log('TABLE cols: ' + g.productTable.columns.map(c => c.title).join(' | '));
+console.log('TABLE rows: ' + g.productTable.rows.map(r => r.label).join(' | '));
+console.log('FAQ: ' + g.faq.length);
