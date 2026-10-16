@@ -1,0 +1,11 @@
+const fs = require('fs');
+const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
+const g = JSON.parse(fs.readFileSync(F, 'utf8'));
+const gg = g.find(x => x.id === 'tracking-headphones');
+let S = JSON.stringify(gg);
+const de = '</p><p>Los modales para grabar son impecables: copas giratorias de 90 grados para monitoreo a una oreja';
+console.log(S.includes(de) ? 'encontrado' : 'FALLA');
+S = S.split(de).join('</p><p>El comportamiento grabando es impecable: copas giratorias de 90 grados para monitorización a una oreja');
+g[g.indexOf(gg)] = JSON.parse(S);
+fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
+console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
