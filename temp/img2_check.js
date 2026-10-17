@@ -1,0 +1,2 @@
+fetch('https://banners.pluginboutique.com/ptnotkmxcgncqbh5xzau13vw5bje', { method: 'HEAD' }).then(r => console.log('foto Meldway: ' + r.status + ' | ' + r.headers.get('content-type'))).catch(e => console.log('foto ERROR: ' + e.message));
+fetch('https://r2.gear4music.com/media/121/1211824/1200/preview.jpg', { method: 'HEAD' }).then(r => console.log('foto VColl: ' + r.status + ' | ' + r.headers.get('content-type'))).catch(e => console.log('foto ERROR: ' + e.message));

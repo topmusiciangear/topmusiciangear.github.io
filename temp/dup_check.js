@@ -1,0 +1,20 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
+console.log('total entradas: ' + products.length);
+const ids = products.map(p => p.id);
+const byId = {};
+ids.forEach(i => (byId[i] = (byId[i] || 0) + 1));
+const dupIds = Object.keys(byId).filter(i => byId[i] > 1);
+console.log('ids duplicados: ' + (dupIds.length ? dupIds.join(', ') : 'ninguno'));
+const byTitle = {};
+products.forEach(p => { const k = (p.brand || '') + '|' + (p.title || ''); (byTitle[k] = byTitle[k] || []).push(p.id); });
+const dupT = Object.keys(byTitle).filter(k => byTitle[k].length > 1);
+console.log('mismo brand+titulo duplicado: ' + dupT.length);
+dupT.forEach(k => console.log('  ' + k + ' -> ids ' + byTitle[k].join(', ')));
+console.log('\n--- detalle 1013/1014/1015 ---');
+[1013, 1014, 1015].forEach(id => {
+  const all = products.filter(p => p.id === id);
+  console.log(id + ': ' + all.length + ' entrada(s)');
+  all.forEach(p => console.log('   img=' + p.image + ' | stores=' + Object.keys(p.stores || {}).join(',') + ' | precio=' + p.price));
+});
