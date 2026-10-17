@@ -32,6 +32,11 @@ const euFlagEnd = src.indexOf('\n}', src.indexOf('function euFlag'));
 const euFlagEnd2 = src.indexOf('\n}', euFlagEnd + 3);
 const flagFuncs = src.substring(flagStart, euFlagEnd2 + 2);
 
+// Extract searchTerm function (nombre exacto para los buscadores de tienda)
+const searchTermStart = src.indexOf('function searchTerm(');
+const searchTermEnd = src.indexOf('\nfunction ', searchTermStart + 10);
+const searchTermFn = src.substring(searchTermStart, searchTermEnd);
+
 // Extract shortTitle function
 const shortTitleStart = src.indexOf('function shortTitle(');
 const shortTitleEnd = src.indexOf('\nfunction ', shortTitleStart + 10);
@@ -171,6 +176,8 @@ ${rowFontBlock}
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 
 ${btnBlock}
+
+${searchTermFn}
 
 ${shortTitleFn}
 

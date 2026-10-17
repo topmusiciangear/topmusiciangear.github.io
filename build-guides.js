@@ -273,6 +273,15 @@ function wrapAffiliate(storeKey, url) {
   return url;
 }
 
+// Nombre EXACTO del producto para los buscadores de cada tienda (regla del usuario:
+// nunca acortar el nombre; que se muestre tal cual lo escribimos, exista o no en la tienda).
+// Solo se retira el sufijo de unidad ("(Pair)", "(Each)") porque las tiendas no lo indexan.
+function searchTerm(title) {
+  const t = String(title || '').trim();
+  const limpio = t.replace(/\s*\((each|pair|set|2 headsets?)\)\s*$/i, '').trim();
+  return limpio || t;
+}
+
 function shortTitle(title) {
   const removeWords = ['Desktop','Modeling','Model','Amp','Microphone','Mic','Condenser','Dynamic',
     'Shotgun','Supercardioid','Cardioid','Headphones','Headphone','Over-Ear','On-Ear','In-Ear',
@@ -323,14 +332,14 @@ function getResolvedStores(product) {
     const specificUrl = product.stores[key];
     if (specificUrl) {
       if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
-        s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(shortTitle(product.title))}`;
+        s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(searchTerm(product.title))}`;
       } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
         s[key] = (product.amazonNotag || specificUrl.includes('tag=topmusicg-20')) ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
       } else {
         s[key] = specificUrl;
       }
     } else if (!isMacOnly && key !== 'amazon' && searchUrls[key]) {
-      s[key] = searchUrls[key](shortTitle(product.title));
+      s[key] = searchUrls[key](searchTerm(product.title));
     }
   });
   if (product.stores.hollyland) {
@@ -5952,7 +5961,7 @@ const TEST_SHOP_BTN = {
 1019: {prices:{pluginboutique:"€240.79",musicstore:"€229.00",andertons:"£189.00",zzounds:"$299.00"},pbCur:{us:"$238.78",uk:"£190.05"}},
 1020: {prices:{pluginboutique:"€131.08"},pbCur:{us:"$129.99",uk:"£103.46"}},
 1021: {prices:{pluginboutique:"€49.40",gear4music:"£73.00",zzounds:"$79.00",andertons:"£70.00",musicstore:"€77.00"},pbCur:{us:"$48.99",uk:"£38.99"}},
-1022: {prices:{pluginboutique:"€70.58"},pbCur:{us:"$69.99",uk:"£55.71"}},
+1022: {prices:{pluginboutique:"€64.00"},pbCur:{us:"$63.47",uk:"£50.51"}},
 1023: {prices:{pluginboutique:"€59.50"},pbCur:{us:"$59.00",uk:"£46.96"}},
 1025: {prices:{pluginboutique:"€442.00",gear4music:"£389.00",andertons:"£389.00",musicstore:"€429.00"},pbCur:{us:"$438.32",uk:"£348.86"}},
 1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£102.67"}},
@@ -6031,14 +6040,14 @@ function shopButtonsTest(p, lang) {
   const naList = cfg.na || [];
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
-  const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(p.title)));
+  const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(searchTerm(p.title))));
   const storeSearch = {
-    zzounds: () => 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || '').replace(/%20/g, '+'),
-    amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || '').replace(/%20/g, '+') + '&tag=topmusicg-20',
+    zzounds: () => 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title)).replace(/%20/g, '+'),
+    amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title)).replace(/%20/g, '+') + '&tag=topmusicg-20',
     reverb: () => revUrl,
-    gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(p.title || ''),
-    andertons: () => 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(p.title || ''),
-    musicstore: () => 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(p.title || '')
+    gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(searchTerm(p.title)),
+    andertons: () => 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(searchTerm(p.title)),
+    musicstore: () => 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(searchTerm(p.title))
   };
   const isPlugins = p.category === 'plugins';
   const storeHome = {
@@ -6073,9 +6082,9 @@ function shopButtonsTest(p, lang) {
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check price'));
-  const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+');
-  const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(p.title || p.name || '').replace(/%20/g, '+') + '&tag=topmusicg-20';
-  var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(p.title || '') + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
+  const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
+  const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
+  var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
   var hollyAttrs = '';
