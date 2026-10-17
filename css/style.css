@@ -2028,7 +2028,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-rating-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 8px;
   margin-bottom: 4px;
 }

@@ -394,8 +394,7 @@ function productRatingLine(p, lang) {
   const st = reviewStats(p.id);
   const word = st ? (lang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews')) : '';
   const ratingHtml = st ? `<span class="guide-product-card-rating">${reviewStars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
-  const btnLabel = lang === 'es' ? 'Escribe una reseña' : 'Write a review';
-  return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
+  return `<div class="guide-product-card-rating-row">${ratingHtml}</div>`;
 }
 
 let CURRENT_GUIDE_CAT = null;
@@ -6026,6 +6025,7 @@ function shopButtonsTest(p, lang) {
   const hollyPick = hollyPickEntry(cfg, hollyRegion);
   const dawHasAmazon = isDaw && !isLogic && prices.amazon;
   const t = (es, en) => lang === 'es' ? es : en;
+  const starSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#FFC107" style="flex-shrink:0"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L374 150.2 308.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>';
   const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
   const chevSvg = '<svg viewBox="0 0 512 512" width="1.1em" height="1.1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease;margin-top:2px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
   const order = isLogic ? [] : (dawHasAmazon ? ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore'] : isDaw ? ['zzounds', 'reverb', 'andertons', 'musicstore'] : ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore']);
@@ -6133,6 +6133,14 @@ function shopButtonsTest(p, lang) {
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
   }).join('');
+  // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
+  // rows para que quede SIEMPRE después de todas las tiendas.
+  const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
+    'style="width:100%;box-sizing:border-box;flex:none;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;' +
+    'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
+    'border:none;cursor:pointer;transition:background .2s ease;margin-top:2px" ' +
+    'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
+    starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a review') + '</span></button>';
   const rowCount = order.filter(k => k !== primaryStoreKey).length;
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
@@ -6141,8 +6149,8 @@ function shopButtonsTest(p, lang) {
     'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' more stores') + chevSvg + '</span></span>' + '</button>' +
-    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>';
-  return isLogic ? primaryBtn : primaryBtn + moreBtn;
+    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + reviewRow + '</div>';
+  return isLogic ? primaryBtn + reviewRow : primaryBtn + moreBtn;
 }
 
 function productCard(p, lang) {

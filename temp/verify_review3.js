@@ -1,0 +1,12 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-piano-keyboard-vsts.html', 'utf8');
+const i = h.indexOf('shop-btn-review');
+console.log('idx: ' + i);
+const start = h.lastIndexOf('shop-more-list', i);
+const seg = h.slice(start, i + 300);
+const rev = seg.indexOf('shop-btn-review');
+const lastStore = seg.lastIndexOf('shop-wm');
+const stores = (seg.match(/data-store="[a-z]+"/g) || []);
+console.log('tiendas en el desplegable: ' + stores.join(', '));
+console.log('pos resena=' + rev + ' | pos ultima tienda=' + lastStore + ' => ' + (rev > lastStore ? 'AL FINAL (correcto)' : 'REVISAR'));
+console.log('\n' + seg.slice(Math.max(0, rev - 60), rev + 280).replace(/\s+/g, ' '));

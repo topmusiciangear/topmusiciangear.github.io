@@ -708,8 +708,7 @@ function productRatingLine(p) {
   const isEs = currentLang === 'es';
   const word = st ? (isEs ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews')) : '';
   const ratingHtml = st ? `<span class="guide-product-card-rating">${reviewStars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
-  const btnLabel = isEs ? 'Escribe una reseña' : 'Write a review';
-  return `<div class="guide-product-card-rating-row">${ratingHtml}<button class="guide-review-write-btn" onclick="openReviewModal(${p.id})">${btnLabel}</button></div>`;
+  return `<div class="guide-product-card-rating-row">${ratingHtml}</div>`;
 }
 
 function renderProductCard(id) {
