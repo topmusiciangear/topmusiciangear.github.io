@@ -1,25 +1,40 @@
 const fs = require('fs');
-const F = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
-const g = JSON.parse(fs.readFileSync(F, 'utf8'));
-const gg = g.find(x => x.id === 'pro-basses');
-let S = JSON.stringify(gg);
-let n = 0; const fallos = [];
-function swap(de, a) {
-  if (!S.includes(de)) { fallos.push(de.slice(0, 70)); return; }
-  n += S.split(de).length - 1;
-  S = S.split(de).join(a);
-}
-swap('El clásico golpe P-Bass contra la articulación moderna y agresiva del StingRay.',
-  'El clásico golpe P-Bass contra la articulación moderna y agresiva del StingRay.');
-swap('y el puente HiMass suma sustain y una entonación rocosa.', 'y el puente HiMass suma sustain y una entonación sólida como una roca.');
-swap('el mástil de arce tostado se siente estable y rodado, y la pastilla', 'el mástil de arce tostado se siente estable y suave, y la pastilla');
-swap('Vigila la rutina de la pila, la ganancia del previo y el balance con correa con el cuerpo ligero.',
-  'Vigila el estado de la pila, la ganancia del previo y el equilibrio con correa con el cuerpo ligero.');
-swap('>Las Mejores Guitarras Fender para Cada Género</a>', '>Las mejores guitarras Fender para cada género</a>');
-swap('>P-Bass vs J-Bass</a>', '>P-Bass vs J-Bass: ¿cuál bajo Fender es el tuyo?</a>');
-swap('>Los Mejores Bajos Fender para Cada Género</a>', '>Los mejores bajos Fender para cada género</a>');
-g[g.indexOf(gg)] = JSON.parse(S);
-fs.writeFileSync(F, JSON.stringify(g, null, 2) + '\n', 'utf8');
-console.log('\naplicados: ' + n + '  fallos: ' + fallos.length);
-fallos.forEach(f => console.log('  FALLA: ' + f));
-console.log('mojibake: ' + (fs.readFileSync(F, 'utf8').match(/â‚¬|Â£|Â°/g) || []).length);
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const vivos = JSON.parse(fs.readFileSync(B + 'temp/pb_precios_vivos.json', 'utf8'));
+const eur = v => (v / 1.0084).toFixed(2);
+const gbp = v => ((v / 1.0084) * 0.7959).toFixed(2);
+const norm = s => parseFloat(String(s).replace(/[^0-9.]/g, ''));
+
+let bg = fs.readFileSync(B + 'build-guides.js', 'utf8');
+const log = [];
+
+vivos.forEach(v => {
+  if (!v.actual) return;
+  const obj = norm(v.actual);
+  if (obj === norm(v.nuestro)) return;
+  const re = new RegExp('((?:^|\\n)\\s*' + v.id + ': \\{prices:\\{)([^\\n]*)');
+  const m = bg.match(re);
+  if (!m) { log.push(v.id + ': entrada no localizada'); return; }
+  const resto = m[2];
+  // sustituye el precio de PB
+  let nuevoResto = resto.replace(/pluginboutique:"[^"]+"/, 'pluginboutique:"\u20AC' + obj.toFixed(2) + '"');
+  // sustituye us/uk dentro de pbCur
+  nuevoResto = nuevoResto.replace(/pbCur:\{us:"[^"]+",uk:"[^"]+"\}/, 'pbCur:{us:"$' + eur(obj) + '",uk:"\u00A3' + gbp(obj) + '"}');
+  const nuevoBloque = m[1] + nuevoResto;
+  bg = bg.replace(m[0], nuevoBloque);
+  log.push(v.id + ' | ' + v.nombre + ': ' + v.nuestro + ' -> \u20AC' + obj.toFixed(2) +
+    (v.badge ? '  [' + v.badge + ']' : '  (redondeo)') + '  US $' + eur(obj) + ' / \u00A3' + gbp(obj));
+});
+
+fs.writeFileSync(B + 'build-guides.js', bg, 'utf8');
+console.log('precios PB actualizados: ' + log.length + '\n');
+log.forEach(l => console.log('  ' + l));
+
+// verificacion: releer el mapa
+const check = fs.readFileSync(B + 'build-guides.js', 'utf8');
+console.log('\n--- verificacion ---');
+vivos.forEach(v => {
+  if (!v.actual) return;
+  const m = check.match(new RegExp('(?:^|\\n)\\s*' + v.id + ': \\{prices:\\{[^\\n]*'));
+  console.log('  ' + v.id + ': ' + (m ? m[0].replace(/^\n/, '').trim().slice(0, 120) : 'NO'));
+});

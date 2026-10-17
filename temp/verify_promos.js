@@ -1,0 +1,13 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const h = fs.readFileSync(B + 'guides/best-guitar-plugins.html', 'utf8');
+const g = k => (h.slice(h.indexOf('guide-product-card-title">Universal Audio UAD Sound City Studios'), h.indexOf('guide-product-card-title">Universal Audio UAD Sound City Studios') + 2600).match(new RegExp('data-pb-' + k + '-p="([^"]*)"')) || [])[1];
+console.log('UAD boton: eu=' + g('eu') + ' us=' + g('us') + ' uk=' + g('uk'));
+console.log('precio viejo 251 fuera: ' + (!h.includes('data-pb-eu-p="€251"')));
+const m = fs.readFileSync(B + 'guides/best-midi-theory-plugins.html', 'utf8');
+const p2 = (nombre, k) => { const i = m.indexOf('guide-product-card-title">' + nombre); return (m.slice(i, i + 2400).match(new RegExp('data-pb-' + k + '-p="([^"]*)"')) || [])[1]; };
+console.log('Riffer 4 : eu=' + p2('Audiomodern Riffer 4', 'eu'));
+console.log('PitchMap : eu=' + p2('Zynaptiq PitchMap', 'eu'));
+console.log('LoopEng  : eu=' + p2('W.A. Production Loop Engine 3', 'eu'));
+const sb = fs.readFileSync(B + 'js/shop-buttons.js', 'utf8');
+['1009', '1011', '1012', '1021', '1023'].forEach(id => console.log('mapa ' + id + ': ' + (sb.match(new RegExp('\\n' + id + ': \\{prices:\\{[^\\n]*')) || [''])[0].trim()));

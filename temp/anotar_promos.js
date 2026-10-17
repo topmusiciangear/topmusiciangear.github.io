@@ -1,0 +1,15 @@
+const fs = require('fs');
+const p = 'C:/Users/Daniel/projects/topmusiciangear/AGENTS.md';
+let s = fs.readFileSync(p, 'utf8');
+const marcador = '**Promos vigentes al 30/09/2026**';
+const extra = '\n\n### 🔥 OFERTAS DE PLUGIN BOUTIQUE VIGENTES (verificadas en vivo el 17/10/2026)\n\n**Plugin Boutique ES accesible con fetch normal** (200 OK, sin Cloudflare): la página trae el precio\nen el bloque `otpPrice`. El importes **sin `line-through`** es el que paga el visitante; el que\nlleva `line-through` es el precio de lista. El distintivo verde indica el descuento y la fecha:\n```\n<span ...>€49.40</span><span ... line-through>€251.08</span>\n<p ...>80% off until Oct 31</p>\n```\n\n**REGLA:** en `TEST_SHOP_BTN` se guarda SIEMPRE el precio **con la promo aplicada** (lo que PB\nmuestra), NUNCA el precio de lista tachado. Si el botón muestra €251 y el visitante ve €49,40,\npierde la confianza y el click. Script reutilizable: `node temp/pb_verificar_todos.js` (recorre\nlos productos con PB y devuelve `nuestro` vs `PB actual` vs `PB lista` vs distintivo de oferta).\n\n| id | producto | precio en promo | lista | fin de oferta | US | UK |\n|---|---|---|---|---|---|---|\n| 1009 | W.A. Production Loop Engine 3 | €20.06 | €130.08 | **18 oct 2026** | $19.89 | £15.83 |\n| 1012 | Zynaptiq PitchMap | €83.70 | €173.03 | **25 oct 2026** | $83.00 | £66.06 |\n| 1021 | Universal Audio UAD Sound City Studios | €49.40 | €251.08 | **31 oct 2026** | $48.99 | £38.99 |\n| 1023 | Softube Amp Room Marshall Suite | €59.50 | €150.25 | **1 nov 2026** | $59.00 | £46.96 |\n| 1011 | Audiomodern Riffer 4 | €49.40 | €69.58 | **30 nov 2026** | $48.99 | £38.99 |\n\n**Al vencer cada oferta hay que volver a poner el precio de lista** en `TEST_SHOP_BTN`, o el\nbotón anunciará un precio que ya no existe. Los precios de lista restaurar son: 1009 = €130.08,\n1012 = €173.03, 1021 = €251.08, 1023 = €150.25, 1011 = €69.58 (y recalcular `pbCur` con las fórmulas).\n\n**Ojo con el precio de catálogo:** `data/products.json.price` es la lista oficial del fabricante y\nNO se toca por una promo de tienda. Si una promo deja el botón muy por debajo de la lista, el\ntexto de la guía que cite la lista debe aclararlo ("en oferta hasta el X"), pero nunca reescribir\nel precio de lista como si fuera el actual.\n';
+if (s.indexOf('OFERTAS DE PLUGIN BOUTIQUE VIGENTES') > -1) { console.log('ya estaba anadido'); process.exit(0); }
+const i = s.indexOf(marcador);
+if (i < 0) { console.log('marcador no encontrado'); process.exit(1); }
+// insertar justo despues del parrafo que contiene el marcador (fin del bloque de esa linea/seccion)
+const finLinea = s.indexOf('\n', i);
+// insertar tras la linea completa
+const ins = finLinea > -1 ? finLinea + 1 : s.length;
+s = s.slice(0, ins) + extra.replace(/^\n\n/, '\n') + s.slice(ins);
+fs.writeFileSync(p, s, 'utf8');
+console.log('AGENTS.md: bloque de ofertas PB anadido');
