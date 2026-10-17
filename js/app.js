@@ -541,6 +541,28 @@ function renderGuideCats() {
   }
 }
 
+// Orden de las guias en la home: primero la guia de starter, despues agrupadas
+// por categoria siguiendo el orden de las sesiones (categoryInfo).
+const GUIDE_PINNED_FIRST = ["starter-studio"];
+const GUIDE_CATEGORY_ORDER = ["microphones", "guitars", "basses", "strings", "keyboards",
+  "interfaces", "in_ear_monitors", "monitors", "headphones", "drum-machine", "plugins",
+  "tres", "accessories", "amps", "pedals", "live_sound", "mixers", "daw", "streaming",
+  "production"];
+
+function guideSortRank(g) {
+  const pin = GUIDE_PINNED_FIRST.indexOf(g.id);
+  if (pin > -1) return -1000 + pin;
+  const c = GUIDE_CATEGORY_ORDER.indexOf(g.category);
+  return c > -1 ? c : 999;
+}
+
+function sortGuidesSessionOrder(list) {
+  return list
+    .map((g, i) => ({ g, i, r: guideSortRank(g) }))
+    .sort((a, b) => a.r - b.r || a.i - b.i)
+    .map(x => x.g);
+}
+
 function getFilteredGuides() {
   let filtered = [...guides];
   if (currentCategory !== "all") {
@@ -567,7 +589,7 @@ function getFilteredGuides() {
       });
     });
   }
-  return filtered;
+  return sortGuidesSessionOrder(filtered);
 }
 
 function shortTitle(title) {
