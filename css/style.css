@@ -2033,6 +2033,25 @@ footer ul li a:hover { color: var(--accent); }
   margin-bottom: 4px;
 }
 
+/* Nombre del producto + estrellas de reviews en la misma linea */
+.guide-product-card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.guide-product-card-title-row .guide-product-card-title {
+  margin-bottom: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.guide-product-card-title-row .guide-product-card-rating-row {
+  margin-bottom: 0;
+  flex: 0 0 auto;
+}
+
 .guide-product-card-rating {
   font-size: 13px;
   color: #f59e0b;

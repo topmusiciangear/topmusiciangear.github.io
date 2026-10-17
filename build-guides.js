@@ -6136,7 +6136,7 @@ function shopButtonsTest(p, lang) {
   // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
   // rows para que quede SIEMPRE después de todas las tiendas.
   const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
-    'style="width:100%;box-sizing:border-box;flex:none;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;' +
+    'style="width:100%;box-sizing:border-box;flex:none;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 16px;min-height:40px;' +
     'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
     'border:none;cursor:pointer;transition:background .2s ease;margin-top:2px" ' +
     'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
@@ -6161,8 +6161,10 @@ function productCard(p, lang) {
   return `<div class="guide-product-card">
     <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button></div>
     <div class="guide-product-card-body">
-      ${productRatingLine(p, lang)}
-      <h3 class="guide-product-card-title">${title}</h3>
+      <div class="guide-product-card-title-row">
+        <h3 class="guide-product-card-title">${title}</h3>
+        ${productRatingLine(p, lang)}
+      </div>
             <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
       <div class="guide-product-card-stores">${stores}</div>
     </div>
