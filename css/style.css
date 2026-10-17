@@ -2108,41 +2108,17 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-desc-wrap {
   position: relative;
 }
+/* 3 lineas de info como maximo, sin boton de expandir */
 .guide-product-card-desc {
   font-size: 12px;
   color: var(--text-muted);
   line-height: 1.5;
-  max-height: 3em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  padding-right: 1.5em;
-}
-.guide-product-card-desc.expanded {
-  max-height: none;
   padding-right: 0;
-}
-.guide-product-card-desc-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--accent);
-  padding: 0 4px;
-  line-height: 1.5;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  opacity: .7;
-  transition: opacity .15s;
-}
-.guide-product-card-desc-toggle:hover {
-  opacity: 1;
-}
-.guide-product-card-desc.expanded ~ .guide-product-card-desc-toggle {
-  position: static;
-  display: block;
-  width: 100%;
-  text-align: center;
 }
 
 .guide-product-card-stores {

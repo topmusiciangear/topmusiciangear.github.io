@@ -6165,7 +6165,7 @@ function productCard(p, lang) {
         <h3 class="guide-product-card-title">${title}</h3>
         ${productRatingLine(p, lang)}
       </div>
-            <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div><button class="guide-product-card-desc-toggle" onclick="var w=this.parentElement;var d=w.querySelector('.guide-product-card-desc');d.classList.toggle('expanded');this.textContent=d.classList.contains('expanded')?'\u2212':'+'">+</button></div>
+            <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div></div>
       <div class="guide-product-card-stores">${stores}</div>
     </div>
   </div>`;
@@ -6895,7 +6895,7 @@ ${ogMeta}
 
       ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué productos hay en esta guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
       ${userReviewsSection(guide, isEs)}
-      <script>setTimeout(function(){document.querySelectorAll('.guide-product-card-desc').forEach(function(e){var b=e.nextElementSibling;if(b&&b.classList.contains('guide-product-card-desc-toggle')&&e.scrollHeight<=e.clientHeight)b.remove()});document.querySelectorAll('.guide-comp-wrap').forEach(function(w){var s=w.querySelector('.guide-comp-scroll');if(!s)return;if(s.scrollWidth<=s.clientWidth+1){w.querySelectorAll('.guide-comp-controls').forEach(function(c){c.style.display='none'})}});document.querySelectorAll('.guide-comp-scroll').forEach(function(s){function upd(){var w=s.closest('.guide-comp-wrap');if(!w)return;var max=s.scrollWidth-s.clientWidth;var pct=max>0?(s.scrollLeft/max*100):0;w.querySelectorAll('.guide-comp-progress-bar').forEach(function(b){b.style.width=pct+'%'})}s.addEventListener('scroll',upd);upd()})},100)</script>
+      <script>setTimeout(function(){document.querySelectorAll('.guide-comp-wrap').forEach(function(w){var s=w.querySelector('.guide-comp-scroll');if(!s)return;if(s.scrollWidth<=s.clientWidth+1){w.querySelectorAll('.guide-comp-controls').forEach(function(c){c.style.display='none'})}});document.querySelectorAll('.guide-comp-scroll').forEach(function(s){function upd(){var w=s.closest('.guide-comp-wrap');if(!w)return;var max=s.scrollWidth-s.clientWidth;var pct=max>0?(s.scrollLeft/max*100):0;w.querySelectorAll('.guide-comp-progress-bar').forEach(function(b){b.style.width=pct+'%'})}s.addEventListener('scroll',upd);upd()})},100)</script>
       <script>(function(){var d=document,h=d.documentElement,sb=h.style.scrollBehavior,EV=['touchstart','wheel','mousedown','keydown'],raf=0,n=0,done=false;function getY(){try{return parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10)}catch(e){return -1}}function end(){if(done)return;done=true;if(raf)cancelAnimationFrame(raf);EV.forEach(function(e){window.removeEventListener(e,input,{passive:true})});h.style.visibility='';h.style.scrollBehavior=sb;try{sessionStorage.removeItem('tmgLangScroll')}catch(e){}}function input(){end()}function step(){if(done)return;var yy=getY();if(yy<0){end();return;}window.scrollTo(0,yy);n++;if(n>48){end();return;}raf=requestAnimationFrame(step)}if(getY()<0){h.style.scrollBehavior=sb;return;}EV.forEach(function(e){window.addEventListener(e,input,{passive:true})});step();setTimeout(end,1500);})();</script>
       <div class="guide-related">
         <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
