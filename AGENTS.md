@@ -614,6 +614,34 @@ The `torch.js` script also includes ways to install pytorch dependent libraries 
 - Tool: `temp/audit_en.js` (patrones AI/clichés) y `temp/audit_en_typos.js` (typos comunes).
 - Correr ambos scripts después de escribir guías nuevas o editar texto existente.
 
+## 🔤 REGLA FIJA: mayúsculas — EN Title Case, ES sentence case (17/10/2026)
+
+**El español NUNCA va en Title Case ni con mayúsculas iniciales tipo inglés.** En español solo
+se capitaliza la primera palabra (y la primera tras `:` `?` `¡` si empieza frase nueva).
+
+- ❌ `"Mejores Plugins de MIDI y Teoría Musical para Acelerar tu Flujo de Trabajo"`
+- ✅ `"Mejores plugins de MIDI y teoría musical para acelerar tu flujo de trabajo"`
+
+Aplica a `title_es`, `metaDesc_es`, `intro_es`, `sections[].heading_es`, `faq[].q_es`,
+`conclusion_es`, `verdict_es`, `pros_es`/`cons_es` y cualquier texto visible de las guías ES
+(y de `data/products.json`: `title_es`/`desc_es`).
+
+**Se mantienen en mayúscula** (no son Title Case):
+- Siglas y acrónimos: MIDI, DAW, VST, USB, UHF, XLR, DSP, EQ, FX, PA, TTS, IA...
+- Nombres de marca y modelo: "Arturia Pigments 7", "iZotope RX 12", "u-he Diva",
+  "Les Paul Standard '60s", "Groovebox".
+- Nombres propios de bandas/autores citados: "The Beatles".
+- La primera palabra tras `:` o `?` (RAE lo permite).
+
+**Nombres de nota musical en español van en MINÚSCULA** (RAE): "si grave", "mi bemol",
+"do mayor" — no "Si Grave". Ojo: dentro de un nombre de producto (`EHB1005MS: el si grave…`)
+la minúscula es la correcta, pero "SSL BiG SiX" es marca y se respeta.
+
+**Herramienta:** `node temp/audit_es_caps3.js` barre `guides.json` y lista los `title_es`,
+`metaDesc_es`, `heading_es` y `q_es` con ≥2 palabras comunes capitalizadas (Title Case real).
+Deja fuera a propósito los `pros_es`/`cons_es`, donde cada ítem de la lista empieza con
+mayúscula y es correcto. Correrlo SIEMPRE antes de dar por buena una guía nueva o un texto ES.
+
 ## ⚠️ FIRST CHECK when page is broken
 
 **Siempre verificar `css/style.min.css` primero.** Si el CSS está corrupto (todo pegado, sin `{}:;,.`), la causa es el bug de PowerShell `$1` al minificar inline. Correr `node _minify_css.js` para regenerarlo. No pierdas tiempo debugueando JS cuando el CSS está roto.
