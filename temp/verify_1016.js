@@ -1,0 +1,10 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const h = fs.readFileSync(B + 'guides/best-piano-keyboard-vsts.html', 'utf8');
+const i = h.indexOf('guide-product-card-title">XLN Audio Addictive Keys');
+const img = (h.slice(i - 1400, i).match(/guide-product-card-img"><img src="([^"]+)"/) || [])[1] || 'sin img';
+console.log('img card: ' + img);
+[['G4M 3YJM', /3YJM/], ['MS PCM0013375', /PCM0013375/]].forEach(([l, re]) => console.log(l + ': ' + (re.test(h) ? 'OK' : 'FALTA')));
+const sb = fs.readFileSync(B + 'js/shop-buttons.js', 'utf8');
+const m = sb.match(/\n1016: \{prices:\{[^}]*\}[^\n]*/);
+console.log('mapa: ' + (m ? m[0].trim() : 'NO'));
