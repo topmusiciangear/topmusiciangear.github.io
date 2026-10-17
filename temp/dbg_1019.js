@@ -1,0 +1,12 @@
+const fs = require('fs');
+const guides = JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'best-guitar-plugins');
+console.log('--- verdict EN ---');
+console.log(g.verdict.slice(0, 400));
+console.log('\n--- verdict_es ---');
+console.log((g.verdict_es || '').slice(0, 400));
+console.log('\n--- productTable keys ---');
+console.log(Object.keys(g.productTable || {}).join(', '));
+const rows = (g.productTable || {}).rows || [];
+console.log('filas: ' + rows.length);
+rows.forEach((r, i) => console.log('  [' + i + '] ' + JSON.stringify(r).slice(0, 150)));

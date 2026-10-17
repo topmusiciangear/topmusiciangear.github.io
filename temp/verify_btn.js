@@ -1,0 +1,12 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-guitar-plugins.html', 'utf8');
+const i = h.indexOf('guide-product-card-title">IK Multimedia AmpliTube 5');
+const card = h.slice(i, i + 3000);
+const eu = (card.match(/data-pb-eu-p="([^"]*)"/) || [])[1];
+const us = (card.match(/data-pb-us-p="([^"]*)"/) || [])[1];
+const uk = (card.match(/data-pb-uk-p="([^"]*)"/) || [])[1];
+const href = (card.match(/class="shop-btn-primary"[\s\S]{0,200}?href="([^"]+)"/) || [])[1];
+console.log('boton primario PB: EU=' + eu + ' US=' + us + ' UK=' + uk);
+console.log('href: ' + href);
+console.log('contiene 200.67 (precio viejo): ' + h.includes('200.67'));
+console.log('contiene 240: ' + h.includes('240'));
