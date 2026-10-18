@@ -2010,6 +2010,66 @@ footer ul li a:hover { color: var(--accent); }
   opacity: 1;
 }
 
+/* Score badge - circular, top-left of image, aligned with share button */
+.guide-product-card-score {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 3;
+  width: 72px;
+  height: 72px;
+  pointer-events: none;
+}
+.guide-product-card-score svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+.guide-product-card-score-circle-bg {
+  fill: none;
+  stroke: rgba(255,255,255,.18);
+  stroke-width: 5;
+}
+.guide-product-card-score-circle-progress {
+  fill: none;
+  stroke: #40A4FF;
+  stroke-width: 5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 600ms ease-out;
+}
+.guide-product-card-score-text {
+  fill: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.guide-product-card-score-label {
+  fill: #AACDFA;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.guide-product-card-score-bg {
+  fill: rgba(10,20,44,.8);
+  filter: blur(10px);
+}
+.guide-product-card-score-container {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(10,20,44,.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.25);
+  box-shadow: 0 4px 14px rgba(0,20,60,.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .guide-product-card-body {
   padding: 16px;
   display: flex;
