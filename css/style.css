@@ -2069,6 +2069,7 @@ footer ul li a:hover { color: var(--accent); }
   color: var(--text-muted);
   font-weight: 400;
   margin-left: 2px;
+  vertical-align: middle;
 }
 .guide-product-card-rating .guide-star,
 .guide-product-card-rating .guide-star-empty {
@@ -2076,6 +2077,7 @@ footer ul li a:hover { color: var(--accent); }
   letter-spacing: 1px;
   margin-left: 0;
   color: #f59e0b;
+  vertical-align: middle;
 }
 .guide-product-card-rating .guide-star-empty {
   color: #444;
@@ -2092,6 +2094,7 @@ footer ul li a:hover { color: var(--accent); }
   font-weight: 700;
   color: var(--white);
   margin-left: 4px;
+  vertical-align: middle;
 }
 
 .guide-product-card-rating-row .guide-review-write-btn {
