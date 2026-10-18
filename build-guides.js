@@ -2663,7 +2663,7 @@ const TEST_SHOP_BTN = {
       "andertons"
     ]
   },
-  280: { prices: { amazon: "$59.99" }, urls: { amazon: "https://www.amazon.com/dp/B0CT787NLW" } },
+  280: { prices: { amazon: "$59.99" }, urls: { amazon: "https://www.amazon.com/dp/B0CT787NLW?tag=topmusicg-20" } },
   281: {
     prices: {
       amazon: "$45.00",
@@ -3309,7 +3309,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€335.29"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B009WU5SV0",
+      amazon: "https://www.amazon.com/dp/B009WU5SV0?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/a--925521/item--EPIEE00"
     },
     oos: [
@@ -3810,7 +3810,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€318.49"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B071XHN18K",
+      amazon: "https://www.amazon.com/dp/B071XHN18K?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/a--925521/item--ICNPLATFORMMPLUS"
     },
     oos: [
@@ -3973,7 +3973,7 @@ const TEST_SHOP_BTN = {
     }
   },
 
-  610: { prices: { andertons: "£177.00", gear4music: "£178.00", zzounds: "$249.00" }, urls: { amazon: "https://www.amazon.com/dp/B0B11K62XF", gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY", zzounds: "https://www.zzounds.com/item--ROLT8?siid=318855" } },
+  610: { prices: { andertons: "£177.00", gear4music: "£178.00", zzounds: "$249.00" }, urls: { amazon: "https://www.amazon.com/dp/B0B11K62XF?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY", zzounds: "https://www.zzounds.com/item--ROLT8?siid=318855" } },
   612: {
     prices: {
       gear4music: "£920.00", zzounds: "$1,149.00",
@@ -3981,7 +3981,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€997.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B09YPSR8N5",
+      amazon: "https://www.amazon.com/dp/B09YPSR8N5?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--ELKSYNTAKT?siid=318234"
     }
   },
@@ -3991,7 +3991,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€1,965.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0CFVZNN89"
+      amazon: "https://www.amazon.com/dp/B0CFVZNN89?tag=topmusicg-20"
     }
   },
   614: {
@@ -4002,7 +4002,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€259.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B07FPYBVHP"
+      amazon: "https://www.amazon.com/dp/B07FPYBVHP?tag=topmusicg-20"
     }
   },
   609: {
@@ -4025,7 +4025,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€299.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B00SC80YLM",
+      amazon: "https://www.amazon.com/dp/B00SC80YLM?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/a--925521/item--AUTATHM70X",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M70X/art-REC0011133-000"
     },
@@ -4064,7 +4064,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€75.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0001ARCFA"
+      amazon: "https://www.amazon.com/dp/B0001ARCFA?tag=topmusicg-20"
     }
   },
   602: {
@@ -4335,7 +4335,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€6,599.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B079V26HMV"
+      amazon: "https://www.amazon.com/dp/B079V26HMV?tag=topmusicg-20"
     },
     oos: ["amazon"]
   },
@@ -4345,7 +4345,7 @@ const TEST_SHOP_BTN = {
       gear4music: "£4,499.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0D777R4L2",
+      amazon: "https://www.amazon.com/dp/B0D777R4L2?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Builders-Edition-914ce-Sinker-Redwood-Top-Honduran-Rosewood-Back-and-Sides/7M78"
     },
     oos: [
@@ -4359,7 +4359,7 @@ const TEST_SHOP_BTN = {
       gear4music: "£7,499.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0BD48TMYK"
+      amazon: "https://www.amazon.com/dp/B0BD48TMYK?tag=topmusicg-20"
     },
     oos: [
       "amazon"
@@ -4373,7 +4373,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€4,444.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B001R2ITEE",
+      amazon: "https://www.amazon.com/dp/B001R2ITEE?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gibson-1942-Banner-J-45-Vintage-Sunburst/39E5"
     },
     oos: [
@@ -4389,7 +4389,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€4,798.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0CTKDGRHP"
+      amazon: "https://www.amazon.com/dp/B0CTKDGRHP?tag=topmusicg-20"
     },
     oos: [
       "amazon"
@@ -4487,7 +4487,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€3,869.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0FSGYBWZQ",
+      amazon: "https://www.amazon.com/dp/B0FSGYBWZQ?tag=topmusicg-20",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-KH-810-II/art-REC0017051-000",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fneumann-kh-810-ii-10-active-subwoofer%2F",
       zzounds: "https://www.zzounds.com/item--NEMKH810II"
@@ -4943,7 +4943,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-MT48-Premium-Audio-Interface/5E3S",
-      amazon: "https://www.amazon.com/dp/B0BTGVGCJN",
+      amazon: "https://www.amazon.com/dp/B0BTGVGCJN?tag=topmusicg-20",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2FNeumann-MT-48-Audio-Interface-Universal-PSU-inc-USB-Connection%2F",
       zzounds: "https://www.zzounds.com/item--NEMMT48",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-Neumann-MT-48-U/art-PCM0017584-000"
@@ -4963,7 +4963,7 @@ const TEST_SHOP_BTN = {
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-x8p-Gen-2-Essentialsand-Edition/6P0K",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fapollo-x8p-gen-2-ess%2F",
-      amazon: "https://www.amazon.com/dp/B0DC13HNN3",
+      amazon: "https://www.amazon.com/dp/B0DC13HNN3?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--UADAPX8PG2E",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-x8p-Gen2-Studio-/art-PCM0018210-000"
     },
@@ -4980,7 +4980,7 @@ const TEST_SHOP_BTN = {
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Audient-ORIA-Interface-and-Immersive-Monitor-Controller-for-Dolby-Atmos/66Y3",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Faudient-oria-usb-interface%2F",
-      amazon: "https://www.amazon.com/dp/B0CTW4MD53",
+      amazon: "https://www.amazon.com/dp/B0CTW4MD53?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--ADIORIA",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-ORIA/art-PCM0017953-000"
     },
@@ -5262,7 +5262,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€215.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B07K2JLS56",
+      amazon: "https://www.amazon.com/dp/B07K2JLS56?tag=topmusicg-20",
       andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/?search_query=Fender%20CN-60S",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000"
     }
@@ -5276,7 +5276,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1-Classical-Guitar-Natural/1FSN",
-      amazon: "https://www.amazon.com/dp/B00EOADUTU",
+      amazon: "https://www.amazon.com/dp/B00EOADUTU?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--TAKGC1?siid=178306",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Takamine-GC1N/art-GIT0063165-001"
     }
@@ -5449,7 +5449,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--SENE906",
-      amazon: "https://www.amazon.com/dp/B000AQHJQ2",
+      amazon: "https://www.amazon.com/dp/B000AQHJQ2?tag=topmusicg-20",
       andertons: "https://www.andertons.co.uk/sennheiser-e906-dynamic-instrument-mic",
       reverb: "https://reverb.com/p/sennheiser-e906"
     }
@@ -5464,7 +5464,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--AUDI5",
-      amazon: "https://www.amazon.com/dp/B0002IHNA0",
+      amazon: "https://www.amazon.com/dp/B0002IHNA0?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Audix-I5-All-Purpose-Dynamic-Instrument-Microphone-VLM-Type-B/OIL",
       andertons: "https://www.andertons.co.uk/audix-i5-dynamic-mic",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Audix-i-5/art-PAH0006797-000",
@@ -5480,7 +5480,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--SHUBETA57A",
-      amazon: "https://www.amazon.com/dp/B0002BACAK",
+      amazon: "https://www.amazon.com/dp/B0002BACAK?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-Beta-57A-Dynamic-Microphone/1UV",
       andertons: "https://www.andertons.co.uk/shure-beta-57a-dynamic-instrument-microphone",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Shure-Beta-57-A-dynamic-Microphone/art-PAH0000168-000",
@@ -5512,7 +5512,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--YAMYC88",
-      amazon: "https://www.amazon.com/dp/B08RNKDLMN",
+      amazon: "https://www.amazon.com/dp/B08RNKDLMN?tag=topmusicg-20",
       andertons: "https://www.andertons.co.uk/yamaha-yc88-88-key-drawbar-organ-stage-keyboard",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-YC88/art-KEY0005386-000",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YC88-Digital-Stage-Keyboard-with-Drawbars/3Q2G"
@@ -5528,7 +5528,7 @@ const TEST_SHOP_BTN = {
     na: ["musicstore"],
     urls: {
       zzounds: "https://www.zzounds.com/item--YAMMONTAGEM8X",
-      amazon: "https://www.amazon.com/dp/B0CFBC7MNY",
+      amazon: "https://www.amazon.com/dp/B0CFBC7MNY?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
       andertons: "https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-Montage-M8x/art-SYN0008831-000",
@@ -5573,7 +5573,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--KORGRANDSTAGEX",
-      amazon: "https://www.amazon.com/dp/B0DKN7FL2J",
+      amazon: "https://www.amazon.com/dp/B0DKN7FL2J?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Korg-Grandstage-X/6707",
       andertons: "https://www.andertons.co.uk/Korg-Grandstage-X-Stage-Piano",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Korg-Grandstage-X-inkl-Wooden-stand/art-KEY0005938-000",
@@ -5589,7 +5589,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--ARAASTROLAB",
-      amazon: "https://www.amazon.com/dp/B0CVBHTGVR",
+      amazon: "https://www.amazon.com/dp/B0CVBHTGVR?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Arturia-Astrolab-61-Note-Stage-Keyboard-Silver/82CQ",
       andertons: "https://www.andertons.co.uk/arturia-astrolab-61-key-synth",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Arturia-AstroLab-61/art-SYN0008965-000"
@@ -5604,7 +5604,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--YAMCK88",
-      amazon: "https://www.amazon.com/dp/B0BTQ3HXRS",
+      amazon: "https://www.amazon.com/dp/B0BTQ3HXRS?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-CK88-Stage-Keyboard/5HLE",
       andertons: "https://www.andertons.co.uk/yamaha-ck88-88-key-ghs-graded-hammer-standard-keyboard/",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-CK88/art-KEY0005768-000"
@@ -5648,7 +5648,7 @@ const TEST_SHOP_BTN = {
       amazon: "$79.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B00N4Q25R8"
+      amazon: "https://www.amazon.com/dp/B00N4Q25R8?tag=topmusicg-20"
     },
     na: ["musicstore","gear4music","zzounds","andertons","reverb"]
   },
@@ -5686,7 +5686,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       musicstore: "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-Speaker-Pad-Set/art-REC0004624-000",
-      amazon: "https://www.amazon.com/dp/B0002D0B4K",
+      amazon: "https://www.amazon.com/dp/B0002D0B4K?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--AURMOPAD"
     },
     oos: ["zzounds"],
@@ -5788,7 +5788,7 @@ const TEST_SHOP_BTN = {
     ],
     urls: {
       gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-FLOW-8-8-Channel-Digital-Mixer/3N67",
-      amazon: "https://www.amazon.com/dp/B08NDBQM5W",
+      amazon: "https://www.amazon.com/dp/B08NDBQM5W?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--BEHFLOW8",
       andertons: "https://www.andertons.co.uk/behringer-flow-8-8-input-digital-mixer-with-bluetooth-audio-app-contro/",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Behringer-Flow-8/art-PAH0022110-000"
@@ -5802,7 +5802,7 @@ const TEST_SHOP_BTN = {
       andertons: "£82.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B072F5J32C",
+      amazon: "https://www.amazon.com/dp/B072F5J32C?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--LEWLCT240PRO",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-240-PRO-Large-Diaphragm-Condenser-Microphone-Black/24PS",
@@ -5817,7 +5817,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Origin-Cardioid-Condenser-Microphone/1F3F",
-      amazon: "https://www.amazon.com/dp/B019RVU0C0",
+      amazon: "https://www.amazon.com/dp/B019RVU0C0?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--ASTORIGIN",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Aston-Microphones-Origin-Black-Bundle/art-REC0014747-000",
       andertons: "https://www.andertons.co.uk/aston-origin-cardioid-condenser-microphone/"
@@ -5897,7 +5897,7 @@ const TEST_SHOP_BTN = {
       musicstore: "€399.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B07MWZ9FMR",
+      amazon: "https://www.amazon.com/dp/B07MWZ9FMR?tag=topmusicg-20",
       gear4music: "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-AXE-IO/2SMV",
       zzounds: "https://www.zzounds.com/item--IKMAXEIO?siid=253067",
       andertons: "https://www.andertons.co.uk/ik-multimedia-axe-i-o-usb-audio-interface-w-advanced-guitar-tone-shaping/?search_query=IK%20Multimedia%20AXE%20IO",
@@ -5954,7 +5954,7 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-102-Condenser-Microphone-Black/C56",
-      amazon: "https://www.amazon.com/dp/B003HGLPC6",
+      amazon: "https://www.amazon.com/dp/B003HGLPC6?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--NEUTLM102",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-Studio-Microphone-Nickel/art-REC0007197-000",
       andertons: "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-nickel-finish/"
