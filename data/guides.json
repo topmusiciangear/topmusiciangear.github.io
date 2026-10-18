@@ -1742,7 +1742,7 @@
         ],
         "cons_es": [
           "SPL máximo más bajo (126 dB) que los 131 dB de el QSC K12.2 — 5 dB menos de margen en escenarios ruidosos",
-          "El gabinete ABS va bien para fin de semana pero aguanta menos la ruta que el polipropileno de la QSC en giras constantes",
+          "El caja ABS va bien para fin de semana pero aguanta menos la ruta que el polipropileno de la QSC en giras constantes",
           "La extensión de graves empieza en 50 Hz — el bombo y el bajo se sienten más delgados que los 48 Hz de la QSC",
           "El DSP se limita a los tres presets fijos Music/Speech/Monitor — sin EQ de usuario ni afinado D-CONTOUR como la DBR12"
         ]
@@ -1762,7 +1762,7 @@
           "El SPL máximo más alto de la lista con 131 dB, impulsado por 2000W pico — el mayor margen de los tres",
           "Graves profundos",
           "DSP con 4 presets más banda EQ de usuario — más flexible que los presets fijos de la ZLX",
-          "Gabinete de polipropileno construido para giras constantes, respaldado por una garantía de 6 años"
+          "Caja de polipropileno para giras constantes, respaldado por una garantía de 6 años"
         ],
         "cons": [
           "Expensive — more than the EV ZLX-12P-G2",
@@ -1901,7 +1901,7 @@
         "pros_es": [
           "300W continuos / 1.200W pico a 8Ω con 128 dB de SPL pico — el mayor margen entre los pasivos de 12\"",
           "El waveguide SST patentado ofrece una cobertura precisa de 90° x 60°",
-          "Driver de compresión de titanio DH-1L en un gabinete probado con más de 500 horas de abuso",
+          "Driver de compresión de titanio DH-1L en un caja probado con más de 500 horas de abuso",
           "Dual NL4, tres puntos de rigging M10 y asas estilo ZLX para girar fácilmente"
         ],
         "cons": [
@@ -2714,10 +2714,10 @@
           "Room Response Compensation maintains phase coherence"
         ],
         "pros_es": [
-          "Gabinete MDE con difracción casi nula para un escenario sonoro preciso",
+          "Caja MDE con difracción casi nula para un escenario sonoro preciso",
           "Guía DCW con transición perfecta woofer-tweeter a partir de 1.5kHz",
           "El modo ISS reduce el consumo en reposo a menos de 0.5W",
-          "Gabinete de aluminio fundido que actúa como disipador para SPL sostenido",
+          "Caja de aluminio fundido que actúa como disipador para SPL sostenido",
           "La compensación de sala mantiene la coherencia de fase"
         ],
         "cons": [
@@ -3019,7 +3019,7 @@
           "Transparent limiting preserves mix dynamics"
         ],
         "pros_es": [
-          "El targeting LUFS en tiempo real se adapta a tu material",
+          "La orientación a LUFS en tiempo real se adapta a tu material",
           "Staging de ganancia automático antes del limitador",
           "Presets de loudness para plataformas de streaming",
           "Limitación transparente preserva la dinámica de la mezcla"
@@ -12408,7 +12408,7 @@
       "faq_q5_en": "What is the difference between a bass combo and a head/cab setup?",
       "faq_a5_en": "A combo (like the Ampeg RB-210, Rumble 500 V3 or Markbass Mini CMD) has the amp and speaker in one unit — simpler, fewer cables, easier to transport. A head/cab setup separates the amplifier from the speaker cabinet for maximum flexibility and upgradeability, at the cost of more gear to carry.",
       "faq_q5_es": "¿Cuál es la diferencia entre un combo de bajo y una configuración de cabezal y pantalla?",
-      "faq_a5_es": "Un combo (como el Ampeg RB-210, Rumble 500 o Markbass Mini CMD) tiene el amp y el altavoz en una unidad — más simple, menos cables, más fácil de transportar. Un configuración head/cab separa el amplificador del gabinete para máxima flexibilidad y actualización, a costa de llevar más equipo.",
+      "faq_a5_es": "Un combo (como el Ampeg RB-210, Rumble 500 o Markbass Mini CMD) tiene el amp y el altavoz en una unidad — más simple, menos cables, más fácil de transportar. Un configuración head/cab separa el amplificador del caja para máxima flexibilidad y actualización, a costa de llevar más equipo.",
       "faq_q6_en": "Should a player choose a tube or solid-state bass amp?",
       "faq_a6_en": "For bass, solid-state (or Class-D) is the modern standard because bass needs clean power and headroom more than tube warmth. The Ampeg RB-210 shows how solid-state can still sound unmistakably Ampeg, with the Super Grit Technology adding tube-style grind on demand.",
       "faq_q6_es": "¿Debería comprar un amplificador de bajo de válvulas o de estado sólido?",
@@ -12769,7 +12769,7 @@
           "Tono clásico de Ampeg — el sonido de innumerables discos de bajo, en un combo autónomo",
           "500W con cabina de extensión (250W solo) a través de dos altavoces Lavoce de 10 pulgadas y tweeter",
           "El overdrive Super Grit Technology añade saturación estilo SVT a demanda",
-          "Paquete completo: salida DI XLR, loop de FX, entrada aux, salida de auriculares y salida para gabinete extra"
+          "Paquete completo: salida DI XLR, loop de FX, entrada aux, salida de auriculares y salida para caja extra"
         ],
         "cons": [
           "At 39 lb (17.7 kg) it is heavier than Class-D combos like the Rumble 500",
@@ -24794,12 +24794,12 @@
       },
       {
         "heading": "Two Notes Audio Engineering GENOME: Component-Level Amps With Studio-Grade Cabs",
-        "heading_es": "Two Notes Audio Engineering GENOME: Amplis a Nivel de Componente Con Gabinetes de Estudio",
+        "heading_es": "Two Notes Audio Engineering GENOME: Amplis a Nivel de Componente Con Cajas de Estudio",
         "products": [
           1020
         ],
         "content": "<p><strong>Two Notes Audio Engineering GENOME combines component-level amp modeling with Two Notes famous DynIR virtual cabinets and a full effects suite.</strong> The amps respond like the real circuits, and the DynIR cabs capture real rooms, mics and placements instead of static impulses. You build complete rigs, from guitar input to mastered bus, inside one window.</p><p>For players who record at home and need release-ready guitar tones without a treated room, Two Notes Audio Engineering GENOME is the end-to-end answer. The presets are genuinely usable, the effects cover everything from drive to ambient, and the CPU load stays reasonable even in full-rig sessions.</p>",
-        "content_es": "<p><strong>Two Notes Audio Engineering GENOME combina modelado de amplificadores a nivel de componente con los famosos gabinetes virtuales DynIR de Two Notes y un suite completo de efectos.</strong> Los amplis responden como los circuitos reales, y los cabs DynIR capturan salas, micrófonos y posiciones reales en lugar de impulsos estáticos. Construyes rigs completos, desde la entrada de guitarra hasta el bus masterizado, dentro de una ventana.</p><p>Para guitarristas que graban en casa y necesitan tonos listos para publicar sin sala tratada, Two Notes Audio Engineering GENOME es la respuesta integral. Los presets son genuinamente utilizables, los efectos cubren desde drive hasta ambiental, y la carga de CPU se mantiene razonable incluso en sesiones de rig completo.</p>",
+        "content_es": "<p><strong>Two Notes Audio Engineering GENOME combina modelado de amplificadores a nivel de componente con los famosos cajas virtuales DynIR de Two Notes y un suite completo de efectos.</strong> Los amplis responden como los circuitos reales, y los cabs DynIR capturan salas, micrófonos y posiciones reales en lugar de impulsos estáticos. Construyes rigs completos, desde la entrada de guitarra hasta el bus masterizado, dentro de una ventana.</p><p>Para guitarristas que graban en casa y necesitan tonos listos para publicar sin sala tratada, Two Notes Audio Engineering GENOME es la respuesta integral. Los presets son genuinamente utilizables, los efectos cubren desde drive hasta ambiental, y la carga de CPU se mantiene razonable incluso en sesiones de rig completo.</p>",
         "pros": [
           "Component-level amp modeling that responds like hardware",
           "DynIR cabinets capture real rooms and mic placements",
@@ -24808,7 +24808,7 @@
         ],
         "pros_es": [
           "Modelado a nivel de componente que responde como hardware",
-          "Gabinetes DynIR capturan salas y posiciones de micrófono reales",
+          "Las cajas DynIR capturan salas y posiciones de micrófono reales",
           "Rigs completos con efectos en una ventana",
           "Presets listos para publicar con carga de CPU razonable"
         ],
@@ -24865,7 +24865,7 @@
           1022
         ],
         "content": "<p><strong>Kiive Audio Lunchbox Amp Sim recreates one classic British valve amp with three cabinets, overdrive, delay and room reverb.</strong> No endless menus, no option paralysis: gain, EQ, a handful of effects, and a sound that sits in a rock mix immediately. It is the plugin equivalent of a great small combo.</p><p>At its price it is almost impossible to argue against for home recordists who need convincing crunch and cleans without learning a workstation. Purists chasing exact replicas of five different amps should look at bigger suites, but for one great British voice, Lunchbox delivers.</p>",
-        "content_es": "<p><strong>Kiive Audio Lunchbox Amp Sim recrea un clásico ampli británico de válvulas con tres gabinetes, overdrive, delay y reverb de sala.</strong> Sin menús infinitos ni parálisis por opciones: ganancia, EQ, un puñado de efectos y un sonido que se sitúa en una mezcla rock de inmediato. Es el equivalente en plugin de un gran combo pequeño.</p><p>A su precio es casi imposible argumentar en contra para quienes graban en casa y necesitan crunch y limpios convincentes sin aprender una estación de trabajo. Los puristas que persiguen réplicas exactas de cinco amplis distintos deberían mirar suites más grandes, pero para una gran voz británica, Lunchbox cumple.</p>",
+        "content_es": "<p><strong>Kiive Audio Lunchbox Amp Sim recrea un clásico ampli británico de válvulas con tres cajas, overdrive, delay y reverb de sala.</strong> Sin menús infinitos ni parálisis por opciones: ganancia, EQ, un puñado de efectos y un sonido que se sitúa en una mezcla rock de inmediato. Es el equivalente en plugin de un gran combo pequeño.</p><p>A su precio es casi imposible argumentar en contra para quienes graban en casa y necesitan crunch y limpios convincentes sin aprender una estación de trabajo. Los puristas que persiguen réplicas exactas de cinco amplis distintos deberían mirar suites más grandes, pero para una gran voz británica, Lunchbox cumple.</p>",
         "pros": [
           "Convincing British valve crunch and cleans",
           "Three cabinets plus drive, delay and reverb included",
@@ -24874,7 +24874,7 @@
         ],
         "pros_es": [
           "Crunch y limpios británicos de válvulas convincentes",
-          "Tres gabinetes más drive, delay y reverb incluidos",
+          "Tres cajas más drive, delay y reverb incluidos",
           "Cero curva de aprendizaje, listo para mezcla en minutos",
           "Precio casi de compra impulsiva para la calidad"
         ],
@@ -24898,7 +24898,7 @@
           1023
         ],
         "content": "<p><strong>The Marshall Suite brings officially licensed Marshall amps, cabinets and pedals into Softube Amp Room Marshall Suite, including the Amp Room platform itself.</strong> Plexi crunch, JCM drive and greenback cabs respond with the sag and bite of the real stacks, captured with Softube usual studio-grade care. Stompboxes and studio effects round out full signal chains.</p><p>If your productions live in classic rock, hard rock or indie, this is the most direct route to those tones in software. It does one brand, but it does it with the license, the measurements and the feel that generic emulations cannot copy.</p>",
-        "content_es": "<p><strong>La Marshall Suite trae amplificadores, gabinetes y pedales Marshall oficialmente licenciados dentro de Softube Amp Room Marshall Suite, incluyendo la propia plataforma Amp Room.</strong> El crunch Plexi, el drive JCM y los cabs greenback responden con el sag y el mordisco de los stacks reales, capturados con el habitual cuidado de estudio de Softube. Stompboxes y efectos de estudio completan cadenas de señal enteras.</p><p>Si tus producciones viven en rock clásico, hard rock o indie, esta es la ruta más directa a esos tonos en software. Hace una marca, pero la hace con la licencia, las mediciones y la sensación que las emulaciones genéricas no pueden copiar.</p>",
+        "content_es": "<p><strong>La Marshall Suite trae amplificadores, cajas y pedales Marshall oficialmente licenciados dentro de Softube Amp Room Marshall Suite, incluyendo la propia plataforma Amp Room.</strong> El crunch Plexi, el drive JCM y los cabs greenback responden con el sag y el mordisco de los stacks reales, capturados con el habitual cuidado de estudio de Softube. Stompboxes y efectos de estudio completan cadenas de señal enteras.</p><p>Si tus producciones viven en rock clásico, hard rock o indie, esta es la ruta más directa a esos tonos en software. Hace una marca, pero la hace con la licencia, las mediciones y la sensación que las emulaciones genéricas no pueden copiar.</p>",
         "pros": [
           "Officially licensed Marshall amps, cabs and pedals",
           "Plexi and JCM tones with real sag and bite",
@@ -25072,7 +25072,7 @@
         "q": "What is the best guitar plugin for home recording in 2026?",
         "q_es": "¿Cuál es el mejor plugin de guitarra para grabación casera en 2026?",
         "a": "IK Multimedia AmpliTube 5 is the best all-around choice for home recording, with hundreds of gear models and thousands of presets covering every genre. If you want component-level amps with real-room cabinets, Two Notes Audio Engineering GENOME is the modern alternative. For classic British crunch on a budget, Kiive Audio Lunchbox Amp Sim is hard to beat.",
-        "a_es": "IK Multimedia AmpliTube 5 es la mejor opción general para grabación casera, con cientos de modelos y miles de presets cubriendo cada género. Si quieres amplis a nivel de componente con gabinetes de salas reales, Two Notes Audio Engineering GENOME es la alternativa moderna. Para crunch británico clásico con presupuesto, Kiive Audio Lunchbox Amp Sim es difícil de superar."
+        "a_es": "IK Multimedia AmpliTube 5 es la mejor opción general para grabación casera, con cientos de modelos y miles de presets cubriendo cada género. Si quieres amplis a nivel de componente con cajas de salas reales, Two Notes Audio Engineering GENOME es la alternativa moderna. Para crunch británico clásico con presupuesto, Kiive Audio Lunchbox Amp Sim es difícil de superar."
       },
       {
         "q": "Do I need UAD hardware to use Sound City Studios?",
@@ -25084,17 +25084,17 @@
         "q": "Is Kiive Audio Lunchbox Amp Sim good enough for finished records?",
         "q_es": "¿Es Kiive Audio Lunchbox Amp Sim suficiente para discos terminados?",
         "a": "Yes, for classic British crunch and cleans. Lunchbox recreates one valve amp with three cabinets plus drive, delay and reverb, and its tones sit in rock mixes with minimal work. If you need five amp brands or tone matching, step up to IK Multimedia AmpliTube 5 or Two Notes Audio Engineering GENOME instead.",
-        "a_es": "Sí, para crunch y limpios británicos clásicos. Lunchbox recrea un ampli de válvulas con tres gabinetes más drive, delay y reverb, y sus tonos se sitúan en mezclas rock con mínimo trabajo. Si necesitas cinco marcas de amplis o coincidencia de tono, sube a IK Multimedia AmpliTube 5 o Two Notes Audio Engineering GENOME."
+        "a_es": "Sí, para crunch y limpios británicos clásicos. Lunchbox recrea un ampli de válvulas con tres cajas más drive, delay y reverb, y sus tonos se sitúan en mezclas rock con mínimo trabajo. Si necesitas cinco marcas de amplis o coincidencia de tono, sube a IK Multimedia AmpliTube 5 o Two Notes Audio Engineering GENOME."
       },
       {
         "q": "What is the difference between Two Notes Audio Engineering GENOME and IK Multimedia AmpliTube 5?",
         "q_es": "¿Cuál es la diferencia entre Two Notes Audio Engineering GENOME y IK Multimedia AmpliTube 5?",
         "a": "Two Notes Audio Engineering GENOME focuses on depth: component-level amps with DynIR cabinets that capture real rooms, plus a curated effects suite. IK Multimedia AmpliTube 5 focuses on breadth: hundreds of gear models, thousands of presets and Tonex capture integration. Two Notes Audio Engineering GENOME is better for tone purists, AmpliTube for explorers who want endless options.",
-        "a_es": "Two Notes Audio Engineering GENOME se enfoca en profundidad: amplis a nivel de componente con gabinetes DynIR que capturan salas reales, más un suite curado de efectos. IK Multimedia AmpliTube 5 se enfoca en amplitud: cientos de modelos, miles de presets e integración de capturas Tonex. Two Notes Audio Engineering GENOME es mejor para puristas del tono, AmpliTube para exploradores que quieren opciones infinitas."
+        "a_es": "Two Notes Audio Engineering GENOME se enfoca en profundidad: amplis a nivel de componente con cajas DynIR que capturan salas reales, más un suite curado de efectos. IK Multimedia AmpliTube 5 se enfoca en amplitud: cientos de modelos, miles de presets e integración de capturas Tonex. Two Notes Audio Engineering GENOME es mejor para puristas del tono, AmpliTube para exploradores que quieren opciones infinitas."
       }
     ],
     "conclusion": "The best guitar plugin depends on your recording setup and tone goals. IK Multimedia AmpliTube 5 offers the most gear and presets for the price. Two Notes Audio Engineering GENOME provides component-level amps with real-room DynIR cabinets. Universal Audio UAD Sound City Studios delivers legendary rock room tone for UAD users. Kiive Audio Lunchbox Amp Sim nails classic British crunch on a budget. The Softube Amp Room Marshall Suite delivers licensed Plexi and JCM tones. Two Notes Audio Engineering GENOME is the modern pick for high-gain and full-rig recording. For most home recordists, IK Multimedia AmpliTube 5 at current sale prices is the best starting point. <p><a href=\"/guides/best-amp-modelers.html\" class=\"guide-link-btn\">Best Amp Modelers for Guitar</a> <a href=\"/guides/guitar-pedals.html\" class=\"guide-link-btn\">Best Guitar Effects Pedals: Complete Guide</a> <a href=\"/guides/best-multi-effects-pedals.html\" class=\"guide-link-btn\">Best Multi-Effects Pedals for Guitar</a> <a href=\"/guides/best-overdrive-distortion.html\" class=\"guide-link-btn\">Best Overdrive & Distortion Pedals for Guitar</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Selected Plugin Boutique purchases include a free gift — choose from a selection based on your spending level <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a></span>",
-    "conclusion_es": "El mejor plugin de guitarra depende de tu configuración de grabación y objetivos de tono. IK Multimedia AmpliTube 5 ofrece la mayoría de equipo y presets por el precio. Two Notes Audio Engineering GENOME proporciona amplis a nivel de componente con gabinetes DynIR de salas reales. Universal Audio UAD Sound City Studios ofrece el tono de sala de rock legendario para usuarios UAD. Kiive Audio Lunchbox Amp Sim clava el crunch británico clásico con presupuesto. La Softube Amp Room Marshall Suite ofrece tonos Plexi y JCM licenciados. Two Notes Audio Engineering GENOME es la elección moderna para alta ganancia y grabación de rig completo. Para la mayoría de los que graban en casa, IK Multimedia AmpliTube 5 en precios actuales de oferta es el mejor punto de partida. <p>También te interesa: <a href=\"/guides/best-amp-modelers_es.html\" class=\"guide-link-btn\">Mejores modeladores de amplificador para guitarra</a> <a href=\"/guides/guitar-pedals_es.html\" class=\"guide-link-btn\">Mejores pedales de efectos para guitarra: guía completa</a> <a href=\"/guides/best-multi-effects-pedals_es.html\" class=\"guide-link-btn\">Mejores pedales Multi-Efectos para guitarra</a> <a href=\"/guides/best-overdrive-distortion_es.html\" class=\"guide-link-btn\">Mejores pedales de overdrive y distorsión para guitarra</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Ciertas compras en Plugin Boutique incluyen un regalo gratuito — elige entre una selección según cuánto gastes <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a></span>",
+    "conclusion_es": "El mejor plugin de guitarra depende de tu configuración de grabación y objetivos de tono. IK Multimedia AmpliTube 5 ofrece la mayoría de equipo y presets por el precio. Two Notes Audio Engineering GENOME proporciona amplis a nivel de componente con cajas DynIR de salas reales. Universal Audio UAD Sound City Studios ofrece el tono de sala de rock legendario para usuarios UAD. Kiive Audio Lunchbox Amp Sim clava el crunch británico clásico con presupuesto. La Softube Amp Room Marshall Suite ofrece tonos Plexi y JCM licenciados. Two Notes Audio Engineering GENOME es la elección moderna para alta ganancia y grabación de rig completo. Para la mayoría de los que graban en casa, IK Multimedia AmpliTube 5 en precios actuales de oferta es el mejor punto de partida. <p>También te interesa: <a href=\"/guides/best-amp-modelers_es.html\" class=\"guide-link-btn\">Mejores modeladores de amplificador para guitarra</a> <a href=\"/guides/guitar-pedals_es.html\" class=\"guide-link-btn\">Mejores pedales de efectos para guitarra: guía completa</a> <a href=\"/guides/best-multi-effects-pedals_es.html\" class=\"guide-link-btn\">Mejores pedales Multi-Efectos para guitarra</a> <a href=\"/guides/best-overdrive-distortion_es.html\" class=\"guide-link-btn\">Mejores pedales de overdrive y distorsión para guitarra</a></p>\n\n<span style=\"color:#f59e0b;font-size:13px\">Ciertas compras en Plugin Boutique incluyen un regalo gratuito — elige entre una selección según cuánto gastes <a href=\"https://www.pluginboutique.com/articles/2073?a_aid=6a01e859cbe1a\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a></span>",
     "featuredProducts": [
       1019,
       1020,
@@ -25164,7 +25164,7 @@
             },
             {
               "value": "Amp modeler, FX and cabinet suite",
-              "value_es": "Suite de modelado, FX y gabinetes"
+              "value_es": "Suite de modelado, FX y cajas"
             },
             {
               "value": "Studio room and console emulation",
@@ -25242,7 +25242,7 @@
             },
             {
               "value": "DynIR virtual cabinets with studio effects",
-              "value_es": "Gabinetes virtuales DynIR con efectos de estudio"
+              "value_es": "Cajas virtuales DynIR con efectos de estudio"
             },
             {
               "value": "Full Studio A signal chain with reverb chamber",
@@ -29706,7 +29706,7 @@
         "pros_es": [
           "Aguanta pantallas a todo volumen sin distorsión ni daños",
           "Un mordiente de presencia de 5-7kHz que corta cualquier mezcla",
-          "Indestructible, asequible e increíble en gabinetes de guitarra, cajas y vientos",
+          "Indestructible, asequible e increíble en cajas de guitarra, cajas y vientos",
           "Captura desde el crack de la caja hasta percusión y cajón con una colocación simple"
         ],
         "cons": [
@@ -29929,9 +29929,9 @@
         ],
         "pros_es": [
           "El legendario sonido del MD 421 en un cuerpo más corto y apto para el escenario",
-          "La presencia grave-media gruesa aporta peso a metales, toms y gabinetes de guitarra",
+          "La presencia grave-media gruesa aporta peso a metales, toms y cajas de guitarra",
           "El interruptor de corte de graves de cinco posiciones se adapta a la fuente",
-          "Combina perfecto con el SM57 en gabinetes de guitarra"
+          "Combina perfecto con el SM57 en cajas de guitarra"
         ],
         "cons": [
           "Large body takes up more space on a crowded stage or stand",
@@ -32909,7 +32909,7 @@
         "heading": "Is the RCF SUB 8004-AS the Best Subwoofer for Live Bands?",
         "heading_es": "¿Es la RCF SUB 8004-AS el mejor subwoofer para bandas en vivo?",
         "content": "<strong>The RCF SUB 8004-AS is the fast one, and for rock and metal that speed is everything.</strong> A 2500-watt peak Class-D amp (1250W RMS) drives an 18-inch woofer with a 4-inch inside/outside voice coil that stays tight and articulate instead of turning into mush. It reaches 136 dB and the response sits at 30-120 Hz, so it's voiced to sit under tops and punch you in the chest with every kick hit. The DSP covers Xover, phase, Deep/Punch, output delay and cardioid, and the Baltic birch cabinet keeps it at 56 kg. Italian engineering in a box that never sounds slow. 9 it's the most expensive here, and if your bass has to cut through a loud guitar wall, it's worth it.",
-        "content_es": "<strong>La RCF SUB 8004-AS es la veloz, y para rock y metal esa velocidad lo es todo.</strong> Un amplificador en Clase D de 2.500 vatios de pico (1.250 W RMS) alimenta un woofer de 18 pulgadas con bobina interior/exterior de 4 pulgadas que se mantiene firme y articulado en vez de convertirse en una papilla. Alcanza 136 dB y la respuesta va de 30-120 Hz, así que está pensada para trabajar por debajo de los tops y golpearte el pecho con cada golpe de bombo. El DSP cubre crossover, fase, Deep/Punch, delay de salida y cardioide, y el gabinete de abedul báltico la deja en 56 kg. Ingeniería italiana en una caja que nunca suena lenta. Es la más cara de la lista, y si el bajo debe atravesar un muro de guitarras, lo vale.",
+        "content_es": "<strong>La RCF SUB 8004-AS es la veloz, y para rock y metal esa velocidad lo es todo.</strong> Un amplificador en Clase D de 2.500 vatios de pico (1.250 W RMS) alimenta un woofer de 18 pulgadas con bobina interior/exterior de 4 pulgadas que se mantiene firme y articulado en vez de convertirse en una papilla. Alcanza 136 dB y la respuesta va de 30-120 Hz, así que está pensada para trabajar por debajo de los tops y golpearte el pecho con cada golpe de bombo. El DSP cubre crossover, fase, Deep/Punch, delay de salida y cardioide, y el caja de abedul báltico la deja en 56 kg. Ingeniería italiana en una caja que nunca suena lenta. Es la más cara de la lista, y si el bajo debe atravesar un muro de guitarras, lo vale.",
         "products": [
           234
         ]
@@ -32927,7 +32927,7 @@
         "heading": "Is the JBL PRX918XLF the Best Subwoofer for Live Bands?",
         "heading_es": "¿Es la JBL PRX918XLF el mejor subwoofer para bandas en vivo?",
         "content": "<strong>The JBL PRX918XLF suits social events and weddings, thanks to the Bluetooth EQ.</strong> A 2000-watt peak Class-D amplifier drives the 918SG 18-inch ferrite woofer to 134 dB with a 30-110 Hz response, and the 18 mm birch cabinet stays quiet and tight. The color LCD plus the JBL Pro Connect app give you a 6-band parametric EQ, a lowpass filter and 20 ms of delay, and you can tweak the sound from your phone in the middle of a reception without touching the rack. The fanless design means no mechanical noise when the room goes quiet. Backed by a seven-year warranty, it's and the safest choice if your gig list is full of celebrations.",
-        "content_es": "<strong>La JBL PRX918XLF es a la que recurrir en eventos sociales y bodas, y la EQ por Bluetooth es el motivo.</strong> Un amplificador en Clase D de 2.000 vatios de pico alimenta el woofer 918SG de ferrita de 18 pulgadas hasta 134 dB con una respuesta de 30-110 Hz, y el gabinete de abedul de 18 mm se mantiene silencioso y firme. El LCD a color más la app JBL Pro Connect ofrecen EQ paramétrica de 6 bandas, un filtro paso bajo y 20 ms de delay, y puedes ajustar el sonido desde el móvil en plena recepción sin tocar el rack. El diseño sin ventilador garantiza cero ruido mecánico cuando la sala se queda en silencio. Con una garantía de siete años, es la opción más segura si tu agenda está llena de celebraciones.",
+        "content_es": "<strong>La JBL PRX918XLF es a la que recurrir en eventos sociales y bodas, y la EQ por Bluetooth es el motivo.</strong> Un amplificador en Clase D de 2.000 vatios de pico alimenta el woofer 918SG de ferrita de 18 pulgadas hasta 134 dB con una respuesta de 30-110 Hz, y el caja de abedul de 18 mm se mantiene silencioso y firme. El LCD a color más la app JBL Pro Connect ofrecen EQ paramétrica de 6 bandas, un filtro paso bajo y 20 ms de delay, y puedes ajustar el sonido desde el móvil en plena recepción sin tocar el rack. El diseño sin ventilador garantiza cero ruido mecánico cuando la sala se queda en silencio. Con una garantía de siete años, es la opción más segura si tu agenda está llena de celebraciones.",
         "products": [
           236
         ]
@@ -32936,7 +32936,7 @@
         "heading": "Is the Yamaha DXS18XLF the Best Subwoofer for Live Bands?",
         "heading_es": "¿Es la Yamaha DXS18XLF el mejor subwoofer para bandas en vivo?",
         "content": "<strong>The Yamaha DXS18XLF is the rugged one, with the deepest bottom end and the best warranty story.</strong> Its 18-inch driver with a 4-inch voice coil hits 136 dB and the response drops to 30 Hz, the lowest in this group. D-XSUB processing gives you NORMAL, BOOST and XTENDED LF modes plus a cardioid setting, and the 96 kHz DSP with FIR-X tuning keeps everything clean. The polyurea-coated cabinet shrugs off scratches and road rash, and the fan is variable speed so it only kicks in when it must. Optional casters are sold separately, which is the only real gripe. 9 with Yamaha's extended warranty options, it's the sub for bands that tour and treat gear rough.",
-        "content_es": "<strong>La Yamaha DXS18XLF es la dura, con el grave más profundo y la mejor trayectoria de garantía.</strong> Su driver de 18 pulgadas con bobina de 4 pulgadas alcanza 136 dB y la respuesta baja hasta 30 Hz, lo más profundo del grupo. El procesado D-XSUB ofrece modos NORMAL, BOOST y XTENDED LF además de un ajuste cardioide, y el DSP de 96 kHz con afinación FIR-X lo mantiene todo limpio. El gabinete con recubrimiento de poliurea ni se entera de arañazos y rozaduras de carretera, y el ventilador es de velocidad variable así que solo se enciende cuando debe. Las ruedas opcionales se venden aparte, que es la única pega real. Con las opciones de garantía ampliada de Yamaha, es el sub para bandas que salen de gira y maltratan el equipo.",
+        "content_es": "<strong>La Yamaha DXS18XLF es la dura, con el grave más profundo y la mejor trayectoria de garantía.</strong> Su driver de 18 pulgadas con bobina de 4 pulgadas alcanza 136 dB y la respuesta baja hasta 30 Hz, lo más profundo del grupo. El procesado D-XSUB ofrece modos NORMAL, BOOST y XTENDED LF además de un ajuste cardioide, y el DSP de 96 kHz con afinación FIR-X lo mantiene todo limpio. El caja con recubrimiento de poliurea ni se entera de arañazos y rozaduras de carretera, y el ventilador es de velocidad variable así que solo se enciende cuando debe. Las ruedas opcionales se venden aparte, que es la única pega real. Con las opciones de garantía ampliada de Yamaha, es el sub para bandas que salen de gira y maltratan el equipo.",
         "products": [
           237
         ]
@@ -33073,7 +33073,7 @@
           "Graves rápidos y articulados que cortan en rock y metal",
           "136 dB con woofer de 18\" y bobina de 4\"",
           "DSP completo: Xover, fase, Deep/Punch, delay, cardioide",
-          "Gabinete de abedul báltico de gira a 56 kg",
+          "Caja de abedul báltico de gira a 56 kg",
           "PowerCON in/out permite encadenar la corriente entre cajas, y el socket M20 monta un top satélite"
         ],
         "cons": [
@@ -34422,7 +34422,7 @@
     "image": "https://r2.gear4music.com/media/47/477891/1200/preview.jpg",
     "badge": "recommended",
     "intro": "The right mic on a guitar cab changes everything. These are the best microphones for recording electric guitar, from studio standards to budget picks.",
-    "intro_es": "El micrófono correcto en un gabinete de guitarra lo cambia todo. Estos son los mejores micrófonos para grabar guitarra eléctrica, desde estándares de estudio hasta opciones económicas.",
+    "intro_es": "El micrófono correcto en un caja de guitarra lo cambia todo. Estos son los mejores micrófonos para grabar guitarra eléctrica, desde estándares de estudio hasta opciones económicas.",
     "sections": [
       {
         "heading": "Why Use Dynamic Microphones for Guitar Amps?",
@@ -34471,7 +34471,7 @@
         "heading": "How Does Mic Placement Affect Guitar Amp Tone?",
         "heading_es": "¿Cómo afecta la posición del micrófono al tono del amplificador?",
         "content": "<p><strong>The position of the mic on the cabinet affects the tone more than the choice of mic itself.</strong> The same SM57 can sound completely different depending on where you place it. Here are the basic parameters:</p><p><strong>Center vs edge:</strong> The center of the cone gives the brightest, most aggressive sound. Maximum attack and presence. This is the position for rock and metal. The edge of the cone (where it meets the rubber surround) gives a darker, rounder sound with less top end. Most classic rock tones fall somewhere between center and edge.</p><p><strong>Angle:</strong> Pointing the mic straight at the speaker (on-axis) gives the most direct sound. Angling it 30-45 degrees (off-axis) tames harsh high frequencies. It's a good starting point if the tone sounds too bright.</p><p><strong>Distance:</strong> With the mic touching the grille, you get maximum impact and minimal room sound. Pulling it back 2-6 inches introduces the natural phase cancellation between the speaker and the mic, which can sound good on certain amps. It's worth trying different distances.</p><p>The recommended approach: record the same riff in different positions and listen to what works best in the context of the song. Twenty minutes of testing can save hours of EQ later.</p>",
-        "content_es": "<p><strong>La posición del micrófono en el gabinete afecta el tono más que la elección del micrófono mismo.</strong> El mismo SM57 puede sonar completamente diferente dependiendo de dónde lo coloques. Aquí están los principios básicos:</p><p><strong>Centro vs borde:</strong> El centro del cono da el sonido más brillante y agresivo. Máximo ataque y presencia. Esta es la posición para rock y metal. El borde del cono (donde se encuentra con el borde de goma) da un sonido más oscuro y redondo con menos agudos. La mayoría de los tonos de rock clásico se encuentran entre el centro y el borde.</p><p><strong>Ángulo:</strong> Apuntar el micrófono directamente al altavoz (on-axis) da el sonido más directo. Inclinarlo 30-45 grados (off-axis) doma las frecuencias agudas agresivas. Es un buen punto de partida si el tono suena demasiado brillante.</p><p><strong>Distancia:</strong> Con el micrófono tocando la rejilla, obtienes máximo impacto y mínimo sonido de sala. Alejarlo 2-6 pulgadas introduce la cancelación de fase natural entre el altavoz y el micrófono, que puede sonar bien en ciertos amplificadores. Merece la pena probar diferentes distancias.</p><p>El enfoque recomendado: graba el mismo riff en diferentes posiciones y escucha cuál funciona mejor en el contexto de la canción. Veinte minutos de prueba pueden ahorrarte horas de ecualización después.</p>",
+        "content_es": "<p><strong>La posición del micrófono en el caja afecta el tono más que la elección del micrófono mismo.</strong> El mismo SM57 puede sonar completamente diferente dependiendo de dónde lo coloques. Aquí están los principios básicos:</p><p><strong>Centro vs borde:</strong> El centro del cono da el sonido más brillante y agresivo. Máximo ataque y presencia. Esta es la posición para rock y metal. El borde del cono (donde se encuentra con el borde de goma) da un sonido más oscuro y redondo con menos agudos. La mayoría de los tonos de rock clásico se encuentran entre el centro y el borde.</p><p><strong>Ángulo:</strong> Apuntar el micrófono directamente al altavoz (on-axis) da el sonido más directo. Inclinarlo 30-45 grados (off-axis) doma las frecuencias agudas agresivas. Es un buen punto de partida si el tono suena demasiado brillante.</p><p><strong>Distancia:</strong> Con el micrófono tocando la rejilla, obtienes máximo impacto y mínimo sonido de sala. Alejarlo 2-6 pulgadas introduce la cancelación de fase natural entre el altavoz y el micrófono, que puede sonar bien en ciertos amplificadores. Merece la pena probar diferentes distancias.</p><p>El enfoque recomendado: graba el mismo riff en diferentes posiciones y escucha cuál funciona mejor en el contexto de la canción. Veinte minutos de prueba pueden ahorrarte horas de ecualización después.</p>",
         "products": [
           5,
           51,
@@ -34576,8 +34576,8 @@
       "faq_a3_es": "Apunta el SM57 directamente al centro del cono, tocando la rejilla, on-axis. Da máximo ataque y mordida. Para más graves, añade un segundo micrófono en el borde.",
       "faq_q4_en": "Should I mic a combo amp or a cabinet differently?",
       "faq_a4_en": "Same technique applies. The speaker in a combo is identical to a cabinet speaker. Position the mic the same way. The main difference is combo amps sit lower, so you may need a shorter stand.",
-      "faq_q4_es": "¿Debo colocar el micrófono diferente en un combo que en un gabinete?",
-      "faq_a4_es": "Se aplica la misma técnica. El altavoz de un combo es idéntico al de un gabinete. La diferencia es que los combos son más bajos, quizás necesites un soporte más corto.",
+      "faq_q4_es": "¿Debo colocar el micrófono diferente en un combo que en un caja?",
+      "faq_a4_es": "Se aplica la misma técnica. El altavoz de un combo es idéntico al de un caja. La diferencia es que los combos son más bajos, quizás necesites un soporte más corto.",
       "faq_q5_en": "What is the best dynamic mic for bass guitar amps?",
       "faq_a5_en": "The Sennheiser MD 421 Kompakt works well because it captures more low-end. An AKG D112 or Electro-Voice RE20 are also good choices. The SM57 works but lacks low-end extension for bass.",
       "faq_q5_es": "¿Cuál es el mejor micrófono dinámico para amplificadores de bajo?",
@@ -35457,7 +35457,7 @@
         "heading": "Is the Hollyland MELO P1 the Ultimate Wireless Podcast Studio?",
         "heading_es": "¿Es el Hollyland MELO P1 el estudio de podcast inalámbrico definitivo?",
         "content": "<p><strong>The MELO P1 is a wireless record-and-mix studio in one unit — the closest thing to a podcasting console that needs no desk at all.</strong> A 1-inch large-diaphragm condenser with AI noise cancelling feeds a 55g Dual-DSP smart mixer that blends up to four sources in real time with 32-bit processing. Two people can throw the P1 on the table and record a full two-mic conversation plus phone call or backing track without a mixer, cables or an interface.</p><p><strong>It doubles as a monitoring and mixing system.</strong> Custom-tuned 10mm earphones let you hear the live mix while your guest listens separately, and the HollyAudio app adds over 100 presets and nine pro effects — EQ, compression and reverb — applied to the mix before it hits the recording. Up to 40 hours of runtime with dual USB-C PD fast charging (up to 60W) means a full week of shows on one charge.</p><p><strong>The other side of the coin: this is a different shape of podcasting.</strong> You get hybrids instead of a broadcast dynamic-desk signal chain, and it shines brightest for travel, remote guests and two-person table setups. If you host in a treated studio with a fixed guest chair, a wired SM7B straight into an interface still wins on pure voice detail — but for flexibility the MELO P1 is unlike anything else on this page.</p>",
-        "content_es": "<p><strong>El MELO P1 es un estudio inalámbrico de grabación y mezcla en una sola unidad — lo más parecido a una consola de podcasting que no necesita escritorio en absoluto.</strong> Un condensador de diafragma grande de 1 pulgada con cancelación de ruido por IA alimenta una mezcladora inteligente Dual-DSP de 55g que combina hasta cuatro fuentes en tiempo real con procesamiento de 32 bits. Dos personas pueden poner el P1 sobre la mesa y grabar una conversación completa de dos micrófonos más una llamada telefónica o pista de acompañamiento sin mezcladora, cables ni interfaz.</p><p><strong>Además funciona como sistema de monitorización y mezcla.</strong> Los auriculares sintonizados de 10mm te dejan oír la mezcla en vivo mientras tu invitado escucha por separado, y la app HollyAudio añade más de 100 presets y nueve efectos profesionales — EQ, compresión y reverb — aplicados a la mezcla antes de que llegue a la grabación. Hasta 40 horas de autonomía con carga rápida USB-C PD dual (hasta 60W) significan una semana entera de programas con una sola carga.</p><p><strong>El compromiso honesto: es otra forma de podcasting.</strong> Obtienes híbridos en lugar de una cadena de señal de consola dinámica de broadcast, y brilla sobre todo para viajes, invitados remotos y setups de mesa a dos personas. Si grabas en un estudio tratado con silla fija de invitado, un SM7B cableado directo a una interfaz sigue ganando en detalle puro de voz — pero en flexibilidad el MELO P1 no se parece a nada más de esta página.</p>",
+        "content_es": "<p><strong>El MELO P1 es un estudio inalámbrico de grabación y mezcla en una sola unidad — lo más parecido a una consola de podcasting que no necesita mesa en absoluto.</strong> Un condensador de diafragma grande de 1 pulgada con cancelación de ruido por IA alimenta una mezcladora inteligente Dual-DSP de 55g que combina hasta cuatro fuentes en tiempo real con procesamiento de 32 bits. Dos personas pueden poner el P1 sobre la mesa y grabar una conversación completa de dos micrófonos más una llamada telefónica o pista de acompañamiento sin mezcladora, cables ni interfaz.</p><p><strong>Además funciona como sistema de monitorización y mezcla.</strong> Los auriculares sintonizados de 10mm te dejan oír la mezcla en vivo mientras tu invitado escucha por separado, y la app HollyAudio añade más de 100 presets y nueve efectos profesionales — EQ, compresión y reverb — aplicados a la mezcla antes de que llegue a la grabación. Hasta 40 horas de autonomía con carga rápida USB-C PD dual (hasta 60W) significan una semana entera de programas con una sola carga.</p><p><strong>El compromiso honesto: es otra forma de podcasting.</strong> Obtienes híbridos en lugar de una cadena de señal de consola dinámica de broadcast, y brilla sobre todo para viajes, invitados remotos y setups de mesa a dos personas. Si grabas en un estudio tratado con silla fija de invitado, un SM7B cableado directo a una interfaz sigue ganando en detalle puro de voz — pero en flexibilidad el MELO P1 no se parece a nada más de esta página.</p>",
         "products": [
           508
         ]
@@ -38410,7 +38410,7 @@
         "heading": "Is the Genelec 8010A the Best Compact Reference Monitor?",
         "heading_es": "¿Es el Genelec 8010A el mejor monitor de referencia compacto?",
         "content": "<p><strong>The Genelec 8010A proves that reference-grade monitoring does not need a big box. This 3-inch nearfield delivers the same die-cast aluminum build and ±2.5 dB accuracy as Genelec's larger monitors in a package that fits anywhere.</strong> The ISS auto-standby cuts power when you step away, and the sealed enclosure keeps resonances out of the sound. Genelec's unit-to-unit consistency means what you hear on your pair matches what you hear in any other 8010A-equipped studio.</p><p><strong>The catch: </strong>the 3-inch woofer keeps the low end present but not deep, so bass-heavy mixes need a subwoofer. Each it is also the priciest per-driver in this guide — you are paying for accuracy and precision, not output <a class=\"guide-link-btn\" href=\"/guides/adam-vs-genelec_es.html\">Adam Audio vs Genelec: tweeter, sonido y valor</a> <a class=\"guide-link-btn\" href=\"/guides/atc-vs-genelec_es.html\">ATC SCM25A Pro Mk2 vs Genelec 8351B: duelo de monitores pro</a></p>",
-        "content_es": "<p><strong>El Genelec 8010A demuestra que la monitorización de grado de referencia no necesita una caja grande — este nearfield de 3 pulgadas ofrece la misma construcción de aluminio fundido y precisión de ±2,5 dB que los monitores más grandes de Genelec en un paquete que cabe en cualquier sitio.</strong> El auto-standby ISS corta la energía cuando te alejas, y el gabinete sellado mantiene las resonancias a raya. La consistencia entre unidades de Genelec significa que lo que escuchas en tu par coincide con lo que escuchas en cualquier otro estudio equipado con 8010A.</p><p><strong>El inconveniente: </strong>el woofer de 3 pulgadas mantiene los graves presentes, pero no profundos, así que las mezclas con muchos graves necesitan un subwoofer. Por unidad, es el más caro por driver de esta guía: pagas por precisión, no por volumen <a class=\"guide-link-btn\" href=\"/guides/adam-vs-genelec_es.html\">Adam Audio vs Genelec: tweeter, sonido y valor</a> <a class=\"guide-link-btn\" href=\"/guides/atc-vs-genelec_es.html\">ATC SCM25A Pro Mk2 vs Genelec 8351B: duelo de monitores pro</a></p>",
+        "content_es": "<p><strong>El Genelec 8010A demuestra que la monitorización de grado de referencia no necesita una caja grande — este nearfield de 3 pulgadas ofrece la misma construcción de aluminio fundido y precisión de ±2,5 dB que los monitores más grandes de Genelec en un paquete que cabe en cualquier sitio.</strong> El auto-standby ISS corta la energía cuando te alejas, y el caja sellado mantiene las resonancias a raya. La consistencia entre unidades de Genelec significa que lo que escuchas en tu par coincide con lo que escuchas en cualquier otro estudio equipado con 8010A.</p><p><strong>El inconveniente: </strong>el woofer de 3 pulgadas mantiene los graves presentes, pero no profundos, así que las mezclas con muchos graves necesitan un subwoofer. Por unidad, es el más caro por driver de esta guía: pagas por precisión, no por volumen <a class=\"guide-link-btn\" href=\"/guides/adam-vs-genelec_es.html\">Adam Audio vs Genelec: tweeter, sonido y valor</a> <a class=\"guide-link-btn\" href=\"/guides/atc-vs-genelec_es.html\">ATC SCM25A Pro Mk2 vs Genelec 8351B: duelo de monitores pro</a></p>",
         "products": [
           19,
           303
@@ -38429,7 +38429,7 @@
         "heading": "Is the Genelec 8351B the Best High-End Coaxial Monitor?",
         "heading_es": "¿Es el Genelec 8351B el mejor monitor coaxial de gama alta?",
         "content": "<p><strong>The Genelec 8351B is the endgame monitor of this guide — a three-way coaxial point source that adapts itself to your room.</strong> Two Acoustically Concealed Woofers work through slots at the enclosure edges while the Minimum Diffraction Coaxial driver places a 5-inch midrange and 1-inch metal-dome tweeter on the same axis, all driven by 550W of Class D power (250W + 150W + 150W). GLM AutoCal calibration tunes the response to your space, delivering 38 Hz to 20 kHz within ±1.5 dB and 113 dB short-term output.</p><p><strong>The catch: </strong>a single 8351B costs more than the other eight monitors in this guide combined. Nothing here touches its imaging or consistency, but for an untreated bedroom it is money you cannot hear <a class=\"guide-link-btn\" href=\"/guides/adam-vs-genelec_es.html\">Adam Audio vs Genelec: tweeter, sonido y valor</a></p>",
-        "content_es": "<p><strong>El Genelec 8351B es el monitor definitivo de esta guía — una fuente puntual coaxial de 3 vías que se adapta a tu sala.</strong> Dos woofers acústicamente ocultos emiten a través de ranuras en los bordes del gabinete mientras el driver coaxial de mínima difracción coloca un medio de 5 pulgadas y un tweeter de cúpula metálica de 1 pulgada en el mismo eje, todo impulsado por 550 W de potencia en clase D (250 W + 150 W + 150 W). La calibración GLM AutoCal ajusta la respuesta a tu espacio, con respuesta de 38 Hz a 20 kHz dentro de ±1,5 dB y 113 dB de salida a corto plazo.</p><p><strong>El inconveniente: </strong>un solo 8351B cuesta más que los otros ocho monitores de esta guía juntos. Nada aquí iguala su imagen o consistencia, pero para un dormitorio sin tratar es dinero tirado <a class=\"guide-link-btn\" href=\"/guides/adam-vs-genelec_es.html\">Adam Audio vs Genelec: tweeter, sonido y valor</a></p>",
+        "content_es": "<p><strong>El Genelec 8351B es el monitor definitivo de esta guía — una fuente puntual coaxial de 3 vías que se adapta a tu sala.</strong> Dos woofers acústicamente ocultos emiten a través de ranuras en los bordes del caja mientras el driver coaxial de mínima difracción coloca un medio de 5 pulgadas y un tweeter de cúpula metálica de 1 pulgada en el mismo eje, todo impulsado por 550 W de potencia en clase D (250 W + 150 W + 150 W). La calibración GLM AutoCal ajusta la respuesta a tu espacio, con respuesta de 38 Hz a 20 kHz dentro de ±1,5 dB y 113 dB de salida a corto plazo.</p><p><strong>El inconveniente: </strong>un solo 8351B cuesta más que los otros ocho monitores de esta guía juntos. Nada aquí iguala su imagen o consistencia, pero para un dormitorio sin tratar es dinero tirado <a class=\"guide-link-btn\" href=\"/guides/adam-vs-genelec_es.html\">Adam Audio vs Genelec: tweeter, sonido y valor</a></p>",
         "products": [
           331
         ]
@@ -38438,7 +38438,7 @@
         "heading": "Is the Kali WS-6.2 the Best Compact Studio Subwoofer?",
         "heading_es": "¿Es el Kali WS-6.2 el mejor subwoofer compacto de estudio?",
         "content": "<p><strong>The Kali WS-6.2 adds genuine sub-bass to small monitors without taking over your room.</strong> Two horizontally opposed 6.5-inch high-excursion woofers cancel each other’s vibration, so the cabinet stays put while a 400W Class-D amplifier (1000W peak) drives them to 120 dB max SPL with extension down to 27 Hz. Selectable 80 Hz, LFE and external crossover modes plus polarity inversion let it blend with almost any monitors, and the front-ported enclosure is barely larger than an 8-inch speaker.</p><p><strong>The catch: </strong>it is a subwoofer, not a monitor — it needs a pair to complete, and it adds another box and another cost to the setup. But if your 5-inch monitors run out of low end, this is the most compact honest fix <a class=\"guide-link-btn\" href=\"/guides/studio-subwoofers.html\">Studio subwoofer guide</a></p>",
-        "content_es": "<p><strong>El Kali WS-6.2 añade subgraves genuinos a monitores pequeños sin comerse tu sala.</strong> Dos woofers de 6,5 pulgadas de alta excursión opuestos horizontalmente se cancelan entre sí, así que el gabinete no se mueve mientras un amplificador en clase D de 400 W (1.000 W de pico) los impulsa hasta 120 dB de SPL máximo con extensión hasta 27 Hz. Los modos de cruce seleccionables de 80 Hz, LFE y externo, más la inversión de polaridad, le permiten integrarse con casi cualquier monitor, y el gabinete con puerto frontal apenas es más grande que un altavoz de 8 pulgadas.</p><p><strong>El inconveniente: </strong>es un subwoofer, no un monitor — necesita un par que lo complete, y añade otra caja y otro coste al equipo. Pero si tus monitores de 5 pulgadas se quedan sin graves, esta es la solución honesta más compacta <a class=\"guide-link-btn\" href=\"/guides/studio-subwoofers-setup_es.html\">Configurar un subwoofer de estudio: posición y calibración</a></p>",
+        "content_es": "<p><strong>El Kali WS-6.2 añade subgraves genuinos a monitores pequeños sin comerse tu sala.</strong> Dos woofers de 6,5 pulgadas de alta excursión opuestos horizontalmente se cancelan entre sí, así que el caja no se mueve mientras un amplificador en clase D de 400 W (1.000 W de pico) los impulsa hasta 120 dB de SPL máximo con extensión hasta 27 Hz. Los modos de cruce seleccionables de 80 Hz, LFE y externo, más la inversión de polaridad, le permiten integrarse con casi cualquier monitor, y el caja con puerto frontal apenas es más grande que un altavoz de 8 pulgadas.</p><p><strong>El inconveniente: </strong>es un subwoofer, no un monitor — necesita un par que lo complete, y añade otra caja y otro coste al equipo. Pero si tus monitores de 5 pulgadas se quedan sin graves, esta es la solución honesta más compacta <a class=\"guide-link-btn\" href=\"/guides/studio-subwoofers-setup_es.html\">Configurar un subwoofer de estudio: posición y calibración</a></p>",
         "products": [
           300
         ]
@@ -39163,7 +39163,7 @@
         "cons_es": [
           "Medios presentados y exigentes que requieren buen tratamiento de sala",
           "Sin corrección de sala ni DSP integrados",
-          "El gabinete grande domina escritorios pequeños y necesita espacio",
+          "El caja grande domina escritorios pequeños y necesita espacio",
           "El puerto de graves trasero exige distancia a la pared para evitar retumbos"
         ]
       },
@@ -39241,7 +39241,7 @@
         "pros_es": [
           "Precisión de grado de referencia con exactitud de ±2.5 dB en un nearfield diminuto",
           "Construcción de aluminio fundido con auto-standby ISS",
-          "El gabinete sellado mantiene las resonancias fuera del sonido",
+          "El caja sellado mantiene las resonancias fuera del sonido",
           "Consistencia de unidad a unidad en toda la gama"
         ],
         "cons_es": [
@@ -39325,7 +39325,7 @@
           "31 lbs of subwoofer — not a box you move around"
         ],
         "pros_es": [
-          "Los woofers opuestos de 6,5 pulgadas cancelan la vibración — graves profundos sin traqueteo del gabinete",
+          "Los woofers opuestos de 6,5 pulgadas cancelan la vibración — graves profundos sin traqueteo del caja",
           "120 dB de SPL máximo hasta 27 Hz desde una caja compacta con puerto frontal",
           "Cruce de 80 Hz / LFE / externo más inversión de polaridad para emparejar con cualquier monitor",
           "Headroom clase D de 400W RMS (1000W pico)"
@@ -39456,7 +39456,7 @@
         "q": "Does the Kali WS-6.2 only work with Kali monitors?",
         "a": "No. The selectable 80 Hz, LFE and external crossover modes plus polarity inversion let it pair with almost any studio monitors. Its two horizontally opposed 6.5-inch woofers cancel cabinet vibration while delivering 120 dB max SPL down to 27 Hz from a box barely bigger than an 8-inch monitor — 400 W RMS with 1000 W peaks. It is the compact way to add real low end to any small setup.",
         "q_es": "¿El Kali WS-6.2 solo funciona con monitores Kali?",
-        "a_es": "No. Los modos de cruce seleccionables de 80 Hz, LFE y externo más la inversión de polaridad le permiten emparejarse con casi cualquier monitor de estudio. Sus dos woofers de 6,5 pulgadas opuestos horizontalmente cancelan la vibración del gabinete mientras entregan 120 dB de SPL máximo hasta 27 Hz desde una caja apenas mayor que un monitor de 8 pulgadas — 400 W RMS con picos de 1000 W. Es la forma compacta de añadir graves reales a cualquier configuración pequeña."
+        "a_es": "No. Los modos de cruce seleccionables de 80 Hz, LFE y externo más la inversión de polaridad le permiten emparejarse con casi cualquier monitor de estudio. Sus dos woofers de 6,5 pulgadas opuestos horizontalmente cancelan la vibración del caja mientras entregan 120 dB de SPL máximo hasta 27 Hz desde una caja apenas mayor que un monitor de 8 pulgadas — 400 W RMS con picos de 1000 W. Es la forma compacta de añadir graves reales a cualquier configuración pequeña."
       },
       {
         "q": "Is the Kali IN-UNF a replacement for normal studio monitors?",
@@ -39541,7 +39541,7 @@
           307
         ],
         "content": "<p><strong>The Kali Audio LP-UNF is a compact powered nearfield monitor built for the two walls every small room has: yours and your screen.</strong> A 4.5-inch long-excursion woofer and 1-inch textile dome sit in a front-ported cabinet, with a 3-D imaging waveguide that widens the sweet spot at close distances.</p><p><strong>Why it works in small rooms: </strong>The Boundary EQ tames desk reflections, the front port allows near-wall placement without false bass, and USB-C, Bluetooth 5.1, RCA and TRS inputs cover any source. The 39Hz-25kHz (-10 dB) response with 103dB max SPL comes from 160W Class-D per pair.</p><p><strong>The catch: </strong>There are no XLR inputs — TRS, RCA and digital only, and the ±3 dB response starts at 54 Hz, so deep sub-bass still needs a sub. The pair it undercuts most compact competition.</p>",
-        "content_es": "<p><strong>El Kali Audio LP-UNF es un monitor nearfield compacto construido para las dos paredes que hay en toda sala pequeña: la de detrás y la de tu pantalla.</strong> Un woofer de 4,5 pulgadas de alta excursión y un tweeter de cúpula textil de 1 pulgada van montados en un gabinete con puerto frontal, con una guía de onda 3-D que amplía el punto ideal a corta distancia.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El Boundary EQ doma las reflexiones del escritorio, el puerto frontal permite colocarlo cerca de la pared sin falsos graves, y las entradas USB-C, Bluetooth 5.1, RCA y TRS cubren cualquier fuente. La respuesta de 39 Hz-25 kHz (-10 dB) con 103 dB de SPL máximo viene de 160 W en Clase D por par.</p><p><strong>El inconveniente: </strong>No hay entradas XLR — solo TRS, RCA y digitales, y la respuesta de ±3 dB empieza en 54 Hz, así que los subgraves profundos siguen necesitando un sub. El par cuesta menos que casi toda la competencia compacta.</p>"
+        "content_es": "<p><strong>El Kali Audio LP-UNF es un monitor nearfield compacto construido para las dos paredes que hay en toda sala pequeña: la de detrás y la de tu pantalla.</strong> Un woofer de 4,5 pulgadas de alta excursión y un tweeter de cúpula textil de 1 pulgada van montados en un caja con puerto frontal, con una guía de onda 3-D que amplía el punto ideal a corta distancia.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El Boundary EQ doma las reflexiones del escritorio, el puerto frontal permite colocarlo cerca de la pared sin falsos graves, y las entradas USB-C, Bluetooth 5.1, RCA y TRS cubren cualquier fuente. La respuesta de 39 Hz-25 kHz (-10 dB) con 103 dB de SPL máximo viene de 160 W en Clase D por par.</p><p><strong>El inconveniente: </strong>No hay entradas XLR — solo TRS, RCA y digitales, y la respuesta de ±3 dB empieza en 54 Hz, así que los subgraves profundos siguen necesitando un sub. El par cuesta menos que casi toda la competencia compacta.</p>"
       },
       {
         "heading": "iLoud Micro Monitor Pro: The Ultra-Compact System for Tiny Rooms",
@@ -39578,7 +39578,7 @@
           303
         ],
         "content": "<p><strong>The Genelec 8010A proves that reference monitoring doesn't need a big box. This 3-inch monitor delivers the same die-cast aluminum build and 25W per driver as its bigger siblings in a 195mm package.</strong> The response is ±2.5dB from 74Hz to 20kHz, tighter than many 5-inch monitors.</p><p><strong>Why it works in small rooms: </strong>The ISS auto-standby cuts power when you walk away, and the die-cast enclosure keeps resonances out of the sound. Genelec's unit-to-unit consistency means what you hear in your room matches what you hear in any other 8010A-equipped studio.</p><p><strong>The catch: </strong> at $399 each it is pricey for a 3-inch monitor, and the 3-inch woofer means the low end is present but not deep — you will want a sub for bass-heavy mixing.</p>",
-        "content_es": "<p><strong>El Genelec 8010A demuestra que la monitorización de referencia no necesita una caja grande — este monitor de 3 pulgadas entrega la misma construcción de aluminio fundido y 25 W por driver que sus hermanos mayores en un paquete de 195mm.</strong> La respuesta es ±2,5 dB de 74 Hz a 20 kHz, más precisa que muchos monitores de 5 pulgadas.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El auto-standby ISS corta la energía cuando te alejas, y el gabinete de aluminio fundido mantiene las resonancias a raya. La consistencia entre unidades de Genelec significa que lo que escuchas en tu sala coincide con lo que escuchas en cualquier otro estudio con 8010A.</p><p><strong>El inconveniente: </strong>por $399 la unidad, es caro para un monitor de 3 pulgadas, y el woofer de 3 pulgadas significa que los graves están presentes pero no son profundos — querrás un sub para mezclar música con muchos graves.</p>"
+        "content_es": "<p><strong>El Genelec 8010A demuestra que la monitorización de referencia no necesita una caja grande — este monitor de 3 pulgadas entrega la misma construcción de aluminio fundido y 25 W por driver que sus hermanos mayores en un paquete de 195mm.</strong> La respuesta es ±2,5 dB de 74 Hz a 20 kHz, más precisa que muchos monitores de 5 pulgadas.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El auto-standby ISS corta la energía cuando te alejas, y el caja de aluminio fundido mantiene las resonancias a raya. La consistencia entre unidades de Genelec significa que lo que escuchas en tu sala coincide con lo que escuchas en cualquier otro estudio con 8010A.</p><p><strong>El inconveniente: </strong>por $399 la unidad, es caro para un monitor de 3 pulgadas, y el woofer de 3 pulgadas significa que los graves están presentes pero no son profundos — querrás un sub para mezclar música con muchos graves.</p>"
       },
       {
         "heading": "ADAM Audio T5V: The Most Affordable Ribbon-Tweeter Monitor",
@@ -39596,7 +39596,7 @@
           372
         ],
         "content": "<p><strong>The Genelec 8030C is the professional's choice when space is tight but compromise is not — a compact 5-inch monitor built in Finland with the same die-cast aluminium MDE enclosure and DCW waveguide found in Genelec's 8000 series.</strong> Two 50W Class D amplifiers drive a 130 mm woofer and 19 mm metal dome tweeter to 104 dB SPL, with a 47 Hz–25 kHz (-6 dB) response and ±2 dB accuracy from 54 Hz to 20 kHz. The tightest tolerance in this guide.</p><p><strong>Why it works in small rooms: </strong>The Iso-Pod stand decouples the monitor from your desk and lets you tilt it for precise acoustic alignment. Room response switches on the rear panel (bass tilt, treble tilt, bass roll-off, desktop control) let you tune the response for your exact placement — near a wall, on a desk, or on stands. The ISS auto-standby saves power when you step away.</p><p><strong>The catch: </strong>At around $599 per unit is the priciest 5-inch monitor here, and you will need a pair for stereo mixing. But the build quality, unit-to-unit consistency, and flat response make it the go-to reference in project studios worldwide. If your budget stretches, this is the monitor that will grow with you.</p>",
-        "content_es": "<p><strong>El Genelec 8030C es la elección de los profesionales cuando el espacio es ajustado pero el nivel de exigencia no: un monitor compacto de 5 pulgadas fabricado en Finlandia con el mismo gabinete de aluminio fundido MDE y la guía de onda DCW que se encuentran en la serie 8000 de alta gama de Genelec.</strong> Dos amplificadores en Clase D de 50 W impulsan un woofer de 130 mm y un tweeter de cúpula metálica de 19 mm hasta 104 dB SPL, con una respuesta de 47 Hz a 25 kHz (-6 dB) y precisión de ±2 dB de 54 Hz a 20 kHz — la tolerancia más ajustada de esta guía.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El soporte Iso-Pod desacopla el monitor de tu escritorio y te permite orientarlo con precisión acústica. Los interruptores de compensación de respuesta de sala en el panel trasero (recorte de graves, ajuste de agudos, atenuación de graves, modo escritorio) te permiten ajustar la respuesta para tu colocación exacta — cerca de una pared, en un escritorio o en soportes. El auto-standby ISS ahorra energía cuando te alejas.</p><p><strong>El inconveniente: </strong>Con un precio de alrededor de $599 por unidad, es el monitor de 5 pulgadas más caro de esta guía, y necesitarás un par para mezcla estéreo. Pero la calidad de construcción, la consistencia entre unidades y la respuesta plana lo convierten en el estándar de referencia en estudios de proyecto en todo el mundo. Si tu presupuesto lo permite, este es tu monitor definitivo.</p>"
+        "content_es": "<p><strong>El Genelec 8030C es la elección de los profesionales cuando el espacio es ajustado pero el nivel de exigencia no: un monitor compacto de 5 pulgadas fabricado en Finlandia con el mismo caja de aluminio fundido MDE y la guía de onda DCW que se encuentran en la serie 8000 de alta gama de Genelec.</strong> Dos amplificadores en Clase D de 50 W impulsan un woofer de 130 mm y un tweeter de cúpula metálica de 19 mm hasta 104 dB SPL, con una respuesta de 47 Hz a 25 kHz (-6 dB) y precisión de ±2 dB de 54 Hz a 20 kHz — la tolerancia más ajustada de esta guía.</p><p><strong>Por qué funciona en salas pequeñas: </strong>El soporte Iso-Pod desacopla el monitor de tu escritorio y te permite orientarlo con precisión acústica. Los interruptores de compensación de respuesta de sala en el panel trasero (recorte de graves, ajuste de agudos, atenuación de graves, modo escritorio) te permiten ajustar la respuesta para tu colocación exacta — cerca de una pared, en un escritorio o en soportes. El auto-standby ISS ahorra energía cuando te alejas.</p><p><strong>El inconveniente: </strong>Con un precio de alrededor de $599 por unidad, es el monitor de 5 pulgadas más caro de esta guía, y necesitarás un par para mezcla estéreo. Pero la calidad de construcción, la consistencia entre unidades y la respuesta plana lo convierten en el estándar de referencia en estudios de proyecto en todo el mundo. Si tu presupuesto lo permite, este es tu monitor definitivo.</p>"
       },
       {
         "heading": "KRK Rokit 5 G5: DSP Room Tuning on a Budget",
@@ -40379,7 +40379,7 @@
         "pros_es": [
           "Rango medio brutalmente honesto que hace que tus mezclas se traduzcan en todas partes",
           "Interruptores ROOM CONTROL y HIGH TRIM que doman los graves pegados a la pared sin software",
-          "Gabinete compacto de 28.5 cm con woofer de 5 pulgadas del tamaño justo para salas pequeñas",
+          "Caja compacta de 28.5 cm con woofer de 5 pulgadas del tamaño justo para salas pequeñas",
           "~$199 cada uno — el estándar de referencia a precio de estudio real"
         ],
         "cons": [
@@ -40546,7 +40546,7 @@
         ],
         "pros_es": [
           "±2.5dB de 74Hz a 20kHz — más preciso que muchos monitores de 5 pulgadas",
-          "El gabinete de aluminio fundido mantiene las resonancias fuera",
+          "El caja de aluminio fundido mantiene las resonancias fuera",
           "El auto-standby ISS corta la energía cuando te alejas",
           "Consistencia de unidad a unidad en la que puedes confiar"
         ],
@@ -40601,7 +40601,7 @@
           "104 dB SPL from two 50W Class D amplifiers; ISS auto-standby saves power"
         ],
         "pros_es": [
-          "Gabinete de aluminio fundido MDE con guía de onda DCW — el estándar de referencia profesional",
+          "Caja de aluminio fundido MDE con guía de onda DCW — el estándar de referencia profesional",
           "Precisión de ±2 dB de 54 Hz a 20 kHz — la tolerancia más ajustada de esta guía",
           "El soporte Iso-Pod desacopla del escritorio y permite inclinación; interruptores de respuesta de sala al rear",
           "104 dB SPL desde dos amplificadores Class D de 50W; auto-standby ISS ahorra energía"
@@ -42825,7 +42825,7 @@
         "cons_es": [
           "1000W y 126 dB se quedan cortos frente a los 1000W/131 dB del K12.2 para salas grandes",
           "Los presets DSP son de fijar y olvidar, menos ajustables que los del K12.2",
-          "El gabinete de polipropileno es ligero pero menos rígido que el ABS del QSC",
+          "El caja de polipropileno es ligero pero menos rígido que el ABS del QSC",
           "Cuesta menos que el K12.2, pero no tiene su resistencia de carretera"
         ]
       },
@@ -52392,7 +52392,7 @@
           "Extremadamente pesado (68 lbs): requiere dos personas para las escaleras y el maletero del coche",
           "30 vatios ruidosos: no se puede tocar a nivel de habitación sin una caja de atenuación",
           "Fiabilidad impredecible: el diseño vintage sufre deriva de polarización y fallos de capacitores comunes en unidades antiguas",
-          "La gran huella del gabinete ocupa un espacio significativo en el escenario o el estudio"
+          "La gran huella del caja ocupa un espacio significativo en el escenario o el estudio"
         ]
       }
     ],
@@ -58492,7 +58492,7 @@
         "heading": "Is the EV ZLX-12P-G2 the Best Entry-Level Professional PA Speaker?",
         "heading_es": "¿Es el EV ZLX-12P-G2 el mejor altavoz PA profesional de entrada?",
         "content": "<strong>The Electro-Voice ZLX-12P-G2 is the best-selling professional powered PA speaker. </strong>It is the go-to choice for working musicians who want pro quality without the pro price tag. It delivers 2500W peak power through a 12-inch woofer and titanium compression driver, producing clean, balanced sound that punches well above its weight class at just 30 pounds. What makes the ZLX-12P-G2 special is EV's DSP with preset voicings for Music, Speech, Club, and Monitoring — each optimized by EV's engineers for specific applications. The speaker also features a 3-band EQ, LCD display for easy navigation, and a rugged ABS enclosure that survives years of gigging. The 12-inch woofer provides tight, punchy low end that works well for kick drum and bass without a subwoofer in small venues. For bands graduating from budget speakers to real professional gear, the ZLX-12P-G2 is the perfect first upgrade — it sounds noticeably better than anything in its price range.",
-        "content_es": "<strong>El Electro-Voice ZLX-12P-G2 es el altavoz PA activo profesional más vendido. </strong> Es la opción preferida para músicos trabajadores que quieren calidad profesional sin el precio profesional. Entrega 2.000 W de potencia pico a través de un woofer de 12 pulgadas y driver de compresión de titanio, produciendo un sonido limpio y equilibrado que rinde muy por encima de su clase de peso con solo 13,6 kg. Lo que hace especial al ZLX-12P-G2 es el DSP de EV con preajustes para Música, Voz, Club y Monitoreo — cada uno optimizado por los ingenieros de EV para aplicaciones específicas. El altavoz también cuenta con EQ de 3 bandas, pantalla LCD para navegación fácil y un gabinete de ABS resistente que sobrevive años de conciertos. El woofer de 12 pulgadas proporciona graves ajustados y contundentes que funcionan bien para el bombo y el bajo sin subwoofer en lugares pequeños. Para bandas que pasan de altavoces económicos a equipo profesional real, el ZLX-12P-G2 es el primer salto de calidad ideal.",
+        "content_es": "<strong>El Electro-Voice ZLX-12P-G2 es el altavoz PA activo profesional más vendido. </strong> Es la opción preferida para músicos trabajadores que quieren calidad profesional sin el precio profesional. Entrega 2.000 W de potencia pico a través de un woofer de 12 pulgadas y driver de compresión de titanio, produciendo un sonido limpio y equilibrado que rinde muy por encima de su clase de peso con solo 13,6 kg. Lo que hace especial al ZLX-12P-G2 es el DSP de EV con preajustes para Música, Voz, Club y Monitoreo — cada uno optimizado por los ingenieros de EV para aplicaciones específicas. El altavoz también cuenta con EQ de 3 bandas, pantalla LCD para navegación fácil y un caja de ABS resistente que sobrevive años de conciertos. El woofer de 12 pulgadas proporciona graves ajustados y contundentes que funcionan bien para el bombo y el bajo sin subwoofer en lugares pequeños. Para bandas que pasan de altavoces económicos a equipo profesional real, el ZLX-12P-G2 es el primer salto de calidad ideal.",
         "products": [
           105
         ]
@@ -58519,7 +58519,7 @@
         "heading": "JBL EON712: A 1300W Box With dbx DriveRack Inside",
         "heading_es": "JBL EON712: una caja de 1300 W con dbx DriveRack dentro",
         "content": "<strong>The budget box with a pro app watching over it.</strong> 1300W peak and 127 dB from a custom 12-inch woofer, tuned by dbx DriveRack DSP with feedback suppression and 8-band EQ, all remote-controlled over Bluetooth. Doubles as a 55-degree wedge when monitor duty calls.</p><p>Plastic cabinet and a single 12-inch driver set physical limits no DSP overcomes at full tilt — but as the first serious PA for bands graduating from rehearsal rooms, it replaces a rack of outboard while fitting the van and the budget.",
-        "content_es": "<strong>La caja económica con una app pro vigilando.</strong> 1.300 W de pico y 127 dB de un woofer a medida de 12 pulgadas, afinados por DSP dbx DriveRack con antiaceople y EQ de 8 bandas, todo controlado por Bluetooth. Sirve como cuña a 55 grados cuando hace de monitor.</p><p>El gabinete plástico y un solo 12 imponen límites físicos que ningún DSP supera a tope — pero como primer PA serio para bandas que salen del local, reemplaza un rack de cacharros cabiendo en la furgo y el presupuesto.",
+        "content_es": "<strong>La caja económica con una app pro vigilando.</strong> 1.300 W de pico y 127 dB de un woofer a medida de 12 pulgadas, afinados por DSP dbx DriveRack con antiaceople y EQ de 8 bandas, todo controlado por Bluetooth. Sirve como cuña a 55 grados cuando hace de monitor.</p><p>El caja plástico y un solo 12 imponen límites físicos que ningún DSP supera a tope — pero como primer PA serio para bandas que salen del local, reemplaza un rack de cacharros cabiendo en la furgo y el presupuesto.",
         "products": [
           493
         ]
@@ -58923,7 +58923,7 @@
           "1000W Clase-D con presets DSP y control Bluetooth",
           "Salida limpia de 2000W a través de un woofer de 12 pulgadas y tweeter de titanio",
           "Presets DSP de EV para Música, Voz, Club y Monitoreo",
-          "Gabinete ABS ligero de 15.6 kg que sobrevive años de conciertos"
+          "Caja ABS ligera de 15.6 kg que sobrevive años de conciertos"
         ],
         "cons": [
           "It sits at the top of the budget range",
@@ -58960,7 +58960,7 @@
           "132 dB is peak power — continuous headroom is lower"
         ],
         "cons_es": [
-          "El gabinete de polipropileno es ligero pero menos premium que el de madera",
+          "El caja de polipropileno es ligero pero menos premium que el de madera",
           "Su sonido contundente es menos refinado que el del Yamaha DBR12",
           "El rendimiento de la app varía según el teléfono",
           "132 dB es potencia pico — el margen continuo es menor"
@@ -58991,7 +58991,7 @@
           "A está por encima de las opciones más baratas",
           "2000W de pico son suficientes pero no los más potentes de la lista",
           "Sin streaming Bluetooth integrado — necesitas un cable o un receptor externo para reproducir música del teléfono",
-          "El gabinete de plástico no tiene la dureza de carretera de algunos rivales"
+          "El caja de plástico no tiene la dureza de carretera de algunos rivales"
         ]
       },
       {
@@ -62668,7 +62668,7 @@
         "heading": "Best DI for Bass: Tech 21 SansAmp Bass Driver DI v2",
         "heading_es": "Mejor DI para bajo: Tech 21 SansAmp Bass Driver DI v2",
         "content": "<p><strong>The SansAmp Bass Driver DI is not just a DI box — it's the sound of modern bass direct.</strong> Since 1991, it's been the go-to for bass players who want tube-amp-style tone without bringing an amp to the gig. The v2 adds a switchable mid-frequency (500/1000Hz) and a bass shift (40/80Hz) that the original lacked, plus a -20dB pad and a +10dB boost on the 1/4\" output. Three outputs — effected XLR, effected 1/4\", and parallel uneffected 1/4\" — mean you can send a processed signal to the PA while feeding your amp clean, or blend both. The analog cabinet simulation on the XLR output gives you that speaker-in-a-room sound without a mic.</p><p><strong>It runs on phantom power, a 9V battery, or an optional DC adapter.</strong> The 3-band active EQ with ±12dB per band is muscular — theDrive knob adds harmonic saturation from subtle warmth to full-on growl. At 397g it's light enough to live on a pedalboard, and the all-metal enclosure survives the road. It's not a transparent DI — it's a preamp that colors your signal on purpose — but that color is exactly what millions of bass players want.</p><p><strong>Pair it with:</strong> any active or passive bass. Active basses sound huge through it; passive basses benefit from the input impedance and gain staging. If you want clean, transparent tone, get the J48 instead.</p>",
-        "content_es": "<p><strong>La SansAmp Bass Driver DI no es solo una caja DI — es el sonido del bajo directo moderno.</strong> Desde 1991, ha sido la opción predilecta de bajistas que quieren tono estilo amplificador de válvulas sin llevar un ampli al show. La v2 agrega una frecuencia media seleccionable (500/1000 Hz) y un selector de graves (40/80 Hz) que la original no tenía, más un pad de -20 dB y un boost de +10 dB en la salida de 1/4 pulgada. Tres salidas — XLR con efecto, 1/4\" con efecto y 1/4\" paralelo sin efecto — significan que puedes enviar una señal procesada a la PA mientras alimentas tu ampli limpio, o mezclar ambas. La simulación de gabinete analógica en la salida XLR te da ese sonido de altavoz en una habitación sin micrófono.</p><p><strong>Funciona con alimentación phantom, batería de 9 V o adaptador DC opcional.</strong> El EQ activo de 3 bandas con ±12 dB por banda es contundente: la rueda Drive añade saturación armónica desde calidez sutil hasta saturación total. Con 397 g es lo suficientemente ligero para vivir en un pedalboard, y la carcasa totalmente metálica sobrevive la carretera. No es una DI transparente — es un previo que colorea tu señal a propósito — pero ese color es exactamente lo que millones de bajistas quieren.</p><p><strong>Combínala con:</strong> cualquier bajo activo o pasivo. Los bajos activos suenan enormes a través de ella; los bajos pasivos se benefician de la impedancia de entrada y la estructura de ganancia. Si quieres tono limpio y transparente, consigue la J48.</p>",
+        "content_es": "<p><strong>La SansAmp Bass Driver DI no es solo una caja DI — es el sonido del bajo directo moderno.</strong> Desde 1991, ha sido la opción predilecta de bajistas que quieren tono estilo amplificador de válvulas sin llevar un ampli al show. La v2 agrega una frecuencia media seleccionable (500/1000 Hz) y un selector de graves (40/80 Hz) que la original no tenía, más un pad de -20 dB y un boost de +10 dB en la salida de 1/4 pulgada. Tres salidas — XLR con efecto, 1/4\" con efecto y 1/4\" paralelo sin efecto — significan que puedes enviar una señal procesada a la PA mientras alimentas tu ampli limpio, o mezclar ambas. La simulación de caja analógica en la salida XLR te da ese sonido de altavoz en una habitación sin micrófono.</p><p><strong>Funciona con alimentación phantom, batería de 9 V o adaptador DC opcional.</strong> El EQ activo de 3 bandas con ±12 dB por banda es contundente: la rueda Drive añade saturación armónica desde calidez sutil hasta saturación total. Con 397 g es lo suficientemente ligero para vivir en un pedalboard, y la carcasa totalmente metálica sobrevive la carretera. No es una DI transparente — es un previo que colorea tu señal a propósito — pero ese color es exactamente lo que millones de bajistas quieren.</p><p><strong>Combínala con:</strong> cualquier bajo activo o pasivo. Los bajos activos suenan enormes a través de ella; los bajos pasivos se benefician de la impedancia de entrada y la estructura de ganancia. Si quieres tono limpio y transparente, consigue la J48.</p>",
         "products": [
           447
         ]
@@ -62900,7 +62900,7 @@
             },
             {
               "value": "3-band EQ, drive knob, variable mid freq (500/1000Hz), cabinet sim",
-              "value_es": "EQ de 3 bandas, knob Drive, frecuencia media variable (500/1000Hz), simulación de gabinete"
+              "value_es": "EQ de 3 bandas, knob Drive, frecuencia media variable (500/1000Hz), simulación de caja"
             },
             {
               "value": "Two channels, -15dB pads, Eclipse ET-DB2 transformers, ground lift",
@@ -63062,7 +63062,7 @@
           "El tono de un buen ampli de bajo de válvulas sin cargar con él al show",
           "Tres salidas — XLR con efecto, 1/4\" con efecto y 1/4\" limpio en paralelo",
           "Funciona con phantom, batería de 9V o adaptador DC opciónal",
-          "Simulación de gabinete analógica en la salida XLR"
+          "Simulación de caja analógica en la salida XLR"
         ],
         "cons": [
           "It's a preamp that colors your signal on purpose, not a transparent DI",
@@ -63207,7 +63207,7 @@
         "q": "Can I use a DI box to record a guitar amp without a microphone?",
         "q_es": "¿Puedo usar una caja DI para grabar un amplificador de guitarra sin micrófono?",
         "a": "Yes — with the right DI. The Rupert Neve RNDI has a speaker-level input mode that can handle up to 1000W, so you can connect it to your amp's speaker output. For other DIs, you need a load box or attenuator between the amp and the DI to prevent damage. Some DIs like the SansAmp also have built-in cabinet simulation that gives you a speaker-like tone without a mic. However, most producers still prefer a microphone for the most natural guitar tone.",
-        "a_es": "Sí — con la DI correcta. La Rupert Neve RNDI tiene un modo de entrada de nivel de altavoz que maneja hasta 1000W, así que puedes conectarla a la salida del altavoz de tu ampli. Para otras DI, necesitas una caja de carga o atenuador entre el ampli y la DI para evitar daños. Algunas DI como la SansAmp también tienen simulación de gabinete integrada que te da un tono tipo altavoz sin micrófono. Sin embargo, la mayoría de los productores aún prefieren un micrófono para el tono de guitarra más natural."
+        "a_es": "Sí — con la DI correcta. La Rupert Neve RNDI tiene un modo de entrada de nivel de altavoz que maneja hasta 1000W, así que puedes conectarla a la salida del altavoz de tu ampli. Para otras DI, necesitas una caja de carga o atenuador entre el ampli y la DI para evitar daños. Algunas DI como la SansAmp también tienen simulación de caja integrada que te da un tono tipo altavoz sin micrófono. Sin embargo, la mayoría de los productores aún prefieren un micrófono para el tono de guitarra más natural."
       },
       {
         "q": "Why are Radial DI boxes so expensive compared to others?",
@@ -64101,9 +64101,9 @@
           "No Bluetooth streaming built-in unlike newer competitors"
         ],
         "cons_es": [
-          "El gabinete de plástico ABS es menos duradero que el contrachapado de la PRX",
+          "El caja de plástico ABS es menos duradero que el contrachapado de la PRX",
           "Caída de graves notable por debajo de 60Hz: limitado para música electrónica sin subwoofer",
-          "El asa está unida a la sección de la bocina y las vibraciones se transmiten a través del gabinete",
+          "El asa está unida a la sección de la bocina y las vibraciones se transmiten a través del caja",
           "Sin Bluetooth incorporado como competidores recientes"
         ]
       },
@@ -64118,7 +64118,7 @@
           "Standard M10 suspension points for flown installation permanent venues"
         ],
         "pros_es": [
-          "Gabinete contrachapado DuraFlex más durable que el plástico DXR para giras",
+          "Caja contrachapada DuraFlex más durable que el plástico DXR para giras",
           "Woofer bobina dual entrega mayor salida con menor compresión de potencia que la bobina simple",
           "Amplificación Clase-D diseño Crown confiabilidad líder de industria",
           "Soporte poste reforzado reduce la caída en altura",
@@ -71754,7 +71754,7 @@
           "Cinco voicings de amplificador en una sola unidad: clean, crunch, lead, brown y acoustic",
           "Efectos incorporados: más de 60 efectos Boss cargables vía Tone Studio sin pedales externos",
           "Control de potencia 50W / 25W / 0.5W que permite practicar en casa a volumen útil sin atenuador",
-          "Grabación USB directa al DAW con simulación de gabinete, sin micrófono",
+          "Grabación USB directa al DAW con simulación de caja, sin micrófono",
           "El editor Tone Studio ofrece EQ, compuerta, compresión y delay con parámetros profundos"
         ],
         "cons": [
@@ -71766,7 +71766,7 @@
         "cons_es": [
           "El modelado digital no iguala la respuesta dinámica, el feel y el bloom de válvulas del DSL",
           "Tone Studio es necesario para la edición profunda: sin acceso desde el panel frontal",
-          "La salida emulada del altavoz suena hueca comparada con un gabinete microfonado",
+          "La salida emulada del altavoz suena hueca comparada con un caja microfonado",
           "El altavoz de 12 pulgadas de la versión de 50W carece del peso de graves del Celestion de 12 pulgadas de la DSL"
         ]
       },
@@ -72368,7 +72368,7 @@
       "faq_q2_en": "Is the QSC K12.2 worth the premium over budget PA speakers?",
       "faq_a2_en": "If you use it professionally, yes. The QSC K12.2 has 2000W of Class-D power, a 12-inch woofer and the reliability that rental companies trust on tour. It costs more than entry speakers, but it is louder, clearer and built to survive years of loading and unloading. For working sound engineers, the extra money buys dependability.",
       "faq_q1_es": "¿Es el EV ZLX-12P-G2 un buen altavoz económico para conciertos pequeños?",
-      "faq_a1_es": "Sí, es la mejor compra en altavoces PA pequeños. El EV ZLX-12P-G2 entrega 1250W de sonido limpio y fiable en un gabinete portátil que supera a todo lo de su clase. Para bares pequeños, eventos escolares y conciertos en solitario, es fuerte, claro y ligero para llevarlo con una mano.",
+      "faq_a1_es": "Sí, es la mejor compra en altavoces PA pequeños. El EV ZLX-12P-G2 entrega 1250W de sonido limpio y fiable en un caja portátil que supera a todo lo de su clase. Para bares pequeños, eventos escolares y conciertos en solitario, es fuerte, claro y ligero para llevarlo con una mano.",
       "faq_q2_es": "¿Merece la pena el QSC K12.2 frente a altavoces PA económicos?",
       "faq_a2_es": "Si lo usas profesionalmente, sí. El QSC K12.2 tiene 2000W de potencia Clase-D, woofer de 12 pulgadas y la fiabilidad en la que confían las empresas de alquiler en gira. Cuesta más que los altavoces de gama de entrada, pero es más fuerte, más claro y está construido para sobrevivir años de carga y descarga. Para ingenieros de sonido profesionales, el dinero extra compra fiabilidad.",
       "specs": [],
@@ -85536,7 +85536,7 @@
         "heading": "NI Komplete 26 Ultimate",
         "heading_es": "NI Komplete 26 Ultimate",
         "content": "<strong>The most comprehensive music production suite ever created.</strong> Komplete 26 Ultimate includes 90+ virtual instruments and 200+ effects. Native Instruments Kontakt 8 is the industry-standard sampler with over 55 GB of sounds. Native Instruments Massive X delivers wavetable synthesis with an evolved engine and 200+ wavetables. Guitar Rig 7 Pro provides a complete guitar/bass processing studio with 100+ effects and 70+ amps and cabinets. Reaktor 7 is a modular sound design environment for building custom synths and effects. Includes cinematic tools like Symphony Series, Action Strings, and a vast collection of drums, percussion, world instruments, and electronic sounds. It’s everything you need to produce any genre.",
-        "content_es": "<strong>La suite de producción musical más completa jamás creada.</strong> Komplete 26 Ultimate incluye más de 90 instrumentos virtuales y más de 200 efectos. Native Instruments Kontakt 8 es el sampler que se usa en todas partes con más de 55 GB de sonidos. Native Instruments Massive X ofrece síntesis de tabla de ondas con un motor evolucionado y más de 200 tablas de ondas. Guitar Rig 7 Pro proporciona un estudio completo de procesamiento de guitarra/bajo con más de 100 efectos y más de 70 amplificadores y gabinetes. Reaktor 7 es un entorno modular de diseño sonoro para construir sintetizadores y efectos personalizados. Incluye herramientas cinematográficas como Symphony Series, Action Strings y una vasta colección de baterías, percusión, instrumentos del mundo y sonidos electrónicos. Es todo lo que necesitas para producir cualquier género.",
+        "content_es": "<strong>La suite de producción musical más completa jamás creada.</strong> Komplete 26 Ultimate incluye más de 90 instrumentos virtuales y más de 200 efectos. Native Instruments Kontakt 8 es el sampler que se usa en todas partes con más de 55 GB de sonidos. Native Instruments Massive X ofrece síntesis de tabla de ondas con un motor evolucionado y más de 200 tablas de ondas. Guitar Rig 7 Pro proporciona un estudio completo de procesamiento de guitarra/bajo con más de 100 efectos y más de 70 amplificadores y cajas. Reaktor 7 es un entorno modular de diseño sonoro para construir sintetizadores y efectos personalizados. Incluye herramientas cinematográficas como Symphony Series, Action Strings y una vasta colección de baterías, percusión, instrumentos del mundo y sonidos electrónicos. Es todo lo que necesitas para producir cualquier género.",
         "products": [
           123
         ]
@@ -89669,7 +89669,7 @@
       "key1_es": "El micrófono más Grabado de la Historia",
       "key2_es": "Graves Extendidos con Control de 5 Posiciones",
       "faq_q1_es": "Grabo mi cab de guitarra con SM57 pero los graves se afinan — ¿me dará el MD 421 Kompakt el peso sin embarrar todo?",
-      "faq_a1_es": "Compra la SM57 si quieres un micro robusto que maneje amplificadores de guitarra, cajas y voces por una fracción del precio — llega al 80% por un tercio del coste. Compra el MD 421 Kompakt cuando grabes batería: su respuesta low-mid más llena y el filtro de graves de 5 posiciones lo convierten en el micro clásico de toms y gabinetes. La 57 es la opción económica; el 421 es el especialista en tono pro.",
+      "faq_a1_es": "Compra la SM57 si quieres un micro robusto que maneje amplificadores de guitarra, cajas y voces por una fracción del precio — llega al 80% por un tercio del coste. Compra el MD 421 Kompakt cuando grabes batería: su respuesta low-mid más llena y el filtro de graves de 5 posiciones lo convierten en el micro clásico de toms y cajas. La 57 es la opción económica; el 421 es el especialista en tono pro.",
       "faq_q2_es": "¿Cuál es la diferencia entre la SM57 y el MD 421 Kompakt?",
       "faq_a2_es": "La SM57 es un dinámico delgado y casi indestructible con un pico de presencia enfocado que corta las mezclas — perfecto para amplificadores, cajas y espacios estrechos. El MD 421 Kompakt es un dinámico más grande con una respuesta de frecuencia más amplia y llena, un filtro de graves de 5 posiciones para dar forma al tono y el famoso clip de media luna para tambor. La 57 es más versátil y duradera; el 421 aporta más cuerpo y peso donde lo necesitas.",
       "faq_q3_en": "Can I use the SM57 or the MD 421 Kompakt for vocals too?",
@@ -89821,7 +89821,7 @@
           "Interruptor de graves de 5 posiciones que ajusta la respuesta para diferentes tamaños de tambor",
           "Respuesta de frecuencia más amplia captura más cuerpo y presencia que el SM57",
           "Nivel de salida más alto maneja los previos con mejor relación S/N",
-          "Diafragma más grande captura el peso de los graves mejor en toms y gabinetes de guitarra",
+          "Diafragma más grande captura el peso de los graves mejor en toms y cajas de guitarra",
           "La rejilla ventilada reduce el efecto de proximidad para un sonido consistente"
         ],
         "cons": [
@@ -89929,7 +89929,7 @@
           "Passive dynamic design requires no phantom power or batteries — works instantly with any XLR input, even on basic mixers or interfaces with limited features"
         ],
         "pros_es": [
-          "La rejilla plana permite colocar la cápsula directamente contra el altavoz para máximo aislamiento y efecto de proximidad — crítico para microfonear gabinetes de guitarra y cajas sin sangrado",
+          "La rejilla plana permite colocar la cápsula directamente contra el altavoz para máximo aislamiento y efecto de proximidad — crítico para microfonear cajas de guitarra y cajas sin sangrado",
           "Soporta SPL extremo de hasta 190dB sin distorsión, permitiendo microfonear un amplificador valvular al máximo volumen o un bombo a quemarropa sin preocuparse por recorte",
           "Medios neutros con un realce de presencia enfocado en 3-6kHz ayuda a que los instrumentos destaquen en mezclas densas de forma natural sin necesidad de esculpir con EQ",
           "Consistencia excepcional entre unidades — puedes comprar varios SM57s y esperar una respuesta de frecuencia virtualmente idéntica, importante para microfonía estéreo o configuraciones multi-mic",
@@ -90054,7 +90054,7 @@
       "faq_q4_es": "¿Se pueden usar la SM57 y la SM58 de forma intercambiable?",
       "faq_a4_es": "Mayormente sí, y comparten la misma cápsula, transformador y respuesta en frecuencia bajo la rejilla. Las diferencias son la rejilla y el filtro antipop: la SM58 tiene rejilla esférica con filtro antipop de espuma integrado que la hace la elección natural para voces, mientras que la SM57 tiene la rejilla más pequeña que la posiciona mejor sobre amplificadores, cajas y toms. En un apuro, cada una cumple donde lo haría la otra, aunque están optimizadas para sus funciones.",
       "faq_q5_es": "¿Qué micrófono es más versátil para diferentes situaciones de grabación?",
-      "faq_a5_es": "El Shure SM57 es más versátil para grabar instrumentos como gabinetes de guitarra, tambores y metales. El Shure SM58 está optimizado para voces con su filtro pop integrado. Ambos usan la misma cápsula, la diferencia es el diseño de la rejilla."
+      "faq_a5_es": "El Shure SM57 es más versátil para grabar instrumentos como cajas de guitarra, tambores y metales. El Shure SM58 está optimizado para voces con su filtro pop integrado. Ambos usan la misma cápsula, la diferencia es el diseño de la rejilla."
     },
     "comparison": {
       "rows": [
@@ -91536,7 +91536,7 @@
           "Ensamblado a mano en EE. UU. Con transformador T80 de bobinado personalizado",
           "Detalle tipo condensador, velocidad transitoria y manejo de 135 dB SPL en un dinámico",
           "El supercardioide rechaza la retroalimentación; salida de 1.54 mV/Pa con impedancia de 325Ω",
-          "También sirve para caja y gabinete de guitarra; incluye clip y bolsa con cremallera"
+          "También sirve para caja y caja de guitarra; incluye clip y bolsa con cremallera"
         ],
         "cons": [
           "The premium pick, an investment",
@@ -91653,7 +91653,7 @@
           "Cheap enough to keep several spares for amps, snares and horns"
         ],
         "pros_es": [
-          "El recurso para gabinetes de guitarra, cajas y metales — Es el micrófono utilitario que todo equipo debería llevar, y su rango de 40Hz–15kHz no exige ecualizar",
+          "El recurso para cajas de guitarra, cajas y metales — Es el micrófono utilitario que todo equipo debería llevar, y su rango de 40Hz–15kHz no exige ecualizar",
           "El cardioide ajustado y el realce de presencia a 5kHz maximizan la ganancia antes de retroalimentación — la SM57 alimenta más fuerte que la mayoría de cardioides antes de cualquier silbido",
           "Respuesta de 40Hz–15kHz con salida de 1.6 mV/Pa e impedancia de 150Ω — el micrófono más flexible de esta guía",
           "Bastante barato para tener varios de repuesto para amplificadores, cajas y metales"
@@ -96631,7 +96631,7 @@
           "XLR and RCA I/O for flexible routing"
         ],
         "pros_es": [
-          "El gabinete compacto cabe en escritorios reducidos y aun así entrega 28 Hz con un woofer de 10 pulgadas orientado hacia abajo",
+          "El caja compacto cabe en escritorios reducidos y aun así entrega 28 Hz con un woofer de 10 pulgadas orientado hacia abajo",
           "Woofer de 10 pulgadas orientado hacia abajo, 130W Clase-D",
           "Cruce ajustable 80/120Hz/bypass",
           "Entradas/salidas XLR y RCA para conexión flexible"
@@ -96687,7 +96687,7 @@
           "160W RMS / 200W peak in a desktop-friendly package"
         ],
         "pros_es": [
-          "El gabinete compacto, más pequeño que la mayoría de los monitores de 8 pulgadas, llega a 25Hz",
+          "El caja compacto, más pequeño que la mayoría de los monitores de 8 pulgadas, llega a 25Hz",
           "Los dos radiadores pasivos añaden salida sin agrandar la caja",
           "La calibración de sala ARC X doma automáticamente los modos graves de salas pequeñas",
           "160W RMS / 200W pico en un paquete pensado para escritorio"
@@ -97091,14 +97091,14 @@
         "heading": "How to Position a Studio Subwoofer: The Crawl",
         "heading_es": "Cómo posicionar un subwoofer de estudio: el crawl",
         "content": "<p><strong>Your room decides where the sub can go — you don't.</strong> Below about 80 Hz every room has pressure peaks and nulls that shift the response by 10 dB or more depending on where the sub sits. That is why placement comes before calibration.</p><p><strong>Run the crawl.</strong> Set the sub to its typical crossover (80 Hz), place it at your listening position on a chair or table, and play a continuous bass loop between 40 and 80 Hz. Crawl along the walls and floor listening for where the low end sounds fullest, most even and least boomy. That spot — not the one that looks good — is where the sub delivers the flattest response to your ears.</p><p><strong>Stay away from symmetrical spots.</strong> Centered cabinets, identical side walls and dead-center corners excite the same room modes and exaggerate one frequency. The crawl usually lands you slightly off-axis — that asymmetry is the point.</p>",
-        "content_es": "<p><strong>Tu sala decide dónde puede ir el sub — no tú.</strong> Por debajo de unos 80 Hz, la presión del sonido de la sala forma picos y valles que pueden cambiar la respuesta 10 dB o más según dónde coloques el sub. Por eso primero se coloca y luego se calibra.</p><p><strong>Haz el crawl.</strong> Pon el sub en su cruce habitual (80 Hz), colócalo en tu punto de escucha — sobre una silla o una mesa — y reproduce un bucle de graves continuo entre 40 y 80 Hz. Recorre las paredes y el suelo escuchando dónde el grave suena más lleno, más parejo y menos retumbante. Ese punto, no el que quede mejor visualmente, es donde el sub entrega la respuesta más plana a tus oídos.</p><p><strong>Evita los puntos simétricos.</strong> Los gabinetes centrados, las paredes laterales idénticas y las esquinas en el centro exacto excitan los mismos modos de sala y exageran una sola frecuencia. Lo normal es que el crawl termine con el sub un poco descentrado — y esa asimetría es justo lo que buscas.</p>",
+        "content_es": "<p><strong>Tu sala decide dónde puede ir el sub — no tú.</strong> Por debajo de unos 80 Hz, la presión del sonido de la sala forma picos y valles que pueden cambiar la respuesta 10 dB o más según dónde coloques el sub. Por eso primero se coloca y luego se calibra.</p><p><strong>Haz el crawl.</strong> Pon el sub en su cruce habitual (80 Hz), colócalo en tu punto de escucha — sobre una silla o una mesa — y reproduce un bucle de graves continuo entre 40 y 80 Hz. Recorre las paredes y el suelo escuchando dónde el grave suena más lleno, más parejo y menos retumbante. Ese punto, no el que quede mejor visualmente, es donde el sub entrega la respuesta más plana a tus oídos.</p><p><strong>Evita los puntos simétricos.</strong> Los cajas centrados, las paredes laterales idénticas y las esquinas en el centro exacto excitan los mismos modos de sala y exageran una sola frecuencia. Lo normal es que el crawl termine con el sub un poco descentrado — y esa asimetría es justo lo que buscas.</p>",
         "products": []
       },
       {
         "heading": "Neumann KH 810 II: The Best Premium Subwoofer for Immersive Audio",
         "heading_es": "Neumann KH 810 II: el mejor subwoofer premium para audio inmersivo",
         "content": "<p><strong>The KH 810 II is the sub you build a Dolby Atmos room around.</strong> Its long-throw 10-inch ELFF woofer and 180W amplifier reach 16 Hz and deliver roughly twice the output of the KH 750 DSP, with free-field response from 18 Hz (±3 dB). Multichannel bass management handles stereo, surround and immersive formats up to 7.1.4, and MA 1 automatic alignment corrects level, delay and phase across every channel — not just the sub.</p><p><strong>digital inputs make it a system hub.</strong> AES3 and BNC connections keep the chain bit-perfect, while the bass-reflex cab with a protective metal grille and intelligent protection limiters keep it musical under pressure. At 25.5 kg it is built like the control-room furniture it is meant to be.</p>",
-        "content_es": "<p><strong>El KH 810 II es el sub en torno al que se construye una sala Dolby Atmos.</strong> Su woofer ELFF de 10 pulgadas de gran excursión y su amplificador de 180 W llegan hasta 16 Hz y entregan aproximadamente el doble de salida que el KH 750 DSP, con respuesta en campo libre desde 18 Hz (±3 dB). La gestión de graves multicanal cubre formatos estéreo, envolventes e inmersivos hasta 7.1.4, y la alineación automática MA 1 corrige nivel, retardo y fase en todos los canales — no solo en el sub.</p><p><strong>Las entradas digitales lo convierten en el centro del sistema.</strong> Las conexiones AES3 y BNC mantienen la señal intacta, bit a bit, mientras el gabinete bass-reflex con rejilla metálica protectora y sus limitadores inteligentes mantienen el sonido limpio incluso al límite. Con 25,5 kg está tan bien construido que parece un mueble de sala de control.</p>",
+        "content_es": "<p><strong>El KH 810 II es el sub en torno al que se construye una sala Dolby Atmos.</strong> Su woofer ELFF de 10 pulgadas de gran excursión y su amplificador de 180 W llegan hasta 16 Hz y entregan aproximadamente el doble de salida que el KH 750 DSP, con respuesta en campo libre desde 18 Hz (±3 dB). La gestión de graves multicanal cubre formatos estéreo, envolventes e inmersivos hasta 7.1.4, y la alineación automática MA 1 corrige nivel, retardo y fase en todos los canales — no solo en el sub.</p><p><strong>Las entradas digitales lo convierten en el centro del sistema.</strong> Las conexiones AES3 y BNC mantienen la señal intacta, bit a bit, mientras el caja bass-reflex con rejilla metálica protectora y sus limitadores inteligentes mantienen el sonido limpio incluso al límite. Con 25,5 kg está tan bien construido que parece un mueble de sala de control.</p>",
         "products": [
           468
         ]
@@ -97107,7 +97107,7 @@
         "heading": "ATC SCS120 Pro: The Best Subwoofer for Pure Analog Low End",
         "heading_es": "ATC SCS120 Pro: el mejor subwoofer para graves puramente analógicos",
         "content": "<p><strong>Some of the best bottom end in monitoring has no DSP anywhere in the signal path.</strong> The SCS120 Pro loads a hand-built 15-inch (375 mm) SS75-375SC driver in a 120-litre sealed cabinet, driven by a convection-cooled 300W MOSFET Class AB amplifier with 113 dB of continuous output. Low-cut is 20 Hz (−6 dB), distortion stays under 0.003%, and there is no user interface to hide behind — just gain, level, low-pass (50/65/80/320 Hz), phase and polarity on the rear panel.</p><p><strong>It plays loud enough for main-monitor duty.</strong> Built to partner SCM45A-to-SCM300A monitors in stereo, surround and immersive rooms, it is the analogue answer for engineers who want every bass-management decision made by hand.</p>",
-        "content_es": "<p><strong>Algunos de los mejores graves del monitoreo no pasan por ningún DSP.</strong> El SCS120 Pro carga un driver SS75-375SC de 15 pulgadas (375 mm) construido a mano en un gabinete sellado de 120 litros, impulsado por un amplificador MOSFET en Clase AB de 300 W enfriado por convección con 113 dB de salida continua. El corte de graves llega a 20 Hz (−6 dB), la distorsión queda por debajo del 0,003% y no hay interfaces ni menús donde esconderse: solo ganancia, nivel, paso bajo (50/65/80/320 Hz), fase y polaridad en el panel trasero.</p><p><strong>Tiene potencia de sobra para funcionar como monitor principal.</strong> Diseñado para acompañar a los monitores SCM45A-SCM300A en salas estéreo, envolventes e inmersivas, es la respuesta analógica para ingenieros que prefieren tomar cada decisión de gestión de graves a mano.</p>",
+        "content_es": "<p><strong>Algunos de los mejores graves del monitoreo no pasan por ningún DSP.</strong> El SCS120 Pro carga un driver SS75-375SC de 15 pulgadas (375 mm) construido a mano en un caja sellado de 120 litros, impulsado por un amplificador MOSFET en Clase AB de 300 W enfriado por convección con 113 dB de salida continua. El corte de graves llega a 20 Hz (−6 dB), la distorsión queda por debajo del 0,003% y no hay interfaces ni menús donde esconderse: solo ganancia, nivel, paso bajo (50/65/80/320 Hz), fase y polaridad en el panel trasero.</p><p><strong>Tiene potencia de sobra para funcionar como monitor principal.</strong> Diseñado para acompañar a los monitores SCM45A-SCM300A en salas estéreo, envolventes e inmersivas, es la respuesta analógica para ingenieros que prefieren tomar cada decisión de gestión de graves a mano.</p>",
         "products": [
           470
         ]
@@ -97134,7 +97134,7 @@
         "heading": "Barefoot Sound MicroSub45: The Best Subwoofer for Distortion-Free High-End Monitoring",
         "heading_es": "Barefoot Sound MicroSub45: el mejor subwoofer para un monitoreo de alta gama sin distorsión",
         "content": "<p><strong>Barefoot's Dual-Force technology is a genuinely different way to build a sub, and the MicroSub45 is the proof.</strong> Two opposing 8-inch drivers sit inside a sealed 18-litre cabinet with their motors mechanically locked together. As the cones push and pull in opposite directions, the equal-and-opposite forces cancel at the motor before they can reach the cabinet walls — which is why this box stays completely still while it plays. No cabinet resonance, no coloration; just fast, clean transient response.</p><p><strong>Each cabinet carries 500W (1000W for the pair) and reaches 25 Hz (-3 dB) with a fixed 80 Hz analogue high-pass.</strong> Because the filter is analogue and the low end radiates as a single point source on axis with the MicroMain45's tweeter, the MicroSub45 simply disappears — you hear the mains get bigger and deeper, not a subwoofer playing. For elite mastering rooms chasing the last few percent of bass accuracy, nothing else stacks up.</p>",
-        "content_es": "<p><strong>La tecnología Dual-Force de Barefoot es una forma genuinamente distinta de construir un sub, y el MicroSub45 es la prueba.</strong> Dos drivers de 8 pulgadas opuestos se alojan dentro de un gabinete sellado de 18 litros con sus motores bloqueados mecánicamente entre sí. Conforme los conos empujan y tiran en direcciones opuestas, las fuerzas iguales y opuestas se cancelan en el motor antes de llegar a las paredes de la caja — por eso esta caja permanece completamente quieta mientras suena. Sin resonancia de gabinete ni coloración; solo respuesta transitoria rápida y limpia.</p><p><strong>Cada gabinete entrega 500 W (1.000 W el par) y alcanza los 25 Hz (-3 dB) con un paso alto analógico fijo de 80 Hz.</strong> Como el filtro es analógico y los graves se irradian como una fuente puntual alineada con el tweeter del MicroMain45, el MicroSub45 simplemente desaparece: oyes que los monitores principales crecen y se vuelven más profundos, no un subwoofer sonando. Para salas de masterización de élite que persiguen el último porcentaje de precisión en graves, nada más está a la altura.</p>",
+        "content_es": "<p><strong>La tecnología Dual-Force de Barefoot es una forma genuinamente distinta de construir un sub, y el MicroSub45 es la prueba.</strong> Dos drivers de 8 pulgadas opuestos se alojan dentro de un caja sellado de 18 litros con sus motores bloqueados mecánicamente entre sí. Conforme los conos empujan y tiran en direcciones opuestas, las fuerzas iguales y opuestas se cancelan en el motor antes de llegar a las paredes de la caja — por eso esta caja permanece completamente quieta mientras suena. Sin resonancia de caja ni coloración; solo respuesta transitoria rápida y limpia.</p><p><strong>Cada caja entrega 500 W (1.000 W el par) y alcanza los 25 Hz (-3 dB) con un paso alto analógico fijo de 80 Hz.</strong> Como el filtro es analógico y los graves se irradian como una fuente puntual alineada con el tweeter del MicroMain45, el MicroSub45 simplemente desaparece: oyes que los monitores principales crecen y se vuelven más profundos, no un subwoofer sonando. Para salas de masterización de élite que persiguen el último porcentaje de precisión en graves, nada más está a la altura.</p>",
         "products": [
           481
         ]
@@ -97357,7 +97357,7 @@
           "20 Hz (-6 dB) low-cut suits main-monitor duty"
         ],
         "pros_es": [
-          "Driver SS75-375SC de 15 pulgadas (375 mm) construido a mano en un gabinete sellado de 120 litros",
+          "Driver SS75-375SC de 15 pulgadas (375 mm) construido a mano en un caja sellado de 120 litros",
           "300W MOSFET Clase AB con 113 dB de salida continua",
           "Distorsión ultrabaja (<0,003%) sin DSP en la ruta de audio",
           "Corte grave a 20 Hz (-6 dB) apto para monitor principal"
@@ -97441,8 +97441,8 @@
           "1000W across the stereo pair with a completely analogue, transparent signal path"
         ],
         "pros_es": [
-          "El diseño de drivers opuestos Dual-Force cancela la fuerza en el origen para cero vibración de gabinete",
-          "El gabinete sellado de 18 litros entrega una respuesta transitoria rápida y limpia",
+          "El diseño de drivers opuestos Dual-Force cancela la fuerza en el origen para cero vibración de caja",
+          "El caja sellado de 18 litros entrega una respuesta transitoria rápida y limpia",
           "Alcanza los 25 Hz (-3 dB) con un paso alto analógico fijo de 80 Hz",
           "1000W en el par estéreo con una ruta de señal completamente analógica y transparente"
         ],
@@ -103224,7 +103224,7 @@
           106
         ],
         "heading": "Is the QSC K12.2 the Best Professional PA Speaker?",
-        "content_es": "<p><strong>El K12.2 es el punto de referencia para altavoces PA portátiles.</strong> Su amplificación en clase D ofrece 2.000 vatios de pico con claridad cristalina en toda la respuesta en frecuencia. La guía de onda proporciona un patrón de cobertura de 75 grados con cobertura consistente en todo el espacio. El DSP incluye múltiples preajustes. El gabinete ABS resistente soporta años de maltrato en giras. Con su margen dinámico de sobra, el K12.2 produce niveles de sonido limpios que los altavoces más pequeños no pueden alcanzar sin distorsionar.</p>"
+        "content_es": "<p><strong>El K12.2 es el punto de referencia para altavoces PA portátiles.</strong> Su amplificación en clase D ofrece 2.000 vatios de pico con claridad cristalina en toda la respuesta en frecuencia. La guía de onda proporciona un patrón de cobertura de 75 grados con cobertura consistente en todo el espacio. El DSP incluye múltiples preajustes. El caja ABS resistente soporta años de maltrato en giras. Con su margen dinámico de sobra, el K12.2 produce niveles de sonido limpios que los altavoces más pequeños no pueden alcanzar sin distorsionar.</p>"
       },
       {
         "content": "<p><strong>The QSC K12.2 delivers significantly more output and headroom at concert levels, while the EV ZLX-12P-G2 offers DSP presets and light polypropylene build that one person can load for bars and school events.</strong> The ZLX-12P-G2 is impressive for its price but cannot match the K12.2's output and clarity at higher volumes. The K12.2 maintains composure at concert levels where the ZLX begins to strain. For weddings, corporate events, and small venues, the ZLX-12P-G2 is more thadequate. For touring acts and larger venues where reliability and output are critical, the K12.2's extra investment pays off in performance and longevity. The ZLX is a solid budget choice; the K12.2 is an investment in professional reliability.</p>",
@@ -103312,9 +103312,9 @@
       "key1_es": "El Campeón económico con Versatilidad DSP",
       "key2_es": "El Estándar profesional con Potencia Clase D",
       "faq_q1_es": "Para bandas que necesitan altavoces de 12 pulgadas que aguanten presentaciones semanales — ¿basta el EV o compensa estirar al QSC por fiabilidad?",
-      "faq_a1_es": "Compra el ZLX-12P-G2 para un altavoz autoamplificado económico y fiable para conciertos pequeños, bares y eventos escolares — suena sorprendentemente bien por el precio. Compra el QSC K12.2 si trabajas profesionalmente y necesitas más potencia, un gabinete más robusto y la fiabilidad de gira en la que confían las empresas de alquiler. El ZLX es el campeón del valor; el K12.2 es el estándar pro.",
+      "faq_a1_es": "Compra el ZLX-12P-G2 para un altavoz autoamplificado económico y fiable para conciertos pequeños, bares y eventos escolares — suena sorprendentemente bien por el precio. Compra el QSC K12.2 si trabajas profesionalmente y necesitas más potencia, un caja más robusto y la fiabilidad de gira en la que confían las empresas de alquiler. El ZLX es el campeón del valor; el K12.2 es el estándar pro.",
       "faq_q2_es": "¿Cuál es la diferencia entre el EV ZLX-12P-G2 y el QSC K12.2?",
-      "faq_a2_es": "El ZLX-12P-G2 es un altavoz de 12 pulgadas con 2000W pico, presets DSP y mezclador de dos canales con Bluetooth, en un gabinete de polipropileno ligero. El QSC K12.2 es de 12 pulgadas con 2000W pico, carcasa compuesta de madera más pesada, DSP avanzado y más headroom de salida y claridad a alto SPL. El ZLX es ligero y portátil por su precio; el K12.2 es más pesado, más fuerte y hecho para años de maltrato profesional.",
+      "faq_a2_es": "El ZLX-12P-G2 es un altavoz de 12 pulgadas con 2000W pico, presets DSP y mezclador de dos canales con Bluetooth, en un caja de polipropileno ligero. El QSC K12.2 es de 12 pulgadas con 2000W pico, carcasa compuesta de madera más pesada, DSP avanzado y más headroom de salida y claridad a alto SPL. El ZLX es ligero y portátil por su precio; el K12.2 es más pesado, más fuerte y hecho para años de maltrato profesional.",
       "faq_q3_en": "Which speaker is loud enough for an outdoor event?",
       "faq_a3_en": "For a real outdoor event, the QSC K12.2 is the safer choice. Its 2000W peak output and higher maximum SPL give you the headroom to cover a crowd without running at the limit, and it is built to keep working under stress. The EV ZLX-12P-G2 can cover small outdoor gigs and backyard parties, but you will be pushing it hard. Indoors or small outdoor shows, the ZLX is fine; for serious open-air use, step up to the K12.2.",
       "faq_q4_en": "Is the EV ZLX-12P-G2 worth over the QSC K12.2?",
@@ -103324,7 +103324,7 @@
       "faq_q3_es": "¿Qué altavoz es suficientemente fuerte para un evento al aire libre?",
       "faq_a3_es": "Para un evento al aire libre real, el QSC K12.2 es la opción más segura. Su salida pico de 2000W y mayor SPL máximo te dan headroom para cubrir al público sin ir al límite, y está construida para seguir funcionando bajo presión. El EV ZLX-12P-G2 puede cubrir conciertos pequeños al aire libre y fiestas de jardín, pero lo llevarás al límite. En interiores o shows pequeños al aire libre, el ZLX va bien; para uso serio en exteriores, sube al K12.2.",
       "faq_q4_es": "¿Merece la pena el EV ZLX-12P-G2 ahorrando frente a el QSC K12.2?",
-      "faq_a4_es": "Para bandas y DJs con presupuesto ajustado, sí. El ZLX-12P-G2 ofrece sonido PA fuerte y fiable para bares, escuelas y locales pequeños, y es muchísimo más barato que el K12.2. La QSC justifica el sobreprecio con más potencia, gabinete más robusto, mejor DSP y la fiabilidad de gira en la que confían las empresas de alquiler. Compra el ZLX para tocar con buen valor; paga por el K12 si lo trabajas profesionalmente o necesitas sonar genial cada noche.",
+      "faq_a4_es": "Para bandas y DJs con presupuesto ajustado, sí. El ZLX-12P-G2 ofrece sonido PA fuerte y fiable para bares, escuelas y locales pequeños, y es muchísimo más barato que el K12.2. La QSC justifica el sobreprecio con más potencia, caja más robusto, mejor DSP y la fiabilidad de gira en la que confían las empresas de alquiler. Compra el ZLX para tocar con buen valor; paga por el K12 si lo trabajas profesionalmente o necesitas sonar genial cada noche.",
       "faq_q5_es": "¿Qué altavoz es más fácil de transportar y configurar para artistas solistas?",
       "faq_a5_es": "El EV ZLX-12P-G2 pesa sólo 35.5 lbs con asa moldeada, ideal para artistas solistas. El QSC K12.2 pesa 37.9 lbs y es ligeramente más voluminoso. Ambos tienen asas ergonómicas, pero el ZLX es más ligero y su sistema de presets DSP es más rápido de configurar."
     },
@@ -103473,7 +103473,7 @@
           "Higher price point than ZLX-12P-G2 for similar power and output class"
         ],
         "cons_es": [
-          "El gabinete de plástico ABS es menos duradero que el polipropileno del ZLX-12P-G2 para giras",
+          "El caja de plástico ABS es menos duradero que el polipropileno del ZLX-12P-G2 para giras",
           "Sin control Wi-Fi incorporado solo app TouchMix vía Ethernet",
           "El tweeter carece del detalle de agudos extendido del diseño de driver de compresión del ZLX-12P-G2",
           "Precio más alto que ZLX-12P-G2 para clase similar potencia y salida"
@@ -103586,7 +103586,7 @@
         "heading": "Why There Is No Yamaha HS5 or Adam T5V in This Guide",
         "heading_es": "Por qué no hay un Yamaha HS5 ni un Adam T5V en esta guía",
         "content": "<p><strong>Because they are sold individually, not as a pair, and this guide is about the pair.</strong> Every 5-inch monitor that would normally be the recommendation at this budget is sold one speaker at a time.</p><p><strong>The Yamaha HS5 is roughly $199 per speaker.</strong> The Kali Audio LP-6 V2 is about $249 per unit. The ADAM Audio T5V costs around $199 per unit. The JBL 305P MkII is the closest thing to a genuine exception, but even it now sits near $199 for the pair in most markets rather than the $149 it launched at.</p><p><strong>That is the honest reason this list is all 3.5-inch and 4.5-inch drivers.</strong> Below about $150 for two speakers, the good 5-inch monitors do not exist yet. If your budget stretches to $200, the HS5 and the JBL 305P MkII are the correct answer and we have covered both at length in our broader guides.</p><p>The Yamaha HS3 costs $190 to $230 depending on the retailer, and it is a genuinely good monitor with balanced XLR and proper Room Control switches. It simply is not a sub-$150 pair.</p>",
-        "content_es": "<p><strong>Porque se venden por unidades, no por pares, y esta guía va del par.</strong> Todos los monitores de 5 pulgadas que serían la recomendación normal en este presupuesto se venden de una en una.</p><p><strong>El Yamaha HS5 ronda los $199 por altavoz.</strong> El Kali Audio LP-6 V2 ronda los $249 por unidad. El ADAM Audio T5V cuesta unos $199 por unidad. El JBL 305P MkII es lo más parecido a una excepción, pero incluso él ronda los $199 el par en la mayoría de mercados en lugar de los $149 con los que salió.</p><p><strong>Esa es la razón honesta de que esta lista sea toda de drivers de 3,5 y 4,5 pulgadas.</strong> Por debajo de unos $150 por dos altavoces, los buenos monitores de 5 pulgadas todavía no existen. Si tu presupuesto llega a $200, el HS5 y el JBL 305P MkII son la respuesta correcta y los explicamos a fondo en nuestras guías generales.</p><p>El Yamaha HS3 cuesta entre $190 y $230 según la tienda, y es un monitor genuinamente bueno con XLR balanceado y conmutadores de corrección de sala de verdad. Simplemente no es un par por debajo de $150.</p>",
+        "content_es": "<p><strong>Porque se venden por unidades, no por pares, y esta guía va del par.</strong> Todos los monitores de 5 pulgadas que serían la recomendación normal en este presupuesto se venden de una en una.</p><p><strong>El Yamaha HS5 ronda los $199 por altavoz.</strong> El Kali Audio LP-6 V2 ronda los $249 por unidad. El ADAM Audio T5V cuesta unos $199 por unidad. El JBL 305P MkII es el único que se acerca a una excepción, pero incluso él ronda los $199 el par en la mayoría de mercados, frente a los $149 con los que salió.</p><p><strong>Esa es la razón honesta de que esta lista sea toda de drivers de 3,5 y 4,5 pulgadas.</strong> Por debajo de unos $150 por dos altavoces, los buenos monitores de 5 pulgadas todavía no existen. Si tu presupuesto llega a $200, el HS5 y el JBL 305P MkII son la respuesta correcta y los explicamos a fondo en nuestras guías generales.</p><p>El Yamaha HS3 cuesta entre $190 y $230 según la tienda, y es un monitor genuinamente bueno con XLR balanceado y conmutadores de corrección de sala de verdad. Simplemente no es un par por debajo de $150.</p>",
         "products": []
       }
     ],
