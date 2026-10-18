@@ -490,6 +490,15 @@ function globeIcon() {
 }
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 const TEST_SHOP_BTN = {
+  1042: {
+    prices: {
+      gear4music: "£81.50",
+      andertons: "£71.00",
+      musicstore: "€114.00",
+      zzounds: "$100.00",
+      amazon: "$99.99"
+    }
+  },
   1: {
     prices: {
       amazon: "$439.00",
