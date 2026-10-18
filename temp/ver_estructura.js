@@ -1,18 +1,23 @@
 const fs = require('fs');
-const BASE = 'C:/Users/Daniel/projects/topmusiciangear/';
-const g = JSON.parse(fs.readFileSync(BASE + 'data/guides.json', 'utf8'));
-const guia = g.find(x => x.id === 'starter-studio');
-const vp = guia.verdictProsCons;
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const g = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
+const m = g.find(x => x.id === 'budget-monitors');
 
-console.log('tipo: ' + (Array.isArray(vp) ? 'array de ' + vp.length : 'objeto'));
-const primero = Array.isArray(vp) ? vp[0] : vp;
-console.log('claves del primer elemento: ' + Object.keys(primero).join(', '));
-console.log('\nejemplo:\n' + JSON.stringify(primero, null, 1).slice(0, 900));
-
-// donde estan los 250 ohms y el serves
-const json = JSON.stringify(vp);
-['250 ohms', '250 ohmios', 'serves'].forEach(b => {
-  const i = json.indexOf(b);
-  if (i < 0) { console.log('\n"' + b + '" NO en verdictProsCons'); return; }
-  console.log('\n"' + b + '": ...' + json.slice(Math.max(0, i - 200), i + 200) + '...');
-});
+console.log('=== productTable ===');
+console.log(JSON.stringify(m.productTable, null, 1).slice(0, 1800));
+console.log('\n=== verdictProsCons ===');
+console.log(JSON.stringify(m.verdictProsCons, null, 1).slice(0, 900));
+console.log('\n=== intro (200) / featuredSnippet / description / description_es ===');
+console.log('INTRO: ' + String(m.intro).slice(0, 200));
+console.log('SNIPPET: ' + m.featuredSnippet);
+console.log('DESC: ' + m.description);
+console.log('DESC_ES: ' + m.description_es);
+console.log('VERDICT: ' + String(m.verdict).slice(0, 200));
+console.log('BADGE: ' + m.badge + ' | IMAGE: ' + m.image);
+console.log('AUTHOR: ' + m.author + ' | ABOUT: ' + m.aboutName);
+console.log('RELATED: ' + JSON.stringify(m.relatedGuides));
+console.log('TITLETAG_ES: ' + m.titleTag_es);
+console.log('\n=== una seccion completa ===');
+console.log(JSON.stringify(m.sections[0], null, 1).slice(0, 1400));
+console.log('\n=== conclusion (300) ===');
+console.log(String(m.conclusion).slice(0, 300));
