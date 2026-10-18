@@ -5822,19 +5822,22 @@ function shopButtonsTest(p, lang) {
 function scoreBadge(p) {
   if (p.score === undefined || p.score === null) return '';
   const score = Number(p.score).toFixed(1);
-  const circumference = 2 * Math.PI * 31;
+  const size = 56;
+  const strokeWidth = 8;
+  const radius = (size - strokeWidth) / 2;
+  const circumference = 2 * Math.PI * radius;
   const progress = score / 10;
   const offset = circumference * (1 - progress);
   const aria = 'Nuestra nota: ' + score + ' de 10';
-  return '<div class="guide-product-card-score-container" role="img" aria-label="' + aria + '" style="position:absolute;top:12px;left:12px;z-index:3;width:72px;height:72px;border-radius:50%;background:rgba(10,20,44,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25);box-shadow:0 4px 14px rgba(0,20,60,.35);display:flex;align-items:center;justify-content:center;">' +
-    '<div style="text-align:center;line-height:1.1;position:relative;z-index:1;"><div style="font-size:26px;font-weight:700;color:#fff;">${score}</div><div style="font-size:9px;font-weight:700;letter-spacing:.15em;color:#AACDFA;">NOTA</div></div><svg width="72" height="72" viewBox="0 0 72 72" style="transform:rotate(-90deg);" aria-hidden="true">' +
-      '<circle class="guide-product-card-score-circle-bg" cx="36" cy="36" r="31" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="5"/>' +
-      '<circle class="guide-product-card-score-circle-progress" cx="36" cy="36" r="31" fill="none" stroke="#40A4FF" stroke-width="5" stroke-linecap="round" stroke-dasharray="' + circumference + '" stroke-dashoffset="' + offset + '" style="transition:stroke-dashoffset 600ms ease-out;"/>' +
-    '</svg>' +
-    '<div style="text-align:center;line-height:1.1;">' +
-      '<div style="font-size:26px;font-weight:700;color:#fff;">' + score + '</div>' +
-      '<div style="font-size:9px;font-weight:700;letter-spacing:.15em;color:#AACDFA;">NOTA</div>' +
+  return '<div class="guide-product-card-score-container" role="img" aria-label="' + aria + '" style="position:absolute;top:10px;left:10px;z-index:3;width:56px;height:56px;border-radius:50%;background:rgba(10,20,44,.85);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.2);box-shadow:0 3px 10px rgba(0,15,50,.3);display:flex;align-items:center;justify-content:center;">' +
+    '<div style="text-align:center;line-height:1.1;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;">' +
+      '<div style="font-size:19px;font-weight:800;color:#fff;line-height:1;">' + score + '</div>' +
+      '<div style="font-size:7px;font-weight:700;letter-spacing:.1em;color:#9AC0FA;text-transform:uppercase;">NOTA</div>' +
     '</div>' +
+    '<svg width="56" height="56" viewBox="0 0 56 56" style="transform:rotate(-90deg);position:absolute;top:0;left:0;" aria-hidden="true">' +
+      '<circle class="guide-product-card-score-circle-bg" cx="28" cy="28" r="' + radius + '" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="' + strokeWidth + '"/>' +
+      '<circle class="guide-product-card-score-circle-progress" cx="28" cy="28" r="' + radius + '" fill="none" stroke="#40A4FF" stroke-width="' + strokeWidth + '" stroke-linecap="round" stroke-dasharray="' + circumference + '" stroke-dashoffset="' + offset + '" style="transition:stroke-dashoffset 600ms ease-out;"/>' +
+    '</svg>' +
   '</div>';
 }
 
