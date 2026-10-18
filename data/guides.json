@@ -34433,7 +34433,7 @@
           5,
           1,
           51,
-          634,
+          210,
           635,
           636,
           211
@@ -34482,7 +34482,7 @@
         "heading": "Hang It and Forget It: Is the e906 the Easiest Amp Mic to Place?",
         "heading_es": "Cuélgalo y olvídate: ¿es el e906 el micro de ampli más fácil de colocar?",
         "products": [
-          634
+          210
         ],
         "content": "<strong>The Sennheiser e906 solves amp miking as a placement problem first: its flat body hangs over the cabinet by its own cable, so there is no stand eating floor space in a small room.</strong> A supercardioid dynamic capsule with fast transient response keeps the tone direct and punchy, and the 3-position presence switch (Bright, Moderate, Dark) voices the top end at the mic instead of in your DAW. It runs 40 Hz – 18 kHz over XLR with 2.2 mV/Pa of output. The honest limits: it is a specialist — a cab-voiced tool that feels wrong on podcast vocals — and at around $219 it costs twice the SM57 while still needing an interface. If you want the fastest path from amp to record-ready tone, the e906 is the easiest mic here.",
         "content_es": "<strong>El Sennheiser e906 resuelve la grabación de amplis empezando por la colocación: su cuerpo plano se cuelga de la pantalla con su propio cable, sin trípode ocupando sitio en una habitación pequeña.</strong> La cápsula dinámica supercardioide de respuesta rápida mantiene el tono directo y contundente, y el interruptor de presencia de 3 posiciones (brillante, medio, oscuro) ajusta los agudos en el micro en vez de en el DAW. Trabaja de 40 Hz a 18 kHz por XLR con 2,2 mV/Pa de salida. Los límites honestos: es un especialista — una herramienta pensada para pantallas que no encaja en voces de podcast — y por unos $219 cuesta el doble que el SM57 y sigue necesitando interfaz. Si quieres el camino más corto del ampli al tono listo para grabar, el e906 es el micro más fácil de esta lista."
@@ -34522,7 +34522,7 @@
     "featuredProducts": [
       5,
       1,
-      634,
+      210,
       635,
       636,
       211
@@ -103524,18 +103524,9 @@
       {
         "heading": "What \"Balanced Response\" Actually Means Under $150",
         "heading_es": "Lo que significa de verdad \"respuesta equilibrada\" por debajo de $150",
-        "content": "<p><strong>No monitor under $150 is flat, and any guide that tells you otherwise is selling you something.</strong> Manufacturers publish a frequency range and often omit the attenuation, which is where the useful information usually sits. A speaker listed as 80 Hz to 20 kHz without a dB figure is claiming audible output at 80 Hz, which almost nothing this size actually delivers cleanly.</p><p><strong>The number that matters is the one with a dB attached.</strong> The PreSonus Eris E4.5 is quoted at 55 Hz to 20 kHz. The Mackie CR4.5 reaches 55 Hz. The JBL 104-BT is 60 Hz at minus 10 dB but 88 Hz at minus 3 dB, and that six-decibel gap is the difference between a speaker that produces bass and one that produces bass you can mix against.</p><p><strong>Below about 50 Hz, nothing in this price range is a mixing tool.</strong> Every pair here will stop short of the sub-bass that electronic and hip-hop production depends on. If that matters to your genre, the honest fix is a subwoofer later, not a bigger speaker now.</p><p><strong>What you do get at this budget is tone control, not perfection.</strong> Two pairs here let you trim the low end and high end; three let you flip a switch and change voicing entirely. That matters far more than the last decibel of extension, because a untreated bedroom is doing more damage to your low end than the speaker is.</p>",
-        "content_es": "<p><strong>Ningún monitor por debajo de $150 es plano, y cualquier guía que te diga lo contrario te está vendiendo algo.</strong> Los fabricantes publican un rango de frecuencia y a menudo omiten la atenuación, que es justo donde suele estar la información útil. Un altavoz que lista 80 Hz a 20 kHz sin cifra en dB está afirmando que tiene salida audible a 80 Hz, y casi nada de este tamaño lo entrega limpiamente.</p><p><strong>El número que importa es el que lleva los dB al lado.</strong> El PreSonus Eris E4.5 está citado como 55 Hz a 20 kHz. El Mackie CR4.5 llega a 55 Hz. El JBL 104-BT da 60 Hz a menos 10 dB pero 88 Hz a menos 3 dB, y esos seis decibelios son la diferencia entre un altavoz que produce graves y otro que produce graves con los que se puede mezclar.</p><p><strong>Por debajo de unos 50 Hz, nada de este rango es una herramienta de mezcla.</strong> Todos los pares de aquí se quedan cortos del subgrave del que dependen la producción electrónica y el hip-hop. Si eso importa en tu género, la solución honesta es un subgrave más adelante, no un altavoz más grande ahora.</p><p><strong>Lo que sí consigues a este presupuesto es control de tono, no perfección.</strong> Dos pares de esta lista te dejan ajustar graves y agudos; tres te permiten cambiar el voicing con un conmutador. Eso importa mucho más que el último decibelio de extensión, porque un dormitorio sin tratar está haciendo más daño en tu grave que el propio altavoz.</p>",
+        "content": "<p><strong>No monitor under $150 is flat, and any guide that tells you otherwise is selling you something.</strong> Manufacturers publish a frequency range and often omit the attenuation, which is where the useful information usually sits. A speaker listed as 80 Hz to 20 kHz without a dB figure is claiming audible output at 80 Hz, which almost nothing this size actually delivers cleanly.</p><p><strong>The number that matters is the one with a dB attached.</strong> The Mackie CR4.5 is quoted at 55 Hz to 20 kHz and the M-Audio BX4 at 69 Hz. The JBL 104-BT is 60 Hz at minus 10 dB but 88 Hz at minus 3 dB, and that six-decibel gap is the difference between a speaker that produces bass and one that produces bass you can mix against.</p><p><strong>Below about 50 Hz, nothing in this price range is a mixing tool.</strong> Every pair here will stop short of the sub-bass that electronic and hip-hop production depends on. If that matters to your genre, the honest fix is a subwoofer later, not a bigger speaker now.</p><p><strong>What you do get at this budget is tone control, not perfection.</strong> Two pairs here let you trim the low end and high end; three let you flip a switch and change voicing entirely. That matters far more than the last decibel of extension, because a untreated bedroom is doing more damage to your low end than the speaker is.</p>",
+        "content_es": "<p><strong>Ningún monitor por debajo de $150 es plano, y cualquier guía que te diga lo contrario te está vendiendo algo.</strong> Los fabricantes publican un rango de frecuencia y a menudo omiten la atenuación, que es justo donde suele estar la información útil. Un altavoz que lista 80 Hz a 20 kHz sin cifra en dB está afirmando que tiene salida audible a 80 Hz, y casi nada de este tamaño lo entrega limpiamente.</p><p><strong>El número que importa es el que lleva los dB al lado.</strong> El Mackie CR4.5 está citado como 55 Hz a 20 kHz y el M-Audio BX4 como 69 Hz. El JBL 104-BT da 60 Hz a menos 10 dB pero 88 Hz a menos 3 dB, y esos seis decibelios son la diferencia entre un altavoz que produce graves y otro que produce graves con los que se puede mezclar.</p><p><strong>Por debajo de unos 50 Hz, nada de este rango es una herramienta de mezcla.</strong> Todos los pares de aquí se quedan cortos del subgrave del que dependen la producción electrónica y el hip-hop. Si eso importa en tu género, la solución honesta es un subgrave más adelante, no un altavoz más grande ahora.</p><p><strong>Lo que sí consigues a este presupuesto es control de tono, no perfección.</strong> Dos pares de esta lista te dejan ajustar graves y agudos; tres te permiten cambiar el voicing con un conmutador. Eso importa mucho más que el último decibelio de extensión, porque un dormitorio sin tratar está haciendo más daño en tu grave que el propio altavoz.</p>",
         "products": []
-      },
-      {
-        "heading": "Is the PreSonus Eris E4.5 the Best Monitor Under $150?",
-        "heading_es": "¿Es el PreSonus Eris E4.5 el mejor monitor por debajo de $150?",
-        "content": "<p><strong>This is the one to buy if you want to mix rather than just listen.</strong> A 4.5-inch woven glass-fibre composite woofer sits behind the EBM waveguide that PreSonus developed for its higher-end models, giving 120 degrees of horizontal coverage but only 60 vertically, which is deliberate: it keeps desk reflections out of the mix position without making the stereo image mushy.</p><p><strong>The inputs are the real headline.</strong> Balanced XLR and quarter-inch TRS alongside RCA means you can run this straight into a professional interface with no adaptor, at $139.99 the pair. Almost nothing else at this price offers true balanced connectivity.</p><p><strong>50W of Class AB bi-amplification</strong> behind both drivers is enough headroom to mix at a sensible level without the thin, strained quality that Class D designs give you at low volumes. Foam feet are included in the box, which is not something you can say for most of this bracket.</p><p><strong>The trade-off:</strong> at 55 Hz it will not tell you anything about the sub-bass, and there is no Bluetooth, so it is a wired monitor and nothing else. If your room is untreated, the waveguide will faithfully reproduce every early reflection your desk is producing. That is honest, not helpful, unless you fix the room first.</p>",
-        "content_es": "<p><strong>Este es el que compras si quieres mezclar y no solo escuchar.</strong> Un woofer de 4,5 pulgadas de fibra de vidrio trenzada detrás de la guía de ondas EBM que PreSonus desarrolló para sus modelos de gama alta, con 120 grados de cobertura horizontal pero solo 60 en vertical, y es deliberado: mantiene las reflexiones del escritorio fuera de la posición de mezcla sin embarrar la imagen estéreo.</p><p><strong>Las entradas son la verdadera protagonista.</strong> XLR y TRS de 1/4 de pulgada balanceadas junto a RCA, así que puedes conectarlo directamente a una interfaz profesional sin adaptadores, por $139.99 el par. Casi nada más en este precio ofrece conectividad balanceada real.</p><p><strong>50 W bi-amplificados en Clase AB</strong> detrás de cada driver dan margen suficiente para mezclar a un nivel sensato sin ese sonido delgado y forzado que sacan los diseños Clase D a volúmenes bajos. Los pies de espuma vienen en la caja, cosa que no puedes decir de la mayoría de esta categoría.</p><p><strong>La contrapartida:</strong> a 55 Hz no te va a decir nada del subgrave, y no tiene Bluetooth, así que es un monitor cableado y nada más. Si tu sala está sin tratar, la guía de ondas reproducirá fielmente cada reflexión temprana que produce tu escritorio. Eso es honesto, no útil, salvo que arregles la sala primero.</p>",
-        "products": [
-          1045
-        ]
       },
       {
         "heading": "Is the Mackie CR4.5 the Best Value Monitor Under $150?",
@@ -103549,8 +103540,8 @@
       {
         "heading": "Is the PreSonus Eris 3.5 2nd Gen Still the Best-Budget Monitor?",
         "heading_es": "¿Sigue siendo el PreSonus Eris 3.5 2nd Gen el mejor monitor calidad-precio?",
-        "content": "<p><strong>The reason this one still tops the budget charts is the rear panel, not the drivers.</strong> Three and a half inch woven composite woofer, one-inch silk dome, 50W of Class AB amplification and a crossover at 2.8 kHz, with a quoted range of 80 Hz to 20 kHz. That is all fine. What makes it stand out is a High Frequency trim of plus or minus 6 dB centred at 10 kHz and a Low Frequency trim of plus or minus 6 dB centred at 100 Hz, both continuously variable.</p><p><strong>Defined centres are the whole point.</strong> Almost every rival in this guide offers a tone control but will not tell you where it acts. Knowing the Eris cuts and boosts around 100 Hz and 10 kHz means you can actually compensate for the boundary effect of a desk pushed against a wall, instead of guessing.</p><p><strong>Balanced quarter-inch TRS and RCA, plus a front Aux input</strong> for your phone, and a headphone jack that mutes the speakers properly rather than running them and the cans at once. Studio One Prime and a bundle of plug-ins come with it, which matters to a beginner more than it does to an engineer.</p><p><strong>The trade-off:</strong> at $99.99 for the pair it is the least expensive option here and also the one that gives away the most low end. If you are mixing anything with a bass part, the extra thirty dollars for the Eris E4.5 buys you a 4.5-inch driver instead of a 3.5-inch one, and that is a more meaningful upgrade than any specification on this page.</p>",
-        "content_es": "<p><strong>La razón por la que sigue ganando las comparativas de precio no son los drivers: es el panel trasero.</strong> Woofer de 3,5 pulgadas de compuesto trenzado, cúpula de seda de 1 pulgada, 50 W de amplificación Clase AB y un cruce en 2,8 kHz, con un rango citado de 80 Hz a 20 kHz. Todo eso está bien. Lo que le hace destacar es un ajuste de agudos de ±6 dB centrado en 10 kHz y uno de graves de ±6 dB centrado en 100 Hz, ambos variables de forma continua.</p><p><strong>Que los centros estén definidos es justo lo importante.</strong> Casi todos los rivales de esta guía ofrecen un control de tono pero no te dicen dónde actúa. Saber que los Eris cortan y realzan alrededor de 100 Hz y 10 kHz significa que puedes compensar de verdad el efecto de proximidad de un escritorio pegado a la pared, en lugar de adivinar.</p><p><strong>TRS de 1/4 balanceada y RCA, más entrada Aux frontal</strong> para el móvil y una salida de auriculares que silencia los altavoces en lugar de hacer sonar los dos a la vez. Trae Studio One Prime y un lote de plug-ins, lo que a un principiante le importa más que a un ingeniero.</p><p><strong>La contrapartida:</strong> a $99.99 por el par es la opción más barata de esta lista y también la que más graves regala. Si vas a mezclar algo con una parte de bajo, los treinta dólares extra por el Eris E4.5 te compran un driver de 4,5 pulgadas en lugar de uno de 3,5, y esa es una mejora más significativa que cualquier especificación de esta página.</p>",
+        "content": "<p><strong>The reason this one still tops the budget charts is the rear panel, not the drivers.</strong> Three and a half inch woven composite woofer, one-inch silk dome, 50W of Class AB amplification and a crossover at 2.8 kHz, with a quoted range of 80 Hz to 20 kHz. That is all fine. What makes it stand out is a High Frequency trim of plus or minus 6 dB centred at 10 kHz and a Low Frequency trim of plus or minus 6 dB centred at 100 Hz, both continuously variable.</p><p><strong>Defined centres are the whole point.</strong> Almost every rival in this guide offers a tone control but will not tell you where it acts. Knowing the Eris cuts and boosts around 100 Hz and 10 kHz means you can actually compensate for the boundary effect of a desk pushed against a wall, instead of guessing.</p><p><strong>Balanced quarter-inch TRS and RCA, plus a front Aux input</strong> for your phone, and a headphone jack that mutes the speakers properly rather than running them and the cans at once. Studio One Prime and a bundle of plug-ins come with it, which matters to a beginner more than it does to an engineer.</p><p><strong>The trade-off:</strong> at $99.99 for the pair it is the least expensive option here and also the one that gives away the most low end. If you are mixing anything with a bass part, the extra thirty dollars buys you a 4.5-inch driver instead of a 3.5-inch one, and that is a more meaningful upgrade than any specification on this page.</p>",
+        "content_es": "<p><strong>La razón por la que sigue ganando las comparativas de precio no son los drivers: es el panel trasero.</strong> Woofer de 3,5 pulgadas de compuesto trenzado, cúpula de seda de 1 pulgada, 50 W de amplificación Clase AB y un cruce en 2,8 kHz, con un rango citado de 80 Hz a 20 kHz. Todo eso está bien. Lo que le hace destacar es un ajuste de agudos de ±6 dB centrado en 10 kHz y uno de graves de ±6 dB centrado en 100 Hz, ambos variables de forma continua.</p><p><strong>Que los centros estén definidos es justo lo importante.</strong> Casi todos los rivales de esta guía ofrecen un control de tono pero no te dicen dónde actúa. Saber que los Eris cortan y realzan alrededor de 100 Hz y 10 kHz significa que puedes compensar de verdad el efecto de proximidad de un escritorio pegado a la pared, en lugar de adivinar.</p><p><strong>TRS de 1/4 balanceada y RCA, más entrada Aux frontal</strong> para el móvil y una salida de auriculares que silencia los altavoces en lugar de hacer sonar los dos a la vez. Trae Studio One Prime y un lote de plug-ins, lo que a un principiante le importa más que a un ingeniero.</p><p><strong>La contrapartida:</strong> a $99.99 por el par es la opción más barata de esta lista y también la que más graves regala. Si vas a mezclar algo con una parte de bajo, los treinta dólares extra te compran un driver de 4,5 pulgadas en lugar de uno de 3,5, y esa es una mejora más significativa que cualquier especificación de esta página.</p>",
         "products": [
           1042
         ]
@@ -103567,8 +103558,8 @@
       {
         "heading": "Is the Mackie CR3.5 the Best Compact Monitor Under $100?",
         "heading_es": "¿Es el Mackie CR3.5 el mejor monitor compacto por debajo de $100?",
-        "content": "<p><strong>This is the pair to buy if your desk is small and your room is untreated, and it is the only one here that ships with isolation pads at ninety-nine dollars.</strong> Three and a half inch woven woofer, silk dome tweeter, 50W RMS of Class A/B bi-amplification.</p><p><strong>The front-panel tone knob is the reason to choose it over the PreSonus Eris 3.5 2nd Gen.</strong> At full counter-clockwise you get a flat reference; rotate right and it moves towards a warmer, more coloured sound. The rear location switch flips voicing between desktop and bookshelf. Between them, you have more adjustment in two fingers than the Eris gives you with two knobs.</p><p><strong>TRS, RCA and 3.5mm inputs, front headphone output,</strong> and pads in the box. The Bluetooth version exists and is very good, but on Amazon it sits at $159.99, which puts it outside this guide entirely.</p><p><strong>The trade-off:</strong> no Bluetooth on the wired version, and roughly 80 Hz of bass extension means this is a checking-and-editing monitor, not a mixing monitor. If your material has real low end, spend the extra thirty dollars on the PreSonus Eris E4.5 or the Mackie CR4.5 and get a 4.5-inch driver instead.</p>",
-        "content_es": "<p><strong>Este es el par que compras si tu escritorio es pequeño y tu sala está sin tratar, y es el único de esta lista que trae los pads de aislamiento en la caja por $99.</strong> Woofer de 3,5 pulgadas de tejido, cúpula de seda, 50 W RMS bi-amplificados en Clase A/B.</p><p><strong>El knob frontal de tono es la razón para elegirlo antes que el PreSonus Eris 3.5 2nd Gen.</strong> Del todo a la izquierda tienes una referencia plana; al girarlo a la derecha se mueve hacia un sonido más cálido y coloreado. El conmutador de ubicación trasero alterna el voicing entre escritorio y estantería. Entre los dos tienes más ajuste con dos dedos de los que el Eris te da con dos potenciómetros.</p><p><strong>Entradas TRS, RCA y 3,5 mm, salida de auriculares frontal</strong> y pads incluidos. La versión con Bluetooth existe y es muy buena, pero en Amazon está a $159.99, lo que la deja fuera de esta guía por completo.</p><p><strong>La contrapartida:</strong> la versión cableada no tiene Bluetooth, y unos 80 Hz de extensión significan que esto sirve para revisar y editar, no para mezclar. Si lo que mezclas tiene graves de verdad, gasta treinta dólares más en el PreSonus Eris E4.5 o el Mackie CR4.5 y llévate un driver de 4,5 pulgadas.</p>",
+        "content": "<p><strong>This is the pair to buy if your desk is small and your room is untreated, and it is the only one here that ships with isolation pads at ninety-nine dollars.</strong> Three and a half inch woven woofer, silk dome tweeter, 50W RMS of Class A/B bi-amplification.</p><p><strong>The front-panel tone knob is the reason to choose it over the PreSonus Eris 3.5 2nd Gen.</strong> At full counter-clockwise you get a flat reference; rotate right and it moves towards a warmer, more coloured sound. The rear location switch flips voicing between desktop and bookshelf. Between them, you have more adjustment in two fingers than the Eris gives you with two knobs.</p><p><strong>TRS, RCA and 3.5mm inputs, front headphone output,</strong> and pads in the box. The Bluetooth version exists and is very good, but on Amazon it sits at $159.99, which puts it outside this guide entirely.</p><p><strong>The trade-off:</strong> no Bluetooth on the wired version, and roughly 80 Hz of bass extension means this is a checking-and-editing monitor, not a mixing monitor. If your material has real low end, spend the extra thirty dollars on the Mackie CR4.5 or the M-Audio BX4 and get a 4.5-inch driver instead.</p>",
+        "content_es": "<p><strong>Este es el par que compras si tu escritorio es pequeño y tu sala está sin tratar, y es el único de esta lista que trae los pads de aislamiento en la caja por $99.</strong> Woofer de 3,5 pulgadas de tejido, cúpula de seda, 50 W RMS bi-amplificados en Clase A/B.</p><p><strong>El knob frontal de tono es la razón para elegirlo antes que el PreSonus Eris 3.5 2nd Gen.</strong> Del todo a la izquierda tienes una referencia plana; al girarlo a la derecha se mueve hacia un sonido más cálido y coloreado. El conmutador de ubicación trasero alterna el voicing entre escritorio y estantería. Entre los dos tienes más ajuste con dos dedos de los que el Eris te da con dos potenciómetros.</p><p><strong>Entradas TRS, RCA y 3,5 mm, salida de auriculares frontal</strong> y pads incluidos. La versión con Bluetooth existe y es muy buena, pero en Amazon está a $159.99, lo que la deja fuera de esta guía por completo.</p><p><strong>La contrapartida:</strong> la versión cableada no tiene Bluetooth, y unos 80 Hz de extensión significan que esto sirve para revisar y editar, no para mezclar. Si lo que mezclas tiene graves de verdad, gasta treinta dólares más en el Mackie CR4.5 o el M-Audio BX4 y llévate un driver de 4,5 pulgadas.</p>",
         "products": [
           1046
         ]
@@ -103585,8 +103576,8 @@
       {
         "heading": "The Edifier R1280T: The Most Popular Speakers Here Are Not Monitors",
         "heading_es": "El Edifier R1280T: los altavoces más populares de esta lista no son monitores",
-        "content": "<p><strong>Nearly twenty thousand reviews, and it is the pair most people in this price range will actually buy.</strong> A 4-inch woven driver, 0.5-inch silk dome, 42W RMS, 52 Hz to 20 kHz, bass and treble controls on the side panel, two RCA inputs so a turntable and a computer can stay connected together.</p><p><strong>It sounds good. It is genuinely good for what it is.</strong> That is exactly why it needs this paragraph. A powered bookshelf speaker and a studio monitor are different objects, and the difference is not marketing.</p><p><strong>What a monitor gives you:</strong> a waveguide that controls off-axis response so the mix sounds the same when you move your head, a defined reference response you can learn, a balanced input that does not pick up the noise floor of your interface, and a rear EQ with published centre frequencies.</p><p><strong>What the R1280T does not have:</strong> any of the above. Its tone controls are a fixed shelf boost and cut with no published frequencies, its inputs are unbalanced RCA only, and there is no room correction of any kind. Play it back on it and it will flatter your mix.</p><p><strong>So who should buy it?</strong> If you are writing, producing, editing video, streaming, or playing instruments and you want a serious upgrade from computer speakers, it is excellent value and it is the pair we would buy. If you are mixing and want mixes that translate, pick a monitor from this list instead. For that job the PreSonus Eris E4.5 at $139.99 is the right buy, and the extra twenty-two dollars buys you a waveguide, an XLR input and a driver with an inch more cone in it.</p>",
-        "content_es": "<p><strong>Casi veinte mil reseñas, y es el par que la gente de esta franja de precio realmente va a comprar.</strong> Un driver de 4 pulgadas de tejido, cúpula de seda de 0,5 pulgadas, 42 W RMS, 52 Hz a 20 kHz, controles de graves y agudos en el panel lateral y dos entradas RCA para tener conectados a la vez un tocadiscos y un ordenador.</p><p><strong>Suena bien. Es genuinamente bueno para lo que es.</strong> Y por eso necesita este párrafo. Un altavoz de estantería amplificado y un monitor de estudio son objetos distintos, y la diferencia no es marketing.</p><p><strong>Lo que te da un monitor:</strong> una guía de ondas que controla la respuesta fuera del eje para que la mezcla suene igual al mover la cabeza, una respuesta de referencia definida que puedes aprenderte, una entrada balanceada que no capta el ruido de tu interfaz y un EQ trasero con frecuencias centro publicadas.</p><p><strong>Lo que el R1280T no tiene:</strong> nada de lo anterior. Sus controles de tono son un realce y un corte fijos de graves y agudos, sin frecuencias publicadas, sus entradas son solo RCA no balanceadas y no hay corrección de sala de ningún tipo. Si mezclas encima de él, tu mezcla va a quedar favorecida.</p><p><strong>¿Quién debería comprarlo entonces?</strong> Si escribes, produces, editas vídeo, haces streaming o tocas instrumentos y quieres una mejora seria sobre los altavoces del ordenador, es excelente valor y es el par que compraríamos nosotros. Si mezclas y quieres mezclas que trasladen, elige un monitor de esta lista. Para ese trabajo, lo que tienes que comprar es el PreSonus Eris E4.5 a $139.99, y los veintidós dólares extra te compran una guía de ondas, una entrada XLR y un driver con una pulgada más de cono.</p>",
+        "content": "<p><strong>Nearly twenty thousand reviews, and it is the pair most people in this price range will actually buy.</strong> A 4-inch woven driver, 0.5-inch silk dome, 42W RMS, 52 Hz to 20 kHz, bass and treble controls on the side panel, two RCA inputs so a turntable and a computer can stay connected together.</p><p><strong>It sounds good. It is genuinely good for what it is.</strong> That is exactly why it needs this paragraph. A powered bookshelf speaker and a studio monitor are different objects, and the difference is not marketing.</p><p><strong>What a monitor gives you:</strong> a waveguide that controls off-axis response so the mix sounds the same when you move your head, a defined reference response you can learn, a balanced input that does not pick up the noise floor of your interface, and a rear EQ with published centre frequencies.</p><p><strong>What the R1280T does not have:</strong> any of the above. Its tone controls are a fixed shelf boost and cut with no published frequencies, its inputs are unbalanced RCA only, and there is no room correction of any kind. Play it back on it and it will flatter your mix.</p><p><strong>So who should buy it?</strong> If you are writing, producing, editing video, streaming, or playing instruments and you want a serious upgrade from computer speakers, it is excellent value and it is the pair we would buy. If you are mixing and want mixes that translate, pick a monitor from this list instead. For that job the Mackie CR4.5 at $129.99 is the right buy, and the extra twelve dollars buys you a waveguide, a location switch and a driver with an inch more cone in it.</p>",
+        "content_es": "<p><strong>Casi veinte mil reseñas, y es el par que la gente de esta franja de precio realmente va a comprar.</strong> Un driver de 4 pulgadas de tejido, cúpula de seda de 0,5 pulgadas, 42 W RMS, 52 Hz a 20 kHz, controles de graves y agudos en el panel lateral y dos entradas RCA para tener conectados a la vez un tocadiscos y un ordenador.</p><p><strong>Suena bien. Es genuinamente bueno para lo que es.</strong> Y por eso necesita este párrafo. Un altavoz de estantería amplificado y un monitor de estudio son objetos distintos, y la diferencia no es marketing.</p><p><strong>Lo que te da un monitor:</strong> una guía de ondas que controla la respuesta fuera del eje para que la mezcla suene igual al mover la cabeza, una respuesta de referencia definida que puedes aprenderte, una entrada balanceada que no capta el ruido de tu interfaz y un EQ trasero con frecuencias centro publicadas.</p><p><strong>Lo que el R1280T no tiene:</strong> nada de lo anterior. Sus controles de tono son un realce y un corte fijos de graves y agudos, sin frecuencias publicadas, sus entradas son solo RCA no balanceadas y no hay corrección de sala de ningún tipo. Si mezclas encima de él, tu mezcla va a quedar favorecida.</p><p><strong>¿Quién debería comprarlo entonces?</strong> Si escribes, produces, editas vídeo, haces streaming o tocas instrumentos y quieres una mejora seria sobre los altavoces del ordenador, es excelente valor y es el par que compraríamos nosotros. Si mezclas y quieres mezclas que trasladen, elige un monitor de esta lista. Para ese trabajo, lo que tienes que comprar es el Mackie CR4.5 a $129.99, y los doce dólares extra te compran una guía de ondas, un conmutador de ubicación y un driver con una pulgada más de cono.</p>",
         "products": [
           1047
         ]
@@ -103599,12 +103590,11 @@
         "products": []
       }
     ],
-    "conclusion": "If you mix and want mixes that translate, buy the PreSonus Eris E4.5: it is the only pair under $150 with true balanced XLR alongside a 4.5-inch driver and a waveguide, and the waveguide will not stop reminding you about your untreated room. If your desk is small and your budget is firm at a hundred dollars, the Mackie CR3.5 wins on the isolation pads in the box and the front-panel tone knob. If your room has bass in it, the Mackie CR4.5 reaches 55 Hz for ten dollars less than the M-Audio BX4 and is the deepest new pair at this price. And if what you actually want is a serious upgrade from computer speakers rather than a mixing tool, buy the Edifier R1280T, accept that it is not a monitor, and stop expecting it to translate.",
-    "conclusion_es": "Si mezclas y quieres mezclas que trasladen, compra el PreSonus Eris E4.5: es el único par por debajo de $150 con XLR balanceado de verdad junto a un driver de 4,5 pulgadas y una guía de ondas, y esa guía no dejará de recordarte tu sala sin tratar. Si tu escritorio es pequeño y tu presupuesto se queda clavado en cien dólares, el Mackie CR3.5 gana por los pads de aislamiento de la caja y el knob frontal de tono. Si tu sala tiene graves, el Mackie CR4.5 llega a 55 Hz por diez dólares menos que el M-Audio BX4 y es el par nuevo más profundo a este precio. Y si lo que quieres de verdad es una mejora seria sobre los altavoces del ordenador en lugar de una herramienta de mezcla, compra el Edifier R1280T, acepta que no es un monitor y deja de esperar que traslade.",
-    "verdict": "Best overall: PreSonus Eris E4.5. Best for small desks: Mackie CR3.5. Best bass extension: Mackie CR4.5. Best features per dollar: Edifier MR3. Best for isolation: M-Audio BX4. Best all-round first monitor: PreSonus Eris 3.5 2nd Gen. Not a monitor but the most popular: Edifier R1280T.",
-    "verdict_es": "Mejor en general: PreSonus Eris E4.5. Mejor para escritorios pequeños: Mackie CR3.5. Mejor extensión de graves: Mackie CR4.5. Mejor relación funciones-precio: Edifier MR3. Mejor aislamiento: M-Audio BX4. Mejor monitor para empezar de cero: PreSonus Eris 3.5 2nd Gen. No es un monitor pero es el más popular: Edifier R1280T.",
+    "conclusion": "If you mix and want mixes that translate, buy the Mackie CR4.5: the deepest bass available new for a pair under $150, and its location switch fixes the one problem a $130 monitor cannot escape, which is being too close to a wall. If your desk is small and your budget is firm at a hundred dollars, the Mackie CR3.5 wins on the isolation pads in the box and the front-panel tone knob. If your room has bass in it, the Mackie CR4.5 reaches 55 Hz for ten dollars less than the M-Audio BX4 and is the deepest new pair at this price. And if what you actually want is a serious upgrade from computer speakers rather than a mixing tool, buy the Edifier R1280T, accept that it is not a monitor, and stop expecting it to translate.",
+    "conclusion_es": "Si mezclas y quieres mezclas que trasladen, compra el Mackie CR4.5: el grave más profundo que hay nuevo por un par por debajo de $150, y su conmutador de ubicación arregla el único problema que ningún monitor de 130 dólares puede esquivar, que es estar demasiado pegado a la pared. Si tu escritorio es pequeño y tu presupuesto se queda clavado en cien dólares, el Mackie CR3.5 gana por los pads de aislamiento de la caja y el knob frontal de tono. Si tu sala tiene graves, el Mackie CR4.5 llega a 55 Hz por diez dólares menos que el M-Audio BX4 y es el par nuevo más profundo a este precio. Y si lo que quieres de verdad es una mejora seria sobre los altavoces del ordenador en lugar de una herramienta de mezcla, compra el Edifier R1280T, acepta que no es un monitor y deja de esperar que traslade.",
+    "verdict": "Best overall: Mackie CR4.5. Best for small desks: Mackie CR3.5. Best bass extension: Mackie CR4.5. Best features per dollar: Edifier MR3. Best for isolation: M-Audio BX4. Best all-round first monitor: PreSonus Eris 3.5 2nd Gen. Not a monitor but the most popular: Edifier R1280T.",
+    "verdict_es": "Mejor en general: Mackie CR4.5. Mejor para escritorios pequeños: Mackie CR3.5. Mejor extensión de graves: Mackie CR4.5. Mejor relación funciones-precio: Edifier MR3. Mejor aislamiento: M-Audio BX4. Mejor monitor para empezar de cero: PreSonus Eris 3.5 2nd Gen. No es un monitor pero es el más popular: Edifier R1280T.",
     "featuredProducts": [
-      1045,
       1048,
       1042,
       1043,
@@ -103620,8 +103610,8 @@
       "studio-subwoofers",
       "jbl-vs-kali"
     ],
-    "description": "Budget home studio speakers under $150 in 2026: PreSonus, Mackie, M-Audio and Edifier compared with measured bass. Best pick: Eris E4.5.",
-    "description_es": "Monitores de estudio doméstico económicos por menos de $150: PreSonus, Mackie, M-Audio y Edifier con graves medidos. Mejor compra: Eris E4.5.",
+    "description": "Budget home studio speakers under $150 in 2026: PreSonus, Mackie, M-Audio and Edifier compared with measured bass. Best pick: CR4.5.",
+    "description_es": "Monitores de estudio doméstico económicos por menos de $150: PreSonus, Mackie, M-Audio y Edifier con graves medidos. Mejor compra: CR4.5.",
     "featuredSnippet": {
       "title_en": "Best Budget Studio Monitors ",
       "text_en": "At around $298 a pair, the JBL 305P MkII is the monitor to recommend for great sound on a tight budget. JBL's Image Control Waveguide creates an incredibly wide...",
@@ -103708,10 +103698,6 @@
       "title_es": "Monitores económicos comparados en esta guía",
       "columns": [
         {
-          "title": "PreSonus Eris E4.5",
-          "title_es": "PreSonus Eris E4.5"
-        },
-        {
           "title": "Mackie CR4.5",
           "title_es": "Mackie CR4.5"
         },
@@ -103742,10 +103728,6 @@
           "label_es": "Precio (par)",
           "values": [
             {
-              "value": "$139.99",
-              "value_es": "$139.99"
-            },
-            {
               "value": "$129.99",
               "value_es": "$129.99"
             },
@@ -103775,10 +103757,6 @@
           "label": "Woofer",
           "label_es": "Woofer",
           "values": [
-            {
-              "value": "4.5\" woven composite",
-              "value_es": "4,5\" compuesto trenzado"
-            },
             {
               "value": "4.5\" woven",
               "value_es": "4,5\" tejido"
@@ -103814,10 +103792,6 @@
               "value_es": "55 Hz - 20 kHz"
             },
             {
-              "value": "55 Hz - 20 kHz",
-              "value_es": "55 Hz - 20 kHz"
-            },
-            {
               "value": "80 Hz - 20 kHz",
               "value_es": "80 Hz - 20 kHz"
             },
@@ -103843,10 +103817,6 @@
           "label": "Balanced input",
           "label_es": "Entrada balanceada",
           "values": [
-            {
-              "value": "XLR + TRS",
-              "value_es": "XLR + TRS"
-            },
             {
               "value": "TRS",
               "value_es": "TRS"
@@ -103877,10 +103847,6 @@
           "label": "Room correction",
           "label_es": "Corrección de sala",
           "values": [
-            {
-              "value": "Waveguide control",
-              "value_es": "Control por guía de ondas"
-            },
             {
               "value": "Tone knob + location switch",
               "value_es": "Knob de tono + conmutador de ubicación"
@@ -103916,10 +103882,6 @@
               "value_es": "No"
             },
             {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
               "value": "No (BT version $129.99)",
               "value_es": "No (versión BT $129.99)"
             },
@@ -103945,10 +103907,6 @@
           "label": "Isolation included",
           "label_es": "Aislamiento incluido",
           "values": [
-            {
-              "value": "Foam feet",
-              "value_es": "Pies de espuma"
-            },
             {
               "value": "No",
               "value_es": "No"
@@ -104000,10 +103958,6 @@
               "value_es": "Sí"
             },
             {
-              "value": "Yes",
-              "value_es": "Sí"
-            },
-            {
               "value": "No, bookshelf speaker",
               "value_es": "No, altavoz de estantería"
             }
@@ -104012,32 +103966,6 @@
       ]
     },
     "verdictProsCons": [
-      {
-        "name": "PreSonus Eris E4.5",
-        "name_es": "PreSonus Eris E4.5",
-        "pros": [
-          "Only pair under $150 with true balanced XLR",
-          "4.5-inch driver reaching 55 Hz",
-          "EBM waveguide keeps desk reflections out of the mix position",
-          "Foam feet included"
-        ],
-        "pros_es": [
-          "Único par por debajo de $150 con XLR balanceado de verdad",
-          "Driver de 4,5 pulgadas que llega a 55 Hz",
-          "La guía EBM saca las reflexiones del escritorio de la posición de mezcla",
-          "Pies de espuma incluidos"
-        ],
-        "cons": [
-          "No Bluetooth, wired only",
-          "Will not reveal anything about sub-bass",
-          "Needs an acoustically treated room to sound its best"
-        ],
-        "cons_es": [
-          "Sin Bluetooth, solo cableado",
-          "No revelará nada del subgrave",
-          "Necesita una sala tratada para sonar como debe"
-        ]
-      },
       {
         "name": "Mackie CR4.5",
         "name_es": "Mackie CR4.5",
