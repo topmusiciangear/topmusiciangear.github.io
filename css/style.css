@@ -2034,7 +2034,7 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-product-card-rating-row {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-end;
   gap: 8px;
   margin-bottom: 4px;
@@ -2043,7 +2043,7 @@ footer ul li a:hover { color: var(--accent); }
 /* Nombre del producto + estrellas de reviews en la misma linea */
 .guide-product-card-title-row {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   gap: 10px;
   flex-wrap: nowrap;
