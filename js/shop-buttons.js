@@ -85,6 +85,8 @@ const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, mus
 const TEST_SHOP_BTN = {
   1049: {
     prices: {
+      gear4music: "£100.00",
+      andertons: "£90.00",
       amazon: "$147.00"
     }
   },
