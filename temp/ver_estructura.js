@@ -1,23 +1,12 @@
 const fs = require('fs');
 const B = 'C:/Users/Daniel/projects/topmusiciangear/';
-const g = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
-const m = g.find(x => x.id === 'budget-monitors');
-
-console.log('=== productTable ===');
-console.log(JSON.stringify(m.productTable, null, 1).slice(0, 1800));
-console.log('\n=== verdictProsCons ===');
-console.log(JSON.stringify(m.verdictProsCons, null, 1).slice(0, 900));
-console.log('\n=== intro (200) / featuredSnippet / description / description_es ===');
-console.log('INTRO: ' + String(m.intro).slice(0, 200));
-console.log('SNIPPET: ' + m.featuredSnippet);
-console.log('DESC: ' + m.description);
-console.log('DESC_ES: ' + m.description_es);
-console.log('VERDICT: ' + String(m.verdict).slice(0, 200));
-console.log('BADGE: ' + m.badge + ' | IMAGE: ' + m.image);
-console.log('AUTHOR: ' + m.author + ' | ABOUT: ' + m.aboutName);
-console.log('RELATED: ' + JSON.stringify(m.relatedGuides));
-console.log('TITLETAG_ES: ' + m.titleTag_es);
-console.log('\n=== una seccion completa ===');
-console.log(JSON.stringify(m.sections[0], null, 1).slice(0, 1400));
-console.log('\n=== conclusion (300) ===');
-console.log(String(m.conclusion).slice(0, 300));
+const g = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'))
+  .find(x => x.id === 'best-home-studio-speakers');
+const s = g.sections[7];
+const st = x => String(x).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+console.log('EN partes: ' + s.content.split('</p>').length + ' | </p> totales: ' + (s.content.match(/<\/p>/g) || []).length + ' | <p>: ' + (s.content.match(/<p>/g) || []).length);
+console.log('ES partes: ' + s.content_es.split('</p>').length + ' | </p>: ' + (s.content_es.match(/<\/p>/g) || []).length + ' | <p>: ' + (s.content_es.match(/<p>/g) || []).length);
+console.log('');
+console.log('EN cruda (ultimos 700):\n' + s.content.slice(-700));
+console.log('');
+console.log('ES cruda (ultimos 700):\n' + s.content_es.slice(-700));
