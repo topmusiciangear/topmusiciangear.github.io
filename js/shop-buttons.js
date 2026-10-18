@@ -5819,13 +5819,17 @@ function shopButtonsTest(p, lang) {
 }
 
 
-function scoreBadge(p) {
+function scoreBadge(p, lang) {
   if (p.score === undefined || p.score === null) return '';
   var score = Number(p.score).toFixed(1);
   var pct = (Number(p.score) - 5) / 5 * 100;
   if (pct < 0) pct = 0;
   if (pct > 100) pct = 100;
-  var aria = 'Nuestra nota: ' + score + ' sobre 10 (escala de 5 a 10)';
+  var isEs = lang === 'es';
+  var label = isEs ? 'Nota' : 'Score';
+  var aria = isEs
+    ? 'Nuestra nota: ' + score + ' sobre 10 (escala de 5 a 10)'
+    : 'Our score: ' + score + ' out of 10 (scale 5 to 10)';
   return '<div style="position:absolute;top:12px;left:12px;z-index:3;width:var(--badge-size);height:var(--badge-size);border-radius:50%;background:rgba(10,20,44,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25);box-shadow:0 4px 14px rgba(0,20,60,.35);display:flex;align-items:center;justify-content:center;" role="img" aria-label="' + aria + '">' +
     '<svg width="100%" height="100%" viewBox="0 0 100 100" style="position:absolute;top:0;left:0;transform:rotate(-90deg);" aria-hidden="true">' +
       '<circle cx="50" cy="50" r="41" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="6" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>' +
@@ -5833,7 +5837,7 @@ function scoreBadge(p) {
     '</svg>' +
     '<div style="position:relative;z-index:1;text-align:center;line-height:1.05;">' +
       '<div style="color:#fff;font-weight:800;font-size:calc(var(--badge-size)*0.34);letter-spacing:-.01em;">' + score + '</div>' +
-      '<div style="color:#AACDFA;font-weight:800;font-size:calc(var(--badge-size)*0.11);letter-spacing:.12em;text-transform:uppercase;margin-top:.06em;">Nota</div>' +
+      '<div style="color:#AACDFA;font-weight:800;font-size:calc(var(--badge-size)*0.11);letter-spacing:.12em;text-transform:uppercase;margin-top:.06em;">' + label + '</div>' +
     '</div>' +
   '</div>';
 }
@@ -5844,7 +5848,7 @@ function productCard(p, lang) {
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="45%" height="45%" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>${scoreBadge(p)}</div>
+    <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="45%" height="45%" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>${scoreBadge(p, lang)}</div>
     <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
         <h3 class="guide-product-card-title">${title}</h3>
