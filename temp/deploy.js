@@ -44,7 +44,8 @@ try {
   execSync('git commit -m "' + msg + '"', { stdio: 'inherit' });
 } catch(e) {
   console.log('   No changes to commit');
-  process.exit(0);
+  // NO salir aqui: puede haber commits locales sin pushear (p.ej. tras un rebase
+  // con el cron de ofertas). Hay que continuar al push.
 }
 
 // 5. Git push
