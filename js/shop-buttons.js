@@ -5530,69 +5530,69 @@ const TEST_SHOP_BTN = {
     prices: { amazon: "$113.00", gear4music: "£85.00", musicstore: "€89.00" },
     oos: ["zzounds"]
   },
-  29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"},pbCur:{us:"$1,069.00",uk:"£721.12"}},
+  29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"},pbCur:{us:"$1,069.00",uk:"£789.00"}},
   684: {prices:{amazon:"$149.99",gear4music:"£115.00",andertons:"£105.00",zzounds:"$149.99",musicstore:"€138.00"}},
 
-1001: {prices:{pluginboutique:"€200.65",gear4music:"£100.00",andertons:"£163.00",zzounds:"$199.00",musicstore:"€199.00"},pbCur:{us:"$199.00",uk:"£158.37"}},
+1001: {prices:{pluginboutique:"€200.65",gear4music:"£100.00",andertons:"£163.00",zzounds:"$199.00",musicstore:"€199.00"},pbCur:{us:"$199.00",uk:"£179.00"}},
 
-1002: {prices:{pluginboutique:"€182.01",gear4music:"£125.00",andertons:"£128.00",zzounds:"$179.00",musicstore:"€159.00"},pbCur:{us:"$179.00",uk:"£143.66"}},
+1002: {prices:{pluginboutique:"€182.01",gear4music:"£125.00",andertons:"£128.00",zzounds:"$179.00",musicstore:"€159.00"},pbCur:{us:"$179.00",uk:"£166.00"}},
 
-1003: {prices:{pluginboutique:"€184.48",andertons:"£199.00"},pbCur:{us:"$199.00",uk:"£145.60"}},
+1003: {prices:{pluginboutique:"€184.48",andertons:"£199.00"},pbCur:{us:"$199.00",uk:"£158.95"}},
 
 
-1004: {prices:{pluginboutique:"€226.88"},pbCur:{us:"$249.00",uk:"£178.38"}},
+1004: {prices:{pluginboutique:"€226.88"},pbCur:{us:"$249.00",uk:"£199.00"}},
 
-1005: {prices:{pluginboutique:"€114.95",gear4music:"£67.00",andertons:"£125.00",zzounds:"$189.00"},pbCur:{us:"$94.00",uk:"£90.73"}},
+1005: {prices:{pluginboutique:"€114.95",gear4music:"£67.00",andertons:"£125.00",zzounds:"$189.00"},pbCur:{us:"$94.00",uk:"£99.95"}},
 
-1006: {prices:{pluginboutique:"€200.65",gear4music:"£168.00",zzounds:"$199.00",musicstore:"€189.00"},pbCur:{us:"$199.00",uk:"£158.37"}},
-1007: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£78.79"}},
-1008: {prices:{pluginboutique:"€120.00"},pbCur:{us:"$128.00",uk:"£94.71"}},
+1006: {prices:{pluginboutique:"€200.65",gear4music:"£168.00",zzounds:"$199.00",musicstore:"€189.00"},pbCur:{us:"$199.00",uk:"£179.00"}},
+1007: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£99.00"}},
+1008: {prices:{pluginboutique:"€120.00"},pbCur:{us:"$128.00",uk:"£99.00"}},
 
-1009: {prices:{pluginboutique:"€20.06"},pbCur:{us:"$19.90",uk:"£15.83"}},
-1010: {prices:{pluginboutique:"€89.75",gear4music:"£65.00"},pbCur:{us:"$89.00",uk:"£70.84"}},
+1009: {prices:{pluginboutique:"€20.06"},pbCur:{us:"$19.90",uk:"£18.00"}},
+1010: {prices:{pluginboutique:"€89.75",gear4music:"£65.00"},pbCur:{us:"$89.00",uk:"£75.00"}},
 
-1011: {prices:{pluginboutique:"€49.40",gear4music:"£39.00"},pbCur:{us:"$55.00",uk:"£38.99"}},
+1011: {prices:{pluginboutique:"€49.40",gear4music:"£39.00"},pbCur:{us:"$55.00",uk:"£42.00"}},
 
-1012: {prices:{pluginboutique:"€83.70",gear4music:"£65.00"},pbCur:{us:"$79.00",uk:"£66.06"}},
-1013: {prices:{pluginboutique:"€89.75"},pbCur:{us:"$89.00",uk:"£70.84"}},
+1012: {prices:{pluginboutique:"€83.70",gear4music:"£65.00"},pbCur:{us:"$79.00",uk:"£71.00"}},
+1013: {prices:{pluginboutique:"€89.75"},pbCur:{us:"$89.00",uk:"£74.95"}},
 
-1014: {prices:{pluginboutique:"€301.50",gear4music:"£269.50",musicstore:"€295.00"},pbCur:{us:"$299.00",uk:"£237.96"}},
+1014: {prices:{pluginboutique:"€301.50",gear4music:"£269.50",musicstore:"€295.00"},pbCur:{us:"$299.00",uk:"£269.00"}},
 
-1015: {prices:{pluginboutique:"€704.83",gear4music:"£547.00",zzounds:"$699.00",andertons:"£547.00",musicstore:"€629.00"},pbCur:{us:"$699.00",uk:"£556.30"}},
-1016: {prices:{pluginboutique:"€99.83",gear4music:"£88.00"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1015: {prices:{pluginboutique:"€704.83",gear4music:"£547.00",zzounds:"$699.00",andertons:"£547.00",musicstore:"€629.00"},pbCur:{us:"$699.00",uk:"£699.00"}},
+1016: {prices:{pluginboutique:"€99.83",gear4music:"£88.00"},pbCur:{us:"$99.00",uk:"£88.00"}},
 
-1017: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$139.00",uk:"£118.59"}},
-1018: {prices:{pluginboutique:"€150.25",gear4music:"£104.00",andertons:"£104.00",zzounds:"$149.00"},pbCur:{us:"$149.00",uk:"£118.59"}},
+1017: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$139.00",uk:"£129.00"}},
+1018: {prices:{pluginboutique:"€150.25",gear4music:"£104.00",andertons:"£104.00",zzounds:"$149.00"},pbCur:{us:"$149.00",uk:"£134.00"}},
 
-1019: {prices:{pluginboutique:"€240.79",musicstore:"€229.00",andertons:"£189.00",zzounds:"$299.00"},pbCur:{us:"$199.00",uk:"£190.05"}},
+1019: {prices:{pluginboutique:"€240.79",musicstore:"€229.00",andertons:"£189.00",zzounds:"$299.00"},pbCur:{us:"$199.00",uk:"£188.00"}},
 
 1020: {prices:{pluginboutique:"€131.08"},pbCur:{us:"$129.99",uk:"£112.00"}},
 
-1021: {prices:{pluginboutique:"€49.40",gear4music:"£73.00",zzounds:"$79.00",andertons:"£70.00",musicstore:"€77.00"},pbCur:{us:"$49.00",uk:"£38.99"}},
+1021: {prices:{pluginboutique:"€49.40",gear4music:"£73.00",zzounds:"$79.00",andertons:"£70.00",musicstore:"€77.00"},pbCur:{us:"$49.00",uk:"£44.00"}},
 
 
-1022: {prices:{pluginboutique:"€64.53"},pbCur:{us:"$69.99",uk:"£50.51"}},
-1023: {prices:{pluginboutique:"€59.50"},pbCur:{us:"$59.00",uk:"£46.96"}},
+1022: {prices:{pluginboutique:"€64.53"},pbCur:{us:"$69.99",uk:"£49.96"}},
+1023: {prices:{pluginboutique:"€59.50"},pbCur:{us:"$59.00",uk:"£50.00"}},
 
-1025: {prices:{pluginboutique:"€442.65",gear4music:"£389.00",andertons:"£389.00",musicstore:"€429.00"},pbCur:{us:"$399.00",uk:"£349.37"}},
-1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£102.67"}},
-1028: {prices:{pluginboutique:"€99.83",gear4music:"£83.00"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1025: {prices:{pluginboutique:"€442.65",gear4music:"£389.00",andertons:"£389.00",musicstore:"€429.00"},pbCur:{us:"$399.00",uk:"£389.00"}},
+1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£109.00"}},
+1028: {prices:{pluginboutique:"€99.83",gear4music:"£83.00"},pbCur:{us:"$99.00",uk:"£79.00"}},
 
-1030: {prices:{pluginboutique:"€310.97",gear4music:"£249.00"},pbCur:{us:"$269.00",uk:"£245.44"}},
-1041: {prices:{pluginboutique:"€331.75",gear4music:"£295.00",andertons:"£289.00",musicstore:"€319.00"},pbCur:{us:"$299.00",uk:"£237.97"}},
+1030: {prices:{pluginboutique:"€310.97",gear4music:"£249.00"},pbCur:{us:"$269.00",uk:"£255.60"}},
+1041: {prices:{pluginboutique:"€331.75",gear4music:"£295.00",andertons:"£289.00",musicstore:"€319.00"},pbCur:{us:"$299.00",uk:"£280.00"}},
 
-1040: {prices:{pluginboutique:"€72.00",gear4music:"£125.00"},pbCur:{us:"$74.50",uk:"£56.83"}},
-1032: {prices:{pluginboutique:"€99.83",zzounds:"$99.00",gear4music:"£74.99",amazon:"$119.00",musicstore:"€99.00",andertons:"£74.00"},pbCur:{us:"$99.00",uk:"£78.79"}},
+1040: {prices:{pluginboutique:"€72.00",gear4music:"£125.00"},pbCur:{us:"$74.50",uk:"£65.40"}},
+1032: {prices:{pluginboutique:"€99.83",zzounds:"$99.00",gear4music:"£74.99",amazon:"$119.00",musicstore:"€99.00",andertons:"£74.00"},pbCur:{us:"$99.00",uk:"£85.00"}},
 
-1034: {prices:{pluginboutique:"€442.65",gear4music:"£379.00",andertons:"£319.00",zzounds:"$519.00",musicstore:"€439.00"},pbCur:{us:"$519.00",uk:"£349.37"}},
+1034: {prices:{pluginboutique:"€442.65",gear4music:"£379.00",andertons:"£319.00",zzounds:"$519.00",musicstore:"€439.00"},pbCur:{us:"$519.00",uk:"£389.00"}},
 
-1035: {prices:{pluginboutique:"€216.59",gear4music:"£155.00"},pbCur:{us:"$199.00",uk:"£170.95"}},
+1035: {prices:{pluginboutique:"€216.59",gear4music:"£155.00"},pbCur:{us:"$199.00",uk:"£190.80"}},
 
-1036: {prices:{pluginboutique:"€144.60",gear4music:"£250.00"},pbCur:{us:"$149.50",uk:"£114.13"}},
+1036: {prices:{pluginboutique:"€144.60",gear4music:"£250.00"},pbCur:{us:"$149.50",uk:"£119.40"}},
 
-1038: {prices:{pluginboutique:"€146.20",gear4music:"£149.00",musicstore:"€194.00"},pbCur:{us:"$149.00",uk:"£115.39"}},
+1038: {prices:{pluginboutique:"€146.20",gear4music:"£149.00",musicstore:"€194.00"},pbCur:{us:"$149.00",uk:"£124.80"}},
 
-1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£213.92"}},
+1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
 
   };function hollyDefaultRegion() {
   var isUsa = false;
