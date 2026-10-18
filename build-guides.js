@@ -6244,7 +6244,7 @@ function scoreBadge(p, lang) {
     '</svg>' +
     '<div style="position:relative;z-index:1;text-align:center;line-height:1.05;">' +
       '<div style="color:#fff;font-weight:800;font-size:calc(var(--badge-size)*0.34);letter-spacing:-.01em;">' + score + '</div>' +
-      '<div style="color:#AACDFA;font-weight:800;font-size:calc(var(--badge-size)*0.11);letter-spacing:.12em;text-transform:uppercase;margin-top:.06em;">' + label + '</div>' +
+      '<div style="color:#fff;font-weight:800;font-size:calc(var(--badge-size)*0.11);letter-spacing:.12em;text-transform:uppercase;margin-top:.06em;">' + label + '</div>' +
     '</div>' +
   '</div>';
 }
