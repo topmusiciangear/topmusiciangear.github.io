@@ -555,7 +555,7 @@ nav {
   display: flex;
   gap: 12px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .btn-primary {
