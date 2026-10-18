@@ -2046,7 +2046,7 @@ footer ul li a:hover { color: var(--accent); }
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-bottom: 4px;
 }
 .guide-product-card-title-row .guide-product-card-title {
