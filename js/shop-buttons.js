@@ -5821,23 +5821,20 @@ function shopButtonsTest(p, lang) {
 
 function scoreBadge(p) {
   if (p.score === undefined || p.score === null) return '';
-  const score = Number(p.score).toFixed(1);
-  const size = 44;
-  const strokeWidth = 4;
-  const radius = (size - strokeWidth) / 2;
-  const circumference = 2 * Math.PI * radius;
-  const progress = score / 10;
-  const offset = circumference * (1 - progress);
-  const aria = 'Nuestra nota: ' + score + ' de 10';
-  return '<div class="guide-product-card-score-container" role="img" aria-label="' + aria + '" style="position:absolute;top:5px;left:5px;z-index:3;width:44px;height:44px;border-radius:50%;background:rgba(10,20,44,.85);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.08);box-shadow:0 1px 4px rgba(0,15,50,.15);display:flex;align-items:center;justify-content:center;">' +
-    '<div style="text-align:center;line-height:1.1;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;">' +
-      '<div style="font-size:12px;font-weight:800;color:#fff;line-height:1;">' + score + '</div>' +
-      '<div style="font-size:5px;font-weight:700;letter-spacing:.05em;color:#9AC0FA;text-transform:uppercase;">NOTA</div>' +
-    '</div>' +
-    '<svg width="44" height="44" viewBox="0 0 44 44" style="transform:rotate(-90deg);position:absolute;top:0;left:0;" aria-hidden="true">' +
-      '<circle class="guide-product-card-score-circle-bg" cx="22" cy="22" r="' + radius + '" fill="none" stroke="rgba(255,255,255,.06)" stroke-width="' + strokeWidth + '"/>' +
-      '<circle class="guide-product-card-score-circle-progress" cx="22" cy="22" r="' + radius + '" fill="none" stroke="#40A4FF" stroke-width="' + strokeWidth + '" stroke-linecap="round" stroke-dasharray="' + circumference + '" stroke-dashoffset="' + offset + '" style="transition:stroke-dashoffset 600ms ease-out;"/>' +
+  var score = Number(p.score).toFixed(1);
+  var pct = (Number(p.score) - 5) / 5 * 100;
+  if (pct < 0) pct = 0;
+  if (pct > 100) pct = 100;
+  var aria = 'Nuestra nota: ' + score + ' sobre 10 (escala de 5 a 10)';
+  return '<div style="position:absolute;top:12px;left:12px;z-index:3;width:var(--badge-size);height:var(--badge-size);border-radius:50%;background:rgba(10,20,44,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25);box-shadow:0 4px 14px rgba(0,20,60,.35);display:flex;align-items:center;justify-content:center;" role="img" aria-label="' + aria + '">' +
+    '<svg width="100%" height="100%" viewBox="0 0 100 100" style="position:absolute;top:0;left:0;transform:rotate(-90deg);" aria-hidden="true">' +
+      '<circle cx="50" cy="50" r="41" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="6" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>' +
+      '<circle cx="50" cy="50" r="41" fill="none" stroke="#40A4FF" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="' + pct + ' 100" stroke-dashoffset="0" style="transition:stroke-dashoffset 600ms ease-out;"/>' +
     '</svg>' +
+    '<div style="position:relative;z-index:1;text-align:center;line-height:1.05;">' +
+      '<div style="color:#fff;font-weight:800;font-size:calc(var(--badge-size)*0.34);letter-spacing:-.01em;">' + score + '</div>' +
+      '<div style="color:#AACDFA;font-weight:800;font-size:calc(var(--badge-size)*0.11);letter-spacing:.12em;text-transform:uppercase;margin-top:.06em;">Nota</div>' +
+    '</div>' +
   '</div>';
 }
 
@@ -5847,7 +5844,7 @@ function productCard(p, lang) {
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>${scoreBadge(p)}</div>
+    <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in"><button type="button" class="guide-product-card-share" aria-label="Share" title="Share" onclick="event.stopPropagation();shareProduct(this)"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="45%" height="45%" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>${scoreBadge(p)}</div>
     <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
         <h3 class="guide-product-card-title">${title}</h3>

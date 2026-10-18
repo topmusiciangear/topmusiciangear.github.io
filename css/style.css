@@ -1954,6 +1954,9 @@ footer ul li a:hover { color: var(--accent); }
 
 
 /* Guide Product Cards */
+:root {
+  --badge-size: 52px;
+}
 .guide-product-card {
   contain: layout style;
   background: var(--bg-card);
