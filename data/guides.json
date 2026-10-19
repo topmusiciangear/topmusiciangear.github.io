@@ -66374,105 +66374,75 @@
         "heading_es": "¿Qué es el clipping digital?",
         "content": "<p><strong>Digital clipping occurs when audio signal exceeds the maximum level the converter can handle.</strong> The waveform flattens at the peaks and information is lost. That harsh sound cannot be removed later — no plugin can reconstruct the lost transients.</p><p>The Scarlett 2i2 uses a halo ring as its indicator: green means a clean signal, yellow means you're approaching the limit, red means clipping is happening. The most common mistake is thinking the meter needs to hit the top to get a good signal. At 24-bit recording, you have roughly 144 dB of dynamic range. You don't need to get anywhere near 0 dB for good quality.</p><p>The goal is to keep peaks between -6 dB and -3 dB. That leaves enough headroom to avoid clipping while preserving full format resolution. If the ring turns red on the loudest moments, the gain is too high. For more on choosing an interface, see <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interface guide</a></p>",
         "content_es": "<p><strong>El clipping digital ocurre cuando la señal de audio supera el nivel máximo que el convertidor puede manejar.</strong> La forma de onda se aplana en los picos y se pierde información. Ese sonido áspero no se puede eliminar después: ningún plugin reconstruye los transitorios perdidos.</p><p>La Scarlett 2i2 usa un anillo halo como indicador: verde: señal limpia; amarillo: indica que te estás acercando al límite; rojo: significa que ya hay clipping. El error más común es pensar que el medidor debe llegar al tope para tener buena señal. En grabación digital a 24 bits, tienes aproximadamente 144 dB de rango dinámico. No necesitas acercarte a 0 dB para tener calidad.</p><p>El objetivo es mantener los picos entre -6 dB y -3 dB. Eso deja margen suficiente para evitar clipping y conserva toda la resolución del formato. Si el anillo se pone rojo en los momentos más fuertes, la ganancia está demasiado alta. Para más información sobre interfaces, consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">Mejor interfaz de audio: guía completa para grabación casera</a></p>",
-        "products": [
-          15
-        ]
+        "products": []
       },
       {
         "heading": "How to Set Gain Correctly on the Scarlett 2i2",
         "heading_es": "Cómo ajustar la ganancia correctamente en la Scarlett 2i2",
         "content": "<p>Setting gain correctly on the Scarlett 2i2 is a straightforward process that removes the guesswork:</p><p><strong>1.</strong> Turn the gain knob to zero. Rotate it all the way to the left.</p><p><strong>2.</strong> Ask the musician to play or sing at the loudest volume in the piece. Not average level — absolute peak: the hardest drum hit, the most intense guitar chord, the highest vocal note.</p><p><strong>3.</strong> Slowly raise the gain while watching the halo ring. Stop the moment the ring starts showing yellow on the peaks. That means you're around -6 dB to -3 dB, which is the optimal range.</p><p><strong>4.</strong> Leave a safety margin of roughly 2 dB. If you see the ring touch red at any point, reduce the gain a bit more until the peaks only reach yellow.</p><p>This method works for any source: vocals, guitar, drums, synth. The principle is always the same: aim for yellow on the peaks, never red.</p><p>One important consideration: if you're using a low-output dynamic mic like the <a href=\"/guides/best-microphone.html\" class=\"guide-link-btn\">Shure SM7B</a> you'll need more gain than with a condenser. The Scarlett 2i2 offers 56 dB of gain, which can fall short for the SM7B without adding preamp noise. In that case, a un booster de ganancia limpia CL-1 or FetHead adds 20-25 dB of clean gain before the signal reaches the interface.</p>",
         "content_es": "<p>Ajustar la ganancia correctamente en la Scarlett 2i2 sigue un proceso sencillo sin conjeturas:</p><p><strong>1.</strong> Pon la rueda de ganancia en cero. Gírala completamente hacia la izquierda.</p><p><strong>2.</strong> Pide al músico que toque o cante al volumen más fuerte de la pieza. No el nivel promedio, sino el pico absoluto.</p><p><strong>3.</strong> Sube la ganancia lentamente. Detente cuando el anillo halo muestre amarillo en los picos. Eso indica -6 dB a -3 dB, el rango óptimo.</p><p><strong>4.</strong> Deja un margen de 2 dB. Si el anillo toca rojo, reduce la ganancia.</p><p>Para micrófonos de baja salida como el <a href=\"/guides/best-microphone_es.html\" class=\"guide-link-btn\">Shure SM7B</a> la Scarlett puede quedarse corta. Un un booster de ganancia limpia CL-1 añade de 20 a 25 dB de ganancia limpia.</p>",
-        "products": [
-          15,
-          1
-        ]
+        "products": []
       },
       {
         "heading": "What Does Air Mode Do on the Scarlett 2i2?",
         "heading_es": "¿Qué hace el modo air en la Scarlett 2i2?",
         "content": "<p><strong>The Scarlett 2i2's Air mode applies a high-frequency boost (around 4-8 kHz) that can add more presence and brightness to the signal.</strong> It's useful on vocals and some acoustic instruments. But it has a side effect: it adds roughly 2-3 dB of gain to the signal.</p><p>If you set your gain with Air mode off and then engage it, the level will jump by those 2-3 dB. If you were already close to yellow, you'll probably hit red. The solution is simple: set your gain without Air, engage Air mode, then reduce the gain slightly to compensate for the boost.</p><p>Air mode isn't always the best choice. For naturally bright voices, acoustic guitars with lots of treble, or tambourines, the boost can sound aggressive. In those cases, it's better to leave it off and add presence in the mix if needed. You can't undo digital clipping, but you can always add brightness later.</p>",
         "content_es": "<p><strong>El modo Air de la Scarlett 2i2 aplica un realce en frecuencias altas (alrededor de 4–8 kHz) que puede dar más presencia y brillo a la señal.</strong> Pero tiene un efecto secundario: añade aproximadamente 2–3 dB de ganancia.</p><p>Si ajustas la ganancia con Air apagado y luego lo activas, el nivel subirá. La solución: ajusta la ganancia sin Air, activa el modo, y reduce la ganancia para compensar.</p><p>El modo Air no siempre es la mejor opción. Para voces brillantes o guitarras acústicas con muchos agudos, el realce puede sonar agresivo. En esos casos, es mejor dejarlo apagado.</p>",
-        "products": [
-          15
-        ]
+        "products": []
       },
       {
         "heading": "Can You Fix Already-Clipped Audio?",
         "heading_es": "¿Se puede arreglar el audio ya recortado?",
         "content": "<p><strong>If audio is already clipped, it can't be fully recovered.</strong> The waveform peaks are gone and no process can recreate them exactly. However, the degree of damage determines whether the take can be saved or not.</p><p><strong>Mild clipping:</strong> the halo ring flashed red occasionally but not sustained. Lower the track's clip gain by 3-6 dB in your DAW so the waveform returns to a normal range. Then apply a compressor with a gentle ratio (2:1) to smooth out the dynamics. In many cases, the take is usable.</p><p><strong>Moderate clipping:</strong> the red was sustained but doesn't cover entire phrases. A declipper plugin like iZotope RX or Waves Clarity Vx can partially reconstruct the clipped waveforms. Results vary: sibilants and transients are usually the first things to sound artificial after processing.</p><p><strong>Severe clipping:</strong> the waveform looks flat for whole bars at a time. There's no fix. The only option is to rerecord. It's frustrating, but it's better than spending hours trying to fix what can't be fixed.</p>",
         "content_es": "<p><strong>Si el audio ya tiene clipping, no se puede recuperar por completo.</strong> Los picos de la forma de onda se perdieron y ningún proceso puede recrearlos exactamente. Pero el grado de daño determina si la toma se puede salvar o no.</p><p><strong>Clipping leve:</strong> el anillo halo parpadeó en rojo ocasionalmente pero no de forma sostenida. Baja la ganancia de clip de la pista entre 3–6 dB en el DAW para que la forma de onda vuelva a un rango normal. Luego aplica un compresor con un ratio suave (2:1) para suavizar la dinámica. En muchos casos, la toma es utilizable.</p><p><strong>Clipping moderado:</strong> el rojo fue sostenido pero no cubre frases enteras. Un plugin declipper como iZotope RX o Waves Clarity Vx puede reconstruir parcialmente las formas de onda recortadas. Los resultados varían: los sibilantes y los transitorios suelen ser lo primero que suena artificial después del procesamiento.</p><p><strong>Clipping severo:</strong> la forma de onda se ve plana durante compases enteros. No hay solución. La única opción es regrabar. Es frustrante, pero es mejor que pasar horas tratando de arreglar lo que no se puede arreglar.</p>",
-        "products": [
-          15
-        ]
+        "products": []
       },
       {
         "heading": "What Are the Most Common Scarlett 2i2 Clipping Mistakes?",
         "heading_es": "¿Cuáles son los errores de clipping más comunes en la Scarlett 2i2?",
         "content": "<p><strong>Several mistakes show up frequently among Scarlett 2i2 users.</strong> Here are the most common ones:</p><p><strong>Wrong input mode.</strong> The Scarlett has Inst, Line, and Mic modes. A guitar must be connected in Inst mode, which changes the impedance to match the pickup. If you connect it in Mic mode with high gain, clipping is almost guaranteed. Synthesizers and other line-level gear should go into the rear line inputs.</p><p><strong>Recording too hot on purpose.</strong> With 24-bit resolution, recording with peaks at -6 dB is more than enough. There's no benefit to getting close to 0 dB. The extra headroom protects against unexpected peaks and doesn't affect quality.</p><p><strong>Not using the pad for hot sources.</strong> For drums, heavily saturated guitar amps, or any high-volume source, hold down the Inst button for two seconds to engage the -10 dB pad. This reduces input sensitivity and prevents clipping before it reaches the preamp.</p><p><strong>Phantom power with ribbon mics.</strong> Engaging +48V with a ribbon microphone can permanently destroy the element. Always verify whether your mic needs phantom power before turning it on.</p><p><strong>Not monitoring levels during recording.</strong> A vocalist who sings softly during sound check may sing twice as loud during actual take. Keep an eye on the halo ring while recording. If you see red, stop and adjust.</p>",
         "content_es": "<p><strong>Varios errores aparecen con frecuencia entre los usuarios de Scarlett 2i2.</strong> Aquí están los más comunes:</p><p><strong>Modo de entrada incorrecto.</strong> La Scarlett tiene modos Inst, Line y Mic. Una guitarra debe conectarse en modo Inst, que cambia la impedancia para coincidir con la pastilla. Si la conectas en modo Mic con ganancia alta, el clipping es casi seguro. Los sintetizadores y otros equipos de línea deben conectarse a las entradas de línea traseras.</p><p><strong>Grabar demasiado fuerte a propósito.</strong> Con resolución de 24 bits, grabar con picos a -6 dB es más que suficiente. No hay beneficio en acercarse a 0 dB. El margen adicional protege contra picos inesperados y no afecta la calidad.</p><p><strong>No usar el pad para fuentes fuertes.</strong> Para baterías, amplificadores de guitarra muy saturados o cualquier fuente de alto volumen, mantén presionado el botón Inst durante dos segundos para activar el pad de -10 dB. Esto reduce la sensibilidad de entrada y evita el clipping antes de que llegue al previo.</p><p><strong>Alimentación fantasma con micrófonos de cinta.</strong> Activar +48V con un micrófono de cinta puede destruir permanentemente el elemento. Siempre verifica si el micrófono necesita alimentación fantasma antes de activarla.</p><p><strong>No monitorear niveles durante la grabación.</strong> Un vocalista que canta suavemente durante la prueba de sonido puede cantar el doble de fuerte durante la toma real. Vigila el anillo halo mientras grabas. Si ves rojo, detente y ajusta.</p>",
-        "products": [
-          15
-        ]
+        "products": []
       },
       {
         "heading": "Is the Scarlett 2i2's Gain Enough for Your Microphones?",
         "heading_es": "¿Es suficiente la ganancia de la Scarlett 2i2 para tus micrófonos?",
         "content": "<p><strong>The Scarlett 2i2 is a solid interface for most situations, but there are cases where its 56 dB of gain falls short.</strong> If you use low-output mics like the SM7B, un micrófono de salida baja, or ribbon microphones, you'll likely need a un booster de ganancia limpia or a different interface.</p><p>The <a href=\"/guides/scarlett-vs-ssl.html\" class=\"guide-link-btn\">SSL 2+ MKII offers the 4K Legacy switch</a> which adds a tonal character that can reduce the need for EQ. The una interfaz con previos de mayor ganancia delivers 58 dB of gain with Class A preamps that offer more clarity at higher settings. The una interfaz con previos de mayor ganancia is in another category: Unison preamps that emulate vintage hardware and DSP for near-zero-latency monitoring.</p><p>For most home studio users, the Scarlett 2i2 is sufficient. An upgrade is only justified when your microphone needs more gain than the Scarlett can deliver cleanly. See <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interface guide</a> for upgrade options.</p>",
         "content_es": "<p><strong>La Scarlett 2i2 es suficiente para la mayoría de los casos.</strong> Si usas un SM7B, un RE20 o micrófonos de cinta, considera un un booster de ganancia limpia o una interfaz con más ganancia.</p><p><a href=\"/guides/scarlett-vs-ssl_es.html\" class=\"guide-link-btn\">Scarlett 2i2 vs SSL 2+: ¿mejores previos para voces en casa?</a>: interruptor 4K Legacy. una interfaz con previos de mayor ganancia: 58 dB de ganancia, previos de Clase A. una interfaz con previos de mayor ganancia: previos Unison, DSP.</p><p>Para la mayoría del home studio, la Scarlett 2i2 es suficiente. Consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">Mejor interfaz de audio: guía completa para grabación casera</a> para opciones de actualización.</p>",
-        "products": [
-          15,
-          16,
-          52,
-          53,
-          55,
-          121,
-          182,
-          263
-        ]
+        "products": []
       },
       {
         "heading": "Shure SM7B: Off-Axis Rejection Before Gain",
         "heading_es": "Shure SM7B: rechazo fuera de eje antes que ganancia",
         "content": "<strong>Clipping guides usually blame the interface, yet the microphone sets the whole gain puzzle.</strong> The SM7B is a dynamic vocal microphone associated with broadcast, podcasting and vocal recording, voiced warm and smooth with strong off-axis rejection.\nIn a clipping workflow that matters for room control: keyboards, fans and reflections stay further back, so less corrective gain rides on noisy sources. The honest limitation is appetite for clean gain; without enough transparent amplification, recordings arrive quiet and then get pushed later, which brings noise back through the back door.",
         "content_es": "<strong>Cuando hay saturación se mira la interfaz, pero todo empieza en el micrófono.</strong> El SM7B es un dinámico para voz ligado a la radio, el pódcast y la grabación vocal, de timbre cálido y redondeado y con un rechazo fuera de eje muy marcado.\nEn este contexto ayuda a mantener a raya la habitación: teclados, ventiladores y reflexiones quedan en segundo plano y se evita forzar etapas ruidosas. ¿La contrapartida? Pide una amplificación limpia y generosa; sin ella, la toma llega baja y al levantarla después vuelve a aparecer el fondo que se quería evitar.",
-        "products": [
-          1
-        ]
+        "products": []
       },
       {
         "heading": "Universal Audio Apollo Twin X Gen 2: Auto-Gain Ends the Level Chase",
         "heading_es": "Universal Audio Apollo Twin X Gen 2: Auto-Gain acaba con la carrera de niveles",
         "content": "<strong>Some clipping happens because monitoring and DSP force compromises during tracking.</strong> The Apollo Twin X Gen 2 is a 10x6 Thunderbolt interface with DUO Core DSP, two Unison preamps with Auto-Gain, 24-bit/192kHz conversion and an Essentials+ plugin bundle aimed at near-zero-latency recording.\nFor this guide the Auto-Gain and Unison interaction is the interesting part: levels settle faster and amp or channel color can be auditioned while tracking. Limitation remains channel count and ecosystem; ten inputs cover solo work comfortably, while larger sessions and DSP-heavy chains soon ask for more hardware.",
         "content_es": "<strong>A veces se recorta porque la monitorización obliga a compromisos al grabar.</strong> El Apollo Twin X Gen 2 es una interfaz Thunderbolt de 10x6 con DSP DUO Core, dos previos Unison con Auto-Gain, conversión de 24 bits y 192 kHz y paquete Essentials+ para grabar con latencia casi nula.\nAquí interesa cómo Auto-Gain y Unison colaboran: el nivel se estabiliza antes y el color de previo o amplificador se prueba durante la toma. El límite está en el formato compacto y el ecosistema: de sobra para trabajo individual, aunque sesiones grandes o cadenas con mucho DSP pedirán enseguida más equipo.",
-        "products": [
-          16
-        ]
+        "products": []
       },
       {
         "heading": "Electro-Voice RE20: Variable-D Keeps Proximity Under Control",
         "heading_es": "Electro-Voice RE20: el Variable-D controla el efecto de proximidad",
         "content": "<strong>Voice clipping often starts with proximity effect: closer means bassier, louder, less predictable.</strong> The RE20 is a broadcast dynamic built around Variable-D technology that reduces that proximity build-up, familiar from podcasting, voiceover and kick drum duties.\nThat design steadies levels when talent moves, leans in or projects, which simplifies gain staging at the preamp. It does not forgive everything; plosives, room tone and poor placement still show up, and the microphone rewards consistent distance rather than constant fader rescue.",
         "content_es": "<strong>En la voz, la saturación suele nacer del efecto proximidad: cuanto más cerca, más grave, más fuerte y más imprevisible.</strong> El RE20 es un dinámico de broadcast con tecnología Variable-D que controla esa acumulación de graves, clásico en pódcast, locución y bombo.\nEse diseño estabiliza el nivel aunque la persona se mueva o se acerque, y facilita ajustar el previo sin sustos. No hace milagros: los golpes de aire, la sala y una mala colocación siguen ahí, y pide una distancia constante en lugar de correcciones continuas de fader.",
-        "products": [
-          52
-        ]
+        "products": []
       },
       {
         "heading": "Audient iD14 MkII: Class-A Gain and Two Headphone Outputs",
         "heading_es": "Audient iD14 MkII: ganancia Clase A y dos salidas de auriculares",
         "content": "<strong>Upgrading the clipping chain does not always mean more channels.</strong> The iD14 MkII is a compact interface built around Class-A microphone preamps derived from the ASP8024 console, plus dual headphone outputs and a JFET DI input for instruments.\nThe appeal here is headroom character and straightforward monitoring: cleaner gain staging with console-style preamps, separate feeds for engineer and talent, and direct injection without extra boxes. The constraint is scale; as a small-footprint centerpiece it excels, but drum kits or full-band tracking will outgrow the input count quickly.",
         "content_es": "<strong>Mejorar la cadena de ganancia no siempre significa sumar canales.</strong> El iD14 MkII es una interfaz compacta con previos de micrófono en Clase A heredados de la consola ASP8024, doble salida de auriculares y entrada DI JFET para instrumentos.\nSu atractivo está en el margen limpio y la escucha directa: etapas con carácter de consola, mezclas separadas para técnico e intérprete y conexión directa sin cajas extra. La limitación es el tamaño; como centro compacto brilla, pero una batería o una banda completa superan pronto su número de entradas.",
-        "products": [
-          53
-        ]
+        "products": []
       },
       {
         "heading": "SSL 2+ MKII: More Headroom Than the Clipping Problem Needs",
         "heading_es": "SSL 2+ MKII: más margen del que necesita el problema",
-        "products": [
-          18
-        ],
+        "products": [],
         "content": "<p><strong>If the fix is a louder preamp, the 2+ MKII is the obvious next step.</strong> Two SSL preamps with 64 dB of gain against 32-bit/192 kHz conversion mean loud sources are captured cleanly rather than pushed toward the ceiling, and the Legacy 4K channel adds presence and punch on the way in. MIDI I/O, DC-coupled outputs and loopback keep it useful beyond the clipping fix itself.</p><p><strong>The honest trade.</strong> More headroom does not repair a bad room or a badly placed condenser, and the 2-in/4-out layout is one more thing to learn. Buy it when the 2i2 genuinely runs out of gain, not as a ritual upgrade — clipping that comes from too much gain in one spot needs a compressor or a closer mic instead.</p>",
         "content_es": "<p><strong>Si la solución es más ganancia, el 2+ MKII es el siguiente paso obvio.</strong> Dos preamplificadores SSL con 64 dB de ganancia frente a convertidores de 32 bits y 192 kHz hacen que las fuentes fuertes se capturen limpias en vez de empujarse hacia el techo, y el canal Legacy 4K aporta presencia y pegada a la entrada. MIDI I/O, salidas con desacoplamiento DC y loopback lo mantienen útil más allá del propio arreglo.</p><p><strong>La contrapartida.</strong> Más margen no arregla una sala mala ni un condensador mal colocado, y el formato 2 entradas y 4 salidas es una cosa más que aprender. Cómpralo cuando la 2i2 se quede realmente sin ganancia, no como ritual de mejora: el clipping que viene de demasiada ganancia en un punto concreto necesita un compresor o un micro más cerca.</p>"
       }
