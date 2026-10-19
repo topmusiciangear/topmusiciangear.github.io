@@ -1079,6 +1079,78 @@ module.exports = {
     'Baby Audio Smooth Operator Pro': 9.1,
   },
 
+  // --- DAW: guia general ---
+  // Conclusion: "Pro Tools is required for professional studio work ... Upgrade to
+  // Logic Pro (Mac) or Ableton Live (electronic) when you need more".
+  'daw-guide': {
+    // Conclusion: "required for professional studio work".
+    'Avid Pro Tools Studio': 9.8,
+    // Veredicto: "Ableton Live for electronic music and live performance".
+    'Ableton Live 12 Suite': 9.6,
+    // Conclusion: "Logic Pro (Mac) ... all-round Mac production".
+    'Logic Pro': 9.5,
+    // Veredicto: "FL Studio for beatmakers with lifetime updates".
+    'FL Studio Producer Edition': 9.3,
+    // Citados en la tabla sin rol propio en la conclusion.
+    'Steinberg Cubase Pro 15': 9.1,
+    'Reason Studios Reason 14': 9.0,
+  },
+
+  // --- Ableton Live vs Pro Tools ---
+  // Conclusion: "both exceptional DAWs that excel in different areas". Pro Tools
+  // es "the recording and mixing standard for commercial studios".
+  'pro-daw': {
+    // Conclusion: "the recording and mixing standard for commercial studios".
+    'Avid Pro Tools Studio': 9.6,
+    // Conclusion: "the ultimate creative tool for electronic music production".
+    'Ableton Live 12 Suite': 9.4,
+  },
+
+  // --- Teclados y controladores MIDI ---
+  // Conclusion: "the Nord Stage 4 88 is the flagship that covers stage, studio
+  // and everything between". El KeyLab 61 equilibra el grupo de DAW.
+  'best-keyboard': {
+    // Conclusion: "the flagship" — el mas caro con diferencia.
+    'Nord Stage 4 88': 9.8,
+    // Conclusion: "the Arturia KeyLab 61 balances keys, pads, knobs, faders".
+    'Arturia KeyLab Essential 61 MkIII': 9.5,
+    // Conclusion: "the Yamaha P-225 is the home piano sweet spot".
+    'Yamaha P-225': 9.4,
+    // Conclusion: "the Roland FP-30X is the beginner value route".
+    'Roland FP-30X': 9.3,
+    // Conclusion: "wired deepest into Ableton Live".
+    'Novation Launchkey 49 MK4': 9.2,
+    // Conclusion: "the Roland GO:KEYS 3 plays on its own".
+    'Roland GO:KEYS 3': 9.1,
+    // Conclusion: "shrink the studio to a backpack at 25 mini keys each".
+    'Akai MPK Mini MK4': 9.0,
+    'Novation Launchkey Mini 25 MK4': 9.0,
+    // Conclusion: "the cheapest serious route to 88 weighted keys".
+    'M-Audio Hammer 88': 8.9,
+    // Conclusion: "the premium Fatar keybed for composers inside Komplete".
+    'Native Instruments Kontrol S61 MK3': 8.7,
+  },
+
+  // --- Plugins (guia general) ---
+  // Conclusion: "Start with free plugins ... and upgrade to premium as you
+  // identify what you need. FabFilter Pro-Q is the single best plugin investment".
+  'best-plugins': {
+    // Conclusion: "the single best plugin investment for mixing".
+    'FabFilter Pro-Q 4': 9.8,
+    // Conclusion: los paquetes que cubren un area completa.
+    'FabFilter Total Bundle': 9.6,
+    'iZotope Ozone 12 Advanced': 9.5,
+    'Soundtoys 5.5 Bundle': 9.5,
+    'Universal Audio UAD Ultimate 14': 9.4,
+    'Native Instruments Komplete 26 Ultimate': 9.3,
+    // Conclusion: "Start with free plugins ... as you identify what you need".
+    'FabFilter Pro-C 3': 9.2,
+    'Tokyo Dawn Labs TDR Kotelnikov GE': 9.1,
+    'Celemony Melodyne 5': 9.0,
+    // OJO: "Komplete 26 Definitivo" es el title_es del MISMO producto que
+    // "Komplete 26 Ultimate" (id 123), asi que no lleva nota propia aqui.
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
