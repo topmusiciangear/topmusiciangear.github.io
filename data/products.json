@@ -4672,7 +4672,7 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9
   },
   {
     "id": 243,
@@ -4696,7 +4696,7 @@
       "gear4music",
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9
   },
   {
     "id": 244,
@@ -4723,7 +4723,7 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 8.7
   },
   {
     "id": 246,
@@ -4773,7 +4773,7 @@
     "oos": [
       "zzounds"
     ],
-    "score": 7.6
+    "score": 8.6
   },
   {
     "id": 248,
@@ -4798,7 +4798,7 @@
     "oos": [
       "zzounds"
     ],
-    "score": 7.9
+    "score": 9.4
   },
   {
     "id": 249,
@@ -14177,5 +14177,21 @@
     "unit": "pair",
     "unit_es": "par",
     "score": 7.9
+  },
+  {
+    "id": 241,
+    "title": "RØDE RØDECaster Pro II",
+    "title_es": "RØDE RØDECaster Pro II",
+    "brand": "RØDE",
+    "category": "streaming",
+    "price": 699,
+    "rating": 4.8,
+    "reviews": 2500,
+    "badge": "flagship",
+    "desc": "All-in-one podcast production console with 4 Neutrik combo inputs, 76dB Revolution preamps, APHEX processing, 8 SMART pads, dual USB-C, 5.5-inch touchscreen, and multitrack recording to microSD or USB.",
+    "desc_es": "Consola de producción de podcast todo en uno con 4 entradas combo Neutrik, previos Revolution de 76dB, procesamiento APHEX, 8 pads SMART, doble USB-C, pantalla táctil de 5.5 pulgadas y grabación multitrack a microSD o USB.",
+    "img": "https://r2.gear4music.com/media/241/241000/1200/preview.jpg",
+    "stores": {},
+    "score": 9.4
   }
 ]
