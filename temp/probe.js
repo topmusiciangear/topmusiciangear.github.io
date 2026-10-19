@@ -1,10 +1,9 @@
 const fs = require('fs');
 const B = 'C:/Users/Daniel/projects/topmusiciangear/';
 const products = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
-['X32 Rack', 'Ui24R', 'WING Rack', 'SQ-Rack', 'XR18', 'M32C', 'CQ-20B', 'SE 24R', 'Yamaha Revstar Element RSE20',
- 'Squier Sonic Mustang', 'Enya Nova Go Sonic', 'Squier Debut Series Stratocaster'].forEach(n => {
-  const h = products.filter(p => (p.title || '') === n || (p.title_es || '') === n
-    || (p.title || '').includes(n) || (p.title_es || '').includes(n));
-  console.log('\n"' + n + '" -> ' + h.length + ' hits');
-  h.slice(0, 6).forEach(p => console.log('   id=' + p.id + '  "' + p.title + '"  title_es="' + (p.title_es || '') + '"  score=' + p.score));
-});
+['U 87', 'C414', 'TLM 103', 'WA-8000', 'Sphere', 'sE2200', 'LCT 440', 'NT1 Signature', 'AT2020',
+ 'DT 770', 'HD 490', 'LCD-X', 'HD 600', 'NDH 30', 'M50x', 'R70xa', 'SR850', 'MDR-7506', 'DT 990', 'K371', 'M20x']
+  .forEach(q => {
+    const h = products.filter(p => (p.title || '').toLowerCase().includes(q.toLowerCase()));
+    console.log('"' + q + '" -> ' + h.map(p => 'id' + p.id + ' "' + p.title + '" [' + p.score + ']').join('  ||  '));
+  });

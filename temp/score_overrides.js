@@ -207,4 +207,60 @@ module.exports = {
     // Conclusion: "bridge studio and stage".
     'PreSonus StudioLive SE 24R': 9.0,
   },
+
+  // --- Condensadores profesionales ---
+  // La conclusion es una escalera explicita de precio: "Eight condensers, one
+  // ladder". El AT2020 (99 $) ABRE la escalera ("teaches placement for $99") y
+  // el U 87 Ai (3.599 $) la CIERRA ("ends the climb"). Por eso la nota sube
+  // con el escalon real, no con la posicion en la tabla.
+  'best-condenser-mics': {
+    // Conclusion: "ends the climb" — el flagship de toda la vida.
+    'Neumann U 87 Ai': 9.8,
+    // Conclusion: "covers tube gloss".
+    'Warm Audio WA-8000': 9.5,
+    // Conclusion: "sets the modern vocal standard".
+    'Neumann TLM 103': 9.4,
+    // Conclusion: "covers every pattern" (9 patrones).
+    'AKG C414 XLII': 9.3,
+    // Conclusion: "covers all 38 classics after tracking".
+    'Universal Audio Sphere DLX': 9.1,
+    // Conclusion: "brings transformer weight, pads and filters for $299".
+    'sE Electronics sE2200': 9.2,
+    // Conclusion: "sounds finished with zero switches".
+    'Lewitt LCT 440 PURE': 9.0,
+    // Conclusion: "removes self-noise from the equation" (4 dBA).
+    'Rode NT1 Signature Series': 8.9,
+    // Conclusion: "teaches placement for $99" — el punto de entrada.
+    'Audio-Technica AT2020': 8.7,
+  },
+
+  // --- Auriculares de estudio ---
+  // Conclusion: "Need one pair for everything? Get the DT 770 Pro" y "the HD
+  // 490 Pro Plus is the most versatile keeper". El LCD-X es "the planar last
+  // word" y el HD 600 "the legendary flat reference".
+  'best-headphones': {
+    // Conclusion: "the one pair for everything".
+    'Beyerdynamic DT 770 Pro': 9.8,
+    // Conclusion: "the most versatile keeper" para mezcla.
+    'Sennheiser HD 490 Pro Plus': 9.7,
+    // Conclusion: "the planar last word".
+    'Audeze LCD-X': 9.5,
+    // Conclusion: "the legendary flat reference" que evita la fatiga de agudos.
+    'Sennheiser HD 600': 9.4,
+    // Conclusion: "the portable mastering room".
+    'Neumann NDH 30': 9.2,
+    // Conclusion: "the honest first ticket" y referencia de_STARTING OUT.
+    'Audio-Technica ATH-M50x': 9.1,
+    // Conclusion: "the featherlight comfort reference".
+    'Audio-Technica ATH-R70xa': 9.0,
+    // Conclusion: presupuesto: "the absurd value".
+    'Samson SR850': 8.9,
+    // Conclusion: la eleccion economica de la guia.
+    'Sony MDR-7506': 8.8,
+    // Conclusion: "the fatiguing DT 990" — el unico con pega declarada.
+    'Beyerdynamic DT 990 Pro': 8.7,
+    // Citados en la tabla sin posto propio en la conclusion.
+    'AKG K371': 8.9,
+    'Audio-Technica ATH-M20x': 9.0,
+  },
 };
