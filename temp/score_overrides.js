@@ -1521,6 +1521,86 @@ module.exports = {
     'Native Instruments Komplete 26 Ultimate': 9.3,
   },
 
+  // --- Guitarras para principiantes ---
+  // Conclusion: "For acoustics, the Yamaha FG800 and Fender CD-60S are the proven
+  // picks; the Yamaha C40 is the gentlest option ... On the electric side, the
+  // Pacifica 112V, Squier Affinity Stratocaster and Epiphone Les Paul Special-I".
+  'beginner-guitar': {
+    // Veredicto: "Yamaha FG800 for acoustic songwriting" y conclusion: "the proven pick".
+    'Yamaha FG800 Acoustic': 9.8,
+    'Fender CD-60S Acoustic': 9.6,
+    // Conclusion: "the Pacifica 112V ... electric side" — el primero de los tres.
+    'Yamaha Pacifica 112V': 9.5,
+    // Conclusion: "Squier Affinity Stratocaster ... genuine Fender feel".
+    'Squier Affinity Series Stratocaster': 9.4,
+    // Conclusion: "Epiphone Les Paul Special-I ... budget rock".
+    'Epiphone Les Paul Special-I': 9.3,
+    // Conclusion: "the Yamaha C40 is the gentlest option if you want nylon strings".
+    'Yamaha C40 Classical (Nylon) Guitar': 9.2,
+    // Citados en la tabla sin salir en la conclusion.
+    'Fender CN-60S (Nylon)': 9.0,
+    'Takamine GC1 (Nylon)': 8.9,
+    'Squier Sonic Mustang': 8.9,
+    'Enya Nova Go Sonic Smart Electric Guitar': 8.7,
+  },
+
+  // --- Bajos para principiantes ---
+  // Veredicto: "Yamaha BB234 for the best overall beginner bass (alder body,
+  // ceramic P/J, a decade of play)". Conclusion: "Start with a Yamaha BB234 if
+  // you want the sturdiest passive P/J".
+  'beginner-bass-guitars': {
+    // Conclusion: "the sturdiest passive P/J" — la recomendacion de apertura.
+    'Yamaha BB234': 9.8,
+    // Veredicto: "Squier Affinity PJ for the best value P/J".
+    'Squier Affinity Series Precision Bass PJ': 9.4,
+    // Conclusion: "a Yamaha TRBX304 if you want onboard EQ" — la unica activa.
+    'Yamaha TRBX304': 9.3,
+    // Conclusion: "the Squier Sonic Bronco and Ibanez TMB30 are 30-inch basses
+    // with lower string tension" — la opcion para manos pequenas.
+    'Ibanez TMB30 Talman': 9.2,
+    'Squier Sonic Bronco Bass': 9.1,
+    // Veredicto: "Sire Marcus Miller V5R for passive jazz tone".
+    'Sire Marcus Miller V5R 4-String Bass': 9.0,
+    // Citados en la tabla sin salir en la conclusion.
+    'Squier Classic Vibe \'60s Jazz Bass': 8.9,
+    'Sterling by Music Man StingRay Ray4': 8.9,
+    'Ibanez SR300E': 8.8,
+  },
+
+  // --- Bajos economicos que suenan premium ---
+  // Conclusion: "The Yamaha BB434 is the passive high-water mark here ... Step up
+  // again and the Fender Player II Precision and Jazz bring stage-level feel".
+  'budget-bass-like-expensive': {
+    // Conclusion: "the passive high-water mark here".
+    'Yamaha BB434': 9.8,
+    // Conclusion: "Step up again and the Fender Player II Precision and Jazz".
+    'Fender Player II Precision Bass': 9.6,
+    'Fender Player II Jazz Bass': 9.5,
+    // Conclusion: "the most electronics on this list" sin pagar precio flagship.
+    'G&L Tribute L-2000': 9.3,
+    // Conclusion: "prove that great tone doesn't have to cost a fortune".
+    'Squier Classic Vibe \'60s Jazz Bass': 9.2,
+    'Sterling by Music Man StingRay Ray4': 9.2,
+    // Conclusion: "cover the modern end of the spectrum".
+    'Schecter Stiletto Stealth 4 Bass': 9.1,
+    'Yamaha TRBX304': 9.1,
+    // Conclusion: "active electronics once reserved for premium instruments".
+    'Ibanez SR300E': 9.0,
+    'Sire Marcus Miller V5 4-String Bass': 9.0,
+    'ESP LTD B-204SM Bass Guitar': 8.9,
+    // Conclusion: "the deliberate outsider" con sus contras declaradas.
+    'Epiphone Thunderbird \'64 Bass': 8.7,
+  },
+
+  // --- P-Bass vs J-Bass ---
+  // Conclusion: "There's no wrong choice between the Precision Bass and the Jazz
+  // Bass. They're both legendary instruments" — empardon tecnico.
+  'precision-vs-jazz': {
+    // Conclusion: ambos "$(both legendary instruments)"; el J-Bass da "versatility".
+    'Fender Player II Precision Bass': 9.5,
+    'Fender Player II Jazz Bass': 9.4,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
