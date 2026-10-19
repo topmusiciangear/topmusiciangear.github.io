@@ -1747,6 +1747,134 @@ module.exports = {
     'Shure PSM300': 9.3,
   },
 
+  // --- Yamaha DXR12 vs JBL PRX ONE ---
+  // Conclusion: "The DXR12mkII is the traditional choice for pros building
+  // scalable PA systems". El PRX ONE cuesta el doble (1.899 vs 899).
+  'dxr-vs-prx': {
+    // Conclusion: "the traditional choice for pros building scalable systems".
+    'Yamaha DXR12mkII Active PA Speaker': 9.5,
+    // Conclusion: "the modern all-in-one ... valuing convenience".
+    'JBL PRX ONE Active PA Column': 9.2,
+  },
+
+  // --- TS9 vs BD-2 ---
+  // Conclusion: "If you can only buy one, the BD-2 offers more flexibility for
+  // different styles."
+  'ts9-vs-bd2': {
+    // Conclusion: "the more versatile, touch-responsive overdrive".
+    'Boss BD-2 Blues Driver': 9.6,
+    // Conclusion: "the classic mid-boost overdrive that pushes your amp".
+    'Ibanez TS9 Tube Screamer': 9.4,
+  },
+
+  // --- SM57 vs SM58 ---
+  // Conclusion: "There's no wrong choice ... the same microphone with different
+  // hats on". Mismo precio (99 $): tecnica casi empatada.
+  'sm57-vs-sm58': {
+    // Conclusion: "every studio should have an SM57".
+    'Shure SM57': 9.5,
+    // Conclusion: "every performer an SM58".
+    'Shure SM58': 9.5,
+  },
+
+  // --- SM57 vs MD 421 Kompakt ---
+  // Conclusion: "Buy the SM57 first ... Add the MD 421 Kompakt later". El MD 421
+  // cuesta el triple (299 vs 99).
+  'sm57-vs-md421': {
+    // Conclusion: "the indispensable foundation of every mic locker".
+    'Shure SM57': 9.8,
+    // Conclusion: "brings weight and character to specific sources".
+    'Sennheiser MD 421 Kompakt': 9.1,
+  },
+
+  // --- DT 770 Pro vs DT 990 Pro ---
+  // Conclusion: roles opuestos pero complementarios. "The only wrong answer is
+  // buying neither". Precios casi identicos (159 vs 169).
+  'dt770-vs-dt990': {
+    // Conclusion: "closed-back isolation for tracking and velour comfort".
+    'Beyerdynamic DT 770 Pro': 9.5,
+    // Conclusion: "breathtaking soundstage for mixing".
+    'Beyerdynamic DT 990 Pro': 9.4,
+  },
+
+  // --- AKG C414 vs Neumann U 87 ---
+  // Conclusion: "Hire the U 87; own the C414". El U 87 cuesta el triple.
+  'c414-vs-u87': {
+    // Conclusion: "the standard you hear on countless records" — el flagship.
+    'Neumann U 87 Ai': 9.7,
+    // Conclusion: "the versatility champion" que conviene tener en casa.
+    'AKG C414 XLII': 9.4,
+  },
+
+  // --- Sennheiser IE 900 vs Shure SE846 ---
+  // Conclusion: "The IE 900 wins for pure listening fidelity ... The SE846 Gen 2
+  // wins for stage and studio flexibility".
+  'ie900-vs-se846': {
+    // Conclusion: "the most transparent detail in the class" — el mas caro.
+    'Sennheiser IE 900': 9.7,
+    // Conclusion: "four balanced-armature drivers ... four swappable sound signatures".
+    'Shure SE846 Gen 2': 9.4,
+  },
+
+  // --- Shure SM7B vs Rode NT1 5th Gen ---
+  // Conclusion: "Choose the SM7B for practicality; choose the NT1 5th Generation
+  // for detail and versatility". El SM7B cuesta mas (399 vs 269).
+  'sm7b-vs-nt1': {
+    // Conclusion: "the forgiving mic that makes untreated rooms sound professional".
+    'Shure SM7B': 9.6,
+    // Conclusion: "the detailed performer that rewards a good room".
+    'Rode NT1 5th Generation': 9.3,
+  },
+
+  // --- EV RE20 vs Shure SM7B ---
+  // Conclusion: "The RE20 delivers the natural broadcast sound of professional
+  // radio. The SM7B ... the warm, intimate sound of the podcast era."
+  're20-vs-sm7b': {
+    // Conclusion: "the natural broadcast sound of professional radio".
+    'Electro-Voice RE20': 9.6,
+    // Conclusion: "the warm, intimate sound of the podcast era" — mas barato.
+    'Shure SM7B': 9.4,
+  },
+
+  // --- AKG K371 vs Sony MDR-7506 ---
+  // Conclusion: "The K371 gives modern Harman-tuned accuracy ... The MDR-7506
+  // gives battle-tested broadcast reliability".
+  'k371-vs-mdr7506': {
+    // Conclusion: "modern Harman-tuned accuracy with better comfort".
+    'AKG K371': 9.4,
+    // Conclusion: "battle-tested broadcast reliability" — el mas barato.
+    'Sony MDR-7506': 9.2,
+  },
+
+  // --- ATH-M50x vs DT 770 Pro ---
+  // Conclusion: "The M50x is the producer's companion ... The DT 770 is the
+  // engineer's tool". El DT 770 es mas barato (159 vs 169).
+  'm50x-vs-dt770': {
+    // Conclusion: "one of the kings of tracking ... brutally detailed".
+    'Beyerdynamic DT 770 Pro': 9.5,
+    // Conclusion: "fun, portable, and versatile" para producir.
+    'Audio-Technica ATH-M50x': 9.4,
+  },
+
+  // --- ATH-M50x vs MDR-7506 ---
+  // Conclusion: "producer = M50x, engineer = 7506". El 7506 cuesta 70 $ menos.
+  'm50x-vs-mdr7506': {
+    // Conclusion: "makes your music sound exciting, with bass that inspires".
+    'Audio-Technica ATH-M50x': 9.5,
+    // Conclusion: "tells you the unfiltered truth" — el mas barato.
+    'Sony MDR-7506': 9.2,
+  },
+
+  // --- Sennheiser HD 490 Pro vs DT 990 Pro ---
+  // Conclusion: "The HD 490 Pro Plus gives you the unvarnished truth ... The
+  // DT 990 Pro gives spacious, exciting sound".
+  'hd490-pro-vs-dt990': {
+    // Conclusion: "the modern scalpel of critical listening".
+    'Sennheiser HD 490 Pro Plus': 9.7,
+    // Conclusion: "the sledgehammer of high-detail editing" — mas barato.
+    'Beyerdynamic DT 990 Pro': 9.2,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
