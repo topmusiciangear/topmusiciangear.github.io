@@ -1393,6 +1393,134 @@ module.exports = {
     'FabFilter Total Bundle': 8.7,
   },
 
+  // --- Micro para amplis de guitarra ---
+  // Conclusion: "The Shure SM57 is still the reference — cheap, honest and
+  // indestructible". El M 201 TG es "the reference" para el aislamiento.
+  'best-mic-for-guitar-amps': {
+    // Conclusion: "the Shure SM57 is still the reference".
+    'Shure SM57': 9.8,
+    // Conclusion: "the Shure SM7B adds warm broadcast weight when the budget allows".
+    'Shure SM7B': 9.5,
+    // Conclusion: "the Sennheiser MD 421 Kompakt adds low-end depth".
+    'Sennheiser MD 421 Kompakt': 9.3,
+    // Conclusion: "the Audix i5 takes over 140 dB at around $99".
+    'Audix i5': 9.2,
+    // Conclusion: "the Beyerdynamic M 201 TG is the reference" de aislamiento.
+    'Beyerdynamic M 201 TG': 9.1,
+    // Conclusion: "the Shure Beta 57A's hotter output fixes it at the source".
+    'Shure Beta 57A': 9.0,
+    // Conclusion: "the Sennheiser e906 hangs over the cab and removes the stand".
+    'Sennheiser e 906': 8.9,
+  },
+
+  // --- Micros para podcast ---
+  // Conclusion: por tipo de sala: dinamico en sala sin tratar, condensador en
+  // estudio tratado,parejas iguales para multi-host, inalambrico para viaje.
+  'best-mic-for-podcasting': {
+    // Conclusion: "Shure SM7B for premium" en salas sin tratar.
+    'Shure SM7B': 9.8,
+    // Conclusion: "Shure MV7+ for USB/XLR DSP flexibility".
+    'Shure MV7+': 9.5,
+    // Conclusion: "Rode NT1 captures more detail" en estudio tratado.
+    'Rode NT1 Signature Series': 9.4,
+    'Rode NT1 5th Generation': 9.3,
+    // Conclusion: "For multi-host podcasts, use matching mics (Rode PodMic)".
+    'Rode PodMic': 9.2,
+    'Rode PodMic USB': 9.1,
+    // Conclusion: "the Hollyland MELO P1 is a wireless record-and-mix studio".
+    'Hollyland MELO P1': 9.0,
+    'Rode Procaster': 8.9,
+    'Shure SM58': 8.9,
+    // Conclusion: "XM8500 for $25 spares" — el repuesto.
+    'Behringer XM8500 Ultravoice Dynamic Microphone': 8.7,
+  },
+
+  // --- Micros USB para streaming ---
+  // Conclusion: "There is no single best USB mic". Cada uno gana un caso de uso.
+  'usb-mics': {
+    // Conclusion: "If you want the characteristic Shure broadcast sound with a
+    // single USB cable and no gain issues".
+    'Shure MV7+': 9.8,
+    // Conclusion: "the cheapest ways to keep a 3-pin XLR alongside USB".
+    'Samson Q2U USB/XLR Microphone': 9.5,
+    // Conclusion: "If your room is quiet and you want detailed condenser sound".
+    'Elgato Wave:3': 9.3,
+    // Conclusion: "maximum vocal detail for singing or ASMR in a treated room".
+    'Rode NT1 5th Generation': 9.2,
+    // Conclusion: "the most complete plug-and-play package with hardware controls".
+    'Sennheiser Profile Streaming Set': 9.1,
+    // Conclusion: "brings internal APHEX DSP" para quien viene del Yeti.
+    'Rode NT-USB+': 9.0,
+    'Audio-Technica AT2040USB': 9.0,
+    // Conclusion: "hardware mixer control without a separate interface".
+    'sE Electronics NEOM USB': 8.9,
+    'Rode PodMic USB': 8.9,
+    // Conclusion: "a studio condenser with a real mix knob".
+    'Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone': 8.8,
+  },
+
+  // --- Auriculares abiertos ---
+  // Conclusion: "The HD 490 Pro Plus remains the modern reference standard. The
+  // HD 600 is the timeless classic ... The Beyerdynamic DT 1990 Pro MKII is the
+  // new Tesla flagship for mixing and mastering."
+  'open-headphones': {
+    // Conclusion: "the modern reference standard".
+    'Sennheiser HD 490 Pro Plus': 9.8,
+    // Conclusion: "the new Tesla flagship for mixing and mastering".
+    'Beyerdynamic DT 1990 Pro MKII': 9.5,
+    // Conclusion: "the timeless classic that mastering engineers still trust".
+    'Sennheiser HD 600': 9.4,
+    // Conclusion: "the premium choice when you need razor-sharp detail".
+    'Neumann NDH 30': 9.3,
+    // Conclusion: "delivers professional accuracy with lightweight comfort".
+    'Audio-Technica ATH-R70xa': 9.2,
+    // Conclusion: "brings a wide, spacious soundstage".
+    'Beyerdynamic DT 990 Pro': 9.1,
+    // Conclusion: "the amp-free sweet spot for home studios".
+    'Beyerdynamic DT 900 Pro X': 9.0,
+    // Conclusion: "keeps planar magnetic detail for purists" — el mas caro.
+    'Audeze LCD-X': 8.9,
+  },
+
+  // --- Auriculares cerrados para grabacion ---
+  // Conclusion: "The DT 770 Pro remains the professional's go-to for tracking ...
+  // The Neumann NDH 20 is the premium endgame ... The Audio-Technica ATH-M70x is
+  // the mandatory M-Series flagship".
+  'tracking-headphones': {
+    // Conclusion: "the premium endgame with monitor-grade neutrality".
+    'Neumann NDH 20': 9.8,
+    // Conclusion: "the mandatory M-Series flagship".
+    'Audio-Technica ATH-M70x': 9.6,
+    // Conclusion: "the versatile all-rounder" que lo hace todo.
+    'Audio-Technica ATH-M50x': 9.5,
+    // Conclusion: "remains the professional's go-to for tracking".
+    'Beyerdynamic DT 770 Pro': 9.4,
+    // Conclusion: "brings audiophile-grade detail and a natural soundstage".
+    'Focal Listen Professional': 9.2,
+    // Conclusion: "Harman-target tuning that translates perfectly".
+    'AKG K371': 9.1,
+    // Conclusion: "the flat, honest tracker for engineers who mistrust hype".
+    'Audio-Technica ATH-M40x': 9.0,
+    // Conclusion: "the smart buy for outfitting a studio with multiple pairs".
+    'Sony MDR-7506': 8.9,
+    // Conclusion: "the stage-and-broadcast specialist".
+    'Sennheiser HD 300 Pro': 8.9,
+    // Conclusion: "your best bet when raw isolation matters most".
+    'Sennheiser HD 280 PRO II': 8.9,
+    // Conclusion: "honest, transparent sound with a detachable cable".
+    'Shure SRH440A': 8.7,
+  },
+
+  // --- FabFilter vs Komplete ---
+  // Conclusion: "For mixing and mastering precision, choose FabFilter; for
+  // inspiration and variety, Komplete 26 Ultimate is unparalleled".
+  'pro-plugins': {
+    // Conclusion: "absolute best mixing and processing tools".
+    'FabFilter Total Bundle': 9.7,
+    // Conclusion: "an entire production universe" de instrumentos y librerias.
+    'Native Instruments Komplete 26 Ultimate': 9.3,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
