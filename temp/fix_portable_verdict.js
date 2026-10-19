@@ -1,14 +1,17 @@
 const fs = require('fs');
-const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
-const guide = g.find(x => x.id === 'portable-interfaces');
+const path = require('path');
 
-guide.verdict = "RME Babyface Pro FS for uncompromising portable quality, Focusrite Scarlett 2i2 4th Gen for the best balance of features and value, Audient EVO 4 for budget travelers.";
+const g = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/guides.json'), 'utf8'));
 
-guide.verdict_es = "RME Babyface Pro FS para calidad portátil sin concesiones, Focusrite Scarlett 2i2 4th Gen para el mejor equilibrio entre funciones y precio, Audient EVO 4 para viajeros con presupuesto ajustado.";
+const gd = g.find(x => x.id === 'portable-interfaces');
 
-guide.conclusion = "The RME Babyface Pro FS is the best portable audio interface money can buy — its SteadyClock FS jitter suppression and legendary RME drivers make it the gold standard for location recording. The Focusrite Scarlett 2i2 4th Gen offers the best balance of features and value with its 120dB dynamic range and Auto Gain. The Audient EVO 4 is the best budget option. All three are bus-powered, compact, and reliable enough for professional work on the road.";
+gd.verdict_es = 'En la Élite Profesional (Referencia Absoluta): La RME Babyface Pro FS es la interfaz de referencia definitiva en movilidad, ofreciendo la construcción más robusta, la conversión más limpia y los drivers más estables de la industria musical. En la Gama Alta (Las más completas y fiables): La Focusrite Scarlett 2i2 4th Gen, la Audient iD14 MkII y la SSL 2+ MKII son las herramientas de referencia en su categoría. Destacan por integrar convertidores y previos heredados de consolas y sistemas de gran formato en un chasis robusto alimentado por bus. Gama Media Avanzada (Calidad de estudio con funciones especiales): La Universal Audio Volt 276, la MOTU M2 y la Arturia MiniFuse 2 OTG ofrecen calidad de estudio profesional con excelentes previos y drivers estables, destacando por sus añadidos de hardware como compresión analógica, pantallas LCD a color o puertos de conectividad móvil. Gama de Entrada Portátil (Rendimiento compacto y eficiente): La Universal Audio Volt 2 y la Audient EVO 4 ofrecen calidad de estudio con excelentes previos y drivers estables en los formatos más ligeros, simplificados y accesibles para llevar en cualquier mochila.';
 
-guide.conclusion_es = "El RME Babyface Pro FS es la mejor interfaz de audio portátil que puedes comprar — su supresión de jitter SteadyClock FS y los legendarios drivers RME lo convierten en el estándar de oro para grabación en movilidad. La Focusrite Scarlett 2i2 4th Gen ofrece el mejor equilibrio entre funciones y precio con su rango dinámico de 120dB y Auto Gain. La Audient EVO 4 es la mejor opción económica. Las tres son alimentadas por bus, compactas y fiables para trabajo profesional fuera del estudio.";
+gd.verdict = 'Professional Elite (Absolute Reference): The RME Babyface Pro FS is the definitive reference interface in mobility, offering the most robust construction, cleanest conversion, and most stable drivers in the music industry. High Tier (The most complete and reliable): The Focusrite Scarlett 2i2 4th Gen, Audient iD14 MkII, and SSL 2+ MKII are reference tools in their category. They stand out for integrating converters and preamps inherited from consoles and large-format systems in a robust bus-powered chassis. Advanced Mid Tier (Studio quality with special features): The Universal Audio Volt 276, MOTU M2, and Arturia MiniFuse 2 OTG offer professional studio quality with excellent preamps and stable drivers, standing out for their hardware additions like analog compression, color LCD screens, or mobile connectivity ports. Portable Entry Tier (Compact and efficient performance): The Universal Audio Volt 2 and Audient EVO 4 offer studio quality with excellent preamps and stable drivers in the lightest, most simplified, and accessible formats to carry in any backpack.';
 
-fs.writeFileSync('data/guides.json', JSON.stringify(g, null, 2));
-console.log('OK: verdict y conclusion actualizados para portable-interfaces');
+gd.conclusion_es = 'La RME Babyface Pro FS es la opción definitiva para quien busca la mejor calidad. La Scarlett 2i2 4th Gen, iD14 MkII y SSL 2+ MKII completan la gama alta. La Volt 276, MOTU M2 y MiniFuse 2 OTG son la gama media avanzada. La Volt 2 y EVO 4 son la opción portátil de entrada.';
+
+gd.conclusion = 'The RME Babyface Pro FS is the definitive choice for those seeking the best quality. The Scarlett 2i2 4th Gen, iD14 MkII, and SSL 2+ MKII complete the high tier. The Volt 276, MOTU M2, and MiniFuse 2 OTG are the advanced mid tier. The Volt 2 and EVO 4 are the portable entry option.';
+
+fs.writeFileSync(path.join(__dirname, '../data/guides.json'), JSON.stringify(g, null, 2));
+console.log('OK - portable-interfaces actualizado con el veredicto del usuario.');
