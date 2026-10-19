@@ -1,9 +1,9 @@
 const fs = require('fs');
 const B = 'C:/Users/Daniel/projects/topmusiciangear/';
 const p = JSON.parse(fs.readFileSync(B + 'data/products.json', 'utf8'));
-p.filter(x => (x.title || '').includes('Komplete 26')).forEach(x => {
-  console.log('id=' + x.id + '  precio=' + x.price + '  score=' + x.score);
-  console.log('   title: "' + x.title + '"');
-  console.log('   title_es: "' + (x.title_es || '') + '"');
-  console.log('   stores: ' + Object.keys(x.stores || {}).join(','));
-});
+['Headless', 'NX', 'Donner', 'HUSH', 'Traveler', 'Lava', 'GS Mini']
+  .forEach(q => {
+    const h = p.filter(x => (x.title || '').toLowerCase().includes(q.toLowerCase()));
+    console.log('\n"' + q + '" -> ' + h.length);
+    h.slice(0, 5).forEach(x => console.log('   id=' + x.id + ' "' + x.title + '"  score=' + x.score));
+  });

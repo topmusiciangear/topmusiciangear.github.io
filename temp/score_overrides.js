@@ -1601,6 +1601,113 @@ module.exports = {
     'Fender Player II Jazz Bass': 9.4,
   },
 
+  // --- Guitarras Fender por genero ---
+  // Conclusion: "the Player Strat is your entry, the Ultra Strat is your
+  // destination ... the American Pro II gives you the refinement ... And don't
+  // overlook the CD-60S. The best value beginner acoustic guitar period."
+  'fender-guide': {
+    // Conclusion: "the Ultra Strat is your destination" — el mas caro.
+    'Fender American Ultra II Stratocaster': 9.8,
+    // Conclusion: "the American Pro II gives you the refinement".
+    'Fender American Professional II Stratocaster': 9.6,
+    'Fender American Professional II Telecaster': 9.5,
+    // Conclusion: "the Player Strat is your entry" y "the Player Tele".
+    'Fender Player II Stratocaster HSS': 9.4,
+    'Fender Player II Telecaster': 9.3,
+    // Conclusion: "the Jazzmaster's unique voice is irreplaceable".
+    'Fender Player II Jazzmaster': 9.2,
+    // Conclusion: "the CD-60S. The best value beginner acoustic guitar period".
+    'Fender CD-60S Acoustic': 9.1,
+    // Conclusion: "the Les Paul Standard '60s brings classic rock authority".
+    'Gibson Les Paul Standard \'60s': 8.9,
+  },
+
+  // --- Player Strat vs Pacifica 112V ---
+  // Conclusion: el Player Strat da "genuine Fender tone and legacy that lasts a
+  // lifetime"; la Pacifica "exceptional value ... per dollar".
+  'player-strat-vs-pacifica': {
+    // Conclusion: "authentic Fender tone and legacy" con marca en la cabeza.
+    'Fender Player II Stratocaster HSS': 9.7,
+    // Conclusion: "exceptional value and surprising quality at its price".
+    'Yamaha Pacifica 112V': 9.4,
+  },
+
+  // --- American Pro II Strat vs Les Paul Standard 60s ---
+  // Conclusion: "Both are pinnacles of their design philosophies ... Own both for
+  // total coverage". El Les Paul cuesta mas (2.799 vs 1.799).
+  'american-pro-vs-les-paul': {
+    // Conclusion: "the iconic rock machine with exceptional sustain".
+    'Gibson Les Paul Standard \'60s': 9.7,
+    // Conclusion: "the versatile choice covering everything".
+    'Fender American Professional II Stratocaster': 9.5,
+  },
+
+  // --- HS8 vs Rokit 7 G5 ---
+  // Conclusion: "The HS8 gives you surgical precision ... The Rokit 7 G5 makes
+  // production enjoyable". Ninguno esta mal: son filosofias distintas.
+  'hs8-vs-rokit-7': {
+    // Conclusion: "surgical precision — every mix decision translates".
+    'Yamaha HS8': 9.6,
+    // Conclusion: "makes production enjoyable" con graves mas agradables.
+    'KRK Rokit 7 G5': 9.3,
+  },
+
+  // --- Monitores profesionales de tres vias ---
+  // Conclusion: "The S3H delivers the fastest transient response ... The Trio11 Be
+  // offers unprecedented versatility". El Focal es el mas caro (4.199 vs 3.999).
+  'pro-monitors': {
+    // Conclusion: "unprecedented versatility with its switchable Focus mode".
+    'Focal Trio11 Be': 9.7,
+    // Conclusion: "the fastest transient response ... and powerful DSP room correction".
+    'ADAM Audio S3H': 9.5,
+  },
+
+  // --- Guitarras para trabajo remoto (silenciosas y compactas) ---
+  // Conclusion: "the Headless Experience NX is the premium pick. The Yamaha
+  // SLG200S is the mainstream choice ... the Taylor GS Mini-e Koa is the best
+  // compact acoustic for small spaces."
+  // OJO: el Headless Experience NX se cita en el veredicto y la conclusion pero
+  // NO esta en el catalogo, asi que no lleva nota.
+  'best-guitar-home-office': {
+    // Conclusion: "the best compact acoustic for small spaces".
+    'Taylor GS Mini-e Koa': 9.4,
+    // Conclusion: "The Yamaha SLG200S is the mainstream choice".
+    'Yamaha SLG200S': 9.2,
+    'Yamaha SLG200N': 9.1,
+    // Conclusion: "built-in effects and apps" en las intuitivas.
+    'Donner HUSH-I EVO2': 9.0,
+    'Lava Music Lava ME 4 Smart Guitar': 8.9,
+    // Conclusion: "the Traveler Guitar Ultra-Light is the most portable option".
+    'Traveler Guitar Ultra-Light Steel': 8.9,
+    'Traveler Guitar Ultra-Light Nylon': 8.8,
+    // Conclusion: el escalon de guitarra inteligente.
+    'Enya Nova Go Sonic Smart Electric Guitar': 8.7,
+  },
+
+  // --- Teclados para escenario ---
+  // Conclusion: "The Nord Stage 4 is still the reference touring keyboard, with
+  // the Roland RD-2000 EX as the pianist's alternative and the Yamaha Montage M8x
+  // and Roland Fantom 8 EX as the heavyweight workstations".
+  'best-stage-keyboards': {
+    // Conclusion: "still the reference touring keyboard" — el mas caro.
+    'Nord Stage 4 88': 9.8,
+    // Conclusion: "the heavyweight workstations" — el escalon alto.
+    'Yamaha Montage M8x': 9.5,
+    'Roland Fantom 8 EX': 9.4,
+    // Conclusion: "the pianist's alternative".
+    'Roland RD-2000 EX': 9.3,
+    // Conclusion: "Organ-driven stages belong to the Yamaha YC88".
+    'Yamaha YC88': 9.2,
+    // Conclusion: "the featherweight Nord Electro 7".
+    'Nord Electro 7 61': 9.1,
+    // Conclusion: "covers every base with seven engines".
+    'Korg Grandstage X': 9.0,
+    // Conclusion: "moves your plugin rig to hardware".
+    'Arturia AstroLab 61': 8.9,
+    // Conclusion: "gigs anywhere on batteries" — el mas barato.
+    'Yamaha CK88': 8.7,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
