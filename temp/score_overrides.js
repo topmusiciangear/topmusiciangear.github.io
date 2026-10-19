@@ -400,7 +400,7 @@ module.exports = {
     // Conclusion: "the broadcast dynamic built for desk setups".
     'Elgato Wave DX': 8.9,
     // Conclusion: "the hybrid for broadcasters who want USB and XLR flexibility".
-    'Samson Q9U XLR/USB Microphone': 8.9,
+    'Samson Q9U XLR/USB Dynamic Broadcast Microphone': 8.9,
     // Conclusion: "the premium stage dynamics that survive the road".
     'Sennheiser e935': 8.9,
     'Shure Beta 58A': 8.9,
@@ -443,5 +443,160 @@ module.exports = {
     // Conclusion: "the compact HyperX SoloCast as an elegant alternative".
     'HyperX SoloCast 2': 8.8,
     'HyperX SoloCast USB Condenser Microphone': 8.8,
+  },
+
+  // --- Guitarra electrica (guia general) ---
+  // Conclusion: "Start with the category that matches where you are now".
+  // El veredicto fija cuatro escalones: principiante, gama media para tocar,
+  // premium para profesionales, y silenciosas para casa.
+  'best-electric-guitar': {
+    // Veredicto: "Ultra II noiseless flagship" y "AmPro II Tele twang".
+    'Fender American Ultra II Stratocaster': 9.8,
+    // Veredicto: "LP 60s authority" — el premium de Gibson.
+    'Gibson Les Paul Standard \'60s': 9.7,
+    // Veredicto: "premium Gibson and PRS for professionals".
+    'Fender American Professional II Stratocaster': 9.6,
+    'Fender American Professional II Telecaster': 9.6,
+    'PRS SE Custom 24': 9.5,
+    'Ibanez AZ2402 Prestige': 9.5,
+    'ESP E-II Eclipse DB': 9.4,
+    // Veredicto: "mid-range Fender Player and PRS SE for gigging".
+    'Fender Player II Stratocaster HSS': 9.3,
+    'Fender Player II Jazzmaster': 9.3,
+    'Fender Player II Telecaster': 9.3,
+    // Veredicto: "silent guitars for home recording" / "carbon Enya Nova Go".
+    'Enya Nova Go Sonic Smart Electric Guitar': 9.2,
+    'Strandberg Boden Essential 6': 9.2,
+    // Conclusion: escalon de principiante.
+    'Squier Affinity Series Stratocaster': 9.0,
+    'Squier Classic Vibe \'50s Stratocaster': 9.0,
+    'Yamaha Pacifica 112V': 9.0,
+    'Squier Sonic Mustang': 8.9,
+    'Squier Debut Series Stratocaster': 8.7,
+  },
+
+  // --- Parlor para blues y fingerstyle ---
+  // Conclusion: "the Yamaha CSF1M is the best all-around parlor" y el Jim
+  // Dandy "owns vintage vibe" y es "eloverall winner" segun el veredicto.
+  'best-parlor-guitars': {
+    // Veredicto: "CSF1M is the overall winner for solid-top tone".
+    'Yamaha CSF1M': 9.8,
+    // Veredicto: "Jim Dandy owns the budget blues crown".
+    'Gretsch G9500 Jim Dandy': 9.6,
+    // Conclusion: "wins on boutique build".
+    'PRS SE P20e Tonare Parlor': 9.4,
+    // Conclusion: "the stage personalities the Rancher Penguin".
+    'Gretsch G5021E Rancher Penguin': 9.2,
+    // Conclusion: "Slide players should grab the Epiphone L-00 Studio".
+    'Epiphone L-00 Studio': 9.1,
+    // Conclusion: "budget buyers the Fender CP-60S".
+    'Fender CP-60S': 9.0,
+    'Fender Highway Series Parlor All-Mahogany Acoustic-Electric': 8.9,
+  },
+
+  // --- Pedales de reverb y delay ---
+  // Conclusion: "Start with the DD-8 and Hall of Fame 2 for a complete
+  // time-based setup". El BigSky MX es "the reverb professionals reach for".
+  'best-reverb-delay': {
+    // Veredicto: "the versatile delay that does everything", el primero.
+    'Boss DD-8 Digital Delay': 9.8,
+    // Conclusion: "the reverb professionals reach for who demand the best".
+    'Strymon BigSky MX': 9.6,
+    // Veredicto: "the value reverb with great algorithms".
+    'TC Electronic Hall of Fame 2': 9.5,
+    // Conclusion: menciones por nicho.
+    'Strymon TimeLine': 9.2,
+    'Meris LVX': 9.1,
+    'Eventide TimeFactor': 9.1,
+    'Source Audio Nemesis': 9.0,
+    // Conclusion: "Hybrid hunters".
+    'Keeley Caverns V2': 9.0,
+    'Universal Audio Del-Verb': 8.9,
+    // Conclusion: "analog purists".
+    'MXR M169 Carbon Copy': 8.9,
+    // Conclusion: "nailed classic studio verbs".
+    'Universal Audio Golden Reverberator': 8.8,
+    // Conclusion: "packs presets and 32-bit sound in a compact box".
+    'Boss RV-200': 8.8,
+    'Boss RC-5 Loop Station': 8.8,
+  },
+
+  // --- Auriculares economicos (menos de 150 $) ---
+  // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
+  // angled drivers make it the most accurate of the eight".
+  'budget-headphones': {
+    // Conclusion: "the most accurate of the eight".
+    'Sennheiser HD 560S': 9.8,
+    // Conclusion: "the proven classic" en cerrado.
+    'Sony MDR-7506': 9.4,
+    // Conclusion: "adds detachable cables and pads".
+    'Shure SRH440A': 9.3,
+    // Conclusion: "the isolation-first tracker".
+    'Sennheiser HD 280 Pro II': 9.2,
+    // Conclusion: "the flat and versatile middle ground".
+    'Audio-Technica ATH-M40x': 9.1,
+    // Conclusion: "the semi-open middle path" con cable profesional.
+    'AKG K240 Studio': 9.0,
+    // Conclusion: "the lightest open-back gateway".
+    'Audio-Technica ATH-R30x': 8.9,
+    // Conclusion: "more accuracy per dollar than anything else".
+    'Samson SR850': 8.7,
+  },
+
+  // --- Micros para creadores (35 a 299 $) ---
+  // Conclusion: "Under $70 the FIFINE AM8 is the one to take" y "the Shure MV7+
+  // ... replaces both a microphone and an audio interface, which is the only
+  // real argument that adds up".
+  'mics-for-creators': {
+    // Conclusion: "the only real argument that adds up" — el mas caro.
+    'Shure MV7+': 9.8,
+    // Veredicto: "the one to beat for beginners".
+    'Samson Q2U USB/XLR Microphone': 9.7,
+    // Conclusion: "a USB and XLR dynamic at $58 ... does not become obsolete".
+    'FIFINE AmpliGame AM8 Dynamic USB Microphone': 9.4,
+    // Conclusion: "wins on clean capture" en el tramo de 70 a 150 $.
+    'Rode NT-USB Mini Studio Condenser Microphone': 9.3,
+    // Veredicto: "wins if your priority is streaming software".
+    'HyperX QuadCast 2': 9.2,
+    // Veredicto: "the pick when you want a full production chain in the box".
+    'Elgato Wave:3': 9.1,
+    'FIFINE AmpliTank K688 Dynamic USB/XLR Microphone': 9.1,
+    // Conclusion: "the budget entry point into the studio world" (solo XLR).
+    'Audio-Technica AT2020': 9.0,
+    // Veredicto: "handles hot sources" para voz en sala ruidosa.
+    'Audio-Technica AT2040USB': 9.0,
+    'Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone': 8.9,
+    'Rode PodMic USB': 8.9,
+    'Rode XCM-50': 8.9,
+    'Razer Seiren V3 Mini': 8.8,
+    'TONOR TC-777 USB Microphone': 8.8,
+    'Maono PM461 USB Microphone': 8.8,
+    // Conclusion: "stays relevant only because its switchable polar pattern
+    // is unique in this list, not because of its older 16-bit conversion".
+    'Blue Yeti USB Microphone': 8.7,
+  },
+
+  // --- Montaje de monitores ---
+  // Conclusion: "the Yamaha HS8 tells the truth down to 38 Hz" — abre la
+  // cadena. Los soportes y el tratamiento son el escalon siguiente.
+  'monitor-setup': {
+    // Veredicto: "Start with the Yamaha HS8" — el punto de partida.
+    'Yamaha HS8': 9.8,
+    // Conclusion: "Lift either on K&M 26722" — el soporte nombrado.
+    'K&M 26722 Monitor Stands (Each)': 9.6,
+    // Conclusion: "keeps translating when the desk must hug the wall".
+    'Focal Alpha 65 Evo': 9.5,
+    // Conclusion: "decouple on the desk with the IsoAcoustics ISO-200".
+    'IsoAcoustics ISO-200 (Pair)': 9.4,
+    // Conclusion: "Then measure: SoundID Reference with its calibrated mic".
+    'Sonarworks SoundID Reference': 9.3,
+    // Conclusion: "the $79 MiniDSP UMIK-1 with REW" como alternativa.
+    'MiniDSP UMIK-1': 9.2,
+    // Conclusion: "is sticking to SAM-only territory" — con limitacion.
+    'Genelec GLM Kit': 8.9,
+    // Conclusion: "solves decoupling for $39.99".
+    'Auralex MoPADs (4-Pack)': 8.9,
+    // Conclusion: "carries the heavy iron at $599.99" — el mas caro.
+    'Ultimate Support MS-100 (Pair)': 8.8,
   },
 };
