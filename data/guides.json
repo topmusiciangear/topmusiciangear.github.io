@@ -66374,7 +66374,9 @@
         "heading_es": "¿Qué es el clipping digital?",
         "content": "<p><strong>Digital clipping occurs when audio signal exceeds the maximum level the converter can handle.</strong> The waveform flattens at the peaks and information is lost. That harsh sound cannot be removed later — no plugin can reconstruct the lost transients.</p><p>The Scarlett 2i2 uses a halo ring as its indicator: green means a clean signal, yellow means you're approaching the limit, red means clipping is happening. The most common mistake is thinking the meter needs to hit the top to get a good signal. At 24-bit recording, you have roughly 144 dB of dynamic range. You don't need to get anywhere near 0 dB for good quality.</p><p>The goal is to keep peaks between -6 dB and -3 dB. That leaves enough headroom to avoid clipping while preserving full format resolution. If the ring turns red on the loudest moments, the gain is too high. For more on choosing an interface, see <a href=\"/guides/best-interface.html\" class=\"guide-link-btn\">best audio interface guide</a></p>",
         "content_es": "<p><strong>El clipping digital ocurre cuando la señal de audio supera el nivel máximo que el convertidor puede manejar.</strong> La forma de onda se aplana en los picos y se pierde información. Ese sonido áspero no se puede eliminar después: ningún plugin reconstruye los transitorios perdidos.</p><p>La Scarlett 2i2 usa un anillo halo como indicador: verde: señal limpia; amarillo: indica que te estás acercando al límite; rojo: significa que ya hay clipping. El error más común es pensar que el medidor debe llegar al tope para tener buena señal. En grabación digital a 24 bits, tienes aproximadamente 144 dB de rango dinámico. No necesitas acercarte a 0 dB para tener calidad.</p><p>El objetivo es mantener los picos entre -6 dB y -3 dB. Eso deja margen suficiente para evitar clipping y conserva toda la resolución del formato. Si el anillo se pone rojo en los momentos más fuertes, la ganancia está demasiado alta. Para más información sobre interfaces, consulta nuestra <a href=\"/guides/best-interface_es.html\" class=\"guide-link-btn\">Mejor interfaz de audio: guía completa para grabación casera</a></p>",
-        "products": []
+        "products": [
+          15
+        ]
       },
       {
         "heading": "How to Set Gain Correctly on the Scarlett 2i2",
@@ -66416,7 +66418,9 @@
     "conclusion_es": "",
     "verdict": "",
     "verdict_es": "",
-    "featuredProducts": [],
+    "featuredProducts": [
+      15
+    ],
     "relatedGuides": [
       "apollo-vs-babyface",
       "scarlett-vs-motu",

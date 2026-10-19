@@ -5,5 +5,4 @@ cards.forEach((c, i) => {
   const pid = c.match(/data-pid="(\d+)"/);
   const title = c.match(/alt="([^"]+)"/);
   console.log('Card ' + (i+1) + ' pid=' + (pid ? pid[1] : 'none') + ' title=' + (title ? title[1] : 'none'));
-  console.log('  HTML start:', c.substring(0, 200));
 });
