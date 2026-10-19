@@ -956,6 +956,129 @@ module.exports = {
     'Audient ORIA Immersive Audio Interface': 9.2,
   },
 
+  // --- Samplers y fabricacion de beats ---
+  // Conclusion: "Choose your machine by workflow". El MPC XL es "the definitive
+  // centerpiece" y el EP-133 el que hace "quick sketches anywhere".
+  'best-samplers-drum-computers': {
+    // Conclusion: "the imposing MPC XL will be the definitive centerpiece".
+    'Akai Professional MPC XL': 9.8,
+    // Conclusion: "the MPC range" para producciones mas grandes.
+    'Akai MPC Live III': 9.5,
+    // Conclusion: "you need the Maschine+ ecosystem".
+    'Native Instruments Maschine+': 9.4,
+    // Conclusion: "The Digitakt II will reward analytical minds".
+    'Elektron Digitakt II': 9.3,
+    'Akai MPC One G2': 9.3,
+    // Conclusion: "the Key 37 Gen 2 will give wings to those who think through keys".
+    'Akai Professional MPC Key 37 Gen 2': 9.2,
+    // Conclusion: "live transitions and effects are your thing".
+    'Roland SP-404MKII': 9.1,
+    'Novation Circuit Rhythm': 9.1,
+    // Conclusion: "quick sketches anywhere" — el escalon de bolsillo.
+    'Teenage Engineering EP-133 K.O. II': 9.0,
+    'Roland AIRA Compact P-6': 8.9,
+  },
+
+  // --- Plugins de canal (emulacion analogica) ---
+  // Conclusion: "The Waves SSL G-Master Buss Compressor gives you the glue and
+  // punch of one of the most famous consoles".
+  'channel-strip-plugins': {
+    // Conclusion: "the glue and punch of one of the most famous consoles".
+    'Waves SSL G-Master Buss Compressor': 9.8,
+    // Conclusion: "UAD Ultimate 14 gives you the complete analog studio in your DAW".
+    'Universal Audio UAD Ultimate 14': 9.5,
+    // Conclusion: "gives you the surgical precision to fix problems".
+    'FabFilter Pro-Q 4': 9.4,
+    // Conclusion: "the officially licensed SSL channel strip".
+    'Brainworx bx_console SSL 4000 E': 9.2,
+    // Citados en la tabla sin salir en la conclusion.
+    'FabFilter Total Bundle': 9.1,
+    'Universal Audio 1176 Classic Limiter Collection': 9.0,
+  },
+
+  // --- Pedales de overdrive y distorsion ---
+  // Conclusion: "Start with the BD-2 for versatility, add the TS9 for that
+  // mid-boost magic, and grab the RAT when you need searing distortion".
+  'best-overdrive-distortion': {
+    // Conclusion: "the most responsive, touch-sensitive overdrive at a
+    // hard-to-beat price" — la recomendacion de apertura.
+    'Boss BD-2 Blues Driver': 9.8,
+    // Conclusion: "the classic tube screamer that every guitarist should own".
+    'Ibanez TS9 Tube Screamer': 9.6,
+    // Conclusion: "delivers legendary distortion that defined generations of rock".
+    'ProCo RAT 2': 9.4,
+    // Conclusion: "The OCD brings MOSFET feel".
+    'Fulltone OCD v2': 9.2,
+    // Conclusion: "the Tumnus adds Klon EQ".
+    'Wampler Tumnus Deluxe': 9.1,
+    // Conclusion: "the Morning Glory stays transparent".
+    'JHS Morning Glory V4': 9.0,
+    // Conclusion: "the M104 Distortion+ nails 70s crunch".
+    'MXR M104 Distortion+': 8.9,
+    // Conclusion: "the BD-2W refines the Blues Driver" — el mas caro.
+    'Boss BD-2W Blues Driver Waza Craft': 8.8,
+    // Citado en la tabla sin salir en el veredicto ni la conclusion.
+    'MXR Phase 95': 8.7,
+  },
+
+  // --- Pedales de loop ---
+  // Conclusion: "Start with the Ditto learn the basics, then upgrade to the RC-5
+  // for full creative control ... while the RC-600 tops the pro range".
+  'best-looper-pedals': {
+    // Conclusion: "the simplest, best-selling looper" — el punto de entrada.
+    'TC Electronic Ditto Looper': 9.8,
+    // Conclusion: "the most powerful compact looper with rhythms, memory and MIDI sync".
+    'Boss RC-5 Loop Station': 9.7,
+    // Conclusion: "the RC-500 adds a second track and mic input".
+    'Boss RC-500 Loop Station': 9.5,
+    // Conclusion: "the RC-600 tops the pro range" — el mas caro.
+    'Boss RC-600 Loop Station': 9.4,
+    // Conclusion: "the X4 doubles loops in stereo".
+    'TC Electronic Ditto X4 Looper': 9.2,
+    // Conclusion: "the 1440 multiplies stereo memories".
+    'Electro-Harmonix 1440 Stereo Looper': 9.1,
+    // Conclusion: "the 720 simplifies stereo".
+    'Electro-Harmonix 720 Stereo Looper': 9.0,
+    // Conclusion: "shrinks 6 hi-fi minutes into a mini box".
+    'MXR M303 Clone Looper': 8.9,
+  },
+
+  // --- Pedales multi-efectos ---
+  // Conclusion: "Start with the GX-1 or ME-90 to learn, then step up to the Flex
+  // Prime or HX Stomp". El HX Stomp es "the pro multi-effects".
+  'best-multi-effects-pedals': {
+    // Conclusion: "the pro multi-effects ... flagship Helix tone in a compact box".
+    'Line 6 Helix HX Stomp': 9.8,
+    // Conclusion: "the ME-90 and Flex Prime lead as the best direct-workflow
+    // live options".
+    'HeadRush Flex Prime': 9.5,
+    'Boss ME-90': 9.4,
+    // Conclusion: "bigger screens, capture workflows and workstation features".
+    'Neural DSP Quad Cortex': 9.3,
+    'Boss GT-1000CORE': 9.2,
+    'Zoom G11': 9.1,
+    'Mooer GE300': 9.0,
+    // Conclusion: "the GX-1 rules as the most efficient budget portable".
+    'Boss GX-1': 8.9,
+  },
+
+  // --- Plugins de restauracion de audio ---
+  // Conclusion: "RX 12 is the industry standard for spectral repair ... For most
+  // engineers, a combination of RX 12 ... and Acon Restoration Suite 2 ... covers
+  // 90% of real-world problems".
+  'best-audio-repair-plugins': {
+    // Conclusion: "the industry standard for spectral repair".
+    'iZotope RX 12 Standard': 9.8,
+    // Conclusion: "covers the basics at a budget price".
+    'Acon Digital Acon Restoration Suite 2': 9.5,
+    // Conclusion: "Sonible smart:deess provides precise AI-powered de-essing".
+    'Sonible smart:deess': 9.3,
+    // Conclusion: "Zynaptiq Unveil rescues live recordings from bad rooms".
+    'Zynaptiq Unveil': 9.2,
+    // Conclusion: "tames resonances that traditional tools cannot touch".
+    'Baby Audio Smooth Operator Pro': 9.1,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
