@@ -732,6 +732,230 @@ module.exports = {
     'NUGEN Audio ISL 2st': 8.7,
   },
 
+  // --- In-ear monitors para escenario y estudio ---
+  // Conclusion: "the Shure SE846 Gen 2 remains the reference with its quad-BA
+  // drivers and interchangeable nozzles". El veredicto menciona el SE215 Pro
+  // con cable como opcion economica, pero no esta en la tabla.
+  'best-in-ear-monitors': {
+    // Conclusion: "the reference" con quad-BA y boquillas intercambiables.
+    'Shure SE846 Gen 2': 9.8,
+    // Conclusion: sistemas inalambricos con "reliable RF performance".
+    'Sennheiser EW IEM G4 Stereo Wireless System': 9.5,
+    'Sennheiser ew IEM G4-TWIN-E': 9.3,
+    'Sennheiser XSW IEM Wireless System': 9.2,
+    // Conclusion: la opcion inalambrica economica.
+    'Xvive U4 Wireless In-Ear Monitor System': 9.1,
+    'Xvive U4R4 Wireless IEM System (4 Receivers)': 9.0,
+    'Phenyx Pro PTM-10 UHF Stereo IEM System': 8.9,
+    // En la tabla pero sin mencion en veredicto ni conclusion.
+    'Sennheiser IE 900': 8.8,
+  },
+
+  // --- Sistemas IEM inalambricos ---
+  // Conclusion: "Touring professionals should own the Sennheiser EW IEM G4;
+  // working bands get the best balance from the Shure PSM 300 twin pack".
+  'best-wireless-iems': {
+    // Conclusion: "Touring professionals should own" el EW IEM G4.
+    'Sennheiser EW IEM G4 Stereo Wireless System': 9.8,
+    // Conclusion: "working bands get the best balance from the PSM 300 twin pack".
+    'Shure PSM300': 9.6,
+    // Conclusion: "Duos save with the G4-TWIN".
+    'Sennheiser ew IEM G4-TWIN-E': 9.4,
+    // Conclusion: "whole bands with the U4R4".
+    'Xvive U4R4 Wireless IEM System (4 Receivers)': 9.3,
+    // Conclusion: "expanding line-check rigs grow on the XSW IEM".
+    'Sennheiser XSW IEM Wireless System': 9.2,
+    // Conclusion: "Small budgets transform overnight with the Xvive U4".
+    'Xvive U4 Wireless In-Ear Monitor System': 9.1,
+    // Conclusion: "stereo on a shoestring means the Phenyx PTM-10".
+    'Phenyx Pro PTM-10 UHF Stereo IEM System': 8.7,
+  },
+
+  // --- Bajo Fender por genero ---
+  // Conclusion: el Player Precision "drives rock, punk and Motown"; el American
+  // Pro II Precision es para "premium country, blues and classic rock"; el
+  // American Ultra II esta "above that tier".
+  'fender-bass-guide': {
+    // Conclusion: "Above that tier", con P/J activo para "one instrument for
+    // every room".
+    'Fender American Ultra II Precision Bass': 9.8,
+    // Conclusion: "the go-to choice for Latin music, fusion and soul".
+    'Fender American Professional II Jazz Bass': 9.5,
+    // Conclusion: "premium country, blues and classic rock" con V-Mod II.
+    'Fender American Professional II Precision Bass': 9.4,
+    // Conclusion: "The Player Precision Bass drives rock, punk and Motown".
+    'Fender Player II Precision Bass': 9.3,
+    // Conclusion: "The Player Jazz Bass delivers bright, articulate tone".
+    'Fender Player II Jazz Bass': 9.3,
+    // Conclusion: "recognisably Fender-family tone for a fraction of the money".
+    'Squier Classic Vibe \'60s Jazz Bass': 9.1,
+    'Squier Affinity Series Precision Bass PJ': 9.0,
+  },
+
+  // --- Amplis de bajo para ensayo en casa ---
+  // Conclusion: "The Fender Rumble 40 V3 is the best all-round bass practice
+  // combo" con XLR directo para grabar.
+  'best-bass-practice-amps': {
+    // Conclusion: "the best all-round bass practice combo".
+    'Fender Rumble 40 V3': 9.8,
+    // Conclusion: "the portable smart pick with battery power and ToneCloud".
+    'Positive Grid Spark MINI': 9.5,
+    // Conclusion: "the desktop modeling amp" con 30 W estereo.
+    'Yamaha THR30II': 9.3,
+    // Conclusion: "For budget analog tone, the Orange Crush Bass 25 is unbeatable".
+    'Orange Crush Bass 25': 9.2,
+    // Conclusion: "the Boss WAZA-AIR Bass puts a full bass rig inside your headphones".
+    'Boss WAZA-AIR Bass': 9.1,
+    // Conclusion: "the Darkglass DG210A stands alone" — el mas caro.
+    'Darkglass DG210A': 9.0,
+  },
+
+  // --- Amplis de bajo para cada jugador ---
+  // Conclusion: "The Ampeg RB-210 is the complete Ampeg combo", el Rumble 500
+  // es "the lightweight portable standard" y el Markbass "the iconic pro combo".
+  'best-bass-amps': {
+    // Conclusion: "the iconic pro combo if lightweight premium tone is your priority".
+    'Markbass Mini CMD 121P V': 9.8,
+    // Conclusion: "The Ampeg RB-210 is the complete Ampeg combo".
+    'Ampeg Rocket Bass RB-210': 9.7,
+    // Conclusion: "the modern pro choice for massive, cab-ready low end".
+    'Darkglass DG210A Microtubes 500': 9.5,
+    // Conclusion: "the lightweight portable standard that every gigging bassist
+    // should consider".
+    'Fender Rumble 500 V3': 9.4,
+    // Conclusion: "the bedroom-to-stage standard at $270" — la entrada.
+    'Fender Rumble 40 V3': 9.2,
+    // Conclusion: "a 60W modeling combo with Boss effects".
+    'Boss Katana-110 Bass': 9.1,
+    // Conclusion: "the value analog pick ... cuts through any mix".
+    'Orange Crush Bass 50': 8.9,
+  },
+
+  // --- Amplis de ensayo para casa ---
+  // Conclusion: "The Fender Champion II 25 is the best beginner amp. The Boss
+  // Katana 50 Gen 3 is the most versatile ... the Katana 50 is the sweet spot".
+  'best-practice-amps': {
+    // Conclusion: "the Katana 50 is the sweet spot—it grows with you".
+    'Boss Katana 50 Gen 3': 9.8,
+    // Conclusion: "The Fender Champion II 25 is the best beginner amp".
+    'Fender Champion II 25': 9.6,
+    // Conclusion: "The Orange Crush 35RT is the rock player's choice".
+    'Orange Crush 35RT': 9.4,
+    // Conclusion: "If you want desktop tone the THR10II is unbeatable".
+    'Yamaha THR10II': 9.2,
+    // Conclusion: "the Spark 2 brings app-based smart jamming".
+    'Positive Grid Spark 2': 9.1,
+    // Conclusion: "the Waza-Air nails silent wireless practice".
+    'Boss Waza-Air': 9.0,
+  },
+
+  // --- Microfonos inalambricos para escenario ---
+  // Conclusion: "the Shure BLX288/PG58 is the perfect balance of price and
+  // performance" y el EW-D Dual es "the gold standard" digital.
+  'stage-wireless': {
+    // Conclusion: "if you need absolute best digital performance, the EW-D Dual
+    // is the gold standard".
+    'Sennheiser EW-D Dual': 9.8,
+    // Conclusion: "the Shure BLX288/PG58 is the perfect balance".
+    'Shure BLX288/PG58': 9.6,
+    // Conclusion: "For touring professionals, the EW 100 G4-935 is the reliable choice".
+    'Sennheiser EW 100 G4-935': 9.4,
+    // Conclusion: "If budget is tight, the EW-D 835-S delivers great value".
+    'Sennheiser EW-D 835-S Vocal Set': 9.1,
+    // Citado en la tabla sin mencion en veredicto ni conclusion.
+    'Shure BLX24R/SM58 Wireless': 8.9,
+  },
+
+  // --- Cunas de monitor activas ---
+  // Conclusion: "The Electro-Voice PXM-12MP is the best all-round wedge for
+  // most working bands ... For a working rig, the PXM-12MP covers most needs".
+  'stage-wedges': {
+    // Conclusion: "the best all-round wedge for most working bands".
+    'Electro-Voice PXM-12MP': 9.8,
+    // Conclusion: "the power pick for loud stages and demanding monitoring".
+    'RCF NX 912-SMA': 9.6,
+    // Conclusion: "the balanced value choice with serious DSP".
+    'Yamaha DHR12M': 9.4,
+    // Conclusion: "the budget wedge that still sounds full and clear".
+    'LD Systems MON 12 A G3': 9.2,
+    // Conclusion: "the value-powered pick" con 1100 W y ULTRANET.
+    'Turbosound Flashline TFX122M-AN Stage Monitor': 9.1,
+  },
+
+  // --- Sintetizadores para produccion ---
+  // Conclusion: "The Yamaha Montage M8x is the ultimate workstation for
+  // professionals who need everything in one instrument".
+  'best-synthesizers': {
+    // Conclusion: "the ultimate workstation" — el mas caro con diferencia.
+    'Yamaha Montage M8x': 9.8,
+    // Conclusion: "the definitive bass and lead machine with that iconic Moog sound".
+    'Moog Subsequent 37': 9.6,
+    // Conclusion: "the best affordable analog synth for producers".
+    'Korg Minilogue XD': 9.4,
+    // Mencionados en la tabla sin llegar a la conclusion.
+    'Sequential OB-6 Keyboard': 9.2,
+    'Arturia MicroFreak': 9.1,
+    'ASM Hydrasynth Keyboard': 9.0,
+    'Behringer DeepMind 12': 8.9,
+    'Sequential Take 5': 8.7,
+  },
+
+  // --- Caja de ritmos y grooveboxes ---
+  // Conclusion: tres misiones. "Digitakt II, Syntakt and Perkons HD-01 open the
+  // door to the deepest sound design"; el escalon medio es "the definitive work
+  // tools".
+  'best-drum-machine': {
+    // Conclusion: "the deepest sound design ... massive stereo sampling labs".
+    'Elektron Digitakt II': 9.8,
+    // Conclusion: "the mighty" y "colossal menu-free control panels".
+    'Erica Synths Perkons HD-01': 9.5,
+    // Conclusion: "advanced hybrid synthesis".
+    'Elektron Syntakt': 9.4,
+    // Conclusion: "the definitive work tools" para el escenario.
+    'Roland TR-8S': 9.2,
+    'Akai MPC One G2': 9.2,
+    'Arturia DrumBrute Impact': 9.1,
+    // Conclusion: "Travel light" — el escalon economico.
+    'Novation Circuit Tracks': 9.0,
+    'Roland AIRA Compact T-8': 8.9,
+  },
+
+  // --- Interfaces portatiles ---
+  // Conclusion: "The Focusrite Scarlett 2i2 and Universal Audio Volt 2 are the
+  // best all-around portable interfaces. The Audient EVO 4 is the best budget option".
+  'portable-interfaces': {
+    // Conclusion: "the best all-around portable interfaces" (abre el reparto).
+    'Focusrite Scarlett 2i2 4th Gen': 9.8,
+    'Universal Audio Volt 2': 9.6,
+    // Conclusion: "the best budget option" al precio mas bajo del grupo.
+    'Audient EVO 4': 9.3,
+    // Citadas en la tabla como alternativas de la misma categoria.
+    'RME Babyface Pro FS': 9.2,
+    'Arturia MiniFuse 2 OTG': 9.1,
+    'Audient iD14 MkII': 9.0,
+    'SSL 2+ MKII': 8.9,
+    'Universal Audio Volt 276': 8.8,
+    'MOTU M2': 8.7,
+  },
+
+  // --- Interfaces premium para estudio ---
+  // Conclusion: "the six here all belong in a permanent rack — the question is
+  // which job you buy them for". No hay un ganador unico: cada una gana un uso.
+  'premium-interfaces': {
+    // Conclusion: "Apollo x8p Gen 2 wins tracking when you live in UAD Unison".
+    'Universal Audio Apollo x8p Gen 2': 9.7,
+    // Conclusion: "RME Fireface UFX III wins uptime when you tour ... MADI".
+    'RME Fireface UFX III': 9.6,
+    // Conclusion: "Neumann MT 48 (U) wins the desktop" — el mas barato.
+    'Neumann MT 48 (U)': 9.5,
+    // Conclusion: "Audient Horizon 8P wins console-character tracking".
+    'Audient Horizon 8P': 9.4,
+    // Conclusion: "Orion Studio Synergy Core wins connectivity-per-pound".
+    'Antelope Orion Studio Synergy Core': 9.3,
+    // Conclusion: "Audient ORIA wins immersive when you build in Atmos".
+    'Audient ORIA Immersive Audio Interface': 9.2,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".

@@ -27,4 +27,5 @@ module.exports = {
   'Yamaha YDP-166': 'Yamaha Arius YDP-166',
   'Yamaha CLP-835': 'Yamaha Clavinova CLP-835',
   'EW IEM G4': 'Sennheiser EW IEM G4 Stereo Wireless System',
+  'Audient ORIA': 'Audient ORIA Immersive Audio Interface',
 };
