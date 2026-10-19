@@ -189,6 +189,7 @@ const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'),
 const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
 const reviews = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'reviews.json'), 'utf8').replace(/^\ufeff/, ''));
 eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
+eval(fs.readFileSync(path.join(dir, 'js', 'guide-scores.js'), 'utf8').replace(/^\ufeff/, ''));
 
 // Pre-bake bold first sentence into guides.json so SPA gets bold regardless of app.js version
 guides.forEach(g => {
@@ -407,6 +408,8 @@ function productRatingLine(p, lang) {
 }
 
 let CURRENT_GUIDE_CAT = null;
+let CURRENT_GUIDE_ID = null;
+let CURRENT_LANG = 'en';
 
 function storeChips(p, lang) {
   lang = lang || 'en';
@@ -6226,10 +6229,33 @@ function shopButtonsTest(p, lang) {
 }
 
 
+// La nota depende de la GUIA: un mismo producto puede ser el flagship en una
+// comparativa y una alternativa de relegada en otra. La nota por guia (en
+// GUIDE_SCORES, generada desde temp/score_overrides.js) manda; si la guia no
+// tiene nota propia para ese producto se usa la global de products.json.
+function guideScore(p, guideId) {
+  if (guideId && GUIDE_SCORES && GUIDE_SCORES[guideId]) {
+    var g = GUIDE_SCORES[guideId];
+    var unitLabel = p.unit === 'each' ? (CURRENT_LANG === 'es' ? ' (cada uno)' : ' (each)') : p.unit === 'pair' ? (CURRENT_LANG === 'es' ? ' (par)' : ' (pair)') : p.unit === 'headset' ? (CURRENT_LANG === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+    var base = (CURRENT_LANG === 'es' && p.title_es ? p.title_es : p.title);
+    var full = base + unitLabel;
+    var s = g[full];
+    if (s === undefined) s = g[base];
+    if (s === undefined && unitLabel) s = g[full.replace(/ \(.*\)$/, '')];
+    if (s === undefined) {
+      var nk = base.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      s = g['#' + nk];
+    }
+    if (s !== undefined && s !== null) return s;
+  }
+  return p.score;
+}
+
 function scoreBadge(p, lang) {
-  if (p.score === undefined || p.score === null) return '';
-  var score = Number(p.score).toFixed(1);
-  var pct = (Number(p.score) - 5) / 5 * 100;
+  var gs = guideScore(p, CURRENT_GUIDE_ID);
+  if (gs === undefined || gs === null) return '';
+  var score = Number(gs).toFixed(1);
+  var pct = (Number(gs) - 5) / 5 * 100;
   if (pct < 0) pct = 0;
   if (pct > 100) pct = 100;
   var isEs = lang === 'es';
@@ -6579,6 +6605,8 @@ function highlightProductNames(text, productNames) {
 
 function buildGuidePage(guide, lang, idx) {
   CURRENT_GUIDE_CAT = guide.category;
+  CURRENT_GUIDE_ID = guide.id;
+  CURRENT_LANG = lang;
   const isEs = lang === 'es';
   const isVs = /-vs-/i.test(guide.id);
   const title = Y((isEs ? guide.titleTag_es : guide.titleTag) || (isEs && guide.title_es ? guide.title_es : guide.title));

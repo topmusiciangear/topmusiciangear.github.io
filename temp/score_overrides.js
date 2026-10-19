@@ -666,6 +666,72 @@ module.exports = {
     'Audio-Technica ATH-M20x': 8.7,
   },
 
+  // --- Pedales de efectos para guitarra ---
+  // Conclusion: "start by setting the essential pillars: a precise tuner ... a
+  // dynamic overdrive ... integrated analog modulation ... a versatile
+  // time-based delay".
+  'guitar-pedals': {
+    // Conclusion: "start by setting the essential pillars: a precise tuner".
+    'Boss TU-3 Chromatic Tuner': 9.8,
+    // Conclusion: "the versatile time-based delay" entre los pilares.
+    'Boss DD-8 Digital Delay': 9.6,
+    // Conclusion: "a dynamic overdrive to push your amp" y "integrated analog
+    // modulation" (Boss SD-1 y CE-2W): la conclusion los nombra como ejemplo
+    // de los pilares, pero ninguno de los dos esta en el catalogo.
+    // Veredicto: "the definitive studio-quality ambient brain".
+    'Strymon BigSky MX': 9.3,
+    // Conclusion: "the definitive drive push" segun el veredicto.
+    'Ibanez TS9 Tube Screamer': 9.3,
+    // Conclusion: "add spatial reverbs".
+    'TC Electronic Hall of Fame 2': 9.2,
+    // Conclusion: "mechanical expression pedals like the wah".
+    'Dunlop GCB95 Crybaby Wah': 9.1,
+    // Veredicto: "MXR and EHX phasers inject psychedelic modulation".
+    'MXR Phase 95': 9.0,
+    'Electro-Harmonix Nano Small Stone': 8.9,
+  },
+
+  // --- Plugins de efectos creativos ---
+  // Conclusion: "Start with the Soundtoys 5.5 Bundle" y "Add Eventide Blackhole
+  // for the most creative reverb ever made".
+  'fx-plugins': {
+    // Conclusion: "the bundle that matters ... the one purchase you won't regret".
+    'Soundtoys 5.5 Bundle': 9.8,
+    // Conclusion: "the most creative reverb ever made".
+    'Eventide Blackhole': 9.6,
+    // Conclusion: anade "character, movement and personality".
+    'Cableguys ShaperBox 3': 9.4,
+    'XLN Audio RC-20 Retro Color': 9.3,
+    'Baby Audio Transit 2': 9.2,
+    'Devious Machines Infiltrator 2': 9.1,
+    'Cableguys HalfTime': 9.0,
+    'Excite Audio Lifeline Expanse': 9.0,
+    'iZotope Trash': 8.9,
+    'Excite Audio Motion: Harmonic': 8.9,
+    'D16 Group Repeater Delay': 8.8,
+    'Arturia Chorus JUN-6': 8.7,
+    'Baby Audio Spaced Out': 8.7,
+  },
+
+  // --- Plugins de mezcla y masterizacion ---
+  // Conclusion: "Start with Ozone 12 Advanced for mastering that sounds
+  // professional out of the gate, and add the FabFilter Total Bundle".
+  'mixing-plugins': {
+    // Conclusion: "Start with Ozone 12 Advanced" — abre la cadena.
+    'iZotope Ozone 12 Advanced': 9.8,
+    // Conclusion: "the most advanced mixing tools available".
+    'FabFilter Total Bundle': 9.6,
+    // Conclusion: "adds the energy of the most famous analog compressor".
+    'Universal Audio 1176 Classic Limiter Collection': 9.5,
+    // Conclusion: "three focused tools" para cerrar la cadena.
+    'Brainworx bx_clipper': 9.3,
+    'Baby Audio Smooth Operator Pro': 9.2,
+    'Mastering The Mix REFERENCE 3': 9.1,
+    // Veredicto: "covers all EQ duties for a fraction of the bundle".
+    'FabFilter Pro-Q 4': 9.0,
+    'NUGEN Audio ISL 2st': 8.7,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".

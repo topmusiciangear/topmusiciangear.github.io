@@ -5819,10 +5819,33 @@ function shopButtonsTest(p, lang) {
 }
 
 
+// La nota depende de la GUIA: un mismo producto puede ser el flagship en una
+// comparativa y una alternativa de relegada en otra. La nota por guia (en
+// GUIDE_SCORES, generada desde temp/score_overrides.js) manda; si la guia no
+// tiene nota propia para ese producto se usa la global de products.json.
+function guideScore(p, guideId) {
+  if (guideId && GUIDE_SCORES && GUIDE_SCORES[guideId]) {
+    var g = GUIDE_SCORES[guideId];
+    var unitLabel = p.unit === 'each' ? (CURRENT_LANG === 'es' ? ' (cada uno)' : ' (each)') : p.unit === 'pair' ? (CURRENT_LANG === 'es' ? ' (par)' : ' (pair)') : p.unit === 'headset' ? (CURRENT_LANG === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+    var base = (CURRENT_LANG === 'es' && p.title_es ? p.title_es : p.title);
+    var full = base + unitLabel;
+    var s = g[full];
+    if (s === undefined) s = g[base];
+    if (s === undefined && unitLabel) s = g[full.replace(/ \(.*\)$/, '')];
+    if (s === undefined) {
+      var nk = base.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      s = g['#' + nk];
+    }
+    if (s !== undefined && s !== null) return s;
+  }
+  return p.score;
+}
+
 function scoreBadge(p, lang) {
-  if (p.score === undefined || p.score === null) return '';
-  var score = Number(p.score).toFixed(1);
-  var pct = (Number(p.score) - 5) / 5 * 100;
+  var gs = guideScore(p, CURRENT_GUIDE_ID);
+  if (gs === undefined || gs === null) return '';
+  var score = Number(gs).toFixed(1);
+  var pct = (Number(gs) - 5) / 5 * 100;
   if (pct < 0) pct = 0;
   if (pct > 100) pct = 100;
   var isEs = lang === 'es';
@@ -6310,6 +6333,10 @@ function shopButtonsTest(p, lang) {
 }
 
 
+// La nota depende de la GUIA: un mismo producto puede ser el flagship en una
+// comparativa y una alternativa de relegada en otra. La nota por guia (en
+// GUIDE_SCORES, generada desde temp/score_overrides.js) manda; si la guia no
+// tiene nota propia para ese producto se usa la global de products.json.
 
 window.tmgStoreButtons = function(p) {
   var lang = document.documentElement.lang || 'en';
