@@ -2349,16 +2349,22 @@ module.exports = {
   // Conclusion: "For budget mixing, the DT 990 Pro is the best choice ... If you
   // can invest more, the HD 490 Pro Plus offers modern reference-level neutrality".
   'best-headphones-for-mixing': {
-    // Conclusion: "modern reference-level neutrality with real low end".
+    // Gama de Referencia Profesional: el tope de la guia (co-disenado con Manny Marroquin).
+    'Audeze MM-500': 9.8,
+    // Conclusion: "modern reference-level neutrality" — el estandar moderno.
     'Sennheiser HD 490 Pro Plus': 9.7,
-    // Conclusion: "the sweet-spot flat reference" entre el DT 990 y el flagship.
-    'Sennheiser HD 600': 9.3,
-    // Conclusion: "the most versatile option for producers" — el mas barato del grupo alto.
-    'Audio-Technica ATH-M50x': 9.2,
-    // Conclusion: "For closed-back mixing in noisy environments, the DT 770 Pro is ideal".
-    'Beyerdynamic DT 770 Pro': 9.1,
-    // Conclusion: "For budget mixing ... wide soundstage, excellent detail".
-    'Beyerdynamic DT 990 Pro': 9.0,
+    // Neumann ya esta en el catalogo con foto y precios (open-headphones).
+    'Neumann NDH 30': 9.6,
+    // Conclusion: "the sweet-spot flat reference".
+    'Sennheiser HD 600': 9.5,
+    // Conclusion: "the best choice" para mezcla de presupuesto.
+    'Beyerdynamic DT 990 Pro': 9.3,
+    // Conclusion: mejor cerrado, "the value in this guide by a distance".
+    'Beyerdynamic DT 770 Pro': 9.0,
+    // Conclusion: "the most versatile option".
+    'Audio-Technica ATH-M50x': 8.8,
+    // Conclusion: "The honest limit for mixing"; fuera de la conclusion.
+    'Sony MDR-7506': 8.7,
   },
 
   // --- VST de piano y teclado ---

@@ -83,6 +83,12 @@ const SHOP_ROW_FONT = "font-weight:800";
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 
 const TEST_SHOP_BTN = {
+  1050: {
+    prices: {
+      gear4music: "£1,533.00",
+      musicstore: "€2,090.00"
+    }
+  },
   1049: {
     prices: {
       gear4music: "£100.00",
