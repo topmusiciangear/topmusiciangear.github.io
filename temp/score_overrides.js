@@ -2249,6 +2249,176 @@ module.exports = {
     'Taylor GS Mini': 9.4,
   },
 
+  // --- Modeladores de amplificador ---
+  // Conclusion: "The Line 6 HX Stomp is my top pick for the best amp modeler
+  // overall ... Buy the HX Stomp if you want one box for life".
+  'best-amp-modelers': {
+    // Conclusion: "the best amp modeler overall ... one box for life".
+    'Line 6 Helix HX Stomp': 9.8,
+    // Conclusion: "the best touchscreen experience".
+    'HeadRush Flex Prime': 9.4,
+    // Conclusion: "the best portable HX-powered stage rig".
+    'Line 6 POD Go': 9.2,
+    // Conclusion: "For the best value floor rig, the Boss GX-1 is hard to beat" — mas barato.
+    'Boss GX-1': 9.1,
+    // Conclusion: "the cheapest gateway into capture-level amp realism".
+    'IK Multimedia TONEX ONE+': 8.9,
+  },
+
+  // --- Plugins de guitarra y amplis ---
+  // Conclusion: "For most home recordists, IK Multimedia AmpliTube 5 at current
+  // sale prices is the best starting point".
+  'best-guitar-plugins': {
+    // Conclusion: "offers the most gear and presets for the price".
+    'IK Multimedia AmpliTube 5': 9.8,
+    // Conclusion: "the modern pick for high-gain and full-rig recording".
+    'Two Notes Audio Engineering GENOME': 9.4,
+    // Conclusion: "delivers legendary rock room tone" — con promo de PB.
+    'Universal Audio UAD Sound City Studios': 9.2,
+    // Conclusion: "delivers licensed Plexi and JCM tones".
+    'Softube Amp Room Marshall Suite': 9.1,
+    // Conclusion: "nails classic British crunch on a budget" — el mas barato.
+    'Kiive Audio Lunchbox Amp Sim': 8.9,
+  },
+
+  // --- Microfonos de cinta ---
+  // Conclusion: "For guitar amp recording, the R-121 remains the one to beat ...
+  // For drum overheads and orchestral work, the Coles 4038 is a timeless classic."
+  'best-ribbon-mics': {
+    // Conclusion: "the industry-standard" y "the one to beat".
+    'Royer R-121': 9.8,
+    // Conclusion: "a timeless classic" para percusion y cuerdas.
+    'Coles 4038': 9.4,
+    // Conclusion: "the only hypercardioid ribbon in this group".
+    'Beyerdynamic M 160': 9.2,
+    // Conclusion: "bridges the gap with active convenience".
+    'sE Electronics Voodoo VR2': 9.1,
+    // Conclusion: "extraordinary value" — el mas barato por mucho.
+    'MXL R144': 8.9,
+  },
+
+  // --- Resolver el clipping de la Scarlett ---
+  // Conclusion: "Clipping on the Scarlett 2i2 is solved by setting gain
+  // correctly ... Only upgrade the interface if your mic genuinely needs more
+  // clean gain". La Scarlett es la protagonista de la guia.
+  'fix-clipping-scarlett': {
+    // Conclusion: "delivers professional results in most home studio situations".
+    'Focusrite Scarlett 2i2 4th Gen': 9.8,
+    // Conclusion: la solucion de ganancia para microfonos de salida baja.
+    'Shure SM7B': 9.4,
+    // Conclusion: la alternativa de previas de mayor ganancia.
+    'Audient iD14 MkII': 9.2,
+    'Electro-Voice RE20': 9.0,
+    'Universal Audio Apollo Twin X Gen 2': 8.9,
+  },
+
+  // --- Sidechain y modulacion ritmica ---
+  // Conclusion: "Start with Cableguys ShaperBox 3 for the most versatile
+  // rhythmic modulation toolkit. Add HalfTime ... Infiltrator 2 is the
+  // multi-effect processor, while the Eventide H3000 delivers legendary delay".
+  'sidechain-modulation-plugins': {
+    // Conclusion: "the most versatile rhythmic modulation toolkit".
+    'Cableguys ShaperBox 3': 9.8,
+    // Conclusion: "the multi-effect processor" para efectos mas profundos.
+    'Devious Machines Infiltrator 2': 9.3,
+    // Conclusion: "delivers legendary delay modulation" — el mas caro.
+    'Eventide H3000 Band Delays MK II': 9.1,
+    // Conclusion: "the half-speed effect at a competitive price".
+    'Cableguys HalfTime': 9.0,
+    // Conclusion: "rounds out the collection with vintage analog warmth".
+    'Arturia Chorus JUN-6': 8.9,
+  },
+
+  // --- Plugins para beatmakers ---
+  // Conclusion: "Start with RC-20 Retro Color — it is the single most impactful
+  // plugin for beatmakers. Add Transit 2 for transitions, Scaler 3 for chord
+  // progressions, and Lifeline Expanse for spatial depth."
+  'beatmaker-plugins': {
+    // Conclusion: "the single most impactful plugin for beatmakers".
+    'XLN Audio RC-20 Retro Color': 9.8,
+    // Conclusion: "Add Transit 2 for transitions".
+    'Baby Audio Transit 2': 9.3,
+    // Conclusion: "Scaler 3 for chord progressions".
+    'Plugin Boutique Scaler 3': 9.2,
+    // Conclusion: "Lifeline Expanse for spatial depth".
+    'Excite Audio Lifeline Expanse': 9.1,
+    // Conclusion: "Repeater Delay adds the final rhythmic polish".
+    'D16 Group Repeater Delay': 9.0,
+    // Conclusion: "evolving distortion and filter movement".
+    'Excite Audio Motion: Harmonic': 8.9,
+  },
+
+  // --- Auriculares para mezclar y masterizar ---
+  // Conclusion: "For budget mixing, the DT 990 Pro is the best choice ... If you
+  // can invest more, the HD 490 Pro Plus offers modern reference-level neutrality".
+  'best-headphones-for-mixing': {
+    // Conclusion: "modern reference-level neutrality with real low end".
+    'Sennheiser HD 490 Pro Plus': 9.7,
+    // Conclusion: "the sweet-spot flat reference" entre el DT 990 y el flagship.
+    'Sennheiser HD 600': 9.3,
+    // Conclusion: "the most versatile option for producers" — el mas barato del grupo alto.
+    'Audio-Technica ATH-M50x': 9.2,
+    // Conclusion: "For closed-back mixing in noisy environments, the DT 770 Pro is ideal".
+    'Beyerdynamic DT 770 Pro': 9.1,
+    // Conclusion: "For budget mixing ... wide soundstage, excellent detail".
+    'Beyerdynamic DT 990 Pro': 9.0,
+  },
+
+  // --- VST de piano y teclado ---
+  // Conclusion: "MeldaProduction MeldwayGrand delivers true concert-grand
+  // realism ... Native Instruments Kontakt 8 is the platform that runs the best
+  // libraries ... For budget-focused producers, Addictive Keys is the smart choice."
+  'best-piano-keyboard-vsts': {
+    // Conclusion: "the platform that runs the best libraries".
+    'Native Instruments Kontakt 8': 9.7,
+    // Conclusion: "delivers true concert-grand realism" — el mas barato.
+    'MeldaProduction MeldwayGrand': 9.5,
+    // Conclusion: "covers vintage keyboards across every decade" — el alto.
+    'Arturia V Collection 11 Pro': 9.3,
+    // Conclusion: "delivers clean studio pianos at a fair price".
+    'XLN Audio Addictive Keys': 9.1,
+    // Conclusion: "morphs acoustic piano into synthesis for cinematic work".
+    'Arturia Augmented GRAND PIANO': 9.0,
+    // Conclusion: "captures intimate felt piano for film and ambient".
+    'Native Instruments Noire': 8.9,
+  },
+
+  // --- VST de sintetizadores ---
+  // Conclusion: "If you can only buy one, Arturia Pigments 7 offers the best
+  // balance of depth, ease, and versatility".
+  'best-synth-vsts': {
+    // Conclusion: "the best balance of depth, ease and versatility in 2026".
+    'Arturia Pigments 7': 9.8,
+    // Conclusion: "delivers true analog warmth".
+    'u-he Diva': 9.4,
+    // Conclusion: "rewards modular exploration".
+    'Kilohearts Phase Plant': 9.3,
+    // Conclusion: "powers EDM production at scale".
+    'Vengeance Sound VPS Avenger 2': 9.2,
+    // Conclusion: "defines trance and progressive".
+    'Reveal Sound Spire': 9.1,
+    // Conclusion: "provides modern aggressive sound" para bajos.
+    'Native Instruments Massive X': 9.0,
+  },
+
+  // --- Plugins de MIDI y teoria musical ---
+  // Conclusion: "For most producers, Scaler 3 is the best starting point
+  // because it bridges the gap between what you feel and what you can play."
+  'best-midi-theory-plugins': {
+    // Conclusion: "the best starting point ... the theory core".
+    'Scaler 3': 9.8,
+    // Conclusion: "turns MIDI loops into playable instruments".
+    'SongWish reMIDI 4': 9.4,
+    // Conclusion: "generates drum patterns with AI".
+    'Audiomodern Playbeat 4': 9.2,
+    // Conclusion: "builds grooves from loops".
+    'W.A. Production Loop Engine 3': 9.1,
+    // Conclusion: "writes generative melodies that stay in your scale".
+    'Audiomodern Riffer 4': 9.0,
+    // Conclusion: "turns mixed audio into MIDI in real time" — el mas caro.
+    'Zynaptiq PitchMap': 8.9,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
