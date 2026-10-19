@@ -263,4 +263,114 @@ module.exports = {
     'AKG K371': 8.9,
     'Audio-Technica ATH-M20x': 9.0,
   },
+
+  // --- Micros para instrumentos ---
+  // Conclusion: "There's no single best microphone". La guia fija una PAREJA
+  // base (SM57 + RE20, "your go-to pair") y luego especialistas por
+  // instrumento. La nota refleja ese papel, no un ranking global.
+  'best-instrument-mics': {
+    // Conclusion: "Buy the SM57 and the RE20 first" — la pareja base.
+    'Shure SM57': 9.8,
+    'Electro-Voice RE20': 9.7,
+    // Conclusion: "add an R-121 and a pair of Neumanns for guitars and acoustics".
+    'Royer R-121': 9.5,
+    'Neumann KM 184': 9.3,
+    // Conclusion: "an e604 for drums".
+    'Sennheiser e 604': 9.2,
+    // Conclusion: "a DPA 4099 for strings".
+    'DPA 4099 CORE': 9.2,
+    // Mencionados en el veredicto como inherentes al rango dinamico.
+    'Sennheiser MD 421 Kompakt': 9.1,
+    'Shure Beta 58A': 9.0,
+    'Shure Beta 52A': 8.9,
+    'Sennheiser e 906': 8.9,
+    'Austrian Audio OC818': 8.8,
+    'Audix D6': 8.8,
+    'Coles 4038': 8.7,
+    // Citado en la tabla sin rol asignado en la conclusion.
+    'Beyerdynamic M 201': 8.7,
+  },
+
+  // --- Micro para voz y grabacion domestica ---
+  // Conclusion: "Start with the category that matches what you record". El
+  // veredicto coloca el SM7B/SM7dB como dinamicos de referencia y la C414 y el
+  // TLM 102 como "premium step-ups" del condensador.
+  'best-microphone': {
+    // Veredicto: "the premium step-ups" de condensador.
+    'AKG C414 XLII': 9.7,
+    'Neumann TLM 102': 9.6,
+    // Veredicto: "the Shure SM7B and SM7dB own broadcast dynamics".
+    'Shure SM7B': 9.5,
+    'Shure SM7dB': 9.3,
+    // Conclusion: condensadores de caracter.
+    'Aston Microphones Origin': 9.1,
+    'Lewitt LCT 440 PURE': 9.1,
+    // Conclusion: "the Lewitt LCT 240 PRO and Audio-Technica AT2020 under $150".
+    'Lewitt LCT 240 PRO': 9.0,
+    'Rode NT1 5th Generation': 8.9,
+    'Rode NT1 Signature Series': 8.9,
+    // Conclusion: "The sE X1 R ribbon smooths harsh sources".
+    'sE Electronics X1 R': 8.8,
+    'Audio-Technica AT2020': 8.7,
+  },
+
+  // --- Monitores de estudio (guia general) ---
+  // Conclusion: "At the top, the Genelec 8351B is the coaxial endgame". El
+  // resto se ordena por el escalon que la propia guia describe: reference >
+  // detail/accuracy > valor > presupuesto.
+  'best-monitors': {
+    // Conclusion: "the coaxial endgame" (4.195 $).
+    'Genelec 8351B SAM 3-Way Coaxial Studio Monitor': 9.8,
+    // Veredicto: "Reference?" / Conclusion: "tunes itself to your room".
+    'Neumann KH 80 DSP': 9.6,
+    // Veredicto: "DSP correction?" y Conclusion: "reference sound fits in a
+    // 3-inch box" — referencia compacta.
+    'Genelec 8010A': 9.5,
+    // Conclusion: "reveals every transient" — el detalle de cinta.
+    'Adam Audio A7V': 9.4,
+    // Conclusion: "brings coaxial 3-way accuracy within reach".
+    'Kali Audio IN-8 V2': 9.3,
+    // Conclusion: "the honest reference".
+    'Yamaha HS8': 9.2,
+    // Conclusion: "the do-it-all DSP option".
+    'KRK Rokit 7 G5': 9.1,
+    // Conclusion: "the smartest value with boundary EQ".
+    'Kali Audio LP-6 V2': 9.0,
+    // Conclusion: el trío que resuelve el espacio.
+    'Kali Audio LP-UNF': 8.9,
+    'Kali Audio IN-UNF': 8.8,
+    'Kali Audio WS-6.2': 8.7,
+    // Conclusion: "leads the ultra-budget class".
+    'JBL 305P MkII': 8.7,
+  },
+
+  // --- Monitores para salas pequenas ---
+  // Conclusion: "the Genelec 8030C is the professional reference with the
+  // tightest tolerance" y el KH 80 "the most adjustable". El JBL 305P abre la
+  // guia como el mas preciso por pareja en salas pequenas.
+  'best-monitors-for-small-rooms': {
+    // Veredicto: "the professional reference with the tightest +-2 dB".
+    'Genelec 8030C': 9.8,
+    // Conclusion: "the most adjustable monitor here for room correction".
+    'Neumann KH 80 DSP': 9.6,
+    // Conclusion: "the reference compact for those who can pay for it".
+    'Genelec 8010A': 9.4,
+    // Conclusion: "the most powerful compact for serious mixing".
+    'iLoud MTM MKII': 9.2,
+    // Conclusion: "the backpack-sized reference".
+    'iLoud Micro Monitor Pro': 9.1,
+    // Conclusion: "ribbon-tweeter detail" en escritorio.
+    'ADAM Audio D3V': 9.0,
+    // Conclusion: "ribbon-tweeter detail at the most affordable price".
+    'ADAM Audio T5V': 8.9,
+    // Conclusion: "the honest midrange king" con ajuste de sala.
+    'Yamaha HS5': 8.9,
+    // Conclusion: "the best 6.5-inch pick ... for near-wall placement".
+    'Kali Audio LP-6 V2': 8.8,
+    'Kali Audio LP-UNF': 8.8,
+    // Conclusion: "the most accurate monitor per pair" en salas pequenas.
+    'JBL 305P MkII': 8.7,
+    'KRK Rokit 5 G5': 8.7,
+    'PreSonus Eris Studio 5': 8.7,
+  },
 };

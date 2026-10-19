@@ -29,14 +29,32 @@ function findProduct(name) {
 
 let applied = 0;
 const problems = [];
+const escribio = [];
 for (const [guideId, map] of Object.entries(overrides)) {
   for (const [name, score] of Object.entries(map)) {
     const p = findProduct(name);
     if (!p) { problems.push(guideId + ' -> "' + name + '" NO existe en products.json'); continue; }
     if (score < 8.7 || score > 9.8) { problems.push(guideId + ' -> ' + name + ' (' + score + ') fuera de rango 8.7-9.8'); continue; }
     p.score = score;
+    escribio.push({ id: p.id, title: p.title, score });
     applied++;
   }
+}
+
+// Comprobacion: si un producto fue escrito mas de una vez, gana la ULTIMA
+// asignacion. Sin esto, el orden de objeto de score_overrides.js manda.
+const porProducto = {};
+escribio.forEach(e => { porProducto[e.id] = e; });
+const colisiones = Object.values(porProducto).filter(e =>
+  escribio.filter(x => x.id === e.id).length > 1);
+if (colisiones.length) {
+  console.log('Productos puntuados en mas de una guia (gana la ultima): ' + colisiones.length);
+  colisiones.forEach(c => {
+    const todas = escribio.filter(x => x.id === c.id);
+    console.log('   id=' + c.id + ' "' + c.title + '": ' +
+      todas.map(t => t.score + '(' + (todas.findIndex(x => x === t)) + ')').join(' vs ') +
+      '  -> final ' + c.score);
+  });
 }
 
 const reviewed = new Set(Object.keys(overrides));
@@ -66,5 +84,6 @@ done.forEach(p => {
     .forEach(([n, s]) => console.log('   ' + s.toFixed(1) + '  ' + n));
 });
 
+fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
 fs.writeFileSync(B + 'data/products.json', JSON.stringify(products, null, 2), 'utf8');
 console.log('\ndata/products.json escrito.');
