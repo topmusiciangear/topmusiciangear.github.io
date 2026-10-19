@@ -2793,4 +2793,26 @@ module.exports = {
     // Conclusion: "carries the heavy iron at $599.99" — el mas caro.
     'Ultimate Support MS-100 (Pair)': 8.8,
   },
+
+  // --- Interfaces de audio economico ---
+  'budget-interfaces': {
+    // Veredicto: "the best budget audio interface under $300" — flagship de la guia.
+    'Audient iD14 MkII': 9.8,
+    // Conclusion: "the best-sounding interface in this roundup" — preamps SSL.
+    'SSL 2+ MKII': 9.6,
+    // Conclusion: "the best overall" — equilibrio prestaciones/precio.
+    'Focusrite Scarlett 2i2 4th Gen': 9.5,
+    // Conclusion: "the best for metering" — pantalla LCD y conversor.
+    'MOTU M2': 9.4,
+    // Conclusion: "the best for vintage vibe" — compresor 76 incluido.
+    'Universal Audio Volt 276': 9.2,
+    // Conclusion: "the best for simplicity" — plug and play total.
+    'Universal Audio Volt 2': 9.0,
+    // Conclusion: "the best for portability" — compacta y bus-powered.
+    'Arturia MiniFuse 2': 8.9,
+    // Conclusion: "the best for expandability" — 8 entradas ADAT.
+    'Behringer U-Phoria UMC1820': 8.8,
+    // Conclusion: "the best for beginners" — la mas barata con lo justo.
+    'Audient EVO 4': 8.7,
+  },
 };
