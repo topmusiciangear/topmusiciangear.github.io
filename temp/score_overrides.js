@@ -2419,6 +2419,297 @@ module.exports = {
     'Zynaptiq PitchMap': 8.9,
   },
 
+  // --- Cajas DI ---
+  // Veredicto y conclusion coinciden: "The Radial J48 is the best all-around
+  // active DI ... The Rupert Neve RNDI is the premium choice for tone".
+  'di-box': {
+    // Conclusion: "the premium choice for tone and headroom" — el alto.
+    'Rupert Neve Designs RNDI Active Direct Interface': 9.7,
+    // Conclusion: "the best all-around active DI for most players".
+    'Radial J48 MK2 Active Direct Box': 9.6,
+    // Conclusion: "the only choice for bass players who want amp-style tone".
+    'Tech 21 SansAmp Bass Driver DI v2': 9.3,
+    // Conclusion: "handles stereo sources flawlessly".
+    'Radial ProD2 Stereo Passive Direct Box': 9.2,
+    // Conclusion: "the acoustic musician's secret weapon".
+    'LR Baggs Para Acoustic DI': 9.1,
+    // Conclusion: "the modern pedalboard DI".
+    'Walrus Audio Canvas Mono Line Isolator / DI': 9.0,
+    // Conclusion: "a rugged passive DI for stage use" — el mas barato.
+    'Whirlwind IMP 2 Passive Direct Box': 8.9,
+  },
+
+  // --- Montaje y calibracion de subwoofers ---
+  // Conclusion: "Buy the Neumann KH 810 II when immersive formats and serious
+  // headroom are the brief ... Choose the ATC SCS120 Pro for pure analogue
+  // power in large rooms ... the KH 750 DSP is the smart compact pick".
+  'studio-subwoofers-setup': {
+    // Conclusion: "immersive formats and serious headroom" — el mas caro.
+    'Neumann KH 810 II': 9.7,
+    // Conclusion: "pure analogue power in large rooms" — el mas caro aún.
+    'ATC SCS120 Pro': 9.5,
+    // Conclusion: "reference-level, distortion-free monitoring".
+    'Barefoot Sound MicroSub45': 9.3,
+    // Conclusion: "smart multichannel and immersive rooms".
+    'Genelec 7370A SAM': 9.2,
+    // Conclusion: "brutal bass dynamics for bass-heavy work".
+    'Focal Sub12': 9.0,
+    // Conclusion: "the smart compact pick when MA 1 does the thinking" — el barato.
+    'Neumann KH 750 DSP': 8.9,
+  },
+
+  // --- Intercomunicadores inalambricos ---
+  // Conclusion: "the SOLIDCOM C1 is the pick" como opcion all-round; la C1 Pro
+  // para rodajes largos y la SE PRO para los equipos grandes.
+  'wireless-intercom-systems': {
+    // Conclusion: "the SOLIDCOM C1 is the pick" — el mas barato.
+    'Hollyland SOLIDCOM C1': 9.8,
+    // Conclusion: "adds 24-hour total runtime and backward compatibility".
+    'Hollyland SOLIDCOM C1 Pro': 9.5,
+    // Conclusion: "carries up to 11 users on a 1.9GHz link".
+    'Hollyland SOLIDCOM SE PRO': 9.3,
+  },
+
+  // --- Mesas digitales de 24-32 canales ---
+  // Conclusion: "The Behringer X32 remains the best overall value ... If you need
+  // premium sound, the Midas M32 LIVE elevates everything".
+  'best-32-channel-digital-mixers': {
+    // Conclusion: "genuine MIDAS PRO preamps and dual SD recording" — el alto.
+    'Midas M32 LIVE': 9.7,
+    // Conclusion: "future-proof 96 kHz processing and 44-bus architecture" — el mas caro.
+    'Allen & Heath SQ-6+': 9.4,
+    // Conclusion: "the best overall value with its 32 MIDAS-designed preamps".
+    'Behringer X32': 9.4,
+    // Conclusion: "rack-mount simplicity and built-in Wi-Fi".
+    'Soundcraft Ui24R': 9.2,
+    // Conclusion: "the lowest price in this range".
+    'PreSonus StudioLive SE 32R': 9.1,
+    // Conclusion: "the Yamaha TF3 for its intuitive TouchFlow interface".
+    'Yamaha TF3': 9.0,
+    'Mackie DL32SE': 8.9,
+    'PreSonus StudioLive 32S': 8.8,
+    'PreSonus StudioLive 32SC': 8.7,
+  },
+
+  // --- Sistemas PA economicos (menos de 600 $) ---
+  // Conclusion: "The Yamaha DBR12 is the best all-purpose budget PA speaker on
+  // the market - the #1 choice". El JBL EON712 es "the smartest modern pick".
+  'budget-pa-systems': {
+    // Conclusion: "the smartest modern pick if you want pro-grade processing".
+    'JBL EON712 Active PA Speaker': 9.7,
+    // Conclusion: "the best all-purpose budget PA speaker on the market".
+    'Yamaha DBR12 Active PA Speaker': 9.5,
+    // Conclusion: "the professional entry-level choice that working musicians trust".
+    'EV ZLX-12P-G2 Active PA Speaker': 9.3,
+    // Conclusion: "delivers the most power per dollar" — el mas barato.
+    'Alto Professional TS412 Active PA Speaker': 9.0,
+    // Conclusion: "one of the most affordable options for getting started".
+    'Mackie Thump215XT': 8.8,
+  },
+
+  // --- Dispositivos compactos de ritmo ---
+  // Conclusion: "Pick your device by travel habit": esquemas rapidos, estudio
+  // completo en mochila, directo en vivo, o aprender la secuenciacion de Elektron.
+  'compact-rhythm-devices': {
+    // Veredicto: "the most complete travel studio".
+    'Yamaha SEQTRAK': 9.7,
+    // Conclusion: "for a full studio in a backpack" — el mas caro.
+    'Polyend Tracker Mini': 9.4,
+    // Conclusion: "the deepest pocket sampler".
+    'Roland AIRA Compact P-6': 9.3,
+    // Conclusion: "the perfect school for learning Elektron's sequencing".
+    'Elektron Model:Samples': 9.2,
+    'Elektron Model:Cycles': 9.0,
+    // Conclusion: "for tactile live improv".
+    'Novation Circuit Rhythm': 9.1,
+    'Sonicware Liven Lofi-12': 9.0,
+    // Conclusion: "the TR-6S keeps Roland's rhythmic legacy fully portable".
+    'Roland TR-6S': 8.9,
+    // Conclusion: "to capture quick sketches anywhere" — el mas barato.
+    'Teenage Engineering EP-133 K.O. II': 8.9,
+    'Korg Volca Sample 2': 8.7,
+  },
+
+  // --- Estudio de produccion de beats ---
+  // Conclusion: "pick the MPC One G2 if you want to escape the screen, or Ableton
+  // if you want the deepest DAW-based workflow". El resto es la cadena de al lado.
+  'beat-making': {
+    // Conclusion: "the DAW that shaped modern beat culture".
+    'Ableton Live 12 Suite': 9.7,
+    // Conclusion: "a complete standalone production workstation ... no computer required".
+    'Akai MPC One G2': 9.5,
+    // Conclusion: la cadena de senal y control que rodea a los dos protagonistas.
+    'Focusrite Scarlett 2i2 4th Gen': 9.2,
+    'Arturia KeyLab Essential 61 MkIII': 9.1,
+    'Beyerdynamic DT 770 Pro': 9.0,
+    'Shure SM7B': 9.0,
+    'Roland TR-8S': 8.9,
+    'Akai MPC Sample': 8.9,
+    'Akai MPC Live III': 8.7,
+  },
+
+  // --- Controladores y mezcladores para streaming ---
+  // Conclusion: "If you want your hands on everything, get the Stream Deck+ ...
+  // If you want real faders on stream audio, the GoXLR Mini is the streamer-first pick".
+  'stream-controllers': {
+    // Conclusion: "nothing else makes your whole stream so instantly controllable".
+    'Elgato Stream Deck+': 9.8,
+    // Conclusion: "the broadcast-console pick that survives a frozen PC".
+    'RØDE RØDECaster Pro II': 9.5,
+    // Conclusion: "the streamer-first pick with a Midas preamp".
+    'TC Helicon GoXLR Mini': 9.3,
+    // Conclusion: "merges interface and HDMI capture" en un solo cable.
+    'Mackie MainStream': 9.2,
+    // Conclusion: "gives every app a 60 mm fader" — el mas caro.
+    'Yamaha AG08': 9.1,
+    // Conclusion: "the Streamer X is the value pick" para video 4K.
+    'Rode Streamer X': 9.0,
+    // Conclusion: "records everyone to SD with auto-mix and mix-minus calls".
+    'Tascam Mixcast 4': 8.9,
+    // Conclusion: "sets itself up with Mix Agent and AutoMix".
+    'Mackie DLZ Creator': 8.9,
+    // Conclusion: "audio and video in one compact box".
+    'Roland Bridge Cast X': 8.9,
+    // Conclusion: "just need your mic to sound remarkable".
+    'Elgato Wave XLR MK.2': 8.8,
+    'Behringer FLOW 8': 8.7,
+  },
+
+  // --- Micros de solapa inalambricos ---
+  // Conclusion: "If you want the best balance of price, features and
+  // reliability, get the DJI Mic 3".
+  'wireless-lapel-mics': {
+    // Conclusion: "the best balance of price, features and reliability".
+    'DJI Mic 3': 9.8,
+    // Conclusion: "earns its premium with on-board 32GB recording and timecode".
+    'Rode Wireless PRO': 9.4,
+    // Conclusion: "the flagship with 14h of on-board storage" — el mas caro.
+    'Hollyland Lark Max': 9.2,
+    // Conclusion: "the safest budget upgrade" con auto-limiting y 400 m.
+    'DJI Mic Mini 2': 9.1,
+    // Conclusion: "32-bit float that cannot clip ... the new benchmark".
+    'Hollyland LARK MAX 2 Combo (2-Person)': 9.0,
+    // Conclusion: "90% of the experience for a fraction of the money".
+    'Hollyland Lark M2': 8.9,
+    // Conclusion: "the budget king with AI-managed noise cancellation" — el mas barato.
+    'Hollyland LARK A2': 8.7,
+  },
+
+  // --- Bajos para despacho y viaje ---
+  // Conclusion: "the Ibanez EHB1000 is the no-compromise answer ... If you fly
+  // constantly, the Traveler Ultra-Light Bass disappears into overhead bins".
+  'best-bass-home-office': {
+    // Conclusion: "the no-compromise answer ... pro hardware in a headless body".
+    'Ibanez EHB1000 Headless Bass': 9.8,
+    // Conclusion: "the Steinberger XT-2 packs full-scale headless tone into 38.5 inches".
+    'Steinberger Spirit XT-2 Bass': 9.4,
+    // Conclusion: "the Sire M6 Headless" para ergonomia multiescala.
+    'Sire Marcus Miller M6 Headless Bass': 9.3,
+    // Conclusion: "disappears into overhead bins" — el mas barato del escalon alto.
+    'Traveler Guitar Ultra-Light Bass': 9.2,
+    // Conclusion: "the safe short-scale that holds resale value".
+    'Fender Player II Mustang Bass PJ': 9.1,
+    // Conclusion: "the Kala U-Bass" en tamano deukulele.
+    'Kala U-Bass Solid Body': 9.0,
+    // Conclusion: "classic looks cheapest" / "cheapest micro-scale bass".
+    'Gretsch G2220 Junior Jet Bass II': 8.9,
+    'Jackson JS1X Concert Bass Minion': 8.8,
+    // Conclusion: "the cheapest Fender short-scale" / "PJ versatility".
+    'Squier Sonic Bronco Bass': 8.7,
+    'Ibanez GSRM20 Mikro Bass': 8.7,
+  },
+
+  // --- Guitarras electricas 2026 ---
+  // Conclusion: escalones de precio. "the American Professional II for a lifetime
+  // pro instrument" hasta "the Squier Debut is the best budget pick".
+  'best-electric-guitars-2026': {
+    // Conclusion: "the lifetime pro instrument" — el mas caro.
+    'Fender American Professional II Stratocaster': 9.8,
+    // Conclusion: "the best intermediate upgrade".
+    'PRS SE Custom 24': 9.4,
+    // Conclusion: "the Pacifica best value".
+    'Yamaha Pacifica 112V': 9.3,
+    // Conclusion: "the vintage dream on a budget".
+    'Squier Classic Vibe \'50s Stratocaster': 9.2,
+    // Conclusion: "the classic starter that grows with you".
+    'Squier Affinity Series Stratocaster': 9.1,
+    // Conclusion: "the best short-scale for kids and small hands".
+    'Squier Sonic Mustang': 9.0,
+    // Conclusion: "the best budget pick" — el mas barato.
+    'Squier Debut Series Stratocaster': 8.9,
+    // Citados en la tabla sin rol asignado en la conclusion.
+    'ESP E-II Eclipse DB': 8.9,
+    'Ibanez AZ2402 Prestige': 8.8,
+    'Strandberg Boden Essential 6': 8.7,
+  },
+
+  // --- DAW para principiantes ---
+  // Conclusion: "Ableton Live 12 Suite or FL Studio are the best choices ...
+  // Logic Pro is hard to beat for Mac users."
+  'best-daw-for-beginners': {
+    // Conclusion: "the easiest entry into electronic production".
+    'Ableton Live 12 Suite': 9.7,
+    // Conclusion: "the best value if you're on a Mac" — el mas barato.
+    'Logic Pro': 9.5,
+    // Conclusion: "hard to beat for beat-making".
+    'FL Studio Producer Edition': 9.4,
+    // Conclusion: "worth the investment if you are serious about a professional career".
+    'Avid Pro Tools Studio': 9.3,
+    'Steinberg Cubase Pro 15': 9.1,
+    'Reason Studios Reason 14': 8.9,
+  },
+
+  // --- Samplers de hardware ---
+  // Conclusion: "The Roland SP-404MKII is my top pick for the sound and workflow
+  // that defined modern beat culture ... The Akai MPC Sample is the best value
+  // and best portable pick".
+  'best-hardware-samplers': {
+    // Conclusion: "my top pick ... 4.8/5 across thousands of reviews".
+    'Roland SP-404MKII': 9.8,
+    // Conclusion: "the best full standalone production center".
+    'Akai MPC One G2': 9.4,
+    // Conclusion: "the deepest sound-design machine for serious DAWless producers".
+    'Elektron Digitakt II': 9.3,
+    // Conclusion: "no-compromise portable power".
+    'Akai MPC Live III': 9.1,
+    // Conclusion: "surgical tracker composition" — el mas caro.
+    'Polyend Tracker Mini': 9.0,
+    // Conclusion: "the best value and best portable pick" — el mas barato del grupo alto.
+    'Akai MPC Sample': 8.9,
+    // Conclusion: "instant sketching fun".
+    'Teenage Engineering EP-133 K.O. II': 8.7,
+  },
+
+  // --- Rode Wireless PRO vs DJI Mic 3 ---
+  // Conclusion: "The Rode Wireless PRO wins for professional interviews and
+  // multi-cam work". El DJI Mic 3 es mas barato.
+  'rode-wireless-pro-vs-dji-mic-2': {
+    // Conclusion: "locking connectors protect paid shoots" — el alto.
+    'Rode Wireless PRO': 9.6,
+    // Conclusion: "in a friendlier everyday kit" — mas barato.
+    'DJI Mic 3': 9.4,
+  },
+
+  // --- Mobiliario y montaje de estudio ---
+  // Conclusion: "Start with a K&M mic stand ... Run Mogami XLR cables ... Treat
+  // your room with G4M panels and isolate your monitors with AcouFoam ... Add an
+  // Aston Shield GN pop filter ... When you're ready to level up, the SSL UF8."
+  'studio-furniture': {
+    // Conclusion: "transforms mixing from a screen task into a musical experience" — el alto.
+    'SSL UF8 DAW Controller': 9.7,
+    // Conclusion: "Start with a K&M mic stand ... for proper positioning".
+    'K&M 210/2 Mic Stand': 9.6,
+    'K&M 26722 Monitor Stands (Each)': 9.5,
+    // Conclusion: "Treat your room with G4M acoustic panels".
+    'G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)': 9.4,
+    // Conclusion: "Run Mogami XLR cables for clean signal".
+    'Mogami Gold Studio XLR Cable': 9.3,
+    // Conclusion: "isolate your monitors with AcouFoam pads".
+    'AcouFoam 6 Monitor Isolation Pads, Pair': 9.2,
+    // Conclusion: "Add an Aston Shield GN pop filter for clean vocal takes" — el mas barato.
+    'Aston Microphones Shield GN Pop Filter': 9.1,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
