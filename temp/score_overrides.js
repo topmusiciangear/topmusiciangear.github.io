@@ -1672,24 +1672,25 @@ module.exports = {
   },
 
   // --- Guitarras para trabajo remoto (silenciosas y compactas) ---
-  // Conclusion: "the Headless Experience NX is the premium pick. The Yamaha
-  // SLG200S is the mainstream choice ... the Taylor GS Mini-e Koa is the best
-  // compact acoustic for small spaces."
-  // OJO: el Headless Experience NX se cita en el veredicto y la conclusion pero
-  // NO esta en el catalogo, asi que no lleva nota.
+  // El veredicto ABRE con ella: "For most home offices, the Donner HUSH-I EVO2
+  // is the smartest buy". La conclusion ES la llama "la opción premium" y la
+  // meta description dice que "gana". Es la ganadora de la guia.
+  // La Taylor es condicional ("better choice IF you want a real acoustic voice").
   'best-guitar-home-office': {
-    // Conclusion: "the best compact acoustic for small spaces".
-    'Taylor GS Mini-e Koa': 9.4,
-    // Conclusion: "The Yamaha SLG200S is the mainstream choice".
-    'Yamaha SLG200S': 9.2,
-    'Yamaha SLG200N': 9.1,
-    // Conclusion: "built-in effects and apps" en las intuitivas.
-    'Donner HUSH-I EVO2': 9.0,
+    // Veredicto: "the smartest buy ... full-scale, truly silent". Conclusion ES:
+    // "la opción premium". MetaDesc ES: "la HUSH-I EVO2 gana por $219.99".
+    'Donner HUSH-I EVO2': 9.8,
+    // Conclusion: "the Yamaha SLG200S is the mainstream choice" / "la opción principal".
+    'Yamaha SLG200S': 9.4,
+    // Conclusion: "For nylon-string lovers, the SLG200N delivers".
+    'Yamaha SLG200N': 9.2,
+    // Veredicto: "the better choice if you want a real acoustic voice" (condicional).
+    'Taylor GS Mini-e Koa': 9.1,
+    // Veredicto: "the most portable full-scale acoustics".
+    'Traveler Guitar Ultra-Light Steel': 9.0,
+    'Traveler Guitar Ultra-Light Nylon': 8.9,
+    // Veredicto: "the all-in-one future" para quien no quiere amplificador.
     'Lava Music Lava ME 4 Smart Guitar': 8.9,
-    // Conclusion: "the Traveler Guitar Ultra-Light is the most portable option".
-    'Traveler Guitar Ultra-Light Steel': 8.9,
-    'Traveler Guitar Ultra-Light Nylon': 8.8,
-    // Conclusion: el escalon de guitarra inteligente.
     'Enya Nova Go Sonic Smart Electric Guitar': 8.7,
   },
 
