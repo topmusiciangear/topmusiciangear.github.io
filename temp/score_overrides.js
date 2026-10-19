@@ -1305,6 +1305,94 @@ module.exports = {
     'Allen & Heath CQ-18T': 9.1,
   },
 
+  // --- Interfaces economicas (menos de 300 $) ---
+  // Conclusion: "The Scarlett 2i2 is the safest bet for beginners. The MOTU M2
+  // offers the best specs. The UA Volt 2 has the most character."
+  'budget-interfaces': {
+    // Conclusion: "The SSL 2+ MKII and Audient iD14 MkII deliver console-quality
+    // preamps that compete with interfaces costing far more".
+    'Audient iD14 MkII': 9.8,
+    'SSL 2+ MKII': 9.6,
+    // Conclusion: "the UMC1820 packs eight MIDAS pres plus ADAT" — mas canales.
+    'Behringer U-Phoria UMC1820': 9.2,
+    // Conclusion: "The UA Volt 2 has the most character".
+    'Universal Audio Volt 2': 9.1,
+    // Conclusion: "Want analog squeeze on the way in? The Volt 276".
+    'Universal Audio Volt 276': 9.0,
+    // Conclusion: "The MOTU M2 offers the best specs".
+    'MOTU M2': 8.9,
+    // Conclusion: "Producing on a laptop? The MiniFuse 2 hub".
+    'Arturia MiniFuse 2': 8.8,
+    // Conclusion: "The EVO 4 sets its own gain" — el mas barato.
+    'Audient EVO 4': 8.7,
+    // Conclusion: "The Scarlett 2i2 is the safest bet for beginners".
+    'Focusrite Scarlett 2i2 4th Gen': 8.7,
+  },
+
+  // --- Interfaces de audio ---
+  // Conclusion: "Start with a Focusrite Scarlett 2i2 or Audient iD14 for general
+  // home recording. If you record guitar or bass, start with the AXE I/O".
+  'best-interface': {
+    // Conclusion: la que "delivers console-quality preamps" en el reparto.
+    'Audient iD14 MkII': 9.8,
+    'SSL 2+ MKII': 9.6,
+    // Conclusion: el escalon superior de la guia.
+    'RME Babyface Pro FS': 9.3,
+    'Universal Audio Apollo Twin X Gen 2': 9.2,
+    // Conclusion: "If you record guitar or bass, start with the AXE I/O".
+    'IK Multimedia AXE I/O': 9.1,
+    // Conclusion: "If you need portability, the Volt 2 or EVO 4 travel well".
+    'Universal Audio Volt 2': 9.0,
+    // Conclusion: "Start with a Focusrite Scarlett 2i2".
+    'Focusrite Scarlett 2i2 4th Gen': 8.9,
+    'MOTU M2': 8.8,
+    'Universal Audio Volt 276': 8.7,
+  },
+
+  // --- Interfaces para streaming y podcast ---
+  // Conclusion: "the Rodecaster Duo is the one that stands out — it is the most
+  // complete streaming interface here".
+  'streaming-interfaces': {
+    // Conclusion: "the most complete streaming interface here".
+    'Rode Rodecaster Duo': 9.8,
+    // Conclusion: "Gamers with consoles should look hard at the Bridge Cast X
+    // for its audio-plus-capture combo".
+    'Roland Bridge Cast X': 9.5,
+    // Conclusion: "the streaming-hub pick with HDMI capture and 16-track backup".
+    'Yamaha URX44V': 9.2,
+    // Conclusion: "earns its price if you want analog compression".
+    'Universal Audio Volt 276': 9.1,
+    // Conclusion: "the smart budget start".
+    'Audient EVO 4': 8.9,
+    'Focusrite Scarlett 2i2 4th Gen': 8.9,
+    // Conclusion: "the portable recorder pick ... without the Rodecaster price".
+    'Zoom PodTrak P4next': 8.7,
+  },
+
+  // --- Plugins de voz ---
+  // Conclusion: "The FabFilter pair handles surgical EQ and glue compression at
+  // the front of the chain ... Melodyne 5 keeps tuning invisible ... iZotope
+  // Nectar 4 Advanced polishes ... Smooth Operator Pro removes harshness".
+  'vocal-plugins': {
+    // Conclusion: "The FabFilter pair" al frente de la cadena.
+    'FabFilter Pro-C 3': 9.7,
+    'FabFilter Pro-Q 4': 9.5,
+    // Conclusion: "Melodyne 5 keeps tuning invisible".
+    'Celemony Melodyne 5': 9.3,
+    // Conclusion: "Soundtoys adds Decapitator grit, EchoBoy space and AlterBoy".
+    'Soundtoys 5.5 Bundle': 9.2,
+    // Conclusion: "the RePitch + VocAlign bundle tunes and aligns".
+    'Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle': 9.1,
+    // Conclusion: "iZotope Nectar 4 Advanced polishes" al final de la cadena.
+    'iZotope Nectar 4 Advanced': 9.0,
+    // Conclusion: "VoxDoubler widens".
+    'Sonnox VoxDoubler': 8.9,
+    // Conclusion: "Smooth Operator Pro removes harshness in one move".
+    'Baby Audio Smooth Operator Pro': 8.8,
+    // Citado en la tabla sin rol en la conclusion.
+    'FabFilter Total Bundle': 8.7,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
