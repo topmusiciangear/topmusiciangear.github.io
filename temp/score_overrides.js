@@ -1875,6 +1875,219 @@ module.exports = {
     'Beyerdynamic DT 990 Pro': 9.2,
   },
 
+  // --- Scarlett 2i2 vs MOTU M2 ---
+  // Conclusion: "For most home studio users, the Scarlett is the easier
+  // recommendation ... If you need MIDI, metering or DAC quality, the MOTU M2".
+  'scarlett-vs-motu': {
+    // Conclusion: "the easier recommendation for most home studio users".
+    'Focusrite Scarlett 2i2 4th Gen': 9.4,
+    // Conclusion: "the smarter choice" con MIDI y metering.
+    'MOTU M2': 9.2,
+  },
+
+  // --- Scarlett 2i2 vs SSL 2+ ---
+  // Conclusion: "The Scarlett is the smart choice for beginners and
+  // budget-conscious producers. The SSL 2+ is for anyone who wants professional
+  // preamp character". El SSL cuesta 100 $ mas.
+  'scarlett-vs-ssl': {
+    // Conclusion: "for anyone who wants professional preamp character" — el alto.
+    'SSL 2+ MKII': 9.6,
+    // Conclusion: "the smart choice for beginners" — el mas barato.
+    'Focusrite Scarlett 2i2 4th Gen': 9.3,
+  },
+
+  // --- Scarlett 2i2 vs UA Volt 2 ---
+  // Conclusion: "The Scarlett is the refined Swiss Army knife ... The Volt 2 is
+  // the specialist with a secret weapon". El Volt 2 es mas barato.
+  'scarlett-vs-volt': {
+    // Conclusion: "it does everything well and has the ecosystem to prove it".
+    'Focusrite Scarlett 2i2 4th Gen': 9.4,
+    // Conclusion: "its Vintage preamp mode is musical".
+    'Universal Audio Volt 2': 9.2,
+  },
+
+  // --- Audient iD14 vs MOTU M2 ---
+  // Conclusion: "The iD14 wins on preamp character, monitor control, and
+  // expandability. The M2 wins on conversion quality". El M2 es mas barato.
+  'audient-vs-motu': {
+    // Conclusion: "wins on preamp character, monitor control and expandability".
+    'Audient iD14 MkII': 9.4,
+    // Conclusion: "class-leading conversion".
+    'MOTU M2': 9.2,
+  },
+
+  // --- RME Babyface vs MOTU M2 ---
+  // Conclusion: "The Babyface will serve a professional for a decade. The M2
+  // gives a beginner everything they need". El Babyface cuesta 5x mas.
+  'rme-vs-motu': {
+    // Conclusion: "buying German engineering" con drivers de 2009.
+    'RME Babyface Pro FS': 9.7,
+    // Conclusion: "a smart buy to get started" — el mas barato.
+    'MOTU M2': 9.0,
+  },
+
+  // --- Apollo Twin X vs Babyface Pro FS ---
+  // Conclusion: "You cannot go wrong, but your workflow dictates which one feels
+  // right". El Babyface es mas barato (949 vs 999).
+  'apollo-vs-babyface': {
+    // Conclusion: "rock-solid drivers ... and TotalMix routing that nothing else touches".
+    'RME Babyface Pro FS': 9.6,
+    // Conclusion: "high-quality analog emulation and tracking workflow".
+    'Universal Audio Apollo Twin X Gen 2': 9.5,
+  },
+
+  // --- Apollo x16 vs RME Fireface UFX III ---
+  // Conclusion: "Choose Apollo for the creative DSP workflow; choose RME for
+  // rock-solid reliability and routing power". El Apollo cuesta 800 $ mas.
+  'pro-interfaces': {
+    // Conclusion: "the UAD DSP ecosystem with Unison preamps".
+    'Universal Audio Apollo x16 Gen 2': 9.6,
+    // Conclusion: "exceptional driver stability and TotalMix FX routing".
+    'RME Fireface UFX III': 9.4,
+  },
+
+  // --- Pro Tools vs Cubase Pro ---
+  // Conclusion: "Pro Tools remains essential for professional studio
+  // compatibility ... Cubase Pro 15 excels at composition ... better long-term value".
+  'pro-tools-vs-cubase': {
+    // Conclusion: "remains essential for professional studio compatibility".
+    'Avid Pro Tools Studio': 9.7,
+    // Conclusion: "excels at composition, scoring and better long-term value".
+    'Steinberg Cubase Pro 15': 9.4,
+  },
+
+  // --- VocAlign vs Revoice Pro 5 ---
+  // Conclusion: "For most producers, VocAlign is sufficient and more efficient.
+  // For film, classical and complex arrangements, Revoice Pro 5 justifies its price."
+  'vocalign-vs-revoice-pro': {
+    // Conclusion: "sufficient and more efficient" para la mayoria.
+    'Synchro Arts VocAlign 7 Pro': 9.6,
+    // Conclusion: "the standalone suite for large-scale projects" — el mas caro.
+    'Synchro Arts Revoice Pro 5': 9.2,
+  },
+
+  // --- FabFilter vs Ozone ---
+  // Conclusion: "FabFilter is the choice for engineers who demand total control ...
+  // Ozone is the choice for producers who want AI-assisted mastering".
+  'fabfilter-vs-ozone': {
+    // Conclusion: "the choice for engineers who demand total control".
+    'FabFilter Total Bundle': 9.5,
+    // Conclusion: "gets you a finished, loud master in minutes" — mas barato.
+    'iZotope Ozone 12 Advanced': 9.3,
+  },
+
+  // --- Ozone Advanced vs FabFilter Mastering Bundle ---
+  // Conclusion: "Ozone is AI-powered, all-in-one, and faster for producers ...
+  // FabFilter is manual, surgical, and better for engineers who want complete control".
+  'ozone-vs-fabfilter': {
+    // Conclusion: "delivers unmatched precision" para el ingeniero con experiencia.
+    'FabFilter Mastering Bundle': 9.5,
+    // Conclusion: "AI-powered, all-in-one, and faster" — mas barato.
+    'iZotope Ozone 12 Advanced': 9.4,
+  },
+
+  // --- RePitch 2 vs Melodyne 5 ---
+  // Conclusion: "If you tune vocals every day, buy RePitch. If you tune
+  // occasionally and want the Melodyne name on the cheap, buy Essential."
+  'repitch-vs-melodyne': {
+    // Conclusion: "RePitch is the speed tool ... the quicker tool".
+    'Synchro Arts RePitch 2 Standard': 9.5,
+    // Conclusion: "the budget entry into the reference engine" — mas barato.
+    'Celemony Melodyne 5 Essential': 9.1,
+  },
+
+  // --- Boss ME-90 vs HeadRush Flex Prime ---
+  // Conclusion: "If you want the most powerful compact modeler, choose the Flex
+  // Prime". El Flex Prime cuesta 150 $ mas.
+  'me90-vs-mx5': {
+    // Conclusion: "deep amp modeling with 97 amps, a touchscreen, IR loading".
+    'HeadRush Flex Prime': 9.5,
+    // Conclusion: "instant, stompbox-style Boss tone" — mas barato.
+    'Boss ME-90': 9.3,
+  },
+
+  // --- Digitakt II vs TR-8S ---
+  // Conclusion: "The Elektron Digitakt II is the deeper sampler ... the most
+  // powerful sequencer in any drum machine".
+  'digitakt-ii-vs-tr8s': {
+    // Conclusion: "the deeper sampler and drum computer with 16 tracks".
+    'Elektron Digitakt II': 9.6,
+    // Conclusion: "the most authentic vintage Roland drum sounds" — mas barato.
+    'Roland TR-8S': 9.3,
+  },
+
+  // --- Blues Junior vs AC30 ---
+  // Conclusion: "Both are desert-island tube amps - pick the flavor". El AC30
+  // cuesta mas del doble (1.800 vs 790).
+  'blues-junior-vs-ac30': {
+    // Conclusion: "classic Fender warmth in a portable package".
+    'Fender Blues Junior IV': 9.5,
+    // Conclusion: "the chiming British sound that defined generations of rock".
+    'Vox AC30': 9.4,
+  },
+
+  // --- Katana 50 vs DSL40CR ---
+  // Conclusion: "Choose the Katana for versatility, the DSL for the real tube
+  // experience". El DSL cuesta casi el triple.
+  'katana-vs-dsl': {
+    // Conclusion: "authentic all-tube Marshall tone on stage" — el alto.
+    'Marshall DSL40CR': 9.4,
+    // Conclusion: "serious versatility and value for money" — mas barato.
+    'Boss Katana 50 Gen 3': 9.3,
+  },
+
+  // --- XR18 vs M32R LIVE ---
+  // Conclusion: "The Midas M32R LIVE delivers legendary PRO series preamps and
+  // motorized faders for touring professionals". El M32R cuesta 5x mas.
+  'xr18-vs-m32r': {
+    // Conclusion: "the professional touring console" — el alto.
+    'Midas M32R LIVE': 9.6,
+    // Conclusion: "the best value digital mixer" — mas barato.
+    'Behringer X Air XR18': 9.4,
+  },
+
+  // --- XR18 vs CQ-18T ---
+  // Conclusion: "For budget-minded bands, the XR18 wins on value. For bands who
+  // want the latest technology and maximum portability, the CQ-18T is the future".
+  'xr18-vs-cq18t': {
+    // Conclusion: "the most affordable and proven digital mixer" — mas barato.
+    'Behringer X Air XR18': 9.4,
+    // Conclusion: "the future of live mixing" — el alto.
+    'Allen & Heath CQ-18T': 9.3,
+  },
+
+  // --- RCF NX 912-SMA vs EV PXM-12MP ---
+  // Conclusion: "For a working band on a budget, the choice goes to the EV.
+  // To keep a festival stage under control, the RCF takes over." El RCF cuesta
+  // casi el doble (1.699 vs 949).
+  'nx912-vs-pxm12mp': {
+    // Conclusion: "130 dB, 2100W and horn-loaded reach" — el alto.
+    'RCF NX 912-SMA': 9.5,
+    // Conclusion: "the smarter pick for most working bands" — mas barato.
+    'Electro-Voice PXM-12MP': 9.4,
+  },
+
+  // --- Martin D-28 vs Taylor 314ce ---
+  // Conclusion: "The Martin D-28 is the traditional dreadnought that defined
+  // acoustic music". El D-28 cuesta 600 $ mas.
+  'martin-d28-vs-taylor-314': {
+    // Conclusion: "the dreadnought that defined acoustic music" — el alto.
+    'Martin D-28 Dreadnought': 9.7,
+    // Conclusion: "the modern all-purpose guitar with superior playability".
+    'Taylor 314ce Next Generation': 9.3,
+  },
+
+  // --- Yamaha P-225 vs Roland FP-30X ---
+  // Conclusion: "Choose the FP-30X for formal technique and maximum acoustic
+  // piano realism ... Choose the P-225 if your priority is producing, recording
+  // and streaming without friction". Precios casi iguales (750 vs 700).
+  'p225-vs-fp30x': {
+    // Conclusion: "formal technique and maximum acoustic piano realism".
+    'Roland FP-30X': 9.4,
+    // Conclusion: "over 3 kg less to carry" y mas barato.
+    'Yamaha P-225': 9.3,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
