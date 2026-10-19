@@ -1151,6 +1151,160 @@ module.exports = {
     // "Komplete 26 Ultimate" (id 123), asi que no lleva nota propia aqui.
   },
 
+  // --- Monitores economicos (menos de 500 $) ---
+  // Conclusion: "The JBL 305P MkII leads its class for ultra-tight spaces ...
+  // The Kali LP-6 V2 adds boundary EQ room correction no other budget monitor
+  // offers ... the Yamaha HS8 gives you the brutal honesty".
+  'budget-monitors': {
+    // Conclusion: "the Yamaha HS8 gives you the brutal honesty" — el tope de gama.
+    'Yamaha HS8': 9.8,
+    // Conclusion: "the Kali IN-8 V2 coaxial point source gets you there" — el
+    // mas caro de los seis.
+    'Kali Audio IN-8 V2': 9.5,
+    // Conclusion: "adds boundary EQ room correction no other budget monitor offers".
+    'Kali Audio LP-6 V2': 9.3,
+    // Conclusion: "the DSP option with built-in tuning for rooms with bass buildup".
+    'KRK Rokit 7 G5': 9.2,
+    // Conclusion: "the Kali LP-UNF pair fits the space and the budget".
+    'Kali Audio LP-UNF': 9.0,
+    // Conclusion: "leads its class for ultra-tight spaces" — el mas barato.
+    'JBL 305P MkII': 8.8,
+  },
+
+  // --- Micros de escenario ---
+  // Conclusion: "the Shure SM58 is still the smartest buy in the world of live
+  // sound". El SM57 entra como "keep an SM57 in the kit" para amplis y caja.
+  'stage-mics': {
+    // Conclusion: "the smartest buy in the world of live sound".
+    'Shure SM58': 9.8,
+    // Conclusion: "Keep an SM57 in the kit for guitar amps, snares and horns".
+    'Shure SM57': 9.6,
+    // Conclusion: "step up to the supercardioids" para escenarios grandes.
+    'Sennheiser e945': 9.3,
+    'Shure Beta 58A': 9.2,
+    'Sennheiser e935': 9.1,
+    // Conclusion: "the Audix OM7 is the secret weapon of pro FOH engineers".
+    'Audix OM7': 9.0,
+    // Conclusion: "the Telefunken M80 gives you condenser-like detail".
+    'Telefunken M80': 8.9,
+    // Conclusion: "the Electro-Voice ND86 is built specifically for large venues".
+    'Electro-Voice ND86': 8.9,
+    'AKG D5': 8.8,
+    // Conclusion: "Cutting the cable? The Sennheiser EW-D".
+    'Sennheiser EW-D Dual Wireless System': 8.7,
+  },
+
+  // --- Altavoces PA de 12 y 15 pulgadas ---
+  // Conclusion: "The QSC K12.2 is the touring standard that professionals trust
+  // worldwide"; el ZLX-12P-G2 es "the best budget speaker".
+  'best-pa-speakers': {
+    // Conclusion: "the touring standard that professionals trust worldwide".
+    'QSC K12.2 Active PA Speaker': 9.8,
+    // Conclusion: "offers premium sound quality with advanced DSP".
+    'Yamaha DXR12mkII Active PA Speaker': 9.4,
+    // Conclusion: "the ELX200-15P and PRX915 deliver the extra low-end and
+    // headroom bigger stages demand" — el PRX915 es el mas caro.
+    'JBL PRX915': 9.3,
+    'EV ELX200-15P Active PA Speaker': 9.2,
+    // Conclusion: "The EV ZLX-12P-G2 is the best budget speaker".
+    'EV ZLX-12P-G2 Active PA Speaker': 9.1,
+    // Conclusion: el budget everyday de 15 pulgadas segun el veredicto.
+    'Mackie Thump215XT': 8.8,
+  },
+
+  // --- Subwoofers de estudio (menos de 700 $) ---
+  // Conclusion: "The KRK S10.4 is the best do-it-all studio subwoofer".
+  'studio-subwoofers': {
+    // Conclusion: "the best do-it-all studio subwoofer".
+    'KRK S10.4': 9.8,
+    // Conclusion: "the pick if you already mix on HS-series monitors".
+    'Yamaha HS8S': 9.5,
+    // Conclusion: "brings full-range monitoring to tight desks with ARC X".
+    'IK Multimedia iLoud Sub': 9.3,
+    // Conclusion: "gives you the most output per dollar" — el mas barato.
+    'Kali Audio WS-6.2': 9.1,
+    // Conclusion: "the space-saving option at a lower price".
+    'Adam T10S': 8.9,
+  },
+
+  // --- Mesas de mezcla digitales ---
+  // Conclusion: "match the desk to the gig". No hay ganador unico: cada consola
+  // "owns" un uso distinto.
+  'best-digital-mixers': {
+    // Conclusion: "the Midas M32R LIVE gives PRO preamps" — el mas caro.
+    'Midas M32R LIVE': 9.8,
+    // Conclusion: "the Behringer X32 Compact gives flagship buses cheap".
+    'Behringer X32 Compact': 9.5,
+    // Conclusion: "the Soundcraft Ui24R replaces the console" en rack.
+    'Soundcraft Ui24R': 9.4,
+    // Conclusion: "the Allen & Heath CQ-18T gives touchscreen auto-assist".
+    'Allen & Heath CQ-18T': 9.3,
+    // Conclusion: "the Behringer X Air XR18 owns budget hybrid live".
+    'Behringer X Air XR18': 9.2,
+    // Conclusion: "the Tascam Model 12 owns hands and podcasting".
+    'Tascam Model 12': 9.1,
+    // Conclusion: "the Korg SoundLink MW-1608 owns analog-feel mixing".
+    'Korg SoundLink MW-1608': 9.0,
+    // Citadas en la tabla sin rol asignado en la conclusion.
+    'PreSonus StudioLive 32SC': 8.9,
+    'Yamaha DM3S': 8.8,
+    'Soundcraft Ui16': 8.7,
+    'Behringer WING Compact': 8.7,
+  },
+
+  // --- Mesas de sonido en vivo ---
+  // Conclusion: "The Yamaha MG16XU is the analog workhorse ... The Behringer
+  // X32 Compact stays the versatility king ... the SQ-5 brings 96 kHz pro sound
+  // to touring".
+  'best-live-sound-mixers': {
+    // Conclusion: "brings 96 kHz pro sound to touring" — la mas cara.
+    'Allen & Heath SQ-5': 9.8,
+    // Conclusion: "stays the versatility king with 17 motorized faders".
+    'Behringer X32 Compact': 9.6,
+    // Conclusion: "the Soundcraft Ui24R replaces the console with a 24-input rack".
+    'Soundcraft Ui24R': 9.4,
+    // Conclusion: "records the gig to SD" — el recorder-hybrid.
+    'Tascam Model 12': 9.3,
+    // Conclusion: "keeps hands on analog faders".
+    'Korg SoundLink MW-1608': 9.2,
+    // Conclusion: "the analog workhorse for bands that need real channels".
+    'Yamaha MG16XU': 9.1,
+    // Conclusion: "mixes from its touchscreen with auto gain".
+    'Allen & Heath CQ-18T': 9.0,
+    // Conclusion: "self-mixed touring bands go Soundcraft Ui24R rack over the XR18".
+    'Behringer X Air XR18': 8.9,
+    // Conclusion: "New here" — el Bose T8S para eventos acústicos.
+    'Bose T8S ToneMatch': 8.8,
+    'Yamaha DM3S': 8.7,
+  },
+
+  // --- Mesas analogicas ---
+  // Conclusion: "The Yamaha MG10XU is the perfect entry-level analog mixer ...
+  // The Mackie ProFX12v3 offers more channels ... The Signature 12 MTK captures
+  // every channel over USB".
+  'best-analog-mixers': {
+    // Conclusion: "offers more channels, better preamps and superior effects".
+    'Mackie ProFX12v3': 9.8,
+    // Conclusion: "captures every channel over USB" — el live-recording pick.
+    'Soundcraft Signature 12 MTK': 9.4,
+    // Conclusion: el escalon profesional de la gama SSL.
+    'SSL BiG SiX': 9.2,
+    // Conclusion: la misma categoria de entrada que la MG10XU.
+    'Allen & Heath ZEDi-10FX': 9.1,
+    // Conclusion: "the perfect entry-level analog mixer" — el mas barato.
+    'Yamaha MG10XU': 8.9,
+  },
+
+  // --- CQ-18T vs M32R LIVE ---
+  // Conclusion: "For portability and automation, choose the CQ-18T; for
+  // professional live sound with the Midas legacy, the M32R LIVE is the reference".
+  'pro-mixers': {
+    // Conclusion: "the M32R LIVE is the reference" con los previos Midas.
+    'Midas M32R LIVE': 9.6,
+    // Conclusion: "ideal for corporate AV ... at accessible price".
+    'Allen & Heath CQ-18T': 9.1,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
