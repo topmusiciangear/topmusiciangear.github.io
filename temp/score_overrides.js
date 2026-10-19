@@ -2088,6 +2088,167 @@ module.exports = {
     'Yamaha P-225': 9.3,
   },
 
+  // --- ATC SCM25A Pro Mk2 vs Genelec 8351B ---
+  // Conclusion: "Choose the ATC for purist mastering accuracy; choose the 8351B
+  // for flexible, calibrated monitoring". El ATC cuesta 800 $ mas.
+  'atc-vs-genelec': {
+    // Conclusion: "the most transparent midrange in the business" — el alto.
+    'ATC SCM25A Pro Mk2': 9.7,
+    // Conclusion: "point-source imaging, GLM room calibration, more headroom per dollar".
+    'Genelec 8351B': 9.4,
+  },
+
+  // --- Neumann KH 750 DSP vs Genelec 7050C ---
+  // Conclusion: "The German wins on extension (16 Hz vs 24 Hz), correction and
+  // digital integration; the Finn wins on price ... and effortless multichannel".
+  'kh750-vs-7050c': {
+    // Conclusion: "wins on extension, correction and digital integration" — el alto.
+    'Neumann KH 750 DSP': 9.6,
+    // Conclusion: "wins on price, analogue transparency and multichannel".
+    'Genelec 7050C': 9.3,
+  },
+
+  // --- Radial J48 vs Rupert Neve RNDI ---
+  // Conclusion: "Choose the J48 for utility; choose the RNDI for tone. The RNDI
+  // is the premium instrument that makes your DI signal sound finished".
+  'j48-vs-rndi': {
+    // Conclusion: "the premium instrument that makes your DI signal sound finished".
+    'Rupert Neve Designs RNDI Active Direct Interface': 9.5,
+    // Conclusion: "the reliable pick that does its job without adding anything" — mas barato.
+    'Radial J48 MK2': 9.4,
+  },
+
+  // --- Shure BLX288 vs Sennheiser EW-D ---
+  // Conclusion: "Choose the BLX288 for budget-friendly live vocals; choose the
+  // EW-D for premium digital wireless". El EW-D cuesta 400 $ mas.
+  'blx288-vs-ewd': {
+    // Conclusion: "134 dB dynamic range ... most advanced wireless experience".
+    'Sennheiser EW-D Dual Wireless System': 9.6,
+    // Conclusion: "two reliable wireless mics for the price of one" — mas barato.
+    'Shure BLX288/PG58': 9.3,
+  },
+
+  // --- Ultra II Strat vs Les Paul Standard 60s ---
+  // Conclusion: "Any working guitarist wants both". El Les Paul cuesta 500 $ mas.
+  'pro-guitars': {
+    // Conclusion: "that unmistakable thick, sustaining rock crunch" — el alto.
+    'Gibson Les Paul Standard \'60s': 9.6,
+    // Conclusion: "versatility with 10 voicings from glassy cleans".
+    'Fender American Ultra II Stratocaster': 9.5,
+  },
+
+  // --- Ultra II Precision Bass vs Music Man StingRay ---
+  // Conclusion: "the two most important bass designs in history ... Together they
+  // cover the full spectrum". Mismo precio exacto (2.199 $).
+  'pro-basses': {
+    // Conclusion: "classic, round thump with modern playability".
+    'Fender American Ultra II Precision Bass': 9.6,
+    // Conclusion: "aggressive, punchy articulation that cuts through any mix".
+    'Music Man StingRay Special': 9.5,
+  },
+
+  // --- Audeze LCD-MX4 vs LCD-X ---
+  // Conclusion: "The LCD-MX4 is the uncompromising choice with its Double
+  // Fluxor magnetic array ... the LCD-X offers proven reference-class performance
+  // at a more accessible price". El MX4 cuesta mas del doble.
+  'pro-headphones': {
+    // Conclusion: "the uncompromising choice" con su array magnetico.
+    'Audeze LCD-MX4': 9.7,
+    // Conclusion: "proven reference-class performance at a more accessible price".
+    'Audeze LCD-X': 9.4,
+  },
+
+  // --- Neumann U 87 Ai vs Lewitt LCT 1040 ---
+  // Conclusion: "For most studios, the U 87 is the enduring classic; the LCT
+  // 1040 is the modern pick". El U 87 cuesta 100 $ mas.
+  'pro-microphones': {
+    // Conclusion: "the mic every studio measures against".
+    'Neumann U 87 Ai': 9.7,
+    // Conclusion: "the innovative dual-circuit microphone" — mas barato.
+    'Lewitt LCT1040 Ultimate Microphone System': 9.3,
+  },
+
+  // --- Moog Muse vs Sequential Prophet-10 ---
+  // Conclusion: "For modern sound design capability, choose the Moog Muse; for
+  // classic analog polyphony, the Prophet-10 is hard to match". El Prophet-10
+  // cuesta 900 $ mas.
+  'pro-synths': {
+    // Conclusion: "a faithful reissue of the immortal Prophet-5 ... hard to match" — el alto.
+    'Sequential Prophet-10': 9.6,
+    // Conclusion: "Moog's modern flagship" — mas barato.
+    'Moog Muse': 9.4,
+  },
+
+  // --- Allen & Heath SQ-5 vs Behringer X32 Compact ---
+  // Conclusion: "For houses of worship ... who prioritize audio quality, the SQ-5
+  // is the clear choice. For bands ... the X32 Compact remains the benchmark."
+  'pro-live-sound': {
+    // Conclusion: "premium audio quality, superior build, tactile touchscreen" — el alto.
+    'Allen & Heath SQ-5': 9.6,
+    // Conclusion: "incredible value, a proven ecosystem, most motorized faders" — mas barato.
+    'Behringer X32 Compact': 9.5,
+  },
+
+  // --- Digitakt II vs MPC Live III ---
+  // Conclusion: "For deep electronic sound design, choose the Digitakt II; for
+  // all-in-one production center, the MPC Live III is hard to match".
+  'pro-drum-machines': {
+    // Conclusion: "a complete standalone production studio" — el alto.
+    'Akai MPC Live III': 9.5,
+    // Conclusion: "the ultimate drum computer for sound designers" — mas barato.
+    'Elektron Digitakt II': 9.4,
+  },
+
+  // --- Yamaha MG vs Behringer Xenyx ---
+  // Conclusion: "For most bands starting out, the X1222USB gives you everything
+  // you need ... For working musicians who need reliability and clean audio, the
+  // Yamaha MG series is worth the investment." Precios casi iguales.
+  'yamaha-mg-vs-behringer-xenyx': {
+    // Conclusion: "build quality and audio fidelity that stays clean at the extremes".
+    'Yamaha MG10XU': 9.5,
+    // Conclusion: "the feature champion" con compresor y EQ grafico.
+    'Behringer Xenyx X1222USB': 9.4,
+  },
+
+  // --- Roland Bridge Cast X vs RØDECaster Pro II ---
+  // Conclusion: el RØDECaster "wins on voice quality, guests and reliability".
+  'bridge-cast-x-vs-rodecaster-pro2': {
+    // Conclusion: "four XLR inputs, 76dB Revolution preamps, hardware APHEX".
+    'RØDE RØDECaster Pro II': 9.6,
+    // Conclusion: "wins on space and versatility" — mas barato.
+    'Roland Bridge Cast X': 9.3,
+  },
+
+  // --- RØDECaster Pro II vs Mackie DLZ Creator ---
+  // Conclusion: "The RØDECaster Pro II wins if reliability and dual-PC routing
+  // are non-negotiables". El DLZ cuesta 100 $ mas.
+  'rodecaster-pro2-vs-dlz-creator': {
+    // Conclusion: "your stream survives even when your computer does not".
+    'RØDE RØDECaster Pro II': 9.6,
+    // Conclusion: "a touchscreen-guided desk that handles guests" — el alto.
+    'Mackie DLZ Creator': 9.2,
+  },
+
+  // --- Elgato Stream Deck + XL vs Razer Stream Controller ---
+  // Conclusion: "the more powerful, ecosystem-rich desk ... in the deepest plugin
+  // library". El Razer es mas barato.
+  'stream-deck-plus-xl-vs-razer': {
+    // Conclusion: "36 physical keys and six dials in the deepest plugin library".
+    'Elgato Stream Deck + XL': 9.7,
+    // Conclusion: "the value pick with unique Adobe Creative Suite support" — mas barato.
+    'Razer Stream Controller': 9.2,
+  },
+
+  // --- Yamaha SLG200S vs Taylor GS Mini ---
+  // Conclusion: "The SLG200S erases volume with modeling and headphones; the
+  // GS Mini keeps it real with solid spruce and sapele". El SLG200S cuesta casi el doble.
+  'slg200s-vs-gs-mini': {
+    // Conclusion: "full-scale technique with zero complaints" — el alto.
+    'Yamaha SLG200S': 9.5,
+    // Conclusion: "real Taylor tone with real acoustic resonance" — mas barato.
+    'Taylor GS Mini': 9.4,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
