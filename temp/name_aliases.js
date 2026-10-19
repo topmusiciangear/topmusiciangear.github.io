@@ -1,0 +1,30 @@
+// Alias: nombres tal como aparecen en las tablas de las guias -> titulo real
+// en data/products.json. Sin esto, esas filas no resuelven a ningun producto
+// y se quedan sin score.
+module.exports = {
+  'Altavoz Activo EV ELX200-15P': 'EV ELX200-15P Active PA Speaker',
+  'Altavoz Activo Mackie SRT215': 'Mackie SRT215 Active PA Speaker',
+  'Epiphone DR-100 Acústica': 'Epiphone DR-100 Acoustic Guitar',
+  'Casio PX-S1100': 'Casio Privia PX-S1100 Digital Piano',
+  'Rode NT1 5ª Generación': 'Rode NT1 5th Generation',
+  'Akai MPC Key 37 Gen 2': 'Akai Professional MPC Key 37 Gen 2',
+  'Colección Universal Audio 1176 Classic Limiter': 'Universal Audio 1176 Classic Limiter Collection',
+  'SOLIDCOM C1': 'Hollyland SOLIDCOM C1',
+  'LARK MAX 2 (2 personas)': 'Hollyland LARK MAX 2 Combo (2-Person)',
+  'Fender Player Precision Bajo': 'Fender Player II Precision Bass',
+  'Fender Player Jazz Bajo': 'Fender Player II Jazz Bass',
+  'Fender American Professional II Precision Bajo': 'Fender American Professional II Precision Bass',
+  'Fender American Professional II Jazz Bajo': 'Fender American Professional II Jazz Bass',
+  'Sennheiser EW IEM G4': 'Sennheiser EW IEM G4 Stereo Wireless System',
+  'Xvive U4': 'Xvive U4 Wireless In-Ear Monitor System',
+  'Xvive U4 Inalámbrico': 'Xvive U4 Wireless In-Ear Monitor System',
+  'Audient iD14 MKII': 'Audient iD14 MkII',
+  'Roland Aira Compact P-6': 'Roland AIRA Compact P-6',
+  'Sennheiser HD 280 Pro II': 'Sennheiser HD 280 PRO II',
+  'Sennheiser e906': 'Sennheiser e 906',
+  'Yamaha FS800 Acústica': 'Yamaha FS800',
+  'Yamaha YDP-146': 'Yamaha Arius YDP-146 Digital Piano',
+  'Yamaha YDP-166': 'Yamaha Arius YDP-166',
+  'Yamaha CLP-835': 'Yamaha Clavinova CLP-835',
+  'EW IEM G4': 'Sennheiser EW IEM G4 Stereo Wireless System',
+};
