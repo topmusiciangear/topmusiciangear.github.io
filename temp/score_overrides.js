@@ -1489,8 +1489,8 @@ module.exports = {
     'Audio-Technica ATH-R70xa': 9.2,
     // DT 900 Pro X: detallado, abierto, distorsion muy baja, sin profundidad 3D de los superiores.
     'Beyerdynamic DT 900 Pro X': 9.0,
-    // DT 990 Pro: buen escenario abierto, pero pico de agudos fatigante en sesiones largas.
-    'Beyerdynamic DT 990 Pro': 8.7,
+    // DT 990 Pro: escenario muy amplio y graves legendarios; el pico de agudios es su unico handicap real.
+    'Beyerdynamic DT 990 Pro': 8.9,
   },
 
   // --- Auriculares cerrados para grabacion ---

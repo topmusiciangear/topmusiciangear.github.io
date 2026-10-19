@@ -5959,14 +5959,14 @@ var GUIDE_SCORES = {
   "Beyerdynamic DT 900 Pro X (2 auriculares)": 9,
   "Beyerdynamic DT 900 Pro X (2 headsets)": 9,
   "#beyerdynamicdt900prox": 9,
-  "Beyerdynamic DT 990 Pro": 8.7,
-  "Beyerdynamic DT 990 Pro (cada uno)": 8.7,
-  "Beyerdynamic DT 990 Pro (par)": 8.7,
-  "Beyerdynamic DT 990 Pro (each)": 8.7,
-  "Beyerdynamic DT 990 Pro (pair)": 8.7,
-  "Beyerdynamic DT 990 Pro (2 auriculares)": 8.7,
-  "Beyerdynamic DT 990 Pro (2 headsets)": 8.7,
-  "#beyerdynamicdt990pro": 8.7
+  "Beyerdynamic DT 990 Pro": 8.9,
+  "Beyerdynamic DT 990 Pro (cada uno)": 8.9,
+  "Beyerdynamic DT 990 Pro (par)": 8.9,
+  "Beyerdynamic DT 990 Pro (each)": 8.9,
+  "Beyerdynamic DT 990 Pro (pair)": 8.9,
+  "Beyerdynamic DT 990 Pro (2 auriculares)": 8.9,
+  "Beyerdynamic DT 990 Pro (2 headsets)": 8.9,
+  "#beyerdynamicdt990pro": 8.9
  },
  "tracking-headphones": {
   "Neumann NDH 20": 9.8,
