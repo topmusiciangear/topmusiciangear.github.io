@@ -1,0 +1,11 @@
+const fs = require('fs');
+const B = 'C:/Users/Daniel/projects/topmusiciangear/';
+const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'best-microphone');
+const s = g.sections[8].content;
+console.log('--- ENTERO ---');
+console.log(s);
+console.log('\n--- TODAS LAS ETIQUETAS <p> EN ORDEN ---');
+const re = /<(\/?)p(\s[^>]*)?>/gi;
+let m;
+while ((m = re.exec(s)) !== null) console.log('  @' + m.index + '  ' + JSON.stringify(m[0]));
