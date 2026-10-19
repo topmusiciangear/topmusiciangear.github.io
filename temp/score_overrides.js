@@ -1473,22 +1473,24 @@ module.exports = {
   // HD 600 is the timeless classic ... The Beyerdynamic DT 1990 Pro MKII is the
   // new Tesla flagship for mixing and mastering."
   'open-headphones': {
-    // Conclusion: "the modern reference standard".
-    'Sennheiser HD 490 Pro Plus': 9.8,
-    // Conclusion: "the new Tesla flagship for mixing and mastering".
-    'Beyerdynamic DT 1990 Pro MKII': 9.5,
-    // Conclusion: "the timeless classic that mastering engineers still trust".
-    'Sennheiser HD 600': 9.4,
-    // Conclusion: "the premium choice when you need razor-sharp detail".
-    'Neumann NDH 30': 9.3,
-    // Conclusion: "delivers professional accuracy with lightweight comfort".
+    // Criterio: rendimiento acustico puro (fidelidad + espacialidad para mezcla E hi-fi).
+    // Caracteristicas fisicas (cables, peso, impedancia) fuera de la ecuacion.
+    // LCD-X: planar de 106mm, graves hasta 10Hz reales sin distorsion, textura 3D.
+    'Audeze LCD-X': 9.8,
+    // DT 1990 Pro MKII: drivers Tesla, resolucion quirurgica para mezcla, dinamica impactante para hi-fi.
+    'Beyerdynamic DT 1990 Pro MKII': 9.7,
+    // HD 490 Pro Plus: ultra-plano para mezcla, pero penaliza en hi-fi por ser demasiado analitico.
+    'Sennheiser HD 490 Pro Plus': 9.5,
+    // NDH 30: transparencia cristalina, simula monitores de estudio en sala tratada.
+    'Neumann NDH 30': 9.5,
+    // HD 600: naturalidad timbrica, pero caida en subgraves limita musica electronica moderna.
+    'Sennheiser HD 600': 9.3,
+    // ATH-R70x: equilibrio plano para mezcla, presentacion espaciosa y aireada para hi-fi.
     'Audio-Technica ATH-R70xa': 9.2,
-    // Conclusion: "brings a wide, spacious soundstage".
-    'Beyerdynamic DT 990 Pro': 9.1,
-    // Conclusion: "the amp-free sweet spot for home studios".
+    // DT 900 Pro X: detallado, abierto, distorsion muy baja, sin profundidad 3D de los superiores.
     'Beyerdynamic DT 900 Pro X': 9.0,
-    // Conclusion: "keeps planar magnetic detail for purists" — el mas caro.
-    'Audeze LCD-X': 8.9,
+    // DT 990 Pro: buen escenario abierto, pero pico de agudos fatigante en sesiones largas.
+    'Beyerdynamic DT 990 Pro': 8.7,
   },
 
   // --- Auriculares cerrados para grabacion ---
