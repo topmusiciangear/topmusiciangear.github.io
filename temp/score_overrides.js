@@ -626,15 +626,24 @@ module.exports = {
   },
 
   // --- Superficies de control DAW ---
-  // Conclusion: "The SSL UF8 is the best all-around DAW control surface" y el
-  // FaderPort 8 "the best value". OJO: el veredicto nombra tambien el
-  // Behringer X-Touch ("budget king"), el Avid S1 y el Mackie MCU Pro, que NO
-  // estan en la tabla de esta guia.
+  // Conclusion: "The SSL UF8 is the best all-around DAW control surface ... The
+  // PreSonus FaderPort 8 is the best value, and the Behringer X-Touch is the
+  // budget king ... For Pro Tools users, the Avid S1 offers deep integration ...
+  // For classic nine-fader MCU control, the Mackie MCU Pro remains the reference."
   'midi-controllers': {
     // Conclusion: "the best all-around DAW control surface".
     'SSL UF8': 9.8,
     // Conclusion: "the best value".
     'PreSonus FaderPort 8': 9.6,
+    // Veredicto: "the Behringer X-Touch is the budget king".
+    'Behringer X-Touch': 9.2,
+    // Conclusion: "the Avid S1 offers deep integration you won't find elsewhere".
+    'Avid S1': 9.1,
+    // Conclusion: "the Mackie MCU Pro remains the reference" para 9 faders.
+    'Mackie MCU Pro': 9.0,
+    // Citados en la tabla sin mencion en veredicto ni conclusion.
+    'SSL UF1': 8.9,
+    'Icon Platform M+': 8.7,
   },
 
   // --- Estudio domestico por niveles ---
