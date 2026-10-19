@@ -1708,6 +1708,45 @@ module.exports = {
     'Yamaha CK88': 8.7,
   },
 
+  // --- Nord Stage 4 vs Montage M8x ---
+  // Conclusion: el Stage 4 "delivers the best piano, organ, and EP sounds"; el
+  // Montage "the deepest synthesis engine". El Nord es el mas caro.
+  'nord-stage-4-vs-montage-m8x': {
+    // Conclusion: "authentic piano and organ that feel alive" en escenario.
+    'Nord Stage 4 88': 9.7,
+    // Conclusion: "the deepest synthesis engine with AN-X and FM-X".
+    'Yamaha Montage M8x': 9.4,
+  },
+
+  // --- JBL 305P vs Kali LP-6 ---
+  // Conclusion: "Both are seriously good buys, but the Kali LP-6 V2 earns the
+  // edge for practical room adaptation".
+  'jbl-vs-kali': {
+    // Conclusion: "the Kali ... earns the edge for practical room adaptation".
+    'Kali Audio LP-6 V2': 9.5,
+    // Conclusion: "cinema-inspired accuracy for treated rooms" — el mas barato.
+    'JBL 305P MkII': 9.2,
+  },
+
+  // --- EV ZLX-12P-G2 vs QSC K12.2 ---
+  // Conclusion: "Buy ZLX now; rent K12 when you need it". El ZLX es mas barato.
+  'zlx-vs-k12': {
+    // Conclusion: "the better pick for budget-conscious buyers".
+    'EV ZLX-12P-G2 Active PA Speaker': 9.4,
+    // Conclusion: "professional-grade reliability and output" — el mas caro.
+    'QSC K12.2 Active PA Speaker': 9.5,
+  },
+
+  // --- EW IEM G4 TWIN vs PSM300 ---
+  // Conclusion: "The Sennheiser ... wins for two performers right now" y "The
+  // Shure PSM300 wins for starting with one performer and growing".
+  'ew-iem-g4-twin-vs-psm300': {
+    // Conclusion: "a full stereo twin set ... and two metal bodypacks".
+    'Sennheiser ew IEM G4-TWIN-E': 9.6,
+    // Conclusion: "starting with one performer and growing ... Twinpack".
+    'Shure PSM300': 9.3,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
