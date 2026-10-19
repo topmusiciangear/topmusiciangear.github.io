@@ -2307,20 +2307,7 @@ module.exports = {
     'MXL R144': 8.9,
   },
 
-  // --- Resolver el clipping de la Scarlett ---
-  // Conclusion: "Clipping on the Scarlett 2i2 is solved by setting gain
-  // correctly ... Only upgrade the interface if your mic genuinely needs more
-  // clean gain". La Scarlett es la protagonista de la guia.
-  'fix-clipping-scarlett': {
-    // Conclusion: "delivers professional results in most home studio situations".
-    'Focusrite Scarlett 2i2 4th Gen': 9.8,
-    // Conclusion: la solucion de ganancia para microfonos de salida baja.
-    'Shure SM7B': 9.4,
-    // Conclusion: la alternativa de previas de mayor ganancia.
-    'Audient iD14 MkII': 9.2,
-    'Electro-Voice RE20': 9.0,
-    'Universal Audio Apollo Twin X Gen 2': 8.9,
-  },
+  
 
   // --- Sidechain y modulacion ritmica ---
   // Conclusion: "Start with Cableguys ShaperBox 3 for the most versatile
