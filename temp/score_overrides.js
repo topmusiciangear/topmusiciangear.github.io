@@ -521,6 +521,151 @@ module.exports = {
     'Boss RC-5 Loop Station': 8.8,
   },
 
+  // --- Micros de cañon (shotgun) para cine, video y broadcast ---
+  // Conclusion: "the Sennheiser MKH 416 remains the professional default", con
+  // el NTG5 como rival moderno mas ligero y el MKH 50 mandando en interiores
+  // reflectantes.
+  'best-shotgun-mics': {
+    // Conclusion: "the professional default" y "proven reliability".
+    'Sennheiser MKH 416': 9.8,
+    // Conclusion: "the MKH 50 ruling reflective interiors" — el mas caro.
+    'Sennheiser MKH 50': 9.5,
+    // Conclusion: "its lighter modern rival" que "wins on noise floor".
+    'Rode NTG5': 9.4,
+    // Conclusion: "Indie budgets should buy the MKE 600 without hesitation".
+    'Sennheiser MKE 600': 9.2,
+    // Conclusion: "brings RF-bias immunity for humid locations".
+    'Rode NTG3': 9.1,
+    // Conclusion: "For camera-top duty, the VideoMic NTG is the one to beat".
+    'Rode VideoMic NTG': 9.0,
+    // Conclusion: "covers battery-powered short-boom work with a single AA".
+    'Audio-Technica AT897': 8.9,
+    // Conclusion: "the MKE 400 is the easiest first upgrade".
+    'Sennheiser MKE 400': 8.9,
+    'Deity S-Mic 3': 8.9,
+    'Rode VideoMic GO II': 8.9,
+    'Audio-Technica AT875R': 8.8,
+  },
+
+  // --- Pianos digitales para casa y estudio ---
+  // Conclusion: "the Roland FP-30X is the best all-round digital piano for home
+  // players". El CLP-835 es "the premium step-up for players who want the
+  // closest thing to an acoustic grand".
+  'best-digital-pianos': {
+    // Conclusion: "the premium step-up ... closest thing to an acoustic grand".
+    'Yamaha Clavinova CLP-835': 9.8,
+    // Conclusion: "the best all-round digital piano for home players".
+    'Roland FP-30X': 9.6,
+    // Conclusion: "the Yamaha YDP-166 is the classic choice".
+    'Yamaha Arius YDP-166': 9.4,
+    // Conclusion: "brings true escapement feel and 256-note polyphony for the money".
+    'Roland RP107 Digital Piano': 9.3,
+    // Conclusion: "the most affordable console".
+    'Yamaha Arius YDP-146 Digital Piano': 9.2,
+    // Conclusion: "delivers the same keybed" con precio de entrada.
+    'Roland FP-10 Digital Piano': 9.1,
+    // Conclusion: "wins on size" — el compacto.
+    'Casio Privia PX-S1100 Digital Piano': 9.0,
+    // Citado en la tabla sin salir en la conclusion.
+    'Yamaha P-225': 8.9,
+  },
+
+  // --- Amplificadores de guitarra y bajo ---
+  // Conclusion: "Start with a Boss Katana-50 EX for versatility at home and on
+  // stage", y "upgrade to a tube combo ... when you gig".
+  'guitar-bass-amps': {
+    // Conclusion: "Start with a Boss Katana-50 EX" — abre la guia.
+    'Boss Katana-50 EX Gen 3': 9.8,
+    // Conclusion: "the Blues Junior has no headphone or DI out" — tube icono.
+    'Fender Blues Junior IV': 9.6,
+    // Conclusion: "upgrade to a tube combo" en el escalon profesional.
+    'Marshall DSL40CR': 9.4,
+    'Fender Tone Master Deluxe Reverb': 9.3,
+    'Vox AC30': 9.2,
+    // Conclusion: amps de bajo dedicados.
+    'Fender Rumble 500 V3': 9.5,
+    'Markbass CMD 102 P V': 9.4,
+    'Ampeg Rocket Bass RB-115': 9.2,
+    // Conclusion: "the desktop" con bateria y line out.
+    'Yamaha THR30II Wireless Desktop Amp': 9.1,
+    'Positive Grid Spark 2': 9.0,
+    'Fender Mustang GTX100': 8.9,
+  },
+
+  // --- Sistemas PA para sonido en vivo ---
+  // Conclusion: "Start with powered speakers (JBL EON712) and a digital mixer
+  // (Behringer XR18) for small venues", escalando a pasivas para locales grandes.
+  'live-sound-pa': {
+    // Conclusion: "Start with powered speakers (JBL EON712)".
+    'JBL EON712 Active PA Speaker': 9.8,
+    // Conclusion: "and a digital mixer (Behringer XR18)" — el segundo eje.
+    'Behringer X Air XR18': 9.6,
+    // Conclusion: "Scale up to passive speakers with separate amplifiers".
+    // OJO: el veredicto nombra el JBL VTX A12 y el Yamaha TF1 para salas
+    // grandes, pero ninguno de los dos esta en el catalogo ni en la tabla.
+    'EV ZLX-12P-G2 Active PA Speaker': 9.4,
+    'QSC K12.2 Active PA Speaker': 9.3,
+    // Citados en la tabla como alternativas del escalon de saldo.
+    'JBL PRX ONE Active PA Column': 9.2,
+    'Yamaha Stagepas 1K MKII Active PA Mixer': 9.2,
+    'Yamaha DXR12mkII Active PA Speaker': 9.1,
+    'Electro-Voice EVERSE 12 Active PA Speaker': 9.0,
+    'Alto Professional TS412 Active PA Speaker': 9.0,
+    'LD Systems ICOA 12 A BT Active PA Speaker': 8.9,
+  },
+
+  // --- Subwoofers activos para bandas ---
+  // Conclusion: "For a working rig, the ELX200-18SP stands out: light enough to
+  // load alone, loud enough for real gigs". El KS118 es "one of the venue kings".
+  // OJO: la tabla de esta guia solo lista el QSC KS118 de los cinco productos
+  // que menciona la conclusion (faltan ELX200-18SP, SUB 8004-AS, PRX918XLF y
+  // DXS18XLF). Pendiente de anadirlos al catalogo.
+  'best-live-subwoofers': {
+    // Conclusion: "one of the venue kings with the best cardioid".
+    'QSC KS118': 9.6,
+  },
+
+  // --- Superficies de control DAW ---
+  // Conclusion: "The SSL UF8 is the best all-around DAW control surface" y el
+  // FaderPort 8 "the best value". OJO: el veredicto nombra tambien el
+  // Behringer X-Touch ("budget king"), el Avid S1 y el Mackie MCU Pro, que NO
+  // estan en la tabla de esta guia.
+  'midi-controllers': {
+    // Conclusion: "the best all-around DAW control surface".
+    'SSL UF8': 9.8,
+    // Conclusion: "the best value".
+    'PreSonus FaderPort 8': 9.6,
+  },
+
+  // --- Estudio domestico por niveles ---
+  // Conclusion: "Tier 2 is the one to buy if you are going to sing" — el NT1
+  // 5th Gen con 32 bits float y el ATH-M50x que "no flatter anything you mix".
+  'starter-studio': {
+    // Conclusion: el micro del nivel 2, el que registra 32 bits float.
+    'Rode NT1 5th Generation': 9.6,
+    // Conclusion: "will not flatter anything you mix" — el headphone clave.
+    'Audio-Technica ATH-M50x': 9.5,
+    // Conclusion: "do not skip the acoustic treatment" — el mas citado.
+    'G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)': 9.4,
+    // Conclusion: el soporte y el tratamiento "carry over" entre niveles.
+    'K&M 210/2 Mic Stand': 9.3,
+    // Nivel 2: interfaz SSL con "SSL character".
+    'SSL 2+ MKII': 9.3,
+    // Nivel 3: el build que "triples the budget".
+    'Focusrite Scarlett 2i2 4th Gen': 9.2,
+    'Universal Audio Apollo Twin X Gen 2': 9.2,
+    'Neumann TLM 102': 9.1,
+    'Yamaha HS8': 9.1,
+    // Nivel 1: entradaeconomica.
+    'Rode NT1 Signature Series': 9.0,
+    'Aston Microphones Shield GN Pop Filter': 9.0,
+    'Mogami Gold Studio XLR Cable': 9.0,
+    'KRK Rokit 7 G5': 9.0,
+    'Sony MDR-7506': 8.9,
+    'PreSonus Eris Studio 5': 8.9,
+    'Audio-Technica ATH-M20x': 8.7,
+  },
+
   // --- Auriculares economicos (menos de 150 $) ---
   // Conclusion: "the HD 560S is the open-back winner: its linear tuning and
   // angled drivers make it the most accurate of the eight".
