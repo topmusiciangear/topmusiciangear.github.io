@@ -373,4 +373,75 @@ module.exports = {
     'KRK Rokit 5 G5': 8.7,
     'PreSonus Eris Studio 5': 8.7,
   },
+
+  // --- Micros XLR economicos (menos de 200 $) ---
+  // Conclusion: "Buy the SM57 first — it should be the first microphone every
+  // musician owns". El NT1 Signature es "the quietest at any price" y el AT2035
+  // "the versatile everyday studio mic". El resto son dinamicos de escenario.
+  'budget-mics': {
+    // Conclusion: "the most recorded microphone in history", el primero de todos.
+    'Shure SM57': 9.8,
+    // Conclusion: "the most popular vocal mic in the world".
+    'Shure SM58': 9.6,
+    // Conclusion: "the quietest large-diaphragm condenser at any price".
+    'Rode NT1 Signature': 9.5,
+    // Conclusion: "the best entry point into condenser recording".
+    'Audio-Technica AT2020': 9.4,
+    // Conclusion: "the versatile everyday studio mic" con pad y filtro.
+    'Audio-Technica AT2035': 9.3,
+    // Conclusion: "the best broadcast-style dynamic for podcasting".
+    'Rode PodMic': 9.2,
+    // Conclusion: "the best first podcast mic" (USB-C y XLR en un cuerpo).
+    'Samson Q2U USB/XLR Microphone': 9.1,
+    // Conclusion: "adds tap-to-mute and gain control for streamers".
+    'FIFINE AmpliTank K688 Dynamic USB/XLR Microphone': 9.0,
+    // Conclusion: "the premium dynamic that punches above its price".
+    'sE Electronics V7': 8.9,
+    // Conclusion: "the broadcast dynamic built for desk setups".
+    'Elgato Wave DX': 8.9,
+    // Conclusion: "the hybrid for broadcasters who want USB and XLR flexibility".
+    'Samson Q9U XLR/USB Microphone': 8.9,
+    // Conclusion: "the premium stage dynamics that survive the road".
+    'Sennheiser e935': 8.9,
+    'Shure Beta 58A': 8.9,
+    'Sennheiser e945': 8.9,
+    'Electro-Voice ND86': 8.9,
+    'AKG D5': 8.9,
+    // Conclusion: "gives streamers the most hardware per dollar".
+    'Maono PD200X Dynamic Microphone': 8.9,
+    // Conclusion: "entry-level condensers" y "ultra-budget dynamics".
+    'Samson C01 Studio': 8.8,
+    'AKG P120 Large-Diaphragm': 8.8,
+    'MAONO PD100 Gen2 USB/XLR Dynamic Microphone': 8.8,
+    'Behringer B 906': 8.8,
+    'FIFINE K669D XLR': 8.8,
+    // Conclusion: "the best starting point if your budget is absolute floor".
+    'Behringer XM8500 Ultravoice': 8.7,
+  },
+
+  // --- Micros USB economicos (menos de 110 $) ---
+  // Conclusion: "The Samson Q2U is the best all-round budget USB mic" y el
+  // NT-USB Mini "the premium pick" del techo de precio.
+  'budget-usb-mics': {
+    // Conclusion: "the best all-round budget USB mic" (abre el reparto).
+    'Samson Q2U USB/XLR Microphone': 9.8,
+    // Conclusion: "If you want the best build for the money, the premium pick".
+    'Rode NT-USB Mini Studio Condenser Microphone': 9.5,
+    // Conclusion: "the budget dynamic that ignores your keyboard".
+    'FIFINE AmpliGame AM8 Dynamic USB Microphone': 9.3,
+    // Conclusion: "gives you the most hardware per dollar".
+    'Maono PD200X Dynamic Microphone': 9.2,
+    'FIFINE AmpliTank K688 Dynamic USB/XLR Microphone': 9.1,
+    // Conclusion: "deliver proven performance" en el presupuesto mas ajustado.
+    'TONOR TC-777 USB Microphone': 9.0,
+    'FIFINE AmpliGame A6V USB Gaming Microphone': 9.0,
+    // Conclusion: "the best compact condenser at this price".
+    'Razer Seiren V3 Mini': 8.9,
+    'Maono PM461 USB Microphone': 8.9,
+    'Blue Yeti Nano USB Condenser Microphone': 8.9,
+    'FIFINE T669 USB Microphone Kit': 8.9,
+    // Conclusion: "the compact HyperX SoloCast as an elegant alternative".
+    'HyperX SoloCast 2': 8.8,
+    'HyperX SoloCast USB Condenser Microphone': 8.8,
+  },
 };

@@ -41,20 +41,37 @@ for (const [guideId, map] of Object.entries(overrides)) {
   }
 }
 
-// Comprobacion: si un producto fue escrito mas de una vez, gana la ULTIMA
-// asignacion. Sin esto, el orden de objeto de score_overrides.js manda.
+// Comprobacion de colisiones entre guias. Un producto puntuado en varias guias
+// recibe UNA sola nota. Gana la guia donde el producto ocupa el puesto mas
+// alto de su propio veredicto (indice menor en la lista de la guia): si en una
+// guia es el flagship y en otra es una alternativa, manda la primera.
 const porProducto = {};
-escribio.forEach(e => { porProducto[e.id] = e; });
-const colisiones = Object.values(porProducto).filter(e =>
-  escribio.filter(x => x.id === e.id).length > 1);
-if (colisiones.length) {
-  console.log('Productos puntuados en mas de una guia (gana la ultima): ' + colisiones.length);
-  colisiones.forEach(c => {
-    const todas = escribio.filter(x => x.id === c.id);
-    console.log('   id=' + c.id + ' "' + c.title + '": ' +
-      todas.map(t => t.score + '(' + (todas.findIndex(x => x === t)) + ')').join(' vs ') +
-      '  -> final ' + c.score);
+escribio.forEach((e, i) => {
+  const orden = Object.keys(overrides);
+  const guiasDelProducto = orden.filter(gid => {
+    const map = overrides[gid];
+    return Object.keys(map).some(n => { const q = findProduct(n); return q && q.id === e.id; });
   });
+  e.guias = guiasDelProducto;
+  e.rank = Math.min(...guiasDelProducto.map(gid =>
+    Object.keys(overrides[gid]).indexOf(
+      Object.keys(overrides[gid]).find(n => { const q = findProduct(n); return q && q.id === e.id; })
+    )
+  ));
+  if (!porProducto[e.id] || e.rank < porProducto[e.id].rank) porProducto[e.id] = e;
+});
+
+const colisiones = Object.values(porProducto).filter(e => e.guias.length > 1);
+if (colisiones.length) {
+  console.log('Productos en mas de una guia (gana donde tiene el puesto mas alto): ' + colisiones.length);
+  colisiones.forEach(c => {
+    console.log('   id=' + c.id + ' "' + c.title + '"');
+    console.log('      ' + c.guias.map((g, i) => g + '=' + c.score + '@pos' + c.rank).join('  ') +
+      '  -> ' + c.score);
+  });
+  // Reaplicar en orden de rank: al final gana el de mejor posicion
+  const ordenadas = [...Object.values(porProducto)].sort((a, b) => b.rank - a.rank);
+  ordenadas.forEach(e => { const prod = products.find(p => p.id === e.id); if (prod) prod.score = e.score; });
 }
 
 const reviewed = new Set(Object.keys(overrides));
