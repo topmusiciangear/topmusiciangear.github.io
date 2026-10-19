@@ -3,32 +3,32 @@ const B = 'C:/Users/Daniel/projects/topmusiciangear/';
 const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
 const g = guides.find(x => x.id === 'best-headphones-for-mixing');
 
-g.faq = [
+g.faq.push(
   {
-    q: 'Is the Audeze MM-500 the best headphone for mixing in this guide?',
-    q_es: '¿Son los Audeze MM-500 los mejores auriculares para mezclar de esta guía?',
-    a: 'Yes, if you want one reference that behaves like a nearfield monitor. The planar magnetic drivers keep the low end extended and the top end straight, so mixes made on the MM-500 hold up on speakers better than on the average headphone. The machined aluminium and spring steel chassis is lighter than the LCD-X it resembles, and the open-back design breathes like a treated room. The honest limit is the format: it leaks sound, so it will never track, and at $1,699 it is the most expensive pair here. Audeze lists it as a legacy product, so availability can be patchy.',
-    a_es: 'Sí, si quieres una referencia que se comporte como un monitor de campo cercano. Los drivers planares mantienen los graves extendidos y los agudos rectos, así que las mezclas hechas en los MM-500 se sostienen en altavoces mejor que en un auricular medio. El chasis de aluminio mecanizado y acero es más ligero que el LCD-X al que se parece, y el diseño abierto respira como una sala tratada. El límite honesto es el formato: fuga sonido, así que nunca grabará, y a $1.699 es el más caro de la guía. Audeze lo lista como producto legacy, así que la disponibilidad puede ser irregular.',
+    q: 'Is the Sennheiser HD 490 Pro Plus the modern reference pick?',
+    q_es: '¿Es el Sennheiser HD 490 Pro Plus la referencia moderna?',
+    a: 'Yes, for neutrality with modern low-end extension. The frequency response is virtually flat with no coloration, and unlike the old 300-ohm classics it adds deep, defined low end at an easy-to-drive 130 ohms, so no headphone amp is required. Two switchable ear pad sets tune the presentation and the included dearVR MIX-SE plugin adds a virtual-room translation check. The trade is price: at $499 it is nearly triple the DT 770 Pro, and like all open-backs it leaks sound.',
+    a_es: 'Sí, por neutralidad con extensión de graves moderna. La respuesta de frecuencia es prácticamente plana, sin coloración, y a diferencia de los clásicos de 300 ohms añade graves profundos y definidos con 130 ohms fáciles de alimentar, así que no hace falta amplificador. Dos juegos de almohadillas ajustan la presentación y el plugin dearVR MIX-SE incluido añade una comprobación de traducción en sala virtual. La contrapartida es el precio: a $499 es casi el triple que el DT 770 Pro, y como todos los abiertos fuga sonido.',
   },
   {
-    q: 'Is the Neumann NDH 30 the portable mastering room?',
-    q_es: '¿Es el Neumann NDH 30 la sala de masterización portátil?',
-    a: 'Yes, for engineers who already trust Neumann monitors. The NDH 30 resolves detail, imaging and depth the way KH-line speakers do, which makes it a portable mastering reference you can take to unfamiliar rooms. Its moderate impedance drives far more easily than classic high-impedance references, so a good interface suffices. The trade is that it wants a good amp and a quiet room, at 354 g it is no featherweight, and the silver finish shows studio wear. It will not track or commute.',
-    a_es: 'Sí, para ingenieros que ya confían en los monitores Neumann. El NDH 30 resuelve detalle, imagen y profundidad como los altavoces de la línea KH, lo que lo convierte en una referencia de masterización portátil que puedes llevar a salas desconocidas. Su impedancia moderada se alimenta mucho más fácil que las referencias clásicas de alta impedancia, así que basta una buena interfaz. La contrapartida es que pide un buen amplificador y una sala tranquila, con 354 g no es un plumazo y el acabado plateado muestra el desgaste de estudio. No grabará ni servirá para moverse.',
+    q: 'Is the Sennheiser HD 600 the sweet-spot flat reference?',
+    q_es: '¿Es el Sennheiser HD 600 la referencia plana de punto ideal?',
+    a: 'Yes, for the mixer who finds the DT 990 Pro fatiguing. It has been the mixing yardstick since 1997: a flat midrange that reports vocals, guitars and snares without the DT 990 treble peak that fatigues ears and triggers harsh EQ cuts. Mixes built here translate because nothing was flattered. The open-back design breathes like a treated room and every wearable part is replaceable. The honest catch is 300 ohms: it demands a real headphone amp, and a weak laptop jack leaves it quiet and dull.',
+    a_es: 'Sí, para el mezclador que encuentra cansado el DT 990 Pro. Es el patrón de mezcla desde 1997: un rango medio plano que informa de voces, guitarras y cajas sin el pico de agudos del DT 990 que fatiga los oídos y provoca recortes de EQ duros. Las mezclas hechas aquí se traducen porque nada se adornó. El diseño abierto respira como una sala tratada y cada parte ponible es reemplazable. El problema honesto son 300 ohms: pide un amplificador de auriculares de verdad, y un conector de portátil débil lo deja bajo y apagado.',
   },
   {
-    q: 'Is the Beyerdynamic DT 990 Pro good for mixing?',
-    q_es: '¿Sirven los Beyerdynamic DT 990 Pro para mezclar?',
-    a: 'For budget mixing, yes. The open-back design gives a wide soundstage with excellent stereo imaging, which makes EQ decisions, stereo placement and reverb levels easier to judge. The lifted treble exposes sibilance and harshness early, which is useful even if it can fatigue ears sensitive to brightness. At 250 ohms it benefits from a headphone amp, but it works with interfaces like the Focusrite Scarlett 2i2. The fixed 3 m coiled cable is not detachable, unlike the M50x.',
-    a_es: 'Para mezcla de presupuesto, sí. El diseño abierto da un escenario sonoro amplio con excelente imagen estéreo, lo que facilita las decisiones de EQ, colocación estéreo y niveles de reverberación. Los agudos realzados exponen sibilancia y dureza desde el principio, lo que es útil aunque puede fatigar a quienes son sensibles al brillo. A 250 ohms se beneficia de un amplificador de auriculares, pero funciona con interfaces como la Focusrite Scarlett 2i2. El cable enrollado fijo de 3 m no es desmontable, a diferencia del M50x.',
+    q: 'Is the Audio-Technica ATH-M50x the best all-purpose headphone?',
+    q_es: '¿Es el Audio-Technica ATH-M50x el mejor auricular polivalente?',
+    a: 'For one pair that has to do everything, yes. It offers a balanced, detailed sound with slightly enhanced low-end that is versatile for both mixing and casual listening, and the collapsible design makes it the best portable option for producers who work in multiple locations. The sound has a slightly forward midrange with detailed highs and punchy bass; the bass is more present than the DT 770, which some mixers love and others find misleading. The ear pads are pleather and can get warm in long sessions — aftermarket velour pads are a worthwhile upgrade.',
+    a_es: 'Para una sola pareja que tenga que hacerlo todo, sí. Ofrece un sonido equilibrado y detallado con graves ligeramente realzados que lo hace versátil tanto para mezclar como para escucha casual, y el diseño plegable lo convierte en la mejor opción portátil para productores que trabajan en varias ubicaciones. El sonido tiene un rango medio ligeramente adelantado con agudos detallados y graves contundentes; los graves están más presentes que en el DT 770, lo que algunos mezcladores aman y otros encuentran engañoso. Las almohadillas son de polipiel y pueden dar calor en sesiones largas; las de terciopelo de terceros son una mejora que merece la pena.',
   },
   {
-    q: 'Is the Beyerdynamic DT 770 Pro good for tracking?',
-    q_es: '¿Sirven los Beyerdynamic DT 770 Pro para grabar?',
-    a: 'Yes, it is the closed-back workhorse. The passive isolation keeps a loud singer from bleeding into the mic, and the velour pads plus gentle clamping make it comfortable through a full album session. The bass extension is excellent, which electronic music producers need to hear sub-bass clearly. The honest trade is that a closed-back cannot tell you what a speaker will do with your low end, so a mix decision made on the 770 needs re-checking elsewhere. At $159 it is the value pick in this guide, and the 80-ohm version is the one to buy for tracking.',
-    a_es: 'Sí, es el caballo de batalla cerrado. El aislamiento pasivo evita que una voz alta se cuele en el micro, y las almohadillas de terciopelo con presión suave lo hacen cómodo durante una sesión completa de álbum. La extensión de graves es excelente, lo que los productores de música electrónica necesitan para oír los subgraves con claridad. La contrapartida honesta es que un cerrado no puede decirte lo que un altavoz hará con tus graves, así que una decisión de mezcla tomada en el 770 necesita revisarse en otro sitio. A $159 es la opción de valor de esta guía, y la versión de 80 ohms es la que hay que comprar para grabar.',
-  },
-];
+    q: 'Is the Sony MDR-7506 the broadcast editing standard?',
+    q_es: '¿Es el Sony MDR-7506 el estándar de edición broadcast?',
+    a: 'For editing and broadcast, yes. It has served since 1991 as a closed-back, collapsible workhorse: 40mm drivers, 63 ohms, 106dB sensitivity, a 10Hz–20kHz response, a fixed 3m coiled cable and 230 grams. Those traits explain long sessions and reliable tracking cues: isolation, foldable transport and a familiar midrange that exposes edits. The honest limit for mixing is perspective: the closed presentation and accentuated upper register inform decisions but rarely replace open-back cross-checks or monitor confirmation.',
+    a_es: 'Para edición y broadcast, sí. Lleva desde 1991 como caballo de batalla cerrado y plegable: drivers de 40 mm, 63 ohms, 106 dB de sensibilidad, respuesta de 10 Hz a 20 kHz, cable enrollado fijo de 3 m y 230 gramos. Esas características explican sesiones largas y señales de grabación fiables: aislamiento, transporte plegable y un rango medio conocido que deja al descubierto las ediciones. El límite honesto para mezclar es la perspectiva: la presentación cerrada y el registro superior acentuado sirven para tomar decisiones, pero rara vez sustituyen las comprobaciones con abiertos o la confirmación con monitores.',
+  }
+);
 
 fs.writeFileSync(B + 'data/guides.json', JSON.stringify(guides, null, 2), 'utf8');
-console.log('FAQs añadidas: ' + g.faq.length);
+console.log('FAQs totales: ' + g.faq.length);
