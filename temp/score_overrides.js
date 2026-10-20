@@ -91,6 +91,8 @@ var GUIDE_SCORES = {
   "Excite Audio Motion: Harmonic": 9
  },
  "beginner-bass-guitars": {
+  "Bajo Ibanez GSR200 GIO": 9,
+  "Ibanez GSR200 GIO Bass": 9,
   "Squier Affinity Series Precision Bass PJ": 9.5,
   "Yamaha TRBX304": 9.8,
   "Ibanez SR300E": 9.4,
@@ -100,9 +102,7 @@ var GUIDE_SCORES = {
   "Sire Marcus Miller V5R 4-String Bass": 9.4,
   "Squier Sonic Bronco Bass": 9,
   "Yamaha BB234": 9.1,
-  "Ibanez TMB30 Talman": 8.9,
-  "Bajo Sire Marcus Miller V5 4 Cuerdas": 9,
-  "Sire Marcus Miller V5 4-String Bass": 9
+  "Ibanez TMB30 Talman": 8.9
  },
  "beginner-guitar": {
   "Yamaha FG800 Acústica": 9.8,
