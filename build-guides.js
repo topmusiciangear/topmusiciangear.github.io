@@ -154,7 +154,7 @@ function criticalCss() {
     '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}',
-    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card-img--cutout{background:rgba(255,255,255,.28)}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
@@ -409,6 +409,21 @@ function productRatingLine(p, lang) {
 
 let CURRENT_GUIDE_CAT = null;
 let CURRENT_GUIDE_ID = null;
+// Fotos con el fondo recortado (WebP transparente) por guía. Solo afectan a las cards de esa guía.
+const GUIDE_CARD_IMAGES = {
+  'best-monitors': {
+    116: 'img/guides/best-monitors/116.webp',
+    20: 'img/guides/best-monitors/20.webp',
+    19: 'img/guides/best-monitors/19.webp',
+    21: 'img/guides/best-monitors/21.webp',
+    199: 'img/guides/best-monitors/199.webp',
+    305: 'img/guides/best-monitors/305.webp',
+    331: 'img/guides/best-monitors/331.webp',
+    300: 'img/guides/best-monitors/300.webp',
+    304: 'img/guides/best-monitors/304.webp',
+    307: 'img/guides/best-monitors/307.webp'
+  }
+};
 let CURRENT_LANG = 'en';
 
 function storeChips(p, lang) {
@@ -6301,8 +6316,10 @@ function productCard(p, lang) {
   const title = (lang === 'es' && p.title_es ? p.title_es : p.title) + unitLabel;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
+  const cutout = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
+  const imgSrc = cutout ? '../' + cutout : ((p.img || "").startsWith('http') ? p.img : '../' + p.img);
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img"><img src="${(p.img||"").startsWith('http') ? p.img : '../' + p.img}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>
+    <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>
     <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
         <h3 class="guide-product-card-title">${title}</h3>
