@@ -229,16 +229,16 @@ var GUIDE_SCORES = {
  },
  "best-beginner-electric-guitar": {
   "Yamaha Pacifica 112V": 9.6,
-  "Squier Affinity Series Stratocaster": 9.5,
-  "Squier Sonic Stratocaster HT": 9.4,
+  "Squier Affinity Series Stratocaster": 9.4,
+  "Squier Sonic Stratocaster HT": 9.5,
   "Epiphone Les Paul Special-II E1": 9.3,
   "Jet Guitars JS-300": 9.2,
   "Ibanez Gio GRG121DX": 9.1,
   "Squier Sonic Mustang": 9,
   "Guitarra Eléctrica Inteligente Enya Nova Go Sonic": 9.2,
   "Enya Nova Go Sonic Smart Electric Guitar": 9.2,
-  "Yamaha Revstar Element RSE20": 9.8,
-  "Squier Debut Series Stratocaster": 8.9
+  "Yamaha Revstar Element RSE20": 9.4,
+  "Squier Debut Series Stratocaster": 8.8
  },
  "best-compact-mixers": {
   "Behringer X32 Rack": 9.8,
@@ -426,15 +426,15 @@ var GUIDE_SCORES = {
   "Shure Beta 58A": 9.2
  },
  "best-interface": {
-  "Focusrite Scarlett 2i2 4th Gen": 9.7,
-  "SSL 2+ MKII": 9.6,
-  "Universal Audio Apollo Twin X Gen 2": 9.5,
+  "Focusrite Scarlett 2i2 4th Gen": 9.3,
+  "SSL 2+ MKII": 9.4,
+  "Universal Audio Apollo Twin X Gen 2": 9.7,
   "RME Babyface Pro FS": 9.8,
-  "Audient iD14 MkII": 9.8,
-  "MOTU M2": 9.4,
-  "Universal Audio Volt 2": 9.2,
-  "Universal Audio Volt 276": 9.2,
-  "IK Multimedia AXE I/O": 9.1
+  "Audient iD14 MkII": 9.5,
+  "MOTU M2": 9.2,
+  "Universal Audio Volt 2": 9.1,
+  "Universal Audio Volt 276": 9.1,
+  "IK Multimedia AXE I/O": 9
  },
  "best-keyboard": {
   "Nord Stage 4 88": 9.8,
@@ -781,13 +781,13 @@ var GUIDE_SCORES = {
  "budget-interfaces": {
   "Focusrite Scarlett 2i2 4th Gen": 9.7,
   "MOTU M2": 9.4,
-  "Universal Audio Volt 2": 9.2,
+  "Universal Audio Volt 2": 9.1,
   "SSL 2+ MKII": 9.6,
   "Audient iD14 MkII": 9.8,
-  "Audient EVO 4": 8.9,
+  "Audient EVO 4": 9,
   "Behringer U-Phoria UMC1820": 8.8,
   "Universal Audio Volt 276": 9.2,
-  "Arturia MiniFuse 2": 8.9
+  "Arturia MiniFuse 2": 8.7
  },
  "budget-mics": {
   "Micrófono Dinámico sE Electronics V7": 8.9,
@@ -1262,8 +1262,8 @@ var GUIDE_SCORES = {
   "Shure SM7B": 9.6
  },
  "rme-vs-motu": {
-  "RME Babyface Pro FS": 9.7,
-  "MOTU M2": 9.5
+  "RME Babyface Pro FS": 9.8,
+  "MOTU M2": 9.4
  },
  "rode-wireless-pro-vs-dji-mic-2": {
   "DJI Mic 3 (2TX + 1RX + Estuche de Carga)": 9.7,
@@ -1346,8 +1346,8 @@ var GUIDE_SCORES = {
   "PreSonus Eris Studio 5": 8.9,
   "KRK Rokit 7 G5": 9.3,
   "Yamaha HS8": 9.8,
-  "Universal Audio Apollo Twin X Gen 2": 9.5,
-  "Neumann TLM 102": 9.6,
+  "Universal Audio Apollo Twin X Gen 2": 9.8,
+  "Neumann TLM 102": 9.8,
   "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)": 9.4,
   "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)": 9.4,
   "Soporte de Micrófono K&M 210/2": 9.6,
