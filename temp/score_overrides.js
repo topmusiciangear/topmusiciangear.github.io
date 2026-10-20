@@ -91,15 +91,13 @@ var GUIDE_SCORES = {
   "Excite Audio Motion: Harmonic": 9
  },
  "beginner-bass-guitars": {
-  "Bajo Ibanez GSR200 GIO": 9,
-  "Ibanez GSR200 GIO Bass": 9,
+  "Ibanez GSR200 GIO": 9.3,
   "Squier Affinity Series Precision Bass PJ": 9.5,
   "Yamaha TRBX304": 9.8,
   "Ibanez SR300E": 9.4,
   "Sterling by Music Man StingRay Ray4": 9.3,
   "Squier Classic Vibe '60s Jazz Bass": 9.3,
-  "Bajo Sire Marcus Miller V5R 4 Cuerdas": 9.4,
-  "Sire Marcus Miller V5R 4-String Bass": 9.4,
+  "Sire Marcus Miller V5R": 9.4,
   "Squier Sonic Bronco Bass": 9,
   "Yamaha BB234": 9.1,
   "Ibanez TMB30 Talman": 8.9
@@ -221,8 +219,7 @@ var GUIDE_SCORES = {
   "Bajo Hofner Ignition Violin Bass (Beatle Bass)": 8.9,
   "Hofner Ignition Violin Bass (Beatle Bass)": 8.9,
   "Yamaha TRBX304": 9.8,
-  "Bajo Sire Marcus Miller V5R 4 Cuerdas": 9.4,
-  "Sire Marcus Miller V5R 4-String Bass": 9.4,
+  "Sire Marcus Miller V5R": 9.4,
   "Sterling by Music Man StingRay Ray4": 9.5,
   "Yamaha BB434": 9.9,
   "Ibanez SR300E": 9.2
@@ -551,7 +548,8 @@ var GUIDE_SCORES = {
   "ADAM Audio T5V": 8.9,
   "Genelec 8030C": 9.8,
   "KRK Rokit 5 G5": 8.7,
-  "PreSonus Eris Studio 5": 8.9
+  "PreSonus Eris Studio 5": 8.9,
+  "Alesis ELEVATE 4": 9.5
  },
  "best-multi-effects-pedals": {
   "Line 6 Helix HX Stomp": 9.8,
