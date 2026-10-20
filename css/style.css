@@ -1984,16 +1984,16 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Tarjeta con la foto recortada (WebP transparente): gris translúcido en vez de blanco */
 .guide-product-card-img--cutout {
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .guide-product-card .guide-product-card-img--cutout {
-  background: rgba(255, 255, 255, 0.26);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 /* La card también translúcida: así el fondo de la página se ve a través del gris */
 .guide-product-card--cutout {
-  background: rgba(255, 255, 255, 0.035);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 /* Foto completa dentro de la tarjeta (sin recortar el producto) */
@@ -2006,20 +2006,20 @@ footer ul li a:hover { color: var(--accent); }
 /* Lightbox: fondo gris translúcido y esquinas redondeadas como las cards */
 #lightbox img[src*="/img/cut/"],
 #lightbox img[src*="/img/guides/"] {
-  background: rgba(255, 255, 255, 0.26) !important;
+  background: rgba(255, 255, 255, 0.45) !important;
   border-radius: 14px !important;
   border: 1px solid #2a2a2a;
 }
 
 .guide-section-img.guide-section-img--cutout {
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.45);
   object-fit: contain;
   padding: 6px;
   box-sizing: border-box;
 }
 
 .guide-detail .guide-detail-img.guide-detail-img--cutout {
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .guide-detail .guide-detail-img--cutout img {
