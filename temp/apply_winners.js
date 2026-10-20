@@ -192,7 +192,7 @@ const OPEN_ES = {
     (n) => `Puestos uno frente al otro, ${n} sale mejor.`,
     (n) => `La comparación directa se resuelve a favor de ${n}.`,
     (n) => `El pulso se lo lleva ${n}.`,
-    (n) => `${n} aguanta mejor la comparación.`,
+    (n) => `${n} sale ganando en la comparativa.`,
     (n) => `Comparados punto por punto, ${n} convence más.`,
     (n) => `La balanza acaba del lado de ${n}.`,
   ],

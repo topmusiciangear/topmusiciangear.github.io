@@ -98,7 +98,7 @@ module.exports = {
   'hd490-pro-vs-dt990': 'Sennheiser HD 490 Pro Plus',
   'hs8-vs-rokit-7': 'Yamaha HS8',
   'ie900-vs-se846': 'Sennheiser IE 900',
-  'j48-vs-rndi': 'Interfaz Directa Activa Rupert Neve Designs RNDI',
+  'j48-vs-rndi': 'Caja Directa Activa Radial J48 MK2',
   'jbl-vs-kali': 'Kali Audio LP-6 V2',
   'k371-vs-mdr7506': 'AKG K371',
   'katana-vs-dsl': 'Marshall DSL40CR',
