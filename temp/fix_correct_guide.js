@@ -19,7 +19,7 @@ if (q2) {
   q2.sections.push({
     heading_es: 'Alesis ELEVATE 4: guía de ondas + salida sub en par económico',
     products: [1052],
-    content_es: '<strong>El Alesis ELEVATE 4 aporta tres ventajas técnicas que no todos los monitores económicos ofrecen a la vez:</strong> (1) Guía de ondas elíptica integrada: su tweeter de seda sobre bocina interna ovalada distribuye las agudas de forma amplia; te mueves por el escritorio y mantienes el punto dulce estéreo. (2) Salida dedicada para subwoofer: conexión trasera física para añadir subwoofer activo en el futuro; los Mackie, M-Audio o PreSonus de la lista no lo permiten. (3) Gabinete MDF de alta densidad: chasis pesado de madera acústica densa que elimina resonancias y vibraciones al subir el volumen, sonido más limpio que el Edifier R1280T original.',
+    content_es: '<strong>El Alesis ELEVATE 4 aporta tres ventajas técnicas que no todos los monitores económicos ofrecen a la vez:</strong> (1) Guía de ondas elíptica integrada: su tweeter de seda sobre bocina interna ovalada distribuye las agudas de forma amplia; te mueves por el escritorio y mantienes el punto dulce estéreo. (2) Salida dedicada para subwoofer: conexión trasera física para añadir subwoofer activo en el futuro; los Mackie, M-Audio o PreSonus de la lista no lo permiten. (3) Gabinete MDF de alta densidad: chasis pesado de madera acústica densa que elimina resonancias y vibraciones al subir el volumen.',
     pros_es: [
       'Guía de ondas elíptica: punto dulce estéreo amplio y tolerante',
       'Salida subwoofer trasera: única en esta gama de precio',
