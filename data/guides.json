@@ -59516,10 +59516,6 @@
           "title_es": "FIFINE AmpliGame AM8"
         },
         {
-          "title": "HyperX SoloCast 2",
-          "title_es": "HyperX SoloCast 2"
-        },
-        {
           "title": "Rode NT-USB Mini",
           "title_es": "Rode NT-USB Mini"
         },
@@ -59552,10 +59548,6 @@
           "title_es": "Razer Seiren V3"
         },
         {
-          "title": "HyperX SoloCast",
-          "title_es": "HyperX SoloCast"
-        },
-        {
           "title": "FIFINE AmpliGame A6V",
           "title_es": "FIFINE AmpliGame A6V"
         }
@@ -59572,10 +59564,6 @@
             {
               "value": "Streaming with RGB",
               "value_es": "Streaming con RGB"
-            },
-            {
-              "value": "Compact streaming",
-              "value_es": "Streaming compacto"
             },
             {
               "value": "Studio condenser sound",
@@ -59610,10 +59598,6 @@
               "value_es": "Streaming compacto"
             },
             {
-              "value": "Gaming & streaming",
-              "value_es": "Gaming y streaming"
-            },
-            {
               "value": "Budget gaming",
               "value_es": "Gaming económico"
             }
@@ -59621,7 +59605,6 @@
           "values_es": [
             "Primer micrófono de podcast",
             "Streaming con RGB",
-            "Streaming compacto",
             "Streaming con iluminación",
             "Controlador de efectos",
             "Grabación de voz",
@@ -59658,20 +59641,12 @@
               "value_es": "Condensador"
             },
             {
-              "value": "Condenser",
-              "value_es": "Condensador"
-            },
-            {
               "value": "Dynamic",
               "value_es": "Dinámico"
             },
             {
               "value": "Dynamic",
               "value_es": "Dinámico"
-            },
-            {
-              "value": "Condenser",
-              "value_es": "Condensador"
             },
             {
               "value": "Condenser",
@@ -59720,16 +59695,8 @@
               "value_es": "USB"
             },
             {
-              "value": "USB",
-              "value_es": "USB"
-            },
-            {
               "value": "USB-C/XLR",
               "value_es": "USB-C/XLR"
-            },
-            {
-              "value": "USB",
-              "value_es": "USB"
             },
             {
               "value": "USB",
@@ -59749,10 +59716,6 @@
           "label": "Polar Pattern",
           "label_es": "Patrón polar",
           "values": [
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
             {
               "value": "Cardioid",
               "value_es": "Cardioide"
@@ -59796,10 +59759,6 @@
             {
               "value": "Cardioid",
               "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
             }
           ]
         },
@@ -59814,10 +59773,6 @@
             {
               "value": "50 Hz – 16 kHz",
               "value_es": "50 Hz – 16 kHz"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
             },
             {
               "value": "20 Hz – 20 kHz",
@@ -59852,10 +59807,6 @@
               "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "20 Hz – 20 kHz",
-              "value_es": "20 Hz – 20 kHz"
-            },
-            {
               "value": "60 Hz – 18 kHz",
               "value_es": "60 Hz – 18 kHz"
             }
@@ -59872,10 +59823,6 @@
             {
               "value": "16-bit/48kHz",
               "value_es": "16-bit/48kHz"
-            },
-            {
-              "value": "24-bit/96kHz",
-              "value_es": "24-bit/96kHz"
             },
             {
               "value": "24-bit/48kHz",
@@ -59908,10 +59855,6 @@
             {
               "value": "24-bit/96kHz",
               "value_es": "24-bit/96kHz"
-            },
-            {
-              "value": "16-bit/48kHz",
-              "value_es": "16-bit/48kHz"
             },
             {
               "value": "16-bit/44.1kHz",
@@ -59932,10 +59875,6 @@
               "value_es": "Sí"
             },
             {
-              "value": "No",
-              "value_es": "No"
-            },
-            {
               "value": "Yes",
               "value_es": "Sí"
             },
@@ -59958,10 +59897,6 @@
             {
               "value": "Yes",
               "value_es": "Sí"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
             },
             {
               "value": "No",
@@ -60038,36 +59973,6 @@
           "El software es un extra agradable pero no esencial",
           "Ocupa más espacio en el escritorio con el soporte completo",
           "La cápsula dinámica pide más ganancia que un condensador — las voces suaves necesitan subir la perilla"
-        ]
-      },
-      {
-        "name": "HyperX SoloCast 2",
-        "name_es": "HyperX SoloCast 2",
-        "pros": [
-          "Clear, natural condenser voice at a great price",
-          "Tap-to-mute light turns red when muted",
-          "Plug-and-play USB-C on PC, Mac, PS5 and PS4",
-          "Compact body with good looks",
-          "Tap-to-mute with LED indicator for hassle-free streaming"
-        ],
-        "pros_es": [
-          "Voz de condensador clara y natural a un gran precio",
-          "La luz de silencio de un toque se pone roja cuando está en silencio",
-          "USB-C plug-and-play en PC, Mac, PS5 y PS4",
-          "Cuerpo compacto con buen aspecto",
-          "Silencio táctil con LED para streaming sin líos"
-        ],
-        "cons": [
-          "No headphone jack for monitoring",
-          "Condenser hears more room than a dynamic",
-          "Gain is adjusted vía software, not on the body",
-          "No XLR path for future upgrades"
-        ],
-        "cons_es": [
-          "Sin salida de auriculares para monitorización",
-          "El condensador oye más sala que un dinámico",
-          "La ganancia se ajusta por software, no en el cuerpo",
-          "Sin salida XLR para mejorar en el futuro"
         ]
       },
       {
