@@ -445,8 +445,8 @@ var GUIDE_SCORES = {
   "Akai MPK Mini MK4": 9,
   "Novation Launchkey Mini 25 MK4": 9,
   "Roland GO:KEYS 3": 9.1,
-  "M-Audio Hammer 88": 8.9,
-  "Native Instruments Kontrol S61 MK3": 8.7
+  "M-Audio Hammer 88": 9,
+  "Native Instruments Kontrol S61 MK3": 9.4
  },
  "best-live-sound-mixers": {
   "Yamaha MG16XU": 9.1,
