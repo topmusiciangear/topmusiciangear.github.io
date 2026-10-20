@@ -883,6 +883,27 @@ La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
 **PROHIBIDO corroborar con otras tiendas (usuario 11/10/2026):** la oferta zZounds SOLO vale si el `Was $` está en NUESTRA URL exacta del catálogo (`products.json` → `stores.zzounds`). Nada de Guitar Center/Sweetwater/email-tuna como prueba.
 **Was-pattern obligatorio (11/10/2026, tras 17 falsos positivos):** el `Was $` solo vale en contexto BUY BOX (`Was $X … $Y … Add to Cart` en el mismo snippet). Banners promo, carruseles, variantes open-box/otro color y precios de categoría NO cuentan.
 
+## 📦 FOTOS DE PRODUCTO GUARDADAS EN EL REPO (20/10/2026)
+
+Las fotos de las guías **ya no se enlazan** a la tienda de origen: se descargan y se guardan en
+`img/products/<md5(url)[:10]>.webp` (máx. 1200 px de lado, WebP q88). Si la tienda borra la foto,
+la bloquea o cierra, la guía se ve igual.
+
+- `data/products.json` → `img` y `data/guides.json` → `image` usan rutas locales (`img/products/...`).
+- `temp/scan_images.js` genera `temp/img_manifest.json` (URLs únicas de productos y guías).
+- `temp/migrate_images.py` descarga cada URL (reutiliza `temp/cut_cache` si ya estaba) y escribe
+  `temp/img_map.json`. Es idempotente: salta las que ya existen.
+- `temp/apply_local_images.js` sustituye las URLs por las rutas locales en los dos JSON (solo reemplazo
+  de texto, no reformatea). Los fallos quedan en `temp/img_failed.json`.
+- `node temp/check_local_imgs.js` verifica que toda foto referenciada existe; `temp/list_missing_imgs.js`
+  lista lo que siga apuntando a una web externa.
+- Producto nuevo: añadir su URL al manifiesto, `python temp/migrate_images.py`, `node temp/apply_local_images.js`
+  y desplegar. El deploy **no** descarga fotos.
+- 20/10/2026: 632 fotos guardadas (49 MB). Pendientes 3 de zZounds (`cf1.zzounds.com` responde 403 a
+  nuestro servidor): Audio-Technica AT875R (id 358), Sennheiser MKH 50-P48 (id 360) y Keeley Caverns V2
+  (id 595). Cuando el usuario envíe esos archivos, guardarlos como `img/products/<md5(url)>.webp` y
+  apuntar el `img` del producto ahí.
+
 ## 🖼️ RECORTES DE PRODUCTO — **DESACTIVADOS** (20/10/2026)
 
 > ⛔ **ESTADO ACTUAL: DESACTIVADO.** El 20/10/2026 el usuario pidió volver atrás: las guías usan

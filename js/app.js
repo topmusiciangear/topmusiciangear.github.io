@@ -1430,7 +1430,7 @@ function injectGuideJsonLd(guide) {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
-          "image": p.img
+          "image": p.img && p.img.startsWith('http') ? p.img : 'https://topmusiciangear.com/' + (p.img || 'img/og-image.svg')
         };
           if (uAgg) item.aggregateRating = uAgg;
           return item;
