@@ -1,0 +1,12 @@
+const fs = require('fs');
+const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8')).find(x => x.id === 'beginner-bass-guitars');
+const allProducts = [].concat(...g.sections.map(s => s.products || []), g.featuredProducts || []);
+console.log('163 referenced:', allProducts.includes(163));
+console.log('featuredProducts:', JSON.stringify(g.featuredProducts));
+console.log('section products:', g.sections.map(s => JSON.stringify(s.products || [])).join(' '));
+console.log('table cols:', g.productTable.columns.map(c => c.title).join(' | '));
+console.log('GSR200 section idx:', g.sections.findIndex(s => /GSR200/.test((s.heading || '') + (s.heading_es || ''))));
+console.log('scores:', g.sections.filter(s => s.score).map(s => s.score).join(','));
+const s = JSON.stringify(g);
+console.log('Bajo Ibanez/Sire:', /Bajo Ibanez|Bajo Sire/i.test(s));
+console.log('GSR200 occurrences:', (s.match(/GSR200/g) || []).length);
