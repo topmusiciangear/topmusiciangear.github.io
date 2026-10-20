@@ -6592,21 +6592,28 @@ function generateNameVariations(name) {
 // Helper: wrap product names in text with blue span
 function highlightProductNames(text, productNames) {
   if (!text || !productNames || !productNames.length) return text;
-  var result = text;
-  // Build all variations for all product names
-  var allVariations = [];
+  // Los nombres que ya vienen marcados (veredicto/conclusión) se protegen para
+  // que las variaciones cortas no creen spans anidados dentro de ellos.
+  var saved = [];
+  var work = text.replace(/<span class="product-name">[\s\S]*?<\/span>/g, function(m) {
+    saved.push(m);
+    return '\u0000' + (saved.length - 1) + '\u0000';
+  });
+  var variations = [];
   productNames.forEach(function(name) {
-    generateNameVariations(name).forEach(function(v) { allVariations.push(v); });
+    generateNameVariations(name).forEach(function(v) {
+      if (v && v.length > 2 && variations.indexOf(v) === -1) variations.push(v);
+    });
   });
-  // Sort by length descending to match longer names first
-  allVariations.sort(function(a, b) { return b.length - a.length; });
-  allVariations.forEach(function(variation) {
-    if (!variation) return;
-    var escaped = variation.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    var regex = new RegExp('(?<!<span class="product-name">)' + escaped + '(?!<\/span>)', 'g');
-    result = result.replace(regex, '<span class="product-name">$&</span>');
-  });
-  return result;
+  variations.sort(function(a, b) { return b.length - a.length; });
+  if (!variations.length) return text;
+  // Una sola pasada con las variantes ordenadas de más larga a más corta:
+  // evita que "D-28" se marque dentro de "Martin D-28 Dreadnought".
+  var pattern = new RegExp(variations.map(function(v) {
+    return v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }).join('|'), 'g');
+  work = work.replace(pattern, '<span class="product-name">$&</span>');
+  return work.replace(/\u0000(\d+)\u0000/g, function(_, i) { return saved[+i]; });
 }
 
 function buildGuidePage(guide, lang, idx) {

@@ -25,7 +25,13 @@ function cleanName(raw) {
     .replace(/^Amplificador\s+Inteligente\s+para\s+Bajo\s+y\s+Guitarra\s+/i, '')
     .replace(/^Amplificador\s+Inteligente\s+de\s+Guitarra\s+/i, '')
     .replace(/^Amplificador\s+de\s+Modelado\s+de\s+Escritorio\s+/i, '')
+    .replace(/^Micrófono\s+Dinámico\s+USB\/XLR\s+/i, '')
+    .replace(/^Micrófono\s+Dinámico\s+XLR\/USB\s+de\s+Broadcast\s+/i, '')
+    .replace(/^Micrófono\s+Dinámico\s+XLR\s+/i, '')
+    .replace(/^Micrófono\s+Dinámico\s+USB\s+/i, '')
     .replace(/^Micrófono\s+Dinámico\s+/i, '')
+    .replace(/^Micrófono\s+Condensador\s+de\s+Gran\s+Diafragma\s+/i, '')
+    .replace(/^Micrófono\s+Condensador\s+de\s+Estudio\s+/i, '')
     .replace(/^Micrófono\s+de\s+Condensador\s+de\s+Estudio\s+/i, '')
     .replace(/^Micrófono\s+USB\s+de\s+Condensador\s+Compacto\s+/i, '')
     .replace(/^Micrófono\s+USB\s+de\s+Condensador\s+Cardioide\s+/i, '')
@@ -53,15 +59,25 @@ function cleanName(raw) {
     .replace(/^Sistema\s+In-Ear\s+Inalámbrico\s+/i, '')
     .replace(/^Sistema\s+Inalámbrico\s+/i, '')
     .replace(/^Sistema\s+Estéreo\s+UHF\s+/i, '')
+    .replace(/^Sistema\s+PA\s+Activo\s+/i, '')
+    .replace(/^Soporte\s+de\s+Micrófono\s+/i, '')
+    .replace(/^Soportes\s+de\s+Monitor\s+/i, '')
+    .replace(/^Kit\s+de\s+Micrófono\s+USB\s+/i, '')
+    .replace(/^Cable\s+/i, '')
     .replace(/^Shotgun\s+Compacto\s+/i, '')
     .replace(/^Kit\s+de\s+Micrófono\s+Shotgun\s+/i, '')
     .replace(/^Teclado\s+/i, '')
+    .replace(/\s*\((?:Unidad|Each)\)\s*$/i, '')
     .trim();
 }
 
 function displayName(p, isEs) {
   const raw = isEs ? (p.title_es || p.title) : (p.title || p.title_es);
   return cleanName(raw || '');
+}
+
+function blue(name) {
+  return `<span class="product-name">${name}</span>`;
 }
 
 const TIER = /(gama\s+(alta|media|baja)|de\s+élite|de\s+elite|gama\s+de\s+entrada)/gi;
@@ -73,6 +89,7 @@ function cleanDesc(text) {
   t = t.split(/(?<=[.!?])\s+/).filter(s => !/[$€]|\bUSD\b|\beuros?\b/i.test(s)).join(' ');
   t = t.replace(TIER, '').replace(/\s{2,}/g, ' ').trim();
   t = t.replace(/previolificadores/gi, 'preamplificadores');
+  t = t.replace(/\s*\((?:cada uno|each)\)/gi, '');
   return t;
 }
 
@@ -268,8 +285,8 @@ for (const guide of guides) {
   const wDescEn = cleanDesc(winner.desc || winner.desc_es);
 
   // VEREDICTO
-  let vEs = `<p><strong>${pick(OPEN_ES[type], guide.id)(wNameEs)}</strong> ${shorten(wDescEs, 230)}</p>`;
-  let vEn = `<p><strong>${pick(OPEN_EN[type], guide.id)(wNameEn)}</strong> ${shorten(wDescEn, 230)}</p>`;
+  let vEs = `<p><strong>${pick(OPEN_ES[type], guide.id)(blue(wNameEs))}</strong> ${shorten(wDescEs, 230)}</p>`;
+  let vEn = `<p><strong>${pick(OPEN_EN[type], guide.id)(blue(wNameEn))}</strong> ${shorten(wDescEn, 230)}</p>`;
 
   for (const id of ordered) {
     if (id === winner.id) continue;
@@ -279,8 +296,8 @@ for (const guide of guides) {
     const nEn = displayName(p, false);
     const dEs = cleanDesc(p.desc_es || p.desc);
     const dEn = cleanDesc(p.desc || p.desc_es);
-    if (dEs) vEs += `<p><strong>${nEs}</strong> — ${shorten(dEs, 170)}</p>`;
-    if (dEn) vEn += `<p><strong>${nEn}</strong> — ${shorten(dEn, 170)}</p>`;
+    if (dEs) vEs += `<p><strong>${blue(nEs)}</strong> — ${shorten(dEs, 170)}</p>`;
+    if (dEn) vEn += `<p><strong>${blue(nEn)}</strong> — ${shorten(dEn, 170)}</p>`;
   }
 
   // CONCLUSION (corta, distinta del veredicto)
@@ -288,8 +305,8 @@ for (const guide of guides) {
   const wSentEn = sentences(wDescEn);
   const cEs = (wSentEs[1] || wSentEs[0] || '');
   const cEn = (wSentEn[1] || wSentEn[0] || '');
-  const conclEs = `<p>${pick(CLOSE_ES[type], guide.id)(wNameEs)} ${shorten(cEs, 190)}</p>`;
-  const conclEn = `<p>${pick(CLOSE_EN[type], guide.id)(wNameEn)} ${shorten(cEn, 190)}</p>`;
+  const conclEs = `<p>${pick(CLOSE_ES[type], guide.id)(blue(wNameEs))} ${shorten(cEs, 190)}</p>`;
+  const conclEn = `<p>${pick(CLOSE_EN[type], guide.id)(blue(wNameEn))} ${shorten(cEn, 190)}</p>`;
 
   if (guide.verdict_es !== vEs || guide.verdict !== vEn) changed++;
   guide.verdict_es = vEs;
