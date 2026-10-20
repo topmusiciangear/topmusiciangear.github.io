@@ -882,3 +882,72 @@ La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
 **Formato de oferta zZounds (confirmado por el usuario 11/10/2026):** sus fichas muestran `Was $X` + precio + (a veces) `Save $Y`. En rondas con mis herramientas (webfetch SÍ lee zzounds aunque curl/Node dan 403) buscar ese `Was $`; el scraper del cron sigue sin poder con ellos. OJO: sus promos traen fecha de fin ("ends Apr 30 / Aug 31") — verificar que siga vigente, la mayoría que se ve en el índice ya caducó.
 **PROHIBIDO corroborar con otras tiendas (usuario 11/10/2026):** la oferta zZounds SOLO vale si el `Was $` está en NUESTRA URL exacta del catálogo (`products.json` → `stores.zzounds`). Nada de Guitar Center/Sweetwater/email-tuna como prueba.
 **Was-pattern obligatorio (11/10/2026, tras 17 falsos positivos):** el `Was $` solo vale en contexto BUY BOX (`Was $X … $Y … Add to Cart` en el mismo snippet). Banners promo, carruseles, variantes open-box/otro color y precios de categoría NO cuentan.
+
+## 🖼️ REGLA FIJA: fotos de producto RECORTADAS en TODAS las guías (20/10/2026)
+
+**Todas las guías del sitio usan el mismo tratamiento visual** (aprobado por el usuario el 20/10/2026
+con la guía best-monitors): la foto del producto va **recortada, sin fondo blanco, en WebP con
+transparencia**, y se apoya sobre un **gris translúcido** (no sobre un bloque blanco).
+
+Se aplica a los **tres** sitios donde aparece la foto dentro de una guía:
+
+| Sitio | Clase | Estilo |
+|---|---|---|
+| Portada de la guía (hero 21:9) | `guide-detail-img--cutout` | `object-fit:contain`, padding 6px (la foto casi toca arriba y abajo), fondo `rgba(255,255,255,.28)` |
+| Miniaturas 120×120 de cada sección | `guide-section-img--cutout` | `contain`, padding 6px, fondo `rgba(255,255,255,.28)` |
+| Cards de "What Products Are in This Guide?" | `guide-product-card--cutout` + `guide-product-card-img--cutout` | `contain`, padding 10px, card y tile translúcidas |
+| Lightbox (foto en grande) | selector `#lightbox img[src*="/img/cut/"]` | fondo gris, **border-radius 14px** como las cards |
+
+### Cómo se genera (NO hacerlo a mano)
+
+1. `node temp/gen_cut_manifest.js` — junta las URLs únicas de `products.json` + `guides.json` en `temp/cut_manifest.json`.
+2. `python temp/cut_all_images.py` — descarga, recorta y guarda `img/cut/<md5>.webp` (800 px, q90). Es **idempotente**: reutiliza lo ya recortado. `--force` para reprocesar.
+3. `node temp/apply_cut_results.js` — escribe `data/cut-images.json` (URL -> WebP). `build-guides.js` lo lee con `cutFor()` y aplica las clases solo cuando existe el recorte.
+
+**`temp/deploy.js` ejecuta estos 3 pasos automáticamente antes de reconstruir.** Por eso, al añadir
+un producto nuevo, el deploy normal ya lo recorta; no hay que llamar a nada más.
+
+### Algoritmo (rembg + filtro de fondo blanco)
+
+1. **Filtro**: flood fill de blanco (`r,g,b >= 236`) desde los bordes sobre una miniatura de 320 px.
+   Si el blanco de estudio conectado al borde es **< 15%**, la imagen no es una foto de producto
+   sobre blanco (estilo de vida, fondo de color, escenario) y **no se toca**.
+2. **Recorte**: `rembg` con el modelo **`isnet-general-use`** (`post_process_mask=True`). Da máscara
+   con bordes suaves, sin halo y elimina sombras/reflejos, incluida la banda blanca que quedaba
+   bajo la base del altavoz con el método anterior de flood fill.
+3. **Aire**: se recorta el margen transparente sobrante al contenido + 2.5 %, para que el producto
+   llene la tarjeta de forma uniforme (antes las fotos con mucho margen se veían pequeñas).
+4. **Salida**: WebP 800 px, calidad 90, con alfa.
+5. **Controles de calidad** (si falla, se descarta el recorte y queda el JPEG original):
+   opacos entre 4 % y 95 %, centro con producto (`center > 5 %`) y halo de píxeles claros en el
+   borde `< 35 %` (solo descarta casos extremos: un borde casi blanco suele significar que el
+   modelo no separó el producto).
+
+### Lista negra manual (`data/cut-blacklist.json`)
+
+Fotos cuyo recorte sale mal por culpa de la **foto original**, no del algoritmo (un objeto blanco
+pegado al producto, una etiqueta de texto, una captura de pantalla). Es un array de trozos de URL;
+`temp/apply_cut_results.js` los ignora y esas fotos se quedan con su imagen original.
+
+- Tras el primer barrido (573 recortes) quedaron 5 casos: `media/96/968869` y `media/65/658310`
+  (mancha blanca sobre el altavoz/micro), `media/44/444706` (etiqueta de texto), `media/91/914093`
+  (captura de una web) y `51Id1KNebzL` (imagen de catálogo, no de producto).
+- Para revisar el conjunto: `python temp/review_cuts.py` genera `temp/cut_flagged.png` con las
+  imágenes marcadas (opacos < 8 %, halo > 15 %, banda inferior > 10 %).
+
+### Seguridad (imágenes que NO se recortan)
+
+- fondo no blanco (fotos de estilo de vida, conciertos, productos en contexto);
+- el modelo no detecta nada (`opaque < 4 %`) o no recorta nada (`opaque > 95 %`);
+- el centro queda vacío o el borde conserva un halo claro anómalo.
+
+Esas imágenes siguen funcionando igual: sin clase `--cutout`, con `object-fit:cover` y su fondo
+propio. Nunca se rompe una card por no tener recorte.
+
+### Al añadir un producto o una guía nueva
+
+- Solo hay que añadir el producto a `data/products.json` (con `img` de Gear4Music) y a la guía; el
+  deploy recorta y aplica el estilo solo.
+- Si el producto es **blanco sobre fondo blanco** y el recorte automático lo descarta, revisar la
+  imagen a mano: es el único caso donde hace falta una foto con más contraste.
+- El resto del sitio (home, deals) sigue usando las fotos originales; esta regla es de las guías.

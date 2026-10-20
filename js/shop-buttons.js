@@ -5891,8 +5891,9 @@ function productCard(p, lang) {
   const title = (lang === 'es' && p.title_es ? p.title_es : p.title) + unitLabel;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
-  const cutout = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
-  const imgSrc = cutout ? '../' + cutout : ((p.img || "").startsWith('http') ? p.img : '../' + p.img);
+  const gi = guideCutImg(p);
+  const imgSrc = gi.src;
+  const cutout = gi.cut;
   return `<div class="guide-product-card${cutout ? ' guide-product-card--cutout' : ''}">
     <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">

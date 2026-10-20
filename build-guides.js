@@ -153,8 +153,8 @@ function criticalCss() {
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
     '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
-    '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:rgba(255,255,255,.28)}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:18px;box-sizing:border-box}',
-    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card .guide-product-card-img--cutout{background:rgba(255,255,255,.26)}.guide-product-card--cutout{background:rgba(255,255,255,.035)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}#lightbox img[src*="/img/guides/"]{background:rgba(255,255,255,.22)!important}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
+    '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:rgba(255,255,255,.28)}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:6px;box-sizing:border-box}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card .guide-product-card-img--cutout{background:rgba(255,255,255,.26)}.guide-product-card--cutout{background:rgba(255,255,255,.035)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}#lightbox img[src*="/img/cut/"],#lightbox img[src*="/img/guides/"]{background:rgba(255,255,255,.26)!important;border-radius:14px!important;border:1px solid #2a2a2a}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:rgba(255,255,255,.28);object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
@@ -409,32 +409,22 @@ function productRatingLine(p, lang) {
 
 let CURRENT_GUIDE_CAT = null;
 let CURRENT_GUIDE_ID = null;
-// Fotos con el fondo recortado (WebP transparente) por guía. Solo afectan a las cards de esa guía.
-const GUIDE_CARD_IMAGES = {
-  'best-monitors': {
-    116: 'img/guides/best-monitors/116.webp',
-    20: 'img/guides/best-monitors/20.webp',
-    19: 'img/guides/best-monitors/19.webp',
-    21: 'img/guides/best-monitors/21.webp',
-    199: 'img/guides/best-monitors/199.webp',
-    305: 'img/guides/best-monitors/305.webp',
-    331: 'img/guides/best-monitors/331.webp',
-    300: 'img/guides/best-monitors/300.webp',
-    304: 'img/guides/best-monitors/304.webp',
-    307: 'img/guides/best-monitors/307.webp',
-    117: 'img/guides/best-monitors/117.webp',
-    303: 'img/guides/best-monitors/303.webp'
-  }
-};
-// Imagen de cabecera recortada por guía (WebP transparente)
-const GUIDE_HERO_CUTOUTS = {
-  'best-monitors': 'img/guides/best-monitors/21.webp'
-};
-// Devuelve la imagen recortada de la guía actual si existe, o la original del producto
+// Mapa global de fotos recortadas (fondo transparente -> WebP) generado por
+// temp/cut_all_images.py + temp/apply_cut_results.js. Clave = URL exacta del producto.
+let CUT_IMAGES = {};
+try { CUT_IMAGES = require('./data/cut-images.json'); } catch (e) { CUT_IMAGES = {}; }
+
+function cutFor(url) {
+  if (!url) return null;
+  const u = String(url).trim();
+  return CUT_IMAGES[u] || CUT_IMAGES[u.replace(/^\.\.\//, '')] || null;
+}
+
+// Devuelve la imagen recortada si existe, o la original del producto
 function guideCutImg(p) {
-  const cut = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
+  const cut = cutFor(p && p.img);
   if (cut) return { src: '../' + cut, cut: true };
-  const raw = p.img || '';
+  const raw = (p && p.img) || '';
   return { src: raw.startsWith('http') ? raw : '../' + raw, cut: false };
 }
 let CURRENT_LANG = 'en';
@@ -6329,8 +6319,9 @@ function productCard(p, lang) {
   const title = (lang === 'es' && p.title_es ? p.title_es : p.title) + unitLabel;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
-  const cutout = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
-  const imgSrc = cutout ? '../' + cutout : ((p.img || "").startsWith('http') ? p.img : '../' + p.img);
+  const gi = guideCutImg(p);
+  const imgSrc = gi.src;
+  const cutout = gi.cut;
   return `<div class="guide-product-card${cutout ? ' guide-product-card--cutout' : ''}">
     <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
@@ -6682,6 +6673,7 @@ function buildGuidePage(guide, lang, idx) {
   const conclusionHighlighted = highlightProductNames(conclusion, productNames);
   const image = guide.image || '../img/og-image.png';
   const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (normImg(guide.image) || 'img/og-image.png');
+  const heroCut = cutFor(guide.image);
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
   const canonical = `https://topmusiciangear.com/guides/${isEs ? guide.id + '_es' : guide.id}.html`;
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
@@ -7035,7 +7027,7 @@ ${ogMeta}
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
       </div>
-      <div class="guide-detail-img${GUIDE_HERO_CUTOUTS[guide.id] ? ' guide-detail-img--cutout' : ''}"><img src="${GUIDE_HERO_CUTOUTS[guide.id] ? '../' + GUIDE_HERO_CUTOUTS[guide.id] : fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
+      <div class="guide-detail-img${heroCut ? ' guide-detail-img--cutout' : ''}"><img src="${heroCut ? '../' + heroCut : fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
       <div class="guide-detail-intro"><p>${introWithoutTable}</p></div>
       ${authorBoxHtml}
       ${introTable}
