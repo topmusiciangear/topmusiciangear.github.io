@@ -1,75 +1,61 @@
 const fs = require('fs');
-const g = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
-const p = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
+const path = require('path');
+const DATA = path.join(__dirname, '..', 'data');
+const guides = JSON.parse(fs.readFileSync(path.join(DATA, 'guides.json'), 'utf8'));
+const WINNERS = require('./winners.js');
 
-const results = [];
+const BAD = [
+  'destaca por su equilibrio, coherencia',
+  'es una opción sólida que ofrece resultados naturales',
+  'obtienes un rendimiento consistente que cumple lo que promete',
+  'se destaca por su versatilidad y facilidad de uso',
+  'es una elección acertada',
+  'tiene un carácter propio que lo distingue',
+  'responde con naturalidad en situaciones reales',
+  'es perfecto para empezar gracias a su curva de aprendizaje',
+  'resultados son consistentes día tras día',
+  'demuestra que se puede obtener calidad sin pagar de más',
+  'relación calidad-precio del el producto',
+];
+const TIER = /gama\s+(alta|media|baja)|de\s+élite|gama\s+de\s+entrada/i;
 
-g.forEach(guide => {
-  if (!guide.verdict && !guide.conclusion) return;
-  
-  const productIds = [];
-  (guide.sections || []).forEach(s => {
-    (s.products || []).forEach(id => {
-      if (!productIds.includes(id)) productIds.push(id);
-    });
-  });
-  
-  const products = productIds.map(id => p.find(x => x.id === id)).filter(Boolean);
-  const productNames = products.map(p => p.title);
-  
-  const verdict = guide.verdict || '';
-  const conclusion = guide.conclusion || '';
-  
-  const verdictLower = verdict.toLowerCase();
-  const conclusionLower = conclusion.toLowerCase();
-  
-  const missingInVerdict = [];
-  const missingInConclusion = [];
-  
-  products.forEach(prod => {
-    const name = prod.title.toLowerCase();
-    const shortName = name.replace(/\s*\d+(st|nd|rd|th)\s*gen.*$/i, '').trim();
-    
-    if (!verdictLower.includes(shortName) && !verdictLower.includes(name)) {
-      if (prod.price > 200 || products.indexOf(prod) < 3) {
-        missingInVerdict.push(prod.title);
-      }
-    }
-    
-    if (!conclusionLower.includes(shortName) && !conclusionLower.includes(name)) {
-      if (prod.price > 200 || products.indexOf(prod) < 3) {
-        missingInConclusion.push(prod.title);
-      }
-    }
-  });
-  
-  if (missingInVerdict.length > 0 || missingInConclusion.length > 0) {
-    results.push({
-      id: guide.id,
-      title: guide.title_en || guide.title,
-      productCount: products.length,
-      products: productNames,
-      missingInVerdict,
-      missingInConclusion,
-      verdict: verdict.substring(0, 120),
-      conclusion: conclusion.substring(0, 120)
-    });
+let issues = 0;
+const report = [];
+
+const CLEAN = (s) => s
+  .replace(/^Altavoz\s+(Activo|Pasivo|PA Activo)\s+/i, '')
+  .replace(/^Columna\s+PA\s+Activa\s+/i, '')
+  .replace(/^Micrófono\s+(Dinámico\s+|de\s+Condensador\s+de\s+Estudio\s+|de\s+Condensador\s+de\s+Gran\s+Diafragma\s+|Supercardioide\s+|On-Camera\s+|Shotgun\s+Corto\s+|Shotgun\s+Compacto\s+|Shotgun\s+|USB\s+de\s+Gaming\s+|USB\s+de\s+Condensador\s+Cardioide\s+|USB\s+de\s+Condensador\s+Compacto\s+|USB\s+Condensador\s+|USB\s+)?/i, '')
+  .replace(/^Sistema\s+(Estéreo\s+Inalámbrico|In-Ear\s+Inalámbrico|Inalámbrico|Estéreo\s+UHF)\s+/i, '')
+  .replace(/^Guitarra\s+(Eléctrica\s+Inteligente|Inteligente|Parlor\s+Electroacústica|Electroacústica|Parlor|Acústica|acústica)\s+/i, '')
+  .replace(/^Guitarra\s+/i, '')
+  .replace(/^Bajo\s+/i, '')
+  .replace(/^Interfaz\s+Directa\s+Activa\s+/i, '')
+  .replace(/^Controlador\s+DAW\s+/i, '')
+  .trim();
+
+for (const g of guides) {
+  const v = (g.verdict_es || '') + ' ' + (g.conclusion_es || '') + ' ' + (g.verdict || '') + ' ' + (g.conclusion || '');
+  const txt = v.replace(/<[^>]+>/g, ' ');
+  for (const b of BAD) {
+    if (txt.toLowerCase().includes(b)) { report.push(g.id + ' :: plantilla: ' + b); issues++; }
   }
-});
+  if (TIER.test(txt)) { report.push(g.id + ' :: etiqueta de gama'); issues++; }
+  if (/[$€]/.test(txt)) { report.push(g.id + ' :: precio'); issues++; }
+  if (/\bde el\b|\ba el\b|\{name\}/.test(txt)) { report.push(g.id + ' :: gramática'); issues++; }
+  if (/\bel guitarra\b|\bEl guitarra\b/.test(txt)) { report.push(g.id + ' :: artículo'); issues++; }
+  // Frases cortadas a media idea (terminan en preposición/conjunción)
+  const dangling = txt.match(/(?:^|\s)(de|con|para|en|a|por|sin|y|o|que|del|al|los|las|un|una)\.\s|—\s*$/g);
+  if (dangling) { report.push(g.id + ' :: corte a media frase (' + dangling.slice(0, 3).join(' | ') + ')'); issues++; }
 
-console.log(`\n=== AUDITORÍA DE VEREDICTOS ===`);
-console.log(`Guías analizadas: ${g.length}`);
-console.log(`Guías con problemas: ${results.length}\n`);
+  const w0 = WINNERS[g.id];
+  const w = w0 ? CLEAN(w0) : '';
+  if (!w || !txt.includes(w)) { report.push(g.id + ' :: ganador no aparece (' + w + ')'); issues++; }
+  const plain = (g.verdict_es || '').replace(/<[^>]+>/g, ' ');
+  const posW = plain.indexOf(w);
+  if (posW > 60) { report.push(g.id + ' :: ganador no está al inicio (pos ' + posW + ')'); issues++; }
+}
 
-results.forEach((r, i) => {
-  console.log(`${i + 1}. ${r.id} — ${r.title} (${r.productCount} productos)`);
-  if (r.missingInVerdict.length > 0) {
-    console.log(`   ❌ En veredicto NO aparecen: ${r.missingInVerdict.join(', ')}`);
-  }
-  if (r.missingInConclusion.length > 0) {
-    console.log(`   ⚠️  En conclusión NO aparecen: ${r.missingInConclusion.join(', ')}`);
-  }
-  console.log(`   Veredicto: "${r.verdict}..."`);
-  console.log(`   Conclusión: "${r.conclusion}..."`);
-  console.log('');
-});
+console.log('Guías:', guides.length);
+console.log('Problemas:', issues);
+console.log(report.slice(0, 80).join('\n'));
