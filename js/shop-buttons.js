@@ -5893,7 +5893,7 @@ function productCard(p, lang) {
   const stores = storeChips(p, lang);
   const cutout = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
   const imgSrc = cutout ? '../' + cutout : ((p.img || "").startsWith('http') ? p.img : '../' + p.img);
-  return `<div class="guide-product-card">
+  return `<div class="guide-product-card${cutout ? ' guide-product-card--cutout' : ''}">
     <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
         <h3 class="guide-product-card-title">${title}</h3>

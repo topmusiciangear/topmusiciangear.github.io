@@ -1988,7 +1988,24 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .guide-product-card .guide-product-card-img--cutout {
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.26);
+}
+
+/* La card también translúcida: así el fondo de la página se ve a través del gris */
+.guide-product-card--cutout {
+  background: rgba(255, 255, 255, 0.035);
+}
+
+/* Foto completa dentro de la tarjeta (sin recortar el producto) */
+.guide-product-card--cutout .guide-product-card-img img {
+  object-fit: contain;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Lightbox: fondo gris translúcido en las fotos recortadas, no blanco */
+#lightbox img[src*="/img/guides/"] {
+  background: rgba(255, 255, 255, 0.22) !important;
 }
 
 .guide-section-img.guide-section-img--cutout {
