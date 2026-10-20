@@ -883,11 +883,16 @@ La página de Ofertas ahora se actualiza **sola** vía GitHub Actions:
 **PROHIBIDO corroborar con otras tiendas (usuario 11/10/2026):** la oferta zZounds SOLO vale si el `Was $` está en NUESTRA URL exacta del catálogo (`products.json` → `stores.zzounds`). Nada de Guitar Center/Sweetwater/email-tuna como prueba.
 **Was-pattern obligatorio (11/10/2026, tras 17 falsos positivos):** el `Was $` solo vale en contexto BUY BOX (`Was $X … $Y … Add to Cart` en el mismo snippet). Banners promo, carruseles, variantes open-box/otro color y precios de categoría NO cuentan.
 
-## 🖼️ REGLA FIJA: fotos de producto RECORTADAS en TODAS las guías (20/10/2026)
+## 🖼️ RECORTES DE PRODUCTO — **DESACTIVADOS** (20/10/2026)
 
-**Todas las guías del sitio usan el mismo tratamiento visual** (aprobado por el usuario el 20/10/2026
-con la guía best-monitors): la foto del producto va **recortada, sin fondo blanco, en WebP con
-transparencia**, y se apoya sobre un **gris translúcido** (no sobre un bloque blanco).
+> ⛔ **ESTADO ACTUAL: DESACTIVADO.** El 20/10/2026 el usuario pidió volver atrás: las guías usan
+> otra vez la **foto original del producto sobre su fondo blanco**, tal y como estaban antes.
+> Interruptores: `CUTOUTS_ENABLED = false` en `build-guides.js` y `CUTOUTS_PIPELINE = false` en
+> `temp/deploy.js`. Con eso no se emiten clases `--cutout` ni `src` a `/img/cut/`, y el CSS
+> específico de recortes queda inerte (se conserva para poder reactivarlo).
+> **No reactivar sin que el usuario lo pida expresamente.**
+
+Lo que sigue documenta el sistema tal como estaba cuando estaba activo (por si se vuelve a usar).
 
 Se aplica a los **tres** sitios donde aparece la foto dentro de una guía:
 
@@ -904,8 +909,9 @@ Se aplica a los **tres** sitios donde aparece la foto dentro de una guía:
 2. `python temp/cut_all_images.py` — descarga, recorta y guarda `img/cut/<md5>.webp` (800 px, q90). Es **idempotente**: reutiliza lo ya recortado. `--force` para reprocesar.
 3. `node temp/apply_cut_results.js` — escribe `data/cut-images.json` (URL -> WebP). `build-guides.js` lo lee con `cutFor()` y aplica las clases solo cuando existe el recorte.
 
-**`temp/deploy.js` ejecuta estos 3 pasos automáticamente antes de reconstruir.** Por eso, al añadir
-un producto nuevo, el deploy normal ya lo recorta; no hay que llamar a nada más.
+**`temp/deploy.js`** ejecutaba estos 3 pasos automáticamente antes de reconstruir (hoy está
+desactivado con `CUTOUTS_PIPELINE = false`; si se reactiva, al añadir un producto nuevo el deploy
+normal ya lo recorta).
 
 ### Algoritmo (rembg + filtro de fondo blanco)
 

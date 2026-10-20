@@ -154,7 +154,7 @@ function criticalCss() {
     '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:#5a5a5a}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:6px;box-sizing:border-box}',
-    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card .guide-product-card-img--cutout{background:#5a5a5a}.guide-product-card--cutout{background:rgba(255,255,255,.06)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}#lightbox img[src*="/img/cut/"],#lightbox img[src*="/img/guides/"]{background:#5a5a5a!important;border-radius:14px!important;border:1px solid #2a2a2a}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card .guide-product-card-img--cutout{background:#5a5a5a}.guide-product-card--cutout{background:rgba(255,255,255,.06)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
     '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:#5a5a5a;object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
@@ -421,8 +421,13 @@ function cutFor(url) {
 }
 
 // Devuelve la imagen recortada si existe, o la original del producto
+// INTERRUPTOR: recortes de fondo DESACTIVADOS (20/10/2026, a peticion del usuario).
+// Las guias vuelven a usar la foto original del producto sobre su fondo blanco.
+// Para reactivar: poner CUTOUTS_ENABLED = true (el resto del codigo ya esta listo).
+const CUTOUTS_ENABLED = false;
+
 function guideCutImg(p) {
-  const cut = cutFor(p && p.img);
+  const cut = CUTOUTS_ENABLED ? cutFor(p && p.img) : null;
   if (cut) return { src: '../' + cut, cut: true };
   const raw = (p && p.img) || '';
   return { src: raw.startsWith('http') ? raw : '../' + raw, cut: false };
@@ -6673,7 +6678,7 @@ function buildGuidePage(guide, lang, idx) {
   const conclusionHighlighted = highlightProductNames(conclusion, productNames);
   const image = guide.image || '../img/og-image.png';
   const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (normImg(guide.image) || 'img/og-image.png');
-  const heroCut = cutFor(guide.image);
+  const heroCut = CUTOUTS_ENABLED ? cutFor(guide.image) : null;
   const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
   const canonical = `https://topmusiciangear.com/guides/${isEs ? guide.id + '_es' : guide.id}.html`;
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;

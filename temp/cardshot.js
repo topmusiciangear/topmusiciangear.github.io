@@ -9,9 +9,7 @@ const { chromium } = require('playwright');
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width, height: 1100 }, deviceScaleFactor: 1 });
   await page.route('**/*', r => {
-    const u = r.request().url();
-    if (u.startsWith('http://127.0.0.1') || u.startsWith('data:')) return r.continue();
-    return r.abort();
+    return r.continue();
   });
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
   await page.evaluate(() => document.querySelectorAll('img').forEach(i => { i.loading = 'eager'; }));

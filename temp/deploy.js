@@ -4,15 +4,21 @@ var crypto = require('crypto');
 
 console.log('=== DEPLOY COMPLETO ===\n');
 
-// 0. Recortar fotos nuevas (fondo blanco -> WebP transparente) y actualizar data/cut-images.json
-//    Idempotente: las imagenes ya recortadas se reutilizan, asi que solo cuesta tiempo la primera vez.
-console.log('0. Recortando fotos nuevas de producto...');
-try {
-  execSync('node temp/gen_cut_manifest.js', { stdio: 'inherit' });
-  execSync('python temp/cut_all_images.py', { stdio: 'inherit' });
-  execSync('node temp/apply_cut_results.js', { stdio: 'inherit' });
-} catch (e) {
-  console.log('   AVISO: no se pudieron recortar las fotos nuevas; sigo con las que ya existen.');
+// 0. Recortes de fondo: DESACTIVADOS (20/10/2026, el usuario pidio volver a las fotos originales
+//    sobre fondo blanco). Para reactivar: poner CUTOUTS_PIPELINE = true y en build-guides.js
+//    CUTOUTS_ENABLED = true. El codigo del pipeline sigue intacto.
+var CUTOUTS_PIPELINE = false;
+if (CUTOUTS_PIPELINE) {
+  console.log('0. Recortando fotos nuevas de producto...');
+  try {
+    execSync('node temp/gen_cut_manifest.js', { stdio: 'inherit' });
+    execSync('python temp/cut_all_images.py', { stdio: 'inherit' });
+    execSync('node temp/apply_cut_results.js', { stdio: 'inherit' });
+  } catch (e) {
+    console.log('   AVISO: no se pudieron recortar las fotos nuevas; sigo con las que ya existen.');
+  }
+} else {
+  console.log('0. Recortes de fondo desactivados (fotos originales).');
 }
 
 // 1. Rebuild guides
