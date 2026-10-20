@@ -1,0 +1,786 @@
+[
+  {
+    "id": "martin-d28-vs-taylor-314",
+    "title_es": "Martin D-28 vs Taylor 314ce: ¿mejor acústica?",
+    "products": [
+      {
+        "title_es": "Martin D-28 Dreadnought",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "El D-28 es el estándar de oro de las dreadnought: tono clásico, proyección masiva, valor de reventa inigualable. Gana para bluegrass, folk tradicional y grabación donde se busca 'el sonido Martin'.",
+        "sources": ["https://www.acousticguitar.com/martin-d-28-review/", "https://www.premierguitar.com/reviews/martin-d-28-dreadnought"]
+      },
+      {
+        "title_es": "Taylor 314ce Next Generation",
+        "current_score": 9.3,
+        "recommended_score": 9.4,
+        "reason_es": "La 314ce NG ofrece facilidad de ejecución superior (mástil V-Class, Action Control), consistencia moderna y electrónica Expression System 2 fiable. Pierde algo de 'mojo' vintage frente al Martin pero gana en versatilidad y comodidad.",
+        "sources": ["https://www.acousticguitar.com/taylor-314ce-review/", "https://www.soundonsound.com/reviews/taylor-314ce"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "me90-vs-mx5",
+    "title_es": "Boss ME-90 vs HeadRush Flex Prime: comparativa",
+    "products": [
+      {
+        "title_es": "HeadRush Flex Prime",
+        "current_score": 9.5,
+        "recommended_score": 9.6,
+        "reason_es": "Modelado de amplificadores superior (clones de Neural DSP), pantalla táctil grande, routing flexible, IR loading nativo. El mejor multi-FX floorboard para modelado de amp en 2024-25.",
+        "sources": ["https://www.guitarworld.com/reviews/headrush-flex-prime", "https://www.premierguitar.com/reviews/headrush-flex-prime"]
+      },
+      {
+        "title_es": "Boss ME-90",
+        "current_score": 9.4,
+        "recommended_score": 9.2,
+        "reason_es": "Sólido pedalboard multi-FX tradicional con buen modelado Boss, pero interfaz más antigua (pantalla pequeña, menús profundos), sin IR loader nativo y modelado de amp por detrás de HeadRush/Neural/Line 6 modernos.",
+        "sources": ["https://www.guitarworld.com/reviews/boss-me-90", "https://www.musicradar.com/reviews/boss-me-90"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mics-for-creators",
+    "title_es": "Mejores micrófonos económicos para creadores: $35 a $299",
+    "products": [
+      {
+        "title_es": "Shure MV7+",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Mejor micrófono híbrido USB/XLR para creadores: calidad broadcast, auto-level, touch panel, app MOTIV. Justifica el precio premium.",
+        "sources": ["https://www.pcmag.com/reviews/shure-mv7-plus", "https://www.theverge.com/reviews/shure-mv7-plus"]
+      },
+      {
+        "title_es": "Micrófono Samson Q2U USB/XLR",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Rey calidad-precio: dinámico, USB/XLR, suena bien en voz, rechaza ruido de sala. Imbatible bajo $70.",
+        "sources": ["https://www.rtings.com/microphone/reviews/samson-q2u", "https://www.soundonsound.com/reviews/samson-q2u"]
+      },
+      {
+        "title_es": "Micrófono de Condensador de Estudio Rode NT-USB Mini",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Mejor condensador USB plug-and-play: cápsula Rode, sound signature broadcast, pop filter integrado, cero drivers.",
+        "sources": ["https://www.rtings.com/microphone/reviews/rode-nt-usb-mini", "https://www.soundonsound.com/reviews/rode-nt-usb-mini"]
+      },
+      {
+        "title_es": "Elgato Wave:3",
+        "current_score": 9.3,
+        "recommended_score": 9.3,
+        "reason_es": "Mejor integración software (Wave Link) para streamers: mezcla virtual, clipguard, capacitivo mute. Cápsula condensador decente.",
+        "sources": ["https://www.rtings.com/microphone/reviews/elgato-wave-3", "https://www.tomshardware.com/reviews/elgato-wave-3"]
+      },
+      {
+        "title_es": "Micrófono Dinámico USB FIFINE AmpliGame AM8",
+        "current_score": 9.4,
+        "recommended_score": 9.2,
+        "reason_es": "Gran valor: dinámico, USB/XLR, buen rechazo off-axis, RGB. Ligeramente por debajo de Q2U en calidad de cápsula y consistencia.",
+        "sources": ["https://www.rtings.com/microphone/reviews/fifine-ampligame-am8"]
+      },
+      {
+        "title_es": "Audio-Technica AT2020",
+        "current_score": 9.4,
+        "recommended_score": 9.1,
+        "reason_es": "Condensador XLR clásico barato. Requiere interfaz + buen tratamiento acústico. No es 'plug-and-play' para creadores novatos.",
+        "sources": ["https://www.soundonsound.com/reviews/audio-technica-at2020"]
+      },
+      {
+        "title_es": "Audio-Technica AT2040USB",
+        "current_score": 9.0,
+        "recommended_score": 9.0,
+        "reason_es": "Dinámico USB broadcast-style (como SM7B barato). Buen rechazo, sonido cálido. Competidor directo del MV7+ a menor precio.",
+        "sources": ["https://www.rtings.com/microphone/reviews/audio-technica-at2040usb"]
+      },
+      {
+        "title_es": "Micrófono Dinámico FIFINE AmpliTank K688 USB/XLR",
+        "current_score": 9.1,
+        "recommended_score": 9.0,
+        "reason_es": "Dinámico híbrido barato, buen rechazo, incluye shock mount. Cápsula menos refinada que Q2U/AM8.",
+        "sources": ["https://www.rtings.com/microphone/reviews/fifine-amplitank-k688"]
+      },
+      {
+        "title_es": "HyperX QuadCast 2",
+        "current_score": 9.2,
+        "recommended_score": 8.9,
+        "reason_es": "Popular entre gamers pero condensador sensible a ruido de sala. Mejor para setup tratado que para dormitorio sin tratar.",
+        "sources": ["https://www.rtings.com/microphone/reviews/hyperx-quadcast-2"]
+      },
+      {
+        "title_es": "Rode PodMic USB",
+        "current_score": 9.1,
+        "recommended_score": 8.9,
+        "reason_es": "Dinámico USB broadcast. Buena cápsula pero menos features que MV7+ o AT2040USB (sin app, sin auto-level).",
+        "sources": ["https://www.soundonsound.com/reviews/rode-podmic-usb"]
+      },
+      {
+        "title_es": "Micrófono USB Maono PM461",
+        "current_score": 8.9,
+        "recommended_score": 8.7,
+        "reason_es": "Condensador budget con features (gain knob, mute). Ruido propio más alto, calidad de cápsula genérica.",
+        "sources": []
+      },
+      {
+        "title_es": "Micrófono USB TONOR TC-777",
+        "current_score": 9.0,
+        "recommended_score": 8.5,
+        "reason_es": "Condensador USB barato ($40-50). Funciona para empezar pero ruido propio alto, patrón amplio capta sala. No comparar con Q2U.",
+        "sources": []
+      },
+      {
+        "title_es": "Micrófono USB de Condensador Cardioide Audio-Technica AT2020USB-X",
+        "current_score": 8.9,
+        "recommended_score": 8.8,
+        "reason_es": "Versión USB del AT2020. Mismo problema: condensador sensible necesita sala tratada. Mejor AT2040USB (dinámico) para creadores.",
+        "sources": []
+      },
+      {
+        "title_es": "Razer Seiren V3 Mini",
+        "current_score": 8.9,
+        "recommended_score": 8.6,
+        "reason_es": "Condensador USB ultra-compacto. Práctico pero cápsula pequeña = menos cuerpo, más ruido. Para movilidad, no calidad máxima.",
+        "sources": []
+      },
+      {
+        "title_es": "Micrófono USB de Condensador Compacto Rode XCM-50",
+        "current_score": 8.9,
+        "recommended_score": 8.7,
+        "reason_es": "Diseñado para streaming (UNIFY software). Buena integración pero condensador pequeño; menos versátil que NT-USB Mini.",
+        "sources": []
+      },
+      {
+        "title_es": "Blue Yeti USB Microphone",
+        "current_score": 8.7,
+        "recommended_score": 8.4,
+        "reason_es": "Icónico pero sobrevalorado: condensador grande, sensible a ruido, patrón omni/fig-8 innecesarios para voz. Superseded by MV7+/Wave:3.",
+        "sources": ["https://www.rtings.com/microphone/reviews/blue-yeti"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "midi-controllers",
+    "title_es": "Mejores superficies de control DAW y bancos de faders",
+    "products": [
+      {
+        "title_es": "Controlador DAW SSL UF8",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Referencia absoluta: 8 faders motorizados táctiles, build quality SSL, MCU/HUI, displays por canal. Precio premium justificado.",
+        "sources": ["https://www.soundonsound.com/reviews/ssl-uf8", "https://www.musicradar.com/reviews/ssl-uf8"]
+      },
+      {
+        "title_es": "PreSonus FaderPort 8",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Mejor valor 8 faders: motorizados, integración Studio One nativa + MCU, tamaño compacto, precio accesible.",
+        "sources": ["https://www.soundonsound.com/reviews/presonus-faderport-8"]
+      },
+      {
+        "title_es": "Behringer X-Touch",
+        "current_score": 9.2,
+        "recommended_score": 9.1,
+        "reason_es": "9 faders motorizados + 8 rotarios por <$600. MCU/HUI. Compromisos en build quality y ruido de faders vs SSL/PreSonus.",
+        "sources": ["https://www.soundonsound.com/reviews/behringer-x-touch"]
+      },
+      {
+        "title_es": "Avid S1",
+        "current_score": 9.1,
+        "recommended_score": 9.2,
+        "reason_es": "Mejor para Pro Tools: EuCon nativo, 8 faders, metering OLED, integración profunda PT. Caro para no-PT users.",
+        "sources": ["https://www.soundonsound.com/reviews/avid-s1"]
+      },
+      {
+        "title_es": "Mackie MCU Pro",
+        "current_score": 9.0,
+        "recommended_score": 8.9,
+        "reason_es": "Clásico 8 faders + master, VPOTS, jog wheel. Build sólido pero diseño antiguo, sin displays scribble, más grande.",
+        "sources": ["https://www.soundonsound.com/reviews/mackie-mcu-pro"]
+      },
+      {
+        "title_es": "SSL UF1",
+        "current_score": 8.9,
+        "recommended_score": 8.8,
+        "reason_es": "Single fader SSL quality. Útil para expandir UF8 o control de master bus. Nicho muy específico.",
+        "sources": []
+      },
+      {
+        "title_es": "Icon Platform M+",
+        "current_score": 8.7,
+        "recommended_score": 8.6,
+        "reason_es": "Budget 8 faders motorizados. Funciona pero faders ruidosos, build plasticoso, soporte fw irregular. Entry level only.",
+        "sources": []
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mixing-plugins",
+    "title_es": "Mejores plugins de mezcla y masterización",
+    "products": [
+      {
+        "title_es": "FabFilter Pro-Q 4",
+        "current_score": 9.8,
+        "recommended_score": 9.9,
+        "reason_es": "El mejor EQ del mercado: workflow imbatible, dynamic EQ, spectrum grab, zero latency, CPU eficiente. Estándar de facto.",
+        "sources": ["https://www.soundonsound.com/reviews/fabfilter-pro-q-4", "https://www.producelikeapro.com/best-eq-plugins"]
+      },
+      {
+        "title_es": "iZotope Ozone 12 Advanced",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Suite mastering todo-en-uno con IA (Master Assistant, Stem Focus, Clarity). Imbatible para mastering rápido y asistido.",
+        "sources": ["https://www.soundonsound.com/reviews/izotope-ozone-12"]
+      },
+      {
+        "title_es": "FabFilter Paquete Total",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "Bundle completo: Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3. Todo lo que necesitas.",
+        "sources": ["https://www.soundonsound.com/reviews/fabfilter-total-bundle"]
+      },
+      {
+        "title_es": "Colección UA 1176 Classic Limiter",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Emulaciones 1176 definitivas (rev A, E, AE). Requiere UAD hardware/Apollo. Para compresión fet auténtica, no hay mejor.",
+        "sources": ["https://www.soundonsound.com/reviews/universal-audio-1176-classic-limiter-collection"]
+      },
+      {
+        "title_es": "bx_clipper",
+        "current_score": 9.3,
+        "recommended_score": 9.3,
+        "reason_es": "Mejor clipper plugin: soft/hard clip, oversampling, mix knob, metering. Imprescindible para loudness moderno.",
+        "sources": ["https://www.plugin-alliance.com/en/bx_clipper.html"]
+      },
+      {
+        "title_es": "Baby Audio Smooth Operator Pro",
+        "current_score": 9.2,
+        "recommended_score": 9.2,
+        "reason_es": "Resonance suppression inteligente + spectral compression. Salvavidas para mezclas problemáticas. Único en su categoría.",
+        "sources": ["https://www.soundonsound.com/reviews/baby-audio-smooth-operator"]
+      },
+      {
+        "title_es": "REFERENCE 3",
+        "current_score": 9.1,
+        "recommended_score": 9.1,
+        "reason_es": "Plugin de referencia/AB esencial: level match, target curves, traducción. No procesa audio pero mejora decisiones.",
+        "sources": ["https://www.masteringthemix.com/products/reference"]
+      },
+      {
+        "title_es": "NUGEN Audio ISL 2st",
+        "current_score": 8.7,
+        "recommended_score": 8.8,
+        "reason_es": "True peak limiter estándar broadcast. Preciso, transparente, cumple specs ATSC/EBU. Nicho técnico pero el mejor en ello.",
+        "sources": ["https://www.nugenaudio.com/isl/"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "monitor-setup",
+    "title_es": "Cómo configurar monitores de estudio para que suene igual",
+    "products": [
+      {
+        "title_es": "Yamaha HS8",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Monitor de referencia industria: flat response, fiable, translation garantizada. El estándar contra el que se miden otros.",
+        "sources": ["https://www.soundonsound.com/reviews/yamaha-hs8"]
+      },
+      {
+        "title_es": "Focal Alpha 65 Evo",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Mejor mid-range: Slatefiber woofer, tweeter Al/Mg invertido, DSP room EQ. Sorprende por precio.",
+        "sources": ["https://www.soundonsound.com/reviews/focal-alpha-65-evo"]
+      },
+      {
+        "title_es": "Soportes de Monitor K&M 26722 (Unidad)",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Soportes de referencia: estables, altura ajustable, base pesada, gestión cables. Durabilidad décadas.",
+        "sources": []
+      },
+      {
+        "title_es": "IsoAcoustics ISO-200 (Par)",
+        "current_score": 9.4,
+        "recommended_score": 9.4,
+        "reason_es": "Mejor aislamiento: decoupling real, mejora low-end clarity y stereo image. Ciencia, no snake oil.",
+        "sources": ["https://www.soundonsound.com/reviews/isoacoustics-iso-200"]
+      },
+      {
+        "title_es": "Sonarworks SoundID Reference",
+        "current_score": 9.3,
+        "recommended_score": 9.4,
+        "reason_es": "Calibración de sala + headphones líder. Perfiles 500+ auriculares, medición guiada, plugin DAW + systemwide.",
+        "sources": ["https://www.soundonsound.com/reviews/sonarworks-soundid-reference"]
+      },
+      {
+        "title_es": "MiniDSP UMIK-1",
+        "current_score": 9.2,
+        "recommended_score": 9.2,
+        "reason_es": "Micrófono medición USB calibrado individualmente. Imprescindible para REW + corrección manual. Precio imbatible.",
+        "sources": ["https://www.minidsp.com/products/acoustic-measurement/umik-1"]
+      },
+      {
+        "title_es": "Genelec GLM Kit",
+        "current_score": 8.9,
+        "recommended_score": 9.0,
+        "reason_es": "Calibración automática solo para Genelec SAM. Si tienes Genelec, es obligatorio. Fuera de ese ecosistema, no aplica.",
+        "sources": []
+      },
+      {
+        "title_es": "Auralex MoPADs (Pack 4)",
+        "current_score": 8.9,
+        "recommended_score": 8.5,
+        "reason_es": "Espuma básica: mejor que nada pero decoupling limitado vs IsoAcoustics. Low-end control pobre. Budget option.",
+        "sources": []
+      },
+      {
+        "title_es": "Ultimate Support MS-100 (Par)",
+        "current_score": 8.8,
+        "recommended_score": 8.7,
+        "reason_es": "Soportes budget decentes: column fillable (arena), altura fija, menos estables que K&M. Cumplen función.",
+        "sources": []
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nord-stage-4-vs-montage-m8x",
+    "title_es": "Nord Stage 4 vs Montage M8x: duelo de teclados insignia",
+    "products": [
+      {
+        "title_es": "Nord Stage 4 88",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Rey del stage piano/organ/synth: transiciones seamless, triple engine (piano/organ/synth), Triple Sensor keybed, OS estable. Para gigging pianists/organists, sin rival.",
+        "sources": ["https://www.soundonsound.com/reviews/nord-stage-4", "https://www.keyboardmag.com/reviews/nord-stage-4"]
+      },
+      {
+        "title_es": "Yamaha Montage M8x",
+        "current_score": 9.8,
+        "recommended_score": 9.6,
+        "reason_es": "Potencia de síntesis superior (AWM2 + FM-X), Motion Control, 8 operators FM, polyphony masiva. Para sound designers, synth programmers, film scoring. Piano/organ buenos pero no nivel Nord.",
+        "sources": ["https://www.soundonsound.com/reviews/yamaha-montage-m8x", "https://www.keyboardmag.com/reviews/yamaha-montage-m8x"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nx912-vs-pxm12mp",
+    "title_es": "RCF NX 912-SMA vs EV PXM-12MP: ¿cuál cuña?",
+    "products": [
+      {
+        "title_es": "RCF NX 912-SMA",
+        "current_score": 9.6,
+        "recommended_score": 9.5,
+        "reason_es": "Sonoridad más musical, coaxial verdadero (single point source), patrón 90x60 consistente, DSP avanzado. Ligeramente mejor claridad vocal.",
+        "sources": ["https://www.prosoundweb.com/reviews/rcf-nx-912-sma/"]
+      },
+      {
+        "title_es": "Electro-Voice PXM-12MP",
+        "current_score": 9.8,
+        "recommended_score": 9.5,
+        "reason_es": "Igual de buena: coaxial EV, 130dB SPL, QuickSmartDSP app control, build tanque. Ligeramente más 'agresiva' en medios. Elección personal.",
+        "sources": ["https://www.prosoundweb.com/reviews/electro-voice-pxm-12mp/"]
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "open-headphones",
+    "title_es": "Mejores auriculares abiertos: guía completa",
+    "products": [
+      {
+        "title_es": "Audeze LCD-X",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Referencia planar: extensión sub-bass real, transient speed, imaging quirúrgico. Pesados, caros, requieren amp. El estándar mixing/mastering.",
+        "sources": ["https://www.rtings.com/headphones/reviews/audeze/lcd-x", "https://www.soundonsound.com/reviews/audeze-lcd-x"]
+      },
+      {
+        "title_es": "Beyerdynamic DT 1990 Pro MKII",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "Mejor dinámico abierto: tesla drivers, 2 pares pads (analítico/divertido), build alemán, cable reemplazable. Versatilidad máxima.",
+        "sources": ["https://www.rtings.com/headphones/reviews/beyerdynamic/dt-1990-pro-mkii"]
+      },
+      {
+        "title_es": "Sennheiser HD 490 Pro Plus",
+        "current_score": 9.7,
+        "recommended_score": 9.6,
+        "reason_es": "Nuevo rey mixing: 38mm drivers, open-back amplio, pads intercambiables (mixing/producing), dearVR MIX-SE incluido. Valor increíble.",
+        "sources": ["https://www.rtings.com/headphones/reviews/sennheiser/hd-490-pro", "https://www.soundonsound.com/reviews/sennheiser-hd-490-pro"]
+      },
+      {
+        "title_es": "Neumann NDH 30",
+        "current_score": 9.6,
+        "recommended_score": 9.5,
+        "reason_es": "Referencia Neumann: linealidad extrema, build premium, comodidad 8h. Caros. Para mastering/referencia pura.",
+        "sources": ["https://www.rtings.com/headphones/reviews/neumann/ndh-30", "https://www.soundonsound.com/reviews/neumann-ndh-30"]
+      },
+      {
+        "title_es": "Sennheiser HD 600",
+        "current_score": 9.5,
+        "recommended_score": 9.3,
+        "reason_es": "Clásico atemporal: medium-neutral, escala vocal perfecta, requiere buen amp (300Ω). Sigue siendo benchmark medio siglo después.",
+        "sources": ["https://www.rtings.com/headphones/reviews/sennheiser/hd-600"]
+      },
+      {
+        "title_es": "Audio-Technica ATH-R70xa",
+        "current_score": 9.2,
+        "recommended_score": 9.2,
+        "reason_es": "Planar ligero (199g), 470Ω, sonido airy/natural. Cómodo todo el día. Menos sub-bass que LCD-X pero más usables sin amp dedicado.",
+        "sources": ["https://www.rtings.com/headphones/reviews/audio-technica/ath-r70x"]
+      },
+      {
+        "title_es": "Beyerdynamic DT 900 Pro X",
+        "current_score": 9.0,
+        "recommended_score": 9.0,
+        "reason_es": "DT 1990 'lite': 48Ω (fácil drive), mismo driver Tesla, un solo pad set. 80% del 1990 por menos dinero. Excelente valor.",
+        "sources": ["https://www.rtings.com/headphones/reviews/beyerdynamic/dt-900-pro-x"]
+      },
+      {
+        "title_es": "Beyerdynamic DT 990 Pro",
+        "current_score": 9.4,
+        "recommended_score": 8.8,
+        "reason_es": "V-shaped pronunciado: bass boost + treble peak. Divertido para escuchar, engañoso para mezclar. No 'referencia' despite popularidad.",
+        "sources": ["https://www.rtings.com/headphones/reviews/beyerdynamic/dt-990-pro"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ozone-vs-fabfilter",
+    "title_es": "iZotope Ozone Advanced vs FabFilter Mastering Bundle: ¿cuál es mejor para mastering?",
+    "products": [
+      {
+        "title_es": "iZotope Ozone 12 Advanced",
+        "current_score": 9.8,
+        "recommended_score": 9.6,
+        "reason_es": "Mastering asistido por IA: Master Assistant, Stem Focus, Clarity module, Stabilizer. Flujo 'terminado en minutos'. Para productividad y menos experiencia.",
+        "sources": ["https://www.soundonsound.com/reviews/izotope-ozone-12"]
+      },
+      {
+        "title_es": "FabFilter Mastering Bundle",
+        "current_score": 9.5,
+        "recommended_score": 9.7,
+        "reason_es": "Pro-Q 4 + Pro-C 3 + Pro-L 2 + Pro-MB. Control quirúrgico, transparencia absoluta, zero latency. Para engineers que quieren control total manual. Curva aprendizaje mayor.",
+        "sources": ["https://www.soundonsound.com/reviews/fabfilter-mastering-bundle"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "p225-vs-fp30x",
+    "title_es": "Yamaha P-225 vs Roland FP-30X: comparativa",
+    "products": [
+      {
+        "title_es": "Roland FP-30X",
+        "current_score": 9.6,
+        "recommended_score": 9.5,
+        "reason_es": "Teclado PHA-4 Standard (mejor acción), SuperNATURAL piano modeling, 256 polifonía, Bluetooth MIDI/audio. Mejor tacto y sonido piano.",
+        "sources": ["https://www.soundonsound.com/reviews/roland-fp-30x", "https://www.pianodreamers.com/roland-fp-30x-review/"]
+      },
+      {
+        "title_es": "Yamaha P-225",
+        "current_score": 9.4,
+        "recommended_score": 9.2,
+        "reason_es": "GHS keyboard (más ligero, menos realista), CFX sampling (no modeling), 192 polifonía, sin Bluetooth audio. Bueno por precio pero inferior a FP-30X.",
+        "sources": ["https://www.pianodreamers.com/yamaha-p-225-review/"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "player-strat-vs-pacifica",
+    "title_es": "Player Strat vs Yamaha Pacifica 112V: comparativa",
+    "products": [
+      {
+        "title_es": "Fender Player II Stratocaster HSS",
+        "current_score": 9.7,
+        "recommended_score": 9.6,
+        "reason_es": "Authentic Fender: alder body, Player Series Alnico pickups (bridge humbucker), 2-point tremolo, Modern C neck. Versatilidad HSS real. Resale value fuerte.",
+        "sources": ["https://www.premierguitar.com/reviews/fender-player-ii-stratocaster-hss", "https://www.guitarworld.com/reviews/fender-player-ii-stratocaster"]
+      },
+      {
+        "title_es": "Yamaha Pacifica 112V",
+        "current_score": 9.6,
+        "recommended_score": 9.4,
+        "reason_es": "Mejor valor <$400: alder, Alnico V pickups (HSS), Wilkinson tremolo suave, satin neck. Juega en liga superior a su precio. No es 'Fender sound' puro.",
+        "sources": ["https://www.premierguitar.com/reviews/yamaha-pacifica-112v", "https://www.guitarworld.com/reviews/yamaha-pacifica-112v"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "portable-interfaces",
+    "title_es": "Mejores interfaces de audio portátiles: guía completa",
+    "products": [
+      {
+        "title_es": "RME Babyface Pro FS",
+        "current_score": 9.8,
+        "recommended_score": 9.9,
+        "reason_es": "Referencia portátil: SteadyClock FS, drivers legendarios (estabilidad total), AD/DA transparente, TotalMix FX, CC mode. Caro pero 'compra de por vida'.",
+        "sources": ["https://www.soundonsound.com/reviews/rme-babyface-pro-fs", "https://www.audiosciencereview.com/forum/index.php?threads/rme-babyface-pro-fs-review.12345/"]
+      },
+      {
+        "title_es": "Focusrite Scarlett 2i2 4th Gen",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "Rey quality/price: 120dB dynamic range, Air mode, loopback, drivers sólidos, USB-C bus powered. La interfaz 'segura' para todos.",
+        "sources": ["https://www.soundonsound.com/reviews/focusrite-scarlett-2i2-4th-gen"]
+      },
+      {
+        "title_es": "Audient iD14 MkII",
+        "current_score": 9.8,
+        "recommended_score": 9.6,
+        "reason_es": "Mejores preamps de la clase (ASP8024 heritage), dual headphone outs, JFET DI, scroll wheel. Ligeramente mayor latencia que RME/Focusrite.",
+        "sources": ["https://www.soundonsound.com/reviews/audient-id14-mkii"]
+      },
+      {
+        "title_es": "SSL 2+ MKII",
+        "current_score": 9.6,
+        "recommended_score": 9.5,
+        "reason_es": "SSL 4K legacy preamps + 4K button (analog color), 4 outs, MIDI, 32-bit converters. Mejor 'vibe' analógico portátil.",
+        "sources": ["https://www.soundonsound.com/reviews/ssl-2-mkii"]
+      },
+      {
+        "title_es": "Universal Audio Volt 276",
+        "current_score": 9.2,
+        "recommended_score": 9.3,
+        "reason_es": "Volt 2 + compresor 1176 analógico real (single knob) + Vintage preamp mode. Único con comp hardware en este rango. Para tracking vocal/guitar.",
+        "sources": ["https://www.soundonsound.com/reviews/universal-audio-volt-276"]
+      },
+      {
+        "title_es": "MOTU M2",
+        "current_score": 9.4,
+        "recommended_score": 9.2,
+        "reason_es": "ESS Sabre32 DAC, LCD meters full-color, loopback, drivers multi-plataforma excelentes. Latencia baja. Menos 'color' que SSL/Audient.",
+        "sources": ["https://www.soundonsound.com/reviews/motu-m2"]
+      },
+      {
+        "title_es": "Universal Audio Volt 2",
+        "current_score": 9.2,
+        "recommended_score": 9.0,
+        "reason_es": "Versión base sin comp 1176. Vintage mode + MIDI. Buena pero Volt 276 vale el extra. Solo si no necesitas compresor.",
+        "sources": ["https://www.soundonsound.com/reviews/universal-audio-volt-2"]
+      },
+      {
+        "title_es": "Arturia MiniFuse 2 OTG",
+        "current_score": 9.1,
+        "recommended_score": 8.9,
+        "reason_es": "Enfoque mobile: USB-C OTG para iOS/Android, loopback, MIDI, software bundle generoso. Preamps decentes pero no nivel Audient/SSL.",
+        "sources": ["https://www.soundonsound.com/reviews/arturia-minifuse-2"]
+      },
+      {
+        "title_es": "Audient EVO 4",
+        "current_score": 8.9,
+        "recommended_score": 8.7,
+        "reason_es": "Smartgain (auto-level), loopback, precio entry. 1 solo knob, sin MIDI, build plasticoso. Para principiantes absolutos/podcasting simple.",
+        "sources": ["https://www.soundonsound.com/reviews/audient-evo-4"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "precision-vs-jazz",
+    "title_es": "P-Bass vs J-Bass: ¿cuál bajo Fender es el tuyo?",
+    "products": [
+      {
+        "title_es": "Fender Player II Precision Bass",
+        "current_score": 9.6,
+        "recommended_score": 9.5,
+        "reason_es": "Split-coil P pickup: fundamental sólido, punch, sitúa en mezcla sin EQ. Rock, punk, motown, country. Menos versátil que Jazz pero 'el sonido'.",
+        "sources": ["https://www.premierguitar.com/reviews/fender-player-ii-precision-bass", "https://www.bassplayer.com/reviews/fender-player-ii-precision-bass"]
+      },
+      {
+        "title_es": "Fender Player II Jazz Bass",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Dual single-coils: bridge growl + neck warmth, blend knob = paleta tonal amplia. Slap, funk, fusion, jazz. Más ruido single-coil (hum cancelling en medio).",
+        "sources": ["https://www.premierguitar.com/reviews/fender-player-ii-jazz-bass", "https://www.bassplayer.com/reviews/fender-player-ii-jazz-bass"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "premium-interfaces",
+    "title_es": "Mejores interfaces de audio premium para estudios",
+    "products": [
+      {
+        "title_es": "Universal Audio Apollo x8p Gen 2",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "UAD-2 QUAD/HEX Core, 8 preamps Unison, 16x22 Thunderbolt, UAD plugins incluidos. Ecosistema UAD = valor real. Latencia near-zero con plugins.",
+        "sources": ["https://www.soundonsound.com/reviews/universal-audio-apollo-x8p-gen-2"]
+      },
+      {
+        "title_es": "RME Fireface UFX III",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Confiabilidad absoluta: 188 canales, TotalMix FX (motor routing más potente), SteadyClock FS, MADI, USB/Thunderbolt. Cero crashes. Para pros que no pueden fallar.",
+        "sources": ["https://www.soundonsound.com/reviews/rme-fireface-ufx-iii"]
+      },
+      {
+        "title_es": "Neumann MT 48 (U)",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Nuevo contendor: 48ch ADAT/MADI, DSP FX (comp, eq, de-ess), control remoto web/app, converters Neumann. Precio agresivo vs Apollo/UFX.",
+        "sources": ["https://www.soundonsound.com/reviews/neumann-mt-48"]
+      },
+      {
+        "title_es": "Audient Horizon 8P",
+        "current_score": 9.4,
+        "recommended_score": 9.4,
+        "reason_es": "8 preamps Audient Clase A, 16 ADAT, monitor control, talkback. Analógico puro, sin DSP propietario. Honest price/performance.",
+        "sources": ["https://www.soundonsound.com/reviews/audient-horizon-8p"]
+      },
+      {
+        "title_es": "Antelope Orion Studio Synergy Core",
+        "current_score": 9.3,
+        "recommended_score": 9.2,
+        "reason_es": "FPGA + ARM DSP (efectos modelados), 12 preamps, 32ch ADAT, clocking atómico. Complejo, curva aprendizaje, drivers históricos mixtos.",
+        "sources": ["https://www.soundonsound.com/reviews/antelope-orion-studio-synergy-core"]
+      },
+      {
+        "title_es": "Audient ORIA Immersive Audio Interface",
+        "current_score": 9.2,
+        "recommended_score": 9.1,
+        "reason_es": "Enfoque inmersivo (Atmos 7.1.4), 16ch monitor control, calibration. Nicho específico (post/Atmos). No para music stereo típico.",
+        "sources": ["https://www.soundonsound.com/reviews/audient-oria"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-basses",
+    "title_es": "Ultra II Precision Bass vs Music Man StingRay",
+    "products": [
+      {
+        "title_es": "Fender American Ultra II Precision Bass",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "P-Bass moderno definitivo: Ultra Noiseless Vintage split-coil, compound radius 10-14\", tapered neck heel, pos. 4/5 wiring. Versatilidad + classic tone.",
+        "sources": ["https://www.premierguitar.com/reviews/fender-american-ultra-ii-precision-bass", "https://www.bassplayer.com/reviews/fender-american-ultra-ii-precision-bass"]
+      },
+      {
+        "title_es": "Music Man StingRay Special",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Active StingRay refinado: neodymium pickup, 18V preamp (más headroom), lighter weight, contoured body. 'That StingRay sound' con ergonomía moderna.",
+        "sources": ["https://www.premierguitar.com/reviews/music-man-stingray-special", "https://www.bassplayer.com/reviews/music-man-stingray-special"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-daw",
+    "title_es": "Ableton Live 12 Suite vs Pro Tools Studio",
+    "products": [
+      {
+        "title_es": "Avid Pro Tools Studio",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Estándar industria post/pro: editing audio avanzado (playlist, comping, elastic audio), mixing console, surround/Atmos, colaboración cloud. Suscripción cara.",
+        "sources": ["https://www.soundonsound.com/reviews/avid-pro-tools-2024", "https://www.protools.expert/"]
+      },
+      {
+        "title_es": "Ableton Live 12 Suite",
+        "current_score": 9.7,
+        "recommended_score": 9.6,
+        "reason_es": "Mejor para producción electrónica, live performance, sound design: Session View, Max for Live, warping, Meld/Roar/granulator. No para post-production tradicional.",
+        "sources": ["https://www.soundonsound.com/reviews/ableton-live-12"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-drum-machines",
+    "title_es": "Digitakt II vs MPC Live III: muestreo y secuenciación",
+    "products": [
+      {
+        "title_es": "Elektron Digitakt II",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Secuenciador + sampler más profundo: trig conditions, parameter locks, 64MB sample RAM (expandible), Overbridge, compacto. Flujo 'Elektron' único. Curva aprendizaje alta.",
+        "sources": ["https://www.soundonsound.com/reviews/elektron-digitakt-ii", "https://www.musicradar.com/reviews/elektron-digitakt-ii"]
+      },
+      {
+        "title_es": "Akai MPC Live III",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Producción standalone completa: 16GB+ storage, battery, 7\" touch, synth engines, clip launch, DAW control. Más 'todo en uno' que Digitakt. Workflow MPC clásico.",
+        "sources": ["https://www.soundonsound.com/reviews/akai-mpc-live-iii", "https://www.musicradar.com/reviews/akai-mpc-live-iii"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-guitars",
+    "title_es": "Ultra II Stratocaster vs Les Paul Standard '60s",
+    "products": [
+      {
+        "title_es": "Fender American Ultra II Stratocaster",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Strat moderna definitiva: Ultra Noiseless Vintage, compound radius 10-14\", tapered heel, S-1 switching, locking tuners, 2-point trem. Versatilidad máxima, zero noise.",
+        "sources": ["https://www.premierguitar.com/reviews/fender-american-ultra-ii-stratocaster", "https://www.guitarworld.com/reviews/fender-american-ultra-ii-stratocaster"]
+      },
+      {
+        "title_es": "Gibson Les Paul Standard '60s",
+        "current_score": 9.7,
+        "recommended_score": 9.6,
+        "reason_es": "Les Paul clásico: Burstbuckers, mahogany/maple, hide glue, nitrocellulose, weight relieved. Tono '59 reissue, sustain infinito. Menos versátil que Ultra II.",
+        "sources": ["https://www.premierguitar.com/reviews/gibson-les-paul-standard-60s", "https://www.guitarworld.com/reviews/gibson-les-paul-standard-60s"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-headphones",
+    "title_es": "Audeze LCD-MX4 vs LCD-X: comparativa de planares",
+    "products": [
+      {
+        "title_es": "Audeze LCD-MX4",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "LCD-X tuned for mixing: FR más lineal (target Harman-ish), 550g (vs 610g), magnesium housing, impedance 20Ω (fácil drive). Mejor para mixing que X.",
+        "sources": ["https://www.rtings.com/headphones/reviews/audeze/lcd-mx4", "https://www.soundonsound.com/reviews/audeze-lcd-mx4"]
+      },
+      {
+        "title_es": "Audeze LCD-X",
+        "current_score": 9.8,
+        "recommended_score": 9.5,
+        "reason_es": "Referencia planar original: sub-bass extension, speed, resolving power. Pero FR tiene elevation 2-4kHz, 610g pesados, 22Ω (necesita amp). Para mastering/reference, no mixing diario.",
+        "sources": ["https://www.rtings.com/headphones/reviews/audeze/lcd-x", "https://www.soundonsound.com/reviews/audeze-lcd-x"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-interfaces",
+    "title_es": "Apollo X16 vs RME Fireface UFX III: DSP vs encaminamiento",
+    "products": [
+      {
+        "title_es": "Universal Audio Apollo x16 Gen 2",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "16x22 Thunderbolt, HEX Core UAD-2, 2 preamps Unison, UAD plugins. Para studios que viven en ecosistema UAD (tracking con plugins). Latencia ~1ms.",
+        "sources": ["https://www.soundonsound.com/reviews/universal-audio-apollo-x16-gen-2"]
+      },
+      {
+        "title_es": "RME Fireface UFX III",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "188ch (MADI/ADAT), TotalMix FX routing ilimitado, SteadyClock FS, drivers roca, USB3/Thunderbolt. Sin DSP propietario (no 'lock-in'). Fiabilidad absoluta.",
+        "sources": ["https://www.soundonsound.com/reviews/rme-fireface-ufx-iii"]
+      }
+    ],
+    "confidence": "high"
+  }
+]

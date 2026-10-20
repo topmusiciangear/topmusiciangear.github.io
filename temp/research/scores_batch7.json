@@ -1,0 +1,647 @@
+[
+  {
+    "id": "pro-microphones",
+    "title_es": "Neumann U 87 Ai vs Lewitt LCT 1040: tubo vs estado sólido",
+    "products": [
+      {
+        "title_es": "Neumann U 87 Ai",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Referencia absoluta de la industria para voces y grabaciones profesionales. Usado en innumerables éxitos. Tres patrones polares, pad 10dB, sonido legendario Neumann. Precio $3599 justifica su estatus de estándar de referencia.",
+        "sources": [
+          "https://www.lewitt-audio.com/blog/lct-1040-reviews",
+          "https://podcastage.com/rev/lct1040"
+        ]
+      },
+      {
+        "title_es": "Lewitt LCT 1040 Sistema de Micrófono Ultimate",
+        "current_score": 9.3,
+        "recommended_score": 9.4,
+        "reason_es": "Sistema híbrido tubo/FET único con control remoto, 5 patrones, 4 voicings de tubo, blend tubo/FET. Versatilidad extrema para 99% de sesiones. Usado en hits como 'Espresso' de Sabrina Carpenter. Precio ~$2500 ofrece más flexibilidad que U87 pero carácter diferente.",
+        "sources": [
+          "https://www.lewitt-audio.com/blog/lct-1040-reviews",
+          "https://podcastage.com/rev/lct1040",
+          "https://www.lewitt-audio.com/blog/what-s-difference-between-lct-1040-and-pure-tube"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-mixers",
+    "title_es": "Allen & Heath CQ-18T vs Midas M32R LIVE",
+    "products": [
+      {
+        "title_es": "Allen & Heath CQ-18T",
+        "current_score": 9.3,
+        "recommended_score": 9.2,
+        "reason_es": "Mezclador ultra-compacto 18 canales con pantalla táctil 7\", FPGA 96kHz, auto-mixing (AMM, Gain Assistant, Feedback Assistant). Ideal para AV corporativo, iglesias, producciones pequeñas portátiles. Precio $1199. Limitado a 18 entradas sin expansión.",
+        "sources": [
+          "https://www.soundonsound.com/reviews/allen-heath-cq-18t",
+          "https://www.musicradar.com/reviews/allen-and-heath-cq-18t-review"
+        ]
+      },
+      {
+        "title_es": "Midas M32R LIVE",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Consola estándar de la industria para directo: 40 canales, 32 previos Midas PRO, 25 faders motorizados, 8 motores FX, expansión AES50. Flujo de trabajo probado en giras. Precio ~$2500+. Pesado (15kg), plataforma 2016 sin auto-mixing ni pantalla táctil moderna.",
+        "sources": [
+          "https://www.soundonsound.com/reviews/midas-m32r-live",
+          "https://www.musicradar.com/reviews/midas-m32r-live"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-monitors",
+    "title_es": "ADAM S3H vs Focal Trio11 Be: monitores de tres vías",
+    "products": [
+      {
+        "title_es": "ADAM Audio S3H",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Monitor midfield horizontal 3-vías D'Appolito: dos woofers 7\" HexaCone, midrange 4\" dome/cone híbrido, tweeter S-ART ribbon. DSP integrado con voicings, EQ paramétrico 6 bandas, delay. 1350W, 126dB SPL. Precio ~$4100 c/u. Imagen estéreo impecable, graves precisos.",
+        "sources": [
+          "https://www.audiotechnology.com/reviews/adam-s3h-mid-field-monitors",
+          "https://www.adam-audio.com/en/news/reviews/adam-audio-s3h-reviewed-audiotechnology"
+        ]
+      },
+      {
+        "title_es": "Focal Trio11 Be",
+        "current_score": 9.7,
+        "recommended_score": 9.6,
+        "reason_es": "Flagship 3-vías Focal: subwoofer 10\" W composite, midrange 5\", tweeter 1\" Be invertido con rejilla protectora. Baffle rotativo 360° para vertical/horizontal. Modo Focus 2-vías. Class G amplification, 30Hz-40kHz. Precio ~$4000 c/u. Detalle y extensión superiores, pero más grande/pesado (37kg).",
+        "sources": [
+          "https://www.soundonsound.com/reviews/focal-trio11-be",
+          "https://www.recordingmag.com/resources/featured-reviews/focal-trio11-be/"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-plugins",
+    "title_es": "FabFilter vs Komplete: ¿bisturíes o ecosistema?",
+    "products": [
+      {
+        "title_es": "FabFilter Paquete Total",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "Suite quirúrgica de mezcla/mastering: Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3. 14 plugins, interfaz impecable, estándar de la industria para ingenieros. $1069. Enfoque: precisión quirúrgica, no biblioteca de sonidos.",
+        "sources": [
+          "https://www.fabfilter.com/shop",
+          "https://www.soundonsound.com/reviews/fabfilter-total-bundle"
+        ]
+      },
+      {
+        "title_es": "Native Instruments Komplete 26 Definitivo",
+        "current_score": 9.3,
+        "recommended_score": 9.4,
+        "reason_es": "Ecosistema de producción masivo: 280+ instrumentos/efectos, 116k+ sonidos, 950GB. Kontakt 8, Massive X, Guitar Rig 7, orchestral libraries (Cremona, Scene Series). $1249. Para compositores/productores que necesitan biblioteca completa, no solo herramientas de mezcla.",
+        "sources": [
+          "https://www.native-instruments.com/en/products/komplete/bundles/komplete-26-ultimate",
+          "https://blog.native-instruments.com/komplete-26/"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-synths",
+    "title_es": "Moog Muse vs Prophet-10: duelo de sints analógicos",
+    "products": [
+      {
+        "title_es": "Moog Muse",
+        "current_score": 9.4,
+        "recommended_score": 9.5,
+        "reason_es": "Polisintético analógico 8-voces bi-timbral moderno: 3 VCOs, dual ladder filters, secuenciador probabilístico avanzado, arpegiador, MPE, USB host. $3499. Diseño moderno, sonido Moog clásico con versatilidad contemporánea. Mejor relación prestaciones/precio.",
+        "sources": [
+          "https://www.wired.com/review/moog-muse-review/",
+          "https://musictech.com/reviews/hardware-instruments/moog-muse-review/"
+        ]
+      },
+      {
+        "title_es": "Sequential Prophet-10",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Recreación fiel del legendario Prophet-5 Rev 4: 10 voces, 2 VCOs, filtro 4-polo, aftertouch polifónico, panel sin menús. $4399. El clásico de referencia para 'ese sonido Prophet'. Monotimbral, sin FX integrados, modulación limitada vs Muse.",
+        "sources": [
+          "https://www.soundonsound.com/reviews/sequential-prophet-10",
+          "https://www.musicradar.com/reviews/sequential-prophet-10"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pro-tools-vs-cubase",
+    "title_es": "Pro Tools vs Cubase Pro: grabación y mezcla",
+    "products": [
+      {
+        "title_es": "Avid Pro Tools Studio",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Estándar de la industria para post-producción, grabación y mezcla profesional. Workflow de atajos, baja latencia, compatibilidad de sesiones universal. Suscripción $34.99/mes ($420/año). Imprescindible para estudios que colaboran externamente.",
+        "sources": [
+          "https://www.softwareadvice.com/audio-editing/cubase-profile/vs/pro-tools",
+          "https://www.selecthub.com/audio-editing-software/pro-tools-vs-cubase"
+        ]
+      },
+      {
+        "title_es": "Steinberg Cubase Pro 15",
+        "current_score": 9.4,
+        "recommended_score": 9.5,
+        "reason_es": "Potencia MIDI/scoring incomparable: Score Editor mejorado (exporta a Dorico), Expression Maps, Modulators, Pattern Sequencer, VariAudio. Compra única $579. Más versátil para composición, producción musical, sound design. Mejor valor a largo plazo.",
+        "sources": [
+          "https://musictech.com/reviews/digital-audio-workstations/cubase-15-review",
+          "https://www.sounds-of-revolution.com/review-steinberg-cubase-pro-15/"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "re20-vs-sm7b",
+    "title_es": "EV RE20 vs Shure SM7B: duelo de mics de broadcast",
+    "products": [
+      {
+        "title_es": "Electro-Voice RE20",
+        "current_score": 9.7,
+        "recommended_score": 9.7,
+        "reason_es": "Estándar broadcast con tecnología Variable-D: elimina efecto proximidad, sonido consistente al moverse. Respuesta plana/honesta, SPL alto (bombos), filtro high-pass suave. $449. Superior para locutores que se mueven, voces graves, kick drum.",
+        "sources": [
+          "https://thegreatestsong.com/re20-vs-sm7b",
+          "https://audiouniversityonline.com/shure-sm7b-vs-electro-voice-re20-for-podcasting-voice-over-radio"
+        ]
+      },
+      {
+        "title_es": "Shure SM7B",
+        "current_score": 9.8,
+        "recommended_score": 9.6,
+        "reason_es": "Ícono podcasting/streaming: calor característico, presence boost + bass rolloff switches, blindaje EMI excelente, pop filter integrado. $399. Necesita +60dB gain (Cloudlifter típico). Más popular, pero RE20 técnicamente superior para broadcast puro.",
+        "sources": [
+          "https://thegreatestsong.com/re20-vs-sm7b",
+          "https://www.performanceaudio.com/blogs/news/shure-sm7b-vs-electro-voice-re20-podcast-microphones"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rme-vs-motu",
+    "title_es": "Interfaz vs premium: ¿vale la pena?",
+    "products": [
+      {
+        "title_es": "RME Babyface Pro FS",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Referencia portátil: SteadyClock FS (jitter femtosegundos), TotalMix FX router completo, 24 ch ADAT, MIDI, bus-powered USB 3/2. 108 dB SINAD (ASR). $849. Drivers legendarios, fiabilidad absoluta. Para pros que necesitan calidad máxima en movilidad.",
+        "sources": [
+          "https://www.soundonsound.com/reviews/rme-babyface-pro-fs",
+          "https://www.rme-audio.de/babyface-pro-fs.html"
+        ]
+      },
+      {
+        "title_es": "MOTU M2",
+        "current_score": 9.4,
+        "recommended_score": 9.5,
+        "reason_es": "Rey calidad/precio: ESS Sabre32 Ultra DAC, 111 dB SINAD (ASR #6/17), LCD color full-metering, MIDI I/O, loopback, DC-coupled outputs. $199. Supera a interfaces de $500+ en mediciones. Headphone amp justo, preamp gain 58dB. Valor imbatible.",
+        "sources": [
+          "https://motu.com/en-us/products/m-series/m2/compare",
+          "https://www.audiosciencereview.com/forum/index.php?threads/focusrite-scarlett-2i2-3rd-gen-vs-motu-m2.66696/"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rode-wireless-pro-vs-dji-mic-2",
+    "title_es": "Rode Wireless PRO vs DJI Mic 3: comparativa",
+    "products": [
+      {
+        "title_es": "DJI Mic 3 (2TX + 1RX + Estuche de Carga)",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Más nuevo (2024): 32-bit float, cancelación ruido activa, 250m range, estuche carga rápido, receptor con pantalla táctil, 2 receptores móviles (Lightning/USB-C). $349. Mejor rendimiento RF puro, más compacto, mejor noise handling.",
+        "sources": [
+          "https://www.bhphotovideo.com/c/compare/DJI_DJI+Mic_vs_RODE_Wireless+Micro_vs_DJI_Mic+3/BHitems/1664904-REG_1927583-REG_1900679-REG",
+          "https://www.youtube.com/watch?v=PVooseEMZ1g"
+        ]
+      },
+      {
+        "title_es": "Rode Wireless PRO",
+        "current_score": 9.6,
+        "recommended_score": 9.5,
+        "reason_es": "32-bit float, timecode interno, GainAssist, 32GB/storage 40h, 260m Series IV 2.4GHz, lavaliers locking TRS. $399. Timecode nativo ventaja para video pro. Ligeramente mayor, sin ANC. Ecosistema Rode Central maduro.",
+        "sources": [
+          "https://rode.com/en-us/products/wireless-pro",
+          "https://edge.rode.com/pdf/products/1267/WIRELESS%20PRO_Datasheet_05_FA.pdf"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rodecaster-pro2-vs-dlz-creator",
+    "title_es": "RØDECaster Pro II vs DLZ Creator: ¿cuál gana?",
+    "products": [
+      {
+        "title_es": "Mackie DLZ Creator",
+        "current_score": 9.2,
+        "recommended_score": 9.2,
+        "reason_es": "Mezclador adaptativo guiado: 9 faders 100mm, pantalla 10.1\", Mix Agent setup asistido, AutoMix 4 mics, NDI Ethernet, Bluetooth 5.0 call-in, Onyx80 preamps 80dB. ~$800. Para creadores que quieren guía y flexibilidad músico/streamer.",
+        "sources": [
+          "https://www.bhphotovideo.com/c/compare/Mackie_DLZ%2BCreator_vs_RODE_RODECaster%2BPro%2B2/BHitems/1800774-REG_1696424-REG",
+          "https://soundandgo.com/en/rodecaster-pro-2-vs-mackie-dlz-creator"
+        ]
+      },
+      {
+        "title_es": "RØDE RØDECaster Pro II",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Consola integrada fiabilidad: 4 entradas Neutrik combo, Revolution Preamps 76dB (SM7B sin booster), quad-core engine, 8 SMART pads (MIDI/OBS), dual USB-C para dual-PC, APHEX processing. $699. Sobrevive a crash de PC, streaming fiable sin configuración compleja.",
+        "sources": [
+          "https://rode.com/en-us/products/rodecaster-pro-ii",
+          "https://topmusiciangear.com/guides/rodecaster-pro2-vs-dlz-creator.html"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "scarlett-vs-motu",
+    "title_es": "Focusrite Scarlett 2i2 vs MOTU M2: ¿cuál gana?",
+    "products": [
+      {
+        "title_es": "Focusrite Scarlett 2i2 4th Gen",
+        "current_score": 9.7,
+        "recommended_score": 9.4,
+        "reason_es": "120dB dynamic range, Air mode, Auto Gain, Clip Safe, Focusrite Control 2 (app móvil), bundle software amplio. $239. Headphone amp 32mW/33Ω (débil para 250-600Ω). ADC excelente, DAC mediocre (94 dB SINAD ASR #15/17).",
+        "sources": [
+          "https://www.speakerranking.com/compare/motu-m2-vs-focusrite-scarlett-2i2-4th-gen",
+          "https://focusrite.com/products/scarlett-2i2"
+        ]
+      },
+      {
+        "title_es": "MOTU M2",
+        "current_score": 9.4,
+        "recommended_score": 9.6,
+        "reason_es": "ESS Sabre32 Ultra DAC, 111 dB SINAD (ASR #6/17), LCD color metering completo, MIDI I/O, loopback, RCA mirrored outs, DC-coupled. $199. Mide mejor que Scarlett 4th Gen y cuesta menos. Headphone amp adecuado. Mejor compra objetiva.",
+        "sources": [
+          "https://www.speakerranking.com/compare/motu-m2-vs-focusrite-scarlett-2i2-4th-gen",
+          "https://motu.com/en-us/products/m-series/m2/compare"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "scarlett-vs-ssl",
+    "title_es": "Scarlett 2i2 vs SSL 2+: ¿mejores previos para voces en casa?",
+    "products": [
+      {
+        "title_es": "SSL 2+ MKII",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Legacy 4K: circuito analógico emula consola SSL 4000 (presencia/punch vocal). 4 salidas balanceadas, 2 HP outs independientes, MIDI I/O, 32-bit/192kHz converters. $299. Preampos con carácter analógico real para voces. 94 dB SINAD ASR #14/17.",
+        "sources": [
+          "https://topmusiciangear.com/guides/scarlett-vs-ssl.html",
+          "https://musictech.com/reviews/studio-recording-gear/solid-state-logic-ssl-2-and-2-plus-mkii-review"
+        ]
+      },
+      {
+        "title_es": "Focusrite Scarlett 2i2 4th Gen",
+        "current_score": 9.7,
+        "recommended_score": 9.4,
+        "reason_es": "Preamps limpios/transparentes 120dB, Air mode (brillo), Auto Gain/Clip Safe. $239. Mejor valor, bundle software superior. Sin carácter analógico ni 4K. Para grabar limpio y procesar en plugin. Headphone amp limitado (32mW).",
+        "sources": [
+          "https://topmusiciangear.com/guides/scarlett-vs-ssl.html",
+          "https://www.speakerranking.com/compare/solid-state-logic-ssl-2-mkii-vs-focusrite-scarlett-2i2-4th-gen"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "scarlett-vs-volt",
+    "title_es": "Scarlett 2i2 vs UA Volt 2: interfaz económica",
+    "products": [
+      {
+        "title_es": "Focusrite Scarlett 2i2 4th Gen",
+        "current_score": 9.7,
+        "recommended_score": 9.5,
+        "reason_es": "69dB gain (SM7B sin booster), 120dB dynamic range, Air mode, Auto Gain, Clip Safe. $239. Ventaja decisiva: 14dB más gain que Volt 2. Para micrófonos dinámicos de baja salida, es la única opción viable sin comprar booster aparte.",
+        "sources": [
+          "https://micandmix.com/audio-interfaces/universal-audio-volt-2-vs-focusrite-scarlett-2i2",
+          "https://www.universalaudio.com/pages/volt-2-reviews"
+        ]
+      },
+      {
+        "title_es": "Universal Audio Volt 2",
+        "current_score": 9.2,
+        "recommended_score": 9.0,
+        "reason_es": "55dB gain (insuficiente para SM7B), Vintage mode (UA 610 tube emulation), MIDI I/O, 24-bit/192kHz. $179. Vintage mode más dramático que Air, pero gain limitante real. Bundle software bueno (Ableton Live Lite, Melodyne Essential, UJAM, Softube). Para condensers/mics calientes únicamente.",
+        "sources": [
+          "https://higherhz.org/reviews/equipment/universal-audio-volt-2",
+          "https://micandmix.com/audio-interfaces/universal-audio-volt-2-vs-focusrite-scarlett-2i2"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sidechain-modulation-plugins",
+    "title_es": "Mejores plugins de sidechain y modulación rítmica",
+    "products": [
+      {
+        "title_es": "Cableguys ShaperBox 3",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Estándar de la industria para sidechain: 11 Shapers (Volume, Filter, Pan, Width, Time, Drive, Noise, Liquid, Crush, Pitch, Reverb), multiband 3-bandas, LFOs dibujables, envelope follower, external sidechain sample-accurate. €179 bundle. Imbatible para ducking rítmico y modulación creativa.",
+        "sources": [
+          "https://www.cableguys.com/shaperbox",
+          "https://blog.dubspot.com/plugins/compare/infiltrator-2-vs-shaperbox-3"
+        ]
+      },
+      {
+        "title_es": "Devious Machines Infiltrator 2",
+        "current_score": 9.3,
+        "recommended_score": 9.3,
+        "reason_es": "Multi-FX secuenciado: 50+ módulos, 10 slots, secuenciador 32 pasos, 8 macros, MIDI CC output. $99. Más orientado a sound design creativo/mangling rítmico que sidechain quirúrgico. Complementario a ShaperBox, no sustituto directo.",
+        "sources": [
+          "https://deviousmachines.com/product/infiltrator/",
+          "https://blog.dubspot.com/plugins/compare/infiltrator-2-vs-shaperbox-3"
+        ]
+      },
+      {
+        "title_es": "Cableguys HalfTime",
+        "current_score": 9,
+        "recommended_score": 9.0,
+        "reason_es": "Especialista half-speed: convierte 2 compases en 4, time-stretch calidad alta, 3 modos (Slow, Slow+Reverb, Tape Stop). €99 (incluido en Cableguys Bundle). Nicho específico pero excelente en su cometido.",
+        "sources": [
+          "https://www.cableguys.com/halftime",
+          "https://www.cableguys.com/cableguys-bundle"
+        ]
+      },
+      {
+        "title_es": "Eventide H3000 Band Delays MK II",
+        "current_score": 9.1,
+        "recommended_score": 9.1,
+        "reason_es": "Recreación del legendario H3000: delays modulados, pitch shifting, filtros resonantes, modulación compleja. $199. Para diseño sonoro avanzado y delays creativos tipo 'eventide'. Curva aprendizaje pronunciada.",
+        "sources": [
+          "https://www.eventideaudio.com/products/plugins/h3000-band-delays-mk-ii",
+          "https://www.soundonsound.com/reviews/eventide-h3000-band-delays-mk-ii"
+        ]
+      },
+      {
+        "title_es": "Arturia Chorus JUN-6",
+        "current_score": 8.9,
+        "recommended_score": 8.9,
+        "reason_es": "Emulación chorus Juno-106/60: modo I/II, noise, width. Gratis (con cuenta Arturia) o ~$99 standalone. Sonido vintage auténtico, simple, una sola función. Valor excepcional siendo gratis.",
+        "sources": [
+          "https://www.arturia.com/products/software-instruments/jun-6/overview",
+          "https://www.musicradar.com/reviews/arturia-chorus-jun-6"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "slg200s-vs-gs-mini",
+    "title_es": "Yamaha SLG200S vs Taylor GS Mini: cuál comprar",
+    "products": [
+      {
+        "title_es": "Yamaha SLG200S",
+        "current_score": 9.5,
+        "recommended_score": 9.5,
+        "reason_es": "Silent Guitar steel-string: SRT Powered pickup (body resonance real), frame desmontable (cabe en overhead), 80% más silenciosa que acústica convencional, headphone jack práctica privada, tuner onboard, gigbag premium. ~$600. Para práctica silenciosa/viasje, no tono acústico puro.",
+        "sources": [
+          "https://usa.yamaha.com/products/musical_instruments/guitars_basses/silent_guitar/slg200_series/index.html",
+          "https://ca.yamaha.com/en/musical-instruments/guitars-basses-amps/products/silent-guitar/slg200-series/index.html"
+        ]
+      },
+      {
+        "title_es": "Taylor GS Mini",
+        "current_score": 9.4,
+        "recommended_score": 9.4,
+        "reason_es": "Acústica travel real: top solid mahogany/spruce/koa, layered sapele back/sides, escala 23.5\", nut 43mm, ebony fingerboard. ~$700-800. Tono acústico genuino, mejor para lead/melodía que rhythm. GS Mini-e Koa añade ES2 electronics. Mejor sonido real, menos práctica silenciosa.",
+        "sources": [
+          "https://acousticguitar.com/taylor-gs-mini-review",
+          "https://www.guitarchalk.com/baby-taylor-vs-gs-mini"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sm57-vs-md421",
+    "title_es": "SM57 vs MD 421 Kompakt: ¿mejor micro para amplis?",
+    "products": [
+      {
+        "title_es": "Shure SM57",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Micrófono instrumento más grabado de la historia. $99. Cardioide tight, presence peak 5-7kHz corta la mezcla, indestructible, SNare/guitar amp standard. Gain 56dB requiere preamp decente. Clip mount poco fiable. Herramienta universal indispensable.",
+        "sources": [
+          "https://topmusiciangear.com/guides/sm57-vs-md421.html",
+          "https://www.shure.com/en-US/products/microphones/sm57"
+        ]
+      },
+      {
+        "title_es": "Sennheiser MD 421 Kompakt",
+        "current_score": 9.3,
+        "recommended_score": 9.2,
+        "reason_es": "Cápsula grande dynamic, 5-position bass roll-off (30Hz-17kHz), mayor output (-54dBV vs -56dBV), mejor low-end weight en cabs/kick/toms. $299. Cuerpo voluminoso difícil en kits tight, clamp incluido voluminoso, 2x precio SM57. Para peso/graves que SM57 no da.",
+        "sources": [
+          "https://topmusiciangear.com/guides/sm57-vs-md421.html",
+          "https://www.sennheiser.com/en-us/catalog/products/microphones/md-421-kompakt/md-421-kompakt-80th-edition-700705"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sm57-vs-sm58",
+    "title_es": "SM57 vs SM58: ¿cuál para voz y amplis? (prueba real)",
+    "products": [
+      {
+        "title_es": "Shure SM57",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Mismo cápsula Unidyne III que SM58, grille cilíndrica expone cápsula para close-miking instrumentos. Presence peak + proximidad pronunciada. $99. Para instrumentos/amps/snare. Vocals posible con pop filter externo.",
+        "sources": [
+          "https://www.shure.com/en-US/insights/faq-whats-the-difference-between-the-sm58-and-the-sm57",
+          "https://audiogearprices.com/blog/shure-sm57-vs-sm58-2026"
+        ]
+      },
+      {
+        "title_es": "Shure SM58",
+        "current_score": 9.8,
+        "recommended_score": 9.7,
+        "reason_es": "Mismo cápsula, ball grille con pop filter integrado para vocals. Rejección trasera cardioide clásica, warmth vocal. $99. Mic vocal vivo estándar mundial. En amp/guitar funciona pero grille estorba close-miking. Esencialmente iguales, diferente aplicación.",
+        "sources": [
+          "https://www.shure.com/en-US/insights/faq-whats-the-difference-between-the-sm58-and-the-sm57",
+          "https://audiogearprices.com/blog/shure-sm57-vs-sm58-2026"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sm7b-vs-nt1",
+    "title_es": "SM7B vs NT1 5ª gen: ¿mejor micrófono de voz?",
+    "products": [
+      {
+        "title_es": "Shure SM7B",
+        "current_score": 9.8,
+        "recommended_score": 9.6,
+        "reason_es": "Dynamic broadcast: warmth característico, presence boost/bass rolloff switches, blindaje EMI, pop filter integrado, rechazo room noise. $399. Necesita +60dB gain. Para untreated rooms, podcasting, streaming, voces que necesitan calor. Más versátil uso vocal general.",
+        "sources": [
+          "https://topmusiciangear.com/guides/sm7b-vs-nt1.html",
+          "https://www.shure.com/en-US/products/microphones/sm7b"
+        ]
+      },
+      {
+        "title_es": "Rode NT1 5th Generation",
+        "current_score": 9.6,
+        "recommended_score": 9.4,
+        "reason_es": "Condenser XLR/USB dual: 4dBA self-noise (más silencioso mundo), 32-bit float, 20Hz-20kHz, shock mount + pop filter incluidos. $269. Para treated room, grabación música/canto detail, flexibilidad USB. No para untreated rooms ni broadcast gain-hungry.",
+        "sources": [
+          "https://topmusiciangear.com/guides/sm7b-vs-nt1.html",
+          "https://rode.com/en-us/products/nt1-5th-generation"
+        ]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "stage-mics",
+    "title_es": "Mejores micrófonos de escenario y directo",
+    "products": [
+      {
+        "title_es": "Shure SM58",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Estándar mundial vocal en vivo. Cardioide, pop filter integrado, indestructible, forgiving. $99. Baseline absoluto.",
+        "sources": ["https://www.shure.com/en-US/products/microphones/sm58"]
+      },
+      {
+        "title_es": "Shure Beta 58A",
+        "current_score": 9.2,
+        "recommended_score": 9.3,
+        "reason_es": "Upgrade SM58: supercardioide, neodymium 4dB hotter, extended response, hardened grille, pneumatic shock mount. $185. Para stages ruidosos, feedback rejection crítico. Más detalle, menos forgiving.",
+        "sources": ["https://www.shure.com/en-US/products/microphones/beta_58a"]
+      },
+      {
+        "title_es": "Sennheiser e935",
+        "current_score": 9.1,
+        "recommended_score": 9.1,
+        "reason_es": "Cardioide dynamic, respuesta equilibrada, menos proximity effect que Beta 58A, manejo SPL alto. ~$179. Alternativa Sennheiser cardioide sólida.",
+        "sources": ["https://www.sennheiser.com/en-us/catalog/products/microphones/evolution-900-series/e-935"]
+      },
+      {
+        "title_es": "Sennheiser e945",
+        "current_score": 9.3,
+        "recommended_score": 9.3,
+        "reason_es": "Supercardioide dynamic, claridad warm, excelente feedback rejection, construido tanque. ~$179. Top tier Sennheiser para vocals lead pro. Compite directo con Beta 58A.",
+        "sources": ["https://www.sennheiser.com/en-us/catalog/products/microphones/evolution-900-series/e-945"]
+      },
+      {
+        "title_es": "Sennheiser EW-D Sistema Inalámbrico Dual",
+        "current_score": 9.8,
+        "recommended_score": 9.5,
+        "reason_es": "Sistema wireless dual-canal digital, calidad cable, low latency, encriptación, range 100m+. ~$900. Score 9.8 alto para sistema vs mics individuales; 9.5 más coherente. Incluye 2 transmisores + receptor.",
+        "sources": ["https://www.sennheiser.com/en-us/catalog/products/wireless-systems/ew-dx"]
+      },
+      {
+        "title_es": "Telefunken M80",
+        "current_score": 8.9,
+        "recommended_score": 8.9,
+        "reason_es": "Supercardioide dynamic, respuesta studio-quality en vivo, extended high-end, muy bajo handling noise. ~$249. Premium boutique, precio alto para dynamic.",
+        "sources": ["https://www.telefunken-elektroakustik.com/m80"]
+      },
+      {
+        "title_es": "AKG D5",
+        "current_score": "8.9",
+        "recommended_score": 8.8,
+        "reason_es": "Supercardioide, varimotion diaphragm, sonido natural, buen feedback rejection. ~$119. Valor sólido budget supercardioide.",
+        "sources": ["https://www.akg.com/Microphones/D5.html"]
+      },
+      {
+        "title_es": "Audix OM7",
+        "current_score": 9,
+        "recommended_score": 9.0,
+        "reason_es": "Hypercardioide extremo, gain before feedback máximo, aislamiento extremo en stages ruidosos. ~$279. Nicho: maximum isolation. No para cantantes que se mueven.",
+        "sources": ["https://www.audixusa.com/products/om7"]
+      },
+      {
+        "title_es": "Electro-Voice ND86",
+        "current_score": 8.9,
+        "recommended_score": 8.9,
+        "reason_es": "Cardioide large-diaphragm dynamic, respuesta vocal detallada, bajo handling noise. ~$179. Sólido, menos conocido que Shure/Sennheiser equivalentes.",
+        "sources": ["https://www.electrovoice.com/product/nd86"]
+      },
+      {
+        "title_es": "Shure SM57",
+        "current_score": 9.8,
+        "recommended_score": 9.6,
+        "reason_es": "Incluido como backup instrument/amp mic en stage kit. Mismo cápsula SM58, grille distinta. 9.6 coherente con uso secundario en guía de mics escenario.",
+        "sources": ["https://www.shure.com/en-US/products/microphones/sm57"]
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "stage-wedges",
+    "title_es": "Mejores monitores de piso activos para directo",
+    "products": [
+      {
+        "title_es": "Electro-Voice PXM-12MP",
+        "current_score": 9.8,
+        "recommended_score": 9.8,
+        "reason_es": "Mejor monitor coaxial 12\" activo: 700W Class-D (Dynacord), 129dB SPL, cobertura 90°x90°, ángulo 55° optimizado, QuickSmart DSP (presets, EQ 3-bandas, notch filter, delay, GUITARCAB). 13.5kg. $699. Paquete completo monitor/foH/fill.",
+        "sources": [
+          "https://products.electrovoice.com/na/en/pxm-12mp",
+          "https://www.prosoundweb.com/electro-voice-pxm-12mp-powered-floor-monitor-debuts-at-2020-namm-show"
+        ]
+      },
+      {
+        "title_es": "LD Systems MON 12 A G3",
+        "current_score": 9.2,
+        "recommended_score": 9.1,
+        "reason_es": "Monitor 12\" activo budget: 600W, 127dB, DSP 4 presets, coaxial. ~$450. Valor sólido, pero DSP menos profundo que EV, construcción menos road-worthy.",
+        "sources": ["https://www.ld-systems.com/en/products/mon-12-a-g3"]
+      },
+      {
+        "title_es": "Yamaha DHR12M",
+        "current_score": 9.4,
+        "recommended_score": 9.4,
+        "reason_es": "1000W Class-D, 131dB SPL, coaxial 12\"/1.75\", FIR-X tuning, DSP 4 presets, 16kg. ~$599. Potencia bruta excelente, Yamaha reliability, ligero. Opción value-pro muy fuerte.",
+        "sources": [
+          "https://www.sweetwater.com/store/detail/DHR12M--yamaha-dhr12m-1000w-12-inch-powered-loudspeaker",
+          "https://forums.prosoundweb.com/index.php?topic=177715.0"
+        ]
+      },
+      {
+        "title_es": "Turbosound Flashline TFX122M-AN",
+        "current_score": 9.1,
+        "recommended_score": 9.0,
+        "reason_es": "Monitor 12\" activo Klark Teknik DSP, 1100W, 129dB, coaxial, 90°x60°, 17kg. ~$550. DSP Klark bueno, pero menos presets/control que EV QuickSmart. Construcción ligera.",
+        "sources": ["https://www.turbosound.com/TFX122M-AN.html"]
+      },
+      {
+        "title_es": "RCF NX 912-SMA",
+        "current_score": 9.6,
+        "recommended_score": 9.6,
+        "reason_es": "Premium coaxial 12\": 130dB SPL, 1400W, procesamiento FiRPHASE, bass-reflex, 90°x60°, 16.4kg. ~$999. Medidas planas 70Hz-16kHz en posición monitor. Referencia calidad touring. Precio premium justificado.",
+        "sources": [
+          "https://www.rcf.it/en/products/by-feature/-/by-type/PRODOTTO/stage-monitors/104",
+          "https://forums.prosoundweb.com/index.php?topic=176338.10"
+        ]
+      }
+    ],
+    "confidence": "high"
+  }
+]
