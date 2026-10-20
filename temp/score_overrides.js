@@ -1001,7 +1001,9 @@ module.exports={
     "Genelec 7050C": 9.3
   },
   "j48-vs-rndi": {
-    "Radial J48 MK2": 9.5,
+    "Caja Directa Activa Radial J48 MK2": 9.5,
+    "Interfaz Directa Activa Rupert Neve Designs RNDI": 9.4,
+    "Radial J48 MK2 Active Direct Box": 9.5,
     "Rupert Neve Designs RNDI Active Direct Interface": 9.4
   },
   "blx288-vs-ewd": {
