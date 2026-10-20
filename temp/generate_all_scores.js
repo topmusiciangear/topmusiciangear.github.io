@@ -11,6 +11,9 @@ const consolidated = JSON.parse(fs.readFileSync(path.join(__dirname, 'consolidat
 // 3. Cargar score_overrides.js existente
 const existingOverrides = require('./score_overrides.js');
 
+// 3b. Cargar ganadores (winners.js)
+const WINNERS = require('./winners.js');
+
 // 3b. Normalizar nombres de productos para lookup
 const byId = {};
 for (const p of products) if (p.id) byId[p.id] = p;
@@ -111,9 +114,11 @@ function generateGuideScores(guide) {
   const guideType = getGuideType(guide);
   const mixed = isMixedCategory(guide);
   
-  // Determinar ganador: prioridad 1 = consolidated, 2 = existingOverrides, 3 = primer producto
+  // Determinar ganador: prioridad 1 = winners.js, 2 = consolidated, 3 = existingOverrides, 4 = primer producto
   let winnerTitle = null;
-  if (consolidated[guide.id]) {
+  if (WINNERS[guide.id]) {
+    winnerTitle = WINNERS[guide.id];
+  } else if (consolidated[guide.id]) {
     winnerTitle = Object.keys(consolidated[guide.id])[0];
   } else if (existingOverrides[guide.id]) {
     const ov = existingOverrides[guide.id];
@@ -176,8 +181,14 @@ const allScores = {};
 let totalProducts = 0;
 
 for (const guide of guides) {
-  const scores = generateGuideScores(guide);
-  if (Object.keys(scores).length > 0) {
+    const scores = generateGuideScores(guide);
+    if (guide.id === 'best-parlor-guitars') {
+      console.log('DEBUG best-parlor-guitars scores:', Object.keys(scores).length, Object.keys(scores));
+    }
+    if (guide.id === 'best-parlor-guitars') {
+      console.log('DEBUG adding to allScores:', guide.id, Object.keys(scores).length);
+    }
+    if (Object.keys(scores).length > 0) {
     allScores[guide.id] = scores;
     totalProducts += Object.keys(scores).length;
   }
@@ -186,7 +197,8 @@ for (const guide of guides) {
 console.log('Guias procesadas:', Object.keys(allScores).length);
 console.log('Productos totales:', totalProducts);
 
-// 11. Guardar resultado
+console.log('DEBUG allScores before write:', Object.keys(allScores).length, Object.keys(allScores).filter(k => k.includes('parlor')));
+  // 11. Guardar resultado
 const output = '// GENERADO AUTOMATICAMENTE - Scores por guía basados en investigación + patrones sistemáticos\n' +
   '// Incluye: 61 guías con investigación (batches 1,6,7) + 105 guías con patrones sistemáticos\n' +
   'var GUIDE_SCORES = ' + JSON.stringify(allScores, null, 1) + ';\n';

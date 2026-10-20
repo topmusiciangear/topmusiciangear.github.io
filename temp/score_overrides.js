@@ -8,7 +8,7 @@ var GUIDE_SCORES = {
  },
  "ableton-vs-logic": {
   "Ableton Live 12 Suite": 9.7,
-  "Logic Pro": 9.7
+  "Logic Pro": 9.8
  },
  "acoustic-guitars-guide": {
   "Martin D-28 Dreadnought": 9.9,
@@ -32,8 +32,8 @@ var GUIDE_SCORES = {
   "EV ZLX-12P-G2 Active PA Speaker": 9.4,
   "Altavoz Activo JBL EON712": 9.8,
   "JBL EON712 Active PA Speaker": 9.8,
-  "Altavoz Activo QSC K12.2": 9.8,
-  "QSC K12.2 Active PA Speaker": 9.8,
+  "Altavoz Activo QSC K12.2": 9.9,
+  "QSC K12.2 Active PA Speaker": 9.9,
   "Altavoz Activo Electro-Voice ELX200-15P": 9.5,
   "EV ELX200-15P Active PA Speaker": 9.5,
   "Altavoz Activo Yamaha DBR12": 9.5,
@@ -45,7 +45,7 @@ var GUIDE_SCORES = {
  },
  "ai-tools-plugins": {
   "Sonible smart:EQ 4": 9.8,
-  "iZotope Neutron 5": 9.7,
+  "iZotope Neutron 5": 9.9,
   "Mastering The Mix MIXVAULT": 9.4,
   "Sonible smart:limit": 9.2,
   "iZotope Trash": 9
@@ -69,7 +69,7 @@ var GUIDE_SCORES = {
  },
  "repitch-vs-melodyne": {
   "Synchro Arts RePitch 2 Standard": 9.6,
-  "Celemony Melodyne 5 Essential": 9.3
+  "Celemony Melodyne 5 Essential": 9.7
  },
  "beat-making": {
   "Akai MPC One G2": 9.7,
@@ -111,7 +111,7 @@ var GUIDE_SCORES = {
   "Fender CD-60S Acoustic": 9.6,
   "Yamaha C40 Clásica (Nylon)": 9.2,
   "Yamaha C40 Classical (Nylon) Guitar": 9.2,
-  "Yamaha Pacifica 112V": 9.7,
+  "Yamaha Pacifica 112V": 9.9,
   "Squier Affinity Series Stratocaster": 9.4,
   "Epiphone Les Paul Special-I": 9.3,
   "Guitarra Eléctrica Inteligente Enya Nova Go Sonic": 9.2,
@@ -124,7 +124,7 @@ var GUIDE_SCORES = {
   "Behringer X32": 9.7,
   "Midas M32 LIVE": 9.5,
   "Soundcraft Ui24R": 9.3,
-  "Allen & Heath SQ-6+": 9.7,
+  "Allen & Heath SQ-6+": 9.8,
   "Yamaha TF3": 9.1,
   "PreSonus StudioLive SE 32R": 9.1,
   "PreSonus StudioLive 32S": 9,
@@ -224,7 +224,7 @@ var GUIDE_SCORES = {
   "Bajo Sire Marcus Miller V5R 4 Cuerdas": 9.4,
   "Sire Marcus Miller V5R 4-String Bass": 9.4,
   "Sterling by Music Man StingRay Ray4": 9.5,
-  "Yamaha BB434": 9.8,
+  "Yamaha BB434": 9.9,
   "Ibanez SR300E": 9.2
  },
  "best-beginner-electric-guitar": {
@@ -244,7 +244,7 @@ var GUIDE_SCORES = {
   "Behringer X32 Rack": 9.8,
   "Soundcraft Ui24R": 9.6,
   "Behringer WING Rack": 9.5,
-  "Allen & Heath SQ-Rack Digital Mixer": 9.3,
+  "Allen & Heath SQ-Rack Digital Mixer": 9.9,
   "Behringer X Air XR18": 9.6,
   "Midas M32C": 9.1,
   "Allen & Heath CQ-20B": 9.2,
@@ -263,8 +263,8 @@ var GUIDE_SCORES = {
  },
  "best-daw-for-beginners": {
   "Ableton Live 12 Suite": 9.7,
-  "FL Studio Edición Producer": 9.4,
-  "FL Studio Producer Edition": 9.4,
+  "FL Studio Edición Producer": 9.8,
+  "FL Studio Producer Edition": 9.8,
   "Avid Pro Tools Studio": 9.8,
   "Steinberg Cubase Pro 15": 9.4,
   "Reason Studios Reason 14": 9,
@@ -280,7 +280,7 @@ var GUIDE_SCORES = {
   "Tascam Model 12": 9.3,
   "Behringer X32 Compact": 9.6,
   "Korg SoundLink MW-1608": 9.2,
-  "Allen & Heath CQ-18T": 9.3,
+  "Allen & Heath CQ-18T": 9.7,
   "Midas M32R LIVE": 9.8
  },
  "best-digital-pianos": {
@@ -324,7 +324,7 @@ var GUIDE_SCORES = {
   "Fender Player II Stratocaster HSS": 9.7,
   "Fender Player II Telecaster": 9.3,
   "Gibson Les Paul Standard '60s": 9.7,
-  "Fender American Ultra II Stratocaster": 9.8,
+  "Fender American Ultra II Stratocaster": 9.9,
   "Fender American Professional II Telecaster": 9.6
  },
  "best-electric-guitars-2026": {
@@ -366,12 +366,12 @@ var GUIDE_SCORES = {
   "Roland SP-404MKII": 9.8,
   "Elektron Digitakt II": 9.8,
   "Teenage Engineering EP-133 K.O. II": 9,
-  "Akai MPC Live III": 9.5,
+  "Akai MPC Live III": 9.9,
   "Polyend Tracker Mini": 9.4
  },
  "best-headphones": {
   "Beyerdynamic DT 770 Pro": 9.8,
-  "Sennheiser HD 490 Pro Plus": 9.7,
+  "Sennheiser HD 490 Pro Plus": 9.9,
   "Audio-Technica ATH-M50x": 9.5,
   "Sony MDR-7506": 9.4,
   "Beyerdynamic DT 990 Pro": 9.4,
@@ -418,7 +418,7 @@ var GUIDE_SCORES = {
   "Neumann KM 184": 9.3,
   "Austrian Audio OC818": 8.8,
   "Royer R-121": 9.8,
-  "Sennheiser MD 421 Kompakt": 9.3,
+  "Sennheiser MD 421 Kompakt": 9.9,
   "Coles 4038": 9.4,
   "DPA 4099 CORE": 9.2,
   "Shure Beta 52A": 8.9,
@@ -493,7 +493,7 @@ var GUIDE_SCORES = {
   "Shure SM58": 9.8,
   "Rode PodMic": 9.2,
   "Rode Procaster": 8.9,
-  "Shure SM7B": 9.8,
+  "Shure SM7B": 9.9,
   "Rode NT1 5th Generation": 9.6,
   "Rode NT1 Signature Series": 9.5,
   "Micrófono Dinámico Behringer XM8500 Ultravoice": 8.7,
@@ -535,8 +535,8 @@ var GUIDE_SCORES = {
   "Kali Audio WS-6.2": 9.1,
   "Kali Audio IN-UNF": 8.8,
   "Kali Audio LP-UNF": 9,
-  "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 Vías": 9.8,
-  "Genelec 8351B SAM 3-Way Coaxial Studio Monitor": 9.8
+  "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 Vías": 9.9,
+  "Genelec 8351B SAM 3-Way Coaxial Studio Monitor": 9.9
  },
  "best-monitors-for-small-rooms": {
   "JBL 305P MkII": 9.2,
@@ -560,7 +560,7 @@ var GUIDE_SCORES = {
   "HeadRush Flex Prime": 9.5,
   "Zoom G11": 9.1,
   "Boss GT-1000CORE": 9.2,
-  "Neural DSP Quad Cortex": 9.3,
+  "Neural DSP Quad Cortex": 9.9,
   "Mooer GE300": 9
  },
  "best-overdrive-distortion": {
@@ -592,14 +592,14 @@ var GUIDE_SCORES = {
   "Gretsch G9500 Jim Dandy Flat Top": 9.6,
   "Guitarra Parlor Electroacústica Yamaha CSF1M": 9.8,
   "Yamaha CSF1M Parlor Acoustic-Electric": 9.8,
-  "Guitarra PRS SE P20e Tonare Parlor": 9.4,
-  "PRS SE P20e Tonare Parlor": 9.4,
+  "Guitarra PRS SE P20e Tonare Parlor": 9.9,
+  "PRS SE P20e Tonare Parlor": 9.9,
   "Guitarra Parlor Electroacústica Epiphone L-00 Studio": 9.1,
   "Epiphone L-00 Studio Parlor Acoustic-Electric": 9.1,
   "Guitarra Acústica Fender CP-60S Parlor": 9,
   "Fender CP-60S Parlor Acoustic": 9,
-  "Guitarra Electroacústica Fender Highway Series Parlor All-Mahogany": 8.9,
-  "Fender Highway Series Parlor All-Mahogany Acoustic-Electric": 8.9,
+  "Guitarra Electroacústica Fender Highway Series Parlor All-Mahogany": 9.3,
+  "Fender Highway Series Parlor All-Mahogany Acoustic-Electric": 9.3,
   "Guitarra Gretsch G5021E Rancher Penguin Parlor": 9.2,
   "Gretsch G5021E Rancher Penguin Parlor": 9.2
  },
@@ -608,7 +608,7 @@ var GUIDE_SCORES = {
   "Native Instruments Kontakt 8": 9.7,
   "Arturia V Collection 11 Pro": 9.3,
   "XLN Audio Addictive Keys": 9.1,
-  "Native Instruments Noire": 8.9,
+  "Native Instruments Noire": 9.8,
   "Arturia Augmented GRAND PIANO": 9
  },
  "best-plugins": {
@@ -639,7 +639,7 @@ var GUIDE_SCORES = {
   "Boss DD-8 Delay Digital": 9.8,
   "Boss DD-8 Digital Delay": 9.8,
   "TC Electronic Hall of Fame 2": 9.5,
-  "Strymon BigSky MX": 9.6,
+  "Strymon BigSky MX": 9.9,
   "Boss RC-5 Loop Station": 9.7,
   "Strymon TimeLine": 9.2,
   "Meris LVX": 9.1,
@@ -661,7 +661,7 @@ var GUIDE_SCORES = {
  "best-samplers-drum-computers": {
   "Akai MPC One G2": 9.5,
   "Elektron Digitakt II": 9.8,
-  "Akai MPC Live III": 9.5,
+  "Akai MPC Live III": 9.9,
   "Roland SP-404MKII": 9.8,
   "Native Instruments Maschine+": 9.4,
   "Teenage Engineering EP-133 K.O. II": 9,
@@ -707,7 +707,7 @@ var GUIDE_SCORES = {
  },
  "best-synth-vsts": {
   "Arturia Pigments 7": 9.8,
-  "u-he Diva": 9.4,
+  "u-he Diva": 9.9,
   "Kilohearts Phase Plant": 9.3,
   "Vengeance Sound VPS Avenger 2": 9.2,
   "Reveal Sound Spire": 9.1,
@@ -716,7 +716,7 @@ var GUIDE_SCORES = {
  "best-synthesizers": {
   "Yamaha Montage M8x": 9.8,
   "Korg Minilogue XD": 9.4,
-  "Moog Subsequent 37": 9.6,
+  "Moog Subsequent 37": 9.9,
   "Arturia MicroFreak": 9.1,
   "Behringer DeepMind 12": 8.9,
   "ASM Hydrasynth": 9,
@@ -740,7 +740,7 @@ var GUIDE_SCORES = {
  },
  "blues-junior-vs-ac30": {
   "Fender Blues Junior IV": 9.6,
-  "Vox AC30": 9.4
+  "Vox AC30": 9.7
  },
  "blx288-vs-ewd": {
   "Shure BLX288/PG58": 9.6,
@@ -753,8 +753,8 @@ var GUIDE_SCORES = {
  },
  "budget-bass-like-expensive": {
   "Squier Classic Vibe '60s Jazz Bass": 9.2,
-  "Bajo Sire Marcus Miller V5 4 Cuerdas": 9,
-  "Sire Marcus Miller V5 4-String Bass": 9,
+  "Bajo Sire Marcus Miller V5 4 Cuerdas": 9.3,
+  "Sire Marcus Miller V5 4-String Bass": 9.3,
   "Sterling by Music Man StingRay Ray4": 9.5,
   "Yamaha TRBX304": 9.8,
   "Ibanez SR300E": 9.2,
@@ -820,7 +820,7 @@ var GUIDE_SCORES = {
   "Rode PodMic": 9.2,
   "Micrófono Dinámico Maono PD200X": 9.2,
   "Maono PD200X Dynamic Microphone": 9.2,
-  "Rode NT1 Signature Series": 9.5,
+  "Rode NT1 Signature Series": 9.9,
   "Audio-Technica AT2020": 9.4,
   "Micrófono Condensador de Estudio Samson C01": 8.8,
   "Samson C01 Studio Condenser Microphone": 8.8,
@@ -881,11 +881,11 @@ var GUIDE_SCORES = {
   "Universal Audio 1176 Classic Limiter Collection": 9.5,
   "FabFilter Pro-Q 4": 9.8,
   "Universal Audio UAD Ultimate 14": 9.5,
-  "Brainworx bx_console SSL 4000 E": 9.2
+  "Brainworx bx_console SSL 4000 E": 9.9
  },
  "compact-rhythm-devices": {
   "Roland Aira Compact P-6": 9.3,
-  "Teenage Engineering EP-133 K.O. II": 9,
+  "Teenage Engineering EP-133 K.O. II": 9.4,
   "Yamaha SEQTRAK": 9.7,
   "Elektron Model:Samples": 9.2,
   "Novation Circuit Rhythm": 9.1,
@@ -925,13 +925,13 @@ var GUIDE_SCORES = {
  },
  "dt770-vs-dt990": {
   "Beyerdynamic DT 770 Pro": 9.8,
-  "Beyerdynamic DT 990 Pro": 9.4
+  "Beyerdynamic DT 990 Pro": 9.9
  },
  "dxr-vs-prx": {
   "Altavoz Activo Yamaha DXR12mkII": 9.5,
   "Yamaha DXR12mkII Active PA Speaker": 9.5,
-  "Columna PA Activa JBL PRX ONE": 9.2,
-  "JBL PRX ONE Active PA Column": 9.2
+  "Columna PA Activa JBL PRX ONE": 9.6,
+  "JBL PRX ONE Active PA Column": 9.6
  },
  "ew-iem-g4-twin-vs-psm300": {
   "Sennheiser ew IEM G4-TWIN-E": 9.5,
@@ -985,7 +985,7 @@ var GUIDE_SCORES = {
  "guitar-bass-amps": {
   "Fender Blues Junior IV": 9.6,
   "Boss Katana-50 EX Gen 3": 9.8,
-  "Vox AC30": 9.4,
+  "Vox AC30": 9.9,
   "Marshall DSL40CR": 9.4,
   "Fender Rumble 500 V3": 9.5,
   "Ampeg Rocket Bass RB-115": 9.2,
@@ -1007,7 +1007,7 @@ var GUIDE_SCORES = {
   "TC Electronic Hall of Fame 2": 9.5,
   "Electro-Harmonix Nano Small Stone": 8.9,
   "MXR Phase 95": 9,
-  "Strymon BigSky MX": 9.6
+  "Strymon BigSky MX": 9.9
  },
  "hd490-pro-vs-dt990": {
   "Sennheiser HD 490 Pro Plus": 9.7,
@@ -1037,7 +1037,7 @@ var GUIDE_SCORES = {
  },
  "katana-vs-dsl": {
   "Marshall DSL40CR": 9.5,
-  "Boss Katana 50 Gen 3": 9.6
+  "Boss Katana 50 Gen 3": 9.3
  },
  "kh750-vs-7050c": {
   "Neumann KH 750 DSP Subwoofer de Estudio Activo de 10\"": 9.6,
@@ -1058,8 +1058,8 @@ var GUIDE_SCORES = {
   "Yamaha DXR12mkII Active PA Speaker": 9.5,
   "Sistema PA Activo Yamaha Stagepas 1K MKII": 9.2,
   "Yamaha Stagepas 1K MKII Active PA Mixer": 9.2,
-  "Altavoz Activo QSC K12.2": 9.8,
-  "QSC K12.2 Active PA Speaker": 9.8,
+  "Altavoz Activo QSC K12.2": 9.9,
+  "QSC K12.2 Active PA Speaker": 9.9,
   "Altavoz Activo Alto Professional TS412": 9,
   "Alto Professional TS412 Active PA Speaker": 9,
   "Altavoz Activo Electro-Voice EVERSE 12": 9,
@@ -1119,8 +1119,8 @@ var GUIDE_SCORES = {
  },
  "mixing-plugins": {
   "iZotope Ozone 12 Advanced": 9.7,
-  "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7,
+  "FabFilter Paquete Total": 9.8,
+  "FabFilter Total Bundle": 9.8,
   "Colección UA 1176 Classic Limiter": 9.5,
   "Universal Audio 1176 Classic Limiter Collection": 9.5,
   "Baby Audio Smooth Operator Pro": 9.2,
@@ -1138,7 +1138,7 @@ var GUIDE_SCORES = {
   "K&M 26722 Monitor Stands (Each)": 9.6,
   "IsoAcoustics ISO-200 (Par)": 9.4,
   "IsoAcoustics ISO-200 (Pair)": 9.4,
-  "Sonarworks SoundID Reference": 9.4,
+  "Sonarworks SoundID Reference": 9.9,
   "MiniDSP UMIK-1": 9.2,
   "Genelec GLM Kit": 9,
   "Auralex MoPADs (Pack 4)": 8.5,
@@ -1152,7 +1152,7 @@ var GUIDE_SCORES = {
  },
  "nx912-vs-pxm12mp": {
   "RCF NX 912-SMA": 9.5,
-  "Electro-Voice PXM-12MP": 9.5
+  "Electro-Voice PXM-12MP": 9.6
  },
  "open-headphones": {
   "Sennheiser HD 490 Pro Plus": 9.6,
@@ -1198,13 +1198,13 @@ var GUIDE_SCORES = {
   "Audient ORIA Interfaz Inmersiva": 9.2,
   "Audient ORIA Immersive Audio Interface": 9.2,
   "Universal Audio Apollo x8p Gen 2": 9.7,
-  "RME Fireface UFX III": 9.6,
+  "RME Fireface UFX III": 9.8,
   "Audient Horizon 8P": 9.4,
   "Antelope Orion Studio Synergy Core": 9.2
  },
  "pro-basses": {
   "Fender American Ultra II Precision Bass": 9.7,
-  "Music Man StingRay Special": 9.5
+  "Music Man StingRay Special": 9.8
  },
  "pro-daw": {
   "Ableton Live 12 Suite": 9.6,
@@ -1212,7 +1212,7 @@ var GUIDE_SCORES = {
  },
  "pro-drum-machines": {
   "Elektron Digitakt II": 9.7,
-  "Akai MPC Live III": 9.5
+  "Akai MPC Live III": 9.8
  },
  "pro-guitars": {
   "Fender American Ultra II Stratocaster": 9.7,
@@ -1220,11 +1220,11 @@ var GUIDE_SCORES = {
  },
  "pro-headphones": {
   "Audeze LCD-MX4": 9.7,
-  "Audeze LCD-X": 9.5
+  "Audeze LCD-X": 9.8
  },
  "pro-interfaces": {
   "Universal Audio Apollo x16 Gen 2": 9.6,
-  "RME Fireface UFX III": 9.6
+  "RME Fireface UFX III": 9.7
  },
  "pro-live-sound": {
   "Allen & Heath SQ-5": 9.8,
@@ -1259,7 +1259,7 @@ var GUIDE_SCORES = {
  },
  "re20-vs-sm7b": {
   "Electro-Voice RE20": 9.7,
-  "Shure SM7B": 9.6
+  "Shure SM7B": 9.8
  },
  "rme-vs-motu": {
   "RME Babyface Pro FS": 9.8,
@@ -1268,7 +1268,7 @@ var GUIDE_SCORES = {
  "rode-wireless-pro-vs-dji-mic-2": {
   "DJI Mic 3 (2TX + 1RX + Estuche de Carga)": 9.7,
   "DJI Mic 3 (2TX + 1RX + Charging Case)": 9.7,
-  "Rode Wireless PRO": 9.5
+  "Rode Wireless PRO": 9.8
  },
  "rodecaster-pro2-vs-dlz-creator": {
   "Mackie DLZ Creator": 9.2,
@@ -1328,7 +1328,7 @@ var GUIDE_SCORES = {
   "Yamaha DHR12M": 9.4,
   "Monitor de Escenario Turbosound Flashline TFX122M-AN": 9.1,
   "Turbosound Flashline TFX122M-AN Stage Monitor": 9.1,
-  "RCF NX 912-SMA": 9.6
+  "RCF NX 912-SMA": 9.9
  },
  "stage-wireless": {
   "Sennheiser EW-D Sistema Inalámbrico Dual": 9.8,
@@ -1346,7 +1346,7 @@ var GUIDE_SCORES = {
   "PreSonus Eris Studio 5": 8.9,
   "KRK Rokit 7 G5": 9.3,
   "Yamaha HS8": 9.8,
-  "Universal Audio Apollo Twin X Gen 2": 9.8,
+  "Universal Audio Apollo Twin X Gen 2": 9.9,
   "Neumann TLM 102": 9.8,
   "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)": 9.4,
   "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)": 9.4,
@@ -1395,8 +1395,8 @@ var GUIDE_SCORES = {
   "K&M 210/2 Mic Stand": 9.6,
   "Cable Mogami Gold Studio XLR": 9.3,
   "Mogami Gold Studio XLR Cable": 9.3,
-  "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)": 9.4,
-  "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)": 9.4,
+  "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)": 9.7,
+  "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)": 9.7,
   "Pads de Aislamiento para Monitores AcouFoam 6, Par": 9.2,
   "AcouFoam 6 Monitor Isolation Pads, Pair": 9.2,
   "Filtro Antipop Aston Microphones Shield GN": 9.1,
@@ -1406,7 +1406,7 @@ var GUIDE_SCORES = {
  },
  "studio-subwoofers": {
   "KRK S10.4": 9.8,
-  "Yamaha HS8S": 9.5,
+  "Yamaha HS8S": 9.9,
   "Adam T10S": 8.9,
   "Kali Audio WS-6.2": 9.1,
   "IK Multimedia iLoud Sub": 9.3
@@ -1433,7 +1433,7 @@ var GUIDE_SCORES = {
   "Audio-Technica ATH-M50x": 9.5,
   "Sony MDR-7506": 9.4,
   "Audio-Technica ATH-M40x": 9.1,
-  "Neumann NDH 20": 9.8,
+  "Neumann NDH 20": 9.9,
   "Sennheiser HD 300 Pro": 8.9,
   "Audio-Technica ATH-M70x": 9.6,
   "AKG K371": 9.4
@@ -1463,7 +1463,7 @@ var GUIDE_SCORES = {
   "Soundtoys 5.5 Bundle": 9.8,
   "Sonnox VoxDoubler": 8.9,
   "Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle": 9.1,
-  "iZotope Nectar 4 Advanced": 9,
+  "iZotope Nectar 4 Advanced": 9.9,
   "Baby Audio Smooth Operator Pro": 9.2,
   "FabFilter Paquete Total": 9.7,
   "FabFilter Total Bundle": 9.7
@@ -1474,7 +1474,7 @@ var GUIDE_SCORES = {
  },
  "wireless-intercom-systems": {
   "Hollyland SOLIDCOM C1": 9.8,
-  "Hollyland SOLIDCOM C1 Pro": 9.5,
+  "Hollyland SOLIDCOM C1 Pro": 9.9,
   "Hollyland SOLIDCOM SE PRO": 9.3
  },
  "wireless-lapel-mics": {
@@ -1491,7 +1491,7 @@ var GUIDE_SCORES = {
  },
  "xr18-vs-cq18t": {
   "Behringer X Air XR18": 9.6,
-  "Allen & Heath CQ-18T": 9.3
+  "Allen & Heath CQ-18T": 9.7
  },
  "xr18-vs-m32r": {
   "Behringer X Air XR18": 9.6,
