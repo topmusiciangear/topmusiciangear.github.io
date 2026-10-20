@@ -1503,7 +1503,7 @@ var GUIDE_SCORES = {
   "Altavoz Activo QSC K12.2": 9.8,
   "QSC K12.2 Active PA Speaker": 9.8
  },
- "best-home-studio-speakers": {
+ "best-studio-monitors-under-150": {
   "Mackie CR4.5": 9.8,
   "PreSonus Eris 3.5 2nd Gen": 9.4,
   "M-Audio BX4": 9.5,
