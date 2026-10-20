@@ -548,8 +548,7 @@ var GUIDE_SCORES = {
   "ADAM Audio T5V": 8.9,
   "Genelec 8030C": 9.8,
   "KRK Rokit 5 G5": 8.7,
-  "PreSonus Eris Studio 5": 8.9,
-  "Alesis ELEVATE 4": 9.5
+  "PreSonus Eris Studio 5": 8.9
  },
  "best-multi-effects-pedals": {
   "Line 6 Helix HX Stomp": 9.8,
@@ -1511,6 +1510,6 @@ var GUIDE_SCORES = {
   "M-Audio BX4": 9.5,
   "Mackie CR3.5": 9.3,
   "Behringer Truth 3.5 BT": 9.6,
-  "Edifier R1280T": 8.8
+  "Alesis ELEVATE 4": 9.5
  }
 };

@@ -43070,33 +43070,6 @@
         "verdict": "",
         "pros": [],
         "cons": []
-      },
-      {
-        "heading_es": "Alesis ELEVATE 4: guía de ondas + salida sub en par económico",
-        "products": [
-          1052
-        ],
-        "content_es": "<strong>El Alesis ELEVATE 4 aporta tres ventajas técnicas que no todos los monitores económicos ofrecen a la vez:</strong> (1) Guía de ondas elíptica integrada: su tweeter de seda sobre bocina interna ovalada distribuye las agudas de forma amplia; te mueves por el escritorio y mantienes el punto dulce estéreo. (2) Salida dedicada para subwoofer: conexión trasera física para añadir subwoofer activo en el futuro; los Mackie, M-Audio o PreSonus de la lista no lo permiten. (3) Gabinete MDF de alta densidad: chasis pesado de madera acústica densa que elimina resonancias y vibraciones al subir el volumen, sonido más limpio que el Edifier R1280T original.",
-        "pros_es": [
-          "Guía de ondas elíptica: punto dulce estéreo amplio y tolerante",
-          "Salida subwoofer trasera: única en esta gama de precio",
-          "Gabinete MDF denso: sin resonancias ni vibraciones a volumen alto",
-          "Tweeter de seda + woofer Kevlar: agudos dulces y medios definidos",
-          "50W bi-amplificados reales por par a precio imbatible"
-        ],
-        "cons_es": [
-          "Solo entrada RCA y TRS 1/4\": sin XLR balanceada",
-          "Respuesta en graves hasta 50 Hz: menos extensión que rivales de 5-6.5\"",
-          "Sin DSP de corrección de sala ni EQ trasero",
-          "Diseño algo voluminoso para escritorios muy estrechos"
-        ],
-        "verdict_es": "El único par económico con guía de ondas real + salida subwoofer + gabinete MDF denso. Si quieres punto dulce amplio, expandibilidad futura y gabinete acústico real por ~120 €, es la compra ganadora.",
-        "score": 9.5,
-        "specs": {},
-        "content": "",
-        "verdict": "",
-        "pros": [],
-        "cons": []
       }
     ],
     "conclusion": "<p>For me, the choice is clear: <span class=\"product-name\">Genelec 8030C</span>. The 5-inch woofer and 3/4-inch metal dome tweeter deliver 104 dB SPL with a 47 Hz–25 kHz response and ±2 dB accuracy — the reference standard for professional studios worldwide.</p>",
@@ -43114,8 +43087,7 @@
       371,
       372,
       633,
-      684,
-      1052
+      684
     ],
     "relatedGuides": [
       "hs8-vs-rokit-7",
@@ -43255,10 +43227,6 @@
         {
           "title": "PreSonus Eris Studio 5",
           "title_es": "PreSonus Eris Studio 5"
-        },
-        {
-          "title": "Alesis ELEVATE 4",
-          "title_es": "Alesis ELEVATE 4"
         }
       ],
       "rows": [
@@ -43317,10 +43285,6 @@
             {
               "value": "Wide sweet spot with waveguide control and desk-reflection rejection",
               "value_es": "Zona de escucha ancha con guía de onda y sin reflexiones de escritorio"
-            },
-            {
-              "val": "Wide sweet spot + sub out for <$150",
-              "val_es": "Punto dulce amplio + salida sub por <150 €"
             }
           ]
         },
@@ -43379,10 +43343,6 @@
             {
               "value": "2-way bi-amped, Class AB",
               "value_es": "Biamplificado de 2 vías, Clase AB"
-            },
-            {
-              "val": "MDF (dense)",
-              "val_es": "MDF (denso)"
             }
           ]
         },
@@ -43441,10 +43401,6 @@
             {
               "value": "5.25\" woven composite",
               "value_es": "Cono de 5.25\" de compuesto trenzado"
-            },
-            {
-              "val": "4\" Kevlar, 1\" silk dome",
-              "val_es": "4\" Kevlar, 1\" seda"
             }
           ]
         },
@@ -43503,10 +43459,6 @@
             {
               "value": "1\" ultra-low-mass silk dome",
               "value_es": "Cúpula de seda ultraligera de 1\""
-            },
-            {
-              "val": "50W bi-amped",
-              "val_es": "50W bi-amplificado"
             }
           ]
         },
@@ -43565,10 +43517,6 @@
             {
               "value": "80W (45W LF + 35W HF)",
               "value_es": "80W (45W LF + 35W HF)"
-            },
-            {
-              "val": "50 Hz – 20 kHz",
-              "val_es": "50 Hz – 20 kHz"
             }
           ]
         },
@@ -43627,10 +43575,6 @@
             {
               "value": "48 Hz – 20 kHz",
               "value_es": "48 Hz – 20 kHz"
-            },
-            {
-              "val": "RCA + TRS 1/4\"",
-              "val_es": "RCA + TRS 1/4\""
             }
           ]
         },
@@ -43689,10 +43633,6 @@
             {
               "value": "102 dB peak @ 1 m",
               "value_es": "102 dB pico a 1 m"
-            },
-            {
-              "val": "~3.6 kg (8 lbs) each",
-              "val_es": "~3.6 kg c/u"
             }
           ]
         },
@@ -43751,10 +43691,6 @@
             {
               "value": "11.5 x 8 x 8.8 in",
               "value_es": "29.2 x 20.3 x 22,3 cm"
-            },
-            {
-              "val": "Elliptical waveguide, sub out, MDF",
-              "val_es": "Guía ondas elíptica, salida sub, MDF"
             }
           ]
         },
@@ -44181,36 +44117,6 @@
           "Acoustic Space es un recorte manual de 0, 2 o 4 dB, no las 25 combinaciones memorizadas que ofrece el KRK Rokit 5 G5",
           "Se vende por unidades, así que el precio que se cita es de una sola pieza y el par cuesta el doble",
           "El 48 Hz es la cifra del fabricante; las respuestas medidas en esta clase suelen caer bastante antes"
-        ]
-      },
-      {
-        "name": "Alesis ELEVATE 4",
-        "name_es": "Alesis ELEVATE 4",
-        "pros": [
-          "Elliptical waveguide for wide sweet spot",
-          "Dedicated subwoofer output: unique at this price",
-          "Dense MDF cabinet: no resonances at high volume",
-          "Kevlar woofer + silk tweeter: sweet highs, defined mids",
-          "50W bi-amped per pair at unbeatable price"
-        ],
-        "pros_es": [
-          "Guía de ondas elíptica: punto dulce estéreo amplio y tolerante",
-          "Salida subwoofer trasera: única en esta gama de precio",
-          "Gabinete MDF denso: sin resonancias ni vibraciones a volumen alto",
-          "Tweeter de seda + woofer Kevlar: agudos dulces y medios definidos",
-          "50W bi-amplificados reales por par a precio imbatible"
-        ],
-        "cons": [
-          "RCA + TRS 1/4\" only: no balanced XLR input",
-          "Bass extension to 50 Hz: less than 5-6.5\" rivals",
-          "No room-correction DSP or rear EQ",
-          "Bulky for very narrow desks"
-        ],
-        "cons_es": [
-          "Solo entrada RCA y TRS 1/4\": sin XLR balanceada",
-          "Respuesta en graves hasta 50 Hz: menos extensión que rivales de 5-6.5\"",
-          "Sin DSP de corrección de sala ni EQ trasero",
-          "Diseño algo voluminoso para escritorios muy estrechos"
         ]
       }
     ],
@@ -112166,9 +112072,7 @@
         "heading_es": "El Edifier R1280T: los altavoces más populares de esta lista no son monitores",
         "content": "<p><strong>Thousands of reviews, and it is the pair most people in this price range will actually buy.</strong> A 4-inch woven driver, 0.5-inch silk dome, 42W RMS, 52 Hz to 20 kHz, bass and treble controls on the side panel, two RCA inputs so a turntable and a computer can stay connected together.</p><p><strong>It sounds good. It is genuinely good for what it is.</strong> That is exactly why it needs this paragraph. A powered bookshelf speaker and a studio monitor are different objects, and the difference is not marketing.</p><p><strong>What a monitor gives you:</strong> a waveguide that controls off-axis response so the mix sounds the same when you move your head, a defined reference response you can learn, a balanced input that does not pick up the noise floor of your interface, and a rear EQ with published centre frequencies.</p><p><strong>What the R1280T does not have:</strong> any of the above. Its bass and treble controls are plain tone controls with no stated frequencies, its inputs are unbalanced RCA only, and there is no room correction of any kind. Mix on it and it will flatter every mix you make.</p><p><strong>So who should buy it?</strong> If you are writing, producing, editing video, streaming, or playing instruments and you want a serious upgrade from computer speakers, it is excellent value and it is the pair we would buy. If you are mixing and want your work to sound right on other systems, pick a monitor from this list instead. For that job the Mackie CR4.5 at $129.99 is the right buy, and the extra twelve dollars buys you a waveguide, a location switch and a woofer that is half an inch larger.</p>",
         "content_es": "<p><strong>Miles de reseñas, y es el par que la gente de esta franja de precio realmente va a comprar.</strong> Un driver de 4 pulgadas de tejido, cúpula de seda de 0,5 pulgadas, 42 W RMS, 52 Hz a 20 kHz, controles de graves y agudos en el panel lateral y dos entradas RCA para tener conectados a la vez un tocadiscos y un ordenador.</p><p><strong>Suena bien. Es genuinamente bueno para lo que es.</strong> Y por eso necesita este párrafo. Un altavoz de estantería amplificado y un monitor de estudio son objetos distintos, y la diferencia no es marketing.</p><p><strong>Lo que te da un monitor:</strong> una guía de ondas que controla la respuesta fuera del eje para que la mezcla suene igual al mover la cabeza, una respuesta de referencia definida que puedes aprenderte, una entrada balanceada que no capta el ruido de tu interfaz y un EQ trasero con frecuencias centro publicadas.</p><p><strong>Lo que el R1280T no tiene:</strong> nada de lo anterior. Sus controles de graves y agudos son simples mandos de tono, sin frecuencias indicadas, sus entradas son solo RCA no balanceadas y no hay corrección de sala de ningún tipo. Si mezclas con él, tus mezclas van a salir mejor de lo que son.</p><p><strong>¿Quién debería comprarlo entonces?</strong> Si escribes, produces, editas vídeo, haces streaming o tocas instrumentos y quieres una mejora seria sobre los altavoces del ordenador, es excelente valor y es el par que compraríamos nosotros. Si mezclas y quieres que tu trabajo suene igual en otros sistemas, elige un monitor de esta lista. Para ese trabajo, lo que tienes que comprar es el Mackie CR4.5 a $129.99, y los doce dólares extra te compran una guía de ondas, un conmutador de ubicación y un woofer medio pulgada más grande.</p>",
-        "products": [
-          1047
-        ],
+        "products": [],
         "verdict": "",
         "verdict_es": "",
         "pros": [],
@@ -112190,6 +112094,33 @@
         "cons": [],
         "cons_es": [],
         "specs": {}
+      },
+      {
+        "heading_es": "Alesis ELEVATE 4: guía de ondas + salida sub en par económico",
+        "products": [
+          1052
+        ],
+        "content_es": "<strong>El Alesis ELEVATE 4 aporta tres ventajas técnicas que no todos los monitores económicos ofrecen a la vez:</strong> (1) Guía de ondas elíptica integrada: su tweeter de seda sobre bocina interna ovalada distribuye las agudas de forma amplia; te mueves por el escritorio y mantienes el punto dulce estéreo. (2) Salida dedicada para subwoofer: conexión trasera física para añadir subwoofer activo en el futuro; los Mackie, M-Audio o PreSonus de la lista no lo permiten. (3) Gabinete MDF de alta densidad: chasis pesado de madera acústica densa que elimina resonancias y vibraciones al subir el volumen, sonido más limpio que el Edifier R1280T original.",
+        "pros_es": [
+          "Guía de ondas elíptica: punto dulce estéreo amplio y tolerante",
+          "Salida subwoofer trasera: única en esta gama de precio",
+          "Gabinete MDF denso: sin resonancias ni vibraciones a volumen alto",
+          "Tweeter de seda + woofer Kevlar: agudos dulces y medios definidos",
+          "50W bi-amplificados reales por par a precio imbatible"
+        ],
+        "cons_es": [
+          "Solo entrada RCA y TRS 1/4\": sin XLR balanceada",
+          "Respuesta en graves hasta 50 Hz: menos extensión que rivales de 5-6.5\"",
+          "Sin DSP de corrección de sala ni EQ trasero",
+          "Diseño algo voluminoso para escritorios muy estrechos"
+        ],
+        "verdict_es": "El único par económico con guía de ondas real + salida subwoofer + gabinete MDF denso. Si quieres punto dulce amplio, expandibilidad futura y gabinete acústico real por ~120 €, es la compra ganadora.",
+        "score": 9.5,
+        "specs": {},
+        "verdict": "",
+        "pros": [],
+        "cons": [],
+        "content": ""
       }
     ],
     "conclusion": "<p>For this money, <span class=\"product-name\">Mackie CR4.5</span> is the purchase you will regret least.</p>",
@@ -112202,7 +112133,7 @@
       1043,
       1046,
       1049,
-      1047
+      1052
     ],
     "relatedGuides": [
       "budget-monitors",
@@ -112320,8 +112251,8 @@
           "title_es": "Behringer Truth 3.5 BT"
         },
         {
-          "title": "Edifier R1280T",
-          "title_es": "Edifier R1280T"
+          "title": "Alesis ELEVATE 4",
+          "title_es": "Alesis ELEVATE 4"
         }
       ],
       "rows": [
@@ -112350,8 +112281,8 @@
               "value_es": "3,5\" fibra de vidrio"
             },
             {
-              "value": "4\" woven",
-              "value_es": "4\" tejido"
+              "val": "Wide sweet spot + sub out for <$150",
+              "val_es": "Punto dulce amplio + salida sub por <150 €"
             }
           ]
         },
@@ -112380,8 +112311,8 @@
               "value_es": "70 Hz - 20 kHz (±3 dB)"
             },
             {
-              "value": "52 Hz - 20 kHz",
-              "value_es": "52 Hz - 20 kHz"
+              "val": "MDF (dense)",
+              "val_es": "MDF (denso)"
             }
           ]
         },
@@ -112410,8 +112341,8 @@
               "value_es": "64 W (2×32 W Clase D)"
             },
             {
-              "value": "42 W (2×21 W Clase D)",
-              "value_es": "42 W (2×21 W Clase D)"
+              "val": "4\" Kevlar, 1\" silk dome",
+              "val_es": "4\" Kevlar, 1\" seda"
             }
           ]
         },
@@ -112440,8 +112371,8 @@
               "value_es": "Frontal"
             },
             {
-              "value": "Front",
-              "value_es": "Frontal"
+              "val": "50W bi-amped",
+              "val_es": "50W bi-amplificado"
             }
           ]
         },
@@ -112470,8 +112401,8 @@
               "value_es": "101 dB (Peak, @ 1 m)"
             },
             {
-              "value": "~95 dB (Peak, @ 1 m)",
-              "value_es": "~95 dB (Peak, @ 1 m)"
+              "val": "50 Hz – 20 kHz",
+              "val_es": "50 Hz – 20 kHz"
             }
           ]
         },
@@ -112500,8 +112431,8 @@
               "value_es": "TRS"
             },
             {
-              "value": "None (RCA only)",
-              "value_es": "Ninguna (solo RCA)"
+              "val": "RCA + TRS 1/4\"",
+              "val_es": "RCA + TRS 1/4\""
             }
           ]
         },
@@ -112530,8 +112461,8 @@
               "value_es": "Guía de ondas + ajustes de estante"
             },
             {
-              "value": "None",
-              "value_es": "Ninguna"
+              "val": "~3.6 kg (8 lbs) each",
+              "val_es": "~3.6 kg c/u"
             }
           ]
         },
@@ -112560,8 +112491,8 @@
               "value_es": "Sí, 5.3"
             },
             {
-              "value": "No (R1280DB is $159.98)",
-              "value_es": "No (R1280DB es $159.98)"
+              "val": "Elliptical waveguide, sub out, MDF",
+              "val_es": "Guía ondas elíptica, salida sub, MDF"
             }
           ]
         },
@@ -112584,10 +112515,6 @@
             {
               "value": "Pads in box",
               "value_es": "Pads en la caja"
-            },
-            {
-              "value": "No",
-              "value_es": "No"
             },
             {
               "value": "No",
@@ -112618,10 +112545,6 @@
             {
               "value": "Yes",
               "value_es": "Sí"
-            },
-            {
-              "value": "No, bookshelf speaker",
-              "value_es": "No, altavoz de estantería"
             }
           ]
         }
@@ -112761,29 +112684,33 @@
         ]
       },
       {
-        "name": "Edifier R1280T",
-        "name_es": "Edifier R1280T",
+        "name": "Alesis ELEVATE 4",
+        "name_es": "Alesis ELEVATE 4",
         "pros": [
-          "The most searched and most bought pair in this price band",
-          "Bass and treble controls plus two RCA inputs",
-          "Superb value for playing, writing and video editing",
-          "Thousands of reviews and rising"
+          "Elliptical waveguide for wide sweet spot",
+          "Dedicated subwoofer output: unique at this price",
+          "Dense MDF cabinet: no resonances at high volume",
+          "Kevlar woofer + silk tweeter: sweet highs, defined mids",
+          "50W bi-amped per pair at unbeatable price"
         ],
         "pros_es": [
-          "El par más buscado y más comprado de esta franja",
-          "Controles de graves y agudos más dos entradas RCA",
-          "Vale para tocar, escribir y editar vídeo",
-          "Miles de reseñas y subiendo"
+          "Guía de ondas elíptica: punto dulce estéreo amplio y tolerante",
+          "Salida subwoofer trasera: única en esta gama de precio",
+          "Gabinete MDF denso: sin resonancias ni vibraciones a volumen alto",
+          "Tweeter de seda + woofer Kevlar: agudos dulces y medios definidos",
+          "50W bi-amplificados reales por par a precio imbatible"
         ],
         "cons": [
-          "Not a studio monitor: no balanced input, no waveguide, no room correction",
-          "Unbalanced RCA only, so it picks up interface noise",
-          "Makes your mixes sound better than they really are"
+          "RCA + TRS 1/4\" only: no balanced XLR input",
+          "Bass extension to 50 Hz: less than 5-6.5\" rivals",
+          "No room-correction DSP or rear EQ",
+          "Bulky for very narrow desks"
         ],
         "cons_es": [
-          "No es un monitor de estudio: sin entrada balanceada, sin guía de ondas, sin corrección de sala",
-          "Solo RCA no balanceado, así que capta ruido de la interfaz",
-          "Hará que tus mezclas suenen mejor de lo que son"
+          "Solo entrada RCA y TRS 1/4\": sin XLR balanceada",
+          "Respuesta en graves hasta 50 Hz: menos extensión que rivales de 5-6.5\"",
+          "Sin DSP de corrección de sala ni EQ trasero",
+          "Diseño algo voluminoso para escritorios muy estrechos"
         ]
       }
     ],
