@@ -1,0 +1,82 @@
+﻿
+> seo
+> node scripts/seo-audit.js
+
+================================================================
+ AUDITORIA SEO ÔÇö Google: <title> <= 60 chars / 580px
+                        meta desc <= 155 chars / 920px
+================================================================
+ Paginas analizadas : 332   (EN 166 / ES 166)
+ Stubs de redireccion (ignorados): 2
+
+ EN  title max: 84 chars / 523px
+ EN  desc  max: 158 chars / 918px
+ ES  title max: 91 chars / 549px
+ ES  desc  max: 157 chars / 911px
+
+ FALLOS: 16/332 paginas
+
+  [EN] best-audio-repair-plugins.html
+       70c / 416px  "Best Audio Repair & Noise Restoration Plugins for Professional Studios"
+       155c / 875px  "Bad audio is a fact of life. Recordings have noise, harsh resonances, reverb, and clicks that ruin o"
+       -> title 70 chars (> 60)
+  [ES] best-audio-repair-plugins_es.html
+       90c / 521px  "Mejores plugins de reparaci├│n de audio y restauraci├│n de ruido para estudios profesionales"
+       153c / 878px  "El audio malo es un hecho de la vida. Las grabaciones tienen ruido, resonancias duras, reverb y clic"
+       -> title 90 chars (> 60)
+  [ES] best-guitar-home-office_es.html
+       76c / 438px  "Mejores guitarras para teletrabajo: silenciosas y compactas (pros y contras)"
+       121c / 716px  "9 guitarras silenciosas para home office comparadas: la HUSH-I EVO2 gana por $219.99. Ficha t├®cnica,"
+       -> title 76 chars (> 60)
+  [EN] best-guitar-plugins.html
+       55c / 346px  "Best Guitar Plugins & Amp Sims: Don't Buy the Wrong One"
+       155c / 891px  "Recording guitar at home has never been better. Modern amp simulators capture the tone of vintage am"
+       -> desc termina en "with"
+  [ES] best-guitar-plugins_es.html
+       64c / 382px  "Mejores plugins de guitarra y amp sims: no compres el equivocado"
+       151c / 880px  "Grabar guitarra en casa nunca ha sido mejor. Los simuladores de amplificador modernos capturan el to"
+       -> title 64 chars (> 60) | desc termina en "y"
+  [EN] best-midi-theory-plugins.html
+       60c / 372px  "Best MIDI & Music Theory Plugins to Fast-Track Your Workflow"
+       156c / 888px  "Writer's block is not a talent problem. It is a theory problem. These MIDI and music theory plugins "
+       -> desc 156 chars (> 155)
+  [ES] best-midi-theory-plugins_es.html
+       74c / 426px  "Mejores plugins de MIDI y teor├¡a musical para acelerar tu flujo de trabajo"
+       153c / 867px  "El bloqueo del escritor no es un problema de talento. Es un problema de teor├¡a. Estos plugins de MID"
+       -> title 74 chars (> 60)
+  [ES] best-piano-keyboard-vsts_es.html
+       65c / 377px  "Mejores VST de piano y teclado virtual para producci├│n en estudio"
+       156c / 892px  "Un gran piano virtual no trata sobre tener la mayor├¡a de muestras. Trata sobre tener el toque correc"
+       -> title 65 chars (> 60) | desc 156 chars (> 155) | desc termina en "para"
+  [EN] best-synth-vsts.html
+       56c / 341px  "Best Synth VSTs: Industry Standards for Modern Producers"
+       152c / 911px  "Choosing a synth VST in 2026 means picking between wavetable powerhouses, analog emulations, modular"
+       -> desc termina en "the"
+  [ES] best-synth-vsts_es.html
+       65c / 395px  "Mejores VST de sintetizador: est├índares para productores modernos"
+       157c / 903px  "Elegir un VST de sintetizador en 2026 significa decidir entre tablas de ondas, emulaciones anal├│gica"
+       -> title 65 chars (> 60) | desc 157 chars (> 155)
+  [EN] ozone-vs-fabfilter.html
+       84c / 504px  "iZotope Ozone Advanced vs FabFilter Mastering Bundle: Which is Better for Mastering?"
+       158c / 918px  "Choosing your first professional mastering suite is a big investment. iZotope Ozone 12 Advanced and "
+       -> title 84 chars (> 60) | desc 158 chars (> 155)
+  [ES] ozone-vs-fabfilter_es.html
+       84c / 510px  "iZotope Ozone Advanced vs FabFilter Mastering Bundle: ┬┐cu├íl es mejor para mastering?"
+       156c / 911px  "Elegir tu primer suite de mastering profesional es una gran inversi├│n. iZotope Ozone 12 Advanced y e"
+       -> title 84 chars (> 60) | desc 156 chars (> 155) | desc termina en "m├ís"
+  [EN] repitch-vs-melodyne.html
+       73c / 440px  "Synchro Arts RePitch 2 Standard vs Melodyne 5: Which Pitch Editor to Buy?"
+       156c / 907px  "If you record vocals, you will eventually need pitch correction. The two most respected surgical edi"
+       -> title 73 chars (> 60) | desc 156 chars (> 155)
+  [ES] repitch-vs-melodyne_es.html
+       80c / 488px  "Synchro Arts RePitch 2 Standard vs Melodyne 5: ┬┐Qu├® editor de afinaci├│n comprar?"
+       151c / 895px  "Si grabas voces, tarde o temprano necesitar├ís correcci├│n de tono. Los dos editores quir├║rgicos m├ís r"
+       -> title 80 chars (> 60)
+  [EN] vocalign-vs-revoice-pro.html
+       84c / 523px  "Synchro Arts VocAlign vs Synchro Arts Revoice Pro 5: Do You Really Need the Upgrade?"
+       158c / 896px  "Vocal alignment is one of the most time-consuming tasks in vocal production. When you stack doubles,"
+       -> title 84 chars (> 60) | desc 158 chars (> 155)
+  [ES] vocalign-vs-revoice-pro_es.html
+       91c / 549px  "Synchro Arts VocAlign vs Synchro Arts Revoice Pro 5: ┬┐realmente necesitas la actualizaci├│n?"
+       156c / 898px  "La alineaci├│n vocal es una de las tareas que m├ís tiempo consume en la producci├│n vocal. Cuando apila"
+       -> title 91 chars (> 60) | desc 156 chars (> 155)
