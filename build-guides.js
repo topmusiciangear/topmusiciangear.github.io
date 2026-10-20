@@ -153,9 +153,9 @@ function criticalCss() {
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
     '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
-    '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}',
-    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card-img--cutout{background:rgba(255,255,255,.28)}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
-    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img:hover{transform:scale(1.08)}',
+    '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:rgba(255,255,255,.28)}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:18px;box-sizing:border-box}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:cover}.guide-product-card .guide-product-card-img--cutout{background:rgba(255,255,255,.28)}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
+    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:cover;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:rgba(255,255,255,.28);object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
@@ -421,9 +421,22 @@ const GUIDE_CARD_IMAGES = {
     331: 'img/guides/best-monitors/331.webp',
     300: 'img/guides/best-monitors/300.webp',
     304: 'img/guides/best-monitors/304.webp',
-    307: 'img/guides/best-monitors/307.webp'
+    307: 'img/guides/best-monitors/307.webp',
+    117: 'img/guides/best-monitors/117.webp',
+    303: 'img/guides/best-monitors/303.webp'
   }
 };
+// Imagen de cabecera recortada por guía (WebP transparente)
+const GUIDE_HERO_CUTOUTS = {
+  'best-monitors': 'img/guides/best-monitors/21.webp'
+};
+// Devuelve la imagen recortada de la guía actual si existe, o la original del producto
+function guideCutImg(p) {
+  const cut = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
+  if (cut) return { src: '../' + cut, cut: true };
+  const raw = p.img || '';
+  return { src: raw.startsWith('http') ? raw : '../' + raw, cut: false };
+}
 let CURRENT_LANG = 'en';
 
 function storeChips(p, lang) {
@@ -6319,8 +6332,7 @@ function productCard(p, lang) {
   const cutout = (GUIDE_CARD_IMAGES[CURRENT_GUIDE_ID] || {})[p.id];
   const imgSrc = cutout ? '../' + cutout : ((p.img || "").startsWith('http') ? p.img : '../' + p.img);
   return `<div class="guide-product-card">
-    <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>
-    <div class="guide-product-card-body">
+    <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
         <h3 class="guide-product-card-title">${title}</h3>
         ${productRatingLine(p, lang)}
@@ -6726,9 +6738,10 @@ function buildGuidePage(guide, lang, idx) {
         } else {
           prodVideoHtml = '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>';
         }
+        const gi = guideCutImg(p);
         return '<div class="guide-section-prod">' +
           '<div class="guide-section-prod-name">' + t + '</div>' +
-          '<div class="guide-section-prod-imgs"><img src="' + ((p.img||"").startsWith('http') ? p.img : '../' + p.img) + '" alt="' + t + '" class="guide-section-img lb-img" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
+          '<div class="guide-section-prod-imgs"><img src="' + gi.src + '" alt="' + t + '" class="guide-section-img lb-img' + (gi.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
           '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
         '</div>';
       }).filter(Boolean).join('');
@@ -6745,17 +6758,19 @@ function buildGuidePage(guide, lang, idx) {
       var sectionVideo = s.video || (firstProduct && firstProduct.video) || null;
       if (isFirstNew && sectionVideo) {
         const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
-        const psrc = (firstProduct.img||"").startsWith('http') ? firstProduct.img : '../' + firstProduct.img;
+        const gifp = guideCutImg(firstProduct);
+        const psrc = gifp.src;
         productImgs = '<div class="guide-section-imgs">' +
-          '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+          '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gifp.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
           '<div class="guide-video-thumb lb-video" data-yt="' + sectionVideo + '" role="button" aria-label="Play video" tabindex="0">' +
             '<img src="https://i.ytimg.com/vi/' + sectionVideo + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + sectionVideo + '/hqdefault.jpg\'">' +
             '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
           '</div>' +
         '</div>';
       } else if (isFirstNew) {
+        const gis = guideCutImg(firstProduct);
         productImgs = '<div class="guide-section-imgs">' +
-          '<img src="' + ((firstProduct.img||"").startsWith('http') ? firstProduct.img : '../' + firstProduct.img) + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img" style="cursor:zoom-in">' +
+          '<img src="' + gis.src + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gis.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
           '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
         '</div>';
       }
@@ -7020,7 +7035,7 @@ ${ogMeta}
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
       </div>
-      <div class="guide-detail-img"><img src="${fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
+      <div class="guide-detail-img${GUIDE_HERO_CUTOUTS[guide.id] ? ' guide-detail-img--cutout' : ''}"><img src="${GUIDE_HERO_CUTOUTS[guide.id] ? '../' + GUIDE_HERO_CUTOUTS[guide.id] : fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
       <div class="guide-detail-intro"><p>${introWithoutTable}</p></div>
       ${authorBoxHtml}
       ${introTable}

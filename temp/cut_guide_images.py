@@ -8,7 +8,7 @@ import numpy as np
 from PIL import Image, ImageFilter
 from scipy import ndimage
 
-IDS = [116, 20, 19, 21, 199, 305, 331, 300, 304, 307]
+IDS = [116, 20, 19, 21, 199, 305, 331, 300, 304, 307, 117, 303]
 OUT = 'img/guides/best-monitors'
 os.makedirs(OUT, exist_ok=True)
 
@@ -27,6 +27,14 @@ def cut(img):
     bg = np.isin(labels, list(border))
     if bg.mean() < 0.15:
         return None, bg.mean()
+    # Grow the background through the soft shadow: light pixels that touch the
+    # white area are edge/shadow, not product.
+    light = mn >= 205
+    for _ in range(40):
+        grown = ndimage.binary_dilation(bg) & light
+        if not (grown & ~bg).any():
+            break
+        bg = grown
     band = ndimage.binary_dilation(bg, iterations=3) & ~bg
     alpha = np.full(arr.shape[:2], 255.0, dtype=np.float32)
     alpha[bg] = 0.0
