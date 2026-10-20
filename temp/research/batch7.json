@@ -1,0 +1,262 @@
+[
+  {
+    "id": "pro-microphones",
+    "title_es": "Neumann U 87 Ai vs Lewitt LCT 1040: tubo vs estado sólido",
+    "current": "Neumann U 87 Ai",
+    "recommended": "Neumann U 87 Ai",
+    "confidence": "medium",
+    "reason_es": "El U 87 Ai sigue siendo el condensador de referencia para voz en estudio profesional: tres patrones, pad de 10 dB, reputación y valor de reventa. El LCT 1040 es más versátil (tubo + FET, cinco patrones, 10 dB de ruido propio) y Sound On Sound lo elogia, pero eso no basta para destronar al estándar; no hay evidencia clara de que sea mejor para el uso profesional general.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/lewitt-lct-1040",
+      "https://tapeop.com/reviews/gear/151/lct-1040-microphone-system",
+      "https://www.reddit.com/r/audioengineering/comments/sy2b6y/neumann_u87ai_or_the_new_lewitt_1040_mic_system/"
+    ]
+  },
+  {
+    "id": "pro-mixers",
+    "title_es": "Allen & Heath CQ-18T vs Midas M32R LIVE",
+    "current": "Allen & Heath CQ-18T",
+    "recommended": "Midas M32R LIVE",
+    "confidence": "medium",
+    "reason_es": "Para mezcla profesional en directo el M32R LIVE es otra liga: 40 canales de entrada, 16 previos Midas PRO, 25 buses, AES50 y 17 faders motorizados. El CQ-18T se queda en 19 entradas sin expansión y está pensado para corporativo, iglesias y locales pequeños; su automatización no compensa la falta de canales y ruteo en un show profesional.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/allen-heath-cq-18t",
+      "https://www.midasconsoles.com/en/products/0603-AEP",
+      "https://www.reddit.com/r/livesound/comments/1bnh3eb/midas_m32m32r_still_one_of_the_goat/"
+    ]
+  },
+  {
+    "id": "pro-monitors",
+    "title_es": "ADAM S3H vs Focal Trio11 Be: monitores de tres vías",
+    "current": "Focal Trio11 Be",
+    "recommended": "Focal Trio11 Be",
+    "confidence": "medium",
+    "reason_es": "El Trio11 Be mantiene la delantera: woofer de 11 pulgadas, tweeter de berilio, modo Focus y menos distorsión por debajo de 200 Hz, con buenas críticas de Tape Op. El S3H es más rápido y constante fuera de eje, pero no hay evidencia clara de superioridad global.",
+    "sources": [
+      "https://tapeop.com/reviews/gear/133/trio11-be-near-fieldmidfield-monitors",
+      "https://www.focal.com/products/trio-11-be",
+      "https://gearspace.com/threads/focal-trio-11be-vs-adam-s3v.1317909/"
+    ]
+  },
+  {
+    "id": "pro-plugins",
+    "title_es": "FabFilter vs Komplete: ¿bisturíes o ecosistema?",
+    "current": "FabFilter Paquete Total",
+    "recommended": "FabFilter Paquete Total",
+    "confidence": "high",
+    "reason_es": "Para mezcla y masterización el Total Bundle es la herramienta que se abre a diario: Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2 y Saturn 2 son estándar de facto. Komplete se compra por sus instrumentos y librerías, no por el procesamiento; en un duelo de plugins de producción el bisturí gana al ecosistema.",
+    "sources": [
+      "https://www.fabfilter.com/shop/total-bundle",
+      "https://titanaudio.io/gear/plugin-bundles-2026",
+      "https://gearspace.com/threads/fabfilter-or-another-bundle.1251432/"
+    ]
+  },
+  {
+    "id": "pro-synths",
+    "title_es": "Moog Muse vs Prophet-10: duelo de sints analógicos",
+    "current": "Sequential Prophet-10",
+    "recommended": "Sequential Prophet-10",
+    "confidence": "medium",
+    "reason_es": "El Prophet-10 conserva la delantera por tono crudo y 10 voces: es el benchmark de la polifonía analógica. El Muse añade matriz de modulación, secuenciador, arpegiador y efectos, y MusicRadar lo elogia, pero el consenso sigue dando al Prophet la voz superior; no hay una ventaja clara.",
+    "sources": [
+      "https://www.musicradar.com/music-tech/synths/moog-muse-review",
+      "https://gearspace.com/threads/the-moog-muse-vs-everything-else.1432812/page-2",
+      "https://www.reddit.com/r/synthesizers/comments/1exoyl6/moog_muse_vs_prophet_10/"
+    ]
+  },
+  {
+    "id": "pro-tools-vs-cubase",
+    "title_es": "Pro Tools vs Cubase Pro: grabación y mezcla",
+    "current": "Avid Pro Tools Studio",
+    "recommended": "Avid Pro Tools Studio",
+    "confidence": "high",
+    "reason_es": "El propósito declarado es grabación y mezcla profesional, y ahí Pro Tools sigue siendo el estándar de estudio: edición, comping y flujo de trabajo. Cubase es superior en MIDI, composición y notación, que no es el uso que define esta guía.",
+    "sources": [
+      "https://bunker8.com/nuendo-vs-cubase-vs-pro-tools/",
+      "https://gearspace.com/threads/cubase-vs-pro-tools.1107870/",
+      "https://www.gear4music.com/blog/cubase-vs-pro-tools/"
+    ]
+  },
+  {
+    "id": "re20-vs-sm7b",
+    "title_es": "EV RE20 vs Shure SM7B: duelo de mics de broadcast",
+    "current": "Shure SM7B",
+    "recommended": "Shure SM7B",
+    "confidence": "medium",
+    "reason_es": "El SM7B es la opción más versátil y el estándar del podcast: sonido cálido, rechazo de sala y filtro antipop integrado. El RE20 es más natural para locución de radio y controla mejor la proximidad, pero el consenso lo deja como alternativa, no como ganador claro.",
+    "sources": [
+      "https://producelikeapro.com/blog/re20-vs-sm7b/",
+      "https://bulletin.bigpodcast.com/electro-voice-re20-vs-shure-sm7b-which-is-better-for-podcasting",
+      "https://www.bambymedia.com/podcast/microphone-battle-shure-sm7b-vs-electro-voice-re20"
+    ]
+  },
+  {
+    "id": "rme-vs-motu",
+    "title_es": "Interfaz vs premium: ¿vale la pena?",
+    "current": "RME Babyface Pro FS",
+    "recommended": "RME Babyface Pro FS",
+    "confidence": "high",
+    "reason_es": "La Babyface Pro FS justifica el precio en el uso profesional diario: SteadyClock FS, drivers RME estables, TotalMix y conversión superior. La M2 es excelente por su precio, pero la pregunta de la guía es si vale la pena el salto premium, y para trabajo profesional sí.",
+    "sources": [
+      "https://www.rme-audio.de/babyface-pro-fs.html",
+      "https://motu.com/en-us/products/m-series/m2/",
+      "https://www.soundonsound.com/reviews/rme-babyface-pro-fs"
+    ]
+  },
+  {
+    "id": "rode-wireless-pro-vs-dji-mic-2",
+    "title_es": "Rode Wireless PRO vs DJI Mic 3: comparativa",
+    "current": "Rode Wireless PRO",
+    "recommended": "Rode Wireless PRO",
+    "confidence": "medium",
+    "reason_es": "Para entrevistas y rodajes frente a cámara el Wireless PRO gana por su entrada de lavalier con bloqueo y los dos Lavalier II incluidos, además de la mejor calidad de audio en la prueba de PetaPixel. El DJI Mic 3 es más ligero y cómodo si el transmisor va a la vista, pero no cubre el caso de lav oculto.",
+    "sources": [
+      "https://petapixel.com/2026/07/27/the-best-wireless-microphones-in-2026/",
+      "https://thepostflow.com/production/audio/dji-mic-3-vs-rode-wireless-pro/",
+      "https://www.reddit.com/r/videography/comments/1nhws0i/dji_mic_3_or_rode_wireless_pro/"
+    ]
+  },
+  {
+    "id": "rodecaster-pro2-vs-dlz-creator",
+    "title_es": "RØDECaster Pro II vs DLZ Creator: ¿cuál gana?",
+    "current": "RØDE RØDECaster Pro II",
+    "recommended": "RØDE RØDECaster Pro II",
+    "confidence": "medium",
+    "reason_es": "La RØDECaster Pro II sigue siendo la consola más pulida para podcast: procesado APHEX, cuatro entradas combo, doble USB-C y un flujo sencillo. La DLZ Creator gana en pantalla táctil y flexibilidad para streamers, pero los análisis la dejan como alternativa según el caso, no como ganadora clara.",
+    "sources": [
+      "https://soundandgo.com/en/rodecaster-pro-2-vs-mackie-dlz-creator/",
+      "https://www.learnlightandsound.com/videos/rodecaster-pro-2-versus-mackie-dlz-creator-podcast-livestream-mixers-recorders",
+      "https://www.bhphotovideo.com/c/compare/Mackie_DLZ+Creator_vs_RODE_RODECaster+Pro+II_vs_RODE_RODECaster+Video+S_vs_Mackie_PROFX12V3/BHitems/1750072-REG_1696424-REG_1927651-REG_1500098-REG"
+    ]
+  },
+  {
+    "id": "scarlett-vs-motu",
+    "title_es": "Focusrite Scarlett 2i2 vs MOTU M2: ¿cuál gana?",
+    "current": "MOTU M2",
+    "recommended": "MOTU M2",
+    "confidence": "medium",
+    "reason_es": "La MOTU M2 convence por conversión: DAC ESS Sabre32 Ultra, mejor amplificador de auriculares, menor impedancia de salida y latencia muy baja. La Scarlett 2i2 4ª gen gana en ganancia y funciones (Air, Auto Gain, Clip Safe), pero en calidad de audio medida la M2 mantiene ventaja.",
+    "sources": [
+      "https://higherhz.org/reviews/equipment/motu-m2/",
+      "https://www.audiosciencereview.com/forum/index.php?threads/focusrite-scarlett-2i2-3rd-gen-vs-motu-m2-%E2%80%94-which-one-should-i-go-for.66696/",
+      "https://www.samash.com/spotlight/post/motu-m2-vs-focusrite-scarlett-2i2-4th-gen-audio-interface-specs-sound-quality-and-price"
+    ]
+  },
+  {
+    "id": "scarlett-vs-ssl",
+    "title_es": "Scarlett 2i2 vs SSL 2+: ¿mejores previos para voces en casa?",
+    "current": "SSL 2+ MKII",
+    "recommended": "SSL 2+ MKII",
+    "confidence": "medium",
+    "reason_es": "Para voces en casa el previo es la clave, y el SSL 2+ MKII ofrece el modo 4K Legacy, más ganancia, menos ruido y mayor rango dinámico, además de talkback, MIDI y doble mezcla de auriculares. La Scarlett es mejor relación calidad-precio, pero no supera al SSL en el criterio que declara la guía.",
+    "sources": [
+      "https://kettnercreative.com/audio-interface/focusrite-scarlett-2i2-vs-solid-state-logic-ssl2-audio-interface/",
+      "https://soundref.com/solid-state-logic-ssl-2-review/",
+      "https://www.reddit.com/r/WeAreTheMusicMakers/comments/epf5hb/ssl_2_vs_focusrite_scarlett_2i24i4/"
+    ]
+  },
+  {
+    "id": "scarlett-vs-volt",
+    "title_es": "Scarlett 2i2 vs UA Volt 2: interfaz económica",
+    "current": "Focusrite Scarlett 2i2 4th Gen",
+    "recommended": "Focusrite Scarlett 2i2 4th Gen",
+    "confidence": "medium",
+    "reason_es": "La Scarlett 2i2 4ª gen es la mejor opción global: 69 dB de ganancia, 120 dB de rango dinámico, Air, Auto Gain, Clip Safe y loopback. La Volt 2 aporta carácter con su modo Vintage, pero pierde en funciones y valor conjunto; no hay evidencia clara para cambiarla.",
+    "sources": [
+      "https://higherhz.org/reviews/equipment/universal-audio-volt-2/",
+      "https://www.samash.com/spotlight/post/universal-audio-volt-2-vs-focusrite-scarlett-2i2-4th-gen-which-audio-interface-is-better",
+      "https://killerguitarrigs.com/universal-audio-volt-2-vs-focusrite-scarlett-2i2/"
+    ]
+  },
+  {
+    "id": "sidechain-modulation-plugins",
+    "title_es": "Mejores plugins de sidechain y modulación rítmica",
+    "current": "Cableguys ShaperBox 3",
+    "recommended": "Cableguys ShaperBox 3",
+    "confidence": "high",
+    "reason_es": "ShaperBox 3 es el consenso para sidechain y modulación rítmica: VolumeShaper, TimeShaper, FilterShaper y compañía en un solo plugin multibanda, con disparo por audio externo. MusicTech lo llama el monarca de los multi-efectos y sigue siendo la recomendación por defecto.",
+    "sources": [
+      "https://www.cableguys.com/shaperbox",
+      "https://musictech.com/reviews/plug-ins/cableguys-shaperbox-3-review/",
+      "https://magneticmag.com/2024/08/shaperbox-3-review/"
+    ]
+  },
+  {
+    "id": "slg200s-vs-gs-mini",
+    "title_es": "Yamaha SLG200S vs Taylor GS Mini: cuál comprar",
+    "current": "Taylor GS Mini",
+    "recommended": "Yamaha SLG200S",
+    "confidence": "medium",
+    "reason_es": "El propósito es práctica silenciosa en casa/oficina: la SLG200S suena alrededor de un 80% menos desenchufada, ofrece modelado SRT con auriculares y se guarda plegada. La GS Mini es mejor guitarra acústica y más barata, pero sigue sonando y con paredes finas se oye; para el uso declarado, la silenciosa resuelve el problema.",
+    "sources": [
+      "https://guitarinteractivemagazine.com/review/yamaha-slg200s-silent-guitar/",
+      "https://www.acousticguitarforum.com/forums/showthread.php?t=688082",
+      "https://www.reddit.com/r/Guitar/comments/mqjdl8/question_slg200s_yamaha_silent_guitar_long_term/"
+    ]
+  },
+  {
+    "id": "sm57-vs-md421",
+    "title_es": "SM57 vs MD 421 Kompakt: ¿mejor micro para amplis?",
+    "current": "Shure SM57",
+    "recommended": "Shure SM57",
+    "confidence": "high",
+    "reason_es": "El SM57 sigue siendo el estándar para microfoniar amplificadores de guitarra: cápsula pegada a la rejilla, medios que encajan y precio. El MD 421 Kompakt es más lleno y ancho, y muchos lo usan en conjunto, pero para el uso de la guía (amplis) no desplaza al SM57.",
+    "sources": [
+      "https://musictech.com/reviews/studio-recording-gear/sennheiser-md-421-kompakt-review/",
+      "https://guitarinteractivemagazine.com/review/sennheiser-md-421-kompakt-review/",
+      "https://www.reddit.com/r/recording/comments/6m20uv/recording_guitars_shure_sm57_or_sennheiser_md_421/"
+    ]
+  },
+  {
+    "id": "sm57-vs-sm58",
+    "title_es": "SM57 vs SM58: ¿cuál para voz y amplis? (prueba real)",
+    "current": "Shure SM57",
+    "recommended": "Shure SM58",
+    "confidence": "medium",
+    "reason_es": "Con la misma cápsula y transformador, el SM58 añade rejilla esférica con antipop y montaje antigolpes, así que cubre la voz correctamente y sigue sirviendo en amplis; el SM57 necesita un antipop externo para voz. Para un solo micro que haga voz y amplis, el SM58 es la opción completa.",
+    "sources": [
+      "https://www.guitarcenter.com/riffs/gear-tips/mics-and-wireless/shure-sm57-vs.-sm58-comparison-gear-tip",
+      "https://gearspace.com/threads/are-sm57s-and-sm58s-really-the-same-mic.569394/",
+      "https://www.projethomestudio.fr/en/difference-shure-sm58-sm57-microphones/"
+    ]
+  },
+  {
+    "id": "sm7b-vs-nt1",
+    "title_es": "SM7B vs NT1 5ª gen: ¿mejor micrófono de voz?",
+    "current": "Shure SM7B",
+    "recommended": "Shure SM7B",
+    "confidence": "medium",
+    "reason_es": "Para voz en un estudio casero medio, el SM7B gana por rechazo de sala, antipop integrado y carácter cálido; el NT1 es más detallado y silencioso sobre el papel, pero exige una sala tratada y muy silenciosa. El consenso práctico favorece al dinámico en habitaciones no tratadas.",
+    "sources": [
+      "https://thepostflow.com/production/audio/rode-nt1-5th-gen-vs-shure-sm7b/",
+      "https://gearspace.com/threads/specifically-looking-for-those-who-prefer-a-rode-nt1-to-a-shure-sm7b.1152304/",
+      "https://www.reddit.com/r/musicproduction/comments/1hf8xv4/is_an_upgrade_to_the_shure_sm7b_from_the_rhode/"
+    ]
+  },
+  {
+    "id": "stage-mics",
+    "title_es": "Mejores micrófonos de escenario y directo",
+    "current": "Shure SM58",
+    "recommended": "Shure SM58",
+    "confidence": "medium",
+    "reason_es": "El SM58 sigue siendo la referencia de escenario: cardioid, rejilla reemplazable, indestructible y barato. El e945 y el e935 tienen más claridad y salida, y son mejores para voces concretas, pero no hay evidencia clara de que superen al SM58 como micro de directo todoterreno.",
+    "sources": [
+      "https://www.shure.com/en-us/products/microphones/sm58",
+      "https://soundref.com/sennheiser-e945-review/",
+      "https://www.reddit.com/r/livesound/comments/s769qa/looking_for_a_change_from_the_sm58/"
+    ]
+  },
+  {
+    "id": "stage-wedges",
+    "title_es": "Mejores monitores de piso activos para directo",
+    "current": "RCF NX 912-SMA",
+    "recommended": "RCF NX 912-SMA",
+    "confidence": "high",
+    "reason_es": "La RCF NX 912-SMA es la cuña activa de referencia: 2100 W, DSP FiRPHASE, Bass Motion Control, 130-133 dB y caja de madera; las críticas de usuarios destacan su suavidad y cobertura. Las alternativas son buenas, pero ninguna la supera de forma clara.",
+    "sources": [
+      "https://www.rcf.it/en/products/product-detail/nx-912-sma",
+      "https://www.sweetwater.com/store/detail/NX912SMA--rcf-nx-912-sma-professional-active-stage-monitor",
+      "https://gearspace.com/threads/rcf-nx912a-experiences.1441753/"
+    ]
+  }
+]

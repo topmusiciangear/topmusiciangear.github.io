@@ -27,6 +27,7 @@ const CLEAN = (s) => s
   .replace(/^Columna\s+PA\s+Activa\s+/i, '')
   .replace(/^Micrófono\s+(Dinámico\s+|de\s+Condensador\s+de\s+Estudio\s+|de\s+Condensador\s+de\s+Gran\s+Diafragma\s+|Supercardioide\s+|On-Camera\s+|Shotgun\s+Corto\s+|Shotgun\s+Compacto\s+|Shotgun\s+|USB\s+de\s+Gaming\s+|USB\s+de\s+Condensador\s+Cardioide\s+|USB\s+de\s+Condensador\s+Compacto\s+|USB\s+Condensador\s+|USB\s+)?/i, '')
   .replace(/^Sistema\s+(Estéreo\s+Inalámbrico|In-Ear\s+Inalámbrico|Inalámbrico|Estéreo\s+UHF)\s+/i, '')
+  .replace(/^Caja\s+Directa\s+Activa\s+/i, '')
   .replace(/^Guitarra\s+(Eléctrica\s+Inteligente|Inteligente|Parlor\s+Electroacústica|Electroacústica|Parlor|Acústica|acústica)\s+/i, '')
   .replace(/^Guitarra\s+/i, '')
   .replace(/^Bajo\s+/i, '')

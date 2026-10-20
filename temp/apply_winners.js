@@ -67,6 +67,9 @@ function cleanName(raw) {
     .replace(/^Shotgun\s+Compacto\s+/i, '')
     .replace(/^Kit\s+de\s+Micrófono\s+Shotgun\s+/i, '')
     .replace(/^Teclado\s+/i, '')
+    .replace(/\s+Interfaz\s+Premium$/i, '')
+    .replace(/\s+Interfaz\s+Inmersiva$/i, '')
+    .replace(/\s+Interfaz\s+de\s+Audio\s+Premium$/i, '')
     .replace(/\s*\((?:Unidad|Each)\)\s*$/i, '')
     .trim();
 }
@@ -80,15 +83,59 @@ function blue(name) {
   return `<span class="product-name">${name}</span>`;
 }
 
+// Evita repetir el nombre justo después de ponerlo en negrita/azul.
+// "La Rode NT1 Signature Series es el clásico..." -> "Es el clásico..."
+function stripLeadName(text, name, keepVerb = true) {
+  if (!text || !name) return text;
+  const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const article = '(?:(?:El|La|Los|Las|Un|Una|The|A|An)\\s+)?';
+  const VERBS = 'es|son|trae|traen|tiene|tienen|ofrece|ofrecen|incluye|incluyen|llega|llegan|sale|salen|viene|vienen|representa|representan|supone|suponen|aporta|aportan|da|dan|entrega|entregan|combina|combinan|mantiene|mantienen|usa|usan|utiliza|utilizan|añade|añaden|suma|suman|cuenta|cuentan|está|están|sigue|siguen|permite|permiten|promete|prometen|cuesta|cuestan|marca|marcan|define|definen|destaca|destacan|pone|ponen|put|puts|concentra|concentran|lleva|llevan|mete|meten|demuestra|demuestran|integra|integran|incorpora|incorporan|actualiza|actualizan|recoge|recogen|is|are|delivers|deliver|brings|bring|offers|offer|has|have|includes|include|comes|come|features|feature|uses|use|provides|provide|proves|prove|packs|pack|combines|combine|sits|sit|remains|remain|adds|add|gives|give|works|work|sounds|sound|stands|stand|represents|represent|serves|serve|makes|make|takes|take|pairs|pair|updates|update';
+  const verb = keepVerb ? '(?=(?:' + VERBS + ')\\b)' : '(?:(?:' + VERBS + ')\\s+)';
+  const src = text.trim();
+  let out = src;
+  const full = new RegExp('^' + article + esc(name) + '\\s+' + verb, 'i');
+  if (full.test(out)) {
+    out = out.replace(full, '');
+  } else {
+    const tokens = [...new Set(name.split(/\s+/).filter(t => /\d/.test(t) && t.length > 1))]
+      .sort((a, b) => b.length - a.length);
+    for (const t of tokens) {
+      const r = new RegExp('^' + article + esc(t) + '\\s+' + verb, 'i');
+      if (r.test(out)) { out = out.replace(r, ''); break; }
+    }
+    if (out === src) {
+      const dash = new RegExp('^' + article + esc(name) + '\\s*[:—–-]\\s*', 'i');
+      if (dash.test(out)) out = out.replace(dash, '');
+    }
+    if (out === src) {
+      // Casos como "El AmpliTank K688 es..." o "El NT-USB Mini es..."
+      // donde la descripción usa un nombre corto y no el título completo.
+      const m = out.match(new RegExp('^(?:(?:El|La|Los|Las|Un|Una|The|A|An)\\s+)([^.;:!?—–]{2,70}?)\\s+' + verb, 'i'));
+      if (m) {
+        const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        const nameTokens = norm(name).split(/[^a-z0-9+]+/).filter(t => t.length >= 3);
+        const chunkTokens = norm(m[1]).split(/[^a-z0-9+]+/).filter(Boolean);
+        if (chunkTokens.some(t => nameTokens.includes(t))) out = out.slice(m[0].length);
+      }
+    }
+  }
+  if (!out) return text;
+  return out.charAt(0).toUpperCase() + out.slice(1);
+}
+
 const TIER = /(gama\s+(alta|media|baja)|de\s+élite|de\s+elite|gama\s+de\s+entrada)/gi;
+const TIER_START = /^\s*(?:gama\s+(?:alta|media|baja)|de\s+élite|gama\s+de\s+entrada)\s*[:\-–—]\s*/i;
+const TIER_PAREN = /\s*\((?:gama\s+(?:alta|media|baja)|de\s+élite|gama\s+de\s+entrada)\)/gi;
+const TIER_MID = /\b(?:gama\s+(?:alta|media|baja)|de\s+élite|gama\s+de\s+entrada)\b/gi;
 
 function cleanDesc(text) {
   if (!text) return '';
   let t = String(text).replace(/\s+/g, ' ').trim();
   // fuera frases con precio
   t = t.split(/(?<=[.!?])\s+/).filter(s => !/[$€]|\bUSD\b|\beuros?\b/i.test(s)).join(' ');
-  t = t.replace(TIER, '').replace(/\s{2,}/g, ' ').trim();
+  t = t.replace(TIER_START, '').replace(TIER_PAREN, '').replace(TIER_MID, '').replace(/\s{2,}/g, ' ').trim();
   t = t.replace(/previolificadores/gi, 'preamplificadores');
+  t = t.replace(/previolificador/gi, 'preamplificador');
   t = t.replace(/\s*\((?:cada uno|each)\)/gi, '');
   return t;
 }
@@ -141,106 +188,130 @@ function isBudget(guide) {
 
 const OPEN_ES = {
   duel: [
-    (n) => `${n} gana este duelo.`,
-    (n) => `Enfrentados cara a cara, ${n} sale mejor parado.`,
-    (n) => `El duelo se decide del lado de ${n}.`,
-    (n) => `${n} es el que se queda con la victoria.`,
-    (n) => `Tras compararlos punto por punto, gana ${n}.`,
+    (n) => `Gana ${n} en el cara a cara.`,
+    (n) => `Puestos uno frente al otro, ${n} sale mejor.`,
+    (n) => `La comparación directa se resuelve a favor de ${n}.`,
+    (n) => `El pulso se lo lleva ${n}.`,
+    (n) => `${n} aguanta mejor la comparación.`,
+    (n) => `Comparados punto por punto, ${n} convence más.`,
+    (n) => `La balanza acaba del lado de ${n}.`,
   ],
   budget: [
     (n) => `La mejor compra de la guía es ${n}.`,
-    (n) => `Con el presupuesto ajustado, ${n} es la opción más redonda.`,
-    (n) => `${n} es lo que más se acerca a lo que buscas sin pasarte de precio.`,
-    (n) => `Si el precio manda, ${n} es la elección.`,
-    (n) => `La compra que mejor se sostiene es ${n}.`,
+    (n) => `Por lo que cuesta, ${n} es la opción más lógica.`,
+    (n) => `Dentro de este presupuesto, ${n} es el que más ofrece.`,
+    (n) => `Si hay que ajustar el gasto, ${n} es la apuesta segura.`,
+    (n) => `En este rango de precio, ${n} es el que mejor compensa.`,
+    (n) => `${n} es la compra más sensata por este precio.`,
+    (n) => `Nada en este rango da tanto como ${n}.`,
   ],
   best: [
-    (n) => `${n} se lleva el primer puesto.`,
     (n) => `El primer puesto es para ${n}.`,
-    (n) => `${n} encabeza la lista.`,
-    (n) => `Lo mejor de la selección es ${n}.`,
-    (n) => `${n} es el que mejor puntúa en conjunto.`,
+    (n) => `De toda la selección, ${n} es el que más convence.`,
+    (n) => `La referencia de la categoría es ${n}.`,
+    (n) => `Entre todos, ${n} se lleva la palma.`,
+    (n) => `El mejor de la lista es ${n}.`,
+    (n) => `${n} está un paso por delante del resto.`,
+    (n) => `La cima de esta selección es ${n}.`,
   ],
   def: [
     (n) => `La recomendación final es ${n}.`,
-    (n) => `${n} es el nombre que nos quedamos.`,
-    (n) => `Al final, la apuesta más clara es ${n}.`,
-    (n) => `Si hay que mojarse, nos quedamos con ${n}.`,
-    (n) => `${n} es la opción que mejor encaja.`,
+    (n) => `Si tuviera que quedarme con uno, sería ${n}.`,
+    (n) => `La apuesta más clara es ${n}.`,
+    (n) => `Al final, todo apunta a ${n}.`,
+    (n) => `La opción que mejor encaja es ${n}.`,
+    (n) => `Me quedo con ${n}.`,
+    (n) => `${n} es el que más me convence.`,
   ],
 };
 const OPEN_EN = {
   duel: [
     (n) => `${n} wins this head-to-head.`,
-    (n) => `Face to face, ${n} comes out ahead.`,
-    (n) => `This duel goes to ${n}.`,
-    (n) => `${n} takes the win.`,
+    (n) => `Side by side, ${n} comes out ahead.`,
+    (n) => `The direct comparison favors ${n}.`,
+    (n) => `${n} takes the decision.`,
+    (n) => `${n} holds up better in the comparison.`,
     (n) => `Point by point, ${n} is the stronger pick.`,
+    (n) => `The scales end up on the side of ${n}.`,
   ],
   budget: [
     (n) => `The best buy in this guide is ${n}.`,
-    (n) => `On a tight budget, ${n} is the roundest option.`,
-    (n) => `${n} gets you closest to what you want without overspending.`,
-    (n) => `If price leads, the pick is ${n}.`,
-    (n) => `The purchase that holds up best is ${n}.`,
+    (n) => `For the money, ${n} makes the most sense.`,
+    (n) => `Within this budget, ${n} gives you the most.`,
+    (n) => `If you have to watch the spending, ${n} is the safe pick.`,
+    (n) => `In this price range, ${n} is the best value.`,
+    (n) => `${n} is the smartest purchase at this price.`,
+    (n) => `Nothing in this range delivers as much as ${n}.`,
   ],
   best: [
     (n) => `${n} takes the top spot.`,
-    (n) => `First place goes to ${n}.`,
-    (n) => `${n} leads the list.`,
-    (n) => `The best of the selection is ${n}.`,
-    (n) => `${n} scores highest overall.`,
+    (n) => `Out of the whole selection, ${n} is the most convincing.`,
+    (n) => `The reference in this category is ${n}.`,
+    (n) => `Of all of them, ${n} stands out.`,
+    (n) => `The best on the list is ${n}.`,
+    (n) => `${n} is a step ahead of the rest.`,
+    (n) => `The peak of this selection is ${n}.`,
   ],
   def: [
     (n) => `The final recommendation is ${n}.`,
-    (n) => `${n} is the name we keep coming back to.`,
-    (n) => `In the end, the clearest bet is ${n}.`,
-    (n) => `If we have to commit, we go with ${n}.`,
+    (n) => `If I had to keep one, it would be ${n}.`,
+    (n) => `The clearest bet is ${n}.`,
+    (n) => `In the end, everything points to ${n}.`,
     (n) => `${n} is the option that fits best.`,
+    (n) => `I would go with ${n}.`,
+    (n) => `${n} is the one that convinces me most.`,
   ],
 };
 const CLOSE_ES = {
   duel: [
-    (n) => `Con todo sobre la mesa, ${n} es la opción que menos concesiones exige.`,
-    (n) => `Vistas las diferencias, ${n} deja menos cabos sueltos.`,
-    (n) => `La balanza se inclina por ${n} sin demasiadas dudas.`,
+    (n) => `La diferencia está en los detalles, y ahí gana ${n}.`,
+    (n) => `No hay empate: ${n} ofrece más donde importa.`,
+    (n) => `Con las cartas sobre la mesa, ${n} es la elección.`,
+    (n) => `El resultado no deja muchas dudas: ${n}.`,
   ],
   budget: [
-    (n) => `Por lo que cuesta y lo que entrega, ${n} es la compra más sensata.`,
-    (n) => `${n} estira el presupuesto mejor que el resto.`,
-    (n) => `A este precio, cuesta encontrar algo que haga más que ${n}.`,
+    (n) => `Por ese precio, ${n} es difícil de superar.`,
+    (n) => `${n} es el que mejor aprovecha el presupuesto.`,
+    (n) => `A este precio, ${n} es la compra que menos remordimientos deja.`,
+    (n) => `Con este gasto, ${n} es la opción que más sentido tiene.`,
   ],
   best: [
-    (n) => `Si hay que quedarse con una sola, esa es ${n}.`,
-    (n) => `La referencia de la categoría sigue siendo ${n}.`,
-    (n) => `${n} es la que recomendaríamos sin pensarlo dos veces.`,
+    (n) => `Si solo puedes quedarte con uno, que sea ${n}.`,
+    (n) => `${n} sigue siendo la referencia de la categoría.`,
+    (n) => `La recomendaría sin pensarlo dos veces: ${n}.`,
+    (n) => `Para mí, la elección está clara: ${n}.`,
   ],
   def: [
     (n) => `La conclusión es clara: ${n}.`,
-    (n) => `Por eso ${n} es la que nos llevamos.`,
+    (n) => `Por eso me quedo con ${n}.`,
     (n) => `Al final, todo apunta a ${n}.`,
+    (n) => `No hay mucho más que pensar: ${n}.`,
   ],
 };
 const CLOSE_EN = {
   duel: [
-    (n) => `Between the two, ${n} asks for the fewest compromises.`,
-    (n) => `Once the differences are clear, ${n} leaves fewer loose ends.`,
-    (n) => `The scales tip toward ${n} without much doubt.`,
+    (n) => `The difference is in the details, and ${n} wins there.`,
+    (n) => `It is not a tie: ${n} gives you more where it matters.`,
+    (n) => `With everything on the table, ${n} is the pick.`,
+    (n) => `The result leaves little doubt: ${n}.`,
   ],
   budget: [
-    (n) => `For the money and what it delivers, ${n} is the smartest buy.`,
-    (n) => `${n} stretches the budget better than the rest.`,
-    (n) => `At this price, it is hard to find anything that does more than ${n}.`,
+    (n) => `At that price, ${n} is hard to beat.`,
+    (n) => `${n} makes the most of the budget.`,
+    (n) => `For this money, ${n} is the purchase you will regret least.`,
+    (n) => `At this spend, ${n} makes the most sense.`,
   ],
   best: [
-    (n) => `If you can only keep one, it is ${n}.`,
-    (n) => `The reference in the category is still ${n}.`,
-    (n) => `${n} is the one we would recommend without a second thought.`,
+    (n) => `If you can only keep one, make it ${n}.`,
+    (n) => `${n} is still the reference in the category.`,
+    (n) => `I would recommend it without a second thought: ${n}.`,
+    (n) => `For me, the choice is clear: ${n}.`,
   ],
   def: [
     (n) => `The conclusion is clear: ${n}.`,
-    (n) => `That is why ${n} is the one we take.`,
+    (n) => `That is why I would go with ${n}.`,
     (n) => `In the end, everything points to ${n}.`,
+    (n) => `There is not much more to think about: ${n}.`,
   ],
 };
 
@@ -281,8 +352,8 @@ for (const guide of guides) {
 
   const wNameEs = displayName(winner, true);
   const wNameEn = displayName(winner, false);
-  const wDescEs = cleanDesc(winner.desc_es || winner.desc);
-  const wDescEn = cleanDesc(winner.desc || winner.desc_es);
+  const wDescEs = stripLeadName(cleanDesc(winner.desc_es || winner.desc), wNameEs);
+  const wDescEn = stripLeadName(cleanDesc(winner.desc || winner.desc_es), wNameEn, false);
 
   // VEREDICTO
   let vEs = `<p><strong>${pick(OPEN_ES[type], guide.id)(blue(wNameEs))}</strong> ${shorten(wDescEs, 230)}</p>`;
@@ -294,8 +365,8 @@ for (const guide of guides) {
     if (!p) continue;
     const nEs = displayName(p, true);
     const nEn = displayName(p, false);
-    const dEs = cleanDesc(p.desc_es || p.desc);
-    const dEn = cleanDesc(p.desc || p.desc_es);
+    const dEs = stripLeadName(cleanDesc(p.desc_es || p.desc), nEs, false);
+    const dEn = stripLeadName(cleanDesc(p.desc || p.desc_es), nEn, false);
     if (dEs) vEs += `<p><strong>${blue(nEs)}</strong> — ${shorten(dEs, 170)}</p>`;
     if (dEn) vEn += `<p><strong>${blue(nEn)}</strong> — ${shorten(dEn, 170)}</p>`;
   }
@@ -303,10 +374,10 @@ for (const guide of guides) {
   // CONCLUSION (corta, distinta del veredicto)
   const wSentEs = sentences(wDescEs);
   const wSentEn = sentences(wDescEn);
-  const cEs = (wSentEs[1] || wSentEs[0] || '');
-  const cEn = (wSentEn[1] || wSentEn[0] || '');
-  const conclEs = `<p>${pick(CLOSE_ES[type], guide.id)(blue(wNameEs))} ${shorten(cEs, 190)}</p>`;
-  const conclEn = `<p>${pick(CLOSE_EN[type], guide.id)(blue(wNameEn))} ${shorten(cEn, 190)}</p>`;
+  const cEs = wSentEs[1] || '';
+  const cEn = wSentEn[1] || '';
+  const conclEs = `<p>${pick(CLOSE_ES[type], guide.id)(blue(wNameEs))}${cEs ? ' ' + shorten(cEs, 190) : ''}</p>`;
+  const conclEn = `<p>${pick(CLOSE_EN[type], guide.id)(blue(wNameEn))}${cEn ? ' ' + shorten(cEn, 190) : ''}</p>`;
 
   if (guide.verdict_es !== vEs || guide.verdict !== vEn) changed++;
   guide.verdict_es = vEs;

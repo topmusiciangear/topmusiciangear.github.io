@@ -1,0 +1,254 @@
+[
+  {
+    "id": "dxr-vs-prx",
+    "title_es": "Yamaha DXR12 vs JBL PRX ONE: altavoz vs columna",
+    "current": "Columna PA Activa JBL PRX ONE",
+    "recommended": "Columna PA Activa JBL PRX ONE",
+    "confidence": "medium",
+    "reason_es": "Para el uso que declara la guía (PA portátil todo en uno para bandas pequeñas, dúos y DJ), el PRX ONE sigue siendo la opción más completa: 2000 W pico, sub de 12\", 130 dB y mezclador digital de 7 canales con Lexicon/dbx. Sound On Sound lo describe como uno de los mini line array más potentes de su clase, con sonido limpio y gran resistencia al feedback. El DXR12mkII es un altavoz excelente y más escalable en un sistema grande, pero necesita mezcladora externa y no ofrece la cobertura de una columna. La evidencia no es abrumadora, así que se mantiene.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/jbl-prx-one",
+      "https://djlifemag.com/2022/04/jbl-prx-one-all-in-one-solution/"
+    ]
+  },
+  {
+    "id": "ew-iem-g4-twin-vs-psm300",
+    "title_es": "Sennheiser EW IEM G4 vs Shure PSM300: duelo",
+    "current": "Sennheiser ew IEM G4-TWIN-E",
+    "recommended": "Sennheiser ew IEM G4-TWIN-E",
+    "confidence": "high",
+    "reason_es": "El G4-TWIN-E es un set completo para dos intérpretes de fábrica (un SR IEM G4, dos petacas EK IEM G4 y dos pares de IE 4), con 42 MHz de ancho de banda y hasta 16 canales compatibles. En foros profesionales (TalkBass, Fractal, livesound) se coincide en que el Sennheiser tiene mejor RF, sonido y autonomía que el PSM300, que solo cubre un intérprete y obliga a comprar un segundo pack. El Shure solo gana si de verdad empiezas con una persona y vas a ampliar más adelante; para el uso de banda que plantea la guía, el set gemelo es la compra correcta.",
+    "sources": [
+      "https://www.reddit.com/r/livesound/comments/uemeh5/sennheiser_ew_iem_g4_twin_vs_shure_psm_300/",
+      "https://forum.fractalaudio.com/threads/iem-shure-psm-300-or.189996/"
+    ]
+  },
+  {
+    "id": "fabfilter-vs-ozone",
+    "title_es": "FabFilter vs Ozone: ¿mejor suite de mezcla y masterización?",
+    "current": "FabFilter Paquete Total",
+    "recommended": "FabFilter Paquete Total",
+    "confidence": "medium",
+    "reason_es": "La guía pide una suite que sirva para mezcla Y masterización, no solo mastering. El Total Bundle cubre ambas fases con Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2 y compañía, y es el consenso como kit de mezcla de referencia; Ozone 12 Advanced es más fuerte en mastering asistido por IA (Master Assistant, Tonal Balance), pero no sustituye una cadena de mezcla completa. La decisión depende del uso, y para el propósito declarado FabFilter es la opción más completa.",
+    "sources": [
+      "https://producelikeapro.com/blog/fabfilter-vs-izotope/",
+      "https://www.soundshaper.org/blog/fabfilter-vs-ozone-12"
+    ]
+  },
+  {
+    "id": "fender-bass-guide",
+    "title_es": "Los mejores bajos Fender para cada género",
+    "current": "Fender American Ultra II Precision Bass",
+    "recommended": "Fender American Ultra II Precision Bass",
+    "confidence": "medium",
+    "reason_es": "El Ultra II Precision es el tope de gama actual de Fender: pastilla Ultra II Noiseless P-Bass, talón esculpido, diapasón de ébano compuesto y puente HiMass. Las comparativas de Andertons y Sam Ash sitúan la serie Ultra por encima de la American Professional II en prestaciones y acabado, y el Precision sigue siendo el bajo más transversal para rock, punk, soul y country. El Player II y el Am Pro II son mejores compras por precio, pero no mejores instrumentos.",
+    "sources": [
+      "https://blog.andertons.co.uk/labs/fender-american-professional-ii-vs-ultra-guitars",
+      "https://www.samash.com/spotlight/post/fender-american-professional-ii-vs-american-ultra-series"
+    ]
+  },
+  {
+    "id": "fender-guide",
+    "title_es": "Las mejores guitarras Fender para cada género",
+    "current": "Fender American Ultra II Stratocaster",
+    "recommended": "Fender American Ultra II Stratocaster",
+    "confidence": "medium",
+    "reason_es": "Dentro de la guía, la Ultra II Stratocaster es la Fender de producción más avanzada: pastillas Ultra II Noiseless, radio compuesto, clavijeros de bloqueo y trémolo de 2 puntos. Andertons describe la American Professional II como la Fender 'moderna' equilibrada y la Ultra como el escalón premium, y Sam Ash la sitúa como la serie más avanzada de la marca. La Am Pro II es mejor relación calidad-precio, pero para 'la mejor guitarra Fender' la Ultra II sigue siendo la referencia.",
+    "sources": [
+      "https://blog.andertons.co.uk/labs/fender-american-professional-ii-vs-ultra-guitars",
+      "https://www.samash.com/spotlight/post/fender-american-professional-ii-vs-american-ultra-series"
+    ]
+  },
+  {
+    "id": "fix-clipping-scarlett",
+    "title_es": "Arregla el clipping del Scarlett 2i2 en 5 minutos",
+    "current": "Focusrite Scarlett 2i2 4th Gen",
+    "recommended": "Focusrite Scarlett 2i2 4th Gen",
+    "confidence": "high",
+    "reason_es": "La guía es específica del Scarlett 2i2 4th Gen: no compara productos, explica cómo ajustar la ganancia y el pad para evitar clipping. El único producto de la guía es el propio Scarlett, así que el ganador no admite discusión y no procede ningún cambio.",
+    "sources": [
+      "https://focusrite.com/products/scarlett-2i2",
+      "https://www.soundonsound.com/reviews/focusrite-scarlett-2i2-4th-gen"
+    ]
+  },
+  {
+    "id": "fx-plugins",
+    "title_es": "Mejores plugins de efectos creativos para producción",
+    "current": "Soundtoys 5.5 Bundle",
+    "recommended": "Soundtoys 5.5 Bundle",
+    "confidence": "high",
+    "reason_es": "Soundtoys 5.5 sigue siendo el bundle de efectos creativos de referencia: Decapitator, EchoBoy, Little AlterBoy, Crystallizer, SuperPlate y Effect Rack cubren saturación, delay, modulación y reverb con una calidad que ningún otro paquete de la lista iguala en conjunto. Las reviews lo describen como una navaja suiza del productor y su valor de reventa/uso está fuera de duda. Los plugins sueltos de la guía (RC-20, ShaperBox, Blackhole) son excelentes, pero no superan al bundle como herramienta global.",
+    "sources": [
+      "https://www.soundtoys.com/new-soundtoys-v5-5-bundle/",
+      "https://sonicscoop.com/new-software-review-soundtoys-5-bundle/"
+    ]
+  },
+  {
+    "id": "guitar-bass-amps",
+    "title_es": "Mejores amplificadores de guitarra y bajo: guía completa",
+    "current": "Vox AC30",
+    "recommended": "Vox AC30",
+    "confidence": "medium",
+    "reason_es": "La guía mezcla amplis de guitarra y de bajo, pero la mayoría de productos y el peso editorial son de guitarra. Guitar World elige el AC30(X) como mejor combo global de 2026: circuito clásico, reverb de muelle y un tono británico que sigue siendo referencia. Es cierto que para bajo no sirve (ahí están Rumble 500, Ampeg RB-115 y Markbass), y que es pesado y caro, pero ningún otro ampli de la lista tiene un consenso tan amplio como 'el mejor tono de guitarra'.",
+    "sources": [
+      "https://www.guitarworld.com/features/best-combo-amps",
+      "https://www.guitarchalk.com/vox-ac30-vs-fender-deluxe-reverb/"
+    ]
+  },
+  {
+    "id": "guitar-pedals",
+    "title_es": "Mejores pedales de efectos para guitarra: guía completa",
+    "current": "Strymon BigSky MX",
+    "recommended": "Strymon BigSky MX",
+    "confidence": "medium",
+    "reason_es": "La guía mezcla categorías (drive, delay, wah, afinador, reverb, fase), así que no existe un pedal que sea 'el mejor' en todo. El BigSky MX es el que tiene el consenso más fuerte en su categoría: Guitar World y Sweetwater lo consideran el mejor pedal de reverb del mercado por sus máquinas de reverb, IR y procesamiento estéreo. El TS9 o el DD-8 son más universales y baratos, pero cambiarlos sería una preferencia editorial, no una corrección respaldada por evidencia.",
+    "sources": [
+      "https://www.guitarworld.com/gear/the-best-reverb-pedals-for-guitar",
+      "https://www.strymon.net/product/bigsky-mx/"
+    ]
+  },
+  {
+    "id": "hd490-pro-vs-dt990",
+    "title_es": "HD 490 Pro vs DT 990 Pro: ¿abiertos para mezclar?",
+    "current": "Sennheiser HD 490 Pro Plus",
+    "recommended": "Sennheiser HD 490 Pro Plus",
+    "confidence": "high",
+    "reason_es": "Para mezclar, el HD 490 Pro Plus es la herramienta más fiable: respuesta neutra, dos juegos de almohadillas (mixing y producing) y graves bien extendidos. RTINGS y Sonarworks lo sitúan por delante del DT 990 Pro, que es más brillante y con curva en V, ideal para escuchar pero fatigante y menos honesto para tomar decisiones. El DT 990 es más barato, pero no mejor para el propósito declarado.",
+    "sources": [
+      "https://www.rtings.com/headphones/tools/compare/beyerdynamic-dt-990-pro-vs-sennheiser-hd-490-pro/329/50713",
+      "https://www.sonarworks.com/blog/reviews/sennheiser-hd-490-pro-studio-headphone-review"
+    ]
+  },
+  {
+    "id": "hs8-vs-rokit-7",
+    "title_es": "HS8 vs Rokit 7 G5: ¿cuál es honesto para mezclar?",
+    "current": "Yamaha HS8",
+    "recommended": "Yamaha HS8",
+    "confidence": "high",
+    "reason_es": "La pregunta de la guía es cuál es más honesto para mezclar, y ahí el HS8 gana: respuesta plana y reveladora en medios, cono de 8\" y controles de sala. El Rokit 7 G5 tiene más graves y un sonido más 'hifi', divertido para producir pero menos fiable para decidir. El consenso de ingenieros y comparativas (DIY Music, Bajaao) es que el Yamaha es el monitor de mezcla y el KRK el de escucha.",
+    "sources": [
+      "https://diymusic.co.uk/yamaha-hs-vs-krk-rokit/",
+      "https://www.bajaao.com/blogs/blog/yamaha-hs8-vs-krk-rokit-8-which-studio-monitor-is-best"
+    ]
+  },
+  {
+    "id": "ie900-vs-se846",
+    "title_es": "Sennheiser IE 900 vs Shure SE846 Gen 2",
+    "current": "Sennheiser IE 900",
+    "recommended": "Sennheiser IE 900",
+    "confidence": "medium",
+    "reason_es": "La guía plantea el duelo desde el detalle y la escena para un músico audiófilo, y ahí el IE 900 sigue por delante: driver dinámico TrueResponse de 7 mm, carcasa de aluminio fresada y una resolución que Head-Fi y las reviews sitúan un escalón por encima del SE846. El Shure gana en aislamiento, cable desmontable y filtros intercambiables, y sería mejor para directo, pero no para el criterio que declara la guía.",
+    "sources": [
+      "https://www.head-fi.org/threads/sennheiser-ie900-review-measurements-harman-target-talk.957709/page-54",
+      "https://www.techgoondu.com/2023/01/17/shure-se846-gen-2-review-impressive-detail-transparency-that-will-delight-audiophiles/"
+    ]
+  },
+  {
+    "id": "j48-vs-rndi",
+    "title_es": "Radial J48 vs Rupert Neve RNDI: ¿mejor caja DI activa?",
+    "current": "Interfaz Directa Activa Rupert Neve Designs RNDI",
+    "recommended": "Interfaz Directa Activa Rupert Neve Designs RNDI",
+    "confidence": "medium",
+    "reason_es": "El RNDI aporta transformadores Rupert Neve y etapa FET Clase A, admite +20,5 dBu de instrumento y +41 dBu de señal de altavoz con gran coherencia de fase. En Gearspace se describe como más limpio y suave que el J48, que colorea algo más los medios-bajos; Premier Guitar llama al J48 'el DI activo de referencia' para directo. La evidencia está dividida y depende del uso, así que se mantiene el actual, que es el más adecuado para estudio.",
+    "sources": [
+      "https://gearspace.com/threads/rndi-vs-j48.1044577/",
+      "https://www.premierguitar.com/gear-finds/which-di-box-fits-your-setup"
+    ]
+  },
+  {
+    "id": "jbl-vs-kali",
+    "title_es": "JBL 305P vs Kali LP-6: duelo de monitores económicos",
+    "current": "Kali Audio LP-6 V2",
+    "recommended": "Kali Audio LP-6 V2",
+    "confidence": "high",
+    "reason_es": "El LP-6 V2 es el más equilibrado de los dos: menor distorsión, puerto frontal y EQ de frontera para colocar cerca de la pared, algo decisivo en un home studio pequeño o sin tratar. En AudioScienceReview y The Gear Page se coincide en que el Kali suena más parejo, mientras el 305P MkII tiene una zona de escucha más amplia pero un punto medio algo hundido y un sonido más 'boxy'. Para el uso declarado, Kali.",
+    "sources": [
+      "https://www.audiosciencereview.com/forum/index.php?threads/400-bucks-budget-for-a-pair-of-studio-monitors-for-home-studio-jbl-306p-mkii-or-kali-lp-6-2nd.48539/",
+      "https://www.thegearpage.net/board/index.php?threads/kali-audio-lp-6-v2-vs-jbl-305p-mkii.2642579/"
+    ]
+  },
+  {
+    "id": "k371-vs-mdr7506",
+    "title_es": "AKG K371 vs Sony MDR-7506: comparativa para home studio",
+    "current": "AKG K371",
+    "recommended": "AKG K371",
+    "confidence": "high",
+    "reason_es": "El K371 sigue la curva objetivo Harman, tiene graves más honestos, mejor aislamiento y cables desmontables; RTINGS lo considera mejor que el MDR-7506 para estudio. El Sony es el estándar de broadcast desde 1991 y sigue siendo utilísimo para edición de voz, pero su agudo realzado y su escena estrecha lo hacen menos neutral para mezclar en casa. Para el propósito de la guía, el AKG es la elección.",
+    "sources": [
+      "https://www.rtings.com/headphones/tools/compare/sony-mdr-7506-vs-akg-k371/386/1671",
+      "https://www.audiosciencereview.com/forum/index.php?threads/sony-mdr-7506-review-headphone.19099/page-9"
+    ]
+  },
+  {
+    "id": "katana-vs-dsl",
+    "title_es": "Katana 50 vs DSL40CR: ¿modelado o válvulas?",
+    "current": "Marshall DSL40CR",
+    "recommended": "Marshall DSL40CR",
+    "confidence": "medium",
+    "reason_es": "El duelo es explícitamente 'modelado o válvulas', y para el tono de válvulas el DSL40CR es superior: 40 W todo-válvulas, canales classic/ultra gain, presencia y resonancia, y salida emulada. Guitar World lo elige como el mejor Marshall por menos de 1.000 $ y destaca su crunch y su respuesta dinámica. El Katana 50 Gen 3 gana en versatilidad, peso y precio, pero no en el criterio que plantea el título.",
+    "sources": [
+      "https://www.guitarchalk.com/marshall-dsl40cr-vs-boss-katana-100/",
+      "https://www.guitarworld.com/features/best-combo-amps"
+    ]
+  },
+  {
+    "id": "kh750-vs-7050c",
+    "title_es": "Neumann KH 750 DSP vs Genelec 7050C: duelo",
+    "current": "Neumann KH 750 DSP Subwoofer de Estudio Activo de 10\"",
+    "recommended": "Neumann KH 750 DSP Subwoofer de Estudio Activo de 10\"",
+    "confidence": "high",
+    "reason_es": "El KH 750 DSP es más grande y baja hasta 16 Hz frente a los 24 Hz del 7050C, y añade DSP con calibración MA 1 y entrada digital AES3. En AudioScienceReview se confirma que el Neumann es más profundo y potente; el Genelec compensa con su carcasa espiral LSE, gestión puramente analógica y menor precio. Para un sistema calibrado y con más extensión de graves, el Neumann sigue siendo el mejor.",
+    "sources": [
+      "https://www.audiosciencereview.com/forum/index.php?threads/sub-choice-neumann-kh-750-or-genelec-7050.20097/",
+      "https://www.soundonsound.com/forum/viewtopic.php?t=70046&start=48"
+    ]
+  },
+  {
+    "id": "live-sound-pa",
+    "title_es": "Mejores sistemas PA para sonido en vivo: guía completa",
+    "current": "Altavoz Activo QSC K12.2",
+    "recommended": "Altavoz Activo QSC K12.2",
+    "confidence": "high",
+    "reason_es": "El K12.2 es el estándar de los riders y la referencia del altavoz activo de 12\" en gama media: 2000 W pico, DSP con presets, chasis robusto y fiabilidad probada en directo. En TalkBass y el foro de Sound On Sound se coincide en que es la opción más segura para bandas y DJs, por encima de columnas todo en uno, coaxiales o altavoces a batería, que cubren nichos concretos. No hay evidencia de que otra opción de la lista sea mejor para el uso general.",
+    "sources": [
+      "https://www.talkbass.com/threads/change-my-view-qsc-k12s-are-the-best-pa-speakers-attainable-by-the-average-musician.1378210/",
+      "https://www.soundonsound.com/forum/viewtopic.php?t=57836"
+    ]
+  },
+  {
+    "id": "m50x-vs-dt770",
+    "title_es": "ATH-M50x vs DT 770 Pro: diferencias técnicas",
+    "current": "Beyerdynamic DT 770 Pro",
+    "recommended": "Beyerdynamic DT 770 Pro",
+    "confidence": "high",
+    "reason_es": "Para monitoreo en estudio, el DT 770 Pro es más cómodo en sesiones largas (almohadillas de velour), aísla mejor y tiene graves más definidos y mayor escena. En foros de producción se recomienda sobre el M50x para trabajo de estudio; el Audio-Technica es más plegable y portátil, pero su curva con graves realzados y su escena más estrecha lo hacen menos fiable. La guía es de monitoreo, no de portabilidad.",
+    "sources": [
+      "https://www.reddit.com/r/musicproduction/comments/1fyivds/beyerdynamic_dt_770_pro_80_ohm_or_audiotechnica/",
+      "https://audiouniversityonline.com/ath-m50x-vs-dt-770-pro/"
+    ]
+  },
+  {
+    "id": "m50x-vs-mdr7506",
+    "title_es": "ATH-M50x vs MDR-7506: ¿mejores auriculares cerrados?",
+    "current": "Audio-Technica ATH-M50x",
+    "recommended": "Audio-Technica ATH-M50x",
+    "confidence": "medium",
+    "reason_es": "La comparación está muy dividida: el MDR-7506 es más plano y brillante, y sigue siendo el estándar de broadcast; el M50x es más cómodo, mejor construido y con más graves, lo que RTINGS valora para sesiones largas. Para producción musical el M50x es más llevadero, y para diálogo el Sony gana. Al no haber una ventaja clara y ser la guía de uso general, se mantiene el actual.",
+    "sources": [
+      "https://www.rtings.com/headphones/tools/compare/audio-technica-ath-m50x-vs-sony-mdr-7506/295/386",
+      "https://www.beatradar.com/2021/06/headset-showndown-hd25-ath-m50x-mdr-7506/"
+    ]
+  },
+  {
+    "id": "martin-d28-vs-taylor-314",
+    "title_es": "Martin D-28 vs Taylor 314ce: ¿mejor acústica?",
+    "current": "Martin D-28 Dreadnought",
+    "recommended": "Martin D-28 Dreadnought",
+    "confidence": "high",
+    "reason_es": "La D-28 es el dreadnought de referencia: tapa sólida de abeto Sitka, fondo y aros de palo rosa indio y un volumen/proyección que la han convertido en el estándar con el que se comparan las demás acústicas. En Acoustic Guitar Forum se repite que la Taylor 314ce es más cómoda y amplificable, con un sonido más brillante, pero la Martin tiene más cuerpo y graves. Para la pregunta 'mejor acústica' sin más matices, la D-28 sigue ganando.",
+    "sources": [
+      "https://www.acousticguitarforum.com/forums/showthread.php?t=547179",
+      "https://findmyguitar.com/compare/Taylor-314ce-vs-Martin-D-28-comparison.php"
+    ]
+  }
+]

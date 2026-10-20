@@ -1,0 +1,255 @@
+[
+  {
+    "id": "best-bass-amps",
+    "title_es": "Mejores amplificadores de bajo para cada músico",
+    "current": "Fender Rumble 500 V3",
+    "recommended": "Fender Rumble 500 V3",
+    "confidence": "high",
+    "reason_es": "El Rumble 500 sigue siendo el combo de 500 W de referencia para girar: 2x10 Eminence, 16,6 kg y previo con overdrive, contour y vintage. Sweetwater y Guitar Lobby lo sitúan como mejor combo por relación potencia/portabilidad; el Ampeg RB-210 tiene un tono más clásico y el Markbass pesa menos, pero ninguno reúne ambas cosas al mismo precio.",
+    "sources": [
+      "https://www.sweetwater.com/insync/best-bass-amps/",
+      "https://www.guitarlobby.com/best-bass-amps/"
+    ]
+  },
+  {
+    "id": "best-bass-home-office",
+    "title_es": "Mejores bajos para home office y viajes",
+    "current": "Ibanez EHB1000 Headless Bass",
+    "recommended": "Ibanez EHB1000 Headless Bass",
+    "confidence": "high",
+    "reason_es": "En una oficina en casa el problema es la longitud, y el EHB1000 mantiene escala de 34\" sin pala, con cuerpo chambered y previo Bartolini. TalkBass destaca su construcción y comodidad; el Sire M6 suena bien, pero arrastra dudas de control de calidad y unos afinadores que sobresalen e impiden dejar el bajo apoyado.",
+    "sources": [
+      "https://www.talkbass.com/threads/ibanez-ehb1000-the-new-headless-series-is-for-real.1469882/",
+      "https://www.thomann.co.uk/ibanez_ehb1005ms_sfm.htm"
+    ]
+  },
+  {
+    "id": "best-bass-practice-amps",
+    "title_es": "Mejores amplificadores de bajo para practicar en casa",
+    "current": "Fender Rumble 40 V3",
+    "recommended": "Fender Rumble 40 V3",
+    "confidence": "high",
+    "reason_es": "El Rumble 40 V3 es la elección de Guitar World y Guitar Lobby para practicar en casa: 40 W, 8,2 kg, salida XLR y auriculares. El Spark MINI y el THR30II son más portátiles, pero no dan el mismo cuerpo de bajo ni permiten tocar con un batería en un local pequeño.",
+    "sources": [
+      "https://www.guitarworld.com/features/best-bass-amps-for-practice",
+      "https://www.guitarlobby.com/best-bass-practice-amps/"
+    ]
+  },
+  {
+    "id": "best-bass-under-700",
+    "title_es": "Mejores bajos por menos de $700",
+    "current": "Yamaha BB434",
+    "recommended": "Yamaha BB434",
+    "confidence": "high",
+    "reason_es": "El BB434 es un pasivo de escala 34\" con pastillas propias y construcción Yamaha que se vende por debajo de 700 $. Las reseñas de bajistas lo comparan con Fender MIM más caros y destilan su consistencia de acabado; el Sire V5R y el Ray4 son alternativas válidas, pero no superan su relación precio/calidad.",
+    "sources": [
+      "https://playbassbetter.com/blog/yamaha-bb-series-review/",
+      "https://www.sweetwater.com/store/detail/BB434BL--yamaha-bb434-black/reviews"
+    ]
+  },
+  {
+    "id": "best-beginner-electric-guitar",
+    "title_es": "Mejores guitarras eléctricas para principiantes: qué comprar",
+    "current": "Yamaha Pacifica 112V",
+    "recommended": "Yamaha Pacifica 112V",
+    "confidence": "high",
+    "reason_es": "El Pacifica 112V es el estándar de la categoría para Guitar World y MusicRadar: cuerpo de aliso, HSS Alnico V y un montaje que aguanta años. Ninguna otra guitarra de la lista combina esa versatilidad con un precio de entrada.",
+    "sources": [
+      "https://www.guitarworld.com/features/best-beginner-electric-guitars",
+      "https://www.musicradar.com/news/the-best-electric-guitars"
+    ]
+  },
+  {
+    "id": "best-compact-mixers",
+    "title_es": "Mejores mezcladores Digitales de rack con control tablet",
+    "current": "Allen & Heath SQ-Rack Digital Mixer",
+    "recommended": "Allen & Heath SQ-Rack Digital Mixer",
+    "confidence": "medium",
+    "reason_es": "El SQ-Rack es el único de la lista con núcleo FPGA a 96 kHz, 48 canales y 0,7 ms de latencia en 4U; Gearnews lo describe como una SQ-5 de rack. El X32 Rack y el Ui24R siguen siendo opciones de precio, pero en audio y procesado el Allen & Heath está por delante.",
+    "sources": [
+      "https://www.gearnews.com/allen-heath-sq-rack-live/",
+      "https://www.allen-heath.com/hardware/sq/sq-rack/"
+    ]
+  },
+  {
+    "id": "best-condenser-mics",
+    "title_es": "Mejores micrófonos condensadores profesionales",
+    "current": "Neumann U 87 Ai",
+    "recommended": "Neumann U 87 Ai",
+    "confidence": "high",
+    "reason_es": "El U 87 Ai sigue siendo el condensador de referencia para voz y estudio: tres patrones, pad de 10 dB y filtro de graves lo hacen válido para casi cualquier fuente. El C414 XLII ofrece más patrones y un sonido más brillante, pero no tiene el mismo consenso como micrófono principal.",
+    "sources": [
+      "https://www.musicradar.com/news/best-condenser-mics",
+      "https://www.neumann.com/en-en/products/microphones/u-87-ai/"
+    ]
+  },
+  {
+    "id": "best-daw-for-beginners",
+    "title_es": "Mejor DAW para principiantes",
+    "current": "FL Studio Edición Producer",
+    "recommended": "FL Studio Edición Producer",
+    "confidence": "medium",
+    "reason_es": "FL Studio Producer ofrece piano roll, flujo por patrones y actualizaciones gratuitas de por vida, y aparece como recomendación habitual en las guías de DAW para principiantes de 2026. Ableton Live Suite y Logic Pro son mejores a largo plazo, pero cuestan bastante más y su curva inicial es más dura.",
+    "sources": [
+      "https://www.image-line.com/fl-studio/compare",
+      "https://musictech.blog/best-daw-for-beginners-in-2026/"
+    ]
+  },
+  {
+    "id": "best-digital-mixers",
+    "title_es": "Mejores mezcladores digitales: guía completa",
+    "current": "Allen & Heath CQ-18T",
+    "recommended": "Allen & Heath CQ-18T",
+    "confidence": "high",
+    "reason_es": "El CQ-18T es el mezclador compacto mejor valorado de 2026 (MusicRadar, Sound On Sound): 18 entradas, pantalla táctil, 96 kHz y grabación multitrack. El XR18 y el Ui24R son la opción económica, pero el CQ-18T resuelve mejor el control sin depender de una tablet.",
+    "sources": [
+      "https://www.musicradar.com/reviews/allen-and-heath-cq-18t-review",
+      "https://www.soundonsound.com/reviews/allen-heath-cq-18t"
+    ]
+  },
+  {
+    "id": "best-digital-pianos",
+    "title_es": "Mejores pianos digitales para hogar y estudio",
+    "current": "Yamaha Clavinova CLP-835",
+    "recommended": "Yamaha Clavinova CLP-835",
+    "confidence": "high",
+    "reason_es": "Dentro de la lista, el CLP-835 es el único piano de mueble con acción GrandTouch-S y motor de modelado de la serie Clavinova; las reseñas lo señalan como el Clavinova con mejor relación calidad/precio. Los P-225 y FP-30X son portables, pero no compiten en tacto ni en sonido de mueble.",
+    "sources": [
+      "https://www.musicradar.com/news/best-digital-pianos",
+      "https://pianistscompass.org/reviews/yamaha-clavinova-clp-835/"
+    ]
+  },
+  {
+    "id": "best-drum-machine",
+    "title_es": "Mejores cajas de ritmos y grooveboxes: guía completa",
+    "current": "Elektron Digitakt II",
+    "recommended": "Elektron Digitakt II",
+    "confidence": "high",
+    "reason_es": "El Digitakt II es la caja de ritmos/sampler más completa de la selección: 16 pistas estéreo, secuenciador Elektron y 400 MB de memoria. MusicRadar lo elige como mejor opción para beats sampleados; el TR-8S y el Syntakt son más inmediatos, pero menos profundos.",
+    "sources": [
+      "https://www.musicradar.com/news/best-drum-machines",
+      "https://www.soundonsound.com/reviews/elektron-digitakt-ii"
+    ]
+  },
+  {
+    "id": "best-electric-guitar",
+    "title_es": "Mejor guitarra eléctrica para cada guitarrista",
+    "current": "Fender American Ultra II Stratocaster",
+    "recommended": "Fender American Ultra II Stratocaster",
+    "confidence": "medium",
+    "reason_es": "La Ultra II es la Stratocaster de producción más completa de Fender: pastillas Ultra II Noiseless, diapasón de ébano de radio compuesto, clavijeros de bloqueo y trémolo de 2 puntos. Frente a la Am Pro II y la Player II añade hardware y acabados de gama alta; en una guía que cubre todos los niveles, es la referencia del techo de gama.",
+    "sources": [
+      "https://www.musicradar.com/news/the-best-electric-guitars",
+      "https://www.guitarworld.com/features/best-electric-guitars"
+    ]
+  },
+  {
+    "id": "best-electric-guitars-2026",
+    "title_es": "Mejores guitarras eléctricas para todos los estilos",
+    "current": "Fender American Professional II Stratocaster",
+    "recommended": "Fender American Professional II Stratocaster",
+    "confidence": "high",
+    "reason_es": "MusicRadar nombra a la American Professional II Stratocaster mejor guitarra eléctrica global: pastillas V-Mod II, mástil Deep C y una versatilidad que cubre blues, pop y rock. Frente a la Ultra II cuesta bastante menos y no sacrifica lo esencial, así que encaja mejor en una guía para todos los estilos.",
+    "sources": [
+      "https://www.musicradar.com/news/the-best-electric-guitars",
+      "https://www.guitarworld.com/features/best-electric-guitars"
+    ]
+  },
+  {
+    "id": "best-guitar-home-office",
+    "title_es": "Mejores guitarras para teletrabajo: silenciosas y compactas (pros y contras)",
+    "current": "Donner HUSH-I EVO2",
+    "recommended": "Donner HUSH-I EVO2",
+    "confidence": "medium",
+    "reason_es": "El HUSH-I EVO2 es la opción más silenciosa y compacta de la lista: se desmonta sin herramientas, pesa poco y el previo HPS-II suena mejor de lo que su tamaño sugiere. El SLG200S de Yamaha tiene mejor tono acústico, pero es más caro y voluminoso; para teletrabajo y viajes el Donner cumple mejor.",
+    "sources": [
+      "https://guitarinteractivemagazine.com/review/donner-hush-i-evo-2-review/",
+      "https://www.musicradar.com/reviews/guitars/yamaha-slg200s-silent-guitar-624628"
+    ]
+  },
+  {
+    "id": "best-guitar-plugins",
+    "title_es": "Mejores plugins de guitarra y amp sims: no compres el equivocado",
+    "current": "IK Multimedia AmpliTube 5",
+    "recommended": "IK Multimedia AmpliTube 5",
+    "confidence": "high",
+    "reason_es": "AmpliTube 5 es la suite más completa de la selección: 177 modelos en Standard, captura ToneX y más de 10.000 presets. Guitar World destaca su calidad de modelado y su enorme biblioteca; los demás son más específicos (Marshall, Sound City, Lunchbox) y cubren menos terreno.",
+    "sources": [
+      "https://www.guitarworld.com/gear/plugins-apps/best-guitar-plugins",
+      "https://www.ikmultimedia.com/products/amplitube5/"
+    ]
+  },
+  {
+    "id": "best-hardware-samplers",
+    "title_es": "Mejores samplers de hardware para beat makers",
+    "current": "Akai MPC Live III",
+    "recommended": "Akai MPC Live III",
+    "confidence": "high",
+    "reason_es": "El MPC Live III es el sampler autónomo más potente del mercado: 8 núcleos, 8 GB de RAM y MPC3 con separación de stems. Sound On Sound y MusicTech lo avalan como centro de producción; el Digitakt II y el SP-404MKII son más limitados en secuenciación y memoria.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/akai-mpc-live-iii",
+      "https://www.musicradar.com/music-tech/akai-mpc-live-3-review"
+    ]
+  },
+  {
+    "id": "best-headphones",
+    "title_es": "Mejores auriculares de estudio: guía completa",
+    "current": "Audeze LCD-X",
+    "recommended": "Sennheiser HD 490 Pro Plus",
+    "confidence": "medium",
+    "reason_es": "Para uso de estudio general, el HD 490 Pro Plus es la opción más equilibrada: 260 g, almohadillas intercambiables, respuesta neutra y plugin dearVR. MusicRadar y SoundGuys lo nombran mejor auricular de estudio global; el LCD-X es un planar de referencia, pero pesa 612 g y necesita EQ para mezclar.",
+    "sources": [
+      "https://www.musicradar.com/news/the-best-studio-headphones-top-headphones-for-music-production",
+      "https://www.soundguys.com/best-studio-headphones-2738/"
+    ]
+  },
+  {
+    "id": "best-headphones-for-mixing",
+    "title_es": "Mejores auriculares para mezcla y masterización",
+    "current": "Audeze MM-500",
+    "recommended": "Audeze MM-500",
+    "confidence": "high",
+    "reason_es": "El MM-500 está diseñado con Manny Marroquin para mezcla: drivers Fluxor de 90 mm, respuesta plana y menos del 0,1% de THD. Headphones.com y RTINGS lo sitúan entre los mejores para trabajo crítico; el NDH 30 y el HD 600 son alternativas más baratas, no superiores.",
+    "sources": [
+      "https://headphones.com/blogs/reviews/studio-headphones-from-a-14x-grammy-winner-audeze-mm-500-review-and-breakdown",
+      "https://www.rtings.com/headphones/reviews/audeze/mm-500"
+    ]
+  },
+  {
+    "id": "best-in-ear-monitors",
+    "title_es": "Los mejores monitores In-Ear (IEM) para directo y estudio",
+    "current": "Sennheiser IE 900",
+    "recommended": "Shure SE846 Gen 2",
+    "confidence": "medium",
+    "reason_es": "La guía es para directo y estudio, y ahí manda el aislamiento: el SE846 Gen 2 da 37 dB de atenuación, cuatro drivers de armadura balanceada y filtros intercambiables. MusicRadar lo elige mejor IEM global; el IE 900 es un auricular audiófilo excelente, pero su tuning y su precio encajan peor en un monitor de escenario.",
+    "sources": [
+      "https://www.musicradar.com/news/best-in-ear-monitors",
+      "https://www.ecoustics.com/reviews/shure-se846-gen2/",
+      "https://www.shure.com/en-US/products/earphones/se846"
+    ]
+  },
+  {
+    "id": "best-instrument-mics",
+    "title_es": "Mejores micrófonos para grabar cada instrumento",
+    "current": "Sennheiser MD 421 Kompakt",
+    "recommended": "Sennheiser MD 421 Kompakt",
+    "confidence": "high",
+    "reason_es": "El MD 421 Kompakt lleva la cápsula del MD 421 a un cuerpo corto con filtro de graves de cinco posiciones; Sound On Sound y MusicTech lo califican de micrófono dinámico de primer nivel para toms, guitarras y metales. El SM57 es el comodín barato, pero el 421 da más cuerpo y versatilidad.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/sennheiser-md-421-kompakt",
+      "https://musictech.com/reviews/studio-recording-gear/sennheiser-md-421-kompakt-review/"
+    ]
+  },
+  {
+    "id": "best-interface",
+    "title_es": "Mejor interfaz de audio: guía completa para grabación casera",
+    "current": "RME Babyface Pro FS",
+    "recommended": "RME Babyface Pro FS",
+    "confidence": "high",
+    "reason_es": "El Babyface Pro FS sigue siendo la referencia de interfaz compacta: drivers RME estables, SteadyClock FS, 12 entradas/12 salidas y previos de alta ganancia. Sound On Sound y el consenso profesional lo ponen por delante de la Scarlett 2i2 y la MOTU M2 en conversión y latencia, aunque cueste el triple.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/rme-babyface-pro-fs",
+      "https://www.rme-audio.de/babyface-pro-fs.html"
+    ]
+  }
+]

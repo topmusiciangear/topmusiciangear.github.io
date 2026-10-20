@@ -1,0 +1,244 @@
+[
+  {
+    "id": "best-stage-keyboards",
+    "title_es": "Mejores teclados para directo",
+    "current": "Nord Stage 4 88",
+    "recommended": "Nord Stage 4 88",
+    "confidence": "high",
+    "reason_es": "Sound On Sound lo describe como el teclado de escenario preeminente y afirma que, si tuviera que elegir un solo multiteclado para tocar sobre todo piano en directo, sería el Stage 4 88. Sus tres motores (piano, órgano, sintetizador), el teclado Triple Sensor y la facilidad de uso lo mantienen por delante de RD-2000 EX, YC88 o Montage M8x para girar.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/clavia-nord-stage-4-88"
+    ]
+  },
+  {
+    "id": "best-synth-vsts",
+    "title_es": "Mejores VST de sintetizador: estándares para productores modernos",
+    "current": "u-he Diva",
+    "recommended": "u-he Diva",
+    "confidence": "medium",
+    "reason_es": "Diva sigue siendo la referencia de emulación analógica por modelado de circuitos: filtros y osciladores que se comportan como el hardware y un tono que ningún otro plugin de la lista iguala. Pigments 7 y Phase Plant son más versátiles para diseño sonoro, pero para el propósito de la guía (un estándar de sonido analógico en el DAW) Diva conserva el consenso.",
+    "sources": [
+      "https://u-he.com/products/diva/",
+      "https://www.sweetwater.com/store/detail/Diva--u-he-diva-virtual-analog-synth-plug-in/reviews"
+    ]
+  },
+  {
+    "id": "best-synthesizers",
+    "title_es": "Mejores sintetizadores para producción musical",
+    "current": "Moog Subsequent 37",
+    "recommended": "Moog Subsequent 37",
+    "confidence": "medium",
+    "reason_es": "No hay un consenso claro para un \"mejor sintetizador de producción\" porque la lista mezcla monos, polys y workstations. El Subsequent 37 es el analógico moderno más respetado por su filtro ladder, sus dos osciladores y su pegada para bajos y leads; los polys alternativos (OB-6, Take 5, Montage) son especialistas más caros y no lo superan de forma evidente para el uso principal.",
+    "sources": [
+      "https://www.moogmusic.com/synthesizers/subsequent-37",
+      "https://www.musicradar.com/news/best-synthesizers"
+    ]
+  },
+  {
+    "id": "best-wireless-iems",
+    "title_es": "Mejores sistemas In-Ear inalámbricos para directo",
+    "current": "Sistema Estéreo Inalámbrico Sennheiser EW IEM G4",
+    "recommended": "Sistema Estéreo Inalámbrico Sennheiser EW IEM G4",
+    "confidence": "high",
+    "reason_es": "El EW IEM G4 es el sistema inalámbrico de referencia para directo: diversidad real, 1.680 frecuencias ajustables, transmisor metálico de rack y una fiabilidad que el PSM 300 y los Xvive no igualan. Para una banda que necesita monitores estables cada noche, sigue siendo la opción profesional.",
+    "sources": [
+      "https://www.sennheiser.com/en-us/catalog/products/wireless-systems/ew-iem-g4"
+    ]
+  },
+  {
+    "id": "blues-junior-vs-ac30",
+    "title_es": "Blues Junior vs AC30: ¿mejor combo de válvulas?",
+    "current": "Vox AC30",
+    "recommended": "Vox AC30",
+    "confidence": "medium",
+    "reason_es": "El AC30 ofrece 30 W, dos Celestion de 12\" y el chime británico que definió a tantas bandas; el Blues Junior IV es más ligero y práctico, pero juega en una liga inferior de headroom y limpios. Para el propósito declarado (mejor combo de válvulas, no el más portable) el Vox sigue ganando, aunque la elección depende del volumen y del transporte.",
+    "sources": [
+      "https://www.voxamps.com/AC30C2",
+      "https://www.fender.com/en-US/guitar-amplifiers/"
+    ]
+  },
+  {
+    "id": "blx288-vs-ewd",
+    "title_es": "Shure BLX288 vs Sennheiser EW-D: ¿cuál para directo?",
+    "current": "Sennheiser EW-D Sistema Inalámbrico Dual",
+    "recommended": "Sennheiser EW-D Sistema Inalámbrico Dual",
+    "confidence": "high",
+    "reason_es": "El EW-D es digital: 134 dB de rango dinámico, 1,9 ms de latencia, escaneo y configuración por app y sin artefactos de compansión. El BLX288 es un analógico de entrada fiable y barato, pero en un escenario con interferencias el sistema digital de Sennheiser es claramente superior.",
+    "sources": [
+      "https://www.sennheiser.com/en-us/catalog/products/wireless-systems",
+      "https://www.shure.com/en-US/products/wireless-systems"
+    ]
+  },
+  {
+    "id": "bridge-cast-x-vs-rodecaster-pro2",
+    "title_es": "Bridge Cast X vs RØDECaster Pro II: ¿cuál gana?",
+    "current": "RØDE RØDECaster Pro II",
+    "recommended": "RØDE RØDECaster Pro II",
+    "confidence": "high",
+    "reason_es": "El RØDECaster Pro II es una consola autónoma con cuatro entradas combo, procesado de voz, pads SMART y doble USB-C; sirve para pódcast, directo y streaming sin depender del ordenador. El Bridge Cast X está pensado para gaming y captura de vídeo, un nicho más estrecho. Para el propósito general de la guía, gana el RØDE.",
+    "sources": [
+      "https://rode.com/en/interfaces-and-mixers/streaming-mixers/rodecaster-pro-ii",
+      "https://www.roland.com/us/products/bridge_cast_x/"
+    ]
+  },
+  {
+    "id": "budget-bass-like-expensive",
+    "title_es": "Bajos con mejor relación calidad-precio que suenan premium",
+    "current": "Bajo Sire Marcus Miller V5 4 Cuerdas",
+    "recommended": "Bajo Sire Marcus Miller V5 4 Cuerdas",
+    "confidence": "medium",
+    "reason_es": "El V5 concentra lo que hace sonar caro a un bajo barato: mástil de arce tostado con bordes redondeados, cejuela de hueso, pastillas Marcus Vintage-J y clavijas open-gear. El Squier Classic Vibe '60s es su rival más cercano y el G&L Tribute L-2000 ofrece más electrónica, pero por precio y acabado el Sire sigue siendo la compra más sensata de la lista.",
+    "sources": [
+      "https://sire-usa.com/",
+      "https://www.fender.com/en-US/electric-basses/"
+    ]
+  },
+  {
+    "id": "budget-headphones",
+    "title_es": "Mejores auriculares de estudio por menos de $150",
+    "current": "Sennheiser HD 560S",
+    "recommended": "Sennheiser HD 560S",
+    "confidence": "high",
+    "reason_es": "El HD 560S es la referencia abierta por debajo de $150: respuesta natural, escenario amplio y comodidad para sesiones largas. Las MDR-7506 y ATH-M40x son cerradas útiles para seguimiento, pero para mezclar con presupuesto ajustado el Sennheiser es la opción más honesta.",
+    "sources": [
+      "https://www.musicradar.com/news/best-headphones-for-music-production"
+    ]
+  },
+  {
+    "id": "budget-interfaces",
+    "title_es": "Mejores interfaces de audio por menos de $300",
+    "current": "Audient iD14 MkII",
+    "recommended": "Audient iD14 MkII",
+    "confidence": "medium",
+    "reason_es": "El iD14 MkII mete los previos Clase A de la consola ASP8024 en una interfaz compacta, con dos salidas de auriculares y entrada DI JFET. El MOTU M2 mide excelente y es más barato, y el Scarlett 2i2 es el más vendido, pero para grabar voces e instrumentos con calidad de consola por debajo de $300 el Audient mantiene la delantera.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/audient-id14"
+    ]
+  },
+  {
+    "id": "budget-mics",
+    "title_es": "Mejores micrófonos XLR económicos para estudio",
+    "current": "Rode NT1 Signature Series",
+    "recommended": "Rode NT1 Signature Series",
+    "confidence": "high",
+    "reason_es": "El NT1 Signature ofrece una cápsula HF6 de 1\", 4 dBA de ruido propio y un pack con soporte, antipop y cable por unos $159. El AT2020 y el AT2035 son alternativas válidas y el SM57/SM58 siguen siendo imprescindibles para instrumentos y directo, pero como primer condensador de estudio el Rode es el más silencioso y completo de la selección.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/rode-nt1-signature",
+      "https://rode.com/en/microphones/condenser/nt1-signature-series"
+    ]
+  },
+  {
+    "id": "budget-monitors",
+    "title_es": "Mejores monitores de estudio por menos de $500",
+    "current": "Kali Audio LP-6 V2",
+    "recommended": "Kali Audio LP-6 V2",
+    "confidence": "high",
+    "reason_es": "Sound On Sound califica al LP-6 como un altavoz serio y muy capaz para su precio, con medios y agudos suaves, imagen estéreo excelente y controles de compensación por colocación. El JBL 305P MkII es el otro gran valor de la categoría, pero el Kali añade más extensión y ajuste de sala por muy poco más.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/kali-audio-lp-6"
+    ]
+  },
+  {
+    "id": "budget-pa-systems",
+    "title_es": "Mejores sistemas PA económicos para bandas en vivo",
+    "current": "Altavoz Activo EV ZLX-12P-G2",
+    "recommended": "Altavoz Activo EV ZLX-12P-G2",
+    "confidence": "high",
+    "reason_es": "El ZLX-12P-G2 combina 1.000 W Clase D, woofer de 12\" con driver de titanio y presets DSP basados en FIR, con un peso y un precio que lo hacen ideal para bandas que montan y desmontan cada fin de semana. El DBR12 de Yamaha es igual de fiable pero cuesta más; el Thump y el TS412 priorizan potencia bruta sobre claridad.",
+    "sources": [
+      "https://electrovoice.com/products/zlx-12p-g2"
+    ]
+  },
+  {
+    "id": "budget-usb-mics",
+    "title_es": "Mejores micrófonos USB por menos de $110",
+    "current": "Micrófono Samson Q2U USB/XLR",
+    "recommended": "Micrófono Samson Q2U USB/XLR",
+    "confidence": "high",
+    "reason_es": "El Q2U sigue siendo el mejor primer micrófono USB: dinámico cardioide, salida USB y XLR, monitorización por auriculares y accesorios incluidos. Permite empezar enchufado al ordenador y pasar a una interfaz sin comprar otro micro, algo que ninguno de los condensadores USB baratos de la lista iguala.",
+    "sources": [
+      "https://www.musicradar.com/news/best-usb-microphones"
+    ]
+  },
+  {
+    "id": "c414-vs-u87",
+    "title_es": "AKG C414 vs Neumann U 87: duelo de micrófonos pro",
+    "current": "Neumann U 87 Ai",
+    "recommended": "Neumann U 87 Ai",
+    "confidence": "high",
+    "reason_es": "El U 87 Ai es el condensador de referencia para voz: medios presentes, tres patrones, pad de 10 dB y un sonido que ha definido discos durante décadas. El C414 XLII es más versátil por sus nueve patrones y su brillo moderno, pero en el duelo por el mejor micrófono universal de estudio el Neumann conserva la corona.",
+    "sources": [
+      "https://www.neumann.com/en-us/products/microphones/u-87-ai"
+    ]
+  },
+  {
+    "id": "channel-strip-plugins",
+    "title_es": "Emulación analógica en el DAW: mejores plugins channel strip",
+    "current": "Brainworx bx_console SSL 4000 E",
+    "recommended": "Brainworx bx_console SSL 4000 E",
+    "confidence": "high",
+    "reason_es": "Es el único channel strip real de la selección: EQ y dinámica de la SSL serie E por canal, con tecnología TMT y aprobación oficial de SSL. El SSL G-Master es un compresor de bus, el 1176 y el Pro-Q 4 son procesadores sueltos y UAD Ultimate es una colección; para el propósito de la guía, el bx_console es el que ofrece la cadena completa.",
+    "sources": [
+      "https://www.plugin-alliance.com/en/products/bx_console_ssl_4000_e.html"
+    ]
+  },
+  {
+    "id": "compact-rhythm-devices",
+    "title_es": "Mejores dispositivos de ritmo y samplers de bolsillo",
+    "current": "Teenage Engineering EP-133 K.O. II",
+    "recommended": "Teenage Engineering EP-133 K.O. II",
+    "confidence": "medium",
+    "reason_es": "El EP-133 lleva la lógica del Pocket Operator a un sampler con teclas sensibles a la presión, efectos punch-in, micrófono y batería. Sound On Sound lo considera limitado en algunos aspectos pero muy rápido para llegar a ideas creativas, y sigue siendo el dispositivo de bolsillo con más personalidad de la lista frente al P-6, más granular, o al Tracker Mini, más técnico.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/teenage-engineering-ep-133-ko-ii",
+      "https://www.musicradar.com/reviews/teenage-engineering-ep-133-ko-ii-review"
+    ]
+  },
+  {
+    "id": "daw-guide",
+    "title_es": "Mejor software DAW: guía completa",
+    "current": "Ableton Live 12 Suite",
+    "recommended": "Ableton Live 12 Suite",
+    "confidence": "medium",
+    "reason_es": "Para una guía general, Ableton Live 12 Suite es la respuesta más defendible: Session View para idear y tocar en vivo, warp de referencia, Max for Live y un ecosistema enorme. Logic Pro es mejor relación calidad-precio en Mac y Pro Tools domina la grabación profesional, pero no hay evidencia de que ninguno sea mejor para el propósito global de la guía.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/ableton-live-12"
+    ]
+  },
+  {
+    "id": "di-box",
+    "title_es": "Mejores cajas DI para cada instrumento",
+    "current": "Interfaz Directa Activa Rupert Neve Designs RNDI",
+    "recommended": "Caja Directa Activa Radial J48 MK2",
+    "confidence": "medium",
+    "reason_es": "La J48 es la DI activa que aparece en la mayoría de riders y la opción más sensata para casi cualquier instrumento: transparente, con pad de -15 dB, inversión, filtro de 80 Hz y merge estéreo. La RNDI añade color de transformador y más headroom, pero es una elección de especialista; Sound On Sound dice de la J48 que su ventaja justifica el precio para quien quiere lo mejor, y la propia guía la describe como la opción para la mayoría.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/radial-j48-jpc",
+      "https://www.radialeng.com/product/j48"
+    ]
+  },
+  {
+    "id": "digitakt-ii-vs-tr8s",
+    "title_es": "Digitakt II vs TR-8S: ¿mejor máquina de batería para ti?",
+    "current": "Elektron Digitakt II",
+    "recommended": "Elektron Digitakt II",
+    "confidence": "high",
+    "reason_es": "Sound On Sound define al Digitakt II como una gran actualización de un sampler y caja de ritmos ya excelente, útil en casi cualquier estudio o directo. El TR-8S es más inmediato para sonidos 808/909 y para tocar en vivo sin pensar, pero el Elektron ofrece 16 pistas, sampling completo y un secuenciador mucho más profundo; para el propósito de la guía, gana por capacidad.",
+    "sources": [
+      "https://www.soundonsound.com/reviews/elektron-digitakt-ii",
+      "https://www.soundonsound.com/reviews/roland-tr-8s"
+    ]
+  },
+  {
+    "id": "dt770-vs-dt990",
+    "title_es": "DT 770 Pro vs DT 990 Pro: ¿cerrados o abiertos para mezclar?",
+    "current": "Beyerdynamic DT 770 Pro",
+    "recommended": "Beyerdynamic DT 990 Pro",
+    "confidence": "high",
+    "reason_es": "La guía pregunta por mezcla, y para mezclar el abierto DT 990 Pro es la elección correcta: escenario más amplio, mejor lectura del estéreo y de las colas de reverb, y un balance más honesto. El propio blog de Beyerdynamic lo recomienda para mezcla y mastering, mientras que el DT 770 cerrado está pensado para seguimiento y grabación con aislamiento. Si solo se compra uno para mezclar, es el 990.",
+    "sources": [
+      "https://blog-na.beyerdynamic.com/headphones-in-comparison-dt-770-pro-vs-dt-990-pro/",
+      "https://www.beyerdynamic.com/dt-990-pro.html"
+    ]
+  }
+]

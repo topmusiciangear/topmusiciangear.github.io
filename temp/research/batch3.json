@@ -1,0 +1,271 @@
+[
+  {
+    "id": "best-keyboard",
+    "title_es": "Mejores teclados y controladores MIDI: piano, synth y DAW",
+    "current": "Nord Stage 4 88",
+    "recommended": "Nord Stage 4 88",
+    "confidence": "high",
+    "reason_es": "La guía mezcla pianos de práctica, controladores MIDI y teclados de escenario, pero el único flagship de la lista es el Nord Stage 4. Para directo sigue siendo la referencia: teclado Triple Sensor, drawbars físicos y motores de piano, órgano y synth en un cuerpo de 18 kg. En los foros de pianistas se le llama directamente 'el rey de los teclados' y frente al Montage M8x se prefiere el Nord para piano/órgano en vivo; el resto de la lista son pianos de práctica o controladores que no compiten en ese uso.",
+    "sources": [
+      "https://forums.pianoworld.com/ubbthreads.php/topics/3383351/re-is-the-stage-4-now-the-king-of-keyboards.html",
+      "https://gearspace.com/threads/nord-stage-4-88-vs-yamaha-montage-m8x-for-gigs-and-as-a-controller.1419332",
+      "https://www.norduserforum.com/viewtopic.php?start=10&t=24780"
+    ]
+  },
+  {
+    "id": "best-live-sound-mixers",
+    "title_es": "Mejores mezcladores de sonido para bandas y eventos",
+    "current": "Allen & Heath SQ-5",
+    "recommended": "Allen & Heath SQ-5",
+    "confidence": "high",
+    "reason_es": "El SQ-5 sigue siendo la consola compacta de referencia para bandas y eventos: matriz de 48x36 canales a 96 kHz, 16 previos, 8 motores FX y 17 faders en formato rack de 19 pulgadas. Las alternativas de la lista son un escalón por debajo en capacidad (DM3S y CQ-18T son compactas de 16-22 canales, el X32 Compact está al final de su ciclo) y ninguna ofrece su matriz ni su integración SLink/Dante en el mismo tamaño.",
+    "sources": [
+      "https://www.allen-heath.com/hardware/sq/sq-5/",
+      "https://www.bhphotovideo.com/c/compare/Yamaha_DM3_vs_Allen+%26+Heath_SQ-5_vs_Allen+%26+Heath_QU-32_vs_Behringer_WING+COMPACT/BHitems/1762265-REG_1368318-REG_1207648-REG_1852674-REG",
+      "https://usa.yamaha.com/products/proaudio/mixers/dm3/index.html"
+    ]
+  },
+  {
+    "id": "best-live-subwoofers",
+    "title_es": "Mejores subwoofers activos para bandas en vivo",
+    "current": "QSC KS118 Subwoofer Activo",
+    "recommended": "QSC KS118 Subwoofer Activo",
+    "confidence": "high",
+    "reason_es": "El KS118 es el sub de 18\" activo más recomendado para bandas que montan y desmontan: 3.600 W de pico, 136 dB, respuesta hasta 35 Hz con el modo DEEP y configuración cardioide con dos unidades. La prueba de campo de Live Sound International lo describe como 'undisputed leader' entre los single-18 de su franja de precio. El RCF SUB 8004-AS es igual de serio, pero cuesta bastante más y no añade la gestión cardioide integrada que sí resuelve el QSC en directo.",
+    "sources": [
+      "https://www.qsys.com/resource-files/articles/q_ar_livesoundinternational_roadtest.pdf",
+      "https://fohonline.com/articles/road-tests/qsc-ks118-powered-subwoofer",
+      "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/"
+    ]
+  },
+  {
+    "id": "best-looper-pedals",
+    "title_es": "Mejores pedales de loop para guitarra",
+    "current": "Boss RC-600 Loop Station",
+    "recommended": "Boss RC-5 Loop Station",
+    "confidence": "medium",
+    "reason_es": "La guía es de pedales de loop para guitarra, y para ese uso el consenso editorial es claro: Guitar Player y Guitar World dan el 'best overall' al RC-5 (13 horas de loop estéreo, 57 ritmos, MIDI y USB) y reservan el RC-600 como 'best for live/advanced'. El RC-600 es el looper más capaz del mercado, pero sus seis pistas y nueve footswitches solo compensan si construyes todo el show alrededor de él; para el guitarrista que practica, graba ideas y toca en directo, el RC-5 cubre lo mismo en formato de pedal normal.",
+    "sources": [
+      "https://www.guitarplayer.com/gear/the-best-looper-pedals",
+      "https://www.guitarworld.com/features/best-looper-pedals",
+      "https://www.boss.info/global/products/rc-600"
+    ]
+  },
+  {
+    "id": "best-mic-for-guitar-amps",
+    "title_es": "Mejores micrófonos dinámicos para grabar amplis en casa",
+    "current": "Shure SM57",
+    "recommended": "Shure SM57",
+    "confidence": "high",
+    "reason_es": "El SM57 sigue siendo el estándar para caja de guitarra: es el micro con el que se han grabado décadas de discos y la recomendación por defecto cuando solo se compra uno. El MD 421 Kompakt y el e906 son alternativas de color muy válidas (más graves y medios, o más planos y fáciles de colgar), pero no desplazan al SM57 como opción general, y las pruebas comparativas coinciden en que con él se saca un sonido usable en cualquier ampli.",
+    "sources": [
+      "https://www.skrecords.org/best-microphones-for-recording-guitar",
+      "https://bestmicrophones.net/index.php/the-best-microphones-for-recording-electric-guitar/",
+      "https://gearspace.com/threads/shure-sm57-vs-sennheiser-e906-for-guitar-vocals.876379"
+    ]
+  },
+  {
+    "id": "best-mic-for-podcasting",
+    "title_es": "Mejores micrófonos para podcast: guía completa",
+    "current": "Shure SM7B",
+    "recommended": "Shure SM7B",
+    "confidence": "high",
+    "reason_es": "El SM7B sigue siendo la referencia de la categoría: es el micro que Shure describe como el que usan los podcasters de primer nivel, con sonido cálido y apagado y un rechazo muy alto del ruido de sala. El MV7+ es más práctico para empezar (USB/XLR, DSP y más ganancia) y el PodMic es la mejor relación calidad-precio, pero ninguno suena mejor; la única pega real del SM7B es que necesita un previo con ganancia limpia, algo que la propia Shure reconoce.",
+    "sources": [
+      "https://www.shure.com/en-US/insights/choosing-a-microphone-for-podcasting",
+      "https://www.bhphotovideo.com/c/compare/Shure_SM7B_vs_RODE_PodMic+USB_vs_Shure_MV7%2B_vs_Shure_SM7DB/BHitems/225820-REG_1762233-REG_1808586-REG_1779881-REG"
+    ]
+  },
+  {
+    "id": "best-microphone",
+    "title_es": "Mejor micrófono para voces y grabación casera: guía completa",
+    "current": "Shure SM7B",
+    "recommended": "Shure SM7B",
+    "confidence": "medium",
+    "reason_es": "Para una habitación sin tratar, el SM7B sigue siendo el dinámico de referencia en voz: rechaza sala y ordenador y admite voces muy cercanas sin sibilancias. Los condensadores de la lista (C414 XLII, TLM 102, NT1) dan más detalle y aire, pero también captan mucho más el cuarto, y ningún medio serio sitúa a uno de ellos por delante del SM7B como opción general para 'voces y grabación casera'. No hay evidencia clara para cambiar, así que se mantiene.",
+    "sources": [
+      "https://www.shure.com/en-US/insights/choosing-a-microphone-for-podcasting",
+      "https://www.shure.com/en-US/products/microphones/sm7b"
+    ]
+  },
+  {
+    "id": "best-midi-theory-plugins",
+    "title_es": "Mejores plugins de MIDI y teoría musical para acelerar tu flujo de trabajo",
+    "current": "Scaler 3",
+    "recommended": "Scaler 3",
+    "confidence": "high",
+    "reason_es": "Scaler 3 es el estándar de la categoría: detecta tonalidad por MIDI y audio, propone progresiones y voicings, genera bajo, melodías y arpegios, y desde la versión 3 aloja instrumentos VST y funciona en modo standalone. MusicTech lo califica como 'la mejor opción de su clase para producción musical'. El resto de la lista son herramientas específicas (reMIDI para convertir loops, Playbeat/Riffer para generación, PitchMap para manipulación tonal) que no cubren el trabajo de teoría y composición completo.",
+    "sources": [
+      "https://musictech.com/reviews/plug-ins/scaler-3-review",
+      "https://scalermusic.com/products/scaler-3",
+      "https://bedroomproducersblog.com/2025/07/24/scaler-music-scaler-3/"
+    ]
+  },
+  {
+    "id": "best-monitors",
+    "title_es": "Mejores monitores de estudio: guía completa para cada sala",
+    "current": "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 Vías",
+    "recommended": "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 Vías",
+    "confidence": "high",
+    "reason_es": "El 8351B es el monitor más capaz de la guía y uno de los pocos que AudioScienceReview describe como 'casi perfecto' en tonalidad y dispersión: coaxial de tres vías, 32 Hz a 43 kHz, 113 dB y calibración GLM. Frente al resto de la lista (JBL 305P, Kali, HS8, A7V, KH 80, IN-8) juega en otra liga de precio y rendimiento, y ninguna alternativa ofrece punto de fuente puntual con corrección de sala integrada.",
+    "sources": [
+      "https://www.audiosciencereview.com/forum/index.php?threads/genelec-8351b-review-studio-monitor.23432/",
+      "https://www.genelec.com/en/8351b",
+      "https://www.speakerranking.com/compare/genelec-8351b-vs-neumann-kh-310-a"
+    ]
+  },
+  {
+    "id": "best-monitors-for-small-rooms",
+    "title_es": "Mejores monitores de estudio para salas pequeñas",
+    "current": "Genelec 8030C",
+    "recommended": "Genelec 8030C",
+    "confidence": "medium",
+    "reason_es": "En mediciones el 8030C es el más limpio de la lista: respuesta plana con desviación de ±2 dB, buena dispersión y menos distorsión en graves que el KH 80 DSP a 86 dB. El Neumann KH 80 DSP es la alternativa real porque añade corrección de sala por DSP (MA 1), útil en un cuarto pequeño, pero su propia protección y distorsión en graves limitan el nivel. No hay un ganador indiscutible entre ambos; para una sala pequeña tratada, el Genelec sigue siendo la referencia y no hay evidencia suficiente para cambiarlo.",
+    "sources": [
+      "https://www.audiosciencereview.com/forum/index.php?threads/genelec-8030c-studio-monitor-review.14795/",
+      "https://www.speakerranking.com/compare/genelec-8030c-vs-neumann-kh80-dsp",
+      "https://www.genelec.com/en/8030c"
+    ]
+  },
+  {
+    "id": "best-multi-effects-pedals",
+    "title_es": "Mejores pedales multi-efectos para guitarra",
+    "current": "Neural DSP Quad Cortex",
+    "recommended": "Neural DSP Quad Cortex",
+    "confidence": "high",
+    "reason_es": "El Quad Cortex sigue siendo 'el modelador a batir': Guitar World lo llama así en su review y Guitar.com le dio un 10 en la suya; MusicRadar lo sitúa entre los mejores modeladores y multiefectos del mercado. Su captura de amplis, la pantalla táctil de 7\", el DSP quad-core y la nube de presets no tienen equivalente en la lista; el HX Stomp, el GT-1000CORE y el Flex Prime son opciones compactas o más baratas, no superiores.",
+    "sources": [
+      "https://www.guitarworld.com/reviews/neural-dsp-quad-cortex-review",
+      "https://guitar.com/features/how-quad-cortex-can-change-the-way-music-is-released/",
+      "https://www.musicradar.com/guitars/guitar-pedals/neural-dsp-nano-cortex-review"
+    ]
+  },
+  {
+    "id": "best-overdrive-distortion",
+    "title_es": "Mejores pedales de overdrive y distorsión para guitarra",
+    "current": "Wampler Tumnus Deluxe",
+    "recommended": "Boss BD-2 Blues Driver",
+    "confidence": "medium",
+    "reason_es": "La guía mezcla overdrive y distorsión, y para ese conjunto el consenso editorial pone al BD-2 como mejor opción todoterreno: Guitar World lo nombra 'best overall', Reverb lo tiene entre los más vendidos y ToneStakr y ModelRec lo eligen como mejor all-round. Funciona con cualquier ampli, limpia con el volumen de la guitarra y va de boost a crunch. El Tumnus Deluxe es un clon Klon excelente, pero es un pedal de un solo carácter (boost y low-gain) y no cubre la distorsión que también pide la guía.",
+    "sources": [
+      "https://www.guitarworld.com/features/best-overdrive-pedals",
+      "https://reverb.com/guide/most-popular-overdrive-pedals",
+      "https://tonestakr.com/guides/best-overdrive-pedals"
+    ]
+  },
+  {
+    "id": "best-pa-speakers",
+    "title_es": "Mejores altavoces PA de 12 y 15 pulgadas para directo",
+    "current": "Altavoz Activo QSC K12.2",
+    "recommended": "Altavoz Activo QSC K12.2",
+    "confidence": "high",
+    "reason_es": "El K12.2 es el altavoz de 12\" activo mejor valorado de su franja (puesto nº 1 de 37 en el ranking de 12 pulgadas) y Sweetwater lo describe como el buque insignia de la serie K.2 para bandas y DJ. 2.000 W de pico, DSP con escenas y 75° de cobertura. El DXR12mkII está descatalogado, el PRX915 es más caro y el ELX200-15P y el ZLX son un escalón por debajo en salida y acabado.",
+    "sources": [
+      "https://www.speakerranking.com/pa/12inch",
+      "https://www.sweetwater.com/insync/best-powered-pa-speakers"
+    ]
+  },
+  {
+    "id": "best-parlor-guitars",
+    "title_es": "Mejores guitarras parlor para blues y fingerstyle",
+    "current": "Guitarra PRS SE P20e Tonare Parlor",
+    "recommended": "Guitarra PRS SE P20e Tonare Parlor",
+    "confidence": "medium",
+    "reason_es": "Para blues y fingerstyle, el P20E es la parlor con mejor relación calidad-precio de la lista: tapa maciza de caoba, fondo y aros de caoba, diapasón de ébano, cejuela y selleta de hueso y Fishman Presys VT. Guitar Player le dio su Editors' Pick y Guitar World la describe como una de las mejores parlors económicas. La Fender Highway Series Parlor es la 'best overall' de Guitar World, pero es una thinline tipo Acoustasonic, con menos cuerpo acústico y un carácter más de directo que de fingerpicking tradicional.",
+    "sources": [
+      "https://www.guitarplayer.com/reviews/prs-tonare-parlor-se-p20e-review",
+      "https://www.guitarworld.com/reviews/prs-se-tonare-parlor-p20e-review",
+      "https://uk.prsguitars.com/acoustics/se_p20e_2025"
+    ]
+  },
+  {
+    "id": "best-piano-keyboard-vsts",
+    "title_es": "Mejores VST de piano y teclado virtual para producción en estudio",
+    "current": "Native Instruments Noire",
+    "recommended": "Native Instruments Noire",
+    "confidence": "low",
+    "reason_es": "No hay consenso claro en esta categoría y la lista mezcla pianos con plataformas (Kontakt 8) y colecciones de teclados (V Collection). Noire es el piano de fieltro más citado y muy querido por su tacto y su motor de partículas, mientras que MeldwayGrand es el gran cola completo (Steinway D, siete pares de micros) mejor valorado por la crítica. Con evidencia dividida y sin un 'mejor' demostrable, se mantiene el ganador actual.",
+    "sources": [
+      "https://www.kvraudio.com/product/meldwaygrand-by-meldaproduction",
+      "https://forum.pianoworld.com/ubbthreads.php/topics/3177459/1.html"
+    ]
+  },
+  {
+    "id": "best-plugins",
+    "title_es": "Mejores plugins para producción musical: guía completa",
+    "current": "FabFilter Paquete Total",
+    "recommended": "FabFilter Paquete Total",
+    "confidence": "high",
+    "reason_es": "El Total Bundle sigue siendo el mejor paquete de plugins para mezcla: 14 herramientas sin relleno, con Pro-Q 4 y Pro-C 3 como referencia de sus categorías. Las guías de compra de 2026 lo ponen primero por calidad por plugin, por delante de iZotope MPS (más orientado a masterizar y reparar) y de Soundtoys (solo efectos creativos). La lista de la guía ya incluye Pro-Q 4, Pro-C 3 y Ozone, así que el bundle es la opción que más cubre el propósito.",
+    "sources": [
+      "https://homestudiogrooves.com/best-plugin-bundles",
+      "https://mixinggpt.com/blog/best-plugin-bundles",
+      "https://www.fabfilter.com/shop?currency=usd&vat=0"
+    ]
+  },
+  {
+    "id": "best-practice-amps",
+    "title_es": "Mejores amplificadores de práctica para casa",
+    "current": "Boss Katana 50 Gen 3",
+    "recommended": "Boss Katana 50 Gen 3",
+    "confidence": "high",
+    "reason_es": "El Katana 50 Gen 3 sigue siendo el ampli de práctica de referencia: 50 W con atenuación a 0,5 W, altavoz de 12\", circuito Tube Logic, loop de efectos y salida USB. Guitar World y las guías de compra de 2026 lo ponen como editor's choice frente al Spark 2, al que supera en tacto de ampli real y en integración con pedalera; el Spark gana en apps y acompañamiento, no en sonido.",
+    "sources": [
+      "https://www.guitarworld.com/features/positive-grid-spark-two-vs-boss-katana-gen-three",
+      "https://www.thirstybear.com/best-guitar-amps",
+      "https://amplifierzone.com/best-modelling-guitar-amps/"
+    ]
+  },
+  {
+    "id": "best-reverb-delay",
+    "title_es": "Mejores pedales de reverberación y delay para guitarra",
+    "current": "Strymon BigSky MX",
+    "recommended": "Strymon BigSky MX",
+    "confidence": "high",
+    "reason_es": "El BigSky MX sigue siendo el mejor pedal de reverberación del mercado: Guitar.com lo despacha con un 'the king is dead, long live the king' y Guitar World lo considera un sucesor a la altura del BigSky original. Doce algoritmos, dos reverberaciones en serie o paralelo, carga de IRs y MIDI. La guía cubre reverb y delay, y la reverb es su eje principal; el TimeLine es un gran delay, pero no supera al MX en el conjunto.",
+    "sources": [
+      "https://guitar.com/reviews/effects-pedal/the-big-review-strymon-bigsky-mx",
+      "https://www.guitarworld.com/gear/effects-pedals/strymon-bigsky-mx-review",
+      "https://www.strymon.net/product/bigsky-mx/"
+    ]
+  },
+  {
+    "id": "best-ribbon-mics",
+    "title_es": "Mejores micrófonos de cinta para estudio",
+    "current": "Royer R-121",
+    "recommended": "Royer R-121",
+    "confidence": "high",
+    "reason_es": "El R-121 es el estándar de facto de la cinta en estudio: Tape Op lo recomendó desde su lanzamiento y Steve Albini lo comparó con el Coles 4038 en caja de guitarra sin encontrar diferencias sustanciales. Aguanta SPL alto, tiene salida comparable a un dinámico y sirve igual en guitarra, metales, batería o voz. El Coles 4038 es el clásico para overheads y metales, pero es más oscuro y menos versátil; el R-121 sigue siendo el más grabado de la historia.",
+    "sources": [
+      "https://tapeop.com/reviews/gear/19/r-121-ribbon-microphone",
+      "https://www.soundonsound.com/reviews/ribbon-mics-test",
+      "https://vintageking.com/royer-r-121-matched-pair-with-2-rsm-ss1-bundle"
+    ]
+  },
+  {
+    "id": "best-samplers-drum-computers",
+    "title_es": "Mejores samplers y creación de beats: guía completa",
+    "current": "Akai MPC Live III",
+    "recommended": "Akai MPC Live III",
+    "confidence": "high",
+    "reason_es": "El MPC Live III es el sampler autónomo más completo del momento: 8 núcleos, 8 GB de RAM, 128 GB de almacenamiento, pads MPCe con detección 3D, batería y altavoces. MusicRadar lo llama 'la mejor iteración de un MPC en mucho tiempo' y 'lo mejor de la categoría' para trabajar sin portátil, y MusicTech destaca que por fin puede competir con un portátil modesto. El Digitakt II es más profundo en secuenciación, pero no es una estación de producción completa.",
+    "sources": [
+      "https://www.musicradar.com/music-tech/akai-mpc-live-3-review",
+      "https://musictech.com/reviews/studio-recording-gear/akai-mpc-live-iii-review",
+      "https://www.gearnews.com/best-samplers-grooveboxes-drum-machines"
+    ]
+  },
+  {
+    "id": "best-shotgun-mics",
+    "title_es": "Mejores micrófonos shotgun para cine, vídeo y broadcast",
+    "current": "Micrófono Sennheiser MKH 416 Shotgun",
+    "recommended": "Micrófono Sennheiser MKH 416 Shotgun",
+    "confidence": "high",
+    "reason_es": "El MKH 416 sigue siendo el estándar de la industria para diálogo: cápsula RF de condensador inmune a la humedad, rechazo fuera de eje muy alto y 50 años de uso en sets. Popular Science lo nombra 'best overall' y las guías de sonido directo lo siguen poniendo como referencia frente al NTG5, que es la opción más ligera y barata pero no mejor. El MKH 50 de la lista es supercardioide de interior, no un shotgun de pértiga.",
+    "sources": [
+      "https://www.popsci.com/reviews/best-shotgun-mics",
+      "https://filmlocal.com/filmmaking/best-shotgun-mic-for-film-production",
+      "https://www.sennheiser.com/en-us/catalog/products/microphones/mkh-416/mkh-416-001511"
+    ]
+  }
+]
