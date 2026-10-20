@@ -1,0 +1,10 @@
+const fs = require('fs');
+const gs = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = gs.find(x => x.id === 'best-studio-monitors-under-150');
+console.log('KEYS:', Object.keys(g).join(', '));
+console.log('\nverdictProsCons:');
+(g.verdictProsCons || []).forEach((v, i) => console.log('  ' + (i + 1) + '. ' + v.name + ' | ' + Object.keys(v).join(',')));
+console.log('\nproductTable rows:');
+(g.productTable && g.productTable.rows || []).forEach((r, i) => console.log('  ' + (i + 1) + '. ' + JSON.stringify(r).slice(0, 250)));
+console.log('\nsection titles:');
+(g.sections || []).forEach((s, i) => console.log('  ' + (i + 1) + '. ' + (s.title || '') + ' | keys: ' + Object.keys(s).join(',')));

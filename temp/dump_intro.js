@@ -1,0 +1,10 @@
+const fs = require('fs');
+const gs = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = gs.find(x => x.id === 'best-studio-monitors-under-150');
+console.log('title:', g.title, '(' + g.title.length + ')');
+console.log('title_es:', g.title_es, '(' + g.title_es.length + ')');
+console.log('titleTag_es:', g.titleTag_es, '(' + g.titleTag_es.length + ')');
+console.log('desc:', g.description);
+console.log('desc_es:', g.description_es);
+console.log('\nintro (first 600):', g.intro.slice(0, 600));
+console.log('\nintro_es (first 600):', g.intro_es.slice(0, 600));
