@@ -897,6 +897,11 @@ la bloquea o cierra, la guía se ve igual.
   de texto, no reformatea). Los fallos quedan en `temp/img_failed.json`.
 - `node temp/check_local_imgs.js` verifica que toda foto referenciada existe; `temp/list_missing_imgs.js`
   lista lo que siga apuntando a una web externa.
+- **Ofertas (`deals.html`)**: mismas fotos guardadas. `data/deals.json` y `data/manual-deals.json` usan
+  rutas `img/products/...`; el mapa URL→archivo vive en `data/deals-images.json`. `auto-deals.js` guarda
+  sola cualquier foto externa nueva (por `product_id` o descargándola) y `build-deals.js` resuelve por el
+  mapa como respaldo. Para localizar a mano: `python temp/localize_deal_images.py` +
+  `node temp/apply_deal_images.js`.
 - Producto nuevo: añadir su URL al manifiesto, `python temp/migrate_images.py`, `node temp/apply_local_images.js`
   y desplegar. El deploy **no** descarga fotos.
 - 20/10/2026: 632 fotos guardadas (49 MB). Pendientes 3 de zZounds (`cf1.zzounds.com` responde 403 a

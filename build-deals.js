@@ -3,6 +3,15 @@ const { icon } = require('./js/icons.js');
 
 const deals = JSON.parse(fs.readFileSync('data/deals.json', 'utf8'));
 const guidesIdx = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+// Las fotos de ofertas estan guardadas en el repo (data/deals-images.json las mapea).
+// Si alguna oferta vieja trae todavia una URL externa, se usa la copia local.
+const dealImgMap = fs.existsSync('data/deals-images.json')
+  ? JSON.parse(fs.readFileSync('data/deals-images.json', 'utf8'))
+  : {};
+function dealImg(d) {
+  const url = d.img || '';
+  return dealImgMap[url] || url;
+}
 // guide ids featuring a product (for the "Find in guide" links on deal cards)
 function guidesFor(pid) {
   if (pid == null) return [];
@@ -205,7 +214,7 @@ function wrapAndertons(url) {
   <div class="deals-card deal-card${extra}">
     <div class="deal-store-row">${storeLink}</div>
     <div class="deal-card-top">
-      ${d.img ? `<a class="deal-img" href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored"><img src="${d.img}" alt="${d.title}" loading="lazy"></a>` : ``}
+      ${d.img ? `<a class="deal-img" href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored"><img src="${dealImg(d)}" alt="${d.title}" loading="lazy"></a>` : ``}
       <div class="deal-body">
         <h2>${isEs ? (d.title_es || d.title) : d.title}</h2>
         <p>${desc}</p>

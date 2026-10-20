@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { execSync } = require('child_process');
 
 // auto-deals.js
@@ -19,6 +20,7 @@ const PRODUCTS = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'data', 'products
 const HISTORY_FILE = path.join(OUT_DIR, 'data', 'price-history.json');
 const DEALS_FILE = path.join(OUT_DIR, 'data', 'deals.json');
 const MANUAL_FILE = path.join(OUT_DIR, 'data', 'manual-deals.json');
+const DEAL_IMG_FILE = path.join(OUT_DIR, 'data', 'deals-images.json');
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
 const MIN_DROP_PCT = 0.05;   // need >=5% observed drop to call it a deal
@@ -28,6 +30,37 @@ const FETCH_TIMEOUT = 20000;
 function byTitle(t) {
   return PRODUCTS.find(p => (p.title || '').toLowerCase() === (t || '').toLowerCase())
     || PRODUCTS.find(p => (p.title || '').toLowerCase().indexOf((t || '').toLowerCase()) > -1);
+}
+
+// Fotos de ofertas guardadas en el repo (nunca se enlaza la tienda de origen).
+// Si una oferta manual trae una URL nueva, se descarga aqui y queda local.
+const dealImgMap = fs.existsSync(DEAL_IMG_FILE) ? JSON.parse(fs.readFileSync(DEAL_IMG_FILE, 'utf8')) : {};
+const productImgById = new Map(PRODUCTS.map(p => [p.id, p.img || '']));
+
+async function localizeDealImg(deal) {
+  const url = deal.img || '';
+  if (!url || !/^https?:/i.test(url)) return;
+  const fromProduct = deal.product_id != null ? productImgById.get(deal.product_id) : '';
+  if (fromProduct && !/^https?:/i.test(fromProduct)) { deal.img = fromProduct; return; }
+  if (dealImgMap[url]) { deal.img = dealImgMap[url]; return; }
+  try {
+    const ctrl = typeof AbortSignal !== 'undefined' && AbortSignal.timeout ? AbortSignal.timeout(FETCH_TIMEOUT) : undefined;
+    const r = await fetch(url, { headers: { 'User-Agent': UA, 'Accept': 'image/avif,image/webp,image/*,*/*;q=0.8' }, signal: ctrl });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const type = (r.headers.get('content-type') || '').toLowerCase();
+    const ext = type.includes('png') ? 'png' : type.includes('webp') ? 'webp' : type.includes('gif') ? 'gif' : 'jpg';
+    const buf = Buffer.from(await r.arrayBuffer());
+    if (!buf.length) throw new Error('respuesta vacia');
+    const key = crypto.createHash('md5').update(url).digest('hex').slice(0, 10);
+    const rel = 'img/products/' + key + '.' + ext;
+    fs.writeFileSync(path.join(OUT_DIR, rel), buf);
+    dealImgMap[url] = rel;
+    fs.writeFileSync(DEAL_IMG_FILE, JSON.stringify(dealImgMap, null, 2) + '\n', 'utf8');
+    deal.img = rel;
+    console.log('auto-deals: foto guardada para "' + deal.title + '" -> ' + rel);
+  } catch (e) {
+    console.log('auto-deals: no se pudo guardar la foto de "' + deal.title + '": ' + e.message);
+  }
 }
 
 async function fetchWithTimeout(url, ms) {
@@ -237,6 +270,7 @@ async function main() {
     if (seenTitle.has(d.title)) continue;
     if (d.product_id != null) seenId.add(d.product_id);
     seenTitle.add(d.title);
+    await localizeDealImg(d);
     merged.push(d);
   }
 
