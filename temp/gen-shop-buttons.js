@@ -259,7 +259,7 @@ window.tmgStoreButtons = function(p) {
       var zAffAttr = zAff ? ' data-aff="' + zAff + '"' : '';
       var zPriceEl = zRow.querySelector('.shop-price');
       var zPlain = zPriceEl ? zPriceEl.getAttribute('data-price') : '';
-      var zPriceHtml = (T === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (zPlain ? tmgPriceHtml(zPlain, true) : ''));
+      var zPriceHtml = (T === 'amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + tmgCheckLabel + '</span>' : (zPlain ? tmgPriceHtml(zPlain, true) : ''));
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';
@@ -270,7 +270,7 @@ window.tmgStoreButtons = function(p) {
       if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispEl = pb.querySelector('.shop-price');
         var dispPlain = dispEl ? dispEl.getAttribute('data-price') : '';
-        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-size:12px;font-weight:600;color:#a8a8a8;font-style:italic">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '');
+        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '');
         var dispNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
         var isEsPage = tmgIsEsDoc();
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;
