@@ -6235,6 +6235,10 @@
       "title_es": "Comparativa de los mejores bajos para principiantes",
       "columns": [
         {
+          "title": "Ibanez GSR200 GIO",
+          "title_es": "Ibanez GSR200 GIO"
+        },
+        {
           "title": "Squier Affinity Series Precision Bass PJ",
           "title_es": "Squier Affinity Series Precision Bass PJ"
         },
@@ -6257,10 +6261,6 @@
         {
           "title": "Sire Marcus Miller V5R",
           "title_es": "Sire Marcus Miller V5R"
-        },
-        {
-          "title": "Sire Marcus Miller V5 4-String Bass",
-          "title_es": "Sire Marcus Miller V5 4-String Bass"
         },
         {
           "title": "Squier Sonic Bronco Bass",
@@ -6740,6 +6740,36 @@
     },
     "verdictProsCons": [
       {
+        "name": "Ibanez GSR200 GIO",
+        "name_es": "Ibanez GSR200 GIO",
+        "pros": [
+          "Legendary Soundgear comfort at entry price",
+          "Ultra-narrow GSR4 neck reduces hand fatigue",
+          "Versatile Dynamix P/J pickups + active Phat II EQ",
+          "Lightweight poplar/okoume body",
+          "Rock-solid Ibanez build quality"
+        ],
+        "pros_es": [
+          "Comodidad legendaria Soundgear a precio de entrada",
+          "Mástil GSR4 ultra estrecho reduce fatiga",
+          "Pastillas Dynamix P/J versátiles + Phat II EQ activo",
+          "Cuerpo ligero de álamo/okume",
+          "Calidad de construcción Ibanez probada"
+        ],
+        "cons": [
+          "Poplar/okoume body less resonant than premium woods",
+          "Only 22 frets limits upper register access",
+          "Basic hardware (tuners, bridge) are functional but not premium",
+          "Active EQ requires 9V battery"
+        ],
+        "cons_es": [
+          "Cuerpo de álamo/okume menos resonante que maderas premium",
+          "Solo 22 trastes limita registro agudo",
+          "Hardware básico (clavijas, puente) funcional pero sin lujos",
+          "EQ activo requiere pila de 9V"
+        ]
+      },
+      {
         "name": "Squier Affinity Series Precision Bass PJ",
         "name_es": "Bajo Precision PJ Serie Affinity de Squier",
         "pros": [
@@ -6905,34 +6935,6 @@
           "Las pastillas single coil pueden captar zumbido a alta ganancia",
           "El tono pasivo requerirá EQ del amplificador para moldear el sonido",
           "El diapasón de laurel necesita aceite para no resecarse"
-        ]
-      },
-      {
-        "name": "Sire Marcus Miller V5 4-String Bass",
-        "name_es": "Sire Marcus Miller V5 4-String Bass",
-        "pros": [
-          "North American alder with Marcus Vintage-J pickups",
-          "Roasted maple neck with rolled edges, stable and fast",
-          "True passive V/V/T wiring with organic dynamics",
-          "Premium open-gear tuners and bone nut"
-        ],
-        "cons": [
-          "Passive only — no active EQ onboard",
-          "Vintage tint and blocks divide modern tastes",
-          "Heavier than headless or short-scale rivals",
-          "Finish options cost extra on some colors"
-        ],
-        "pros_es": [
-          "Aliso norteamericano con pastillas Marcus Vintage-J",
-          "Mástil de arce tostado con bordes matados, rápido",
-          "Cableado pasivo V/V/T real con dinámica orgánica",
-          "Clavijas premium abiertas y cejuela de hueso"
-        ],
-        "cons_es": [
-          "Solo pasivo — sin EQ activa a bordo",
-          "El tinte vintage y bloques dividen gustos",
-          "Más pesado que rivales headless o cortos",
-          "Algunas opciones de color cuestan extra"
         ]
       },
       {
