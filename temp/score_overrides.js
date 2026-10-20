@@ -1001,8 +1001,8 @@ module.exports={
     "Genelec 7050C": 9.3
   },
   "j48-vs-rndi": {
-    "Rupert Neve Designs RNDI Active Direct Interface": 9.5,
-    "Radial J48 MK2": 9.4
+    "Radial J48 MK2": 9.5,
+    "Rupert Neve Designs RNDI Active Direct Interface": 9.4
   },
   "blx288-vs-ewd": {
     "Sennheiser EW-D Dual Wireless System": 9.6,
