@@ -6231,8 +6231,6 @@
     "faq_a5": "Absolutely. The Squier Classic Vibe and Yamaha TRBX304 are both gig-worthy. As long as you get a proper setup and quality strings, a budget bass can sound excellent on stage. Upgrade your amp first before upgrading your bass.",
     "faq_a5_es": "Absolutamente. El Squier Classic Vibe y el Yamaha TRBX304 son aptos para presentaciones. Con una buena configuración, un bajo económico puede sonar excelente en el escenario.",
     "productTable": {
-      "title": "Best Beginner Basses Compared",
-      "title_es": "Comparativa de los mejores bajos para principiantes",
       "columns": [
         {
           "title": "Ibanez GSR200 GIO",
@@ -6277,94 +6275,94 @@
       ],
       "rows": [
         {
-          "label": "Best For",
+          "label": "Ideal para",
           "label_es": "Ideal para",
           "values": [
             {
-              "value": "First P/J grooves for beginners",
-              "value_es": "Primeros grooves P/J para empezar"
+              "val": "First P/J grooves",
+              "val_es": "Primeros grooves P/J"
             },
             {
-              "value": "Versatile active bass for gigging",
-              "value_es": "Bajo activo versátil para presentaciones"
+              "val": "Classic Precision/Jazz tones",
+              "val_es": "Tonos clásicos Precision/Jazz"
             },
             {
-              "value": "Lightweight groove for beginners",
-              "value_es": "Groove ligero para principiantes"
+              "val": "Versatile active bass",
+              "val_es": "Bajo activo versátil"
             },
             {
-              "value": "Punchy funk for gigging beginners",
-              "value_es": "Funk con pegada para empezar en vivo"
+              "val": "Lightweight speed grooves",
+              "val_es": "Groove ligero"
             },
             {
-              "value": "Vintage groove for rehearsing bands",
-              "value_es": "Groove vintage para ensayar en banda"
+              "val": "Funk with punch",
+              "val_es": "Funk con pegada"
             },
             {
-              "value": "Vintage jazz bass tone",
-              "value_es": "Tono jazz bass vintage"
+              "val": "Vintage Jazz vibe",
+              "val_es": "Vibe Jazz vintage"
             },
             {
-              "value": "Vintage Jazz vibe for rehearsals",
-              "value_es": "Vibe Jazz vintage para ensayar"
+              "val": "Roasted neck premium feel",
+              "val_es": "Mástil tostado sensación premium"
             },
             {
-              "value": "Short-scale comfort on a budget",
-              "value_es": "Escala corta con poco presupuesto"
+              "val": "Short-scale starter",
+              "val_es": "Escala corta para empezar"
             },
             {
-              "value": "Tough PJ workhorse for years",
-              "value_es": "PJ todoterreno para años"
+              "val": "All-round PJ workhorse",
+              "val_es": "PJ todoterreno"
             },
             {
-              "value": "Short-scale PJ versatility",
-              "value_es": "PJ versátil en escala corta"
+              "val": "Compact short-scale PJ",
+              "val_es": "PJ escala corta compacto"
             }
           ]
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
-              "value": "Poplar",
-              "value_es": "Álamo"
+              "val": "Poplar / Okoume",
+              "val_es": "Álamo / Okume"
             },
             {
-              "value": "Mahogany",
-              "value_es": "Caoba"
+              "val": "Poplar",
+              "val_es": "Álamo"
             },
             {
-              "value": "Mahogany / maple",
-              "value_es": "Caoba / arce"
+              "val": "Alder",
+              "val_es": "Aliso"
             },
             {
-              "value": "Basswood",
-              "value_es": "Tilo"
+              "val": "Nyatoh",
+              "val_es": "Nyatoh"
             },
             {
-              "value": "Alder",
-              "value_es": "Aliso"
+              "val": "Basswood (Tilo)",
+              "val_es": "Tilo (Basswood)"
             },
             {
-              "value": "Alder",
-              "value_es": "Aliso"
+              "val": "Poplar",
+              "val_es": "Álamo (Poplar)"
             },
             {
-              "value": "Alder",
-              "value_es": "Aliso"
+              "val": "Mahogany",
+              "val_es": "Caoba"
             },
             {
-              "value": "Poplar",
-              "value_es": "Álamo"
+              "val": "Poplar",
+              "val_es": "Álamo"
             },
             {
-              "value": "Alder",
-              "value_es": "Aliso"
+              "val": "Alder",
+              "val_es": "Aliso"
             },
             {
-              "value": "Poplar",
-              "value_es": "Álamo"
+              "val": "Poplar",
+              "val_es": "Álamo"
             }
           ]
         },
@@ -6373,90 +6371,90 @@
           "label_es": "Mástil",
           "values": [
             {
-              "value": "Maple, 20 frets",
-              "value_es": "Arce, 20 trastes"
+              "val": "Maple, GSR4 profile",
+              "val_es": "Arce, perfil GSR4"
             },
             {
-              "value": "Maple, 24 frets",
-              "value_es": "Arce, 24 trastes"
+              "val": "Maple, C shape",
+              "val_es": "Arce, forma C"
             },
             {
-              "value": "SR4 5-pc maple/walnut, jatoba board, 24 frets",
-              "value_es": "SR4 de 5 piezas arce/nogal, diapasón de jatoba, 24 trastes"
+              "val": "Maple, 5-piece",
+              "val_es": "Arce, 5 piezas"
             },
             {
-              "value": "Maple, 21 frets",
-              "value_es": "Arce, 21 trastes"
+              "val": "Maple/Walnut, SR4 5-piece",
+              "val_es": "Arce/Nogal, SR4 5 piezas"
             },
             {
-              "value": "Maple, vintage tint",
-              "value_es": "Arce, tinte vintage"
+              "val": "Maple, C shape",
+              "val_es": "Arce, forma C"
             },
             {
-              "value": "Roasted hard maple C-shape, 20 frets",
-              "value_es": "Arce duro tostado forma C, 20 trastes"
+              "val": "Maple, C shape",
+              "val_es": "Arce, forma C"
             },
             {
-              "value": "Roasted maple, C shape",
-              "value_es": "Arce tostado, forma C"
+              "val": "Maple, C shape, roasted",
+              "val_es": "Arce, forma C, tostado"
             },
             {
-              "value": "Maple C, 19 frets",
-              "value_es": "Maple C, 19 trastes"
+              "val": "Maple, C shape",
+              "val_es": "Arce, forma C"
             },
             {
-              "value": "Maple, 21 frets",
-              "value_es": "Maple, 21 trastes"
+              "val": "Maple, C shape",
+              "val_es": "Arce, forma C"
             },
             {
-              "value": "Maple, 20 frets",
-              "value_es": "Maple, 20 trastes"
+              "val": "Maple, C shape",
+              "val_es": "Arce, forma C"
             }
           ]
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
-              "value": "20, maple",
-              "value_es": "20, arce"
+              "val": "22 frets, Jatoba",
+              "val_es": "22 trastes, Jatoba"
             },
             {
-              "value": "24, rosewood",
-              "value_es": "24, palo rosa"
+              "val": "20 frets, Indian Laurel",
+              "val_es": "20 trastes, Laurel indio"
             },
             {
-              "value": "24, jatoba",
-              "value_es": "24, jatoba"
+              "val": "24 frets, Rosewood",
+              "val_es": "24 trastes, Palo rosa"
             },
             {
-              "value": "21, maple",
-              "value_es": "21, arce"
+              "val": "24 frets, Jatoba",
+              "val_es": "24 trastes, Jatoba"
             },
             {
-              "value": "20, maple",
-              "value_es": "20, arce"
+              "val": "22 frets, Jatoba",
+              "val_es": "22 trastes, Jatoba"
             },
             {
-              "value": "20, rosewood w/ rolled edges",
-              "value_es": "20, palo rosa con bordes redondeados"
+              "val": "20 frets, Indian Laurel",
+              "val_es": "20 trastes, Laurel indio"
             },
             {
-              "value": "20, roasted maple",
-              "value_es": "20, arce tostado"
+              "val": "22 frets, Rosewood",
+              "val_es": "22 trastes, Palo rosa"
             },
             {
-              "value": "19, laurel",
-              "value_es": "19, laurel"
+              "val": "19 frets, Maple",
+              "val_es": "19 trastes, Arce"
             },
             {
-              "value": "21, rosewood",
-              "value_es": "21, palisandro"
+              "val": "22 frets, Rosewood",
+              "val_es": "22 trastes, Palo rosa"
             },
             {
-              "value": "20, jatoba",
-              "value_es": "20, jatoba"
+              "val": "20 frets, Jatoba",
+              "val_es": "20 trastes, Jatoba"
             }
           ]
         },
@@ -6465,44 +6463,44 @@
           "label_es": "Pastillas",
           "values": [
             {
-              "value": "P split + J bridge",
-              "value_es": "Split P + J puente"
+              "val": "Split P + J bridge (Dynamix)",
+              "val_es": "Split P + J puente (Dynamix)"
             },
             {
-              "value": "2x YGD humbuckers",
-              "value_es": "2x humbuckers YGD"
+              "val": "Split P + J bridge",
+              "val_es": "Split P + J puente"
             },
             {
-              "value": "2x PowerSpan dual coil",
-              "value_es": "2x PowerSpan dual coil"
+              "val": "2x YGD Humbuckers",
+              "val_es": "2x Humbuckers YGD"
             },
             {
-              "value": "1x ceramic humbucker (Sterling by Music Man)",
-              "value_es": "1x humbucker cerámico (Sterling by Music Man)"
+              "val": "2x PowerSpan Humbuckers",
+              "val_es": "2x Humbuckers PowerSpan"
             },
             {
-              "value": "2x Alnico J single coils",
-              "value_es": "2x singles Alnico J"
+              "val": "1x Ceramic Humbucker",
+              "val_es": "1x Humbucker cerámico"
             },
             {
-              "value": "2x Marcus Vintage-J Revolution",
-              "value_es": "2x Marcus Vintage-J Revolution"
+              "val": "2x Single-Coil Jazz",
+              "val_es": "2x Single-Coil Jazz"
             },
             {
-              "value": "Marcus Vintage-J set",
-              "value_es": "Set Marcus Vintage-J"
+              "val": "2x Marcus Revolution Single-Coil",
+              "val_es": "2x Single-Coil Marcus Revolution"
             },
             {
-              "value": "1x ceramic single-coil",
-              "value_es": "1x single-coil cerámica"
+              "val": "1x Short-scale Ceramic Single-Coil",
+              "val_es": "1x Single-Coil cerámica escala corta"
             },
             {
-              "value": "Ceramic P/J (V3)",
-              "value_es": "Cerámica P/J (V3)"
+              "val": "Split P + J bridge",
+              "val_es": "Split P + J puente"
             },
             {
-              "value": "Dynamix P/J",
-              "value_es": "Dynamix P/J"
+              "val": "Split P + J bridge (Dynamix)",
+              "val_es": "Split P + J puente (Dynamix)"
             }
           ]
         },
@@ -6511,90 +6509,90 @@
           "label_es": "Activo/Pasivo",
           "values": [
             {
-              "value": "Passive",
-              "value_es": "Pasivo"
+              "val": "Active (Phat II EQ)",
+              "val_es": "Activo (Phat II EQ)"
             },
             {
-              "value": "Active",
-              "value_es": "Activo"
+              "val": "Passive",
+              "val_es": "Pasivo"
             },
             {
-              "value": "Active",
-              "value_es": "Activo"
+              "val": "Active (2-band EQ + Performance EQ)",
+              "val_es": "Activo (EQ 2 bandas + Performance EQ)"
             },
             {
-              "value": "Active",
-              "value_es": "Activo"
+              "val": "Active (3-band EQ)",
+              "val_es": "Activo (EQ 3 bandas)"
             },
             {
-              "value": "Passive",
-              "value_es": "Pasivo"
+              "val": "Active (2-band preamp)",
+              "val_es": "Activo (preamp 2 bandas)"
             },
             {
-              "value": "Passive",
-              "value_es": "Pasivo"
+              "val": "Passive",
+              "val_es": "Pasivo"
             },
             {
-              "value": "Passive",
-              "value_es": "Pasivo"
+              "val": "Passive",
+              "val_es": "Pasivo"
             },
             {
-              "value": "Passive",
-              "value_es": "Pasiva"
+              "val": "Passive",
+              "val_es": "Pasivo"
             },
             {
-              "value": "Passive",
-              "value_es": "Pasiva"
+              "val": "Passive",
+              "val_es": "Pasivo"
             },
             {
-              "value": "Passive",
-              "value_es": "Pasiva"
+              "val": "Passive",
+              "val_es": "Pasivo"
             }
           ]
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34\" (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "30 in (762 mm)",
-              "value_es": "30 in (762 mm)"
+              "val": "30\" (762 mm)",
+              "val_es": "30\" (762 mm)"
             },
             {
-              "value": "34 in (864 mm)",
-              "value_es": "34 in (864 mm)"
+              "val": "34\" (864 mm)",
+              "val_es": "34\" (864 mm)"
             },
             {
-              "value": "30 in (762 mm)",
-              "value_es": "30 in (762 mm)"
+              "val": "30\" (762 mm)",
+              "val_es": "30\" (762 mm)"
             }
           ]
         },
@@ -6603,44 +6601,44 @@
           "label_es": "Electrónica",
           "values": [
             {
-              "value": "Volume, volume, tone",
-              "value_es": "Volumen, volumen, tono"
+              "val": "Phat II EQ (bass boost), master volume, balance, tone",
+              "val_es": "Phat II EQ (boost graves), vol. maestro, balance, tono"
             },
             {
-              "value": "Active EQ 3-band",
-              "value_es": "EQ activo 3 bandas"
+              "val": "Master volume, master tone",
+              "val_es": "Vol. maestro, tono maestro"
             },
             {
-              "value": "Active 3-band EQ with 3-way Power Tap",
-              "value_es": "EQ activo de 3 bandas con Power Tap de 3 posiciones"
+              "val": "2-band EQ (bass/treble) + 5-way Performance EQ switch",
+              "val_es": "EQ 2 bandas (graves/agudos) + switch Performance EQ 5 pos."
             },
             {
-              "value": "2-band active preamp, 9V",
-              "value_es": "Preamplificador activo de 2 bandas, 9V"
+              "val": "3-band EQ (bass/mid/treble), volume, balance",
+              "val_es": "EQ 3 bandas (graves/medios/agudos), volumen, balance"
             },
             {
-              "value": "2x volume, tone",
-              "value_es": "2x volumen, tono"
+              "val": "2-band preamp (bass/treble), volume",
+              "val_es": "Preamp 2 bandas (graves/agudos), volumen"
             },
             {
-              "value": "2x volume, master tone",
-              "value_es": "2x volumen, tono maestro"
+              "val": "Master volume x2, master tone",
+              "val_es": "Vol. maestro x2, tono maestro"
             },
             {
-              "value": "2x vol, master tone",
-              "value_es": "2x vol, tono master"
+              "val": "Master volume, blend, tone",
+              "val_es": "Vol. maestro, blend, tono"
             },
             {
-              "value": "Volume, tone",
-              "value_es": "Volumen, tono"
+              "val": "Master volume, tone",
+              "val_es": "Vol. maestro, tono"
             },
             {
-              "value": "Vol, vol, tone",
-              "value_es": "Vol, vol, tono"
+              "val": "Master volume, master tone",
+              "val_es": "Vol. maestro, tono maestro"
             },
             {
-              "value": "2x vol, tone",
-              "value_es": "2x vol, tono"
+              "val": "Master volume, tone, Phat II EQ (bass boost)",
+              "val_es": "Vol. maestro, tono, Phat II EQ (boost graves)"
             }
           ]
         },
@@ -6649,44 +6647,44 @@
           "label_es": "Clavijas",
           "values": [
             {
-              "value": "Die-cast",
-              "value_es": "Fundidos"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Die-cast",
-              "value_es": "Fundidos"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Die-cast",
-              "value_es": "Fundidos"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Schaller",
-              "value_es": "Schaller"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Vintage-style",
-              "value_es": "Estilo vintage"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Open-gear",
-              "value_es": "Abiertos"
+              "val": "Vintage-style open gear",
+              "val_es": "Estilo vintage abiertas"
             },
             {
-              "value": "Premium open-gear",
-              "value_es": "Premium abiertas"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Die-cast sealed",
-              "value_es": "Selladas die-cast"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Lightweight open-gear",
-              "value_es": "Open-gear ligeras"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             },
             {
-              "value": "Vintage-style",
-              "value_es": "Estilo vintage"
+              "val": "Die-cast",
+              "val_es": "Fundición a presión"
             }
           ]
         },
@@ -6695,44 +6693,44 @@
           "label_es": "Peso",
           "values": [
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~3.6 kg (7.9 lbs)",
+              "val_es": "~3.6 kg (7.9 lbs)"
             },
             {
-              "value": "8.6 lb (3.9 kg)",
-              "value_es": "3,9 kg"
+              "val": "~3.8 kg (8.4 lbs)",
+              "val_es": "~3.8 kg (8.4 lbs)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "val": "~4.1 kg (9.0 lbs)",
+              "val_es": "~4.1 kg (9.0 lbs)"
             },
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~3.7 kg (8.2 lbs)",
+              "val_es": "~3.7 kg (8.2 lbs)"
             },
             {
-              "value": "8.0 lb (3.6 kg)",
-              "value_es": "3,6 kg"
+              "val": "~3.9 kg (8.6 lbs)",
+              "val_es": "~3.9 kg (8.6 lbs)"
             },
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~3.9 kg (8.6 lbs)",
+              "val_es": "~3.9 kg (8.6 lbs)"
             },
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~4.0 kg (8.8 lbs)",
+              "val_es": "~4.0 kg (8.8 lbs)"
             },
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~2.9 kg (6.4 lbs)",
+              "val_es": "~2.9 kg (6.4 lbs)"
             },
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~4.2 kg (9.3 lbs)",
+              "val_es": "~4.2 kg (9.3 lbs)"
             },
             {
-              "value": "Not published (varies by unit)",
-              "value_es": "No publicado (varía por unidad)"
+              "val": "~3.2 kg (7.1 lbs)",
+              "val_es": "~3.2 kg (7.1 lbs)"
             }
           ]
         }
@@ -6759,7 +6757,7 @@
         "cons": [
           "Poplar/okoume body less resonant than premium woods",
           "Only 22 frets limits upper register access",
-          "Basic hardware (tuners, bridge) are functional but not premium",
+          "Basic hardware (tuners, bridge) functional but not premium",
           "Active EQ requires 9V battery"
         ],
         "cons_es": [
@@ -6771,27 +6769,27 @@
       },
       {
         "name": "Squier Affinity Series Precision Bass PJ",
-        "name_es": "Bajo Precision PJ Serie Affinity de Squier",
+        "name_es": "Squier Affinity Series Precision Bass PJ",
         "pros": [
-          "Best value beginner bass at",
-          "PJ pickups give you Precision thump AND Jazz growl in one instrument",
+          "Best budget beginner bass, period",
+          "P/J pickups deliver Precision thump and Jazz growl in one instrument",
           "Comfortable maple neck and lightweight poplar body",
-          "Split-coil P plus Jazz bridge pickup cover vintage thump and modern growl"
+          "P split-coil plus Jazz bridge cover vintage thump and modern growl"
         ],
         "pros_es": [
-          "El mejor bajo económico para principiantes por solo",
+          "El mejor bajo económico para principiantes, sin más",
           "Las pastillas PJ dan el golpe Precision y el growl Jazz en un solo instrumento",
           "Mástil de arce cómodo y cuerpo de álamo ligero",
           "Pastilla P split-coil más puente Jazz cubren thump vintage y growl moderno"
         ],
         "cons": [
           "Entry-level pickups and hardware invite future upgrades",
-          "Needs a setup out of the box — truss rod, action, and intonation all want attention before it plays its best",
+          "Needs setup out of the box — neck relief, action, and intonation want attention before it plays its best",
           "No active electronics for tone shaping",
-          "Accessories like a gigbag are not included"
+          "Accessories like gig bag not included"
         ],
         "cons_es": [
-          "Las pastillas y el hardware de nivel inicial invitan a futuras mejoras",
+          "Pastillas y hardware de nivel inicial invitan a futuras mejoras",
           "Necesita un ajuste al sacarlo de la caja — el mástil, la acción y la entonación quieren atención antes de que toque a su mejor nivel",
           "Sin electrónica activa para moldear el tono",
           "Los accesorios como la funda no están incluidos"
@@ -6801,10 +6799,10 @@
         "name": "Yamaha TRBX304",
         "name_es": "Yamaha TRBX304",
         "pros": [
-          "The 5-band active EQ lets beginners shape tone like a pro",
-          "Mahogany body and 5-piece neck for real, present resonance",
-          "24 frets expand your range as you learn",
-          "Yamaha's factory setup means it arrives with the truss rod, intonation, and pickup heights dialed in"
+          "5-band active EQ lets beginners shape tone like a pro",
+          "Mahogany body and 5-piece neck for pro-level resonance",
+          "24 frets extend your register as you learn",
+          "Yamaha factory setup means it arrives with neck relief, intonation, and pickup heights dialed in"
         ],
         "pros_es": [
           "El EQ activo de 5 bandas permite a los principiantes moldear el tono como un pro",
@@ -6813,10 +6811,10 @@
           "La puesta a punto de fábrica de Yamaha hace que llegue con el mástil, la entonación y las alturas de pastilla ajustados"
         ],
         "cons": [
-          "It costs more than the Squier Affinity PJ",
+          "Costs more than the Squier Affinity PJ",
           "Active electronics need a 9V battery",
-          "So many tonal options can overwhelm total beginners",
-          "Its neutral modern tone lacks instant vintage vibe"
+          "So many tonal options can overwhelm a total beginner",
+          "Its modern, neutral tone lacks instant vintage vibe"
         ],
         "cons_es": [
           "Cuesta más que el Squier Affinity PJ",
@@ -6829,22 +6827,22 @@
         "name": "Ibanez SR300E",
         "name_es": "Ibanez SR300E",
         "pros": [
-          "One of the thinnest, fastest necks in its class — the SR5 profile suits small hands and quick runs",
-          "Lightweight body reduces fatigue during long practice",
-          "Active 3-band EQ and Power Tap switch for versatile tones",
+          "One of the slimmest, fastest necks in its class — SR4 profile fits small hands and fast runs",
+          "Lightweight body reduces fatigue during long practice sessions",
+          "3-band active EQ and Power Tap switch for versatile tones",
           "Ibanez reliability at a beginner-friendly price"
         ],
         "pros_es": [
-          "Uno de los mástiles más delgados y rápidos de su clase — el perfil SR5 se adapta a manos pequeñas y a pasajes rápidos",
+          "Uno de los mástiles más delgados y rápidos de su clase — el perfil SR4 se adapta a manos pequeñas y a pasajes rápidos",
           "El cuerpo ligero reduce la fatiga en prácticas largas",
           "EQ activo de 3 bandas e interruptor Power Tap para tonos versátiles",
           "Fiabilidad Ibanez a un precio amigable para principiantes"
         ],
         "cons": [
-          "The thin neck may feel cramped to larger-handed players",
-          "The active circuit requires a battery",
-          "It is less warm and mellow than a classic P-Bass",
-          "The nyatoh body isn't the most resonant"
+          "Thin neck can feel cramped for larger hands",
+          "Active circuit requires a battery",
+          "Less warm and woody than a classic P-Bass",
+          "Nyatoh body is not the most resonant"
         ],
         "cons_es": [
           "El mástil delgado puede sentirse estrecho para manos grandes",
@@ -6857,9 +6855,9 @@
         "name": "Sterling by Music Man StingRay Ray4",
         "name_es": "Sterling by Music Man StingRay Ray4",
         "pros": [
-          "Iconic StingRay tone at a budget price",
-          "Ceramic humbucker with a 2-band active preamp",
-          "Punchy tone that cuts through a mix — the mid-forward voice sits naturally in funk and rock",
+          "Iconic StingRay tone at an affordable price",
+          "Ceramic humbucker with 2-band active preamp",
+          "Punchy tone that cuts the mix — forward mids sit naturally in funk and rock",
           "Simple single-pickup layout is easy for beginners"
         ],
         "pros_es": [
@@ -6869,10 +6867,10 @@
           "El esquema simple de una pastilla es fácil para principiantes"
         ],
         "cons": [
-          "One pickup means fewer tonal options",
-          "The basswood body is light but not very resonant",
-          "It needs a 9V battery for the active preamp — a dead battery mutes the bass until you swap it",
-          "Its aggressive tone isn't ideal for mellow styles"
+          "Single pickup means fewer tonal options",
+          "Basswood body is light but not very resonant",
+          "Needs a 9V battery for the active preamp — a dead battery mutes the bass until replaced",
+          "Aggressive tone is not ideal for mellow styles"
         ],
         "cons_es": [
           "Una pastilla significa menos opciones tonales",
@@ -6883,12 +6881,12 @@
       },
       {
         "name": "Squier Classic Vibe '60s Jazz Bass",
-        "name_es": "Bajo Jazz Classic Vibe 60s de Squier",
+        "name_es": "Squier Classic Vibe '60s Jazz Bass",
         "pros": [
-          "Sounds like a bass that costs three times as much",
+          "Sounds like a bass costing three times as much",
           "Alnico pickups deliver genuine vintage J tone",
-          "Comfortable C-shaped neck and vintage-style hardware",
-          "Vintage-style construction that holds up across years of practice and gigs"
+          "Comfortable C-shape neck and vintage-style hardware",
+          "Vintage-style build holds up to years of practice and gigs"
         ],
         "pros_es": [
           "Suena como un bajo que cuesta el triple",
@@ -6897,13 +6895,13 @@
           "Construcción de estilo vintage que aguanta años de práctica y conciertos"
         ],
         "cons": [
-          "It is at the top of the beginner budget",
-          "Passive electronics only — the two volume and one tone knobs offer no EQ shaping like the TRBX304's 5-band active EQ",
-          "Single J voicing is less versatile than a PJ layout",
-          "It is slightly heavier than featherweight modern bodies"
+          "Sits at the top of the beginner budget",
+          "Passive electronics only — dual volumes and tone lack the EQ shaping of the TRBX304 5-band active EQ",
+          "Single J voice is less versatile than a P/J setup",
+          "Slightly heavier than modern ultra-light bodies"
         ],
         "cons_es": [
-          "A está en el tope del presupuesto de principiante",
+          "Está en el tope del presupuesto de principiante",
           "Solo electrónica pasiva — los dos volúmenes y el tono no ofrecen modelado de EQ como el EQ activo de 5 bandas del TRBX304",
           "La única voz J es menos versátil que un esquema PJ",
           "Es algo más pesado que los cuerpos modernos ultraligeros"
@@ -6914,21 +6912,21 @@
         "name_es": "Sire Marcus Miller V5R",
         "pros": [
           "Passive electronics — no battery needed",
-          "Roasted hard maple neck with Edgeless rolled edges",
-          "Marcus Vintage-J Revolution pickups with punchy '70s tone",
-          "Ivory binding, block inlays and chrome hardware"
+          "Roasted hard maple neck with rolled fretboard edges (Edgeless)",
+          "Marcus Vintage-J Revolution pickups with punchy 70s-style tone",
+          "Ivory binding, block inlays, and chrome hardware"
         ],
         "pros_es": [
           "Electrónica pasiva — sin necesidad de batería",
           "Mástil de arce duro tostado con bordes redondeados (Edgeless)",
-          "Pastillas Marcus Vintage-J Revolution con tono contundente estilo '70s",
+          "Pastillas Marcus Vintage-J Revolution con tono contundente estilo 70s",
           "Binding de marfil, incrustaciones en bloque y hardware cromado"
         ],
         "cons": [
           "No active preamp or EQ controls",
           "Single-coil pickups can pick up hum at high gain",
-          "Passive tone will need amp EQ to shape the sound",
-          "Laurel fingerboard needs oiling to avoid drying out"
+          "Passive tone requires amp EQ to shape sound",
+          "Laurel fretboard needs oiling to avoid drying out"
         ],
         "cons_es": [
           "Sin previo activo ni controles de EQ",
@@ -6941,22 +6939,22 @@
         "name": "Squier Sonic Bronco Bass",
         "name_es": "Squier Sonic Bronco Bass",
         "pros": [
-          "30-inch short scale — easiest reach for small hands and kids",
-          "Slim C maple neck with 1.5-inch nut, light poplar body",
+          "30-inch short scale: easy reach for small hands and kids",
+          "Maple C neck with 1.5\" nut, lightweight poplar body",
           "One pickup, two knobs: zero learning curve",
-          "Cheapest comfortable start at ~$259"
-        ],
-        "cons": [
-          "Single middle pickup — no J articulation or active bite",
-          "19 frets limit upper-register soloing",
-          "Basic hardware and electronics reflect the price",
-          "Short scale feels floppy with heavy strings"
+          "Comfortable start for less than $259"
         ],
         "pros_es": [
           "Escala corta de 30 pulgadas: alcance fácil para manos pequeñas y niños",
-          "Mástil C de maple con cejuela de 1,5 pulgadas, cuerpo ligero de álamo",
+          "Mástil C de arce con cejuela de 1,5 pulgadas, cuerpo ligero de álamo",
           "Una pastilla, dos knobs: cero curva de aprendizaje",
           "Inicio cómodo más barato por ~$259"
+        ],
+        "cons": [
+          "Single center pickup: no J articulation or active bite",
+          "19 frets limit high-register solos",
+          "Basic hardware and electronics for the price",
+          "Short scale loosens with heavy strings"
         ],
         "cons_es": [
           "Una sola pastilla central: sin articulación J ni mordida activa",
@@ -6969,22 +6967,22 @@
         "name": "Yamaha BB234",
         "name_es": "Yamaha BB234",
         "pros": [
-          "Ceramic V3 P/J with serious clean output",
+          "V3 ceramic P/J pickups with serious, clean output",
           "Slim maple neck, 21 frets, fatigue-free learning",
-          "Passive Vol/Vol/Tone — no batteries, no menus",
-          "Alder body and open-gear tuners built for the road"
-        ],
-        "cons": [
-          "34-inch scale stretches small hands",
-          "No active EQ for modern slap tones",
-          "Plain finishes bore flash seekers",
-          "~$359 costs more than short-scale rivals"
+          "Vol/Vol/Tone passive: no batteries, no menus",
+          "Alder and vintage tuners built for the road"
         ],
         "pros_es": [
           "P/J cerámicas V3 con salida seria y limpia",
-          "Mástil fino de maple, 21 trastes, aprendizaje sin fatiga",
+          "Mástil fino de arce, 21 trastes, aprendizaje sin fatiga",
           "Vol/Vol/Tono pasivos: sin baterías ni menús",
-          "Aliso y clavijas abiertas hechos para la gira"
+          "Aliso y clavijas abiertas hechas para la gira"
+        ],
+        "cons": [
+          "34-inch scale stretches small hands",
+          "No active EQ for modern slap",
+          "Sober finishes look plain",
+          "~$359 costs more than short-scale rivals"
         ],
         "cons_es": [
           "La escala de 34 estira manos pequeñas",
@@ -6997,22 +6995,22 @@
         "name": "Ibanez TMB30 Talman",
         "name_es": "Ibanez TMB30 Talman",
         "pros": [
-          "30-inch short scale, zero stretch, low tension",
-          "Dynamix P/J covers thump to snap",
+          "30-inch short scale: zero stretch, low tension",
+          "Dynamix P/J from thump to snap",
           "Passive simplicity with photogenic offset style",
-          "Ridiculous value near ~$249"
-        ],
-        "cons": [
-          "20 frets and basic hardware cap finesse",
-          "Short scale flops with heavy strings",
-          "Single pickup character per position, no blending magic",
-          "Light body can neck-dive on cheap straps"
+          "Absurd value for ~$249"
         ],
         "pros_es": [
           "Escala corta de 30: cero estirón, baja tensión",
           "Dynamix P/J del thump al snap",
           "Simplicidad pasiva con estilo offset fotogénico",
           "Valor absurdo por ~$249"
+        ],
+        "cons": [
+          "20 frets and basic hardware limit finesse",
+          "Short scale flubs with heavy strings",
+          "One trick per pickup, no blend magic",
+          "Light body neck-dives with cheap straps"
         ],
         "cons_es": [
           "20 trastes y hardware básico limitan finura",
