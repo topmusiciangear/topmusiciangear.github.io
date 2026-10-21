@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <base href="/">
-  <script>var l="es";document.documentElement.lang="es";document.write('<style id="ls">.lang-show-en,.cookie-lang-en{display:none!important}</style>')</script>
+  <script>var l="es";document.documentElement.lang="es";document.write('<style id="ls">.lang-show-en,.cookie-lang-en{display:none!important}html[lang=es] .lang-btn[data-lang=es]{background:rgba(255,255,255,.1);border-color:var(--white);color:var(--white)}html[lang=es] .lang-btn[data-lang=en]{background:transparent;border-color:var(--border);color:var(--text-muted)}</style>')</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -133,7 +133,13 @@
           </div>
         </nav>
       </div>
-      <div class="audio-mini" id="audioMini"></div>
+      <div class="audio-mini" id="audioMini">
+        <div class="audio-mini-inner">
+          <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+          <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+          <span class="audio-mini-label"><span class="lang-show-en">Cuban Tres, Bass &amp; Guitar — played and recorded with my personal gear</span><span class="lang-show-es">Tres Cubano, Bajo y Guitarra — tocados y grabados con mi equipo personal</span></span>
+        </div>
+      </div>
       <div class="header-right">
         <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
         <div class="header-social">
@@ -161,7 +167,10 @@
             <a class="nav-dd-link" data-aff="https://www.awin1.com/cread.php?awinmid=67144&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Freverb.com%2Fcollection%2Fnew-gear-releases-1" href="https://reverb.com/collection/new-gear-releases-1" target="_blank" rel="noopener noreferrer sponsored"><span class="nav-dd-link-icon" style="font-weight:900;font-size:13px;line-height:1;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;">R</span>Reverb</a>
           </div>
         </div>
-        <div id="langSwitcher" class="lang-switcher"></div>
+        <div id="langSwitcher" class="lang-switcher">
+          <button type="button" class="lang-btn" data-lang="en" title="English" onclick="try{localStorage.setItem('lang','en')}catch(e){};if(location.pathname!=='/'&&location.pathname!=='/index.html')location.href='/'"><img class="lang-flag" src="/img/flag-en.svg" alt="EN" width="20" height="15"></button>
+          <button type="button" class="lang-btn active" data-lang="es" title="Español" onclick="try{localStorage.setItem('lang','es')}catch(e){};if(!/^\/es(\/|$)/.test(location.pathname))location.href='/es/'"><img class="lang-flag" src="/img/flag-es.svg" alt="ES" width="20" height="15"></button>
+        </div>
       </div>
     </div>
   </header>
@@ -224,7 +233,7 @@
         </div>
         <div class="product-search-wrap" style="position:relative;max-width:260px;width:100%;min-width:160px;">
           <svg data-fa="magnifying-glass" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:13px;z-index:1;" class="icon fa-solid fa-magnifying-glass" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-          <input type="text" id="productSearchInput" aria-label="Search products" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 32px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);font-family:inherit;">
+          <input type="text" id="productSearchInput" aria-label="Buscar productos" placeholder="Buscar productos..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 32px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);font-family:inherit;">
           <button type="button" id="productSearchClear" aria-label="Clear search" style="display:none;position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:transparent;color:var(--text-muted);font-size:16px;line-height:1;padding:4px 6px;cursor:pointer;z-index:1;">×</button>
         </div>
       </div>
@@ -385,10 +394,10 @@
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
-<script defer src="js/translations.v4.min.js?v=348a7cd8a709"></script>
+<script defer src="js/translations.v4.min.js?v=6c7dde30620b"></script>
   <script defer src="js/shop-buttons.js?v=bcb7bc69"></script>
 <script defer src="js/constants.min.js?v=80e4a0ed2dbf"></script>
-  <script defer src="js/app.min.js?v=d560a0e59f585d"></script>
+  <script defer src="js/app.min.js?v=94f5a12b9f585d"></script>
 <style>.cookie-visible{transform:translateY(0)!important}</style>
 <style></style>
 <div class="bg-hero"></div>

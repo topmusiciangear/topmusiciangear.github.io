@@ -208,6 +208,6 @@ const translations = {
 };
 
 const languageNames = {
-  en: '<img class="lang-flag" src="img/flag-en.svg" alt="EN" width="16" height="12" style="vertical-align:middle">',
-  es: '<img class="lang-flag" src="img/flag-es.svg" alt="ES" width="16" height="12" style="vertical-align:middle">'
+  en: '<img class="lang-flag" src="/img/flag-en.svg" alt="EN" width="16" height="12" style="vertical-align:middle">',
+  es: '<img class="lang-flag" src="/img/flag-es.svg" alt="ES" width="16" height="12" style="vertical-align:middle">'
 };

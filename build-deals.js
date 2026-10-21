@@ -71,7 +71,7 @@ const buildPage = (lang) => {
   const navLink = (href, en, es, active) => `<a href="${href}" class="nav-link${active ? ' active' : ''}">${isEs ? es : en}</a>`;
 
   const navDropdown = `<div class="nav-dd">
-    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos Lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
     <div class="nav-dd-panel" role="menu">
       <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
       <a class="nav-dd-link" href="https://andertonsmusiccompany.pxf.io/Gb3Q7k" target="_blank" rel="noopener noreferrer sponsored"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -90,7 +90,7 @@ const buildPage = (lang) => {
   <header style="margin-top:0;padding-top:0;">
     <div class="header-inner">
       <div class="header-left">
-        <a href="/" class="logo">
+        <a href="${isEs ? '/es/' : '/'}" class="logo">
           <span class="logo-icon"><img src="img/favicon.png?v=2" alt="TMG" style="width:36px;height:36px;border-radius:8px"></span>
           <div class="logo-text">
             <span>Top</span>MusicianGear
@@ -295,7 +295,7 @@ function wrapAndertons(url) {
   <main id="mainContent">
     <div class="deals-page">
       <div class="back-row">
-        <a href="/" class="guide-back-btn">${t('Back', 'Volver Atrás')}</a>
+        <a href="${isEs ? '/es/' : '/'}" class="guide-back-btn">${t('Back', 'Volver Atrás')}</a>
       </div>
 
       <h1 style="text-align:center;">${t("Today's Music Gear Deals", 'Ofertas de hoy en equipo musical')}</h1>

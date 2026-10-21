@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>var l="en";document.documentElement.lang="en";document.write('<style id="ls">.lang-show-es,.cookie-lang-es{display:none!important}</style>')</script>
+  <script>var l=(function(){var p=location.pathname,q=new URLSearchParams(location.search).get('lang'),s=null;try{s=localStorage.getItem('lang')}catch(e){}if(q==='es'||q==='en')return q;if(/^\/es(\/|$)/.test(p)||/_es\.html$/.test(p))return 'es';if(s==='es'||s==='en')return s;return 'en'})();if(l==='es'&&(location.pathname==='/'||location.pathname==='/index.html')){location.replace('/es/'+location.search+location.hash)}else{document.documentElement.lang=l;document.write('<style id="ls">.'+(l==='es'?'lang-show-en':'lang-show-es')+',.'+(l==='es'?'cookie-lang-en':'cookie-lang-es')+'{display:none!important}html[lang=es] .lang-btn[data-lang=es],html[lang=en] .lang-btn[data-lang=en]{background:rgba(255,255,255,.1);border-color:var(--white);color:var(--white)}html[lang=es] .lang-btn[data-lang=en],html[lang=en] .lang-btn[data-lang=es]{background:transparent;border-color:var(--border);color:var(--text-muted)}</style>')}</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -116,10 +116,10 @@
           </div>
         </a>
         <nav aria-label="Main navigation">
-          <a class="nav-link" data-nav="guides" data-i18n="navGuides" href="#guides" onclick="handleNavClick('guides');return false">Guides</a>
-          <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span></a>
+          <a class="nav-link" data-nav="guides" data-i18n="navGuides" href="#guides" onclick="handleNavClick('guides');return false"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+          <a class="nav-link lang-show-en" href="/deals.html">Deals</a><a class="nav-link lang-show-es" href="/deals_es.html">Ofertas</a>
           <div class="nav-dd" id="nav-dd-desktop">
-            <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+            <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><span class="lang-show-es">Nuevos lanzamientos</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
             <div class="nav-dd-panel" role="menu">
               <a class="nav-dd-link" data-aff="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
               <a class="nav-dd-link" data-aff="https://andertonsmusiccompany.pxf.io/Gb3Q7k" target="_blank" rel="noopener noreferrer sponsored" href="https://www.andertons.co.uk/"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -132,7 +132,13 @@
           </div>
         </nav>
       </div>
-      <div class="audio-mini" id="audioMini"></div>
+      <div class="audio-mini" id="audioMini">
+        <div class="audio-mini-inner">
+          <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+          <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+          <span class="audio-mini-label"><span class="lang-show-en">Cuban Tres, Bass &amp; Guitar — played and recorded with my personal gear</span><span class="lang-show-es">Tres Cubano, Bajo y Guitarra — tocados y grabados con mi equipo personal</span></span>
+        </div>
+      </div>
       <div class="header-right">
         <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
         <div class="header-social">
@@ -149,7 +155,7 @@
         <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener noreferrer" class="cuban3-link" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
         <div class="nav-dd nav-dd-mobile" id="nav-dd-mobile">
-          <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+          <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><span class="lang-show-es">Nuevos lanzamientos</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
           <div class="nav-dd-panel" role="menu">
             <a class="nav-dd-link" data-aff="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
             <a class="nav-dd-link" data-aff="https://andertonsmusiccompany.pxf.io/Gb3Q7k" target="_blank" rel="noopener noreferrer sponsored" href="https://www.andertons.co.uk/"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -160,17 +166,20 @@
             <a class="nav-dd-link" data-aff="https://www.awin1.com/cread.php?awinmid=67144&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Freverb.com%2Fcollection%2Fnew-gear-releases-1" href="https://reverb.com/collection/new-gear-releases-1" target="_blank" rel="noopener noreferrer sponsored"><span class="nav-dd-link-icon" style="font-weight:900;font-size:13px;line-height:1;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;">R</span>Reverb</a>
           </div>
         </div>
-        <div id="langSwitcher" class="lang-switcher"></div>
+        <div id="langSwitcher" class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="en" title="English" onclick="try{localStorage.setItem('lang','en')}catch(e){};if(location.pathname!=='/'&&location.pathname!=='/index.html')location.href='/'"><img class="lang-flag" src="/img/flag-en.svg" alt="EN" width="20" height="15"></button>
+          <button type="button" class="lang-btn" data-lang="es" title="Español" onclick="try{localStorage.setItem('lang','es')}catch(e){};if(!/^\/es(\/|$)/.test(location.pathname))location.href='/es/'"><img class="lang-flag" src="/img/flag-es.svg" alt="ES" width="20" height="15"></button>
+        </div>
       </div>
     </div>
   </header>
 
   <!-- Mobile Navigation -->
   <div class="mobile-nav" id="mobileNav">
-    <a class="nav-link" data-nav="guides" href="#guides" onclick="handleNavClick('guides');return false"><span class="lang-show-en">Guides</span></a>
-    <a class="nav-link" href="/deals.html"><span class="lang-show-en">Deals</span></a>
+    <a class="nav-link" data-nav="guides" href="#guides" onclick="handleNavClick('guides');return false"><span class="lang-show-en">Guides</span><span class="lang-show-es">Guías</span></a>
+    <a class="nav-link lang-show-en" href="/deals.html">Deals</a><a class="nav-link lang-show-es" href="/deals_es.html">Ofertas</a>
     <div class="nav-dd" id="nav-dd-mobilenav">
-      <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+      <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)"><span class="lang-show-en">New Releases</span><span class="lang-show-es">Nuevos lanzamientos</span><svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
       <div class="nav-dd-panel" role="menu">
         <a class="nav-dd-link" data-aff="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" href="https://www.gear4music.com/New-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
         <a class="nav-dd-link" data-aff="https://andertonsmusiccompany.pxf.io/Gb3Q7k" target="_blank" rel="noopener noreferrer sponsored" href="https://www.andertons.co.uk/"><img src="img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
@@ -187,11 +196,11 @@
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
-      <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> <span data-i18n="heroBadge"><span class="lang-show-en">Trusted by musicians worldwide</span></span></div>
-      <h1 data-i18n="heroTitle"><span class="lang-show-en">From Studio To Stage <span>Gear Reviewed By A Pro Musician</span></span></h1>
-      <p data-i18n="heroDesc"><span class="lang-show-en">Recommended by a musician with over 20 years of experience on the world's biggest stages &mdash; from Glastonbury to Broadway, Abbey Road to the silver screen.</span></p>
+      <div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> <span data-i18n="heroBadge"><span class="lang-show-en">Trusted by musicians worldwide</span><span class="lang-show-es">La confianza de músicos de todo el mundo</span></span></div>
+      <h1 data-i18n="heroTitle"><span class="lang-show-en">From Studio To Stage <span>Gear Reviewed By A Pro Musician</span></span><span class="lang-show-es">Del estudio al escenario <span>Equipo reseñado por un profesional</span></span></h1>
+      <p data-i18n="heroDesc"><span class="lang-show-en">Recommended by a musician with over 20 years of experience on the world's biggest stages &mdash; from Glastonbury to Broadway, Abbey Road to the silver screen.</span><span class="lang-show-es">Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.</span></p>
       <div class="hero-actions">
-        <a href="/deals.html" class="btn-primary"><span class="lang-show-en">Today's Deals</span></a>
+        <a href="/deals.html" class="btn-primary lang-show-en">Today's Deals</a><a href="/deals_es.html" class="btn-primary lang-show-es">Ofertas de hoy</a>
       </div>
     </div>
   </section>
@@ -223,7 +232,7 @@
         </div>
         <div class="product-search-wrap" style="position:relative;max-width:260px;width:100%;min-width:160px;">
           <svg data-fa="magnifying-glass" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:13px;z-index:1;" class="icon fa-solid fa-magnifying-glass" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-          <input type="text" id="productSearchInput" aria-label="Search products" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 32px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);font-family:inherit;">
+          <input type="text" id="productSearchInput" aria-label="Search products" placeholder="Search products..." autocomplete="off" data-i18n-placeholder="searchProductsPlaceholder" style="width:100%;padding:8px 32px 8px 34px;border:1.5px solid var(--border);border-radius:20px;font-size:13px;background:var(--surface);color:var(--text);font-family:inherit;"><script>if(document.documentElement.lang==='es'){var _ps=document.getElementById('productSearchInput');if(_ps){_ps.placeholder='Buscar productos...';_ps.setAttribute('aria-label','Buscar productos')}}</script>
           <button type="button" id="productSearchClear" aria-label="Clear search" style="display:none;position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:transparent;color:var(--text-muted);font-size:16px;line-height:1;padding:4px 6px;cursor:pointer;z-index:1;">×</button>
         </div>
       </div>
@@ -336,7 +345,7 @@
     <div class="audio-mini-inner">
       <span class="audio-mini-player"><audio controls preload="none"><source src="https://topmusiciangear.com/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
       <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
-      <span class="audio-mini-label" data-i18n="audioLabel">Cuban Tres, Bass & Guitar — played and recorded with my personal gear</span>
+      <span class="audio-mini-label" data-i18n="audioLabel"><span class="lang-show-en">Cuban Tres, Bass &amp; Guitar — played and recorded with my personal gear</span><span class="lang-show-es">Tres Cubano, Bajo y Guitarra — tocados y grabados con mi equipo personal</span></span>
     </div>
   </div>
   </main>
@@ -349,8 +358,8 @@
         <ul>
           <li><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false" data-i18n="footerHome">Home</a></li>
           <li><a href="#about" onclick="document.getElementById('about')?.scrollIntoView({behavior:'smooth'});return false" data-i18n="footerAbout">About Me</a></li>
-          <li><a href="/deals.html"><span class="lang-show-en">Today's Deals</span></a></li>
-          <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> <span class="lang-show-en">Contact Us</span></a></li>
+          <li><a href="/deals.html" class="lang-show-en">Today's Deals</a><a href="/deals_es.html" class="lang-show-es">Ofertas de hoy</a></li>
+          <li><a href="/contact.html"><svg data-fa="envelope" style="margin-right:4px;color:var(--accent)" class="icon fa-solid fa-envelope" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> <span class="lang-show-en">Contact Us</span><span class="lang-show-es">Contáctanos</span></a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -369,7 +378,7 @@
           <li><a href="/privacy-policy.html" data-i18n="footerPrivacy">Privacy Policy</a></li>
           <li><a href="/terms.html" data-i18n="footerTerms">Terms of Service</a></li>
           <li><a href="/cookie-policy.html" data-i18n="footerCookies">Cookie Policy</a></li>
-          <li><a href="#cookie-settings" onclick="event.preventDefault();cookiePrefs()" style="cursor:pointer"><span class="lang-show-en">Cookie Settings</span></a></li>
+          <li><a href="#cookie-settings" onclick="event.preventDefault();cookiePrefs()" style="cursor:pointer"><span class="lang-show-en">Cookie Settings</span><span class="lang-show-es">Configuración de cookies</span></a></li>
           <li><a href="/affiliate-disclosure.html" data-i18n="footerAffiliate">Affiliate Disclosure</a></li>
         </ul>
       </div>
@@ -384,10 +393,10 @@
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
-<script defer src="js/translations.v4.min.js?v=348a7cd8a709"></script>
+<script defer src="js/translations.v4.min.js?v=6c7dde30620b"></script>
   <script defer src="js/shop-buttons.js?v=jpxaenmr"></script>
 <script defer src="js/constants.min.js?v=80e4a0ed2dbf"></script>
-  <script defer src="js/app.min.js?v=d560a0e59f585d"></script>
+  <script defer src="js/app.min.js?v=94f5a12b9f585d"></script>
 <style>.cookie-visible{transform:translateY(0)!important}</style>
 <style></style>
 <div class="bg-hero"></div>
