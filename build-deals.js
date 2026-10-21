@@ -249,7 +249,7 @@ function wrapAndertons(url) {
   <meta name="twitter:description" content="${twDesc}">
   <meta name="twitter:site" content="@Cuban3Beats">
   <link rel="icon" type="image/png" href="img/favicon.png?v=2">
-  <link rel="stylesheet" href="css/style.css?v=37">
+  <link rel="stylesheet" href="css/style.css?v=38">
   <style>
     body { background: var(--bg); }
     .deals-page { max-width: 1100px; margin: 0 auto; padding: 12px 32px 64px; }

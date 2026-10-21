@@ -3517,5 +3517,6 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 }
 
 @media (min-width: 769px) {
+  .lang-btn { padding: 5px 7px; }
   .lang-flag { width: 18px; height: 13.5px; }
 }
