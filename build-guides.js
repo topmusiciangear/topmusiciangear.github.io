@@ -118,7 +118,7 @@ function criticalCss() {
     '.header-inner{max-width:100%;margin:0;padding:0 12px;display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}',
     '.header-left{display:flex;align-items:center;gap:24px;flex-shrink:0}',
     '.header-right{display:flex;align-items:center;gap:6px;flex-shrink:0}',
-    '.header-social{display:flex;align-items:center;gap:2px}.header-social .header-social-link{font-size:15px;color:var(--text-secondary)}',
+    '.header-social{display:flex;align-items:center;gap:2px}.header-social .header-social-link{font-size:15px;color:var(--text-secondary)}.header-social .header-social-link .sb-icon{width:20px;height:20px;opacity:1;filter:brightness(0) invert(0.753)}.header-social .header-social-link .fiverr-icon{width:18px;height:18px;opacity:1;filter:brightness(0) invert(0.753)}',
     '.logo{font-size:20px;font-weight:900;color:var(--white);text-decoration:none;display:flex;align-items:center;gap:10px;letter-spacing:-.5px;white-space:nowrap}',
     '.logo-text{display:flex;flex-direction:column;line-height:1.2}',
     '.logo-icon{width:36px;height:36px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}',

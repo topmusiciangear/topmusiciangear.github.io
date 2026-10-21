@@ -231,6 +231,23 @@ nav {
   transition: opacity 0.2s, filter 0.2s;
 }
 
+/* These two assets carry internal padding and a lighter opacity, so their
+   visible marks look smaller and grayer than the SVG glyphs. Match the
+   desktop Spotify glyph in size and color; .mobile-social keeps its sizing. */
+.header-social .header-social-link .sb-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  filter: brightness(0) invert(0.753);
+}
+
+.header-social .header-social-link .fiverr-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  filter: brightness(0) invert(0.753);
+}
+
 .header-social-link:hover .sb-icon {
   opacity: 1;
   filter: brightness(0) invert(1);
