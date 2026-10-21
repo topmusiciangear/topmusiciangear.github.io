@@ -205,6 +205,10 @@ nav {
   color: var(--text-secondary);
 }
 
+.header-social .header-social-link[title="YouTube"] {
+  font-size: 17px;
+}
+
 .header-social-link {
   display: flex;
   align-items: center;
@@ -242,8 +246,8 @@ nav {
 }
 
 .header-social .header-social-link .fiverr-icon {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   opacity: 1;
   filter: brightness(0) invert(0.753);
 }
@@ -2849,8 +2853,22 @@ footer ul li a:hover { color: var(--accent); }
   .mobile-social {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 6px;
     padding: 8px 16px 24px;
+  }
+
+  .mobile-social .header-social-link {
+    font-size: 14px;
+  }
+
+  .mobile-social .header-social-link .sb-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .mobile-social .header-social-link .fiverr-icon {
+    width: 18px;
+    height: 18px;
   }
 }
 
