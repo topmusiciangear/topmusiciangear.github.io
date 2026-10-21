@@ -118,7 +118,7 @@ function criticalCss() {
     '.header-inner{max-width:100%;margin:0;padding:0 12px;display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}',
     '.header-left{display:flex;align-items:center;gap:24px;flex-shrink:0}',
     '.header-right{display:flex;align-items:center;gap:6px;flex-shrink:0}',
-    '.header-social{display:flex;align-items:center;gap:2px}',
+    '.header-social{display:flex;align-items:center;gap:2px}.header-social .header-social-link{font-size:15px;color:var(--text-secondary)}',
     '.logo{font-size:20px;font-weight:900;color:var(--white);text-decoration:none;display:flex;align-items:center;gap:10px;letter-spacing:-.5px;white-space:nowrap}',
     '.logo-text{display:flex;flex-direction:column;line-height:1.2}',
     '.logo-icon{width:36px;height:36px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}',
@@ -6963,7 +6963,7 @@ ${ogMeta}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
 </head>
 <body style="margin:0;padding:0;">
-  <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <a href="#mainContent" class="skip-link">${isEs ? 'Saltar al contenido principal' : 'Skip to main content'}</a>
   <div class="bg-hero"></div>
 
   <header style="margin-top:0;padding-top:0;">
@@ -6975,7 +6975,7 @@ ${ogMeta}
             <span>Top</span>MusicianGear
           </div>
         </a>
-        <nav aria-label="Main navigation">
+        <nav aria-label="${isEs ? 'Navegación principal' : 'Main navigation'}">
           <a href="${isEs ? '/es/#guides' : '/#guides'}" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
           <a href="${isEs ? '/deals_es.html' : '/deals.html'}" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
           ${navDropdown(isEs)}
@@ -7001,7 +7001,6 @@ ${ogMeta}
           <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram"><svg data-fa="telegram" aria-hidden="true" class="icon fa-brands fa-telegram" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
           <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
         </div>
-        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" class="cuban3-link" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
         <div class="nav-dd nav-dd-mobile">
           ${navDropdown(isEs)}
@@ -7010,7 +7009,7 @@ ${ogMeta}
           <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
           <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'"><img class="lang-flag" src="../img/flag-es.svg" alt="ES" width="20" height="15"></button>
         </div>
-        <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
+        <button class="hamburger" id="hamburger" aria-label="${isEs ? 'Menú' : 'Menu'}" onclick="document.getElementById('mobileNav').classList.toggle('open')">
           <span></span><span></span><span></span>
         </button>
       </div>

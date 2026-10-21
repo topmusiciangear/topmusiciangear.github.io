@@ -198,6 +198,13 @@ nav {
   gap: 2px;
 }
 
+/* Desktop only: the SVG glyphs need a little more size and contrast to
+   rasterize cleanly on 1x screens. Mobile uses .mobile-social. */
+.header-social .header-social-link {
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
 .header-social-link {
   display: flex;
   align-items: center;

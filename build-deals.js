@@ -84,7 +84,7 @@ const buildPage = (lang) => {
   </div>`;
 
   const header = `
-  <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <a href="#mainContent" class="skip-link">${t('Skip to main content', 'Saltar al contenido principal')}</a>
   <div class="bg-hero"></div>
 
   <header style="margin-top:0;padding-top:0;">
@@ -96,7 +96,7 @@ const buildPage = (lang) => {
             <span>Top</span>MusicianGear
           </div>
         </a>
-        <nav aria-label="Main navigation">
+        <nav aria-label="${t('Main navigation', 'Navegación principal')}">
           ${navLink('/#guides', 'Guides', 'Guías')}
           ${navLink(dealsHref, 'Deals', 'Ofertas', true)}
           ${navDropdown}
@@ -122,7 +122,6 @@ const buildPage = (lang) => {
           ${social('telegram')}
           <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
         </div>
-        <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX?si=hD1MDwuuQiKwP0fSCiD07w" target="_blank" rel="noopener" class="cuban3-link" style="color:var(--text-muted);font-size:11px;font-weight:600;margin-top:2px;text-decoration:none;font-family:inherit;padding:0"><span style="color:var(--accent)">@</span>Cuban<span style="color:var(--white)">3</span>Beats</a>
         </div>
         <div class="nav-dd nav-dd-mobile">
           ${navDropdown}
@@ -131,7 +130,7 @@ const buildPage = (lang) => {
           <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="location.href='${isEs ? '/deals.html' : '#'}'">${flagEn}</button>
           <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="location.href='${isEs ? '#' : '/deals_es.html'}'">${flagEs}</button>
         </div>
-        <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
+        <button class="hamburger" id="hamburger" aria-label="${t('Menu', 'Menú')}" onclick="document.getElementById('mobileNav').classList.toggle('open')">
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -205,7 +204,7 @@ function wrapAndertons(url) {
     const old = d.old_price ? `<span class="deal-old-price">${cur}${d.old_price}</span>` : '';
     const price = `${cur}${d.price}`;
     const pct = d.old_price && d.price ? Math.round((1 - d.price / d.old_price) * 100) : 0;
-    const pctLabel = pct > 0 ? ` <span class="deal-sep">·</span> <span class="deal-percent">${pct}% off</span>` : '';
+    const pctLabel = pct > 0 ? ` <span class="deal-sep">·</span> <span class="deal-percent">${pct}% ${t('off', 'de descuento')}</span>` : '';
     const storeName = slugToName[d.store] || d.store;
     const sc = storeMeta[storeName] || { color: 'var(--accent)', mark: '' };
     const storeLink = `<a href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored" class="deal-store-tag" style="--store-color:${sc.color}">${sc.mark}<span>${storeName}</span></a>`;
@@ -250,7 +249,7 @@ function wrapAndertons(url) {
   <meta name="twitter:description" content="${twDesc}">
   <meta name="twitter:site" content="@Cuban3Beats">
   <link rel="icon" type="image/png" href="img/favicon.png?v=2">
-  <link rel="stylesheet" href="css/style.css?v=31">
+  <link rel="stylesheet" href="css/style.css?v=32">
   <style>
     body { background: var(--bg); }
     .deals-page { max-width: 1100px; margin: 0 auto; padding: 12px 32px 64px; }
@@ -335,7 +334,7 @@ function wrapAndertons(url) {
       <a href="/affiliate-disclosure.html" style="color:var(--text-muted);font-size:12px;text-decoration:none">${t('Affiliate Disclosure', 'Divulgación de Afiliados')}</a>
     </div>
     <p style="color: var(--text-secondary); font-size: 12px; max-width: 800px; margin: 0 auto 8px;">${t('<strong>TopMusicianGear</strong> is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store, and Hollyland. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="/affiliate-disclosure.html" style="color:#60a5fa;text-decoration:underline">More info</a>', '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store y Hollyland. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="/es/affiliate-disclosure.html" style="color:#60a5fa;text-decoration:underline">Más info</a>')}</p>
-    <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. All rights reserved. ${t('Built by a musician, for musicians.', 'Hecho por un músico, para músicos.')}</p>
+    <p style="color: var(--text-muted); font-size: 12px;">&copy; 2026 TopMusicianGear. ${t('All rights reserved.', 'Todos los derechos reservados.')} ${t('Built by a musician, for musicians.', 'Hecho por un músico, para músicos.')}</p>
   </footer>
   <script>
   (function(){var si=document.getElementById('dealsSearch');if(si){si.addEventListener('input',function(){var q=si.value.toLowerCase().trim();document.querySelectorAll('#dealsGrid .deal-card').forEach(function(c){c.style.display=(!q||c.textContent.toLowerCase().indexOf(q)>-1)?'':'none';});});}})();window.toggleNavDropdown=function(b){var d=b.closest('.nav-dd');if(!d)return;var w=!d.classList.contains('open');document.querySelectorAll('.nav-dd.open').forEach(function(x){if(x!==d)x.classList.remove('open')});d.classList.toggle('open',w);if(b.getAttribute('aria-haspopup'))b.setAttribute('aria-expanded',w?'true':'false')};
