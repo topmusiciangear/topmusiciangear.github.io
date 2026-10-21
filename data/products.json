@@ -9542,7 +9542,7 @@
     "unit_es": "cada uno",
     "desc": "German DSP-controlled reference subwoofer built around a long-throw 10-inch ELFF woofer and a 180W amplifier that extends to 18 Hz (±3 dB) — about twice the output of the KH 750 DSP. Multichannel bass management covers stereo, surround and immersive formats up to 7.1.4, with MA 1 automatic alignment, AES3/BNC digital I/O and intelligent protection limiters making it the control centre of any Neumann monitoring chain. (each)",
     "desc_es": "Subwoofer de referencia alemán controlado por DSP construido en torno a un woofer ELFF de 10 pulgadas de gran excursión y un amplificador de 180W que llega hasta 18 Hz (±3 dB), con aproximadamente el doble de salida que el KH 750 DSP. La gestión de graves multicanal cubre formatos estéreo, envolventes e inmersivos hasta 7.1.4, y la alineación automática MA 1, la E/S digital AES3/BNC y los limitadores de protección inteligentes lo convierten en el centro de control de cualquier cadena de monitoreo Neumann. (cada uno)",
-    "img": "img/products/59e1c43c7e.webp",
+    "img": "img/products/cd5647866e.webp",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0FSGYBWZQ",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-KH-810-II/art-REC0017051-000",
@@ -12704,7 +12704,7 @@
     "badge": "recommended",
     "desc": "$79 USB plug-and-play measurement microphone with its own calibration file. Omnidirectional 20 Hz–20 kHz (±1 dB calibrated), 24-bit/48 kHz internal ADC, no interface needed. Drives REW, Sonarworks and Dirac.",
     "desc_es": "Micrófono de medición USB plug-and-play de $79 con su propio archivo de calibración. Omnidireccional 20 Hz–20 kHz (±1 dB calibrado), ADC interno 24-bit/48 kHz, sin interfaz necesaria. Compatible con REW, Sonarworks y Dirac.",
-    "img": "img/products/9cbc7cb3fe.webp",
+    "img": "img/products/162a2a386a.webp",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B00N4Q25R8"
     },
@@ -12731,22 +12731,24 @@
   },
   {
     "id": 650,
-    "title": "Auralex MoPADs (4-Pack)",
-    "title_es": "Auralex MoPADs (Pack 4)",
+    "title": "Auralex MoPAD-XL Monitor Speaker Isolation Pad",
+    "title_es": "Auralex MoPAD-XL (par)",
     "brand": "Auralex",
     "category": "accessories",
-    "price": 40,
+    "price": 39.99,
     "rating": 4.5,
     "badge": "bestSeller",
-    "desc": "$39.99 high-density foam pads that decouple a stereo pair on the desk. Five tilt steps from -8° to +8° aim tweeters at your ears. Fits virtually any small nearfield.",
-    "desc_es": "Pads de espuma de alta densidad de $39,99 que desacoplan un par estéreo en la mesa. Cinco pasos de -8° a +8° para apuntar al oído. Sirven para casi cualquier nearfield pequeño.",
-    "img": "img/products/603d3f77a9.webp",
+    "desc": "$39.99 isolation pads sized for larger monitors: 12 x 8.75 in of high-density foam that decouples a stereo pair on the desk. Five tilt steps from -8° to +8° aim the tweeters at your ears, and each pad carries up to 100 lb (45 kg).",
+    "desc_es": "Pads de aislamiento de $39,99 pensados para monitores más grandes: espuma de alta densidad de 12 x 8,75 pulgadas que desacopla un par estéreo en la mesa. Cinco pasos de inclinación de -8° a +8° orientan los tweeters al oído y cada pad aguanta hasta 45 kg.",
+    "img": "img/products/d00aa6812b.webp",
     "stores": {
-      "musicstore": "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-Speaker-Pad-Set/art-REC0004624-000",
-      "amazon": "https://www.amazon.com/dp/B0002D0B4K",
-      "zzounds": "https://www.zzounds.com/item--AURMOPAD"
+      "amazon": "https://www.amazon.com/dp/B00266HBSU",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-XL-Speaker-Pad-Set/art-REC0011572-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "excludeStores": [
+      "zzounds"
+    ]
   },
   {
     "id": 651,

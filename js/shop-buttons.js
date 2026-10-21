@@ -5295,16 +5295,14 @@ const TEST_SHOP_BTN = {
   },
   650: {
     prices: {
-      musicstore: "€39.99",
       amazon: "$39.99"
     },
     urls: {
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-Speaker-Pad-Set/art-REC0004624-000",
-      amazon: "https://www.amazon.com/dp/B0002D0B4K?tag=topmusicg-20",
-      zzounds: "https://www.zzounds.com/item--AURMOPAD"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-XL-Speaker-Pad-Set/art-REC0011572-000",
+      amazon: "https://www.amazon.com/dp/B00266HBSU?tag=topmusicg-20"
     },
-    oos: ["zzounds"],
-    na: ["gear4music","andertons","reverb"]
+    oos: ["musicstore"],
+    na: ["gear4music","andertons","reverb","zzounds"]
   },
   651: {
     prices: {

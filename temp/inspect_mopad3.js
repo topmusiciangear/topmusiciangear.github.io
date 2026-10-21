@@ -1,0 +1,11 @@
+const fs = require('fs');
+const guides = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'monitor-setup');
+console.log('claves de seccion:', Object.keys(g.sections[6]));
+console.log('\n=== seccion 6 ===');
+console.log(JSON.stringify(g.sections[6], null, 1).slice(0, 3000));
+console.log('\n=== seccion 10 ===');
+console.log(JSON.stringify(g.sections[10], null, 1).slice(0, 3000));
+console.log('\n=== productTable claves ===');
+console.log(Object.keys(g.productTable));
+console.log(JSON.stringify(g.productTable).slice(0, 800));
