@@ -1133,15 +1133,15 @@ var GUIDE_SCORES = {
   "Focal Alpha 65 Evo": 9.5,
   "Soportes de Monitor K&M 26722 (Unidad)": 9.6,
   "K&M 26722 Monitor Stands (Each)": 9.6,
-  "IsoAcoustics ISO-200 (Par)": 9.4,
-  "IsoAcoustics ISO-200 (Pair)": 9.4,
+  "Soportes de monitor IsoAcoustics ISO-200 (par)": 9.4,
+  "IsoAcoustics ISO-200 Studio Monitor Stands (Pair)": 9.4,
   "Sonarworks SoundID Reference": 9.9,
   "MiniDSP UMIK-1": 9.2,
   "Genelec GLM Kit": 9,
   "Auralex MoPADs (Pack 4)": 8.5,
   "Auralex MoPADs (4-Pack)": 8.5,
-  "Ultimate Support MS-100 (Par)": 8.7,
-  "Ultimate Support MS-100 (Pair)": 8.7
+  "Soportes de monitor Ultimate Support MS-100 (par)": 8.7,
+  "Ultimate Support MS-100 Studio Monitor Stands (Pair)": 8.7
  },
  "nord-stage-4-vs-montage-m8x": {
   "Nord Stage 4 88": 9.7,
