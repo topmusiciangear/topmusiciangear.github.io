@@ -6278,7 +6278,7 @@ function shopButtonsTest(p, lang) {
 function guideScore(p, guideId) {
   if (guideId && GUIDE_SCORES && GUIDE_SCORES[guideId]) {
     var g = GUIDE_SCORES[guideId];
-    var unitLabel = p.unit === 'each' ? (CURRENT_LANG === 'es' ? ' (cada uno)' : ' (each)') : p.unit === 'pair' ? (CURRENT_LANG === 'es' ? ' (par)' : ' (pair)') : p.unit === 'headset' ? (CURRENT_LANG === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+    var unitLabel = p.unit === 'each' ? (CURRENT_LANG === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (CURRENT_LANG === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (CURRENT_LANG === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
     var base = (CURRENT_LANG === 'es' && p.title_es ? p.title_es : p.title);
     var full = base + unitLabel;
     var s = g[full];
@@ -6318,8 +6318,12 @@ function scoreBadge(p, lang) {
 }
 
 function productCard(p, lang) {
-  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (cada uno)' : ' (each)') : p.unit === 'pair' ? (lang === 'es' ? ' (par)' : ' (pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
-  const title = (lang === 'es' && p.title_es ? p.title_es : p.title) + unitLabel;
+  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (lang === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+  const rawTitle = (lang === 'es' && p.title_es ? p.title_es : p.title);
+  const title = rawTitle.replace(/\s*\((each|pair|unidad|par|cada uno|cada una)\)\s*$/i, function (m, u) {
+    var map = { each: 'Each', pair: 'Pair', unidad: 'Unidad', par: 'Par' };
+    return ' (' + (map[u.toLowerCase()] || 'Unidad') + ')';
+  }) + unitLabel;
   const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
   const stores = storeChips(p, lang);
   const gi = guideCutImg(p);
