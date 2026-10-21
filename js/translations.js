@@ -107,7 +107,7 @@ const translations = {
     disclosureLink: "Más info",
     footerDisclosureText: '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store y Hollyland. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="#" id="disclosureLink">Más info</a>',
     heroBadge: "La confianza de músicos de todo el mundo",
-    heroTitle: "Del estudio al escenario <span>Equipo reseñado por un profesional</span>",
+    heroTitle: "Del estudio al escenario <span>Equipo reseñado por un músico profesional</span>",
     heroDesc: "Recomendado por un músico con más de 20 años de experiencia en los escenarios más grandes del mundo — de Glastonbury a Broadway, de Abbey Road a la pantalla grande.",
     heroStory: "Mi historia",
     stat1: "Productos analizados",
