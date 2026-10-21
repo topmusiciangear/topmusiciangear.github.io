@@ -1,10 +1,7 @@
 const fs = require('fs');
-const files = process.argv.slice(2);
-for (const f of files) {
-  const h = fs.readFileSync(f, 'utf8');
-  const i = h.lastIndexOf('verdict-text');
-  console.log('===== ' + f + ' =====');
-  if (i < 0) { console.log('no verdict-text found'); continue; }
-  console.log(h.slice(i - 60, i + 1200).replace(/\n/g, ' '));
-  console.log();
-}
+const guides = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = guides.find(x => x.id === 'monitor-setup');
+console.log('=== VERDICT ES ===');
+console.log(g.verdict_es);
+console.log('\n=== VERDICT EN ===');
+console.log(g.verdict);

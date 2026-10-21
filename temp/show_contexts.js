@@ -1,31 +1,29 @@
 const fs = require('fs');
-const B = 'C:/Users/Daniel/projects/topmusiciangear/';
-const guides = JSON.parse(fs.readFileSync(B + 'data/guides.json', 'utf8'));
-const jobs = [
-  ['best-synth-vsts', ['Serum']],
-  ['best-midi-theory-plugins', ['Captain', 'Orb Producer', 'Orb Suite']],
-  ['best-piano-keyboard-vsts', ['Keyscape', 'Pianoteq', 'UVI', 'Pleyel']],
-  ['best-guitar-plugins', ['BIAS', 'TH-U', 'Overloud', 'Positive Grid', 'rockrack', 'Rockrack', 'bx_rockrack', 'Amp Room']],
-  ['best-audio-repair-plugins', ['Soothe', 'Oeksound', 'Chameleon', 'Accentize']],
-  ['autotune-vs-melodyne', ['2026', '35%']],
-  ['vocalign-vs-revoice-pro', ['249', '499', 'Pro 4', 'Pro 5']],
-  ['mixing-plugins', ['SSL Mastering', 'X-ValveComp', 'Fusion Stereo', '209.99', 'Console Glue']]
-];
-jobs.forEach(([id, terms]) => {
-  const gd = guides.find(g => g.id === id);
-  console.log('############ ' + id + ' ############');
-  const walk = (o, path) => {
-    if (typeof o === 'string') {
-      terms.forEach(t => {
-        if (o.includes(t)) {
-          const i = o.indexOf(t);
-          console.log('[' + path + '] ...' + o.substring(Math.max(0, i - 120), i + t.length + 120).replace(/\n/g, ' ') + '...');
-        }
-      });
-    }
-    else if (Array.isArray(o)) o.forEach((v, i) => walk(v, path + '[' + i + ']'));
-    else if (o && typeof o === 'object') Object.entries(o).forEach(([k, v]) => walk(v, path + '.' + k));
-  };
-  walk(gd, '');
-  console.log('');
+const guides = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+
+function show(id, pick) {
+  const g = guides.find(x => x.id === id);
+  console.log('\n===== ' + id + ' =====');
+  pick(g);
+}
+
+show('studio-furniture', g => {
+  console.log('S2 EN:', g.sections[2].content);
+  console.log('\nS2 ES:', g.sections[2].content_es);
+});
+
+show('pro-monitors', g => {
+  console.log('FAQ3 ES:', g.featuredSnippet.faq_q3_es);
+  console.log('ANS3 ES:', g.featuredSnippet.faq_a3_es);
+});
+
+show('studio-subwoofers-setup', g => {
+  console.log('S3 ES:', g.sections[3].content_es);
+});
+
+show('monitor-setup', g => {
+  console.log('\nS6 ES:', g.sections[6].content_es);
+  console.log('\nS7 ES:', g.sections[7].content_es);
+  console.log('\nCONCL ES:', g.conclusion_es);
+  console.log('\nCONCL EN:', g.conclusion);
 });
