@@ -447,8 +447,8 @@ nav {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 0 32px 60px;
-  min-height: calc(100vh - 64px);
+  padding: 0 32px 40px;
+  min-height: auto;
   box-shadow: inset 0 0 120px 60px rgba(0,0,0,.45);
 }
 
@@ -484,8 +484,9 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: calc(100vh - 64px);
+  justify-content: flex-start;
+  min-height: auto;
+  padding-top: 56px;
 }
 
 .hero-badge {
@@ -607,7 +608,7 @@ nav {
 .stats-bar {
   background: rgba(10,10,10,0.5);
   border-bottom: 1px solid rgba(255,255,255,0.05);
-  padding: 28px 32px;
+  padding: 24px 32px;
 }
 
 .stats-inner {
@@ -620,7 +621,7 @@ nav {
 
 .stat-item {
   text-align: center;
-  padding: 8px;
+  padding: 4px 8px;
   contain: layout style;
 }
 
@@ -638,7 +639,7 @@ nav {
   font-size: 14px;
   color: var(--text-secondary);
   font-weight: 500;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .section-header {
@@ -2676,7 +2677,7 @@ footer ul li a:hover { color: var(--accent); }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: none; }
-  .hero { padding: 12px 20px 40px; min-height: 50vh; }
+  .hero { padding: 12px 20px 32px; min-height: 46vh; }
   .hero h1 { font-size: 40px; margin-bottom: 2px; }
   .hero .hero-subtitle { font-size: 40px; }
   .hero p { margin-bottom: 12px; }
