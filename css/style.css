@@ -3440,3 +3440,38 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 
 .shop-more-list .shop-wm{transition:color .18s ease}
 .shop-more-list a:hover .shop-wm{color:#FFB300}
+
+/* Spanish mobile hero: use the full screen width so "Del estudio al escenario"
+   stays on one line, then let the second phrase wrap onto two lines like desktop. */
+@media (max-width: 768px) {
+  html[lang="es"] .hero h1 {
+    font-size: 40px;
+    letter-spacing: -4.5px;
+    width: calc(100% + 40px);
+    max-width: none;
+    margin-left: -20px;
+    margin-right: -20px;
+    white-space: nowrap;
+  }
+  html[lang="es"] .hero h1 > .lang-show-en,
+  html[lang="es"] .hero h1 > .lang-show-es {
+    display: block;
+    white-space: nowrap;
+  }
+  html[lang="es"] .hero h1 > span:not(.lang-show-en):not(.lang-show-es),
+  html[lang="es"] .hero h1 .lang-show-en > span,
+  html[lang="es"] .hero h1 .lang-show-es > span {
+    display: block;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 360px) {
+  html[lang="es"] .hero h1 {
+    font-size: clamp(28px, 8.8vw, 32px);
+    letter-spacing: -1px;
+    width: calc(100% + 24px);
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
