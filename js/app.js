@@ -497,6 +497,8 @@ function initLangSwitcher() {
 function renderGuideCats() {
   const container = document.getElementById("guideCats");
   if (!container) return;
+  // Keep the server-rendered carousel if the data fetch failed.
+  if (!guides.length) return;
   const catMap = {};
   guides.forEach(g => { catMap[g.category] = (catMap[g.category] || 0) + 1; });
   const cats = [

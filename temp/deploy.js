@@ -25,6 +25,10 @@ if (CUTOUTS_PIPELINE) {
 console.log('1. Rebuilding guides...');
 execSync('node build-guides.js', { stdio: 'inherit' });
 
+// 1b. Refresh the server-rendered category carousel on both homepages
+console.log('\n1b. Pre-rendering home categories...');
+execSync('node build-home-cats.js', { stdio: 'inherit' });
+
 // 2. Regenerate shop-buttons.js
 console.log('\n2. Regenerating shop-buttons.js...');
 execSync('node temp/gen-shop-buttons.js', { stdio: 'inherit' });

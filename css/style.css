@@ -522,6 +522,14 @@ nav {
   background-clip: text;
 }
 
+/* Static language wrappers inside the hero title must stay white on first paint.
+   Only the nested span gets the blue gradient. */
+.hero h1 > .lang-show-en,
+.hero h1 > .lang-show-es {
+  background: none;
+  -webkit-text-fill-color: currentColor;
+}
+
 .hero .hero-subtitle {
   font-size: clamp(48px, 8vw, 80px);
   font-weight: 900;
