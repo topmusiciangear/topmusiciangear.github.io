@@ -2,9 +2,15 @@ const fs = require('fs');
 const pre = JSON.parse(fs.readFileSync('temp/products_pretrim.json', 'utf8'));
 const cur = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
 
-function trim(s) {
+function trim(s, title, titleEs, isEs) {
   if (!s) return s;
-  const sentences = s.match(/[^.!?]+[.!?]+/g) || [s];
+  let src = s;
+  // For short descriptions, prepend the product name for context (uses existing info)
+  if (s.length < 120) {
+    const t = isEs ? (titleEs || title) : title;
+    src = t + ': ' + s;
+  }
+  const sentences = src.match(/[^.!?]+[.!?]+/g) || [src];
   let out = '';
   for (const sen of sentences) {
     if (out.length >= 150) break;
@@ -21,8 +27,8 @@ function trim(s) {
 for (const p of pre) {
   const c = cur.find(x => x.id === p.id);
   if (c) {
-    c.desc = trim(p.desc);
-    c.desc_es = trim(p.desc_es);
+    c.desc = trim(p.desc, p.title, p.title_es, false);
+    c.desc_es = trim(p.desc_es, p.title, p.title_es, true);
   }
 }
 
@@ -44,4 +50,4 @@ console.log('min:', lens[0], 'max:', lens[lens.length-1]);
 console.log('under 100:', lens.filter(l=>l<100).length);
 console.log('under 120:', lens.filter(l=>l<120).length);
 const sorted = cur.slice().sort((a,b)=>(a.desc||'').length-(b.desc||'').length);
-for (const x of sorted.slice(0,5)) console.log(x.id, x.desc.length, '|', x.desc);
+for (const x of sorted.slice(0,3)) console.log(x.id, x.desc.length, '|', x.desc);
