@@ -2764,6 +2764,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-related-list { display: flex; flex-wrap: wrap; gap: 8px; overflow: hidden; }
 .guide-related-link { display: inline-block; color: var(--accent); font-weight: 700; font-size: 14px; text-decoration: none; padding: 2px 8px; border: 1px solid rgba(59,130,246,.3); border-radius: 6px; background: rgba(59,130,246,.06); transition: background .2s; margin: 2px 0; }
 .guide-related-link:hover { background: rgba(59,130,246,.15); }
+#productSearchInput::placeholder { color: #fff; opacity: 1; }
 /* Responsive */
 @media (max-width: 768px) {
   .product-search-wrap { max-width: 180px !important; }
