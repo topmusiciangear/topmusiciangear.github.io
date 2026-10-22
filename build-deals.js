@@ -106,7 +106,7 @@ const buildPage = (lang) => {
         <div class="audio-mini-inner">
           <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
           <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
-          <span class="audio-mini-label">${t('Cuban Tres, Bass & Guitar - played and recorded with my personal gear', 'Tres Cubano, Bajo y Guitarra - tocados y grabados con mi equipo personal')}</span>
+          <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${t('cuban tres, bass & guitar - played and recorded with my personal gear', 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal')}</span><span class="audio-mini-marquee-item" aria-hidden="true">${t('cuban tres, bass & guitar - played and recorded with my personal gear', 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal')}</span></span></span>
         </div>
       </div>
       <div class="header-right">

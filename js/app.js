@@ -1163,7 +1163,7 @@ function renderVerdictGrid(guide, lang) {
 }
 
 function renderAudioMini() {
-  const audioHtml = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="none"><source src="https://topmusiciangear.com/audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label">' + t("audioLabel") + '</span></div>';
+  const audioHtml = '<div class="audio-mini-inner"><span class="audio-mini-player"><audio controls preload="none"><source src="https://topmusiciangear.com/audio/solo-tres.mp3" type="audio/mpeg"></audio></span><span class="audio-eq"><i></i><i></i><i></i><i></i></span><span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">' + t("audioLabel") + '</span><span class="audio-mini-marquee-item" aria-hidden="true">' + t("audioLabel") + '</span></span></span></div>';
   ['audioMini', 'audioMiniMobile'].forEach(function(id) {
     const el = document.getElementById(id);
     if (!el) return;
@@ -1188,8 +1188,18 @@ function renderAudioMini() {
 }
 
 function updateAudioLabel() {
+  var txt = t("audioLabel");
+  var en = (translations && translations.en && translations.en.audioLabel) || txt;
+  var es = (translations && translations.es && translations.es.audioLabel) || txt;
   document.querySelectorAll('.audio-mini-label').forEach(el => {
-    el.textContent = t("audioLabel");
+    var items = el.querySelectorAll('.audio-mini-marquee-item');
+    if (!items.length) { el.textContent = txt; return; }
+    items.forEach(function(it) {
+      var e1 = it.querySelector('.lang-show-en');
+      var s1 = it.querySelector('.lang-show-es');
+      if (e1) { e1.textContent = en; if (s1) s1.textContent = es; }
+      else { it.textContent = txt; }
+    });
   });
 }
 

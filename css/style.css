@@ -854,10 +854,29 @@ nav {
 }
 
 .audio-mini-label {
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--white);
   letter-spacing: .3px;
+  display: block;
+  overflow: hidden;
+  width: clamp(120px, 22vw, 260px);
+}
+
+.audio-mini-marquee {
+  display: flex;
+  width: max-content;
+  animation: tmgMarquee 20s linear infinite;
+}
+
+.audio-mini-marquee-item {
+  padding-right: 2.5rem;
+  white-space: nowrap;
+}
+
+@keyframes tmgMarquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 .audio-mini audio {
@@ -2836,10 +2855,13 @@ footer ul li a:hover { color: var(--accent); }
     gap: 8px;
   }
   .audio-mini-mobile .audio-mini-label {
-    font-size: 10px;
-    text-align: center;
-    white-space: normal;
-    max-width: 280px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
   }
   .audio-mini-mobile audio {
     width: 220px;
