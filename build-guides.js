@@ -6981,28 +6981,8 @@ ${ogMeta}
           ${navDropdown(isEs)}
         </nav>
       </div>
-      <div class="audio-mini" id="audioMini">
-        <div class="audio-mini-inner">
-          <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
-          <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
-          <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span><span class="audio-mini-marquee-item" aria-hidden="true">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span></span></span>
-        </div>
-      </div>
-      <div class="header-right">
-        <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
-        <div class="header-social">
-          <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
-          <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
-          <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="TikTok">${icon('tiktok', 'fa-brands')}</a>
-          <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Facebook">${icon('facebook-f', 'fa-brands')}</a>
-          <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
-          <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="X">${icon('x-twitter', 'fa-brands')}</a>
-          <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
-          <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram"><svg data-fa="telegram" aria-hidden="true" class="icon fa-brands fa-telegram" viewBox="0 0 496 512" width="1em" height="1em" fill="currentColor"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM362 176l-34 164c-3 13-10 16-20 10l-55-41-27 26c-3 3-5 6-10 6l5-54 98-89c4-4-1-6-6-3l-121 74-52-18c-11-4-11-11 2-16l204-79c9-3 17 2 14 16z"/></svg></a>
-          <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
-        </div>
-        </div>
-        <div class="nav-dd nav-dd-mobile">
+            <div class="header-right">
+                <div class="nav-dd nav-dd-mobile">
           ${navDropdown(isEs)}
         </div>
         <div class="lang-switcher">
@@ -7092,6 +7072,13 @@ ${ogMeta}
 
 
 
+    <div class="audio-mini-mobile" id="audioMiniMobile">
+      <div class="audio-mini-inner">
+        <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+        <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+        <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span><span class="audio-mini-marquee-item" aria-hidden="true">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span></span></span>
+      </div>
+    </div>
     <div class="mobile-social" id="mobileSocial">
       <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
       <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
@@ -7102,13 +7089,6 @@ ${ogMeta}
       <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
       <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram">${icon('telegram', 'fa-brands')}</a>
       <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
-    </div>
-    <div class="audio-mini-mobile" id="audioMiniMobile">
-      <div class="audio-mini-inner">
-        <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
-        <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
-        <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span><span class="audio-mini-marquee-item" aria-hidden="true">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span></span></span>
-      </div>
     </div>
   </main>
 

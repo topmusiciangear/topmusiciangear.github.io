@@ -102,28 +102,8 @@ const buildPage = (lang) => {
           ${navDropdown}
         </nav>
       </div>
-      <div class="audio-mini" id="audioMini">
-        <div class="audio-mini-inner">
-          <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
-          <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
-          <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${t('cuban tres, bass & guitar - played and recorded with my personal gear', 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal')}</span><span class="audio-mini-marquee-item" aria-hidden="true">${t('cuban tres, bass & guitar - played and recorded with my personal gear', 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal')}</span></span></span>
-        </div>
-      </div>
-      <div class="header-right">
-        <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
-        <div class="header-social">
-          ${social('youtube')}
-          ${social('spotify')}
-          ${social('tiktok')}
-          ${social('facebook')}
-          ${social('instagram')}
-          ${social('x')}
-          <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
-          ${social('telegram')}
-          <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
-        </div>
-        </div>
-        <div class="nav-dd nav-dd-mobile">
+            <div class="header-right">
+                <div class="nav-dd nav-dd-mobile">
           ${navDropdown}
         </div>
         <div class="lang-switcher">
@@ -249,7 +229,7 @@ function wrapAndertons(url) {
   <meta name="twitter:description" content="${twDesc}">
   <meta name="twitter:site" content="@Cuban3Beats">
   <link rel="icon" type="image/png" href="img/favicon.png?v=2">
-  <link rel="stylesheet" href="css/style.css?v=39">
+  <link rel="stylesheet" href="css/style.css?v=40">
   <style>
     body { background: var(--bg); }
     .deals-page { max-width: 1100px; margin: 0 auto; padding: 12px 32px 64px; }
@@ -322,6 +302,26 @@ function wrapAndertons(url) {
         </a>
       </div>
 </div>
+  <div class="audio-mini-mobile" id="audioMiniMobile">
+    <div class="audio-mini-inner">
+      <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
+      <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
+      <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${t('cuban tres, bass & guitar - played and recorded with my personal gear', 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal')}</span><span class="audio-mini-marquee-item" aria-hidden="true">${t('cuban tres, bass & guitar - played and recorded with my personal gear', 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal')}</span></span></span>
+    </div>
+  </div>
+
+  <div class="mobile-social" id="mobileSocial">
+    ${social('youtube')}
+    ${social('spotify')}
+    ${social('tiktok')}
+    ${social('facebook')}
+    ${social('instagram')}
+    ${social('x')}
+    <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
+    ${social('telegram')}
+    <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
+  </div>
+
   </main>
 
 

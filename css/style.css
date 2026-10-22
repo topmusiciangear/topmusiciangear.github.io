@@ -836,14 +836,38 @@ nav {
 .no-results h3 { font-size: 20px; margin-bottom: 8px; color: var(--white); }
 .no-results p { color: var(--text-muted); }
 
-/* Audio Mini */
+/* Audio Mini (barra inferior: reproductor + marquesina) */
 .audio-mini {
   flex: 1;
   display: flex;
   justify-content: center;
 }
 .audio-mini-mobile {
-  display: none;
+  display: block;
+  padding: 8px 16px 4px;
+}
+.audio-mini-mobile .audio-mini-inner {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.audio-mini-mobile .audio-mini-label {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.audio-mini-mobile audio {
+  width: 260px;
+  height: 36px;
+  border-radius: 6px;
+  filter: invert(1) hue-rotate(180deg);
+}
+.audio-mini-mobile audio::-webkit-media-controls-panel {
+  background-color: transparent;
 }
 
 .audio-mini-inner {
@@ -2847,21 +2871,7 @@ footer ul li a:hover { color: var(--accent); }
 
 @media (max-width: 768px) {
   .audio-mini-mobile {
-    display: block;
-  }
-  .audio-mini-mobile .audio-mini-inner {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-  }
-  .audio-mini-mobile .audio-mini-label {
-    font-size: 13px;
-    font-weight: 600;
-    text-align: left;
-    white-space: nowrap;
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
+    padding: 4px 16px 0;
   }
   .audio-mini-mobile audio {
     width: 220px;
@@ -2869,12 +2879,34 @@ footer ul li a:hover { color: var(--accent); }
   }
 }
 
-.mobile-social { display: none; }
+.mobile-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 10px 16px 28px;
+}
+
+.mobile-social .header-social-link {
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+.mobile-social .header-social-link[title="YouTube"] {
+  font-size: 17px;
+}
+
+.mobile-social .header-social-link .sb-icon,
+.mobile-social .header-social-link .fiverr-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  filter: brightness(0) invert(0.753);
+}
 
 @media (max-width: 768px) {
   .mobile-social {
-    display: flex;
-    justify-content: center;
     gap: 6px;
     padding: 8px 16px 24px;
   }
