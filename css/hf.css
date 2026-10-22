@@ -1,0 +1,19 @@
+/* Home footer spacing overrides (bypass stale cache) */
+.mobile-social {
+  padding: 48px 16px 0 !important;
+}
+main:has(.mobile-social) + footer {
+  padding-top: 48px !important;
+}
+footer {
+  padding-top: 64px !important;
+}
+@media (max-width: 768px) {
+  .mobile-social {
+    padding: 36px 16px 0 !important;
+  }
+  .audio-mini-mobile {
+    padding-bottom: 12px !important;
+  }
+}
+"

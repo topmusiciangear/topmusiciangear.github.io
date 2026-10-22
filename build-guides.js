@@ -6949,6 +6949,7 @@ ${ogMeta}
   <style>${criticalCss()}</style><script>/*tmgLangScrollEarly*/(function(){try{var y=parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10);if(y>=0){document.documentElement.style.visibility='hidden';history.scrollRestoration='manual';}}catch(e){}})();</script>
   <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
+  <link rel="stylesheet" href="/css/hf.css">
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
