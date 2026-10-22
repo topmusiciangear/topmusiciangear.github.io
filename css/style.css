@@ -192,6 +192,34 @@ nav {
   flex-shrink: 0;
 }
 
+/* Hero badge moved up into the header, centered (desktop only) */
+.header-badge {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .header-inner { position: relative; }
+
+  .header-badge {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .header-badge .hero-badge {
+    margin-bottom: 0;
+    padding: 5px 14px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .hero .hero-badge { display: none; }
+}
+
 .header-social {
   display: flex;
   align-items: center;
