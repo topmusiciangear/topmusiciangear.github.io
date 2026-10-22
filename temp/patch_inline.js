@@ -1,0 +1,8 @@
+const fs = require('fs');
+let s = fs.readFileSync('build-guides.js', 'utf8');
+const old = "  <noscript><link rel=\"stylesheet\" href=\"/css/style.min.css?v=${cacheVerCss}\"></noscript>\r\n  <link rel=\"stylesheet\" href=\"/css/hf.css\">\r\n";
+const neu = "  <noscript><link rel=\"stylesheet\" href=\"/css/style.min.css?v=${cacheVerCss}\"></noscript>\r\n  <style id=\"hf-overrides\">\n.mobile-social{padding:48px 16px 0!important}\nmain:has(.mobile-social)+footer{padding-top:48px!important}\nfooter{padding-top:64px!important}\n@media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}}\n.guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}\n.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto}\n.guide-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}\n.guide-search-input:focus{border-color:var(--accent)}\n.guide-search-hit{background:rgba(59,130,246,0.45);color:var(--white);border-radius:2px;padding:0 2px}\n.guide-search-hit--active{background:rgba(59,130,246,0.85);outline:2px solid #3b82f6}\n  </style>\r\n";
+if (!s.includes(old)) { console.log('NOT FOUND'); process.exit(1); }
+s = s.replace(old, neu);
+fs.writeFileSync('build-guides.js', s);
+console.log('done');

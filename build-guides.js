@@ -6949,7 +6949,18 @@ ${ogMeta}
   <style>${criticalCss()}</style><script>/*tmgLangScrollEarly*/(function(){try{var y=parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10);if(y>=0){document.documentElement.style.visibility='hidden';history.scrollRestoration='manual';}}catch(e){}})();</script>
   <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
-  <link rel="stylesheet" href="/css/hf.css">
+  <style id="hf-overrides">
+.mobile-social{padding:48px 16px 0!important}
+main:has(.mobile-social)+footer{padding-top:48px!important}
+footer{padding-top:64px!important}
+@media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}}
+.guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}
+.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto}
+.guide-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
+.guide-search-input:focus{border-color:var(--accent)}
+.guide-search-hit{background:rgba(59,130,246,0.45);color:var(--white);border-radius:2px;padding:0 2px}
+.guide-search-hit--active{background:rgba(59,130,246,0.85);outline:2px solid #3b82f6}
+  </style>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
