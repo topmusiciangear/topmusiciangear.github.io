@@ -6955,9 +6955,12 @@ main:has(.mobile-social)+footer{padding-top:48px!important}
 footer{padding-top:64px!important}
 @media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}}
 .guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}
-.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto}
+.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto;position:relative}
 .guide-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
 .guide-search-input:focus{border-color:var(--accent)}
+.guide-search-input{padding-right:34px}
+.guide-search-btn{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:13px;padding:2px 4px;line-height:1}
+.guide-search-btn:hover{color:var(--accent)}
 .guide-search-hit{background:rgba(59,130,246,0.45);color:var(--white);border-radius:2px;padding:0 2px}
 .guide-search-hit--active{background:rgba(59,130,246,0.85);outline:2px solid #3b82f6}
   </style>
@@ -7026,7 +7029,7 @@ footer{padding-top:64px!important}
       </nav>
       <div class="guide-back-row">
         <a href="${isEs ? '/es/' : '/'}?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
-        <div class="guide-search-wrap"><input type="search" id="guideSearch" class="guide-search-input" placeholder="${isEs ? 'Buscar en la guía...' : 'Search in guide...'}" aria-label="${isEs ? 'Buscar en la guía' : 'Search in guide'}"></div>
+        <div class="guide-search-wrap"><input type="search" id="guideSearch" class="guide-search-input" placeholder="${isEs ? 'Buscar en la guía...' : 'Search in guide...'}" aria-label="${isEs ? 'Buscar en la guía' : 'Search in guide'}"><button type="button" id="guideSearchBtn" class="guide-search-btn" aria-label="${isEs ? 'Buscar' : 'Search'}"><i class="fa-solid fa-magnifying-glass"></i></button></div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>

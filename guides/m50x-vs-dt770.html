@@ -46,9 +46,12 @@ main:has(.mobile-social)+footer{padding-top:48px!important}
 footer{padding-top:64px!important}
 @media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}}
 .guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}
-.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto}
+.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto;position:relative}
 .guide-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
 .guide-search-input:focus{border-color:var(--accent)}
+.guide-search-input{padding-right:34px}
+.guide-search-btn{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:13px;padding:2px 4px;line-height:1}
+.guide-search-btn:hover{color:var(--accent)}
 .guide-search-hit{background:rgba(59,130,246,0.45);color:var(--white);border-radius:2px;padding:0 2px}
 .guide-search-hit--active{background:rgba(59,130,246,0.85);outline:2px solid #3b82f6}
   </style>
@@ -682,7 +685,7 @@ footer{padding-top:64px!important}
       </nav>
       <div class="guide-back-row">
         <a href="/?cat=headphones#guides" class="guide-back-btn"><svg class="icon fa-solid" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> Back to Guides</a>
-        <div class="guide-search-wrap"><input type="search" id="guideSearch" class="guide-search-input" placeholder="Search in guide..." aria-label="Search in guide"></div>
+        <div class="guide-search-wrap"><input type="search" id="guideSearch" class="guide-search-input" placeholder="Search in guide..." aria-label="Search in guide"><button type="button" id="guideSearchBtn" class="guide-search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button></div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">ATH-M50x vs DT 770 Pro: Closed-Back Duel</h1>
@@ -849,7 +852,7 @@ footer{padding-top:64px!important}
 
   <script defer src="/js/translations.js?v=8"></script>
   <script defer src="/js/constants.js?v=bef3a64b"></script>
-  <script defer src="/js/app.js?v=7a30241a4fbce3"></script>
+  <script defer src="/js/app.js?v=a3abdedb4fbce3"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;var h=document.documentElement;var pg=h.getAttribute('lang');if(pg==='en'||pg==='es'){h.classList.add('lang-'+pg);document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.removeProperty('display')});document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.removeProperty('display')});if(pg==='es'){document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.setProperty('display','none','important')})}else{document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.setProperty('display','none','important')})}}if(!c){b.classList.add('cookie-visible')}else{b.classList.remove('cookie-visible');gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
 window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()}
 window.cookieDecline=function(){try{var p={essential:true,analytics:false,affiliate:false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.style.display='none';if(m)m.style.display='none'}

@@ -1,6 +1,7 @@
 /* Guide in-page search */
 (function() {
   var input = document.getElementById('guideSearch');
+  var btn = document.getElementById('guideSearchBtn');
   if (!input) return;
   var root = document.querySelector('.guide-detail') || document.body;
   function clear() {
@@ -44,12 +45,14 @@
       hits[0].classList.add('guide-search-hit--active');
     }
   }
+  function doSearch() { search(input.value.trim()); }
   var timer;
   input.addEventListener('input', function() {
     clearTimeout(timer);
-    timer = setTimeout(function() { search(input.value.trim()); }, 300);
+    timer = setTimeout(doSearch, 300);
   });
   input.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') { e.preventDefault(); search(input.value.trim()); }
+    if (e.key === 'Enter') { e.preventDefault(); doSearch(); }
   });
+  if (btn) btn.addEventListener('click', function(e) { e.preventDefault(); doSearch(); });
 })();
