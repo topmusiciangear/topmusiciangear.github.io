@@ -46,11 +46,10 @@ main:has(.mobile-social)+footer{padding-top:48px!important}
 footer{padding-top:64px!important}
 @media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}}
 .guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}
-.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto;position:relative}
-.guide-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
+.guide-search-wrap{flex:0 1 320px;min-width:180px;margin-left:auto;display:flex;align-items:center;gap:6px}
+.guide-search-input{flex:1;padding:6px 10px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
 .guide-search-input:focus{border-color:var(--accent)}
-.guide-search-input{padding-right:34px}
-.guide-search-btn{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:13px;padding:2px 4px;line-height:1}
+.guide-search-btn{background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:12px;padding:2px 4px;line-height:1;flex-shrink:0}
 .guide-search-btn:hover{color:var(--accent)}
 .guide-search-hit{background:rgba(59,130,246,0.45);color:var(--white);border-radius:2px;padding:0 2px}
 .guide-search-hit--active{background:rgba(59,130,246,0.85);outline:2px solid #3b82f6}
@@ -1478,7 +1477,7 @@ footer{padding-top:64px!important}
       </nav>
       <div class="guide-back-row">
         <a href="/?cat=drum-machine#guides" class="guide-back-btn"><svg class="icon fa-solid" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> Back to Guides</a>
-        <div class="guide-search-wrap"><input type="search" id="guideSearch" class="guide-search-input" placeholder="Search in guide..." aria-label="Search in guide"><button type="button" id="guideSearchBtn" class="guide-search-btn" aria-label="Search"><svg viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button></div>
+        <div class="guide-search-wrap"><button type="button" id="guideSearchBtn" class="guide-search-btn" aria-label="Search"><svg viewBox="0 0 512 512" width="12" height="12" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button><input type="search" id="guideSearch" class="guide-search-input" placeholder="Search in guide..." aria-label="Search in guide"></div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">Best Hardware Samplers for Beat Makers</h1>
