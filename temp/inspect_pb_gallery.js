@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('temp/mixvault_pb.html', 'utf8');
+const re = /MIXVAULT[^"'<>]{0,60}\.(?:webp|png|jpg|jpeg)/gi;
+const s = new Set();
+let m;
+while ((m = re.exec(h))) s.add(m[0]);
+console.log([...s].join('\n'));
+console.log('--- data attrs near gallery');
+const i = h.indexOf('MIXVAULT HERO');
+console.log(h.slice(i - 1500, i + 900));

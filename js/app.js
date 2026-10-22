@@ -303,10 +303,10 @@ function openLightbox(src) {
   lb.id = "lightbox";
   lb.style.cssText = "display:flex;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;padding:16px 12px;background:rgba(0,0,0,.92);touch-action:none;overflow:hidden";
   var stage = document.createElement("div");
-  stage.style.cssText = "position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;cursor:grab";
+  stage.style.cssText = "position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;cursor:grab;touch-action:none";
   var img = document.createElement("img");
   img.src = src;
-  img.style.cssText = "max-width:100%;max-height:calc(100vh - 60px);object-fit:contain;border-radius:8px;background:#fff;padding:16px;box-shadow:0 8px 40px rgba(0,0,0,.6);transition:transform .15s ease;will-change:transform";
+  img.style.cssText = "max-width:100%;max-height:calc(100vh - 60px);object-fit:contain;border-radius:8px;background:#fff;padding:16px;box-shadow:0 8px 40px rgba(0,0,0,.6);transition:none;will-change:transform;transform-origin:center center;user-select:none";
   img.draggable = false;
   img.style.userSelect = "none";
   img.setAttribute("draggable", "false");
@@ -326,33 +326,35 @@ function openLightbox(src) {
   var scale = 1, tx = 0, ty = 0, minScale = 1;
   var pinch = null, dragging = false;
   function apply() {
-    img.style.transform = "translate(" + tx + "px," + ty + "px) scale(" + scale + ")";
+    img.style.transform = "translate3d(" + tx + "px," + ty + "px,0) scale(" + scale + ")";
   }
   function fitDrag() {
+    if (scale <= 1.001) { tx = 0; ty = 0; apply(); return; }
     var r = img.getBoundingClientRect();
-    if (scale === 1) { tx = 0; ty = 0; return; }
-    var halfW = stage.clientWidth / 2, halfH = stage.clientHeight / 2;
     var maxX = Math.max(0, (r.width - stage.clientWidth) / 2);
     var maxY = Math.max(0, (r.height - stage.clientHeight) / 2);
-    tx = Math.max(-maxX, Math.min(maxX, tx));
-    ty = Math.max(-maxY, Math.min(maxY, ty));
+    var nx = Math.max(-maxX, Math.min(maxX, tx));
+    var ny = Math.max(-maxY, Math.min(maxY, ty));
+    if (nx !== tx || ny !== ty) { tx = nx; ty = ny; apply(); }
   }
   function zoomBy(f, cx, cy) {
     var rect = img.getBoundingClientRect();
     var ox = cx - (rect.left + rect.width / 2);
     var oy = cy - (rect.top + rect.height / 2);
     var nf = Math.max(minScale, Math.min(6, scale * f));
+    if (nf === scale) { fitDrag(); return; }
     var ratio = nf / scale;
     scale = nf;
-    tx = tx - ox * (1 - ratio);
-    ty = ty - oy * (1 - ratio);
-    fitDrag(); apply();
+    tx += ox * (1 - ratio);
+    ty += oy * (1 - ratio);
+    apply();
+    fitDrag();
   }
   out.onclick = function(e) { e.stopPropagation(); zoomBy(0.8, stage.clientWidth / 2, stage.clientHeight / 2); };
   zin.onclick = function(e) { e.stopPropagation(); zoomBy(1.25, stage.clientWidth / 2, stage.clientHeight / 2); };
   img.addEventListener("wheel", function(e) {
     e.preventDefault(); e.stopPropagation();
-    zoomBy(e.deltaY < 0 ? 1.15 : 1 / 1.15, e.clientX, e.clientY);
+    zoomBy(e.deltaY < 0 ? 1.12 : 1 / 1.12, e.clientX, e.clientY);
   }, { passive: false });
   img.addEventListener("dblclick", function(e) {
     e.preventDefault();
@@ -372,14 +374,27 @@ function openLightbox(src) {
     e.preventDefault();
     if (e.touches.length === 2 && pinch) {
       var d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
-      var f = d / pinch.d;
-      scale = Math.max(minScale, Math.min(6, pinch.s * f));
+      var cx = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      var cy = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      var rect = img.getBoundingClientRect();
+      var ox = cx - (rect.left + rect.width / 2);
+      var oy = cy - (rect.top + rect.height / 2);
+      var oldScale = scale;
+      var nf = Math.max(minScale, Math.min(6, pinch.s * (d / pinch.d)));
+      if (nf !== oldScale) {
+        var ratio = nf / oldScale;
+        scale = nf;
+        tx += ox * (1 - ratio);
+        ty += oy * (1 - ratio);
+      }
       stage.style.cursor = "grab";
-      fitDrag(); apply();
+      apply();
+      fitDrag();
     } else if (e.touches.length === 1 && pinch && pinch.x !== undefined) {
       tx = e.touches[0].clientX - pinch.x;
       ty = e.touches[0].clientY - pinch.y;
-      fitDrag(); apply();
+      fitDrag();
+      apply();
     }
   }, { passive: false });
   function touchEnd(e) {
@@ -397,7 +412,8 @@ function openLightbox(src) {
     if (!dragging || !pinch || pinch.x === undefined) return;
     tx = e.clientX - pinch.x;
     ty = e.clientY - pinch.y;
-    fitDrag(); apply();
+    fitDrag();
+    apply();
   });
   stage.addEventListener("mouseup", function() { dragging = false; pinch = null; stage.style.cursor = "grab"; });
   stage.addEventListener("mouseleave", function() { dragging = false; pinch = null; stage.style.cursor = "grab"; });
@@ -410,6 +426,7 @@ function openLightbox(src) {
   stage.addEventListener("click", function(e) { if (e.target === stage && scale === 1) lb.remove(); });
   document.body.appendChild(lb);
 }
+
 function openGuideVideo(v) {
   var existing = document.getElementById("lightbox");
   if (existing) existing.remove();

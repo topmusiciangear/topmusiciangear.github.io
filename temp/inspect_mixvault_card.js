@@ -1,0 +1,11 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/ai-tools-plugins.html', 'utf8');
+const marker = 'What Products Are in This Guide?';
+const s = h.indexOf(marker);
+console.log('section at', s);
+const rest = h.slice(s);
+const i = rest.indexOf('MIXVAULT');
+console.log('MIXVAULT in section at', i);
+let start = rest.lastIndexOf('guide-product-card', i);
+start = rest.lastIndexOf('<div', start);
+console.log(rest.slice(start, start + 1800));
