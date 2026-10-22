@@ -2921,12 +2921,16 @@ footer ul li a:hover { color: var(--accent); }
   flex-wrap: wrap;
   gap: 10px;
   padding: 24px 16px 0;
-  margin-bottom: -20px;
+}
+
+main:has(.mobile-social) + footer {
+  padding-top: 26px;
 }
 
 .mobile-social .header-social-link {
   font-size: 20px;
   color: var(--white);
+  cursor: pointer;
 }
 
 .mobile-social .header-social-link[title="YouTube"] {
@@ -2945,7 +2949,6 @@ footer ul li a:hover { color: var(--accent); }
   .mobile-social {
     gap: 6px;
     padding: 18px 16px 0;
-    margin-bottom: -8px;
   }
 
   .mobile-social .header-social-link {
