@@ -7,13 +7,14 @@ function trim(s) {
   const sentences = s.match(/[^.!?]+[.!?]+/g) || [s];
   let out = '';
   for (const sen of sentences) {
-    if ((out + sen).length <= 195) {
+    if (out.length >= 150) break;
+    if (out.length + sen.length <= 300 || out.length < 120) {
       out += sen;
     } else {
       break;
     }
   }
-  if (!out) out = sentences[0]; // keep first sentence whole even if long
+  if (!out) out = sentences[0];
   return out.trim();
 }
 
@@ -38,7 +39,9 @@ c24.stores = {
 };
 
 fs.writeFileSync('data/products.json', JSON.stringify(cur, null, 2));
-const lens = cur.map(p => (p.desc || '').length);
-console.log('max', Math.max(...lens), 'avg', Math.round(lens.reduce((a,b)=>a+b,0)/lens.length));
-console.log('sample 1:', cur.find(p=>p.id===1).desc);
-console.log('sample 3:', cur.find(p=>p.id===3).desc);
+const lens = cur.map(p => (p.desc || '').length).sort((a,b)=>a-b);
+console.log('min:', lens[0], 'max:', lens[lens.length-1]);
+console.log('under 100:', lens.filter(l=>l<100).length);
+console.log('under 120:', lens.filter(l=>l<120).length);
+const sorted = cur.slice().sort((a,b)=>(a.desc||'').length-(b.desc||'').length);
+for (const x of sorted.slice(0,5)) console.log(x.id, x.desc.length, '|', x.desc);
