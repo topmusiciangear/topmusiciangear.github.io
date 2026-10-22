@@ -54,7 +54,7 @@ var GUIDE_SCORES = {
   "Gibson Les Paul Standard '60s": 9.7
  },
  "apollo-vs-babyface": {
-  "Universal Audio Apollo Twin X Gen 2": 9.5,
+  "Universal Audio Apollo Twin X Gen 2": 9.6,
   "RME Babyface Pro FS": 9.8
  },
  "atc-vs-genelec": {

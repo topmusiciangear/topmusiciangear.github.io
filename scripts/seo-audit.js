@@ -149,7 +149,8 @@ files.forEach(function (f) {
   else {
     if (title.length > T_CHARS) issues.push('title ' + title.length + ' chars (> ' + T_CHARS + ')');
     if (pxWidth(title) > T_PX) issues.push('title ' + pxWidth(title) + 'px (> ' + T_PX + ')');
-    if (/20\d\d/.test(title)) issues.push('title con anio');
+    // Con limites de palabra: "AT2020" o "P120" son modelos, no anios.
+    if (/\b(19|20)\d\d\b/.test(title)) issues.push('title con anio');
     if (/[<>]/.test(title)) issues.push('title con < o >');
   }
   if (!desc) issues.push('sin meta description');
