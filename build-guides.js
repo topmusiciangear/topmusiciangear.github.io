@@ -4212,8 +4212,12 @@ const TEST_SHOP_BTN = {
       gear4music: "£95.00",
       musicstore: "€105.00"
     },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AKGP120"
+    },
     oos: [
-      "andertons"
+      "andertons",
+      "zzounds"
     ]
   },
   435: {
