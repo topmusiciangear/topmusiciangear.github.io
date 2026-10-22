@@ -149,7 +149,7 @@ function criticalCss() {
     '.hamburger span{width:22px;height:2px;background:var(--text-secondary);border-radius:2px}',
     '.mobile-nav{display:flex;flex-direction:column;gap:4px;position:fixed;top:0;right:16px;padding-top:16px;z-index:101;opacity:0;pointer-events:none}',
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
-    '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:13px;font-weight:600;color:var(--white);letter-spacing:.3px;display:block;overflow:hidden;width:clamp(120px,22vw,260px)}.audio-mini-marquee{display:flex;width:max-content;animation:tmgMarquee 20s linear infinite}.audio-mini-marquee-item{padding-right:2.5rem;white-space:nowrap}@keyframes tmgMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
+    '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:13px;font-weight:600;color:var(--white);letter-spacing:.3px;display:block;line-height:1.45}.audio-mini-marquee{display:block}.audio-mini-marquee-item{white-space:normal}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
     '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
@@ -7072,14 +7072,7 @@ ${ogMeta}
 
 
 
-    <div class="audio-mini-mobile" id="audioMiniMobile">
-      <div class="audio-mini-inner">
-        <span class="audio-mini-player"><audio controls preload="none"><source src="/audio/solo-tres.mp3" type="audio/mpeg"></audio></span>
-        <span class="audio-eq"><i></i><i></i><i></i><i></i></span>
-        <span class="audio-mini-label"><span class="audio-mini-marquee"><span class="audio-mini-marquee-item">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span><span class="audio-mini-marquee-item" aria-hidden="true">${isEs ? 'tres cubano, bajo y guitarra - tocados y grabados con mi equipo personal' : 'cuban tres, bass & guitar - played and recorded with my personal gear'}</span></span></span>
-      </div>
-    </div>
-    <div class="mobile-social" id="mobileSocial">
+        <div class="mobile-social" id="mobileSocial">
       <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
       <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
       <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="TikTok">${icon('tiktok', 'fa-brands')}</a>
