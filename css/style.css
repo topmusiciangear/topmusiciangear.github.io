@@ -54,7 +54,9 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   max-width: 100%;
-  overflow-x: hidden;
+  /* OJO: no poner overflow-x:hidden en body. Convierte el body en contenedor de
+     scroll y rompe position:sticky de la cabecera (se iba con el scroll).
+     El recorte horizontal ya lo hace html y la rejilla de guías. */
   overflow-wrap: break-word;
   word-wrap: break-word;
   -webkit-text-size-adjust: 100%;
