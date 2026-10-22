@@ -40,6 +40,7 @@ html {
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
+  max-width: 100%;
   min-width: 0;
   overflow-x: hidden;
 }
@@ -53,6 +54,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   max-width: 100%;
+  overflow-x: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word;
   -webkit-text-size-adjust: 100%;
@@ -1888,13 +1890,29 @@ footer ul li a:hover { color: var(--accent); }
   color: var(--accent);
   margin-bottom: 12px;
   letter-spacing: -.3px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .guide-detail-sections {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
   margin-bottom: 20px;
+}
+
+/* Las columnas nunca deben crecer por el contenido (fotos 160 + compra 420) */
+.guide-detail-sections > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Cada columna necesita ~596px (foto 160 + botones de compra 420).
+   Por debajo de 1280px las 2 columnas no caben y ensanchaban la página entera
+   (en el "modo escritorio" de Chrome móvil, 980px, el contenido quedaba al 78%). */
+@media (max-width: 1279px) {
+  .guide-detail-sections { grid-template-columns: 1fr; }
 }
 
 .guide-section {
@@ -1909,6 +1927,9 @@ footer ul li a:hover { color: var(--accent); }
   font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.7;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .guide-section-content strong {
   color: var(--white);
@@ -2496,13 +2517,15 @@ footer ul li a:hover { color: var(--accent); }
   flex: 0 0 340px;
   width: 340px;
   max-width: 100%;
+  min-width: 0;
   align-content: flex-start;
 }
 @media (min-width:901px) {
   .guide-section-mediabuy > .guide-section-buy:has(.shop-btn-primary) {
-    flex: 0 0 420px;
+    flex: 0 1 420px;
     width: 420px;
     max-width: 100%;
+    min-width: 0;
   }
 }
 .shop-btn-primary,
