@@ -24,6 +24,11 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.guide-search-wrap {
+  margin-left: auto;
 }
 .guide-search-wrap {
   flex: 0 1 320px;
