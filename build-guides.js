@@ -7015,6 +7015,7 @@ ${ogMeta}
       </nav>
       <div class="guide-back-row">
         <a href="${isEs ? '/es/' : '/'}?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+        <div class="guide-search-wrap"><input type="search" id="guideSearch" class="guide-search-input" placeholder="${isEs ? 'Buscar en la guía...' : 'Search in guide...'}" aria-label="${isEs ? 'Buscar en la guía' : 'Search in guide'}"></div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>

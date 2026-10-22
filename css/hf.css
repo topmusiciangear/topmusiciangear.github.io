@@ -16,4 +16,42 @@ footer {
     padding-bottom: 12px !important;
   }
 }
+
+/* Guide in-page search (aligned with Back to Guides) */
+.guide-back-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.guide-search-wrap {
+  flex: 0 1 320px;
+  min-width: 180px;
+}
+.guide-search-input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.guide-search-input:focus {
+  border-color: var(--accent);
+}
+.guide-search-hit {
+  background: rgba(250, 204, 21, 0.35);
+  color: var(--white);
+  border-radius: 2px;
+  padding: 0 2px;
+}
+.guide-search-hit--active {
+  background: rgba(250, 204, 21, 0.7);
+  outline: 2px solid #facc15;
+}
 "
