@@ -6962,6 +6962,7 @@ footer{padding-top:64px!important}
 .guide-search-hit{background:var(--accent);color:#fff;border-radius:2px;padding:0 2px;outline:2px solid #fff}
 .guide-search-hit--active{background:var(--accent);outline:2px solid #fff}
 .header-right{position:relative!important}
+header{position:sticky!important;top:0!important;transform:none!important}
 .top-search-actions{display:flex;gap:6px;margin-top:6px;justify-content:flex-end}
 .top-search-btn{background:none;border:1px solid var(--border);color:#fff;cursor:pointer;padding:4px 8px;font-size:14px;border-radius:4px;line-height:1}
 .top-search-btn:hover{color:var(--accent);border-color:var(--accent)}

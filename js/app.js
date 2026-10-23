@@ -1795,6 +1795,8 @@ document.addEventListener('click', function(e) {
   var scrolling = false;
   window.addEventListener('scroll', function() {
     scrolling = true;
+    // close the search dropdown on scroll, but keep the top bar visible
+    if (drop && !drop.hidden) drop.hidden = true;
     clearTimeout(window._topSearchScrollTimer);
     window._topSearchScrollTimer = setTimeout(function() { scrolling = false; }, 200);
   }, { passive: true });
