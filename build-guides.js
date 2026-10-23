@@ -6021,7 +6021,7 @@ const TEST_SHOP_BTN = {
   22: {prices:{amazon:"$1,175.00",andertons:"£959.00",gear4music:"£812.00",musicstore:"€949.00"}},
   23: {prices:{amazon:"$199.99",andertons:"£129.00",gear4music:"£129.00",musicstore:"€149.00",zzounds:"$199.99"}},
   24: {prices:{amazon:"£339.00",andertons:"£295.00",gear4music:"£298.00",musicstore:"€359.00"},urls:{zzounds:"https://www.zzounds.com/prodsearch?form=search&q=Sennheiser+HD+490+Pro"},oos:["zzounds"]},
-  1053: {prices:{amazon:"$499.00",andertons:"£351.00",gear4music:"£351.00",musicstore:"€432.00"},urls:{zzounds:"https://www.zzounds.com/item--SENHD490PROPLUS?siid=346774"},oos:[]},
+  1053: {prices:{amazon:"$499.00",andertons:"£351.00",gear4music:"£351.00",musicstore:"€432.00",zzounds:"$499.00"},urls:{zzounds:"https://www.zzounds.com/item--SENHD490PROPLUS?siid=346774",gear4music:"https://www.gear4music.com/Recording-and-Computers/Sennheiser-HD-490-Pro-Plus-Open-Back-Headphones/62YL"},oos:[]},
   25: {prices:{amazon:"$169.00",zzounds:"$159.00",gear4music:"£148.00",andertons:"£133.00",musicstore:"€149.00"}},
   26: {
     prices: { amazon: "$113.00", gear4music: "£85.00", musicstore: "€89.00" },
