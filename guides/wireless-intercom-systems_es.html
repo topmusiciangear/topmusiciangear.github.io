@@ -53,6 +53,9 @@ footer{padding-top:64px!important}
 .guide-search-hit{background:var(--accent);color:#fff;border-radius:2px;padding:0 2px;outline:2px solid #fff}
 .guide-search-hit--active{background:var(--accent);outline:2px solid #fff}
 .header-right{position:relative!important}
+.top-search-actions{display:flex;gap:6px;margin-top:6px;justify-content:flex-end}
+.top-search-btn{background:none;border:1px solid var(--border);color:var(--text-muted);cursor:pointer;padding:4px 8px;font-size:14px;border-radius:4px;line-height:1}
+.top-search-btn:hover{color:var(--accent);border-color:var(--accent)}
 .top-search-toggle{background:none!important;border:none!important;color:#fff!important;cursor:pointer;padding:4px 6px;font-size:22px;line-height:1}.top-search-toggle:hover{color:var(--accent)}.top-search-drop{position:fixed;top:70px;right:16px;margin-top:0;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:8px;min-width:260px;box-shadow:0 8px 24px rgba(0,0,0,.4);z-index:9999}.top-search-drop[hidden]{display:none}.top-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;outline:none;box-sizing:border-box}.top-search-results{max-height:300px;overflow-y:auto;margin-top:6px}.top-search-item{display:block;padding:8px 10px;font-size:13px;color:var(--text);text-decoration:none;border-radius:4px}.top-search-item:hover{background:var(--bg-card-hover);color:var(--accent)}
   </style>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
@@ -514,6 +517,10 @@ footer{padding-top:64px!important}
         <button type="button" id="topSearchToggle" class="top-search-toggle" aria-label="Search" title="Search"><svg viewBox="0 0 512 512" width="16" height="16" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
         <div id="topSearchDrop" class="top-search-drop" hidden>
           <input type="search" id="topSearchInput" class="top-search-input" placeholder="Buscar..." autocomplete="off">
+          <div class="top-search-actions">
+            <button type="button" id="topSearchClose" class="top-search-btn" aria-label="Cerrar">&times;</button>
+            <button type="button" id="topSearchGo" class="top-search-btn" aria-label="Buscar"><svg viewBox="0 0 512 512" width="14" height="14" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+          </div>
           <div id="topSearchResults" class="top-search-results"></div>
         </div>
         <div class="lang-switcher">
@@ -726,7 +733,7 @@ footer{padding-top:64px!important}
 
   <script defer src="/js/translations.js?v=8"></script>
   <script defer src="/js/constants.js?v=bef3a64b"></script>
-  <script defer src="/js/app.js?v=338586944fbce3"></script>
+  <script defer src="/js/app.js?v=1e8c62084fbce3"></script>
 <script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;var h=document.documentElement;var pg=h.getAttribute('lang');if(pg==='en'||pg==='es'){h.classList.add('lang-'+pg);document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.removeProperty('display')});document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.removeProperty('display')});if(pg==='es'){document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.setProperty('display','none','important')})}else{document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.setProperty('display','none','important')})}}if(!c){b.classList.add('cookie-visible')}else{b.classList.remove('cookie-visible');gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
 window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()}
 window.cookieDecline=function(){try{var p={essential:true,analytics:false,affiliate:false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.style.display='none';if(m)m.style.display='none'}

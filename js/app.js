@@ -1784,6 +1784,8 @@ document.addEventListener('click', function(e) {
   var drop = document.getElementById('topSearchDrop');
   var input = document.getElementById('topSearchInput');
   var results = document.getElementById('topSearchResults');
+  var closeBtn = document.getElementById('topSearchClose');
+  var goBtn = document.getElementById('topSearchGo');
   if (!toggle || !drop || !input) return;
 
   function onGuide() { return !!document.querySelector('.guide-detail'); }
@@ -1802,6 +1804,7 @@ document.addEventListener('click', function(e) {
     drop.hidden = !drop.hidden;
     if (!drop.hidden) input.focus();
   });
+  if (closeBtn) closeBtn.addEventListener('click', function(e) { e.stopPropagation(); close(); });
   document.addEventListener('click', function(e) {
     if (scrolling) return;
     if (!drop.contains(e.target) && e.target !== toggle) close();
@@ -1839,6 +1842,11 @@ document.addEventListener('click', function(e) {
       if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
       if (node.parentNode) node.parentNode.replaceChild(frag, node);
     });
+  }
+
+  function scrollToFirst() {
+    var root = document.querySelector('.guide-detail');
+    if (!root) return;
     var hits = root.querySelectorAll('mark.guide-search-hit');
     if (hits.length) {
       setTimeout(function() {
@@ -1861,7 +1869,7 @@ document.addEventListener('click', function(e) {
     var list = (window.guides || []);
     var ql = q.toLowerCase();
     var matches = list.filter(function(g) {
-      var t = (g.title || '') + ' ' + (g.title_es || '') + ' ' + (g.category || '') + ' ' + (g.intro || '') + ' ' + (g.intro_es || '');
+      var t = (g.title || '') + ' ' + (g.title_es || '') + ' ' + (g.category || '');
       return t.toLowerCase().indexOf(ql) !== -1;
     }).slice(0, 10);
     matches.forEach(function(g) {
@@ -1880,22 +1888,27 @@ document.addEventListener('click', function(e) {
     }
   }
 
-  var timer;
   input.addEventListener('input', function() {
     var q = input.value.trim();
     if (onGuide()) {
       highlight(q);
     } else {
-      clearTimeout(timer);
-      timer = setTimeout(function() { searchHome(q); }, 200);
+      clearTimeout(window._tsTimer);
+      window._tsTimer = setTimeout(function() { searchHome(q); }, 200);
     }
   });
   input.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
       e.preventDefault();
       var q = input.value.trim();
-      if (onGuide()) highlight(q);
+      if (onGuide()) { highlight(q); scrollToFirst(); }
       else searchHome(q);
     }
+  });
+  if (goBtn) goBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    var q = input.value.trim();
+    if (onGuide()) { highlight(q); scrollToFirst(); }
+    else searchHome(q);
   });
 })();
