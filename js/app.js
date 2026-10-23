@@ -1786,8 +1786,6 @@ document.addEventListener('click', function(e) {
   var results = document.getElementById('topSearchResults');
   if (!toggle || !drop || !input) return;
 
-  function isGuidePage() { return !!document.getElementById('guideSearch') === false && !!document.querySelector('.guide-detail'); }
-  // Actually detect guide page by presence of guide-detail
   function onGuide() { return !!document.querySelector('.guide-detail'); }
 
   function close() { drop.hidden = true; }
@@ -1803,7 +1801,6 @@ document.addEventListener('click', function(e) {
 
   function esc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
-  // In-page highlight for guides
   function highlight(q) {
     var root = document.querySelector('.guide-detail');
     if (!root) return;
@@ -1836,12 +1833,15 @@ document.addEventListener('click', function(e) {
       if (node.parentNode) node.parentNode.replaceChild(frag, node);
     });
     var hits = root.querySelectorAll('mark.guide-search-hit');
-    if (hits.length && hits[0].scrollIntoView) {
-      hits[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (hits.length) {
+      // scroll to first match
+      setTimeout(function() {
+        hits[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        hits[0].classList.add('guide-search-hit--active');
+      }, 50);
     }
   }
 
-  // Home: show matching guides
   function searchHome(q) {
     if (!results) return;
     results.innerHTML = '';
@@ -1849,9 +1849,9 @@ document.addEventListener('click', function(e) {
     var list = (window.guides || []);
     var ql = q.toLowerCase();
     var matches = list.filter(function(g) {
-      var t = (g.title || '') + ' ' + (g.title_es || '') + ' ' + (g.category || '');
+      var t = (g.title || '') + ' ' + (g.title_es || '') + ' ' + (g.category || '') + ' ' + (g.intro || '') + ' ' + (g.intro_es || '');
       return t.toLowerCase().indexOf(ql) !== -1;
-    }).slice(0, 8);
+    }).slice(0, 10);
     matches.forEach(function(g) {
       var a = document.createElement('a');
       a.className = 'top-search-item';
@@ -1868,17 +1868,15 @@ document.addEventListener('click', function(e) {
     }
   }
 
-  var timer;
   input.addEventListener('input', function() {
     var q = input.value.trim();
-    clearTimeout(timer);
-    timer = setTimeout(function() {
-      if (onGuide()) {
-        highlight(q);
-      } else {
-        searchHome(q);
-      }
-    }, 300);
+    if (onGuide()) {
+      highlight(q);
+    } else {
+      // debounce for home
+      clearTimeout(window._tsTimer);
+      window._tsTimer = setTimeout(function() { searchHome(q); }, 200);
+    }
   });
   input.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
