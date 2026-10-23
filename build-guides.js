@@ -6961,6 +6961,7 @@ footer{padding-top:64px!important}
 .guide-search-icon{position:absolute;left:8px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none}
 .guide-search-hit{background:var(--accent);color:#fff;border-radius:2px;padding:0 2px}
 .guide-search-hit--active{background:var(--accent);outline:2px solid #fff}
+.top-search-toggle{background:none;border:none;color:var(--text-secondary);cursor:pointer;padding:4px 6px;font-size:16px;line-height:1}.top-search-toggle:hover{color:var(--accent)}.top-search-drop{position:absolute;top:100%;right:0;margin-top:8px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:8px;min-width:260px;box-shadow:0 8px 24px rgba(0,0,0,.4);z-index:9999}.top-search-drop[hidden]{display:none}.top-search-input{width:100%;padding:8px 12px;font-size:13px;color:var(--text);background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;outline:none;box-sizing:border-box}.top-search-results{max-height:300px;overflow-y:auto;margin-top:6px}.top-search-item{display:block;padding:8px 10px;font-size:13px;color:var(--text);text-decoration:none;border-radius:4px}.top-search-item:hover{background:var(--bg-card-hover);color:var(--accent)}
   </style>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
@@ -7002,6 +7003,11 @@ footer{padding-top:64px!important}
       <div class="header-right">
                 <div class="nav-dd nav-dd-mobile">
           ${navDropdown(isEs)}
+        </div>
+        <button type="button" id="topSearchToggle" class="top-search-toggle" aria-label="Search" title="Search"><svg viewBox="0 0 512 512" width="16" height="16" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+        <div id="topSearchDrop" class="top-search-drop" hidden>
+          <input type="search" id="topSearchInput" class="top-search-input" placeholder="${isEs ? 'Buscar...' : 'Search...'}" autocomplete="off">
+          <div id="topSearchResults" class="top-search-results"></div>
         </div>
         <div class="lang-switcher">
           <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
