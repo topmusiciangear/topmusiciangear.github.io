@@ -1842,7 +1842,11 @@ document.addEventListener('click', function(e) {
     var hits = root.querySelectorAll('mark.guide-search-hit');
     if (hits.length) {
       setTimeout(function() {
-        hits[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        var header = document.querySelector('header');
+        var headerH = header ? header.offsetHeight : 64;
+        var rect = hits[0].getBoundingClientRect();
+        var targetY = window.scrollY + rect.top - headerH - 16;
+        window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
         hits[0].classList.add('guide-search-hit--active');
       }, 50);
     }
