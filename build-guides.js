@@ -6955,13 +6955,12 @@ main:has(.mobile-social)+footer{padding-top:48px!important}
 footer{padding-top:64px!important}
 @media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}}
 .guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}
-.guide-search-wrap{flex:0 0 auto;min-width:120px;max-width:200px;margin-left:auto;display:flex;align-items:center;gap:6px}
-.guide-search-input{flex:1;padding:6px 10px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
+.guide-search-wrap{flex:0 0 auto;min-width:120px;max-width:200px;margin-left:auto;position:relative}
+.guide-search-input{width:100%;padding:6px 10px 6px 28px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
 .guide-search-input:focus{border-color:var(--accent)}
-.guide-search-btn{background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:12px;padding:2px 4px;line-height:1;flex-shrink:0}
-.guide-search-btn:hover{color:var(--accent)}
-.guide-search-hit{background:rgba(59,130,246,0.45);color:var(--white);border-radius:2px;padding:0 2px}
-.guide-search-hit--active{background:rgba(59,130,246,0.85);outline:2px solid #3b82f6}
+.guide-search-icon{position:absolute;left:8px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none}
+.guide-search-hit{background:var(--accent);color:#fff;border-radius:2px;padding:0 2px}
+.guide-search-hit--active{background:var(--accent);outline:2px solid #fff}
   </style>
   <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
@@ -7028,7 +7027,7 @@ footer{padding-top:64px!important}
       </nav>
       <div class="guide-back-row">
         <a href="${isEs ? '/es/' : '/'}?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
-        <div class="guide-search-wrap"><button type="button" id="guideSearchBtn" class="guide-search-btn" aria-label="${isEs ? 'Buscar' : 'Search'}"><svg viewBox="0 0 512 512" width="12" height="12" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button><input type="search" id="guideSearch" class="guide-search-input" placeholder="${isEs ? 'Buscar en la guía...' : 'Search in guide...'}" aria-label="${isEs ? 'Buscar en la guía' : 'Search in guide'}"></div>
+      </div>
       </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
