@@ -2802,9 +2802,9 @@ footer ul li a:hover { color: var(--accent); }
   .my-setup { padding: 48px 20px; }
   .about-section { padding: 48px 20px; }
   .header-inner { padding: 0 16px; gap: 12px; }
-  html { overscroll-behavior-x: none; touch-action: pan-y; overflow-x: hidden; }
+  html { overscroll-behavior-x: none; touch-action: pan-y pinch-zoom; overflow-x: hidden; }
   ::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
-  body { overscroll-behavior-x: none; touch-action: pan-y; -ms-overflow-style: none; scrollbar-width: none; }
+  body { overscroll-behavior-x: none; touch-action: pan-y pinch-zoom; -ms-overflow-style: none; scrollbar-width: none; }
   nav { display: none; }
   .audio-mini { display: none; }
   .hamburger { display: none; }
