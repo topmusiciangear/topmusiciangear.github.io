@@ -1,0 +1,10 @@
+const fs = require('fs');
+const h = fs.readFileSync('guides/open-headphones.html', 'utf8');
+const t = h.indexOf('guide-product-card-title">Sennheiser HD 490 Pro Plus');
+const s = h.indexOf('guide-product-card-stores', t);
+const e = h.indexOf('Write a review', s);
+const block = h.slice(s, e + 300);
+const hrefs = [...block.matchAll(/href="([^"]+)"/g)].map(x => x[1]);
+for (const u of hrefs) console.log(u);
+console.log('--- has siid direct:', block.includes('siid=346774'));
+console.log('--- decoded musicstore:', decodeURIComponent(block).includes('Sennheiser-HD-490-Pro-Plus/art-REC0016605-000'));
