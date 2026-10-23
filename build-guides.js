@@ -7028,7 +7028,6 @@ footer{padding-top:64px!important}
       <div class="guide-back-row">
         <a href="${isEs ? '/es/' : '/'}?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
       </div>
-      </div>
       <div class="guide-detail-header">
         <h1 class="guide-detail-title">${title}</h1>
       </div>
