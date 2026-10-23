@@ -1790,12 +1790,20 @@ document.addEventListener('click', function(e) {
 
   function close() { drop.hidden = true; }
 
+  var scrolling = false;
+  window.addEventListener('scroll', function() {
+    scrolling = true;
+    clearTimeout(window._topSearchScrollTimer);
+    window._topSearchScrollTimer = setTimeout(function() { scrolling = false; }, 200);
+  }, { passive: true });
+
   toggle.addEventListener('click', function(e) {
     e.stopPropagation();
     drop.hidden = !drop.hidden;
     if (!drop.hidden) input.focus();
   });
   document.addEventListener('click', function(e) {
+    if (scrolling) return;
     if (!drop.contains(e.target) && e.target !== toggle) close();
   });
 
@@ -1804,7 +1812,6 @@ document.addEventListener('click', function(e) {
   function highlight(q) {
     var root = document.querySelector('.guide-detail');
     if (!root) return;
-    // clear previous
     var marks = root.querySelectorAll('mark.guide-search-hit');
     marks.forEach(function(m) { var p = m.parentNode; if (p) p.replaceChild(document.createTextNode(m.textContent), m); });
     try { root.normalize(); } catch (e) {}
@@ -1834,7 +1841,6 @@ document.addEventListener('click', function(e) {
     });
     var hits = root.querySelectorAll('mark.guide-search-hit');
     if (hits.length) {
-      // scroll to first match
       setTimeout(function() {
         hits[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
         hits[0].classList.add('guide-search-hit--active');
@@ -1868,14 +1874,14 @@ document.addEventListener('click', function(e) {
     }
   }
 
+  var timer;
   input.addEventListener('input', function() {
     var q = input.value.trim();
     if (onGuide()) {
       highlight(q);
     } else {
-      // debounce for home
-      clearTimeout(window._tsTimer);
-      window._tsTimer = setTimeout(function() { searchHome(q); }, 200);
+      clearTimeout(timer);
+      timer = setTimeout(function() { searchHome(q); }, 200);
     }
   });
   input.addEventListener('keydown', function(e) {
