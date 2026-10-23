@@ -42386,6 +42386,10 @@
             {
               "value": "Wall-adjacent nearfield mixing",
               "value_es": "Mezcla de campo cercano pegado a la pared"
+            },
+            {
+              "value": "Focal Shape 65 nearfield mixing",
+              "value_es": "Mezcla nearfield Focal Shape 65"
             }
           ]
         },
@@ -42436,6 +42440,10 @@
             {
               "value": "2-way powered",
               "value_es": "Biamplificado de 2 vías"
+            },
+            {
+              "value": "2-way active",
+              "value_es": "Biamplificado de 2 vias"
             }
           ]
         },
@@ -42485,6 +42493,10 @@
             },
             {
               "value": "6.5\" Flax",
+              "value_es": "6,5\" cono Flax"
+            },
+            {
+              "value": "6.5\" Flax cone",
               "value_es": "6,5\" cono Flax"
             }
           ]
@@ -42536,6 +42548,10 @@
             {
               "value": "1\" inverted dome",
               "value_es": "Cúpula invertida de 1\""
+            },
+            {
+              "value": "1\" inverted dome",
+              "value_es": "1\" cupula invertida"
             }
           ]
         },
@@ -42582,6 +42598,10 @@
             {
               "value": "160W (2 x 40W + 2 x 40W)",
               "value_es": "160W (2 x 40W + 2 x 40W)"
+            },
+            {
+              "value": "80W Class AB",
+              "value_es": "80W Clase AB"
             },
             {
               "value": "80W Class AB",
@@ -42636,6 +42656,10 @@
             {
               "value": "40 Hz – 35 kHz",
               "value_es": "40 Hz – 35 kHz"
+            },
+            {
+              "value": "40 Hz - 35 kHz",
+              "value_es": "40 Hz - 35 kHz"
             }
           ]
         },
@@ -42682,6 +42706,10 @@
             {
               "value": "103 dB",
               "value_es": "103 dB"
+            },
+            {
+              "value": "108 dB",
+              "value_es": "108 dB"
             },
             {
               "value": "108 dB",
@@ -42736,6 +42764,10 @@
             {
               "value": "13 x 8.3 x 10.6 in",
               "value_es": "33 x 21 x 27 cm"
+            },
+            {
+              "value": "33 x 21 x 27 cm",
+              "value_es": "33 x 21 x 27 cm"
             }
           ]
         }
@@ -42771,8 +42803,8 @@
         ]
       },
       {
-        "name": " LP-6 V2",
-        "name_es": " LP-6 V2",
+        "name": "Kali Audio LP-6 V2",
+        "name_es": "Kali Audio LP-6 V2",
         "pros": [
           "Boundary EQ dip switches correct bass problems for desk, wall or corner placement",
           "Surprisingly deep bass extension for a 6.5-inch driver",
@@ -42883,8 +42915,8 @@
         ]
       },
       {
-        "name": " IN-8 V2",
-        "name_es": " IN-8 V2",
+        "name": "Kali Audio IN-8 V2",
+        "name_es": "Kali Audio IN-8 V2",
         "pros": [
           "True 3-way design with coaxial point source for pinpoint imaging and phase coherence",
           "Out-resolves speakers twice its price",
@@ -42997,8 +43029,8 @@
         ]
       },
       {
-        "name": " IN-UNF",
-        "name_es": " IN-UNF",
+        "name": "Kali Audio IN-UNF",
+        "name_es": "Kali Audio IN-UNF",
         "pros": [
           "Purpose-built ultra-nearfield system: bass unit plus ear-level coaxial satellites",
           "Real 47 Hz–21 kHz bass at arm’s length with no subwoofer and no excited room modes",
@@ -43027,8 +43059,8 @@
         ]
       },
       {
-        "name": " LP-UNF",
-        "name_es": " LP-UNF",
+        "name": "Kali Audio LP-UNF",
+        "name_es": "Kali Audio LP-UNF",
         "pros": [
           "Front-ported compact pair that works against walls and screens",
           "Boundary EQ plus 3-D imaging waveguide widen the sweet spot on a desk",
