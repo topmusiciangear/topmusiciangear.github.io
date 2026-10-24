@@ -434,15 +434,15 @@ var GUIDE_SCORES = {
  },
  "best-keyboard": {
   "Nord Stage 4 88": 9.8,
+  "Native Instruments Kontrol S61 MK3": 9.6,
+  "Roland FP-30X": 9.4,
   "Yamaha P-225": 9.4,
-  "Roland FP-30X": 9.6,
-  "Arturia KeyLab Essential 61 MkIII": 9.5,
+  "Arturia KeyLab Essential 61 MkIII": 9.3,
   "Novation Launchkey 49 MK4": 9.2,
+  "Roland GO:KEYS 3": 9.1,
   "Akai MPK Mini MK4": 9,
   "Novation Launchkey Mini 25 MK4": 9,
-  "Roland GO:KEYS 3": 9.1,
   "M-Audio Hammer 88": 9,
-  "Native Instruments Kontrol S61 MK3": 9.4
  },
  "best-live-sound-mixers": {
   "Yamaha MG16XU": 9.1,
