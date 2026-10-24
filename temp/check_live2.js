@@ -1,22 +1,25 @@
-const checks = [
-  ['https://topmusiciangear.com/guides/best-home-studio-speakers_es.html', {
-    heading: 'Alesis ELEVATE 4: guía de ondas + salida sub en par económico',
-    priceG4M: '£142.00', priceMS: '€119.00', compare: 'Comparar en 5 tiendas más',
-    sec6: 'Los altavoces más vendidos de esta franja no son monitores'
-  }],
-  ['https://topmusiciangear.com/guides/best-home-studio-speakers.html', {
-    heading: 'Alesis ELEVATE 4: Elliptical Waveguide and a Sub Out Under $150',
-    priceG4M: '£142.00', priceMS: '€119.00', compare: 'Compare 5 more stores',
-    sec6: 'The Most Popular Speakers in This Price Range Are Not Monitors'
-  }]
-];
-(async () => {
-  for (const [u, c] of checks) {
-    const r = await fetch(u + '?cb=' + Date.now(), { headers: { 'user-agent': 'Mozilla/5.0' } });
-    const h = await r.text();
-    console.log('=== ' + u + ' [' + r.status + '] ===');
-    for (const k of Object.keys(c)) console.log('  ' + k + ':', h.includes(c[k]));
-    console.log('  9.5 badge:', h.includes('9.5'));
-    console.log('');
-  }
-})();
+const https = require('https');
+const url = 'https://topmusiciangear.com/guides/best-monitors.html';
+
+https.get(url, (res) => {
+  let data = '';
+  res.on('data', chunk => data += chunk);
+  res.on('end', () => {
+    console.log('Status:', res.statusCode);
+    
+    const products = ['JBL 305P', 'Kali Audio LP-6', 'KRK Rokit 7', 'Yamaha HS8', 'Adam Audio A7V', 'Genelec 8010A', 'Neumann KH 80', 'Genelec 8351B', 'Kali IN-UNF', 'Kali LP-UNF', 'Focal Shape 65'];
+    
+    products.forEach(name => {
+      const regex = new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+      const count = (data.match(regex) || []).length;
+      if (count > 0) console.log(name + ': ' + count + ' ocurrencias');
+    });
+    
+    const ldMatches = data.match(/"position": \d+, "item": \{/g);
+    console.log('\nJSON-LD positions:', ldMatches ? ldMatches.length : 0);
+    
+    const imgMatches = data.match(/img\/products\/[^"]+\.webp/g);
+    console.log('\nImagenes:', imgMatches ? imgMatches.length : 0);
+    if (imgMatches) imgMatches.forEach((img, i) => console.log('  ' + i + ': ' + img));
+  });
+}).on('error', (e) => console.error('Error:', e.message));

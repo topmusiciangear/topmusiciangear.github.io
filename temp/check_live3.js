@@ -1,11 +1,33 @@
-(async () => {
-  const u = 'https://topmusiciangear.com/guides/best-home-studio-speakers_es.html?cb=' + Date.now();
-  const h = await (await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' } })).text();
-  const idx = h.indexOf('Alesis ELEVATE 4: guía de ondas');
-  const seg = h.slice(idx, idx + 9000);
-  const buy = seg.slice(seg.indexOf('guide-section-buy'));
-  console.log('--- buy block (first 3000) ---');
-  console.log(buy.slice(0, 3000));
-  console.log('--- markers ---');
-  console.log('142:', (h.match(/142/g) || []).length, '| pound entity:', h.includes('&pound;'), '| 163:', h.includes('&#163;'), '| euro entity:', h.includes('&euro;'));
-})();
+const https = require('https');
+
+function checkLive() {
+  https.get('https://topmusiciangear.com/guides/best-monitors.html', (res) => {
+    let data = '';
+    res.on('data', chunk => data += chunk);
+    res.on('end', () => {
+      const ldMatches = data.match(/"position": \d+, "item": \{/g);
+      const imgMatches = data.match(/img\/products\/[^"]+\.webp/g);
+      const unique = imgMatches ? [...new Set(imgMatches)] : [];
+      
+      console.log('Status:', res.statusCode);
+      console.log('JSON-LD positions:', ldMatches ? ldMatches.length : 0);
+      console.log('Imagenes unicas:', unique.length);
+      if (unique.length > 0) {
+        console.log('Primeras 5 imagenes:');
+        unique.slice(0, 5).forEach((img, i) => console.log('  ' + i + ': ' + img));
+      }
+      
+      if (ldMatches && ldMatches.length === 12 && unique.length >= 12) {
+        console.log('\nSITIO LIVE CORRECTO!');
+      } else {
+        console.log('\nEsperando deploy... (reintentando en 30s)');
+        setTimeout(checkLive, 30000);
+      }
+    });
+  }).on('error', (e) => {
+    console.error('Error:', e.message);
+    setTimeout(checkLive, 30000);
+  });
+}
+
+checkLive();
