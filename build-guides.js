@@ -6693,6 +6693,13 @@ function buildGuidePage(guide, lang, idx) {
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
   const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
+  allProductIds.sort((a, b) => {
+    const pa = products.find(pr => pr.id === a);
+    const pb = products.find(pr => pr.id === b);
+    const sa = pa ? (guideScore(pa, guide.id) || 0) : 0;
+    const sb = pb ? (guideScore(pb, guide.id) || 0) : 0;
+    return sb - sa;
+  });
 
   const renderedProducts = new Set();
   // Photo ownership: each product's photo belongs to its dedicated section —
