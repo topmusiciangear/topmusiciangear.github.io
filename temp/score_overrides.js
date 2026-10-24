@@ -536,19 +536,19 @@ var GUIDE_SCORES = {
   "Genelec 8351B SAM 3-Way Coaxial Studio Monitor": 9.9
  },
  "best-monitors-for-small-rooms": {
-  "JBL 305P MkII": 9.2,
-  "Yamaha HS5": 8.9,
-  "ADAM Audio D3V": 9,
-  "Kali Audio LP-UNF": 9,
+  "JBL 305P MkII": 8.7,
+  "Yamaha HS5": 8.4,
+  "ADAM Audio D3V": 8.9,
+  "Kali Audio LP-UNF": 8.9,
   "Kali Audio LP-6 V2": 9.5,
-  "IK Multimedia iLoud Micro Monitor Pro": 9.1,
-  "Neumann KH 80 DSP": 9.6,
-  "IK Multimedia iLoud MTM MKII": 9.2,
-  "Genelec 8010A": 9.5,
-  "ADAM Audio T5V": 8.9,
-  "Genelec 8030C": 9.8,
-  "KRK Rokit 5 G5": 8.7,
-  "PreSonus Eris Studio 5": 8.9
+  "IK Multimedia iLoud Micro Monitor Pro": 9.6,
+  "Neumann KH 80 DSP": 9.8,
+  "IK Multimedia iLoud MTM MKII": 9.3,
+  "Genelec 8010A": 9.4,
+  "ADAM Audio T5V": 8.6,
+  "Genelec 8030C": 9.0,
+  "KRK Rokit 5 G5": 9.2,
+  "PreSonus Eris Studio 5": 8.8
  },
  "best-multi-effects-pedals": {
   "Line 6 Helix HX Stomp": 9.8,
