@@ -2358,15 +2358,15 @@ footer ul li a:hover { color: var(--accent); }
 .guide-product-card-desc-wrap {
   position: relative;
 }
-/* 3 lineas SIEMPRE (altura fija), sin boton de expandir: todas las cards quedan parejas */
+/* Minimo 5 lineas para tarjetas parejas; crece si hace falta y nunca recorta el texto */
 .guide-product-card-desc {
   font-size: 12px;
   color: var(--text-muted);
   line-height: 1.5;
-  height: 6em;
-  max-height: 7.5em;
-  overflow: hidden;
-  text-overflow: clip;
+  height: auto;
+  min-height: 7.5em;
+  max-height: none;
+  overflow: visible;
   padding-right: 0;
 }
 
@@ -3076,7 +3076,7 @@ main:has(.mobile-social) + footer {
 .product-search-item .guide-product-card { height: auto; }
 .product-search-item .guide-product-card-body { padding: 12px; gap: 4px; }
 .product-search-item .guide-product-card-title { font-size: 13px; }
-.product-search-item .guide-product-card-desc { font-size: 11px; max-height: 2.6em; }
+.product-search-item .guide-product-card-desc { font-size: 11px; min-height: 0; max-height: 2.6em; overflow: hidden; }
 .product-search-item .guide-product-card-rating { font-size: 12px; }
 .product-search-item .guide-product-card-rating span { font-size: 10px; }
 .product-search-item .guide-product-card-rating-num { font-size: 11px; }
