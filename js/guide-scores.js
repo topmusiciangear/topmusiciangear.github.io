@@ -440,9 +440,9 @@ var GUIDE_SCORES = {
   "Arturia KeyLab Essential 61 MkIII": 9.3,
   "Novation Launchkey 49 MK4": 9.2,
   "Roland GO:KEYS 3": 9.1,
+  "M-Audio Hammer 88": 9.1,
   "Akai MPK Mini MK4": 9,
   "Novation Launchkey Mini 25 MK4": 9,
-  "M-Audio Hammer 88": 9,
  },
  "best-live-sound-mixers": {
   "Yamaha MG16XU": 9.1,
