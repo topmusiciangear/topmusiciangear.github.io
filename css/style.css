@@ -2363,8 +2363,8 @@ footer ul li a:hover { color: var(--accent); }
   font-size: 12px;
   color: var(--text-muted);
   line-height: 1.5;
-  height: 6em;
-  max-height: 6em;
+  height: 7.5em;
+  max-height: 7.5em;
   overflow: hidden;
   text-overflow: clip;
   padding-right: 0;
