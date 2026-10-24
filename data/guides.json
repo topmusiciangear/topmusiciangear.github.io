@@ -43065,9 +43065,9 @@
   },
   {
     "id": "best-monitors-for-small-rooms",
-    "title": "Best Studio Monitors for Small Rooms",
-    "title_es": "Mejores monitores de estudio para salas pequeñas",
-    "titleTag_es": "Mejores monitores de estudio para salas pequeñas",
+    "title": "Best Studio Monitors for Small & Untreated Rooms",
+    "title_es": "Mejores monitores de estudio para salas pequeñas y sin tratar",
+    "titleTag_es": "Mejores monitores de estudio para salas pequeñas y sin tratar (Pros & Cons)",
     "category": "monitors",
     "image": "img/products/dffba2e3a5.webp",
     "badge": "recommended",
@@ -43351,7 +43351,7 @@
     ],
     "description": "Neumann KH 80 DSP is my top pick. Mixing in a small untreated room is one of the biggest challenges for home studio producers.",
     "featuredSnippet": {
-      "title_en": "Best Studio Monitors for Small Rooms",
+      "title_en": "Best Studio Monitors for Small & Untreated Rooms",
       "text_en": "Mixing in a small untreated room is one of the biggest challenges for home studio producers. The wrong monitors will give you false information — making your bass sound full when it is actually thin, or making your mix sound balanced when it is actually a mess. After testing dozens of monitors in small rooms, the picks that really work are the Neumann KH 80 DSP and the iLoud Micro Monitor Pro, which tame room problems with MA 1 and ARC 4 auto-calibration, the Kali LP-6 V2 for 6.5-inch low end near a wall, and honest compact options like the Yamaha HS5, the ADAM D3V and the Kali LP-UNF.",
       "name1_en": "",
       "name2_en": "",
@@ -43367,7 +43367,7 @@
       "brand2": "",
       "rating1": 0,
       "rating2": 0,
-      "title_es": "Mejores monitores de estudio para salas pequeñas",
+      "title_es": "Mejores monitores de estudio para salas pequeñas y sin tratar",
       "text_es": "Mezclar en una habitación pequeña sin tratar es uno de los mayores desafíos para productores de home studio. Los monitores incorrectos te darán información falsa. Después de probar docenas de monitores en habitaciones pequeñas, los que realmente funcionan son el Neumann KH 80 DSP y el iLoud Micro Monitor Pro, que doman los problemas de la sala con la calibración automática MA 1 y ARC 4, el Kali LP-6 V2 para graves de 6,5 pulgadas cerca de la pared, y opciones compactas honestas como el Yamaha HS5, el ADAM D3V y el Kali LP-UNF.",
       "name1_es": "",
       "name2_es": "",
@@ -43377,27 +43377,27 @@
       "key2_es": "",
       "specs": [],
       "faq_q1_en": "What size monitors are best for a small room?",
-      "faq_a1_en": "5 to 6.5 inch woofers are best for small rooms. Larger woofers (8 inch) excite more room modes and create false bass. Pair smaller monitors with a subwoofer if needed.",
+      "faq_a1_en": "5 to 6.5 inch woofers are best for small rooms. Larger woofers reach lower frequencies that excite room modes. Avoid adding a subwoofer in an untreated small room; rely on front-ported monitors or DSP correction instead.",
       "faq_q1_es": "¿Qué tamaño de monitores es mejor para una habitación pequeña?",
-      "faq_a1_es": "Woofers de 5 a 6,5 pulgadas. Los woofers grandes (8 pulgadas) excitan más modos de sala.",
+      "faq_a1_es": "Woofers de 5 a 6,5 pulgadas son los mejores para salas pequeñas. Los woofers más grandes alcanzan frecuencias más bajas que excitan los modos de la sala. Evita añadir un subwoofer en una sala pequeña sin tratar; mejor usa monitores con puerto frontal o corrección DSP.",
       "faq_q2_en": "Do I need acoustic treatment for small room monitors?",
-      "faq_a2_en": "Yes. Bass traps in corners and absorption at first reflection points are important for accurate monitoring in small rooms. Even basic treatment dramatically improves translation.",
+      "faq_a2_en": "Treatment helps, but if you cannot treat the room, choose front-ported monitors or DSP-corrected models (Neumann, iLoud) and use boundary EQ to tame bass build-up.",
       "faq_q2_es": "¿Necesito tratamiento acústico para monitores en sala pequeña?",
-      "faq_a2_es": "Sí. Trampas de graves en esquinas y absorción en puntos de primera reflexión son esenciales.",
+      "faq_a2_es": "El tratamiento ayuda, pero si no puedes tratar la sala, elige monitores con puerto frontal o con corrección DSP (Neumann, iLoud) y usa el boundary EQ para controlar la acumulación de graves.",
       "faq_q3_en": "Front port vs rear port for small rooms?",
-      "faq_a3_en": "Front-ported monitors (like the Kali LP-6 V2) are excellent for small rooms because their ports fire forward, avoiding wall reflections that muddy the bass. Rear-ported monitors like the JBL 305P MkII need a few inches of clearance (or a Boundary EQ switch) to stay clean near a wall.",
+      "faq_a3_en": "Front-ported monitors (like the Kali LP-6 V2) are excellent for small rooms because their ports fire forward, avoiding wall reflections. Rear-ported monitors like the JBL 305P MkII need 30-45 cm (12-18 inches) of clearance from an untreated wall, or boundary EQ engaged.",
       "faq_q3_es": "¿Puerto frontal o trasero para salas pequeñas?",
-      "faq_a3_es": "El puerto frontal (como el del Kali LP-6 V2) es excelente en salas pequeñas porque dispara hacia adelante y evita las reflexiones de pared que ensucian los graves. Los monitores con puerto trasero, como el JBL 305P MkII, necesitan unos centímetros de espacio (o un interruptor Boundary EQ) para mantenerse limpios cerca de la pared.",
+      "faq_a3_es": "Los monitores con puerto frontal (como Kali LP-6 V2) son excelentes para salas pequeñas porque el puerto dispara hacia adelante, evitando reflexiones en la pared. Los de puerto trasero como JBL 305P MkII necesitan 30-45 cm de separación de una pared sin tratar, o el boundary EQ activado.",
       "faq_q4_en": "What is DSP room correction and do I need it?",
       "faq_a4_en": "DSP EQ lets you adjust the monitors frequency response to compensate for room acoustics. The Neumann KH 80 DSP has built-in DSP room correction. It is highly recommended for small untreated rooms.",
       "faq_q4_es": "¿Qué es la corrección DSP y la necesito?",
       "faq_a4_es": "La EQ DSP ajusta la respuesta de frecuencia para compensar la acústica. Muy recomendada para salas pequeñas sin tratar.",
       "faq_q5_en": "Can I mix in a small room without treatment?",
-      "faq_a5_en": "You can, but your bass decisions will be unreliable. Cross-check your mixes on headphones (DT 990 Pro) and reference systems (phone, car) before finalizing — see our <a href=\"/guides/best-headphones.html\">best studio headphones guide</a>.",
+      "faq_a5_en": "You can, but bass decisions will be unreliable. Use DSP/front-ported monitors and cross-check on headphones and reference systems before finalizing.",
       "faq_q5_es": "¿Puedo mezclar en una sala pequeña sin tratamiento?",
-      "faq_a5_es": "Sí, pero tus decisiones de graves no serán fiables. Verifica tus mezclas en auriculares y otros sistemas — consulta nuestra <a href=\"/guides/best-headphones_es.html\">guía de auriculares de estudio</a>."
+      "faq_a5_es": "Se puede, pero las decisiones de graves serán poco fiables. Usa monitores con DSP o puerto frontal y contrasta en auriculares y sistemas de referencia antes de finalizar."
     },
-    "description_es": "Mi elección: Neumann KH 80 DSP. Mezclar en una habitación pequeña sin tratar es uno de los mayores desafíos para los productores de home studio.",
+    "description_es": "Neumann KH 80 DSP es mi elección principal. Mezclar en una sala pequeña y sin tratar es uno de los mayores desafíos para los productores de home studio.",
     "author": {
       "@type": "Person",
       "name": "Daniel Carnago",
@@ -43425,13 +43425,9 @@
     },
     "aboutName": "Studio Monitors",
     "productTable": {
-      "title": "Best Monitors for Small Rooms Compared in This Guide",
-      "title_es": "Comparativa de los mejores monitores para salas pequeñas en esta guía",
+      "title": "Best Monitors for Small & Untreated Rooms Compared in This Guide",
+      "title_es": "Comparativa de los mejores monitores para salas pequeñas y sin tratar en esta guía",
       "columns": [
-        {
-          "title": "Neumann KH 80 DSP",
-          "title_es": "Neumann KH 80 DSP"
-        },
         {
           "title": "iLoud Micro Monitor Pro",
           "title_es": "iLoud Micro Monitor Pro"
@@ -43441,8 +43437,8 @@
           "title_es": "Kali Audio LP-6 V2"
         },
         {
-          "title": "Genelec 8010A",
-          "title_es": "Genelec 8010A"
+          "title": "Neumann KH 80 DSP",
+          "title_es": "Neumann KH 80 DSP"
         },
         {
           "title": "iLoud MTM MKII",
@@ -43453,8 +43449,8 @@
           "title_es": "KRK Rokit 5 G5"
         },
         {
-          "title": "Genelec 8030C",
-          "title_es": "Genelec 8030C"
+          "title": "Genelec 8010A",
+          "title_es": "Genelec 8010A"
         },
         {
           "title": "ADAM Audio D3V",
@@ -43467,6 +43463,10 @@
         {
           "title": "PreSonus Eris Studio 5",
           "title_es": "PreSonus Eris Studio 5"
+        },
+        {
+          "title": "Genelec 8030C",
+          "title_es": "Genelec 8030C"
         },
         {
           "title": "JBL 305P MkII",
@@ -43487,56 +43487,56 @@
           "label_es": "Ideal para",
           "values": [
             {
-              "value": "DSP-corrected precision monitoring",
-              "value_es": "Monitoreo de precisión con DSP"
+              "value": "Best for Untreated Desks via Auto-Calibration",
+              "value_es": "Mejor para escritorios sin tratar con autocorrección"
             },
             {
-              "value": "Ultra-compact desktop mixing",
-              "value_es": "Mezcla ultracompacta de escritorio"
+              "value": "Best Budget Choice for Untreated Rooms (Front Port)",
+              "value_es": "Mejor opción económica para salas sin tratar (puerto frontal)"
             },
             {
-              "value": "Near-wall value mixing",
-              "value_es": "Mezcla de valor cerca de la pared"
+              "value": "Best Premium Choice for Untreated Rooms",
+              "value_es": "Mejor opción premium para salas sin tratar"
             },
             {
-              "value": "Reference-grade nearfield mixing",
-              "value_es": "Mezcla nearfield de referencia"
+              "value": "Best Low-End Accuracy without Acoustic Treatment",
+              "value_es": "Mayor precisión en graves sin tratamiento acústico"
             },
             {
-              "value": "Serious compact mixing & mastering",
-              "value_es": "Mezcla y masterización compacta seria"
+              "value": "Best Budget DSP Controls for Untreated Spaces",
+              "value_es": "Mejores controles DSP económicos para espacios sin tratar"
             },
             {
-              "value": "DSP-tuned mixing against the wall",
-              "value_es": "Mezcla con DSP pegada a la pared"
+              "value": "Reference-grade nearfield mixing (Rear port - needs space)",
+              "value_es": "Mezcla nearfield de referencia (puerto trasero - necesita espacio)"
             },
             {
-              "value": "Professional reference monitoring",
-              "value_es": "Monitoreo de referencia profesional"
+              "value": "Best Portless Desktop Choice for Bare Walls",
+              "value_es": "Mejor opción sin puerto para paredes desnudas"
             },
             {
-              "value": "Ribbon-tweeter desktop mixing",
-              "value_es": "Mezcla de escritorio con tweeter de cinta"
+              "value": "Best Ultra-Nearfield for Untreated Desktops",
+              "value_es": "Mejor ultracercano para escritorios sin tratar"
             },
             {
-              "value": "Ultra-nearfield near-wall bass",
-              "value_es": "Graves ultra-nearfield cerca de la pared"
+              "value": "Best Budget Wide Sweet Spot (Front Ported)",
+              "value_es": "Mejor relación calidad-precio con sweet spot amplio (puerto frontal)"
             },
             {
-              "value": "Wide sweet spot with waveguide control and desk-reflection rejection",
-              "value_es": "Zona de escucha ancha con guía de onda y sin reflexiones de escritorio"
+              "value": "Professional reference monitoring (Best with built-in dip switches engaged)",
+              "value_es": "Monitoreo de referencia profesional (mejor con dip switches activados)"
             },
             {
-              "value": "Best value nearfield mixing",
-              "value_es": "Mezcla nearfield con mejor relación calidad-precio"
+              "value": "Industry-standard translation (Requires >40cm from untreated walls)",
+              "value_es": "Traducción estándar de la industria (requiere >40cm de paredes sin tratar)"
             },
             {
-              "value": "Detailed mixing for small studios",
-              "value_es": "Mezcla detallada para estudios pequeños"
+              "value": "Affordable ribbon tweeter (Rear port - needs space)",
+              "value_es": "Tweeter ribbon asequible (puerto trasero - necesita espacio)"
             },
             {
-              "value": "Industry-standard mix translation",
-              "value_es": "El estándar de la industria para traducción de mezclas"
+              "value": "Industry-standard mix translation (Rear port - needs space)",
+              "value_es": "Traducción estándar de la industria (puerto trasero - necesita espacio)"
             }
           ]
         },
@@ -43544,10 +43544,6 @@
           "label": "Type",
           "label_es": "Tipo",
           "values": [
-            {
-              "value": "2-way powered with DSP",
-              "value_es": "Biamplificado de 2 vías con DSP"
-            },
             {
               "value": "2-way powered (pair)",
               "value_es": "Biamplificado de 2 vías (par)"
@@ -43557,8 +43553,8 @@
               "value_es": "Biamplificado de 2 vías"
             },
             {
-              "value": "2-way powered",
-              "value_es": "Biamplificado de 2 vías"
+              "value": "2-way powered with DSP",
+              "value_es": "Biamplificado de 2 vías con DSP"
             },
             {
               "value": "2-way/3-speaker with DSP",
@@ -43593,6 +43589,10 @@
               "value_es": "Biamplificado de 2 vías"
             },
             {
+              "value": "2-way powered",
+              "value_es": "Biamplificado de 2 vías"
+            },
+            {
               "value": "2-way bi-amped",
               "value_es": "Biamplificado de 2 vías"
             }
@@ -43603,10 +43603,6 @@
           "label_es": "Graves",
           "values": [
             {
-              "value": "4\"",
-              "value_es": "4\""
-            },
-            {
               "value": "3\" composite cellulose fiber",
               "value_es": "3\" de fibra de celulosa compuesta"
             },
@@ -43615,8 +43611,8 @@
               "value_es": "6.5\""
             },
             {
-              "value": "3\"",
-              "value_es": "3\""
+              "value": "4\"",
+              "value_es": "4\""
             },
             {
               "value": "2 × 3.5\"",
@@ -43627,8 +43623,8 @@
               "value_es": "5\" de Kevlar"
             },
             {
-              "value": "5\" (130 mm)",
-              "value_es": "5\" (130 mm)"
+              "value": "3\"",
+              "value_es": "3\""
             },
             {
               "value": "3.5\" aluminum",
@@ -43641,6 +43637,10 @@
             {
               "value": "5.25\" woven composite",
               "value_es": "Cono de 5.25\" de compuesto trenzado"
+            },
+            {
+              "value": "5\" (130 mm)",
+              "value_es": "5\" (130 mm)"
             },
             {
               "value": "5\"",
@@ -43661,10 +43661,6 @@
           "label_es": "Agudos",
           "values": [
             {
-              "value": "1\" dome",
-              "value_es": "1\" de cúpula"
-            },
-            {
               "value": "1\" silk dome",
               "value_es": "Cúpula de seda de 1\""
             },
@@ -43673,20 +43669,20 @@
               "value_es": "1\" de cúpula textil"
             },
             {
+              "value": "1\" dome",
+              "value_es": "1\" de cúpula"
+            },
+            {
+              "value": "1\" silk dome",
+              "value_es": "1\" de cúpula de seda"
+            },
+            {
+              "value": "1\" silk dome",
+              "value_es": "1\" de cúpula de seda"
+            },
+            {
               "value": "3/4\"",
               "value_es": "3/4\""
-            },
-            {
-              "value": "1\" silk dome",
-              "value_es": "1\" de cúpula de seda"
-            },
-            {
-              "value": "1\" silk dome",
-              "value_es": "1\" de cúpula de seda"
-            },
-            {
-              "value": "3/4\" metal dome",
-              "value_es": "3/4\" de cúpula metálica"
             },
             {
               "value": "1.5\" D-ART ribbon",
@@ -43699,6 +43695,10 @@
             {
               "value": "1\" ultra-low-mass silk dome",
               "value_es": "Cúpula de seda ultraligera de 1\""
+            },
+            {
+              "value": "3/4\" metal dome",
+              "value_es": "3/4\" de cúpula metálica"
             },
             {
               "value": "1\"",
@@ -43719,10 +43719,6 @@
           "label_es": "Potencia",
           "values": [
             {
-              "value": "140W (90W + 50W)",
-              "value_es": "140W (90W + 50W)"
-            },
-            {
               "value": "50W RMS per speaker (30W LF + 20W HF)",
               "value_es": "50W RMS por monitor (30W LF + 20W HF)"
             },
@@ -43731,8 +43727,8 @@
               "value_es": "80W (40W + 40W)"
             },
             {
-              "value": "50W (25W + 25W)",
-              "value_es": "50W (25W + 25W)"
+              "value": "140W (90W + 50W)",
+              "value_es": "140W (90W + 50W)"
             },
             {
               "value": "200W RMS (pair)",
@@ -43743,8 +43739,8 @@
               "value_es": "55W RMS (35W LF + 20W HF)"
             },
             {
-              "value": "100W Class-D (50W + 50W)",
-              "value_es": "100W Clase-D (50W + 50W)"
+              "value": "50W (25W + 25W)",
+              "value_es": "50W (25W + 25W)"
             },
             {
               "value": "240W peak (pair)",
@@ -43757,6 +43753,10 @@
             {
               "value": "80W (45W LF + 35W HF)",
               "value_es": "80W (45W LF + 35W HF)"
+            },
+            {
+              "value": "100W Class-D (50W + 50W)",
+              "value_es": "100W Clase-D (50W + 50W)"
             },
             {
               "value": "82W (41W + 41W)",
@@ -43777,10 +43777,6 @@
           "label_es": "Respuesta de frecuencia",
           "values": [
             {
-              "value": "57 Hz – 21 kHz (±3 dB)",
-              "value_es": "57 Hz – 21 kHz (±3 dB)"
-            },
-            {
               "value": "42 Hz – 22 kHz (-10 dB)",
               "value_es": "42 Hz – 22 kHz (-10 dB)"
             },
@@ -43789,8 +43785,8 @@
               "value_es": "47 Hz – 21 kHz (±3 dB)"
             },
             {
-              "value": "67 Hz – 25 kHz (-6 dB)",
-              "value_es": "67 Hz – 25 kHz (-6 dB)"
+              "value": "57 Hz – 21 kHz (±3 dB)",
+              "value_es": "57 Hz – 21 kHz (±3 dB)"
             },
             {
               "value": "36 Hz – 32 kHz (-10 dB)",
@@ -43801,8 +43797,8 @@
               "value_es": "54 Hz – 30 kHz (±3 dB)"
             },
             {
-              "value": "47 Hz – 25 kHz (-6 dB)",
-              "value_es": "47 Hz – 25 kHz (-6 dB)"
+              "value": "67 Hz – 25 kHz (-6 dB)",
+              "value_es": "67 Hz – 25 kHz (-6 dB)"
             },
             {
               "value": "45 Hz – 23.2 kHz (-6 dB)",
@@ -43815,6 +43811,10 @@
             {
               "value": "48 Hz – 20 kHz",
               "value_es": "48 Hz – 20 kHz"
+            },
+            {
+              "value": "47 Hz – 25 kHz (-6 dB)",
+              "value_es": "47 Hz – 25 kHz (-6 dB)"
             },
             {
               "value": "49 Hz – 20 kHz (±3 dB)",
@@ -43835,10 +43835,6 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "108.8 dB",
-              "value_es": "108,8 dB"
-            },
-            {
               "value": "94 dB continuous / 107.3 dB peak",
               "value_es": "94 dB continuos / 107,3 dB de pico"
             },
@@ -43847,8 +43843,8 @@
               "value_es": "115 dB"
             },
             {
-              "value": "96 dB",
-              "value_es": "96 dB"
+              "value": "108.8 dB",
+              "value_es": "108,8 dB"
             },
             {
               "value": "112.5 dB",
@@ -43859,8 +43855,8 @@
               "value_es": "104 dB"
             },
             {
-              "value": "104 dB",
-              "value_es": "104 dB"
+              "value": "96 dB",
+              "value_es": "96 dB"
             },
             {
               "value": "96 dB",
@@ -43873,6 +43869,10 @@
             {
               "value": "102 dB peak @ 1 m",
               "value_es": "102 dB pico a 1 m"
+            },
+            {
+              "value": "104 dB",
+              "value_es": "104 dB"
             },
             {
               "value": "108 dB",
@@ -43893,10 +43893,6 @@
           "label_es": "Dimensiones",
           "values": [
             {
-              "value": "9.1 x 6 x 7.6 in",
-              "value_es": "23.3 x 15.4 x 19,4 cm"
-            },
-            {
               "value": "4.17 x 8.11 x 6.22 in / 106 x 206 x 158 mm",
               "value_es": "4.17 x 8.11 x 6.22 in / 106 x 206 x 158 mm"
             },
@@ -43905,8 +43901,8 @@
               "value_es": "35.9 x 22.2 x 26 cm"
             },
             {
-              "value": "7.7 x 4.8 x 4.5 in",
-              "value_es": "19.5 x 12.1 x 11,5 cm"
+              "value": "9.1 x 6 x 7.6 in",
+              "value_es": "23.3 x 15.4 x 19,4 cm"
             },
             {
               "value": "10.4 x 6.3 x 5.1 in",
@@ -43917,8 +43913,8 @@
               "value_es": "28.8 x 19.1 x 24,2 cm"
             },
             {
-              "value": "11.8 x 7.4 x 7.0 in",
-              "value_es": "29.9 x 18.9 x 17,8 cm"
+              "value": "7.7 x 4.8 x 4.5 in",
+              "value_es": "19.5 x 12.1 x 11,5 cm"
             },
             {
               "value": "7.9 x 4.5 x 5.9 in",
@@ -43931,6 +43927,10 @@
             {
               "value": "11.5 x 8 x 8.8 in",
               "value_es": "29.2 x 20.3 x 22,3 cm"
+            },
+            {
+              "value": "11.8 x 7.4 x 7.0 in",
+              "value_es": "29.9 x 18.9 x 17,8 cm"
             },
             {
               "value": "11.7 x 7.3 x 9.1 in",
@@ -43963,10 +43963,6 @@
               "value_es": "Frontal"
             },
             {
-              "value": "Rear",
-              "value_es": "Trasero"
-            },
-            {
               "value": "Front",
               "value_es": "Frontal"
             },
@@ -43989,6 +43985,10 @@
             {
               "value": "Front, resonance-suppressing bracing",
               "value_es": "Frontal, con refuerzo interno antirresonancia"
+            },
+            {
+              "value": "Rear",
+              "value_es": "Trasero"
             },
             {
               "value": "Rear",
@@ -44373,7 +44373,7 @@
       }
     ],
     "datePublished": "2026-08-18",
-    "titleTag": "Best Studio Monitors for Small Rooms (Pros & Cons)"
+    "titleTag": "Best Studio Monitors for Small & Untreated Rooms (Pros & Cons)"
   },
   {
     "id": "best-multi-effects-pedals",
