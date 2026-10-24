@@ -6323,6 +6323,30 @@ function scoreBadge(p, lang) {
   '</div>';
 }
 
+// Card text: keep the full description when it is reasonably short, otherwise
+// show the leading complete sentences only (never a cut mid-word or mid-number).
+// The full text stays untouched in data/products.json.
+const CARD_DESC_LIMIT = 420;
+function cardDesc(text) {
+  const t = String(text || '').replace(/\s+/g, ' ').trim();
+  if (t.length <= CARD_DESC_LIMIT) return t;
+  const parts = t.split(/(?<=[.!?])\s+(?=[A-Z\u00C0-\u00DE\u00BF\u00A1"'0-9(])/);
+  let out = '';
+  for (let i = 0; i < parts.length; i++) {
+    const cand = (out ? out + ' ' : '') + parts[i];
+    if (cand.length > CARD_DESC_LIMIT) break;
+    out = cand;
+  }
+  out = out.trim();
+  if (!out) {
+    const cut = t.slice(0, CARD_DESC_LIMIT);
+    out = cut.slice(0, cut.lastIndexOf(' '));
+  }
+  out = out.replace(/[\s,;:\-\u2014]+$/, '');
+  if (!/[.!?]["')\]]?$/.test(out)) out += '.';
+  return out;
+}
+
 function productCard(p, lang) {
   const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (lang === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
   const rawTitle = (lang === 'es' && p.title_es ? p.title_es : p.title);
@@ -6330,7 +6354,7 @@ function productCard(p, lang) {
     var map = { each: 'Each', pair: 'Pair', unidad: 'Unidad', par: 'Par' };
     return ' (' + (map[u.toLowerCase()] || 'Unidad') + ')';
   }) + unitLabel;
-  const desc = lang === 'es' && p.desc_es ? p.desc_es : p.desc;
+  const desc = cardDesc(lang === 'es' && p.desc_es ? p.desc_es : p.desc);
   const stores = storeChips(p, lang);
   const gi = guideCutImg(p);
   const imgSrc = gi.src;
