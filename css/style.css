@@ -2693,6 +2693,13 @@ footer ul li a:hover { color: var(--accent); }
     max-width: none;
     margin-top: 16px;
   }
+  /* ensure spacing between primary button and dropdown on mobile */
+  .guide-section-buy {
+    gap: 8px;
+  }
+  .guide-section-buy .shop-btn-primary {
+    margin-right: 8px;
+  }
 }
 
 .guide-section-prods {
