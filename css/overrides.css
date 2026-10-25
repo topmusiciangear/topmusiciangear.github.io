@@ -33,7 +33,7 @@
   .guide-section-mediabuy .guide-video-thumb {
     width: 100% !important;
     aspect-ratio: 1/1 !important;
-    max-height: 55vh !important;
+    max-height: 65vh !important;
     object-fit: contain !important;
   }
 }
