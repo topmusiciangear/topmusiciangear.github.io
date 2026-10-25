@@ -32,7 +32,7 @@
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
     width: 100% !important;
-    aspect-ratio: 16/10 !important;
+    aspect-ratio: 1/1 !important;
     max-height: 55vh !important;
     object-fit: contain !important;
   }
