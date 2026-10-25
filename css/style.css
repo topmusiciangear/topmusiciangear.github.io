@@ -2118,6 +2118,14 @@ footer ul li a:hover { color: var(--accent); }
   transition: width .3s ease;
 }
 
+/* Title of comparison tables in accent color */
+.guide-comp-title {
+  color: var(--accent);
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
 .guide-section-imgs {
   display: flex;
   gap: 12px;
