@@ -2124,6 +2124,7 @@ footer ul li a:hover { color: var(--accent); }
   font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .guide-section-imgs {
