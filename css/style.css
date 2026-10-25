@@ -2553,9 +2553,10 @@ footer ul li a:hover { color: var(--accent); }
     flex-direction: row;
   }
   .guide-section-mediabuy > .guide-section-buy {
-    flex: 1 1 50%;
-    width: 50%;
+    flex: 1 1 100%;
+    width: 100%;
     max-width: none;
+    margin-top: 16px;
   }
   .guide-section-mediabuy > .guide-section-imgs {
     width: 100%;
