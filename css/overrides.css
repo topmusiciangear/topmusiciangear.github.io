@@ -1,5 +1,5 @@
 /* Mobile-only overrides for gaps */
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   /* Reviews tighter */
   .guide-reviews-list {
     gap: 4px !important;
