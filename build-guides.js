@@ -6433,71 +6433,19 @@ function cardDesc(text) {
   return cardCleanEnd(out.trim());
 }
 
-function quickScoreBadge(p, lang) {
-  var gs = guideScore(p, CURRENT_GUIDE_ID);
-  if (gs === undefined || gs === null) return '';
-  var score = Number(gs).toFixed(1);
-  var label = (lang === 'es' ? 'nota' : 'score');
-  return '<div style="position:absolute;top:8px;left:8px;width:42px;height:42px;border-radius:50%;background:#16181d;border:3px solid #4d8dff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2" aria-label="' + (lang === 'es' ? 'Nuestra nota: ' : 'Our score: ') + score + ' out of 10">' +
-    '<div style="font-size:13px;font-weight:500;color:#fff;line-height:1">' + score + '</div>' +
-    '<div style="font-size:11px;color:#9aa0ab;line-height:1;margin-top:1px">' + label + '</div>' +
-  '</div>';
-}
 
-function productCard(p, lang) {
-  const isEs = lang === 'es';
-  const unitLabel = p.unit === 'each' ? (isEs ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (isEs ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (isEs ? ' (2 auriculares)' : ' (2 headsets)') : '';
-  const rawTitle = (isEs && p.title_es ? p.title_es : p.title);
+﻿function productCard(p, lang) {
+  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (lang === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+  const rawTitle = (lang === 'es' && p.title_es ? p.title_es : p.title);
   const title = rawTitle.replace(/\s*\((each|pair|unidad|par|cada uno|cada una)\)\s*$/i, function (m, u) {
     var map = { each: 'Each', pair: 'Pair', unidad: 'Unidad', par: 'Par' };
     return ' (' + (map[u.toLowerCase()] || 'Unidad') + ')';
   }) + unitLabel;
-  const desc = cardDesc(isEs && p.desc_es ? p.desc_es : p.desc);
+  const desc = cardDesc(lang === 'es' && p.desc_es ? p.desc_es : p.desc);
   const stores = storeChips(p, lang);
   const gi = guideCutImg(p);
   const imgSrc = gi.src;
   const cutout = gi.cut;
-  const hasFacts = !!(p.bestFor && p.facts && p.facts.length);
-
-  if (hasFacts) {
-    const bestFor = (isEs ? p.bestFor.es : p.bestFor.en) || '';
-    const bestForLabel = isEs ? 'Ideal para' : 'Best for';
-    const factsHtml = p.facts.map(function (f) {
-      const label = (isEs ? (f.label && f.label.es) : (f.label && f.label.en)) || '';
-      const tone = f.tone === 'tradeoff' ? 'tradeoff' : 'good';
-      return '<div class="gpq-fact gpq-fact--' + tone + '">' +
-        '<span class="gpq-fact-icon" aria-hidden="true">' + icon(f.icon, 'fa-solid') + '</span>' +
-        '<div class="gpq-fact-body">' +
-          '<div class="gpq-fact-value">' + (f.value || '') + '</div>' +
-          '<div class="gpq-fact-label">' + label + '</div>' +
-        '</div>' +
-      '</div>';
-    }).join('');
-    return '<div class="guide-product-card guide-product-card--quickfacts' + (cutout ? ' guide-product-card--cutout' : '') + '">' +
-      '<div class="gpq">' +
-        '<div class="gpq-photo">' +
-          '<img src="' + imgSrc + '" alt="' + title + '" loading="lazy" class="lb-img" style="cursor:zoom-in">' +
-          quickScoreBadge(p, lang) +
-        '</div>' +
-        '<div class="gpq-facts">' +
-          '<div class="gpq-bestfor">' +
-            '<div class="gpq-bestfor-label">' + bestForLabel + '</div>' +
-            '<div class="gpq-bestfor-value">' + bestFor + '</div>' +
-          '</div>' +
-          factsHtml +
-        '</div>' +
-        '<div class="gpq-cta">' + stores + '</div>' +
-      '</div>' +
-      '<div class="guide-product-card-body">' +
-        '<div class="guide-product-card-title-row">' +
-          '<h3 class="guide-product-card-title">' + title + '</h3>' +
-          productRatingLine(p, lang) +
-        '</div>' +
-        '<div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">' + desc + '</div></div>' +
-      '</div>' +
-    '</div>';
-  }
-
   return `<div class="guide-product-card${cutout ? ' guide-product-card--cutout' : ''}">
     <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
@@ -6509,7 +6457,6 @@ function productCard(p, lang) {
     </div>
   </div>`;
 }
-
 function jsonLdScript(data) {
   return `<script type="application/ld+json">\n${JSON.stringify(data, null, 2)}\n</script>`;
 }
@@ -6926,9 +6873,29 @@ function buildGuidePage(guide, lang, idx) {
       const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
       const ownedElsewhere = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
       const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id) && !ownedElsewhere;
+      var quickFactsHtml = '';
       if (isFirstNew) {
         renderedProducts.add(firstProduct.id);
         sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
+        if (firstProduct.bestFor && firstProduct.facts && firstProduct.facts.length) {
+          const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
+          const _bfl = isEs ? 'Ideal para' : 'Best for';
+          quickFactsHtml = '<div style="flex:0 0 128px;width:128px;min-width:0;background:#22252c;border-radius:8px;padding:8px;box-sizing:border-box;display:flex;flex-direction:column;gap:6px">' +
+            '<div style="font-size:10px;color:#4d8dff;letter-spacing:.04em;text-transform:uppercase;font-weight:600">' + _bfl + '</div>' +
+            '<div style="font-size:12px;font-weight:500;color:#fff;line-height:1.3">' + _bf + '</div>' +
+            firstProduct.facts.map(function (f) {
+              const lbl = isEs ? (f.label && f.label.es) : (f.label && f.label.en);
+              const col = f.tone === 'tradeoff' ? '#f5a524' : '#4ade80';
+              return '<div style="display:flex;gap:6px;align-items:center">' +
+                '<span style="width:16px;height:16px;flex-shrink:0;color:' + col + ';display:flex;align-items:center;justify-content:center">' + icon(f.icon, 'fa-solid') + '</span>' +
+                '<div style="display:flex;flex-direction:column;gap:1px;min-width:0">' +
+                  '<div style="font-size:12px;font-weight:500;color:#fff;line-height:1.2">' + (f.value || '') + '</div>' +
+                  '<div style="font-size:10px;color:#9aa0ab;line-height:1.2">' + (lbl || '') + '</div>' +
+                '</div>' +
+              '</div>';
+            }).join('') +
+          '</div>';
+        }
       }
       var sectionVideo = s.video || (firstProduct && firstProduct.video) || null;
       if (isFirstNew && sectionVideo) {
@@ -6936,7 +6903,11 @@ function buildGuidePage(guide, lang, idx) {
         const gifp = guideCutImg(firstProduct);
         const psrc = gifp.src;
         productImgs = '<div class="guide-section-imgs">' +
-          '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gifp.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+          '<div style="position:relative;display:inline-block">' +
+            '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gifp.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+            scoreBadge(firstProduct, isEs ? 'es' : 'en') +
+          '</div>' +
+          quickFactsHtml +
           '<div class="guide-video-thumb lb-video" data-yt="' + sectionVideo + '" role="button" aria-label="Play video" tabindex="0">' +
             '<img src="https://i.ytimg.com/vi/' + sectionVideo + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + sectionVideo + '/hqdefault.jpg\'">' +
             '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
@@ -6945,7 +6916,11 @@ function buildGuidePage(guide, lang, idx) {
       } else if (isFirstNew) {
         const gis = guideCutImg(firstProduct);
         productImgs = '<div class="guide-section-imgs">' +
-          '<img src="' + gis.src + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gis.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+          '<div style="position:relative;display:inline-block">' +
+            '<img src="' + gis.src + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gis.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+            scoreBadge(firstProduct, isEs ? 'es' : 'en') +
+          '</div>' +
+          quickFactsHtml +
           '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
         '</div>';
       }
