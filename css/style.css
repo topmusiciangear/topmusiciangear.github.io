@@ -2550,11 +2550,11 @@ footer ul li a:hover { color: var(--accent); }
 }
 @media (max-width: 640px) {
   .guide-section-mediabuy {
-    flex-direction: column;
+    flex-direction: row;
   }
   .guide-section-mediabuy > .guide-section-buy {
-    flex: 1 1 auto;
-    width: 100%;
+    flex: 1 1 50%;
+    width: 50%;
     max-width: none;
   }
   .guide-section-mediabuy > .guide-section-imgs {
@@ -2565,8 +2565,8 @@ footer ul li a:hover { color: var(--accent); }
   .guide-section-mediabuy .guide-video-thumb {
     flex: none;
     min-width: 0;
-    width: 120px;
-    height: 120px;
+    width: 50%;
+    height: 50%;
   }
 }
 
