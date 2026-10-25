@@ -1900,8 +1900,8 @@ footer ul li a:hover { color: var(--accent); }
 .guide-detail-sections {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-  margin-bottom: 8px;
+  gap: 32px;
+  margin-bottom: 20px;
 }
 
 /* Las columnas nunca deben crecer por el contenido (fotos 160 + compra 420) */
@@ -1918,7 +1918,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .guide-section {
-  padding-bottom: 12px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(255,255,255,.08);
   contain: layout style;
 }
@@ -2008,7 +2008,6 @@ footer ul li a:hover { color: var(--accent); }
   display: flex;
   gap: 12px;
   margin-top: 16px;
-  margin-bottom: 24px;
   flex-wrap: wrap;
 }
 .guide-section-img {
@@ -3060,7 +3059,7 @@ main:has(.mobile-social) + footer {
 .guide-faq-icon { font-size: 20px; font-weight: 300; color: var(--accent); flex-shrink: 0; transition: transform .25s ease; }
 .guide-faq-question.open .guide-faq-icon { transform: rotate(45deg); }
 .guide-faq-answer { color: var(--text-secondary); font-size: 14px; line-height: 1.7; max-height: 0; overflow: hidden; transition: max-height .3s ease; }
-.guide-faq-answer-inner { padding: 12px 20px 16px; }
+.guide-faq-answer-inner { padding: 0 20px 16px; }
 
 .product-search-grid {
   display: grid;
