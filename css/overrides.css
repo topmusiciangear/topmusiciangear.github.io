@@ -78,11 +78,13 @@
     margin-right: 4px !important;
   }
   /* Prevent reserved space for collapsed dropdown */
-  .guide-section-buy .shop-more-list {
-    margin-top: 0 !important;
-  }
   .shop-more-list {
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .shop-btn-review {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
   .guide-section-mediabuy {
     gap: 4px !important;
