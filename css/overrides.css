@@ -30,10 +30,10 @@
     gap: 4px !important;
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
-    align-items: start !important;
+    align-items: stretch !important;
     max-width: 100% !important;
     flex: none !important;
-    height: fit-content !important;
+    height: auto !important;
   }
   /* Photo wrapper takes left column */
   .guide-section-imgs > div:first-child {
@@ -43,8 +43,8 @@
   .guide-section-quickfacts {
     grid-column: 2 !important;
     width: 100% !important;
-    height: auto !important;
-    align-self: start !important;
+    height: 100% !important;
+    align-self: stretch !important;
   }
   .guide-section-buy {
     gap: 4px !important;
