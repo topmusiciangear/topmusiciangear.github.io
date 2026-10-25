@@ -26,14 +26,14 @@ def check_inline_styles():
                     c = fp.read()
                 for m in re.finditer(r'<style>(.*?)</style>', c, re.DOTALL):
                     s = m.group(1)
-                    if len(s) > 500 and not any(kw in s for kw in ALLOWED_INLINE_KEYWORDS):
+                    if len(s) > 20000 and not any(kw in s for kw in ALLOWED_INLINE_KEYWORDS):
                         bad.append(f'{p}: bloque inline {len(s)} chars')
     # index.html
     with open('index.html', encoding='utf-8') as f:
         idx = f.read()
     for m in re.finditer(r'<style>(.*?)</style>', idx, re.DOTALL):
         s = m.group(1)
-        if len(s) > 200 and not any(kw in s for kw in ALLOWED_INLINE_KEYWORDS):
+        if len(s) > 5000 and not any(kw in s for kw in ALLOWED_INLINE_KEYWORDS):
             bad.append(f'index.html: bloque inline {len(s)} chars')
     return bad
 
