@@ -23,13 +23,16 @@
   }
   /* Reduce section spacing on mobile */
   .guide-section {
-    padding-bottom: 8px !important;
+    padding-bottom: 4px !important;
   }
   .guide-section-heading {
-    margin-bottom: 8px !important;
+    margin-bottom: 6px !important;
+  }
+  .guide-section-content > *:last-child {
+    margin-bottom:0 !important;
   }
   .guide-section-content p {
-    margin-bottom: 6px !important;
+    margin-bottom: 4px !important;
   }
   /* Hide empty video placeholder to avoid extra grid row */
   .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
@@ -59,6 +62,7 @@
   .guide-section-buy {
     gap: 4px !important;
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
     width: 100% !important;
   }
   .guide-section-buy .shop-btn-primary {
