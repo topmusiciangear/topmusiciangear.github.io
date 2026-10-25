@@ -14,25 +14,40 @@
     margin-bottom: 3px !important;
   }
 
-  /* Buttons closer to photos / buy block */
+  /* Photo left 50% / info card right 50% / buttons below */
   .guide-section-mediabuy {
-    gap: 12px !important;
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important;
-  }
-  .guide-section-buy {
     gap: 8px !important;
-    flex: 1 1 auto !important;
-  }
-  .guide-section-buy .shop-btn-primary {
-    margin-right: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
   }
   .guide-section-imgs {
     margin-bottom: 0 !important;
     gap: 8px !important;
-    flex: 0 0 50% !important;
-    max-width: 50% !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: stretch !important;
+    max-width: 100% !important;
+    flex: none !important;
+  }
+  /* Photo wrapper takes left column */
+  .guide-section-imgs > div:first-child {
+    grid-column: 1 !important;
+  }
+  /* Quick facts card takes right column */
+  .guide-section-quickfacts {
+    grid-column: 2 !important;
+    width: 100% !important;
+    height: 100% !important;
+    align-self: start !important;
+  }
+  .guide-section-buy {
+    gap: 8px !important;
+    margin-top: 8px !important;
+    width: 100% !important;
+  }
+  .guide-section-buy .shop-btn-primary {
+    margin-right: 8px !important;
   }
   /* Photos bigger ~ half screen and separated from text */
   .guide-section-mediabuy .guide-section-img,
