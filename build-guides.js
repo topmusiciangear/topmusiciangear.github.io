@@ -6880,7 +6880,7 @@ function buildGuidePage(guide, lang, idx) {
         if (firstProduct.bestFor && firstProduct.facts && firstProduct.facts.length) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
-          quickFactsHtml = '<div style="flex:0 0 128px;width:128px;min-width:0;background:#22252c;border-radius:8px;padding:8px;box-sizing:border-box;display:flex;flex-direction:column;gap:6px">' +
+          quickFactsHtml = '<div style="flex:0 0 160px;width:160px;height:160px;min-width:0;background:#22252c;border-radius:8px;padding:6px;box-sizing:border-box;display:flex;flex-direction:column;gap:2px;overflow:hidden">' +
             '<div style="font-size:10px;color:#4d8dff;letter-spacing:.04em;text-transform:uppercase;font-weight:600">' + _bfl + '</div>' +
             '<div style="font-size:12px;font-weight:500;color:#fff;line-height:1.3">' + _bf + '</div>' +
             firstProduct.facts.map(function (f) {
