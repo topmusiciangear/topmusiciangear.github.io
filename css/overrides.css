@@ -1,4 +1,4 @@
-/* Mobile-only overrides for gaps */
+/* Mobile-only overrides for layout */
 @media (max-width: 640px) {
   /* Reviews tighter */
   .guide-reviews-list {
@@ -20,26 +20,19 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: stretch !important;
+    height: auto !important;
   }
-  /* Reduce section spacing on mobile */
-  .guide-section {
-    padding-bottom: 0 !important;
-    border-bottom: none !important;
-    margin-bottom: 4px !important;
+
+  /* Fix: flex: 0 0 340px en style.css se convierte en height: 340px en móvil (columna) */
+  .guide-section-mediabuy > .guide-section-buy {
+    flex: 0 0 auto !important;
+    height: auto !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
-  .guide-section-heading {
-    margin-bottom: 6px !important;
-  }
-  .guide-section-content > *:last-child {
-    margin-bottom:0 !important;
-  }
-  .guide-section-content p {
-    margin-bottom: 4px !important;
-  }
-  /* Hide empty video placeholder to avoid extra grid row */
-  .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
-    display: none !important;
-  }
+
   .guide-section-imgs {
     margin: 0 !important;
     gap: 4px !important;
@@ -50,6 +43,7 @@
     flex: none !important;
     height: auto !important;
   }
+
   /* Photo wrapper takes left column */
   .guide-section-imgs > div:first-child {
     grid-column: 1 !important;
@@ -58,6 +52,7 @@
   .guide-section-imgs > div {
     vertical-align: top !important;
   }
+
   /* Quick facts card takes right column */
   .guide-section-quickfacts {
     grid-column: 2 !important;
@@ -65,30 +60,7 @@
     height: 100% !important;
     align-self: stretch !important;
   }
-  .guide-section-buy {
-    gap: 4px !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    width: 100% !important;
-  }
-  .guide-section-mediabuy > .guide-section-buy {
-    margin-top: 0 !important;
-  }
-  .guide-section-buy .shop-btn-primary {
-    margin-right: 4px !important;
-  }
-  /* Prevent reserved space for collapsed dropdown */
-  .shop-more-list {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  .shop-btn-review {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  .guide-section-mediabuy {
-    gap: 4px !important;
-  }
+
   /* Photos bigger ~ half screen and separated from text */
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
@@ -97,5 +69,10 @@
     aspect-ratio: auto !important;
     max-height: 35vh !important;
     object-fit: contain !important;
+  }
+
+  /* Hide empty video placeholder to avoid extra grid row */
+  .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
+    display: none !important;
   }
 }
