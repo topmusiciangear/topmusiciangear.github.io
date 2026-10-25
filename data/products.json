@@ -8938,7 +8938,7 @@
         "tone": "good"
       },
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "300 Hz",
         "label": {
           "en": "Bass cut",
@@ -8947,7 +8947,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "150 dB",
         "label": {
           "en": "Max SPL",
