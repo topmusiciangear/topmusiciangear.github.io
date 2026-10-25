@@ -3199,7 +3199,13 @@ main:has(.mobile-social) + footer {
 }
 .product-search-item { display: flex; flex-direction: column; }
 .product-search-item .guide-product-card { height: auto; }
-.product-search-item .guide-product-card-body { padding: 12px; gap: 4px; }
+.product-search-item /* Mobile product card body adjustments */
+@media (max-width: 600px) {
+  .guide-product-card-body {
+    padding: 12px;
+    gap: 4px;
+  }
+}
 .product-search-item .guide-product-card-title { font-size: 13px; }
 .product-search-item .guide-product-card-desc { font-size: 11px; min-height: 0; max-height: 2.6em; overflow: hidden; }
 .product-search-item .guide-product-card-rating { font-size: 12px; }
