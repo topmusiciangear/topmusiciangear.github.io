@@ -1,0 +1,31 @@
+/* Mobile-only overrides for gaps */
+@media (max-width: 600px) {
+  /* Reviews tighter */
+  .guide-reviews-list {
+    gap: 8px !important;
+  }
+  .guide-review-item {
+    padding: 12px 14px !important;
+  }
+  .guide-review-item-head {
+    margin-bottom: 2px !important;
+  }
+  .guide-review-stars {
+    margin-bottom: 4px !important;
+  }
+
+  /* Buttons closer to photos / buy block */
+  .guide-section-mediabuy {
+    gap: 8px !important;
+  }
+  .guide-section-buy {
+    gap: 8px !important;
+  }
+  .guide-section-buy .shop-btn-primary {
+    margin-right: 8px !important;
+  }
+  .guide-section-imgs {
+    margin-bottom: 12px !important;
+    gap: 8px !important;
+  }
+}
