@@ -2121,9 +2121,9 @@ footer ul li a:hover { color: var(--accent); }
 /* Title of comparison tables in accent color */
 .guide-comp-title {
   color: var(--accent);
-  font-size: 1.25rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 8px 0 16px;
   text-align: center;
 }
 .guide-comp-wrap .guide-comp-title {
