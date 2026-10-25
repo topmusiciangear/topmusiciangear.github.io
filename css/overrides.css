@@ -71,11 +71,17 @@
     margin-bottom: 0 !important;
     width: 100% !important;
   }
+  .guide-section-mediabuy > .guide-section-buy {
+    margin-top: 0 !important;
+  }
   .guide-section-buy .shop-btn-primary {
     margin-right: 4px !important;
   }
   /* Prevent reserved space for collapsed dropdown */
   .guide-section-buy .shop-more-list {
+    margin-top: 0 !important;
+  }
+  .shop-more-list {
     margin-top: 0 !important;
   }
   .guide-section-mediabuy {
