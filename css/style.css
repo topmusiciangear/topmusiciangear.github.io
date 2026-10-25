@@ -2550,24 +2550,25 @@ footer ul li a:hover { color: var(--accent); }
 }
 @media (max-width: 640px) {
   .guide-section-mediabuy {
-    flex-direction: row;
-  }
-  .guide-section-mediabuy > .guide-section-buy {
-    flex: 1 1 100%;
+    flex-direction: column;
+    gap: 12px;
     width: 100%;
-    max-width: none;
-    margin-top: 16px;
   }
   .guide-section-mediabuy > .guide-section-imgs {
     width: 100%;
-    justify-content: flex-start;
+    margin-bottom: 12px;
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    flex: none;
-    min-width: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    margin: 0 auto 8px;
+  }
+  .guide-section-mediabuy > .guide-section-buy {
+    width: 100%;
+    max-width: none;
+    margin-top: 16px;
   }
 }
 
