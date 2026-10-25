@@ -2008,6 +2008,7 @@ footer ul li a:hover { color: var(--accent); }
   display: flex;
   gap: 12px;
   margin-top: 16px;
+  margin-bottom: 24px;
   flex-wrap: wrap;
 }
 .guide-section-img {
