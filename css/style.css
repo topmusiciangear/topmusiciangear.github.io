@@ -2126,6 +2126,9 @@ footer ul li a:hover { color: var(--accent); }
   margin-bottom: 0.5rem;
   text-align: center;
 }
+.guide-comp-wrap .guide-comp-title {
+  text-align: center !important;
+}
 
 .guide-section-imgs {
   display: flex;
