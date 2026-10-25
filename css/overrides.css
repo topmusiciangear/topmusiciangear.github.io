@@ -2,16 +2,16 @@
 @media (max-width: 600px) {
   /* Reviews tighter */
   .guide-reviews-list {
-    gap: 6px !important;
+    gap: 4px !important;
   }
   .guide-review-item {
-    padding: 10px 12px !important;
+    padding: 8px 10px !important;
   }
   .guide-review-item-head {
-    margin-bottom: 2px !important;
+    margin-bottom: 1px !important;
   }
   .guide-review-stars {
-    margin-bottom: 4px !important;
+    margin-bottom: 3px !important;
   }
 
   /* Buttons closer to photos / buy block */
@@ -25,7 +25,7 @@
     margin-right: 8px !important;
   }
   .guide-section-imgs {
-    margin-bottom: 18px !important;
+    margin-bottom: 24px !important;
     gap: 8px !important;
   }
   /* Photos bigger ~ half screen and separated from text */
@@ -33,7 +33,7 @@
   .guide-section-mediabuy .guide-video-thumb {
     width: 100% !important;
     aspect-ratio: 16/10 !important;
-    max-height: 45vh !important;
+    max-height: 55vh !important;
     object-fit: contain !important;
   }
 }
