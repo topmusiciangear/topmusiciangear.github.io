@@ -3619,6 +3619,7 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 #lightbox{animation:fadeIn .2s ease}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
 
 /* User Reviews */
+/* User Reviews */
 .guide-reviews { margin: 0 0 40px; padding: 20px 22px; background: rgba(59,130,246,.08); border: 1px solid rgba(59,130,246,.2); border-radius: var(--radius); }
 .guide-reviews-head { text-align: center; margin-bottom: 18px; }
 .guide-reviews-title { font-size: 26px; font-weight: 800; color: var(--white); margin: 0 0 6px; }
@@ -3640,6 +3641,14 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 .guide-review-first-btn:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .guide-reviews-more { margin-top: 4px; align-self: flex-start; background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 8px 16px; font-size: 13px; font-weight: 700; cursor: pointer; transition: background .15s; font-family: inherit; }
 .guide-reviews-more:hover { background: var(--accent-dark); }
+
+/* Mobile adjustments for review spacing */
+@media (max-width: 600px) {
+  .guide-reviews { padding: 16px 16px; }
+  .guide-reviews-list { gap: 8px; }
+  .guide-review-item { padding: 12px 12px; }
+  .guide-review-text { font-size: 13px; line-height: 1.5; }
+}
 
 /* Review modal */
 .review-modal-overlay { display: flex; position: fixed; inset: 0; z-index: 9999 !important; align-items: center; justify-content: center; padding: 24px; background: rgba(0,0,0,.8); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); animation: fadeIn .2s ease; }
