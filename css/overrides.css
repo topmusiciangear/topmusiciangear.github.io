@@ -16,17 +16,23 @@
 
   /* Buttons closer to photos / buy block */
   .guide-section-mediabuy {
-    gap: 8px !important;
+    gap: 12px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
   }
   .guide-section-buy {
     gap: 8px !important;
+    flex: 1 1 auto !important;
   }
   .guide-section-buy .shop-btn-primary {
     margin-right: 8px !important;
   }
   .guide-section-imgs {
-    margin-bottom: 24px !important;
+    margin-bottom: 0 !important;
     gap: 8px !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
   }
   /* Photos bigger ~ half screen and separated from text */
   .guide-section-mediabuy .guide-section-img,
@@ -34,7 +40,7 @@
     width: 100% !important;
     height: auto !important;
     aspect-ratio: 1/1 !important;
-    max-height: 65vh !important;
+    max-height: 50vh !important;
     object-fit: contain !important;
   }
 }
