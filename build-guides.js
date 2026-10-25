@@ -6433,18 +6433,71 @@ function cardDesc(text) {
   return cardCleanEnd(out.trim());
 }
 
+function quickScoreBadge(p, lang) {
+  var gs = guideScore(p, CURRENT_GUIDE_ID);
+  if (gs === undefined || gs === null) return '';
+  var score = Number(gs).toFixed(1);
+  var label = (lang === 'es' ? 'nota' : 'score');
+  return '<div style="position:absolute;top:8px;left:8px;width:42px;height:42px;border-radius:50%;background:#16181d;border:3px solid #4d8dff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2" aria-label="' + (lang === 'es' ? 'Nuestra nota: ' : 'Our score: ') + score + ' out of 10">' +
+    '<div style="font-size:13px;font-weight:500;color:#fff;line-height:1">' + score + '</div>' +
+    '<div style="font-size:11px;color:#9aa0ab;line-height:1;margin-top:1px">' + label + '</div>' +
+  '</div>';
+}
+
 function productCard(p, lang) {
-  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (lang === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
-  const rawTitle = (lang === 'es' && p.title_es ? p.title_es : p.title);
+  const isEs = lang === 'es';
+  const unitLabel = p.unit === 'each' ? (isEs ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (isEs ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (isEs ? ' (2 auriculares)' : ' (2 headsets)') : '';
+  const rawTitle = (isEs && p.title_es ? p.title_es : p.title);
   const title = rawTitle.replace(/\s*\((each|pair|unidad|par|cada uno|cada una)\)\s*$/i, function (m, u) {
     var map = { each: 'Each', pair: 'Pair', unidad: 'Unidad', par: 'Par' };
     return ' (' + (map[u.toLowerCase()] || 'Unidad') + ')';
   }) + unitLabel;
-  const desc = cardDesc(lang === 'es' && p.desc_es ? p.desc_es : p.desc);
+  const desc = cardDesc(isEs && p.desc_es ? p.desc_es : p.desc);
   const stores = storeChips(p, lang);
   const gi = guideCutImg(p);
   const imgSrc = gi.src;
   const cutout = gi.cut;
+  const hasFacts = !!(p.bestFor && p.facts && p.facts.length);
+
+  if (hasFacts) {
+    const bestFor = (isEs ? p.bestFor.es : p.bestFor.en) || '';
+    const bestForLabel = isEs ? 'Ideal para' : 'Best for';
+    const factsHtml = p.facts.map(function (f) {
+      const label = (isEs ? (f.label && f.label.es) : (f.label && f.label.en)) || '';
+      const tone = f.tone === 'tradeoff' ? 'tradeoff' : 'good';
+      return '<div class="gpq-fact gpq-fact--' + tone + '">' +
+        '<span class="gpq-fact-icon" aria-hidden="true">' + icon(f.icon, 'fa-solid') + '</span>' +
+        '<div class="gpq-fact-body">' +
+          '<div class="gpq-fact-value">' + (f.value || '') + '</div>' +
+          '<div class="gpq-fact-label">' + label + '</div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+    return '<div class="guide-product-card guide-product-card--quickfacts' + (cutout ? ' guide-product-card--cutout' : '') + '">' +
+      '<div class="gpq">' +
+        '<div class="gpq-photo">' +
+          '<img src="' + imgSrc + '" alt="' + title + '" loading="lazy" class="lb-img" style="cursor:zoom-in">' +
+          quickScoreBadge(p, lang) +
+        '</div>' +
+        '<div class="gpq-facts">' +
+          '<div class="gpq-bestfor">' +
+            '<div class="gpq-bestfor-label">' + bestForLabel + '</div>' +
+            '<div class="gpq-bestfor-value">' + bestFor + '</div>' +
+          '</div>' +
+          factsHtml +
+        '</div>' +
+        '<div class="gpq-cta">' + stores + '</div>' +
+      '</div>' +
+      '<div class="guide-product-card-body">' +
+        '<div class="guide-product-card-title-row">' +
+          '<h3 class="guide-product-card-title">' + title + '</h3>' +
+          productRatingLine(p, lang) +
+        '</div>' +
+        '<div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">' + desc + '</div></div>' +
+      '</div>' +
+    '</div>';
+  }
+
   return `<div class="guide-product-card${cutout ? ' guide-product-card--cutout' : ''}">
     <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
       <div class="guide-product-card-title-row">
@@ -7053,7 +7106,7 @@ function buildGuidePage(guide, lang, idx) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@700&family=Poppins:ital,wght@1,800&family=Open+Sans+Condensed:wght@700&family=Kaushan+Script&display=block">
-  <style>@media(hover:hover){.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);background:#34383d;box-shadow:0 4px 16px rgba(0,0,0,.5)}.shop-more-list .shop-wm{transition:color .18s ease}.shop-more-list a:hover .shop-wm{color:#FFB300}}</style>
+  <style>@media(hover:hover){.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);background:#34383d;box-shadow:0 4px 16px rgba(0,0,0,.5)}.shop-more-list .shop-wm{transition:color .18s ease}.shop-more-list a:hover .shop-wm{color:#FFB300}}</style><style>.gpq{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:stretch;margin:0 0 12px}.gpq-photo{background:#fff;border-radius:8px;padding:8px;display:flex;align-items:center;justify-content:center;position:relative;min-height:150px;overflow:hidden}.gpq-photo img{max-width:100%;max-height:100%;object-fit:contain}.gpq-photo .score-badge{position:absolute;top:6px;left:6px}.gpq-facts{display:flex;flex-direction:column;gap:7px}.gpq-bestfor{background:#22252c;border-radius:8px;padding:8px 10px}.gpq-bestfor-label{font-size:11px;color:#4d8dff;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}.gpq-bestfor-value{font-size:13px;font-weight:500;color:#fff;line-height:1.3}.gpq-fact{background:#22252c;border-radius:8px;padding:7px 10px;display:flex;flex-direction:row;gap:8px;align-items:center}.gpq-fact-icon{width:18px;height:18px;flex-shrink:0;display:flex;align-items:center;justify-content:center}.gpq-fact-icon svg{width:18px;height:18px}.gpq-fact-body{display:flex;flex-direction:column;gap:1px;min-width:0}.gpq-fact-value{font-size:13px;font-weight:500;color:#fff;line-height:1.2}.gpq-fact-label{font-size:11px;color:#9aa0ab;line-height:1.2}.gpq-fact--good .gpq-fact-icon{color:#4ade80}.gpq-fact--tradeoff .gpq-fact-icon{color:#f5a524}.gpq-cta{grid-column:1/-1;display:flex;flex-direction:column;gap:8px;margin-top:4px}.gpq-cta .shop-btn-primary{min-height:48px;border-radius:10px}.gpq-cta .shop-btn-more{min-height:44px;border-radius:10px}@media(min-width:768px){.gpq{grid-template-columns:200px 1fr 280px}.gpq-cta{grid-column:3;grid-row:1;margin-top:0}.gpq-photo{min-height:0}}.guide-products-cards .guide-product-card--quickfacts{grid-column:1/-1}.guide-product-card--quickfacts{margin-bottom:12px}</style>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
