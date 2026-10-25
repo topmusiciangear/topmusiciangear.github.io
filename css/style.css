@@ -101,7 +101,7 @@ header {
   background: rgba(13,13,13,.8);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
-  z-index: 100;
+  z-index: 10000;
   position: sticky;
   top: 0 !important;
   margin: 0 !important;
