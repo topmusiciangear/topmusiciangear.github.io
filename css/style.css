@@ -2372,9 +2372,9 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-product-card-stores {
   display: flex;
-  gap: 4px;
-  margin-top: auto;
-  padding-top: 8px;
+  gap: 0;
+  margin-top: 0;
+  padding-top: 0;
   flex-wrap: wrap;
 }
 
@@ -2572,8 +2572,8 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-prods {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
-  margin-top: 18px;
+  gap: 0;
+  margin-top: 0;
 }
 .guide-section-prod {
   background: transparent;
