@@ -16,7 +16,7 @@
 
   /* Photo left 50% / info card right 50% / buttons below */
   .guide-section-mediabuy {
-    gap: 8px !important;
+    gap: 4px !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: stretch !important;
@@ -47,12 +47,12 @@
     align-self: start !important;
   }
   .guide-section-buy {
-    gap: 8px !important;
-    margin-top: 8px !important;
+    gap: 4px !important;
+    margin-top: 4px !important;
     width: 100% !important;
   }
   .guide-section-buy .shop-btn-primary {
-    margin-right: 8px !important;
+    margin-right: 4px !important;
   }
   /* Photos bigger ~ half screen and separated from text */
   .guide-section-mediabuy .guide-section-img,
