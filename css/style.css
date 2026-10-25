@@ -1900,8 +1900,8 @@ footer ul li a:hover { color: var(--accent); }
 .guide-detail-sections {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 32px;
-  margin-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 /* Las columnas nunca deben crecer por el contenido (fotos 160 + compra 420) */
@@ -1918,7 +1918,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 .guide-section {
-  padding-bottom: 20px;
+  padding-bottom: 12px;
   border-bottom: 1px solid rgba(255,255,255,.08);
   contain: layout style;
 }
