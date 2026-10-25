@@ -21,6 +21,16 @@
     flex-direction: column !important;
     align-items: stretch !important;
   }
+  /* Reduce section spacing on mobile */
+  .guide-section {
+    padding-bottom: 8px !important;
+  }
+  .guide-section-heading {
+    margin-bottom: 8px !important;
+  }
+  .guide-section-content p {
+    margin-bottom: 6px !important;
+  }
   /* Hide empty video placeholder to avoid extra grid row */
   .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
     display: none !important;
@@ -48,7 +58,7 @@
   }
   .guide-section-buy {
     gap: 4px !important;
-    margin-top: 4px !important;
+    margin-top: 0 !important;
     width: 100% !important;
   }
   .guide-section-buy .shop-btn-primary {
