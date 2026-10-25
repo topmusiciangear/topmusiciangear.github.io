@@ -2009,10 +2009,20 @@ footer ul li a:hover { color: var(--accent); }
 .guide-comp-scroll-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.guide-comp-scroll-wrap::-webkit-scrollbar {
+  display: none;
 }
 .guide-comp-scroll {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.guide-comp-scroll::-webkit-scrollbar {
+  display: none;
 }
 .guide-comp-table {
   width: max-content;
