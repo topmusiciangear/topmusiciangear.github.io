@@ -2546,6 +2546,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-mediabuy .guide-video-thumb {
   width: 160px;
   height: 160px;
+  flex: none;
 }
 @media (max-width: 640px) {
   .guide-section-mediabuy {
@@ -2562,11 +2563,10 @@ footer ul li a:hover { color: var(--accent); }
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    flex: 1 1 0;
+    flex: none;
     min-width: 0;
-    width: auto;
-    height: auto;
-    aspect-ratio: 1 / 1;
+    width: 120px;
+    height: 120px;
   }
 }
 
