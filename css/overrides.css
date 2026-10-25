@@ -21,6 +21,10 @@
     flex-direction: column !important;
     align-items: stretch !important;
   }
+  /* Hide empty video placeholder to avoid extra grid row */
+  .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
+    display: none !important;
+  }
   .guide-section-imgs {
     margin-bottom: 0 !important;
     gap: 8px !important;

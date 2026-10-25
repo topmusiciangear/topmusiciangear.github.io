@@ -3749,6 +3749,39 @@
     "oos": [
       "zzounds"
     ],
+    "bestFor": {
+      "en": "Vocals & acoustic",
+      "es": "Voces y acústica"
+    },
+    "facts": [
+      {
+        "icon": "volumeHigh",
+        "value": "144 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "20 dB",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "tradeoff"
+      },
+      {
+        "icon": "wave",
+        "value": "16 mm",
+        "label": {
+          "en": "Diaphragm",
+          "es": "Diafragma"
+        },
+        "tone": "good"
+      }
+    ],
     "score": 9.4
   },
   {
