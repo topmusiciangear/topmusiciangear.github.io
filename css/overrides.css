@@ -23,7 +23,9 @@
   }
   /* Reduce section spacing on mobile */
   .guide-section {
-    padding-bottom: 4px !important;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+    margin-bottom: 4px !important;
   }
   .guide-section-heading {
     margin-bottom: 6px !important;
@@ -39,7 +41,7 @@
     display: none !important;
   }
   .guide-section-imgs {
-    margin-bottom: 0 !important;
+    margin: 0 !important;
     gap: 4px !important;
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
@@ -51,6 +53,10 @@
   /* Photo wrapper takes left column */
   .guide-section-imgs > div:first-child {
     grid-column: 1 !important;
+    display: block !important;
+  }
+  .guide-section-imgs > div {
+    vertical-align: top !important;
   }
   /* Quick facts card takes right column */
   .guide-section-quickfacts {
@@ -67,6 +73,13 @@
   }
   .guide-section-buy .shop-btn-primary {
     margin-right: 4px !important;
+  }
+  /* Prevent reserved space for collapsed dropdown */
+  .guide-section-buy .shop-more-list {
+    margin-top: 0 !important;
+  }
+  .guide-section-mediabuy {
+    gap: 4px !important;
   }
   /* Photos bigger ~ half screen and separated from text */
   .guide-section-mediabuy .guide-section-img,
