@@ -23361,7 +23361,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--IBAEHB1000",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FIbanez-EHB1000-AOM-Arctic-Ocean-Matte%2F65ZX"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pro headless with a full 34-inch scale",
+      "es": "Headless profesional con escala completa de 34 pulgadas"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Headless solid-body",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (864 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "2x Bartolini BH2",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 529,
@@ -23380,7 +23413,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FSire-Marcus-Miller-M6-Headless-Bass-Black%2F8D19",
       "zzounds": "https://www.zzounds.com/a--925521/item--SIRSML5222"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Multiscale headless with studio preamp",
+      "es": "Headless multiescala con previo de estudio"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Headless multi-scale",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "33-34.5 in (838-876 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "2x Marcus Pure-H humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 530,
@@ -23400,7 +23466,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FTraveler-Guitar-Ultra-Light-Bass-Maple%2Fart-BAS0010046-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--TRAULB"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Lightest honest bass for flights",
+      "es": "El bajo más ligero para volar de verdad"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Travel solid-body",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "30 in",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "Under-saddle piezo",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 531,
@@ -23420,7 +23519,40 @@
     },
     "rating": 4.5,
     "reviews": 49,
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Headless travel classic with full 34-inch scale",
+      "es": "Clásico headless de viaje con escala de 34 pulgadas"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Headless solid-body",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "2x Steinberger humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 532,
@@ -23438,7 +23570,40 @@
     },
     "rating": 4.6,
     "reviews": 16,
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Ukulele-size bass with real low end",
+      "es": "Bajo tamaño ukelele con graves de verdad"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-body short-scale",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "23.5 in",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "Passive split-coil",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 533,
@@ -23459,7 +23624,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--FEN0140492",
       "amazon": "https://www.amazon.com/Fender-Player-Mustang-Rosewood-Fingerboard/dp/B0D2LQY6PS"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Short-scale groove for home jams",
+      "es": "Groove de escala corta para tocar en casa"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Short-scale solid-body",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "30 in (762 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "Alnico 5 split P + single J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 534,
@@ -23479,7 +23677,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--GRE2514620",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FGretsch-G2220-Junior-Jet-II-Bass-Guita-r-Black-%2Fart-BAS0005818-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Short-scale riffs for beginners",
+      "es": "Riffs de escala corta para principiantes"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Short-scale single-cut",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "30.3 in (770 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "2x single-coil",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 535,
@@ -23499,7 +23730,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJackson-JS-Series-Concert-Bass-Minion-JS1X-Satin-Black%2Fart-BAS0009914-000",
       "amazon": "https://www.amazon.com/Jackson-Concert-Minion-Electric-Guitar/dp/B07G3CPM4T"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Cheapest micro-scale bass for the desk",
+      "es": "El bajo micro más barato para el escritorio"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Micro-scale solid-body",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "28.6 in (726 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "P + J passive",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 536,
@@ -23519,7 +23783,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--SQU0373800",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Squier-Sonic-Bronco-Bass-IL-Black/art-BAS0012451-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Short-scale starter",
+      "es": "Bajo de escala corta para empezar"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Short-scale ceramic single-coil",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "30\" (762 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "~2.9 kg (6.4 lbs)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 537,
@@ -23539,7 +23836,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--IBAGSRM20",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FIbanez-miKro-GSRM20B-WK-Weathered-Black%2Fart-BAS0009123-000"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Compact groove for beginners",
+      "es": "Groove compacto para principiantes"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Micro-scale solid-body",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "28.6 in (726 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sineWave",
+        "value": "Dynamix P + J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 538,
@@ -23560,7 +23890,40 @@
       "andertons": "https://www.andertons.co.uk/ibanez-gsr205b-5-string-bass-in-walnut-flat/?search_query=Ibanez%20GSR205B",
       "amazon": "https://www.amazon.com/Ibanez-String-Guitar-Handed-GSR205BWNF/dp/B00HWIRU1A"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "First five-string for beginners",
+      "es": "Primer bajo de cinco cuerdas para principiantes"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x Dynamix H (passive)",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (864 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Okoume",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 539,
@@ -23581,7 +23944,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSterling-by-Music-Man-SUB-StingRay-RAY5-Walnut-Satin%2Fart-BAS0013405-000",
       "amazon": "https://www.amazon.com/Sterling-Music-Man-StingRay-5-String/dp/B07BBWRZSK"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Funk punch for gigging bassists",
+      "es": "Punch de funk para bajistas de directo"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "H-1 ceramic humbucker",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (86.4 cm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Basswood",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 540,
@@ -23602,7 +23998,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--YAMTRBX305",
       "amazon": "https://www.amazon.com/Yamaha-TRBX305-BL-5-String-Electric/dp/B00GEC02FG"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Versatile active five for gigging",
+      "es": "Cinco cuerdas activo y versátil para directos"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x M3 ceramic humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid mahogany",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 541,
@@ -23621,7 +24050,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSquier-Affinity-Series-Jazz-Bass-V-LRL-3-Colour-Sunburst-%2Fart-BAS0011652-000",
       "amazon": "https://www.amazon.com/Fender-Affinity-fingerboard-3-Color-Sunburst/dp/B091BH8F34"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Classic Jazz tone for beginners",
+      "es": "Sonido Jazz clásico para principiantes"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x ceramic single-coil J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (864 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 542,
@@ -23639,7 +24101,40 @@
       "zzounds": "https://www.zzounds.com/item--SCESTILST5",
       "amazon": "https://www.amazon.com/dp/B00SGSI1RM?tag=topmusicg-20"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Modern punch for rock and metal",
+      "es": "Punch moderno para rock y metal"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Diamond SuperRock MM + Diamond P",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "35 in (889 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Basswood",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 543,
@@ -23657,7 +24152,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-BB435-Black%2Fart-BAS0009161-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--YAMBB435"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Gigging workhorse for rock and funk",
+      "es": "Todo terreno de directo para rock y funk"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "YGD Custom V5 Alnico V PJ",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 544,
@@ -23676,7 +24204,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--IBASR505A",
       "amazon": "https://www.amazon.com/Ibanez-Standard-5-String-Electric-Mahogany/dp/B0GFS6NXM2"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Fast neck for prog and fusion",
+      "es": "Mástil rápido para prog y fusión"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Bartolini BH2",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Okoume",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 545,
@@ -23696,7 +24257,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSquier-Classic-Vibe-70s-Jazz-Bass-V-Natural-%2Fart-BAS0010208-000",
       "amazon": "https://www.amazon.com/Squier-Fender-Classic-Vibe-Jazz/dp/B07N29M92D"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Vintage groove for blues and soul",
+      "es": "Groove vintage para blues y soul"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Fender alnico single-coils",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (864 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar / soft maple",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 546,
@@ -23715,7 +24309,40 @@
       "amazon": "https://www.amazon.com/Fender-American-Professional-5-String-Fretboard/dp/B08L331Q8G",
       "andertons": "https://www.andertons.co.uk/fender-american-professional-II-jazz-bass-v-in-3-colour-sunburst-with-rosewood-fingerboard/"
     },
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "The pro session standard",
+      "es": "El estándar de sesión profesional"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "V-Mod II x2",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (864 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder (roasted pine select)",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 547,
@@ -23733,7 +24360,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Ultra-II-Jazz-Bass-V-EB-Ultraburst%2Fart-BAS0012738-001",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FFender-American-Ultra-II-Jazz-Bass-V-EB-Ultraburst%2F6HRE"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Flagship five for session pros",
+      "es": "El buque insignia de cinco cuerdas para sesiones"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Ultra II Noiseless Vintage J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34 in (86.4 cm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Select alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 548,
@@ -23753,7 +24413,40 @@
       "amazon": "https://www.amazon.com/Ibanez-EHB1005MS-Ergonomic-Headless-Multiscale/dp/B083QV2CZQ",
       "andertons": "https://www.andertons.co.uk/ibanez-ehb1005ms-sfm-5-string-bass-in-sea-foam-green-matte/"
     },
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Ergonomic headless multiscale for prog",
+      "es": "Headless multiescala ergonómico para prog"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Bartolini BH2",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "33-35 in multiscale (G33-B35)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Chambered American basswood",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 549,
@@ -23769,7 +24462,40 @@
       "andertons": "https://www.andertons.co.uk/dingwall-combustion-5-string-bass-in-natural-gloss-mn/",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FDingwall-Combustion-5-3PU-MN-Natural-13734%2Fart-BAS0012293-000"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Fanned-fret clarity for prog metal",
+      "es": "Claridad de trastes en abanico para prog metal"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2-3 FD-3N neodymium",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34-37 in multiscale (G34-B37)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Swamp ash",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 550,
@@ -31328,7 +32054,40 @@
       "zzounds": "https://www.zzounds.com/item--IBAGSR200?siid=2304",
       "amazon": "https://www.amazon.com/Hoshino-Ibanez-GSR200BK-Electric-Guitar/dp/B003CK5EOC"
     },
-    "img": "img/products/b3f38708e6.webp"
+    "img": "img/products/b3f38708e6.webp",
+    "bestFor": {
+      "en": "First P/J grooves",
+      "es": "Primeros grooves con pastillas P/J"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Split P + J (Dynamix)",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "34\" (864 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "~3.6 kg (7.9 lbs)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1052,
