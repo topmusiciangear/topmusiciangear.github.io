@@ -180,9 +180,9 @@
   .guide-section-mediabuy > .guide-section-buy {
     flex: 1 1 auto !important;
     width: auto !important;
-    max-width: 400px !important;
-    min-width: 260px !important;
-    overflow: hidden !important;
-    margin-left: 4px !important;
+    max-width: 560px !important;
+    min-width: 300px !important;
+    overflow: visible !important;
+    margin-left: 0 !important;
   }
 }
