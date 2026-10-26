@@ -6881,7 +6881,7 @@ function buildGuidePage(guide, lang, idx) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
           function _qfIcon(name, color) {
-            if (name === 'sineWave') {
+            if (name === 'wave' || name === 'sineWave') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
             }
             if (name === 'gauge') {
