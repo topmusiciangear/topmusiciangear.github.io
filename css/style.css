@@ -3598,14 +3598,14 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   .guide-link-btn {
     white-space: normal;
     word-break: break-word;
-    font-size: 12px;
-    padding: 3px 8px;
-    line-height: 1.5;
+    font-size: 14px;
+    padding: 4px 8px;
+    line-height: 1.4;
     max-width: 100%;
     box-sizing: border-box;
-    display: block;
-    width: fit-content;
-    margin-top: 12px;
+    display: inline-block;
+    width: auto;
+    margin: 4px 0;
   }
 }
 
