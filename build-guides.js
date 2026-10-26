@@ -6923,6 +6923,9 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'battery') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="2.5" y="4" width="15.5" height="8" rx="1.5"/><line x1="20.5" y1="6.5" x2="20.5" y2="9.5"/><line x1="6.5" y1="6" x2="6.5" y2="10"/><line x1="10.5" y1="6" x2="10.5" y2="10"/></svg>';
             }
+            if (name === 'piano') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="8" rx="1"/><line x1="5" y1="6" x2="5" y2="14"/><line x1="10" y1="6" x2="10" y2="14"/><line x1="15" y1="6" x2="15" y2="14"/><line x1="20" y1="6" x2="20" y2="14"/><rect x="6.5" y="3" width="2" height="5" rx="0.5"/><rect x="11.5" y="3" width="2" height="5" rx="0.5"/><rect x="16.5" y="3" width="2" height="5" rx="0.5"/></svg>';
+            }
             return icon(name, 'fa-solid');
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';
