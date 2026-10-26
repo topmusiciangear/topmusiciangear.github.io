@@ -175,11 +175,16 @@
   .guide-section-imgs {
     display: grid !important;
     grid-template-columns: auto 1fr 360px !important;
+    grid-template-rows: auto !important;
+    grid-auto-rows: auto !important;
     gap: 4px !important;
     margin-top: 0 !important;
     width: 100% !important;
     overflow: visible !important;
     align-items: start !important;
+  }
+  .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
+    display: none !important;
   }
   .guide-section-imgs > div:first-child {
     grid-column: 1 !important;
