@@ -91,12 +91,29 @@
     vertical-align: top !important;
   }
 
-  /* Quick facts card takes right column */
+  /* Quick facts card takes right column (compact so it never exceeds photo height) */
   .guide-section-quickfacts {
     grid-column: 2 !important;
     width: 100% !important;
-    height: 100% !important;
-    align-self: stretch !important;
+    height: auto !important;
+    max-height: 35vh !important;
+    align-self: start !important;
+    padding: 4px 6px !important;
+    gap: 2px !important;
+  }
+  .guide-section-quickfacts .qf-card {
+    padding: 3px 6px !important;
+    gap: 1px !important;
+  }
+  .guide-section-quickfacts .qf-fact {
+    padding: 2px 6px !important;
+    gap: 3px !important;
+  }
+  .guide-section-quickfacts .qf-bestfor .qf-label,
+  .guide-section-quickfacts .qf-bestfor .qf-value,
+  .guide-section-quickfacts .qf-fact .qf-label,
+  .guide-section-quickfacts .qf-fact .qf-value {
+    font-size: 9px !important;
   }
 
   /* Photos bigger ~ half screen and separated from text */
