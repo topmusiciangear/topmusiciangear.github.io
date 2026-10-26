@@ -1032,7 +1032,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Closed-back tracking standard",
+      "es": "El estándar cerrado para grabar"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "80 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 24,
@@ -1057,7 +1090,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Modern reference mixing",
+      "es": "Mezcla de referencia actual"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "130 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "38mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 25,
@@ -1082,7 +1148,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Portable production and tracking",
+      "es": "Producción y grabación portátil"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "38 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 26,
@@ -1103,7 +1202,40 @@
       "amazon": "https://www.amazon.com/dp/B000AJIF4E",
       "zzounds": "https://www.zzounds.com/item--SNYMDR7506"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Classic budget tracking",
+      "es": "Clásico para grabar sin gastar"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "63 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 29,
@@ -1668,7 +1800,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Open mixing and mastering",
+      "es": "Mezcla y mastering en abierto"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "250 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 57,
@@ -1693,7 +1858,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Accurate tracking and monitoring",
+      "es": "Grabación y monitoreo precisos"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "32 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "50mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 58,
@@ -5714,7 +5912,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Lightweight planar flagship",
+      "es": "Planar de gama alta y ligero"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back planar",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "20 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "106 mm planar",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 178,
@@ -5737,7 +5968,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Planar flagship detail",
+      "es": "Detalle planar de referencia"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back planar",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "20 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "106 mm planar",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 180,
@@ -6472,7 +6736,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Budget closed-back tracking",
+      "es": "Cerrado económico para grabar"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "35 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 199,
@@ -9516,7 +9813,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Audiophile detail on the move",
+      "es": "Detalle audiófilo en movimiento"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Wired IEM (single dynamic)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "7 mm dynamic",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "5 Hz – 48 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 269,
@@ -9544,7 +9874,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Reference IEM, stage and studio",
+      "es": "IEM de referencia, directo y estudio"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Wired reference IEM (quad-BA)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "4 balanced armature",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "15 Hz – 20 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 270,
@@ -16293,7 +16656,40 @@
       "andertons": "https://www.andertons.co.uk/sennheiser-hd280-pro-headphones/",
       "zzounds": "https://www.zzounds.com/a--925521/item--SENHD280PRO"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Isolation for loud stages",
+      "es": "Aislamiento para escenarios fuertes"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "64 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 420,
@@ -16315,7 +16711,40 @@
       "zzounds": "https://www.zzounds.com/item--SHUSRH440A",
       "andertons": "https://www.andertons.co.uk/shure-srh440a-professional-studio-headphones/?search_query=Shure%20SRH440A"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Neutral closed-back on a budget",
+      "es": "Cerrado neutro y económico"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "40 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 421,
@@ -16337,7 +16766,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--FOLFOPROLISPRO",
       "andertons": "https://www.andertons.co.uk/focal-listen-pro-professional-closed-back-reference-headphones-32ohm/?search_query=Focal%20Listen%20Professional"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Closed detail for tracking",
+      "es": "Cerrado con detalle para grabar"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "32 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40 mm Mylar/Titanium",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 422,
@@ -16357,7 +16819,40 @@
       "amazon": "https://www.amazon.com/dp/B00004SY4H",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-600/art-REC0014524-000"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Mid-price flat reference",
+      "es": "Referencia plana a precio medio"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "300 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "42mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 423,
@@ -16379,7 +16874,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--AUDATHR70XA",
       "andertons": "https://www.andertons.co.uk/audio-technica-ath-r70xa-pro-open-back-reference-headphones/"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Featherlight open accuracy",
+      "es": "Abierto ligero y preciso"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "470 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 424,
@@ -16401,7 +16929,40 @@
       "andertons": "https://www.andertons.co.uk/neumann-ndh30-open-back-studio-headphones/",
       "zzounds": "https://www.zzounds.com/item--NEMNDH30"
     },
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Mastering-grade open reference",
+      "es": "Referencia abierta para mastering"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "120 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "38mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 426,
@@ -16420,7 +16981,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FHeadphones%2FSennheiser-HD-560S-Headphones%2F4HQ1",
       "amazon": "https://www.amazon.com/dp/B08J9MVB6W"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Analytical open-back on a budget",
+      "es": "Abierto analítico y económico"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "120 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "38mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 427,
@@ -16442,7 +17036,40 @@
       "zzounds": "https://www.zzounds.com/item--AUDATHR30X"
     },
     "oos": false,
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Entry open-back for detail",
+      "es": "Abierto de entrada para detalle"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "36 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 428,
@@ -16465,7 +17092,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FSamson-SR850-Pro-Studio-Headphones%2FD7K"
     },
     "oos": false,
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Budget semi-open accuracy",
+      "es": "Semiabierto preciso y barato"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Semi-open",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "32 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "50mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 429,
@@ -22601,7 +23261,40 @@
       "andertons": "https://www.andertons.co.uk/beyerdynamic-dt900-pro-x-open-back-studio-headphones-for-critical-listening-mixing-mastering-48-ohm/",
       "zzounds": "https://www.zzounds.com/a--925521/item--BEYDT900PROX"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Open detail for mixing",
+      "es": "Detalle abierto para mezclar"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "48 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm (Stellar dynamic)",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 603,
@@ -22623,7 +23316,40 @@
       "andertons": "https://www.andertons.co.uk/beyerdynamic-dt-1990-pro-mkii--open-back-premium-tesla-studio-headphones/",
       "zzounds": "https://www.zzounds.com/a--925521/item--BEYDT1990PROMKII"
     },
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "High-end open analysis",
+      "es": "Análisis abierto de gama alta"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "30 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm (Tesla dynamic)",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 604,
@@ -22645,7 +23371,40 @@
       "andertons": "https://www.andertons.co.uk/akg-k240-studiosemi-open-back-monitoring-headphones/",
       "zzounds": "https://www.zzounds.com/a--925521/item--AKGK240STU"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Classic semi-open all-rounder",
+      "es": "Semiabierto clásico todoterreno"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Semi-open",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "55 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "30mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 605,
@@ -22667,7 +23426,40 @@
       "andertons": "https://www.andertons.co.uk/neumann-ndh-20-closed-back-studio-headphones/",
       "zzounds": "https://www.zzounds.com/a--925521/item--NEUNDH20"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Closed Neumann neutrality",
+      "es": "Neutralidad Neumann en cerrado"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "150 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "38mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 606,
@@ -22688,7 +23480,40 @@
       "amazon": "https://www.amazon.com/dp/B07GZNKB11",
       "andertons": "https://www.andertons.co.uk/sennheiser-hd300-pro-headphones/"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Stage and broadcast monitoring",
+      "es": "Monitoreo para directo y locución"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "64 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "297 g",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 608,
@@ -22710,7 +23535,40 @@
       "andertons": "https://www.andertons.co.uk/audio-technica-ath-m70x-pro-closed-studio-monitor-headphones/",
       "zzounds": "https://www.zzounds.com/a--925521/item--AUTATHM70X"
     },
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Detail for critical tracking",
+      "es": "Detalle para grabaciones críticas"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "35 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "45mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 609,
@@ -22732,7 +23590,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--AUTATHM20X",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M20X/art-REC0011126-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "First pair on a budget",
+      "es": "Primer par económico"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Closed-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "47 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "40mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 610,
@@ -27217,7 +28108,40 @@
       "amazon": "https://www.amazon.com/dp/B0B837YJSY",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audeze-MM-500/art-REC0016368-000"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Planar mixing reference",
+      "es": "Referencia planar para mezclar"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "18 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90 mm planar",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1051,
@@ -27312,7 +28236,40 @@
       "andertons": "https://www.andertons.co.uk/senneheiser-hd-490-pro-plus-headphones/?search_query=Sennheiser%20HD%20490%20Pro"
     },
     "oos": [],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Switchable pads + dearVR plugin",
+      "es": "Almohadillas intercambiables + dearVR"
+    },
+    "facts": [
+      {
+        "icon": "headphones",
+        "value": "Open-back",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "130 Ω",
+        "label": {
+          "en": "Impedance",
+          "es": "Impedancia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "38mm",
+        "label": {
+          "en": "Driver size",
+          "es": "Tamaño del driver"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1054,

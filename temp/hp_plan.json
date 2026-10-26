@@ -1,0 +1,500 @@
+{
+ "23": {
+  "title": "Beyerdynamic DT 770 Pro",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "80 Ω",
+   "Driver Size": "45mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "24": {
+  "title": "Sennheiser HD 490 Pro",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "130 Ω",
+   "Driver Size": "38mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "25": {
+  "title": "Audio-Technica ATH-M50x",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "38 Ω",
+   "Driver Size": "45mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "26": {
+  "title": "Sony MDR-7506",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "63 Ω",
+   "Driver Size": "40mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "56": {
+  "title": "Beyerdynamic DT 990 Pro",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "250 Ω",
+   "Driver Size": "45mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "57": {
+  "title": "AKG K371",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "32 Ω",
+   "Driver Size": "50mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "177": {
+  "title": "Audeze LCD-MX4",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {},
+  "source": {}
+ },
+ "178": {
+  "title": "Audeze LCD-X",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back planar",
+   "Impedance": "20 Ω",
+   "Driver Size": "106 mm planar"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "198": {
+  "title": "Audio-Technica ATH-M40x",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "35 Ω",
+   "Driver Size": "40mm"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Driver Size": "tracking-headphones"
+  }
+ },
+ "268": {
+  "title": "Sennheiser IE 900",
+  "rows": [
+   "Type",
+   "Driver Size",
+   "Frequency Response"
+  ],
+  "values": {},
+  "source": {}
+ },
+ "269": {
+  "title": "Shure SE846 Gen 2",
+  "rows": [
+   "Type",
+   "Driver Size",
+   "Frequency Response"
+  ],
+  "values": {},
+  "source": {}
+ },
+ "419": {
+  "title": "Sennheiser HD 280 PRO II",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "64 Ω",
+   "Driver Size": "40mm"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Driver Size": "tracking-headphones"
+  }
+ },
+ "420": {
+  "title": "Shure SRH440A",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "40 Ω",
+   "Driver Size": "40mm"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Driver Size": "tracking-headphones"
+  }
+ },
+ "421": {
+  "title": "Focal Listen Professional",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "32 Ω",
+   "Driver Size": "40 mm Mylar/Titanium"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Driver Size": "tracking-headphones"
+  }
+ },
+ "422": {
+  "title": "Sennheiser HD 600",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "300 Ω",
+   "Driver Size": "42mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "423": {
+  "title": "Audio-Technica ATH-R70xa",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "470 Ω",
+   "Driver Size": "45mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "424": {
+  "title": "Neumann NDH 30",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "120 Ω",
+   "Driver Size": "38mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "426": {
+  "title": "Sennheiser HD 560S",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "120 Ω",
+   "Driver Size": "38mm"
+  },
+  "source": {
+   "Type": "budget-headphones",
+   "Impedance": "budget-headphones",
+   "Driver Size": "budget-headphones"
+  }
+ },
+ "427": {
+  "title": "Audio-Technica ATH-R30x",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "36 Ω",
+   "Driver Size": "40mm"
+  },
+  "source": {
+   "Type": "budget-headphones",
+   "Impedance": "budget-headphones",
+   "Driver Size": "budget-headphones"
+  }
+ },
+ "428": {
+  "title": "Samson SR850",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Semi-open",
+   "Impedance": "32 Ω",
+   "Driver Size": "50mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "602": {
+  "title": "Beyerdynamic DT 900 Pro X",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "48 Ω",
+   "Driver Size": "45mm (Stellar dynamic)"
+  },
+  "source": {
+   "Type": "open-headphones",
+   "Impedance": "open-headphones",
+   "Driver Size": "open-headphones"
+  }
+ },
+ "603": {
+  "title": "Beyerdynamic DT 1990 Pro MKII",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "30 Ω",
+   "Driver Size": "45mm (Tesla dynamic)"
+  },
+  "source": {
+   "Type": "open-headphones",
+   "Impedance": "open-headphones",
+   "Driver Size": "open-headphones"
+  }
+ },
+ "604": {
+  "title": "AKG K240 Studio",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Semi-open",
+   "Impedance": "55 Ω",
+   "Driver Size": "30mm"
+  },
+  "source": {
+   "Type": "budget-headphones",
+   "Impedance": "budget-headphones",
+   "Driver Size": "budget-headphones"
+  }
+ },
+ "605": {
+  "title": "Neumann NDH 20",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "150 Ω",
+   "Driver Size": "38mm"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Driver Size": "tracking-headphones"
+  }
+ },
+ "606": {
+  "title": "Sennheiser HD 300 Pro",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Weight"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "64 Ω",
+   "Weight": "297 g"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Weight": "tracking-headphones"
+  }
+ },
+ "608": {
+  "title": "Audio-Technica ATH-M70x",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "35 Ω",
+   "Driver Size": "45mm"
+  },
+  "source": {
+   "Type": "tracking-headphones",
+   "Impedance": "tracking-headphones",
+   "Driver Size": "tracking-headphones"
+  }
+ },
+ "609": {
+  "title": "Audio-Technica ATH-M20x",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Closed-back",
+   "Impedance": "47 Ω",
+   "Driver Size": "40mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ },
+ "1050": {
+  "title": "Audeze MM-500",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "18 Ω",
+   "Driver Size": "90 mm planar"
+  },
+  "source": {
+   "Type": "best-headphones-for-mixing",
+   "Impedance": "best-headphones-for-mixing",
+   "Driver Size": "best-headphones-for-mixing"
+  }
+ },
+ "1053": {
+  "title": "Sennheiser HD 490 Pro Plus",
+  "rows": [
+   "Type",
+   "Impedance",
+   "Driver Size"
+  ],
+  "values": {
+   "Type": "Open-back",
+   "Impedance": "130 Ω",
+   "Driver Size": "38mm"
+  },
+  "source": {
+   "Type": "best-headphones",
+   "Impedance": "best-headphones",
+   "Driver Size": "best-headphones"
+  }
+ }
+}
