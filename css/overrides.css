@@ -174,7 +174,7 @@
 @media (min-width: 901px) {
   .guide-section-imgs {
     display: grid !important;
-    grid-template-columns: auto 1fr 360px !important;
+    grid-template-columns: 300px minmax(0, 1fr) 360px !important;
     gap: 4px !important;
     margin-top: 0 !important;
     width: 100% !important;
@@ -184,21 +184,26 @@
   .guide-section-imgs > div:first-child {
     grid-column: 1 !important;
   }
+  .guide-section-imgs .guide-section-img,
+  .guide-section-imgs .guide-video-thumb {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: contain !important;
+  }
   .guide-section-quickfacts {
     grid-column: 2 !important;
+    width: 100% !important;
+    margin-right: 8px !important;
     flex: 0 0 auto !important;
-    width: 180px !important;
-    height: 180px !important;
-    padding: 8px 10px !important;
-    gap: 4px !important;
   }
   .store-buttons {
     grid-column: 3 !important;
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    width: 180px !important;
-    height: 180px !important;
+    width: 100% !important;
+    height: auto !important;
   }
 }
 /* Store buttons inside imgs: third column (360px), stacked, thin */
