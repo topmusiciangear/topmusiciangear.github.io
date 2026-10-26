@@ -47,11 +47,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -279,11 +279,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "40 Hz–15 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -311,7 +311,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Studio all-rounder",
+      "es": "Todo terreno de estudio"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 7,
@@ -336,7 +369,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Classic rock",
+      "es": "Rock clásico"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Mahogany + maple",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 8,
@@ -357,7 +423,40 @@
       "amazon": "https://www.amazon.com/dp/B0GQSFZ8G2",
       "andertons": "https://www.andertons.co.uk/taylor-next-generation-314ce-grand-auditorium-cutaway-electro-acoustic-guitar/"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Fingerstyle & writing",
+      "es": "Fingerstyle y composición"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Grand Auditorium",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid Sitka spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 11,
@@ -982,11 +1081,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -1040,11 +1139,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "30 Hz–17 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -1098,11 +1197,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "45 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -1449,7 +1548,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Indie & alternative",
+      "es": "Indie y alternativo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 68,
@@ -1474,7 +1606,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "First acoustic",
+      "es": "Primera acústica"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.3 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 71,
@@ -2004,7 +2169,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Beginner strumming",
+      "es": "Rasgueo para principiantes"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.6 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 103,
@@ -2029,7 +2227,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Beginner all-rounder",
+      "es": "Todo terreno para empezar"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 104,
@@ -2057,7 +2288,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Stage flatpicking",
+      "es": "Flatpicking en directo"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid Sitka spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.4 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 105,
@@ -2576,7 +2840,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Rock & blues gigs",
+      "es": "Rock y blues en directo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 126,
@@ -2600,7 +2897,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Country & stage",
+      "es": "Country y directo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 127,
@@ -4327,11 +4657,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -4833,11 +5163,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -4891,11 +5221,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5315,11 +5645,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5373,11 +5703,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5431,11 +5761,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -6297,11 +6627,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -6734,7 +7064,40 @@
       "gear4music",
       "andertons"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Silent headphone practice",
+      "es": "Práctica silenciosa"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "3.8 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Steel",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 271,
@@ -6759,7 +7122,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Compact grab-and-play",
+      "es": "Compacta y a mano"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Sitka spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Layered sapele",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "23.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 272,
@@ -6785,7 +7181,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Silent steel-string",
+      "es": "Silenciosa de acero"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "4.6 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Steel",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 273,
@@ -6811,7 +7240,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Silent nylon-string",
+      "es": "Silenciosa de nylon"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "4.5 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.6 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Nylon",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 274,
@@ -6838,7 +7300,40 @@
       "zzounds",
       "andertons"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Ultra-portable acoustic",
+      "es": "Acústica ultraportátil"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "2.9 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Steel",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 275,
@@ -6867,7 +7362,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Silent nylon travel",
+      "es": "Nylon de viaje en silencio"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "3 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Nylon",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 276,
@@ -7096,11 +7624,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7155,11 +7683,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7273,11 +7801,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7387,11 +7915,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "100 Hz–16 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7446,11 +7974,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "60 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7626,11 +8154,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7718,7 +8246,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Practice anywhere",
+      "es": "Practicar donde sea"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Carbon fiber",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 296,
@@ -7745,7 +8306,40 @@
       "gear4music",
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Home practice & jamming",
+      "es": "Práctica y jam en casa"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "4.55 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "23.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Nylon",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 297,
@@ -8221,7 +8815,40 @@
       "zzounds",
       "reverb"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "First Strat",
+      "es": "Primera Strat"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 310,
@@ -8246,7 +8873,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "First rock riffs",
+      "es": "Primeros riffs de rock"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 311,
@@ -8271,7 +8931,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Vintage rock",
+      "es": "Rock vintage"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Pine",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 312,
@@ -8296,7 +8989,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Rock & blues gigs",
+      "es": "Rock y blues en directo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Mahogany + maple",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 313,
@@ -8321,7 +9047,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Small hands & kids",
+      "es": "Manos pequeñas y niños"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 314,
@@ -8342,7 +9101,40 @@
       "andertons": "https://www.andertons.co.uk/yamaha-fgx800cnt-acoustic-guitar-natural-finish/?search_query=Yamaha%20FGX800C",
       "amazon": "https://www.amazon.com/dp/B01DW6A6E8"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Electro-acoustic starter",
+      "es": "Electroacústica para empezar"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought cutaway",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.6 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 315,
@@ -8367,7 +9159,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Small hands & fingerstyle",
+      "es": "Manos pequeñas y fingerstyle"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Concert",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 316,
@@ -8392,7 +9217,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Travel & 3/4 size",
+      "es": "Viaje y tamaño 3/4"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Modified 0",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid Sitka spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "23 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 317,
@@ -8418,7 +9276,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Comfort & silence",
+      "es": "Comodidad y silencio"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25–25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Meranti",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 318,
@@ -8443,7 +9334,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Modern rock & fusion",
+      "es": "Rock moderno y fusión"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 319,
@@ -8468,7 +9392,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "High-gain metal",
+      "es": "Metal de alta ganancia"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Mahogany",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 321,
@@ -8515,11 +9472,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -8748,11 +9705,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -9513,7 +10470,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Vintage blues",
+      "es": "Blues vintage"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Agathis",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Agathis",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 353,
@@ -9532,7 +10522,40 @@
       "amazon": "https://www.amazon.com/dp/B0795V15R9",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FYamaha-CSF1M-Travel-Guitar-Vintage-Natural%2F2BNV"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "All-round gigging",
+      "es": "Todo terreno en directo"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "23.6 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 354,
@@ -9556,7 +10579,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Intimate fingerstyle",
+      "es": "Fingerstyle íntimo"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid mahogany",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.72 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 355,
@@ -9579,7 +10635,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Slide & ragtime",
+      "es": "Slide y ragtime"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 356,
@@ -9598,7 +10687,40 @@
       "amazon": "https://www.amazon.com/dp/B07LH3HR7D",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FFender-CP-60S-Parlor-Acoustic-Guitar-Natural%2F2KPW"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "First parlor",
+      "es": "Primera parlor"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 357,
@@ -9619,7 +10741,40 @@
       "andertons": "https://www.andertons.co.uk/gretsch-g5021e-rancher-penguin-parlor-acoustic-electric-black/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Gretsch-G5021WPE-Rancher-Penguin-Parlor-Acoustic-Electric/art-GIT0041094-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Stage presence",
+      "es": "Presencia en directo"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Maple",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 358,
@@ -9806,7 +10961,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Electric players",
+      "es": "Guitarristas eléctricos"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid mahogany",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Chambered mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 362,
@@ -10791,7 +11979,40 @@
       "andertons": "https://www.andertons.co.uk/taylor-gs-mini-e-koa-electro-acoustic-guitar/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Taylor-GS-Mini-e-Koa/art-GIT0038121-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Compact grab-and-play",
+      "es": "Compacta y a mano"
+    },
+    "facts": [
+      {
+        "icon": "weight",
+        "value": "Under 4 lb",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "23.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "strings",
+        "value": "Steel",
+        "label": {
+          "en": "Strings",
+          "es": "Cuerdas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 402,
@@ -11264,11 +12485,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11313,11 +12534,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11367,11 +12588,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "40 Hz–19 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11416,11 +12637,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11569,11 +12790,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–18 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11667,11 +12888,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11802,7 +13023,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-II-Stratocaster-RW-Ultraburst",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-American-Ultra-II-Stratocaster-RW-Ultraburst/art-GIT0061889-001"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Noiseless stage Strat",
+      "es": "Strat sin ruido en directo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 441,
@@ -11893,7 +13147,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Telecaster-RW-3-Color-Sunburst",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Player-II-Telecaster-RW-3-Color-Sunburst-/art-GIT0061903-001"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Country & studio",
+      "es": "Country y estudio"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 445,
@@ -12060,7 +13347,40 @@
     "excludeStores": [
       "musicstore"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Pro fingerstyle & studio",
+      "es": "Fingerstyle y estudio pro"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Adirondack spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.4 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 453,
@@ -12085,7 +13405,40 @@
       "zzounds",
       "gear4music"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Studio fingerstyle",
+      "es": "Fingerstyle de estudio"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Orchestra Model",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.4 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 454,
@@ -12111,7 +13464,40 @@
       "andertons",
       "musicstore"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Gigging acoustic",
+      "es": "Acústica para directo"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Grand Auditorium",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Sinker redwood",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 455,
@@ -12136,7 +13522,40 @@
       "andertons",
       "musicstore"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Collectors & pros",
+      "es": "Coleccionistas y pros"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Grand Auditorium",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Sinker redwood",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 456,
@@ -12160,7 +13579,40 @@
       "amazon",
       "gear4music"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Folk & blues strumming",
+      "es": "Rasgueo folk y blues"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Slope-shoulder",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Adirondack spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 457,
@@ -12183,7 +13635,40 @@
     "oos": [
       "amazon"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Big stage voice",
+      "es": "Gran voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Super Jumbo",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Sitka spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 458,
@@ -12211,7 +13696,40 @@
     "badge": "budget",
     "rating": 4.4,
     "reviews": 1250,
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Humbucker rock",
+      "es": "Rock con humbuckers"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Mahogany",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 459,
@@ -12236,7 +13754,40 @@
     "badge": "budget",
     "rating": 4.6,
     "reviews": 1850,
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Nylon starter",
+      "es": "Nylon para empezar"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Meranti",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.6 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 460,
@@ -12263,7 +13814,40 @@
     "oos": [
       "amazon"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Big strumming",
+      "es": "Rasgueo potente"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Solid okoume",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 461,
@@ -12290,7 +13874,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Ultra-budget acoustic",
+      "es": "Acústica muy barata"
+    },
+    "facts": [
+      {
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Laminated spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 462,
@@ -12316,7 +13933,40 @@
       "reverb"
     ],
     "oos": [],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Simple first guitar",
+      "es": "Primera guitarra sencilla"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 463,
@@ -12342,7 +13992,40 @@
       "reverb"
     ],
     "oos": [],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Rock, punk & metal",
+      "es": "Rock, punk y metal"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 464,
@@ -12368,7 +14051,40 @@
       "reverb"
     ],
     "oos": [],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Serious beginner",
+      "es": "Iniciación en serio"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Chambered mahogany",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 465,
@@ -12394,7 +14110,40 @@
       "reverb"
     ],
     "oos": [],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Heavy riffs",
+      "es": "Riffs contundentes"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "HH",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "24.75 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Mahogany",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 466,
@@ -12420,7 +14169,40 @@
       "reverb"
     ],
     "oos": [],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Comfortable learning",
+      "es": "Aprendizaje cómodo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "SSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Roasted poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 467,
@@ -14244,7 +16026,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-CN-60S-Nylon-Walnut-Fingerboard-Natural/2VXD",
       "amazon": "https://www.amazon.com/dp/B07K2JLS56"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Nylon for small hands",
+      "es": "Nylon para manos pequeñas"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Solid spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.3 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 554,
@@ -14264,7 +16079,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--TAKGC1",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Takamine-GC1N/art-GIT0063165-001"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Student classical",
+      "es": "Clásica para estudiantes"
+    },
+    "facts": [
+      {
+        "icon": "wood",
+        "value": "Spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mahogany",
+        "label": {
+          "en": "Back & sides",
+          "es": "Aros y fondo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.6 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 556,
@@ -14505,7 +16353,7 @@
         "tone": "good"
       },
       {
-        "icon": "wrench",
+        "icon": "weight",
         "value": "57 kg",
         "label": {
           "en": "Weight",
@@ -15728,11 +17576,11 @@
         "tone": "good"
       },
       {
-        "icon": "wave",
+        "icon": "freq",
         "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Frequency response",
-          "es": "Respuesta de frecuencia"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }

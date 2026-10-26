@@ -6890,6 +6890,21 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'freq') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="4" y1="14" x2="4" y2="8"/><line x1="12" y1="14" x2="12" y2="3"/><line x1="20" y1="14" x2="20" y2="6"/></svg>';
             }
+            if (name === 'ruler') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="22" y2="8"/><line x1="2" y1="4" x2="2" y2="12"/><line x1="22" y1="4" x2="22" y2="12"/><line x1="8" y1="5" x2="8" y2="11"/><line x1="16" y1="5" x2="16" y2="11"/></svg>';
+            }
+            if (name === 'wood') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 13 C 3 6, 10 2, 21 2 C 21 11, 13 14, 3 13 Z"/><path d="M5 12 L 15 4"/></svg>';
+            }
+            if (name === 'layers') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M12 2 L 21 6 L 12 10 L 3 6 Z"/><path d="M3 10 L 12 14 L 21 10"/></svg>';
+            }
+            if (name === 'weight') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="8" y1="8" x2="16" y2="8"/><rect x="4" y="4" width="3.2" height="8" rx="1"/><rect x="16.8" y="4" width="3.2" height="8" rx="1"/><line x1="1.5" y1="6" x2="1.5" y2="10"/><line x1="22.5" y1="6" x2="22.5" y2="10"/></svg>';
+            }
+            if (name === 'strings') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="5" y1="2" x2="5" y2="14"/><line x1="9" y1="3.5" x2="9" y2="12.5"/><line x1="14" y1="2" x2="14" y2="14"/><line x1="18" y1="3.5" x2="18" y2="12.5"/></svg>';
+            }
             return icon(name, 'fa-solid');
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';

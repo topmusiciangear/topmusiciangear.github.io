@@ -25,6 +25,12 @@ if (CUTOUTS_PIPELINE) {
 console.log('1. Rebuilding guides...');
 execSync('node build-guides.js', { stdio: 'inherit' });
 
+// 1a. Re-inject overrides.css into every generated page. build-guides.js writes the
+//     guides from a template that only links style.min.css, so without this step the
+//     build strips the overrides link from all 334 pages (quickfacts refinements).
+console.log('\n1a. Re-injecting overrides.css...');
+execSync('python temp/inject_ov2.py', { stdio: 'inherit' });
+
 // 1b. Refresh the server-rendered category carousel on both homepages
 console.log('\n1b. Pre-rendering home categories...');
 execSync('node build-home-cats.js', { stdio: 'inherit' });
