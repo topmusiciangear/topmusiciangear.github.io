@@ -186,3 +186,22 @@
     margin-left: 0 !important;
   }
 }
+/* Store buttons inside imgs: third column, stacked, stretched */
+.guide-section-imgs {
+  width: 100% !important;
+  overflow: visible !important;
+}
+.store-buttons {
+  flex: 1 1 260px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  align-self: stretch !important;
+  min-width: 260px !important;
+}
+.store-buttons .guide-section-buy,
+.store-buttons .shop-btn-primary,
+.store-buttons .shop-btn-more {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+}

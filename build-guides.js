@@ -155,7 +155,7 @@ function criticalCss() {
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:#5a5a5a}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:6px;box-sizing:border-box}',
     '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:contain;padding:8px;box-sizing:border-box}.guide-product-card .guide-product-card-img--cutout{background:#5a5a5a}.guide-product-card--cutout{background:rgba(255,255,255,.06)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
-    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:contain;padding:4px;box-sizing:border-box;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:#5a5a5a;object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
+    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;width:100%}.guide-section-img{width:120px;height:120px;object-fit:contain;padding:4px;box-sizing:border-box;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:#5a5a5a;object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
@@ -6876,7 +6876,7 @@ function buildGuidePage(guide, lang, idx) {
       var quickFactsHtml = '';
       if (isFirstNew) {
         renderedProducts.add(firstProduct.id);
-        sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
+        sectionChips = '<div class="store-buttons">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
         if (firstProduct.bestFor && firstProduct.facts && firstProduct.facts.length) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
@@ -6920,6 +6920,7 @@ function buildGuidePage(guide, lang, idx) {
             scoreBadge(firstProduct, isEs ? 'es' : 'en') +
           '</div>' +
           quickFactsHtml +
+          sectionChips +
           '<div class="guide-video-thumb lb-video" data-yt="' + sectionVideo + '" role="button" aria-label="Play video" tabindex="0">' +
             '<img src="https://i.ytimg.com/vi/' + sectionVideo + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + sectionVideo + '/hqdefault.jpg\'">' +
             '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
@@ -6933,12 +6934,13 @@ function buildGuidePage(guide, lang, idx) {
             scoreBadge(firstProduct, isEs ? 'es' : 'en') +
           '</div>' +
           quickFactsHtml +
+          sectionChips +
           '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
         '</div>';
       }
     }
-    const mediaBuy = (productImgs && sectionChips)
-      ? '<div class="guide-section-mediabuy">' + productImgs + sectionChips + '</div>'
+    const mediaBuy = (productImgs)
+      ? '<div class="guide-section-mediabuy">' + productImgs + '</div>'
       : productImgs + sectionChips;
     const bodyHtml = boldedC + mediaBuy;
     return `<div class="guide-section${splitSide ? ' guide-section-wide' : ''}">
