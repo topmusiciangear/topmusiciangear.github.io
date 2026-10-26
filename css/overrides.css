@@ -31,15 +31,20 @@
   padding: 3px 4px !important;
   text-align: left !important;
 }
+.guide-section-quickfacts .qf-card {
+  background: rgba(34,37,44,0.55) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+}
 .guide-section-quickfacts .qf-fact .qf-icon {
-  width: 16px !important;
-  height: 16px !important;
-  min-width: 16px !important;
+  width: 20px !important;
+  height: 20px !important;
+  min-width: 20px !important;
   margin: 0 !important;
   flex-shrink: 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  font-size: 18px !important;
 }
 .guide-section-quickfacts .qf-fact .qf-text {
   flex-direction: column !important;
@@ -174,7 +179,7 @@
   .guide-section-mediabuy > .guide-section-buy {
     flex: 1 1 auto !important;
     width: auto !important;
-    max-width: 460px !important;
-    min-width: 260px !important;
+    max-width: 520px !important;
+    min-width: 320px !important;
   }
 }

@@ -6882,10 +6882,10 @@ function buildGuidePage(guide, lang, idx) {
           const _bfl = isEs ? 'Ideal para' : 'Best for';
           function _qfIcon(name, color) {
             if (name === 'sineWave') {
-              return '<svg viewBox="0 0 24 16" width="16" height="16" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
             }
             if (name === 'gauge') {
-              return '<svg viewBox="0 0 24 16" width="16" height="16" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 14 A 9 9 0 0 1 21 14"/><line x1="12" y1="14" x2="17" y2="6" stroke-width="2"/></svg>';
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 14 A 9 9 0 0 1 21 14"/><line x1="12" y1="14" x2="17" y2="6" stroke-width="2"/></svg>';
             }
             return icon(name, 'fa-solid');
           }
@@ -6897,7 +6897,7 @@ function buildGuidePage(guide, lang, idx) {
             '</div>' +
             firstProduct.facts.map(function (f) {
               const lbl = isEs ? (f.label && f.label.es) : (f.label && f.label.en);
-              const col = f.tone === 'tradeoff' ? '#f5a524' : '#4ade80';
+              const col = '#4ade80';
               return '<div class="qf-card qf-fact">' +
                 '<span class="qf-icon" style="color:' + col + '">' + _qfIcon(f.icon, col) + '</span>' +
                 '<div class="qf-text">' +
