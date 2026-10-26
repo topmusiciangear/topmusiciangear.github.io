@@ -41,6 +41,15 @@ def match_col(col_title, guide):
     cands = [x for x in feat if all(t in norm(x['title']).split() for t in toks)]
     if len(cands) == 1:
         return cands[0]
+    # reverse subset: every product token appears in the column title
+    # ("Scaler 3" -> "Scaler Music Scaler 3", "Melodyne 5 Essential" -> "Celemony Melodyne 5 Essential")
+    cands = []
+    for x in prods:
+        pt = norm(x['title']).split()
+        if pt and all(t in toks for t in pt):
+            cands.append(x)
+    if len(cands) == 1:
+        return cands[0]
     return None
 
 
@@ -61,6 +70,20 @@ ROW_KINDS = {
     'strings': ['strings', 'cuerdas'],
     'brace': ['bracing', 'varetaje'],
     'case': ['case/bag', 'estuche', 'funda'],
+    # plugins / software
+    'ptype': ['type', 'tipo'],
+    'format': ['format', 'formats', 'formato', 'formatos'],
+    'platforms': ['platforms', 'plataformas'],
+    'copyprot': ['copy protection', 'proteccion anticopia', 'protección anticopia'],
+    'latency': ['latency', 'latencia'],
+    'cpu': ['cpu load', 'carga de cpu'],
+    'standout': ['standout feature', 'key feature', 'caracteristica destacada'],
+    'editing': ['editing type', 'tipo de edicion'],
+    'timing': ['timing tools'],
+    'formant': ['formant editing'],
+    'midiout': ['audio-to-midi'],
+    'multitrack': ['multi-track view'],
+    'ecosystem': ['ecosystem', 'ecosistema'],
 }
 
 
@@ -117,6 +140,42 @@ for guide in g:
                             bestfor[pid].append(v)
 
 KINDS = list(ROW_KINDS)
+# Manual aliases for columns whose titles never resolve unambiguously (duplicate products,
+# brand-prefix differences). pid -> (guide id, column title)
+ALIAS_COLS = [
+    (382, 'best-midi-theory-plugins', 'Scaler Music Scaler 3'),
+    (1032, 'repitch-vs-melodyne', 'Celemony Melodyne 5 Essential'),
+    (1040, 'repitch-vs-melodyne', 'Synchro Arts RePitch 2 Standard'),
+]
+for pid, gu, col in ALIAS_COLS:
+    guide = next((x for x in g if x['id'] == gu), None)
+    if not guide:
+        print('  ! alias guide missing', gu)
+        continue
+    pt = guide.get('productTable') or {}
+    cols = [c.get('title') for c in pt.get('columns') or []]
+    if col not in cols:
+        print('  ! alias column missing', gu, col)
+        continue
+    i = cols.index(col)
+    for row in pt.get('rows') or []:
+        lab = row.get('label', '')
+        vals = row.get('values') or []
+        if i >= len(vals) or not isinstance(vals[i], dict):
+            continue
+        v = (vals[i].get('value') or '').strip()
+        if not v:
+            continue
+        kind = row_kind(lab)
+        if kind:
+            specs.setdefault(pid, {}).setdefault(kind, [])
+            if v not in specs[pid][kind]:
+                specs[pid][kind].append(v)
+        if norm(lab).startswith('best for'):
+            bestfor.setdefault(pid, [])
+            if v not in bestfor[pid]:
+                bestfor[pid].append(v)
+
 lines = []
 empty = []
 for x in prods:

@@ -1,0 +1,1044 @@
+{
+ "1040": {
+  "editing": [
+   "Monophonic (smart multi-track view)"
+  ],
+  "timing": [
+   "Automatic SmartAttack + macros"
+  ],
+  "formant": [
+   "Included: reshape vocal timbre and character"
+  ],
+  "midiout": [
+   "Not included (audio processing only)"
+  ],
+  "multitrack": [
+   "Yes: several takes side by side"
+  ],
+  "ecosystem": [
+   "Direct SynchroLink to VocAlign & Revoice"
+  ]
+ },
+ "1032": {
+  "editing": [
+   "Basic monophonic (one track per window)"
+  ],
+  "timing": [
+   "Manual note-by-note timing"
+  ],
+  "formant": [
+   "Not included (Assistant and higher only)"
+  ],
+  "midiout": [
+   "Not included (Assistant and higher only)"
+  ],
+  "multitrack": [
+   "No: one track per window (Studio only)"
+  ],
+  "ecosystem": [
+   "Standalone (needs ARA or manual transfer)"
+  ]
+ },
+ "1025": {
+  "ptype": [
+   "Audio repair suite"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Visual spectral editor with dialogue tools"
+  ]
+ },
+ "472": {
+  "ptype": [
+   "Spectral resonance suppressor",
+   "Spectral compressor"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Single-control spectral processing",
+   "Single-control spectral suppression",
+   "Single-knob spectral smoothing"
+  ],
+  "copyprot": [
+   "License file"
+  ],
+  "latency": [
+   "Low"
+  ]
+ },
+ "1027": {
+  "ptype": [
+   "AI de-esser"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Neural network finds exact sibilant events"
+  ]
+ },
+ "1028": {
+  "ptype": [
+   "4-tool restoration suite"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "DeNoise, DeHum, DeClick and DeReverb in one"
+  ]
+ },
+ "1030": {
+  "ptype": [
+   "De-mixing de-reverb processor"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Separates direct sound from reflections"
+  ]
+ },
+ "1019": {
+  "ptype": [
+   "Amp and effects modeling suite"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "177 models in Standard; 400+ need MAX, with Tonex capture"
+  ]
+ },
+ "1020": {
+  "ptype": [
+   "Amp modeler, FX and cabinet suite"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "DynIR virtual cabinets with studio effects"
+  ]
+ },
+ "1021": {
+  "ptype": [
+   "Studio room and console emulation"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Full Studio A signal chain with reverb chamber"
+  ]
+ },
+ "1022": {
+  "ptype": [
+   "Single-amp valve simulator"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Valve amp with 3 cabs, drive, delay and reverb"
+  ]
+ },
+ "1023": {
+  "ptype": [
+   "Marshall amp suite (Amp Room platform)"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Licensed Marshall amps, cabs and pedals"
+  ]
+ },
+ "1007": {
+  "ptype": [
+   "Music theory workstation (MIDI)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Automatic key detection with one-finger chords"
+  ]
+ },
+ "1008": {
+  "ptype": [
+   "MIDI sampler and remixer"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Slice, sequence and remix any MIDI file"
+  ]
+ },
+ "1009": {
+  "ptype": [
+   "Loop sequencer and groove generator"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Multi-track looping with intelligent variations"
+  ]
+ },
+ "1010": {
+  "ptype": [
+   "AI drum pattern generator (MIDI)"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Genre-aware generation with human-feel velocity"
+  ]
+ },
+ "1011": {
+  "ptype": [
+   "Generative MIDI sequencer"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Scale-aware generation with density control"
+  ]
+ },
+ "1012": {
+  "ptype": [
+   "Polyphonic pitch mapper"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Route individual notes of a mix to MIDI live"
+  ]
+ },
+ "1013": {
+  "ptype": [
+   "Sampled Steinway Model D grand"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Nine-foot Steinway D with concert dynamics"
+  ]
+ },
+ "1014": {
+  "ptype": [
+   "Sampler platform"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Hosts libraries from NI, Spitfire, Heavyocity and more"
+  ]
+ },
+ "1015": {
+  "ptype": [
+   "45 modeled instruments suite"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "12,000+ presets via Analog Lab Pro"
+  ]
+ },
+ "1016": {
+  "ptype": [
+   "Sampled studio grand, upright and EP"
+  ],
+  "format": [
+   "VST/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Clean mix-ready sound with mic mixing"
+  ]
+ },
+ "1017": {
+  "ptype": [
+   "Felt + concert grand (Kontakt)"
+  ],
+  "format": [
+   "VST3/AU/AAX via Kontakt"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Particles engine for evolving beds"
+  ]
+ },
+ "1018": {
+  "ptype": [
+   "Hybrid acoustic grand + synth layers"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Morph control blends piano with synthesis"
+  ]
+ },
+ "29": {
+  "ptype": [
+   "14 plug-ins",
+   "14 plug-ins (EQ, comp, reverb, sat, limiter)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License file",
+   "License key"
+  ],
+  "latency": [
+   "Ultra-low"
+  ],
+  "standout": [
+   "Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R"
+  ]
+ },
+ "62": {
+  "ptype": [
+   "Dynamic/parametric EQ"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License file"
+  ],
+  "latency": [
+   "Ultra-low"
+  ],
+  "standout": [
+   "24 bands, spectrum analyzer, linear phase",
+   "24 bands + dynamic EQ + linear phase"
+  ]
+ },
+ "63": {
+  "ptype": [
+   "Compressor"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License file"
+  ],
+  "latency": [
+   "Ultra-low"
+  ],
+  "standout": [
+   "Opto, VCA, FET + dynamic sidechain"
+  ]
+ },
+ "30": {
+  "ptype": [
+   "Mastering suite",
+   "Mastering suite, 20 modules"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX",
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "iLok"
+  ],
+  "latency": [
+   "Low",
+   "High"
+  ],
+  "standout": [
+   "Ozone Assistant, Tonal Balance, 8 modules",
+   "Master Assistant with Tonal Balance Control"
+  ]
+ },
+ "32": {
+  "ptype": [
+   "21 creative plug-ins",
+   "Multi-FX Bundle (21 effects)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX",
+   "VST2/VST3/AU/AAX/CLAP"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "iLok"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "EchoBoy, Decapitator, AlterBoy, FilterFreak",
+   "Effect Rack: chain 5 effects, modulation matrix"
+  ],
+  "cpu": [
+   "High (multiple instances heavy)"
+  ]
+ },
+ "120": {
+  "ptype": [
+   "Pitch correction & editing"
+  ],
+  "format": [
+   "VST3/AU/AAX + standalone (ARA)"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License file"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "Melodic algorithm, per-note editing"
+  ]
+ },
+ "123": {
+  "ptype": [
+   "Bundle (Kontakt-based)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "Native Access"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "100+ instruments, synths & sampled libraries"
+  ]
+ },
+ "61": {
+  "ptype": [
+   "Compressor"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License file"
+  ],
+  "latency": [
+   "Ultra-low"
+  ],
+  "standout": [
+   "M/S, sidechain EQ, lookahead, oversampling"
+  ]
+ },
+ "121": {
+  "ptype": [
+   "Emulation suite",
+   "Plugin bundle"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "UAD DSP hardware required",
+   "iLok"
+  ],
+  "latency": [
+   "Near-zero (DSP UAD)",
+   "Low"
+  ],
+  "standout": [
+   "100+ emulations: Neve, API, SSL, Manley, Ampex",
+   "100+ UAD plug-ins native"
+  ]
+ },
+ "1001": {
+  "ptype": [
+   "Wavetable, granular, sample + virtual analog"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Visual modulation matrix with 104 filter types"
+  ]
+ },
+ "1002": {
+  "ptype": [
+   "Virtual analog (circuit-modeled)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Oscillator drift and filter saturation like hardware"
+  ]
+ },
+ "1003": {
+  "ptype": [
+   "Semi-modular softsynth"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Snapin effects work as modulators or processors"
+  ]
+ },
+ "1004": {
+  "ptype": [
+   "Workstation (wavetable, sample, FM, VA)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "12 oscillators per patch with step envelopes"
+  ]
+ },
+ "1005": {
+  "ptype": [
+   "Polyphonic subtractive synth"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Four multimode oscillators with deep modulation"
+  ]
+ },
+ "1006": {
+  "ptype": [
+   "Wavetable synthesizer"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "10 wavetable modes with deep routing matrix"
+  ]
+ },
+ "119": {
+  "ptype": [
+   "Buss compressor"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "Waves License Center"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "SSL G-series 4K style comp"
+  ]
+ },
+ "60": {
+  "ptype": [
+   "Compressor plug-in"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "iLok"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "1176 LN + revision models"
+  ]
+ },
+ "379": {
+  "ptype": [
+   "Channel strip (72ch TMT)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "PA account"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "72 TMT channels, black/brown EQ, E/G dynamics"
+  ]
+ },
+ "238": {
+  "ptype": [
+   "Algorithmic Reverb"
+  ],
+  "standout": [
+   "Gravity knob reverses decay (time inversion)"
+  ],
+  "cpu": [
+   "Low-Moderate"
+  ],
+  "format": [
+   "VST2/AU/AAX (no VST3/CLAP)"
+  ]
+ },
+ "374": {
+  "ptype": [
+   "Rhythmic Modulation Suite"
+  ],
+  "standout": [
+   "9 drawable curves, Cable cross-modulation, MIDI"
+  ],
+  "cpu": [
+   "Moderate-High (9 bands)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "375": {
+  "ptype": [
+   "Lo-Fi / Character Processor"
+  ],
+  "standout": [
+   "6 modules: Wobble, Drop, Noise, Space, Magnetic, digital"
+  ],
+  "cpu": [
+   "Low"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "376": {
+  "ptype": [
+   "Time-Stretch / Pitch Effect"
+  ],
+  "standout": [
+   "Pitch/formant separation = natural slow-down"
+  ],
+  "cpu": [
+   "Low"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "377": {
+  "ptype": [
+   "Dual-Engine Creative Delay"
+  ],
+  "standout": [
+   "Groove, Modulation, Freeze per engine, Macro morph"
+  ],
+  "cpu": [
+   "Moderate"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "380": {
+  "ptype": [
+   "Step-Sequenced Multi-FX"
+  ],
+  "standout": [
+   "28 modules, probability per step, Macro knobs"
+  ],
+  "cpu": [
+   "Moderate-High (28 modules)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "386": {
+  "ptype": [
+   "Multiband Distortion"
+  ],
+  "standout": [
+   "60+ models, 4 bands, envelopes, convolution, spectral"
+  ],
+  "cpu": [
+   "High (4 bands + spectral)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ]
+ },
+ "387": {
+  "ptype": [
+   "Spatial / Reverb (3 engines)"
+  ],
+  "standout": [
+   "5 modules: Format, Dirt, Reave, Width, Space"
+  ],
+  "cpu": [
+   "High (3 engines + modulation)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "394": {
+  "ptype": [
+   "Harmonic Spectral Processor"
+  ],
+  "standout": [
+   "Harmonic/inharmonic split, Flux/Drift/Warp modes"
+  ],
+  "cpu": [
+   "Moderate"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "390": {
+  "ptype": [
+   "Chorus (Juno-106 modeling)"
+  ],
+  "standout": [
+   "Authentic Juno-106 chorus, 2 modes"
+  ],
+  "cpu": [
+   "Low"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "392": {
+  "ptype": [
+   "Delay (23 models)"
+  ],
+  "standout": [
+   "Tape/BBD/digital/Diffusion, multi-tap, per-tap mod"
+  ],
+  "cpu": [
+   "Moderate"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX/CLAP"
+  ]
+ },
+ "527": {
+  "ptype": [
+   "Delay + Reverb Wet-FX Generator"
+  ],
+  "standout": [
+   "16-step Echo sequencer + Space reverb + X-Y mixer + Generate dice"
+  ],
+  "cpu": [
+   "Low-Moderate"
+  ],
+  "format": [
+   "VST/VST3/AU/AAX"
+  ]
+ },
+ "473": {
+  "ptype": [
+   "Clipper / limiter"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License file"
+  ],
+  "latency": [
+   "Ultra-low"
+  ],
+  "standout": [
+   "Transparent clipping for loud masters"
+  ]
+ },
+ "474": {
+  "ptype": [
+   "Reference & metering tool"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "License key"
+  ],
+  "latency": [
+   "N/A (analysis)"
+  ],
+  "standout": [
+   "Gain-match A/B + spectral overlays"
+  ]
+ },
+ "1038": {
+  "ptype": [
+   "True-peak limiter"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "iLok"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "Inter-sample peak detection"
+  ]
+ },
+ "1034": {
+  "ptype": [
+   "Mastering bundle, 4 plugins"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Pro-Q 3, Pro-L 2, Pro-C 2 and Pro-MB"
+  ]
+ },
+ "1039": {
+  "ptype": [
+   "Vocal production bundle"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "iLok"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "Natural tuning + timing alignment in one package"
+  ]
+ },
+ "378": {
+  "ptype": [
+   "Vocal doubler (Thicken + Widen)"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "iLok"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "Thicken + Widen, pitch/timing humanisation"
+  ]
+ },
+ "1041": {
+  "ptype": [
+   "13-module vocal suite"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "copyprot": [
+   "Serial (Product Portal)"
+  ],
+  "latency": [
+   "Low"
+  ],
+  "standout": [
+   "Vocal Assistant + Auto-Level + Voices"
+  ]
+ },
+ "1035": {
+  "ptype": [
+   "In-DAW vocal alignment plugin"
+  ],
+  "format": [
+   "VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "ARA integration with per-track control"
+  ]
+ },
+ "1036": {
+  "ptype": [
+   "Standalone vocal production suite"
+  ],
+  "format": [
+   "Standalone + VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Dozens of tracks with frame-level precision"
+  ]
+ },
+ "382": {
+  "ptype": [
+   "Music theory workstation (MIDI)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Automatic key detection with one-finger chords"
+  ]
+ }
+}

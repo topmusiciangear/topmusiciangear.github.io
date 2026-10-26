@@ -1,645 +1,532 @@
-PID 6 | Fender American Professional II Stratocaster
-   bestFor: Most versatile all-round studio guitar || Professional / lifetime instrument || Glassy Strat tones for gigging
-   bodywood  : Alder
-   neck      : Maple, Deep C | Deep C, satin
-   frets     : 22, maple or rosewood | 22, maple/rosewood, narrow tall
-   pickups   : V-Mod II single-coils | 3x V-Mod II single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : 2-point tremolo | 2-point tremolo, cold-rolled steel block
-   tuners    : Fender locking | Sealed die-cast, nickel
-   weight    : 7.8 lb (3.5 kg)
-PID 7 | Gibson Les Paul Standard '60s
-   bestFor: Classic rock authority
-   bodywood  : Mahogany + maple top
-   neck      : Mahogany, SlimTaper
-   frets     : 22, rosewood
-   pickups   : 60s Burstbucker HH
-   scale     : 24.75 in (629 mm)
-   bridge    : Tune-o-matic
-   tuners    : Grover Rotomatic
-   weight    : Not published (varies by unit)
-PID 8 | Taylor 314ce Next Generation
-PID 65 | Fender Player II Jazzmaster
-   bestFor: Offset indie textures || Indie textures for live and studio
-   bodywood  : Alder
-   neck      : Maple, Modern C | Modern C
-   frets     : 22, rosewood
-   pickups   : 2x Player Alnico 5 JM | Player Alnico single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : Floating tremolo
-   tuners    : ClassicGear | Fender ClassicGear
-   weight    : Not published (varies by unit) | 8.2 lb (3.7 kg)
-PID 68 | Fender CD-60S Acoustic
-   bestFor: Strumming and learning for beginners || Budget first acoustic
-   body      : Dreadnought
-   top       : Solid spruce
-   back      : Mahogany
-   bodywood  : Spruce top / mahogany back
-   neck      : Nato
-   frets     : 20, walnut | 20
-   pickups   : None (acoustic)
-   scale     : 25.3 in (643 mm)
-   tuners    : Chrome sealed
-   weight    : 4.2 lb (1.9 kg)
-   electronics: None
-PID 102 | Yamaha FG800 Acoustic
-   bestFor: Learning chords for beginners || Warm strumming for beginners
-   body      : Dreadnought
-   top       : Solid spruce
-   back      : Nato/Okoume
-   bodywood  : Solid spruce / nato
-   neck      : Nato, 25.5 in
-   frets     : 20, rosewood | 20
-   pickups   : None (acoustic)
-   scale     : 25.6 in (650 mm)
-   tuners    : Die-cast chrome
-   weight    : 4.6 lb (2.1 kg)
-   electronics: None
-PID 103 | Yamaha Pacifica 112V
-   bestFor: First riffs for beginners || Best all-rounder for most beginners || Best budget studio guitar || All-round guitar for beginners
-   bodywood  : Alder
-   neck      : Maple, 22 frets | C-shape maple | Maple, C-shape | C shape, comfortable
-   frets     : 22, maple | 22 medium, rosewood | 22, rosewood | 22, maple/rosewood
-   pickups   : HSS Alnico | HSS — humbucker + 2 singles | Alnico V HSS | HSS (1 humbucker, 2 single)
-   scale     : 25.5 in (648 mm)
-   bridge    : Vintage-style tremolo
-   tuners    : Die-cast | Sealed die-cast | Die-cast sealed
-   weight    : 7.5 lb (3.4 kg) | ~7.5 lb (3.4 kg)
-PID 104 | Martin D-28 Dreadnought
-   bestFor: Strumming and flatpicking on stage
-   body      : Dreadnought
-   top       : Solid Sitka spruce
-   back      : East Indian rosewood
-   neck      : Mahogany, 25.4 in
-   frets     : Ebony, 20 frets
-   electronics: None (acoustic)
-   brace     : Forward-shifted X-brace
-PID 124 | Fender Player II Stratocaster HSS
-   bestFor: Rock and blues for gigging || Versatile rock and blues for gigging
-   bodywood  : Alder
-   neck      : Maple, Modern C | Modern C, 22 frets
-   frets     : 22, maple/rosewood
-   pickups   : Player Alnico 2/5 HSS
-   scale     : 25.5 in (648 mm)
-   bridge    : 2-point tremolo
-   tuners    : Player
-   weight    : 7.6 lb (3.4 kg)
-PID 126 | Fender American Professional II Telecaster
-   bestFor: Country twang for gigging || Twang and leads for gigging
-   bodywood  : Alder
-   neck      : Maple, Deep C | Deep C, 22 frets
-   frets     : 22, maple/rosewood | 22, maple
-   pickups   : V-Mod II Tele SS | V-Mod II Tele single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : 3-saddle Tele
-   tuners    : Fender locking | Fender ClassicGear
-   weight    : Not published (varies by unit) | 7.4 lb (3.4 kg)
-PID 270 | Donner HUSH-I EVO2
-   bestFor: Silent headless practice with headphones
-   top       : Mahogany body, 5-piece maple-mahogany neck
-   bodywood  : Headless, removable metal frames
-   neck      : 5-piece maple-mahogany, HPL fretboard
-   frets     : 20
-   scale     : 24.75 in (628 mm)
-   weight    : 3.8 lb (1.72 kg)
-   nut       : 1.65 in (42 mm)
-   electronics: Piezo + HPS-II preamp, built-in tuner, 5-piece neck
-   strings   : Steel
-PID 271 | Taylor GS Mini
-PID 272 | Yamaha SLG200S
-   bestFor: Silent steel-string practice + recording
-   top       : Mahogany body, rosewood & maple frame
-   bodywood  : Collapsible frame, 14 in (356 mm) wide
-   neck      : Mahogany neck, rosewood fretboard
-   frets     : 22
-   scale     : 25 in (634 mm)
-   weight    : 4.6 lb (2.1 kg)
-   nut       : 1 11/16 in (43 mm)
-   electronics: SRT Powered preamp, tuner, reverb/chorus
-   strings   : Steel
-PID 273 | Yamaha SLG200N
-   bestFor: Silent nylon-string / classical practice
-   top       : Mahogany body, rosewood & maple frame
-   bodywood  : Collapsible frame, 14 in (356 mm) wide
-   neck      : Mahogany neck, rosewood fretboard
-   frets     : 19
-   scale     : 25 9/16 in (650 mm)
-   weight    : 4.5 lb (2.0 kg)
-   nut       : 1 31/32 in (50 mm)
-   electronics: SRT Powered preamp, tuner, reverb/chorus
-   strings   : Nylon (classical)
-PID 274 | Traveler Guitar Ultra-Light Steel
-   bestFor: Ultra-portable full-scale acoustic
-   top       : Solid maple
-   bodywood  : Neck-through maple, 5.25 in wide
-   neck      : Neck-through maple, walnut/rosewood board
-   frets     : 22 medium
-   scale     : 24.75 in (628 mm)
-   weight    : 2.9 lb (1.3 kg)
-   nut       : 1.75 in (44.5 mm)
-   electronics: Passive Shadow piezo
-   strings   : Steel
-PID 275 | Traveler Guitar Ultra-Light Nylon
-   bestFor: Silent nylon-string travel practice
-   top       : Solid maple or mahogany
-   bodywood  : Neck-through mahogany, 5.25 in wide
-   neck      : Neck-through, walnut fretboard
-   frets     : 22 medium
-   scale     : 24.75 in (628 mm)
-   weight    : 3 lb (1.36 kg)
-   nut       : 1.94 in (49 mm)
-   electronics: Passive Traveler piezo
-   strings   : Nylon (classical)
-PID 295 | Enya Nova Go Sonic Smart Electric Guitar
-   bestFor: Travel-proof smart electric, no amp || Play anywhere, no amp needed || Practice anywhere for beginners || Quiet practice for home players
-   top       : Acoustic carbon fiber composite
-   bodywood  : Carbon fiber | Carbon fiber single-cutaway electric
-   neck      : Carbon fiber, asymmetrical | C-shape composite | Carbon, asymmetrical | Carbon fiber, asymmetric profile
-   frets     : 22, carbon fiber | 22, composite | 22
-   pickups   : 2 humbuckers (Alnico II/V) | Alnico II/V HH
-   scale     : 24.75 in (629 mm) | 24.75 in (628 mm)
-   bridge    : Tune-o-matic
-   tuners    : — | Sealed | Custom sealed
-   weight    : 6.6 lb (3.0 kg) | ~6.0 lb (2.7 kg) | 6 lb (2.7 kg)
-   nut       : 1 11/16 in (42 mm), zero fret
-   electronics: HH Alnico II/V, ES1 Pro DSP, 10W speaker, 4 presets
-   strings   : Steel (electric)
-PID 296 | Lava Music Lava ME 4 Smart Guitar
-   bestFor: Practice and jamming at home
-   top       : Super AirSonic carbon fiber unibody
-   bodywood  : Carbon fiber compact dreadnought (36 in)
-   neck      : FlyNeck 2.0 carbon, HPL fingerboard
-   frets     : 18
-   scale     : 23.5 in (597 mm)
-   weight    : 4.55 lb (2.06 kg)
-   nut       : 1 11/16 in (42.9 mm)
-   electronics: HILAVA 2.0 OS, SHARC DSP, 34 effects, looper, FreeBoost 3.0
-   strings   : Nylon (classical)
-PID 309 | Squier Debut Series Stratocaster
-   bestFor: First Strat for beginners || First chords for beginners || Budget first guitar
-   bodywood  : Poplar
-   neck      : Slim C-shape maple | Maple, C shape | C shape, slim
-   frets     : 21 medium jumbo, maple | 21, laurel | 21, maple
-   pickups   : 3 ceramic single coils | Ceramic SSS | 3x ceramic single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : Tremolo w/ removable arm | Synchronized tremolo | Vintage-style tremolo
-   tuners    : Sealed-gear | Die-cast sealed | Sealed die-cast
-   weight    : ~7.0 lb (3.2 kg) | Not published (varies by unit) | 7.5 lb (3.4 kg)
-PID 310 | Squier Affinity Series Stratocaster
-   bestFor: Learning rock for beginners || First rock riffs for beginners || Classic beginner Strat
-   bodywood  : Poplar
-   neck      : C-shape, 21 frets | C-shape maple, satin | Maple, C shape | C shape, satin finish
-   frets     : 21, maple | 21 medium jumbo, maple/laurel | 21, maple/laurel
-   pickups   : Ceramic single-coils (SSS) | 3 ceramic single coils | Ceramic SSS | 3x ceramic single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : 2-point sync tremolo | 2-point tremolo | 2-point synchronized tremolo
-   tuners    : Die-cast sealed | Sealed die-cast | Sealed die-cast split-shaft
-   weight    : 7.2 lb (3.3 kg) | ~7.5 lb (3.4 kg) | Not published (varies by unit) | 7.9 lb (3.6 kg)
-PID 311 | Squier Classic Vibe '50s Stratocaster
-   bestFor: Vintage rock for beginners || Vintage style for beginner rock
-   bodywood  : Pine
-   neck      : Maple, C shape | C shape, vintage tint
-   frets     : 21, maple
-   pickups   : Fender alnico SSS | 3x alnico single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : Vintage tremolo | 6-saddle vintage tremolo
-   tuners    : Vintage-style
-   weight    : Not published (varies by unit) | 7.6 lb (3.4 kg)
-PID 312 | PRS SE Custom 24
-   bestFor: Versatile gigging for rock and blues || Intermediate / pro-feel upgrade
-   bodywood  : Mahogany with maple top | Maple top, mahogany back
-   neck      : Maple, Wide Thin | Wide Thin, satin
-   frets     : 24, rosewood | 24, rosewood, birds
-   pickups   : 85/15 'S' humbuckers | 2x 85/15 "S" humbuckers
-   scale     : 25 in (635 mm)
-   bridge    : PRS tremolo | PRS patented tremolo
-   tuners    : PRS-designed | PRS designed
-   weight    : 7.6 lb (3.45 kg)
-PID 313 | Squier Sonic Mustang
-   bestFor: Short-scale electric for small hands || Kids & smaller hands || Easy playing for kids || Short scale for kids / small hands
-   bodywood  : Poplar | Poplar (offset)
-   neck      : Maple, 22 frets | Slim C-shape maple | Maple, C shape | C shape, slim
-   frets     : 22, maple/laurel | 22 medium jumbo, maple/laurel | 22, maple | 22, maple, 9.5"
-   pickups   : 2 single-coils (SS) | 2 ceramic single coils | Ceramic SS | 2x ceramic single coils
-   scale     : 24 in (610 mm)
-   bridge    : Fixed 6-saddle hardtail | Hardtail | 6-saddle top-load hardtail
-   tuners    : Die-cast sealed | Sealed die-cast
-   weight    : — | ~6.0 lb (2.7 kg) | Not published (varies by unit) | Lightweight poplar
-PID 314 | Yamaha FGX800C
-   bestFor: Best electro-acoustic for beginners
-   body      : Dreadnought cutaway
-   top       : Solid spruce
-   back      : Nato & okoume
-   frets     : 20
-   scale     : 25.6 in (650 mm)
-   electronics: System 66
-PID 315 | Yamaha FS800
-   bestFor: Best for smaller hands & fingerstyle
-   body      : Concert
-   top       : Solid spruce
-   back      : Nato & okoume
-   frets     : 20
-   scale     : 25 in (635 mm)
-   electronics: None
-PID 316 | Martin LX1 Little Martin
-   bestFor: Best travel & 3/4-size acoustic
-   body      : Modified 0 (15/16)
-   top       : Solid Sitka spruce
-   back      : Mahogany HPL
-   frets     : 20
-   scale     : 23 in (584 mm)
-   electronics: None
-PID 317 | Strandberg Boden Essential 6
-   bestFor: Maximum comfort & quiet tracking
-   bodywood  : Meranti
-   neck      : EndurNeck (maple/reinforced)
-   frets     : 22, roasted maple
-   pickups   : Strandberg Custom OEM humbuckers (HH)
-   scale     : 25–25.5 in (635–648 mm) multi-scale
-   bridge    : Fixed bridge
-   tuners    : Strandberg EGS
-   weight    : 5.6 lb (2.55 kg)
-PID 318 | Ibanez AZ2402 Prestige
-   bestFor: Modern rock and fusion for gigging
-   bodywood  : Alder
-   neck      : Roasted maple, AZ Oval C
-   frets     : 24, maple or rosewood
-   pickups   : Seymour Duncan Hyperion humbuckers (HH)
-   scale     : 25.5 in (648 mm)
-   bridge    : Gotoh tremolo (steel block)
-   tuners    : Gotoh locking
-   weight    : 7.9 lb (3.6 kg)
-PID 319 | ESP E-II Eclipse DB
-   bestFor: Silent high-gain metal
-   bodywood  : Mahogany
-   neck      : Mahogany, Thin U
-   frets     : 22, ebony
-   pickups   : Active EMG 57TW/66TW (coil-split)
-   scale     : 24.75 in (628 mm)
-   bridge    : Fixed bridge
-   tuners    : Gotoh locking
-   weight    : 8.2 lb (3.7 kg)
-PID 352 | Gretsch G9500 Jim Dandy Flat Top
-   bestFor: Vintage blues vibe
-   top       : Agathis
-   back      : Agathis
-   scale     : 24"
-   nut       : 1.75"
-   electronics: None
-   case      : None
-PID 353 | Yamaha CSF1M Parlor Acoustic-Electric
-   bestFor: All-around + gigging
-   top       : Solid spruce
-   back      : Mahogany
-   scale     : 23.6"
-   nut       : 1.69"
-   electronics: Zero Impact piezo
-   case      : Gig bag
-PID 354 | PRS SE P20e Tonare Parlor
-   bestFor: Intimate blues for fingerstyle fans
-   top       : Solid mahogany
-   back      : Mahogany
-   scale     : 24.72"
-   nut       : 1.69"
-   electronics: Fishman Presys VT
-   case      : Gig bag
-PID 355 | Epiphone L-00 Studio Parlor Acoustic-Electric
-   bestFor: Slide & ragtime
-   top       : Solid spruce
-   back      : Mahogany
-   scale     : 24.75"
-   nut       : 1.69"
-   electronics: Fishman Sonitone
-   case      : None
-PID 356 | Fender CP-60S Parlor Acoustic
-   bestFor: First parlor for beginners
-   top       : Solid spruce
-   back      : Mahogany
-   scale     : 24.75"
-   nut       : 1.69"
-   electronics: None
-   case      : Gig bag
-PID 357 | Gretsch G5021E Rancher Penguin Parlor
-   bestFor: Stage personality
-   top       : Solid spruce
-   back      : Maple (arched)
-   scale     : 25"
-   nut       : 1.675"
-   electronics: Presys III + tuner
-   case      : None
-PID 361 | Fender Highway Series Parlor All-Mahogany Acoustic-Electric
-   bestFor: Electric players & gigs
-   top       : Solid mahogany
-   back      : Chambered mahogany
-   scale     : 24.75"
-   nut       : 1.687"
-   electronics: Fishman Fluence + Contour
-   case      : Gig bag
-PID 401 | Taylor GS Mini-e Koa
-   bestFor: Compact acoustic for grab-and-play
-   top       : Solid Hawaiian koa / layered koa
-   bodywood  : GS Mini compact (17.6 in long)
-   neck      : Tropical mahogany, ebony
-   frets     : 20
-   scale     : 23.5 in (597 mm)
-   weight    : Under 4 lb (1.8 kg)
-   nut       : 1 11/16 in (42.8 mm)
-   electronics: ES-B with tuner
-   strings   : Steel
-PID 440 | Fender American Ultra II Stratocaster
-   bestFor: Noiseless Strat for pros on stage || Noiseless Strat for live and studio
-   bodywood  : Select alder | Alder
-   neck      : Quartersawn maple, Modern D | Modern D/C hybrid
-   frets     : 22, ebony/maple compound | 22, maple
-   pickups   : Ultra II Noiseless SSS | Ultra Noiseless
-   scale     : 25.5 in (648 mm)
-   bridge    : 2-point tremolo
-   tuners    : Locking | Fender Deluxe locking
-   weight    : Not published (varies by unit) | 7.5 lb (3.4 kg)
-PID 444 | Fender Player II Telecaster
-   bestFor: Twang for tracking || Country twang for beginners
-   bodywood  : Alder
-   neck      : Maple, Modern C | Modern C, 22 medium-jumbo frets
-   frets     : 21, maple
-   pickups   : 2x Player Alnico 5 single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : 3-saddle Tele
-   tuners    : Player
-   weight    : 7.3 lb (3.3 kg)
-PID 452 | Martin D-28 Modern Deluxe
-   bestFor: Fingerstyle and recording for pros
-   body      : Dreadnought
-   top       : VTS Adirondack spruce (thermally aged)
-   back      : East Indian rosewood
-   neck      : Mahogany, 25.4 in
-   frets     : Ebony, 20 frets
-   electronics: None (acoustic)
-   brace     : Forward-shifted X-brace, hide glue
-PID 453 | Martin OM-42
-   bestFor: Fingerstyle and studio session work
-   body      : Orchestra Model (OM)
-   top       : Solid spruce
-   back      : East Indian rosewood
-   neck      : Mahogany, GE modified low oval, 1 3/4 in nut
-   frets     : Ebony, 20 frets
-   electronics: None (acoustic)
-   brace     : Standard X-brace
-PID 454 | Taylor 914ce Builder's Edition
-   bestFor: Live acoustic for gigging players
-   body      : Grand Auditorium
-   top       : Sinker redwood
-   back      : Honduran rosewood
-   neck      : Mahogany, 25.5 in
-   frets     : West African ebony, 20 frets
-   electronics: Taylor ES2
-   brace     : Taylor V-Class
-PID 455 | Taylor PS14ce Presentation Series
-   bestFor: Fingerstyle for collectors and pros
-   body      : Grand Auditorium
-   top       : Sinker redwood
-   back      : Honduran rosewood
-   neck      : Mahogany, 25.5 in
-   frets     : Ebony, 20 frets
-   electronics: Taylor ES2
-   brace     : Taylor V-Class
-PID 456 | Gibson Custom Shop 1942 Banner J-45
-   bestFor: Warm strumming for folk and blues
-   body      : Slope-shoulder dreadnought
-   top       : Thermally aged Adirondack red spruce
-   back      : Mahogany
-   neck      : Mahogany, 24.75 in
-   frets     : Rosewood, 20 frets
-   electronics: None (acoustic)
-   brace     : Thermally cured X-brace, hide glue
-PID 457 | Gibson SJ-200
-   bestFor: The King of the Flat-Tops, huge stage voice
-   body      : Super Jumbo
-   top       : Hand-scalloped Sitka spruce
-   back      : Flame maple
-   neck      : Maple, 25.5 in
-   frets     : Rosewood, 20 frets
-   electronics: None (acoustic)
-   brace     : Hand-scalloped X-brace
-PID 458 | Epiphone Les Paul Special-I
-   bestFor: Humbucker rock for beginners
-   bodywood  : Mahogany
-   neck      : Slim taper, 22 frets
-   frets     : 22, rosewood
-   pickups   : 2x humbuckers
-   scale     : 24.75 in (628 mm)
-   tuners    : Vintage-style
-   weight    : 5.5 lb (2.5 kg)
-PID 459 | Yamaha C40 Classical (Nylon) Guitar
-   bestFor: Nylon-string classical for beginners
-   bodywood  : Spruce / meranti
-   neck      : Nato, 25.6 in
-   frets     : 19, rosewood
-   pickups   : None (acoustic)
-   scale     : 25.6 in (650 mm)
-   tuners    : Chrome
-   weight    : —
-PID 460 | Ibanez AW54 Artwood Acoustic Guitar
-   bestFor: Big strumming for beginners
-   body      : Dreadnought
-   top       : Solid okoume
-   back      : Okoume
-   frets     : 20
-   scale     : 25.5 in (648 mm)
-   electronics: None
-PID 461 | Epiphone DR-100 Acoustic Guitar
-   bestFor: Ultra-budget first acoustic
-   body      : Dreadnought
-   top       : Laminated spruce
-   back      : Mahogany
-   frets     : 20
-   scale     : 25.5 in (648 mm)
-   electronics: None
-PID 462 | Squier Sonic Stratocaster HT
-   bestFor: Simple start for beginners
-   bodywood  : Poplar
-   neck      : Slim C-shape maple
-   frets     : 21 medium, maple
-   pickups   : 3 ceramic single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : Fixed (hardtail)
-   tuners    : Sealed
-   weight    : ~7.0 lb (3.2 kg)
-PID 463 | Ibanez Gio GRG121DX
-   bestFor: Rock, punk & metal beginners
-   bodywood  : Poplar
-   neck      : Slim GRG maple
-   frets     : 24, maple
-   pickups   : 2 IBZ-6 humbuckers
-   scale     : 25.5 in (648 mm)
-   bridge    : Fixed F106 bridge
-   tuners    : Die-cast
-   weight    : ~7.7 lb (3.5 kg)
-PID 464 | Yamaha Revstar Element RSE20
-   bestFor: Serious start for committed beginners
-   bodywood  : Chambered mahogany
-   neck      : 3-piece mahogany, set-in
-   frets     : 22 jumbo, rosewood, 12" radius
-   pickups   : 2 Alnico V humbuckers (VH3n/VH3b)
-   scale     : 24.75 in (628 mm)
-   bridge    : Tune-o-matic + stopbar
-   tuners    : Die-cast
-   weight    : ~7.7 lb (3.5 kg)
-PID 465 | Epiphone Les Paul Special-II E1
-   bestFor: Heavy riffs for beginners
-   bodywood  : Mahogany
-   neck      : Bolt-on mahogany, SlimTaper D
-   frets     : 22, rosewood
-   pickups   : 2 open-coil humbuckers (700T/650R)
-   scale     : 24.75 in (628 mm)
-   bridge    : Tune-o-matic + stopbar
-   tuners    : Covered, 14:1 ratio
-   weight    : ~7.5 lb (3.4 kg)
-PID 466 | Jet Guitars JS-300
-   bestFor: Comfortable learning for beginners
-   bodywood  : Roasted poplar
-   neck      : Canadian roasted maple, Modern C
-   frets     : 22, roasted maple
-   pickups   : 3 ceramic single coils
-   scale     : 25.5 in (648 mm)
-   bridge    : Synchronized tremolo
-   tuners    : Chrome die-cast
-   weight    : ~7.7 lb (3.5 kg)
-PID 553 | Fender CN-60S (Nylon)
-   bestFor: Nylon comfort for small hands
-   bodywood  : Solid spruce top, mahogany back/sides
-   neck      : Narrow 43mm mahogany, rolled edges
-   frets     : 18, walnut
-   pickups   : None (acoustic)
-   scale     : 25.3 in (643 mm)
-   tuners    : Classical chrome
-   weight    : —
-PID 554 | Takamine GC1 (Nylon)
-   bestFor: Durable classical for students
-   bodywood  : Spruce top, mahogany back/sides
-   neck      : Mahogany, adjustable truss rod
-   frets     : 19, laurel
-   pickups   : None (acoustic)
-   scale     : 25.6 in (650 mm)
-   tuners    : Chrome classical + pearl
-   weight    : —
+PID 29 | FabFilter Total Bundle
+   bestFor: One-stop mixing toolkit
+   ptype     : 14 plug-ins | 14 plug-ins (EQ, comp, reverb, sat, limiter)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License file | License key
+   latency   : Ultra-low
+   standout  : Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R
+PID 30 | iZotope Ozone 12 Advanced
+   bestFor: Mastering with AI-assisted workflow || Fast AI-assisted mastering
+   ptype     : Mastering suite | Mastering suite, 20 modules
+   format    : VST2/VST3/AU/AAX | VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : iLok
+   latency   : Low | High
+   standout  : Ozone Assistant, Tonal Balance, 8 modules | Master Assistant with Tonal Balance Control
+PID 32 | Soundtoys 5.5 Bundle
+   bestFor: Creative color and character FX || All-in-one creative sound design || Creative vocal effects and color
+   ptype     : 21 creative plug-ins | Multi-FX Bundle (21 effects)
+   format    : VST2/VST3/AU/AAX | VST2/VST3/AU/AAX/CLAP
+   platforms : macOS & Windows
+   copyprot  : iLok
+   latency   : Low
+   cpu       : High (multiple instances heavy)
+   standout  : EchoBoy, Decapitator, AlterBoy, FilterFreak | Effect Rack: chain 5 effects, modulation matrix
+PID 60 | Universal Audio 1176 Classic Limiter Collection
+   bestFor: Classic FET compressor tone || Vocal and drum compression
+   ptype     : Compressor plug-in
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : iLok
+   latency   : Low
+   standout  : 1176 LN + revision models
+PID 61 | Tokyo Dawn Labs TDR Kotelnikov GE
+   bestFor: Transparent bus & master compression
+   ptype     : Compressor
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License file
+   latency   : Ultra-low
+   standout  : M/S, sidechain EQ, lookahead, oversampling
+PID 62 | FabFilter Pro-Q 4
+   bestFor: Precision EQ on any track || Surgical EQ for mixing & mastering || Clean vocal and instrument mixing
+   ptype     : Dynamic/parametric EQ
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License file
+   latency   : Ultra-low
+   standout  : 24 bands, spectrum analyzer, linear phase | 24 bands + dynamic EQ + linear phase
+PID 63 | FabFilter Pro-C 3
+   bestFor: Transparent to aggressive compression || Punchy vocal compression for mixes
+   ptype     : Compressor
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License file
+   latency   : Ultra-low
+   standout  : Opto, VCA, FET + dynamic sidechain
+PID 119 | Waves SSL G-Master Buss Compressor
+   bestFor: SSL bus compression glue
+   ptype     : Buss compressor
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : Waves License Center
+   latency   : Low
+   standout  : SSL G-series 4K style comp
+PID 120 | Celemony Melodyne 5
+   bestFor: Pitch-perfect vocal tuning
+   ptype     : Pitch correction & editing
+   format    : VST3/AU/AAX + standalone (ARA)
+   platforms : macOS & Windows
+   copyprot  : License file
+   latency   : Low
+   standout  : Melodic algorithm, per-note editing
+PID 121 | Universal Audio UAD Ultimate 14
+   bestFor: Vintage hardware emulations || UAD hardware-style plug-ins, no hardware
+   ptype     : Emulation suite | Plugin bundle
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : UAD DSP hardware required | iLok
+   latency   : Near-zero (DSP UAD) | Low
+   standout  : 100+ emulations: Neve, API, SSL, Manley, Ampex | 100+ UAD plug-ins native
+PID 122 | iZotope RX 12 Advanced
+PID 123 | Native Instruments Komplete 26 Ultimate
+   bestFor: Huge instrument & FX library
+   ptype     : Bundle (Kontakt-based)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : Native Access
+   latency   : Low
+   standout  : 100+ instruments, synths & sampled libraries
+PID 238 | Eventide Blackhole
+   bestFor: Massive impossible spaces, ambient
+   ptype     : Algorithmic Reverb
+   format    : VST2/AU/AAX (no VST3/CLAP)
+   cpu       : Low-Moderate
+   standout  : Gravity knob reverses decay (time inversion)
+PID 374 | Cableguys ShaperBox 3
+   bestFor: Rhythmic gating, sidechain, stutter, tape stop
+   ptype     : Rhythmic Modulation Suite
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Moderate-High (9 bands)
+   standout  : 9 drawable curves, Cable cross-modulation, MIDI
+PID 375 | XLN Audio RC-20 Retro Color
+   bestFor: Instant vintage lo-fi vibe, character
+   ptype     : Lo-Fi / Character Processor
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Low
+   standout  : 6 modules: Wobble, Drop, Noise, Space, Magnetic, digital
+PID 376 | Cableguys HalfTime
+   bestFor: Half-speed effects, slow-mo textures
+   ptype     : Time-Stretch / Pitch Effect
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Low
+   standout  : Pitch/formant separation = natural slow-down
+PID 377 | Baby Audio Transit 2
+   bestFor: Complex modulated delays, rhythmic echoes
+   ptype     : Dual-Engine Creative Delay
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Moderate
+   standout  : Groove, Modulation, Freeze per engine, Macro morph
+PID 378 | Sonnox VoxDoubler
+   bestFor: Natural vocal doubles
+   ptype     : Vocal doubler (Thicken + Widen)
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : iLok
+   latency   : Low
+   standout  : Thicken + Widen, pitch/timing humanisation
+PID 379 | Brainworx bx_console SSL 4000 E
+   bestFor: Exact SSL console channel
+   ptype     : Channel strip (72ch TMT)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : PA account
+   latency   : Low
+   standout  : 72 TMT channels, black/brown EQ, E/G dynamics
+PID 380 | Devious Machines Infiltrator 2
+   bestFor: Glitch, IDM, micro-rhythms, chaos
+   ptype     : Step-Sequenced Multi-FX
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Moderate-High (28 modules)
+   standout  : 28 modules, probability per step, Macro knobs
+PID 381 | iZotope Neutron 5
+PID 382 | Plugin Boutique Scaler 3
+   bestFor: Learning theory and writing progressions
+   ptype     : Music theory workstation (MIDI)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Automatic key detection with one-finger chords
+PID 383 | Sonible smart:EQ 4
+PID 384 | Sonible smart:limit
+PID 385 | Mastering The Mix MIXVAULT
+PID 386 | iZotope Trash
+   bestFor: Multiband distortion, tone destruction
+   ptype     : Multiband Distortion
+   format    : VST2/VST3/AU/AAX
+   cpu       : High (4 bands + spectral)
+   standout  : 60+ models, 4 bands, envelopes, convolution, spectral
+PID 387 | Excite Audio Lifeline Expanse
+   bestFor: Evolving spatial textures, cinematic
+   ptype     : Spatial / Reverb (3 engines)
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : High (3 engines + modulation)
+   standout  : 5 modules: Format, Dirt, Reave, Width, Space
+PID 389 | Eventide H3000 Band Delays MK II
+PID 390 | Arturia Chorus JUN-6
+   bestFor: Lush chorus, Juno-style width
+   ptype     : Chorus (Juno-106 modeling)
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Low
+   standout  : Authentic Juno-106 chorus, 2 modes
+PID 392 | D16 Group Repeater Delay
+   bestFor: Complex delay patterns, rhythmic echoes
+   ptype     : Delay (23 models)
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Moderate
+   standout  : Tape/BBD/digital/Diffusion, multi-tap, per-tap mod
+PID 394 | Excite Audio Motion: Harmonic
+   bestFor: Harmonic animation, spectral movement
+   ptype     : Harmonic Spectral Processor
+   format    : VST2/VST3/AU/AAX/CLAP
+   cpu       : Moderate
+   standout  : Harmonic/inharmonic split, Flux/Drift/Warp modes
+PID 472 | Baby Audio Smooth Operator Pro
+   bestFor: Taming resonances with one knob || Removing resonances and harshness fast || One-knob harshness taming
+   ptype     : Spectral resonance suppressor | Spectral compressor
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License file
+   latency   : Low
+   standout  : Single-control spectral processing | Single-control spectral suppression | Single-knob spectral smoothing
+PID 473 | Brainworx bx_clipper
+   bestFor: Transparent loudness on buses and masters
+   ptype     : Clipper / limiter
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License file
+   latency   : Ultra-low
+   standout  : Transparent clipping for loud masters
+PID 474 | Mastering The Mix REFERENCE 3
+   bestFor: Checking mixes against pro references
+   ptype     : Reference & metering tool
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : License key
+   latency   : N/A (analysis)
+   standout  : Gain-match A/B + spectral overlays
+PID 527 | Baby Audio Spaced Out
+   bestFor: Rhythmic echoes + evolving spaces in one
+   ptype     : Delay + Reverb Wet-FX Generator
+   format    : VST/VST3/AU/AAX
+   cpu       : Low-Moderate
+   standout  : 16-step Echo sequencer + Space reverb + X-Y mixer + Generate dice
+PID 1001 | Arturia Pigments 7
+   bestFor: Visual synthesis and learning sound design
+   ptype     : Wavetable, granular, sample + virtual analog
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Visual modulation matrix with 104 filter types
+PID 1002 | u-he Diva
+   bestFor: Vintage analog warmth for techno and house
+   ptype     : Virtual analog (circuit-modeled)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Oscillator drift and filter saturation like hardware
+PID 1003 | Kilohearts Phase Plant
+   bestFor: Modular sound design and evolving textures
+   ptype     : Semi-modular softsynth
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Snapin effects work as modulators or processors
+PID 1004 | Vengeance Sound VPS Avenger 2
+   bestFor: EDM production at festival scale
+   ptype     : Workstation (wavetable, sample, FM, VA)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : 12 oscillators per patch with step envelopes
+PID 1005 | Reveal Sound Spire
+   bestFor: Trance leads, basses and big-room synths
+   ptype     : Polyphonic subtractive synth
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Four multimode oscillators with deep modulation
+PID 1006 | Native Instruments Massive X
+   bestFor: Aggressive basses, leads and cinematic impacts
+   ptype     : Wavetable synthesizer
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : 10 wavetable modes with deep routing matrix
+PID 1007 | Scaler 3
+   bestFor: Learning theory and writing progressions
+   ptype     : Music theory workstation (MIDI)
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Automatic key detection with one-finger chords
+PID 1008 | SongWish reMIDI 4
+   bestFor: Turning MIDI loops into playable instruments
+   ptype     : MIDI sampler and remixer
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Slice, sequence and remix any MIDI file
+PID 1009 | W.A. Production Loop Engine 3
+   bestFor: Building grooves from loops fast
+   ptype     : Loop sequencer and groove generator
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Multi-track looping with intelligent variations
+PID 1010 | Audiomodern Playbeat 4
+   bestFor: AI drum patterns by genre
+   ptype     : AI drum pattern generator (MIDI)
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Genre-aware generation with human-feel velocity
+PID 1011 | Audiomodern Riffer 4
+   bestFor: Generative melodies locked to your scale
+   ptype     : Generative MIDI sequencer
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Scale-aware generation with density control
+PID 1012 | Zynaptiq PitchMap
+   bestFor: Reshaping pitch inside mixed audio
+   ptype     : Polyphonic pitch mapper
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Route individual notes of a mix to MIDI live
+PID 1013 | MeldaProduction MeldwayGrand
+   bestFor: Concert-grand realism for classical and film
+   ptype     : Sampled Steinway Model D grand
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Nine-foot Steinway D with concert dynamics
+PID 1014 | Native Instruments Kontakt 8
+   bestFor: Running the world’s best piano libraries
+   ptype     : Sampler platform
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Hosts libraries from NI, Spitfire, Heavyocity and more
+PID 1015 | Arturia V Collection 11 Pro
+   bestFor: Vintage electric pianos, organs and synths
+   ptype     : 45 modeled instruments suite
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : 12,000+ presets via Analog Lab Pro
+PID 1016 | XLN Audio Addictive Keys
+   bestFor: Pop, lo-fi and singer-songwriter pianos
+   ptype     : Sampled studio grand, upright and EP
+   format    : VST/AU/AAX
+   platforms : macOS & Windows
+   standout  : Clean mix-ready sound with mic mixing
+PID 1017 | Native Instruments Noire
+   bestFor: Intimate felt piano for film and ambient
+   ptype     : Felt + concert grand (Kontakt)
+   format    : VST3/AU/AAX via Kontakt
+   platforms : macOS & Windows
+   standout  : Particles engine for evolving beds
+PID 1018 | Arturia Augmented GRAND PIANO
+   bestFor: Morphing piano-to-synth textures
+   ptype     : Hybrid acoustic grand + synth layers
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Morph control blends piano with synthesis
+PID 1019 | IK Multimedia AmpliTube 5
+   bestFor: Largest amp and pedal collection
+   ptype     : Amp and effects modeling suite
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : 177 models in Standard; 400+ need MAX, with Tonex capture
+PID 1020 | Two Notes Audio Engineering GENOME
+   bestFor: Component-level amps with DynIR cabs
+   ptype     : Amp modeler, FX and cabinet suite
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : DynIR virtual cabinets with studio effects
+PID 1021 | Universal Audio UAD Sound City Studios
+   bestFor: Legendary rock room tone
+   ptype     : Studio room and console emulation
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Full Studio A signal chain with reverb chamber
+PID 1022 | Kiive Audio Lunchbox Amp Sim
+   bestFor: British valve crunch in one plugin
+   ptype     : Single-amp valve simulator
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Valve amp with 3 cabs, drive, delay and reverb
+PID 1023 | Softube Amp Room Marshall Suite
+   bestFor: Official Marshall stack tones
+   ptype     : Marshall amp suite (Amp Room platform)
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Licensed Marshall amps, cabs and pedals
+PID 1025 | iZotope RX 12 Standard
+   bestFor: Spectral repair of any audio problem
+   ptype     : Audio repair suite
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Visual spectral editor with dialogue tools
+PID 1027 | Sonible smart:deess
+   bestFor: Natural AI de-essing for vocals
+   ptype     : AI de-esser
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Neural network finds exact sibilant events
+PID 1028 | Acon Restoration Suite 2
+   bestFor: Everyday cleanup on a budget
+   ptype     : 4-tool restoration suite
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : DeNoise, DeHum, DeClick and DeReverb in one
+PID 1030 | Zynaptiq Unveil
+   bestFor: Rescuing recordings from bad rooms
+   ptype     : De-mixing de-reverb processor
+   format    : VST/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Separates direct sound from reflections
+PID 1032 | Celemony Melodyne 5 Essential
+   bestFor: Transparent correction on a tight budget
+   editing   : Basic monophonic (one track per window)
+   timing    : Manual note-by-note timing
+   formant   : Not included (Assistant and higher only)
+   midiout   : Not included (Assistant and higher only)
+   multitrack: No: one track per window (Studio only)
+   ecosystem : Standalone (needs ARA or manual transfer)
+PID 1034 | FabFilter Mastering Bundle
+   bestFor: Surgical manual mastering control
+   ptype     : Mastering bundle, 4 plugins
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Pro-Q 3, Pro-L 2, Pro-C 2 and Pro-MB
+PID 1035 | Synchro Arts VocAlign 7 Pro
+   bestFor: Aligning vocal stacks in seconds
+   ptype     : In-DAW vocal alignment plugin
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : ARA integration with per-track control
+PID 1036 | Synchro Arts Revoice Pro 5
+   bestFor: Large-scale vocal production
+   ptype     : Standalone vocal production suite
+   format    : Standalone + VST3/AU/AAX
+   platforms : macOS & Windows
+   standout  : Dozens of tracks with frame-level precision
+PID 1038 | NUGEN Audio ISL 2st
+   bestFor: True-peak limiting for broadcast and streaming
+   ptype     : True-peak limiter
+   format    : VST2/VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : iLok
+   latency   : Low
+   standout  : Inter-sample peak detection
+PID 1039 | Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle
+   bestFor: Pitch correction + vocal alignment in one
+   ptype     : Vocal production bundle
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : iLok
+   latency   : Low
+   standout  : Natural tuning + timing alignment in one package
+PID 1040 | Synchro Arts RePitch 2 Standard
+   bestFor: Fast daily multi-track vocal tuning
+   editing   : Monophonic (smart multi-track view)
+   timing    : Automatic SmartAttack + macros
+   formant   : Included: reshape vocal timbre and character
+   midiout   : Not included (audio processing only)
+   multitrack: Yes: several takes side by side
+   ecosystem : Direct SynchroLink to VocAlign & Revoice
+PID 1041 | iZotope Nectar 4 Advanced
+   bestFor: Complete AI-assisted vocal chain
+   ptype     : 13-module vocal suite
+   format    : VST3/AU/AAX
+   platforms : macOS & Windows
+   copyprot  : Serial (Product Portal)
+   latency   : Low
+   standout  : Vocal Assistant + Auto-Level + Voices
 
 === NO TABLE DATA ===
-  8 | Taylor 314ce Next Generation
-  271 | Taylor GS Mini
+  122 | iZotope RX 12 Advanced
+  381 | iZotope Neutron 5
+  383 | Sonible smart:EQ 4
+  384 | Sonible smart:limit
+  385 | Mastering The Mix MIXVAULT
+  389 | Eventide H3000 Band Delays MK II
 
 === UNMATCHED COLUMNS ===
   active-vs-passive-pa :: EV ELX200-15P Active PA Speaker
-  active-vs-passive-pa :: Yamaha CBR12 Passive Speaker
   active-vs-passive-pa :: EV ELX200-12 Passive Speaker
   active-vs-passive-pa :: EV ZLX-12P-G2 Active PA Speaker
-  active-vs-passive-pa :: Yamaha DBR12 Active PA Speaker
-  beginner-bass-guitars :: Ibanez GSR200 GIO
-  beginner-bass-guitars :: Squier Affinity Series Precision Bass PJ
-  beginner-bass-guitars :: Yamaha TRBX304
-  beginner-bass-guitars :: Ibanez SR300E
-  beginner-bass-guitars :: Squier Classic Vibe '60s Jazz Bass
-  beginner-bass-guitars :: Squier Sonic Bronco Bass
-  beginner-bass-guitars :: Yamaha BB234
-  beginner-bass-guitars :: Ibanez TMB30 Talman
-  best-32-channel-digital-mixers :: Yamaha TF3
-  best-5-string-basses :: Ibanez GSR205B Gio Bass
-  best-5-string-basses :: Yamaha TRBX305 Bass
-  best-5-string-basses :: Squier Affinity Jazz Bass V
-  best-5-string-basses :: Yamaha BB435 Bass
-  best-5-string-basses :: Ibanez SR505A Bass
-  best-5-string-basses :: Squier Classic Vibe '70s Jazz Bass V
-  best-5-string-basses :: Fender American Professional II Jazz Bass V
-  best-5-string-basses :: Fender American Ultra II Jazz Bass V
-  best-5-string-basses :: Ibanez EHB1005MS Headless Bass
-  best-analog-mixers :: Yamaha MG10XU
-  best-bass-amps :: Fender Rumble 500 V3
-  best-bass-amps :: Fender Rumble 40 V3
-  best-bass-home-office :: Ibanez EHB1000 Headless Bass
-  best-bass-home-office :: Traveler Guitar Ultra-Light Bass
-  best-bass-home-office :: Fender Player II Mustang Bass PJ
-  best-bass-home-office :: Gretsch G2220 Junior Jet Bass II
-  best-bass-home-office :: Squier Sonic Bronco Bass
-  best-bass-home-office :: Ibanez GSRM20 Mikro Bass
-  best-bass-practice-amps :: Fender Rumble 40 V3
-  best-bass-practice-amps :: Yamaha THR30II
-  best-bass-under-700 :: ESP LTD B-204SM Bass Guitar
-  best-bass-under-700 :: Yamaha TRBX304
-  best-bass-under-700 :: Yamaha BB434
-  best-bass-under-700 :: Ibanez SR300E
-  best-compact-mixers :: SQ-Rack
+  beat-making :: Arturia KeyLab Essential 61 MkIII
+  best-amp-modelers :: Line 6 Helix HX Stomp
+  best-amp-modelers :: Line 6 POD Go
+  best-amp-modelers :: IK Multimedia TONEX ONE+
+  best-analog-mixers :: SSL BiG SiX
   best-compact-mixers :: SE 24R
+  best-condenser-mics :: Audio-Technica AT2020
   best-condenser-mics :: sE Electronics sE2200
-  best-daw-for-beginners :: FL Studio Producer Edition
-  best-digital-mixers :: Yamaha DM3S
-  best-digital-pianos :: Yamaha P-225
-  best-digital-pianos :: Yamaha YDP-146
-  best-digital-pianos :: Yamaha YDP-166
-  best-digital-pianos :: Yamaha CLP-835
-  best-drum-machine :: Erica Synths Perkons HD-01
-  best-guitar-plugins :: Two Notes Audio Engineering GENOME
-  best-keyboard :: Yamaha P-225
+  best-condenser-mics :: Universal Audio Sphere DLX
+  best-drum-machine :: Arturia DrumBrute Impact
+  best-headphones :: Audio-Technica ATH-M50x
+  best-headphones :: Audio-Technica ATH-M20x
+  best-headphones :: Audio-Technica ATH-R70xa
+  best-headphones-for-mixing :: Audio-Technica ATH-M50x
+  best-interface :: SSL 2+ MKII
+  best-interface :: Universal Audio Apollo Twin X Gen 2
+  best-interface :: Universal Audio Volt 2
+  best-interface :: Universal Audio Volt 276
+  best-interface :: IK Multimedia AXE I/O
+  best-keyboard :: Arturia KeyLab Essential 61 MkIII
   best-keyboard :: M-Audio Hammer 88
-  best-live-sound-mixers :: Yamaha MG16XU
-  best-live-sound-mixers :: Yamaha DM3S
-  best-live-subwoofers :: Yamaha DXS18XLF
+  best-keyboard :: Native Instruments Kontrol S61 MK3
+  best-looper-pedals :: TC Electronic Ditto Looper
+  best-looper-pedals :: TC Electronic Ditto X4 Looper
   best-microphone :: sE Electronics X1 R
-  best-monitors :: Yamaha HS8
-  best-monitors-for-small-rooms :: Yamaha HS5
-  best-overdrive-distortion :: Ibanez TS9 Tube Screamer
+  best-microphone :: Audio-Technica AT2020
+  best-multi-effects-pedals :: Line 6 Helix HX Stomp
   best-pa-speakers :: EV ZLX-12P-G2 Active PA Speaker
-  best-pa-speakers :: Yamaha DXR12mkII Active PA Speaker
   best-pa-speakers :: EV ELX200-15P Active PA Speaker
-  best-practice-amps :: Fender Champion II 25
-  best-practice-amps :: Yamaha THR10II
+  best-parlor-guitars :: SE P20e
+  best-parlor-guitars :: L-00 Studio
+  best-reverb-delay :: TC Electronic Hall of Fame 2
+  best-reverb-delay :: Eventide TimeFactor
+  best-reverb-delay :: Universal Audio Del-Verb
+  best-reverb-delay :: Universal Audio Golden Reverberator
   best-ribbon-mics :: sE Electronics Voodoo VR2
+  best-samplers-drum-computers :: Native Instruments Maschine+
   best-shotgun-mics :: S-Mic 3
-  best-stage-keyboards :: Yamaha YC88
-  best-stage-keyboards :: Yamaha Montage M8x
-  best-stage-keyboards :: Yamaha CK88
-  best-synth-vsts :: u-he Diva
-  best-synthesizers :: Yamaha Montage M8x
-  budget-bass-like-expensive :: Squier Classic Vibe '60s Jazz Bass
-  budget-bass-like-expensive :: Yamaha TRBX304
-  budget-bass-like-expensive :: Ibanez SR300E
-  budget-bass-like-expensive :: ESP LTD B-204SM Bass Guitar
-  budget-bass-like-expensive :: Fender Player II Precision Bass
-  budget-bass-like-expensive :: Fender Player II Jazz Bass
-  budget-bass-like-expensive :: Epiphone Thunderbird '64 Bass
-  budget-bass-like-expensive :: Yamaha BB434
+  best-shotgun-mics :: Audio-Technica AT897
+  best-stage-keyboards :: Arturia AstroLab 61
+  best-synthesizers :: Arturia MicroFreak
   budget-bass-like-expensive :: G&L Tribute L-2000
+  budget-headphones :: Audio-Technica ATH-M40x
+  budget-headphones :: Audio-Technica ATH-R30x
+  budget-interfaces :: Universal Audio Volt 2
+  budget-interfaces :: SSL 2+ MKII
+  budget-interfaces :: Universal Audio Volt 276
+  budget-interfaces :: Arturia MiniFuse 2
   budget-mics :: sE Electronics V7
-  budget-monitors :: Yamaha HS8
+  budget-mics :: Audio-Technica AT2020
+  budget-mics :: Audio-Technica AT2035
   budget-monitors ::  IN-8 V2
   budget-pa-systems :: EV ZLX-12P-G2 Active PA Speaker
-  budget-pa-systems :: Yamaha DBR12 Active PA Speaker
-  compact-rhythm-devices :: Yamaha SEQTRAK
-  daw-guide :: FL Studio Producer Edition
-  fender-bass-guide :: Fender Player II Precision Bass
-  fender-bass-guide :: Fender Player II Jazz Bass
-  fender-bass-guide :: Fender American Professional II Precision Bass
-  fender-bass-guide :: Fender American Professional II Jazz Bass
-  fender-bass-guide :: Squier Classic Vibe '60s Jazz Bass
-  fender-bass-guide :: Squier Affinity Series Precision Bass PJ
-  fender-bass-guide :: Fender American Ultra II Precision Bass
-  guitar-bass-amps :: Fender Blues Junior IV
-  guitar-bass-amps :: Fender Rumble 500 V3
-  guitar-bass-amps :: Yamaha THR30II Wireless Desktop Amp
-  guitar-bass-amps :: Fender Mustang GTX100
-  guitar-bass-amps :: Fender Tone Master Deluxe Reverb
-  guitar-pedals :: Ibanez TS9 Tube Screamer
+  guitar-bass-amps :: Vox AC30
+  guitar-bass-amps :: Marshall DSL40CR
+  guitar-pedals :: TC Electronic Hall of Fame 2
   live-sound-pa :: EV ZLX-12P-G2 Active PA Speaker
   live-sound-pa :: LD Systems ICOA 12 A BT Active PA Speaker
-  live-sound-pa :: Yamaha DXR12mkII Active PA Speaker
-  live-sound-pa :: Yamaha Stagepas 1K MKII Active PA Mixer
-  monitor-setup :: Yamaha HS8
+  mics-for-creators :: Audio-Technica AT2020USB-X
+  mics-for-creators :: Audio-Technica AT2020
+  mics-for-creators :: Audio-Technica AT2040USB
+  midi-controllers :: SSL UF8
+  midi-controllers :: SSL UF1
   monitor-setup :: K&M 26722 Monitor Stands
+  monitor-setup :: Ultimate Support MS-100 Studio Monitor Stands
+  open-headphones :: Audio-Technica ATH-R70xa
+  portable-interfaces :: Arturia MiniFuse 2 OTG
+  portable-interfaces :: SSL 2+ MKII
+  portable-interfaces :: Universal Audio Volt 2
+  portable-interfaces :: Universal Audio Volt 276
+  premium-interfaces :: Universal Audio Apollo x8p Gen 2
   stage-wedges :: LD Systems MON 12 A G3
-  stage-wedges :: Yamaha DHR12M
+  stream-controllers :: TC Helicon GoXLR Mini
   stream-controllers :: RØDE RØDECaster Pro II
-  stream-controllers :: Yamaha AG08
-  streaming-interfaces :: Yamaha URX44V
+  streaming-interfaces :: Universal Audio Volt 276
   studio-furniture :: K&M 210/2 Mic Stand
   studio-furniture :: K&M 26722 Monitor Stands (Each)
-  studio-subwoofers :: Yamaha HS8S
+  studio-furniture :: SSL UF8 DAW Controller
+  studio-subwoofers :: IK Multimedia iLoud Sub
+  tracking-headphones :: Audio-Technica ATH-M50x
+  tracking-headphones :: Audio-Technica ATH-M40x
+  tracking-headphones :: Audio-Technica ATH-M70x
+  usb-mics :: Audio-Technica AT2040USB
   usb-mics :: sE Electronics NEOM USB
+  usb-mics :: Audio-Technica AT2020USB-X
   best-studio-monitors-under-150 :: M-Audio BX4

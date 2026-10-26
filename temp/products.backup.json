@@ -901,7 +901,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "One-stop mixing toolkit",
+      "es": "Kit de mezcla completo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "14 plug-ins",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 30,
@@ -929,7 +962,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "AI-assisted mastering",
+      "es": "Masterización asistida"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Mastering suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 32,
@@ -955,7 +1021,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Creative color & character",
+      "es": "Color y carácter creativo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Multi-FX bundle",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1443,7 +1542,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Classic FET compression",
+      "es": "Compresión FET clásica"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Compressor plug-in",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 61,
@@ -1470,7 +1602,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Transparent bus compression",
+      "es": "Compresión de bus limpia"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Compressor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 62,
@@ -1497,7 +1662,40 @@
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/4-EQ/15433-FabFilter-Pro-Q-4?a_aid=6a01e859cbe1a"
     },
     "oos": [],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Surgical EQ anywhere",
+      "es": "EQ quirúrgico en todo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Dynamic/parametric EQ",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 63,
@@ -1523,7 +1721,40 @@
       "amazon": "https://www.amazon.com/s?k=FabFilter+Pro-C+3&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/3-Compressor/7930-FabFilter-Pro-C-2?a_aid=6a01e859cbe1a"
     },
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Clean to aggressive comp",
+      "es": "De limpia a agresiva"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Compressor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 65,
@@ -2704,7 +2935,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "SSL bus glue",
+      "es": "Pegamento de bus SSL"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Buss compressor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "Waves License Center",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 120,
@@ -2733,7 +2997,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Vocal tuning & editing",
+      "es": "Afinación vocal precisa"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Pitch correction & editing",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX + ARA",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 121,
@@ -2758,7 +3055,40 @@
       "amazon": "https://www.amazon.com/s?k=Universal+Audio+UAD+Ultimate+14&tag=topmusicg-20",
       "pluginboutique": "https://www.pluginboutique.com/search?q=Universal+Audio+UAD+Ultimate+14&a_aid=6a01e859cbe1a"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "UAD sound, no hardware",
+      "es": "Sonido UAD sin hardware"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Emulation suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "UAD DSP hardware required",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 122,
@@ -2786,7 +3116,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Advanced audio repair",
+      "es": "Reparación de audio avanzada"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Audio repair suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 123,
@@ -2815,7 +3178,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Massive instruments & FX",
+      "es": "Instrumentos y FX masivos"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Bundle (Kontakt-based)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "Native Access",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 124,
@@ -6164,7 +6560,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Huge ambient spaces",
+      "es": "Espacios ambient enormes"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Algorithmic Reverb",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/AU/AAX (no VST3/CLAP)",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Low-Moderate",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 239,
@@ -11321,7 +11750,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Rhythmic shaping & stutter",
+      "es": "Forma rítmica y stutter"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Rhythmic Modulation Suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Moderate-High (9 bands)",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 375,
@@ -11351,7 +11813,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Instant lo-fi color",
+      "es": "Color lo-fi inmediato"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Lo-Fi / Character Processor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Low",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 376,
@@ -11380,7 +11875,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Half-speed textures",
+      "es": "Texturas a media velocidad"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Time-Stretch / Pitch Effect",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Low",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 377,
@@ -11411,7 +11939,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Modulated multi-FX",
+      "es": "Multi-FX modulado"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Dual-Engine Creative Delay",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Moderate",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 378,
@@ -11440,7 +12001,40 @@
       "reverb",
       "musicstore"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Natural vocal doubles",
+      "es": "Dobles vocales naturales"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Vocal doubler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 379,
@@ -11469,7 +12063,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "SSL 4000 E channel",
+      "es": "Canal SSL 4000 E"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Channel strip (72ch TMT)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "PA account",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 380,
@@ -11498,7 +12125,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Glitch & micro-rhythms",
+      "es": "Glitch y microrritmos"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Step-Sequenced Multi-FX",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Moderate-High (28 modules)",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 381,
@@ -11528,7 +12188,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "AI mixing suite",
+      "es": "Suite de mezcla con IA"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Mixing plugin suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 382,
@@ -11557,7 +12250,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Theory & chord writing",
+      "es": "Teoría y acordes"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Music theory workstation",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 383,
@@ -11587,7 +12313,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "AI EQ for fast mixing",
+      "es": "EQ con IA para mezclar"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Intelligent EQ",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "Machine or iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 384,
@@ -11615,7 +12374,40 @@
       "reverb",
       "andertons"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "AI limiting for masters",
+      "es": "Limitación con IA"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Content-aware limiter",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "Machine or iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 385,
@@ -11644,7 +12436,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Reference your mixes",
+      "es": "Comparar con referencias"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Immersive EQ",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 386,
@@ -11671,7 +12496,40 @@
       "zzounds",
       "reverb"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Multiband distortion",
+      "es": "Distorsión multibanda"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Multiband Distortion",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "High (4 bands + spectral)",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 387,
@@ -11700,7 +12558,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Evolving spatial textures",
+      "es": "Texturas espaciales"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Spatial / Reverb (3 engines)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "High (3 engines)",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 389,
@@ -11729,7 +12620,40 @@
       "zzounds",
       "andertons"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "8-band filtered delays",
+      "es": "Delays filtrados de 8 bandas"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "8-band filtered delay",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok account",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 390,
@@ -11758,7 +12682,40 @@
       "zzounds",
       "andertons"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Juno-style chorus",
+      "es": "Chorus estilo Juno"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Chorus (Juno-106 modeling)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Low",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 392,
@@ -11788,7 +12745,40 @@
       "reverb",
       "andertons"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Complex delay patterns",
+      "es": "Patrones de delay"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Delay (23 models)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Moderate",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 394,
@@ -11817,7 +12807,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Harmonic animation",
+      "es": "Animación armónica"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Harmonic Spectral Processor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX/CLAP",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Moderate",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 395,
@@ -14299,7 +15322,40 @@
       "amazon",
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "One-knob harshness control",
+      "es": "Dureza con un solo mando"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Spectral compressor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 473,
@@ -14328,7 +15384,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Transparent clipping",
+      "es": "Clipping transparente"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Clipper / limiter",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License file",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 474,
@@ -14357,7 +15446,40 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Mix reference checking",
+      "es": "Comparar con referencias"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Reference & metering tool",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "License key",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 475,
@@ -15521,7 +16643,40 @@
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Spaced-Out/46NE",
       "zzounds": "https://www.zzounds.com/item--BBYSPACEDOUT?siid=307771"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Rhythmic echoes & spaces",
+      "es": "Ecos rítmicos y espacios"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Delay + reverb generator",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "chip",
+        "value": "Low-Moderate",
+        "label": {
+          "en": "CPU load",
+          "es": "Carga de CPU"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 528,
@@ -18850,7 +20005,40 @@
     "img": "img/products/e146bdaa4b.webp",
     "desc_es": "Sintetizador potente de wavetable y granular, con matriz de modulación visual, dos motores y 104 tipos de filtro. Los motores incluyen muestra y analógico virtual, así que un bajo áspero y un pad suave caben en un parche con modulación arrastrada a cualquier destino.",
     "title_es": "Arturia Pigments 7",
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Visual sound design",
+      "es": "Diseño sonoro visual"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Wavetable + granular",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1002,
@@ -18871,7 +20059,40 @@
     "img": "img/products/98ac5fe244.webp",
     "desc_es": "Sintetizador analógico virtual que emula cinco décadas de clásicos modelando a nivel de circuito osciladores, filtros y envolventes. Los osciladores se desvían como el hardware real y los filtros saturan, con un tono cálido y denso, aunque un solo parche exige mucha CPU.",
     "title_es": "u-he Diva",
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Vintage analog warmth",
+      "es": "Calidez analógica vintage"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Virtual analog",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1003,
@@ -18889,7 +20110,40 @@
     "img": "img/products/5d74e8028c.webp",
     "desc_es": "Softsint semi-modular con tres pistas de oscilador flexibles, más de 40 generadores de modulación y más de 300 efectos snap-in. Los carriles funcionan en paralelo, serie o por velocidad, y cada uno aloja osciladores de wavetable, muestra, FM o analógico virtual, con LFOs y aleatorizadores.",
     "title_es": "Kilohearts Phase Plant",
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Modular sound design",
+      "es": "Diseño sonoro modular"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Semi-modular softsynth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1004,
@@ -18906,7 +20160,40 @@
     "img": "img/products/f9469fc2f8.webp",
     "desc_es": "Sintetizador workstation enorme que combina wavetable, muestras, FM y analógico virtual, con 12 osciladores, envolventes de 8 pasos y más de 3000 presets. La interfaz densa pero organizada apila módulos, y las envolventes por pasos dibujan formas rítmicas sincronizadas al tempo sin tocar un LFO.",
     "title_es": "Vengeance Sound VPS Avenger 2",
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "EDM production powerhouse",
+      "es": "Potencia para producir EDM"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Wavetable workstation",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1005,
@@ -18926,7 +20213,40 @@
     "img": "img/products/8db5435b89.webp",
     "desc_es": "Sintetizador polifónico versátil de estilo híbrido software/hardware y sonido característico del trance, big room y progresivo, con cuatro osciladores flexibles y modulación profunda. Síntesis sustractiva, FM y de ruido pasan por filtros duales, con unísono amplio y steppers de movimiento rítmico.",
     "title_es": "Reveal Sound Spire",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Trance leads & basses",
+      "es": "Leads y bajos de trance"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Polyphonic subtractive synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1006,
@@ -18946,7 +20266,40 @@
     "img": "img/products/310c2ddedf.webp",
     "desc_es": "El heredero del legendario Massive. Dos osciladores de wavetable, 10 modos de wavetable y un sistema de modulación profundo para diseñar sonidos aggression. Una matriz de ruteo permite modular casi todo, con doce LFOs, ocho envolventes, osciladores de ruido y reverb, delay y EQ.",
     "title_es": "Native Instruments Massive X",
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Aggressive basses & leads",
+      "es": "Bajos y leads agresivos"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Wavetable synthesizer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1007,
@@ -18963,7 +20316,40 @@
     "img": "img/products/5a8a3ad5de.webp",
     "desc_es": "Estación de trabajo de teoría musical que detecta la tonalidad y propone progresiones de acordes, bajos, melodías y arpegios en tiempo real. Los generadores de bajo y melodía siguen los acordes, los arpegios añaden movimiento y los voicings se mapean a teclas.",
     "title_es": "Scaler 3",
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Theory & chord writing",
+      "es": "Teoría y acordes"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Music theory workstation",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1008,
@@ -18980,7 +20366,40 @@
     "img": "img/products/399310fe5b.webp",
     "desc_es": "Sampler de MIDI único en su género: carga cualquier archivo MIDI, trocéalo, secuéncialo y convierte loops en instrumentos tocables con exportación por arrastrar y soltar. Una biblioteca MIDI integrada acelera el esbozo, y los loops existentes cambian de tonalidad y tempo al vuelo.",
     "title_es": "SongWish reMIDI 4",
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Playable MIDI from loops",
+      "es": "MIDI tocable desde loops"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "MIDI sampler and remixer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1009,
@@ -18997,7 +20416,40 @@
     "img": "img/products/cf657528d6.webp",
     "desc_es": "Secuenciador de loops y generador de grooves con creación inteligente de patrones, loop por varias pistas y exportación MIDI por arrastrar y soltar. Los samples vienen de la biblioteca integrada o se cargan y cortan, y se apilan como batería, bajo y melodías.",
     "title_es": "W.A. Production Loop Engine 3",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Fast grooves from loops",
+      "es": "Grooves rápidos con loops"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Loop sequencer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1010,
@@ -19015,7 +20467,40 @@
     "img": "img/products/13fb96f381.webp",
     "desc_es": "Generador de patrones de batería con IA, detección inteligente de género, control de la velocidad y variación de patrones en un clic. Elegir género, tempo y complejidad genera patrones, la velocidad aporta sensación humana y la variación evita repetir; esboza ritmos sin sustituir samples.",
     "title_es": "Audiomodern Playbeat 4",
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "AI drum patterns",
+      "es": "Patrones de batería con IA"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "AI drum pattern generator",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1011,
@@ -19033,7 +20518,40 @@
     "img": "img/products/d49d746d60.webp",
     "desc_es": "Secuenciador MIDI generativo que escribe melodías, bajos y riffs ceñidos a tu escala, con control de densidad y exportación MIDI instantánea. Se fijan tonalidad y ambiente, y el ritmo, el rango de tono, la densidad y la longitud de motivos moldean resultados con dirección.",
     "title_es": "Audiomodern Riffer 4",
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Generative melodies",
+      "es": "Melodías generativas"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Generative MIDI sequencer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1012,
@@ -19051,7 +20569,40 @@
     "img": "img/products/29d1cd1c57.webp",
     "desc_es": "El primer mapeador de altura polifónica en tiempo real. Cambia notas concretas dentro de una mezcla y envíalas a un teclado MIDI. Las notas de un acorde pueden desplazarse para cambiar una armonía vocal o convertir un acorde de guitarra en un pad.",
     "title_es": "Zynaptiq PitchMap",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Pitch reshaping in audio",
+      "es": "Remapeo de tono"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Polyphonic pitch mapper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1013,
@@ -19068,7 +20619,40 @@
     "img": "img/products/e175c8740a.webp",
     "desc_es": "Piano de cola Steinway Model D muestreado a fondo, con el carácter y el rango dinámico del instrumento real de nueve pies. El tono se mantiene pleno y parejo de la octava grave al registro agudo, y la dinámica sigue la interpretación sin aplanarla.",
     "title_es": "MeldaProduction MeldwayGrand",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Concert grand realism",
+      "es": "Realismo de gran concierto"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Sampled Model D grand",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1014,
@@ -19087,7 +20671,40 @@
     "img": "img/products/b7cc80437b.webp",
     "desc_es": "La plataforma de samplers estándar del sector. Carga las mejores bibliotecas de piano del mundo, con scripting avanzado, efectos y estiramiento temporal. Aloja bibliotecas de desarrolladores como Heavyocity, Spitfire Audio y 8Dio, con interfaz modernizada y efectos mejorados para pianos muestreados.",
     "title_es": "Native Instruments Kontakt 8",
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Piano library platform",
+      "es": "Plataforma de librerías"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Sampler platform",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1015,
@@ -19108,7 +20725,40 @@
     "img": "img/products/04d92c56b9.webp",
     "desc_es": "45 instrumentos modelados al detalle: pianos eléctricos vintage, colas acústicas, órganos y sintetizadores analógicos. Más de 12.000 presets con Analog Lab Pro incluido. Incluye pianos eléctricos Rhodes, Wurlitzer y Clavinet, además de órganos Hammond B3, Vox Continental y Farfisa, modelados a nivel de componente.",
     "title_es": "Arturia V Collection 11 Pro",
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Vintage keys & synths",
+      "es": "Teclados y synths vintage"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "45 modeled instruments suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1016,
@@ -19127,7 +20777,40 @@
     "img": "img/products/2dd19816e8.webp",
     "desc_es": "Piano de cola, vertical y eléctrico con mezcla de micrófono, efectos y control de envolvente. Ideal para pop, lo-fi y producción de cantautor. El Studio Grand es un Yamaha C7 grabado con varias posiciones de micrófono, y los micros cercanos y de sala se mezclan.",
     "title_es": "XLN Audio Addictive Keys",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Pop & songwriter pianos",
+      "es": "Pianos pop y de autor"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Sampled grand/upright/EP",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1017,
@@ -19144,7 +20827,40 @@
     "img": "img/products/1262d534e6.webp",
     "desc_es": "Piano de fiel y cola de concierto en uno: la intimidad del fiel más un gran cola puro, con un motor de partículas para bases cinematográficas que evolucionan. El fieltro es suave y cercano para underscore, y el gran cola aporta peso al abrirse.",
     "title_es": "Native Instruments Noire",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Intimate felt piano",
+      "es": "Piano de fieltro íntimo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Felt + concert grand",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX via Kontakt",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1018,
@@ -19164,7 +20880,40 @@
     "img": "img/products/ce3707f282.webp",
     "desc_es": "Cola de concierto fusionada con síntesis: deforma un piano real hacia texturas abstractas con motores multicapa y controles expresivos. Un solo control Morph dobla el cola acústico hacia pads, pulsos y texturas, y los efectos y la modulación de Arturia moldean el resultado.",
     "title_es": "Arturia Augmented GRAND PIANO",
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Piano-to-synth morphing",
+      "es": "Piano que muta a synth"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Hybrid acoustic grand",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1019,
@@ -19184,7 +20933,40 @@
     "img": "img/products/04d6c0c305.webp",
     "desc_es": "Suite de amplificadores y pedales: 177 modelos en la versión Standard, captura Tonex y más de 10.000 presets. Los 400+ modelos del catálogo requieren la MAX. Amplis Marshall, Fender, Vox y Mesa y pedales vintage Boss, Ibanez y Electro-Harmonix llenan la biblioteca.",
     "title_es": "IK Multimedia AmpliTube 5",
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Huge amp & pedal range",
+      "es": "Amplia gama de amps"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Amp & effects modeling",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1020,
@@ -19205,7 +20987,40 @@
       "us": "$140.72",
       "uk": "£112.00"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Component amps + DynIR",
+      "es": "Amps por componentes"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Amp modeler + FX",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1021,
@@ -19226,7 +21041,40 @@
     "img": "img/products/1eb26d6bf9.webp",
     "desc_es": "Emulación de la legendaria sala de rock. Micrófonos vintage, consola británica a medida, equipos externos y la famosa cámara de reverb del Studio A de Sound City. Su cadena del Studio A aporta un carácter cálido, contundente y vivo al rock clásico y el indie.",
     "title_es": "Universal Audio UAD Sound City Studios",
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Legendary rock room tone",
+      "es": "Sala de rock legendaria"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Studio room emulation",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1022,
@@ -19243,7 +21091,40 @@
     "img": "img/products/2e1af4b746.webp",
     "desc_es": "Recreación concentrada de un amplificador de válvulas británico clásico, con tres cajas, overdrive, delay y reverb de sala en un único plugin sencillo. Ganancia, EQ y un puñado de efectos mantienen todo inmediato, y la voz encaja en una mezcla rock sin procesar.",
     "title_es": "Kiive Audio Lunchbox Amp Sim",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "British valve crunch",
+      "es": "Crunch de válvulas británico"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Single-amp valve simulator",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1023,
@@ -19260,7 +21141,40 @@
     "img": "img/products/d88d6090ed.webp",
     "desc_es": "Amplificadores, cajas y pedales oficiales de Marshall dentro de Softube Amp Room, incluida la plataforma Amp Room con efectos de estudio. El crunch Plexi, el drive JCM y las cajas greenback responden con sag y mordisco, y los stompboxes completan la cadena.",
     "title_es": "Softube Amp Room Marshall Suite",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Official Marshall stack tone",
+      "es": "Tono oficial Marshall"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Marshall amp suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1025,
@@ -19280,7 +21194,40 @@
     "img": "img/products/dd7701603e.webp",
     "desc_es": "El estándar del sector en reparación de audio. Edición espectral, reducción de ruido en diálogos, eliminación de reverb, de-esser y reequilibrio de la música. El editor espectral muestra y elimina ruidos, clics y zumbidos que el EQ no arregla, y los módulos evitan regrabar.",
     "title_es": "iZotope RX 12 Standard",
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Spectral audio repair",
+      "es": "Reparación espectral"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Audio repair suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1027,
@@ -19297,7 +21244,40 @@
     "img": "img/products/d742450cf7.webp",
     "desc_es": "De-esser con IA que detecta la sibilancia y las consonantes explosivas en tiempo real y ajusta el proceso automáticamente para que suene natural. Una red neuronal analiza el audio y reduce solo donde hace falta, localizando cada sibilante para conservar el carácter.",
     "title_es": "Sonible smart:deess",
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Natural AI de-essing",
+      "es": "De-esser natural con IA"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "AI de-esser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1028,
@@ -19316,7 +21296,40 @@
     "img": "img/products/05b79c4cea.webp",
     "desc_es": "Cuatro herramientas especializadas: DeNoise 2, DeHum 2, DeClick 2 y DeReverb 2. Una suite de reducción de ruido eficaz y asequible. DeNoise ataca el ruido de banda ancha, DeHum elimina zumbido y armónicos, DeClick arregla clics y pops, y DeReverb reduce la reverberación.",
     "title_es": "Acon Restoration Suite 2",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Everyday cleanup on a budget",
+      "es": "Limpieza diaria económica"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "4-tool restoration suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1030,
@@ -19334,7 +21347,40 @@
     "img": "img/products/f930c88545.webp",
     "desc_es": "Procesador de eliminación de reverb basado en demix. Quita de forma quirúrgica la acústica de la sala en grabaciones hechas en espacios problemáticos. Separa el sonido directo de las reflexiones por cancelación de fase, conservando claridad y presencia, con ajuste de la reducción.",
     "title_es": "Zynaptiq Unveil",
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "De-reverb for bad rooms",
+      "es": "Quitar reverb de salas"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "De-reverb processor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1032,
@@ -19355,7 +21401,40 @@
     "img": "img/products/867c69d22f.webp",
     "desc_es": "Corrección de afinación nota a nota y quirúrgica. El estándar en afinación vocal natural, con edición monofónica para voces solistas. Analiza la toma en notas y sílabas, y cada bloque se arrastra para corregir tono y timing, aunque la edición polifónica queda en versiones superiores.",
     "title_es": "Celemony Melodyne 5 Essential",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Budget vocal correction",
+      "es": "Corrección vocal económica"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Pitch correction",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX + ARA",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1034,
@@ -19376,7 +21455,40 @@
     "img": "img/products/08b02565cc.webp",
     "desc_es": "Pro-Q 3, Pro-L 2, Pro-C 2 y Pro-MB. EQ quirúrgico, limitador, compresión y multibanda para masterizar y mezclar. Pro-Q 3 añade EQ dinámico y análisis de espectro, Pro-L 2 une limitación true peak con medición extensa, y cada parámetro se ajusta de oído.",
     "title_es": "FabFilter Mastering Bundle",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Manual mastering control",
+      "es": "Masterización manual"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Mastering bundle, 4 plugins",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1035,
@@ -19394,7 +21506,40 @@
     "img": "img/products/de283343b7.webp",
     "desc_es": "Alineación de voz multipista con control de afinación y de tiempo. Alinea pilas de voces enteras en segundos, con control por pista y por fragmento. La captura iguala tiempo y tono entre pista guía y dobles, y la integración ARA mantiene todo en el DAW.",
     "title_es": "Synchro Arts VocAlign 7 Pro",
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Fast vocal alignment",
+      "es": "Alineación vocal rápida"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Vocal alignment plugin",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1036,
@@ -19412,7 +21557,40 @@
     "img": "img/products/46e2452187.webp",
     "desc_es": "Suite de producción vocal autónoma para proyectos grandes. Control avanzado de afinación, tiempo y nivel en varias pistas a la vez. El flujo importa el audio, lo procesa en el entorno autónomo y lo exporta al DAW, donde cada sílaba y desfase se ajusta.",
     "title_es": "Synchro Arts Revoice Pro 5",
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Large vocal production",
+      "es": "Producción vocal compleja"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Vocal production suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "Standalone + VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1038,
@@ -19434,7 +21612,40 @@
     "image": "img/products/7596117297.webp",
     "desc_es": "Limitador de pico real para radio y streaming. Transparencia total gracias a la detección de picos entre muestras. Detecta y controla los picos que aparecen entre muestras, los que distorsionan en reproductores y codificadores de streaming, con una sonoridad limpia y transparente.",
     "title_es": "NUGEN Audio ISL 2st",
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Broadcast true-peak limiting",
+      "es": "True-peak para broadcast"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "True-peak limiter",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST2/VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1039,
@@ -19454,7 +21665,40 @@
     "img": "img/products/4956e5c2f5.webp",
     "desc_es": "Paquete completo de producción vocal: corrección de afinación natural y alineación temporal estándar del sector en un solo paquete. RePitch edita tono, timing y formantes con precisión, y VocAlign alinea dobles, armonías y ad-libs a la voz principal en segundos, ahorrando horas de edición.",
     "title_es": "Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Tuning + alignment bundle",
+      "es": "Pack afinación + alineación"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Vocal production bundle",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "iLok",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1040,
@@ -19472,7 +21716,40 @@
     "img": "img/products/afd118bbdd.webp",
     "desc_es": "Corrección de afinación vocal de sonido natural, con edición multipista, temporización SmartAttack, macros de afinación y SynchroLink hacia VocAlign y Revoice Pro. Se arrastran notas, se remodela el vibrato y las tomas se ven lado a lado para el comping sin perder el carácter natural.",
     "title_es": "Synchro Arts RePitch 2 Standard",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Fast daily vocal tuning",
+      "es": "Afinación vocal diaria"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Vocal tuning",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1041,
@@ -19492,7 +21769,40 @@
     "img": "img/products/6af08b4f81.webp",
     "desc_es": "Cadena vocal completa asistida por IA: Vocal Assistant, Auto-Level, la capa Voices y Backer para voces pulidas y listas para la mezcla. Trece módulos vocales se apoyan en un Asistente Vocal que ajusta EQ, compresión y de-essing, y Auto-Level nivela la ganancia antes de procesar.",
     "title_es": "iZotope Nectar 4 Advanced",
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Complete AI vocal chain",
+      "es": "Cadena vocal con IA"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "13-module vocal suite",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
+        "value": "VST3/AU/AAX",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "lock",
+        "value": "Serial (Product Portal)",
+        "label": {
+          "en": "Copy protection",
+          "es": "Protección anticopia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1042,

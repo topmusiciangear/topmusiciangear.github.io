@@ -6905,6 +6905,12 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'strings') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="5" y1="2" x2="5" y2="14"/><line x1="9" y1="3.5" x2="9" y2="12.5"/><line x1="14" y1="2" x2="14" y2="14"/><line x1="18" y1="3.5" x2="18" y2="12.5"/></svg>';
             }
+            if (name === 'lock') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="6" y="7" width="12" height="8" rx="2"/><path d="M9 7 V 5 a 3 3 0 0 1 6 0 V 7"/></svg>';
+            }
+            if (name === 'chip') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="7" y="4" width="10" height="8" rx="1.5"/><line x1="10" y1="1.5" x2="10" y2="4"/><line x1="14" y1="1.5" x2="14" y2="4"/><line x1="10" y1="12" x2="10" y2="14.5"/><line x1="14" y1="12" x2="14" y2="14.5"/></svg>';
+            }
             return icon(name, 'fa-solid');
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';
