@@ -11749,7 +11749,40 @@
       "amazon": "https://www.amazon.com/dp/B08KFL3SFV",
       "reverb": "https://www.reverb.com/marketplace?query=HyperX+SoloCast"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Streaming & podcasting",
+      "es": "Streaming y podcasting"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 440,
@@ -13176,7 +13209,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Wireless lav & interview",
+      "es": "Lavalier e interview inalámbrico"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 505,
@@ -13199,7 +13265,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Wireless lav & interview",
+      "es": "Lavalier e interview inalámbrico"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 506,
@@ -13223,7 +13322,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "2-person wireless",
+      "es": "Inalámbrico de 2 personas"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 508,
@@ -13247,7 +13379,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 509,
@@ -13272,7 +13437,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Wireless intercom",
+      "es": "Intercom inalámbrico"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "UHF",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 510,
@@ -13297,7 +13495,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Wireless intercom",
+      "es": "Intercom inalámbrico"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "UHF",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 511,
@@ -13322,7 +13553,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Wireless intercom",
+      "es": "Intercom inalámbrico"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "UHF",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 512,
@@ -13425,7 +13689,40 @@
       "andertons",
       "musicstore"
     ],
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 527,
@@ -15355,7 +15652,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAudix-i-5%2Fart-PAH0006797-000",
       "reverb": "https://reverb.com/p/audix-i5"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Snare & guitar amps",
+      "es": "Caja y amplis de guitarra"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 636,
@@ -15376,7 +15706,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FShure-Beta-57-A-dynamic-Microphone%2Fart-PAH0000168-000",
       "reverb": "https://reverb.com/p/shure-beta-57a"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Instruments & amps",
+      "es": "Instrumentos y amplis"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 637,
@@ -15704,7 +16067,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--LEWLCT440PURE",
       "andertons": "https://www.andertons.co.uk/lewitt-lct-440-pure-large-diaphragm-condenser-microphone/"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Studio vocals",
+      "es": "Voz en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "7 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 654,
@@ -15724,7 +16120,40 @@
       "andertons": "https://www.andertons.co.uk/neumann-tlm103-studio-condenser-mic/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-TLM103-ni-Condenser-Microphone/art-REC0000317-000"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Studio vocals",
+      "es": "Voz en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "7 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 655,
@@ -15744,7 +16173,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--WAUWA8000",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Warm-Audio-WA-8000/art-REC0015721-000"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Studio vocals",
+      "es": "Voz en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 656,
@@ -15765,7 +16227,40 @@
       "andertons": "https://www.andertons.co.uk/universal-audio-sphere-dlx-modelling-microphone",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Sphere-DLX-Modeling-Microphone/art-REC0016277-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Studio vocals & modeling",
+      "es": "Voz y modelado en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Multi-pattern",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 657,
@@ -15786,7 +16281,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--SEESE2200",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/sE-electronics-sE2200/art-REC0013378-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Studio vocals",
+      "es": "Voz en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "16 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 658,
@@ -15939,7 +16467,40 @@
       "zzounds": "https://www.zzounds.com/item--RODNTUSBPL"
     },
     "oos": [],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 670,
@@ -15961,7 +16522,40 @@
       "zzounds": "https://www.zzounds.com/item--SEENEOMUSB"
     },
     "oos": [],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 671,
@@ -16006,7 +16600,40 @@
     "excludeStores": [
       "reverb"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Home studio vocals",
+      "es": "Voz en home studio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 673,
@@ -16032,7 +16659,40 @@
       "andertons",
       "reverb"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Studio vocals",
+      "es": "Voz en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 674,
@@ -16055,7 +16715,40 @@
       "andertons",
       "reverb"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Studio vocals",
+      "es": "Voz en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 675,
@@ -16078,7 +16771,40 @@
     "excludeStores": [
       "reverb"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Home studio",
+      "es": "Home studio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 676,
