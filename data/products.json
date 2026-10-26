@@ -19510,7 +19510,40 @@
     "priceUSD": "$5,999",
     "img": "img/products/2218cd52b3.webp",
     "description": "2026 successor to the best-selling SQ-6: 25 motorized faders, 24 local XLR preamps with the latest converters, 9-inch dark-GUI touchscreen, 16 SoftKeys + 4 SoftRotaries. Same 48-channel 96 kHz XCVI core at 0.7 ms with 8 RackExtra + 4 RackUltra FX engines, 44-bus architecture, 32x32 USB and SQ-Drive multitrack. 15.15 kg.",
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Pristine mixing for touring pros",
+      "es": "Mezcla impecable para giras profesionales"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "24 channels (up to 48)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "44-bus architecture",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "USB 32-track (SQ-Drive)",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 418,
@@ -19538,7 +19571,40 @@
     "priceGBP": "£3,444",
     "priceUSD": "$2,999",
     "img": "img/products/54e7fda489.webp",
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Churches and schools via TouchFlow",
+      "es": "Iglesias y escuelas con TouchFlow"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "24 channels (up to 48)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "20 aux + LR",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "USB 34-track",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 419,
