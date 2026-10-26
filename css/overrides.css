@@ -152,23 +152,25 @@
 /* Desktop: enlarge photo and quickfacts card to use available space */
 @media (min-width: 901px) {
   .guide-section-quickfacts {
-    flex: 0 0 200px !important;
-    width: 200px !important;
-    height: 200px !important;
+    flex: 0 0 180px !important;
+    width: 180px !important;
+    height: 180px !important;
     padding: 8px 10px !important;
     gap: 4px !important;
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    width: 200px !important;
-    height: 200px !important;
+    width: 180px !important;
+    height: 180px !important;
   }
   /* Desktop: keep imgs (photo+quickfacts) fixed, widen store buttons card */
   .guide-section-mediabuy > .guide-section-imgs {
     flex: 0 0 auto !important;
   }
   .guide-section-mediabuy > .guide-section-buy {
-    flex: 0 0 auto !important;
-    width: 360px !important;
+    flex: 1 1 auto !important;
+    width: auto !important;
+    max-width: 460px !important;
+    min-width: 260px !important;
   }
 }
