@@ -2456,7 +2456,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Small-venue blues and rock",
+      "es": "Blues y rock en salas pequeñas"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Tube (2x EL84)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "15W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\" Jensen C-12N",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 72,
@@ -2481,7 +2514,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Versatile home modeling amp",
+      "es": "Modeling versátil para casa"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state modeling",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "50W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\"",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 73,
@@ -2506,7 +2572,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Live pop and rock gigging",
+      "es": "Directos de pop y rock"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Tube (4x EL84)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "30W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x12\" Celestion G12M Greenback",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 74,
@@ -2531,7 +2630,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Live rock and hard rock",
+      "es": "Rock y hard rock en directo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Tube (2x EL34)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "40W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\" Celestion V-Type",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 75,
@@ -2556,7 +2688,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Classic rock tone for gigs",
+      "es": "Sonido clásico de rock en directo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "250W (500W w/ ext. cab)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x10\" + 1\" tweeter",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 76,
@@ -2581,7 +2746,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Loud and portable bass combo",
+      "es": "Combo de bajo potente y portátil"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "350W (500W w/ ext. cab)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x10\" + 1\" tweeter",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 91,
@@ -4383,7 +4581,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Simple beginner practice",
+      "es": "Práctica sencilla para empezar"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state modeling",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "25W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x8\"",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 131,
@@ -4408,7 +4639,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Warm home tones with reverb",
+      "es": "Sonido cálido en casa con reverb"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "35W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x10\" Voice of the World",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 132,
@@ -4432,7 +4696,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Lightweight pro bass combo",
+      "es": "Combo de bajo ligero y profesional"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "300W (500W w/ ext. cab)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\" + tweeter",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 133,
@@ -11290,7 +11587,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Desktop tone with Bluetooth",
+      "es": "Sonido de escritorio con Bluetooth"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Desktop modeling",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "20W (10W + 10W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x 3.1\" (8 cm)",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 294,
@@ -11318,7 +11648,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Fun practice for beginners",
+      "es": "Práctica divertida para empezar"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Smart modeling combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "50W RMS",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x4\"",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 295,
@@ -20338,7 +20701,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--ORACRUSHBA50",
       "amazon": "https://www.amazon.com/dp/B01HPGEY6W/"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Warm bass for rehearsals",
+      "es": "Bajo cálido para ensayar"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "All-analog solid-state",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "50W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\"",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 485,
@@ -20358,7 +20754,40 @@
       "musicstore": "https://www.musicstore.com/fr_OE/EUR/Darkglass-Microtubes-500-Combo-210/art-BAS0012855-000",
       "zzounds": "https://www.zzounds.com/item--DARDG210A"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Modern pro stage power",
+      "es": "Potencia moderna para escenario"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog Class-D",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "500W (4Ω)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x10\" Eminence + horn",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 486,
@@ -20422,7 +20851,40 @@
       "andertons": "https://www.andertons.co.uk/boss-waza-air-wireless-guitar-headphones/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-WAZA-AIR/art-GIT0051746-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Silent wireless practice",
+      "es": "Práctica silenciosa sin cables"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Wireless headphone amp",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "Battery (5h)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "50mm headphone drivers",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 489,
@@ -20444,7 +20906,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPositive-Grid-Spark-MINI-Black%2Fart-GIT0064379-000",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FPositive-Grid-Spark-Mini-Black%2F695I"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Portable smart practice",
+      "es": "Práctica inteligente y portátil"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Modeling smart amp",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "10W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2 x custom full-range",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 490,
@@ -20467,7 +20962,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Rumble-40-V3-Combo%2Fart-BAS0007198-000",
       "reverb": "https://reverb.com/p/fender-rumble-40-v3"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "All-round practice and jamming",
+      "es": "Práctica y jam para todo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "40W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1 x 10\" Special Design",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 491,
@@ -20489,7 +21017,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FOrange-Crush-Bass-25-Combo%2F1MOI",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FOrange-Crush-Bass-25-Orange%2Fart-BAS0008597-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Budget analog practice",
+      "es": "Práctica analógica económica"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state analog combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "25W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1 x 8\" Orange",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 492,
@@ -20511,7 +21072,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FBoss-Waza-Air-Bass-Wireless-Personal-Amplification-System-with-Case%2F4UJB",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-WAZA-AIR-Bass%2Fart-GIT0057384-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Silent wireless bass practice",
+      "es": "Práctica de bajo silenciosa sin cables"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Wireless modeling headphone amp",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "Headphone amp",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "None (wireless)",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 493,
@@ -21037,7 +21631,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FYamaha-THR30II-Wireless-Guitar-Amp-Black%2F4Y7F",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-THR30II-Wireless-Black%2Fart-GIT0059043-000"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Desktop hi-fi practice",
+      "es": "Práctica de escritorio con sonido hi-fi"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Desktop modeling",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "30W stereo",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x3.5\" full-range stereo",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 504,
@@ -22113,7 +22740,40 @@
       "zzounds": "https://www.zzounds.com/item--BOSKTN110B?siid=314937",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-Katana-110-Bass%2Fart-BAS0012110-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Gig-ready modeling combo",
+      "es": "Combo de modeling para directo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Modeling combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "60W RMS (110W peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x10\" + tweeter",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 553,
@@ -22239,7 +22899,40 @@
       "andertons": "https://www.andertons.co.uk/ampeg-rocket-rb-115-200w-bass-combo/?search_query=Ampeg%20Rocket%20Bass%20RB-115",
       "zzounds": "https://www.zzounds.com/item--AMPRB115"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "SVT tone with 15-inch depth",
+      "es": "Sonido SVT con profundidad de 15\""
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state Class-D",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "200W (100W standalone)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x15\" custom Lavoce",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 557,
@@ -22260,7 +22953,40 @@
       "andertons": "https://www.andertons.co.uk/boss-katana-50-ex-gen-3-50w-guitar-amp-combo/",
       "zzounds": "https://www.zzounds.com/item--BOSKTN50EXV3"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Gig-ready modeling, home + stage",
+      "es": "Modeling para casa y escenario"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Solid-state modeling",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "50W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\"",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 558,
@@ -24673,7 +25399,40 @@
       "zzounds": "https://www.zzounds.com/item--FEN2310700?siid=275184",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Mustang-GTX100/art-GIT0052219-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Stage modeling with footswitch",
+      "es": "Modeling de escenario con pedal"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Digital modeling combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "100W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\" Celestion",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 628,
@@ -24693,7 +25452,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Markbass-CMD-102-P-V-Combo/art-BAS0012899-000",
       "andertons": "https://www.andertons.co.uk/markbass-cmd-102-p-v-500w-bass-combo/"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Featherweight pro bass fidelity",
+      "es": "Bajo profesional ligero y fiel"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Bass combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "300W (500W w/ ext cab)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "2x10\" + piezo tweeter",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 629,
@@ -24714,7 +25506,40 @@
       "zzounds": "https://www.zzounds.com/item--FEN2274100?siid=264387",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Tone-Master-Deluxe-Reverb/art-GIT0050563-000"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Tube tone without tubes",
+      "es": "Sonido a válvulas sin válvulas"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Digital combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "100W (22W tube sim)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "speaker",
+        "value": "1x12\" Jensen Neo",
+        "label": {
+          "en": "Speaker",
+          "es": "Altavoz"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 630,
