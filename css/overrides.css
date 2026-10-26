@@ -187,8 +187,8 @@
   .guide-section-quickfacts {
     grid-column: 2 !important;
     flex: 0 0 auto !important;
-    width: 180px !important;
-    height: 180px !important;
+    width: 200px !important;
+    height: 200px !important;
     padding: 8px 10px !important;
     gap: 4px !important;
   }
@@ -197,8 +197,8 @@
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    width: 180px !important;
-    height: 180px !important;
+    width: 200px !important;
+    height: 200px !important;
   }
 }
 /* Store buttons inside imgs: third column (360px), stacked, thin */
