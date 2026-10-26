@@ -17,7 +17,7 @@
 .guide-section-quickfacts .qf-bestfor .qf-value,
 .guide-section-quickfacts .qf-fact .qf-label,
 .guide-section-quickfacts .qf-fact .qf-value {
-  font-size: 10px !important;
+  font-size: 15px !important;
   line-height: 1.2 !important;
   text-align: left !important;
 }
@@ -131,7 +131,7 @@
   .guide-section-quickfacts .qf-bestfor .qf-value,
   .guide-section-quickfacts .qf-fact .qf-label,
   .guide-section-quickfacts .qf-fact .qf-value {
-    font-size: 9px !important;
+    font-size: 13px !important;
   }
 
   /* Photos bigger ~ half screen and separated from text */
