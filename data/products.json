@@ -4302,7 +4302,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Podcast & broadcast",
+      "es": "Podcast y radio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 198,
@@ -4542,7 +4575,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Guitar amps & brass",
+      "es": "Amplis y metales"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Ribbon",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Figure-8",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "135 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 207,
@@ -4567,7 +4633,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Drum overheads & strings",
+      "es": "Overheads y cuerdas"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Ribbon",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Figure-8",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "125 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 208,
@@ -4592,7 +4691,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Acoustic instruments & overheads",
+      "es": "Instrumentos acústicos y overheads"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "13 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 209,
@@ -4617,7 +4749,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Studio vocals & instruments",
+      "es": "Voz e instrumentos en estudio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Multi-pattern",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "9 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 210,
@@ -4643,7 +4808,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Guitar amps & snare",
+      "es": "Amplis y caja"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "150+ dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 211,
@@ -4668,7 +4866,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Snare, toms & broadcast",
+      "es": "Caja, toms y radio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Hypercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "146 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 212,
@@ -4693,7 +4924,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Kick drum & bass amps",
+      "es": "Bombo y amplis de bajo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "174 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 213,
@@ -4718,7 +4982,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Kick drum",
+      "es": "Bombo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "144 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 214,
@@ -4740,7 +5037,40 @@
       "andertons": "https://www.andertons.co.uk/sennheiser-e604-dynamic-drum-brass-mic/?search_query=Sennheiser%20e604",
       "zzounds": "https://www.zzounds.com/item--SENE604"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Toms & snare",
+      "es": "Toms y caja"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "160 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 215,
@@ -4765,7 +5095,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Instruments (clip-on)",
+      "es": "Instrumentos (clip-on)"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "142 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 216,
