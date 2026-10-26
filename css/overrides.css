@@ -1,4 +1,42 @@
 /* Mobile-only overrides for layout */
+/* Quick facts cards: center text, same size label/value, label on top (all breakpoints) */
+.guide-section-quickfacts .qf-card {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+  padding: 6px 8px !important;
+}
+.guide-section-quickfacts .qf-bestfor .qf-label,
+.guide-section-quickfacts .qf-bestfor .qf-value,
+.guide-section-quickfacts .qf-fact .qf-label,
+.guide-section-quickfacts .qf-fact .qf-value {
+  font-size: 10px !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+}
+.guide-section-quickfacts .qf-fact {
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 3px !important;
+}
+.guide-section-quickfacts .qf-fact .qf-icon {
+  margin-bottom: 2px !important;
+}
+.guide-section-quickfacts .qf-fact .qf-text {
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1px !important;
+}
+.guide-section-quickfacts .qf-fact .qf-label {
+  order: 1 !important;
+}
+.guide-section-quickfacts .qf-fact .qf-value {
+  order: 2 !important;
+}
+
 @media (max-width: 640px) {
   /* Reviews tighter */
   .guide-reviews-list {
@@ -23,7 +61,7 @@
     height: auto !important;
   }
 
-  /* Fix: flex: 0 0 340px en style.css se convierte en height: 340px en móvil (columna) */
+  /* Fix: flex: 0 0 340px en style.css se convierte en height: 340px en movil (columna) */
   .guide-section-mediabuy > .guide-section-buy {
     flex: 0 0 auto !important;
     height: auto !important;
@@ -74,43 +112,5 @@
   /* Hide empty video placeholder to avoid extra grid row */
   .guide-section-imgs .guide-video-thumb.guide-video-placeholder {
     display: none !important;
-  }
-
-  /* Quick facts cards: center text, same size label/value, label on top */
-  .guide-section-quickfacts .qf-card {
-    text-align: center !important;
-    align-items: center !important;
-    justify-content: center !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 2px !important;
-    padding: 6px 8px !important;
-  }
-  .guide-section-quickfacts .qf-bestfor .qf-label,
-  .guide-section-quickfacts .qf-bestfor .qf-value,
-  .guide-section-quickfacts .qf-fact .qf-label,
-  .guide-section-quickfacts .qf-fact .qf-value {
-    font-size: 10px !important;
-    line-height: 1.2 !important;
-    text-align: center !important;
-  }
-  .guide-section-quickfacts .qf-fact {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 3px !important;
-  }
-  .guide-section-quickfacts .qf-fact .qf-icon {
-    margin-bottom: 2px !important;
-  }
-  .guide-section-quickfacts .qf-fact .qf-text {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 1px !important;
-  }
-  .guide-section-quickfacts .qf-fact .qf-label {
-    order: 1 !important;
-  }
-  .guide-section-quickfacts .qf-fact .qf-value {
-    order: 2 !important;
   }
 }
